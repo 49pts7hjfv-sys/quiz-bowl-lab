@@ -1,0 +1,511 @@
+{
+  "id": "abraham-lincoln",
+  "name": "Abraham Lincoln",
+  "mono": "AL",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "16th U.S. President · Led the Union through the Civil War",
+  "dates": "1809–1865",
+  "briefing": "Abraham Lincoln was born in a one-room log cabin in Kentucky, went to school for less than a year in all, and taught himself to be a lawyer. As the 16th president, he led the Union through the Civil War and issued the Emancipation Proclamation. Just five days after Robert E. Lee surrendered in 1865, John Wilkes Booth shot him at Ford’s Theatre in Washington, D.C.",
+  "answerHtml": "Abraham <b><u>Lincoln</u></b>",
+  "accept": [
+    "abraham lincoln",
+    "lincoln",
+    "abe lincoln",
+    "president lincoln"
+  ],
+  "prompt": [
+    "abraham",
+    "abe",
+    "honest abe",
+    "great emancipator"
+  ],
+  "reject": [
+    "lincoln memorial",
+    "mary todd lincoln",
+    "mary todd",
+    "mary lincoln",
+    "robert todd lincoln",
+    "robert lincoln",
+    "tad lincoln",
+    "willie lincoln",
+    "benjamin lincoln",
+    "lincoln douglas",
+    "stephen douglas",
+    "assassination"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Abraham Lincoln: U.S. President | Mini Bio",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=L80_q2tPveo",
+      "note": "Short · his life story, from the frontier to the White House"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What Happened at Ford’s Theatre? (Elementary School)",
+      "source": "Ford’s Theatre",
+      "url": "https://www.youtube.com/watch?v=BzDzJ7a95cg",
+      "note": "Short · the historic site explains the night he was shot (made for younger students)"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Abraham Lincoln’s Historic Legacy",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=o5fXh02qGic",
+      "note": "Short clip · why he is remembered as one of the greatest presidents"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Did This Photo Make Lincoln President? | The Bigger Picture",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=4Mm1i2kpqww",
+      "note": "Mathew Brady’s 1860 portrait, taken the day of the Cooper Union speech"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The Civil War, Part I (#20)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=rY9zHNOjGrs",
+      "note": "The bigger picture: the war he led, from its causes to why the Union won"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "President Abraham Lincoln",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/abrahamlincoln.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+  "qb": {
+    "q": "Abraham Lincoln",
+    "found": 8,
+    "tip": "Two of the eight results ask for his assassination (“what event”), not the man himself; that is the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups that came up for this search (Middle School + Easy High School, power-marked; 2 of them wanted “assassination of Abraham Lincoln”)"
+  },
+  "tossups": [
+    {
+      "p": "As a one-term congressman from Illinois, this man introduced the “Spot Resolutions,” which challenged President James K. Polk to name the exact spot where American blood had been shed to start the Mexican-American War. A decade later, he warned that “a house divided against itself cannot stand.”",
+      "r": "As president, he issued the Emancipation Proclamation. For 10 points, name this leader of the Union during the Civil War."
+    },
+    {
+      "p": "Mathew Brady photographed this man on the same day he gave a speech at New York’s Cooper Union arguing that the national government could keep slavery out of the western territories. Months later, this man beat Stephen Douglas, John Bell, and John C. Breckinridge in a four-way presidential race.",
+      "r": "He became the first Republican president. For 10 points, name this man who led the Union through the Civil War."
+    },
+    {
+      "p": "In the elegy “When Lilacs Last in the Dooryard Bloom’d,” Walt Whitman mourns this man with the image of a “powerful western fallen star.” Another Whitman poem pictures this man as a ship’s captain who lies “fallen cold and dead” on the deck as his ship comes safely into port.",
+      "r": "That poem is “O Captain! My Captain!” For 10 points, name this president who was assassinated by John Wilkes Booth in 1865."
+    },
+    {
+      "p": "In 1862, this president signed the Homestead Act, which offered western settlers 160 acres of land, and the Morrill Act, which gave states federal land to pay for colleges. That same year, he signed the Pacific Railway Act, which led to the first transcontinental railroad.",
+      "r": "After the Battle of Antietam, he announced his plan to free enslaved people in the Confederacy. For 10 points, name this president who issued the Emancipation Proclamation."
+    },
+    {
+      "p": "This president used a pocket veto to kill the Wade-Davis Bill, which Radical Republicans wrote as a much stricter plan for bringing Southern states back into the Union. His own Ten Percent Plan let a state form a new government once ten percent of its 1860 voters swore loyalty to the United States.",
+      "r": "He was shot just five days after Robert E. Lee surrendered. For 10 points, name this 16th president."
+    },
+    {
+      "p": "At Freeport, Illinois, this man asked a question that forced his opponent to explain how settlers could keep slavery out of a territory despite the _Dred Scott_ decision. This man lost the 1858 Senate election in Illinois, but his seven debates with that opponent made him famous across the country.",
+      "r": "That opponent was Stephen Douglas. For 10 points, name this Illinois Republican who won the presidency two years later."
+    },
+    {
+      "p": "This man was asked to give “a few appropriate remarks” after Edward Everett’s two-hour speech at the dedication of a soldiers’ cemetery in Pennsylvania in November 1863. This man’s short speech there called for “a new birth of freedom.”",
+      "r": "That speech begins “Four score and seven years ago.” For 10 points, name this president who gave the Gettysburg Address."
+    },
+    {
+      "p": "Chief Justice Roger Taney [“TAW-nee”] ruled in _Ex parte Merryman_ that only Congress, not this president, could suspend the writ of habeas corpus [“HAY-bee-us KOR-pus”], but this president ignored the ruling. He also ordered a naval blockade of Southern ports days after Confederates fired on Fort Sumter.",
+      "r": "For 10 points, name this president who led the Union during the Civil War and was shot at Ford’s Theatre."
+    },
+    {
+      "p": "Doris Kearns Goodwin’s book _Team of Rivals_ describes how this president filled his cabinet with men who had competed against him for the 1860 nomination, including William Seward and Salmon Chase. A 2012 Steven Spielberg film shows this president pushing the Thirteenth Amendment through the House.",
+      "r": "Daniel Day-Lewis won an Oscar for playing him in that film. For 10 points, name this 16th president."
+    },
+    {
+      "p": "About six weeks before his death, this president asked the nation to act “with malice toward none, with charity for all” in his Second Inaugural Address. Four years earlier, he had ended his first inaugural address by hoping Americans would be touched by “the better angels of our nature.”",
+      "r": "In April 1865, he was shot at Ford’s Theatre. For 10 points, name this Civil War president."
+    },
+    {
+      "p": "After a long campaign by magazine editor Sarah Josepha Hale, this president proclaimed a national day of Thanksgiving for the last Thursday in November 1863. Earlier that year, on New Year’s Day, his order declaring enslaved people in the rebelling states to be free took effect.",
+      "r": "That November, he also gave a short speech at Gettysburg. For 10 points, name this president who issued the Emancipation Proclamation."
+    },
+    {
+      "p": "This president ran for reelection on the National Union ticket with Andrew Johnson, a Democrat from Tennessee, who replaced his first vice president, Hannibal Hamlin. In that 1864 election, this president defeated George McClellan, a general he had removed from command.",
+      "r": "For 10 points, name this president who was assassinated only weeks into his second term."
+    },
+    {
+      "p": "As a young man, this future president was elected captain of a militia company in the Black Hawk War and later served as postmaster of New Salem, Illinois. Born in a log cabin in Kentucky, he grew up in Indiana and was nicknamed the “Rail-Splitter” for chopping logs into fence rails.",
+      "r": "He later debated Stephen Douglas in a famous Senate race. For 10 points, name this man who became the 16th president."
+    },
+    {
+      "p": "This man is the only U.S. president to receive a patent, for a device to lift boats over sandbars. In an 1854 speech at Peoria, he attacked the Kansas-Nebraska Act, which let settlers vote on whether to allow slavery, an idea called popular sovereignty.",
+      "r": "Four years later, he debated that act’s author, Stephen Douglas. For 10 points, name this man who became the first Republican president."
+    },
+    {
+      "p": "On the night this man was shot, Lewis Powell attacked Secretary of State William Seward as part of the same plot. Afterward, boarding-house owner Mary Surratt became the first woman executed by the federal government, and Dr. Samuel Mudd went to prison after treating the killer’s broken leg.",
+      "r": "This man had been watching the comedy _Our American Cousin_. For 10 points, name this president killed at Ford’s Theatre."
+    }
+  ],
+  "clues": [
+    {
+      "id": "civil-war-president",
+      "tier": "giveaway",
+      "t": "16th President (1861–1865); led the Union during the Civil War",
+      "k": [
+        "16th president",
+        "civil war",
+        "union",
+        "sixteenth"
+      ],
+      "n": 5
+    },
+    {
+      "id": "booth",
+      "tier": "giveaway",
+      "t": "Shot by John Wilkes Booth at Ford’s Theatre on April 14, 1865; died the next morning",
+      "k": [
+        "ford’s theatre",
+        "fords theatre",
+        "wilkes booth",
+        "booth"
+      ],
+      "n": 5,
+      "rabbit": "John Wilkes Booth"
+    },
+    {
+      "id": "emancipation",
+      "tier": "giveaway",
+      "t": "Issued the Emancipation Proclamation, which took effect on January 1, 1863",
+      "k": [
+        "emancipation",
+        "proclamation",
+        "january 1"
+      ],
+      "n": 3,
+      "rabbit": "Emancipation Proclamation"
+    },
+    {
+      "id": "gettysburg-address",
+      "tier": "giveaway",
+      "t": "Gave the Gettysburg Address (1863), which begins “Four score and seven years ago”",
+      "k": [
+        "gettysburg",
+        "four score",
+        "address"
+      ],
+      "n": 1,
+      "rabbit": "Gettysburg Address"
+    },
+    {
+      "id": "house-divided",
+      "tier": "middle",
+      "t": "“House Divided” speech (1858): “A house divided against itself cannot stand”",
+      "k": [
+        "house divided",
+        "divided",
+        "cannot stand"
+      ],
+      "n": 4
+    },
+    {
+      "id": "douglas-debates",
+      "tier": "middle",
+      "t": "Ran against Stephen Douglas for the Senate in 1858; lost, but their seven debates made him famous",
+      "k": [
+        "stephen douglas",
+        "douglas",
+        "debates",
+        "1858"
+      ],
+      "n": 4,
+      "rabbit": "Stephen Douglas"
+    },
+    {
+      "id": "our-american-cousin",
+      "tier": "middle",
+      "t": "Was watching the comedy _Our American Cousin_ when he was shot",
+      "k": [
+        "our american cousin",
+        "american cousin",
+        "comedy"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mcclellan",
+      "tier": "middle",
+      "t": "Removed General George McClellan from command, then beat him in the 1864 election",
+      "k": [
+        "mcclellan",
+        "1864"
+      ],
+      "n": 1
+    },
+    {
+      "id": "vice-presidents",
+      "tier": "middle",
+      "t": "Vice presidents: Hannibal Hamlin, then Andrew Johnson, who became president after his death",
+      "k": [
+        "andrew johnson",
+        "johnson",
+        "hannibal hamlin",
+        "hamlin"
+      ],
+      "n": 1,
+      "rabbit": "Andrew Johnson"
+    },
+    {
+      "id": "first-republican",
+      "tier": "middle",
+      "t": "First Republican president; won a four-way election in 1860, and Southern states began to secede",
+      "k": [
+        "first republican",
+        "republican",
+        "1860",
+        "secede"
+      ],
+      "n": 0
+    },
+    {
+      "id": "second-inaugural",
+      "tier": "middle",
+      "t": "Second Inaugural Address (1865): “With malice toward none, with charity for all”",
+      "k": [
+        "malice toward none",
+        "malice",
+        "charity for all",
+        "second inaugural"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thirteenth-amendment",
+      "tier": "middle",
+      "t": "Pushed the 13th Amendment, which abolished slavery, through the House in 1865 (the plot of Steven Spielberg’s 2012 film)",
+      "k": [
+        "13th amendment",
+        "thirteenth",
+        "spielberg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "log-cabin",
+      "tier": "middle",
+      "t": "Born in a log cabin in Kentucky (1809); grew up in Indiana; nicknamed the “Rail-Splitter”",
+      "k": [
+        "log cabin",
+        "kentucky",
+        "rail-splitter",
+        "indiana"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spot-resolutions",
+      "tier": "power",
+      "t": "As a one-term congressman, wrote the “Spot Resolutions” asking President Polk where the Mexican War really began",
+      "k": [
+        "spot resolutions",
+        "spot",
+        "polk",
+        "mexican"
+      ],
+      "n": 3
+    },
+    {
+      "id": "cooper-union",
+      "tier": "power",
+      "t": "Cooper Union speech in New York (1860) opposed spreading slavery to the territories; Mathew Brady photographed him that day",
+      "k": [
+        "cooper union",
+        "cooper",
+        "mathew brady",
+        "brady"
+      ],
+      "n": 2
+    },
+    {
+      "id": "assassination-plot",
+      "tier": "power",
+      "t": "The same plot targeted William Seward (attacked by Lewis Powell); Mary Surratt was executed and Dr. Samuel Mudd went to prison",
+      "k": [
+        "surratt",
+        "samuel mudd",
+        "mudd",
+        "lewis powell",
+        "seward"
+      ],
+      "n": 2
+    },
+    {
+      "id": "peoria",
+      "tier": "power",
+      "t": "Peoria speech (1854) attacked the Kansas-Nebraska Act and popular sovereignty",
+      "k": [
+        "peoria",
+        "kansas-nebraska",
+        "popular sovereignty"
+      ],
+      "n": 1,
+      "rabbit": "Kansas-Nebraska Act"
+    },
+    {
+      "id": "whitman",
+      "tier": "power",
+      "t": "Mourned in Walt Whitman’s poems “O Captain! My Captain!” and “When Lilacs Last in the Dooryard Bloom’d”",
+      "k": [
+        "whitman",
+        "o captain",
+        "lilacs"
+      ],
+      "n": 1,
+      "rabbit": "Walt Whitman"
+    },
+    {
+      "id": "wartime-laws",
+      "tier": "power",
+      "t": "Signed the first federal income tax (1861) and the Homestead, Morrill (land-grant colleges), and Pacific Railway Acts (1862)",
+      "k": [
+        "income tax",
+        "homestead",
+        "morrill",
+        "land-grant",
+        "pacific railway"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wade-davis",
+      "tier": "power",
+      "t": "Pocket-vetoed the Wade-Davis Bill; his own Ten Percent Plan needed 10% of a state’s 1860 voters to swear loyalty",
+      "k": [
+        "wade-davis",
+        "ten percent",
+        "pocket veto"
+      ],
+      "n": 1
+    },
+    {
+      "id": "team-of-rivals",
+      "tier": "power",
+      "t": "Cabinet of former rivals, including William Seward and Salmon Chase, whom he later made Chief Justice (_Team of Rivals_)",
+      "k": [
+        "team of rivals",
+        "salmon chase",
+        "chase",
+        "rivals"
+      ],
+      "n": 1
+    },
+    {
+      "id": "freeport",
+      "tier": "power",
+      "t": "At Freeport, his question forced Douglas to explain how a territory could keep out slavery after _Dred Scott_",
+      "k": [
+        "freeport",
+        "dred scott"
+      ],
+      "n": 0
+    },
+    {
+      "id": "habeas-corpus",
+      "tier": "power",
+      "t": "Suspended habeas corpus; Chief Justice Roger Taney objected in _Ex parte Merryman_ (1861)",
+      "k": [
+        "habeas corpus",
+        "taney",
+        "merryman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "everett",
+      "tier": "power",
+      "t": "Spoke after Edward Everett’s two-hour speech at the Gettysburg cemetery dedication; called for “a new birth of freedom”",
+      "k": [
+        "everett",
+        "new birth of freedom",
+        "two-hour"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thanksgiving",
+      "tier": "power",
+      "t": "Proclaimed a national day of Thanksgiving (1863) after a long campaign by editor Sarah Josepha Hale",
+      "k": [
+        "thanksgiving",
+        "sarah josepha hale",
+        "hale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "patent",
+      "tier": "power",
+      "t": "Only president to hold a patent: a device to lift boats over sandbars (1849)",
+      "k": [
+        "patent",
+        "sandbars",
+        "boats"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-hawk",
+      "tier": "power",
+      "t": "Militia captain in the Black Hawk War (1832); postmaster of New Salem, Illinois",
+      "k": [
+        "black hawk",
+        "new salem",
+        "postmaster"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The man or the event?",
+    "body": "Two of the eight real results for this search asked for the assassination of Abraham Lincoln, not the man. Those answer lines require both “assassination” and “Lincoln,” so saying only “Lincoln” earns just a prompt. Clues like Ford’s Theatre, _Our American Cousin_, John Wilkes Booth, and Mary Surratt show up in both kinds of questions.",
+    "fix": "Listen for the noun. “This man” or “this president” wants Lincoln; “this event” or “what crime” wants “the assassination of Lincoln.” If the moderator prompts you, say the whole thing.",
+    "line": "Real answer lines: Abraham <b><u>Lincoln</u></b> and <b><u>assassination</u></b> of Abraham <b><u>Lincoln</u></b> (both underlined parts required; prompt on partial answers)"
+  },
+  "tests": {
+    "right": [
+      "Abraham Lincoln",
+      "Lincoln",
+      "Abe Lincoln",
+      "President Lincoln",
+      "Abraham Lincon",
+      "lincon"
+    ],
+    "prompt": [
+      "Abraham",
+      "Honest Abe"
+    ],
+    "wrong": [
+      "Lincoln Memorial",
+      "Mary Todd Lincoln",
+      "Robert Todd Lincoln",
+      "Lincoln-Douglas debates",
+      "Stephen Douglas",
+      "Jefferson Davis",
+      "Andrew Johnson"
+    ]
+  },
+  "freq": {
+    "rank": 5,
+    "count": 7,
+    "list": "American History"
+  }
+}

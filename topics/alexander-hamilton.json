@@ -1,0 +1,482 @@
+{
+  "id": "alexander-hamilton",
+  "name": "Alexander Hamilton",
+  "mono": "AH",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "1st Secretary of the Treasury · Built the nation’s money system",
+  "dates": "1755 or 1757–1804",
+  "briefing": "Alexander Hamilton was born on the tiny Caribbean island of Nevis, lost his mother as a boy, and wrote his way to the American colonies, where he became George Washington’s right-hand man in the Revolution. As the first Secretary of the Treasury, he built the young nation’s money system, and his face is on the $10 bill. He was killed in an 1804 duel with Aaron Burr, and his life story became the hit musical _Hamilton_.",
+  "answerHtml": "Alexander <b><u>Hamilton</u></b>",
+  "accept": [
+    "alexander hamilton",
+    "hamilton",
+    "alex hamilton"
+  ],
+  "prompt": [],
+  "reject": [
+    "aaron burr",
+    "burr",
+    "hamilton fish",
+    "andrew hamilton",
+    "eliza hamilton",
+    "elizabeth hamilton",
+    "philip hamilton",
+    "lewis hamilton",
+    "thomas jefferson",
+    "james madison",
+    "john jay"
+  ],
+  "tests": {
+    "right": [
+      "Alexander Hamilton",
+      "Hamilton",
+      "Alexander Hamiltn",
+      "Alex Hamilton",
+      "hamiltan"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Aaron Burr",
+      "Hamilton Fish",
+      "Andrew Hamilton",
+      "Eliza Hamilton",
+      "Thomas Jefferson",
+      "James Madison"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Alexander Hamilton: Author of The Federalist Papers & First Secretary of Treasury | Mini Bio",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=NP2a1xkbLgU",
+      "note": "Short biography · his whole life, from the Caribbean to the fatal duel"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Alexander Hamilton: The First Secretary of the Treasury",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=Ly0a19jYguw",
+      "note": "Short clip · what he did as the first Secretary of the Treasury"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Alexander Hamilton: Founder and First Treasury Secretary",
+      "source": "PBS LearningMedia",
+      "url": "https://www.youtube.com/watch?v=yx3pe-oY1ZA",
+      "note": "Classroom video · his work as a founder and as the first Treasury Secretary"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Hamilton: Building America · Alexander Hamilton vs. Aaron Burr",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=VjsqZHb32Gk",
+      "note": "Documentary clip · the long rivalry that ended in the 1804 duel"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Where US Politics Came From (#9)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=r161cLYzuDI",
+      "note": "His money plan vs. Jefferson’s ideas, and how the first political parties began"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Biography for Kids: Alexander Hamilton",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/american_revolution/alexander_hamilton.php",
+      "note": "Quick kid-friendly read"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Alexander_Hamilton",
+  "qb": {
+    "q": "Alexander Hamilton",
+    "found": 6,
+    "tip": "One of the six asks for the Burr–Hamilton duel itself and one asks about the musical’s main character, so read each answer line before you study it."
+  },
+  "sample": {
+    "n": 13,
+    "note": "13 real QBReader tossups (6 Middle School/Easy High School + 7 Regular High School, power-marked; 1 asked for the Burr–Hamilton duel)"
+  },
+  "tossups": [
+    {
+      "p": "While studying at King’s College, now Columbia University, this young man spoke to an angry Patriot mob on the college steps so that its Loyalist president, Myles Cooper, could escape. During the Revolution, he became an aide-de-camp to George Washington.",
+      "r": "He later served as the first Secretary of the Treasury. For 10 points, name this Founding Father who was killed in a duel by Aaron Burr."
+    },
+    {
+      "p": "As a college student, this writer answered the Loyalist minister Samuel Seabury with the pamphlets _A Full Vindication of the Measures of Congress_ and _The Farmer Refuted_. Years later, he joined James Madison and John Jay in writing essays under the pen name “Publius.”",
+      "r": "Those essays, _The Federalist Papers_, defended the Constitution. For 10 points, name this first Secretary of the Treasury."
+    },
+    {
+      "p": "At the Battle of Yorktown, this officer led a nighttime bayonet charge that captured Redoubt No. 10 from the British. He had spent four years before that as one of George Washington’s most trusted aides-de-camp.",
+      "r": "During the war he married Elizabeth Schuyler, a general’s daughter. For 10 points, name this New Yorker who became the first Secretary of the Treasury."
+    },
+    {
+      "p": "With Egbert Benson, this delegate represented New York at the 1786 Annapolis Convention, where he wrote the report calling for a bigger meeting in Philadelphia the next year. At that Philadelphia meeting, he was the only New York delegate to sign the new Constitution.",
+      "r": "He then wrote most of _The Federalist Papers_ to defend it. For 10 points, name this first Secretary of the Treasury."
+    },
+    {
+      "p": "In one essay, this author argued that “energy in the executive” is a key part of good government. In another, he called the courts the “least dangerous” branch because they control neither the sword nor the purse. He wrote 51 of the 85 essays in that series.",
+      "r": "For 10 points, name this main author of _The Federalist Papers_, who later became the first Secretary of the Treasury."
+    },
+    {
+      "p": "The U.S. Coast Guard traces its history to the Revenue Cutter Service, a fleet of small armed ships this official created in 1790 to stop smugglers from dodging taxes. This official also paid for the new government by taxing whiskey.",
+      "r": "That tax sparked the Whiskey Rebellion. For 10 points, name this first Secretary of the Treasury, who appears on the $10 bill."
+    },
+    {
+      "p": "When the speculator William Duer’s collapse helped cause the Panic of 1792, this official used a “sinking fund” to buy government bonds and calm the markets. That fund had been part of his plan to pay off the debts from the Revolution.",
+      "r": "His Report on Public Credit called for the national government to take over the states’ war debts. For 10 points, name this first Secretary of the Treasury."
+    },
+    {
+      "p": "At a 1790 dinner hosted by Thomas Jefferson, this man and James Madison struck a famous bargain: Southern votes for his debt plan in exchange for putting the new national capital on the Potomac River. That deal is called the Compromise of 1790.",
+      "r": "A rap “Cabinet Battle” in a 2015 Broadway musical shows him fighting with Jefferson over that debt plan. For 10 points, name this first Secretary of the Treasury."
+    },
+    {
+      "p": "This official’s Report on Manufactures argued that tariffs and cash “bounties” could help young American factories compete with Britain’s. Congress did not adopt most of that 1791 report, but his plan for a national bank passed the same year.",
+      "r": "He argued with Thomas Jefferson over whether that First Bank of the United States was constitutional. For 10 points, name this first Secretary of the Treasury."
+    },
+    {
+      "p": "When President Washington asked his cabinet whether a national bank was constitutional, this official argued that the “necessary and proper” clause gave Congress implied powers to create one. Washington agreed and signed the bank bill in 1791.",
+      "r": "Thomas Jefferson had argued the opposite. For 10 points, name this first Secretary of the Treasury, who created the First Bank of the United States."
+    },
+    {
+      "p": "After James Reynolds blackmailed him, this official published a 1797 pamphlet confessing to a personal scandal involving Reynolds’s wife, Maria. He made the scandal public to prove that the secret payments were not stolen Treasury money, but the confession badly damaged his reputation.",
+      "r": "For 10 points, name this first Secretary of the Treasury, who was later killed in a duel with Aaron Burr."
+    },
+    {
+      "p": "This man nearly fought a duel with James Monroe in 1797, blaming Monroe for leaking papers about one of his scandals; Aaron Burr helped calm the dispute. In the tied election of 1800, this man urged Federalists in the House to choose Thomas Jefferson over Burr.",
+      "r": "Burr killed him in a duel four years later. For 10 points, name this first Secretary of the Treasury."
+    },
+    {
+      "p": "During the Quasi-War with France, this former cabinet member was made a major general and second-in-command of a new army, under the aging George Washington. Two years later, he wrote a pamphlet attacking President John Adams, which split their Federalist Party.",
+      "r": "He was later killed in a duel by Aaron Burr. For 10 points, name this Federalist leader and first Secretary of the Treasury."
+    },
+    {
+      "p": "A newspaper printed Dr. Charles Cooper’s letter claiming that this man had expressed a “despicable opinion” of a rival who had just lost the 1804 race for governor of New York. That rival demanded an explanation, and when this man would not give one, the two met at Weehawken, New Jersey.",
+      "r": "That rival, Vice President Aaron Burr, shot this man in their duel. For 10 points, name this first Secretary of the Treasury."
+    },
+    {
+      "p": "After a hurricane struck St. Croix in 1772, this teenage clerk wrote a vivid letter about the storm that was printed in a local newspaper. Impressed readers raised money to send him to school in North America, far from his birthplace on the island of Nevis.",
+      "r": "His life story became a hit 2015 musical by Lin-Manuel Miranda. For 10 points, name this first Secretary of the Treasury."
+    }
+  ],
+  "clues": [
+    {
+      "id": "treasury",
+      "tier": "giveaway",
+      "t": "First Secretary of the Treasury (1789–1795), under George Washington",
+      "k": [
+        "treasury",
+        "secretary of the treasury",
+        "first secretary"
+      ],
+      "n": 12
+    },
+    {
+      "id": "burr-duel",
+      "tier": "giveaway",
+      "t": "Killed in an 1804 duel by Vice President Aaron Burr",
+      "k": [
+        "aaron burr",
+        "burr",
+        "duel",
+        "1804"
+      ],
+      "n": 10,
+      "rabbit": "Aaron Burr"
+    },
+    {
+      "id": "federalist",
+      "tier": "giveaway",
+      "t": "Wrote 51 of the 85 essays in _The Federalist Papers_ with James Madison and John Jay, all signed “Publius”",
+      "k": [
+        "federalist papers",
+        "federalist",
+        "publius",
+        "51"
+      ],
+      "n": 10,
+      "rabbit": "The Federalist Papers"
+    },
+    {
+      "id": "ten-dollar",
+      "tier": "giveaway",
+      "t": "His portrait is on the $10 bill",
+      "k": [
+        "$10 bill",
+        "ten dollar",
+        "$10",
+        "portrait"
+      ],
+      "n": 3
+    },
+    {
+      "id": "musical",
+      "tier": "giveaway",
+      "t": "Title character of Lin-Manuel Miranda’s 2015 musical, with songs like “My Shot” and “Cabinet Battle”",
+      "k": [
+        "lin-manuel miranda",
+        "miranda",
+        "musical",
+        "my shot",
+        "cabinet battle"
+      ],
+      "n": 2
+    },
+    {
+      "id": "public-credit",
+      "tier": "middle",
+      "t": "Report on Public Credit (1790): the national government should assume (take over) the states’ Revolutionary War debts",
+      "k": [
+        "public credit",
+        "assume",
+        "assumption",
+        "debts"
+      ],
+      "n": 8
+    },
+    {
+      "id": "national-bank",
+      "tier": "middle",
+      "t": "Created the First Bank of the United States (1791), defending it with “implied powers”; Jefferson called it unconstitutional",
+      "k": [
+        "first bank",
+        "national bank",
+        "implied powers",
+        "bank"
+      ],
+      "n": 3
+    },
+    {
+      "id": "manufactures",
+      "tier": "middle",
+      "t": "Report on Manufactures (1791): tariffs and cash “bounties” to help American factories grow",
+      "k": [
+        "manufactures",
+        "factories",
+        "tariffs",
+        "bounties"
+      ],
+      "n": 4
+    },
+    {
+      "id": "whiskey",
+      "tier": "middle",
+      "t": "His tax on whiskey led to the Whiskey Rebellion (1794) in western Pennsylvania",
+      "k": [
+        "whiskey",
+        "excise",
+        "rebellion"
+      ],
+      "n": 2,
+      "rabbit": "Whiskey Rebellion"
+    },
+    {
+      "id": "weehawken",
+      "tier": "middle",
+      "t": "The duel was at Weehawken, New Jersey, across the Hudson River from New York City; his shot hit a tree branch above Burr",
+      "k": [
+        "weehawken",
+        "new jersey",
+        "hudson",
+        "tree"
+      ],
+      "n": 5
+    },
+    {
+      "id": "election-1800",
+      "tier": "middle",
+      "t": "In the tied election of 1800, urged Federalists in the House to pick Thomas Jefferson over Aaron Burr",
+      "k": [
+        "election of 1800",
+        "1800",
+        "jefferson",
+        "lesser evil"
+      ],
+      "n": 3
+    },
+    {
+      "id": "nevis",
+      "tier": "middle",
+      "t": "Born on Nevis in the West Indies and orphaned young; his letter about a 1772 hurricane on St. Croix got him sent to school in America",
+      "k": [
+        "nevis",
+        "st. croix",
+        "hurricane",
+        "west indies",
+        "orphan"
+      ],
+      "n": 2
+    },
+    {
+      "id": "aide-de-camp",
+      "tier": "middle",
+      "t": "George Washington’s aide-de-camp in the Revolution; led a nighttime attack on Redoubt No. 10 at Yorktown (1781)",
+      "k": [
+        "aide-de-camp",
+        "aide",
+        "yorktown",
+        "redoubt"
+      ],
+      "n": 1
+    },
+    {
+      "id": "reynolds",
+      "tier": "power",
+      "t": "The Reynolds Pamphlet (1797): after James Reynolds blackmailed him, he confessed a personal scandal with Maria Reynolds to prove he never stole Treasury money",
+      "k": [
+        "reynolds pamphlet",
+        "reynolds",
+        "maria reynolds",
+        "blackmail"
+      ],
+      "n": 3
+    },
+    {
+      "id": "compromise-1790",
+      "tier": "power",
+      "t": "Compromise of 1790: at a dinner with Jefferson and Madison, the South backed his debt plan and the capital went on the Potomac River",
+      "k": [
+        "compromise of 1790",
+        "potomac",
+        "dinner",
+        "capital"
+      ],
+      "n": 2
+    },
+    {
+      "id": "annapolis",
+      "tier": "power",
+      "t": "With Egbert Benson, went to the Annapolis Convention (1786) and wrote its call for a Constitutional Convention; the only New York delegate to sign the Constitution",
+      "k": [
+        "annapolis",
+        "egbert benson",
+        "benson",
+        "1786"
+      ],
+      "n": 2
+    },
+    {
+      "id": "sinking-fund",
+      "tier": "power",
+      "t": "Used a “sinking fund” to calm the Panic of 1792, set off partly by the speculator William Duer",
+      "k": [
+        "sinking fund",
+        "panic of 1792",
+        "william duer",
+        "duer"
+      ],
+      "n": 2
+    },
+    {
+      "id": "coast-guard",
+      "tier": "power",
+      "t": "Founded the Revenue Cutter Service (1790), which grew into the U.S. Coast Guard",
+      "k": [
+        "revenue cutter",
+        "coast guard",
+        "cutter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "seabury",
+      "tier": "power",
+      "t": "As a college student, answered Loyalist Samuel Seabury with _A Full Vindication_ and _The Farmer Refuted_",
+      "k": [
+        "seabury",
+        "farmer refuted",
+        "full vindication"
+      ],
+      "n": 1
+    },
+    {
+      "id": "myles-cooper",
+      "tier": "power",
+      "t": "Talked to an angry mob so Myles Cooper, the Loyalist president of King’s College (now Columbia), could escape (1775)",
+      "k": [
+        "myles cooper",
+        "king’s college",
+        "columbia",
+        "mob"
+      ],
+      "n": 1
+    },
+    {
+      "id": "quasi-war",
+      "tier": "power",
+      "t": "Major general and second-in-command of the army in the Quasi-War with France; his 1800 pamphlet attacking John Adams split the Federalists",
+      "k": [
+        "quasi-war",
+        "major general",
+        "second-in-command",
+        "john adams"
+      ],
+      "n": 1
+    },
+    {
+      "id": "federalist-70-78",
+      "tier": "power",
+      "t": "_Federalist_ No. 70 praises “energy in the executive”; No. 78 calls the courts the “least dangerous” branch",
+      "k": [
+        "energy in the executive",
+        "least dangerous",
+        "no. 70",
+        "no. 78"
+      ],
+      "n": 1
+    },
+    {
+      "id": "monroe",
+      "tier": "power",
+      "t": "Nearly dueled James Monroe in 1797 over leaked scandal papers; Aaron Burr helped calm it down",
+      "k": [
+        "james monroe",
+        "monroe",
+        "1797"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cooper-letter",
+      "tier": "power",
+      "t": "Dr. Charles Cooper’s letter reported his “despicable opinion” of Burr after Burr lost the 1804 New York governor’s race",
+      "k": [
+        "charles cooper",
+        "despicable",
+        "governor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "schuyler",
+      "tier": "power",
+      "t": "Married Elizabeth (Eliza) Schuyler; Burr had beaten her father, Philip Schuyler, for a U.S. Senate seat (1791)",
+      "k": [
+        "philip schuyler",
+        "schuyler",
+        "eliza",
+        "elizabeth"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Hamilton or Burr?",
+    "body": "The 1804 duel at Weehawken is a stock clue for both men, and one of the six real results asks for the duel itself. Clues like the tied election of 1800, Philip Schuyler, and the 1804 New York governor’s race also fit Aaron Burr. If you buzz on “Weehawken” without hearing who died, you can lose the tossup.",
+    "fix": "Hamilton is the one who was killed: the first Treasury Secretary, the $10 bill, and most of _The Federalist Papers_. Burr fired the fatal shot: he was Thomas Jefferson’s vice president and was later tried for treason. If the question asks “in what event,” answer “the Burr–Hamilton duel.”",
+    "line": "Real answer line: Alexander <b><u>Hamilton</u></b>"
+  },
+  "freq": {
+    "rank": 5,
+    "count": 7,
+    "list": "American History"
+  }
+}

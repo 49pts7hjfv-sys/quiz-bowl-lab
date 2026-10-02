@@ -1,0 +1,482 @@
+{
+  "id": "george-washington",
+  "name": "George Washington",
+  "mono": "GW",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "1st U.S. President · Commander of the Continental Army",
+  "dates": "1732–1799",
+  "briefing": "Before he was the face on the dollar bill, George Washington was a 22-year-old Virginia officer whose ambush of a French scouting party helped start the French and Indian War. He went on to lead a ragtag Continental Army to victory over the British Empire, and then he gave up power twice, once as general and once as president. Americans still call him the “Father of His Country.”",
+  "answerHtml": "George <b><u>Washington</u></b>",
+  "accept": [
+    "george washington",
+    "washington",
+    "g washington",
+    "general washington",
+    "president washington"
+  ],
+  "prompt": [
+    "george"
+  ],
+  "reject": [
+    "washington dc",
+    "washington d c",
+    "dc",
+    "district of columbia",
+    "washington state",
+    "martha washington",
+    "booker t washington",
+    "booker washington",
+    "george washington carver",
+    "denzel washington"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "George Washington | 60-Second Presidents",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=1-l-9WA-55s",
+      "note": "1 min · his whole life in one minute"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Why Didn’t George Washington Become King of the USA?",
+      "source": "George Washington’s Mount Vernon",
+      "url": "https://www.youtube.com/watch?v=Orga3ac3bzw",
+      "note": "Short answer video · why he gave up power, a favorite quiz bowl idea"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Truth About the Cherry Tree Myth",
+      "source": "George Washington’s Mount Vernon",
+      "url": "https://www.youtube.com/watch?v=tFx0NChJ_xA",
+      "note": "Short answer video · where Parson Weems’s legend came from"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Winter Patriots: A Revolutionary War Tale",
+      "source": "George Washington’s Mount Vernon",
+      "url": "https://www.youtube.com/watch?v=CbGodj0lJ2Q",
+      "note": "25 min film · crossing the Delaware, Trenton, and Princeton"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Where US Politics Came From (#9)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=r161cLYzuDI",
+      "note": "Washington as president: Hamilton vs. Jefferson and the Whiskey Rebellion"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The American Revolution, Part 1",
+      "source": "OverSimplified",
+      "url": "https://www.youtube.com/watch?v=gzALIXcY4pg",
+      "note": "15 min · cartoon history of how the war started (some battle scenes)"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The American Revolution, Part 2",
+      "source": "OverSimplified",
+      "url": "https://www.youtube.com/watch?v=rtYC2jx1LM0",
+      "note": "15 min · Trenton, Valley Forge, and Yorktown in cartoon form"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "President George Washington",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/georgewashington.php",
+      "note": "Quick read with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/George_Washington",
+  "qb": {
+    "q": "George Washington",
+    "found": 9,
+    "tip": "Three of the nine are Fine Arts questions about paintings of him. Art clues count!"
+  },
+  "sample": {
+    "n": 9,
+    "note": "the 9 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In 1754, soldiers led by this man ambushed a French scouting party at Jumonville Glen, helping to spark the French and Indian War. Weeks later, this man surrendered the hastily built Fort Necessity.",
+      "r": "Two horses were shot out from under him during the disastrous Braddock Expedition. For 10 points, name this Virginian who later commanded the Continental Army and became the first U.S. president."
+    },
+    {
+      "p": "Horatio Greenough sculpted this man shirtless and seated like the Greek god Zeus, in a statue that many Americans found ridiculous. A fresco by Constantino Brumidi [“broo-MEE-dee”] in the U.S. Capitol dome shows this man rising into the heavens between Liberty and Victory.",
+      "r": "Emanuel Leutze [“LOYT-suh”] painted this man standing in a crowded boat as soldiers push through floating ice. For 10 points, name this general shown crossing the Delaware River in a famous painting, the first U.S. president."
+    },
+    {
+      "p": "Dolley Madison is said to have saved a full-length portrait of this man as the British burned the White House in 1814. In Grant Wood’s painting _Parson Weems’ Fable_, this man appears as a small boy holding a hatchet beside his father and a chopped cherry tree.",
+      "r": "Gilbert Stuart’s unfinished Athenaeum Portrait of this man was used for his image on the one-dollar bill. For 10 points, name this first president of the United States."
+    },
+    {
+      "p": "After losing the Battle of Long Island, this general used heavy fog to secretly ferry his army across the East River to Manhattan. His later losses at Brandywine and Germantown helped fuel the Conway Cabal, a scheme to replace him with Horatio Gates.",
+      "r": "He then spent a brutal winter at Valley Forge, where Baron von Steuben drilled his troops. For 10 points, name this commander of the Continental Army."
+    },
+    {
+      "p": "This president rode out with about 13,000 militiamen to crush a 1794 revolt by western Pennsylvania farmers angry about a federal tax on distilled spirits. His administration also signed Jay’s Treaty with Britain and Pinckney’s Treaty with Spain.",
+      "r": "His cabinet included the rivals Alexander Hamilton and Thomas Jefferson. For 10 points, name this president who put down the Whiskey Rebellion, the first U.S. president."
+    },
+    {
+      "p": "In a 1796 letter published in a Philadelphia newspaper, this leader warned against the “baneful effects” of political parties and urged the nation to steer clear of permanent alliances with foreign countries. Each year, a U.S. senator reads that address aloud around this man’s birthday.",
+      "r": "He set a precedent by stepping down after two terms and retiring to his Mount Vernon estate. For 10 points, name this first U.S. president."
+    },
+    {
+      "p": "This general stopped the Newburgh Conspiracy by putting on his glasses and telling angry officers that he had grown not only gray but almost blind in his country’s service. He was compared to the Roman farmer Cincinnatus after he gave up command of his army at Annapolis in 1783.",
+      "r": "Six years later, he took the oath of office at Federal Hall in New York City. For 10 points, name this man who became the first President of the United States."
+    },
+    {
+      "p": "Benjamin Franklin said that the half-sun carved on the back of this man’s chair was a rising sun, not a setting one. This man served as president of the 1787 Constitutional Convention in Philadelphia, though he rarely spoke during its debates.",
+      "r": "He later became the only president chosen unanimously by the Electoral College, and he did it twice. For 10 points, name this Virginian who became the nation’s first president."
+    },
+    {
+      "p": "With help from French troops under Rochambeau [“roh-sham-BOH”] and a French fleet under the Comte de Grasse, this general trapped Lord Cornwallis on a Virginia peninsula in 1781. Years earlier, he had ordered his soldiers inoculated against smallpox, a disease he had survived as a teenager on a trip to Barbados.",
+      "r": "The British surrender to his army at Yorktown effectively ended the American Revolution. For 10 points, name this commander of the Continental Army."
+    },
+    {
+      "p": "John Glover’s regiment of Marblehead fishermen rowed this general’s soldiers across an icy river during a Christmas-night storm. The next morning, his troops surprised Hessian soldiers commanded by Johann Rall [“RAHL”].",
+      "r": "Days later, he won again at Princeton. For 10 points, name this American commander who crossed the Delaware River before winning the Battle of Trenton in 1776."
+    },
+    {
+      "p": "This president asked his cabinet for written opinions before signing the bill that created the First Bank of the United States. He chose a site along the Potomac River for a new federal city and hired Pierre L’Enfant [“lahn-FAHN”] to design it.",
+      "r": "That capital, where he never lived as president, was named for him. For 10 points, name this president whose cabinet included Thomas Jefferson and Alexander Hamilton."
+    },
+    {
+      "p": "Contrary to legend, this man’s false teeth were not made of wood but of materials like ivory and human teeth. In his will, he arranged for the enslaved people he owned to be freed after his wife’s death, and Henry “Light-Horse Harry” Lee praised him as “first in war, first in peace, and first in the hearts of his countrymen.”",
+      "r": "He died in 1799 at his Virginia estate of Mount Vernon. For 10 points, name this first president of the United States."
+    },
+    {
+      "p": "As a teenager, this man worked as a land surveyor on Virginia’s frontier. His only trip outside the mainland colonies was a voyage to the island of Barbados, where he caught smallpox.",
+      "r": "A legend made up by the biographer Parson Weems says that as a child, he confessed to chopping down a cherry tree. For 10 points, name this Virginian who became the first U.S. president."
+    },
+    {
+      "p": "After surrendering a fort to Louis Coulon de Villiers [“koo-LOHN duh vee-YAY”], this man signed a French-language document in which he unknowingly admitted to the “assassination” of Villiers’ brother. As an aide to General Edward Braddock, he helped organize the retreat after the British were ambushed near the Monongahela River.",
+      "r": "Twenty years later, the Second Continental Congress named him commander of its new army. For 10 points, name this Virginian who later became the first U.S. president."
+    },
+    {
+      "p": "This president issued the first national Thanksgiving proclamation under the Constitution, and he is the only president who never lived in the White House. Citizen Genêt [“zhuh-NAY”] angered this president by recruiting Americans to fight for revolutionary France in spite of this man’s Proclamation of Neutrality.",
+      "r": "His face is on the far left of Mount Rushmore. For 10 points, name this first U.S. president, whose home was Mount Vernon."
+    }
+  ],
+  "clues": [
+    {
+      "id": "first-president",
+      "tier": "giveaway",
+      "t": "First President of the United States (1789–1797)",
+      "k": [
+        "first president",
+        "1st president"
+      ],
+      "n": 7
+    },
+    {
+      "id": "continental-army",
+      "tier": "giveaway",
+      "t": "Commander of the Continental Army in the American Revolution",
+      "k": [
+        "continental army",
+        "commander"
+      ],
+      "n": 3
+    },
+    {
+      "id": "delaware",
+      "tier": "giveaway",
+      "t": "Crossed the icy Delaware River on Christmas night 1776 and surprised Hessian soldiers at the Battle of Trenton",
+      "k": [
+        "delaware",
+        "trenton",
+        "hessian"
+      ],
+      "n": 6,
+      "rabbit": "Battle of Trenton"
+    },
+    {
+      "id": "father",
+      "tier": "giveaway",
+      "t": "Called the “Father of His Country”; his face is on the one-dollar bill and the quarter",
+      "k": [
+        "father of his country",
+        "dollar",
+        "quarter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mount-vernon",
+      "tier": "middle",
+      "t": "Home: Mount Vernon, his Virginia estate on the Potomac River",
+      "k": [
+        "mount vernon",
+        "mt vernon"
+      ],
+      "n": 1,
+      "rabbit": "Mount Vernon"
+    },
+    {
+      "id": "valley-forge",
+      "tier": "middle",
+      "t": "Spent the brutal winter of 1777–78 at Valley Forge, where Baron von Steuben trained his army",
+      "k": [
+        "valley forge",
+        "steuben"
+      ],
+      "n": 0,
+      "rabbit": "Valley Forge"
+    },
+    {
+      "id": "yorktown",
+      "tier": "middle",
+      "t": "Trapped Lord Cornwallis at Yorktown (1781) with French help from Rochambeau and de Grasse",
+      "k": [
+        "yorktown",
+        "cornwallis",
+        "rochambeau"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Yorktown"
+    },
+    {
+      "id": "convention",
+      "tier": "middle",
+      "t": "President of the Constitutional Convention (1787); later elected unanimously, twice",
+      "k": [
+        "constitutional convention",
+        "unanimous"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cabinet",
+      "tier": "middle",
+      "t": "First cabinet: Thomas Jefferson (State) and Alexander Hamilton (Treasury)",
+      "k": [
+        "hamilton",
+        "jefferson",
+        "cabinet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "farewell",
+      "tier": "middle",
+      "t": "Farewell Address (1796): warned against political parties and permanent foreign alliances; stepped down after two terms. Careful: “entangling alliances” is actually Thomas Jefferson’s phrase.",
+      "k": [
+        "farewell",
+        "political parties",
+        "two terms",
+        "two term"
+      ],
+      "n": 2,
+      "rabbit": "Farewell Address"
+    },
+    {
+      "id": "cherry",
+      "tier": "middle",
+      "t": "The cherry-tree legend was made up by Parson Weems; Grant Wood painted it in _Parson Weems’ Fable_",
+      "k": [
+        "cherry",
+        "weems",
+        "grant wood"
+      ],
+      "n": 2
+    },
+    {
+      "id": "leutze",
+      "tier": "middle",
+      "t": "Emanuel Leutze’s 1851 painting of him crossing the Delaware, where James Monroe holds the flag",
+      "k": [
+        "leutze",
+        "monroe"
+      ],
+      "n": 3,
+      "rabbit": "Washington Crossing the Delaware (painting)"
+    },
+    {
+      "id": "whiskey",
+      "tier": "middle",
+      "t": "Led about 13,000 militiamen to crush the Whiskey Rebellion (1794)",
+      "k": [
+        "whiskey"
+      ],
+      "n": 1,
+      "rabbit": "Whiskey Rebellion"
+    },
+    {
+      "id": "jumonville",
+      "tier": "power",
+      "t": "Jumonville Glen (1754): his troops ambushed a French party, helping start the French and Indian War",
+      "k": [
+        "jumonville",
+        "french and indian"
+      ],
+      "n": 1,
+      "rabbit": "French and Indian War"
+    },
+    {
+      "id": "necessity",
+      "tier": "power",
+      "t": "Surrendered Fort Necessity (1754) to Louis Coulon de Villiers",
+      "k": [
+        "necessity",
+        "villiers"
+      ],
+      "n": 3
+    },
+    {
+      "id": "braddock",
+      "tier": "power",
+      "t": "Aide to General Edward Braddock; helped lead the retreat after the ambush at the Monongahela (1755)",
+      "k": [
+        "braddock",
+        "monongahela"
+      ],
+      "n": 3
+    },
+    {
+      "id": "conway",
+      "tier": "power",
+      "t": "Conway Cabal: a plot to replace him with Horatio Gates after losses at Brandywine and Germantown",
+      "k": [
+        "conway",
+        "gates",
+        "brandywine",
+        "germantown"
+      ],
+      "n": 3
+    },
+    {
+      "id": "long-island",
+      "tier": "power",
+      "t": "Escaped after the Battle of Long Island by ferrying his army across the East River in fog (1776)",
+      "k": [
+        "long island",
+        "brooklyn",
+        "east river",
+        "fog"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stuart",
+      "tier": "power",
+      "t": "Gilbert Stuart portraits: the unfinished Athenaeum (used on the $1 bill) and a copy of the full-length Lansdowne (saved by Dolley Madison in 1814)",
+      "k": [
+        "stuart",
+        "athenaeum",
+        "lansdowne",
+        "dolley"
+      ],
+      "n": 3,
+      "rabbit": "Gilbert Stuart"
+    },
+    {
+      "id": "capitol-art",
+      "tier": "power",
+      "t": "Capitol art: Brumidi’s dome fresco of his _Apotheosis_ (rising to join the gods) and Horatio Greenough’s shirtless statue of him as Zeus",
+      "k": [
+        "apotheosis",
+        "brumidi",
+        "greenough",
+        "zeus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "newburgh",
+      "tier": "power",
+      "t": "Newburgh Conspiracy (1783): calmed angry officers by putting on his glasses (“grown gray… almost blind”)",
+      "k": [
+        "newburgh",
+        "spectacles",
+        "glasses"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cincinnatus",
+      "tier": "power",
+      "t": "Gave up his army command at Annapolis (1783) and was compared to the Roman Cincinnatus",
+      "k": [
+        "cincinnatus",
+        "annapolis",
+        "resigned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "smallpox",
+      "tier": "power",
+      "t": "Caught smallpox in Barbados as a teen; later had his whole army inoculated",
+      "k": [
+        "smallpox",
+        "barbados",
+        "inoculat"
+      ],
+      "n": 1
+    },
+    {
+      "id": "treaties",
+      "tier": "power",
+      "t": "Foreign policy: Proclamation of Neutrality (Citizen Genêt), Jay’s Treaty with Britain, Pinckney’s Treaty with Spain",
+      "k": [
+        "neutrality",
+        "genet",
+        "pinckney",
+        "jay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lee-eulogy",
+      "tier": "power",
+      "t": "Henry “Light-Horse Harry” Lee’s eulogy: “first in war, first in peace, and first in the hearts of his countrymen”",
+      "k": [
+        "first in war",
+        "light-horse",
+        "light horse",
+        "henry lee"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Man, city, or state?",
+    "body": "Three different answer lines share this name: George Washington, Washington, D.C., and Washington State. A clue about the Potomac River, Pierre L’Enfant’s street plan, or the Smithsonian might be asking for the city. A clue about Seattle or Mount Rainier means the state.",
+    "fix": "Listen for the pronoun before you buzz. “This man,” “this general,” or “this president” means George Washington. “This city” means Washington, D.C., and “this state” means Washington State.",
+    "line": "Real answer line: George <b><u>Washington</u></b>. Only the underlined part is required, so “Washington” by itself is enough."
+  },
+  "tests": {
+    "right": [
+      "George Washington",
+      "washington",
+      "Washingtn",
+      "President Washington",
+      "General Washington"
+    ],
+    "prompt": [
+      "george"
+    ],
+    "wrong": [
+      "Washington, D.C.",
+      "George Washington Carver",
+      "Jefferson",
+      "Martha Washington"
+    ]
+  },
+  "freq": {
+    "rank": 2,
+    "count": 10,
+    "list": "American History"
+  }
+}

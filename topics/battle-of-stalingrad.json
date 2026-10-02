@@ -1,0 +1,399 @@
+{
+  "id": "battle-of-stalingrad",
+  "name": "Battle of Stalingrad",
+  "mono": "STG",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "WWII’s Eastern Front turning point · Soviets encircled a trapped German army",
+  "dates": "Fought August 23, 1942 – February 2, 1943",
+  "briefing": "In the summer of 1942, German forces pushed deep into southern Russia, aiming to seize oil fields in the Caucasus and capture a city on the Volga River that bore the Soviet leader’s name. Street-by-street fighting dragged on for months around landmarks like Pavlov’s House and the hill of Mamayev Kurgan, until a massive Soviet counterattack, Operation Uranus, encircled the German Sixth Army. Its surrender in February 1943 marked the turning point of World War II’s Eastern Front.",
+  "answerHtml": "Battle of <b><u>Stalingrad</u></b> (or <u>Siege of Stalingrad</u>)",
+  "accept": [
+    "stalingrad",
+    "battle of stalingrad",
+    "siege of stalingrad"
+  ],
+  "prompt": [],
+  "reject": [
+    "joseph stalin",
+    "stalin",
+    "battle of berlin",
+    "battle of kursk",
+    "battle of moscow",
+    "battle of leningrad",
+    "siege of leningrad",
+    "operation barbarossa",
+    "battle of britain",
+    "d day",
+    "normandy",
+    "battle of the bulge",
+    "pearl harbor",
+    "hiroshima",
+    "world war i",
+    "world war ii",
+    "eastern front"
+  ],
+  "tests": {
+    "right": [
+      "Stalingrad",
+      "Stalingad",
+      "Battle of Stalingrad",
+      "Siege of Stalingrad",
+      "The Battle of Stalingrad"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Joseph Stalin",
+      "Battle of Kursk",
+      "Operation Barbarossa",
+      "Battle of Berlin",
+      "D-Day"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Hitler’s Biggest Military Disaster | World War II With Tom Hanks",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=xXZyJGW4ekM",
+      "note": "From the Tom Hanks-narrated WWII series: why this battle broke Germany’s advance"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Stalingrad: The Deadliest Battle In History",
+      "source": "Timeline - World History Documentaries",
+      "url": "https://www.youtube.com/watch?v=IOQa3taHOX8",
+      "note": "Documentary on the five-month fight for the city"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Battle of Stalingrad 1942–43 | Line of Fire | Full Documentary",
+      "source": "The War Channel",
+      "url": "https://www.youtube.com/watch?v=9MenUJEew7M",
+      "note": "Full documentary walking through the siege and the encirclement"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "World War II Civilians and Soldiers: Crash Course European History #39",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=rlx6ur_D51s",
+      "note": "The wider WWII experience this battle was part of"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Battle of Stalingrad Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Battle_of_Stalingrad",
+      "note": "Quick read: the siege, the encirclement, and why it mattered"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad",
+  "qb": {
+    "q": "Stalingrad",
+    "found": 4,
+    "tip": "Operation Uranus and the trapped German Sixth Army under Friedrich Paulus are in almost every tossup; Pavlov’s House and Mamayev Kurgan are the next-most-common stock clues."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups for this answer line (4 Middle School/Easy High School + 5 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "An anti-aircraft regiment staffed largely by young women helped defend this battle’s namesake city. Fighting here earned the grim nickname “Rat War” from German soldiers because of brutal house-to-house combat. A famous photograph from the ruins shows a fountain statue of children dancing in a circle, still standing amid the wreckage.",
+      "r": "Operation Uranus, launched in November 1942, encircled the trapped German Sixth Army here. For 10 points, name this World War II battle fought in a city on the Volga River."
+    },
+    {
+      "p": "Soviet sniper Vasily Zaytsev [“ZYT-sef”] became famous for his skill during this battle. It grew out of Germany’s Case Blue offensive, which aimed to seize oil fields in the Caucasus. A small Soviet garrison held out for about two months inside a ruined apartment block called Pavlov’s House.",
+      "r": "German commander Friedrich Paulus was promoted to field marshal just before becoming the first German field marshal ever to surrender. For 10 points, name this battle, the turning point of the Eastern Front."
+    },
+    {
+      "p": "Fighting in this battle reached the floor of a tractor factory that had been turning out T-34 tanks. Control of the hilltop Mamayev Kurgan [“mah-MY-yev koor-GAHN”] changed hands repeatedly, and a giant statue called The Motherland Calls stands there today. Soviet generals Georgy Zhukov and Aleksandr Vasilevsky [“vah-see-LEV-skee”] planned the encirclement that trapped the German attackers.",
+      "r": "It began under the shadow of Stalin’s Order No. 227, which threatened to punish any soldier who retreated. For 10 points, name this World War II battle fought in southern Russia."
+    },
+    {
+      "p": "This battle’s defenders included an anti-aircraft regiment staffed largely by young women. It turned back the German invasion that began with 1941’s Operation Barbarossa. German soldiers grimly nicknamed the brutal house-to-house combat here the “Rat War.”",
+      "r": "It took place where the Don and Volga Rivers run close together in southern Russia. For 10 points, name this battle often called history’s deadliest, fought from 1942 to 1943."
+    },
+    {
+      "p": "This battle included a two-month stand by a small Soviet garrison inside a ruined apartment block called Pavlov’s House. It grew out of Germany’s Case Blue offensive, which had aimed at Caucasus oil fields. Operation Uranus, launched in November 1942, encircled the German Sixth Army trapped inside the city.",
+      "r": "It ended in February 1943 with the surrender of that encircled army. For 10 points, name this battle fought in a city named for the Soviet leader."
+    },
+    {
+      "p": "Soviet planners won this battle partly by targeting weaker Romanian units guarding the German flanks. A famous photograph from its ruins shows a fountain statue of children dancing in a circle. German commander Friedrich Paulus was promoted to field marshal just before surrendering.",
+      "r": "Control of the hilltop Mamayev Kurgan changed hands many times during this battle. For 10 points, name this turning point of World War II’s Eastern Front."
+    },
+    {
+      "p": "This battle lasted roughly five months, from the summer of 1942 into the following winter. It was planned in its final stage by Soviet generals Georgy Zhukov and Aleksandr Vasilevsky. Soviet sniper Vasily Zaytsev became a celebrity for his skill here.",
+      "r": "It turned back the invasion begun by Germany’s Operation Barbarossa and became the Eastern Front’s turning point. For 10 points, name this battle fought over a city on the Volga River."
+    },
+    {
+      "p": "This battle began under the shadow of Stalin’s Order No. 227, which threatened to punish retreating soldiers. German soldiers grimly nicknamed its brutal house-to-house fighting the “Rat War.” A tractor factory that had been producing T-34 tanks became an unlikely battlefield.",
+      "r": "Operation Uranus encircled the German Sixth Army here in November 1942. For 10 points, name this battle, often called history’s deadliest, fought in a city on the Volga River."
+    },
+    {
+      "p": "This battle’s Soviet defenders included a small garrison that held Pavlov’s House for about two months and an anti-aircraft regiment staffed largely by young women. It grew out of Germany’s oil-driven Case Blue offensive into the Caucasus. Control of Mamayev Kurgan changed hands repeatedly.",
+      "r": "It ended with the surrender of the trapped German Sixth Army in February 1943. For 10 points, name this turning-point battle of the Eastern Front."
+    },
+    {
+      "p": "This battle made a celebrity of Soviet sniper Vasily Zaytsev. Soviet planners targeted weaker Romanian units on the German flanks to make their encirclement work. A famous photo of a fountain statue of dancing children survived amid its ruins.",
+      "r": "Roughly two million total casualties make it history’s deadliest single battle, by some counts. For 10 points, name this World War II battle named for the Soviet leader’s city."
+    },
+    {
+      "p": "This battle’s fighting reached a tractor factory that had been turning out T-34 tanks. Operation Uranus, launched in November 1942, trapped the German Sixth Army inside the city. German commander Friedrich Paulus was promoted to field marshal just before his surrender.",
+      "r": "It lasted roughly five months, from the summer of 1942 into the next winter. For 10 points, name this battle on the Volga River that turned the tide of World War II."
+    },
+    {
+      "p": "This battle featured a two-month Soviet stand at Pavlov’s House and a long struggle for the hilltop Mamayev Kurgan, now home to the statue The Motherland Calls. Generals Zhukov and Vasilevsky designed the encirclement that decided it. It turned back the invasion begun by Operation Barbarossa.",
+      "r": "It was fought in a city on the Volga River named for the Soviet leader. For 10 points, name this turning point of the Eastern Front."
+    },
+    {
+      "p": "This battle grew out of Germany’s Case Blue push for Caucasus oil fields. Soviet forces exploited weaker Romanian units guarding the flanks to close their encirclement. German soldiers bitterly nicknamed its building-to-building combat the “Rat War.”",
+      "r": "It ended in February 1943 when the trapped German Sixth Army finally surrendered. For 10 points, name this costly battle of World War II’s Eastern Front."
+    },
+    {
+      "p": "This battle is remembered for Pavlov’s House, a ruined apartment block held by a tiny garrison for two months, and for the repeated fighting atop Mamayev Kurgan. Vasily Zaytsev’s sniping made him famous during it. Stalin’s Order No. 227 had forbidden retreat without permission as it began.",
+      "r": "Operation Uranus encircled the German Sixth Army here in November 1942. For 10 points, name this battle, often considered history’s deadliest."
+    },
+    {
+      "p": "This battle’s defenders included a mostly female anti-aircraft regiment and a garrison holding out in Pavlov’s House. It grew from the Case Blue offensive toward Caucasus oil and turned back the invasion begun by Operation Barbarossa. Soviet generals Zhukov and Vasilevsky closed the encirclement that trapped the German Sixth Army.",
+      "r": "It was fought where the Don and Volga Rivers run close together. For 10 points, name this turning-point World War II battle named for the Soviet dictator’s city."
+    }
+  ],
+  "clues": [
+    {
+      "id": "city-named-for-stalin",
+      "tier": "giveaway",
+      "t": "Fought in a city on the Volga River named after the Soviet leader",
+      "k": [
+        "volga river",
+        "soviet leader",
+        "named after"
+      ],
+      "n": 9
+    },
+    {
+      "id": "turning-point",
+      "tier": "giveaway",
+      "t": "Seen as the turning point of World War II on the Eastern Front",
+      "k": [
+        "turning point",
+        "eastern front",
+        "world war ii"
+      ],
+      "n": 9
+    },
+    {
+      "id": "soviet-victory-1943",
+      "tier": "giveaway",
+      "t": "Ended in February 1943 with the surrender of the trapped German Sixth Army",
+      "k": [
+        "february 1943",
+        "sixth army",
+        "surrender"
+      ],
+      "n": 4
+    },
+    {
+      "id": "deadliest-battle",
+      "tier": "giveaway",
+      "t": "Often called history’s deadliest single battle, with roughly two million total casualties",
+      "k": [
+        "deadliest",
+        "two million",
+        "casualties"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pavlovs-house",
+      "tier": "middle",
+      "t": "Included a two-month stand by a small Soviet garrison inside a ruined apartment block called Pavlov’s House",
+      "k": [
+        "pavlovs house",
+        "garrison",
+        "two-month"
+      ],
+      "n": 6
+    },
+    {
+      "id": "mamayev-kurgan",
+      "tier": "middle",
+      "t": "Centered partly on the hilltop Mamayev Kurgan, which changed hands repeatedly and today holds the statue The Motherland Calls",
+      "k": [
+        "mamayev kurgan",
+        "motherland calls",
+        "statue"
+      ],
+      "n": 5
+    },
+    {
+      "id": "paulus-surrender",
+      "tier": "middle",
+      "t": "Saw German commander Friedrich Paulus promoted to field marshal just before he became the first German field marshal ever to surrender",
+      "k": [
+        "friedrich paulus",
+        "field marshal",
+        "surrender"
+      ],
+      "n": 3
+    },
+    {
+      "id": "barbarossa-stopped",
+      "tier": "middle",
+      "t": "Turned back the German invasion that began with 1941’s Operation Barbarossa",
+      "k": [
+        "operation barbarossa",
+        "1941",
+        "turned back"
+      ],
+      "n": 3
+    },
+    {
+      "id": "case-blue-oil",
+      "tier": "middle",
+      "t": "Grew out of Germany’s Case Blue offensive, which aimed at oil fields in the Caucasus",
+      "k": [
+        "case blue",
+        "oil fields",
+        "caucasus"
+      ],
+      "n": 3
+    },
+    {
+      "id": "five-months",
+      "tier": "middle",
+      "t": "Lasted roughly five months, from the summer of 1942 into the following winter",
+      "k": [
+        "five months",
+        "1942",
+        "winter"
+      ],
+      "n": 2
+    },
+    {
+      "id": "romanian-flanks",
+      "tier": "middle",
+      "t": "Succeeded partly because Soviet planners targeted weaker Romanian units guarding the German flanks",
+      "k": [
+        "romanian",
+        "flanks",
+        "soviet planners"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tractor-factory",
+      "tier": "middle",
+      "t": "Included fighting inside a tractor factory that had been turning out T-34 tanks",
+      "k": [
+        "tractor factory",
+        "t-34 tanks"
+      ],
+      "n": 1
+    },
+    {
+      "id": "operation-uranus",
+      "tier": "power",
+      "t": "Turned when Operation Uranus, launched in November 1942, encircled the German Sixth Army",
+      "k": [
+        "operation uranus",
+        "november 1942",
+        "encircled"
+      ],
+      "n": 7
+    },
+    {
+      "id": "zhukov-vasilevsky",
+      "tier": "power",
+      "t": "Was planned in part by Soviet generals Georgy Zhukov and Aleksandr Vasilevsky",
+      "k": [
+        "georgy zhukov",
+        "vasilevsky",
+        "soviet generals"
+      ],
+      "n": 4
+    },
+    {
+      "id": "order-227",
+      "tier": "power",
+      "t": "Began under the shadow of Stalin’s Order No 227, which threatened to punish any soldier who retreated",
+      "k": [
+        "order no 227",
+        "stalin",
+        "retreated"
+      ],
+      "n": 2
+    },
+    {
+      "id": "zaytsev-sniper",
+      "tier": "power",
+      "t": "Made a celebrity of Soviet sniper Vasily Zaytsev",
+      "k": [
+        "vasily zaytsev",
+        "sniper",
+        "celebrity"
+      ],
+      "n": 2
+    },
+    {
+      "id": "barmaley-fountain",
+      "tier": "power",
+      "t": "Left behind a famous photo of a fountain statue of children dancing in a circle, still standing amid the ruins",
+      "k": [
+        "fountain",
+        "children dancing",
+        "ruins"
+      ],
+      "n": 1
+    },
+    {
+      "id": "womens-regiment",
+      "tier": "power",
+      "t": "Was defended in part by an anti-aircraft regiment staffed largely by young women",
+      "k": [
+        "anti-aircraft",
+        "young women",
+        "regiment"
+      ],
+      "n": 1
+    },
+    {
+      "id": "don-volga-rivers",
+      "tier": "power",
+      "t": "Took place where the Don and Volga Rivers run close together in southern Russia",
+      "k": [
+        "don river",
+        "volga river",
+        "southern russia"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rat-war-nickname",
+      "tier": "power",
+      "t": "Earned the grim nickname “Rat War” from German soldiers because of brutal house-to-house fighting",
+      "k": [
+        "rat war",
+        "house-to-house",
+        "nickname"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "The Battle, or the Man?",
+    "body": "Because the city of Stalingrad was named for Joseph Stalin, this battle shares many clues with him: the Sixth Army, Order No. 227, and the Eastern Front. It is also easy to mix up with Operation Barbarossa (the 1941 invasion that opened the Eastern Front) and the Battle of Kursk (a later tank battle on the same front).",
+    "fix": "“Name this battle” or “this siege” wants Stalingrad; “name this leader” wants Stalin himself. Barbarossa was the 1941 invasion; Kursk came half a year later and featured the largest tank battle in history, not Pavlov’s House or Operation Uranus.",
+    "line": "Real answer line: Battle of <b><u>Stalingrad</u></b> (accept Siege of Stalingrad)"
+  },
+  "freq": {
+    "rank": 17,
+    "count": 5,
+    "list": "European History"
+  }
+}

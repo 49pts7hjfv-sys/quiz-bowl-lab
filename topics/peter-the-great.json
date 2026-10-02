@@ -1,0 +1,444 @@
+{
+  "id": "peter-the-great",
+  "name": "Peter the Great",
+  "mono": "PTG",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Tsar of Russia · Forced Westernization and founded St. Petersburg",
+  "dates": "1672–1725",
+  "briefing": "Peter the Great stood nearly six foot eight and dragged Russia into the modern age by force. He traveled incognito through Western Europe to learn shipbuilding, taxed noblemen’s beards to make them look more European, and built a brand-new capital, Saint Petersburg, on a Baltic swamp. His reforms and his long, hard-fought victory over Sweden turned Russia into one of Europe’s great powers.",
+  "answerHtml": "<b><u>Peter the Great</u></b> (or <u>Peter I</u> of Russia; prompt on <u>Peter</u> alone)",
+  "accept": [
+    "peter the great",
+    "peter i",
+    "peter 1",
+    "peter the first",
+    "peter i of russia",
+    "peter 1 of russia",
+    "peter the great of russia",
+    "tsar peter",
+    "emperor peter"
+  ],
+  "prompt": [
+    "peter",
+    "pyotr",
+    "tsar of russia"
+  ],
+  "reject": [
+    "peter ii",
+    "peter 2",
+    "peter the second",
+    "peter iii",
+    "peter 3",
+    "peter the third",
+    "catherine the great",
+    "catherine i",
+    "catherine ii",
+    "catherine 2",
+    "sophia",
+    "sophia alekseyevna",
+    "ivan v",
+    "ivan vi",
+    "ivan the terrible",
+    "charles xii",
+    "alexander menshikov",
+    "menshikov",
+    "alexei petrovich",
+    "alexei",
+    "nicholas i",
+    "nicholas ii",
+    "alexander i",
+    "paul i",
+    "frederick the great",
+    "william the conqueror"
+  ],
+  "tests": {
+    "right": [
+      "Peter the Great",
+      "Peter I",
+      "Peter 1",
+      "Tsar Peter",
+      "Peter the Great of Russia",
+      "Petre the Great"
+    ],
+    "prompt": [
+      "Peter",
+      "Pyotr"
+    ],
+    "wrong": [
+      "Peter III",
+      "Catherine the Great",
+      "Charles XII",
+      "Ivan the Terrible",
+      "Peter II",
+      "Alexei"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Peter The Great, The Physically Enormous Czar Who Modernized Russia",
+      "source": "Weird History",
+      "url": "https://www.youtube.com/watch?v=BcwxMVZrm6A",
+      "note": "His size, his reforms, and his push to Westernize Russia"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ten Minute History - Peter the Great and the Russian Empire (Short Documentary)",
+      "source": "History Matters",
+      "url": "https://www.youtube.com/watch?v=3tBNr2gjAA0",
+      "note": "About 10 min · his whole reign in simple drawings"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Peter the Great: Founder of the Russian Empire",
+      "source": "Biographics",
+      "url": "https://www.youtube.com/watch?v=rU_u69UY2Ak",
+      "note": "Longer biography of his life and reforms"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Battle of Poltava 1709 - Great Northern War DOCUMENTARY",
+      "source": "Kings and Generals",
+      "url": "https://www.youtube.com/watch?v=vMkiWDExIY8",
+      "note": "Animated battle maps of his biggest win over Sweden (battle scenes)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Peter the Great",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Peter-the-Great/353618",
+      "note": "Quick read: his early life, Russian expansion, and reforms at home"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Peter_the_Great",
+  "qb": {
+    "q": "Peter the Great",
+    "found": 3,
+    "tip": "All 3 Middle School/Easy High School tossups are clean hits; the beard tax, the Grand Embassy, and moving the capital to Saint Petersburg repeat in every one."
+  },
+  "sample": {
+    "n": 3,
+    "note": "the 3 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This ruler replaced an old household tax with a poll tax on individual men to pay for his huge new army. This ruler also abolished the office of Patriarch and put the Russian Orthodox Church under a Holy Synod that he controlled.",
+      "r": "He also taxed noblemen’s beards as part of forcing Russia to look more European. For 10 points, name this tsar who built a new capital at Saint Petersburg."
+    },
+    {
+      "p": "This ruler’s own son and heir, Alexei, opposed his reforms, was investigated for treason, and died in prison in 1718. Decades earlier, this ruler had sent his first wife, Eudoxia Lopukhina [“loh-poo-KEE-nuh”], to a convent to end their marriage.",
+      "r": "That first marriage had been arranged for him as a teenager. For 10 points, name this tsar who studied shipbuilding on his Grand Embassy through Western Europe."
+    },
+    {
+      "p": "This ruler founded Russia’s Academy of Sciences, which opened its doors just after he died. This ruler also moved the start of the Russian new year from September to January 1st to match Western European calendars.",
+      "r": "He had already forced nobles to shave their beards or pay a tax. For 10 points, name this tsar who defeated Sweden in the Great Northern War."
+    },
+    {
+      "p": "This ruler built Russia’s first real navy almost from nothing, launching ships on rivers and lakes before Russia had a port on the Baltic Sea. After finally beating Sweden, this ruler took the title “Emperor of All Russia.”",
+      "r": "He had studied shipbuilding abroad on his Grand Embassy. For 10 points, name this tsar who founded Saint Petersburg on the Neva River."
+    },
+    {
+      "p": "In 1682, Russia’s palace guard, the Streltsy [“STREL-tsee”], revolted and helped this ruler’s half-sister Sophia seize power as regent. This ruler then ruled jointly with his half-brother Ivan the Fifth until finally taking sole power in 1696.",
+      "r": "He later taxed beards and moved Russia’s capital to a new city on the Baltic. For 10 points, name this tsar who modernized Russia by force."
+    },
+    {
+      "p": "Standing about six foot eight, this ruler towered over almost everyone at his own court. A famous bronze statue of this ruler on a rearing horse was later put up in Saint Petersburg and inspired a famous poem by Alexander Pushkin.",
+      "r": "He had traveled incognito through Western Europe to study shipbuilding. For 10 points, name this tsar who fought the Great Northern War against Sweden."
+    },
+    {
+      "p": "This ruler created the Table of Ranks in 1722, basing status at court on merit and service instead of noble birth. He had earlier abolished the old Boyar [“BOY-ar”] Duma, a council of hereditary nobles.",
+      "r": "He ruled Russia from 1682 to 1725. For 10 points, name this tsar who built a new capital at Saint Petersburg."
+    },
+    {
+      "p": "At the Battle of Poltava [“pul-TAH-vuh”] in 1709, this ruler’s army crushed an invading force led by Sweden’s King Charles the Twelfth, turning the tide of a long war. This ruler had earlier taxed the beards of Russian noblemen.",
+      "r": "He had also studied shipbuilding abroad on his Grand Embassy. For 10 points, name this tsar who founded Saint Petersburg."
+    },
+    {
+      "p": "The Treaty of Nystad [“NEW-staht”] ended this ruler’s long war against Sweden in 1721, winning Russia new land along the Baltic coast. This ruler had spent two decades fighting that Great Northern War.",
+      "r": "He moved Russia’s capital to a new city on the Neva River. For 10 points, name this tsar who ruled Russia from 1682 to 1725."
+    },
+    {
+      "p": "This ruler died in 1725 without naming a clear heir, since his own son had died in prison years earlier, so his second wife took the throne as Catherine the First. This ruler had sent his first wife to a convent decades before that.",
+      "r": "He had also toured Western Europe incognito to study shipbuilding. For 10 points, name this tsar who taxed beards and founded Saint Petersburg."
+    },
+    {
+      "p": "This ruler personally worked as a shipyard laborer in the Netherlands while traveling incognito on his Grand Embassy. This ruler also replaced Russia’s old household tax with a poll tax on individual men to pay for his army.",
+      "r": "He later fought and won the Great Northern War against Sweden. For 10 points, name this tsar who moved Russia’s capital to Saint Petersburg."
+    },
+    {
+      "p": "As a young boy, this ruler survived the 1682 Streltsy revolt, which helped his half-sister Sophia take power as regent. He went on to abolish the Boyar Duma and create the merit-based Table of Ranks.",
+      "r": "He towered over his court at nearly six foot eight. For 10 points, name this tsar who taxed beards and built a new capital on the Baltic."
+    },
+    {
+      "p": "This ruler put the Russian Orthodox Church under his own control by replacing its Patriarch with a Holy Synod. This ruler also founded Russia’s first navy and its Academy of Sciences, which opened just after his death.",
+      "r": "He had already forced Western dress and shaved faces on Russia’s nobles. For 10 points, name this tsar who founded Saint Petersburg."
+    },
+    {
+      "p": "This ruler’s decisive win at the Battle of Poltava in 1709 broke the army of Sweden’s Charles the Twelfth and let this ruler take the title “Emperor of All Russia” after the war finally ended.",
+      "r": "He had studied European shipbuilding firsthand on his Grand Embassy. For 10 points, name this tsar who taxed noblemen’s beards."
+    },
+    {
+      "p": "Over more than four decades on the throne, this ruler built a navy from nothing, moved his capital from Moscow to a brand-new city on the Baltic, and even taxed beards to force his court to look European. He had first secured sole power in 1696 after years of co-ruling with his half-brother.",
+      "r": "He also defeated Sweden in the Great Northern War. For 10 points, name this tsar who founded Saint Petersburg."
+    }
+  ],
+  "clues": [
+    {
+      "id": "tsar-1682-1725",
+      "tier": "giveaway",
+      "t": "Tsar of Russia who ruled from 1682 to 1725, modernizing the country by force",
+      "k": [
+        "tsar",
+        "1682",
+        "1725"
+      ],
+      "n": 3
+    },
+    {
+      "id": "st-petersburg",
+      "tier": "giveaway",
+      "t": "Moved Russia’s capital from Moscow to a new city, Saint Petersburg, built on the Neva River",
+      "k": [
+        "saint petersburg",
+        "neva river",
+        "moscow"
+      ],
+      "n": 3
+    },
+    {
+      "id": "grand-embassy",
+      "tier": "giveaway",
+      "t": "Traveled incognito through Western Europe on his Grand Embassy to study shipbuilding",
+      "k": [
+        "grand embassy",
+        "shipbuilding",
+        "incognito"
+      ],
+      "n": 3
+    },
+    {
+      "id": "beard-tax",
+      "tier": "giveaway",
+      "t": "Taxed noblemen’s beards as part of a forced Westernization of Russian dress and customs",
+      "k": [
+        "beard tax",
+        "westernization",
+        "beards"
+      ],
+      "n": 2
+    },
+    {
+      "id": "great-northern-war",
+      "tier": "giveaway",
+      "t": "Fought and won the Great Northern War against Sweden (1700–1721)",
+      "k": [
+        "great northern war",
+        "sweden"
+      ],
+      "n": 1
+    },
+    {
+      "id": "streltsy-revolt",
+      "tier": "middle",
+      "t": "The Streltsy palace guard revolted in 1682, helping his half-sister Sophia take power as regent",
+      "k": [
+        "streltsy",
+        "sophia",
+        "revolt"
+      ],
+      "n": 1,
+      "rabbit": "Sophia Alekseyevna"
+    },
+    {
+      "id": "height",
+      "tier": "middle",
+      "t": "Stood about six foot eight, towering over nearly everyone around him",
+      "k": [
+        "six foot eight",
+        "height",
+        "tall"
+      ],
+      "n": 1
+    },
+    {
+      "id": "boyar-duma",
+      "tier": "middle",
+      "t": "Abolished the old Boyar Duma, a council of hereditary nobles",
+      "k": [
+        "boyar duma",
+        "boyars"
+      ],
+      "n": 1
+    },
+    {
+      "id": "table-of-ranks",
+      "tier": "middle",
+      "t": "Created the Table of Ranks (1722), basing status on service and merit instead of birth",
+      "k": [
+        "table of ranks",
+        "merit",
+        "1722"
+      ],
+      "n": 1
+    },
+    {
+      "id": "poltava",
+      "tier": "middle",
+      "t": "Won the decisive Battle of Poltava (1709) over Sweden’s Charles the Twelfth",
+      "k": [
+        "poltava",
+        "charles xii",
+        "1709"
+      ],
+      "n": 0,
+      "rabbit": "Charles XII"
+    },
+    {
+      "id": "nystad",
+      "tier": "middle",
+      "t": "The Treaty of Nystad (1721) ended the Great Northern War and won Russia land on the Baltic coast",
+      "k": [
+        "nystad",
+        "baltic",
+        "treaty"
+      ],
+      "n": 0
+    },
+    {
+      "id": "co-ruler-ivan",
+      "tier": "middle",
+      "t": "Ruled jointly with his half-brother Ivan the Fifth under regent Sophia until taking sole power in 1696",
+      "k": [
+        "ivan v",
+        "co ruler",
+        "regent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bronze-horseman",
+      "tier": "middle",
+      "t": "A famous bronze statue of him on a rearing horse, later put up in Saint Petersburg, inspired a Pushkin poem",
+      "k": [
+        "bronze statue",
+        "equestrian",
+        "pushkin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "russian-navy",
+      "tier": "power",
+      "t": "Built Russia’s first real navy almost from nothing",
+      "k": [
+        "navy",
+        "russian navy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holy-synod",
+      "tier": "power",
+      "t": "Abolished the office of Patriarch and put the Russian Orthodox Church under a Holy Synod he controlled",
+      "k": [
+        "holy synod",
+        "patriarch",
+        "orthodox church"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alexei",
+      "tier": "power",
+      "t": "His own son and heir, Alexei, opposed his reforms, was investigated for treason, and died in prison in 1718",
+      "k": [
+        "alexei",
+        "son",
+        "treason"
+      ],
+      "n": 0,
+      "rabbit": "Alexei Petrovich"
+    },
+    {
+      "id": "eudoxia",
+      "tier": "power",
+      "t": "Divorced his first wife, Eudoxia Lopukhina, by sending her to a convent",
+      "k": [
+        "eudoxia",
+        "lopukhina",
+        "convent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "catherine-i-succession",
+      "tier": "power",
+      "t": "Died in 1725 without naming an heir, so his second wife succeeded him as Catherine the First",
+      "k": [
+        "second wife",
+        "succeeded",
+        "1725"
+      ],
+      "n": 0,
+      "rabbit": "Catherine I of Russia"
+    },
+    {
+      "id": "academy-of-sciences",
+      "tier": "power",
+      "t": "Founded the Russian Academy of Sciences, which opened its doors just after his death",
+      "k": [
+        "academy of sciences",
+        "founded"
+      ],
+      "n": 0
+    },
+    {
+      "id": "new-year",
+      "tier": "power",
+      "t": "Moved the start of the Russian calendar year from September to January 1st to match Western Europe",
+      "k": [
+        "january 1st",
+        "calendar",
+        "new year"
+      ],
+      "n": 0
+    },
+    {
+      "id": "emperor-title",
+      "tier": "power",
+      "t": "Took the title “Emperor of All Russia” after finally defeating Sweden",
+      "k": [
+        "emperor of all russia",
+        "title"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poll-tax",
+      "tier": "power",
+      "t": "Replaced an old household tax with a poll tax on individual men to help pay for his huge army",
+      "k": [
+        "poll tax",
+        "army"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Peter? Which Russian ruler?",
+    "body": "Russia later had a Peter II and a Peter III (Catherine the Great’s husband, overthrown in her coup), so always say the number or “the Great.” Don’t confuse this reformer with Ivan the Terrible, an earlier tsar also known by a dramatic nickname, or with Catherine the Great herself, who ruled decades later and has no blood tie to him (she married his grandson). In Great Northern War clues, Charles the Twelfth is the Swedish king on the other side, not this ruler.",
+    "fix": "The beard tax, the Grand Embassy, founding Saint Petersburg, and the Table of Ranks all mean Peter the Great. Clues about the Partitions of Poland or Pugachev’s Rebellion mean Catherine the Great instead. Say “Peter the Great” or “Peter the First,” not just “Peter.”",
+    "line": "Real answer line: <b><u>Peter the Great</u></b> (accept <u>Peter I</u>; prompt on <u>Peter</u> alone)"
+  },
+  "freq": {
+    "rank": 35,
+    "count": 3,
+    "list": "European History"
+  }
+}

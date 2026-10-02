@@ -1,0 +1,377 @@
+{
+  "id": "pressure",
+  "name": "Pressure",
+  "mono": "PSI",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Force spread over an area · Measured by barometers, keeps airplanes aloft",
+  "dates": "SI unit: the pascal, named for Blaise Pascal",
+  "briefing": "Pressure is simply how much force pushes on every bit of a surface’s area, whether that is air pressing on your body, water squeezing a submarine, or gas rattling around inside a tire. Scientists measure it in pascals, and everyday tools like barometers and manometers track it using a column of liquid such as mercury. Pascal’s principle explains why squeezing one part of an enclosed fluid, as in hydraulic brakes, pushes evenly throughout the whole thing.",
+  "answerHtml": "<b><u>Pressure</u></b> (accept <u>atmospheric pressure</u>; prompt on <u>P</u>)",
+  "accept": [
+    "pressure",
+    "atmospheric pressure",
+    "air pressure"
+  ],
+  "prompt": [
+    "p"
+  ],
+  "reject": [
+    "blood pressure",
+    "vapor pressure",
+    "osmotic pressure",
+    "osmosis",
+    "peer pressure",
+    "social pressure",
+    "force",
+    "stress",
+    "volume",
+    "temperature",
+    "density"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "GCSE Physics - Pressure - Equation & How it Works",
+      "source": "Cognito",
+      "url": "https://www.youtube.com/watch?v=sfnsuS0-o58",
+      "note": "Pressure as force divided by area, with the equation and units"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Introduction to Pressure - Force & Area, Units, Atmospheric Gases, Elevation & Boiling Point",
+      "source": "The Organic Chemistry Tutor",
+      "url": "https://www.youtube.com/watch?v=6t50Gmo8tq0",
+      "note": "Whiteboard lesson on force and area, pressure units, and air pressure at altitude (older end)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Fluids at Rest: Crash Course Physics #14",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=b5SqYuWT4-4",
+      "note": "Pressure in liquids and gases, Pascal’s principle, and buoyancy (older end)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Hydraulics",
+      "source": "FuseSchool",
+      "url": "https://www.youtube.com/watch?v=DdZnknku8b8",
+      "note": "How hydraulic machines use liquid pressure to multiply force"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Pressure",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/physics/pressure.php",
+      "note": "Quick read on pressure, air pressure, and liquid pressure, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Pressure",
+  "qb": {
+    "q": "pressure",
+    "found": 7,
+    "tip": "Several “pressure” results actually want a different, more specific answer line instead — osmosis, blood pressure, vapor pressure, voltage, or distillation all turned up and had to be skipped as off-topic."
+  },
+  "sample": {
+    "n": 7,
+    "note": "7 real QBReader tossups for this answer line (4 Middle School/Easy High School + 3 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The Navier-Stokes equations include a term built from the negative gradient of this quantity. Dalton’s law says the total of this quantity in a gas mixture equals the sum of each gas’s individual share.",
+      "r": "Pascal’s principle says a change in this quantity spreads evenly throughout an enclosed fluid, the trick behind hydraulic brakes. For 10 points, name this quantity equal to force divided by area."
+    },
+    {
+      "p": "A Pitot tube measures a “stagnation” version of this quantity, found where fast-moving fluid is brought to a complete stop. The Young-Laplace equation describes how this quantity jumps across a curved liquid surface, such as a meniscus in a thin tube.",
+      "r": "Boyle’s law says this quantity and volume move inversely: squeeze a gas into a smaller space and it climbs. For 10 points, name this quantity measured in pascals or in millimeters of mercury."
+    },
+    {
+      "p": "On an airplane wing, the point where this quantity’s net effect acts shifts position as the wing’s angle changes, unlike the fixed aerodynamic center. Light itself can push with a tiny version of this quantity, found by dividing the Poynting vector by the speed of light.",
+      "r": "In a gas, this quantity is really caused by countless molecules colliding with the walls of their container. For 10 points, name this quantity that a barometer measures from our atmosphere."
+    },
+    {
+      "p": "A “gauge” version of this quantity is measured relative to the surrounding atmosphere instead of to a true vacuum. In an “isobaric” process, this quantity stays perfectly constant while other variables change.",
+      "r": "This quantity is multiplied by volume on one side of the ideal gas law, written as PV equals nRT. For 10 points, name this quantity, equal to force per unit area, that a manometer measures using a column of liquid."
+    },
+    {
+      "p": "Dalton’s law adds up each gas’s individual share of this quantity to get its total in a mixture. The Young-Laplace equation uses this quantity’s jump across a curved meniscus to describe a liquid’s surface tension.",
+      "r": "Bernoulli’s principle says this quantity drops wherever a fluid speeds up, part of how an airplane wing generates lift. For 10 points, name this quantity measured in pascals, pounds per square inch, or millimeters of mercury."
+    },
+    {
+      "p": "A Pitot tube finds a “stagnation” form of this quantity where oncoming fluid is brought to a total stop. The Navier-Stokes equations contain a term equal to the negative gradient of this quantity.",
+      "r": "Pascal’s principle explains why squeezing one part of an enclosed fluid, as in hydraulic brakes, pushes this quantity evenly everywhere else inside it. For 10 points, name this quantity whose SI unit is the pascal."
+    },
+    {
+      "p": "This quantity’s “gauge” form is measured against the surrounding atmosphere rather than a perfect vacuum. In a gas, kinetic theory explains this quantity as the result of countless molecules striking the walls of their container.",
+      "r": "In our atmosphere, this quantity is highest at sea level and drops steadily as you climb higher. For 10 points, name this quantity that a barometer measures, equal to force divided by area."
+    },
+    {
+      "p": "On a highly cambered wing, a shifting point tied to this quantity’s net effect moves as the angle of attack changes. The Young-Laplace equation relates this quantity’s jump across a meniscus to a liquid’s surface tension.",
+      "r": "Boyle’s law shows this quantity rising as a gas’s volume shrinks, at a constant temperature. For 10 points, name this quantity, often measured in pascals or torr, that a manometer tracks using a column of liquid."
+    },
+    {
+      "p": "Light exerts a tiny version of this quantity on whatever it strikes, found by dividing the Poynting vector by the speed of light. An “isobaric” process is defined by holding this quantity perfectly constant.",
+      "r": "Underwater, this quantity climbs steadily with depth, which is why divers must equalize it in their ears while descending. For 10 points, name this quantity equal to force spread over a given area."
+    },
+    {
+      "p": "Dalton’s law says the total of this quantity for a mixture of gases equals the sum of each gas’s own share. The ideal gas law multiplies this quantity by volume on one side of the equation, PV equals nRT.",
+      "r": "Bernoulli’s principle says this quantity decreases as a fluid’s speed increases, helping explain how an airplane wing produces lift. For 10 points, name this quantity measured with a barometer or a manometer."
+    },
+    {
+      "p": "A Pitot tube is used to find a “stagnation” version of this quantity at a point where fast-moving fluid is forced to stop completely. This quantity’s “gauge” form is set relative to the surrounding atmosphere rather than to true empty space.",
+      "r": "Pascal’s principle says a push on one part of an enclosed, incompressible fluid is felt as this same quantity throughout the whole fluid, which is how hydraulic brakes work. For 10 points, name this quantity measured in pascals, the SI unit named for Blaise Pascal."
+    },
+    {
+      "p": "The Navier-Stokes equations describe fluid motion using a term built from this quantity’s negative gradient. On an airplane wing, the point where this quantity’s net effect acts shifts as the wing tilts to a new angle of attack.",
+      "r": "This quantity is often measured using a column of liquid inside a manometer, or using pounds per square inch. For 10 points, name this quantity, equal to force divided by area, that a barometer measures from the air around us."
+    },
+    {
+      "p": "The Young-Laplace equation relates this quantity’s sudden jump across a curved surface, like a meniscus, to that liquid’s surface tension. In an “isobaric” process, this quantity is the one variable held perfectly steady.",
+      "r": "In our atmosphere, this quantity is greatest down at sea level and steadily falls the higher up you go. For 10 points, name this quantity that rises as a gas’s volume shrinks, according to Boyle’s law."
+    },
+    {
+      "p": "Dividing the Poynting vector by the speed of light gives a tiny, light-based version of this quantity. Kinetic theory traces this quantity, in a gas, back to countless molecules bouncing off the walls of their container.",
+      "r": "A diver must equalize this quantity in the ears while descending, since it climbs steadily with depth underwater. For 10 points, name this quantity that a barometer measures, often in millimeters of mercury."
+    },
+    {
+      "p": "This quantity’s “stagnation” form, found with a Pitot tube, describes a point where oncoming fluid is brought completely to rest. Dalton’s law adds up every gas’s own share of this quantity to find its total within a mixture.",
+      "r": "This quantity drops wherever a fluid speeds up, according to Bernoulli’s principle, which is part of why an airplane wing can lift off the ground. For 10 points, name this quantity, equal to force per unit area, whose SI unit is the pascal."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Equal to how much force pushes on every bit of a surface’s area",
+      "k": [
+        "force",
+        "area"
+      ],
+      "n": 6
+    },
+    {
+      "id": "pascal-unit",
+      "tier": "giveaway",
+      "t": "Measured in units called pascals, named for the scientist Blaise Pascal",
+      "k": [
+        "pascals",
+        "blaise"
+      ],
+      "n": 4
+    },
+    {
+      "id": "barometer",
+      "tier": "giveaway",
+      "t": "A barometer tracks the kind of this quantity pushing down from our atmosphere",
+      "k": [
+        "barometer",
+        "atmosphere"
+      ],
+      "n": 4
+    },
+    {
+      "id": "psi-mmhg",
+      "tier": "giveaway",
+      "t": "Often measured in pounds per square inch, or in millimeters of mercury",
+      "k": [
+        "pounds",
+        "mercury"
+      ],
+      "n": 4
+    },
+    {
+      "id": "pascals-principle",
+      "tier": "middle",
+      "t": "Pascal’s principle says a push on one part of an enclosed fluid is felt evenly throughout it, the trick behind hydraulic brakes",
+      "k": [
+        "principle",
+        "hydraulic"
+      ],
+      "n": 2
+    },
+    {
+      "id": "manometer",
+      "tier": "middle",
+      "t": "A manometer uses a column of liquid to measure this quantity directly",
+      "k": [
+        "manometer",
+        "column"
+      ],
+      "n": 2
+    },
+    {
+      "id": "bernoulli",
+      "tier": "middle",
+      "t": "Bernoulli’s principle says this quantity drops wherever a fluid speeds up, which helps explain how an airplane wing generates lift",
+      "k": [
+        "bernoulli",
+        "lift"
+      ],
+      "n": 3
+    },
+    {
+      "id": "boyle",
+      "tier": "middle",
+      "t": "Boyle’s law says this quantity and volume move inversely: squeeze a gas smaller and it climbs",
+      "k": [
+        "boyle",
+        "inversely"
+      ],
+      "n": 1
+    },
+    {
+      "id": "depth",
+      "tier": "middle",
+      "t": "Underwater, this quantity climbs steadily with depth, which is why divers must equalize it in their ears while descending",
+      "k": [
+        "underwater",
+        "divers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "altitude",
+      "tier": "middle",
+      "t": "In our atmosphere, this quantity is highest at sea level and drops steadily as you climb higher",
+      "k": [
+        "sea level",
+        "drops"
+      ],
+      "n": 2
+    },
+    {
+      "id": "gauge",
+      "tier": "power",
+      "t": "A gauge version of this quantity is measured relative to the surrounding atmosphere instead of to a true vacuum",
+      "k": [
+        "gauge",
+        "vacuum"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stagnation",
+      "tier": "power",
+      "t": "A Pitot tube measures a stagnation version of this quantity, found where fast-moving fluid is brought to a complete stop",
+      "k": [
+        "pitot",
+        "stagnation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "center-of-wing",
+      "tier": "power",
+      "t": "On an airplane wing, the point where this quantity’s net effect acts shifts position as the wing’s angle changes",
+      "k": [
+        "airplane wing",
+        "shifts"
+      ],
+      "n": 1
+    },
+    {
+      "id": "isobaric",
+      "tier": "power",
+      "t": "In an isobaric process, this quantity is held perfectly constant while other variables change",
+      "k": [
+        "isobaric",
+        "constant"
+      ],
+      "n": 2
+    },
+    {
+      "id": "dalton",
+      "tier": "power",
+      "t": "Dalton’s law says the total of this quantity in a gas mixture equals the sum of each gas’s individual share",
+      "k": [
+        "dalton",
+        "gas mixture"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ideal-gas-law",
+      "tier": "power",
+      "t": "This quantity is multiplied by volume on one side of the ideal gas law, written as PV equals nRT",
+      "k": [
+        "ideal gas law",
+        "nrt"
+      ],
+      "n": 1
+    },
+    {
+      "id": "navier-stokes",
+      "tier": "power",
+      "t": "The Navier-Stokes equations include a term built from the negative gradient of this quantity",
+      "k": [
+        "navier",
+        "gradient"
+      ],
+      "n": 1
+    },
+    {
+      "id": "radiation",
+      "tier": "power",
+      "t": "Light itself can push with a tiny version of this quantity, found by dividing the Poynting vector by the speed of light",
+      "k": [
+        "poynting",
+        "light itself"
+      ],
+      "n": 1
+    },
+    {
+      "id": "capillary",
+      "tier": "power",
+      "t": "The Young-Laplace equation describes how this quantity jumps across a curved liquid surface, such as in a thin tube’s meniscus",
+      "k": [
+        "laplace",
+        "meniscus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kinetic-origin",
+      "tier": "power",
+      "t": "In a gas, this quantity is really caused by countless molecules colliding with the walls of their container",
+      "k": [
+        "molecules",
+        "colliding"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Plain pressure, or sub-type?",
+    "body": "Blood pressure and vapor pressure are not just examples of this quantity — on real tossups they are separate, more specific answers, and one real vapor-pressure tossup explicitly refuses to accept or prompt on the bare word for this quantity. Osmotic pressure (tied to osmosis) is treated the same way. Atmospheric, gauge, and stagnation versions, by contrast, are simply this same quantity with a label attached.",
+    "fix": "If the clues are tied to one named context — a doctor’s cuff and Korotkoff sounds mean blood pressure; a liquid’s own vapor and the Clausius-Clapeyron equation mean vapor pressure; a semipermeable membrane and solute concentration mean osmotic pressure — give that specific name. If the clues are generic force-per-area physics (pascals, barometers, Pascal’s or Boyle’s or Bernoulli’s laws), the plain quantity is correct.",
+    "line": "Real answer line: <b><u>Pressure</u></b> [accept atmospheric pressure; prompt on P]"
+  },
+  "tests": {
+    "right": [
+      "Pressure",
+      "pressure",
+      "Presure",
+      "Atmospheric Pressure"
+    ],
+    "prompt": [
+      "P"
+    ],
+    "wrong": [
+      "Blood Pressure",
+      "Vapor Pressure",
+      "Force",
+      "Volume",
+      "Osmosis"
+    ]
+  },
+  "freq": {
+    "rank": 29,
+    "count": 4,
+    "list": "Physics"
+  }
+}

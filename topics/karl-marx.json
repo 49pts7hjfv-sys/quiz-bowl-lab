@@ -1,0 +1,403 @@
+{
+  "id": "karl-marx",
+  "name": "Karl Marx",
+  "mono": "KM",
+  "category": "Philosophy",
+  "qbCategory": "Philosophy",
+  "kicker": "German philosopher and economist · Co-wrote The Communist Manifesto",
+  "dates": "1818–1883",
+  "briefing": "Karl Marx argued that history is driven by struggle between economic classes, especially between factory owners and the workers they employed. With his collaborator Friedrich Engels, he published _The Communist Manifesto_ in 1848, famously declaring that “a spectre is haunting Europe” and calling on “workers of the world” to unite. His later, longer work, _Das Kapital_, became one of the most influential critiques of capitalism ever written.",
+  "answerHtml": "Karl <b><u>Marx</u></b> (do not accept or prompt on “Friedrich Engels”)",
+  "accept": [
+    "marx",
+    "karl marx",
+    "karl heinrich marx"
+  ],
+  "prompt": [],
+  "reject": [
+    "friedrich engels",
+    "engels",
+    "georg hegel",
+    "hegel",
+    "karl popper",
+    "popper",
+    "pierre joseph proudhon",
+    "proudhon",
+    "groucho marx",
+    "marx brothers",
+    "richard marx"
+  ],
+  "tests": {
+    "right": [
+      "Karl Marx",
+      "Marx",
+      "Carl Marx",
+      "Karl Heinrich Marx"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Friedrich Engels",
+      "Hegel",
+      "Karl Popper",
+      "Groucho Marx",
+      "Proudhon"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Karl Marx: Philosopher, Economist, & Social Activist - Fast Facts",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=RlO_iw2cvJM",
+      "note": "Short · quick facts about his life and ideas"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Karl Marx - Philosopher & Revolutionary Socialist | Mini Bio",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=16IMc5mhbZk",
+      "note": "Short, neutral biography of his life and The Communist Manifesto"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Who Was Karl Marx? And Why Is Everyone Still Talking About Him?",
+      "source": "Crash Course",
+      "url": "https://www.youtube.com/watch?v=3imIf8NAcWQ",
+      "note": "Explainer on his life and ideas, and why people still debate them"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Karl Marx & Conflict Theory: Crash Course Sociology #6",
+      "source": "Crash Course Sociology",
+      "url": "https://www.youtube.com/watch?v=gR3igiwaeyc",
+      "note": "Marx’s ideas about social class: workers vs. owners (proletariat and bourgeoisie)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Capitalism and Socialism: Crash Course World History #33",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=B3u4EFTwprM",
+      "note": "Bigger picture · John Green on capitalism, socialism, and where Marx fits in"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Karl Marx facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Karl_Marx",
+      "note": "Quick, neutral read: his life, family, and big ideas"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Karl_Marx",
+  "qb": {
+    "q": "Marx",
+    "found": 11,
+    "tip": "One of the eleven results is a different answer line, “communism,” about the Red Scare and the John Birch Society — skip it. The other ten are all about this man himself."
+  },
+  "sample": {
+    "n": 10,
+    "note": "10 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This thinker developed the theory of historical materialism, the idea that a society’s economic system shapes its history, politics, and ideas. He coined the term “commodity fetishism” to describe how people see the value of goods as natural instead of the result of human labor.",
+      "r": "After this man died, his collaborator finished the final volumes of his massive critique of capitalism. For 10 points, name this German thinker who, with Friedrich Engels, wrote _The Communist Manifesto_."
+    },
+    {
+      "p": "Twentieth-century philosopher Karl Popper criticized this man’s use of “historicism” to predict the future of society in Popper’s book _The Open Society and Its Enemies_. This man’s most famous pamphlet opens by describing “a spectre” that is “haunting Europe.”",
+      "r": "That pamphlet, co-written with Friedrich Engels, describes a struggle between the bourgeoisie and the proletariat. For 10 points, name this German philosopher who wrote _The Communist Manifesto_."
+    },
+    {
+      "p": "This thinker claimed that history repeats itself, “first as tragedy, then as farce,” while describing the rise of Napoleon’s nephew in _The Eighteenth Brumaire of Louis Napoleon_. He also described a “spectre” that is “haunting Europe” while discussing a long history of class struggle.",
+      "r": "That same pamphlet described conflict between the proletariat and the bourgeois classes. For 10 points, name this German philosopher who wrote _Das Kapital_ and co-wrote _The Communist Manifesto_."
+    },
+    {
+      "p": "In a work subtitled “A Critique of Political Economy,” this thinker introduced the idea of “commodity fetishism.” A different work of his begins with the line, “A spectre is haunting Europe.”",
+      "r": "This philosopher described the class struggle between the bourgeoisie and the proletariat and wrote _Das Kapital_. For 10 points, name this thinker who worked with Friedrich Engels on _The Communist Manifesto_."
+    },
+    {
+      "p": "In a critique of Hegel’s _Elements of the Philosophy of Right_, this thinker described religion as “the opium of the people.” He discussed “commodity fetishism” in a work subtitled “Critique of Political Economy.”",
+      "r": "This thinker claimed a “spectre is haunting Europe” while writing about class struggle with Friedrich Engels. For 10 points, name this German philosopher, the author of _Das Kapital_, who called on “workers of the world” to “unite.”"
+    },
+    {
+      "p": "This thinker wrote that philosophers had only ever interpreted the world, when the real point was to change it, in his _Theses on Feuerbach_ [“FOY-er-bahk”]. He also called religion the “opium of the people” in a critique of Hegel.",
+      "r": "In another work, this thinker claimed all history was a “history of class struggles” and commanded the proletarians of the world to unite. For 10 points, name this collaborator of Friedrich Engels who wrote _The Communist Manifesto_."
+    },
+    {
+      "p": "This thinker used the example of twenty yards of linen traded for gold to compare the commodity-form and money-form of value. He also developed a theory of surplus value, which he said drives capitalist profit.",
+      "r": "An 1848 pamphlet primarily written by this man calls for the “workers of the world” to “unite,” and he also wrote _Das Kapital_. For 10 points, name this German philosopher who worked with Friedrich Engels on _The Communist Manifesto_."
+    },
+    {
+      "p": "This thinker wrote that history repeats itself, “first as tragedy, then as farce,” in _The Eighteenth Brumaire of Louis Napoleon_. He also wrote that “a spectre is haunting Europe” in a pamphlet urging the proletariat to revolt against the bourgeoisie.",
+      "r": "That pamphlet was co-written with Friedrich Engels. For 10 points, name this German philosopher who also wrote _Das Kapital_."
+    },
+    {
+      "p": "This thinker argued that the “exchange value” of a good is determined by the labor needed to produce it, a theory now called the labor theory of value. He also wrote, “From each according to his ability, to each according to his needs,” in his _Critique of the Gotha Programme_.",
+      "r": "He claimed that “the history of all hitherto existing society is the history of class struggles.” For 10 points, name this author of _Das Kapital_ and _The Communist Manifesto_."
+    },
+    {
+      "p": "This thinker’s _Theses on Feuerbach_ criticized earlier philosophy for merely interpreting the world. In a book called _The Poverty of Philosophy_, he also criticized the anarchist Pierre-Joseph Proudhon.",
+      "r": "This critic of Hegel wrote that “a spectre” was “haunting Europe” and told the proletariat to unite against the bourgeoisie. For 10 points, name this German economist and author of _Das Kapital_, who wrote _The Communist Manifesto_ with Friedrich Engels."
+    },
+    {
+      "p": "This thinker’s 1841 doctoral dissertation compared the ancient philosophers Democritus and Epicurus. Later, he settled in London after being expelled from several European countries for his radical writings, and he is buried there in Highgate Cemetery.",
+      "r": "This philosopher argued that economic systems drive the “class struggle” that shapes history. For 10 points, name this German thinker who wrote _Das Kapital_ and co-wrote _The Communist Manifesto_."
+    },
+    {
+      "p": "This thinker was born in the Prussian city of Trier and trained as a philosopher before turning to economics. Friedrich Engels, his lifelong collaborator, helped support this man and his family financially for years.",
+      "r": "For 10 points, name this German thinker whose _Communist Manifesto_ calls for the “workers of the world” to “unite,” and whose _Das Kapital_ critiques capitalism."
+    },
+    {
+      "p": "This thinker described a long “history of class struggles” between the bourgeoisie, who own factories and land, and the proletariat, who sell their labor. His theory that a society’s economic base shapes its politics and culture is called historical materialism.",
+      "r": "This philosopher’s _Das Kapital_ built on these ideas to critique capitalism. For 10 points, name this German thinker who co-wrote _The Communist Manifesto_ with Friedrich Engels."
+    },
+    {
+      "p": "This thinker’s massive critique of capitalism was left unfinished at his death; Friedrich Engels edited and published its final two volumes using this man’s notes. Its first volume explains how capitalists profit from “surplus value” created by workers’ labor.",
+      "r": "For 10 points, name this German philosopher and economist, the author of _Das Kapital_ and co-author of _The Communist Manifesto_."
+    },
+    {
+      "p": "This thinker’s most famous pamphlet predicts that capitalism will eventually collapse under its own contradictions as the proletariat rises up against the bourgeoisie. It ends by urging “working men of all countries” to unite.",
+      "r": "That 1848 pamphlet, written with Friedrich Engels, opens by warning that “a spectre is haunting Europe.” For 10 points, name this German philosopher and economist who also wrote _Das Kapital_."
+    }
+  ],
+  "clues": [
+    {
+      "id": "communist-manifesto",
+      "tier": "giveaway",
+      "t": "Co-wrote _The Communist Manifesto_ (1848) with Friedrich Engels",
+      "k": [
+        "communist manifesto",
+        "1848",
+        "engels"
+      ],
+      "n": 10
+    },
+    {
+      "id": "das-kapital",
+      "tier": "giveaway",
+      "t": "Wrote _Das Kapital_, his massive critique of capitalism; Engels edited its final volumes after he died",
+      "k": [
+        "das kapital",
+        "capital"
+      ],
+      "n": 9
+    },
+    {
+      "id": "german-philosopher-economist",
+      "tier": "giveaway",
+      "t": "German philosopher and economist (1818–1883) who spent much of his life in exile in London",
+      "k": [
+        "german",
+        "1818",
+        "1883",
+        "london"
+      ],
+      "n": 2
+    },
+    {
+      "id": "class-struggle",
+      "tier": "giveaway",
+      "t": "Argued history is driven by class struggle between the working class and the capitalist class",
+      "k": [
+        "class struggle",
+        "working class"
+      ],
+      "n": 5
+    },
+    {
+      "id": "workers-unite",
+      "tier": "giveaway",
+      "t": "The Manifesto’s famous closing call: “Workers of the world, unite!”",
+      "k": [
+        "workers of the world",
+        "unite"
+      ],
+      "n": 3
+    },
+    {
+      "id": "bourgeoisie-proletariat",
+      "tier": "middle",
+      "t": "Described society split into the bourgeoisie (factory and land owners) and the proletariat (workers)",
+      "k": [
+        "bourgeoisie",
+        "proletariat"
+      ],
+      "n": 5
+    },
+    {
+      "id": "opium-of-people",
+      "tier": "middle",
+      "t": "Called religion the “opium of the people” in his critique of Hegel’s philosophy of right",
+      "k": [
+        "opium of the people"
+      ],
+      "n": 2
+    },
+    {
+      "id": "historical-materialism",
+      "tier": "middle",
+      "t": "Developed historical materialism — the idea that a society’s economic system shapes its history and politics",
+      "k": [
+        "historical materialism"
+      ],
+      "n": 2
+    },
+    {
+      "id": "commodity-fetishism",
+      "tier": "middle",
+      "t": "Coined “commodity fetishism,” the idea that people treat the value of goods as natural instead of the result of labor",
+      "k": [
+        "commodity fetishism"
+      ],
+      "n": 4
+    },
+    {
+      "id": "specter-haunting-europe",
+      "tier": "middle",
+      "t": "The Manifesto’s famous opening line: “A spectre is haunting Europe”",
+      "k": [
+        "spectre",
+        "specter",
+        "haunting europe"
+      ],
+      "n": 6
+    },
+    {
+      "id": "engels-collaborator",
+      "tier": "middle",
+      "t": "Worked closely with Friedrich Engels, who also helped support him and his family financially",
+      "k": [
+        "engels",
+        "collaborator"
+      ],
+      "n": 1,
+      "rabbit": "Friedrich Engels"
+    },
+    {
+      "id": "gotha-programme",
+      "tier": "middle",
+      "t": "In _Critique of the Gotha Programme_, wrote “from each according to his ability, to each according to his needs”",
+      "k": [
+        "gotha programme",
+        "according to his ability"
+      ],
+      "n": 1
+    },
+    {
+      "id": "eighteenth-brumaire",
+      "tier": "power",
+      "t": "In _The Eighteenth Brumaire of Louis Napoleon_, wrote that history repeats “first as tragedy, then as farce”",
+      "k": [
+        "eighteenth brumaire",
+        "tragedy then as farce"
+      ],
+      "n": 3
+    },
+    {
+      "id": "theses-feuerbach",
+      "tier": "power",
+      "t": "In his _Theses on Feuerbach_, wrote that the point of philosophy is to change the world, not just interpret it",
+      "k": [
+        "theses on feuerbach",
+        "feuerbach"
+      ],
+      "n": 2
+    },
+    {
+      "id": "critique-hegel",
+      "tier": "power",
+      "t": "Critiqued Georg Hegel’s philosophy, including Hegel’s _Elements of the Philosophy of Right_",
+      "k": [
+        "hegel"
+      ],
+      "n": 3,
+      "rabbit": "Georg Wilhelm Friedrich Hegel"
+    },
+    {
+      "id": "surplus-value",
+      "tier": "power",
+      "t": "Theorized that capitalists profit by paying workers less than the value their labor creates (“surplus value”)",
+      "k": [
+        "surplus value"
+      ],
+      "n": 2
+    },
+    {
+      "id": "popper-critique",
+      "tier": "power",
+      "t": "Twentieth-century philosopher Karl Popper later criticized his “historicism” in _The Open Society and Its Enemies_",
+      "k": [
+        "karl popper",
+        "historicism"
+      ],
+      "n": 1
+    },
+    {
+      "id": "proudhon-critique",
+      "tier": "power",
+      "t": "Criticized the anarchist Pierre-Joseph Proudhon in his book _The Poverty of Philosophy_",
+      "k": [
+        "proudhon",
+        "poverty of philosophy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "trier-birth",
+      "tier": "power",
+      "t": "Born in Trier, in the Kingdom of Prussia, and trained as a philosopher before turning to economics",
+      "k": [
+        "trier",
+        "prussia"
+      ],
+      "n": 1
+    },
+    {
+      "id": "exile-london",
+      "tier": "power",
+      "t": "Expelled from several European countries for his radical writings before settling in London, where he is buried at Highgate Cemetery",
+      "k": [
+        "exile",
+        "highgate cemetery"
+      ],
+      "n": 1
+    },
+    {
+      "id": "doctoral-thesis",
+      "tier": "power",
+      "t": "Wrote his 1841 doctoral dissertation comparing the ancient Greek philosophers Democritus and Epicurus",
+      "k": [
+        "doctoral",
+        "democritus",
+        "epicurus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "labor-theory-value",
+      "tier": "power",
+      "t": "Argued the “exchange value” of a good comes from the labor needed to produce it (the labor theory of value)",
+      "k": [
+        "labor theory of value",
+        "exchange value"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Marx or Engels?",
+    "body": "Friedrich Engels co-wrote _The Communist Manifesto_ with this man and helped support him financially, so a clue that only mentions the Manifesto’s joint authorship could technically fit either collaborator. Real answer lines for this man often say “do not accept Engels,” since Engels is a separate, valid answer line of his own.",
+    "fix": "Clues that belong to this man alone (not shared with Engels) include _Das Kapital_’s main authorship, the _Theses on Feuerbach_, _The Eighteenth Brumaire_, the “opium of the people” line, and the critique of Hegel. If a clue only mentions the Manifesto without any of those solo works, listen for his name specifically before buzzing.",
+    "line": "Real answer line: Karl <b><u>Marx</u></b> (do not accept or prompt on “Friedrich Engels”)"
+  },
+  "freq": {
+    "rank": 2,
+    "count": 8,
+    "list": "Philosophy"
+  }
+}

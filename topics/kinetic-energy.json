@@ -1,0 +1,380 @@
+{
+  "id": "kinetic-energy",
+  "name": "Kinetic Energy",
+  "mono": "KE",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Energy of motion · Equals one-half mass times velocity squared",
+  "dates": "Modern one-half-mv-squared formula settled in the 1800s",
+  "briefing": "Kinetic energy is the energy any moving object carries, from a thrown baseball to a speeding car, found with the formula one-half mass times velocity squared. Pull a roller coaster to the top of a hill and it’s loaded with stored, potential energy; let it go, and that energy converts into this kind as the cars race downhill. It’s conserved completely in a bouncy, elastic collision, but partly lost to heat and sound when a collision is inelastic.",
+  "answerHtml": "<b><u>Kinetic Energy</u></b> (accept <u>KE</u>; prompt on <u>energy</u>)",
+  "accept": [
+    "kinetic energy",
+    "ke"
+  ],
+  "prompt": [
+    "energy"
+  ],
+  "reject": [
+    "potential energy",
+    "mechanical energy",
+    "momentum",
+    "work"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Kinetic Energy",
+      "source": "The Physics Classroom",
+      "url": "https://www.youtube.com/watch?v=5jBOHKUcxoE",
+      "note": "What kinetic energy is and how mass and speed change it"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Work done from kinetic energy - solved example",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=LexvE1LV0aE",
+      "note": "Worked problem linking work to a change in kinetic energy (older end)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Kinetic energy derivation",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=Kmr5w1j0neA",
+      "note": "Where the ½mv² formula comes from (older end, uses algebra)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Introduction to work and energy",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=2WS1sG9fhOk",
+      "note": "How work and energy are connected, the bigger picture behind kinetic energy"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Kinetic Energy",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/physics/kinetic_energy.php",
+      "note": "Quick read on kinetic vs. potential energy with a roller coaster example, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Kinetic_energy",
+  "qb": {
+    "q": "kinetic energy",
+    "found": 6,
+    "tip": "1 of the 6 results is really the sibling “energy” answer line (it explicitly accepts energy, kinetic energy, or potential energy as one broad answer) and was excluded. Every remaining result consistently prompts on bare “energy,” which shaped this topic’s prompt list."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups that specifically want “kinetic energy” (Middle School + Easy High School, power-marked); a 6th result is the broader “energy” answer line and was set aside (see qb.tip)"
+  },
+  "tossups": [
+    {
+      "p": "This quantity equals momentum squared divided by two times mass, an alternate to its more familiar formula. It is conserved whenever two objects collide in a perfectly elastic collision, but some of it turns into heat or sound in an inelastic one.",
+      "r": "A roller coaster’s cars carry the most of this quantity at the very bottom of a hill, where they move fastest. Calculated as one-half mass times velocity squared. For 10 points, name this type of energy possessed by any moving object, often contrasted with potential energy."
+    },
+    {
+      "p": "In an ideal gas, the average value of this quantity per particle equals three-halves times Boltzmann’s constant times the absolute temperature. Subtracting potential energy from this quantity gives a value physicists call the Lagrangian, used throughout advanced mechanics.",
+      "r": "Dropped objects gain this quantity as their stored, positional energy converts into it on the way down. For 10 points, name this type of energy tied to motion, found with the formula one-half mass times velocity squared."
+    },
+    {
+      "p": "The Oberth effect lets a rocket engine generate more of this quantity from the same burn of fuel when the rocket is already moving fast. This quantity changes by exactly the amount of work done on an object, a relationship called the work-energy theorem.",
+      "r": "A gas’s temperature is really just a stand-in for the average amount of this quantity carried by its molecules. For 10 points, name this energy of motion, equal to one-half an object’s mass times its velocity squared."
+    },
+    {
+      "p": "According to special relativity, this quantity equals an object’s mass times the Lorentz factor times the speed of light squared, minus that object’s rest energy. It is a scalar quantity, carrying a size but no direction, unlike the velocity used to calculate it.",
+      "r": "Car brakes get hot because they convert this quantity into heat as a car slows down. For 10 points, name this form of energy possessed by any moving object, calculated as one-half mass times velocity squared."
+    },
+    {
+      "p": "This quantity can also be found by taking momentum squared and dividing by double the mass, a formula useful when momentum is already known. Nineteenth-century physicists studying machines and work settled on this quantity’s modern one-half-mv-squared form, replacing an earlier formula that left out the one-half.",
+      "r": "Falling water at the bottom of a dam has converted its stored, positional energy almost entirely into this kind. For 10 points, name this type of energy related to motion, often paired with its opposite, potential energy."
+    },
+    {
+      "p": "This quantity drops to exactly zero for any completely motionless object, no matter how much mass that object has. It is conserved during elastic collisions but not inelastic ones, where some converts to heat or sound instead.",
+      "r": "Pushing a stalled car to get it rolling is an everyday example of doing work to give it some of this quantity. Equal to one-half mass times velocity squared. For 10 points, name this energy that any moving object carries."
+    },
+    {
+      "p": "A gas’s temperature is essentially a measure of the average amount of this quantity carried by its countless jostling molecules. Momentum squared, divided by twice an object’s mass, gives an alternate formula for this same quantity.",
+      "r": "Only the total of this quantity plus potential energy, and any heat or sound produced, stays constant during most everyday collisions, under the conservation of energy. For 10 points, name this quantity found by halving mass times velocity squared."
+    },
+    {
+      "p": "Subtracting potential energy from this quantity gives the Lagrangian, a central quantity in advanced classical mechanics. The Oberth effect means a rocket burning fuel at high speed gains more of this quantity than the same burn at low speed.",
+      "r": "A ball thrown into the air loses this quantity as its upward speed drops, converting it into stored, positional energy instead. For 10 points, name this energy of motion, equal to one-half mass times velocity squared."
+    },
+    {
+      "p": "On average, this quantity equals three-halves times Boltzmann’s constant times temperature for a single particle of an ideal gas. According to special relativity, it instead equals mass times the Lorentz factor times light-speed squared, minus an object’s energy at rest.",
+      "r": "Measured, like every form of energy, in joules. A roller coaster converts potential energy into this kind as its cars race downhill. For 10 points, name this energy that any moving object possesses."
+    },
+    {
+      "p": "The work-energy theorem states that the change in this quantity for an object equals the total work done on it. Momentum squared over twice the mass gives a second formula for calculating this same scalar quantity.",
+      "r": "Elastic collisions conserve this quantity completely, while inelastic ones lose some of it to heat and sound. For 10 points, name this type of energy, calculated as one-half mass times velocity squared, possessed by every moving object."
+    },
+    {
+      "p": "Nineteenth-century physicists studying machines eventually settled on the modern one-half-mv-squared formula for this quantity, correcting an older formula that omitted the one-half. In an ideal gas, the average value of this quantity per molecule rises in lockstep with the gas’s absolute temperature.",
+      "r": "A car’s brakes convert this quantity into heat whenever the driver slows down. For 10 points, name this quantity possessed by all moving objects, often introduced alongside potential energy."
+    },
+    {
+      "p": "This scalar quantity carries no direction of its own, unlike the velocity in its formula. The Oberth effect exploits this quantity’s dependence on speed to make rocket burns more efficient when performed at a rocket’s fastest point.",
+      "r": "Zero for any object sitting perfectly still, this quantity is gained by any object that speeds up. For 10 points, name this type of energy, equal to one-half mass times velocity squared, often paired with potential energy."
+    },
+    {
+      "p": "A value called the Lagrangian comes from subtracting potential energy from this quantity. This quantity can be computed either from one-half mass times velocity squared, or from momentum squared divided by twice the mass.",
+      "r": "A thrown baseball carries this quantity throughout its flight, trading it for stored, positional energy as it rises and getting it back as it falls. For 10 points, name this quantity possessed by any moving object."
+    },
+    {
+      "p": "Special relativity replaces this quantity’s simple formula with mass times the Lorentz factor times the speed of light squared, minus rest energy, once speeds approach that of light. This quantity is conserved, along with momentum, in any perfectly elastic collision.",
+      "r": "A gas’s temperature rises and falls along with the average amount of this quantity its molecules carry. For 10 points, name this energy of motion, calculated as one-half mass times velocity squared."
+    },
+    {
+      "p": "First properly formulated with its modern one-half coefficient by physicists studying machines in the 1800s, this quantity can also be computed as momentum squared over twice the mass. It changes by exactly the amount of work done on an object, according to the work-energy theorem.",
+      "r": "Converted into heat by a car’s brakes, and converted from stored, positional energy whenever something falls. For 10 points, name this form of energy possessed by every moving object, calculated as one-half mass times velocity squared."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The energy any object has simply because it is moving — thrown balls, speeding cars, falling raindrops all have some",
+      "k": [
+        "moving",
+        "thrown balls",
+        "speeding cars"
+      ],
+      "n": 5
+    },
+    {
+      "id": "formula",
+      "tier": "giveaway",
+      "t": "Calculated with the formula one-half times mass times velocity squared",
+      "k": [
+        "one-half",
+        "velocity squared"
+      ],
+      "n": 5
+    },
+    {
+      "id": "vs-potential",
+      "tier": "giveaway",
+      "t": "Usually introduced side-by-side with its opposite number, the stored energy tied to an object’s position or height",
+      "k": [
+        "side-by-side",
+        "stored energy"
+      ],
+      "n": 5,
+      "rabbit": "Energy"
+    },
+    {
+      "id": "roller-coaster",
+      "tier": "giveaway",
+      "t": "Maxed out at the bottom of a hill on a roller coaster, right where the cars are moving fastest",
+      "k": [
+        "roller coaster",
+        "bottom of a hill"
+      ],
+      "n": 1
+    },
+    {
+      "id": "momentum-formula",
+      "tier": "middle",
+      "t": "Equal to momentum squared, divided by two times mass — a second way to calculate the same quantity",
+      "k": [
+        "momentum squared",
+        "divided by two"
+      ],
+      "n": 2
+    },
+    {
+      "id": "elastic-collisions",
+      "tier": "middle",
+      "t": "Conserved whenever two objects bounce off each other in a perfectly elastic collision, but partly lost to heat or sound in an inelastic one",
+      "k": [
+        "elastic collision",
+        "inelastic"
+      ],
+      "n": 3
+    },
+    {
+      "id": "falling-conversion",
+      "tier": "middle",
+      "t": "Converted from stored, positional energy whenever an object is dropped or falls, such as water tumbling over a dam",
+      "k": [
+        "positional energy",
+        "tumbling"
+      ],
+      "n": 1
+    },
+    {
+      "id": "work-energy-theorem",
+      "tier": "middle",
+      "t": "Its change equals the total work done on an object — push on something and you change this quantity by exactly that amount",
+      "k": [
+        "work done",
+        "push on something"
+      ],
+      "n": 1
+    },
+    {
+      "id": "temperature-link",
+      "tier": "middle",
+      "t": "Directly tied to temperature, since a gas’s temperature is really just a measure of the average amount of this its particles carry",
+      "k": [
+        "temperature",
+        "average amount"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lagrangian",
+      "tier": "middle",
+      "t": "Subtract potential energy from this quantity and the result is a value called the Lagrangian, used throughout advanced mechanics",
+      "k": [
+        "lagrangian",
+        "advanced mechanics"
+      ],
+      "n": 1
+    },
+    {
+      "id": "work-everyday",
+      "tier": "middle",
+      "t": "Doing work on a stalled, motionless object, like pushing a stuck car, is exactly how you give it some of this to start with",
+      "k": [
+        "stalled",
+        "stuck car"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ideal-gas-formula",
+      "tier": "power",
+      "t": "On average, for a single particle of an ideal gas, equals three-halves times Boltzmann’s constant times the temperature",
+      "k": [
+        "boltzmann",
+        "three-halves"
+      ],
+      "n": 1
+    },
+    {
+      "id": "relativistic-formula",
+      "tier": "power",
+      "t": "In special relativity, equals mass times the Lorentz factor times the speed of light squared, minus the object’s rest energy",
+      "k": [
+        "lorentz factor",
+        "rest energy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "oberth-effect",
+      "tier": "power",
+      "t": "The Oberth effect lets a rocket engine generate more of this quantity for the same burn when the rocket is already moving fast",
+      "k": [
+        "oberth effect",
+        "rocket engine"
+      ],
+      "n": 1
+    },
+    {
+      "id": "si-unit",
+      "tier": "power",
+      "t": "Measured, like every form of energy, in joules",
+      "k": [
+        "joules",
+        "measured"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kinetic-theory-gases",
+      "tier": "power",
+      "t": "In a gas, its average value per particle rises in step with absolute temperature",
+      "k": [
+        "absolute temperature",
+        "per particle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "not-conserved-alone",
+      "tier": "power",
+      "t": "Only the total of this quantity plus potential energy, and any heat or sound produced, stays constant during most everyday collisions",
+      "k": [
+        "stays constant",
+        "heat or sound"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zero-at-rest",
+      "tier": "power",
+      "t": "Drops to exactly zero for a completely motionless object, no matter how much mass that object has",
+      "k": [
+        "motionless",
+        "zero"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scalar-quantity",
+      "tier": "power",
+      "t": "A scalar, not a vector — it has a size but no direction, unlike the velocity used to calculate it",
+      "k": [
+        "scalar",
+        "no direction"
+      ],
+      "n": 0
+    },
+    {
+      "id": "braking-example",
+      "tier": "power",
+      "t": "Converted into heat by a car’s brakes, which is the whole reason brakes get hot when a car slows down quickly",
+      "k": [
+        "brakes",
+        "get hot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "half-mv2-origin",
+      "tier": "power",
+      "t": "Settled into its modern one-half-mv-squared form by physicists studying machines and work in the 1800s, replacing an older formula that left out the one-half",
+      "k": [
+        "one-half-mv-squared",
+        "1800s"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Kinetic, potential, or just energy?",
+    "body": "Several real tossups on this exact concept only prompt on the bare word “energy,” since that’s the broader category covering both this type and its opposite, potential energy. Potential energy is the stored energy tied to an object’s position or height, not its motion, and “mechanical energy” usually means the two added together.",
+    "fix": "If the clues focus on motion, speed, or the formula one-half mass times velocity squared, answer with the specific, moving-object type. If a question only says “energy” without specifying which kind, wait for a clue that clearly points to motion before buzzing with the more specific answer.",
+    "line": "Real answer line: <b><u>Kinetic Energy</u></b> (accept <u>KE</u>; several real tossups prompt on bare “energy”)."
+  },
+  "tests": {
+    "right": [
+      "Kinetic Energy",
+      "kinetic energy",
+      "KE",
+      "Kinetik Energy"
+    ],
+    "prompt": [
+      "Energy"
+    ],
+    "wrong": [
+      "Potential Energy",
+      "Momentum",
+      "Mechanical Energy",
+      "Work"
+    ]
+  },
+  "freq": {
+    "rank": 5,
+    "count": 9,
+    "list": "Physics"
+  }
+}

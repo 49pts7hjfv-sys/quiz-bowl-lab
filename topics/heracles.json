@@ -1,0 +1,424 @@
+{
+  "id": "heracles",
+  "name": "Heracles",
+  "mono": "HC",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Greek hero and son of Zeus · Famous for the Twelve Labors",
+  "dates": "Legendary hero; stories appear in Homer and Hesiod by the 700s BCE",
+  "briefing": "Heracles was the strongest hero in Greek mythology, a son of Zeus who was forced to complete Twelve Labors after the goddess Hera drove him into a fit of madness. He wrestled the invincible Nemean Lion, cleaned filthy stables by rerouting two rivers, and even journeyed into the Underworld to capture the three-headed dog Cerberus. Centuries later, Romans still called him by his other famous name: Hercules.",
+  "answerHtml": "<b><u>Heracles</u></b> (accept <u>Hercules</u>, <u>Alcides</u>, or <u>Alcaeus</u>)",
+  "accept": [
+    "heracles",
+    "hercules",
+    "herakles",
+    "alcides",
+    "alcaeus"
+  ],
+  "prompt": [],
+  "reject": [
+    "theseus",
+    "achilles",
+    "perseus",
+    "jason",
+    "zeus",
+    "hera",
+    "atlas",
+    "prometheus"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Greek Mythology: Heracles",
+      "source": "Learn Bright",
+      "url": "https://www.youtube.com/watch?v=4YNhLdxn8E8",
+      "note": "Kid-friendly lesson on the famous, super-strong demigod"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The myth of Hercules: 12 labors in 8-bits",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=nIIjhAuC76g",
+      "note": "Short · the Twelve Labors told as a retro video game"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Twelve Labors of Hercules – The Quest for Phat Loot! (Extra Mythology, Part 1)",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=-AU_sfEkA-U",
+      "note": "Cartoon retelling of the Twelve Labors (part 1 of a series)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Miscellaneous Myths: Heracles",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=M16jOVC5kpA",
+      "note": "Funny, fast-paced retelling of his life and labors (some dark moments)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Herakles. Or Hercules. A Problematic Hero: Crash Course World Mythology #30",
+      "source": "Crash Course World Mythology",
+      "url": "https://www.youtube.com/watch?v=R0qkSTvRQa8",
+      "note": "Why the Greeks’ greatest hero was also a troubled one"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Ancient Greece for Kids: Hercules",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/ancient_greece/hercules.php",
+      "note": "Quick read: his birth, the Twelve Labors, and other adventures (filed under his Roman name)"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Heracles",
+  "qb": {
+    "q": "Heracles",
+    "found": 5,
+    "tip": "A wider search also turns up separate QBReader answer lines for just “Twelve Labors of Heracles” and “Heracles’ bow and arrows” — those are different answers, not this one, so they were left out of the sample."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups (5 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This hero’s bow and poisoned arrows passed to Philoctetes [“fih-LOK-tee-teez”], who lit this hero’s funeral pyre. As his final labor, this hero descended to the Underworld and dragged the three-headed guard dog Cerberus back to the surface.",
+      "r": "This hero completed Twelve Labors for King Eurystheus. For 10 points, name this Greek strongman, a son of Zeus, who killed the Nemean Lion."
+    },
+    {
+      "p": "This hero’s nephew Iolaus [“eye-OH-lay-us”] helped him cauterize the Hydra’s regrowing necks and briefly sailed with him among Jason’s Argonauts. As a young man, this hero killed his own music teacher, Linus, in a fit of frustration during a lesson.",
+      "r": "This hero later served King Eurystheus for twelve labors. For 10 points, name this Greek hero and son of Zeus who slew the Nemean Lion."
+    },
+    {
+      "p": "This hero took the magic girdle of Hippolyta, queen of the Amazons, as one of his labors. For another labor, he used a pair of bronze krotala [“KROH-tuh-luh”] given to him by Athena to scare the Stymphalian Birds into flight.",
+      "r": "Eurystheus assigned this hero twelve such labors in all. For 10 points, name this Greek hero who strangled the Nemean Lion and wore its skin as a cloak."
+    },
+    {
+      "p": "This hero stole the man-eating horses that belonged to King Diomedes of the Bistones. On another labor, he tricked the Titan Atlas into taking back the weight of the sky after fetching the Golden Apples of the Hesperides [“hes-PER-ih-deez”].",
+      "r": "This hero also killed the Lernaean Hydra with help from his nephew Iolaus. For 10 points, name this Greek hero, a son of Zeus, who completed Twelve Labors for Eurystheus."
+    },
+    {
+      "p": "On his way to the Hesperides, this hero freed the chained Titan Prometheus from his torment. For an earlier labor, he cleaned out the filthy Augean [“aw-JEE-un”] Stables by rerouting two rivers through them.",
+      "r": "This hero also captured the three-headed dog Cerberus as his final labor. For 10 points, name this Greek hero and son of Zeus who killed the Nemean Lion with his bare hands."
+    },
+    {
+      "p": "This hero once freed the hero Theseus from the “Chair of Forgetfulness” in the Underworld, though he could not also free Theseus’s friend Pirithous [“pih-RITH-oh-us”]. As punishment for another crime, this hero served Queen Omphale [“OM-fuh-lee”] as a slave, at times while wearing women’s clothing.",
+      "r": "He also completed Twelve Labors for his cousin, King Eurystheus. For 10 points, name this Greek hero and son of Zeus who slew the Nemean Lion and the Lernaean Hydra."
+    },
+    {
+      "p": "This hero once wrestled Thanatos, the god of death, to bring back Alcestis, who had died in her husband’s place. Years later, this hero died after his wife Deianira [“dee-uh-NY-ruh”] unknowingly gave him a shirt poisoned with the blood of the centaur Nessus.",
+      "r": "Before that, he had completed Twelve Labors for King Eurystheus. For 10 points, name this Greek hero and son of Zeus who killed the Nemean Lion."
+    },
+    {
+      "p": "After his death, this hero was welcomed to Mount Olympus and married the goddess Hebe. As an infant, this hero had already strangled two snakes that the goddess Hera sent into his crib.",
+      "r": "As an adult, Hera’s schemes led this hero to complete Twelve Labors for King Eurystheus. For 10 points, name this Greek hero, a son of Zeus, who slew the Nemean Lion."
+    },
+    {
+      "p": "This hero killed nearly all of King Laomedon’s [“lay-OM-eh-donz”] sons at Troy after Laomedon broke a promise to give this hero magic horses. Earlier, after the goddess Hera drove this hero into a fit of madness that led him to kill his own children, he served King Eurystheus as penance.",
+      "r": "That service took the form of Twelve Labors. For 10 points, name this Greek hero and son of Zeus who killed the Nemean Lion and the Lernaean Hydra."
+    },
+    {
+      "p": "In a fit of madness, this hero once threw a man named Iphitus [“IH-fih-tus”] off the walls of the city of Tiryns [“TEER-inz”]. As his twelfth and final labor, this hero captured the three-headed dog Cerberus from the Underworld.",
+      "r": "His other labors included killing the Nemean Lion and the Hydra. For 10 points, name this Greek hero and son of Zeus."
+    },
+    {
+      "p": "After the goddess Hera drove this hero mad, causing him to kill his own children, he served his cousin, King Eurystheus, as penance. One of the resulting labors sent him to take the girdle of Hippolyta, queen of the Amazons.",
+      "r": "He completed twelve such labors in all. For 10 points, name this Greek hero, a son of Zeus, who killed the Nemean Lion and the Lernaean Hydra."
+    },
+    {
+      "p": "This hero was once sold into service to Queen Omphale, who made him wear women’s clothing as he worked as her slave. On another adventure, this hero freed the Titan Prometheus from the chains that bound him.",
+      "r": "This strongman also completed Twelve Labors for King Eurystheus, including the killing of the Nemean Lion. For 10 points, name this Greek hero and son of Zeus."
+    },
+    {
+      "p": "This hero died after his wife Deianira accidentally gave him a tunic poisoned with the blood of the centaur Nessus. Earlier in his life, this hero had wrestled Thanatos, the god of death, to rescue Alcestis.",
+      "r": "In between, he completed Twelve Labors for King Eurystheus. For 10 points, name this Greek hero, a son of Zeus, who slew the Nemean Lion."
+    },
+    {
+      "p": "This hero rerouted two rivers to flush out the filthy Augean Stables as one of his labors. On another adventure entirely, he killed most of King Laomedon’s sons at Troy after being cheated out of a promised reward of magic horses.",
+      "r": "His twelve labors for King Eurystheus also included killing the Nemean Lion and the Hydra. For 10 points, name this Greek hero and son of Zeus."
+    },
+    {
+      "p": "As a baby, this hero strangled two snakes that the jealous goddess Hera had sent into his crib. As an adult, this hero’s nephew Iolaus helped him defeat the Lernaean Hydra by cauterizing its regrowing necks.",
+      "r": "This hero completed Twelve Labors in all for King Eurystheus. For 10 points, name this Greek hero and son of Zeus who killed the Nemean Lion."
+    }
+  ],
+  "clues": [
+    {
+      "id": "twelve-labors",
+      "tier": "giveaway",
+      "t": "Completed the Twelve Labors assigned by his cousin, King Eurystheus",
+      "k": [
+        "twelve labors",
+        "eurystheus"
+      ],
+      "n": 9
+    },
+    {
+      "id": "nemean-lion",
+      "tier": "giveaway",
+      "t": "Killed the Nemean Lion, whose skin became his famous cloak",
+      "k": [
+        "nemean lion",
+        "cloak"
+      ],
+      "n": 7,
+      "rabbit": "Nemean Lion"
+    },
+    {
+      "id": "hydra",
+      "tier": "giveaway",
+      "t": "Killed the many-headed Lernaean Hydra with help from his nephew Iolaus",
+      "k": [
+        "hydra",
+        "iolaus"
+      ],
+      "n": 6
+    },
+    {
+      "id": "son-of-zeus",
+      "tier": "giveaway",
+      "t": "A son of the god Zeus and the mortal woman Alcmene",
+      "k": [
+        "zeus",
+        "alcmene"
+      ],
+      "n": 4
+    },
+    {
+      "id": "eurystheus-penance",
+      "tier": "middle",
+      "t": "Served King Eurystheus as a penance after Hera drove him mad and he killed his own children",
+      "k": [
+        "eurystheus",
+        "penance",
+        "madness"
+      ],
+      "n": 2
+    },
+    {
+      "id": "omphale",
+      "tier": "middle",
+      "t": "Served Queen Omphale as a slave, at times while wearing women’s clothing",
+      "k": [
+        "omphale",
+        "slave"
+      ],
+      "n": 4
+    },
+    {
+      "id": "nessus-death",
+      "tier": "middle",
+      "t": "Died after his wife Deianira gave him a shirt poisoned with the blood of the centaur Nessus",
+      "k": [
+        "deianira",
+        "nessus",
+        "poisoned shirt"
+      ],
+      "n": 4,
+      "rabbit": "Deianira"
+    },
+    {
+      "id": "augean",
+      "tier": "middle",
+      "t": "Cleaned the Augean Stables by rerouting two rivers",
+      "k": [
+        "augean stables",
+        "rivers"
+      ],
+      "n": 4
+    },
+    {
+      "id": "infant-snakes",
+      "tier": "middle",
+      "t": "As a baby, strangled two snakes that Hera sent into his crib",
+      "k": [
+        "snakes",
+        "crib",
+        "baby"
+      ],
+      "n": 3
+    },
+    {
+      "id": "cerberus",
+      "tier": "middle",
+      "t": "Captured the three-headed guard dog Cerberus from the Underworld as his final labor",
+      "k": [
+        "cerberus",
+        "underworld"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hesperides",
+      "tier": "middle",
+      "t": "Tricked the Titan Atlas while fetching the Golden Apples of the Hesperides",
+      "k": [
+        "atlas",
+        "golden apples",
+        "hesperides"
+      ],
+      "n": 2
+    },
+    {
+      "id": "stymphalian",
+      "tier": "middle",
+      "t": "Used bronze krotala lent by Athena to scare off the Stymphalian Birds",
+      "k": [
+        "stymphalian",
+        "krotala"
+      ],
+      "n": 2
+    },
+    {
+      "id": "linus",
+      "tier": "middle",
+      "t": "Killed his music teacher, Linus, in a fit of frustration",
+      "k": [
+        "linus",
+        "music teacher"
+      ],
+      "n": 2
+    },
+    {
+      "id": "philoctetes-bow",
+      "tier": "power",
+      "t": "His bow and poisoned arrows passed to Philoctetes, who lit his funeral pyre",
+      "k": [
+        "philoctetes",
+        "funeral pyre",
+        "bow"
+      ],
+      "n": 2,
+      "rabbit": "Philoctetes"
+    },
+    {
+      "id": "iolaus",
+      "tier": "power",
+      "t": "His nephew Iolaus helped cauterize the Hydra’s necks and briefly sailed with Jason’s Argonauts",
+      "k": [
+        "iolaus",
+        "argonauts"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hippolyta",
+      "tier": "power",
+      "t": "Took the magic girdle of Hippolyta, queen of the Amazons",
+      "k": [
+        "hippolyta",
+        "amazons",
+        "girdle"
+      ],
+      "n": 1,
+      "rabbit": "Hippolyta"
+    },
+    {
+      "id": "diomedes",
+      "tier": "power",
+      "t": "Stole the man-eating horses of King Diomedes",
+      "k": [
+        "diomedes",
+        "man eating horses"
+      ],
+      "n": 1
+    },
+    {
+      "id": "prometheus",
+      "tier": "power",
+      "t": "Freed the Titan Prometheus from his chains on the way to the Hesperides",
+      "k": [
+        "prometheus",
+        "chains"
+      ],
+      "n": 1,
+      "rabbit": "Prometheus"
+    },
+    {
+      "id": "theseus-rescue",
+      "tier": "power",
+      "t": "Freed the hero Theseus from the “Chair of Forgetfulness” in the Underworld, but could not free Theseus’s friend Pirithous",
+      "k": [
+        "theseus",
+        "chair of forgetfulness",
+        "pirithous"
+      ],
+      "n": 0,
+      "rabbit": "Theseus"
+    },
+    {
+      "id": "thanatos",
+      "tier": "power",
+      "t": "Wrestled Thanatos, the god of death, to bring Alcestis back from the dead",
+      "k": [
+        "thanatos",
+        "alcestis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hebe",
+      "tier": "power",
+      "t": "After his death, was welcomed to Mount Olympus and married the goddess Hebe",
+      "k": [
+        "hebe",
+        "olympus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "laomedon",
+      "tier": "power",
+      "t": "Killed King Laomedon’s sons at Troy after Laomedon broke a promise about magic horses",
+      "k": [
+        "laomedon",
+        "troy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tiryns",
+      "tier": "power",
+      "t": "In a fit of madness, threw a man named Iphitus off the walls of the city of Tiryns",
+      "k": [
+        "tiryns",
+        "iphitus"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Heracles, Hercules, or something else?",
+    "body": "Heracles and Hercules are the same hero (Greek and Roman names for him), so both are always correct. But a wider QBReader search also turns up two separate, related answer lines: “Twelve Labors of Heracles” (the set of tasks itself) and “Heracles’ bow and arrows” (the weapon). Those want a different kind of answer, not the hero himself.",
+    "fix": "If the question asks you to name a person who did these deeds, answer Heracles or Hercules. If it specifically asks for a list of tasks or a weapon, it may want one of those separate answer lines instead.",
+    "line": "Real answer line: <b><u>Heracles</u></b> [or Hercules; or Alcides; or Alcaeus]."
+  },
+  "tests": {
+    "right": [
+      "Heracles",
+      "Hercules",
+      "Herecles",
+      "Alcides",
+      "Herakles"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Theseus",
+      "Zeus",
+      "Achilles",
+      "Perseus",
+      "Jason"
+    ]
+  },
+  "freq": {
+    "rank": 10,
+    "count": 7,
+    "list": "Mythology"
+  }
+}

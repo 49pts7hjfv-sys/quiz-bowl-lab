@@ -1,0 +1,433 @@
+{
+  "id": "holy-roman-empire",
+  "name": "Holy Roman Empire",
+  "mono": "HRE",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Elective empire at Europe’s center · From Charlemagne to Napoleon",
+  "dates": "c. 800–1806",
+  "briefing": "On Christmas Day in the year 800, Pope Leo III crowned the Frankish king Charlemagne as emperor, reviving the idea of Rome in Western Europe. The empire that grew from his legacy covered much of what’s now Germany, Austria, and beyond, but its leading princes elected each new emperor rather than passing the crown father to son. Voltaire later joked that it was “neither holy, nor Roman, nor an empire” — yet it lasted until Napoleon forced its last emperor to dissolve it in 1806.",
+  "answerHtml": "<b><u>Holy Roman Empire</u></b> (or <u>HRE</u>; do not accept “Rome” alone)",
+  "accept": [
+    "holy roman empire",
+    "the holy roman empire",
+    "hre",
+    "holy roman empire of the german nation"
+  ],
+  "prompt": [
+    "germany"
+  ],
+  "reject": [
+    "charlemagne",
+    "otto the great",
+    "otto i",
+    "charles v",
+    "napoleon",
+    "napoleon bonaparte",
+    "austrian empire",
+    "german empire",
+    "ottoman empire",
+    "byzantine empire",
+    "eastern roman empire",
+    "rome",
+    "otto von bismarck",
+    "carolingian empire",
+    "frankish empire",
+    "thirty years war",
+    "prussia",
+    "kingdom of prussia"
+  ],
+  "tests": {
+    "right": [
+      "Holy Roman Empire",
+      "Holy Roman empire",
+      "the Holy Roman Empire",
+      "HRE",
+      "Holy Roman Emprie"
+    ],
+    "prompt": [
+      "Germany"
+    ],
+    "wrong": [
+      "Charlemagne",
+      "Austrian Empire",
+      "Charles V",
+      "Napoleon",
+      "German Empire"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Holy Roman Empire Explained",
+      "source": "WonderWhy",
+      "url": "https://www.youtube.com/watch?v=TpKmG7mDaDM",
+      "note": "Short explainer on what the empire actually was and how it worked"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Holy Roman Emperors 1: Charlemagne Builds an Empire, 800-924",
+      "source": "History Tea Time with Lindsay Holiday",
+      "url": "https://www.youtube.com/watch?v=D6IuEO5UIms",
+      "note": "How Charlemagne’s crowning in 800 became the empire’s starting point"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Collapse of the Carolingian Empire - Echoes of History",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=mZ1jkjfRKJM",
+      "note": "What happened to Charlemagne’s empire after his death"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Charles V and the Holy Roman Empire: Crash Course World History #219",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=MRYzW3BSj0I",
+      "note": "Its biggest ruler, Charles V, who was also king of Spain"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Holy Roman Empire",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Holy-Roman-Empire/106284",
+      "note": "A fuller read on the empire’s thousand-year history, from Charlemagne to Napoleon"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Holy_Roman_Empire",
+  "qb": {
+    "q": "Holy Roman Empire",
+    "found": 3,
+    "tip": "Only 3 Middle School/Easy High School results came back, so a Regular High School search filled out the sample. Watch for “Austrian Empire” and “Charles V of the Holy Roman Empire” results mixed in — those are different, more specific answer lines, and the heart of the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 7,
+    "note": "3 Middle School/Easy High School + 4 Regular High School real QBReader tossups for this answer line, power-marked (two related answer lines, “Austrian Empire” and “Charles V of the Holy Roman Empire,” also turned up and fed the Buzzer Trap below)"
+  },
+  "tossups": [
+    {
+      "p": "On Christmas Day in the year 800, Pope Leo III crowned a Frankish king as emperor of this realm, reviving a title that had lapsed in Western Europe for centuries. Historians usually date this institution’s true founding to 962, though, when Otto I was crowned by a different pope.",
+      "r": "Seven Prince-Electors eventually gained the right to choose each new ruler of this realm rather than passing the crown by birth. For 10 points, name this Central European empire that lasted, in some form, from Charlemagne to Napoleon."
+    },
+    {
+      "p": "The Golden Bull of 1356, issued by Emperor Charles IV, formally fixed the number of princes who could choose this realm’s ruler at seven. Those Prince-Electors met along with other princes and free cities in an assembly called the Imperial Diet to handle this realm’s affairs.",
+      "r": "Unlike most kingdoms, this realm’s crown was elective rather than strictly hereditary. For 10 points, name this sprawling Central European empire, dissolved in 1806, that was once ruled by Charlemagne and Charles V."
+    },
+    {
+      "p": "A long fight over who could appoint bishops within this realm, called the Investiture Controversy, ended when Emperor Henry V and Pope Calixtus II signed the Concordat of Worms in 1122 as a compromise. Decades later, Frederick Barbarossa [“BAR-buh-ROH-suh”] fought the Lombard League, a group of Italian cities backed by the Papacy.",
+      "r": "Barbarossa’s forces lost to that league at the Battle of Legnano in 1176. For 10 points, name this empire, centered on medieval Germany, whose rulers often clashed with the pope."
+    },
+    {
+      "p": "In 1521, this realm’s ruler summoned a rebellious monk to the Diet of Worms and then declared him an outlaw after he refused to recant his teachings. Friendly nobles then staged a fake kidnapping of that monk, Martin Luther, hiding him at Wartburg Castle for his own safety.",
+      "r": "Luther’s ideas later split this realm’s princes into the Catholic side and the Protestant Schmalkaldic League, who fought a war against their own emperor. For 10 points, name this Central European empire that Charles V ruled during the Reformation."
+    },
+    {
+      "p": "One ruler of this realm inherited so many Habsburg and Spanish territories that his lands were said to never see a sunset, and he simultaneously reigned in Spain as King Charles I. After decades of war and religious conflict, that ruler abdicated in 1556, splitting his holdings between his son and his brother.",
+      "r": "His brother Ferdinand I inherited this realm’s throne, while his son Philip II took the Spanish crown. For 10 points, name this empire, whose electors had chosen Charles V as ruler in 1519."
+    },
+    {
+      "p": "The Thirty Years’ War, a brutal conflict fought mostly within this realm’s borders, finally ended with the Peace of Westphalia in 1648. That settlement recognized the Swiss Confederacy and the Dutch Republic as fully independent of this realm’s authority.",
+      "r": "The peace also confirmed that each prince within this realm could set his own territory’s official religion. For 10 points, name this empire, whose power declined sharply after this devastating war."
+    },
+    {
+      "p": "After crushing Austrian and Russian forces at the Battle of Austerlitz in 1805, Napoleon organized many of this realm’s western territories into a new Confederation of the Rhine. Facing that pressure, Emperor Francis II dissolved this realm entirely the following year.",
+      "r": "Francis had already created a separate Austrian imperial title for himself in 1804, anticipating that end. For 10 points, name this thousand-year-old empire, later nicknamed the “First Reich,” which Napoleon finally brought down in 1806."
+    },
+    {
+      "p": "Members of the Habsburg family held this realm’s throne almost without interruption from 1438 until its final dissolution, with one brief exception when a Bavarian Wittelsbach [“VIT-els-bahk”] prince took the title in the 1740s. This realm’s electors formally chose each new emperor at Frankfurt.",
+      "r": "Despite the family’s dominance, every Habsburg ruler technically had to be elected rather than simply inheriting the office. For 10 points, name this Central European empire, nicknamed the “First Reich.”"
+    },
+    {
+      "p": "A period with no effectively recognized ruler, called the Great Interregnum, left this realm in near chaos during the 1250s and 1260s after the fall of the Hohenstaufen [“HOH-en-shtow-fen”] dynasty. Electors finally ended that crisis in 1273 by choosing Rudolf of Habsburg, launching his family’s long rise to power.",
+      "r": "Rudolf became the first Habsburg to hold this realm’s throne. For 10 points, name this Central European empire, whose crown the Habsburgs would later hold for centuries."
+    },
+    {
+      "p": "In 955, a king of this realm smashed an invading Magyar army at the Battle of Lechfeld [“LEKH-felt”], ending decades of raids into Central Europe. Seven years later, Pope John XII crowned that king, Otto, as emperor, an event many historians treat as this institution’s true beginning.",
+      "r": "Otto’s coronation came more than a century and a half after Charlemagne’s own crowning on Christmas Day, 800. For 10 points, name this empire that Otto the Great is sometimes called the first true emperor of."
+    },
+    {
+      "p": "Dozens of “free imperial cities” within this realm answered directly to the emperor rather than to any local duke or bishop, giving them unusual independence in trade and local government. Together with princes and church leaders, representatives of these cities met in the Imperial Diet to debate this realm’s laws.",
+      "r": "Hamburg and Frankfurt were among the most powerful of these self-governing cities. For 10 points, name this loosely organized Central European empire."
+    },
+    {
+      "p": "The French writer Voltaire famously joked that this realm was “neither holy, nor Roman, nor an empire,” mocking how little real power its emperor held over its many separate princes. Despite that mockery, this loose confederation of states endured for roughly a thousand years.",
+      "r": "Pressure from Napoleon finally ended it in 1806, after centuries of Habsburg rule. For 10 points, name this empire whose name promised more unity than it ever actually had."
+    },
+    {
+      "p": "A heraldic design called the Quaternion Eagle displayed the coats of arms of this realm’s many territories across the feathers of a double-headed eagle. Its later emperors flew a black double-headed eagle on a gold banner as this realm’s symbol.",
+      "r": "A double-headed eagle later appeared on the coat of arms of the Austrian Empire long after this realm ended. For 10 points, name this empire, whose symbols outlived its 1806 dissolution."
+    },
+    {
+      "p": "This realm had no single fixed capital; its rulers instead moved between residences like Vienna, Prague, and Aachen, while the Prince-Electors traditionally gathered at Frankfurt to choose each new emperor. A separate imperial court, the Reichskammergericht [“RIKES-kammer-gericht”], handled legal disputes between this realm’s many territories.",
+      "r": "This fragmented structure let hundreds of small states and free cities govern themselves with real independence. For 10 points, identify this loosely unified Central European empire."
+    },
+    {
+      "p": "For roughly a thousand years, this realm stood at the center of European politics without ever becoming a single unified nation-state, instead remaining a patchwork of kingdoms, duchies, and free cities loosely bound under one elected emperor. Its emperors were crowned by the pope for much of its history, linking this realm closely to the Catholic Church.",
+      "r": "It was later nicknamed the “First Reich,” though it ended decades before any Second or Third Reich existed. For 10 points, name this empire that lasted from around 800 until Napoleon forced its dissolution in 1806."
+    }
+  ],
+  "clues": [
+    {
+      "id": "charlemagne-800",
+      "tier": "giveaway",
+      "t": "Founding tied to Charlemagne’s coronation by Pope Leo III on Christmas Day, 800",
+      "k": [
+        "charlemagne",
+        "christmas day",
+        "800"
+      ],
+      "n": 1,
+      "rabbit": "Charlemagne"
+    },
+    {
+      "id": "elective-emperors",
+      "tier": "giveaway",
+      "t": "Ruled by elected emperors chosen by Prince-Electors, not simple father-to-son inheritance",
+      "k": [
+        "elected emperors",
+        "prince electors"
+      ],
+      "n": 3
+    },
+    {
+      "id": "germanic-lands",
+      "tier": "giveaway",
+      "t": "Covered a patchwork of German-speaking kingdoms, duchies, and free cities in Central Europe",
+      "k": [
+        "patchwork",
+        "german speaking",
+        "central europe"
+      ],
+      "n": 2
+    },
+    {
+      "id": "napoleon-ends-it",
+      "tier": "giveaway",
+      "t": "Brought to an end in 1806 when Napoleon forced the last emperor to dissolve it",
+      "k": [
+        "napoleon",
+        "dissolve",
+        "1806"
+      ],
+      "n": 2,
+      "rabbit": "Napoleon Bonaparte"
+    },
+    {
+      "id": "not-holy-not-roman",
+      "tier": "giveaway",
+      "t": "Voltaire famously joked it was “neither holy, nor Roman, nor an empire”",
+      "k": [
+        "voltaire",
+        "neither holy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "otto-the-great",
+      "tier": "middle",
+      "t": "Otto I’s coronation in 962 is often called this institution’s true beginning, a century and a half after Charlemagne",
+      "k": [
+        "otto i",
+        "962"
+      ],
+      "n": 1,
+      "rabbit": "Otto the Great"
+    },
+    {
+      "id": "golden-bull",
+      "tier": "middle",
+      "t": "The Golden Bull of 1356 fixed the number of Prince-Electors at seven",
+      "k": [
+        "golden bull",
+        "1356"
+      ],
+      "n": 2
+    },
+    {
+      "id": "charles-v",
+      "tier": "middle",
+      "t": "Charles V ruled it alongside Spain itself before abdicating and splitting his lands in 1556",
+      "k": [
+        "charles v",
+        "abdicating",
+        "1556"
+      ],
+      "n": 4,
+      "rabbit": "Charles V"
+    },
+    {
+      "id": "thirty-years-war",
+      "tier": "middle",
+      "t": "A brutal war from 1618 to 1648, fought largely on its soil, ended with the Peace of Westphalia",
+      "k": [
+        "peace of westphalia",
+        "1618"
+      ],
+      "n": 2
+    },
+    {
+      "id": "luther-worms",
+      "tier": "middle",
+      "t": "Martin Luther was declared an outlaw at the 1521 Diet of Worms, then hidden at Wartburg Castle",
+      "k": [
+        "martin luther",
+        "diet of worms",
+        "wartburg"
+      ],
+      "n": 2,
+      "rabbit": "Martin Luther"
+    },
+    {
+      "id": "schmalkaldic",
+      "tier": "middle",
+      "t": "Protestant princes formed the Schmalkaldic League to resist Emperor Charles V",
+      "k": [
+        "schmalkaldic league",
+        "protestant princes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "habsburgs",
+      "tier": "middle",
+      "t": "Ruled almost continuously by the Habsburg dynasty from 1438 until its end",
+      "k": [
+        "habsburg dynasty",
+        "1438"
+      ],
+      "n": 1
+    },
+    {
+      "id": "imperial-diet",
+      "tier": "middle",
+      "t": "Its Imperial Diet brought together electors, princes, and free cities to debate its laws",
+      "k": [
+        "imperial diet"
+      ],
+      "n": 3
+    },
+    {
+      "id": "austrian-empire-split",
+      "tier": "middle",
+      "t": "Emperor Francis II created a separate Austrian Empire title in 1804, just before this realm’s end",
+      "k": [
+        "francis ii",
+        "austrian empire title"
+      ],
+      "n": 0,
+      "rabbit": "Austrian Empire"
+    },
+    {
+      "id": "investiture-controversy",
+      "tier": "power",
+      "t": "The Investiture Controversy over appointing bishops ended with the Concordat of Worms in 1122",
+      "k": [
+        "investiture controversy",
+        "concordat of worms"
+      ],
+      "n": 1
+    },
+    {
+      "id": "barbarossa-lombard",
+      "tier": "power",
+      "t": "Frederick Barbarossa fought the pope-backed Lombard League, losing at the Battle of Legnano in 1176",
+      "k": [
+        "frederick barbarossa",
+        "lombard league",
+        "legnano"
+      ],
+      "n": 1
+    },
+    {
+      "id": "great-interregnum",
+      "tier": "power",
+      "t": "A Great Interregnum with no effective ruler, in the 1250s and 1260s, ended when Rudolf of Habsburg was elected in 1273",
+      "k": [
+        "great interregnum",
+        "rudolf"
+      ],
+      "n": 3
+    },
+    {
+      "id": "lechfeld",
+      "tier": "power",
+      "t": "Otto I crushed an invading Magyar army at the Battle of Lechfeld in 955, before his imperial coronation",
+      "k": [
+        "lechfeld",
+        "magyar"
+      ],
+      "n": 1
+    },
+    {
+      "id": "free-imperial-cities",
+      "tier": "power",
+      "t": "Dozens of “free imperial cities” answered directly to the emperor instead of to local nobles",
+      "k": [
+        "free imperial cities"
+      ],
+      "n": 1
+    },
+    {
+      "id": "quaternion-eagle",
+      "tier": "power",
+      "t": "A heraldic design called the Quaternion Eagle displayed its many territories’ coats of arms on a double-headed eagle",
+      "k": [
+        "quaternion eagle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "reichskammergericht",
+      "tier": "power",
+      "t": "A supreme court called the Reichskammergericht settled legal disputes between its many territories",
+      "k": [
+        "reichskammergericht"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-capital",
+      "tier": "power",
+      "t": "Never had one fixed capital; emperors moved between residences like Vienna, Prague, and Aachen",
+      "k": [
+        "no fixed capital",
+        "residences"
+      ],
+      "n": 0
+    },
+    {
+      "id": "confederation-of-rhine",
+      "tier": "power",
+      "t": "Napoleon carved many of its western territories into the Confederation of the Rhine just before its end",
+      "k": [
+        "confederation of the rhine"
+      ],
+      "n": 0,
+      "rabbit": "Napoleon Bonaparte"
+    },
+    {
+      "id": "first-reich-nickname",
+      "tier": "power",
+      "t": "Later nicknamed the “First Reich,” though it ended decades before any Second or Third Reich existed",
+      "k": [
+        "first reich"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Not Charlemagne, Rome, or Austria",
+    "body": "This empire overlaps with several separate quiz bowl answers. Charlemagne and Otto the Great are specific emperors, not the empire itself, and Charles V and Napoleon are rulers connected to its high point and its end. The ancient Roman Empire and the later Byzantine (Eastern Roman) Empire share part of the name but are entirely different states, and the Austrian Empire that Francis II created in 1804 explicitly replaced this one — one real answer line for “Austrian Empire” even says “do not accept or prompt on Holy Roman Empire.”",
+    "fix": "Prince-Electors, the Imperial Diet, Charlemagne’s legacy, and an 1806 dissolution forced by Napoleon mean this empire. A single all-powerful Caesar means ancient Rome. A Germany united under Bismarck in 1871 means the German Empire instead.",
+    "line": "Real answer line: <b><u>Holy Roman Empire</u></b> [accept <u>HRE</u>; do not accept “Rome”]"
+  },
+  "freq": {
+    "rank": 24,
+    "count": 4,
+    "list": "European History"
+  }
+}

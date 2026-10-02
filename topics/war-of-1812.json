@@ -1,0 +1,452 @@
+{
+  "id": "war-of-1812",
+  "name": "War of 1812",
+  "mono": "W12",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "U.S. vs. Britain, 1812–1815 · Gave America its national anthem",
+  "dates": "Fought 1812–1815",
+  "briefing": "In the War of 1812, the young United States fought Great Britain again, angry that British ships were seizing American sailors and forcing them to serve in the Royal Navy. British troops burned the White House, and the bombardment of Fort McHenry inspired Francis Scott Key to write “The Star-Spangled Banner.” Oddly, the war’s biggest American victory, Andrew Jackson’s win at New Orleans, came after the peace treaty had already been signed.",
+  "answerHtml": "<b><u>War of 1812</u></b> (prompt on “1812” alone)",
+  "accept": [
+    "war of 1812",
+    "1812 war",
+    "war 1812",
+    "war of eighteen twelve"
+  ],
+  "prompt": [
+    "1812"
+  ],
+  "reject": [
+    "revolutionary war",
+    "american revolution",
+    "napoleonic wars",
+    "napoleonic war",
+    "french and indian war",
+    "mexican american war",
+    "spanish american war",
+    "war of 1898",
+    "civil war",
+    "battle of new orleans",
+    "1812 overture"
+  ],
+  "tests": {
+    "right": [
+      "War of 1812",
+      "the War of 1812",
+      "Warr of 1812",
+      "1812 War",
+      "war 1812"
+    ],
+    "prompt": [
+      "1812"
+    ],
+    "wrong": [
+      "Revolutionary War",
+      "American Revolution",
+      "Napoleonic Wars",
+      "French and Indian War",
+      "Mexican-American War",
+      "War of 1898",
+      "Battle of New Orleans",
+      "1812 Overture"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Heritage Minutes: Queenston Heights",
+      "source": "Historica Canada",
+      "url": "https://www.youtube.com/watch?v=CPqFcLTR2w8",
+      "note": "About 1 min · a dramatized moment from the Battle of Queenston Heights, told from Canada’s side (battle scenes)"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What Caused the War of 1812?",
+      "source": "American Battlefield Trust",
+      "url": "https://www.youtube.com/watch?v=LahKRJKq6_w",
+      "note": "Short · why the United States declared war on Britain"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Original Star Spangled Banner",
+      "source": "Voice of America",
+      "url": "https://www.youtube.com/watch?v=NR8t2idJhPE",
+      "note": "Short news feature · the real Fort McHenry flag that inspired the national anthem"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The War of 1812 (#11)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=qMXqg2PKJZU",
+      "note": "The whole war: its causes, its battles, and how it ended"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "US History: The War of 1812 for Kids",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/us_1800s/war_of_1812.php",
+      "note": "Quick kid-friendly read, with a quiz page"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/War_of_1812",
+  "qb": {
+    "q": "War of 1812",
+    "found": 8,
+    "tip": "All eight are about this war and six mention “The Star-Spangled Banner,” so the race is won on early clues like Lundy’s Lane, Bladensburg, Queenston Heights, and Macon’s Bill No. 2."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "One of this war’s bloodiest battles was fought at Lundy’s Lane, near Niagara Falls, where the American general Winfield Scott was badly wounded. Weeks earlier, Scott’s brigade, wearing gray uniforms because blue cloth was scarce, won the Battle of Chippawa.",
+      "r": "Several American invasions of Canada failed during this war. For 10 points, name this war between the United States and Great Britain that ended with the Treaty of Ghent."
+    },
+    {
+      "p": "During this war, a sudden storm that included a tornado swept through an occupied city, helping put out fires that enemy troops had set, and the troops left soon after. They had marched into that city after routing American militia at Bladensburg, Maryland.",
+      "r": "Dolley Madison had a portrait of George Washington rescued before the White House burned. For 10 points, name this war in which the British burned Washington, D.C."
+    },
+    {
+      "p": "Early in this war, the British general Isaac Brock forced William Hull to surrender Detroit without a battle. Brock was killed two months later while leading a charge at the Battle of Queenston Heights, and he is still honored as a hero in Canada.",
+      "r": "Oliver Hazard Perry’s victory on Lake Erie later helped Americans retake Detroit. For 10 points, name this war, fought partly over the British impressment of American sailors."
+    },
+    {
+      "p": "Before this war, Congress passed Macon’s Bill No. 2, which offered to cut off trade with either Britain or France if the other dropped its limits on American shipping. Napoleon tricked James Madison by pretending to drop France’s limits, and tensions with Britain grew.",
+      "r": "“War Hawks” in Congress then demanded a fight with Britain. For 10 points, name this war that ended with the Treaty of Ghent."
+    },
+    {
+      "p": "In the last major battle of this war, British general Edward Pakenham was killed leading an attack on an American line behind the Rodriguez Canal. Pirates led by Jean Lafitte [“luh-FEET”], free Black militiamen, and Choctaw warriors all helped defend that line.",
+      "r": "Andrew Jackson won that battle at New Orleans after the peace treaty had already been signed. For 10 points, name this war between the United States and Britain."
+    },
+    {
+      "p": "New England Federalists who opposed this war met at the Hartford Convention, which led critics to accuse them of disloyalty. The convention’s demands reached Washington just as news of victory and peace did, and the Federalist Party soon faded away.",
+      "r": "Federalists had mocked this conflict as “Mr. Madison’s War.” For 10 points, name this war in which Francis Scott Key wrote “The Star-Spangled Banner.”"
+    },
+    {
+      "p": "Thomas Macdonough’s fleet defeated a British squadron on Lake Champlain in this war, forcing a large British army to retreat from Plattsburgh back into Canada. That victory helped American diplomats get better peace terms.",
+      "r": "Weeks earlier, the British had burned the White House. For 10 points, name this war that inspired “The Star-Spangled Banner.”"
+    },
+    {
+      "p": "In 1813, American troops captured York, the capital of Upper Canada, and set fire to its government buildings. That town is now the city of Toronto, and the British later pointed to the raid as a reason for one of their own attacks.",
+      "r": "That British attack burned the White House and the Capitol in Washington, D.C. For 10 points, name this war between the young United States and Britain."
+    },
+    {
+      "p": "After Captain James Lawrence was mortally wounded aboard the frigate _Chesapeake_ in this war, his order “Don’t give up the ship” was sewn onto a battle flag. A young commander carried that flag in a rowboat to a new flagship after his first one was badly damaged.",
+      "r": "That commander, Oliver Hazard Perry, then wrote, “We have met the enemy and they are ours.” For 10 points, name this war that included the Battle of Lake Erie."
+    },
+    {
+      "p": "In one of this war’s first sea battles, the frigate USS _Constitution_ defeated HMS _Guerriere_ [“gair-ee-AIR”], and legend says a sailor cheered that British cannonballs were bouncing off its sides. That victory gave the ship its nickname, “Old Ironsides.”",
+      "r": "The British later burned the White House in this war. For 10 points, name this conflict between the United States and Britain that ended in 1815."
+    },
+    {
+      "p": "During this war, Andrew Jackson defeated the Red Stick Creeks at the Battle of Horseshoe Bend in what is now Alabama, with help from Cherokee and Lower Creek allies. The Treaty of Fort Jackson then forced the Creek Nation to give up about 23 million acres of land.",
+      "r": "Jackson later won the Battle of New Orleans. For 10 points, name this war that some called America’s “Second War of Independence.”"
+    },
+    {
+      "p": "The Shawnee leader Tecumseh, who had tried to unite Native nations against American expansion, fought as a British ally in this war. He was killed at the Battle of the Thames [“TEMZ”] in what is now Ontario by forces under William Henry Harrison.",
+      "r": "Earlier, Oliver Hazard Perry’s win on Lake Erie had cut British supply lines. For 10 points, name this war fought while James Madison was president."
+    },
+    {
+      "p": "Henry Clay and John C. Calhoun were leading “War Hawks” who pushed Congress to declare this war. President James Madison’s message to Congress listed British impressment of American sailors and British support for Native attacks on the frontier as reasons to fight.",
+      "r": "Many War Hawks hoped to conquer Canada. For 10 points, name this war in which Andrew Jackson became a hero at New Orleans."
+    },
+    {
+      "p": "Mary Pickersgill and her helpers sewed a giant flag for a fort that was bombarded during this war; that flag is now displayed at the Smithsonian. A lawyer who watched the bombardment from a ship off Baltimore saw the flag still flying the next morning.",
+      "r": "That lawyer, Francis Scott Key, wrote the poem that became “The Star-Spangled Banner.” For 10 points, name this war that gave the United States its national anthem."
+    },
+    {
+      "p": "John Quincy Adams, Henry Clay, and Albert Gallatin were among the Americans who negotiated the treaty that ended this war in the city of Ghent, in what is now Belgium. That treaty, signed on Christmas Eve, returned both sides to the borders they had before the fighting.",
+      "r": "Andrew Jackson’s victory at New Orleans came after that treaty was signed. For 10 points, name this war in which the British burned the White House."
+    }
+  ],
+  "clues": [
+    {
+      "id": "us-vs-britain",
+      "tier": "giveaway",
+      "t": "The United States vs. Great Britain, named for the year it began; nicknamed “America’s Second War of Independence”",
+      "k": [
+        "great britain",
+        "britain",
+        "second war of independence",
+        "year it began"
+      ],
+      "n": 6
+    },
+    {
+      "id": "star-spangled",
+      "tier": "giveaway",
+      "t": "Francis Scott Key wrote “The Star-Spangled Banner” after seeing the flag still flying over Fort McHenry in Baltimore (1814)",
+      "k": [
+        "star-spangled banner",
+        "fort mchenry",
+        "francis scott key",
+        "baltimore"
+      ],
+      "n": 6,
+      "rabbit": "The Star-Spangled Banner"
+    },
+    {
+      "id": "burning-washington",
+      "tier": "giveaway",
+      "t": "The British burned Washington, D.C., including the White House and the Capitol (1814); Dolley Madison had George Washington’s portrait saved",
+      "k": [
+        "white house",
+        "burned",
+        "capitol",
+        "dolley madison"
+      ],
+      "n": 5
+    },
+    {
+      "id": "new-orleans",
+      "tier": "giveaway",
+      "t": "Andrew Jackson won the Battle of New Orleans (January 1815) after the peace treaty had already been signed",
+      "k": [
+        "new orleans",
+        "andrew jackson",
+        "jackson"
+      ],
+      "n": 4,
+      "rabbit": "Andrew Jackson"
+    },
+    {
+      "id": "ghent",
+      "tier": "middle",
+      "t": "Ended by the Treaty of Ghent, signed on Christmas Eve 1814 by negotiators like John Quincy Adams and Henry Clay; borders went back to how they were",
+      "k": [
+        "treaty of ghent",
+        "ghent",
+        "christmas eve",
+        "status quo"
+      ],
+      "n": 5
+    },
+    {
+      "id": "perry",
+      "tier": "middle",
+      "t": "Oliver Hazard Perry won the Battle of Lake Erie (1813): “We have met the enemy and they are ours”; Americans then retook Detroit",
+      "k": [
+        "oliver hazard perry",
+        "perry",
+        "lake erie",
+        "we have met the enemy"
+      ],
+      "n": 5,
+      "rabbit": "Oliver Hazard Perry"
+    },
+    {
+      "id": "impressment",
+      "tier": "middle",
+      "t": "Causes: British impressment (forcing American sailors into the Royal Navy) and British support for Native nations on the frontier",
+      "k": [
+        "impressment",
+        "sailors",
+        "royal navy",
+        "causes"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tecumseh",
+      "tier": "middle",
+      "t": "Shawnee leader Tecumseh, a British ally, was killed at the Battle of the Thames (1813) by William Henry Harrison’s army",
+      "k": [
+        "tecumseh",
+        "thames",
+        "shawnee",
+        "william henry harrison"
+      ],
+      "n": 2,
+      "rabbit": "Tecumseh"
+    },
+    {
+      "id": "war-hawks",
+      "tier": "middle",
+      "t": "“War Hawks” like Henry Clay and John C. Calhoun pushed Congress to declare war and hoped to conquer Canada",
+      "k": [
+        "war hawks",
+        "henry clay",
+        "calhoun",
+        "canada"
+      ],
+      "n": 1
+    },
+    {
+      "id": "madison",
+      "tier": "middle",
+      "t": "President James Madison asked Congress to declare war; Federalist critics called it “Mr. Madison’s War”",
+      "k": [
+        "james madison",
+        "madison",
+        "mr madisons war"
+      ],
+      "n": 0
+    },
+    {
+      "id": "old-ironsides",
+      "tier": "middle",
+      "t": "The USS _Constitution_ beat HMS _Guerriere_ and earned the nickname “Old Ironsides”",
+      "k": [
+        "old ironsides",
+        "constitution",
+        "guerriere"
+      ],
+      "n": 0,
+      "rabbit": "USS Constitution"
+    },
+    {
+      "id": "hartford",
+      "tier": "power",
+      "t": "New England Federalists met at the Hartford Convention to protest the war; it helped destroy the Federalist Party",
+      "k": [
+        "hartford convention",
+        "hartford",
+        "federalist party",
+        "new england"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bladensburg",
+      "tier": "power",
+      "t": "The British routed American militia at Bladensburg, Maryland, then marched into Washington (August 1814)",
+      "k": [
+        "bladensburg",
+        "militia",
+        "maryland"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tornado",
+      "tier": "power",
+      "t": "A storm with a tornado struck Washington during the British occupation, helping put out the fires",
+      "k": [
+        "tornado",
+        "storm"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lundys-lane",
+      "tier": "power",
+      "t": "Lundy’s Lane, near Niagara Falls, was one of its bloodiest battles; Winfield Scott, whose gray-clad brigade had won at Chippawa, was wounded there",
+      "k": [
+        "lundy’s lane",
+        "niagara",
+        "winfield scott",
+        "chippawa"
+      ],
+      "n": 1
+    },
+    {
+      "id": "brock",
+      "tier": "power",
+      "t": "British general Isaac Brock took Detroit from William Hull, then was killed at Queenston Heights; Canadians honor him as a hero",
+      "k": [
+        "isaac brock",
+        "brock",
+        "queenston heights",
+        "william hull"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pakenham",
+      "tier": "power",
+      "t": "At New Orleans, British general Edward Pakenham was killed attacking Jackson’s line on the Rodriguez Canal; Jean Lafitte’s pirates helped defend it",
+      "k": [
+        "pakenham",
+        "rodriguez canal",
+        "jean lafitte",
+        "lafitte"
+      ],
+      "n": 1
+    },
+    {
+      "id": "macon",
+      "tier": "power",
+      "t": "Macon’s Bill No. 2 (1810) tried to reopen trade; Napoleon tricked Madison into cutting off trade with Britain",
+      "k": [
+        "macon’s bill",
+        "macon",
+        "napoleon"
+      ],
+      "n": 1
+    },
+    {
+      "id": "macdonough",
+      "tier": "power",
+      "t": "Thomas Macdonough’s win on Lake Champlain at Plattsburgh (1814) turned back a British invasion from Canada",
+      "k": [
+        "macdonough",
+        "lake champlain",
+        "plattsburgh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "york",
+      "tier": "power",
+      "t": "Americans burned government buildings in York (now Toronto), Upper Canada’s capital, in 1813; the British later cited it when burning Washington",
+      "k": [
+        "york",
+        "toronto",
+        "upper canada"
+      ],
+      "n": 0
+    },
+    {
+      "id": "horseshoe-bend",
+      "tier": "power",
+      "t": "Andrew Jackson defeated the Red Stick Creeks at Horseshoe Bend (1814); the Treaty of Fort Jackson took about 23 million acres",
+      "k": [
+        "horseshoe bend",
+        "red stick",
+        "creeks",
+        "fort jackson"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lawrence",
+      "tier": "power",
+      "t": "As he lay mortally wounded, Captain James Lawrence ordered “Don’t give up the ship”; those words went on Perry’s battle flag",
+      "k": [
+        "don’t give up the ship",
+        "james lawrence",
+        "lawrence"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pickersgill",
+      "tier": "power",
+      "t": "Mary Pickersgill sewed the giant Fort McHenry flag, which is now at the Smithsonian",
+      "k": [
+        "pickersgill",
+        "smithsonian",
+        "sewed"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which war against Britain?",
+    "body": "The United States fought Great Britain twice in less than 40 years, and both wars have British invasions, battles near Canada, and famous flags, so players mix this war up with the American Revolution. Tchaikovsky’s _1812 Overture_, with its cannon blasts at Fourth of July concerts, is a different trap: it celebrates Russia’s defeat of Napoleon in 1812, not this war.",
+    "fix": "Revolution clues: Lexington and Concord, Saratoga, Valley Forge, Yorktown, and General George Washington. This war’s clues: impressment, the War Hawks, Lake Erie, the burning of Washington, Fort McHenry, the Hartford Convention, and Jackson at New Orleans. Say the whole name, “War of 1812,” because “1812” alone only earns a prompt.",
+    "line": "Real answer line: <b><u>War of 1812</u></b>"
+  },
+  "freq": {
+    "rank": 3,
+    "count": 8,
+    "list": "American History"
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "id": "andrew-jackson",
+  "name": "Andrew Jackson",
+  "mono": "AJ",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "7th U.S. President · “Old Hickory”",
+  "dates": "1767–1845",
+  "briefing": "Andrew Jackson grew up an orphan in the Carolina backcountry, survived a duel that left a bullet in his chest for life, and became a war hero his soldiers called “Old Hickory” because he was as tough as hickory wood. As the seventh president he fought the national bank and called himself the champion of the “common man,” but he also signed the Indian Removal Act, which led to the Trail of Tears. That mix makes him one of the most argued-about presidents in U.S. history.",
+  "answerHtml": "Andrew <b><u>Jackson</u></b>",
+  "accept": [
+    "andrew jackson",
+    "jackson",
+    "a jackson",
+    "general jackson"
+  ],
+  "prompt": [
+    "old hickory",
+    "hickory",
+    "andrew"
+  ],
+  "reject": [
+    "andrew johnson",
+    "johnson",
+    "stonewall jackson",
+    "stonewall",
+    "thomas jackson",
+    "thomas j jackson",
+    "jesse jackson",
+    "michael jackson",
+    "jackson pollock"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Andrew Jackson | 60-Second Presidents",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=bWQLZoIFwtA",
+      "note": "1 min · his whole life in one minute"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "History vs. Andrew Jackson",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=gx5IyumKmDI",
+      "note": "5 min · animated mock trial where you are the jury"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "How the Brutal Trail of Tears Got Its Name",
+      "source": "Smithsonian Channel",
+      "url": "https://www.youtube.com/watch?v=SosZ2ZRJymU",
+      "note": "Short clip · what Indian removal meant for the Cherokee"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Age of Jackson (#14)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=beN4qE-e5O8",
+      "note": "15 min · elections, tariffs, the Bank War, and Indian removal"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "President Andrew Jackson",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/andrewjackson.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Andrew_Jackson",
+  "qb": {
+    "q": "Andrew Jackson",
+    "found": 2,
+    "tip": "Only 2 results at this level. Add Regular High School, like Coach showed, to see more clues."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 real QBReader tossups for this answer line (2 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "As a teenage messenger during the American Revolution, this future president was captured by the British, and an officer slashed him with a sword when he refused to clean the officer’s boots. Years later, he killed Charles Dickinson in a duel even though Dickinson’s bullet lodged near his heart.",
+      "r": "His soldiers nicknamed him “Old Hickory” for his toughness. For 10 points, name this seventh U.S. president."
+    },
+    {
+      "p": "A young Sam Houston was wounded fighting under this general at the Battle of Horseshoe Bend, where this general crushed the Red Stick Creeks in 1814. This man then forced the Creek Nation to give up about 23 million acres in a treaty signed at a fort named for him.",
+      "r": "Months later, he won the Battle of New Orleans. For 10 points, name this general who became the seventh U.S. president."
+    },
+    {
+      "p": "The pirate Jean Lafitte [“luh-FEET”] offered his men to help this general defend a Louisiana city, where the British commander Edward Pakenham was killed. That battle was fought about two weeks after diplomats had already signed the Treaty of Ghent ending the war.",
+      "r": "The victory made him a national hero. For 10 points, name this general who won the Battle of New Orleans in the War of 1812 and later became president."
+    },
+    {
+      "p": "This president told Martin Van Buren, “The bank, Mr. Van Buren, is trying to kill me, but I will kill it!” He vetoed the recharter of a national bank run by Nicholas Biddle and then moved federal money out of it and into state “pet banks.”",
+      "r": "His 1836 Specie Circular, which required gold or silver for public land, helped cause the Panic of 1837. For 10 points, name this president who fought the Bank War."
+    },
+    {
+      "p": "At a Jefferson Day dinner, this president raised a toast to “Our Federal Union: It must be preserved,” a jab at his own vice president, John C. Calhoun. When South Carolina tried to nullify federal tariffs, this president asked Congress to pass the Force Bill.",
+      "r": "He also signed the Indian Removal Act. For 10 points, name this seventh president, nicknamed “Old Hickory.”"
+    },
+    {
+      "p": "After John Marshall’s Supreme Court ruled in _Worcester v. Georgia_, this president supposedly said, “John Marshall has made his decision; now let him enforce it.” A small group of Cherokees signed the Treaty of New Echota [“eh-CHOH-tuh”] during his presidency, and the government used it to justify removing the whole nation.",
+      "r": "The Indian Removal Act he signed in 1830 led to the Trail of Tears. For 10 points, name this seventh U.S. president."
+    },
+    {
+      "p": "This president’s cabinet fell apart in the Petticoat Affair, when Washington society snubbed Peggy, the wife of his Secretary of War, John Eaton. He often relied on an informal group of advisers nicknamed his “Kitchen Cabinet.”",
+      "r": "Opponents mocked him as “King Andrew the First” for vetoing so many bills. For 10 points, name this founder of the Democratic Party and seventh U.S. president."
+    },
+    {
+      "p": "Although this man won the most popular and electoral votes in 1824, the House of Representatives chose John Quincy Adams instead, and he denounced a “corrupt bargain.” In their 1828 rematch, opponents printed “Coffin Handbills” accusing him of executing his own militiamen.",
+      "r": "His wife Rachel died shortly before he took office. For 10 points, name this president nicknamed “Old Hickory.”"
+    },
+    {
+      "p": "In 1835, both of Richard Lawrence’s pistols misfired when he tried to shoot this president, who then attacked Lawrence with his cane. That same month, this president’s administration paid off the entire national debt, the only time that has ever happened.",
+      "r": "He later retired to his Tennessee plantation, the Hermitage. For 10 points, name this president who appears on the twenty-dollar bill."
+    },
+    {
+      "p": "This general caused an uproar in Britain by executing two British subjects, Alexander Arbuthnot [“ar-BUTH-not”] and Robert Ambrister, during an invasion of Spanish Florida. After Spain gave up Florida, this man briefly served as its military governor.",
+      "r": "He had earlier won the Battle of New Orleans. For 10 points, name this general of the First Seminole War, who later became the seventh president."
+    },
+    {
+      "p": "So many people crowded into this president’s inauguration party that staff lured them outside by carrying tubs of punch onto the White House lawn. This president defended “rotation in office,” a practice that critics called the spoils system.",
+      "r": "Supporters of this “common man” president formed the Democratic Party. For 10 points, name this seventh U.S. president."
+    },
+    {
+      "p": "This president is the only one ever censured by the Senate, a rebuke that was later erased from the record. Anger at how this president used his veto power led Henry Clay and Daniel Webster to form the Whig Party.",
+      "r": "His second vice president, Martin Van Buren, succeeded him. For 10 points, name this president who fought the Second Bank of the United States."
+    },
+    {
+      "p": "This president vetoed a bill to fund the Maysville Road because it would run entirely inside one state, Henry Clay’s Kentucky. He vetoed more bills than all of the presidents before him combined.",
+      "r": "One of those vetoes blocked the recharter of the Second Bank of the United States. For 10 points, name this president who appears on the $20 bill."
+    },
+    {
+      "p": "On his last full day in office, this president recognized the independent Republic of Texas, which was led by his old friend Sam Houston. This president named Roger Taney [“TAW-nee”] Chief Justice of the Supreme Court after John Marshall died.",
+      "r": "He died in 1845 at the Hermitage, his home near Nashville. For 10 points, name this seventh president, who won the Battle of New Orleans."
+    },
+    {
+      "p": "Opponents called this man a “jackass” during the 1828 campaign, so he adopted the donkey as a symbol, and it later became the mascot of the Democratic Party. Clark Mills sculpted a statue of this man on a rearing horse that stands in Lafayette Square across from the White House.",
+      "r": "He signed the Indian Removal Act, which led to the Trail of Tears. For 10 points, name this seventh president, nicknamed “Old Hickory.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "seventh",
+      "tier": "giveaway",
+      "t": "7th President of the United States (1829–1837)",
+      "k": [
+        "7th",
+        "seventh"
+      ],
+      "n": 4
+    },
+    {
+      "id": "hickory",
+      "tier": "giveaway",
+      "t": "Nickname: “Old Hickory,” for being as tough as hickory wood",
+      "k": [
+        "hickory"
+      ],
+      "n": 5
+    },
+    {
+      "id": "new-orleans",
+      "tier": "giveaway",
+      "t": "Won the Battle of New Orleans (1815) in the War of 1812",
+      "k": [
+        "new orleans"
+      ],
+      "n": 2,
+      "rabbit": "Battle of New Orleans"
+    },
+    {
+      "id": "removal",
+      "tier": "giveaway",
+      "t": "Signed the Indian Removal Act (1830), which led to the Trail of Tears",
+      "k": [
+        "indian removal",
+        "trail of tears",
+        "removal act"
+      ],
+      "n": 2,
+      "rabbit": "Trail of Tears"
+    },
+    {
+      "id": "twenty",
+      "tier": "giveaway",
+      "t": "His face is on the twenty-dollar bill",
+      "k": [
+        "$20",
+        "twenty",
+        "20 dollar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bank-war",
+      "tier": "middle",
+      "t": "Bank War: vetoed the recharter of the Second Bank of the United States, fought its president Nicholas Biddle, and moved federal money into “pet banks”",
+      "k": [
+        "bank war",
+        "biddle",
+        "pet banks",
+        "second bank"
+      ],
+      "n": 4,
+      "rabbit": "Second Bank of the United States"
+    },
+    {
+      "id": "specie",
+      "tier": "middle",
+      "t": "Specie Circular (1836): public land had to be bought with gold or silver, which helped cause the Panic of 1837",
+      "k": [
+        "specie",
+        "panic of 1837"
+      ],
+      "n": 3
+    },
+    {
+      "id": "corrupt-bargain",
+      "tier": "middle",
+      "t": "Lost the election of 1824 to John Quincy Adams after a “corrupt bargain” with Henry Clay; won their 1828 rematch",
+      "k": [
+        "corrupt bargain",
+        "1824",
+        "1828"
+      ],
+      "n": 3
+    },
+    {
+      "id": "democrats",
+      "tier": "middle",
+      "t": "Founder of the modern Democratic Party and the “common man” president; opponents formed the Whig Party and called him “King Andrew the First”",
+      "k": [
+        "democratic",
+        "democrat",
+        "whig",
+        "king andrew",
+        "common man"
+      ],
+      "n": 2,
+      "rabbit": "Whig Party"
+    },
+    {
+      "id": "spoils",
+      "tier": "middle",
+      "t": "Spoils system (“rotation in office”) and an informal group of advisers called the Kitchen Cabinet",
+      "k": [
+        "spoils",
+        "kitchen cabinet",
+        "rotation in office"
+      ],
+      "n": 1
+    },
+    {
+      "id": "eaton",
+      "tier": "middle",
+      "t": "The Petticoat Affair over Peggy Eaton broke up his first cabinet",
+      "k": [
+        "eaton",
+        "petticoat"
+      ],
+      "n": 2
+    },
+    {
+      "id": "nullification",
+      "tier": "middle",
+      "t": "Nullification Crisis: made South Carolina back down with the Force Bill; his toast “Our Federal Union: It must be preserved” was aimed at Vice President John C. Calhoun",
+      "k": [
+        "nullification",
+        "nullify",
+        "force bill",
+        "calhoun",
+        "federal union"
+      ],
+      "n": 1,
+      "rabbit": "Nullification Crisis"
+    },
+    {
+      "id": "hermitage",
+      "tier": "middle",
+      "t": "Home: the Hermitage, near Nashville, Tennessee",
+      "k": [
+        "hermitage",
+        "nashville"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prisoner",
+      "tier": "power",
+      "t": "Teenage messenger in the Revolution; captured by the British and slashed by an officer’s sword",
+      "k": [
+        "messenger",
+        "courier",
+        "sword",
+        "scar",
+        "prisoner"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dickinson",
+      "tier": "power",
+      "t": "Killed Charles Dickinson in an 1806 duel; Dickinson’s bullet stayed near his heart for life",
+      "k": [
+        "dickinson",
+        "duel"
+      ],
+      "n": 1
+    },
+    {
+      "id": "horseshoe",
+      "tier": "power",
+      "t": "Crushed the Red Stick Creeks at Horseshoe Bend (1814), where Sam Houston was wounded; the treaty that followed took about 23 million acres of Creek land",
+      "k": [
+        "horseshoe",
+        "red stick",
+        "creek",
+        "sam houston"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lafitte",
+      "tier": "power",
+      "t": "Jean Lafitte’s pirates helped at New Orleans, which was fought after the Treaty of Ghent had already been signed",
+      "k": [
+        "lafitte",
+        "ghent",
+        "pakenham"
+      ],
+      "n": 1
+    },
+    {
+      "id": "arbuthnot",
+      "tier": "power",
+      "t": "First Seminole War: executed the Britons Alexander Arbuthnot and Robert Ambrister in Spanish Florida",
+      "k": [
+        "arbuthnot",
+        "ambrister",
+        "seminole"
+      ],
+      "n": 2
+    },
+    {
+      "id": "worcester",
+      "tier": "power",
+      "t": "_Worcester v. Georgia_: “John Marshall has made his decision; now let him enforce it” (he probably never said it); Treaty of New Echota",
+      "k": [
+        "worcester",
+        "echota",
+        "marshall"
+      ],
+      "n": 0,
+      "rabbit": "Worcester v. Georgia"
+    },
+    {
+      "id": "coffin",
+      "tier": "power",
+      "t": "1828 campaign: “Coffin Handbills” attacked him; his wife, Rachel Donelson, died before his inauguration",
+      "k": [
+        "coffin",
+        "rachel"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lawrence",
+      "tier": "power",
+      "t": "Survived the first attempt to kill a president: both of Richard Lawrence’s pistols misfired (1835)",
+      "k": [
+        "lawrence",
+        "assassin",
+        "pistols"
+      ],
+      "n": 1
+    },
+    {
+      "id": "debt",
+      "tier": "power",
+      "t": "The only president to pay off the entire national debt (1835)",
+      "k": [
+        "national debt",
+        "debt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "censure",
+      "tier": "power",
+      "t": "The only president censured by the Senate (1834); vetoed the Maysville Road (1830)",
+      "k": [
+        "censure",
+        "maysville"
+      ],
+      "n": 1
+    },
+    {
+      "id": "taney",
+      "tier": "power",
+      "t": "Named Roger Taney Chief Justice; recognized the Republic of Texas on his last full day in office",
+      "k": [
+        "taney",
+        "texas"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hard-times",
+      "tier": "power",
+      "t": "“Hard Times tokens” were coins that blamed his money policies for the Panic of 1837",
+      "k": [
+        "hard times",
+        "tokens"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Andrew Jackson or Andrew Johnson?",
+    "body": "Two presidents named Andrew, both from Tennessee, with last names that sound alike. Andrew Johnson was the 17th president: he took over after Lincoln was assassinated and was impeached in 1868. Stonewall Jackson is a third mix-up, a Confederate general from the Civil War.",
+    "fix": "The War of 1812, Old Hickory, the Bank War, or the Trail of Tears means Andrew Jackson. Lincoln, Reconstruction, or impeachment means Andrew Johnson. And give the real name, not the nickname: say “Andrew Jackson,” not “Old Hickory.”",
+    "line": "Real answer line: Andrew <b><u>Jackson</u></b>. Only the underlined part is required, so “Jackson” by itself is enough."
+  },
+  "tests": {
+    "right": [
+      "Andrew Jackson",
+      "jackson",
+      "Andrew Jacksn",
+      "General Jackson"
+    ],
+    "prompt": [
+      "Old Hickory",
+      "Andrew"
+    ],
+    "wrong": [
+      "Andrew Johnson",
+      "andrew johnsen",
+      "Stonewall Jackson",
+      "Jesse Jackson"
+    ]
+  },
+  "freq": {
+    "rank": 5,
+    "count": 7,
+    "list": "American History"
+  }
+}

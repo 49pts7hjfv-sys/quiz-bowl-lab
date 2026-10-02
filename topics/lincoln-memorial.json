@@ -1,0 +1,385 @@
+{
+  "id": "lincoln-memorial",
+  "name": "Lincoln Memorial",
+  "mono": "LNM",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Greek-style memorial on the Mall · Site of MLK’s “I Have a Dream” speech",
+  "dates": "Dedicated 1922",
+  "briefing": "Shaped like an ancient Greek temple, the Lincoln Memorial rises at the west end of the National Mall with 36 columns for the 36 states of Lincoln’s time. Inside, Daniel Chester French’s huge marble statue of a seated Abraham Lincoln gazes out over the Reflecting Pool toward the Capitol. Its steps have hosted historic moments far beyond Lincoln’s own era, including Martin Luther King Jr.’s 1963 “I Have a Dream” speech.",
+  "answerHtml": "<b><u>Lincoln Memorial</u></b>",
+  "accept": [
+    "lincoln memorial",
+    "the lincoln memorial"
+  ],
+  "prompt": [],
+  "reject": [
+    "abraham lincoln",
+    "president lincoln",
+    "abe lincoln",
+    "martin luther king",
+    "martin luther king jr",
+    "mlk",
+    "daniel chester french",
+    "mount rushmore",
+    "washington monument",
+    "jefferson memorial",
+    "gettysburg address"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cool Facts about the Lincoln Memorial",
+      "source": "Learn Bright",
+      "url": "https://www.youtube.com/watch?v=2AkAjssWt88",
+      "note": "Kid-friendly facts about the memorial and its giant statue"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Explore the Hidden History of the Lincoln Memorial in Washington DC",
+      "source": "WETA PBS",
+      "url": "https://www.youtube.com/watch?v=QqzVK35Jo_o",
+      "note": "Public TV look at the memorial’s hidden history"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "National Park Service to Make Major Renovation to the Lincoln Memorial",
+      "source": "WUSA9",
+      "url": "https://www.youtube.com/watch?v=eXPtHG7kjAQ",
+      "note": "Washington TV news report on the memorial’s big renovation"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Abraham Lincoln: An Extraordinary Life",
+      "source": "Smithsonian Education",
+      "url": "https://www.youtube.com/watch?v=yvwuHlGx0o4",
+      "note": "The life of the president the memorial honors"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Lincoln Memorial facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Lincoln_Memorial",
+      "note": "Quick read: its design, the giant statue, and famous events held there"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Lincoln_Memorial",
+  "qb": {
+    "q": "Lincoln Memorial",
+    "found": 0,
+    "tip": "QBReader turned up zero tossups for this exact answer line at both Middle School/Easy High School and Regular High School difficulty — most real packets fold its clues into Abraham Lincoln or Martin Luther King Jr. tossups instead, so every clue below is drawn from general reference knowledge rather than a real sample."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real QBReader tossups were found for this exact answer line, so every clue’s count is 0; content is written from general reference knowledge instead"
+  },
+  "tossups": [
+    {
+      "p": "Beneath the floor of this memorial sits an unfinished chamber where dripping groundwater has formed small stalactites over the decades; the space is rarely opened to the public. Architect Henry Bacon modeled the exterior of this building partly on the Parthenon in Athens, though he swapped a Greek temple’s usual triangular roofline for a flat one.",
+      "r": "Inside, a seated marble statue gazes east across a reflecting pool toward the Washington Monument. For 10 points, name this Greek-style memorial on the National Mall."
+    },
+    {
+      "p": "Congress created a commission in 1911 to plan this structure, choosing a swampy site near the Potomac over a location some lawmakers favored near Union Station. Construction began in 1914 and finished in 1922, when former president William Howard Taft, who had chaired the planning commission, presided over its dedication.",
+      "r": "The ceremony came nearly sixty years after the death of the man honored inside. For 10 points, name this memorial to Abraham Lincoln."
+    },
+    {
+      "p": "The same sculptor who designed this memorial’s centerpiece also created _The Minute Man_ statue in Concord, Massachusetts. That centerpiece, carved from white Georgia marble by the Piccirilli [“pih-chih-RIL-ee”] Brothers’ studio in New York, stands roughly nineteen feet tall even though it depicts its subject only seated, not standing.",
+      "r": "Sculptor Daniel Chester French originally planned a statue about half that size. For 10 points, name this Greek-temple-style memorial on the National Mall."
+    },
+    {
+      "p": "Daniel Chester French originally sketched a statue about ten feet tall for the center of this memorial, but enlarged his design to roughly nineteen feet after realizing a smaller figure would look lost in such a large room. Sculptors carved the statue’s two hands differently: one is loosely open, and the other is clenched into a fist.",
+      "r": "Visitors sometimes read those two hands as symbols of both strength and compassion. For 10 points, name this memorial honoring the 16th president."
+    },
+    {
+      "p": "Builders deliberately used stone quarried from many different states for this memorial, including limestone for its walls and marble from Tennessee and Alabama, as a symbol of national unity after a war that had divided the country. Thirty-six fluted Doric columns ring the outside, one for each state in the Union at the time of the honoree’s death.",
+      "r": "Those columns support a flat roof rather than the triangular pediment of a typical Greek temple. For 10 points, name this memorial on the National Mall."
+    },
+    {
+      "p": "Carved into the attic wall above this memorial’s colonnade are the names of the 48 states that existed when it was dedicated in 1922. When Alaska and Hawaii later joined the Union, there was no room left up top, so their names were added on a separate plaque near the entrance instead.",
+      "r": "For 10 points, name this Greek-style memorial honoring the 16th president on the National Mall."
+    },
+    {
+      "p": "The full texts of two of its honoree’s most famous speeches are carved into this memorial’s interior walls, each beneath a mural painted by Jules Guerin [“zhool geh-RAN”] showing symbolic figures representing themes like Unity and Emancipation. One speech, delivered at a Pennsylvania battlefield, begins “Four score and seven years ago.”",
+      "r": "The other inscribed text is his Second Inaugural Address. For 10 points, name this memorial whose seated statue overlooks both speeches."
+    },
+    {
+      "p": "In 1939, after she was barred from performing at a nearby concert hall because she was Black, singer Marian Anderson instead gave an open-air concert on the steps of this memorial to a crowd of 75,000 people. Secretary of the Interior Harold Ickes and First Lady Eleanor Roosevelt helped arrange the historic performance.",
+      "r": "Those same steps later hosted an even larger crowd in 1963. For 10 points, name this memorial where Martin Luther King Jr. gave his “I Have a Dream” speech."
+    },
+    {
+      "p": "From its elevated platform, this memorial’s statue gazes east across a long reflecting pool toward the Washington Monument and the dome of the Capitol in the distance. Its 36 exterior columns are made of Colorado Yule marble, while the interior floor uses pink Tennessee marble.",
+      "r": "For 10 points, name this Greek Doric-style memorial to the 16th president, located on the National Mall."
+    },
+    {
+      "p": "This building’s image has appeared on the back of the U.S. five-dollar bill for decades, and from 1959 until a 2009 redesign, a tiny version of it also decorated the reverse side of the one-cent coin. Robert Todd Lincoln, the only surviving son of the man honored here, attended its dedication ceremony in 1922.",
+      "r": "Its 36 exterior columns represent the states in the Union at the time of its honoree’s death. For 10 points, name this Greek-style memorial on the National Mall."
+    },
+    {
+      "p": "Modeled loosely on an ancient Greek temple, this building has no front door in the traditional sense; visitors instead climb a wide set of steps to reach an open colonnade. Inside sits a single enormous marble statue, designed by Daniel Chester French, of a seated man resting his hands on the arms of a chair.",
+      "r": "For 10 points, name this memorial to the 16th U.S. president, located at the west end of the National Mall."
+    },
+    {
+      "p": "Park rangers occasionally lead rare tours into an unfinished basement-level space beneath this memorial, where support columns rise among small mineral formations that have grown since construction. Above that hidden chamber, a massive seated statue has watched over the National Mall since 1922.",
+      "r": "For 10 points, name this memorial to Abraham Lincoln, built in the style of a Greek temple."
+    },
+    {
+      "p": "Thirty-six Doric columns circle this building, each representing a state in the Union at the time of the Civil War president’s death. A reflecting pool stretches out in front of it toward a tall stone obelisk.",
+      "r": "Inside, a giant marble statue of Abraham Lincoln sits facing east. For 10 points, name this memorial on the National Mall."
+    },
+    {
+      "p": "Crowds have gathered on the steps of this memorial for historic moments far beyond its original dedication, including Marian Anderson’s 1939 concert and Martin Luther King Jr.’s 1963 speech about a dream. A seated statue of its honoree watches over both the steps and the National Mall beyond.",
+      "r": "For 10 points, name this Greek-style memorial to the 16th president."
+    },
+    {
+      "p": "A huge seated statue of Abraham Lincoln, designed by Daniel Chester French, sits inside this Greek-temple-style building at the west end of the National Mall in Washington, D.C. Martin Luther King Jr. delivered his “I Have a Dream” speech from its steps in 1963.",
+      "r": "For 10 points, name this memorial honoring the 16th president."
+    }
+  ],
+  "clues": [
+    {
+      "id": "lincoln-statue",
+      "tier": "giveaway",
+      "t": "Enormous seated marble statue of Abraham Lincoln, sculpted by Daniel Chester French",
+      "k": [
+        "daniel chester french",
+        "seated statue",
+        "marble"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greek-temple-style",
+      "tier": "giveaway",
+      "t": "Built like a Greek temple with Doric columns, on the National Mall in Washington, D.C.",
+      "k": [
+        "greek temple",
+        "doric columns",
+        "national mall"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mlk-dream-speech",
+      "tier": "giveaway",
+      "t": "Site of Martin Luther King Jr.’s 1963 “I Have a Dream” speech, delivered from its steps",
+      "k": [
+        "martin luther king",
+        "dream speech",
+        "1963"
+      ],
+      "n": 0
+    },
+    {
+      "id": "five-dollar-bill",
+      "tier": "giveaway",
+      "t": "Pictured on the back of the U.S. five-dollar bill, and on the penny’s reverse from 1959 to 2008",
+      "k": [
+        "five dollar bill",
+        "penny",
+        "reverse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "36-columns",
+      "tier": "middle",
+      "t": "Thirty-six Doric columns represent the 36 states in the Union when its honoree died in 1865",
+      "k": [
+        "thirty six columns",
+        "1865",
+        "doric"
+      ],
+      "n": 0
+    },
+    {
+      "id": "48-states-attic",
+      "tier": "middle",
+      "t": "Names of the 48 states at its 1922 dedication are carved on the attic wall; Alaska and Hawaii were later added on a separate plaque",
+      "k": [
+        "forty eight states",
+        "attic wall",
+        "alaska hawaii"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gettysburg-inaugural",
+      "tier": "middle",
+      "t": "Full texts of the Gettysburg Address and the Second Inaugural Address are carved inside, each under a mural by Jules Guerin",
+      "k": [
+        "gettysburg address",
+        "second inaugural",
+        "guerin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marian-anderson",
+      "tier": "middle",
+      "t": "Site of Marian Anderson’s 1939 open-air concert after she was barred from a nearby concert hall because she was Black",
+      "k": [
+        "marian anderson",
+        "1939",
+        "concert"
+      ],
+      "n": 0
+    },
+    {
+      "id": "statue-material",
+      "tier": "middle",
+      "t": "Statue carved from white Georgia marble by the Piccirilli Brothers’ studio; stands about 19 feet tall while seated",
+      "k": [
+        "georgia marble",
+        "piccirilli",
+        "19 feet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stone-unity",
+      "tier": "middle",
+      "t": "Built with stone from many states (Indiana limestone, Tennessee and Alabama marble) as a symbol of unity after the Civil War",
+      "k": [
+        "limestone",
+        "tennessee marble",
+        "unity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dedicated-1922",
+      "tier": "middle",
+      "t": "Dedicated in 1922, with former president William Howard Taft, who led the planning commission, presiding",
+      "k": [
+        "dedicated 1922",
+        "taft",
+        "commission"
+      ],
+      "n": 0
+    },
+    {
+      "id": "henry-bacon",
+      "tier": "power",
+      "t": "Designed by architect Henry Bacon, who modeled it partly on the Parthenon in Athens",
+      "k": [
+        "henry bacon",
+        "parthenon",
+        "athens"
+      ],
+      "n": 0
+    },
+    {
+      "id": "commission-1911",
+      "tier": "power",
+      "t": "Planning commission created by Congress in 1911; construction ran from 1914 to 1922",
+      "k": [
+        "1911",
+        "1914",
+        "construction"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hands-symbolism",
+      "tier": "power",
+      "t": "The statue’s two hands are carved differently: one loosely open, the other clenched into a fist",
+      "k": [
+        "open hand",
+        "clenched fist"
+      ],
+      "n": 0
+    },
+    {
+      "id": "secret-chamber",
+      "tier": "power",
+      "t": "An unfinished chamber underneath has small stalactites from dripping groundwater; it’s rarely opened for public tours",
+      "k": [
+        "stalactites",
+        "underneath",
+        "chamber"
+      ],
+      "n": 0
+    },
+    {
+      "id": "statue-enlarged",
+      "tier": "power",
+      "t": "Original statue design was only about 10 feet tall; French enlarged it to about 19 feet so it wouldn’t look small in the huge room",
+      "k": [
+        "ten feet",
+        "enlarged",
+        "french"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faces-east",
+      "tier": "power",
+      "t": "Statue faces east across the Reflecting Pool toward the Washington Monument and the Capitol",
+      "k": [
+        "reflecting pool",
+        "washington monument",
+        "faces east"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minute-man",
+      "tier": "power",
+      "t": "Sculptor Daniel Chester French also created _The Minute Man_ statue in Concord, Massachusetts",
+      "k": [
+        "minute man",
+        "concord",
+        "french"
+      ],
+      "n": 0
+    },
+    {
+      "id": "guerin-murals",
+      "tier": "power",
+      "t": "Jules Guerin’s two interior murals show symbolic figures representing themes like Unity and Emancipation",
+      "k": [
+        "guerin",
+        "murals",
+        "unity emancipation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "robert-todd-lincoln",
+      "tier": "power",
+      "t": "Robert Todd Lincoln, the only surviving son of the man it honors, attended its 1922 dedication",
+      "k": [
+        "robert todd",
+        "surviving son",
+        "dedication"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The building or the man?",
+    "body": "Many clues about this memorial also describe Abraham Lincoln himself, or the people who later spoke on its steps, like Martin Luther King Jr. But the required answer is the building, not the person inside it or the speakers who used it.",
+    "fix": "Listen for “this memorial” or “this building” to mean the structure itself. If the clue instead says “this president” or “this man,” the answer is Abraham Lincoln — a different answer line entirely. If it says “this civil rights leader” giving the “I Have a Dream” speech, that’s Martin Luther King Jr., not the building he spoke in front of.",
+    "line": "Real answer line: <b><u>Lincoln Memorial</u></b>."
+  },
+  "tests": {
+    "right": [
+      "Lincoln Memorial",
+      "the Lincoln Memorial",
+      "Lincoln Memoral",
+      "the Lincoln Memorial in Washington, D.C."
+    ],
+    "prompt": [],
+    "wrong": [
+      "Abraham Lincoln",
+      "Martin Luther King Jr.",
+      "Mount Rushmore",
+      "Washington Monument"
+    ]
+  }
+}

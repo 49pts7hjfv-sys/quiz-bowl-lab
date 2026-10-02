@@ -1,0 +1,398 @@
+{
+  "id": "plato",
+  "name": "Plato",
+  "mono": "PLA",
+  "category": "Philosophy",
+  "qbCategory": "Philosophy",
+  "kicker": "Greek philosopher · Student of Socrates, teacher of Aristotle",
+  "dates": "c. 428–348 BCE",
+  "briefing": "Plato was a Greek philosopher who admired his teacher Socrates so much that he spent his life writing conversations starring him, even after Athens executed Socrates for his ideas. Plato’s dialogues introduced some of philosophy’s most famous images, like the Allegory of the Cave, which compares most people to prisoners who mistake shadows for reality. He also founded a school called the Academy, where he trained his own star student, Aristotle.",
+  "answerHtml": "<b><u>Plato</u></b>",
+  "accept": [
+    "plato",
+    "platon"
+  ],
+  "prompt": [],
+  "reject": [
+    "socrates",
+    "aristotle",
+    "republic",
+    "symposium",
+    "apology",
+    "crito",
+    "pluto"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Plato’s Allegory of the Cave - Alex Gendler",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=1RWOpQXTltA",
+      "note": "Short animated lesson · the prisoners, the shadows, and what the cave means"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Plato’s best (and worst) ideas - Wisecrack",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=jLesc5lITvo",
+      "note": "Short animated lesson · a quick, funny tour of his most famous ideas, good and bad"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "PHILOSOPHY - Plato",
+      "source": "The School of Life",
+      "url": "https://www.youtube.com/watch?v=VDiyQub6vpw",
+      "note": "Illustrated overview of Plato’s life and his biggest ideas"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Classical Greek Philosophy: Socrates and Plato",
+      "source": "Professor Dave Explains",
+      "url": "https://www.youtube.com/watch?v=NpV4DWL0bSw",
+      "note": "Bigger picture · how Socrates taught Plato, then Plato’s main ideas, in a classroom-style lesson"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Plato Biography",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/ancient_greece/plato.php",
+      "note": "Quick read: his teacher Socrates, the Republic, and the Academy he founded"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Plato",
+  "qb": {
+    "q": "Plato",
+    "found": 7,
+    "tip": "One of the 7 hits is actually for _The Republic_, not Plato himself—skip it. The other 6 are clean Plato tossups loaded with Socratic-dialogue clues (_Symposium_, _Apology_, Allegory of the Cave)."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked); a 7th hit found by the same search was for The Republic and was set aside"
+  },
+  "tossups": [
+    {
+      "p": "In one of this man’s dialogues, a character asks whether something is holy because the gods love it, or whether the gods love it because it is already holy, a puzzle called the Euthyphro [“yoo-THIF-roh”] dilemma. This man founded the Academy in Athens; a later school there that carried on his teachings was closed by a Byzantine emperor in 529 CE.",
+      "r": "This man wrote almost all his philosophy as dialogues starring his own teacher. For 10 points, name this Greek thinker, a student of Socrates who wrote the _Republic_, describing an ideal city ruled by philosopher-kings."
+    },
+    {
+      "p": "None of this man’s teacher’s own spoken words survive directly, since that teacher never wrote anything down, leaving this man as the main source for his ideas. This man also argued that the soul is immortal and already knows eternal truths before birth, merely needing to recall them.",
+      "r": "In one dialogue, that same teacher calmly refuses a friend’s offer to help him escape from prison rather than break an unwritten agreement with his city. For 10 points, name this philosopher whose Allegory of the Cave compares ordinary people to prisoners mistaking shadows for reality."
+    },
+    {
+      "p": "In a pair of this man’s dialogues, a character named Timaeus explains the origin of the universe while another named Critias tells the earliest surviving story of a lost island called Atlantis. In a third dialogue, guests at a banquet take turns praising the nature of love.",
+      "r": "This man argued that ordinary objects are just flawed copies of perfect, unchanging ideas he called Forms. For 10 points, name this Greek philosopher who taught Aristotle and wrote the _Republic_."
+    },
+    {
+      "p": "This man suggested that artists and poets should be banned from his ideal city because their work is merely an imitation of an imitation of the truth. At a banquet in one of this man’s dialogues, the comic playwright Aristophanes [“air-is-TOFF-uh-neez”] jokes that humans were once double-bodied beings split apart, forever searching for their other half.",
+      "r": "For 10 points, name this Greek philosopher whose dialogue the _Symposium_ explores the nature of love."
+    },
+    {
+      "p": "This man described an ideal city-state called Kallipolis, ruled by specially trained guardians, in his most famous work. In that same dialogue, a character named Glaucon tells the story of a magic ring that could make its wearer invisible, asking whether people act justly only out of fear of getting caught.",
+      "r": "For 10 points, name this Greek philosopher who wrote the _Republic_ and studied under Socrates."
+    },
+    {
+      "p": "This man was reportedly so shaken when an Athenian jury condemned his teacher to death that he turned away from a career in politics and toward philosophy instead. He later wrote down that teacher’s trial defense, including the claim that the teacher’s wisdom came only from knowing that he knew nothing.",
+      "r": "For 10 points, name this author of the _Apology_, a student of Socrates who also wrote the _Republic_."
+    },
+    {
+      "p": "This man wrote that most people are like prisoners chained inside a cave, mistaking shadows on a wall for the whole of reality. He compared escaping that cave and seeing the sun outside to the long, difficult climb toward true knowledge.",
+      "r": "For 10 points, name this Greek philosopher whose Allegory of the Cave appears in his dialogue the _Republic_."
+    },
+    {
+      "p": "This man’s dialogues are mostly named after the other characters who speak in them rather than after himself. In the _Crito_, one of those characters refuses a wealthy friend’s offer to bribe guards and flee an Athenian prison.",
+      "r": "That character, Socrates, appears throughout this man’s writing. For 10 points, name this Greek philosopher who taught Aristotle at his school, the Academy."
+    },
+    {
+      "p": "At a dinner party in one of this man’s dialogues, a drunken Alcibiades [“al-sih-BY-uh-deez”] arrives late and praises his teacher’s legendary self-control. This man’s dialogues are set almost entirely in Athens and nearby cities during his own teacher’s lifetime.",
+      "r": "For 10 points, name this Greek philosopher whose _Symposium_ and _Republic_ both feature his teacher, Socrates, as the main speaker."
+    },
+    {
+      "p": "This man taught that learning is really just remembering truths the soul already knew before it was born into a body. He used the image of a divided line to rank different kinds of knowledge, from shadowy guesses up to pure understanding of his highest Forms.",
+      "r": "For 10 points, name this Greek philosopher, the teacher of Aristotle and student of Socrates."
+    },
+    {
+      "p": "This man’s uncle Charmides and his mother’s relative Critias both took part in a brief, violent government that ruled Athens before this man turned to philosophy instead of politics. This man traveled to Sicily more than once, hoping unsuccessfully to turn a tyrant of Syracuse into a philosopher-king.",
+      "r": "For 10 points, name this Athenian thinker who wrote the _Republic_ and founded the Academy."
+    },
+    {
+      "p": "This man compared the human soul to a chariot pulled by two horses, one noble and one unruly, guided by a charioteer representing reason. In another dialogue, he argued that true love should rise from admiring one beautiful body to finally admiring Beauty itself.",
+      "r": "For 10 points, name this Greek philosopher whose dialogues the _Phaedrus_ and _Symposium_ explore love, and who studied under Socrates."
+    },
+    {
+      "p": "This man founded a school on the outskirts of Athens named for the hero Academus, where students reportedly studied geometry before being admitted. A sign over its door is said to have warned that no one ignorant of geometry should enter.",
+      "r": "For 10 points, name this Greek philosopher who founded the Academy and taught Aristotle there."
+    },
+    {
+      "p": "This man’s dialogue the _Phaedo_ depicts his teacher calmly discussing the immortality of the soul on the very day that teacher is executed by drinking poison. This man was not present himself at that final scene, by his own account in the text.",
+      "r": "For 10 points, name this Greek philosopher who wrote of Socrates’s death and later wrote the _Republic_."
+    },
+    {
+      "p": "This man used the sun as a symbol for his highest Form, the Form of the Good, which he said makes all other knowledge possible to see clearly. He explained this idea shortly before his more famous story of prisoners watching shadows on a cave wall.",
+      "r": "For 10 points, name this Greek philosopher whose Allegory of the Cave and theory of Forms appear in the _Republic_."
+    }
+  ],
+  "clues": [
+    {
+      "id": "socrates-teacher",
+      "tier": "giveaway",
+      "t": "Student of the philosopher Socrates, who appears as the main speaker in most of his dialogues",
+      "k": [
+        "socrates",
+        "student",
+        "dialogues"
+      ],
+      "n": 6,
+      "rabbit": "Socrates"
+    },
+    {
+      "id": "aristotle-student",
+      "tier": "giveaway",
+      "t": "Teacher of Aristotle at his school, the Academy",
+      "k": [
+        "aristotle",
+        "academy",
+        "teacher"
+      ],
+      "n": 1,
+      "rabbit": "Aristotle"
+    },
+    {
+      "id": "republic-citystate",
+      "tier": "giveaway",
+      "t": "Wrote the Republic, describing an ideal city-state ruled by philosopher-kings",
+      "k": [
+        "republic",
+        "philosopher-kings",
+        "city-state"
+      ],
+      "n": 6
+    },
+    {
+      "id": "allegory-cave",
+      "tier": "giveaway",
+      "t": "Created the Allegory of the Cave, comparing ordinary people to prisoners mistaking shadows for reality",
+      "k": [
+        "allegory",
+        "cave",
+        "shadows",
+        "prisoners"
+      ],
+      "n": 5,
+      "rabbit": "Allegory of the Cave"
+    },
+    {
+      "id": "academy",
+      "tier": "middle",
+      "t": "Founded the Academy, a school on the edge of Athens, in the early 300s BCE",
+      "k": [
+        "academy",
+        "founded",
+        "athens"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dialogue-form",
+      "tier": "middle",
+      "t": "Wrote almost all his philosophy as dialogues, conversations between characters, rather than as straight essays",
+      "k": [
+        "dialogues",
+        "conversations",
+        "characters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "symposium",
+      "tier": "middle",
+      "t": "In the _Symposium_, guests at a banquet, including Alcibiades, take turns giving speeches about the nature of love",
+      "k": [
+        "symposium",
+        "banquet",
+        "alcibiades"
+      ],
+      "n": 4,
+      "rabbit": "Symposium"
+    },
+    {
+      "id": "apology",
+      "tier": "middle",
+      "t": "In the _Apology_, Socrates defends himself at his trial by saying his wisdom comes from knowing that he knows nothing",
+      "k": [
+        "apology",
+        "trial",
+        "knows nothing"
+      ],
+      "n": 2,
+      "rabbit": "Apology"
+    },
+    {
+      "id": "crito",
+      "tier": "middle",
+      "t": "In the _Crito_, Socrates refuses a friend’s offer to help him escape prison, citing an unwritten agreement with his city",
+      "k": [
+        "crito",
+        "escape",
+        "prison"
+      ],
+      "n": 1,
+      "rabbit": "Crito"
+    },
+    {
+      "id": "forms",
+      "tier": "middle",
+      "t": "Taught that ordinary objects are just imperfect copies of perfect, unchanging ideas called Forms",
+      "k": [
+        "forms",
+        "imperfect",
+        "copies"
+      ],
+      "n": 0,
+      "rabbit": "Theory of Forms"
+    },
+    {
+      "id": "euthyphro",
+      "tier": "middle",
+      "t": "In his _Euthyphro_, Socrates asks whether something is holy because the gods love it, or the gods love it because it is holy",
+      "k": [
+        "euthyphro",
+        "gods",
+        "holy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "no-writing-socrates",
+      "tier": "middle",
+      "t": "Socrates himself never wrote anything down; nearly everything known of his spoken ideas comes through this man’s dialogues",
+      "k": [
+        "never wrote",
+        "spoken",
+        "dialogues"
+      ],
+      "n": 1
+    },
+    {
+      "id": "timaeus-critias",
+      "tier": "power",
+      "t": "In _Timaeus_ and _Critias_, he described the origin of the universe and told the earliest surviving story of the lost island of Atlantis",
+      "k": [
+        "timaeus",
+        "critias",
+        "atlantis"
+      ],
+      "n": 1,
+      "rabbit": "Atlantis"
+    },
+    {
+      "id": "kallipolis",
+      "tier": "power",
+      "t": "Named his ideal city-state Kallipolis [“kah-lee-POH-lis”] in the _Republic_, ruled by guardians trained from childhood",
+      "k": [
+        "kallipolis",
+        "guardians",
+        "ideal city"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gyges-ring",
+      "tier": "power",
+      "t": "In the _Republic_, Glaucon tells the story of the Ring of Gyges, a ring of invisibility, to ask why anyone would act justly unseen",
+      "k": [
+        "gyges",
+        "ring",
+        "invisible"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aristophanes-myth",
+      "tier": "power",
+      "t": "In the _Symposium_, the playwright Aristophanes jokes that humans were once double-bodied beings split apart, forever seeking their other half",
+      "k": [
+        "aristophanes",
+        "double-bodied",
+        "split"
+      ],
+      "n": 1,
+      "rabbit": "Aristophanes"
+    },
+    {
+      "id": "socrates-execution",
+      "tier": "power",
+      "t": "Was so shaken by the execution of Socrates, condemned by an Athenian jury, that he turned from politics toward philosophy",
+      "k": [
+        "execution",
+        "athenian jury",
+        "condemned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "academy-closed",
+      "tier": "power",
+      "t": "Later schools in Athens carried on his teaching for centuries, until a Byzantine emperor closed the last one in 529 CE",
+      "k": [
+        "byzantine",
+        "closed",
+        "529"
+      ],
+      "n": 0
+    },
+    {
+      "id": "soul-recollection",
+      "tier": "power",
+      "t": "Argued that the soul is immortal and exists before birth, so that learning is really just recalling truths it already knew",
+      "k": [
+        "immortal",
+        "recalling",
+        "recollection"
+      ],
+      "n": 0
+    },
+    {
+      "id": "art-imitation",
+      "tier": "power",
+      "t": "Argued that poets and artists should be banned from his ideal city because art is only an imitation of an imitation of truth",
+      "k": [
+        "poets",
+        "artists",
+        "banned",
+        "imitation"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Teacher, student, or Plato himself?",
+    "body": "Three names travel together in almost every clue: Socrates (his teacher and the main character of his dialogues), Plato himself (the author), and Aristotle (his student). A clue describing what a character says or does inside a dialogue — like refusing to escape prison, or claiming to know nothing — is usually describing Socrates the character, not Plato the author who wrote it down.",
+    "fix": "Ask who is being credited with writing versus who is simply talking in the scene. “Wrote,” “author of,” or a named dialogue title (_Republic_, _Symposium_, _Apology_) points to Plato. A direct quotation or action “inside” a dialogue usually belongs to Socrates.",
+    "line": "Real answer line: <b><u>Plato</u></b> (or <u>Platon</u>)."
+  },
+  "tests": {
+    "right": [
+      "Plato",
+      "Plat",
+      "Platon",
+      "the philosopher Plato"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Socrates",
+      "Aristotle",
+      "The Republic",
+      "Pluto"
+    ]
+  },
+  "freq": {
+    "rank": 3,
+    "count": 7,
+    "list": "Philosophy"
+  }
+}

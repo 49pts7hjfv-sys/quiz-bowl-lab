@@ -1,0 +1,370 @@
+{
+  "id": "macbeth",
+  "name": "Macbeth",
+  "mono": "MAC",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Shakespeare’s “Scottish play” · A prophecy-driven spiral into murder",
+  "dates": "First performed c. 1606",
+  "briefing": "Three witches greet the Scottish general Macbeth with a prophecy that he will become king — so he and his wife murder their way to the throne to make it happen. Guilt haunts them both: she sleepwalks, scrubbing at invisible blood on her hands, while he sees the ghost of the friend he had killed. Shakespeare’s shortest tragedy is so famously cursed that actors avoid saying its name backstage, calling it “the Scottish play” instead.",
+  "answerHtml": "<b><u>Macbeth</u></b> (or The Tragedy of Macbeth)",
+  "accept": [
+    "macbeth",
+    "the tragedy of macbeth"
+  ],
+  "prompt": [
+    "the scottish play",
+    "scottish play"
+  ],
+  "reject": [
+    "lady macbeth",
+    "duncan",
+    "king duncan",
+    "banquo",
+    "macduff"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Video SparkNotes: Shakespeare’s Macbeth summary",
+      "source": "SparkNotes",
+      "url": "https://www.youtube.com/watch?v=uzAujyWpK_s",
+      "note": "Plot summary of the whole play, from the witches’ prophecy to the final battle (violent ending)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Shakespeare Summarized: Macbeth",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=THbWws16Uyc",
+      "note": "Jokey retelling of the whole play for teens (violent ending, some mild language)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Free Will, Witches, Murder, and Macbeth, Part 1: Crash Course Literature 409",
+      "source": "Crash Course Literature",
+      "url": "https://www.youtube.com/watch?v=VPYOs0EGgJk",
+      "note": "Part 1 · John Green on the witches, ambition, and free will (murder discussed at a classroom level)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Shakespeare’s Tragedies and an Acting Lesson: Crash Course Theater #15",
+      "source": "Crash Course Theater",
+      "url": "https://www.youtube.com/watch?v=9m5I-HO3w8w",
+      "note": "Bigger picture · Shakespeare’s tragedies as a group, plus an acting lesson"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Macbeth: Study Guide",
+      "source": "SparkNotes",
+      "url": "https://www.sparknotes.com/shakespeare/macbeth/",
+      "note": "Study guide with plot overview, characters, quizzes, and the No Fear modern translation"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Macbeth",
+  "qb": {
+    "q": "Macbeth",
+    "found": 10,
+    "tip": "Of the 10 results, 1 is actually a “ghosts” tossup that only mentions the banquet scene in passing, and 1 is a separate “Lady Macbeth” answer line — the other 8 are genuine Macbeth tossups."
+  },
+  "sample": {
+    "n": 8,
+    "note": "8 of the 10 real QBReader results for “Macbeth” (Middle School + Easy High School, power-marked); 1 off-topic “ghosts” tossup and 1 separate “Lady Macbeth” tossup were set aside"
+  },
+  "tossups": [
+    {
+      "p": "The previous Thane of Cawdor is sentenced to death for treason just before three witches hail this general with that exact title, along with Thane of Glamis and “king hereafter.” His friend Banquo receives a stranger prophecy: that his own descendants, not this man’s, will someday be kings.",
+      "r": "Urged on by his wife, this man murders King Duncan that same night to make the prophecy come true. For 10 points, name this Scottish general who seizes the throne in a Shakespeare tragedy nicknamed “the Scottish play.”"
+    },
+    {
+      "p": "On his way to commit his first murder, this man hallucinates a bloody dagger floating in midair, calling it “a dagger of the mind.” Earlier, three witches had hailed him as a future king.",
+      "r": "Soon afterward, this man murders King Duncan in his sleep. For 10 points, name this Scottish thane whose wife eggs him on toward murder in a Shakespeare tragedy."
+    },
+    {
+      "p": "At this general’s castle in Inverness, Lennox and a nobleman from Fife arrive together, interrupting this man’s guilty brooding the morning after a killing. Earlier, this man worried aloud that he had only “vaulting ambition” to justify what he was about to do.",
+      "r": "He blames the murder on two drunken guards, whom he then kills to silence. For 10 points, name this Scottish general who takes King Duncan’s throne in a Shakespeare tragedy."
+    },
+    {
+      "p": "This man’s wife begs evil spirits to “unsex” her and fill her with cruelty before their first crime together. Later, guilt drives that same woman to sleepwalk through the castle, scrubbing at hands she imagines are stained with blood.",
+      "r": "She finally mutters “out, damned spot!” while a doctor and a gentlewoman watch helplessly. For 10 points, name this general whose wife’s guilt unravels as badly as his own in a Shakespeare tragedy."
+    },
+    {
+      "p": "At a banquet celebrating his new throne, this man sees the bloody ghost of a murdered friend sitting in his own chair, though no one else at the table can see it. He had ordered that friend killed out of fear of a witches’ prophecy about royal descendants.",
+      "r": "That murdered friend was Banquo. For 10 points, name this Scottish king who nearly loses his composure at a feast in a Shakespeare tragedy."
+    },
+    {
+      "p": "A seemingly impossible prophecy — that he cannot be defeated until Great Birnam Wood marches to Dunsinane Hill — comes true when an enemy army cuts branches to disguise their approach. This man has grown so confident in his safety that he dismisses the first report of it as a lie.",
+      "r": "That same army includes a nobleman whose family this man had murdered. For 10 points, name this Scottish king who is finally killed by Macduff in a Shakespeare tragedy."
+    },
+    {
+      "p": "Three witches promise this man that “none of woman born” shall ever harm him, giving him false confidence in his final battle. That prophecy collapses when his enemy reveals he was “from his mother’s womb untimely ripped,” meaning he was born by what we would now call a cesarean section.",
+      "r": "That enemy, Macduff, kills this man in single combat. For 10 points, name this title tyrant of a Shakespeare tragedy nicknamed “the Scottish play.”"
+    },
+    {
+      "p": "On learning of his wife’s death, this man delivers a bleak speech calling life “a walking shadow” and a “poor player” who struts and frets upon a stage. That speech famously repeats “tomorrow, and tomorrow, and tomorrow.”",
+      "r": "Moments later, he learns that Great Birnam Wood is marching toward his castle at Dunsinane. For 10 points, name this Scottish general whose murderous rise is undone by prophecy in a Shakespeare tragedy."
+    },
+    {
+      "p": "Three ghostly apparitions — a floating armored head, a bloody child, and a crowned child holding a tree — give this man a set of riddling warnings during a second visit to the witches. He takes the last two as promises of safety.",
+      "r": "Those apparitions warn him about Macduff, about being born of woman, and about Birnam Wood. For 10 points, name this Scottish general who is doomed by misreading the apparitions’ prophecies in a Shakespeare tragedy."
+    },
+    {
+      "p": "A young J. R. R. Tolkien was so disappointed that this play’s army-disguised-as-a-forest trick turned out to be just soldiers carrying branches that he later invented walking, talking tree-creatures called Ents for his own fiction. That disguised army was marching on this man’s castle at Dunsinane.",
+      "r": "The trick fulfilled a prophecy about Great Birnam Wood. For 10 points, name this Scottish king of a Shakespeare tragedy who is undone by that very prophecy."
+    },
+    {
+      "p": "Before their first crime, this man’s wife tells him to “screw your courage to the sticking place” and mocks his hesitation as unmanly. She had earlier read a letter in which this man described meeting three witches on a heath.",
+      "r": "That same night, he murders King Duncan while the king is a guest in his own castle. For 10 points, name this Scottish thane who rises to the throne through murder in a Shakespeare tragedy."
+    },
+    {
+      "p": "Three witches chant “double, double, toil and trouble” while brewing a potion with eye of newt and toe of frog for this man’s second visit to their cave. He demands to know his fate even though the witches warn him it will only harm him to hear it.",
+      "r": "Their apparitions wrongly convince him that he is invincible. For 10 points, name this Scottish general who receives three fatal prophecies in a Shakespeare tragedy."
+    },
+    {
+      "p": "Fearing a prophecy that a murdered friend’s descendants will rule instead of his own, this man hires assassins to kill that friend and his young son on a dark road. The son, Fleance, escapes into the night.",
+      "r": "That murdered friend’s ghost later haunts a royal banquet. For 10 points, name this Scottish king who orders Banquo’s murder in a Shakespeare tragedy."
+    },
+    {
+      "p": "This man stares at his blood-soaked hands after a killing and wonders if “all great Neptune’s ocean” could ever wash them clean. He and his wife frame two drunken guards for the crime by planting bloody daggers on them.",
+      "r": "The victim, King Duncan, had been a guest under this man’s own roof that night. For 10 points, name this Scottish general whose wife says after the deed that “a little water clears us of this deed.”"
+    },
+    {
+      "p": "This man’s entire downfall is driven by three prophecies from three witches, each of which comes true in a way he never expects. Shakespeare based this man’s story loosely on a real medieval Scottish king described in Holinshed’s _Chronicles_.",
+      "r": "The real history is far less dramatic than the play’s murders, ghosts, and sleepwalking. For 10 points, name this title general of Shakespeare’s shortest tragedy, nicknamed “the Scottish play.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "three-witches-prophecy",
+      "tier": "giveaway",
+      "t": "Three witches prophesy that this Scottish general will become king",
+      "k": [
+        "three witches",
+        "prophesy"
+      ],
+      "n": 5
+    },
+    {
+      "id": "kills-duncan",
+      "tier": "giveaway",
+      "t": "Murders King Duncan in his sleep to make the witches’ prophecy come true",
+      "k": [
+        "murders king duncan"
+      ],
+      "n": 6
+    },
+    {
+      "id": "scottish-play",
+      "tier": "giveaway",
+      "t": "So associated with bad luck backstage that actors call it “the Scottish play” instead of its real name",
+      "k": [
+        "scottish play"
+      ],
+      "n": 1
+    },
+    {
+      "id": "out-damned-spot",
+      "tier": "giveaway",
+      "t": "Features a sleepwalking scene where a guilt-ridden woman mutters “out, damned spot!” while scrubbing her hands",
+      "k": [
+        "out damned spot",
+        "sleepwalking"
+      ],
+      "n": 2
+    },
+    {
+      "id": "thane-of-glamis-cawdor",
+      "tier": "middle",
+      "t": "Already Thane of Glamis, he is soon named Thane of Cawdor, exactly as the witches foretold",
+      "k": [
+        "thane of glamis",
+        "thane of cawdor"
+      ],
+      "n": 2
+    },
+    {
+      "id": "birnam-wood",
+      "tier": "middle",
+      "t": "A prophecy about Great Birnam Wood marching to Dunsinane Hill comes true when soldiers disguise themselves with cut branches",
+      "k": [
+        "birnam wood",
+        "dunsinane"
+      ],
+      "n": 4
+    },
+    {
+      "id": "not-of-woman-born",
+      "tier": "middle",
+      "t": "A prophecy that “none of woman born” can harm him is fulfilled by an enemy delivered by cesarean section",
+      "k": [
+        "none of woman born",
+        "cesarean"
+      ],
+      "n": 2
+    },
+    {
+      "id": "macduff-kills-him",
+      "tier": "middle",
+      "t": "Killed in the final battle by a nobleman whose wife and children were murdered on his orders",
+      "k": [
+        "final battle",
+        "wife and children"
+      ],
+      "n": 4,
+      "rabbit": "Macduff"
+    },
+    {
+      "id": "banquos-ghost",
+      "tier": "middle",
+      "t": "Sees a murdered friend’s bloody ghost sitting in his own chair during a royal banquet",
+      "k": [
+        "bloody ghost",
+        "royal banquet"
+      ],
+      "n": 1,
+      "rabbit": "Banquo"
+    },
+    {
+      "id": "tomorrow-soliloquy",
+      "tier": "middle",
+      "t": "Reacts to his wife’s death with the “tomorrow, and tomorrow, and tomorrow” speech, calling life “a walking shadow”",
+      "k": [
+        "tomorrow and tomorrow",
+        "walking shadow"
+      ],
+      "n": 3
+    },
+    {
+      "id": "cawdor-execution",
+      "tier": "middle",
+      "t": "Replaces the previous Thane of Cawdor, who is sentenced to death for treason just before the witches’ prophecy comes true",
+      "k": [
+        "previous thane",
+        "treason"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tolkien-ents",
+      "tier": "power",
+      "t": "A disappointed reader of this play’s tree-disguise trick grew up to invent the walking, talking Ents of Middle-earth",
+      "k": [
+        "ents",
+        "middle earth",
+        "tolkien"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dagger-vision",
+      "tier": "power",
+      "t": "Hallucinates a bloody dagger floating in the air on the way to commit his first murder",
+      "k": [
+        "bloody dagger",
+        "hallucinates"
+      ],
+      "n": 1
+    },
+    {
+      "id": "banquo-descendants",
+      "tier": "power",
+      "t": "Told by the witches that his murdered friend’s descendants, not his own, will sit on the throne someday",
+      "k": [
+        "descendants",
+        "throne someday"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-double-toil",
+      "tier": "power",
+      "t": "The witches brew a potion while chanting “double, double, toil and trouble”",
+      "k": [
+        "double double toil and trouble"
+      ],
+      "n": 0
+    },
+    {
+      "id": "all-perfumes-of-arabia",
+      "tier": "power",
+      "t": "A guilt-wracked sleepwalker insists “all the perfumes of Arabia” could never sweeten her little hand",
+      "k": [
+        "all the perfumes of arabia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "screw-your-courage",
+      "tier": "power",
+      "t": "Urges her hesitant husband to “screw your courage to the sticking place” before their first crime together",
+      "k": [
+        "screw your courage",
+        "sticking place"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lennox-fife",
+      "tier": "power",
+      "t": "A nobleman from Fife interrupts this general’s focus on murder early in the play by arriving at his castle",
+      "k": [
+        "fife",
+        "inverness castle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "three-apparitions",
+      "tier": "power",
+      "t": "Three ghostly apparitions, including an armored head and a bloody child, give him three cryptic warnings",
+      "k": [
+        "apparitions",
+        "armored head"
+      ],
+      "n": 1
+    },
+    {
+      "id": "vaulting-ambition",
+      "tier": "power",
+      "t": "Nearly backs out of the murder plot, worrying aloud that he has only “vaulting ambition” and no real cause",
+      "k": [
+        "vaulting ambition"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Macbeth, or Lady Macbeth?",
+    "body": "Real tournaments sometimes ask for Lady Macbeth specifically — and explicitly say not to accept just “Macbeth” on that line, since she is a separate character with her own famous lines. “Out, damned spot!” and “unsex me here” belong to her; the witches’ prophecy and the murders of Duncan and Banquo belong to him.",
+    "fix": "If the clue says “his wife” or describes someone urging Macbeth on, egging him toward murder, or sleepwalking and scrubbing her hands, the answer is Lady Macbeth, not Macbeth.",
+    "line": "Real answer line: <b><u>Macbeth</u></b> [do NOT accept “Lady Macbeth”]"
+  },
+  "tests": {
+    "right": [
+      "Macbeth",
+      "macbeth",
+      "Macbath",
+      "The Tragedy of Macbeth"
+    ],
+    "prompt": [
+      "Scottish Play",
+      "The Scottish Play"
+    ],
+    "wrong": [
+      "Lady Macbeth",
+      "Duncan",
+      "Banquo",
+      "Macduff",
+      "Hamlet"
+    ]
+  },
+  "freq": {
+    "rank": 56,
+    "count": 6,
+    "list": "Literature"
+  }
+}

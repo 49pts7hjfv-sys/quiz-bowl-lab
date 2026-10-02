@@ -1,0 +1,473 @@
+{
+  "id": "trail-of-tears",
+  "name": "Trail of Tears",
+  "mono": "TT",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Forced removal of Native nations west · Result of the Indian Removal Act",
+  "dates": "1830s; Cherokee removal 1838–1839",
+  "briefing": "In 1838, U.S. soldiers forced about 16,000 Cherokee people out of their homes in Georgia and nearby states and sent them hundreds of miles west to Indian Territory, in what is now Oklahoma. Thousands died of disease, hunger, and cold in crowded camps and on the journey. The Choctaw, Creek, Chickasaw, and Seminole nations were forced west too, all under the Indian Removal Act that Andrew Jackson signed in 1830.",
+  "answerHtml": "<b><u>Trail of Tears</u></b> (prompt on descriptions such as <u>Indian removal</u> or the <u>Indian Removal Act</u>)",
+  "accept": [
+    "trail of tears",
+    "the trail of tears",
+    "cherokee trail of tears"
+  ],
+  "prompt": [
+    "indian removal",
+    "indian removal act",
+    "cherokee removal",
+    "removal of the cherokee",
+    "removal of native americans",
+    "native american removal",
+    "removal of indians",
+    "forced removal",
+    "indian relocation",
+    "cherokee relocation"
+  ],
+  "reject": [
+    "long walk",
+    "long walk of the navajo",
+    "navajo long walk",
+    "andrew jackson",
+    "martin van buren",
+    "treaty of new echota",
+    "new echota",
+    "worcester v georgia",
+    "seminole war",
+    "bataan death march",
+    "oregon trail",
+    "santa fe trail"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "How the Brutal Trail of Tears Got Its Name",
+      "source": "Smithsonian Channel",
+      "url": "https://www.youtube.com/watch?v=SosZ2ZRJymU",
+      "note": "Short clip · what forced removal meant for the Cherokee"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cherokee Removal and the Trail of Tears",
+      "source": "GPB Education",
+      "url": "https://www.youtube.com/watch?v=JKJUhY9xK_M",
+      "note": "Georgia Public Broadcasting lesson video on how and why the Cherokee were forced west"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cherokee Nation and the Trail of Tears",
+      "source": "GPB Education",
+      "url": "https://www.youtube.com/watch?v=PZEUPlsJ4ek",
+      "note": "Georgia Public Broadcasting video on the Cherokee Nation’s story of removal"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Trail of Tears National Historic Trail – Audio Described",
+      "source": "National Park Service",
+      "url": "https://www.youtube.com/watch?v=3sNc2AAakkw",
+      "note": "Park Service film about the trail and the forced removal it remembers (audio-described version)"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Age of Jackson (#14)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=beN4qE-e5O8",
+      "note": "Andrew Jackson’s presidency, including the Indian Removal Act"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Trail of Tears",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/native_americans/trail_of_tears.php",
+      "note": "Quick read: why the tribes were forced west, the journey to Oklahoma, and its terrible toll"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Trail_of_Tears",
+  "qb": {
+    "q": "Trail of Tears",
+    "found": 2,
+    "tip": "Only 2 results at this level, so add Regular High School; one of those wants “Indian removal” (the policy), and one old novice question wrongly says the Supreme Court ruled against the Cherokee, when Worcester v. Georgia actually sided with them."
+  },
+  "sample": {
+    "n": 5,
+    "note": "5 real QBReader tossups (2 Middle School/Easy High School + 3 Regular High School, power-marked; 1 of them wanted “Indian removal”)"
+  },
+  "tossups": [
+    {
+      "p": "An 1829 gold rush near Dahlonega [“duh-LON-uh-guh”], Georgia, made settlers even more eager to take the land of the people forced into this event. Their Principal Chief, John Ross, later convinced General Winfield Scott to let them lead most of this journey themselves.",
+      "r": "For 10 points, name this forced removal of the Cherokee and other Native nations to what is now Oklahoma."
+    },
+    {
+      "p": "A small Treaty Party led by Major Ridge and Elias Boudinot [“BOO-dih-noh”] signed away Cherokee land at New Echota [“eh-CHOH-tuh”] in 1835, and the U.S. used that treaty to justify this event. Principal Chief John Ross and most Cherokees rejected the treaty.",
+      "r": "For 10 points, name this forced march of the Cherokee to Indian Territory in 1838 and 1839."
+    },
+    {
+      "p": "The Supreme Court ruled in _Worcester v. Georgia_ that Georgia’s laws had no force inside the Cherokee Nation, but the ruling failed to prevent this event. Andrew Jackson supposedly answered, “John Marshall has made his decision; now let him enforce it.”",
+      "r": "For 10 points, name this forced removal of the Cherokee and other nations to land west of the Mississippi River."
+    },
+    {
+      "p": "Tennessee congressman Davy Crockett broke with President Andrew Jackson by voting against the 1830 law that led to this event. That law let the president trade land in the West for the homelands of Native nations in the East.",
+      "r": "That law was the Indian Removal Act. For 10 points, name this forced march of thousands of Cherokee to present-day Oklahoma."
+    },
+    {
+      "p": "The Choctaw leader George W. Harkins wrote a “Farewell Letter to the American People” as his nation began this event under the Treaty of Dancing Rabbit Creek. The Choctaw were the first of five Southeastern nations forced west in this event.",
+      "r": "For 10 points, name this series of forced removals of Native Americans, most famously the Cherokee, to Indian Territory in the 1830s."
+    },
+    {
+      "p": "Seminoles who rejected the Treaty of Payne’s Landing attacked Major Francis Dade’s soldiers in 1835, starting a long war to avoid this event. Osceola [“oss-ee-OH-luh”] led Seminole resistance in Florida until he was captured under a flag of truce.",
+      "r": "For 10 points, name this forced removal of Native Americans that the Cherokee remember as “the trail where they cried.”"
+    },
+    {
+      "p": "Ralph Waldo Emerson wrote a public letter to President Martin Van Buren in 1838 begging him to stop this event. That year, soldiers under General Winfield Scott forced thousands of people out of their homes and into crowded stockades.",
+      "r": "For 10 points, name this forced march of the Cherokee people west to Indian Territory."
+    },
+    {
+      "p": "In the case _Cherokee Nation v. Georgia_, John Marshall described the main victims of this event as one of the “domestic dependent nations.” Their Principal Chief, John Ross, fought this event for years with lawsuits and petitions to Congress.",
+      "r": "It followed the Indian Removal Act of 1830. For 10 points, name this forced removal of the Cherokee to present-day Oklahoma."
+    },
+    {
+      "p": "Survivors of this event made Tahlequah [“TAL-uh-kwah”] their nation’s new capital in 1839. During this event, many groups were stuck for weeks in the winter of 1838 to 1839, waiting to cross icy rivers.",
+      "r": "For 10 points, name this forced march of thousands of Cherokee from the Southeast to Indian Territory."
+    },
+    {
+      "p": "Some Cherokees avoided this event by staying in the mountains of North Carolina, and their descendants make up the Eastern Band of Cherokee Indians. Thousands of people died of disease, hunger, and cold during this event.",
+      "r": "President Andrew Jackson’s Indian Removal Act led to this event. For 10 points, name this forced march to present-day Oklahoma."
+    },
+    {
+      "p": "This event forced the Chickasaw, Choctaw, Creek, and Seminole, along with one other nation, out of their homelands in the American Southeast. White Americans called those nations the “Five Civilized Tribes” because they had adopted some American customs.",
+      "r": "The fifth nation was the Cherokee. For 10 points, name this forced relocation to Indian Territory in the 1830s."
+    },
+    {
+      "p": "Before this event, its best-known victims had written a constitution and printed the _Cherokee Phoenix_, a newspaper that used Sequoyah’s [“sih-KWOY-uh”] writing system. None of that stopped Georgia from taking their land.",
+      "r": "For 10 points, name this forced march of the Cherokee people to Indian Territory after the Indian Removal Act."
+    },
+    {
+      "p": "In 1987, Congress honored the victims of this event by creating a historic route, now marked by the National Park Service across nine states. Some groups in this event traveled by boat, but most went over land, and many did not arrive in the West until early 1839.",
+      "r": "For 10 points, name this forced removal of the Cherokee from the Southeast to Indian Territory."
+    },
+    {
+      "p": "Although the law that led to this event was signed by the previous president, most of the Cherokee were removed while Martin Van Buren was president. About 16,000 Cherokee people were forced to leave their homes in this event.",
+      "r": "Andrew Jackson had signed the Indian Removal Act in 1830. For 10 points, name this deadly forced march to present-day Oklahoma."
+    },
+    {
+      "p": "Georgia held lotteries that gave away land belonging to the main victims of this event, including an 1832 lottery for land and gold lots. The missionary Samuel Worcester was jailed for living among those victims without a license from Georgia.",
+      "r": "For 10 points, name this forced removal of the Cherokee people to Indian Territory in 1838 and 1839."
+    }
+  ],
+  "clues": [
+    {
+      "id": "forced-removal",
+      "tier": "giveaway",
+      "t": "The forced removal of Native American nations from the Southeast to land west of the Mississippi River in the 1830s",
+      "k": [
+        "forced",
+        "removal",
+        "southeast",
+        "mississippi"
+      ],
+      "n": 5
+    },
+    {
+      "id": "removal-act",
+      "tier": "giveaway",
+      "t": "Followed the Indian Removal Act, signed by President Andrew Jackson in 1830",
+      "k": [
+        "indian removal act",
+        "andrew jackson",
+        "jackson",
+        "1830"
+      ],
+      "n": 4,
+      "rabbit": "Andrew Jackson"
+    },
+    {
+      "id": "oklahoma",
+      "tier": "giveaway",
+      "t": "Ended in Indian Territory, which is now the state of Oklahoma",
+      "k": [
+        "oklahoma",
+        "indian territory"
+      ],
+      "n": 4
+    },
+    {
+      "id": "cherokee",
+      "tier": "giveaway",
+      "t": "Best known for the Cherokee removal of 1838–1839, when thousands of Cherokee people died",
+      "k": [
+        "cherokee",
+        "1838"
+      ],
+      "n": 3
+    },
+    {
+      "id": "five-tribes",
+      "tier": "middle",
+      "t": "The “Five Civilized Tribes” were all forced west: the Cherokee, Chickasaw, Choctaw, Creek (Muscogee), and Seminole",
+      "k": [
+        "five civilized tribes",
+        "chickasaw",
+        "choctaw",
+        "creek",
+        "seminole"
+      ],
+      "n": 1
+    },
+    {
+      "id": "worcester",
+      "tier": "middle",
+      "t": "_Worcester v. Georgia_ (1832): John Marshall’s Supreme Court sided with the Cherokee, but Georgia and Jackson ignored the ruling",
+      "k": [
+        "worcester",
+        "marshall",
+        "supreme court"
+      ],
+      "n": 3,
+      "rabbit": "Worcester v. Georgia"
+    },
+    {
+      "id": "new-echota",
+      "tier": "middle",
+      "t": "Treaty of New Echota (1835): a small group of Cherokees signed away their nation’s land without its approval",
+      "k": [
+        "new echota",
+        "echota",
+        "treaty"
+      ],
+      "n": 3
+    },
+    {
+      "id": "john-ross",
+      "tier": "middle",
+      "t": "Principal Chief John Ross fought removal with lawsuits and petitions, then led many of the groups west",
+      "k": [
+        "john ross",
+        "ross",
+        "principal chief"
+      ],
+      "n": 3
+    },
+    {
+      "id": "cried",
+      "tier": "middle",
+      "t": "The Cherokee remember it as “the trail where they cried”",
+      "k": [
+        "cried",
+        "where they cried"
+      ],
+      "n": 1
+    },
+    {
+      "id": "seminole",
+      "tier": "middle",
+      "t": "The Seminoles of Florida fought the Second Seminole War to avoid removal; Osceola was a famous leader",
+      "k": [
+        "seminole",
+        "osceola",
+        "florida"
+      ],
+      "n": 2
+    },
+    {
+      "id": "van-buren",
+      "tier": "middle",
+      "t": "Most Cherokees were forced west in 1838–1839, under President Martin Van Buren",
+      "k": [
+        "van buren",
+        "martin van buren"
+      ],
+      "n": 0
+    },
+    {
+      "id": "winfield-scott",
+      "tier": "power",
+      "t": "General Winfield Scott’s soldiers forced the Cherokee into stockades in 1838 before the march",
+      "k": [
+        "winfield scott",
+        "scott",
+        "stockades"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dade",
+      "tier": "power",
+      "t": "Seminoles who rejected the Treaty of Payne’s Landing (1832) began the Second Seminole War by attacking Major Dade’s troops (1835)",
+      "k": [
+        "dade",
+        "payne",
+        "paynes landing"
+      ],
+      "n": 2
+    },
+    {
+      "id": "dancing-rabbit",
+      "tier": "power",
+      "t": "The Choctaw went first, under the Treaty of Dancing Rabbit Creek (1830); George W. Harkins wrote a “Farewell Letter to the American People”",
+      "k": [
+        "dancing rabbit",
+        "choctaw",
+        "harkins",
+        "farewell letter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dahlonega",
+      "tier": "power",
+      "t": "An 1829 gold rush near Dahlonega, Georgia, made settlers want Cherokee land even more",
+      "k": [
+        "dahlonega",
+        "gold rush",
+        "gold"
+      ],
+      "n": 1
+    },
+    {
+      "id": "crockett",
+      "tier": "power",
+      "t": "Congressman Davy Crockett of Tennessee voted against the Indian Removal Act",
+      "k": [
+        "crockett",
+        "davy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "boudinot",
+      "tier": "power",
+      "t": "Major Ridge and Elias Boudinot led the Treaty Party that signed the Treaty of New Echota",
+      "k": [
+        "boudinot",
+        "major ridge",
+        "treaty party"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cherokee-nation",
+      "tier": "power",
+      "t": "_Cherokee Nation v. Georgia_ (1831): John Marshall called Native peoples “domestic dependent nations”",
+      "k": [
+        "domestic dependent",
+        "cherokee nation v georgia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "emerson",
+      "tier": "power",
+      "t": "Ralph Waldo Emerson wrote a public letter to President Van Buren in 1838 protesting the Cherokee removal",
+      "k": [
+        "emerson",
+        "ralph waldo emerson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phoenix",
+      "tier": "power",
+      "t": "Before removal, the Cherokee had a written constitution (1827) and a newspaper, the _Cherokee Phoenix_, printed partly in Sequoyah’s writing system",
+      "k": [
+        "phoenix",
+        "sequoyah",
+        "constitution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lottery",
+      "tier": "power",
+      "t": "Georgia gave away Cherokee land in lotteries, including an 1832 land and gold lottery; missionary Samuel Worcester was jailed for living among the Cherokee",
+      "k": [
+        "lottery",
+        "1832",
+        "samuel worcester"
+      ],
+      "n": 0
+    },
+    {
+      "id": "icy-rivers",
+      "tier": "power",
+      "t": "In the winter of 1838–1839, many groups were stuck for weeks waiting to cross icy rivers",
+      "k": [
+        "icy rivers",
+        "rivers",
+        "winter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tahlequah",
+      "tier": "power",
+      "t": "Survivors made Tahlequah, Oklahoma, the Cherokee Nation’s capital in 1839",
+      "k": [
+        "tahlequah",
+        "capital"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eastern-band",
+      "tier": "power",
+      "t": "Some Cherokees stayed in the North Carolina mountains; their descendants are the Eastern Band of Cherokee Indians",
+      "k": [
+        "eastern band",
+        "north carolina"
+      ],
+      "n": 0
+    },
+    {
+      "id": "historic-route",
+      "tier": "power",
+      "t": "In 1987, Congress made its routes through nine states a National Historic Trail, run by the National Park Service",
+      "k": [
+        "1987",
+        "nine states",
+        "national park service"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Law, Policy, or March?",
+    "body": "Three answers sound alike. The Indian Removal Act is the 1830 law Andrew Jackson signed, “Indian removal” is the whole policy, and the Trail of Tears is the deadly forced march, especially the Cherokee removal of 1838–1839. Real answer lines prompt on “Indian Removal Act,” and one real tossup wanted “Indian removal” and took “Trail of Tears” only before those words were read. The Long Walk of the Navajo (1864) was a different forced march, in the Southwest.",
+    "fix": "Listen for the noun: “this law” or “this act” wants the Indian Removal Act, “this policy” wants Indian removal, and “this event,” “this march,” or “this journey” wants the Trail of Tears. If you get a prompt, say “Trail of Tears.”",
+    "line": "Real answer line: <b><u>Trail of Tears</u></b> (prompt on <u>Indian Removal</u> or the <u>Indian Removal Act</u> until mentioned; prompt on descriptions such as “removal of Native Americans”)"
+  },
+  "tests": {
+    "right": [
+      "Trail of Tears",
+      "the Trail of Tears",
+      "Trial of Tears",
+      "Cherokee Trail of Tears",
+      "trail of tear"
+    ],
+    "prompt": [
+      "Indian Removal",
+      "Indian Removal Act",
+      "Cherokee removal",
+      "removal of Native Americans"
+    ],
+    "wrong": [
+      "Long Walk of the Navajo",
+      "The Long Walk",
+      "Andrew Jackson",
+      "Bataan Death March",
+      "Treaty of New Echota",
+      "Oregon Trail"
+    ]
+  },
+  "freq": {
+    "rank": 39,
+    "count": 3,
+    "list": "American History"
+  }
+}

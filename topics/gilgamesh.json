@@ -1,0 +1,418 @@
+{
+  "id": "gilgamesh",
+  "name": "Gilgamesh",
+  "mono": "GIL",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Hero-king of Uruk · Star of the oldest surviving epic in the world",
+  "dates": "Possibly ruled Uruk c. 2700 BCE",
+  "briefing": "Gilgamesh was a Sumerian king so strong that the gods made him a best friend, Enkidu, just to keep him in line — and the plan backfired when the two became inseparable instead. After Enkidu died, a terrified Gilgamesh crossed the known world searching for eternal life, even meeting Utnapishtim, a man who had survived a flood much like Noah’s. His adventures, written on clay tablets in Mesopotamia thousands of years ago, make up the oldest great epic that still survives today.",
+  "answerHtml": "<b><u>Gilgamesh</u></b> (accept <u>Bilgamesh</u>; do not accept “The Epic of Gilgamesh”)",
+  "accept": [
+    "gilgamesh",
+    "bilgamesh",
+    "bilgames",
+    "king gilgamesh"
+  ],
+  "prompt": [],
+  "reject": [
+    "epic of gilgamesh",
+    "enkidu",
+    "utnapishtim",
+    "humbaba",
+    "ishtar",
+    "siduri",
+    "urshanabi"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Legends Summarized: The Epic of Gilgamesh",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=j-yJDbC_a2c",
+      "note": "Funny cartoon summary of the whole epic, from Uruk to Utnapishtim’s flood (a few grown-up jokes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Epic of Gilgamesh – Sumerian Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=b5BHNqu54X8",
+      "note": "Animated retelling of the epic of the king of Uruk and his friend Enkidu"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Epic of Gilgamesh: Crash Course World Mythology #26",
+      "source": "Crash Course World Mythology",
+      "url": "https://www.youtube.com/watch?v=sWppk7-Mti4",
+      "note": "Fast-paced walk through Enkidu, Humbaba, and the search for immortality (some grown-up themes)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Gilgamesh",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Gilgamesh",
+      "note": "Kid-friendly encyclopedia article on the king of Uruk, Enkidu, Humbaba, and his search for immortality"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Gilgamesh",
+  "qb": {
+    "q": "Gilgamesh",
+    "found": 4,
+    "tip": "All four Middle School/Easy High School hits are about the hero himself. Watch out for the separate real answer line “The Epic of Gilgamesh,” which wants the poem, not the man — see the Buzzer Trap."
+  },
+  "sample": {
+    "n": 15,
+    "note": "15 real QBReader tossups for this answer line (4 Middle School/Easy High School + 11 Regular High School, power-marked; one additional Regular HS hit was excluded because its real answer line was “The Epic of Gilgamesh,” not “Gilgamesh”)"
+  },
+  "tossups": [
+    {
+      "p": "This figure first met his best friend when the two wrestled to a standstill in the streets of his city. After that friend died as punishment from the gods for helping kill both Humbaba and the Bull of Heaven,",
+      "r": "this figure set out to learn the secret of eternal life. On that journey he met Utnapishtim, a man who had survived a great flood much like the Bible’s Noah. For 10 points, name this king of Uruk, the hero of a namesake Mesopotamian epic."
+    },
+    {
+      "p": "This figure passed a pair of scorpion-monsters guarding Mount Mashu [“MAH-shoo”] and then walked twelve leagues through total darkness. His mother, the goddess Ninsun, had earlier read his strange dreams about an axe and a falling meteor as signs that a loyal companion was coming. Tying stones to his feet, this figure sank to the",
+      "r": "bottom of the sea to retrieve a plant that restored youth, only for a snake to steal it while he bathed — supposedly why snakes shed their skin ever since. For 10 points, name this king of Uruk who searched for immortality in an ancient epic."
+    },
+    {
+      "p": "This figure smashed a ferryman’s magical Stone Things and had to use his own clothes as a sail to cross the Waters of Death. A ghost once told this figure that men with seven sons live like gods in the underworld. Earlier, this figure and his best friend had traveled to the",
+      "r": "Cedar Forest, where the sun god Shamash sent strong winds to help them defeat the monster Humbaba [“hoom-BAH-bah”]. For 10 points, name this king of Uruk, hero of a Mesopotamian epic who sought eternal life."
+    },
+    {
+      "p": "This figure once cleared demons out of a goddess’s huluppu [“hoo-LOOP-oo”] tree and was rewarded with a magical drum and drumsticks that later fell into the underworld. After this figure rejected the marriage proposal of the goddess Ishtar, he and his friend killed the",
+      "r": "Bull of Heaven that she sent to punish him, an act that led the gods to decide his friend Enkidu must die. For 10 points, name this two-thirds-divine king of Uruk, hero of a namesake Mesopotamian epic."
+    },
+    {
+      "p": "This figure grieved over his dead friend’s body until a maggot fell from its nose, which made this figure fear death for the first time. A tavern-keeper named Siduri [“sih-DOO-ree”] then directed this figure to a ferryman who could pole him across the",
+      "r": "Waters of Death to reach a man who had survived a great flood. For 10 points, name this king of Uruk who journeyed to find the flood survivor Utnapishtim after his friend Enkidu died."
+    },
+    {
+      "p": "This figure is called “two-thirds god and one-third man” in his epic. According to the Sumerian King List, this figure may have been a real king of Uruk around 2700 BCE whose reign was later wildly exaggerated. In the epic, this figure’s mother, the goddess",
+      "r": "Ninsun, interpreted his troubling dreams as a sign that a loyal companion was coming. For 10 points, name this king whose friendship with the wild man Enkidu drives a namesake Mesopotamian epic."
+    },
+    {
+      "p": "After his best friend’s death, this figure persuaded the ferryman Urshanabi [“oor-shah-NAH-bee”] to pole him across the Waters of Death. Along the way, this figure had already smashed the Stone Things that normally helped travelers cross. He finally reached the",
+      "r": "flood survivor Utnapishtim, hoping to learn the secret of eternal life. For 10 points, name this king of the Sumerian city of Uruk, hero of an epic that bears his name."
+    },
+    {
+      "p": "This figure and his friend cut down the tallest tree in the Cedar Forest to make a massive gate after killing that forest’s monstrous guardian with help from the sun god Shamash. Furious at being rejected, the goddess Ishtar convinced her father Anu to send the",
+      "r": "Bull of Heaven to attack this figure’s city, but he and his friend Enkidu killed it instead. For 10 points, name this king of Uruk, hero of the oldest great epic to survive from ancient Mesopotamia."
+    },
+    {
+      "p": "This figure is described as two-thirds divine and only one-third human, the son of the goddess Ninsun. The flood survivor Utnapishtim challenged this figure to stay awake for seven nights straight to prove he deserved immortality, a test this figure failed, as shown by a row of increasingly",
+      "r": "stale loaves of bread left by his bed. For 10 points, name this king of Uruk who undertook a quest for eternal life after his friend Enkidu’s death."
+    },
+    {
+      "p": "This figure tied heavy stones to his feet so he could sink down and grab a thorny plant from the ocean floor that was said to make an old man young again. Soon after, while this figure bathed in a pool, a",
+      "r": "snake slithered off with that plant, which is supposedly why snakes still shed their old skin today. For 10 points, name this king of Uruk, hero of an ancient Mesopotamian epic who sought immortality."
+    },
+    {
+      "p": "This figure’s closest friend was tamed after the temple woman Shamhat [“SHAHM-haht”] was sent to find him living wild among gazelles. Years later, after the gods punished that friend with death for helping kill",
+      "r": "both the monster Humbaba and the Bull of Heaven, this figure set out across the world searching for eternal life. For 10 points, name this title hero of a Mesopotamian epic, the king of Uruk."
+    },
+    {
+      "p": "This figure’s adventures were first written down on clay tablets in cuneiform [“kyoo-NEE-uh-form”] script, making his story one of the oldest great epics that still survives today. In one episode, a council of gods decided that this figure’s closest friend had to die as punishment for killing the guardian of the",
+      "r": "Cedar Forest and the Bull of Heaven. For 10 points, name this king of Uruk, the title hero of an ancient Mesopotamian epic."
+    },
+    {
+      "p": "This figure’s mother, the goddess Ninsun, interpreted his troubling dreams about an axe and a falling meteorite as signs that he would soon gain a loyal companion. That companion, once a wild man roaming with gazelles, was tamed after meeting the temple woman",
+      "r": "Shamhat and brought to this figure’s city of Uruk. For 10 points, name this king whose friendship with Enkidu begins a namesake Mesopotamian epic."
+    },
+    {
+      "p": "This figure’s story describes him crossing the Waters of Death after destroying the stone creatures that usually ferried travelers across, forcing him to use long poles and finally his own clothing as a sail. He made this journey searching for the flood survivor",
+      "r": "Utnapishtim, hoping to learn how to live forever after the death of his friend Enkidu. For 10 points, name this king of Uruk, hero of a Mesopotamian epic who ultimately fails to achieve immortality."
+    },
+    {
+      "p": "This figure first won his best friend’s loyalty by wrestling him to a draw in the streets of his city, after which the pair traveled to the Cedar Forest to defeat the monster Humbaba. Later, this figure rejected a marriage proposal from the goddess Ishtar, who answered by sending the",
+      "r": "Bull of Heaven to attack his city of Uruk. For 10 points, name this two-thirds-divine king, the hero of the ancient Mesopotamian _Epic_ that bears his name."
+    }
+  ],
+  "clues": [
+    {
+      "id": "epic-hero",
+      "tier": "giveaway",
+      "t": "Title hero of the oldest surviving great epic, from ancient Mesopotamia",
+      "k": [
+        "oldest surviving",
+        "mesopotamia",
+        "title hero"
+      ],
+      "n": 15
+    },
+    {
+      "id": "enkidu",
+      "tier": "giveaway",
+      "t": "His best friend was Enkidu, a wild man tamed by the temple woman Shamhat",
+      "k": [
+        "enkidu",
+        "wild man",
+        "shamhat"
+      ],
+      "n": 15
+    },
+    {
+      "id": "king-of-uruk",
+      "tier": "giveaway",
+      "t": "King of the real Sumerian city of Uruk, in what is now Iraq",
+      "k": [
+        "uruk",
+        "sumerian",
+        "iraq"
+      ],
+      "n": 13
+    },
+    {
+      "id": "seeks-immortality",
+      "tier": "giveaway",
+      "t": "After Enkidu died, he set out on a quest to find eternal life",
+      "k": [
+        "immortality",
+        "eternal life",
+        "quest"
+      ],
+      "n": 10,
+      "rabbit": "Utnapishtim"
+    },
+    {
+      "id": "two-thirds-god",
+      "tier": "giveaway",
+      "t": "Said to be two-thirds god and one-third human",
+      "k": [
+        "two thirds",
+        "one third",
+        "divine"
+      ],
+      "n": 3
+    },
+    {
+      "id": "utnapishtim",
+      "tier": "middle",
+      "t": "Visited the flood survivor Utnapishtim, often compared to the Bible’s Noah",
+      "k": [
+        "utnapishtim",
+        "flood survivor",
+        "noah"
+      ],
+      "n": 10,
+      "rabbit": "Noah"
+    },
+    {
+      "id": "humbaba",
+      "tier": "middle",
+      "t": "With Enkidu, traveled to the Cedar Forest and killed the monster Humbaba",
+      "k": [
+        "humbaba",
+        "cedar forest",
+        "monster"
+      ],
+      "n": 14
+    },
+    {
+      "id": "bull-of-heaven",
+      "tier": "middle",
+      "t": "Rejected the goddess Ishtar’s marriage proposal, so she sent the Bull of Heaven to attack his city",
+      "k": [
+        "ishtar",
+        "bull of heaven",
+        "rejected"
+      ],
+      "n": 10
+    },
+    {
+      "id": "stay-awake-test",
+      "tier": "middle",
+      "t": "Failed Utnapishtim’s test to stay awake for seven nights, proven by stale loaves of bread",
+      "k": [
+        "stay awake",
+        "seven nights",
+        "stale bread"
+      ],
+      "n": 7
+    },
+    {
+      "id": "plant-of-youth",
+      "tier": "middle",
+      "t": "Tied stones to his feet to retrieve a youth-restoring plant from the sea floor, but a snake stole it — said to explain why snakes shed their skin",
+      "k": [
+        "youth restoring plant",
+        "snake",
+        "shed their skin"
+      ],
+      "n": 8
+    },
+    {
+      "id": "enkidu-death",
+      "tier": "middle",
+      "t": "Enkidu sickened and died, a punishment from the gods for killing Humbaba and the Bull of Heaven",
+      "k": [
+        "enkidu died",
+        "punishment",
+        "gods"
+      ],
+      "n": 3
+    },
+    {
+      "id": "wrestling-match",
+      "tier": "middle",
+      "t": "First met Enkidu by wrestling him to a draw in the streets of Uruk, and the two became friends",
+      "k": [
+        "wrestling match",
+        "streets of uruk",
+        "became friends"
+      ],
+      "n": 2
+    },
+    {
+      "id": "scorpion-men",
+      "tier": "power",
+      "t": "Passed scorpion-men guarding Mount Mashu and walked twelve leagues through darkness",
+      "k": [
+        "scorpion men",
+        "mount mashu",
+        "darkness"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ninsun-dream",
+      "tier": "power",
+      "t": "His mother, the goddess Ninsun, read his dreams of an axe and a falling meteor as a sign of Enkidu’s coming",
+      "k": [
+        "ninsun",
+        "axe",
+        "falling meteor"
+      ],
+      "n": 3,
+      "rabbit": "Ninsun"
+    },
+    {
+      "id": "waters-of-death",
+      "tier": "power",
+      "t": "Smashed the ferryman Urshanabi’s Stone Things, then crossed the Waters of Death using his own clothes as a sail",
+      "k": [
+        "urshanabi",
+        "stone things",
+        "waters of death"
+      ],
+      "n": 3
+    },
+    {
+      "id": "siduri",
+      "tier": "power",
+      "t": "Advised by Siduri, a tavern-keeper who lived by the sea, on how to find Urshanabi",
+      "k": [
+        "siduri",
+        "tavern keeper",
+        "advised"
+      ],
+      "n": 1
+    },
+    {
+      "id": "maggot",
+      "tier": "power",
+      "t": "Grieved over Enkidu’s corpse until a maggot fell from its nose, which pushed him to fear death",
+      "k": [
+        "maggot",
+        "corpse",
+        "grieved"
+      ],
+      "n": 2
+    },
+    {
+      "id": "huluppu",
+      "tier": "power",
+      "t": "Chased demons from a huluppu tree for Ishtar and was rewarded with a magical drum and drumsticks (the pukku and mikku) that fell into the underworld",
+      "k": [
+        "huluppu tree",
+        "pukku",
+        "mikku"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ghost-afterlife",
+      "tier": "power",
+      "t": "Learned from a ghost that men with seven sons live like gods in the underworld",
+      "k": [
+        "ghost",
+        "seven sons",
+        "underworld"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cedar-gate",
+      "tier": "power",
+      "t": "With Enkidu, cut down the Cedar Forest’s tallest tree to make a huge gate",
+      "k": [
+        "tallest tree",
+        "huge gate",
+        "cedar forest"
+      ],
+      "n": 2
+    },
+    {
+      "id": "shamash-wind",
+      "tier": "power",
+      "t": "The sun god Shamash sent powerful winds to help him defeat Humbaba",
+      "k": [
+        "shamash",
+        "powerful winds",
+        "sun god"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sumerian-king-list",
+      "tier": "power",
+      "t": "May have been a real king listed in the Sumerian King List, ruling Uruk around 2700 BCE",
+      "k": [
+        "sumerian king list",
+        "real king",
+        "2700"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cuneiform-tablets",
+      "tier": "power",
+      "t": "His story was written on twelve clay tablets in cuneiform, one of the oldest works of literature in the world",
+      "k": [
+        "cuneiform",
+        "clay tablets",
+        "twelve tablets"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The hero or the poem?",
+    "body": "Gilgamesh the character and _The Epic of Gilgamesh_ the poem are two different real answer lines. Clues about “this man,” “this king,” or “this hero” want Gilgamesh. Clues about “this text,” “this poem,” or an opening line like “Surpassing all other kings” want the epic itself, even though the two share almost every clue.",
+    "fix": "Listen for the noun right before the clue, the same trick that separates a person from their namesake book or war. If it says “this text” or describes the poem being written or titled, say the epic. If it says “this man” or “this king,” say Gilgamesh.",
+    "line": "Real answer line: <b><u>Gilgamesh</u></b> (a separate real tossup instead wants <b><u>The Epic of Gilgamesh</u></b>, which does not accept “Gilgamesh” alone)"
+  },
+  "tests": {
+    "right": [
+      "Gilgamesh",
+      "Gilgamish",
+      "Bilgamesh",
+      "King Gilgamesh"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Enkidu",
+      "Utnapishtim",
+      "Humbaba",
+      "The Epic of Gilgamesh",
+      "Ishtar"
+    ]
+  },
+  "freq": {
+    "rank": 19,
+    "count": 5,
+    "list": "Mythology"
+  }
+}

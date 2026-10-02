@@ -1,0 +1,374 @@
+{
+  "id": "perseus",
+  "name": "Perseus",
+  "mono": "PER",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Zeus’s demigod son · Beheaded Medusa by watching only her reflection",
+  "dates": "Legendary; Greek mythology’s heroic age",
+  "briefing": "Zeus visited the princess Danaë as a shower of gold, fathering a son whose own grandfather tried to drown him and his mother at sea in a locked wooden chest. That boy grew up to behead the Gorgon Medusa by watching her reflection in a polished shield instead of her deadly gaze directly, and the winged horse Pegasus sprang from her severed neck. He then rescued the princess Andromeda from a sea monster and married her.",
+  "answerHtml": "<b><u>Perseus</u></b> (do not accept “Percy Jackson”)",
+  "accept": [
+    "perseus"
+  ],
+  "prompt": [],
+  "reject": [
+    "percy jackson",
+    "percy",
+    "perseus jackson",
+    "theseus",
+    "heracles",
+    "bellerophon"
+  ],
+  "tests": {
+    "right": [
+      "Perseus",
+      "Perseous",
+      "perseus"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Percy Jackson",
+      "Percy",
+      "Theseus",
+      "Heracles",
+      "Bellerophon",
+      "Pegasus"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Miscellaneous Myths: Perseus",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=bzFCbUC4c7s",
+      "note": "Funny, fast-paced retelling of his quest to behead Medusa and rescue Andromeda"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Perseus Against Medusa: The Demigod’s Impossible Mission",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=GAk4EaagnbU",
+      "note": "Animated retelling of Perseus’s quest to defeat the Gorgon Medusa"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Perseus facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Perseus",
+      "note": "Kid-friendly encyclopedia article: Medusa, Andromeda, and the prophecy about his grandfather"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Perseus",
+  "qb": {
+    "q": "Perseus",
+    "found": 3,
+    "tip": "One of the three Middle School/Easy High School hits for “Perseus” is actually about “Percy Jackson,” a modern book and movie character who shares this hero’s name and several story beats but is a completely different answer line — see the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 10,
+    "note": "10 real QBReader tossups for this answer line (2 Middle School/Easy High School + 8 Regular High School, power-marked); a third Middle School/Easy High School hit for “Perseus” was actually “Percy Jackson,” a different answer line, not counted here"
+  },
+  "tossups": [
+    {
+      "p": "An oracle warned King Acrisius that his daughter’s son would one day kill him, so Acrisius locked her in a bronze chamber to keep her childless. Zeus still reached her as a shower of gold, and the resulting baby was sealed into a wooden chest and cast out to sea with his mother.",
+      "r": "The fisherman Dictys rescued them both on the island of Seriphos. For 10 points, name this Greek hero who grew up to behead the Gorgon Medusa."
+    },
+    {
+      "p": "This hero gained a magic sword from Hermes and a mirrored shield from Athena before stealing the single shared eye of the three Graeae sisters to learn where to find his monstrous target. King Polydectes had sent him on this quest hoping to marry his mother while he was away.",
+      "r": "He beheaded the Gorgon while using his shield to see only her reflection. For 10 points, name this son of Danaë who slew Medusa and later married Andromeda."
+    },
+    {
+      "p": "As this man flew home carrying a severed head in a magic sack, drops of blood falling over Libya supposedly became that region’s venomous snakes. Years later, out of guilt for an accidental killing, this man traded kingdoms with his cousin Megapenthes rather than rule Argos.",
+      "r": "He had received winged sandals from Hermes and a helm of invisibility from Hades for his quest. For 10 points, name this hero who used Medusa’s head to turn Atlas into a mountain range."
+    },
+    {
+      "p": "During funeral games held by King Teutamides, this man’s discus flew off course and accidentally killed his own grandfather, fulfilling an old prophecy. He is said to have used the Cyclopes to help build the walls of the city he founded, Mycenae.",
+      "r": "That grandfather, Acrisius, had locked this man’s mother away after hearing the same prophecy. For 10 points, name this son of Zeus and Danaë who beheaded Medusa."
+    },
+    {
+      "p": "This hero’s great-grandson was the strongman Heracles, born generations later to Alcmene. Before that, this man turned a rival named Phineus to stone with a monster’s severed head after Phineus tried to stop his wedding.",
+      "r": "That severed head belonged to the Gorgon Medusa, the only mortal of three monstrous sisters. For 10 points, name this hero who rescued and married the princess Andromeda."
+    },
+    {
+      "p": "This man once held the single eye of the three Graeae sisters for ransom until they told him where to find the nymphs guarding a magic sack and a pair of winged sandals. He later gave the head he collected on that quest to the goddess Athena, who placed it on her own shield.",
+      "r": "As an infant, this man and his mother had been cast to sea in a locked wooden chest. For 10 points, name this hero, the son of Zeus and Danaë, who beheaded the Gorgon Medusa."
+    },
+    {
+      "p": "This man’s mother was imprisoned by her own father after an oracle warned that her son would grow up to kill him — a prophecy this man fulfilled years later with a stray discus at a set of funeral games. The fisherman Dictys first found this man floating at sea as an infant.",
+      "r": "He later turned the Titan Atlas to stone after Atlas refused to show him hospitality. For 10 points, name this hero who slew Medusa and rescued Andromeda from the sea monster Cetus."
+    },
+    {
+      "p": "King Polydectes of Seriphos sent this man on a dangerous quest mainly to get rid of him so he could marry this man’s mother, Danaë. From the neck of the creature this man beheaded on that quest sprang both the winged horse Pegasus and a warrior named Chrysaor.",
+      "r": "This man used that same severed head to turn King Polydectes to stone upon returning home. For 10 points, name this hero who killed the Gorgon Medusa."
+    },
+    {
+      "p": "This man received a helm of invisibility from Hades and winged sandals from Hermes before setting out on his most famous quest. Medusa was the only mortal among the Gorgon sisters; the other two, Stheno and Euryale, chased this man but could not see him.",
+      "r": "He used a polished shield from Athena to view the sleeping Gorgon’s reflection instead of her petrifying gaze. For 10 points, name this Greek hero who beheaded Medusa and married Andromeda."
+    },
+    {
+      "p": "An oracle’s warning led King Acrisius to lock his own daughter away and later cast her newborn son out to sea in a chest. That son grew up to earn an adamantine sword from Hermes, which he used to behead a sleeping monster while watching only her mirrored reflection.",
+      "r": "That monster’s blood produced the winged horse Pegasus. For 10 points, name this hero, son of Zeus and Danaë, who later rescued the princess Andromeda from the sea monster Cetus."
+    },
+    {
+      "p": "This man’s quick thinking let him steal the one eye shared by the three Graeae sisters, forcing them to reveal the way to the Gorgons’ lair. On his flight home afterward, drops of monster blood falling over Libya were said to have become that region’s snakes.",
+      "r": "He gave the severed head from that quest to Athena, who mounted it on her shield. For 10 points, name this son of Danaë who slew the Gorgon Medusa."
+    },
+    {
+      "p": "As an infant, this man was sealed into a wooden chest with his mother and set adrift at sea by his grandfather, Acrisius, who feared an old prophecy. The fisherman Dictys found and raised this castaway on the island of Seriphos.",
+      "r": "Years later, Dictys’s brother, King Polydectes, sent this man to fetch a Gorgon’s head so he could marry this man’s mother. For 10 points, name this hero who beheaded Medusa and married Andromeda."
+    },
+    {
+      "p": "After beheading his target, this man turned a rival named Phineus and his men to stone when they tried to break up his wedding. He later traded kingdoms with his cousin Megapenthes rather than rule Argos, the city of the grandfather he accidentally killed.",
+      "r": "That grandfather, Acrisius, died when this man’s discus flew off course during funeral games. For 10 points, name this Greek hero, son of Zeus, who slew the Gorgon Medusa."
+    },
+    {
+      "p": "This man’s most famous weapon came from Hermes, while Athena gave him a bronze shield polished to a mirror shine. Early in his quest, he had to trick the three Graeae sisters, who shared a single eye and tooth among them, into revealing a set of directions.",
+      "r": "He used that mirrored shield to safely view a sleeping monster’s reflection before beheading her. For 10 points, name this hero whose victim, Medusa, was the only mortal Gorgon."
+    },
+    {
+      "p": "This hero founded the city of Mycenae, reportedly using the Cyclopes to raise its massive stone walls, rather than take the throne of Argos after accidentally killing its old king. His mother, Danaë, had been visited by Zeus in the form of a golden shower while locked away by her own father.",
+      "r": "That father, Acrisius, died by this man’s discus, fulfilling a prophecy neither of them could escape. For 10 points, name this hero who beheaded Medusa and rescued Andromeda from Cetus."
+    }
+  ],
+  "clues": [
+    {
+      "id": "slew-medusa",
+      "tier": "giveaway",
+      "t": "Slew the Gorgon Medusa, the only mortal of three monstrous sisters",
+      "k": [
+        "medusa",
+        "gorgon",
+        "slew"
+      ],
+      "n": 10,
+      "rabbit": "Medusa"
+    },
+    {
+      "id": "andromeda-wife",
+      "tier": "giveaway",
+      "t": "Rescued and married the princess Andromeda after killing the sea monster Cetus",
+      "k": [
+        "andromeda",
+        "cetus",
+        "married"
+      ],
+      "n": 9,
+      "rabbit": "Andromeda"
+    },
+    {
+      "id": "son-of-zeus-danae",
+      "tier": "giveaway",
+      "t": "Son of Zeus and the princess Danaë, conceived when Zeus visited her as a shower of gold",
+      "k": [
+        "zeus",
+        "danae",
+        "shower of gold"
+      ],
+      "n": 5
+    },
+    {
+      "id": "mycenae-founder",
+      "tier": "giveaway",
+      "t": "Founded the city of Mycenae after accidentally killing his grandfather Acrisius with a discus",
+      "k": [
+        "mycenae",
+        "acrisius",
+        "discus"
+      ],
+      "n": 5
+    },
+    {
+      "id": "dictys-rescue",
+      "tier": "middle",
+      "t": "As an infant, he and his mother were sealed in a wooden chest and rescued by the fisherman Dictys on Seriphos",
+      "k": [
+        "dictys",
+        "seriphos",
+        "wooden chest"
+      ],
+      "n": 7
+    },
+    {
+      "id": "polydectes-quest",
+      "tier": "middle",
+      "t": "King Polydectes sent him to behead Medusa, hoping to marry his mother while he was away",
+      "k": [
+        "polydectes",
+        "quest",
+        "marry mother"
+      ],
+      "n": 2
+    },
+    {
+      "id": "gifts-from-gods",
+      "tier": "middle",
+      "t": "Received winged sandals from Hermes, a helm of invisibility from Hades, and a mirrored shield from Athena",
+      "k": [
+        "winged sandals",
+        "helm of invisibility",
+        "mirrored shield"
+      ],
+      "n": 5
+    },
+    {
+      "id": "graeae-eye",
+      "tier": "middle",
+      "t": "Stole the single shared eye of the three Graeae sisters to learn the Gorgons’ location",
+      "k": [
+        "graeae",
+        "shared eye",
+        "sisters"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pegasus-chrysaor-birth",
+      "tier": "middle",
+      "t": "When he beheaded Medusa, the winged horse Pegasus and the warrior Chrysaor sprang from her neck",
+      "k": [
+        "pegasus",
+        "chrysaor",
+        "sprang"
+      ],
+      "n": 2,
+      "rabbit": "Pegasus"
+    },
+    {
+      "id": "atlas-mountain",
+      "tier": "middle",
+      "t": "Turned the Titan Atlas to stone after Atlas refused him hospitality, creating the Atlas Mountains",
+      "k": [
+        "atlas",
+        "mountains",
+        "hospitality"
+      ],
+      "n": 2
+    },
+    {
+      "id": "phineus-stone",
+      "tier": "middle",
+      "t": "Turned a rival named Phineus to stone with Medusa’s head after Phineus tried to stop his wedding",
+      "k": [
+        "phineus",
+        "turned to stone",
+        "wedding"
+      ],
+      "n": 1
+    },
+    {
+      "id": "heracles-ancestor",
+      "tier": "power",
+      "t": "His great-grandson, through his son Electryon’s daughter Alcmene, was the hero Heracles",
+      "k": [
+        "heracles",
+        "great grandson",
+        "alcmene"
+      ],
+      "n": 1
+    },
+    {
+      "id": "megapenthes-exchange",
+      "tier": "power",
+      "t": "Out of guilt for killing Acrisius, traded kingdoms with his cousin Megapenthes rather than rule Argos",
+      "k": [
+        "megapenthes",
+        "exchange",
+        "argos"
+      ],
+      "n": 1
+    },
+    {
+      "id": "teutamides-games",
+      "tier": "power",
+      "t": "Accidentally killed Acrisius with a stray discus during funeral games held by King Teutamides",
+      "k": [
+        "teutamides",
+        "funeral games",
+        "discus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "libya-snakes",
+      "tier": "power",
+      "t": "On his flight home, drops of Medusa’s blood falling over Libya became that region’s venomous snakes",
+      "k": [
+        "libya",
+        "snakes",
+        "blood"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hesperides-cyclopes",
+      "tier": "power",
+      "t": "Used the Cyclopes to help build the massive stone walls of the city he founded, Mycenae",
+      "k": [
+        "cyclopes",
+        "walls",
+        "mycenae"
+      ],
+      "n": 2
+    },
+    {
+      "id": "athena-aegis",
+      "tier": "power",
+      "t": "Gave Medusa’s severed head to Athena, who mounted it on her shield, the aegis",
+      "k": [
+        "athena",
+        "aegis",
+        "severed head"
+      ],
+      "n": 0
+    },
+    {
+      "id": "only-mortal-gorgon",
+      "tier": "power",
+      "t": "Medusa was the only mortal of the three Gorgon sisters; her immortal sisters were Stheno and Euryale",
+      "k": [
+        "stheno",
+        "euryale",
+        "mortal gorgon"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hermes-sword",
+      "tier": "power",
+      "t": "Hermes gave him an adamantine sword, sometimes called the harpe, for beheading Medusa",
+      "k": [
+        "harpe",
+        "adamantine sword",
+        "hermes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prophecy-oracle",
+      "tier": "power",
+      "t": "An oracle had warned King Acrisius that his daughter’s son would kill him, so he locked her away",
+      "k": [
+        "oracle",
+        "prophecy",
+        "acrisius"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Perseus, or Percy Jackson?",
+    "body": "Rick Riordan’s modern book and movie hero Percy Jackson is short for “Perseus Jackson,” and a real quiz bowl answer line exists for him too. Percy fights monsters, carries a magic weapon, and goes on quests just like the original Perseus — but Percy is the son of Poseidon, not Zeus, attends Camp Half-Blood, and wields a sword named Anaklusmos, or Riptide.",
+    "fix": "Zeus, Danaë, Medusa, Andromeda, and Mycenae point to the ancient Greek hero. Poseidon, Camp Half-Blood, Grover, and Riptide point to Percy Jackson, a completely different answer.",
+    "line": "Real answer line: <b><u>Perseus</u></b>. A separate real answer line, Percy <u>Jackson</u> [accept either underlined portion; accept Perseus Jackson], is a different character."
+  },
+  "freq": {
+    "rank": 19,
+    "count": 5,
+    "list": "Mythology"
+  }
+}

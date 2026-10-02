@@ -1,0 +1,471 @@
+{
+  "id": "moses",
+  "name": "Moses",
+  "mono": "MO",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Prophet of the Exodus · Brought down the Ten Commandments",
+  "dates": "Traditionally c. 1300s–1200s BCE",
+  "briefing": "In the Bible’s story, baby Moses floated in a basket on the Nile until an Egyptian princess pulled him out of the water. In the Book of Exodus, he grows up to confront Pharaoh, leads the Israelites out of slavery through the parted Red Sea, and carries the Ten Commandments down from Mount Sinai. Jews, Christians, and Muslims all honor him as a great prophet; in Arabic his name is Musa.",
+  "answerHtml": "<b><u>Moses</u></b> (accept <u>Moshe</u>; accept <u>Musa</u>)",
+  "accept": [
+    "moses",
+    "moshe",
+    "musa",
+    "prophet moses",
+    "horned moses"
+  ],
+  "prompt": [],
+  "reject": [
+    "aaron",
+    "miriam",
+    "joshua",
+    "abraham",
+    "elijah",
+    "jethro",
+    "zipporah",
+    "pharaoh",
+    "robert moses",
+    "grandma moses",
+    "maimonides",
+    "moses ben maimon",
+    "moses mendelssohn"
+  ],
+  "tests": {
+    "right": [
+      "Moses",
+      "Moshe",
+      "Musa",
+      "Prophet Moses",
+      "Mosses",
+      "Moisés"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Aaron",
+      "Joshua",
+      "Abraham",
+      "Elijah",
+      "Miriam",
+      "Robert Moses",
+      "Moses Maimonides"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Jewish Story of Moses | Religions of the World",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=RdSQT7DS1lI",
+      "note": "Short · the story of Moses in Judaism, made for schools"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Truth Behind Parting The Red Sea | Ancient Mysteries",
+      "source": "National Geographic UK",
+      "url": "https://www.youtube.com/watch?v=Hp0p5CTcEdY",
+      "note": "Short clip · how historians and scientists study the Red Sea crossing story"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Michelangelo, Moses, and the Tomb of Pope Julius II",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=5LBI-otSbJM",
+      "note": "Art history · Michelangelo’s horned marble statue (a Fine Arts crossover)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Buried Secrets of the Bible with Albert Lin (Full Episode) | The Parting of the Red Sea: The Truth",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=3R6UPzGBuMg",
+      "note": "Full episode · explorer Albert Lin investigates the Red Sea crossing story"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Moses",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Moses/353493",
+      "note": "Quick read · his whole story, from the basket to Mount Sinai"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Moses",
+  "qb": {
+    "q": "Moses",
+    "found": 7,
+    "tip": "All 7 results are the prophet, but one is really a Fine Arts question about Michelangelo’s horned statue, and most answer lines also accept the Hebrew “Moshe” and the Arabic “Musa.”"
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "When the Israelites found only bitter water at Marah [“MAR-uh”], this man threw a piece of wood into it, and the water turned sweet. At Rephidim [“REF-ih-dim”], he struck a rock with his staff so that water poured out for his thirsty followers.",
+      "r": "While he was away on a mountain, his brother Aaron made a golden calf. For 10 points, name this prophet who led the Israelites out of Egypt."
+    },
+    {
+      "p": "Statues of Rachel and Leah stand on either side of Michelangelo’s marble sculpture of this man on the tomb of Pope Julius II in Rome. That seated statue has two small horns, because an old Latin translation of the Bible said this man’s face was “horned” instead of “shining.”",
+      "r": "For 10 points, name this biblical figure who carried two tablets with the Ten Commandments down from Mount Sinai."
+    },
+    {
+      "p": "When poisonous snakes bit the Israelites in the wilderness, this man set a bronze serpent on a pole, and anyone who looked at it was healed. His father-in-law, Jethro, visited his camp and advised him to appoint judges to help settle the people’s disputes.",
+      "r": "His wife, Zipporah, was Jethro’s daughter. For 10 points, name this leader whose people crossed the Red Sea on dry land."
+    },
+    {
+      "p": "In the Quran’s chapter called “The Cave,” this prophet travels with a wise servant of God, whom tradition names Khidr [“KID-er”], who warns him that he will not have the patience to follow him. The Quran names this prophet more often than any other person.",
+      "r": "In the Bible, he receives the Ten Commandments on Mount Sinai. For 10 points, name this prophet who led the Israelites out of Egypt."
+    },
+    {
+      "p": "After speaking with God, this man’s face shone so brightly that he covered it with a veil when he talked to the people. Earlier, during his forty days on a mountain, his brother made an idol for the impatient people waiting below.",
+      "r": "When he saw the people dancing around that golden calf, he smashed the stone tablets. For 10 points, name this prophet who received the Ten Commandments on Mount Sinai."
+    },
+    {
+      "p": "After shepherds drove seven sisters away from a well in Midian [“MID-ee-un”], this man helped them water their flock, and he later married one of them, Zipporah. He had fled to Midian after killing an Egyptian whom he saw beating a Hebrew slave.",
+      "r": "Years later, God spoke to him from a burning bush. For 10 points, name this prophet who returned to Egypt to free the Israelites."
+    },
+    {
+      "p": "When this man asked what name he should use for God, he was told, “I am who I am.” This man protested that he was “slow of speech,” so God chose his older brother to speak for him.",
+      "r": "That brother was Aaron, and the conversation took place at a burning bush. For 10 points, name this prophet whom God sent to tell Pharaoh, “Let my people go.”"
+    },
+    {
+      "p": "The Bible explains this man’s name with the words “I drew him out of the water.” His mother, Jochebed [“JOCK-uh-bed”], hid him in a basket coated with tar among the reeds, and his sister watched over him from a distance. In the Quran, Pharaoh’s wife asks to keep the baby.",
+      "r": "In the Bible, Pharaoh’s daughter found the basket while bathing in the Nile. For 10 points, name this baby who grew up to lead the Exodus."
+    },
+    {
+      "p": "God told this man to speak to a rock to bring out water, but he struck it twice with his staff instead, so God said he would not lead the people into their new land. Later, from Mount Nebo [“NEE-boh”], he saw that Promised Land before dying at age 120.",
+      "r": "His assistant Joshua then led the Israelites into Canaan. For 10 points, name this prophet of the Exodus."
+    },
+    {
+      "p": "Pharaoh’s magicians copied some wonders that this man and his brother performed, such as turning a staff into a snake, but they could not copy the plague of gnats. Plagues of hail, locusts, and darkness followed whenever Pharaoh refused this man’s demand.",
+      "r": "The Jewish holiday of Passover remembers the escape from Egypt that he led. For 10 points, name this prophet who told Pharaoh, “Let my people go.”"
+    },
+    {
+      "p": "A pillar of cloud by day and a pillar of fire by night guided this man’s people out of Egypt. After his people reached safety on the far shore, his sister Miriam picked up a tambourine and led the women in a song of victory.",
+      "r": "Pharaoh’s chariots had been swept away by the returning waters. For 10 points, name this leader who parted the Red Sea."
+    },
+    {
+      "p": "Every morning except on the Sabbath, this leader’s followers gathered a flaky food called manna, which they ate for forty years in the wilderness. Twelve spies he sent into Canaan returned with a giant cluster of grapes.",
+      "r": "Only Joshua and Caleb urged the people to enter that land. For 10 points, name this man who received the Ten Commandments on Mount Sinai."
+    },
+    {
+      "p": "In the Gospels, this man and Elijah appear beside Jesus on a mountain during the Transfiguration. The Gospel of John says that the law was given through this man, but grace and truth came through Jesus Christ.",
+      "r": "Jews traditionally credit him with writing the Torah. For 10 points, name this prophet who received the Ten Commandments on Mount Sinai."
+    },
+    {
+      "p": "During a battle against the Amalekites [“AM-uh-leck-ites”] at Rephidim, the Israelites were winning only while this man held his hands up, so Aaron and Hur held up his tired arms until sunset. Joshua led the fighting in that battle.",
+      "r": "Before that, ten plagues had struck Egypt when Pharaoh refused to free the Israelites. For 10 points, name this prophet who parted the Red Sea."
+    },
+    {
+      "p": "Charlton Heston played this man in a 1956 Cecil B. DeMille epic, and Val Kilmer voiced him in the 1998 animated film _The Prince of Egypt_. Rembrandt painted this man raising two stone tablets high above his head.",
+      "r": "In the Book of Exodus, he leads the Israelites out of slavery. For 10 points, name this prophet who parted the Red Sea."
+    }
+  ],
+  "clues": [
+    {
+      "id": "red-sea",
+      "tier": "giveaway",
+      "t": "Parted the Red Sea so the Israelites could cross on dry land",
+      "k": [
+        "red sea",
+        "parted"
+      ],
+      "n": 5
+    },
+    {
+      "id": "exodus",
+      "tier": "giveaway",
+      "t": "Led the Israelites out of slavery in Egypt, the story told in the Book of Exodus",
+      "k": [
+        "book of exodus",
+        "exodus",
+        "egypt",
+        "slavery"
+      ],
+      "n": 4,
+      "rabbit": "Passover"
+    },
+    {
+      "id": "ten-commandments",
+      "tier": "giveaway",
+      "t": "Received the Ten Commandments from God on Mount Sinai",
+      "k": [
+        "ten commandments",
+        "sinai",
+        "commandments"
+      ],
+      "n": 5
+    },
+    {
+      "id": "prophet",
+      "tier": "giveaway",
+      "t": "Honored as a great prophet and lawgiver in Judaism, Christianity, and Islam",
+      "k": [
+        "prophet",
+        "lawgiver",
+        "judaism"
+      ],
+      "n": 3
+    },
+    {
+      "id": "let-my-people-go",
+      "tier": "giveaway",
+      "t": "Told Pharaoh, “Let my people go”; ten plagues struck Egypt when Pharaoh refused",
+      "k": [
+        "let my people go",
+        "plagues",
+        "pharaoh"
+      ],
+      "n": 1
+    },
+    {
+      "id": "golden-calf",
+      "tier": "middle",
+      "t": "Smashed the stone tablets when he saw the people worshipping a golden calf",
+      "k": [
+        "golden calf",
+        "calf",
+        "smashed",
+        "tablets"
+      ],
+      "n": 4
+    },
+    {
+      "id": "aaron",
+      "tier": "middle",
+      "t": "Said he was “slow of speech,” so his older brother Aaron spoke for him and later became the first high priest",
+      "k": [
+        "aaron",
+        "spokesman"
+      ],
+      "n": 3
+    },
+    {
+      "id": "basket",
+      "tier": "middle",
+      "t": "As a baby, he was hidden in a basket by the Nile and adopted by Pharaoh’s daughter (Pharaoh’s wife, in the Quran)",
+      "k": [
+        "basket",
+        "nile",
+        "pharaohs daughter"
+      ],
+      "n": 3
+    },
+    {
+      "id": "burning-bush",
+      "tier": "middle",
+      "t": "God spoke to him from a burning bush on Mount Horeb and gave his name as “I am who I am”",
+      "k": [
+        "burning bush",
+        "horeb",
+        "who i am"
+      ],
+      "n": 2
+    },
+    {
+      "id": "zipporah",
+      "tier": "middle",
+      "t": "Married Zipporah, daughter of Jethro, a priest of Midian; Jethro advised him to appoint judges",
+      "k": [
+        "zipporah",
+        "jethro",
+        "judges"
+      ],
+      "n": 3
+    },
+    {
+      "id": "miriam",
+      "tier": "middle",
+      "t": "His sister Miriam led the women in a victory song after the Red Sea crossing",
+      "k": [
+        "miriam",
+        "sister",
+        "song"
+      ],
+      "n": 2
+    },
+    {
+      "id": "promised-land",
+      "tier": "middle",
+      "t": "Saw the Promised Land from Mount Nebo but died at age 120 without entering it; Joshua led the people into Canaan",
+      "k": [
+        "promised land",
+        "nebo",
+        "120",
+        "joshua"
+      ],
+      "n": 0,
+      "rabbit": "Joshua"
+    },
+    {
+      "id": "torah",
+      "tier": "middle",
+      "t": "Jews traditionally credit him with writing the Torah, the first five books of the Bible",
+      "k": [
+        "torah",
+        "pentateuch"
+      ],
+      "n": 1
+    },
+    {
+      "id": "michelangelo",
+      "tier": "power",
+      "t": "Michelangelo’s seated marble statue of him, with horns, is on Pope Julius II’s tomb in Rome, between Rachel and Leah",
+      "k": [
+        "michelangelo",
+        "julius ii",
+        "rachel",
+        "horns"
+      ],
+      "n": 1,
+      "rabbit": "Michelangelo"
+    },
+    {
+      "id": "shining-veil",
+      "tier": "power",
+      "t": "After talking with God, his face shone so brightly that he wore a veil; old Latin Bibles called his face “horned”",
+      "k": [
+        "veil",
+        "radiant",
+        "glowing face"
+      ],
+      "n": 2
+    },
+    {
+      "id": "bronze-serpent",
+      "tier": "power",
+      "t": "Set a bronze serpent on a pole; Israelites bitten by snakes were healed by looking at it",
+      "k": [
+        "bronze serpent",
+        "serpent",
+        "pole"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rock-water",
+      "tier": "power",
+      "t": "Struck a rock with his staff to get water; in Numbers, striking it instead of speaking to it kept him out of the new land",
+      "k": [
+        "rock",
+        "rephidim",
+        "meribah"
+      ],
+      "n": 2
+    },
+    {
+      "id": "marah",
+      "tier": "power",
+      "t": "Threw a piece of wood into the bitter water at Marah, making it sweet",
+      "k": [
+        "marah",
+        "wood"
+      ],
+      "n": 1
+    },
+    {
+      "id": "khidr",
+      "tier": "power",
+      "t": "Named in the Quran more than any other person; in the chapter “The Cave,” he travels with a wise servant of God called Khidr",
+      "k": [
+        "khidr",
+        "al kahf",
+        "quran"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jochebed",
+      "tier": "power",
+      "t": "His mother Jochebed hid him; his name is explained as “I drew him out of the water”",
+      "k": [
+        "jochebed",
+        "drawn out",
+        "mother"
+      ],
+      "n": 1
+    },
+    {
+      "id": "midian",
+      "tier": "power",
+      "t": "Fled to Midian after killing an Egyptian who was beating a Hebrew slave; there he helped seven sisters at a well",
+      "k": [
+        "midian",
+        "fled",
+        "well"
+      ],
+      "n": 2
+    },
+    {
+      "id": "magicians",
+      "tier": "power",
+      "t": "Pharaoh’s magicians copied the staff-into-snake wonder but could not copy the plague of gnats",
+      "k": [
+        "magicians",
+        "gnats",
+        "snake"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amalekites",
+      "tier": "power",
+      "t": "Israel beat the Amalekites at Rephidim while Aaron and Hur held up his tired arms",
+      "k": [
+        "amalekites",
+        "hur",
+        "arms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "manna",
+      "tier": "power",
+      "t": "Guided by a pillar of cloud and fire, his people ate manna for 40 years; twelve spies brought back giant grapes from Canaan",
+      "k": [
+        "manna",
+        "spies",
+        "quail"
+      ],
+      "n": 0
+    },
+    {
+      "id": "transfiguration",
+      "tier": "power",
+      "t": "Appears with Elijah beside Jesus at the Transfiguration; John’s Gospel says the law came through him, “grace and truth” through Jesus",
+      "k": [
+        "transfiguration",
+        "elijah",
+        "grace and truth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "films",
+      "tier": "power",
+      "t": "Played by Charlton Heston (1956) and voiced by Val Kilmer in _The Prince of Egypt_ (1998); Rembrandt painted him lifting the tablets",
+      "k": [
+        "heston",
+        "prince of egypt",
+        "kilmer",
+        "rembrandt"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Moses or his brother?",
+    "body": "Many Moses clues are about his family, and early buzzers grab the wrong name. Aaron, his older brother, spoke for him before Pharaoh and made the golden calf; Miriam, his sister, led the song after the Red Sea crossing. If you hear “this man’s brother made a golden calf,” the answer is Moses, not Aaron. Joshua (who led the people into Canaan) and Elijah (who also met God on Mount Horeb) are traps too.",
+    "fix": "Listen for “this man’s brother” or “this man’s sister.” Smashing the tablets is Moses; making the calf is Aaron; the walls of Jericho are Joshua. In questions about Islam he is called Musa, which is accepted.",
+    "line": "Real answer line: <b><u>Moses</u></b> (accept <u>Moshe</u>; accept <u>Musa</u>)"
+  },
+  "freq": {
+    "rank": 3,
+    "count": 9,
+    "list": "Religion"
+  }
+}

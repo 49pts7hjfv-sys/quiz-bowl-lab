@@ -1,0 +1,430 @@
+{
+  "id": "les-miserables",
+  "name": "Les Misérables",
+  "mono": "LM",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Victor Hugo’s novel · Ex-convict Jean Valjean’s quest for redemption",
+  "dates": "Published 1862",
+  "briefing": "_Les Misérables_ follows Jean Valjean, a Frenchman jailed nineteen years for stealing a loaf of bread, whose life is transformed when a bishop repays his crime with mercy instead of punishment. Hunted for decades afterward by the relentless police inspector Javert, Valjean rescues a dying woman’s daughter, Cosette, and raises her as his own. Victor Hugo’s sprawling 1862 novel builds to the barricades of Paris, where a band of student revolutionaries make a doomed last stand.",
+  "answerHtml": "<b><u>Les Misérables</u></b>",
+  "accept": [
+    "les miserables",
+    "the miserable ones",
+    "miserable ones",
+    "the wretched ones",
+    "wretched ones"
+  ],
+  "prompt": [
+    "jean valjean",
+    "valjean"
+  ],
+  "reject": [
+    "hunchback of notre dame",
+    "notre dame de paris",
+    "count of monte cristo",
+    "javert",
+    "inspector javert",
+    "les mis",
+    "les miz"
+  ],
+  "tests": {
+    "right": [
+      "Les Misérables",
+      "les miserables",
+      "Les Miserable",
+      "The Miserable Ones",
+      "The Wretched Ones"
+    ],
+    "prompt": [
+      "Jean Valjean",
+      "Valjean"
+    ],
+    "wrong": [
+      "The Hunchback of Notre-Dame",
+      "Notre Dame de Paris",
+      "The Count of Monte Cristo",
+      "Javert",
+      "Fantine",
+      "Les Mis"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Exploring Victor Hugo’s Les Misérables | Graham School",
+      "source": "The University of Chicago Graham School",
+      "url": "https://www.youtube.com/watch?v=X6_VddRFjJE",
+      "note": "University of Chicago session on Hugo’s novel, for adult learners (the novel has mature themes: poverty, prison, revolution)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Les Misérables",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/les-miserables",
+      "note": "Study guide: background and key facts, with plot summary and character pages"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Les_Misérables",
+  "qb": {
+    "q": "Les Miserables",
+    "found": 9,
+    "tip": "2 of the 9 results are about the stage musical (songs like “One Day More”), not the novel — set those aside and focus on the book’s plot."
+  },
+  "sample": {
+    "n": 7,
+    "note": "7 of the 9 real QBReader tossups for this answer line that are actually about the novel (Middle School + Easy High School, power-marked); 2 more were about the stage musical and were set aside"
+  },
+  "tossups": [
+    {
+      "p": "A gang of four criminals called Patron-Minette works with the Thénardiers [“tay-nar-DYAY”] in this novel, whose protagonist reveals his true identity in court to save a man named Champmathieu [“shahm-mah-TYUH”] from being wrongly convicted in his place. Early on, that protagonist, using the alias Monsieur Madeleine, lifts an overturned cart off of old Fauchelevent [“fohsh-luh-VAHN”], a feat of strength that makes the police inspector Javert [“zhah-VAIR”] suspicious.",
+      "r": "Years later, this novel’s protagonist carries the wounded Marius through the sewers of Paris to escape a fallen revolutionary barricade. For 10 points, name this Victor Hugo novel about the ex-convict Jean Valjean."
+    },
+    {
+      "p": "Old Fauchelevent repays a favor by smuggling this novel’s protagonist out of a convent inside a coffin. Earlier in this novel, that protagonist steals silverware from the kindly Bishop Myriel, who responds with mercy instead of pressing charges.",
+      "r": "Branded with a yellow passport after serving nineteen years for stealing a loaf of bread, this novel’s protagonist is pursued across decades by the inspector Javert. For 10 points, name this Victor Hugo novel about Jean Valjean."
+    },
+    {
+      "p": "A woman in this novel is fired from her factory job for having a daughter out of wedlock, and later sells her hair and teeth to send money for her daughter. That woman, Fantine, leaves her daughter Cosette with the cruel Thénardier family in the village of Montfermeil.",
+      "r": "This novel’s protagonist rescues Cosette from the Thénardiers and raises her in a Paris convent. For 10 points, name this novel in which Jean Valjean is pursued by Inspector Javert, written by Victor Hugo."
+    },
+    {
+      "p": "Members of a student group called the Friends of the ABC, led by Enjolras [“ahn-ZHOL-rah”], build a barricade in this novel during the June Rebellion of 1832. The street child Gavroche [“gah-VROSH”] is shot while gathering ammunition for that group, and Éponine [“ay-poh-NEEN”] Thénardier dies saving the life of Marius.",
+      "r": "This novel’s protagonist later carries the wounded Marius through the sewers of Paris. For 10 points, name this Victor Hugo novel about the ex-convict Jean Valjean."
+    },
+    {
+      "p": "This novel’s second volume opens with a long account of the Battle of Waterloo, where a man named Thénardier loots corpses from the battlefield and accidentally saves the life of Colonel Pontmercy. Years later, this novel’s protagonist pays that same man thirty francs to be let out through a sewer gate while carrying a wounded young man.",
+      "r": "That young man, Pontmercy’s son Marius, later marries Cosette, the girl raised by this novel’s protagonist. For 10 points, name this novel in which Jean Valjean is chased by Inspector Javert, a work by Victor Hugo."
+    },
+    {
+      "p": "This novel’s protagonist steals a coin from a boy named Petit Gervais shortly after being released from prison, then is overcome with remorse. After Bishop Myriel gives him silver candlesticks instead of reporting him, that protagonist takes the alias Monsieur Madeleine and becomes a factory owner and mayor.",
+      "r": "Inspector Javert grows suspicious of Madeleine after seeing him lift a heavy cart off of a trapped old man. For 10 points, name this Victor Hugo novel about the ex-convict Jean Valjean."
+    },
+    {
+      "p": "The street child Gavroche unmasks a spy at a revolutionary barricade in this novel, but this novel’s protagonist frees that spy instead of letting him be executed. That spy, Inspector Javert, later throws himself into the Seine River rather than live with having been shown mercy.",
+      "r": "Javert spends most of this novel pursuing the ex-convict Jean Valjean. For 10 points, name this Victor Hugo novel whose climax features student revolutionaries defeated on the barricades of Paris."
+    },
+    {
+      "p": "A court nearly convicts the wrong man, Champmathieu, of being an escaped convict in this novel, prompting its protagonist to confess his true identity to save a stranger. Later in this novel, Fauchelevent helps that protagonist hide from the police in a convent, at one point smuggling him out inside a coffin.",
+      "r": "This novel’s protagonist, Jean Valjean, had earlier received silver candlesticks from the merciful Bishop Myriel. For 10 points, name this Victor Hugo novel in which Valjean is pursued by Inspector Javert."
+    },
+    {
+      "p": "A young girl in this novel is sent alone into the woods at night to fetch water while living with the abusive Thénardier family in Montfermeil. This novel’s protagonist rescues that girl, Cosette, and raises her in a convent in Paris.",
+      "r": "Cosette grows up and falls in love with the student revolutionary Marius. For 10 points, name this Victor Hugo novel about the ex-convict Jean Valjean, who is pursued throughout the book by Inspector Javert."
+    },
+    {
+      "p": "A law student in this novel is raised by his royalist grandfather Gillenormand [“ZHEEL-noh-mahn”] after being estranged from his Napoleon-admiring father, Colonel Pontmercy. That student, Marius, falls in love with a girl named Cosette after seeing her in Paris’s Luxembourg Gardens.",
+      "r": "Marius later joins student revolutionaries on a barricade and is carried through the Paris sewers by this novel’s protagonist. For 10 points, name this Victor Hugo novel about Jean Valjean."
+    },
+    {
+      "p": "The innkeeper family Thénardier abuses a young girl in their care in this novel before her rescue by this novel’s protagonist. The Thénardiers’ daughter Éponine and son Gavroche both later die at a revolutionary barricade in Paris.",
+      "r": "This novel’s protagonist, Jean Valjean, had taken in the girl, Cosette, after the death of her mother, Fantine. For 10 points, name this novel in which Inspector Javert hunts Valjean, written by Victor Hugo."
+    },
+    {
+      "p": "Victor Hugo wrote much of this novel while exiled on the English Channel island of Guernsey for opposing Napoleon III. This novel’s second volume opens with a lengthy digression on the Battle of Waterloo, where a greedy looter named Thénardier accidentally saves an officer’s life.",
+      "r": "The novel follows the ex-convict Jean Valjean as he raises Cosette while being pursued by Inspector Javert. For 10 points, name this 1862 French novel."
+    },
+    {
+      "p": "Near the end of this novel, its protagonist’s gravestone is left with an epitaph so worn by rain that it can barely be read. That protagonist, Jean Valjean, dies peacefully with Cosette and her new husband Marius at his side.",
+      "r": "Valjean spends most of this novel evading the police inspector Javert after breaking parole. For 10 points, name this Victor Hugo novel about a reformed ex-convict."
+    },
+    {
+      "p": "This novel’s protagonist is given a yellow passport branding him as a dangerous ex-convict after serving nineteen years for stealing a loaf of bread to feed his sister’s starving children. A bishop named Myriel changes that man’s life by giving him two silver candlesticks instead of turning him in for stealing his silverware.",
+      "r": "Taking the alias Monsieur Madeleine, this novel’s protagonist becomes a mayor before confessing his true identity to save an innocent man. For 10 points, name this Victor Hugo novel about Jean Valjean."
+    },
+    {
+      "p": "Inspector Javert spends decades hunting this novel’s protagonist over a broken parole, even after that protagonist becomes a respected mayor under the name Monsieur Madeleine. Javert finally lets his quarry go after the ex-convict spares his life at a student-built barricade.",
+      "r": "Javert then drowns himself in the Seine rather than live with that mercy. For 10 points, name this Victor Hugo novel about Jean Valjean, who raises the orphaned Cosette."
+    }
+  ],
+  "clues": [
+    {
+      "id": "jean-valjean-javert",
+      "tier": "giveaway",
+      "t": "Ex-convict Jean Valjean is pursued for decades by the relentless police inspector Javert",
+      "k": [
+        "jean valjean",
+        "javert",
+        "ex-convict"
+      ],
+      "n": 5
+    },
+    {
+      "id": "victor-hugo-1862",
+      "tier": "giveaway",
+      "t": "Written by the French author Victor Hugo; published in 1862",
+      "k": [
+        "victor hugo",
+        "1862"
+      ],
+      "n": 7
+    },
+    {
+      "id": "marius-cosette-marriage",
+      "tier": "giveaway",
+      "t": "Marius Pontmercy marries Cosette, the girl Valjean raised, by the novel’s end",
+      "k": [
+        "marius",
+        "cosette",
+        "marriage"
+      ],
+      "n": 3
+    },
+    {
+      "id": "bread-theft-backstory",
+      "tier": "giveaway",
+      "t": "Valjean was branded an ex-convict after being jailed for stealing a loaf of bread",
+      "k": [
+        "loaf of bread",
+        "ex-convict"
+      ],
+      "n": 1
+    },
+    {
+      "id": "valjean-death-ending",
+      "tier": "giveaway",
+      "t": "The novel ends with Valjean’s death; Cosette and Marius are at his side",
+      "k": [
+        "death",
+        "ending",
+        "cosette"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bishop-myriel-candlesticks",
+      "tier": "middle",
+      "t": "Bishop Myriel’s mercy: after Valjean steals his silver, the bishop gives him two candlesticks instead of pressing charges",
+      "k": [
+        "bishop myriel",
+        "candlesticks",
+        "mercy"
+      ],
+      "n": 6,
+      "rabbit": "Bishop Myriel"
+    },
+    {
+      "id": "alias-madeleine-mayor",
+      "tier": "middle",
+      "t": "Valjean takes the alias Monsieur Madeleine and becomes a factory owner and mayor of a small town",
+      "k": [
+        "monsieur madeleine",
+        "mayor",
+        "factory owner"
+      ],
+      "n": 3
+    },
+    {
+      "id": "fantine-factory-prostitute",
+      "tier": "middle",
+      "t": "Fantine is fired from her factory job for having an illegitimate daughter, then sells her hair and teeth to send money for her child before dying",
+      "k": [
+        "fantine",
+        "hair and teeth",
+        "factory"
+      ],
+      "n": 2,
+      "rabbit": "Fantine"
+    },
+    {
+      "id": "thenardiers-montfermeil",
+      "tier": "middle",
+      "t": "The Thénardiers, a cruel innkeeper family in Montfermeil, abuse young Cosette until Valjean rescues her",
+      "k": [
+        "thenardiers",
+        "montfermeil",
+        "cosette"
+      ],
+      "n": 2
+    },
+    {
+      "id": "friends-of-abc-enjolras",
+      "tier": "middle",
+      "t": "The revolutionary students call themselves the Friends of the ABC, led by Enjolras",
+      "k": [
+        "friends of the abc",
+        "enjolras"
+      ],
+      "n": 3
+    },
+    {
+      "id": "june-rebellion-barricade",
+      "tier": "middle",
+      "t": "During the June Rebellion of 1832, revolutionaries build a barricade in the streets of Paris",
+      "k": [
+        "june rebellion",
+        "barricade",
+        "1832"
+      ],
+      "n": 2,
+      "rabbit": "June Rebellion of 1832"
+    },
+    {
+      "id": "gavroche-ammunition",
+      "tier": "middle",
+      "t": "The street child Gavroche is shot while gathering ammunition at the barricade",
+      "k": [
+        "gavroche",
+        "ammunition",
+        "street child"
+      ],
+      "n": 3
+    },
+    {
+      "id": "javert-drowns-seine",
+      "tier": "middle",
+      "t": "Javert eventually drowns himself in the Seine River after Valjean spares his life",
+      "k": [
+        "javert",
+        "seine",
+        "drowns"
+      ],
+      "n": 2
+    },
+    {
+      "id": "sewers-marius-rescue",
+      "tier": "middle",
+      "t": "Valjean carries the wounded Marius through the sewers of Paris to escape the fallen barricade",
+      "k": [
+        "sewers",
+        "wounded",
+        "marius"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fauchelevent-coffin",
+      "tier": "power",
+      "t": "Fauchelevent helps smuggle Valjean out of a convent by hiding him inside a coffin",
+      "k": [
+        "fauchelevent",
+        "convent",
+        "coffin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "champmathieu-trial",
+      "tier": "power",
+      "t": "Valjean reveals his true identity in court to save Champmathieu from being wrongly convicted in his place",
+      "k": [
+        "champmathieu",
+        "wrongly convicted"
+      ],
+      "n": 1
+    },
+    {
+      "id": "patron-minette",
+      "tier": "power",
+      "t": "Four criminals calling themselves Patron-Minette work with the Thénardiers in Paris",
+      "k": [
+        "patron-minette",
+        "thenardiers"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cart-lift-suspicion",
+      "tier": "power",
+      "t": "Valjean lifts an overturned cart off of old Fauchelevent, a feat of strength that makes Javert suspicious",
+      "k": [
+        "fauchelevent",
+        "cart",
+        "strength"
+      ],
+      "n": 0
+    },
+    {
+      "id": "petit-gervais-coin",
+      "tier": "power",
+      "t": "Valjean steals a coin from the boy Petit Gervais right after being released from prison",
+      "k": [
+        "petit gervais",
+        "coin",
+        "released"
+      ],
+      "n": 1
+    },
+    {
+      "id": "waterloo-pontmercy",
+      "tier": "power",
+      "t": "The novel’s second volume opens with a long account of the Battle of Waterloo, where Thénardier loots corpses and saves Colonel Pontmercy",
+      "k": [
+        "waterloo",
+        "thenardier",
+        "pontmercy"
+      ],
+      "n": 1,
+      "rabbit": "Battle of Waterloo"
+    },
+    {
+      "id": "thenardier-gate-francs",
+      "tier": "power",
+      "t": "Valjean pays Thénardier thirty francs to be let out of a locked sewer gate while carrying the wounded Marius",
+      "k": [
+        "thenardier",
+        "thirty francs",
+        "gate"
+      ],
+      "n": 1
+    },
+    {
+      "id": "javert-unmasked-spy",
+      "tier": "power",
+      "t": "Javert is unmasked as a spy at the barricade by Gavroche, but survives when Valjean frees him instead of killing him",
+      "k": [
+        "unmasked",
+        "gavroche",
+        "barricade"
+      ],
+      "n": 1
+    },
+    {
+      "id": "marius-gillenormand",
+      "tier": "power",
+      "t": "Marius, grandson of the royalist Gillenormand, falls in love with Cosette after seeing her in Paris’s Luxembourg Gardens",
+      "k": [
+        "gillenormand",
+        "luxembourg gardens",
+        "royalist"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cosette-fetch-water",
+      "tier": "power",
+      "t": "Young Cosette is sent alone into the woods at night to fetch water while living with the cruel Thénardiers",
+      "k": [
+        "woods at night",
+        "fetch water",
+        "thenardiers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hugo-exile-guernsey",
+      "tier": "power",
+      "t": "Hugo wrote much of this novel while exiled on the island of Guernsey for opposing Napoleon III",
+      "k": [
+        "guernsey",
+        "exile",
+        "napoleon iii"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Novel, character, or musical?",
+    "body": "Many clues describe Jean Valjean or Inspector Javert, but a tossup that says “name this novel” wants the title, not a character’s name. “Les Mis” is also the common nickname for the hit stage musical based on this novel, and at least one real tournament specifically refused to accept it here because it points to the musical.",
+    "fix": "Listen for “this novel” or “this book” and answer with the title, Les Misérables. If only a character’s name comes to mind, say it anyway for a prompt — but say the full title when you can, and skip the nickname “Les Mis.”",
+    "line": "Real answer line: <b><u>Les Misérables</u></b> (one tournament’s rule: do not accept or prompt on “Les Miz,” which refers to the musical)"
+  },
+  "freq": {
+    "rank": 9,
+    "count": 12,
+    "list": "Literature"
+  }
+}

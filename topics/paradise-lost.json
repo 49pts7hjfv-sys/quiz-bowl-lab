@@ -1,0 +1,402 @@
+{
+  "id": "paradise-lost",
+  "name": "Paradise Lost",
+  "mono": "PL",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Milton’s epic of Satan’s fall · Grand English verse without rhyme",
+  "dates": "Published 1667 (expanded 1674)",
+  "briefing": "John Milton was completely blind when he dictated this towering poem about the biggest rebellion in history: Satan’s war against God. Told in majestic, unrhymed blank verse, _Paradise Lost_ follows Satan’s fall from Heaven, his scheme to corrupt Adam and Eve, and humanity’s expulsion from the Garden of Eden. Milton said his goal was simply to “justify the ways of God to men.”",
+  "answerHtml": "<b><u>Paradise Lost</u></b>",
+  "accept": [
+    "paradise lost"
+  ],
+  "prompt": [],
+  "reject": [
+    "paradise regained",
+    "divine comedy",
+    "the divine comedy",
+    "inferno",
+    "areopagitica"
+  ],
+  "tests": {
+    "right": [
+      "Paradise Lost",
+      "paradise lost",
+      "Paradize Lost",
+      "Milton's Paradise Lost"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Paradise Regained",
+      "The Divine Comedy",
+      "Milton",
+      "Satan",
+      "Inferno"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Paradise Lost by John Milton | Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=JgD92i5HFW0",
+      "note": "The whole poem: Satan’s fall from Heaven, his trip to Eden, and Adam and Eve leaving Paradise"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Paradise Lost by John Milton | Book 1 Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=B63RQAt2ODQ",
+      "note": "Book 1: fallen Satan in Hell and the building of Pandemonium"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Paradise Lost by John Milton | Themes",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=opcD9zppQzI",
+      "note": "The poem’s big ideas explained, like free will and disobedience"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Classics Summarized: Paradise Lost",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=-NMDtsPgfD0",
+      "note": "Funny illustrated retelling of Milton’s whole epic, from Satan’s fall to Adam and Eve leaving Eden (has some swearing)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Paradise Lost",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/paradise-lost",
+      "note": "Study guide: background and key facts, with plot summary and character pages"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Paradise_Lost",
+  "qb": {
+    "q": "Paradise Lost",
+    "found": 4,
+    "tip": "Pandemonium and the “better to reign in Hell” line show up constantly — they’re the two most reliable stock clues by far."
+  },
+  "sample": {
+    "n": 4,
+    "note": "the 4 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In this poem, the newly invented weapon of artillery briefly turns the tide of a three-day celestial battle, until the Son of God single-handedly routs the rebel army and drives it over Heaven’s edge. The loyal angel Abdiel stands alone against his former commander beforehand.",
+      "r": "That commander, Satan, had convinced a third of Heaven’s angels to revolt with him. For 10 points, name this epic poem about the War in Heaven and the subsequent fall of Adam and Eve, written by John Milton."
+    },
+    {
+      "p": "In Hell’s new capital, three of this poem’s demons debate strategy: Moloch wants open war again, Belial counsels inaction, and Mammon suggests they simply mine Hell’s gold instead. Their leader ultimately volunteers to scout the newly created universe alone.",
+      "r": "That leader travels through the formless realm of Chaos to reach Earth and tempt humanity instead. For 10 points, name this epic poem about Satan’s rebellion and the fall of Adam and Eve, written by John Milton."
+    },
+    {
+      "p": "Two monstrous gatekeepers named Sin and Death guard the only exit from Hell in this poem, and Sin — who is also this poem’s villain’s own daughter — unlocks the gate to let him through. He then crosses the realm of Chaos to reach a newly created universe.",
+      "r": "That villain, Satan, hopes to corrupt God’s newest creation out of pure spite. For 10 points, name this epic poem in which Satan schemes to ruin Adam and Eve."
+    },
+    {
+      "p": "Disguised as a young cherub, this poem’s villain tricks the sun-angel Uriel into pointing him toward a certain garden, where he later perches on a tree like a cormorant. Uriel soon realizes his mistake and warns the angels guarding that garden.",
+      "r": "By then, the villain has already leapt over the garden’s wall like a prowling wolf. For 10 points, name this epic poem in which Satan sneaks into the Garden of Eden."
+    },
+    {
+      "p": "Angels named Ithuriel and Zephon discover this poem’s villain crouched like a toad at a sleeping woman’s ear, trying to plant a troubling dream in her mind. Confronted, he briefly swells to his true monstrous size before fleeing the garden.",
+      "r": "That woman, Eve, later uneasily recalls the dream to her husband, Adam. For 10 points, name this epic poem in which Satan first tries to corrupt Eve through her dreams."
+    },
+    {
+      "p": "Flattering this poem’s heroine with claims that a certain fruit grants godlike knowledge, a disguised villain convinces her to eat from the Tree of Knowledge of Good and Evil. Her husband, though warned in advance, eats the same fruit anyway rather than face life without her.",
+      "r": "Both then feel shame over their nakedness for the first time and begin to quarrel. For 10 points, name this epic poem about the Fall of Adam and Eve."
+    },
+    {
+      "p": "An archangel shows this poem’s first man a vision of future human history, including Cain’s murder of Abel and Noah’s flood, from a tall hill. That archangel then prepares to lead the man and his wife out of their garden home forever.",
+      "r": "That archangel, Michael, offers comfort by promising a future savior despite humanity’s fall. For 10 points, name this epic poem that ends with Adam and Eve’s expulsion from Eden."
+    },
+    {
+      "p": "Cherubim bearing a flaming sword descend to seal off this poem’s garden forever as its two central characters look back at it in tears. An archangel takes each of them by the hand and leads them down to the plain below.",
+      "r": "“The world was all before them,” Milton writes, as the couple sets off “with wandering steps and slow.” For 10 points, name this epic poem that ends with Adam and Eve’s expulsion from the Garden of Eden."
+    },
+    {
+      "p": "An archangel visits this poem’s garden to warn its first man about a looming danger, recounting both the six-day Creation of the universe and a great war fought in Heaven. That angel, Raphael, dines with Adam and Eve on fruit before launching into his long account.",
+      "r": "His warning fails to stop a disguised villain from later tempting Eve. For 10 points, name this epic poem in which the angel Raphael tries to prepare Adam for Satan’s temptation."
+    },
+    {
+      "p": "This poem opens by invoking a “Heav’nly Muse” and announcing its subject as “Man’s first disobedience.” Its author defended its unrhymed form in a preface, calling rhyme “the invention of a barbarous age.”",
+      "r": "That form, blank verse, let the poem’s long sentences unfold without the constraint of end rhyme. For 10 points, name this unrhymed epic poem by John Milton."
+    },
+    {
+      "p": "First published in 1667 in ten books, this poem was expanded to twelve books — matching the structure of Virgil’s _Aeneid_ — in a 1674 edition. Its author, totally blind by the time he composed it, dictated the entire poem aloud to a series of assistants.",
+      "r": "That author also defended England’s execution of King Charles I in prose pamphlets. For 10 points, name this epic about Satan’s fall and humanity’s temptation, written by the blind poet John Milton."
+    },
+    {
+      "p": "This poem compares its fallen angels, lying stunned on a burning lake, to scattered autumn leaves, and later compares them thronging into their new capital to swarms of bees. That capital is built in a single hour using gold mined from the ground by the demon Mammon.",
+      "r": "Its villain then calls a council there to plan revenge on Heaven. For 10 points, name this epic poem whose fallen angels regroup in Hell after their defeat."
+    },
+    {
+      "p": "Returning triumphantly to Hell after his first scheme succeeds, this poem’s villain is briefly transformed into a hissing serpent along with all his followers, forced to crawl toward fruit that turns to ashes in their mouths. This punishment repeats annually as a reminder of his crime.",
+      "r": "That crime was tempting a certain woman in a garden. For 10 points, name this epic poem in which Satan is repeatedly humiliated after corrupting Eve."
+    },
+    {
+      "p": "This poem’s heroine recalls once gazing admiringly at her own reflection in a pool of water until a divine voice led her away to meet her husband instead. She was formed from a rib taken from that husband’s side while he slept.",
+      "r": "Centuries of readers have compared that reflection scene to the Greek myth of Narcissus. For 10 points, name this epic poem whose heroine, Eve, is tempted by Satan soon after her creation."
+    },
+    {
+      "p": "This poem’s narrator states that his purpose is to “justify the ways of God to men.” Modeled on classical epics by Homer and Virgil, it tells a Christian story instead of a Greek or Roman one, opening in the middle of the action with its villain already defeated and bound in chains of fire.",
+      "r": "Its true hero, if it even has one, might be Christ, Adam, or even Satan — a question critics still debate. For 10 points, name this epic poem about the Fall of Man, written by John Milton."
+    }
+  ],
+  "clues": [
+    {
+      "id": "milton-satan-fall",
+      "tier": "giveaway",
+      "t": "Epic poem by John Milton about Satan’s rebellion against God and the fall of Adam and Eve",
+      "k": [
+        "milton",
+        "satan",
+        "adam and eve"
+      ],
+      "n": 3
+    },
+    {
+      "id": "garden-of-eden",
+      "tier": "giveaway",
+      "t": "Adam and Eve are expelled from the Garden of Eden for eating forbidden fruit",
+      "k": [
+        "garden of eden",
+        "forbidden fruit"
+      ],
+      "n": 3
+    },
+    {
+      "id": "reign-in-hell",
+      "tier": "giveaway",
+      "t": "Satan declares it is “Better to reign in Hell than serve in Heaven”",
+      "k": [
+        "reign in hell",
+        "serve in heaven"
+      ],
+      "n": 3
+    },
+    {
+      "id": "blank-verse",
+      "tier": "giveaway",
+      "t": "Written in blank verse (unrhymed iambic pentameter), a bold choice for an English epic",
+      "k": [
+        "blank verse",
+        "iambic pentameter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "justify-ways",
+      "tier": "giveaway",
+      "t": "Milton’s stated purpose, in his own words, was to “justify the ways of God to men”",
+      "k": [
+        "justify",
+        "ways of god"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pandemonium",
+      "tier": "middle",
+      "t": "Satan’s followers build Pandemonium, their new capital city in Hell",
+      "k": [
+        "pandemonium",
+        "capital"
+      ],
+      "n": 4,
+      "rabbit": "The Divine Comedy"
+    },
+    {
+      "id": "michael-vision",
+      "tier": "middle",
+      "t": "Archangel Michael shows Adam a vision of future human history, then leads the couple out of Eden",
+      "k": [
+        "michael",
+        "vision"
+      ],
+      "n": 2
+    },
+    {
+      "id": "belial-moloch-mammon",
+      "tier": "middle",
+      "t": "In Hell’s council, the demons Belial, Moloch, and Mammon argue over whether to make war again or scheme instead",
+      "k": [
+        "belial",
+        "moloch",
+        "mammon"
+      ],
+      "n": 1
+    },
+    {
+      "id": "serpent-temptation",
+      "tier": "middle",
+      "t": "Disguised as a serpent, Satan tempts Eve with fruit from the Tree of Knowledge of Good and Evil",
+      "k": [
+        "serpent",
+        "tree of knowledge"
+      ],
+      "n": 0
+    },
+    {
+      "id": "war-in-heaven",
+      "tier": "middle",
+      "t": "The Son of God single-handedly routs Satan’s armies to end the War in Heaven",
+      "k": [
+        "son of god",
+        "war in heaven"
+      ],
+      "n": 0,
+      "rabbit": "Lucifer"
+    },
+    {
+      "id": "1667-blind",
+      "tier": "middle",
+      "t": "First published in 1667 in ten books; Milton, totally blind, had dictated the whole poem aloud",
+      "k": [
+        "1667",
+        "blind",
+        "dictated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flaming-sword",
+      "tier": "middle",
+      "t": "Cherubim with a flaming sword guard Eden’s gate as Adam and Eve leave hand in hand",
+      "k": [
+        "cherubim",
+        "flaming sword"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heavnly-muse",
+      "tier": "power",
+      "t": "Opens with an invocation of a “Heav’nly Muse” and the line “Of Man’s first disobedience”",
+      "k": [
+        "heavnly muse",
+        "first disobedience"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sin-and-death",
+      "tier": "power",
+      "t": "The monstrous Sin and Death guard Hell’s gates; Sin, Satan’s own daughter, lets him pass through",
+      "k": [
+        "sin and death",
+        "hells gates"
+      ],
+      "n": 0
+    },
+    {
+      "id": "uriel-trick",
+      "tier": "power",
+      "t": "Disguised as a young cherub, Satan tricks the angel Uriel into pointing him toward Earth; he later perches on a tree in Eden like a cormorant",
+      "k": [
+        "uriel",
+        "cormorant"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chaos-journey",
+      "tier": "power",
+      "t": "Satan travels through the formless realm of Chaos to reach the newly created universe",
+      "k": [
+        "chaos",
+        "universe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "toad-dream",
+      "tier": "power",
+      "t": "Disguised as a toad, Satan whispers a troubling dream into the sleeping Eve’s ear, but is caught by the angels Ithuriel and Zephon",
+      "k": [
+        "toad",
+        "ithuriel",
+        "zephon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "raphael-creation",
+      "tier": "power",
+      "t": "The angel Raphael visits Eden to recount the six-day Creation and the War in Heaven as a warning",
+      "k": [
+        "raphael",
+        "creation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mammon-gold",
+      "tier": "power",
+      "t": "Mammon argues the fallen angels should mine Hell’s gold instead of fighting Heaven again",
+      "k": [
+        "mammon",
+        "gold"
+      ],
+      "n": 0
+    },
+    {
+      "id": "adam-chooses-eve",
+      "tier": "power",
+      "t": "Knowing the consequences, Adam eats the forbidden fruit anyway rather than live without Eve",
+      "k": [
+        "knowingly",
+        "without eve"
+      ],
+      "n": 0
+    },
+    {
+      "id": "serpent-punishment",
+      "tier": "power",
+      "t": "After the Fall, Satan and his followers are briefly turned into hissing serpents as punishment",
+      "k": [
+        "hissing serpents",
+        "punishment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "epic-similes",
+      "tier": "power",
+      "t": "Epic similes compare the fallen angels to scattered autumn leaves and, as they throng into their new capital, to swarms of bees",
+      "k": [
+        "autumn leaves",
+        "bees"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twelve-books-1674",
+      "tier": "power",
+      "t": "Expanded from ten to twelve books in a 1674 edition, echoing the structure of Virgil’s _Aeneid_",
+      "k": [
+        "twelve books",
+        "1674"
+      ],
+      "n": 0,
+      "rabbit": "Aeneid"
+    }
+  ],
+  "trap": {
+    "title": "Lost, or Regained?",
+    "body": "Milton wrote a much shorter sequel called _Paradise Regained_ (1671), about Christ resisting Satan’s temptation in the wilderness — a victory, not a fall. It is a completely different poem with a completely different plot, and real QBReader tossups never accept it for this answer line.",
+    "fix": "If the clues are about Satan’s rebellion, the War in Heaven, or Adam and Eve being cast out of Eden, it’s Paradise Lost. If the clues are about Christ resisting temptation in the desert, that is the sequel, Paradise Regained — reject it here.",
+    "line": "Real answer line: <b><u>Paradise Lost</u></b>."
+  },
+  "freq": {
+    "rank": 82,
+    "count": 5,
+    "list": "Literature"
+  }
+}

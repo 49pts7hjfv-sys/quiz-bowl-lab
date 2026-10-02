@@ -1,0 +1,520 @@
+{
+  "id": "theodore-roosevelt",
+  "name": "Theodore Roosevelt",
+  "mono": "TR",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "26th U.S. President · Rough Rider, trustbuster, conservationist",
+  "dates": "1858–1919",
+  "briefing": "Theodore Roosevelt was a sickly, asthmatic kid who built himself into a cowboy, a war hero, and, at 42, the youngest president ever. He charged up a hill in Cuba with his Rough Riders, broke up giant monopolies, protected about 230 million acres of wild land, and inspired the teddy bear. In 1912 he was shot while campaigning and gave his speech anyway.",
+  "answerHtml": "<b><u>Theodore Roosevelt</u></b> (accept <b><u>Teddy Roosevelt</u></b> or <b><u>TR</u></b>; prompt on <u>Roosevelt</u> alone; do not accept or prompt on “Franklin Roosevelt”)",
+  "accept": [
+    "theodore roosevelt",
+    "teddy roosevelt",
+    "tr",
+    "t r",
+    "t roosevelt",
+    "theodore roosevelt jr",
+    "theodore roosevelt junior",
+    "president theodore roosevelt"
+  ],
+  "prompt": [
+    "roosevelt",
+    "president roosevelt"
+  ],
+  "reject": [
+    "franklin roosevelt",
+    "franklin delano roosevelt",
+    "franklin d roosevelt",
+    "fdr",
+    "f d r",
+    "f roosevelt",
+    "f d roosevelt",
+    "franklin",
+    "eleanor roosevelt",
+    "eleanor",
+    "e roosevelt",
+    "william mckinley",
+    "william howard taft"
+  ],
+  "tests": {
+    "right": [
+      "Theodore Roosevelt",
+      "Teddy Roosevelt",
+      "TR",
+      "T.R.",
+      "Theodore Rosevelt",
+      "President Theodore Roosevelt",
+      "Theodore Roosevelt Jr."
+    ],
+    "prompt": [
+      "Roosevelt",
+      "President Roosevelt"
+    ],
+    "wrong": [
+      "Franklin Roosevelt",
+      "FDR",
+      "Franklin D. Roosevelt",
+      "Eleanor Roosevelt",
+      "F. Roosevelt",
+      "Teddy",
+      "William McKinley"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Theodore Roosevelt | 60-Second Presidents",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=3y-8aHZr0Nk",
+      "note": "1 min · his whole life in one minute"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Theodore Roosevelt: Youngest U.S. President & Nobel Peace Prize Winner | Mini Bio",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=lUrOTRzNT4M",
+      "note": "Short · his life story, from Rough Rider to the youngest president"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Progressive Presidents (#29)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=F7flSW1PGsA",
+      "note": "The Square Deal, trustbusting, and conservation (then Taft and Wilson)"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "President Theodore Roosevelt",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/theodoreroosevelt.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
+  "qb": {
+    "q": "Theodore Roosevelt",
+    "found": 5,
+    "tip": "All five answer lines accept “Teddy Roosevelt” and prompt on plain “Roosevelt,” and every one puts the Rough Riders right after the power mark, so learn the Bull Moose speech and the Great White Fleet to get the power."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In 1912, a bullet fired at this man in Milwaukee was slowed by the metal glasses case and the thick, folded speech in his coat pocket. He then told the crowd that he had just been shot, “but it takes more than that to kill a Bull Moose,” and he kept talking for more than an hour.",
+      "r": "For 10 points, name this president who led the Rough Riders and lends his nickname to a stuffed toy bear."
+    },
+    {
+      "p": "As a young man in 1882, this author published _The Naval War of 1812_, a history arguing that the United States needed a strong navy. Later, as Assistant Secretary of the Navy, he told Commodore George Dewey to have his ships ready to attack the Spanish in the Philippines.",
+      "r": "He resigned that post to help organize a volunteer cavalry regiment. For 10 points, name this leader of the Rough Riders who became the 26th president."
+    },
+    {
+      "p": "This president sent sixteen battleships with gleaming white hulls on a voyage around the world from 1907 to 1909 to show off American naval power. He also announced that the United States could act as an “international police power” in Latin America, adding a corollary to the Monroe Doctrine.",
+      "r": "He summed up his foreign policy as “speak softly and carry a big stick.” For 10 points, name this 26th president."
+    },
+    {
+      "p": "This leader brought Russia and Japan to the peace talks that produced the Treaty of Portsmouth, which ended their war in 1905. That work made him the first American to win a Nobel Prize, the 1906 Peace Prize.",
+      "r": "Earlier, he had been William McKinley’s vice president. For 10 points, name this president who charged up San Juan Hill with the Rough Riders."
+    },
+    {
+      "p": "In 1902, this president threatened to have the army run Pennsylvania’s anthracite coal mines unless the owners agreed to settle a long miners’ strike. His government also sued to break up the Northern Securities Company, a giant railroad trust backed by J. P. Morgan.",
+      "r": "For 10 points, name this “trust buster,” whose program of reforms was called the Square Deal."
+    },
+    {
+      "p": "After reading Upton Sinclair’s novel _The Jungle_, this president pushed Congress to pass the Meat Inspection Act and the Pure Food and Drug Act in 1906. That same year, he compared crusading reporters to the man with the muck-rake in _The Pilgrim’s Progress_, and the name “muckrakers” stuck.",
+      "r": "His domestic program was called the Square Deal. For 10 points, name this progressive Republican president, a famous “trust buster.”"
+    },
+    {
+      "p": "This president quickly recognized Panama after it broke away from Colombia in 1903, and his government soon signed a treaty giving the United States a strip of land for a canal. In 1906 he visited the construction, becoming the first sitting president to make an official trip abroad.",
+      "r": "For 10 points, name this president who said a leader should “speak softly and carry a big stick.”"
+    },
+    {
+      "p": "In 1903, this president camped with John Muir in Yosemite, and he made Florida’s Pelican Island the first federal bird refuge. Using the new Antiquities Act, he declared Devils Tower in Wyoming the first national monument.",
+      "r": "He protected about 230 million acres of public land. For 10 points, name this conservation-minded 26th president whose face is on Mount Rushmore."
+    },
+    {
+      "p": "As a New York City police commissioner in the 1890s, this man walked the streets at night with reporter Jacob Riis [“REES”] to catch officers sleeping on duty. Party bosses who disliked him as governor of New York later pushed him into the vice presidency to get him out of the state.",
+      "r": "Months later, William McKinley was assassinated, and this man took over. For 10 points, name this 26th president."
+    },
+    {
+      "p": "This president called his office a “bully pulpit,” using “bully” to mean “excellent,” because it let him speak out on any issue. He also made “White House” the official name of the president’s home and added its West Wing in 1902.",
+      "r": "For 10 points, name this president who took office at age 42, the youngest person ever to hold the job."
+    },
+    {
+      "p": "After his mother and his first wife died on the same day in 1884, this man left politics for a while to run cattle ranches in the Badlands of Dakota Territory. A national park in North Dakota now carries his name.",
+      "r": "He later became a hero of the Spanish-American War. For 10 points, name this president who lends his nickname to a stuffed toy bear."
+    },
+    {
+      "p": "On a 1913–1914 expedition, this former president nearly died while exploring Brazil’s River of Doubt, which was later renamed for him. A few years earlier, he had led a long expedition to Africa that collected animal specimens for the Smithsonian.",
+      "r": "For 10 points, name this man who ran for president in 1912 as the candidate of the “Bull Moose” Party."
+    },
+    {
+      "p": "This man gave away the bride when his niece Eleanor married his distant cousin Franklin in 1905. In a 1910 speech in Paris, he praised “the man who is actually in the arena” over the critic who only points out how others stumble.",
+      "r": "This man had earlier led the Rough Riders. For 10 points, name this Republican president who served from 1901 to 1909."
+    },
+    {
+      "p": "In 2001, long after his death, this man became the only president to receive the Medal of Honor, for leading a charge up Kettle Hill in Cuba. He had helped Leonard Wood recruit their volunteer cavalry regiment from cowboys, Native Americans, and college athletes.",
+      "r": "That regiment was nicknamed the Rough Riders. For 10 points, name this man who later became the 26th president."
+    },
+    {
+      "p": "After his hand-picked successor, William Howard Taft, sided with the conservatives, this former president tried to win back the Republican nomination in 1912. When that failed, he ran as the new Progressive Party’s candidate and won more votes than Taft.",
+      "r": "Both men lost to Woodrow Wilson. For 10 points, name this leader of the “Bull Moose” Party."
+    }
+  ],
+  "clues": [
+    {
+      "id": "rough-riders",
+      "tier": "giveaway",
+      "t": "Led the Rough Riders, a volunteer cavalry regiment, in Cuba during the Spanish-American War (1898)",
+      "k": [
+        "rough riders",
+        "spanish american war",
+        "cavalry",
+        "cuba",
+        "1898"
+      ],
+      "n": 5,
+      "rabbit": "Spanish-American War"
+    },
+    {
+      "id": "stuffed-bear",
+      "tier": "giveaway",
+      "t": "A stuffed toy bear is named for him: on a 1902 hunting trip, he refused to shoot a bear that had been tied to a tree",
+      "k": [
+        "stuffed toy bear",
+        "bear",
+        "1902",
+        "hunting trip"
+      ],
+      "n": 4
+    },
+    {
+      "id": "mckinley",
+      "tier": "giveaway",
+      "t": "Vice president under William McKinley; took over as president when he was assassinated in 1901",
+      "k": [
+        "mckinley",
+        "1901",
+        "vp",
+        "assassin"
+      ],
+      "n": 4
+    },
+    {
+      "id": "26th-president",
+      "tier": "giveaway",
+      "t": "26th President (1901–1909); at 42, the youngest person ever to become president",
+      "k": [
+        "26th",
+        "twenty-sixth",
+        "42"
+      ],
+      "n": 1
+    },
+    {
+      "id": "trust-buster",
+      "tier": "giveaway",
+      "t": "Nicknamed the “trust buster” for breaking up big business monopolies called trusts",
+      "k": [
+        "trust buster",
+        "trustbuster",
+        "monopolies",
+        "trusts"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mount-rushmore",
+      "tier": "giveaway",
+      "t": "One of the four faces on Mount Rushmore, with Washington, Jefferson, and Lincoln",
+      "k": [
+        "mount rushmore",
+        "rushmore",
+        "four faces"
+      ],
+      "n": 0,
+      "rabbit": "Mount Rushmore"
+    },
+    {
+      "id": "san-juan-hill",
+      "tier": "middle",
+      "t": "Charged up Kettle Hill and San Juan Hill near Santiago, Cuba (July 1, 1898); got the Medal of Honor in 2001, the only president to receive it",
+      "k": [
+        "san juan hill",
+        "kettle hill",
+        "santiago",
+        "medal"
+      ],
+      "n": 2
+    },
+    {
+      "id": "bull-moose",
+      "tier": "middle",
+      "t": "Ran again in 1912 for the new Progressive (“Bull Moose”) Party after splitting with Taft; finished second as Woodrow Wilson won",
+      "k": [
+        "bull moose",
+        "progressive party",
+        "1912",
+        "taft"
+      ],
+      "n": 2,
+      "rabbit": "William Howard Taft"
+    },
+    {
+      "id": "square-deal",
+      "tier": "middle",
+      "t": "Square Deal: his domestic program, often summed up as the “three Cs”: conservation, control of corporations, and consumer protection",
+      "k": [
+        "square deal",
+        "three cs"
+      ],
+      "n": 1
+    },
+    {
+      "id": "big-stick",
+      "tier": "middle",
+      "t": "“Speak softly and carry a big stick”: his motto for foreign policy (“Big Stick diplomacy”)",
+      "k": [
+        "big stick",
+        "speak softly"
+      ],
+      "n": 1
+    },
+    {
+      "id": "corollary",
+      "tier": "middle",
+      "t": "His corollary to the Monroe Doctrine (1904): the U.S. could act as an “international police power” in Latin America",
+      "k": [
+        "corollary",
+        "monroe doctrine",
+        "police power",
+        "latin america"
+      ],
+      "n": 1,
+      "rabbit": "Monroe Doctrine"
+    },
+    {
+      "id": "nobel",
+      "tier": "middle",
+      "t": "Helped end the Russo-Japanese War with the Treaty of Portsmouth (1905); won the 1906 Nobel Peace Prize, the first American Nobel winner",
+      "k": [
+        "russo-japanese",
+        "portsmouth",
+        "nobel peace prize",
+        "1906"
+      ],
+      "n": 1
+    },
+    {
+      "id": "panama-canal",
+      "tier": "middle",
+      "t": "Backed Panama’s break from Colombia (1903) so the U.S. could build the Panama Canal; visited in 1906, the first official trip abroad by a sitting president",
+      "k": [
+        "panama canal",
+        "panama",
+        "colombia",
+        "1903"
+      ],
+      "n": 0,
+      "rabbit": "Panama Canal"
+    },
+    {
+      "id": "conservation",
+      "tier": "middle",
+      "t": "Conservation president: protected about 230 million acres, including national forests, parks, monuments, and bird refuges; camped with John Muir in Yosemite (1903)",
+      "k": [
+        "conservation",
+        "230 million",
+        "john muir",
+        "yosemite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "the-jungle",
+      "tier": "middle",
+      "t": "After Upton Sinclair’s _The Jungle_, signed the Meat Inspection Act and the Pure Food and Drug Act (1906)",
+      "k": [
+        "pure food and drug",
+        "meat inspection",
+        "the jungle",
+        "sinclair"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shot-milwaukee",
+      "tier": "power",
+      "t": "Shot in Milwaukee while campaigning (1912), he gave his speech anyway: “It takes more than that to kill a Bull Moose”",
+      "k": [
+        "milwaukee",
+        "kill a bull moose",
+        "shot",
+        "1912"
+      ],
+      "n": 3
+    },
+    {
+      "id": "great-white-fleet",
+      "tier": "power",
+      "t": "Sent the “Great White Fleet” of 16 battleships around the world (1907–1909) to show off U.S. naval power",
+      "k": [
+        "great white fleet",
+        "white fleet",
+        "battleships"
+      ],
+      "n": 2,
+      "rabbit": "Great White Fleet"
+    },
+    {
+      "id": "naval-war-1812",
+      "tier": "power",
+      "t": "As a young historian, wrote _The Naval War of 1812_ (1882), which argued for a strong navy",
+      "k": [
+        "naval war of 1812",
+        "historian",
+        "1882"
+      ],
+      "n": 1,
+      "rabbit": "War of 1812"
+    },
+    {
+      "id": "assistant-navy",
+      "tier": "power",
+      "t": "Assistant Secretary of the Navy under McKinley; got George Dewey’s fleet ready to attack the Philippines, then resigned to join the war",
+      "k": [
+        "assistant secretary of the navy",
+        "assistant secretary",
+        "dewey",
+        "philippines"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bully-pulpit",
+      "tier": "power",
+      "t": "Called the presidency a “bully pulpit” (“bully” meant “excellent”); made “White House” the official name and added the West Wing (1902)",
+      "k": [
+        "bully pulpit",
+        "white house",
+        "west wing",
+        "bully"
+      ],
+      "n": 1
+    },
+    {
+      "id": "northern-securities",
+      "tier": "power",
+      "t": "Sued to break up the Northern Securities Company, a railroad trust backed by J. P. Morgan; the Supreme Court agreed in 1904",
+      "k": [
+        "northern securities",
+        "railroad trust",
+        "morgan",
+        "1904"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coal-strike",
+      "tier": "power",
+      "t": "Ended the 1902 anthracite coal strike in Pennsylvania by threatening to have the army run the mines",
+      "k": [
+        "coal strike",
+        "anthracite",
+        "miners",
+        "1902"
+      ],
+      "n": 0
+    },
+    {
+      "id": "muckrakers",
+      "tier": "power",
+      "t": "Gave crusading reporters the name “muckrakers” in a 1906 speech, after the man with the muck-rake in _The Pilgrim’s Progress_",
+      "k": [
+        "muckrakers",
+        "muckraker",
+        "reporters",
+        "pilgrims progress"
+      ],
+      "n": 0
+    },
+    {
+      "id": "police-commissioner",
+      "tier": "power",
+      "t": "As a New York City police commissioner (1895–1897), walked the streets at night with reporter Jacob Riis to check on officers",
+      "k": [
+        "police commissioner",
+        "jacob riis",
+        "riis",
+        "new york city"
+      ],
+      "n": 0
+    },
+    {
+      "id": "badlands",
+      "tier": "power",
+      "t": "Ran cattle ranches in the Dakota Badlands after his mother and first wife died on the same day in 1884; a North Dakota national park bears his name",
+      "k": [
+        "badlands",
+        "dakota",
+        "ranches",
+        "1884"
+      ],
+      "n": 0
+    },
+    {
+      "id": "river-of-doubt",
+      "tier": "power",
+      "t": "Nearly died exploring Brazil’s River of Doubt (1913–1914), later renamed for him; earlier led a Smithsonian expedition to Africa (1909–1910)",
+      "k": [
+        "river of doubt",
+        "brazil",
+        "smithsonian",
+        "africa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eleanor-franklin",
+      "tier": "power",
+      "t": "Uncle of Eleanor, who married his distant cousin Franklin in 1905; he gave the bride away",
+      "k": [
+        "eleanor",
+        "franklin",
+        "uncle",
+        "cousin"
+      ],
+      "n": 0,
+      "rabbit": "Franklin Delano Roosevelt"
+    },
+    {
+      "id": "man-in-the-arena",
+      "tier": "power",
+      "t": "“The Man in the Arena” speech (Paris, 1910): “It is not the critic who counts”",
+      "k": [
+        "man in the arena",
+        "critic who counts",
+        "arena",
+        "paris"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Theodore or Franklin?",
+    "body": "Say only “Roosevelt” and the moderator will prompt you to be more specific. Real answer lines for this man say “do NOT accept or prompt on Franklin Roosevelt,” so naming his distant cousin loses the tossup, and an early wrong buzz costs 5 points. Some clues even mention Franklin or Eleanor, because Theodore was Eleanor’s uncle and gave her away at her wedding to Franklin.",
+    "fix": "Check the dates and the deal: clues from 1898 to 1919 (the Rough Riders, the Square Deal, the Panama Canal, the Bull Moose Party, the teddy bear) mean Theodore, the 26th president, while the 1930s and World War II (the New Deal, fireside chats) mean Franklin, the 32nd. Memory trick: SQUARE Deal = Theodore, NEW Deal = Franklin. If you buzz with just “Roosevelt,” be ready to add “Theodore.”",
+    "line": "Real answer line: <b><u>Theodore Roosevelt</u></b> [or <b><u>Teddy Roosevelt</u></b>; prompt on <u>Roosevelt</u>; do NOT accept or prompt on “Franklin (Delano) Roosevelt”]"
+  },
+  "freq": {
+    "rank": 11,
+    "count": 6,
+    "list": "American History"
+  }
+}

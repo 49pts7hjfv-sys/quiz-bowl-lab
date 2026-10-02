@@ -1,0 +1,396 @@
+{
+  "id": "achilles",
+  "name": "Achilles",
+  "mono": "ACH",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Greek hero of the Trojan War · Unbeatable except for one heel",
+  "dates": "Trojan War traditionally dated c. 1200 BCE",
+  "briefing": "Achilles was the greatest warrior to fight for the Greeks at Troy, a man so close to immortal that only one spot on his whole body could hurt him. When the Trojan prince Hector killed his best friend, Patroclus, Achilles flew into a rage, returned to battle, and killed Hector in revenge. His own death came the same way almost everyone remembers him: an arrow to the heel.",
+  "answerHtml": "<b><u>Achilles</u></b> (accept <u>Achilleus</u> or <u>Akhilleus</u>)",
+  "accept": [
+    "achilles",
+    "achilleus",
+    "akhilleus"
+  ],
+  "prompt": [],
+  "reject": [
+    "hector",
+    "patroclus",
+    "paris",
+    "ajax",
+    "odysseus",
+    "agamemnon"
+  ],
+  "tests": {
+    "right": [
+      "Achilles",
+      "achilles",
+      "Achilleus",
+      "Achiles"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Hector",
+      "Patroclus",
+      "Paris",
+      "Ajax",
+      "Odysseus"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Greek mythology’s greatest warrior",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=YYZCpJmHAqI",
+      "note": "Short · animated retelling of Achilles and the Trojan War (battle scenes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Birth of Achilles – Peleus and Thetis – Greek Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=tAW9l5DXbrk",
+      "note": "Animated story of his parents, the sea nymph Thetis and King Peleus, and how Achilles was born"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Achilles - The Great Warrior of the Trojan War",
+      "source": "World History Encyclopedia",
+      "url": "https://www.youtube.com/watch?v=knw1hO1s6x0",
+      "note": "Overview of the greatest Greek warrior at Troy (war themes)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Iliad by Homer | Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=-QPXpCqwHec",
+      "note": "The poem that tells Achilles’s story, from his anger at Agamemnon to Hector’s funeral (war deaths)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Greek Mythology: Achilles",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/ancient_greece/achilles.php",
+      "note": "Quick read: his birth, the Trojan War, Patroclus, and the famous heel"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Achilles",
+  "qb": {
+    "q": "Achilles",
+    "found": 4,
+    "tip": "Only 4 Middle School/Easy High School tossups exist for this exact query, so a Regular High School search filled out the sample (two results on that search, a W. H. Auden tossup and a “shields” tossup, were skipped as off-topic)."
+  },
+  "sample": {
+    "n": 12,
+    "note": "12 real QBReader tossups (4 Middle School/Easy High School + 8 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Homer calls this warrior “swift-footed” throughout one epic poem. The god Hephaestus [“heh-FESS-tus”] forged this man a new shield decorated with images of the earth, sun, moon, and stars after his old armor was lost.",
+      "r": "That old armor had been worn by his best friend, Patroclus, when Hector killed him in battle. For 10 points, name this Greek hero of the Trojan War, who avenged Patroclus by killing Hector."
+    },
+    {
+      "p": "Zeus himself reportedly wanted to marry this man’s mother until a prophecy warned that her son would grow greater than his own father. This man’s father, Peleus [“PEE-lee-us”], later led him to command the Myrmidon soldiers of Thessaly.",
+      "r": "His mother, the sea nymph Thetis, dipped him in the River Styx as a baby, leaving only his heel unprotected. For 10 points, name this hero killed by an arrow from Paris."
+    },
+    {
+      "p": "This man killed the Ethiopian king Memnon, son of the dawn goddess Eos, whose grieving soldiers were turned into birds. He had earlier killed a Greek soldier named Thersites [“thur-SY-teez”] for mocking him over his grief for a fallen Amazon.",
+      "r": "That Amazon queen, Penthesilea [“pen-thuh-suh-LEE-uh”], had been killed by this man in battle. For 10 points, name this Greek hero whose only weak spot was his heel."
+    },
+    {
+      "p": "This man once wounded King Telephus [“TEL-eh-fus”] of Mysia with his spear, then later healed that same wound using rust scraped from the spear’s blade. He also killed the Amazon warrior Penthesilea, then mourned over her body.",
+      "r": "His mother had dipped him in the River Styx as a baby, protecting every part of him except his heel. For 10 points, name this Greek hero killed by Paris’s arrow."
+    },
+    {
+      "p": "Some myths claim that after his death, this man married the sorceress Medea in the afterlife. Earlier in his life, he clogged a river with enemy corpses, prompting the river god Scamander [“skuh-MAN-der”] to try to drown him.",
+      "r": "The god Hephaestus drove the river back with fire to save him. For 10 points, name this Greek hero of the Trojan War, later killed by an arrow to his heel."
+    },
+    {
+      "p": "This man once nearly killed the Trojan prince Aeneas in single combat, until the sea god Poseidon swept Aeneas away to safety. This man’s rage at the start of one epic poem is aimed at his own commander, Agamemnon, who had taken his captive, Briseis [“bry-SEE-is”].",
+      "r": "He refused to fight again until his best friend, Patroclus, was killed while wearing his armor. For 10 points, name this Greek hero who then killed Hector in revenge."
+    },
+    {
+      "p": "To keep him out of the Trojan War, this man’s mother disguised him as a girl at the court of King Lycomedes [“ly-koh-MEE-deez”] on the island of Skyros. He gave himself away by instinctively grabbing a sword hidden among a pile of jewelry, and he had a son, Neoptolemus [“nee-op-TOL-eh-mus”], with the princess Deidamia [“day-ih-duh-MY-uh”] there.",
+      "r": "He later became the greatest Greek warrior at Troy. For 10 points, name this hero whose only vulnerable spot was his heel."
+    },
+    {
+      "p": "An ancient epic poem opens with an invocation asking a muse to sing of this man’s “rage,” sparked when his commander, Agamemnon, seized his captive woman, Briseis. This man refused to fight for the Greeks until his closest friend was killed.",
+      "r": "That friend, Patroclus, died while wearing this man’s own armor. For 10 points, name this Greek hero who then killed Hector and dragged his body behind his chariot."
+    },
+    {
+      "p": "After this man’s death, Odysseus and Ajax argued bitterly over who deserved to inherit his armor, and Ajax took his own life after losing the contest. This man’s remains were said to have been mixed together with those of his closest friend after both died in the war.",
+      "r": "That friend, Patroclus, had died wearing this man’s armor. For 10 points, name this Greek hero killed by an arrow to his only weak spot, his heel."
+    },
+    {
+      "p": "This man killed the Amazon queen Penthesilea during the war, then was said to have grieved over her body. After his own death soon after, Ajax and Odysseus quarreled over who should receive his famous armor.",
+      "r": "That armor had been forged by Hephaestus to replace the armor Hector took from his best friend, Patroclus. For 10 points, name this Greek hero of the Trojan War."
+    },
+    {
+      "p": "This man once fought the river Scamander after clogging it with the bodies of enemies he had killed, nearly drowning before the fire god Hephaestus drove the river back. This man killed the soldier Thersites for insulting his grief over a fallen Amazon warrior.",
+      "r": "He had earlier refused to fight after Agamemnon took his captive, Briseis. For 10 points, name this Greek hero who was finally killed by an arrow to his heel."
+    },
+    {
+      "p": "This son of Peleus and the sea nymph Thetis hid at the court of King Lycomedes before the war began, disguised in women’s clothing. While there, he had a child, Neoptolemus, with the princess Deidamia.",
+      "r": "He went on to lead the Myrmidon soldiers against Troy. For 10 points, name this Greek hero who was dipped in the River Styx as a baby, leaving only his heel vulnerable."
+    },
+    {
+      "p": "The god Hephaestus forged a famous shield for this man, decorated with images of the whole cosmos, after his original armor was lost in battle. Some later myths claim that this man married the sorceress Medea in the afterlife.",
+      "r": "He had earlier avenged his friend Patroclus by killing the Trojan prince Hector. For 10 points, name this Greek hero whose mother dipped him in the River Styx as a baby."
+    },
+    {
+      "p": "This man briefly dueled the Trojan prince Aeneas before the god Poseidon rescued his opponent from the fight. This man later killed Memnon, the son of the dawn goddess Eos, whose Ethiopian soldiers mourned by turning into birds.",
+      "r": "This man was eventually killed by an arrow that struck the one unprotected part of his body, his heel. For 10 points, name this Greek hero who killed Hector to avenge Patroclus."
+    },
+    {
+      "p": "This man was the greatest warrior to fight for the Greeks in the Trojan War, famous for his terrifying battle rage. An ancient epic poem opens by invoking a muse to sing of that very rage, provoked when Agamemnon took away his captive woman, Briseis.",
+      "r": "He refused to fight until the death of his beloved friend Patroclus brought him back into battle to kill Hector. For 10 points, name this hero whose mother dipped him in the River Styx, missing only his heel."
+    }
+  ],
+  "clues": [
+    {
+      "id": "heel",
+      "tier": "giveaway",
+      "t": "His mother, the sea nymph Thetis, dipped him in the River Styx as a baby, leaving only his heel vulnerable",
+      "k": [
+        "heel",
+        "styx",
+        "thetis"
+      ],
+      "n": 12
+    },
+    {
+      "id": "trojan-war-hero",
+      "tier": "giveaway",
+      "t": "Greatest Greek warrior in the Trojan War",
+      "k": [
+        "greatest",
+        "trojan war",
+        "warrior"
+      ],
+      "n": 1
+    },
+    {
+      "id": "paris-arrow",
+      "tier": "giveaway",
+      "t": "Killed when Paris shot an arrow into that one weak spot",
+      "k": [
+        "paris",
+        "arrow",
+        "weak spot"
+      ],
+      "n": 7,
+      "rabbit": "Paris"
+    },
+    {
+      "id": "patroclus-hector",
+      "tier": "giveaway",
+      "t": "Enraged by the death of his best friend Patroclus, killed by Hector while wearing his armor; avenged him by killing Hector and dragging his body around Troy",
+      "k": [
+        "patroclus",
+        "hector",
+        "avenged"
+      ],
+      "n": 10,
+      "rabbit": "Hector"
+    },
+    {
+      "id": "rage-opening",
+      "tier": "giveaway",
+      "t": "The _Iliad_ opens with an invocation to sing of his “rage”",
+      "k": [
+        "rage",
+        "iliad",
+        "invocation"
+      ],
+      "n": 3
+    },
+    {
+      "id": "peleus-thetis",
+      "tier": "middle",
+      "t": "Son of the mortal king Peleus [“PEE-lee-us”] and the sea nymph Thetis; led the Myrmidon soldiers of Thessaly",
+      "k": [
+        "peleus",
+        "myrmidon",
+        "thessaly"
+      ],
+      "n": 2
+    },
+    {
+      "id": "briseis",
+      "tier": "middle",
+      "t": "Refused to fight after Agamemnon seized his captive woman, Briseis [“bry-SEE-is”]",
+      "k": [
+        "briseis",
+        "agamemnon",
+        "refused"
+      ],
+      "n": 4,
+      "rabbit": "Agamemnon"
+    },
+    {
+      "id": "penthesilea",
+      "tier": "middle",
+      "t": "Killed the Amazon warrior-queen Penthesilea [“pen-thuh-suh-LEE-uh”] in battle, then grieved over her body",
+      "k": [
+        "penthesilea",
+        "amazon",
+        "grieved"
+      ],
+      "n": 6,
+      "rabbit": "Penthesilea"
+    },
+    {
+      "id": "armor-dispute",
+      "tier": "middle",
+      "t": "After his death, Odysseus and Ajax argued over who deserved his armor; Ajax lost and took his own life",
+      "k": [
+        "odysseus",
+        "ajax",
+        "armor"
+      ],
+      "n": 4,
+      "rabbit": "Ajax"
+    },
+    {
+      "id": "skyros",
+      "tier": "middle",
+      "t": "Disguised as a girl at the court of King Lycomedes [“ly-koh-MEE-deez”] on Skyros, where he had a son, Neoptolemus [“nee-op-TOL-eh-mus”], with the princess Deidamia",
+      "k": [
+        "skyros",
+        "lycomedes",
+        "neoptolemus"
+      ],
+      "n": 5,
+      "rabbit": "Neoptolemus"
+    },
+    {
+      "id": "scamander",
+      "tier": "middle",
+      "t": "Battled the river god Scamander [“skuh-MAN-der”], who tried to drown him for clogging the river with bodies",
+      "k": [
+        "scamander",
+        "river",
+        "drown"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mixed-remains",
+      "tier": "middle",
+      "t": "After his death, his remains were said to have been mixed together with those of Patroclus",
+      "k": [
+        "remains",
+        "mixed",
+        "patroclus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shield",
+      "tier": "power",
+      "t": "His replacement shield, forged by the god Hephaestus [“heh-FESS-tus”], was decorated with the earth, sun, moon, and stars",
+      "k": [
+        "shield",
+        "hephaestus",
+        "forged"
+      ],
+      "n": 2
+    },
+    {
+      "id": "memnon",
+      "tier": "power",
+      "t": "Killed Memnon, the Ethiopian king and son of the dawn goddess Eos, whose soldiers turned into birds in mourning",
+      "k": [
+        "memnon",
+        "ethiopian",
+        "eos"
+      ],
+      "n": 2,
+      "rabbit": "Memnon"
+    },
+    {
+      "id": "thersites",
+      "tier": "power",
+      "t": "Killed the Greek soldier Thersites [“thur-SY-teez”] for mocking his grief over Penthesilea",
+      "k": [
+        "thersites",
+        "mocking",
+        "grief"
+      ],
+      "n": 2
+    },
+    {
+      "id": "telephus",
+      "tier": "power",
+      "t": "Healed King Telephus [“TEL-eh-fus”] of Mysia using rust scraped from the same spear that had wounded him",
+      "k": [
+        "telephus",
+        "rust",
+        "spear"
+      ],
+      "n": 1
+    },
+    {
+      "id": "medea",
+      "tier": "power",
+      "t": "Some myths say that after death he married the sorceress Medea in the afterlife",
+      "k": [
+        "medea",
+        "afterlife",
+        "married"
+      ],
+      "n": 2
+    },
+    {
+      "id": "swift-footed",
+      "tier": "power",
+      "t": "Called “swift-footed” throughout Homer’s _Iliad_",
+      "k": [
+        "swift footed",
+        "homer",
+        "iliad"
+      ],
+      "n": 1
+    },
+    {
+      "id": "thetis-prophecy",
+      "tier": "power",
+      "t": "Zeus himself wanted to marry his mother, Thetis, until a prophecy warned her son would surpass his father",
+      "k": [
+        "prophecy",
+        "surpass",
+        "zeus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "aeneas-duel",
+      "tier": "power",
+      "t": "Nearly killed the Trojan prince Aeneas in a duel before the god Poseidon rescued him",
+      "k": [
+        "aeneas",
+        "duel",
+        "poseidon"
+      ],
+      "n": 0,
+      "rabbit": "Aeneas"
+    }
+  ],
+  "trap": {
+    "title": "Which name is the answer?",
+    "body": "Achilles tossups are crowded with other characters: Patroclus, Hector, Paris, Agamemnon, Ajax, and Odysseus all show up as supporting players, not answers. It is easy to blurt out “Hector” when a clue describes Hector’s body being dragged around Troy, since Hector is the one the action happens to — but the question is asking about the man doing the dragging.",
+    "fix": "Track the pronoun “this man” or “this hero” all the way through the clue, not whichever name you heard most recently. The answer is whoever that pronoun points to, not the last person mentioned.",
+    "line": "Real answer line: <b><u>Achilles</u></b> (accept Achilleus)"
+  },
+  "freq": {
+    "rank": 11,
+    "count": 6,
+    "list": "Mythology"
+  }
+}

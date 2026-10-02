@@ -1,0 +1,399 @@
+{
+  "id": "parthenon",
+  "name": "Parthenon",
+  "mono": "PAR",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Temple to Athena atop the Acropolis · Icon of ancient Greek art",
+  "dates": "Built 447–432 BCE",
+  "briefing": "High above Athens, builders raised a dazzling marble temple without a single truly straight line — its platform curves upward and its columns bulge just enough to trick the eye into seeing perfect symmetry. Pericles ordered it built for Athena, and the sculptor Phidias filled it with carvings so prized that arguments over who should own them continue today.",
+  "answerHtml": "<b><u>Parthenon</u></b> (do not accept “the Acropolis”)",
+  "accept": [
+    "parthenon",
+    "the parthenon"
+  ],
+  "prompt": [],
+  "reject": [
+    "acropolis",
+    "the acropolis",
+    "acropolis of athens",
+    "erechtheion",
+    "propylaea",
+    "temple of athena nike",
+    "temple of zeus",
+    "temple of zeus at olympia",
+    "elgin marbles",
+    "athens"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Parthenon (Acropolis)",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=tWDflkBZC6U",
+      "note": "Art historians explain Athena’s temple on the Acropolis and why its design is so admired"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Parthenon, Acropolis",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=e143yq1sWyI",
+      "note": "A second Smarthistory look at the temple and its place on the Acropolis"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Phidias, Parthenon sculptures",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=uF_W0jQ7bi0",
+      "note": "The marble sculptures made under Phidias and what they show"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Who owns the Parthenon sculptures?",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=QRH105_ztAw",
+      "note": "Why many of the sculptures (the “Elgin Marbles”) are in London, and the debate over returning them"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Parthenon facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Parthenon",
+      "note": "Quick read: its purpose, design, sculptures, the 1687 explosion, and restoration"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Parthenon",
+  "qb": {
+    "q": "Parthenon",
+    "found": 3,
+    "tip": "One of the three raw results is actually about “the Acropolis” (the whole hilltop), which prompts on “Parthenon” — that overlap is the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups about this building (3 Middle School/Easy High School + 6 Regular High School, power-marked); a few of them technically answer “the Acropolis” instead — that’s the Buzzer Trap below"
+  },
+  "tossups": [
+    {
+      "p": "Architects Ictinus [“ik-TY-nus”] and Callicrates [“kuh-LICK-ruh-teez”] designed this building atop a sacred hill, replacing an unfinished predecessor the Persians had destroyed in 480 BCE. Construction, which lasted from 447 to 432 BCE, was partly funded using treasury money diverted from the Delian League.",
+      "r": "This Doric building’s badly weathered metopes once showed Centaurs battling the Lapiths. For 10 points, name this temple to Athena on the Acropolis in Athens."
+    },
+    {
+      "p": "Before this building stood, an earlier temple on the same spot lay unfinished when the Persians burned it in 480 BCE. Pericles later commissioned a replacement, choosing a design that curves its platform upward by several centimeters and lets its columns bulge slightly, optical-illusion tricks that make every line look perfectly straight.",
+      "r": "Its sculptor Phidias also built the gold-and-ivory Statue of Zeus at Olympia. For 10 points, name this temple to Athena atop the Acropolis of Athens."
+    },
+    {
+      "p": "On this building’s south side, battered carvings once showed the Lapiths and their ally Theseus fighting mythical Centaurs. Fifteen of the ninety-two such panels were pried off in the early 1800s and were headed for a British estate before they ended up in a London museum instead.",
+      "r": "The sculptor responsible for them, Phidias, also crafted a towering gold-and-ivory statue of the building’s dedicatee. For 10 points, name this Doric temple on the Acropolis, dedicated to Athena."
+    },
+    {
+      "p": "A French artist named Jacques Carrey [“kah-RAY”] sketched this building’s sculptures in 1674, which turned out to be a lucky bit of timing. Thirteen years later, a Venetian mortar shell ignited Ottoman gunpowder stored inside, blowing off much of its roof during a siege.",
+      "r": "Many of its surviving marble carvings were later shipped to England by the Earl of Elgin and now sit in the British Museum. For 10 points, name this ancient temple atop the Acropolis in Athens."
+    },
+    {
+      "p": "This building’s columns swell slightly partway up, a refinement called entasis, while its whole platform curves upward about ten centimeters across its length. Both tricks correct optical illusions that would otherwise make its perfectly straight lines look like they sag or curve inward.",
+      "r": "A modern city law keeps most of Athens’s buildings under about twelve stories partly so views of this temple stay open. For 10 points, name this Doric temple to Athena on the Acropolis."
+    },
+    {
+      "p": "A continuous carved band, unusually done in the Ionic style for an otherwise Doric building, wrapped the cella of this structure and depicted an idealized Panathenaic [“pan-ath-uh-NAY-ik”] procession. Phidias oversaw the whole project and also crafted this building’s cult statue.",
+      "r": "That nearly forty-foot statue of Athena was made of gold and ivory and held a small figure of Nike in one hand. For 10 points, name this temple on the Acropolis of Athens."
+    },
+    {
+      "p": "This building’s back room once held the Delian League’s pooled funds, since it doubled as a treasury in addition to its religious role. Pericles pushed for its construction over objections that the money should not be spent beautifying the city.",
+      "r": "Ictinus and Callicrates designed this replacement for an unfinished temple the Persians had destroyed. For 10 points, name this temple to Athena atop the Acropolis in Athens."
+    },
+    {
+      "p": "The name of this structure likely comes from the Greek word “parthenos,” meaning virgin or maiden, since it housed a statue honoring Athena under that same title. Scholars still debate exactly which room or rooms the name originally referred to.",
+      "r": "Sculptures removed from this building by the Earl of Elgin remain a major point of dispute between Greece and Britain. For 10 points, name this ancient Greek temple on the Acropolis in Athens."
+    },
+    {
+      "p": "A full-size concrete replica of this building, complete with a new forty-two-foot statue of Athena by sculptor Alan LeQuire, stands in a park in Nashville, Tennessee. The original building’s own chryselephantine [“kry-suh-LEF-un-teen”] statue of Athena has been lost since ancient times.",
+      "r": "That original gold-and-ivory statue was created by the sculptor Phidias. For 10 points, name this temple on the Acropolis of Athens that the Nashville building copies."
+    },
+    {
+      "p": "Battered metopes on this building’s south face depict a mythical battle between Centaurs and the Lapiths, a people aided by the hero Theseus. On the building’s east end, a now-lost pediment sculpture once showed the birth of this temple’s honoree.",
+      "r": "Marble panels from its pediments and frieze are now controversially displayed in London as the Elgin Marbles. For 10 points, name this Doric temple to Athena atop the Acropolis."
+    },
+    {
+      "p": "Workers curved this building’s foundation and entablature upward by roughly four inches across its length and gave its columns a subtle outward swell, refinements meant to correct how a true rectangle would look slightly concave from a distance.",
+      "r": "This building replaced an older temple the Persians destroyed in 480 BCE. For 10 points, name this temple to Athena that Pericles had built on the Acropolis in Athens."
+    },
+    {
+      "p": "In the early 1800s, agents working for a British diplomat removed roughly half of this building’s surviving sculptural decoration, including metopes, pediment figures, and sections of its frieze. Greece has formally asked Britain to return those marbles since 1983.",
+      "r": "Those sculptures are now known as the Elgin Marbles. For 10 points, name this Doric temple on the Acropolis of Athens, from which they were taken."
+    },
+    {
+      "p": "This building’s sculptor also created a seated, gold-and-ivory statue of Zeus at Olympia, one of the Seven Wonders of the ancient world. Inside this building, that same sculptor’s Athena statue once stood nearly forty feet tall.",
+      "r": "Ictinus and Callicrates served as its architects. For 10 points, name this temple to Athena that stands atop the Acropolis in Athens."
+    },
+    {
+      "p": "Jacques Carrey’s 1674 sketches of this building’s sculptures became invaluable after a 1687 gunpowder blast damaged many of the originals. Centuries later, a full-size replica in Nashville, Tennessee, received a new Athena statue by Alan LeQuire.",
+      "r": "This building’s own ancient Athena statue, by the sculptor Phidias, has long since been lost. For 10 points, name this Doric temple on the Acropolis in Athens."
+    },
+    {
+      "p": "Funded partly with treasury money taken from the Delian League, this building replaced an unfinished temple that Persian forces had destroyed in 480 BCE. Its name likely derives from “parthenos,” an epithet of its honoree meaning virgin or maiden.",
+      "r": "Pericles oversaw its construction between 447 and 432 BCE. For 10 points, name this temple dedicated to Athena atop the Acropolis of Athens."
+    }
+  ],
+  "clues": [
+    {
+      "id": "dedicated-athena",
+      "tier": "giveaway",
+      "t": "Dedicated to Athena, the city’s patron goddess",
+      "k": [
+        "athena",
+        "dedicated",
+        "patron goddess"
+      ],
+      "n": 5
+    },
+    {
+      "id": "acropolis-location",
+      "tier": "giveaway",
+      "t": "Located atop the Acropolis, the hilltop citadel of Athens",
+      "k": [
+        "acropolis",
+        "athens",
+        "hilltop"
+      ],
+      "n": 5,
+      "rabbit": "Acropolis of Athens"
+    },
+    {
+      "id": "pericles",
+      "tier": "giveaway",
+      "t": "Construction was commissioned by the Athenian statesman Pericles",
+      "k": [
+        "pericles",
+        "commissioned",
+        "statesman"
+      ],
+      "n": 3,
+      "rabbit": "Pericles"
+    },
+    {
+      "id": "still-stands",
+      "tier": "giveaway",
+      "t": "Still stands today, though partially in ruins, as a global symbol of ancient Greece and democracy",
+      "k": [
+        "symbol",
+        "democracy",
+        "ruins",
+        "ancient greece"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elgin-marbles",
+      "tier": "middle",
+      "t": "Many of its marble sculptures (the “Elgin Marbles”) were removed by the Earl of Elgin and are now in the British Museum",
+      "k": [
+        "elgin marbles",
+        "earl of elgin",
+        "british museum"
+      ],
+      "n": 9,
+      "rabbit": "Elgin Marbles"
+    },
+    {
+      "id": "phidias-general",
+      "tier": "middle",
+      "t": "The sculptor Phidias oversaw its construction and created its sculptures and cult statue",
+      "k": [
+        "phidias",
+        "sculptor",
+        "cult statue"
+      ],
+      "n": 7,
+      "rabbit": "Phidias"
+    },
+    {
+      "id": "doric-order",
+      "tier": "middle",
+      "t": "Built in the plain, sturdy Doric order of columns",
+      "k": [
+        "doric",
+        "columns",
+        "sturdy"
+      ],
+      "n": 3
+    },
+    {
+      "id": "athena-parthenos",
+      "tier": "middle",
+      "t": "Once housed Phidias’s huge statue of Athena made of gold and ivory (chryselephantine), holding a figure of Nike",
+      "k": [
+        "chryselephantine",
+        "gold and ivory",
+        "nike"
+      ],
+      "n": 6,
+      "rabbit": "Athena Parthenos"
+    },
+    {
+      "id": "treasury-use",
+      "tier": "middle",
+      "t": "Doubled as a treasury, storing the Delian League’s pooled funds in a back room",
+      "k": [
+        "treasury",
+        "delian league",
+        "funds"
+      ],
+      "n": 2
+    },
+    {
+      "id": "name-meaning",
+      "tier": "middle",
+      "t": "Name likely comes from “parthenos,” meaning virgin or maiden — Athena’s cult title was “Athena Parthenos”",
+      "k": [
+        "parthenos",
+        "virgin",
+        "maiden",
+        "cult title"
+      ],
+      "n": 0
+    },
+    {
+      "id": "architects",
+      "tier": "power",
+      "t": "Designed by the architects Ictinus and Callicrates",
+      "k": [
+        "ictinus",
+        "callicrates",
+        "architects"
+      ],
+      "n": 1
+    },
+    {
+      "id": "metopes",
+      "tier": "power",
+      "t": "Carved metopes on the south side showed the mythical battle between Lapiths and Centaurs",
+      "k": [
+        "metopes",
+        "lapiths",
+        "centaurs"
+      ],
+      "n": 3,
+      "rabbit": "Centaur"
+    },
+    {
+      "id": "explosion-1687",
+      "tier": "power",
+      "t": "A 1687 gunpowder explosion during an Ottoman-Venetian siege badly damaged the building",
+      "k": [
+        "explosion",
+        "gunpowder",
+        "siege"
+      ],
+      "n": 2
+    },
+    {
+      "id": "optical-illusion",
+      "tier": "power",
+      "t": "Columns bulge slightly (entasis) and the platform curves upward — optical illusion corrections that make every line look perfectly straight",
+      "k": [
+        "entasis",
+        "optical illusion",
+        "bulge",
+        "curves"
+      ],
+      "n": 2
+    },
+    {
+      "id": "carrey-sketches",
+      "tier": "power",
+      "t": "French artist Jacques Carrey’s 1674 sketches recorded its sculptures 13 years before the 1687 blast",
+      "k": [
+        "carrey",
+        "sketches",
+        "1674"
+      ],
+      "n": 2
+    },
+    {
+      "id": "delian-league-funds",
+      "tier": "power",
+      "t": "Construction was partly funded using treasury money diverted from the Delian League",
+      "k": [
+        "funded",
+        "delian league",
+        "treasury money"
+      ],
+      "n": 1
+    },
+    {
+      "id": "height-law",
+      "tier": "power",
+      "t": "A modern height limit keeps most Athens buildings under about 12 stories so views of it stay open",
+      "k": [
+        "height limit",
+        "stories",
+        "athens"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nashville-replica",
+      "tier": "power",
+      "t": "A full-size replica, with a new statue of Athena by sculptor Alan LeQuire, stands in Nashville, Tennessee",
+      "k": [
+        "nashville",
+        "replica",
+        "lequire"
+      ],
+      "n": 1
+    },
+    {
+      "id": "frieze-panathenaic",
+      "tier": "power",
+      "t": "A continuous carved frieze, unusually in the Ionic style, wrapped the cella and showed the Panathenaic procession",
+      "k": [
+        "frieze",
+        "panathenaic",
+        "procession",
+        "cella"
+      ],
+      "n": 1,
+      "rabbit": "Panathenaic Festival"
+    },
+    {
+      "id": "older-parthenon",
+      "tier": "power",
+      "t": "Built 447 to 432 BCE on the site of an earlier, unfinished temple the Persians destroyed in 480 BCE",
+      "k": [
+        "persians",
+        "destroyed",
+        "480"
+      ],
+      "n": 0,
+      "rabbit": "Persian Wars"
+    }
+  ],
+  "trap": {
+    "title": "Parthenon or Acropolis?",
+    "body": "The Acropolis is the whole flat-topped hill in Athens, home to several buildings: the Parthenon, the smaller Erechtheion with its six carved maiden columns, the gateway called the Propylaea, and the tiny Temple of Athena Nike. Real tossups about “the Acropolis” often mention the Parthenon as just one clue among several, and some even pause to prompt if a player blurts out “Parthenon” before the word itself is read.",
+    "fix": "Listen for clues about OTHER buildings too — caryatids or the Porch of the Maidens mean the Erechtheion, a gateway means the Propylaea. If the question only ever describes one specific temple (metopes, a chryselephantine Athena statue, Ictinus and Callicrates), it is safe to answer “Parthenon.”",
+    "line": "Real answer line: <b><u>Parthenon</u></b>. A separate, related answer line, <u>the Acropolis</u>, covers the whole hilltop and may prompt if “Parthenon” is named before it is read."
+  },
+  "tests": {
+    "right": [
+      "Parthenon",
+      "The Parthenon",
+      "Parthanon",
+      "parthenon temple",
+      "the parthenon"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Acropolis",
+      "Erechtheion",
+      "Temple of Zeus at Olympia",
+      "Elgin Marbles",
+      "Athens"
+    ]
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "id": "crusades",
+  "name": "Crusades",
+  "mono": "CR",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Christian wars to retake the Holy Land · 1096–1291",
+  "dates": "Fought 1096–1291",
+  "briefing": "Starting in 1096, European Christians launched a series of military campaigns called the Crusades to capture and defend the Holy Land from Muslim rule. Pope Urban II kicked off the First Crusade by calling Christians to “take back” Jerusalem, which crusaders captured in 1099. Later Crusades featured larger-than-life rivals like Richard the Lionheart and Saladin, and even veered off target — the Fourth Crusade sacked the Christian city of Constantinople instead.",
+  "answerHtml": "<b><u>Crusades</u></b> (prompt on a specific Crusade, e.g. <u>First Crusade</u> or <u>Third Crusade</u>)",
+  "accept": [
+    "crusades",
+    "the crusades",
+    "holy crusades"
+  ],
+  "prompt": [
+    "first crusade",
+    "second crusade",
+    "third crusade",
+    "fourth crusade",
+    "fifth crusade",
+    "sixth crusade",
+    "seventh crusade",
+    "eighth crusade",
+    "ninth crusade",
+    "albigensian crusade",
+    "childrens crusade",
+    "peoples crusade",
+    "northern crusades"
+  ],
+  "reject": [
+    "reconquista",
+    "jihad",
+    "knights templar",
+    "templars",
+    "knights hospitaller",
+    "holy war",
+    "holy land",
+    "battle of hattin",
+    "hattin",
+    "siege of jerusalem",
+    "richard the lionheart",
+    "saladin",
+    "pope urban ii",
+    "kingdom of jerusalem"
+  ],
+  "tests": {
+    "right": [
+      "Crusades",
+      "the Crusades",
+      "Crusade",
+      "Crusadse",
+      "Holy Crusades"
+    ],
+    "prompt": [
+      "First Crusade",
+      "Third Crusade",
+      "Albigensian Crusade"
+    ],
+    "wrong": [
+      "Reconquista",
+      "Richard the Lionheart",
+      "Saladin",
+      "Knights Templar",
+      "Battle of Hattin"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Crusades - Pilgrimage or Holy War?: Crash Course World History #15",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=X0zudTQelzI",
+      "note": "About 13 min · John Green’s whirlwind tour of all the Crusades"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Third Crusade - the Beginning - Kings and Generals DOCUMENTARY",
+      "source": "Kings and Generals",
+      "url": "https://www.youtube.com/watch?v=kHTLBHt3zUM",
+      "note": "Weekend watch · animated maps of the Third Crusade’s opening moves (battle scenes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The First Crusade: Jerusalem Falls (2/2)",
+      "source": "Epic History",
+      "url": "https://www.youtube.com/watch?v=v_8NtmecHMA",
+      "note": "Part 2 of 2 · the First Crusade’s siege and capture of Jerusalem (battle scenes)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Crusades Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Crusades",
+      "note": "Quick overview of the major Crusades and how they turned out"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Crusades",
+  "qb": {
+    "q": "Crusades",
+    "found": 5,
+    "tip": "All 5 results are Middle School/Easy High School tossups, and each one mixes clues from several different numbered campaigns rather than sticking to just one."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "One of these conflicts, led by Simon de Montfort against the Cathars of southern France, included the Battle of Muret and the Siege of Carcassonne [“kar-kuh-SON”] rather than any fighting in the Middle East. Another of these campaigns began after Guy de Lusignan’s army was crushed at the Horns of Hattin [“hah-TEEN”] in 1187, a defeat that let Saladin retake Jerusalem.",
+      "r": "England’s Richard the Lionheart later fought Saladin to a truce in the third of these wars. For 10 points, name this series of medieval military campaigns in which European Christians tried to control the Holy Land."
+    },
+    {
+      "p": "An anonymous chronicle called the _Gesta Francorum_ [“JESS-tuh fran-KOR-um”] recorded the first of these campaigns, which was partly led by a preacher named Peter the Hermit. Crusader nobles passing through Byzantine territory at the start of this campaign often had to swear loyalty oaths to Emperor Alexios I Komnenos.",
+      "r": "That first campaign ended with a victory at the Battle of Ascalon in 1099, after capturing Jerusalem. For 10 points, name this series of wars fought by medieval Christians to control the Holy Land."
+    },
+    {
+      "p": "During one of these conflicts, the Holy Roman Emperor Frederick Barbarossa drowned while crossing the Saleph River in modern Turkey. That same campaign saw Richard the Lionheart defeat Saladin’s forces at the Battle of Arsuf in 1191, though Jerusalem itself stayed in Muslim hands.",
+      "r": "Richard and Saladin eventually agreed to a truce allowing Christian pilgrims to visit the city. For 10 points, name this series of medieval military campaigns to capture the Holy Land."
+    },
+    {
+      "p": "One of these campaigns never reached the Middle East at all: crusaders diverted by Venetian merchants instead sacked the Christian city of Constantinople in 1204. A much earlier campaign in this series, called after Muslim forces captured the crusader county of Edessa, ended in failure.",
+      "r": "The first of these campaigns, by contrast, succeeded in capturing Jerusalem in 1099. For 10 points, name this series of wars fought between European Christians and Muslims over the Holy Land."
+    },
+    {
+      "p": "France’s King Louis IX was captured in Egypt soon after the Battle of Al Mansurah [“al man-SOO-rah”] during one of these campaigns, and had to be ransomed. That same king later died of disease in Tunisia while leading another of these wars decades afterward.",
+      "r": "Louis IX never gave up trying to retake the Holy Land. For 10 points, name this series of medieval conflicts fought by Christian Europe against Muslim powers."
+    },
+    {
+      "p": "Pope Urban II launched the first of these campaigns at the Council of Clermont in 1095, and crowds reportedly shouted “Deus vult,” meaning “God wills it,” in support. Godfrey of Bouillon [“boo-YOHN”] became the new crusader Kingdom of Jerusalem’s first ruler after that campaign succeeded.",
+      "r": "Godfrey’s brother Baldwin later became the first to actually use the title “King of Jerusalem.” For 10 points, name this series of wars to control the Holy Land."
+    },
+    {
+      "p": "Military religious orders such as the Knights Templar and Knights Hospitaller formed to protect pilgrims and fight during these campaigns. Italian city-states like Venice and Genoa grew wealthy transporting soldiers and supplies for this series of wars.",
+      "r": "The first of these campaigns captured Jerusalem for European Christians in 1099. For 10 points, name this series of medieval military expeditions to the Holy Land."
+    },
+    {
+      "p": "Saladin’s crushing victory over Guy de Lusignan’s army at the Horns of Hattin in 1187 let Muslim forces retake Jerusalem, provoking a furious response from European kings. That response became the third of these campaigns, which starred Richard the Lionheart.",
+      "r": "Earlier, the first of these campaigns had captured the same city in 1099. For 10 points, name this series of wars between Christian Europe and Muslim powers over the Holy Land."
+    },
+    {
+      "p": "Not every campaign in this series targeted Muslims: one, led by Simon de Montfort, instead attacked Christian heretics called the Cathars in southern France. Much later, England’s Prince Edward, the future King Edward I, led the last major campaign in this series to the Holy Land.",
+      "r": "That final campaign accomplished little before Edward returned home to become king. For 10 points, name this series of medieval wars, most of which targeted the Holy Land."
+    },
+    {
+      "p": "The second of these campaigns, called after Muslim forces seized the crusader county of Edessa, ended in failure. Decades earlier, the first of these campaigns, recorded in an anonymous chronicle called the _Gesta Francorum_, had succeeded where the second failed.",
+      "r": "Pope Urban II had launched the first of these wars at the Council of Clermont. For 10 points, name this series of conflicts fought to control the Holy Land."
+    },
+    {
+      "p": "English and French kings joined forces with the Holy Roman Emperor to launch the third of these campaigns after Saladin recaptured Jerusalem. Only one of those monarchs, Richard the Lionheart, stayed to fight after Frederick Barbarossa drowned and the French king went home early.",
+      "r": "Richard won the Battle of Arsuf but ultimately settled for a truce with Saladin. For 10 points, name this series of wars to control the Holy Land."
+    },
+    {
+      "p": "Venetian merchants helped redirect one of these campaigns toward a fellow Christian city rather than toward Muslim-held territory, after crusaders ran up debts they could not pay. That campaign’s army sacked Constantinople in 1204 and set up a short-lived Latin Empire there instead.",
+      "r": "That badly misdirected campaign never reached the Holy Land at all. For 10 points, name this series of medieval military expeditions, most of which targeted Jerusalem."
+    },
+    {
+      "p": "A wave of common people with little military training marched toward the Holy Land at the start of this series of wars, inspired by the preaching of Peter the Hermit. Most of them never reached their goal, but trained knights following behind captured Jerusalem in 1099.",
+      "r": "Godfrey of Bouillon then ruled the new crusader kingdom there. For 10 points, name this series of conflicts in which European Christians fought to control the Holy Land."
+    },
+    {
+      "p": "France’s King Louis IX led two separate campaigns in this series: in one, he was captured in Egypt after the Battle of Al Mansurah and had to be ransomed; in a later one, he died of disease in Tunisia. Those were the seventh and eighth of these wars.",
+      "r": "Despite Louis’s efforts, Christian power in the Holy Land kept shrinking. For 10 points, name this series of medieval wars fought over Jerusalem and the surrounding region."
+    },
+    {
+      "p": "Jerusalem changed hands more than once during this series of conflicts: European knights captured it in 1099, lost it to Saladin in 1187, and never permanently held it again despite several later campaigns. Richard the Lionheart marched close to it but turned back during the third of these wars.",
+      "r": "Pope Urban II had launched the first of these campaigns to retake the city from Muslim rule. For 10 points, name this series of medieval military expeditions to the Holy Land."
+    }
+  ],
+  "clues": [
+    {
+      "id": "holy-land-goal",
+      "tier": "giveaway",
+      "t": "Series of medieval wars (11th–13th centuries) in which European Christians fought to control the Holy Land and Jerusalem",
+      "k": [
+        "holy land",
+        "jerusalem",
+        "medieval wars"
+      ],
+      "n": 5
+    },
+    {
+      "id": "urban-clermont",
+      "tier": "giveaway",
+      "t": "Called for by Pope Urban II at the Council of Clermont in 1095, sparking the First Crusade",
+      "k": [
+        "pope urban ii",
+        "council of clermont",
+        "1095"
+      ],
+      "n": 4
+    },
+    {
+      "id": "first-captures-jerusalem",
+      "tier": "giveaway",
+      "t": "The First Crusade captured Jerusalem in 1099",
+      "k": [
+        "first crusade",
+        "1099",
+        "captured jerusalem"
+      ],
+      "n": 3
+    },
+    {
+      "id": "richard-saladin",
+      "tier": "giveaway",
+      "t": "The Third Crusade pitted England’s Richard the Lionheart against the Muslim leader Saladin",
+      "k": [
+        "richard the lionheart",
+        "saladin",
+        "third crusade"
+      ],
+      "n": 3
+    },
+    {
+      "id": "barbarossa-drowns",
+      "tier": "giveaway",
+      "t": "Holy Roman Emperor Frederick Barbarossa drowned crossing a river during the Third Crusade",
+      "k": [
+        "frederick barbarossa",
+        "drowned",
+        "saleph river"
+      ],
+      "n": 4
+    },
+    {
+      "id": "deus-vult",
+      "tier": "middle",
+      "t": "Crowds reportedly chanted “Deus vult” (“God wills it”) to cheer Pope Urban II’s call to arms",
+      "k": [
+        "deus vult",
+        "god wills it"
+      ],
+      "n": 1
+    },
+    {
+      "id": "godfrey-bouillon",
+      "tier": "middle",
+      "t": "Godfrey of Bouillon became the new Crusader Kingdom of Jerusalem’s first ruler after the First Crusade",
+      "k": [
+        "godfrey of bouillon",
+        "kingdom of jerusalem"
+      ],
+      "n": 2
+    },
+    {
+      "id": "baldwin-king",
+      "tier": "middle",
+      "t": "Godfrey’s brother Baldwin I became the first to actually take the title “King of Jerusalem”",
+      "k": [
+        "baldwin i",
+        "king of jerusalem"
+      ],
+      "n": 1
+    },
+    {
+      "id": "battle-ascalon",
+      "tier": "middle",
+      "t": "Fighting in the First Crusade ended with a win at the Battle of Ascalon in 1099",
+      "k": [
+        "battle of ascalon",
+        "1099"
+      ],
+      "n": 1
+    },
+    {
+      "id": "battle-arsuf",
+      "tier": "middle",
+      "t": "Richard the Lionheart beat Saladin’s forces at the Battle of Arsuf in 1191",
+      "k": [
+        "battle of arsuf",
+        "1191"
+      ],
+      "n": 2
+    },
+    {
+      "id": "richard-truce",
+      "tier": "middle",
+      "t": "Richard and Saladin eventually agreed to a truce letting Christian pilgrims visit Jerusalem",
+      "k": [
+        "truce",
+        "pilgrims",
+        "peace treaty"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fourth-constantinople",
+      "tier": "middle",
+      "t": "The Fourth Crusade was diverted and ended up sacking the Christian city of Constantinople in 1204",
+      "k": [
+        "fourth crusade",
+        "constantinople",
+        "1204"
+      ],
+      "n": 2
+    },
+    {
+      "id": "louis-al-mansurah",
+      "tier": "middle",
+      "t": "France’s King Louis IX was captured in Egypt soon after the Battle of Al Mansurah during the Seventh Crusade",
+      "k": [
+        "louis ix",
+        "al mansurah",
+        "seventh crusade"
+      ],
+      "n": 2
+    },
+    {
+      "id": "louis-ransomed",
+      "tier": "middle",
+      "t": "Captured by Egypt’s Ayyubid army, Louis IX had to be ransomed for a huge sum",
+      "k": [
+        "ransomed",
+        "ayyubid",
+        "huge sum"
+      ],
+      "n": 1
+    },
+    {
+      "id": "battle-hattin",
+      "tier": "power",
+      "t": "Saladin crushed crusader forces at the Battle of Hattin in 1187, retaking Jerusalem and triggering the Third Crusade",
+      "k": [
+        "battle of hattin",
+        "1187",
+        "retaking"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peter-hermit",
+      "tier": "power",
+      "t": "The preacher Peter the Hermit led a wave of untrained common people toward the Holy Land at the start of the First Crusade",
+      "k": [
+        "peter the hermit",
+        "common people"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gesta-francorum",
+      "tier": "power",
+      "t": "An anonymous chronicle called the _Gesta Francorum_ recorded the First Crusade",
+      "k": [
+        "gesta francorum",
+        "chronicle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "albigensian",
+      "tier": "power",
+      "t": "A very different Crusade, led by Simon de Montfort, targeted Christian heretics called the Cathars in southern France instead of Muslims",
+      "k": [
+        "simon de montfort",
+        "cathars",
+        "heretics"
+      ],
+      "n": 1,
+      "rabbit": "Cathars"
+    },
+    {
+      "id": "muret-carcassonne",
+      "tier": "power",
+      "t": "That anti-Cathar Crusade included the Battle of Muret and the Siege of Carcassonne",
+      "k": [
+        "battle of muret",
+        "siege of carcassonne"
+      ],
+      "n": 1
+    },
+    {
+      "id": "guy-lusignan",
+      "tier": "power",
+      "t": "Guy de Lusignan led the crusader army that Saladin destroyed at the Horns of Hattin",
+      "k": [
+        "guy de lusignan",
+        "horns of hattin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "byzantine-oaths",
+      "tier": "power",
+      "t": "Crusader leaders passing through Byzantine territory often swore loyalty oaths to Emperor Alexios I Komnenos",
+      "k": [
+        "alexios i komnenos",
+        "byzantine emperor",
+        "loyalty oaths"
+      ],
+      "n": 0
+    },
+    {
+      "id": "louis-eighth-dies",
+      "tier": "power",
+      "t": "Louis IX later died of disease in Tunisia while leading the Eighth Crusade",
+      "k": [
+        "eighth crusade",
+        "tunisia",
+        "died of disease"
+      ],
+      "n": 0
+    },
+    {
+      "id": "second-crusade-edessa",
+      "tier": "power",
+      "t": "The Second Crusade, called after Muslims captured the crusader County of Edessa, ended in failure",
+      "k": [
+        "second crusade",
+        "edessa",
+        "failure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "military-orders",
+      "tier": "power",
+      "t": "Military religious orders such as the Knights Templar and Knights Hospitaller formed to protect pilgrims and fight",
+      "k": [
+        "knights templar",
+        "knights hospitaller",
+        "military orders"
+      ],
+      "n": 0
+    },
+    {
+      "id": "venice-genoa",
+      "tier": "power",
+      "t": "Italian city-states like Venice and Genoa grew rich transporting crusaders and supplies",
+      "k": [
+        "venice",
+        "genoa",
+        "italian city-states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ninth-prince-edward",
+      "tier": "power",
+      "t": "The Ninth Crusade, led by England’s Prince Edward (later King Edward I), was the last major Crusade to the Holy Land",
+      "k": [
+        "ninth crusade",
+        "prince edward",
+        "edward i"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "One Crusade, or all?",
+    "body": "“Crusades” tossups jump between many different numbered campaigns — First through Ninth — plus oddballs like the Albigensian Crusade, which attacked Christian heretics in France instead of Muslims in the Holy Land. A clue about just one campaign can tempt an early buzz of “First Crusade” or “Third Crusade,” but most packets want the general answer and only prompt on a specific one.",
+    "fix": "If the question keeps switching between different popes, kings, and years, it wants the whole series: “Crusades.” Save a specific ordinal for when every clue you’ve heard clearly fits just that one campaign.",
+    "line": "Real answer line: <b><u>Crusades</u></b> (prompt on a specific Crusade, such as the <u>First Crusade</u>)"
+  },
+  "freq": {
+    "rank": 24,
+    "count": 4,
+    "list": "European History"
+  }
+}

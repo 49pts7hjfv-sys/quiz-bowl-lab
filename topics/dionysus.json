@@ -1,0 +1,400 @@
+{
+  "id": "dionysus",
+  "name": "Dionysus",
+  "mono": "DIO",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Greek god of wine and festivity · Patron of Greek theater",
+  "dates": "Worshipped in Greece since c. 1200 BCE",
+  "briefing": "Dionysus was the Greek god of wine, wild celebration, and the theater, but his own birth was nearly as dramatic as his parties. His mortal mother, Semele, died after being tricked into asking to see Zeus in his full glory, so Zeus finished growing the baby by sewing him into his own thigh. Dionysus grew up to lead a wild parade of maenads and satyrs across the Mediterranean, armed with nothing more than a pinecone-tipped staff.",
+  "answerHtml": "<b><u>Dionysus</u></b> (accept <u>Dionysos</u>; prompt on <u>Bacchus</u> before “Greek” is read)",
+  "accept": [
+    "dionysus",
+    "dionysos"
+  ],
+  "prompt": [
+    "bacchus"
+  ],
+  "reject": [
+    "zeus",
+    "semele",
+    "ariadne",
+    "pentheus",
+    "orpheus",
+    "apollo"
+  ],
+  "tests": {
+    "right": [
+      "Dionysus",
+      "dionysus",
+      "Dionysos",
+      "Dionysys"
+    ],
+    "prompt": [
+      "Bacchus",
+      "bacchus"
+    ],
+    "wrong": [
+      "Zeus",
+      "Semele",
+      "Ariadne",
+      "Pentheus",
+      "Orpheus"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The myth of Dionysus’ drunken revenge",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=zpEuvaondSo",
+      "note": "Short · pirates kidnap a sleeping youth who turns out to be Dionysus, and he takes revenge"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Dionysus the God of Wine, Festivity, and Theatre",
+      "source": "World History Encyclopedia",
+      "url": "https://www.youtube.com/watch?v=lplLKHyhmgk",
+      "note": "Overview of the god of wine, festivals, and the theater"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Miscellaneous Myths: Dionysus",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=5brAr51ip_k",
+      "note": "Funny, fast-paced retelling of his strange birth and wild adventures (some mature themes)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Greeks and Romans - Pantheons Part 3: Crash Course World Mythology #9",
+      "source": "Crash Course World Mythology",
+      "url": "https://www.youtube.com/watch?v=XNCQ9w59I7M",
+      "note": "Bigger picture: the Olympian gods and how the Romans adopted them"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Greek Mythology: Dionysus",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/ancient_greece/dionysus.php",
+      "note": "Quick read: his unusual birth, Hera’s revenge, and Ariadne"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Dionysus",
+  "qb": {
+    "q": "Dionysus",
+    "found": 11,
+    "tip": "Real answer lines disagree on Bacchus: some fully accept it, others only prompt before “Greek” is read, so treat it as a prompt to be safe."
+  },
+  "sample": {
+    "n": 11,
+    "note": "the 11 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This god was honored with choral hymns called dithyrambs [“DITH-ih-rams”] and with a winter festival in Athens called the Lenaia [“leh-NYE-uh”]. His worshippers sometimes called him Omadios [“oh-MAH-dee-os”], or “Raw-Eater,” for their habit of tearing apart and eating raw meat.",
+      "r": "His female followers, the Maenads [“MEE-nads”], carried a pinecone-tipped staff as they danced through the hills in his honor. For 10 points, name this Greek god of wine and festivity."
+    },
+    {
+      "p": "This god’s beloved companion Ampelos [“AM-peh-los”] died young and was transformed into the first grapevine, according to one myth. Hestia gave up her seat among the twelve Olympian gods to make room for this deity on Mount Olympus.",
+      "r": "Zeus sewed this god into his own thigh after his mortal mother died partway through her pregnancy. For 10 points, name this Greek god of wine, whose followers were called the Maenads."
+    },
+    {
+      "p": "This god’s raging female followers tore the musician Orpheus [“OR-fee-us”] to pieces after he refused to honor him. In a play by Euripides, a woman named Agave [“uh-GAH-vee”], maddened by this deity, unknowingly killed her own son with her bare hands.",
+      "r": "That son, King Pentheus [“PEN-thee-us”], had mocked this god and tried to ban his worship. For 10 points, name this Greek god of wine, whose followers are the Maenads."
+    },
+    {
+      "p": "Athens held a yearly festival called the Dionysia [“dy-uh-NIH-see-uh”] in this deity’s honor, and the tragedies and comedies performed there grew into the roots of Greek theater. He is often shown with the old satyr Silenus [“sy-LEE-nus”], his former tutor.",
+      "r": "Silenus’s drunken ramblings were said to hold hidden wisdom. For 10 points, name this Greek god of wine and theater, who was sewn into Zeus’s thigh as a baby."
+    },
+    {
+      "p": "In one early version of this god’s story, he was first born as an infant named Zagreus [“ZAG-ree-us”] and was torn apart by the Titans before Zeus brought him back to life. This deity’s mortal mother died after glimpsing Zeus’s full divine glory.",
+      "r": "Zeus then sewed the unborn child into his own thigh, making this god “twice-born.” For 10 points, name this Greek god of wine, worshipped by frenzied followers called Maenads."
+    },
+    {
+      "p": "This deity drove King Lycurgus [“ly-KUR-gus”] insane, causing the king to kill his own son after mistaking him for a grapevine. Lycurgus had earlier chased this god’s nurses with an ox-goad, forcing the young god to leap into the sea.",
+      "r": "This god also turned a crew of pirates who tried to kidnap him into dolphins. For 10 points, name this Greek god of wine and madness, son of Zeus and Semele."
+    },
+    {
+      "p": "This god turned a crew of Tyrrhenian [“tih-REE-nee-un”] pirates who had tried to kidnap him into dolphins after making vines sprout all over their ship. He later found the Cretan princess Ariadne [“air-ee-AD-nee”] abandoned on the island of Naxos by the hero Theseus.",
+      "r": "This god comforted Ariadne and married her. For 10 points, name this Greek god of wine, born from the thigh of Zeus."
+    },
+    {
+      "p": "This deity rewarded King Midas with the golden touch after the king showed kindness to this god’s drunken, elderly companion, Silenus. Midas later regretted the gift once even his food and drink turned to gold.",
+      "r": "This same god’s followers, the Maenads, tore King Pentheus apart for refusing to worship him. For 10 points, name this Greek god of wine and revelry."
+    },
+    {
+      "p": "After becoming a god, this deity traveled down to the underworld to rescue his dead mother and bring her up to Mount Olympus, where she was renamed Thyone [“thy-OH-nee”]. This deity’s mortal mother had died after being tricked into asking Zeus to reveal his true divine form.",
+      "r": "Zeus then finished growing his unborn son by sewing him into his own thigh. For 10 points, name this “twice-born” Greek god of wine."
+    },
+    {
+      "p": "This god’s female devotees were said to feast on raw meat in their wild rites, earning this deity the title “Raw-Eater.” He carried a staff tipped with a pinecone, called a thyrsus [“THUR-sus”], which dripped honey in some accounts.",
+      "r": "This deity married Ariadne after Theseus abandoned her on Naxos. For 10 points, name this Greek god of wine, known to the Romans as Bacchus."
+    },
+    {
+      "p": "This god punished kings who refused to honor him: he drove the Thracian king Lycurgus mad and caused Agave to kill her own son, King Pentheus of Thebes, while in a frenzy. This deity’s mortal mother, Semele, demanded that Zeus reveal his true form, a request that killed her instantly.",
+      "r": "Zeus rescued the unborn child and sewed it into his own thigh. For 10 points, name this Greek god of wine, grapes, and wild celebration."
+    },
+    {
+      "p": "Plays performed at this god’s Athenian festival, the Dionysia, grew into Greek tragedy and comedy. He was also honored with choral hymns called dithyrambs and with a winter festival called the Lenaia.",
+      "r": "This deity’s wild female worshippers, the Maenads, danced through the mountains carrying his pinecone-tipped staff. For 10 points, name this Greek god of wine and theater."
+    },
+    {
+      "p": "This god once turned a crew of pirates into dolphins after they tried to sell him into slavery, sparing only the one sailor who had argued against the kidnapping. In another myth, this deity’s followers tore the legendary musician Orpheus limb from limb.",
+      "r": "Those followers, the Maenads, also killed King Pentheus for spurning this god’s worship. For 10 points, name this Greek god of wine, the son of Zeus and Semele."
+    },
+    {
+      "p": "Hestia stepped down from her place among the twelve Olympians so that this deity could join their ranks instead. This god’s beloved young companion, Ampelos, died and was transformed into the very first grapevine.",
+      "r": "This god is often accompanied by the old, drunken satyr Silenus. For 10 points, name this Greek god of wine and fertility, born from Zeus’s thigh."
+    },
+    {
+      "p": "This deity’s mother, the mortal princess Semele, died after Zeus’s jealous wife, Hera, disguised herself and tricked Semele into asking to see Zeus in his true divine glory. Zeus saved the unborn child by sewing it into his own thigh until it was ready to be born.",
+      "r": "That is why this deity is called “twice-born.” For 10 points, name this Greek god of wine, whose wild followers were the Maenads."
+    }
+  ],
+  "clues": [
+    {
+      "id": "wine-god",
+      "tier": "giveaway",
+      "t": "Greek god of wine, grapevines, and wild festivity",
+      "k": [
+        "wine",
+        "festivity",
+        "grapevines"
+      ],
+      "n": 11
+    },
+    {
+      "id": "zeus-semele",
+      "tier": "giveaway",
+      "t": "Son of Zeus and the mortal princess Semele, who died after seeing Zeus’s true glory",
+      "k": [
+        "zeus",
+        "semele",
+        "true glory"
+      ],
+      "n": 9,
+      "rabbit": "Semele"
+    },
+    {
+      "id": "twice-born",
+      "tier": "giveaway",
+      "t": "Called “twice-born” because Zeus sewed him into his own thigh to finish growing",
+      "k": [
+        "twice born",
+        "thigh",
+        "sewed"
+      ],
+      "n": 10
+    },
+    {
+      "id": "maenads",
+      "tier": "giveaway",
+      "t": "His followers were the frenzied Maenads [“MEE-nads”], wild female worshippers who roamed the hills",
+      "k": [
+        "maenads",
+        "frenzied",
+        "worshippers"
+      ],
+      "n": 11,
+      "rabbit": "Maenads"
+    },
+    {
+      "id": "thyrsus",
+      "tier": "giveaway",
+      "t": "Carried the thyrsus [“THUR-sus”], a pinecone-tipped staff, as a symbol of his power",
+      "k": [
+        "thyrsus",
+        "pinecone",
+        "staff"
+      ],
+      "n": 6
+    },
+    {
+      "id": "bacchae-pentheus",
+      "tier": "middle",
+      "t": "In Euripides’s play _The Bacchae_, his Maenads tore King Pentheus apart for refusing to honor him",
+      "k": [
+        "bacchae",
+        "pentheus",
+        "maenads"
+      ],
+      "n": 7,
+      "rabbit": "Pentheus"
+    },
+    {
+      "id": "ariadne",
+      "tier": "middle",
+      "t": "Comforted and married the princess Ariadne [“air-ee-AD-nee”] after the hero Theseus abandoned her on Naxos",
+      "k": [
+        "ariadne",
+        "theseus",
+        "naxos"
+      ],
+      "n": 4,
+      "rabbit": "Ariadne"
+    },
+    {
+      "id": "pirates-dolphins",
+      "tier": "middle",
+      "t": "Turned a crew of Tyrrhenian [“tih-REE-nee-un”] pirates who tried to kidnap him into dolphins",
+      "k": [
+        "pirates",
+        "dolphins",
+        "tyrrhenian"
+      ],
+      "n": 4
+    },
+    {
+      "id": "midas",
+      "tier": "middle",
+      "t": "Rewarded King Midas with the golden touch for his kindness to the old satyr Silenus [“sy-LEE-nus”]",
+      "k": [
+        "midas",
+        "golden touch",
+        "silenus"
+      ],
+      "n": 3,
+      "rabbit": "Midas"
+    },
+    {
+      "id": "lycurgus",
+      "tier": "middle",
+      "t": "Drove King Lycurgus [“ly-KUR-gus”] insane, so that he killed his own son, mistaking him for a grapevine",
+      "k": [
+        "lycurgus",
+        "insane",
+        "grapevine"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rescued-semele",
+      "tier": "middle",
+      "t": "Traveled to the underworld to rescue his mother and bring her to Olympus as the goddess Thyone [“thy-OH-nee”]",
+      "k": [
+        "rescued",
+        "underworld",
+        "thyone"
+      ],
+      "n": 1
+    },
+    {
+      "id": "zagreus-titans",
+      "tier": "middle",
+      "t": "In an early myth, his first form was the infant Zagreus [“ZAG-ree-us”], torn apart by the Titans before Zeus revived him",
+      "k": [
+        "zagreus",
+        "titans",
+        "infant"
+      ],
+      "n": 2,
+      "rabbit": "Titans"
+    },
+    {
+      "id": "dithyrambs",
+      "tier": "power",
+      "t": "Honored with choral hymns called dithyrambs [“DITH-ih-rams”] and with an Athenian winter festival, the Lenaia [“leh-NYE-uh”]",
+      "k": [
+        "dithyrambs",
+        "lenaia",
+        "hymns"
+      ],
+      "n": 1
+    },
+    {
+      "id": "omophagos",
+      "tier": "power",
+      "t": "Called Omadios [“oh-MAH-dee-os”], “Raw-Eater,” for his followers’ habit of devouring raw meat",
+      "k": [
+        "omadios",
+        "raw eater",
+        "devouring"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ampelos",
+      "tier": "power",
+      "t": "His beloved companion Ampelos [“AM-peh-los”] died and became the first grapevine",
+      "k": [
+        "ampelos",
+        "grapevine",
+        "companion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hestia",
+      "tier": "power",
+      "t": "Hestia gave up her seat among the twelve Olympians to make room for him",
+      "k": [
+        "hestia",
+        "olympians",
+        "twelve"
+      ],
+      "n": 1,
+      "rabbit": "Hestia"
+    },
+    {
+      "id": "orpheus",
+      "tier": "power",
+      "t": "His Maenads tore the musician Orpheus [“OR-fee-us”] to pieces for disrespecting him",
+      "k": [
+        "orpheus",
+        "maenads",
+        "musician"
+      ],
+      "n": 2,
+      "rabbit": "Orpheus"
+    },
+    {
+      "id": "agave",
+      "tier": "power",
+      "t": "His follower Agave [“uh-GAH-vee”], driven mad, unknowingly killed her own son, Pentheus, with her bare hands",
+      "k": [
+        "agave",
+        "pentheus",
+        "unknowingly"
+      ],
+      "n": 3
+    },
+    {
+      "id": "silenus-companion",
+      "tier": "power",
+      "t": "Often accompanied by the old, drunken satyr Silenus, said to have been his childhood tutor",
+      "k": [
+        "silenus",
+        "satyr",
+        "tutor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dionysia-theater",
+      "tier": "power",
+      "t": "His Athenian festival, the Dionysia [“dy-uh-NIH-see-uh”], gave rise to Greek tragedy and comedy",
+      "k": [
+        "dionysia",
+        "tragedy",
+        "comedy"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Dionysus or Bacchus?",
+    "body": "Real tossups often say “accept Bacchus until ‘Greek’ is read” or “prompt on Bacchus.” Bacchus is just the Roman name for the same god, so it can earn credit early on. But once a tossup specifically says “this Greek god,” only “Dionysus” is correct — the question has ruled out the Roman name on purpose.",
+    "fix": "If you are not sure yet whether the tossup is about the Greek or Roman version, say “Dionysus” — it is always safe, while “Bacchus” only works before the word “Greek” shows up.",
+    "line": "Real answer line: <b><u>Dionysus</u></b> [accept <u>Bacchus</u> until “Greek” is read]"
+  },
+  "freq": {
+    "rank": 2,
+    "count": 12,
+    "list": "Mythology"
+  }
+}

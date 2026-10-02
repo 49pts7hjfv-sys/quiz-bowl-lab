@@ -1,0 +1,392 @@
+{
+  "id": "the-night-watch",
+  "name": "The Night Watch",
+  "mono": "NW",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Rembrandt’s militia portrait · Famous for dramatic light and shadow",
+  "dates": "Painted 1642",
+  "briefing": "Rembrandt’s _The Night Watch_ looks like it was painted after dark, but that is just centuries of dirty varnish talking: the scene actually happens in bright daylight. This huge 1642 group portrait shows an Amsterdam militia marching out, led by Captain Frans Banning Cocq, with a mysterious glowing girl and a dead chicken tucked among the soldiers. Visitors can see it for themselves at the Rijksmuseum in Amsterdam, where it has survived more than one attack by vandals.",
+  "answerHtml": "<b><u><i>The Night Watch</i></u></b> (or <i>De Nachtwacht</i>; prompt on <u>Frans Banning Cocq</u>)",
+  "accept": [
+    "the night watch",
+    "night watch",
+    "de nachtwacht",
+    "the nachtwacht",
+    "nachtwacht",
+    "the shooting company of frans banning cocq",
+    "the company of frans banning cocq",
+    "the militia company of district ii"
+  ],
+  "prompt": [
+    "frans banning cocq",
+    "frans banninck cocq",
+    "captain frans banning cocq"
+  ],
+  "reject": [
+    "rembrandt",
+    "rembrandt van rijn",
+    "rembrandt harmenszoon van rijn",
+    "the anatomy lesson of dr tulp",
+    "the anatomy lesson of dr nicolaes tulp",
+    "belshazzars feast",
+    "self portrait",
+    "self portraits",
+    "nights watch"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "AI restores missing parts of Rembrandt’s ‘Night Watch’",
+      "source": "Reuters",
+      "url": "https://www.youtube.com/watch?v=EEpndJUPtRU",
+      "note": "News clip · computers help recreate the strips cut off the painting in 1715"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The start of Operation Night Watch: time lapse",
+      "source": "Rijksmuseum",
+      "url": "https://www.youtube.com/watch?v=WHrhZvX1xqo",
+      "note": "Time-lapse from the museum as its big restoration project gets started"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Rijksmuseum begins years-long restoration of Rembrandt’s “Night Watch”",
+      "source": "FRANCE 24 English",
+      "url": "https://www.youtube.com/watch?v=yIhRrK74nUQ",
+      "note": "News report on the 2019 restoration, done in full view of museum visitors"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Restoration of The Night Watch at the Rijksmuseum",
+      "source": "Rijksmuseum",
+      "url": "https://www.youtube.com/watch?v=f5Z0xSuCyGA",
+      "note": "The museum’s own video on restoring and caring for the painting"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "The Nightwatch Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/The_Night_Watch",
+      "note": "Quick read: who is in the painting, why it is famous, and where to see it"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/The_Night_Watch",
+  "qb": {
+    "q": "Night Watch",
+    "found": 1,
+    "tip": "A Regular High School retry turns up 7 more real tossups, but one extra result from that same search asks for Rembrandt himself (the artist), not this painting, so it’s excluded from the sample below."
+  },
+  "sample": {
+    "n": 8,
+    "note": "8 real QBReader tossups for this answer line (1 Middle School/Easy High School + 7 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "At roughly twelve by fourteen feet, this is the largest painting its artist ever completed, and its full original title describes the militia unit “preparing to march out.” A shield mounted above an arched gateway in the background lists the names of the eighteen men who paid for this work.",
+      "r": "Those men belonged to an Amsterdam civic guard unit called the Kloveniers [“kloh-vuh-NEERS”]. For 10 points, name this enormous 1642 group portrait by Rembrandt."
+    },
+    {
+      "p": "A dead chicken hanging from a girl’s belt in this painting shows off its claws, the heraldic symbol of the Kloveniers, the Amsterdam civic guard unit that commissioned it. Lieutenant Willem van Ruytenburch [“ROY-ten-burkh”], dressed in a lighter uniform, stands beside the militia’s captain near the center of the composition.",
+      "r": "That captain, Frans Banning Cocq, wears black clothing and a red sash. For 10 points, name this painting of an armed Dutch militia by Rembrandt."
+    },
+    {
+      "p": "When this painting was moved to Amsterdam’s town hall in the 1700s, workers trimmed strips from every edge, cutting the most from the left side so the canvas would fit between two columns. That trim sliced off two figures entirely and partially cropped a drummer near the right edge.",
+      "r": "Despite the damage, the drummer and a barking dog nearby still appear in the final composition today. For 10 points, name this painting by Rembrandt."
+    },
+    {
+      "p": "This work belongs to a popular Dutch Golden Age genre called the schutterstuk [“SKHUT-er-stuk”], in which members of a civic militia paid to have themselves painted together. Here, a shield above a stone archway in the background records the names of all eighteen guardsmen who funded the piece.",
+      "r": "Unlike most paintings of this type, though, this one shows its subjects caught in motion rather than posed in neat rows. For 10 points, name this dynamic militia portrait by Rembrandt."
+    },
+    {
+      "p": "Since 2019, museum scientists have used ultra-high-resolution cameras and artificial intelligence to study every centimeter of this painting’s surface inside a glass room in the gallery, letting visitors watch the research happen live. In 1975 and again in 1990, separate attackers damaged the canvas with a knife and then with acid, though conservators repaired it both times.",
+      "r": "Those attacks targeted Rembrandt’s most famous surviving work. For 10 points, name this painting at Amsterdam’s Rijksmuseum."
+    },
+    {
+      "p": "A small girl bathed in golden light appears in the middle of the crowd, even though she was never actually a member of the unit; some historians think she may represent a good-luck mascot or a symbol of the militia’s guild. A dead chicken, claws pointing up, dangles from her belt.",
+      "r": "That strange detail refers to the sigil of the Kloveniers, the civic guard group this painting depicts. For 10 points, name this Rembrandt masterpiece."
+    },
+    {
+      "p": "Besides its two main officers, this painting crowds in at least sixteen other identifiable militiamen, who reportedly paid more for more prominent spots near the front. The lighter-dressed of the two officers, Lieutenant Willem van Ruytenburch, walks just behind and to the side of his captain.",
+      "r": "That captain, dressed all in black with a red sash across his chest, is Frans Banning Cocq. For 10 points, identify this painting, Rembrandt’s depiction of an armed Amsterdam militia."
+    },
+    {
+      "p": "A small dog barks near a drummer on the right side of this painting, startled by the beating of his instrument as the militia prepares to march. That same drummer was nearly lost entirely when the canvas was trimmed down generations after it was painted.",
+      "r": "Today the trimmed original hangs in Amsterdam’s Rijksmuseum. For 10 points, name this painting of a Dutch militia, painted by Rembrandt."
+    },
+    {
+      "p": "Rembrandt completed this painting in 1642, the same year his wife Saskia died, even as commissions like this one were making him one of Amsterdam’s most sought-after painters. The Kloveniers, a civic guard unit armed with matchlock muskets, paid for this group portrait to hang in their guild hall.",
+      "r": "For 10 points, name this painting that today hangs in the Rijksmuseum, Rembrandt’s dramatic portrait of an armed militia."
+    },
+    {
+      "p": "A disturbed visitor slashed this painting with a knife in 1975, and in 1990 another attacker sprayed it with acid before guards rinsed the canvas clean with water. Despite that damage, the small girl glowing near the center of the scene, a dead chicken hanging from her belt, remains one of its best-loved details.",
+      "r": "She stands out brightly against the painting’s darker, shadowy background. For 10 points, name this Rembrandt work."
+    },
+    {
+      "p": "Despite its common nickname, the scene in this painting actually takes place in bright daylight; centuries of darkened varnish only made it look like a nighttime scene until later cleaning revealed the truth. Rembrandt built the composition around dramatic contrasts of light and shadow, a technique called chiaroscuro [“kee-AR-oh-SKOO-roh”].",
+      "r": "That dramatic lighting highlights a militia captain in black and his lighter-dressed lieutenant. For 10 points, name this painting whose common nickname misleadingly suggests a night scene."
+    },
+    {
+      "p": "This painting shows an armed civic guard unit gathered beneath a flag and an archway, caught mid-motion as if truly marching out of the frame. It remains the single most famous work by its Dutch artist, who is equally known for his many self-portraits and his Bible scenes.",
+      "r": "For 10 points, name this large 1642 group portrait of a militia, painted by Rembrandt."
+    },
+    {
+      "p": "Millions of visitors view this painting each year at its home in the Rijksmuseum in Amsterdam, where it hangs at the end of a long gallery built to showcase it. It crowds more than two dozen figures around a 17th-century militia company, caught in a burst of motion and shadow.",
+      "r": "For 10 points, name this huge painting by the Dutch master Rembrandt."
+    },
+    {
+      "p": "This painting’s dramatic use of light and shadow is one of the clearest examples of its artist’s signature style, called chiaroscuro. Though its nickname suggests a nighttime scene, the militia inside is actually marching out in broad daylight.",
+      "r": "For 10 points, name this famous group portrait by Rembrandt, housed today in Amsterdam’s Rijksmuseum."
+    },
+    {
+      "p": "A huge group portrait of an armed Amsterdam militia, painted by Rembrandt in 1642, is the single most famous painting in the Rijksmuseum’s collection. Its subjects stride forward around a captain in black and a glowing girl carrying a dead chicken.",
+      "r": "For 10 points, name this enormous Dutch militia portrait by Rembrandt."
+    }
+  ],
+  "clues": [
+    {
+      "id": "rembrandt-artist",
+      "tier": "giveaway",
+      "t": "Painted by the Dutch master Rembrandt van Rijn",
+      "k": [
+        "rembrandt",
+        "dutch"
+      ],
+      "n": 8
+    },
+    {
+      "id": "militia-portrait",
+      "tier": "giveaway",
+      "t": "Huge group portrait of an armed Amsterdam civic guard unit, caught in motion",
+      "k": [
+        "militia",
+        "civic guard",
+        "amsterdam"
+      ],
+      "n": 8
+    },
+    {
+      "id": "rijksmuseum",
+      "tier": "giveaway",
+      "t": "Hangs today as the centerpiece of the Rijksmuseum in Amsterdam",
+      "k": [
+        "rijksmuseum",
+        "amsterdam"
+      ],
+      "n": 1
+    },
+    {
+      "id": "daytime-misnomer",
+      "tier": "giveaway",
+      "t": "Despite its common nickname, the scene is set in bright daylight, not darkness; old dirty varnish caused the confusion",
+      "k": [
+        "daylight",
+        "varnish",
+        "nickname"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chiaroscuro",
+      "tier": "giveaway",
+      "t": "Famous for dramatic light-and-shadow contrast, a technique called chiaroscuro",
+      "k": [
+        "chiaroscuro",
+        "light and shadow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "captain-cocq",
+      "tier": "middle",
+      "t": "Central militia captain, dressed in black with a red sash, is Frans Banning Cocq (prompt if said alone)",
+      "k": [
+        "cocq",
+        "black",
+        "red sash"
+      ],
+      "n": 6
+    },
+    {
+      "id": "chicken-girl",
+      "tier": "middle",
+      "t": "A mysterious glowing girl in gold carries a dead chicken on her belt; its claws were the militia guild’s symbol",
+      "k": [
+        "chicken",
+        "girl",
+        "glowing"
+      ],
+      "n": 7
+    },
+    {
+      "id": "drummer-cropped",
+      "tier": "middle",
+      "t": "A drummer on the right edge was partially cut off when the canvas was later trimmed",
+      "k": [
+        "drummer",
+        "cropped",
+        "trimmed"
+      ],
+      "n": 6
+    },
+    {
+      "id": "two-attacks",
+      "tier": "middle",
+      "t": "Damaged by a knife attack in 1975 and an acid attack in 1990; both times it was cleaned and repaired",
+      "k": [
+        "knife",
+        "acid",
+        "1975"
+      ],
+      "n": 3
+    },
+    {
+      "id": "painted-1642",
+      "tier": "middle",
+      "t": "Completed in 1642, the same year Rembrandt’s wife Saskia died",
+      "k": [
+        "1642",
+        "saskia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dog-drummer",
+      "tier": "middle",
+      "t": "A small dog barks near the drummer, startled by his beating",
+      "k": [
+        "dog",
+        "barks",
+        "drummer"
+      ],
+      "n": 3
+    },
+    {
+      "id": "trimmed-columns",
+      "tier": "power",
+      "t": "Trimmed on all sides (most on the left) to fit between two columns at Amsterdam’s town hall, cutting off two figures",
+      "k": [
+        "trimmed",
+        "town hall",
+        "columns"
+      ],
+      "n": 4
+    },
+    {
+      "id": "shield-names",
+      "tier": "power",
+      "t": "A shield above an archway in the background lists the names of the eighteen militiamen who paid for it",
+      "k": [
+        "shield",
+        "archway",
+        "eighteen"
+      ],
+      "n": 4
+    },
+    {
+      "id": "kloveniers",
+      "tier": "power",
+      "t": "Commissioned by the Kloveniers, an Amsterdam civic guard unit armed with matchlock muskets; their symbol was a bird’s claw",
+      "k": [
+        "kloveniers",
+        "muskets",
+        "claw"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lieutenant-ruytenburch",
+      "tier": "power",
+      "t": "Lighter-dressed lieutenant beside the captain is Willem van Ruytenburch, named in the painting’s full original title",
+      "k": [
+        "ruytenburch",
+        "lieutenant"
+      ],
+      "n": 1
+    },
+    {
+      "id": "girl-symbolism",
+      "tier": "power",
+      "t": "The glowing girl was not an actual guild member; historians read her as a mascot or symbol for the militia",
+      "k": [
+        "mascot",
+        "symbol",
+        "historians"
+      ],
+      "n": 0
+    },
+    {
+      "id": "original-title",
+      "tier": "power",
+      "t": "Full original title describes the militia unit “preparing to march out,” not standing still for a formal pose",
+      "k": [
+        "preparing",
+        "march out",
+        "pose"
+      ],
+      "n": 0
+    },
+    {
+      "id": "schutterstuk",
+      "tier": "power",
+      "t": "Belongs to the schutterstuk [“SKHUT-er-stuk”] genre: paid group portraits of Dutch civic militia companies",
+      "k": [
+        "schutterstuk",
+        "genre",
+        "civic militia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "research-project",
+      "tier": "power",
+      "t": "Since 2019, scientists have used high-resolution scans and AI to study this painting live in public view",
+      "k": [
+        "scans",
+        "research",
+        "2019"
+      ],
+      "n": 1
+    },
+    {
+      "id": "largest-painting",
+      "tier": "power",
+      "t": "At roughly 12 by 14 feet, this is Rembrandt’s largest surviving painting",
+      "k": [
+        "12 by 14",
+        "largest",
+        "feet"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The painter or the painting?",
+    "body": "Many clues about this work also describe Rembrandt himself, since he painted it, but the required answer is the painting, not the artist. Real answer lines even say to prompt, not fully accept, if a player only names the militia captain, Frans Banning Cocq, since that identifies a person inside the painting rather than the work itself.",
+    "fix": "Wait for cues like “this painting,” “this group portrait,” or “this work” before you buzz with just the title. If you only remember the captain’s name, buzz anyway and say “Frans Banning Cocq” — you should get a chance to add the title.",
+    "line": "Real answer line: <b><u>The Night Watch</u></b> (or <u>De Nachtwacht</u>; prompt on “Frans Banning Cocq” before the full title is read)."
+  },
+  "tests": {
+    "right": [
+      "The Night Watch",
+      "Night Watch",
+      "De Nachtwacht",
+      "The Nite Watch",
+      "the Shooting Company of Frans Banning Cocq"
+    ],
+    "prompt": [
+      "Frans Banning Cocq"
+    ],
+    "wrong": [
+      "Rembrandt",
+      "The Anatomy Lesson of Dr. Tulp",
+      "Self-Portrait",
+      "Night's Watch"
+    ]
+  }
+}

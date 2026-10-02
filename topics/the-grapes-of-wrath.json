@@ -1,0 +1,423 @@
+{
+  "id": "the-grapes-of-wrath",
+  "name": "The Grapes of Wrath",
+  "mono": "GOW",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "John Steinbeck’s novel · The Joad family’s Dust Bowl journey to California",
+  "dates": "Published 1939",
+  "briefing": "_The Grapes of Wrath_ follows the Joad family as they are forced off their Oklahoma farm during the Dust Bowl and join thousands of other migrants driving west to California in search of work. Along the way, son Tom Joad clashes with the police and vows to fight for hungry people wherever he goes. John Steinbeck’s 1939 novel won the Pulitzer Prize and took its title from a line in the Civil War hymn “Battle Hymn of the Republic.”",
+  "answerHtml": "<b><u>The Grapes of Wrath</u></b>",
+  "accept": [
+    "grapes of wrath"
+  ],
+  "prompt": [
+    "joads",
+    "joad family",
+    "tom joad"
+  ],
+  "reject": [
+    "of mice and men",
+    "east of eden",
+    "the pearl",
+    "cannery row"
+  ],
+  "tests": {
+    "right": [
+      "The Grapes of Wrath",
+      "grapes of wrath",
+      "The Grapes of Rath",
+      "Grapes of Wraith"
+    ],
+    "prompt": [
+      "Tom Joad",
+      "The Joads",
+      "Joad Family"
+    ],
+    "wrong": [
+      "Of Mice and Men",
+      "East of Eden",
+      "The Pearl",
+      "Cannery Row"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Grapes of Wrath Summary by Shmoop",
+      "source": "Shmoop",
+      "url": "https://www.youtube.com/watch?v=7_8hCdr28CU",
+      "note": "Short · jokey summary of the Joad family’s trip from Dust Bowl Oklahoma to California"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Grapes of Wrath by John Steinbeck | Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=MOTBl9BCLsQ",
+      "note": "The Joad family’s trip from Oklahoma to California, and the book’s big ideas"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "History Brief: The Grapes of Wrath",
+      "source": "Reading Through History",
+      "url": "https://www.youtube.com/watch?v=IM8Q1e95VbY",
+      "note": "The real Dust Bowl and migrant-worker history behind the novel"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Great Depression (#33)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=GCQfMWAikyU",
+      "note": "The 1930s Depression that drove the Joads and other “Okies” west"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "The Grapes of Wrath",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/the-grapes-of-wrath",
+      "note": "Quick plot summary and key facts about the novel"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/The_Grapes_of_Wrath",
+  "qb": {
+    "q": "Grapes of Wrath",
+    "found": 3,
+    "tip": "Only 3 Middle School/Easy High School tossups turned up, so a Regular High School search filled out the sample — and watch out for a separate common-link tossup on the word “grapes” itself, which just mentions this title in passing."
+  },
+  "sample": {
+    "n": 8,
+    "note": "3 Middle School/Easy High School tossups plus 5 Regular High School tossups for this answer line (power-marked); one more Regular HS result was a common-link tossup on the word “grapes” itself and was set aside"
+  },
+  "tossups": [
+    {
+      "p": "An early chapter of this novel follows a turtle crossing a highway, dodged by a car but deliberately struck by a truck. Later, a former preacher in this novel takes the blame for knocking out a deputy who was chasing the outspoken Floyd Knowles.",
+      "r": "That preacher, Jim Casy, is then clubbed to death, and the protagonist avenges him and goes into hiding as a fugitive. For 10 points, name this John Steinbeck novel about the Joad family’s journey from Oklahoma to California."
+    },
+    {
+      "p": "Muley Graves refuses to leave his land in this novel and instead wanders the abandoned farms alone. Later, this novel’s central family secretly doses Grandpa with “soothin’ syrup” so they can load him onto their truck against his will.",
+      "r": "Both grandparents die during the family’s journey west in this novel. For 10 points, name this novel about the Joad family’s Dust Bowl migration, written by John Steinbeck."
+    },
+    {
+      "p": "This novel’s central family heads west in a Hudson sedan that has been cut down into a truck. In an intercalary chapter, departing migrants sort through the “doomed things” they must leave behind, including an old copy of _Pilgrim’s Progress_. In California, the central family picks peaches for five cents a box during a strike at the Hooper Ranch.",
+      "r": "That strike’s organizer, the former preacher Jim Casy, is killed by police. For 10 points, name this novel about the Joad family, written by John Steinbeck."
+    },
+    {
+      "p": "Fellow travelers Ivy and Sairy Wilson share their tent with a dying grandfather in this novel. The family’s dog is killed by a car at a gas station, and the pregnant Rose of Sharon is later abandoned by her husband, Connie Rivers.",
+      "r": "Rose of Sharon breastfeeds a starving stranger after her own baby is stillborn at the end of this novel. For 10 points, name this John Steinbeck novel about the Joad family."
+    },
+    {
+      "p": "In this novel, young Ruthie gives away her fugitive brother’s secret by bragging to other children that he has killed two men. An early chapter of this novel follows a turtle that one car swerves to avoid but a truck swerves to hit.",
+      "r": "A former preacher named Jim Casy decides in this novel that “there ain’t no sin and there ain’t no virtue. There’s just stuff people do.” For 10 points, name this novel about the Joad family’s journey to California."
+    },
+    {
+      "p": "A former preacher in this novel calls himself “lousy with the spirit” and is compared to a Christlike figure before giving his life for a strike he helps lead. This novel’s protagonist later kills the man who clubbed that preacher, Jim Casy, to death.",
+      "r": "That protagonist, Tom Joad, then goes into hiding as his mother, Ma Joad, holds the family together. For 10 points, name this novel about the Joad family, written by John Steinbeck."
+    },
+    {
+      "p": "This novel takes its title from a line in Julia Ward Howe’s Civil War hymn, “The Battle Hymn of the Republic.” Short interludes called intercalary chapters interrupt this novel’s main story to describe the wider migration, and copies of this book were publicly banned and even burned in some California towns after its 1939 publication.",
+      "r": "For 10 points, name this Pulitzer Prize-winning John Steinbeck novel about the Joad family’s journey from Oklahoma to California."
+    },
+    {
+      "p": "This novel’s central family is secretly forced to drug Grandpa with “soothin’ syrup” to remove him from his land. Later, that family unknowingly works as strikebreakers at the Hooper Ranch, picking peaches for five cents a box.",
+      "r": "The strike’s organizer, Jim Casy, is a former preacher who is killed by the police in this novel. For 10 points, name this novel about the Joad family’s Dust Bowl migration, written by John Steinbeck."
+    },
+    {
+      "p": "Muley Graves is a neighbor who stubbornly stays behind when this novel’s central family leaves Oklahoma. That family’s grandfather dies of a stroke soon after the journey begins, and he is buried in a shallow roadside grave with a note explaining the burial to authorities.",
+      "r": "The family’s grandmother also dies while they cross the Mojave Desert. For 10 points, name this John Steinbeck novel about the Joad family."
+    },
+    {
+      "p": "A former preacher in this novel takes the blame for knocking out a deputy who was chasing Floyd Knowles, and is later killed with a pick handle for organizing a strike. This novel’s protagonist then beats that killer to death with the same weapon.",
+      "r": "Tom Joad becomes a fugitive after avenging the preacher Jim Casy’s death. For 10 points, name this novel about the Joad family, written by John Steinbeck."
+    },
+    {
+      "p": "Before this novel’s central family loads a converted Hudson sedan to head west, an intercalary chapter shows migrants leaving behind “doomed things” such as an old copy of _Pilgrim’s Progress_. Along the way, the Wilson family, Ivy and Sairy, share their tent when the central family’s grandfather falls ill and dies.",
+      "r": "The family’s grandmother also dies while they cross the Mojave Desert in this novel. For 10 points, name this novel about the Joad family’s journey, written by John Steinbeck."
+    },
+    {
+      "p": "Connie Rivers abandons his pregnant wife soon after the family reaches California, leaving her to give birth without him. Near the end of this novel, a flood drives its central family from a boxcar to a barn on higher ground.",
+      "r": "That abandoned wife, Rose of Sharon, breastfeeds a starving stranger after her baby is stillborn. For 10 points, name this novel about the Joad family, written by John Steinbeck."
+    },
+    {
+      "p": "Near the end of this novel, its protagonist tells his mother that he will be present “wherever there’s a fight so hungry people can eat.” Earlier in this novel, that protagonist, Tom Joad, avenges the death of the former preacher Jim Casy.",
+      "r": "Tom then goes into hiding as a fugitive while his mother, Ma Joad, keeps the rest of the family together. For 10 points, name this John Steinbeck novel about the Joad family’s journey to California."
+    },
+    {
+      "p": "Early in the journey west, the central family’s dog is run over by a car at a roadside gas station in this novel. This novel opens with a chapter describing choking dust storms over Oklahoma.",
+      "r": "The family then drives west on Route 66 seeking work. For 10 points, name this novel about the Joad family’s Dust Bowl migration, written by John Steinbeck."
+    },
+    {
+      "p": "This novel alternates its main story with short interludes called intercalary chapters that zoom out to describe the wider migration. Publicly banned and burned in some California towns after its 1939 release, this novel went on to win the Pulitzer Prize, and its author later won the Nobel Prize.",
+      "r": "This novel ends ambiguously after a flood, with the family’s future unresolved. For 10 points, name this John Steinbeck novel about the Joad family."
+    }
+  ],
+  "clues": [
+    {
+      "id": "dust-bowl-migration",
+      "tier": "giveaway",
+      "t": "The Joad family is forced off their Oklahoma farm by the Dust Bowl and drives to California seeking work",
+      "k": [
+        "dust bowl",
+        "oklahoma",
+        "california"
+      ],
+      "n": 8
+    },
+    {
+      "id": "steinbeck-author",
+      "tier": "giveaway",
+      "t": "Written by the American author John Steinbeck",
+      "k": [
+        "john steinbeck"
+      ],
+      "n": 8
+    },
+    {
+      "id": "tom-joad-speech",
+      "tier": "giveaway",
+      "t": "Tom Joad vows he’ll be “wherever there’s a fight so hungry people can eat”",
+      "k": [
+        "hungry people",
+        "fight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jim-casy-killed",
+      "tier": "giveaway",
+      "t": "Jim Casy, a former preacher turned labor organizer, is killed while helping lead a strike",
+      "k": [
+        "jim casy",
+        "preacher",
+        "strike"
+      ],
+      "n": 6
+    },
+    {
+      "id": "rose-of-sharon-stillborn",
+      "tier": "giveaway",
+      "t": "Rose of Sharon’s baby is stillborn; she breastfeeds a starving stranger in the novel’s final scene",
+      "k": [
+        "rose of sharon",
+        "stillborn"
+      ],
+      "n": 5
+    },
+    {
+      "id": "tom-fugitive",
+      "tier": "middle",
+      "t": "Tom Joad kills the man who clubbed Jim Casy to death, then goes into hiding as a fugitive",
+      "k": [
+        "fugitive",
+        "avenges"
+      ],
+      "n": 2
+    },
+    {
+      "id": "connie-abandons",
+      "tier": "middle",
+      "t": "Connie Rivers abandons his pregnant wife, Rose of Sharon, soon after the family reaches California",
+      "k": [
+        "connie rivers",
+        "abandons"
+      ],
+      "n": 5
+    },
+    {
+      "id": "grandparents-die",
+      "tier": "middle",
+      "t": "Both of the Joad grandparents die during the journey west: Grandpa soon after leaving, Grandma while crossing the Mojave Desert",
+      "k": [
+        "grandpa",
+        "grandma",
+        "journey west"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hooper-ranch-strike",
+      "tier": "middle",
+      "t": "During a strike at the Hooper Ranch, the Joads unknowingly work as strikebreakers, picking peaches for five cents a box",
+      "k": [
+        "hooper ranch",
+        "five cents",
+        "peach"
+      ],
+      "n": 2
+    },
+    {
+      "id": "wilson-family",
+      "tier": "middle",
+      "t": "Fellow travelers Ivy and Sairy Wilson share their tent with the Joads and help when Grandpa dies",
+      "k": [
+        "ivy and sairy wilson",
+        "tent"
+      ],
+      "n": 2
+    },
+    {
+      "id": "muley-graves",
+      "tier": "middle",
+      "t": "Muley Graves refuses to leave Oklahoma and instead wanders the abandoned farmland alone",
+      "k": [
+        "muley graves"
+      ],
+      "n": 2
+    },
+    {
+      "id": "casy-sin-virtue",
+      "tier": "middle",
+      "t": "Casy gives up preaching, deciding “there ain’t no sin and there ain’t no virtue. There’s just stuff people do”",
+      "k": [
+        "no sin",
+        "no virtue"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hudson-truck",
+      "tier": "middle",
+      "t": "The Joads’ truck is a converted Hudson Motor Car Company sedan",
+      "k": [
+        "hudson motor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "title-battle-hymn",
+      "tier": "middle",
+      "t": "The title comes from a line in Julia Ward Howe’s Civil War hymn, “The Battle Hymn of the Republic”",
+      "k": [
+        "battle hymn",
+        "julia ward howe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "turtle-chapter",
+      "tier": "power",
+      "t": "An early chapter follows a turtle crossing a highway, dodged by a car but deliberately struck by a truck",
+      "k": [
+        "turtle",
+        "highway"
+      ],
+      "n": 4
+    },
+    {
+      "id": "floyd-knowles",
+      "tier": "power",
+      "t": "Jim Casy takes the blame for knocking out a deputy who was chasing the outspoken Floyd Knowles",
+      "k": [
+        "floyd knowles",
+        "takes the blame"
+      ],
+      "n": 2
+    },
+    {
+      "id": "soothin-syrup",
+      "tier": "power",
+      "t": "Grandpa is secretly dosed with “soothin’ syrup” so his family can load him onto the truck against his will",
+      "k": [
+        "soothin syrup",
+        "grandpa"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dead-dog-omen",
+      "tier": "power",
+      "t": "Early in the trip west, the family’s dog is killed by a car at a gas station",
+      "k": [
+        "gas station",
+        "killed by a car"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pilgrims-progress",
+      "tier": "power",
+      "t": "In an intercalary chapter, departing migrants sort through the “doomed things” they must leave behind, including an old copy of _Pilgrim’s Progress_",
+      "k": [
+        "pilgrims progress",
+        "doomed things"
+      ],
+      "n": 1
+    },
+    {
+      "id": "winfield-ruthie",
+      "tier": "power",
+      "t": "The two youngest Joads are Ruthie and Winfield; Ruthie gives away Tom’s secret by bragging that he has killed two men",
+      "k": [
+        "winfield",
+        "ruthie"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lousy-with-spirit",
+      "tier": "power",
+      "t": "Jim Casy calls himself “lousy with the spirit” and is compared to a Christlike figure",
+      "k": [
+        "lousy with the spirit",
+        "christlike"
+      ],
+      "n": 1
+    },
+    {
+      "id": "banned-burned",
+      "tier": "power",
+      "t": "Published in 1939, the novel was publicly banned and even burned in some California towns for its politics",
+      "k": [
+        "banned",
+        "burned",
+        "1939"
+      ],
+      "n": 0
+    },
+    {
+      "id": "intercalary-chapters",
+      "tier": "power",
+      "t": "Short interludes called intercalary chapters interrupt the Joads’ story to describe the wider migration",
+      "k": [
+        "intercalary chapters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ma-joad-anchor",
+      "tier": "power",
+      "t": "Ma Joad holds the family together as its emotional anchor throughout the journey",
+      "k": [
+        "ma joad",
+        "emotional anchor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ambiguous-ending",
+      "tier": "power",
+      "t": "The novel ends ambiguously after a flood, with the Joads’ future left unresolved",
+      "k": [
+        "flood",
+        "unresolved",
+        "ambiguous"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Steinbeck novel is it?",
+    "body": "John Steinbeck wrote several famous novels about poor, struggling workers in California, and this one gets mixed up with _Of Mice and Men_ most often — both involve migrant farm laborers and a tragic death. _East of Eden_ and _The Pearl_ are other Steinbeck novels that can get confused for this one.",
+    "fix": "Listen for the Joad family, Oklahoma, the Dust Bowl, or Tom Joad and Jim Casy by name — those point to this novel. _Of Mice and Men_ is about George and Lennie on a ranch, with no Dust Bowl migration at all.",
+    "line": "Real answer line: <b><u>The Grapes of Wrath</u></b>"
+  },
+  "freq": {
+    "rank": 146,
+    "count": 3,
+    "list": "Literature"
+  }
+}

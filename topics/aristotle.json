@@ -1,0 +1,409 @@
+{
+  "id": "aristotle",
+  "name": "Aristotle",
+  "mono": "ARI",
+  "category": "Philosophy",
+  "qbCategory": "Philosophy",
+  "kicker": "Ancient Greek philosopher · Founded logic, biology, and the “golden mean”",
+  "dates": "384–322 BCE",
+  "briefing": "Aristotle studied under Plato for about twenty years, then struck out to build his own ideas about nearly everything: logic, biology, ethics, and politics. Hired by King Philip II of Macedon, he spent several years tutoring a teenage prince who grew up to conquer most of the known world as Alexander the Great. Aristotle later founded his own school in Athens, the Lyceum.",
+  "answerHtml": "<b><u>Aristotle</u></b> [or <u>Aristoteles</u>]",
+  "accept": [
+    "aristotle",
+    "aristoteles"
+  ],
+  "prompt": [],
+  "reject": [
+    "plato",
+    "socrates",
+    "alexander the great",
+    "nicomachus"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Aristotle - Greek Philosopher | Mini Bio",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=umHDO_VODWA",
+      "note": "Short · quick life story: Plato’s student and Alexander the Great’s teacher"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "PHILOSOPHY - The Good Life: Aristotle",
+      "source": "Wireless Philosophy",
+      "url": "https://www.youtube.com/watch?v=VFPBf1AZOQg",
+      "note": "Whiteboard lesson · Aristotle’s idea of happiness and the good life"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Aristotle & Virtue Theory: Crash Course Philosophy #38",
+      "source": "Crash Course Philosophy",
+      "url": "https://www.youtube.com/watch?v=PrvtOWEXDIQ",
+      "note": "Hank Green on virtue, the golden mean, and living well"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Biography for Kids: Aristotle",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/ancient_greece/aristotle.php",
+      "note": "Quick read: Plato’s Academy, tutoring Alexander the Great, and his own school"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Aristotle",
+  "qb": {
+    "q": "Aristotle",
+    "found": 5,
+    "tip": "All 5 hits are clearly about him. Every one calls him a student of Plato, and most mention the Lyceum, so those are rock-solid giveaway and middle facts."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This philosopher’s six works on logic were later gathered into a set called the Organon, including _Prior Analytics_, where he introduced a three-part form of deductive reasoning called the syllogism. He also defined the “enthymeme” as an argument that leaves one obvious premise unstated.",
+      "r": "For 10 points, name this ancient Greek philosopher, a student of Plato who tutored Alexander the Great and founded the Lyceum."
+    },
+    {
+      "p": "This philosopher argued that fully explaining anything requires identifying its four causes: material, formal, efficient, and final. He laid out this theory in a work whose Greek title, meaning “after the physics,” became _Metaphysics_, possibly compiled from his own lecture notes.",
+      "r": "For 10 points, name this Greek philosopher who founded the Lyceum after studying for years under Plato."
+    },
+    {
+      "p": "This philosopher praised the Athenian lawmaker Solon as one of the best lawgivers in his political writings, and argued that correct governments like kingship degrade into deviant ones like tyranny. He analyzed tragedy and drama in a separate work called _Poetics_.",
+      "r": "In his _Politics_, he claimed that human beings are naturally social creatures. For 10 points, name this philosopher, a student of Plato who founded the Lyceum and once tutored Alexander the Great."
+    },
+    {
+      "p": "This philosopher’s school was based at a gymnasium next to a temple to Apollo just outside Athens, and its members supposedly got the nickname “Peripatetic” from his habit of walking while he lectured. He personally dissected and classified hundreds of animal species, helping found the study of biology.",
+      "r": "For 10 points, name this Greek philosopher who founded the Lyceum, having studied for two decades at Plato’s Academy."
+    },
+    {
+      "p": "This philosopher taught that courage is a “golden mean” sitting between the extremes of rashness and cowardice, part of his larger theory that virtue generally lies between two vices. He explored this idea in a work likely named for his own son, Nicomachus.",
+      "r": "That work, the _Nicomachean Ethics_, argues that true happiness, or eudaimonia, comes from living virtuously. For 10 points, name this Greek philosopher who tutored Alexander the Great."
+    },
+    {
+      "p": "This philosopher rejected his own teacher’s theory of Forms, arguing instead that the true essence of a thing exists within the thing itself, not in some separate, perfect realm. Philip II of Macedon hired this man to tutor his teenage son.",
+      "r": "That student grew up to conquer most of the known world as Alexander the Great. For 10 points, name this Greek philosopher who studied under Plato and later founded the Lyceum."
+    },
+    {
+      "p": "This philosopher wrote a systematic study of persuasive speaking called _Rhetoric_, and a separate work on natural science and motion called _Physics_ that remained influential all the way into the Middle Ages. He also catalogued and dissected a huge range of living creatures as part of his pioneering biological research.",
+      "r": "For 10 points, name this ancient Greek philosopher, a student of Plato who tutored Alexander the Great and founded his own school, the Lyceum."
+    },
+    {
+      "p": "This philosopher reportedly fled Athens after the death of his former student Alexander the Great, saying he refused to let the city “sin twice against philosophy.” He had spent about twenty years studying at Plato’s Academy before striking out on his own.",
+      "r": "For 10 points, name this Greek philosopher who founded a rival school, the Lyceum, whose students were nicknamed the Peripatetics."
+    },
+    {
+      "p": "This philosopher invented the syllogism, a basic three-step form of logical deduction, as part of his pioneering work in formal logic. He also wrote that “man is by nature a political animal” in a treatise called _Politics_.",
+      "r": "For 10 points, name this Greek philosopher, a student of Plato who founded the Lyceum and once tutored the future Alexander the Great."
+    },
+    {
+      "p": "This philosopher’s _Nicomachean Ethics_ argues that every virtue, like courage or generosity, sits at a “golden mean” between two opposite vices. He also held that the goal of a good life is eudaimonia, a state of flourishing achieved only through virtuous action over a whole lifetime.",
+      "r": "For 10 points, name this ancient Greek philosopher, a student of Plato who tutored Alexander the Great."
+    },
+    {
+      "p": "This philosopher’s logical writings, later collected as the Organon, include _Prior Analytics_, and he used the term “enthymeme” for an argument that skips an obvious step. His _Poetics_ is one of the earliest works of literary theory, analyzing the structure of Greek tragedy.",
+      "r": "For 10 points, name this Greek philosopher, founder of the Lyceum, who studied under Plato and tutored Alexander the Great."
+    },
+    {
+      "p": "This philosopher’s _Metaphysics_ explores what it means for something to exist, introducing a theory of four causes — material, formal, efficient, and final — to fully explain any object or event. His _Rhetoric_ remains a foundational text on the art of persuasion.",
+      "r": "For 10 points, name this Greek philosopher who founded the Lyceum and tutored Alexander the Great after studying under Plato."
+    },
+    {
+      "p": "This philosopher argued that governments come in paired forms, like kingship and its corrupt twin tyranny, in a work called _Politics_. He personally classified and dissected hundreds of species of animals, becoming one of history’s first true biologists.",
+      "r": "For 10 points, name this Greek philosopher, a student of Plato who tutored Alexander the Great and founded the Lyceum."
+    },
+    {
+      "p": "This philosopher’s followers were nicknamed the Peripatetics, supposedly for his habit of walking the grounds while he taught at a gymnasium outside Athens. He rejected his teacher’s theory of Forms and instead argued that the essence of a thing is found within the thing itself.",
+      "r": "For 10 points, name this Greek philosopher who founded that school, the Lyceum, after two decades studying under Plato."
+    },
+    {
+      "p": "This philosopher believed that happiness, or eudaimonia, could only be achieved by consistently choosing the “golden mean” between extremes, like courage between rashness and cowardice. His six works on logic are known together as the Organon, and he invented the syllogism as a tool for valid reasoning.",
+      "r": "Hired by Philip II of Macedon, he spent years tutoring a young prince who became Alexander the Great. For 10 points, name this Greek philosopher who studied under Plato and founded the Lyceum."
+    }
+  ],
+  "clues": [
+    {
+      "id": "student-of-plato",
+      "tier": "giveaway",
+      "t": "Studied under Plato at his Academy before founding his own school",
+      "k": [
+        "plato",
+        "academy"
+      ],
+      "n": 5,
+      "rabbit": "Plato"
+    },
+    {
+      "id": "lyceum",
+      "tier": "giveaway",
+      "t": "Founded his own school in Athens, the Lyceum, after years of study elsewhere",
+      "k": [
+        "lyceum",
+        "school",
+        "athens"
+      ],
+      "n": 5
+    },
+    {
+      "id": "alexander",
+      "tier": "giveaway",
+      "t": "Hired by Philip II of Macedon to tutor his son, who grew up to be known as Alexander the Great",
+      "k": [
+        "philip",
+        "alexander the great",
+        "tutor"
+      ],
+      "n": 3,
+      "rabbit": "Alexander the Great"
+    },
+    {
+      "id": "nicomachean",
+      "tier": "giveaway",
+      "t": "Wrote the _Nicomachean Ethics_, exploring what it takes to live a genuinely happy and flourishing life",
+      "k": [
+        "nicomachean ethics",
+        "happy"
+      ],
+      "n": 3
+    },
+    {
+      "id": "syllogism",
+      "tier": "giveaway",
+      "t": "Invented the syllogism, a basic form of logical argument still studied today",
+      "k": [
+        "syllogism",
+        "logical argument"
+      ],
+      "n": 2
+    },
+    {
+      "id": "golden-mean",
+      "tier": "middle",
+      "t": "Taught that virtues like courage sit at a “golden mean” between two extremes, such as rashness and cowardice",
+      "k": [
+        "golden mean",
+        "courage",
+        "extremes"
+      ],
+      "n": 1,
+      "rabbit": "Nicomachean Ethics"
+    },
+    {
+      "id": "eudaimonia",
+      "tier": "middle",
+      "t": "Described true happiness as eudaimonia, a state of flourishing achieved by living virtuously",
+      "k": [
+        "eudaimonia",
+        "flourishing",
+        "virtuously"
+      ],
+      "n": 1
+    },
+    {
+      "id": "four-causes",
+      "tier": "middle",
+      "t": "Explained that fully understanding anything requires knowing its four causes: material, formal, efficient, and final",
+      "k": [
+        "four causes",
+        "material",
+        "efficient"
+      ],
+      "n": 2
+    },
+    {
+      "id": "peripatetic",
+      "tier": "middle",
+      "t": "Led the Peripatetic school, said to be named for his habit of walking while lecturing at the Lyceum",
+      "k": [
+        "peripatetic",
+        "walking",
+        "lecturing"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fled-athens",
+      "tier": "middle",
+      "t": "Fled Athens after the death of his former student Alexander the Great, reportedly to keep the city from “sinning twice against philosophy”",
+      "k": [
+        "fled athens",
+        "sinning twice"
+      ],
+      "n": 1,
+      "rabbit": "Alexander the Great"
+    },
+    {
+      "id": "rejected-forms",
+      "tier": "middle",
+      "t": "Rejected his teacher’s Theory of Forms, instead arguing that the essence of a thing exists within the thing itself",
+      "k": [
+        "theory of forms",
+        "essence"
+      ],
+      "n": 1,
+      "rabbit": "Plato"
+    },
+    {
+      "id": "kingship-tyranny",
+      "tier": "middle",
+      "t": "Classified governments as correct or deviant, contrasting a just kingship with a selfish tyranny",
+      "k": [
+        "kingship",
+        "tyranny",
+        "governments"
+      ],
+      "n": 1,
+      "rabbit": "Politics"
+    },
+    {
+      "id": "organon",
+      "tier": "middle",
+      "t": "His six works on logic were later collected into a set called the Organon, which includes _Prior Analytics_",
+      "k": [
+        "organon",
+        "prior analytics",
+        "logic"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nicomachus-son",
+      "tier": "power",
+      "t": "_Nicomachean Ethics_ is likely named after his son, Nicomachus",
+      "k": [
+        "nicomachus",
+        "named after his son"
+      ],
+      "n": 1
+    },
+    {
+      "id": "enthymeme",
+      "tier": "power",
+      "t": "Defined the enthymeme, a logical argument that leaves one obvious premise unstated for the listener to fill in",
+      "k": [
+        "enthymeme",
+        "premise",
+        "unstated"
+      ],
+      "n": 1
+    },
+    {
+      "id": "solon",
+      "tier": "power",
+      "t": "Praised the Athenian statesman Solon as one of the best lawgivers in his political writings",
+      "k": [
+        "solon",
+        "lawgiver"
+      ],
+      "n": 1,
+      "rabbit": "Solon"
+    },
+    {
+      "id": "poetics",
+      "tier": "power",
+      "t": "Analyzed tragedy and drama in his work _Poetics_",
+      "k": [
+        "poetics",
+        "tragedy",
+        "drama"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rhetoric",
+      "tier": "power",
+      "t": "Wrote _Rhetoric_, a systematic study of the art of persuasion",
+      "k": [
+        "rhetoric",
+        "persuasion"
+      ],
+      "n": 2
+    },
+    {
+      "id": "metaphysics",
+      "tier": "power",
+      "t": "Explored “being” itself and the nature of substance in a work titled _Metaphysics_, possibly compiled from lecture notes",
+      "k": [
+        "metaphysics",
+        "substance",
+        "being"
+      ],
+      "n": 1
+    },
+    {
+      "id": "physics-legacy",
+      "tier": "power",
+      "t": "Wrote a work called _Physics_, discussing natural science and motion, that remained hugely influential into the Middle Ages",
+      "k": [
+        "physics",
+        "natural science",
+        "middle ages"
+      ],
+      "n": 1
+    },
+    {
+      "id": "temple-apollo",
+      "tier": "power",
+      "t": "Based his school at a gymnasium near a temple to the god Apollo, just outside Athens",
+      "k": [
+        "apollo",
+        "gymnasium",
+        "temple"
+      ],
+      "n": 1
+    },
+    {
+      "id": "biology",
+      "tier": "power",
+      "t": "Also studied the natural world directly, dissecting and classifying hundreds of animal species",
+      "k": [
+        "dissecting",
+        "classifying",
+        "animal species"
+      ],
+      "n": 0
+    },
+    {
+      "id": "politics-book",
+      "tier": "power",
+      "t": "Argued that “man is by nature a political animal” in his work _Politics_",
+      "k": [
+        "political animal",
+        "politics"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Teacher, student, or Aristotle himself?",
+    "body": "Aristotle studied under Plato, who studied under Socrates, and Aristotle later tutored Alexander the Great. A clue about founding the Academy or the theory of Forms means Plato; a clue about conquering Persia or founding an empire means Alexander the Great, not Aristotle.",
+    "fix": "Aristotle is linked to a school and ideas he originated himself: the Lyceum, the golden mean, and the four causes. If the clue credits someone with founding the Lyceum or defining the four causes, that is Aristotle, not his teacher or his student.",
+    "line": "Real answer line: <b><u>Aristotle</u></b> [or <u>Aristoteles</u>]."
+  },
+  "tests": {
+    "right": [
+      "Aristotle",
+      "aristotle",
+      "ARISTOTLE",
+      "Aristoteles",
+      "Aristotel"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Plato",
+      "Socrates",
+      "Alexander the Great",
+      "Nicomachus",
+      "Aristophanes"
+    ]
+  },
+  "freq": {
+    "rank": 5,
+    "count": 6,
+    "list": "Philosophy"
+  }
+}

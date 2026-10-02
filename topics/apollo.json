@@ -1,0 +1,398 @@
+{
+  "id": "apollo",
+  "name": "Apollo",
+  "mono": "APO",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Greek god of the sun, music, and prophecy · Twin brother of Artemis",
+  "dates": "Delphi oracle active for over 1,000 years",
+  "briefing": "Apollo could heal with a touch and cause a plague with an arrow, which made him one of the most feared and respected gods on Mount Olympus. Twin brother of Artemis and god of the sun, music, and prophecy, he killed the monstrous serpent Python at Delphi and set up the famous Oracle there, where a priestess answered questions from kings and ordinary people alike for over a thousand years.",
+  "answerHtml": "<b><u>Apollo</u></b> (accept <u>Phoebus Apollo</u> or <u>Apollon</u>)",
+  "accept": [
+    "apollo",
+    "phoebus apollo",
+    "apollon",
+    "phoebus"
+  ],
+  "prompt": [],
+  "reject": [
+    "artemis",
+    "helios",
+    "hermes",
+    "daphne",
+    "python",
+    "asclepius"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Apollo and Artemis: The Birth of the Twin Gods – Greek Mythology Stories",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=goff68zSTgs",
+      "note": "Animated story of how Leto gave birth to the twins Apollo and Artemis"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Birth of Apollo and Artemis: The Battle Against the Terrible Serpent Python – Greek Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=HgmiN_26Pic",
+      "note": "Another animated version that goes on to Apollo’s battle with the serpent Python"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Greek God Apollo: The Myths of the Olympian God of Music, Medicine, the Sun and Archery",
+      "source": "World History Encyclopedia",
+      "url": "https://www.youtube.com/watch?v=nntvIYtSY78",
+      "note": "The myths of the god of music, medicine, the sun, and archery"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Greeks and Romans - Pantheons Part 3: Crash Course World Mythology #9",
+      "source": "Crash Course World Mythology",
+      "url": "https://www.youtube.com/watch?v=XNCQ9w59I7M",
+      "note": "Bigger picture: the Olympian gods and how the Romans adopted them"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Greek Mythology: Apollo",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/ancient_greece/apollo.php",
+      "note": "Quick read: his birth, the Oracle of Delphi, and Daphne and the laurel tree"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Apollo",
+  "qb": {
+    "q": "Apollo",
+    "found": 7,
+    "tip": "One of the 7 results was actually a Poseidon tossup that merely accepts “Apollo” before the word “nephew” disambiguates it — that one isn’t in this sample. Watch for late-poetry sets that blur this god together with the sun-Titan Helios."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Hera forbade any land from sheltering this god’s mother, Leto, so she gave birth to this god and his twin sister on the floating island of Delos, which then became anchored to the sea floor. This god’s priestess at Delphi, the Pythia, delivered prophecies while seated on a tripod above a chasm.",
+      "r": "He slew the serpent Python to found that oracle at Delphi. For 10 points, name this Greek god of the sun, music, and prophecy, the twin brother of Artemis."
+    },
+    {
+      "p": "This god received his lyre from Hermes, who had stolen this god’s cattle and offered the tortoise-shell instrument as an apology. This god is often shown leading the nine Muses in song and dance, earning him the epithet “Musagetes” [“moo-sah-GAY-teez”].",
+      "r": "He gave King Midas a pair of donkey ears after Midas judged a music contest between this god and the god Pan in Pan’s favor. For 10 points, name this Greek god of music, the sun, and prophecy, twin brother of Artemis."
+    },
+    {
+      "p": "Later poets sometimes blur this god together with the sun-Titan Helios, though the two began as separate figures. This god’s arrows were said to spread plague and disease, though he was also honored as a god of healing.",
+      "r": "In the _Iliad_, he sent one such plague on the Greek army after Agamemnon refused to free the captured daughter of this god’s priest, Chryses [“KRY-seez”]. For 10 points, name this Greek god of the sun, prophecy, and music."
+    },
+    {
+      "p": "After Zeus killed this god’s son, the healer Asclepius, with a thunderbolt, this god avenged him by killing the Cyclopes who forged Zeus’s weapons and was forced to serve King Admetus as a shepherd for a year. The crow, the dolphin, and the python he slew are all sacred to this deity.",
+      "r": "He pursued the nymph Daphne, who turned into a laurel tree to escape him. For 10 points, name this twin brother of Artemis, the Greek god of music and prophecy."
+    },
+    {
+      "p": "In some myths, this god is the father of the legendary musician Orpheus. This god’s sacred animals include the crow, the dolphin, and the python he once killed at Delphi.",
+      "r": "After Niobe boasted of having more children than his mother, Leto, this god killed all of Niobe’s sons while his twin sister killed the daughters. For 10 points, name this Greek god of the sun, music, and prophecy."
+    },
+    {
+      "p": "This god accidentally killed his companion Hyacinthus with a thrown discus and transformed him into a flower. Hera had forbidden any land from sheltering this god’s mother, Leto, before his birth on Delos.",
+      "r": "This god once gave King Midas donkey ears for failing to recognize his musical skill in a contest against Pan. For 10 points, name this twin brother of Artemis, the Greek god of music, prophecy, and the sun."
+    },
+    {
+      "p": "This god gave the Trojan princess Cassandra the gift of prophecy, but after she rejected him, he made sure that no one would ever believe her true predictions. His own priestess at Delphi, the Pythia, answered questions from a tripod set over a chasm.",
+      "r": "This god slew the serpent Python to claim that oracle for himself. For 10 points, name this Greek god of prophecy, music, and the sun, twin brother of Artemis."
+    },
+    {
+      "p": "This god’s arrows could bring plague, though he was also a god of healing, and he is often pictured leading the nine Muses in song. After Zeus struck down this god’s son Asclepius with a thunderbolt, this god killed the Cyclopes in revenge and had to serve a mortal king as punishment.",
+      "r": "That king, Admetus, employed this god as a shepherd for a year. For 10 points, name this Greek god of the sun, music, and healing, twin brother of Artemis."
+    },
+    {
+      "p": "This deity is sometimes confused with the sun-Titan Helios in later poetry, even though the two were originally distinct gods. The crow and the dolphin both count among this god’s sacred animals.",
+      "r": "This god chased the nymph Daphne until she turned into a laurel tree rather than be caught. For 10 points, name this Greek god of the sun, prophecy, and music, the twin brother of Artemis."
+    },
+    {
+      "p": "This god traded his cattle to Hermes in exchange for the first lyre, which Hermes had built from a tortoise shell. In some stories, this god is the father of the musician Orpheus.",
+      "r": "Alongside his twin sister, this god killed all of Niobe’s children after she insulted their mother, Leto; this god specifically killed the sons. For 10 points, name this Greek god of music, prophecy, and the sun."
+    },
+    {
+      "p": "Leto could find no land willing to shelter her from Hera’s anger until she reached the floating island of Delos, where she gave birth to this god and his twin sister. His priestess at Delphi, the Pythia, delivered her prophecies from a tripod set above a chasm.",
+      "r": "He accidentally killed his companion Hyacinthus with a discus throw. For 10 points, name this Greek god of the sun, music, and prophecy, twin brother of Artemis."
+    },
+    {
+      "p": "This god’s priestess at Delphi sat on a tripod above a chasm to deliver her prophecies in his name. This deity’s arrows could bring plague, though he was also honored as a healer.",
+      "r": "He once used that power to punish the Greek army after Agamemnon angered this god’s priest, Chryses, by refusing to free his captured daughter. For 10 points, name this Greek god of prophecy, archery, and the sun."
+    },
+    {
+      "p": "After this god’s son Asclepius was killed by Zeus for using healing powers to raise the dead, this god killed the Cyclopes who forged Zeus’s thunderbolts in revenge and was forced to serve King Admetus as a shepherd for a year as punishment. This god also punished King Midas with donkey ears for siding with the god Pan in a musical contest.",
+      "r": "He is frequently shown leading the nine Muses in song and dance. For 10 points, name this twin brother of Artemis, the Greek god of music and healing."
+    },
+    {
+      "p": "This god is sometimes blended with the separate sun-Titan Helios in later Greek and Roman poetry. After the prophetess Cassandra rejected his advances, this god made sure nobody would ever believe her true predictions.",
+      "r": "This deity killed the serpent Python at Delphi to establish his famous oracle there. For 10 points, name this Greek god of the sun, prophecy, and music, twin brother of Artemis."
+    },
+    {
+      "p": "The python he killed, along with the crow and the dolphin, are all sacred to this god. Some myths name this deity as the father of the great musician Orpheus.",
+      "r": "This god pursued the nymph Daphne, who escaped by transforming into a laurel tree. For 10 points, name this twin brother of Artemis, the Greek god of music, prophecy, and the sun."
+    }
+  ],
+  "clues": [
+    {
+      "id": "sun-music-prophecy",
+      "tier": "giveaway",
+      "t": "Greek god of the sun, music, light, and prophecy",
+      "k": [
+        "sun",
+        "music",
+        "prophecy",
+        "light"
+      ],
+      "n": 6
+    },
+    {
+      "id": "twin-artemis",
+      "tier": "giveaway",
+      "t": "Twin brother of Artemis; son of Leto and Zeus, born on the island of Delos",
+      "k": [
+        "twin",
+        "artemis",
+        "leto",
+        "delos"
+      ],
+      "n": 6,
+      "rabbit": "Artemis"
+    },
+    {
+      "id": "lyre-hermes",
+      "tier": "giveaway",
+      "t": "Received his lyre from Hermes, who had stolen this god’s cattle and built the instrument from a tortoise shell",
+      "k": [
+        "lyre",
+        "hermes",
+        "tortoise"
+      ],
+      "n": 2
+    },
+    {
+      "id": "python-oracle",
+      "tier": "giveaway",
+      "t": "Slew the serpent Python at Delphi and founded the Oracle there",
+      "k": [
+        "python",
+        "delphi",
+        "oracle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "niobe-sons",
+      "tier": "giveaway",
+      "t": "Killed Niobe’s sons (while Artemis killed her daughters) after Niobe boasted of having more children than their mother, Leto",
+      "k": [
+        "niobe",
+        "sons",
+        "boasted"
+      ],
+      "n": 4
+    },
+    {
+      "id": "daphne",
+      "tier": "middle",
+      "t": "Pursued the nymph Daphne, who turned into a laurel tree to escape him",
+      "k": [
+        "daphne",
+        "laurel",
+        "pursued"
+      ],
+      "n": 4
+    },
+    {
+      "id": "asclepius-admetus",
+      "tier": "middle",
+      "t": "After Zeus killed his son, the healer Asclepius, killed the Cyclopes who forged Zeus’s thunderbolts and was forced to serve King Admetus as a shepherd",
+      "k": [
+        "asclepius",
+        "admetus",
+        "cyclopes"
+      ],
+      "n": 3
+    },
+    {
+      "id": "midas-ears",
+      "tier": "middle",
+      "t": "Gave King Midas donkey ears after Midas judged a music contest between him and the god Pan in Pan’s favor",
+      "k": [
+        "midas",
+        "donkey ears",
+        "pan"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hyacinthus",
+      "tier": "middle",
+      "t": "Accidentally killed his companion Hyacinthus with a discus throw and transformed him into the hyacinth flower",
+      "k": [
+        "hyacinthus",
+        "discus",
+        "flower"
+      ],
+      "n": 2
+    },
+    {
+      "id": "chryses-plague",
+      "tier": "middle",
+      "t": "In the _Iliad_, sent a plague on the Greek army after Agamemnon refused to free the captured daughter of his priest, Chryses",
+      "k": [
+        "chryses",
+        "plague",
+        "agamemnon"
+      ],
+      "n": 1,
+      "rabbit": "Iliad"
+    },
+    {
+      "id": "troy-walls",
+      "tier": "middle",
+      "t": "Along with Poseidon, built the walls of Troy for King Laomedon, who then refused to pay them",
+      "k": [
+        "troy",
+        "laomedon",
+        "poseidon"
+      ],
+      "n": 0,
+      "rabbit": "Poseidon"
+    },
+    {
+      "id": "cassandra",
+      "tier": "middle",
+      "t": "Gave the Trojan princess Cassandra the gift of prophecy, but after she rejected him, cursed her so that no one would ever believe her true predictions",
+      "k": [
+        "cassandra",
+        "prophecy",
+        "cursed"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pythia",
+      "tier": "power",
+      "t": "His priestess at Delphi, the Pythia, delivered prophecies while seated on a tripod over a chasm",
+      "k": [
+        "pythia",
+        "tripod",
+        "chasm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "muses-leader",
+      "tier": "power",
+      "t": "Often shown leading the nine Muses in song and dance, earning the epithet “Musagetes” [“moo-sah-GAY-teez”]",
+      "k": [
+        "muses",
+        "musagetes",
+        "leading"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orpheus-father",
+      "tier": "power",
+      "t": "In some myths, the father of the legendary musician Orpheus",
+      "k": [
+        "orpheus",
+        "father",
+        "musician"
+      ],
+      "n": 0,
+      "rabbit": "Orpheus and Eurydice"
+    },
+    {
+      "id": "helios-confusion",
+      "tier": "power",
+      "t": "Sometimes conflated in later poetry with the sun-Titan Helios, though they were originally separate gods",
+      "k": [
+        "helios",
+        "sun titan",
+        "conflated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archer-god",
+      "tier": "power",
+      "t": "Shoots arrows that spread disease as punishment, yet was also honored as a god of healing",
+      "k": [
+        "arrows",
+        "disease",
+        "healing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "letos-flight",
+      "tier": "power",
+      "t": "Leto gave birth to him and his twin on Delos after Hera forbade any land from sheltering her",
+      "k": [
+        "hera",
+        "forbade",
+        "delos"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sacred-animals",
+      "tier": "power",
+      "t": "Sacred animals include the crow, the dolphin, and the python he killed",
+      "k": [
+        "crow",
+        "dolphin",
+        "sacred animals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "delos-floating",
+      "tier": "power",
+      "t": "Born on Delos, a floating island that became anchored to the sea floor so it could safely host the birth",
+      "k": [
+        "delos",
+        "floating",
+        "anchored"
+      ],
+      "n": 0,
+      "rabbit": "Artemis"
+    }
+  ],
+  "trap": {
+    "title": "Sun god… or is he?",
+    "body": "Later Greek and Roman poetry often calls Apollo the sun god, but in the oldest myths, the actual Titan of the sun is Helios, a separate figure who drives a sun chariot across the sky. The two gods get blended together in many retellings, so a clue just about “the sun” could mean either one unless it also mentions music, prophecy, archery, or his twin sister Artemis. He also shares an early lead-in with his uncle Poseidon: both gods built the walls of Troy for King Laomedon.",
+    "fix": "Don’t buzz on “sun god” alone — wait for a second clue (music, prophecy, Delphi, the lyre, or Artemis) that points specifically to Apollo rather than Helios. On a Troy-walls clue, listen for whether the question says “plague” (Apollo) or “sea monster” (Poseidon) before you answer.",
+    "line": "Real answer line: <b><u>Apollo</u></b> (accept <u>Apollon</u> or <u>Phoebus Apollo</u>)."
+  },
+  "tests": {
+    "right": [
+      "Apollo",
+      "apollo",
+      "Apolo",
+      "Phoebus Apollo",
+      "Apollon"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Artemis",
+      "Helios",
+      "Hermes",
+      "Daphne",
+      "Python",
+      "Asclepius"
+    ]
+  },
+  "freq": {
+    "rank": 19,
+    "count": 5,
+    "list": "Mythology"
+  }
+}

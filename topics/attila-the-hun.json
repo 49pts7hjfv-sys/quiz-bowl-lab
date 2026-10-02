@@ -1,0 +1,386 @@
+{
+  "id": "attila-the-hun",
+  "name": "Attila the Hun",
+  "mono": "ATH",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Nomadic ruler of the Hunnic Empire · Feared as the “Scourge of God”",
+  "dates": "c. 406–453",
+  "briefing": "Attila led the nomadic Huns on terrifying cavalry raids across the Roman Empire, earning the nickname “Scourge of God.” After years of collecting tribute from the Eastern Romans, he invaded Gaul in 451 but suffered his only major defeat at the Battle of the Catalaunian Plains. He invaded Italy the next year and nearly marched on Rome, until Pope Leo I persuaded him to turn back. Attila died suddenly in 453, and his empire collapsed soon after.",
+  "answerHtml": "<b><u>Attila the Hun</u></b> (or <u>Attila</u>)",
+  "accept": [
+    "attila the hun",
+    "attila",
+    "king attila",
+    "attila hun"
+  ],
+  "prompt": [
+    "king of the huns",
+    "leader of the huns",
+    "ruler of the huns"
+  ],
+  "reject": [
+    "bleda",
+    "genghis khan",
+    "aetius",
+    "flavius aetius",
+    "theodoric",
+    "theodoric i"
+  ],
+  "tests": {
+    "right": [
+      "Attila the Hun",
+      "Attila",
+      "King Attila",
+      "Atila the Hun"
+    ],
+    "prompt": [
+      "King of the Huns"
+    ],
+    "wrong": [
+      "Bleda",
+      "Genghis Khan",
+      "Aetius",
+      "Theodoric"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Barbarians Rising: Attila, King of the Huns",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=DnW6H0EEBBI",
+      "note": "Dramatized HISTORY channel clip on Attila’s rise and invasions (battle scenes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Attila and the Huns (Fall of the Roman Empire) – Origin of the Hun Empire Explained",
+      "source": "Epimetheus",
+      "url": "https://www.youtube.com/watch?v=NQImNDTC4rE",
+      "note": "Narrated explainer: where the Huns came from and how Attila took on Rome"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Attila the Hun",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=TYBI2gDHUZQ",
+      "note": "Full-length documentary on Attila’s life, invasions, and death"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Attila",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Attila/273003",
+      "note": "Student encyclopedia · his rise, his invasions of the Balkans, Gaul, and Italy, and his death"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Attila",
+  "qb": {
+    "q": "Attila",
+    "found": 4,
+    "tip": "Only 4 Middle School/Easy High School tossups came back, so a Regular High School search was added too; all 13 results were clearly about him, no filtering needed."
+  },
+  "sample": {
+    "n": 13,
+    "note": "13 real QBReader tossups (4 Middle School/Easy High School + 9 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This ruler’s son was killed by a coalition under the Gepid [“JEP-id”] king Ardaric [“AR-duh-rik”] at the Battle of Nedao, which shattered this man’s empire soon after his death. Around 445, this king had his brother Bleda killed so he could rule alone.",
+      "r": "A Roman princess named Honoria’s gift of a ring gave this ruler an excuse to invade Gaul. For 10 points, name this 5th-century king nicknamed the “Scourge of God.”"
+    },
+    {
+      "p": "A Roman diplomat named Priscus visited this ruler’s court and left one of the few eyewitness descriptions of him. This king is remembered in the medieval German epic _Nibelungenlied_ as a character named Etzel.",
+      "r": "This ruler was turned back from attacking Rome by Pope Leo I. For 10 points, name this king of the Huns, defeated at the Battle of the Catalaunian Plains."
+    },
+    {
+      "p": "This king defeated the Roman general Arnegisclus [“ar-nuh-JIS-klus”] at the Battle of the Utus. Early in his reign, this ruler and his brother Bleda negotiated the Treaty of Margus with the Eastern Roman Empire, winning a steep yearly tribute in gold.",
+      "r": "This king later invaded Gaul after Honoria sent him a ring. For 10 points, name this 5th-century ruler nicknamed the “Scourge of God.”"
+    },
+    {
+      "p": "During his invasion of Gaul, the Alan king Sangiban [“SAN-jih-ban”] promised to hand this ruler the city of Aurelianum [“or-ee-lee-AH-num”], or Orléans. This king based his empire on the Hungarian plain, once called Pannonia, ruling a mix of Huns and conquered Germanic peoples.",
+      "r": "This king lost his only major battle at the Catalaunian Plains. For 10 points, name this ruler of the Huns, nicknamed the “Scourge of God.”"
+    },
+    {
+      "p": "This king reportedly died of a severe nosebleed on the night of his wedding to a woman named Ildico. After this ruler’s death, a revolt led by the Gepid king Ardaric crushed his sons at the Battle of Nedao, ending Hunnic power in Europe.",
+      "r": "This king had earlier been turned back from Rome by Pope Leo I. For 10 points, name this 5th-century ruler, the most famous king of the Huns."
+    },
+    {
+      "p": "This ruler forced the Eastern Roman Empire to pay heavy yearly tribute in gold to avoid attack, a policy his brother Bleda had also pursued before this man had him killed. This king led fast-moving mounted warriors who had migrated into Europe from Central Asia.",
+      "r": "This ruler was defeated at the Battle of the Catalaunian Plains in 451. For 10 points, name this king nicknamed the “Scourge of God.”"
+    },
+    {
+      "p": "This ruler’s early attacks on the Eastern Roman Empire helped push Constantinople to strengthen its sea walls against future sieges. This king interpreted a ring sent by the Roman princess Honoria as a marriage proposal, using it as an excuse to invade Gaul.",
+      "r": "A combined Roman and Visigothic army defeated this king at the Catalaunian Plains. For 10 points, name this 5th-century ruler of the Huns."
+    },
+    {
+      "p": "This king’s empire, built on the Hungarian plain once called Pannonia, included conquered Gepids, Ostrogoths, and other Germanic peoples alongside his own Huns. A Roman diplomat named Priscus recorded a famous eyewitness account of a feast at this ruler’s court.",
+      "r": "Pope Leo I convinced this king not to attack Rome in 452. For 10 points, name this ruler of the Huns, nicknamed the “Scourge of God.”"
+    },
+    {
+      "p": "This king defeated the Roman general Arnegisclus at the Battle of the Utus before later invading Gaul and Italy. This ruler’s court and customs were famously described by the Roman diplomat Priscus, who visited on an embassy.",
+      "r": "This king’s empire collapsed after the Battle of Nedao, soon after his death in 453. For 10 points, name this ruler nicknamed the “Scourge of God.”"
+    },
+    {
+      "p": "This ruler and his brother Bleda signed the Treaty of Margus with the Eastern Romans in 435, winning tribute in gold. This king later had Bleda killed, around 445, so that he alone would rule the Huns.",
+      "r": "This king was defeated at the Catalaunian Plains by Flavius Aetius and Theodoric I. For 10 points, name this 5th-century ruler, the most famous king of the Huns."
+    },
+    {
+      "p": "The Alan king Sangiban promised this ruler the city of Aurelianum during his invasion of Gaul, though the city held out instead. This king’s forces were turned back at the Catalaunian Plains, his only major defeat.",
+      "r": "This ruler died suddenly in 453 on the night of his wedding to Ildico. For 10 points, name this king of the Huns, nicknamed the “Scourge of God.”"
+    },
+    {
+      "p": "This king is remembered as the character Etzel in the German epic _Nibelungenlied_. After invading Gaul, this ruler turned south into Italy in 452 but was persuaded to withdraw by Pope Leo I.",
+      "r": "This king’s empire fell apart after a revolt crushed his sons at the Battle of Nedao. For 10 points, name this 5th-century ruler of the Huns."
+    },
+    {
+      "p": "This ruler forced the Eastern Roman Empire to pay steep tribute after negotiating the Treaty of Margus with his brother and co-ruler, Bleda. This king’s mounted warriors had migrated into Europe from Central Asia, terrifying Roman and Germanic peoples alike.",
+      "r": "This ruler interpreted a ring from the Roman princess Honoria as a marriage proposal and invaded Gaul. For 10 points, name this king nicknamed the “Scourge of God.”"
+    },
+    {
+      "p": "This king’s early sieges against the Eastern Roman Empire helped prompt Constantinople to reinforce its sea walls. This ruler based his court on the Hungarian plain, in the region once known as Pannonia.",
+      "r": "This king reportedly died of a nosebleed on his wedding night in 453. For 10 points, name this ruler of the Huns, defeated at the Catalaunian Plains."
+    },
+    {
+      "p": "This ruler defeated Arnegisclus at the Battle of the Utus and later demanded the city of Aurelianum from the Alan king Sangiban during his invasion of Gaul. Pope Leo I later talked this king out of attacking Rome.",
+      "r": "This king’s empire collapsed after the Battle of Nedao, not long after his sudden death in 453. For 10 points, name this 5th-century ruler nicknamed the “Scourge of God.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "scourge-of-god",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Scourge of God” for his terrifying invasions of the Roman Empire",
+      "k": [
+        "scourge of god",
+        "terrifying",
+        "invasions"
+      ],
+      "n": 9
+    },
+    {
+      "id": "leader-of-huns",
+      "tier": "giveaway",
+      "t": "Ruled the nomadic Huns as their most famous king, from 434 until his death in 453",
+      "k": [
+        "nomadic huns",
+        "434",
+        "453"
+      ],
+      "n": 4
+    },
+    {
+      "id": "catalaunian-plains",
+      "tier": "giveaway",
+      "t": "Suffered his only major defeat at the Battle of the Catalaunian Plains, also called the Battle of Chalons, in 451",
+      "k": [
+        "catalaunian plains",
+        "chalons",
+        "451"
+      ],
+      "n": 4
+    },
+    {
+      "id": "nosebleed-death",
+      "tier": "giveaway",
+      "t": "Died suddenly in 453, on the night of his wedding to Ildico, reportedly from a severe nosebleed",
+      "k": [
+        "ildico",
+        "nosebleed",
+        "wedding night"
+      ],
+      "n": 3
+    },
+    {
+      "id": "honoria",
+      "tier": "middle",
+      "t": "Interpreted a ring sent by the Roman princess Honoria as a marriage proposal, using it as an excuse to invade Gaul",
+      "k": [
+        "honoria",
+        "marriage proposal",
+        "gaul"
+      ],
+      "n": 3
+    },
+    {
+      "id": "aetius-theodoric",
+      "tier": "middle",
+      "t": "Defeated at the Catalaunian Plains by a combined Roman and Visigothic army under Flavius Aetius and King Theodoric I",
+      "k": [
+        "flavius aetius",
+        "theodoric",
+        "visigothic"
+      ],
+      "n": 4
+    },
+    {
+      "id": "leo-i",
+      "tier": "middle",
+      "t": "Invaded Italy in 452 but was talked out of attacking Rome by Pope Leo I",
+      "k": [
+        "pope leo",
+        "italy",
+        "452"
+      ],
+      "n": 3
+    },
+    {
+      "id": "bleda-brother",
+      "tier": "middle",
+      "t": "Co-ruled the Huns at first alongside his brother Bleda",
+      "k": [
+        "co-ruled",
+        "brother",
+        "bleda"
+      ],
+      "n": 3
+    },
+    {
+      "id": "tribute",
+      "tier": "middle",
+      "t": "Forced the Eastern Roman Empire to pay heavy yearly tribute in gold to avoid attack",
+      "k": [
+        "tribute",
+        "gold",
+        "eastern roman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nomad-cavalry",
+      "tier": "middle",
+      "t": "Led fast-moving mounted warriors who had migrated into Europe from Central Asia",
+      "k": [
+        "mounted warriors",
+        "central asia",
+        "migrated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bleda-murder",
+      "tier": "power",
+      "t": "Later had Bleda killed, around 445, to rule the Huns alone",
+      "k": [
+        "killed",
+        "445",
+        "rule alone"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nedao",
+      "tier": "power",
+      "t": "After his death, a revolt by subject peoples under the Gepid king Ardaric crushed his sons at the Battle of Nedao in 454, ending Hunnic power in Europe",
+      "k": [
+        "gepid",
+        "ardaric",
+        "nedao"
+      ],
+      "n": 2
+    },
+    {
+      "id": "constantinople-walls",
+      "tier": "power",
+      "t": "Earlier attacks on the Eastern Roman Empire helped push Constantinople to strengthen its sea walls",
+      "k": [
+        "constantinople",
+        "sea walls",
+        "eastern roman"
+      ],
+      "n": 1
+    },
+    {
+      "id": "utus",
+      "tier": "power",
+      "t": "Defeated the Roman general Arnegisclus at the Battle of the Utus",
+      "k": [
+        "arnegisclus",
+        "utus",
+        "roman general"
+      ],
+      "n": 2
+    },
+    {
+      "id": "margus",
+      "tier": "power",
+      "t": "Negotiated the Treaty of Margus with the Eastern Romans, securing yearly tribute payments",
+      "k": [
+        "treaty of margus",
+        "tribute payments",
+        "eastern romans"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nibelungenlied",
+      "tier": "power",
+      "t": "Appears as a character named Etzel in the medieval German epic the _Nibelungenlied_",
+      "k": [
+        "etzel",
+        "nibelungenlied",
+        "german epic"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sangiban-orleans",
+      "tier": "power",
+      "t": "Was promised the city of Aurelianum, or Orléans, by the Alan king Sangiban during his invasion of Gaul",
+      "k": [
+        "sangiban",
+        "aurelianum",
+        "alan king"
+      ],
+      "n": 1
+    },
+    {
+      "id": "priscus",
+      "tier": "power",
+      "t": "A Roman diplomat named Priscus visited his court and left one of the few eyewitness descriptions of him",
+      "k": [
+        "priscus",
+        "eyewitness",
+        "roman diplomat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pannonia",
+      "tier": "power",
+      "t": "Ruled from a base on the Hungarian plain, in the region once called Pannonia",
+      "k": [
+        "pannonia",
+        "hungarian plain",
+        "base"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rugila",
+      "tier": "power",
+      "t": "Succeeded his uncle Rugila in 434, at first sharing power with his brother Bleda",
+      "k": [
+        "rugila",
+        "succeeded",
+        "uncle"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Which “barbarian” king?",
+    "body": "Quiz bowl has several famous conquerors who get mixed up. Attila led the Huns and was stopped short of Rome by Pope Leo I. Alaric, a Visigoth king, actually sacked Rome in 410, decades before Attila’s reign. Genghis Khan led the Mongols nearly 800 years later, and Theodoric I, who died fighting Attila at the Catalaunian Plains, was a Visigoth ally of Rome, not a Hun.",
+    "fix": "“Scourge of God,” the Huns, Honoria’s ring, and the Catalaunian Plains all mean Attila. An actual sack of Rome means Alaric or the later Vandals, not Attila, who never took the city.",
+    "line": "Real answer line: <b><u>Attila the Hun</u></b> (or <u>Attila</u>)"
+  },
+  "freq": {
+    "rank": 35,
+    "count": 3,
+    "list": "European History"
+  }
+}

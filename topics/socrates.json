@@ -1,0 +1,385 @@
+{
+  "id": "socrates",
+  "name": "Socrates",
+  "mono": "SOC",
+  "category": "Philosophy",
+  "qbCategory": "Philosophy",
+  "kicker": "Ancient Greek philosopher · Taught by asking tough questions, not lecturing",
+  "dates": "c. 470–399 BCE",
+  "briefing": "Socrates never wrote a single word, yet he’s often called the father of Western philosophy. He spent his days in the markets of Athens asking ordinary people hard questions about justice, courage, and the good life, daring them to defend what they thought they knew. His constant questioning eventually got him arrested, tried, and sentenced to death by poison.",
+  "answerHtml": "<b><u>Socrates</u></b>",
+  "accept": [
+    "socrates",
+    "socrates of athens"
+  ],
+  "prompt": [],
+  "reject": [
+    "plato",
+    "aristotle",
+    "xenophon"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "This tool will help improve your critical thinking - Erick Wilberding",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=vNDYUlxNIAA",
+      "note": "Short animated lesson · the Socratic method: how Socrates used questions to test ideas"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Classical Greek Philosophy: Socrates and Plato",
+      "source": "Professor Dave Explains",
+      "url": "https://www.youtube.com/watch?v=NpV4DWL0bSw",
+      "note": "Bigger picture · Socrates’s life and method, then his student Plato, in a classroom-style lesson"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Socrates Biography",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/ancient_greece/socrates.php",
+      "note": "Quick read: his life, the Socratic method, and his trial and death"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Socrates",
+  "qb": {
+    "q": "Socrates",
+    "found": 6,
+    "tip": "All 6 hits are clearly about him. Several lean on specific Plato dialogues (_Meno_, _Euthyphro_, _Crito_) by name, so knowing which dialogue goes with which idea is worth the trouble."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This philosopher claimed to be guided by a private inner voice, his daimonion, that only ever warned him away from mistakes. In Aristophanes’ comedy _The Clouds_, he is mocked as a fraud who hangs suspended in a basket at his “Think-shop,” teaching students to make a weak argument beat a strong one.",
+      "r": "He married a woman named Xanthippe and had three sons. For 10 points, name this Athenian philosopher sentenced to death by drinking hemlock, the teacher of Plato."
+    },
+    {
+      "p": "In one dialogue, this philosopher leads an enslaved boy through a geometry problem about doubling a square’s area, using it to argue that all learning is really remembering. A second source for his ideas, besides Plato, is the _Memorabilia_, written by his student Xenophon.",
+      "r": "He never wrote a word himself. For 10 points, name this Athenian philosopher put to death by drinking hemlock, best known through the dialogues of Plato."
+    },
+    {
+      "p": "In Plato’s _Euthyphro_, this man questions a religious expert about the nature of holiness without ever reaching a clear answer. After the Oracle at Delphi told his friend Chaerephon that no one in Athens was wiser than him, he set out to test that claim by questioning everyone he met.",
+      "r": "A method of teaching through careful cross-examination still carries his name today. For 10 points, identify this Athenian philosopher who was a teacher of Plato."
+    },
+    {
+      "p": "Put on trial in 399 BCE on charges brought by Meletus and joined by Anytus and Lycon, this man delivered a defense speech recorded in Plato’s _Apology_, where he compared himself to a gadfly stinging a lazy horse to keep it alert.",
+      "r": "He supposedly told the jury that “the unexamined life is not worth living.” For 10 points, name this philosopher convicted of corrupting the youth of Athens and sentenced to drink poison hemlock."
+    },
+    {
+      "p": "Alcibiades compared this man’s appearance to a Silenus statue — ugly on the outside but full of wisdom within — in Plato’s _Symposium_. Reportedly the son of a stonemason named Sophroniscus and a midwife named Phaenarete, this thinker later compared his own teaching style to his mother’s profession.",
+      "r": "He claimed that true wisdom begins with admitting, “I know that I know nothing.” For 10 points, name this Athenian philosopher, the teacher of Plato."
+    },
+    {
+      "p": "This man served Athens as a hoplite soldier in the Peloponnesian War, fighting at Potidaea, Delium, and Amphipolis. Friends said he could stand motionless for an entire day lost in thought, and he claimed an inner sign, his daimonion, warned him whenever he was about to make a mistake.",
+      "r": "He wrote nothing himself, so almost everything known about him comes from the dialogues of a devoted student. For 10 points, name this philosopher, the teacher of Plato, who died by drinking hemlock."
+    },
+    {
+      "p": "In Plato’s _Crito_, this man turns down a wealthy friend’s offer to help him escape from prison, arguing that a citizen owes obedience to the laws of his city even when those laws treat him unjustly. In the _Phaedo_, he spends his final hours calmly discussing whether the soul survives death.",
+      "r": "For 10 points, name this Athenian philosopher who accepted his death sentence and drank poison hemlock rather than flee into exile."
+    },
+    {
+      "p": "This man compared himself to a midwife who helps other people “give birth” to good ideas rather than ever claiming to have answers of his own. He is remembered mainly through the dialogues of one devoted student, since he himself never published a single written work.",
+      "r": "For 10 points, name this Athenian philosopher executed by hemlock, whose most famous student was Plato."
+    },
+    {
+      "p": "This man’s cross-examining style of teaching — asking question after question until a person’s stated belief collapsed into contradiction — is called the elenchus. Aristophanes mocked this same thinker in the comedy _The Clouds_ as a con artist who hangs suspended in a basket at his own school.",
+      "r": "For 10 points, name this Athenian philosopher sentenced to death for corrupting the youth, a teacher of Plato known for his probing method of questioning."
+    },
+    {
+      "p": "According to one dialogue, this man guided an enslaved boy through doubling the area of a square without ever directly teaching him, concluding that the boy already “knew” the answer and was simply remembering it. He claimed that the Oracle at Delphi had called him the wisest man in Athens, a claim he spent his life trying to disprove.",
+      "r": "For 10 points, name this philosopher who turned that search into a habit of public questioning, and who was later sentenced to death by drinking hemlock."
+    },
+    {
+      "p": "This man’s three sons were reportedly present in his cell on the day of his execution, described in Plato’s _Phaedo_. He was married to a woman named Xanthippe, later remembered — fairly or not — as famously hard to live with.",
+      "r": "Facing a jury that convicted him of impiety and corrupting Athens’s youth, he calmly accepted his sentence. For 10 points, name this philosopher who drank poison hemlock rather than beg for mercy or flee the city."
+    },
+    {
+      "p": "This man once stood in an army camp so lost in thought that, according to one story, he didn’t move for a full day and night. In Plato’s _Symposium_, Alcibiades jokes that this man resembles an ugly little statue of a satyr that opens to reveal golden images inside.",
+      "r": "He claimed his own wisdom amounted only to knowing that he knew nothing. For 10 points, name this Athenian philosopher and teacher of Plato, who was sentenced to death by hemlock."
+    },
+    {
+      "p": "This man asked a religious expert named Euthyphro to define holiness on the steps of a courthouse, but their conversation ends without settling the question. He also questioned politicians, poets, and craftsmen around Athens, concluding that each only thought he knew more than he actually did.",
+      "r": "A jury of Athenian citizens found him guilty of impiety and corrupting the young. For 10 points, name this philosopher who accepted a death sentence of drinking hemlock rather than flee Athens."
+    },
+    {
+      "p": "This philosopher’s father, Sophroniscus, was said to be a stonemason, while his mother, Phaenarete, worked as a midwife — a profession he later compared to his own habit of helping others deliver good ideas. He also fought for Athens as a foot soldier in the Peloponnesian War.",
+      "r": "Later tried on charges brought by Meletus, Anytus, and Lycon, he refused his friend Crito’s offer to help him escape prison. For 10 points, name this philosopher who drank hemlock after being convicted of corrupting Athens’s youth."
+    },
+    {
+      "p": "Rather than lecture, this man preferred to walk through the Athenian marketplace asking ordinary citizens to defend definitions of justice, courage, and piety, often reducing them to confused silence. He believed an inner divine sign warned him away from wrongdoing, though it never told him what to actually do.",
+      "r": "He taught Plato, who recorded his conversations since he never wrote anything down himself. For 10 points, name this philosopher who was sentenced to death and drank poison hemlock after being convicted of corrupting the youth of Athens."
+    }
+  ],
+  "clues": [
+    {
+      "id": "hemlock",
+      "tier": "giveaway",
+      "t": "Sentenced to death and drank poison hemlock after being convicted of corrupting the youth of Athens",
+      "k": [
+        "hemlock",
+        "corrupting",
+        "convicted"
+      ],
+      "n": 3
+    },
+    {
+      "id": "teacher-of-plato",
+      "tier": "giveaway",
+      "t": "Taught Plato, who recorded his ideas in dialogues since he wrote nothing down himself",
+      "k": [
+        "plato",
+        "dialogues",
+        "wrote nothing"
+      ],
+      "n": 3,
+      "rabbit": "Plato"
+    },
+    {
+      "id": "unexamined-life",
+      "tier": "giveaway",
+      "t": "Said that “the unexamined life is not worth living” at his own trial, according to Plato’s _Apology_",
+      "k": [
+        "unexamined life",
+        "apology",
+        "trial"
+      ],
+      "n": 0
+    },
+    {
+      "id": "method",
+      "tier": "giveaway",
+      "t": "Gave his name to a method of teaching by asking a series of probing questions instead of lecturing",
+      "k": [
+        "probing questions",
+        "lecturing",
+        "method of teaching"
+      ],
+      "n": 1
+    },
+    {
+      "id": "know-nothing",
+      "tier": "giveaway",
+      "t": "Claimed that true wisdom begins with admitting, “I know that I know nothing”",
+      "k": [
+        "know nothing",
+        "wisdom",
+        "admitting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gadfly",
+      "tier": "middle",
+      "t": "Compared himself to a gadfly stinging a lazy horse, meaning Athens, to keep the city alert, in Plato’s _Apology_",
+      "k": [
+        "gadfly",
+        "apology",
+        "lazy horse"
+      ],
+      "n": 1
+    },
+    {
+      "id": "euthyphro",
+      "tier": "middle",
+      "t": "In Plato’s _Euthyphro_, questioned a man about the meaning of holiness without ever reaching a clear answer",
+      "k": [
+        "euthyphro",
+        "holiness"
+      ],
+      "n": 1,
+      "rabbit": "Euthyphro (dialogue)"
+    },
+    {
+      "id": "oracle",
+      "tier": "middle",
+      "t": "After the Oracle at Delphi told his friend Chaerephon that no one was wiser than him, he went around Athens testing that claim",
+      "k": [
+        "oracle",
+        "delphi",
+        "chaerephon"
+      ],
+      "n": 1
+    },
+    {
+      "id": "trial-accusers",
+      "tier": "middle",
+      "t": "Put on trial in 399 BCE after charges brought by Meletus, joined by Anytus and Lycon",
+      "k": [
+        "meletus",
+        "anytus",
+        "lycon"
+      ],
+      "n": 1
+    },
+    {
+      "id": "refused-escape",
+      "tier": "middle",
+      "t": "In Plato’s _Crito_, turned down his friend Crito’s offer to help him escape prison, saying he owed obedience to Athens’ laws",
+      "k": [
+        "crito",
+        "escape",
+        "laws"
+      ],
+      "n": 0,
+      "rabbit": "Crito (dialogue)"
+    },
+    {
+      "id": "physical-look",
+      "tier": "middle",
+      "t": "Described as having a snub nose and a potbelly; Alcibiades compared him to a Silenus statue in Plato’s _Symposium_",
+      "k": [
+        "silenus",
+        "symposium",
+        "alcibiades"
+      ],
+      "n": 0
+    },
+    {
+      "id": "midwife",
+      "tier": "middle",
+      "t": "Compared himself to a midwife who helps other people “give birth” to good ideas, a technique called maieutics",
+      "k": [
+        "midwife",
+        "maieutics",
+        "give birth"
+      ],
+      "n": 1,
+      "rabbit": "Theaetetus (dialogue)"
+    },
+    {
+      "id": "meno",
+      "tier": "power",
+      "t": "In Plato’s _Meno_, led an enslaved boy to double the area of a square, arguing that learning is really remembering",
+      "k": [
+        "meno",
+        "square",
+        "remembering"
+      ],
+      "n": 1
+    },
+    {
+      "id": "elenchus",
+      "tier": "power",
+      "t": "Practiced the elenchus, cross-examining a person’s claim with more questions until it collapsed into contradiction",
+      "k": [
+        "elenchus",
+        "cross-examining",
+        "contradiction"
+      ],
+      "n": 0
+    },
+    {
+      "id": "peloponnesian",
+      "tier": "power",
+      "t": "Served Athens as a hoplite soldier in the Peloponnesian War, fighting at Potidaea, Delium, and Amphipolis",
+      "k": [
+        "peloponnesian war",
+        "hoplite",
+        "potidaea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "daimonion",
+      "tier": "power",
+      "t": "Described an inner warning voice, his daimonion, that stopped him from wrong actions but never told him what to do",
+      "k": [
+        "daimonion",
+        "warning voice",
+        "wrong actions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clouds",
+      "tier": "power",
+      "t": "Mocked as a fraud running a “Think-shop” who could make the weaker argument win, in Aristophanes’ comedy _The Clouds_",
+      "k": [
+        "clouds",
+        "aristophanes",
+        "think-shop"
+      ],
+      "n": 0,
+      "rabbit": "Aristophanes"
+    },
+    {
+      "id": "xenophon-source",
+      "tier": "power",
+      "t": "Also described in the _Memorabilia_, written by a second student besides Plato named Xenophon",
+      "k": [
+        "xenophon",
+        "memorabilia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "family",
+      "tier": "power",
+      "t": "Married to Xanthippe and had three sons, who were present at his deathbed in Plato’s _Phaedo_",
+      "k": [
+        "xanthippe",
+        "phaedo",
+        "sons"
+      ],
+      "n": 0,
+      "rabbit": "Phaedo (dialogue)"
+    },
+    {
+      "id": "parents",
+      "tier": "power",
+      "t": "Son of a stonemason named Sophroniscus and a midwife named Phaenarete",
+      "k": [
+        "sophroniscus",
+        "phaenarete",
+        "stonemason"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phaedo",
+      "tier": "power",
+      "t": "Spent his final hours calmly discussing the immortality of the soul with friends, as described in Plato’s _Phaedo_",
+      "k": [
+        "phaedo",
+        "immortality",
+        "soul"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Socrates, Plato, or Aristotle?",
+    "body": "These three Greek philosophers form a teaching chain: Socrates taught Plato, and Plato taught Aristotle. A clue mentioning the Lyceum, the four causes, or tutoring Alexander the Great means Aristotle, not Socrates. A clue mentioning the theory of Forms, the _Republic_, or an Academy almost always means Plato.",
+    "fix": "Socrates is the one who never wrote anything down. If the clue says this person authored or wrote a philosophical treatise, the answer is Plato or Aristotle, not Socrates — Socrates only ever appears as a character inside someone else’s writing.",
+    "line": "Real answer line: <b><u>Socrates</u></b>."
+  },
+  "tests": {
+    "right": [
+      "Socrates",
+      "socrates",
+      "SOCRATES",
+      "Socrates of Athens",
+      "Socrates the philosopher",
+      "Socretes"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Plato",
+      "Aristotle",
+      "Xenophon",
+      "Confucius"
+    ]
+  },
+  "freq": {
+    "rank": 5,
+    "count": 6,
+    "list": "Philosophy"
+  }
+}

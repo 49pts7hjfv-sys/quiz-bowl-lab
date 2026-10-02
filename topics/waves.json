@@ -1,0 +1,382 @@
+{
+  "id": "waves",
+  "name": "Waves",
+  "mono": "WV",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Repeating disturbances that carry energy, not matter · From oceans to light",
+  "dates": "A core physics concept since the 1600s–1700s",
+  "briefing": "A wave is nature’s way of moving energy from place to place without actually moving matter along with it — picture a ripple traveling through a stadium crowd while every fan stays in their own seat. Physicists sort them into “transverse” types, like light, that wiggle sideways to their direction of travel, and “longitudinal” types, like sound, that squeeze forward and back. Every one of them can be described by its frequency, amplitude, and wavelength.",
+  "answerHtml": "<b><u>Waves</u></b>",
+  "accept": [
+    "waves",
+    "wave",
+    "standing waves"
+  ],
+  "prompt": [
+    "wavelength",
+    "ocean waves",
+    "surface waves"
+  ],
+  "reject": [
+    "radio waves",
+    "gravitational waves",
+    "gravity",
+    "frequency",
+    "refraction"
+  ],
+  "tests": {
+    "right": [
+      "Waves",
+      "Wave",
+      "Wavves",
+      "Standing Waves"
+    ],
+    "prompt": [
+      "Wavelength",
+      "Ocean Waves"
+    ],
+    "wrong": [
+      "Radio Waves",
+      "Gravity",
+      "Frequency",
+      "Refraction"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Transverse & Longitudinal Waves",
+      "source": "FuseSchool",
+      "url": "https://www.youtube.com/watch?v=0Anh9HthWgQ",
+      "note": "Animated explainer of the two main kinds of waves"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "GCSE Physics - Intro to Waves - Longitudinal and Transverse Waves",
+      "source": "Cognito",
+      "url": "https://www.youtube.com/watch?v=aCu4VRKMstA",
+      "note": "Intro to waves and how longitudinal and transverse types differ"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Traveling Waves: Crash Course Physics #17",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=TfYCnOvNnFU",
+      "note": "Wavelength, frequency, amplitude, and wave speed (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Basic Science of Waves",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/physics/waves.php",
+      "note": "Quick read on wave types, transverse vs. longitudinal, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Wave",
+  "qb": {
+    "q": "waves",
+    "found": 9,
+    "tip": "4 of the 9 raw hits were really separate, more specific answer lines — “radio waves,” “gravity” (accept gravitational waves), “surface waves”/ocean waves, and “ultrasonic frequencies” — so only the 5 tossups about the general phenomenon were used."
+  },
+  "sample": {
+    "n": 5,
+    "note": "5 real QBReader tossups genuinely about the general phenomenon (Middle School + Easy High School, power-marked); 4 other hits in the same search were separate, more specific answer lines"
+  },
+  "tossups": [
+    {
+      "p": "Young’s double-slit experiment produced an interference pattern proving that light also behaves as one of these phenomena, even though Compton scattering shows light can also act like a stream of particles. De Broglie extended the idea further, proposing that all matter carries properties of both a particle and these phenomena.",
+      "r": "Sound travels as a longitudinal type of these phenomena, squeezing air molecules forward and back. For 10 points, name these repeating disturbances that carry energy from place to place without carrying matter along with them."
+    },
+    {
+      "p": "The overall speed of these phenomena splits into a “phase” velocity and a “group” velocity, the latter describing an entire envelope of them traveling together. Seismic types of these phenomena triggered by earthquakes travel through solid rock in both “P” and “S” forms.",
+      "r": "“Standing” types of these phenomena have points of minimal motion called nodes, with antinodes of maximum motion in between. For 10 points, name these phenomena described by frequency, amplitude, and wavelength."
+    },
+    {
+      "p": "Unlike sound, electromagnetic types of these phenomena need no medium at all and can travel through the vacuum of space. Two of these phenomena can combine through constructive or destructive interference, and they bend when passing at an angle from one medium into another, an effect called refraction.",
+      "r": "These phenomena are classified as “transverse” or “longitudinal” depending on whether they wiggle perpendicular or parallel to their direction of travel. For 10 points, name these repeating disturbances often graphed as a sinusoidal curve."
+    },
+    {
+      "p": "Compton scattering, in which light knocks loose an electron much like a particle would, shows that light is not purely made of these phenomena. Their overall speed is described by both a “phase” velocity and a “group” velocity for a whole envelope of them.",
+      "r": "These phenomena carry energy from place to place while a medium’s own particles stay roughly in place. For 10 points, name these oscillations, which include sound, light, and the breakers that roll onto a beach."
+    },
+    {
+      "p": "Young’s double-slit experiment showed an interference pattern that proved light also travels as one of these phenomena. Measured by a period, the time for one full repeat, these phenomena are also described by their frequency and amplitude.",
+      "r": "Their speed equals frequency multiplied by wavelength. For 10 points, name these disturbances classified as transverse or longitudinal depending on how they vibrate relative to their direction of travel."
+    },
+    {
+      "p": "Seismic types of these phenomena set off by earthquakes travel through solid rock as both “P” and “S” varieties. De Broglie proposed that all matter, not only light, carries properties of both a particle and these phenomena.",
+      "r": "“Standing” types of these phenomena have nodes of minimal motion and antinodes of maximum motion. For 10 points, name these phenomena that carry energy without carrying matter, as seen on the rolling surface of the ocean."
+    },
+    {
+      "p": "Electromagnetic types of these phenomena, unlike sound, need no surrounding medium and can cross the vacuum of space. Two of these phenomena passing through the same space can produce constructive or destructive interference.",
+      "r": "Light bending as it passes from one medium into another is an example of these phenomena refracting. For 10 points, name these phenomena, which include the transverse and longitudinal types."
+    },
+    {
+      "p": "The “group” velocity of these phenomena describes the speed of a whole envelope of them, distinct from their “phase” velocity. Sound is a longitudinal type of these phenomena that squeezes air molecules forward and back as it moves.",
+      "r": "Graphed as a sinusoidal, repeating curve, these phenomena have a “standing” type with nodes of minimal motion. For 10 points, name these oscillations measured by period, frequency, and amplitude."
+    },
+    {
+      "p": "Compton scattering demonstrated that light sometimes knocks loose electrons like a stream of particles rather than acting purely as one of these phenomena. Seismic varieties of these phenomena triggered by earthquakes include both “P” and “S” forms traveling through rock.",
+      "r": "These phenomena bend when passing at an angle between two different media, an effect called refraction. For 10 points, name these repeating disturbances classified as transverse or longitudinal."
+    },
+    {
+      "p": "De Broglie argued that every particle of matter, not just light, also carries properties of these phenomena. Two of them meeting in the same place can interfere constructively or destructively, and their “group” velocity describes an entire envelope of them moving together.",
+      "r": "Their speed can be found by multiplying frequency by wavelength. For 10 points, name these oscillations, which include sound and light."
+    },
+    {
+      "p": "Young’s double-slit experiment revealed an interference pattern showing that light also behaves as one of these phenomena, not only as a particle. Electromagnetic varieties of these phenomena need no medium and can cross empty space.",
+      "r": "“Standing” types of these phenomena have motionless points called nodes between antinodes of maximum motion. For 10 points, name these repeating disturbances, seen for instance rolling across the surface of the ocean."
+    },
+    {
+      "p": "Seismic types of these phenomena from earthquakes travel through solid rock as “P” and “S” varieties, while sound travels through air as a longitudinal type of these phenomena, squeezing molecules forward and back. Compton scattering shows light is not purely one of these phenomena either.",
+      "r": "Their speed equals frequency times wavelength. For 10 points, name these disturbances that carry energy without carrying matter from place to place."
+    },
+    {
+      "p": "These phenomena are measured by a period, the time needed for one full repeat, in addition to their frequency and amplitude. Constructive and destructive interference can occur when two of these phenomena overlap in the same space.",
+      "r": "De Broglie proposed that even solid matter carries properties of both a particle and these phenomena. For 10 points, name these oscillations classified as transverse or longitudinal depending on how they vibrate relative to their direction of travel."
+    },
+    {
+      "p": "These phenomena bend when they cross at an angle from one medium into another, an effect known as refraction. Their “phase” velocity is distinguished from the “group” velocity of a whole envelope of them traveling together.",
+      "r": "Electromagnetic varieties of these phenomena, unlike sound, can cross the vacuum of space with no medium at all. For 10 points, name these repeating disturbances graphed as a sinusoidal curve, with a “standing” type that has nodes and antinodes."
+    },
+    {
+      "p": "Sound is a longitudinal type of these phenomena, compressing and stretching air molecules as it travels, while light can act as a transverse type of these phenomena or, per Compton scattering, as a stream of particles. Seismic varieties set off by earthquakes travel through rock as “P” and “S” forms.",
+      "r": "These phenomena carry energy from one place to another without carrying matter along with them. For 10 points, name these repeating disturbances described by frequency, amplitude, and wavelength."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Repeating disturbances that travel through a medium (or empty space, for light) and carry energy without carrying matter along with them",
+      "k": [
+        "repeating disturbances",
+        "carry energy",
+        "medium"
+      ],
+      "n": 3
+    },
+    {
+      "id": "classification",
+      "tier": "giveaway",
+      "t": "Classified as “transverse” or “longitudinal” depending on whether they wiggle perpendicular or parallel to the direction they travel",
+      "k": [
+        "transverse",
+        "longitudinal",
+        "perpendicular"
+      ],
+      "n": 2
+    },
+    {
+      "id": "described-by",
+      "tier": "giveaway",
+      "t": "Described by frequency, amplitude, and wavelength",
+      "k": [
+        "frequency",
+        "amplitude",
+        "wavelength"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ocean-example",
+      "tier": "giveaway",
+      "t": "Seen rolling across the moving surface of the ocean, where they eventually “break” near shore",
+      "k": [
+        "ocean",
+        "surface",
+        "break"
+      ],
+      "n": 3
+    },
+    {
+      "id": "nodes",
+      "tier": "middle",
+      "t": "“Standing” types have points of minimal motion called nodes, with antinodes of maximum motion in between",
+      "k": [
+        "standing",
+        "nodes",
+        "antinodes"
+      ],
+      "n": 4,
+      "rabbit": "Frequency"
+    },
+    {
+      "id": "amplitude-def",
+      "tier": "middle",
+      "t": "Amplitude is the height of a crest above the resting middle line, half the distance from crest to trough",
+      "k": [
+        "amplitude",
+        "crest",
+        "trough"
+      ],
+      "n": 1
+    },
+    {
+      "id": "interference",
+      "tier": "middle",
+      "t": "Two of them can combine through constructive or destructive interference",
+      "k": [
+        "constructive",
+        "destructive",
+        "interference"
+      ],
+      "n": 1
+    },
+    {
+      "id": "refraction-mention",
+      "tier": "middle",
+      "t": "Bend and change direction when passing at an angle from one medium into another, an effect called refraction",
+      "k": [
+        "bend",
+        "change direction",
+        "medium"
+      ],
+      "n": 1
+    },
+    {
+      "id": "energy-not-matter",
+      "tier": "middle",
+      "t": "Carry energy from place to place while a medium’s particles themselves stay roughly in place",
+      "k": [
+        "carry energy",
+        "stay roughly in place"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sinusoidal",
+      "tier": "middle",
+      "t": "Graphed as a sinusoidal, S-shaped repeating curve",
+      "k": [
+        "sinusoidal",
+        "repeating curve"
+      ],
+      "n": 2
+    },
+    {
+      "id": "compton",
+      "tier": "power",
+      "t": "Compton scattering, in which light knocks loose an electron like a particle, shows that light is not purely made of these phenomena",
+      "k": [
+        "compton scattering",
+        "electron",
+        "particle"
+      ],
+      "n": 2,
+      "rabbit": "Electrons"
+    },
+    {
+      "id": "double-slit",
+      "tier": "power",
+      "t": "Young’s double-slit experiment produced a telltale interference pattern proving that light also behaves this way",
+      "k": [
+        "double-slit",
+        "interference pattern",
+        "young"
+      ],
+      "n": 1
+    },
+    {
+      "id": "de-broglie",
+      "tier": "power",
+      "t": "De Broglie proposed that all matter, not just light, carries properties of both a particle and these phenomena",
+      "k": [
+        "de broglie",
+        "matter",
+        "particle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "phase-group-velocity",
+      "tier": "power",
+      "t": "Its overall speed splits into a “phase” velocity and a “group” velocity describing a whole envelope of them",
+      "k": [
+        "phase velocity",
+        "group velocity",
+        "envelope"
+      ],
+      "n": 2
+    },
+    {
+      "id": "period",
+      "tier": "power",
+      "t": "Measured by a period, the time for one full repeat, in addition to frequency and amplitude",
+      "k": [
+        "period",
+        "one full repeat"
+      ],
+      "n": 1
+    },
+    {
+      "id": "em-spectrum",
+      "tier": "power",
+      "t": "Light itself is one type, part of the electromagnetic spectrum alongside radio and X-ray varieties",
+      "k": [
+        "electromagnetic spectrum",
+        "x-ray"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sound-example",
+      "tier": "power",
+      "t": "Sound is a longitudinal type that squeezes air molecules forward and back as it travels",
+      "k": [
+        "sound",
+        "squeezes",
+        "forward and back"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wave-equation",
+      "tier": "power",
+      "t": "Their speed equals frequency multiplied by wavelength",
+      "k": [
+        "speed",
+        "frequency",
+        "wavelength"
+      ],
+      "n": 2
+    },
+    {
+      "id": "seismic-example",
+      "tier": "power",
+      "t": "Seismic types triggered by earthquakes travel through solid rock in both “P” and “S” forms",
+      "k": [
+        "seismic",
+        "earthquakes"
+      ],
+      "n": 2
+    },
+    {
+      "id": "em-no-medium",
+      "tier": "power",
+      "t": "Unlike sound, electromagnetic types need no medium at all and can travel through the vacuum of space",
+      "k": [
+        "electromagnetic",
+        "vacuum",
+        "no medium"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "General waves, or named type?",
+    "body": "Several real tossups want a different, more specific answer: one wants “radio waves,” one wants “gravity” (and only accepts “gravitational waves” as a variant of that), and one wants “surface waves” or “ocean waves” for a question built entirely around water, wind “fetch,” and waves breaking on a beach — none of those accept the bare general word.",
+    "fix": "If the whole question is clearly built around one named type — radio, gravitational, or surface/ocean — give that specific name instead. If the clues describe wave behavior in general (frequency, amplitude, nodes, refraction, carrying energy without matter), the general word is the safer answer.",
+    "line": "Real answer line: <b><u>Waves</u></b> [other real tossups instead want “radio waves,” “gravity” (accept gravitational waves), or “surface waves”/ocean waves]"
+  },
+  "freq": {
+    "rank": 14,
+    "count": 6,
+    "list": "Physics"
+  }
+}

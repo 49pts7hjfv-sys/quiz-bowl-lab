@@ -1,0 +1,428 @@
+{
+  "id": "heart",
+  "name": "Heart",
+  "mono": "HRT",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Four-chambered muscular pump · Moves blood through the whole body nonstop",
+  "dates": "Beats about 100,000 times a day",
+  "briefing": "This fist-sized muscle sits just left of center in the chest, nestled between the lungs, and never takes a break, pumping blood to every part of the body roughly 100,000 times a day. Its own natural pacemaker fires an electrical signal that spreads through its walls to trigger each squeeze, while one-way valves between its four chambers keep blood flowing in a single direction, out through the aorta and back again.",
+  "answerHtml": "<b><u>Heart</u></b> (prompt on <u>circulatory system</u> or <u>cardiovascular system</u>; do not accept “heart attack”)",
+  "accept": [
+    "heart",
+    "human heart",
+    "hearts"
+  ],
+  "prompt": [
+    "circulatory system",
+    "cardiovascular system"
+  ],
+  "reject": [
+    "heart attack",
+    "myocardial infarction",
+    "cardiac arrest",
+    "heart of darkness",
+    "lungs",
+    "kidneys",
+    "brain",
+    "nephron",
+    "myocardium",
+    "aorta",
+    "pacemaker",
+    "arrhythmia"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Exploring the Heart: The Circulatory System!",
+      "source": "AboutKidsHealth (SickKids hospital)",
+      "url": "https://www.youtube.com/watch?v=-s5iCoCaofc",
+      "note": "Kid-level tour of the heart and the circulatory system from a children’s hospital"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How a Normal Heart Pumps Blood",
+      "source": "The Children’s Hospital of Philadelphia",
+      "url": "https://www.youtube.com/watch?v=JA0Wb3gc4mE",
+      "note": "Hospital explainer: blood’s path through the four chambers and valves"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How a Healthy Heart Pumps Blood",
+      "source": "American Heart Association",
+      "url": "https://www.youtube.com/watch?v=zHo-oVOqu1I",
+      "note": "How a healthy heartbeat moves blood through the heart and out to the body"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How the heart actually pumps blood",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=ruM4Xxhx32U",
+      "note": "Animated lesson on the chambers, the valves, and what makes each beat"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Heart, Part 1 - Under Pressure: Crash Course Anatomy & Physiology #25",
+      "source": "Crash Course Anatomy & Physiology",
+      "url": "https://www.youtube.com/watch?v=X9ZZ6tcxArI",
+      "note": "Heart anatomy, the two loops of blood flow, and why pressure matters (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Your Heart & Circulatory System (for Kids)",
+      "source": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/heart.html",
+      "note": "Quick read: atria, ventricles, valves, the lub-dub, and how to find your pulse"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Heart",
+  "qb": {
+    "q": "heart",
+    "found": 9,
+    "tip": "All 9 Middle School/Easy High School tossups agree closely on the EKG/Purkinje-fiber electrical pathway; skip unrelated results about heart attacks or Heart of Darkness if the search ever mixes those in."
+  },
+  "sample": {
+    "n": 9,
+    "note": "the 9 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Purkinje [“per-KIN-jee”] fibers spread the final electrical signal through this organ’s walls after the bundle of His relays it down from the AV node. Its own natural pacemaker, the sinoatrial node, sets a steady resting rhythm here, and inflammation of this organ’s muscle layer is called myocarditis.",
+      "r": "An EKG traces this organ’s electrical rhythm, including a spike called the QRS complex. For 10 points, name this organ whose four chambers pump blood through the body."
+    },
+    {
+      "p": "The sinoatrial node, this organ’s built-in pacemaker, fires the signal that the bundle of His and Purkinje fibers then spread outward. Inflammation of this organ’s muscle layer, called myocarditis, can weaken its ability to squeeze properly.",
+      "r": "Blocked coronary arteries that starve this organ’s own tissue of oxygen can trigger a dangerous “attack.” Tricuspid and mitral valves keep its blood flowing one way. For 10 points, name this organ that pumps blood through the body."
+    },
+    {
+      "p": "Wolff-Parkinson-White syndrome is caused by an extra electrical pathway that lets signals reach this organ’s lower chambers too early, skipping the usual delay at the AV node. This pre-excitation disorder can make this organ race or flutter.",
+      "r": "During systole, this organ contracts and pushes blood out; during diastole, it relaxes and refills. For 10 points, name this organ that sends freshly oxygenated blood out through the aorta to the rest of the body."
+    },
+    {
+      "p": "Untreated strep throat can trigger rheumatic fever, an autoimmune reaction that scars this organ’s mitral valve over time. A similar inflammatory reaction here can also weaken this organ’s ability to shut its valves completely.",
+      "r": "When one of its valves leaks, turbulent blood flow produces an unusual whooshing sound called a murmur. For 10 points, name this organ whose tricuspid and mitral valves control blood flow between its four chambers."
+    },
+    {
+      "p": "A tough, fluid-filled sac called the pericardium wraps around this organ, cushioning it and reducing friction as it beats. Surgeons can also reach this organ by cutting through this protective sac during open procedures.",
+      "r": "This organ’s thick muscular wall, the myocardium, is fed oxygen by its own coronary arteries. For 10 points, name this organ that pushes oxygen-rich blood out through the aorta to the rest of the body."
+    },
+    {
+      "p": "Cords called chordae tendineae, pulled taut by papillary muscles, keep this organ’s valve flaps from flipping backward during a squeeze; when that tensioning fails, a click followed by a murmur can result. This organ’s wall also has three layers, with the muscular myocardium sandwiched between an outer epicardium and inner endocardium.",
+      "r": "A failing version of this organ can sometimes be helped along by an implanted artificial pacemaker. For 10 points, name this organ whose four chambers, two atria and two ventricles, pump blood through the body."
+    },
+    {
+      "p": "This organ’s wall is built from three layers: a thin outer epicardium, a thick muscular myocardium, and a smooth inner endocardium lining its chambers. Scientist Robert Jarvik designed the Jarvik-7, an artificial version of this organ first implanted in a patient in 1982.",
+      "r": "Its left side sends oxygen-rich blood out through the aorta to the rest of the body, while its right side sends blood to the lungs. For 10 points, name this organ that pumps blood through the body."
+    },
+    {
+      "p": "Inflammation of this organ’s muscle tissue, called myocarditis, can sometimes follow a viral infection and weaken its pumping ability. This organ’s right side sends blood through the pulmonary artery to the lungs, while its left side handles the rest of the body.",
+      "r": "A fluid-filled sac called the pericardium cushions this organ as it beats roughly once per second. For 10 points, name this organ whose tricuspid and mitral valves control flow between its chambers."
+    },
+    {
+      "p": "The pericardium, a protective sac, surrounds this organ and reduces friction as it contracts. Blocked coronary arteries that starve this organ’s own muscle of oxygen can trigger a dangerous attack, medically called a myocardial infarction.",
+      "r": "The aorta, the body’s largest artery, carries freshly oxygenated blood away from this organ. For 10 points, name this organ that pumps blood through the body roughly 100,000 times a day."
+    },
+    {
+      "p": "This organ’s own pacemaker cells, clustered in the sinoatrial node, fire the signal that spreads through Purkinje fibers lining its walls. This organ’s muscle tissue, called myocardium, can thicken over time in response to high blood pressure.",
+      "r": "Four chambers, two atria on top and two ventricles below, make up this organ. For 10 points, name this organ that pumps blood through the body."
+    },
+    {
+      "p": "The bundle of His relays signals from this organ’s AV node down toward its ventricles, where Purkinje fibers finish spreading the impulse. A leaking valve in this organ can let blood flow backward, producing a whooshing murmur.",
+      "r": "Roughly fist-sized, this organ sits just left of center in the chest, nestled between the lungs. For 10 points, name this organ whose aorta carries oxygen-rich blood out to the body."
+    },
+    {
+      "p": "An extra electrical shortcut between this organ’s upper and lower chambers causes Wolff-Parkinson-White syndrome, letting signals skip the usual delay at the AV node. An EKG of this organ can reveal that shortcut as a slurred “delta wave” at the start of the QRS complex.",
+      "r": "Tricuspid and mitral valves keep blood moving in one direction through this organ’s chambers. For 10 points, name this organ that pumps blood through the body."
+    },
+    {
+      "p": "Untreated strep throat can lead to rheumatic fever, which may scar this organ’s valves years later and force a replacement. An implanted artificial pacemaker can help regulate this organ’s rhythm when its natural signal falters.",
+      "r": "This organ has four chambers: two atria that receive blood and two ventricles that pump it out. For 10 points, name this organ that circulates blood through the body."
+    },
+    {
+      "p": "Tiny cords called chordae tendineae anchor this organ’s valve flaps to papillary muscles so they do not flip inside out during a squeeze. This organ’s right side pumps blood to the lungs through the pulmonary artery, while its left side serves the rest of the body.",
+      "r": "The aorta carries freshly oxygenated blood away from this organ to the rest of the body. For 10 points, name this organ that pumps blood nonstop, day and night."
+    },
+    {
+      "p": "This organ’s wall has three layers, including a muscular middle layer called the myocardium, which is fed oxygen by coronary arteries wrapping around its surface. Blockages in those arteries can starve this muscle and trigger a dangerous attack.",
+      "r": "Roughly the size of a fist, this organ sits just left of center in the chest. Tricuspid and mitral valves control the flow of blood through it. For 10 points, name this organ that pumps blood through the body."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Pumps blood through the body as the central organ of the circulatory system",
+      "k": [
+        "pumps blood",
+        "circulatory"
+      ],
+      "n": 9
+    },
+    {
+      "id": "chambers",
+      "tier": "giveaway",
+      "t": "Has four chambers: two upper atria that receive blood and two lower ventricles that pump it out",
+      "k": [
+        "atria",
+        "ventricles",
+        "four chambers"
+      ],
+      "n": 5
+    },
+    {
+      "id": "valves",
+      "tier": "giveaway",
+      "t": "Tricuspid and mitral (or bicuspid) valves control blood flow between its chambers",
+      "k": [
+        "tricuspid",
+        "mitral",
+        "valves"
+      ],
+      "n": 5
+    },
+    {
+      "id": "aorta",
+      "tier": "giveaway",
+      "t": "The aorta, the body’s largest artery, carries oxygen-rich blood away from it to the rest of the body",
+      "k": [
+        "aorta",
+        "largest artery"
+      ],
+      "n": 5
+    },
+    {
+      "id": "size-location",
+      "tier": "giveaway",
+      "t": "Roughly fist-sized and sits just left of center in the chest, between the lungs",
+      "k": [
+        "fist sized",
+        "left of center"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ekg-qrs",
+      "tier": "middle",
+      "t": "An EKG (electrocardiogram) records its electrical rhythm, including a spike called the QRS complex",
+      "k": [
+        "ekg",
+        "electrocardiogram",
+        "qrs complex"
+      ],
+      "n": 6
+    },
+    {
+      "id": "coronary-attack",
+      "tier": "middle",
+      "t": "Coronary arteries feed its own muscle tissue; a blockage there can cause a dangerous attack (myocardial infarction)",
+      "k": [
+        "coronary arteries",
+        "myocardial infarction",
+        "blockage"
+      ],
+      "n": 3
+    },
+    {
+      "id": "myocardium",
+      "tier": "middle",
+      "t": "Its thick muscular wall is called the myocardium",
+      "k": [
+        "myocardium",
+        "muscular wall"
+      ],
+      "n": 2
+    },
+    {
+      "id": "systole-diastole",
+      "tier": "middle",
+      "t": "Contracts (systole) to pump blood out and relaxes (diastole) to refill in a repeating cycle",
+      "k": [
+        "systole",
+        "diastole"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pacemaker-device",
+      "tier": "middle",
+      "t": "An implanted artificial pacemaker can help regulate its rhythm when the natural signal fails",
+      "k": [
+        "artificial pacemaker",
+        "implanted"
+      ],
+      "n": 2
+    },
+    {
+      "id": "murmur",
+      "tier": "middle",
+      "t": "A murmur is an unusual whooshing sound caused by blood leaking backward through a faulty valve",
+      "k": [
+        "murmur",
+        "leaking",
+        "whooshing"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jarvik",
+      "tier": "middle",
+      "t": "Scientist Robert Jarvik designed the Jarvik-7, an artificial version of it first implanted in a patient in 1982",
+      "k": [
+        "robert jarvik",
+        "artificial"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pulmonary-systemic",
+      "tier": "middle",
+      "t": "Its right side sends blood to the lungs through the pulmonary artery, while its left side sends blood to the rest of the body",
+      "k": [
+        "pulmonary artery",
+        "right side",
+        "left side"
+      ],
+      "n": 1,
+      "rabbit": "Lungs"
+    },
+    {
+      "id": "purkinje",
+      "tier": "power",
+      "t": "Purkinje fibers spread electrical signals through its walls to trigger each contraction",
+      "k": [
+        "purkinje fibers",
+        "electrical signals"
+      ],
+      "n": 8
+    },
+    {
+      "id": "bundle-of-his",
+      "tier": "power",
+      "t": "The bundle of His relays signals from the AV node down toward the Purkinje fibers",
+      "k": [
+        "bundle of his",
+        "av node"
+      ],
+      "n": 4
+    },
+    {
+      "id": "sa-node",
+      "tier": "power",
+      "t": "The sinoatrial (SA) node, its natural pacemaker, fires the signal that sets its resting rhythm",
+      "k": [
+        "sinoatrial node",
+        "sa node",
+        "natural pacemaker"
+      ],
+      "n": 3
+    },
+    {
+      "id": "myocarditis",
+      "tier": "power",
+      "t": "Myocarditis is inflammation of its muscular wall, sometimes following a viral infection",
+      "k": [
+        "myocarditis",
+        "inflammation"
+      ],
+      "n": 2
+    },
+    {
+      "id": "wpw",
+      "tier": "power",
+      "t": "Wolff-Parkinson-White syndrome is a pre-excitation disorder caused by an extra electrical pathway between its chambers",
+      "k": [
+        "wolff-parkinson-white",
+        "pre-excitation"
+      ],
+      "n": 1,
+      "rabbit": "Arrhythmia"
+    },
+    {
+      "id": "rheumatic-fever",
+      "tier": "power",
+      "t": "Untreated strep throat can lead to rheumatic fever, which may scar its mitral valve over time",
+      "k": [
+        "rheumatic fever",
+        "strep throat"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pericardium",
+      "tier": "power",
+      "t": "A protective, fluid-filled sac called the pericardium surrounds it and reduces friction as it beats",
+      "k": [
+        "pericardium",
+        "protective sac"
+      ],
+      "n": 1
+    },
+    {
+      "id": "papillary-chordae",
+      "tier": "power",
+      "t": "Papillary muscles pull cords called chordae tendineae to keep valve flaps from flipping backward during a squeeze",
+      "k": [
+        "papillary muscles",
+        "chordae tendineae"
+      ],
+      "n": 2
+    },
+    {
+      "id": "layers",
+      "tier": "power",
+      "t": "Its wall has three layers: an outer epicardium, a muscular myocardium, and an inner endocardium",
+      "k": [
+        "epicardium",
+        "endocardium",
+        "three layers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "daily-stat",
+      "tier": "power",
+      "t": "Beats roughly 100,000 times and moves about 2,000 gallons of blood each day",
+      "k": [
+        "100,000 times",
+        "2,000 gallons"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The organ, or the “attack”?",
+    "body": "A heart attack (myocardial infarction) is a medical event caused by a blocked coronary artery starving this organ’s own muscle — it is a different, more specific answer than the organ itself, and so is cardiac arrest (when this organ stops beating). The 1899 novella _Heart of Darkness_ shares the same word but is a completely unrelated piece of literature.",
+    "fix": "If the clues describe a blockage, chest pain, or CPR, wait for a clue that names the actual organ — its chambers, valves, or “the organ that pumps blood” — before buzzing with just the organ’s name instead of the medical event.",
+    "line": "Real answer line: <b><u>Heart</u></b> (prompt on circulatory system or cardiovascular system; do not accept heart attack, myocardial infarction, or cardiac arrest)"
+  },
+  "tests": {
+    "right": [
+      "Heart",
+      "Heard",
+      "Human Heart",
+      "Hearts"
+    ],
+    "prompt": [
+      "Circulatory System",
+      "Cardiovascular system"
+    ],
+    "wrong": [
+      "Heart Attack",
+      "Myocardial Infarction",
+      "Lungs",
+      "Kidneys",
+      "Heart of Darkness"
+    ]
+  },
+  "freq": {
+    "rank": 4,
+    "count": 8,
+    "list": "Biology"
+  }
+}

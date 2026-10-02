@@ -1,0 +1,455 @@
+{
+  "id": "benito-mussolini",
+  "name": "Benito Mussolini",
+  "mono": "BM",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Italy’s Fascist dictator · Allied with Hitler through most of World War II",
+  "dates": "1883–1945",
+  "briefing": "Benito Mussolini sent his Blackshirt followers marching on Rome in 1922 and pressured the king into making him prime minister, then built Europe’s first Fascist dictatorship. As _Il Duce_ [“eel DOO-chay”], “the Leader,” he invaded Ethiopia and allied with Adolf Hitler to lead Italy through most of World War II. Italian partisans captured and executed him in April 1945, days before Hitler’s own death.",
+  "answerHtml": "<b><u>Benito Mussolini</u></b> (or <u>Mussolini</u>; prompt on “Il Duce”)",
+  "accept": [
+    "benito mussolini",
+    "mussolini",
+    "benito amilcare andrea mussolini"
+  ],
+  "prompt": [
+    "il duce",
+    "the duce"
+  ],
+  "reject": [
+    "adolf hitler",
+    "hitler",
+    "victor emmanuel iii",
+    "victor emmanuel",
+    "king victor emmanuel",
+    "pietro badoglio",
+    "badoglio",
+    "otto skorzeny",
+    "skorzeny",
+    "clara petacci",
+    "haile selassie",
+    "francisco franco",
+    "franco",
+    "king zog"
+  ],
+  "tests": {
+    "right": [
+      "Mussolini",
+      "Benito Mussolini",
+      "Musolini",
+      "Benito Amilcare Andrea Mussolini"
+    ],
+    "prompt": [
+      "Il Duce",
+      "The Duce"
+    ],
+    "wrong": [
+      "Adolf Hitler",
+      "Victor Emmanuel III",
+      "Haile Selassie",
+      "Francisco Franco",
+      "Clara Petacci"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "28th October 1922: Benito Mussolini’s Blackshirts approach the Italian capital in the March on Rome",
+      "source": "HistoryPod",
+      "url": "https://www.youtube.com/watch?v=mDz8BFs4vwE",
+      "note": "Short “on this day” clip on the March on Rome that brought him to power"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mussolini becomes Prime Minister",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=wxtltXz4zs0",
+      "note": "Short · the March on Rome and his rise to power in 1922"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Story of Fascism: Mussolini’s Rise to Power",
+      "source": "Rick Steves’ Europe",
+      "url": "https://www.youtube.com/watch?v=USEXv1jODpM",
+      "note": "Clip from the public-TV special: how he turned Italy into the first fascist state"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Rise of Fascism and Mussolini’s March on Rome | Between 2 Wars | 1922, Part 1 of 2",
+      "source": "TimeGhost History",
+      "url": "https://www.youtube.com/watch?v=O9fCzJR60uQ",
+      "note": "Documentary-style episode, Part 1 of 2: how fascism rose in Italy and took power in 1922"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Rick Steves’ The Story of Fascism in Europe",
+      "source": "Rick Steves’ Europe",
+      "url": "https://www.youtube.com/watch?v=JU1IVW6uqM0",
+      "note": "Bigger picture: how fascism took hold across Europe (mature themes, including WWII)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Benito Mussolini Biography",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/world_war_ii/benito_mussolini.php",
+      "note": "Quick read: his rise, his fascist rule, his alliance with Hitler, and his downfall"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Benito_Mussolini",
+  "qb": {
+    "q": "Mussolini",
+    "found": 4,
+    "tip": "Only 4 Middle School/Easy High School tossups turn up, but Regular High School adds plenty more on the same answer line. The March on Rome and the nickname “Il Duce” are the clues nearly every real tossup uses, so learn those cold."
+  },
+  "sample": {
+    "n": 16,
+    "note": "16 real QBReader tossups (4 Middle School/Easy High School + 12 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This man signed the Lateran Treaty with Pope Pius XI in 1929, recognizing Vatican City’s independence. Six years earlier, the Acerbo Law had guaranteed his political party a two-thirds majority in Italy’s parliament.",
+      "r": "German commandos rescued this man from a mountain hotel in the 1943 Gran Sasso Raid, after which he led the puppet Republic of Salò. For 10 points, name this Fascist dictator of Italy, nicknamed “Il Duce.”"
+    },
+    {
+      "p": "This man’s Blackshirts marched on Rome in 1922, pressuring King Victor Emmanuel III into naming him prime minister. His government bombarded the Greek island of Corfu in 1923 after an Italian general was murdered.",
+      "r": "This man invaded Ethiopia in 1935, forcing Emperor Haile Selassie into exile. For 10 points, name this Fascist dictator who allied with Adolf Hitler during World War II."
+    },
+    {
+      "p": "As a young socialist, this man edited the newspaper _Avanti!_ [“ah-VAHN-tee”] before breaking with the party over Italy’s entry into World War I. He later promoted a “Battle for Wheat” and a “Battle for Births” to boost Italian farming and population.",
+      "r": "King Victor Emmanuel III dismissed this man in 1943 after the Allied invasion of Sicily. For 10 points, name this Fascist leader who was then rescued by German commandos in the Gran Sasso Raid."
+    },
+    {
+      "p": "This man invaded Albania in 1939, forcing King Zog into exile. His Fascist followers had earlier murdered the socialist critic Giacomo Matteotti [“mah-teh-OT-tee”] in 1924.",
+      "r": "After Italian partisans captured this man in April 1945, he was executed along with his companion Clara Petacci near Lake Como. For 10 points, name this dictator who led Italy’s Fascist government and allied with Nazi Germany."
+    },
+    {
+      "p": "This man’s forces fought a long colonial war to control Libya in the 1920s. In 1935, he joined Britain and France in the short-lived Stresa Front, briefly standing against German expansion before switching sides.",
+      "r": "This man led the puppet Italian Social Republic after being freed in the Gran Sasso Raid. For 10 points, name this Fascist dictator executed by partisans in 1945."
+    },
+    {
+      "p": "This man’s government issued the Manifesto of Race and passed antisemitic laws in 1938, following Nazi Germany’s lead. Pietro Badoglio replaced this man as prime minister after King Victor Emmanuel III had him arrested in 1943.",
+      "r": "This man was then rescued from a mountain hotel by German commandos in the Gran Sasso Raid. For 10 points, name this Italian dictator nicknamed “Il Duce.”"
+    },
+    {
+      "p": "This man boasted of making Italy’s trains run on time, though historians doubt how true that claim really was. His Blackshirt followers marched on Rome in 1922, and the 1923 Acerbo Law soon gave his party control of parliament.",
+      "r": "This man was executed by partisans near Lake Como in April 1945. For 10 points, name this Fascist dictator who led Italy through most of World War II alongside his ally, Adolf Hitler."
+    },
+    {
+      "p": "This man signed the Lateran Treaty with the Vatican in 1929 and, years later, invaded Albania to push out King Zog. He had risen to power after Blackshirts loyal to him marched on Rome in 1922.",
+      "r": "This man’s regime invaded Ethiopia in 1935 and exiled its emperor, Haile Selassie. For 10 points, name this Fascist dictator, known as “Il Duce,” who allied with Hitler in World War II."
+    },
+    {
+      "p": "This man’s government bombarded Corfu in 1923 and fought a long colonial war in Libya. King Victor Emmanuel III dismissed this man from power in 1943 following the Allied invasion of Sicily.",
+      "r": "German paratroopers soon rescued this man in the Gran Sasso Raid, after which he led a German-backed puppet state in northern Italy. For 10 points, name this Italian Fascist leader executed in 1945."
+    },
+    {
+      "p": "Early in his career, this man edited the socialist newspaper _Avanti!_ before turning against socialism and founding the National Fascist Party. His Fascist followers killed the socialist politician Giacomo Matteotti in 1924.",
+      "r": "This man’s Blackshirts had marched on Rome in 1922 to put him in power. For 10 points, name this dictator of Fascist Italy, known as “Il Duce.”"
+    },
+    {
+      "p": "This man’s “Battle for Wheat” and “Battle for Births” campaigns tried to boost Italian farming and population. He briefly joined the 1935 Stresa Front with Britain and France before allying with Nazi Germany instead.",
+      "r": "Italian partisans captured and executed this man in April 1945. For 10 points, name this Fascist dictator who had invaded Ethiopia and forced out its emperor, Haile Selassie."
+    },
+    {
+      "p": "This man’s forces deposed Albania’s King Zog in 1939 and, years earlier, had exiled Ethiopia’s Haile Selassie. He signed the Lateran Treaty with Pope Pius XI in 1929, settling decades of conflict between Italy and the Vatican.",
+      "r": "This man was rescued by German commandos after King Victor Emmanuel III had him arrested in 1943. For 10 points, name this Italian Fascist dictator, nicknamed “Il Duce.”"
+    },
+    {
+      "p": "This man’s 1923 Acerbo Law handed his National Fascist Party a two-thirds majority in parliament. He had taken power the year before, when his Blackshirt followers marched on Rome.",
+      "r": "This man’s government passed its own antisemitic race laws in 1938, modeled on Nazi Germany’s. For 10 points, name this dictator of Fascist Italy, who allied with Adolf Hitler in World War II."
+    },
+    {
+      "p": "This man was rescued by German commandos in the 1943 Gran Sasso Raid after King Victor Emmanuel III had him removed from power. He then led the German-backed Italian Social Republic, also called the Republic of Salò.",
+      "r": "This man’s companion, Clara Petacci, was executed alongside him near Lake Como. For 10 points, name this Fascist Italian dictator killed by partisans in 1945."
+    },
+    {
+      "p": "This man broke with Italy’s socialist party over World War I after editing its newspaper, _Avanti!_, and later founded the Blackshirt movement that marched on Rome in 1922. His government bombarded Corfu the next year after an Italian general was murdered.",
+      "r": "This man invaded Ethiopia in 1935 and Albania in 1939. For 10 points, name this Fascist dictator of Italy, known as “Il Duce,” who allied with Hitler during World War II."
+    }
+  ],
+  "clues": [
+    {
+      "id": "il-duce-dictator",
+      "tier": "giveaway",
+      "t": "Led Italy as Fascist dictator from 1922 to 1943, nicknamed “Il Duce,” meaning “the Leader”",
+      "k": [
+        "fascist dictator",
+        "il duce",
+        "1922"
+      ],
+      "n": 10
+    },
+    {
+      "id": "allied-hitler-ww2",
+      "tier": "giveaway",
+      "t": "Allied with Adolf Hitler and led Italy through most of World War II",
+      "k": [
+        "adolf hitler",
+        "world war ii",
+        "allied"
+      ],
+      "n": 6
+    },
+    {
+      "id": "march-on-rome",
+      "tier": "giveaway",
+      "t": "Rose to power after his Blackshirts’ March on Rome in 1922",
+      "k": [
+        "blackshirts",
+        "march on rome",
+        "1922"
+      ],
+      "n": 15
+    },
+    {
+      "id": "death-1945",
+      "tier": "giveaway",
+      "t": "Captured and executed by Italian partisans in April 1945",
+      "k": [
+        "italian partisans",
+        "executed",
+        "1945"
+      ],
+      "n": 4
+    },
+    {
+      "id": "appointed-pm",
+      "tier": "middle",
+      "t": "King Victor Emmanuel III made him prime minister after the March on Rome",
+      "k": [
+        "victor emmanuel",
+        "prime minister",
+        "king"
+      ],
+      "n": 8
+    },
+    {
+      "id": "acerbo-law",
+      "tier": "middle",
+      "t": "The Acerbo Law of 1923 guaranteed his party a two-thirds majority in parliament",
+      "k": [
+        "acerbo law",
+        "1923",
+        "parliament"
+      ],
+      "n": 5
+    },
+    {
+      "id": "matteotti",
+      "tier": "middle",
+      "t": "His Fascist followers murdered socialist critic Giacomo Matteotti [“mah-teh-OT-tee”] in 1924",
+      "k": [
+        "matteotti",
+        "1924",
+        "socialist critic"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lateran-treaty",
+      "tier": "middle",
+      "t": "Signed the Lateran Treaty with Pope Pius XI in 1929, recognizing Vatican City’s independence",
+      "k": [
+        "lateran treaty",
+        "1929",
+        "vatican city"
+      ],
+      "n": 8
+    },
+    {
+      "id": "ethiopia-invasion",
+      "tier": "middle",
+      "t": "Invaded Ethiopia in 1935, forcing Emperor Haile Selassie into exile",
+      "k": [
+        "ethiopia",
+        "1935",
+        "haile selassie"
+      ],
+      "n": 3
+    },
+    {
+      "id": "dismissed-1943",
+      "tier": "middle",
+      "t": "King Victor Emmanuel III dismissed him in 1943 after the Allied invasion of Sicily",
+      "k": [
+        "dismissed",
+        "1943",
+        "sicily"
+      ],
+      "n": 3
+    },
+    {
+      "id": "gran-sasso-raid",
+      "tier": "middle",
+      "t": "German commandos rescued him from captivity at a mountain hotel in the Gran Sasso Raid (1943)",
+      "k": [
+        "gran sasso raid",
+        "rescued",
+        "commandos"
+      ],
+      "n": 9
+    },
+    {
+      "id": "republic-of-salo",
+      "tier": "middle",
+      "t": "Led the German-backed Italian Social Republic (Republic of Salò) in his final years",
+      "k": [
+        "italian social republic",
+        "salo",
+        "final years"
+      ],
+      "n": 5
+    },
+    {
+      "id": "avanti-newspaper",
+      "tier": "power",
+      "t": "Edited the socialist newspaper _Avanti!_ [“ah-VAHN-tee”] early in his career before turning against socialism",
+      "k": [
+        "avanti",
+        "socialist newspaper",
+        "career"
+      ],
+      "n": 2
+    },
+    {
+      "id": "national-fascist-party",
+      "tier": "power",
+      "t": "Founded the National Fascist Party and led its paramilitary Blackshirts",
+      "k": [
+        "national fascist party",
+        "blackshirts",
+        "founded"
+      ],
+      "n": 1
+    },
+    {
+      "id": "corfu-incident",
+      "tier": "power",
+      "t": "His government bombarded the Greek island of Corfu in 1923 after an Italian general’s murder",
+      "k": [
+        "corfu",
+        "1923",
+        "general"
+      ],
+      "n": 4
+    },
+    {
+      "id": "libya-war",
+      "tier": "power",
+      "t": "Fought a long colonial war to control Libya in the 1920s",
+      "k": [
+        "libya",
+        "colonial war",
+        "1920s"
+      ],
+      "n": 2
+    },
+    {
+      "id": "battle-for-wheat-births",
+      "tier": "power",
+      "t": "Promoted the “Battle for Wheat” and “Battle for Births” to boost Italian farming and population",
+      "k": [
+        "battle for wheat",
+        "battle for births",
+        "population"
+      ],
+      "n": 3
+    },
+    {
+      "id": "stresa-front",
+      "tier": "power",
+      "t": "Joined the Stresa Front of 1935 with Britain and France, briefly opposing German expansion",
+      "k": [
+        "stresa front",
+        "1935",
+        "britain"
+      ],
+      "n": 1
+    },
+    {
+      "id": "albania-invasion",
+      "tier": "power",
+      "t": "Invaded Albania in 1939, forcing King Zog into exile",
+      "k": [
+        "albania",
+        "1939",
+        "king zog"
+      ],
+      "n": 3
+    },
+    {
+      "id": "axis-alliance",
+      "tier": "power",
+      "t": "Formed the Axis alliance with Nazi Germany and, later, Japan",
+      "k": [
+        "axis alliance",
+        "nazi germany",
+        "japan"
+      ],
+      "n": 0,
+      "rabbit": "Adolf Hitler"
+    },
+    {
+      "id": "badoglio-replaces",
+      "tier": "power",
+      "t": "Pietro Badoglio replaced him as prime minister after his 1943 arrest",
+      "k": [
+        "pietro badoglio",
+        "replaced",
+        "1943"
+      ],
+      "n": 2
+    },
+    {
+      "id": "clara-petacci",
+      "tier": "power",
+      "t": "Was executed alongside his companion Clara Petacci near Lake Como",
+      "k": [
+        "clara petacci",
+        "lake como",
+        "companion"
+      ],
+      "n": 4
+    },
+    {
+      "id": "race-laws-1938",
+      "tier": "power",
+      "t": "Issued the Manifesto of Race and passed antisemitic laws in 1938, following Nazi Germany’s lead",
+      "k": [
+        "manifesto of race",
+        "1938",
+        "antisemitic laws"
+      ],
+      "n": 1
+    },
+    {
+      "id": "trains-on-time",
+      "tier": "power",
+      "t": "Claimed credit for making Italy’s trains run on time, a famous boast about his rule",
+      "k": [
+        "trains run on time",
+        "boast",
+        "claimed"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Il Duce, king, or Hitler?",
+    "body": "Real packets prompt on “Il Duce” before his name is read, so buzzing with just the nickname only earns a second chance, not the points. Players also confuse him with King Victor Emmanuel III, who appointed and later dismissed him but was Italy’s actual head of state, and with his ally Adolf Hitler, who led Germany, not Italy.",
+    "fix": "If the clues describe Italy’s government, the Blackshirts, or “Il Duce,” give his full name. “Victor Emmanuel” wants the king who hired and fired him; “Hitler” wants the German dictator he allied with.",
+    "line": "Real answer line: <b><u>Benito Mussolini</u></b> (prompt on “Il Duce” before read)"
+  },
+  "freq": {
+    "rank": 17,
+    "count": 5,
+    "list": "European History"
+  }
+}

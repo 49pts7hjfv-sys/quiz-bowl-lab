@@ -1,0 +1,395 @@
+{
+  "id": "confucius",
+  "name": "Confucius",
+  "mono": "CF",
+  "category": "Philosophy",
+  "qbCategory": "Philosophy",
+  "kicker": "Ancient Chinese philosopher · His ethics shaped China for 2,000+ years",
+  "dates": "c. 551–479 BCE",
+  "briefing": "More than 2,500 years ago in China, a teacher named Confucius believed that respect, good manners, and strong families could fix a chaotic world. He never found a ruler willing to put his ideas fully into practice, but his students collected his sayings into a book called the _Analects_, and for centuries Chinese officials had to study his ideas to pass the civil service exams.",
+  "answerHtml": "<b><u>Confucius</u></b> (or Kongzi, Kong Fuzi, Master Kong)",
+  "accept": [
+    "confucius",
+    "kongzi",
+    "kong fuzi",
+    "kong qiu",
+    "master kong",
+    "zhongni",
+    "kong zi",
+    "kongfuzi"
+  ],
+  "prompt": [],
+  "reject": [
+    "mencius",
+    "lao tzu",
+    "laozi",
+    "sun tzu",
+    "zhuangzi",
+    "buddha",
+    "confucianism"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Who was Confucius? - Bryan W. Van Norden",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=wFt_VGG0kJU",
+      "note": "Short animated lesson · his life, the Analects, and his ideas about being a good person"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "EASTERN PHILOSOPHY - Confucius",
+      "source": "The School of Life",
+      "url": "https://www.youtube.com/watch?v=tUhGRh4vdb8",
+      "note": "Illustrated overview of his teachings about respect, family, and good manners"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "2,000 Years of Chinese History! The Mandate of Heaven and Confucius: World History #7",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=ylWORyToTo4",
+      "note": "John Green on the Mandate of Heaven, then Confucius’s teachings (about half the video)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Ancient China: Confucius Biography",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/china/confucius.php",
+      "note": "Quick read: his life, his philosophy, famous quotes, and fun facts"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Confucius",
+  "qb": {
+    "q": "Confucius",
+    "found": 3,
+    "tip": "Only 3 Middle School/Easy High School tossups; a Regular HS search found many more, but one of those hits (2019 Glasgow Scottie) is really for “The Analects of Confucius,” a different answer line, and was excluded."
+  },
+  "sample": {
+    "n": 10,
+    "note": "10 real QBReader tossups for this answer line (3 Middle School/Easy High School + 7 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A folk painting called _The Vinegar Tasters_ shows this man grimacing as he samples a sour drink, symbolizing his view of a flawed world. The Jesuit missionary Michele Ruggieri produced the first Latin translation of his teachings. This thinker pushed for a “Rectification of Names,” insisting that titles must match real behavior.",
+      "r": "When told about a stable fire, he reportedly asked only, “Was anyone hurt?”, never asking about the horses. For 10 points, name this ancient Chinese philosopher whose sayings were gathered by his students into the _Analects_."
+    },
+    {
+      "p": "This man reportedly cried, “Heaven has bereft me!”, after his favorite student, Yan Hui, died young. He taught that an ideal gentleman “is not a vessel,” useful for only one single purpose, and he described himself only as “a transmitter, not a maker,” of ancient wisdom.",
+      "r": "A century later, a follower named Mencius extended his ideas and became known as Confucianism’s “Second Sage.” For 10 points, name this ancient Chinese philosopher who taught filial piety and whose teachings fill the _Analects_."
+    },
+    {
+      "p": "Tradition credits this man with compiling the _Spring and Autumn Annals_, one of the Five Classics of ancient China. His teachings became official state philosophy under the Han dynasty and later the basis of China’s civil service exams, and his school forms one of China’s “Three Teachings” alongside Buddhism and Daoism.",
+      "r": "He compared a virtuous ruler to the North Star, with lesser officials turning around him like stars, and he outlined Five Relationships to keep society in harmony. For 10 points, name this ancient Chinese philosopher whose central virtue was ren, recorded in the _Analects_."
+    },
+    {
+      "p": "A later follower of this man, Mencius, used the image of a child about to fall down a well to argue that people are naturally good. The _Doctrine of the Mean_, one of the Four Books linked to this man’s school, urged self-watchfulness, leniency, and sincerity. His students also mastered Six Arts such as archery and ritual.",
+      "r": "He taught that li, or proper ceremony, upheld all virtue, and his negative version of the Golden Rule is sometimes called the Silver Rule. For 10 points, name this ancient Chinese philosopher whose sayings fill the _Analects_."
+    },
+    {
+      "p": "This thinker’s notion of ren helped justify the Mandate of Heaven, a ruler’s right to govern only while acting justly. He pushed rulers to pursue a “Rectification of Names,” matching titles to real behavior, so a true ruler actually ruled and a true father actually fathered.",
+      "r": "He compared a good ruler to the North Star, calmly fixed in place while lesser officials circled him. For 10 points, name this ancient Chinese philosopher whose sayings were collected by his students into the _Analects_."
+    },
+    {
+      "p": "This man taught that li, or ritual and proper ceremony, was essential to a well-run household and a well-run state. His students were expected to master Six Arts, including archery, music, and calligraphy, on the road to becoming true gentlemen.",
+      "r": "He mapped out Five Relationships, from ruler and subject to father and son, to keep the social order stable. For 10 points, name this ancient Chinese philosopher whose core virtue was ren and whose negative Golden Rule is called the Silver Rule."
+    },
+    {
+      "p": "When this man learned that his stable had burned down, he asked only whether any people had been hurt, never mentioning the animals. He also pushed for a “Rectification of Names,” arguing that chaos follows once words and titles stop matching reality.",
+      "r": "His students practiced Six Arts such as archery and charioteering on their way to becoming true gentlemen. For 10 points, name this ancient Chinese philosopher who taught filial piety and whose wisdom fills the _Analects_."
+    },
+    {
+      "p": "A century after this man’s death, the philosopher Mencius built on his ideas and argued that human nature is fundamentally good. This man’s concept of ren, often translated as benevolence or compassion, became central to the Mandate of Heaven, a ruler’s right to govern.",
+      "r": "He taught a negative version of the Golden Rule, sometimes called the Silver Rule: do not do to others what you do not want done to you. For 10 points, name this ancient Chinese philosopher whose teachings were collected in the _Analects_."
+    },
+    {
+      "p": "This man compared an ethical ruler to the North Star, fixed in the sky while every lesser star turns around it. He mapped out Five Relationships, including ruler and subject and elder and younger sibling, and taught that li, or ritual, was what held virtue together.",
+      "r": "He believed that a well-ordered family was the foundation of a well-ordered state. For 10 points, name this ancient Chinese philosopher whose sayings were recorded in the _Analects_."
+    },
+    {
+      "p": "This thinker insisted that a gentleman needed to master Six Arts, including music, archery, and calligraphy, to properly serve the state. He also argued for a “Rectification of Names,” believing society fell apart whenever titles stopped matching true conduct.",
+      "r": "He named filial piety, or respect for one’s parents, as the root of all other virtues. For 10 points, name this ancient Chinese philosopher whose central idea was ren, recorded in the _Analects_."
+    },
+    {
+      "p": "This man’s teachings about moral rulers shaped the Mandate of Heaven, the belief that unjust kings could rightfully lose power. He taught that li, meaning ritual and etiquette, was necessary to keep both families and governments running smoothly.",
+      "r": "A century later, Mencius expanded on his teachings and became known as the “Second Sage” of this man’s school of thought. For 10 points, name this ancient Chinese philosopher who stressed filial piety and whose words fill the _Analects_."
+    },
+    {
+      "p": "After hearing that a stable had burned down, this man is said to have asked only if any people were hurt, not whether any horses had died. He organized Five Relationships, such as father and son, to describe the duties people owed each other.",
+      "r": "His idea of ren, or compassion toward others, underlies a negative form of the Golden Rule often called the Silver Rule. For 10 points, name this ancient Chinese philosopher whose sayings make up the _Analects_."
+    },
+    {
+      "p": "This man taught that a ruler who wanted order first needed a “Rectification of Names,” so that words and roles finally lined up with reality. He expected students to study Six Arts like charioteering and calligraphy before entering government service.",
+      "r": "He also compared a virtuous king to the North Star, calmly guiding lesser officials who circled around him. For 10 points, name this ancient Chinese philosopher who taught filial piety and whose sayings fill the _Analects_."
+    },
+    {
+      "p": "This man taught that li, encompassing ritual, manners, and ceremony, was essential for keeping both the family and the state in harmony. His idea that a ruler needed real virtue to keep the Mandate of Heaven shaped Chinese political thought for centuries.",
+      "r": "His follower Mencius later argued that human nature was basically good, building on this man’s teachings. For 10 points, name this ancient Chinese philosopher whose core virtue was ren, explained in the _Analects_."
+    },
+    {
+      "p": "This man organized Five Relationships, including ruler and subject and husband and wife, to explain the duties people owed each other. When told his stable had caught fire, he reportedly asked only whether any people had been hurt.",
+      "r": "He taught a negative version of the Golden Rule now often called the Silver Rule. For 10 points, name this ancient Chinese philosopher who emphasized filial piety and whose teachings were collected into the _Analects_."
+    }
+  ],
+  "clues": [
+    {
+      "id": "analects",
+      "tier": "giveaway",
+      "t": "Teachings collected by his students into one book, _The Analects_ (Lunyu)",
+      "k": [
+        "analects"
+      ],
+      "n": 10
+    },
+    {
+      "id": "ancient-chinese",
+      "tier": "giveaway",
+      "t": "An ancient Chinese philosopher who lived around 551–479 BCE, in the Spring and Autumn period",
+      "k": [
+        "ancient chinese",
+        "spring and autumn"
+      ],
+      "n": 9
+    },
+    {
+      "id": "filial-piety",
+      "tier": "giveaway",
+      "t": "Named filial piety — respect for parents and elders — as the root of all other virtue",
+      "k": [
+        "filial piety"
+      ],
+      "n": 9,
+      "rabbit": "Mencius"
+    },
+    {
+      "id": "ren",
+      "tier": "giveaway",
+      "t": "Core virtue of ren: benevolence, compassion, or “human-heartedness” toward others",
+      "k": [
+        "ren",
+        "benevolence",
+        "compassion"
+      ],
+      "n": 7
+    },
+    {
+      "id": "golden-silver-rule",
+      "tier": "giveaway",
+      "t": "Taught a “do not do to others” rule of reciprocity, later nicknamed the Silver Rule",
+      "k": [
+        "silver rule",
+        "reciprocity"
+      ],
+      "n": 5
+    },
+    {
+      "id": "five-relationships",
+      "tier": "middle",
+      "t": "Outlined Five Relationships (such as ruler–subject and father–son) to structure society",
+      "k": [
+        "five relationships"
+      ],
+      "n": 4
+    },
+    {
+      "id": "li",
+      "tier": "middle",
+      "t": "Concept of li: ritual, ceremony, and proper behavior that holds virtue together",
+      "k": [
+        "ritual",
+        "ceremony"
+      ],
+      "n": 4
+    },
+    {
+      "id": "six-arts",
+      "tier": "middle",
+      "t": "Students were expected to master Six Arts, including archery, music, and ritual",
+      "k": [
+        "six arts",
+        "archery"
+      ],
+      "n": 4
+    },
+    {
+      "id": "mencius",
+      "tier": "middle",
+      "t": "His ideas were carried on a century later by Mencius, Confucianism’s “Second Sage”",
+      "k": [
+        "mencius",
+        "second sage"
+      ],
+      "n": 5,
+      "rabbit": "Mencius"
+    },
+    {
+      "id": "rectification",
+      "tier": "middle",
+      "t": "Called for a “Rectification of Names,” so titles and real behavior would finally match",
+      "k": [
+        "rectification of names"
+      ],
+      "n": 4
+    },
+    {
+      "id": "stable-fire",
+      "tier": "middle",
+      "t": "When told about a stable fire, he asked only, “Was anyone hurt?”, not about the horses",
+      "k": [
+        "stable fire",
+        "was anyone hurt"
+      ],
+      "n": 3
+    },
+    {
+      "id": "north-star",
+      "tier": "middle",
+      "t": "Compared a virtuous ruler to the North Star, with lesser officials circling around him",
+      "k": [
+        "north star"
+      ],
+      "n": 3
+    },
+    {
+      "id": "mandate-heaven",
+      "tier": "middle",
+      "t": "His idea of ren fed into the older idea of the Mandate of Heaven, a ruler’s right to govern only through virtue",
+      "k": [
+        "mandate of heaven"
+      ],
+      "n": 2
+    },
+    {
+      "id": "three-teachings",
+      "tier": "power",
+      "t": "His school forms one of China’s “Three Teachings,” alongside Buddhism and Daoism",
+      "k": [
+        "three teachings",
+        "daoism"
+      ],
+      "n": 1,
+      "rabbit": "Buddhism"
+    },
+    {
+      "id": "civil-service",
+      "tier": "power",
+      "t": "Made official state philosophy under the Han dynasty; his teachings later became the basis of China’s civil service exams",
+      "k": [
+        "civil service",
+        "han dynasty"
+      ],
+      "n": 1
+    },
+    {
+      "id": "spring-autumn",
+      "tier": "power",
+      "t": "Credited with compiling the _Spring and Autumn Annals_, one of the Five Classics",
+      "k": [
+        "spring and autumn annals",
+        "five classics"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ruggieri",
+      "tier": "power",
+      "t": "First translated into Latin by the Jesuit missionary Michele Ruggieri",
+      "k": [
+        "ruggieri",
+        "jesuit"
+      ],
+      "n": 1
+    },
+    {
+      "id": "vinegar-tasters",
+      "tier": "power",
+      "t": "Shown grimacing at a sour taste in the painting _The Vinegar Tasters_, alongside the Buddha and Laozi",
+      "k": [
+        "vinegar tasters"
+      ],
+      "n": 1
+    },
+    {
+      "id": "doctrine-mean",
+      "tier": "power",
+      "t": "The _Doctrine of the Mean_, one of his school’s Four Books, urges self-watchfulness and sincerity",
+      "k": [
+        "doctrine of the mean",
+        "four books"
+      ],
+      "n": 1
+    },
+    {
+      "id": "yan-hui",
+      "tier": "power",
+      "t": "Cried, “Heaven has bereft me!”, when his favorite student, Yan Hui, died young",
+      "k": [
+        "yan hui",
+        "heaven has bereft"
+      ],
+      "n": 1
+    },
+    {
+      "id": "not-a-vessel",
+      "tier": "power",
+      "t": "Taught that an ideal “gentleman” (junzi) “is not a vessel,” fit for more than one single use",
+      "k": [
+        "junzi",
+        "not a vessel"
+      ],
+      "n": 1
+    },
+    {
+      "id": "transmitter",
+      "tier": "power",
+      "t": "Described himself as “a transmitter, not a maker,” who only passed on ancient wisdom",
+      "k": [
+        "transmitter",
+        "not a maker"
+      ],
+      "n": 1
+    },
+    {
+      "id": "child-well",
+      "tier": "power",
+      "t": "His follower Mencius later used a child about to fall down a well to argue people are naturally good",
+      "k": [
+        "child",
+        "mencius"
+      ],
+      "n": 2,
+      "rabbit": "Mencius"
+    }
+  ],
+  "trap": {
+    "title": "Confucius, Mencius, or Laozi?",
+    "body": "Three ancient Chinese thinkers show up constantly in quiz bowl and get mixed up. Confucius founded the tradition built on li, ren, and filial piety, and his sayings fill the _Analects_. About a century later, Mencius argued that human nature is naturally good, using the parable of a child about to fall down a well. Around the same era, Laozi founded the rival tradition of Daoism, teaching “wu wei” (effortless action) in the _Tao Te Ching_.",
+    "fix": "Mencius clues sound like: “human nature is good,” the “Four Beginnings,” “Ox Mountain,” and being Confucius’s most famous intellectual heir. Laozi/Daoism clues sound like: the _Tao Te Ching_, “wu wei,” yin and yang, and flowing with nature instead of following strict ritual. If the clues mention the _Analects_, li, ren, or filial piety, it is Confucius.",
+    "line": "Real answer line: <b><u>Confucius</u></b> [or Kong Fuzi; or Kongzi; or Kong Qiu; or Master Kong; or Zhongni]"
+  },
+  "tests": {
+    "right": [
+      "Confucius",
+      "Confuscius",
+      "Kongzi",
+      "Kong Fuzi",
+      "Master Kong"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Mencius",
+      "Lao Tzu",
+      "Confucianism",
+      "Sun Tzu",
+      "Buddha"
+    ]
+  },
+  "freq": {
+    "rank": 8,
+    "count": 5,
+    "list": "Philosophy"
+  }
+}

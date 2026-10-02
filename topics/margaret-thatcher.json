@@ -1,0 +1,403 @@
+{
+  "id": "margaret-thatcher",
+  "name": "Margaret Thatcher",
+  "mono": "MT",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Britain’s “Iron Lady” · First female UK prime minister, won the Falklands War",
+  "dates": "1925–2013",
+  "briefing": "Margaret Thatcher grew up working in her father’s grocery store and trained as a chemist before going into politics. As Britain’s first female prime minister, she took on labor unions, sold off government-owned companies, and led the country to victory in the 1982 Falklands War. Soviet newspapers nicknamed her the “Iron Lady” for her tough stance against communism, and the name stuck for the rest of her career.",
+  "answerHtml": "Margaret <b><u>Thatcher</u></b> (or Margaret Hilda <u>Thatcher</u> or Baroness <u>Thatcher</u>; prompt on “the Iron Lady”)",
+  "accept": [
+    "margaret thatcher",
+    "margaret hilda thatcher",
+    "baroness thatcher",
+    "maggie thatcher",
+    "mrs thatcher",
+    "thatcher"
+  ],
+  "prompt": [
+    "iron lady",
+    "the iron lady"
+  ],
+  "reject": [
+    "winston churchill",
+    "john major",
+    "james callaghan",
+    "tony blair",
+    "indira gandhi",
+    "queen elizabeth ii",
+    "elizabeth ii",
+    "denis thatcher",
+    "arthur scargill",
+    "michael heseltine",
+    "ronald reagan"
+  ],
+  "tests": {
+    "right": [
+      "Margaret Thatcher",
+      "Maggie Thatcher",
+      "Mrs Thatcher",
+      "Thatcher",
+      "Margeret Thatcher"
+    ],
+    "prompt": [
+      "Iron Lady",
+      "The Iron Lady"
+    ],
+    "wrong": [
+      "Winston Churchill",
+      "Indira Gandhi",
+      "Queen Elizabeth II",
+      "Ronald Reagan",
+      "John Major"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Margaret Thatcher: First Female Prime Minister of Britain",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=JPpSBgHu_TU",
+      "note": "Short · quick life story"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Margaret Thatcher in 5 Minutes",
+      "source": "British Pathé",
+      "url": "https://www.youtube.com/watch?v=OwbupVeSvYE",
+      "note": "Archival-footage overview of her life and career"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Margaret Thatcher: UK’s First Female Prime Minister - Fast Facts",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=kzmnNsTIqZk",
+      "note": "Short · fast rundown of key facts"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Margaret Thatcher: The Rise Of The Iron Lady",
+      "source": "Timeline - World History Documentaries",
+      "url": "https://www.youtube.com/watch?v=75sS06q5amM",
+      "note": "Longer documentary look at her rise to power"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Margaret Thatcher",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Margaret-Thatcher/277316",
+      "note": "Quick read pitched at grades 6–8"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
+  "qb": {
+    "q": "Margaret Thatcher",
+    "found": 5,
+    "tip": "All 5 Middle School/Easy High School results are clean and specifically about her — no generic-name mix-ups like some royal topics have."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This politician was born Margaret Hilda Roberts, the daughter of a grocer in Grantham, England, and trained as a research chemist before studying law. As Education Secretary, this politician made budget cuts to free school milk that earned the nickname “Milk Snatcher.”",
+      "r": "This politician became leader of the Conservative Party in 1975. For 10 points, name this British stateswoman nicknamed the “Iron Lady,” who served as prime minister from 1979 to 1990."
+    },
+    {
+      "p": "This leader’s free-market, union-weakening economic program became known by a word based on her own name. During her time in office, this leader privatized government-owned companies including British Airways, British Telecom, and British Gas.",
+      "r": "In 1984, this leader survived an IRA bombing at the Grand Hotel in Brighton. For 10 points, name this Conservative prime minister nicknamed the “Iron Lady,” who led Britain to victory in the Falklands War."
+    },
+    {
+      "p": "This leader ordered the sinking of the Argentine cruiser General Belgrano, and the war it was part of ended with the surrender of Port Stanley. This leader clashed with miners’ union leader Arthur Scargill during a long strike in 1984 and 1985.",
+      "r": "This leader introduced an unpopular flat tax nicknamed the “poll tax.” For 10 points, name this first female prime minister of the United Kingdom, known as the “Iron Lady.”"
+    },
+    {
+      "p": "This stateswoman studied chemistry at Oxford before training as a lawyer and entering Parliament. According to a popular legend, this stateswoman helped develop a formula for soft-serve ice cream early in her career as a chemist.",
+      "r": "Soviet media nicknamed this stateswoman the “Iron Lady” for her tough stance against communism. For 10 points, name this Conservative politician who became Britain’s first female prime minister in 1979."
+    },
+    {
+      "p": "This leader’s Education Secretary years included cuts to free school milk, earning the nickname “Milk Snatcher.” This leader formed a close Cold War partnership with United States President Ronald Reagan.",
+      "r": "This leader led the United Kingdom to victory over Argentina in the 1982 Falklands War. For 10 points, name this British prime minister nicknamed the “Iron Lady.”"
+    },
+    {
+      "p": "A Conservative Party leadership challenge from rival Michael Heseltine forced this politician to resign in November 1990. Before that, this politician’s government sold off state-owned companies such as British Airways and British Petroleum.",
+      "r": "This politician was succeeded as prime minister by John Major. For 10 points, name this “Iron Lady” who led Britain through the Falklands War."
+    },
+    {
+      "p": "This leader’s government introduced the Community Charge, a flat-rate local tax nicknamed the “poll tax” that proved deeply unpopular. Earlier, as Education Secretary, this leader’s cuts to free school milk earned a less flattering nickname.",
+      "r": "This leader became the first woman to lead a major UK political party in 1975. For 10 points, name this Conservative prime minister known as the “Iron Lady.”"
+    },
+    {
+      "p": "This prime minister ordered a naval task force to retake British islands after an Argentine invasion in 1982. This prime minister also survived a 1984 IRA bombing at a hotel in Brighton during her party’s conference.",
+      "r": "This prime minister’s privatization and free-market policies became known as “Thatcherism.” For 10 points, name this first female British prime minister, nicknamed the “Iron Lady.”"
+    },
+    {
+      "p": "This leader was born Margaret Hilda Roberts and trained as a chemist before becoming a lawyer and, later, a Member of Parliament. This leader’s government clashed with coal miners led by Arthur Scargill during a bitter 1984–85 strike.",
+      "r": "This leader’s tenure saw the sinking of the Argentine cruiser General Belgrano during the Falklands War. For 10 points, name this Conservative prime minister nicknamed the “Iron Lady.”"
+    },
+    {
+      "p": "This stateswoman became leader of Britain’s Conservative Party in 1975 and prime minister in 1979. As Education Secretary years earlier, this stateswoman made cuts to free school milk that led to an unflattering nickname.",
+      "r": "This stateswoman formed a close alliance with Ronald Reagan during the Cold War. For 10 points, name this “Iron Lady” who led the United Kingdom through the 1982 Falklands War."
+    },
+    {
+      "p": "This politician’s time in office is sometimes called Britain’s longest continuous 20th-century premiership, running from 1979 to 1990. This politician privatized British Telecom, British Gas, and other state-run companies.",
+      "r": "This politician was eventually pushed out of office after a leadership challenge tied to Michael Heseltine and succeeded by John Major. For 10 points, name this Conservative “Iron Lady.”"
+    },
+    {
+      "p": "This leader’s introduction of the “poll tax” proved hugely unpopular with voters. This leader also fought a lengthy battle with the National Union of Mineworkers, led by Arthur Scargill, over the closing of coal mines.",
+      "r": "This leader survived a Brighton hotel bombing carried out by the IRA in 1984. For 10 points, name this British prime minister and “Iron Lady” who defeated Argentina in the Falklands War."
+    },
+    {
+      "p": "This prime minister’s government sent a naval task force across the Atlantic after Argentina invaded a British territory in 1982. That war ended with the surrender of Port Stanley.",
+      "r": "This prime minister was nicknamed “Milk Snatcher” as Education Secretary and later the “Iron Lady” as prime minister. For 10 points, name this first female British prime minister."
+    },
+    {
+      "p": "This leader reportedly helped develop a soft-serve ice cream formula while working as a research chemist, long before entering politics. This leader later led the Conservative Party to three straight general election victories.",
+      "r": "This leader’s economic policies, nicknamed “Thatcherism,” included privatizing companies like British Airways and Jaguar. For 10 points, name this “Iron Lady” who served as UK prime minister from 1979 to 1990."
+    },
+    {
+      "p": "This stateswoman’s government fought a campaign in the South Atlantic after Argentina seized the Falkland Islands. Soviet newspapers gave this stateswoman a nickname for her tough anti-communist rhetoric that stuck for the rest of her career.",
+      "r": "This stateswoman was Britain’s first female prime minister. For 10 points, name this Conservative “Iron Lady,” who governed the UK from 1979 to 1990."
+    }
+  ],
+  "clues": [
+    {
+      "id": "iron-lady",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Iron Lady” by Soviet media for her tough stance against communism",
+      "k": [
+        "iron lady",
+        "soviet",
+        "tough stance"
+      ],
+      "n": 5
+    },
+    {
+      "id": "falklands",
+      "tier": "giveaway",
+      "t": "Led the United Kingdom to victory over Argentina in the 1982 Falklands War",
+      "k": [
+        "falklands war",
+        "argentina",
+        "1982"
+      ],
+      "n": 5
+    },
+    {
+      "id": "first-female-pm",
+      "tier": "giveaway",
+      "t": "Britain’s first female prime minister; Theresa May and Liz Truss later held the job too",
+      "k": [
+        "first female",
+        "prime minister",
+        "theresa may"
+      ],
+      "n": 3
+    },
+    {
+      "id": "conservative-pm-years",
+      "tier": "giveaway",
+      "t": "Conservative prime minister of the United Kingdom from 1979 to 1990",
+      "k": [
+        "conservative",
+        "1979",
+        "1990"
+      ],
+      "n": 3
+    },
+    {
+      "id": "milk-snatcher",
+      "tier": "middle",
+      "t": "Earned the nickname “Milk Snatcher” for cutting free school milk as Education Secretary",
+      "k": [
+        "milk snatcher",
+        "school milk",
+        "education secretary"
+      ],
+      "n": 3
+    },
+    {
+      "id": "brighton-bombing",
+      "tier": "middle",
+      "t": "Survived an IRA bombing at the Grand Hotel in Brighton during a 1984 assassination attempt",
+      "k": [
+        "brighton",
+        "grand hotel",
+        "bombing"
+      ],
+      "n": 2
+    },
+    {
+      "id": "poll-tax",
+      "tier": "middle",
+      "t": "Introduced the unpopular flat-rate Community Charge, nicknamed the “poll tax”",
+      "k": [
+        "community charge",
+        "poll tax",
+        "unpopular"
+      ],
+      "n": 1
+    },
+    {
+      "id": "privatization",
+      "tier": "middle",
+      "t": "Privatized government-owned companies, including British Airways, British Telecom, Jaguar, and British Petroleum",
+      "k": [
+        "privatization",
+        "british airways",
+        "jaguar"
+      ],
+      "n": 1
+    },
+    {
+      "id": "scargill-miners",
+      "tier": "middle",
+      "t": "Clashed with miners’ union leader Arthur Scargill during the 1984–85 miners’ strike",
+      "k": [
+        "arthur scargill",
+        "miners strike",
+        "union"
+      ],
+      "n": 1
+    },
+    {
+      "id": "succeeded-major",
+      "tier": "middle",
+      "t": "Was succeeded as prime minister by John Major in 1990",
+      "k": [
+        "john major",
+        "succeeded",
+        "1990"
+      ],
+      "n": 2
+    },
+    {
+      "id": "reagan-friendship",
+      "tier": "middle",
+      "t": "Formed a close Cold War partnership with U.S. President Ronald Reagan",
+      "k": [
+        "ronald reagan",
+        "cold war",
+        "partnership"
+      ],
+      "n": 2
+    },
+    {
+      "id": "longest-serving",
+      "tier": "middle",
+      "t": "Britain’s longest continuously serving prime minister of the 20th century",
+      "k": [
+        "longest serving",
+        "20th century",
+        "continuously"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chemist-icecream",
+      "tier": "power",
+      "t": "Trained as a research chemist and, according to a popular legend, helped develop a soft-serve ice cream formula early in her career",
+      "k": [
+        "chemist",
+        "soft serve ice cream",
+        "legend"
+      ],
+      "n": 1
+    },
+    {
+      "id": "oxford-lawyer",
+      "tier": "power",
+      "t": "Studied chemistry at Oxford University before training as a lawyer and entering politics",
+      "k": [
+        "oxford university",
+        "chemistry",
+        "lawyer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "conservative-leader-1975",
+      "tier": "power",
+      "t": "Became leader of the Conservative Party in 1975, the first woman to lead a major UK political party",
+      "k": [
+        "conservative party",
+        "1975",
+        "first woman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thatcherism",
+      "tier": "power",
+      "t": "Her free-market, union-weakening economic policies became known as “Thatcherism”",
+      "k": [
+        "thatcherism",
+        "free market",
+        "economic policies"
+      ],
+      "n": 0
+    },
+    {
+      "id": "belgrano",
+      "tier": "power",
+      "t": "Ordered the sinking of the Argentine cruiser General Belgrano during the Falklands War",
+      "k": [
+        "general belgrano",
+        "cruiser",
+        "argentine"
+      ],
+      "n": 1
+    },
+    {
+      "id": "heseltine-downfall",
+      "tier": "power",
+      "t": "A Conservative leadership challenge from rival Michael Heseltine forced her resignation in 1990",
+      "k": [
+        "michael heseltine",
+        "leadership challenge",
+        "resignation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "roberts-maiden-name",
+      "tier": "power",
+      "t": "Born Margaret Hilda Roberts, the daughter of a grocer in Grantham, England",
+      "k": [
+        "grantham",
+        "grocer",
+        "roberts"
+      ],
+      "n": 1
+    },
+    {
+      "id": "port-stanley",
+      "tier": "power",
+      "t": "The Falklands War ended with the surrender of Port Stanley to British forces",
+      "k": [
+        "port stanley",
+        "surrender",
+        "british forces"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Iron Lady, not the Queen",
+    "body": "Soviet media gave Thatcher the nickname “Iron Lady” for her tough anti-communist stance — the same kind of tough-leader label sometimes given to other leaders, like India’s Indira Gandhi, so “Iron Lady” alone isn’t enough. Kids also sometimes confuse Thatcher, the elected prime minister who ran the government, with Queen Elizabeth II, the unelected head of state at the same time — two different jobs held by two different women.",
+    "fix": "If the clue mentions the Falklands War, privatization, the miners’ strike, or “Milk Snatcher,” it’s Thatcher. If it mentions the crown, Buckingham Palace, or decades on the throne, it’s the Queen.",
+    "line": "Real answer line: <b><u>Margaret Thatcher</u></b> (or Margaret Hilda Thatcher; or Baroness Thatcher)"
+  },
+  "freq": {
+    "rank": 24,
+    "count": 4,
+    "list": "European History"
+  }
+}

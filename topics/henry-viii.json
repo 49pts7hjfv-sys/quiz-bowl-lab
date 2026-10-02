@@ -1,0 +1,549 @@
+{
+  "id": "henry-viii",
+  "name": "Henry VIII",
+  "mono": "H8",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Tudor king of England · Broke with Rome and married six times",
+  "dates": "1491–1547",
+  "briefing": "Henry VIII became king at 17 and was such a strong Catholic that the pope named him “Defender of the Faith” for a book attacking Martin Luther. When the pope later refused to end his marriage to Catherine of Aragon, Henry broke with Rome and made himself head of the Church of England. He married six times, and students still memorize the rhyme: “divorced, beheaded, died; divorced, beheaded, survived.”",
+  "answerHtml": "<b><u>Henry VIII</u></b> (or <u>Henry the Eighth</u>; prompt on <u>Henry</u>)",
+  "accept": [
+    "henry viii",
+    "henry 8",
+    "henry 8th",
+    "henry the eighth",
+    "henry the 8th",
+    "henry the 8",
+    "henry eighth",
+    "henry eight",
+    "henry viii tudor",
+    "king henry viii",
+    "henry viii of england"
+  ],
+  "prompt": [
+    "henry",
+    "king henry",
+    "henry tudor"
+  ],
+  "reject": [
+    "henry vii",
+    "henry the seventh",
+    "henry 7",
+    "henry 7th",
+    "henry the 7th",
+    "henry seventh",
+    "henry seven",
+    "henry vi",
+    "henry the sixth",
+    "henry 6",
+    "henry 6th",
+    "henry the 6th",
+    "henry sixth",
+    "henry v",
+    "henry the fifth",
+    "henry 5",
+    "henry 5th",
+    "henry the 5th",
+    "henry fifth",
+    "henry iv",
+    "henry the fourth",
+    "henry 4",
+    "henry 4th",
+    "henry the 4th",
+    "henry fourth",
+    "henry iii",
+    "henry the third",
+    "henry 3",
+    "henry 3rd",
+    "henry the 3rd",
+    "henry ii",
+    "henry the second",
+    "henry 2",
+    "henry 2nd",
+    "henry the 2nd",
+    "henry i",
+    "henry the first",
+    "henry 1",
+    "henry 1st",
+    "henry the 1st",
+    "henry ix",
+    "henry of navarre",
+    "henry iv of france",
+    "edward vi",
+    "edward the sixth",
+    "edward 6",
+    "mary i",
+    "mary tudor",
+    "bloody mary",
+    "queen mary",
+    "elizabeth i",
+    "elizabeth",
+    "queen elizabeth",
+    "anne boleyn",
+    "catherine of aragon",
+    "jane seymour",
+    "catherine parr",
+    "catherine howard",
+    "anne of cleves",
+    "thomas cromwell",
+    "thomas more",
+    "thomas wolsey",
+    "cardinal wolsey",
+    "thomas cranmer",
+    "prince arthur",
+    "arthur tudor",
+    "james i",
+    "francis i",
+    "martin luther"
+  ],
+  "tests": {
+    "right": [
+      "Henry VIII",
+      "Henry the Eighth",
+      "King Henry VIII",
+      "henry 8",
+      "Henery VIII",
+      "Henry the 8th"
+    ],
+    "prompt": [
+      "Henry",
+      "King Henry"
+    ],
+    "wrong": [
+      "Henry VII",
+      "Henry the Seventh",
+      "Henry V",
+      "Henry the Fifth",
+      "Edward VI",
+      "Elizabeth I",
+      "Anne Boleyn"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Wives of Henry VIII: Divorced, Beheaded & Died Song",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=rTdTDCRKvvM",
+      "note": "Short · catchy song to remember the six wives in order"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Henry VIII: King of England & Initiated the English Reformation",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=vGi2TYAQfXE",
+      "note": "Short · quick life story, including how he started the Church of England"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "History vs. Henry VIII",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=xdZcqAss92w",
+      "note": "5 min · animated mock trial: great king or tyrant? You are the jury"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "A Simple Guide to Henry VIII",
+      "source": "Simple History",
+      "url": "https://www.youtube.com/watch?v=OcS8AbqGphI",
+      "note": "Cartoon guide to his life, his wives, and his big decisions"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Early Tudors: Henry VIII and the Church of England",
+      "source": "History Matters",
+      "url": "https://www.youtube.com/watch?v=GcwsBPPSi9Q",
+      "note": "About 10 min · doodle-style history of the early Tudors and the break with Rome"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Reformation and Consequences (#7)",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=PbBDP1Elbbg",
+      "note": "The Protestant Reformation, the bigger story behind the split from Rome"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Biography: Henry VIII for Kids",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/world_leaders/henry_viii.php",
+      "note": "Quick read: his life, six wives, and the Church of England"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Henry_VIII",
+  "qb": {
+    "q": "Henry VIII",
+    "found": 9,
+    "tip": "Henry VIII is #7 on QBReader’s European History frequency list (7 Middle School and Easy High School tossups). Skip the 2021 CERES result: it only wants the first name “Henry,” and its Edict of Nantes clue is about a French king."
+  },
+  "sample": {
+    "n": 9,
+    "note": "the 9 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked; one of them wanted just the name “Henry”)"
+  },
+  "tossups": [
+    {
+      "p": "Robert Aske led a 1536 uprising in northern England called the Pilgrimage of Grace against this king’s religious changes. Those rebels especially protested this king’s closing of hundreds of monasteries, a campaign run by his chief minister, Thomas Cromwell.",
+      "r": "For 10 points, name this Tudor king who broke with the Catholic Church and married six times."
+    },
+    {
+      "p": "Cardinal Thomas Wolsey lost power in 1529 after he failed to get this king’s first marriage annulled. Later, the pope excommunicated this king, who had made himself head of a new national church.",
+      "r": "That first marriage was to Catherine of Aragon. For 10 points, name this Tudor king who founded the Church of England."
+    },
+    {
+      "p": "This king met Francis I of France in 1520 at a lavish summit of tents, jousts, and feasts called the Field of the Cloth of Gold. A year later, Pope Leo X named this king “Defender of the Faith” for writing a book that attacked Martin Luther.",
+      "r": "For 10 points, name this English king who later broke with the pope and married six times."
+    },
+    {
+      "p": "While this king was campaigning in France in 1513, where his troops won the Battle of the Spurs, his army at home crushed a Scottish invasion at Flodden, where Scotland’s King James IV died. Early in his reign, this king married the widow of his older brother, Arthur.",
+      "r": "That widow was Catherine of Aragon. For 10 points, name this English king who later had five more wives."
+    },
+    {
+      "p": "This king’s warship the _Mary Rose_ sank in 1545 while fighting a French fleet near Portsmouth, and its wreck was raised from the seabed in 1982. Hans Holbein the Younger painted this king’s most famous portrait, which shows him standing with his feet planted wide apart.",
+      "r": "In 1534, the Act of Supremacy made this king head of the Church of England. For 10 points, name this Tudor ruler who married six times."
+    },
+    {
+      "p": "Legend says this ruler wrote the song “Greensleeves” for a woman he was courting. That woman became his second wife and was crowned queen in 1533, but three years later she was beheaded on charges of treason.",
+      "r": "Their daughter became Elizabeth I. For 10 points, name this Tudor king who married six times."
+    },
+    {
+      "p": "The author of _Utopia_ served as this king’s Lord Chancellor but was beheaded in 1535 after refusing to accept this king as head of the Church. That author, Sir Thomas More, was later declared a saint by the Catholic Church.",
+      "r": "For 10 points, name this English king who broke with Rome so he could end his marriage to Catherine of Aragon."
+    },
+    {
+      "p": "In 1533, this king’s new Archbishop of Canterbury, Thomas Cranmer, declared his first marriage invalid. Pope Clement VII had refused to annul that marriage, partly because the pope was under the power of the queen’s nephew, Emperor Charles V.",
+      "r": "For 10 points, name this English king who founded the Church of England and married six times."
+    },
+    {
+      "p": "Thomas Cromwell arranged this king’s marriage to the German princess Anne of Cleves, which was annulled after about six months. Weeks later, Cromwell was beheaded, and on that same day this king married a young cousin of his second wife.",
+      "r": "That cousin was Catherine Howard. For 10 points, name this Tudor king of England, who had six wives in all."
+    },
+    {
+      "p": "A cannon fired during a 1613 performance of a play about this king by William Shakespeare and John Fletcher set the Globe Theatre on fire and burned it down. In real life, this king’s third wife died soon after giving birth to his only legitimate son who survived infancy.",
+      "r": "That son became Edward VI. For 10 points, name this English king whose daughters were Mary I and Elizabeth I."
+    },
+    {
+      "p": "Hilary Mantel’s novel _Wolf Hall_ follows Thomas Cromwell, a blacksmith’s son who rose to become this king’s chief minister. Cromwell helped this king shut down England’s monasteries and seize their lands before being beheaded in 1540.",
+      "r": "For 10 points, name this Tudor king who split from the Catholic Church and married six times."
+    },
+    {
+      "p": "This king was buried at Windsor Castle beside his third wife, Jane Seymour, whom he had married just eleven days after his second wife’s execution. His sixth and last wife, Catherine Parr, outlived him.",
+      "r": "For 10 points, name this Tudor king whose wives are remembered with the rhyme “divorced, beheaded, died; divorced, beheaded, survived.”"
+    },
+    {
+      "p": "This ruler argued that his first marriage broke a rule in the Book of Leviticus, because his bride had first been married to his older brother, Arthur, who died young. Pope Clement VII refused to cancel that marriage.",
+      "r": "So this ruler broke with Rome, and Parliament passed the Act of Supremacy. For 10 points, name this Tudor king who married six times."
+    },
+    {
+      "p": "British coins still carry the letters “F D,” short for a Latin title meaning “Defender of the Faith” that a pope first gave to this king. This king earned that title in 1521 by writing a book that defended the seven sacraments against Martin Luther.",
+      "r": "For 10 points, name this English king who later broke with the pope, closed the monasteries, and married six times."
+    },
+    {
+      "p": "In 1542, the Irish Parliament made this ruler the first English monarch to hold the title “King of Ireland.” That same year, this ruler’s fifth wife, Catherine Howard, was beheaded, just as his second wife had been six years earlier.",
+      "r": "His son became King Edward VI. For 10 points, name this Tudor king who had six wives."
+    }
+  ],
+  "clues": [
+    {
+      "id": "six-wives",
+      "tier": "giveaway",
+      "t": "Married six times: “divorced, beheaded, died; divorced, beheaded, survived”",
+      "k": [
+        "six wives",
+        "married six",
+        "divorced",
+        "beheaded",
+        "survived"
+      ],
+      "n": 9
+    },
+    {
+      "id": "church-of-england",
+      "tier": "giveaway",
+      "t": "Broke with the Roman Catholic Church and made himself head of the Church of England",
+      "k": [
+        "church of england",
+        "broke with",
+        "head of the church"
+      ],
+      "n": 9
+    },
+    {
+      "id": "tudor-king",
+      "tier": "giveaway",
+      "t": "Second Tudor king of England (reigned 1509–1547), son of the first Tudor king",
+      "k": [
+        "tudor",
+        "second tudor",
+        "1509"
+      ],
+      "n": 3
+    },
+    {
+      "id": "children",
+      "tier": "giveaway",
+      "t": "Father of three monarchs: Edward VI, Mary I, and Elizabeth I",
+      "k": [
+        "edward vi",
+        "mary i",
+        "elizabeth i",
+        "three monarchs"
+      ],
+      "n": 1,
+      "rabbit": "Elizabeth I"
+    },
+    {
+      "id": "catherine-of-aragon",
+      "tier": "middle",
+      "t": "First wife, Catherine of Aragon, had no surviving son, so he asked the pope to annul their marriage",
+      "k": [
+        "catherine of aragon",
+        "aragon",
+        "annul",
+        "no son"
+      ],
+      "n": 7
+    },
+    {
+      "id": "anne-boleyn",
+      "tier": "middle",
+      "t": "Second wife Anne Boleyn, mother of Elizabeth I, was beheaded in 1536; fifth wife Catherine Howard was beheaded in 1542",
+      "k": [
+        "anne boleyn",
+        "boleyn",
+        "catherine howard",
+        "howard"
+      ],
+      "n": 3,
+      "rabbit": "Anne Boleyn"
+    },
+    {
+      "id": "act-of-supremacy",
+      "tier": "middle",
+      "t": "The Act of Supremacy (1534) made him Supreme Head of the Church of England",
+      "k": [
+        "act of supremacy",
+        "supremacy",
+        "1534"
+      ],
+      "n": 4
+    },
+    {
+      "id": "pope-clement",
+      "tier": "middle",
+      "t": "Pope Clement VII refused the annulment (Catherine’s nephew was Emperor Charles V); he was later excommunicated",
+      "k": [
+        "clement vii",
+        "clement",
+        "charles v",
+        "excommunicated"
+      ],
+      "n": 3
+    },
+    {
+      "id": "jane-seymour",
+      "tier": "middle",
+      "t": "Third wife Jane Seymour, married 11 days after Anne Boleyn’s execution, gave birth to Edward VI, his only legitimate son to survive infancy",
+      "k": [
+        "jane seymour",
+        "seymour",
+        "11 days",
+        "eleven days"
+      ],
+      "n": 2
+    },
+    {
+      "id": "parr",
+      "tier": "middle",
+      "t": "Sixth wife Catherine Parr outlived him; he was buried at Windsor beside Jane Seymour",
+      "k": [
+        "catherine parr",
+        "parr",
+        "outlived",
+        "windsor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arthur",
+      "tier": "middle",
+      "t": "Married Catherine of Aragon, widow of his older brother Arthur, then cited the Book of Leviticus to call that marriage invalid",
+      "k": [
+        "arthur",
+        "older brother",
+        "leviticus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monasteries",
+      "tier": "power",
+      "t": "Dissolution of the Monasteries (1536–1541): closed England’s monasteries and took their land and riches",
+      "k": [
+        "dissolution",
+        "monasteries",
+        "monastery"
+      ],
+      "n": 6
+    },
+    {
+      "id": "cromwell",
+      "tier": "power",
+      "t": "Chief minister Thomas Cromwell (hero of Hilary Mantel’s _Wolf Hall_) ran the dissolution; beheaded in 1540",
+      "k": [
+        "thomas cromwell",
+        "cromwell",
+        "wolf hall"
+      ],
+      "n": 5
+    },
+    {
+      "id": "thomas-more",
+      "tier": "power",
+      "t": "Executed Sir Thomas More (1535), author of _Utopia_, for refusing to accept him as head of the Church",
+      "k": [
+        "thomas more",
+        "utopia"
+      ],
+      "n": 3
+    },
+    {
+      "id": "defender-of-the-faith",
+      "tier": "power",
+      "t": "Pope Leo X named him “Defender of the Faith” (1521) for _Defence of the Seven Sacraments_, his book against Martin Luther",
+      "k": [
+        "defender of the faith",
+        "seven sacraments",
+        "leo x",
+        "fidei defensor"
+      ],
+      "n": 4,
+      "rabbit": "Martin Luther"
+    },
+    {
+      "id": "cranmer",
+      "tier": "power",
+      "t": "Archbishop of Canterbury Thomas Cranmer declared his first marriage invalid (1533)",
+      "k": [
+        "thomas cranmer",
+        "cranmer",
+        "canterbury"
+      ],
+      "n": 2
+    },
+    {
+      "id": "wolsey",
+      "tier": "power",
+      "t": "Cardinal Thomas Wolsey, his chief minister, lost power in 1529 after failing to get the annulment",
+      "k": [
+        "wolsey",
+        "cardinal",
+        "1529"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pilgrimage-of-grace",
+      "tier": "power",
+      "t": "Pilgrimage of Grace (1536): Robert Aske’s northern rebellion against closing the monasteries",
+      "k": [
+        "pilgrimage of grace",
+        "pilgrimage",
+        "aske"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cloth-of-gold",
+      "tier": "power",
+      "t": "Met Francis I of France at the Field of the Cloth of Gold (1520)",
+      "k": [
+        "cloth of gold",
+        "field of the cloth",
+        "francis i"
+      ],
+      "n": 1
+    },
+    {
+      "id": "flodden",
+      "tier": "power",
+      "t": "1513: James IV of Scotland died fighting his army at Flodden, while he beat the French at the Battle of the Spurs",
+      "k": [
+        "flodden",
+        "spurs",
+        "james iv"
+      ],
+      "n": 1
+    },
+    {
+      "id": "greensleeves",
+      "tier": "power",
+      "t": "Legend says he wrote the song “Greensleeves”",
+      "k": [
+        "greensleeves"
+      ],
+      "n": 1
+    },
+    {
+      "id": "anne-of-cleves",
+      "tier": "power",
+      "t": "Fourth wife Anne of Cleves: a marriage arranged by Cromwell and annulled after about six months (1540)",
+      "k": [
+        "anne of cleves",
+        "cleves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mary-rose",
+      "tier": "power",
+      "t": "His warship the _Mary Rose_ sank in 1545 near Portsmouth and was raised from the seabed in 1982",
+      "k": [
+        "mary rose",
+        "warship",
+        "1982"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holbein",
+      "tier": "power",
+      "t": "Court painter Hans Holbein the Younger painted his famous wide-legged portrait",
+      "k": [
+        "holbein",
+        "portrait"
+      ],
+      "n": 0
+    },
+    {
+      "id": "globe-fire",
+      "tier": "power",
+      "t": "A cannon fired in a 1613 performance of Shakespeare and Fletcher’s play about him burned down the Globe Theatre",
+      "k": [
+        "globe theatre",
+        "globe",
+        "cannon",
+        "1613"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Henry?",
+    "body": "England had eight kings named Henry, and quiz bowl asks about several of them. His father, Henry VII, won the Battle of Bosworth Field in 1485 and started the Tudor dynasty, and Henry V won the Battle of Agincourt in the Hundred Years’ War. Saying just “Henry” earns a prompt, and the wrong number is simply wrong. One real tossup even wanted only the name “Henry,” with a clue about Henry IV of France and the Edict of Nantes mixed in.",
+    "fix": "Six wives, the split from Rome, the Act of Supremacy, Thomas Cromwell, or Thomas More mean Henry VIII. Bosworth Field and the first Tudor mean Henry VII; Agincourt and the “band of brothers” speech mean Henry V. Always say the number: “Henry the Eighth.”",
+    "line": "Real answer line: <b><u>Henry VIII</u></b> (or <u>Henry the 8th</u>; prompt on <u>Henry</u>)"
+  },
+  "freq": {
+    "rank": 6,
+    "count": 7,
+    "list": "European History"
+  }
+}

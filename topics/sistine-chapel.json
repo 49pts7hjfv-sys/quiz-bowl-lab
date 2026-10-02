@@ -1,0 +1,388 @@
+{
+  "id": "sistine-chapel",
+  "name": "Sistine Chapel",
+  "mono": "SC",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Vatican chapel · Home to Michelangelo’s ceiling and _The Last Judgment_",
+  "dates": "Built 1473–1481; ceiling painted 1508–1512",
+  "briefing": "Pope Sixtus IV built this chapel as his own private place of worship in the Vatican — then, decades later, Pope Julius II talked a reluctant sculptor named Michelangelo into painting its ceiling from custom scaffolding, standing and craning his neck back, not lying down as legend claims. The result includes _The Creation of Adam_, where God’s finger almost touches Adam’s, and decades later Michelangelo returned to paint _The Last Judgment_ across the altar wall.",
+  "answerHtml": "<b><u>Sistine Chapel</u></b>",
+  "accept": [
+    "sistine chapel",
+    "the sistine chapel",
+    "sacellum sixtinum",
+    "cappella sistina",
+    "sistine chapel ceiling"
+  ],
+  "prompt": [],
+  "reject": [
+    "michelangelo",
+    "creation of adam",
+    "last judgment",
+    "last judgement",
+    "st peters basilica",
+    "saint peters basilica",
+    "vatican",
+    "vatican city",
+    "pope julius ii"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Sistine Chapel | Vatican City | Michelangelo | History Made Easy",
+      "source": "Bedtime History",
+      "url": "https://www.youtube.com/watch?v=arZfviBmekw",
+      "note": "Kid-friendly story of the chapel and Michelangelo’s years painting its ceiling"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ceiling of the Sistine Chapel",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=PEE3B8Fsuc0",
+      "note": "Art historians tour Michelangelo’s ceiling, from the Genesis scenes to the Creation of Adam"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Last Judgment (altar wall, Sistine Chapel)",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=c2MuTvQM61Y",
+      "note": "Michelangelo’s later Last Judgment fresco on the chapel’s altar wall"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Sistine Chapel Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Sistine_Chapel",
+      "note": "Quick read: the chapel’s history, the ceiling, and The Last Judgment"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Sistine_Chapel",
+  "qb": {
+    "q": "Sistine Chapel",
+    "found": 1,
+    "tip": "Only 1 Middle School/Easy High School tossup turns up, so the sample leans on 4 Regular High School tossups too — the “hidden brain” theory about _The Creation of Adam_ is a favorite power clue across both levels."
+  },
+  "sample": {
+    "n": 5,
+    "note": "5 real QBReader tossups (1 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Some art historians think the red cloth and tangled figures surrounding God in one ceiling panel here secretly outline a human brain, an idea a physician proposed in 1990. Painted thrones around that ceiling’s edges hold five Sibyls and seven Hebrew prophets, and one central panel shows Noah embarrassingly drunk after the Flood.",
+      "r": "Michelangelo designed his own standing scaffolding to spend roughly four years painting that ceiling for Pope Julius II. For 10 points, name this Vatican room whose altar wall Michelangelo later covered with _The Last Judgment_."
+    },
+    {
+      "p": "One panel on this room’s ceiling shows a pink-robed figure twice, reaching out to create the sun and the moon on the same day of Genesis. Elsewhere on that ceiling, the same figure’s finger almost brushes the finger of a reclining, newly formed man.",
+      "r": "Pope Sixtus IV built this room in the 1470s, but it is best known for the ceiling Michelangelo painted a few decades later. For 10 points, name this Vatican chapel housing _The Creation of Adam_."
+    },
+    {
+      "p": "After the Council of Trent, a painter nicknamed the “breeches-maker” was hired to add loincloths over nude figures on this room’s altar wall. On that same wall, the ferryman Charon beats condemned souls with an oar while demons drag sinners down toward Hell.",
+      "r": "Michelangelo hid a self-portrait on the flayed skin held by Saint Bartholomew in that same mural. For 10 points, name this chapel where Michelangelo painted _The Last Judgment_."
+    },
+    {
+      "p": "This room’s side walls were painted first, in the 1480s, by Renaissance masters including Botticelli, whose _Punishment of the Rebels_ shows followers of Korah swallowed by the earth. Decades later, Michelangelo reportedly refused the architect Bramante’s scaffold design, which would have left holes through the vault, and built his own instead.",
+      "r": "That ceiling took Michelangelo from 1508 to 1512 to finish. For 10 points, name this Vatican chapel, home to Michelangelo’s most famous ceiling frescoes."
+    },
+    {
+      "p": "A woman many scholars identify as Eve waits tucked beneath God’s left arm in one scene on this room’s ceiling, while God’s right hand reaches toward a reclining man. More than 300 figures crowd that ceiling in all, including ancestors of Christ painted into the lunettes above the windows.",
+      "r": "Pope Julius II commissioned Michelangelo to paint the whole thing starting in 1508. For 10 points, name this chapel in Vatican City."
+    },
+    {
+      "p": "Michelangelo reportedly preferred sculpture and resisted this commission for months before Pope Julius II insisted he take it on. Nine central scenes from Genesis run down the middle of this room’s ceiling, bookended by _The Separation of Light from Darkness_ and _The Drunkenness of Noah_.",
+      "r": "Decades later, a different pope asked Michelangelo back to paint _The Last Judgment_ on the altar wall. For 10 points, name this chapel in the Vatican."
+    },
+    {
+      "p": "Figures wrapped in a red cloth are said by some to trace the outline of a human brain around God in this room’s most famous ceiling panel. That same panel, _The Creation of Adam_, also shows God’s fingertip almost touching a newly made man’s.",
+      "r": "Smoke from a chimney above this room tells the world whether cardinals have chosen a new pope. For 10 points, name this Vatican chapel where papal conclaves are held."
+    },
+    {
+      "p": "Pope Clement VII commissioned a fresco for this room’s altar wall shortly before his death, and Pope Paul III saw it finished in 1541. On the ceiling here, the prophet Jonah leans back dramatically on his painted throne, while sibyls sit on several others nearby.",
+      "r": "That altar fresco, _The Last Judgment_, faces scenes Michelangelo had painted on the ceiling decades earlier. For 10 points, name this Vatican chapel."
+    },
+    {
+      "p": "Before Michelangelo ever touched its ceiling, this room’s side walls were already covered with 1480s frescoes on the lives of Moses and Christ by artists like Perugino and Ghirlandaio. One of those earlier scenes, Botticelli’s _Punishment of the Rebels_, shows Korah’s followers swallowed by the earth.",
+      "r": "Decades later, Michelangelo would paint _The Creation of Adam_ on this same room’s ceiling. For 10 points, name this Vatican chapel."
+    },
+    {
+      "p": "In one ceiling scene here, God appears twice in a pink robe, pointing to form the sun and the moon on the same day of creation. In a much later scene on the altar wall, Charon ferries condemned souls while sinners are dragged down toward Hell.",
+      "r": "This room gets its English name from the pope who built it, Sixtus IV, in the 1470s. For 10 points, name this Vatican chapel painted by Michelangelo."
+    },
+    {
+      "p": "Saint Bartholomew holds his own flayed skin, which many believe hides a self-portrait of the artist, in a fresco on this room’s altar wall. That same artist painted the ceiling here from his own scaffolding, standing and bending backward, for roughly four years.",
+      "r": "Tourists now crowd beneath both of Michelangelo’s masterpieces in this single room. For 10 points, name this chapel in Vatican City."
+    },
+    {
+      "p": "An artist nicknamed “Il Braghettone,” or “the breeches-maker,” was later hired to cover nude figures on this room’s altar wall after the Council of Trent objected to their nudity. On the ceiling nearby, the prophet Jeremiah sits lost in thought on his painted throne.",
+      "r": "Both that altar fresco and the ceiling above it were painted by Michelangelo. For 10 points, name this Vatican chapel, home to _The Last Judgment_."
+    },
+    {
+      "p": "Figures encircling God in red drapery may hide the outline of a human brain, according to one widely discussed theory about a panel on this room’s ceiling. That same panel, admired for centuries, shows God’s finger nearly touching the finger of a man lying on a green hillside.",
+      "r": "This chapel’s walls were frescoed decades before its famous ceiling by painters like Botticelli and Perugino. For 10 points, name this Vatican chapel whose ceiling Michelangelo painted."
+    },
+    {
+      "p": "This room takes its English name from the Italian pope who had it built between 1473 and 1481. Michelangelo returned to this room roughly twenty-five years after finishing its ceiling to paint _The Last Judgment_ on the wall behind its altar.",
+      "r": "Cardinals gather in this chapel to elect new popes, burning their ballots in a stove connected to a chimney. For 10 points, name this Vatican chapel."
+    },
+    {
+      "p": "Nine central panels telling stories from Genesis, from _The Separation of Light from Darkness_ to _The Drunkenness of Noah_, run down the middle of this room’s ceiling. Michelangelo designed his own scaffolding, built on brackets rather than ropes, to paint them all starting in 1508.",
+      "r": "He returned to paint _The Last Judgment_ on the altar wall of this same room decades later. For 10 points, name this Vatican chapel whose ceiling Pope Julius II commissioned."
+    }
+  ],
+  "clues": [
+    {
+      "id": "michelangelo-painter",
+      "tier": "giveaway",
+      "t": "Michelangelo painted both its famous ceiling and its altar wall",
+      "k": [
+        "michelangelo",
+        "ceiling",
+        "altar wall"
+      ],
+      "n": 5
+    },
+    {
+      "id": "vatican-location",
+      "tier": "giveaway",
+      "t": "Located inside Vatican City, the independent country within Rome",
+      "k": [
+        "vatican city",
+        "rome"
+      ],
+      "n": 3
+    },
+    {
+      "id": "papal-conclave",
+      "tier": "giveaway",
+      "t": "Where cardinals hold a papal conclave to elect a new pope, sending up smoke from a chimney",
+      "k": [
+        "papal conclave",
+        "cardinals",
+        "chimney"
+      ],
+      "n": 1,
+      "rabbit": "Papal Conclave"
+    },
+    {
+      "id": "famous-frescoes",
+      "tier": "giveaway",
+      "t": "Home to two of the most famous paintings on Earth: _The Creation of Adam_ and _The Last Judgment_",
+      "k": [
+        "creation of adam",
+        "last judgment"
+      ],
+      "n": 5
+    },
+    {
+      "id": "sixtus-iv",
+      "tier": "middle",
+      "t": "Built 1473–1481 for Pope Sixtus IV, who gave the chapel its name",
+      "k": [
+        "sixtus iv",
+        "1473",
+        "1481"
+      ],
+      "n": 0
+    },
+    {
+      "id": "julius-ii-ceiling",
+      "tier": "middle",
+      "t": "Ceiling commissioned by Pope Julius II; Michelangelo painted it from 1508 to 1512",
+      "k": [
+        "julius ii",
+        "1508",
+        "1512"
+      ],
+      "n": 0,
+      "rabbit": "Pope Julius II"
+    },
+    {
+      "id": "clement-paul-last-judgment",
+      "tier": "middle",
+      "t": "_The Last Judgment_ came later, ordered by Pope Clement VII and finished under Pope Paul III in 1541",
+      "k": [
+        "clement vii",
+        "paul iii",
+        "1541"
+      ],
+      "n": 0
+    },
+    {
+      "id": "finger-of-god",
+      "tier": "middle",
+      "t": "In _The Creation of Adam_, God’s outstretched finger almost touches Adam’s own",
+      "k": [
+        "creation of adam",
+        "finger"
+      ],
+      "n": 4,
+      "rabbit": "The Creation of Adam"
+    },
+    {
+      "id": "bartholomew-selfportrait",
+      "tier": "middle",
+      "t": "In _The Last Judgment_, Saint Bartholomew holds his own flayed skin, hiding a self-portrait",
+      "k": [
+        "bartholomew",
+        "flayed skin",
+        "self-portrait"
+      ],
+      "n": 1
+    },
+    {
+      "id": "side-walls-earlier",
+      "tier": "middle",
+      "t": "Side walls were painted first, in the 1480s, by Renaissance masters like Botticelli and Perugino",
+      "k": [
+        "botticelli",
+        "perugino",
+        "1480s"
+      ],
+      "n": 1
+    },
+    {
+      "id": "breeches-maker",
+      "tier": "middle",
+      "t": "After the Council of Trent, Daniele da Volterra, nicknamed the breeches-maker, added loincloths to nude figures",
+      "k": [
+        "daniele da volterra",
+        "breeches-maker",
+        "loincloths"
+      ],
+      "n": 1
+    },
+    {
+      "id": "scaffolding-bramante",
+      "tier": "power",
+      "t": "Michelangelo reportedly rejected Bramante’s scaffold design, which would have left holes in the vault, and built his own",
+      "k": [
+        "bramante",
+        "scaffold"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hidden-brain",
+      "tier": "power",
+      "t": "Some art historians see a human brain hidden in the red cloth and figures surrounding God in _The Creation of Adam_",
+      "k": [
+        "hidden brain",
+        "creation of adam"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sibyls-prophets",
+      "tier": "power",
+      "t": "The ceiling also includes five Sibyls and seven Hebrew prophets seated on painted thrones around its edges",
+      "k": [
+        "sibyls",
+        "prophets",
+        "thrones"
+      ],
+      "n": 1
+    },
+    {
+      "id": "noah-panels",
+      "tier": "power",
+      "t": "Central Genesis panels include _The Sacrifice of Noah_, _The Flood_, and _The Drunkenness of Noah_",
+      "k": [
+        "drunkenness of noah",
+        "genesis panels"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sun-moon-panel",
+      "tier": "power",
+      "t": "One ceiling panel shows God twice, reaching out to create the sun and the moon on the same day",
+      "k": [
+        "sun and the moon",
+        "twice"
+      ],
+      "n": 1
+    },
+    {
+      "id": "charon-lastjudgment",
+      "tier": "power",
+      "t": "In _The Last Judgment_’s lower section, the ferryman Charon beats condemned souls while demons drag sinners down",
+      "k": [
+        "charon",
+        "condemned souls"
+      ],
+      "n": 1,
+      "rabbit": "Charon"
+    },
+    {
+      "id": "eve-under-arm",
+      "tier": "power",
+      "t": "In _The Creation of Adam_, a woman thought to be Eve waits tucked beneath God’s other arm",
+      "k": [
+        "eve",
+        "tucked"
+      ],
+      "n": 1
+    },
+    {
+      "id": "korah-botticelli",
+      "tier": "power",
+      "t": "Botticelli’s _Punishment of the Rebels_, showing Korah’s followers swallowed by the earth, decorates one side wall",
+      "k": [
+        "punishment of the rebels",
+        "korah"
+      ],
+      "n": 1
+    },
+    {
+      "id": "michelangelo-reluctant",
+      "tier": "power",
+      "t": "Michelangelo saw himself mainly as a sculptor and resisted this ceiling commission for months",
+      "k": [
+        "sculptor",
+        "resisted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ceiling-scale",
+      "tier": "power",
+      "t": "The ceiling holds more than 300 painted figures in all, far beyond its nine central scenes",
+      "k": [
+        "300",
+        "painted figures"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The chapel, not Michelangelo",
+    "body": "Nearly every clue names Michelangelo, and the giveaway often ends “…painted by Michelangelo,” which tempts a fast buzz with the artist’s name. There’s a second trap, too: _The Creation of Adam_ and _The Last Judgment_ are specific frescoes inside this room, so naming one of those instead of the room itself is also a miss.",
+    "fix": "Listen for the phrase right before the blank: “this building,” “this chapel,” or “this room” wants the Sistine Chapel itself — not the artist, and not one single fresco inside it.",
+    "line": "Real answer line: <b><u>Sistine Chapel</u></b> [or Sacellum Sixtinum; or Cappella Sistina]"
+  },
+  "tests": {
+    "right": [
+      "Sistine Chapel",
+      "sistine chaple",
+      "The Sistine Chapel",
+      "Cappella Sistina"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Michelangelo",
+      "Creation of Adam",
+      "Last Judgment",
+      "Vatican City",
+      "St. Peter's Basilica"
+    ]
+  },
+  "freq": {
+    "rank": 159,
+    "count": 1,
+    "list": "Fine Arts"
+  }
+}

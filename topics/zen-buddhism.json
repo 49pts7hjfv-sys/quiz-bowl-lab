@@ -1,0 +1,468 @@
+{
+  "id": "zen-buddhism",
+  "name": "Zen Buddhism",
+  "mono": "ZB",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Meditation school of Buddhism · Koans, zazen, and rock gardens",
+  "dates": "Began in China, 6th century CE",
+  "briefing": "Zen is a school of Buddhism built around sitting still and wrestling with riddles that have no easy answers. Legend says its founder, Bodhidharma, brought it from India to China and meditated facing a wall for nine years. In Japan, its monks practice zazen (seated meditation), puzzle over koans like the sound of one hand clapping, and rake gravel into rock gardens that look like rippling water.",
+  "answerHtml": "<b><u>Zen</u></b> Buddhism (accept <u>Chan</u> or <u>Seon</u>; prompt on <u>Buddhism</u>, <u>Mahayana</u> Buddhism, <u>Rinzai</u>, or <u>Soto</u>; do not accept other forms of Buddhism such as “Theravada” or “Tibetan Buddhism”)",
+  "accept": [
+    "zen",
+    "zen buddhism",
+    "zen buddhist",
+    "zen buddhists",
+    "zen sect",
+    "zen school",
+    "chan",
+    "chan buddhism",
+    "chan buddhist",
+    "seon",
+    "seon buddhism"
+  ],
+  "prompt": [
+    "buddhism",
+    "buddhist",
+    "mahayana",
+    "mahayana buddhism",
+    "mahayana buddhist",
+    "rinzai",
+    "rinzai zen",
+    "soto",
+    "soto zen"
+  ],
+  "reject": [
+    "theravada",
+    "tibetan",
+    "vajrayana",
+    "hinayana",
+    "pure land",
+    "nichiren",
+    "shingon",
+    "tendai",
+    "zazen",
+    "koan",
+    "koans",
+    "bodhidharma",
+    "dogen",
+    "zeno",
+    "shinto",
+    "taoism",
+    "daoism",
+    "confucianism",
+    "hinduism",
+    "jainism",
+    "sikhism"
+  ],
+  "tests": {
+    "right": [
+      "Zen",
+      "Zen Buddhism",
+      "Chan Buddhism",
+      "Zen Budhism",
+      "Seon"
+    ],
+    "prompt": [
+      "Buddhism",
+      "Mahayana Buddhism",
+      "Buddhist"
+    ],
+    "wrong": [
+      "Theravada",
+      "Tibetan Buddhism",
+      "Pure Land",
+      "Bodhidharma",
+      "Zazen",
+      "Shinto",
+      "Taoism"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ryoanji",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=WfZe2NLKEns",
+      "note": "A look at the famous dry rock garden at this Kyoto temple"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is a Zen Koan?",
+      "source": "Tricycle",
+      "url": "https://www.youtube.com/watch?v=lnw25gVnGpk",
+      "note": "What koans are and why students puzzle over them"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "ZEN: The Heart of Fukui",
+      "source": "JIBTV (Japan International Broadcasting)",
+      "url": "https://www.youtube.com/watch?v=Nzr1YKcXSVM",
+      "note": "Zen practice and culture in Fukui, Japan, home of Dogen’s Eiheiji temple"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Zen",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Zen/276006",
+      "note": "Encyclopedia article written for students"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Zen",
+  "qb": {
+    "q": "Zen",
+    "found": 0,
+    "tip": "No Middle School or Easy High School tossups use this answer line, so the sample is 2 Regular High School ones; koans also lead off Buddhism and Mahayana tossups, so check whether the question wants this sect or the whole religion."
+  },
+  "sample": {
+    "n": 2,
+    "note": "2 real QBReader tossups (0 Middle School/Easy High School + 2 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "When a teacher asked his students to write verses showing their understanding, an illiterate rice-pounder named Huineng [“hway-NUNG”] had a poem written on a wall saying there was nowhere for dust to land. Huineng became this school’s Sixth Patriarch, and his talks in the _Platform Sutra_ teach that enlightenment can come suddenly.",
+      "r": "Its two main branches in Japan are Rinzai and Soto. For 10 points, name this meditation-centered school of Mahayana Buddhism."
+    },
+    {
+      "p": "After studying in China, the monk Dogen [“DOH-gen”] carried one branch of this school to Japan, founded the temple of Eiheiji [“ay-HAY-jee”], and wrote the _Shobogenzo_ [“shoh-boh-GEN-zoh”]. Dogen taught shikantaza [“shee-KAHN-tah-zah”], or “just sitting,” a kind of seated meditation that does not focus on a riddle or any other object.",
+      "r": "Dogen’s branch is called Soto. For 10 points, name this school of Buddhism known for koans and zazen."
+    },
+    {
+      "p": "The monk Eisai [“AY-sye”] brought the Rinzai [“RIN-zye”] branch of this school from China to Japan and wrote a book praising the health benefits of drinking green tea. Later, the tea master Sen no Rikyu [“sen-noh-RIH-kyoo”], who trained in this school, shaped the simple, quiet style of the Japanese tea ceremony.",
+      "r": "For 10 points, name this school of Mahayana Buddhism famous for its koans and rock gardens."
+    },
+    {
+      "p": "The Japanese master Hakuin [“hah-koo-EEN”] revived the Rinzai [“RIN-zye”] branch of this school in the 1700s and created a famous riddle asking for the sound of one hand clapping. Riddles like that one, called koans [“KOH-ahnz”], are meant to jolt students out of ordinary logical thinking.",
+      "r": "For 10 points, name this school of Mahayana Buddhism whose followers practice seated meditation called zazen."
+    },
+    {
+      "p": "When a monk asked the master Zhaozhou [“JOW-joh”] whether a dog has Buddha-nature, Zhaozhou simply answered “Mu,” meaning “no” or “nothing.” That exchange opens _The Gateless Gate_, and the _Blue Cliff Record_ is another collection of such puzzling stories used by this school.",
+      "r": "Those stories are called koans. For 10 points, name this school of Mahayana Buddhism that Bodhidharma brought to China."
+    },
+    {
+      "p": "At the Kyoto temple of Ryoan-ji [“ryoh-AHN-jee”], fifteen stones sit in a bed of raked white gravel, placed so that a visitor on the viewing porch can never see all fifteen at once. That dry landscape garden is the most famous of the rock gardens linked to this school.",
+      "r": "Students of this school seek a sudden awakening called satori. For 10 points, name this school of Japanese Buddhism known for koans."
+    },
+    {
+      "p": "Masters of this school paint the ensō [“EN-soh”], a circle drawn in a single brushstroke, as a sign of enlightenment and of a mind set free. The monk Sesshu [“SESS-shoo”], one of Japan’s greatest ink painters, trained in this school.",
+      "r": "Its students seek satori, or awakening. For 10 points, name this school of Buddhism famous in Japan for koans and rock gardens."
+    },
+    {
+      "p": "Round, red Daruma [“DAH-roo-mah”] dolls, whose blank eyes are filled in when someone sets and then reaches a goal, are modeled on this school’s founder. That founder is said to have meditated while facing a cave wall for nine years near the Shaolin [“shau-LIN”] Temple.",
+      "r": "That founder, Bodhidharma, is said to have brought this school from India to China. For 10 points, name this meditation school of Mahayana Buddhism."
+    },
+    {
+      "p": "When Emperor Wu of Liang [“lee-AHNG”] asked how much merit he had earned by building temples and copying scriptures, this school’s founder is said to have told him he had earned none at all. That founder, called the “Blue-Eyed Barbarian” in some Chinese texts, is shown in art as a fierce, bearded monk.",
+      "r": "Daruma dolls are modeled on that founder, Bodhidharma. For 10 points, name this school of Mahayana Buddhism that uses koans."
+    },
+    {
+      "p": "This school’s name comes, by way of Chinese, from the Sanskrit word dhyana [“DYAH-nuh”], meaning “meditation.” In one branch of this school, meditators sit facing a wall, and a teacher may tap a sleepy student’s shoulders with a flat wooden stick called a keisaku [“KAY-sah-koo”].",
+      "r": "That seated meditation is called zazen. For 10 points, name this school of Buddhism popular in Japan."
+    },
+    {
+      "p": "Martin Luther King Jr. nominated the Vietnamese monk Thich Nhat Hanh [“tick-nyaht-HAHN”], a teacher in this tradition, for the Nobel Peace Prize in 1967. Thich Nhat Hanh later founded the Plum Village community in France and wrote popular books such as _The Miracle of Mindfulness_.",
+      "r": "For 10 points, name this meditation school of Mahayana Buddhism that Bodhidharma is said to have brought to China."
+    },
+    {
+      "p": "The poet Matsuo Basho [“BAH-shoh”], who wrote a famous haiku about a frog jumping into an old pond, studied meditation in this tradition. The German professor Eugen Herrigel [“HAIR-ih-gul”] wrote a well-known book about how learning Japanese archery taught him this school’s ideas.",
+      "r": "For 10 points, name this school of Buddhism popular in Japan, whose two main branches are Rinzai and Soto."
+    },
+    {
+      "p": "The Japanese scholar D. T. Suzuki’s English-language books made this school famous in the West, where it later fascinated writers of the Beat Generation. Jack Kerouac’s novel _The Dharma Bums_ features Japhy Ryder, a character based on the poet Gary Snyder, who went to Japan to study this school.",
+      "r": "It began in China, where it absorbed ideas from Daoism. For 10 points, name this school of Buddhism that uses koans and seated meditation."
+    },
+    {
+      "p": "During Japan’s Kamakura [“kah-mah-KOO-rah”] period, this school won strong support from samurai warriors, who admired its discipline. Japan’s rulers later ranked its leading temples in a “Five Mountains” system, and Kyoto’s Golden Pavilion, or Kinkaku-ji [“KEEN-kah-koo-jee”], is a temple of this school.",
+      "r": "For 10 points, name this school of Buddhism whose major branches in Japan are Rinzai and Soto."
+    },
+    {
+      "p": "The Chinese master Linji [“lin-JEE”], whose name is pronounced Rinzai in Japanese, was famous for sudden shouts meant to startle students into awakening. Long before Linji, a monk named Huike [“hway-KUH”] became this school’s Second Patriarch as the successor of its founder.",
+      "r": "That founder, Bodhidharma, is said to have brought this school to China. For 10 points, name this meditation school of Mahayana Buddhism known for koans."
+    }
+  ],
+  "clues": [
+    {
+      "id": "mahayana-japan",
+      "tier": "giveaway",
+      "t": "A school of Mahayana Buddhism that is especially popular in Japan",
+      "k": [
+        "mahayana",
+        "japan"
+      ],
+      "n": 2
+    },
+    {
+      "id": "koans",
+      "tier": "giveaway",
+      "t": "Students puzzle over koans, riddles meant to break ordinary logical thinking",
+      "k": [
+        "koans",
+        "koan",
+        "riddles"
+      ],
+      "n": 2
+    },
+    {
+      "id": "zazen",
+      "tier": "giveaway",
+      "t": "Its name means “meditation”; its seated meditation is called zazen",
+      "k": [
+        "zazen",
+        "meditation",
+        "seated"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rock-gardens",
+      "tier": "giveaway",
+      "t": "Famous for dry rock gardens of stones and raked gravel",
+      "k": [
+        "rock gardens",
+        "rock garden",
+        "gravel"
+      ],
+      "n": 2
+    },
+    {
+      "id": "bodhidharma",
+      "tier": "middle",
+      "t": "Its founder, Bodhidharma, is said to have brought it from India to China; his successor Huike was the Second Patriarch",
+      "k": [
+        "bodhidharma",
+        "huike",
+        "second patriarch"
+      ],
+      "n": 2,
+      "rabbit": "Bodhidharma"
+    },
+    {
+      "id": "rinzai-soto",
+      "tier": "middle",
+      "t": "Two main branches in Japan: Rinzai (uses koans) and Soto (“just sitting”)",
+      "k": [
+        "rinzai",
+        "soto",
+        "just sitting"
+      ],
+      "n": 1
+    },
+    {
+      "id": "satori",
+      "tier": "middle",
+      "t": "Seeks satori, a sudden awakening; enlightenment can come all at once",
+      "k": [
+        "satori",
+        "sudden",
+        "awakening"
+      ],
+      "n": 1
+    },
+    {
+      "id": "daruma",
+      "tier": "middle",
+      "t": "Round, red Daruma dolls are modeled on Bodhidharma; you fill in one eye for a goal and the other when you reach it",
+      "k": [
+        "daruma",
+        "dolls",
+        "eye"
+      ],
+      "n": 0
+    },
+    {
+      "id": "china-daoism",
+      "tier": "middle",
+      "t": "Began in China, where it absorbed ideas from Daoism, then spread to Korea, Vietnam, and Japan",
+      "k": [
+        "daoism",
+        "taoism",
+        "china",
+        "korea",
+        "vietnam"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arts",
+      "tier": "middle",
+      "t": "Shaped Japanese arts: haiku (Matsuo Basho), ink painting (Sesshu), calligraphy, archery, and the tea ceremony",
+      "k": [
+        "haiku",
+        "basho",
+        "ink painting",
+        "tea ceremony",
+        "sesshu"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huineng",
+      "tier": "power",
+      "t": "Huineng, the illiterate Sixth Patriarch, won a verse contest; his _Platform Sutra_ teaches sudden enlightenment",
+      "k": [
+        "huineng",
+        "sixth patriarch",
+        "platform sutra"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dogen",
+      "tier": "power",
+      "t": "Dogen brought the Soto branch to Japan, founded Eiheiji temple, wrote the _Shobogenzo_, and taught shikantaza (“just sitting”)",
+      "k": [
+        "dogen",
+        "eiheiji",
+        "shobogenzo",
+        "shikantaza"
+      ],
+      "n": 0,
+      "rabbit": "Dogen"
+    },
+    {
+      "id": "eisai-tea",
+      "tier": "power",
+      "t": "Eisai brought the Rinzai branch to Japan and praised green tea; tea master Sen no Rikyu trained in this school",
+      "k": [
+        "eisai",
+        "green tea",
+        "sen no rikyu",
+        "rikyu"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hakuin",
+      "tier": "power",
+      "t": "Hakuin revived the Rinzai branch in the 1700s and invented the riddle about the sound of one hand clapping",
+      "k": [
+        "hakuin",
+        "one hand clapping",
+        "one hand"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gateless-gate",
+      "tier": "power",
+      "t": "Koan collections: _The Gateless Gate_ (opening with Zhaozhou’s answer “Mu”) and the _Blue Cliff Record_",
+      "k": [
+        "gateless gate",
+        "blue cliff record",
+        "zhaozhou",
+        "mu"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ryoanji",
+      "tier": "power",
+      "t": "Ryoan-ji in Kyoto: 15 stones in raked white gravel, placed so you can never see all 15 at once from the porch",
+      "k": [
+        "ryoan-ji",
+        "ryoanji",
+        "kyoto",
+        "15 stones"
+      ],
+      "n": 0
+    },
+    {
+      "id": "enso",
+      "tier": "power",
+      "t": "The ensō: a circle painted in one brushstroke, a sign of enlightenment",
+      "k": [
+        "enso",
+        "circle",
+        "brushstroke"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bodhidharma-legends",
+      "tier": "power",
+      "t": "Bodhidharma, the “Blue-Eyed Barbarian,” told Emperor Wu he had earned no merit and is said to have faced a wall for nine years near Shaolin",
+      "k": [
+        "blue-eyed barbarian",
+        "emperor wu",
+        "shaolin",
+        "nine years",
+        "wall"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dhyana",
+      "tier": "power",
+      "t": "Its name comes from Sanskrit dhyana (“meditation”) by way of Chinese; a keisaku stick taps sleepy meditators",
+      "k": [
+        "dhyana",
+        "sanskrit",
+        "keisaku"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thich-nhat-hanh",
+      "tier": "power",
+      "t": "Vietnamese monk Thich Nhat Hanh, nominated for the Nobel Peace Prize by Martin Luther King Jr., founded Plum Village in France",
+      "k": [
+        "thich nhat hanh",
+        "plum village",
+        "nobel",
+        "mindfulness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "suzuki-beats",
+      "tier": "power",
+      "t": "D. T. Suzuki spread it in the West; Jack Kerouac’s _The Dharma Bums_ features Japhy Ryder, based on poet Gary Snyder",
+      "k": [
+        "suzuki",
+        "dharma bums",
+        "kerouac",
+        "gary snyder",
+        "japhy ryder"
+      ],
+      "n": 0
+    },
+    {
+      "id": "samurai",
+      "tier": "power",
+      "t": "Popular with samurai in the Kamakura period; its temples include the “Five Mountains” and Kyoto’s Golden Pavilion (Kinkaku-ji)",
+      "k": [
+        "samurai",
+        "kamakura",
+        "five mountains",
+        "golden pavilion",
+        "kinkaku-ji"
+      ],
+      "n": 0
+    },
+    {
+      "id": "linji",
+      "tier": "power",
+      "t": "Chinese master Linji (Rinzai in Japanese) used sudden shouts to startle students into awakening",
+      "k": [
+        "linji",
+        "shouts"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Koans don’t always mean Zen",
+    "body": "Koans are this school’s most famous clue, but they also open Buddhism tossups (“one sect of this religion uses koans”) and Mahayana tossups, where Zen is only one school inside a bigger branch. The middle school Buddhism answer lines accept only “Buddhism,” and a real Mahayana line just prompts on “Zen.” On Zen’s own tossups, saying “Buddhism” or “Mahayana Buddhism” only earns a prompt.",
+    "fix": "Listen for the noun: “this sect” or “this school” plus Bodhidharma, Dogen, zazen, satori, or Japanese rock gardens means Zen. “This religion,” or a branch whose name means “Great Vehicle,” means Buddhism or Mahayana. If you get prompted after saying “Buddhism,” add “Zen.”",
+    "line": "Real answer line: <b><u>Zen</u></b> Buddhism [accept <u>Chan</u> Buddhism; prompt on “Buddhism” or “Mahayana Buddhism”; do NOT accept any other forms of Buddhism]"
+  },
+  "freq": {
+    "rank": 74,
+    "count": 1,
+    "list": "Religion"
+  }
+}

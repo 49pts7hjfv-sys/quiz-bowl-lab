@@ -1,0 +1,393 @@
+{
+  "id": "candide",
+  "name": "Candide",
+  "mono": "CD",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Voltaire’s satirical novella · Mocks “the best of all possible worlds”",
+  "dates": "Published 1759",
+  "briefing": "_Candide_ follows a naive young man taught by his tutor, Pangloss, that this is “the best of all possible worlds.” After being kicked out of his castle home for kissing Cunégonde, the baron’s daughter, he survives war, an earthquake, and shipwreck across several continents while clinging to that optimism. Voltaire’s short, biting 1759 novella ends with the famously simple advice that “we must cultivate our garden.”",
+  "answerHtml": "<b><u>Candide</u></b> <i>(or, Optimism)</i>",
+  "accept": [
+    "candide"
+  ],
+  "prompt": [],
+  "reject": [
+    "pangloss",
+    "dr pangloss",
+    "leibniz",
+    "gottfried leibniz",
+    "voltaire"
+  ],
+  "tests": {
+    "right": [
+      "Candide",
+      "candide",
+      "Canddide",
+      "Candide, or Optimism",
+      "Candide ou l'Optimisme",
+      "Candid"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Pangloss",
+      "Leibniz",
+      "Voltaire",
+      "Cunegonde",
+      "Zadig"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Candide by Voltaire | Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=jR0XJUPNx4E",
+      "note": "Summary and analysis of Voltaire’s satire of “best of all possible worlds” optimism (satirical violence and mature themes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Candide: Crash Course Literature 405",
+      "source": "Crash Course Literature",
+      "url": "https://www.youtube.com/watch?v=XJc9iprkVzg",
+      "note": "John Green’s fast, funny take on Voltaire’s satire of Pangloss’s “best of all possible worlds”"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Candide by Voltaire | Themes",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=XpXg3zQPJ70",
+      "note": "The book’s big ideas explained, like its mockery of blind optimism"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Candide",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/candide",
+      "note": "Study guide: background and key facts, with plot summary and character pages"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Candide",
+  "qb": {
+    "q": "Candide",
+    "found": 6,
+    "tip": "All 6 results are about the novella itself, but several use a graphic siege anecdote about an old woman that this site leaves out as too mature — use the El Dorado and auto-da-fé clues instead."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This novel’s protagonist is expelled from the castle of Thunder-ten-Tronckh [“TOON-der-ten-TRONK”] for kissing the baron’s daughter, Cunégonde [“koo-nay-GOHND”]. He is then conscripted into the army of the Bulgars and witnesses a brutal war against the neighboring Abars.",
+      "r": "He later reunites with his tutor Pangloss, who barely survived a public execution ceremony called an auto-da-fé. For 10 points, name this Voltaire novella that ends with the advice “we must cultivate our garden.”"
+    },
+    {
+      "p": "This novel’s protagonist is in Portugal when the real 1755 Lisbon earthquake strikes, and he is publicly punished at an auto-da-fé alongside his tutor, Pangloss, who is hanged but later turns up alive. He then reunites with his beloved Cunégonde before fleeing to South America with his servant Cacambo [“kah-KAHM-boh”].",
+      "r": "That servant guides him to the hidden utopia of El Dorado. For 10 points, name this satirical novella by Voltaire about a relentlessly optimistic young man."
+    },
+    {
+      "p": "In this novel’s hidden utopia of El Dorado, gold and jewels are considered worthless and lie scattered in the streets. This novel’s protagonist and his servant Cacambo leave that kingdom riding sheep loaded down with treasure, most of which is soon lost on the journey or stolen by a dishonest merchant.",
+      "r": "The protagonist then meets a gloomy scholar named Martin, who argues against optimism for the rest of the novel. For 10 points, name this Voltaire novella."
+    },
+    {
+      "p": "A group called the Oreillons [“oh-ray-OHN”] nearly kill this novel’s protagonist and his servant Cacambo after mistaking them for Jesuits, until Cacambo talks the group down. Later, this novel’s protagonist dines in Venice with six dethroned kings who are all traveling incognito.",
+      "r": "He also visits a wealthy Venetian nobleman named Pococurante [“poh-koh-koo-RAHN-tay”] who claims to hate every piece of art and literature he owns. For 10 points, name this Voltaire novella about a relentlessly optimistic young man."
+    },
+    {
+      "p": "A kind Anabaptist named Jacques drowns while trying to save a sailor during a shipwreck in this novel. Soon afterward, this novel’s protagonist and his tutor Pangloss witness the real 1755 earthquake that devastated Lisbon.",
+      "r": "Both are then publicly punished at a ceremony called an auto-da-fé, which Pangloss barely survives. For 10 points, name this Voltaire novella whose protagonist is taught that this is “the best of all possible worlds.”"
+    },
+    {
+      "p": "This novel’s Martin, a gloomy scholar partly based on the real philosopher Pierre Bayle, argues constantly against the protagonist’s optimism. The tutor Pangloss’s teachings parody the real philosopher Gottfried Leibniz’s claim that this is the best of all possible worlds.",
+      "r": "The novel ends with its protagonist deciding that “we must cultivate our garden” instead of debating philosophy any further. For 10 points, name this satirical novella by Voltaire."
+    },
+    {
+      "p": "An old woman traveling with Cunégonde in this novel is revealed to be the illegitimate daughter of a pope. This novel’s heroine, Cunégonde, is herself the daughter of a baron who expels this novel’s protagonist from his castle.",
+      "r": "That protagonist spends the rest of the novel trying to reunite with Cunégonde. For 10 points, name this Voltaire novella about a relentlessly optimistic young man."
+    },
+    {
+      "p": "Six dethroned kings, each traveling incognito, share a meal together in Venice in this novel. This novel’s protagonist also visits a wealthy nobleman named Pococurante who owns a magnificent library and art collection but claims to despise all of it.",
+      "r": "Earlier, that protagonist had visited the hidden utopia of El Dorado with his servant Cacambo. For 10 points, name this Voltaire novella about a relentlessly optimistic young man."
+    },
+    {
+      "p": "Voltaire reportedly wrote this short novel in just a few weeks and first published it anonymously in 1759. This picaresque novel jumps between settings on several continents as it parodies the real philosopher Gottfried Leibniz’s optimistic idea that this is the best of all possible worlds.",
+      "r": "Its full title adds the subtitle “or, Optimism.” For 10 points, name this short satirical novella about a relentlessly optimistic young man, written by Voltaire."
+    },
+    {
+      "p": "This novel’s protagonist finally marries Cunégonde even though hardship has left her no longer beautiful. The couple then settles on a small farm with the tutor Pangloss and the gloomy scholar Martin.",
+      "r": "There, the protagonist decides that “we must cultivate our garden” rather than keep debating philosophy. For 10 points, name this Voltaire novella that mocks blind optimism."
+    },
+    {
+      "p": "A kind Anabaptist named Jacques dies saving a sailor’s life during a shipwreck that strands this novel’s protagonist in Portugal. He arrives just as the real 1755 earthquake strikes Lisbon, which his tutor Pangloss insists is still somehow for the best.",
+      "r": "The two are then punished at a public ceremony called an auto-da-fé. For 10 points, name this Voltaire novella about a relentlessly optimistic young man."
+    },
+    {
+      "p": "Gold and jewels are considered worthless in a hidden kingdom that this novel’s protagonist visits with his servant Cacambo. Earlier, that protagonist and Cacambo narrowly escape being killed by the Oreillons, who mistake them for Jesuits.",
+      "r": "The protagonist leaves that hidden kingdom, El Dorado, riding treasure-laden sheep. For 10 points, name this Voltaire novella about a relentlessly optimistic young man."
+    },
+    {
+      "p": "A Venetian nobleman named Pococurante tells this novel’s protagonist that he hates nearly every book and painting in his own famous collection. Later, six kings who have all lost their thrones share a dinner together in Venice with that same protagonist.",
+      "r": "The protagonist ends the novel deciding that “we must cultivate our garden.” For 10 points, name this satirical novella by Voltaire."
+    },
+    {
+      "p": "This novel opens at the castle of Thunder-ten-Tronckh, where a tutor named Pangloss teaches that this is “the best of all possible worlds.” This novel’s protagonist is soon expelled for kissing Cunégonde and is swept into a war between the Bulgars and the Abars.",
+      "r": "He later reunites with Pangloss, who survived a public execution ceremony called an auto-da-fé. For 10 points, name this Voltaire novella about a relentlessly optimistic young man."
+    },
+    {
+      "p": "Voltaire wrote this novel to mock the real philosopher Gottfried Leibniz’s claim that everything happens for the best. Its full title adds the subtitle “or, Optimism,” and it was published quickly and anonymously in 1759.",
+      "r": "The novel famously ends with the advice that “we must cultivate our garden.” For 10 points, name this short satirical novella about a relentlessly optimistic young man."
+    }
+  ],
+  "clues": [
+    {
+      "id": "best-of-all-worlds",
+      "tier": "giveaway",
+      "t": "Pangloss teaches the protagonist that this is “the best of all possible worlds”",
+      "k": [
+        "pangloss",
+        "best of all possible worlds"
+      ],
+      "n": 5
+    },
+    {
+      "id": "voltaire-1759",
+      "tier": "giveaway",
+      "t": "Written by the French philosopher Voltaire; published in 1759",
+      "k": [
+        "voltaire",
+        "1759"
+      ],
+      "n": 6
+    },
+    {
+      "id": "cultivate-garden",
+      "tier": "giveaway",
+      "t": "Ends with the advice that “we must cultivate our garden” instead of debating philosophy",
+      "k": [
+        "cultivate our garden"
+      ],
+      "n": 4
+    },
+    {
+      "id": "thunder-ten-tronckh",
+      "tier": "giveaway",
+      "t": "The protagonist is kicked out of Castle Thunder-ten-Tronckh for kissing Cunégonde",
+      "k": [
+        "thunder-ten-tronckh",
+        "cunegonde"
+      ],
+      "n": 4
+    },
+    {
+      "id": "marries-cunegonde",
+      "tier": "giveaway",
+      "t": "The protagonist eventually marries Cunégonde, even though she is no longer beautiful",
+      "k": [
+        "marries",
+        "no longer beautiful"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cacambo-servant",
+      "tier": "middle",
+      "t": "Cacambo, the protagonist’s loyal servant, guides him through his travels",
+      "k": [
+        "cacambo",
+        "servant"
+      ],
+      "n": 3
+    },
+    {
+      "id": "el-dorado",
+      "tier": "middle",
+      "t": "The protagonist and Cacambo discover the hidden utopia of El Dorado, where gold and jewels are worthless",
+      "k": [
+        "el dorado",
+        "worthless"
+      ],
+      "n": 4,
+      "rabbit": "El Dorado"
+    },
+    {
+      "id": "treasure-sheep",
+      "tier": "middle",
+      "t": "They leave El Dorado riding sheep loaded down with treasure",
+      "k": [
+        "treasure",
+        "sheep"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lisbon-earthquake",
+      "tier": "middle",
+      "t": "The real 1755 Lisbon earthquake strikes while the protagonist is in Portugal",
+      "k": [
+        "lisbon earthquake",
+        "1755"
+      ],
+      "n": 1,
+      "rabbit": "Lisbon earthquake"
+    },
+    {
+      "id": "auto-da-fe",
+      "tier": "middle",
+      "t": "Pangloss narrowly survives a public execution ceremony called an auto-da-fé",
+      "k": [
+        "auto-da-fe",
+        "execution"
+      ],
+      "n": 1
+    },
+    {
+      "id": "martin-pessimist",
+      "tier": "middle",
+      "t": "The protagonist meets the pessimistic scholar Martin, who becomes his new traveling companion",
+      "k": [
+        "martin",
+        "pessimist"
+      ],
+      "n": 2
+    },
+    {
+      "id": "six-kings",
+      "tier": "middle",
+      "t": "The protagonist dines in Venice with six dethroned kings traveling incognito",
+      "k": [
+        "six kings",
+        "dethroned"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pococurante",
+      "tier": "middle",
+      "t": "The Venetian nobleman Pococurante is a wealthy collector who claims to hate all the art and books he owns",
+      "k": [
+        "pococurante",
+        "hates art"
+      ],
+      "n": 1
+    },
+    {
+      "id": "popes-daughter",
+      "tier": "middle",
+      "t": "An old woman traveling with Cunégonde turns out to be the illegitimate daughter of a pope",
+      "k": [
+        "popes daughter",
+        "illegitimate"
+      ],
+      "n": 2
+    },
+    {
+      "id": "bulgars-abars",
+      "tier": "power",
+      "t": "The protagonist is briefly conscripted into the army of the Bulgars and witnesses their war against the Abars",
+      "k": [
+        "bulgars",
+        "abars",
+        "conscripted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anonymous-publication",
+      "tier": "power",
+      "t": "Voltaire wrote this book in just a few weeks and published it anonymously at first",
+      "k": [
+        "anonymously",
+        "few weeks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leibniz-parody",
+      "tier": "power",
+      "t": "The novel parodies the philosophical optimism of the real philosopher Gottfried Leibniz",
+      "k": [
+        "gottfried leibniz",
+        "optimism"
+      ],
+      "n": 1,
+      "rabbit": "Gottfried Leibniz"
+    },
+    {
+      "id": "picaresque-structure",
+      "tier": "power",
+      "t": "This short, fast-moving picaresque novel jumps between settings on several continents",
+      "k": [
+        "picaresque",
+        "continents"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pierre-bayle",
+      "tier": "power",
+      "t": "The character Martin is partly based on Pierre Bayle, a real critic of Leibniz’s philosophy",
+      "k": [
+        "pierre bayle",
+        "critic"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shipwreck-swindled",
+      "tier": "power",
+      "t": "The protagonist loses most of his El Dorado treasure as the sheep die on the journey, and a dishonest merchant steals much of the rest",
+      "k": [
+        "dishonest merchant",
+        "sheep die"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oreillons",
+      "tier": "power",
+      "t": "Cacambo helps the protagonist escape the Oreillons, who nearly kill him over a mistaken belief he is a Jesuit",
+      "k": [
+        "oreillons",
+        "jesuit"
+      ],
+      "n": 1
+    },
+    {
+      "id": "full-subtitle",
+      "tier": "power",
+      "t": "The novel’s full title adds the subtitle _or, Optimism_",
+      "k": [
+        "or optimism",
+        "subtitle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jacques-anabaptist",
+      "tier": "power",
+      "t": "A kind Anabaptist named Jacques drowns trying to save a sailor during a shipwreck",
+      "k": [
+        "anabaptist",
+        "jacques",
+        "drowns"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Don’t name the author!",
+    "body": "A tossup that says “name this novel” or “name this satire” wants the title, Candide, not the author, Voltaire — even though Voltaire comes up constantly in clues about the Enlightenment. Pangloss and Leibniz, the philosophers behind the “best of all possible worlds” idea this book mocks, are also easy to blurt out by mistake.",
+    "fix": "Train yourself to answer with the title whenever you hear “name this novel/satire/work.” If the clues describe a philosopher’s optimistic ideas being mocked, that’s Pangloss or Leibniz — not the answer itself.",
+    "line": "Real answer line: <b><u>Candide</u></b>, or Optimism (accept <i>Candide, ou l’Optimisme</i>)"
+  },
+  "freq": {
+    "rank": 146,
+    "count": 3,
+    "list": "Literature"
+  }
+}

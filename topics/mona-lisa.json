@@ -1,0 +1,398 @@
+{
+  "id": "mona-lisa",
+  "name": "Mona Lisa",
+  "mono": "MLS",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Leonardo da Vinci’s portrait in the Louvre · The world’s most famous smile",
+  "dates": "Painted c. 1503–1506",
+  "briefing": "She has been smiling for more than 500 years, and people still cannot agree on why. Around 1503, Leonardo da Vinci began this small portrait using sfumato, a soft, smoky blending technique with no harsh outlines, and may have kept reworking it for over a decade. Stolen from the Louvre in 1911 and parodied by artists ever since, she is now the most famous painting on Earth.",
+  "answerHtml": "<b><u>Mona Lisa</u></b> (or <u>La Gioconda</u>/<u>La Joconde</u>)",
+  "accept": [
+    "mona lisa",
+    "la gioconda",
+    "la joconde"
+  ],
+  "prompt": [],
+  "reject": [
+    "leonardo da vinci",
+    "da vinci",
+    "the last supper",
+    "last supper",
+    "theft of the mona lisa",
+    "mona lisa theft",
+    "isleworth mona lisa",
+    "the scream",
+    "girl with a pearl earring"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Why is the Mona Lisa so famous? - Noah Charney",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=yRK_uCMwZPY",
+      "note": "Animated lesson · Leonardo’s techniques and how the 1911 theft made her a superstar"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Mona Lisa Story For Kids",
+      "source": "Bedtime History",
+      "url": "https://www.youtube.com/watch?v=WQvxUyaruPU",
+      "note": "Kid-friendly story of Leonardo’s portrait and how it became so famous"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Leonardo, The Mona Lisa — in the Renaissance and today",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=B06PK4yZwvY",
+      "note": "Art historians on what was new about the portrait in Leonardo’s time and why crowds flock to it today"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Leonardo, Mona Lisa",
+      "source": "Smarthistory",
+      "url": "https://smarthistory.org/leonardo-mona-lisa/",
+      "note": "The Louvre conversation written out: sfumato, the smile, and how she became so famous"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Mona_Lisa",
+  "qb": {
+    "q": "Mona Lisa",
+    "found": 4,
+    "tip": "All four Middle School/Easy High School results are clean, but watch for a Regular HS answer line called “Theft of the Mona Lisa” about the 1911 heist — that is the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 8,
+    "note": "8 real QBReader tossups (4 Middle School/Easy High School + 4 Regular High School, power-marked); one Regular HS tossup’s actual answer was “Theft of the Mona Lisa,” the 1911 heist, not the painting"
+  },
+  "tossups": [
+    {
+      "p": "This woman is traditionally identified as Lisa del Giocondo, wife of a Florentine silk merchant, and a 2005 discovery of a margin note helped confirm that identification. A hazy, invented landscape of icy mountains and a winding road fills the space behind her.",
+      "r": "Infrared scans suggest her once-visible eyebrows faded over the centuries. For 10 points, name this small portrait by Leonardo da Vinci, famous for its subject’s enigmatic smile."
+    },
+    {
+      "p": "Marcel Duchamp added a mustache and goatee to a postcard of this work in his 1919 piece _L.H.O.O.Q._ Andy Warhol later silkscreened thirty repeated copies of it in a 1963 work called _Thirty Are Better Than One_.",
+      "r": "Its subject’s hands are folded on the arm of her chair. For 10 points, name this portrait of a woman with an enigmatic smile, painted by Leonardo da Vinci."
+    },
+    {
+      "p": "In 1911, a Louvre employee named Vincenzo Peruggia hid this painting under his coat and walked out of the museum, keeping it in his apartment for over two years. Police questioned the poet Guillaume Apollinaire and his friend Pablo Picasso before both were cleared.",
+      "r": "Leonardo da Vinci painted its subject using his soft, smoky sfumato technique. For 10 points, name this painting of a woman with an enigmatic smile, stolen from the Louvre."
+    },
+    {
+      "p": "A second, earlier-looking version of this painting, nicknamed the “Isleworth” version, may have been partly painted by the same artist. The traditional identification of its sitter as Lisa del Giocondo comes mainly from the 16th-century biographer Giorgio Vasari [“vah-ZAH-ree”].",
+      "r": "The sitter in this painting has no visible eyebrows or eyelashes. For 10 points, name this Leonardo da Vinci portrait of a woman with a mysterious smile, housed in the Louvre."
+    },
+    {
+      "p": "Salvador Dalí once posed as the subject of this painting in a photographic self-portrait that puts his own famous mustache onto her face. Its subject is traditionally said to be the wife of silk merchant Francesco del Giocondo.",
+      "r": "A winding road and a distant bridge appear in the hazy landscape behind her. For 10 points, name this Leonardo da Vinci painting famous for its enigmatic smile."
+    },
+    {
+      "p": "This painting is likely nicknamed in Italian and French after its sitter’s married surname, Giocondo. Leonardo da Vinci probably began this oil-on-poplar-panel work around 1503 and may have kept reworking it for over a decade afterward.",
+      "r": "The sitter’s hands rest folded on the arm of her chair. For 10 points, name this portrait of a woman with a famously enigmatic smile, now displayed in the Louvre."
+    },
+    {
+      "p": "Pop artist Jasper Johns referenced this painting, alongside a white handprint, in his work _Figure 7_. Decades earlier, Marcel Duchamp had drawn a mustache and goatee on a cheap postcard reproduction of it.",
+      "r": "Leonardo da Vinci used his soft sfumato blending technique throughout this portrait. For 10 points, name this famously smiling painting stolen from the Louvre in 1911."
+    },
+    {
+      "p": "After this painting vanished in 1911, a Louvre employee named Vincenzo Peruggia eventually tried to sell it to a dealer in Florence, which led to his arrest. Before he was caught, French police had briefly suspected and questioned the artist Pablo Picasso.",
+      "r": "This oil-on-wood portrait shows no visible eyebrows on its subject. For 10 points, name this painting by Leonardo da Vinci, famous for an enigmatic smile."
+    },
+    {
+      "p": "Infrared analysis in 2007 suggested that this painting’s subject may once have had visible eyebrows and eyelashes that faded over time. A margin note discovered in 2005, written by an assistant to a Florentine official, helped confirm the sitter’s identity as Lisa del Giocondo.",
+      "r": "Andy Warhol silkscreened thirty copies of this painting in 1963. For 10 points, name this small Leonardo da Vinci portrait known for its mysterious half-smile."
+    },
+    {
+      "p": "Behind this painting’s subject, a hazy landscape recedes into icy mountains and a winding path leading to a distant bridge. Giorgio Vasari’s 1550 biography of the artist identified the sitter as the wife of Francesco del Giocondo.",
+      "r": "This portrait was painted in oil on a poplar wood panel, not canvas. For 10 points, name this Leonardo da Vinci painting of a woman with an enigmatic smile."
+    },
+    {
+      "p": "This painting’s Italian and French nicknames both derive from her husband’s surname, Giocondo. Leonardo da Vinci likely began painting her around 1503 and may have continued reworking the piece for over a decade.",
+      "r": "A 1911 theft of this painting from the Louvre kept it missing for over two years. For 10 points, name this famously smiling portrait, stolen by Vincenzo Peruggia."
+    },
+    {
+      "p": "This painting’s wood panel is made of poplar, and its paint includes Leonardo da Vinci’s characteristic sfumato blending in the folds of the sitter’s dark hair and veil. A separate, earlier-looking “Isleworth” version may have also come partly from Leonardo’s own hand.",
+      "r": "The woman in this portrait is traditionally identified as Lisa del Giocondo. For 10 points, name this small painting in the Louvre, famous for an enigmatic smile."
+    },
+    {
+      "p": "Guillaume Apollinaire and Pablo Picasso were both briefly questioned by police after this painting disappeared from the Louvre in 1911. The thief, museum employee Vincenzo Peruggia, hid it in his apartment before trying to sell it in Florence.",
+      "r": "This small portrait shows its subject with no visible eyebrows. For 10 points, name this Leonardo da Vinci painting known for an enigmatic smile."
+    },
+    {
+      "p": "Marcel Duchamp’s 1919 work _L.H.O.O.Q._ added a mustache and goatee to a cheap postcard copy of this painting. Andy Warhol paid tribute to it after its 1963 visit to the United States with a multi-panel silkscreen called _Thirty Are Better Than One_.",
+      "r": "Its sitter is traditionally identified as the wife of merchant Francesco del Giocondo. For 10 points, name this Leonardo da Vinci portrait famous for its subject’s mysterious smile."
+    },
+    {
+      "p": "This painting’s subject rests her folded hands on the arm of a wooden chair, in front of a hazy, invented landscape with a winding road and a distant bridge. The sitter is traditionally identified, based on Giorgio Vasari’s writings, as Lisa del Giocondo.",
+      "r": "Leonardo da Vinci used his soft sfumato technique throughout this small portrait. For 10 points, name this painting famous for an enigmatic smile, on display in the Louvre."
+    }
+  ],
+  "clues": [
+    {
+      "id": "by-leonardo",
+      "tier": "giveaway",
+      "t": "Painted by the Italian Renaissance artist Leonardo da Vinci",
+      "k": [
+        "leonardo",
+        "renaissance",
+        "italian artist"
+      ],
+      "n": 8
+    },
+    {
+      "id": "enigmatic-smile",
+      "tier": "giveaway",
+      "t": "Famous for the sitter’s enigmatic, mysterious half-smile",
+      "k": [
+        "enigmatic",
+        "mysterious",
+        "half smile"
+      ],
+      "n": 7
+    },
+    {
+      "id": "louvre-display",
+      "tier": "giveaway",
+      "t": "Hangs today in the Louvre Museum in Paris, behind protective glass",
+      "k": [
+        "louvre",
+        "paris",
+        "protective glass"
+      ],
+      "n": 1,
+      "rabbit": "Louvre"
+    },
+    {
+      "id": "tiny-painting",
+      "tier": "giveaway",
+      "t": "Surprisingly small in person — only about 30 by 21 inches (77 by 53 centimeters)",
+      "k": [
+        "surprisingly small",
+        "inches",
+        "centimeters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "giocondo-wife",
+      "tier": "middle",
+      "t": "Traditionally identified as the wife of Florentine merchant Francesco del Giocondo",
+      "k": [
+        "giocondo",
+        "florentine",
+        "merchant"
+      ],
+      "n": 7,
+      "rabbit": "Giorgio Vasari"
+    },
+    {
+      "id": "nicknames",
+      "tier": "middle",
+      "t": "Her Italian and French nicknames both come from her husband’s surname, Giocondo",
+      "k": [
+        "nicknames",
+        "surname",
+        "husband"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sfumato",
+      "tier": "middle",
+      "t": "Famous for Leonardo’s sfumato technique — soft, smoky blending with no harsh outlines",
+      "k": [
+        "sfumato",
+        "blending",
+        "harsh outlines"
+      ],
+      "n": 4
+    },
+    {
+      "id": "no-eyebrows",
+      "tier": "middle",
+      "t": "The sitter has no visible eyebrows or eyelashes",
+      "k": [
+        "eyebrows",
+        "eyelashes",
+        "visible"
+      ],
+      "n": 4
+    },
+    {
+      "id": "background-landscape",
+      "tier": "middle",
+      "t": "Behind her, a hazy, imaginary landscape includes a winding road and a distant bridge",
+      "k": [
+        "landscape",
+        "winding road",
+        "distant bridge"
+      ],
+      "n": 6
+    },
+    {
+      "id": "hands-folded",
+      "tier": "middle",
+      "t": "Her hands are folded, resting on the arm of her chair",
+      "k": [
+        "hands folded",
+        "resting",
+        "chair"
+      ],
+      "n": 2
+    },
+    {
+      "id": "duchamp-mustache",
+      "tier": "middle",
+      "t": "Marcel Duchamp drew a mustache and goatee on a postcard of it for his 1919 work _L.H.O.O.Q._",
+      "k": [
+        "duchamp",
+        "mustache",
+        "goatee"
+      ],
+      "n": 4
+    },
+    {
+      "id": "warhol-repeats",
+      "tier": "middle",
+      "t": "Andy Warhol repeated her image thirty times in his 1963 silkscreen _Thirty Are Better Than One_",
+      "k": [
+        "warhol",
+        "silkscreen",
+        "repeated"
+      ],
+      "n": 3
+    },
+    {
+      "id": "wood-panel",
+      "tier": "power",
+      "t": "Painted in oil on a poplar wood panel, not canvas",
+      "k": [
+        "poplar",
+        "wood panel",
+        "canvas"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dating",
+      "tier": "power",
+      "t": "Likely begun around 1503; Leonardo may have kept reworking it for over a decade",
+      "k": [
+        "1503",
+        "reworking",
+        "decade"
+      ],
+      "n": 1
+    },
+    {
+      "id": "vasari-source",
+      "tier": "power",
+      "t": "The traditional identification of the sitter comes mainly from the 16th-century biographer Giorgio Vasari",
+      "k": [
+        "vasari",
+        "biographer",
+        "identification"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peruggia-theft",
+      "tier": "power",
+      "t": "Stolen from the Louvre in 1911 by Louvre employee Vincenzo Peruggia, who hid it for over two years",
+      "k": [
+        "peruggia",
+        "stolen",
+        "1911"
+      ],
+      "n": 3,
+      "rabbit": "Theft of the Mona Lisa"
+    },
+    {
+      "id": "picasso-questioned",
+      "tier": "power",
+      "t": "That 1911 theft led police to question poet Guillaume Apollinaire and his friend Pablo Picasso, both later cleared",
+      "k": [
+        "apollinaire",
+        "picasso",
+        "cleared"
+      ],
+      "n": 1
+    },
+    {
+      "id": "isleworth-version",
+      "tier": "power",
+      "t": "A second, earlier-looking version called the “Isleworth” version may have been partly painted by Leonardo himself",
+      "k": [
+        "isleworth",
+        "earlier looking",
+        "version"
+      ],
+      "n": 2
+    },
+    {
+      "id": "eyebrow-theory",
+      "tier": "power",
+      "t": "A 2007 infrared scan suggested the missing eyebrows and lashes faded over time or were cleaned away",
+      "k": [
+        "infrared scan",
+        "faded",
+        "cleaned away"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dali-parody",
+      "tier": "power",
+      "t": "Salvador Dalí posed as her in a photographic self-portrait that has his own mustache superimposed onto her face",
+      "k": [
+        "dali",
+        "self portrait",
+        "superimposed"
+      ],
+      "n": 2
+    },
+    {
+      "id": "jasper-johns",
+      "tier": "power",
+      "t": "Pop artist Jasper Johns referenced her, with a white handprint, in his painting _Figure 7_",
+      "k": [
+        "jasper johns",
+        "handprint",
+        "figure"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "The Painting, or the Heist?",
+    "body": "Some real tossups ask about the famous 1911 theft itself as its own separate answer — “Theft of the Mona Lisa” — packed with clues about Vincenzo Peruggia, Guillaume Apollinaire, and Pablo Picasso being questioned by police. Buzzing “Mona Lisa” on one of those is a wrong, early guess.",
+    "fix": "Listen for the noun. “This woman,” “this painting,” or “this portrait” means the painting itself. “This crime,” “this theft,” or “this event” means the 1911 heist — a related but separate answer line.",
+    "line": "Real answer line: <b><u>Mona Lisa</u></b> (or <u>La Gioconda</u>/<u>La Joconde</u>); a separate answer line, the <u>Theft of the Mona Lisa</u>, covers the 1911 heist itself."
+  },
+  "tests": {
+    "right": [
+      "Mona Lisa",
+      "the Mona Lisa",
+      "La Gioconda",
+      "La Joconde",
+      "Mona Liza"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Leonardo da Vinci",
+      "The Last Supper",
+      "Theft of the Mona Lisa",
+      "Isleworth Mona Lisa",
+      "The Scream"
+    ]
+  },
+  "freq": {
+    "rank": 38,
+    "count": 5,
+    "list": "Fine Arts"
+  }
+}

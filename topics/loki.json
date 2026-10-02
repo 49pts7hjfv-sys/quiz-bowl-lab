@@ -1,0 +1,382 @@
+{
+  "id": "loki",
+  "name": "Loki",
+  "mono": "LOK",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Norse trickster god · Caused Baldr’s death, bound until Ragnarök",
+  "dates": "Pre-Christian Norse mythology, Scandinavia",
+  "briefing": "Loki was the Norse gods’ favorite troublemaker, a shapeshifter clever enough to solve the problems he caused and sneaky enough to cause most of them in the first place. He once turned into a mare and gave birth to an eight-legged horse, and on a darker day, he tricked a blind god into killing his own brother. For that final betrayal, the other gods bound Loki with his own son’s chains until the day he breaks free to help end the world at Ragnarök.",
+  "answerHtml": "<b><u>Loki</u></b> [do not accept or prompt on Utgard-Loki, a different figure]",
+  "accept": [
+    "loki"
+  ],
+  "prompt": [],
+  "reject": [
+    "utgard loki",
+    "odin",
+    "thor",
+    "hel",
+    "fenrir",
+    "jormungandr",
+    "angrboda",
+    "sigyn",
+    "baldr",
+    "balder",
+    "heimdall",
+    "heimdallr"
+  ],
+  "tests": {
+    "right": [
+      "Loki",
+      "loki",
+      "Loki the Trickster",
+      "God Loki",
+      "Loki, god of mischief"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Utgard-Loki",
+      "Thor",
+      "Odin",
+      "Fenrir",
+      "Hel"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The myth of Loki and the master builder - Alex Gendler",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=MTz2f9yjmK8",
+      "note": "Short animated myth · Loki’s trick to cheat the giant who built Asgard’s wall"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How Thor got his hammer - Scott A. Mellor",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=Qytj-DbXMKQ",
+      "note": "Short animated myth · Loki cuts off Sif’s hair and bets his head against the dwarves"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The myth of Loki and the deadly mistletoe - Iseult Gillespie",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=8Poklx9Ifz4",
+      "note": "Short animated myth · Loki’s plot against Baldr and how the gods punish him (sad ending)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Loki",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Loki",
+      "note": "Kid-friendly encyclopedia article on Loki’s shapeshifting, pranks, and children"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Loki",
+  "qb": {
+    "q": "Loki",
+    "found": 7,
+    "tip": "Two of the seven explicitly say do not accept Utgard-Loki — a different giant who tricks Thor in his own unrelated story."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "After secretly shaving off the golden hair of the goddess Sif, this god made amends by convincing the Sons of Ivaldi to forge her a magical replacement out of real gold. He then bet his own head with the dwarf Brokkr that Brokkr’s brother could not out-craft that first set of gifts.",
+      "r": "A fly bite from this meddling god during the forging gave the hammer Mjölnir its unusually short handle. For 10 points, name this Norse trickster god."
+    },
+    {
+      "p": "To stop a giant builder from finishing the walls of Asgard on time, this deity transformed into a mare and lured away the builder’s stallion, Svaðilfari [“svah-THIL-far-ee”]. This trickster later gave birth to an eight-legged foal from that encounter.",
+      "r": "That foal, Sleipnir, became Odin’s horse. For 10 points, name this shapeshifting Norse god, who is also the father of the wolf Fenrir."
+    },
+    {
+      "p": "This figure tricked the blind god Höðr [“HUH-thur”] into throwing a dart made of mistletoe, the one plant that could harm Höðr’s brother. That brother had seemed invulnerable because every other object in creation had sworn an oath never to hurt him.",
+      "r": "For his role in the death of that beloved god, Baldr, this figure was hunted down and bound with the entrails of his own son. For 10 points, name this Norse trickster god."
+    },
+    {
+      "p": "As punishment for a crime against another god, this figure was bound to three stones with the entrails of his son Narfi, which the gods turned into iron chains. His wife Sigyn sits beside him, catching venom from a serpent in a bowl so that it will not drip on his face.",
+      "r": "He will break free at Ragnarök to kill, and be killed by, the watchman god Heimdallr. For 10 points, name this bound Norse trickster god."
+    },
+    {
+      "p": "After insulting every god at a feast, this figure fled and hid as a salmon in a waterfall called Franang’s Falls. The gods caught him using a net modeled on one he himself had foolishly invented while hiding.",
+      "r": "He was then bound with his own son’s entrails as punishment for his role in the death of the god Baldr. For 10 points, name this shapeshifting Norse trickster god."
+    },
+    {
+      "p": "At a feast hosted by the sea giant Ægir [“EYE-year”], this figure killed a servant named Fimafeng and then traded savage insults with every god and goddess present, in a poem called the _Lokasenna_ [“LOH-kah-SEN-ah”]. He was driven out only after threatening to burn the hall down.",
+      "r": "He also disguised himself as a handmaid to help Thor sneak into a giant’s hall and recover a stolen hammer. For 10 points, name this Norse trickster god."
+    },
+    {
+      "p": "To make the giantess Skaði [“SKAH-thee”] laugh as repayment for her father’s death, this figure tied himself to a goat with a cord and staged a ridiculous tug-of-war. He had caused that death earlier by tricking the giant Þjazi [“THYAH-zee”] into chasing him while he carried off the goddess Iðunn [“IH-dun”].",
+      "r": "This mischievous god also shaved off the golden hair of Thor’s wife, Sif, as a prank. For 10 points, name this Norse trickster god."
+    },
+    {
+      "p": "Disguised as an old woman named Þökk [“THOHK”], meaning “Thanks,” this figure alone refused to weep for a dead god, dooming him to stay in the underworld instead of returning to the living. That trick kept the beloved god Baldr dead for good.",
+      "r": "This deity’s own daughter, Hel, rules over that same underworld. For 10 points, name this Norse trickster god."
+    },
+    {
+      "p": "This god’s father was the giant Fárbauti [“far-BOW-tee”], and his wife is the loyal goddess Sigyn [“SIG-in”]. Through his lover, the giantess Angrboða [“ANG-gur-boh-tha”], he fathered three monstrous children.",
+      "r": "Those children include the wolf Fenrir and the serpent Jörmungandr. For 10 points, name this Norse trickster god, the blood brother of Odin."
+    },
+    {
+      "p": "With the giantess Angrboða, this figure fathered the wolf Fenrir, the serpent Jörmungandr, and Hel, ruler of the underworld. At Ragnarök, Fenrir will swallow Odin while Jörmungandr poisons Thor, fulfilling this family’s grim destiny.",
+      "r": "This same god will fight and kill the watchman Heimdallr before dying himself. For 10 points, name this father of monsters, a Norse trickster god."
+    },
+    {
+      "p": "Disguised as a handmaid alongside Thor, who wore a wedding dress and veil, this figure helped trick the giant Þrymr [“THRIM”] into returning a stolen hammer. He had earlier helped discover the theft by borrowing Freyja’s feathered cloak to fly in search of it.",
+      "r": "This shapeshifter is also blamed for cutting off the golden hair of Thor’s wife, Sif. For 10 points, name this trickster god of Norse mythology."
+    },
+    {
+      "p": "This deity will kill, and be killed by, the ever-watchful god Heimdallr at Ragnarök. Before that final battle, he spends years bound beneath the earth with a serpent dripping venom onto his face, caught by his faithful wife Sigyn in a bowl.",
+      "r": "He is blamed for tricking the blind god Höðr into killing the beloved god Baldr. For 10 points, name this bound Norse trickster god."
+    },
+    {
+      "p": "This shapeshifting god once turned into a mare to distract a stallion named Svaðilfari, later giving birth to the eight-legged horse Sleipnir. On another occasion, he turned into a fly to sabotage the forging of the hammer Mjölnir.",
+      "r": "He is more infamous for tricking Höðr into killing the god Baldr with mistletoe. For 10 points, name this Norse trickster god, father of the wolf Fenrir."
+    },
+    {
+      "p": "This figure’s children include a wolf destined to kill Odin, a serpent destined to kill Thor, and a daughter who rules the land of the dishonorable dead. This blood brother of Odin often travels with the gods despite causing most of their problems.",
+      "r": "He will be bound with his own son’s entrails until Ragnarök. For 10 points, name this trickster god, responsible for the death of Baldr."
+    },
+    {
+      "p": "This Norse god’s constant shapeshifting and scheming eventually caused the death of the beloved god Baldr, for which the other gods bound him with his own son’s entrails. His wife Sigyn stayed by his side, catching dripping venom in a bowl.",
+      "r": "He will break free at Ragnarök to kill, and be killed by, Heimdallr. For 10 points, name this trickster god, the father of Fenrir, Jörmungandr, and Hel."
+    }
+  ],
+  "clues": [
+    {
+      "id": "trickster-shapeshifter",
+      "tier": "giveaway",
+      "t": "Mischievous shapeshifting god, blood brother of Odin, who causes most of the other gods’ problems",
+      "k": [
+        "shapeshifting",
+        "blood brother",
+        "trickster"
+      ],
+      "n": 0,
+      "rabbit": "Odin"
+    },
+    {
+      "id": "father-of-monsters",
+      "tier": "giveaway",
+      "t": "Father of the wolf Fenrir, the serpent Jörmungandr, and the underworld ruler Hel",
+      "k": [
+        "fenrir",
+        "jormungandr",
+        "father of"
+      ],
+      "n": 5
+    },
+    {
+      "id": "baldr-death",
+      "tier": "giveaway",
+      "t": "Tricked the blind god Höðr into killing the beloved god Baldr with mistletoe",
+      "k": [
+        "baldr",
+        "hodr",
+        "mistletoe"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bound-punishment",
+      "tier": "giveaway",
+      "t": "Punished by being bound with his own son’s entrails, with venom dripping onto his face",
+      "k": [
+        "bound",
+        "entrails",
+        "venom dripping"
+      ],
+      "n": 5
+    },
+    {
+      "id": "mother-of-sleipnir",
+      "tier": "middle",
+      "t": "Became the mother of the eight-legged horse Sleipnir after shapeshifting into a mare",
+      "k": [
+        "sleipnir",
+        "shapeshifting into a mare",
+        "mother of"
+      ],
+      "n": 4,
+      "rabbit": "Odin"
+    },
+    {
+      "id": "heimdall-ragnarok",
+      "tier": "middle",
+      "t": "Will kill, and be killed by, the watchman god Heimdallr at Ragnarök",
+      "k": [
+        "heimdallr",
+        "ragnarok",
+        "kill and be killed"
+      ],
+      "n": 2
+    },
+    {
+      "id": "sif-hair",
+      "tier": "middle",
+      "t": "Shaved off the golden hair of Thor’s wife, Sif, then had dwarves forge a golden replacement",
+      "k": [
+        "sif",
+        "golden hair",
+        "dwarves forge"
+      ],
+      "n": 2,
+      "rabbit": "Thor"
+    },
+    {
+      "id": "sigyn-wife",
+      "tier": "middle",
+      "t": "Wife Sigyn stays by his side, catching dripping venom in a bowl",
+      "k": [
+        "sigyn",
+        "catching",
+        "bowl"
+      ],
+      "n": 5
+    },
+    {
+      "id": "salmon-disguise",
+      "tier": "middle",
+      "t": "Disguised himself as a salmon to flee the gods, caught hiding at Franang’s Falls",
+      "k": [
+        "salmon",
+        "franangs falls"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lokasenna",
+      "tier": "middle",
+      "t": "Traded savage insults with every god at a feast in Ægir’s hall, in a poem called the _Lokasenna_",
+      "k": [
+        "lokasenna",
+        "aegirs hall",
+        "insults"
+      ],
+      "n": 1
+    },
+    {
+      "id": "goat-skadi",
+      "tier": "power",
+      "t": "Tied himself to a goat to make the giantess Skaði laugh, repaying her for her father’s death",
+      "k": [
+        "skadi",
+        "tied himself to a goat"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mjolnir-sabotage",
+      "tier": "power",
+      "t": "Turned into a biting fly to sabotage the forging of Thor’s hammer, giving it a short handle",
+      "k": [
+        "biting fly",
+        "short handle",
+        "sabotage"
+      ],
+      "n": 1,
+      "rabbit": "Thor"
+    },
+    {
+      "id": "svadilfari",
+      "tier": "power",
+      "t": "Shapeshifted into a mare to lure away the stallion Svaðilfari, delaying a giant’s work on Asgard’s walls",
+      "k": [
+        "svadilfari",
+        "asgards walls"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hel-daughter",
+      "tier": "power",
+      "t": "Daughter Hel rules over a cold underworld realm named for her",
+      "k": [
+        "hel",
+        "underworld realm"
+      ],
+      "n": 2
+    },
+    {
+      "id": "farbauti-father",
+      "tier": "power",
+      "t": "Son of the giant Fárbauti",
+      "k": [
+        "farbauti"
+      ],
+      "n": 1
+    },
+    {
+      "id": "angrboda-lover",
+      "tier": "power",
+      "t": "Lover of the giantess Angrboða, mother of his three monstrous children",
+      "k": [
+        "angrboda",
+        "three monstrous"
+      ],
+      "n": 4
+    },
+    {
+      "id": "idunn-rescue",
+      "tier": "power",
+      "t": "Rescued the kidnapped goddess Iðunn from the giant Þjazi, who died chasing him back to Asgard",
+      "k": [
+        "idunn",
+        "thjazi"
+      ],
+      "n": 1
+    },
+    {
+      "id": "thrym-disguise",
+      "tier": "power",
+      "t": "Disguised as a handmaid alongside Thor to help him retrieve a stolen hammer from the giant Þrymr",
+      "k": [
+        "thrymr",
+        "handmaid",
+        "stolen hammer"
+      ],
+      "n": 0,
+      "rabbit": "Thor"
+    },
+    {
+      "id": "thokk-disguise",
+      "tier": "power",
+      "t": "Disguised as the old woman Þökk, meaning “Thanks,” he alone refused to weep for the dead Baldr",
+      "k": [
+        "thokk",
+        "refused to weep"
+      ],
+      "n": 0
+    },
+    {
+      "id": "logi-eating-contest",
+      "tier": "power",
+      "t": "Traveling with Thor to a giant king’s hall, he lost an eating contest to Logi, who was secretly wildfire",
+      "k": [
+        "eating contest",
+        "logi",
+        "wildfire"
+      ],
+      "n": 0,
+      "rabbit": "Thor"
+    }
+  ],
+  "trap": {
+    "title": "Loki, or Útgarða-Loki?",
+    "body": "Real tossups specifically warn: do not accept “Utgard-Loki.” He is a completely different being, a giant king who tricks Thor in his own unrelated story, and sharing a name is the only thing he has in common with this trickster god.",
+    "fix": "If the clue is about a giant king’s hall tricking Thor with illusions, that’s Utgard-Loki — that one is a hard no. If the clue is about shapeshifting, Baldr’s death, or monstrous children, it’s this trickster god.",
+    "line": "Real answer line: <b><u>Loki</u></b> [do not accept or prompt on Utgard-Loki]"
+  },
+  "freq": {
+    "rank": 2,
+    "count": 12,
+    "list": "Mythology"
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "id": "womens-suffrage",
+  "name": "Women’s Suffrage",
+  "mono": "WS",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "The fight to win women the vote · Won by the 19th Amendment in 1920",
+  "dates": "1848–1920",
+  "briefing": "For most of American history, women could not vote. Starting at the 1848 Seneca Falls Convention, activists like Elizabeth Cady Stanton, Susan B. Anthony, and later Alice Paul spent 72 years giving speeches, marching, picketing the White House, and even going to jail for the cause. In 1920 the 19th Amendment finally declared that the right to vote cannot be denied “on account of sex.”",
+  "answerHtml": "<b><u>women’s suffrage</u></b> (or <b><u>women’s right to vote</u></b>; accept similar answers about women voting, like “votes for women”; prompt on <u>suffrage</u>, “voting rights,” or other answers that do not mention women; prompt on the <u>Nineteenth Amendment</u>)",
+  "accept": [
+    "womens suffrage",
+    "woman suffrage",
+    "womans suffrage",
+    "female suffrage",
+    "suffrage for women",
+    "womens right to vote",
+    "womens rights to vote",
+    "right of women to vote",
+    "womens voting rights",
+    "voting rights for women",
+    "votes for women",
+    "vote for women",
+    "women voting",
+    "women getting the vote",
+    "women getting the right to vote",
+    "womens vote",
+    "womens enfranchisement",
+    "enfranchisement of women",
+    "suffragette movement",
+    "suffragist movement",
+    "female voting rights",
+    "women winning the vote",
+    "women gaining the vote",
+    "women gaining the right to vote",
+    "giving women the vote",
+    "giving women the right to vote"
+  ],
+  "prompt": [
+    "suffrage",
+    "suffrage movement",
+    "suffragettes",
+    "suffragette",
+    "suffragists",
+    "suffragist",
+    "universal suffrage",
+    "right to vote",
+    "voting rights",
+    "voting",
+    "vote",
+    "womens rights",
+    "womens rights movement",
+    "nineteenth amendment",
+    "19th amendment",
+    "amendment 19"
+  ],
+  "reject": [
+    "abolition",
+    "abolitionism",
+    "abolitionist movement",
+    "abolition of slavery",
+    "civil rights movement",
+    "civil rights",
+    "voting rights act",
+    "fifteenth amendment",
+    "15th amendment",
+    "fourteenth amendment",
+    "14th amendment",
+    "thirteenth amendment",
+    "13th amendment",
+    "eighteenth amendment",
+    "18th amendment",
+    "seventeenth amendment",
+    "17th amendment",
+    "sixteenth amendment",
+    "16th amendment",
+    "twentieth amendment",
+    "20th amendment",
+    "twenty fourth amendment",
+    "24th amendment",
+    "twenty sixth amendment",
+    "26th amendment",
+    "10th amendment",
+    "11th amendment",
+    "12th amendment",
+    "male suffrage",
+    "mens suffrage",
+    "men suffrage",
+    "9th amendment",
+    "ninth amendment",
+    "manhood suffrage",
+    "black suffrage",
+    "votes for men",
+    "vote for men",
+    "equal rights amendment",
+    "temperance",
+    "prohibition"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Protest at the White House | The Vote",
+      "source": "American Experience | PBS",
+      "url": "https://www.youtube.com/watch?v=-DgbNisj5oE",
+      "note": "Short clip · the Silent Sentinels picket Woodrow Wilson’s White House"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Two Paths to Suffrage | The Vote",
+      "source": "American Experience | PBS",
+      "url": "https://www.youtube.com/watch?v=mPqBJHhP0MQ",
+      "note": "Short clip · two different strategies for winning the vote"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Ratifying the 19th Amendment | The Vote",
+      "source": "American Experience | PBS",
+      "url": "https://www.youtube.com/watch?v=SR_IuRWaTWQ",
+      "note": "Short clip · the final fight to ratify the 19th Amendment in 1920"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Women’s Suffrage (#31)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=HGEMscZE5dY",
+      "note": "The whole movement and how the 19th Amendment finally passed"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Women in the 19th Century (#16)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=fM1czS_VYDI",
+      "note": "How women lived in the 1800s, and where the Seneca Falls Convention came from"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Women’s Suffrage",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/civil_rights/womens_suffrage.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_the_United_States",
+  "qb": {
+    "q": "suffrage",
+    "found": 8,
+    "tip": "All 8 are about women’s suffrage, but half of them open with British clues like Emily Davison and the Cat and Mouse Act, so learn the British side too."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In _Minor v. Happersett_, the Supreme Court unanimously ruled that being a citizen did not automatically include this right, after a Missouri official refused to register Virginia Minor in 1872. Wyoming Territory had already granted this right to women in 1869.",
+      "r": "Susan B. Anthony spent her life fighting for this cause. For 10 points, name this right that the 19th Amendment guaranteed to American women in 1920."
+    },
+    {
+      "p": "Judge Ward Hunt ordered a jury to find a woman guilty for exercising this right in Rochester, New York, in 1872, and she refused to pay her $100 fine. That woman had long worked with Elizabeth Cady Stanton to promote this cause.",
+      "r": "That woman was Susan B. Anthony. For 10 points, name this cause, won nationally through the 19th Amendment, that gave women the ballot."
+    },
+    {
+      "p": "Protesters for this cause outraged crowds in 1917 by holding up banners that called the president “Kaiser Wilson.” Those protesters, known as the Silent Sentinels, were the first group ever to picket the White House.",
+      "r": "They belonged to Alice Paul’s National Woman’s Party. For 10 points, name this cause that triumphed when the 19th Amendment was ratified in 1920."
+    },
+    {
+      "p": "Twenty-four-year-old Harry Burn switched his vote after his mother wrote urging him to “be a good boy,” making Tennessee the 36th state to approve an amendment for this cause in August 1920. Supporters of this cause wore yellow roses during that fight.",
+      "r": "Carrie Chapman Catt led the final push. For 10 points, name this right guaranteed to women by the 19th Amendment."
+    },
+    {
+      "p": "William Bright introduced the 1869 bill that made Wyoming the first U.S. territory to grant this right to women. Wyoming insisted on keeping this right when it became a state in 1890, earning the nickname “the Equality State.”",
+      "r": "For 10 points, name this right that Susan B. Anthony fought for, which the 19th Amendment extended to women nationwide."
+    },
+    {
+      "p": "The first complaint in one document says that man “has never permitted her to exercise her inalienable right to the elective franchise.” That document, signed by 68 women and 32 men, declared that “all men and women are created equal.”",
+      "r": "That Declaration of Sentiments came from the 1848 Seneca Falls Convention. For 10 points, name this cause, the most debated demand at that convention."
+    },
+    {
+      "p": "Emily Davison died after she ran onto the track in front of King George V’s horse at the 1913 Epsom Derby during a protest for this cause. Her group, Emmeline Pankhurst’s WSPU, used the motto “Deeds, not words.”",
+      "r": "In the United States, this cause won with the 19th Amendment. For 10 points, name this cause of the British suffragettes and Susan B. Anthony."
+    },
+    {
+      "p": "Britain’s “Cat and Mouse Act” of 1913 let jails release weakened hunger strikers who supported this cause, then arrest them again once they recovered. Some of those prisoners had been jailed for smashing shop windows in London.",
+      "r": "Many British women over 30 won this right in 1918. For 10 points, name this right that American women gained through the 19th Amendment."
+    },
+    {
+      "p": "In 1893, New Zealand became the first self-governing country to grant this right to women, after Kate Sheppard organized huge petitions there. Switzerland did not grant this right in its national elections until 1971.",
+      "r": "Susan B. Anthony led this cause in the United States. For 10 points, name this right guaranteed to American women by the 19th Amendment."
+    },
+    {
+      "p": "Inez Milholland rode a white horse at the front of a 1913 parade for this cause, held in Washington the day before Woodrow Wilson’s inauguration. During that march, Ida B. Wells refused to walk in a segregated section at the back and joined the Illinois marchers instead.",
+      "r": "Alice Paul organized that parade. For 10 points, name this cause that won with the 19th Amendment."
+    },
+    {
+      "p": "In 1869, this movement split over whether to support the 15th Amendment, with Lucy Stone leading one group and Elizabeth Cady Stanton leading the other. The two groups reunited in 1890 to form NAWSA, which Carrie Chapman Catt later led.",
+      "r": "For 10 points, name this movement to win women the ballot, which finally succeeded with the 19th Amendment."
+    },
+    {
+      "p": "California senator Aaron Sargent first introduced a constitutional amendment for this cause in 1878, but it took more than 40 years to pass. That amendment was nicknamed for a woman who appeared on a dollar coin first minted in 1979.",
+      "r": "That woman was Susan B. Anthony. For 10 points, name this cause, achieved when the 19th Amendment was ratified."
+    },
+    {
+      "p": "Montana’s Jeannette Rankin became the first woman elected to Congress in 1916, two years after her state granted this right. Like Montana, many western states adopted this right years before most eastern states did.",
+      "r": "For 10 points, name this right that became national for American women with the 19th Amendment in 1920."
+    },
+    {
+      "p": "In November 1917, guards at Virginia’s Occoquan Workhouse attacked jailed protesters for this cause during what became known as the “Night of Terror.” One of those protesters’ leaders went on a hunger strike in a Washington jail.",
+      "r": "That leader, Alice Paul, headed the National Woman’s Party. For 10 points, name this cause achieved by the 19th Amendment."
+    },
+    {
+      "p": "Lucretia Mott met another reformer in London in 1840, after women were barred from taking part in the World Anti-Slavery Convention there. Eight years later, the two women organized a meeting in upstate New York that demanded this right and others.",
+      "r": "That meeting was the Seneca Falls Convention. For 10 points, name this right, later championed by Elizabeth Cady Stanton and Susan B. Anthony."
+    }
+  ],
+  "clues": [
+    {
+      "id": "nineteenth",
+      "tier": "giveaway",
+      "t": "Guaranteed nationwide by the 19th Amendment (1920): the vote can’t be denied “on account of sex”",
+      "k": [
+        "19th amendment",
+        "nineteenth",
+        "1920",
+        "on account of sex"
+      ],
+      "n": 8
+    },
+    {
+      "id": "anthony",
+      "tier": "giveaway",
+      "t": "Susan B. Anthony was its most famous champion",
+      "k": [
+        "susan b. anthony",
+        "anthony"
+      ],
+      "n": 5,
+      "rabbit": "Susan B. Anthony"
+    },
+    {
+      "id": "stanton",
+      "tier": "giveaway",
+      "t": "Elizabeth Cady Stanton, Anthony’s longtime partner, led the early movement",
+      "k": [
+        "elizabeth cady stanton",
+        "cady stanton",
+        "stanton"
+      ],
+      "n": 5,
+      "rabbit": "Elizabeth Cady Stanton"
+    },
+    {
+      "id": "suffragettes",
+      "tier": "giveaway",
+      "t": "Its activists were called suffragists, or suffragettes (especially in Britain)",
+      "k": [
+        "suffragettes",
+        "suffragists",
+        "suffragette"
+      ],
+      "n": 1
+    },
+    {
+      "id": "seneca-falls",
+      "tier": "middle",
+      "t": "The Seneca Falls Convention (1848, New York), organized by Stanton and Lucretia Mott, launched the movement",
+      "k": [
+        "seneca falls",
+        "1848",
+        "lucretia mott",
+        "mott"
+      ],
+      "n": 4,
+      "rabbit": "Seneca Falls Convention"
+    },
+    {
+      "id": "sentiments",
+      "tier": "middle",
+      "t": "Stanton’s Declaration of Sentiments copied the Declaration of Independence: “all men and women are created equal”",
+      "k": [
+        "declaration of sentiments",
+        "sentiments",
+        "created equal"
+      ],
+      "n": 3
+    },
+    {
+      "id": "silent-sentinels",
+      "tier": "middle",
+      "t": "The Silent Sentinels picketed Woodrow Wilson’s White House (1917)",
+      "k": [
+        "silent sentinels",
+        "sentinels",
+        "picketed"
+      ],
+      "n": 4
+    },
+    {
+      "id": "alice-paul",
+      "tier": "middle",
+      "t": "Alice Paul led the protest-minded National Woman’s Party and organized a huge 1913 parade in Washington",
+      "k": [
+        "alice paul",
+        "national woman’s party",
+        "1913",
+        "parade"
+      ],
+      "n": 3,
+      "rabbit": "Alice Paul"
+    },
+    {
+      "id": "catt",
+      "tier": "middle",
+      "t": "Carrie Chapman Catt led NAWSA’s “Winning Plan” and founded the League of Women Voters (1920)",
+      "k": [
+        "carrie chapman catt",
+        "catt",
+        "nawsa",
+        "league of women voters",
+        "winning plan"
+      ],
+      "n": 3
+    },
+    {
+      "id": "wyoming",
+      "tier": "middle",
+      "t": "Wyoming Territory was the first U.S. territory to let women vote (1869), and it kept that right as a state (1890)",
+      "k": [
+        "wyoming",
+        "1869",
+        "equality state"
+      ],
+      "n": 3
+    },
+    {
+      "id": "hunger-strikes",
+      "tier": "middle",
+      "t": "Jailed activists in Britain and the U.S. went on hunger strikes",
+      "k": [
+        "hunger strikes",
+        "hunger strike",
+        "jailed"
+      ],
+      "n": 4
+    },
+    {
+      "id": "pankhurst",
+      "tier": "middle",
+      "t": "Britain: Emmeline Pankhurst’s WSPU (“Deeds, not words”) led the suffragettes; women over 30 won the vote in 1918, equal voting in 1928",
+      "k": [
+        "pankhurst",
+        "emmeline pankhurst",
+        "wspu",
+        "1928"
+      ],
+      "n": 1,
+      "rabbit": "Emmeline Pankhurst"
+    },
+    {
+      "id": "minor-v-happersett",
+      "tier": "power",
+      "t": "_Minor v. Happersett_ (1875): the Supreme Court unanimously ruled that citizenship did not include the vote",
+      "k": [
+        "minor v. happersett",
+        "happersett",
+        "virginia minor"
+      ],
+      "n": 2
+    },
+    {
+      "id": "anthony-trial",
+      "tier": "power",
+      "t": "Anthony was arrested for voting in 1872; Judge Ward Hunt told the jury to find her guilty, and she never paid her $100 fine",
+      "k": [
+        "ward hunt",
+        "1872",
+        "$100",
+        "rochester"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kaiser-wilson",
+      "tier": "power",
+      "t": "Picketers’ banners called the president “Kaiser Wilson” during World War I",
+      "k": [
+        "kaiser wilson",
+        "kaiser",
+        "banners"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cat-and-mouse",
+      "tier": "power",
+      "t": "Britain’s “Cat and Mouse Act” (1913) freed weak hunger strikers, then re-arrested them",
+      "k": [
+        "cat and mouse act",
+        "cat and mouse"
+      ],
+      "n": 2
+    },
+    {
+      "id": "emily-davison",
+      "tier": "power",
+      "t": "Emily Davison died after running onto the track in front of King George V’s horse at the 1913 Epsom Derby",
+      "k": [
+        "emily davison",
+        "davison",
+        "epsom derby",
+        "derby"
+      ],
+      "n": 3
+    },
+    {
+      "id": "harry-burn",
+      "tier": "power",
+      "t": "Tennessee became the 36th state to ratify (August 1920) when 24-year-old Harry Burn switched his vote after a letter from his mother",
+      "k": [
+        "harry burn",
+        "tennessee",
+        "36th state"
+      ],
+      "n": 0
+    },
+    {
+      "id": "william-bright",
+      "tier": "power",
+      "t": "William Bright introduced Wyoming Territory’s 1869 law",
+      "k": [
+        "william bright",
+        "bright"
+      ],
+      "n": 1
+    },
+    {
+      "id": "split-1869",
+      "tier": "power",
+      "t": "The movement split in 1869 over the 15th Amendment (Stanton and Anthony vs. Lucy Stone); the groups merged as NAWSA in 1890",
+      "k": [
+        "lucy stone",
+        "15th amendment",
+        "1890",
+        "merged"
+      ],
+      "n": 1
+    },
+    {
+      "id": "new-zealand",
+      "tier": "power",
+      "t": "New Zealand was the first self-governing country to let women vote (1893, led by Kate Sheppard); Switzerland waited until 1971",
+      "k": [
+        "new zealand",
+        "1893",
+        "kate sheppard",
+        "switzerland",
+        "1971"
+      ],
+      "n": 1
+    },
+    {
+      "id": "parade-1913",
+      "tier": "power",
+      "t": "At the 1913 parade, Inez Milholland rode a white horse, and Ida B. Wells refused to march in a segregated section",
+      "k": [
+        "inez milholland",
+        "milholland",
+        "white horse",
+        "ida b. wells"
+      ],
+      "n": 1
+    },
+    {
+      "id": "anthony-amendment",
+      "tier": "power",
+      "t": "Senator Aaron Sargent first introduced the “Anthony Amendment” in 1878; Anthony later appeared on a 1979 dollar coin",
+      "k": [
+        "aaron sargent",
+        "sargent",
+        "1878",
+        "dollar coin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rankin",
+      "tier": "power",
+      "t": "Montana’s Jeannette Rankin became the first woman elected to Congress (1916)",
+      "k": [
+        "jeannette rankin",
+        "rankin",
+        "montana",
+        "1916"
+      ],
+      "n": 0,
+      "rabbit": "Jeannette Rankin"
+    },
+    {
+      "id": "night-of-terror",
+      "tier": "power",
+      "t": "The “Night of Terror” (November 1917): guards attacked jailed picketers at Virginia’s Occoquan Workhouse",
+      "k": [
+        "night of terror",
+        "occoquan",
+        "workhouse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "london-1840",
+      "tier": "power",
+      "t": "Mott and Stanton met in London in 1840, when women were shut out of the World Anti-Slavery Convention",
+      "k": [
+        "london",
+        "1840",
+        "anti-slavery convention"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Say “women”!",
+    "body": "“Suffrage” just means the right to vote, so real answer lines prompt on bare “suffrage” or “voting rights” and want you to say who got the vote. Players also blurt “15th Amendment,” which protected Black men’s votes in 1870 and split the movement, or “abolition,” since many suffragists started out as abolitionists. The 19th Amendment is how the right was won, not the name of the cause.",
+    "fix": "Answer “women’s suffrage” or “women’s right to vote.” Remember 15 = race (1870) and 19 = sex (1920). Say “19th Amendment” only if the question asks for “this amendment.”",
+    "line": "Real answer line: <b><u>women’s suffrage</u></b> (or <b><u>women’s right to vote</u></b>; accept similar answers about women voting; prompt on answers that do not mention women)"
+  },
+  "tests": {
+    "right": [
+      "women's suffrage",
+      "Womens sufferage",
+      "women's right to vote",
+      "votes for women",
+      "woman suffrage",
+      "suffragette movement"
+    ],
+    "prompt": [
+      "suffrage",
+      "right to vote",
+      "19th Amendment",
+      "voting rights",
+      "women's rights"
+    ],
+    "wrong": [
+      "abolition",
+      "Civil Rights Movement",
+      "15th Amendment",
+      "Fifteenth Amendment",
+      "Voting Rights Act",
+      "Prohibition",
+      "26th Amendment",
+      "male suffrage",
+      "mens suffrage"
+    ]
+  },
+  "freq": {
+    "rank": 17,
+    "count": 5,
+    "list": "American History"
+  }
+}

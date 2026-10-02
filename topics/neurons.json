@@ -1,0 +1,415 @@
+{
+  "id": "neurons",
+  "name": "Neurons",
+  "mono": "NRN",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Signal-carrying nerve cells · The nervous system’s basic units",
+  "dates": "An estimated 86 billion in the human brain",
+  "briefing": "Neurons are the body’s messengers, firing tiny electrical pulses called action potentials down a long fiber called the axon and passing the signal to the next cell across a gap called a synapse. A fatty coating called myelin, built by helper cells, wraps many axons like the insulation on a wire, speeding those signals along. Scientist Santiago Ramón y Cajal helped prove that neurons are separate, individual cells rather than one continuous web.",
+  "answerHtml": "<b><u>Neurons</u></b> (accept <u>nerve cells</u>; prompt on <u>nerves</u>; do not accept “axons” or “brain”)",
+  "accept": [
+    "neurons",
+    "neuron",
+    "nerve cells",
+    "nerve cell",
+    "interneurons",
+    "interneuron"
+  ],
+  "prompt": [
+    "nerves",
+    "nerve",
+    "nervous tissue"
+  ],
+  "reject": [
+    "brain",
+    "axons",
+    "axon",
+    "glial cells",
+    "glia",
+    "astrocytes",
+    "dendrites",
+    "synapses",
+    "synapse",
+    "myelin",
+    "myelin sheath",
+    "nervous system",
+    "central nervous system",
+    "neutron",
+    "neutrons"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "2-Minute Neuroscience: The Neuron",
+      "source": "Neuroscientifically Challenged",
+      "url": "https://www.youtube.com/watch?v=6qS83wD29PY",
+      "note": "About 2 min · the parts of a neuron: dendrites, cell body, axon, and myelin"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "2-Minute Neuroscience: Action Potential",
+      "source": "Neuroscientifically Challenged",
+      "url": "https://www.youtube.com/watch?v=W2hHt_PXe5o",
+      "note": "About 2 min · how a neuron fires its electrical signal down the axon"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "2-Minute Neuroscience: Synaptic Transmission",
+      "source": "Neuroscientifically Challenged",
+      "url": "https://www.youtube.com/watch?v=WhowH0kb7n0",
+      "note": "About 2 min · how neurotransmitters carry the signal across the synapse"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How do nerves work?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=uU_4uA6-zcE",
+      "note": "Animated lesson on how nerve cells send electrical messages through the body"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Chemical Mind: Crash Course Psychology #3",
+      "source": "Crash Course Psychology",
+      "url": "https://www.youtube.com/watch?v=W4N-7AlzK7s",
+      "note": "Neurons, action potentials, and neurotransmitters (older end)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Nervous System, Part 1: Crash Course Anatomy & Physiology #8",
+      "source": "Crash Course Anatomy & Physiology",
+      "url": "https://www.youtube.com/watch?v=qPix_X-9t7E",
+      "note": "The whole nervous system and the cells that build it (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Neuron Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Neuron",
+      "note": "Quick read: kinds of neurons, how they grow, and how scientists discovered them"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Neuron",
+  "qb": {
+    "q": "neurons",
+    "found": 1,
+    "tip": "Only 1 Middle School/Easy High School tossup exists for this exact answer line, so 8 Regular HS tossups were blended in. Two other Regular HS hits were excluded because their real answer was the more specific “axons” (prompting on “neurons”), and one more was excluded because its real answer was “sense of smell.”"
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups for this answer line (1 Middle School/Easy High School + 8 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A kind of these cells with just two branches leaving its cell body is called “bipolar.” Supporting cells, including oligodendrocytes and Schwann cells, surround and protect these cells. Their myelin coating, which has gaps called Nodes of Ranvier, is damaged in the disease multiple sclerosis.",
+      "r": "These cells release chemical messengers like acetylcholine or serotonin into gaps called synapses. For 10 points, name these functional cells of the nervous system, which send signals along a long fiber toward other cells’ dendrites."
+    },
+    {
+      "p": "These cells’ development is guided by a structure called a growth cone, built from actin fibers. A once-popular but incorrect “reticular” theory claiming these cells form one continuous web was disproved by Santiago Ramón y Cajal [“rah-MOHN ee kah-HAL”], who studied them using a silver-staining method invented by Camillo Golgi.",
+      "r": "The Hodgkin-Huxley model, based on a squid’s giant axon, explains how ion channels create an electrical signal. For 10 points, name these signal-carrying cells of the nervous system."
+    },
+    {
+      "p": "Granular structures called Nissl bodies, made of rough endoplasmic reticulum, appear inside these cells under a microscope. These cells can be sorted into afferent, efferent, and “inter-” types based on which direction they carry signals.",
+      "r": "A fatty sheath made of myelin, built by oligodendrocytes or Schwann cells, speeds up the signals these cells send. For 10 points, name these cells that use a long axon and branching dendrites to communicate."
+    },
+    {
+      "p": "Camillo Golgi separated a many-branched, multipolar type of these cells into two groups and also stained the “Purkinje” variety, found in dense numbers in the cerebellum. A doctrine named for these cells established that they are separate, individual units rather than one continuous chain.",
+      "r": "A sodium-potassium pump helps restore these cells’ resting electrical charge after each signal fires. For 10 points, name these cells that send and receive signals at junctions called synapses."
+    },
+    {
+      "p": "Vesicle fusion inside these cells depends on SNARE proteins called VAMP1 and VAMP2. The skin of naked mole rats was found to lack a pain-signaling peptide, Substance P, that these cells normally secrete. A “black reaction” stain for these cells, using silver nitrate, is named for Camillo Golgi.",
+      "r": "A fatty substance called myelin speeds up the electrical signals that travel along these cells. For 10 points, name these basic signaling units of the nervous system."
+    },
+    {
+      "p": "New copies of these cells are still produced in adulthood within brain regions called the dentate gyrus and the subventricular zone. In the disease Guillain-Barré [“ghee-YAN bah-RAY”] syndrome, the immune system attacks the protective coating of these cells outside the brain and spinal cord.",
+      "r": "These cells release neurotransmitters such as glutamate and GABA at synapses. For 10 points, name these cells, built from a cell body, dendrites, and an axon, that make up the nervous system."
+    },
+    {
+      "p": "A disordered protein called alpha-synuclein can build up inside these cells in Parkinson’s disease. These cells are coated by a fatty substance produced by oligodendrocytes, and supporting cells called glia help keep them healthy throughout the body.",
+      "r": "These cells release glutamate, GABA, and other chemical messengers at synapses. For 10 points, name these cells that transmit signals throughout the nervous system."
+    },
+    {
+      "p": "The material covering part of these cells is rich in a lipid called galactocerebroside, and new ones can form in the subventricular and subgranular zones even in adults. In simple animals called cnidarians, these cells form a loose web called a nerve net instead of a brain.",
+      "r": "Sodium-potassium pumps in these cells’ membranes help generate traveling electrical signals called action potentials. For 10 points, name these cells made of a soma, dendrites, and an axon."
+    },
+    {
+      "p": "The rough endoplasmic reticulum inside these cells shows up under a blue dye called the Nissl stain. Along their myelin-wrapped fibers, extracellular fluid touches these cells only at gaps called Nodes of Ranvier, allowing a faster, hopping style of signal transmission called saltatory conduction.",
+      "r": "Supporting cells such as oligodendrocytes and Schwann cells coat these cells in a fatty myelin sheath. For 10 points, name these cells, separated from each other by synapses, that feature dendrites and an axon."
+    },
+    {
+      "p": "A special case of the telegrapher’s equation, using the square of a “length constant,” can model the electrical behavior of these cells. Star-shaped supporting cells called astrocytes help blood vessels near these cells form a protective barrier, and a stain developed by Golgi using potassium dichromate can reveal an “inter-” variety of these cells.",
+      "r": "An action potential travels down a long fiber of these cells, itself wrapped in a myelin sheath. For 10 points, name these cells of the nervous system that transport electrical impulses."
+    },
+    {
+      "p": "Hodgkin and Huxley studied a squid’s giant axon to work out how ion channels produce an electrical signal in these cells. The migration of these cells during development happens along supporting structures called radial glia.",
+      "r": "Depending on where they sit in the body, these cells can be insulated by either Schwann cells or oligodendrocytes. For 10 points, name these cells that contain a soma, dendrites, and an axon."
+    },
+    {
+      "p": "In multiple sclerosis, the immune system damages the fatty coating that normally speeds up the signals sent by these cells. A sodium-potassium pump helps restore these cells’ resting voltage after each signal, called an action potential, fires along their length.",
+      "r": "These cells pass signals to the next cell across a tiny gap called a synapse. For 10 points, name these cells, which include “inter-,” afferent, and efferent types, that make up the nervous system."
+    },
+    {
+      "p": "Golgi’s silver-staining method, later improved by Santiago Ramón y Cajal, first let scientists see the true branching shape of these cells clearly enough to disprove the old “reticular” theory. These cells rely on a sodium-potassium pump to reset their electrical charge between signals.",
+      "r": "A fatty myelin sheath, built by Schwann cells or oligodendrocytes, insulates the long signaling fiber of these cells. For 10 points, name these electrically active cells of the nervous system."
+    },
+    {
+      "p": "In the ocean-dwelling cnidarians, these cells form a loose, brainless “nerve net” rather than a centralized organ. A growth cone made of actin fibers guides these cells as they develop and make new connections.",
+      "r": "These cells communicate using chemical messengers such as acetylcholine, glutamate, and GABA. For 10 points, name these cells, which include bipolar, multipolar, and “inter-” varieties, that carry signals through the body."
+    },
+    {
+      "p": "Nissl bodies, Golgi’s silver stain, and a myelin coating supplied by Schwann cells or oligodendrocytes are all features used to study and identify these cells under a microscope. These cells’ resting electrical charge is restored after each signal by a sodium-potassium pump.",
+      "r": "These cells send action potentials down a long fiber and receive them through branching dendrites. For 10 points, name these electrically and chemically active cells that make up the body’s nervous system."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The nervous system’s basic signaling cells, built from a cell body, dendrites, and an axon",
+      "k": [
+        "dendrites",
+        "axon",
+        "cell body"
+      ],
+      "n": 6
+    },
+    {
+      "id": "action-potentials",
+      "tier": "giveaway",
+      "t": "Fire tiny electrical signals called action potentials to communicate with other cells",
+      "k": [
+        "action potentials"
+      ],
+      "n": 7
+    },
+    {
+      "id": "synapse-gap",
+      "tier": "giveaway",
+      "t": "Pass their signal to the next cell across a tiny gap called a synapse",
+      "k": [
+        "synapse"
+      ],
+      "n": 5
+    },
+    {
+      "id": "nervous-system",
+      "tier": "giveaway",
+      "t": "Together make up the brain, spinal cord, and nerves of the nervous system",
+      "k": [
+        "nervous system"
+      ],
+      "n": 9
+    },
+    {
+      "id": "myelin",
+      "tier": "middle",
+      "t": "A fatty coating called myelin, made by helper cells, speeds up their signals",
+      "k": [
+        "myelin"
+      ],
+      "n": 8
+    },
+    {
+      "id": "schwann-oligo",
+      "tier": "middle",
+      "t": "Schwann cells build that coating in the body; oligodendrocytes build it in the brain and spinal cord",
+      "k": [
+        "schwann cells",
+        "oligodendrocytes"
+      ],
+      "n": 9
+    },
+    {
+      "id": "nodes-ranvier",
+      "tier": "middle",
+      "t": "Gaps in that coating, called Nodes of Ranvier, let “saltatory conduction” speed signals along in jumps",
+      "k": [
+        "nodes of ranvier",
+        "saltatory conduction"
+      ],
+      "n": 4
+    },
+    {
+      "id": "sodium-potassium",
+      "tier": "middle",
+      "t": "A sodium-potassium pump helps reset the cell’s electrical charge after each signal fires",
+      "k": [
+        "sodium-potassium pump"
+      ],
+      "n": 2
+    },
+    {
+      "id": "golgi-stain",
+      "tier": "middle",
+      "t": "Camillo Golgi developed a silver-staining method that first let scientists see these cells clearly",
+      "k": [
+        "camillo golgi",
+        "silver-staining"
+      ],
+      "n": 6
+    },
+    {
+      "id": "cajal",
+      "tier": "middle",
+      "t": "Santiago Ramón y Cajal used that stain to disprove the idea that these cells form one continuous web",
+      "k": [
+        "cajal",
+        "continuous web"
+      ],
+      "n": 3
+    },
+    {
+      "id": "types",
+      "tier": "middle",
+      "t": "Afferent types carry signals toward the brain and spinal cord; efferent types carry them away; “inter-” types connect the two",
+      "k": [
+        "afferent",
+        "efferent"
+      ],
+      "n": 4
+    },
+    {
+      "id": "glial-support",
+      "tier": "middle",
+      "t": "Supporting cells called glia, or glial cells, nourish and protect these cells but don’t fire signals themselves",
+      "k": [
+        "glial cells",
+        "glia"
+      ],
+      "n": 7
+    },
+    {
+      "id": "hodgkin-huxley",
+      "tier": "power",
+      "t": "Hodgkin and Huxley studied a squid’s giant axon to explain how ion channels create these cells’ electrical signals",
+      "k": [
+        "hodgkin huxley",
+        "squid"
+      ],
+      "n": 4
+    },
+    {
+      "id": "multiple-sclerosis",
+      "tier": "power",
+      "t": "In multiple sclerosis, the immune system attacks and damages the fatty coating around these cells",
+      "k": [
+        "multiple sclerosis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "guillain-barre",
+      "tier": "power",
+      "t": "In Guillain-Barré syndrome, the immune system instead attacks these cells’ coating outside the brain and spinal cord",
+      "k": [
+        "guillain-barré"
+      ],
+      "n": 1
+    },
+    {
+      "id": "neurogenesis",
+      "tier": "power",
+      "t": "New ones are still produced in adulthood in brain regions called the dentate gyrus and subventricular zone",
+      "k": [
+        "dentate gyrus",
+        "subventricular zone"
+      ],
+      "n": 1
+    },
+    {
+      "id": "neurotransmitters",
+      "tier": "power",
+      "t": "Release chemical messengers such as glutamate, GABA, acetylcholine, or serotonin into synapses",
+      "k": [
+        "glutamate",
+        "gaba",
+        "acetylcholine"
+      ],
+      "n": 3
+    },
+    {
+      "id": "nissl",
+      "tier": "power",
+      "t": "Granular structures called Nissl bodies, made of rough endoplasmic reticulum, show up when these cells are stained",
+      "k": [
+        "nissl bodies"
+      ],
+      "n": 3
+    },
+    {
+      "id": "growth-cone",
+      "tier": "power",
+      "t": "A structure called a growth cone, built from actin fibers, guides these cells as they grow and connect",
+      "k": [
+        "growth cone"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cnidarian-net",
+      "tier": "power",
+      "t": "In simple animals called cnidarians, these cells form a loose web called a nerve net instead of a brain",
+      "k": [
+        "cnidarians",
+        "nerve net"
+      ],
+      "n": 1
+    },
+    {
+      "id": "telegrapher",
+      "tier": "power",
+      "t": "Their electrical behavior along a fiber can be modeled with a version of the telegrapher’s equation",
+      "k": [
+        "telegrapher’s equation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "purkinje",
+      "tier": "power",
+      "t": "Camillo Golgi’s stain revealed the many-branched “Purkinje” variety of these cells found in the cerebellum",
+      "k": [
+        "purkinje"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Whole cell, axon, or brain?",
+    "body": "Some real tossups are actually about the axon, the long fiber that carries signals away from one of these cells — those tossups only prompt if a player says the broader cell type. Going the other direction, many of these cells bundled together build the brain and spinal cord, but the brain is a whole organ made of billions of them, not a single one.",
+    "fix": "If every clue describes one long fiber insulated in myelin and firing a single traveling signal, especially one mentioning a giant squid experiment, the safer answer may be “axon,” a part of one of these cells. If the clues describe thinking, memory, or an organ with lobes, the answer is the brain, not these individual cells.",
+    "line": "Real answer line: <b><u>Neurons</u></b> (accept nerve cells; prompt on nerves; do not accept axons or brain)"
+  },
+  "tests": {
+    "right": [
+      "Neurons",
+      "neuron",
+      "Nerve Cells",
+      "Neurns",
+      "Interneurons"
+    ],
+    "prompt": [
+      "Nerves",
+      "Nerve"
+    ],
+    "wrong": [
+      "Brain",
+      "Axons",
+      "Glial cells",
+      "Synapse",
+      "Neutrons"
+    ]
+  },
+  "freq": {
+    "rank": 26,
+    "count": 3,
+    "list": "Biology"
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "id": "mass",
+  "name": "Mass",
+  "mono": "MS",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Physics quantity · How much matter an object contains",
+  "dates": "SI unit: the kilogram (kg)",
+  "briefing": "Mass is the simplest possible definition of “how much stuff” is packed into an object, measured in kilograms. It never changes no matter where an object travels, even though its weight does, since the Moon’s gravity pulls on the very same amount of matter far more weakly than Earth’s does. Albert Einstein’s famous equation even shows mass converting directly into pure energy.",
+  "answerHtml": "<b><u>Mass</u></b> (prompt on <u>m</u>)",
+  "accept": [
+    "mass",
+    "inertial mass",
+    "gravitational mass",
+    "atomic mass"
+  ],
+  "prompt": [
+    "m"
+  ],
+  "reject": [
+    "weight",
+    "density",
+    "momentum"
+  ],
+  "tests": {
+    "right": [
+      "Mass",
+      "mass",
+      "Inertial Mass",
+      "Atomic Mass"
+    ],
+    "prompt": [
+      "M"
+    ],
+    "wrong": [
+      "Weight",
+      "Density",
+      "Momentum",
+      "Inertia"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Weight, Force, Mass & Gravity",
+      "source": "FuseSchool",
+      "url": "https://www.youtube.com/watch?v=U78NOo-oxOY",
+      "note": "Animated explainer of how mass, weight, and gravity are connected"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mass Versus Weight",
+      "source": "The Physics Classroom",
+      "url": "https://www.youtube.com/watch?v=LMs3Q2rO5WU",
+      "note": "Clear teacher explanation of why mass and weight are not the same thing"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mass & weight",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=INZNifEXOcQ",
+      "note": "Khan Academy lesson on what mass is and how it differs from weight"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Mass and Weight",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/physics/mass_and_weight.php",
+      "note": "Quick read on measuring mass, mass vs. weight, and conservation of mass, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Mass",
+  "qb": {
+    "q": "mass",
+    "found": 17,
+    "tip": "A Science-category search returns 17 difficulty 1-2 hits, but most use “mass” only as a clue word for a different real answer (density, weight, an equilibrium constant, or mass extinction events); only 7 are genuine tossups on this exact quantity, so those 7 are the sample."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for this exact answer line (Middle School + Easy High School, power-marked), found among 17 Science-category hits for the search word"
+  },
+  "tossups": [
+    {
+      "p": "Isotopes of a single element always share the same number of protons but differ in this quantity, which roughly equals an atom’s count of protons plus neutrons when expressed in a tiny chemistry unit called the amu. Albert Einstein’s equivalence principle treats the gravitational and inertial versions of this quantity as one and the same.",
+      "r": "Multiplying this quantity by little g gives an object’s weight, while multiplying it by velocity instead gives its momentum. For 10 points, name this quantity, the amount of matter packed into an object, usually measured in kilograms."
+    },
+    {
+      "p": "According to the no-hair theorem, a black hole can be fully described using only its charge, its spin, and this one other quantity. The Chandrasekhar limit sets the maximum value of this quantity that a white dwarf star can have before collapsing further. Albert Einstein’s most famous equation states that energy equals this quantity times the",
+      "r": "speed of light, squared. Between any two objects, the pull of gravity is directly proportional to the product of each object’s value for this quantity. For 10 points, name this quantity, usually measured in kilograms."
+    },
+    {
+      "p": "The heaviest known elementary particle, the top quark, has the largest value of any fundamental particle for this property, which physicists often measure in units of GeV over c-squared. Particles that couple to the Higgs field acquire a nonzero value of this property, while particles like the photon travel at light speed precisely because their value for",
+      "r": "this quantity equals zero. The gravitational pull between two bodies is directly proportional to each body’s amount of this quantity. For 10 points, name this quantity measured in kilograms."
+    },
+    {
+      "p": "Astronomers simplify orbital calculations for two orbiting bodies by combining their individual values of this quantity into a single “reduced” version, turning a two-body problem into a one-body one. For an object bobbing on a spring, the period of its motion equals two pi times the square root of this quantity divided by the spring constant.",
+      "r": "Multiplied by gravitational acceleration and height, this quantity gives an object’s stored gravitational energy, and multiplied by little g alone, it gives that object’s weight. For 10 points, name this quantity, typically measured in kilograms."
+    },
+    {
+      "p": "Dividing Planck’s constant by the product of velocity and this quantity gives the de Broglie wavelength of a moving object. This quantity’s rotational counterpart is called the moment of inertia. One-half of this quantity, multiplied by velocity squared, gives an object’s kinetic energy, and according to Newton’s",
+      "r": "second law of motion, this quantity equals net force divided by acceleration. For 10 points, name this quantity, the amount of matter in an object, usually measured in kilograms."
+    },
+    {
+      "p": "In natural units, the square of this quantity equals the difference between the squares of energy and momentum. Physicists measure this quantity in units like the dalton or electronvolts over c-squared. Any object with a nonzero value of this quantity automatically has inertia and can pull on other objects",
+      "r": "through gravity. Dividing this quantity by an object’s volume gives its density. For 10 points, name this quantity, the amount of matter contained in an object."
+    },
+    {
+      "p": "A laboratory technique sorts charged particles by comparing this quantity to each particle’s electric charge, helping chemists identify unknown compounds. Isotopes of carbon and other elements differ in this quantity, which, measured in amu, is close to the total count of protons plus neutrons in the nucleus. For a uniformly dense object, the",
+      "r": "balance point for this quantity lines up with the object’s centroid. For 10 points, name this quantity, usually measured in kilograms or, for single atoms, in amu."
+    },
+    {
+      "p": "The Chandrasekhar limit caps how much of this quantity a white dwarf star can hold onto before collapsing into a denser object. By the no-hair theorem, only three properties, including this one, fully describe an otherwise featureless black hole. Famously, Einstein showed that",
+      "r": "energy equals this quantity times the speed of light, squared. For 10 points, name this quantity whose everyday unit is the kilogram."
+    },
+    {
+      "p": "Elementary particles that couple to the Higgs field end up with a nonzero value for this quantity, while photons, forever stuck at light speed, have none of it at all. Among known elementary particles, the top quark holds the record for the largest value of this property, usually quoted in GeV per c-squared.",
+      "r": "Multiplying this quantity by velocity gives an object’s momentum. For 10 points, name this quantity, commonly measured in kilograms."
+    },
+    {
+      "p": "Treating two orbiting bodies as one simplified body requires combining their individual amounts of this quantity into a single “reduced” value. A block bouncing on a spring completes one cycle in a time proportional to the square root of this quantity over the spring’s stiffness.",
+      "r": "This quantity, multiplied by gravitational acceleration and by height, equals an object’s stored gravitational energy. For 10 points, name this quantity, usually measured in kilograms."
+    },
+    {
+      "p": "The ratio of Planck’s constant to the product of velocity and this quantity gives a moving object’s de Broglie wavelength. This quantity has a rotational analogue called the moment of inertia, and half of it times velocity squared equals kinetic energy.",
+      "r": "Newton’s second law defines force as this quantity multiplied by acceleration. For 10 points, name this quantity, typically measured in kilograms, which represents how much matter an object contains."
+    },
+    {
+      "p": "This quantity’s square, in natural units, equals the difference between squared energy and squared momentum for a particle. Scientists sometimes report this quantity using the dalton, a unit built around one-twelfth of a carbon-12 atom’s share of it.",
+      "r": "Any object carrying this quantity automatically resists changes in its motion and can tug on other objects through gravity. For 10 points, name this quantity, which divided by volume gives density."
+    },
+    {
+      "p": "Einstein’s equivalence principle declares the gravitational and inertial forms of this quantity to be exactly the same thing. For a solid object of even density, the point locating this quantity’s average position sits right at the centroid.",
+      "r": "This quantity multiplied by little g equals weight, and this quantity multiplied by velocity equals momentum. For 10 points, name this quantity, the amount of matter in an object, measured in kilograms."
+    },
+    {
+      "p": "An atom’s value for this quantity roughly equals the sum of its protons and neutrons, so isotopes of the same element differ in this value. Chemists often report this quantity for atoms in a unit abbreviated amu.",
+      "r": "The force of gravity between two bodies grows directly with the product of their values for this quantity. For 10 points, name this quantity, which astronauts do not lose in orbit even though they float there as if weightless."
+    },
+    {
+      "p": "Because they do not couple to the Higgs field, particles like photons carry zero amount of this quantity and can therefore travel at the speed of light. The heaviest known elementary particle, the top quark, instead has an enormous value of this property, reported in GeV per c-squared.",
+      "r": "Einstein’s famous equation converts this quantity directly into energy by multiplying it by the speed of light, squared. For 10 points, name this quantity, usually measured in kilograms."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The amount of matter contained in an object, typically measured in kilograms or grams",
+      "k": [
+        "amount of matter",
+        "kilograms"
+      ],
+      "n": 7
+    },
+    {
+      "id": "stays-constant",
+      "tier": "giveaway",
+      "t": "Stays exactly the same no matter where an object travels, from Earth to the Moon to deep space, even though weight does not",
+      "k": [
+        "stays the same",
+        "weight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "weight-link",
+      "tier": "giveaway",
+      "t": "Multiplying this quantity by Earth’s gravitational acceleration (“little g”) gives an object’s weight",
+      "k": [
+        "little g",
+        "weight"
+      ],
+      "n": 2
+    },
+    {
+      "id": "momentum-link",
+      "tier": "giveaway",
+      "t": "Multiplying this quantity by velocity gives an object’s momentum",
+      "k": [
+        "momentum",
+        "velocity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gravity-proportional",
+      "tier": "middle",
+      "t": "The force of gravity between two objects is directly proportional to the product of their two values for this quantity",
+      "k": [
+        "force of gravity",
+        "directly proportional"
+      ],
+      "n": 3,
+      "rabbit": "Gravity"
+    },
+    {
+      "id": "newton-second-law",
+      "tier": "middle",
+      "t": "Equal to force divided by acceleration, according to Newton’s second law of motion",
+      "k": [
+        "newton",
+        "divided by acceleration"
+      ],
+      "n": 2
+    },
+    {
+      "id": "equivalence-principle",
+      "tier": "middle",
+      "t": "Einstein’s equivalence principle treats the gravitational and inertial versions of this quantity as identical",
+      "k": [
+        "equivalence principle",
+        "gravitational",
+        "inertial"
+      ],
+      "n": 1
+    },
+    {
+      "id": "centroid",
+      "tier": "middle",
+      "t": "For an object of uniform density, the point marking this quantity’s average position lines up with the centroid",
+      "k": [
+        "centroid",
+        "uniform density"
+      ],
+      "n": 1
+    },
+    {
+      "id": "isotopes",
+      "tier": "middle",
+      "t": "For a single atom, measured in amu, roughly equals the total number of protons plus neutrons, so isotopes of an element differ in this value",
+      "k": [
+        "protons",
+        "neutrons",
+        "isotopes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "density-link",
+      "tier": "middle",
+      "t": "Dividing this quantity by an object’s volume gives its density",
+      "k": [
+        "divided by volume",
+        "density"
+      ],
+      "n": 1,
+      "rabbit": "Density"
+    },
+    {
+      "id": "inertia-link",
+      "tier": "middle",
+      "t": "Any object carrying a nonzero amount of this quantity automatically has inertia and can pull on other objects through gravity",
+      "k": [
+        "inertia",
+        "pull on other objects"
+      ],
+      "n": 1,
+      "rabbit": "Inertia"
+    },
+    {
+      "id": "no-hair-theorem",
+      "tier": "power",
+      "t": "By the no-hair theorem, only charge, angular momentum, and this one other quantity fully describe a black hole",
+      "k": [
+        "no-hair theorem",
+        "black hole"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chandrasekhar",
+      "tier": "power",
+      "t": "The Chandrasekhar limit sets the maximum value of this quantity a white dwarf star can have before collapsing further",
+      "k": [
+        "chandrasekhar limit",
+        "white dwarf"
+      ],
+      "n": 1
+    },
+    {
+      "id": "top-quark",
+      "tier": "power",
+      "t": "Among all known elementary particles, the top quark has the single largest value of this property",
+      "k": [
+        "top quark",
+        "largest value"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gev-units",
+      "tier": "power",
+      "t": "Particle physicists often report this quantity in units of GeV divided by c-squared",
+      "k": [
+        "gev",
+        "c-squared"
+      ],
+      "n": 1
+    },
+    {
+      "id": "higgs-field",
+      "tier": "power",
+      "t": "Particles that couple to the Higgs field acquire a nonzero value of this property",
+      "k": [
+        "higgs field",
+        "nonzero"
+      ],
+      "n": 1
+    },
+    {
+      "id": "photon-zero",
+      "tier": "power",
+      "t": "Photons travel at the speed of light precisely because their value for this quantity equals zero",
+      "k": [
+        "photons",
+        "equals zero"
+      ],
+      "n": 1
+    },
+    {
+      "id": "reduced-two-body",
+      "tier": "power",
+      "t": "Orbital mechanics simplifies a two-body problem into a one-body problem by combining both objects’ values into a single “reduced” version of this quantity",
+      "k": [
+        "reduced",
+        "two-body problem"
+      ],
+      "n": 1
+    },
+    {
+      "id": "spring-period",
+      "tier": "power",
+      "t": "For an object bouncing on a spring, the period of motion equals two pi times the square root of this quantity divided by the spring constant",
+      "k": [
+        "spring constant",
+        "square root"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pe-mgh",
+      "tier": "power",
+      "t": "Multiplied by gravitational acceleration and by height, this quantity gives an object’s stored gravitational energy",
+      "k": [
+        "gravitational acceleration",
+        "stored gravitational energy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "debroglie",
+      "tier": "power",
+      "t": "Dividing Planck’s constant by the product of velocity and this quantity gives a moving object’s de Broglie wavelength",
+      "k": [
+        "planck",
+        "de broglie wavelength"
+      ],
+      "n": 1
+    },
+    {
+      "id": "moment-of-inertia",
+      "tier": "power",
+      "t": "Has a rotational counterpart called the moment of inertia",
+      "k": [
+        "rotational counterpart",
+        "moment of inertia"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ke-half-mv2",
+      "tier": "power",
+      "t": "One-half of this quantity, multiplied by velocity squared, gives an object’s kinetic energy",
+      "k": [
+        "kinetic energy",
+        "velocity squared"
+      ],
+      "n": 1
+    },
+    {
+      "id": "natural-units",
+      "tier": "power",
+      "t": "In natural units, the square of this quantity equals the difference between the squares of energy and momentum",
+      "k": [
+        "natural units",
+        "energy and momentum"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dalton-units",
+      "tier": "power",
+      "t": "Scientists sometimes report this quantity using the dalton, a unit built around one-twelfth of a carbon-12 atom’s share of it",
+      "k": [
+        "dalton",
+        "carbon-12"
+      ],
+      "n": 1
+    },
+    {
+      "id": "e-mc2",
+      "tier": "power",
+      "t": "Einstein’s most famous equation converts this quantity directly into energy by multiplying it by the speed of light, squared",
+      "k": [
+        "einstein",
+        "speed of light squared"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Mass, or weight?",
+    "body": "Real answer lines are explicit about this: several tossups on this quantity say “do not accept weight,” and a separate real tossup whose answer is weight itself says “do not accept mass.” The two are related but different: this quantity never changes no matter where an object goes, while weight is just the force of gravity pulling on it, and shrinks to about one-sixth of its Earth value on the Moon.",
+    "fix": "If the clue talks about gravity pulling on an object, a bathroom scale, or a value that changes between the Earth and the Moon, the answer is weight. If it describes how much matter is packed into an object, something that never changes no matter where it travels, give this quantity instead.",
+    "line": "Real answer line: <b><u>Mass</u></b> (do not accept weight; prompt on m)"
+  },
+  "freq": {
+    "rank": 11,
+    "count": 7,
+    "list": "Physics"
+  }
+}

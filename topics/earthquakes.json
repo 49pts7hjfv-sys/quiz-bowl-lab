@@ -1,0 +1,376 @@
+{
+  "id": "earthquakes",
+  "name": "Earthquakes",
+  "mono": "EQ",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Sudden ground shaking · Caused by tectonic stress releasing along a fault",
+  "dates": "A constant process, studied scientifically since the 1800s",
+  "briefing": "Right now, somewhere on Earth, the ground is shaking: tectonic plates grinding past each other release stress that rockets outward as seismic waves. Nearly two thousand years ago, the Chinese inventor Zhang Heng built a bronze device that dropped a ball from a dragon’s mouth to signal that one of these events had struck far away. Today scientists track an event’s P-waves and S-waves to pinpoint its epicenter and measure its magnitude.",
+  "answerHtml": "<b><u>Earthquakes</u></b>",
+  "accept": [
+    "earthquake",
+    "earthquakes",
+    "quake",
+    "quakes"
+  ],
+  "prompt": [],
+  "reject": [
+    "volcano",
+    "volcanoes",
+    "volcanic eruption",
+    "volcanic eruptions",
+    "tsunami",
+    "tsunamis",
+    "aftershock",
+    "aftershocks",
+    "fault",
+    "fault line",
+    "plate tectonics"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Understanding earthquakes: The science behind what makes the earth shake",
+      "source": "CBC Kids News",
+      "url": "https://www.youtube.com/watch?v=7En4gayPmEU",
+      "note": "Kids’ news explainer on moving plates, faults, and why the ground shakes"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Earthquakes 101",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=_r_nFT2m-Vg",
+      "note": "What causes earthquakes and how scientists measure them"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Earthquakes Explained: Crash Course Geology #14",
+      "source": "Crash Course Geology",
+      "url": "https://www.youtube.com/watch?v=WNvAic8KLb0",
+      "note": "Faults, seismic waves, and how quakes are measured, in more depth (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Science for Kids: Earthquakes",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/earthquakes.php",
+      "note": "Quick read: tectonic plates, seismic waves, the magnitude scale, and aftershocks, plus a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Earthquake",
+  "qb": {
+    "q": "earthquake",
+    "found": 6,
+    "tip": "All 6 results were genuinely on-topic (filtering by the Science category kept out unrelated noise); two of them, a 2019 Novice and 2020 Middle School tossup, share identical wording about the 1975 Haicheng prediction, since easier sets often reuse the same packet."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The Flinn-Engdahl system divides this phenomenon’s occurrences into 754 numbered regions, and elastic rebound theory explains how rock stores and then suddenly releases strain energy to produce one of these events. Multiplying roughly 8.4 by the lag time between two kinds of waves can estimate the distance to this event’s epicenter.",
+      "r": "Soil liquefaction, which turns loose ground into quicksand, often accompanies these events along strike-slip faults like California’s San Andreas. For 10 points, name these violent shaking events caused by the sudden release of energy along a fault."
+    },
+    {
+      "p": "The Mercalli [“mer-KAH-lee”] scale ranks one of these events by the intensity of damage it causes at a given spot, while a separate scale measures the magnitude released at its source. Seismologists increasingly favor a moment magnitude scale over that older scale for very large versions of this event, since the older scale loses accuracy above about magnitude 7.",
+      "r": "When one of these events strikes beneath the ocean floor, it can displace enough water to generate a tsunami. For 10 points, name this sudden shaking of the ground, often measured on the Richter scale."
+    },
+    {
+      "p": "In 132 CE, the Chinese polymath Zhang Heng built an early detector for this phenomenon, a bronze vessel whose dragon heads dropped a ball whenever one of these events struck far away. Elastic rebound theory describes how rock stores and then suddenly releases strain energy to produce this kind of event.",
+      "r": "Instruments called seismographs record this event’s primary and secondary waves, abbreviated P-waves and S-waves. For 10 points, name this sudden release of energy that shakes the ground, often along a fault."
+    },
+    {
+      "p": "This phenomenon’s underground point of origin is called its focus or hypocenter, while the point directly above it on the surface is its epicenter. These events cluster most heavily along the boundaries of tectonic plates, where stress built up along a fault is suddenly released.",
+      "r": "A smaller event of the same kind, called an aftershock, often follows the largest shock in a sequence. For 10 points, name this violent shaking of the ground."
+    },
+    {
+      "p": "Surface waves named for Augustus Love and Lord Rayleigh travel along the surface of the ground during one of these events. In loose, waterlogged soil, this kind of event can trigger liquefaction, turning solid-seeming ground into a quicksand-like slurry. Injecting oil-field wastewater deep underground has made smaller versions of this event more common in the central United States.",
+      "r": "Even so, the strongest versions of this event in the United States still strike most often along the Pacific coast. For 10 points, name this sudden shaking of the ground."
+    },
+    {
+      "p": "Seismic stations on the far side of Earth from one of these events fail to receive the secondary waves it produces; that gap, called a shadow zone, gave scientists some of the first solid evidence that part of Earth’s core is liquid.",
+      "r": "In 1975, Chinese scientists successfully predicted a destructive version of this event near Haicheng based on changes in groundwater and animal behavior. For 10 points, name this violent shaking of the ground."
+    },
+    {
+      "p": "A strike-slip fault like California’s San Andreas is a common setting for one of these events, which begins at an underground focus before stress-release waves spread outward toward the surface. Timing the delay between an event’s first two wave arrivals gives seismologists a rough distance to its point of origin.",
+      "r": "Instruments called seismometers record this event’s magnitude on a logarithmic scale. For 10 points, name this sudden shaking caused by the release of built-up tectonic stress."
+    },
+    {
+      "p": "Rock on either side of a locked fault bends and stores elastic energy for years before suddenly snapping back toward its original shape, a process that explains why one of these events occurs where it does. The sudden slip that results sends seismic waves outward in all directions from the point of rupture.",
+      "r": "Large versions of this event are often followed by a series of smaller aftershocks along the same fault. For 10 points, name this sudden release of stored energy that shakes the ground."
+    },
+    {
+      "p": "One widely used scale for this phenomenon measures the felt intensity of shaking at a given location, while a different scale instead estimates the total energy released at the source. Because that energy-based scale becomes unreliable for the very largest versions of this event, seismologists today more often report a moment magnitude instead.",
+      "r": "A great many of these events strike along the Pacific Ring of Fire. For 10 points, name this natural disaster that shakes the ground, which can be measured on the Richter scale."
+    },
+    {
+      "p": "When one of these events occurs on the ocean floor along a subduction zone, it can displace a huge column of water and set off a tsunami. Stress can build for decades along the boundary between two tectonic plates before this kind of event suddenly releases it as seismic waves.",
+      "r": "Seismologists study the slow motion of the Earth’s crust to help forecast where this kind of event is most likely to strike next. For 10 points, name this sudden shaking of the ground."
+    },
+    {
+      "p": "Buildings built on loose, waterlogged soil are especially at risk when one of these events causes liquefaction, a process that turns firm-seeming ground into a flowing slurry. Rolling surface waves, including Rayleigh waves, can sometimes be seen moving across open ground during a strong version of this event.",
+      "r": "These events happen most often at or near fault lines, where tectonic plates meet. For 10 points, name this sudden violent shaking of the ground."
+    },
+    {
+      "p": "Long before modern instruments existed, the Han-dynasty inventor Zhang Heng built a bronze device that used a dropped ball to signal the direction of one of these events nearly two thousand years ago. Modern seismographs instead record this event’s faster primary waves and slower secondary waves to calculate how far away it struck.",
+      "r": "Scientists call the underground point where this event begins its focus, and the point on the surface directly above it the epicenter. For 10 points, name this sudden, violent shaking of the ground."
+    },
+    {
+      "p": "Seismologists Flinn and Engdahl divided the globe into 754 numbered regions still used today to catalog where one of these events strikes. Analysts can estimate how far away this kind of event occurred by timing the gap between the arrival of its two main wave types.",
+      "r": "Most of these events are too small to be felt, but the largest can severely damage buildings and bridges in seconds. For 10 points, name this sudden shaking of the ground along a fault."
+    },
+    {
+      "p": "Tectonic plates sliding past, toward, or away from each other store enormous stress along the faults where they meet, and this kind of event is how that stress finally releases. Scientists now prefer the moment magnitude scale over the older Richter scale when measuring this event’s very largest examples.",
+      "r": "Giant versions of this event beneath the ocean can trigger tsunamis that cross entire oceans. For 10 points, name this sudden shaking of the ground."
+    },
+    {
+      "p": "Scientists called seismologists study this phenomenon by analyzing the P-waves and S-waves recorded on a seismograph. The point on Earth’s surface directly above where this event begins underground is called its epicenter, and the event’s strength is often reported on the Richter scale.",
+      "r": "This kind of event is caused by the sudden movement of rock along a fault, often where two tectonic plates meet. For 10 points, name this natural disaster in which the ground suddenly shakes."
+    }
+  ],
+  "clues": [
+    {
+      "id": "ground-shaking",
+      "tier": "giveaway",
+      "t": "Sudden shaking of the ground, caused by rock suddenly slipping along a fault",
+      "k": [
+        "sudden shaking",
+        "fault"
+      ],
+      "n": 4
+    },
+    {
+      "id": "richter-scale",
+      "tier": "giveaway",
+      "t": "Traditionally measured on the Richter [“RIK-ter”] scale, now often replaced by moment magnitude for big ones",
+      "k": [
+        "richter scale",
+        "moment magnitude"
+      ],
+      "n": 3
+    },
+    {
+      "id": "epicenter",
+      "tier": "giveaway",
+      "t": "The point on the surface directly above where it starts underground is called the epicenter",
+      "k": [
+        "epicenter"
+      ],
+      "n": 3
+    },
+    {
+      "id": "p-s-waves",
+      "tier": "giveaway",
+      "t": "Detected by seismographs as P-waves (primary) and S-waves (secondary)",
+      "k": [
+        "p-waves",
+        "s-waves",
+        "seismographs"
+      ],
+      "n": 5
+    },
+    {
+      "id": "aftershocks",
+      "tier": "giveaway",
+      "t": "Often followed by smaller aftershocks striking along the same fault",
+      "k": [
+        "aftershocks"
+      ],
+      "n": 1,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "elastic-rebound",
+      "tier": "middle",
+      "t": "Elastic rebound theory: stressed rock snaps back toward its original shape, releasing stored energy",
+      "k": [
+        "elastic rebound"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hypocenter",
+      "tier": "middle",
+      "t": "Begins underground at a point called the focus or hypocenter",
+      "k": [
+        "hypocenter",
+        "focus"
+      ],
+      "n": 2
+    },
+    {
+      "id": "liquefaction",
+      "tier": "middle",
+      "t": "Can turn loose, waterlogged soil into a flowing slurry, a process called liquefaction",
+      "k": [
+        "liquefaction"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tsunami-link",
+      "tier": "middle",
+      "t": "An undersea version can displace huge amounts of water and trigger a tsunami",
+      "k": [
+        "tsunami"
+      ],
+      "n": 1
+    },
+    {
+      "id": "love-rayleigh",
+      "tier": "middle",
+      "t": "Produces surface waves, including side-to-side Love waves and rolling Rayleigh waves",
+      "k": [
+        "love waves",
+        "rayleigh waves"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mercalli",
+      "tier": "middle",
+      "t": "The Mercalli [“mer-KAH-lee”] scale instead ranks felt intensity and damage at a location",
+      "k": [
+        "mercalli scale"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fracking",
+      "tier": "middle",
+      "t": "Human activities, mostly deep injection of oil-field wastewater rather than fracking itself, have increased smaller versions of this in the central U.S.",
+      "k": [
+        "fracking",
+        "wastewater"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ring-of-fire",
+      "tier": "middle",
+      "t": "Strikes especially often along the Pacific Ring of Fire",
+      "k": [
+        "ring of fire"
+      ],
+      "n": 0,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "zhang-heng",
+      "tier": "power",
+      "t": "Chinese inventor Zhang Heng built an early detector in 132 CE that used a dropped ball and dragon heads",
+      "k": [
+        "zhang heng",
+        "132 ad"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shadow-zone",
+      "tier": "power",
+      "t": "Creates a shadow zone on the far side of Earth where S-waves never arrive, evidence that the outer core is liquid",
+      "k": [
+        "shadow zone"
+      ],
+      "n": 2
+    },
+    {
+      "id": "haicheng",
+      "tier": "power",
+      "t": "A rare successful prediction came before a 1975 disaster near Haicheng, China",
+      "k": [
+        "haicheng"
+      ],
+      "n": 2
+    },
+    {
+      "id": "flinn-engdahl",
+      "tier": "power",
+      "t": "Catalogued worldwide using the 754 numbered Flinn-Engdahl regions",
+      "k": [
+        "flinn-engdahl"
+      ],
+      "n": 1
+    },
+    {
+      "id": "distance-estimate",
+      "tier": "power",
+      "t": "Timing the lag between P-wave and S-wave arrivals lets scientists estimate distance to the epicenter",
+      "k": [
+        "lag time"
+      ],
+      "n": 1
+    },
+    {
+      "id": "san-andreas",
+      "tier": "power",
+      "t": "Common along strike-slip faults, like California’s San Andreas Fault",
+      "k": [
+        "strike-slip",
+        "san andreas"
+      ],
+      "n": 1
+    },
+    {
+      "id": "moment-magnitude",
+      "tier": "power",
+      "t": "A newer moment magnitude scale has largely replaced the Richter scale for very large events",
+      "k": [
+        "moment magnitude scale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "subduction",
+      "tier": "power",
+      "t": "Frequently strikes along subduction zones, where one tectonic plate dives beneath another",
+      "k": [
+        "subduction zone"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pacific-coast",
+      "tier": "power",
+      "t": "In the U.S., the strongest ones strike most often along the Pacific coast",
+      "k": [
+        "pacific coast"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Earthquake, aftershock, or tsunami?",
+    "body": "Earthquakes, aftershocks, and tsunamis are easy to mix up because one often causes the next: a big earthquake under the ocean can trigger a tsunami, and a large earthquake is almost always followed by smaller aftershocks along the same fault. Clues about the ground shaking, fault lines, and seismographs point to the main event itself, not its aftereffects.",
+    "fix": "If the clue is about a wave of water flooding a coastline, the answer is tsunami. If it is about a smaller, later tremor along the same fault, the answer is aftershock. If it is about rock suddenly slipping along a fault and the ground shaking, say earthquake.",
+    "line": "Real answer line: <b><u>Earthquakes</u></b>"
+  },
+  "tests": {
+    "right": [
+      "Earthquakes",
+      "earthquake",
+      "Earthquak",
+      "Quake",
+      "An earthquake"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Volcano",
+      "Tsunami",
+      "Aftershock",
+      "Fault line",
+      "Plate tectonics"
+    ]
+  },
+  "freq": {
+    "rank": 3,
+    "count": 6,
+    "list": "Earth Science"
+  }
+}

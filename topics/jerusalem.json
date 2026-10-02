@@ -1,0 +1,499 @@
+{
+  "id": "jerusalem",
+  "name": "Jerusalem",
+  "mono": "JLM",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Holy city of three faiths · Western Wall and Dome of the Rock",
+  "dates": "David’s capital from c. 1000 BCE",
+  "briefing": "Inside one small walled Old City you can find the Western Wall, where Jews pray beside the remains of their ancient Temple’s platform; the Church of the Holy Sepulchre, where Christians believe Jesus was buried; and the golden Dome of the Rock and al-Aqsa Mosque, sacred to Muslims. King David made Jerusalem his capital around 1000 BCE, and since then Babylonians, Romans, Crusaders, and Saladin have all conquered it.",
+  "answerHtml": "<b><u>Jerusalem</u></b> (accept <u>Yerushalayim</u> or <u>al-Quds</u>; prompt on <u>Temple Mount</u>)",
+  "accept": [
+    "jerusalem",
+    "yerushalayim",
+    "al quds",
+    "quds",
+    "bayt al maqdis"
+  ],
+  "prompt": [
+    "temple mount"
+  ],
+  "reject": [
+    "bethlehem",
+    "nazareth",
+    "mecca",
+    "medina",
+    "tel aviv",
+    "jericho",
+    "hebron",
+    "new jerusalem",
+    "jerusalem delivered",
+    "western wall",
+    "wailing wall",
+    "dome of the rock",
+    "al aqsa",
+    "church of the holy sepulchre",
+    "holy sepulchre",
+    "first temple",
+    "second temple",
+    "solomons temple",
+    "beit hamikdash"
+  ],
+  "tests": {
+    "right": [
+      "Jerusalem",
+      "Jeruselem",
+      "al-Quds",
+      "Yerushalayim",
+      "Quds",
+      "the city of Jerusalem"
+    ],
+    "prompt": [
+      "Temple Mount",
+      "the Temple Mount"
+    ],
+    "wrong": [
+      "Bethlehem",
+      "Mecca",
+      "Medina",
+      "Nazareth",
+      "Tel Aviv",
+      "Jericho",
+      "New Jerusalem",
+      "Western Wall",
+      "Dome of the Rock"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Jerusalem | National Geographic",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=LYa9VPVAJI8",
+      "note": "Short · a first look at the city and its holy sites"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "EXCLUSIVE: A Closer Look Inside Christ’s Unsealed Tomb",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=nkmx_k9wVs0",
+      "note": "Short clip · inside the tomb shrine at the Church of the Holy Sepulchre"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Jerusalem: Three religions, three families | Faith Matters",
+      "source": "DW News",
+      "url": "https://www.youtube.com/watch?v=3inhQffPlAI",
+      "note": "How Jewish, Christian, and Muslim families see their holy city"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Jerusalem",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Jerusalem/275148",
+      "note": "Student encyclopedia · the Old City, its holy sites, and 3,000 years of history"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Jerusalem",
+  "qb": {
+    "q": "Jerusalem",
+    "found": 3,
+    "tip": "Only 3 results at this level and one is really about Solomon’s Temple, so the sample adds 7 Regular High School tossups; read every answer line, because Temple questions only prompt on “Jerusalem.”"
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups (2 Middle School/Easy High School + 7 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A cave called the Well of Souls lies beneath this city’s Foundation Stone, a rock that Jewish tradition identifies as the site of the Temple’s Holy of Holies. The Umayyad caliph Abd al-Malik [“AHB-dul MAH-lik”] built a domed shrine over that rock, completed around 691 CE.",
+      "r": "That shrine, the golden Dome of the Rock, stands on the Temple Mount. For 10 points, name this city holy to Jews, Christians, and Muslims."
+    },
+    {
+      "p": "In Islam’s early years, Muslims faced this city when they prayed, making it the first qibla [“KIB-luh”], before the direction of prayer was changed to the Kaaba in Mecca. Muslims believe Muhammad rode the heavenly steed Buraq [“boo-RAHK”] to this city during his Night Journey.",
+      "r": "Its al-Aqsa Mosque makes it the third-holiest city in Islam. For 10 points, name this city, also home to the Western Wall."
+    },
+    {
+      "p": "Twice a year, the paper prayers that visitors tuck into the cracks of a wall in this city are cleared out and buried on the nearby Mount of Olives. That wall survives from the huge platform that Herod the Great built when he enlarged the Second Temple.",
+      "r": "That Western Wall is the holiest site where Jews may pray. For 10 points, name this city, which Israel calls its capital."
+    },
+    {
+      "p": "A carving on Rome’s Arch of Titus shows soldiers carrying a giant menorah taken from this city in 70 CE. Jews fast on Tisha B’Av [“TISH-uh BAHV”] to mourn the destruction of the two Temples that once stood in this city.",
+      "r": "Its Temple Mount is now home to the Dome of the Rock and the al-Aqsa Mosque. For 10 points, name this city holy to Judaism, Christianity, and Islam."
+    },
+    {
+      "p": "After King Nebuchadnezzar II [“neb-uh-kud-NEZ-er”] of Babylon destroyed this city’s First Temple, many of its people were carried off into exile, an event mourned in Psalm 137. About fifty years later, Cyrus the Great allowed the exiles to return and rebuild.",
+      "r": "The Second Temple was then built on the same hill. For 10 points, name this city where King Solomon built the First Temple."
+    },
+    {
+      "p": "Godfrey of Bouillon [“boo-YOHN”] became the first ruler of a Crusader state named for this city after knights of the First Crusade captured it in July 1099. His brother Baldwin then became that state’s first crowned king.",
+      "r": "Saladin retook this city in 1187, setting off the Third Crusade. For 10 points, name this city that the Crusades fought to control."
+    },
+    {
+      "p": "After defeating Guy of Lusignan [“LOO-zeen-yahn”] at the Horns of Hattin [“hah-TEEN”] in 1187, Saladin captured this city. During the Third Crusade, Richard the Lionheart twice came within a short march of this city but turned back.",
+      "r": "A truce later let Christian pilgrims visit this city. For 10 points, name this holy city, the main target of the Crusades."
+    },
+    {
+      "p": "The Knights Templar took their name from their headquarters on this city’s Temple Mount, in a mosque that Crusaders believed was the Temple of Solomon. The Knights Hospitaller began as a group caring for sick pilgrims at a hospital in this city.",
+      "r": "Both orders later guarded Christians traveling to this city. For 10 points, name this holy city, home to the Church of the Holy Sepulchre."
+    },
+    {
+      "p": "Jews end the Passover Seder [“SAY-der”] and the closing service of Yom Kippur with the words “Next year in” this city. Many Jewish weddings end with breaking a glass, often explained as a way to remember the destroyed Temple in this city.",
+      "r": "Most synagogues are built so that worshippers face this city. For 10 points, name this city, home to the Western Wall."
+    },
+    {
+      "p": "This city’s walled Old City is traditionally divided into Jewish, Christian, Muslim, and Armenian Quarters. The Ottoman sultan Suleiman [“SOO-lay-mahn”] the Magnificent built most of the walls around that Old City in the 1500s, including the Damascus Gate.",
+      "r": "For 10 points, name this city whose Old City holds the Western Wall, the Dome of the Rock, and the Church of the Holy Sepulchre."
+    },
+    {
+      "p": "The Roman emperor Hadrian rebuilt this city as a colony named Aelia Capitolina [“EE-lee-uh kap-ih-toh-LEE-nuh”], and after the Bar Kokhba [“bar KOKH-buh”] revolt, Jews were banned from entering it. Decades earlier, the Roman general Titus had besieged this city in 70 CE.",
+      "r": "That siege ended with the destruction of the Second Temple. For 10 points, name this city, home to the Western Wall."
+    },
+    {
+      "p": "Muslims call a walled hilltop compound in this city the Haram al-Sharif [“hah-RAHM al-shah-REEF”], or “Noble Sanctuary.” The al-Aqsa Mosque in that compound is named for the “Farthest Mosque” that the Quran mentions in its account of Muhammad’s Night Journey.",
+      "r": "Jews call the same hilltop the Temple Mount. For 10 points, name this city, the third-holiest in Islam."
+    },
+    {
+      "p": "This city was held by the Jebusites [“JEB-yoo-sites”] until King David captured its fortress of Zion, which became known as the City of David, and made the city his capital. David then brought the Ark of the Covenant into this city.",
+      "r": "His son Solomon built the First Temple there to house the Ark. For 10 points, name this city, the capital of ancient Israel."
+    },
+    {
+      "p": "Pilgrims in this city visit the Cenacle [“SEN-uh-kul”], an upper room on Mount Zion traditionally said to be where Jesus ate the Last Supper, and walk the Via Dolorosa [“VEE-uh doh-luh-ROH-suh”], the route Christians believe he took while carrying his cross.",
+      "r": "Christians believe Jesus was crucified and buried at the site of its Church of the Holy Sepulchre. For 10 points, name this city that Jesus entered on Palm Sunday."
+    },
+    {
+      "p": "In 1229, Emperor Frederick II regained this city for the Crusaders through a treaty, without fighting a battle. Nine centuries earlier, the emperor Constantine had ordered a great church built in this city at the place where Christians believe Jesus was buried.",
+      "r": "Tradition places Abraham’s near-sacrifice of his son Isaac on its Mount Moriah [“muh-RYE-uh”]. For 10 points, name this city holy to Jews, Christians, and Muslims."
+    }
+  ],
+  "clues": [
+    {
+      "id": "three-faiths",
+      "tier": "giveaway",
+      "t": "A holy city for all three Abrahamic religions: Judaism, Christianity, and Islam",
+      "k": [
+        "abrahamic",
+        "three religions",
+        "holy city"
+      ],
+      "n": 5
+    },
+    {
+      "id": "western-wall",
+      "tier": "giveaway",
+      "t": "Home of the Western Wall (the Wailing Wall), the holiest site where Jews may pray",
+      "k": [
+        "western wall",
+        "wailing wall",
+        "kotel"
+      ],
+      "n": 5
+    },
+    {
+      "id": "temples",
+      "tier": "giveaway",
+      "t": "Site of the two ancient Jewish Temples, the First Temple and the Second Temple",
+      "k": [
+        "first temple",
+        "second temple",
+        "temples"
+      ],
+      "n": 4
+    },
+    {
+      "id": "third-holiest",
+      "tier": "giveaway",
+      "t": "Islam’s third-holiest city, after Mecca and Medina, because of its al-Aqsa Mosque",
+      "k": [
+        "third-holiest",
+        "al-aqsa",
+        "aqsa"
+      ],
+      "n": 3
+    },
+    {
+      "id": "crusades",
+      "tier": "giveaway",
+      "t": "The main target of the medieval Crusades",
+      "k": [
+        "crusades",
+        "crusaders"
+      ],
+      "n": 2,
+      "rabbit": "Crusades"
+    },
+    {
+      "id": "capital",
+      "tier": "giveaway",
+      "t": "Israel calls it its capital, but that status is disputed; Palestinians also claim its eastern part",
+      "k": [
+        "capital",
+        "knesset",
+        "israel"
+      ],
+      "n": 3
+    },
+    {
+      "id": "temple-mount",
+      "tier": "middle",
+      "t": "The Temple Mount, which Muslims call the Noble Sanctuary (Haram al-Sharif), holds the Dome of the Rock and al-Aqsa",
+      "k": [
+        "temple mount",
+        "haram al sharif",
+        "sanctuary"
+      ],
+      "n": 3
+    },
+    {
+      "id": "dome-of-the-rock",
+      "tier": "middle",
+      "t": "The golden Dome of the Rock, completed around 691 CE, covers a sacred rock on the Temple Mount",
+      "k": [
+        "dome of the rock",
+        "golden dome",
+        "691"
+      ],
+      "n": 2
+    },
+    {
+      "id": "binding-of-isaac",
+      "tier": "middle",
+      "t": "Tradition places Mount Moriah, where Abraham nearly sacrificed his son Isaac, at its Temple Mount",
+      "k": [
+        "moriah",
+        "isaac",
+        "binding"
+      ],
+      "n": 4
+    },
+    {
+      "id": "night-journey",
+      "tier": "middle",
+      "t": "Muslims believe Muhammad rode the heavenly steed Buraq here on his Night Journey, then rose to heaven",
+      "k": [
+        "night journey",
+        "buraq",
+        "isra",
+        "miraj"
+      ],
+      "n": 2,
+      "rabbit": "Muhammad"
+    },
+    {
+      "id": "titus-70",
+      "tier": "middle",
+      "t": "Roman soldiers under Titus destroyed the Second Temple in 70 CE",
+      "k": [
+        "titus",
+        "70 ce",
+        "romans"
+      ],
+      "n": 3
+    },
+    {
+      "id": "holy-sepulchre",
+      "tier": "middle",
+      "t": "The Church of the Holy Sepulchre, first built for Emperor Constantine, marks where Christians believe Jesus was crucified and buried",
+      "k": [
+        "holy sepulchre",
+        "sepulcher",
+        "constantine"
+      ],
+      "n": 1
+    },
+    {
+      "id": "via-dolorosa",
+      "tier": "middle",
+      "t": "Pilgrims walk the Via Dolorosa, traditionally Jesus’s path carrying the cross; the Cenacle is the traditional Last Supper room; he entered on Palm Sunday",
+      "k": [
+        "via dolorosa",
+        "cenacle",
+        "last supper",
+        "palm sunday"
+      ],
+      "n": 1
+    },
+    {
+      "id": "city-of-david",
+      "tier": "middle",
+      "t": "King David captured its fortress of Zion from the Jebusites, made it his capital (the City of David), and brought in the Ark",
+      "k": [
+        "jebusites",
+        "city of david",
+        "zion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "solomon",
+      "tier": "middle",
+      "t": "King Solomon built the First Temple there to hold the Ark of the Covenant in its Holy of Holies",
+      "k": [
+        "solomon",
+        "ark",
+        "solomons temple"
+      ],
+      "n": 1
+    },
+    {
+      "id": "foundation-stone",
+      "tier": "power",
+      "t": "Under the Dome of the Rock is the Foundation Stone, with a small cave called the Well of Souls beneath it",
+      "k": [
+        "foundation stone",
+        "well of souls"
+      ],
+      "n": 3
+    },
+    {
+      "id": "first-qibla",
+      "tier": "power",
+      "t": "Islam’s first qibla: early Muslims faced it in prayer before switching to the Kaaba in Mecca",
+      "k": [
+        "first qibla",
+        "qibla",
+        "kaaba"
+      ],
+      "n": 2
+    },
+    {
+      "id": "prayer-notes",
+      "tier": "power",
+      "t": "Prayer notes tucked into the Western Wall’s cracks are cleared out twice a year and buried on the Mount of Olives",
+      "k": [
+        "mount of olives",
+        "notes",
+        "cracks"
+      ],
+      "n": 1
+    },
+    {
+      "id": "herod",
+      "tier": "power",
+      "t": "Herod the Great enlarged the Second Temple’s platform; the Western Wall survives from it",
+      "k": [
+        "herod the great",
+        "herod",
+        "platform"
+      ],
+      "n": 1
+    },
+    {
+      "id": "arch-of-titus",
+      "tier": "power",
+      "t": "Rome’s Arch of Titus shows the Temple’s menorah being carried off; Jews mourn both Temples on Tisha B’Av",
+      "k": [
+        "arch of titus",
+        "menorah",
+        "tisha b’av"
+      ],
+      "n": 1
+    },
+    {
+      "id": "babylon",
+      "tier": "power",
+      "t": "Babylon’s King Nebuchadnezzar II destroyed the First Temple (about 586 BCE); Cyrus the Great later let the exiles return",
+      "k": [
+        "nebuchadnezzar",
+        "babylon",
+        "cyrus",
+        "586"
+      ],
+      "n": 1
+    },
+    {
+      "id": "first-crusade",
+      "tier": "power",
+      "t": "The First Crusade captured it in 1099; Godfrey of Bouillon became the first ruler of the Crusader kingdom named for it",
+      "k": [
+        "first crusade",
+        "godfrey",
+        "1099"
+      ],
+      "n": 2
+    },
+    {
+      "id": "saladin",
+      "tier": "power",
+      "t": "Saladin won the Battle of Hattin and retook it in 1187, setting off the Third Crusade with Richard the Lionheart",
+      "k": [
+        "saladin",
+        "hattin",
+        "1187"
+      ],
+      "n": 2,
+      "rabbit": "Saladin"
+    },
+    {
+      "id": "templars",
+      "tier": "power",
+      "t": "The Knights Templar were named for their headquarters on its Temple Mount; the Knights Hospitaller began at a hospital there",
+      "k": [
+        "knights templar",
+        "templar",
+        "hospitallers"
+      ],
+      "n": 1
+    },
+    {
+      "id": "next-year",
+      "tier": "power",
+      "t": "Jews end the Passover Seder and Yom Kippur with the words “Next year in” this city",
+      "k": [
+        "next year in",
+        "seder",
+        "yom kippur"
+      ],
+      "n": 1,
+      "rabbit": "Passover"
+    },
+    {
+      "id": "old-city",
+      "tier": "power",
+      "t": "Its walled Old City has Jewish, Christian, Muslim, and Armenian Quarters; Suleiman the Magnificent built most of the walls",
+      "k": [
+        "armenian",
+        "suleiman",
+        "old city"
+      ],
+      "n": 1
+    },
+    {
+      "id": "aelia-capitolina",
+      "tier": "power",
+      "t": "Emperor Hadrian rebuilt it as the Roman colony Aelia Capitolina, and Jews were banned from entering after the Bar Kokhba revolt",
+      "k": [
+        "aelia capitolina",
+        "hadrian",
+        "bar kokhba"
+      ],
+      "n": 1
+    },
+    {
+      "id": "frederick-ii",
+      "tier": "power",
+      "t": "In 1229, Emperor Frederick II regained it for the Crusaders by treaty, without a battle",
+      "k": [
+        "frederick ii",
+        "1229",
+        "treaty"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "The city or the Temple?",
+    "body": "Some real tossups about holy sites in this city want the site, not the city. One answer line for the Temple says only “prompt on Jerusalem,” and a middle-school tossup on Solomon’s First Temple says “do not accept or prompt on Second Temple.” Islam clues trip players too: the Kaaba and the Hajj mean Mecca, and the Prophet’s Mosque means Medina.",
+    "fix": "Listen to the last noun: “this city” means Jerusalem, while “this building,” “this structure,” or “this place” with the Holy of Holies, the Ark, or Hanukkah’s oil means the Temple. The first qibla, al-Aqsa, and the Night Journey point to Jerusalem.",
+    "line": "Real answer lines: <b><u>Jerusalem</u></b> [or <u>Yerushalayim</u> or <u>al-Quds</u>; anti-prompt on Temple Mount] and the <b><u>Temple</u></b> [accept First Temple or Second Temple; prompt on Jerusalem]"
+  },
+  "freq": {
+    "rank": 25,
+    "count": 3,
+    "list": "Religion"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "id": "sikhism",
+  "name": "Sikhism",
+  "mono": "SK",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Monotheistic religion from Punjab, India · Founded by Guru Nanak",
+  "dates": "Founded c. 1500",
+  "briefing": "Every day, volunteers at the Golden Temple in Amritsar, India, cook free meals for huge crowds, who sit side by side on the floor no matter their religion or caste. That kitchen, called a langar, shows a core idea of Sikhism: everyone is equal before one God. The faith was founded by Guru Nanak around 1500, and today Sikhs honor their holy book, the Guru Granth Sahib, as their eternal Guru.",
+  "answerHtml": "<b><u>Sikhism</u></b> (or <b><u>Sikhi</u></b>; accept word forms like <u>Sikh</u>s)",
+  "accept": [
+    "sikhism",
+    "sikhi",
+    "sikh",
+    "sikhs",
+    "sikh religion",
+    "sikh faith",
+    "sikh dharma"
+  ],
+  "prompt": [],
+  "reject": [
+    "hinduism",
+    "hindu",
+    "islam",
+    "muslim",
+    "jainism",
+    "jain",
+    "buddhism",
+    "sufism",
+    "khalsa"
+  ],
+  "tests": {
+    "right": [
+      "Sikhism",
+      "Sikhi",
+      "sikhs",
+      "Sikh religion",
+      "Sikism",
+      "the Sikh faith"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Hinduism",
+      "Islam",
+      "Jainism",
+      "Buddhism",
+      "Khalsa",
+      "Hindu"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Is Sikhism? (My Life, My Religion)",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=qXhV3dMxSzE",
+      "note": "Short clip · the basic beliefs, from the BBC’s My Life, My Religion series"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Story of Guru Nanak",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=twkJ1pc5BvU",
+      "note": "Short · the founder’s life story, told for school assemblies"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Story of the Founding of the Sikh Khalsa",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=FRpygummmh8",
+      "note": "Short clip · Guru Gobind Singh, Vaisakhi 1699, and the Khalsa"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Sikhism Explained: Religions in Global History",
+      "source": "HipHughes",
+      "url": "https://www.youtube.com/watch?v=OcwHm2Ph5cw",
+      "note": "A history teacher’s overview of the faith’s beliefs and history"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Sikhism",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Sikhism/353772",
+      "note": "Quick read: Guru Nanak, the ten Gurus, beliefs, the Khalsa, and festivals"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Sikhism",
+  "qb": {
+    "q": "Sikhism",
+    "found": 7,
+    "tip": "All 7 hits are on target, and nearly every one uses Punjab, Guru Nanak, the Adi Granth, or the Five Ks; skip one 2014 line that credits this faith with strict ahimsa, which is really a Jain hallmark."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "On the festival of Vaisakhi [“vy-SAH-kee”] in 1699, this religion’s tenth Guru asked who was willing to give his life for the faith, and five volunteers stepped forward. Those five, honored as the Panj Pyare [“punj pee-AH-ray”] or “Five Beloved Ones,” became the first members of the Khalsa, the order of initiated believers.",
+      "r": "Many of its men wear turbans over uncut hair. For 10 points, name this religion founded by Guru Nanak in Punjab."
+    },
+    {
+      "p": "To name a baby in this religion, a family opens its holy book to a random page, and the child’s name begins with the first letter of the hymn read from that page. Girls are also given the name Kaur [“KOWR”], meaning “princess,” and boys are given Singh, meaning “lion.”",
+      "r": "The holy book is the Guru Granth Sahib. For 10 points, name this faith founded by Guru Nanak."
+    },
+    {
+      "p": "This religion’s holy book opens with the Mul Mantar [“MOOL MUN-ter”], a short creed that begins with the words “Ik Onkar” [“ik OHN-kar”], meaning “One Creator.” Its fifth Guru, Arjan, compiled that book in 1604 and installed it in a temple he had built in Amritsar.",
+      "r": "For 10 points, name this monotheistic religion from Punjab, India, whose followers keep the Five Ks."
+    },
+    {
+      "p": "The founder of this religion vanished for three days while bathing in the Kali Bein [“KAH-lee BAYN”] river, then returned and announced, “There is no Hindu, there is no Muslim.” He then spent years traveling with Bhai Mardana [“BHY mar-DAH-nuh”], a Muslim musician who played a stringed instrument called the rabab.",
+      "r": "For 10 points, name this religion begun by Guru Nanak, whose holiest site is the Golden Temple."
+    },
+    {
+      "p": "This religion’s emblem, the khanda [“KHUN-dah”], shows a double-edged sword set over a ring-shaped weapon called a chakkar, between two curved swords. That emblem decorates the Nishan Sahib [“nee-SHAHN SAH-hib”], a triangular saffron flag that flies on a tall pole outside its houses of worship, called gurdwaras.",
+      "r": "It was founded by Guru Nanak. For 10 points, name this religion whose men often take the last name Singh."
+    },
+    {
+      "p": "In this religion, a reader called a granthi [“GRUN-tee”] looks after the holy book, but any member of the congregation may lead the prayers. During readings, an attendant waves a whisk called a chaur [“CHOWR”] over that book as a sign of respect, and the book is wrapped in decorated cloths when it is closed.",
+      "r": "The tenth Guru declared that book, the Guru Granth Sahib, the final Guru. For 10 points, name this religion of Punjab."
+    },
+    {
+      "p": "This religion’s second leader, Guru Angad [“UNG-gud”], is credited with standardizing the Gurmukhi [“GOOR-moo-kee”] script, which is used to write Punjabi in India. Angad’s wife, Mata Khivi [“KEE-vee”], is honored for running a free kitchen where visitors of any background sit and eat together.",
+      "r": "Those kitchens, called langars, are found at its houses of worship. For 10 points, name this religion whose first Guru was Nanak."
+    },
+    {
+      "p": "This religion’s sixth Guru, Hargobind, wore two swords, miri [“MEE-ree”] and piri [“PEE-ree”], to show that he held both worldly and spiritual authority. Facing this religion’s holiest shrine, Hargobind built the Akal Takht [“uh-KAAL TUKHT”], or “Throne of the Timeless One,” which is still a seat of authority for its community.",
+      "r": "That shrine is the Golden Temple in Amritsar. For 10 points, name this religion whose holy book is the Guru Granth Sahib."
+    },
+    {
+      "p": "In the Amrit Sanchar [“UM-rit sun-CHAR”] ceremony, believers joining this religion’s Khalsa drink sweetened water stirred with a double-edged sword. They promise to follow its code of conduct, the Rehat Maryada [“REH-hut mur-YAH-dah”], and to recite morning prayers called the Five Banis [“BAH-neez”].",
+      "r": "They must also wear a steel bracelet called a kara and keep a wooden comb called a kanga. For 10 points, name this religion founded by Guru Nanak."
+    },
+    {
+      "p": "Hymns by the poet-saint Kabir and the Sufi mystic Sheikh Farid appear in this religion’s scripture, which is arranged mostly by musical modes called ragas. A nonstop reading of all 1,430 pages of that scripture, called an Akhand Path [“UH-khund PAHT”], takes about 48 hours.",
+      "r": "For 10 points, name this religion whose scripture, the Adi Granth, is honored as its eternal Guru."
+    },
+    {
+      "p": "Maharaja Ranjit Singh, the “Lion of Punjab,” had the upper floors of this religion’s holiest shrine covered in gold. That shrine, the Harmandir Sahib [“HUR-mun-deer SAH-hib”], stands in the middle of a sacred pool and has four entrances, a sign that people from every direction are welcome.",
+      "r": "Its kitchen serves free meals to huge crowds every day. For 10 points, name this religion whose holiest site is the Golden Temple in Amritsar."
+    },
+    {
+      "p": "In 2019, a visa-free corridor opened so that pilgrims from India could cross into Pakistan to visit Kartarpur, where this religion’s founder spent his final years. That founder taught three main duties: remember God’s name, earn an honest living, and share with people in need.",
+      "r": "Its followers call God Waheguru [“wah-hay-GOO-roo”]. For 10 points, name this religion founded by Guru Nanak in Punjab."
+    },
+    {
+      "p": "Before his death in 1708, this religion’s tenth Guru announced that there would be no more human Gurus and that its scripture would guide believers forever. That leader, Gobind Singh, had earlier founded the order of initiated believers called the Khalsa.",
+      "r": "Khalsa members keep five articles of faith, including uncut hair and a small sword called a kirpan. For 10 points, name this religion whose holy city is Amritsar."
+    },
+    {
+      "p": "This religion’s third Guru, Amar Das, asked every visitor to eat in his free kitchen before meeting him, and the Mughal emperor Akbar is said to have sat on the floor and eaten there with everyone else. Volunteers still cook free meals at its houses of worship.",
+      "r": "Those kitchens are called langars. For 10 points, name this religion whose male followers often take the name Singh, meaning “lion.”"
+    },
+    {
+      "p": "This religion’s fourth Guru, Ram Das, founded a city and began digging a sacred pool there, and his youngest son and successor, Arjan, built a shrine in the middle of that pool. Arjan is honored as this religion’s first martyr; he died in 1606 while imprisoned by the Mughal emperor Jahangir.",
+      "r": "That city is Amritsar. For 10 points, name this religion whose holiest site there is the Golden Temple."
+    }
+  ],
+  "clues": [
+    {
+      "id": "punjab",
+      "tier": "giveaway",
+      "t": "A monotheistic religion from the Punjab region; most followers live in the Indian state of Punjab",
+      "k": [
+        "punjab",
+        "one god",
+        "india"
+      ],
+      "n": 7
+    },
+    {
+      "id": "guru-nanak",
+      "tier": "giveaway",
+      "t": "Founded by Guru Nanak (1469–1539), the first of ten human Gurus",
+      "k": [
+        "nanak",
+        "ten gurus",
+        "1469"
+      ],
+      "n": 6,
+      "rabbit": "Guru Nanak"
+    },
+    {
+      "id": "golden-temple",
+      "tier": "giveaway",
+      "t": "Holiest site: the Golden Temple, or Harmandir Sahib, in the city of Amritsar",
+      "k": [
+        "golden temple",
+        "amritsar",
+        "harmandir"
+      ],
+      "n": 3,
+      "rabbit": "Golden Temple"
+    },
+    {
+      "id": "turbans",
+      "tier": "giveaway",
+      "t": "Many followers, especially men, wear a turban over uncut hair (kesh)",
+      "k": [
+        "turban",
+        "kesh",
+        "long hair",
+        "dastaar"
+      ],
+      "n": 6
+    },
+    {
+      "id": "five-ks",
+      "tier": "giveaway",
+      "t": "Initiated believers keep the Five Ks, five articles of faith whose names all start with K",
+      "k": [
+        "five ks",
+        "5 ks"
+      ],
+      "n": 5
+    },
+    {
+      "id": "adi-granth",
+      "tier": "middle",
+      "t": "Holy book: the Guru Granth Sahib (Adi Granth), honored as the final, eternal Guru",
+      "k": [
+        "guru granth sahib",
+        "adi granth",
+        "eternal guru",
+        "granth"
+      ],
+      "n": 5,
+      "rabbit": "Guru Granth Sahib"
+    },
+    {
+      "id": "khalsa",
+      "tier": "middle",
+      "t": "The Khalsa: the order of initiated believers, founded in 1699",
+      "k": [
+        "khalsa",
+        "1699"
+      ],
+      "n": 3
+    },
+    {
+      "id": "gobind-singh",
+      "tier": "middle",
+      "t": "Guru Gobind Singh, the 10th Guru, founded the Khalsa and named the holy book the Guru before he died (1708)",
+      "k": [
+        "gobind singh",
+        "10th guru",
+        "tenth guru",
+        "1708"
+      ],
+      "n": 0,
+      "rabbit": "Guru Gobind Singh"
+    },
+    {
+      "id": "kirpan",
+      "tier": "middle",
+      "t": "The kirpan, a small curved sword or dagger, is one of the Five Ks",
+      "k": [
+        "kirpan",
+        "dagger",
+        "sword"
+      ],
+      "n": 4
+    },
+    {
+      "id": "kara-kanga",
+      "tier": "middle",
+      "t": "Other Ks: the kara (steel bracelet), kanga (wooden comb), and kachera (cotton shorts)",
+      "k": [
+        "kara",
+        "kanga",
+        "comb"
+      ],
+      "n": 3
+    },
+    {
+      "id": "singh-kaur",
+      "tier": "middle",
+      "t": "Men take the name Singh (“lion”); women take the name Kaur (“princess”)",
+      "k": [
+        "singh",
+        "kaur"
+      ],
+      "n": 2
+    },
+    {
+      "id": "langar",
+      "tier": "middle",
+      "t": "Langar: a free community kitchen where everyone sits and eats together, whatever their caste or religion",
+      "k": [
+        "langar",
+        "free food",
+        "caste"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gurdwara",
+      "tier": "middle",
+      "t": "Gurdwara (“door to the Guru”): its house of worship",
+      "k": [
+        "gurdwara",
+        "door"
+      ],
+      "n": 1
+    },
+    {
+      "id": "amrit-sanchar",
+      "tier": "power",
+      "t": "Amrit Sanchar: the initiation ceremony, where believers drink amrit, sweetened water stirred with a double-edged sword",
+      "k": [
+        "amrit sanchar",
+        "amrit",
+        "initiation",
+        "baptism"
+      ],
+      "n": 3
+    },
+    {
+      "id": "panj-pyare",
+      "tier": "power",
+      "t": "Panj Pyare (“Five Beloved Ones”): the five volunteers who became the first Khalsa members on Vaisakhi, 1699",
+      "k": [
+        "panj pyare",
+        "vaisakhi",
+        "baisakhi"
+      ],
+      "n": 0,
+      "rabbit": "Vaisakhi"
+    },
+    {
+      "id": "ik-onkar",
+      "tier": "power",
+      "t": "“Ik Onkar” (“One Creator”) begins the Mul Mantar, the first words of the holy book",
+      "k": [
+        "ik onkar",
+        "mool mantar",
+        "onkar"
+      ],
+      "n": 1
+    },
+    {
+      "id": "arjan",
+      "tier": "power",
+      "t": "Guru Ram Das founded Amritsar; his son Guru Arjan, the 5th Guru, built the Harmandir Sahib and compiled the Adi Granth (1604)",
+      "k": [
+        "guru arjan",
+        "ram das",
+        "1604"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-hindu",
+      "tier": "power",
+      "t": "Nanak said “There is no Hindu, there is no Muslim” after vanishing in the Kali Bein river; he traveled with Mardana, a Muslim rabab player",
+      "k": [
+        "no hindu",
+        "kali bein",
+        "mardana",
+        "rabab"
+      ],
+      "n": 1
+    },
+    {
+      "id": "khanda",
+      "tier": "power",
+      "t": "The khanda emblem: a double-edged sword over a ring (chakkar) between two curved swords; it flies on the Nishan Sahib flag",
+      "k": [
+        "khanda",
+        "emblem",
+        "nishan"
+      ],
+      "n": 1
+    },
+    {
+      "id": "naming",
+      "tier": "power",
+      "t": "Naming ceremony: the holy book is opened at random, and the baby’s name starts with the first letter of the hymn",
+      "k": [
+        "first letter",
+        "naming",
+        "random"
+      ],
+      "n": 1
+    },
+    {
+      "id": "granthi",
+      "tier": "power",
+      "t": "A granthi reads and cares for the holy book, but any member may lead prayers; a whisk (chaur) is waved over the book",
+      "k": [
+        "granthi",
+        "chaur",
+        "whisk"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hargobind",
+      "tier": "power",
+      "t": "Guru Hargobind, the 6th Guru, wore two swords, miri and piri (worldly and spiritual power), and built the Akal Takht",
+      "k": [
+        "hargobind",
+        "miri",
+        "piri",
+        "akal takht",
+        "two swords"
+      ],
+      "n": 0
+    },
+    {
+      "id": "angad",
+      "tier": "power",
+      "t": "Guru Angad, the 2nd Guru, standardized the Gurmukhi script, used for the holy book and for Punjabi in India",
+      "k": [
+        "gurmukhi",
+        "angad",
+        "script"
+      ],
+      "n": 0
+    },
+    {
+      "id": "five-banis",
+      "tier": "power",
+      "t": "Initiated believers recite the Five Banis, daily morning prayers that begin with Nanak’s Japji Sahib",
+      "k": [
+        "five banis",
+        "japji",
+        "nitnem"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rehat-maryada",
+      "tier": "power",
+      "t": "The Rehat Maryada is its official code of conduct",
+      "k": [
+        "rehat maryada",
+        "conduct"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kabir-farid",
+      "tier": "power",
+      "t": "Its scripture also holds hymns by Kabir and the Sufi Sheikh Farid; its 1,430 pages are arranged by ragas",
+      "k": [
+        "kabir",
+        "farid",
+        "ragas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ranjit-singh",
+      "tier": "power",
+      "t": "Maharaja Ranjit Singh, the “Lion of Punjab,” covered the Golden Temple’s upper floors in gold; it has four entrances, open to all",
+      "k": [
+        "ranjit singh",
+        "maharaja",
+        "gold"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Indian religion?",
+    "body": "Sikhism, Hinduism, Jainism, and Buddhism all began in South Asia, and all four teach ideas like karma and rebirth, so early buzzes on “this Indian religion” often go wrong. Hearing “guru” is not enough either, because Hindu teachers are called gurus too. And a strict-nonviolence (ahimsa) clue points to Jainism, not Sikhism.",
+    "fix": "Wait for a clue only Sikhism has: Guru Nanak, the ten Gurus, the Guru Granth Sahib (Adi Granth), the Five Ks, the Khalsa, langar, the Golden Temple in Amritsar, or the names Singh and Kaur. Mahavira, the 24 Tirthankaras, and strict ahimsa mean Jainism.",
+    "line": "Real answer lines: <b><u>Sikhism</u></b> [or <b><u>Sikhi</u></b>] and <b><u>Sikh</u></b> (accept word forms like <u>Sikhism</u> or <u>Sikhi</u>)"
+  },
+  "freq": {
+    "rank": 1,
+    "count": 12,
+    "list": "Religion"
+  }
+}

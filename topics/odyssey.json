@@ -1,0 +1,409 @@
+{
+  "id": "odyssey",
+  "name": "Odyssey",
+  "mono": "OD",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Homer’s epic of Odysseus’s trip home · The model for every journey story",
+  "dates": "Composed c. 8th century BCE",
+  "briefing": "After ten years fighting at Troy, the Greek hero Odysseus faces a trip home just as long: ten more years battling monsters, storms, and a vengeful sea god just to reach his island kingdom of Ithaca. Along the way he outsmarts a one-eyed giant, resists an enchantress’s spells, and plugs his crew’s ears against a deadly song. Homer’s _Odyssey_ turned that voyage into the most famous homecoming story ever told.",
+  "answerHtml": "The <b><u>Odyssey</u></b> (or <b><u>Odysseia</u></b>)",
+  "accept": [
+    "the odyssey",
+    "odyssey",
+    "odysseia",
+    "the odysseia"
+  ],
+  "prompt": [],
+  "reject": [
+    "odysseus",
+    "ulysses",
+    "iliad",
+    "the iliad",
+    "aeneid",
+    "the aeneid",
+    "trojan war",
+    "the trojan war",
+    "space odyssey",
+    "a space odyssey"
+  ],
+  "tests": {
+    "right": [
+      "The Odyssey",
+      "Odyssey",
+      "Odysseia",
+      "Odysey",
+      "the odyssey "
+    ],
+    "prompt": [],
+    "wrong": [
+      "Odysseus",
+      "Ulysses",
+      "The Iliad",
+      "Homer",
+      "The Aeneid"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Everything you need to know to read Homer’s “Odyssey”",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=8Z9FQxcCAZ0",
+      "note": "Animated guide to Odysseus’s journey home and the poem’s big ideas"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Troy Story: The Odyssey (2/2)",
+      "source": "OpenLearn from The Open University",
+      "url": "https://www.youtube.com/watch?v=BBGO0T-JE8A",
+      "note": "The Open University’s retelling of the Odyssey, part 2 of its two-part Troy Story"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The science behind the myth: Homer’s “Odyssey”",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=CVo225pUaSA",
+      "note": "What real science might lie behind the poem’s monsters"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "CLEAN Classics Summarized: The Odyssey",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=kosS54qL9QY",
+      "note": "Clean version of a funny illustrated retelling of the whole plot (some monster and battle scenes)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "The Odyssey",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/the-odyssey",
+      "note": "Study guide: background and key facts, with plot summary and character pages"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Odyssey",
+  "qb": {
+    "q": "Odyssey",
+    "found": 7,
+    "tip": "Giveaway lines were often cut off by the fetch, but Scylla and Charybdis showed up in almost every sample tossup — it’s the single most reliable stock clue."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In this epic, its protagonist pours libations of blood to summon spirits in the underworld, including the prophet Tiresias [“ty-REE-see-us”] and his own mother. A witch on the island of Aeaea [“ay-EE-uh”] sends him there after turning his crew into pigs.",
+      "r": "That witch, Circe, is resisted thanks to an herb called moly given to him by Hermes. For 10 points, name this epic poem about a Greek king’s ten-year voyage home from the Trojan War, written by Homer."
+    },
+    {
+      "p": "Some of this poem’s sailors eat a memory-erasing fruit and have to be dragged back to their ship by force. Cannibal giants called the Laestrygonians [“less-trih-GO-nee-unz”] later hurl boulders that sink all but one of its hero’s ships.",
+      "r": "That hero also loses six men to a six-headed monster named Scylla while steering past a whirlpool, Charybdis. For 10 points, name this epic poem about a Greek king’s long voyage home, by Homer."
+    },
+    {
+      "p": "This poem opens years after the Trojan War with its hero’s son sailing off to question old King Nestor and then Menelaus [“men-uh-LAY-us”] for news of his missing father. Spartan queen Helen, whose kidnapping started that war, appears at Menelaus’s court as well.",
+      "r": "That son, Telemachus, later stands beside his disguised father, who strings an old bow and shoots an arrow through twelve axe heads. For 10 points, name this epic in which Telemachus’s father finally comes home to Ithaca."
+    },
+    {
+      "p": "A nymph named Calypso [“kuh-LIP-so”] keeps this epic’s hero on her island of Ogygia for seven years, offering him immortality if he’ll stay forever. He refuses, builds a raft, and is later shipwrecked near the Phaeacian [“fee-AY-shun”] court.",
+      "r": "There, princess Nausicaa [“naw-SIK-ay-uh”] finds him and brings him to her father’s palace, where he tells his whole story so far. For 10 points, name this epic poem by Homer about that storyteller’s trip home from Troy."
+    },
+    {
+      "p": "This epic’s hero tells a Cyclops his name is “Nobody,” blinds the giant, then escapes his cave by clinging to the underside of sheep. That trick earns the lasting fury of the sea god Poseidon, father of the Cyclops he blinded.",
+      "r": "Poseidon then wrecks the hero’s raft just before he reaches the Phaeacians. For 10 points, name this epic poem in which a cunning Greek king battles a one-eyed giant on his way home from the Trojan War."
+    },
+    {
+      "p": "King Aeolus [“EE-oh-lus”] gives this epic’s hero a bag holding every wind except a favorable one; his crew opens it out of greed just as Ithaca comes into view, blowing them straight back out to sea. Later, the witch Circe turns that crew into pigs.",
+      "r": "Circe is resisted with an herb called moly before she becomes a helpful host instead. For 10 points, name this Homeric epic about a king’s ten-year struggle to sail home from Troy."
+    },
+    {
+      "p": "This poem’s heroine delays a palace full of suitors for years by weaving, then secretly unraveling, a burial shroud meant for her father-in-law Laertes [“lay-ER-teez”]. She finally agrees to marry whoever can string her husband’s massive bow.",
+      "r": "That husband, in disguise as a beggar, wins his own contest and then slaughters the suitors with his son’s help. For 10 points, name this epic about Penelope’s long wait for her husband to return from the Trojan War."
+    },
+    {
+      "p": "An old nurse named Eurycleia [“yur-ih-KLY-uh”] recognizes this epic’s disguised hero by a scar on his leg while washing a beggar’s feet, but he silences her before she can give away the secret. Even his own dog, Argos, recognizes him and then dies of old age.",
+      "r": "His wife still isn’t convinced until he describes the bed he built around a living olive tree. For 10 points, name this epic poem about a king’s disguised return to Ithaca."
+    },
+    {
+      "p": "This epic’s hero disguises himself as a beggar with help from Athena and stays first with a loyal swineherd named Eumaeus [“yoo-MEE-us”]. Years earlier, his remaining crew had been destroyed by one of Zeus’s own thunderbolts.",
+      "r": "Zeus punished that crew for eating the sacred cattle of the sun god Helios on the island of Thrinacia [“thrih-NAY-shuh”]. For 10 points, name this Homeric epic in which only its hero survives to reach home."
+    },
+    {
+      "p": "This epic’s hero ties himself to his ship’s mast and plugs his crew’s ears with beeswax so they can sail safely past a deadly, beautiful song. Shortly after that, the same ship barely escapes a six-headed monster and a ship-swallowing whirlpool in a narrow strait.",
+      "r": "That song belongs to the Sirens, who lure sailors to their deaths on rocky shores. For 10 points, name this epic poem about a Greek king’s voyage home from the Trojan War, written by Homer."
+    },
+    {
+      "p": "A council of gods, minus an angry sea god, decides to finally let this epic’s hero leave the nymph Calypso’s island after seven years. Messenger god Hermes delivers the order, and the hero builds a raft to sail off alone.",
+      "r": "Storms sent by that angry sea god, Poseidon, wreck the raft before friendly Phaeacian sailors take him the rest of the way home. For 10 points, name this epic about a king’s ten-year journey back to Ithaca."
+    },
+    {
+      "p": "This epic’s hero tells much of his own backstory in flashback at a foreign king’s court, describing how cannibal Laestrygonians [“less-trih-GO-nee-unz”] sank eleven of his twelve ships and how a bag of winds blew his fleet off course just before reaching home.",
+      "r": "He also recalls resisting a witch’s magic with a protective herb called moly. For 10 points, name this Homeric epic told partly in flashback by its well-traveled Greek hero."
+    },
+    {
+      "p": "In this epic, the goddess Athena disguises herself as a family friend named Mentor to encourage a young prince to sail out and gather news of his missing father from old war veterans.",
+      "r": "That prince, Telemachus, later helps his father fight the suitors crowding his mother’s palace. For 10 points, name this epic about Telemachus’s father’s return from the Trojan War."
+    },
+    {
+      "p": "Some of this epic’s sailors taste a fruit that erases all memory of home, and their captain has to physically drag them away. Soon after, a one-eyed son of Poseidon traps the same crew inside his cave and eats several of them.",
+      "r": "That giant, the Cyclops Polyphemus [“pol-ee-FEE-mus”], is blinded and tricked by a hero who calls himself “Nobody.” For 10 points, name this epic about a Greek king’s long, monster-filled trip home."
+    },
+    {
+      "p": "At the very end of this epic, the families of the suitors nearly start a civil war on Ithaca before Athena steps in to force a peace. Earlier, the hero reunites with his own elderly father, who is working in an orchard.",
+      "r": "That father, Laertes [“lay-ER-teez”], helps fight off the suitors’ relatives one last time. For 10 points, name this epic poem by Homer that ends with a king finally, fully restored to his home in Ithaca."
+    }
+  ],
+  "clues": [
+    {
+      "id": "homer-trojan-war",
+      "tier": "giveaway",
+      "t": "Epic poem by Homer about a Greek king’s ten-year voyage home after the Trojan War",
+      "k": [
+        "homer",
+        "trojan war"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ithaca-king",
+      "tier": "giveaway",
+      "t": "Its hero is the clever king of the small Greek island of Ithaca",
+      "k": [
+        "ithaca",
+        "clever king"
+      ],
+      "n": 1
+    },
+    {
+      "id": "penelope-suitors",
+      "tier": "giveaway",
+      "t": "Wife Penelope fends off a palace full of suitors who want to marry her and take the throne",
+      "k": [
+        "penelope",
+        "suitors"
+      ],
+      "n": 1
+    },
+    {
+      "id": "telemachus",
+      "tier": "giveaway",
+      "t": "Son Telemachus sails off for news of his father, then helps reclaim their palace",
+      "k": [
+        "telemachus",
+        "palace"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cyclops-blinded",
+      "tier": "giveaway",
+      "t": "Blinds the one-eyed giant Cyclops Polyphemus [“pol-ee-FEE-mus”] to escape his cave",
+      "k": [
+        "cyclops",
+        "polyphemus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sirens",
+      "tier": "middle",
+      "t": "Ties himself to the mast and plugs his crew’s ears with wax to survive the deadly song of the Sirens",
+      "k": [
+        "sirens",
+        "wax",
+        "mast"
+      ],
+      "n": 1
+    },
+    {
+      "id": "circe-moly",
+      "tier": "middle",
+      "t": "The witch Circe turns his crew into pigs; he resists her spell using a protective herb called moly",
+      "k": [
+        "circe",
+        "pigs",
+        "moly"
+      ],
+      "n": 3
+    },
+    {
+      "id": "scylla-charybdis",
+      "tier": "middle",
+      "t": "Must sail between the monster Scylla and the whirlpool Charybdis [“kuh-RIB-dis”], losing six men to Scylla",
+      "k": [
+        "scylla",
+        "charybdis"
+      ],
+      "n": 6,
+      "rabbit": "Scylla and Charybdis"
+    },
+    {
+      "id": "aeolus-winds",
+      "tier": "middle",
+      "t": "King Aeolus [“EE-oh-lus”] gives him a bag of winds that his crew foolishly opens near home",
+      "k": [
+        "aeolus",
+        "bag of winds"
+      ],
+      "n": 1
+    },
+    {
+      "id": "calypso",
+      "tier": "middle",
+      "t": "Spends seven years on the nymph Calypso’s island of Ogygia, who offers him immortality to stay",
+      "k": [
+        "calypso",
+        "ogygia",
+        "immortality"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nausicaa-phaeacians",
+      "tier": "middle",
+      "t": "Princess Nausicaa [“naw-SIK-ay-uh”] finds him shipwrecked and brings him to her father’s Phaeacian court",
+      "k": [
+        "nausicaa",
+        "phaeacian"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bow-contest",
+      "tier": "middle",
+      "t": "Wins a contest by stringing his own great bow and shooting an arrow through twelve axe heads",
+      "k": [
+        "bow",
+        "axe heads",
+        "contest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "argos-dog",
+      "tier": "middle",
+      "t": "His old dog, Argos, recognizes him after twenty years away and then dies",
+      "k": [
+        "argos",
+        "dog"
+      ],
+      "n": 0
+    },
+    {
+      "id": "helios-cattle",
+      "tier": "power",
+      "t": "His crew is destroyed by one of Zeus’s thunderbolts after eating the sacred cattle of the sun god Helios on the island of Thrinacia [“thrih-NAY-shuh”]",
+      "k": [
+        "helios",
+        "cattle",
+        "thrinacia"
+      ],
+      "n": 3
+    },
+    {
+      "id": "penelope-shroud",
+      "tier": "power",
+      "t": "Penelope delays the suitors for years by weaving, then secretly unraveling, a burial shroud for her father-in-law Laertes",
+      "k": [
+        "shroud",
+        "weaving",
+        "laertes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "eurycleia-scar",
+      "tier": "power",
+      "t": "The old nurse Eurycleia [“yur-ih-KLY-uh”] recognizes him by a scar on his leg while washing a disguised beggar’s feet",
+      "k": [
+        "eurycleia",
+        "scar",
+        "beggar"
+      ],
+      "n": 1
+    },
+    {
+      "id": "olive-tree-bed",
+      "tier": "power",
+      "t": "Penelope finally confirms his identity by testing his knowledge of their bed, built around a living olive tree",
+      "k": [
+        "bed",
+        "olive tree"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobody-trick",
+      "tier": "power",
+      "t": "Tricks the Cyclops by calling himself “Nobody,” then blinds him with a sharpened, fire-hardened stake",
+      "k": [
+        "nobody",
+        "stake",
+        "blinds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poseidon-fury",
+      "tier": "power",
+      "t": "Earns the sea god Poseidon’s lasting fury by blinding Poseidon’s own son, the Cyclops, and then boasting about it",
+      "k": [
+        "poseidon",
+        "fury"
+      ],
+      "n": 0
+    },
+    {
+      "id": "underworld-tiresias",
+      "tier": "power",
+      "t": "Travels to the underworld and pours libations of blood to summon the ghost of the prophet Tiresias [“ty-REE-see-us”]",
+      "k": [
+        "underworld",
+        "tiresias"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lotus-eaters",
+      "tier": "power",
+      "t": "Some of his men eat the memory-erasing fruit of the Lotus-Eaters and have to be dragged back to the ships",
+      "k": [
+        "lotus-eaters",
+        "memory"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laestrygonians",
+      "tier": "power",
+      "t": "Cannibal giants called the Laestrygonians [“less-trih-GO-nee-unz”] destroy all but one of his ships by hurling boulders",
+      "k": [
+        "laestrygonians",
+        "cannibal giants"
+      ],
+      "n": 1
+    },
+    {
+      "id": "telemachus-journey",
+      "tier": "power",
+      "t": "The poem opens years after the Trojan War with his son traveling to question Nestor and Menelaus [“men-uh-LAY-us”] for news of him",
+      "k": [
+        "nestor",
+        "menelaus"
+      ],
+      "n": 0,
+      "rabbit": "Telemachus"
+    }
+  ],
+  "trap": {
+    "title": "The poem, or the man?",
+    "body": "This answer line is the NAME OF THE POEM, not its hero. The hero is Odysseus—whose Latin name, confusingly, is Ulysses. And “Ulysses” is also the title of a completely different (and famously difficult) 1922 novel by James Joyce. Three names, three different correct answers to three different questions.",
+    "fix": "If the question asks you to “name this epic poem” or “name this work,” the answer is the Odyssey itself. If it asks for the Greek king or hero by name, that’s Odysseus (or Ulysses) — a different answer entirely, and neither one is the James Joyce novel.",
+    "line": "Real answer line: The <b><u>Odyssey</u></b> (accept <u>Odysseia</u>)."
+  }
+}

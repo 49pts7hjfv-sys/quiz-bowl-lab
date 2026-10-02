@@ -1,0 +1,401 @@
+{
+  "id": "evolution",
+  "name": "Evolution",
+  "mono": "EVO",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Change in species over generations · Driven mainly by natural selection",
+  "dates": "On the Origin of Species published 1859",
+  "briefing": "Evolution is the gradual change in a population’s inherited traits across many generations, the process that explains why Earth’s millions of living things are all related yet so different. Charles Darwin proposed that it happens mainly through natural selection, in which organisms with helpful traits survive and reproduce more often, slowly reshaping a population over time. Darwin built his case partly on finch beaks he studied on the Galápagos Islands.",
+  "answerHtml": "<b><u>Evolution</u></b> (accept <u>theory of evolution</u>; do not accept “natural selection” or “speciation”)",
+  "accept": [
+    "evolution",
+    "biological evolution",
+    "theory of evolution",
+    "evolutionary theory"
+  ],
+  "prompt": [],
+  "reject": [
+    "natural selection",
+    "speciation",
+    "creationism",
+    "intelligent design",
+    "adaptation",
+    "mutation",
+    "genetic drift",
+    "stellar evolution",
+    "revolution"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Evolution",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=fI7IV3x-dGI",
+      "note": "Cartoon intro to how populations change over many generations"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Natural Selection",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=7VM9YxmULuo",
+      "note": "Cartoon explainer on how helpful traits spread through a population"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Myths and misconceptions about evolution",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=mZt1Gn0R22Q",
+      "note": "Animated lesson that clears up common mix-ups about evolution"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Natural Selection: Life’s Way of Stayin’ Alive: Crash Course Biology #13",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=i-VeKZeyHZs",
+      "note": "How natural selection works, from the newer Crash Course Biology series (older end)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Evolution: It’s a Thing - Crash Course Biology #20",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=P3GagfbA2vo",
+      "note": "The evidence for evolution, from fossils to anatomy to DNA (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Evolution Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Evolution",
+      "note": "Quick read: evidence for evolution, Darwin’s theory, and the history of the idea"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Evolution",
+  "qb": {
+    "q": "evolution",
+    "found": 4,
+    "tip": "Had to filter hard: the word “evolution” also matches tossups on “rotational motion” (an accepted word form is “revolution”) and on the closely related but separate answer lines “natural selection” and “speciation,” which real packets consistently prompt away from this broader term."
+  },
+  "sample": {
+    "n": 4,
+    "note": "the 4 real QBReader tossups for this answer line (3 Middle School/Easy High School + 1 Regular High School, power-marked); most other “evolution”-matching results were actually dedicated “natural selection” or “speciation” tossups and were excluded, so several clues below are well-established textbook facts (marked n: 0) rather than coming from the sample"
+  },
+  "tossups": [
+    {
+      "p": "According to the Hardy-Weinberg principle, a population would stop undergoing this process entirely if five conditions were all met at once, including random mating, an infinite population size, and no migration between groups. Violating even one of those conditions is enough to drive this process forward.",
+      "r": "Charles Lyell’s _Principles of Geology_ convinced Charles Darwin that Earth was old enough for this gradual process to reshape life. For 10 points, name this process by which species change across many generations."
+    },
+    {
+      "p": "Jean-Baptiste Lamarck wrongly proposed that this process was driven mainly by the “use” or “disuse” of an organism’s organs during its own lifetime. Reading Charles Lyell’s _Principles of Geology_ convinced one later scientist that Earth was old enough for this gradual process to reshape life over millions of years.",
+      "r": "Studying finch beaks on the Galápagos Islands helped Charles Darwin work out how this process happens. For 10 points, name this process that changes a species’ inherited traits over many generations."
+    },
+    {
+      "p": "Richard Dawkins promoted a gene-centered view of this process and coined the term “meme” to describe a cultural, idea-based form of it. This process drives the “convergent” development of similar traits in unrelated species, such as the wings of birds and bats.",
+      "r": "Darwin proposed that this process happens mainly through natural selection. For 10 points, name this gradual process by which species change over generations."
+    },
+    {
+      "p": "Naturalist Alfred Russel Wallace independently worked out a theory of this process while studying wildlife in the Malay Archipelago, arriving at conclusions strikingly close to another scientist’s unpublished ideas. The two men’s papers on this process were presented jointly in 1858, pushing the more famous scientist to finally publish his own book the next year.",
+      "r": "That scientist, Charles Darwin, collected finches on the Galápagos Islands whose varied beaks became famous evidence for this process. For 10 points, name this process described in Darwin’s _On the Origin of Species_."
+    },
+    {
+      "p": "Philosopher Herbert Spencer coined the phrase “survival of the fittest” to describe this process, a phrase Charles Darwin later adopted himself. This process can speed up dramatically in a lab or hospital setting, as when bacteria rapidly gain resistance to antibiotics over just a few generations.",
+      "r": "Darwin proposed that this gradual process happens mainly through natural selection acting on random variation. For 10 points, name this process by which species change across generations."
+    },
+    {
+      "p": "In the mid-1900s, the “modern synthesis” combined Darwin’s original ideas about this process with Gregor Mendel’s laws of inheritance, finally explaining exactly how new traits get passed on. This process requires heritable variation within a population for natural selection to act upon at all.",
+      "r": "Mutations, genetic drift, gene flow, and natural selection are the four main mechanisms that drive this process. For 10 points, name this process by which populations of organisms change over successive generations."
+    },
+    {
+      "p": "A famous case study of peppered moths in industrial England showed this process in action within just a few human generations, as soot-darkened trees favored darker-colored moths over lighter ones. This same process can be observed happening quickly whenever a population faces a sudden new source of pressure on its survival.",
+      "r": "Charles Darwin proposed that this process happens mainly through natural selection. For 10 points, name this process that changes a population’s inherited traits over time."
+    },
+    {
+      "p": "Bacteria exposed to antibiotics can undergo a fast, observable version of this process within a human lifetime, as drug-resistant strains survive and multiply while others die off. Breeders steer this process on purpose by choosing which plants or animals get to reproduce, a practice called artificial selection.",
+      "r": "Charles Darwin proposed natural selection as the main driver of this gradual process. For 10 points, name this process that reshapes a species’ inherited traits across generations."
+    },
+    {
+      "p": "Unrelated species independently developing strikingly similar traits, like dolphins and sharks both growing streamlined fins, is called the “convergent” form of this process. A “divergent” version of this process instead produces increasingly different traits among related populations, such as Darwin’s famous finches.",
+      "r": "Charles Lyell’s ideas about Earth’s great age helped convince Darwin that this slow process had enough time to work. For 10 points, name this process that changes species over long stretches of time."
+    },
+    {
+      "p": "Because every living thing ultimately shares common ancestors, scientists draw branching diagrams called phylogenetic trees to map out the history of this process. Shared features across very different living things, from the genetic code to basic cell structures, are often cited as strong evidence that this process has occurred.",
+      "r": "Charles Darwin described this process as “descent with modification” in his most famous book. For 10 points, name this process that explains how today’s millions of species are all related."
+    },
+    {
+      "p": "Layers of fossils showing gradual change in similar body shapes over millions of years make up the fossil record, often cited as strong evidence for this process. Comparing similar bone structures across very different animals, like a bat’s wing and a human arm, is called comparative anatomy, another classic line of evidence for this process.",
+      "r": "Charles Darwin spent years gathering evidence for this process before finally publishing his ideas. For 10 points, name this process that gradually changes species across generations."
+    },
+    {
+      "p": "A young naturalist aboard the survey ship HMS _Beagle_ spent years collecting specimens across South America and the Pacific, building the evidence base for a famous theory about this process. Differences among finch beaks on the Galápagos Islands later became one of this scientist’s most famous pieces of evidence.",
+      "r": "That naturalist, Charles Darwin, proposed that this process happens mainly through natural selection. For 10 points, name this process, the subject of Darwin’s 1859 book _On the Origin of Species_."
+    },
+    {
+      "p": "Charles Darwin originally called this process “descent with modification” in the book that introduced his theory to the world. Alfred Russel Wallace independently reached similar conclusions about this process, and the two scientists’ papers were first presented together in 1858.",
+      "r": "This process is driven mainly by natural selection, in which organisms with helpful traits survive and reproduce more often. For 10 points, name this process, described in Darwin’s _On the Origin of Species_."
+    },
+    {
+      "p": "Four main mechanisms drive this process: natural selection, genetic drift, gene flow between populations, and new mutations arising in DNA. The Hardy-Weinberg principle describes the unusual, idealized conditions under which none of these mechanisms would act and a population would stop undergoing this process altogether.",
+      "r": "Charles Darwin proposed that this process happens mainly through natural selection, acting on random variation across generations. For 10 points, name this process by which species change over time."
+    },
+    {
+      "p": "This process explains why every living thing on Earth, from bacteria to blue whales, is related yet so different from one another. It happens when a population’s inherited traits gradually change across many generations, often because individuals with helpful traits survive and reproduce more successfully.",
+      "r": "Charles Darwin described this process in his 1859 book _On the Origin of Species_, proposing natural selection as its main driver. For 10 points, name this gradual process by which species change over time."
+    }
+  ],
+  "clues": [
+    {
+      "id": "trait-change-generations",
+      "tier": "giveaway",
+      "t": "A population’s inherited traits change gradually across many generations",
+      "k": [
+        "inherited traits",
+        "generations"
+      ],
+      "n": 3
+    },
+    {
+      "id": "natural-selection-driver",
+      "tier": "giveaway",
+      "t": "Driven mainly by natural selection, in which organisms with helpful traits survive and reproduce more often",
+      "k": [
+        "natural selection"
+      ],
+      "n": 4
+    },
+    {
+      "id": "darwin-origin",
+      "tier": "giveaway",
+      "t": "Described by Charles Darwin in his 1859 book _On the Origin of Species_",
+      "k": [
+        "charles darwin",
+        "origin of species"
+      ],
+      "n": 3
+    },
+    {
+      "id": "explains-diversity",
+      "tier": "giveaway",
+      "t": "Explains the full diversity of life on Earth, since every species is related yet different",
+      "k": [
+        "diversity",
+        "related"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galapagos-finches",
+      "tier": "middle",
+      "t": "Darwin studied differences among finch beaks on the Galápagos Islands as key evidence",
+      "k": [
+        "galapagos",
+        "finch beaks"
+      ],
+      "n": 3
+    },
+    {
+      "id": "descent-with-modification",
+      "tier": "middle",
+      "t": "Darwin originally called this idea “descent with modification” in his famous book",
+      "k": [
+        "descent with modification"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lyell-geology",
+      "tier": "middle",
+      "t": "Charles Lyell’s _Principles of Geology_ convinced Darwin Earth was old enough for this slow process",
+      "k": [
+        "lyell",
+        "principles of geology"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lamarck",
+      "tier": "middle",
+      "t": "Jean-Baptiste Lamarck wrongly thought this was driven by the use or disuse of organs",
+      "k": [
+        "lamarck",
+        "use or disuse"
+      ],
+      "n": 2
+    },
+    {
+      "id": "convergent-form",
+      "tier": "middle",
+      "t": "A “convergent” form happens when unrelated species independently develop similar traits",
+      "k": [
+        "convergent"
+      ],
+      "n": 2
+    },
+    {
+      "id": "wallace",
+      "tier": "middle",
+      "t": "Alfred Russel Wallace independently worked out the same basic theory as Darwin",
+      "k": [
+        "alfred russel wallace"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hardy-weinberg",
+      "tier": "middle",
+      "t": "The Hardy-Weinberg principle describes conditions under which a population would stop changing at all",
+      "k": [
+        "hardy-weinberg"
+      ],
+      "n": 1
+    },
+    {
+      "id": "beagle-voyage",
+      "tier": "middle",
+      "t": "Darwin gathered evidence for his theory during a long survey voyage on the HMS _Beagle_",
+      "k": [
+        "hms beagle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dawkins-meme",
+      "tier": "power",
+      "t": "Richard Dawkins promoted a gene-centered view and coined “meme” for a cultural form of this process",
+      "k": [
+        "richard dawkins",
+        "meme"
+      ],
+      "n": 1
+    },
+    {
+      "id": "spencer-fittest",
+      "tier": "power",
+      "t": "Herbert Spencer, not Darwin, actually first coined the phrase “survival of the fittest”",
+      "k": [
+        "herbert spencer",
+        "survival of the fittest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "modern-synthesis",
+      "tier": "power",
+      "t": "The “modern synthesis” combined Darwin’s ideas with Gregor Mendel’s laws of inheritance in the mid-1900s",
+      "k": [
+        "modern synthesis",
+        "mendel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-mechanisms",
+      "tier": "power",
+      "t": "Four mechanisms drive it: natural selection, genetic drift, gene flow, and mutation",
+      "k": [
+        "genetic drift",
+        "gene flow",
+        "mutation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "peppered-moth",
+      "tier": "power",
+      "t": "Dark peppered moths outsurviving light ones on soot-darkened trees in industrial England is a classic observed case",
+      "k": [
+        "peppered moths"
+      ],
+      "n": 0
+    },
+    {
+      "id": "antibiotic-resistance",
+      "tier": "power",
+      "t": "Bacteria gaining antibiotic resistance within a human lifetime is a fast, modern example",
+      "k": [
+        "antibiotic resistance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "artificial-selection",
+      "tier": "power",
+      "t": "Breeders steer it on purpose by choosing which animals or plants reproduce, a practice called artificial selection",
+      "k": [
+        "artificial selection",
+        "breeders"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fossil-record",
+      "tier": "power",
+      "t": "Layers of fossils showing gradual change over millions of years make up the fossil record",
+      "k": [
+        "fossil record"
+      ],
+      "n": 0
+    },
+    {
+      "id": "comparative-anatomy",
+      "tier": "power",
+      "t": "Similar bone structures across very different animals, like a bat wing and a human arm, support a field called comparative anatomy",
+      "k": [
+        "comparative anatomy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "common-descent",
+      "tier": "power",
+      "t": "Because all life shares common ancestors, scientists map it using branching phylogenetic trees",
+      "k": [
+        "phylogenetic trees",
+        "common ancestors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wallace-1858",
+      "tier": "power",
+      "t": "Darwin and Wallace’s papers on this theory were first presented jointly in 1858",
+      "k": [
+        "1858"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Evolution, or one specific mechanism?",
+    "body": "Natural selection and speciation are specific, separate real quiz bowl answer lines, not just other names for this broader process. Dedicated tossups on natural selection or speciation routinely prompt a player who says this broader term, asking for something more specific, though one easier tossup on this very topic accepted natural selection before those words were read, since Darwin’s mechanism and the big-picture process are so tightly linked.",
+    "fix": "If the clues describe one single mechanism very specifically (organisms with helpful traits surviving and reproducing more, or two populations splitting into separate species), give that specific term. If the clues describe the big picture, change across many generations, Darwin, Origin of Species, give this broader answer.",
+    "line": "Real answer line: <b><u>Evolution</u></b> (do not accept “natural selection” or “speciation”; one easier real tossup accepted natural selection only before those words were read)"
+  },
+  "tests": {
+    "right": [
+      "Evolution",
+      "evolution",
+      "Evolotion",
+      "Biological Evolution"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Natural Selection",
+      "Speciation",
+      "Creationism",
+      "Mutation",
+      "Genetic Drift",
+      "Revolution"
+    ]
+  },
+  "freq": {
+    "rank": 26,
+    "count": 3,
+    "list": "Biology"
+  }
+}

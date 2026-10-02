@@ -1,0 +1,508 @@
+{
+  "id": "franklin-roosevelt",
+  "name": "Franklin Delano Roosevelt",
+  "mono": "FDR",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "32nd U.S. President · New Deal & World War II",
+  "dates": "1882–1945",
+  "briefing": "Franklin Delano Roosevelt is the only president ever elected four times. Polio left him unable to walk on his own, yet he led America through two of its biggest crises: the Great Depression, which he fought with his New Deal, and World War II. He kept the country calm by talking to families over the radio in his “fireside chats.”",
+  "answerHtml": "<b><u>F</u></b>ranklin Delano <b><u>Roosevelt</u></b> (accept <b><u>FDR</u></b>; prompt on “Roosevelt”)",
+  "accept": [
+    "franklin delano roosevelt",
+    "franklin d roosevelt",
+    "franklin roosevelt",
+    "fdr",
+    "f d r",
+    "f roosevelt"
+  ],
+  "prompt": [
+    "roosevelt",
+    "franklin",
+    "president roosevelt",
+    "franklin delano",
+    "delano roosevelt"
+  ],
+  "reject": [
+    "theodore roosevelt",
+    "teddy roosevelt",
+    "teddy",
+    "theodore",
+    "tr",
+    "t roosevelt",
+    "eleanor roosevelt",
+    "eleanor",
+    "benjamin franklin",
+    "ben franklin"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Franklin D. Roosevelt | 60-Second Presidents",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=QFJB4--Fl3Q",
+      "note": "1 min · his whole life in one minute"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The First 100 Days",
+      "source": "FDR Presidential Library",
+      "url": "https://www.youtube.com/watch?v=RODFpi61wpk",
+      "note": "Short · the bank holiday and the first New Deal laws"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Attack on Pearl Harbor",
+      "source": "FDR Presidential Library",
+      "url": "https://www.youtube.com/watch?v=v-h97DnI2Kk",
+      "note": "Short · archival film and photos from December 7, 1941"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "FDR’s “Day of Infamy” Speech to Congress",
+      "source": "Archival film (PeriscopeFilm)",
+      "url": "https://www.youtube.com/watch?v=YhtuMrMVJDk",
+      "note": "About 8 min · the real speech, December 8, 1941"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The New Deal (#34)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=6bMq9Ek6jnA",
+      "note": "15 min · the alphabet agencies, supporters, and critics"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The Great Depression (#33)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=GCQfMWAikyU",
+      "note": "The crisis FDR inherited from Herbert Hoover"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "FDR’s Path to the White House (1882–1933)",
+      "source": "American Experience | PBS",
+      "url": "https://www.youtube.com/watch?v=FJaECItXCqk",
+      "note": "Full documentary · long, good for a weekend"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "President Franklin D. Roosevelt",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/franklindroosevelt.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+  "qb": {
+    "q": "Franklin D",
+    "found": 4,
+    "tip": "Typing “Franklin D” finds both “Franklin Delano” and “Franklin D.” answer lines. All four results mention court-packing!"
+  },
+  "sample": {
+    "n": 4,
+    "note": "the 4 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "After the “Four Horsemen” on the Supreme Court kept striking down his programs, this president proposed adding up to six new justices to the Court. Justice Owen Roberts’s vote in a 1937 minimum-wage case became known as “the switch in time that saved nine” because it weakened support for this man’s plan.",
+      "r": "His New Deal fought the Great Depression. For 10 points, name this only president elected four times."
+    },
+    {
+      "p": "While vacationing on Campobello Island in 1921, this man became paralyzed by an illness diagnosed as polio. He started a treatment center for polio patients at Warm Springs, Georgia, where he died in 1945 while posing for a portrait.",
+      "r": "He led the country through the Great Depression and most of World War II. For 10 points, name this 32nd president, who created the New Deal."
+    },
+    {
+      "p": "Days after taking office, this president declared a nationwide “bank holiday,” then explained his plan to fix the banks in the first of his “fireside chats” on the radio. During his first Hundred Days, Congress created the Civilian Conservation Corps and the Tennessee Valley Authority.",
+      "r": "For 10 points, name this president who told Americans that “the only thing we have to fear is fear itself.”"
+    },
+    {
+      "p": "In the “sick chicken” case, _Schechter_ [“SHEK-ter”] _Poultry Corp. v. United States_, the Supreme Court struck down this president’s National Industrial Recovery Act. Businesses that cooperated with this president’s National Recovery Administration displayed a blue eagle with the motto “We Do Our Part.”",
+      "r": "His “alphabet agencies” included the WPA and the CCC. For 10 points, name this president who created the New Deal."
+    },
+    {
+      "p": "This president promised to make America an “arsenal of democracy” and convinced Congress to pass the Lend-Lease Act to supply Britain. He met Winston Churchill aboard warships off Newfoundland to announce the Atlantic Charter.",
+      "r": "After Japan attacked Pearl Harbor, he called December 7, 1941, “a date which will live in infamy.” For 10 points, name this president who led the U.S. into World War II."
+    },
+    {
+      "p": "At this man’s 1905 wedding, the bride was given away by her uncle, who was then the sitting president of the United States. This man’s wife later chaired the United Nations committee that wrote the Universal Declaration of Human Rights.",
+      "r": "Before reaching the White House, this man was Assistant Secretary of the Navy and governor of New York. For 10 points, name this husband of Eleanor Roosevelt, the 32nd president."
+    },
+    {
+      "p": "This president signed the Wagner Act, which protected workers’ right to form unions, and the Social Security Act, which created pensions for retired Americans. Frances Perkins, the first woman to serve in a presidential cabinet, was his Secretary of Labor.",
+      "r": "His Works Progress Administration hired millions of unemployed Americans. For 10 points, name this New Deal president."
+    },
+    {
+      "p": "Louisiana senator Huey Long attacked this president with a “Share Our Wealth” plan, and the radio priest Father Charles Coughlin [“COG-lin”] turned from supporter to bitter critic. In 1936, this president won reelection in a landslide, carrying every state except Maine and Vermont.",
+      "r": "For 10 points, name this president whose New Deal programs fought the Great Depression."
+    },
+    {
+      "p": "In a 1941 speech, this president named four freedoms that people everywhere should enjoy: freedom of speech, freedom of worship, freedom from want, and freedom from fear. Norman Rockwell later turned that speech into a famous series of paintings.",
+      "r": "In 1940, he broke George Washington’s two-term tradition by winning a third term. For 10 points, name this president who led the U.S. during World War II."
+    },
+    {
+      "p": "This president signed Executive Order 9066, which forced more than 100,000 Japanese Americans into incarceration camps, a policy the Supreme Court upheld in _Korematsu v. United States_. Shortly before his death, he met Churchill and Stalin at the Yalta Conference to plan the postwar world.",
+      "r": "For 10 points, name this president who died in April 1945 and was succeeded by Harry Truman."
+    },
+    {
+      "p": "In a 1944 campaign speech, this president joked that his Republican critics had attacked his little Scottish terrier, Fala. That year, he defeated Thomas Dewey to win a record fourth term, with Harry Truman as his new vice president.",
+      "r": "His long time in office led to the 22nd Amendment’s two-term limit. For 10 points, name this president who appears on the dime."
+    },
+    {
+      "p": "In 1920, this man was the Democratic nominee for vice president on a losing ticket headed by James Cox. He had earlier served as Assistant Secretary of the Navy under Woodrow Wilson, and as governor of New York he started relief programs that previewed his later national policies.",
+      "r": "For 10 points, name this man who defeated Herbert Hoover in 1932 and promised Americans a “New Deal.”"
+    },
+    {
+      "p": "Weeks before this man’s first inauguration, Giuseppe Zangara fired at him in Miami but instead fatally wounded Chicago mayor Anton Cermak [“SUR-mak”]. In his inaugural address, this man asked for broad powers to fight the economic emergency, as great as if the country were being invaded.",
+      "r": "That speech declared that “the only thing we have to fear is fear itself.” For 10 points, name this president who began the New Deal."
+    },
+    {
+      "p": "Advisers such as Raymond Moley and Rexford Tugwell formed this president’s “Brain Trust.” He chose the stock market speculator Joseph Kennedy, the father of a future president, as the first chairman of the Securities and Exchange Commission.",
+      "r": "His New Deal also created the FDIC to protect people’s bank deposits. For 10 points, name this 32nd president."
+    },
+    {
+      "p": "A 1939 letter signed by Albert Einstein warned this president that Germany might build an atomic bomb, which led to the Manhattan Project. His memorial in Washington, D.C., is divided into four outdoor “rooms,” one for each of his terms.",
+      "r": "He spoke to Americans through radio “fireside chats.” For 10 points, name this president of the Great Depression and World War II, often known by his initials."
+    }
+  ],
+  "clues": [
+    {
+      "id": "four-terms",
+      "tier": "giveaway",
+      "t": "32nd President (1933–1945) and the only president elected four times",
+      "k": [
+        "four terms",
+        "4 terms",
+        "fourth term",
+        "four times",
+        "32nd"
+      ],
+      "n": 2
+    },
+    {
+      "id": "new-deal",
+      "tier": "giveaway",
+      "t": "Created the New Deal to fight the Great Depression",
+      "k": [
+        "new deal",
+        "great depression",
+        "depression"
+      ],
+      "n": 4,
+      "rabbit": "New Deal"
+    },
+    {
+      "id": "fear-itself",
+      "tier": "giveaway",
+      "t": "First inaugural address (1933): “The only thing we have to fear is fear itself”",
+      "k": [
+        "fear itself"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ww2",
+      "tier": "giveaway",
+      "t": "Led the U.S. in World War II; called Pearl Harbor “a date which will live in infamy”",
+      "k": [
+        "pearl harbor",
+        "infamy",
+        "world war"
+      ],
+      "n": 0,
+      "rabbit": "Attack on Pearl Harbor"
+    },
+    {
+      "id": "polio",
+      "tier": "giveaway",
+      "t": "Paralyzed by polio; his face is on the dime",
+      "k": [
+        "polio",
+        "dime",
+        "wheelchair"
+      ],
+      "n": 1
+    },
+    {
+      "id": "court-packing",
+      "tier": "middle",
+      "t": "Court-packing plan (1937): tried to add up to six Supreme Court justices",
+      "k": [
+        "court-packing",
+        "court packing",
+        "packing",
+        "pack the court"
+      ],
+      "n": 4
+    },
+    {
+      "id": "fireside",
+      "tier": "middle",
+      "t": "Talked to the nation in radio “fireside chats”",
+      "k": [
+        "fireside"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hundred-days",
+      "tier": "middle",
+      "t": "First Hundred Days: declared a “bank holiday” and created the FDIC to protect deposits",
+      "k": [
+        "hundred days",
+        "100 days",
+        "bank holiday",
+        "fdic"
+      ],
+      "n": 2
+    },
+    {
+      "id": "agencies",
+      "tier": "middle",
+      "t": "“Alphabet agencies”: CCC (Civilian Conservation Corps), TVA (Tennessee Valley Authority), WPA (Works Progress Administration)",
+      "k": [
+        "ccc",
+        "tva",
+        "wpa",
+        "civilian conservation",
+        "tennessee valley",
+        "works progress"
+      ],
+      "n": 3
+    },
+    {
+      "id": "social-security",
+      "tier": "middle",
+      "t": "Signed the Social Security Act and the Wagner Act, which protected unions (1935)",
+      "k": [
+        "social security",
+        "wagner"
+      ],
+      "n": 2,
+      "rabbit": "Social Security Act"
+    },
+    {
+      "id": "eleanor",
+      "tier": "middle",
+      "t": "Wife: Eleanor Roosevelt, the niece of Theodore Roosevelt, who was Franklin’s fifth cousin",
+      "k": [
+        "eleanor",
+        "theodore",
+        "teddy",
+        "cousin"
+      ],
+      "n": 0,
+      "rabbit": "Eleanor Roosevelt"
+    },
+    {
+      "id": "lend-lease",
+      "tier": "middle",
+      "t": "Before Pearl Harbor: the Lend-Lease Act, the “arsenal of democracy,” and the Atlantic Charter with Winston Churchill",
+      "k": [
+        "lend-lease",
+        "lend lease",
+        "arsenal",
+        "atlantic charter",
+        "churchill"
+      ],
+      "n": 0,
+      "rabbit": "Lend-Lease Act"
+    },
+    {
+      "id": "yalta",
+      "tier": "middle",
+      "t": "Met Churchill and Stalin at the Yalta Conference (1945); succeeded by Harry Truman",
+      "k": [
+        "yalta",
+        "stalin",
+        "truman"
+      ],
+      "n": 0,
+      "rabbit": "Yalta Conference"
+    },
+    {
+      "id": "horsemen",
+      "tier": "power",
+      "t": "The “Four Horsemen” justices blocked his programs; Owen Roberts made “the switch in time that saved nine”",
+      "k": [
+        "four horsemen",
+        "switch in time",
+        "owen roberts"
+      ],
+      "n": 2
+    },
+    {
+      "id": "schechter",
+      "tier": "power",
+      "t": "_Schechter Poultry_, the “sick chicken” case, struck down the NIRA; the NRA’s blue eagle said “We Do Our Part”",
+      "k": [
+        "schechter",
+        "sick chicken",
+        "blue eagle",
+        "nira",
+        "nra"
+      ],
+      "n": 2
+    },
+    {
+      "id": "kennedy",
+      "tier": "power",
+      "t": "Named Joseph Kennedy the first chairman of the SEC (Securities and Exchange Commission)",
+      "k": [
+        "kennedy",
+        "securities and exchange",
+        "sec"
+      ],
+      "n": 1
+    },
+    {
+      "id": "brain-trust",
+      "tier": "power",
+      "t": "“Brain Trust” advisers such as Raymond Moley and Rexford Tugwell",
+      "k": [
+        "brain trust",
+        "moley",
+        "tugwell"
+      ],
+      "n": 1
+    },
+    {
+      "id": "perkins",
+      "tier": "power",
+      "t": "Secretary of Labor Frances Perkins was the first woman in a presidential cabinet",
+      "k": [
+        "perkins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "critics",
+      "tier": "power",
+      "t": "Critics Huey Long (“Share Our Wealth”) and Father Coughlin; won 1936 in a landslide, losing only Maine and Vermont",
+      "k": [
+        "huey long",
+        "share our wealth",
+        "coughlin",
+        "maine",
+        "vermont",
+        "landon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-freedoms",
+      "tier": "power",
+      "t": "Four Freedoms speech (1941), later painted by Norman Rockwell",
+      "k": [
+        "four freedoms",
+        "rockwell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "order-9066",
+      "tier": "power",
+      "t": "Executive Order 9066 forced Japanese Americans into camps; upheld in _Korematsu v. United States_",
+      "k": [
+        "9066",
+        "korematsu",
+        "japanese american",
+        "internment",
+        "incarceration"
+      ],
+      "n": 0,
+      "rabbit": "Korematsu v. United States"
+    },
+    {
+      "id": "campobello",
+      "tier": "power",
+      "t": "Got polio on Campobello Island (1921); started a polio center at Warm Springs, Georgia, where he died in 1945",
+      "k": [
+        "campobello",
+        "warm springs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zangara",
+      "tier": "power",
+      "t": "Survived Giuseppe Zangara’s 1933 shooting in Miami, which killed Chicago mayor Anton Cermak",
+      "k": [
+        "zangara",
+        "cermak"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fala",
+      "tier": "power",
+      "t": "His dog Fala (the 1944 “Fala speech”); his four terms led to the 22nd Amendment",
+      "k": [
+        "fala",
+        "22nd",
+        "twenty-second"
+      ],
+      "n": 0
+    },
+    {
+      "id": "einstein",
+      "tier": "power",
+      "t": "Einstein’s 1939 letter warned him about atomic bombs, leading to the Manhattan Project",
+      "k": [
+        "einstein",
+        "manhattan project",
+        "atomic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cox",
+      "tier": "power",
+      "t": "1920: lost as James Cox’s vice-presidential running mate; earlier Assistant Secretary of the Navy; later governor of New York",
+      "k": [
+        "james cox",
+        "cox",
+        "navy",
+        "governor of new york"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Roosevelt?",
+    "body": "Say only “Roosevelt” and the moderator will prompt you to be more specific. Name the wrong one and the tossup is gone. Theodore Roosevelt (26th president, 1901–1909) had the Rough Riders, the Square Deal, the Panama Canal, and the teddy bear. Franklin (32nd, 1933–1945) had the New Deal, fireside chats, and World War II.",
+    "fix": "Always answer “Franklin Roosevelt” or “FDR.” Memory trick: the SQUARE Deal is Theodore, the NEW Deal is Franklin, and the FAIR Deal is Harry Truman. Eleanor Roosevelt was Franklin’s wife and Theodore’s niece.",
+    "line": "Real answer line: <b><u>F</u></b>ranklin Delano <b><u>Roosevelt</u></b> (accept <b><u>FDR</u></b>; prompt on “Roosevelt”)"
+  },
+  "tests": {
+    "right": [
+      "FDR",
+      "F.D.R.",
+      "Franklin Delano Roosevelt",
+      "Franklin D. Roosevelt",
+      "Franklin Roosvelt"
+    ],
+    "prompt": [
+      "Roosevelt",
+      "Franklin"
+    ],
+    "wrong": [
+      "Teddy Roosevelt",
+      "Theodore Roosevelt",
+      "Eleanor Roosevelt"
+    ]
+  },
+  "freq": {
+    "rank": 11,
+    "count": 6,
+    "list": "American History"
+  }
+}

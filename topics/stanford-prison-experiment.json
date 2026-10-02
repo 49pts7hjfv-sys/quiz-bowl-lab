@@ -1,0 +1,410 @@
+{
+  "id": "stanford-prison-experiment",
+  "name": "Stanford Prison Experiment",
+  "mono": "SPE",
+  "category": "Social Science",
+  "qbCategory": "Social Science",
+  "kicker": "1971 psychology study · Stopped early after guards turned abusive",
+  "dates": "Conducted 1971",
+  "briefing": "In the summer of 1971, psychologist Philip Zimbardo turned a Stanford University basement into a fake prison and had college students play “guards” and “prisoners” for what was supposed to be two weeks. Some guards grew so harsh that the study was shut down after only six days. It became a famous lesson about how roles can change behavior, but critics later found that the researchers had coached the guards, and several guards said they were only acting, so many psychologists now doubt its conclusions.",
+  "answerHtml": "<b><u>Stanford Prison Experiment</u></b> (accept <u>SPE</u>; prompt on “Zimbardo experiment”)",
+  "accept": [
+    "stanford prison experiment",
+    "spe"
+  ],
+  "prompt": [
+    "prison experiment",
+    "zimbardo experiment",
+    "zimbardo"
+  ],
+  "reject": [
+    "stanford university",
+    "milgram experiment",
+    "milgram",
+    "abu ghraib"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Revealing the Secrets | The Stanford Prison Experiment: Unlocking The Truth | National Geographic UK",
+      "source": "National Geographic UK",
+      "url": "https://www.youtube.com/watch?v=n8zQ1j4wKqI",
+      "note": "Clip from Nat Geo’s docuseries that re-examines the study · intense subject"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "We Interviewed the Creator of The Stanford Prison Experiment | National Geographic",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=wsHNB_b-A6Q",
+      "note": "Psychologist Philip Zimbardo looks back on the study he ran · intense subject"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Unlocking the Truth About the Stanford Prison Experiment (Full Episode) | National Geographic",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=-ip1_VRItV0",
+      "note": "Full documentary episode revisiting what really happened · intense, best watched with a parent"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Social Influence: Crash Course Psychology #38",
+      "source": "Crash Course Psychology",
+      "url": "https://www.youtube.com/watch?v=UGxGDdQnC1Y",
+      "note": "The bigger field: famous conformity and obedience studies like Milgram’s"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Stanford Prison Experiment",
+      "source": "Britannica",
+      "url": "https://www.britannica.com/event/Stanford-Prison-Experiment",
+      "note": "Encyclopedia article: how the study was set up and why it ended after six days (intense subject)"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
+  "qb": {
+    "q": "Stanford Prison Experiment",
+    "found": 3,
+    "tip": "Watch the answer line: 2 of the 3 MS/EHS results actually want “Stanford University” (using this study as just one clue among others) and only accept this answer line as a bonus. Read closely before you buzz."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups whose answer line is this exact study (1 Middle School/Easy High School + 8 Regular High School, power-marked); several more results wanted the broader answer “Stanford University” instead"
+  },
+  "tossups": [
+    {
+      "p": "An undergraduate named David Jaffe played the role of “warden” in this study, which recruited its subjects through a newspaper ad offering $15 a day. Participants were randomly assigned to be either guards or prisoners, and the “prisoners” were arrested at their homes by real Palo Alto police officers to make the setup feel believable.",
+      "r": "Planned to last two weeks, this study was ended after only six days when psychologist Christina Maslach objected to what she saw. For 10 points, name this 1971 psychology study, led by Philip Zimbardo, that simulated a jail."
+    },
+    {
+      "p": "This study’s guards wore mirrored sunglasses and carried wooden clubs, while the “prisoners” wore numbered smocks and stocking caps instead of their own clothes. One guard, who took on a theatrical, harsh persona inspired by a character from the movie _Cool Hand Luke_, became known to the others as “John Wayne.”",
+      "r": "The U.S. Office of Naval Research funded this study, hoping to learn why conflict breaks out in military prisons. For 10 points, name this 1971 study in which college students played guards and prisoners in a fake jail at a California university."
+    },
+    {
+      "p": "Christina Maslach, who was dating this study’s lead researcher at the time, visited the basement where it was held and was disturbed enough by the conditions to demand that it end. One participant nicknamed “the Sarge” stood out for his unusual military-style discipline.",
+      "r": "Zimbardo and Maslach later married. For 10 points, name this 1971 psychological study of prison life, planned for two weeks but stopped after only six days."
+    },
+    {
+      "p": "A riot broke out among the “prisoners” in this study on its second day, and several were released early after extreme stress reactions. Philip Zimbardo later co-wrote a 1980 article on resisting mind control.",
+      "r": "This study’s guards grew increasingly controlling over just six days before psychologist Christina Maslach’s objections ended it early. For 10 points, name this 1971 simulation of prison life at Stanford University."
+    },
+    {
+      "p": "In this study, Zimbardo himself played the role of “superintendent” and later admitted that he became so absorbed in that role that he lost his objectivity as a researcher. A 2002 BBC documentary called _The Experiment_, made with psychologists Alex Haslam and Steve Reicher, tried to recreate this study and got very different results.",
+      "r": "This study’s guards grew harsh enough toward the “prisoners” that it was stopped after only six days. For 10 points, name this 1971 psychology study conducted at a California university."
+    },
+    {
+      "p": "Zimbardo’s book about this study, _The Lucifer Effect_, later compared its lessons to real-world abuses of prisoners by American soldiers at Abu Ghraib in Iraq. A 1992 documentary about this study was titled _Quiet Rage_.",
+      "r": "This study’s college-student “guards” treated the “prisoners” so harshly that it was called off after six days instead of the planned two weeks. For 10 points, name this 1971 psychological study of prison life."
+    },
+    {
+      "p": "Two prisoners in this study, numbered 8612 and 416, became its best-known cases: one left early after an apparent breakdown that he later said he faked, and the other refused to eat in protest. This study’s guards, who wore mirrored sunglasses, grew increasingly controlling over its participants.",
+      "r": "Psychologist Christina Maslach’s objections ended this study after only six days. For 10 points, name this 1971 study in which college students were randomly assigned to play prisoners or guards at Stanford University."
+    },
+    {
+      "p": "This study’s subjects were recruited through a newspaper ad offering $15 a day, and the “prisoners” among them were arrested at home by real police officers for realism. Philip Zimbardo played the “superintendent” in this study and later said he lost his own objectivity while running it.",
+      "r": "For 10 points, name this 1971 psychological study in which college students played either prisoners or abusive guards in a simulated jail at Stanford University."
+    },
+    {
+      "p": "This study is now a standard example in college psychology courses of unethical research, and it helped lead to today’s much stricter rules protecting the people who volunteer for studies. One of its guards, who modeled his especially harsh persona on a character in _Cool Hand Luke_, was nicknamed “John Wayne.”",
+      "r": "Planned to run for two weeks, this study was stopped after only six days once psychologist Christina Maslach objected. For 10 points, name this 1971 study of prison life led by Philip Zimbardo."
+    },
+    {
+      "p": "A 2002 BBC documentary tried to recreate this study and reached very different conclusions than the original did. This study’s volunteers were randomly split into two groups, one of which wore numbered smocks while the other carried clubs and wore mirrored sunglasses.",
+      "r": "Conducted at Stanford University in 1971, this study simulated prison life and had to be stopped after only six days. For 10 points, name this psychological study led by Philip Zimbardo."
+    },
+    {
+      "p": "This study’s lead researcher later wrote a book called _The Lucifer Effect_ that connected its findings to real abuses at a military prison in Iraq. Funded by the U.S. Office of Naval Research, this study assigned male college students to play either guards or prisoners.",
+      "r": "For 10 points, name this 1971 Stanford University study that was stopped after just six days when guards grew too harsh toward prisoners."
+    },
+    {
+      "p": "This study’s guards were given clubs and mirrored sunglasses, while the “prisoners” wore numbered smocks and were addressed only by number. Philip Zimbardo took on the role of “superintendent” during this study, becoming so immersed in it that he was later criticized for losing his scientific distance.",
+      "r": "Christina Maslach’s objections ended this study after only six days. For 10 points, name this 1971 psychological study of prison life at Stanford University."
+    },
+    {
+      "p": "During this study, a riot broke out among the “prisoners” on just the second day, and one guard earned the nickname “John Wayne” for his harsh, theatrical style. This study is now taught as a cautionary tale about research ethics.",
+      "r": "Planned to last two weeks, it was stopped after only six days when psychologist Christina Maslach objected to the conditions. For 10 points, name this 1971 study led by Philip Zimbardo that simulated a prison at Stanford University."
+    },
+    {
+      "p": "This study recruited participants with a newspaper ad offering $15 a day, then had real police officers stage arrests of the “prisoners” to make the setup feel real. Its lead researcher later co-wrote a 1980 article about resisting mind control.",
+      "r": "For 10 points, name this 1971 psychological study in which college students played guards and prisoners at Stanford University until Christina Maslach’s objections ended it after six days."
+    },
+    {
+      "p": "This study’s guards wore mirrored sunglasses and carried clubs, and two of its best-known prisoners were numbered 8612 and 416. A 1992 documentary about it was titled _Quiet Rage_, and Philip Zimbardo later compared its lessons to Abu Ghraib in his book _The Lucifer Effect_.",
+      "r": "For 10 points, name this 1971 psychological study of prison life, planned for two weeks but ended after only six days."
+    }
+  ],
+  "clues": [
+    {
+      "id": "zimbardo-led",
+      "tier": "giveaway",
+      "t": "Led by psychologist Philip Zimbardo, who ran it in a Stanford University basement",
+      "k": [
+        "philip zimbardo",
+        "stanford university"
+      ],
+      "n": 8
+    },
+    {
+      "id": "guards-prisoners",
+      "tier": "giveaway",
+      "t": "College students were randomly split into “guards” and “prisoners” for a simulated prison",
+      "k": [
+        "guards",
+        "prisoners"
+      ],
+      "n": 9
+    },
+    {
+      "id": "six-days",
+      "tier": "giveaway",
+      "t": "Meant to last two weeks, it was stopped after only six days",
+      "k": [
+        "six days",
+        "stopped early"
+      ],
+      "n": 8
+    },
+    {
+      "id": "maslach-ended",
+      "tier": "giveaway",
+      "t": "Ended after psychologist Christina Maslach, who visited and was disturbed by what she saw, objected",
+      "k": [
+        "christina maslach"
+      ],
+      "n": 7
+    },
+    {
+      "id": "ethics-lesson",
+      "tier": "giveaway",
+      "t": "Now taught as a textbook case in research ethics; helped lead to today’s strict rules protecting people in psychology studies",
+      "k": [
+        "research ethics",
+        "informed consent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "john-wayne",
+      "tier": "middle",
+      "t": "One guard modeled a harsh persona on a character from the movie _Cool Hand Luke_ and was nicknamed “John Wayne”; he later said he was acting",
+      "k": [
+        "john wayne",
+        "cool hand luke"
+      ],
+      "n": 5
+    },
+    {
+      "id": "props-uniforms",
+      "tier": "middle",
+      "t": "Guards wore mirrored sunglasses and carried clubs; prisoners wore numbered smocks and stocking caps",
+      "k": [
+        "numbered smocks",
+        "mirrored sunglasses"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fake-arrests",
+      "tier": "middle",
+      "t": "Began with real Palo Alto police officers staging arrests of the “prisoner” volunteers",
+      "k": [
+        "palo alto police",
+        "staged arrests"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lucifer-effect",
+      "tier": "middle",
+      "t": "Zimbardo’s book about the study, _The Lucifer Effect_, compared the results to real abuses of prisoners by American soldiers at Abu Ghraib in Iraq",
+      "k": [
+        "lucifer effect",
+        "abu ghraib"
+      ],
+      "n": 5,
+      "rabbit": "Abu Ghraib"
+    },
+    {
+      "id": "superintendent",
+      "tier": "middle",
+      "t": "Zimbardo himself played the role of “superintendent” and later said he became so absorbed in it that he lost his objectivity",
+      "k": [
+        "superintendent"
+      ],
+      "n": 1
+    },
+    {
+      "id": "twelve-days-planned",
+      "tier": "middle",
+      "t": "Originally scheduled to run for two full weeks",
+      "k": [
+        "two full weeks",
+        "scheduled"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bbc-recreation",
+      "tier": "middle",
+      "t": "A 2002 BBC documentary, _The Experiment_, tried to recreate the study with psychologists Alex Haslam and Steve Reicher, and got different results",
+      "k": [
+        "bbc",
+        "the experiment"
+      ],
+      "n": 2,
+      "rabbit": "Milgram experiment"
+    },
+    {
+      "id": "quiet-rage",
+      "tier": "middle",
+      "t": "A 1992 documentary about the study was titled _Quiet Rage_",
+      "k": [
+        "quiet rage"
+      ],
+      "n": 1
+    },
+    {
+      "id": "criticisms",
+      "tier": "middle",
+      "t": "Critics later found the researchers had coached the guards, and several guards said they were only acting, so many psychologists doubt its conclusions",
+      "k": [
+        "coached",
+        "acting",
+        "critics"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inmate-numbers",
+      "tier": "power",
+      "t": "Prisoners “8612” and “416” are the best known: one left early after an apparent breakdown he later said he faked; the other went on a hunger strike",
+      "k": [
+        "8612",
+        "416"
+      ],
+      "n": 1
+    },
+    {
+      "id": "naval-research",
+      "tier": "power",
+      "t": "Funded by the U.S. Office of Naval Research, which wanted to know why conflict breaks out in military prisons",
+      "k": [
+        "office of naval research"
+      ],
+      "n": 1
+    },
+    {
+      "id": "maslach-married",
+      "tier": "power",
+      "t": "Zimbardo and Maslach, who were dating during the study, later married",
+      "k": [
+        "maslach",
+        "married",
+        "dating"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jaffe-warden",
+      "tier": "power",
+      "t": "An undergraduate named David Jaffe played the role of “warden”",
+      "k": [
+        "david jaffe",
+        "warden"
+      ],
+      "n": 1
+    },
+    {
+      "id": "help-wanted-ad",
+      "tier": "power",
+      "t": "Participants were recruited with a newspaper “help wanted” ad offering $15 a day",
+      "k": [
+        "help wanted",
+        "15 a day"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mind-control-paper",
+      "tier": "power",
+      "t": "Zimbardo later co-wrote a 1980 article on how to resist mind control",
+      "k": [
+        "mind control",
+        "resist"
+      ],
+      "n": 1
+    },
+    {
+      "id": "the-sarge",
+      "tier": "power",
+      "t": "One participant, nicknamed “the Sarge,” stood out for his unusual military-style discipline",
+      "k": [
+        "the sarge"
+      ],
+      "n": 1
+    },
+    {
+      "id": "riot-day-two",
+      "tier": "power",
+      "t": "A riot broke out among the “prisoners” on just the second day",
+      "k": [
+        "riot",
+        "second day"
+      ],
+      "n": 1
+    },
+    {
+      "id": "released-early",
+      "tier": "power",
+      "t": "Several “prisoners” were released early after extreme stress reactions",
+      "k": [
+        "released early",
+        "stress reactions"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ted-talk",
+      "tier": "power",
+      "t": "Zimbardo later gave a widely viewed TED Talk called _The Psychology of Evil_ about lessons from the study",
+      "k": [
+        "psychology of evil",
+        "ted talk"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Stanford University or the study?",
+    "body": "Some real tossups ask for “Stanford University” and use this study’s own details, like the guards and prisoners, as just one clue among unrelated campus facts (the Marshmallow Test, the Stanford-Binet test) — a few even say “accept Stanford Prison Experiment” as a bonus. A tossup built entirely around guards, prisoners, Zimbardo, and Christina Maslach wants the more specific answer: the study itself.",
+    "fix": "If the clues wander into other Stanford trivia from a different decade or a different researcher, the answer is Stanford University. If every clue is about guards, prisoners, six days, or Zimbardo, give the specific study. If you only catch “Zimbardo experiment,” you’ll still get prompted to be more specific.",
+    "line": "Real answer line: <b><u>Stanford Prison Experiment</u></b> (accept SPE; prompt on “Zimbardo experiment” before mention)"
+  },
+  "tests": {
+    "right": [
+      "Stanford Prison Experiment",
+      "Stanford Prision Experiment",
+      "SPE",
+      "The Stanford Prison Experiment"
+    ],
+    "prompt": [
+      "Zimbardo",
+      "Prison Experiment"
+    ],
+    "wrong": [
+      "Stanford University",
+      "Stanley Milgram",
+      "Abu Ghraib",
+      "Milgram Experiment"
+    ]
+  },
+  "freq": {
+    "rank": 10,
+    "count": 3,
+    "list": "Social Science"
+  }
+}

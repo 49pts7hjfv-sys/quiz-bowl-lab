@@ -1,0 +1,411 @@
+{
+  "id": "osiris",
+  "name": "Osiris",
+  "mono": "OSI",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Egyptian god of the afterlife · Ruler of the dead, father of Horus",
+  "dates": "Worshipped since Egypt’s Old Kingdom (c. 2400 BCE)",
+  "briefing": "Osiris once ruled Egypt as a wise king, until his jealous brother Set murdered him and cut his body into pieces. His devoted wife Isis gathered the pieces and brought him back to life, but only enough for him to become ruler of the dead. Egyptians pictured him with green skin, holding a shepherd’s crook and a flail, as a sign that death could lead to new life.",
+  "answerHtml": "<b><u>Osiris</u></b> (accept <u>Asar</u> or <u>Usire</u>)",
+  "accept": [
+    "osiris",
+    "asar",
+    "usire",
+    "usiris",
+    "aser"
+  ],
+  "prompt": [],
+  "reject": [
+    "isis",
+    "horus",
+    "set",
+    "seth",
+    "anubis",
+    "nephthys",
+    "ra",
+    "serapis"
+  ],
+  "tests": {
+    "right": [
+      "Osiris",
+      "osiris",
+      "Osiris, god of the dead",
+      "Osirus",
+      "Asar"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Horus",
+      "Isis",
+      "Set",
+      "Anubis",
+      "Ra",
+      "Serapis"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Egyptian myth of the death of Osiris - Alex Gendler",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=O5dXz1Tq_Yg",
+      "note": "Short animated myth · Set traps Osiris in a chest and Isis sets out to bring him back"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Osiris and Seth: The Usurper’s Trap – #02 – Egyptian Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=tDnyTQwDGA8",
+      "note": "Animated retelling · how jealous Set tricks Osiris and takes his throne"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Osiris: The God of Egyptian Underworld – Egyptian Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=llLe81gKtu8",
+      "note": "Animated look at Osiris as god of the underworld and the afterlife"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Osiris",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Osiris",
+      "note": "Kid-friendly encyclopedia article on the god of the afterlife, his murder by Set, and the weighing of the heart"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Osiris",
+  "qb": {
+    "q": "Osiris",
+    "found": 8,
+    "tip": "A clean search — every one of the 8 Middle School/Easy High School tossups was about this god, so no categories filter was needed."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This deity’s main cult center was the city of Abydos [“uh-BY-dus”], where pilgrims gathered each year for festivals re-enacting his death. Later Egyptians also worshipped him as Serapis, a composite god combined with the sacred Apis bull. His sister Nephthys [“NEF-this”] helped search for his body after their other brother murdered him.",
+      "r": "That brother, Set, had tricked him into a decorated coffin, sealed it shut, and tossed it into the Nile. For 10 points, name this Egyptian ruler of the dead, the husband of Isis."
+    },
+    {
+      "p": "This god was trapped inside a coffin that floated across the sea to Byblos [“BIB-lus”], where it grew inside a tree trunk that came to support a king’s palace. His wife eventually freed the coffin, only for his jealous brother to find it again. That brother cut this god’s body into fourteen pieces and scattered them across Egypt.",
+      "r": "His wife recovered all but one piece and used magic to restore him. For 10 points, name this father of Horus, who became ruler of the dead."
+    },
+    {
+      "p": "Some myths describe this deity as the father of Anubis, and he was sometimes honored under the title “Foremost of the Westerners,” a name for the ruler of the land of the dead. This god is pictured holding a crook and a flail, symbols of kingship he once used while ruling Egypt as a living king.",
+      "r": "His brother Set grew jealous of his rule and murdered him. For 10 points, name this Egyptian god brought back to life by his wife, Isis."
+    },
+    {
+      "p": "This god was the eldest son of the earth god Geb and the sky goddess Nut [“noot”]. Egyptian art sometimes shows grain sprouting from this deity’s body, tying him to the grain god Neper and the yearly flooding of the Nile. His backbone was symbolized by the djed [“jed”] pillar, a column often shown being raised upright in festivals.",
+      "r": "He is usually pictured with green skin, a color linking him to plant life and rebirth. For 10 points, name this husband of Isis, Egyptian god of the afterlife."
+    },
+    {
+      "p": "A NASA probe launched in 2016 to bring back rock samples from the asteroid Bennu [“BEN-oo”] was partly named for this deity. This god wears a tall white crown flanked by two ostrich feathers, called the atef [“AH-tef”] crown.",
+      "r": "His jealous brother Set tricked him into a coffin and threw it into the Nile River. For 10 points, name this Egyptian god whose wife, Isis, brought him back to life."
+    },
+    {
+      "p": "This god was closely linked with the jackal-headed gods Anubis and Wepwawet [“WEP-wah-wet”], the latter called the “Opener of the Ways.” Before his death, this deity is said to have ruled Egypt as a wise and generous king, teaching his people farming and law.",
+      "r": "His brother Set grew envious and murdered him to seize the throne. For 10 points, name this father of Horus, later honored as the Egyptian god of the afterlife."
+    },
+    {
+      "p": "After defeating his uncle in a long struggle for the throne, this god’s son was said to have avenged his father’s murder and restored order to Egypt. This deity’s body was torn into fourteen pieces, and his wife managed to find and reassemble thirteen of them.",
+      "r": "She used her magic to briefly revive him, enough for him to father that avenging son, Horus. For 10 points, name this Egyptian god of the dead, the husband of Isis."
+    },
+    {
+      "p": "This deity is often shown as a green-skinned mummy, his legs wrapped tightly together, holding a shepherd’s crook and a threshing flail crossed over his chest. He is closely tied to the yearly flooding of the Nile River, which Egyptians believed brought fertile soil for growing grain.",
+      "r": "His brother Set cut his body apart out of jealousy over the throne. For 10 points, name this husband of Isis and father of Horus, ruler of the Egyptian underworld."
+    },
+    {
+      "p": "This god’s backbone was represented by the djed pillar, a symbol of stability that pharaohs ceremonially raised upright each year. According to one story, his brother tricked him into lying inside a specially built chest during a banquet, then sealed it shut and threw it into the river.",
+      "r": "His devoted wife searched the land to recover his scattered remains. For 10 points, name this Egyptian god of the afterlife, brought back to life by Isis."
+    },
+    {
+      "p": "This deity’s sister Nephthys is sometimes said to have joined her sister in searching every marsh and riverbank of Egypt for his missing body. Before his murder, this god is remembered as a peaceful ruler of Egypt who first taught his people how to farm along the Nile.",
+      "r": "His jealous brother Set eventually killed him to take the throne for himself. For 10 points, name this god whose wife, Isis, restored him to life as ruler of the dead."
+    },
+    {
+      "p": "This god’s cult center at Abydos held a yearly festival in which his death and return to life were performed as a kind of sacred play. He wears the atef crown, a tall white crown flanked by two ostrich feathers, and is honored as “Foremost of the Westerners.”",
+      "r": "His own brother, consumed by jealousy, murdered him and scattered his remains. For 10 points, name this husband of Isis, father of Horus, and Egyptian god of the dead."
+    },
+    {
+      "p": "This deity’s green skin is meant to recall the fresh plant life that grows after the Nile’s floodwaters recede. A Greco-Egyptian version of him, merged with the sacred Apis bull, was worshipped at Alexandria under the name Serapis.",
+      "r": "His murderous brother, Set, cut his body into fourteen pieces after tricking him into a coffin. For 10 points, name this Egyptian ruler of the dead, brought back to life by his wife, Isis."
+    },
+    {
+      "p": "This god is the eldest child of Geb and Nut, and the brother of Isis, Set, and Nephthys. Ancient Egyptians linked this deity to the grain that sprouted from the black mud left behind after the Nile’s yearly flood. He carries a crook and flail, tools that mark him as a shepherd-king.",
+      "r": "His brother Set murdered him to steal his throne. For 10 points, name this Egyptian god of the afterlife, whose wife Isis restored him to life."
+    },
+    {
+      "p": "In one version of this god’s story, his jealous brother tricked him into lying down inside a beautifully decorated box during a feast, claiming it was a prize for whoever fit inside perfectly. Once this deity climbed in, the box was slammed shut, sealed, and thrown into the Nile River.",
+      "r": "His wife eventually found the box caught inside a tree in a distant land. For 10 points, name this husband of Isis, the Egyptian god of the dead."
+    },
+    {
+      "p": "This deity rules over the Hall of Judgment, where the hearts of the dead are said to be weighed against a feather to decide their fate. He once ruled Egypt as a living king before his brother Set murdered him out of jealousy and cut his body apart.",
+      "r": "His wife Isis gathered the pieces and used her magic to bring him back to life as ruler of the dead. For 10 points, name this father of Horus, husband of Isis."
+    }
+  ],
+  "clues": [
+    {
+      "id": "ruler-of-dead",
+      "tier": "giveaway",
+      "t": "Egyptian god of the afterlife, ruler and judge of the dead",
+      "k": [
+        "afterlife",
+        "ruler of the dead",
+        "judge"
+      ],
+      "n": 8
+    },
+    {
+      "id": "husband-of-isis",
+      "tier": "giveaway",
+      "t": "Husband of Isis, the goddess who restored him to life",
+      "k": [
+        "husband",
+        "isis"
+      ],
+      "n": 8
+    },
+    {
+      "id": "father-of-horus",
+      "tier": "giveaway",
+      "t": "Father of Horus, the falcon-headed god",
+      "k": [
+        "father",
+        "horus"
+      ],
+      "n": 5,
+      "rabbit": "Horus"
+    },
+    {
+      "id": "killed-by-set",
+      "tier": "giveaway",
+      "t": "Killed by his jealous brother, Set, who wanted the throne of Egypt",
+      "k": [
+        "killed",
+        "jealous brother",
+        "set",
+        "throne"
+      ],
+      "n": 8,
+      "rabbit": "Set"
+    },
+    {
+      "id": "revived-by-isis",
+      "tier": "giveaway",
+      "t": "Brought back to life by Isis, who used her magic after finding his body",
+      "k": [
+        "brought back to life",
+        "magic",
+        "isis"
+      ],
+      "n": 6
+    },
+    {
+      "id": "green-skin",
+      "tier": "middle",
+      "t": "Pictured with green skin, a color linking him to plant life, death, and rebirth",
+      "k": [
+        "green skin",
+        "rebirth",
+        "plant"
+      ],
+      "n": 5
+    },
+    {
+      "id": "fourteen-pieces",
+      "tier": "middle",
+      "t": "His body was cut into fourteen pieces; Isis recovered all but one",
+      "k": [
+        "fourteen pieces",
+        "recovered"
+      ],
+      "n": 6
+    },
+    {
+      "id": "crook-flail",
+      "tier": "middle",
+      "t": "Shown holding a shepherd’s crook and a threshing flail, symbols of kingship",
+      "k": [
+        "crook",
+        "flail",
+        "kingship"
+      ],
+      "n": 3
+    },
+    {
+      "id": "djed-pillar",
+      "tier": "middle",
+      "t": "The djed [“jed”] pillar, a symbol of stability, represents this god’s backbone",
+      "k": [
+        "djed",
+        "pillar",
+        "backbone"
+      ],
+      "n": 3,
+      "rabbit": "djed pillar"
+    },
+    {
+      "id": "geb-nut",
+      "tier": "middle",
+      "t": "Eldest son of the earth god Geb and the sky goddess Nut",
+      "k": [
+        "eldest son",
+        "geb",
+        "nut"
+      ],
+      "n": 2
+    },
+    {
+      "id": "nile-grain",
+      "tier": "middle",
+      "t": "Connected to the Nile’s yearly flood and the growth of grain, and linked with the grain god Neper",
+      "k": [
+        "nile",
+        "flood",
+        "grain"
+      ],
+      "n": 1
+    },
+    {
+      "id": "osiris-rex",
+      "tier": "middle",
+      "t": "A NASA mission that brought rock samples back from the asteroid Bennu was partly named for this god",
+      "k": [
+        "nasa mission",
+        "bennu",
+        "asteroid"
+      ],
+      "n": 1,
+      "rabbit": "OSIRIS-REx"
+    },
+    {
+      "id": "serapis",
+      "tier": "power",
+      "t": "Worshipped as Serapis, a Greco-Egyptian god combined with the sacred Apis bull, especially at Alexandria",
+      "k": [
+        "serapis",
+        "apis bull",
+        "alexandria"
+      ],
+      "n": 2,
+      "rabbit": "Serapis"
+    },
+    {
+      "id": "byblos",
+      "tier": "power",
+      "t": "Trapped inside a coffin that floated to Byblos [“BIB-lus”] and grew inside a tree trunk holding up a palace",
+      "k": [
+        "byblos",
+        "coffin",
+        "tree trunk"
+      ],
+      "n": 2
+    },
+    {
+      "id": "abydos",
+      "tier": "power",
+      "t": "His major cult center and yearly death-and-rebirth festival were held at Abydos [“uh-BY-dus”]",
+      "k": [
+        "abydos",
+        "cult center",
+        "festival"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nephthys-search",
+      "tier": "power",
+      "t": "His sister Nephthys [“NEF-this”] joined Isis in searching for his missing body",
+      "k": [
+        "nephthys",
+        "search"
+      ],
+      "n": 1,
+      "rabbit": "Nephthys"
+    },
+    {
+      "id": "foremost-westerners",
+      "tier": "power",
+      "t": "Honored with the title “Foremost of the Westerners,” meaning ruler of the land of the dead",
+      "k": [
+        "foremost",
+        "westerners",
+        "title"
+      ],
+      "n": 1
+    },
+    {
+      "id": "anubis-syncretism",
+      "tier": "power",
+      "t": "Sometimes linked with Anubis and Wepwawet [“WEP-wah-wet”], the jackal-headed “Opener of the Ways”",
+      "k": [
+        "anubis",
+        "wepwawet",
+        "opener"
+      ],
+      "n": 2
+    },
+    {
+      "id": "horus-avenges",
+      "tier": "power",
+      "t": "Avenged after his death when his son Horus defeated Set in a long struggle for the throne",
+      "k": [
+        "avenged",
+        "horus defeated",
+        "struggle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "king-before-death",
+      "tier": "power",
+      "t": "Said to have ruled Egypt as a wise king, teaching farming and law, before his murder",
+      "k": [
+        "wise king",
+        "taught farming",
+        "law"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atef-crown",
+      "tier": "power",
+      "t": "Wears the tall white atef [“AH-tef”] crown, flanked by two ostrich feathers",
+      "k": [
+        "atef",
+        "crown",
+        "ostrich feathers"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hall-of-judgment",
+      "tier": "power",
+      "t": "Presides over the Hall of Judgment, where hearts are weighed against a feather",
+      "k": [
+        "hall of judgment",
+        "weighed",
+        "feather"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Osiris or Horus?",
+    "body": "Osiris and his son Horus are easy to mix up, since both are kings of Egypt connected to the same family drama. Clues about being murdered, dismembered, green skin, the crook and flail, or “ruler of the dead” point to Osiris. Clues about a falcon head, the Eye of Horus, avenging a father, or fighting Set for the throne point to his son, Horus, instead.",
+    "fix": "Ask who is acting: if this god is the one being killed and mourned, say Osiris. If this god is the one doing the avenging, say Horus.",
+    "line": "Real answer line: <b><u>Osiris</u></b> (accept Asar or Usire)"
+  },
+  "freq": {
+    "rank": 5,
+    "count": 11,
+    "list": "Mythology"
+  }
+}

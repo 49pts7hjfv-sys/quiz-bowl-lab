@@ -1,0 +1,483 @@
+{
+  "id": "buddhism",
+  "name": "Buddhism",
+  "mono": "BU",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Religion founded by the Buddha · A path to end suffering",
+  "dates": "Began c. 5th century BCE",
+  "briefing": "About 2,500 years ago, a young prince named Siddhartha Gautama left his palace after seeing an old man, a sick man, and a dead body, and set out to learn why people suffer. After meditating beneath a fig tree, he became the Buddha, the “Awakened One.” His teachings, like the Four Noble Truths and the Eightfold Path, spread from India across Asia and are followed by hundreds of millions of people today.",
+  "answerHtml": "<b><u>Buddhism</u></b> (accept word forms like <u>Buddhist</u>; do not accept a single branch such as “Zen,” “Theravada,” “Mahayana,” or “Tibetan Buddhism”)",
+  "accept": [
+    "buddhism",
+    "buddhist",
+    "buddhists"
+  ],
+  "prompt": [],
+  "reject": [
+    "zen buddhism",
+    "zen buddhist",
+    "zen buddhists",
+    "zen",
+    "chan",
+    "seon",
+    "tibetan",
+    "tibetian",
+    "theravada",
+    "theravadan",
+    "mahayana",
+    "vajrayana",
+    "hinayana",
+    "pure land",
+    "nichiren",
+    "lamaism",
+    "buddha",
+    "the buddha",
+    "gautama",
+    "siddhartha",
+    "siddhartha gautama",
+    "hinduism",
+    "hindu",
+    "jainism",
+    "jain",
+    "sikhism",
+    "shinto",
+    "taoism",
+    "daoism",
+    "confucianism"
+  ],
+  "tests": {
+    "right": [
+      "Buddhism",
+      "Budhism",
+      "Buddhists",
+      "the Buddhist religion"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Zen Buddhism",
+      "Zen",
+      "Theravada Buddhism",
+      "Mahayana",
+      "Tibetan Buddhism",
+      "Hinduism",
+      "Buddha",
+      "Jainism"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Buddhist Stories of Siddhartha and the Swan and The Monkey King",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=J-UwlloVveI",
+      "note": "Short · two stories Buddhists tell: young Siddhartha and the swan, and the Monkey King"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Mahabodhi Temple of Bodh Gaya",
+      "source": "National Geographic · The Story of God with Morgan Freeman",
+      "url": "https://www.youtube.com/watch?v=nlOb1mbxQMQ",
+      "note": "Short clip · the temple at the spot where the Buddha is said to have reached enlightenment"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Buddhism | World History",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=X-_cJU-pFwQ",
+      "note": "An overview of the founder’s life and his core teachings"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Buddha and Ashoka (#6)",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=8Nn5uqE3C9w",
+      "note": "John Green on the Buddha’s teachings and how Emperor Ashoka spread them"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Buddhism",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Buddhism/352887",
+      "note": "Quick encyclopedia read written for students"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Buddhism",
+  "qb": {
+    "q": "Buddhism",
+    "found": 7,
+    "tip": "All seven want plain “Buddhism,” yet four of them open with Zen koans, so “one sect of this religion” means you answer the whole religion."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "One school of this religion has students puzzle over riddles called koans [“KOH-ahnz”], such as Hakuin’s [“hah-koo-EEN”] question about the sound of one hand clapping. Another school of this religion teaches that faithfully calling on Amitabha [“uh-mee-TAH-buh”] leads to rebirth in a paradise called the Pure Land.",
+      "r": "This religion’s two main branches are Theravada and Mahayana. For 10 points, name this religion founded in India by Siddhartha Gautama."
+    },
+    {
+      "p": "Horrified by the bloodshed of his conquest of Kalinga [“kuh-LING-guh”], the Mauryan emperor Ashoka [“uh-SHOH-kuh”] embraced this religion and had messages about nonviolence and good conduct carved on rocks and pillars across his empire. Ashoka’s son Mahinda is said to have carried this religion to Sri Lanka.",
+      "r": "Monks of this religion often wear saffron robes. For 10 points, name this religion based on the teachings of Siddhartha Gautama."
+    },
+    {
+      "p": "The Tipitaka [“tih-PIT-uh-kuh”], or “Three Baskets,” is a collection of this religion’s scriptures written in the ancient Pali [“PAH-lee”] language. One book in that collection, the _Dhammapada_ [“DAH-muh-PAH-duh”], gathers hundreds of short verses, including one teaching that hatred is never ended by more hatred.",
+      "r": "Its followers hope to reach nirvana. For 10 points, name this religion whose founder, Siddhartha Gautama, taught the Four Noble Truths."
+    },
+    {
+      "p": "Though his father tried to shield him from all suffering, a prince of the Shakya [“SHAHK-yuh”] clan rode out of his palace and saw an old man, a sick man, a dead body, and a wandering holy man. Those Four Sights led him to leave his wife, his young son, and his royal life behind.",
+      "r": "He later founded this religion after meditating under the Bodhi tree. For 10 points, name this religion begun by Siddhartha Gautama."
+    },
+    {
+      "p": "This religion teaches that tanha [“TAHN-hah”], or craving, is the cause of dukkha [“DOO-kuh”], a word often translated as suffering. The first of its central teachings says that life involves dukkha, and the last of those teachings names a path with eight parts that leads to the end of dukkha.",
+      "r": "Those teachings are the Four Noble Truths. For 10 points, name this religion whose followers seek nirvana."
+    },
+    {
+      "p": "Followers of this religion “take refuge” in the Three Jewels: its founder, his teachings called the dharma, and the community of monks and nuns called the sangha [“SAHNG-guh”]. Many lay followers practice dana [“DAH-nuh”], or generosity, by placing food in monks’ bowls during morning alms rounds.",
+      "r": "For 10 points, name this religion whose believers walk the Noble Eightfold Path laid out by Siddhartha Gautama."
+    },
+    {
+      "p": "In 1959, the fourteenth Dalai Lama fled Tibet for India, where he later settled in the hill town of Dharamsala [“dar-um-SAH-luh”]. Tibetan monks of this religion spin prayer wheels and create detailed sand mandalas [“MAHN-duh-luhz”], which they sweep away when finished as a lesson that nothing lasts forever.",
+      "r": "This religion’s founder taught the Middle Way. For 10 points, name this religion founded by Siddhartha Gautama, whose followers seek enlightenment."
+    },
+    {
+      "p": "In 1956, B. R. Ambedkar [“um-BAYD-kar”], the chief architect of India’s constitution, converted to this religion along with hundreds of thousands of his supporters. Back in 1891, Anagarika Dharmapala [“DAR-muh-PAH-luh”] founded the Maha Bodhi Society to revive this religion in India, the land where it began.",
+      "r": "Its founder reached enlightenment at Bodh Gaya. For 10 points, name this religion founded by Siddhartha Gautama, whose followers try to reach nirvana."
+    },
+    {
+      "p": "Many statues show this religion’s founder touching the ground with his right hand, calling on the earth to witness that he deserved enlightenment after the demon Mara [“MAH-ruh”] challenged him. Before that, Mara had tried to break the founder’s meditation with storms, armies, and temptations.",
+      "r": "That founder reached enlightenment beneath a sacred fig tree. For 10 points, name this religion begun by Siddhartha Gautama."
+    },
+    {
+      "p": "This religion’s founder gave his first sermon to five former companions in a deer park at Sarnath [“SAR-nahth”], an event called the first turning of the wheel of the dharma. A wheel with eight spokes, one for each part of the path he taught, is a symbol of this religion.",
+      "r": "That path is the Noble Eightfold Path. For 10 points, name this religion whose founder, Siddhartha Gautama, taught the Four Noble Truths."
+    },
+    {
+      "p": "One branch of this religion honors bodhisattvas [“boh-dee-SAHT-vuhz”], beings who delay their own final nirvana to help others reach enlightenment, such as Avalokiteshvara [“uh-vuh-loh-kih-TAYSH-vuh-ruh”], who is called Guanyin [“gwahn-YIN”] in China. That branch’s name means “Great Vehicle,” and another branch’s name means “Teaching of the Elders.”",
+      "r": "For 10 points, Mahayana and Theravada are the two main branches of what religion founded by Siddhartha Gautama?"
+    },
+    {
+      "p": "A copy of this religion’s _Diamond Sutra_ found sealed in a cave near Dunhuang [“dun-HWAHNG”], China, is the world’s oldest dated printed book, made in 868 CE. The _Heart Sutra_ and the _Lotus Sutra_ are other texts treasured by this religion’s followers in East Asia.",
+      "r": "Its founder left his palace after seeing an old man, a sick man, and a dead body. For 10 points, name this religion that teaches the Four Noble Truths."
+    },
+    {
+      "p": "Seventy-two small stupas [“STOO-puhz”] surround a giant central stupa on the upper terraces of Borobudur [“boh-roh-BOO-door”] in Indonesia, the world’s largest temple of this religion. Stupas, like the Great Stupa at Sanchi [“SAHN-chee”] in India, are dome-shaped monuments that often hold sacred relics.",
+      "r": "Its Zen school uses puzzling riddles called koans. For 10 points, name this religion founded by Siddhartha Gautama, whose followers seek nirvana."
+    },
+    {
+      "p": "After fasting so strictly as a wandering ascetic [“uh-SET-ik”] that he nearly died, this religion’s founder accepted a bowl of rice cooked in milk from a young woman named Sujata [“soo-JAH-tah”]. He then taught a Middle Way between a life of luxury and a life of harsh self-denial.",
+      "r": "For 10 points, name this religion whose founder, Siddhartha Gautama, reached enlightenment under the Bodhi tree."
+    },
+    {
+      "p": "This religion teaches three marks of existence: impermanence, suffering, and anatta [“uh-NAHT-tuh”], the idea that there is no permanent, unchanging self. It says that greed, hatred, and delusion are “three poisons” that keep people trapped in a cycle of rebirth called samsara [“sum-SAH-ruh”].",
+      "r": "Its goal is nirvana, a word meaning “blowing out.” For 10 points, name this religion founded by Siddhartha Gautama."
+    }
+  ],
+  "clues": [
+    {
+      "id": "siddhartha",
+      "tier": "giveaway",
+      "t": "Founded in India about 2,500 years ago by Siddhartha Gautama, called the Buddha (“Awakened One”)",
+      "k": [
+        "siddhartha gautama",
+        "siddhartha",
+        "gautama",
+        "awakened one"
+      ],
+      "n": 7,
+      "rabbit": "Siddhartha Gautama"
+    },
+    {
+      "id": "four-noble-truths",
+      "tier": "giveaway",
+      "t": "The Four Noble Truths: life involves suffering, craving causes it, suffering can end, and a path leads to its end",
+      "k": [
+        "four noble truths",
+        "noble truths",
+        "suffering"
+      ],
+      "n": 5
+    },
+    {
+      "id": "nirvana",
+      "tier": "giveaway",
+      "t": "Goal: nirvana (enlightenment), escaping suffering and the cycle of rebirth",
+      "k": [
+        "nirvana",
+        "enlightenment",
+        "rebirth"
+      ],
+      "n": 3
+    },
+    {
+      "id": "branches",
+      "tier": "giveaway",
+      "t": "Two main branches: Theravada (Sri Lanka and Southeast Asia) and Mahayana (East Asia); Zen and Tibetan forms are famous too",
+      "k": [
+        "theravada",
+        "mahayana",
+        "zen",
+        "tibetan"
+      ],
+      "n": 5,
+      "rabbit": "Zen Buddhism"
+    },
+    {
+      "id": "eightfold-path",
+      "tier": "middle",
+      "t": "The Noble Eightfold Path: right view, right speech, right action, right mindfulness, and four more",
+      "k": [
+        "eightfold path",
+        "eightfold",
+        "right view",
+        "right speech"
+      ],
+      "n": 4
+    },
+    {
+      "id": "bodhi-tree",
+      "tier": "middle",
+      "t": "Its founder reached enlightenment meditating under the Bodhi tree, a sacred fig, at Bodh Gaya",
+      "k": [
+        "bodhi tree",
+        "sacred fig",
+        "bodh gaya",
+        "fig"
+      ],
+      "n": 2
+    },
+    {
+      "id": "four-sights",
+      "tier": "middle",
+      "t": "The Four Sights (an old man, a sick man, a dead body, and a holy man) led Prince Siddhartha to leave his palace",
+      "k": [
+        "four sights",
+        "old man",
+        "sick man",
+        "holy man",
+        "palace"
+      ],
+      "n": 2
+    },
+    {
+      "id": "middle-way",
+      "tier": "middle",
+      "t": "Its founder taught the Middle Way between luxury and extreme self-denial, after Sujata gave him rice cooked in milk",
+      "k": [
+        "middle way",
+        "sujata",
+        "self-denial",
+        "ascetic"
+      ],
+      "n": 2
+    },
+    {
+      "id": "dukkha",
+      "tier": "middle",
+      "t": "Dukkha (suffering) is the subject of the first noble truth; tanha (craving) causes it",
+      "k": [
+        "dukkha",
+        "tanha",
+        "craving"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dalai-lama",
+      "tier": "middle",
+      "t": "The 14th Dalai Lama, the best-known teacher of its Tibetan form, fled to India in 1959 and settled in Dharamsala",
+      "k": [
+        "dalai lama",
+        "tibet",
+        "1959",
+        "dharamsala"
+      ],
+      "n": 1,
+      "rabbit": "Dalai Lama"
+    },
+    {
+      "id": "koans",
+      "tier": "power",
+      "t": "Its Zen school uses koans, puzzling riddles (like the sound of one hand clapping), some collected in the _Blue Cliff Record_",
+      "k": [
+        "koans",
+        "koan",
+        "blue cliff record",
+        "one hand clapping"
+      ],
+      "n": 4
+    },
+    {
+      "id": "pali-canon",
+      "tier": "power",
+      "t": "Scriptures: the Pali Canon, or Tipitaka (“Three Baskets”), which includes the _Dhammapada_",
+      "k": [
+        "pali canon",
+        "pali",
+        "tipitaka",
+        "three baskets",
+        "dhammapada"
+      ],
+      "n": 2
+    },
+    {
+      "id": "great-vehicle",
+      "tier": "power",
+      "t": "Mahayana means “Great Vehicle”; Theravada means “Teaching of the Elders”",
+      "k": [
+        "great vehicle",
+        "elders",
+        "vehicle"
+      ],
+      "n": 2
+    },
+    {
+      "id": "three-jewels",
+      "tier": "power",
+      "t": "Followers take refuge in the Three Jewels: the founder, the dharma (teachings), and the sangha (community)",
+      "k": [
+        "three jewels",
+        "dharma",
+        "sangha",
+        "refuge"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dana",
+      "tier": "power",
+      "t": "Dana means generosity, such as laypeople giving food to monks on morning alms rounds",
+      "k": [
+        "dana",
+        "generosity",
+        "alms"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ashoka",
+      "tier": "power",
+      "t": "Mauryan emperor Ashoka converted after the bloody Kalinga War and spread its ideals with rock and pillar edicts",
+      "k": [
+        "ashoka",
+        "kalinga",
+        "edicts",
+        "maurya"
+      ],
+      "n": 1,
+      "rabbit": "Ashoka"
+    },
+    {
+      "id": "revival",
+      "tier": "power",
+      "t": "Revived in India by Anagarika Dharmapala’s Maha Bodhi Society (1891) and B. R. Ambedkar’s mass conversion (1956)",
+      "k": [
+        "dharmapala",
+        "maha bodhi",
+        "ambedkar",
+        "1956"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pure-land",
+      "tier": "power",
+      "t": "Pure Land school: calling on Amitabha brings rebirth in a paradise called the Pure Land",
+      "k": [
+        "pure land",
+        "amitabha"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sarnath",
+      "tier": "power",
+      "t": "First sermon in the Deer Park at Sarnath, the “first turning of the wheel of dharma”; symbol: an eight-spoked wheel",
+      "k": [
+        "sarnath",
+        "deer park",
+        "first sermon",
+        "wheel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mara",
+      "tier": "power",
+      "t": "The demon Mara tempted its founder; statues show him touching the earth to call it as his witness",
+      "k": [
+        "mara",
+        "touching the earth",
+        "earth",
+        "witness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bodhisattvas",
+      "tier": "power",
+      "t": "Mahayana honors bodhisattvas, who delay nirvana to help others, like Avalokiteshvara (Guanyin in China)",
+      "k": [
+        "bodhisattvas",
+        "bodhisattva",
+        "avalokiteshvara",
+        "guanyin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diamond-sutra",
+      "tier": "power",
+      "t": "The _Diamond Sutra_ found near Dunhuang (868 CE) is the oldest dated printed book; also the _Lotus Sutra_ and _Heart Sutra_",
+      "k": [
+        "diamond sutra",
+        "dunhuang",
+        "lotus sutra",
+        "heart sutra",
+        "868"
+      ],
+      "n": 0
+    },
+    {
+      "id": "borobudur",
+      "tier": "power",
+      "t": "Borobudur in Indonesia is its largest temple; stupas are dome-shaped shrines for relics (Great Stupa at Sanchi)",
+      "k": [
+        "borobudur",
+        "stupas",
+        "stupa",
+        "sanchi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-marks",
+      "tier": "power",
+      "t": "Three marks of existence: impermanence, suffering, and anatta (no permanent self); nirvana means “blowing out”",
+      "k": [
+        "three marks",
+        "anatta",
+        "impermanence",
+        "blowing out"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "One branch, not the tree",
+    "body": "Four of the seven real tossups open with koans, the riddles used in Zen, and one also mentions the Pure Land school. Players who buzz “Zen” or “Tibetan Buddhism” on clues like those lose points, because the question wants the whole religion. Zen Buddhism is also its own answer line on this site, so you have to decide which one is being asked.",
+    "fix": "Listen for “one sect of this religion” or “one school of this religion”: that wording means the answer is the whole religion, Buddhism. Clues about Siddhartha Gautama, the Four Noble Truths, or Theravada and Mahayana together also point to Buddhism, not Zen.",
+    "line": "Real answer line: <b><u>Buddhism</u></b> (accept word forms)"
+  },
+  "freq": {
+    "rank": 2,
+    "count": 10,
+    "list": "Religion"
+  }
+}

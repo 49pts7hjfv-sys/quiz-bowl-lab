@@ -1,0 +1,458 @@
+{
+  "id": "vikings",
+  "name": "Vikings",
+  "mono": "VIK",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Norse raiders, traders & explorers · Dominated the seas, 793–1066",
+  "dates": "c. 793–1066",
+  "briefing": "For about 300 years, seafaring raiders from Scandinavia terrorized and traded across Europe in fast wooden longships. They raided monasteries like Lindisfarne, settled Iceland and Greenland, served as Byzantine bodyguards, and under Leif Erikson reached North America five centuries before Columbus. Despite their fearsome reputation, there is no real evidence they ever wore horned helmets.",
+  "answerHtml": "<b><u>Vikings</u></b> [or Norsemen; or Danes; prompt on <u>Scandinavians</u>]",
+  "accept": [
+    "vikings",
+    "norsemen",
+    "norse",
+    "danes",
+    "viking age"
+  ],
+  "prompt": [
+    "scandinavians"
+  ],
+  "reject": [
+    "odin",
+    "loki",
+    "thor",
+    "normans",
+    "battle of hastings",
+    "leif erikson",
+    "leif eriksson",
+    "anglo saxons",
+    "saxons",
+    "kievan rus",
+    "rus"
+  ],
+  "tests": {
+    "right": [
+      "Vikings",
+      "Norsemen",
+      "the Vikings",
+      "Vikngs",
+      "Viking Age"
+    ],
+    "prompt": [
+      "Scandinavians"
+    ],
+    "wrong": [
+      "Odin",
+      "Thor",
+      "Normans",
+      "Leif Erikson",
+      "Battle of Hastings",
+      "Anglo-Saxons"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Viking Expansion - The Serpent-Riders (Part 1)",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=sxItyrp55g8",
+      "note": "Short, animated · how to start their story"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Vicious Vikings | Compilation",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=IDzGv2mEazs",
+      "note": "Funny sketches on Viking life and raids"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ten Minute History - The Viking Age",
+      "source": "History Matters",
+      "url": "https://www.youtube.com/watch?v=ExvEIOWB-H0",
+      "note": "~10 minutes · solid overview of the whole age"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Vikings! - Crash Course World History 224",
+      "source": "Crash Course",
+      "url": "https://www.youtube.com/watch?v=Wc5zUK2MKNY",
+      "note": "Fast-paced, fact-dense overview"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Middle Ages for Kids: Vikings",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/middle_ages_vikings.php",
+      "note": "Short overview: raids, longships, and the end of their age"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Vikings",
+  "qb": {
+    "q": "Vikings",
+    "found": 5,
+    "tip": "All 5 Middle School/Easy High School tossups accept Norsemen or Danes and prompt on Scandinavians — know that the same group gets called by several names, and don’t confuse them with the Normans, their own descendants in France."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In 793, these raiders attacked the monastery of Lindisfarne [“LIN-diss-farn”] off the coast of Northumbria, a raid many historians mark as the start of their age. One of their later kings, Cnut [“kuh-NOOT”] the Great, ruled both Denmark and England at the same time.",
+      "r": "This group’s power in England effectively ended at the 1066 Battle of Stamford Bridge. For 10 points, name these seafaring raiders and traders from Scandinavia."
+    },
+    {
+      "p": "A force called the Great Heathen Army, made up of these raiders and including warriors known as berserkers, invaded England in the ninth century. One of its leaders, Guthrum, eventually made peace with Alfred the Great in the Treaty of Wedmore after losing the Battle of Edington.",
+      "r": "These people built fast wooden longships with shallow drafts and dragon-carved bows. For 10 points, name these seafaring raiders and traders from Scandinavia."
+    },
+    {
+      "p": "An explorer among these people, Leif Erikson, led a voyage to a land he called Vinland, reaching North America roughly five centuries before Columbus. His father, Erik the Red, had earlier founded one of this group’s settlements on Greenland.",
+      "r": "Archaeologists confirmed one of their settlements at L’Anse aux Meadows [“lahnss OH meh-doh”] in Newfoundland. For 10 points, name these Scandinavian seafarers and explorers."
+    },
+    {
+      "p": "Byzantine emperors recruited some of these raiders to serve as elite palace bodyguards called the Varangian [“vuh-RAN-jee-un”] Guard. According to legend, one of their leaders, Rurik, founded a dynasty that ruled the trading city of Novgorod [“NOV-guh-rod”].",
+      "r": "Others among this group paddled riverboats south to trade with, and sometimes raid, Constantinople. For 10 points, name these Scandinavian raiders and traders."
+    },
+    {
+      "p": "A Frankish king granted one of these people, a chieftain named Rollo, control of a region that became the Duchy of Normandy. Two of their kings, Gorm the Old and Harald Bluetooth, raised the carved Jelling [“YELL-ing”] Stones in Denmark.",
+      "r": "Modern short-range wireless technology is named for that second king. For 10 points, name these Scandinavian raiders and settlers."
+    },
+    {
+      "p": "English kings sometimes paid these raiders tribute silver called Danegeld [“DAYN-geld”] to avoid attacks. This group also captured the English city of York and ruled it under the name Jorvik [“YOR-vik”].",
+      "r": "They traveled and raided in fast longships with shallow drafts. For 10 points, name these seafaring Scandinavian raiders."
+    },
+    {
+      "p": "These raiders founded the city of Dublin in Ireland as one of their major trading settlements. Settlers of this group on Iceland founded the Althing [“AHL-thing”], often called the world’s oldest parliament.",
+      "r": "They also settled Greenland and reached Newfoundland under the explorer Leif Erikson. For 10 points, name these Scandinavian explorers and raiders."
+    },
+    {
+      "p": "These people carved messages and memorials in an alphabet of symbols called runes. Some of their nobles were buried in richly furnished ships, as in the Oseberg [“OH-suh-berg”] ship burial found in Norway.",
+      "r": "They sailed in longships with shallow drafts and dragon-carved bows. For 10 points, name these Scandinavian seafarers."
+    },
+    {
+      "p": "These people worshipped gods such as Odin and Thor, later recorded in a body of myths named for them. Archaeologists confirmed one of their settlements at L’Anse aux Meadows in Newfoundland.",
+      "r": "That settlement supports the idea that an explorer among them reached North America long before Columbus. For 10 points, name these Scandinavian raiders and explorers."
+    },
+    {
+      "p": "Slavic peoples along Russian rivers gave some of these traders the name “Rus,” possibly the origin of the name Russia. Other members of this group paddled riverboats south to trade with, and occasionally raid, Constantinople, the capital of the Byzantine Empire.",
+      "r": "A leader of theirs, Rurik, is said to have founded a trading dynasty in the region. For 10 points, name these seafaring Scandinavian raiders and traders."
+    },
+    {
+      "p": "In Greenland, these people traded with, and sometimes clashed with, Inuit people they called “skraelings” [“SKRAY-lings”]. Despite a popular modern myth, these raiders almost certainly did not wear horned helmets into battle.",
+      "r": "They are better known for sailing in longships with dragon-carved bows. For 10 points, name these Scandinavian seafarers and raiders."
+    },
+    {
+      "p": "This group’s long dominance in parts of England ended at the Battle of Stamford Bridge in 1066, fought just weeks before the Battle of Hastings. Two centuries earlier, one of their armies, the Great Heathen Army, had included warriors known as berserkers.",
+      "r": "They built fast wooden longships with shallow drafts. For 10 points, name these seafaring Scandinavian raiders."
+    },
+    {
+      "p": "A Frankish king once granted one of these people’s chieftains, Rollo, the territory that became the Duchy of Normandy. Several of their chieftains were buried in elaborately furnished ships, including the Gokstad [“GOK-stahd”] ship found in Norway.",
+      "r": "Descendants of Rollo’s settlers later crossed the English Channel and won the Battle of Hastings in 1066. For 10 points, name these Scandinavian raiders and settlers."
+    },
+    {
+      "p": "These seafarers built their longships from overlapping “clinker-built” planks around a single central keel, letting the ships sail in both open ocean and shallow rivers. Many of their ships also featured a carved dragon or serpent head on the bow.",
+      "r": "They used these ships for both long-distance trade and coastal raids across medieval Europe. For 10 points, name these Scandinavian seafaring raiders and traders."
+    },
+    {
+      "p": "This group came from what are now Norway, Denmark, and Sweden, and historians generally date their age from the 793 raid on Lindisfarne to their defeat at the Battle of Stamford Bridge in 1066. Byzantine writers and Slavic peoples along Russian rivers called some of these traders the “Rus.”",
+      "r": "They are popularly, but inaccurately, remembered for wearing horned helmets into battle. For 10 points, name these seafaring raiders, traders, and explorers from Scandinavia."
+    }
+  ],
+  "clues": [
+    {
+      "id": "scandinavia-origin",
+      "tier": "giveaway",
+      "t": "Seafaring raiders, traders, and explorers from Scandinavia, active about 793–1066",
+      "k": [
+        "scandinavia",
+        "seafaring raiders",
+        "793 1066"
+      ],
+      "n": 4
+    },
+    {
+      "id": "lindisfarne-793",
+      "tier": "giveaway",
+      "t": "Their 793 raid on the monastery of Lindisfarne is often called the start of their age",
+      "k": [
+        "lindisfarne",
+        "793",
+        "monastery raid"
+      ],
+      "n": 4
+    },
+    {
+      "id": "longships",
+      "tier": "giveaway",
+      "t": "Traveled and raided in fast wooden longships with shallow drafts and dragon-carved bows",
+      "k": [
+        "longships",
+        "shallow drafts",
+        "dragon carved bows"
+      ],
+      "n": 1
+    },
+    {
+      "id": "no-horned-helmets",
+      "tier": "giveaway",
+      "t": "Despite popular myth, they probably did not actually wear horned helmets",
+      "k": [
+        "horned helmets",
+        "popular myth",
+        "did not wear"
+      ],
+      "n": 2
+    },
+    {
+      "id": "leif-erikson-vinland",
+      "tier": "giveaway",
+      "t": "Explorer Leif Erikson led a voyage to a land called Vinland, reaching North America",
+      "k": [
+        "leif erikson",
+        "vinland",
+        "north america"
+      ],
+      "n": 3,
+      "rabbit": "Leif Erikson"
+    },
+    {
+      "id": "great-heathen-army",
+      "tier": "middle",
+      "t": "The Great Heathen Army invaded England and included warriors called berserkers",
+      "k": [
+        "great heathen army",
+        "berserkers",
+        "invaded england"
+      ],
+      "n": 2
+    },
+    {
+      "id": "alfred-guthrum",
+      "tier": "middle",
+      "t": "Leader Guthrum made peace with Alfred the Great in the Treaty of Wedmore",
+      "k": [
+        "guthrum",
+        "alfred the great",
+        "treaty of wedmore"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stamford-bridge",
+      "tier": "middle",
+      "t": "Their power in England ended with defeat at the Battle of Stamford Bridge in 1066",
+      "k": [
+        "stamford bridge",
+        "1066",
+        "defeat"
+      ],
+      "n": 1
+    },
+    {
+      "id": "skraelings-greenland",
+      "tier": "middle",
+      "t": "In Greenland, they traded with and clashed with Inuit people they called “skraelings”",
+      "k": [
+        "skraelings",
+        "inuit",
+        "greenland"
+      ],
+      "n": 2
+    },
+    {
+      "id": "varangian-guard",
+      "tier": "middle",
+      "t": "Served as elite bodyguards for Byzantine emperors in the Varangian Guard",
+      "k": [
+        "varangian guard",
+        "byzantine emperors",
+        "bodyguards"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rollo-normandy",
+      "tier": "middle",
+      "t": "Leader Rollo was granted the Duchy of Normandy by a Frankish king",
+      "k": [
+        "rollo",
+        "duchy of normandy",
+        "frankish king"
+      ],
+      "n": 1,
+      "rabbit": "Battle of Hastings"
+    },
+    {
+      "id": "cnut-the-great",
+      "tier": "middle",
+      "t": "King Cnut the Great ruled both Denmark and England at the same time",
+      "k": [
+        "cnut the great",
+        "denmark and england",
+        "ruled both"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jelling-bluetooth",
+      "tier": "middle",
+      "t": "Kings Gorm the Old and Harald Bluetooth raised the carved Jelling Stones in Denmark",
+      "k": [
+        "jelling stones",
+        "harald bluetooth",
+        "gorm the old"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rurik-novgorod",
+      "tier": "power",
+      "t": "Leader Rurik is said to have founded a dynasty ruling the trading city of Novgorod",
+      "k": [
+        "rurik",
+        "novgorod",
+        "founded a dynasty"
+      ],
+      "n": 1
+    },
+    {
+      "id": "danegeld",
+      "tier": "power",
+      "t": "English kings sometimes paid them tribute silver called Danegeld to avoid raids",
+      "k": [
+        "danegeld",
+        "tribute silver",
+        "paid off"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jorvik-york",
+      "tier": "power",
+      "t": "Captured the English city of York and ruled it under the name Jorvik",
+      "k": [
+        "jorvik",
+        "york",
+        "captured city"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dublin",
+      "tier": "power",
+      "t": "Founded Dublin in Ireland as one of their major trading settlements",
+      "k": [
+        "dublin",
+        "ireland",
+        "trading settlement"
+      ],
+      "n": 0
+    },
+    {
+      "id": "erik-the-red-greenland",
+      "tier": "power",
+      "t": "Leif Erikson’s father, Erik the Red, founded their first settlement in Greenland",
+      "k": [
+        "erik the red",
+        "greenland settlement",
+        "leif’s father"
+      ],
+      "n": 0
+    },
+    {
+      "id": "althing-iceland",
+      "tier": "power",
+      "t": "Settlers in Iceland founded the Althing, often called the world’s oldest parliament",
+      "k": [
+        "althing",
+        "iceland",
+        "oldest parliament"
+      ],
+      "n": 0
+    },
+    {
+      "id": "runes",
+      "tier": "power",
+      "t": "Carved messages and memorials in an alphabet of symbols called runes",
+      "k": [
+        "runes",
+        "alphabet",
+        "carved messages"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ship-burials",
+      "tier": "power",
+      "t": "Buried some nobles in richly furnished ships, as seen at Oseberg and Gokstad",
+      "k": [
+        "ship burial",
+        "oseberg",
+        "gokstad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "norse-mythology",
+      "tier": "power",
+      "t": "Worshipped gods such as Odin and Thor, later recorded in their own mythology",
+      "k": [
+        "odin and thor",
+        "mythology",
+        "worshipped gods"
+      ],
+      "n": 0
+    },
+    {
+      "id": "l-anse-aux-meadows",
+      "tier": "power",
+      "t": "Archaeologists confirmed their presence in Newfoundland at L’Anse aux Meadows",
+      "k": [
+        "l’anse aux meadows",
+        "newfoundland",
+        "archaeologists confirmed"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kievan-rus",
+      "tier": "power",
+      "t": "Along Russian rivers, Slavic peoples called some of these traders the “Rus”",
+      "k": [
+        "rus",
+        "slavic peoples",
+        "russian rivers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "byzantine-trade-route",
+      "tier": "power",
+      "t": "Paddled riverboats south to trade with and raid Constantinople, the Byzantine capital",
+      "k": [
+        "constantinople",
+        "riverboats",
+        "byzantine capital"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Vikings, Normans, or gods?",
+    "body": "A tossup describing the Norse religion is really about these raiders even when it names gods like Odin or Thor — those gods are a different, wrong answer. Going the other direction, Rollo’s Viking settlers in France eventually became French-speaking Normans, so the 1066 Battle of Hastings belongs to the Normans and Anglo-Saxons, not literally to these raiders — their own English story had already ended weeks earlier at the Battle of Stamford Bridge.",
+    "fix": "If the clue names a specific god or myth, the answer is still the people, not the god. If the clue is about Hastings, William the Conqueror, or 1066 England specifically, it probably wants the Normans — a related but separate answer from these raiders.",
+    "line": "Real answer line: <b><u>Vikings</u></b> [or Norsemen; or Danes; prompt on Scandinavians]"
+  },
+  "freq": {
+    "rank": 17,
+    "count": 5,
+    "list": "European History"
+  }
+}

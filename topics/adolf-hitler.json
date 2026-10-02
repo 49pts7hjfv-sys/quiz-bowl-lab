@@ -1,0 +1,465 @@
+{
+  "id": "adolf-hitler",
+  "name": "Adolf Hitler",
+  "mono": "HTL",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Nazi dictator · Started World War II in Europe, ordered the Holocaust",
+  "dates": "1889–1945",
+  "briefing": "Adolf Hitler rose from a failed 1923 coup to become Germany’s dictator, turning a defeated, struggling nation into a war machine built on hatred. As _Führer_, he tore up the Treaty of Versailles and invaded Poland in 1939 to start World War II in Europe. He ordered the Holocaust, the murder of six million Jews and millions of others, before taking his own life in 1945 as Allied armies closed in on Berlin.",
+  "answerHtml": "<b><u>Adolf Hitler</u></b> (or <u>Hitler</u>; prompt on “the Führer”)",
+  "accept": [
+    "adolf hitler",
+    "hitler",
+    "hilter"
+  ],
+  "prompt": [
+    "fuhrer",
+    "the fuhrer"
+  ],
+  "reject": [
+    "heinrich himmler",
+    "himmler",
+    "hermann goring",
+    "hermann goering",
+    "goring",
+    "goering",
+    "joseph goebbels",
+    "goebbels",
+    "rudolf hess",
+    "hess",
+    "erwin rommel",
+    "rommel",
+    "paul von hindenburg",
+    "hindenburg",
+    "eva braun",
+    "benito mussolini",
+    "mussolini",
+    "joseph stalin",
+    "stalin",
+    "winston churchill",
+    "churchill",
+    "martin bormann",
+    "bormann"
+  ],
+  "tests": {
+    "right": [
+      "Hitler",
+      "Adolf Hitler",
+      "Hiter",
+      "Hilter",
+      "Chancellor Hitler"
+    ],
+    "prompt": [
+      "Fuhrer",
+      "The Fuhrer"
+    ],
+    "wrong": [
+      "Heinrich Himmler",
+      "Hermann Goring",
+      "Benito Mussolini",
+      "Joseph Stalin",
+      "Winston Churchill"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How did Hitler rise to power?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=jFICRFKtAc4",
+      "note": "Short · the propaganda and political missteps that let him take over"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Initial rise of Hitler and the Nazis",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=QCkn5bu8GgM",
+      "note": "Short · the Nazi Party's early growth in the 1920s"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Hitler and the Nazis come to power",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=EtZnPoYbRyA",
+      "note": "Short · how he became chancellor and then dictator"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Really Happened to Hitler in the Bunker",
+      "source": "Simple History",
+      "url": "https://www.youtube.com/watch?v=3k-HbACK31g",
+      "note": "His final days in Berlin and death in 1945"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Holocaust, Genocides, and Mass Murder of WWII: Crash Course European History #40",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=iQeDvnapdlg",
+      "note": "Bigger picture: the genocide his regime carried out"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Adolf Hitler for Kids",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/adolf_hitler.php",
+      "note": "Short, kid-friendly biography covering his rise, rule, and death"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+  "qb": {
+    "q": "Hitler",
+    "found": 2,
+    "tip": "Only 2 real Middle School/Easy High School tossups use “Adolf Hitler” himself as the answer — most other Hitler-adjacent real tossups at this level make something else the answer instead (Nazi Party, Operation Barbarossa, Hitler Youth, or the plot to kill him), so most clues below rest on well-established history rather than a deep stock sample."
+  },
+  "sample": {
+    "n": 2,
+    "note": "the 2 real QBReader tossups for this answer line (Middle School/Easy High School, power-marked); one is officially answered “Nazi Party” but accepts “Adolf Hitler” before that party is named"
+  },
+  "tossups": [
+    {
+      "p": "This man’s propaganda minister, Joseph Goebbels [“GUR-bulls”], used radio and film to spread this man’s message across Germany. This man’s paramilitary SS and SA organizations enforced his rule and persecuted his political enemies.",
+      "r": "This man rebuilt Germany’s military in defiance of the Treaty of Versailles and then invaded Poland in September 1939 to start World War II in Europe. For 10 points, name this dictator who led Nazi Germany and ordered the Holocaust."
+    },
+    {
+      "p": "After a failed 1923 coup known as the Beer Hall Putsch, this man was sent to prison, where he wrote _Mein Kampf_ [“mine KAHMPF”]. President Paul von Hindenburg appointed this man chancellor of Germany in 1933.",
+      "r": "This man then used the Enabling Act, passed after a fire at the Reichstag building, to begin ruling by decree. For 10 points, name this Nazi dictator who ordered the Holocaust and started World War II in Europe."
+    },
+    {
+      "p": "This man’s deputy, Rudolf Hess, flew to Britain on an unauthorized peace mission in 1941, the same year this man broke a non-aggression pact by invading the Soviet Union in Operation Barbarossa. Secretary Martin Bormann later became one of this man’s closest aides.",
+      "r": "This man formed the Axis alliance with Italy’s Benito Mussolini. For 10 points, name this German dictator who took his own life in a Berlin bunker in 1945."
+    },
+    {
+      "p": "This man annexed Austria in the 1938 Anschluss [“AHN-shloos”] and then absorbed the Sudetenland before invading the rest of Czechoslovakia. His 1939 non-aggression pact with the Soviet Union was called the Molotov-Ribbentrop Pact.",
+      "r": "This man’s government stripped Jewish people of citizenship and civil rights under the 1935 Nuremberg Laws. For 10 points, name this Nazi dictator responsible for the Holocaust."
+    },
+    {
+      "p": "Officers led by Claus von Stauffenberg tried to kill this man with a briefcase bomb in the failed July 20, 1944 plot. Earlier, Hindenburg’s death had let this man combine the presidency and chancellorship into a single title.",
+      "r": "He then declared war on the United States following Japan’s attack on Pearl Harbor. For 10 points, name this dictator of Nazi Germany who ordered the Holocaust before dying by suicide in 1945."
+    },
+    {
+      "p": "This man was born in the Austrian town of Braunau am Inn in 1889. He led the National Socialist German Workers’ Party, nicknamed for short after its first two words.",
+      "r": "This man’s regime murdered six million Jews and millions of others in the Holocaust. For 10 points, name this dictator who started World War II in Europe by invading Poland."
+    },
+    {
+      "p": "This man’s attempt to seize power in a Munich beer hall failed in 1923, landing him in prison, where he wrote a book describing his hatred of Jewish people and his belief in German expansion. Paul von Hindenburg named this man chancellor in 1933.",
+      "r": "This man then used a fire at the Reichstag building as an excuse to grab emergency powers. For 10 points, name this Nazi leader who ordered the Holocaust and started World War II in Europe."
+    },
+    {
+      "p": "This man’s propaganda chief was Joseph Goebbels, while his paramilitary forces included the SS and the SA. This man’s government passed the Nuremberg Laws in 1935, stripping Jewish Germans of their citizenship.",
+      "r": "This man broke his own non-aggression pact with the Soviet Union by launching Operation Barbarossa in 1941. For 10 points, name this dictator of Nazi Germany."
+    },
+    {
+      "p": "Rudolf Hess served as this man’s deputy before his strange solo flight to Britain in 1941. This man’s forces annexed Austria in the Anschluss and then took the Sudetenland region of Czechoslovakia in 1938.",
+      "r": "This man’s invasion of Poland in September 1939 started World War II in Europe. For 10 points, name this German dictator who ordered the mass murder of six million Jews in the Holocaust."
+    },
+    {
+      "p": "After Hindenburg died in 1934, this man merged the presidency and chancellorship and took the title Führer. Years earlier, a failed coup called the Beer Hall Putsch had landed this man in prison, where he wrote _Mein Kampf_.",
+      "r": "This man’s regime enforced its rule through the paramilitary SS and SA. For 10 points, name this Nazi dictator who started World War II and ordered the Holocaust."
+    },
+    {
+      "p": "This man’s government signed the Molotov-Ribbentrop Pact with the Soviet Union in August 1939, then broke it less than two years later with Operation Barbarossa. His foreign policy had already absorbed Austria and the Sudetenland without a fight.",
+      "r": "Officers nearly killed this man with a bomb in the July 20, 1944 plot. For 10 points, name this dictator who took his own life in Berlin in 1945."
+    },
+    {
+      "p": "This man’s government used the Enabling Act, passed after the Reichstag fire, to eliminate rival political parties. This man had earlier been imprisoned after the 1923 Beer Hall Putsch in Munich.",
+      "r": "This man declared war on the United States days after Japan attacked Pearl Harbor in 1941. For 10 points, name this Nazi dictator responsible for the Holocaust and World War II in Europe."
+    },
+    {
+      "p": "Secretary Martin Bormann and propaganda chief Joseph Goebbels were two of this man’s closest aides. This man was born in Austria in 1889 and later led the National Socialist German Workers’ Party.",
+      "r": "This man’s invasion of Poland in 1939 began World War II in Europe. For 10 points, name this dictator who ordered the systematic murder of six million Jews and millions of others in the Holocaust."
+    },
+    {
+      "p": "This man’s SS and SA paramilitary groups helped him seize and keep power after President Hindenburg named him chancellor in 1933. His government’s 1935 Nuremberg Laws stripped Jewish citizens of their rights.",
+      "r": "This man’s forces invaded Poland on September 1, 1939. For 10 points, name this German dictator who ordered the Holocaust before his death in a Berlin bunker in 1945."
+    },
+    {
+      "p": "This man wrote _Mein Kampf_ in prison after the 1923 Beer Hall Putsch failed. He annexed Austria in 1938’s Anschluss and then absorbed the Sudetenland before breaking his word and invading the rest of Czechoslovakia.",
+      "r": "This man allied with Benito Mussolini’s Italy to form the Axis powers. For 10 points, name this dictator of Nazi Germany who ordered the Holocaust and started World War II in Europe."
+    }
+  ],
+  "clues": [
+    {
+      "id": "nazi-germany-dictator",
+      "tier": "giveaway",
+      "t": "Led Nazi Germany as dictator from 1933 to 1945",
+      "k": [
+        "nazi germany",
+        "dictator",
+        "1933"
+      ],
+      "n": 1
+    },
+    {
+      "id": "invaded-poland",
+      "tier": "giveaway",
+      "t": "Started World War II in Europe by invading Poland on September 1, 1939",
+      "k": [
+        "world war ii",
+        "poland",
+        "1939"
+      ],
+      "n": 1
+    },
+    {
+      "id": "holocaust",
+      "tier": "giveaway",
+      "t": "Ordered the Holocaust, the systematic murder of six million Jews and millions of others",
+      "k": [
+        "holocaust",
+        "six million",
+        "jews"
+      ],
+      "n": 0
+    },
+    {
+      "id": "berlin-bunker-death",
+      "tier": "giveaway",
+      "t": "Took his own life in a Berlin bunker in April 1945 as Soviet troops closed in",
+      "k": [
+        "berlin bunker",
+        "1945",
+        "soviet troops"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mein-kampf",
+      "tier": "middle",
+      "t": "Wrote _Mein Kampf_ [“mine KAHMPF”] in prison after a failed 1923 coup attempt",
+      "k": [
+        "mein kampf",
+        "1923",
+        "prison"
+      ],
+      "n": 1
+    },
+    {
+      "id": "beer-hall-putsch",
+      "tier": "middle",
+      "t": "That failed coup, the Beer Hall Putsch, took place in Munich",
+      "k": [
+        "beer hall putsch",
+        "munich",
+        "coup"
+      ],
+      "n": 2
+    },
+    {
+      "id": "became-chancellor",
+      "tier": "middle",
+      "t": "Became German chancellor in 1933 after being appointed by President Paul von Hindenburg",
+      "k": [
+        "chancellor",
+        "1933",
+        "hindenburg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "enabling-act",
+      "tier": "middle",
+      "t": "The Enabling Act, passed after the Reichstag fire, let him rule by decree",
+      "k": [
+        "enabling act",
+        "reichstag fire",
+        "decree"
+      ],
+      "n": 1
+    },
+    {
+      "id": "treaty-of-versailles",
+      "tier": "middle",
+      "t": "Broke the Treaty of Versailles by rebuilding Germany’s military in the 1930s",
+      "k": [
+        "treaty of versailles",
+        "rebuilding",
+        "military"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anschluss-sudetenland",
+      "tier": "middle",
+      "t": "Annexed Austria in the 1938 Anschluss [“AHN-shloos”] and then took the Sudetenland",
+      "k": [
+        "anschluss",
+        "austria",
+        "sudetenland"
+      ],
+      "n": 0
+    },
+    {
+      "id": "operation-barbarossa",
+      "tier": "middle",
+      "t": "Broke his non-aggression pact with the Soviet Union by invading it in 1941’s Operation Barbarossa",
+      "k": [
+        "operation barbarossa",
+        "soviet union",
+        "1941"
+      ],
+      "n": 0
+    },
+    {
+      "id": "july-20-plot",
+      "tier": "middle",
+      "t": "Survived a July 1944 assassination attempt by his own officers, known as the July 20 plot",
+      "k": [
+        "july 20 plot",
+        "assassination attempt",
+        "1944"
+      ],
+      "n": 0
+    },
+    {
+      "id": "born-austria",
+      "tier": "power",
+      "t": "Born in Braunau am Inn, Austria, in 1889",
+      "k": [
+        "braunau",
+        "austria",
+        "1889"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nazi-party",
+      "tier": "power",
+      "t": "Led the National Socialist German Workers’ Party, nicknamed the Nazi Party",
+      "k": [
+        "national socialist",
+        "nazi party",
+        "workers party"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ss-and-sa",
+      "tier": "power",
+      "t": "His paramilitary SS and SA organizations enforced his rule and persecuted his enemies",
+      "k": [
+        "ss and sa",
+        "paramilitary",
+        "enforced"
+      ],
+      "n": 1
+    },
+    {
+      "id": "goebbels",
+      "tier": "power",
+      "t": "Propaganda minister Joseph Goebbels [“GUR-bulls”] spread his message across Germany",
+      "k": [
+        "goebbels",
+        "propaganda minister",
+        "germany"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fuhrer-title",
+      "tier": "power",
+      "t": "After President Hindenburg’s death in 1934, he merged the presidency and chancellorship and took the title Führer",
+      "k": [
+        "fuhrer",
+        "1934",
+        "merged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nuremberg-laws",
+      "tier": "power",
+      "t": "Stripped Jewish people of German citizenship and civil rights with the 1935 Nuremberg Laws",
+      "k": [
+        "nuremberg laws",
+        "1935",
+        "citizenship"
+      ],
+      "n": 0
+    },
+    {
+      "id": "molotov-ribbentrop",
+      "tier": "power",
+      "t": "His government signed a 1939 non-aggression pact with the Soviet Union, the Molotov-Ribbentrop Pact, before breaking it",
+      "k": [
+        "molotov ribbentrop",
+        "non aggression pact",
+        "1939"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pearl-harbor",
+      "tier": "power",
+      "t": "Declared war on the United States days after Japan’s attack on Pearl Harbor in December 1941",
+      "k": [
+        "pearl harbor",
+        "declared war",
+        "1941"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rudolf-hess-flight",
+      "tier": "power",
+      "t": "Deputy Rudolf Hess flew to Britain in 1941 on an unauthorized peace mission",
+      "k": [
+        "rudolf hess",
+        "1941",
+        "britain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "axis-alliance",
+      "tier": "power",
+      "t": "Formed the Axis alliance with Benito Mussolini’s Italy and later with Japan",
+      "k": [
+        "axis alliance",
+        "mussolini",
+        "italy"
+      ],
+      "n": 0,
+      "rabbit": "Benito Mussolini"
+    },
+    {
+      "id": "stauffenberg-plot",
+      "tier": "power",
+      "t": "Claus von Stauffenberg led the July 20, 1944 plot to try to kill him with a briefcase bomb",
+      "k": [
+        "stauffenberg",
+        "july 20",
+        "briefcase bomb"
+      ],
+      "n": 0
+    },
+    {
+      "id": "martin-bormann",
+      "tier": "power",
+      "t": "Secretary Martin Bormann became one of his closest aides in the war’s final years",
+      "k": [
+        "martin bormann",
+        "secretary",
+        "aide"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Hitler, not party or aides",
+    "body": "Real packets let “Adolf Hitler” score early on some tossups whose official answer is “Nazi Party,” since he led it — but once the question actually names the party, only “Nazi Party” counts. Players also confuse him with his own subordinates (Himmler, Göring, Goebbels, Hess) and with his fellow dictator Mussolini, who led Italy, not Germany.",
+    "fix": "If the clues describe Germany’s government, _Mein Kampf_, or being Führer and Chancellor, give his name. If the question is clearly asking for an organization (“this party,” “this corps”) or names a different person’s specific role, hold off.",
+    "line": "Real answer line: <b><u>Adolf Hitler</u></b>"
+  },
+  "freq": {
+    "rank": 58,
+    "count": 2,
+    "list": "European History"
+  }
+}

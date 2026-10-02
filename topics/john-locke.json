@@ -1,0 +1,372 @@
+{
+  "id": "john-locke",
+  "name": "John Locke",
+  "mono": "JL",
+  "category": "Philosophy",
+  "qbCategory": "Philosophy",
+  "kicker": "English philosopher · Tabula rasa, natural rights, and the social contract",
+  "dates": "1632–1704",
+  "briefing": "John Locke believed every baby’s mind starts out as a blank slate, or tabula rasa, filled in only later by experience. In his _Two Treatises of Government_, he argued that all people have natural rights to life, liberty, and property, and that a government which tramples those rights can rightfully be overthrown. Decades later, Thomas Jefferson echoed Locke’s language when he wrote the Declaration of Independence.",
+  "answerHtml": "John <b><u>Locke</u></b>",
+  "accept": [
+    "locke",
+    "john locke"
+  ],
+  "prompt": [],
+  "reject": [
+    "alain locke",
+    "thomas hobbes",
+    "jean jacques rousseau",
+    "rousseau",
+    "david hume",
+    "adam smith",
+    "voltaire"
+  ],
+  "tests": {
+    "right": [
+      "John Locke",
+      "Locke",
+      "Lock",
+      "Jon Locke"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Thomas Hobbes",
+      "Rousseau",
+      "David Hume",
+      "Alain Locke",
+      "Adam Smith"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "John Locke, Natural Rights",
+      "source": "NBC News Learn",
+      "url": "https://www.youtube.com/watch?v=T7-Abmn9lZY",
+      "note": "Classroom video on his idea of natural rights to life, liberty, and property"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "POLITICAL THEORY - John Locke",
+      "source": "The School of Life",
+      "url": "https://www.youtube.com/watch?v=bZiWZJgJT7I",
+      "note": "Illustrated overview of his life and his ideas about government by consent"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Locke, Berkeley, & Empiricism: Crash Course Philosophy #6",
+      "source": "Crash Course Philosophy",
+      "url": "https://www.youtube.com/watch?v=5C-s4JrymKM",
+      "note": "Hank Green on Locke’s “blank slate” idea of knowledge, and Berkeley’s reply"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "John Locke facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/John_Locke",
+      "note": "Quick read: his life, the “blank slate,” natural rights, and his major writings"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/John_Locke",
+  "qb": {
+    "q": "Locke",
+    "found": 8,
+    "tip": "One of the eight results is a totally unrelated song tossup (answer: “Heaven”) that only matched because of the word “Locked” — skip it. The other seven are all this philosopher."
+  },
+  "sample": {
+    "n": 7,
+    "note": "7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This thinker argued that governments gain their power only from the consent of the people they govern, and that people who agree to form a society give up some freedom from a peaceful “state of nature” in exchange for protection. He wrote that no one ought to harm another “in his life, health, liberty, or possessions.”",
+      "r": "That line comes from a work that inspired the Declaration of Independence. For 10 points, name this English philosopher who described the mind at birth as a “blank slate.”"
+    },
+    {
+      "p": "This philosopher wrote that “no one ought to harm another in his life, health, liberty, or possessions,” and argued that people may rightfully overthrow a government that fails to protect those rights. He also attacked atheists as untrustworthy citizens in a work defending religious tolerance among Christians.",
+      "r": "That work on toleration appeared around the same time as an essay describing the mind as a “blank slate,” or tabula rasa. For 10 points, name this English philosopher whose social contract theory inspired the Declaration of Independence."
+    },
+    {
+      "p": "In the first of a pair of treatises, this philosopher set out to “overthrow” the “false principles and foundation” of Sir Robert Filmer, who had defended the divine right of kings. The second treatise then argued that legitimate government rests only on the consent of the governed.",
+      "r": "The two are usually published together as his _Two Treatises of Government_. For 10 points, name this English philosopher who believed the mind begins as a blank slate."
+    },
+    {
+      "p": "This philosopher trained as a physician and once worked as personal doctor and secretary to the Earl of Shaftesbury. He later argued that a government’s power comes only from the consent of the people, not from the divine right of kings claimed by writers like Robert Filmer.",
+      "r": "That argument appears in his _Two Treatises of Government_, while a separate essay of his describes minds at birth as blank slates. For 10 points, name this English philosopher, a major influence on the Declaration of Independence."
+    },
+    {
+      "p": "German philosopher Gottfried Leibniz wrote a chapter-by-chapter rebuttal to one of this man’s books, defending the idea of innate ideas that this man had rejected. Bishop George Berkeley also criticized this same book, rejecting its split between “primary” and “secondary” qualities.",
+      "r": "That book, _An Essay Concerning Human Understanding_, argued the mind begins as a tabula rasa, or blank slate. For 10 points, name this English philosopher who also wrote _Two Treatises of Government_."
+    },
+    {
+      "p": "This philosopher distinguished “primary qualities,” like shape and size that truly exist in an object, from “secondary qualities,” like color and taste, which he said exist only in a perceiving mind. He proposed that personal identity depends on a continuous chain of memory, not an unchanging soul.",
+      "r": "Those ideas appear in his _Essay Concerning Human Understanding_. For 10 points, name this English philosopher who described the mind at birth as a “blank slate.”"
+    },
+    {
+      "p": "This philosopher argued that people are born with no innate ideas at all, gaining every idea only through experience, a claim that made him a founder of empiricism. He was also a member of the Royal Society and a close friend of the scientist Robert Boyle.",
+      "r": "For 10 points, name this English philosopher who compared the newborn mind to a tabula rasa, or “blank slate,” in his _Essay Concerning Human Understanding_."
+    },
+    {
+      "p": "This philosopher’s two-part political work refutes Robert Filmer’s defense of absolute monarchy before laying out a theory of natural rights. He published that work anonymously, fearing political trouble, and its authorship was only confirmed after his death.",
+      "r": "That work, _Two Treatises of Government_, named rights to life, liberty, and property. For 10 points, name this English philosopher who also wrote _An Essay Concerning Human Understanding_."
+    },
+    {
+      "p": "This philosopher argued that a government is bound by a trust: if rulers break that trust by threatening the natural rights of the people, the people regain the right to resist and form a new government. He laid out that theory of social contract in two linked treatises.",
+      "r": "He listed life, liberty, and property as the natural rights that government must protect. For 10 points, name this English philosopher, a major influence on Thomas Jefferson."
+    },
+    {
+      "p": "This philosopher wrote _A Letter Concerning Toleration_ arguing that governments should allow most Christian groups to worship freely, though he still distrusted atheists. He is sometimes called the “Father of Liberalism” for his influence on individual rights and limited government.",
+      "r": "He is better remembered for describing the mind at birth as a tabula rasa. For 10 points, name this English philosopher who wrote _Two Treatises of Government_."
+    },
+    {
+      "p": "This philosopher proposed that objects only truly possess qualities like shape, size, and motion, while qualities like color and smell exist only inside a perceiving mind. He set out this distinction between primary and secondary qualities in an essay about human understanding.",
+      "r": "That essay also compares the newborn mind to a blank slate. For 10 points, name this English philosopher whose ideas about natural rights to life, liberty, and property inspired the Declaration of Independence."
+    },
+    {
+      "p": "This philosopher imagined a peaceful “state of nature” that people leave behind by consenting to form a government, a very different picture from the violent state of nature described by Thomas Hobbes. He is considered a founder of classical liberalism.",
+      "r": "He named life, liberty, and property as rights no government may violate. For 10 points, name this English philosopher who described the newborn mind as a blank slate."
+    },
+    {
+      "p": "This philosopher argued that complex ideas are built up from simple ideas that enter the mind only through the senses or through reflecting on one’s own thoughts. He rejected the theory, defended by thinkers like Descartes, that some ideas are innate from birth.",
+      "r": "For 10 points, name this English empiricist who wrote _An Essay Concerning Human Understanding_ and compared the mind at birth to a tabula rasa."
+    },
+    {
+      "p": "This philosopher’s _Essay Concerning Human Understanding_ describes the mind at birth as “white paper, void of all characters,” a phrase that became famous as tabula rasa. He also worked for England’s Board of Trade later in life.",
+      "r": "His _Two Treatises of Government_ argued that revolution is justified when rulers violate natural rights. For 10 points, name this English philosopher who influenced the Declaration of Independence."
+    },
+    {
+      "p": "This philosopher’s Second Treatise argues that property is created when a person mixes their own labor with something found in nature, like land or wood. His First Treatise, meanwhile, directly refutes Sir Robert Filmer’s _Patriarcha_.",
+      "r": "Together, those works are usually printed as _Two Treatises of Government_. For 10 points, name this English philosopher who described the newborn mind as a tabula rasa."
+    }
+  ],
+  "clues": [
+    {
+      "id": "tabula-rasa",
+      "tier": "giveaway",
+      "t": "Tabula rasa: the mind is a “blank slate” at birth, with no innate ideas",
+      "k": [
+        "tabula rasa",
+        "blank slate"
+      ],
+      "n": 7
+    },
+    {
+      "id": "natural-rights",
+      "tier": "giveaway",
+      "t": "Natural rights to life, liberty, and property that government must protect",
+      "k": [
+        "life liberty",
+        "property",
+        "natural rights"
+      ],
+      "n": 6
+    },
+    {
+      "id": "declaration-influence",
+      "tier": "giveaway",
+      "t": "His ideas on natural rights and the social contract influenced the Declaration of Independence",
+      "k": [
+        "declaration of independence",
+        "jefferson"
+      ],
+      "n": 3
+    },
+    {
+      "id": "english-philosopher",
+      "tier": "giveaway",
+      "t": "English philosopher (1632–1704), a founder of the Enlightenment and of empiricism",
+      "k": [
+        "english",
+        "1632",
+        "1704"
+      ],
+      "n": 0
+    },
+    {
+      "id": "essay-human-understanding",
+      "tier": "giveaway",
+      "t": "Wrote _An Essay Concerning Human Understanding_, arguing all knowledge comes from experience",
+      "k": [
+        "essay concerning human understanding"
+      ],
+      "n": 7
+    },
+    {
+      "id": "two-treatises",
+      "tier": "middle",
+      "t": "Wrote _Two Treatises of Government_, defending natural rights and the social contract",
+      "k": [
+        "two treatises"
+      ],
+      "n": 6
+    },
+    {
+      "id": "filmer",
+      "tier": "middle",
+      "t": "His First Treatise refutes Sir Robert Filmer’s defense of the divine right of kings",
+      "k": [
+        "filmer",
+        "divine right"
+      ],
+      "n": 3,
+      "rabbit": "divine right of kings"
+    },
+    {
+      "id": "right-of-revolution",
+      "tier": "middle",
+      "t": "Argued people have a right to overthrow a government that fails to protect their natural rights",
+      "k": [
+        "overthrow",
+        "revolution",
+        "right to resist"
+      ],
+      "n": 3
+    },
+    {
+      "id": "letter-toleration",
+      "tier": "middle",
+      "t": "Wrote _A Letter Concerning Toleration_, defending religious tolerance among Christians but distrusting atheists",
+      "k": [
+        "letter concerning toleration",
+        "toleration"
+      ],
+      "n": 4
+    },
+    {
+      "id": "consent-of-governed",
+      "tier": "middle",
+      "t": "Believed legitimate government rests only on the “consent of the governed”",
+      "k": [
+        "consent of the governed",
+        "consent"
+      ],
+      "n": 1
+    },
+    {
+      "id": "empiricism",
+      "tier": "middle",
+      "t": "A founder of empiricism: the idea that all knowledge comes from sense experience, not innate reason",
+      "k": [
+        "empiricism",
+        "sense experience"
+      ],
+      "n": 1,
+      "rabbit": "René Descartes"
+    },
+    {
+      "id": "physician-shaftesbury",
+      "tier": "middle",
+      "t": "Trained as a physician and worked as personal doctor and secretary to the Earl of Shaftesbury",
+      "k": [
+        "physician",
+        "shaftesbury"
+      ],
+      "n": 1
+    },
+    {
+      "id": "leibniz-rebuttal",
+      "tier": "power",
+      "t": "Gottfried Leibniz wrote a chapter-by-chapter rebuttal to his _Essay_, defending innate ideas",
+      "k": [
+        "leibniz"
+      ],
+      "n": 2
+    },
+    {
+      "id": "berkeley-critique",
+      "tier": "power",
+      "t": "Bishop George Berkeley criticized his _Essay_, rejecting its split between primary and secondary qualities",
+      "k": [
+        "berkeley"
+      ],
+      "n": 1
+    },
+    {
+      "id": "primary-secondary-qualities",
+      "tier": "power",
+      "t": "Distinguished primary qualities (shape, size — really in objects) from secondary qualities (color, taste — only in perception)",
+      "k": [
+        "primary qualities",
+        "secondary qualities"
+      ],
+      "n": 2
+    },
+    {
+      "id": "personal-identity-memory",
+      "tier": "power",
+      "t": "Argued personal identity depends on a continuous chain of memory and consciousness, not an unchanging soul",
+      "k": [
+        "personal identity",
+        "memory",
+        "consciousness"
+      ],
+      "n": 1
+    },
+    {
+      "id": "father-liberalism",
+      "tier": "power",
+      "t": "Sometimes called the “Father of Liberalism” for his influence on individual rights and limited government",
+      "k": [
+        "father of liberalism",
+        "classical liberalism"
+      ],
+      "n": 1
+    },
+    {
+      "id": "royal-society",
+      "tier": "power",
+      "t": "A member of the Royal Society and a close friend of the scientist Robert Boyle",
+      "k": [
+        "royal society",
+        "robert boyle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anonymous-publication",
+      "tier": "power",
+      "t": "Published _Two Treatises of Government_ anonymously, fearing political trouble; confirmed as the author only after his death",
+      "k": [
+        "anonymously",
+        "anonymous"
+      ],
+      "n": 1
+    },
+    {
+      "id": "labor-property",
+      "tier": "power",
+      "t": "Argued property is created when a person mixes their own labor with something found in nature",
+      "k": [
+        "labor",
+        "mixes labor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "state-of-nature",
+      "tier": "power",
+      "t": "Pictured a relatively peaceful “state of nature” before government — unlike the violent one described by Thomas Hobbes",
+      "k": [
+        "state of nature"
+      ],
+      "n": 1,
+      "rabbit": "Thomas Hobbes"
+    }
+  ],
+  "trap": {
+    "title": "Which social contract thinker?",
+    "body": "Locke, Thomas Hobbes, and Jean-Jacques Rousseau all wrote about a “social contract” and a “state of nature,” so hearing those words alone is not enough to know which one to buzz. Each philosopher pictured the state of nature very differently and drew a different conclusion about government from it.",
+    "fix": "Hobbes: a violent state of nature (“war of every man against every man”), _Leviathan_, an all-powerful ruler. Locke: a peaceful state of nature, natural rights to life, liberty, and property, tabula rasa, limited government by consent. Rousseau: the “general will” and the idea that people are naturally good but corrupted by society.",
+    "line": "Real answer line: John <b><u>Locke</u></b>"
+  },
+  "freq": {
+    "rank": 1,
+    "count": 10,
+    "list": "Philosophy"
+  }
+}

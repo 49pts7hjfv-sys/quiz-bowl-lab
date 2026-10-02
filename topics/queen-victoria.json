@@ -1,0 +1,502 @@
+{
+  "id": "queen-victoria",
+  "name": "Queen Victoria",
+  "mono": "QV",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Queen of Britain, 1837–1901 · Reigned over the height of the empire",
+  "dates": "Reigned 1837–1901",
+  "briefing": "Victoria became queen at just eighteen and reigned for 63 years, so long that historians named a whole era after her. She married her cousin Prince Albert, raised nine children, and wore black for nearly 40 years after he died. By the time Disraeli made her Empress of India in 1876, the British Empire stretched around the globe.",
+  "answerHtml": "<b><u>Queen Victoria</u></b> (prompt on <u>Victoria</u>)",
+  "accept": [
+    "queen victoria",
+    "alexandrina victoria",
+    "victoria i",
+    "victoria of the united kingdom"
+  ],
+  "prompt": [
+    "victoria"
+  ],
+  "reject": [
+    "prince albert",
+    "albert",
+    "albert of saxe coburg and gotha",
+    "edward vii",
+    "elizabeth i",
+    "elizabeth ii",
+    "victoria falls",
+    "lake victoria",
+    "victoria australia",
+    "victoria day",
+    "victoria princess royal",
+    "princess royal",
+    "duchess of kent",
+    "benjamin disraeli",
+    "disraeli",
+    "william gladstone",
+    "gladstone",
+    "robert peel",
+    "lord melbourne",
+    "john conroy",
+    "abdul karim",
+    "victorian era"
+  ],
+  "tests": {
+    "right": [
+      "Queen Victoria",
+      "Alexandrina Victoria",
+      "Qeen Victoria",
+      "the queen Victoria",
+      "Victoria I"
+    ],
+    "prompt": [
+      "Victoria"
+    ],
+    "wrong": [
+      "Prince Albert",
+      "Albert",
+      "Edward VII",
+      "Elizabeth II",
+      "Disraeli",
+      "Victoria Falls",
+      "Lake Victoria"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Queen Victoria: The Queen Who Led During Big Changes",
+      "source": "Teach with Historic Royal Palaces",
+      "url": "https://www.youtube.com/watch?v=6XMoh5dr8TA",
+      "note": "Short · simple intro to her life and reign"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Ultimate Victorian, Queen Victoria",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=XqPIj2_w_6M",
+      "note": "Her life and the changes of her reign"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Discover the Real Queen Victoria at Kensington Palace",
+      "source": "Historic Royal Palaces",
+      "url": "https://www.youtube.com/watch?v=QZowX8PPPaw",
+      "note": "A look at her childhood home and what she was really like"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Queen Victoria at Kensington Palace with Lucy Worsley",
+      "source": "History Hit",
+      "url": "https://www.youtube.com/watch?v=yij5LSuT70k",
+      "note": "A historian walks through the palace where she grew up"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Queen Victoria for Kids",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/women_leaders/queen_victoria.php",
+      "note": "Short biography: her reign, family, and the Victorian Era"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Queen_Victoria",
+  "qb": {
+    "q": "Queen Victoria",
+    "found": 2,
+    "tip": "Only 2 Middle School/Easy High School tossups; most of the real question pool is Regular High School, including two geography “common link” tossups about places named after her (Victoria Falls, Lake Victoria) rather than her own life — know those namesakes but don’t expect them to lead the clues."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups (2 Middle School/Easy High School + 7 Regular High School, power-marked) for this answer line"
+  },
+  "tossups": [
+    {
+      "p": "After an 1857 rebellion against the East India Company, Britain took direct control of the subcontinent, and in 1876 this ruler accepted the title Empress of India under the Royal Titles Act, pushed through by her favorite prime minister, Benjamin Disraeli.",
+      "r": "Earlier, the seized Koh-i-Noor diamond had been added to this ruler’s crown jewels. Her reign also saw the Great Exhibition of 1851 and the Second Reform Act of 1867. For 10 points, name this queen who ruled the United Kingdom for most of the nineteenth century."
+    },
+    {
+      "p": "As a girl, this future ruler was raised under a strict set of rules called the Kensington System, designed by her mother and the comptroller John Conroy to keep her isolated and dependent on them.",
+      "r": "In 1840 she married her cousin, Prince Albert, and the two eventually had nine children. She never stopped wearing black after he died in 1861. For 10 points, name this queen, Britain’s monarch for most of the 1800s."
+    },
+    {
+      "p": "In an early political crisis nicknamed for a piece of furniture, this ruler refused Robert Peel’s request to dismiss her ladies of the bedchamber and instead kept Lord Melbourne on as prime minister.",
+      "r": "She reigned from 1837 to 1901, becoming the second-longest-reigning monarch in British history behind only her descendant Elizabeth II. For 10 points, name this queen who ruled Britain for 63 years."
+    },
+    {
+      "p": "This ruler’s husband organized the Great Exhibition of 1851, a world’s fair held in a giant glass-and-iron building called the Crystal Palace.",
+      "r": "Two and a half decades later, Benjamin Disraeli arranged for this ruler to be proclaimed Empress of India. For 10 points, name this monarch who presided over the height of the British Empire."
+    },
+    {
+      "p": "Early in her reign, this ruler wrongly believed rumors that her mother’s lady-in-waiting, Flora Hastings, was secretly pregnant; Hastings was actually dying of cancer, and the scandal badly damaged this ruler’s popularity for a time.",
+      "r": "So many of her grandchildren married into European royal houses that she earned the nickname “Grandmother of Europe.” For 10 points, name this queen who ruled Britain through most of the nineteenth century."
+    },
+    {
+      "p": "Late in her life, this ruler’s Indian attendant Abdul Karim, known as the “Munshi,” taught her some Hindustani and became a close, controversial companion.",
+      "r": "She had married her husband Albert in 1840 and wore mourning black for nearly forty years after his death. For 10 points, name this British monarch, the namesake of a 63-year era."
+    },
+    {
+      "p": "This ruler was a carrier of hemophilia, a blood disorder that contributed to the death of her son Leopold and later spread into the Russian and German royal families through her descendants.",
+      "r": "She reigned for 63 years, a span unmatched by any previous British monarch. For 10 points, name this queen whose numerous grandchildren included Kaiser Wilhelm II and Tsarina Alexandra of Russia."
+    },
+    {
+      "p": "This ruler survived several assassination attempts over her long reign, including an 1840 shooting by a disturbed young man named Edward Oxford as she rode in a carriage with her husband.",
+      "r": "In 1876 this ruler accepted a new title, becoming the first Empress of India. For 10 points, name this monarch, Britain’s queen for most of the nineteenth century."
+    },
+    {
+      "p": "An 1887 Irish nationalist bombing plot against this ruler, uncovered before it could be carried out, became known as the Jubilee Plot because of the royal celebration it targeted.",
+      "r": "That celebration was her Golden Jubilee; a decade later she marked Britain’s first-ever Diamond Jubilee. For 10 points, name this monarch who celebrated 50 and then 60 years on the throne."
+    },
+    {
+      "p": "During this ruler’s reign, the Second Reform Act of 1867 roughly doubled the number of men who could vote in parliamentary elections. Her two most famous prime ministers, William Gladstone and Benjamin Disraeli, were bitter political rivals.",
+      "r": "For 10 points, name this queen whose decades on the throne gave their name to an entire era of British history."
+    },
+    {
+      "p": "This ruler is said to have responded “We are not amused” after hearing a vulgar joke at a dinner party, a phrase still used today to mock anyone who takes themselves too seriously.",
+      "r": "She reigned from 1837 until 1901 and was the grandmother of several other European monarchs. For 10 points, name this long-reigning British queen."
+    },
+    {
+      "p": "A political cartoon titled “New Crowns for Old Ones!” mocked Benjamin Disraeli for persuading this ruler to accept a grand new imperial title in 1876.",
+      "r": "That title was Empress of India, granted under the Royal Titles Act. For 10 points, name this British monarch who ruled over the empire’s height."
+    },
+    {
+      "p": "A massive waterfall on the Zambezi River and a great lake shared by Uganda, Kenya, and Tanzania were both named for this ruler, as was an Australian state whose capital is Melbourne.",
+      "r": "This monarch’s many grandchildren married into royal houses across the continent, earning her a famous nickname. For 10 points, name this queen for whom so many places were named during the height of the British Empire."
+    },
+    {
+      "p": "In 1878, the inventor Alexander Graham Bell gave this ruler an early demonstration of his new telephone at her home on the Isle of Wight.",
+      "r": "She had kept a personal diary almost every day since she was a teenager. For 10 points, name this British monarch who reigned for most of the 1800s."
+    },
+    {
+      "p": "In 1842, this ruler became the first British monarch to travel by railway, and she later sent an American president a desk built from the timbers of a retired Arctic exploration ship.",
+      "r": "She was the first monarch to live permanently at Buckingham Palace. For 10 points, name this queen who reigned over the United Kingdom for most of the nineteenth century."
+    }
+  ],
+  "clues": [
+    {
+      "id": "seafaring-reign-dates",
+      "tier": "giveaway",
+      "t": "Reigned from 1837 to 1901, becoming queen at just eighteen",
+      "k": [
+        "1837",
+        "1901",
+        "eighteen years old"
+      ],
+      "n": 2
+    },
+    {
+      "id": "empress-of-india",
+      "tier": "giveaway",
+      "t": "Took the title Empress of India in 1876 under the Royal Titles Act",
+      "k": [
+        "empress of india",
+        "1876",
+        "royal titles act"
+      ],
+      "n": 5
+    },
+    {
+      "id": "albert-marriage",
+      "tier": "giveaway",
+      "t": "Married her husband, Prince Albert, in 1840; they had nine children",
+      "k": [
+        "prince albert",
+        "1840",
+        "nine children"
+      ],
+      "n": 2,
+      "rabbit": "Prince Albert"
+    },
+    {
+      "id": "wore-black",
+      "tier": "giveaway",
+      "t": "Wore mourning black for the rest of her life after Albert died in 1861",
+      "k": [
+        "mourning black",
+        "1861",
+        "rest of her life"
+      ],
+      "n": 2
+    },
+    {
+      "id": "era-namesake",
+      "tier": "giveaway",
+      "t": "Gave her name to an entire era of British history, the height of the empire",
+      "k": [
+        "entire era",
+        "height of the empire",
+        "gave her name"
+      ],
+      "n": 0
+    },
+    {
+      "id": "grandmother-of-europe",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Grandmother of Europe” because so many grandchildren married into royal families",
+      "k": [
+        "grandmother of europe",
+        "grandchildren",
+        "royal families"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kensington-system",
+      "tier": "middle",
+      "t": "Raised under the strict “Kensington System” imposed by her mother and John Conroy",
+      "k": [
+        "kensington system",
+        "john conroy",
+        "duchess of kent"
+      ],
+      "n": 4
+    },
+    {
+      "id": "bedchamber-crisis",
+      "tier": "middle",
+      "t": "In the “bedchamber crisis,” she refused Robert Peel and kept Lord Melbourne as prime minister",
+      "k": [
+        "bedchamber crisis",
+        "robert peel",
+        "lord melbourne"
+      ],
+      "n": 3
+    },
+    {
+      "id": "gladstone-disraeli",
+      "tier": "middle",
+      "t": "Her two most famous prime ministers, Gladstone and Disraeli, were bitter political rivals",
+      "k": [
+        "gladstone",
+        "disraeli",
+        "political rivals"
+      ],
+      "n": 1
+    },
+    {
+      "id": "great-exhibition",
+      "tier": "middle",
+      "t": "Prince Albert organized the Great Exhibition of 1851, held in the Crystal Palace",
+      "k": [
+        "great exhibition",
+        "crystal palace",
+        "1851"
+      ],
+      "n": 2
+    },
+    {
+      "id": "koh-i-noor",
+      "tier": "middle",
+      "t": "The seized Koh-i-Noor diamond was added to her crown jewels",
+      "k": [
+        "koh-i-noor",
+        "diamond",
+        "crown jewels"
+      ],
+      "n": 2
+    },
+    {
+      "id": "flora-hastings",
+      "tier": "middle",
+      "t": "Wrongly believed a lady-in-waiting, Flora Hastings, was pregnant; Hastings was actually dying of cancer",
+      "k": [
+        "flora hastings",
+        "pregnancy rumor",
+        "dying of cancer"
+      ],
+      "n": 1
+    },
+    {
+      "id": "munshi",
+      "tier": "middle",
+      "t": "Late in life, her Indian attendant Abdul Karim, the “Munshi,” taught her some Hindustani",
+      "k": [
+        "munshi",
+        "abdul karim",
+        "hindustani"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hemophilia",
+      "tier": "middle",
+      "t": "Carried the gene for hemophilia, which contributed to the death of her son Leopold",
+      "k": [
+        "hemophilia",
+        "son leopold",
+        "carrier"
+      ],
+      "n": 1
+    },
+    {
+      "id": "buckingham-palace",
+      "tier": "middle",
+      "t": "Was the first monarch to live permanently at Buckingham Palace",
+      "k": [
+        "buckingham palace",
+        "permanently",
+        "first monarch"
+      ],
+      "n": 1
+    },
+    {
+      "id": "assassination-attempts",
+      "tier": "power",
+      "t": "Survived several assassination attempts, including one by Edward Oxford in 1840",
+      "k": [
+        "assassination attempts",
+        "edward oxford",
+        "survived"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jubilee-plot",
+      "tier": "power",
+      "t": "An 1887 Irish nationalist bombing plot against her became known as the Jubilee Plot",
+      "k": [
+        "jubilee plot",
+        "irish nationalist",
+        "1887"
+      ],
+      "n": 1,
+      "rabbit": "Irish Potato Famine"
+    },
+    {
+      "id": "golden-diamond-jubilees",
+      "tier": "power",
+      "t": "Celebrated a Golden Jubilee in 1887 and Britain’s first-ever Diamond Jubilee in 1897",
+      "k": [
+        "golden jubilee",
+        "diamond jubilee",
+        "1897"
+      ],
+      "n": 1
+    },
+    {
+      "id": "second-reform-act",
+      "tier": "power",
+      "t": "The Second Reform Act of 1867, passed during her reign, roughly doubled male voters",
+      "k": [
+        "second reform act",
+        "1867",
+        "doubled voters"
+      ],
+      "n": 1
+    },
+    {
+      "id": "we-are-not-amused",
+      "tier": "power",
+      "t": "Supposedly responded “We are not amused” to a vulgar joke at a dinner party",
+      "k": [
+        "we are not amused",
+        "vulgar joke",
+        "dinner party"
+      ],
+      "n": 2
+    },
+    {
+      "id": "new-crowns-for-old",
+      "tier": "power",
+      "t": "A cartoon called “New Crowns for Old Ones!” mocked Disraeli for arranging her new imperial title",
+      "k": [
+        "new crowns for old",
+        "cartoon",
+        "imperial title"
+      ],
+      "n": 1
+    },
+    {
+      "id": "legacy-namesakes",
+      "tier": "power",
+      "t": "A famous African waterfall and an African great lake were both named in her honor",
+      "k": [
+        "african waterfall",
+        "great lake",
+        "named in her honor"
+      ],
+      "n": 2
+    },
+    {
+      "id": "coronation-budget",
+      "tier": "power",
+      "t": "Her 1838 coronation was a budget compromise after criticism of costly royal ceremonies",
+      "k": [
+        "coronation",
+        "1838",
+        "budget compromise"
+      ],
+      "n": 1
+    },
+    {
+      "id": "telephone-demo",
+      "tier": "power",
+      "t": "In 1878, Alexander Graham Bell gave her an early demonstration of the telephone",
+      "k": [
+        "alexander graham bell",
+        "telephone demonstration",
+        "1878"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diaries",
+      "tier": "power",
+      "t": "Kept a personal diary almost every day from her teenage years until she died",
+      "k": [
+        "personal diary",
+        "almost every day",
+        "teenage years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-train-travel",
+      "tier": "power",
+      "t": "Became the first British monarch to travel by railway, taking her first trip in 1842",
+      "k": [
+        "railway",
+        "first monarch",
+        "1842"
+      ],
+      "n": 0
+    },
+    {
+      "id": "resolute-desk",
+      "tier": "power",
+      "t": "Gifted an American president a desk built from the timbers of the ship HMS Resolute",
+      "k": [
+        "resolute desk",
+        "hms resolute",
+        "timbers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "india-crown-rule",
+      "tier": "power",
+      "t": "After an 1857 rebellion, the British Crown took direct control of India from a trading company",
+      "k": [
+        "1857 rebellion",
+        "east india company",
+        "crown rule"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Victoria or Albert?",
+    "body": "So many real tossups describe things her husband Prince Albert did — organizing the Great Exhibition, dying in 1861 and sending her into mourning — that it is easy to blurt out “Albert” when the question wants the ruler herself. Players also confuse her prime ministers (Disraeli and Gladstone), her son and successor Edward VII, and the places later named for her, like Victoria Falls, which are a different answer from the queen.",
+    "fix": "Listen for the role: “name this ruler/queen/monarch” wants Victoria herself, while “name this ruler’s husband” or “name this prime minister” wants someone else entirely. She is the one who was crowned, who reigned 1837–1901, and whose name became an era.",
+    "line": "Real answer line: <b><u>Queen Victoria</u></b> [or Alexandrina Victoria]"
+  },
+  "freq": {
+    "rank": 58,
+    "count": 2,
+    "list": "European History"
+  }
+}

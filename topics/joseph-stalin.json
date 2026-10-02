@@ -1,0 +1,440 @@
+{
+  "id": "joseph-stalin",
+  "name": "Joseph Stalin",
+  "mono": "JS",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Soviet dictator who industrialized by terror · Led the USSR to victory in WWII",
+  "dates": "1878–1953",
+  "briefing": "Joseph Stalin was born in a small Georgian town and climbed from bank-robbing revolutionary to the iron-fisted dictator of the Soviet Union for nearly thirty years. His Five-Year Plans rushed the USSR into the industrial age, but forced collectivization and the Great Purge killed millions of his own people. He then led the Soviets through World War II, helping defeat Hitler and making the USSR a postwar superpower.",
+  "answerHtml": "<b><u>Joseph Stalin</u></b> (or <u>Iosif Stalin</u>; prompt on <u>Dzhugashvili</u> or <u>Jughashvili</u> alone)",
+  "accept": [
+    "stalin",
+    "joseph stalin",
+    "josef stalin",
+    "joseph vissarionovich stalin",
+    "josef vissarionovich stalin",
+    "iosif stalin",
+    "iosif vissarionovich stalin",
+    "joseph jughashvili",
+    "joseph dzhugashvili",
+    "josef dzhugashvili",
+    "iosif dzhugashvili",
+    "iosif vissarionovich dzhugashvili",
+    "ioseb jughashvili",
+    "ioseb besarionis dze jughashvili",
+    "ioseb dzhugashvili"
+  ],
+  "prompt": [
+    "dzhugashvili",
+    "jughashvili"
+  ],
+  "reject": [
+    "vladimir lenin",
+    "lenin",
+    "leon trotsky",
+    "trotsky",
+    "nikita khrushchev",
+    "khrushchev",
+    "nikolai yezhov",
+    "yezhov",
+    "lavrentiy beria",
+    "beria",
+    "adolf hitler",
+    "hitler",
+    "winston churchill",
+    "churchill",
+    "franklin delano roosevelt",
+    "franklin roosevelt",
+    "franklin d roosevelt",
+    "fdr",
+    "roosevelt",
+    "karl marx",
+    "marx",
+    "mao zedong",
+    "mao",
+    "vladimir putin",
+    "putin",
+    "battle of stalingrad",
+    "stalingrad",
+    "siege of stalingrad"
+  ],
+  "tests": {
+    "right": [
+      "Stalin",
+      "Joseph Stalin",
+      "Stalln",
+      "Comrade Stalin",
+      "Josef Stalin"
+    ],
+    "prompt": [
+      "Dzhugashvili",
+      "Jughashvili"
+    ],
+    "wrong": [
+      "Vladimir Lenin",
+      "Leon Trotsky",
+      "Nikita Khrushchev",
+      "Battle of Stalingrad",
+      "Adolf Hitler"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Joseph Stalin - Dictator | Mini Bio | BIO",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=e_2of8pmHYU",
+      "note": "Short · quick life story of the revolutionary who became dictator"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Stalin’s Most Deadly Famine",
+      "source": "Simple History",
+      "url": "https://www.youtube.com/watch?v=X0-iI6FzHww",
+      "note": "Animated explainer on the Holodomor, the famine his policies caused in Ukraine"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "De-Stalinization: The Secret Speech (1956)",
+      "source": "Simple History",
+      "url": "https://www.youtube.com/watch?v=FSwcLmyMSFA",
+      "note": "Animated explainer on Khrushchev’s speech denouncing Stalin after his death"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Cold War - OverSimplified (Part 1)",
+      "source": "OverSimplified",
+      "url": "https://www.youtube.com/watch?v=I79TpDe3t2g",
+      "note": "Weekend watch · how the WWII alliance with the US fell apart (preview first: a few grown-up jokes)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Joseph Stalin Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Joseph_Stalin",
+      "note": "Quick read: rise to power, Five-Year Plans, the purges, and WWII"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Joseph_Stalin",
+  "qb": {
+    "q": "Stalin",
+    "found": 8,
+    "tip": "Searching “Stalin” also pulls in Battle of Stalingrad tossups, since the city’s name contains his; skip those when reading answer lines. Only 4 Middle School/Easy High School tossups turned up, so this sample also draws on 5 Regular High School ones."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups for this answer line (4 Middle School/Easy High School + 5 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This leader’s agricultural adviser Trofim Lysenko [“lih-SENG-koh”] rejected Mendelian genetics and made overblown claims about “vernalization.” As a young revolutionary, this man studied for the priesthood at a seminary in Tiflis [“tih-FLEES”] before helping rob banks to fund the Bolsheviks. He later had the city of Tsaritsyn renamed in his own honor.",
+      "r": "After Vladimir Lenin’s death in 1924, this man outmaneuvered rivals such as Leon Trotsky for control of the Soviet Union. For 10 points, name this Communist dictator who led the USSR through World War II."
+    },
+    {
+      "p": "This leader’s secret police executed thousands of captured Polish military officers in the Katyn [“KAH-tin”] Forest massacre of 1940. He also refused to trade his own son, captured by the Germans in 1941, for enemy prisoners of war. Late in his rule, he ordered the execution of Jewish writers and artists in the so-called Night of the Murdered Poets.",
+      "r": "His regime’s forced collectivization of farms caused a famine, the Holodomor [“hoh-loh-doh-MOR”], that killed millions in Ukraine. For 10 points, name this dictator who ruled the Soviet Union during World War II."
+    },
+    {
+      "p": "This man’s secret police chief Nikolai Yezhov [“YEH-zhof”] was later edited out of official photographs after being purged himself. Following the 1934 assassination of Communist official Sergey Kirov, this leader launched show trials that grew into the Great Purge. He took a revolutionary alias that means “man of steel” in Russian.",
+      "r": "His government signed a 1939 nonaggression pact with Adolf Hitler that divided up Poland, only to be invaded by Germany in 1941’s Operation Barbarossa. For 10 points, name this Soviet leader who succeeded Vladimir Lenin."
+    },
+    {
+      "p": "This ruler’s Order No. 227 threatened to punish Red Army soldiers who retreated without permission during World War II. His Five-Year Plans, beginning in 1928, rushed the Soviet Union through industrialization and ended Lenin’s New Economic Policy. He accused mostly Jewish doctors of plotting to kill him in the so-called Doctors’ Plot.",
+      "r": "He sent huge numbers of political prisoners to the Gulag, his system of forced-labor camps. For 10 points, name this Communist dictator who led the USSR to victory in World War II."
+    },
+    {
+      "p": "This leader had his exiled rival Leon Trotsky assassinated in Mexico City in 1940. Earlier in his career, he studied for the priesthood in Tiflis and helped rob banks to fund the Bolsheviks before rising through the Communist Party. He had the Russian city of Tsaritsyn renamed after himself in 1925.",
+      "r": "After his death in 1953, his successor Nikita Khrushchev’s “Secret Speech” denounced his cult of personality. For 10 points, name this longtime Soviet dictator."
+    },
+    {
+      "p": "This man’s forced collectivization of farms caused a famine called the Holodomor that killed millions in Ukraine in the early 1930s. He favored the agricultural pseudo-scientist Trofim Lysenko over real geneticists. He also had Nikolai Yezhov, his secret police chief, erased from official photographs after purging him.",
+      "r": "He met Franklin Roosevelt and Winston Churchill at the Yalta Conference in 1945 to plan postwar Europe. For 10 points, name this Soviet leader of World War II."
+    },
+    {
+      "p": "This leader ordered the so-called Night of the Murdered Poets, in which Jewish writers and artists were executed. He refused to exchange his own son, captured by the Germans in 1941, for enemy prisoners of war. His secret police executed thousands of captured Polish officers in the Katyn Forest in 1940.",
+      "r": "He succeeded Vladimir Lenin as leader of the USSR after Lenin’s death in 1924. For 10 points, name this dictator who led the Soviet Union through World War II."
+    },
+    {
+      "p": "This leader accused mostly Jewish doctors of plotting against him in the Doctors’ Plot, late in his life. After the 1934 assassination of official Sergey Kirov, he launched show trials that grew into the Great Purge of the late 1930s. He took the revolutionary alias meaning “man of steel” in Russian.",
+      "r": "His government signed a 1939 nonaggression pact with Hitler before being invaded in Operation Barbarossa. For 10 points, name this Soviet premier."
+    },
+    {
+      "p": "This leader accused mostly Jewish doctors of plotting to kill him shortly before his death, in the Doctors’ Plot. As a young revolutionary, he studied for the priesthood at a seminary in Tiflis and helped rob banks for the Bolsheviks. He had the city of Tsaritsyn renamed for himself in 1925.",
+      "r": "His Five-Year Plans rushed the Soviet Union through industrialization starting in 1928. For 10 points, name this Communist dictator who ruled through World War II."
+    },
+    {
+      "p": "This ruler had his rival Leon Trotsky assassinated in Mexico City in 1940. He favored the pseudo-scientist Trofim Lysenko, who rejected Mendelian genetics and made overblown claims about “vernalization.” He also had Jewish writers and artists executed in the Night of the Murdered Poets.",
+      "r": "He met Churchill and Roosevelt at Yalta in 1945 to plan postwar Europe. For 10 points, name this Soviet dictator of World War II."
+    },
+    {
+      "p": "This man’s secret police carried out the Katyn Forest massacre of captured Polish officers in 1940. His forced collectivization caused the Holodomor famine in Ukraine in the early 1930s. He succeeded Vladimir Lenin as Soviet leader after Lenin’s 1924 death.",
+      "r": "After his own death in 1953, Nikita Khrushchev’s Secret Speech denounced his cult of personality. For 10 points, name this longtime Communist dictator."
+    },
+    {
+      "p": "This leader’s agricultural adviser Trofim Lysenko rejected Mendelian genetics and made overblown claims about “vernalization.” He refused to trade his own son, captured by the Germans in 1941, for enemy soldiers. He renamed the city of Tsaritsyn after himself in 1925.",
+      "r": "His government signed a nonaggression pact with Hitler in 1939 before Germany invaded in Operation Barbarossa. For 10 points, name this Soviet premier who led the USSR during World War II."
+    },
+    {
+      "p": "This man ordered the Night of the Murdered Poets and launched the Doctors’ Plot accusations, both of which targeted Jewish people in his country. He had his secret police chief Nikolai Yezhov purged and erased from photographs. He studied for the priesthood in Tiflis as a young man.",
+      "r": "His Order No. 227 threatened to punish any Red Army soldier who retreated during World War II. For 10 points, name this Soviet dictator."
+    },
+    {
+      "p": "This leader’s Five-Year Plans, begun in 1928, rushed Soviet industrialization and ended Lenin’s New Economic Policy. After Sergey Kirov’s assassination in 1934, he launched the show trials of the Great Purge. He sent enormous numbers of political prisoners to his Gulag system of labor camps.",
+      "r": "He took the alias meaning “man of steel” and led the USSR through World War II. For 10 points, name this Communist dictator who succeeded Lenin."
+    },
+    {
+      "p": "This ruler had thousands of captured Polish officers executed in the Katyn Forest massacre of 1940. He also had his old rival Leon Trotsky assassinated in Mexico City that same year. He renamed Tsaritsyn after himself back in 1925.",
+      "r": "His forced collectivization caused the Holodomor famine in Ukraine, and his Great Purge killed or imprisoned over a million more. For 10 points, name this dictator who led the Soviet Union during World War II."
+    }
+  ],
+  "clues": [
+    {
+      "id": "led-wwii",
+      "tier": "giveaway",
+      "t": "Led the Soviet Union as its Communist dictator all through World War II",
+      "k": [
+        "soviet union",
+        "dictator",
+        "world war ii"
+      ],
+      "n": 7
+    },
+    {
+      "id": "succeeded-lenin",
+      "tier": "giveaway",
+      "t": "Succeeded Vladimir Lenin as leader of the USSR after Lenin’s death in 1924",
+      "k": [
+        "lenin",
+        "succeeded",
+        "1924",
+        "ussr"
+      ],
+      "n": 6
+    },
+    {
+      "id": "man-of-steel",
+      "tier": "giveaway",
+      "t": "Took a revolutionary alias that means “man of steel” in Russian, replacing his birth surname",
+      "k": [
+        "man of steel",
+        "alias",
+        "revolutionary",
+        "birth surname"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gulag",
+      "tier": "giveaway",
+      "t": "Sent huge numbers of political prisoners to the Gulag, his system of forced-labor camps",
+      "k": [
+        "gulag",
+        "forced-labor camps",
+        "political prisoners"
+      ],
+      "n": 1
+    },
+    {
+      "id": "five-year-plans",
+      "tier": "middle",
+      "t": "Launched the first of several Five-Year Plans in 1928 to rapidly industrialize the Soviet economy",
+      "k": [
+        "five-year plans",
+        "industrialize",
+        "1928"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pact-and-invasion",
+      "tier": "middle",
+      "t": "His government signed a 1939 nonaggression pact with Hitler that divided up Poland; Germany invaded anyway in 1941’s Operation Barbarossa",
+      "k": [
+        "nonaggression pact",
+        "operation barbarossa",
+        "1941",
+        "poland"
+      ],
+      "n": 3
+    },
+    {
+      "id": "trotsky",
+      "tier": "middle",
+      "t": "Had his exiled rival Leon Trotsky assassinated in Mexico City in 1940",
+      "k": [
+        "leon trotsky",
+        "trotsky",
+        "mexico city",
+        "1940"
+      ],
+      "n": 5
+    },
+    {
+      "id": "secret-speech",
+      "tier": "middle",
+      "t": "After his death, successor Nikita Khrushchev’s 1956 “Secret Speech” denounced his cult of personality",
+      "k": [
+        "secret speech",
+        "khrushchev",
+        "1956",
+        "cult of personality"
+      ],
+      "n": 3
+    },
+    {
+      "id": "yalta",
+      "tier": "middle",
+      "t": "Met Franklin Roosevelt and Winston Churchill at the Yalta Conference in 1945 to plan postwar Europe",
+      "k": [
+        "yalta conference",
+        "roosevelt",
+        "churchill",
+        "1945"
+      ],
+      "n": 0
+    },
+    {
+      "id": "order-227",
+      "tier": "middle",
+      "t": "During World War II, issued Order No 227, which threatened to punish Red Army soldiers who retreated",
+      "k": [
+        "order no 227",
+        "red army",
+        "retreated",
+        "world war ii"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-purge",
+      "tier": "middle",
+      "t": "After the 1934 assassination of official Sergey Kirov, launched show trials and the Great Purge of the later 1930s",
+      "k": [
+        "great purge",
+        "sergey kirov",
+        "show trials",
+        "1930s"
+      ],
+      "n": 4
+    },
+    {
+      "id": "tsaritsyn",
+      "tier": "middle",
+      "t": "Had the Russian city of Tsaritsyn renamed Stalingrad in his own honor in 1925",
+      "k": [
+        "tsaritsyn",
+        "renamed",
+        "1925"
+      ],
+      "n": 1,
+      "rabbit": "Battle of Stalingrad"
+    },
+    {
+      "id": "doctors-plot",
+      "tier": "power",
+      "t": "Accused mostly Jewish doctors of plotting to kill him in the “Doctors’ Plot” shortly before his own death",
+      "k": [
+        "doctors plot",
+        "jewish doctors",
+        "plotting"
+      ],
+      "n": 7
+    },
+    {
+      "id": "holodomor",
+      "tier": "power",
+      "t": "His forced collectivization of farms caused a famine called the Holodomor that killed millions in Ukraine in the early 1930s",
+      "k": [
+        "holodomor",
+        "collectivization",
+        "ukraine",
+        "famine"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lysenko",
+      "tier": "power",
+      "t": "Favored the agricultural pseudo-scientist Trofim Lysenko, who rejected Mendelian genetics and made overblown claims about “vernalization”",
+      "k": [
+        "lysenko",
+        "mendelian genetics",
+        "vernalization"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tiflis",
+      "tier": "power",
+      "t": "As a young revolutionary, studied for the priesthood at a seminary in Tiflis and helped rob banks to fund the Bolsheviks",
+      "k": [
+        "tiflis",
+        "seminary",
+        "rob banks",
+        "bolsheviks"
+      ],
+      "n": 2
+    },
+    {
+      "id": "night-of-murdered-poets",
+      "tier": "power",
+      "t": "Ordered the “Night of the Murdered Poets,” in which Jewish writers and artists were executed",
+      "k": [
+        "night of the murdered poets",
+        "jewish writers",
+        "executed"
+      ],
+      "n": 2
+    },
+    {
+      "id": "katyn",
+      "tier": "power",
+      "t": "Had the secret police execute thousands of captured Polish military officers in the Katyn Forest massacre of 1940",
+      "k": [
+        "katyn forest",
+        "polish officers",
+        "secret police"
+      ],
+      "n": 1
+    },
+    {
+      "id": "son-yakov",
+      "tier": "power",
+      "t": "Refused to exchange his own son, captured by the Germans in 1941, for enemy prisoners of war",
+      "k": [
+        "own son",
+        "captured",
+        "prisoners of war"
+      ],
+      "n": 1
+    },
+    {
+      "id": "vanishing-photo",
+      "tier": "power",
+      "t": "After purging secret-police chief Nikolai Yezhov, had him erased from official photographs",
+      "k": [
+        "nikolai yezhov",
+        "erased",
+        "photographs"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Stalin, or Stalingrad, or Lenin?",
+    "body": "Stalin and the Battle of Stalingrad share clues like the Sixth Army, Operation Uranus, and the Eastern Front, since the city was named after him. Stalin is also easy to mix up with his predecessor Vladimir Lenin (who died in 1924, before the Five-Year Plans and the purges) and with his murdered rival Leon Trotsky.",
+    "fix": "“Name this leader” or “this dictator” wants Stalin; “name this battle” wants Stalingrad. Lenin never ruled during World War II, and Trotsky was Stalin’s victim, not the dictator himself. “Dzhugashvili,” his birth name alone, earns a prompt.",
+    "line": "Real answer line: <b><u>Joseph Stalin</u></b> (accept Iosif Stalin, Ioseb/Iosif Dzhugashvili, or Joseph Jughashvili)"
+  },
+  "freq": {
+    "rank": 11,
+    "count": 6,
+    "list": "European History"
+  }
+}

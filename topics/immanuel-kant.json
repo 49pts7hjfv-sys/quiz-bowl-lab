@@ -1,0 +1,423 @@
+{
+  "id": "immanuel-kant",
+  "name": "Immanuel Kant",
+  "mono": "IK",
+  "category": "Philosophy",
+  "qbCategory": "Philosophy",
+  "kicker": "German Enlightenment philosopher · Ethics of the categorical imperative",
+  "dates": "1724–1804",
+  "briefing": "Immanuel Kant spent almost his entire life in one Prussian city, Königsberg, where neighbors supposedly set their clocks by his daily walk. Despite rarely traveling anywhere, he produced some of philosophy’s biggest ideas, including the categorical imperative, a test for figuring out whether an action is truly moral. His _Critique of Pure Reason_ remains one of the most influential, and most difficult, books ever written.",
+  "answerHtml": "Immanuel <b><u>Kant</u></b>",
+  "accept": [
+    "immanuel kant",
+    "kant"
+  ],
+  "prompt": [],
+  "reject": [
+    "hume",
+    "schopenhauer",
+    "hegel",
+    "descartes",
+    "rousseau",
+    "leibniz",
+    "nietzsche",
+    "locke"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "PHILOSOPHY: Immanuel Kant",
+      "source": "The School of Life",
+      "url": "https://www.youtube.com/watch?v=nsgAsw4XGvU",
+      "note": "Illustrated overview of his quiet life and his big ideas about reason and right and wrong"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "PHILOSOPHY - The Good Life: Kant",
+      "source": "Wireless Philosophy",
+      "url": "https://www.youtube.com/watch?v=F6UQLiHB0k0",
+      "note": "Whiteboard lesson · Kant’s rules for acting morally (the categorical imperative)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Kant & Categorical Imperatives: Crash Course Philosophy #35",
+      "source": "Crash Course Philosophy",
+      "url": "https://www.youtube.com/watch?v=8bIys6JoEDw",
+      "note": "Hank Green on the categorical imperative and treating people as ends, never just as means"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Immanuel Kant Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Immanuel_Kant",
+      "note": "Quick read: his life, his big books, and how he changed philosophy"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+  "qb": {
+    "q": "Kant",
+    "found": 3,
+    "tip": "Only 3 hits at Middle School/Easy High School, so a difficulties=3 (Regular HS) search filled out the sample. Nearly every real tossup ends on _Critique of Pure Reason_ and the categorical imperative — those are the safest giveaways."
+  },
+  "sample": {
+    "n": 15,
+    "note": "15 real QBReader tossups (3 Middle School/Easy High School + 12 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This thinker argued that judging a steak “good to eat” is a merely “agreeable” reaction, different from recognizing something as truly beautiful. Arthur Schopenhauer later wrote an extended critique of this philosopher’s ideas, particularly his concept of the “thing-in-itself.”",
+      "r": "This philosopher argued that acting morally means following a rule you could want everyone else to follow too. For 10 points, name this German philosopher who developed the categorical imperative and wrote _Critique of Pure Reason_."
+    },
+    {
+      "p": "This philosopher argued that we can only perceive things as existing at the same time if they stand in “thoroughgoing interaction,” a response to Leibniz’s view that separate substances never truly affect one another. He also claimed that mathematical truths, like “7 plus 5 equals 12,” are known before experience yet still add new information, calling them synthetic a priori.",
+      "r": "For 10 points, name this German philosopher who argued that reading the empiricist David Hume woke him from his “dogmatic slumber,” and who wrote _Critique of Pure Reason_."
+    },
+    {
+      "p": "This philosopher distinguished “noumena,” things as they really are, from “phenomena,” things as we experience them, arguing the human mind can only ever know the second kind. He imagined an ideal community called the “Kingdom of Ends,” where every rational being treats others as valuable in themselves rather than as tools.",
+      "r": "For 10 points, name this German philosopher whose ethical theory, deontology, centers on an unconditional rule called the categorical imperative."
+    },
+    {
+      "p": "This philosopher proposed that a world made up entirely of constitutional republics could achieve lasting peace, in an essay titled _Perpetual Peace_. In a different work, he argued that any defense of lying — even to a murderer asking where a friend is hiding — fails to respect other people as rational beings.",
+      "r": "His most famous ethical rule asks whether the reasoning behind your action could become a universal law for everyone. For 10 points, name this German philosopher, author of _Critique of Pure Reason_."
+    },
+    {
+      "p": "This philosopher defined Enlightenment as “man’s emergence from his self-imposed immaturity” and urged his readers to “dare to know” in a short, famous essay. He also compared historical religion to “clothing” layered over a more basic rational religion in _Religion within the Limits of Reason Alone_.",
+      "r": "For 10 points, name this German Enlightenment philosopher who proposed the categorical imperative in _Groundwork of the Metaphysics of Morals_."
+    },
+    {
+      "p": "This philosopher argued that “humanity itself is dignity,” meaning every rational person deserves respect simply for being rational. He divided one late work, _The Metaphysics of Morals_, into a “Doctrine of Right” covering laws and a “Doctrine of Virtue” covering ethics.",
+      "r": "His most famous principle holds that you should act only according to rules you could will to become universal laws. For 10 points, name this German philosopher who wrote _Critique of Pure Reason_."
+    },
+    {
+      "p": "This philosopher rejected the ontological argument for God’s existence while developing his theory of “synthetic a priori” judgments in his most famous work. He explained that mental structures called schemata connect abstract concepts to the raw material of sensory experience.",
+      "r": "For 10 points, name this German philosopher, author of _Critique of Pure Reason_, who formulated the categorical imperative."
+    },
+    {
+      "p": "This philosopher blended the rationalist and empiricist traditions, trying to answer skeptical challenges David Hume raised about cause and effect. He listed humanity, universal law, and the “Kingdom of Ends” as three different formulations of one single moral principle.",
+      "r": "For 10 points, name this German philosopher who wrote three major Critiques, including one on Pure Reason, and who is remembered for the categorical imperative."
+    },
+    {
+      "p": "This philosopher spent nearly his entire life in the Prussian city of Königsberg, reportedly so punctual on his daily walk that neighbors set their clocks by him. He argued that the human mind actively shapes space and time rather than passively receiving them, a view called transcendental idealism.",
+      "r": "For 10 points, name this German philosopher who wrote _Critique of Pure Reason_ and developed the categorical imperative."
+    },
+    {
+      "p": "This philosopher argued that lying is always wrong, even to a murderer asking for a friend’s hiding place, a position he defended in an essay responding to Benjamin Constant. He is remembered as a founder of deontological ethics, judging actions by duty and rule rather than by their results.",
+      "r": "For 10 points, name this German philosopher whose _Groundwork of the Metaphysics of Morals_ introduced the categorical imperative."
+    },
+    {
+      "p": "This philosopher’s idea of the “noumenon” was later reinterpreted by his critic Arthur Schopenhauer in _The World as Will and Representation_. He claimed that rational beings should always be treated as ends in themselves, never merely as a means to someone else’s goal.",
+      "r": "For 10 points, name this German philosopher who wrote _Critique of Pure Reason_ and proposed the categorical imperative in his ethics."
+    },
+    {
+      "p": "This philosopher argued that genuine knowledge requires both raw sensory data and the mind’s own built-in structures for organizing it, rejecting purely rationalist and purely empiricist accounts on their own. His moral theory lists universal law, humanity, and the kingdom of ends as three equivalent ways of stating the same basic duty.",
+      "r": "For 10 points, name this German Enlightenment philosopher, the author of _Critique of Pure Reason_ and the formulator of the categorical imperative."
+    },
+    {
+      "p": "This philosopher wrote that reading the Scottish philosopher David Hume woke him from his “dogmatic slumber” and pushed him toward a new theory of knowledge. His three major works, covering pure reason, practical reason, and judgment, are simply known as his three Critiques.",
+      "r": "For 10 points, name this German philosopher remembered for the categorical imperative, an unconditional rule for moral action."
+    },
+    {
+      "p": "This philosopher claimed that mathematical statements are a strange category of knowledge, known independently of experience yet not just true by definition, calling them synthetic a priori truths. He also argued that history is slowly guiding humanity toward a federation of peaceful constitutional republics.",
+      "r": "For 10 points, name this German philosopher, author of _Critique of Pure Reason_, who introduced the categorical imperative in his ethical writings."
+    },
+    {
+      "p": "This philosopher insisted that acting morally means obeying self-given rational rules rather than chasing good outcomes, a position called deontological ethics. He is remembered for distinguishing things as they appear to us from things as they truly are, calling the two phenomena and noumena.",
+      "r": "This philosopher developed an unconditional moral rule, the categorical imperative, in his book _Groundwork of the Metaphysics of Morals_. For 10 points, name this German Enlightenment philosopher, author of _Critique of Pure Reason_."
+    }
+  ],
+  "clues": [
+    {
+      "id": "categorical-imperative",
+      "tier": "giveaway",
+      "t": "Developed the categorical imperative: act only according to a rule you could will to become a universal law",
+      "k": [
+        "categorical imperative",
+        "universal law"
+      ],
+      "n": 15
+    },
+    {
+      "id": "critique-pure-reason",
+      "tier": "giveaway",
+      "t": "Wrote _Critique of Pure Reason_, one of the most famous and difficult works in the history of philosophy",
+      "k": [
+        "critique of pure reason",
+        "difficult"
+      ],
+      "n": 15
+    },
+    {
+      "id": "nationality",
+      "tier": "giveaway",
+      "t": "German philosopher of the Enlightenment era, writing in the late 1700s",
+      "k": [
+        "german",
+        "enlightenment"
+      ],
+      "n": 14
+    },
+    {
+      "id": "deontological",
+      "tier": "giveaway",
+      "t": "Founder of deontological ethics, judging actions as right or wrong based on rules and duty rather than their results",
+      "k": [
+        "deontological",
+        "duty",
+        "rules"
+      ],
+      "n": 3
+    },
+    {
+      "id": "three-critiques",
+      "tier": "giveaway",
+      "t": "Wrote three Critiques: of Pure Reason, of Practical Reason, and of Judgment",
+      "k": [
+        "three critiques",
+        "practical reason",
+        "judgment"
+      ],
+      "n": 1
+    },
+    {
+      "id": "groundwork",
+      "tier": "middle",
+      "t": "Laid out his ethics in _Groundwork of the Metaphysics of Morals_, where the categorical imperative first appears",
+      "k": [
+        "groundwork",
+        "metaphysics of morals"
+      ],
+      "n": 10
+    },
+    {
+      "id": "noumena-phenomena",
+      "tier": "middle",
+      "t": "Distinguished between noumena (things as they really are) and phenomena (things as we experience them)",
+      "k": [
+        "noumena",
+        "phenomena"
+      ],
+      "n": 5
+    },
+    {
+      "id": "kingdom-of-ends",
+      "tier": "middle",
+      "t": "Imagined a “Kingdom of Ends,” a community where everyone treats others as valuable in themselves, never merely as a means",
+      "k": [
+        "kingdom of ends",
+        "means"
+      ],
+      "n": 5
+    },
+    {
+      "id": "lying-murderer",
+      "tier": "middle",
+      "t": "Argued it would be wrong to lie even to a murderer asking where a friend was hiding, a famous test of his ethics",
+      "k": [
+        "murderer",
+        "lying",
+        "hiding"
+      ],
+      "n": 5
+    },
+    {
+      "id": "enlightenment-essay",
+      "tier": "middle",
+      "t": "Defined Enlightenment as “man’s emergence from his self-imposed immaturity” and urged readers to “dare to know”",
+      "k": [
+        "enlightenment",
+        "self-imposed immaturity",
+        "dare to know"
+      ],
+      "n": 5
+    },
+    {
+      "id": "synthetic-a-priori",
+      "tier": "middle",
+      "t": "Argued that some truths, like basic math facts, are knowable before experience yet still add new information, calling it synthetic a priori knowledge",
+      "k": [
+        "synthetic a priori",
+        "math facts"
+      ],
+      "n": 4
+    },
+    {
+      "id": "hume-slumber",
+      "tier": "middle",
+      "t": "Said that reading the philosopher David Hume woke him from his “dogmatic slumber”",
+      "k": [
+        "hume",
+        "dogmatic slumber"
+      ],
+      "n": 3
+    },
+    {
+      "id": "schopenhauer",
+      "tier": "middle",
+      "t": "Later criticized by the philosopher Arthur Schopenhauer, especially over his idea of the noumenon",
+      "k": [
+        "schopenhauer",
+        "noumenon"
+      ],
+      "n": 3
+    },
+    {
+      "id": "religion-book",
+      "tier": "middle",
+      "t": "Compared historical religion to “clothing” worn over a more basic rational religion in _Religion within the Limits of Reason Alone_",
+      "k": [
+        "religion within the limits of reason alone",
+        "clothing"
+      ],
+      "n": 3
+    },
+    {
+      "id": "konigsberg",
+      "tier": "middle",
+      "t": "Lived almost his entire life in the Prussian city of Königsberg, famous for taking the same walk at the same time each day",
+      "k": [
+        "prussian",
+        "walk",
+        "konigsberg"
+      ],
+      "n": 0,
+      "rabbit": "Enlightenment"
+    },
+    {
+      "id": "transcendental-idealism",
+      "tier": "power",
+      "t": "Argued that we can only know appearances shaped by our own minds, not things in themselves, a view called transcendental idealism",
+      "k": [
+        "transcendental idealism",
+        "appearances"
+      ],
+      "n": 2
+    },
+    {
+      "id": "perpetual-peace",
+      "tier": "power",
+      "t": "Proposed that a world of constitutional republics could achieve lasting peace, in his essay _Perpetual Peace_",
+      "k": [
+        "perpetual peace",
+        "constitutional republics"
+      ],
+      "n": 2
+    },
+    {
+      "id": "three-formulas",
+      "tier": "power",
+      "t": "Gave three formulas for the categorical imperative: universal law, humanity as an end in itself, and the kingdom of ends",
+      "k": [
+        "universal law",
+        "humanity",
+        "three formulas"
+      ],
+      "n": 2
+    },
+    {
+      "id": "doctrine-right-virtue",
+      "tier": "power",
+      "t": "Divided _The Metaphysics of Morals_ into a “Doctrine of Right” and a “Doctrine of Virtue”",
+      "k": [
+        "doctrine of right",
+        "doctrine of virtue"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ontological-argument",
+      "tier": "power",
+      "t": "Rejected the ontological argument for God’s existence while explaining synthetic a priori judgments in his first Critique",
+      "k": [
+        "ontological argument",
+        "a priori"
+      ],
+      "n": 1
+    },
+    {
+      "id": "agreeable-judgment",
+      "tier": "power",
+      "t": "Distinguished judging a steak “good” to eat, a merely “agreeable” reaction, from judging something truly beautiful",
+      "k": [
+        "agreeable",
+        "beautiful",
+        "steak"
+      ],
+      "n": 1
+    },
+    {
+      "id": "leibniz-refute",
+      "tier": "power",
+      "t": "Argued against Leibniz’s view that substances never truly interact, saying we can only perceive things as simultaneous if they are in “thoroughgoing interaction”",
+      "k": [
+        "leibniz",
+        "thoroughgoing interaction",
+        "simultaneous"
+      ],
+      "n": 1
+    },
+    {
+      "id": "humanity-dignity",
+      "tier": "power",
+      "t": "Declared that “humanity itself is dignity,” meaning every rational person deserves respect",
+      "k": [
+        "humanity itself is dignity",
+        "dignity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "schemata",
+      "tier": "power",
+      "t": "Explained that mental structures called schemata connect abstract concepts to concrete sensory experience",
+      "k": [
+        "schemata",
+        "concepts",
+        "sensory"
+      ],
+      "n": 1
+    },
+    {
+      "id": "influences",
+      "tier": "power",
+      "t": "Blended the rationalist and empiricist traditions, trying to answer skeptical challenges raised by Hume",
+      "k": [
+        "rationalist",
+        "empiricist",
+        "hume"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Other philosophers in the clue",
+    "body": "Many Kant tossups name other thinkers who are not the answer: David Hume (who woke Kant from his “dogmatic slumber”), Leibniz (whom Kant argued against), and Arthur Schopenhauer (who criticized Kant decades later). Hearing one of those names early is a common reason players buzz too fast with the wrong guess.",
+    "fix": "Listen for what the clue is doing with that name — being influenced by, arguing against, or being criticized by someone else. The pronoun “this philosopher” still refers to Kant even when another name appears in the same sentence.",
+    "line": "Real answer line: Immanuel <b><u>Kant</u></b>."
+  },
+  "tests": {
+    "right": [
+      "Immanuel Kant",
+      "Kant",
+      "kant",
+      "Imanuel Kant",
+      "Emmanuel Kant"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Hume",
+      "Schopenhauer",
+      "Hegel",
+      "Descartes",
+      "Leibniz"
+    ]
+  },
+  "freq": {
+    "rank": 5,
+    "count": 6,
+    "list": "Philosophy"
+  }
+}

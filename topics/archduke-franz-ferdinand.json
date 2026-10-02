@@ -1,0 +1,400 @@
+{
+  "id": "archduke-franz-ferdinand",
+  "name": "Archduke Franz Ferdinand",
+  "mono": "FF",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Austria-Hungary’s heir · His 1914 assassination sparked World War I",
+  "dates": "1863–1914",
+  "briefing": "Archduke Franz Ferdinand was next in line to become emperor of Austria-Hungary, a huge empire covering much of central Europe. On June 28, 1914, a Bosnian Serb nationalist named Gavrilo Princip shot him and his wife, Sophie, in the city of Sarajevo after their driver accidentally took a wrong turn. The murder set off a chain of alliances and ultimatums that exploded into World War I within weeks, and it even inspired the name of a future rock band.",
+  "answerHtml": "<b><u>Archduke Franz Ferdinand</u></b> (or <u>Franz Ferdinand</u>; do not accept <u>Franz Joseph</u>)",
+  "accept": [
+    "archduke franz ferdinand",
+    "franz ferdinand",
+    "archduke franz ferdinand of austria",
+    "franz ferdinand of austria",
+    "archduke franz ferdinand of austria hungary"
+  ],
+  "prompt": [],
+  "reject": [
+    "franz joseph",
+    "franz joseph i",
+    "emperor franz joseph",
+    "kaiser franz joseph",
+    "gavrilo princip",
+    "princip",
+    "sophie",
+    "duchess sophie",
+    "sophie chotek",
+    "countess sophie",
+    "duchess of hohenberg",
+    "kaiser wilhelm",
+    "wilhelm ii",
+    "kaiser wilhelm ii",
+    "assassination of franz ferdinand",
+    "assassination of archduke franz ferdinand",
+    "world war i",
+    "world war 1",
+    "black hand"
+  ],
+  "tests": {
+    "right": [
+      "Archduke Franz Ferdinand",
+      "Franz Ferdinand",
+      "Archduke Franz Ferdinand of Austria",
+      "Franz Ferdinand of Austria",
+      "Frans Ferdinand"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Franz Joseph",
+      "Gavrilo Princip",
+      "Sophie Chotek",
+      "Kaiser Wilhelm II",
+      "World War I",
+      "The assassination of Franz Ferdinand"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "A is for Archduke Franz Ferdinand",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=pp10kdGF_XM",
+      "note": "Short · kid-friendly A-Z-of-WWI entry on him"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How a Wrong Turn Started World War I",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=IIK9Lkf02TE",
+      "note": "Short · the chain of chance that led to his death"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Did Franz Ferdinand’s death REALLY start WW1?",
+      "source": "HistoryExtra",
+      "url": "https://www.youtube.com/watch?v=1o08j4eZGx0",
+      "note": "A closer look at how much his death really mattered"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Roads to World War I: Crash Course European History #32",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=KGlmlSTn-eM",
+      "note": "The bigger tangle of alliances and tensions behind World War I"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "World War I: Assassination of Archduke Ferdinand",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/world_war_i/assassination_of_archduke_ferdinand.php",
+      "note": "Quick read: the 1914 visit to Sarajevo, Gavrilo Princip, and how it set off World War I"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Franz_Ferdinand",
+  "qb": {
+    "q": "Franz Ferdinand",
+    "found": 4,
+    "tip": "Nearly every real tossup for “Franz Ferdinand” actually asks for the ASSASSINATION as the answer, not the man — we used the same verified facts to write original tossups that ask directly for the Archduke."
+  },
+  "sample": {
+    "n": 12,
+    "note": "12 real QBReader tossups on the assassination of Archduke Franz Ferdinand (4 Middle School/Easy High School + 8 Regular High School, power-marked); the clues describe him and his death even though the real answer line is the event, not the person"
+  },
+  "tossups": [
+    {
+      "p": "This royal’s killer, Gavrilo Princip, was deemed too young for execution and instead died in prison in 1918. Earlier on the day of his death, this royal survived a grenade attack that missed his car and hit another vehicle instead.",
+      "r": "This royal’s driver took a wrong turn moments before the fatal shooting in Sarajevo. For 10 points, name this Austro-Hungarian archduke whose 1914 assassination helped spark World War I."
+    },
+    {
+      "p": "This nobleman favored a plan called Trialism, which would have given more self-rule to Slavic peoples within his empire. A Serbian officer nicknamed “Apis” helped organize the secret society behind this nobleman’s death.",
+      "r": "This nobleman’s wife, Sophie, was killed beside him. For 10 points, name this Austro-Hungarian archduke assassinated in Sarajevo in 1914."
+    },
+    {
+      "p": "This heir married a woman named Sophie Chotek despite her lower noble rank, in a morganatic marriage his uncle only reluctantly approved. Because of that marriage, this heir’s own children were barred from inheriting the throne.",
+      "r": "This heir was shot by Gavrilo Princip, who had been armed by the secret Black Hand society. For 10 points, name this Austro-Hungarian archduke whose death helped start World War I."
+    },
+    {
+      "p": "This royal became heir to the Austro-Hungarian throne after the death of his cousin, Crown Prince Rudolf. This royal’s killing led Austria-Hungary to issue a harsh ultimatum to Serbia.",
+      "r": "This royal was shot in Sarajevo on June 28, 1914. For 10 points, name this Austrian archduke, the nephew of Emperor Franz Joseph I, whose assassination sparked World War I."
+    },
+    {
+      "p": "This nobleman was reportedly killed on a street that had been renamed after his own uncle, the long-reigning emperor. This nobleman’s attacker was armed by a secret Serbian nationalist group called the Black Hand.",
+      "r": "This nobleman’s death led to the July Ultimatum against Serbia. For 10 points, name this Austro-Hungarian archduke assassinated alongside his wife, Sophie, sparking World War I."
+    },
+    {
+      "p": "This heir presumptive survived an earlier bomb thrown at his motorcade that same morning, which exploded under the next car instead. The conspirator who threw it then swallowed cyanide and jumped into a shallow river, but survived and was captured.",
+      "r": "This heir presumptive’s car took a wrong turn right before Gavrilo Princip shot him. For 10 points, name this Austro-Hungarian archduke whose 1914 assassination sparked World War I."
+    },
+    {
+      "p": "This royal married a woman of lower noble rank, meaning this royal’s own children could never inherit the throne. This royal supported “Trialism,” a plan to give the empire’s South Slavic peoples more self-government.",
+      "r": "This royal and his wife, Sophie, were gunned down in Sarajevo. For 10 points, name this nephew of Emperor Franz Joseph I whose 1914 killing is considered the spark of World War I."
+    },
+    {
+      "p": "This archduke’s killer was armed by the Black Hand, a secret society organized in part by a Serbian officer nicknamed “Apis.” This archduke had become heir to the throne after his cousin Crown Prince Rudolf died.",
+      "r": "This archduke’s assassination led Austria-Hungary to send Serbia the July Ultimatum. For 10 points, name this heir whose 1914 murder in Sarajevo sparked World War I."
+    },
+    {
+      "p": "This man’s death is sometimes credited with inspiring the name of a 2000s Scottish rock band. This man’s driver’s wrong turn put his car directly in the path of a waiting conspirator.",
+      "r": "This man and his wife, Sophie, were shot by Gavrilo Princip in Sarajevo in 1914. For 10 points, name this Austro-Hungarian archduke whose assassination sparked World War I."
+    },
+    {
+      "p": "This heir was the nephew, not the son, of the emperor he was set to succeed. Less than an hour before his death, a conspirator against this heir threw a grenade that missed his car.",
+      "r": "This heir’s killing led to a harsh Austro-Hungarian ultimatum against Serbia. For 10 points, name this archduke whose 1914 assassination in Sarajevo sparked World War I."
+    },
+    {
+      "p": "This nobleman’s wife was a countess whose lower rank made their marriage morganatic. This nobleman died near the Latin Bridge in Sarajevo after his driver mistakenly turned down the wrong street.",
+      "r": "This nobleman was shot by Gavrilo Princip, who had been armed by the Black Hand. For 10 points, name this Austro-Hungarian archduke whose 1914 assassination sparked World War I."
+    },
+    {
+      "p": "This royal’s death prompted Austria-Hungary’s July Ultimatum, one of the first dominoes to fall before World War I. Earlier that same day, a would-be assassin’s bomb exploded under the car behind this royal’s.",
+      "r": "This royal’s uncle was the long-reigning Emperor Franz Joseph I. For 10 points, name this Austro-Hungarian archduke assassinated alongside his wife, Sophie, in Sarajevo in 1914."
+    },
+    {
+      "p": "This man’s killer, armed by a group called the Black Hand, was too young to be executed and died in prison years later instead. This man favored Trialism, a plan to grant Slavic peoples more self-rule.",
+      "r": "This man was shot alongside his wife, Sophie, while riding through Sarajevo. For 10 points, name this Austro-Hungarian archduke whose 1914 assassination sparked World War I."
+    },
+    {
+      "p": "This heir presumptive became next in line for the throne after his cousin Crown Prince Rudolf’s death. A failed grenade attack struck a different car in this heir presumptive’s motorcade less than an hour before his actual killing.",
+      "r": "This heir presumptive’s driver’s wrong turn led directly to his death near the Latin Bridge. For 10 points, name this nephew of Franz Joseph I whose 1914 assassination in Sarajevo sparked World War I."
+    },
+    {
+      "p": "This nobleman’s marriage to a lower-ranked noblewoman meant his own children could not inherit his uncle’s throne. A Serbian officer nicknamed “Apis” helped plan the plot that killed this nobleman.",
+      "r": "This nobleman and his wife were shot in an open car in Sarajevo on June 28, 1914. For 10 points, name this Austro-Hungarian archduke whose assassination sparked World War I."
+    }
+  ],
+  "clues": [
+    {
+      "id": "assassinated-sarajevo",
+      "tier": "giveaway",
+      "t": "Shot to death in Sarajevo on June 28, 1914, along with his wife",
+      "k": [
+        "sarajevo",
+        "1914",
+        "shot"
+      ],
+      "n": 4
+    },
+    {
+      "id": "sparked-wwi",
+      "tier": "giveaway",
+      "t": "His killing set off a chain of events that led directly to the start of World War I",
+      "k": [
+        "world war i",
+        "chain of events",
+        "led to"
+      ],
+      "n": 12,
+      "rabbit": "World War I"
+    },
+    {
+      "id": "heir-presumptive",
+      "tier": "giveaway",
+      "t": "Was next in line to become emperor of Austria-Hungary",
+      "k": [
+        "next in line",
+        "emperor",
+        "austria hungary"
+      ],
+      "n": 5
+    },
+    {
+      "id": "wife-sophie",
+      "tier": "giveaway",
+      "t": "His wife, Sophie, was killed in the same attack",
+      "k": [
+        "wife sophie",
+        "killed",
+        "attack"
+      ],
+      "n": 5
+    },
+    {
+      "id": "princip",
+      "tier": "middle",
+      "t": "Shot by a young Bosnian Serb nationalist named Gavrilo Princip [“guh-VREE-loh PRIN-tsip”]",
+      "k": [
+        "gavrilo princip",
+        "bosnian serb",
+        "nationalist"
+      ],
+      "n": 12
+    },
+    {
+      "id": "black-hand",
+      "tier": "middle",
+      "t": "The plot against him was organized by a secret Serbian nationalist society called the Black Hand",
+      "k": [
+        "black hand",
+        "secret society",
+        "serbian nationalist"
+      ],
+      "n": 11
+    },
+    {
+      "id": "earlier-bomb",
+      "tier": "middle",
+      "t": "Survived an earlier bombing attempt that same morning, when a grenade thrown at his car missed and hit another vehicle",
+      "k": [
+        "grenade",
+        "bombing attempt",
+        "missed"
+      ],
+      "n": 9
+    },
+    {
+      "id": "wrong-turn",
+      "tier": "middle",
+      "t": "Was killed only after his driver took a wrong turn, forcing the car to stop right where his attacker was waiting",
+      "k": [
+        "wrong turn",
+        "driver",
+        "stopped"
+      ],
+      "n": 5
+    },
+    {
+      "id": "july-ultimatum",
+      "tier": "middle",
+      "t": "His death led Austria-Hungary to issue the harsh July Ultimatum to Serbia",
+      "k": [
+        "july ultimatum",
+        "austria hungary",
+        "serbia"
+      ],
+      "n": 7
+    },
+    {
+      "id": "failed-suicide",
+      "tier": "middle",
+      "t": "After the morning bombing, the conspirator who threw the bomb swallowed cyanide and jumped into a shallow river, but survived and was captured",
+      "k": [
+        "cyanide",
+        "conspirator",
+        "shallow river"
+      ],
+      "n": 7
+    },
+    {
+      "id": "latin-bridge",
+      "tier": "middle",
+      "t": "Was shot near the Latin Bridge in Sarajevo",
+      "k": [
+        "latin bridge",
+        "sarajevo"
+      ],
+      "n": 3
+    },
+    {
+      "id": "franz-joseph-uncle",
+      "tier": "power",
+      "t": "Was the nephew of the long-reigning Emperor Franz Joseph I, not the emperor himself",
+      "k": [
+        "franz joseph",
+        "nephew",
+        "emperor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morganatic-marriage",
+      "tier": "power",
+      "t": "Married Sophie Chotek [“KHO-tek”] despite her lower noble rank, in a marriage the emperor only reluctantly approved",
+      "k": [
+        "sophie chotek",
+        "morganatic",
+        "lower rank"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trialism",
+      "tier": "power",
+      "t": "Favored giving more self-rule to Slavic peoples within the empire, a plan called Trialism",
+      "k": [
+        "trialism",
+        "slavic peoples",
+        "self rule"
+      ],
+      "n": 0
+    },
+    {
+      "id": "franz-joseph-street",
+      "tier": "power",
+      "t": "Was shot on a Sarajevo street that had been renamed after his uncle, the emperor",
+      "k": [
+        "renamed street",
+        "uncle",
+        "emperor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "apis-mastermind",
+      "tier": "power",
+      "t": "The plot was organized in part by a Serbian officer nicknamed “Apis” [“AH-pis”]",
+      "k": [
+        "apis",
+        "serbian officer",
+        "organized"
+      ],
+      "n": 5
+    },
+    {
+      "id": "princip-sentence",
+      "tier": "power",
+      "t": "His killer was too young for execution and was instead sentenced to 20 years in prison, where he died in 1918",
+      "k": [
+        "20 years",
+        "prison",
+        "too young"
+      ],
+      "n": 1
+    },
+    {
+      "id": "band-namesake",
+      "tier": "power",
+      "t": "A 2000s Scottish rock band named itself after him",
+      "k": [
+        "rock band",
+        "scottish",
+        "named itself"
+      ],
+      "n": 0
+    },
+    {
+      "id": "children-excluded",
+      "tier": "power",
+      "t": "Because his marriage was morganatic, his children were barred from inheriting the Austro-Hungarian throne",
+      "k": [
+        "morganatic",
+        "children",
+        "barred"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heir-after-rudolf",
+      "tier": "power",
+      "t": "Became heir to the Austro-Hungarian throne after his cousin, Crown Prince Rudolf, died in 1889 and his own father died in 1896",
+      "k": [
+        "crown prince rudolf",
+        "1889",
+        "heir"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not Franz Joseph",
+    "body": "Austria-Hungary had two famous Franzes: Emperor Franz Joseph I, who ruled for 68 years, and his nephew Archduke Franz Ferdinand, who was only the heir — never the emperor. Franz Joseph died of old age in 1916, two years after his nephew was assassinated. Most real quiz-bowl tossups on this material actually ask for “the assassination,” so if you’re tempted to blurt out the event, or “World War I,” instead of the person’s name, hold on one more second.",
+    "fix": "If the clue says “archduke,” “heir,” or “nephew,” or names Sophie, Gavrilo Princip, or the Black Hand, it’s Franz Ferdinand. If it says “emperor” and decades on the throne, that’s his uncle Franz Joseph.",
+    "line": "Real answer line: assassination of <b><u>Archduke Franz Ferdinand</u></b> [prompt on partial answer]"
+  }
+}

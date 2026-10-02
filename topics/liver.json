@@ -1,0 +1,393 @@
+{
+  "id": "liver",
+  "name": "Liver",
+  "mono": "LIV",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "The body’s detox and metabolism hub · Can regrow itself when damaged",
+  "dates": "Weighs about 3 pounds in an adult",
+  "briefing": "The liver is the largest internal organ in the human body, a reddish-brown wedge tucked beneath the right ribs that filters toxins like alcohol straight out of the bloodstream. Its Kupffer cells gobble up worn-out red blood cells, while the greenish fluid it makes, bile, helps the gut digest fat. Heavy drinking can scar it into cirrhosis, but it’s also the only internal organ able to regrow a damaged section.",
+  "answerHtml": "<b><u>Liver</u></b>",
+  "accept": [
+    "liver",
+    "livers"
+  ],
+  "prompt": [],
+  "reject": [
+    "kidney",
+    "kidneys",
+    "pancreas",
+    "gallbladder",
+    "spleen",
+    "bile",
+    "cirrhosis",
+    "hepatitis",
+    "jaundice",
+    "gallstones"
+  ],
+  "tests": {
+    "right": [
+      "Liver",
+      "liver",
+      "Livr",
+      "The Liver",
+      "Livers"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Kidney",
+      "Kidneys",
+      "Gallbladder",
+      "Pancreas",
+      "Spleen",
+      "Cirrhosis"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Does The Liver Do? | Liver Functions | The Dr Binocs Show",
+      "source": "Peekaboo Kidz",
+      "url": "https://www.youtube.com/watch?v=IMzFgyrUXnE",
+      "note": "Easy cartoon · Dr. Binocs explains the liver’s main jobs"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What does the liver do?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=wbh3SjzydnQ",
+      "note": "Animated lesson on the liver’s many jobs: cleaning blood, making bile, storing energy"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Liver: Functions",
+      "source": "Neural Academy",
+      "url": "https://www.youtube.com/watch?v=NV5axP0lcaY",
+      "note": "Detailed animation of the liver’s jobs (older end, medical-school style)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "How your digestive system works",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=Og5xAdC8EUI",
+      "note": "Bigger picture: the whole digestive system the liver works for"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Digestive System, Part 3: Crash Course Anatomy & Physiology #35",
+      "source": "Crash Course Anatomy & Physiology",
+      "url": "https://www.youtube.com/watch?v=jGme7BRkpuQ",
+      "note": "Digestion in the small intestine, with help from the liver, gallbladder, and pancreas (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Your Liver (for Kids)",
+      "source": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/liver.html",
+      "note": "Quick read: how the liver cleans blood, makes bile, and stores glycogen"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Liver",
+  "qb": {
+    "q": "liver",
+    "found": 30,
+    "tip": "Most of the 30 raw hits are substring noise (Oliver Twist, Gulliver’s Travels, Liverpool, Oliver Cromwell) or one mislabeled 2022 SANDS tossup that’s actually about the kidneys; only 7 are genuinely about this organ."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups genuinely about this organ (Middle School + Easy High School, power-marked), after excluding literature/name/city matches for “liver” and one mislabeled tossup"
+  },
+  "tossups": [
+    {
+      "p": "Ito cells tucked inside this organ store reserves of vitamin A beneath its sinusoidal lining. A dual blood supply feeds it: the hepatic artery brings oxygen-rich blood while a second vessel delivers nutrient-rich blood straight from the intestines and spleen.",
+      "r": "Leftover nitrogen from broken-down proteins is turned into urea here before the kidneys remove it. For 10 points, name this organ that stores sugar as glycogen and produces bile to help digest fat."
+    },
+    {
+      "p": "The Cori cycle ends in this organ, which rebuilds lactic acid made by working muscles back into usable glucose. Peroxisomes inside this organ help break down fatty acids, and its cells manufacture the enzyme glucokinase for aerobic respiration.",
+      "r": "Though it looks two-lobed from the front, this organ is technically split into four lobes, including a caudate and a quadrate lobe. For 10 points, name this organ whose Kupffer cells destroy worn-out red blood cells."
+    },
+    {
+      "p": "This organ is the main site of gluconeogenesis, building new glucose out of non-sugar starting materials. Albumin and most of the body’s blood-clotting proteins are manufactured here as well.",
+      "r": "The falciform ligament attaches this organ to the abdominal wall. Heavy drinking can scar this organ into a condition called cirrhosis. For 10 points, name this organ, the largest internal organ in the human body."
+    },
+    {
+      "p": "A dual blood supply reaches this organ, receiving oxygen-rich blood through the hepatic artery and nutrient-rich blood through a portal vessel coming from the intestines and spleen. It sits directly beneath the diaphragm on the body’s right side.",
+      "r": "This organ’s Kupffer cells break down old red blood cells, releasing the pigment bilirubin; when this organ cannot process enough of that pigment, skin can turn yellow with jaundice. For 10 points, name this organ that produces bile for digesting fat."
+    },
+    {
+      "p": "Vitamin A is stored by this organ’s Ito cells, tucked just beneath its sinusoidal lining. This organ’s cells also make glucokinase, an enzyme used in aerobic respiration, and this organ contains unusually large numbers of peroxisomes.",
+      "r": "Though two-lobed from the outside, this organ actually has four lobes, named right, left, caudate, and quadrate. For 10 points, name this organ that can regrow a damaged section, making it unique among internal organs."
+    },
+    {
+      "p": "This organ converts leftover nitrogen from protein breakdown into urea for the kidneys to excrete. The Cori cycle sends lactic acid from tired muscles to this organ, which rebuilds it into glucose.",
+      "r": "Also considered the body’s largest gland, this organ releases bile into the digestive tract. Its Kupffer cells destroy aging red blood cells. For 10 points, name this organ that can become scarred by alcohol into cirrhosis."
+    },
+    {
+      "p": "Albumin and most blood-clotting proteins are manufactured in this organ. This organ’s cells perform gluconeogenesis, assembling new glucose molecules from non-sugar sources, and this organ stores extra sugar as glycogen between meals.",
+      "r": "This organ sits just beneath the diaphragm and is attached to the abdominal wall by the falciform ligament. For 10 points, name this organ that filters toxins such as alcohol out of the bloodstream."
+    },
+    {
+      "p": "Peroxisomes are unusually abundant in this organ, helping it break down fatty acids. This organ’s Ito cells store vitamin A, and this organ receives a dual blood supply through both the hepatic artery and a portal vessel.",
+      "r": "Bilirubin that this organ fails to process can build up and cause jaundice. For 10 points, name this organ that can become inflamed in a condition called hepatitis."
+    },
+    {
+      "p": "The main site of gluconeogenesis in the human body, this organ rebuilds glucose from non-sugar molecules. This organ’s enzyme glucokinase supports aerobic respiration, and leftover nitrogen from protein breakdown becomes urea here.",
+      "r": "Technically split into four lobes rather than two, this organ is attached to the body wall by the falciform ligament. For 10 points, name this organ whose Kupffer cells break down old red blood cells."
+    },
+    {
+      "p": "This organ’s Kupffer cells destroy worn-out red blood cells, releasing the pigment bilirubin. A dual blood supply reaches this organ: the hepatic artery and a portal vessel carrying blood from the intestines and spleen.",
+      "r": "This organ stores extra sugar as glycogen and can regrow a damaged section better than any other internal organ. For 10 points, name this organ that produces bile, which the gallbladder stores."
+    },
+    {
+      "p": "Vitamin A is stockpiled by this organ’s Ito cells, and large numbers of peroxisomes help it break down fatty acids. The Cori cycle carries lactic acid from exercising muscles to this organ to be rebuilt into glucose.",
+      "r": "This organ sits beneath the diaphragm and is technically split into four lobes. For 10 points, name this organ that can become scarred into cirrhosis from heavy alcohol use."
+    },
+    {
+      "p": "Albumin and most blood-clotting proteins come from this organ, which also converts nitrogen waste from proteins into urea. This organ is sometimes called the body’s largest gland because it secretes bile into the digestive tract.",
+      "r": "This organ’s Kupffer cells recycle old red blood cells into the pigment bilirubin. For 10 points, name this organ whose failure to process that pigment can cause jaundice."
+    },
+    {
+      "p": "This organ’s glucokinase enzyme supports aerobic respiration, while gluconeogenesis inside this organ builds fresh glucose from non-sugar sources. A dual blood supply nourishes this organ through the hepatic artery and a portal vessel.",
+      "r": "Heavy drinking can scar this organ into cirrhosis, and inflammation of this organ is called hepatitis. For 10 points, name this organ, the largest internal organ in the human body."
+    },
+    {
+      "p": "Ito cells, peroxisomes, and the enzyme glucokinase are all found packed inside this organ. The falciform ligament connects this organ to the abdominal wall, and this organ technically has four lobes rather than the two it appears to have.",
+      "r": "This organ’s Kupffer cells break down aging red blood cells, and this organ stores sugar as glycogen. For 10 points, name this organ that filters toxins like alcohol from the blood."
+    },
+    {
+      "p": "The Cori cycle, gluconeogenesis, and urea production from protein breakdown all take place in this organ, which also manufactures most of the body’s blood-clotting proteins. This organ receives nutrient-rich blood from the intestines and spleen through the portal vein.",
+      "r": "Jaundice can result when this organ cannot process enough bilirubin. For 10 points, name this organ that produces bile and is the only internal organ able to regrow a damaged section."
+    }
+  ],
+  "clues": [
+    {
+      "id": "largest-organ",
+      "tier": "giveaway",
+      "t": "The largest internal organ in the human body, found in the upper right side of the abdomen",
+      "k": [
+        "largest internal organ"
+      ],
+      "n": 5
+    },
+    {
+      "id": "detox",
+      "tier": "giveaway",
+      "t": "Filters toxins such as alcohol out of the bloodstream",
+      "k": [
+        "filters toxins",
+        "bloodstream"
+      ],
+      "n": 2
+    },
+    {
+      "id": "bile",
+      "tier": "giveaway",
+      "t": "Produces bile, a fluid stored in the gallbladder that helps digest fats",
+      "k": [
+        "bile",
+        "gallbladder"
+      ],
+      "n": 6
+    },
+    {
+      "id": "cirrhosis",
+      "tier": "giveaway",
+      "t": "Heavy alcohol use can scar it into a disease called cirrhosis",
+      "k": [
+        "cirrhosis",
+        "alcohol"
+      ],
+      "n": 6
+    },
+    {
+      "id": "regenerate",
+      "tier": "giveaway",
+      "t": "The only internal organ in the human body that can regrow a damaged section",
+      "k": [
+        "regrow",
+        "regenerate"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kupffer",
+      "tier": "middle",
+      "t": "Kupffer cells inside it break down old, worn-out red blood cells",
+      "k": [
+        "kupffer cells"
+      ],
+      "n": 4
+    },
+    {
+      "id": "portal-vein",
+      "tier": "middle",
+      "t": "Receives nutrient-rich, oxygen-poor blood from the intestines and spleen through the portal vein",
+      "k": [
+        "portal vein"
+      ],
+      "n": 4
+    },
+    {
+      "id": "jaundice",
+      "tier": "middle",
+      "t": "Failing to break down the pigment bilirubin can turn skin yellow, a condition called jaundice",
+      "k": [
+        "bilirubin",
+        "jaundice"
+      ],
+      "n": 3
+    },
+    {
+      "id": "hepatitis",
+      "tier": "middle",
+      "t": "Can become inflamed in a condition called hepatitis",
+      "k": [
+        "hepatitis",
+        "inflamed"
+      ],
+      "n": 6
+    },
+    {
+      "id": "glycogen",
+      "tier": "middle",
+      "t": "Stores extra sugar as glycogen and releases it back as glucose when the body needs energy",
+      "k": [
+        "glycogen",
+        "glucose"
+      ],
+      "n": 3
+    },
+    {
+      "id": "falciform",
+      "tier": "middle",
+      "t": "The falciform ligament attaches it to the wall of the abdomen and separates it into lobes",
+      "k": [
+        "falciform ligament"
+      ],
+      "n": 2
+    },
+    {
+      "id": "diaphragm",
+      "tier": "middle",
+      "t": "Sits directly beneath the diaphragm, mostly on the body’s right side",
+      "k": [
+        "diaphragm"
+      ],
+      "n": 1
+    },
+    {
+      "id": "largest-gland",
+      "tier": "middle",
+      "t": "Also considered the body’s largest gland, since it releases bile into the digestive tract",
+      "k": [
+        "largest gland"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cori-cycle",
+      "tier": "power",
+      "t": "The Cori cycle carries lactic acid made by working muscles here, where it’s rebuilt into glucose",
+      "k": [
+        "cori cycle",
+        "lactic acid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ito-cells",
+      "tier": "power",
+      "t": "Ito cells inside it store vitamin A beneath its lining of blood vessels",
+      "k": [
+        "ito cells",
+        "vitamin a"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peroxisomes",
+      "tier": "power",
+      "t": "Contains large numbers of peroxisomes, organelles that help break down fatty acids",
+      "k": [
+        "peroxisomes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "glucokinase",
+      "tier": "power",
+      "t": "Its cells produce the enzyme glucokinase, used in aerobic respiration",
+      "k": [
+        "glucokinase"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gluconeogenesis",
+      "tier": "power",
+      "t": "The main site of gluconeogenesis, the process of making new glucose from non-sugar sources",
+      "k": [
+        "gluconeogenesis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "urea",
+      "tier": "power",
+      "t": "Converts leftover nitrogen from broken-down proteins into urea for the kidneys to remove",
+      "k": [
+        "urea",
+        "proteins"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dual-blood-supply",
+      "tier": "power",
+      "t": "Receives a dual blood supply: oxygen-rich blood from the hepatic artery and nutrient-rich blood from the portal vein",
+      "k": [
+        "hepatic artery",
+        "dual blood supply"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clotting-factors",
+      "tier": "power",
+      "t": "Produces most of the body’s blood-clotting proteins, plus albumin, the most common protein in blood plasma",
+      "k": [
+        "albumin",
+        "clotting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-lobes",
+      "tier": "power",
+      "t": "Though it looks like two lobes from the front, it actually has four lobes: right, left, caudate, and quadrate",
+      "k": [
+        "four lobes",
+        "caudate",
+        "quadrate"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Liver, or kidneys?",
+    "body": "Both of these organs clean the blood, so clues about “filtering” or “toxins” can point to either one. But bile, Kupffer cells, cirrhosis, glycogen storage, and the portal vein all belong to this organ; urine, nephrons, and the renal pelvis belong to the kidneys instead.",
+    "fix": "If the clue mentions bile, the gallbladder, jaundice, or alcohol damage, it’s safely this organ; if it mentions urine or filtering waste out of the blood into a liquid, think kidneys instead.",
+    "line": "Real answer line: <b><u>Liver</u></b>"
+  },
+  "freq": {
+    "rank": 2,
+    "count": 12,
+    "list": "Biology"
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "id": "hamlet",
+  "name": "Hamlet",
+  "mono": "HAM",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Shakespeare’s Prince of Denmark · Home of “To be, or not to be”",
+  "dates": "First performed c. 1600",
+  "briefing": "When the ghost of his murdered father appears on the castle walls at Elsinore, Prince Hamlet learns that his uncle Claudius is the killer — and spends the rest of _Hamlet_ torn between revenge and doubt. Along the way he delivers the most famous speech in the English language, feigns madness, and loses nearly everyone he loves. Shakespeare’s longest play is also his most quoted, from “to be or not to be” to “something is rotten in the state of Denmark.”",
+  "answerHtml": "<b><u>Hamlet</u></b> (or Prince Hamlet; prompt on “Prince of Denmark”)",
+  "accept": [
+    "hamlet",
+    "prince hamlet",
+    "hamlet prince of denmark",
+    "the tragedy of hamlet prince of denmark",
+    "tragedy of hamlet"
+  ],
+  "prompt": [
+    "prince of denmark"
+  ],
+  "reject": [
+    "king hamlet",
+    "claudius",
+    "king claudius",
+    "ophelia",
+    "gertrude",
+    "polonius",
+    "laertes",
+    "horatio"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Why should you read “Hamlet”? - Iseult Gillespie",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=QTu39aMg_mU",
+      "note": "Animated lesson · the ghost, the revenge plot, and why the play still matters"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Video SparkNotes: Shakespeare’s Hamlet Summary",
+      "source": "SparkNotes",
+      "url": "https://www.youtube.com/watch?v=t0CqUTmwKiM",
+      "note": "Plot summary of the whole play, from the ghost to the deadly final duel"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Shakespeare Summarized: Hamlet",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=_NwZl_zGoyw",
+      "note": "Jokey retelling of the whole play for teens (some mild language)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ghosts, Murder, and More Murder - Hamlet Part 1: Crash Course Literature 203",
+      "source": "Crash Course Literature",
+      "url": "https://www.youtube.com/watch?v=My14mZa-eq8",
+      "note": "Part 1 of 2 · John Green on the ghost, revenge, and Hamlet’s big questions"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ophelia, Gertrude, and Regicide - Hamlet Part 2: Crash Course Literature 204",
+      "source": "Crash Course Literature",
+      "url": "https://www.youtube.com/watch?v=nDCohlKUufs",
+      "note": "Part 2 of 2 · Ophelia, Gertrude, and what it means to kill a king"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Shakespeare’s Tragedies and an Acting Lesson: Crash Course Theater #15",
+      "source": "Crash Course Theater",
+      "url": "https://www.youtube.com/watch?v=9m5I-HO3w8w",
+      "note": "Bigger picture · Shakespeare’s tragedies as a group, plus an acting lesson"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Hamlet",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/hamlet",
+      "note": "Study guide: key facts (setting, genre, climax), background, and a link to the full summary"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Hamlet",
+  "qb": {
+    "q": "Hamlet",
+    "found": 12,
+    "tip": "All 12 results are genuinely on-topic — Shakespeare’s longest tragedy gives plenty of MS/EHS tossups to pull from, and the answer line covers the title character and the play together."
+  },
+  "sample": {
+    "n": 12,
+    "note": "the 12 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Polonius secretly sends a servant named Reynaldo to Paris to spy on his own son. That same scheming advisor is later stabbed through a curtain while eavesdropping on this man and his mother.",
+      "r": "This man feigns madness after a ghost reveals that his uncle poisoned his father. He stages a play called _The Murder of Gonzago_ to test his uncle’s guilty conscience. For 10 points, name this Shakespearean prince who wonders “to be or not to be.”"
+    },
+    {
+      "p": "This man’s father appears as a ghost and reveals that the king was poisoned in his ear by his own brother while napping in an orchard, then that brother quickly married the queen. Warned to avenge the murder but “taint not thy mind,” this man swears his friends to secrecy about the apparition.",
+      "r": "He later stabs the king’s adviser Polonius through a curtain, mistaking him for his murderous uncle. For 10 points, name this prince who delays avenging his father’s murder throughout a Shakespeare tragedy."
+    },
+    {
+      "p": "A subplot follows Prince Fortinbras of Norway, who raises an army hoping to win back the lands his father lost to Denmark, mirroring this man’s quest for revenge. Early in the play, this man swears his companions to secrecy after encountering his father’s ghost on the castle battlements.",
+      "r": "He later feigns insanity, which he calls putting on an “antic disposition,” to investigate his uncle’s guilt. For 10 points, name this moody prince who delays killing King Claudius for most of a Shakespeare tragedy."
+    },
+    {
+      "p": "This man tells two old schoolfellows that he has lately lost all his mirth, calling the earth a “sterile promontory” before marveling “what a piece of work is a man.” He later sends those same friends, Rosencrantz and Guildenstern, to their deaths in England with a forged letter.",
+      "r": "Earlier, this man complains “frailty, thy name is woman” about his mother’s hasty remarriage to his uncle. For 10 points, name this title character who stabs Polonius through a curtain in a Shakespeare tragedy."
+    },
+    {
+      "p": "After watching a traveling actor weep real tears over a speech about the Trojan queen Hecuba, this man despairs that he, unlike the player, has a real cause for grief yet still fails to act. He resolves to stage a play to “catch the conscience of the king.”",
+      "r": "That play, _The Murder of Gonzago_, is nicknamed “the Mousetrap.” For 10 points, name this prince who uses the play to expose his uncle Claudius’s guilt over murdering his father."
+    },
+    {
+      "p": "Early in the play, the king’s councilor advises his own son, “Neither a borrower nor a lender be,” and later boasts to the king and queen that “brevity is the soul of wit.” That same councilor, Polonius, is stabbed through a curtain by this man.",
+      "r": "This man also tells Polonius’s daughter, Ophelia, to “get thee to a nunnery.” For 10 points, name this prince of Denmark who wonders whether “to be or not to be” is the question."
+    },
+    {
+      "p": "During a heated confrontation with his mother, this man stabs a curtain, killing a hidden eavesdropper he mistook for his uncle. He then drags the body away, later joking that the dead man is “at supper” being eaten by worms.",
+      "r": "This man’s accidental victim was Polonius, whose daughter Ophelia later drowns after going mad with grief. For 10 points, name this title prince who avenges his father’s murder in a Shakespeare tragedy."
+    },
+    {
+      "p": "After this man cruelly tells her to “get thee to a nunnery,” a young noblewoman loses her mind, hands out flowers to the royal court, and drowns after falling from a willow tree into a stream. Her brother Laertes, back from France, plots revenge against this man.",
+      "r": "That drowned noblewoman, Ophelia, is mourned in a famous graveyard scene. For 10 points, name this prince who later duels Laertes with a poisoned sword in a Shakespeare tragedy."
+    },
+    {
+      "p": "In a graveyard, this man picks up the skull of a jester he once knew and sighs “alas, poor Yorick” while calling him “a fellow of infinite jest.” Moments later, he leaps into a freshly dug grave to wrestle with a mourner he accuses of overacting his grief.",
+      "r": "That grave belongs to Ophelia, and the mourner is her brother Laertes. For 10 points, name this prince who soon duels Laertes with a poisoned rapier in a Shakespeare tragedy."
+    },
+    {
+      "p": "A foppish courtier named Osric invites this man to a fencing match that his uncle has secretly rigged with a poisoned blade and a poisoned cup of wine. This man’s mother accidentally drinks from that cup instead, dying before the match ends.",
+      "r": "This man then kills Laertes and his uncle Claudius with the same poisoned sword before dying himself. For 10 points, name this title prince whose revenge is completed in the final scene of a Shakespeare tragedy."
+    },
+    {
+      "p": "Soon after meeting a ghost, this man warns his friends he may start acting strangely, calling it putting on an “antic disposition.” He later rewrites a royal letter so that two old schoolfellows, Rosencrantz and Guildenstern, are executed in his place when he is sent to England.",
+      "r": "He escapes that voyage after his ship is attacked by pirates. For 10 points, name this prince who returns home to find Ophelia newly buried in a Shakespeare tragedy."
+    },
+    {
+      "p": "This man claims he could be “bounded in a nutshell” and still count himself “a king of infinite space,” except that he is troubled by bad dreams. He says this to two schoolfellows he suspects the king has sent to spy on him.",
+      "r": "Those same friends, Rosencrantz and Guildenstern, are later sent to their deaths in England on this man’s forged orders. For 10 points, name this title prince who feigns madness to investigate his father’s murder in a Shakespeare tragedy."
+    },
+    {
+      "p": "Finding his uncle alone and praying, this man hesitates to kill him, reasoning that a death during prayer might send the murderer’s soul straight to heaven instead of punishing it. He decides to wait for a moment of greater sin.",
+      "r": "That hesitation is often cited as proof of this man’s habit of overthinking every decision. For 10 points, name this prince who finally kills his uncle Claudius in the last scene of a Shakespeare tragedy."
+    },
+    {
+      "p": "This man confronts his mother in her private chamber, comparing his dead father to a god and his new stepfather to “a mildewed ear” blasting his wholesome brother. His father’s ghost appears again during the scene, visible only to this man.",
+      "r": "He had just killed Polonius there by stabbing through a curtain. For 10 points, name this prince who rages at his mother, Queen Gertrude, for remarrying so quickly in a Shakespeare tragedy."
+    },
+    {
+      "p": "This man has more lines than any other Shakespearean character, and in one soliloquy he compares the whole world to an “unweeded garden.” Scholars still debate how much of this man’s famous indecision is genuine and how much is performance.",
+      "r": "This man is the title character of Shakespeare’s longest play. For 10 points, name this Prince of Denmark who wonders aloud whether “to be or not to be.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "to-be-or-not-to-be",
+      "tier": "giveaway",
+      "t": "Delivers the famous “to be or not to be” soliloquy while debating whether to go on living",
+      "k": [
+        "to be or not to be",
+        "soliloquy"
+      ],
+      "n": 9
+    },
+    {
+      "id": "prince-of-denmark",
+      "tier": "giveaway",
+      "t": "Title role: the Prince of Denmark in Shakespeare’s longest tragedy",
+      "k": [
+        "prince of denmark",
+        "denmark"
+      ],
+      "n": 6
+    },
+    {
+      "id": "elsinore",
+      "tier": "giveaway",
+      "t": "The action takes place at Elsinore Castle in Denmark",
+      "k": [
+        "elsinore",
+        "castle"
+      ],
+      "n": 2
+    },
+    {
+      "id": "final-duel",
+      "tier": "giveaway",
+      "t": "The play ends in a poisoned duel that kills Laertes, Gertrude, Claudius, and the hero himself",
+      "k": [
+        "poisoned duel",
+        "laertes"
+      ],
+      "n": 5
+    },
+    {
+      "id": "yorick-skull",
+      "tier": "giveaway",
+      "t": "In the graveyard scene, holds the jester Yorick’s skull and calls him “a fellow of infinite jest”",
+      "k": [
+        "yorick",
+        "fellow of infinite jest"
+      ],
+      "n": 4
+    },
+    {
+      "id": "ghost-reveals",
+      "tier": "middle",
+      "t": "A ghost tells him that his own brother secretly poisoned the king, the hero’s father",
+      "k": [
+        "ghost",
+        "poisoned",
+        "brother"
+      ],
+      "n": 0,
+      "rabbit": "Shakespeare’s ghosts"
+    },
+    {
+      "id": "claudius-gertrude",
+      "tier": "middle",
+      "t": "Uncle Claudius kills the king and quickly marries the hero’s mother, Queen Gertrude",
+      "k": [
+        "claudius",
+        "gertrude"
+      ],
+      "n": 2
+    },
+    {
+      "id": "nunnery",
+      "tier": "middle",
+      "t": "Coldly tells his girlfriend to “get thee to a nunnery”",
+      "k": [
+        "nunnery"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ophelia-drowns",
+      "tier": "middle",
+      "t": "His girlfriend Ophelia goes mad and drowns after falling from a willow tree",
+      "k": [
+        "ophelia",
+        "drowns",
+        "willow tree"
+      ],
+      "n": 4,
+      "rabbit": "Ophelia"
+    },
+    {
+      "id": "mousetrap",
+      "tier": "middle",
+      "t": "Stages a play called _The Murder of Gonzago_, nicknamed “the Mousetrap,” to catch the king’s guilty reaction",
+      "k": [
+        "mousetrap",
+        "gonzago"
+      ],
+      "n": 4
+    },
+    {
+      "id": "stabs-polonius",
+      "tier": "middle",
+      "t": "Stabs the meddling courtier Polonius through a curtain, mistaking him for the king",
+      "k": [
+        "polonius",
+        "curtain"
+      ],
+      "n": 5
+    },
+    {
+      "id": "rosencrantz-guildenstern",
+      "tier": "middle",
+      "t": "Sends his old schoolmates Rosencrantz and Guildenstern to their deaths with a forged letter",
+      "k": [
+        "rosencrantz",
+        "guildenstern",
+        "forged letter"
+      ],
+      "n": 4,
+      "rabbit": "Rosencrantz and Guildenstern Are Dead"
+    },
+    {
+      "id": "antic-disposition",
+      "tier": "middle",
+      "t": "Pretends to be insane, warning friends he will put on an “antic disposition”",
+      "k": [
+        "antic disposition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reynaldo-spy",
+      "tier": "power",
+      "t": "Polonius secretly sends a servant, Reynaldo, to Paris to spy on his own son",
+      "k": [
+        "reynaldo",
+        "paris"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fortinbras",
+      "tier": "power",
+      "t": "A parallel revenge plot follows Prince Fortinbras of Norway, whose father was also killed",
+      "k": [
+        "fortinbras",
+        "norway"
+      ],
+      "n": 0,
+      "rabbit": "Fortinbras"
+    },
+    {
+      "id": "piece-of-work",
+      "tier": "power",
+      "t": "Marvels “what a piece of work is a man” while talking with two old schoolfellows",
+      "k": [
+        "piece of work is a man",
+        "schoolfellows"
+      ],
+      "n": 4
+    },
+    {
+      "id": "hecuba",
+      "tier": "power",
+      "t": "Watches an actor’s speech about the Trojan queen Hecuba and asks “what’s Hecuba to him?”",
+      "k": [
+        "hecuba",
+        "trojan queen"
+      ],
+      "n": 1
+    },
+    {
+      "id": "frailty",
+      "tier": "power",
+      "t": "An early soliloquy complains “frailty thy name is woman” about his mother’s hasty remarriage",
+      "k": [
+        "frailty thy name is woman",
+        "remarriage"
+      ],
+      "n": 1
+    },
+    {
+      "id": "brevity",
+      "tier": "power",
+      "t": "Polonius advises his son “to thine own self be true” and boasts “brevity is the soul of wit”",
+      "k": [
+        "brevity is the soul of wit",
+        "to thine own self be true"
+      ],
+      "n": 1
+    },
+    {
+      "id": "osric",
+      "tier": "power",
+      "t": "The courtier Osric arrives to set up a fencing match that becomes the final, fatal duel",
+      "k": [
+        "osric",
+        "fencing match"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nutshell",
+      "tier": "power",
+      "t": "Claims he could be “bounded in a nutshell” and still count himself a king of infinite space",
+      "k": [
+        "bounded in a nutshell",
+        "king of infinite space"
+      ],
+      "n": 1
+    },
+    {
+      "id": "grave-leap",
+      "tier": "power",
+      "t": "Leaps into a grave to wrestle with Ophelia’s grieving brother over who loved her more",
+      "k": [
+        "grieving brother",
+        "leaps into a grave"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poison-in-ear",
+      "tier": "power",
+      "t": "The ghost reveals the murder method: poison poured into the king’s ear while he slept in an orchard",
+      "k": [
+        "poison",
+        "orchard"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Two Hamlets in one play",
+    "body": "Shakespeare gives the exact same name, Hamlet, to two different characters: the young prince (the answer to this tossup) and his dead father, the murdered king whose ghost walks the battlements. A tossup describing the ghost, the former king, or “the elder Hamlet” is not asking for the title character.",
+    "fix": "Listen for “Prince,” “young,” or verbs like studies/delays/pretends/stabs — that’s the title character. “King,” “the ghost,” or “the elder” points to his father instead.",
+    "line": "Real answer line: Prince <b><u>Hamlet</u></b> [accept The Tragedy of Hamlet, Prince of Denmark; prompt on “Prince of Denmark”]"
+  },
+  "tests": {
+    "right": [
+      "Hamlet",
+      "hamlet",
+      "Hamlett",
+      "Prince Hamlet",
+      "The Tragedy of Hamlet"
+    ],
+    "prompt": [
+      "Prince of Denmark"
+    ],
+    "wrong": [
+      "King Hamlet",
+      "Claudius",
+      "Ophelia",
+      "Macbeth",
+      "Othello"
+    ]
+  },
+  "freq": {
+    "rank": 25,
+    "count": 8,
+    "list": "Literature"
+  }
+}

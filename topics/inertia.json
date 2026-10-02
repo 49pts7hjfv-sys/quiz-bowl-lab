@@ -1,0 +1,389 @@
+{
+  "id": "inertia",
+  "name": "Inertia",
+  "mono": "INR",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Matter’s resistance to changing motion · The property behind Newton’s First Law",
+  "dates": "Formalized in Newton’s First Law of Motion, 1687",
+  "briefing": "Inertia is matter’s built-in stubbornness: an object at rest stays at rest, and one in motion keeps moving in a straight line at a constant speed, unless an outside force pushes or pulls on it. Isaac Newton made this his First Law of Motion, building on Galileo’s idea that a ball would roll forever on a frictionless surface. It’s also why yanking a tablecloth fast enough can leave the dishes sitting still, and why more mass always means more resistance to changing speed.",
+  "answerHtml": "<b><u>Inertia</u></b> (accept <u>inertial</u>)",
+  "accept": [
+    "inertia",
+    "inertial"
+  ],
+  "prompt": [],
+  "reject": [
+    "moment of inertia",
+    "rotational inertia",
+    "inertial mass",
+    "mass",
+    "momentum",
+    "friction"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Inertia: Newton’s First Law",
+      "source": "LearnFree",
+      "url": "https://www.youtube.com/watch?v=LQyFshgm-hU",
+      "note": "Quick explainer of Newton’s first law, the law of inertia"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Newton’s First Law of Motion - Exploring the Law of Inertia",
+      "source": "Miacademy",
+      "url": "https://www.youtube.com/watch?v=HOp04z36oY0",
+      "note": "Kid-level lesson on the law of inertia with everyday examples"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Newton’s First Law of Motion: Mass and Inertia",
+      "source": "Professor Dave Explains",
+      "url": "https://www.youtube.com/watch?v=1XSyyjcEHo0",
+      "note": "Newton’s first law and how an object’s mass measures its inertia"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Newton’s 3 Laws, with a bicycle - Joshua Manley",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=JGO_zDWmkvk",
+      "note": "Animated tour of all three of Newton’s laws on a bike ride"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Inertia facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Inertia",
+      "note": "Kid-friendly encyclopedia page on inertia, from Galileo and Newton to rotational inertia"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Inertia",
+  "qb": {
+    "q": "inertia",
+    "found": 9,
+    "tip": "4 of the 9 results are different, more specific answer lines — “moment of inertia,” “inertial mass,” and “mass” (which mentions inertia only as a clue) — plus one tossup on nuclear fusion that just name-drops “inertial confinement.” All 4 were excluded from the sample but used to build the reject list and Buzzer Trap."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups that actually answer with plain “inertia” (Middle School + Easy High School, power-marked); 4 more results from the same search are different, more specific answer lines (see qb.tip)"
+  },
+  "tossups": [
+    {
+      "p": "One nuclear fusion technique squeezes fuel inside a tiny hohlraum and relies on the fuel’s own resistance to motion, not magnets, to hold it together, in a method named for this property. A spinning object’s rotational twin of this property, nicknamed the “moment of” it, links torque to how fast a spin speeds up.",
+      "r": "Because of this property, an object’s motion changes only when an unbalanced outside force acts on it. Newton’s First Law says a resting object stays at rest and a moving one keeps moving otherwise. For 10 points, name this property that makes matter resist changes in its motion."
+    },
+    {
+      "p": "Einstein’s special theory of relativity is limited to reference frames named for this property, unlike his general theory. A specialized balance used aboard spacecraft can measure an astronaut’s mass in the weightlessness of orbit by relying on this property instead of weight.",
+      "r": "The more mass something has, the more of this property it has too. Described by Newton’s First Law, which says objects at rest stay at rest and objects in motion keep moving at a constant speed unless a force acts on them. For 10 points, name this tendency of matter to resist changes in its motion."
+    },
+    {
+      "p": "Galileo imagined a ball rolling along a perfectly frictionless surface, reasoning that it would then roll on forever at the exact same speed, an early insight into this property. A viewpoint that is not accelerating counts as a reference frame named for this property, one where no fictitious forces, like a sideways push felt in a turning car, ever appear.",
+      "r": "Formally, with zero net outside force acting on it, an object keeps a perfectly constant velocity. Newton’s First Law is sometimes just called the law of this property. For 10 points, name this resistance that matter has to any change in its speed or direction."
+    },
+    {
+      "p": "A classic physics demonstration yanks a tablecloth out from under a full set of dishes, which this property keeps sitting in place instead of sliding off with the cloth. This property’s rotational twin, which factors in not just an object’s mass but exactly how that mass is spread out around its spin axis, is called its “moment.”",
+      "r": "Objects with more mass have more of this property, which is why heavy things are harder to start, stop, or turn. For 10 points, name this property behind Newton’s First Law of Motion."
+    },
+    {
+      "p": "A sensor called an accelerometer works by detecting a tiny lag, caused by this exact property, whenever its casing suddenly changes direction. Car safety engineers design crumple zones partly to manage this property safely, slowing passengers down gradually during a crash instead of all at once.",
+      "r": "This property lets a spacecraft coast through deep space for years at constant velocity with its engines shut completely off. Newton’s First Law of Motion is often called the law of this property. For 10 points, name this tendency of an object to keep doing whatever it’s already doing."
+    },
+    {
+      "p": "Unlike its rotational cousin, which is measured in kilogram-meters-squared, this property itself carries no unit of its own, since it is a tendency rather than a numeric quantity. Nuclear engineers exploit this exact property in a fusion technique that squeezes fuel inside a hohlraum instead of using magnetic fields.",
+      "r": "A reference frame that isn’t accelerating is named for this property, and in such a frame no fictitious forces like the Coriolis force ever appear. For 10 points, name this property that Newton’s First Law says keeps a moving object moving and a resting object at rest."
+    },
+    {
+      "p": "French philosopher Descartes argued that a moving body naturally keeps moving in a straight line, an early step toward understanding this property, which Newton later built into his first law of motion in his 1687 book. A viewpoint that isn’t accelerating is a reference frame named for this property, where no fictitious forces appear.",
+      "r": "This property is often mixed up with mass itself, even though mass is really just the numerical measure of how much of this property an object has. For 10 points, name this tendency of objects to resist a change in their motion."
+    },
+    {
+      "p": "General relativity’s equivalence principle says the mass that measures this property always equals the mass that feels gravity. A specialized balance used aboard spacecraft can measure an astronaut’s mass in the weightlessness of orbit by relying on this property instead of weight.",
+      "r": "Shown off whenever someone yanks a tablecloth out from under a set of dishes that stay put. Described by Newton’s First Law, which says a resting object stays at rest and a moving one keeps moving unless acted on by force. For 10 points, name this basic property of matter."
+    },
+    {
+      "p": "One nuclear fusion technique squeezes fuel inside a tiny hohlraum, relying on the fuel’s own resistance to moving rather than on magnetic fields, in a method nicknamed for this property. A spinning object’s twin of this property depends on exactly how its mass is spread out around the axis it spins on, not just on its total mass.",
+      "r": "Formally defined as what keeps an object at constant velocity whenever zero net outside force acts on it. For 10 points, name this property, the subject of Newton’s First Law of Motion."
+    },
+    {
+      "p": "Galileo’s thought experiment of a ball rolling forever on a frictionless surface was an early step toward understanding this property, which Descartes also explored before Newton formalized it in his 1687 book. A reference frame named for this property is one where no fictitious forces, like the one that seems to push you sideways in a turning car, ever appear.",
+      "r": "Car crumple zones are designed to manage this property safely during a crash. For 10 points, name this tendency of matter to resist any change in its state of motion."
+    },
+    {
+      "p": "A rotating object’s twin of this property links the torque applied to it to how quickly its spin speeds up, and depends on how its mass is arranged around the spin axis, not just the total amount of mass. Einstein’s general relativity holds that the mass measuring this property equals the mass that feels gravity.",
+      "r": "Because of this property, an object’s motion changes only when an unbalanced outside force acts on it. The more mass an object has, the more of this property it carries too. For 10 points, name this resistance to changes in motion that Newton made the subject of his First Law."
+    },
+    {
+      "p": "One nuclear fusion method, named for this property, squeezes fuel inside a hohlraum and lets the fuel’s own resistance to motion, instead of strong magnetic fields, hold it together. A specialized balance used aboard spacecraft measures an astronaut’s mass in orbit by relying on this exact property rather than weight, since an ordinary scale reads zero in free fall.",
+      "r": "This property has no unit of its own, unlike its rotational twin, which is measured in kilogram-meters-squared. For 10 points, name this tendency of matter to resist a change in its motion, examined by Newton’s First Law."
+    },
+    {
+      "p": "A viewpoint that is not accelerating counts as a special kind of reference frame named for this property, the sort where no fictitious forces such as the Coriolis force ever appear. Einstein’s special relativity is limited to such frames, unlike his general theory.",
+      "r": "Demonstrated by yanking a tablecloth out from under a set of dishes, which stay in place thanks to this property. Newton’s First Law says this property keeps a resting object at rest and a moving object moving at constant velocity. For 10 points, name this basic tendency of matter."
+    },
+    {
+      "p": "Descartes’s idea that a moving body naturally keeps moving in a straight line was an early step toward this property, which Galileo also explored through his thought experiment of a ball rolling forever on a frictionless surface. This property’s rotational twin relates torque to angular acceleration and is nicknamed the “moment of” it.",
+      "r": "A spacecraft can coast through deep space for years at constant velocity thanks to this property, with its engines completely shut off. For 10 points, name this property that Newton’s First Law says resists any change in an object’s motion."
+    },
+    {
+      "p": "Named for this property, one fusion technique squeezes fuel inside a hohlraum with lasers and relies on the fuel’s own resistance to motion to hold it together. An accelerometer sensor detects a tiny lag caused by this exact property whenever its casing suddenly changes direction, which is how it senses acceleration.",
+      "r": "Objects with greater mass always carry more of this property, which is why heavy objects are harder to start or stop moving. Newton’s First Law of Motion is often simply called the law of this property. For 10 points, name this tendency of matter to resist changes in its state of motion."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The tendency of any object to resist a change in its motion or speed, continuing the same way unless a force acts on it",
+      "k": [
+        "tendency",
+        "resist",
+        "motion"
+      ],
+      "n": 5
+    },
+    {
+      "id": "newtons-first-law",
+      "tier": "giveaway",
+      "t": "The subject of Newton’s First Law of Motion, which says a resting object stays at rest and a moving one keeps moving the same way unless something pushes or pulls on it",
+      "k": [
+        "first law",
+        "motion",
+        "pushes or pulls"
+      ],
+      "n": 5
+    },
+    {
+      "id": "mass-link",
+      "tier": "giveaway",
+      "t": "The more mass an object has, the more of this property it has too, which is why heavy things are harder to start, stop, or turn",
+      "k": [
+        "more mass",
+        "heavy things"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tablecloth",
+      "tier": "giveaway",
+      "t": "Shown off by the classic trick of yanking a tablecloth out from under a set of dishes, which stay put instead of sliding along with the cloth",
+      "k": [
+        "tablecloth",
+        "dishes",
+        "yanking"
+      ],
+      "n": 1
+    },
+    {
+      "id": "galileo",
+      "tier": "middle",
+      "t": "Galileo imagined a ball rolling along a perfectly frictionless surface, reasoning that it would then roll on forever at a steady speed",
+      "k": [
+        "galileo",
+        "frictionless",
+        "rolling"
+      ],
+      "n": 1,
+      "rabbit": "Isaac Newton"
+    },
+    {
+      "id": "zero-net-force",
+      "tier": "middle",
+      "t": "Formally, with exactly zero net outside force acting on an object, that object keeps a perfectly constant velocity — same speed, same direction",
+      "k": [
+        "constant velocity",
+        "zero net outside force"
+      ],
+      "n": 2
+    },
+    {
+      "id": "non-accel-viewpoint",
+      "tier": "middle",
+      "t": "A viewpoint that is not accelerating counts as a reference frame named for this property, one where no made-up fictitious forces, like a sideways push felt in a turning car, ever appear",
+      "k": [
+        "reference frame",
+        "fictitious forces"
+      ],
+      "n": 2
+    },
+    {
+      "id": "external-force",
+      "tier": "middle",
+      "t": "Because of it, an object’s motion changes only when some unbalanced outside force pushes or pulls on it; nothing the object does on its own can speed it up, slow it down, or turn it",
+      "k": [
+        "unbalanced",
+        "outside force"
+      ],
+      "n": 1
+    },
+    {
+      "id": "balance-device",
+      "tier": "middle",
+      "t": "A specialized balance used aboard spacecraft can measure an astronaut’s mass in the weightlessness of orbit by relying on this exact property instead of weight",
+      "k": [
+        "spacecraft",
+        "weightlessness",
+        "weight"
+      ],
+      "n": 1
+    },
+    {
+      "id": "moment-link",
+      "tier": "middle",
+      "t": "Has a rotational twin for spinning objects, nicknamed the “moment of” it, which relates the torque applied to an object to how fast its spin speeds up",
+      "k": [
+        "rotational twin",
+        "torque",
+        "spinning"
+      ],
+      "n": 3,
+      "rabbit": "Mass"
+    },
+    {
+      "id": "confinement-fusion",
+      "tier": "middle",
+      "t": "One nuclear fusion technique is named for this exact property: it squeezes fuel inside a tiny container called a hohlraum and relies on the fuel’s own resistance to moving, rather than magnetic fields, to hold it together",
+      "k": [
+        "hohlraum",
+        "nuclear fusion",
+        "magnetic fields"
+      ],
+      "n": 2
+    },
+    {
+      "id": "relativity-frames",
+      "tier": "middle",
+      "t": "Einstein’s special theory of relativity is limited to reference frames named for this property, while his general theory also covers accelerating ones",
+      "k": [
+        "einstein",
+        "relativity",
+        "reference frames"
+      ],
+      "n": 1
+    },
+    {
+      "id": "coriolis",
+      "tier": "power",
+      "t": "Reference frames named for this property never show made-up effects like the Coriolis force, which appear only in spinning or accelerating viewpoints",
+      "k": [
+        "coriolis force",
+        "accelerating"
+      ],
+      "n": 0
+    },
+    {
+      "id": "principia",
+      "tier": "power",
+      "t": "Newton made this the subject of his very First Law of Motion in his 1687 book, building on earlier thinking by Galileo and Descartes",
+      "k": [
+        "descartes",
+        "1687 book",
+        "galileo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "not-a-number",
+      "tier": "power",
+      "t": "Unlike its rotational cousin, which is measured in kilogram-meters-squared, this property itself carries no unit of its own — it is a tendency, not a number",
+      "k": [
+        "kilogram-meters-squared",
+        "no unit"
+      ],
+      "n": 0
+    },
+    {
+      "id": "equivalence-principle",
+      "tier": "power",
+      "t": "General relativity’s equivalence principle says the mass that measures this property always equals the mass that feels gravity",
+      "k": [
+        "equivalence principle",
+        "feels gravity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shape-matters",
+      "tier": "power",
+      "t": "Its rotational twin depends not just on an object’s mass but on exactly how that mass is spread out around the axis it is spinning on",
+      "k": [
+        "spread out",
+        "rotational twin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "deep-space-coasting",
+      "tier": "power",
+      "t": "Lets a spacecraft coast through deep space for years at constant velocity with its engines completely shut off, since nothing out there pushes back against it",
+      "k": [
+        "spacecraft",
+        "engines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "conflation-caution",
+      "tier": "power",
+      "t": "Often mixed up with mass itself, even though mass is really just the numerical measure of how much of this property a particular object happens to have",
+      "k": [
+        "mixed up",
+        "numerical measure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "accelerometer",
+      "tier": "power",
+      "t": "A sensor called an accelerometer works by detecting a tiny lag, caused by this property, whenever its casing suddenly changes direction",
+      "k": [
+        "accelerometer",
+        "tiny lag"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crumple-zones",
+      "tier": "power",
+      "t": "Car safety engineers design crumple zones partly to manage this property safely, slowing passengers down gradually during a sudden stop rather than all at once",
+      "k": [
+        "crumple zones",
+        "safety engineers"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Inertia, mass, or moment?",
+    "body": "Mass and inertia are closely linked but not identical: mass is the numerical measure of how much inertia an object has, so a question built entirely around a formula, a unit, or a numeric value usually wants “mass” instead. “Moment of inertia” is a related but distinct rotational quantity, measured in kilogram-meters-squared, and its real answer line explicitly refuses the bare word “inertia.”",
+    "fix": "If the clues mention torque, angular acceleration, or a shape-dependent spinning quantity, the sharper answer is “moment of inertia,” not plain inertia. If the clues give a formula or a unit like kilograms, the answer is probably “mass.” Save “inertia” for clues about Newton’s First Law, reference frames, and the general tendency to resist changes in motion.",
+    "line": "Real answer line: <b><u>Inertia</u></b> (accept <u>inertial</u>); a related answer line, “moment of inertia,” explicitly does not accept or prompt on bare “inertia.”"
+  },
+  "tests": {
+    "right": [
+      "Inertia",
+      "inertia",
+      "Inirtia",
+      "Enertia",
+      "Inertial"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Mass",
+      "Momentum",
+      "Moment of Inertia",
+      "Friction",
+      "Velocity"
+    ]
+  },
+  "freq": {
+    "rank": 14,
+    "count": 6,
+    "list": "Physics"
+  }
+}

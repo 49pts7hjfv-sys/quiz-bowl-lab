@@ -1,0 +1,366 @@
+{
+  "id": "oedipus-rex",
+  "name": "Oedipus Rex",
+  "mono": "OED",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Sophocles’ Greek tragic king · Doomed by a prophecy he fled",
+  "dates": "Performed c. 429 BCE",
+  "briefing": "An oracle warns Oedipus that he is fated to kill his father and marry his mother, so he flees home to escape it — and ends up doing exactly that without realizing who either person really is. By the time _Oedipus Rex_ begins, he is King of Thebes, famous for solving the Sphinx’s riddle, and determined to find the murderer whose crime has cursed his city. When he discovers that the murderer is himself, he blinds himself in horror.",
+  "answerHtml": "<b><u>Oedipus</u></b> (or <b><u>Oedipus Rex</u></b>/<b><u>Oedipus the King</u></b>)",
+  "accept": [
+    "oedipus",
+    "oedipus rex",
+    "oedipus the king",
+    "oedipus tyrannus",
+    "oedipus at colonus",
+    "oedipus coloneus"
+  ],
+  "prompt": [],
+  "reject": [
+    "jocasta",
+    "creon",
+    "antigone",
+    "laius",
+    "tiresias",
+    "oedipus complex",
+    "sphinx"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Oedipus the King by Shmoop",
+      "source": "Shmoop",
+      "url": "https://www.youtube.com/watch?v=RoS7tTOwngU",
+      "note": "Shmoop’s cartoon overview of the play (mature themes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Oedipus Rex by Sophocles | Prologos",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=njRVfo47uY0",
+      "note": "The opening scene: plague in Thebes and the oracle’s message"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Fate, Family, and Oedipus Rex: Crash Course Literature 202",
+      "source": "Crash Course Literature",
+      "url": "https://www.youtube.com/watch?v=Cj7R36s4dbM",
+      "note": "John Green on fate, prophecy, and family (mature themes, classroom level)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Oedipus Rex",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/oedipus-rex",
+      "note": "Study guide: key facts (setting, genre, climax), background, and a link to the full summary"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Oedipus_Rex",
+  "qb": {
+    "q": "Oedipus",
+    "found": 12,
+    "tip": "Real packets sometimes split off a narrower “Oedipus Rex”/“Oedipus the King” answer line (about the play’s text specifically) that only prompts on bare “Oedipus” — this app fully accepts both forms either way."
+  },
+  "sample": {
+    "n": 12,
+    "note": "the 12 real QBReader tossups for the Oedipus answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "As an infant, this man is abandoned on Mount Cithaeron with his ankles pinned together, which later gives him his name, meaning “swollen foot.” A shepherd finds and saves him, and he is raised far from home by King Polybus and Queen Merope of Corinth.",
+      "r": "Believing them to be his real parents, he later flees Corinth after a prophecy from the oracle at Delphi — and runs straight toward it instead of away. For 10 points, name this Theban king who unknowingly kills his father and marries his mother."
+    },
+    {
+      "p": "Fleeing a terrible prophecy, this man kills an old traveler and his attendants at a crossroads after a dispute over who must yield the road. He has no idea that the man he just killed was his own father, the king of Thebes.",
+      "r": "That king’s death leaves the throne open for this man to inherit after he solves a monster’s riddle. For 10 points, name this legendary Greek king who fulfills a prophecy that he would kill his father and marry his mother."
+    },
+    {
+      "p": "This man answers “man” when the Sphinx, a winged creature with a lion’s body, asks what walks on four legs at dawn, two legs at midday, and three legs in the evening. Solving that riddle frees the city of Thebes from a curse and wins him the throne.",
+      "r": "He soon marries the widowed queen, Jocasta, without realizing she is his own mother. For 10 points, name this king who defeats the Sphinx in a Sophocles tragedy."
+    },
+    {
+      "p": "A plague strangles the city of Thebes at the start of this man’s story, and he vows to find and punish whoever murdered the previous king to lift the curse. A blind prophet eventually accuses this man himself of being that murderer.",
+      "r": "Furious, this man refuses to believe it until the evidence becomes impossible to deny. For 10 points, name this Greek king whose search for a killer ends with the horrifying discovery that he is the killer."
+    },
+    {
+      "p": "Upon learning the full truth about his marriage, this man takes golden pins from his wife’s robe and blinds himself with them rather than look at his own children any longer. His wife has already hanged herself in her bedroom by the time he does this.",
+      "r": "He then asks to be exiled from the city he once saved from the Sphinx. For 10 points, name this self-blinded Theban king of a Sophocles tragedy."
+    },
+    {
+      "p": "This man’s two sons later kill each other in single combat while fighting over which of them should rule Thebes. Their sister afterward defies a royal order by giving burial rites to the brother branded a traitor.",
+      "r": "That same sister, Antigone, had earlier guided this man into exile after he blinded himself. For 10 points, name this disgraced former king whose sons’ feud is chronicled in a related Sophocles tragedy."
+    },
+    {
+      "p": "In a later play, this man dies peacefully near a grove sacred to the Furies at a town called Colonus, comforted in his final moments by the Athenian king Theseus. Thunder sent by Zeus signals that the moment of his death has come.",
+      "r": "His daughter Antigone had guided his wanderings as a blind, exiled beggar for years before this. For 10 points, name this former king of Thebes, whose family’s story is told in the three Theban plays of Sophocles."
+    },
+    {
+      "p": "A Roman playwright named Seneca the Younger also wrote a tragedy about this same cursed king, opening with a terrible plague over Thebes. This man’s Greek legend was far older, though, stretching back to Homer, who already mentions his fate briefly in the _Odyssey_.",
+      "r": "Centuries later, Sophocles turned his story into one of ancient Greece’s most famous tragedies. For 10 points, name this king who kills his father and marries his mother without knowing either fact."
+    },
+    {
+      "p": "Before this man is even born, an oracle warns his father, King Laius, that his own son will someday kill him. Terrified, Laius has the infant’s feet pierced and left on a mountainside to die, a plan that fails when a kind shepherd intervenes.",
+      "r": "Years later, that abandoned son unknowingly fulfills the very prophecy his father tried to prevent. For 10 points, name this Theban king who kills Laius without recognizing him."
+    },
+    {
+      "p": "A messenger from Corinth arrives to report a king’s death, expecting this man to feel relief — instead, the messenger’s news that this man was merely adopted sets off a chain of discoveries that destroys him. An old shepherd is then summoned to confirm the messenger’s story.",
+      "r": "That shepherd reveals he once saved an abandoned baby with pinned feet on Mount Cithaeron. For 10 points, name this man who learns from that shepherd the horrifying truth about his own birth."
+    },
+    {
+      "p": "This man’s wife hangs herself inside the palace once she realizes that her husband is also her own son. A palace servant later reports that this man found her body and then blinded himself in grief and horror.",
+      "r": "That wife and mother was named Jocasta. For 10 points, name this Theban king whose family tragedy is the subject of a Sophocles play."
+    },
+    {
+      "p": "This man’s story became the basis for a theory Sigmund Freud later named after him, even though Freud’s psychological theory and this man’s actual myth are two very different things. Aristotle praised the play about this man as the finest example of tragedy in his work _Poetics_.",
+      "r": "Sophocles wrote three separate plays about this man and his family. For 10 points, name this cursed Theban king, the subject of ancient Greece’s most studied tragedy."
+    },
+    {
+      "p": "This man’s name comes from Greek words meaning “swollen foot,” a reference to an injury from early in his life. As an adult, his ankles still bear the scars of that old wound.",
+      "r": "Those scars come from having his ankles pinned together when he was left on a mountain as an infant. For 10 points, name this king whose very name hints at his unusual origin."
+    },
+    {
+      "p": "This man arrives in Thebes as a stranger, solves the riddle that has been killing anyone who fails it, and is rewarded with both the throne and the recently widowed queen’s hand in marriage. He has no idea that the queen and the throne are both connected to his own hidden past.",
+      "r": "That queen, Jocasta, turns out to be his biological mother. For 10 points, name this unwitting king of a Sophocles tragedy."
+    },
+    {
+      "p": "After blinding himself, this man asks his brother-in-law to take over as ruler and to care for his daughters. That brother-in-law, Creon, later rules Thebes as the stern king in _Antigone_.",
+      "r": "This man eventually leaves Thebes to wander as a blind beggar guided by his daughter Antigone. For 10 points, name this once-mighty king brought down by a prophecy he could not escape."
+    }
+  ],
+  "clues": [
+    {
+      "id": "kills-father-marries-mother",
+      "tier": "giveaway",
+      "t": "Unknowingly kills his own father and marries his own mother, exactly as a prophecy foretold",
+      "k": [
+        "kills his own father",
+        "prophecy foretold"
+      ],
+      "n": 12
+    },
+    {
+      "id": "blinds-self",
+      "tier": "giveaway",
+      "t": "Blinds himself with pins from his wife’s dress upon learning the terrible truth",
+      "k": [
+        "blinds himself",
+        "pins"
+      ],
+      "n": 8
+    },
+    {
+      "id": "king-of-thebes",
+      "tier": "giveaway",
+      "t": "King of Thebes who solved the Sphinx’s riddle about what walks on four legs, then two, then three",
+      "k": [
+        "king of thebes",
+        "sphinx"
+      ],
+      "n": 5
+    },
+    {
+      "id": "jocasta-wife-mother",
+      "tier": "giveaway",
+      "t": "Married to Jocasta, who turns out to be both his wife and his own mother",
+      "k": [
+        "jocasta",
+        "wife and mother"
+      ],
+      "n": 12
+    },
+    {
+      "id": "abandoned-infant",
+      "tier": "middle",
+      "t": "Abandoned as a baby on Mount Cithaeron with his feet pinned together, which is where his name comes from",
+      "k": [
+        "cithaeron",
+        "pinned together"
+      ],
+      "n": 5
+    },
+    {
+      "id": "raised-by-polybus",
+      "tier": "middle",
+      "t": "Raised by King Polybus and Queen Merope of Corinth, believing they were his real parents",
+      "k": [
+        "polybus",
+        "merope",
+        "corinth"
+      ],
+      "n": 5
+    },
+    {
+      "id": "kills-laius-crossroads",
+      "tier": "middle",
+      "t": "Kills an old man at a crossroads after a fight over right of way — later revealed to be his own father, King Laius",
+      "k": [
+        "crossroads",
+        "laius"
+      ],
+      "n": 6
+    },
+    {
+      "id": "flees-prophecy",
+      "tier": "middle",
+      "t": "Flees Corinth after an oracle warns him about his future, not realizing he is running straight toward it",
+      "k": [
+        "oracle",
+        "flees corinth"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tiresias-accusation",
+      "tier": "middle",
+      "t": "A blind prophet accuses him of bringing a deadly plague on Thebes by murdering the former king",
+      "k": [
+        "blind prophet",
+        "plague"
+      ],
+      "n": 3,
+      "rabbit": "Tiresias"
+    },
+    {
+      "id": "jocasta-suicide",
+      "tier": "middle",
+      "t": "His wife hangs herself once she realizes the truth about their marriage",
+      "k": [
+        "hangs herself"
+      ],
+      "n": 3
+    },
+    {
+      "id": "antigone-daughter",
+      "tier": "middle",
+      "t": "His daughter later guides him in his blind old age",
+      "k": [
+        "guides him",
+        "blind old age"
+      ],
+      "n": 1,
+      "rabbit": "Antigone"
+    },
+    {
+      "id": "three-prophecies-fulfilled",
+      "tier": "power",
+      "t": "Fulfills a prophecy given to his father by the oracle at Delphi even though both father and son try to avoid it",
+      "k": [
+        "oracle at delphi",
+        "delphi"
+      ],
+      "n": 1
+    },
+    {
+      "id": "reveals-not-polybus-son",
+      "tier": "power",
+      "t": "Discovers from a messenger that he is not really the son of Polybus after all, which starts his unraveling",
+      "k": [
+        "messenger",
+        "not really the son"
+      ],
+      "n": 2
+    },
+    {
+      "id": "self-blinding-method",
+      "tier": "power",
+      "t": "Uses the golden pins from his dead wife’s robe to blind himself rather than see his children any longer",
+      "k": [
+        "golden pins",
+        "robe"
+      ],
+      "n": 1
+    },
+    {
+      "id": "oedipus-at-colonus",
+      "tier": "power",
+      "t": "In a later play, dies peacefully near a grove sacred to the Furies at Colonus, guided there by his daughter and comforted by the Athenian king Theseus",
+      "k": [
+        "colonus",
+        "furies",
+        "theseus"
+      ],
+      "n": 7
+    },
+    {
+      "id": "sons-kill-each-other",
+      "tier": "power",
+      "t": "His two sons, Eteocles and Polynices, later kill each other fighting over the throne of Thebes",
+      "k": [
+        "eteocles",
+        "polynices"
+      ],
+      "n": 4
+    },
+    {
+      "id": "seneca-version",
+      "tier": "power",
+      "t": "A Roman playwright named Seneca the Younger also wrote a tragedy about this same cursed king",
+      "k": [
+        "seneca the younger"
+      ],
+      "n": 1
+    },
+    {
+      "id": "solves-riddle-detail",
+      "tier": "power",
+      "t": "Answers “man” when the Sphinx asks what creature walks on four legs at dawn, two at noon, and three in the evening",
+      "k": [
+        "walks on four legs",
+        "sphinx"
+      ],
+      "n": 5
+    },
+    {
+      "id": "name-meaning",
+      "tier": "power",
+      "t": "His own name is Greek for “swollen foot,” a wound from being left outside as an infant",
+      "k": [
+        "swollen foot"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chorus-plague-opening",
+      "tier": "power",
+      "t": "The play opens with Thebes suffering a plague that will not lift until his father’s killer is found and punished",
+      "k": [
+        "plague",
+        "killer is found"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "The myth, not the complex",
+    "body": "Sigmund Freud borrowed this character’s name for his “Oedipus complex” theory about unconscious desire — but a Literature question wants the Greek tragic hero, not the psychology term. His wife Jocasta, his brother-in-law (and uncle) Creon, and his daughter Antigone are also NOT the answer, even though clues about them lead into it.",
+    "fix": "If the clues mention a prophecy, a crossroads killing, a riddle about the Sphinx, or self-blinding, the answer is the king himself, not whoever surrounds him.",
+    "line": "Real answer line: <b><u>Oedipus</u></b> (or <b><u>Oedipus Rex</u></b>)"
+  },
+  "tests": {
+    "right": [
+      "Oedipus",
+      "Oedipus Rex",
+      "Oedipus the King",
+      "Oedipuss",
+      "Oedipus Tyrannus"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Jocasta",
+      "Creon",
+      "Antigone",
+      "Oedipus complex",
+      "Laius"
+    ]
+  },
+  "freq": {
+    "rank": 108,
+    "count": 4,
+    "list": "Literature"
+  }
+}

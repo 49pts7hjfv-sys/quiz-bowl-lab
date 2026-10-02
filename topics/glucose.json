@@ -1,0 +1,406 @@
+{
+  "id": "glucose",
+  "name": "Glucose",
+  "mono": "GLU",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Simple sugar cells break down for energy · The body’s main fuel",
+  "dates": "First isolated from raisins in 1747",
+  "briefing": "Glucose is a simple sugar that serves as the body’s main source of energy, broken down inside cells during a process called glycolysis. Plants build it directly during photosynthesis, while animals get it by digesting carbohydrates like starch and rely on insulin to usher it from the blood into cells. Too much glucose lingering in the blood, as in diabetes, can damage organs over time.",
+  "answerHtml": "<b><u>Glucose</u></b> (accept <u>dextrose</u>; prompt on <u>sugar</u>, <u>monosaccharide</u>, or <u>blood sugar</u>)",
+  "accept": [
+    "glucose",
+    "d glucose",
+    "dextrose",
+    "grape sugar",
+    "corn sugar",
+    "d glucopyranose"
+  ],
+  "prompt": [
+    "sugar",
+    "sugars",
+    "simple sugar",
+    "monosaccharide",
+    "monosaccharides",
+    "c6h12o6",
+    "blood sugar",
+    "blood glucose",
+    "blood sugar level",
+    "blood glucose level"
+  ],
+  "reject": [
+    "fructose",
+    "sucrose",
+    "galactose",
+    "ribose",
+    "deoxyribose",
+    "cellulose",
+    "starch",
+    "glycogen",
+    "maltose",
+    "lactose",
+    "insulin",
+    "glycolysis",
+    "photosynthesis"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How sugar affects the brain",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=lEXBxijQREo",
+      "note": "Animated lesson on what sugar does to the brain’s reward system"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How do carbohydrates impact your health?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=wxzc_2c6GMg",
+      "note": "How carbs break down into glucose, and what insulin does with it"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Insulin and Glucagon",
+      "source": "FuseSchool",
+      "url": "https://www.youtube.com/watch?v=y9Bdi4dnSlg",
+      "note": "Animated lesson on the two hormones that keep blood glucose steady"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Pancreas: Insulin & Glucagon (Biology Class 11)",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=fd7eT3PqX8A",
+      "note": "How the pancreas raises and lowers blood glucose (older end)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Biological Molecules - You Are What You Eat: Crash Course Biology #3",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=H8WJ2KENlK0",
+      "note": "Carbohydrates like glucose, plus lipids and proteins (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Glucose Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Glucose",
+      "note": "Quick read: how glucose powers your body and brain, and blood sugar in medicine"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Glucose",
+  "qb": {
+    "q": "glucose",
+    "found": 4,
+    "tip": "A Regular HS retry found 2 more matches for this exact answer line; others at that difficulty wanted a different, related answer — “blood sugar level” (a measured quantity, not the molecule — see the Buzzer Trap), the broader “sugars”/“monosaccharides” category, or “cellulose” — and were excluded."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 real QBReader tossups for this answer line (4 Middle School/Easy High School + 2 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The Cori cycle regenerates this compound in the liver from lactic acid made by working muscles. German chemist Emil Fischer worked out this molecule’s exact structure and stereochemistry, and as a “reducing sugar,” it turns Benedict’s solution brick-red in a classic chemistry test.",
+      "r": "Hexokinase attaches a phosphate to this molecule in the first step of glycolysis, which splits it into two molecules of pyruvate. For 10 points, name this simple sugar, the body’s main fuel, with the formula C6H12O6."
+    },
+    {
+      "p": "German chemist Andreas Marggraf first isolated this compound from raisins in 1747. Rising levels of this molecule trigger beta cells in the pancreas’s Islets of Langerhans to release more insulin, and a dangerous buildup of ketones called ketoacidosis can follow when its levels climb uncontrolled.",
+      "r": "Plants make this molecule directly during photosynthesis, combining carbon dioxide and water using sunlight. For 10 points, name this simple sugar that cells break down for energy, abbreviated C6H12O6."
+    },
+    {
+      "p": "Starch and glycogen chain this molecule together using “alpha” links, while cellulose instead uses “beta” links that the human body cannot digest. A three-month running average of this molecule’s level in the blood is estimated by the hemoglobin A1c test.",
+      "r": "Chronically high levels of it in the blood are the hallmark of diabetes, a condition insulin normally helps prevent by moving it into cells. For 10 points, name this sugar with the chemical formula C6H12O6."
+    },
+    {
+      "p": "Two linked units of this molecule make the disaccharide maltose, while linking it to galactose instead produces lactose. This compound usually curls into a six-sided ring shape once dissolved in water, and the Cori cycle regenerates it in the liver from muscle-derived lactic acid.",
+      "r": "Animals store extra amounts by chaining it into glycogen, mainly in the liver and muscles, while plants instead chain it into starch or rigid cellulose. For 10 points, name this simple sugar that fuels cellular respiration."
+    },
+    {
+      "p": "As a “reducing sugar,” this compound turns Benedict’s solution brick-red in a classic test, and it usually forms a six-sided ring once dissolved in water. Hexokinase phosphorylates this molecule in glycolysis’s very first step, which eventually nets two molecules of ATP and two of pyruvate.",
+      "r": "Plants build this molecule from carbon dioxide and water during photosynthesis. For 10 points, name this six-carbon sugar, abbreviated C6H12O6, that the brain depends on for fuel."
+    },
+    {
+      "p": "A three-month running average of this molecule in the blood is estimated using the hemoglobin A1c test. Beta cells in the pancreas’s Islets of Langerhans release insulin as levels of this compound rise, and a dangerous buildup of ketones can follow if its levels climb uncontrolled.",
+      "r": "This molecule is broken down through glycolysis into two molecules of pyruvate, netting two ATP. For 10 points, name this simple sugar, the main fuel that cells burn for energy."
+    },
+    {
+      "p": "German chemist Emil Fischer determined this molecule’s structure and stereochemistry, work that later won him a Nobel Prize. Two units of this compound link to form the disaccharide maltose, and the Cori cycle rebuilds it in the liver from lactic acid released by working muscles.",
+      "r": "Plants assemble this molecule during photosynthesis, then chain it into starch or cellulose, while animals instead chain it into glycogen. For 10 points, name this sugar with formula C6H12O6."
+    },
+    {
+      "p": "Starch, glycogen, and cellulose are all built from chains of this molecule, though cellulose’s “beta” links make it indigestible to humans, unlike the “alpha” links in the other two. Hexokinase phosphorylates this compound in the opening step of glycolysis.",
+      "r": "Insulin helps move this molecule out of the bloodstream and into the body’s cells, and chronically high levels of it mark the condition diabetes. For 10 points, name this simple sugar, abbreviated C6H12O6."
+    },
+    {
+      "p": "Linking this molecule to galactose forms the disaccharide lactose, while linking two units of it to each other instead forms maltose. As a “reducing sugar,” it turns Benedict’s solution brick-red, and it typically curls into a six-sided ring once dissolved in water.",
+      "r": "The brain depends on a steady supply of this molecule for fuel, since it cannot store much of it in reserve. For 10 points, name this simple sugar with the formula C6H12O6."
+    },
+    {
+      "p": "Andreas Marggraf, a German chemist, first isolated this compound from raisins back in 1747. It is broken down through glycolysis into two molecules of pyruvate, and the Cori cycle later rebuilds it in the liver using lactic acid from working muscles.",
+      "r": "Beta cells in the pancreas release insulin as blood levels of this molecule climb, helping move it into cells. For 10 points, name this six-carbon sugar, the body’s main source of energy."
+    },
+    {
+      "p": "Cellulose links this molecule with rigid “beta” bonds that resist human digestion, unlike the “alpha” bonds found in starch and glycogen. Hexokinase adds a phosphate group to this compound during the opening step of glycolysis, which nets two molecules of ATP.",
+      "r": "A three-month running average of this molecule’s blood level is tracked by the hemoglobin A1c test used to monitor diabetes. For 10 points, name this simple sugar, the main fuel burned by cells."
+    },
+    {
+      "p": "Photosynthesis builds this molecule from carbon dioxide and water using captured sunlight. German chemist Emil Fischer worked out its structure and stereochemistry, and two linked units of it form the disaccharide maltose.",
+      "r": "This compound’s chronically high levels in the blood define the condition diabetes, which insulin normally helps prevent. For 10 points, name this sugar with formula C6H12O6, the main fuel for cellular respiration."
+    },
+    {
+      "p": "A dangerous buildup of ketones, called ketoacidosis, can follow when levels of this molecule rise uncontrolled in the blood. This compound typically forms a six-sided ring once dissolved in water, and linking two of its units produces the disaccharide maltose.",
+      "r": "Hexokinase phosphorylates this molecule at the very start of glycolysis, a pathway that nets two molecules of ATP and two of pyruvate. For 10 points, name this simple sugar, abbreviated C6H12O6."
+    },
+    {
+      "p": "The Cori cycle regenerates this molecule in the liver from lactic acid produced by working muscles. As a “reducing sugar,” it turns Benedict’s solution brick-red, and German chemist Andreas Marggraf first isolated it from raisins in 1747.",
+      "r": "Plants build this compound during photosynthesis and then chain it into starch or cellulose for storage and support. For 10 points, name this simple sugar that animals instead chain into glycogen."
+    },
+    {
+      "p": "Beta cells in the pancreas’s Islets of Langerhans release insulin as blood levels of this molecule rise, and a dangerous buildup of ketones, called ketoacidosis, can follow if those levels climb too high. Linking this molecule to galactose forms the disaccharide lactose.",
+      "r": "The brain depends heavily on a steady supply of this molecule for fuel. For 10 points, name this six-carbon sugar with the formula C6H12O6, whose chronically high blood levels mark diabetes."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "A simple sugar (monosaccharide) that cells break down for energy",
+      "k": [
+        "simple sugar",
+        "monosaccharide"
+      ],
+      "n": 6
+    },
+    {
+      "id": "photosynthesis-source",
+      "tier": "giveaway",
+      "t": "Plants make it directly during photosynthesis, combining carbon dioxide and water",
+      "k": [
+        "photosynthesis",
+        "carbon dioxide"
+      ],
+      "n": 2,
+      "rabbit": "Photosynthesis"
+    },
+    {
+      "id": "insulin",
+      "tier": "giveaway",
+      "t": "Insulin helps move it out of the blood and into cells",
+      "k": [
+        "insulin"
+      ],
+      "n": 4
+    },
+    {
+      "id": "diabetes",
+      "tier": "giveaway",
+      "t": "Chronically high levels of it in the blood are the hallmark of diabetes",
+      "k": [
+        "diabetes",
+        "chronically high"
+      ],
+      "n": 3
+    },
+    {
+      "id": "glycolysis",
+      "tier": "middle",
+      "t": "Broken down through glycolysis into two molecules of pyruvate, netting two ATP",
+      "k": [
+        "glycolysis",
+        "pyruvate"
+      ],
+      "n": 3,
+      "rabbit": "Mitochondria"
+    },
+    {
+      "id": "hexokinase",
+      "tier": "middle",
+      "t": "Hexokinase attaches a phosphate to it in glycolysis’s very first step",
+      "k": [
+        "hexokinase",
+        "phosphate"
+      ],
+      "n": 2
+    },
+    {
+      "id": "glycogen",
+      "tier": "middle",
+      "t": "Animals store extra amounts by chaining it into glycogen, mainly in the liver and muscles",
+      "k": [
+        "glycogen",
+        "liver"
+      ],
+      "n": 2
+    },
+    {
+      "id": "starch-cellulose",
+      "tier": "middle",
+      "t": "Plants instead chain it into starch for storage or cellulose for rigid cell walls",
+      "k": [
+        "starch",
+        "cellulose"
+      ],
+      "n": 3
+    },
+    {
+      "id": "hba1c",
+      "tier": "middle",
+      "t": "A three-month running average of its blood level is estimated by the hemoglobin A1c test",
+      "k": [
+        "hemoglobin a1c"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ring-shape",
+      "tier": "middle",
+      "t": "Usually curls into a six-sided ring shape once dissolved in water",
+      "k": [
+        "six-sided ring"
+      ],
+      "n": 1
+    },
+    {
+      "id": "maltose",
+      "tier": "middle",
+      "t": "Two linked units of it make the disaccharide maltose",
+      "k": [
+        "maltose"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lactose-galactose",
+      "tier": "middle",
+      "t": "Linked to galactose, it forms the disaccharide lactose",
+      "k": [
+        "lactose",
+        "galactose"
+      ],
+      "n": 1
+    },
+    {
+      "id": "formula",
+      "tier": "middle",
+      "t": "Has the chemical formula C6H12O6",
+      "k": [
+        "c6h12o6"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cori-cycle",
+      "tier": "power",
+      "t": "The Cori cycle regenerates it in the liver from lactic acid made by working muscles",
+      "k": [
+        "cori cycle",
+        "lactic acid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "islets",
+      "tier": "power",
+      "t": "Rising levels trigger beta cells in the pancreas’s Islets of Langerhans to release more insulin",
+      "k": [
+        "islets of langerhans"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ketoacidosis",
+      "tier": "power",
+      "t": "A dangerous buildup of ketones, called ketoacidosis, can follow when levels rise uncontrolled",
+      "k": [
+        "ketoacidosis",
+        "ketones"
+      ],
+      "n": 1
+    },
+    {
+      "id": "marggraf-history",
+      "tier": "power",
+      "t": "German chemist Andreas Marggraf first isolated it from raisins in 1747",
+      "k": [
+        "marggraf",
+        "raisins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fischer-structure",
+      "tier": "power",
+      "t": "German chemist Emil Fischer worked out its exact structure and stereochemistry, later winning a Nobel Prize",
+      "k": [
+        "emil fischer",
+        "stereochemistry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alpha-beta-linkage",
+      "tier": "power",
+      "t": "Starch and glycogen chain it together with “alpha” links, while cellulose uses “beta” links that our bodies cannot digest",
+      "k": [
+        "alpha",
+        "beta"
+      ],
+      "n": 0
+    },
+    {
+      "id": "benedicts-test",
+      "tier": "power",
+      "t": "As a “reducing sugar,” it turns Benedict’s solution brick-red in a classic chemistry test",
+      "k": [
+        "reducing sugar",
+        "benedicts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brain-fuel",
+      "tier": "power",
+      "t": "The brain depends on a steady supply of it for fuel, since it cannot store much in reserve",
+      "k": [
+        "brain",
+        "fuel"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Glucose, or blood sugar level?",
+    "body": "Several real tossups with almost identical clues about insulin, the Islets of Langerhans, and the hemoglobin A1c test actually want “blood sugar level,” a measured quantity, rather than this molecule itself. That happens when every clue describes a rising or falling amount rather than the molecule’s own structure or chemistry.",
+    "fix": "If clues describe the molecule’s structure, formula, or how it is built or broken down (photosynthesis, glycolysis, starch, cellulose), this sugar is the safe answer. If every clue is about a number going up or down in the blood, consider that “blood sugar level” might be the more precise answer wanted.",
+    "line": "Real answer line: <b><u>Glucose</u></b> (accept dextrose, D-glucose; prompt on sugar, monosaccharide, or blood sugar) — a closely related real tossup instead wants “blood sugar level” specifically."
+  },
+  "tests": {
+    "right": [
+      "Glucose",
+      "glucose",
+      "Glucoze",
+      "Dextrose",
+      "D-Glucose"
+    ],
+    "prompt": [
+      "Sugar",
+      "Blood Sugar"
+    ],
+    "wrong": [
+      "Fructose",
+      "Sucrose",
+      "Starch",
+      "Photosynthesis"
+    ]
+  },
+  "freq": {
+    "rank": 10,
+    "count": 6,
+    "list": "Biology"
+  }
+}

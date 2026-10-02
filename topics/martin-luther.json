@@ -1,0 +1,426 @@
+{
+  "id": "martin-luther",
+  "name": "Martin Luther",
+  "mono": "ML",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "German monk turned reformer · Sparked the Protestant Reformation",
+  "dates": "1483–1546",
+  "briefing": "Martin Luther was a German monk who grew so troubled by the Catholic Church selling indulgences that he nailed ninety-five arguments against the practice to a church door in 1517. Ordered to take it all back, he refused, famously telling an emperor he was bound by Scripture and his own conscience. His stand split Western Christianity and started the Protestant Reformation, a movement whose name still describes hundreds of millions of Christians today.",
+  "answerHtml": "<b><u>Martin Luther</u></b> (or <u>Martin Luder</u>; prompt on <u>Luther</u>)",
+  "accept": [
+    "martin luther",
+    "martin luder",
+    "father martin luther",
+    "dr martin luther",
+    "doctor martin luther"
+  ],
+  "prompt": [
+    "luther"
+  ],
+  "reject": [
+    "martin luther king",
+    "martin luther king jr",
+    "martin luther king junior",
+    "mlk",
+    "dr martin luther king",
+    "reverend martin luther king",
+    "king",
+    "john calvin",
+    "calvin",
+    "huldrych zwingli",
+    "zwingli",
+    "henry viii"
+  ],
+  "tests": {
+    "right": [
+      "Martin Luther",
+      "Father Martin Luther",
+      "Martin Luthur",
+      "Dr. Martin Luther",
+      "Martin Luder"
+    ],
+    "prompt": [
+      "Luther"
+    ],
+    "wrong": [
+      "Martin Luther King",
+      "MLK",
+      "John Calvin",
+      "Huldrych Zwingli",
+      "Henry VIII"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Who Was Martin Luther? | The Man Who Changed Europe",
+      "source": "PastPorts Kids",
+      "url": "https://www.youtube.com/watch?v=fCo6FnT0SUA",
+      "note": "Short · kid-friendly rundown of his life and the Reformation he started"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "A Fun, Animated History of the Reformation and the Man Who Started It All",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=FhGGjRjvq7w",
+      "note": "Short Film Showcase · animated story of Luther and the Reformation"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Luther and the Protestant Reformation: Crash Course World History #218",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=1o8oIELbNxE",
+      "note": "Fast-paced overview of Luther, the 95 Theses, and the Diet of Worms"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Reformation and Consequences (#7)",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=PbBDP1Elbbg",
+      "note": "The wider Reformation across Europe, the bigger story Luther set off"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Reformation for Kids",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/renaissance_reformation.php",
+      "note": "Quick read: indulgences, the 95 Theses, and how the Reformation split the Church"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Martin_Luther",
+  "qb": {
+    "q": "Martin Luther",
+    "found": 19,
+    "tip": "Martin Luther shares this search with Martin Luther King Jr. — skip the ten MLK results and the one answer line that is just “Protestantism”; the other eight are about the reformer."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked) after excluding the Martin Luther King Jr. results that share the search"
+  },
+  "tossups": [
+    {
+      "p": "At the Marburg Colloquy, this man debated Huldrych Zwingli [“TSVING-lee”] over whether Christ was truly present in the bread and wine of the Eucharist. He had already condemned a bloody peasant uprising in a pamphlet called _Against the Murderous, Thieving Hordes of Peasants_, even though the rebels had drawn on his own ideas.",
+      "r": "This man was threatened with excommunication by the papal bull _Exsurge Domine_. For 10 points, name this German monk who nailed the Ninety-Five Theses to a church door in Wittenberg and started the Protestant Reformation."
+    },
+    {
+      "p": "In a 1525 pamphlet titled _Against the Murderous, Thieving Hordes of Peasants_, this man urged German princes to crush a revolt that had drawn on his own religious ideas. Five years earlier, Pope Leo X had threatened this man with excommunication in the bull _Exsurge Domine_ [“ex-SUR-jay DOH-mih-nay”].",
+      "r": "This man refused to recant his writings before Emperor Charles V at the Diet of Worms in 1521. For 10 points, name this German reformer whose Ninety-Five Theses attacked the Catholic Church’s sale of indulgences."
+    },
+    {
+      "p": "Pope Leo X issued the bull _Exsurge Domine_ against this man in 1520, threatening him with excommunication unless he took back his writings within sixty days. This man refused, and formal excommunication followed the next year.",
+      "r": "That same year, 1521, this man defended himself before the Diet of Worms [“vorms”], supposedly saying he could not act against his conscience. For 10 points, name this German monk who started the Protestant Reformation."
+    },
+    {
+      "p": "While hiding at Wartburg Castle under the disguise of a knight called Junker Jörg [“YOONG-ker YERG”], this man translated the New Testament into German so ordinary people could read it themselves. He later finished translating the whole Bible into German by 1534.",
+      "r": "His translation used the recently invented printing press to spread quickly across the German states. For 10 points, name this reformer who had already nailed the Ninety-Five Theses to a church door in Wittenberg."
+    },
+    {
+      "p": "In 1521, this man stood before the Holy Roman Emperor Charles V at an assembly in a German city and refused to take back what he had written, reportedly saying he was bound by Scripture and his own conscience.",
+      "r": "That assembly was the Diet of Worms [“vorms”]. For 10 points, name this German monk whose Ninety-Five Theses had attacked the sale of indulgences and begun the Protestant Reformation."
+    },
+    {
+      "p": "Late in his life, this man drafted the Schmalkald [“SHMAHL-kahld”] Articles as a statement of belief for German princes who followed his teachings. Decades earlier, this man had taught theology at a university in the same small Saxon town where he would nail up his most famous work.",
+      "r": "That town was Wittenberg. For 10 points, name this monk who posted the Ninety-Five Theses and launched the Protestant Reformation."
+    },
+    {
+      "p": "This man is said to have ended his defense at a 1521 imperial assembly with words to the effect of, “Here I stand; I can do no other.” He had already been excommunicated after refusing to recant ideas he first laid out in a document nailed to a church door four years earlier.",
+      "r": "For 10 points, name this German reformer whose Ninety-Five Theses, posted in Wittenberg in 1517, began the Protestant Reformation."
+    },
+    {
+      "p": "This man was born in the Saxon mining town of Eisleben [“ICE-lay-ben”] in 1483 and later joined the Augustinian order of monks. As a young monk, he grew troubled by the Catholic Church’s sale of indulgences, documents said to reduce punishment for sin.",
+      "r": "His objections to that practice became the Ninety-Five Theses. For 10 points, name this German monk who started the Protestant Reformation."
+    },
+    {
+      "p": "This man taught biblical theology at the University of Wittenberg [“VIT-en-berg”], where, according to tradition, he nailed a list of ninety-five complaints to the town church’s door on October 31, 1517. Some Protestant churches still celebrate that date as Reformation Day.",
+      "r": "For 10 points, name this German monk whose Ninety-Five Theses protested the sale of indulgences and launched the Protestant Reformation."
+    },
+    {
+      "p": "This man designed a personal seal showing a black cross inside a red heart set on a white rose, a symbol still called by his name today. He explained the seal’s meaning in a 1530 letter, a year after he had debated Huldrych Zwingli at Marburg.",
+      "r": "He had earlier hidden at Wartburg Castle, translating the New Testament into German. For 10 points, name this reformer who began the Protestant Reformation by posting the Ninety-Five Theses in Wittenberg."
+    },
+    {
+      "p": "Copies of this man’s most famous document spread across Germany within weeks, thanks to the recently invented printing press, even though he had only meant it for academic debate. Johann Tetzel [“TET-sel”], a friar who sold indulgences to help fund the rebuilding of St. Peter’s Basilica, was a chief target of that document.",
+      "r": "For 10 points, name this German monk whose Ninety-Five Theses, posted in Wittenberg in 1517, began the Protestant Reformation."
+    },
+    {
+      "p": "In 1525, this man married a former nun named Katharina von Bora, and the couple eventually raised six children in a former monastery in Wittenberg. That same year, he urged German princes to crush a peasant revolt in a harshly worded pamphlet.",
+      "r": "For 10 points, name this German reformer who had earlier posted the Ninety-Five Theses and begun the Protestant Reformation."
+    },
+    {
+      "p": "This man wrote the words and music for the hymn “A Mighty Fortress Is Our God,” which became an anthem of the religious movement he started. He based the hymn in part on the 46th Psalm.",
+      "r": "For 10 points, name this German monk whose Ninety-Five Theses, nailed to a church door in Wittenberg, began the Protestant Reformation."
+    },
+    {
+      "p": "Angered by the friar Johann Tetzel’s sales pitch that buying an indulgence could spring a relative’s soul from purgatory, this man wrote ninety-five arguments against the practice and, according to tradition, nailed them to a church door. Pope Leo X at first dismissed the dispute as a quarrel among monks.",
+      "r": "For 10 points, name this German theologian whose Ninety-Five Theses of 1517 began the Protestant Reformation."
+    },
+    {
+      "p": "This man died in 1546 in the same small German town where he had been born 62 years earlier, Eisleben, after preaching there on a trip to settle a dispute between two noble brothers. By then, his teachings had already split Western Christianity in two.",
+      "r": "For 10 points, name this German reformer whose Ninety-Five Theses had begun the Protestant Reformation almost three decades earlier."
+    }
+  ],
+  "clues": [
+    {
+      "id": "protestant-reformation",
+      "tier": "giveaway",
+      "t": "Started the Protestant Reformation, the movement that split Western Christianity into Catholic and Protestant",
+      "k": [
+        "protestant reformation",
+        "started",
+        "split",
+        "catholic and protestant"
+      ],
+      "n": 7
+    },
+    {
+      "id": "ninety-five-theses",
+      "tier": "giveaway",
+      "t": "Nailed the _Ninety-Five Theses_ to a church door in Wittenberg on October 31, 1517, protesting the sale of indulgences",
+      "k": [
+        "ninety-five theses",
+        "wittenberg",
+        "1517",
+        "indulgences"
+      ],
+      "n": 8
+    },
+    {
+      "id": "diet-of-worms",
+      "tier": "giveaway",
+      "t": "Already excommunicated, refused to recant his writings before Emperor Charles V at the Diet of Worms and was declared an outlaw (1521)",
+      "k": [
+        "diet of worms",
+        "charles v",
+        "excommunicated",
+        "recant"
+      ],
+      "n": 7,
+      "rabbit": "Charles V"
+    },
+    {
+      "id": "augustinian-monk",
+      "tier": "giveaway",
+      "t": "A German Augustinian monk and professor of theology before he broke with the Catholic Church",
+      "k": [
+        "augustinian monk",
+        "german",
+        "professor",
+        "theology"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mighty-fortress",
+      "tier": "middle",
+      "t": "Wrote the words and music for the hymn “A Mighty Fortress Is Our God”",
+      "k": [
+        "mighty fortress",
+        "hymn",
+        "wrote"
+      ],
+      "n": 4
+    },
+    {
+      "id": "tetzel-indulgences",
+      "tier": "middle",
+      "t": "Angered by Johann Tetzel’s sale of indulgences, which were said to shorten time in purgatory",
+      "k": [
+        "johann tetzel",
+        "tetzel",
+        "indulgences",
+        "purgatory"
+      ],
+      "n": 6
+    },
+    {
+      "id": "german-bible",
+      "tier": "middle",
+      "t": "Translated the New Testament, and later the whole Bible, into German so ordinary people could read it",
+      "k": [
+        "new testament",
+        "german",
+        "bible",
+        "ordinary people"
+      ],
+      "n": 1
+    },
+    {
+      "id": "exsurge-domine",
+      "tier": "middle",
+      "t": "Threatened with excommunication by the papal bull _Exsurge Domine_ (1520) before the Diet of Worms",
+      "k": [
+        "exsurge domine",
+        "papal bull",
+        "threatened"
+      ],
+      "n": 4
+    },
+    {
+      "id": "katharina-von-bora",
+      "tier": "middle",
+      "t": "Married a former nun, Katharina von Bora, in 1525; the couple had six children",
+      "k": [
+        "katharina von bora",
+        "former nun",
+        "six children"
+      ],
+      "n": 0,
+      "rabbit": "Katharina von Bora"
+    },
+    {
+      "id": "eisleben",
+      "tier": "middle",
+      "t": "Born in the Saxon town of Eisleben in 1483 and died there in 1546",
+      "k": [
+        "eisleben",
+        "saxon",
+        "1483",
+        "1546"
+      ],
+      "n": 0
+    },
+    {
+      "id": "university-wittenberg",
+      "tier": "middle",
+      "t": "Taught theology at the University of Wittenberg, the small town where he later nailed up his most famous work",
+      "k": [
+        "university of wittenberg",
+        "taught theology",
+        "small town"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marburg-colloquy",
+      "tier": "power",
+      "t": "Debated Huldrych Zwingli over the real presence of Christ in the Eucharist at the Marburg Colloquy (1529)",
+      "k": [
+        "marburg colloquy",
+        "huldrych zwingli",
+        "zwingli",
+        "real presence"
+      ],
+      "n": 3,
+      "rabbit": "John Calvin"
+    },
+    {
+      "id": "peasants-war",
+      "tier": "power",
+      "t": "Condemned a peasant revolt in the pamphlet _Against the Murderous, Thieving Hordes of Peasants_ (1525), though the rebels drew on his ideas",
+      "k": [
+        "peasants war",
+        "murderous thieving hordes",
+        "condemned"
+      ],
+      "n": 3
+    },
+    {
+      "id": "wartburg-disguise",
+      "tier": "power",
+      "t": "Hid from capture at Wartburg Castle, disguised as a knight called “Junker Jörg,” while translating the New Testament",
+      "k": [
+        "wartburg castle",
+        "junker jörg",
+        "disguise"
+      ],
+      "n": 1
+    },
+    {
+      "id": "schmalkald-articles",
+      "tier": "power",
+      "t": "Drafted the Schmalkald Articles late in life as a statement of belief for Protestant princes",
+      "k": [
+        "schmalkald articles",
+        "statement of belief",
+        "princes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "leo-x",
+      "tier": "power",
+      "t": "Pope Leo X issued _Exsurge Domine_ against him and excommunicated him the next year, in 1521",
+      "k": [
+        "pope leo x",
+        "leo x",
+        "excommunicated him"
+      ],
+      "n": 2,
+      "rabbit": "Pope Leo X"
+    },
+    {
+      "id": "charles-v-worms",
+      "tier": "power",
+      "t": "Defended his writings in person before the young Holy Roman Emperor Charles V at Worms",
+      "k": [
+        "holy roman emperor",
+        "charles v",
+        "defended"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sola-fide",
+      "tier": "power",
+      "t": "Taught that believers are saved by faith alone and that all believers share a “priesthood,” not just clergy",
+      "k": [
+        "faith alone",
+        "priesthood",
+        "believers",
+        "clergy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "printing-press",
+      "tier": "power",
+      "t": "His Ninety-Five Theses spread across Germany within weeks thanks to the recently invented printing press",
+      "k": [
+        "printing press",
+        "spread",
+        "weeks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "luther-rose",
+      "tier": "power",
+      "t": "Designed a personal seal of a black cross on a red heart inside a white rose, still called by his name",
+      "k": [
+        "black cross",
+        "red heart",
+        "white rose",
+        "seal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "here-i-stand",
+      "tier": "power",
+      "t": "Reportedly ended his defense at Worms with words like, “Here I stand; I can do no other.”",
+      "k": [
+        "here i stand",
+        "defense",
+        "worms"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Luther, not “Luther King”",
+    "body": "Quiz bowl sometimes confuses this German reformer with the American civil rights leader Martin Luther King Jr., who took this man’s last name as part of his own; King’s father renamed himself and his son after learning about the reformer on a trip to Germany. The two are not related. Luther is also easy to mix up with fellow reformers he argued with, like Huldrych Zwingli and John Calvin, who led their own branches of the Reformation.",
+    "fix": "The Ninety-Five Theses, the Diet of Worms, and the German Reformation mean Martin Luther. “I Have a Dream” and the civil rights movement mean Martin Luther King Jr. Zwingli (Zurich) and Calvin (Geneva) led their own, separate branches of the Reformation.",
+    "line": "Real answer line: <b><u>Martin Luther</u></b> (or <u>Martin Luder</u>)"
+  },
+  "freq": {
+    "rank": 2,
+    "count": 9,
+    "list": "European History"
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "id": "isaac-newton",
+  "name": "Isaac Newton",
+  "mono": "IN",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "English physicist & mathematician · Laws of motion and gravity",
+  "dates": "1642–1727",
+  "briefing": "Isaac Newton supposedly got the idea for gravity after an apple fell near him, though the story was probably embellished over time. In 1687 he published the _Principia Mathematica_, laying out three laws of motion and a law of universal gravitation that ruled physics for more than 200 years. He also split white light into a rainbow with a prism and invented calculus at the same time as the German mathematician Gottfried Leibniz.",
+  "answerHtml": "<b><u>Isaac Newton</u></b> (prompt on <u>Newton</u>)",
+  "accept": [
+    "isaac newton",
+    "sir isaac newton"
+  ],
+  "prompt": [
+    "newton"
+  ],
+  "reject": [
+    "gottfried leibniz",
+    "leibniz",
+    "galileo galilei",
+    "galileo",
+    "albert einstein",
+    "einstein",
+    "robert hooke",
+    "hooke"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Isaac Newton - English Physicist & Formulated the Laws of Gravity | Mini Bio",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=PCxP24qj2UQ",
+      "note": "Short · quick overview of his life and his big discoveries"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Newton’s 3 Laws, with a bicycle - Joshua Manley",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=JGO_zDWmkvk",
+      "note": "Animated lesson · his three laws of motion on a bike ride"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Newton and Leibniz: Crash Course History of Science #17",
+      "source": "Crash Course History of Science",
+      "url": "https://www.youtube.com/watch?v=9UKGPOwR-iw",
+      "note": "His big ideas, and the fight with Leibniz over who invented calculus"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Newton’s Laws: Crash Course Physics #5",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
+      "note": "His three laws of motion, including F = ma (fast-paced)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Sir Isaac Newton: Unhappy Scientific Genius | Full Documentary",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=OK1bCqkn6Vk",
+      "note": "Full documentary · his whole life story, for a deep dive"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Biography for Kids: Scientist - Isaac Newton",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/scientists/isaac_newton.php",
+      "note": "Quick read: the Principia, gravity, the laws of motion, and calculus"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Isaac_Newton",
+  "qb": {
+    "q": "Isaac Newton",
+    "found": 9,
+    "tip": "All 9 results are genuinely about this physicist; the calculus priority dispute with Gottfried Leibniz comes up often enough to anchor the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 9,
+    "note": "the 9 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This man held Cambridge’s Lucasian Professorship of Mathematics before later serving as Master of the Royal Mint, remaking English coins and chasing down counterfeiters. He once wrote that if he had seen further than others, it was only by standing on the shoulders of giants.",
+      "r": "At the same time as German mathematician Gottfried Leibniz [“LYBE-nits”], this man independently invented calculus, sparking a bitter dispute over credit. For 10 points, name this English physicist who formulated three laws of motion and a law of universal gravitation."
+    },
+    {
+      "p": "To defend his theories against critics who demanded a mechanical cause, this man famously wrote “Hypotheses non fingo,” or “I frame no hypotheses,” in a later edition of his masterwork _Principia Mathematica_. That same book explains why a body at rest tends to",
+      "r": "stay at rest unless a force acts on it, a property called inertia. For 10 points, name this English scientist whose three laws of motion and theory of gravitation reshaped physics."
+    },
+    {
+      "p": "An interference pattern of light and dark circles, nicknamed his “rings,” appears when a convex lens rests on a sheet of glass. In his book _Opticks_, this man also showed that a prism splits ordinary white light into",
+      "r": "every color of the rainbow. For 10 points, name this scientist supposedly inspired toward a theory of gravity by a falling apple, though the story was probably embellished."
+    },
+    {
+      "p": "A class of fluid named for this man keeps exactly the same viscosity no matter how fast it flows, unlike ketchup or quicksand. His namesake Law of Cooling states that an object loses heat at a rate proportional to the",
+      "r": "difference between its own temperature and its surroundings. For 10 points, name this scientist who also described a third law stating that every action has an equal and opposite reaction."
+    },
+    {
+      "p": "This man used mathematics to derive Johannes Kepler’s laws of planetary motion from a more basic principle, and he outlined a significant inverse-square relationship for gravity in his masterwork. That 1687 book is formally titled",
+      "r": "_Philosophiae Naturalis Principia Mathematica_. For 10 points, name this scientist whose law of universal gravitation describes the attractive force between any two masses."
+    },
+    {
+      "p": "This man generalized the binomial theorem to work with fractional and negative exponents, not just whole numbers. He also introduced a dot placed above a letter to represent a derivative, and he devised his own method for",
+      "r": "numerically finding the roots of a function. At the same time as Gottfried Leibniz, this man invented calculus. For 10 points, name this scientist who formulated three laws of motion."
+    },
+    {
+      "p": "This man built one of the first working reflecting telescopes, using a curved mirror instead of a glass lens to gather light, and he later served as president of the Royal Society, England’s leading scientific organization.",
+      "r": "His second law of motion states that force equals mass multiplied by acceleration. For 10 points, name this scientist who was knighted by Queen Anne in 1705."
+    },
+    {
+      "p": "This man’s namesake “rings” appear as circles of light and dark when a curved lens touches a flat pane of glass. In his book _Opticks_, he described breaking white light apart with a prism, and a class of fluids named for him keep a",
+      "r": "constant viscosity regardless of how fast they are stirred or poured. For 10 points, name this English scientist who formulated three laws of motion and a law of universal gravitation."
+    },
+    {
+      "p": "This man showed mathematically that gravity must follow an inverse-square law, a relationship he used to derive Johannes Kepler’s three laws of planetary motion. He published this work in 1687 in his Latin-titled masterwork.",
+      "r": "For 10 points, name this scientist whose law of universal gravitation is often illustrated with the probably-embellished story of a falling apple."
+    },
+    {
+      "p": "This man’s namesake class of fluids, including water and air, keeps a constant viscosity no matter the forces acting on it, unlike cornstarch mixed with water. He wrote “Hypotheses non fingo” to avoid speculating about deeper causes in a later edition of his masterwork.",
+      "r": "That book’s first law describes inertia: a body at rest stays at rest unless a force acts on it. For 10 points, name this scientist who formulated three laws of motion."
+    },
+    {
+      "p": "This man held the Lucasian Professorship of Mathematics at Cambridge and generalized the binomial theorem to fractional and negative exponents. He later served as president of the Royal Society.",
+      "r": "This man also built an early reflecting telescope using a curved mirror. For 10 points, name this scientist who formulated three laws of motion and a law of universal gravitation."
+    },
+    {
+      "p": "This man introduced a notation using a dot above a letter to represent a derivative, and he developed a method for numerically approximating the roots of equations. He also wrote that he had only seen further than others by",
+      "r": "standing on the shoulders of giants. Later in life, this man served as Master of the Royal Mint. For 10 points, name this scientist who formulated three laws of motion."
+    },
+    {
+      "p": "This man’s namesake “rings” form as circles of light when a curved lens rests on glass, and his namesake Law of Cooling relates an object’s heat loss to its temperature difference with the surroundings.",
+      "r": "His second law states that force equals mass times acceleration, and his third law states that every action has an equal and opposite reaction. For 10 points, name this scientist supposedly inspired by a falling apple."
+    },
+    {
+      "p": "In 1687, this man published _Philosophiae Naturalis Principia Mathematica_, later defending its approach from critics with the line “Hypotheses non fingo.” At the same time as Gottfried Leibniz, this man independently invented",
+      "r": "calculus, leading to a bitter dispute over credit between the two men. For 10 points, name this scientist who was knighted by Queen Anne in 1705."
+    },
+    {
+      "p": "This man mathematically derived Johannes Kepler’s laws of planetary motion and, in his book _Opticks_, showed that a prism splits white light into a rainbow of colors. He also built one of the first reflecting telescopes.",
+      "r": "For 10 points, name this scientist whose three laws of motion and law of universal gravitation dominated physics for more than 200 years."
+    }
+  ],
+  "clues": [
+    {
+      "id": "three-laws",
+      "tier": "giveaway",
+      "t": "Formulated three laws of motion, covering inertia, force equals mass times acceleration, and action-reaction pairs",
+      "k": [
+        "three laws",
+        "motion",
+        "inertia"
+      ],
+      "n": 8
+    },
+    {
+      "id": "apple-myth",
+      "tier": "giveaway",
+      "t": "Popularly said, in a probably embellished story, to have been inspired toward his theory of gravity by a falling apple",
+      "k": [
+        "falling apple",
+        "gravity"
+      ],
+      "n": 2
+    },
+    {
+      "id": "knighted-sir",
+      "tier": "giveaway",
+      "t": "Knighted by Queen Anne in 1705, becoming known from then on as “Sir”",
+      "k": [
+        "knighted",
+        "queen anne"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reflecting-telescope",
+      "tier": "giveaway",
+      "t": "Built one of the first working reflecting telescopes, using a curved mirror instead of a glass lens",
+      "k": [
+        "curved mirror",
+        "reflecting telescopes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "universal-gravitation",
+      "tier": "middle",
+      "t": "Published a law of universal gravitation describing the attractive force between any two masses",
+      "k": [
+        "universal gravitation",
+        "masses"
+      ],
+      "n": 4
+    },
+    {
+      "id": "first-law-inertia",
+      "tier": "middle",
+      "t": "His first law describes inertia: a body at rest stays at rest unless a force acts on it",
+      "k": [
+        "inertia",
+        "body at rest"
+      ],
+      "n": 2
+    },
+    {
+      "id": "second-law-f-ma",
+      "tier": "middle",
+      "t": "His second law states that force equals mass multiplied by acceleration",
+      "k": [
+        "force",
+        "mass",
+        "acceleration"
+      ],
+      "n": 5
+    },
+    {
+      "id": "third-law-action-reaction",
+      "tier": "middle",
+      "t": "His third law states that every action has an equal and opposite reaction",
+      "k": [
+        "equal and opposite reaction"
+      ],
+      "n": 3
+    },
+    {
+      "id": "calculus-leibniz",
+      "tier": "middle",
+      "t": "Invented calculus at the same time as German mathematician Gottfried Leibniz, sparking a bitter dispute over credit",
+      "k": [
+        "calculus",
+        "leibniz",
+        "dispute"
+      ],
+      "n": 3
+    },
+    {
+      "id": "principia-1687",
+      "tier": "middle",
+      "t": "Published his ideas in 1687 in a Latin masterwork usually shortened to _Principia Mathematica_",
+      "k": [
+        "1687",
+        "principia mathematica"
+      ],
+      "n": 3
+    },
+    {
+      "id": "royal-society",
+      "tier": "middle",
+      "t": "Served for over 20 years as president of the Royal Society, England’s leading scientific organization",
+      "k": [
+        "royal society",
+        "president"
+      ],
+      "n": 0
+    },
+    {
+      "id": "royal-mint",
+      "tier": "middle",
+      "t": "Later served as Warden and then Master of the Royal Mint, remaking English coins and chasing counterfeiters",
+      "k": [
+        "royal mint",
+        "counterfeiters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "newtons-rings",
+      "tier": "power",
+      "t": "An interference pattern of light and dark rings, nicknamed his “rings,” appears when a curved lens rests on flat glass",
+      "k": [
+        "interference pattern",
+        "rings"
+      ],
+      "n": 3
+    },
+    {
+      "id": "prism-opticks",
+      "tier": "power",
+      "t": "His book _Opticks_ showed that a glass prism splits ordinary white light into every color of the rainbow",
+      "k": [
+        "opticks",
+        "prism",
+        "white light"
+      ],
+      "n": 4
+    },
+    {
+      "id": "law-of-cooling",
+      "tier": "power",
+      "t": "His namesake Law of Cooling states that heat loss is proportional to the temperature difference with the surroundings",
+      "k": [
+        "law of cooling",
+        "heat loss"
+      ],
+      "n": 3
+    },
+    {
+      "id": "namesake-fluid",
+      "tier": "power",
+      "t": "A class of fluid named for him keeps the exact same viscosity no matter how fast it flows, unlike ketchup or quicksand",
+      "k": [
+        "viscosity",
+        "fluid"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hypotheses-non-fingo",
+      "tier": "power",
+      "t": "Wrote “Hypotheses non fingo” (“I frame no hypotheses”) to avoid speculating about gravity’s deeper cause",
+      "k": [
+        "hypotheses non fingo"
+      ],
+      "n": 1
+    },
+    {
+      "id": "inverse-square",
+      "tier": "power",
+      "t": "Worked out that the strength of gravity follows a significant inverse-square relationship with distance",
+      "k": [
+        "inverse square",
+        "distance"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kepler-derivation",
+      "tier": "power",
+      "t": "Mathematically derived Johannes Kepler’s three laws of planetary motion from his own gravitation theory",
+      "k": [
+        "kepler",
+        "planetary motion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "binomial-theorem",
+      "tier": "power",
+      "t": "Generalized the binomial theorem so it works with fractional and negative exponents, not just whole numbers",
+      "k": [
+        "binomial theorem",
+        "exponents"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dot-notation",
+      "tier": "power",
+      "t": "Introduced a dot placed above a letter to represent a derivative, and devised his own method for numerically finding the roots of equations",
+      "k": [
+        "dot",
+        "derivative",
+        "roots of equations"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shoulders-giants",
+      "tier": "power",
+      "t": "Wrote that if he had “seen further” than others, it was only by standing on the shoulders of giants",
+      "k": [
+        "shoulders of giants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lucasian-professor",
+      "tier": "power",
+      "t": "Held the Lucasian Professorship of Mathematics at Cambridge University starting in 1669",
+      "k": [
+        "lucasian professorship",
+        "cambridge"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Newton, or Leibniz?",
+    "body": "Both men invented calculus independently around the same time, and a question built only around calculus itself sometimes wants Gottfried Leibniz, not this man. Leibniz was German, never proposed laws of motion or universal gravitation, and is separately known for philosophy and an early calculating machine.",
+    "fix": "If the clues mention English nationality, the three laws of motion, gravity, _Opticks_, or the _Principia_, it is safely this man. If the clues are only about calculus notation or German philosophy, it may be Leibniz instead.",
+    "line": "Real answer line: <b><u>Isaac Newton</u></b> (do not accept “Gottfried Leibniz”)"
+  },
+  "tests": {
+    "right": [
+      "Isaac Newton",
+      "Isac Newton",
+      "Sir Isaac Newton",
+      "isaac newton"
+    ],
+    "prompt": [
+      "Newton"
+    ],
+    "wrong": [
+      "Gottfried Leibniz",
+      "Galileo",
+      "Albert Einstein",
+      "Robert Hooke"
+    ]
+  },
+  "freq": {
+    "rank": 14,
+    "count": 6,
+    "list": "Physics"
+  }
+}

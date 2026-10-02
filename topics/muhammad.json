@@ -1,0 +1,544 @@
+{
+  "id": "muhammad",
+  "name": "Muhammad",
+  "mono": "MU",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Prophet of Islam · Muslims believe the Quran was revealed to him",
+  "dates": "c. 570–632",
+  "briefing": "Around the year 610, a merchant from Mecca named Muhammad went to meditate in a mountain cave, and Muslims believe the angel Gabriel appeared and began revealing the Quran to him. In 622 he and his followers moved to Medina, a journey called the Hijra that starts the Islamic calendar. Muslims honor him as the last of God’s prophets, and many say “peace be upon him” after his name.",
+  "answerHtml": "<b><u>Muhammad</u></b> [or <u>Mohammed</u> or other spellings; prompt on the <u>Prophet</u>; do not accept “Muhammad Ali” or “Elijah Muhammad”]",
+  "accept": [
+    "muhammad",
+    "mohammed",
+    "mohammad",
+    "muhammed",
+    "mohamed",
+    "mohamad",
+    "prophet muhammad",
+    "the prophet muhammad",
+    "muhammad the prophet",
+    "muhammad ibn abdullah",
+    "muhammad ibn abd allah",
+    "muhammad ibn abdallah",
+    "abu al qasim muhammad"
+  ],
+  "prompt": [
+    "prophet",
+    "the prophet",
+    "messenger",
+    "the messenger",
+    "messenger of god",
+    "messenger of allah",
+    "rasul allah",
+    "rasulullah",
+    "seal of the prophets"
+  ],
+  "reject": [
+    "ali",
+    "ali ibn abi talib",
+    "abu bakr",
+    "umar",
+    "uthman",
+    "abraham",
+    "ibrahim",
+    "jesus",
+    "isa",
+    "moses",
+    "musa",
+    "noah",
+    "adam",
+    "gabriel",
+    "jibril",
+    "jibreel",
+    "khadija",
+    "khadijah",
+    "aisha",
+    "fatima",
+    "abu talib",
+    "husayn",
+    "hussein",
+    "elijah",
+    "elijah muhammad",
+    "muhammad ali",
+    "mohammed ali",
+    "mohammad ali",
+    "muhammed ali",
+    "mohamed ali",
+    "mehmed",
+    "mehmet",
+    "mahmud",
+    "mahdi",
+    "muhammad ahmad",
+    "al khwarizmi",
+    "khwarizmi",
+    "mosaddegh",
+    "mossadegh",
+    "iqbal",
+    "jinnah",
+    "wahhab",
+    "pahlavi",
+    "mahathir",
+    "yunus",
+    "morsi",
+    "sadat",
+    "bin salman",
+    "fard muhammad",
+    "warith",
+    "ghori",
+    "tughluq"
+  ],
+  "tests": {
+    "right": [
+      "Muhammad",
+      "Mohammed",
+      "Prophet Muhammad",
+      "Muhamad",
+      "Mohamed",
+      "Muhammad ibn Abdullah"
+    ],
+    "prompt": [
+      "the Prophet",
+      "Prophet"
+    ],
+    "wrong": [
+      "Ali",
+      "Abu Bakr",
+      "Abraham",
+      "Jesus",
+      "Moses",
+      "Elijah Muhammad",
+      "Muhammad Ali"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Muhammad: Legacy of a Prophet - Trailer",
+      "source": "Unity Productions Foundation",
+      "url": "https://www.youtube.com/watch?v=bBCEzlkKUBU",
+      "note": "Short · trailer for the 2002 PBS documentary about his life"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Life of Muhammad and beginnings of Islam part 1",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=4NT_btkLlho",
+      "note": "World-history lesson, Part 1: his life and the beginnings of Islam"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Islam, the Quran, and the Five Pillars: Crash Course World History #13",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=TpcbfxtdoI8",
+      "note": "Fast-paced overview of his life, the Quran, and the Five Pillars"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "P is for Prophets | A to Z of Religion and Beliefs | BBC Teach",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=VMCU9APGVYA",
+      "note": "Short · what a prophet is in different religions"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Muhammad",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Muhammad/353502",
+      "note": "Quick read: his life from Mecca to Medina"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Muhammad",
+  "qb": {
+    "q": "Muhammad",
+    "found": 11,
+    "tip": "Ten of the 11 results are about the prophet and one is about the boxer Muhammad Ali; nearly every real tossup mentions Gabriel, the cave of Hira, and the Hijra to Medina."
+  },
+  "sample": {
+    "n": 10,
+    "note": "the 10 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This man was born in the “Year of the Elephant,” when an army that included an elephant marched on his hometown. Orphaned by the age of six, he was raised by his grandfather and then by his uncle Abu Talib.",
+      "r": "Muslims believe the angel Gabriel later revealed the Quran to him. For 10 points, name this prophet of Islam, born in Mecca around 570."
+    },
+    {
+      "p": "As a young man, this trader was known as al-Amin [“al-ah-MEEN”], or “the trustworthy.” A wealthy widow named Khadija [“kah-DEE-jah”] hired him to lead her trading caravan to Syria and later married him, and she became the first person to accept his religious message.",
+      "r": "His sayings are collected in the hadith. For 10 points, name this man, whom Muslims regard as the final prophet."
+    },
+    {
+      "p": "While this man was meditating in a cave on Mount Hira [“hih-RAH”] around the year 610, Muslims believe an angel commanded him to “Read!” He answered that he could not read, but the angel repeated the command and taught him the first verses of a holy book.",
+      "r": "That angel was Gabriel, or Jibril, and that book is the Quran. For 10 points, name this prophet of Islam."
+    },
+    {
+      "p": "To escape persecution by the Quraysh [“koo-RAYSH”] tribe, some early followers of this man fled across the Red Sea to the Christian kingdom of Aksum, whose king protected them. Those followers had accepted this man’s teaching that there is only one God, which angered the leaders of Mecca.",
+      "r": "In 622, he and his followers moved from Mecca to Medina in the Hijra. For 10 points, name this prophet of Islam."
+    },
+    {
+      "p": "Muslims believe that on a heavenly steed named Buraq [“boo-RAHK”], this man traveled in one night to “the farthest mosque” in Jerusalem and then rose through the heavens in the Mi’raj [“mih-RAHJ”]. According to tradition, Moses urged him on that journey to ask God to reduce the number of daily prayers, which became five.",
+      "r": "This man later led his followers from Mecca to Medina. For 10 points, name this prophet of Islam."
+    },
+    {
+      "p": "During one journey, this man and his friend Abu Bakr hid for three days in the cave of Thawr [“THOWR”] while enemies searched for them. That 622 journey, called the Hijra [“HIJ-rah”], marks the first year of the Islamic calendar.",
+      "r": "His destination, once called Yathrib [“YATH-rib”], became known as Medina. For 10 points, name this prophet of Islam."
+    },
+    {
+      "p": "This man drafted a charter, often called the Constitution of Medina, that united that city’s Muslims, Jews, and other groups as one community. The people of Medina who welcomed him were called the Ansar [“ahn-SAR”], or “helpers,” while those who moved there with him were the Muhajirun [“moo-HAH-jih-roon”].",
+      "r": "This man had left Mecca for Medina in the Hijra. For 10 points, name this prophet of Islam, the “Seal of the Prophets.”"
+    },
+    {
+      "p": "In 624, this man led about 300 followers to victory over a larger army from Mecca at the Battle of Badr [“BAH-der”]. That same year, the direction Muslims face in prayer changed from Jerusalem to the Kaaba in Mecca.",
+      "r": "This man’s sayings and actions are recorded in the hadith. For 10 points, name this prophet of Islam, who moved from Mecca to Medina."
+    },
+    {
+      "p": "When an army of about 10,000 besieged Medina in 627, this man’s followers dug a long trench on the advice of Salman the Persian, and the attackers eventually gave up. That clash is called the Battle of the Trench, or the Battle of the Ditch.",
+      "r": "Muslims call him the “Seal of the Prophets.” For 10 points, name this man, who Muslims believe received the Quran from Gabriel."
+    },
+    {
+      "p": "When a rumor spread that this man’s son-in-law Uthman had been killed, his followers swore the Pledge of the Tree. This man then signed the Treaty of Hudaybiyyah [“hoo-day-BEE-yah”] in 628, a truce with the Quraysh that let Muslims make a pilgrimage to Mecca the next year.",
+      "r": "Two years later, he returned to his birthplace, Mecca, with little fighting. For 10 points, name this prophet of Islam."
+    },
+    {
+      "p": "After the Quraysh broke a truce, this man led about 10,000 followers into Mecca in 630 with little fighting, pardoned most of his old enemies, and removed the idols from the Kaaba. Years earlier, he had defeated the Quraysh at the Battle of Badr.",
+      "r": "Muslims say “peace be upon him” after this man’s name. For 10 points, name this prophet of Islam."
+    },
+    {
+      "p": "This man gave his Farewell Sermon near Mount Arafat during his only Hajj in 632. He died a few months later in Medina and was buried there, at a spot now inside a great mosque named for him, beneath a famous green dome.",
+      "r": "His father-in-law Abu Bakr then became the first caliph. For 10 points, name this prophet of Islam."
+    },
+    {
+      "p": "A North African dynasty that ruled Egypt until Saladin [“SAL-uh-din”] ended it was named for this man’s daughter Fatima. Fatima’s husband, Ali, was this man’s cousin, and Shia Muslims believe Ali should have been this man’s first successor.",
+      "r": "Sunni Muslims take their name from his example, or Sunnah. For 10 points, name this prophet of Islam, who moved from Mecca to Medina in 622."
+    },
+    {
+      "p": "Out of respect, most Muslims, especially Sunnis, avoid making any pictures of this man, and many say “peace be upon him” after his name. His sayings and actions are recorded in collections called hadith.",
+      "r": "The Shahada declares that there is no god but God and that this man is God’s messenger. For 10 points, name this final prophet of Islam."
+    },
+    {
+      "p": "Muslims call 619 the “Year of Sorrow” in this man’s life, because both his first wife, Khadija, and his uncle and protector, Abu Talib, died that year. Without his uncle’s protection, this man faced growing danger from the Quraysh [“koo-RAYSH”] leaders of his hometown.",
+      "r": "Three years later, he left Mecca for Medina. For 10 points, name this prophet, whom Muslims call the “Seal of the Prophets.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "prophet-of-islam",
+      "tier": "giveaway",
+      "t": "Prophet of Islam; real giveaways often call him the “founder of Islam”",
+      "k": [
+        "prophet of islam",
+        "founder of islam",
+        "prophet"
+      ],
+      "n": 10
+    },
+    {
+      "id": "quran-revealed",
+      "tier": "giveaway",
+      "t": "Muslims believe the angel Gabriel (Jibril) revealed the Quran to him over about 23 years",
+      "k": [
+        "gabriel",
+        "jibril",
+        "quran"
+      ],
+      "n": 10,
+      "rabbit": "Quran"
+    },
+    {
+      "id": "mecca",
+      "tier": "giveaway",
+      "t": "Born in Mecca around 570; its leaders opposed his preaching",
+      "k": [
+        "mecca",
+        "570",
+        "born"
+      ],
+      "n": 6
+    },
+    {
+      "id": "seal",
+      "tier": "giveaway",
+      "t": "Muslims call him the “Seal of the Prophets,” the last prophet God sent",
+      "k": [
+        "seal of the prophets",
+        "seal",
+        "final prophet",
+        "last prophet"
+      ],
+      "n": 5
+    },
+    {
+      "id": "cave-of-hira",
+      "tier": "middle",
+      "t": "Muslims believe Gabriel came to him in a cave on Mount Hira around 610 and said “Read!”; he replied that he could not read",
+      "k": [
+        "mount hira",
+        "hira",
+        "cave"
+      ],
+      "n": 9
+    },
+    {
+      "id": "hijra",
+      "tier": "middle",
+      "t": "The Hijra (622): he and his followers moved from Mecca to Medina, year 1 of the Islamic calendar",
+      "k": [
+        "hijra",
+        "hegira",
+        "622"
+      ],
+      "n": 7,
+      "rabbit": "Hijra"
+    },
+    {
+      "id": "hadith",
+      "tier": "middle",
+      "t": "His sayings and actions are recorded in the hadith; his example is called the Sunnah",
+      "k": [
+        "hadith",
+        "sunnah"
+      ],
+      "n": 4
+    },
+    {
+      "id": "quraysh",
+      "tier": "middle",
+      "t": "Member of the Quraysh tribe, whose leaders in Mecca persecuted him and his followers",
+      "k": [
+        "quraysh",
+        "koraysh"
+      ],
+      "n": 4
+    },
+    {
+      "id": "khadija",
+      "tier": "middle",
+      "t": "His first wife, Khadija, a wealthy merchant, hired him to lead her caravan and was the first to accept his message",
+      "k": [
+        "khadija",
+        "khadijah",
+        "first believer"
+      ],
+      "n": 3,
+      "rabbit": "Khadija"
+    },
+    {
+      "id": "no-images",
+      "tier": "middle",
+      "t": "Out of respect, most Muslims, especially Sunnis, avoid making any pictures of him",
+      "k": [
+        "pictures",
+        "images",
+        "sunnis"
+      ],
+      "n": 2
+    },
+    {
+      "id": "shahada",
+      "tier": "middle",
+      "t": "The Shahada, first of the Five Pillars, says there is no god but God and that he is God’s messenger",
+      "k": [
+        "shahada",
+        "statement of faith"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peace-be-upon-him",
+      "tier": "middle",
+      "t": "Muslims say or write “peace be upon him” (PBUH) after his name",
+      "k": [
+        "peace be upon him",
+        "pbuh"
+      ],
+      "n": 1
+    },
+    {
+      "id": "prophets-mosque",
+      "tier": "middle",
+      "t": "Died in Medina in 632 and was buried in the Prophet’s Mosque, under its Green Dome",
+      "k": [
+        "prophet’s mosque",
+        "green dome",
+        "medina"
+      ],
+      "n": 0
+    },
+    {
+      "id": "night-journey",
+      "tier": "power",
+      "t": "Isra and Mi’raj: Muslims believe he rode Buraq to Jerusalem by night and rose to heaven, where the five daily prayers were set",
+      "k": [
+        "isra",
+        "mi’raj",
+        "miraj",
+        "buraq",
+        "night journey"
+      ],
+      "n": 3,
+      "rabbit": "Jerusalem"
+    },
+    {
+      "id": "hudaybiyyah",
+      "tier": "power",
+      "t": "Treaty of Hudaybiyyah (628): a truce with the Quraysh, after his followers swore the Pledge of the Tree",
+      "k": [
+        "hudaybiyyah",
+        "pledge of the tree",
+        "truce"
+      ],
+      "n": 2
+    },
+    {
+      "id": "constitution",
+      "tier": "power",
+      "t": "Wrote the Constitution of Medina, uniting the city’s Muslims, Jews, and other groups as one community",
+      "k": [
+        "constitution of medina",
+        "constitution",
+        "charter"
+      ],
+      "n": 2
+    },
+    {
+      "id": "year-of-elephant",
+      "tier": "power",
+      "t": "Born in the “Year of the Elephant,” when an army with an elephant attacked Mecca",
+      "k": [
+        "year of the elephant",
+        "elephant"
+      ],
+      "n": 1
+    },
+    {
+      "id": "abu-talib",
+      "tier": "power",
+      "t": "Orphaned young, he was raised by his grandfather and then his uncle Abu Talib; as a trader he was called al-Amin, “the trustworthy”",
+      "k": [
+        "abu talib",
+        "al-amin",
+        "orphaned"
+      ],
+      "n": 1
+    },
+    {
+      "id": "aksum",
+      "tier": "power",
+      "t": "Some early followers fled persecution to the Christian kingdom of Aksum (Abyssinia), whose king protected them",
+      "k": [
+        "aksum",
+        "axum",
+        "ethiopia"
+      ],
+      "n": 1
+    },
+    {
+      "id": "year-of-sorrow",
+      "tier": "power",
+      "t": "Year of Sorrow (619): his wife Khadija and his uncle Abu Talib both died",
+      "k": [
+        "year of sorrow",
+        "sorrow",
+        "619"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ansar",
+      "tier": "power",
+      "t": "Ansar (“helpers”) were the Medina locals who welcomed him; the Muhajirun were the Meccans who moved with him",
+      "k": [
+        "ansar",
+        "muhajir"
+      ],
+      "n": 1
+    },
+    {
+      "id": "trench",
+      "tier": "power",
+      "t": "Battle of the Trench (627): on Salman the Persian’s advice, his followers dug a trench to defend Medina",
+      "k": [
+        "trench",
+        "ditch",
+        "salman"
+      ],
+      "n": 1
+    },
+    {
+      "id": "conquest-of-mecca",
+      "tier": "power",
+      "t": "Took Mecca in 630 with little fighting, pardoned most enemies, and cleared the idols from the Kaaba",
+      "k": [
+        "idols",
+        "kaaba",
+        "630"
+      ],
+      "n": 1,
+      "rabbit": "Kaaba"
+    },
+    {
+      "id": "fatima",
+      "tier": "power",
+      "t": "His daughter Fatima married his cousin Ali; the Fatimid dynasty was named for her",
+      "k": [
+        "fatima",
+        "fatimid",
+        "ali"
+      ],
+      "n": 1
+    },
+    {
+      "id": "badr",
+      "tier": "power",
+      "t": "Defeated a larger Meccan army at the Battle of Badr (624); that year the direction of prayer changed from Jerusalem to Mecca",
+      "k": [
+        "badr",
+        "624",
+        "qibla"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Badr"
+    },
+    {
+      "id": "farewell-sermon",
+      "tier": "power",
+      "t": "Gave his Farewell Sermon at Mount Arafat during his only Hajj, in 632",
+      "k": [
+        "farewell sermon",
+        "arafat",
+        "632"
+      ],
+      "n": 0,
+      "rabbit": "Hajj"
+    },
+    {
+      "id": "successors",
+      "tier": "power",
+      "t": "After his death, his father-in-law Abu Bakr became the first caliph; Shia Muslims believe his cousin Ali should have led",
+      "k": [
+        "abu bakr",
+        "caliph",
+        "shia",
+        "ali"
+      ],
+      "n": 0,
+      "rabbit": "Abu Bakr"
+    }
+  ],
+  "trap": {
+    "title": "Which Muhammad? Which prophet?",
+    "body": "Many famous people share his name: one real answer line says do not accept “Muhammad Ali,” the boxer, who also showed up in this search, and Elijah Muhammad led the Nation of Islam in the 1900s. Saying just “the Prophet” earns only a prompt, because Islam honors many prophets, including Abraham, Moses, and Jesus. Clues about his family can also tempt an early buzz of Ali, his cousin and son-in-law, or Abu Bakr, his father-in-law and the first caliph.",
+    "fix": "Wait for a clue that points to him alone: the cave of Hira, Gabriel revealing the Quran, the Hijra to Medina, or the “Seal of the Prophets.” Then give his name, not a title or a relative.",
+    "line": "Real answer line: (Abu al-Qasim) <b><u>Muhammad</u></b> (ibn ʿAbd Allah ibn ʿAbd al-Muttalib ibn Hashim) (do not accept “Muhammad Ali”)"
+  },
+  "freq": {
+    "rank": 3,
+    "count": 9,
+    "list": "Religion"
+  }
+}

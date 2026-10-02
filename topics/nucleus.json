@@ -1,0 +1,367 @@
+{
+  "id": "nucleus",
+  "name": "Nucleus",
+  "mono": "NUC",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Cell’s membrane-bound control center · Houses its genetic material",
+  "dates": "Named by botanist Robert Brown in 1831",
+  "briefing": "The nucleus acts like a cell’s command center, holding almost all of its DNA safely inside a double-layered envelope dotted with thousands of pores that let RNA and proteins pass in and out. Inside sits a smaller, darker region called the nucleolus, which builds the ribosomes a cell needs to make proteins. Nearly every eukaryotic cell has a nucleus, while bacteria and other prokaryotes get by without one at all.",
+  "answerHtml": "<b><u>Nucleus</u></b> (accept <u>nuclei</u> or <u>cell nucleus</u>; do not accept “nucleolus”)",
+  "accept": [
+    "nucleus",
+    "nuclei",
+    "cell nucleus",
+    "cellular nucleus",
+    "cell nuclei"
+  ],
+  "prompt": [],
+  "reject": [
+    "dna",
+    "chromosomes",
+    "chromosome",
+    "nucleolus",
+    "atomic nucleus",
+    "comet nucleus",
+    "endoplasmic reticulum",
+    "ribosomes",
+    "ribosome"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Nucleus | Cell: The Unit of Life",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=XSocI9zhs44",
+      "note": "Lesson on the parts of the nucleus and why it is the cell’s control center"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The nucleus | Cells | MCAT",
+      "source": "Khan Academy Medicine",
+      "url": "https://www.youtube.com/watch?v=gGeC0ntvxR8",
+      "note": "Advanced (MCAT-prep) look at the nucleus’s structure and jobs"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Introduction to Cells: The Grand Cell Tour",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=8IlzKri08kk",
+      "note": "Cartoon tour of all the organelles, the nucleus included"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Cell Nucleus",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/biology/cell_nucleus.php",
+      "note": "Quick read on the envelope, pores, nucleolus, and chromatin, with a 10-question quiz"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Cell_nucleus",
+  "qb": {
+    "q": "nucleus",
+    "found": 8,
+    "tip": "This search mixes the cell organelle with the unrelated atomic-nucleus and comet-nucleus senses of the word. 3 of the 8 hits (plus one whose real answer was “atoms,” accepting “nucleus” only before it was read) were off-topic physics/chemistry tossups and were excluded, leaving 5 genuine hits about the organelle."
+  },
+  "sample": {
+    "n": 5,
+    "note": "5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked, after excluding 3 off-topic atomic/comet-nucleus hits from the same search)"
+  },
+  "tossups": [
+    {
+      "p": "Speckles, paraspeckles, and Cajal [“kah-HAL”] bodies float inside this organelle’s envelope. A substructure inside it completely dissolves during prophase, then reassembles once mitosis ends, after spending the rest of the cell cycle churning out ribosomes.",
+      "r": "Eukaryotic cells are defined by having one of these, while bacteria and other prokaryotes get by without one. For 10 points, name this organelle that houses a cell’s DNA."
+    },
+    {
+      "p": "A system of pores built into this organelle’s envelope lets ribosomes exit after being assembled in a smaller region inside it. Protein-and-RNA-filled Cajal bodies also float within this structure.",
+      "r": "Its outer membrane connects directly to the rough endoplasmic reticulum. For 10 points, name this organelle that acts as a eukaryotic cell’s control center."
+    },
+    {
+      "p": "Several of these organelles can occupy a single long, connected fungal cell called a hypha [“HIGH-fuh”]. Cajal bodies are found within it, and its envelope stays continuous with the rough endoplasmic reticulum.",
+      "r": "A subsection of it assembles ribosomes before they’re exported through its pores. For 10 points, name this structure that holds a eukaryotic cell’s genetic material."
+    },
+    {
+      "p": "This organelle’s envelope is broken down during the prophase stage of mitosis and rebuilt afterward. A subsection of it produces ribosomes, which exit through pores in its membrane.",
+      "r": "Prokaryotic cells entirely lack this organelle. For 10 points, name this structure found in eukaryotic cells that stores chromosomes."
+    },
+    {
+      "p": "snRNPs [“snurps”] inside this organelle splice together pre-messenger RNA, and its namesake pores interact with transport helpers called importin and RanGTP.",
+      "r": "Its membrane connects directly to the rough endoplasmic reticulum. For 10 points, name this organelle whose smaller internal region, the nucleolus, assembles ribosomes."
+    },
+    {
+      "p": "Scottish botanist Robert Brown named and described this structure in 1831, decades before its role in heredity was understood. A mesh of proteins called the lamina lines its inner membrane and helps give it shape.",
+      "r": "It is usually the largest organelle inside a eukaryotic cell. For 10 points, name this structure that houses a cell’s DNA."
+    },
+    {
+      "p": "Dark-staining, tightly packed DNA called heterochromatin tends to cluster along the inside of this organelle’s envelope. Each pore in that envelope is actually a large assembly built from dozens of proteins, called a pore complex.",
+      "r": "This organelle’s envelope is really two membranes with a narrow fluid-filled gap between them. For 10 points, name this structure, often called the “control center” of a eukaryotic cell."
+    },
+    {
+      "p": "In an animal cell, this organelle usually sits near the center, but in a plant cell it can be pushed off to one side by a large central vacuole. A protein called RanGTP helps control which molecules pass through its pores.",
+      "r": "Eukaryotic cells are defined by having this organelle, which prokaryotic cells lack. For 10 points, name this structure that contains a cell’s chromosomes."
+    },
+    {
+      "p": "A smaller, darker region inside this organelle dissolves completely during prophase and reforms once cell division ends. Before it dissolves, that region spends most of the cell cycle assembling ribosomes.",
+      "r": "Its envelope connects directly to the rough endoplasmic reticulum. For 10 points, name this organelle, the largest structure inside most eukaryotic cells."
+    },
+    {
+      "p": "Transport proteins called importins help molecules cross the pores of this organelle’s double membrane. Speckles and paraspeckles, storage spots for RNA-splicing proteins, float inside it alongside Cajal bodies.",
+      "r": "This organelle’s envelope breaks down at the start of mitosis. For 10 points, name this structure that keeps a eukaryotic cell’s genetic material separated from the rest of the cell."
+    },
+    {
+      "p": "This organelle’s outer membrane is studded with ribosomes and connects directly to the rough endoplasmic reticulum, while its inner membrane is lined by a protein mesh called the lamina. Several of these organelles can share one giant fungal cell called a hypha.",
+      "r": "A smaller region within it, the nucleolus, builds ribosomal subunits. For 10 points, name this organelle that stores a cell’s DNA inside a protective envelope."
+    },
+    {
+      "p": "Thousands of pore complexes dot the double membrane of this organelle, regulating traffic in and out. It was described and named by the botanist Robert Brown in 1831.",
+      "r": "Eukaryotic cells typically contain one of these; prokaryotic cells like bacteria do not. For 10 points, name this organelle often called the “control center” of the cell."
+    },
+    {
+      "p": "snRNPs inside this organelle handle the splicing of pre-mRNA before it leaves for the rest of the cell. A thin, fluid-filled space separates the two membranes that make up its envelope.",
+      "r": "This organelle breaks down and then rebuilds its envelope once each time a cell divides by mitosis. For 10 points, name this structure that houses chromosomes made of DNA and protein."
+    },
+    {
+      "p": "Cajal bodies and paraspeckles both occur inside this organelle, whose pores interact with the transport proteins importin and RanGTP. In certain fungi, many of these organelles can share a single long hyphal cell.",
+      "r": "A smaller region inside it, called the nucleolus, builds a cell’s ribosomes. For 10 points, name this structure, the largest organelle in most eukaryotic cells."
+    },
+    {
+      "p": "This organelle’s envelope disappears for part of the cell cycle’s division stage, called mitosis, before reassembling around each new set of chromosomes. Heterochromatin tends to cluster near the inner face of its double membrane.",
+      "r": "Bacteria and other prokaryotes lack this membrane-bound organelle entirely. For 10 points, name this structure that acts as a eukaryotic cell’s control center and stores its DNA."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "A double-layered envelope holds almost all of a eukaryotic cell’s DNA inside this organelle",
+      "k": [
+        "dna",
+        "envelope"
+      ],
+      "n": 5
+    },
+    {
+      "id": "eukaryote-only",
+      "tier": "giveaway",
+      "t": "Present in nearly every eukaryotic cell but missing from simpler prokaryotic cells like bacteria",
+      "k": [
+        "eukaryotic",
+        "prokaryotic"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pores",
+      "tier": "giveaway",
+      "t": "Thousands of pores in its envelope let RNA and proteins pass in and out",
+      "k": [
+        "pores"
+      ],
+      "n": 3
+    },
+    {
+      "id": "nucleolus-ribosomes",
+      "tier": "giveaway",
+      "t": "Contains a smaller region, the nucleolus, which builds a cell’s ribosomes",
+      "k": [
+        "nucleolus",
+        "ribosomes"
+      ],
+      "n": 5
+    },
+    {
+      "id": "mitosis-prophase",
+      "tier": "middle",
+      "t": "Its envelope breaks down during prophase, the first stage of the cell division called mitosis",
+      "k": [
+        "prophase",
+        "mitosis"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cajal-bodies",
+      "tier": "middle",
+      "t": "Small round structures called Cajal bodies float inside it, alongside paraspeckles",
+      "k": [
+        "cajal bodies"
+      ],
+      "n": 4
+    },
+    {
+      "id": "rough-er",
+      "tier": "middle",
+      "t": "Its outer membrane connects directly to the rough endoplasmic reticulum",
+      "k": [
+        "endoplasmic reticulum"
+      ],
+      "n": 2
+    },
+    {
+      "id": "snrnp",
+      "tier": "middle",
+      "t": "Tiny particles called snRNPs inside it splice newly made messenger RNA",
+      "k": [
+        "snrnps",
+        "splicing"
+      ],
+      "n": 1
+    },
+    {
+      "id": "importin",
+      "tier": "middle",
+      "t": "Its pores interact with transport helpers called importin and RanGTP",
+      "k": [
+        "importin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fungi-hyphae",
+      "tier": "middle",
+      "t": "In some fungi, several of these organelles share one long, connected cell called a hypha",
+      "k": [
+        "fungi",
+        "hyphae"
+      ],
+      "n": 1
+    },
+    {
+      "id": "robert-brown",
+      "tier": "middle",
+      "t": "Scottish botanist Robert Brown named and described this structure in 1831",
+      "k": [
+        "robert brown",
+        "1831"
+      ],
+      "n": 0
+    },
+    {
+      "id": "control-center",
+      "tier": "middle",
+      "t": "Often nicknamed the cell’s “control center” since it directs which proteins get made",
+      "k": [
+        "control center"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-membrane",
+      "tier": "power",
+      "t": "Its envelope is actually two membranes with a narrow fluid-filled space between them",
+      "k": [
+        "two membranes",
+        "fluid-filled space"
+      ],
+      "n": 0
+    },
+    {
+      "id": "speckles",
+      "tier": "power",
+      "t": "Also contains structures called speckles and paraspeckles, storage spots for splicing proteins",
+      "k": [
+        "speckles",
+        "paraspeckles"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ran-gtp",
+      "tier": "power",
+      "t": "A protein called RanGTP helps control which molecules its pores let through",
+      "k": [
+        "rangtp"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nucleolus-dissolves",
+      "tier": "power",
+      "t": "Unlike the rest of it, the nucleolus completely dissolves during prophase before re-forming later",
+      "k": [
+        "nucleolus",
+        "prophase"
+      ],
+      "n": 1
+    },
+    {
+      "id": "plant-vs-animal",
+      "tier": "power",
+      "t": "Usually sits near the center of an animal cell but can be pushed to one side in a plant cell",
+      "k": [
+        "plant cell",
+        "animal cell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "largest-organelle",
+      "tier": "power",
+      "t": "Typically the largest organelle in a eukaryotic cell, often taking up around a tenth of its volume",
+      "k": [
+        "largest organelle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nuclear-lamina",
+      "tier": "power",
+      "t": "A mesh of proteins called the lamina lines its inner membrane and gives it shape",
+      "k": [
+        "lamina",
+        "mesh of proteins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heterochromatin",
+      "tier": "power",
+      "t": "Tightly packed, dark-staining DNA called heterochromatin tends to cluster along the inside of its envelope",
+      "k": [
+        "heterochromatin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pore-complex",
+      "tier": "power",
+      "t": "Each pore in its envelope is actually a large structure built from dozens of proteins, called a pore complex",
+      "k": [
+        "pore complex"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The organelle, or its contents?",
+    "body": "The nucleolus is a real structure living inside this organelle, not just another name for the same thing — real answer lines specifically warn against accepting “nucleolus” as a substitute. Likewise, the DNA and chromosomes stored inside this organelle, and the ribosomes assembled inside its nucleolus, are each the wrong, more specific answer when the question is really asking for the organelle that contains and makes all of them.",
+    "fix": "If the clues describe a structure made of DNA bundled with protein, give “chromosomes” instead. If they describe the genetic molecule itself, give “DNA.” If they describe tiny protein-building machines, give “ribosomes.” Only answer with the organelle itself when the clues describe the whole envelope, its pores, or its “control center” role.",
+    "line": "Real answer line: <b><u>Nucleus</u></b> (accept cell nucleus or nuclei; do not accept nucleolus, DNA, or chromosomes)"
+  },
+  "tests": {
+    "right": [
+      "Nucleus",
+      "nucleus",
+      "Nucleas",
+      "Cell Nucleus",
+      "Nuclei"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Nucleolus",
+      "DNA",
+      "Chromosomes",
+      "Atomic nucleus"
+    ]
+  },
+  "freq": {
+    "rank": 13,
+    "count": 5,
+    "list": "Biology"
+  }
+}

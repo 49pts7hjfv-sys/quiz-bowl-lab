@@ -1,0 +1,419 @@
+{
+  "id": "quartz",
+  "name": "Quartz",
+  "mono": "QTZ",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Common silicate mineral · Its vibrations keep time in clocks and watches",
+  "dates": "Mohs hardness: 7 of 10",
+  "briefing": "Quartz is one of the most common minerals on Earth, built from nothing more than silicon and oxygen locked into a six-sided crystal. Squeeze a piece of it and it makes a tiny electric charge, a trick called piezoelectricity that keeps your watch ticking and your phone’s clock accurate. Purple amethyst, yellow citrine, and pink rose quartz are all this exact same mineral, just tinted by trace impurities.",
+  "answerHtml": "<b><u>Quartz</u></b> (accept <u>shocked quartz</u>; prompt on <u>silica</u> or <u>silicon dioxide</u>)",
+  "accept": [
+    "quartz",
+    "quartz crystal",
+    "rock crystal",
+    "crystalline quartz"
+  ],
+  "prompt": [
+    "silica",
+    "silicon dioxide",
+    "sio2"
+  ],
+  "reject": [
+    "quartzite",
+    "feldspar",
+    "calcite",
+    "amethyst",
+    "citrine",
+    "rose quartz",
+    "smoky quartz",
+    "onyx",
+    "tigers eye",
+    "glass"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How a quartz watch works",
+      "source": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=1pM6uD8nePo",
+      "note": "Professor Bill Hammack shows how a vibrating quartz crystal keeps a watch on time (piezoelectricity)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Geology of Quartz",
+      "source": "PlanetGeo",
+      "url": "https://www.youtube.com/watch?v=PFw-H1u0ixM",
+      "note": "Podcast-style deep dive by two geologists on how and where quartz forms (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Quartz Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Quartz",
+      "note": "Quick read: silicon dioxide (SiO₂), hardness 7 on the Mohs scale, piezoelectricity, and amethyst and citrine"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Quartz",
+  "qb": {
+    "q": "quartz",
+    "found": 3,
+    "tip": "Only 3 Middle School/Easy High School tossups exist, but they (and 9 Regular HS ones) agree closely: Mohs 7, piezoelectricity, Bowen’s reaction series, and “shocked” quartz are in most of them."
+  },
+  "sample": {
+    "n": 12,
+    "note": "the 12 real QBReader tossups for this answer line (3 Middle School/Easy High School + 9 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Nicolas Steno’s observation that this mineral’s crystal faces always meet at a 60-degree angle helped found the science of crystallography. Along with iridium, a “shocked” form of this mineral found at the Chicxulub [“CHEEK-shoo-loob”] crater supports the Alvarez hypothesis for the extinction of the dinosaurs.",
+      "r": "This mineral sits at the very bottom of Bowen’s reaction series, so it is usually the last to crystallize out of cooling magma. For 10 points, name this silicate mineral with the chemical formula SiO2, which defines the number 7 on the Mohs hardness scale."
+    },
+    {
+      "p": "A fused, glassy form of this mineral was shaped into some of the most nearly perfect spheres ever manufactured, used as gyroscope rotors on NASA’s Gravity Probe B satellite. This mineral is used in the Pierce oscillator circuit because squeezing it produces a voltage.",
+      "r": "That property, piezoelectricity, is why slices of this mineral keep clocks and watches ticking at a precise rate. For 10 points, name this mineral, the second most abundant in Earth’s crust after feldspar."
+    },
+    {
+      "p": "This mineral is extremely resistant to chemical weathering, which places it at the bottom of the Goldich dissolution series. A reddish-brown variety of this mineral that shimmers with an optical effect called chatoyancy [“shuh-TOY-un-see”] is sold as Tiger’s Eye.",
+      "r": "Rare, double-terminated crystals of this mineral found in upstate New York are nicknamed “Herkimer diamonds.” For 10 points, name this mineral that forms purple amethyst and yellow citrine when colored by trace impurities."
+    },
+    {
+      "p": "Above about 573 degrees Celsius, this mineral flips into a different hexagonal “beta” crystal form. This mineral is built from a repeating three-dimensional framework of tetrahedra, each with one silicon atom bonded to four oxygen atoms that link to neighboring units.",
+      "r": "This mineral typically grows as a six-sided prism that tapers to a point. For 10 points, name this silicate mineral with the formula SiO2, which is the main ingredient of most sand and sandstone."
+    },
+    {
+      "p": "A green, mica-flecked variety of this mineral is called aventurine, while a crystal with both orange and purple sections is called ametrine. This mineral lacks true cleavage, so it breaks instead with a smooth, curved conchoidal fracture.",
+      "r": "This mineral is often found paired with feldspar inside granite. For 10 points, name this mineral with a Mohs hardness of 7, whose colored varieties include amethyst, citrine, and a pink form."
+    },
+    {
+      "p": "Besides keeping time, this mineral’s piezoelectric effect also makes it useful in microphones, sonar devices, and ultrasound transducers. A “shocked” variety of this mineral forms under the extreme pressure of a meteorite impact or an underground nuclear test.",
+      "r": "This mineral has the lowest crystallization temperature of any common silicate, landing it at the bottom of Bowen’s reaction series. For 10 points, name this mineral with chemical formula SiO2 and a hardness of 7 on the Mohs scale."
+    },
+    {
+      "p": "A “fused” form of this mineral, melted and cooled into a non-crystalline glass, is prized for fiber-optic cable and laboratory glassware because it resists heat and lets ultraviolet light through. This mineral crystallizes in the trigonal system, often forming hexagonal prisms.",
+      "r": "Squeezing this mineral generates a small electric charge, a property called piezoelectricity. For 10 points, name this mineral found in granite and sandstone, the second most abundant mineral in Earth’s crust."
+    },
+    {
+      "p": "In the Alvarez hypothesis, a “shocked” form of this mineral found in rock layers worldwide supports the theory that an asteroid impact ended the age of dinosaurs. Friedrich Mohs chose this mineral to define the number 7 on his 10-point hardness scale.",
+      "r": "Clocks and watches use thin slices of this mineral because pressing on it produces a tiny voltage. For 10 points, name this mineral with formula SiO2, whose colored varieties include purple amethyst and a pink form."
+    },
+    {
+      "p": "This mineral’s resistance to weathering places it at the bottom of the Goldich dissolution series, the opposite end from easily weathered minerals like olivine. Rare crystals of this mineral with points on both ends, found near a town in New York State, are nicknamed “Herkimer diamonds.”",
+      "r": "This mineral’s piezoelectric property makes it vibrate at a precise frequency when a voltage is applied. For 10 points, name this mineral with a Mohs hardness of 7, the main component of beach sand."
+    },
+    {
+      "p": "This mineral is the last to crystallize on both branches of Bowen’s reaction series, after minerals like olivine and feldspar have already solidified. Nicolas Steno noticed that no matter the size of this mineral’s crystals, their faces always meet at the same 60-degree angle.",
+      "r": "Besides its clear, colorless form, this mineral’s varieties include purple amethyst and yellow citrine. For 10 points, name this silicate mineral with formula SiO2 and a Mohs hardness of 7."
+    },
+    {
+      "p": "A “shocked” variety of this mineral, formed by extreme pressure, turns up both at meteorite impact craters and at sites of underground nuclear testing. This mineral’s crystal structure gives way to a different, hexagonal “beta” form above 573 degrees Celsius.",
+      "r": "Pressing on this mineral produces a small voltage, a property that helps wristwatches keep accurate time. For 10 points, name this mineral, the second most abundant in Earth’s crust behind feldspar."
+    },
+    {
+      "p": "This mineral generates a voltage when placed under stress, a property used in the Pierce oscillator and in ultrasound machines. Because it is nearly the last mineral to solidify from cooling magma, this mineral sits at the bottom of Bowen’s reaction series.",
+      "r": "A melted, “fused” form of this mineral is spun into fiber-optic cable. For 10 points, name this mineral that registers 7 on the Mohs hardness scale and forms six-sided crystals with the chemical formula SiO2."
+    },
+    {
+      "p": "Along with iridium, a “shocked” form of this mineral at the Chicxulub crater is cited as evidence for the Alvarez hypothesis about the dinosaurs’ extinction. This mineral’s crystal faces were shown by Nicolas Steno to always meet at a 60-degree angle, regardless of the crystal’s overall shape.",
+      "r": "This mineral is extremely resistant to weathering, landing it at the bottom of the Goldich dissolution series. For 10 points, name this mineral whose colored varieties include amethyst, citrine, and a pink form."
+    },
+    {
+      "p": "This mineral’s piezoelectric effect means it vibrates at an exact, steady rate when a small voltage is applied, which is why it regulates the timing in digital clocks, watches, and radios. A fused, glassy version of this mineral was ground into gyroscope rotors for NASA’s Gravity Probe B.",
+      "r": "This mineral commonly forms six-sided prism crystals and comes in colored varieties like smoky, rose, and milky. For 10 points, name this mineral with chemical formula SiO2, defined as a 7 on the Mohs hardness scale."
+    },
+    {
+      "p": "This mineral is built from repeating units of one silicon atom bonded to four oxygen atoms, with those units linking into a three-dimensional framework with the overall ratio of one silicon to two oxygens. It is found at the very bottom of both Bowen’s reaction series and the Goldich dissolution series.",
+      "r": "Granite gets its glassy-looking grains from this mineral, and most of its other grains from feldspar. For 10 points, name this mineral with formula SiO2, whose piezoelectric property makes it useful in clocks and watches."
+    }
+  ],
+  "clues": [
+    {
+      "id": "formula",
+      "tier": "giveaway",
+      "t": "Chemical formula SiO2: one silicon atom for every two oxygen atoms",
+      "k": [
+        "formula",
+        "silicon",
+        "oxygen"
+      ],
+      "n": 12
+    },
+    {
+      "id": "mohs-seven",
+      "tier": "giveaway",
+      "t": "Defines the number 7 on the 10-point Mohs hardness scale",
+      "k": [
+        "mohs",
+        "hardness",
+        "seven"
+      ],
+      "n": 9
+    },
+    {
+      "id": "piezoelectric",
+      "tier": "giveaway",
+      "t": "Piezoelectric: makes a tiny electric charge under pressure, which keeps clocks and watches accurate",
+      "k": [
+        "piezoelectric",
+        "clocks",
+        "watches"
+      ],
+      "n": 8
+    },
+    {
+      "id": "colored-varieties",
+      "tier": "giveaway",
+      "t": "Colored varieties include purple amethyst, yellow citrine, and a pink form called rose",
+      "k": [
+        "amethyst",
+        "citrine",
+        "varieties"
+      ],
+      "n": 8,
+      "rabbit": "Amethyst"
+    },
+    {
+      "id": "second-abundant",
+      "tier": "giveaway",
+      "t": "Second most abundant mineral in Earth’s crust, just behind feldspar",
+      "k": [
+        "abundant",
+        "feldspar"
+      ],
+      "n": 5
+    },
+    {
+      "id": "bowens-series",
+      "tier": "middle",
+      "t": "Sits at the bottom of Bowen’s reaction series, the last common mineral to crystallize from cooling magma",
+      "k": [
+        "bowen",
+        "crystallize",
+        "magma"
+      ],
+      "n": 8,
+      "rabbit": "Bowen’s reaction series"
+    },
+    {
+      "id": "shocked-form",
+      "tier": "middle",
+      "t": "A “shocked” form forms under extreme pressure, such as a meteorite impact or an underground nuclear test",
+      "k": [
+        "shocked",
+        "meteorite",
+        "pressure"
+      ],
+      "n": 8
+    },
+    {
+      "id": "sand-granite",
+      "tier": "middle",
+      "t": "Main mineral in sand and sandstone; paired with feldspar inside granite",
+      "k": [
+        "sand",
+        "sandstone",
+        "granite"
+      ],
+      "n": 5
+    },
+    {
+      "id": "goldich-series",
+      "tier": "middle",
+      "t": "Extremely resistant to chemical weathering, landing it at the bottom of the Goldich dissolution series",
+      "k": [
+        "goldich",
+        "weathering",
+        "resistant"
+      ],
+      "n": 3
+    },
+    {
+      "id": "crystal-shape",
+      "tier": "middle",
+      "t": "Crystallizes in the trigonal system, usually as a six-sided hexagonal prism",
+      "k": [
+        "hexagonal",
+        "trigonal",
+        "prism"
+      ],
+      "n": 3
+    },
+    {
+      "id": "chatoyant-variety",
+      "tier": "middle",
+      "t": "A reddish-brown variety called Tiger’s Eye shimmers with an optical effect called chatoyancy",
+      "k": [
+        "tigers eye",
+        "chatoyancy",
+        "shimmers"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fused-form",
+      "tier": "middle",
+      "t": "A melted, “fused” glassy form is used in fiber-optic cable and lab glassware",
+      "k": [
+        "fused",
+        "fiber-optic",
+        "glassware"
+      ],
+      "n": 2
+    },
+    {
+      "id": "herkimer",
+      "tier": "middle",
+      "t": "Rare double-terminated clear crystals from New York are nicknamed “Herkimer diamonds”",
+      "k": [
+        "herkimer",
+        "diamonds",
+        "double-terminated"
+      ],
+      "n": 1
+    },
+    {
+      "id": "alvarez-chicxulub",
+      "tier": "power",
+      "t": "A shocked form plus iridium at the Chicxulub crater supports the Alvarez hypothesis for the dinosaurs’ extinction",
+      "k": [
+        "alvarez",
+        "chicxulub",
+        "iridium"
+      ],
+      "n": 4,
+      "rabbit": "Alvarez hypothesis"
+    },
+    {
+      "id": "steno-angle",
+      "tier": "power",
+      "t": "Nicolas Steno found that its crystal faces always meet at a 60-degree angle, no matter the crystal’s size",
+      "k": [
+        "steno",
+        "60-degree",
+        "angle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pierce-oscillator",
+      "tier": "power",
+      "t": "Used in the Pierce oscillator circuit, where its vibration keeps an electronic frequency steady",
+      "k": [
+        "pierce",
+        "oscillator",
+        "frequency"
+      ],
+      "n": 1
+    },
+    {
+      "id": "beta-transition",
+      "tier": "power",
+      "t": "Transforms into a different hexagonal “beta” crystal form above about 573 degrees Celsius",
+      "k": [
+        "beta",
+        "573",
+        "celsius"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gravity-probe-b",
+      "tier": "power",
+      "t": "A fused form was shaped into near-perfectly round gyroscope spheres for NASA’s Gravity Probe B satellite",
+      "k": [
+        "gravity probe",
+        "gyroscope",
+        "nasa"
+      ],
+      "n": 1
+    },
+    {
+      "id": "no-cleavage",
+      "tier": "power",
+      "t": "Lacks true cleavage planes, so it breaks instead with a smooth, curved conchoidal fracture",
+      "k": [
+        "cleavage",
+        "conchoidal",
+        "fracture"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ametrine",
+      "tier": "power",
+      "t": "Can grow as a single bicolor crystal, half orange and half purple, called ametrine",
+      "k": [
+        "ametrine",
+        "bicolor",
+        "orange"
+      ],
+      "n": 1
+    },
+    {
+      "id": "aventurine",
+      "tier": "power",
+      "t": "A green variety flecked with tiny mica crystals is called aventurine",
+      "k": [
+        "aventurine",
+        "mica",
+        "flecked"
+      ],
+      "n": 1
+    },
+    {
+      "id": "piezo-other-uses",
+      "tier": "power",
+      "t": "Its piezoelectric effect is also used in microphones, sonar, and medical ultrasound devices",
+      "k": [
+        "microphones",
+        "sonar",
+        "ultrasound"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tetrahedra-structure",
+      "tier": "power",
+      "t": "Built from a 3-D framework of tetrahedra, each a silicon atom bonded to four oxygen atoms shared with neighbors",
+      "k": [
+        "tetrahedra",
+        "silicon",
+        "shared"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Mineral, or just a color?",
+    "body": "Amethyst, citrine, and rose quartz are not separate minerals — they are this exact same mineral, tinted by trace impurities. But on a real tossup, naming the color variety instead of the mineral itself is a different, more specific answer and is marked wrong. The same goes for quartzite, which is a metamorphic rock made mostly of this mineral, not the mineral itself, and for feldspar, the only mineral more abundant in Earth’s crust.",
+    "fix": "If the clues mention a specific color name (amethyst, citrine, rose, smoky) without ever naming the general mineral, wait for a clue that is true of all of them, like the Mohs hardness of 7 or the SiO2 formula, before you buzz with the general name.",
+    "line": "Real answer line: <b><u>Quartz</u></b> (accept shocked quartz; prompt on silica or silicon dioxide)."
+  },
+  "tests": {
+    "right": [
+      "Quartz",
+      "quartz",
+      "Qwartz",
+      "Rock Crystal"
+    ],
+    "prompt": [
+      "Silica",
+      "SiO2"
+    ],
+    "wrong": [
+      "Quartzite",
+      "Feldspar",
+      "Amethyst",
+      "Calcite"
+    ]
+  },
+  "freq": {
+    "rank": 7,
+    "count": 5,
+    "list": "Earth Science"
+  }
+}

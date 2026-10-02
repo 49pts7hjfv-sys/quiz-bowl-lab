@@ -1,0 +1,453 @@
+{
+  "id": "english-civil-war",
+  "name": "English Civil War",
+  "mono": "ECW",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "King Charles I vs. Parliament · Led to the king’s execution",
+  "dates": "Fought 1642–1651",
+  "briefing": "The English Civil War pitted King Charles I, who believed he answered to God alone, against a Parliament that refused to keep funding his wars and his religious policies without a say in government. Parliament’s disciplined New Model Army, built by Oliver Cromwell and Thomas Fairfax, crushed the king’s Cavaliers, and in 1649 Charles became the only English king ever put on trial and executed. Cromwell later ruled as Lord Protector until his death in 1658, and the monarchy returned in 1660.",
+  "answerHtml": "<b><u>English Civil War</u></b> (or <u>English Civil Wars</u>; prompt on <u>Civil War</u> alone)",
+  "accept": [
+    "english civil war",
+    "english civil wars",
+    "the english civil war",
+    "english civil wars 1642 1651"
+  ],
+  "prompt": [
+    "civil war",
+    "the civil war",
+    "war between parliament and the king"
+  ],
+  "reject": [
+    "wars of the roses",
+    "war of the roses",
+    "glorious revolution",
+    "glorious revolution of 1688",
+    "bishops wars",
+    "bishops war",
+    "first bishops war",
+    "second bishops war",
+    "hundred years war",
+    "thirty years war",
+    "nine years war",
+    "restoration",
+    "jacobite rising",
+    "charles i",
+    "king charles i",
+    "charles the first",
+    "oliver cromwell",
+    "cromwell",
+    "thomas fairfax",
+    "fairfax",
+    "prince rupert",
+    "rupert",
+    "charles ii",
+    "james ii",
+    "roundheads",
+    "cavaliers",
+    "parliamentarians",
+    "royalists",
+    "commonwealth of england",
+    "battle of naseby",
+    "naseby",
+    "battle of marston moor",
+    "marston moor",
+    "battle of worcester",
+    "worcester"
+  ],
+  "tests": {
+    "right": [
+      "English Civil War",
+      "The English Civil War",
+      "English Civil Wars",
+      "Englsih Civil War",
+      "the english civil wars"
+    ],
+    "prompt": [
+      "Civil War",
+      "The Civil War"
+    ],
+    "wrong": [
+      "Charles I",
+      "Oliver Cromwell",
+      "Glorious Revolution",
+      "Wars of the Roses",
+      "Battle of Naseby",
+      "Restoration"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Why Did England Have a Civil War? | History in a Nutshell | Animated History",
+      "source": "English Heritage",
+      "url": "https://www.youtube.com/watch?v=6niBsMeNToo",
+      "note": "Quick, simple explainer of why the fighting started"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Horrible Histories - ’Orrible Oliver Cromwell",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=Zdail9OlUGc",
+      "note": "Short · funny sketch on the war’s winning general"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "English Civil War: Crash Course European History #14",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=dyk3bI_Y68Y",
+      "note": "Fast overview of the causes, the war, and its aftermath"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Rise of Cromwell - Marston Moor 1644 - English Civil War DOCUMENTARY",
+      "source": "Kings and Generals",
+      "url": "https://www.youtube.com/watch?v=PJ7VWqQwYag",
+      "note": "Animated battle maps of a turning-point battle (battle scenes)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "English Civil War facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/English_Civil_War",
+      "note": "Quick read: causes, major battles, key figures, and what changed afterward"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/English_Civil_War",
+  "qb": {
+    "q": "English Civil War",
+    "found": 2,
+    "tip": "Only 2 Middle School/Easy High School tossups exist; a difficulties=3 search adds 4 more Regular High School tossups with the same core clues (Naseby, Marston Moor, Pride’s Purge, the New Model Army)."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 real QBReader tossups (2 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The first major battle of this conflict, fought at Edgehill in 1642, ended without a clear winner on either side. This conflict began partly because the king at its center believed he answered only to God and could rule without Parliament’s consent.",
+      "r": "In 1649, that king was put on trial and executed. For 10 points, name this 17th-century English conflict."
+    },
+    {
+      "p": "Just before this conflict began, the king personally marched into the House of Commons to arrest five members of Parliament, who had already fled. Years of royal taxes like ship money, raised without Parliament’s approval, had already angered many of the king’s subjects.",
+      "r": "Parliament’s New Model Army later won this conflict at the Battle of Naseby. For 10 points, name this English war between king and Parliament."
+    },
+    {
+      "p": "Scotland’s Bishops’ Wars over a new prayer book forced the king to recall Parliament for money shortly before this conflict began. An eleven-year stretch of personal royal rule without Parliament came just before that.",
+      "r": "This conflict split the country into Roundheads and Cavaliers. For 10 points, name this 17th-century war that led to a king’s execution."
+    },
+    {
+      "p": "Royalist cavalry commander Prince Rupert of the Rhine surrendered the city of Bristol during this conflict, leading to his court-martial. Rupert’s own cavalry had earlier been routed by Oliver Cromwell’s horsemen at one battle in the north.",
+      "r": "This conflict eventually led to Oliver Cromwell ruling as Lord Protector. For 10 points, name this conflict between the king’s Cavaliers and Parliament’s Roundheads."
+    },
+    {
+      "p": "At one 1644 battle in this conflict, the Marquess of Newcastle’s “Whitecoats” infantry made a famous last stand after a long siege of the city of York. Prince Rupert commanded the king’s cavalry at that same battle, Marston Moor.",
+      "r": "During this conflict, the king was tried and executed in 1649. For 10 points, name this English war."
+    },
+    {
+      "p": "After his cavalry was outflanked at Marston Moor, Prince Rupert reportedly hid in a bean field to escape capture during this conflict. Later in this conflict, Pride’s Purge removed moderate members from the Long Parliament, leaving only a smaller “Rump Parliament.”",
+      "r": "Parliament’s New Model Army secured victory in this conflict. For 10 points, name this 17th-century English war."
+    },
+    {
+      "p": "A siege of a royal weapons store at Hull marked the opening moves of this conflict in 1642. Oliver Cromwell’s own disciplined cavalry regiment earned the nickname “Ironsides” during this conflict.",
+      "r": "It eventually pitted Roundheads against Cavaliers. For 10 points, name this English conflict that led to a king’s execution."
+    },
+    {
+      "p": "The king’s advisor Thomas Wentworth, Earl of Strafford, was executed for treason just before this conflict began, an attempt to calm tensions that failed. Years into this conflict, the Self-Denying Ordinance forced most sitting politicians to give up their military commands.",
+      "r": "One exception to that ordinance, Oliver Cromwell, helped win this conflict at the Battle of Naseby. For 10 points, name this English war."
+    },
+    {
+      "p": "Neutral local militias called Clubmen tried to protect their villages from both sides during this conflict. An eleven-year period without any Parliament at all, sometimes called the king’s “Personal Rule,” had helped cause this conflict.",
+      "r": "It eventually led to Oliver Cromwell ruling England as Lord Protector. For 10 points, name this 17th-century conflict."
+    },
+    {
+      "p": "Campaigns tied to this conflict included harsh sieges of the Irish towns of Wexford and Drogheda [“DRAH-ed-uh”] in 1649. A short second round of this conflict in 1648 included an invasion of England by Scottish “Engagers” on the king’s behalf.",
+      "r": "This conflict’s first round had already ended with the king’s defeat. For 10 points, name this English war that brought about King Charles the First’s execution."
+    },
+    {
+      "p": "Radical soldiers called Levellers argued for a wider right to vote during this conflict’s Putney Debates. Earlier, the Protestation of 1641 had members of Parliament swear to defend the Protestant religion and Parliament’s privileges, shortly before this conflict broke out.",
+      "r": "Parliament’s New Model Army decided this conflict at the Battle of Naseby. For 10 points, name this English war."
+    },
+    {
+      "p": "A third round of this conflict ended when Oliver Cromwell defeated the former king’s son at the Battle of Worcester in 1651. Nine years after that, the monarchy was restored and Charles the Second finally took the throne his father had lost.",
+      "r": "That father had been executed partway through this conflict. For 10 points, name this English war between Roundheads and Cavaliers."
+    },
+    {
+      "p": "This conflict’s opening moves included a siege of a weapons depot at Hull in 1642, before the first major battle at Edgehill ended in a draw. The king at the center of this conflict believed in his divine right to rule without Parliament’s consent.",
+      "r": "For 10 points, name this English conflict in which the New Model Army defeated the king’s Cavaliers."
+    },
+    {
+      "p": "Years of royal taxes raised without Parliament’s approval, like ship money, helped cause this conflict, as did a list of grievances called the Grand Remonstrance. The king at the center of this conflict also tried and failed to arrest five members of Parliament in person.",
+      "r": "This conflict led to that king’s execution in 1649. For 10 points, name this English war."
+    },
+    {
+      "p": "This conflict’s three rounds of fighting stretched from a draw at Edgehill in 1642 to Oliver Cromwell’s victory over the old king’s son at Worcester in 1651. In between, Parliament’s New Model Army won decisively at the Battle of Naseby.",
+      "r": "It ended the reign, and the life, of King Charles the First. For 10 points, name this 17th-century English war between Parliament and the crown."
+    }
+  ],
+  "clues": [
+    {
+      "id": "charles-execution",
+      "tier": "giveaway",
+      "t": "Led to the trial and execution of King Charles I in 1649",
+      "k": [
+        "charles i",
+        "execution",
+        "1649"
+      ],
+      "n": 3,
+      "rabbit": "Charles I"
+    },
+    {
+      "id": "lord-protector",
+      "tier": "giveaway",
+      "t": "Led to Oliver Cromwell ruling as Lord Protector during a break in the English monarchy",
+      "k": [
+        "oliver cromwell",
+        "lord protector"
+      ],
+      "n": 3,
+      "rabbit": "Oliver Cromwell"
+    },
+    {
+      "id": "new-model-army",
+      "tier": "giveaway",
+      "t": "Parliament’s New Model Army, built by Oliver Cromwell and Thomas Fairfax, won the fighting",
+      "k": [
+        "new model army",
+        "cromwell",
+        "fairfax"
+      ],
+      "n": 5
+    },
+    {
+      "id": "roundheads-cavaliers",
+      "tier": "giveaway",
+      "t": "Fought between Parliament’s Roundheads and the king’s Cavaliers",
+      "k": [
+        "roundheads",
+        "cavaliers"
+      ],
+      "n": 3
+    },
+    {
+      "id": "naseby",
+      "tier": "giveaway",
+      "t": "Decided largely by the New Model Army’s win at the Battle of Naseby (1645)",
+      "k": [
+        "naseby",
+        "1645"
+      ],
+      "n": 3
+    },
+    {
+      "id": "prides-purge",
+      "tier": "middle",
+      "t": "Pride’s Purge removed moderate members from the Long Parliament, leaving a smaller “Rump Parliament”",
+      "k": [
+        "prides purge",
+        "rump parliament",
+        "long parliament"
+      ],
+      "n": 4
+    },
+    {
+      "id": "prince-rupert",
+      "tier": "middle",
+      "t": "Royalist cavalry commander Prince Rupert of the Rhine, the king’s nephew, lost key battles and once hid in a bean field",
+      "k": [
+        "prince rupert",
+        "bean field"
+      ],
+      "n": 2,
+      "rabbit": "Prince Rupert"
+    },
+    {
+      "id": "marston-moor",
+      "tier": "middle",
+      "t": "Battle of Marston Moor (1644): a major Parliamentarian win in the north of England",
+      "k": [
+        "marston moor",
+        "1644"
+      ],
+      "n": 3
+    },
+    {
+      "id": "self-denying-ordinance",
+      "tier": "middle",
+      "t": "The Self-Denying Ordinance (1645) made politicians give up military commands, though Cromwell got an exemption",
+      "k": [
+        "self denying ordinance",
+        "exemption"
+      ],
+      "n": 1
+    },
+    {
+      "id": "siege-of-hull",
+      "tier": "middle",
+      "t": "The Siege of Hull (1642), over a royal weapons store, marked the conflict’s opening moves",
+      "k": [
+        "hull",
+        "siege of hull",
+        "1642"
+      ],
+      "n": 2
+    },
+    {
+      "id": "wexford-drogheda",
+      "tier": "middle",
+      "t": "Later campaigns in Ireland included harsh sieges of Wexford and Drogheda",
+      "k": [
+        "wexford",
+        "drogheda",
+        "ireland"
+      ],
+      "n": 1
+    },
+    {
+      "id": "putney-levellers",
+      "tier": "middle",
+      "t": "Radical soldiers called Levellers argued for a wider right to vote at the Putney Debates",
+      "k": [
+        "putney debates",
+        "levellers"
+      ],
+      "n": 1
+    },
+    {
+      "id": "strafford",
+      "tier": "middle",
+      "t": "The king’s advisor, Thomas Wentworth, Earl of Strafford, was executed just before the fighting began",
+      "k": [
+        "strafford",
+        "thomas wentworth"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ironsides",
+      "tier": "middle",
+      "t": "Cromwell’s own disciplined cavalry regiment earned the nickname “Ironsides”",
+      "k": [
+        "ironsides"
+      ],
+      "n": 1
+    },
+    {
+      "id": "edgehill",
+      "tier": "power",
+      "t": "The first major battle, at Edgehill (1642), ended without a clear winner",
+      "k": [
+        "edgehill",
+        "1642"
+      ],
+      "n": 0
+    },
+    {
+      "id": "divine-right",
+      "tier": "power",
+      "t": "Fought partly because the king believed in his divine right to rule without Parliament’s consent",
+      "k": [
+        "divine right"
+      ],
+      "n": 0
+    },
+    {
+      "id": "five-members",
+      "tier": "power",
+      "t": "The king’s failed attempt to personally arrest five members of Parliament helped trigger the fighting",
+      "k": [
+        "five members",
+        "arrest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ship-money",
+      "tier": "power",
+      "t": "Royal taxes like ship money, raised without Parliament’s approval, were a major grievance beforehand",
+      "k": [
+        "ship money",
+        "taxes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bishops-wars",
+      "tier": "power",
+      "t": "Scotland’s Bishops’ Wars over a new prayer book forced the king to recall Parliament for money",
+      "k": [
+        "bishops wars",
+        "prayer book"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eleven-years-tyranny",
+      "tier": "power",
+      "t": "An eleven-year stretch of “Personal Rule” without any Parliament at all came just before the fighting started",
+      "k": [
+        "eleven years",
+        "personal rule"
+      ],
+      "n": 1
+    },
+    {
+      "id": "clubmen",
+      "tier": "power",
+      "t": "Neutral local militias called Clubmen tried to protect their areas from both armies",
+      "k": [
+        "clubmen"
+      ],
+      "n": 1
+    },
+    {
+      "id": "engagers-second-war",
+      "tier": "power",
+      "t": "Scottish “Engagers” invaded England on the king’s behalf during a short second round of fighting in 1648",
+      "k": [
+        "engagers",
+        "1648"
+      ],
+      "n": 1
+    },
+    {
+      "id": "worcester-1651",
+      "tier": "power",
+      "t": "Cromwell beat the former king’s son at the Battle of Worcester (1651), ending a third round of fighting",
+      "k": [
+        "worcester",
+        "1651"
+      ],
+      "n": 0,
+      "rabbit": "Charles II"
+    },
+    {
+      "id": "restoration",
+      "tier": "power",
+      "t": "The monarchy returned in 1660 when Charles II took the throne, ending the republic",
+      "k": [
+        "restoration",
+        "1660"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "A war, not a person",
+    "body": "Real tossups spend most of their clues on Charles I and Oliver Cromwell, but “name this conflict” wants the war itself, not either man. Don’t confuse this war with the later, mostly bloodless Glorious Revolution (1688), which removed a different king (James II), or with the much earlier Wars of the Roses, another English civil war fought more than a century earlier over the crown itself.",
+    "fix": "“Name this conflict” or “this war” wants the English Civil War. “Name this king” wants Charles I; “name this general” or “this Lord Protector” wants Oliver Cromwell. Naseby and Marston Moor are battles within it, not the war’s own name.",
+    "line": "Real answer line: <b><u>English Civil War</u></b>"
+  },
+  "freq": {
+    "rank": 35,
+    "count": 3,
+    "list": "European History"
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "id": "charlemagne",
+  "name": "Charlemagne",
+  "mono": "CM",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Frankish king crowned emperor in 800 · United much of Western Europe",
+  "dates": "c. 748–814",
+  "briefing": "Charlemagne spent over four decades on horseback, conquering the Lombards in Italy, the Saxons in the north, and other peoples until he ruled most of Western Europe. On Christmas Day in the year 800, Pope Leo III crowned him emperor in Rome, the first time anyone had held that title in the West since Rome fell. At his court in Aachen, scholars like Einhard and Alcuin of York launched a revival of learning now called the Carolingian Renaissance.",
+  "answerHtml": "<b><u>Charlemagne</u></b> (or <u>Charles the Great</u>, <u>Carolus Magnus</u>, or <u>Charles I</u>; prompt on <u>Charles</u>; do not accept or prompt on “Charles Martel”)",
+  "accept": [
+    "charlemagne",
+    "charles the great",
+    "carolus magnus",
+    "charles i",
+    "karl der grosse",
+    "charles the first"
+  ],
+  "prompt": [
+    "charles"
+  ],
+  "reject": [
+    "charles martel",
+    "charles the hammer",
+    "pepin the short",
+    "pepin",
+    "louis the pious",
+    "charles the bald",
+    "otto i",
+    "otto the great",
+    "holy roman empire",
+    "clovis",
+    "attila the hun",
+    "attila",
+    "charles v",
+    "king charles"
+  ],
+  "tests": {
+    "right": [
+      "Charlemagne",
+      "Charles the Great",
+      "Carolus Magnus",
+      "Charlemane",
+      "Charles I"
+    ],
+    "prompt": [
+      "Charles"
+    ],
+    "wrong": [
+      "Charles Martel",
+      "Pepin the Short",
+      "Otto the Great",
+      "Louis the Pious",
+      "Attila the Hun"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Charlemagne For Kids",
+      "source": "Bedtime History",
+      "url": "https://www.youtube.com/watch?v=ygW2TWlSrmg",
+      "note": "Short · simple kid-friendly rundown of his life"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Who Was Charlemagne? | The King Who United Europe",
+      "source": "PastPorts Kids",
+      "url": "https://www.youtube.com/watch?v=fpoNh5MqDJc",
+      "note": "Short · his rise, his empire, and his crowning as emperor"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Einhard's Life of Charlemagne",
+      "source": "Study of Antiquity and the Middle Ages",
+      "url": "https://www.youtube.com/watch?v=XdNI2xQop20",
+      "note": "A closer look at Einhard’s own biography of him, the source for many real clues"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Collapse of the Carolingian Empire - Echoes of History",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=mZ1jkjfRKJM",
+      "note": "What happened to his empire after his death, including the Treaty of Verdun"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Charlemagne - Biography",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/charlemagne.php",
+      "note": "Quick read: his conquests, coronation, and the Carolingian Renaissance"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Charlemagne",
+  "qb": {
+    "q": "Charlemagne",
+    "found": 5,
+    "tip": "All five results here are genuinely about Charlemagne — a short, clean search; just notice that one real answer line specifically warns not to accept his grandfather, Charles Martel, instead."
+  },
+  "sample": {
+    "n": 5,
+    "note": "all 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This ruler besieged and captured Pavia [“PAH-vee-ah”] in 774, deposing the Lombard king Desiderius [“deh-sih-DAIR-ee-us”] and adding northern Italy to his realm. He had already begun a decades-long series of campaigns against the pagan Saxons in what is now northern Germany.",
+      "r": "For 10 points, name this Frankish king who was crowned Emperor of the Romans by Pope Leo III in the year 800."
+    },
+    {
+      "p": "The Abbasid caliph Harun al-Rashid [“hah-ROON al-rah-SHEED”] once sent this ruler an elephant named Abul-Abbas and an elaborate water clock as diplomatic gifts. This ruler’s rear guard, which included the commander Roland, was ambushed by Basque fighters at Roncevaux Pass [“ron-suh-VOH”] in 778, an event later mythologized in the _Song of Roland_.",
+      "r": "For 10 points, name this Frankish king who united much of Western Europe and was crowned emperor in Rome on Christmas Day, 800."
+    },
+    {
+      "p": "This ruler’s rear guard was wiped out by Basque raiders at Roncevaux Pass in 778 while returning from a campaign in Spain, a defeat that medieval poets later reimagined as a last stand against Muslim armies in the _Song of Roland_.",
+      "r": "For 10 points, name this Frankish king, crowned Emperor of the Romans in 800, whose nephew Roland supposedly died at Roncevaux."
+    },
+    {
+      "p": "This ruler’s friend and court scholar Einhard wrote an admiring biography of him, modeled on the style of ancient Roman biographies. Scholars such as Einhard and Alcuin of York gathered at this ruler’s palace school in Aachen, sparking a revival of learning and Latin scholarship.",
+      "r": "Historians call that revival a “Renaissance” named for this ruler’s dynasty. For 10 points, name this Frankish king, inspiration for the Carolingian Renaissance."
+    },
+    {
+      "p": "This ruler invited the English scholar Alcuin of York [“AL-kwin”] to run the palace school at his capital, Aachen [“AH-ken”], helping spark a revival of Latin learning and manuscript copying. This ruler could reportedly read but never learned to write well himself.",
+      "r": "For 10 points, name this Frankish king and Carolingian Renaissance patron who was crowned Emperor of the Romans in 800."
+    },
+    {
+      "p": "This ruler’s grandfather, Charles Martel [“mar-TEL”], had turned back a Muslim army at the Battle of Tours but never claimed a royal title for himself. This ruler, by contrast, accepted the title of emperor from the pope.",
+      "r": "For 10 points, name this grandson of Charles Martel who united the Franks and was crowned Emperor of the Romans in 800."
+    },
+    {
+      "p": "This ruler’s father, Pepin the Short, had become the first Carolingian king of the Franks by deposing the last of the “do-nothing” Merovingian kings with the pope’s blessing. This ruler inherited that throne and then expanded it dramatically.",
+      "r": "For 10 points, name this son of Pepin the Short who conquered the Lombards and Saxons and was crowned emperor in Rome."
+    },
+    {
+      "p": "This ruler briefly shared the Frankish throne with his younger brother Carloman after their father’s death, until Carloman died just three years later and left this ruler sole king. Some accounts suggest the brothers were on the edge of civil war when that death occurred.",
+      "r": "For 10 points, name this Frankish king who then ruled alone for over 40 years and was crowned Emperor of the Romans in 800."
+    },
+    {
+      "p": "This ruler spent more than thirty years fighting the pagan Saxons in brutal campaigns across northern Germany, at one point reportedly ordering the execution of thousands of Saxon prisoners at Verden. He eventually forced the Saxons to convert to Christianity.",
+      "r": "For 10 points, name this Frankish king who also conquered the Lombards in Italy and was crowned emperor by the pope in 800."
+    },
+    {
+      "p": "Beyond Italy and Saxony, this ruler’s armies also conquered Bavaria and pushed Frankish control south of the Pyrenees into a buffer zone of northern Spain called the Spanish March. His empire eventually stretched across most of Western Europe.",
+      "r": "For 10 points, name this Frankish king who was crowned Emperor of the Romans by Pope Leo III in 800."
+    },
+    {
+      "p": "After this ruler’s death, his empire passed whole to his one surviving legitimate son, Louis the Pious, but Louis’s own three sons later split it into three kingdoms at the Treaty of Verdun in 843. Two of those kingdoms roughly became the later France and Germany.",
+      "r": "For 10 points, name this grandfather of the quarreling princes, a Frankish king crowned Emperor of the Romans in 800."
+    },
+    {
+      "p": "According to his biographer Einhard, this ruler was genuinely surprised when Pope Leo III placed a crown on his head while he knelt in prayer at Old St. Peter’s Basilica, though many historians doubt the coronation was really a surprise.",
+      "r": "That coronation happened on Christmas Day in the year 800. For 10 points, name this Frankish king who became the first emperor crowned in the West in centuries."
+    },
+    {
+      "p": "This ruler built a favorite palace at Aachen, a city known for its hot springs, where he was later buried in the cathedral he had built there. He also ordered the construction of a canal, the Fossa Carolina, meant to link the Rhine and Danube river systems.",
+      "r": "For 10 points, name this Frankish king and emperor whose palace chapel at Aachen still stands today."
+    },
+    {
+      "p": "This ruler introduced a new silver-based currency system across his realm, along with standard weights and measures, to make trade easier between his many conquered territories. He also pushed bishops and monasteries to open schools for ordinary clergy, not just nobles.",
+      "r": "For 10 points, name this Frankish king and economic reformer who was crowned Emperor of the Romans in 800."
+    },
+    {
+      "p": "This ruler is sometimes nicknamed the “Father of Europe” for uniting so much of the continent under Frankish rule, even though he himself reportedly never mastered writing. Later rulers of both France and the Holy Roman Empire traced their legitimacy back to him.",
+      "r": "For 10 points, name this Frankish king, crowned Emperor of the Romans by Pope Leo III in the year 800."
+    }
+  ],
+  "clues": [
+    {
+      "id": "crowned-emperor-800",
+      "tier": "giveaway",
+      "t": "Crowned Emperor of the Romans by Pope Leo III on Christmas Day, 800 CE, in Rome",
+      "k": [
+        "pope leo iii",
+        "christmas day",
+        "emperor of the romans"
+      ],
+      "n": 5,
+      "rabbit": "Holy Roman Empire"
+    },
+    {
+      "id": "king-of-franks",
+      "tier": "giveaway",
+      "t": "King of the Franks who united most of Western Europe for the first time since Rome fell",
+      "k": [
+        "king of the franks",
+        "united",
+        "western europe"
+      ],
+      "n": 2
+    },
+    {
+      "id": "carolingian-renaissance",
+      "tier": "giveaway",
+      "t": "Sparked a revival of learning at his court in Aachen known as the Carolingian Renaissance",
+      "k": [
+        "carolingian renaissance",
+        "aachen",
+        "revival of learning"
+      ],
+      "n": 2
+    },
+    {
+      "id": "einhard-biography",
+      "tier": "giveaway",
+      "t": "His friend and court scholar Einhard wrote an admiring biography of him, modeled on ancient Roman biographies",
+      "k": [
+        "einhard",
+        "biography",
+        "roman biographies"
+      ],
+      "n": 4
+    },
+    {
+      "id": "lombards-pavia",
+      "tier": "middle",
+      "t": "Defeated the Lombard king Desiderius at the Siege of Pavia (774) to become King of the Lombards",
+      "k": [
+        "desiderius",
+        "pavia",
+        "lombards"
+      ],
+      "n": 4
+    },
+    {
+      "id": "alcuin-york",
+      "tier": "middle",
+      "t": "Invited the English scholar Alcuin of York to run his palace school at Aachen",
+      "k": [
+        "alcuin of york",
+        "alcuin",
+        "palace school"
+      ],
+      "n": 3,
+      "rabbit": "Alcuin of York"
+    },
+    {
+      "id": "father-pepin",
+      "tier": "middle",
+      "t": "Son of Pepin the Short, who had founded the Carolingian dynasty",
+      "k": [
+        "pepin the short",
+        "carolingian dynasty",
+        "son"
+      ],
+      "n": 2,
+      "rabbit": "Pepin the Short"
+    },
+    {
+      "id": "grandfather-martel",
+      "tier": "middle",
+      "t": "Grandson of Charles Martel, the Frankish leader who won the Battle of Tours",
+      "k": [
+        "charles martel",
+        "battle of tours",
+        "grandson"
+      ],
+      "n": 3,
+      "rabbit": "Charles Martel"
+    },
+    {
+      "id": "treaty-of-verdun",
+      "tier": "middle",
+      "t": "After his death, his empire eventually split among his grandsons under the Treaty of Verdun (843)",
+      "k": [
+        "treaty of verdun",
+        "grandsons",
+        "843"
+      ],
+      "n": 1
+    },
+    {
+      "id": "saxon-wars",
+      "tier": "middle",
+      "t": "Spent over 30 years conquering the pagan Saxons in long, brutal campaigns in northern Germany",
+      "k": [
+        "saxons",
+        "pagan",
+        "northern germany"
+      ],
+      "n": 1
+    },
+    {
+      "id": "harun-al-rashid",
+      "tier": "middle",
+      "t": "Exchanged gifts with the Abbasid caliph Harun al-Rashid, who sent him an elephant and a water clock",
+      "k": [
+        "harun al-rashid",
+        "elephant",
+        "water clock"
+      ],
+      "n": 1
+    },
+    {
+      "id": "roncevaux-roland",
+      "tier": "power",
+      "t": "His rear guard was ambushed by Basques at Roncevaux Pass, an event later mythologized in the _Song of Roland_",
+      "k": [
+        "roncevaux pass",
+        "song of roland",
+        "basques"
+      ],
+      "n": 2
+    },
+    {
+      "id": "einhard-elopement",
+      "tier": "power",
+      "t": "According to a later legend, his biographer Einhard secretly married one of his daughters",
+      "k": [
+        "secretly married",
+        "daughters",
+        "legend"
+      ],
+      "n": 1
+    },
+    {
+      "id": "carloman-brother",
+      "tier": "power",
+      "t": "Briefly co-ruled the Franks with his brother Carloman before Carloman’s early death left him sole king",
+      "k": [
+        "carloman",
+        "co-ruled",
+        "sole king"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bavaria-spain",
+      "tier": "power",
+      "t": "Also conquered Bavaria and pushed Frankish control into a buffer zone of northern Spain",
+      "k": [
+        "bavaria",
+        "northern spain",
+        "buffer zone"
+      ],
+      "n": 1
+    },
+    {
+      "id": "illiterate-education",
+      "tier": "power",
+      "t": "Reportedly never learned to write well himself, even though he pushed hard for others’ education",
+      "k": [
+        "never learned to write",
+        "education",
+        "reportedly"
+      ],
+      "n": 1
+    },
+    {
+      "id": "monetary-reform",
+      "tier": "power",
+      "t": "Introduced a new silver-based currency standard and standard weights and measures across his empire",
+      "k": [
+        "silver-based currency",
+        "weights and measures",
+        "standard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aachen-capital",
+      "tier": "power",
+      "t": "Made the city of Aachen, famous for its hot springs, his favorite residence and capital",
+      "k": [
+        "aachen",
+        "hot springs",
+        "capital"
+      ],
+      "n": 1
+    },
+    {
+      "id": "louis-the-pious",
+      "tier": "power",
+      "t": "Left his empire to his only surviving legitimate son, Louis the Pious",
+      "k": [
+        "louis the pious",
+        "only surviving son",
+        "legitimate"
+      ],
+      "n": 0,
+      "rabbit": "Louis the Pious"
+    },
+    {
+      "id": "father-of-europe",
+      "tier": "power",
+      "t": "Later nicknamed the “Father of Europe” for uniting so much of the continent under one ruler",
+      "k": [
+        "father of europe",
+        "nicknamed",
+        "uniting"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Charlemagne, not his family",
+    "body": "Charlemagne’s own family tree is full of quiz bowl traps: his grandfather Charles Martel won the Battle of Tours but was never king; his father Pepin the Short founded the Carolingian dynasty; and his son Louis the Pious inherited the whole empire, which Louis’s own sons later split up at the Treaty of Verdun. Real answer lines accept “Charles I” for Charlemagne but specifically warn against accepting “Charles Martel” instead. Historians also usually date the formal “Holy Roman Empire” from Otto the Great’s coronation in 962, more than a century after Charlemagne’s own crowning as emperor in 800.",
+    "fix": "Pavia, the Lombards, Aachen, Einhard, Alcuin, and a coronation by Pope Leo III on Christmas Day 800 mean Charlemagne. Tours and “the Hammer” mean Charles Martel; the Treaty of Verdun and squabbling grandsons mean Louis the Pious’s sons; Otto the Great starts the usual timeline for the Holy Roman Empire.",
+    "line": "Real answer line: <b><u>Charlemagne</u></b> (or <u>Charles the Great</u>, <u>Carolus Magnus</u>, or <u>Charles I</u>; prompt on <u>Charles</u>; do NOT accept or prompt on “Charles Martel”)"
+  },
+  "freq": {
+    "rank": 4,
+    "count": 8,
+    "list": "European History"
+  }
+}

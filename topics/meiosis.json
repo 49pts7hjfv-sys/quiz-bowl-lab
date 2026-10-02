@@ -1,0 +1,368 @@
+{
+  "id": "meiosis",
+  "name": "Meiosis",
+  "mono": "MEI",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Cell division that halves the chromosome number · Creates sperm and eggs",
+  "dates": "Happens during the formation of every sperm and egg cell",
+  "briefing": "Meiosis is the special kind of cell division that creates sperm and egg cells, the body’s sex cells. Unlike ordinary cell division, meiosis divides twice in a row and shuffles genetic material between matching chromosome pairs through crossing over, so the four cells it produces each end up with only half the usual number of chromosomes and a unique genetic mix. That reduction is essential, since fertilization later fuses two of these cells back into a full set.",
+  "answerHtml": "<b><u>Meiosis</u></b> (accept meiosis I or meiosis II; prompt on <u>cell division</u>, <u>oogenesis</u>, or <u>spermatogenesis</u>; do not accept “mitosis”)",
+  "accept": [
+    "meiosis",
+    "meiosis i",
+    "meiosis ii",
+    "meiosis 1",
+    "meiosis 2"
+  ],
+  "prompt": [
+    "cell division",
+    "cell cycle",
+    "oogenesis",
+    "spermatogenesis"
+  ],
+  "reject": [
+    "mitosis",
+    "chromosomes"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Meiosis (UPDATED 2026)",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=I-sucvMV0Ng",
+      "note": "Cartoon walk-through of meiosis I and II, which make gametes with half the chromosomes"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mitosis vs. Meiosis: Side by Side Comparison",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=zrKdz93WlVk",
+      "note": "Side-by-side comparison so you never mix up mitosis and meiosis"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Meiosis: Why Are All Humans Unique?: Crash Course Biology #30",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=pj1oFx42d48",
+      "note": "How crossing over and shuffling chromosomes make everyone unique"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Meiosis",
+      "source": "Bozeman Science",
+      "url": "https://www.youtube.com/watch?v=rB_8dTuh73c",
+      "note": "Teacher Paul Andersen’s detailed tour of the phases of meiosis"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Meiosis facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Meiosis",
+      "note": "Kid-friendly read on the two divisions of meiosis and why the chromosome number is cut in half"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Meiosis",
+  "qb": {
+    "q": "meiosis",
+    "found": 5,
+    "tip": "The Middle School/Easy High School search returns 5 tossups, but 2 of them are actually mitosis tossups that only mention this process in a reject clause; a difficulty=3 retry supplied 6 more clearly relevant Regular High School tossups (out of 11 raw results, 5 of which were likewise mitosis tossups and were excluded)."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups for this answer line (3 Middle School/Easy High School + 6 Regular High School, power-marked, after excluding mitosis tossups that only mentioned it in passing)"
+  },
+  "tossups": [
+    {
+      "p": "Polydactyly caused by Patau syndrome can result from an error during this process, and a Robertsonian translocation, in which two whole chromosomes fuse together, can likewise occur as a mistake during it. A failure of chromosomes to separate properly during it is called nondisjunction.",
+      "r": "This process shuffles genetic material through crossing over at X-shaped points called chiasmata. For 10 points, name this form of cell division that produces four haploid daughter cells."
+    },
+    {
+      "p": "In some species, parthenogenesis lets an egg develop without ever needing a sperm cell from this process to fertilize it. In frogs, a protein called cytostatic factor halts this process partway through, holding an egg cell in place until fertilization finally arrives.",
+      "r": "Homologous chromosomes pair up and swap segments of DNA during this process, boosting genetic diversity. For 10 points, name this type of division that creates sperm and egg cells."
+    },
+    {
+      "p": "German biologist Oskar Hertwig first described this process in 1876 while studying the eggs of sea urchins. In male mammals, it takes place inside the seminiferous tubules of the testes.",
+      "r": "It unfolds in two separate rounds of division, with a short pause called interkinesis in between. For 10 points, name this process that halves a cell’s chromosome number to make gametes."
+    },
+    {
+      "p": "A guardian protein called shugoshin protects a ring-shaped protein called cohesin from being cut apart too early during this process’s first division. The coefficient of coincidence is used to measure how interference reduces the rate of crossing over during it.",
+      "r": "Homologous chromosome pairs line up and exchange material at chiasmata. For 10 points, name this cell division that produces four genetically unique cells with half the usual chromosome number."
+    },
+    {
+      "p": "Four-stranded DNA structures called Holliday junctions form temporarily as chromosomes exchange material during this process. Its long first stage unfolds through leptotene, zygotene, pachytene, diplotene, and diakinesis sub-stages before the chromosomes finally separate.",
+      "r": "Nondisjunction, an error during this process, can lead to conditions such as Down syndrome. For 10 points, name this process that produces sperm and egg cells."
+    },
+    {
+      "p": "Nondisjunction, an error during this process, can cause Turner syndrome, Klinefelter syndrome, or Down syndrome depending on which chromosome pair fails to separate properly. A zipper-like structure called the synaptonemal complex holds paired homologous chromosomes together beforehand.",
+      "r": "It produces four genetically unique daughter cells, each with half the usual number of chromosomes. For 10 points, name this type of cell division that creates gametes."
+    },
+    {
+      "p": "During this process’s zygotene stage, a zipper-like synaptonemal complex assembles to hold homologous chromosomes together. In human females, it produces one usable egg cell plus two or three tiny, nonfunctional polar bodies.",
+      "r": "Chromosomes swap segments of DNA in a process called crossing over, increasing genetic diversity. For 10 points, name this cell division that produces sperm and egg cells."
+    },
+    {
+      "p": "In human egg cells, this process can leave behind up to three tiny, nonfunctional polar bodies alongside the one cell that becomes a usable egg. This process never occurs in bacteria, which lack a nucleus and reproduce asexually instead.",
+      "r": "It takes place in two separate rounds of division, with a short pause called interkinesis in between. For 10 points, name this process that halves the chromosome number to form gametes."
+    },
+    {
+      "p": "During this process’s diplotene stage, the synaptonemal complex breaks back apart, while during its diakinesis stage the paired chromosomes, or tetrads, become clearly visible under a microscope. The haploid cells it produces must later fuse with another haploid cell at fertilization to restore a full set of chromosomes.",
+      "r": "Homologous chromosomes exchange material at chiasmata during crossing over. For 10 points, name this cell division that produces four cells with half the usual chromosome number."
+    },
+    {
+      "p": "This type of division never occurs in bacteria, which reproduce asexually instead, and an error in it called nondisjunction can cause extra fingers or toes through Patau syndrome. A Robertsonian translocation, where two whole chromosomes become fused, is another possible mistake during it.",
+      "r": "It involves two separate rounds of division, with a short pause called interkinesis in between. For 10 points, name this process that creates sperm and egg cells."
+    },
+    {
+      "p": "In frogs, a protein called cytostatic factor arrests this process partway through until fertilization occurs, and a Robertsonian translocation, in which two whole chromosomes fuse together, can occur as an error during it. Parthenogenesis offers some species a way to reproduce without ever completing the usual fertilization step afterward.",
+      "r": "This process produces four daughter cells, each haploid, with only half the usual chromosome number. For 10 points, name this cell division that creates gametes."
+    },
+    {
+      "p": "This process takes place inside the seminiferous tubules of the testes in male mammals, and it was first described in 1876 by German biologist Oskar Hertwig, who studied the eggs of sea urchins. A zipper-like synaptonemal complex holds homologous chromosomes together during an early stage of it.",
+      "r": "Crossing over at chiasmata shuffles genetic material between homologous chromosomes. For 10 points, name this process that halves the chromosome number to produce gametes."
+    },
+    {
+      "p": "The coefficient of coincidence measures how much interference reduces crossing over during this process, while a guardian protein called shugoshin protects cohesin from being cut apart too early during its first division. Four-stranded Holliday junctions briefly form as chromosomes trade material during it.",
+      "r": "Nondisjunction, an error in this process, can cause Down, Turner, or Klinefelter syndrome. For 10 points, name this cell division that produces sperm and egg cells."
+    },
+    {
+      "p": "Four-stranded Holliday junctions briefly form as homologous chromosomes trade material during this process, and nondisjunction, an error during it, can cause Down syndrome or Turner syndrome. Its long first stage passes through leptotene, zygotene, pachytene, diplotene, and diakinesis sub-stages.",
+      "r": "It produces four genetically unique daughter cells with half the usual chromosome number. For 10 points, name this process that creates sperm and egg cells."
+    },
+    {
+      "p": "The haploid cells produced by this process must fuse with another haploid cell at fertilization to rebuild a full set of chromosomes, and a zipper-like synaptonemal complex holds homologous chromosomes together during an early stage of it. This process never occurs in bacteria, which reproduce asexually instead.",
+      "r": "Chromosomes swap segments of DNA at chiasmata in a process called crossing over. For 10 points, name this cell division that produces four haploid gametes."
+    }
+  ],
+  "clues": [
+    {
+      "id": "four-haploid-cells",
+      "tier": "giveaway",
+      "t": "Produces four genetically unique daughter cells, each with only half the usual number of chromosomes",
+      "k": [
+        "four",
+        "half",
+        "chromosomes"
+      ],
+      "n": 3
+    },
+    {
+      "id": "gametes",
+      "tier": "giveaway",
+      "t": "These daughter cells become gametes, the sperm or egg cells used in sexual reproduction",
+      "k": [
+        "gametes",
+        "sperm",
+        "egg"
+      ],
+      "n": 2
+    },
+    {
+      "id": "two-divisions",
+      "tier": "giveaway",
+      "t": "Involves two rounds of division, with a short pause called interkinesis in between, rather than just one round",
+      "k": [
+        "two rounds",
+        "interkinesis"
+      ],
+      "n": 2
+    },
+    {
+      "id": "crossing-over",
+      "tier": "giveaway",
+      "t": "Homologous chromosomes pair up and swap segments of DNA at X-shaped points called chiasmata, a process called crossing over that boosts genetic diversity",
+      "k": [
+        "crossing over",
+        "chiasmata",
+        "homologous"
+      ],
+      "n": 7
+    },
+    {
+      "id": "nondisjunction",
+      "tier": "middle",
+      "t": "An error in this process called nondisjunction, when chromosomes fail to separate, can cause Down, Turner, and Klinefelter syndromes",
+      "k": [
+        "nondisjunction",
+        "down syndrome"
+      ],
+      "n": 4
+    },
+    {
+      "id": "synaptonemal-complex",
+      "tier": "middle",
+      "t": "A zipper-like structure called the synaptonemal complex holds paired homologous chromosomes together before they swap material",
+      "k": [
+        "synaptonemal complex"
+      ],
+      "n": 3
+    },
+    {
+      "id": "polar-bodies",
+      "tier": "middle",
+      "t": "In human egg cells, this process produces one usable egg plus two or three tiny, nonfunctional polar bodies",
+      "k": [
+        "polar bodies"
+      ],
+      "n": 3
+    },
+    {
+      "id": "prophase-i-substages",
+      "tier": "middle",
+      "t": "Its long first stage unfolds through leptotene, zygotene, pachytene, diplotene, and diakinesis sub-stages before division finishes",
+      "k": [
+        "pachytene",
+        "zygotene",
+        "diplotene"
+      ],
+      "n": 4
+    },
+    {
+      "id": "homologous-pairs",
+      "tier": "middle",
+      "t": "Only possible in cells with matching pairs of homologous chromosomes, one inherited from each parent, to swap and sort",
+      "k": [
+        "homologous chromosomes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bacteria-exception",
+      "tier": "middle",
+      "t": "Never occurs in bacteria, which lack a nucleus and reproduce asexually instead",
+      "k": [
+        "bacteria",
+        "asexually"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fertilization-restores",
+      "tier": "middle",
+      "t": "The haploid cells this process produces must fuse with another haploid cell at fertilization to restore the full chromosome number",
+      "k": [
+        "fertilization",
+        "haploid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "patau-polydactyly",
+      "tier": "power",
+      "t": "Patau syndrome, which can cause extra fingers or toes, can result from a nondisjunction error during this process",
+      "k": [
+        "patau syndrome",
+        "polydactyly"
+      ],
+      "n": 2
+    },
+    {
+      "id": "robertsonian-translocation",
+      "tier": "power",
+      "t": "A Robertsonian translocation, where two whole chromosomes fuse together, can occur as an error during this process",
+      "k": [
+        "robertsonian translocation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "parthenogenesis",
+      "tier": "power",
+      "t": "In some species, parthenogenesis allows an egg to develop without ever being fertilized, skipping the usual next step after this process",
+      "k": [
+        "parthenogenesis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cytostatic-factor",
+      "tier": "power",
+      "t": "In frogs, a protein called cytostatic factor halts this process partway through until fertilization finally occurs",
+      "k": [
+        "cytostatic factor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "oskar-hertwig",
+      "tier": "power",
+      "t": "German biologist Oskar Hertwig first described this process in 1876 while studying the eggs of sea urchins",
+      "k": [
+        "oskar hertwig",
+        "sea urchins"
+      ],
+      "n": 1
+    },
+    {
+      "id": "seminiferous-tubules",
+      "tier": "power",
+      "t": "In male mammals, this process takes place inside the seminiferous tubules of the testes",
+      "k": [
+        "seminiferous tubules"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shugoshin-cohesin",
+      "tier": "power",
+      "t": "A guardian protein called shugoshin protects a protein called cohesin from being cut apart too early during this process’s first division",
+      "k": [
+        "shugoshin",
+        "cohesin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "coefficient-coincidence",
+      "tier": "power",
+      "t": "The coefficient of coincidence is used to measure how much interference reduces the rate of crossing over during this process",
+      "k": [
+        "coefficient of coincidence"
+      ],
+      "n": 1
+    },
+    {
+      "id": "holliday-junctions",
+      "tier": "power",
+      "t": "Four-stranded DNA structures called Holliday junctions form temporarily as chromosomes exchange material during this process",
+      "k": [
+        "holliday junctions"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "This process, or mitosis?",
+    "body": "Mitosis is the other major type of cell division, and the two are constantly mixed up: mitosis makes two identical daughter cells for growth and repair, while this process makes four genetically varied cells with half the chromosome number, for sexual reproduction. Several real tossups explicitly say not to accept or prompt on “mitosis.” Naming the chromosomes themselves, rather than the division process that sorts them, is also marked wrong.",
+    "fix": "If the clues mention two identical daughter cells, growth, repair, or ordinary body cells, that is mitosis. If the clues mention gametes, haploid cells, crossing over, chiasmata, or a reduction in chromosome number, that is this process.",
+    "line": "Real answer line: <b><u>Meiosis</u></b> [do not accept or prompt on “mitosis”; accept Meiosis I or Meiosis II]."
+  },
+  "tests": {
+    "right": [
+      "Meiosis",
+      "meiosis",
+      "Meosis",
+      "Meiosis II"
+    ],
+    "prompt": [
+      "Cell division",
+      "Oogenesis"
+    ],
+    "wrong": [
+      "Mitosis",
+      "Chromosomes",
+      "Fertilization",
+      "Nondisjunction"
+    ]
+  },
+  "freq": {
+    "rank": 13,
+    "count": 5,
+    "list": "Biology"
+  }
+}

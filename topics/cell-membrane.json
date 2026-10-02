@@ -1,0 +1,391 @@
+{
+  "id": "cell-membrane",
+  "name": "Cell membrane",
+  "mono": "CMB",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Every cell’s flexible boundary · Controls what enters and exits",
+  "dates": "Present in every living cell",
+  "briefing": "The cell membrane is a thin, flexible boundary that wraps every living cell, built mainly from phospholipids whose water-loving heads face out and water-fearing tails tuck inside to form a double layer. Scientists call this arrangement the fluid mosaic model, since proteins float and drift through the lipid layer like tiles in a shifting mosaic. This membrane decides exactly which molecules may enter or leave the cell, using pumps, channels, and tiny pores called aquaporins.",
+  "answerHtml": "<b><u>Cell membrane</u></b> (or plasma membrane; prompt on membrane)",
+  "accept": [
+    "cell membrane",
+    "plasma membrane"
+  ],
+  "prompt": [
+    "membrane"
+  ],
+  "reject": [
+    "cell wall"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Inside the Cell Membrane",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=qBCVVszQQNs",
+      "note": "Cartoon tour of the phospholipid bilayer and the proteins in it"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cell Transport",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=Ptmlvtei8hw",
+      "note": "How things cross the membrane: diffusion, osmosis, and active transport"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cell Membrane | Cell: The Unit of Life",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=Rwa8ynMf5WM",
+      "note": "Lesson on the membrane’s lipid bilayer structure and what it does"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cell Membranes: How Does Stuff Get Into Your Cells?: Crash Course Biology #24",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=9Ia8zH-qMZw",
+      "note": "Newer Crash Course on how the membrane decides what gets in and out"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "In Da Club - Membranes & Transport: Crash Course Biology #5",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=dPKvHrD1eS4",
+      "note": "Classic Crash Course on membrane structure plus passive and active transport"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Cell membrane facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Cell_membrane",
+      "note": "Kid-friendly read on what the membrane is made of, the fluid mosaic model, and its jobs"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Cell_membrane",
+  "qb": {
+    "q": "cell membrane",
+    "found": 8,
+    "tip": "All 8 Middle School/Easy High School tossups share the same core clue set (fluid mosaic model, phospholipid bilayer, cholesterol); three explicitly warn not to accept or prompt on “cell wall.”"
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Malfunctioning chloride ion channels built into this structure cause the thick mucus of cystic fibrosis. Just inside it, a mesh of actin filaments called the cortex adds support, and its flexibility lets red blood cells squeeze through narrow capillaries.",
+      "r": "Cholesterol wedged between its phospholipids keeps this structure fluid rather than stiff. For 10 points, name this boundary, built from a phospholipid bilayer, that surrounds every living cell."
+    },
+    {
+      "p": "In plant cells, hydrogen ions pumped out across this structure flow back in and actively drag sucrose along with them, an example of cotransport. In 1972, Jonathan Singer and Garth Nicolson proposed a model describing this structure as a shifting arrangement of proteins within a lipid layer.",
+      "r": "Enzymes called flippases shuttle lipids between this structure’s two sides, keeping those sides chemically different. For 10 points, name this phospholipid bilayer that surrounds a cell."
+    },
+    {
+      "p": "A sugary coating called the glycocalyx sits just outside this structure, helping neighboring cells recognize each other. The A and B blood-type markers are sugar chains attached to glycolipids embedded in this boundary on red blood cells.",
+      "r": "A rigid wall sits outside this flexible boundary in plants, fungi, and bacteria, but animal cells have no such wall. For 10 points, name this selectively permeable structure that encloses a cell’s cytoplasm."
+    },
+    {
+      "p": "During pinocytosis, a small patch of this structure pinches inward to form a vesicle that brings liquid into the cell. The opposite process, exocytosis, happens when a vesicle fuses with this structure from inside to release its contents.",
+      "r": "Channel proteins called aquaporins are built into it to let water rush through quickly. For 10 points, name this structure, a phospholipid bilayer that encloses the cell."
+    },
+    {
+      "p": "Freeze-fracture electron microscopy, which splits this structure apart between its two layers, provided key early evidence for how its proteins are arranged. Enzymes called flippases and scramblases shuttle phospholipids between this structure’s two leaflets.",
+      "r": "This boundary is described by the fluid mosaic model, in which proteins float within a sea of lipids. For 10 points, name this flexible structure that surrounds a living cell."
+    },
+    {
+      "p": "Receptor proteins embedded in this structure detect hormones and other signaling molecules arriving from outside the cell. A pump built into it actively pushes three sodium ions out for every two potassium ions it lets in.",
+      "r": "This structure is built mainly from phospholipids, with hydrophilic heads facing out and hydrophobic tails tucked inside. For 10 points, name this bilayer that surrounds a cell."
+    },
+    {
+      "p": "Just inside this structure, a mesh of actin filaments called the cortex provides mechanical support, especially in red blood cells that must flex to pass through capillaries. This structure’s channel proteins, called aquaporins, let water molecules cross far faster than they otherwise could.",
+      "r": "In plants, fungi, and bacteria, a rigid wall lies just outside this flexible boundary, though animal cells lack one. For 10 points, name this structure that controls what enters and leaves a cell."
+    },
+    {
+      "p": "Sugar chains attached to glycolipids in this structure form the A and B antigens that determine human blood types. A sugary layer called the glycocalyx, built from these same glycolipids and glycoproteins, coats the outside of this structure.",
+      "r": "Proteins drift freely within this structure’s lipid layer, as described by the fluid mosaic model. For 10 points, name this structure made of a phospholipid bilayer that encloses a cell."
+    },
+    {
+      "p": "Jonathan Singer and Garth Nicolson’s 1972 model described this structure as a fluid, shifting mosaic of proteins rather than a rigid sandwich of layers, as earlier scientists had proposed. Flippase enzymes flip phospholipids between this structure’s two leaflets.",
+      "r": "Cholesterol wedged among its phospholipids keeps this boundary fluid even in the cold. For 10 points, name this structure, built from a bilayer of phospholipids, that surrounds a cell."
+    },
+    {
+      "p": "Its remarkable flexibility lets a red blood cell fold and squeeze through capillaries far narrower than the cell’s own resting diameter. This structure’s inner face is reinforced by a mesh of actin filaments known as the cortex.",
+      "r": "Small nonpolar molecules can diffuse straight across it, while larger or charged molecules need help from channel proteins or ATP-powered pumps. For 10 points, name this selectively permeable boundary that surrounds a cell."
+    },
+    {
+      "p": "Enzymes called flippases and scramblases shuttle phospholipids between the two leaflets of this structure, rearranging which lipids face each side. Freeze-fracture microscopy, which splits this structure along the middle of its lipid layer, revealed proteins scattered unevenly through it.",
+      "r": "Cholesterol keeps this boundary fluid, while channel proteins called aquaporins let water cross quickly. For 10 points, name this phospholipid bilayer that encloses a cell’s cytoplasm."
+    },
+    {
+      "p": "A pump embedded in this structure actively exchanges three sodium ions for every two potassium ions, using energy from ATP. Receptor proteins scattered through it detect hormones and relay signals into the cell.",
+      "r": "A rigid wall sits outside this flexible boundary in plants, fungi, and bacteria, but not in animal cells. For 10 points, name this structure that encloses the cytoplasm of a cell."
+    },
+    {
+      "p": "Vesicles fuse with this structure during exocytosis to dump their contents outside the cell, while pinocytosis pulls small patches of it inward to form new vesicles. Its hydrophobic interior, formed by inward-pointing fatty tails, blocks most water-soluble substances from slipping through.",
+      "r": "This structure is described by the fluid mosaic model, with proteins drifting through a double layer of phospholipids. For 10 points, name this boundary that surrounds a living cell."
+    },
+    {
+      "p": "Place a cell in a hypotonic solution and water rushes in across this structure, sometimes making an animal cell swell or even burst. This structure’s hydrophobic interior, formed by the inward-pointing tails of its phospholipids, keeps most water-soluble molecules from passing through freely.",
+      "r": "A sodium-potassium pump built into it trades three sodium ions for two potassium ions at a time. For 10 points, name this structure, a phospholipid bilayer that encloses a cell."
+    },
+    {
+      "p": "Channel proteins called aquaporins are built into this structure specifically to speed the movement of water across it. In plant cells, this structure sits just inside a rigid wall, while in animal cells it alone marks the edge of the cell.",
+      "r": "Cholesterol wedged between its phospholipids keeps this boundary fluid, as described by the fluid mosaic model. For 10 points, name this selectively permeable structure that surrounds a cell."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Encloses the cytoplasm and separates the inside of a cell from the fluid outside it; selectively permeable, so only some molecules pass through",
+      "k": [
+        "cytoplasm",
+        "selectively permeable"
+      ],
+      "n": 4
+    },
+    {
+      "id": "fluid-mosaic-model",
+      "tier": "giveaway",
+      "t": "Described by the “fluid mosaic model”: proteins float and drift within a flexible double layer of lipids",
+      "k": [
+        "fluid mosaic model"
+      ],
+      "n": 8
+    },
+    {
+      "id": "wall-contrast",
+      "tier": "giveaway",
+      "t": "In plant cells, fungi, and bacteria, a rigid wall sits just outside this flexible boundary; animal cells have no such wall",
+      "k": [
+        "rigid wall",
+        "plant cells"
+      ],
+      "n": 4,
+      "rabbit": "Cell wall"
+    },
+    {
+      "id": "phospholipid-bilayer",
+      "tier": "giveaway",
+      "t": "Built mainly from phospholipids, with water-loving (hydrophilic) heads facing out and water-fearing (hydrophobic) tails tucked inside to form a bilayer",
+      "k": [
+        "phospholipids",
+        "bilayer",
+        "hydrophilic"
+      ],
+      "n": 8
+    },
+    {
+      "id": "cholesterol",
+      "tier": "middle",
+      "t": "Cholesterol wedged between the phospholipids keeps this boundary fluid instead of stiff, especially in cold temperatures",
+      "k": [
+        "cholesterol",
+        "fluid"
+      ],
+      "n": 3
+    },
+    {
+      "id": "flippases",
+      "tier": "middle",
+      "t": "Enzymes called flippases and scramblases shuttle phospholipids between the two halves, or “leaflets,” of this structure",
+      "k": [
+        "flippases",
+        "scramblases",
+        "leaflets"
+      ],
+      "n": 4
+    },
+    {
+      "id": "aquaporins",
+      "tier": "middle",
+      "t": "Channel proteins called aquaporins are built in to let water molecules rush through far faster than they otherwise could",
+      "k": [
+        "aquaporins"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sodium-potassium-pump",
+      "tier": "middle",
+      "t": "A sodium-potassium pump actively pushes three sodium ions out for every two potassium ions it lets in",
+      "k": [
+        "sodium-potassium pump"
+      ],
+      "n": 2
+    },
+    {
+      "id": "active-transport",
+      "tier": "middle",
+      "t": "Small nonpolar molecules can simply diffuse straight across, while larger or charged ones need channel proteins, or ATP-powered pumps for active transport",
+      "k": [
+        "active transport",
+        "atp"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hydrophobic-interior",
+      "tier": "middle",
+      "t": "Has a hydrophobic interior, since the fatty tails of its phospholipids point inward and block most water-soluble substances",
+      "k": [
+        "hydrophobic interior"
+      ],
+      "n": 3
+    },
+    {
+      "id": "osmosis-tonicity",
+      "tier": "middle",
+      "t": "In a hypotonic solution, water rushes in across it by osmosis and can make an animal cell swell or even burst",
+      "k": [
+        "osmosis",
+        "hypotonic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "exocytosis",
+      "tier": "middle",
+      "t": "During exocytosis, a vesicle fuses with this structure from inside the cell to dump its contents outside",
+      "k": [
+        "exocytosis",
+        "vesicle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cystic-fibrosis",
+      "tier": "power",
+      "t": "In cystic fibrosis, malfunctioning chloride ion channels built into this structure lead to thick, sticky mucus throughout the body",
+      "k": [
+        "cystic fibrosis",
+        "chloride channels"
+      ],
+      "n": 1
+    },
+    {
+      "id": "actin-cortex",
+      "tier": "power",
+      "t": "Just inside this structure, a mesh of actin filaments called the cortex provides extra mechanical support",
+      "k": [
+        "actin filaments",
+        "cortex"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cotransport",
+      "tier": "power",
+      "t": "In plant cells, hydrogen ions pumped out and then flowing back in can co-transport sucrose across this structure",
+      "k": [
+        "cotransport",
+        "sucrose"
+      ],
+      "n": 1
+    },
+    {
+      "id": "glycocalyx",
+      "tier": "power",
+      "t": "A sugary coating called the glycocalyx sits just outside this structure, helping cells recognize one another",
+      "k": [
+        "glycocalyx"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pinocytosis",
+      "tier": "power",
+      "t": "During pinocytosis, a small patch of this structure pinches inward to form a vesicle that brings liquid into the cell",
+      "k": [
+        "pinocytosis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "singer-nicolson",
+      "tier": "power",
+      "t": "Jonathan Singer and Garth Nicolson proposed the fluid mosaic model for this structure in 1972, replacing an earlier rigid “sandwich” model",
+      "k": [
+        "singer",
+        "nicolson",
+        "1972"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blood-type-antigens",
+      "tier": "power",
+      "t": "The A and B blood-type markers are sugar chains attached to glycolipids embedded in this structure on red blood cells",
+      "k": [
+        "blood type",
+        "glycolipids"
+      ],
+      "n": 0
+    },
+    {
+      "id": "freeze-fracture",
+      "tier": "power",
+      "t": "Freeze-fracture electron microscopy, which splits this structure apart between its two layers, revealed proteins scattered unevenly through it",
+      "k": [
+        "freeze-fracture"
+      ],
+      "n": 0
+    },
+    {
+      "id": "receptor-proteins",
+      "tier": "power",
+      "t": "Receptor proteins embedded in this structure detect hormones and other signaling molecules arriving from outside the cell",
+      "k": [
+        "receptor proteins",
+        "hormones"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rbc-flexibility",
+      "tier": "power",
+      "t": "This structure’s remarkable flexibility lets red blood cells fold and squeeze through capillaries narrower than their own resting width",
+      "k": [
+        "red blood cells",
+        "capillaries"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "This boundary, or the wall?",
+    "body": "Plant cells, fungi, and bacteria have a rigid wall just outside this flexible boundary, but animal cells have only the boundary itself, with no wall at all. Several real tossups explicitly say not to accept or prompt on “cell wall,” since it is a separate structure with a different job: support and shape, not selective transport.",
+    "fix": "If the clues mention rigidity, support, or a structure found only in plants, fungi, or bacteria (never in animal cells), that is the wall. If the clues mention cholesterol, phospholipids, fluidity, or proteins that control what crosses in and out, that is this flexible boundary.",
+    "line": "Real answer line: <b><u>Cell membrane</u></b> (or plasma membrane; prompt on membrane; do not accept or prompt on cell wall)."
+  },
+  "tests": {
+    "right": [
+      "Cell membrane",
+      "cell membrane",
+      "Cell Membran",
+      "Plasma membrane"
+    ],
+    "prompt": [
+      "Membrane",
+      "the membrane"
+    ],
+    "wrong": [
+      "Cell wall",
+      "Nucleus",
+      "Cytoplasm",
+      "Endoplasmic reticulum"
+    ]
+  },
+  "freq": {
+    "rank": 4,
+    "count": 8,
+    "list": "Biology"
+  }
+}

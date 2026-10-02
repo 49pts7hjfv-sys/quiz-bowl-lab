@@ -1,0 +1,369 @@
+{
+  "id": "cell-wall",
+  "name": "Cell wall",
+  "mono": "CW",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Rigid layer outside plant, fungal, and bacterial cells · Gives them shape",
+  "dates": "Robert Hooke glimpsed these in cork cells in 1665",
+  "briefing": "A cell wall is a tough, rigid layer wrapped around the outside of plant, fungal, and bacterial cells, giving them a fixed shape and keeping them from bursting as they soak up water. Plant walls are built from cellulose, fungal ones from chitin, and bacterial ones from peptidoglycan, three completely different materials doing the same sturdy job. Animal cells never grow one, a big reason your skin cells are so much squishier than a leaf.",
+  "answerHtml": "<b><u>Cell wall</u></b> (prompt on <u>wall</u>; do not accept “cell membrane”)",
+  "accept": [
+    "cell wall",
+    "cell walls"
+  ],
+  "prompt": [
+    "wall"
+  ],
+  "reject": [
+    "cell membrane",
+    "plasma membrane",
+    "membrane",
+    "cellulose",
+    "chitin",
+    "peptidoglycan"
+  ],
+  "media": [
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Comparing animal and plant cells | Middle school biology",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=HjC-eMiMDfo",
+      "note": "Middle school lesson on how plant cells differ from animal cells"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Plant Cells: Crash Course Biology #6",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=9UvlqAVCoqY",
+      "note": "What makes plant cells special, including their tough cellulose walls"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Cell wall facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Cell_wall",
+      "note": "Kid-friendly read on cell walls in plants, fungi, algae, and bacteria"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Cell_wall",
+  "qb": {
+    "q": "cell wall",
+    "found": 6,
+    "tip": "4 of the 6 difficulty-1,2 hits were actually “cell membrane” tossups whose answer line just lists this structure as a “do not accept” — only 2 were truly on-topic, so 9 Regular HS tossups were blended in; two real packets explicitly “prompt on wall.”"
+  },
+  "sample": {
+    "n": 11,
+    "note": "the 11 real QBReader tossups for this answer line (2 Middle School/Easy High School + 9 Regular High School, power-marked); 4 more difficulty-1,2 hits that came up were actually “cell membrane” tossups and were excluded from this count"
+  },
+  "tossups": [
+    {
+      "p": "In archaea, this structure may be built from unusual materials such as methanochondroitin or pseudomurein [“SOO-doh-MYOOR-ee-in”] rather than the sugar polymer typical of bacteria. Beta-lactam antibiotics, including penicillin and cephalosporins, fight infection by blocking the enzymes that cross-link this structure together in bacteria.",
+      "r": "This layer is completely absent in mycoplasma bacteria and in animal cells. For 10 points, name this rigid structure that surrounds the cell membrane in bacteria, fungi, and plants."
+    },
+    {
+      "p": "Lysozyme, an enzyme found in tears and egg white, defends against bacteria by hydrolyzing the bond between two alternating sugar units, N-acetylmuramic acid and N-acetylglucosamine, that link into long chains within this structure. DD-transpeptidase enzymes then cross-link those chains together, a step blocked by penicillin.",
+      "r": "Whether crystal violet dye stays trapped inside this structure or washes out sorts bacteria into Gram-positive and Gram-negative groups. For 10 points, name this protective layer surrounding a bacterial cell’s membrane."
+    },
+    {
+      "p": "Bactoprenol [“BAK-toh-PREE-nol”] carries sugar-linked building blocks across a bacterium’s inner membrane to be added onto this growing structure, which in some bacteria also contains a waxy coating called mycolic acid. Mycoplasma bacteria are unusual for lacking this structure entirely.",
+      "r": "DD-transpeptidases cross-link sugar strands within this layer, a process penicillin blocks. For 10 points, name this rigid structure that surrounds a bacterial cell’s plasma membrane."
+    },
+    {
+      "p": "Suberin-rich bands called Casparian strips form part of this structure in plant roots, blocking water from slipping between neighboring cells. A pectin-rich middle lamella glues together adjacent plant cells’ versions of this structure from the outside.",
+      "r": "Channels called plasmodesmata [“plaz-moh-DEZ-muh-tuh”] tunnel through this layer, letting the cytoplasm of neighboring plant cells stay connected. For 10 points, name this rigid structure that surrounds a plant cell’s membrane, made of cellulose."
+    },
+    {
+      "p": "During plant cell division, a structure called the phragmoplast grows outward from leftover spindle fibers and lays down a disc called the cell plate, which matures into this structure. This layer lets a plant cell survive soaking up extra water by physically resisting turgor pressure instead of bursting.",
+      "r": "Collenchyma and sclerenchyma plant tissues are defined partly by how thick and stiff this structure is. For 10 points, name this rigid layer that keeps plant cells from swelling and popping, built from cellulose."
+    },
+    {
+      "p": "The polysaccharide xylan is woven into this structure, making it harder for enzymes to break down, and a pectin-rich middle lamella forms its outermost layer in plants. Gram staining measures how much peptidoglycan this structure contains in bacteria, sorting them into Gram-positive and Gram-negative groups.",
+      "r": "This layer is built from cellulose in plants, chitin in fungi, and peptidoglycan in bacteria. For 10 points, name this rigid structure that is completely absent in animal cells."
+    },
+    {
+      "p": "An outer S-layer made of protein can sit directly atop this structure in some bacteria and archaea. Lignin, the tough compound that stiffens wood, builds up heavily in a secondary, thickened version of this structure in woody plant tissue.",
+      "r": "Plasmodesmata tunnel through this layer to connect the cytoplasm of neighboring plant cells. For 10 points, name this structure, found outside the cell membrane of plants, fungi, and bacteria, but never animals."
+    },
+    {
+      "p": "Beta-lactam antibiotics such as penicillin and cephalosporins fight bacterial infections by blocking enzymes that cross-link this structure, causing it to fail and the cell to burst. Echinocandin antifungal drugs instead target the fungal version of this layer the same way.",
+      "r": "Crystal violet dye either stays trapped in this layer or rinses away during Gram staining, the classic test for classifying bacteria. For 10 points, name this rigid structure built partly from peptidoglycan in bacteria."
+    },
+    {
+      "p": "Among bacteria, mycoplasma are unusual for lacking this structure entirely, leaving them without its usual protection. In some other bacteria, a waxy coating of mycolic acid is layered onto this structure, helping them resist staining and some antibiotics.",
+      "r": "This structure’s thickness, measured by how well it holds onto crystal violet dye, determines whether a bacterium is classified as Gram-positive or Gram-negative. For 10 points, name this rigid barrier that surrounds a bacterial cell’s plasma membrane."
+    },
+    {
+      "p": "Collenchyma, sclerenchyma, and parenchyma, three types of plant tissue, are partly told apart by how thick and rigid this structure is in each one. Lignin builds up heavily in a secondary, extra-sturdy version of this layer in woody plant tissue.",
+      "r": "This structure resists turgor pressure, the outward push of water inside the cell, keeping a plant cell from bursting instead of just swelling. For 10 points, name this rigid structure made of cellulose in plants."
+    },
+    {
+      "p": "A pectin-rich layer called the middle lamella glues together neighboring plant cells’ versions of this structure from the outside. Channels called plasmodesmata tunnel straight through this layer, letting the cytoplasm of adjacent plant cells stay connected.",
+      "r": "This structure is made of chitin in fungi and peptidoglycan in bacteria, but cellulose in plants. For 10 points, name this rigid layer that is completely missing from animal cells."
+    },
+    {
+      "p": "This structure resists the outward push of water inside the cell, called turgor pressure, letting a plant cell stay firm instead of bursting when it soaks up extra water. Found in bacteria, fungi, and plants, this layer is one of the clearest differences between a plant cell and an animal cell under a microscope.",
+      "r": "Plants build this structure from cellulose, fungi from chitin, and bacteria from peptidoglycan. For 10 points, name this rigid layer that is completely absent from animal cells."
+    },
+    {
+      "p": "Bactoprenol ferries peptidoglycan building blocks across a bacterium’s inner membrane so they can be added onto this growing structure. DD-transpeptidase enzymes then stitch those new strands into the existing structure, cross-linking them together.",
+      "r": "Beta-lactam antibiotics like penicillin work by jamming that cross-linking step in this layer. For 10 points, name this structure, found outside a bacterial cell’s plasma membrane."
+    },
+    {
+      "p": "Alternating sugar units called NAM and NAG link together into long chains called peptidoglycan that make up this structure in bacteria. Gram-positive bacteria pack far more peptidoglycan into this layer than Gram-negative bacteria do.",
+      "r": "Lysozyme, an enzyme found in tears and egg whites, defends against infection by breaking down this structure. For 10 points, name this rigid barrier surrounding a bacterial cell’s plasma membrane."
+    },
+    {
+      "p": "This structure is missing from mycoplasma bacteria and from every animal cell, but present in plants, fungi, and most other bacteria. It gives a cell a fixed shape and keeps it from swelling up and bursting when water rushes in.",
+      "r": "Plant versions of this layer are built from cellulose, fungal versions from chitin, and bacterial versions from peptidoglycan. For 10 points, name this rigid structure that surrounds a cell’s membrane."
+    }
+  ],
+  "clues": [
+    {
+      "id": "material-by-kingdom",
+      "tier": "giveaway",
+      "t": "Built from cellulose in plants, chitin in fungi, and peptidoglycan in bacteria",
+      "k": [
+        "cellulose",
+        "chitin",
+        "peptidoglycan"
+      ],
+      "n": 7
+    },
+    {
+      "id": "absent-animal",
+      "tier": "giveaway",
+      "t": "Completely absent in animal cells, one of the clearest differences from a plant cell",
+      "k": [
+        "absent",
+        "animal cells"
+      ],
+      "n": 3
+    },
+    {
+      "id": "turgor-pressure",
+      "tier": "giveaway",
+      "t": "Resists turgor pressure, the outward push of water inside the cell, so the cell stays firm instead of bursting",
+      "k": [
+        "turgor pressure"
+      ],
+      "n": 3
+    },
+    {
+      "id": "plasmodesmata",
+      "tier": "giveaway",
+      "t": "Tunneled through by channels called plasmodesmata that connect neighboring plant cells’ cytoplasm",
+      "k": [
+        "plasmodesmata"
+      ],
+      "n": 6
+    },
+    {
+      "id": "gram-stain",
+      "tier": "middle",
+      "t": "Whether it traps or releases crystal violet dye during Gram staining sorts bacteria into Gram-positive or Gram-negative groups",
+      "k": [
+        "crystal violet",
+        "gram staining"
+      ],
+      "n": 8
+    },
+    {
+      "id": "beta-lactam",
+      "tier": "middle",
+      "t": "Beta-lactam antibiotics like penicillin and cephalosporins fight bacteria by blocking the enzymes that cross-link it",
+      "k": [
+        "penicillin",
+        "beta-lactam"
+      ],
+      "n": 7
+    },
+    {
+      "id": "nam-nag",
+      "tier": "middle",
+      "t": "Built from alternating NAM and NAG sugar units linked into chains called peptidoglycan in bacteria",
+      "k": [
+        "nam",
+        "nag",
+        "peptidoglycan"
+      ],
+      "n": 5
+    },
+    {
+      "id": "lysozyme",
+      "tier": "middle",
+      "t": "Lysozyme, an enzyme in tears and egg whites, defends against bacteria by hydrolyzing its NAM-NAG bonds",
+      "k": [
+        "lysozyme"
+      ],
+      "n": 4
+    },
+    {
+      "id": "middle-lamella",
+      "tier": "middle",
+      "t": "A pectin-rich middle lamella glues together neighboring plant cells’ versions of it from the outside",
+      "k": [
+        "middle lamella",
+        "pectin"
+      ],
+      "n": 3
+    },
+    {
+      "id": "mycoplasma",
+      "tier": "middle",
+      "t": "Mycoplasma bacteria are unusual for lacking it entirely among bacteria",
+      "k": [
+        "mycoplasma"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lignin",
+      "tier": "middle",
+      "t": "Lignin, the compound that stiffens wood, builds up in a thickened, secondary version of it in woody plants",
+      "k": [
+        "lignin"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tissue-thickness",
+      "tier": "middle",
+      "t": "Collenchyma, sclerenchyma, and parenchyma plant tissues are partly told apart by how thick it is in each",
+      "k": [
+        "collenchyma",
+        "sclerenchyma",
+        "parenchyma"
+      ],
+      "n": 1
+    },
+    {
+      "id": "archaea-pseudomurein",
+      "tier": "power",
+      "t": "Some archaea build it from pseudomurein or methanochondroitin instead of bacterial peptidoglycan",
+      "k": [
+        "pseudomurein",
+        "methanochondroitin"
+      ],
+      "n": 2
+    },
+    {
+      "id": "casparian-strip",
+      "tier": "power",
+      "t": "Suberin-rich Casparian strips form part of it in plant roots, blocking water from passing between cells",
+      "k": [
+        "casparian strip",
+        "suberin"
+      ],
+      "n": 2
+    },
+    {
+      "id": "phragmoplast",
+      "tier": "power",
+      "t": "A phragmoplast lays down a disc called the cell plate during plant cell division, which matures into it",
+      "k": [
+        "phragmoplast",
+        "cell plate"
+      ],
+      "n": 2
+    },
+    {
+      "id": "bactoprenol",
+      "tier": "power",
+      "t": "Bactoprenol ferries its sugar building blocks across the inner membrane; DD-transpeptidases then cross-link them",
+      "k": [
+        "bactoprenol",
+        "dd-transpeptidases"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mycolic-acid",
+      "tier": "power",
+      "t": "Some bacteria layer a waxy coating of mycolic acid onto it, resisting stains and some antibiotics",
+      "k": [
+        "mycolic acid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "s-layer",
+      "tier": "power",
+      "t": "An outer S-layer made of protein can sit directly on top of it in some bacteria and archaea",
+      "k": [
+        "s-layer"
+      ],
+      "n": 1
+    },
+    {
+      "id": "xylan",
+      "tier": "power",
+      "t": "The polysaccharide xylan is woven into it, making it harder for enzymes to break down",
+      "k": [
+        "xylan"
+      ],
+      "n": 1
+    },
+    {
+      "id": "endotoxin-release",
+      "tier": "power",
+      "t": "Destroying it in some Gram-negative bacteria releases harmful endotoxins",
+      "k": [
+        "endotoxins"
+      ],
+      "n": 1
+    },
+    {
+      "id": "echinocandin",
+      "tier": "power",
+      "t": "Echinocandin antifungal drugs target the fungal version of it the way penicillin targets the bacterial version",
+      "k": [
+        "echinocandin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gram-positive-thick",
+      "tier": "power",
+      "t": "Gram-positive bacteria pack far more peptidoglycan into it than Gram-negative bacteria do",
+      "k": [
+        "gram-positive"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Cell wall, or cell membrane?",
+    "body": "This is one of the most common middle-school mix-ups in cell biology: every cell has a cell membrane, but plant, fungal, and bacterial cells also have this extra, rigid outer layer. Several real tossups for this structure explicitly warn “do not accept or prompt on cell membrane,” since describing one while asking for the other is a classic trap.",
+    "fix": "If the clues mention a bendy, selectively permeable layer with a phospholipid bilayer controlling what moves in and out, that is the cell membrane. If the clues mention rigidity, a specific building material (cellulose, chitin, or peptidoglycan), Gram staining, or something surrounding the cell membrane itself, that is this structure.",
+    "line": "Real answer line: <b><u>Cell wall</u></b> (prompt on “wall”; do not accept “cell membrane”)."
+  },
+  "tests": {
+    "right": [
+      "Cell wall",
+      "cell wall",
+      "Cell Walls",
+      "Cel Wall"
+    ],
+    "prompt": [
+      "Wall",
+      "wall"
+    ],
+    "wrong": [
+      "Cell Membrane",
+      "Plasma Membrane",
+      "Cellulose",
+      "Chitin",
+      "Peptidoglycan"
+    ]
+  },
+  "freq": {
+    "rank": 95,
+    "count": 1,
+    "list": "Biology"
+  }
+}

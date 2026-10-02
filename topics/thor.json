@@ -1,0 +1,397 @@
+{
+  "id": "thor",
+  "name": "Thor",
+  "mono": "THR",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Norse god of thunder · Wields Mjolnir, dies fighting the world serpent",
+  "dates": "Pre-Christian Norse mythology, Scandinavia",
+  "briefing": "Thor was the Norse gods’ head-first solution to almost every giant problem, a short-tempered thunder god who swung a hammer that always flew back to his hand. He fished for the world-ending serpent Jormungandr, got tricked into wrestling old age itself, and once put on a wedding dress to win his hammer back from a giant groom. Thursday is still named for him, and Norse myths agreed that he and Jormungandr were fated to kill each other at Ragnarok.",
+  "answerHtml": "<b><u>Thor</u></b> [or Donar]",
+  "accept": [
+    "thor",
+    "donar",
+    "thunar"
+  ],
+  "prompt": [],
+  "reject": [
+    "odin",
+    "loki",
+    "sif",
+    "jormungandr",
+    "mjolnir",
+    "zeus",
+    "jupiter",
+    "hrungnir"
+  ],
+  "tests": {
+    "right": [
+      "Thor",
+      "thor",
+      "Thor the Thunder God",
+      "God Thor",
+      "Donar"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Odin",
+      "Loki",
+      "Sif",
+      "Mjolnir",
+      "Zeus"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How Thor got his hammer - Scott A. Mellor",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=Qytj-DbXMKQ",
+      "note": "Short animated myth · how the dwarves forged Mjölnir"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The myth of Thor’s journey to the land of giants - Scott A. Mellor",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=e6XeP9gQPmg",
+      "note": "Short animated myth · Thor’s contests in the hall of the giant Utgard-Loki"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Thor Fishing for Jormungand (The Serpent of the World) – Norse Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=dk1FJSpnWZU",
+      "note": "Animated retelling · Thor and the giant Hymir go fishing for the World Serpent"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Thor, the God of Thunder – Best Adventures in the Land of Giants – Norse Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=cLZZR2ojlD0",
+      "note": "Longer compilation of Thor’s adventures among the giants (cartoon fights)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Thor",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Thor",
+      "note": "Kid-friendly encyclopedia article on Thor’s family, hammer, and myths"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Thor",
+  "qb": {
+    "q": "Thor",
+    "found": 7,
+    "tip": "All seven lead with, or end on, his fated mutual kill with the serpent Jormungandr at Ragnarok — that’s the single most reliable identifying clue."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "While visiting the hall of the giant king Utgard-Loki, this god failed to empty a drinking horn secretly connected to the sea and lost a wrestling match against an old woman who was actually Old Age itself. He also failed to lift a housecat off the floor, not realizing it was really the world serpent in disguise.",
+      "r": "That serpent, Jörmungandr, is fated to kill, and be killed by, this god at Ragnarök. For 10 points, name this Norse god of thunder."
+    },
+    {
+      "p": "After the giant Þrymr stole this god’s hammer and demanded the goddess Freyja as ransom, this god dressed as Freyja himself, with his companion Loki posing as a handmaid, to sneak into the giant’s hall and reclaim it. At the wedding feast, he nearly gave himself away by eating a whole ox and eight salmon.",
+      "r": "Once the hammer was back in his hands, he used it to kill Þrymr and the other wedding guests. For 10 points, name this Norse god of thunder, son of Odin."
+    },
+    {
+      "p": "This god once went fishing with the giant Hymir, using an ox’s head as bait to hook the world serpent, Jörmungandr. Just as he was about to kill the serpent with his hammer, a terrified Hymir cut the fishing line.",
+      "r": "This god and that same serpent are destined to kill each other at Ragnarök. For 10 points, name this Norse god of thunder, husband of the golden-haired Sif."
+    },
+    {
+      "p": "To keep the clever dwarf Alvíss from marrying his daughter Þrúð, this god kept the dwarf talking with riddle after riddle until sunrise turned him to stone, since dwarves could not survive daylight.",
+      "r": "This same god wields a hammer forged by the dwarf brothers Brokkr and Eitri. For 10 points, name this Norse god of thunder, son of Odin."
+    },
+    {
+      "p": "A fly bit the eyelid of the bellows-working dwarf Brokkr while he and his brother Eitri forged this god’s favorite weapon, giving it an unusually short handle. The fly was secretly Loki, trying to sabotage a bet over whose dwarven creations were better.",
+      "r": "Despite its short handle, that hammer, Mjölnir, always returns to this god’s hand when thrown. For 10 points, name this Norse god of thunder."
+    },
+    {
+      "p": "This god owns a magical belt called Megingjörð that doubles his already great strength, along with a pair of iron gloves called Járngreipr that let him safely grip red-hot metal and his own hammer.",
+      "r": "These treasures go along with his hammer, which always returns to his hand when thrown. For 10 points, name this Norse god of thunder, son of Odin."
+    },
+    {
+      "p": "This god’s chariot is pulled by two goats, Tanngrisnir and Tanngnjóstr, whom he can slaughter and eat for a meal and then resurrect good as new the next morning using their hides and bones.",
+      "r": "Those same goats carried him to feasts among the giants. For 10 points, name this Norse god of thunder, wielder of the hammer Mjölnir."
+    },
+    {
+      "p": "At the god Baldr’s funeral, this deity grew so annoyed with a dwarf named Litr getting underfoot that he kicked the dwarf straight into the funeral pyre. He had been blessing the pyre with his hammer at the time.",
+      "r": "This god is the son of Odin and the wielder of the hammer Mjölnir. For 10 points, name this Norse god of thunder."
+    },
+    {
+      "p": "After Loki shaved off all of the hair of this god’s wife, Sif, as a cruel prank, this god forced Loki to visit the dwarven Sons of Ivaldi and have them forge a head of real gold hair that would grow like natural hair.",
+      "r": "That same trip resulted in several other treasures for the gods, including this god’s own hammer, Mjölnir. For 10 points, name this Norse god of thunder, son of Odin."
+    },
+    {
+      "p": "This god’s mother is the giantess Jörð, whose name simply means “Earth,” making this deity’s stepmother the goddess Frigg. Despite having a giant for a mother, he becomes one of the giants’ fiercest enemies.",
+      "r": "This son of Odin wields the hammer Mjölnir. For 10 points, name this Norse god of thunder."
+    },
+    {
+      "p": "After this god dies fighting the world serpent Jörmungandr at Ragnarök, his sons Móði and Magni are said to inherit his hammer and survive into the new world. Their names mean “Wrath” and “Might.”",
+      "r": "Their father wielded that hammer, Mjölnir, as the Norse god of thunder. For 10 points, name this son of Odin."
+    },
+    {
+      "p": "In a duel against the stone giant Hrungnir, this god’s hammer shattered his opponent’s thrown whetstone, but a shard of that stone stayed lodged in this god’s head for the rest of his life. The seeress Gróa later tried to chant it loose but forgot her spells after hearing happy news.",
+      "r": "This god usually fares better against giants with the help of his hammer, Mjölnir. For 10 points, name this Norse god of thunder, son of Odin."
+    },
+    {
+      "p": "To reach the hall of the giant Geirröd safely, this god borrowed a magic staff, belt, and iron gloves from a helpful giantess named Gríðr. With that gear, he caught and threw back a piece of red-hot iron that Geirröd had hurled at him.",
+      "r": "This same god more famously owns his own belt of strength and his own iron gloves to go with his hammer. For 10 points, name this Norse god of thunder."
+    },
+    {
+      "p": "This god is fated to kill the world serpent Jörmungandr at Ragnarök, only to die moments later from its poison. His wife is the golden-haired goddess Sif, whom the trickster Loki once pranked by shaving off all her hair.",
+      "r": "This son of Odin wields a hammer that always returns to his hand when thrown. For 10 points, name this Norse god of thunder."
+    },
+    {
+      "p": "Thursday takes its name from this deity in Old English, much as Wednesday takes its name from this deity’s father. This short-tempered god is destined to kill, and be killed by, the serpent Jörmungandr at the final battle of Ragnarök.",
+      "r": "He wields a hammer called Mjölnir that always returns when thrown. For 10 points, name this Norse god of thunder, son of Odin."
+    }
+  ],
+  "clues": [
+    {
+      "id": "god-of-thunder",
+      "tier": "giveaway",
+      "t": "Norse god of thunder, known for his fierce temper and love of a good fight",
+      "k": [
+        "god of thunder",
+        "fierce temper"
+      ],
+      "n": 7
+    },
+    {
+      "id": "mjolnir-weapon",
+      "tier": "giveaway",
+      "t": "Wields the mighty hammer Mjölnir in battle against the giants",
+      "k": [
+        "mjolnir",
+        "wields the mighty hammer"
+      ],
+      "n": 7
+    },
+    {
+      "id": "son-of-odin",
+      "tier": "giveaway",
+      "t": "Son of the chief god Odin",
+      "k": [
+        "son of",
+        "chief god"
+      ],
+      "n": 7,
+      "rabbit": "Odin"
+    },
+    {
+      "id": "hammer-returns",
+      "tier": "giveaway",
+      "t": "His hammer always flies back to his hand after being thrown",
+      "k": [
+        "flies back",
+        "thrown"
+      ],
+      "n": 1
+    },
+    {
+      "id": "thursday-name",
+      "tier": "giveaway",
+      "t": "Thursday takes its name from this god in Old English",
+      "k": [
+        "thursday",
+        "old english"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ragnarok-jormungandr",
+      "tier": "middle",
+      "t": "Fated to kill, and be killed by, the world serpent Jörmungandr at Ragnarök",
+      "k": [
+        "jormungandr",
+        "ragnarok",
+        "kill and be killed"
+      ],
+      "n": 7
+    },
+    {
+      "id": "sif-wife",
+      "tier": "middle",
+      "t": "Husband of the golden-haired goddess Sif",
+      "k": [
+        "sif",
+        "golden haired"
+      ],
+      "n": 4
+    },
+    {
+      "id": "thrym-theft",
+      "tier": "middle",
+      "t": "Dressed as the bride Freyja, with Loki disguised as a handmaid, to win back his hammer from the giant Þrymr",
+      "k": [
+        "thrymr",
+        "dressed as the bride",
+        "freyja"
+      ],
+      "n": 4,
+      "rabbit": "Loki"
+    },
+    {
+      "id": "utgard-cat",
+      "tier": "middle",
+      "t": "Failed to lift a housecat off the floor at Utgard-Loki’s hall, not realizing it was the world serpent in disguise",
+      "k": [
+        "housecat",
+        "world serpent"
+      ],
+      "n": 5
+    },
+    {
+      "id": "hymir-fishing",
+      "tier": "middle",
+      "t": "Went fishing with the giant Hymir and hooked the world serpent, Jörmungandr, before the line was cut",
+      "k": [
+        "hymir",
+        "fishing",
+        "hooked"
+      ],
+      "n": 3
+    },
+    {
+      "id": "goats-resurrect",
+      "tier": "middle",
+      "t": "Travels by chariot pulled by two goats he can slaughter, eat, and resurrect the next morning",
+      "k": [
+        "goats",
+        "slaughter and eat",
+        "resurrect"
+      ],
+      "n": 1
+    },
+    {
+      "id": "alviss-stone",
+      "tier": "power",
+      "t": "Outtalked the dwarf Alvíss until sunrise turned him to stone, stopping his marriage to his daughter Þrúð",
+      "k": [
+        "alviss",
+        "turned to stone",
+        "thrud"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mjolnir-forging",
+      "tier": "power",
+      "t": "His hammer’s unusually short handle came from Loki sabotaging the dwarves Brokkr and Eitri while they forged it",
+      "k": [
+        "brokkr",
+        "eitri",
+        "short handle"
+      ],
+      "n": 1,
+      "rabbit": "Loki"
+    },
+    {
+      "id": "belt-gloves",
+      "tier": "power",
+      "t": "Owns the strength-doubling belt Megingjörð and the iron gloves Járngreipr",
+      "k": [
+        "megingjord",
+        "jarngreipr",
+        "strength doubling"
+      ],
+      "n": 1
+    },
+    {
+      "id": "litr-kick",
+      "tier": "power",
+      "t": "Kicked the dwarf Litr into the fire at the god Baldr’s funeral",
+      "k": [
+        "litr",
+        "baldrs funeral"
+      ],
+      "n": 1
+    },
+    {
+      "id": "force-loki-hair",
+      "tier": "power",
+      "t": "Forced Loki to have dwarves forge new golden hair for his wife after Loki shaved her head",
+      "k": [
+        "forced loki",
+        "golden hair"
+      ],
+      "n": 1,
+      "rabbit": "Loki"
+    },
+    {
+      "id": "mother-jord",
+      "tier": "power",
+      "t": "His mother is the giantess Jörð, meaning “Earth,” making Frigg his stepmother",
+      "k": [
+        "jord",
+        "earth",
+        "stepmother"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sons-inherit",
+      "tier": "power",
+      "t": "Sons Móði and Magni, whose names mean “Wrath” and “Might,” inherit his hammer after Ragnarök",
+      "k": [
+        "modi",
+        "magni",
+        "inherit"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hrungnir-duel",
+      "tier": "power",
+      "t": "A shard of whetstone has stayed lodged in his head ever since a duel against the stone giant Hrungnir",
+      "k": [
+        "hrungnir",
+        "whetstone",
+        "lodged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "geirrod-gridr",
+      "tier": "power",
+      "t": "Borrowed a magic staff, belt, and gloves from the giantess Gríðr to survive a visit to the giant Geirröd",
+      "k": [
+        "gridr",
+        "geirrod",
+        "magic staff"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elli-horn",
+      "tier": "power",
+      "t": "Also failed to empty a drinking horn secretly connected to the sea and lost a wrestling match to old age itself, the crone Elli",
+      "k": [
+        "elli",
+        "drinking horn",
+        "wrestling match"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "God, hammer, or father?",
+    "body": "Clues that describe Mjölnir are about the hammer, not the god who swings it — don’t blurt out the weapon’s name. Clues that open with “son of Odin” are building up to this god, not asking for Odin himself. And in several of his stories, Loki tags along as a disguised sidekick, but he is never the one lifting the cat or wearing the wedding dress.",
+    "fix": "Wait for a pronoun like “this god” or “this deity” before buzzing, and make sure the action (wielding, lifting, fishing, getting married in disguise) belongs to the thunder god himself, not his hammer, his father, or his trickster companion.",
+    "line": "Real answer line: <b><u>Thor</u></b> [or Donar]"
+  },
+  "freq": {
+    "rank": 7,
+    "count": 8,
+    "list": "Mythology"
+  }
+}

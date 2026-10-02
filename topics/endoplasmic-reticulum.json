@@ -1,0 +1,375 @@
+{
+  "id": "endoplasmic-reticulum",
+  "name": "Endoplasmic reticulum",
+  "mono": "ER",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Network of folded membranes in a cell · Builds proteins and lipids",
+  "dates": "Found in nearly every eukaryotic cell",
+  "briefing": "The endoplasmic reticulum is a winding network of folded membranes that spreads through a cell’s cytoplasm, connected directly to the nuclear envelope. Its rough section is studded with ribosomes that build proteins, while its smooth section makes lipids and breaks down toxins. A muscle-cell version called the sarcoplasmic reticulum stores calcium and helps muscles contract.",
+  "answerHtml": "<b><u>Endoplasmic reticulum</u></b> (accept <u>ER</u>; accept rough or smooth ER; accept sarcoplasmic reticulum)",
+  "accept": [
+    "endoplasmic reticulum",
+    "er",
+    "rough er",
+    "smooth er",
+    "sarcoplasmic reticulum"
+  ],
+  "prompt": [],
+  "reject": [
+    "ribosome",
+    "ribosomes",
+    "golgi apparatus",
+    "golgi body",
+    "golgi complex",
+    "nucleus",
+    "mitochondria",
+    "mitochondrion",
+    "lysosome",
+    "lysosomes",
+    "cytoplasm",
+    "cell membrane",
+    "vacuole"
+  ],
+  "tests": {
+    "right": [
+      "Endoplasmic Reticulum",
+      "endoplasmic reticulum",
+      "ER",
+      "Rough ER",
+      "Endoplasmic Reticullum",
+      "The Endoplasmic Reticulum"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Ribosomes",
+      "Golgi Apparatus",
+      "Nucleus",
+      "Mitochondria",
+      "Lysosome",
+      "Cell Membrane"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Endoplasmic reticulum and Golgi bodies",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=6UqtgH_Zy1Y",
+      "note": "What the rough and smooth ER make and how they pass it on to the Golgi"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Endomembrane system | The fundamental unit of life",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=9zMvku04wo8",
+      "note": "How the ER, Golgi, and vesicles work together as the cell’s shipping system"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Endoplasmic Reticulum Structure & Function",
+      "source": "Ninja Nerd",
+      "url": "https://www.youtube.com/watch?v=X1n2ggpzBbc",
+      "note": "Advanced, detailed lecture on the ER’s structure and jobs (college level)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Eukaryopolis - The City of Animal Cells: Crash Course Biology #4",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=cj8dDTHGJBY",
+      "note": "An animal cell as a city, showing where the ER fits among the other organelles"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Endoplasmic reticulum facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Endoplasmic_reticulum",
+      "note": "Kid-friendly read on rough vs. smooth ER and what each one makes"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum",
+  "qb": {
+    "q": "endoplasmic reticulum",
+    "found": 5,
+    "tip": "All 5 results are genuinely about this organelle; the real answer lines explicitly accept “ER” and sarcoplasmic reticulum as the same answer, so both are included here too."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A short amino-acid tag called KDEL marks proteins that should stay inside this organelle instead of moving onward. Vesicles coated with proteins called COPII carry material from this organelle to the Golgi apparatus, while COPI-coated vesicles bring strays back.",
+      "r": "Found in nearly every eukaryotic cell, this organelle forms a winding, lace-like network of folded membranes connected to the nuclear envelope. For 10 points, name this organelle whose rough type is studded with ribosomes."
+    },
+    {
+      "p": "Chaperone proteins inside this organelle help fold newly made proteins into their correct shape. The last step of gluconeogenesis takes place inside this organelle’s lumen, and too many unfolded proteins here can trigger a cellular stress response.",
+      "r": "This organelle’s smooth type is especially abundant in liver cells, where it helps break down alcohol and other drugs. For 10 points, name this organelle that transports proteins and lipids throughout the cell."
+    },
+    {
+      "p": "Made of flattened sacs and tubes called cisternae, this organelle is physically connected to the double membrane surrounding the nucleus. A specialized version found in muscle cells stores and releases calcium ions to help muscles contract.",
+      "r": "Proteins destined for secretion outside the cell are built and folded on this organelle’s rough type. For 10 points, name this organelle that comes in rough and smooth varieties."
+    },
+    {
+      "p": "Cells in hormone-producing glands rely on this organelle’s smooth type to manufacture steroid hormones. This organelle’s smooth type also lacks the ribosomes found dotting its rough type, giving the two varieties very different textures under a microscope.",
+      "r": "Together with the Golgi apparatus, this organelle forms part of what’s sometimes called the endomembrane system. For 10 points, name this organelle found in nearly all eukaryotic cells but absent from bacteria."
+    },
+    {
+      "p": "Vesicles coated in COPII proteins travel from this organelle to the Golgi apparatus. A short KDEL tag marks proteins that should be retained here rather than shipped onward, and chaperone proteins inside this organelle assist with protein folding.",
+      "r": "A muscle-cell version of this organelle stores calcium ions and releases them to trigger muscle contraction. For 10 points, name this organelle whose rough type is covered in ribosomes."
+    },
+    {
+      "p": "This organelle’s smooth type builds lipids such as fats and steroid hormones. Flattened membrane sacs called cisternae make up this organelle, which connects directly to the nuclear envelope.",
+      "r": "This organelle also helps break down drugs and alcohol in liver cells. For 10 points, name this organelle that transports proteins made on its rough, ribosome-covered type."
+    },
+    {
+      "p": "Beyond its muscle-cell calcium-storing version, this organelle also stores and releases calcium ions as a signal in many other kinds of cells. The final step of gluconeogenesis occurs within this organelle’s lumen.",
+      "r": "Found in a lace-like network throughout the cytoplasm, this organelle is missing from simple bacterial cells. For 10 points, name this organelle that ships material to the Golgi apparatus."
+    },
+    {
+      "p": "A buildup of unfolded proteins inside this organelle can trigger a cellular stress response. This organelle’s rough type is where proteins meant for secretion outside the cell are assembled and folded.",
+      "r": "This organelle’s smooth type, found heavily in liver cells, helps detoxify alcohol and other drugs. For 10 points, name this organelle whose two main types are called rough and smooth."
+    },
+    {
+      "p": "The flattened sacs making up this organelle are called cisternae, and this organelle attaches directly to the nuclear envelope. Chaperone proteins here help newly built proteins fold correctly.",
+      "r": "In muscle cells, a specialized version of this organelle releases calcium ions to start muscle contraction. For 10 points, name this organelle that works with the Golgi apparatus to form the endomembrane system."
+    },
+    {
+      "p": "Hormone-producing glands rely on this organelle’s smooth type to build steroid hormones. A KDEL sequence tags proteins that belong in this organelle, so that COPI-coated vesicles can bring back any that escape.",
+      "r": "This organelle’s rough type is covered in ribosomes that manufacture proteins. For 10 points, name this winding network of folded membranes found in nearly every eukaryotic cell."
+    },
+    {
+      "p": "This organelle’s lumen hosts the last step of gluconeogenesis, while its smooth type helps liver cells break down alcohol. Vesicles coated in COPII ferry material from this organelle onward to the Golgi apparatus.",
+      "r": "A calcium-storing version of this organelle surrounds the contracting fibers inside muscle cells. For 10 points, name this organelle whose rough and smooth types look different because only one is studded with ribosomes."
+    },
+    {
+      "p": "Made of folded membranes called cisternae, this organelle connects directly to the nuclear envelope and forms a lace-like network through the cytoplasm. Unfolded proteins piling up inside it can trigger a stress response.",
+      "r": "This organelle’s rough type builds proteins meant to be secreted from the cell. For 10 points, name this organelle, found in eukaryotic but not bacterial cells, that also produces lipids on its smooth type."
+    },
+    {
+      "p": "Chaperone proteins inside this organelle fold newly made proteins, and a built-in KDEL tag marks the ones that should stay rather than travel onward in a COPII vesicle. Steroid hormones are built on this organelle’s smooth type in hormone-producing glands.",
+      "r": "A muscle-cell version of this organelle stores calcium for contraction. For 10 points, name this organelle that connects to the nuclear envelope and ships finished material to the Golgi apparatus."
+    },
+    {
+      "p": "This organelle lacks ribosomes on its smooth type, unlike the ribosome-studded surface of its rough type. Steroid hormones are manufactured on this organelle’s smooth type inside hormone-producing glands, while its rough type assembles proteins meant for secretion.",
+      "r": "This organelle connects directly to the nuclear envelope and is built from flattened membrane sacs called cisternae. For 10 points, name this organelle that stores calcium in a specialized muscle-cell form."
+    },
+    {
+      "p": "Formed from a network of cisternae connected to the nuclear envelope, this organelle sends vesicles coated in COPII proteins to the Golgi apparatus. Chaperone proteins and KDEL retention tags both help manage protein traffic inside it.",
+      "r": "This organelle’s two main varieties, rough and smooth, differ mainly in whether ribosomes cover their surface. For 10 points, name this organelle that produces lipids and helps liver cells detoxify drugs on its smooth side."
+    }
+  ],
+  "clues": [
+    {
+      "id": "rough-smooth",
+      "tier": "giveaway",
+      "t": "Comes in two main varieties, rough and smooth, named for how they look under a microscope",
+      "k": [
+        "rough",
+        "smooth"
+      ],
+      "n": 5
+    },
+    {
+      "id": "ribosomes-rough",
+      "tier": "giveaway",
+      "t": "Its rough type is studded with ribosomes along the outside, which help build proteins",
+      "k": [
+        "ribosomes",
+        "rough"
+      ],
+      "n": 3
+    },
+    {
+      "id": "transport",
+      "tier": "giveaway",
+      "t": "Transports proteins and other cell materials from place to place inside the cell",
+      "k": [
+        "transports proteins"
+      ],
+      "n": 3
+    },
+    {
+      "id": "smooth-lipids",
+      "tier": "giveaway",
+      "t": "Its smooth type builds lipids such as fats and steroid hormones, and helps break down drugs and poisons",
+      "k": [
+        "lipids",
+        "steroid hormones"
+      ],
+      "n": 0
+    },
+    {
+      "id": "network",
+      "tier": "giveaway",
+      "t": "Forms a winding, lace-like network of folded membranes spread through the cytoplasm",
+      "k": [
+        "network of folded membranes",
+        "lace-like"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nuclear-envelope",
+      "tier": "middle",
+      "t": "Physically connected to the nuclear envelope, the double membrane surrounding a cell’s nucleus",
+      "k": [
+        "nuclear envelope"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cisternae",
+      "tier": "middle",
+      "t": "Made of flattened sacs and tubes called cisternae",
+      "k": [
+        "cisternae"
+      ],
+      "n": 2
+    },
+    {
+      "id": "sarcoplasmic",
+      "tier": "middle",
+      "t": "A specialized version found in muscle cells stores and releases calcium ions to help muscles contract",
+      "k": [
+        "muscle cells",
+        "calcium ions"
+      ],
+      "n": 2
+    },
+    {
+      "id": "golgi-vesicles",
+      "tier": "middle",
+      "t": "Ships material onward to the Golgi apparatus inside vesicles coated with COPII proteins; COPI-coated vesicles carry strays back",
+      "k": [
+        "golgi apparatus",
+        "copi",
+        "copii"
+      ],
+      "n": 3
+    },
+    {
+      "id": "kdel",
+      "tier": "middle",
+      "t": "A short amino-acid tag called KDEL marks proteins that should stay here instead of moving on",
+      "k": [
+        "kdel"
+      ],
+      "n": 2
+    },
+    {
+      "id": "stress-response",
+      "tier": "middle",
+      "t": "Builds up unfolded proteins and triggers a stress response when overwhelmed",
+      "k": [
+        "stress response",
+        "unfolded proteins"
+      ],
+      "n": 1
+    },
+    {
+      "id": "found-in-eukaryotes",
+      "tier": "middle",
+      "t": "Found in nearly all eukaryotic cells, but absent from the simpler cells of bacteria",
+      "k": [
+        "eukaryotic cells",
+        "bacteria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chaperonins",
+      "tier": "power",
+      "t": "Chaperone proteins inside help fold newly made proteins into their correct shape",
+      "k": [
+        "chaperone proteins",
+        "correct shape"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gluconeogenesis-lumen",
+      "tier": "power",
+      "t": "The last step of gluconeogenesis takes place inside this structure’s lumen",
+      "k": [
+        "gluconeogenesis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "detox-liver-cells",
+      "tier": "power",
+      "t": "Its smooth type is especially abundant in liver cells, where it helps break down alcohol and other drugs",
+      "k": [
+        "detoxifies drugs",
+        "liver cells"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rer-protein-secretion",
+      "tier": "power",
+      "t": "Proteins meant for secretion outside the cell, or for the cell membrane, are built and folded on its rough type",
+      "k": [
+        "secretion",
+        "rough type"
+      ],
+      "n": 0
+    },
+    {
+      "id": "continuous-with-golgi",
+      "tier": "power",
+      "t": "Forms a transport pathway together with the Golgi apparatus, sometimes called the endomembrane system",
+      "k": [
+        "endomembrane system"
+      ],
+      "n": 0
+    },
+    {
+      "id": "steroid-hormone-synthesis",
+      "tier": "power",
+      "t": "Cells in hormone-producing glands rely on its smooth type to manufacture steroid hormones",
+      "k": [
+        "steroid hormones",
+        "hormone producing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-ribosomes-smooth",
+      "tier": "power",
+      "t": "Its smooth type lacks the ribosomes found on the rough type, giving it a smoother appearance under a microscope",
+      "k": [
+        "ribosomes",
+        "lacks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calcium-signaling",
+      "tier": "power",
+      "t": "Beyond muscle cells, this structure also stores and releases calcium ions as a signal inside many other cell types",
+      "k": [
+        "calcium ions",
+        "signal"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "ER, ribosomes, or Golgi?",
+    "body": "Clues about ribosomes dotting a membrane surface, or about vesicles heading onward to the Golgi apparatus, describe neighbors of this organelle rather than the organelle itself. Ribosomes merely sit on the outside of its rough type; the Golgi apparatus is the very next stop after it in the cell’s shipping route.",
+    "fix": "If the clue says proteins are built ON ribosomes or shipped TO the Golgi, wait for a clue describing the folded membrane network itself — cisternae, KDEL tags, or the rough/smooth distinction — before buzzing with this answer.",
+    "line": "Real answer line: <b><u>Endoplasmic reticulum</u></b> (accept ER; accept rough or smooth ER; accept sarcoplasmic reticulum)"
+  },
+  "freq": {
+    "rank": 4,
+    "count": 8,
+    "list": "Biology"
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "id": "iliad",
+  "name": "Iliad",
+  "mono": "ILI",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Homer’s epic of the Trojan War’s final year · Root of Western literature",
+  "dates": "Composed c. 8th century BCE",
+  "briefing": "The _Iliad_ is Homer’s epic poem about a few weeks in the final year of a ten-year Greek siege of Troy. It opens with the hero Achilles raging at his commander Agamemnon, and it ends with the Trojan king Priam ransoming the body of his son Hector, whom Achilles has killed. Along the way the gods take sides, armies clash outside the city walls, and Achilles loses his dearest companion, Patroclus.",
+  "answerHtml": "<b><u>Iliad</u></b> (or <u>The Iliad</u>; accept <u>Ilias</u>)",
+  "accept": [
+    "iliad",
+    "the iliad",
+    "ilias"
+  ],
+  "prompt": [],
+  "reject": [
+    "odyssey",
+    "aeneid",
+    "trojan war",
+    "troy",
+    "achilles",
+    "hector"
+  ],
+  "tests": {
+    "right": [
+      "Iliad",
+      "The Iliad",
+      "Illiad",
+      "Ilias",
+      "the Iliad"
+    ],
+    "prompt": [],
+    "wrong": [
+      "The Odyssey",
+      "The Aeneid",
+      "Achilles",
+      "Troy",
+      "The Trojan War"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Iliad by Homer | Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=-QPXpCqwHec",
+      "note": "Summary and analysis of the whole poem, from Achilles’s anger to Hector’s funeral (war deaths)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "CLEAN Classics Summarized: The Iliad",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=WuXJJ-I1LqQ",
+      "note": "Funny illustrated retelling of the whole plot, in OSP’s clean cut with no swearing (battle scenes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Iliad by Homer | Book 2 Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=WYH0OO3reEI",
+      "note": "Deep dive on Book 2: Agamemnon’s false dream and the Catalogue of Ships"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "The Iliad",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/the-iliad",
+      "note": "Quick plot summary and key facts about the poem"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Iliad",
+  "qb": {
+    "q": "Iliad",
+    "found": 2,
+    "tip": "Only 2 Middle School/Easy High School tossups exist for this exact query; a Regular High School search found 1 more usable tossup plus an off-topic one on the separate ‘Troy’ answer line, which was skipped."
+  },
+  "sample": {
+    "n": 3,
+    "note": "the 2 real Middle School/Easy High School QBReader tossups for this answer line plus 1 Regular High School tossup, all power-marked"
+  },
+  "tossups": [
+    {
+      "p": "After Hera grants it the power of human speech, this poem’s hero Achilles’s horse Xanthus warns its master of his approaching death. Elsewhere in this work, the archer Pandarus breaks a fragile truce by putting an arrow into Menelaus’s side, egged on by Athena in disguise.",
+      "r": "Hephaestus forges that same hero a dazzling new shield decorated with scenes of the whole world. For 10 points, name this Greek epic about the Trojan War, attributed to Homer."
+    },
+    {
+      "p": "In this epic, Zeus’s mortal son Sarpedon falls to Patroclus’s spear, and the grieving king of the gods weeps tears of blood. Earlier in the same work, Achilles’s mother Thetis, a sea nymph, convinces Zeus to let the Trojans win while her son sits out the fighting.",
+      "r": "Achilles returns to battle only after Hector kills Patroclus, who was wearing Achilles’s own armor. For 10 points, name this epic poem in which a quarrel with Agamemnon drives Achilles’s rage during the Trojan War."
+    },
+    {
+      "p": "Agamemnon dispatches Odysseus and Ajax to offer this poem’s central hero rich gifts and the return of a captured woman, but the sulking warrior turns them down flat. Earlier in the same poem, Paris briefly duels Menelaus one-on-one until Aphrodite spirits the overmatched Trojan prince away.",
+      "r": "Helen herself names the Greek champions from atop Troy’s walls for old King Priam. For 10 points, identify this epic that climaxes with Hector’s death and Priam’s ransom of his son’s body."
+    },
+    {
+      "p": "In this work, a priest named Chryses prays to Apollo for a plague after Agamemnon refuses to free his captured daughter, Chryseis. That same quarrel over captive women also costs the hero Achilles his prize, Briseis, pushing him to withdraw from battle.",
+      "r": "Hector’s wife Andromache and infant son Astyanax say a tearful goodbye to him atop the walls of Troy in this poem. For 10 points, name this poem that ends with Priam ransoming his son Hector’s corpse from Achilles."
+    },
+    {
+      "p": "Book 2 of this work catalogues the ships and contingents that Agamemnon, Diomedes, and other Greek kings bring to the battlefield. Later in the poem, that same Diomedes wounds both Aphrodite and Ares in combat with help from Athena.",
+      "r": "Near the end, funeral games featuring a chariot race honor the hero’s fallen companion. For 10 points, name this Greek epic traditionally credited to Homer."
+    },
+    {
+      "p": "This poem opens by invoking a Muse to sing of one warrior’s wrath after Agamemnon claims his captive woman, Briseis. Elsewhere in the same work, Zeus’s own son Sarpedon dies fighting on the Trojan side.",
+      "r": "That warrior’s companion Patroclus borrows his armor and is killed by Hector while wearing it. For 10 points, name this companion epic to the _Odyssey_."
+    },
+    {
+      "p": "In this epic, a Trojan archer named Pandarus wounds Menelaus with an arrow during a broken truce, touching off furious fighting. Nestor, the elderly king of Pylos, offers counsel to the Greek commanders throughout this same work.",
+      "r": "Hector strips a dead man’s borrowed armor before being killed himself by Achilles. For 10 points, name this Greek epic set in the war’s tenth and final year."
+    },
+    {
+      "p": "Hephaestus forges an elaborately decorated shield for this poem’s central hero, whose horse Xanthus is briefly given the power of human speech. That hero’s mother, the sea nymph Thetis, had begged Zeus to punish the Greeks for dishonoring her son.",
+      "r": "The hero of this poem kills Hector to avenge Patroclus, then drags the body behind his chariot. For 10 points, name this poem whose central figure finally gives up Hector’s corpse to King Priam."
+    },
+    {
+      "p": "Helen points out Greek warriors by name to Priam from atop the walls of the besieged city in this poem. Soon afterward in the same work, Paris and Menelaus’s single combat for Helen’s hand is cut short when Aphrodite whisks Paris to safety.",
+      "r": "This work’s war began when Paris carried off Menelaus’s wife, Helen. For 10 points, name this Trojan War epic attributed to Homer."
+    },
+    {
+      "p": "In this poem, the priest Chryses’s prayers bring a plague down on the Greek camp after his daughter Chryseis is seized by Agamemnon. Odysseus and Ajax later fail to talk this poem’s central hero out of his anger during an embassy bearing gifts.",
+      "r": "That hero returns to battle only after his companion Patroclus is killed while wearing his armor. For 10 points, name this epic about Achilles’s rage during the Trojan War."
+    },
+    {
+      "p": "The funeral games held for a fallen warrior in this poem include a chariot race and other contests. Diomedes, guided by Athena, wounds two different gods on the battlefield of this same work.",
+      "r": "This poem’s Catalogue of Ships lists the Greek forces besieging Troy. For 10 points, name this epic poem that ends with Priam ransoming Hector’s body, written by Homer."
+    },
+    {
+      "p": "Hector’s wife begs him not to return to combat, with their baby son beside her, in a scene from early in this poem. Zeus weeps tears of blood when his own son Sarpedon dies in this poem’s fighting.",
+      "r": "This poem’s central quarrel begins when Agamemnon takes the captive woman Briseis away from Achilles. For 10 points, name this epic that is a companion piece to the _Odyssey_."
+    },
+    {
+      "p": "Funeral games for Patroclus, including a chariot race, take place late in this epic poem. Earlier, this poem’s narrative follows the wrath of a hero after Agamemnon dishonors him by seizing his captive, Briseis.",
+      "r": "This poem ends after Achilles allows the Trojan king Priam to ransom his son Hector’s corpse. For 10 points, name this epic attributed to Homer and set during the Trojan War."
+    },
+    {
+      "p": "This poem’s fourth book features the archer Pandarus breaking a truce by wounding Menelaus, while its eighteenth book features Hephaestus forging a new shield for its hero. Nestor, an aging king, counsels the Greeks throughout the fighting in this work.",
+      "r": "This poem opens with a quarrel between Agamemnon and Achilles over the captive Briseis. For 10 points, name this Greek epic set in the final year of the Trojan War."
+    },
+    {
+      "p": "After this poem’s hero kills Hector and drags his body behind a chariot, the grieving king Priam travels to ransom his son’s corpse. Earlier in the poem, Thetis asks Zeus to let the Trojans win while her son refuses to fight.",
+      "r": "This epic, a companion to the _Odyssey_, begins by invoking a Muse to sing of Achilles’s rage. For 10 points, name this poem about the Trojan War traditionally credited to Homer."
+    }
+  ],
+  "clues": [
+    {
+      "id": "trojan-war-epic",
+      "tier": "giveaway",
+      "t": "Greek epic poem about the Trojan War, attributed to the poet Homer",
+      "k": [
+        "trojan war",
+        "homer",
+        "epic poem"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ten-year-war",
+      "tier": "giveaway",
+      "t": "Set near the end of a ten-year Greek siege of the city of Troy",
+      "k": [
+        "ten year",
+        "troy",
+        "siege"
+      ],
+      "n": 0,
+      "rabbit": "Trojan War"
+    },
+    {
+      "id": "odyssey-companion",
+      "tier": "giveaway",
+      "t": "Companion epic to the _Odyssey_, also credited to Homer",
+      "k": [
+        "odyssey",
+        "companion",
+        "homer"
+      ],
+      "n": 1,
+      "rabbit": "Odyssey"
+    },
+    {
+      "id": "oral-epic-form",
+      "tier": "giveaway",
+      "t": "Composed in dactylic hexameter verse and passed down orally for generations before being written down",
+      "k": [
+        "dactylic hexameter",
+        "orally",
+        "verse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "achilles-rage",
+      "tier": "middle",
+      "t": "Opens by invoking a Muse to sing of the hero Achilles’s rage at his commander Agamemnon",
+      "k": [
+        "achilles",
+        "rage",
+        "agamemnon"
+      ],
+      "n": 2,
+      "rabbit": "Achilles"
+    },
+    {
+      "id": "briseis-quarrel",
+      "tier": "middle",
+      "t": "The quarrel begins when Agamemnon takes Achilles’s captive woman, Briseis, as his own",
+      "k": [
+        "briseis",
+        "captive woman",
+        "quarrel"
+      ],
+      "n": 1
+    },
+    {
+      "id": "helen-paris",
+      "tier": "middle",
+      "t": "The war traces back to the Trojan prince Paris carrying off Helen, wife of the Greek king Menelaus",
+      "k": [
+        "paris",
+        "helen",
+        "menelaus"
+      ],
+      "n": 1,
+      "rabbit": "Helen of Troy"
+    },
+    {
+      "id": "patroclus-death",
+      "tier": "middle",
+      "t": "Patroclus, Achilles’s close companion, is killed by Hector while wearing Achilles’s own armor",
+      "k": [
+        "patroclus",
+        "armor",
+        "hector"
+      ],
+      "n": 3,
+      "rabbit": "Patroclus"
+    },
+    {
+      "id": "hector-dragged",
+      "tier": "middle",
+      "t": "After killing Hector, Achilles drags the corpse behind his chariot in grief and rage",
+      "k": [
+        "dragged",
+        "corpse",
+        "chariot"
+      ],
+      "n": 1
+    },
+    {
+      "id": "priam-ransom",
+      "tier": "middle",
+      "t": "Guided secretly by the god Hermes, King Priam travels to Achilles’s tent to ransom Hector’s body, ending the poem",
+      "k": [
+        "priam",
+        "hermes",
+        "ransom"
+      ],
+      "n": 1,
+      "rabbit": "Troy"
+    },
+    {
+      "id": "funeral-games",
+      "tier": "middle",
+      "t": "Funeral games held for Patroclus include a chariot race and other contests",
+      "k": [
+        "funeral games",
+        "chariot race"
+      ],
+      "n": 1
+    },
+    {
+      "id": "twelve-day-truce",
+      "tier": "middle",
+      "t": "Near the poem’s end, Achilles grants a roughly twelve-day truce so the Trojans can hold Hector’s funeral",
+      "k": [
+        "twelve day",
+        "truce",
+        "funeral"
+      ],
+      "n": 1
+    },
+    {
+      "id": "diomedes-wounds-gods",
+      "tier": "power",
+      "t": "Diomedes, aided by Athena, wounds both Aphrodite and Ares on the battlefield",
+      "k": [
+        "diomedes",
+        "aphrodite",
+        "ares"
+      ],
+      "n": 1,
+      "rabbit": "Diomedes"
+    },
+    {
+      "id": "catalogue-of-ships",
+      "tier": "power",
+      "t": "Book 2’s Catalogue of Ships lists the Greek contingents led by Agamemnon, Diomedes, and others",
+      "k": [
+        "catalogue of ships",
+        "contingents"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chryseis-plague",
+      "tier": "power",
+      "t": "The priest Chryses prays to Apollo for a plague after Agamemnon seizes his daughter Chryseis",
+      "k": [
+        "chryseis",
+        "chryses",
+        "plague"
+      ],
+      "n": 1
+    },
+    {
+      "id": "embassy-to-achilles",
+      "tier": "power",
+      "t": "Odysseus and Ajax lead an embassy offering Achilles gifts to rejoin the fighting, but he refuses",
+      "k": [
+        "embassy",
+        "odysseus",
+        "ajax"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thetis-zeus",
+      "tier": "power",
+      "t": "Achilles’s sea-nymph mother Thetis begs Zeus to favor the Trojans while her son refuses to fight",
+      "k": [
+        "thetis",
+        "sea nymph",
+        "zeus"
+      ],
+      "n": 0,
+      "rabbit": "Thetis"
+    },
+    {
+      "id": "shield-of-achilles",
+      "tier": "power",
+      "t": "Hephaestus forges Achilles a new shield decorated with scenes of the whole world",
+      "k": [
+        "hephaestus",
+        "shield",
+        "forges"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sarpedon-death",
+      "tier": "power",
+      "t": "Zeus’s mortal son Sarpedon is killed by Patroclus, and Zeus weeps tears of blood in grief",
+      "k": [
+        "sarpedon",
+        "tears of blood"
+      ],
+      "n": 0
+    },
+    {
+      "id": "paris-menelaus-duel",
+      "tier": "power",
+      "t": "Paris duels Menelaus one-on-one for Helen, but Aphrodite whisks Paris away to safety",
+      "k": [
+        "duel",
+        "aphrodite",
+        "whisks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pandarus-arrow",
+      "tier": "power",
+      "t": "The archer Pandarus wounds Menelaus with an arrow, breaking a truce between the armies",
+      "k": [
+        "pandarus",
+        "archer",
+        "arrow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "andromache-astyanax",
+      "tier": "power",
+      "t": "Hector says goodbye to his wife Andromache and baby son Astyanax before returning to battle",
+      "k": [
+        "andromache",
+        "astyanax"
+      ],
+      "n": 0,
+      "rabbit": "Hector"
+    },
+    {
+      "id": "xanthus-speaks",
+      "tier": "power",
+      "t": "Given a voice by Hera, Achilles’s horse Xanthus briefly speaks to warn him of his coming death",
+      "k": [
+        "xanthus",
+        "horse",
+        "speaks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "helen-on-walls",
+      "tier": "power",
+      "t": "Helen stands on the walls of Troy and names the Greek warriors below for King Priam",
+      "k": [
+        "helen",
+        "walls of troy",
+        "names"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "No Trojan Horse here",
+    "body": "Many kids assume the famous Trojan Horse trick happens in the Iliad, but it doesn’t. This poem ends with Hector’s funeral, well before Troy actually falls. The horse shows up only in brief flashbacks in the Odyssey and gets its full telling in Virgil’s Aeneid.",
+    "fix": "If a clue describes the wooden horse, Sinon’s trick, or the city of Troy actually burning, the answer is the Aeneid (or just “the Trojan War”) — not the Iliad.",
+    "line": "Real answer line: <b><u>Iliad</u></b> (accept <u>Ilias</u>)."
+  }
+}

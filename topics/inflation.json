@@ -1,0 +1,417 @@
+{
+  "id": "inflation",
+  "name": "Inflation",
+  "mono": "INF",
+  "category": "Social Science",
+  "qbCategory": "Social Science",
+  "kicker": "A broad, ongoing rise in prices · Measured by the CPI, fought by the Fed",
+  "dates": "Tracked by the U.S. CPI since 1913",
+  "briefing": "Imagine a candy bar that cost a dime in 1950 costing two dollars today — that’s inflation, the steady rise in prices that makes each dollar buy a little less over time. Economists track it every month using the Consumer Price Index, a running list of prices for everyday goods. When it spirals out of control, like in 1920s Germany or Zimbabwe in the 2000s, it is called hyperinflation, and people rush to spend money before it loses even more value.",
+  "answerHtml": "<b><u>Inflation</u></b>",
+  "accept": [
+    "inflation",
+    "hyperinflation"
+  ],
+  "prompt": [
+    "rising prices",
+    "prices going up",
+    "higher prices"
+  ],
+  "reject": [
+    "deflation",
+    "disinflation",
+    "stagflation",
+    "unemployment",
+    "recession",
+    "gdp"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is inflation?",
+      "source": "Bank of England",
+      "url": "https://www.youtube.com/watch?v=abdq4p2HaJo",
+      "note": "Britain’s central bank explains what inflation is and why it matters"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is Inflation? | It’s simple. Kind of …",
+      "source": "Texas Comptroller",
+      "url": "https://www.youtube.com/watch?v=Ou0l5lcGrR4",
+      "note": "Plain-language explainer of why a dollar buys less when prices rise"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Inflation and Bubbles and Tulips: Crash Course Economics #7",
+      "source": "Crash Course Economics",
+      "url": "https://www.youtube.com/watch?v=T8-85cZRI9o",
+      "note": "How inflation is measured, runaway hyperinflation, and the Dutch tulip bubble"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Macroeconomics: Crash Course Economics #5",
+      "source": "Crash Course Economics",
+      "url": "https://www.youtube.com/watch?v=d8uTB5XorBw",
+      "note": "Bigger picture: GDP, unemployment, and inflation, the three big numbers economists watch"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Inflation Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Inflation",
+      "note": "Quick read: what inflation is, how it is measured, and how central banks fight it"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Inflation",
+  "qb": {
+    "q": "inflation",
+    "found": 2,
+    "tip": "Nearly every real tossup leans on the Phillips Curve, the CPI, and demand-pull/cost-push causes; one Regular HS hit under this query was actually about “demand” instead and got skipped."
+  },
+  "sample": {
+    "n": 13,
+    "note": "2 real Middle School/Easy High School tossups plus 11 Regular High School tossups (13 total, power-marked, Social Science category) for this answer line"
+  },
+  "tossups": [
+    {
+      "p": "Milton Friedman argued that growth in the money supply was always and everywhere the true cause of this phenomenon, a core idea of his monetarist school of thought. He once described it as “taxation without legislation,” since no law ever has to pass for it to quietly shrink what people’s money is worth.",
+      "r": "The Phillips Curve traditionally plots this phenomenon against unemployment, moving in opposite directions. For 10 points, name this general rise in prices across an economy."
+    },
+    {
+      "p": "Economist Robert Gordon’s “triangle model” explains this phenomenon through three forces: “demand-pull,” caused by strong consumer demand; “cost-push,” caused by rising production costs; and a “built-in” expectations effect, building on an earlier Keynesian framework. The Mundell-Tobin effect separately links this phenomenon to real interest rates.",
+      "r": "It is tracked using the Consumer Price Index, a running measure of a “basket” of everyday goods. For 10 points, name this general rise in prices over time."
+    },
+    {
+      "p": "During Germany’s Weimar Republic in the 1920s, this phenomenon grew so extreme that people reportedly burned stacks of cash for warmth, since firewood cost more. Decades later, Zimbabwe suffered one of history’s worst bouts of this in the 2000s, eventually printing banknotes worth 100 trillion Zimbabwean dollars.",
+      "r": "Modern central banks typically try to keep it at around two percent a year. For 10 points, name this phenomenon of generally rising prices."
+    },
+    {
+      "p": "Federal Reserve Chairman Paul Volcker sharply raised interest rates around 1980 to beat back a stubborn bout of this phenomenon left over from the 1970s oil crisis. Research by economists Alesina and Summers later found that this phenomenon tends to run lower in countries with more independent central banks.",
+      "r": "Businesses that must constantly reprint price tags because of it face so-called “menu costs.” For 10 points, name this general, ongoing rise in prices."
+    },
+    {
+      "p": "The Tanzi effect suggests that a rising rate of this phenomenon makes it harder for governments to collect taxes effectively, since the real value of overdue payments shrinks. In the Fisher equation, the Greek letter pi represents this phenomenon, linking a loan’s nominal interest rate to its real one.",
+      "r": "“Shoe-leather costs” describe the extra trips people make trying to avoid holding on to cash during a bad bout of it. For 10 points, name this phenomenon, a general rise in prices."
+    },
+    {
+      "p": "“Menu costs” describe what businesses pay to constantly reprint price tags and relabel goods because of this phenomenon, while “shoe-leather costs” describe the extra trips people make trying to avoid holding too much cash. Its “demand-pull” type comes from strong consumer demand outpacing supply, while its “cost-push” type comes from rising production costs.",
+      "r": "The Consumer Price Index is the most common way to track it. For 10 points, name this general rise in prices over time."
+    },
+    {
+      "p": "Economists convert “nominal” dollar figures into “real” ones specifically to strip out the effect of this phenomenon over time. Monetarists sum up its basic cause as “too much money chasing too few goods,” tying it closely to how quickly a country’s money supply grows.",
+      "r": "A sister measurement, the Producer Price Index, tracks this same trend before goods ever reach store shelves. For 10 points, name this general rise in prices across an economy."
+    },
+    {
+      "p": "The Phillips Curve traditionally shows this phenomenon trading off against unemployment, so that pushing one down tends to push the other up. Studies by economists Alesina and Summers found that countries with more independent central banks tend to see lower rates of this phenomenon.",
+      "r": "Paul Volcker famously raised interest rates to fight a severe bout of it around 1980. For 10 points, name this general, ongoing rise in prices."
+    },
+    {
+      "p": "Robert Gordon’s “triangle model” builds on an earlier Keynesian framework to explain this phenomenon through demand-pull, cost-push, and built-in causes working together. Modern central banks typically aim to keep it at around two percent a year rather than eliminate it entirely.",
+      "r": "It is most often measured using the Consumer Price Index. For 10 points, name this gradual, ongoing rise in prices."
+    },
+    {
+      "p": "In the 2000s, prices in Zimbabwe rose so fast that the government eventually issued a banknote worth 100 trillion Zimbabwean dollars to keep up with this phenomenon. A strikingly similar episode struck Germany’s Weimar Republic in the 1920s, when workers reportedly needed wheelbarrows just to carry enough cash for groceries.",
+      "r": "The Phillips Curve traditionally plots this phenomenon against the unemployment rate. For 10 points, name this general rise in prices, which can become runaway in extreme cases."
+    },
+    {
+      "p": "Milton Friedman once likened this phenomenon to a dangerous disease whose only cure is slower growth in the quantity of money. He insisted that it was “always and everywhere a monetary phenomenon,” a central claim of his monetarist school of economics.",
+      "r": "The Consumer Price Index tracks it by following the cost of a basket of everyday goods. For 10 points, name this gradual rise in prices that erodes how much a dollar can buy."
+    },
+    {
+      "p": "The Fisher equation uses the Greek letter pi to represent this phenomenon while relating nominal and real interest rates. The related Mundell-Tobin effect describes a further link between this phenomenon and real interest rates, one whose exact size economists still debate.",
+      "r": "Central banks like the Federal Reserve try to slow it down by raising interest rates. For 10 points, name this general rise in prices over time."
+    },
+    {
+      "p": "“Menu costs” and “shoe-leather costs” are two of the everyday burdens this phenomenon places on businesses and households alike, forcing constant price updates and extra trips to avoid holding cash. Its two best-known types, “demand-pull” and “cost-push,” describe whether strong demand or rising costs is doing the pushing.",
+      "r": "Most modern central banks aim to keep it at around two percent a year. For 10 points, name this gradual, ongoing rise in prices across an economy."
+    },
+    {
+      "p": "The Tanzi effect notes that a surge in this phenomenon can actually hurt a government’s ability to collect taxes in real terms. Federal Reserve Chairman Paul Volcker raised interest rates sharply around 1980 to tame a stubborn version of it left over from the 1970s energy crisis.",
+      "r": "It is tracked month to month using the Consumer Price Index. For 10 points, name this general, ongoing rise in prices."
+    },
+    {
+      "p": "Economists Alesina and Summers linked lower rates of this phenomenon to greater independence for a country’s central bank, while Robert Gordon’s triangle model instead explained it through demand-pull, cost-push, and built-in causes working together. Both lines of research tried to explain what drives it.",
+      "r": "A unit of currency, like the dollar, buys less and less as this phenomenon continues. For 10 points, name this gradual, ongoing rise in prices."
+    }
+  ],
+  "clues": [
+    {
+      "id": "general-rise",
+      "tier": "giveaway",
+      "t": "A general, ongoing rise in prices across the economy, which makes money buy less over time",
+      "k": [
+        "general rise",
+        "buy less"
+      ],
+      "n": 7
+    },
+    {
+      "id": "cpi",
+      "tier": "giveaway",
+      "t": "Measured mainly with the Consumer Price Index (CPI), which tracks the cost of a “basket” of everyday goods",
+      "k": [
+        "consumer price index",
+        "cpi",
+        "basket"
+      ],
+      "n": 9
+    },
+    {
+      "id": "currency-value",
+      "tier": "giveaway",
+      "t": "Means a unit of currency, like the dollar, loses value as prices climb",
+      "k": [
+        "currency",
+        "loses value"
+      ],
+      "n": 3
+    },
+    {
+      "id": "fed-fights",
+      "tier": "giveaway",
+      "t": "Central banks like the Federal Reserve try to slow this down by raising interest rates",
+      "k": [
+        "federal reserve",
+        "interest rates"
+      ],
+      "n": 3
+    },
+    {
+      "id": "two-percent",
+      "tier": "giveaway",
+      "t": "Most modern central banks aim to keep this at around two percent a year",
+      "k": [
+        "two percent",
+        "central banks"
+      ],
+      "n": 1
+    },
+    {
+      "id": "demand-pull",
+      "tier": "middle",
+      "t": "One main type is “demand-pull,” caused by strong consumer demand outpacing supply",
+      "k": [
+        "demand pull",
+        "consumer demand"
+      ],
+      "n": 4
+    },
+    {
+      "id": "cost-push",
+      "tier": "middle",
+      "t": "The other main type, “cost-push,” happens when rising costs of production push prices up",
+      "k": [
+        "cost-push",
+        "costs of production"
+      ],
+      "n": 4
+    },
+    {
+      "id": "runaway-prices",
+      "tier": "middle",
+      "t": "An extreme, runaway version struck Germany’s Weimar Republic in the 1920s and gripped Zimbabwe in the 2000s",
+      "k": [
+        "weimar",
+        "zimbabwe",
+        "runaway"
+      ],
+      "n": 3,
+      "rabbit": "Weimar Republic"
+    },
+    {
+      "id": "menu-costs",
+      "tier": "middle",
+      "t": "Businesses face “menu costs” when they must constantly reprint price tags and relabel goods",
+      "k": [
+        "menu costs",
+        "reprint"
+      ],
+      "n": 4
+    },
+    {
+      "id": "shoe-leather",
+      "tier": "middle",
+      "t": "“Shoe-leather costs” describe the extra time and trips people spend trying to avoid holding on to cash",
+      "k": [
+        "shoe leather",
+        "avoid holding"
+      ],
+      "n": 4
+    },
+    {
+      "id": "phillips-curve",
+      "tier": "middle",
+      "t": "The Phillips Curve traditionally shows this trading off against unemployment: as one falls, the other tends to rise",
+      "k": [
+        "phillips curve",
+        "trade off"
+      ],
+      "n": 10,
+      "rabbit": "Unemployment"
+    },
+    {
+      "id": "volcker",
+      "tier": "middle",
+      "t": "Fed Chairman Paul Volcker sharply raised interest rates around 1980 to beat back a stubborn bout of this",
+      "k": [
+        "volcker",
+        "interest rates"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ppi",
+      "tier": "middle",
+      "t": "A sister measurement, the Producer Price Index, tracks this same trend before goods ever reach store shelves",
+      "k": [
+        "producer price index",
+        "store shelves"
+      ],
+      "n": 2
+    },
+    {
+      "id": "friedman-money",
+      "tier": "power",
+      "t": "Monetarist economist Milton Friedman insisted that growth in the money supply was the key driver behind this phenomenon",
+      "k": [
+        "milton friedman",
+        "money supply",
+        "monetarist"
+      ],
+      "n": 3
+    },
+    {
+      "id": "taxation-quote",
+      "tier": "power",
+      "t": "Friedman once described it as “taxation without legislation,” since it quietly reduces what people’s money is worth",
+      "k": [
+        "taxation without legislation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fisher-equation",
+      "tier": "power",
+      "t": "In the Fisher equation, the Greek letter pi stands for this, linking nominal and real interest rates",
+      "k": [
+        "fisher equation",
+        "nominal"
+      ],
+      "n": 4
+    },
+    {
+      "id": "triangle-model",
+      "tier": "power",
+      "t": "Economist Robert Gordon’s “triangle model” combines demand-pull, cost-push, and “built-in” expectations to explain this",
+      "k": [
+        "robert gordon",
+        "triangle model"
+      ],
+      "n": 3
+    },
+    {
+      "id": "mundell-tobin",
+      "tier": "power",
+      "t": "The Mundell-Tobin effect describes a link between this phenomenon and real interest rates",
+      "k": [
+        "mundell tobin",
+        "real interest"
+      ],
+      "n": 4
+    },
+    {
+      "id": "central-bank-independence",
+      "tier": "power",
+      "t": "Research by Alesina and Summers found this runs lower in countries with more independent central banks",
+      "k": [
+        "alesina",
+        "summers",
+        "independent"
+      ],
+      "n": 1
+    },
+    {
+      "id": "weimar",
+      "tier": "power",
+      "t": "During Germany’s Weimar Republic in the 1920s, this grew so extreme that people reportedly burned cash for warmth",
+      "k": [
+        "weimar republic",
+        "burned cash"
+      ],
+      "n": 1
+    },
+    {
+      "id": "zimbabwe",
+      "tier": "power",
+      "t": "Zimbabwe suffered one of history’s worst bouts of this in the 2000s, eventually printing banknotes worth 100 trillion Zimbabwean dollars",
+      "k": [
+        "zimbabwe",
+        "100 trillion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "real-nominal",
+      "tier": "power",
+      "t": "Economists adjust “nominal” figures into “real” ones specifically to account for this phenomenon’s effect over time",
+      "k": [
+        "nominal",
+        "real values"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tanzi",
+      "tier": "power",
+      "t": "The Tanzi effect suggests that a rising rate of this makes it harder for governments to collect taxes effectively",
+      "k": [
+        "tanzi effect",
+        "collect taxes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "money-chasing",
+      "tier": "power",
+      "t": "Monetarists sum it up as “too much money chasing too few goods,” tied to how fast the money supply grows",
+      "k": [
+        "too much money",
+        "money supply"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Prices, not the Big Bang",
+    "body": "Quiz bowl also asks about “cosmic inflation,” a completely different idea in Astronomy about the universe’s rapid expansion just after the Big Bang. On the economics side, the closest trap is confusing this with deflation, which is the opposite: a FALL in prices, not a rise.",
+    "fix": "Clues about the CPI, the Federal Reserve, interest rates, or “demand-pull” and “cost-push” mean the economic concept. Clues about the Big Bang, galaxies, or the early universe mean cosmic inflation instead. And remember: prices going up is this concept; prices going down is deflation.",
+    "line": "Real answer line: <b><u>Inflation</u></b> (several real sets say “do not accept or prompt on deflation”)"
+  },
+  "tests": {
+    "right": [
+      "Inflation",
+      "Inflaton",
+      "Hyperinflation",
+      "the inflation rate"
+    ],
+    "prompt": [
+      "rising prices"
+    ],
+    "wrong": [
+      "Deflation",
+      "Stagflation",
+      "Unemployment",
+      "Recession"
+    ]
+  },
+  "freq": {
+    "rank": 6,
+    "count": 4,
+    "list": "Social Science"
+  }
+}

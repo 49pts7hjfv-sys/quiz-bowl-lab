@@ -1,0 +1,414 @@
+{
+  "id": "king-lear",
+  "name": "King Lear",
+  "mono": "KL",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Shakespeare’s tragedy · An old king, three daughters, and a fatal test of love",
+  "dates": "First performed c. 1606",
+  "briefing": "William Shakespeare’s _King Lear_ opens with an aging king asking his three daughters to say how much they love him before he hands over his kingdom. Cordelia, the youngest, refuses to flatter him and is disinherited on the spot, while her sisters Goneril and Regan take her share and quickly turn on their father. Betrayed and homeless, the king wanders a storm-battered heath into madness, with his loyal Fool for company.",
+  "answerHtml": "<b><u>King Lear</u></b>",
+  "accept": [
+    "king lear",
+    "lear",
+    "the tragedy of king lear",
+    "the history of king lear"
+  ],
+  "prompt": [],
+  "reject": [
+    "cordelia",
+    "goneril",
+    "regan",
+    "gloucester",
+    "earl of gloucester",
+    "edmund",
+    "edgar",
+    "the fool",
+    "earl of kent",
+    "macbeth",
+    "hamlet",
+    "othello",
+    "the tempest"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "King Lear by Shmoop",
+      "source": "Shmoop",
+      "url": "https://www.youtube.com/watch?v=E-n9HbYQkaM",
+      "note": "Shmoop’s cartoon overview of the play (tragic, violent ending)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "King Lear Full Plot Summary in Under 6 Minutes",
+      "source": "Schooling Online",
+      "url": "https://www.youtube.com/watch?v=e0cN22Fnl40",
+      "note": "Under 6 min · the whole plot, from Lear dividing his kingdom to the tragic ending"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Video SparkNotes: Shakespeare’s King Lear summary",
+      "source": "SparkNotes",
+      "url": "https://www.youtube.com/watch?v=ptXr7LKylpg",
+      "note": "Plot summary of the whole play (violent ending)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Shakespeare’s Tragedies and an Acting Lesson: Crash Course Theater #15",
+      "source": "Crash Course Theater",
+      "url": "https://www.youtube.com/watch?v=9m5I-HO3w8w",
+      "note": "Bigger picture · Shakespeare’s tragedies as a group, plus an acting lesson"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "King Lear",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/king-lear",
+      "note": "Study guide: key facts (setting, genre, climax), background, and a link to the full summary"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/King_Lear",
+  "qb": {
+    "q": "King Lear",
+    "found": 1,
+    "tip": "Only one Middle School/Easy High School tossup exists; the Regular High School sample leans heavily on Edgar’s “Poor Tom” disguise and the blinded Gloucester’s imaginary cliff."
+  },
+  "sample": {
+    "n": 11,
+    "note": "11 real QBReader tossups (1 Middle School/Easy High School + 10 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In his madness, this play’s protagonist holds a mock trial of his two elder daughters and names a stool as one defendant. Earlier, that same protagonist tells his youngest daughter “nothing will come of nothing” after she refuses to flatter him.",
+      "r": "That daughter, Cordelia, is disinherited, while Goneril and Regan divide the kingdom and then turn on their father. For 10 points, name this Shakespearean tragedy about an aging king driven mad by his daughters’ cruelty."
+    },
+    {
+      "p": "A nobleman in this play loses a trial by combat and admits that “the wheel is come full circle.” That same character, the illegitimate son of the Earl of Gloucester, earlier delivers a soliloquy beginning “Thou, Nature, art my goddess.”",
+      "r": "That schemer, Edmund, frames his legitimate brother Edgar, who flees in disguise. For 10 points, name this Shakespeare play in which an aging king divides his kingdom among his three daughters."
+    },
+    {
+      "p": "The 17th-century playwright Nahum Tate rewrote this play with a happy ending in which a line promises that “truth and virtue shall at last succeed.” In the real version, the Duke of Cornwall blinds a nobleman for helping the exiled protagonist.",
+      "r": "That blinded nobleman, the Earl of Gloucester, is then led by his disguised son to believe he has jumped off a cliff. For 10 points, name this Shakespearean tragedy about a king and his three daughters."
+    },
+    {
+      "p": "The Fool repeatedly calls this play’s protagonist “nuncle” before vanishing from the story without explanation after Act III. Earlier in the play, that protagonist curses the sky during a storm, crying “Blow, winds, and crack your cheeks! Rage! Blow!”",
+      "r": "That storm comes after the protagonist’s daughters Goneril and Regan reduce his retinue of knights. For 10 points, name this Shakespeare play in which an aging king disinherits his youngest daughter, Cordelia."
+    },
+    {
+      "p": "Disguised as a peasant, a nobleman’s son in this play kills Oswald, a steward loyal to Goneril. Earlier, as the beggar “Poor Tom,” that same son leads his own blinded father to believe he has jumped off a cliff, saving him from suicide.",
+      "r": "That father, the Earl of Gloucester, had been blinded by the Duke of Cornwall for aiding the king. For 10 points, name this Shakespeare play about a king who divides his kingdom among his three daughters."
+    },
+    {
+      "p": "A blinded nobleman in this play laments, “As flies to wanton boys are we to the gods; they kill us for their sport.” That same character is tricked by his disguised son into believing he has survived a fall from a cliff.",
+      "r": "Meanwhile, the king’s Fool calls him “nuncle” as the two wander a storm-swept heath. For 10 points, name this Shakespearean tragedy in which an old king casts out his honest daughter, Cordelia."
+    },
+    {
+      "p": "The King of France marries this play’s youngest heroine despite her father disinheriting her without a dowry. That same heroine says she cannot “heave her heart into her mouth,” refusing to overstate her love for her father the way her sisters do.",
+      "r": "Her sisters, Goneril and Regan, then turn against their father after dividing his kingdom between them. For 10 points, name this Shakespeare play in which Cordelia is the only loyal daughter of the title ruler."
+    },
+    {
+      "p": "The loyal Earl of Kent is banished in this play for objecting to the protagonist’s harsh treatment of his youngest daughter. In disguise, Kent continues to serve that same king throughout the rest of the play.",
+      "r": "Meanwhile, Edmund, the Earl of Gloucester’s illegitimate son, frames his brother Edgar and is desired by both Goneril and Regan. For 10 points, name this Shakespeare play about a king who divides his realm among his daughters."
+    },
+    {
+      "p": "The English poet John Keats wrote a sonnet about sitting down once again to reread this tragedy. In this play, a blinded nobleman is led by his disguised son, who pretends to be a beggar called “Poor Tom,” to believe he has jumped from a cliff.",
+      "r": "That nobleman, the Earl of Gloucester, had been punished by the Duke of Cornwall for helping the title king. For 10 points, name this Shakespeare play in which an old ruler is driven mad by his daughters."
+    },
+    {
+      "p": "Goneril and Regan, two sisters in this play, both desire the scheming Edmund; Goneril poisons her sister and then takes her own life. Edmund is fatally wounded in a duel with his legitimate brother, Edgar.",
+      "r": "Earlier in this play, the sisters’ father divides his kingdom between them after disinheriting their honest younger sister, Cordelia. For 10 points, name this Shakespearean tragedy about an old king’s disastrous test of his daughters’ love."
+    },
+    {
+      "p": "This play’s protagonist rages against a storm on a heath, shouting for the winds to crack their cheeks, after his own daughters strip him of his knights and shelter. The Fool stays by that protagonist’s side on the heath, offering sorrowful jokes before disappearing from the play.",
+      "r": "The protagonist’s youngest daughter, Cordelia, had earlier been disinherited for refusing to flatter him. For 10 points, name this Shakespeare play in which an old king eventually dies of grief over Cordelia’s body."
+    },
+    {
+      "p": "A nobleman’s illegitimate son in this play delivers a soliloquy beginning “Thou, Nature, art my goddess,” resenting that he is treated as lesser because of his birth. That schemer, Edmund, later loses a trial by combat to his own legitimate brother, Edgar.",
+      "r": "Edmund had earlier convinced his father, the Earl of Gloucester, to turn against Edgar. For 10 points, name this Shakespeare play in which an aging king divides his kingdom among his three daughters."
+    },
+    {
+      "p": "The Duke of Cornwall blinds a loyal nobleman in this play as punishment for helping the exiled protagonist. That nobleman’s son, disguised as a mad beggar called “Poor Tom,” secretly guides his blinded father across the countryside.",
+      "r": "Believing he has jumped off a cliff and survived, the blinded man gives up on suicide in this play. For 10 points, name this Shakespearean tragedy about a king and his three daughters, Cordelia, Goneril, and Regan."
+    },
+    {
+      "p": "This play’s Fool vanishes from the story without explanation after a final quip about going “to bed at noon.” Earlier, this play’s protagonist is reduced to holding a mock trial of a stool, which stands in for one of his cruel daughters.",
+      "r": "That protagonist eventually dies of grief after his daughter Cordelia is put to death. For 10 points, name this Shakespeare play in which an old king divides his realm among his three daughters."
+    },
+    {
+      "p": "This play’s King of France agrees to marry a disinherited princess with no dowry after her father casts her out. That same father had earlier told her “nothing will come of nothing” when she refused to flatter him like her sisters.",
+      "r": "That princess, Cordelia, is the only one of the title ruler’s three daughters who truly loves him. For 10 points, name this Shakespearean tragedy in which an old king descends into madness on a storm-swept heath."
+    }
+  ],
+  "clues": [
+    {
+      "id": "three-daughters",
+      "tier": "giveaway",
+      "t": "An aging king divides his kingdom among his three daughters based on how much they profess to love him, disinheriting the honest Cordelia",
+      "k": [
+        "three daughters",
+        "disinherits cordelia"
+      ],
+      "n": 11
+    },
+    {
+      "id": "shakespeare-1606",
+      "tier": "giveaway",
+      "t": "Written by William Shakespeare; first performed around 1606",
+      "k": [
+        "shakespeare",
+        "1606"
+      ],
+      "n": 11
+    },
+    {
+      "id": "goneril-regan-turn",
+      "tier": "giveaway",
+      "t": "Goneril and Regan divide their father’s kingdom between them and then turn against him",
+      "k": [
+        "goneril and regan",
+        "turn against him"
+      ],
+      "n": 9
+    },
+    {
+      "id": "heath-madness-fool",
+      "tier": "giveaway",
+      "t": "The old king wanders onto a stormy heath, descending into madness, with his Fool for company",
+      "k": [
+        "stormy heath",
+        "madness"
+      ],
+      "n": 4,
+      "rabbit": "The Fool"
+    },
+    {
+      "id": "dies-of-grief",
+      "tier": "giveaway",
+      "t": "At the end, the old king dies of grief after his daughter Cordelia is put to death",
+      "k": [
+        "dies of grief",
+        "cordelia dies"
+      ],
+      "n": 2
+    },
+    {
+      "id": "heave-heart",
+      "tier": "middle",
+      "t": "Cordelia says she cannot “heave her heart into her mouth,” refusing to overstate her love the way her sisters do",
+      "k": [
+        "heave her heart",
+        "cordelia"
+      ],
+      "n": 1,
+      "rabbit": "Cordelia"
+    },
+    {
+      "id": "king-of-france",
+      "tier": "middle",
+      "t": "The King of France marries Cordelia even though she has been disinherited and given no dowry",
+      "k": [
+        "king of france",
+        "no dowry"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gloucesters-sons",
+      "tier": "middle",
+      "t": "The Earl of Gloucester has two sons: the legitimate Edgar and the scheming, illegitimate Edmund",
+      "k": [
+        "gloucester’s sons",
+        "illegitimate edmund"
+      ],
+      "n": 6,
+      "rabbit": "Earl of Gloucester"
+    },
+    {
+      "id": "poor-tom-cliff",
+      "tier": "middle",
+      "t": "Disguised as the beggar “Poor Tom,” Edgar leads his own blinded father to believe he has jumped off a cliff, saving him from suicide",
+      "k": [
+        "poor tom",
+        "imaginary cliff"
+      ],
+      "n": 8,
+      "rabbit": "Edgar"
+    },
+    {
+      "id": "cornwall-blinds",
+      "tier": "middle",
+      "t": "The Duke of Cornwall blinds the Earl of Gloucester as punishment for helping the exiled king",
+      "k": [
+        "duke of cornwall",
+        "blinds gloucester"
+      ],
+      "n": 3
+    },
+    {
+      "id": "fool-vanishes",
+      "tier": "middle",
+      "t": "The king’s Fool offers witty, sorrowful commentary on his master’s choices, then vanishes from the play without explanation after Act III",
+      "k": [
+        "the fool",
+        "vanishes"
+      ],
+      "n": 3
+    },
+    {
+      "id": "goneril-poisons-regan",
+      "tier": "middle",
+      "t": "Goneril and Regan both desire the scheming Edmund; Goneril poisons Regan and then takes her own life",
+      "k": [
+        "goneril poisons regan",
+        "edmund"
+      ],
+      "n": 2,
+      "rabbit": "Edmund"
+    },
+    {
+      "id": "edmund-duel",
+      "tier": "middle",
+      "t": "Edmund is fatally wounded in a duel with his legitimate brother, Edgar",
+      "k": [
+        "duel",
+        "edgar wounds edmund"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kent-banished",
+      "tier": "middle",
+      "t": "The loyal Earl of Kent is banished for objecting to the king’s harsh treatment of Cordelia, then disguises himself to keep serving him",
+      "k": [
+        "earl of kent",
+        "banished"
+      ],
+      "n": 0,
+      "rabbit": "Earl of Kent"
+    },
+    {
+      "id": "nothing-from-nothing",
+      "tier": "power",
+      "t": "“Nothing will come of nothing,” the king tells Cordelia after she will not flatter him like her sisters",
+      "k": [
+        "nothing will come of nothing"
+      ],
+      "n": 1
+    },
+    {
+      "id": "flies-wanton-boys",
+      "tier": "power",
+      "t": "After being blinded, Gloucester laments, “As flies to wanton boys are we to the gods; they kill us for their sport”",
+      "k": [
+        "as flies to wanton boys"
+      ],
+      "n": 6
+    },
+    {
+      "id": "blow-winds",
+      "tier": "power",
+      "t": "The king rages at the storm, crying, “Blow, winds, and crack your cheeks! Rage! Blow!”",
+      "k": [
+        "blow winds",
+        "crack your cheeks"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nuncle",
+      "tier": "power",
+      "t": "The Fool calls the king “nuncle” throughout the play",
+      "k": [
+        "nuncle"
+      ],
+      "n": 3
+    },
+    {
+      "id": "why-bastard",
+      "tier": "power",
+      "t": "Edmund’s soliloquy beginning “Thou, Nature, art my goddess” resents that he is treated as lesser for his illegitimate birth",
+      "k": [
+        "my goddess",
+        "illegitimate birth"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wheel-full-circle",
+      "tier": "power",
+      "t": "After losing a trial by combat to Edgar, Edmund admits, “the wheel is come full circle”",
+      "k": [
+        "wheel is come full circle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mock-trial-stool",
+      "tier": "power",
+      "t": "In his madness, the king holds a mock trial of his daughters, naming a stool as one defendant",
+      "k": [
+        "mock trial",
+        "stool"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nahum-tate",
+      "tier": "power",
+      "t": "The 17th-century playwright Nahum Tate wrote a popular alternate version with a happy ending, in which Cordelia survives and “truth and virtue shall at last succeed”",
+      "k": [
+        "nahum tate",
+        "happy ending"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kills-oswald",
+      "tier": "power",
+      "t": "Disguised as a peasant, Edgar kills Oswald, a steward loyal to Goneril",
+      "k": [
+        "kills oswald",
+        "steward"
+      ],
+      "n": 1
+    },
+    {
+      "id": "keats-sonnet",
+      "tier": "power",
+      "t": "The poet John Keats wrote a sonnet describing himself sitting down to reread this tragedy once again",
+      "k": [
+        "john keats",
+        "sonnet"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Which tragic king, which daughter?",
+    "body": "Shakespeare wrote several tragedies about powerful men brought down by their own flaws, so don’t confuse this play with _Macbeth_, _Hamlet_, or _Othello_. Within the play itself, listen carefully for which daughter is being described: Cordelia is the loyal, disinherited one; Goneril and Regan are the flattering sisters who turn on their father.",
+    "fix": "If the clue names a Scottish king, a Danish prince, or a Moorish general, it is a different Shakespeare tragedy. If it names Cordelia, Goneril, or Regan, don’t answer with the daughter’s name — she is a character within this play, and the answer is the play itself.",
+    "line": "Real answer line: <b><u>King Lear</u></b> (also accept <u>The Tragedy of King Lear</u> or <u>The History of King Lear</u>)."
+  },
+  "tests": {
+    "right": [
+      "King Lear",
+      "king lear",
+      "Lear",
+      "King Leer",
+      "The Tragedy of King Lear"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Cordelia",
+      "Goneril",
+      "Macbeth",
+      "Hamlet",
+      "Earl of Gloucester"
+    ]
+  }
+}

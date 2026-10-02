@@ -1,0 +1,456 @@
+{
+  "id": "rastafarianism",
+  "name": "Rastafarianism",
+  "mono": "RF",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Jamaican faith that reveres Haile Selassie · Bob Marley’s religion",
+  "dates": "Began in the 1930s",
+  "briefing": "When Ras Tafari Makonnen was crowned Emperor Haile Selassie of Ethiopia in 1930, some Jamaicans saw it as a sign from God, and a new faith was born. Its followers call God “Jah,” see Ethiopia as the promised land of Zion, and often grow dreadlocks as a sign of their covenant with God. Reggae star Bob Marley carried the faith’s message around the world.",
+  "answerHtml": "<b><u>Rastafari</u></b> (or <u>Rasta</u>; accept <u>Rastafari</u>anism or the <u>Rastafari</u> movement; do not accept “reggae”)",
+  "accept": [
+    "rastafarianism",
+    "rastafari",
+    "rastafarian",
+    "rastafarians",
+    "rasta",
+    "rastas",
+    "rastafari movement",
+    "rastafarian movement",
+    "rastafarian religion"
+  ],
+  "prompt": [],
+  "reject": [
+    "reggae",
+    "bob marley",
+    "marley",
+    "haile selassie",
+    "selassie",
+    "ras tafari makonnen",
+    "marcus garvey",
+    "garvey",
+    "garveyism",
+    "ethiopian orthodox",
+    "ethiopian orthodox church",
+    "ethiopianism",
+    "voodoo",
+    "vodou",
+    "santeria",
+    "obeah",
+    "revivalism",
+    "kumina",
+    "nyabinghi",
+    "bobo ashanti",
+    "jah",
+    "pasta"
+  ],
+  "tests": {
+    "right": [
+      "Rastafarianism",
+      "Rastafari",
+      "Rasta",
+      "Rastafarian movement",
+      "rastafarinism",
+      "Rastafarians"
+    ],
+    "prompt": [],
+    "wrong": [
+      "reggae",
+      "Bob Marley",
+      "Haile Selassie",
+      "Marcus Garvey",
+      "Voodoo",
+      "Ethiopian Orthodox Church",
+      "Garveyism",
+      "Bobo Ashanti"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Rastafarians’ ‘promised land’ Ethiopia",
+      "source": "africanews",
+      "url": "https://www.youtube.com/watch?v=YLIkz9mr2sA",
+      "note": "News report · followers of the faith in Ethiopia, the land they see as Zion"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Do Rastafarians Believe?",
+      "source": "History With Hilbert",
+      "url": "https://www.youtube.com/watch?v=OjvP08LYNtU",
+      "note": "Explainer on Rastafari beliefs, including the role of Haile Selassie"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Rastafarianism",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Rastafarianism/313145",
+      "note": "Student encyclopedia · its roots in Marcus Garvey’s movement, its beliefs, and its way of life"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Rastafari",
+  "qb": {
+    "q": "Rasta",
+    "found": 2,
+    "tip": "Only 2 Middle School/Easy High School tossups came up, but all 12 Regular High School ones we added are on target and lean on the same stock clues: Haile Selassie, Jamaica, dreadlocks, the ital diet, and “mansions” like Bobo Ashanti."
+  },
+  "sample": {
+    "n": 14,
+    "note": "14 real QBReader tossups (2 Middle School/Easy High School + 12 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In the 1920s, Robert Athlyi Rogers wrote the _Holy Piby_ [“PIE-bee”], a text that praised Marcus Garvey and later shaped the beliefs of this religion. Early preachers of this religion included Archibald Dunkley and Leonard Howell.",
+      "r": "Its followers revere Haile Selassie [“HY-lee suh-LASS-ee”]. For 10 points, name this religion that began in Jamaica in the 1930s."
+    },
+    {
+      "p": "Leonard Howell’s _The Promised Key_ describes King Alpha and Queen Omega, whom this religion identifies with an Ethiopian emperor and empress. In 1940, Howell founded Pinnacle, a commune in Jamaica’s St. Catherine Parish where members of this religion lived together.",
+      "r": "For 10 points, name this religion whose followers often wear dreadlocks and revere Haile Selassie."
+    },
+    {
+      "p": "Vernon Carrington, known as Prophet Gad, founded the Twelve Tribes of Israel, a branch of this religion whose members are urged to read the Bible one chapter a day. Like Bobo Ashanti [“BOH-boh uh-SHAN-tee”], that branch is one of this religion’s “mansions.”",
+      "r": "Bob Marley belonged to the Twelve Tribes. For 10 points, name this religion that began in Jamaica."
+    },
+    {
+      "p": "Prince Emmanuel Charles Edwards founded a strict branch of this religion, named in part for the Ashanti people of West Africa, whose members often wrap their hair in turbans. That branch, Bobo Ashanti, is one of this religion’s “mansions.”",
+      "r": "Its followers call God Jah. For 10 points, name this religion that reveres Ethiopia’s emperor Haile Selassie."
+    },
+    {
+      "p": "At gatherings called Nyabinghi [“nye-uh-BING-ee”], followers of this religion chant and play three drums: a deep bass drum sometimes called the “thunder,” the funde [“FOON-day”], and the repeater. One of this religion’s oldest mansions is also called the Nyabinghi Order.",
+      "r": "For 10 points, name this religion whose followers revere Haile Selassie and often wear dreadlocks."
+    },
+    {
+      "p": "Followers of this religion celebrate Grounation Day every April 21, the anniversary of a 1966 visit to Jamaica by Ethiopia’s emperor. The elder Mortimer Planno [“PLAN-oh”] calmed the huge crowd that surged toward the emperor’s plane at the Kingston airport.",
+      "r": "That emperor was Haile Selassie. For 10 points, name this religion, which saw his visit as a holy event."
+    },
+    {
+      "p": "Followers of this religion treasure the _Kebra Nagast_ [“KEB-ruh nuh-GAHST”], an Ethiopian book saying that Ethiopia’s emperors descended from King Solomon and the Queen of Sheba. Partly for that reason, this religion sees Ethiopia as Zion, the promised land.",
+      "r": "For 10 points, name this religion whose followers believe Ethiopia’s emperor Haile Selassie was divine."
+    },
+    {
+      "p": "To live out an idea called livity, many followers of this religion eat an “ital” diet of natural, mostly vegetarian food, often cooked without added salt. The word “ital” comes from the English word “vital.”",
+      "r": "This religion’s followers often wear dreadlocks. For 10 points, name this religion of Jamaica, whose followers revere Haile Selassie."
+    },
+    {
+      "p": "Followers of this religion use the word “downpression” for oppression and call the Western world, which they see as corrupt, “Babylon,” after the empire that held the Israelites captive. They contrast Babylon with Zion, which they identify with Africa, especially Ethiopia.",
+      "r": "For 10 points, name this religion that began in Jamaica in the 1930s and reveres Haile Selassie."
+    },
+    {
+      "p": "Followers of this religion say “I and I” instead of “we” or “me” to show that God lives within every person, and they change “amen” to “I-men.” They often call God by a short name found in Psalm 68 of the King James Bible.",
+      "r": "That name is Jah. For 10 points, name this Jamaican religion that reveres Haile Selassie."
+    },
+    {
+      "p": "Many followers of this religion let their hair grow long as a sign of a covenant with God, pointing to the vow of the Nazirites in the Book of Numbers, which forbids cutting one’s hair.",
+      "r": "They often wear knitted caps in red, gold, and green, the colors of Ethiopia’s flag. For 10 points, name this religion whose followers often wear dreadlocks."
+    },
+    {
+      "p": "Many followers of this religion honor Marcus Garvey, the Jamaican founder of the Universal Negro Improvement Association, as a prophet who urged Black people around the world to look to Africa for their future.",
+      "r": "They believe his vision came true when Haile Selassie was crowned in Ethiopia in 1930. For 10 points, name this religion that began in Jamaica."
+    },
+    {
+      "p": "In 1948, Ethiopia’s emperor set aside land at Shashamane [“shah-shah-MAH-nay”] for people of African descent from the Americas, and members of this religion later built a community there, south of the capital, Addis Ababa.",
+      "r": "This religion teaches that Black people will one day return to Africa, their true home. For 10 points, name this religion that reveres Haile Selassie."
+    },
+    {
+      "p": "This religion takes its name from the title and first name that its central figure used before he was crowned in 1930. That man’s official titles included “Conquering Lion of the Tribe of Judah.”",
+      "r": "Many of its followers believe that man, Ethiopia’s emperor Haile Selassie, was the Messiah. For 10 points, name this religion that began in Jamaica."
+    },
+    {
+      "p": "After the emperor this religion reveres died in 1975, a reggae star released the song “Jah Live,” insisting that the emperor could not truly die. That singer’s album _Exodus_ has a title track about the “movement of Jah people.”",
+      "r": "That singer was Bob Marley. For 10 points, name this religion that Marley followed, which reveres Haile Selassie."
+    }
+  ],
+  "clues": [
+    {
+      "id": "haile-selassie",
+      "tier": "giveaway",
+      "t": "Reveres Haile Selassie I, crowned emperor of Ethiopia in 1930, as the Messiah or God (Jah) in human form; some see him as a prophet",
+      "k": [
+        "haile selassie",
+        "selassie",
+        "ethiopia",
+        "messiah"
+      ],
+      "n": 14,
+      "rabbit": "Haile Selassie"
+    },
+    {
+      "id": "jamaica",
+      "tier": "giveaway",
+      "t": "Began in Jamaica in the 1930s, after Haile Selassie’s coronation",
+      "k": [
+        "jamaica",
+        "1930s",
+        "coronation"
+      ],
+      "n": 12
+    },
+    {
+      "id": "dreadlocks",
+      "tier": "giveaway",
+      "t": "Many followers grow their hair into dreadlocks",
+      "k": [
+        "dreadlocks",
+        "locks",
+        "hair"
+      ],
+      "n": 9
+    },
+    {
+      "id": "bob-marley",
+      "tier": "giveaway",
+      "t": "Reggae star Bob Marley was its most famous follower",
+      "k": [
+        "bob marley",
+        "marley",
+        "reggae"
+      ],
+      "n": 5,
+      "rabbit": "Bob Marley"
+    },
+    {
+      "id": "jah",
+      "tier": "middle",
+      "t": "Calls God “Jah,” a short name for God found in Psalm 68 of the King James Bible",
+      "k": [
+        "jah",
+        "psalm 68",
+        "king james"
+      ],
+      "n": 7
+    },
+    {
+      "id": "ital-livity",
+      "tier": "middle",
+      "t": "Many follow an “ital” diet of natural, mostly vegetarian food (often without salt) to support “livity,” or righteous living",
+      "k": [
+        "ital",
+        "livity",
+        "vegetarian",
+        "salt"
+      ],
+      "n": 10
+    },
+    {
+      "id": "mansions",
+      "tier": "middle",
+      "t": "Its branches are called “mansions,” such as Bobo Ashanti, the Nyabinghi Order, and the Twelve Tribes of Israel",
+      "k": [
+        "mansions",
+        "bobo ashanti",
+        "nyabinghi",
+        "twelve tribes"
+      ],
+      "n": 12
+    },
+    {
+      "id": "babylon-zion",
+      "tier": "middle",
+      "t": "Calls the Western world, which it sees as oppressive, “Babylon” (and oppression “downpression”); calls Africa, especially Ethiopia, “Zion”",
+      "k": [
+        "babylon",
+        "zion",
+        "downpression"
+      ],
+      "n": 3
+    },
+    {
+      "id": "lion-of-judah",
+      "tier": "middle",
+      "t": "Haile Selassie’s titles included “Conquering Lion of the Tribe of Judah”; the lion is a symbol of the faith",
+      "k": [
+        "lion of the tribe of judah",
+        "lion",
+        "judah"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ras-tafari",
+      "tier": "middle",
+      "t": "Named for Ras Tafari Makonnen, Haile Selassie’s title and name before his 1930 coronation",
+      "k": [
+        "ras tafari",
+        "makonnen",
+        "1930"
+      ],
+      "n": 0
+    },
+    {
+      "id": "grounation",
+      "tier": "middle",
+      "t": "Grounation Day (April 21) marks Haile Selassie’s 1966 visit to Jamaica",
+      "k": [
+        "grounation",
+        "april 21",
+        "1966"
+      ],
+      "n": 4
+    },
+    {
+      "id": "i-and-i",
+      "tier": "middle",
+      "t": "Says “I and I” instead of “we” or “me” to show God lives in everyone; “amen” becomes “I-men”",
+      "k": [
+        "i and i",
+        "i-men",
+        "amen"
+      ],
+      "n": 2
+    },
+    {
+      "id": "marcus-garvey",
+      "tier": "middle",
+      "t": "Honors Marcus Garvey, founder of the Universal Negro Improvement Association (UNIA), as a prophet who urged Black people to look to Africa",
+      "k": [
+        "marcus garvey",
+        "garvey",
+        "unia",
+        "prophet"
+      ],
+      "n": 1,
+      "rabbit": "Marcus Garvey"
+    },
+    {
+      "id": "red-gold-green",
+      "tier": "middle",
+      "t": "Its colors are red, gold, and green, from Ethiopia’s flag (often with black)",
+      "k": [
+        "red, gold, and green",
+        "colors",
+        "flag"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holy-piby",
+      "tier": "power",
+      "t": "Robert Athlyi Rogers’s _Holy Piby_ (1920s), which praised Marcus Garvey, shaped its early beliefs",
+      "k": [
+        "holy piby",
+        "piby",
+        "athlyi rogers"
+      ],
+      "n": 7
+    },
+    {
+      "id": "leonard-howell",
+      "tier": "power",
+      "t": "Leonard Howell, an early preacher, wrote _The Promised Key_ (King Alpha and Queen Omega) and founded the Pinnacle commune in 1940",
+      "k": [
+        "leonard howell",
+        "howell",
+        "promised key",
+        "pinnacle",
+        "king alpha"
+      ],
+      "n": 6
+    },
+    {
+      "id": "twelve-tribes",
+      "tier": "power",
+      "t": "Vernon Carrington (“Prophet Gad”) founded the Twelve Tribes of Israel mansion, which urges reading a Bible chapter a day; Bob Marley belonged to it",
+      "k": [
+        "vernon carrington",
+        "prophet gad",
+        "chapter a day"
+      ],
+      "n": 4
+    },
+    {
+      "id": "bobo-ashanti",
+      "tier": "power",
+      "t": "Prince Emmanuel Charles Edwards founded the strict Bobo Ashanti mansion, named partly for the Ashanti people; members often wear turbans",
+      "k": [
+        "prince emmanuel",
+        "ashanti",
+        "turbans"
+      ],
+      "n": 3
+    },
+    {
+      "id": "nyabinghi-drums",
+      "tier": "power",
+      "t": "Nyabinghi gatherings feature chanting and three drums: the bass (“thunder”), the funde, and the repeater",
+      "k": [
+        "nyabinghi",
+        "funde",
+        "repeater",
+        "thunder"
+      ],
+      "n": 4
+    },
+    {
+      "id": "kebra-nagast",
+      "tier": "power",
+      "t": "Treasures the _Kebra Nagast_, an Ethiopian book tracing Ethiopia’s emperors to King Solomon and the Queen of Sheba",
+      "k": [
+        "kebra nagast",
+        "solomon",
+        "queen of sheba",
+        "sheba"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mortimer-planno",
+      "tier": "power",
+      "t": "Elder Mortimer Planno calmed the huge crowd that greeted Haile Selassie’s plane in Kingston in 1966",
+      "k": [
+        "mortimer planno",
+        "planno",
+        "kingston",
+        "crowd"
+      ],
+      "n": 2
+    },
+    {
+      "id": "nazirite",
+      "tier": "power",
+      "t": "Dreadlocks are a sign of a covenant with God, following the Nazirite vow in the Book of Numbers",
+      "k": [
+        "nazirite",
+        "covenant",
+        "numbers"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shashamane",
+      "tier": "power",
+      "t": "In 1948 Haile Selassie granted land at Shashamane, Ethiopia, to people of African descent from the West; followers built a community there",
+      "k": [
+        "shashamane",
+        "1948",
+        "land"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jah-live",
+      "tier": "power",
+      "t": "Bob Marley’s 1975 song “Jah Live” answered news of Haile Selassie’s death; _Exodus_ sings of the “movement of Jah people”",
+      "k": [
+        "jah live",
+        "exodus",
+        "1975"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The religion, not the reggae",
+    "body": "Rastafari tossups are packed with famous names that are not the answer: Bob Marley (its most famous follower), reggae (the music it inspired), Haile Selassie (the emperor it reveres), and Marcus Garvey (whom it honors as a prophet). Blurting out any of them when the question asks for “this religion” loses the tossup. The good news: real answer lines accept both “Rastafari” and “Rastafarianism,” and even “Rasta.”",
+    "fix": "Listen for “this religion,” “this movement,” or “its followers.” Say “Marley,” “Selassie,” “Garvey,” or “reggae” only when the question asks for “this singer,” “this emperor,” “this activist,” or “this music.”",
+    "line": "Real answer line: <b><u>Rastafari</u></b> [or <u>Rasta</u>; accept <u>Rastafari</u>anism]"
+  },
+  "freq": {
+    "rank": 42,
+    "count": 2,
+    "list": "Religion"
+  }
+}

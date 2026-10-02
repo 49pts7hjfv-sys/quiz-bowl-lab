@@ -1,0 +1,384 @@
+{
+  "id": "limestone",
+  "name": "Limestone",
+  "mono": "LST",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Calcium-carbonate sedimentary rock · Dissolves into caves, karst",
+  "dates": "Forms over millions of years in shallow seas",
+  "briefing": "Limestone is a sedimentary rock built mostly from calcium carbonate, often made of the crushed shells and skeletons of ancient marine creatures that piled up on old sea floors. Rainwater and weak acids slowly dissolve limestone underground, carving out caves, sinkholes, and dramatic landscapes called karst topography, complete with dripping stalactites and stalagmites. Builders have prized limestone for construction and cement for thousands of years, and heat and pressure underground can transform it into the smoother rock marble.",
+  "answerHtml": "<b><u>Limestone</u></b> (accept <u>travertine</u>; prompt on <u>calcium carbonate</u> or <u>CaCO3</u>)",
+  "accept": [
+    "limestone",
+    "travertine"
+  ],
+  "prompt": [
+    "calcium carbonate",
+    "caco3"
+  ],
+  "reject": [
+    "marble",
+    "dolomite",
+    "chalk",
+    "karst",
+    "karst topography",
+    "stalactite",
+    "stalactites",
+    "stalagmite",
+    "stalagmites"
+  ],
+  "media": [
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "How Water and Chemical Weathering Formed the World’s Largest Cave | Mammoth Cave National Park",
+      "source": "OutSCIder Classroom",
+      "url": "https://www.youtube.com/watch?v=Z22E663GxUs",
+      "note": "How rainwater slowly dissolved limestone to carve out Mammoth Cave"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Limestone Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Limestone",
+      "note": "Quick read: calcium carbonate, shells and fossils, caves and karst, marble and chalk, and uses like cement"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Limestone",
+  "qb": {
+    "q": "limestone",
+    "found": 1,
+    "tip": "Only 1 Middle School/Easy High School tossup came back, so a Regular HS search was added; a third “stone” result was really about general masonry and architecture, not this rock, so it was skipped."
+  },
+  "sample": {
+    "n": 3,
+    "note": "3 real QBReader tossups for this answer line (1 Middle School/Easy High School + 2 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Coccolithophores, microscopic marine algae, are the main biological source of a soft, fine-grained variety of this rock that forms the White Cliffs of Dover. This rock lacks the magnesium found in the closely related rock dolomite.",
+      "r": "Heat and pressure can metamorphose this rock into the smoother stone marble. For 10 points, name this sedimentary rock made mostly of calcium carbonate."
+    },
+    {
+      "p": "Germany’s Solnhofen Lagerstätte, a famous formation of this rock, preserved nearly every detailed fossil scientists have of Archaeopteryx, one of the earliest known birds. This rock’s dissolution over time forms dramatic landscapes called karst topography, complete with sinkholes and winding caves.",
+      "r": "Dripping water inside those caves slowly builds stalactites and stalagmites out of this rock. For 10 points, name this sedimentary rock made up of the minerals aragonite and calcite."
+    },
+    {
+      "p": "Round grains called ooids, cemented together into a texture called oolite, form one variety of this rock, which also includes a loosely cemented, shell-fragment variety called coquina. This rock dissolves easily in weakly acidic rainwater, a process that can open up water-filled sinkholes called cenotes.",
+      "r": "Egyptian builders cased the Great Pyramids of Giza in polished blocks of this rock. For 10 points, name this sedimentary rock, the main ingredient in cement."
+    },
+    {
+      "p": "Mineral-rich water dripping and flowing through caves carved from this rock builds formations called speleothems, including flowstones. A fine-grained, spring-deposited variety of this rock can also form in porous, lightweight layers near waterfalls and streams.",
+      "r": "Heating this rock in a kiln drives off carbon dioxide gas and leaves behind quicklime, used in farming and steelmaking. For 10 points, name this sedimentary rock made mostly of calcium carbonate."
+    },
+    {
+      "p": "The crushed shells and skeletons of ancient marine creatures, piled up on old sea floors, formed much of this rock over millions of years. This rock is mostly made of the minerals aragonite and calcite, both forms of calcium carbonate.",
+      "r": "Carbonic acid in rainwater slowly dissolves this rock, carving out caves, sinkholes, and other karst landscapes. For 10 points, name this sedimentary rock that metamorphoses into marble."
+    },
+    {
+      "p": "Famous cave systems like Mammoth Cave in Kentucky and Carlsbad Caverns in New Mexico are carved from thick beds of this rock. Acid rain slowly eats away at outdoor statues and buildings made from this rock and its harder metamorphic cousin, marble.",
+      "r": "This rock fizzes when touched with a drop of weak acid, since it is made mostly of calcium carbonate. For 10 points, name this common sedimentary rock."
+    },
+    {
+      "p": "This rock’s softest, chalkiest variety is made mostly of fossilized shells from coccolithophores, tiny ocean algae, and forms the famous White Cliffs of Dover. A closely related sedimentary rock called dolomite looks almost identical but contains extra magnesium that this rock lacks.",
+      "r": "Builders have prized this rock for construction and as the main ingredient in cement for thousands of years. For 10 points, name this rock that forms marble when exposed to heat and pressure."
+    },
+    {
+      "p": "Round grains called ooids build up in wave-tossed shallow water to form a textured variety of this rock called oolite. This rock’s dissolution can carve out water-filled sinkholes called cenotes, famous in Mexico’s Yucatán Peninsula.",
+      "r": "Dripping groundwater inside its caves slowly deposits stalactites and stalagmites made of this rock. For 10 points, name this sedimentary rock, made mostly of calcium carbonate."
+    },
+    {
+      "p": "A variety of this rock called coquina forms from loosely cemented fragments of shells and coral, while a spring-deposited variety forms in banded, layered sheets near mineral springs. This rock undergoes metamorphosis under heat and pressure to form the harder rock marble.",
+      "r": "This rock is mostly composed of aragonite and calcite, two mineral forms of calcium carbonate. For 10 points, name this sedimentary rock, which dissolves to form karst topography."
+    },
+    {
+      "p": "Ancient coral reefs, built by reef-forming corals that also secrete calcium carbonate, are a major biological source of this rock. This rock is mostly made of the minerals aragonite and calcite, unlike the closely related rock dolomite, which also contains magnesium.",
+      "r": "Dripping water inside caves carved from this rock slowly builds stalactites and stalagmites. For 10 points, name this common sedimentary rock, found in abundance along coastlines and ancient sea beds."
+    },
+    {
+      "p": "Builders have quarried this rock for thousands of years, using it in construction and as the key raw ingredient in Portland cement. Heating this rock in a hot kiln drives off carbon dioxide gas and produces quicklime.",
+      "r": "This rock dissolves in weakly acidic rainwater, forming caves, sinkholes, and other karst landscapes. For 10 points, name this sedimentary rock that turns into marble under heat and pressure."
+    },
+    {
+      "p": "This rock is too hard to scratch with a fingernail but easy to scratch with a steel knife, sitting around 3 on the Mohs hardness scale. Dolines and water-filled cenotes form where this rock slowly dissolves underground, and a loosely cemented, shell-fragment variety of it is called coquina.",
+      "r": "This rock is mostly made of calcium carbonate from ancient marine life. For 10 points, name this sedimentary rock that metamorphoses into marble under heat and pressure."
+    },
+    {
+      "p": "Egyptian builders cased the Great Pyramids of Giza in polished white blocks of this rock. Round grains called ooids cement together to form a granular variety of this rock called oolite, often found in shallow, wave-churned water.",
+      "r": "Fossilized seashells and coral fragments cemented together form another variety of this rock. For 10 points, name this sedimentary rock made mostly of calcium carbonate."
+    },
+    {
+      "p": "This rock’s chemical formula, CaCO3, is shared with the mineral calcite, one of its two main building blocks alongside aragonite. The dissolution of this rock over time creates dramatic landscapes called karst topography.",
+      "r": "Stalactites hanging from cave ceilings and stalagmites rising from cave floors are usually made of this rock, deposited drop by drop. For 10 points, name this common sedimentary rock."
+    },
+    {
+      "p": "This rock’s varieties include coquina, made of loosely cemented shell fragments, and a banded type deposited by mineral-rich springs. This rock reacts with and fizzes in weak acids, which is how geologists often identify it in the field.",
+      "r": "Acid rain gradually damages outdoor statues and buildings carved from this rock or its metamorphic cousin, marble. For 10 points, name this common sedimentary rock made mostly of calcium carbonate."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "A sedimentary rock made mostly of calcium carbonate (CaCO3)",
+      "k": [
+        "calcium carbonate",
+        "sedimentary rock"
+      ],
+      "n": 3
+    },
+    {
+      "id": "marble",
+      "tier": "giveaway",
+      "t": "Heat and pressure can metamorphose it into the smoother rock marble",
+      "k": [
+        "marble",
+        "metamorphose"
+      ],
+      "n": 3
+    },
+    {
+      "id": "karst",
+      "tier": "giveaway",
+      "t": "Dissolves slowly in weak acid or rainwater, carving out caves, sinkholes, and karst topography",
+      "k": [
+        "karst topography",
+        "sinkholes"
+      ],
+      "n": 3
+    },
+    {
+      "id": "construction",
+      "tier": "giveaway",
+      "t": "A key building material, and the main ingredient in cement and concrete",
+      "k": [
+        "cement",
+        "concrete"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fizz",
+      "tier": "giveaway",
+      "t": "Fizzes when a drop of weak acid, like vinegar or dilute hydrochloric acid, touches it",
+      "k": [
+        "fizzes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marine-origin",
+      "tier": "middle",
+      "t": "Often formed from the crushed shells and skeletons of marine creatures that piled up on ancient sea floors",
+      "k": [
+        "marine creatures",
+        "shells"
+      ],
+      "n": 1
+    },
+    {
+      "id": "caves",
+      "tier": "middle",
+      "t": "Dripping water inside caves slowly builds stalactites and stalagmites from it",
+      "k": [
+        "stalactites",
+        "stalagmites"
+      ],
+      "n": 2
+    },
+    {
+      "id": "springs",
+      "tier": "middle",
+      "t": "A variety deposited by mineral-rich hot springs and dripping groundwater is sometimes banded or layered",
+      "k": [
+        "mineral springs",
+        "banded"
+      ],
+      "n": 2
+    },
+    {
+      "id": "aragonite-calcite",
+      "tier": "middle",
+      "t": "Mostly made of the minerals aragonite and calcite, both forms of calcium carbonate",
+      "k": [
+        "aragonite",
+        "calcite"
+      ],
+      "n": 2
+    },
+    {
+      "id": "acid-rain",
+      "tier": "middle",
+      "t": "Acid rain slowly eats away at outdoor statues and buildings made of it",
+      "k": [
+        "acid rain"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chalk",
+      "tier": "middle",
+      "t": "Chalk, a soft, fine-grained variety made mostly of microscopic algae shells, forms famous white cliffs like those at Dover",
+      "k": [
+        "chalk",
+        "dover"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coquina-tufa",
+      "tier": "middle",
+      "t": "One variety called coquina is made of loosely cemented shell fragments; a more porous, spring-deposited type is called tufa",
+      "k": [
+        "coquina",
+        "tufa"
+      ],
+      "n": 1
+    },
+    {
+      "id": "quicklime",
+      "tier": "middle",
+      "t": "Heating it in a kiln drives off carbon dioxide and produces quicklime, used in steelmaking and farming",
+      "k": [
+        "quicklime"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dolomite",
+      "tier": "power",
+      "t": "Unlike the closely related rock dolomite, it lacks magnesium",
+      "k": [
+        "dolomite",
+        "magnesium"
+      ],
+      "n": 1
+    },
+    {
+      "id": "coccolithophores",
+      "tier": "power",
+      "t": "Coccolithophores, microscopic ocean algae, are the main biological source of its softest variety, chalk",
+      "k": [
+        "coccolithophores"
+      ],
+      "n": 1
+    },
+    {
+      "id": "archaeopteryx",
+      "tier": "power",
+      "t": "Germany’s Solnhofen Lagerstätte, a formation of this rock, preserved nearly every known fossil of the early bird Archaeopteryx",
+      "k": [
+        "solnhofen",
+        "archaeopteryx"
+      ],
+      "n": 1
+    },
+    {
+      "id": "oolite",
+      "tier": "power",
+      "t": "Round grains called ooids, cemented together, form a textured variety of it called oolite",
+      "k": [
+        "ooids",
+        "oolite"
+      ],
+      "n": 1
+    },
+    {
+      "id": "speleothems",
+      "tier": "power",
+      "t": "Mineral-rich water dripping and flowing through caves carved from it builds flowstones and other formations called speleothems",
+      "k": [
+        "speleothems",
+        "flowstones"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dolines",
+      "tier": "power",
+      "t": "Its dissolution can form water-filled sinkholes called cenotes and closed depressions called dolines",
+      "k": [
+        "cenotes",
+        "dolines"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pyramids",
+      "tier": "power",
+      "t": "Ancient Egyptian builders cased the Great Pyramids of Giza in polished blocks of it",
+      "k": [
+        "great pyramids",
+        "giza"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mohs",
+      "tier": "power",
+      "t": "Too hard for a fingernail to scratch but easy to scratch with a steel knife, it sits around 3 on the Mohs hardness scale",
+      "k": [
+        "mohs hardness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "caves-famous",
+      "tier": "power",
+      "t": "Famous cave systems like Mammoth Cave and Carlsbad Caverns are carved from thick beds of it",
+      "k": [
+        "mammoth cave",
+        "carlsbad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reef",
+      "tier": "power",
+      "t": "Ancient coral reefs are a major source of it, since reef-building corals also secrete calcium carbonate",
+      "k": [
+        "coral reefs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "caco3-formula",
+      "tier": "power",
+      "t": "Its chemical formula, CaCO3, is the same one chemists write for the mineral calcite",
+      "k": [
+        "caco3"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Limestone, marble, or dolomite?",
+    "body": "Heat and pressure turn limestone into marble, so the two rocks share the same basic ingredient, calcium carbonate, and real tossups constantly mention marble as limestone’s metamorphosed form. A closely related sedimentary rock called dolomite looks almost the same but contains magnesium, which limestone lacks.",
+    "fix": "If the clue says “sedimentary,” “fossils,” “shells,” or “dissolves in weak acid” (fizzes), it wants limestone. If the clue says “metamorphic” or describes a harder, often white or veined stone used by sculptors, it wants marble instead.",
+    "line": "Real answer line: <b><u>Limestone</u></b> [prompt on calcium carbonate or CaCO3; accept travertine before read]"
+  },
+  "tests": {
+    "right": [
+      "Limestone",
+      "limeston",
+      "Lime Stone",
+      "Travertine"
+    ],
+    "prompt": [
+      "Calcium Carbonate"
+    ],
+    "wrong": [
+      "Marble",
+      "Dolomite",
+      "Chalk",
+      "Karst"
+    ]
+  },
+  "freq": {
+    "rank": 18,
+    "count": 2,
+    "list": "Earth Science"
+  }
+}

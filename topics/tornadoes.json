@@ -1,0 +1,451 @@
+{
+  "id": "tornadoes",
+  "name": "Tornadoes",
+  "mono": "TO",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Spinning columns of air · Earth’s most violent, concentrated winds",
+  "dates": "Most common in spring (U.S.)",
+  "briefing": "A tornado is a rope or wedge of furiously spinning air that reaches down from a thunderstorm cloud to touch the ground, and it carries the fastest winds found anywhere on Earth. Most grow from a supercell, a thunderstorm with its own built-in rotation, and radar operators watch for a telltale “hook echo” shape before one touches down. Unlike a hurricane, which can churn for days across hundreds of miles, a single one usually lasts just minutes, often announced by a roar witnesses compare to a freight train.",
+  "answerHtml": "<b><u>Tornadoes</u></b> (or <u>Twisters</u>; prompt on <u>funnel cloud</u>, <u>waterspout</u>, or <u>landspout</u>; do not accept or prompt on “cyclone”)",
+  "accept": [
+    "tornado",
+    "tornadoes",
+    "tornados",
+    "twister",
+    "twisters"
+  ],
+  "prompt": [
+    "funnel cloud",
+    "funnel clouds",
+    "waterspout",
+    "waterspouts",
+    "landspout",
+    "landspouts"
+  ],
+  "reject": [
+    "cyclone",
+    "cyclones",
+    "hurricane",
+    "hurricanes",
+    "typhoon",
+    "typhoons",
+    "dust devil",
+    "dust devils",
+    "microburst",
+    "derecho"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is a Tornado? | Weather Science",
+      "source": "SciShow Kids",
+      "url": "https://www.youtube.com/watch?v=-s3UwOq1P1E",
+      "note": "Kid-friendly intro to what tornadoes are and how they form"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Watch the Birth of a Tornado",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=7KDz6dGQ5RE",
+      "note": "Watch a tornado take shape beneath a thunderstorm"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Tornadoes 101",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=aacHWoB7cmY",
+      "note": "How tornadoes form, where they strike most, and how they are rated"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Inside the Tornado",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=-K-z-mZ9Va4",
+      "note": "A National Geographic look at what goes on inside a tornado"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Weather: Tornadoes",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/earth_science/tornadoes.php",
+      "note": "Quick read: how tornadoes form, the Enhanced Fujita scale, and where they strike most, plus a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Tornado",
+  "qb": {
+    "q": "tornado",
+    "found": 8,
+    "tip": "Real answer lines mostly disagree on “cyclone”: several say do not prompt on it, since that word almost always means a hurricane-type storm instead."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The original version of this event’s damage scale, created by Ted Fujita [“foo-JEE-tah”], ran from F0 to F5 before being replaced in 2007 by a more precise “Enhanced” version. In the United Kingdom, this event is instead measured on the zero-to-eleven TORRO scale, and the UK records roughly 30 of these events each year.",
+      "r": "A roar that witnesses often compare to a freight train can accompany this event. For 10 points, name this violent, rotating column of air that drops from a thunderstorm cloud down to the ground."
+    },
+    {
+      "p": "The largest examples of this event can contain smaller, independently spinning sub-vortices rotating within the main funnel. Unlike a harmless dust devil, which spins up from ground heating on a clear day, this event forms from an organized, towering thunderstorm.",
+      "r": "This event typically forms from the rotating updraft, called a mesocyclone, inside a supercell thunderstorm. For 10 points, name this rapidly rotating column of air, rated on the Enhanced Fujita scale, that drops down from a thunderstorm."
+    },
+    {
+      "p": "Forecasters watch for high CAPE, or convective available potential energy, combined with strong wind shear as a recipe for the supercells that can spawn this event. A weaker, often harmless version of this event called a cold-air funnel can form from ordinary showers in cool, unstable air.",
+      "r": "Doppler radar can detect a hook-shaped “hook echo” pattern that often appears shortly before this event. For 10 points, name this rotating column of air that touches down out of a thunderstorm, rated on the Enhanced Fujita scale."
+    },
+    {
+      "p": "This event is triggered when a rear-flank downdraft drags a thunderstorm’s rotating mesocyclone toward the ground. In the Northern Hemisphere, the great majority of these events spin counterclockwise, matching the rotation of their parent mesocyclone.",
+      "r": "When this event forms over a body of water instead of land, it is called a waterspout. For 10 points, name this violently rotating column of air that drops from a thunderstorm, ranked on the Enhanced Fujita scale."
+    },
+    {
+      "p": "The widest examples of this event on record have stretched more than two miles across. A region of the central United States especially prone to this event has earned the nickname “Alley.”",
+      "r": "Unlike a hurricane, which can last for days, a single instance of this event typically touches down for only a few minutes. For 10 points, name this rotating column of air that forms beneath a thunderstorm, sometimes called a funnel cloud before it reaches the ground."
+    },
+    {
+      "p": "A rear-flank downdraft dragging down a rotating mesocyclone is one mechanism that produces this event. The U.S. National Weather Service issues a “Warning” for this event once a hook echo or a trained spotter confirms that one is likely.",
+      "r": "This event’s intensity is measured using the Enhanced Fujita scale, which estimates wind speed from the damage left behind. For 10 points, name this violently rotating column of air that drops down from a supercell thunderstorm."
+    },
+    {
+      "p": "Rated on the zero-to-eleven TORRO scale in the United Kingdom, this event is more often rated in the United States on a scale named for Ted Fujita. A “freight train” roar commonly accompanies this event, whose strongest examples can include winds around 300 miles per hour.",
+      "r": "Most examples of this event grow out of the rotating mesocyclone of a supercell thunderstorm. For 10 points, name this violently spinning column of air that can touch down from a severe thunderstorm."
+    },
+    {
+      "p": "A weaker type of this event, called a landspout, can form without a supercell or mesocyclone at all. Radar operators look for a “hook echo” pattern, created as rain wraps around a rotating mesocyclone, to warn that this event is imminent.",
+      "r": "This event is ranked using the Enhanced Fujita scale, from EF0 up to EF5. For 10 points, name this rotating column of air that becomes a waterspout when it forms over water."
+    },
+    {
+      "p": "This event’s strongest category on the Enhanced Fujita scale can include winds near 300 miles per hour, among the fastest wind speeds ever recorded on Earth. This event is most common in spring in the “Alley” region of the central United States, though it can occur in any season.",
+      "r": "A rear-flank downdraft dragging a mesocyclone toward the ground is one way this event forms. For 10 points, name this rapidly rotating column of air that touches down from a thunderstorm."
+    },
+    {
+      "p": "Doppler radar’s hook-echo signature can give forecasters several minutes of warning before this event touches down. This event’s original damage scale, devised by Ted Fujita, was replaced in 2007 by a more accurate “Enhanced” version that still runs from 0 to 5.",
+      "r": "The United Kingdom instead rates this event on the zero-to-eleven TORRO scale. For 10 points, name this violently rotating column of air, most common in the “Alley” region of the central United States."
+    },
+    {
+      "p": "This event’s largest examples sometimes contain smaller sub-vortices spinning within the main funnel. A rear-flank downdraft wrapping cold air around a thunderstorm’s updraft produces the hook-shaped radar signature that often precedes this event.",
+      "r": "This event most often grows from the mesocyclone of a rotating supercell thunderstorm. For 10 points, name this violently spinning column of air, rated on the Enhanced Fujita scale, that is called a waterspout over water."
+    },
+    {
+      "p": "A roar like a freight train often accompanies this event, whose strongest examples on the Enhanced Fujita scale can reach around 300 miles per hour. Forecasters in the United Kingdom instead use the zero-to-eleven TORRO scale to rate this event, which strikes the UK roughly 30 times a year.",
+      "r": "The U.S. National Weather Service issues a “Warning” once a hook echo appears on radar for this event. For 10 points, name this violently rotating column of air that drops from a supercell thunderstorm."
+    },
+    {
+      "p": "This event’s strongest examples can contain several smaller, independently rotating sub-vortices. Unlike a dust devil, which spins up harmlessly from ground heat on a clear day, this event is produced by an organized, severe thunderstorm.",
+      "r": "This event becomes a landspout when it forms without a mesocyclone, or a waterspout when it forms over water. For 10 points, name this violently rotating column of air, dropped from a thunderstorm, rated on the Enhanced Fujita scale."
+    },
+    {
+      "p": "High CAPE combined with strong wind shear creates the supercells that can spawn this event, which rotates counterclockwise in the great majority of Northern Hemisphere cases. The widest examples of this event on record have stretched more than two miles across.",
+      "r": "A region of the central United States especially prone to this event is nicknamed “Alley.” For 10 points, name this rotating column of air that touches down from a severe thunderstorm, sometimes preceded by a “hook echo” on radar."
+    },
+    {
+      "p": "This event is triggered when a rear-flank downdraft wraps cold air around a mesocyclone, producing a hook-shaped pattern on Doppler radar. A weak, often harmless cold-air funnel version of this event can form from ordinary showers in cool, unstable air.",
+      "r": "The U.S. National Weather Service issues a “Warning” once this event appears imminent on radar. For 10 points, name this rapidly rotating column of air, ranked on the Enhanced Fujita scale, that forms beneath severe thunderstorms."
+    }
+  ],
+  "clues": [
+    {
+      "id": "ef-scale",
+      "tier": "giveaway",
+      "t": "Rated on the Enhanced Fujita (EF) scale, from EF0 to EF5, based on the damage left behind",
+      "k": [
+        "enhanced fujita",
+        "ef0",
+        "ef5"
+      ],
+      "n": 8,
+      "rabbit": "Fujita scale"
+    },
+    {
+      "id": "funnel-shape",
+      "tier": "giveaway",
+      "t": "A rotating, funnel-shaped column of air reaching from a storm cloud down to the ground",
+      "k": [
+        "funnel-shaped",
+        "rotating",
+        "column"
+      ],
+      "n": 5
+    },
+    {
+      "id": "tornado-alley",
+      "tier": "giveaway",
+      "t": "The region of the central U.S. most prone to these is nicknamed “Alley”",
+      "k": [
+        "alley",
+        "central",
+        "prone"
+      ],
+      "n": 3,
+      "rabbit": "Tornado Alley"
+    },
+    {
+      "id": "supercell-origin",
+      "tier": "giveaway",
+      "t": "Most form from the rotating mesocyclone of a supercell thunderstorm",
+      "k": [
+        "mesocyclone",
+        "supercell",
+        "thunderstorm"
+      ],
+      "n": 5
+    },
+    {
+      "id": "waterspout",
+      "tier": "giveaway",
+      "t": "Called a waterspout when one forms over water instead of land",
+      "k": [
+        "waterspout",
+        "water",
+        "land"
+      ],
+      "n": 3
+    },
+    {
+      "id": "hook-echo",
+      "tier": "middle",
+      "t": "Shows up as a hook-shaped “hook echo” on Doppler radar shortly before it touches down",
+      "k": [
+        "hook echo",
+        "doppler",
+        "radar"
+      ],
+      "n": 5
+    },
+    {
+      "id": "freight-train",
+      "tier": "middle",
+      "t": "Often accompanied by a roar witnesses describe as sounding like a freight train",
+      "k": [
+        "freight train",
+        "roar",
+        "witnesses"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rear-flank-downdraft",
+      "tier": "middle",
+      "t": "Triggered when a rear-flank downdraft drags the rotating mesocyclone toward the ground",
+      "k": [
+        "rear-flank",
+        "downdraft",
+        "drags"
+      ],
+      "n": 3
+    },
+    {
+      "id": "torro-scale",
+      "tier": "middle",
+      "t": "Rated on the zero-to-eleven TORRO scale in the United Kingdom instead of the Fujita scale",
+      "k": [
+        "torro",
+        "zero-to-eleven",
+        "united kingdom"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ef5-wind-speed",
+      "tier": "middle",
+      "t": "The strongest category, EF5, can include winds around 300 miles per hour",
+      "k": [
+        "300",
+        "ef5",
+        "winds"
+      ],
+      "n": 2
+    },
+    {
+      "id": "landspout",
+      "tier": "middle",
+      "t": "A weaker type called a landspout can form without a supercell or mesocyclone at all",
+      "k": [
+        "landspout",
+        "weaker",
+        "without"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nws-warning",
+      "tier": "middle",
+      "t": "The U.S. National Weather Service issues its namesake “Warning” for this event once radar or a spotter confirms one is likely",
+      "k": [
+        "national weather",
+        "warning",
+        "spotter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peak-season",
+      "tier": "middle",
+      "t": "Most common in spring in the United States, though possible in any season",
+      "k": [
+        "spring",
+        "season",
+        "possible"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fujita-history",
+      "tier": "power",
+      "t": "Ted Fujita devised the original scale (F0–F5); it was replaced by the more precise “Enhanced” version in 2007",
+      "k": [
+        "fujita",
+        "devised",
+        "2007"
+      ],
+      "n": 3
+    },
+    {
+      "id": "uk-frequency",
+      "tier": "power",
+      "t": "The United Kingdom records roughly 30 of these events per year on average",
+      "k": [
+        "united kingdom",
+        "thirty",
+        "average"
+      ],
+      "n": 2
+    },
+    {
+      "id": "multi-vortex",
+      "tier": "power",
+      "t": "The largest examples can contain smaller spinning sub-vortices rotating inside the main funnel",
+      "k": [
+        "sub-vortices",
+        "spinning",
+        "inside"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dust-devil-contrast",
+      "tier": "power",
+      "t": "Unlike a harmless dust devil, which spins up from ground heating on a clear day, this forms from an organized thunderstorm",
+      "k": [
+        "dust devil",
+        "ground heating",
+        "clear day"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doppler-lead-time",
+      "tier": "power",
+      "t": "Doppler radar’s hook-echo signature can give forecasters several minutes of warning before it touches down",
+      "k": [
+        "doppler",
+        "signature",
+        "minutes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rotation-direction",
+      "tier": "power",
+      "t": "In the Northern Hemisphere, the great majority spin counterclockwise, matching their parent mesocyclone",
+      "k": [
+        "counterclockwise",
+        "northern hemisphere",
+        "spin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "widest-ef5",
+      "tier": "power",
+      "t": "The widest examples on record have stretched more than two miles across",
+      "k": [
+        "widest",
+        "two miles",
+        "across"
+      ],
+      "n": 0
+    },
+    {
+      "id": "duration-contrast",
+      "tier": "power",
+      "t": "Unlike a hurricane, which can last for days, a single instance usually touches down for only a few minutes",
+      "k": [
+        "duration",
+        "minutes",
+        "unlike"
+      ],
+      "n": 0,
+      "rabbit": "Hurricanes"
+    },
+    {
+      "id": "cold-air-funnel",
+      "tier": "power",
+      "t": "A weak, often harmless version called a cold-air funnel can form from ordinary showers in cool, unstable air",
+      "k": [
+        "cold-air funnel",
+        "ordinary showers",
+        "harmless"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cyclone-note",
+      "tier": "power",
+      "t": "Casually (and incorrectly) sometimes called a “cyclone,” a word meteorologists use for much larger storm systems, such as hurricanes",
+      "k": [
+        "cyclone",
+        "casually",
+        "incorrectly"
+      ],
+      "n": 0,
+      "rabbit": "Hurricanes"
+    },
+    {
+      "id": "cape-shear",
+      "tier": "power",
+      "t": "Forecasters watch for high CAPE (convective available potential energy) plus strong wind shear, the recipe for supercells that can spawn this event",
+      "k": [
+        "cape",
+        "wind shear",
+        "recipe"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not a “cyclone”",
+    "body": "Several real answer lines explicitly say do not prompt on “cyclone” for this answer — that word almost always means a hurricane-type storm instead, a completely different weather system that forms over warm ocean water, not from a thunderstorm. Players also sometimes blurt “hurricane” by mistake when they hear “rotating storm,” and mix this event up with weaker look-alikes, a dust devil or a microburst, which are not rotating funnels from a thunderstorm at all.",
+    "fix": "If the storm formed over the ocean, has an eye, or is rated on the Saffir-Simpson scale, that is a hurricane or cyclone, not this. If it dropped from a thunderstorm, left a hook echo on radar, or is rated on the Fujita scale, buzz with this answer instead.",
+    "line": "Real answer line: <b><u>Tornado</u></b> (accept twister; do not prompt on “cyclone”)."
+  },
+  "tests": {
+    "right": [
+      "Tornado",
+      "Tornadoes",
+      "Tornadoe",
+      "Twister"
+    ],
+    "prompt": [
+      "Funnel Cloud",
+      "Waterspout"
+    ],
+    "wrong": [
+      "Cyclone",
+      "Hurricane",
+      "Dust Devil",
+      "Typhoon"
+    ]
+  },
+  "freq": {
+    "rank": 7,
+    "count": 5,
+    "list": "Earth Science"
+  }
+}

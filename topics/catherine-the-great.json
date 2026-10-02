@@ -1,0 +1,458 @@
+{
+  "id": "catherine-the-great",
+  "name": "Catherine the Great",
+  "mono": "CTG",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Empress of Russia · Enlightenment reforms and huge territorial growth",
+  "dates": "1729–1796",
+  "briefing": "Catherine the Great seized the Russian throne from her own husband in 1762 and ruled for 34 years, turning Russia into one of Europe’s great powers. Born a minor German princess, she filled the Hermitage Museum with art, traded letters with the philosopher Voltaire, and expanded Russia’s borders by annexing Crimea and helping divide up Poland. She and Peter I are the only rulers of imperial Russia remembered as “the Great.”",
+  "answerHtml": "<b><u>Catherine the Great</u></b> (or <u>Catherine II</u> of Russia; prompt on <u>Catherine</u> alone or on <u>Sophie</u>)",
+  "accept": [
+    "catherine the great",
+    "catherine ii",
+    "catherine 2",
+    "catherine the second",
+    "catherine ii of russia",
+    "catherine 2 of russia",
+    "catherine the great of russia",
+    "empress catherine",
+    "catherine the great empress of russia",
+    "sophie of anhalt zerbst"
+  ],
+  "prompt": [
+    "catherine",
+    "sophie",
+    "empress of russia"
+  ],
+  "reject": [
+    "catherine i",
+    "catherine the first",
+    "catherine 1",
+    "catherine i of russia",
+    "peter the great",
+    "peter i",
+    "peter the first",
+    "peter iii",
+    "peter the third",
+    "peter 3",
+    "elizabeth of russia",
+    "empress elizabeth",
+    "paul i",
+    "alexander i",
+    "nicholas i",
+    "nicholas ii",
+    "ivan the terrible",
+    "ivan vi",
+    "frederick the great",
+    "grigory potemkin",
+    "potemkin",
+    "yemelyan pugachev",
+    "pugachev",
+    "alexander suvorov",
+    "suvorov",
+    "voltaire",
+    "denis diderot",
+    "diderot",
+    "catherine de medici",
+    "catherine of aragon",
+    "catherine parr",
+    "catherine howard",
+    "catherine of braganza",
+    "catherine of valois"
+  ],
+  "tests": {
+    "right": [
+      "Catherine the Great",
+      "Catherine II",
+      "Catherine 2",
+      "Empress Catherine the Great",
+      "Catherin the Great",
+      "Catherine the Great of Russia"
+    ],
+    "prompt": [
+      "Catherine",
+      "Sophie"
+    ],
+    "wrong": [
+      "Catherine I",
+      "Peter the Great",
+      "Peter III",
+      "Catherine de Medici",
+      "Grigory Potemkin",
+      "Frederick the Great"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Catherine the Great - Not Quite Catherine Yet - Extra History - Part 1",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=r1-OC_4cx_o",
+      "note": "Animated series, Part 1: a minor German princess arrives in Russia"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Catherine the Great: Empress of Russia in the Golden Age",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=i-knt8kJnS4",
+      "note": "Short · quick life story of the empress and her rise to power"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Who Was Catherine the Great? Russia’s Brilliant Empress",
+      "source": "PastPorts Kids",
+      "url": "https://www.youtube.com/watch?v=DsDlFc5u8Xs",
+      "note": "Kid-friendly rundown of her life and reign"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Catherine the Great",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Catherine-the-Great/352927",
+      "note": "Quick read: her early life, Russian expansion, and reforms at home"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Catherine_the_Great",
+  "qb": {
+    "q": "Catherine the Great",
+    "found": 5,
+    "tip": "All 5 Middle School/Easy High School tossups are clean hits on her; look out for the Partitions of Poland, Potemkin villages, and Pugachev’s Rebellion, which repeat in almost every one."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This ruler bought the philosopher Denis Diderot’s [“DEE-duh-roh”] personal library in 1765 but let him keep using the books for the rest of his life, paying him a salary as its “librarian.” In 1785, this ruler issued the Charter of the Nobility, expanding the legal privileges of Russia’s landowning class.",
+      "r": "Even as she let serfdom grow harsher, Voltaire praised her as an enlightened monarch. For 10 points, name this Russian empress who partitioned Poland and ruled from 1762 to 1796."
+    },
+    {
+      "p": "A Cossack named Yemelyan Pugachev [“poo-guh-CHOF”] led a huge revolt against this ruler by claiming to be her own dead husband. The general Alexander Suvorov helped crush that uprising before going on to win key battles against the Ottoman Empire.",
+      "r": "This ruler had taken power in a coup against that husband, Peter III. For 10 points, name this empress who also carried out the Partitions of Poland."
+    },
+    {
+      "p": "This ruler founded the Smolny Institute to give noble girls a formal education; more than a century later, the Bolsheviks made the institute’s building their headquarters during the 1917 October Revolution. This ruler’s many letters to the philosopher Voltaire earned her the nickname “the Star of the North.”",
+      "r": "She also issued the Nakaz, Enlightenment-inspired instructions for a new law code. For 10 points, name this empress of Russia, often called an enlightened despot."
+    },
+    {
+      "p": "Born a minor princess in a small German state, this ruler converted to Russian Orthodoxy and took a new name before marrying the heir to the Russian throne at age sixteen. Years later, she overthrew that husband in a palace coup.",
+      "r": "That husband was Peter III. For 10 points, name this empress who went on to partition Poland and annex Crimea."
+    },
+    {
+      "p": "During the American Revolution, this ruler formed the League of Armed Neutrality to protect neutral nations’ shipping from being searched by Britain. This ruler’s lover and advisor, Grigory Potemkin [“puh-TYOM-kin”], is linked to legends about fake villages built along her route to impress her.",
+      "r": "Those “Potemkin villages” supposedly hid how poor the newly conquered Crimea really was. For 10 points, name this empress of Russia."
+    },
+    {
+      "p": "This ruler fought two wars against the Ottoman Empire that finally gave Russia warm-water ports on the Black Sea. The first of those wars also paved the way for this ruler to annex the Crimean Peninsula in 1783.",
+      "r": "She had taken the throne in 1762 by overthrowing her husband. For 10 points, name this German-born empress who ruled Russia for 34 years."
+    },
+    {
+      "p": "During this ruler’s reign, Russian explorers and traders set up the country’s first colonies in Alaska. This ruler also oversaw three Partitions of Poland with Prussia and Austria, the last of which erased Poland from the map entirely.",
+      "r": "A Cossack rebellion led by Yemelyan Pugachev also broke out during her reign. For 10 points, name this empress nicknamed “the Great.”"
+    },
+    {
+      "p": "This ruler founded the Hermitage Museum in Saint Petersburg by buying a huge private art collection, and it has since grown into one of the largest museums on Earth. This ruler annexed the Crimean Peninsula, a former Ottoman vassal state, in 1783.",
+      "r": "She crushed Pugachev’s Rebellion a decade earlier. For 10 points, name this 18th-century empress of Russia."
+    },
+    {
+      "p": "Although she corresponded with Enlightenment thinkers and called herself an enlightened monarch, this ruler’s Charter of the Nobility (1785) confirmed landowners’ power over their serfs instead of freeing them.",
+      "r": "She came to power in 1762 after overthrowing her husband, Peter III. For 10 points, name this empress of Russia."
+    },
+    {
+      "p": "After a 34-year reign, this ruler died of a stroke in 1796 and was succeeded by her son, Paul I. Decades earlier, this ruler had seized power in a coup that ended her husband’s brief reign as tsar.",
+      "r": "That husband was Peter III. For 10 points, name this German-born empress of Russia."
+    },
+    {
+      "p": "Legend says one of this ruler’s advisors built fake villages along the Dnieper [“NEE-per”] River to make newly conquered land look richer than it was, before this ruler toured the region on her way to Crimea. That advisor and lover was Grigory Potemkin.",
+      "r": "She also divided up Poland alongside Prussia and Austria. For 10 points, name this Russian empress of the 18th century."
+    },
+    {
+      "p": "At just sixteen, this future ruler married the awkward heir to the Russian crown in an arranged match meant to secure her own family’s standing. She later described that husband with contempt in memoirs written long after she had pushed him off the throne.",
+      "r": "That husband briefly ruled as Peter III. For 10 points, name this empress who exchanged letters with Voltaire and partitioned Poland."
+    },
+    {
+      "p": "This ruler and her Prussian and Austrian partners carried out three Partitions of Poland between 1772 and 1795, with the last one wiping Poland off the map of Europe. In the 1770s, this ruler also crushed Pugachev’s Rebellion in the Ural [“YOOR-ul”] region.",
+      "r": "She also annexed Crimea after beating the Ottoman Empire. For 10 points, name this empress who ruled Russia from 1762 to 1796."
+    },
+    {
+      "p": "This ruler annexed the Crimean Peninsula in 1783 and put her advisor Grigory Potemkin in charge of developing Russia’s newly won southern lands. This ruler had taken the throne two decades earlier in a palace coup against her own husband.",
+      "r": "She also partitioned Poland and founded the Hermitage Museum. For 10 points, name this empress of Russia."
+    },
+    {
+      "p": "Over a 34-year reign, this ruler pushed the Russian Empire’s borders far to the west and south, won two wars against the Ottomans, and filled her court with Enlightenment art and ideas. She came to power in 1762 by having her own husband removed from the throne.",
+      "r": "That husband was Peter III, and she went on to partition Poland and annex Crimea. For 10 points, name this German-born empress of Russia."
+    }
+  ],
+  "clues": [
+    {
+      "id": "empress-of-russia",
+      "tier": "giveaway",
+      "t": "Empress of Russia from 1762 to 1796, a 34-year reign remembered as a “Golden Age”",
+      "k": [
+        "empress of russia",
+        "1762",
+        "1796",
+        "golden age"
+      ],
+      "n": 5
+    },
+    {
+      "id": "coup-peter-iii",
+      "tier": "giveaway",
+      "t": "Took the throne in a palace coup against her own husband, Peter III (1762)",
+      "k": [
+        "coup",
+        "peter iii",
+        "husband"
+      ],
+      "n": 4,
+      "rabbit": "Peter III"
+    },
+    {
+      "id": "partitions-of-poland",
+      "tier": "giveaway",
+      "t": "Carried out the Partitions of Poland with Prussia and Austria, erasing Poland from the map",
+      "k": [
+        "partitions of poland",
+        "poland",
+        "prussia",
+        "austria"
+      ],
+      "n": 3
+    },
+    {
+      "id": "potemkin-villages",
+      "tier": "giveaway",
+      "t": "Her advisor and lover Grigory Potemkin inspired the legend of fake “Potemkin villages”",
+      "k": [
+        "potemkin",
+        "potemkin villages",
+        "grigory potemkin"
+      ],
+      "n": 3,
+      "rabbit": "Grigory Potemkin"
+    },
+    {
+      "id": "crimea",
+      "tier": "giveaway",
+      "t": "Annexed the Crimean Peninsula, a former Ottoman vassal state, in 1783",
+      "k": [
+        "crimea",
+        "crimean peninsula",
+        "1783",
+        "annexed"
+      ],
+      "n": 3
+    },
+    {
+      "id": "pugachev",
+      "tier": "middle",
+      "t": "Crushed Pugachev’s Rebellion, a Cossack uprising whose leader claimed to be her dead husband",
+      "k": [
+        "pugachev",
+        "cossack",
+        "rebellion"
+      ],
+      "n": 2,
+      "rabbit": "Pugachev’s Rebellion"
+    },
+    {
+      "id": "enlightened-despot",
+      "tier": "middle",
+      "t": "Called an “enlightened despot”; read and corresponded with Enlightenment philosophers",
+      "k": [
+        "enlightened despot",
+        "enlightenment"
+      ],
+      "n": 4
+    },
+    {
+      "id": "voltaire",
+      "tier": "middle",
+      "t": "Traded hundreds of letters with the French philosopher Voltaire, who called her “the Star of the North”",
+      "k": [
+        "voltaire",
+        "star of the north"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nakaz",
+      "tier": "middle",
+      "t": "Issued the Nakaz, Enlightenment-inspired instructions for drafting a new law code",
+      "k": [
+        "nakaz",
+        "law code"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sophie-birth",
+      "tier": "middle",
+      "t": "Born a minor princess in a small German state before taking a new name in Russia",
+      "k": [
+        "german princess",
+        "minor princess",
+        "german state"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hermitage",
+      "tier": "middle",
+      "t": "Founded the Hermitage Museum in Saint Petersburg, now one of the world’s largest art museums",
+      "k": [
+        "hermitage",
+        "hermitage museum",
+        "saint petersburg"
+      ],
+      "n": 1
+    },
+    {
+      "id": "smolny",
+      "tier": "middle",
+      "t": "Set up the Smolny Institute to give noble girls a formal education",
+      "k": [
+        "smolny",
+        "smolny institute",
+        "noble girls"
+      ],
+      "n": 1
+    },
+    {
+      "id": "league-armed-neutrality",
+      "tier": "middle",
+      "t": "Formed the League of Armed Neutrality to protect neutral shipping during the American Revolution",
+      "k": [
+        "league of armed neutrality",
+        "armed neutrality",
+        "neutral shipping"
+      ],
+      "n": 1
+    },
+    {
+      "id": "russo-turkish-wars",
+      "tier": "power",
+      "t": "Won two wars against the Ottoman Empire (1768–74 and 1787–92), gaining Russia lasting warm-water ports on the Black Sea",
+      "k": [
+        "ottoman empire",
+        "black sea",
+        "warm water ports"
+      ],
+      "n": 0
+    },
+    {
+      "id": "suvorov",
+      "tier": "power",
+      "t": "General Alexander Suvorov helped crush Pugachev’s Rebellion and later beat the Ottomans for her",
+      "k": [
+        "suvorov",
+        "alexander suvorov"
+      ],
+      "n": 1
+    },
+    {
+      "id": "alaska",
+      "tier": "power",
+      "t": "Her reign saw Russia’s first colonies founded in Alaska",
+      "k": [
+        "alaska",
+        "colonies"
+      ],
+      "n": 1
+    },
+    {
+      "id": "smolny-bolshevik",
+      "tier": "power",
+      "t": "Her Smolny Institute later served as Bolshevik headquarters during the 1917 October Revolution",
+      "k": [
+        "bolshevik",
+        "october revolution",
+        "1917"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peter-iii-marriage",
+      "tier": "power",
+      "t": "Married the future Peter III at sixteen in an arranged match, years before overthrowing him",
+      "k": [
+        "sixteen",
+        "arranged marriage"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orthodoxy-conversion",
+      "tier": "power",
+      "t": "Converted from Lutheranism to Russian Orthodoxy and took a new name before her marriage",
+      "k": [
+        "lutheranism",
+        "orthodoxy",
+        "converted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "charter-of-nobility",
+      "tier": "power",
+      "t": "Issued the Charter of the Nobility (1785), expanding landowners’ legal rights and privileges",
+      "k": [
+        "charter of the nobility",
+        "nobility",
+        "1785"
+      ],
+      "n": 0
+    },
+    {
+      "id": "serfdom-worsened",
+      "tier": "power",
+      "t": "Expanded landowners’ power over serfs even while calling herself enlightened, helping spark Pugachev’s revolt",
+      "k": [
+        "serfs",
+        "serfdom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diderot-library",
+      "tier": "power",
+      "t": "Bought philosopher Denis Diderot’s personal library (1765) but let him keep the books and paid him as its “librarian”",
+      "k": [
+        "diderot",
+        "denis diderot",
+        "library"
+      ],
+      "n": 0
+    },
+    {
+      "id": "death-paul-succession",
+      "tier": "power",
+      "t": "Died of a stroke in 1796 after 34 years on the throne and was succeeded by her son, Paul I",
+      "k": [
+        "stroke",
+        "1796",
+        "paul i"
+      ],
+      "n": 0,
+      "rabbit": "Paul I"
+    }
+  ],
+  "trap": {
+    "title": "Which Catherine? Which Great?",
+    "body": "Russia had two empresses named Catherine: Catherine I was Peter the Great’s widow, who briefly ruled after his death, while Catherine II is the famous “Catherine the Great” of the Enlightenment era. Real answer lines only accept bare “Catherine” once the question has already said “the Great,” and otherwise only give a prompt. Don’t confuse her with Peter the Great (no blood relation; she married his grandson, Peter III) or with her own contemporary “the Great,” Prussia’s Frederick the Great, her partner in partitioning Poland.",
+    "fix": "The coup against Peter III, Potemkin, Pugachev, and the Partitions of Poland all mean Catherine the Great. A question about Peter the Great’s reforms, shipbuilding, or St. Petersburg wants a different, earlier ruler. Say “Catherine the Great” or “Catherine II,” not just “Catherine.”",
+    "line": "Real answer line: <b><u>Catherine the Great</u></b> (accept <u>Catherine II</u>; prompt on <u>Catherine</u> until “the Great” is read)"
+  },
+  "freq": {
+    "rank": 35,
+    "count": 3,
+    "list": "European History"
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "id": "photosynthesis",
+  "name": "Photosynthesis",
+  "mono": "PHS",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "How plants turn sunlight into food · The base of nearly every food chain",
+  "dates": "Powers nearly every food chain on Earth",
+  "briefing": "Photosynthesis is how green plants, algae, and some bacteria capture sunlight and turn it into food. Using chlorophyll, often packed inside chloroplasts, they combine carbon dioxide and water into glucose and release oxygen as a byproduct, essentially running in reverse of how animals later burn that same glucose for fuel. The whole process happens in two linked stages: one that needs direct light, and one that uses what the first stage made.",
+  "answerHtml": "<b><u>Photosynthesis</u></b> (prompt on <u>light reactions</u>, <u>light-independent reactions</u>, <u>Calvin cycle</u>, or <u>carbon fixation</u>; do not accept “cellular respiration”)",
+  "accept": [
+    "photosynthesis"
+  ],
+  "prompt": [
+    "light reactions",
+    "light dependent reactions",
+    "light independent reactions",
+    "calvin cycle",
+    "carbon fixation",
+    "dark reactions"
+  ],
+  "reject": [
+    "cellular respiration",
+    "respiration",
+    "chloroplast",
+    "chlorophyll",
+    "glucose",
+    "chemosynthesis"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The simple story of photosynthesis and food - Amanda Ooten",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=eo5XndJaz-Y",
+      "note": "Animated story of how plants turn sunlight, water, and carbon dioxide into food"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Photosynthesis (UPDATED)",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=CMiPYHNNg28",
+      "note": "Cartoon guide to chloroplasts, the light reactions, and the Calvin cycle"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Photosynthesis: Before the Bell Biology",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=MSx4rgLV_Ro",
+      "note": "Quick review from the Amoeba Sisters’ Before the Bell series"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Photosynthesis: Crash Course Biology #8",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=sQK3Yr4Sc_k",
+      "note": "Fast, detailed run through the light reactions and the Calvin cycle"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Photosynthesis",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/photosynthesis.php",
+      "note": "Quick read on what plants need, chlorophyll, and chloroplasts, with a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "qb": {
+    "q": "photosynthesis",
+    "found": 8,
+    "tip": "A clean search: all 8 results are genuinely about this process, and several explicitly prompt on its sub-stages (“light-independent reactions,” “carbon fixation”) rather than fully accepting them — those became this topic’s prompt list."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Dutch-British scientist Jan Ingenhousz [“IN-gun-howss”] is usually credited with discovering this process in 1779. In its light-capturing stage, a sequence called the Z-scheme passes electrons donated by a pigment complex named P680.",
+      "r": "The sugar-building stage of this process, which happens in the fluid-filled stroma rather than the membrane stacks, is better known as the Calvin cycle. For 10 points, name this process that plants use to turn sunlight into chemical food."
+    },
+    {
+      "p": "Certain bacteria that perform this process pack a protein shell called a carboxysome around their key enzyme, speeding up this process’s rate. That enzyme, RuBisCo, is considered the most abundant enzyme on Earth.",
+      "r": "This process takes in carbon dioxide and water and lets out oxygen as a byproduct. For 10 points, name this process in which plants, algae, and some bacteria build glucose using captured sunlight."
+    },
+    {
+      "p": "A desert-adapted version of this process, found in plants like cacti, uses crassulacean [“kras-yoo-LAY-shun”] acid metabolism to take in gas only at night. A separate C4 pathway lets some plants run this process efficiently even in hot, dry conditions, unlike the more common C3 version.",
+      "r": "This process’s light-capturing stage occurs inside stacked membranes called thylakoids, while its sugar-building stage, the Calvin cycle, happens around them. For 10 points, name this process that converts light into stored chemical food."
+    },
+    {
+      "p": "This process’s light-capturing stage produces ATP and a related molecule, NADPH, which then power its sugar-building stage. The electron-passing Z-scheme, which runs from a pigment complex called P680 to one called P700, is part of this process’s first stage.",
+      "r": "The green pigment chlorophyll absorbs the light that drives this process. For 10 points, name this process that takes place inside a plant’s chloroplasts."
+    },
+    {
+      "p": "In dry climates, some plants perform a modified version of this process called CAM, opening their pores only at night to limit water loss. A separate C4 pathway is another adaptation that helps certain grasses run this process in hot weather.",
+      "r": "Tiny pores called stomata let in the carbon dioxide this process needs, and an enzyme called RuBisCo helps fix that carbon dioxide into sugar. For 10 points, name this process, performed by plants, algae, and oxygen-releasing cyanobacteria, that turns light into food."
+    },
+    {
+      "p": "Jan Ingenhousz is generally credited with first describing this process in the late 1700s. Certain bacteria boost this process’s efficiency using protein shells called carboxysomes that concentrate carbon dioxide around its main enzyme.",
+      "r": "Phloem tissue later carries the sugary product of this process throughout a plant. For 10 points, name this process that uses sunlight to build glucose out of carbon dioxide and water."
+    },
+    {
+      "p": "This process’s light-capturing stage produces ATP and NADPH, which are then spent during its sugar-building stage to turn carbon dioxide into sugar. That sugar-building stage occurs in the stroma, just outside the thylakoid stacks where light is first captured.",
+      "r": "An enzyme called RuBisCo is essential to this process’s carbon-fixing step. For 10 points, name this process that happens inside a plant’s chloroplasts and releases oxygen as a byproduct."
+    },
+    {
+      "p": "This process’s light-capturing stage begins with a pigment complex called P680 passing along electrons in a sequence known as the Z-scheme. A desert-adapted variant of this process, CAM, only opens its intake pores at night to save water.",
+      "r": "The green pigment chlorophyll, and tiny leaf pores called stomata, both play a role in this process. For 10 points, name this two-stage process that converts carbon dioxide and water into glucose using light."
+    },
+    {
+      "p": "RuBisCo, the enzyme most responsible for this process’s carbon-fixing step, is thought to be the single most abundant enzyme on the planet. Some grasses use an alternate C4 pathway for this process, which is more efficient in hot, bright conditions than the standard C3 pathway.",
+      "r": "This process’s sugar-building stage is called the Calvin cycle, and its sugary products later travel through a plant’s phloem. For 10 points, name this light-driven process that builds glucose from carbon dioxide and water."
+    },
+    {
+      "p": "Bacterial carboxysomes concentrate carbon dioxide to speed up this process’s key enzyme, RuBisCo. This process’s light-capturing stage, which makes ATP and NADPH, takes place inside a chloroplast’s stacked thylakoid membranes.",
+      "r": "Most organisms that carry out this process are actually cyanobacteria, which release much of Earth’s oxygen while doing so. For 10 points, name this process, also performed by green plants and algae, that captures light to make food."
+    },
+    {
+      "p": "Jan Ingenhousz’s 1779 experiments first linked sunlight directly to this process. Its light-driven first stage passes electrons through a sequence called the Z-scheme, running from the pigment complex P680 to P700.",
+      "r": "Carbon dioxide enters a leaf through small pores called stomata to supply this process, and the Calvin cycle then turns that carbon dioxide into sugar. For 10 points, name this process that plants use to convert light into chemical food."
+    },
+    {
+      "p": "A desert-adapted version of this process called CAM, found in plants like cacti, saves water by only opening its pores after dark. This process’s sugar-building stage occurs in the stroma, using ATP and NADPH supplied by the earlier, light-driven stage.",
+      "r": "Chlorophyll inside a plant’s chloroplasts absorbs the light that drives this process, and an enzyme called RuBisCo fixes carbon dioxide during its second stage. For 10 points, name this process that releases oxygen as a byproduct."
+    },
+    {
+      "p": "Some grasses rely on a C4 pathway to run this process efficiently in hot, sunny conditions, instead of the more common C3 pathway. Bacteria that carry out this process sometimes use carboxysomes, protein shells that concentrate carbon dioxide around RuBisCo.",
+      "r": "Phloem transports the sugar this process produces to the rest of a plant, while stomata let in the carbon dioxide this process needs. For 10 points, name this process that turns light into stored chemical food."
+    },
+    {
+      "p": "This process’s light-driven stage produces both ATP and NADPH, which are then used up converting carbon dioxide into sugar during the Calvin cycle. RuBisCo, the enzyme at the heart of that carbon-fixing step, is often called the most abundant enzyme on Earth.",
+      "r": "Chlorophyll absorbs the sunlight that powers this process inside a plant’s chloroplasts. For 10 points, name this process that plants, algae, and cyanobacteria use to make glucose and release oxygen."
+    },
+    {
+      "p": "A sequence of electron transfers called the Z-scheme, which passes through pigment complex P680, occurs during this process’s light-capturing stage. In dry climates, a modified version of this process called CAM only takes in carbon dioxide at night to limit water loss.",
+      "r": "RuBisCo drives the carbon-fixing step of this process, and phloem later carries away its sugary products. For 10 points, name this process, performed by plants, algae, and some bacteria, that converts carbon dioxide and water into glucose using sunlight."
+    }
+  ],
+  "clues": [
+    {
+      "id": "core-definition",
+      "tier": "giveaway",
+      "t": "The process by which plants, algae, and some bacteria capture sunlight and turn it into chemical food",
+      "k": [
+        "sunlight",
+        "chemical food"
+      ],
+      "n": 8
+    },
+    {
+      "id": "inputs-outputs",
+      "tier": "giveaway",
+      "t": "Takes in carbon dioxide and water, and releases oxygen as it builds glucose",
+      "k": [
+        "carbon dioxide",
+        "water",
+        "oxygen",
+        "glucose"
+      ],
+      "n": 3
+    },
+    {
+      "id": "occurs-in-chloroplasts",
+      "tier": "giveaway",
+      "t": "Takes place inside a plant’s chloroplasts",
+      "k": [
+        "chloroplasts"
+      ],
+      "n": 6
+    },
+    {
+      "id": "two-stage",
+      "tier": "giveaway",
+      "t": "Runs in two linked stages: a light-capturing stage, then a sugar-building stage that uses what the first stage made",
+      "k": [
+        "light-capturing",
+        "sugar-building"
+      ],
+      "n": 4
+    },
+    {
+      "id": "who-performs-it",
+      "tier": "giveaway",
+      "t": "Carried out by green plants, algae, and cyanobacteria, besides a few other bacteria",
+      "k": [
+        "plants",
+        "algae",
+        "cyanobacteria"
+      ],
+      "n": 3
+    },
+    {
+      "id": "calvin-cycle",
+      "tier": "middle",
+      "t": "The sugar-building stage is better known as the Calvin cycle",
+      "k": [
+        "calvin cycle"
+      ],
+      "n": 6,
+      "rabbit": "Calvin cycle"
+    },
+    {
+      "id": "rubisco-enzyme",
+      "tier": "middle",
+      "t": "The enzyme RuBisCo [“ROO-biss-koh”] carries out the key carbon-fixing step",
+      "k": [
+        "rubisco"
+      ],
+      "n": 7
+    },
+    {
+      "id": "thylakoid-membrane",
+      "tier": "middle",
+      "t": "Its light-capturing stage happens inside stacked membranes called thylakoids",
+      "k": [
+        "thylakoids"
+      ],
+      "n": 3
+    },
+    {
+      "id": "chlorophyll-pigment",
+      "tier": "middle",
+      "t": "The green pigment chlorophyll absorbs the light that drives it",
+      "k": [
+        "chlorophyll"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cyanobacteria-oxygen",
+      "tier": "middle",
+      "t": "Cyanobacteria performing this process release much of Earth’s oxygen",
+      "k": [
+        "cyanobacteria",
+        "oxygen"
+      ],
+      "n": 3
+    },
+    {
+      "id": "stomata-intake",
+      "tier": "middle",
+      "t": "Tiny leaf pores called stomata let carbon dioxide in to supply it",
+      "k": [
+        "stomata"
+      ],
+      "n": 1
+    },
+    {
+      "id": "phloem-transport",
+      "tier": "middle",
+      "t": "Phloem tissue carries this process’s sugary product throughout the plant",
+      "k": [
+        "phloem"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cam-photosynthesis",
+      "tier": "power",
+      "t": "A desert-adapted version called CAM (crassulacean acid metabolism) opens its pores only at night to save water",
+      "k": [
+        "cam",
+        "crassulacean"
+      ],
+      "n": 3
+    },
+    {
+      "id": "c3-c4-pathways",
+      "tier": "power",
+      "t": "Some grasses use an alternate C4 pathway instead of the more common C3 pathway in hot, sunny conditions",
+      "k": [
+        "c4 pathway",
+        "c3 pathway"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rubisco-abundant",
+      "tier": "power",
+      "t": "Its enzyme RuBisCo is considered the single most abundant enzyme on Earth",
+      "k": [
+        "most abundant enzyme"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ingenhousz-discoverer",
+      "tier": "power",
+      "t": "Dutch-British scientist Jan Ingenhousz [“IN-gun-howss”] is usually credited with discovering it, in 1779",
+      "k": [
+        "jan ingenhousz"
+      ],
+      "n": 1
+    },
+    {
+      "id": "z-scheme-p680",
+      "tier": "power",
+      "t": "Its light stage’s Z-scheme passes electrons through a pigment complex called P680",
+      "k": [
+        "z-scheme",
+        "p680"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stroma-location",
+      "tier": "power",
+      "t": "Its sugar-building stage happens in the stroma, the fluid around the thylakoid stacks",
+      "k": [
+        "stroma"
+      ],
+      "n": 1
+    },
+    {
+      "id": "atp-nadph-products",
+      "tier": "power",
+      "t": "Its light stage makes ATP and NADPH, which power the sugar-building stage that follows",
+      "k": [
+        "atp",
+        "nadph"
+      ],
+      "n": 2
+    },
+    {
+      "id": "carboxysomes",
+      "tier": "power",
+      "t": "Some bacteria that perform it use protein shells called carboxysomes to concentrate carbon dioxide around RuBisCo",
+      "k": [
+        "carboxysomes"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Photosynthesis, or cellular respiration?",
+    "body": "These two processes are near-opposites, and middle schoolers often flip them: photosynthesis captures light energy to build glucose (in with carbon dioxide and water, out with glucose and oxygen) inside chloroplasts. Cellular respiration then breaks that glucose back down to release usable energy (in with glucose and oxygen, out with carbon dioxide and water) inside mitochondria.",
+    "fix": "If the clues mention capturing light, chlorophyll, chloroplasts, or building sugar from carbon dioxide, it’s photosynthesis. If the clues mention breaking down glucose, the Krebs cycle, mitochondria, or releasing energy for the cell to use, it’s cellular respiration instead.",
+    "line": "Real answer line: <b><u>Photosynthesis</u></b> [prompt on light-independent reactions or carbon fixation before fully named; reject cellular respiration]."
+  },
+  "tests": {
+    "right": [
+      "Photosynthesis",
+      "photosynthesis",
+      "Photosinthesis",
+      "CAM Photosynthesis"
+    ],
+    "prompt": [
+      "Calvin Cycle",
+      "Light Independent Reactions"
+    ],
+    "wrong": [
+      "Cellular Respiration",
+      "Chloroplast",
+      "Chlorophyll",
+      "Glucose",
+      "Chemosynthesis"
+    ]
+  },
+  "freq": {
+    "rank": 2,
+    "count": 12,
+    "list": "Biology"
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "id": "zoroastrianism",
+  "name": "Zoroastrianism",
+  "mono": "ZR",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Ancient Persian faith of Zoroaster · One of the oldest living religions",
+  "dates": "Founded over 2,500 years ago",
+  "briefing": "In some temples in India and Iran, sacred fires have been kept burning for centuries, tended day and night by priests. Those fires are symbols of goodness and light in Zoroastrianism, one of the world’s oldest religions, founded in ancient Persia by the prophet Zoroaster. Its followers believe the good god Ahura Mazda is locked in a struggle with the evil spirit Angra Mainyu, and each person must choose a side.",
+  "answerHtml": "<b><u>Zoroastrianism</u></b> (or <b><u>Mazdayasna</u></b>; accept <u>Mazdaism</u> or <u>Zarathustrianism</u>)",
+  "accept": [
+    "zoroastrianism",
+    "zoroastrian",
+    "zoroastrians",
+    "zoroastrian religion",
+    "zoroastrian faith",
+    "mazdayasna",
+    "mazdaism",
+    "zarathustrianism",
+    "zarathustrism",
+    "magianism",
+    "behdin"
+  ],
+  "prompt": [],
+  "reject": [
+    "manichaeism",
+    "manicheism",
+    "mithraism",
+    "islam",
+    "zurvanism",
+    "mazdakism",
+    "zoroaster",
+    "zarathustra",
+    "parsi",
+    "parsis",
+    "parsiism",
+    "bahai"
+  ],
+  "tests": {
+    "right": [
+      "Zoroastrianism",
+      "Zoroastrian",
+      "Mazdayasna",
+      "Mazdaism",
+      "Zoroastrainism",
+      "the Zoroastrian religion"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Manichaeism",
+      "Mithraism",
+      "Islam",
+      "Zoroaster",
+      "Parsi",
+      "Mazdakism",
+      "Zurvanism",
+      "Ahura Mazda"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Please Explain: The Zoroastrian Religion",
+      "source": "ABC News (Australia)",
+      "url": "https://www.youtube.com/watch?v=zJKW2wYZxVo",
+      "note": "A news explainer on the religion and its followers"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Inside India’s First Museum Dedicated to the Parsi Community",
+      "source": "BBC News India",
+      "url": "https://www.youtube.com/watch?v=AZsCdT-VUNQ",
+      "note": "News report on the history of India’s Parsi Zoroastrians"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Zoroastrianism Explained",
+      "source": "Cogito",
+      "url": "https://www.youtube.com/watch?v=hl9QgeHdKYk",
+      "note": "Overview of the religion’s history and beliefs"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Persians & Greeks (#5)",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=Q-mkVSasZIM",
+      "note": "The ancient Persian Empire and its wars with the Greeks"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Zoroastrianism",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Zoroastrianism/390104",
+      "note": "Quick read: Zoroaster, Ahura Mazda and Ahriman, prayers, festivals, and the Parsis"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Zoroastrianism",
+  "qb": {
+    "q": "Zoroastrianism",
+    "found": 5,
+    "tip": "All 5 Middle School/Easy High School hits are on target, and the 12 Regular High School ones we added show the same core (Ahura Mazda, Angra Mainyu, the Avesta, fire temples, and Towers of Silence), but no answer line we found accepts “Parsi.”"
+  },
+  "sample": {
+    "n": 17,
+    "note": "17 real QBReader tossups (5 Middle School/Easy High School + 12 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A symbol of this religion called the Faravahar [“fah-RAH-vah-har”] shows a bearded man rising from a disc with outspread wings, and it has become a symbol of Iran itself. Its followers pray facing a source of light, such as a sacred fire.",
+      "r": "They try to live by the motto “good thoughts, good words, good deeds.” For 10 points, name this ancient Persian religion whose supreme god is Ahura Mazda."
+    },
+    {
+      "p": "Followers of this religion are urged to choose asha [“AH-shuh”], meaning truth and right order, over druj [“drooj”], meaning the lie. That struggle mirrors the cosmic battle between its good creator god and the destructive spirit Angra Mainyu [“AHN-gruh MINE-yoo”], also called Ahriman [“AH-ree-mahn”].",
+      "r": "Nowruz, the Persian New Year, has roots in this faith. For 10 points, name this ancient Persian religion founded by the prophet Zarathustra."
+    },
+    {
+      "p": "In this religion, two four-eyed dogs guard the Chinvat [“CHIN-vaht”] Bridge, which every soul must cross after death. The bridge grows wide for the righteous, who reach the House of Song, but becomes as narrow as a blade for the wicked, who fall into the House of Lies.",
+      "r": "Its holy book is the Avesta. For 10 points, name this religion whose followers worship Ahura Mazda in fire temples."
+    },
+    {
+      "p": "At the end of time in this religion, a savior called the Saoshyant [“SOWSH-yant”] will help bring about Frashokereti [“frah-sho-keh-REH-tee”], a final renewal of the world. The dead will rise, and everyone will pass through a river of molten metal that feels like warm milk to the righteous.",
+      "r": "Some scholars think these ideas influenced Judaism and Christianity. For 10 points, name this Persian religion whose holy book is the Avesta."
+    },
+    {
+      "p": "According to tradition, this religion’s founder was about 30 years old and fetching water from a river when Vohu Manah [“VOH-hoo MAH-nah”], or “Good Mind,” appeared to him in a vision. Vohu Manah is one of six divine helpers of the supreme god called the Amesha Spentas [“AH-meh-shuh SPEN-tuhz”], or “Bounteous Immortals.”",
+      "r": "That founder later composed hymns called the Gathas. For 10 points, name this ancient Persian religion founded by Zoroaster."
+    },
+    {
+      "p": "During the Navjote [“nuv-JOHT”] ceremony, children in this religion are given a white cotton undershirt called a sudreh [“SOOD-ray”] and a sacred cord called a kusti [“KUSH-tee”], which is woven from 72 threads and tied around the waist. Followers retie the kusti during daily prayers.",
+      "r": "The ceremony marks a child’s entry into the faith. For 10 points, name this religion of the Parsis, known for its fire temples and Towers of Silence."
+    },
+    {
+      "p": "A heresy within this religion taught that a god of infinite time named Zurvan [“ZUR-vahn”] was the father of twin spirits, one good and one evil. Mainstream followers instead teach that the good creator has always existed and will defeat the destructive spirit Angra Mainyu at the end of time.",
+      "r": "That good creator is Ahura Mazda. For 10 points, name this dualistic religion from ancient Persia, founded by Zarathustra."
+    },
+    {
+      "p": "In this religion, fire, or atar [“AH-tar”], is honored as a sacred symbol of the creator’s light and purity. Its holiest temple fires, called Atash Behram [“AH-tush BEH-rum”], are consecrated with fires from many sources, including one started by lightning.",
+      "r": "One such fire in Udvada, India, is said to have burned for more than a thousand years. For 10 points, name this religion of Persia that honors Ahura Mazda."
+    },
+    {
+      "p": "A popular legend says that when refugees from this religion reached western India, a local ruler sent them a full bowl of milk to show there was no room, and their priest stirred in sugar to show they would sweeten the land without overflowing it.",
+      "r": "Their descendants, the Parsis, still live mainly around Mumbai. For 10 points, name this religion that began in Persia."
+    },
+    {
+      "p": "Before he became the lead singer of the rock band Queen, Freddie Mercury grew up as Farrokh Bulsara in a family that followed this religion, and his funeral service was led by one of its priests. Other famous members of this faith include the Tata family, who built one of India’s biggest companies.",
+      "r": "Its members in India are called Parsis. For 10 points, name this ancient religion founded by Zoroaster in Persia."
+    },
+    {
+      "p": "Richard Strauss wrote a famous tone poem, used at the start of the film _2001: A Space Odyssey_, based on a book by Friedrich Nietzsche named for this religion’s founder. In that book, a fictional version of the founder comes down from the mountains to preach about the “Übermensch.”",
+      "r": "That book is _Thus Spoke Zarathustra_. For 10 points, name this Persian religion whose supreme god is Ahura Mazda."
+    },
+    {
+      "p": "In the Behistun [“bay-hiss-TOON”] Inscription, the Persian king Darius I declared that he ruled by the favor of this religion’s supreme god. Centuries later, this religion became the official faith of the Sasanian [“suh-SAH-nee-un”] Empire, whose coins showed fire altars.",
+      "r": "Arab armies conquered Persia in the 600s, and Islam gradually replaced it. For 10 points, name this ancient Persian religion whose god is Ahura Mazda."
+    },
+    {
+      "p": "Priests of this religion were called magi [“MAY-jy”], and the “wise men” who visit the baby Jesus in the Gospel of Matthew are often thought to have been such priests. Its scripture includes the Vendidad [“ven-dee-DAHD”], a book of purity laws and rules for driving away demons.",
+      "r": "Its holy book is the Avesta. For 10 points, name this Persian religion that worships in fire temples."
+    },
+    {
+      "p": "Traditionally, followers of this religion placed their dead on stone towers called dakhmas [“DOCK-muhz”], open to the sun and to vultures, so that burial or cremation would not pollute the sacred earth or fire. In recent decades, a sharp drop in India’s vulture population has pushed the Parsis of Mumbai to look for other methods.",
+      "r": "Those towers are known as Towers of Silence. For 10 points, name this Persian religion whose god is Ahura Mazda."
+    },
+    {
+      "p": "The oldest part of this religion’s scripture is a set of 17 hymns called the Gathas [“GAH-tuhz”], which are believed to have been composed by its founder himself. Those hymns are recited during the Yasna [“YUSS-nuh”], this religion’s main act of worship, and are written in an ancient language called Avestan.",
+      "r": "Its scripture is the Avesta. For 10 points, name this religion founded by the Persian prophet Zarathustra."
+    }
+  ],
+  "clues": [
+    {
+      "id": "persia",
+      "tier": "giveaway",
+      "t": "An ancient religion from Persia (modern Iran)",
+      "k": [
+        "persia",
+        "iran"
+      ],
+      "n": 17
+    },
+    {
+      "id": "ahura-mazda",
+      "tier": "giveaway",
+      "t": "Its supreme god is Ahura Mazda, the “Wise Lord”",
+      "k": [
+        "ahura mazda",
+        "wise lord"
+      ],
+      "n": 17
+    },
+    {
+      "id": "zoroaster",
+      "tier": "giveaway",
+      "t": "Founded by the prophet Zoroaster, also called Zarathustra",
+      "k": [
+        "zarathustra",
+        "zoroaster",
+        "prophet"
+      ],
+      "n": 12,
+      "rabbit": "Zoroaster"
+    },
+    {
+      "id": "angra-mainyu",
+      "tier": "giveaway",
+      "t": "Dualistic: the good Ahura Mazda battles the evil spirit Angra Mainyu, also called Ahriman",
+      "k": [
+        "angra mainyu",
+        "ahriman",
+        "dualistic",
+        "evil spirit"
+      ],
+      "n": 14
+    },
+    {
+      "id": "avesta",
+      "tier": "middle",
+      "t": "Holy book: the Avesta (commentaries on it are called the Zend)",
+      "k": [
+        "avesta",
+        "zend"
+      ],
+      "n": 15
+    },
+    {
+      "id": "fire-temples",
+      "tier": "middle",
+      "t": "Worships in fire temples; fire is honored as a sacred symbol of the god’s light and purity",
+      "k": [
+        "fire temples",
+        "fire temple",
+        "purity"
+      ],
+      "n": 11
+    },
+    {
+      "id": "towers-of-silence",
+      "tier": "middle",
+      "t": "Traditionally, the dead were laid on stone Towers of Silence (dakhmas), open to the sky and to vultures, to keep earth and fire pure",
+      "k": [
+        "towers of silence",
+        "dakhmas",
+        "dakhma",
+        "vultures"
+      ],
+      "n": 9
+    },
+    {
+      "id": "chinvat",
+      "tier": "middle",
+      "t": "After death, souls cross the Chinvat Bridge, guarded by two four-eyed dogs; it is wide for the good and narrow for the wicked",
+      "k": [
+        "chinvat",
+        "bridge",
+        "four eyed"
+      ],
+      "n": 8
+    },
+    {
+      "id": "house-of-song",
+      "tier": "middle",
+      "t": "The good go to the House of Song; the wicked go to the House of Lies",
+      "k": [
+        "house of song",
+        "house of lies"
+      ],
+      "n": 6
+    },
+    {
+      "id": "parsis",
+      "tier": "middle",
+      "t": "Parsis: followers who fled Persia for India over a thousand years ago (legend: like sugar in milk); most now live around Mumbai",
+      "k": [
+        "parsis",
+        "parsi",
+        "mumbai",
+        "sugar"
+      ],
+      "n": 3
+    },
+    {
+      "id": "good-thoughts",
+      "tier": "middle",
+      "t": "Motto: “good thoughts, good words, good deeds”",
+      "k": [
+        "good thoughts",
+        "good words",
+        "good deeds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nietzsche",
+      "tier": "middle",
+      "t": "Nietzsche’s _Thus Spoke Zarathustra_ is named for its founder; Richard Strauss based a famous tone poem on that book",
+      "k": [
+        "nietzsche",
+        "strauss"
+      ],
+      "n": 2
+    },
+    {
+      "id": "magi",
+      "tier": "middle",
+      "t": "Its priests were called magi; the Bible’s “wise men” may have been magi",
+      "k": [
+        "magi",
+        "magus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "influence",
+      "tier": "middle",
+      "t": "Its ideas of heaven and hell, a final judgment, and a coming savior may have influenced Judaism and Christianity",
+      "k": [
+        "influenced",
+        "heaven",
+        "judgment",
+        "savior"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gathas",
+      "tier": "power",
+      "t": "The Gathas: 17 hymns believed to be by the founder himself, recited in the Yasna, the main act of worship",
+      "k": [
+        "gathas",
+        "yasna"
+      ],
+      "n": 5
+    },
+    {
+      "id": "asha-druj",
+      "tier": "power",
+      "t": "Asha (truth and right order) is opposed by druj (the lie)",
+      "k": [
+        "asha",
+        "druj"
+      ],
+      "n": 5
+    },
+    {
+      "id": "faravahar",
+      "tier": "power",
+      "t": "The Faravahar, a bearded man rising from a winged disc, is its best-known symbol",
+      "k": [
+        "faravahar",
+        "winged"
+      ],
+      "n": 1
+    },
+    {
+      "id": "saoshyant",
+      "tier": "power",
+      "t": "A future savior, the Saoshyant, will bring Frashokereti, the final renewal of the world, when the dead rise",
+      "k": [
+        "saoshyant",
+        "savior"
+      ],
+      "n": 4
+    },
+    {
+      "id": "amesha-spentas",
+      "tier": "power",
+      "t": "Six Amesha Spentas (“Bounteous Immortals”) serve the supreme god; one, Vohu Manah (“Good Mind”), appeared to the founder in a vision",
+      "k": [
+        "amesha spentas",
+        "vohu manah",
+        "immortals"
+      ],
+      "n": 4
+    },
+    {
+      "id": "zurvanism",
+      "tier": "power",
+      "t": "Zurvanism, a heresy, made Zurvan (infinite time) the father of twin good and evil spirits",
+      "k": [
+        "zurvanism",
+        "zurvan"
+      ],
+      "n": 4
+    },
+    {
+      "id": "navjote",
+      "tier": "power",
+      "t": "Navjote: a child’s initiation, receiving the sudreh (white undershirt) and kusti (a cord of 72 threads)",
+      "k": [
+        "navjote",
+        "sudreh",
+        "kusti",
+        "kushti"
+      ],
+      "n": 2
+    },
+    {
+      "id": "atar",
+      "tier": "power",
+      "t": "Atar is sacred fire; the holiest temple fires, Atash Behram, are made from many fires, including one from lightning",
+      "k": [
+        "atash behram",
+        "atar",
+        "lightning"
+      ],
+      "n": 3
+    },
+    {
+      "id": "vendidad",
+      "tier": "power",
+      "t": "The Vendidad, part of the Avesta, holds purity laws and rules against demons (daevas)",
+      "k": [
+        "vendidad",
+        "daevas",
+        "purity"
+      ],
+      "n": 3
+    },
+    {
+      "id": "achaemenid",
+      "tier": "power",
+      "t": "Achaemenid kings such as Darius I honored Ahura Mazda; later it was the official religion of the Sasanian Empire",
+      "k": [
+        "achaemenid",
+        "darius",
+        "sasanian",
+        "behistun"
+      ],
+      "n": 1
+    },
+    {
+      "id": "freddie-mercury",
+      "tier": "power",
+      "t": "Famous Parsis: Queen singer Freddie Mercury and the Tata family of business leaders",
+      "k": [
+        "freddie mercury",
+        "tata",
+        "queen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nowruz",
+      "tier": "power",
+      "t": "Nowruz, the Persian New Year celebrated at the spring equinox, has roots in this faith",
+      "k": [
+        "nowruz",
+        "norooz"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not Manichaeism or Mithraism",
+    "body": "Several ancient religions from Persia and the Roman world get mixed up in tossups. Manichaeism, founded by the prophet Mani in the 200s CE, also taught a battle between light and darkness, and Mithraism was a Roman mystery religion built around the god Mithras. Some players also answer “Parsi,” but Parsis are the followers who settled in India, and no real answer line we found accepts it.",
+    "fix": "Ahura Mazda, Angra Mainyu, the Avesta and Gathas, fire temples, Towers of Silence, the Chinvat Bridge, and the Faravahar all mean Zoroastrianism. Mani, the “Religion of Light,” and Saint Augustine’s early years mean Manichaeism; Mithras and underground Roman temples called mithraea mean Mithraism.",
+    "line": "Real answer line: <b><u>Zoroastrianism</u></b> [or <b><u>Mazdayasna</u></b> or <b><u>Mazdaism</u></b> before “Mazda” is read; accept <b><u>Zarathustrianism</u></b> before “Zarathustra” is read]"
+  },
+  "freq": {
+    "rank": 6,
+    "count": 8,
+    "list": "Religion"
+  }
+}

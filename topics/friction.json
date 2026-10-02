@@ -1,0 +1,380 @@
+{
+  "id": "friction",
+  "name": "Friction",
+  "mono": "FRC",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Resistance between surfaces · Lets you walk, grip, and stop",
+  "dates": "Formally studied by Amontons starting in 1699",
+  "briefing": "Friction is the force that resists sliding when two surfaces rub against each other, whether it’s sneakers gripping a gym floor or a sled gliding over snow. It comes in a stronger static form, which must be overcome before motion starts, and a weaker kinetic form, which acts once something is already moving. Engineers fight it with lubricants like oil, while rock climbers and race car tires rely on it to grip.",
+  "answerHtml": "<b><u>Friction</u></b> (prompt on <u>drag</u> or <u>resistive force</u>)",
+  "accept": [
+    "friction",
+    "frictional force",
+    "force of friction",
+    "kinetic friction",
+    "static friction",
+    "rolling friction",
+    "sliding friction",
+    "dry friction",
+    "coefficient of friction"
+  ],
+  "prompt": [
+    "drag",
+    "air resistance",
+    "resistive force",
+    "drag force"
+  ],
+  "reject": [
+    "inertia",
+    "normal force",
+    "viscosity"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Introduction to Friction for Children",
+      "source": "Free School",
+      "url": "https://www.youtube.com/watch?v=IkmAnLmXENo",
+      "note": "Gentle intro to what friction is (made for younger kids)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Forces: Friction - How Surfaces Affect Motion",
+      "source": "Miacademy",
+      "url": "https://www.youtube.com/watch?v=KPbMpGyV7Ps",
+      "note": "Kid-level lesson on how different surfaces make more or less friction"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Friction: Crash Course Physics #6",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=fo_pmp5rtzo",
+      "note": "Static vs. kinetic friction and the coefficient of friction (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Friction",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/friction.php",
+      "note": "Quick read on friction, how we reduce it or use it, and its types, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Friction",
+  "qb": {
+    "q": "friction",
+    "found": 16,
+    "tip": "Two of the 16 hits are different answer lines in disguise — one wants the adjective “static” generally and one wants “drag force” — both excluded from the sample; the other 14 are genuinely about this force."
+  },
+  "sample": {
+    "n": 14,
+    "note": "the 14 real QBReader tossups genuinely about this force (Middle School + Easy High School, power-marked); 2 further hits that were actually separate “static” and “drag force” answer lines were excluded"
+  },
+  "tossups": [
+    {
+      "p": "The Stribeck effect describes how this force can actually decrease as sliding velocity increases. Maglev trains use magnetic levitation specifically to avoid the “rolling” type of this force that normal wheeled trains experience.",
+      "r": "According to Amontons’ laws, this force is independent of the surface area in contact. For 10 points, name this force, which comes in static and kinetic types and can be reduced with lubricants."
+    },
+    {
+      "p": "The angle of repose for a pile of loose material equals the arctangent of this force’s namesake coefficient. A gap between this force’s static and kinetic coefficients produces a jerky back-and-forth motion called the “stick-slip” phenomenon.",
+      "r": "This force’s “rolling” type has a coefficient inversely proportional to the square root of an object’s diameter. For 10 points, name this force that resists the sliding motion between two surfaces."
+    },
+    {
+      "p": "A tribometer is a device built specifically to measure this force. Microscopic bumps on a surface, called asperities, help explain why this force exists even between seemingly smooth objects.",
+      "r": "This force can be calculated by multiplying the normal force by a namesake coefficient symbolized mu. For 10 points, name this force, which comes in static and kinetic varieties and can be reduced using lubricants like oil."
+    },
+    {
+      "p": "Guillaume Amontons and Charles-Augustin de Coulomb separately helped establish the laws describing the “dry” form of this force, including the rule that it stays constant regardless of how fast two surfaces slide past each other.",
+      "r": "Rubbing two objects together can also build up a static electric charge, a related effect called the triboelectric effect. For 10 points, name this force that resists motion between two surfaces in contact."
+    },
+    {
+      "p": "At the atomic scale, nanotribologists describe this force using the Tomlinson model. This force’s “rolling” variety is dramatically weaker than its “sliding” variety between the same two surfaces.",
+      "r": "This force depends on a namesake coefficient, symbolized by the Greek letter mu, multiplied by the normal force. For 10 points, name this force that opposes the relative motion of two touching surfaces."
+    },
+    {
+      "p": "A ball rolling down a ramp gains a torque from this force, which acts opposite to the direction the ball’s surface would otherwise slide against the ramp. This force is independent of how fast two already-sliding surfaces are moving, according to a law credited to Charles-Augustin de Coulomb.",
+      "r": "Tiny surface bumps called asperities help explain why this force exists even on seemingly smooth surfaces. For 10 points, name this force, calculated as a coefficient mu times the normal force."
+    },
+    {
+      "p": "Rubbing two materials together can generate static electricity through the triboelectric effect, a phenomenon related to this force. At the microscopic level, the Tomlinson model describes how this force behaves as surfaces slide past each other.",
+      "r": "This force is typically stronger in its static form than in its kinetic form, which is why it’s harder to start pushing a heavy box than to keep it moving. For 10 points, name this force that opposes motion between two surfaces."
+    },
+    {
+      "p": "Guillaume Amontons showed that this force does not depend on the total area of contact between two surfaces, a rule Charles-Augustin de Coulomb later refined for the “dry” version of this force. Air resistance is sometimes described as a fluid version of this same phenomenon, usually called “drag.”",
+      "r": "Lubricants such as oil are used to reduce this force between moving parts. For 10 points, name this force that opposes the relative sliding motion between two objects."
+    },
+    {
+      "p": "This force produces heat, which is why rubbing your hands together on a cold day warms them up. This force’s static type must be overcome before an object at rest will begin to slide.",
+      "r": "This force equals a namesake coefficient, mu, multiplied by the normal force pressing two surfaces together. For 10 points, name this force, which can be reduced by applying a lubricant."
+    },
+    {
+      "p": "This force’s “rolling” variety, much weaker than its “sliding” variety, is exploited by ball bearings to reduce wasted energy in machines. A tribometer can be used to measure this force directly.",
+      "r": "According to Amontons’ laws, this force does not depend on the surface area of contact between two objects. For 10 points, name this force, which comes in static and kinetic forms."
+    },
+    {
+      "p": "The Stribeck effect shows that, past a certain speed, this force can actually drop as sliding velocity continues to rise. This force’s static and kinetic coefficients differ enough to cause a jerky “stick-slip” motion in some systems.",
+      "r": "This force is calculated by multiplying the normal force by a coefficient symbolized by the Greek letter mu. For 10 points, name this force that resists two surfaces sliding against each other."
+    },
+    {
+      "p": "Nanotribologists use the Tomlinson model to describe this force at the atomic level, where it is linked to the triboelectric effect’s buildup of static charge. This force’s rolling form has a coefficient inversely related to the square root of an object’s diameter.",
+      "r": "For 10 points, name this force, which comes in static and kinetic types and whose strength equals a coefficient mu times the normal force."
+    },
+    {
+      "p": "A ball accelerating down a hill gains a net torque from this force acting at its point of contact with the surface. Guillaume Amontons and Charles-Augustin de Coulomb are both credited with studying the laws that govern the “dry” type of this force.",
+      "r": "Lubricants reduce this force by keeping two surfaces from making direct contact. For 10 points, name this force that opposes the sliding motion between touching objects."
+    },
+    {
+      "p": "Air resistance, or drag, is sometimes treated as a fluid version of this same phenomenon between a solid and the air around it. This force’s strength does not depend on how fast two surfaces are already sliding against each other, according to a law credited to Charles-Augustin de Coulomb.",
+      "r": "Microscopic surface bumps called asperities help explain why this force exists even between very smooth objects. For 10 points, name this force, often reduced using a lubricant such as oil."
+    },
+    {
+      "p": "This force’s static form is stronger than its kinetic form, meaning it takes more force to start an object sliding than to keep it sliding. A tribometer measures this force, which Amontons showed does not depend on the surface area in contact.",
+      "r": "This force generates heat, as anyone who has rubbed their hands together to warm up already knows. For 10 points, name this force, calculated by multiplying the normal force by a coefficient mu."
+    }
+  ],
+  "clues": [
+    {
+      "id": "basic-definition",
+      "tier": "giveaway",
+      "t": "A force that opposes the relative motion between two surfaces touching each other",
+      "k": [
+        "opposes motion",
+        "surfaces touching"
+      ],
+      "n": 13
+    },
+    {
+      "id": "static-kinetic",
+      "tier": "giveaway",
+      "t": "Comes in static and kinetic types, depending on whether the surfaces are already sliding",
+      "k": [
+        "static and kinetic",
+        "already sliding"
+      ],
+      "n": 12
+    },
+    {
+      "id": "lubricants",
+      "tier": "giveaway",
+      "t": "Can be reduced by applying lubricants such as oil or grease between two surfaces",
+      "k": [
+        "lubricants",
+        "oil"
+      ],
+      "n": 10
+    },
+    {
+      "id": "formula",
+      "tier": "giveaway",
+      "t": "Calculated by multiplying the normal force by a namesake coefficient symbolized by the Greek letter mu",
+      "k": [
+        "normal force",
+        "coefficient mu"
+      ],
+      "n": 11
+    },
+    {
+      "id": "amontons-area",
+      "tier": "middle",
+      "t": "According to Amontons’ laws, its strength does not depend on the surface area in contact",
+      "k": [
+        "amontons",
+        "surface area"
+      ],
+      "n": 8
+    },
+    {
+      "id": "asperities",
+      "tier": "middle",
+      "t": "Tiny surface bumps called asperities help explain why it exists even between smooth-looking objects",
+      "k": [
+        "asperities",
+        "smooth-looking"
+      ],
+      "n": 3
+    },
+    {
+      "id": "static-stronger",
+      "tier": "middle",
+      "t": "Its static form is stronger than its kinetic form, so starting a slide takes more force than continuing one",
+      "k": [
+        "static form",
+        "kinetic form"
+      ],
+      "n": 2
+    },
+    {
+      "id": "heat",
+      "tier": "middle",
+      "t": "Produces heat, which is why rubbing your hands together on a cold day warms them up",
+      "k": [
+        "heat",
+        "rubbing"
+      ],
+      "n": 1
+    },
+    {
+      "id": "triboelectric",
+      "tier": "middle",
+      "t": "Rubbing two materials together can also build up static electric charge, called the triboelectric effect",
+      "k": [
+        "triboelectric effect",
+        "static charge"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rolling-torque",
+      "tier": "middle",
+      "t": "A ball rolling down a ramp gains a torque from this effect acting at its contact point",
+      "k": [
+        "torque",
+        "contact point"
+      ],
+      "n": 2
+    },
+    {
+      "id": "drag-relation",
+      "tier": "middle",
+      "t": "Air resistance, often called drag, is treated as a fluid version of this same phenomenon",
+      "k": [
+        "air resistance",
+        "drag"
+      ],
+      "n": 2
+    },
+    {
+      "id": "stribeck",
+      "tier": "power",
+      "t": "The Stribeck effect describes how it can actually decrease as sliding velocity increases",
+      "k": [
+        "stribeck effect",
+        "sliding velocity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "maglev",
+      "tier": "power",
+      "t": "Maglev trains use magnetic levitation specifically to avoid its rolling form",
+      "k": [
+        "maglev",
+        "magnetic levitation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "angle-repose",
+      "tier": "power",
+      "t": "The angle of repose for a pile of loose material equals the arctangent of its namesake coefficient",
+      "k": [
+        "angle of repose",
+        "arctangent"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stick-slip",
+      "tier": "power",
+      "t": "A gap between its static and kinetic coefficients can cause a jerky back-and-forth stick-slip motion",
+      "k": [
+        "stick-slip",
+        "coefficients"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rolling-diameter",
+      "tier": "power",
+      "t": "Its rolling coefficient is inversely proportional to the square root of an object’s diameter",
+      "k": [
+        "rolling coefficient",
+        "diameter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tribometer",
+      "tier": "power",
+      "t": "A device called a tribometer is built specifically to measure it",
+      "k": [
+        "tribometer"
+      ],
+      "n": 1
+    },
+    {
+      "id": "amontons-coulomb",
+      "tier": "power",
+      "t": "Guillaume Amontons and Charles-Augustin de Coulomb are both credited with studying the laws governing its dry form",
+      "k": [
+        "amontons",
+        "coulomb"
+      ],
+      "n": 2
+    },
+    {
+      "id": "velocity-independent",
+      "tier": "power",
+      "t": "Its kinetic form does not depend on how fast two surfaces are already sliding against each other",
+      "k": [
+        "kinetic form",
+        "already sliding"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rolling-vs-sliding",
+      "tier": "power",
+      "t": "Its rolling variety is dramatically weaker than its sliding variety between the same two surfaces",
+      "k": [
+        "rolling variety",
+        "sliding variety"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tomlinson",
+      "tier": "power",
+      "t": "At the atomic scale, nanotribologists describe it using the Tomlinson model",
+      "k": [
+        "tomlinson model",
+        "nanotribologists"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "This force, or DRAG?",
+    "body": "A real tossup whose answer is specifically “drag force” only prompts on this general answer, since drag is the fluid version of this resistance and not quite the same thing; conversely, a real tossup on this force explicitly prompts a player who says “drag” or “resistive force” instead of the sharper answer.",
+    "fix": "If the clues describe two solid surfaces rubbing or sliding against each other, give this force. If the clues specifically describe resistance from moving through air or a liquid, the sharper answer is “drag” or “air resistance.”",
+    "line": "Real answer line: <b><u>Friction</u></b> (prompt on drag or resistive force)"
+  },
+  "tests": {
+    "right": [
+      "Friction",
+      "friction",
+      "Frction",
+      "Frictional Force",
+      "Kinetic Friction"
+    ],
+    "prompt": [
+      "Drag",
+      "Air Resistance"
+    ],
+    "wrong": [
+      "Inertia",
+      "Normal Force",
+      "Viscosity",
+      "Momentum"
+    ]
+  },
+  "freq": {
+    "rank": 2,
+    "count": 14,
+    "list": "Physics"
+  }
+}

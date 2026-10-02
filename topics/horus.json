@@ -1,0 +1,389 @@
+{
+  "id": "horus",
+  "name": "Horus",
+  "mono": "HOR",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Falcon-headed Egyptian sky god · Son of Osiris and Isis",
+  "dates": "Worshipped throughout ancient Egyptian history",
+  "briefing": "Horus was the falcon-headed god of the sky, so important to the ancient Egyptians that every pharaoh was said to rule as his living form on earth. After his uncle Set murdered his father, Osiris, young Horus fought Set for eighty years to win back the throne — and lost an eye in the struggle, giving rise to the famous protective symbol known as the Eye of Horus. He finally won, becoming king of Egypt and avenging his father.",
+  "answerHtml": "<b><u>Horus</u></b> (accept <u>Harmakhis</u>, <u>Hor</u>, <u>Har</u>, <u>Her</u>, or <u>Heru</u>; prompt on “Nekheny”)",
+  "accept": [
+    "horus",
+    "hor",
+    "har",
+    "her",
+    "heru",
+    "harmakhis",
+    "eye of horus"
+  ],
+  "prompt": [
+    "nekheny"
+  ],
+  "reject": [
+    "osiris",
+    "isis",
+    "set",
+    "seth",
+    "ra",
+    "sobek",
+    "anubis"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Horus – The Ruler of the Skies – Egyptian Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=4h7nNkRnmrc",
+      "note": "Animated story of the falcon-headed sky god and his fight with Set"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Horus",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Horus",
+      "note": "Kid-friendly encyclopedia article on the falcon god, the Eye of Horus, and his battle with Set"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Horus",
+  "qb": {
+    "q": "Horus",
+    "found": 5,
+    "tip": "One of the five hits returned (a 2017 SCOP MS question about phosphorus) is a completely unrelated false positive from the search — skip it. The other four are all on this god."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups for this answer line (4 Middle School/Easy High School + 5 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This deity tricked his rival into eating contaminated lettuce during their rivalry over the Egyptian throne. This deity won a boat race against that rival by secretly painting a wooden boat to look like stone, since a true stone boat would have sunk.",
+      "r": "This deity’s left eye, called the wedjat, was gouged out during their struggle but later healed with milk by the goddess Hathor. For 10 points, name this falcon-headed Egyptian sky god, the son of Isis and Osiris."
+    },
+    {
+      "p": "This deity’s four sons, including Imsety and Hapi, represented the four cardinal directions and protected the organs of the dead inside canopic jars. This deity’s early cult center at Nekhen [“NEH-ken”] later became known as Hierakonpolis [“hy-er-uh-kon-POH-lis”], named for this deity’s sacred animal.",
+      "r": "This deity battled his uncle Set for eighty years to avenge his murdered father. For 10 points, name this falcon-headed god of the sky, often shown as the living form of each pharaoh."
+    },
+    {
+      "p": "Ancient Egyptian scribes used fractions of this deity’s famous eye symbol, the wedjat, to represent halves, quarters, and other fractions in mathematics. This deity’s severed hands were once recovered from the Nile using a fish trap belonging to the crocodile god Sobek [“SOH-behk”].",
+      "r": "This deity’s left eye represented the moon after it was damaged in a fight with his uncle Set. For 10 points, name this falcon-headed Egyptian god, the son of Osiris."
+    },
+    {
+      "p": "This deity was sometimes shown with a finger over his lips, which led Greek and Roman writers to mistakenly treat him as a separate god of silence named Harpocrates [“har-POCK-ruh-teez”]. This deity and his rival badly wounded each other during their long struggle for the throne of Egypt.",
+      "r": "That rival had already murdered this deity’s father, Osiris. For 10 points, name this falcon-headed sky god, the son of Isis and Osiris."
+    },
+    {
+      "p": "This deity’s temple at Edfu [“ED-foo”] hosted a yearly festival reuniting a statue of this deity with a statue of his wife, who traveled more than a hundred miles from Dendera [“den-DEH-rah”]. This deity’s consort could also take the fierce lioness form of Sekhmet, though she was usually the gentler cow goddess Hathor.",
+      "r": "For 10 points, name this falcon-headed Egyptian god of the sky, the son of Isis and Osiris."
+    },
+    {
+      "p": "This deity’s eye was healed with milk by the goddess Hathor after it was torn out during a fight. This deity won a humiliating boat race against his rival by secretly building his own boat from wood disguised with a coat of white paint to look like heavy stone.",
+      "r": "This deity eventually defeated his uncle Set to avenge his murdered father, Osiris. For 10 points, name this falcon-headed Egyptian god, often represented by the wedjat eye symbol."
+    },
+    {
+      "p": "This deity’s four sons — Qebehsenuef [“keh-beh-sen-WEF”], Imsety, Hapi, and Duamutef [“doo-ah-MOO-tef”] — represented the four cardinal directions on the canopic jars used in mummification. This deity’s left eye, the wedjat, was said to represent the moon, dimmer than the sun because of damage from a past fight.",
+      "r": "For 10 points, name this falcon-headed sky god and divine king of Egypt, the son of Osiris and Isis."
+    },
+    {
+      "p": "This deity was once challenged to transform into a hippopotamus as part of a contest with an older, rival deity. In Egyptian religion, every pharaoh was said to rule as a living form of this deity, while a dead pharaoh became identified with this deity’s murdered father instead.",
+      "r": "For 10 points, name this falcon-headed sky god, the son of Osiris and Isis, whose eye was healed with milk by the goddess Hathor."
+    },
+    {
+      "p": "This deity’s rival stole the light from one of his eyes during a battle in which the rival was badly wounded too. This deity’s severed hands were later recovered from the river using a fishing trap that belonged to the crocodile god Sobek.",
+      "r": "This deity is sometimes identified with the crocodile god Khenty-khety [“KEN-tee KEH-tee”]. For 10 points, name this falcon-headed Egyptian god, the son of Osiris."
+    },
+    {
+      "p": "An elder form of this deity was sometimes shown as a hieracosphinx [“hy-er-uh-koh-SFINGKS”], a lion’s body with a falcon’s head. This deity’s title “Kemwer,” meaning “the great black one,” honored an especially old form of his worship.",
+      "r": "This deity avenged his father, Osiris, by defeating his uncle Set. For 10 points, name this falcon-headed sky god, whose left eye is called the wedjat."
+    },
+    {
+      "p": "This deity’s rival built an actual boat out of stone for a race between the two, not realizing that this deity had secretly built his own boat from painted wood, which floated while the heavier stone boat sank.",
+      "r": "This deity’s left eye represents the moon and is a symbol of protection called the wedjat. For 10 points, name this falcon-headed Egyptian sky god who defeated his uncle Set."
+    },
+    {
+      "p": "This deity’s mother hid him among papyrus reeds in the Nile Delta to protect him from a jealous uncle who had already murdered this deity’s father. Once grown, this deity fought that uncle, Set, in a tribunal before the other gods that was said to last eighty years.",
+      "r": "This deity eventually won the throne of Egypt and avenged Osiris. For 10 points, name this falcon-headed sky god, the son of Isis."
+    },
+    {
+      "p": "This deity’s eye is also used as a well-known protective symbol in Egyptian art, and ancient Egyptian scribes used fractions of it as a system of measurement in mathematics. This deity was closely linked to the pharaohs, who were considered to be this deity’s living form on earth.",
+      "r": "This deity’s rival, his uncle Set, had murdered this deity’s father, Osiris. For 10 points, name this falcon-headed sky god whose eye symbol is famous in Egyptian art."
+    },
+    {
+      "p": "This deity’s wife’s statue traveled many miles each year from her own temple to be reunited with this deity’s statue at the temple of Edfu. This deity’s four sons appear on canopic jars, protecting the internal organs removed during mummification.",
+      "r": "This deity avenged the murder of his father, Osiris, by defeating his uncle Set. For 10 points, name this falcon-headed Egyptian sky god, usually shown as the son of Isis and Osiris."
+    },
+    {
+      "p": "This deity tricked a rival deity into eating contaminated lettuce during their rivalry over the Egyptian throne. This deity’s eye was gouged out in a separate struggle, which myths say explains why the moon shines less brightly than the sun.",
+      "r": "This deity’s four children protected the organs of the dead in canopic jars. For 10 points, name this falcon-headed sky god, the son of Osiris and Isis, who was embodied by every pharaoh."
+    }
+  ],
+  "clues": [
+    {
+      "id": "falcon-sky-god",
+      "tier": "giveaway",
+      "t": "Falcon-headed god of the sky",
+      "k": [
+        "falcon headed",
+        "sky",
+        "god"
+      ],
+      "n": 9
+    },
+    {
+      "id": "son-of-osiris-isis",
+      "tier": "giveaway",
+      "t": "Son of the gods Osiris and Isis",
+      "k": [
+        "osiris",
+        "isis",
+        "son"
+      ],
+      "n": 6,
+      "rabbit": "Osiris"
+    },
+    {
+      "id": "eye-of-horus",
+      "tier": "giveaway",
+      "t": "His eye, the wedjat, became a famous protective symbol after he lost it fighting his uncle",
+      "k": [
+        "wedjat",
+        "protective symbol",
+        "lost it fighting"
+      ],
+      "n": 9
+    },
+    {
+      "id": "pharaoh-embodiment",
+      "tier": "giveaway",
+      "t": "Every pharaoh of Egypt was said to rule as this god’s living form on earth",
+      "k": [
+        "pharaoh",
+        "living form",
+        "earth"
+      ],
+      "n": 2
+    },
+    {
+      "id": "avenged-osiris",
+      "tier": "giveaway",
+      "t": "Fought his uncle Set for the throne of Egypt to avenge his murdered father",
+      "k": [
+        "avenged",
+        "uncle set",
+        "murdered father"
+      ],
+      "n": 7,
+      "rabbit": "Set"
+    },
+    {
+      "id": "boat-race",
+      "tier": "middle",
+      "t": "Tricked his uncle Set in a boat race by secretly building a wooden boat painted to look like stone, which floated while Set’s real stone boat sank",
+      "k": [
+        "boat race",
+        "painted wood",
+        "stone boat"
+      ],
+      "n": 8
+    },
+    {
+      "id": "four-sons-canopic",
+      "tier": "middle",
+      "t": "His four sons, including Imsety and Hapi, protected the organs of the dead in canopic jars and represented the four directions",
+      "k": [
+        "four sons",
+        "canopic jars",
+        "four directions"
+      ],
+      "n": 5
+    },
+    {
+      "id": "lettuce-trick",
+      "tier": "middle",
+      "t": "Tricked Set into eating contaminated lettuce during their rivalry",
+      "k": [
+        "tricked",
+        "contaminated lettuce",
+        "rivalry"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sobek-hands",
+      "tier": "middle",
+      "t": "His severed hands were recovered from the Nile using a fish trap belonging to the crocodile god Sobek",
+      "k": [
+        "severed hands",
+        "crocodile god",
+        "fish trap"
+      ],
+      "n": 3
+    },
+    {
+      "id": "hathor-wife",
+      "tier": "middle",
+      "t": "His wife or consort was usually the cow goddess Hathor, who once healed his eye with milk",
+      "k": [
+        "cow goddess",
+        "healed his eye",
+        "milk"
+      ],
+      "n": 4,
+      "rabbit": "Hathor"
+    },
+    {
+      "id": "eighty-year-feud",
+      "tier": "middle",
+      "t": "His struggle with Set reportedly lasted eighty years before the other gods",
+      "k": [
+        "eighty years",
+        "struggle",
+        "other gods"
+      ],
+      "n": 2
+    },
+    {
+      "id": "testicle-eye-trade",
+      "tier": "middle",
+      "t": "In their fight, Set was badly wounded and this god lost an eye",
+      "k": [
+        "badly wounded",
+        "lost an eye",
+        "fight"
+      ],
+      "n": 2
+    },
+    {
+      "id": "math-fractions",
+      "tier": "power",
+      "t": "Egyptian scribes used fractions of his eye symbol as units of measurement in mathematics",
+      "k": [
+        "fractions",
+        "units of measurement",
+        "scribes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "harpocrates",
+      "tier": "power",
+      "t": "Greek and Roman writers mistook a finger-to-lips depiction of him for a separate god of silence, Harpocrates",
+      "k": [
+        "harpocrates",
+        "god of silence",
+        "finger to lips"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nekhen-hierakonpolis",
+      "tier": "power",
+      "t": "Early cult center at Nekhen, later renamed Hierakonpolis for his sacred animal",
+      "k": [
+        "nekhen",
+        "hierakonpolis",
+        "cult center"
+      ],
+      "n": 3
+    },
+    {
+      "id": "hieracosphinx-kemwer",
+      "tier": "power",
+      "t": "An old form of him was shown as a hieracosphinx and carried the title “Kemwer,” the great black one",
+      "k": [
+        "hieracosphinx",
+        "kemwer",
+        "great black one"
+      ],
+      "n": 1
+    },
+    {
+      "id": "canopic-sons-named",
+      "tier": "power",
+      "t": "His four named sons were Imsety, Hapi, Duamutef, and Qebehsenuef",
+      "k": [
+        "imsety",
+        "duamutef",
+        "qebehsenuef"
+      ],
+      "n": 2
+    },
+    {
+      "id": "edfu-temple",
+      "tier": "power",
+      "t": "Main temple at Edfu, where a yearly festival reunited his statue with his wife’s, who traveled from Dendera",
+      "k": [
+        "edfu",
+        "dendera",
+        "yearly festival"
+      ],
+      "n": 3
+    },
+    {
+      "id": "khenty-khety",
+      "tier": "power",
+      "t": "Sometimes identified with the crocodile god Khenty-khety",
+      "k": [
+        "khenty khety",
+        "identified with",
+        "crocodile god"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hippo-contest",
+      "tier": "power",
+      "t": "In one myth, he was challenged to transform into a hippopotamus as part of a contest",
+      "k": [
+        "hippopotamus",
+        "transform",
+        "contest"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hidden-in-marshes",
+      "tier": "power",
+      "t": "As a baby, his mother Isis hid him among papyrus reeds in the Nile Delta to keep him safe from Set",
+      "k": [
+        "papyrus reeds",
+        "nile delta",
+        "kept him safe"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Horus or Osiris?",
+    "body": "Horus and his father Osiris are both central to the same story, so clues about one can sound like clues about the other. Osiris clues describe a murdered, mummified king who becomes ruler of the underworld. Horus clues describe the falcon-headed son who avenges him and wins the throne of the living. Their shared enemy, Set (also spelled Seth), is Osiris’s brother and Horus’s uncle — never the hero of either story.",
+    "fix": "If the clues describe a death, a mummy, or ruling the underworld, it is Osiris. If they describe the wedjat eye, a falcon, a boat race, or defeating Set, it is Horus.",
+    "line": "Real answer line: <b><u>Horus</u></b> (accept <u>Hor</u>, <u>Har</u>, <u>Her</u>, or <u>Heru</u>; prompt on “Nekheny”)"
+  },
+  "tests": {
+    "right": [
+      "Horus",
+      "Horrus",
+      "Hor",
+      "Har",
+      "Harmakhis"
+    ],
+    "prompt": [
+      "Nekheny"
+    ],
+    "wrong": [
+      "Osiris",
+      "Isis",
+      "Set",
+      "Seth",
+      "Ra"
+    ]
+  },
+  "freq": {
+    "rank": 19,
+    "count": 5,
+    "list": "Mythology"
+  }
+}

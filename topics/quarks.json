@@ -1,0 +1,402 @@
+{
+  "id": "quarks",
+  "name": "Quarks",
+  "mono": "QRK",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Subatomic building blocks · Bound by the strong force into protons",
+  "dates": "Proposed 1964; confirmed by 1968",
+  "briefing": "Quarks are tiny particles that combine in twos or threes to build protons, neutrons, and every other particle felt by the strong force. Physicists Murray Gell-Mann and George Zweig proposed them in 1964, and Gell-Mann borrowed their odd name from a nonsense word in James Joyce’s _Finnegans Wake_. They come in six “flavors” with names like up, down, charm, and strange, and the strong force confines them so tightly that no one has ever isolated a single one.",
+  "answerHtml": "<b><u>Quarks</u></b>",
+  "accept": [
+    "quarks",
+    "quark",
+    "up quark",
+    "up quarks",
+    "down quark",
+    "down quarks",
+    "charm quark",
+    "charm quarks",
+    "strange quark",
+    "strange quarks",
+    "top quark",
+    "top quarks",
+    "bottom quark",
+    "bottom quarks",
+    "antiquark",
+    "antiquarks"
+  ],
+  "prompt": [
+    "fermions",
+    "fermion"
+  ],
+  "reject": [
+    "electrons",
+    "electron",
+    "leptons",
+    "lepton",
+    "gluons",
+    "gluon",
+    "protons",
+    "proton",
+    "neutrons",
+    "neutron",
+    "mesons",
+    "meson",
+    "baryons",
+    "baryon",
+    "hadrons",
+    "hadron"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Are Quarks?",
+      "source": "FuseSchool",
+      "url": "https://www.youtube.com/watch?v=nlv06lSAC7c",
+      "note": "Animated lesson · the tiny particles that make up protons and neutrons"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Quarks Explained in Four Minutes",
+      "source": "Physics Girl",
+      "url": "https://www.youtube.com/watch?v=LraNu_78sCw",
+      "note": "4 min · what quarks are and how they combine"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Subatomic Stories #2: Quarks",
+      "source": "Fermilab",
+      "url": "https://www.youtube.com/watch?v=jtp3Jk-nKhQ",
+      "note": "A Fermilab physicist explains quarks (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Elementary Particles: Quarks, Bosons, Leptons",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/physics/elementary_particles_quarks.php",
+      "note": "Quick read: the six quark types, how protons and neutrons are built, and gluons"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Quark",
+  "qb": {
+    "q": "quark",
+    "found": 3,
+    "tip": "Only 3 Middle School/Easy High School tossups exist, so 12 Regular High School tossups were blended in; both groups agree closely on the core facts (six flavors, color confinement, protons and neutrons)."
+  },
+  "sample": {
+    "n": 15,
+    "note": "15 real QBReader tossups for this answer line (3 Middle School/Easy High School + 12 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The “Eightfold Way,” developed by Murray Gell-Mann and Yuval Ne’eman, classified particles in a scheme that led to the proposal of these particles, which deep inelastic scattering experiments later confirmed. The CKM matrix describes how these particles “mix” through interactions with the weak force.",
+      "r": "Murray Gell-Mann and George Zweig proposed the existence of these particles in 1964. For 10 points, name these elementary particles that combine to form protons and neutrons."
+    },
+    {
+      "p": "A 1974 discovery nicknamed the “November Revolution,” made independently by Burton Richter and Samuel Ting, confirmed a new, heavier type of one of these particles called “charm.” These particles are governed by a theory called quantum chromodynamics, which assigns them a property called color charge.",
+      "r": "Three of these particles bind together through the strong force to form a baryon, while one of these particles paired with an antiparticle forms a meson. For 10 points, name these particles that come in six flavors, including up and down."
+    },
+    {
+      "p": "These particles are theorized to have briefly formed a free-roaming plasma with gluons in the first several microseconds after the Big Bang, before cooling enough to lock into protons and neutrons. Unlike most forces, the strong force binding these particles actually gets weaker at very short distances, a property called asymptotic freedom.",
+      "r": "These particles cannot be observed individually, a restriction called color confinement. For 10 points, name these particles that make up protons and neutrons."
+    },
+    {
+      "p": "Murray Gell-Mann borrowed the everyday name for these particles from a nonsense word in James Joyce’s novel _Finnegans Wake_. The heaviest type of these particles, nicknamed “top,” was not confirmed until 1995 at Fermilab.",
+      "r": "These particles carry a fractional electric charge of either positive two-thirds or negative one-third. For 10 points, name these particles, which come in six flavors and combine in threes to form protons and neutrons."
+    },
+    {
+      "p": "In 2015, physicists at the Large Hadron Collider announced evidence for an exotic bound state made of five of these particles. These particles are the only known elementary particles said to interact through all four fundamental forces, including gravity.",
+      "r": "Emitting a W boson can change one of these particles from one flavor into another. For 10 points, name these elementary particles that combine to form protons and neutrons."
+    },
+    {
+      "p": "The “Eightfold Way,” an earlier classification scheme by Murray Gell-Mann and Yuval Ne’eman, led to the fuller model of these particles that followed it. Deep inelastic scattering experiments at SLAC provided early evidence that these particles are genuinely pointlike.",
+      "r": "One of these particles and one of their antiparticles combine to form a meson such as a pion, while three combine to form a baryon. For 10 points, name these particles that make up protons and neutrons."
+    },
+    {
+      "p": "These particles cannot exist in isolation, a restriction called color confinement, and the force between them actually weakens at short distances, a property called asymptotic freedom. The CKM matrix describes how these particles mix through the weak force.",
+      "r": "A 1974 event called the “November Revolution” confirmed a heavier, “charm” type of these particles. For 10 points, name these particles that come in six flavors, including up and down."
+    },
+    {
+      "p": "Quantum chromodynamics assigns these particles a “color” charge to keep them from violating the Pauli exclusion principle when several sit close together inside the same larger particle. These particles are believed to have briefly existed as a free-roaming plasma with gluons within the first several microseconds after the Big Bang.",
+      "r": "Three of these particles bind together to form a proton or a neutron. For 10 points, name these elementary particles that come in six flavors such as up, down, charm, and strange."
+    },
+    {
+      "p": "The heaviest type of these particles, nicknamed “top,” was confirmed in 1995 by teams working at Fermilab’s Tevatron collider. Murray Gell-Mann and George Zweig proposed the existence of these particles in 1964, a model that grew out of an earlier scheme called the Eightfold Way.",
+      "r": "The strong force, carried by gluons, binds three of these particles into a proton or a neutron. For 10 points, name these particles that carry a fractional electric charge."
+    },
+    {
+      "p": "Emitting a W boson can flip one of these particles from one “flavor” into another, a process described using the CKM matrix. A 2015 discovery at the Large Hadron Collider found evidence for an exotic bound state made of five of these particles.",
+      "r": "These particles are confined inside larger particles and cannot be observed on their own. For 10 points, name these particles, three of which combine to form a proton or a neutron."
+    },
+    {
+      "p": "Deep inelastic scattering experiments at SLAC gave early evidence that these particles are genuinely pointlike rather than spread out. These particles are believed to have existed as a free, soup-like plasma together with gluons for a few microseconds just after the Big Bang.",
+      "r": "These particles combine in pairs with their antiparticles to form mesons, and in threes to form baryons. For 10 points, name these particles that make up protons and neutrons."
+    },
+    {
+      "p": "An earlier classification scheme called the Eightfold Way, developed by Murray Gell-Mann and Yuval Ne’eman, paved the way for the proposal of these particles before they were confirmed. Gell-Mann later borrowed their common name from a nonsense word in James Joyce’s _Finnegans Wake_.",
+      "r": "These particles carry electric charges of positive two-thirds or negative one-third. For 10 points, name these particles that combine to form protons and neutrons."
+    },
+    {
+      "p": "These particles are the only known elementary particles said to interact through all four fundamental forces. The strong force that binds these particles together actually weakens at short distances, an unusual property called asymptotic freedom.",
+      "r": "Gluons mediate the strong force between these particles, which cannot be found in isolation due to color confinement. For 10 points, name these particles that come in six flavors."
+    },
+    {
+      "p": "In 1964, Murray Gell-Mann and George Zweig independently proposed the existence of these particles, which were later confirmed by deep inelastic scattering experiments at SLAC. A 1974 event called the “November Revolution” confirmed a heavier “charm” type of these particles.",
+      "r": "Quantum chromodynamics describes the “color” charge carried by these particles. For 10 points, name these elementary particles that combine to form protons and neutrons."
+    },
+    {
+      "p": "The heaviest type of these particles was discovered in 1995 at Fermilab, more than three decades after Murray Gell-Mann and George Zweig first proposed that these particles exist. In 2015, an exotic bound state made of five of these particles was found at the Large Hadron Collider.",
+      "r": "Three of these particles, bound by the strong force, make up a proton or a neutron. For 10 points, name these particles that come in six flavors, including up, down, charm, strange, top, and bottom."
+    }
+  ],
+  "clues": [
+    {
+      "id": "six-flavors",
+      "tier": "giveaway",
+      "t": "Come in six “flavors”: up, down, charm, strange, top, and bottom",
+      "k": [
+        "six flavors",
+        "up",
+        "down"
+      ],
+      "n": 9
+    },
+    {
+      "id": "protons-neutrons-makeup",
+      "tier": "giveaway",
+      "t": "Combine to make up every proton and neutron inside an atom’s nucleus",
+      "k": [
+        "protons",
+        "neutrons",
+        "nucleus"
+      ],
+      "n": 14
+    },
+    {
+      "id": "elementary-particles",
+      "tier": "giveaway",
+      "t": "Considered elementary particles: not made of anything smaller, as far as anyone has found",
+      "k": [
+        "elementary particles"
+      ],
+      "n": 5
+    },
+    {
+      "id": "basic-description",
+      "tier": "giveaway",
+      "t": "Thought of as one of the basic building blocks that all ordinary matter is made from",
+      "k": [
+        "building blocks",
+        "matter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "strong-force-gluons",
+      "tier": "middle",
+      "t": "Held together by the strong force, which is carried between them by particles called gluons",
+      "k": [
+        "strong force",
+        "gluons"
+      ],
+      "n": 8
+    },
+    {
+      "id": "color-confinement",
+      "tier": "middle",
+      "t": "Cannot be observed individually, a restriction known as “color confinement”",
+      "k": [
+        "color confinement"
+      ],
+      "n": 5
+    },
+    {
+      "id": "fractional-charge",
+      "tier": "middle",
+      "t": "Carry an unusual fractional electric charge of either positive two-thirds or negative one-third",
+      "k": [
+        "fractional",
+        "two-thirds",
+        "one-third"
+      ],
+      "n": 2
+    },
+    {
+      "id": "meson-baryon-composition",
+      "tier": "middle",
+      "t": "One of them plus an antiparticle forms a “meson”; three of them together form a “baryon” like a proton",
+      "k": [
+        "meson",
+        "baryon"
+      ],
+      "n": 6
+    },
+    {
+      "id": "proton-neutron-ratio",
+      "tier": "middle",
+      "t": "Two “up” type plus one “down” type form a proton; one “up” and two “down” form a neutron instead",
+      "k": [
+        "up type",
+        "down type"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gell-mann-zweig",
+      "tier": "middle",
+      "t": "Independently proposed in 1964 by physicists Murray Gell-Mann and George Zweig",
+      "k": [
+        "gell-mann",
+        "zweig",
+        "1964"
+      ],
+      "n": 3
+    },
+    {
+      "id": "weak-force-flavor-change",
+      "tier": "middle",
+      "t": "Emitting a W boson through the weak force can flip one “flavor” into a different one",
+      "k": [
+        "w boson",
+        "flavor"
+      ],
+      "n": 2
+    },
+    {
+      "id": "deep-inelastic-scattering",
+      "tier": "power",
+      "t": "Early evidence that these particles are truly pointlike came from “deep inelastic scattering” experiments at SLAC",
+      "k": [
+        "deep inelastic scattering",
+        "slac"
+      ],
+      "n": 4
+    },
+    {
+      "id": "asymptotic-freedom",
+      "tier": "power",
+      "t": "Unlike most forces, the strong force between them actually gets weaker at very short distances, a property called asymptotic freedom",
+      "k": [
+        "asymptotic freedom"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ckm-matrix",
+      "tier": "power",
+      "t": "The CKM matrix describes how these particles “mix” between flavors through the weak force",
+      "k": [
+        "ckm matrix"
+      ],
+      "n": 4
+    },
+    {
+      "id": "qgp-early-universe",
+      "tier": "power",
+      "t": "Briefly existed as a free, soup-like “plasma” with gluons for roughly the first ten microseconds after the Big Bang",
+      "k": [
+        "plasma",
+        "big bang",
+        "microseconds"
+      ],
+      "n": 4
+    },
+    {
+      "id": "joyce-etymology",
+      "tier": "power",
+      "t": "Murray Gell-Mann borrowed their everyday name from a nonsense word in James Joyce’s novel _Finnegans Wake_",
+      "k": [
+        "finnegans wake",
+        "james joyce"
+      ],
+      "n": 0
+    },
+    {
+      "id": "top-quark-1995",
+      "tier": "power",
+      "t": "The heaviest “top” type was not confirmed until 1995, by teams at Fermilab’s Tevatron collider",
+      "k": [
+        "1995",
+        "fermilab",
+        "tevatron"
+      ],
+      "n": 2
+    },
+    {
+      "id": "five-particle-state",
+      "tier": "power",
+      "t": "An exotic bound state made of five of these particles was found at the Large Hadron Collider in 2015",
+      "k": [
+        "bound state",
+        "large hadron collider"
+      ],
+      "n": 1
+    },
+    {
+      "id": "four-forces",
+      "tier": "power",
+      "t": "Thought to be the only known elementary particles that interact through all four fundamental forces, including gravity",
+      "k": [
+        "four fundamental forces",
+        "gravity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "eightfold-way",
+      "tier": "power",
+      "t": "An earlier classification scheme called the “Eightfold Way,” from physicists Murray Gell-Mann and Yuval Ne’eman, led to the fuller model",
+      "k": [
+        "eightfold way",
+        "ne’eman"
+      ],
+      "n": 4
+    },
+    {
+      "id": "november-revolution",
+      "tier": "power",
+      "t": "A 1974 discovery nicknamed the “November Revolution,” credited to Burton Richter and Samuel Ting, confirmed a heavier “charm” type",
+      "k": [
+        "november revolution",
+        "richter",
+        "ting"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Quarks, or electrons?",
+    "body": "Both are fundamental particles smaller than an atom, but they belong to different families. Electrons are leptons and are never affected by the strong force, so they never combine to form protons, neutrons, or any other particle built from the strong force. These particles, by contrast, are held together by the strong force (carried by gluons) and combine in threes to build every proton and neutron.",
+    "fix": "If the clues mention the strong force, gluons, color charge, confinement, protons, or neutrons, they want this answer. If the clues mention orbiting the nucleus, electric current, or the lightest charged particle, they want electrons instead.",
+    "line": "Real answer line: <b><u>Quarks</u></b> [do not accept “electrons”]"
+  },
+  "tests": {
+    "right": [
+      "Quarks",
+      "quark",
+      "Quarkz",
+      "Up Quark"
+    ],
+    "prompt": [
+      "Fermions"
+    ],
+    "wrong": [
+      "Electrons",
+      "Protons",
+      "Neutrons",
+      "Leptons",
+      "Mesons",
+      "Hadrons"
+    ]
+  },
+  "freq": {
+    "rank": 40,
+    "count": 3,
+    "list": "Physics"
+  }
+}

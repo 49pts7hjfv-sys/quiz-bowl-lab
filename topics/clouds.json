@@ -1,0 +1,387 @@
+{
+  "id": "clouds",
+  "name": "Clouds",
+  "mono": "CLD",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Condensed water vapor in the sky · Types signal changing weather",
+  "dates": "Form year-round across Earth’s skies",
+  "briefing": "Clouds are visible clumps of water droplets or ice crystals floating in the sky, formed when rising water vapor cools and condenses around tiny bits of dust or pollen called condensation nuclei. Puffy cumulus clouds, flat sheet-like stratus clouds, wispy cirrus clouds, and towering storm-bringing cumulonimbus clouds are the main types. Clouds are a key stop in the water cycle, since the droplets inside them eventually fall back to Earth as rain or snow.",
+  "answerHtml": "<b><u>Clouds</u></b>",
+  "accept": [
+    "clouds",
+    "cloud",
+    "cloud cover"
+  ],
+  "prompt": [],
+  "reject": [
+    "fog",
+    "water vapor",
+    "water cycle",
+    "precipitation",
+    "rain",
+    "humidity",
+    "condensation"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Learn how to name the clouds - 3 Minute Met",
+      "source": "Met Office",
+      "url": "https://www.youtube.com/watch?v=WVZvUI33bDI",
+      "note": "About 3 min · how cloud names like cirrus, cumulus, and stratus work"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cloud spotting guide",
+      "source": "Met Office",
+      "url": "https://www.youtube.com/watch?v=JaAz3lp8Keg",
+      "note": "How to spot and identify the main cloud types in the sky"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Weather 101: A Tutorial on Cloud Types",
+      "source": "National Weather Service",
+      "url": "https://www.youtube.com/watch?v=FMagDRCpJ14",
+      "note": "Cloud-type tutorial from a National Weather Service office (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Weather: Clouds",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/earth_science/clouds.php",
+      "note": "Quick read: how clouds form, high, middle, and low clouds, and the ten main types, plus a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Cloud",
+  "qb": {
+    "q": "clouds",
+    "found": 9,
+    "tip": "One of the nine results specifically wants “cirrus clouds” and only prompts on bare “clouds” — see the Buzzer Trap."
+  },
+  "sample": {
+    "n": 9,
+    "note": "the 9 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Round or oval gaps called “fallstreak holes” sometimes appear within a layer of these, often linked to passing aircraft. The Bergeron process describes how ice crystals inside these grow at the expense of nearby liquid droplets, a key step in forming rain or snow.",
+      "r": "Silver iodide can be used to artificially “seed” these, encouraging precipitation to fall. For 10 points, name these visible masses of condensed water droplets or ice crystals that float in the sky."
+    },
+    {
+      "p": "The lumpy, bulging underside pattern called “mammatus” often signals that a severe storm is brewing in these. Mountain-hugging “lenticular” versions of these, lens-shaped and sometimes mistaken for flying saucers, form when moist air is forced upward over a peak.",
+      "r": "Silver iodide can be dropped from airplanes to “seed” these and encourage rain or snow. For 10 points, name these white or gray masses from which precipitation falls."
+    },
+    {
+      "p": "When these contain nitric acid, a rare iridescent type called “nacreous” can form in the bitter cold high above the poles, where it may contribute to ozone loss. A man-made “cirrus” type of these, called a contrail, streaks behind high-flying jet engines.",
+      "r": "Towering “cumulonimbus” versions of these are nicknamed thunderheads and can flatten into an anvil shape during a storm. For 10 points, name these condensed groups of water droplets that form visible shapes in the sky."
+    },
+    {
+      "p": "A small cap version of these, called a “pileus,” can perch briefly atop a bigger, still-growing one below it. Jet-engine exhaust creates a man-made streak form of these called a contrail, and a colorful type found mainly near the poles, called “nacreous,” forms only in extreme cold.",
+      "r": "In the water cycle, these form after evaporated water vapor rises and condenses. For 10 points, name these usually-white masses of water suspended in the sky, which include the stratus, cumulus, and cirrus types."
+    },
+    {
+      "p": "Some scientists have proposed spraying man-made, sulfate-based versions of these high in the atmosphere to help fight global warming, an idea discussed in the book _SuperFreakonomics_. Wispy streaks nicknamed “mares’ tails” and flat anvil-shaped tops describe two of the dramatic forms these can take.",
+      "r": "Fog is simply a ground-level example of the stratus type of these. For 10 points, name these atmospheric masses of condensed water vapor, often described as white and fluffy."
+    },
+    {
+      "p": "Fallstreak holes, strange round gaps, can appear in a layer of these. A type of these found mainly near Earth’s poles, iridescent and formed only in extreme cold, is called “nacreous,” and jet-engine exhaust forms a man-made streak version of these called a contrail.",
+      "r": "Stratus, cirrus, and cumulonimbus are common types of these. For 10 points, name these sky-borne masses of condensed water droplets."
+    },
+    {
+      "p": "These form when rising air cools below its dew point, the temperature at which water vapor must condense into liquid or ice. NASA’s Phoenix Mars Lander even spotted wispy, cirrus-like versions of these high in the thin atmosphere of Mars.",
+      "r": "Most of these form in the troposphere, the lowest layer of Earth’s atmosphere. For 10 points, name these masses of condensed water that include the cumulus, stratus, and cirrus types."
+    },
+    {
+      "p": "English chemist Luke Howard introduced the Latin-based naming system for these in 1802, giving us terms like “cumulus” (meaning heap) and “stratus” (meaning layer). High, thin versions of these let sunlight in but trap outgoing heat, somewhat like a greenhouse gas.",
+      "r": "Lower, thicker versions of these instead reflect sunlight back into space, cooling the planet. For 10 points, name these masses of condensed water vapor floating in Earth’s sky."
+    },
+    {
+      "p": "A tiny speck of dust, pollen, salt, or smoke called a condensation nucleus usually sits at the center of each droplet inside these. Round or oval “fallstreak holes” sometimes punch through a layer of these, and a lumpy, bulging pattern called “mammatus” on their underside often warns of a coming severe storm.",
+      "r": "Silver iodide can be used to artificially “seed” these and encourage precipitation. For 10 points, name these visible masses of water droplets or ice crystals that float in the sky."
+    },
+    {
+      "p": "The Bergeron process, in which ice crystals grow faster than nearby liquid droplets, helps many of these release rain or snow. A rare, iridescent, polar type of these called “nacreous” can help deplete the ozone layer high in the stratosphere.",
+      "r": "Contrails, the streaks left behind jet engines, are a human-made, cirrus-like version of these. For 10 points, name these condensed masses of water vapor that fill the sky."
+    },
+    {
+      "p": "Lens-shaped versions of these that hover near mountain peaks are sometimes mistaken for flying saucers. A lumpy “mammatus” pattern on the underside of a storm-bringing type of these usually signals severe weather is near, and a small “pileus” cap can briefly sit atop a fast-growing one.",
+      "r": "These are a key part of the water cycle, forming once rising water vapor cools and condenses. For 10 points, name these masses of condensed water that include cumulus, stratus, cirrus, and cumulonimbus types."
+    },
+    {
+      "p": "Jet contrails are a man-made, cirrus-type example of these, and a rare iridescent polar type is called “nacreous.” Fallstreak holes occasionally punch round gaps through a layer of these, and the Bergeron process explains how ice crystals inside them can grow large enough to fall as snow.",
+      "r": "Towering cumulonimbus versions of these are nicknamed “thunderheads.” For 10 points, name these condensed masses of water vapor, including the wispy cirrus and puffy cumulus types."
+    },
+    {
+      "p": "A fine-grained mist resting right at ground level is technically just a stratus-type example of these. High above, thin, wispy versions made of ice crystals can let sunlight through while trapping outgoing heat, somewhat like a blanket.",
+      "r": "Puffy, cotton-ball-shaped versions of these are called cumulus, while flat, featureless sheets are called stratus. For 10 points, name these masses of condensed water floating in the sky, which turn dark and towering just before a storm."
+    },
+    {
+      "p": "These form around microscopic particles of dust, sea salt, or pollen called condensation nuclei, once rising air cools past its dew point. Scientists sometimes label the rare, colorful polar type of these “polar stratospheric,” since it forms unusually high in Earth’s atmosphere.",
+      "r": "Seeding these with silver iodide can encourage more rain or snow to fall. For 10 points, name these visible masses of water suspended in the sky."
+    },
+    {
+      "p": "A hazy version of these resting right at ground level is just a stratus type with a different name. The towering, storm-bringing cumulonimbus type of these can flatten at its top into a wide anvil shape when it reaches the top of the troposphere.",
+      "r": "These form through condensation, as rising water vapor cools past its dew point. For 10 points, name these masses of tiny water droplets or ice crystals that fill the sky."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Visible masses of condensed water droplets or ice crystals floating in the sky",
+      "k": [
+        "water droplets",
+        "ice crystals"
+      ],
+      "n": 9
+    },
+    {
+      "id": "types",
+      "tier": "giveaway",
+      "t": "Main types include puffy cumulus, flat sheet-like stratus, wispy cirrus, and towering storm-bringing cumulonimbus",
+      "k": [
+        "cumulus",
+        "stratus",
+        "cirrus",
+        "cumulonimbus"
+      ],
+      "n": 9
+    },
+    {
+      "id": "water-cycle",
+      "tier": "giveaway",
+      "t": "A key stage in the water cycle: rising water vapor cools, condenses, and eventually falls back to Earth as rain or snow",
+      "k": [
+        "water cycle",
+        "condenses"
+      ],
+      "n": 2
+    },
+    {
+      "id": "seeding",
+      "tier": "giveaway",
+      "t": "Can be artificially “seeded” with silver iodide to encourage rain or snow to fall",
+      "k": [
+        "silver iodide",
+        "seeded"
+      ],
+      "n": 6
+    },
+    {
+      "id": "nuclei",
+      "tier": "giveaway",
+      "t": "Form when rising water vapor condenses around tiny bits of dust, pollen, or salt called condensation nuclei",
+      "k": [
+        "condensation nuclei"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nacreous",
+      "tier": "middle",
+      "t": "A rare, iridescent type called “nacreous” forms in extreme cold high above the poles",
+      "k": [
+        "nacreous"
+      ],
+      "n": 5
+    },
+    {
+      "id": "contrails",
+      "tier": "middle",
+      "t": "Contrails, the white streaks behind jet engines, are a human-made, cirrus-like type",
+      "k": [
+        "contrails"
+      ],
+      "n": 4
+    },
+    {
+      "id": "cumulonimbus-storms",
+      "tier": "middle",
+      "t": "Towering cumulonimbus types, nicknamed “thunderheads,” can top out in a flat anvil shape during severe storms",
+      "k": [
+        "cumulonimbus",
+        "anvil"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mammatus",
+      "tier": "middle",
+      "t": "A lumpy, bulging underside pattern called “mammatus” often signals a severe storm is near",
+      "k": [
+        "mammatus"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lenticular",
+      "tier": "middle",
+      "t": "Lens-shaped “lenticular” types, sometimes mistaken for UFOs, form over mountains",
+      "k": [
+        "lenticular"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fog",
+      "tier": "middle",
+      "t": "Fog is really just a stratus type that forms down at ground level",
+      "k": [
+        "stratus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "altitude",
+      "tier": "middle",
+      "t": "Classified partly by altitude and shape, with cirrus, stratus, and cumulonimbus describing different heights and forms",
+      "k": [
+        "altitude",
+        "shape"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pileus",
+      "tier": "middle",
+      "t": "A small cap called a “pileus” can briefly form atop a bigger, still-growing one",
+      "k": [
+        "pileus"
+      ],
+      "n": 2
+    },
+    {
+      "id": "bergeron",
+      "tier": "power",
+      "t": "The Bergeron process describes how ice crystals grow at the expense of nearby liquid droplets, helping produce rain or snow",
+      "k": [
+        "bergeron process"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fallstreak",
+      "tier": "power",
+      "t": "Round or oval gaps called “fallstreak holes” can punch through a layer high in the sky",
+      "k": [
+        "fallstreak"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ozone",
+      "tier": "power",
+      "t": "The nacreous type can contribute to ozone depletion high over the poles",
+      "k": [
+        "ozone depletion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "geoengineering",
+      "tier": "power",
+      "t": "Man-made sulfate aerosol versions have been proposed to help fight global warming, an idea discussed in the book _SuperFreakonomics_",
+      "k": [
+        "superfreakonomics",
+        "sulfate aerosol"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mares-tails",
+      "tier": "power",
+      "t": "Wispy streaks nicknamed “mares’ tails” and flat-topped “anvil heads” describe two dramatic shapes",
+      "k": [
+        "mares tails"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mars",
+      "tier": "power",
+      "t": "NASA’s Phoenix Mars Lander even observed wispy, cirrus-like ones high in the thin atmosphere of Mars",
+      "k": [
+        "mars",
+        "phoenix lander"
+      ],
+      "n": 1
+    },
+    {
+      "id": "albedo",
+      "tier": "power",
+      "t": "Pale, low ones reflect sunlight back to space, but high, thin ones can also trap outgoing heat like a greenhouse gas",
+      "k": [
+        "reflect sunlight",
+        "greenhouse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dew-point",
+      "tier": "power",
+      "t": "Form when rising air cools below its dew point, the temperature at which water vapor must condense",
+      "k": [
+        "dew point"
+      ],
+      "n": 1
+    },
+    {
+      "id": "troposphere",
+      "tier": "power",
+      "t": "Most form in the troposphere, the lowest layer of Earth’s atmosphere, though a few rare types reach higher",
+      "k": [
+        "troposphere"
+      ],
+      "n": 1
+    },
+    {
+      "id": "luke-howard",
+      "tier": "power",
+      "t": "English chemist Luke Howard introduced the Latin naming system behind cumulus, stratus, and cirrus in 1802",
+      "k": [
+        "luke howard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "polar-stratospheric",
+      "tier": "power",
+      "t": "Scientists also call the nacreous type “polar stratospheric,” since it forms unusually high in Earth’s atmosphere",
+      "k": [
+        "polar stratospheric"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "General word, or exact type?",
+    "body": "Some tossups want a specific named type, not the general word. A real tossup built around the Phoenix Mars Lander and wispy, upper-atmosphere ice crystals wanted “cirrus clouds” specifically, and only prompted (not fully accepted) a player who just said “clouds.”",
+    "fix": "If the whole question is clearly built around one named type — nacreous, lenticular, cirrus, cumulonimbus — try to give that specific name. If the clues describe clouds in general (condensation, the water cycle, many different types), “clouds” alone is the safer answer.",
+    "line": "Real answer line: <b><u>Clouds</u></b> [one real tossup instead wants “cirrus clouds,” and only prompts on bare “clouds”]"
+  },
+  "tests": {
+    "right": [
+      "Clouds",
+      "cloud",
+      "Clowds",
+      "Cumulus Clouds"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Fog",
+      "Water Vapor",
+      "Rain",
+      "Water Cycle"
+    ]
+  },
+  "freq": {
+    "rank": 2,
+    "count": 7,
+    "list": "Earth Science"
+  }
+}

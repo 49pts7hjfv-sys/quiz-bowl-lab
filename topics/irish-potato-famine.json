@@ -1,0 +1,397 @@
+{
+  "id": "irish-potato-famine",
+  "name": "Irish Potato Famine",
+  "mono": "IPF",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "A potato blight that starved Ireland · Mass death and emigration",
+  "dates": "1845–1852",
+  "briefing": "When a water mold began rotting Ireland’s potato crop in 1845, the island’s poor lost their main food source. Over the next several years, about a million Irish men, women, and children died of starvation and disease, and roughly a million more fled overseas, many in crowded, disease-ridden “coffin ships.” The famine emptied whole villages and helped send waves of Irish immigrants to cities like Boston and New York.",
+  "answerHtml": "<b><u>Irish Potato Famine</u></b> (or <u>Great Famine</u>, <u>Great Hunger</u>, or <u>An Gorta Mór</u> [“un GOR-tuh MORE”]; prompt on <u>famine</u> alone)",
+  "accept": [
+    "irish potato famine",
+    "potato famine",
+    "irish famine",
+    "great irish famine",
+    "great potato famine",
+    "great famine",
+    "great hunger",
+    "an gorta mor",
+    "gorta mor"
+  ],
+  "prompt": [
+    "famine",
+    "hunger"
+  ],
+  "reject": [
+    "great famine of 1315",
+    "famine of 1315",
+    "trail of tears"
+  ],
+  "tests": {
+    "right": [
+      "Irish Potato Famine",
+      "the Irish Potato Famine",
+      "Potato Famine",
+      "Great Famine",
+      "Irsh Potato Famine"
+    ],
+    "prompt": [
+      "Famine",
+      "Hunger"
+    ],
+    "wrong": [
+      "Trail of Tears",
+      "Great Famine of 1315",
+      "Potato Blight",
+      "Holodomor"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Irish Potato Famine Explained: World History Review",
+      "source": "HipHughes",
+      "url": "https://www.youtube.com/watch?v=evtEDIQSwvc",
+      "note": "Quick teacher-made review of the causes, the blight, and the famine’s toll"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How The British Empire Starved Ireland",
+      "source": "Simple History",
+      "url": "https://www.youtube.com/watch?v=pK2DOa12weg",
+      "note": "Short summary of Britain’s response and why so many died"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Irish Potato Famine - Isle of Blight - Part 1",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=gAnT21xGdSk",
+      "note": "Animated series, Part 1 of 3: how the blight struck and why one crop failure became a catastrophe"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Irish Potato Famine - Black ’47 - Part 3",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=6DP8INm09nY",
+      "note": "Animated series, Part 3 of 3: the worst year of the famine and its aftermath"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Irish Potato Famine",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Irish-Potato-Famine/603737",
+      "note": "Student encyclopedia · the blight, Britain’s weak response, and mass emigration"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)",
+  "qb": {
+    "q": "Potato Famine",
+    "found": 5,
+    "tip": "All 5 results that came back were relevant to this exact famine, so no need to add a History category filter."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Civil servant Charles Trevelyan, who ran much of Britain’s relief effort during this crisis, wrongly treated it as a kind of divine punishment rather than an emergency needing aid. Journalist John Mitchel was convicted and exiled after attacking the government’s response to this disaster.",
+      "r": "Desperate families fled overseas on crowded, disease-ridden “coffin ships” during this disaster. For 10 points, name this 1840s catastrophe in which a blight ruined Ireland’s potato crop."
+    },
+    {
+      "p": "The emigrant ship _Jeanie Johnston_ became famous for never losing a passenger on its Atlantic crossings during this disaster, unlike many of the overcrowded vessels that carried the starving abroad. Some Protestant missionaries offered food to hungry Catholic children who agreed to hear their teaching, a practice nicknamed “souperism.”",
+      "r": "Prime Minister Robert Peel repealed Britain’s Corn Laws in 1846, partly in response to this crisis. For 10 points, name this disaster in which a blight struck Ireland’s potato crop beginning in 1845."
+    },
+    {
+      "p": "Even as people starved during this disaster, Ireland kept exporting other foods, such as grain and livestock, to Britain. Anger over the government’s handling of this crisis helped strengthen Irish nationalism and later calls for independence from Britain.",
+      "r": "Many of the destitute ended up in overcrowded workhouses during this disaster. For 10 points, name this catastrophe in which a blight hit Ireland’s potato crop, beginning in 1845."
+    },
+    {
+      "p": "Some British officials saw this disaster as a kind of divine punishment rather than a crisis demanding real relief. The blight behind this catastrophe was caused by a water mold called Phytophthora infestans [“fy-TOF-thor-uh in-fes-TANS”] that rotted potatoes in the ground.",
+      "r": "Before this disaster struck, many rural families ate little besides potatoes and buttermilk each day. For 10 points, name this 1840s catastrophe that devastated Ireland."
+    },
+    {
+      "p": "The organism behind this disaster’s blight likely crossed the Atlantic from North America before spreading through Europe, though Ireland’s reliance on a single crop made the damage there especially severe. Potatoes grown on small tenant plots had become the staple food of Ireland’s rural poor before this crisis hit.",
+      "r": "Desperate families fled overseas on crowded “coffin ships” during this disaster. For 10 points, name this mid-1800s disaster caused by a blight on Ireland’s potato crop."
+    },
+    {
+      "p": "The Choctaw Nation in the United States, despite its own hardships, sent a donation to help victims of this disaster. Soup kitchens and groups such as the Quakers tried to feed the hungry during this crisis but could not keep up with the need.",
+      "r": "Many of the destitute ended up in overcrowded workhouses during this disaster. For 10 points, name this catastrophe in which a blight hit Ireland’s potato crop beginning in 1845."
+    },
+    {
+      "p": "Civil servant Charles Trevelyan ran much of Britain’s relief effort during this disaster, which historians have long criticized as too slow and limited. Journalist John Mitchel was convicted and exiled after criticizing the government’s handling of this crisis.",
+      "r": "Robert Peel’s government repealed the Corn Laws in 1846 partly in response to this disaster. For 10 points, name this catastrophe in which a blight struck Ireland’s potato crop."
+    },
+    {
+      "p": "The emigrant ship _Jeanie Johnston_ never lost a single passenger while carrying refugees of this disaster across the Atlantic. Some Protestant missionaries offered food to starving Catholic children who agreed to receive their teaching, in a practice nicknamed “souperism,” during this crisis.",
+      "r": "About a million people died and roughly a million more emigrated during this disaster. For 10 points, name this catastrophe that struck Ireland beginning in 1845."
+    },
+    {
+      "p": "Even while people starved during this disaster, Ireland kept exporting other foods, including grain and livestock, to Britain. Anger over the government’s response to this crisis helped strengthen Irish nationalism and later calls for independence.",
+      "r": "Desperate families fled overseas on crowded “coffin ships” during this disaster. For 10 points, name this 1840s catastrophe caused by a blight on Ireland’s potato crop."
+    },
+    {
+      "p": "A water mold called Phytophthora infestans caused the blight behind this disaster, rotting potatoes in the fields. Some British officials wrongly treated this crisis as a kind of divine punishment rather than an emergency requiring aid.",
+      "r": "Britain’s Prime Minister Robert Peel repealed the Corn Laws in 1846 partly because of this disaster. For 10 points, name this catastrophe in which a blight struck Ireland’s potato crop."
+    },
+    {
+      "p": "Potatoes grown on small tenant plots had become the staple food of Ireland’s rural poor before this disaster struck. Overcrowded workhouses took in many of the destitute during this crisis, though disease spread quickly inside them.",
+      "r": "Roughly a million people emigrated, often on crowded “coffin ships,” during this disaster. For 10 points, name this catastrophe that struck Ireland beginning in 1845."
+    },
+    {
+      "p": "Journalist John Mitchel was convicted and exiled after attacking the government’s response to this disaster. The organism that caused this crisis’s blight likely crossed the Atlantic from North America before spreading through Europe.",
+      "r": "This disaster’s dead and emigrants together left Ireland with roughly a quarter fewer people. For 10 points, name this catastrophe caused by a blight that ruined Ireland’s potato crop."
+    },
+    {
+      "p": "The Choctaw Nation sent a donation to help victims of this crisis despite its own recent hardships. Some rural Irish families had eaten little besides potatoes and buttermilk each day before this disaster struck.",
+      "r": "Mass emigration during this disaster helped build large immigrant communities in cities such as Boston and New York. For 10 points, name this 1840s catastrophe that struck Ireland."
+    },
+    {
+      "p": "Potato blight struck other parts of Europe around the same time as this disaster, but Ireland’s heavy reliance on a single crop made the damage there especially severe. Soup kitchens and charity groups such as the Quakers tried to feed the hungry during this crisis.",
+      "r": "Civil servant Charles Trevelyan ran much of the British relief effort criticized during this disaster. For 10 points, name this catastrophe in which a blight hit Ireland’s potato crop."
+    },
+    {
+      "p": "Some Protestant missionaries offered food to hungry Catholic children who agreed to receive their teaching, a practice nicknamed “souperism,” during this crisis. The emigrant ship _Jeanie Johnston_ became famous for never losing a passenger while crossing the Atlantic during this disaster.",
+      "r": "About a million people died of starvation and disease during this disaster. For 10 points, name this catastrophe, caused by a blight, that struck Ireland beginning in 1845."
+    }
+  ],
+  "clues": [
+    {
+      "id": "blight-1845",
+      "tier": "giveaway",
+      "t": "A blight ruined Ireland’s potato crop starting in 1845, destroying the main food source for the rural poor",
+      "k": [
+        "blight",
+        "1845",
+        "potato crop"
+      ],
+      "n": 5
+    },
+    {
+      "id": "coffin-ships",
+      "tier": "giveaway",
+      "t": "Desperate families fled overseas on crowded, disease-ridden ships nicknamed “coffin ships”",
+      "k": [
+        "coffin ships",
+        "overseas",
+        "disease ridden"
+      ],
+      "n": 5
+    },
+    {
+      "id": "death-emigration",
+      "tier": "giveaway",
+      "t": "About a million people died and roughly a million more emigrated, so Ireland lost about a quarter of its people",
+      "k": [
+        "million",
+        "emigrated",
+        "quarter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "diaspora",
+      "tier": "giveaway",
+      "t": "Mass emigration built large immigrant communities in cities like Boston and New York",
+      "k": [
+        "boston",
+        "new york",
+        "immigrant communities"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corn-laws",
+      "tier": "middle",
+      "t": "Britain partly responded by having Prime Minister Robert Peel repeal the Corn Laws (1846), allowing cheaper food imports",
+      "k": [
+        "corn laws",
+        "robert peel",
+        "1846"
+      ],
+      "n": 4
+    },
+    {
+      "id": "souperism",
+      "tier": "middle",
+      "t": "Some Protestant missionaries offered food to starving Catholic children who agreed to hear their teaching, a practice nicknamed “souperism”",
+      "k": [
+        "souperism",
+        "missionaries",
+        "protestant"
+      ],
+      "n": 4
+    },
+    {
+      "id": "trevelyan",
+      "tier": "middle",
+      "t": "Civil servant Charles Trevelyan ran much of Britain’s relief effort, which historians have long criticized as too slow and limited",
+      "k": [
+        "trevelyan",
+        "relief effort",
+        "criticized"
+      ],
+      "n": 2
+    },
+    {
+      "id": "phytophthora",
+      "tier": "middle",
+      "t": "The blight was caused by a water mold called Phytophthora infestans that rotted potato plants in the ground",
+      "k": [
+        "phytophthora",
+        "water mold",
+        "infestans"
+      ],
+      "n": 2
+    },
+    {
+      "id": "staple-crop",
+      "tier": "middle",
+      "t": "Potatoes grown on small tenant plots had become the staple food of Ireland’s rural poor before the blight hit",
+      "k": [
+        "staple food",
+        "tenant plots",
+        "rural poor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "workhouses",
+      "tier": "middle",
+      "t": "Overcrowded workhouses took in many of the destitute, though disease spread quickly inside them",
+      "k": [
+        "workhouses",
+        "destitute",
+        "disease"
+      ],
+      "n": 0
+    },
+    {
+      "id": "choctaw",
+      "tier": "middle",
+      "t": "The Choctaw Nation in the United States sent a donation to help famine victims, despite its own hardships",
+      "k": [
+        "choctaw",
+        "donation",
+        "united states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mitchel",
+      "tier": "power",
+      "t": "Journalist John Mitchel was convicted and exiled after attacking the government’s handling of the disaster",
+      "k": [
+        "john mitchel",
+        "convicted",
+        "exiled"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jeanie-johnston",
+      "tier": "power",
+      "t": "The emigrant ship _Jeanie Johnston_ became famous for never losing a passenger on its Atlantic crossings",
+      "k": [
+        "jeanie johnston",
+        "atlantic crossings",
+        "passenger"
+      ],
+      "n": 1
+    },
+    {
+      "id": "divine-punishment",
+      "tier": "power",
+      "t": "Some British officials wrongly treated the disaster as a kind of divine punishment rather than a crisis needing aid",
+      "k": [
+        "divine punishment",
+        "officials",
+        "crisis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "exports",
+      "tier": "power",
+      "t": "Even as people starved, Ireland kept exporting other foods, such as grain and livestock, to Britain",
+      "k": [
+        "exporting",
+        "grain",
+        "livestock"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nationalism",
+      "tier": "power",
+      "t": "Anger over the disaster strengthened Irish nationalism and later movements for independence from Britain",
+      "k": [
+        "nationalism",
+        "independence",
+        "movements"
+      ],
+      "n": 0
+    },
+    {
+      "id": "origin",
+      "tier": "power",
+      "t": "The organism behind the blight likely crossed the Atlantic from North America before spreading through Europe",
+      "k": [
+        "north america",
+        "organism",
+        "spreading"
+      ],
+      "n": 0
+    },
+    {
+      "id": "europe-wide",
+      "tier": "power",
+      "t": "Potato blight struck other parts of Europe too, but Ireland’s heavy reliance on the crop made the disaster there especially severe",
+      "k": [
+        "europe",
+        "reliance",
+        "especially severe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diet",
+      "tier": "power",
+      "t": "Before the blight, many rural families ate little besides potatoes and buttermilk each day",
+      "k": [
+        "buttermilk",
+        "rural families",
+        "little besides"
+      ],
+      "n": 0
+    },
+    {
+      "id": "memorials",
+      "tier": "power",
+      "t": "Modern memorials and museums in Ireland and abroad now honor the famine’s victims",
+      "k": [
+        "memorials",
+        "museums",
+        "victims"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which “Great Famine”?",
+    "body": "Quiz bowl has more than one “Great Famine.” A European famine from 1315 to 1317, caused by terrible weather and crop failures, struck centuries before the potato even reached Europe. The Irish Potato Famine of the 1840s is a completely different, later disaster, even though both are sometimes called “the Great Famine.”",
+    "fix": "Potatoes, blight, coffin ships, Robert Peel, and the 1840s all mean the Irish Potato Famine. Bad weather, the start of the Little Ice Age, and the 1300s mean the earlier European famine instead. When in doubt, listen for the century.",
+    "line": "Real answer line: <b><u>Irish Potato Famine</u></b> (or <u>Great Famine</u> or <u>Great Hunger</u>; prompt on <u>famine</u> alone)"
+  },
+  "freq": {
+    "rank": 24,
+    "count": 4,
+    "list": "European History"
+  }
+}

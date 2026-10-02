@@ -1,0 +1,55 @@
+{
+  "_note": "Verified with noembed / page fetch on 2026-10-01. Use these as the media arrays for the five Batch 2 topics (order matters: first = shortest/easiest).",
+  "henry-viii": [
+    {"group": "focus", "kind": "video", "title": "The Wives of Henry VIII: Divorced, Beheaded & Died Song", "source": "Horrible Histories", "url": "https://www.youtube.com/watch?v=rTdTDCRKvvM", "note": "Short · catchy song to remember the six wives in order"},
+    {"group": "focus", "kind": "video", "title": "Henry VIII: King of England & Initiated the English Reformation", "source": "Biography (Mini Bio)", "url": "https://www.youtube.com/watch?v=vGi2TYAQfXE", "note": "Short · quick life story, including how he started the Church of England"},
+    {"group": "focus", "kind": "video", "title": "History vs. Henry VIII", "source": "TED-Ed", "url": "https://www.youtube.com/watch?v=xdZcqAss92w", "note": "5 min · animated mock trial: great king or tyrant? You are the jury"},
+    {"group": "focus", "kind": "video", "title": "A Simple Guide to Henry VIII", "source": "Simple History", "url": "https://www.youtube.com/watch?v=OcS8AbqGphI", "note": "Cartoon guide to his life, his wives, and his big decisions"},
+    {"group": "focus", "kind": "video", "title": "The Early Tudors: Henry VIII and the Church of England", "source": "History Matters", "url": "https://www.youtube.com/watch?v=GcwsBPPSi9Q", "note": "About 10 min · doodle-style history of the early Tudors and the break with Rome"},
+    {"group": "background", "kind": "video", "title": "Reformation and Consequences (#7)", "source": "Crash Course European History", "url": "https://www.youtube.com/watch?v=PbBDP1Elbbg", "note": "The Protestant Reformation, the bigger story behind the split from Rome"},
+    {"group": "read", "kind": "article", "title": "Biography: Henry VIII for Kids", "source": "Ducksters", "url": "https://www.ducksters.com/biography/world_leaders/henry_viii.php", "note": "Quick read: his life, six wives, and the Church of England"}
+  ],
+  "hundred-years-war": [
+    {"group": "focus", "kind": "video", "title": "The Joan of Arc Song", "source": "Horrible Histories", "url": "https://www.youtube.com/watch?v=5ZGwXRuNsUg", "note": "Short · funny song that tells Joan of Arc’s whole story"},
+    {"group": "focus", "kind": "video", "title": "How the Medieval Longbow Cut Down a French Army in 1346", "source": "Smithsonian Channel", "url": "https://www.youtube.com/watch?v=UGg3dqrzaY4", "note": "Short clip · how English longbows beat French knights at Crécy (some battle scenes)"},
+    {"group": "focus", "kind": "video", "title": "The Hundred Years’ War (Ten Minute English and British History #15)", "source": "History Matters", "url": "https://www.youtube.com/watch?v=d6CrOGoXtMI", "note": "About 10 min · the whole war, 1337 to 1453, in simple drawings"},
+    {"group": "focus", "kind": "video", "title": "Joan of Arc: The Mad King (Part 1)", "source": "Extra History", "url": "https://www.youtube.com/watch?v=4XFVzpJxgUk", "note": "Cartoon series, Part 1 of 5: France’s “mad king” and the mess Joan was born into"},
+    {"group": "focus", "kind": "video", "title": "Battle of Agincourt 1415", "source": "Kings and Generals", "url": "https://www.youtube.com/watch?v=mZzaaORehzs", "note": "Weekend watch · animated battle maps of Henry V’s famous win (battle scenes)"},
+    {"group": "read", "kind": "article", "title": "Middle Ages for Kids: Hundred Years War", "source": "Ducksters", "url": "https://www.ducksters.com/history/middle_ages/hundred_years_war.php", "note": "Quick read: Edward III, the Black Prince, Henry V, Joan of Arc, and the longbow, plus a quiz"}
+  ],
+  "napoleon-bonaparte": [
+    {"group": "focus", "kind": "video", "title": "Napoleon Bonaparte: This Is Your Reign", "source": "Horrible Histories", "url": "https://www.youtube.com/watch?v=uIvFaouUQ5s", "note": "Short · comedy sketch that races through his whole life"},
+    {"group": "focus", "kind": "video", "title": "Napoleon: French Military Leader & Emperor", "source": "Biography (Mini Bio)", "url": "https://www.youtube.com/watch?v=9l21Mbhnguk", "note": "Short · quick life story of the general who became emperor"},
+    {"group": "focus", "kind": "video", "title": "History vs. Napoleon Bonaparte", "source": "TED-Ed", "url": "https://www.youtube.com/watch?v=8aq_gRfmjgY", "note": "5 min · animated mock trial: hero or tyrant? You are the jury"},
+    {"group": "focus", "kind": "video", "title": "Napoleon Bonaparte (#22)", "source": "Crash Course European History", "url": "https://www.youtube.com/watch?v=Pd6E38FfuMg", "note": "Fast overview of his rise, his wars, and his fall"},
+    {"group": "background", "kind": "video", "title": "The French Revolution (#21)", "source": "Crash Course European History", "url": "https://www.youtube.com/watch?v=5fJl_ZX91l0", "note": "The Revolution that opened the door for him"},
+    {"group": "background", "kind": "video", "title": "The Napoleonic Wars, Part 1", "source": "OverSimplified", "url": "https://www.youtube.com/watch?v=zqllxbPWKNI", "note": "Weekend watch · funny cartoon story of his rise and wars (preview first: a few grown-up jokes)"},
+    {"group": "read", "kind": "article", "title": "Biography for Kids: Napoleon Bonaparte", "source": "Ducksters", "url": "https://www.ducksters.com/biography/world_leaders/napoleon_bonaparte.php", "note": "Quick read: Corsica to emperor, Russia, Waterloo, plus fun facts (was he really short?)"}
+  ],
+  "otto-von-bismarck": [
+    {"group": "focus", "kind": "video", "title": "Otto von Bismarck (1815–1898) and German Unification", "source": "Simple History", "url": "https://www.youtube.com/watch?v=mz9Cy0xUH0E", "note": "Cartoon overview of how he united Germany"},
+    {"group": "focus", "kind": "video", "title": "Why Did Wilhelm II Get Rid of Bismarck?", "source": "History Matters", "url": "https://www.youtube.com/watch?v=BX0Q8ZCz6GY", "note": "Short · why the new Kaiser pushed the Iron Chancellor out in 1890"},
+    {"group": "focus", "kind": "video", "title": "Otto von Bismarck: The Wildman Bismarck (Part 1)", "source": "Extra History", "url": "https://www.youtube.com/watch?v=zc3Y-dU_GjM", "note": "Cartoon series, Part 1 of 6: wild young Bismarck before he ran Prussia"},
+    {"group": "focus", "kind": "video", "title": "Otto von Bismarck: Iron and Blood (Part 3)", "source": "Extra History", "url": "https://www.youtube.com/watch?v=KnJDZpi3EBI", "note": "Cartoon series, Part 3 of 6: the famous “iron and blood” speech"},
+    {"group": "focus", "kind": "video", "title": "Otto von Bismarck: Germany! (Part 6)", "source": "Extra History", "url": "https://www.youtube.com/watch?v=G9bqCd7sRg0", "note": "Cartoon series, Part 6 of 6: war with France and a united Germany"},
+    {"group": "background", "kind": "video", "title": "Italian and German Unification (#27)", "source": "Crash Course European History", "url": "https://www.youtube.com/watch?v=KSjDe9_jZk8", "note": "How Italy and Germany each became one country"},
+    {"group": "background", "kind": "video", "title": "German Unification and Empire (Ten Minute History)", "source": "History Matters", "url": "https://www.youtube.com/watch?v=tq91I3TnWu4", "note": "About 10 min · doodle-style history of the new German Empire"},
+    {"group": "read", "kind": "article", "title": "Otto von Bismarck", "source": "Britannica Kids", "url": "https://kids.britannica.com/kids/article/Otto-von-Bismarck/623473", "note": "Short encyclopedia article: three wars, a united Germany in 1871, forced out in 1890"}
+  ],
+  "battle-of-waterloo": [
+    {"group": "focus", "kind": "video", "title": "18th June 1815: Battle of Waterloo", "source": "HistoryPod", "url": "https://www.youtube.com/watch?v=OdPUaHELOU4", "note": "Short · “on this day” recap of June 18, 1815"},
+    {"group": "focus", "kind": "video", "title": "The Battle of Waterloo: Wellington’s Finest Hour", "source": "The History Chap", "url": "https://www.youtube.com/watch?v=15f4iKsS710", "note": "A storyteller walks you through the battle on Wellington’s big day"},
+    {"group": "focus", "kind": "video", "title": "How Did Napoleon Lose Waterloo?", "source": "The Armchair Historian", "url": "https://www.youtube.com/watch?v=OE_dtHRITY8", "note": "Animated · why Napoleon lost, with cartoon battle maps"},
+    {"group": "focus", "kind": "video", "title": "Napoleonic Wars: Battle of Waterloo 1815", "source": "Epic History", "url": "https://www.youtube.com/watch?v=nDZGL1xsqzs", "note": "Weekend watch · the whole battle on animated maps (battle scenes)"},
+    {"group": "background", "kind": "video", "title": "The Napoleonic Wars, Part 2", "source": "OverSimplified", "url": "https://www.youtube.com/watch?v=mY3SEMTROas", "note": "Weekend watch · funny cartoon of the later wars, ending at Waterloo (preview first)"},
+    {"group": "background", "kind": "video", "title": "Why Was Napoleon Exiled Instead of Executed?", "source": "History Matters", "url": "https://www.youtube.com/watch?v=T9VqAjLhT4Y", "note": "Short · why he was sent to Elba, then St. Helena"},
+    {"group": "read", "kind": "article", "title": "Battle of Waterloo", "source": "Britannica Kids", "url": "https://kids.britannica.com/kids/article/Battle-of-Waterloo/476334", "note": "Short encyclopedia article: Wellington holds on, Blücher’s Prussians arrive, Napoleon falls"}
+  ],
+  "_qb_found": {
+    "henry-viii": {"q": "Henry VIII", "found": 9, "detail": "8 are Henry VIII tossups; 1 (2021 CERES) asks for the name Henry"},
+    "hundred-years-war": {"q": "Hundred Years", "found": 12, "detail": "5 are Hundred Years' War tossups; 7 are about the novel One Hundred Years of Solitude (or 'one hundred years'). research file also has 6 Regular High School (difficulty 3, History only) Hundred Years' War tossups; ignore the Palestine one"},
+    "napoleon-bonaparte": {"q": "Napoleon", "found": 10, "detail": "9 are Napoleon Bonaparte; 1 asks for the Napoleonic Wars"},
+    "otto-von-bismarck": {"q": "Bismarck", "found": 4, "detail": "4 at MS/EHS; research file also has 12 Regular High School (difficulty 3) Bismarck tossups"},
+    "battle-of-waterloo": {"q": "Waterloo", "found": 7, "detail": "6 are Battle of Waterloo; 1 asks for the Napoleonic Wars (prompts on Battle of Waterloo)"}
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "id": "cu-chulainn",
+  "name": "Cú Chulainn",
+  "mono": "CC",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Ulster’s legendary champion · Fights in a frenzy called the “warp spasm”",
+  "dates": "Legendary; Ulster Cycle of Irish mythology",
+  "briefing": "As a boy, this Irish hero killed a smith’s ferocious guard dog — then offered to guard the smith’s home himself until a new dog could be raised, earning a new name. In battle he could twist into a monstrous shape called the “warp spasm,” and he once held off an entire invading army alone during the _Táin Bó Cúailnge_, the great Cattle Raid of Cooley.",
+  "answerHtml": "<b><u>Cú Chulainn</u></b> (or <u>Setanta</u>; prompt on <u>Hound of Ulster</u>)",
+  "accept": [
+    "cu chulainn",
+    "cuchulain",
+    "cuchulainn",
+    "setanta",
+    "hound of culann",
+    "cuhullin"
+  ],
+  "prompt": [
+    "hound of ulster"
+  ],
+  "reject": [
+    "cu roi",
+    "finn mac cumhaill",
+    "fionn mac cumhaill",
+    "connla",
+    "ferdiad",
+    "queen medb",
+    "medb",
+    "lugaid"
+  ],
+  "tests": {
+    "right": [
+      "Cu Chulainn",
+      "Cuchulainn",
+      "Setanta",
+      "Hound of Culann",
+      "Coo Chulainn"
+    ],
+    "prompt": [
+      "Hound of Ulster"
+    ],
+    "wrong": [
+      "Cu Roi",
+      "Fionn mac Cumhaill",
+      "Connla",
+      "Queen Medb",
+      "Ferdiad"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The myth of Ireland’s two greatest warriors - Iseult Gillespie",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=lawx8YoLEIY",
+      "note": "Short animated myth · Cú Chulainn must fight his foster brother Ferdiad (battle scenes, sad ending)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Miscellaneous Myths: Cú Chulainn",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=MnVHLAH7MYI",
+      "note": "Funny cartoon summary of the Hound of Ulster’s life and deeds (some battle scenes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cú Chulainn: The Legend of The Irish Hulk (Irish Mythology Explained)",
+      "source": "Mythology & Fiction Explained",
+      "url": "https://www.youtube.com/watch?v=GgHBGFL9v7s",
+      "note": "Narrated tour of his whole legend and his famous battle frenzy (lots of fighting; older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Cú Chulainn",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/C%C3%BA_Chulainn",
+      "note": "Kid-friendly encyclopedia article on how he got his name, his battle frenzy, and his defense of Ulster"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/C%C3%BA_Chulainn",
+  "qb": {
+    "q": "Cu Chulainn",
+    "found": 0,
+    "tip": "No Middle School/Easy High School tossups use Cú Chulainn as the direct answer — at that level he usually shows up as a clue inside “Ireland” tossups instead. This draws on 4 Regular High School tossups, where killing Connla, the Gáe Bulg, and the guard-dog origin story are the clues that recur."
+  },
+  "sample": {
+    "n": 4,
+    "note": "4 real QBReader tossups for this answer line (0 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This hero’s fatal duel with his own son has a famous parallel in the Persian warrior Rostam’s tragic fight with his son Sohrab. Tricked into breaking his sacred vow never to eat dog meat, this man kept fighting even after his charioteer, Laeg, was killed by one of Lugaid’s spears.",
+      "r": "Mortally wounded, he tied himself to a standing stone so he could die on his feet, facing his enemies. For 10 points, name this hero who defended Ulster against Queen Medb’s armies in the Táin Bó Cúailnge, the Cattle Raid of Cooley."
+    },
+    {
+      "p": "Some myths name this man’s father as the god Lugh, with the warrior Sualtam raising him as a foster son. As a boy eavesdropping on the druid Cathbad’s prophecy, he learned that taking up arms that day would bring a short life but eternal glory — and begged his uncle for weapons anyway.",
+      "r": "After training under the warrior-woman Scáthach on an island off Scotland, he later killed his own son, Connla, after the boy refused to break a vow by revealing his name. For 10 points, name this Irish hero who wielded the barbed spear Gáe Bulg."
+    },
+    {
+      "p": "The war goddess the Morrígan attacked this man as an eel, a wolf, and a hornless heifer after he spurned her advances, and he wounded her each time. After his death, she landed on his shoulder as a raven to show his enemies he had finally fallen.",
+      "r": "In combat, his body would twist into a monstrous shape called the “warp spasm,” with one eye bulging out and the other sinking in. For 10 points, name this hero who, as a boy, killed a smith’s guard dog and took its place until a replacement could be raised."
+    },
+    {
+      "p": "At Bricriu’s Feast, this man was the only guest willing to let a disguised Cú Roí behead him in return, after beheading Cú Roí first, and so won the champion’s portion. His myths were retold in English by Lady Gregory in the early 1900s.",
+      "r": "He courted his wife, Emer, through a difficult series of riddles before winning her hand. For 10 points, name this nephew of King Conchobar, a hero of Ulster who wielded the spear Gáe Bulg."
+    },
+    {
+      "p": "This man’s horse, Liath Macha, “the Grey of Macha,” is said to have wept tears of blood before its master’s final battle. Trained by the warrior-woman Scáthach alongside his foster-brother Ferdiad, this man later had to fight that same foster-brother in single combat.",
+      "r": "Their duel over the stolen bull of Cooley lasted three days before this man finally killed his closest friend. For 10 points, name this hero who single-handedly held off Queen Medb’s army during the Cattle Raid of Cooley."
+    },
+    {
+      "p": "After being speared by Lugaid, this warrior tied his dying body to a standing stone so that he could face his enemies on his feet. Years earlier, he had trained on an island off Scotland under the fearsome warrior-woman Scáthach.",
+      "r": "He unknowingly killed his own son, Connla, when the boy refused to break a promise and reveal his own name. For 10 points, name this legendary hero of the Ulster Cycle, nephew of King Conchobar."
+    },
+    {
+      "p": "This man’s killing of his own son has a tragic parallel in the Persian hero Rostam’s duel with his son Sohrab in the _Shahnameh_. As a boy, this man overheard that whoever took up arms on a certain day would die young but win everlasting fame, and he armed himself anyway.",
+      "r": "He married Emer after courting her through a series of riddles. For 10 points, name this hero who, as a child, killed the guard dog of a smith named Culann and earned a new name by taking the animal’s place."
+    },
+    {
+      "p": "This warrior once fought the shape-shifting war goddess the Morrígan, wounding her as she attacked him disguised as a wolf and then a wild heifer. He trained for war under Scáthach, a woman who lived on an island near Scotland.",
+      "r": "He was the only warrior willing to be beheaded, in turn, by a disguised Cú Roí at Bricriu’s Feast. For 10 points, name this wielder of the Gáe Bulg, a barbed spear, who defended Ulster during the Cattle Raid of Cooley."
+    },
+    {
+      "p": "This man’s chariot driver, Laeg, died fighting at his side against the forces of Lugaid. Some myths call the god Lugh this man’s true father, with a mortal warrior raising him as a foster son.",
+      "r": "In the heat of combat, his body would twist into a monstrous battle-fury known as the “warp spasm.” For 10 points, name this nephew of King Conchobar who killed his own son, Connla, without recognizing him."
+    },
+    {
+      "p": "As a boy, this hero killed a smith’s prized guard dog with a hurling ball and offered to protect the smith’s house in its place, earning a new name. He later studied the arts of war under the warrior-woman Scáthach.",
+      "r": "Tricked into breaking a sacred vow by eating a meal of dog meat, he fought on even as he grew weaker. For 10 points, name this legendary Ulster hero who wielded the barbed spear Gáe Bulg against Queen Medb’s army."
+    },
+    {
+      "p": "This man’s rival Cú Roí once challenged him and other heroes to a beheading game at Bricriu’s Feast, which this man alone had the courage to finish. Though he was raised partly by the warrior Sualtam, some myths name the god Lugh as his true father.",
+      "r": "He fell in love with Emer and had to complete a string of difficult tasks and riddles to marry her. For 10 points, name this nephew of Conchobar, a hero of the Ulster Cycle who died tied to a standing stone."
+    },
+    {
+      "p": "This warrior’s horse Liath Macha wept blood before the battle in which Lugaid finally killed him. Long before that, this man had unknowingly killed his own son, Connla, after the boy refused to break a vow and give his name.",
+      "r": "As a boy, he had killed a guard dog belonging to a smith and taken its place until a new one could be raised. For 10 points, name this legendary hero who wielded the barbed spear Gáe Bulg during the Cattle Raid of Cooley."
+    },
+    {
+      "p": "This hero once wounded the shape-shifting Morrígan as she attacked him in the forms of an eel, a wolf, and a heifer, after he refused her advances. At Bricriu’s Feast, he proved his courage by submitting to a disguised Cú Roí’s axe.",
+      "r": "He trained for battle under the warrior-woman Scáthach on an island off the coast of Scotland. For 10 points, name this nephew of King Conchobar who single-handedly defended Ulster against Queen Medb in the Cattle Raid of Cooley."
+    },
+    {
+      "p": "This man’s final battle began after he was tricked into breaking his lifelong vow never to eat dog meat. Earlier in life, he killed a son he did not recognize, a boy named Connla born to the warrior Aife.",
+      "r": "In the fury of combat, witnesses say his body twisted into a monstrous shape called the “warp spasm.” For 10 points, name this Ulster hero, nephew of Conchobar, who wielded the Gáe Bulg."
+    },
+    {
+      "p": "This hero’s charioteer Laeg and horse Liath Macha both stayed loyal to him through his final battle against Lugaid’s forces. As a boy, legend says he overheard a druid’s prophecy of a short, glorious life and chose to take up arms anyway.",
+      "r": "He earned his famous name after killing a smith’s guard dog and taking its place at the gate. For 10 points, name this legendary nephew of King Conchobar, a hero of the Ulster Cycle who wielded the barbed spear Gáe Bulg."
+    }
+  ],
+  "clues": [
+    {
+      "id": "ulster-cycle",
+      "tier": "giveaway",
+      "t": "Hero of the Ulster Cycle of Irish mythology, nephew of King Conchobar",
+      "k": [
+        "ulster cycle",
+        "conchobar"
+      ],
+      "n": 2
+    },
+    {
+      "id": "gae-bulg",
+      "tier": "giveaway",
+      "t": "Wielded the Gáe Bulg, a barbed spear given to him by Scáthach",
+      "k": [
+        "gae bulg",
+        "barbed spear"
+      ],
+      "n": 4
+    },
+    {
+      "id": "hound-of-culann",
+      "tier": "giveaway",
+      "t": "As a boy, killed a smith named Culann’s guard dog, then guarded the home himself, earning a new name",
+      "k": [
+        "guard dog",
+        "smith",
+        "culann"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cattle-raid",
+      "tier": "giveaway",
+      "t": "Single-handedly defended Ulster against Queen Medb’s army in the _Táin Bó Cúailnge_, the Cattle Raid of Cooley",
+      "k": [
+        "cattle raid",
+        "cooley",
+        "medb",
+        "tain bo cuailnge"
+      ],
+      "n": 3,
+      "rabbit": "Queen Medb"
+    },
+    {
+      "id": "connla-son",
+      "tier": "middle",
+      "t": "Killed his own son, Connla (born to the warrior Aife), after the boy refused to break a vow of silence",
+      "k": [
+        "connla",
+        "own son",
+        "aife"
+      ],
+      "n": 4,
+      "rabbit": "Aife"
+    },
+    {
+      "id": "scathach-training",
+      "tier": "middle",
+      "t": "Trained in warfare on an island off Scotland under the warrior-woman Scáthach",
+      "k": [
+        "scathach",
+        "trained",
+        "warrior woman"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ferdiad-duel",
+      "tier": "middle",
+      "t": "Killed his foster-brother and closest friend, Ferdiad, after three days of single combat",
+      "k": [
+        "ferdiad",
+        "foster brother",
+        "three days"
+      ],
+      "n": 1,
+      "rabbit": "Ferdiad"
+    },
+    {
+      "id": "emer-wife",
+      "tier": "middle",
+      "t": "Married Emer after winning her hand through a difficult series of riddles and tasks",
+      "k": [
+        "emer",
+        "wife",
+        "married"
+      ],
+      "n": 1
+    },
+    {
+      "id": "briciu-feast",
+      "tier": "middle",
+      "t": "At Bricriu’s Feast, was the only hero willing to let a disguised Cú Roí behead him in return",
+      "k": [
+        "bricriu",
+        "feast",
+        "champion"
+      ],
+      "n": 1,
+      "rabbit": "Bricriu’s Feast"
+    },
+    {
+      "id": "warp-spasm",
+      "tier": "middle",
+      "t": "In battle, entered a terrifying fury called the “warp spasm,” twisting almost beyond recognition",
+      "k": [
+        "warp spasm",
+        "battle fury",
+        "twisting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laeg-charioteer",
+      "tier": "middle",
+      "t": "His charioteer, Laeg, was killed by one of Lugaid’s spears in his final battle",
+      "k": [
+        "laeg",
+        "charioteer",
+        "lugaid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "death-tied-stone",
+      "tier": "middle",
+      "t": "Mortally wounded by Lugaid, tied himself to a standing stone to die on his feet, facing his foes",
+      "k": [
+        "tied himself",
+        "standing stone",
+        "lugaid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "geas-dogmeat",
+      "tier": "power",
+      "t": "Died after being tricked into breaking his lifelong sacred vow, or geas, never to eat dog meat",
+      "k": [
+        "geas",
+        "dog meat",
+        "vow"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lugh-son",
+      "tier": "power",
+      "t": "In some myths, his true father was the god Lugh, with the warrior Sualtam raising him",
+      "k": [
+        "lugh",
+        "sualtam",
+        "father"
+      ],
+      "n": 0,
+      "rabbit": "Lugh"
+    },
+    {
+      "id": "liath-macha",
+      "tier": "power",
+      "t": "His loyal horse, Liath Macha (“the Grey of Macha”), wept tears of blood before his final battle",
+      "k": [
+        "liath macha",
+        "grey of macha",
+        "horse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morrigan-shapeshift",
+      "tier": "power",
+      "t": "The war goddess the Morrígan attacked him as an eel, a wolf, and a heifer after he spurned her",
+      "k": [
+        "morrigan",
+        "shapeshift",
+        "eel"
+      ],
+      "n": 0,
+      "rabbit": "The Morrígan"
+    },
+    {
+      "id": "coming-of-age-conchobar",
+      "tier": "power",
+      "t": "As a boy, overheard the druid Cathbad’s prophecy of a short, glorious life and took up arms anyway",
+      "k": [
+        "cathbad",
+        "prophecy",
+        "glorious life"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lady-gregory",
+      "tier": "power",
+      "t": "His myths were retold in English by the writer Lady Gregory in the early 1900s",
+      "k": [
+        "lady gregory",
+        "retelling"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rostam-parallel",
+      "tier": "power",
+      "t": "His killing of his own son has a famous parallel in the Persian hero Rostam’s duel with his son Sohrab",
+      "k": [
+        "rostam",
+        "sohrab",
+        "parallel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "raven-death",
+      "tier": "power",
+      "t": "After his death, the Morrígan landed on his shoulder as a raven to show his enemies he had fallen",
+      "k": [
+        "raven",
+        "morrigan",
+        "death"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which “Cú”? (And whose son?)",
+    "body": "A rival hero named Cú Roí shares the “Cú” (hound) part of this man’s name and even appears in his myths as an opponent. It is also easy to blurt out the names of people in his own stories instead of his: his son Connla, his foster-brother Ferdiad, or his great enemy Queen Medb. Real answer lines also accept his boyhood name and prompt on his most famous epithet.",
+    "fix": "If the clue says someone was killed, defeated, or married by this man, he is not the answer — he is the one doing those things. The Gáe Bulg, the Cattle Raid of Cooley, and training under Scáthach all point to him specifically, not to Cú Roí or Medb.",
+    "line": "Real answer line: <b><u>Cú Chulainn</u></b> [“koo-KULL-in”] [or Setanta; or Cuhullin; prompt on the “Hound of Ulster”]"
+  }
+}

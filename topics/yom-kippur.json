@@ -1,0 +1,484 @@
+{
+  "id": "yom-kippur",
+  "name": "Yom Kippur",
+  "mono": "YK",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Holiest day of the Jewish year · A 25-hour fast of repentance",
+  "dates": "Fall · the 10th of Tishrei",
+  "briefing": "For about 25 hours, from sundown to nightfall the next day, many Jewish people go without food or water and spend hours in synagogue asking forgiveness for the past year’s wrongs. Yom Kippur, the Day of Atonement, is the holiest day of the Jewish year. It opens with the solemn Kol Nidre chant and ends with one long blast of a ram’s horn, the shofar.",
+  "answerHtml": "<b><u>Yom Kippur</u></b> (or Yom ha-Kippurim; accept <u>Day of Atonement</u>)",
+  "accept": [
+    "yom kippur",
+    "day of atonement",
+    "yom kipur",
+    "yom kippour",
+    "yom kippurim",
+    "yom hakippurim",
+    "yom ha kippurim"
+  ],
+  "prompt": [
+    "atonement",
+    "kippur",
+    "high holy days",
+    "high holy day",
+    "high holidays"
+  ],
+  "reject": [
+    "rosh hashanah",
+    "rosh hashana",
+    "rosh ha shanah",
+    "sukkot",
+    "sukkos",
+    "succot",
+    "passover",
+    "pesach",
+    "hanukkah",
+    "chanukah",
+    "hanukah",
+    "purim",
+    "shavuot",
+    "simchat torah",
+    "tisha bav",
+    "tisha b av",
+    "ramadan",
+    "yom kippur war"
+  ],
+  "tests": {
+    "right": [
+      "Yom Kippur",
+      "yom kipper",
+      "Day of Atonement",
+      "the Day of Atonement",
+      "Yom HaKippurim",
+      "Jewish Day of Atonement"
+    ],
+    "prompt": [
+      "Atonement",
+      "High Holy Days"
+    ],
+    "wrong": [
+      "Rosh Hashanah",
+      "Rosh Hashana",
+      "Sukkot",
+      "Passover",
+      "Hanukkah",
+      "Purim",
+      "Yom Kippur War",
+      "Tisha B'Av"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Did You Know: Yom Kippur",
+      "source": "Britannica",
+      "url": "https://www.youtube.com/watch?v=JVJsINF1CXw",
+      "note": "Short · a quick overview of the holiday"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Y is for Yom Kippur & Other Festivals (A to Z of Religions and Beliefs)",
+      "source": "BBC Teach",
+      "url": "https://www.youtube.com/watch?v=3j_ZOXiWAV8",
+      "note": "Short · a BBC school film from its A to Z of Religions and Beliefs"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What Is Yom Kippur? | Yom Kippur for Kids",
+      "source": "Twinkl",
+      "url": "https://www.youtube.com/watch?v=Gnflctohdnk",
+      "note": "Kid-friendly explainer of the holiday and its customs"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Yom Kippur: A Book of Jonah Song for Kids",
+      "source": "BimBam",
+      "url": "https://www.youtube.com/watch?v=LsAcI4dXK48",
+      "note": "Animated song · the story of Jonah, which is read on this holiday"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "What Does It Mean to Be Jewish? (Crash Course Religions #8)",
+      "source": "Crash Course Religions",
+      "url": "https://www.youtube.com/watch?v=g9b48p9NaYc",
+      "note": "Bigger picture · an overview of Judaism"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Yom Kippur",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Yom-Kippur/353948",
+      "note": "Quick encyclopedia read for students"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Yom_Kippur",
+  "qb": {
+    "q": "Yom Kippur",
+    "found": 3,
+    "tip": "Only 3 Middle School/Easy High School tossups exist and all 3 mention Kol Nidre and the closing Ne’ila prayer; the Regular High School search also turns up the 1973 Yom Kippur War, a different answer line, so skip it."
+  },
+  "sample": {
+    "n": 13,
+    "note": "13 real QBReader tossups for this answer line (3 Middle School/Easy High School + 10 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Dodgers pitcher Sandy Koufax chose not to pitch the first game of the 1965 World Series because it fell on this holiday. On the day before this holiday, some people perform kapparot [“kah-pah-ROHT”] by swinging a chicken or a bag of coins over their heads, then giving it to the poor.",
+      "r": "For 10 points, name this holiest day of the Jewish year, a day of fasting and prayer that ends the High Holy Days."
+    },
+    {
+      "p": "In the 1927 film _The Jazz Singer_, often called the first “talkie,” Al Jolson’s character sings this holiday’s opening prayer at his synagogue in place of his father, a cantor who is too sick to sing. That prayer, Kol Nidre [“kohl NEE-dray”], means “All Vows” and is chanted mostly in Aramaic.",
+      "r": "For 10 points, name this Jewish holy day that comes about ten days after Rosh Hashanah and includes a 25-hour fast."
+    },
+    {
+      "p": "Some men wear a white robe called a kittel [“KIT-ul”] on this holiday, and many other worshippers dress in white as a sign of purity. As this holiday begins, Torah scrolls are taken out of the ark and held while the cantor chants Kol Nidre [“kohl NEE-dray”].",
+      "r": "For 10 points, name this Jewish day of fasting and repentance, the last of the High Holy Days."
+    },
+    {
+      "p": "On this day only, the High Priest entered the Holy of Holies, the innermost room of the Temple in Jerusalem. He also spoke God’s four-letter name aloud, and the people who heard it bowed to the ground.",
+      "r": "Today this holiday ends with the Ne’ila [“neh-ee-LAH”] service. For 10 points, name this Jewish holy day that falls on the tenth of Tishrei [“TISH-ray”]."
+    },
+    {
+      "p": "Worshippers gently tap their chests while reciting the Ashamnu [“ah-SHAHM-noo”] and the Al Chet [“ahl KHET”], confession prayers that list sins in alphabetical order and say “we” instead of “I.” Those confessions are repeated throughout this holiday’s services.",
+      "r": "Its final Ne’ila [“neh-ee-LAH”] service ends with a long blast of the shofar. For 10 points, name this holiest day of the Jewish year."
+    },
+    {
+      "p": "In the kapparot [“kah-pah-ROHT”] custom on the day before this holiday, some people swing a chicken or a bag of coins over their heads and then donate it to the poor. This holiday begins at sundown with the Kol Nidre [“kohl NEE-dray”] declaration.",
+      "r": "For 10 points, name this Jewish holy day of fasting and prayer that ends the High Holy Days."
+    },
+    {
+      "p": "William Tyndale coined the English word “scapegoat” while translating a passage of Leviticus about this holiday, when lots were drawn over two goats. One goat was offered as a sacrifice, and the other was sent into the wilderness for Azazel [“uh-ZAY-zul”], symbolically carrying away the people’s sins.",
+      "r": "For 10 points, name this holiest day of the Jewish year, when the Book of Jonah is read."
+    },
+    {
+      "p": "Leviticus calls this holiday a “Sabbath of Sabbaths,” and it is the only Jewish fast day that is kept even when it falls on the Sabbath. Its services end with Ne’ila [“neh-ee-LAH”], a closing prayer said as the gates of heaven are imagined closing.",
+      "r": "For 10 points, name this Jewish holiday of fasting, prayer, and atonement that follows Rosh Hashanah."
+    },
+    {
+      "p": "Jewish tradition says that on this date, Moses came down from Mount Sinai with the second set of tablets, a sign that the people had been forgiven for worshipping the golden calf. Tradition also says the Book of Life is sealed on this day.",
+      "r": "For 10 points, name this Jewish holy day that ends the Ten Days of Repentance, which begin on Rosh Hashanah."
+    },
+    {
+      "p": "The words “Next year in Jerusalem,” which also end the Passover seder, are often said at the end of this holiday, along with a long blast of the shofar [“SHOH-far”]. They close its final service, Ne’ila [“neh-ee-LAH”], whose name means “locking,” as in the locking of heaven’s gates.",
+      "r": "For 10 points, name this Jewish fast day that comes about ten days after Rosh Hashanah, the Jewish New Year."
+    },
+    {
+      "p": "This holiday has five prayer services, more than any other day of the Jewish year, from an evening service that opens with Kol Nidre [“kohl NEE-dray”] to Ne’ila [“neh-ee-LAH”] at sunset the next day. In its afternoon service, worshippers read the entire Book of Jonah.",
+      "r": "For 10 points, name this Jewish day of fasting and repentance, which falls in September or October."
+    },
+    {
+      "p": "Golda Meir [“may-EER”] was Israel’s prime minister when Egypt and Syria launched a surprise attack on this holiday in October 1973, starting a war named for it. A goat ritual on this holiday, described in Leviticus, gave English the word “scapegoat.”",
+      "r": "For 10 points, name this holiest day of the Jewish year, which ends the High Holy Days."
+    },
+    {
+      "p": "People greet each other on this holiday with a wish for “a good final sealing,” because tradition says each person’s fate for the coming year is written in the Book of Life at the new year and sealed on this day.",
+      "r": "It ends the Ten Days of Repentance, or Days of Awe. For 10 points, name this Jewish fast day that falls on the tenth of Tishrei [“TISH-ray”]."
+    },
+    {
+      "p": "On the afternoon of this holiday, worshippers read an entire biblical book about a prophet who is swallowed by a great fish after trying to run away from God’s command. That prophet finally warns the city of Nineveh, whose people repent and are spared.",
+      "r": "That book is Jonah. For 10 points, name this Jewish fast day that begins with the Kol Nidre [“kohl NEE-dray”] prayer."
+    },
+    {
+      "p": "Many worshippers wear canvas sneakers on this holiday, because wearing leather shoes is one of five things that tradition forbids on this day. The other restrictions include eating and drinking, bathing, and putting on lotion or perfume.",
+      "r": "For 10 points, name this holiest day of the Jewish year, which ends the Ten Days of Repentance with a 25-hour fast."
+    }
+  ],
+  "clues": [
+    {
+      "id": "holiest-day",
+      "tier": "giveaway",
+      "t": "The holiest day of the Jewish year, spent in fasting and prayer",
+      "k": [
+        "holiest day",
+        "holiest",
+        "fasting and prayer"
+      ],
+      "n": 3
+    },
+    {
+      "id": "high-holy-days",
+      "tier": "giveaway",
+      "t": "The last of the High Holy Days, which begin with Rosh Hashanah, the Jewish New Year",
+      "k": [
+        "high holy days",
+        "rosh hashanah",
+        "new year"
+      ],
+      "n": 12,
+      "rabbit": "Rosh Hashanah"
+    },
+    {
+      "id": "fast",
+      "tier": "giveaway",
+      "t": "A fast of about 25 hours, with no food or drink from sundown until nightfall the next day",
+      "k": [
+        "25 hours",
+        "fast",
+        "sundown",
+        "no food"
+      ],
+      "n": 8
+    },
+    {
+      "id": "repentance",
+      "tier": "giveaway",
+      "t": "A day of repentance: people confess their sins and ask God for forgiveness",
+      "k": [
+        "repentance",
+        "forgiveness",
+        "confess",
+        "teshuvah"
+      ],
+      "n": 4
+    },
+    {
+      "id": "kol-nidre",
+      "tier": "middle",
+      "t": "Begins at sundown with Kol Nidre (“All Vows”), a declaration chanted mostly in Aramaic",
+      "k": [
+        "kol nidre",
+        "all vows",
+        "aramaic"
+      ],
+      "n": 12
+    },
+    {
+      "id": "neila",
+      "tier": "middle",
+      "t": "Ends with Ne’ila (“locking”), the final service, as the gates of heaven are imagined closing",
+      "k": [
+        "ne’ila",
+        "neila",
+        "neilah",
+        "gates"
+      ],
+      "n": 11
+    },
+    {
+      "id": "jonah",
+      "tier": "middle",
+      "t": "The Book of Jonah, about a prophet sent to warn Nineveh to repent, is read in the afternoon",
+      "k": [
+        "jonah",
+        "nineveh",
+        "afternoon"
+      ],
+      "n": 6,
+      "rabbit": "Book of Jonah"
+    },
+    {
+      "id": "tishrei",
+      "tier": "middle",
+      "t": "Falls on the 10th day of the month of Tishrei, in September or October",
+      "k": [
+        "tishrei",
+        "10th",
+        "tenth"
+      ],
+      "n": 6
+    },
+    {
+      "id": "days-of-awe",
+      "tier": "middle",
+      "t": "Ends the Ten Days of Repentance, also called the Days of Awe, which start on Rosh Hashanah",
+      "k": [
+        "ten days of repentance",
+        "days of awe",
+        "ten days"
+      ],
+      "n": 3
+    },
+    {
+      "id": "shofar",
+      "tier": "middle",
+      "t": "Ends with one long blast of the shofar, a ram’s horn trumpet",
+      "k": [
+        "shofar",
+        "rams horn",
+        "horn"
+      ],
+      "n": 3
+    },
+    {
+      "id": "book-of-life",
+      "tier": "middle",
+      "t": "Tradition: each person’s fate is written in the Book of Life on Rosh Hashanah and sealed on this day",
+      "k": [
+        "book of life",
+        "sealed",
+        "written"
+      ],
+      "n": 3
+    },
+    {
+      "id": "war-1973",
+      "tier": "middle",
+      "t": "A 1973 war that began with a surprise attack on Israel by Egypt and Syria is named for this day",
+      "k": [
+        "1973",
+        "october war",
+        "golda meir",
+        "sadat"
+      ],
+      "n": 0,
+      "rabbit": "Yom Kippur War"
+    },
+    {
+      "id": "kapparot",
+      "tier": "power",
+      "t": "Kapparot: on the day before, some people swing a chicken or a bag of coins over their heads, then give it to the poor",
+      "k": [
+        "kapparot",
+        "chicken",
+        "coins",
+        "swing"
+      ],
+      "n": 8
+    },
+    {
+      "id": "scapegoat",
+      "tier": "power",
+      "t": "Leviticus: lots were drawn over two goats; one was sacrificed and one was sent into the wilderness “for Azazel,” giving us the word “scapegoat”",
+      "k": [
+        "scapegoat",
+        "azazel",
+        "two goats",
+        "goat"
+      ],
+      "n": 8
+    },
+    {
+      "id": "confession",
+      "tier": "power",
+      "t": "Confession prayers in alphabetical order, the Ashamnu and the Al Chet (“for the sin…”), say “we,” not “I,” as people tap their chests",
+      "k": [
+        "al chet",
+        "ashamnu",
+        "acrostic",
+        "vidui"
+      ],
+      "n": 7
+    },
+    {
+      "id": "five-services",
+      "tier": "power",
+      "t": "Has five prayer services, more than any other day of the year; Ne’ila is the fifth",
+      "k": [
+        "five prayer services",
+        "five services",
+        "fifth"
+      ],
+      "n": 4
+    },
+    {
+      "id": "high-priest",
+      "tier": "power",
+      "t": "In Temple times, only on this day the High Priest entered the Holy of Holies and spoke God’s four-letter name aloud",
+      "k": [
+        "holy of holies",
+        "high priest",
+        "tetragrammaton",
+        "kohen gadol"
+      ],
+      "n": 3
+    },
+    {
+      "id": "five-restrictions",
+      "tier": "power",
+      "t": "Five traditional restrictions, including no eating or drinking, no bathing, no lotions, and no leather shoes",
+      "k": [
+        "leather shoes",
+        "five",
+        "bathing",
+        "restrictions"
+      ],
+      "n": 3
+    },
+    {
+      "id": "kittel",
+      "tier": "power",
+      "t": "Many dress in white for purity; some men wear a white robe called a kittel",
+      "k": [
+        "kittel",
+        "white",
+        "purity"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sabbath-of-sabbaths",
+      "tier": "power",
+      "t": "Leviticus calls it the “Sabbath of Sabbaths”; it is the only fast day kept even on the Sabbath",
+      "k": [
+        "sabbath of sabbaths",
+        "leviticus",
+        "sabbath"
+      ],
+      "n": 2
+    },
+    {
+      "id": "moses",
+      "tier": "power",
+      "t": "Tradition says Moses came down from Mount Sinai with the second set of tablets on this day",
+      "k": [
+        "moses",
+        "sinai",
+        "ten commandments"
+      ],
+      "n": 1,
+      "rabbit": "Moses"
+    },
+    {
+      "id": "next-year-jerusalem",
+      "tier": "power",
+      "t": "Often ends with “Next year in Jerusalem,” the same words that end the Passover seder",
+      "k": [
+        "next year in jerusalem",
+        "jerusalem",
+        "seder"
+      ],
+      "n": 1,
+      "rabbit": "Passover"
+    },
+    {
+      "id": "koufax",
+      "tier": "power",
+      "t": "Dodgers pitcher Sandy Koufax sat out Game 1 of the 1965 World Series because it fell on this day",
+      "k": [
+        "koufax",
+        "sandy",
+        "1965"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jazz-singer",
+      "tier": "power",
+      "t": "In _The Jazz Singer_ (1927), Al Jolson’s character sings Kol Nidre in place of his father, a cantor",
+      "k": [
+        "jazz singer",
+        "jolson",
+        "1927"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which High Holy Day?",
+    "body": "Rosh Hashanah and this holiday are the two High Holy Days, and they share clues: the shofar, the Book of Life, the month of Tishrei, and the Days of Awe that link them. Tradition says your fate is written on Rosh Hashanah and sealed on Yom Kippur, so buzzing early on a Book of Life or shofar clue is risky. One Regular High School result also asks for the 1973 Yom Kippur War, a different answer line.",
+    "fix": "Rosh Hashanah is the New Year: apples and honey, tashlich, and many shofar blasts. Yom Kippur comes about ten days later: the 25-hour fast, Kol Nidre, Ne’ila, the Book of Jonah, kapparot, and the scapegoat. If the question asks for a war, the answer is the Yom Kippur War, not the holiday.",
+    "line": "Real answer line: <b><u>Yom Kippur</u></b> (accept <u>Day of Atonement</u> before it is read)"
+  },
+  "freq": {
+    "rank": 25,
+    "count": 3,
+    "list": "Religion"
+  }
+}

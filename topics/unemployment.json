@@ -1,0 +1,388 @@
+{
+  "id": "unemployment",
+  "name": "Unemployment",
+  "mono": "U3",
+  "category": "Social Science",
+  "qbCategory": "Social Science",
+  "kicker": "People without jobs who want one · Tracked monthly, tied to the business cycle",
+  "dates": "U.S. rate reported monthly since 1948",
+  "briefing": "Not everyone without a paycheck counts the same way to economists: unemployment specifically means people who want a job and are actively looking for one but have not found it. The government reports a national rate every month, and economists sort the causes into types, like frictional (between jobs), structural (skills don’t match), and cyclical (tied to recessions). When the rate climbs, it is usually a sign the whole economy is slowing down.",
+  "answerHtml": "<b><u>Unemployment</u></b>",
+  "accept": [
+    "unemployment",
+    "unemployment rate",
+    "unemployed",
+    "being unemployed"
+  ],
+  "prompt": [
+    "jobless",
+    "joblessness"
+  ],
+  "reject": [
+    "employment",
+    "employment rate",
+    "labor force",
+    "labor force participation rate",
+    "full employment",
+    "underemployment",
+    "recession",
+    "inflation",
+    "gdp"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Unemployment- Macro Topic 2.3",
+      "source": "Jacob Clifford",
+      "url": "https://www.youtube.com/watch?v=9i6vf5Wz6nY",
+      "note": "Economics-teacher lesson: who counts as unemployed, how the rate works, and the main types"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Y1 21) Types and Causes of Unemployment (Cyclical, Structural, Frictional and more)",
+      "source": "EconplusDal",
+      "url": "https://www.youtube.com/watch?v=DWLv6JHa7YE",
+      "note": "Whiteboard lesson on the types: cyclical, structural, frictional, and more"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Unemployment (2021 Revision Update): Causes of Unemployment | A Level and IB Economics",
+      "source": "tutor2u",
+      "url": "https://www.youtube.com/watch?v=ENHyev3IqHs",
+      "note": "Older-student review of what causes unemployment"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Macroeconomics: Crash Course Economics #5",
+      "source": "Crash Course Economics",
+      "url": "https://www.youtube.com/watch?v=d8uTB5XorBw",
+      "note": "Bigger picture: GDP, unemployment, and inflation, the three big numbers economists watch"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Unemployment Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Unemployment",
+      "note": "Quick read: what counts as unemployment and how the rate is measured"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Unemployment",
+  "qb": {
+    "q": "unemployment",
+    "found": 8,
+    "tip": "One of the eight hits was actually a tossup on “labor” that only used this term as a clue inside it — skipped; the rest lean hard on Okun’s Law, the Beveridge Curve, and the frictional/structural/cyclical split."
+  },
+  "sample": {
+    "n": 7,
+    "note": "7 of the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked); the 8th actually wanted the related answer “labor”"
+  },
+  "tossups": [
+    {
+      "p": "The U.S. government calculates this monthly measurement through the Current Population Survey, conducted door to door and by phone by the Census Bureau. Okun’s Law estimates that a one-point rise in this figure tends to come with roughly a two-percent drop in the nation’s GDP.",
+      "r": "The Beveridge Curve plots it against the job vacancy rate, while the Phillips Curve plots it against inflation. For 10 points, name this rate describing the share of people who want work but cannot find it."
+    },
+    {
+      "p": "Economists split this phenomenon into three main types: “frictional,” the short gap between jobs; “structural,” caused by a mismatch between workers’ skills and available jobs; and “cyclical,” tied to the broader ups and downs of the economy. Adding the frictional and structural types together gives what Milton Friedman called the “natural rate” of this.",
+      "r": "It typically rises sharply during recessions and falls during recoveries. For 10 points, identify this measurement of people actively seeking work who have not found any."
+    },
+    {
+      "p": "People who have given up searching for work entirely are called “discouraged” and are left out of the official count for this measurement, even though they still lack jobs. When the Labor Force Participation Rate falls at the same time as this figure, economists often suspect that discouragement, not new jobs, is the real cause.",
+      "r": "Retirees and students are likewise excluded from the count. For 10 points, name this rate of people who are jobless and actively job-hunting."
+    },
+    {
+      "p": "Replacing human workers with robots and software is a textbook cause of the “structural” type of this phenomenon, since displaced workers often lack the new skills employers need. Keynesian economists also blame “sticky” wages, which fail to fall quickly in a downturn, for worsening this measurement’s “cyclical” type.",
+      "r": "A small fourth type, called “seasonal,” comes from jobs like holiday retail work ending on schedule. For 10 points, name this rate of people without jobs who are looking for one."
+    },
+    {
+      "p": "During the Great Recession, people who had exhausted 99 weeks of benefits and still had not found work earned the nickname “99ers,” a grim symbol of this measurement’s long-term side. A decade later, the 2021 “Great Resignation” did not push this figure up, since many departing workers moved straight to new jobs or retired instead of job-hunting.",
+      "r": "It is tracked monthly by the Current Population Survey. For 10 points, name this economic measurement of people without jobs who want one."
+    },
+    {
+      "p": "The Phillips Curve traditionally shows an inverse relationship between this measurement and inflation, so that pushing one down tends to push the other up. Economist Arthur Okun instead linked it directly to the nation’s output, noting that GDP tends to fall by about two percent for every one-point rise here.",
+      "r": "A government survey excludes retired people and full-time students from its count. For 10 points, name this rate describing joblessness among people actively seeking work."
+    },
+    {
+      "p": "Even in a healthy economy, some of this phenomenon persists as workers take time to search for a better fit, a “frictional” type captured on the Beveridge Curve alongside the job vacancy rate. A mismatch between the skills employers want and the skills workers have instead produces the “structural” version.",
+      "r": "This measurement tends to spike sharply whenever a recession hits. For 10 points, name this rate of joblessness among people who want work but cannot find it."
+    },
+    {
+      "p": "Milton Friedman helped popularize the idea of a “natural rate” for this phenomenon, the level that persists even when the economy is otherwise healthy, made up of its frictional and structural types. This rate rises when automation or outsourcing erases entire categories of jobs.",
+      "r": "It is distinct from “underemployment,” which counts people stuck in part-time or lower-skill jobs than they want. For 10 points, name this measurement of joblessness reported as a monthly percentage."
+    },
+    {
+      "p": "This measurement tends to climb during a recession and fall during an expansion, making it one of the clearest signs of where the business cycle stands. The Labor Force Participation Rate, which tracks how many people are working or looking for work at all, is reported alongside it each month.",
+      "r": "Its “cyclical” type disappears once the broader economy recovers. For 10 points, name this rate of people without jobs who are actively seeking one."
+    },
+    {
+      "p": "A rough rule of thumb known as Okun’s Law holds that each one-percentage-point increase in this figure accompanies about a two-percent loss in a country’s total economic output. The “structural” variety of it often follows waves of automation or offshoring that make older job skills obsolete.",
+      "r": "Economists do not count discouraged workers who have stopped searching. For 10 points, name this government-reported rate of joblessness."
+    },
+    {
+      "p": "The Beveridge Curve compares this rate to the number of open job postings, called the vacancy rate, across the economy. A short-term version called “frictional” simply reflects the ordinary time it takes someone to find a new position after leaving an old one.",
+      "r": "This rate rose sharply during the Great Recession of 2008 and 2009. For 10 points, name this measurement of the percentage of people without jobs who are looking for one."
+    },
+    {
+      "p": "Keynesian economists argue that wages which are “sticky downward,” meaning they resist falling even during a slump, help explain why this phenomenon’s cyclical type can linger after a recession technically ends. Its structural type, by contrast, can persist for years as entire industries shrink or relocate.",
+      "r": "Retirees, by definition, are not included when the government calculates this rate. For 10 points, name this measurement of joblessness among people actively job-hunting."
+    },
+    {
+      "p": "A nationwide survey conducted monthly by the Census Bureau asks adults whether they currently have a job and, if not, whether they are actively searching for one, in order to calculate this figure. The “natural rate” version of it combines the frictional and structural types and persists even in a booming economy.",
+      "r": "This rate and inflation are shown moving in opposite directions on the Phillips Curve. For 10 points, name this percentage of the labor force without jobs."
+    },
+    {
+      "p": "When both this measurement and the Labor Force Participation Rate fall in the same month, economists often suspect that discouraged workers have simply stopped looking rather than that the job market has truly improved. Replacing workers with machines is a leading cause of its longer-lasting “structural” form.",
+      "r": "It rises during recessions and falls during recoveries, tracking the business cycle closely. For 10 points, name this rate of people out of work who want a job."
+    },
+    {
+      "p": "Despite millions of workers quitting their jobs during the 2021 “Great Resignation,” this measurement did not rise, since many quitters moved straight to new jobs or retired instead of job-hunting. A smaller “seasonal” type rises and falls predictably, for instance when holiday retail jobs end each January.",
+      "r": "Economists sort most of it into frictional, structural, and cyclical types. For 10 points, name this rate describing people without jobs who are actively looking for one."
+    }
+  ],
+  "clues": [
+    {
+      "id": "actively-seeking",
+      "tier": "giveaway",
+      "t": "People without jobs who are actively looking for one but have not found work",
+      "k": [
+        "actively looking",
+        "without jobs"
+      ],
+      "n": 6
+    },
+    {
+      "id": "the-rate",
+      "tier": "giveaway",
+      "t": "Usually reported as a percentage called a rate, published by the government every month",
+      "k": [
+        "percentage",
+        "every month"
+      ],
+      "n": 5
+    },
+    {
+      "id": "not-retirees",
+      "tier": "giveaway",
+      "t": "Retired people and those who have stopped looking for work are not counted in this measurement",
+      "k": [
+        "retired",
+        "stopped looking"
+      ],
+      "n": 3
+    },
+    {
+      "id": "business-cycle",
+      "tier": "giveaway",
+      "t": "Climbs during recessions and falls during periods of economic growth, tracking the business cycle",
+      "k": [
+        "recessions",
+        "business cycle"
+      ],
+      "n": 3
+    },
+    {
+      "id": "three-types",
+      "tier": "giveaway",
+      "t": "Economists sort it into three main types: frictional, structural, and cyclical",
+      "k": [
+        "frictional",
+        "structural",
+        "cyclical"
+      ],
+      "n": 4
+    },
+    {
+      "id": "frictional",
+      "tier": "middle",
+      "t": "The “frictional” type is short-term, the normal time it takes someone to search for and start a new job",
+      "k": [
+        "frictional",
+        "search for"
+      ],
+      "n": 4
+    },
+    {
+      "id": "structural",
+      "tier": "middle",
+      "t": "The “structural” type happens when workers’ skills no longer match what employers need, often because of automation",
+      "k": [
+        "structural",
+        "automation"
+      ],
+      "n": 5
+    },
+    {
+      "id": "cyclical",
+      "tier": "middle",
+      "t": "The “cyclical” type rises and falls with the broader economy, spiking during recessions",
+      "k": [
+        "cyclical",
+        "recessions"
+      ],
+      "n": 2
+    },
+    {
+      "id": "okun",
+      "tier": "middle",
+      "t": "Okun’s Law estimates that a one-point rise in this measurement goes along with roughly a 2% drop in GDP",
+      "k": [
+        "okun",
+        "gdp"
+      ],
+      "n": 4
+    },
+    {
+      "id": "phillips",
+      "tier": "middle",
+      "t": "The Phillips Curve traditionally shows this measurement moving opposite to inflation",
+      "k": [
+        "phillips curve",
+        "opposite"
+      ],
+      "n": 3,
+      "rabbit": "Inflation"
+    },
+    {
+      "id": "beveridge",
+      "tier": "middle",
+      "t": "The Beveridge Curve plots this measurement against the job vacancy rate",
+      "k": [
+        "beveridge curve",
+        "vacancy rate"
+      ],
+      "n": 4
+    },
+    {
+      "id": "natural-rate",
+      "tier": "middle",
+      "t": "Frictional and structural types added together make up its “natural rate,” a concept Milton Friedman helped develop",
+      "k": [
+        "natural rate",
+        "milton friedman"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lfpr",
+      "tier": "middle",
+      "t": "Economists also watch the Labor Force Participation Rate; when both numbers fall together, it may signal discouraged workers",
+      "k": [
+        "labor force participation",
+        "discouraged"
+      ],
+      "n": 3
+    },
+    {
+      "id": "cps",
+      "tier": "power",
+      "t": "The U.S. government calculates this monthly through the Current Population Survey, conducted by the Census Bureau",
+      "k": [
+        "current population survey",
+        "census bureau"
+      ],
+      "n": 0
+    },
+    {
+      "id": "u3",
+      "tier": "power",
+      "t": "The most commonly cited version of this measurement is called the “U3” figure",
+      "k": [
+        "u3",
+        "commonly cited"
+      ],
+      "n": 1
+    },
+    {
+      "id": "great-resignation",
+      "tier": "power",
+      "t": "The 2021 “Great Resignation” did not push this measurement up, since many quitters moved straight to new jobs or retired instead of job-hunting",
+      "k": [
+        "great resignation",
+        "retired"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ninety-niners",
+      "tier": "power",
+      "t": "During the Great Recession, long-term sufferers who used up 99 weeks of benefits were nicknamed “99ers”",
+      "k": [
+        "99ers",
+        "great recession"
+      ],
+      "n": 1
+    },
+    {
+      "id": "discouraged",
+      "tier": "power",
+      "t": "People who want work but have given up searching are called “discouraged” and are left out of the headline count",
+      "k": [
+        "discouraged",
+        "given up"
+      ],
+      "n": 2
+    },
+    {
+      "id": "seasonal",
+      "tier": "power",
+      "t": "A fourth, smaller type is “seasonal,” caused by jobs like holiday retail work or farm harvesting ending on schedule",
+      "k": [
+        "seasonal",
+        "holiday retail"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sticky-wages",
+      "tier": "power",
+      "t": "Keynesian economists blame “sticky” wages that don’t fall fast enough in a downturn for making this worse during recessions",
+      "k": [
+        "sticky wages",
+        "keynesian"
+      ],
+      "n": 0
+    },
+    {
+      "id": "who-counts",
+      "tier": "power",
+      "t": "To count in the labor force at all, a person must be over a set working age and either working or job-hunting",
+      "k": [
+        "labor force",
+        "working age"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Sometimes the answer is “labor”",
+    "body": "Some real tossups use this concept only as a clue inside a tossup whose actual answer is “labor” or “the labor force” — one real set defines the rate as the share of people NOT doing a certain activity, and that activity, not this rate, is the intended answer. Also watch out for “recession,” a different concept describing the whole economy shrinking, which often appears right alongside this topic’s clues.",
+    "fix": "If the clue is explaining what the rate leaves out, or defining an activity like working for wages, it is probably building to “labor” or “employment,” not this. If the clue is about people actively looking for work who cannot find it, buzz with this answer.",
+    "line": "Real answer line: <b><u>Unemployment</u></b> [or <u>unemployment rate</u>]"
+  },
+  "tests": {
+    "right": [
+      "Unemployment",
+      "Unemploymnet",
+      "the unemployment rate",
+      "being unemployed"
+    ],
+    "prompt": [
+      "jobless"
+    ],
+    "wrong": [
+      "Employment",
+      "Inflation",
+      "Recession",
+      "the labor force participation rate"
+    ]
+  },
+  "freq": {
+    "rank": 4,
+    "count": 6,
+    "list": "Social Science"
+  }
+}

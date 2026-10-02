@@ -1,0 +1,503 @@
+{
+  "id": "prohibition",
+  "name": "Prohibition",
+  "mono": "PRO",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Nationwide U.S. ban on alcohol · The only amendment ever repealed",
+  "dates": "1920–1933",
+  "briefing": "From 1920 to 1933, it was against federal law to make, sell, or ship alcoholic drinks anywhere in the United States. Instead of drying out the country, the ban gave rise to secret bars called speakeasies, smugglers called bootleggers, and rich gangsters like Al Capone. In 1933 the 21st Amendment wiped out the 18th, the only time an amendment to the Constitution has ever been repealed.",
+  "answerHtml": "<b><u>Prohibition</u></b> (accept descriptions of banning alcohol before “alcohol” is read; prompt on <u>temperance</u> or the <u>Eighteenth Amendment</u>; do not accept “Volstead Act” or “Twenty-first Amendment”)",
+  "accept": [
+    "prohibition",
+    "prohibition era",
+    "the prohibition era",
+    "national prohibition",
+    "american prohibition",
+    "prohibition in the united states",
+    "going dry"
+  ],
+  "prompt": [
+    "temperance",
+    "temperance movement",
+    "temperance laws",
+    "eighteenth amendment",
+    "18th amendment",
+    "amendment 18",
+    "alcohol ban",
+    "ban on alcohol",
+    "banning alcohol",
+    "ban alcohol",
+    "alcohol banned",
+    "outlawing alcohol",
+    "noble experiment",
+    "liquor ban",
+    "ban on liquor"
+  ],
+  "reject": [
+    "volstead act",
+    "volstead",
+    "andrew volstead",
+    "national prohibition act",
+    "prohibition act",
+    "prohibition party",
+    "repeal of prohibition",
+    "repeal",
+    "21st amendment",
+    "twenty first amendment",
+    "21st",
+    "twenty first",
+    "13th amendment",
+    "14th amendment",
+    "15th amendment",
+    "16th amendment",
+    "17th amendment",
+    "19th amendment",
+    "20th amendment",
+    "nineteenth amendment",
+    "seventeenth amendment",
+    "sixteenth amendment",
+    "anti saloon league",
+    "womans christian temperance union",
+    "wctu",
+    "abolition"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Why This Woman Destroyed Bars...Using a Hatchet",
+      "source": "Smithsonian Channel",
+      "url": "https://www.youtube.com/watch?v=JTcAbq6o6Fw",
+      "note": "Short clip · Carrie Nation and her hatchet crusade"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "PBS Previews: Prohibition, from Ken Burns and Lynn Novick",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=s3yMHwbw4yA",
+      "note": "Short preview · the big story of the documentary series"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What happened when the United States banned alcohol",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=y4BDnlUQ3CA",
+      "note": "Animated lesson · what happened when the U.S. banned alcohol"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The legacy of Prohibition, 100 years later",
+      "source": "CBS Mornings",
+      "url": "https://www.youtube.com/watch?v=1PpzKldiB7Y",
+      "note": "News feature · how the ban still shapes America"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The Roaring 20’s (#32)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=VfOR1XCMf7A",
+      "note": "The bigger story of the 1920s, including the ban"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Prohibition",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/us_1900s/prohibition.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States",
+  "qb": {
+    "q": "Prohibition",
+    "found": 6,
+    "tip": "All six are about the American alcohol ban, and every single one mentions the Volstead Act and the 21st Amendment. Also notice that some lines accept “temperance” while one only prompts it."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Wayne Wheeler, the chief lawyer of a powerful lobbying group, is credited with drafting the law that enforced this policy. Congress passed that law in 1919 over President Woodrow Wilson’s veto, and it was named for Minnesota congressman Andrew Volstead.",
+      "r": "Secret bars called speakeasies sprang up to get around this policy. For 10 points, name this nationwide ban on alcohol created by the 18th Amendment."
+    },
+    {
+      "p": "In 1851, Portland mayor Neal Dow got Maine to pass the first statewide version of this policy. Decades later, First Lady Lucy Hayes was nicknamed “Lemonade Lucy” for her support of this cause.",
+      "r": "Carrie Nation smashed saloons with a hatchet for this cause. For 10 points, name this nationwide ban on alcohol that lasted from 1920 to 1933."
+    },
+    {
+      "p": "A woman who said a heavenly vision told her to go to Kiowa, Kansas, smashed up that town’s illegal saloons in 1900 to promote this cause. She later became famous for attacking bars with a hatchet.",
+      "r": "That woman, Carrie Nation, belonged to the Woman’s Christian Temperance Union. For 10 points, name this nationwide ban on alcohol that the 18th Amendment created."
+    },
+    {
+      "p": "In March 1933, Franklin Roosevelt signed the Cullen-Harrison Act, which weakened this policy, and reportedly said “I think this would be a good time for a beer.” Later that year, Utah became the 36th state to approve an amendment that ended this policy.",
+      "r": "That amendment was the 21st. For 10 points, name this nationwide ban on alcohol that began in 1920."
+    },
+    {
+      "p": "Herbert Hoover called this policy “a great social and economic experiment, noble in motive.” In 1929, Hoover chose George Wickersham to lead a commission that later reported that this policy was being widely ignored.",
+      "r": "Bootleggers and speakeasies thrived during this era. For 10 points, name this period from 1920 to 1933 when alcohol was banned in the United States."
+    },
+    {
+      "p": "Federal agent Eliot Ness led a squad nicknamed the “Untouchables” because its members refused bribes from gangsters who broke this policy. Chicago gang boss Al Capone made a fortune by breaking this policy, but he was convicted of tax evasion in 1931.",
+      "r": "Capone’s gang supplied illegal bars called speakeasies. For 10 points, name this era when the Volstead Act enforced a nationwide ban on alcohol."
+    },
+    {
+      "p": "In 1928, New York governor Al Smith ran for president as a “wet,” meaning he opposed this policy, but he lost in a landslide to Herbert Hoover. Supporters of this policy were known as “drys.”",
+      "r": "The Anti-Saloon League was the most powerful group of “drys.” For 10 points, name this nationwide ban on alcohol that lasted from 1920 to 1933."
+    },
+    {
+      "p": "The amendment that ended this policy is the only one ever approved by special state conventions instead of by state legislatures. That amendment is also the only one that cancels an earlier amendment.",
+      "r": "That amendment was ratified in December 1933. For 10 points, name this nationwide ban on alcohol that the 21st Amendment repealed."
+    },
+    {
+      "p": "Frances Willard’s “Do Everything” approach led her organization to fight for women’s right to vote as well as for this policy. That organization, founded in 1874, counted a hatchet-swinging Kansas woman named Carrie Nation among its members.",
+      "r": "That group was the Woman’s Christian Temperance Union. For 10 points, name this ban on alcohol that the 18th Amendment brought to the whole country in 1920."
+    },
+    {
+      "p": "Ernest Cherrington and Wayne Wheeler were leaders of a group, founded in Ohio in 1893, that backed any candidate from either party who supported this policy. That group’s lobbying helped get Congress to pass an amendment creating this policy in 1917.",
+      "r": "That group was the Anti-Saloon League. For 10 points, name this nationwide ban on alcohol created by the 18th Amendment."
+    },
+    {
+      "p": "Mississippi was the last state to end its own statewide version of this policy, in 1966, more than 30 years after the national version ended. The national version began in January 1920, one year after the amendment creating it was ratified.",
+      "r": "Smugglers called bootleggers broke this policy. For 10 points, name this ban on alcohol that was repealed by the 21st Amendment."
+    },
+    {
+      "p": "During this era, smugglers’ ships waited on “Rum Row,” just outside U.S. waters, while speedboats raced their cargo past the Coast Guard to shore. Other smugglers drove their cargo south across the border from Canada.",
+      "r": "Those smugglers were called rumrunners or bootleggers. For 10 points, name this period when the 18th Amendment banned alcohol in the United States."
+    },
+    {
+      "p": "In F. Scott Fitzgerald’s _The Great Gatsby_, Tom Buchanan reveals that the title character secretly made his fortune by breaking this policy. That novel is set in 1922, during this policy’s early years.",
+      "r": "Gatsby was a bootlegger. For 10 points, name this nationwide ban on alcohol that lasted from 1920 to 1933."
+    },
+    {
+      "p": "The 16th Amendment’s income tax helped make this policy possible, because the federal government no longer depended on the taxes it would lose under this policy. Congress sent the amendment creating this policy to the states in December 1917.",
+      "r": "This policy was enforced by the Volstead Act. For 10 points, name this nationwide ban on alcohol created by the 18th Amendment."
+    },
+    {
+      "p": "The word “scofflaw” won a 1924 contest to name people who ignored this policy. Ken Burns and Lynn Novick’s 2011 documentary about this policy includes an episode titled “A Nation of Scofflaws.”",
+      "r": "The Volstead Act enforced this policy. For 10 points, name this nationwide ban on alcohol that lasted from 1920 to 1933."
+    }
+  ],
+  "clues": [
+    {
+      "id": "alcohol-ban",
+      "tier": "giveaway",
+      "t": "A nationwide U.S. ban on making, selling, and shipping alcoholic drinks (1920–1933)",
+      "k": [
+        "alcoholic drinks",
+        "nationwide",
+        "1920",
+        "1933"
+      ],
+      "n": 6
+    },
+    {
+      "id": "eighteenth",
+      "tier": "giveaway",
+      "t": "Created by the 18th Amendment (ratified 1919, in effect January 1920)",
+      "k": [
+        "18th amendment",
+        "eighteenth",
+        "18th"
+      ],
+      "n": 4
+    },
+    {
+      "id": "twenty-first",
+      "tier": "giveaway",
+      "t": "Repealed by the 21st Amendment in 1933, the only amendment that cancels another amendment",
+      "k": [
+        "21st amendment",
+        "twenty-first",
+        "repealed",
+        "1933"
+      ],
+      "n": 6
+    },
+    {
+      "id": "volstead-act",
+      "tier": "middle",
+      "t": "Enforced by the Volstead Act (1919), named for Minnesota congressman Andrew Volstead and passed over Woodrow Wilson’s veto",
+      "k": [
+        "volstead act",
+        "volstead",
+        "minnesota",
+        "veto"
+      ],
+      "n": 6,
+      "rabbit": "Volstead Act"
+    },
+    {
+      "id": "speakeasies",
+      "tier": "middle",
+      "t": "Secret illegal bars called speakeasies, supplied by smugglers called bootleggers",
+      "k": [
+        "speakeasies",
+        "speakeasy",
+        "bootleggers",
+        "bootlegger"
+      ],
+      "n": 3
+    },
+    {
+      "id": "anti-saloon-league",
+      "tier": "middle",
+      "t": "The Anti-Saloon League (founded 1893 in Ohio) was the most powerful lobbying group pushing for the ban",
+      "k": [
+        "anti-saloon league",
+        "saloon",
+        "lobbying"
+      ],
+      "n": 3,
+      "rabbit": "Anti-Saloon League"
+    },
+    {
+      "id": "carrie-nation",
+      "tier": "middle",
+      "t": "Carrie Nation smashed saloons with a hatchet",
+      "k": [
+        "carrie nation",
+        "hatchet",
+        "saloons"
+      ],
+      "n": 3,
+      "rabbit": "Carrie Nation"
+    },
+    {
+      "id": "drys-wets",
+      "tier": "middle",
+      "t": "Supporters of the ban were called “drys”; opponents were called “wets”",
+      "k": [
+        "drys",
+        "wets"
+      ],
+      "n": 1
+    },
+    {
+      "id": "capone-ness",
+      "tier": "middle",
+      "t": "Chicago gangster Al Capone got rich bootlegging; Eliot Ness’s “Untouchables” chased him, and he was convicted of tax evasion (1931)",
+      "k": [
+        "capone",
+        "al capone",
+        "eliot ness",
+        "untouchables",
+        "tax evasion"
+      ],
+      "n": 1,
+      "rabbit": "Al Capone"
+    },
+    {
+      "id": "wctu",
+      "tier": "middle",
+      "t": "The Woman’s Christian Temperance Union (WCTU, founded 1874), led by Frances Willard, fought for the ban and for women’s suffrage",
+      "k": [
+        "wctu",
+        "frances willard",
+        "willard",
+        "christian"
+      ],
+      "n": 0,
+      "rabbit": "Frances Willard"
+    },
+    {
+      "id": "fdr-repeal",
+      "tier": "middle",
+      "t": "Franklin Roosevelt’s Democrats promised repeal in 1932, and the ban ended in December 1933",
+      "k": [
+        "roosevelt",
+        "democrats",
+        "1932"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wheeler",
+      "tier": "power",
+      "t": "Wayne Wheeler (with Ernest Cherrington) led the Anti-Saloon League; Wheeler is credited with drafting the Volstead Act",
+      "k": [
+        "wayne wheeler",
+        "wheeler",
+        "cherrington"
+      ],
+      "n": 3
+    },
+    {
+      "id": "lemonade-lucy",
+      "tier": "power",
+      "t": "First Lady Lucy Hayes was nicknamed “Lemonade Lucy” for supporting the cause",
+      "k": [
+        "lemonade lucy",
+        "lemonade",
+        "lucy hayes",
+        "hayes"
+      ],
+      "n": 2
+    },
+    {
+      "id": "kiowa",
+      "tier": "power",
+      "t": "Carrie Nation said a vision sent her to Kiowa, Kansas, where she first smashed saloons (1900)",
+      "k": [
+        "kiowa",
+        "kansas",
+        "vision"
+      ],
+      "n": 1
+    },
+    {
+      "id": "neal-dow",
+      "tier": "power",
+      "t": "Portland mayor Neal Dow pushed through the Maine Law (1851), the first statewide ban",
+      "k": [
+        "neal dow",
+        "maine law",
+        "portland",
+        "1851"
+      ],
+      "n": 1
+    },
+    {
+      "id": "noble-experiment",
+      "tier": "power",
+      "t": "Herbert Hoover called it an experiment “noble in motive” (the “Noble Experiment”); his Wickersham Commission found it widely ignored",
+      "k": [
+        "noble experiment",
+        "noble",
+        "hoover",
+        "wickersham"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cullen-harrison",
+      "tier": "power",
+      "t": "The Cullen-Harrison Act (March 1933) let beer be sold again; FDR reportedly said it was “a good time for a beer”",
+      "k": [
+        "cullen-harrison",
+        "cullen",
+        "good time for a beer"
+      ],
+      "n": 1
+    },
+    {
+      "id": "al-smith",
+      "tier": "power",
+      "t": "1928: New York governor Al Smith ran for president as a “wet” and lost to Herbert Hoover",
+      "k": [
+        "al smith",
+        "smith",
+        "1928"
+      ],
+      "n": 0
+    },
+    {
+      "id": "conventions",
+      "tier": "power",
+      "t": "The 21st Amendment is the only one ratified by state conventions; Utah was the 36th state to approve it (December 1933)",
+      "k": [
+        "conventions",
+        "utah",
+        "36th"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mississippi",
+      "tier": "power",
+      "t": "Mississippi was the last state to end its own statewide ban, in 1966",
+      "k": [
+        "mississippi",
+        "1966"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rum-row",
+      "tier": "power",
+      "t": "Smugglers’ ships waited on “Rum Row” just outside U.S. waters; the Coast Guard chased the rumrunners",
+      "k": [
+        "rum row",
+        "rumrunners",
+        "coast guard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gatsby",
+      "tier": "power",
+      "t": "Jay Gatsby in F. Scott Fitzgerald’s _The Great Gatsby_ (set in 1922) got rich as a bootlegger",
+      "k": [
+        "gatsby",
+        "great gatsby",
+        "fitzgerald"
+      ],
+      "n": 0,
+      "rabbit": "The Great Gatsby"
+    },
+    {
+      "id": "income-tax",
+      "tier": "power",
+      "t": "The 16th Amendment’s income tax (1913) replaced the federal money that liquor taxes used to bring in",
+      "k": [
+        "income tax",
+        "16th amendment",
+        "liquor taxes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scofflaw",
+      "tier": "power",
+      "t": "The word “scofflaw” won a 1924 contest to name people who ignored the ban",
+      "k": [
+        "scofflaw",
+        "scofflaws"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Ban, law, or amendment?",
+    "body": "Prohibition comes packaged with lots of other answer lines. The temperance movement (the WCTU, Carrie Nation) pushed for the ban for decades; the 18th Amendment created it; the Volstead Act enforced it; the 21st Amendment ended it. Some real answer lines accept “temperance” but others only prompt it, and none of them accept “Volstead Act” or “21st Amendment.”",
+    "fix": "When the question says “this policy,” “this period,” or “this ban,” say “Prohibition.” Only say a law or amendment when the question asks for “this law,” “this act,” or “this amendment,” and remember: 18th started it, 21st ended it.",
+    "line": "Real answer lines: <b><u>Prohibition</u></b> [or <u>temperance</u>; or support for the <u>Eighteenth Amendment</u> before mentioned; or anything equivalent about banning alcohol] and <b><u>Prohibition</u></b> (prompt on “temperance”; prompt on descriptions of “banning alcohol” before mentioned)"
+  },
+  "tests": {
+    "right": [
+      "Prohibition",
+      "prohibiton",
+      "the Prohibition era",
+      "National Prohibition",
+      "going dry"
+    ],
+    "prompt": [
+      "temperance",
+      "the temperance movement",
+      "18th Amendment",
+      "Eighteenth Amendment",
+      "alcohol ban"
+    ],
+    "wrong": [
+      "Volstead Act",
+      "21st Amendment",
+      "Twenty-first Amendment",
+      "repeal of Prohibition",
+      "National Prohibition Act",
+      "19th Amendment",
+      "Anti-Saloon League",
+      "abolition"
+    ]
+  },
+  "freq": {
+    "rank": 5,
+    "count": 7,
+    "list": "American History"
+  }
+}

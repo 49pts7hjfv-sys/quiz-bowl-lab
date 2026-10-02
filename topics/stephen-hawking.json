@@ -1,0 +1,372 @@
+{
+  "id": "stephen-hawking",
+  "name": "Stephen Hawking",
+  "mono": "SWH",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "British theoretical physicist · Black holes and A Brief History of Time",
+  "dates": "1942–2018",
+  "briefing": "Stephen Hawking spent most of his career exploring black holes and the origin of the universe from a wheelchair, after a motor neuron disease gradually took away his ability to walk and, eventually, to speak without help. He proposed that black holes slowly leak radiation and could eventually evaporate entirely, and his 1988 book _A Brief History of Time_ turned complex cosmology into a surprise bestseller that sold millions of copies.",
+  "answerHtml": "<b><u>Stephen Hawking</u></b>",
+  "accept": [
+    "stephen hawking",
+    "hawking"
+  ],
+  "prompt": [
+    "stephen"
+  ],
+  "reject": [
+    "black holes",
+    "roger penrose",
+    "penrose"
+  ],
+  "tests": {
+    "right": [
+      "Stephen Hawking",
+      "Hawking",
+      "Stephen Hawkin",
+      "Steven Hawking"
+    ],
+    "prompt": [
+      "Stephen"
+    ],
+    "wrong": [
+      "Black Holes",
+      "Roger Penrose",
+      "Albert Einstein",
+      "Isaac Newton"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Stephen Hawking: Theoretical Physicist & Cosmologist | Mini Bio",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=lr6XbwSOBxM",
+      "note": "Mini Bio · a quick overview of his whole life"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "A brief history of Stephen Hawking’s achievements",
+      "source": "CBS Evening News",
+      "url": "https://www.youtube.com/watch?v=kcW-YG9Nu4E",
+      "note": "News report · a rundown of his biggest discoveries"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Hawking ‘transformed our view of the universe’",
+      "source": "BBC News",
+      "url": "https://www.youtube.com/watch?v=C9vVz7j-zV4",
+      "note": "News report · how his work changed our picture of the universe"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Stephen Hawking: Biography",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/scientists/stephen_hawking.php",
+      "note": "Quick read: ALS, black holes, Hawking radiation, and A Brief History of Time"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+  "qb": {
+    "q": "Stephen Hawking",
+    "found": 2,
+    "tip": "Only 2 Middle School/Easy High School tossups exist for this answer line, so 2 Regular High School tossups were blended in; all 4 agree closely on _A Brief History of Time_, his ALS diagnosis, and his namesake black-hole radiation."
+  },
+  "sample": {
+    "n": 4,
+    "note": "4 real QBReader tossups (2 Middle School/Easy High School + 2 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This man lost a bet with physicist Kip Thorne over whether Cygnus X-1 [“SIG-nus”] contains a black hole, paying off with a subscription to a magazine. He later lost a separate bet with John Preskill about the black hole information paradox, settling that one with a baseball encyclopedia.",
+      "r": "This physicist proposed that black holes slowly leak a namesake form of radiation and could eventually evaporate completely. For 10 points, name this British cosmologist who wrote _A Brief History of Time_."
+    },
+    {
+      "p": "This man’s 1966 doctoral thesis at Cambridge helped establish that the universe must have begun from a singularity, building on earlier work he later extended with Roger Penrose into a joint theorem. He also proposed a “no-boundary” model of the universe’s origin together with physicist Jim Hartle.",
+      "r": "In 2009, he hosted a party for time travelers but mailed out the invitations only afterward, so that only a true time traveler could attend. For 10 points, name this physicist who used a wheelchair and a computer-generated voice."
+    },
+    {
+      "p": "This man earned a first-class degree in physics from Oxford before moving to Cambridge for graduate study, where he later held the Lucasian Professor of Mathematics chair starting in 1979, a position once held by Isaac Newton. His namesake radiation raises an “information paradox” about whether information swallowed by a black hole is truly lost forever.",
+      "r": "Diagnosed with motor neuron disease at just 21 years old, this man was given only a couple of years to live but survived for over five more decades. For 10 points, name this physicist, the author of _A Brief History of Time_."
+    },
+    {
+      "p": "After a tracheotomy, this man selected words using small cheek muscle movements detected by a sensor on his glasses, composing sentences at a slow but steady rate. He received the Presidential Medal of Freedom from Barack Obama in 2009.",
+      "r": "This physicist also wrote popular science books for young readers, including _George’s Secret Key to the Universe_. For 10 points, name this wheelchair-using cosmologist known for his work on black holes."
+    },
+    {
+      "p": "This man appeared as himself in episodes of _The Simpsons_ and _Star Trek: The Next Generation_. He proposed, with Jim Hartle, a “no-boundary” model suggesting the universe has no distinct starting edge in time.",
+      "r": "This physicist died in March 2018 at age 76, decades after being diagnosed with a motor neuron disease often called Lou Gehrig’s disease. For 10 points, name this British scientist known for his work on black holes and _A Brief History of Time_."
+    },
+    {
+      "p": "This man’s bet with Kip Thorne concerned whether Cygnus X-1 truly contains a black hole, and he separately bet John Preskill a baseball encyclopedia over the black hole information paradox. Along with Roger Penrose, he helped prove a theorem about the universe beginning from a singularity.",
+      "r": "This physicist communicated through a voice synthesizer after losing the ability to speak. For 10 points, name this cosmologist and author of _A Brief History of Time_."
+    },
+    {
+      "p": "This man’s 1966 Cambridge doctoral thesis argued that the universe began as a singularity, a conclusion he and Roger Penrose later extended into a joint theorem about black holes and the Big Bang. This man also proposed a “no-boundary” model of the universe with Jim Hartle.",
+      "r": "This physicist held the Lucasian Professor of Mathematics chair at Cambridge, a position once held by Isaac Newton. For 10 points, name this scientist, famous for his theories about black holes."
+    },
+    {
+      "p": "This man is credited with a namesake form of radiation that causes black holes to slowly evaporate, which raises the black hole information paradox explored in his bet with John Preskill. He also lost an earlier bet with Kip Thorne about Cygnus X-1.",
+      "r": "This man used a wheelchair and a computer voice synthesizer after losing mobility and speech to a motor neuron disease. For 10 points, name this cosmologist who wrote _A Brief History of Time_."
+    },
+    {
+      "p": "This man earned his undergraduate degree at Oxford before completing a doctoral thesis at Cambridge in 1966 on the universe’s origin as a singularity. He received the Presidential Medal of Freedom from Barack Obama in 2009.",
+      "r": "This physicist hosted a 2009 party for time travelers, sending invitations out only after the fact. For 10 points, name this British scientist and author of _A Brief History of Time_."
+    },
+    {
+      "p": "This man appeared as himself on _The Simpsons_ and _Star Trek: The Next Generation_, and he wrote children’s science books including _George’s Secret Key to the Universe_. His namesake black hole radiation raises a paradox about whether swallowed information is ever truly lost.",
+      "r": "Diagnosed with a motor neuron disease at only 21, this physicist was expected to live just a couple more years but survived for decades. For 10 points, name this cosmologist known for his work on black holes."
+    },
+    {
+      "p": "With Roger Penrose, this man proved a theorem showing the universe must have started from a singularity, building on his own 1966 doctoral thesis at Cambridge. He also devised a “no-boundary” proposal about the universe’s origin together with Jim Hartle.",
+      "r": "This man used a wheelchair and, after a tracheotomy, communicated by twitching cheek muscles detected by a sensor on his glasses. For 10 points, name this theoretical physicist, author of _A Brief History of Time_."
+    },
+    {
+      "p": "This man held Cambridge’s Lucasian Professor of Mathematics chair, once held by Isaac Newton, starting in 1979. He lost a bet with Kip Thorne over whether Cygnus X-1 harbors a black hole, and a separate bet with John Preskill over a paradox involving swallowed information.",
+      "r": "This physicist died in March 2018, decades after doctors diagnosed him with ALS and gave him only a short time to live. For 10 points, name this cosmologist and bestselling author."
+    },
+    {
+      "p": "This man proposed that black holes slowly radiate away energy and eventually evaporate entirely, a process at the heart of the information paradox he debated with John Preskill. He earned a first-class degree at Oxford before his graduate work at Cambridge.",
+      "r": "In 2009, this physicist threw a party for time travelers, mailing invitations only once the party was already over. For 10 points, name this British scientist who used a wheelchair and a voice synthesizer."
+    },
+    {
+      "p": "This man and Jim Hartle proposed a “no-boundary” model in which the universe has no sharp starting edge in time. This man’s 1966 doctoral thesis and later work with Roger Penrose both argued the universe must have begun as a singularity.",
+      "r": "This physicist appeared as himself in _The Simpsons_ and received the Presidential Medal of Freedom from Barack Obama. For 10 points, name this cosmologist famous for his work on black holes and his book _A Brief History of Time_."
+    },
+    {
+      "p": "This man made bets with Kip Thorne about Cygnus X-1 and with John Preskill about a paradox raised by his namesake black hole radiation, settling the latter with a baseball encyclopedia. He also wrote science books for children, including _George’s Secret Key to the Universe_.",
+      "r": "Diagnosed with motor neuron disease in his twenties and given little time to live, this physicist instead lived for decades, using a wheelchair and a computer voice synthesizer. For 10 points, name this cosmologist and author of _A Brief History of Time_."
+    }
+  ],
+  "clues": [
+    {
+      "id": "als-diagnosis",
+      "tier": "giveaway",
+      "t": "Lived with ALS (motor neuron disease, also called Lou Gehrig’s disease), which gradually took away his ability to walk and eventually to speak unaided",
+      "k": [
+        "motor neuron disease",
+        "als"
+      ],
+      "n": 3
+    },
+    {
+      "id": "wheelchair-voice",
+      "tier": "giveaway",
+      "t": "Used a wheelchair and communicated through a computer-controlled voice synthesizer",
+      "k": [
+        "wheelchair",
+        "voice synthesizer"
+      ],
+      "n": 2
+    },
+    {
+      "id": "brief-history",
+      "tier": "giveaway",
+      "t": "Wrote the bestselling popular-science book _A Brief History of Time_",
+      "k": [
+        "brief history of time",
+        "bestselling"
+      ],
+      "n": 3
+    },
+    {
+      "id": "died-2018",
+      "tier": "giveaway",
+      "t": "Died in March 2018 at age 76",
+      "k": [
+        "died",
+        "march 2018"
+      ],
+      "n": 2
+    },
+    {
+      "id": "radiation-blackholes",
+      "tier": "middle",
+      "t": "Theorized that black holes slowly leak a form of radiation and could eventually evaporate completely, a namesake idea bearing his name",
+      "k": [
+        "black holes",
+        "evaporate",
+        "radiation"
+      ],
+      "n": 3
+    },
+    {
+      "id": "time-travel-party",
+      "tier": "middle",
+      "t": "Hosted a party for time travelers in 2009, mailing out invitations only after the date had passed",
+      "k": [
+        "time travelers",
+        "2009",
+        "invitations"
+      ],
+      "n": 2
+    },
+    {
+      "id": "penrose-singularity",
+      "tier": "middle",
+      "t": "Co-developed a theorem with Roger Penrose showing the universe must have begun from a singularity",
+      "k": [
+        "roger penrose",
+        "singularity",
+        "theorem"
+      ],
+      "n": 2,
+      "rabbit": "Gravity"
+    },
+    {
+      "id": "hartle-no-boundary",
+      "tier": "middle",
+      "t": "Proposed a “no-boundary” model of the universe’s origin together with physicist Jim Hartle",
+      "k": [
+        "no-boundary",
+        "jim hartle"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nationality",
+      "tier": "middle",
+      "t": "A British theoretical physicist and cosmologist who worked at the University of Cambridge",
+      "k": [
+        "british",
+        "cambridge",
+        "cosmologist"
+      ],
+      "n": 2
+    },
+    {
+      "id": "popular-books",
+      "tier": "middle",
+      "t": "Wrote further popular science books for young readers, including _George’s Secret Key to the Universe_",
+      "k": [
+        "popular science",
+        "young readers"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kip-thorne-bet",
+      "tier": "power",
+      "t": "Lost a bet with physicist Kip Thorne over whether Cygnus X-1 contains a black hole, paying off with a magazine subscription",
+      "k": [
+        "kip thorne",
+        "cygnus x-1"
+      ],
+      "n": 1
+    },
+    {
+      "id": "preskill-bet",
+      "tier": "power",
+      "t": "Separately lost a bet with John Preskill about the black hole information paradox, paying up with a baseball encyclopedia",
+      "k": [
+        "john preskill",
+        "baseball encyclopedia",
+        "information paradox"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lucasian-professor",
+      "tier": "power",
+      "t": "Held the Lucasian Professor of Mathematics chair at Cambridge starting in 1979, a position once held by Isaac Newton",
+      "k": [
+        "lucasian professor",
+        "1979",
+        "cambridge"
+      ],
+      "n": 1
+    },
+    {
+      "id": "information-paradox",
+      "tier": "power",
+      "t": "His namesake radiation raised the black hole information paradox, the question of whether information swallowed by a black hole is ultimately lost forever",
+      "k": [
+        "information paradox",
+        "swallowed",
+        "lost forever"
+      ],
+      "n": 1
+    },
+    {
+      "id": "als-diagnosed-young",
+      "tier": "power",
+      "t": "Diagnosed with motor neuron disease at just 21 years old and given only a couple of years to live, yet survived for over five more decades",
+      "k": [
+        "21 years old",
+        "motor neuron disease",
+        "decades"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doctoral-work",
+      "tier": "power",
+      "t": "His 1966 doctoral thesis at Cambridge helped show that the universe must have started as a singularity, building on work by Roger Penrose",
+      "k": [
+        "doctoral thesis",
+        "1966",
+        "singularity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oxford-degree",
+      "tier": "power",
+      "t": "Earned a first-class degree in physics from Oxford before moving to Cambridge for graduate studies",
+      "k": [
+        "oxford",
+        "first-class degree",
+        "cambridge"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cameos",
+      "tier": "power",
+      "t": "Appeared as himself in episodes of _The Simpsons_ and _Star Trek: The Next Generation_",
+      "k": [
+        "the simpsons",
+        "star trek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "medal-freedom",
+      "tier": "power",
+      "t": "Received the Presidential Medal of Freedom from Barack Obama in 2009",
+      "k": [
+        "presidential medal of freedom",
+        "obama",
+        "2009"
+      ],
+      "n": 0
+    },
+    {
+      "id": "communication-rate",
+      "tier": "power",
+      "t": "After his tracheotomy, he selected words using small cheek muscle movements detected by a sensor on his glasses, composing speech at a slow but steady rate",
+      "k": [
+        "tracheotomy",
+        "cheek muscle",
+        "sensor"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Hawking, Penrose, or black holes?",
+    "body": "Many clues about this physicist mention black holes, singularities, and Roger Penrose, because the two worked together and because his most famous theoretical work was about black holes — but “black holes” and “Roger Penrose” are each their own, separate answers. A tossup built entirely around the Penrose-Hawking singularity theorems could in theory be hunting for either collaborator’s name.",
+    "fix": "Listen for a biographical giveaway unique to one man: a wheelchair, ALS, a voice synthesizer, or _A Brief History of Time_ point to this physicist specifically, not to Penrose or to black holes in general.",
+    "line": "Real answer line: <b><u>Stephen Hawking</u></b>"
+  },
+  "freq": {
+    "rank": 62,
+    "count": 2,
+    "list": "Physics"
+  }
+}

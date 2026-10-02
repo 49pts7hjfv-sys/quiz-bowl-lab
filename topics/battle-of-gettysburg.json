@@ -1,0 +1,442 @@
+{
+  "id": "battle-of-gettysburg",
+  "name": "Battle of Gettysburg",
+  "mono": "GB",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Civil War battle in Pennsylvania · The war’s turning point",
+  "dates": "Fought July 1–3, 1863",
+  "briefing": "For three days in July 1863, the Union and Confederate armies fought across the hills, ridges, and farm fields around Gettysburg, a small town in Pennsylvania. It was the bloodiest battle of the Civil War, and it ended Robert E. Lee’s invasion of the North when Pickett’s Charge failed. That November, Abraham Lincoln dedicated a cemetery there with his famous Gettysburg Address.",
+  "answerHtml": "Battle of <b><u>Gettysburg</u></b>",
+  "accept": [
+    "gettysburg",
+    "battle of gettysburg"
+  ],
+  "prompt": [],
+  "reject": [
+    "gettysburg address",
+    "vicksburg",
+    "siege of vicksburg",
+    "antietam",
+    "sharpsburg",
+    "bull run",
+    "manassas",
+    "pickett",
+    "fredericksburg",
+    "chancellorsville",
+    "petersburg"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "History In Brief: The Battle of Gettysburg",
+      "source": "Allen County Public Library",
+      "url": "https://www.youtube.com/watch?v=k2S10to07uk",
+      "note": "Short · a quick overview from a public library’s history series"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Hike Little Round Top at Gettysburg",
+      "source": "American Battlefield Trust",
+      "url": "https://www.youtube.com/watch?v=1vKGfyIM8x8",
+      "note": "Historians walk the hill the 20th Maine defended on day two"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Historians Walk Pickett’s Charge",
+      "source": "American Battlefield Trust",
+      "url": "https://www.youtube.com/watch?v=ZHR-U76OH4g",
+      "note": "On the real ground of the failed attack of July 3"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Gettysburg Animated Map: Minute-by-Minute Troop Movements",
+      "source": "American Battlefield Trust",
+      "url": "https://www.youtube.com/watch?v=4fSrvBMljL4",
+      "note": "Animated map of all three days; best after you know the basics"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The Civil War, Part I (#20)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=rY9zHNOjGrs",
+      "note": "The bigger picture: why the war happened and how it was fought"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "The Battle of Gettysburg",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/battle_of_gettysburg.php",
+      "note": "Quick read with a quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg",
+  "qb": {
+    "q": "Gettysburg",
+    "found": 11,
+    "tip": "Three of the eleven results want the Gettysburg Address, not the battle, and all eight battle tossups mention Pickett’s Charge."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for the battle (Middle School + Easy High School, power-marked; 3 more results asked for the Gettysburg Address)"
+  },
+  "tossups": [
+    {
+      "p": "Colonel Strong Vincent placed his brigade on a rocky hill at the far left end of the Union line during this battle. When the 20th Maine ran low on ammunition there, Joshua Chamberlain ordered a downhill bayonet charge that saved Little Round Top.",
+      "r": "Pickett’s Charge failed on this battle’s last day. For 10 points, name this three-day battle fought in Pennsylvania in July 1863."
+    },
+    {
+      "p": "Just three days before this battle began, George Meade replaced Joseph Hooker as commander of the Army of the Potomac. Meade won this battle by holding the high ground on Cemetery Ridge, Culp’s Hill, and Little Round Top.",
+      "r": "For 10 points, name this July 1863 Union victory in Pennsylvania, where Abraham Lincoln later gave a famous address."
+    },
+    {
+      "p": "On the second day of this battle, Union general Daniel Sickles moved his men forward without orders to a peach orchard, and fierce fighting followed in a wheatfield and among the boulders of Devil’s Den. Confederates under John Bell Hood attacked that part of the line.",
+      "r": "This battle ended the next day with Pickett’s Charge. For 10 points, name this Civil War battle fought in July 1863."
+    },
+    {
+      "p": "On the first day of this battle, Confederates under Richard Ewell pushed Union troops back through the town and onto Cemetery Hill, but Ewell decided not to attack that hill before dark. His men later failed to capture nearby Culp’s Hill.",
+      "r": "For 10 points, name this 1863 battle, the turning point of the Civil War, where Abraham Lincoln later gave an address."
+    },
+    {
+      "p": "Confederate general Lewis Armistead led a small group of men over a stone wall at a spot called the Angle during this battle, reaching the “High-Water Mark of the Confederacy.” That attack is also named for generals J. Johnston Pettigrew and Isaac Trimble.",
+      "r": "It is better known as Pickett’s Charge. For 10 points, name this July 1863 battle in Pennsylvania."
+    },
+    {
+      "p": "James Longstreet argued against the Confederate plan for the final day of this battle, a huge attack across open fields toward the center of the Union line. That attack began after one of the largest artillery bombardments of the war.",
+      "r": "The attack, Pickett’s Charge, failed. For 10 points, name this Civil War battle that ended on July 3, 1863."
+    },
+    {
+      "p": "After this battle, Union cavalry attacked the defeated army’s wagon train at Monterey Pass, but the beaten army escaped back across the Potomac River. Abraham Lincoln was frustrated that George Meade had not destroyed the enemy army after winning this battle.",
+      "r": "For 10 points, name this July 1863 battle that stopped Robert E. Lee’s invasion of the North."
+    },
+    {
+      "p": "On the first morning of this battle, Union cavalry under John Buford held off Confederate infantry on the ridges west of a Pennsylvania town until reinforcements arrived. Union general John Reynolds was killed soon after he brought his troops onto the field.",
+      "r": "Two days later, this battle ended with Pickett’s Charge. For 10 points, name this battle, the turning point of the Civil War."
+    },
+    {
+      "p": "Robert E. Lee’s cavalry commander, J. E. B. Stuart, was away on a long ride around the Union army when this battle began, leaving Lee without good information about his enemy. Stuart’s horsemen finally arrived on its second day.",
+      "r": "For 10 points, name this three-day battle in Pennsylvania, which ended with the failure of Pickett’s Charge."
+    },
+    {
+      "p": "Michael Shaara won a Pulitzer Prize for _The Killer Angels_, a novel about this battle told through the eyes of commanders such as James Longstreet and Joshua Chamberlain. In this battle, Chamberlain’s 20th Maine defended Little Round Top.",
+      "r": "For 10 points, name this July 1863 battle, after which Abraham Lincoln gave a speech beginning “Four score and seven years ago.”"
+    },
+    {
+      "p": "French artist Paul Philippoteaux [“fee-lee-poh-TOH”] painted a giant circular cyclorama of the climax of this battle, which visitors view from a platform in the middle of the room. That painting shows Confederate soldiers charging toward a clump of trees on Cemetery Ridge.",
+      "r": "That attack was Pickett’s Charge. For 10 points, name this Civil War battle fought in July 1863."
+    },
+    {
+      "p": "The day after this battle ended, the Confederate army at Vicksburg surrendered to Ulysses S. Grant, helping the Union take control of the Mississippi River. This battle ended Robert E. Lee’s second invasion of the North.",
+      "r": "For 10 points, name this July 1863 battle in Pennsylvania, often called the turning point of the Civil War."
+    },
+    {
+      "p": "Union general Winfield Scott Hancock helped rally troops on Cemetery Hill on the first day of this battle. Two days later, he was badly wounded while his corps held the center of the Union line on Cemetery Ridge.",
+      "r": "His men helped turn back Pickett’s Charge. For 10 points, name this three-day Union victory in July 1863."
+    },
+    {
+      "p": "Edward Everett gave a two-hour speech at the dedication of a national cemetery for soldiers killed in this battle, about four and a half months after it ended. A shorter speech that day honored soldiers who gave “the last full measure of devotion.”",
+      "r": "That speech begins “Four score and seven years ago.” For 10 points, name this battle, the site of Abraham Lincoln’s famous address."
+    },
+    {
+      "p": "The Union line in this battle formed a curved “fishhook” stretching from Culp’s Hill around Cemetery Hill and south along Cemetery Ridge toward the Round Tops. Because the line was curved, Union commanders could quickly shift troops to wherever they were needed.",
+      "r": "Robert E. Lee lost this battle after Pickett’s Charge failed. For 10 points, name this battle fought July 1–3, 1863."
+    }
+  ],
+  "clues": [
+    {
+      "id": "lincoln-address",
+      "tier": "giveaway",
+      "t": "Months later, Abraham Lincoln gave a short address there that begins “Four score and seven years ago”",
+      "k": [
+        "four score",
+        "address",
+        "lincoln"
+      ],
+      "n": 7,
+      "rabbit": "Gettysburg Address"
+    },
+    {
+      "id": "july-1863",
+      "tier": "giveaway",
+      "t": "Fought July 1–3, 1863, around a small town in southern Pennsylvania",
+      "k": [
+        "pennsylvania",
+        "july",
+        "1863",
+        "three days"
+      ],
+      "n": 6
+    },
+    {
+      "id": "turning-point",
+      "tier": "giveaway",
+      "t": "Turning point of the Civil War: the Union stopped Robert E. Lee’s invasion of the North",
+      "k": [
+        "turning point",
+        "robert e. lee",
+        "lee",
+        "invasion"
+      ],
+      "n": 3
+    },
+    {
+      "id": "picketts-charge",
+      "tier": "middle",
+      "t": "Pickett’s Charge (July 3): a huge Confederate attack on the Union center that failed",
+      "k": [
+        "pickett’s charge",
+        "picketts charge",
+        "pickett"
+      ],
+      "n": 8
+    },
+    {
+      "id": "little-round-top",
+      "tier": "middle",
+      "t": "Union troops held the rocky hill called Little Round Top on the second day",
+      "k": [
+        "little round top",
+        "round top"
+      ],
+      "n": 6
+    },
+    {
+      "id": "high-water-mark",
+      "tier": "middle",
+      "t": "Pickett’s Charge is called the “High-Water Mark of the Confederacy”",
+      "k": [
+        "high-water mark",
+        "high water mark",
+        "high-water"
+      ],
+      "n": 5
+    },
+    {
+      "id": "cemetery-ridge",
+      "tier": "middle",
+      "t": "The Union line ran along Cemetery Ridge in a curved “fishhook” shape",
+      "k": [
+        "cemetery ridge",
+        "fishhook",
+        "cemetery hill"
+      ],
+      "n": 5
+    },
+    {
+      "id": "national-cemetery",
+      "tier": "middle",
+      "t": "A national cemetery for the soldiers was dedicated there on November 19, 1863",
+      "k": [
+        "national cemetery",
+        "cemetery",
+        "november 19"
+      ],
+      "n": 2
+    },
+    {
+      "id": "vicksburg",
+      "tier": "middle",
+      "t": "Ended the day before Vicksburg surrendered to Ulysses S. Grant (July 4, 1863)",
+      "k": [
+        "vicksburg",
+        "grant",
+        "july 4"
+      ],
+      "n": 0,
+      "rabbit": "Siege of Vicksburg"
+    },
+    {
+      "id": "bloodiest",
+      "tier": "middle",
+      "t": "The bloodiest battle of the Civil War, with more casualties than any other",
+      "k": [
+        "bloodiest",
+        "most casualties"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meade-hooker",
+      "tier": "power",
+      "t": "Union commander George Meade had replaced Joseph Hooker just three days before",
+      "k": [
+        "george meade",
+        "meade",
+        "hooker"
+      ],
+      "n": 5
+    },
+    {
+      "id": "chamberlain",
+      "tier": "power",
+      "t": "Joshua Chamberlain’s 20th Maine, in Strong Vincent’s brigade, held Little Round Top with a bayonet charge",
+      "k": [
+        "joshua chamberlain",
+        "chamberlain",
+        "20th maine",
+        "bayonet",
+        "strong vincent"
+      ],
+      "n": 5,
+      "rabbit": "Joshua Chamberlain"
+    },
+    {
+      "id": "second-day",
+      "tier": "power",
+      "t": "Day two: Daniel Sickles moved forward to the Peach Orchard; fighting raged in the Wheatfield and Devil’s Den",
+      "k": [
+        "peach orchard",
+        "wheatfield",
+        "devil’s den",
+        "devils den",
+        "sickles"
+      ],
+      "n": 3
+    },
+    {
+      "id": "culps-hill",
+      "tier": "power",
+      "t": "Richard Ewell’s Confederates drove the Union onto Cemetery Hill on day one but failed to take Culp’s Hill",
+      "k": [
+        "culp’s hill",
+        "culps hill",
+        "richard ewell",
+        "ewell"
+      ],
+      "n": 2
+    },
+    {
+      "id": "longstreet",
+      "tier": "power",
+      "t": "James Longstreet’s attack on day two began late in the afternoon; he argued against Pickett’s Charge",
+      "k": [
+        "james longstreet",
+        "longstreet"
+      ],
+      "n": 2
+    },
+    {
+      "id": "armistead",
+      "tier": "power",
+      "t": "Lewis Armistead crossed the stone wall at “the Angle”; the charge is also named for Pettigrew and Trimble",
+      "k": [
+        "armistead",
+        "the angle",
+        "pettigrew",
+        "trimble"
+      ],
+      "n": 1
+    },
+    {
+      "id": "retreat",
+      "tier": "power",
+      "t": "Lee’s wagon train was attacked at Monterey Pass as he retreated; Lincoln was upset that Meade let him escape",
+      "k": [
+        "monterey pass",
+        "retreat",
+        "escape"
+      ],
+      "n": 1
+    },
+    {
+      "id": "buford-reynolds",
+      "tier": "power",
+      "t": "Day one: John Buford’s cavalry held the ridges west of town; Union general John Reynolds was killed",
+      "k": [
+        "john buford",
+        "buford",
+        "reynolds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stuart",
+      "tier": "power",
+      "t": "J. E. B. Stuart’s cavalry was off riding around the Union army and arrived only on day two",
+      "k": [
+        "j. e. b. stuart",
+        "jeb stuart",
+        "stuart"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hancock",
+      "tier": "power",
+      "t": "Winfield Scott Hancock’s corps held the Union center on Cemetery Ridge; he was wounded on day three",
+      "k": [
+        "winfield scott hancock",
+        "hancock"
+      ],
+      "n": 0
+    },
+    {
+      "id": "killer-angels",
+      "tier": "power",
+      "t": "Michael Shaara’s Pulitzer-winning novel _The Killer Angels_ (1974) retells the battle",
+      "k": [
+        "killer angels",
+        "shaara"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cyclorama",
+      "tier": "power",
+      "t": "Paul Philippoteaux’s giant circular cyclorama painting (1883) shows Pickett’s Charge",
+      "k": [
+        "cyclorama",
+        "painting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "everett",
+      "tier": "power",
+      "t": "Edward Everett gave a two-hour speech at the cemetery dedication before Lincoln spoke",
+      "k": [
+        "edward everett",
+        "everett",
+        "two-hour"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Battle or speech?",
+    "body": "Three of the eleven real results asked for the Gettysburg Address, Lincoln’s speech, not the battle. Battle tossups often end by mentioning that speech, so it is tempting to blurt out “Gettysburg Address”; two real battle answer lines accept it, but most do not, and this app counts it wrong.",
+    "fix": "Listen for the noun: “this battle” wants “Gettysburg” or “Battle of Gettysburg,” while “this speech” wants the Gettysburg Address. Generals, hills, and Pickett’s Charge mean the battle; quotes like “government of the people” mean the speech.",
+    "line": "Real answer lines: Battle of <b><u>Gettysburg</u></b> and <b><u>Gettysburg Address</u></b> (accept descriptions like Lincoln’s speech at Gettysburg)"
+  },
+  "tests": {
+    "right": [
+      "Gettysburg",
+      "Battle of Gettysburg",
+      "gettysberg",
+      "the battle of gettysburg",
+      "Gettysburg, Pennsylvania"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Gettysburg Address",
+      "Vicksburg",
+      "Antietam",
+      "Bull Run",
+      "Pickett's Charge",
+      "Fredericksburg",
+      "Chancellorsville",
+      "Little Round Top"
+    ]
+  },
+  "freq": {
+    "rank": 1,
+    "count": 13,
+    "list": "American History"
+  }
+}

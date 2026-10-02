@@ -1,0 +1,397 @@
+{
+  "id": "don-quixote",
+  "name": "Don Quixote",
+  "mono": "DQ",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Delusional knight of La Mancha · Parody of chivalric romance novels",
+  "dates": "Published 1605 & 1615 (two parts)",
+  "briefing": "A middle-aged Spanish gentleman reads so many tales of knights that he loses his grip on reality, renames himself a knight-errant, and rides off on his broken-down horse Rocinante to revive chivalry. With his practical squire Sancho Panza at his side, he battles windmills he mistakes for giants and showers devotion on an imaginary noblewoman, Dulcinea. Miguel de Cervantes’s _Don Quixote_ pokes fun at old romance novels while becoming one of the most influential novels ever written.",
+  "answerHtml": "<b><u>Don Quixote</u></b> [“kee-HOH-tay”] (or <i>Don Quijote</i>; accept Alonso Quixano)",
+  "accept": [
+    "don quixote",
+    "don quijote",
+    "quixote",
+    "quijote",
+    "the ingenious gentleman don quixote of la mancha",
+    "the adventures of don quixote",
+    "don quixote de la mancha",
+    "don quijote de la mancha",
+    "alonso quixano",
+    "alonso quijano"
+  ],
+  "prompt": [
+    "man of la mancha",
+    "alonso"
+  ],
+  "reject": [
+    "sancho panza",
+    "sancho",
+    "dulcinea",
+    "dulcinea del toboso",
+    "miguel de cervantes",
+    "cervantes",
+    "rocinante"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Why should you read “Don Quixote”?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=dDUPu6tMWHY",
+      "note": "Animated intro to the would-be knight, Sancho Panza, and the windmills"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Classics Summarized: Don Quixote",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=a2C--8o3MVE",
+      "note": "Funny illustrated retelling of the novel’s plot (has some swearing)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Don Quixote by Miguel de Cervantes | In-Depth Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=LrRfGMCw8V4",
+      "note": "Longer in-depth summary and analysis of the whole novel"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Don Quixote",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/don-quixote",
+      "note": "Study guide: background and key facts, with plot summary and character pages"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Don_Quixote",
+  "qb": {
+    "q": "Don Quixote",
+    "found": 16,
+    "tip": "All 16 are clean hits on this exact answer line, so there was no need to filter by category. Several (like the Knight of Mirrors vs. the Knight of the White Moon) come from two separate duels in Part Two — don’t mix them up."
+  },
+  "sample": {
+    "n": 16,
+    "note": "the 16 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This novel pretends to be translated from the notebooks of a made-up Arab historian, Cide Hamete Benengeli [“SEE-day ah-MEH-tay beh-nen-HEH-lee”]. Its title character drinks the Balsam of Fierabras [“fee-AY-rah-brahs”], a magic potion that is supposed to heal wounds, and becomes violently sick instead.",
+      "r": "That same character later loses a climactic joust to a rival disguised as the Knight of the White Moon, which forces him to give up his adventures and go home. For 10 points, name this Spanish novel about a knight who attacks windmills, written by Miguel de Cervantes."
+    },
+    {
+      "p": "Early in Part Two of this novel, the title character jousts a disguised neighbor posing as the Knight of Mirrors and actually wins that round. This character also destroys a traveling puppeteer’s marionette show, convinced that its wooden villains are real soldiers he must defeat.",
+      "r": "In Part One, he mistakes an ordinary barber’s metal washbasin for the magical Helmet of Mambrino [“mam-BREE-noh”]. For 10 points, name this novel whose title knight rides the horse Rocinante with his squire Sancho Panza, tilting at windmills he believes are giants."
+    },
+    {
+      "p": "Because of his sad, gaunt face, this novel’s title character earns the nickname the Knight of the Sorrowful Countenance. Earlier, he attacks a group of traveling cloth merchants from Toledo after they refuse to swear that his imaginary lady-love is the most beautiful woman alive.",
+      "r": "That lady-love is a peasant girl he renames Dulcinea and worships from afar. For 10 points, name this Miguel de Cervantes novel about a Spanish knight-errant who fights windmills with his squire, Sancho Panza."
+    },
+    {
+      "p": "As a prank, a duke makes this novel’s squire governor of the make-believe island of Barataria [“bah-rah-TAH-ree-ah”], fulfilling the title character’s old promise of an island. That same squire’s donkey, Dapple, is stolen and later recovered.",
+      "r": "The title character himself is eventually beaten in a duel by the Knight of the White Moon and forced to return home. For 10 points, name this novel in which a delusional Spanish gentleman rides the horse Rocinante and attacks windmills, believing them to be giants."
+    },
+    {
+      "p": "In one roadside duel, this novel’s title character faces a traveling Basque man whose only shield is a pillow grabbed in a panic. After skipping out on an unpaid bill at an inn, this character’s squire gets tossed in a blanket by rowdy guests.",
+      "r": "This character’s library of romance novels is burned by a priest, a barber, and his niece, who hope the loss will cure his madness. For 10 points, name this novel by Miguel de Cervantes about a gentleman who renames himself a knight-errant and fights windmills."
+    },
+    {
+      "p": "This novel was written to poke fun at the wildly popular romance novels about knights that were published across Spain. Its title character mistakes an ordinary barber’s metal washbasin for the magical Helmet of Mambrino, a treasure from those same kinds of romance stories.",
+      "r": "Published in two parts, a 1605 Part One and a 1615 Part Two, the novel follows a gentleman who renames himself a wandering knight. For 10 points, name this novel whose title character rides Rocinante and fights windmills with his squire, Sancho Panza."
+    },
+    {
+      "p": "This novel’s title character is nicknamed the Knight of the Sorrowful Countenance for his sad, hollow-cheeked face. He also drinks the Balsam of Fierabras, a fictional magic cure, and ends up violently sick rather than healed.",
+      "r": "He idealizes a peasant girl whom he renames Dulcinea and treats as if she were a noble lady. For 10 points, name this novel in which a Spanish gentleman loses his mind reading tales of chivalry and sets off with his squire, Sancho Panza, to fight imaginary giants."
+    },
+    {
+      "p": "A prank-playing duke names this novel’s squire governor of the fictional island of Barataria, an island the title character had long promised him. Earlier, that same squire is tossed in a blanket by inn guests after his master skips out on paying the bill.",
+      "r": "The squire’s donkey, Dapple, is also stolen and later recovered. For 10 points, name this novel by Miguel de Cervantes in which an aging gentleman renames himself a knight-errant and attacks windmills he mistakes for giants."
+    },
+    {
+      "p": "This novel claims to be translated from the notebooks of a fictional Arab historian named Cide Hamete Benengeli. Its title character destroys a traveling puppet show run by a man called Master Pedro, convinced the puppets’ enemies are real soldiers.",
+      "r": "He also attacks cloth merchants from Toledo for refusing to call his imaginary lady-love the most beautiful woman alive. For 10 points, name this novel whose title knight rides Rocinante and fights windmills with his squire, Sancho Panza."
+    },
+    {
+      "p": "This novel’s title character wins an early joust against a neighbor disguised as the Knight of Mirrors, but later loses a rematch against that same neighbor disguised as the Knight of the White Moon. That second defeat finally ends his adventures for good.",
+      "r": "Earlier, his squire had nicknamed him the Knight of the Sorrowful Countenance. For 10 points, name this Miguel de Cervantes novel about a Spanish gentleman who attacks windmills, believing them to be giants."
+    },
+    {
+      "p": "In one roadside duel, this novel’s title character faces a Basque traveler whose only shield is a pillow grabbed in a panic. His niece, a priest, and a barber burn his collection of chivalry books, hoping to cure him.",
+      "r": "He rides a skinny, broken-down horse named Rocinante on his adventures. For 10 points, name this novel whose title character fights windmills with the help of his squire, Sancho Panza, believing the windmills to be giants."
+    },
+    {
+      "p": "This novel’s title character mistakes a barber’s metal washbasin for the magical Helmet of Mambrino and drinks the Balsam of Fierabras, becoming sick instead of healed. He also destroys Master Pedro’s traveling puppet show, thinking its villains are real.",
+      "r": "He is finally defeated by a neighbor disguised as the Knight of the White Moon. For 10 points, name this novel in which a Spanish gentleman renames himself a knight-errant and rides off with his squire, Sancho Panza, to fight windmills."
+    },
+    {
+      "p": "This novel’s title character is nicknamed the Knight of the Sorrowful Countenance, and his squire is made governor of the made-up island of Barataria by a prank-loving duke. That squire’s donkey, Dapple, is stolen and later recovered over the course of the story.",
+      "r": "The title character idolizes a peasant girl whom he renames Dulcinea. For 10 points, name this novel by Miguel de Cervantes in which an aging gentleman loses his mind reading romances and rides out with Sancho Panza to battle windmills."
+    },
+    {
+      "p": "This novel’s title character attacks a group of cloth merchants from Toledo for refusing to praise his imaginary lady-love’s beauty. His squire is later tossed in a blanket by rowdy inn guests after the pair skip out on a bill.",
+      "r": "The novel claims his adventures were first recorded by a fictional Arab historian named Cide Hamete Benengeli. For 10 points, name this Spanish novel whose hero fights windmills with his squire, Sancho Panza, believing them to be giants."
+    },
+    {
+      "p": "This novel was written to mock the wildly popular Spanish romance novels about knights in shining armor. Its title character’s library of those very books is burned by his niece, a priest, and a barber in a failed attempt to cure his madness.",
+      "r": "Published in two parts, in 1605 and 1615, it follows a gentleman who renames himself a knight-errant. For 10 points, name this novel by Miguel de Cervantes whose title character rides Rocinante and tilts at windmills with his squire, Sancho Panza."
+    }
+  ],
+  "clues": [
+    {
+      "id": "windmills-giants",
+      "tier": "giveaway",
+      "t": "Famously attacks windmills, believing them to be giants, in the novel’s most famous scene",
+      "k": [
+        "windmills",
+        "giants"
+      ],
+      "n": 16
+    },
+    {
+      "id": "sancho-panza",
+      "tier": "giveaway",
+      "t": "Squire: Sancho Panza, a practical farmer who serves as sidekick and voice of reason",
+      "k": [
+        "sancho panza",
+        "squire",
+        "farmer"
+      ],
+      "n": 16
+    },
+    {
+      "id": "rocinante",
+      "tier": "giveaway",
+      "t": "Rides a skinny, broken-down horse named Rocinante [“roh-see-NAHN-tay”]",
+      "k": [
+        "rocinante",
+        "horse"
+      ],
+      "n": 15
+    },
+    {
+      "id": "knight-errant",
+      "tier": "giveaway",
+      "t": "A middle-aged Spanish gentleman who reads too many chivalry stories and renames himself a wandering knight-errant",
+      "k": [
+        "knight errant",
+        "chivalry",
+        "gentleman"
+      ],
+      "n": 16
+    },
+    {
+      "id": "cervantes-novel",
+      "tier": "giveaway",
+      "t": "The hero of a Spanish novel written by Miguel de Cervantes [“ser-VAHN-teez”]",
+      "k": [
+        "cervantes",
+        "spanish novel"
+      ],
+      "n": 16
+    },
+    {
+      "id": "dulcinea",
+      "tier": "middle",
+      "t": "Idealizes a peasant girl he renames Dulcinea [“dul-sin-AY-ah”] and worships as a noble lady-love",
+      "k": [
+        "dulcinea",
+        "peasant girl",
+        "lady love"
+      ],
+      "n": 12
+    },
+    {
+      "id": "white-moon",
+      "tier": "middle",
+      "t": "Loses a climactic joust to a rival disguised as the Knight of the White Moon, ending his adventures for good",
+      "k": [
+        "knight of the white moon",
+        "joust"
+      ],
+      "n": 13,
+      "rabbit": "Samson Carrasco"
+    },
+    {
+      "id": "mambrino",
+      "tier": "middle",
+      "t": "Mistakes an ordinary barber’s metal washbasin for the magical Helmet of Mambrino [“mam-BREE-noh”]",
+      "k": [
+        "helmet of mambrino",
+        "washbasin",
+        "barber"
+      ],
+      "n": 6
+    },
+    {
+      "id": "two-parts",
+      "tier": "middle",
+      "t": "Published in two parts: a 1605 Part One and a 1615 Part Two",
+      "k": [
+        "1605",
+        "1615",
+        "two parts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parody",
+      "tier": "middle",
+      "t": "Written to poke fun at the wildly popular romance novels about knights that were published across Spain",
+      "k": [
+        "romance novels",
+        "knights",
+        "spain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "library-burned",
+      "tier": "middle",
+      "t": "His library of romance novels is burned by a priest, a barber, and his niece to try to cure his madness",
+      "k": [
+        "library",
+        "burned",
+        "niece"
+      ],
+      "n": 3
+    },
+    {
+      "id": "knight-of-mirrors",
+      "tier": "power",
+      "t": "Early in Part Two, he jousts a disguised neighbor posing as the Knight of Mirrors and actually wins that round",
+      "k": [
+        "knight of mirrors",
+        "disguised neighbor"
+      ],
+      "n": 2
+    },
+    {
+      "id": "benengeli",
+      "tier": "power",
+      "t": "The novel pretends to be translated from the notebooks of a made-up Arab historian named Cide Hamete Benengeli [“SEE-day ah-MEH-tay beh-nen-HEH-lee”]",
+      "k": [
+        "cide hamete benengeli",
+        "arab historian"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fierabras",
+      "tier": "power",
+      "t": "Drinks the Balsam of Fierabras [“fee-AY-rah-brahs”], a fictional magic potion, and becomes violently sick instead of healed",
+      "k": [
+        "balsam of fierabras",
+        "magic potion"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sorrowful-countenance",
+      "tier": "power",
+      "t": "Nicknamed the Knight of the Sorrowful Countenance because of his sad, gaunt face",
+      "k": [
+        "sorrowful countenance",
+        "gaunt face"
+      ],
+      "n": 2
+    },
+    {
+      "id": "toboso-insult",
+      "tier": "power",
+      "t": "Attacks traveling cloth merchants from Toledo after they will not swear that his lady-love is the most beautiful woman alive",
+      "k": [
+        "cloth merchants",
+        "toledo"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tossed-in-blanket",
+      "tier": "power",
+      "t": "After skipping out on an unpaid inn bill, his squire gets tossed in a blanket by rowdy guests",
+      "k": [
+        "tossed",
+        "blanket",
+        "inn bill"
+      ],
+      "n": 2
+    },
+    {
+      "id": "barataria",
+      "tier": "power",
+      "t": "His squire is made governor of the make-believe island of Barataria [“bah-rah-TAH-ree-ah”] by a prank-loving duke",
+      "k": [
+        "barataria",
+        "governor",
+        "island"
+      ],
+      "n": 1
+    },
+    {
+      "id": "basque-duel",
+      "tier": "power",
+      "t": "In one roadside duel, his opponent is a traveling Basque man whose only shield is a grabbed pillow",
+      "k": [
+        "basque",
+        "pillow",
+        "duel"
+      ],
+      "n": 1
+    },
+    {
+      "id": "master-pedro",
+      "tier": "power",
+      "t": "Destroys Master Pedro’s traveling puppet show, convinced its wooden villains are real soldiers he must defeat",
+      "k": [
+        "master pedro",
+        "puppet show"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dapple-donkey",
+      "tier": "power",
+      "t": "His squire’s loyal donkey, Dapple, is stolen partway through Part One and later recovered",
+      "k": [
+        "dapple",
+        "donkey"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Quixote or Sancho?",
+    "body": "Several famous clues are really about his squire, Sancho Panza, not about him directly: the donkey Dapple belongs to Sancho, and it is Sancho (not his master) who gets tossed in a blanket and later named governor of Barataria.",
+    "fix": "Check who is doing the action in the clue. If the clue says “his squire does X” or “his companion is made governor,” the answer is still the knight himself, not Sancho.",
+    "line": "Real answer line: <b><u>Don Quixote</u></b> [“kee-HOH-tay”] (accept Alonso Quixano)."
+  },
+  "tests": {
+    "right": [
+      "Don Quixote",
+      "don quixote",
+      "Don Quijote",
+      "Donn Quixote",
+      "Alonso Quixano",
+      "The Ingenious Gentleman Don Quixote of La Mancha",
+      "quixote"
+    ],
+    "prompt": [
+      "Man of La Mancha",
+      "Alonso"
+    ],
+    "wrong": [
+      "Sancho Panza",
+      "Dulcinea",
+      "Rocinante",
+      "Miguel de Cervantes"
+    ]
+  },
+  "freq": {
+    "rank": 18,
+    "count": 10,
+    "list": "Literature"
+  }
+}

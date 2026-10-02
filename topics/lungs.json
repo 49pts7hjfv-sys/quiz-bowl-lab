@@ -1,0 +1,376 @@
+{
+  "id": "lungs",
+  "name": "Lungs",
+  "mono": "LNG",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Paired breathing organs · Where oxygen enters the blood",
+  "dates": "About 12–20 breaths a minute at rest",
+  "briefing": "Every breath pulls air down the trachea, through branching bronchi, and into roughly 300 million tiny sacs called alveoli, where oxygen slips into the blood and carbon dioxide slips out. A soapy coating called surfactant keeps those sacs from collapsing between breaths, while a tough covering called the pleura cuts down friction as the lungs expand and contract. Diseases like asthma and emphysema make the job harder by narrowing airways or destroying those delicate sacs.",
+  "answerHtml": "<b><u>Lungs</u></b> (accept book lungs; prompt on respiratory system; do not accept “heart”)",
+  "accept": [
+    "lungs",
+    "lung",
+    "book lungs"
+  ],
+  "prompt": [
+    "respiratory system"
+  ],
+  "reject": [
+    "heart",
+    "diaphragm",
+    "trachea",
+    "bronchi",
+    "alveoli"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Body Parts: Lung Pollution | Experiments for Kids",
+      "source": "Operation Ouch",
+      "url": "https://www.youtube.com/watch?v=RE5vg7Td7PY",
+      "note": "Kids’ TV experiment on how dirty air harms the lungs"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How do lungs work?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=8NUxvJS-_0k",
+      "note": "Animated lesson on breathing, the branching airways, and the alveoli"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Respiratory System, Part 2: Crash Course Anatomy & Physiology #32",
+      "source": "Crash Course Anatomy & Physiology",
+      "url": "https://www.youtube.com/watch?v=Cqt4LjHnMEA",
+      "note": "How oxygen and carbon dioxide trade places in the lungs (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Your Lungs & Respiratory System (for Kids)",
+      "source": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/lungs.html",
+      "note": "Quick read: trachea, bronchi, alveoli, pleura, and the diaphragm"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Lung",
+  "qb": {
+    "q": "lungs",
+    "found": 3,
+    "tip": "The difficulty 1–2 search returned 3 hits, but one was an unrelated opera tossup on Wagner’s _Ring Cycle_ (a stale cache match) — only 2 were really about this answer line, so 4 Regular HS tossups were blended in (a fifth Regular HS hit was that same opera tossup again, and was excluded too)."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 real QBReader tossups for this answer line (2 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "In amphibians, these organs are filled through buccal pumping rather than rib movements. A “book” version of these organs in arachnids uses hemolymph-filled plates instead of branching airways. In humans, the left and right sides add up to five lobes total, all wrapped in a protective pleural membrane.",
+      "r": "Pulmonary arteries carry oxygen-poor blood from the heart to capillaries surrounding tiny sacs at the end of each bronchiole. For 10 points, name these paired organs that trade oxygen for carbon dioxide with the blood."
+    },
+    {
+      "p": "Emphysema and COPD primarily damage these organs by destroying or narrowing their tiny air sacs and airways. A coating called pulmonary surfactant, made by type II cells, keeps those sacs from collapsing by lowering surface tension.",
+      "r": "An inhaled medicine called albuterol can relax the airway spasms of asthma, another disease of these organs. For 10 points, name the organs where alveoli let oxygen enter the blood during breathing."
+    },
+    {
+      "p": "During an asthma attack, the bronchi inside these organs tighten in spasms that an albuterol inhaler can relax. Deoxygenated blood reaches these organs through the pulmonary artery, the only artery in the body that doesn’t carry oxygen-rich blood.",
+      "r": "A tough covering called the pleural membrane wraps each of these organs and reduces friction as they expand. For 10 points, name these organs that fill with air through the trachea and bronchi."
+    },
+    {
+      "p": "Capillaries here hold much of the body’s angiotensin-converting enzyme, which turns angiotensin I into angiotensin II. Type II cells in these organs secrete surfactant, rich in a phospholipid called DPPC, to cut the surface tension of tiny air sacs.",
+      "r": "These paired organs are measured with a device called a spirometer. For 10 points, name these organs that branch from the trachea into bronchi and finally into alveoli."
+    },
+    {
+      "p": "A shunt called the foramen of Panizza lets blood bypass these organs entirely in crocodiles. Premature infants who cannot yet make enough surfactant in these organs can develop a dangerous condition called hyaline membrane disease.",
+      "r": "Each half of this pair is wrapped in its own pleural sac. For 10 points, name these organs where tiny sacs called alveoli handle gas exchange."
+    },
+    {
+      "p": "A calcified scar in these organs, paired with a swollen lymph node, together form what’s called a Ghon [“GOHN”] complex, a sign of past tuberculosis. Capillaries in these organs also carry much of the enzyme that converts angiotensin I into angiotensin II, a hormone that raises blood pressure.",
+      "r": "A spirometer can measure how much air these organs can hold and move. For 10 points, name these two organs, each wrapped in a pleural membrane."
+    },
+    {
+      "p": "A spirometer measures the vital capacity and tidal volume of these organs. Two separate pleural sacs surround the left and right halves of this pair, letting them expand somewhat independently of each other.",
+      "r": "These organs sit just above the diaphragm, the muscle that drives most of the work of breathing. For 10 points, name these organs that fill with air at the trachea and branch down to the alveoli."
+    },
+    {
+      "p": "As a person ages, the residual volume of these organs rises while their vital capacity falls. A protective coating keeps the tiny sacs inside these organs from collapsing as they shrink back down after each breath.",
+      "r": "These organs are surrounded by a pleural membrane whose negative pressure keeps them inflated between breaths. For 10 points, name these paired organs that take in oxygen and release carbon dioxide."
+    },
+    {
+      "p": "The pleural membrane around these organs relies on negative pressure, rather than muscle alone, to keep them inflated between breaths. These organs also sit directly above the diaphragm, whose contractions help pull air into their branching airways.",
+      "r": "A device called a spirometer measures how much air moves through these organs with each breath. For 10 points, name these organs connected to the outside world through the trachea."
+    },
+    {
+      "p": "A fast-growing cancer called small-cell carcinoma usually begins in these organs. On the oxygen-hemoglobin saturation curve, blood leaving these organs sits on the high-oxygen side of the graph, since gas exchange there loads hemoglobin up with oxygen.",
+      "r": "Capillaries surrounding the alveoli inside these organs pick up oxygen and drop off carbon dioxide. For 10 points, name these paired organs targeted by diseases like emphysema and small-cell carcinoma."
+    },
+    {
+      "p": "Frogs inflate these organs using positive pressure, pushing air in, while humans use negative pressure to pull air in. Intercostal muscles between the ribs work together with the diaphragm to change the volume of these organs during breathing.",
+      "r": "Air entering these organs travels through the trachea, then the bronchi, before reaching tiny sacs called alveoli. For 10 points, name these organs, the site of gas exchange with the blood."
+    },
+    {
+      "p": "The surfactant DPPC is released by septal cells inside these organs specifically to reduce the surface tension of their alveoli. Air reaches those alveoli only after passing through the trachea and then branching through the bronchi.",
+      "r": "Deoxygenated blood travels from the heart to these organs by way of the pulmonary artery. For 10 points, name these spongy organs that handle breathing."
+    },
+    {
+      "p": "A “book” version of these organs, built from flat, hemolymph-filled plates, lets spiders and other arachnids breathe without ribs at all. Amphibians instead fill true versions of these organs using throat movements called buccal pumping.",
+      "r": "In humans, this pair totals five lobes and sits above the diaphragm. For 10 points, name these paired organs wrapped in a pleural membrane."
+    },
+    {
+      "p": "Hyaline membrane disease can strike these organs in premature babies who haven’t yet made enough surfactant. A Ghon complex, combining a calcified scar in these organs with a nearby swollen lymph node, can mark an old, healed case of tuberculosis.",
+      "r": "These organs are each wrapped in a protective pleural sac. For 10 points, name these organs that branch into bronchi and alveoli."
+    },
+    {
+      "p": "Conditions such as emphysema, COPD, and asthma all make it harder for these organs to move air in and out. A soapy coating called surfactant, produced inside these organs, keeps their smallest air sacs from sticking shut.",
+      "r": "These organs trade carbon dioxide for oxygen with blood arriving through the pulmonary artery. For 10 points, name these two organs that fill the chest on either side of the heart."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Paired organs that trade oxygen for carbon dioxide with the blood during breathing",
+      "k": [
+        "oxygen",
+        "carbon dioxide"
+      ],
+      "n": 6
+    },
+    {
+      "id": "airway-branching",
+      "tier": "giveaway",
+      "t": "Air branches from the trachea through bronchi down to tiny sacs called alveoli",
+      "k": [
+        "trachea",
+        "bronchi",
+        "alveoli"
+      ],
+      "n": 4
+    },
+    {
+      "id": "pleura",
+      "tier": "giveaway",
+      "t": "Wrapped in a protective double layer called the pleural membrane, or pleura",
+      "k": [
+        "pleural membrane",
+        "pleura"
+      ],
+      "n": 6
+    },
+    {
+      "id": "asthma-copd",
+      "tier": "giveaway",
+      "t": "Conditions like asthma, emphysema, and COPD make it harder for these organs to work",
+      "k": [
+        "asthma",
+        "emphysema",
+        "copd"
+      ],
+      "n": 2
+    },
+    {
+      "id": "surfactant",
+      "tier": "middle",
+      "t": "A soapy coating called surfactant, made by type II cells, keeps tiny air sacs from collapsing",
+      "k": [
+        "surfactant",
+        "type ii cells"
+      ],
+      "n": 4
+    },
+    {
+      "id": "diaphragm",
+      "tier": "middle",
+      "t": "Sit just above the diaphragm, the muscle that drives most of the work of breathing",
+      "k": [
+        "diaphragm"
+      ],
+      "n": 2
+    },
+    {
+      "id": "spirometer",
+      "tier": "middle",
+      "t": "A device called a spirometer measures how much air these organs can hold and move",
+      "k": [
+        "spirometer"
+      ],
+      "n": 3
+    },
+    {
+      "id": "pulmonary-artery",
+      "tier": "middle",
+      "t": "The pulmonary artery is the only artery in the body that carries oxygen-poor blood",
+      "k": [
+        "pulmonary artery"
+      ],
+      "n": 3
+    },
+    {
+      "id": "hyaline-membrane",
+      "tier": "middle",
+      "t": "Premature babies who can’t make enough surfactant can develop hyaline membrane disease",
+      "k": [
+        "hyaline membrane",
+        "premature"
+      ],
+      "n": 1
+    },
+    {
+      "id": "book-lungs",
+      "tier": "middle",
+      "t": "A hemolymph-filled “book” version of these organs lets spiders and other arachnids breathe",
+      "k": [
+        "book",
+        "arachnids"
+      ],
+      "n": 2
+    },
+    {
+      "id": "buccal-pumping",
+      "tier": "middle",
+      "t": "Amphibians fill theirs using throat movements called buccal pumping instead of chest muscles",
+      "k": [
+        "buccal pumping",
+        "amphibians"
+      ],
+      "n": 1
+    },
+    {
+      "id": "small-cell-carcinoma",
+      "tier": "middle",
+      "t": "A fast-growing cancer called small-cell carcinoma usually starts in these organs",
+      "k": [
+        "small-cell carcinoma"
+      ],
+      "n": 1
+    },
+    {
+      "id": "five-lobes",
+      "tier": "power",
+      "t": "In humans, the right and left sides together add up to five lobes",
+      "k": [
+        "five lobes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ace",
+      "tier": "power",
+      "t": "Capillaries here hold much of the body’s angiotensin-converting enzyme (ACE)",
+      "k": [
+        "angiotensin-converting enzyme",
+        "ace"
+      ],
+      "n": 2
+    },
+    {
+      "id": "angiotensin",
+      "tier": "power",
+      "t": "That enzyme converts angiotensin I into angiotensin II, which raises blood pressure",
+      "k": [
+        "angiotensin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "panizza",
+      "tier": "power",
+      "t": "In crocodiles, a shunt called the foramen of Panizza lets blood bypass these organs",
+      "k": [
+        "foramen of panizza",
+        "crocodiles"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ghon",
+      "tier": "power",
+      "t": "A calcified tuberculosis scar here, plus a swollen lymph node, form a Ghon complex",
+      "k": [
+        "ghon complex",
+        "tuberculosis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "negative-pressure",
+      "tier": "power",
+      "t": "The pleural membrane creates negative pressure that keeps these organs inflated between breaths",
+      "k": [
+        "negative pressure"
+      ],
+      "n": 1
+    },
+    {
+      "id": "residual-volume",
+      "tier": "power",
+      "t": "With age, residual volume rises while vital capacity falls",
+      "k": [
+        "residual volume",
+        "vital capacity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "saturation-curve",
+      "tier": "power",
+      "t": "On the oxygen-hemoglobin saturation curve, blood leaving these organs sits on the high-oxygen side",
+      "k": [
+        "saturation curve",
+        "oxygen hemoglobin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "positive-pressure",
+      "tier": "power",
+      "t": "Frogs inflate theirs using positive pressure to push air in, unlike humans, who pull air in with negative pressure",
+      "k": [
+        "positive pressure"
+      ],
+      "n": 1
+    },
+    {
+      "id": "intercostal",
+      "tier": "power",
+      "t": "Intercostal muscles between the ribs work with the diaphragm to change their volume",
+      "k": [
+        "intercostal muscles"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Heart, or lungs?",
+    "body": "Many tossups describe blood flowing from the heart through the pulmonary artery, which can tempt a player to buzz “heart” as soon as that word appears. But the pulmonary artery is only the delivery route — the organ actually being described, where that blood meets air and trades carbon dioxide for oxygen, is these paired organs. A second trap: the “book lungs” of spiders and scorpions are a real but very different structure built from flat, hemolymph-filled plates instead of branching airways.",
+    "fix": "If the clues mention the heart only as the source of blood arriving by the pulmonary artery, keep listening — the real answer is whatever organ actually receives and uses that blood. Only answer “book lungs” if the question is specifically about arachnids.",
+    "line": "Real answer line: <b><u>Lungs</u></b> (accept book lungs; prompt on respiratory system; do not accept heart)"
+  },
+  "tests": {
+    "right": [
+      "Lungs",
+      "lung",
+      "Lungz",
+      "The Lungs",
+      "Book Lungs"
+    ],
+    "prompt": [
+      "Respiratory system"
+    ],
+    "wrong": [
+      "Heart",
+      "Diaphragm",
+      "Trachea",
+      "Bronchi"
+    ]
+  },
+  "freq": {
+    "rank": 26,
+    "count": 3,
+    "list": "Biology"
+  }
+}

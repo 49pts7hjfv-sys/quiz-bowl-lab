@@ -1,0 +1,365 @@
+{
+  "id": "the-thinker",
+  "name": "The Thinker",
+  "mono": "THK",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Auguste Rodin’s bronze sculpture · A seated man caught mid-thought",
+  "dates": "Modeled 1880; enlarged bronze version 1904",
+  "briefing": "Auguste Rodin first planned this bronze figure to crown a sculpted doorway called _The Gates of Hell_, brooding over the souls of Dante’s _Inferno_ far below. Rodin’s assistant later enlarged him to his famous six-foot size, and the hunched, muscular pose came to stand for deep thought everywhere, not just one poet’s nightmare. A cast of this very statue now marks Rodin’s own grave.",
+  "answerHtml": "<b><u>The Thinker</u></b> (prompt on <u>The Gates of Hell</u> before mention)",
+  "accept": [
+    "the thinker",
+    "thinker",
+    "le penseur"
+  ],
+  "prompt": [
+    "the gates of hell",
+    "gates of hell"
+  ],
+  "reject": [
+    "auguste rodin",
+    "rodin",
+    "the kiss",
+    "le baiser",
+    "the burghers of calais",
+    "lorenzo de medici"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is “The Thinker” actually thinking about? - Noah Charney",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=dOqqBQ5Ha6Q",
+      "note": "Animated lesson · how the statue began as the poet Dante, high on Rodin’s Gates of Hell"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Thinker by Auguste Rodin - Museum Without Walls: AUDIO",
+      "source": "Association for Public Art",
+      "url": "https://www.youtube.com/watch?v=GSIVxSRsF20",
+      "note": "Audio story about the cast of the statue outside Philadelphia’s Rodin Museum"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "“The Thinker” by Auguste Rodin",
+      "source": "El Museo Soumaya",
+      "url": "https://www.youtube.com/watch?v=oT9-DLb0Hhg",
+      "note": "Mexico City’s Museo Soumaya, home of a big Rodin collection, on the statue"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "The Thinker facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/The_Thinker",
+      "note": "Quick read: the story behind the statue, The Gates of Hell, and where casts stand"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/The_Thinker",
+  "qb": {
+    "q": "The Thinker",
+    "found": 3,
+    "tip": "A difficulties=3 search for the same query also turns up a tossup whose real answer is Auguste Rodin himself and one about philosophers from Italy that only name this work in passing — skip both; they are not really tossups on this sculpture."
+  },
+  "sample": {
+    "n": 8,
+    "note": "8 real QBReader tossups (3 Middle School/Easy High School + 5 Regular High School, power-marked; excludes one Regular HS tossup whose actual answer was Auguste Rodin and one whose answer was Italy)"
+  },
+  "tossups": [
+    {
+      "p": "A cast of this sculpture marks its creator’s own grave at Meudon, outside Paris. Originally meant to depict a brooding poet, it was planned to crown the doorway of the same sculptor’s _Gates of Hell_, gazing down at sinners from Dante’s _Inferno_.",
+      "r": "Henri Lebossé later enlarged it to its famous six-foot size. For 10 points, name this bronze sculpture of a seated, muscular man resting his chin on his hand, by Auguste Rodin."
+    },
+    {
+      "p": "A fanatic named Poitron damaged a cast of this sculpture outside the Panthéon in Paris in the early 1900s, and a different cast at the Cleveland Museum of Art lost its lower legs to a 1970 bombing. Critics have compared its pose to Michelangelo’s statue of Lorenzo de’ Medici.",
+      "r": "One cast of this sculpture, made by the lost-wax method, traveled from the 1904 St. Louis World’s Fair to the University of Louisville. For 10 points, name this Auguste Rodin sculpture."
+    },
+    {
+      "p": "Edvard Munch painted this sculpture standing in Max Linde’s garden, and the photographer Edward Steichen once photographed its own creator posing in front of it in the same hunched position. Early versions of this sculpture showed its subject wearing a small Florentine cap.",
+      "r": "It was originally conceived to represent a poet, Dante, brooding over his own _Inferno_. For 10 points, name this bronze and marble sculpture of a seated man, chin on hand, by Auguste Rodin."
+    },
+    {
+      "p": "French official Edmond Turquet commissioned this sculpture’s creator to design a doorway for a planned museum of decorative arts in 1880; this figure was meant to crown that doorway, brooding over the sinners below. Its twisted pose rests the right elbow on the left thigh.",
+      "r": "Henri Lebossé enlarged the original version into the roughly six-foot bronze most museums display today. For 10 points, name this Auguste Rodin sculpture of a muscular, seated man."
+    },
+    {
+      "p": "A cast of this sculpture once stood outside the Panthéon in Paris before being damaged by a man named Poitron and later moved to the Musée Rodin. This figure was originally meant to represent Dante as a poet, gazing down from a doorway at the souls of Rodin’s _Gates of Hell_.",
+      "r": "For 10 points, name this bronze sculpture, originally known by another title, showing a muscular man seated on a rock with his chin resting on his hand."
+    },
+    {
+      "p": "Rodin’s assistant Henri Lebossé enlarged this originally small figure into the roughly six-foot bronze now displayed around the world. One cast, made by the lost-wax process, traveled from the 1904 St. Louis World’s Fair to its permanent home at the University of Louisville.",
+      "r": "This sculpture was first given another title, since it pictured Dante thinking over his _Inferno_. For 10 points, name this Auguste Rodin sculpture of a nude, seated man resting his chin on his hand."
+    },
+    {
+      "p": "This sculpture’s pose, with the right elbow crossing to rest on the left thigh, has reminded critics of Michelangelo’s seated statue of Lorenzo de’ Medici. A cast of this work marks its own sculptor’s grave at Meudon, outside Paris.",
+      "r": "Rodin originally conceived it to represent a poet, meant to sit above the doorway of his _Gates of Hell_. For 10 points, name this bronze sculpture of a brooding, muscular man."
+    },
+    {
+      "p": "A 1970 bombing tore the lower legs off a cast of this sculpture at the Cleveland Museum of Art. Decades earlier, an angry man named Poitron had already damaged a different cast of it outside the Panthéon in Paris.",
+      "r": "Originally meant to represent Dante, this sculpture was later enlarged by Rodin’s assistant Henri Lebossé. For 10 points, name this bronze sculpture of a seated, contemplative man."
+    },
+    {
+      "p": "This sculpture was commissioned in 1880 as part of a doorway for a museum that was never built, a doorway its sculptor titled _The Gates of Hell_. Early casts of this smaller, original figure showed it wearing a Florentine cap.",
+      "r": "Rodin is buried beneath a cast of this sculpture at Meudon. For 10 points, name this bronze figure of a muscular man, chin resting on his hand, once planned as a portrait of Dante."
+    },
+    {
+      "p": "Norwegian painter Edvard Munch once painted this sculpture as it stood in a garden belonging to the collector Max Linde. This sculpture’s twisted pose, with one elbow crossing to the opposite thigh, has often been compared to a seated Medici tomb figure by Michelangelo.",
+      "r": "Auguste Rodin first conceived this work to picture Dante, brooding over his own _Inferno_. For 10 points, name this bronze sculpture of a seated man lost in thought."
+    },
+    {
+      "p": "The photographer Edward Steichen once posed Rodin in front of this sculpture, mirroring its own hunched posture. This figure was originally planned to crown Rodin’s sculpted doorway _The Gates of Hell_, representing Dante looking down at his _Inferno_.",
+      "r": "Henri Lebossé later enlarged it into the six-foot bronze seen in museums worldwide today. For 10 points, name this sculpture, which first went by a different title entirely."
+    },
+    {
+      "p": "A lost-wax cast of this sculpture traveled from the 1904 World’s Fair in St. Louis to its permanent home at the University of Louisville. A cast outside the Panthéon in Paris was later damaged by a vandal named Poitron.",
+      "r": "This muscular, seated figure rests its chin on its hand, a pose Rodin first conceived to represent a poet. For 10 points, name this bronze sculpture by Auguste Rodin."
+    },
+    {
+      "p": "This sculpture’s seated pose, with one arm crossing the body to rest an elbow on the opposite thigh, has been compared to Michelangelo’s statue of Lorenzo de’ Medici. A bombing in 1970 damaged a cast of this work at the Cleveland Museum of Art.",
+      "r": "A cast of this work also sits over its own sculptor’s grave at Meudon, outside Paris. For 10 points, name this Rodin sculpture of a brooding, muscular man, chin on hand."
+    },
+    {
+      "p": "Rodin imagined this figure brooding above the doorway of his sculpted _Gates of Hell_, representing Dante gazing down at the sinners of his _Inferno_. The artist’s assistant, Henri Lebossé, later enlarged the original, much smaller version into the roughly six-foot bronze most museums now display.",
+      "r": "Casts of this sculpture stand in cities from Paris to Tokyo to Philadelphia. For 10 points, name this bronze sculpture of a seated, muscular man resting his chin on his hand."
+    },
+    {
+      "p": "This sculpture was first modeled around 1880 for a doorway called _The Gates of Hell_, meant to represent Dante looking down at his own _Inferno_. Early casts of the smaller original showed the figure wearing a small Florentine cap, later removed.",
+      "r": "Full-size bronze casts of this work now stand in museums and cities around the world. For 10 points, name this Auguste Rodin sculpture of a seated man, chin resting on his hand."
+    }
+  ],
+  "clues": [
+    {
+      "id": "rodin-sculptor",
+      "tier": "giveaway",
+      "t": "Sculpted by the French artist Auguste Rodin",
+      "k": [
+        "auguste rodin",
+        "sculpted"
+      ],
+      "n": 8
+    },
+    {
+      "id": "pose",
+      "tier": "giveaway",
+      "t": "Shows a muscular, nude man sitting on a rock, leaning forward with his chin resting on his hand",
+      "k": [
+        "sitting on a rock",
+        "chin resting"
+      ],
+      "n": 8
+    },
+    {
+      "id": "bronze-marble",
+      "tier": "giveaway",
+      "t": "Best known in bronze, though marble versions exist too",
+      "k": [
+        "bronze",
+        "marble"
+      ],
+      "n": 0
+    },
+    {
+      "id": "symbol-of-thought",
+      "tier": "giveaway",
+      "t": "Became a worldwide symbol of deep thought and philosophy",
+      "k": [
+        "symbol",
+        "philosophy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "earlier-title",
+      "tier": "middle",
+      "t": "First known by another title, picturing a brooding poet based on Dante",
+      "k": [
+        "another title",
+        "dante"
+      ],
+      "n": 7,
+      "rabbit": "Dante Alighieri"
+    },
+    {
+      "id": "dante-inferno",
+      "tier": "middle",
+      "t": "Represents the poet Dante, brooding over the sinners of his own _Inferno_",
+      "k": [
+        "dante",
+        "inferno"
+      ],
+      "n": 7
+    },
+    {
+      "id": "gates-of-hell",
+      "tier": "middle",
+      "t": "Conceived as part of Rodin’s sculpted doorway, _The Gates of Hell_, which it was meant to crown",
+      "k": [
+        "gates of hell",
+        "doorway"
+      ],
+      "n": 7,
+      "rabbit": "The Gates of Hell"
+    },
+    {
+      "id": "lebosse",
+      "tier": "middle",
+      "t": "Enlarged to its famous six-foot size by Rodin’s assistant, Henri Lebossé",
+      "k": [
+        "henri lebosse",
+        "six-foot"
+      ],
+      "n": 2
+    },
+    {
+      "id": "louisville",
+      "tier": "middle",
+      "t": "A lost-wax cast traveled from the 1904 St. Louis World’s Fair to the University of Louisville",
+      "k": [
+        "university of louisville",
+        "world’s fair"
+      ],
+      "n": 3
+    },
+    {
+      "id": "meudon",
+      "tier": "middle",
+      "t": "A cast sits over Rodin’s own grave at Meudon, outside Paris",
+      "k": [
+        "meudon",
+        "grave"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pantheon",
+      "tier": "middle",
+      "t": "An enlarged cast once stood outside the Panthéon in Paris",
+      "k": [
+        "pantheon",
+        "paris"
+      ],
+      "n": 1
+    },
+    {
+      "id": "poitron",
+      "tier": "power",
+      "t": "A copy at the Panthéon was damaged by a man named Poitron",
+      "k": [
+        "poitron",
+        "damaged"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cleveland-bomb",
+      "tier": "power",
+      "t": "A cast at the Cleveland Museum of Art lost its lower legs to a 1970 bombing",
+      "k": [
+        "cleveland museum",
+        "1970"
+      ],
+      "n": 1
+    },
+    {
+      "id": "michelangelo-pose",
+      "tier": "power",
+      "t": "Critics compare its pose to Michelangelo’s statue of Lorenzo de’ Medici",
+      "k": [
+        "lorenzo de medici",
+        "compare"
+      ],
+      "n": 2
+    },
+    {
+      "id": "munch",
+      "tier": "power",
+      "t": "Edvard Munch painted this sculpture standing in Max Linde’s garden",
+      "k": [
+        "edvard munch",
+        "max linde"
+      ],
+      "n": 1
+    },
+    {
+      "id": "steichen",
+      "tier": "power",
+      "t": "Photographer Edward Steichen once photographed Rodin posing in front of it",
+      "k": [
+        "edward steichen",
+        "photographed"
+      ],
+      "n": 1
+    },
+    {
+      "id": "turquet",
+      "tier": "power",
+      "t": "Created for a doorway that French official Edmond Turquet commissioned in 1880 for a planned museum of decorative arts",
+      "k": [
+        "edmond turquet",
+        "decorative arts"
+      ],
+      "n": 1
+    },
+    {
+      "id": "florentine-cap",
+      "tier": "power",
+      "t": "Early versions showed the figure wearing a Florentine cap, later removed",
+      "k": [
+        "florentine cap"
+      ],
+      "n": 1
+    },
+    {
+      "id": "twisted-pose",
+      "tier": "power",
+      "t": "Its right elbow rests on its left thigh, twisting the whole body in thought",
+      "k": [
+        "right elbow",
+        "left thigh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "world-famous-copies",
+      "tier": "power",
+      "t": "Full-size casts now stand in cities from Paris and Philadelphia to Tokyo and Buenos Aires",
+      "k": [
+        "full-size casts",
+        "philadelphia"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Sculpture, not sculptor or doorway",
+    "body": "Every clue names Auguste Rodin, so it’s tempting to shout the sculptor’s name instead of the sculpture’s title. There’s a second trap, too: this figure was first conceived for Rodin’s sculpted doorway _The Gates of Hell_, so real tossups often prompt if you buzz with that title too early, before it’s clear they want the seated figure itself.",
+    "fix": "Listen for “this sculpture” or “this figure” describing a seated man — that wants _The Thinker_, not Rodin, and not the whole doorway it once crowned.",
+    "line": "Real answer line: <b><u>The Thinker</u></b> [or Le Penseur; prompt on The Gates of Hell before mention]"
+  },
+  "tests": {
+    "right": [
+      "The Thinker",
+      "the thinkr",
+      "Le Penseur",
+      "Thinker"
+    ],
+    "prompt": [
+      "The Gates of Hell"
+    ],
+    "wrong": [
+      "Auguste Rodin",
+      "Rodin",
+      "The Kiss",
+      "Lorenzo de Medici"
+    ]
+  },
+  "freq": {
+    "rank": 52,
+    "count": 4,
+    "list": "Fine Arts"
+  }
+}

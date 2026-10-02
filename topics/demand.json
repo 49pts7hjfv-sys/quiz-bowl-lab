@@ -1,0 +1,370 @@
+{
+  "id": "demand",
+  "name": "Demand",
+  "mono": "QD",
+  "category": "Social Science",
+  "qbCategory": "Social Science",
+  "kicker": "Economics concept · How much buyers want at each possible price",
+  "dates": "Core concept since the 1700s",
+  "briefing": "Demand is the economic idea that explains why a brand-new video game costs more on release day than it does a year later: it is simply how much of something people are willing and able to buy at each possible price. Economists graph it as a downward-sloping curve, since people usually want more of something when it gets cheaper and less when it gets pricier. Where that curve crosses the supply curve sets a market’s price.",
+  "answerHtml": "<b><u>Demand</u></b> (accept <u>quantity demanded</u> or <u>demand curve</u>)",
+  "accept": [
+    "demand",
+    "quantity demanded",
+    "demand curve",
+    "law of demand",
+    "price elasticity of demand",
+    "elasticity of demand"
+  ],
+  "prompt": [
+    "supply and demand"
+  ],
+  "reject": [
+    "quantity supplied",
+    "supply curve",
+    "equilibrium",
+    "equilibrium price"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Law of demand | Supply, demand, and market equilibrium | Microeconomics | Khan Academy",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=ShzPtU7IOXs",
+      "note": "Whiteboard lesson: why people buy more when prices drop, and how the demand curve is drawn"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Supply and Demand: Crash Course Economics #4",
+      "source": "Crash Course Economics",
+      "url": "https://www.youtube.com/watch?v=g9aDizJpd_s",
+      "note": "Animated overview of supply and demand and how the two set a market’s price"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Change in demand versus change in quantity demanded | AP Macroeconomics | Khan Academy",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=iC9hkhbIimA",
+      "note": "A classic test trap: moving along the demand curve vs. shifting the whole curve"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Substitution and income effects and the Law of Demand",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=xGL5mbOvTmQ",
+      "note": "Why the demand curve slopes down: the substitution and income effects"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Money and Finance: Supply and Demand",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/money/supply_and_demand.php",
+      "note": "Quick read with graphs: the law of demand, the law of supply, and equilibrium"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Demand",
+  "qb": {
+    "q": "demand",
+    "found": 5,
+    "tip": "“Demand” is a generic word, but all 5 results that came back were genuinely about this concept; none had to be thrown out as off-topic."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Economists distinguish this concept’s “Marshallian” and “Hicksian” mathematical forms, which the Slutsky equation relates to each other. One famous exception to this concept’s usual law is named for the Scottish economist Robert Giffen, whose namesake goods become more wanted as their price rises.",
+      "r": "A second exception, named for Thorstein Veblen, covers luxury goods that become more desirable as they get pricier. For 10 points, name this economic concept, usually graphed as a downward-sloping curve and often paired with supply."
+    },
+    {
+      "p": "This concept’s “price elasticity” was analyzed in a landmark 1890 textbook by economist Alfred Marshall. Economists study this concept “ceteris paribus [“SEH-teh-ris PAH-ree-bus”],” meaning they hold every other factor constant except price.",
+      "r": "For “normal goods,” this quantity rises as a buyer’s income rises, while for “inferior goods” it falls. For 10 points, name this economic concept, the amount of a good that consumers want to buy, which is often graphed against supply."
+    },
+    {
+      "p": "In the labor market, economists say that businesses, rather than workers, are the side that wants to “buy,” since employers are the ones seeking workers. In business, a chain version of this concept, built from marketing, sales, and service, mirrors the more familiar supply chain.",
+      "r": "Giffen goods and Veblen goods are both famous exceptions to this concept’s usual law. For 10 points, name this economic concept, graphed as a curve that typically slopes downward as price rises."
+    },
+    {
+      "p": "The Hicksian version of this concept is defined by minimizing how much a consumer spends while holding their satisfaction, or “utility,” fixed. Robert Giffen gave his name to a category of goods that break this concept’s usual law by becoming more wanted as they get pricier.",
+      "r": "This concept is sometimes described as a measure of consumers’ “willingness to pay” for a good. For 10 points, name this economic concept, usually drawn as a downward-sloping curve and set against supply."
+    },
+    {
+      "p": "Thorstein Veblen’s name is given to a type of good, often a luxury item, that breaks this concept’s usual law by becoming more desirable as its price rises. Alfred Marshall’s 1890 textbook studied how strongly this quantity reacts to changes in price, a property called its elasticity.",
+      "r": "Economists separate this concept itself from one single point on its own curve, tied to one exact price. For 10 points, name this economic concept, usually graphed as sloping downward against price."
+    },
+    {
+      "p": "This concept’s usual law holds that, all else equal, a lower price usually means people want to buy more of something. The income effect describes how this quantity changes as a buyer’s real income rises or falls.",
+      "r": "Where this concept’s curve crosses the supply curve sets a market’s equilibrium price. For 10 points, name this economic concept, the amount of a good or service that consumers want and are able to buy."
+    },
+    {
+      "p": "Businesses sometimes manage a chain version of this concept made up of marketing, sales, and customer service, built to mirror a company’s supply chain. Robert Giffen and Thorstein Veblen each have a type of good named after them that breaks this concept’s usual law.",
+      "r": "This concept is graphed as a curve that slopes downward, since people generally want to buy more of something as it gets cheaper. For 10 points, name this economic concept, often paired with supply."
+    },
+    {
+      "p": "Alfred Marshall studied how sharply this quantity reacts to price changes in an 1890 textbook, a property now called its price elasticity. Veblen goods, a type of pricey luxury item, defy this concept’s usual law by becoming more wanted as they get more expensive.",
+      "r": "This concept is usually graphed as a downward-sloping curve and set against its opposite, supply, to find a market’s equilibrium price. For 10 points, name this economic concept, the quantity of a good that buyers want."
+    },
+    {
+      "p": "Economists hold “ceteris paribus [“SEH-teh-ris PAH-ree-bus”]” when graphing this concept, meaning every factor besides price is treated as constant. This concept’s “Marshallian” and “Hicksian” forms are related to each other by the Slutsky equation.",
+      "r": "Giffen goods are a famous exception to this concept’s usual law, becoming more wanted as their price climbs instead of less. For 10 points, name this economic concept, the amount of a good people want to buy."
+    },
+    {
+      "p": "In a labor market, employers, not workers, are the side looking to “buy.” This concept’s usual law says that a lower price for a good usually means people want more of it, all else being equal.",
+      "r": "Economists separate this concept itself from a single specific point along its curve. For 10 points, name this economic concept, usually graphed sloping downward and crossed with supply to set a market’s price."
+    },
+    {
+      "p": "This concept’s Hicksian form is defined by minimizing a consumer’s spending while holding their satisfaction constant, while its Marshallian form is the more everyday version economists usually graph. Robert Giffen’s namesake goods are a rare exception to this concept’s usual law.",
+      "r": "This concept is sometimes described as consumers’ “willingness to pay” for a good, and it is almost always studied alongside supply. For 10 points, name this economic concept."
+    },
+    {
+      "p": "Exceptions named for Robert Giffen and Thorstein Veblen both describe unusual ways this quantity can respond to a change in price. Alfred Marshall’s 1890 textbook formally studied this concept’s elasticity, or how strongly it reacts to price.",
+      "r": "Most of the time, though, this concept’s curve simply slopes downward: a lower price means people want to buy more. For 10 points, name this economic concept, usually paired with supply to find a market’s equilibrium price."
+    },
+    {
+      "p": "A business’s chain for this concept, built from marketing, sales, and service, is meant to mirror its supply chain. This concept’s usual law has two famous exceptions, named for the economists Robert Giffen and Thorstein Veblen.",
+      "r": "For “normal goods,” this concept rises as a buyer’s income rises. For 10 points, name this economic concept, the amount of a good or service that people want and are able to buy at each possible price."
+    },
+    {
+      "p": "Alfred Marshall’s influential 1890 textbook studied this concept’s price elasticity, and the Slutsky equation relates its “Marshallian” and “Hicksian” mathematical forms. Veblen goods, a type of luxury item, are a famous exception to this concept’s usual downward slope.",
+      "r": "Where this concept’s curve meets the supply curve sets a market’s equilibrium price. For 10 points, name this economic concept."
+    },
+    {
+      "p": "Giffen goods and Veblen goods are famous exceptions to this concept’s usual law, which otherwise says that a lower price means people want to buy more. Economists separate this concept itself from a single point on its curve at one specific price.",
+      "r": "This concept is usually graphed as a curve sloping downward against price and set beside its opposite, supply. For 10 points, name this basic economic concept, the amount of a good or service that consumers want to buy."
+    }
+  ],
+  "clues": [
+    {
+      "id": "basic-definition",
+      "tier": "giveaway",
+      "t": "The amount of a good or service that people want and are able to buy at each possible price",
+      "k": [
+        "amount",
+        "want to buy"
+      ],
+      "n": 5
+    },
+    {
+      "id": "downward-slope",
+      "tier": "giveaway",
+      "t": "Graphed as a downward-sloping curve: people usually want to buy more of something when it gets cheaper",
+      "k": [
+        "downward-sloping curve"
+      ],
+      "n": 4
+    },
+    {
+      "id": "paired-supply",
+      "tier": "giveaway",
+      "t": "Almost always studied together with its opposite number, supply",
+      "k": [
+        "supply"
+      ],
+      "n": 5
+    },
+    {
+      "id": "usual-law",
+      "tier": "giveaway",
+      "t": "Usually, a lower price for something means people want to buy more of it",
+      "k": [
+        "lower price",
+        "buy more"
+      ],
+      "n": 3
+    },
+    {
+      "id": "price-elasticity",
+      "tier": "giveaway",
+      "t": "How strongly it reacts to a price change is called its “price elasticity”",
+      "k": [
+        "price elasticity"
+      ],
+      "n": 3
+    },
+    {
+      "id": "equilibrium",
+      "tier": "middle",
+      "t": "Where its curve crosses the supply curve sets the market’s “equilibrium” price",
+      "k": [
+        "equilibrium"
+      ],
+      "n": 1
+    },
+    {
+      "id": "giffen-goods",
+      "tier": "middle",
+      "t": "Giffen goods are a famous exception to the usual law: people buy more of them even as their price rises",
+      "k": [
+        "giffen goods"
+      ],
+      "n": 3,
+      "rabbit": "Adam Smith"
+    },
+    {
+      "id": "veblen-goods",
+      "tier": "middle",
+      "t": "Veblen goods are a second exception: pricey luxury items people want more, not less, as their price climbs",
+      "k": [
+        "veblen goods"
+      ],
+      "n": 2
+    },
+    {
+      "id": "income-effect",
+      "tier": "middle",
+      "t": "The “income effect” describes how this quantity changes as a buyer’s real income changes",
+      "k": [
+        "income effect"
+      ],
+      "n": 2
+    },
+    {
+      "id": "quantity-vs-whole",
+      "tier": "middle",
+      "t": "Economists separate the whole price-quantity relationship from one single point on its curve, tied to one exact price",
+      "k": [
+        "price quantity relationship",
+        "single point"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marshall-1890",
+      "tier": "middle",
+      "t": "Economist Alfred Marshall studied how strongly it reacts to price in an influential 1890 textbook",
+      "k": [
+        "alfred marshall"
+      ],
+      "n": 1
+    },
+    {
+      "id": "normal-goods",
+      "tier": "middle",
+      "t": "For “normal goods,” this quantity rises as a buyer’s income rises",
+      "k": [
+        "normal goods"
+      ],
+      "n": 1
+    },
+    {
+      "id": "willingness-to-pay",
+      "tier": "middle",
+      "t": "Sometimes described as a measure of consumers’ “willingness to pay” for a good",
+      "k": [
+        "willingness to pay"
+      ],
+      "n": 1
+    },
+    {
+      "id": "marshallian-hicksian",
+      "tier": "power",
+      "t": "Economists distinguish its “Marshallian” and “Hicksian” mathematical forms, named for two economists",
+      "k": [
+        "marshallian",
+        "hicksian"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hicksian-expenditure",
+      "tier": "power",
+      "t": "Its “Hicksian” version is defined by minimizing a consumer’s spending while holding their satisfaction (“utility”) fixed",
+      "k": [
+        "hicksian",
+        "utility"
+      ],
+      "n": 1
+    },
+    {
+      "id": "slutsky",
+      "tier": "power",
+      "t": "The Slutsky equation relates its “Marshallian” and “Hicksian” forms to each other",
+      "k": [
+        "slutsky equation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "demand-chain-business",
+      "tier": "power",
+      "t": "In business, a chain of marketing, sales, and service work is sometimes built to mirror a company’s supply chain",
+      "k": [
+        "marketing",
+        "supply chain"
+      ],
+      "n": 1
+    },
+    {
+      "id": "labor-market",
+      "tier": "power",
+      "t": "In a labor market, employers, not workers, are the side looking to “buy”",
+      "k": [
+        "labor market",
+        "employers"
+      ],
+      "n": 1
+    },
+    {
+      "id": "giffen-named",
+      "tier": "power",
+      "t": "Giffen goods are named for the Scottish economist Robert Giffen",
+      "k": [
+        "robert giffen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "veblen-named",
+      "tier": "power",
+      "t": "Veblen goods are named for Thorstein Veblen, who wrote about “conspicuous consumption”",
+      "k": [
+        "thorstein veblen",
+        "conspicuous consumption"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ceteris-paribus",
+      "tier": "power",
+      "t": "Graphed “ceteris paribus [“SEH-teh-ris PAH-ree-bus”],” meaning all other factors are held constant",
+      "k": [
+        "ceteris paribus"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Demand, or quantity demanded?",
+    "body": "“Demand” is the whole relationship between price and quantity, shown as an entire curve. “Quantity demanded” is just one specific amount at one specific price, a single point sitting on that curve. Real answer lines sometimes want one term and not the other, and a question about a price change moving along the curve usually means “quantity demanded” changed, not “demand” itself.",
+    "fix": "If the clue describes the whole curve shifting (because of income, tastes, or the price of other goods), say “demand.” If it describes one point at one price, “quantity demanded” is the sharper answer — but both are accepted here.",
+    "line": "Real answer line: <b><u>Demand</u></b> [or quantity demanded; accept (price) elasticity of demand; accept law of demand; prompt on “supply and demand” before “supply” is read]"
+  },
+  "tests": {
+    "right": [
+      "Demand",
+      "Deman",
+      "Demand Curve",
+      "Quantity Demanded"
+    ],
+    "prompt": [
+      "Supply and Demand"
+    ],
+    "wrong": [
+      "Supply",
+      "Equilibrium",
+      "Quantity Supplied",
+      "Supply Curve"
+    ]
+  },
+  "freq": {
+    "rank": 2,
+    "count": 7,
+    "list": "Social Science"
+  }
+}

@@ -1,0 +1,9 @@
+dist/
+deploy/
+work/media/
+__pycache__/
+*.pyc
+.DS_Store
+# The coach's assignment spreadsheet has students' names in it: never commit it.
+research/Study_List.xlsx
+*.xlsx

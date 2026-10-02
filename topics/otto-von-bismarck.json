@@ -1,0 +1,523 @@
+{
+  "id": "otto-von-bismarck",
+  "name": "Otto von Bismarck",
+  "mono": "OVB",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Prussia’s “Iron Chancellor” · Unified Germany in 1871",
+  "dates": "1815–1898",
+  "briefing": "Otto von Bismarck said the big questions of his time would be settled not by speeches but by “iron and blood,” and he meant it. As Prussia’s leader, he won three short wars in seven years, against Denmark, Austria, and France, and in 1871 he united the German states into one German Empire. As its first chancellor, he also created the world’s first national health insurance and old-age pensions.",
+  "answerHtml": "Otto von <b><u>Bismarck</u></b> (or Otto Eduard Leopold, Prince of <u>Bismarck</u>; prompt on “Iron Chancellor”)",
+  "accept": [
+    "bismarck",
+    "otto von bismarck",
+    "otto bismarck",
+    "prince bismarck",
+    "prince of bismarck",
+    "otto eduard leopold von bismarck",
+    "otto eduard leopold",
+    "count bismarck"
+  ],
+  "prompt": [
+    "iron chancellor",
+    "the iron chancellor"
+  ],
+  "reject": [
+    "wilhelm i",
+    "wilhelm ii",
+    "wilhelm",
+    "kaiser wilhelm",
+    "kaiser wilhelm i",
+    "kaiser wilhelm ii",
+    "william i",
+    "william ii",
+    "william",
+    "kaiser",
+    "frederick the great",
+    "frederick ii",
+    "frederick iii",
+    "frederick william",
+    "metternich",
+    "klemens von metternich",
+    "moltke",
+    "helmuth von moltke",
+    "roon",
+    "albrecht von roon",
+    "caprivi",
+    "leo von caprivi",
+    "napoleon iii",
+    "hindenburg",
+    "paul von hindenburg",
+    "cavour",
+    "garibaldi",
+    "iron lady",
+    "margaret thatcher"
+  ],
+  "tests": {
+    "right": [
+      "Bismarck",
+      "Otto von Bismarck",
+      "Otto Bismarck",
+      "Chancellor Bismarck",
+      "Bismark",
+      "Prince Otto von Bismarck"
+    ],
+    "prompt": [
+      "Iron Chancellor",
+      "the Iron Chancellor"
+    ],
+    "wrong": [
+      "Kaiser Wilhelm",
+      "Wilhelm II",
+      "Metternich",
+      "Frederick the Great",
+      "William I"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Otto von Bismarck (1815–1898) and German Unification",
+      "source": "Simple History",
+      "url": "https://www.youtube.com/watch?v=mz9Cy0xUH0E",
+      "note": "Cartoon overview of how he united Germany"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Why Did Wilhelm II Get Rid of Bismarck?",
+      "source": "History Matters",
+      "url": "https://www.youtube.com/watch?v=BX0Q8ZCz6GY",
+      "note": "Short · why the new Kaiser pushed the Iron Chancellor out in 1890"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Otto von Bismarck: The Wildman Bismarck (Part 1)",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=zc3Y-dU_GjM",
+      "note": "Cartoon series, Part 1 of 6: wild young Bismarck before he ran Prussia"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Otto von Bismarck: Iron and Blood (Part 3)",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=KnJDZpi3EBI",
+      "note": "Cartoon series, Part 3 of 6: the famous “iron and blood” speech"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Otto von Bismarck: Germany! (Part 6)",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=G9bqCd7sRg0",
+      "note": "Cartoon series, Part 6 of 6: war with France and a united Germany"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Italian and German Unification (#27)",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=KSjDe9_jZk8",
+      "note": "How Italy and Germany each became one country"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "German Unification and Empire (Ten Minute History)",
+      "source": "History Matters",
+      "url": "https://www.youtube.com/watch?v=tq91I3TnWu4",
+      "note": "About 10 min · doodle-style history of the new German Empire"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Otto von Bismarck",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Otto-von-Bismarck/623473",
+      "note": "Short encyclopedia article: three wars, a united Germany in 1871, forced out in 1890"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Otto_von_Bismarck",
+  "qb": {
+    "q": "Bismarck",
+    "found": 4,
+    "tip": "Bismarck is #15 on QBReader’s European History frequency list (6 Middle School and Easy High School tossups), but only 4 power-marked ones show up here, so add Regular High School like Coach showed. Learn the stock clues first and skip the odd trivia in the harder questions, like assassination attempts and a challenge to a duel."
+  },
+  "sample": {
+    "n": 16,
+    "note": "16 real QBReader tossups (4 Middle School/Easy High School + 12 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "While this man was Prussia’s ambassador in Paris in 1862, War Minister Albrecht von Roon sent him a telegram urging him to hurry home because there was “danger in delay.” Days after returning, he became Prussia’s Minister President and fought the legislature over a bigger army budget.",
+      "r": "Soon after, he gave his famous “blood and iron” speech. For 10 points, name this Prussian “Iron Chancellor.”"
+    },
+    {
+      "p": "This statesman’s Gastein Convention of 1865 split control of two duchies between Prussia and Austria, an arrangement that soon broke down. That breakdown led to a war that Prussia won in just seven weeks after a decisive victory at Königgrätz [“KUR-nig-grets”].",
+      "r": "Those duchies were Schleswig and Holstein. For 10 points, name this Prussian leader who later united Germany as its “Iron Chancellor.”"
+    },
+    {
+      "p": "This leader’s education minister, Adalbert Falk, pushed through the May Laws, which put the training of Catholic priests under state control. Those laws were part of this leader’s Kulturkampf [“kool-TOOR-kahmpf”], or “culture struggle,” against the Catholic Church.",
+      "r": "This leader also provoked a war with France by editing the Ems Dispatch. For 10 points, name this first chancellor of the German Empire."
+    },
+    {
+      "p": "Leo von Caprivi [“kah-PREE-vee”] replaced this man in 1890, the year that a John Tenniel cartoon in _Punch_ magazine showed this man walking down a ship’s ladder as the young emperor watched from the deck. That cartoon was titled “Dropping the Pilot.”",
+      "r": "Kaiser Wilhelm II had forced him out. For 10 points, name this “Iron Chancellor” who had unified Germany."
+    },
+    {
+      "p": "This diplomat created the Three Emperors’ League with Austria-Hungary and Russia, and after it collapsed, he arranged a secret Reinsurance Treaty with Russia in 1887. Once he left office, Germany let that treaty lapse.",
+      "r": "For 10 points, name this German chancellor who had said that great questions would be decided by “blood and iron.”"
+    },
+    {
+      "p": "This statesman promised to act as an “honest broker” at the 1878 Congress of Berlin, which he hosted to rewrite the Treaty of San Stefano after a war between Russia and the Ottoman Empire. A year later, he formed the Dual Alliance with Austria-Hungary.",
+      "r": "Italy joined that pact in 1882, forming the Triple Alliance. For 10 points, name this German “Iron Chancellor” who united Germany in 1871."
+    },
+    {
+      "p": "After two attempts on the life of Kaiser Wilhelm I, this man pushed through Anti-Socialist Laws that banned socialist meetings and newspapers. To win workers away from socialism, he also created the world’s first national health insurance program in 1883.",
+      "r": "For 10 points, name this “Iron Chancellor” who built an early welfare state in Germany."
+    },
+    {
+      "p": "This man hosted the Berlin Conference of 1884 and 1885, where European powers set rules for claiming land in Africa. Germany gained colonies such as Togoland and Cameroon while he was chancellor, even though he had long doubted that colonies were worth the cost.",
+      "r": "The capital of North Dakota is named for him. For 10 points, name this first chancellor of the German Empire."
+    },
+    {
+      "p": "After Prussia defeated Austria in 1866, this statesman joined the German states north of the Main River into the North German Confederation. Four years later, he set off a war with France that ended with Germany taking Alsace-Lorraine.",
+      "r": "For 10 points, name this Prussian leader who became the German Empire’s first chancellor, famous for his “blood and iron” speech."
+    },
+    {
+      "p": "This man shortened a telegram describing King Wilhelm I’s meeting with the French ambassador, Count Benedetti [“beh-neh-DET-ee”], so that the meeting sounded insulting to both sides. After he released that Ems Dispatch to the press, France declared war in July 1870.",
+      "r": "For 10 points, name this Prussian “Iron Chancellor” who then won the Franco-Prussian War and united Germany."
+    },
+    {
+      "p": "A famous painting by Anton von Werner shows this man at the center of the Hall of Mirrors at Versailles as Wilhelm I is proclaimed German Emperor in January 1871. Months earlier, Prussian-led armies had captured Napoleon III at the Battle of Sedan.",
+      "r": "For 10 points, name this statesman who became the first chancellor of the united Germany."
+    },
+    {
+      "p": "This chancellor’s fiercest opponent in parliament was Ludwig Windthorst [“VINT-horst”], leader of the Catholic Centre Party, which grew stronger during this chancellor’s campaign against the Church. This chancellor eased that campaign after Pope Leo XIII took office in 1878.",
+      "r": "That campaign was called the Kulturkampf. For 10 points, name this “Iron Chancellor” of Germany."
+    },
+    {
+      "p": "Before leading Prussia, this practitioner of Realpolitik [“ray-AHL-poh-lee-teek”] served as ambassador to Russia in St. Petersburg and then to France. As Prussia’s leader, he allied with Austria to defeat Denmark in 1864 and take the duchies of Schleswig [“SHLAYS-vig”] and Holstein.",
+      "r": "For 10 points, name this statesman who then defeated Austria and France on the way to uniting Germany."
+    },
+    {
+      "p": "This leader’s government passed an Accident Insurance Law in 1884 and an Old Age and Disability Insurance Law in 1889, giving German workers some of the world’s first public pensions. He hoped those programs would weaken support for the Social Democrats.",
+      "r": "For 10 points, name this “Iron Chancellor” who unified Germany after the Franco-Prussian War."
+    },
+    {
+      "p": "Born in 1815 into a family of Prussian Junkers [“YOONG-kers”], or landowning nobles, this man told a budget committee in 1862 that the great mistake of 1848 and 1849 had been trying to settle big questions through speeches and majority votes.",
+      "r": "He said they would be settled instead by “iron and blood.” For 10 points, name this Prussian statesman who later unified Germany."
+    }
+  ],
+  "clues": [
+    {
+      "id": "iron-chancellor",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Iron Chancellor”",
+      "k": [
+        "iron chancellor",
+        "nicknamed"
+      ],
+      "n": 11
+    },
+    {
+      "id": "unified-germany",
+      "tier": "giveaway",
+      "t": "Unified Germany and served as the first chancellor of the German Empire (1871–1890)",
+      "k": [
+        "unified germany",
+        "german empire",
+        "first chancellor",
+        "1871"
+      ],
+      "n": 9
+    },
+    {
+      "id": "prussia",
+      "tier": "giveaway",
+      "t": "Led Prussia as its Minister President from 1862, serving King Wilhelm I",
+      "k": [
+        "prussia",
+        "minister president",
+        "wilhelm i",
+        "1862"
+      ],
+      "n": 7
+    },
+    {
+      "id": "north-dakota",
+      "tier": "giveaway",
+      "t": "The capital of North Dakota is named for him",
+      "k": [
+        "north dakota",
+        "capital"
+      ],
+      "n": 1
+    },
+    {
+      "id": "blood-and-iron",
+      "tier": "middle",
+      "t": "1862 speech: great questions are decided not by speeches and majority votes but by “iron and blood”",
+      "k": [
+        "blood and iron",
+        "iron and blood",
+        "speeches"
+      ],
+      "n": 15
+    },
+    {
+      "id": "ems-dispatch",
+      "tier": "middle",
+      "t": "Edited the Ems Dispatch (1870), a telegram about King Wilhelm I and the French ambassador, to provoke France into war",
+      "k": [
+        "ems dispatch",
+        "ems",
+        "telegram",
+        "benedetti"
+      ],
+      "n": 10
+    },
+    {
+      "id": "franco-prussian-war",
+      "tier": "middle",
+      "t": "Franco-Prussian War (1870–71): Napoleon III was captured at Sedan, and Germany took Alsace-Lorraine",
+      "k": [
+        "franco-prussian",
+        "napoleon iii",
+        "sedan",
+        "alsace-lorraine"
+      ],
+      "n": 13
+    },
+    {
+      "id": "kulturkampf",
+      "tier": "middle",
+      "t": "Kulturkampf (“culture struggle”): his campaign against the power of the Catholic Church",
+      "k": [
+        "kulturkampf",
+        "culture struggle",
+        "catholic"
+      ],
+      "n": 12
+    },
+    {
+      "id": "schleswig-holstein",
+      "tier": "middle",
+      "t": "Fought Denmark (1864), with Austria as an ally, over Schleswig and Holstein",
+      "k": [
+        "schleswig",
+        "holstein",
+        "denmark",
+        "1864"
+      ],
+      "n": 6
+    },
+    {
+      "id": "seven-weeks-war",
+      "tier": "middle",
+      "t": "Beat Austria in the Seven Weeks’ War (Austro-Prussian War, 1866) at Königgrätz",
+      "k": [
+        "seven weeks",
+        "austro-prussian",
+        "königgrätz",
+        "koniggratz",
+        "1866"
+      ],
+      "n": 2
+    },
+    {
+      "id": "dismissed-1890",
+      "tier": "middle",
+      "t": "The young Kaiser Wilhelm II forced him to resign in 1890",
+      "k": [
+        "wilhelm ii",
+        "resign",
+        "1890"
+      ],
+      "n": 5
+    },
+    {
+      "id": "realpolitik",
+      "tier": "middle",
+      "t": "Practiced Realpolitik: practical politics based on power, not ideals",
+      "k": [
+        "realpolitik",
+        "practical"
+      ],
+      "n": 1
+    },
+    {
+      "id": "versailles",
+      "tier": "middle",
+      "t": "The German Empire was proclaimed in the Hall of Mirrors at Versailles (January 1871), with Wilhelm I as emperor",
+      "k": [
+        "hall of mirrors",
+        "versailles"
+      ],
+      "n": 1
+    },
+    {
+      "id": "welfare-state",
+      "tier": "power",
+      "t": "Created the first national health insurance (1883), then accident insurance and old-age pensions: an early welfare state",
+      "k": [
+        "welfare state",
+        "health insurance",
+        "pensions",
+        "insurance"
+      ],
+      "n": 7
+    },
+    {
+      "id": "may-laws",
+      "tier": "power",
+      "t": "Adalbert Falk’s May Laws (1873) put the training and hiring of Catholic priests under state control",
+      "k": [
+        "may laws",
+        "falk",
+        "1873"
+      ],
+      "n": 6
+    },
+    {
+      "id": "centre-party",
+      "tier": "power",
+      "t": "His Kulturkampf foe was the Catholic Centre Party, led by Ludwig Windthorst",
+      "k": [
+        "centre party",
+        "center party",
+        "windthorst"
+      ],
+      "n": 4
+    },
+    {
+      "id": "dropping-the-pilot",
+      "tier": "power",
+      "t": "“Dropping the Pilot,” a John Tenniel cartoon in _Punch_, shows him leaving the ship of state (1890)",
+      "k": [
+        "dropping the pilot",
+        "tenniel",
+        "punch",
+        "pilot"
+      ],
+      "n": 3
+    },
+    {
+      "id": "three-emperors-league",
+      "tier": "power",
+      "t": "Formed the Three Emperors’ League (1873) with Austria-Hungary and Russia",
+      "k": [
+        "three emperors",
+        "league",
+        "dreikaiserbund"
+      ],
+      "n": 3
+    },
+    {
+      "id": "reinsurance-treaty",
+      "tier": "power",
+      "t": "Secret Reinsurance Treaty (1887) with Russia; Germany let it lapse after he left office",
+      "k": [
+        "reinsurance"
+      ],
+      "n": 2
+    },
+    {
+      "id": "anti-socialist-laws",
+      "tier": "power",
+      "t": "Anti-Socialist Laws (1878) banned socialist meetings and newspapers",
+      "k": [
+        "anti-socialist",
+        "socialist",
+        "social democrats"
+      ],
+      "n": 2
+    },
+    {
+      "id": "caprivi",
+      "tier": "power",
+      "t": "Leo von Caprivi replaced him as chancellor in 1890",
+      "k": [
+        "caprivi"
+      ],
+      "n": 2
+    },
+    {
+      "id": "congress-of-berlin",
+      "tier": "power",
+      "t": "Hosted the Congress of Berlin (1878) as an “honest broker,” revising the Treaty of San Stefano",
+      "k": [
+        "congress of berlin",
+        "honest broker",
+        "san stefano"
+      ],
+      "n": 1
+    },
+    {
+      "id": "berlin-conference",
+      "tier": "power",
+      "t": "Hosted the Berlin Conference (1884–85), where Europeans set rules for claiming land in Africa",
+      "k": [
+        "berlin conference",
+        "africa",
+        "scramble"
+      ],
+      "n": 1
+    },
+    {
+      "id": "roon-telegram",
+      "tier": "power",
+      "t": "War Minister Albrecht von Roon called him home from Paris in 1862 with a telegram warning of “danger in delay”",
+      "k": [
+        "roon",
+        "danger in delay"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gastein",
+      "tier": "power",
+      "t": "Gastein Convention (1865): Prussia ran Schleswig and Austria ran Holstein until war broke out",
+      "k": [
+        "gastein"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dual-alliance",
+      "tier": "power",
+      "t": "Dual Alliance (1879) with Austria-Hungary, which became the Triple Alliance when Italy joined (1882)",
+      "k": [
+        "dual alliance",
+        "triple alliance",
+        "italy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "north-german-confederation",
+      "tier": "power",
+      "t": "Formed the North German Confederation (1867) after Prussia beat Austria",
+      "k": [
+        "north german confederation",
+        "confederation",
+        "1867"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Chancellor, not Kaiser",
+    "body": "Bismarck served Germany’s emperors but was never one himself. Wilhelm I was the Prussian king he served for more than 25 years, proclaimed German Emperor in 1871, and Wilhelm I’s grandson Wilhelm II forced Bismarck out in 1890 and later led Germany into World War I. Players also mix him up with Austria’s Klemens von Metternich, who ran the Congress of Vienna decades earlier.",
+    "fix": "“This chancellor,” “this statesman,” the Ems Dispatch, the Kulturkampf, or “blood and iron” means Bismarck; “this emperor” or “this Kaiser” wants a Wilhelm. Give his name, not just his nickname: “Iron Chancellor” only earns a prompt here.",
+    "line": "Real answer line: Otto von <b><u>Bismarck</u></b> (or Otto Eduard Leopold, Prince of <u>Bismarck</u>)"
+  },
+  "freq": {
+    "rank": 11,
+    "count": 6,
+    "list": "European History"
+  }
+}

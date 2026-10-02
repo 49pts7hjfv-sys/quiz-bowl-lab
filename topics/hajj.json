@@ -1,0 +1,501 @@
+{
+  "id": "hajj",
+  "name": "Hajj",
+  "mono": "HJ",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Islam’s yearly pilgrimage to Mecca · The fifth of the Five Pillars",
+  "dates": "Each year, 8th–13th of Dhu al-Hijjah",
+  "briefing": "Every year during the Hajj, about two million Muslims from around the world gather in Mecca, many dressed in simple white clothes so that rich and poor look alike. Over several days they walk seven times around the Kaaba, pray on the plain of Arafat, and throw pebbles at pillars that stand for the devil. Every Muslim who is healthy and can afford the trip must make it at least once in a lifetime.",
+  "answerHtml": "<b><u>Hajj</u></b> [or <u>Hadj</u> or <u>Haj</u>; prompt on <u>pilgrimage</u> to Mecca or fifth <u>Pillar</u> of Islam; do not accept or prompt on “Umrah”]",
+  "accept": [
+    "hajj",
+    "hadj",
+    "haj",
+    "al hajj",
+    "hajj to mecca",
+    "the hajj to mecca",
+    "hajj in mecca",
+    "hajj mecca",
+    "mecca hajj",
+    "hajj pilgrimage to mecca",
+    "the hajj pilgrimage to mecca",
+    "hajj to makkah",
+    "the hajj to makkah",
+    "hajj pilgrimage to makkah"
+  ],
+  "prompt": [
+    "pilgrimage",
+    "pilgrimage to mecca",
+    "the pilgrimage to mecca",
+    "a pilgrimage to mecca",
+    "pilgrimage to makkah",
+    "islamic pilgrimage",
+    "muslim pilgrimage",
+    "fifth pillar",
+    "fifth pillar of islam",
+    "pillar of islam",
+    "muslim pilgrimage to mecca",
+    "islamic pilgrimage to mecca"
+  ],
+  "reject": [
+    "umrah",
+    "umra",
+    "medina",
+    "madinah",
+    "ramadan",
+    "eid al adha",
+    "eid ul adha",
+    "eid",
+    "kaaba",
+    "masjid al haram",
+    "mount arafat",
+    "arafat",
+    "mina",
+    "zamzam",
+    "hijra",
+    "hijrah",
+    "hegira",
+    "five pillars",
+    "pillars of islam",
+    "five pillars of islam",
+    "shahada",
+    "salat",
+    "zakat",
+    "sawm"
+  ],
+  "tests": {
+    "right": [
+      "Hajj",
+      "Hadj",
+      "the Hajj",
+      "Hajj to Mecca",
+      "Hajj pilgramage",
+      "Haj to Mecca"
+    ],
+    "prompt": [
+      "pilgrimage",
+      "pilgrimage to Mecca",
+      "fifth pillar of Islam",
+      "Muslim pilgrimage to Mecca"
+    ],
+    "wrong": [
+      "Umrah",
+      "Mecca",
+      "Medina",
+      "Eid al-Adha",
+      "Ramadan",
+      "Kaaba",
+      "Hijra",
+      "Five Pillars of Islam"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is Hajj? | Religious Studies - My Life, My Religion: Islam",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=Ok7-mB62xeE",
+      "note": "Short · a BBC class clip about the pilgrimage"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "A simple guide to Hajj | Al Jazeera Newsfeed",
+      "source": "Al Jazeera English",
+      "url": "https://www.youtube.com/watch?v=0d4Yz5_6NQA",
+      "note": "Short · the main steps of the pilgrimage"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Hajj: 7 things you don't know about the Muslim Pilgrimage - BBC News",
+      "source": "BBC News",
+      "url": "https://www.youtube.com/watch?v=VMWgeSuHKhs",
+      "note": "Short · seven facts about the pilgrimage"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Hajj explained: A journey through the key rites of the Muslim pilgrimage | Al Jazeera Newsfeed",
+      "source": "Al Jazeera English",
+      "url": "https://www.youtube.com/watch?v=0RPmioCCVpI",
+      "note": "Short · a walk through the key rites, one by one"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Five Pillars of Islam | Religions of the World",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=H9U8T8x1AhQ",
+      "note": "Short · the five core duties of Islam, including this pilgrimage"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Mansa Musa and Islam in Africa: Crash Course World History #16",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=jvnU0v6hcUo",
+      "note": "Mansa Musa’s famous trip to Mecca and how Islam spread in West Africa"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Hajj",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/hajj/626422",
+      "note": "Quick read: who must go, when, and each step of the pilgrimage"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Hajj",
+  "qb": {
+    "q": "Hajj",
+    "found": 9,
+    "tip": "Only 4 of the 9 results want the Hajj: 3 want Malcolm X (whose Muslim name was El-Hajj Malik El-Shabazz) and 2 want the Five Pillars of Islam, so read each answer line."
+  },
+  "sample": {
+    "n": 8,
+    "note": "8 real QBReader tossups (4 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Participants in this event repeatedly chant the Talbiyah [“tal-BEE-yah”], a prayer that begins “Here I am, O God, here I am.” Before starting, men put on two plain white cloths to enter a holy state called ihram [“ih-RAHM”], in which hunting and wearing perfume are forbidden.",
+      "r": "Pilgrims later walk seven times around the Kaaba. For 10 points, name this annual Islamic pilgrimage to Mecca."
+    },
+    {
+      "p": "Travelers to this event must enter a state of purity called ihram [“ih-RAHM”] before crossing boundary points called miqat [“mee-KAHT”]. In that state, they may not cut their hair, argue, or hunt, and men wear two seamless white garments so that rich and poor look the same.",
+      "r": "Participants walk seven times between the hills of Safa and Marwah. For 10 points, name this pilgrimage to Mecca, the fifth pillar of Islam."
+    },
+    {
+      "p": "In 1324, Mansa Musa of Mali set out on this journey with a huge caravan and gave away so much gold in Cairo that the metal’s value there fell for years. During this journey, participants throw pebbles at three pillars in the Stoning of the Devil.",
+      "r": "Pilgrims also circle the Kaaba seven times. For 10 points, name this pilgrimage to Mecca, one of the Five Pillars of Islam."
+    },
+    {
+      "p": "After making this journey in 1964, Malcolm X wrote that he had seen people of every color worshipping together as equals, and he took a new Muslim name. Participants in this journey drink water from the Zamzam [“ZAHM-zahm”] well.",
+      "r": "They also walk around the Kaaba in the Masjid al-Haram [“MAS-jid al-hah-RAHM”]. For 10 points, name this annual pilgrimage to Mecca."
+    },
+    {
+      "p": "In 1325, a 21-year-old Ibn Battuta left Tangier to make this journey, beginning nearly 30 years of travel that he later described in his _Rihla_. Many people on this journey camp in a huge tent city at Mina.",
+      "r": "Its rites include the Stoning of the Devil and circling the Kaaba. For 10 points, name this Islamic pilgrimage to Mecca."
+    },
+    {
+      "p": "Participants in this event spend a night under the open sky at Muzdalifah [“mooz-DAH-lih-fah”], where many gather the pebbles they will later throw at three pillars that stand for the devil. That stoning ritual takes place at the Jamarat [“jah-mah-RAHT”] Bridge.",
+      "r": "Every Muslim who is able must make this journey at least once. For 10 points, name this pilgrimage to Mecca."
+    },
+    {
+      "p": "On the most important day of this event, participants stand in prayer from noon to sunset on a plain near the Mount of Mercy, where Muhammad gave his Farewell Sermon in 632. That day, the Day of Arafat, falls on the ninth of Dhu al-Hijjah [“DOO al-HIJ-ah”].",
+      "r": "The next day begins the festival of Eid al-Adha. For 10 points, name this pilgrimage to Mecca, the fifth pillar of Islam."
+    },
+    {
+      "p": "During this event, participants try to kiss or touch the Black Stone, which is set into one corner of a shrine, or simply point toward it as they pass in huge crowds. They circle that shrine seven times in a counterclockwise ritual called tawaf [“tah-WAHF”].",
+      "r": "That shrine is the Kaaba. For 10 points, name this pilgrimage to Mecca that Muslims who are able must make once in their lives."
+    },
+    {
+      "p": "Near the end of this event, men shave their heads in a rite called halq [“HALK”] or trim their hair in a rite called taqsir [“tahk-SEER”], which lets them leave the holy state of ihram. Before that, they throw pebbles at a pillar in the valley of Mina.",
+      "r": "Participants also drink from the Zamzam well. For 10 points, name this Islamic pilgrimage to Mecca, held every year."
+    },
+    {
+      "p": "A shorter version of this ritual, called the Umrah [“OOM-rah”], can be performed at any time of year, but this ritual itself takes place only on set days each year. Both rituals include walking seven times between the hills of Safa and Marwah.",
+      "r": "This ritual also includes the Stoning of the Devil. For 10 points, name this annual pilgrimage to Mecca, one of the Five Pillars of Islam."
+    },
+    {
+      "p": "In a rite of this event called sa’i [“SAH-ee”], participants walk seven times between the hills of Safa [“SAH-fah”] and Marwah [“MAR-wah”], remembering Hagar’s desperate search for water for her baby son, Ishmael. Muslims believe that search ended when the Zamzam well appeared.",
+      "r": "Participants in this event also circle the Kaaba. For 10 points, name this pilgrimage to Mecca, the fifth pillar of Islam."
+    },
+    {
+      "p": "In the days after Eid al-Adha begins, people taking part in this event throw seven pebbles at each of three pillars at the Jamarat [“jah-mah-RAHT”] Bridge in Mina, recalling how Muslims believe Abraham drove Satan away. Many of them stay in a giant tent city nearby.",
+      "r": "That ritual is the Stoning of the Devil. For 10 points, name this annual pilgrimage to Mecca."
+    },
+    {
+      "p": "Muslims believe that Abraham and his son Ishmael built the shrine at the center of this event as a house for worshipping one God. Muhammad performed this event only once, in 632, a few months before his death.",
+      "r": "Participants wear simple white clothing called ihram and circle the Kaaba. For 10 points, name this pilgrimage to Mecca, the fifth pillar of Islam."
+    },
+    {
+      "p": "Muslims believe that a well called Zamzam [“ZAHM-zahm”] miraculously appeared in the desert to save Hagar and her baby Ishmael, and participants in this event drink its water and often carry some home. This event’s rites include walking between Safa and Marwah to remember Hagar’s search.",
+      "r": "Participants also circle the Kaaba seven times inside the Great Mosque. For 10 points, name this annual pilgrimage to Mecca."
+    },
+    {
+      "p": "A black cloth embroidered with gold, called the kiswah [“KISS-wah”], covers the cube-shaped shrine at the center of this event and is replaced every year. That shrine sits in the courtyard of the Masjid al-Haram [“MAS-jid al-hah-RAHM”], the Great Mosque.",
+      "r": "Eid al-Adha is celebrated during this event, whose participants circle the Kaaba seven times. For 10 points, name this pilgrimage to Mecca, one of the Five Pillars of Islam."
+    }
+  ],
+  "clues": [
+    {
+      "id": "mecca",
+      "tier": "giveaway",
+      "t": "The pilgrimage to Mecca, Islam’s holiest city, in Saudi Arabia",
+      "k": [
+        "mecca",
+        "makkah",
+        "saudi"
+      ],
+      "n": 8,
+      "rabbit": "Mecca"
+    },
+    {
+      "id": "fifth-pillar",
+      "tier": "giveaway",
+      "t": "The fifth pillar of Islam: every adult Muslim who is healthy and can afford it must go once in a lifetime",
+      "k": [
+        "fifth pillar",
+        "pillar",
+        "lifetime"
+      ],
+      "n": 7,
+      "rabbit": "Five Pillars of Islam"
+    },
+    {
+      "id": "annual",
+      "tier": "giveaway",
+      "t": "An annual pilgrimage, held in Dhu al-Hijjah, the last month of the Islamic calendar",
+      "k": [
+        "annual",
+        "dhu al-hijjah",
+        "last month"
+      ],
+      "n": 3
+    },
+    {
+      "id": "kaaba",
+      "tier": "middle",
+      "t": "Tawaf: pilgrims walk seven times counterclockwise around the Kaaba, the cube-shaped shrine",
+      "k": [
+        "kaaba",
+        "tawaf",
+        "circle"
+      ],
+      "n": 7,
+      "rabbit": "Kaaba"
+    },
+    {
+      "id": "stoning",
+      "tier": "middle",
+      "t": "Stoning of the Devil: pilgrims throw pebbles at three pillars (jamarat), recalling how Abraham drove Satan away",
+      "k": [
+        "stoning",
+        "pebbles",
+        "jamarat",
+        "devil"
+      ],
+      "n": 6
+    },
+    {
+      "id": "zamzam",
+      "tier": "middle",
+      "t": "Pilgrims drink from the Zamzam well, which Muslims believe God provided for Hagar and her baby Ishmael",
+      "k": [
+        "zamzam",
+        "hagar",
+        "well"
+      ],
+      "n": 4
+    },
+    {
+      "id": "masjid-al-haram",
+      "tier": "middle",
+      "t": "The Kaaba stands in the courtyard of the Masjid al-Haram, the Great Mosque of Mecca",
+      "k": [
+        "masjid al-haram",
+        "great mosque",
+        "sacred mosque"
+      ],
+      "n": 3
+    },
+    {
+      "id": "eid-al-adha",
+      "tier": "middle",
+      "t": "Eid al-Adha, the “Feast of the Sacrifice,” falls on the 10th of Dhu al-Hijjah and remembers Abraham’s willingness to sacrifice his son",
+      "k": [
+        "eid al-adha",
+        "sacrifice",
+        "adha"
+      ],
+      "n": 1,
+      "rabbit": "Eid al-Adha"
+    },
+    {
+      "id": "abraham-kaaba",
+      "tier": "middle",
+      "t": "Muslims believe Abraham (Ibrahim) and his son Ishmael built the Kaaba as a house for worshipping one God",
+      "k": [
+        "abraham",
+        "ibrahim",
+        "ishmael",
+        "built"
+      ],
+      "n": 0,
+      "rabbit": "Abraham"
+    },
+    {
+      "id": "sai",
+      "tier": "power",
+      "t": "Sa’i: walking seven times between the hills of Safa and Marwah, remembering Hagar’s search for water",
+      "k": [
+        "safa",
+        "marwah",
+        "sa’i",
+        "hagar"
+      ],
+      "n": 7
+    },
+    {
+      "id": "ihram",
+      "tier": "power",
+      "t": "Ihram: a holy state; men wear two plain, unstitched white cloths, and no one may hunt, argue, or wear perfume",
+      "k": [
+        "ihram",
+        "two sheets",
+        "unstitched cloth"
+      ],
+      "n": 6
+    },
+    {
+      "id": "umrah",
+      "tier": "power",
+      "t": "The Umrah is a shorter “lesser pilgrimage” to Mecca that can be made at any time of year",
+      "k": [
+        "umrah",
+        "umra",
+        "shorter pilgrimage"
+      ],
+      "n": 5
+    },
+    {
+      "id": "halq",
+      "tier": "power",
+      "t": "Pilgrims shave their heads (halq) or trim their hair (taqsir) as they leave ihram",
+      "k": [
+        "shave",
+        "halq",
+        "taqsir"
+      ],
+      "n": 4
+    },
+    {
+      "id": "arafat",
+      "tier": "power",
+      "t": "Day of Arafat: pilgrims pray on the plain below the Mount of Mercy, where Muhammad gave his Farewell Sermon (632)",
+      "k": [
+        "day of arafat",
+        "arafat",
+        "farewell",
+        "632"
+      ],
+      "n": 1
+    },
+    {
+      "id": "black-stone",
+      "tier": "power",
+      "t": "Pilgrims try to kiss or touch the Black Stone in one corner of the Kaaba, or point to it from afar",
+      "k": [
+        "black stone",
+        "kiss",
+        "corner"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mina",
+      "tier": "power",
+      "t": "Pilgrims camp in a giant tent city at Mina, home of the Jamarat Bridge where the stoning happens",
+      "k": [
+        "mina",
+        "camp",
+        "jamarat"
+      ],
+      "n": 1
+    },
+    {
+      "id": "miqat",
+      "tier": "power",
+      "t": "Pilgrims must enter ihram before crossing boundary points called miqat",
+      "k": [
+        "miqat",
+        "boundaries"
+      ],
+      "n": 1
+    },
+    {
+      "id": "talbiyah",
+      "tier": "power",
+      "t": "Pilgrims chant the Talbiyah, a prayer that begins “Here I am, O God, here I am”",
+      "k": [
+        "talbiyah",
+        "here i am",
+        "labbayk"
+      ],
+      "n": 1
+    },
+    {
+      "id": "muzdalifah",
+      "tier": "power",
+      "t": "Pilgrims spend a night under the open sky at Muzdalifah, gathering pebbles for the stoning",
+      "k": [
+        "muzdalifah",
+        "open sky"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kiswah",
+      "tier": "power",
+      "t": "The Kaaba is draped in the kiswah, a black cloth embroidered with gold that is replaced every year",
+      "k": [
+        "kiswah",
+        "black",
+        "gold"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mansa-musa",
+      "tier": "power",
+      "t": "Mansa Musa of Mali made this pilgrimage in 1324 and gave away so much gold in Cairo that its value dropped",
+      "k": [
+        "mansa musa",
+        "mali",
+        "1324",
+        "cairo"
+      ],
+      "n": 0,
+      "rabbit": "Mansa Musa"
+    },
+    {
+      "id": "ibn-battuta",
+      "tier": "power",
+      "t": "Ibn Battuta left Tangier in 1325 to make this pilgrimage, starting nearly 30 years of travel told in his _Rihla_",
+      "k": [
+        "ibn battuta",
+        "battuta",
+        "1325",
+        "rihla"
+      ],
+      "n": 0,
+      "rabbit": "Ibn Battuta"
+    },
+    {
+      "id": "malcolm-x",
+      "tier": "power",
+      "t": "Malcolm X made this pilgrimage in 1964; seeing Muslims of every color worship together changed his views on race",
+      "k": [
+        "malcolm x",
+        "malcolm",
+        "1964"
+      ],
+      "n": 0,
+      "rabbit": "Malcolm X"
+    }
+  ],
+  "trap": {
+    "title": "Hajj, Umrah, or Pillars?",
+    "body": "The Umrah is a shorter “lesser pilgrimage” to Mecca that can happen at any time of year, and it shares rites like ihram, tawaf, and sa’i. Real answer lines disagree on it: two accept “Umrah” only before it is mentioned, and one says do not accept or prompt on it. Two real SCOP tossups about ihram and circling the Kaaba actually wanted the Five Pillars of Islam, and their answer line asks a player who says “hajj” to be less specific.",
+    "fix": "Say “Hajj,” not “Umrah”: a clue like “a shorter version of this” or “at any time of year” describes the Umrah, so the answer is the Hajj itself. If the question asks for a “set” of principles and names sawm or salat, say Five Pillars. Don’t confuse the Hajj with the Hijra, Muhammad’s move to Medina in 622.",
+    "line": "Real answer line: <b><u>Hajj</u></b> (prompt on <u>pilgrimage</u>, do not accept or prompt on “Umrah”)"
+  },
+  "freq": {
+    "rank": 25,
+    "count": 3,
+    "list": "Religion"
+  }
+}

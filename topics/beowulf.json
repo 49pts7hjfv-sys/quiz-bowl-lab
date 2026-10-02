@@ -1,0 +1,400 @@
+{
+  "id": "beowulf",
+  "name": "Beowulf",
+  "mono": "BEO",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Old English epic poem · Earliest great hero story in the English language",
+  "dates": "Composed c. 700–1000",
+  "briefing": "_Beowulf_ is the oldest surviving epic poem in English, and nobody knows who wrote it — only one battered medieval copy survived, and it was almost lost again in a fire. Its hero sails from the land of the Geats to rescue the aging Danish king Hrothgar from a monster terrorizing his mead-hall, then returns home to fight one final dragon fifty years later.",
+  "answerHtml": "<b><u>Beowulf</u></b>",
+  "accept": [
+    "beowulf"
+  ],
+  "prompt": [],
+  "reject": [
+    "grendel",
+    "grendels mother",
+    "hrothgar",
+    "wiglaf"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Beowulf by Shmoop",
+      "source": "Shmoop",
+      "url": "https://www.youtube.com/watch?v=o0XGUdWBbdI",
+      "note": "Shmoop’s cartoon overview of the poem (monster battles)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Beowulf: Introduction",
+      "source": "Shmoop",
+      "url": "https://www.youtube.com/watch?v=Snvgrlq0cIY",
+      "note": "Shmoop’s introduction to the Old English poem"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "CLEAN Classics Summarized: Beowulf",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=GJLM90Ewr_Q",
+      "note": "Clean version of OSP’s jokey retelling: Grendel, his mother, and the dragon (monster battles)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Beowulf",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/beowulf",
+      "note": "Study guide: key facts (setting, genre, climax), background, and a link to the full summary"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Beowulf",
+  "qb": {
+    "q": "Beowulf",
+    "found": 14,
+    "tip": "All 14 are about the hero, not his victims — the dragon-and-Wiglaf ending and the fight with Grendel at Heorot are the two clues almost every packet uses."
+  },
+  "sample": {
+    "n": 14,
+    "note": "the 14 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "J. R. R. Tolkien’s 1936 lecture “The Monsters and the Critics” helped convince scholars that this poem deserved serious study as literature. It survives in just one damaged manuscript, the Nowell Codex, later singed by fire, and its unnamed narrator is called a “scop” [“shop”], an Old English term for a court poet.",
+      "r": "This poem opens with the funeral of the legendary Danish king Scyld Scefing [“shild SHAY-ving”]. For 10 points, name this Old English epic poem whose hero kills the monster Grendel."
+    },
+    {
+      "p": "Unferth [“OON-ferth”] taunts the title character over a boyhood swimming match against a man named Breca, but later lends him his own sword, Hrunting [“HROON-ting”]. That blade fails when its new owner dives into a lake to fight a vengeful female monster.",
+      "r": "Years later, the hero’s young kinsman Wiglaf [“WIG-lahf”] is the only one who stands with him against a treasure-guarding dragon. For 10 points, name this Old English epic poem whose hero kills Grendel and Grendel’s mother."
+    },
+    {
+      "p": "For twelve years, a demon described as a descendant of the biblical Cain terrorizes King Hrothgar’s [“ROTH-gar’s”] mead-hall by dragging off and devouring sleeping warriors at night. Hearing of these attacks across the sea, a Geatish [“GAY-ish”] warrior sails to Denmark with a band of thanes to offer his help.",
+      "r": "That warrior rips the demon’s arm from its socket after an overnight wrestling match in the hall called Heorot [“HAY-oh-roht”]. For 10 points, name this Old English epic poem in which the hero defeats the monster Grendel."
+    },
+    {
+      "p": "Furious after her son’s death, a monster described as a “water-witch” drags off King Hrothgar’s counselor Aeschere [“ASH-heh-ray”] in revenge. The title hero dives into her lake lair, where his borrowed sword Hrunting fails him, forcing him to grab a giant’s blade hanging on the wall.",
+      "r": "With that ancient sword, he kills the creature and returns to the surface carrying Grendel’s head as a trophy. For 10 points, name this Old English epic poem whose hero kills both Grendel and Grendel’s mother."
+    },
+    {
+      "p": "Fifty years after becoming king of the Geats, this poem’s protagonist faces one final monster: a dragon enraged after a thief steals a cup from its barrow. Only his young kinsman Wiglaf stays to help him, and the hero’s own sword shatters against the dragon’s head.",
+      "r": "Mortally wounded, he names Wiglaf his successor before dying, and his people build him a tall barrow by the sea. For 10 points, name this Old English epic poem about a Geatish hero who dies fighting a dragon."
+    },
+    {
+      "p": "This poem opens with the ship-funeral of a legendary Danish king named Scyld Scefing [“shild SHAY-ving”], generations before its main story begins. Its hero serves the Geatish king Hygelac [“HIH-geh-lahk”], and later becomes king himself after both Hygelac and his son Heardred [“HEH-ar-red”] die.",
+      "r": "That hero’s own funeral closes the poem, one of three funeral scenes in the text. For 10 points, name this Old English epic poem about a warrior who slays Grendel."
+    },
+    {
+      "p": "Queen Wealhtheow [“WAIL-thay-oh”] presents a jeweled cup to this poem’s protagonist at a welcoming feast in Heorot. King Hrothgar had once paid a blood-debt on behalf of the hero’s late father, Ecgtheow [“EDGE-thay-oh”], which is partly why the hero feels obligated to help him now.",
+      "r": "That hero then uses his bare hands, refusing a weapon, to tear off a monster’s arm. For 10 points, name this Old English epic poem whose protagonist defeats Grendel at Hrothgar’s mead-hall."
+    },
+    {
+      "p": "A court poet entertains Heorot’s [“HAY-oh-rohts”] hall with a tragic song about Finn, a Frisian king caught in a deadly feud, shortly after the hero’s first triumph. This poem famously opens with the hard-to-translate word “Hwaet!” [“hwaht”], which one celebrated modern translation renders simply as “So.”",
+      "r": "That translation, by the Nobel Prize–winning poet Seamus Heaney [“SHAY-mus HEE-nee”], made this poem newly popular with readers. For 10 points, name this Old English epic poem about a hero who kills the monster Grendel."
+    },
+    {
+      "p": "As he dies, this poem’s hero gives a golden collar to his one loyal companion, Wiglaf, son of Weohstan [“WAY-oh-stahn”], and asks to see the treasure he has won. Decades earlier, that same hero had raced a rival named Breca in a swimming match, though a jealous courtier claimed Breca won.",
+      "r": "Wiglaf then scolds the warriors who abandoned their king during his final battle. For 10 points, name this Old English epic poem whose title Geatish hero dies fighting a dragon."
+    },
+    {
+      "p": "Described as a descendant of the biblical Cain, a monster bursts into a mead-hall and carries off thirty sleeping thanes, launching twelve years of nightly terror. After tearing off its arm bare-handed, this poem’s hero hangs the limb from the rafters as a trophy.",
+      "r": "The monster’s mother soon attacks in revenge for her son’s death. For 10 points, name this Old English epic poem in which a Geatish hero defeats Grendel and his mother."
+    },
+    {
+      "p": "This poem’s protagonist claims he once killed nine sea-monsters during a days-long swimming contest with a man named Breca, a story a jealous courtier named Unferth [“OON-ferth”] doubts at a Danish feast. Unferth later lends this hero a sword that fails against an underwater foe.",
+      "r": "That hero had sailed from the land of the Geats to rid Heorot of a demon. For 10 points, name this Old English epic poem whose hero kills the monster Grendel."
+    },
+    {
+      "p": "A single escaped slave disturbs an ancient barrow and steals a golden cup, waking the dragon guarding it and setting up this poem’s final battle. This poem’s aging hero, now a Geatish king, attacks the dragon alongside Wiglaf after his retainers flee in terror.",
+      "r": "The dragon’s poisoned bite ultimately kills the hero even though he strikes a fatal blow in return. For 10 points, name this Old English epic poem about a hero who dies fighting a dragon."
+    },
+    {
+      "p": "This poem’s hero once swam home across the sea carrying thirty suits of armor after a disastrous raid killed his king, Hygelac [“HIH-geh-lahk”]. He later refuses the Geatish throne himself, serving instead as a guardian to young Heardred [“HEH-ar-red”], Hygelac’s son.",
+      "r": "Only after Heardred also dies in battle does this hero finally accept the crown. For 10 points, name this Old English epic poem about a loyal Geatish warrior who kills Grendel."
+    },
+    {
+      "p": "King Hrothgar builds a magnificent mead-hall to celebrate his military victories, naming it Heorot [“HAY-oh-roht”] for the hart antlers that decorate its gables. His pride is short-lived once a swamp-dwelling demon, enraged by the hall’s nightly singing and laughter, begins stalking its warriors.",
+      "r": "A Geatish hero crosses the sea to end those attacks. For 10 points, name this Old English epic poem whose hero kills the monster Grendel at Heorot."
+    },
+    {
+      "p": "This poem’s hero spends his final years as a respected king of the Geats, decades after his famous victories as a young warrior in Denmark. When a dragon begins terrorizing his kingdom after its treasure is disturbed, he arms himself for one last fight.",
+      "r": "His kinsman Wiglaf [“WIG-lahf”] is the only warrior brave enough to help him battle the dragon, which kills him in the end. For 10 points, name this Old English epic poem about a hero who also killed Grendel and his mother."
+    }
+  ],
+  "clues": [
+    {
+      "id": "grendel-slain",
+      "tier": "giveaway",
+      "t": "Kills the monster Grendel, who has been terrorizing King Hrothgar’s mead-hall by night",
+      "k": [
+        "grendel",
+        "hrothgar",
+        "mead hall"
+      ],
+      "n": 14,
+      "rabbit": "Grendel"
+    },
+    {
+      "id": "heorot-hall",
+      "tier": "giveaway",
+      "t": "Grendel’s target is Heorot, the great mead-hall built by the Danish king Hrothgar",
+      "k": [
+        "heorot",
+        "hrothgar",
+        "danish"
+      ],
+      "n": 10,
+      "rabbit": "Heorot"
+    },
+    {
+      "id": "dragon-death",
+      "tier": "giveaway",
+      "t": "Dies in old age fighting a dragon, helped only by his young kinsman Wiglaf",
+      "k": [
+        "dragon",
+        "wiglaf",
+        "kinsman"
+      ],
+      "n": 12,
+      "rabbit": "Wiglaf"
+    },
+    {
+      "id": "old-english-epic",
+      "tier": "giveaway",
+      "t": "The oldest surviving major poem in Old English; its author is unknown",
+      "k": [
+        "old english",
+        "unknown author",
+        "oldest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "grendels-mother",
+      "tier": "middle",
+      "t": "Also kills Grendel’s mother in her underwater lair, after his borrowed sword fails him",
+      "k": [
+        "grendels mother",
+        "underwater",
+        "lair"
+      ],
+      "n": 9,
+      "rabbit": "Grendel’s mother"
+    },
+    {
+      "id": "hrothgar-king",
+      "tier": "middle",
+      "t": "Hrothgar is the aging Danish king who asks this Geatish hero for help",
+      "k": [
+        "hrothgar",
+        "geatish",
+        "danish king"
+      ],
+      "n": 8
+    },
+    {
+      "id": "hrunting-unferth",
+      "tier": "middle",
+      "t": "Unferth lends him the sword Hrunting, which fails against Grendel’s mother",
+      "k": [
+        "hrunting",
+        "unferth",
+        "fails"
+      ],
+      "n": 8,
+      "rabbit": "Unferth"
+    },
+    {
+      "id": "breca-swim",
+      "tier": "middle",
+      "t": "Boasts of a boyhood swimming match against Breca, which Unferth doubts at a feast",
+      "k": [
+        "breca",
+        "swimming match",
+        "boyhood"
+      ],
+      "n": 7
+    },
+    {
+      "id": "geats-hygelac",
+      "tier": "middle",
+      "t": "A warrior of the Geats loyal to King Hygelac; after Hygelac’s son also dies, he becomes king himself",
+      "k": [
+        "geats",
+        "hygelac",
+        "succeeds"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tolkien-essay",
+      "tier": "middle",
+      "t": "J. R. R. Tolkien’s lecture “The Monsters and the Critics” made scholars take this poem seriously",
+      "k": [
+        "tolkien",
+        "monsters and the critics"
+      ],
+      "n": 3
+    },
+    {
+      "id": "seamus-heaney",
+      "tier": "middle",
+      "t": "Seamus Heaney’s modern English translation introduced this poem to many new readers",
+      "k": [
+        "seamus heaney",
+        "translation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hwaet-opening",
+      "tier": "middle",
+      "t": "Opens with the hard-to-translate Old English word “Hwaet!,” often rendered as “Listen!” or “So.”",
+      "k": [
+        "hwaet",
+        "opens",
+        "listen"
+      ],
+      "n": 2
+    },
+    {
+      "id": "scyld-funeral",
+      "tier": "power",
+      "t": "Opens with the ship-funeral of the legendary Danish king Scyld Scefing, generations before the main plot",
+      "k": [
+        "scyld",
+        "ship funeral",
+        "legendary king"
+      ],
+      "n": 2
+    },
+    {
+      "id": "wealhtheow-queen",
+      "tier": "power",
+      "t": "Queen Wealhtheow welcomes him with a jeweled cup at a feast in Heorot",
+      "k": [
+        "wealhtheow",
+        "jeweled cup",
+        "queen"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ecgtheow-father",
+      "tier": "power",
+      "t": "His late father, Ecgtheow, once had a blood-debt settled by King Hrothgar himself",
+      "k": [
+        "ecgtheow",
+        "blood debt",
+        "father"
+      ],
+      "n": 1
+    },
+    {
+      "id": "aeschere-death",
+      "tier": "power",
+      "t": "Grendel’s mother kills Hrothgar’s trusted counselor Aeschere in revenge for her son’s death",
+      "k": [
+        "aeschere",
+        "counselor",
+        "revenge"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wiglaf-weohstan",
+      "tier": "power",
+      "t": "His one loyal helper against the dragon, Wiglaf, is identified as the son of Weohstan",
+      "k": [
+        "weohstan",
+        "wiglaf",
+        "loyal helper"
+      ],
+      "n": 1
+    },
+    {
+      "id": "finn-digression",
+      "tier": "power",
+      "t": "A court poet sings of Finn, a Frisian king caught in a tragic feud, during a victory feast",
+      "k": [
+        "finn",
+        "frisian",
+        "feud"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gold-collar-gift",
+      "tier": "power",
+      "t": "Dying, he gives his golden collar to Wiglaf and asks to see the dragon’s treasure one last time",
+      "k": [
+        "gold collar",
+        "dying gift",
+        "treasure"
+      ],
+      "n": 1
+    },
+    {
+      "id": "scop-narrator",
+      "tier": "power",
+      "t": "Narrated by an unnamed “scop,” the Old English word for a court poet or singer",
+      "k": [
+        "scop",
+        "court poet",
+        "unnamed"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cain-descent",
+      "tier": "power",
+      "t": "Grendel is described as a monstrous descendant of the biblical murderer Cain",
+      "k": [
+        "cain",
+        "descendant",
+        "biblical"
+      ],
+      "n": 2
+    },
+    {
+      "id": "nowell-codex",
+      "tier": "power",
+      "t": "Survives in only one damaged medieval manuscript, the Nowell Codex, later singed by fire",
+      "k": [
+        "nowell codex",
+        "manuscript",
+        "singed"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Hero, monster, or king?",
+    "body": "_Beowulf_ names the Geatish hero, not any of the characters he interacts with. Grendel and Grendel’s mother are the monsters he kills, Hrothgar is the aged Danish king he rescues, and Wiglaf is the loyal kinsman who helps him kill the dragon at the end of his life.",
+    "fix": "If the clue describes a victim, a king being helped, or a sidekick, don’t buzz with that character’s name — the answer is always the hero himself, Beowulf.",
+    "line": "Real answer line: <b><u>Beowulf</u></b>."
+  },
+  "tests": {
+    "right": [
+      "Beowulf",
+      "beowulf",
+      "Beowolf",
+      "Beowulf the poem"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Grendel",
+      "Grendel's Mother",
+      "Hrothgar",
+      "Wiglaf"
+    ]
+  },
+  "freq": {
+    "rank": 1,
+    "count": 18,
+    "list": "Literature"
+  }
+}

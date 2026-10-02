@@ -1,0 +1,364 @@
+{
+  "id": "lasers",
+  "name": "Lasers",
+  "mono": "LSR",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Focused beam of coherent light · From barcode scanners to eye surgery",
+  "dates": "First built in 1960",
+  "briefing": "A laser produces an intensely focused beam of coherent light, meaning every light wave lines up in step at exactly one wavelength, unlike the scattered light from a regular bulb. Theodore Maiman built the first one in 1960 using a ruby crystal, and at first the new invention was jokingly called “a solution looking for a problem.” Today lasers cut steel, play DVDs, scan barcodes, and correct eyesight in surgery.",
+  "answerHtml": "<b><u>Lasers</u></b> (or <u>light amplification by stimulated emission of radiation</u>)",
+  "accept": [
+    "lasers",
+    "laser",
+    "light amplification by stimulated emission of radiation"
+  ],
+  "prompt": [
+    "maser",
+    "masers"
+  ],
+  "reject": [
+    "light emitting diode",
+    "led",
+    "hologram",
+    "holography",
+    "fiber optics",
+    "optical fiber"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ever Wonder What We Can Do With Lasers?",
+      "source": "University of Rochester",
+      "url": "https://www.youtube.com/watch?v=pWi_ncECEHo",
+      "note": "From a top optics university · the many jobs lasers can do"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How a Laser Works",
+      "source": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=oUEbMjtWc-A",
+      "note": "An engineering professor explains how a laser makes its beam"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How lasers work - a thorough explanation",
+      "source": "PhysicsHigh",
+      "url": "https://www.youtube.com/watch?v=DA7a_v96Jsw",
+      "note": "A physics teacher walks through stimulated emission step by step (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Laser facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Laser",
+      "note": "Kid-friendly encyclopedia page: what LASER stands for, how lasers work, Theodore Maiman’s first laser, and everyday uses"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Laser",
+  "qb": {
+    "q": "laser",
+    "found": 10,
+    "tip": "All 10 results are genuinely about this device; several real answer lines explicitly “prompt on masers” rather than reject it, which anchors the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 10,
+    "note": "the 10 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "“Injection seeding” can reduce timing jitter in some pulsed versions of these devices, and the first one was famously joked to be “a solution looking for a problem.” Versions that use organic dye as their gain medium can be tuned across a range of",
+      "r": "wavelengths. These devices are also used for industrial cutting, drilling, welding, and engraving. For 10 points, name these devices used in pointers, which produce a focused, coherent beam of light."
+    },
+    {
+      "p": "These devices require “population inversion,” a state in which more atoms sit in an excited energy level than in their ground state. Optical or electrical “pumping” raises electrons to higher energy levels to help create that condition inside a material called the",
+      "r": "gain medium. For 10 points, name these devices that produce coherent light, commonly used in barcode scanners and DVD players."
+    },
+    {
+      "p": "“Optical tweezers” use a tightly focused beam from one of these devices to trap and move microscopic particles. A technique using the Doppler effect can use these devices to cool atoms to temperatures near absolute zero. A pulsing technique called Q-switching lets these devices fire in",
+      "r": "short, extremely powerful bursts. For 10 points, name these devices that produce a focused, coherent beam of light."
+    },
+    {
+      "p": "Theodore Maiman built the first working one of these devices in 1960, using a ruby crystal as its gain medium. A giant version of these devices nicknamed “Shiva,” built with neodymium glass, failed to ignite nuclear fusion even with twenty separate beamlines.",
+      "r": "“Fiber” versions of these devices rely on total internal reflection to carry a coherent beam down a thin strand of glass. For 10 points, name these devices used in barcode scanners and DVD players."
+    },
+    {
+      "p": "These devices get their everyday name from an acronym describing how they amplify light through the stimulated emission of radiation. An early common gain medium for these devices was a mixture of helium and neon gas. Optical tweezers use these devices to",
+      "r": "trap and move microscopic particles. For 10 points, name these devices that produce a narrow, focused beam of coherent light, found in pointers and barcode scanners."
+    },
+    {
+      "p": "These devices need a “gain medium,” the material inside that actually gets excited and gives off light, and they require more atoms in an excited state than in the ground state, a condition called population inversion. “Pumping” raises electrons to higher energy levels to help create that state inside",
+      "r": "these devices. For 10 points, name these devices, which are used in eye surgery and other precise medical procedures."
+    },
+    {
+      "p": "Theodore Maiman used a ruby crystal as the gain medium in the first working version of one of these devices, built in 1960. Dye versions of these devices can be tuned across a range of wavelengths, and “injection seeding” can reduce timing jitter in pulsed versions.",
+      "r": "These devices are used for industrial cutting, drilling, welding, and engraving. For 10 points, name these devices that produce coherent light, commonly used in pointers."
+    },
+    {
+      "p": "A pulsing technique called Q-switching lets these devices fire in short, extremely powerful bursts, and a technique using the Doppler effect can use these devices to cool atoms near absolute zero. These devices produce monochromatic light, meaning all of one pure color or wavelength.",
+      "r": "For 10 points, name these devices that produce a coherent beam of light, used in barcode scanners and CD or DVD players."
+    },
+    {
+      "p": "“Fiber” versions of these devices use total internal reflection to carry a coherent photon stream down a thin strand of glass, while giant versions have been used in attempts to ignite nuclear fusion. One such giant version, nicknamed “Shiva,” used neodymium glass and twenty separate beamlines.",
+      "r": "For 10 points, name these devices that produce a focused, coherent beam of light, found in pointers and barcode scanners."
+    },
+    {
+      "p": "These devices get their common name from an acronym for a process involving the stimulated emission of radiation. They require population inversion, meaning more atoms sit in an excited energy state than in their ground state, which is achieved through a process called",
+      "r": "pumping. For 10 points, name these devices that produce coherent light, commonly used in DVD players and eye surgery."
+    },
+    {
+      "p": "An early common gain medium for these devices was a mixture of helium and neon gas, while Theodore Maiman’s original 1960 version instead used a ruby crystal. “Optical tweezers” use a focused beam from these devices to move microscopic particles.",
+      "r": "These devices are also used for industrial cutting and welding. For 10 points, name these devices that produce a narrow, coherent beam of light."
+    },
+    {
+      "p": "Theodore Maiman’s 1960 invention of one of these devices was famously joked to be “a solution looking for a problem.” These devices need a gain medium undergoing population inversion, and dye versions of these devices can be tuned across many wavelengths.",
+      "r": "These devices produce monochromatic, coherent light. For 10 points, name these devices commonly used in pointers and barcode scanners."
+    },
+    {
+      "p": "A technique using the Doppler effect can use these devices to cool atoms to near absolute zero, and “injection seeding” can reduce timing jitter in pulsed versions of these devices. “Fiber” versions rely on total internal reflection.",
+      "r": "These devices are also used in eye surgery and other medical procedures. For 10 points, name these devices that produce a focused, coherent beam of light, found in barcode scanners and DVD players."
+    },
+    {
+      "p": "Q-switching lets these devices release short, extremely powerful pulses, and a giant neodymium-glass version nicknamed “Shiva” once tried, unsuccessfully, to ignite nuclear fusion using twenty beamlines. These devices require population inversion inside a gain medium.",
+      "r": "Theodore Maiman built the first working one of these devices in 1960 using a ruby crystal. For 10 points, name these devices used in pointers and CD or DVD players."
+    },
+    {
+      "p": "These devices are named for an acronym describing the stimulated emission of radiation, and they produce monochromatic, coherent light through a process requiring population inversion. An early version used a mixture of helium and neon gas as its gain medium.",
+      "r": "Theodore Maiman built the very first one in 1960 with a ruby crystal. For 10 points, name these devices that produce a focused beam of light, used in pointers and eye surgery."
+    }
+  ],
+  "clues": [
+    {
+      "id": "coherent-light",
+      "tier": "giveaway",
+      "t": "Produces coherent light: every light wave lines up in step, all at one exact wavelength",
+      "k": [
+        "coherent",
+        "wavelength"
+      ],
+      "n": 8
+    },
+    {
+      "id": "everyday-uses",
+      "tier": "giveaway",
+      "t": "Common in pointers, barcode scanners, and CD or DVD players, which use a focused beam to read data",
+      "k": [
+        "barcode scanners",
+        "dvd players"
+      ],
+      "n": 8
+    },
+    {
+      "id": "eye-surgery",
+      "tier": "giveaway",
+      "t": "Used in some types of eye surgery and other precise medical procedures",
+      "k": [
+        "eye surgery",
+        "medical procedures"
+      ],
+      "n": 1
+    },
+    {
+      "id": "basic-description",
+      "tier": "giveaway",
+      "t": "A device that produces a narrow, focused beam of light, unlike the spread-out light from a bulb",
+      "k": [
+        "narrow",
+        "focused beam"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stimulated-emission-acronym",
+      "tier": "middle",
+      "t": "Its common name comes from an acronym describing how it amplifies light through the stimulated emission of radiation",
+      "k": [
+        "acronym",
+        "stimulated emission"
+      ],
+      "n": 5
+    },
+    {
+      "id": "gain-medium",
+      "tier": "middle",
+      "t": "Needs a “gain medium,” the material inside that actually gets excited and gives off light",
+      "k": [
+        "gain medium"
+      ],
+      "n": 7
+    },
+    {
+      "id": "maiman-ruby-1960",
+      "tier": "middle",
+      "t": "First successfully built in 1960 by Theodore Maiman, who used a ruby crystal as the gain medium",
+      "k": [
+        "maiman",
+        "ruby crystal"
+      ],
+      "n": 3
+    },
+    {
+      "id": "industrial-uses",
+      "tier": "middle",
+      "t": "Powerful industrial versions are used for cutting, drilling, welding, and engraving materials",
+      "k": [
+        "cutting",
+        "welding",
+        "engraving"
+      ],
+      "n": 1
+    },
+    {
+      "id": "q-switching",
+      "tier": "middle",
+      "t": "A pulsing technique called Q-switching lets one fire in short, extremely powerful bursts",
+      "k": [
+        "q-switching",
+        "pulsing"
+      ],
+      "n": 2
+    },
+    {
+      "id": "doppler-cooling",
+      "tier": "middle",
+      "t": "A technique using the Doppler effect can cool atoms down to temperatures near absolute zero",
+      "k": [
+        "doppler effect",
+        "absolute zero"
+      ],
+      "n": 2
+    },
+    {
+      "id": "optical-tweezers",
+      "tier": "middle",
+      "t": "“Optical tweezers” use a tightly focused beam to trap and move microscopic particles",
+      "k": [
+        "optical tweezers",
+        "microscopic particles"
+      ],
+      "n": 2
+    },
+    {
+      "id": "population-inversion",
+      "tier": "power",
+      "t": "Requires “population inversion”: more atoms sitting in an excited energy state than in their ground state",
+      "k": [
+        "population inversion",
+        "ground state"
+      ],
+      "n": 8
+    },
+    {
+      "id": "pumping",
+      "tier": "power",
+      "t": "Optical or electrical “pumping” raises electrons to higher energy levels to help create that inverted population",
+      "k": [
+        "pumping",
+        "energy levels"
+      ],
+      "n": 2
+    },
+    {
+      "id": "monochromatic",
+      "tier": "power",
+      "t": "Produces monochromatic light: all of one single, pure color or wavelength",
+      "k": [
+        "monochromatic"
+      ],
+      "n": 1
+    },
+    {
+      "id": "maiman-quote",
+      "tier": "power",
+      "t": "Theodore Maiman’s 1960 invention was famously joked to be “a solution looking for a problem”",
+      "k": [
+        "solution looking for a problem"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dye-tunable",
+      "tier": "power",
+      "t": "Versions using organic dye as the gain medium can be tuned across a range of wavelengths",
+      "k": [
+        "organic dye",
+        "tunable"
+      ],
+      "n": 1
+    },
+    {
+      "id": "injection-seeding",
+      "tier": "power",
+      "t": "“Injection seeding” can reduce timing jitter in some pulsed versions",
+      "k": [
+        "injection seeding",
+        "jitter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shiva-fusion",
+      "tier": "power",
+      "t": "A giant version nicknamed “Shiva,” built with neodymium glass, failed to ignite nuclear fusion even with twenty separate beamlines",
+      "k": [
+        "shiva",
+        "neodymium glass",
+        "fusion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fiber-total-internal-reflection",
+      "tier": "power",
+      "t": "“Fiber” versions rely on total internal reflection to carry a coherent photon stream down a thin strand of glass",
+      "k": [
+        "fiber",
+        "total internal reflection"
+      ],
+      "n": 1
+    },
+    {
+      "id": "helium-neon-mix",
+      "tier": "power",
+      "t": "An early common gain medium was a mixture of helium and neon gas",
+      "k": [
+        "helium",
+        "neon gas"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Laser, or maser?",
+    "body": "A maser works the same way but amplifies microwaves instead of visible light, and it was actually built a few years before this device. Real answer lines prompt on “maser” rather than rejecting it outright, since both devices rely on the same stimulated-emission process.",
+    "fix": "If the clues mention visible or infrared light, ruby or dye gain media, or barcode scanners and DVDs, it is safely this device. If the clues instead say “microwave,” it may want “maser.”",
+    "line": "Real answer line: <b><u>Lasers</u></b> [or light amplification by stimulated emission of radiation; prompt on “masers”]"
+  },
+  "tests": {
+    "right": [
+      "Lasers",
+      "laser",
+      "Lazers",
+      "LASER"
+    ],
+    "prompt": [
+      "Maser",
+      "masers"
+    ],
+    "wrong": [
+      "LED",
+      "Hologram",
+      "Fiber Optics",
+      "Light Emitting Diode"
+    ]
+  },
+  "freq": {
+    "rank": 8,
+    "count": 8,
+    "list": "Physics"
+  }
+}

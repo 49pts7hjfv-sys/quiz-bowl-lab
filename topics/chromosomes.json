@@ -1,0 +1,397 @@
+{
+  "id": "chromosomes",
+  "name": "Chromosomes",
+  "mono": "CHR",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Coiled DNA-and-protein bundles that carry genes · 23 pairs per human cell",
+  "dates": "Term coined in 1888",
+  "briefing": "Chromosomes are tightly coiled bundles of DNA and protein that carry an organism’s genes, becoming visible under a microscope only when a cell is dividing. Humans have 46 of them, arranged in 23 pairs, with one chromosome in each pair inherited from each parent. An extra or missing chromosome can cause conditions such as Down syndrome, from an extra copy of chromosome 21, or Turner syndrome, from a missing sex chromosome.",
+  "answerHtml": "<b><u>Chromosomes</u></b> (accept X, Y, or sex chromosome; prompt on <u>autosome</u>; do not accept “chromatin”)",
+  "accept": [
+    "chromosomes",
+    "chromosome",
+    "x chromosome",
+    "y chromosome",
+    "sex chromosome",
+    "sex chromosomes",
+    "autosomal chromosome"
+  ],
+  "prompt": [
+    "autosome",
+    "autosomes"
+  ],
+  "reject": [
+    "chromatin",
+    "chromatid",
+    "chromatids",
+    "dna",
+    "nucleus",
+    "meiosis",
+    "mitosis",
+    "gene",
+    "genes",
+    "karyotype",
+    "karyotypes",
+    "down syndrome",
+    "turner syndrome",
+    "klinefelter syndrome"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Genes, DNA & chromosomes | Heredity & Evolution",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=IdWqsI0DSzE",
+      "note": "How genes, DNA, and chromosomes fit inside one another"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Chromosomes and Karyotypes (UPDATED)",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=c57rjL-30rs",
+      "note": "What a karyotype is and how chromosomes come in matching pairs"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Chromosome Numbers Before and After Mitosis and Meiosis (UPDATED)",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=Al7FueXTCKs",
+      "note": "How to count chromosomes before and after a cell divides"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Chromosomes, Chromatids, Chromatin, etc.",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=s9HPNwXd9fk",
+      "note": "Sal Khan sorts out the look-alike words chromatin, chromatid, and chromosome"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Chromosomes",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/biology/chromosomes.php",
+      "note": "Quick read on chromosome structure, genes, and the human set of 46, with a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Chromosome",
+  "qb": {
+    "q": "chromosome",
+    "found": 7,
+    "tip": "Several matches are for the more specific “X chromosome” line (Barr body, lyonization, fragile X) — see the Buzzer Trap; a “Down’s syndrome” tossup and an unrelated math “Z” tossup were excluded as off-topic. Sample blends 3 Middle School/Easy High School with 4 Regular HS tossups since the easier pool alone was thin."
+  },
+  "sample": {
+    "n": 7,
+    "note": "7 real QBReader tossups for this answer line (3 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Expanding CGG repeats on the FMR1 gene can make one of these unusually “fragile,” prone to breaking under the microscope. Condensin and cohesin, two SMC-family proteins, bundle and organize them, while a protein complex called the kinetochore clamps onto a pinched region, the centromere, to grab hold of spindle fibers.",
+      "r": "Mitosis then hands out an identical set of these to each of the two new daughter cells. Humans carry 46 of them, bundled in 23 matching pairs. For 10 points, name these thread-like structures, made of DNA coiled around histone proteins, that carry an organism’s genes."
+    },
+    {
+      "p": "In female cells, one copy in a matched pair is silenced through a process called lyonization, bundling into a dense clump known as a Barr body. During meiosis, a scaffold called the synaptonemal complex zips paired partners together, and their crossovers show up as X-shaped points called chiasmata.",
+      "r": "An extra copy of number 21 causes Down syndrome, while a missing sex-determining copy in females causes Turner syndrome. For 10 points, name these DNA-and-protein structures, 23 pairs of which are found in every human cell."
+    },
+    {
+      "p": "A translocated, swapped piece nicknamed the “Philadelphia” version of one of these is linked to a type of leukemia. Giant “polytene” copies form in the salivary glands of fruit fly larvae, while in bacteria, these structures form simple circular loops instead of the linear ones found in human cells.",
+      "r": "Pictures called karyotypes line them up by size so doctors can spot an extra or missing one, as in the trisomy that causes Down syndrome. For 10 points, name these structures that carry an organism’s genes, 46 of which are found in human cells."
+    },
+    {
+      "p": "Treating plant cells with the chemical colchicine can double how many of these a cell has, a trick plant breeders use with crops like wheat and seedless watermelon. A fern called the adder’s-tongue holds the record for the most of these in any plant, numbering over 1,200.",
+      "r": "A spore-making “sporophyte” stage in ferns and mosses carries twice as many of these as its “gametophyte” stage. Humans instead carry just 46, in 23 matched pairs. For 10 points, name these thread-like carriers of genetic information."
+    },
+    {
+      "p": "A pinched region on each of these, called the centromere, anchors a protein complex called the kinetochore to the cell’s spindle fibers during division. Condensin and cohesin, two SMC-family proteins, help organize and hold copies of these together before they split evenly between daughter cells.",
+      "r": "Males born with an extra sex-determining one of these develop Klinefelter syndrome, while females missing one develop Turner syndrome. For 10 points, name these coiled bundles of DNA and protein, of which humans have 23 pairs."
+    },
+    {
+      "p": "Expanding repeats of the letters CGG on the FMR1 gene can make one of these unusually fragile. In fruit flies, oversized “polytene” copies of these form in the larval salivary glands, while a circular, non-linear form of these is typical in bacteria.",
+      "r": "An extra copy of number 21 causes Down syndrome. Humans typically carry 46 of these, half inherited from each parent. For 10 points, name these structures, made of DNA wound around histone proteins, that carry an organism’s genes."
+    },
+    {
+      "p": "During meiosis, a protein scaffold called the synaptonemal complex zips matched partners together, and their crossovers show up as points called chiasmata. A swapped, translocated piece of one of these, nicknamed “Philadelphia,” is tied to a type of leukemia.",
+      "r": "An extra sex-determining copy in males causes Klinefelter syndrome, and a missing one in females causes Turner syndrome. Karyotype pictures line these up by size for doctors to study. For 10 points, name these gene-carrying structures, 23 pairs of which exist in a typical human cell."
+    },
+    {
+      "p": "Colchicine treatment can double the number of these inside a plant cell, a trick plant breeders use with crops like wheat and seedless watermelon. One fern, the adder’s-tongue, holds the record among plants with more than 1,200 of them.",
+      "r": "Mitosis hands out a matching set of these to each of two new daughter cells. Down syndrome results from an extra copy of number 21. For 10 points, name these DNA-based structures, bundled into 23 pairs in human cells."
+    },
+    {
+      "p": "In bacteria, these structures form simple circular loops rather than the straight, linear shape typical of human cells. Oversized “polytene” copies of these appear in the salivary glands of fruit fly larvae, and a pinched centromere region on each one anchors a kinetochore to the cell’s spindle fibers.",
+      "r": "An extra sex-determining one of these causes Klinefelter syndrome in males, while a missing one causes Turner syndrome in females. For 10 points, name these structures that carry genes, 46 of which exist in a typical human cell."
+    },
+    {
+      "p": "A sporophyte generation in ferns and mosses carries twice as many of these as its gametophyte generation, since a cell is called “diploid” with two full sets of these (2n) or “haploid” with just one (n). A swapped piece nicknamed the “Philadelphia” version of one of these is linked to a type of leukemia.",
+      "r": "Pictures called karyotypes arrange them by size, revealing the extra copy of number 21 that causes Down syndrome. For 10 points, name these coiled bundles of DNA and histone protein, found in 23 pairs in human cells."
+    },
+    {
+      "p": "Condensin and cohesin, SMC-family proteins, help hold copies of these together, while a scaffold called the synaptonemal complex zips matched partners together during meiosis, before their crossovers show up as chiasmata. Expanding CGG repeats on the FMR1 gene can make one of these fragile.",
+      "r": "X and Y are the two sex-determining types in humans. An extra copy of number 21 causes Down syndrome. For 10 points, name these gene-carrying structures, which number 46 in a typical human cell."
+    },
+    {
+      "p": "Giant “polytene” copies of these develop in the salivary glands of fruit fly larvae. In female cells, one copy in a matched pair is silenced through lyonization, forming a dense clump called a Barr body, while bacteria instead carry a simple circular version of these.",
+      "r": "A centromere on each one anchors a kinetochore to the cell’s spindle fibers during division. Humans carry 23 pairs of these, which are visualized in pictures called karyotypes. For 10 points, name these structures made of coiled DNA and protein."
+    },
+    {
+      "p": "The adder’s-tongue fern holds the plant record for the most of these, with over 1,200, while treating a plant cell with colchicine can double how many it has. A translocated piece nicknamed “Philadelphia” identifies a version of one of these linked to a type of leukemia.",
+      "r": "An extra sex-determining one of these causes Klinefelter syndrome, and a missing one causes Turner syndrome. For 10 points, name these thread-like carriers of DNA, bundled into 23 pairs in a human cell."
+    },
+    {
+      "p": "An added sex-determining copy of one of these produces Klinefelter syndrome in males, while a missing copy produces Turner syndrome in females. Expanding CGG repeats on the FMR1 gene can leave one of these fragile, and condensin and cohesin help organize all of them before cell division.",
+      "r": "Mitosis distributes a full matching set of these into each of two new daughter cells. For 10 points, name these DNA-and-histone structures, 46 of which fill a typical human cell, organized into 23 pairs."
+    },
+    {
+      "p": "A pinched centromere region on each of these anchors a kinetochore to spindle fibers, while condensin and cohesin, SMC-family proteins, help keep copies bundled together. In bacteria, these form simple circular loops instead of the straight, linear versions found in human cells.",
+      "r": "Karyotype pictures arrange these by size, showing the extra copy of number 21 responsible for Down syndrome. X and Y are the two sex-determining types. For 10 points, name these structures that carry an organism’s genetic information."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Carry an organism’s genetic information (genes), made of DNA tightly coiled around histone proteins",
+      "k": [
+        "genetic information",
+        "histone proteins"
+      ],
+      "n": 7,
+      "rabbit": "DNA"
+    },
+    {
+      "id": "count",
+      "tier": "giveaway",
+      "t": "Humans have 46 of these, arranged in 23 matching pairs",
+      "k": [
+        "46",
+        "23 matching pairs"
+      ],
+      "n": 6
+    },
+    {
+      "id": "sex-types",
+      "tier": "giveaway",
+      "t": "X and Y are the two human sex-determining types",
+      "k": [
+        "sex-determining",
+        "x and y"
+      ],
+      "n": 4
+    },
+    {
+      "id": "down-syndrome",
+      "tier": "giveaway",
+      "t": "An extra copy of number 21 causes Down syndrome",
+      "k": [
+        "down syndrome",
+        "number 21"
+      ],
+      "n": 5
+    },
+    {
+      "id": "klinefelter",
+      "tier": "middle",
+      "t": "An extra X-type one in males (XXY instead of XY) causes Klinefelter syndrome",
+      "k": [
+        "klinefelter",
+        "extra"
+      ],
+      "n": 2
+    },
+    {
+      "id": "turner",
+      "tier": "middle",
+      "t": "A missing X-type one in females (just one, not two) causes Turner syndrome",
+      "k": [
+        "turner",
+        "missing"
+      ],
+      "n": 2
+    },
+    {
+      "id": "karyotype",
+      "tier": "middle",
+      "t": "Pictures called karyotypes line these up by size so doctors can spot an extra or missing one",
+      "k": [
+        "karyotypes"
+      ],
+      "n": 3
+    },
+    {
+      "id": "mitosis",
+      "tier": "middle",
+      "t": "Mitosis hands out an identical set of these to each of the two new daughter cells",
+      "k": [
+        "mitosis",
+        "daughter cells"
+      ],
+      "n": 2,
+      "rabbit": "Meiosis"
+    },
+    {
+      "id": "histones",
+      "tier": "middle",
+      "t": "Made of DNA wound tightly around spool-shaped proteins called histones",
+      "k": [
+        "histones",
+        "spool-shaped"
+      ],
+      "n": 1
+    },
+    {
+      "id": "centromere-kinetochore",
+      "tier": "middle",
+      "t": "A pinched region, the centromere, anchors a protein complex called the kinetochore to the cell’s spindle fibers",
+      "k": [
+        "centromere",
+        "kinetochore"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ploidy",
+      "tier": "middle",
+      "t": "A cell is “haploid” with a single set of these (n) or “diploid” with two full sets (2n)",
+      "k": [
+        "haploid",
+        "diploid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "philadelphia",
+      "tier": "middle",
+      "t": "In one translocated, “Philadelphia”-named version, a swapped piece is linked to a form of leukemia",
+      "k": [
+        "philadelphia",
+        "translocated"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fragile-x",
+      "tier": "power",
+      "t": "Expanding repeats of CGG on the FMR1 gene can make one unusually fragile",
+      "k": [
+        "cgg repeats",
+        "fmr1"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lyonization-barr",
+      "tier": "power",
+      "t": "In female cells, one copy in a matched pair is silenced through “lyonization,” bundling into a dense “Barr body”",
+      "k": [
+        "lyonization",
+        "barr body"
+      ],
+      "n": 1
+    },
+    {
+      "id": "smc-proteins",
+      "tier": "power",
+      "t": "Condensin and cohesin, two SMC-family proteins, help organize and hold sister copies together",
+      "k": [
+        "condensin",
+        "cohesin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chiasmata",
+      "tier": "power",
+      "t": "While pairing up in meiosis, matched partners are zipped together by a scaffold called the synaptonemal complex; their crossovers show up as chiasmata",
+      "k": [
+        "synaptonemal complex",
+        "chiasmata"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bacterial-circular",
+      "tier": "power",
+      "t": "Bacterial versions are circular loops, unlike the linear ones found in human cells",
+      "k": [
+        "circular loops",
+        "linear"
+      ],
+      "n": 1
+    },
+    {
+      "id": "polytene",
+      "tier": "power",
+      "t": "Giant “polytene” copies of these form in the salivary glands of fruit fly larvae",
+      "k": [
+        "polytene",
+        "salivary glands"
+      ],
+      "n": 1
+    },
+    {
+      "id": "plant-doubling",
+      "tier": "power",
+      "t": "Treating plant cells with colchicine can double how many of these they have, a trick used in breeding wheat and seedless watermelon",
+      "k": [
+        "colchicine",
+        "seedless watermelon"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fern-record",
+      "tier": "power",
+      "t": "A fern called the adder’s-tongue holds the record for the most of these in any plant, over 1,200",
+      "k": [
+        "adder’s-tongue",
+        "1,200"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sporophyte-gametophyte",
+      "tier": "power",
+      "t": "In ferns and mosses, the spore-making sporophyte stage carries twice as many of these as the gametophyte stage",
+      "k": [
+        "sporophyte",
+        "gametophyte"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Chromosomes, or just the X?",
+    "body": "This general answer line accepts specific sex-chromosome guesses like “X chromosome” or “Y chromosome,” since they are just examples. But several real tossups are built entirely around clues that only make sense for one specific chromosome — the X, including Barr bodies, lyonization, fragile X syndrome, or counting a single X (Turner syndrome) versus an extra one (Klinefelter syndrome).",
+    "fix": "If every clue in the question only makes sense for the X (or another single named one, like 21), give that specific name. If the clues mix in facts true of all of them — a count, karyotypes, mitosis, genes in general — the general answer is safe, and “chromatin” is never correct either way.",
+    "line": "Real answer line: <b><u>Chromosomes</u></b> (accept X/Y/sex/autosomal chromosome; prompt on autosome; do not accept or prompt on chromatin) — a related real tossup instead wants “X chromosome” specifically, and only prompts on bare “chromosome.”"
+  },
+  "tests": {
+    "right": [
+      "Chromosomes",
+      "chromosome",
+      "Chromosme",
+      "X Chromosome",
+      "Sex Chromosomes"
+    ],
+    "prompt": [
+      "Autosome"
+    ],
+    "wrong": [
+      "Chromatin",
+      "DNA",
+      "Nucleus",
+      "Down Syndrome",
+      "Meiosis"
+    ]
+  },
+  "freq": {
+    "rank": 26,
+    "count": 3,
+    "list": "Biology"
+  }
+}

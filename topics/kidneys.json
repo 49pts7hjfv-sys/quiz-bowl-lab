@@ -1,0 +1,372 @@
+{
+  "id": "kidneys",
+  "name": "Kidneys",
+  "mono": "KID",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Paired bean-shaped filters · Clean the blood and make urine",
+  "dates": "Filter roughly 150 quarts of blood a day",
+  "briefing": "Shaped like a pair of beans and tucked just below the rib cage, one on each side of the spine, this duo works around the clock filtering roughly 150 quarts of blood a day. Inside each one, about a million microscopic units called nephrons strain out waste and extra water, sending it off as urine while useful substances get reabsorbed. They also release hormones that help control blood pressure and red blood cell production.",
+  "answerHtml": "<b><u>Kidneys</u></b> (accept <u>kidney</u>; prompt on <u>urinary system</u> or <u>excretory system</u>; do not accept or prompt on “nephron”)",
+  "accept": [
+    "kidneys",
+    "kidney",
+    "human kidneys"
+  ],
+  "prompt": [
+    "urinary system",
+    "excretory system"
+  ],
+  "reject": [
+    "liver",
+    "heart",
+    "brain",
+    "lungs",
+    "nephron",
+    "nephrons",
+    "bladder",
+    "ureter",
+    "ureters",
+    "adrenal gland",
+    "adrenal glands",
+    "urine",
+    "dialysis",
+    "glomerulus"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How do your kidneys work?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=FN3MFhYPWWo",
+      "note": "Animated lesson on how nephrons filter the blood and make urine"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Urinary System, Part 1: Crash Course Anatomy & Physiology #38",
+      "source": "Crash Course Anatomy & Physiology",
+      "url": "https://www.youtube.com/watch?v=l128tW1H5a8",
+      "note": "Kidney anatomy and how nephrons filter the blood (older end)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Urinary System, Part 2: Crash Course Anatomy & Physiology #39",
+      "source": "Crash Course Anatomy & Physiology",
+      "url": "https://www.youtube.com/watch?v=DlqyyyvTI3k",
+      "note": "How the kidneys take back what the body needs and turn the rest into urine (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Your Kidneys (for Kids)",
+      "source": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/kidneys.html",
+      "note": "Quick read: what the kidneys do, how pee is made, and homeostasis"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Kidney",
+  "qb": {
+    "q": "kidneys",
+    "found": 5,
+    "tip": "All 5 Middle School/Easy High School tossups lean on the same core facts (nephrons, Bowman’s capsule, loop of Henle, renin); one explicitly says not to accept or prompt on “nephron” as an answer."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Microscopic filtering units called nephrons, about a million per organ, do the real work inside this pair of organs. Each nephron’s cup-shaped Bowman’s capsule wraps around a tangled knot of capillaries, filtering blood plasma into the start of a long tubule.",
+      "r": "When these organs fail, a machine doing dialysis can filter blood in their place. For 10 points, name this bean-shaped pair of organs that filters blood and produces urine."
+    },
+    {
+      "p": "Falling sodium levels sensed in the distal convoluted tubule trigger a structure called the juxtaglomerular apparatus to release the enzyme renin, part of this organ’s role in regulating blood pressure. A different stretch of tubule, the loop of Henle, lets water pass through its descending limb while its ascending limb pumps out salt.",
+      "r": "Tubes called ureters carry urine away from this organ toward the bladder. For 10 points, name this organ that filters waste out of the blood."
+    },
+    {
+      "p": "In children, a cancerous growth called a Wilms’ tumor can form in this organ, and Alport syndrome can scar its filtering membranes over time. The hormone vasopressin, also called ADH, signals this organ to reabsorb more water and make more concentrated urine.",
+      "r": "Each nephron’s Bowman’s capsule surrounds a capillary tuft called the glomerulus. For 10 points, name this bean-shaped organ that filters blood to produce urine."
+    },
+    {
+      "p": "At the glomerulus, this organ normally keeps large proteins from slipping out of the blood and into the filtered fluid. Further along, the loop of Henle helps concentrate urine by reabsorbing salt and water.",
+      "r": "When minerals crystallize inside this organ, they can form hardened deposits called stones, which cause intense pain as they pass toward the bladder. For 10 points, name this organ that filters blood and makes urine."
+    },
+    {
+      "p": "Each nephron’s Bowman’s capsule is divided into an outer parietal layer and an inner visceral layer wrapped around the glomerulus. The adrenal glands sit directly on top of this pair of organs, one perched above each.",
+      "r": "Dialysis machines can take over this organ’s job when it fails. For 10 points, name this bean-shaped, paired organ that filters the blood and sends waste out as urine."
+    },
+    {
+      "p": "Despite making up less than one percent of body weight, this organ receives roughly one-fifth of the blood pumped with every heartbeat. It releases the enzyme renin, which helps control blood pressure by triggering a chain reaction called the renin-angiotensin system.",
+      "r": "Shaped like a pair of beans, this organ sits just below the rib cage on either side of the spine. For 10 points, name this organ that filters blood to produce urine."
+    },
+    {
+      "p": "This organ produces the hormone erythropoietin, which signals bone marrow to make more red blood cells. It also helps keep the blood’s pH and electrolyte levels steady by adjusting exactly what it excretes.",
+      "r": "Patients on dialysis have a machine do this organ’s filtering job artificially. For 10 points, name this organ that filters waste from the blood and produces urine."
+    },
+    {
+      "p": "About a million nephrons pack into each half of this pair of organs, each one built around a looping tubule. The loop of Henle, part of that tubule, helps concentrate urine before it leaves this organ.",
+      "r": "Shaped like a pair of beans, this organ sits below the rib cage. For 10 points, name this organ that filters the blood and makes urine."
+    },
+    {
+      "p": "A cup-shaped structure called Bowman’s capsule wraps around a capillary tuft in every nephron of this organ, forming the first stop in its filtering process. The hormone vasopressin tells this organ to pull back extra water instead of releasing it.",
+      "r": "Tubes called ureters drain this organ’s urine down into the bladder. For 10 points, name this organ that filters blood to produce urine."
+    },
+    {
+      "p": "The glomerulus, a tiny tangle of capillaries inside this organ, normally keeps large proteins safely in the bloodstream while letting smaller molecules and water pass through. The adrenal glands rest just above this organ on each side.",
+      "r": "For 10 points, name this bean-shaped organ, found in a pair, that filters blood and makes urine."
+    },
+    {
+      "p": "A drop in sodium detected in the distal convoluted tubule of this organ sets off the release of renin from its juxtaglomerular apparatus. Minerals that crystallize inside this organ can form painful stones.",
+      "r": "Shaped like a pair of beans, this organ filters the blood. For 10 points, name this organ that produces urine."
+    },
+    {
+      "p": "A Wilms’ tumor is a rare childhood cancer of this organ, while Alport syndrome can gradually scar its tiny filtering membranes. This organ also helps regulate blood pressure and electrolyte balance.",
+      "r": "Found just below the rib cage, one on each side of the spine, this organ filters waste from the blood. For 10 points, name this bean-shaped organ that produces urine."
+    },
+    {
+      "p": "Though it is a small fraction of total body weight, this organ receives about a fifth of the heart’s blood output with every beat. When this organ fails, dialysis can filter the blood artificially instead.",
+      "r": "For 10 points, name this organ, found in a bean-shaped pair, that filters blood to produce urine."
+    },
+    {
+      "p": "This organ produces erythropoietin to stimulate red blood cell production in the bone marrow. The loop of Henle, a looping tubule inside each of its nephrons, helps concentrate the urine it produces.",
+      "r": "Tubes called ureters carry that urine away from this organ to the bladder. For 10 points, name this bean-shaped, paired organ that filters the blood."
+    },
+    {
+      "p": "Each nephron’s Bowman’s capsule has two layers, an outer parietal layer and an inner visceral layer, cupped around a ball of capillaries. The hormone vasopressin and the adrenal glands sitting just above this organ both help regulate how much water and salt it holds onto.",
+      "r": "Shaped like a pair of beans and tucked below the rib cage, this organ works around the clock. For 10 points, name this organ that filters blood and produces urine."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Filters waste out of the blood and produces urine",
+      "k": [
+        "filters blood",
+        "produces urine"
+      ],
+      "n": 5
+    },
+    {
+      "id": "bean-shaped",
+      "tier": "giveaway",
+      "t": "Described as a pair of bean-shaped organs",
+      "k": [
+        "bean shaped",
+        "pair"
+      ],
+      "n": 4
+    },
+    {
+      "id": "location",
+      "tier": "giveaway",
+      "t": "Found as a pair, one on each side of the spine, just below the rib cage",
+      "k": [
+        "pair",
+        "below the rib cage"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ureters-bladder",
+      "tier": "giveaway",
+      "t": "Urine drains out through tubes called ureters into the bladder",
+      "k": [
+        "ureters",
+        "bladder"
+      ],
+      "n": 3
+    },
+    {
+      "id": "dialysis",
+      "tier": "middle",
+      "t": "Dialysis machines can take over its filtering job artificially if it fails",
+      "k": [
+        "dialysis",
+        "machines"
+      ],
+      "n": 4
+    },
+    {
+      "id": "loop-of-henle",
+      "tier": "middle",
+      "t": "The loop of Henle, part of each nephron’s tubule, helps concentrate urine by reabsorbing salt and water",
+      "k": [
+        "loop of henle",
+        "concentrate urine"
+      ],
+      "n": 3
+    },
+    {
+      "id": "renin",
+      "tier": "middle",
+      "t": "Releases the enzyme renin, which helps regulate blood pressure",
+      "k": [
+        "renin",
+        "blood pressure"
+      ],
+      "n": 4
+    },
+    {
+      "id": "vasopressin",
+      "tier": "middle",
+      "t": "Responds to the hormone vasopressin (ADH), which signals it to reabsorb more water",
+      "k": [
+        "vasopressin",
+        "adh"
+      ],
+      "n": 2
+    },
+    {
+      "id": "adrenal-glands",
+      "tier": "middle",
+      "t": "The adrenal glands sit directly on top of each one",
+      "k": [
+        "adrenal glands"
+      ],
+      "n": 2
+    },
+    {
+      "id": "stones",
+      "tier": "middle",
+      "t": "Crystallized minerals can form hardened deposits called stones inside it, which cause intense pain",
+      "k": [
+        "stones",
+        "crystallized minerals"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ph-balance",
+      "tier": "middle",
+      "t": "Helps control the body’s pH and electrolyte balance by adjusting what it excretes",
+      "k": [
+        "ph balance",
+        "electrolyte"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nephron",
+      "tier": "power",
+      "t": "The nephron is its microscopic functional unit, with roughly a million packed into each one",
+      "k": [
+        "nephron",
+        "functional unit"
+      ],
+      "n": 5
+    },
+    {
+      "id": "bowmans-capsule",
+      "tier": "power",
+      "t": "Each nephron’s cup-shaped Bowman’s capsule wraps around a tangled knot of capillaries",
+      "k": [
+        "bowman’s capsule"
+      ],
+      "n": 4
+    },
+    {
+      "id": "glomerulus",
+      "tier": "power",
+      "t": "The capillary tuft inside Bowman’s capsule is called the glomerulus",
+      "k": [
+        "glomerulus",
+        "capillary tuft"
+      ],
+      "n": 1
+    },
+    {
+      "id": "filters-proteins",
+      "tier": "power",
+      "t": "Normally keeps large proteins from slipping out of the blood and into the filtered fluid at the glomerulus",
+      "k": [
+        "large proteins",
+        "filtered fluid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "distal-tubule",
+      "tier": "power",
+      "t": "A drop in sodium sensed in the distal convoluted tubule triggers the juxtaglomerular apparatus to release renin",
+      "k": [
+        "distal convoluted tubule",
+        "juxtaglomerular apparatus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "alport-wilms",
+      "tier": "power",
+      "t": "In children, Alport syndrome can scar its filtering membranes, and a Wilms’ tumor can form inside it",
+      "k": [
+        "alport syndrome",
+        "wilms tumor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "capsule-layers",
+      "tier": "power",
+      "t": "Each Bowman’s capsule has an outer parietal layer and an inner visceral layer",
+      "k": [
+        "parietal layer",
+        "visceral layer"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cardiac-output",
+      "tier": "power",
+      "t": "Receives roughly one-fifth of the blood pumped with every heartbeat, despite being a tiny fraction of body weight",
+      "k": [
+        "one fifth",
+        "heartbeat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "erythropoietin",
+      "tier": "power",
+      "t": "Produces the hormone erythropoietin, which signals bone marrow to make more red blood cells",
+      "k": [
+        "erythropoietin",
+        "red blood cells"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not nephron, not liver",
+    "body": "One real tossup explicitly warns judges not to accept or prompt on “nephron” — the nephron is only the microscopic filtering unit inside this organ, not the organ itself, so naming it is a different, too-specific answer. The liver is a separate organ that also “detoxifies” the body, but it does so by processing chemicals and making bile, not by filtering blood into urine.",
+    "fix": "If the clues mention microscopic structures (nephrons, Bowman’s capsule, the loop of Henle) without ever naming the whole organ, wait for a clue true of the organ as a whole — “bean-shaped,” “filters blood,” “produces urine” — before buzzing.",
+    "line": "Real answer line: <b><u>Kidneys</u></b> [one real tossup specifies: do NOT accept or prompt on “nephron”]"
+  },
+  "tests": {
+    "right": [
+      "Kidneys",
+      "Kideys",
+      "Kidney",
+      "Human Kidneys"
+    ],
+    "prompt": [
+      "Urinary System",
+      "Excretory system"
+    ],
+    "wrong": [
+      "Liver",
+      "Heart",
+      "Nephron",
+      "Bladder",
+      "Lungs"
+    ]
+  },
+  "freq": {
+    "rank": 8,
+    "count": 7,
+    "list": "Biology"
+  }
+}

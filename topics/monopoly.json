@@ -1,0 +1,366 @@
+{
+  "id": "monopoly",
+  "name": "Monopoly",
+  "mono": "MON",
+  "category": "Social Science",
+  "qbCategory": "Social Science",
+  "kicker": "A market with just one seller · Countered by antitrust law since 1890",
+  "dates": "Countered by antitrust law since 1890",
+  "briefing": "Picture a town with only one power company and no other choice for electricity — that town is stuck dealing with a monopoly, a market with just one seller and no real competition. Without rivals pushing prices down, that seller can charge more and decide how much to produce. High barriers that keep new competitors out, like huge startup costs, help monopolies survive, which is why the United States has passed antitrust laws since 1890 to break them up or keep them in check.",
+  "answerHtml": "<b><u>Monopoly</u></b>",
+  "accept": [
+    "monopoly",
+    "monopolies",
+    "natural monopoly"
+  ],
+  "prompt": [
+    "one seller",
+    "a single seller"
+  ],
+  "reject": [
+    "monopolistic competition",
+    "monopsony",
+    "oligopoly",
+    "duopoly",
+    "perfect competition",
+    "oligopsony"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is a Monopoly? | Economics Explained",
+      "source": "Federal Reserve Bank of St. Louis",
+      "url": "https://www.youtube.com/watch?v=146O2tCFBWs",
+      "note": "Simple explainer from a Federal Reserve bank: one seller, no real competition"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Monopolies and Anti-Competitive Markets: Crash Course Economics #25",
+      "source": "Crash Course Economics",
+      "url": "https://www.youtube.com/watch?v=Sb_-wfmJnHA",
+      "note": "How monopolies form, why they can charge more, and how antitrust laws push back"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Review of revenue and cost graphs for a monopoly | Microeconomics | Khan Academy",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=A_lV-XArVeE",
+      "note": "Whiteboard lesson on the monopoly graph: marginal revenue, cost, and profit"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Monopoly Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Monopoly",
+      "note": "Quick read: one seller controlling a market, natural monopolies, and the laws against them"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Monopoly",
+  "qb": {
+    "q": "monopoly",
+    "found": 3,
+    "tip": "Searching this word without a Social Science filter mostly returns pop-culture questions about the board game of the same name; filtering by category found the real economics tossups instead, which lean on marginal revenue = marginal cost, barriers to entry, and antitrust law."
+  },
+  "sample": {
+    "n": 7,
+    "note": "3 real Middle School/Easy High School tossups plus 4 Regular High School tossups (7 total, power-marked, Social Science category only, to skip the board game) for this answer line"
+  },
+  "tossups": [
+    {
+      "p": "The Coase Conjecture [“kohs”] holds that a seller of a long-lasting good in this market structure must start by pricing low, since it will eventually compete against its own already-sold units. Profit here is still maximized where marginal revenue equals marginal cost, but the seller then charges whatever higher price the demand curve allows at that output.",
+      "r": "High barriers to entry, like huge startup costs, keep rivals from challenging a seller in this position. For 10 points, name this market structure in which a single seller faces no real competition."
+    },
+    {
+      "p": "The Lerner Index, built from the gap between price and marginal cost, measures how much pricing power a seller holds in this market structure, with values closer to one signaling greater power. Because output here falls below the competitive quantity, this situation also creates what economists call deadweight loss.",
+      "r": "The United States has passed antitrust laws since 1890 to break up or regulate firms in this position. For 10 points, name this market structure with only one seller."
+    },
+    {
+      "p": "Economies of scale often create a “natural” version of this market structure, making it cheapest for just one company to serve an entire market, as with water or electric utilities. The Ramsey problem asks how a regulated firm stuck in exactly this position should set prices that still cover its costs.",
+      "r": "A single seller here can set a higher price than it could if it faced competition. For 10 points, name this market structure in which one seller controls an entire market."
+    },
+    {
+      "p": "In 1911, the Supreme Court used American antitrust law to break up Standard Oil, one of history’s most famous examples of this market structure. Nineteenth-century business combinations called “trusts” gave antitrust law its very name, since they often created exactly this kind of single-seller control over an industry.",
+      "r": "High barriers to entry typically protect a seller in this position from new rivals. For 10 points, name this market structure defined by a single seller and no real competition."
+    },
+    {
+      "p": "Because it faces no close competitors, a seller in this market structure can sometimes charge different customers different prices for an identical good, a practice called price discrimination. Patents and copyrights can create temporary, government-granted versions of this situation by giving one company sole rights to sell something for a set number of years.",
+      "r": "Profit is maximized here where marginal revenue equals marginal cost. For 10 points, name this market structure in which only one seller exists."
+    },
+    {
+      "p": "This market structure differs from “monopolistic competition,” where many sellers offer similar but not identical products, and from an oligopoly, where just a few large sellers compete. It is also distinct from a monopsony, the mirror-image situation with only one buyer instead of one seller.",
+      "r": "A natural version of this market structure often arises in utilities like electricity and water, thanks to economies of scale. For 10 points, name this market structure with a single seller."
+    },
+    {
+      "p": "Unlike a firm in a competitive market, a seller in this position is called a “price maker” rather than a “price taker,” since it can set its own price instead of accepting one set by the market. High barriers to entry, whether natural economies of scale or legal protections like patents, keep this position from being challenged.",
+      "r": "Antitrust laws exist partly to counter sellers in this position. For 10 points, name this market structure in which a single seller dominates an entire industry."
+    },
+    {
+      "p": "The Ramsey problem addresses how a regulated seller in this market structure, often a utility, should price its product to best serve the public while still covering its costs. The Coase Conjecture, by contrast, points out that a seller of a durable good in this position loses pricing power over time as it competes with its own past sales.",
+      "r": "A single seller with no close competitors defines this market structure. For 10 points, name this situation faced by just one seller of a good or service."
+    },
+    {
+      "p": "Because output in this market structure sits below the level that would exist under full competition, economists say it creates deadweight loss, a measure of lost economic efficiency. Like any profit-maximizing firm, though, a seller here still produces at the quantity where marginal revenue equals marginal cost.",
+      "r": "Huge barriers to entry typically protect a seller’s position here from new competitors. For 10 points, name this market structure with just one seller."
+    },
+    {
+      "p": "The nineteenth-century business combinations called “trusts” lent their name to the antitrust laws that now exist to fight this market structure. Standard Oil was perhaps the most famous target of those laws before its breakup by the Supreme Court in 1911.",
+      "r": "A single company with no real rivals defines this type of market. For 10 points, name this market structure with only one seller."
+    },
+    {
+      "p": "A patent can grant an inventor a temporary, legal version of this market structure by giving one company exclusive rights to sell an invention for a set number of years. Because it faces no close rivals, a seller in this position can sometimes charge different prices to different customers for the very same product.",
+      "r": "Economies of scale can also create a “natural” version of this situation, especially among utilities. For 10 points, name this market structure defined by a single seller."
+    },
+    {
+      "p": "A monopsony is sometimes described as the mirror image of this market structure, since it involves only one buyer instead of one seller. An oligopoly, meanwhile, differs from this market structure by having a few large sellers instead of just one.",
+      "r": "High barriers to entry keep new sellers from breaking into a market controlled by this structure. For 10 points, identify this market structure in which a single seller faces no competition."
+    },
+    {
+      "p": "A seller in this position sets its price above marginal cost, unlike a competitive firm, because it faces no rivals pushing prices back down toward cost. Profit is still maximized at the output level where marginal revenue equals marginal cost, even though the price charged ends up higher than that cost.",
+      "r": "Governments regulate or break up firms in this position using antitrust law. For 10 points, name this market structure featuring one seller and no real competition."
+    },
+    {
+      "p": "Water, electricity, and other utilities are classic real-world examples of a “natural” version of this market structure, since economies of scale make a single large provider more efficient than several competing ones. Economists studying the Ramsey problem have asked how such a regulated seller should set prices that still cover its costs.",
+      "r": "Antitrust laws exist to break up or restrain sellers that hold this kind of market power. For 10 points, name this market structure with a single seller and high barriers to entry."
+    },
+    {
+      "p": "Before its 1911 breakup, Standard Oil controlled most of the American oil industry, becoming a textbook historical example of this market structure in action. High barriers to entry, like enormous startup costs or exclusive legal rights, typically protect a seller’s hold on this kind of position.",
+      "r": "A single seller with no close competitors defines this type of market structure, which antitrust law exists to counter. For 10 points, name this market structure with just one seller."
+    }
+  ],
+  "clues": [
+    {
+      "id": "one-seller",
+      "tier": "giveaway",
+      "t": "A market with only one seller and no real competitors for a particular good or service",
+      "k": [
+        "one seller",
+        "no competitors"
+      ],
+      "n": 5
+    },
+    {
+      "id": "no-rivals",
+      "tier": "giveaway",
+      "t": "Without rivals to compete against, the seller can set a higher price than it could in a competitive market",
+      "k": [
+        "no rivals",
+        "higher price"
+      ],
+      "n": 2
+    },
+    {
+      "id": "barriers",
+      "tier": "giveaway",
+      "t": "High barriers to entry keep new competitors from entering and breaking up this kind of market",
+      "k": [
+        "barriers to entry",
+        "new competitors"
+      ],
+      "n": 4
+    },
+    {
+      "id": "antitrust",
+      "tier": "giveaway",
+      "t": "Governments pass antitrust laws to break these up or stop them from forming in the first place",
+      "k": [
+        "antitrust laws",
+        "break up"
+      ],
+      "n": 2
+    },
+    {
+      "id": "natural-monopoly",
+      "tier": "middle",
+      "t": "A “natural” version forms when economies of scale make it cheapest for just one company to serve a whole market, like with utilities",
+      "k": [
+        "economies of scale",
+        "utilities"
+      ],
+      "n": 5
+    },
+    {
+      "id": "mr-mc",
+      "tier": "middle",
+      "t": "Like any firm, it maximizes profit where marginal revenue equals marginal cost, then charges whatever price the demand curve allows",
+      "k": [
+        "marginal revenue",
+        "marginal cost"
+      ],
+      "n": 4
+    },
+    {
+      "id": "deadweight-loss",
+      "tier": "middle",
+      "t": "Because it produces less than the competitive quantity, it creates what economists call deadweight loss",
+      "k": [
+        "deadweight loss",
+        "competitive quantity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "price-maker",
+      "tier": "middle",
+      "t": "Unlike firms in a competitive market, a seller here is a “price maker” instead of a “price taker”",
+      "k": [
+        "price maker",
+        "price taker"
+      ],
+      "n": 0
+    },
+    {
+      "id": "standard-oil",
+      "tier": "middle",
+      "t": "In 1911, the Supreme Court broke up Standard Oil, a famous historical target of American antitrust law",
+      "k": [
+        "standard oil",
+        "supreme court"
+      ],
+      "n": 0,
+      "rabbit": "Standard Oil"
+    },
+    {
+      "id": "patents",
+      "tier": "middle",
+      "t": "Patents and copyrights can create temporary, legal versions of this by giving one company or person sole rights for a time",
+      "k": [
+        "patents",
+        "sole rights"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trust-word",
+      "tier": "middle",
+      "t": "Nineteenth-century business combinations called “trusts” gave antitrust law its name",
+      "k": [
+        "trusts",
+        "nineteenth century"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sherman-act",
+      "tier": "middle",
+      "t": "The Sherman Antitrust Act of 1890 was the first U.S. federal law passed to fight them",
+      "k": [
+        "sherman antitrust act",
+        "federal law",
+        "1890"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coase",
+      "tier": "power",
+      "t": "The Coase Conjecture notes that a seller of a long-lasting good must start by pricing low, since it will later compete with its own already-sold goods",
+      "k": [
+        "coase conjecture",
+        "long lasting"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lerner-index",
+      "tier": "power",
+      "t": "The Lerner Index, calculated from price and marginal cost, measures how much pricing power a firm in this situation holds",
+      "k": [
+        "lerner index",
+        "pricing power"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ramsey",
+      "tier": "power",
+      "t": "The Ramsey problem asks how to price this kind of firm, often a regulated utility, to best serve the public",
+      "k": [
+        "ramsey problem",
+        "regulated utility"
+      ],
+      "n": 1
+    },
+    {
+      "id": "price-discrimination",
+      "tier": "power",
+      "t": "Because it faces no close competitors, a firm here can sometimes charge different customers different prices for the same good",
+      "k": [
+        "price discrimination",
+        "different prices"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monopolistic-competition-contrast",
+      "tier": "power",
+      "t": "Differs from “monopolistic competition,” where many sellers offer similar but not identical products",
+      "k": [
+        "monopolistic competition",
+        "many sellers"
+      ],
+      "n": 2
+    },
+    {
+      "id": "oligopoly-contrast",
+      "tier": "power",
+      "t": "Differs from an oligopoly, where just a few large sellers compete instead of only one",
+      "k": [
+        "oligopoly",
+        "few sellers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monopsony-contrast",
+      "tier": "power",
+      "t": "Differs from a monopsony, the mirror-image market with only one buyer instead of one seller",
+      "k": [
+        "monopsony",
+        "one buyer"
+      ],
+      "n": 2
+    },
+    {
+      "id": "franchise-style",
+      "tier": "power",
+      "t": "A government can also simply grant exclusive legal rights to one company, creating a franchise-style version of this",
+      "k": [
+        "franchise",
+        "exclusive legal rights"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Board game and look-alike terms",
+    "body": "Quiz bowl sometimes asks trivia or pop-culture questions about the Monopoly board game (Parker Brothers, Boardwalk, the “Go to Jail” space) — that is a completely different kind of question from this economics term, even though the word is spelled the same. Inside economics, this term also has close cousins that are NOT the same: monopolistic competition (many sellers, slightly different products) and monopsony (one BUYER instead of one seller).",
+    "fix": "Clues about dice, tokens, properties, or rent mean the board game. Clues about market structure, a single seller, barriers to entry, or antitrust law mean this economic concept. If the clue says “many sellers” or “one buyer,” that is a different market structure — do not buzz with this answer.",
+    "line": "Real answer line: <b><u>Monopoly</u></b> (real sets say “do not accept or prompt on monopolistic competition” or “monopsony”)"
+  },
+  "tests": {
+    "right": [
+      "Monopoly",
+      "Monopolies",
+      "Monoply",
+      "a natural monopoly"
+    ],
+    "prompt": [
+      "one seller"
+    ],
+    "wrong": [
+      "Monopolistic competition",
+      "Oligopoly",
+      "Monopsony",
+      "Perfect competition"
+    ]
+  },
+  "freq": {
+    "rank": 10,
+    "count": 3,
+    "list": "Social Science"
+  }
+}

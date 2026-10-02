@@ -1,0 +1,399 @@
+{
+  "id": "fungi",
+  "name": "Fungi",
+  "mono": "FUN",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Kingdom of molds, yeasts, mushrooms · Decomposers with no chlorophyll",
+  "dates": "Classified as its own kingdom in 1969",
+  "briefing": "Mushrooms, molds, yeasts, and truffles might look like plants, but fungi actually form their own kingdom of life. Lacking chlorophyll, most fungi feed by decomposing dead matter or by forming partnerships with plant roots called mycorrhizae. Unlike a plant’s cellulose walls, a fungal cell wall is built from a tough material called chitin, the same substance found in insect shells.",
+  "answerHtml": "<b><u>Fungi</u></b> (accept <u>fungus</u>; prompt on <u>mushrooms</u>, <u>molds</u>, <u>yeasts</u>, or <u>truffles</u>)",
+  "accept": [
+    "fungi",
+    "fungus"
+  ],
+  "prompt": [
+    "mushroom",
+    "mushrooms",
+    "mold",
+    "molds",
+    "yeast",
+    "yeasts",
+    "truffle",
+    "truffles"
+  ],
+  "reject": [
+    "plants",
+    "plant kingdom",
+    "plantae",
+    "algae",
+    "bacteria",
+    "protists",
+    "animals",
+    "lichen",
+    "lichens",
+    "mycelium",
+    "mycelia"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Are Fungi? The Fungi Kingdom for Kids",
+      "source": "Smile and Learn",
+      "url": "https://www.youtube.com/watch?v=5PWcEpAHjGE",
+      "note": "Simple cartoon intro to what fungi are and how they live"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Fungi: Exploring the Fungi Kingdom",
+      "source": "Miacademy",
+      "url": "https://www.youtube.com/watch?v=ivBeBo0kmXs",
+      "note": "Kid-level lesson on the fungi kingdom and how fungi live"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Fungi: Death Becomes Them - Crash Course Biology #39",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=m4DUZhnNo4s",
+      "note": "Hyphae, mycelium, chitin walls, spores, and fungi as decomposers (older end)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Could Fungi Actually Be the Key to Humanity’s Survival?",
+      "source": "TED",
+      "url": "https://www.youtube.com/watch?v=rfmDJzBorE0",
+      "note": "TED talk on what fungi do for the planet and how they might help people (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Biology for Kids: Fungi",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/biology/fungi.php",
+      "note": "Quick read on how fungi differ from plants, their roles, and types, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Fungus",
+  "qb": {
+    "q": "fungi",
+    "found": 6,
+    "tip": "All 6 Middle School/Easy High School matches are clean hits for this exact kingdom, with no off-topic results to exclude, so no Regular HS retry was needed."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A parasitic genus called cordyceps infects and eventually takes over the bodies of insects from the inside. Specialized coiled hyphae called pelotons form when some of these organisms trade nutrients with orchid roots, and a spore-bearing tissue layer called the hymenium lines the gills of many mushroom-forming species.",
+      "r": "Cell walls in this kingdom are built from chitin rather than cellulose, and its members lack chlorophyll entirely. For 10 points, name this kingdom of decomposers and parasites that includes mushrooms, molds, and yeasts."
+    },
+    {
+      "p": "One kind discovered at the Chernobyl disaster site appears to convert radiation into usable energy. A toxic kind called ergot infects rye and once caused outbreaks of “St. Anthony’s Fire,” while another kind, prized in Mexican cooking, infects corn and is called corn smut.",
+      "r": "Thread-like filaments called hyphae tangle together into a network called mycelium, and partnering with algae instead forms a lichen. For 10 points, name this kingdom that also includes mushrooms, molds, and yeasts."
+    },
+    {
+      "p": "Agaricus bisporus, sold in button and portobello forms, is one of the most widely farmed species in this kingdom, while the extremely poisonous “death cap” is a wild member of the same group. Some members transfer nuclei between adjoining cells through structures called clamp connections.",
+      "r": "Many members partner with plant roots in a mutually beneficial relationship called mycorrhizae, trading nutrients for sugar. For 10 points, name this kingdom whose cell walls are made of chitin, not cellulose."
+    },
+    {
+      "p": "Truffles, dug up by trained dogs or pigs, are the underground fruiting bodies of one group within this kingdom. Spores form inside microscopic sacs called asci or on club-shaped structures called basidia, and a toxic kind called ergot once caused outbreaks of “St. Anthony’s Fire” in people who ate infected rye.",
+      "r": "Lacking chlorophyll, members of this kingdom cannot make their own food and instead decompose dead matter or team up with plant roots. For 10 points, name this kingdom that includes mushrooms, molds, and yeasts."
+    },
+    {
+      "p": "The brewer’s and baker’s species Saccharomyces cerevisiae, a classic laboratory model organism, belongs to this kingdom, as does the toxic, rye-infecting ergot. A parasitic genus called cordyceps takes over the bodies of insects from within.",
+      "r": "This kingdom’s thread-like hyphae tangle into networks called mycelium, and its cell walls contain chitin instead of cellulose. For 10 points, name this kingdom that includes mushrooms, molds, and yeasts."
+    },
+    {
+      "p": "Specialized coiled hyphae called pelotons form when members of this kingdom trade nutrients with orchid roots. One corn-infecting member, prized as a delicacy in Mexican cooking, is called corn smut, and a spore-bearing tissue layer called the hymenium lines the gills of many of its mushroom-forming members.",
+      "r": "Lacking chlorophyll, this kingdom’s members cannot photosynthesize and instead decompose dead material or partner with plants. For 10 points, name this kingdom of mushrooms, molds, yeasts, and truffles."
+    },
+    {
+      "p": "Partnering with green algae forms a composite organism called a lichen, while partnering with plant roots instead forms a mycorrhiza. One kind found near Chernobyl seems to convert radiation into usable energy, and another, the extremely poisonous “death cap,” can be deadly if eaten.",
+      "r": "Spores develop inside sac-like asci or on club-shaped basidia in many members of this kingdom. For 10 points, name this kingdom whose cell walls are built from chitin, not cellulose."
+    },
+    {
+      "p": "Agaricus bisporus, farmed in button and portobello forms, is one of the most widely cultivated species of this kingdom. A genus called cordyceps parasitizes insects, eventually erupting from their bodies, and another member, discovered thriving at Chernobyl, appears to use radiation as an energy source.",
+      "r": "Thread-like hyphae woven into a mycelium let members of this kingdom absorb nutrients from their surroundings. For 10 points, name this kingdom that includes mushrooms, molds, and yeasts."
+    },
+    {
+      "p": "Truffles are the underground fruiting bodies of one group in this kingdom, while corn smut, a delicacy in Mexican cooking, infects another crop entirely. A toxic, rye-infecting member called ergot once caused outbreaks of a condition nicknamed “St. Anthony’s Fire.”",
+      "r": "This kingdom’s members lack chlorophyll and get nutrients by decomposing dead matter or by partnering with plant roots in a relationship called mycorrhizae. For 10 points, name this kingdom of mushrooms, molds, yeasts, and truffles."
+    },
+    {
+      "p": "A spore-bearing tissue layer called the hymenium lines the gills of many mushroom-forming members of this kingdom, which reproduce using spores made in sac-like asci or on club-shaped basidia. Some members transfer nuclei between cells through clamp connections.",
+      "r": "Cell walls throughout this kingdom are built from a tough material called chitin instead of the cellulose found in plants. For 10 points, name this kingdom that includes molds, yeasts, and truffles."
+    },
+    {
+      "p": "The poisonous “death cap” and the widely farmed Agaricus bisporus both belong to this kingdom, as does a parasitic genus, cordyceps, that overtakes the bodies of insects. One member discovered at Chernobyl appears to convert radiation directly into usable energy.",
+      "r": "Many members of this kingdom partner with plant roots, trading nutrients for sugar in a relationship called mycorrhizae. For 10 points, name this kingdom of mushrooms, molds, and yeasts, whose cell walls contain chitin."
+    },
+    {
+      "p": "Specialized hyphae called pelotons form when members of this kingdom partner with orchid roots, while an entirely different partnership, with green algae, produces a lichen. A toxic member called ergot infects rye and once caused “St. Anthony’s Fire.”",
+      "r": "This kingdom’s members lack chlorophyll, so they decompose dead matter or team up with living plants to get nutrients instead of making their own food. For 10 points, name this kingdom that includes mushrooms, molds, yeasts, and truffles."
+    },
+    {
+      "p": "A corn-infecting member of this kingdom, prized as a delicacy in Mexican cooking, is called corn smut, while truffles are the underground fruiting bodies of another group entirely. Some members pass nuclei between neighboring cells through structures called clamp connections.",
+      "r": "Spores form in sac-like structures called asci or on club-shaped basidia throughout much of this kingdom. For 10 points, name this kingdom of decomposers whose cell walls are built from chitin, not cellulose."
+    },
+    {
+      "p": "The brewer’s and baker’s species Saccharomyces cerevisiae is a classic model organism in this kingdom, which also includes a parasitic genus, cordyceps, that takes over insects from within. A spore-bearing layer called the hymenium lines the gills of many mushroom-forming members.",
+      "r": "Thread-like hyphae tangle into networks called mycelium, letting members of this kingdom soak up nutrients from dead matter or living plant partners. For 10 points, name this kingdom that includes mushrooms, molds, and yeasts."
+    },
+    {
+      "p": "This kingdom’s members can transfer nuclei between adjoining cells through clamp connections, and partner with green algae to form a composite organism called a lichen. A toxic, rye-infecting member called ergot once caused outbreaks of “St. Anthony’s Fire.”",
+      "r": "Lacking chlorophyll, members of this kingdom decompose dead matter or trade nutrients for sugar with plant roots in a relationship called mycorrhizae. For 10 points, name this kingdom whose cell walls are made of chitin rather than cellulose."
+    }
+  ],
+  "clues": [
+    {
+      "id": "kingdom",
+      "tier": "giveaway",
+      "t": "Forms its own kingdom of life, separate from plants and animals",
+      "k": [
+        "kingdom",
+        "separate"
+      ],
+      "n": 6
+    },
+    {
+      "id": "examples",
+      "tier": "giveaway",
+      "t": "Common members include mushrooms, molds, and yeasts",
+      "k": [
+        "mushrooms",
+        "molds",
+        "yeasts"
+      ],
+      "n": 6
+    },
+    {
+      "id": "chitin-walls",
+      "tier": "giveaway",
+      "t": "Cell walls are built from chitin instead of cellulose",
+      "k": [
+        "chitin",
+        "cellulose"
+      ],
+      "n": 4,
+      "rabbit": "Cell wall"
+    },
+    {
+      "id": "no-chlorophyll",
+      "tier": "giveaway",
+      "t": "Lack chlorophyll entirely, so they cannot make their own food the way plants do",
+      "k": [
+        "chlorophyll"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mycorrhizae",
+      "tier": "middle",
+      "t": "Partnering with plant roots to trade nutrients for sugar forms a relationship called mycorrhizae",
+      "k": [
+        "mycorrhizae",
+        "plant roots"
+      ],
+      "n": 4
+    },
+    {
+      "id": "hyphae-mycelium",
+      "tier": "middle",
+      "t": "Thread-like filaments called hyphae tangle together into a network called mycelium",
+      "k": [
+        "hyphae",
+        "mycelium"
+      ],
+      "n": 5
+    },
+    {
+      "id": "lichen",
+      "tier": "middle",
+      "t": "Partnering with algae instead of plant roots forms a composite organism called a lichen",
+      "k": [
+        "lichen",
+        "algae"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mold-example",
+      "tier": "middle",
+      "t": "Mold is one common, often unwanted, example of this kingdom",
+      "k": [
+        "mold"
+      ],
+      "n": 3
+    },
+    {
+      "id": "yeast-example",
+      "tier": "middle",
+      "t": "Yeasts are single-celled members used in baking and brewing",
+      "k": [
+        "yeasts",
+        "single-celled"
+      ],
+      "n": 4
+    },
+    {
+      "id": "saccharomyces",
+      "tier": "middle",
+      "t": "The species Saccharomyces cerevisiae, used in baking and brewing, is a classic laboratory model organism here",
+      "k": [
+        "saccharomyces cerevisiae"
+      ],
+      "n": 2
+    },
+    {
+      "id": "spores-asci-basidia",
+      "tier": "middle",
+      "t": "Many reproduce using spores made inside sacs called asci or on club-shaped structures called basidia",
+      "k": [
+        "asci",
+        "basidia"
+      ],
+      "n": 3
+    },
+    {
+      "id": "decomposers",
+      "tier": "middle",
+      "t": "Many recycle nutrients by breaking down dead material as decomposers",
+      "k": [
+        "decomposers",
+        "dead material"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ergot",
+      "tier": "middle",
+      "t": "A toxic type called ergot infects rye and once caused outbreaks of “St. Anthony’s Fire”",
+      "k": [
+        "ergot",
+        "rye"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cordyceps",
+      "tier": "power",
+      "t": "A parasitic genus called cordyceps takes over the bodies of insects from within",
+      "k": [
+        "cordyceps",
+        "insects"
+      ],
+      "n": 1
+    },
+    {
+      "id": "corn-smut",
+      "tier": "power",
+      "t": "One corn-infecting type, prized in Mexican cooking, is called corn smut",
+      "k": [
+        "corn smut"
+      ],
+      "n": 1
+    },
+    {
+      "id": "agaricus",
+      "tier": "power",
+      "t": "Agaricus bisporus, sold as button and portobello mushrooms, is one of the most widely farmed species",
+      "k": [
+        "agaricus bisporus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "death-cap",
+      "tier": "power",
+      "t": "The extremely poisonous “death cap” is a wild member of this kingdom",
+      "k": [
+        "death cap",
+        "poisonous"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chernobyl",
+      "tier": "power",
+      "t": "One kind discovered at the Chernobyl disaster site appears to convert radiation into usable energy",
+      "k": [
+        "chernobyl",
+        "radiation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "clamp-connections",
+      "tier": "power",
+      "t": "Some transfer nuclei between adjoining cells through structures called clamp connections",
+      "k": [
+        "clamp connections"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pelotons",
+      "tier": "power",
+      "t": "Specialized coiled hyphae called pelotons form when some of these partner with orchid roots",
+      "k": [
+        "pelotons",
+        "orchid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hymenium",
+      "tier": "power",
+      "t": "A spore-bearing tissue layer called the hymenium lines the gills of many mushroom-forming members",
+      "k": [
+        "hymenium",
+        "gills"
+      ],
+      "n": 1
+    },
+    {
+      "id": "truffle-detail",
+      "tier": "power",
+      "t": "Truffles, dug up by trained dogs or pigs, are the prized underground fruiting bodies of another group here",
+      "k": [
+        "truffles",
+        "underground"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Fungi, or just a plant?",
+    "body": "Mushrooms and molds look plant-like and do not move, but they are not plants — they cannot make their own food, since they lack chlorophyll entirely. Their cell walls are also built differently: chitin here, versus cellulose in a true plant’s cell wall. A lichen, built from a fungus paired with algae, is a different combined organism, not this kingdom alone.",
+    "fix": "If clues mention chlorophyll, photosynthesis, or cellulose cell walls, that points to a plant or alga, not this kingdom. If clues mention chitin cell walls, hyphae, mycorrhizae, decomposing dead matter, or no chlorophyll at all, that points here.",
+    "line": "Real answer line: <b><u>Fungi</u></b> (accept fungus) [reject plants, algae]."
+  },
+  "tests": {
+    "right": [
+      "Fungi",
+      "fungus",
+      "Fungus",
+      "Fungii"
+    ],
+    "prompt": [
+      "Mushroom",
+      "Mold"
+    ],
+    "wrong": [
+      "Plants",
+      "Algae",
+      "Bacteria",
+      "Lichen"
+    ]
+  },
+  "freq": {
+    "rank": 8,
+    "count": 7,
+    "list": "Biology"
+  }
+}

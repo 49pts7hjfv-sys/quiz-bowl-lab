@@ -1,0 +1,380 @@
+{
+  "id": "acceleration",
+  "name": "Acceleration",
+  "mono": "ACC",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Physics quantity · How fast velocity itself is changing",
+  "dates": "SI unit: meters per second, per second",
+  "briefing": "Acceleration measures how quickly something’s velocity is changing, whether it is speeding up, slowing down, or simply turning a corner at a constant speed. Isaac Newton’s second law ties it directly to force and mass: push twice as hard on the same object, and it accelerates twice as fast. Every object in free fall near Earth’s surface accelerates downward at the same rate, about 9.8 meters per second every second.",
+  "answerHtml": "<b><u>Acceleration</u></b> (prompt on <u>a</u> or <u>alpha</u>)",
+  "accept": [
+    "acceleration",
+    "centripetal acceleration",
+    "angular acceleration",
+    "linear acceleration"
+  ],
+  "prompt": [
+    "a",
+    "alpha"
+  ],
+  "reject": [
+    "velocity",
+    "speed",
+    "force",
+    "jerk"
+  ],
+  "tests": {
+    "right": [
+      "Acceleration",
+      "acceleration",
+      "Acceleraton",
+      "Centripetal Acceleration"
+    ],
+    "prompt": [
+      "A",
+      "Alpha"
+    ],
+    "wrong": [
+      "Velocity",
+      "Speed",
+      "Force",
+      "Jerk"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Acceleration",
+      "source": "FuseSchool",
+      "url": "https://www.youtube.com/watch?v=xdHPTYYBTn8",
+      "note": "Animated intro to acceleration as a change in velocity over time"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Worked example: Acceleration",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=20qzG3UmoA0",
+      "note": "Step-by-step practice working out an acceleration"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Worked ex: Direction of acceleration and velocity",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=HphFtOvvtcw",
+      "note": "How the direction of acceleration vs. velocity tells you if something speeds up or slows down"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Intro to motion with constant acceleration",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=I-w7x-CCi-c",
+      "note": "Motion when velocity changes at a steady rate (older end)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Newton’s Laws: Crash Course Physics #5",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
+      "note": "Newton’s three laws, including F = ma, which ties force and mass to acceleration"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Acceleration",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/physics/acceleration.php",
+      "note": "Quick read on measuring acceleration, free fall, and deceleration, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Acceleration",
+  "qb": {
+    "q": "acceleration",
+    "found": 10,
+    "tip": "2 of the 10 difficulty 1-2 hits are really built around “gravity” as the true answer (their lines just also accept “acceleration due to gravity” as a phrasing), so only 8 of the 10 are genuine tossups on this exact quantity."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked), after excluding 2 results from the same search whose real answer was gravity"
+  },
+  "tossups": [
+    {
+      "p": "This quantity can be reported in a specialized unit called the “gal,” mainly used by geophysicists measuring Earth’s gravitational pull. Even while an object’s speed stays perfectly constant along a circular path, this quantity is never actually zero. Isaac Newton’s second law of motion states that this quantity is inversely proportional to an object’s",
+      "r": "mass for a given force. Near Earth’s surface, this quantity for a freely falling object equals about 9.8 meters per second, per second. For 10 points, name this quantity, a measure of how quickly velocity changes over time."
+    },
+    {
+      "p": "The rate at which this quantity itself changes is given the playful name “jerk.” By definition, an “inertial” reference frame has a value of exactly zero for this quantity. Starting from rest, an object’s displacement equals one-half of this quantity multiplied by",
+      "r": "time squared, assuming this quantity stays constant. By Newton’s second law of motion, this quantity equals net force divided by mass. For 10 points, name this quantity, which equals about 9.8 meters per second squared for objects in free fall near Earth."
+    },
+    {
+      "p": "A center-seeking force produces a “centripetal” version of this quantity in any object moving in uniform circular motion. Whenever the net force acting on a body is zero, this quantity for that body is also exactly",
+      "r": "zero. For any object in free fall near Earth’s surface, this quantity measures about 9.8 meters per second, per second. Newton’s second law says force equals mass multiplied by this quantity. For 10 points, name this rate of change of velocity."
+    },
+    {
+      "p": "Differentiating this quantity with respect to time yields a quantity nicknamed “jerk.” Dividing velocity squared by radius gives the center-pointing, “centripetal” form of this quantity for an object moving along a curve. According to Newton’s second law, dividing net force by",
+      "r": "mass gives this quantity. An object sits in equilibrium exactly when this quantity drops to zero. For 10 points, name this quantity, defined as the second derivative of position and the rate of change of velocity."
+    },
+    {
+      "p": "A center-seeking force produces an inward-pointing form of this quantity equal to velocity squared divided by radius, during uniform circular motion. This quantity is itself the mathematical derivative of velocity with respect to time. Multiplying an object’s mass by this quantity gives the net force acting on it, according to",
+      "r": "Newton’s second law of motion. For 10 points, name this quantity, which is non-zero whenever an object is changing direction, slowing down, or speeding up."
+    },
+    {
+      "p": "This quantity’s own rate of change over time carries the nickname “jerk.” As the second derivative of displacement with respect to time, this quantity equals exactly zero whenever the forces acting on an object are perfectly",
+      "r": "balanced. Newton’s second law of motion states that force equals mass multiplied by this quantity. For 10 points, name this quantity, measured in meters per second squared, that describes how an object’s velocity is changing."
+    },
+    {
+      "p": "The angular version of this quantity equals net torque divided by an object’s moment of inertia. During uniform circular motion, a center-seeking force produces a form of this quantity that always points radially inward, equal to velocity squared over radius. Multiplying mass by this quantity, according to",
+      "r": "Newton’s second law, gives the net force on an object. For 10 points, name this quantity, which is non-zero whenever an object is changing direction, slowing down, or speeding up."
+    },
+    {
+      "p": "During simple harmonic motion, this quantity equals negative the square of angular speed multiplied by displacement from equilibrium. One version of this quantity, labeled “centripetal,” equals velocity squared divided by radius. This quantity is formally defined as the second derivative of",
+      "r": "position with respect to time, and by Newton’s second law, equals net force divided by mass. For 10 points, name this quantity, symbolized a, the rate of change of velocity."
+    },
+    {
+      "p": "Geophysicists sometimes measure Earth’s gravitational pull in a unit called the “gal” when discussing this quantity. Even without any change in speed, an object curving along a circular path still experiences a nonzero value of this quantity, directed toward the circle’s center.",
+      "r": "Newton’s second law states that this quantity equals net force divided by mass. For 10 points, name this quantity, equal to about 9.8 meters per second squared for freely falling objects near Earth."
+    },
+    {
+      "p": "Astronauts and fighter pilots sometimes describe extreme values of this quantity, during launch or sharp turns, in multiples of its ordinary free-fall value near Earth. The derivative of this quantity with respect to time is nicknamed",
+      "r": "“jerk.” By Newton’s second law of motion, this quantity equals the net force on an object divided by that object’s mass. For 10 points, name this quantity, the rate at which velocity changes over time."
+    },
+    {
+      "p": "An observer riding along in an inertial frame of reference has a value of zero for this quantity. The second derivative of an object’s position with respect to time gives exactly this quantity. Multiplying velocity squared by the inverse of radius gives the",
+      "r": "centripetal form of this quantity, which points toward the center of a circular path. For 10 points, name this quantity that Newton’s second law relates to force and mass."
+    },
+    {
+      "p": "A speedometer alone cannot show this quantity directly, since this quantity depends on how quickly the speedometer’s own reading changes over time. In simple harmonic motion, this quantity equals negative the square of angular speed multiplied by",
+      "r": "displacement. Newton’s second law defines force as mass multiplied by this quantity. For 10 points, name this quantity, the rate of change of velocity, symbolized a."
+    },
+    {
+      "p": "This quantity’s rotational counterpart equals net torque divided by moment of inertia, just as force relates to this quantity and mass in straight-line motion. Passengers feel pressed back into their seats whenever a car experiences a forward form of this",
+      "r": "quantity. For 10 points, name this quantity, which is zero whenever an object moves at constant velocity in a straight line, and about 9.8 meters per second squared for objects in free fall near Earth."
+    },
+    {
+      "p": "Galileo’s famous ramp experiments were among the earliest careful studies of this quantity, decades before Newton wrote down his laws of motion. On a graph of position versus time, this quantity shows up as the curve’s",
+      "r": "curvature, or second derivative. For 10 points, name this quantity that Newton’s second law sets equal to net force divided by mass."
+    },
+    {
+      "p": "An object curving around a circular track at an unchanging speed still has a nonzero, inward-pointing form of this quantity, distinct from any change in speed itself. Whenever every force on an object cancels out, this quantity drops to",
+      "r": "zero. For 10 points, name this quantity, the rate of change of velocity over time, which Newton’s second law sets equal to net force divided by mass."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The rate at which an object’s velocity changes over time, non-zero whenever something speeds up, slows down, or changes direction",
+      "k": [
+        "rate",
+        "velocity changes"
+      ],
+      "n": 8
+    },
+    {
+      "id": "newton-second-law",
+      "tier": "giveaway",
+      "t": "Equal to the net force on an object divided by its mass, according to Newton’s second law of motion",
+      "k": [
+        "newton",
+        "divided by its mass"
+      ],
+      "n": 8
+    },
+    {
+      "id": "earth-gravity-value",
+      "tier": "giveaway",
+      "t": "Equals about 9.8 meters per second, per second, for any object in free fall near Earth’s surface",
+      "k": [
+        "9.8",
+        "free fall"
+      ],
+      "n": 3
+    },
+    {
+      "id": "zero-equilibrium",
+      "tier": "giveaway",
+      "t": "Equal to zero whenever all the forces acting on an object are balanced",
+      "k": [
+        "balanced",
+        "equilibrium"
+      ],
+      "n": 4
+    },
+    {
+      "id": "centripetal",
+      "tier": "middle",
+      "t": "In uniform circular motion, a special inward-pointing form of this quantity equals velocity squared divided by radius",
+      "k": [
+        "circular motion",
+        "velocity squared",
+        "radius"
+      ],
+      "n": 7
+    },
+    {
+      "id": "second-derivative",
+      "tier": "middle",
+      "t": "Mathematically, the second derivative of an object’s position with respect to time",
+      "k": [
+        "second derivative",
+        "position"
+      ],
+      "n": 3
+    },
+    {
+      "id": "jerk",
+      "tier": "middle",
+      "t": "This quantity’s own rate of change over time is nicknamed “jerk”",
+      "k": [
+        "jerk"
+      ],
+      "n": 2,
+      "rabbit": "Jerk (physics)"
+    },
+    {
+      "id": "vector-nature",
+      "tier": "middle",
+      "t": "A vector quantity, meaning it has both a size and a direction, not just a size",
+      "k": [
+        "vector",
+        "direction"
+      ],
+      "n": 0
+    },
+    {
+      "id": "car-seats",
+      "tier": "middle",
+      "t": "Felt by passengers as a push back into their seat when a car speeds up, or forward when it suddenly brakes",
+      "k": [
+        "car speeds up",
+        "brakes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "g-forces",
+      "tier": "middle",
+      "t": "Pilots and astronauts can experience several times Earth’s normal free-fall value of this quantity during launch or sharp turns, called “g-forces”",
+      "k": [
+        "g-forces",
+        "pilots"
+      ],
+      "n": 0
+    },
+    {
+      "id": "speedometer",
+      "tier": "middle",
+      "t": "A speedometer shows speed, not this quantity directly — you would need to watch the speedometer’s reading change over time to find it",
+      "k": [
+        "speedometer",
+        "change over time"
+      ],
+      "n": 0
+    },
+    {
+      "id": "half-at2",
+      "tier": "power",
+      "t": "If constant, the displacement of an object starting from rest equals one-half this quantity times time squared",
+      "k": [
+        "displacement",
+        "time squared"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gal-unit",
+      "tier": "power",
+      "t": "Can be expressed in a unit called the “gal,” used mainly in geophysics to measure Earth’s gravitational pull",
+      "k": [
+        "gal",
+        "geophysics"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shm-formula",
+      "tier": "power",
+      "t": "In simple harmonic motion, equals negative the square of angular speed multiplied by displacement from equilibrium",
+      "k": [
+        "simple harmonic motion",
+        "angular speed"
+      ],
+      "n": 1
+    },
+    {
+      "id": "torque-analogue",
+      "tier": "power",
+      "t": "Its rotational analogue equals net torque divided by moment of inertia",
+      "k": [
+        "torque",
+        "moment of inertia"
+      ],
+      "n": 1
+    },
+    {
+      "id": "inertial-frame-zero",
+      "tier": "power",
+      "t": "Equal to zero for any observer riding along in an inertial reference frame",
+      "k": [
+        "inertial reference frame"
+      ],
+      "n": 1
+    },
+    {
+      "id": "alpha-symbol",
+      "tier": "power",
+      "t": "Its angular version is symbolized with the Greek letter alpha",
+      "k": [
+        "angular",
+        "alpha"
+      ],
+      "n": 0
+    },
+    {
+      "id": "centripetal-tangential",
+      "tier": "power",
+      "t": "Centripetal and tangential components combine to give the total value of this quantity for an object moving on a curved path at changing speed",
+      "k": [
+        "centripetal",
+        "tangential"
+      ],
+      "n": 0
+    },
+    {
+      "id": "curvature-graph",
+      "tier": "power",
+      "t": "On a position-versus-time graph, shows up as the curvature, or second derivative, of the plotted curve",
+      "k": [
+        "position versus time",
+        "curvature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galileo-ramps",
+      "tier": "power",
+      "t": "Galileo was among the first to carefully study this quantity using balls rolling down ramps",
+      "k": [
+        "galileo",
+        "ramps"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not velocity, and not force",
+    "body": "This quantity is easy to confuse with velocity or speed, since all three describe motion, but velocity can stay large and constant while this quantity is zero, and this quantity can be large even when velocity is momentarily zero, like at the top of a ball’s toss. It is also tempting to blurt out “force” when a question describes a push or a pull, but Newton’s second law makes clear that force and this quantity are related by mass, not identical to each other.",
+    "fix": "If the clue is about how fast something is moving, the answer is velocity or speed. If the clue describes a push or pull itself, the answer is force. Save this quantity for clues about how quickly velocity itself is changing — speeding up, slowing down, or turning.",
+    "line": "Real answer line: <b><u>Acceleration</u></b> (prompt on a or alpha; accept centripetal, angular, or linear forms)"
+  },
+  "freq": {
+    "rank": 8,
+    "count": 8,
+    "list": "Physics"
+  }
+}

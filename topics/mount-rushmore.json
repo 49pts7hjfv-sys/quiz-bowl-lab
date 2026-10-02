@@ -1,0 +1,395 @@
+{
+  "id": "mount-rushmore",
+  "name": "Mount Rushmore",
+  "mono": "MR",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Colossal mountain carving in South Dakota · Honors four U.S. presidents",
+  "dates": "Carved 1927–1941",
+  "briefing": "Between 1927 and 1941, sculptor Gutzon Borglum and a crew of workers carved four 60-foot-tall presidential faces into a South Dakota mountain: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln. The mountain’s original Lakota name was the Six Grandfathers, and the carving still upsets many Native Americans because the Black Hills are sacred to the Lakota people. Movie heroes have even fled villains across its granite faces, most famously in Alfred Hitchcock’s _North by Northwest_.",
+  "answerHtml": "<b><u>Mount Rushmore</u></b> National Memorial (prompt on <u>Six Grandfathers</u>)",
+  "accept": [
+    "mount rushmore",
+    "mount rushmore national memorial",
+    "rushmore"
+  ],
+  "prompt": [
+    "six grandfathers",
+    "thunkasila sakpe"
+  ],
+  "reject": [
+    "crazy horse",
+    "crazy horse memorial"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "4th October 1927: Work Begins on the USA’s Mount Rushmore National Memorial in South Dakota",
+      "source": "HistoryPod",
+      "url": "https://www.youtube.com/watch?v=A7sqKJU4IFw",
+      "note": "On-this-day clip about the start of the carving in 1927"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Deconstructing History: Mount Rushmore",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=CHMDDpk12Bo",
+      "note": "How the four giant faces were carved into the mountain"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mount Rushmore: Spotlight on Abraham Lincoln. Who Are the Faces on the Mountain?",
+      "source": "National Park Service",
+      "url": "https://www.youtube.com/watch?v=KqATOGel0kg",
+      "note": "The park’s own video on Lincoln and the other faces on the mountain"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Dark History of Mount Rushmore",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=hX4IvoP1HTk",
+      "note": "Animated lesson on the Lakota, the sacred Black Hills, the broken treaty, and the carving (hard history, told for classrooms)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Mount Rushmore Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Mount_Rushmore",
+      "note": "Quick read: the carving, the four presidents, and the Lakota land dispute"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+  "qb": {
+    "q": "Mount Rushmore",
+    "found": 1,
+    "tip": "Only one Middle School/Easy High School tossup came back; a Regular High School retry found two more. The sample here is thin, so treat the stock-clue counts as directional rather than exhaustive."
+  },
+  "sample": {
+    "n": 3,
+    "note": "3 real QBReader tossups for this answer line (1 Middle School/Easy High School + 2 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Original plans called for carving each man from the head down to the waist, but funding ran out before any torsos were finished. Sculptor Gutzon Borglum [“BOR-glum”] died in March 1941, and his own son, confusingly also named Lincoln, oversaw the final months of work.",
+      "r": "Each of the four stone faces stands about 60 feet tall. For 10 points, name this colossal mountain sculpture of four U.S. presidents in South Dakota’s Black Hills."
+    },
+    {
+      "p": "This landmark was named for a New York lawyer who visited the Black Hills on a prospecting trip in the 1880s, decades before any carving began. Historian Doane Robinson first proposed putting statues nearby, in a rock formation called the Needles.",
+      "r": "Gutzon Borglum chose a different granite peak instead. For 10 points, name this South Dakota mountain carved with the faces of four presidents."
+    },
+    {
+      "p": "This landmark sits a few miles from Harney Peak, now called Black Elk Peak, the highest point in South Dakota. The Black Hills around it were guaranteed to the Lakota people by the 1868 Treaty of Fort Laramie before the United States took the land back.",
+      "r": "The American Indian Movement later staged protests at the site as a result. For 10 points, name this South Dakota mountain sculpture of four presidents’ faces."
+    },
+    {
+      "p": "The climactic chase scene of Alfred Hitchcock’s film _North by Northwest_ is set on this landmark’s granite faces. Decades later, the film _National Treasure: Book of Secrets_ imagined a lost city of gold hidden beneath it.",
+      "r": "Its original Lakota name was the Six Grandfathers. For 10 points, name this South Dakota mountain carved with the faces of Washington, Jefferson, Theodore Roosevelt, and Lincoln."
+    },
+    {
+      "p": "Each face on this landmark was supposedly chosen to represent a different chapter of U.S. history: one for the nation’s birth, one for its growth, one for its development, and one for its preservation. Doane Robinson first dreamed up a monument nearby in the Needles rock formation.",
+      "r": "Gutzon Borglum instead carved his design into this granite peak. For 10 points, name this South Dakota mountain sculpture of four presidents."
+    },
+    {
+      "p": "In response to this landmark, construction began nearby in 1948 on a memorial to the Lakota leader Crazy Horse that, if ever finished, would be the largest sculpture in the world. That project remains unfinished today.",
+      "r": "This landmark’s own carving ran through the 1930s under Gutzon Borglum. For 10 points, name this South Dakota mountain sculpture of four presidents’ faces, finished in 1941."
+    },
+    {
+      "p": "Historian Doane Robinson first dreamed up a mountain monument at a different rock formation called the Needles before sculptor Gutzon Borglum chose this granite peak instead. Carving here lasted from 1927 to 1941.",
+      "r": "Its original Lakota name was the Six Grandfathers. For 10 points, name this South Dakota mountain carved with the faces of four U.S. presidents."
+    },
+    {
+      "p": "President George H. W. Bush spoke at this landmark’s 50th-anniversary dedication ceremony in 1991. Its carving had been led decades earlier by sculptor Gutzon Borglum in the Black Hills of South Dakota.",
+      "r": "Native American groups, including the American Indian Movement, have long protested the site because the Black Hills are sacred to the Lakota people. For 10 points, name this mountain sculpture of four presidents’ faces."
+    },
+    {
+      "p": "The Black Hills surrounding this landmark had been promised to the Lakota people under the 1868 Treaty of Fort Laramie before the United States seized the land back. Many Native Americans have protested the site ever since.",
+      "r": "Gutzon Borglum carved its four 60-foot faces between 1927 and 1941. For 10 points, name this South Dakota mountain sculpture of Washington, Jefferson, Theodore Roosevelt, and Lincoln."
+    },
+    {
+      "p": "Before any carving began, the Lakota called this granite peak the Six Grandfathers. The American Indian Movement later protested the finished monument as a violation of land the Lakota people consider sacred.",
+      "r": "Sculptor Gutzon Borglum designed its four presidential faces. For 10 points, name this South Dakota mountain, home to a colossal sculpture of four U.S. presidents."
+    },
+    {
+      "p": "Thomas Jefferson’s face was the second of the four completed on this landmark, after engineers had to blast away an earlier, cracked attempt positioned on the other side of George Washington. Theodore Roosevelt’s face was the last of the four finished.",
+      "r": "Washington’s face anchors the mountain’s far left side, with Lincoln’s at the opposite end. For 10 points, name this South Dakota mountain sculpture of four presidents, carved by Gutzon Borglum."
+    },
+    {
+      "p": "A fictional lost city of gold lies hidden beneath this landmark in the film _National Treasure: Book of Secrets_. In reality, sculptor Gutzon Borglum spent over a decade carving its four 60-foot presidential faces.",
+      "r": "It sits in South Dakota’s Black Hills. For 10 points, name this colossal mountain sculpture depicting Washington, Jefferson, Theodore Roosevelt, and Lincoln."
+    },
+    {
+      "p": "Carving on this South Dakota landmark ran from 1927 to 1941, led by sculptor Gutzon Borglum. The nearby, unfinished Crazy Horse Memorial was begun partly in response to it.",
+      "r": "Its four faces each stand about 60 feet tall. For 10 points, name this mountain sculpture of four U.S. presidents in the Black Hills."
+    },
+    {
+      "p": "The Black Hills surrounding this South Dakota landmark are considered sacred by the Lakota people, who have long protested its construction. Sculptor Gutzon Borglum designed and oversaw its carving.",
+      "r": "It depicts the faces of Washington, Jefferson, Theodore Roosevelt, and Lincoln. For 10 points, name this colossal mountain sculpture, a famous national memorial."
+    },
+    {
+      "p": "This colossal mountain sculpture in South Dakota’s Black Hills shows the 60-foot-tall faces of four U.S. presidents, carved under the direction of Gutzon Borglum.",
+      "r": "Washington’s face sits on its far left, with Lincoln’s on the right. For 10 points, name this granite national memorial depicting Washington, Jefferson, Theodore Roosevelt, and Lincoln."
+    }
+  ],
+  "clues": [
+    {
+      "id": "four-presidents",
+      "tier": "giveaway",
+      "t": "Colossal mountain sculpture in South Dakota’s Black Hills showing the faces of four U.S. presidents: Washington, Jefferson, Theodore Roosevelt, and Lincoln",
+      "k": [
+        "four presidents",
+        "black hills"
+      ],
+      "n": 3
+    },
+    {
+      "id": "borglum",
+      "tier": "giveaway",
+      "t": "Sculpted under the direction of Gutzon Borglum",
+      "k": [
+        "gutzon borglum"
+      ],
+      "n": 3
+    },
+    {
+      "id": "60-feet",
+      "tier": "giveaway",
+      "t": "Each face stands about 60 feet tall",
+      "k": [
+        "60 feet tall"
+      ],
+      "n": 1
+    },
+    {
+      "id": "washington-left",
+      "tier": "giveaway",
+      "t": "Washington’s face anchors the mountain’s far left side",
+      "k": [
+        "washington",
+        "far left side"
+      ],
+      "n": 0,
+      "rabbit": "George Washington"
+    },
+    {
+      "id": "lincoln-right",
+      "tier": "giveaway",
+      "t": "Lincoln’s face anchors the opposite, right-hand end",
+      "k": [
+        "lincoln",
+        "right hand end"
+      ],
+      "n": 0,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "robinson",
+      "tier": "middle",
+      "t": "The idea came from South Dakota historian Doane Robinson",
+      "k": [
+        "doane robinson"
+      ],
+      "n": 1
+    },
+    {
+      "id": "needles",
+      "tier": "middle",
+      "t": "Robinson first wanted the carving done at a rock formation called the Needles, not this mountain itself",
+      "k": [
+        "the needles"
+      ],
+      "n": 1
+    },
+    {
+      "id": "construction-years",
+      "tier": "middle",
+      "t": "Carving lasted from 1927 to 1941",
+      "k": [
+        "1927",
+        "1941"
+      ],
+      "n": 0
+    },
+    {
+      "id": "1991-dedication",
+      "tier": "middle",
+      "t": "Formally dedicated at a 50th-anniversary ceremony in 1991, where George H. W. Bush spoke",
+      "k": [
+        "1991",
+        "george h w bush"
+      ],
+      "n": 1
+    },
+    {
+      "id": "six-grandfathers",
+      "tier": "middle",
+      "t": "The mountain’s original Lakota name was the Six Grandfathers",
+      "k": [
+        "six grandfathers",
+        "lakota name"
+      ],
+      "n": 1
+    },
+    {
+      "id": "protest",
+      "tier": "middle",
+      "t": "Protested by Native Americans, including the American Indian Movement, because the Black Hills are sacred to the Lakota people",
+      "k": [
+        "american indian movement",
+        "sacred"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fort-laramie",
+      "tier": "middle",
+      "t": "The Black Hills had been guaranteed to the Lakota by the 1868 Treaty of Fort Laramie before the U.S. took them back",
+      "k": [
+        "treaty of fort laramie"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jefferson-position",
+      "tier": "middle",
+      "t": "Jefferson’s face sits just to the right of Washington’s, the second of the four completed",
+      "k": [
+        "jefferson",
+        "second completed"
+      ],
+      "n": 0,
+      "rabbit": "Thomas Jefferson"
+    },
+    {
+      "id": "roosevelt-last",
+      "tier": "middle",
+      "t": "Theodore Roosevelt’s face was the last of the four to be finished",
+      "k": [
+        "theodore roosevelt",
+        "last finished"
+      ],
+      "n": 0,
+      "rabbit": "Theodore Roosevelt"
+    },
+    {
+      "id": "crazy-horse",
+      "tier": "power",
+      "t": "In response, construction began in 1948 on the nearby Crazy Horse Memorial, honoring the Lakota leader Crazy Horse",
+      "k": [
+        "crazy horse memorial"
+      ],
+      "n": 2
+    },
+    {
+      "id": "largest-sculpture",
+      "tier": "power",
+      "t": "If ever finished, the Crazy Horse Memorial would be the largest sculpture in the world",
+      "k": [
+        "largest sculpture",
+        "crazy horse"
+      ],
+      "n": 1
+    },
+    {
+      "id": "harney-peak",
+      "tier": "power",
+      "t": "Located a few miles from Harney Peak, now called Black Elk Peak, South Dakota’s highest point",
+      "k": [
+        "harney peak",
+        "black elk peak"
+      ],
+      "n": 1
+    },
+    {
+      "id": "namesake",
+      "tier": "power",
+      "t": "Named for a New York lawyer who visited the Black Hills on a prospecting trip in the 1880s, long before any carving began",
+      "k": [
+        "new york lawyer",
+        "prospecting trip"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hitchcock",
+      "tier": "power",
+      "t": "The climax of Alfred Hitchcock’s film _North by Northwest_ is set on its granite faces",
+      "k": [
+        "north by northwest",
+        "hitchcock"
+      ],
+      "n": 1
+    },
+    {
+      "id": "national-treasure",
+      "tier": "power",
+      "t": "A fictional lost city of gold is hidden beneath it in _National Treasure: Book of Secrets_",
+      "k": [
+        "national treasure",
+        "lost city of gold"
+      ],
+      "n": 1
+    },
+    {
+      "id": "themes",
+      "tier": "power",
+      "t": "Each president supposedly represents a different era: Washington for the nation’s birth, Jefferson for its growth, Theodore Roosevelt for its development, and Lincoln for its preservation",
+      "k": [
+        "birth",
+        "growth",
+        "preservation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "waist-plan",
+      "tier": "power",
+      "t": "Original plans called for carving each man from the head to the waist, but funding ran out before the torsos were finished",
+      "k": [
+        "waist",
+        "torsos",
+        "funding ran out"
+      ],
+      "n": 0
+    },
+    {
+      "id": "borglum-death",
+      "tier": "power",
+      "t": "Sculptor Gutzon Borglum died in March 1941; his own son, confusingly also named Lincoln, finished the final months of carving",
+      "k": [
+        "borglum died",
+        "son",
+        "named lincoln"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Mount Rushmore or Crazy Horse?",
+    "body": "Mount Rushmore and the nearby Crazy Horse Memorial are both giant sculptures carved into mountains in South Dakota’s Black Hills, and quiz bowl writers love to describe one while asking about the other. Crazy Horse honors a single Lakota leader and is still unfinished after being started in 1948 partly in response to Mount Rushmore. Mount Rushmore shows the faces of four presidents and was finished, as far as it ever would be, in 1941.",
+    "fix": "Listen for the subject. Clues about a lone Native American warrior, an unfinished work, or “the world’s largest sculpture” point to Crazy Horse. Clues about four presidents, Gutzon Borglum, or _North by Northwest_ point to Mount Rushmore.",
+    "line": "Real answer line: <b><u>Mount Rushmore</u></b> National Memorial (prompt on <u>Six Grandfathers</u> or Thuŋkášila Šákpe, its original Lakota name)."
+  },
+  "tests": {
+    "right": [
+      "Mount Rushmore",
+      "mount rushmore",
+      "Rushmore",
+      "Mt. Rushmore",
+      "Moutn Rushmore"
+    ],
+    "prompt": [
+      "Six Grandfathers"
+    ],
+    "wrong": [
+      "Crazy Horse Memorial",
+      "Crazy Horse",
+      "Harney Peak",
+      "George Washington"
+    ]
+  }
+}

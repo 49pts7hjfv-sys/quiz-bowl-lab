@@ -1,0 +1,484 @@
+{
+  "id": "andrew-carnegie",
+  "name": "Andrew Carnegie",
+  "mono": "AC",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Scottish-born steel tycoon · Gave his fortune away to build libraries",
+  "dates": "1835–1919",
+  "briefing": "Andrew Carnegie came to Pittsburgh from Scotland at age 12 and started out as a bobbin boy in a cotton mill, earning about a dollar a week. By 1901, when he sold his steel company to J.P. Morgan for about $480 million, he was one of the richest people on Earth. Then he gave most of it away, paying for more than 2,500 public libraries and a famous concert hall in New York.",
+  "answerHtml": "Andrew <b><u>Carnegie</u></b> (do not accept “Dale Carnegie”)",
+  "accept": [
+    "andrew carnegie",
+    "carnegie"
+  ],
+  "prompt": [],
+  "reject": [
+    "carnegie hall",
+    "hall",
+    "carnegie mellon",
+    "carnegie mellon university",
+    "mellon",
+    "melon",
+    "andrew mellon",
+    "dale carnegie",
+    "dale",
+    "carnegie steel",
+    "carnegie steel company",
+    "carnegie library",
+    "carnegie libraries",
+    "carnegie endowment",
+    "carnegie endowment for international peace",
+    "carnegie institute",
+    "carnegie institution",
+    "carnegie institute of technology",
+    "carnegie corporation",
+    "carnegie hero fund",
+    "carnegie museum",
+    "carnegie museums",
+    "carnegie council",
+    "us steel",
+    "u s steel",
+    "united states steel",
+    "john d rockefeller",
+    "john rockefeller",
+    "rockefeller",
+    "henry clay frick",
+    "henry frick",
+    "frick",
+    "jp morgan",
+    "j p morgan",
+    "john pierpont morgan",
+    "morgan",
+    "charles schwab",
+    "charles m schwab",
+    "schwab",
+    "carnage",
+    "hattie carnegie",
+    "hattie",
+    "cornelius vanderbilt",
+    "vanderbilt"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Almanac: Andrew Carnegie",
+      "source": "CBS Sunday Morning",
+      "url": "https://www.youtube.com/watch?v=HiPAeb9zupI",
+      "note": "Short · a quick look back at his life"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Andrew Carnegie: Prince of Steel",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=kZRND9IqPkA",
+      "note": "Full documentary · his whole life story, from Scotland to steel to giving it away"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "How Carnegie Built an Empire of Steel | The Men Who Built America",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=g180A6k7814",
+      "note": "Full episode · dramatized, with some violent scenes from the Homestead Strike era"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The Industrial Economy (#23)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=r6tRp-zRUJs",
+      "note": "The Gilded Age big picture: Carnegie, Rockefeller, Morgan, and the new industrial economy"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Andrew Carnegie",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/entrepreneurs/andrew_carnegie.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Andrew_Carnegie",
+  "qb": {
+    "q": "Carnegie",
+    "found": 2,
+    "tip": "Only 2 results at this level, so we added 6 Regular High School tossups; watch out, one of the 2 wrongly calls him the founder of U.S. Steel, which J.P. Morgan actually formed by buying his company."
+  },
+  "sample": {
+    "n": 8,
+    "note": "8 real QBReader tossups (2 Middle School/Easy High School + 6 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This man’s Keystone Bridge Company built James Eads’s bridge across the Mississippi River at St. Louis, which opened in 1874. Years earlier, he had made his first big profits by investing in a company that built railroad sleeping cars.",
+      "r": "He sold his steel company to J.P. Morgan in 1901. For 10 points, name this Scottish-born steel tycoon who later gave away most of his fortune."
+    },
+    {
+      "p": "An essay by this man opens by calling “the proper administration of wealth” the “problem of our age.” That essay argues that rich people should give away their fortunes during their own lifetimes to help the public.",
+      "r": "That essay is _The Gospel of Wealth_. For 10 points, name this steel tycoon who paid for more than 2,500 public libraries."
+    },
+    {
+      "p": "As a teenager, this man became the secretary and telegraph operator of Thomas A. Scott at the Pennsylvania Railroad. When the Civil War began, he helped Scott organize the Union’s military railroads and telegraph lines.",
+      "r": "He later made his fortune in Pittsburgh’s steel mills. For 10 points, name this Scottish-born industrialist who wrote _The Gospel of Wealth_."
+    },
+    {
+      "p": "This man was in Scotland in 1892 when his partner Henry Clay Frick hired Pinkerton guards to break a strike at one of his steel plants. The battle that followed left several workers and guards dead, and state troops took over the town.",
+      "r": "That fight was the Homestead Strike. For 10 points, name this Pittsburgh steel tycoon and philanthropist."
+    },
+    {
+      "p": "Charles M. Schwab helped negotiate the 1901 sale of this man’s company for about 480 million dollars. The buyer combined that company with several others to create U.S. Steel, the first billion-dollar corporation in history.",
+      "r": "The buyer was J.P. Morgan. For 10 points, name this Scottish-born steel tycoon who spent his last years giving his money away."
+    },
+    {
+      "p": "This man offered 20 million dollars, the same amount the United States had paid Spain, so that the Philippines could buy its independence. He also founded the Church Peace Union and paid for the Peace Palace in The Hague.",
+      "r": "He wrote _The Gospel of Wealth_. For 10 points, name this steel tycoon and philanthropist."
+    },
+    {
+      "p": "After the 1889 Johnstown Flood, this member of the club that owned the failed South Fork Dam paid to give Johnstown a new library. Towns that accepted his library gifts had to provide the land and pay for the upkeep.",
+      "r": "He funded more than 2,500 public libraries in all. For 10 points, name this steel tycoon and philanthropist."
+    },
+    {
+      "p": "A _Diplodocus_ skeleton nicknamed “Dippy” was dug up by an expedition from this man’s museum, and its species was named in his honor. He sent copies of that skeleton to museums in London, Paris, and other cities.",
+      "r": "His partner Henry Clay Frick broke the 1892 Homestead Strike at one of his plants. For 10 points, name this Pittsburgh steel tycoon."
+    },
+    {
+      "p": "After rescuers died in a 1904 coal mine disaster near Pittsburgh, this man created a Hero Fund to honor people who risk their lives to save others. In 1910, he founded an Endowment for International Peace.",
+      "r": "He believed rich people should give their money away while still alive. For 10 points, name this steel tycoon who funded thousands of libraries."
+    },
+    {
+      "p": "This man’s family left Dunfermline [“dun-FERM-lin”], Scotland, for Pennsylvania when he was 12, and his first job was as a bobbin boy in a cotton mill. Next he delivered messages for a telegraph office in Pittsburgh.",
+      "r": "He later became one of the richest people in the world. For 10 points, name this steel tycoon who wrote _The Gospel of Wealth_."
+    },
+    {
+      "p": "This man named his first steel mill, the Edgar Thomson Works, after a railroad president he hoped would buy his rails. His company became a model of vertical integration, owning its own iron ore mines, coal fields, railroads, and ships.",
+      "r": "His partner Henry Clay Frick first got rich selling coke, a fuel made from coal. For 10 points, name this Pittsburgh steel tycoon."
+    },
+    {
+      "p": "This man supported heavy taxes on large estates and wrote that “the man who dies thus rich dies disgraced.” He first published those ideas in an 1889 essay titled simply “Wealth” in the _North American Review_.",
+      "r": "That essay became known as _The Gospel of Wealth_. For 10 points, name this philanthropist who made his fortune in steel."
+    },
+    {
+      "p": "In 1900, this man founded technical schools in Pittsburgh that later merged with an institute started by the family of banker Andrew Mellon. That school is now a university that bears both men’s names.",
+      "r": "His partner Henry Clay Frick hired Pinkerton guards during the Homestead Strike. For 10 points, name this Scottish-born steel tycoon."
+    },
+    {
+      "p": "Pyotr Ilyich Tchaikovsky [“chy-KOFF-skee”] conducted at the opening festival of a New York concert hall, paid for by this man, that opened in 1891. This man also funded an institution for scientific research in Washington, D.C.",
+      "r": "He made his fortune in steel and gave much of it away. For 10 points, name this philanthropist, the namesake of that famous concert hall."
+    },
+    {
+      "p": "This immigrant praised his adopted country’s progress in the 1886 book _Triumphant Democracy_. Critics called him a “robber baron,” while admirers saw this self-made man, who once worked in a cotton mill, as a “captain of industry.”",
+      "r": "He sold his steel company to J.P. Morgan in 1901. For 10 points, name this Gilded Age tycoon who gave away most of his fortune."
+    }
+  ],
+  "clues": [
+    {
+      "id": "steel-tycoon",
+      "tier": "giveaway",
+      "t": "Scottish-born steel tycoon (1835–1919) who built his fortune in Pittsburgh",
+      "k": [
+        "steel",
+        "scottish",
+        "pittsburgh",
+        "tycoon"
+      ],
+      "n": 7
+    },
+    {
+      "id": "libraries",
+      "tier": "giveaway",
+      "t": "Philanthropist who gave away most of his fortune, funding more than 2,500 public libraries",
+      "k": [
+        "libraries",
+        "2,500",
+        "philanthropist",
+        "gave away"
+      ],
+      "n": 7
+    },
+    {
+      "id": "morgan",
+      "tier": "giveaway",
+      "t": "Sold his steel company to J.P. Morgan in 1901 for about $480 million; Morgan made it the heart of U.S. Steel",
+      "k": [
+        "j.p. morgan",
+        "morgan",
+        "u.s. steel",
+        "1901"
+      ],
+      "n": 8,
+      "rabbit": "J. P. Morgan"
+    },
+    {
+      "id": "namesakes",
+      "tier": "giveaway",
+      "t": "His name is on a New York concert hall (opened 1891) and on a Pittsburgh university now shared with Andrew Mellon",
+      "k": [
+        "concert hall",
+        "mellon",
+        "university",
+        "1891"
+      ],
+      "n": 3
+    },
+    {
+      "id": "gospel-of-wealth",
+      "tier": "middle",
+      "t": "Wrote _The Gospel of Wealth_ (1889): the rich should use their fortunes to help society",
+      "k": [
+        "gospel of wealth",
+        "gospel",
+        "1889"
+      ],
+      "n": 8,
+      "rabbit": "The Gospel of Wealth"
+    },
+    {
+      "id": "homestead",
+      "tier": "middle",
+      "t": "The Homestead Strike (1892) at his Pennsylvania steel plant ended in a deadly battle",
+      "k": [
+        "homestead strike",
+        "homestead",
+        "1892",
+        "strike"
+      ],
+      "n": 6,
+      "rabbit": "Homestead Strike"
+    },
+    {
+      "id": "frick",
+      "tier": "middle",
+      "t": "His partner Henry Clay Frick ran the company and fought the union",
+      "k": [
+        "henry clay frick",
+        "frick",
+        "partner"
+      ],
+      "n": 7,
+      "rabbit": "Henry Clay Frick"
+    },
+    {
+      "id": "pinkertons",
+      "tier": "middle",
+      "t": "Frick hired Pinkerton guards to break the Homestead Strike while the boss was away in Scotland",
+      "k": [
+        "pinkerton",
+        "pinkertons",
+        "guards"
+      ],
+      "n": 5
+    },
+    {
+      "id": "early-life",
+      "tier": "middle",
+      "t": "Left Dunfermline, Scotland, at 12 (1848); worked as a bobbin boy in a cotton mill, then as a telegraph messenger",
+      "k": [
+        "dunfermline",
+        "bobbin boy",
+        "bobbin",
+        "telegraph"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vertical-integration",
+      "tier": "middle",
+      "t": "Used vertical integration: his company owned its own iron ore mines, coal fields, railroads, and ships",
+      "k": [
+        "vertical integration",
+        "vertical",
+        "iron ore"
+      ],
+      "n": 1
+    },
+    {
+      "id": "edgar-thomson",
+      "tier": "middle",
+      "t": "Opened the Edgar Thomson Works (1875), using the Bessemer process to make cheap steel",
+      "k": [
+        "edgar thomson",
+        "bessemer",
+        "1875"
+      ],
+      "n": 0
+    },
+    {
+      "id": "robber-baron",
+      "tier": "middle",
+      "t": "Critics called him a “robber baron”; admirers called him a “captain of industry”",
+      "k": [
+        "robber baron",
+        "captain of industry"
+      ],
+      "n": 1
+    },
+    {
+      "id": "keystone",
+      "tier": "power",
+      "t": "Founded the Keystone Bridge Company (1865), which built James Eads’s bridge at St. Louis (1874)",
+      "k": [
+        "keystone bridge",
+        "keystone",
+        "eads"
+      ],
+      "n": 4
+    },
+    {
+      "id": "tom-scott",
+      "tier": "power",
+      "t": "Mentor Thomas A. Scott hired him at the Pennsylvania Railroad; in the Civil War he helped run Union military railroads and telegraphs",
+      "k": [
+        "thomas a. scott",
+        "scott",
+        "pennsylvania railroad",
+        "civil war"
+      ],
+      "n": 3
+    },
+    {
+      "id": "problem-of-our-age",
+      "tier": "power",
+      "t": "_The Gospel of Wealth_ opens by calling “the proper administration of wealth” the “problem of our age”",
+      "k": [
+        "problem of our age",
+        "administration"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dies-disgraced",
+      "tier": "power",
+      "t": "“The man who dies thus rich dies disgraced”; he also backed heavy taxes on large estates",
+      "k": [
+        "dies disgraced",
+        "disgraced",
+        "estates"
+      ],
+      "n": 1
+    },
+    {
+      "id": "schwab",
+      "tier": "power",
+      "t": "Charles M. Schwab negotiated the 1901 sale; U.S. Steel became the first billion-dollar corporation",
+      "k": [
+        "schwab",
+        "billion-dollar"
+      ],
+      "n": 1
+    },
+    {
+      "id": "philippines",
+      "tier": "power",
+      "t": "Opposed taking over the Philippines and offered $20 million so it could buy its independence",
+      "k": [
+        "philippines",
+        "$20 million",
+        "anti-imperialist"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peace",
+      "tier": "power",
+      "t": "Founded an Endowment for International Peace (1910) and the Church Peace Union; paid for the Peace Palace in The Hague",
+      "k": [
+        "peace palace",
+        "endowment",
+        "church peace union",
+        "hague"
+      ],
+      "n": 2
+    },
+    {
+      "id": "johnstown",
+      "tier": "power",
+      "t": "Paid for a new library in Johnstown after the 1889 Johnstown Flood; towns had to supply the land and upkeep for his libraries",
+      "k": [
+        "johnstown",
+        "flood",
+        "upkeep"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dippy",
+      "tier": "power",
+      "t": "“Dippy,” a _Diplodocus_ skeleton, belongs to a species named for him; he sent copies to museums around the world",
+      "k": [
+        "dippy",
+        "diplodocus",
+        "dinosaur"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hero-fund",
+      "tier": "power",
+      "t": "Created a Hero Fund (1904) for people who risk their lives to save others",
+      "k": [
+        "hero fund",
+        "hero",
+        "1904"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triumphant-democracy",
+      "tier": "power",
+      "t": "Wrote _Triumphant Democracy_ (1886), praising his adopted country",
+      "k": [
+        "triumphant democracy",
+        "triumphant",
+        "1886"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tchaikovsky",
+      "tier": "power",
+      "t": "Funded a science institution in Washington, D.C.; Tchaikovsky conducted at his New York concert hall’s opening festival (1891)",
+      "k": [
+        "tchaikovsky",
+        "science",
+        "washington"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Carnegie built what?",
+    "body": "Lots of things carry the Carnegie name: Carnegie Hall, Carnegie Mellon University, and Dale Carnegie, the self-help author of _How to Win Friends and Influence People_, who was no relation. Players also mix up the Gilded Age tycoons: his partner Henry Clay Frick, oil king John D. Rockefeller, and banker J.P. Morgan. One real question even calls Carnegie the founder of U.S. Steel, but J.P. Morgan formed U.S. Steel in 1901 by buying Carnegie’s company.",
+    "fix": "Steel, Pittsburgh, Homestead, _The Gospel of Wealth_, and libraries mean Andrew Carnegie. Oil and Standard Oil mean Rockefeller; banking and creating U.S. Steel mean Morgan; the man who hired the Pinkertons is Frick.",
+    "line": "Real answer line: <b><u>Andrew Carnegie</u></b> (the same plain line in all 8 real tossups)"
+  },
+  "tests": {
+    "right": [
+      "Andrew Carnegie",
+      "Carnegie",
+      "Andrew Carnagie",
+      "carengie",
+      "Mr. Carnegie"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Carnegie Hall",
+      "Carnegie Mellon",
+      "Dale Carnegie",
+      "Andrew Mellon",
+      "John D. Rockefeller",
+      "Henry Clay Frick",
+      "J.P. Morgan",
+      "Carnegie Steel",
+      "carnegie melon",
+      "carnage"
+    ]
+  },
+  "freq": {
+    "rank": 39,
+    "count": 3,
+    "list": "American History"
+  }
+}

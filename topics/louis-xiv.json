@@ -1,0 +1,460 @@
+{
+  "id": "louis-xiv",
+  "name": "Louis XIV",
+  "mono": "L14",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "France’s “Sun King” · Longest-reigning monarch, built Versailles",
+  "dates": "1638–1715",
+  "briefing": "Louis XIV became king of France at only four years old and kept the job for 72 years, still the longest confirmed reign of any monarch in European history. He expanded a royal hunting lodge into the dazzling Palace of Versailles, forced nobles to live there so he could watch them, and liked being called the “Sun King” because, like the sun, he believed everything in France revolved around him. He may never have actually said “I am the state,” but it sure sounds like him.",
+  "answerHtml": "<b><u>Louis XIV</u></b> (or <u>Louis the Great</u>; prompt on <u>Louis</u> or <u>Sun King</u>)",
+  "accept": [
+    "louis xiv",
+    "louis 14",
+    "louis xiv of france",
+    "louis the 14th",
+    "louis the fourteenth",
+    "louis the great",
+    "louis le grand"
+  ],
+  "prompt": [
+    "louis",
+    "king louis",
+    "sun king",
+    "roi soleil"
+  ],
+  "reject": [
+    "louis xiii",
+    "louis the 13th",
+    "louis the thirteenth",
+    "louis xv",
+    "louis the 15th",
+    "louis the fifteenth",
+    "louis xvi",
+    "louis the 16th",
+    "louis the sixteenth",
+    "louis xviii",
+    "louis the 18th",
+    "louis the eighteenth",
+    "louis ix",
+    "louis the 9th",
+    "louis the ninth",
+    "saint louis",
+    "louis viii",
+    "louis the 8th",
+    "richelieu",
+    "cardinal richelieu"
+  ],
+  "tests": {
+    "right": [
+      "Louis XIV",
+      "King Louis XIV",
+      "Louis the Fourteenth",
+      "Luis XIV",
+      "Louis the 14th"
+    ],
+    "prompt": [
+      "Louis",
+      "King Louis",
+      "Sun King"
+    ],
+    "wrong": [
+      "Louis XVI",
+      "Louis the Sixteenth",
+      "Louis XIII",
+      "Cardinal Richelieu",
+      "Napoleon Bonaparte",
+      "Marie Antoinette"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Louis XIV - King of France & Known as the Sun King",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=W5Njjd6R6d0",
+      "note": "Short · quick life story of the “Sun King”"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Louis XIV, an Absolute Monarch",
+      "source": "NBC News Learn",
+      "url": "https://www.youtube.com/watch?v=SEjiw6ipwnU",
+      "note": "Classroom video on his life as an absolute monarch"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Sun King, Louis XIV - World History for Teens!",
+      "source": "Miacademy",
+      "url": "https://www.youtube.com/watch?v=Yhptqv2bStM",
+      "note": "Kid-friendly rundown of his reign and the Palace of Versailles"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The enduring legacy of French king Louis XIV",
+      "source": "FRANCE 24 English",
+      "url": "https://www.youtube.com/watch?v=nhoLkzjWvCA",
+      "note": "News feature on why he still matters to France today"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Absolute Monarchy: Crash Course European History #13",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=YYPAFqQgbqE",
+      "note": "The bigger system of absolute monarchy Louis XIV is the textbook example of"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Louis XIV Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Louis_XIV",
+      "note": "Kid-safe encyclopedia article on his long reign, Versailles, and his wars (long, so start with the top sections)"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Louis_XIV",
+  "qb": {
+    "q": "Louis XIV",
+    "found": 4,
+    "tip": "Most Middle School/Easy High School results for “Louis XIV” are actually generic “Louis” tossups that also accept Louis IX, Louis XIII, or Louis XVI — skip those for clue-writing and use the Regular HS sample instead, which is clean."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups for this exact answer line (1 Middle School/Easy High School + 8 Regular High School, power-marked); 3 more MS/EHS results were generic “Louis” lines covering several French kings and weren’t counted"
+  },
+  "tossups": [
+    {
+      "p": "This king’s engineer the Marquis de Vauban ringed France’s borders with star-shaped forts, and this king fought the War of the League of Augsburg, ending it with the 1697 Treaty of Ryswick. Cardinal Mazarin had earlier served as this king’s chief minister during a childhood rebellion called the Fronde.",
+      "r": "In 1685, this king issued the Edict of Fontainebleau, revoking the Edict of Nantes and driving out Huguenot Protestants. For 10 points, name this French king nicknamed the “Sun King,” who built the Palace of Versailles."
+    },
+    {
+      "p": "This monarch’s finance minister, Jean-Baptiste Colbert, strengthened French trade and the navy, while the Marquis de Vauban designed star-shaped forts along the borders. This monarch tried to place his grandson Philip of Anjou on the Spanish throne, starting the War of the Spanish Succession.",
+      "r": "As a child, this monarch was guided by Cardinal Mazarin during the revolts of the Fronde. For 10 points, name this longest-reigning monarch in European history, nicknamed the “Sun King.”"
+    },
+    {
+      "p": "This king’s government sent hundreds of unmarried “king’s daughters” to help populate the French colony in Canada. Under a policy called the dragonnades, this king’s soldiers were billeted in Protestant homes to pressure Huguenots into converting to Catholicism.",
+      "r": "In 1685, this king signed the Edict of Fontainebleau, revoking the Edict of Nantes. For 10 points, name this French king who built the Palace of Versailles and was nicknamed the “Sun King.”"
+    },
+    {
+      "p": "This king’s War of Devolution was cut short by the Triple Alliance, and his later war against the Dutch ended with the Treaty of Nijmegen. He also outlived both his son and his grandson, so his five-year-old great-grandson inherited the throne in 1715.",
+      "r": "This king is remembered for the probably made-up quote “I am the state.” For 10 points, name this French king who reigned for 72 years and built the Palace of Versailles."
+    },
+    {
+      "p": "This king’s court supported the playwright Molière and composer Jean-Baptiste Lully. After his chief minister Cardinal Mazarin died in 1661, this king began ruling personally and never again appointed a chief minister.",
+      "r": "This king belonged to the Bourbon dynasty and successfully placed his grandson on the Spanish throne as Philip V. For 10 points, name this king of France nicknamed the “Sun King.”"
+    },
+    {
+      "p": "During this ruler’s childhood, nobles and the Parliament of Paris rose up against royal power in a series of revolts called the Fronde. This ruler later had the Hall of Mirrors built to display French glassmaking to foreign visitors.",
+      "r": "This ruler required French nobles to live for part of the year at a palace he built outside Paris. For 10 points, name this king nicknamed the “Sun King,” who reigned over France for 72 years."
+    },
+    {
+      "p": "This king’s 1685 edict ended legal protection for Protestants in France by revoking an edict first issued by Henry IV. This king’s engineer, the Marquis de Vauban, became famous for designing star-shaped fortresses along France’s borders.",
+      "r": "This king married his cousin Maria Theresa of Spain in 1660. For 10 points, name this French king who built the Palace of Versailles and was nicknamed the “Sun King.”"
+    },
+    {
+      "p": "This ruler’s finance minister Jean-Baptiste Colbert promoted French manufacturing and trade, and this ruler fought the War of the League of Augsburg, which the 1697 Treaty of Ryswick ended. Under this ruler, a policy called the dragonnades used soldiers to pressure Protestants to convert.",
+      "r": "This ruler became king at only four years old in 1643. For 10 points, name this French king who built the Palace of Versailles and reigned for 72 years."
+    },
+    {
+      "p": "This monarch’s government recruited unmarried “king’s daughters” to settle in French Canada, and this monarch’s grandson became King Philip V of Spain after the War of the Spanish Succession. As a child, this monarch relied on Cardinal Mazarin during the Fronde.",
+      "r": "This monarch famously, if perhaps apocryphally, declared “I am the state.” For 10 points, name this king of France nicknamed the “Sun King,” who built the Palace of Versailles."
+    },
+    {
+      "p": "This king’s 1685 edict revoking the Edict of Nantes forced many Huguenots to flee France. Earlier, this king’s chief minister Cardinal Mazarin had helped him survive the Fronde, a series of revolts by nobles and the Parliament of Paris.",
+      "r": "This king belonged to the Bourbon dynasty, which had ruled France since his grandfather Henry IV. For 10 points, name this longest-reigning king in European history, nicknamed the “Sun King.”"
+    },
+    {
+      "p": "The Triple Alliance forced this king to end his War of Devolution, and the Treaty of Nijmegen later settled his Dutch War. He also had the Hall of Mirrors built at his great palace to impress foreign visitors with French glassmaking.",
+      "r": "This king required French nobles to live at that palace, Versailles, for part of each year. For 10 points, name this French king nicknamed the “Sun King.”"
+    },
+    {
+      "p": "This ruler supported artists including the playwright Molière and composer Jean-Baptiste Lully. This ruler’s engineer, the Marquis de Vauban, ringed France’s borders with star-shaped forts, and this ruler began personally ruling France in 1661, after Cardinal Mazarin’s death.",
+      "r": "This ruler married Maria Theresa of Spain in 1660. For 10 points, name this king who built the Palace of Versailles and reigned over France for 72 years."
+    },
+    {
+      "p": "This king tried to place his grandson on the throne of Spain, starting the War of the Spanish Succession. In the dragonnades, soldiers billeted in Protestant homes under this king pressured Huguenots to convert to Catholicism.",
+      "r": "This king became ruler of France at only four years old, in 1643. For 10 points, name this French king, nicknamed the “Sun King,” who built the Palace of Versailles."
+    },
+    {
+      "p": "This monarch’s finance minister Jean-Baptiste Colbert strengthened French trade, manufacturing, and the navy. This monarch also fought the War of the League of Augsburg, which was ended by the 1697 Treaty of Ryswick.",
+      "r": "This monarch outlived both his son and his grandson, so his five-year-old great-grandson inherited the French throne in 1715. For 10 points, name this king nicknamed the “Sun King,” who built the Palace of Versailles."
+    },
+    {
+      "p": "As a child, this king was protected by his mother and by chief minister Cardinal Mazarin during a series of noble revolts called the Fronde. This king later issued the Edict of Fontainebleau, revoking the Edict of Nantes and ending legal toleration for Huguenot Protestants.",
+      "r": "This king’s government sent unmarried “king’s daughters” to populate French Canada. For 10 points, name this French king who built the Palace of Versailles and reigned for 72 years, nicknamed the “Sun King.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "sun-king",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Sun King” because he believed France revolved around him, the way planets circle the sun",
+      "k": [
+        "sun king",
+        "nicknamed",
+        "planets"
+      ],
+      "n": 9
+    },
+    {
+      "id": "versailles",
+      "tier": "giveaway",
+      "t": "Expanded a royal hunting lodge into the enormous Palace of Versailles and moved his whole court there",
+      "k": [
+        "versailles",
+        "palace",
+        "hunting lodge"
+      ],
+      "n": 7
+    },
+    {
+      "id": "became-king-young",
+      "tier": "giveaway",
+      "t": "Became king at only four years old in 1643, when his father (the previous king) died",
+      "k": [
+        "four years old",
+        "1643",
+        "became king"
+      ],
+      "n": 0
+    },
+    {
+      "id": "longest-reign",
+      "tier": "giveaway",
+      "t": "Reigned for 72 years, from 1643 to 1715, the longest confirmed reign of any monarch in European history",
+      "k": [
+        "72 years",
+        "1643",
+        "1715"
+      ],
+      "n": 3
+    },
+    {
+      "id": "versailles-nobles",
+      "tier": "middle",
+      "t": "Required many French nobles to spend part of the year living at Versailles, where he could watch them closely",
+      "k": [
+        "nobles",
+        "versailles",
+        "watch them"
+      ],
+      "n": 1,
+      "rabbit": "Marie Antoinette"
+    },
+    {
+      "id": "fronde",
+      "tier": "middle",
+      "t": "Survived a series of noble and parliamentary revolts against royal power in his childhood, known as the Fronde [“frond”]",
+      "k": [
+        "fronde",
+        "revolts",
+        "childhood"
+      ],
+      "n": 7
+    },
+    {
+      "id": "mazarin",
+      "tier": "middle",
+      "t": "During his childhood, Cardinal Mazarin [“MA-zuh-ran”] ran the government for him as chief minister",
+      "k": [
+        "mazarin",
+        "chief minister",
+        "cardinal"
+      ],
+      "n": 4
+    },
+    {
+      "id": "nantes-fontainebleau",
+      "tier": "middle",
+      "t": "Issued the 1685 Edict of Fontainebleau [“fon-TEN-bloh”], revoking the Edict of Nantes and driving out many Huguenot Protestants",
+      "k": [
+        "edict of fontainebleau",
+        "edict of nantes",
+        "huguenot"
+      ],
+      "n": 8
+    },
+    {
+      "id": "i-am-the-state",
+      "tier": "middle",
+      "t": "Is remembered for the proud, probably made-up, quote “I am the state”",
+      "k": [
+        "i am the state",
+        "quote",
+        "made up"
+      ],
+      "n": 3
+    },
+    {
+      "id": "spanish-succession",
+      "tier": "middle",
+      "t": "Tried to put his grandson Philip of Anjou on the throne of Spain, starting the War of the Spanish Succession",
+      "k": [
+        "spanish succession",
+        "philip of anjou",
+        "grandson"
+      ],
+      "n": 3
+    },
+    {
+      "id": "colbert",
+      "tier": "middle",
+      "t": "Finance minister Jean-Baptiste Colbert [“kohl-BEAR”] built up French trade, manufacturing, and the navy",
+      "k": [
+        "colbert",
+        "finance minister",
+        "trade"
+      ],
+      "n": 3
+    },
+    {
+      "id": "maria-theresa",
+      "tier": "middle",
+      "t": "Married his cousin Maria Theresa of Spain in 1660 as part of a peace treaty between France and Spain",
+      "k": [
+        "maria theresa",
+        "peace treaty",
+        "married"
+      ],
+      "n": 2
+    },
+    {
+      "id": "devolution-nijmegen",
+      "tier": "power",
+      "t": "His War of Devolution was cut short by the Triple Alliance; his later Dutch War ended with the Treaty of Nijmegen [“NY-may-khen”]",
+      "k": [
+        "nijmegen",
+        "war of devolution",
+        "triple alliance"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ryswick",
+      "tier": "power",
+      "t": "Later fought the War of the League of Augsburg, which ended with the 1697 Treaty of Ryswick [“RIZ-wick”]",
+      "k": [
+        "ryswick",
+        "league of augsburg",
+        "1697"
+      ],
+      "n": 2
+    },
+    {
+      "id": "dragonnades",
+      "tier": "power",
+      "t": "Used the dragonnades [“drag-oh-NAHDS”], billeting soldiers in Protestant homes, to pressure Huguenots into converting",
+      "k": [
+        "dragonnades",
+        "huguenots",
+        "converting"
+      ],
+      "n": 2
+    },
+    {
+      "id": "kings-daughters",
+      "tier": "power",
+      "t": "Sent hundreds of unmarried women nicknamed the “king’s daughters” to help populate France’s colony in Canada",
+      "k": [
+        "kings daughters",
+        "colony",
+        "canada"
+      ],
+      "n": 2
+    },
+    {
+      "id": "personal-rule",
+      "tier": "power",
+      "t": "Began ruling personally in 1661 after Mazarin’s death and never again appointed a chief minister",
+      "k": [
+        "personal rule",
+        "1661",
+        "chief minister"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bourbon",
+      "tier": "power",
+      "t": "Belonged to the Bourbon [“BOOR-bon”] dynasty, which had ruled France since his grandfather Henry IV",
+      "k": [
+        "bourbon",
+        "dynasty",
+        "grandfather"
+      ],
+      "n": 1,
+      "rabbit": "Napoleon Bonaparte"
+    },
+    {
+      "id": "vauban",
+      "tier": "power",
+      "t": "His military engineer, the Marquis de Vauban [“voh-BAHN”], ringed France’s borders with star-shaped forts",
+      "k": [
+        "vauban",
+        "star shaped forts",
+        "military engineer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arts-patron",
+      "tier": "power",
+      "t": "Supported playwright Molière [“mohl-YAIR”] and composer Jean-Baptiste Lully [“loo-LEE”] at his court",
+      "k": [
+        "moliere",
+        "lully",
+        "playwright"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hall-of-mirrors",
+      "tier": "power",
+      "t": "Had the Hall of Mirrors built at Versailles to display French glassmaking to foreign visitors",
+      "k": [
+        "hall of mirrors",
+        "glassmaking",
+        "visitors"
+      ],
+      "n": 1
+    },
+    {
+      "id": "philip-v",
+      "tier": "power",
+      "t": "Successfully made his grandson the first Bourbon king of Spain, Philip V",
+      "k": [
+        "philip v",
+        "bourbon",
+        "spain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "succession-end",
+      "tier": "power",
+      "t": "Outlived his son and grandson, so his five-year-old great-grandson inherited the throne in 1715",
+      "k": [
+        "outlived",
+        "great grandson",
+        "1715"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Louis?",
+    "body": "Eighteen French kings were named Louis, and quiz bowl loves mixing them up. His father, Louis XIII, ruled during the Thirty Years’ War and relied on Cardinal Richelieu — not Mazarin, and not Versailles. A much later descendant, Louis XVI, was guillotined in the French Revolution, as was his wife, Marie Antoinette. Saying just “Louis” earns only a prompt.",
+    "fix": "Versailles, the Sun King, the Fronde, Cardinal Mazarin, and a 72-year reign mean Louis XIV. Richelieu and the Thirty Years’ War mean Louis XIII; the guillotine and Marie Antoinette mean Louis XVI. Always say the number.",
+    "line": "Real answer line: <b><u>Louis XIV</u></b> [or Louis the Great; prompt on Louis]"
+  },
+  "freq": {
+    "rank": 58,
+    "count": 2,
+    "list": "European History"
+  }
+}

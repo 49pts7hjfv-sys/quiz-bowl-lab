@@ -1,0 +1,381 @@
+{
+  "id": "frequency",
+  "name": "Frequency",
+  "mono": "HZ",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Physics quantity · How many repeats happen every second",
+  "dates": "SI unit: the hertz (Hz)",
+  "briefing": "Frequency counts how many times something repeats every second, from the vibrations in a guitar string to the oscillations of a light wave, and it is measured in hertz. It is the mathematical reciprocal of a wave’s period, so a higher frequency always means a shorter period between repeats. A photon’s energy depends directly on its frequency, which is why gamma rays carry far more punch than radio waves.",
+  "answerHtml": "<b><u>Frequency</u></b> (accept <u>nu</u>; prompt on <u>f</u>)",
+  "accept": [
+    "frequency",
+    "angular frequency",
+    "nu"
+  ],
+  "prompt": [
+    "f"
+  ],
+  "reject": [
+    "period",
+    "wavelength",
+    "amplitude"
+  ],
+  "tests": {
+    "right": [
+      "Frequency",
+      "frequency",
+      "Frequancy",
+      "Angular Frequency"
+    ],
+    "prompt": [
+      "F"
+    ],
+    "wrong": [
+      "Period",
+      "Wavelength",
+      "Amplitude",
+      "Wave"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Pitch and Frequency",
+      "source": "Teach Engineering",
+      "url": "https://www.youtube.com/watch?v=g0CSDL5o-jk",
+      "note": "How a sound’s frequency sets its pitch"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Wave Equation",
+      "source": "FuseSchool",
+      "url": "https://www.youtube.com/watch?v=Zj8JQJtVl0c",
+      "note": "Animated lesson · wave speed = frequency × wavelength"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Example: Frequency and amplitude from graphs",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=L_k5j30_U8Q",
+      "note": "Worked example · reading a wave’s frequency and amplitude off a graph"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Traveling Waves: Crash Course Physics #17",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=TfYCnOvNnFU",
+      "note": "Waves in general: wavelength, frequency, amplitude, and speed (fast-paced)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Frequency facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Frequency",
+      "note": "Kid-friendly encyclopedia page: hertz, and how frequency, wavelength, and wave speed connect"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Frequency",
+  "qb": {
+    "q": "frequency",
+    "found": 3,
+    "tip": "Only 2 of the 3 difficulty 1-2 hits are genuinely about this quantity (the third is an R.E.M. trivia tossup punning on a song title); a difficulty-3 retry added 1 more genuine hit out of 2 (the other was really about light scattering), so the honest real sample here is a thin 3 tossups total, and several power clues lean on well-established textbook facts instead."
+  },
+  "sample": {
+    "n": 3,
+    "note": "3 real QBReader tossups (2 Middle School/Easy High School + 1 Regular High School, power-marked), after excluding an R.E.M. trivia tossup and a light-scattering tossup that turned up in the same searches"
+  },
+  "tossups": [
+    {
+      "p": "A “heterodyne” circuit shifts a signal between different values of this quantity, and a filter’s “cutoff” value marks the line between its stopband and passband. For a simple pendulum, this quantity is proportional to the square root of gravitational acceleration divided by the pendulum’s length. Dividing wave speed by wavelength also",
+      "r": "gives this quantity. For 10 points, name this quantity, the reciprocal of a wave’s period, measured in hertz."
+    },
+    {
+      "p": "A threshold value of this quantity must be reached before the photoelectric effect can knock electrons loose from a metal surface. Multiplying this quantity by Planck’s constant gives the energy carried by a single photon. Its “angular” version is symbolized by the Greek letter",
+      "r": "omega, and on the electromagnetic spectrum, gamma rays have the highest value of this quantity. For 10 points, name this quantity, the reciprocal of period, measured in hertz."
+    },
+    {
+      "p": "Inside a simple circuit built from an inductor and a capacitor, the natural value of this quantity is proportional to the square root of one divided by their product. Fourier transforms mathematically convert a signal from ordinary time into this quantity’s own domain. For a mass bouncing on a spring, this quantity is proportional to the",
+      "r": "square root of the spring’s stiffness divided by the mass. At certain special values of this quantity called resonance, a vibrating system’s amplitude suddenly spikes. For 10 points, name this quantity, measured in hertz."
+    },
+    {
+      "p": "Dividing this quantity by the speed of light gives a related quantity called the wavenumber. A simple pendulum’s value for this quantity depends on the square root of gravity divided by its length. Multiplying this quantity by",
+      "r": "wavelength gives a wave’s overall speed. For 10 points, name this quantity, equal to one over a wave’s period and measured in a unit named for a German physicist."
+    },
+    {
+      "p": "A minimum, threshold value of this quantity is required before light can knock electrons loose from a metal in the photoelectric effect. Planck’s constant, multiplied by this quantity, gives the energy of a single photon.",
+      "r": "This quantity’s unit honors Heinrich Hertz, who was among the first to detect and study radio waves. For 10 points, name this quantity, equal to the reciprocal of a wave’s period."
+    },
+    {
+      "p": "At certain resonant values of this quantity, a vibrating system’s amplitude can suddenly spike dramatically. Fourier transforms convert signals back and forth between ordinary time and this quantity’s own domain. For an object bouncing on a spring, this quantity is proportional to the square root of the spring’s",
+      "r": "stiffness divided by its mass. For 10 points, name this quantity, measured in units called hertz, equal to one over the period of a repeating motion."
+    },
+    {
+      "p": "On the electromagnetic spectrum, gamma rays sit at the extreme high end of this quantity, far beyond visible light or radio waves. This quantity’s “angular” form is represented by the Greek letter omega. The reciprocal of this quantity is simply",
+      "r": "the period of a repeating event. For 10 points, name this quantity, which a photon’s energy is directly proportional to, measured in hertz."
+    },
+    {
+      "p": "A circuit’s “cutoff” value for this quantity separates the signals a filter blocks from the ones it lets through, while a “heterodyne” process shifts a signal to an entirely new value of this quantity. Multiplying wave speed by the inverse of wavelength also gives this",
+      "r": "quantity. For 10 points, name this quantity, the reciprocal of period, measured in hertz."
+    },
+    {
+      "p": "Inductors and capacitors wired together naturally oscillate at a value of this quantity proportional to the square root of one over their product. Gravitational acceleration divided by a pendulum’s length, under a square root, sets this quantity for that",
+      "r": "pendulum’s swing. For 10 points, name this quantity, equal to a wave’s speed divided by its wavelength, and measured in hertz."
+    },
+    {
+      "p": "A “heterodyne” process shifts a signal to a new value of this quantity, and a filter’s “cutoff” value of it separates blocked signals from passed ones. A photon’s energy equals Planck’s constant multiplied by this",
+      "r": "quantity. Heinrich Hertz, an early detector of radio waves, is the namesake of this quantity’s unit. For 10 points, name this quantity, the number of times a repeating event occurs each second, whose reciprocal is the period."
+    },
+    {
+      "p": "This quantity’s angular version, symbolized by omega, appears throughout the mathematics of oscillation and waves. A minimum threshold value of this quantity is required to trigger the photoelectric effect in a metal. Dividing this quantity by the speed of light instead gives a",
+      "r": "related quantity called the wavenumber. For 10 points, name this quantity, measured in hertz, equal to one divided by period."
+    },
+    {
+      "p": "Fourier analysis converts a signal from the time domain into this quantity’s own domain instead. A system driven at one of its resonant values for this quantity shows a sudden spike in amplitude. For a mass on a spring, this quantity equals, up to a constant, the",
+      "r": "square root of stiffness over mass. For 10 points, name this quantity, equal to wave speed divided by wavelength."
+    },
+    {
+      "p": "Visible light’s perceived color depends on this quantity, with violet sitting at the high end of the visible range and red at the low end, while gamma rays lie far beyond either one. Multiplying this quantity by Planck’s constant gives a single photon’s exact",
+      "r": "energy. For 10 points, name this quantity, equal to the reciprocal of a wave’s period and measured in hertz."
+    },
+    {
+      "p": "A passing ambulance seems to change this quantity for its own siren, rising as it approaches and falling as it speeds away, an effect named for Doppler. Human ears can typically detect sound across a range of this quantity running from about 20 up to 20,000 vibrations per second. Multiplying wavelength by this",
+      "r": "quantity gives a wave’s speed. For 10 points, name this quantity, the reciprocal of period."
+    },
+    {
+      "p": "Standard household electrical current cycles back and forth at a steady value of this quantity, 60 full cycles every second in the United States and 50 across much of Europe. Radio and television stations each broadcast at their own assigned value of this",
+      "r": "quantity, measured in kilohertz or megahertz. For 10 points, name this quantity, equal to one over the period of a repeating event, whose unit, the hertz, honors a German physicist."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "How many times a repeating event happens every second, measured in a unit called the hertz",
+      "k": [
+        "repeating event",
+        "hertz"
+      ],
+      "n": 3
+    },
+    {
+      "id": "reciprocal-period",
+      "tier": "giveaway",
+      "t": "Equal to one divided by the period, the time for one full repeat",
+      "k": [
+        "one divided by",
+        "period"
+      ],
+      "n": 3,
+      "rabbit": "Period (physics)"
+    },
+    {
+      "id": "pitch",
+      "tier": "giveaway",
+      "t": "Higher values make a musical note sound higher in pitch, and lower values sound lower",
+      "k": [
+        "pitch",
+        "higher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ac-current",
+      "tier": "giveaway",
+      "t": "Standard household electricity cycles back and forth at a steady value of this quantity, 60 full cycles every second in the United States",
+      "k": [
+        "60 full cycles",
+        "household electricity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wave-speed",
+      "tier": "middle",
+      "t": "Multiplying this quantity by wavelength gives a wave’s overall speed",
+      "k": [
+        "wavelength",
+        "wave speed"
+      ],
+      "n": 2,
+      "rabbit": "Waves"
+    },
+    {
+      "id": "radio-stations",
+      "tier": "middle",
+      "t": "Radio stations broadcast at a specific value of this quantity, measured in kilohertz or megahertz",
+      "k": [
+        "radio stations",
+        "kilohertz"
+      ],
+      "n": 0
+    },
+    {
+      "id": "color-light",
+      "tier": "middle",
+      "t": "Among colors of visible light, violet has the highest value of this quantity and red has the lowest",
+      "k": [
+        "violet",
+        "visible light"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doppler",
+      "tier": "middle",
+      "t": "A passing ambulance’s siren seems to shift in this quantity, rising in pitch as it approaches and dropping as it speeds away",
+      "k": [
+        "ambulance",
+        "siren",
+        "doppler"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hearing-range",
+      "tier": "middle",
+      "t": "Human ears can typically detect this quantity only between about 20 and 20,000 hertz",
+      "k": [
+        "human ears",
+        "20,000 hertz"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hertz-namesake",
+      "tier": "middle",
+      "t": "Its unit, the hertz, honors the German physicist Heinrich Hertz, an early investigator of radio waves",
+      "k": [
+        "heinrich hertz",
+        "radio waves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "photon-energy-basic",
+      "tier": "middle",
+      "t": "Multiplying this quantity by Planck’s constant gives the energy carried by a single photon of light",
+      "k": [
+        "planck’s constant",
+        "photon"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pendulum",
+      "tier": "power",
+      "t": "For a simple pendulum, this quantity is proportional to the square root of gravitational acceleration divided by the pendulum’s length",
+      "k": [
+        "pendulum",
+        "square root"
+      ],
+      "n": 1
+    },
+    {
+      "id": "heterodyne-cutoff",
+      "tier": "power",
+      "t": "A “heterodyne” circuit shifts a signal between different ranges of this quantity, and a filter’s “cutoff” value marks the boundary between the ranges it blocks and passes",
+      "k": [
+        "heterodyne",
+        "cutoff"
+      ],
+      "n": 1
+    },
+    {
+      "id": "photoelectric-threshold",
+      "tier": "power",
+      "t": "A minimum, or threshold, value of this quantity is required to knock electrons loose in the photoelectric effect",
+      "k": [
+        "threshold",
+        "photoelectric effect"
+      ],
+      "n": 1
+    },
+    {
+      "id": "angular-omega",
+      "tier": "power",
+      "t": "Its “angular” version is symbolized by the Greek letter omega",
+      "k": [
+        "angular",
+        "omega"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gamma-rays",
+      "tier": "power",
+      "t": "On the electromagnetic spectrum, gamma rays have the highest value of this quantity, far above visible light or radio waves",
+      "k": [
+        "gamma rays",
+        "electromagnetic spectrum"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lc-circuit",
+      "tier": "power",
+      "t": "In an electrical circuit with an inductor and a capacitor, the natural value of this quantity is proportional to the square root of one over their product",
+      "k": [
+        "inductor",
+        "capacitor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wavenumber",
+      "tier": "power",
+      "t": "Dividing this quantity by the speed of light gives a related quantity called the wavenumber",
+      "k": [
+        "wavenumber",
+        "speed of light"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fourier",
+      "tier": "power",
+      "t": "Fourier transforms mathematically convert a signal from the ordinary time domain into this quantity’s own domain",
+      "k": [
+        "fourier transforms",
+        "time domain"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mass-spring",
+      "tier": "power",
+      "t": "For a mass bouncing on a spring, this quantity is proportional to the square root of the spring’s stiffness divided by the mass",
+      "k": [
+        "spring",
+        "stiffness"
+      ],
+      "n": 1
+    },
+    {
+      "id": "resonance",
+      "tier": "power",
+      "t": "At certain special values of this quantity, called resonance, a system’s amplitude of vibration suddenly spikes",
+      "k": [
+        "resonance",
+        "amplitude"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Not period, not wavelength",
+    "body": "This quantity and the period are flip sides of the very same wave: multiply one by the other and the answer is exactly 1, so a question that gives the period and asks what it is the reciprocal of wants this quantity, not the period itself. Wavelength is a different, related quantity entirely, a distance rather than a rate, even though multiplying it by this quantity gives a wave’s speed.",
+    "fix": "Listen for “reciprocal of the period” or “per second” — that phrasing points to this quantity. If the clue instead measures a distance between wave crests, the answer is wavelength, not this quantity.",
+    "line": "Real answer line: <b><u>Frequency</u></b> (accept angular frequency; accept nu; prompt on f)"
+  },
+  "freq": {
+    "rank": 40,
+    "count": 3,
+    "list": "Physics"
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "id": "william-jennings-bryan",
+  "name": "William Jennings Bryan",
+  "mono": "WJB",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Populist “Great Commoner” · Cross of Gold speech & Scopes Trial",
+  "dates": "1860–1925",
+  "briefing": "William Jennings Bryan was such a thrilling speaker that one speech, the 1896 “Cross of Gold,” won him the Democratic nomination for president when he was just 36. Farmers loved his call for “free silver,” but he lost all three of his presidential races. Later he served as Woodrow Wilson’s secretary of state and argued against Clarence Darrow in the 1925 Scopes Trial over teaching evolution.",
+  "answerHtml": "William Jennings <b><u>Bryan</u></b>",
+  "accept": [
+    "william jennings bryan",
+    "bryan",
+    "william j bryan",
+    "w j bryan",
+    "wjb",
+    "jennings bryan",
+    "william bryan"
+  ],
+  "prompt": [],
+  "reject": [
+    "clarence darrow",
+    "darrow",
+    "john scopes",
+    "scopes",
+    "scopes trial",
+    "william mckinley",
+    "mckinley",
+    "william cullen bryant",
+    "bryant",
+    "kobe bryant",
+    "woodrow wilson",
+    "william howard taft",
+    "thomas watson",
+    "cross of gold"
+  ],
+  "tests": {
+    "right": [
+      "William Jennings Bryan",
+      "Bryan",
+      "William J. Bryan",
+      "William Jennings Brian",
+      "W. J. Bryan"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Clarence Darrow",
+      "William McKinley",
+      "John Scopes",
+      "William Cullen Bryant",
+      "Bryant",
+      "William Jennings",
+      "Woodrow Wilson"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Saturday Evening Post History Minute: William Jennings Bryan – Progressive or Demagogue?",
+      "source": "The Saturday Evening Post",
+      "url": "https://www.youtube.com/watch?v=wgluLqYMMLk",
+      "note": "Short · a quick look at his career and how to judge him"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Learn About the Man Who Lost Three Presidential Elections",
+      "source": "C-SPAN American History TV",
+      "url": "https://www.youtube.com/watch?v=V-0hOKyQyP4",
+      "note": "Short clip · historians on his three runs for president"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Contenders: William Jennings Bryan (Preview)",
+      "source": "C-SPAN",
+      "url": "https://www.youtube.com/watch?v=4GvXzqSmLwg",
+      "note": "Preview clip · from C-SPAN’s series on candidates who lost but changed history"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Gilded Age Politics (#26)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=Spgdy3HkcSs",
+      "note": "The Populists, free silver, and the election of 1896"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Scopes Monkey Trial Begins – 1925 | Today in History",
+      "source": "AP Archive",
+      "url": "https://www.youtube.com/watch?v=q-v7EOe_hSk",
+      "note": "Short · archival film of the 1925 trial in Dayton, Tennessee"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "William Jennings Bryan facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/William_Jennings_Bryan",
+      "note": "Kid-safe encyclopedia article on his life and campaigns"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/William_Jennings_Bryan",
+  "qb": {
+    "q": "Jennings Bryan",
+    "found": 4,
+    "tip": "All 4 Middle School/Easy High School lines (and all 6 Regular High School ones) underline only “Bryan,” and every one of the 10 saves the “Cross of Gold” speech for after the power mark, so learn the Lusitania resignation and the Scopes Trial to get the power."
+  },
+  "sample": {
+    "n": 10,
+    "note": "10 real QBReader tossups (4 Middle School/Easy High School + 6 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This man’s most popular talk on the Chautauqua [“shuh-TAW-kwuh”] lecture circuit, which brought speakers to small towns across America, was a religious speech called “The Prince of Peace.” He also published a newspaper named _The Commoner_, which echoed his own nickname.",
+      "r": "For 10 points, name this three-time Democratic presidential nominee who gave the “Cross of Gold” speech."
+    },
+    {
+      "p": "As a young congressman from Nebraska, this man fought for an income tax that was added to the Wilson-Gorman Tariff of 1894. Two years later, he called for coining unlimited silver at a ratio of sixteen to one with gold.",
+      "r": "For 10 points, name this “Great Commoner,” who lost the 1896 presidential election to William McKinley."
+    },
+    {
+      "p": "In one election, this man had two different running mates: the Democrats picked Arthur Sewall, while the Populists picked Thomas Watson. That same year, pro-gold “Gold Democrats” formed their own party to run against him.",
+      "r": "He lost that 1896 race to William McKinley. For 10 points, name this champion of free silver."
+    },
+    {
+      "p": "While his opponent greeted visitors and gave speeches from his front porch in Ohio, this candidate crisscrossed the country by train, giving hundreds of speeches. His opponent’s campaign, run by Mark Hanna, raised far more money from big businesses.",
+      "r": "For 10 points, name this candidate who lost the 1896 election to William McKinley after giving the “Cross of Gold” speech."
+    },
+    {
+      "p": "Speaking up for farmers, this orator declared that “we have petitioned, and our petitions have been scorned,” and he warned that if farms were destroyed, “the grass will grow in the streets of every city in the country.”",
+      "r": "That 1896 speech won him the Democratic nomination. For 10 points, name this man whose speech ended with the words “cross of gold.”"
+    },
+    {
+      "p": "The character Matthew Harrison Brady in the play _Inherit the Wind_ is based on this man. In real life, this man helped prosecute a Tennessee teacher for teaching evolution, and defense lawyer Clarence Darrow questioned him about the Bible on the witness stand.",
+      "r": "For 10 points, name this three-time presidential candidate who also gave the “Cross of Gold” speech."
+    },
+    {
+      "p": "As secretary of state, this man signed a 1914 treaty with Nicaraguan diplomat Emiliano Chamorro [“chah-MOR-roh”] that gave the United States the right to build a canal through Nicaragua. He also signed “cooling-off” treaties in which nations promised to investigate disputes before going to war.",
+      "r": "For 10 points, name this secretary of state under Woodrow Wilson, famous for his “Cross of Gold” speech."
+    },
+    {
+      "p": "This official resigned from the cabinet in 1915 because he feared that the president’s stern notes to Germany after the sinking of the _Lusitania_ could drag the country into war. A lifelong non-drinker, he had served grape juice instead of wine to foreign diplomats.",
+      "r": "For 10 points, name this secretary of state under Woodrow Wilson, a three-time Democratic nominee for president."
+    },
+    {
+      "p": "At just 36 years old, this man became the youngest presidential nominee of a major party in American history. He won that nomination after a convention speech in Chicago that ended with him stretching out his arms as if on a cross.",
+      "r": "Farmers cheered his call for free silver. For 10 points, name this orator of the “Cross of Gold” speech."
+    },
+    {
+      "p": "During the Spanish-American War, this man raised a regiment of Nebraska volunteers and served as its colonel, though his troops never reached the fighting. He is buried at Arlington National Cemetery.",
+      "r": "In 1900 he made opposition to U.S. rule over the Philippines a major campaign issue. For 10 points, name this “Great Commoner.”"
+    },
+    {
+      "p": "This speaker answered the supporters of the gold standard: “You shall not press down upon the brow of labor this crown of thorns.” He spoke for farmers and miners who wanted the government to coin silver freely so that more money would circulate.",
+      "r": "He then won the 1896 Democratic nomination. For 10 points, name this man who gave the “Cross of Gold” speech."
+    },
+    {
+      "p": "In Dayton, Tennessee, this man took the witness stand as an expert on the Bible, and the defense lawyer questioned him about stories such as Jonah and the whale. He died in Dayton less than a week after the trial ended.",
+      "r": "That 1925 trial was the Scopes Trial. For 10 points, name this three-time presidential nominee who opposed teaching evolution."
+    },
+    {
+      "p": "Born in Salem, Illinois, this man moved to Lincoln, Nebraska, where he won two terms in Congress in the early 1890s. He later edited the _Omaha World-Herald_ newspaper before running for president.",
+      "r": "In 1896 the Populists joined the Democrats in nominating him. For 10 points, name this Nebraska politician nicknamed the “Great Commoner.”"
+    },
+    {
+      "p": "This reformer supported the causes behind the 16th through 19th Amendments: an income tax, the direct election of senators, Prohibition, and women’s right to vote. Years earlier, he had argued that the gold standard hurt farmers and workers.",
+      "r": "He lost his third race for president in 1908 to William Howard Taft. For 10 points, name this man who gave the “Cross of Gold” speech."
+    },
+    {
+      "p": "In his most famous speech, this man said the country needed “an Andrew Jackson” to stand up to organized wealth, and he argued that the money question mattered more than the tariff question. Delegates at the 1896 Democratic convention cheered wildly.",
+      "r": "For 10 points, name this man who said, “You shall not crucify mankind upon a cross of gold.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "cross-of-gold",
+      "tier": "giveaway",
+      "t": "Gave the “Cross of Gold” speech at the 1896 Democratic convention in Chicago, which won him the nomination",
+      "k": [
+        "cross of gold",
+        "1896",
+        "chicago",
+        "convention"
+      ],
+      "n": 10,
+      "rabbit": "Cross of Gold speech"
+    },
+    {
+      "id": "three-times",
+      "tier": "giveaway",
+      "t": "Ran for president as the Democratic nominee three times (1896, 1900, 1908) and lost all three",
+      "k": [
+        "three times",
+        "1896",
+        "1900",
+        "1908"
+      ],
+      "n": 6
+    },
+    {
+      "id": "free-silver",
+      "tier": "giveaway",
+      "t": "Backed “free silver” and bimetallism: coining silver at a 16-to-1 ratio with gold, instead of a gold standard",
+      "k": [
+        "free silver",
+        "bimetallism",
+        "16-to-1",
+        "silver"
+      ],
+      "n": 7,
+      "rabbit": "Free Silver"
+    },
+    {
+      "id": "populist",
+      "tier": "giveaway",
+      "t": "Hero of farmers; in 1896 the Populist (People’s) Party joined the Democrats in nominating him",
+      "k": [
+        "populist",
+        "farmers",
+        "peoples party"
+      ],
+      "n": 5,
+      "rabbit": "Populist Party"
+    },
+    {
+      "id": "great-commoner",
+      "tier": "giveaway",
+      "t": "Nicknamed “the Great Commoner” for championing ordinary working people; from Nebraska",
+      "k": [
+        "great commoner",
+        "nebraska"
+      ],
+      "n": 2
+    },
+    {
+      "id": "scopes-trial",
+      "tier": "middle",
+      "t": "Helped prosecute a Tennessee teacher for teaching evolution in the 1925 Scopes Trial, facing defense lawyer Clarence Darrow",
+      "k": [
+        "scopes trial",
+        "darrow",
+        "evolution",
+        "1925"
+      ],
+      "n": 8,
+      "rabbit": "Scopes Trial"
+    },
+    {
+      "id": "lusitania",
+      "tier": "middle",
+      "t": "Woodrow Wilson’s first secretary of state; resigned in 1915 after the _Lusitania_ sinking, fearing Wilson’s stern protests would lead to war",
+      "k": [
+        "lusitania",
+        "resigned",
+        "1915"
+      ],
+      "n": 6,
+      "rabbit": "Woodrow Wilson"
+    },
+    {
+      "id": "crown-of-thorns",
+      "tier": "middle",
+      "t": "Cross of Gold line: “You shall not press down upon the brow of labor this crown of thorns”",
+      "k": [
+        "crown of thorns",
+        "brow of labor"
+      ],
+      "n": 6
+    },
+    {
+      "id": "mckinley",
+      "tier": "middle",
+      "t": "Lost twice to William McKinley (1896 and 1900), whose “front porch” campaign was run by Mark Hanna; lost in 1908 to William Howard Taft",
+      "k": [
+        "mckinley",
+        "hanna",
+        "taft"
+      ],
+      "n": 3
+    },
+    {
+      "id": "youngest",
+      "tier": "middle",
+      "t": "At 36, the youngest presidential nominee of a major party in U.S. history (1896)",
+      "k": [
+        "youngest",
+        "36",
+        "nominee"
+      ],
+      "n": 0
+    },
+    {
+      "id": "whistle-stop",
+      "tier": "middle",
+      "t": "Broke tradition in 1896 by touring the country by train and giving hundreds of speeches in a whistle-stop campaign",
+      "k": [
+        "whistle-stop",
+        "train",
+        "speeches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prohibition",
+      "tier": "middle",
+      "t": "A lifelong non-drinker who backed Prohibition; served grape juice instead of wine to diplomats",
+      "k": [
+        "prohibition",
+        "grape juice",
+        "non-drinker"
+      ],
+      "n": 0,
+      "rabbit": "Prohibition"
+    },
+    {
+      "id": "anti-imperialism",
+      "tier": "middle",
+      "t": "Made anti-imperialism his main issue in 1900, opposing U.S. rule over the Philippines",
+      "k": [
+        "anti-imperialism",
+        "imperialism",
+        "philippines",
+        "1900"
+      ],
+      "n": 0
+    },
+    {
+      "id": "farms-grass",
+      "tier": "power",
+      "t": "Other Cross of Gold lines: “destroy our farms and the grass will grow in the streets of every city” and a call for “an Andrew Jackson”",
+      "k": [
+        "grass will grow",
+        "andrew jackson",
+        "petitioned"
+      ],
+      "n": 2,
+      "rabbit": "Andrew Jackson"
+    },
+    {
+      "id": "the-commoner",
+      "tier": "power",
+      "t": "Published a newspaper called _The Commoner_ (from 1901); earlier edited the _Omaha World-Herald_",
+      "k": [
+        "the commoner",
+        "world-herald",
+        "omaha",
+        "newspaper"
+      ],
+      "n": 3
+    },
+    {
+      "id": "chautauqua",
+      "tier": "power",
+      "t": "Star of the Chautauqua lecture circuit; his most famous talk was the religious speech “The Prince of Peace”",
+      "k": [
+        "prince of peace",
+        "chautauqua",
+        "lecture"
+      ],
+      "n": 3
+    },
+    {
+      "id": "running-mates",
+      "tier": "power",
+      "t": "Had two 1896 running mates: Arthur Sewall (Democrats) and Thomas Watson (Populists)",
+      "k": [
+        "thomas watson",
+        "sewall",
+        "running mates",
+        "watson"
+      ],
+      "n": 2
+    },
+    {
+      "id": "gold-democrats",
+      "tier": "power",
+      "t": "Pro-gold “Gold Democrats” split off in 1896 to form the National Democratic Party against him",
+      "k": [
+        "gold democrats",
+        "national democratic party"
+      ],
+      "n": 1
+    },
+    {
+      "id": "income-tax",
+      "tier": "power",
+      "t": "As a Nebraska congressman (1891–1895), pushed for the income tax in the Wilson-Gorman Tariff (1894)",
+      "k": [
+        "income tax",
+        "tariff",
+        "1894"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chamorro",
+      "tier": "power",
+      "t": "As secretary of state, signed a 1914 treaty with Nicaragua’s Emiliano Chamorro giving the U.S. rights to build a canal there",
+      "k": [
+        "chamorro",
+        "canal",
+        "1914"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cooling-off",
+      "tier": "power",
+      "t": "Signed “cooling-off” treaties: nations agreed to let a commission investigate disputes before going to war",
+      "k": [
+        "cooling-off",
+        "treaties",
+        "commission"
+      ],
+      "n": 0
+    },
+    {
+      "id": "witness-stand",
+      "tier": "power",
+      "t": "Darrow called him to the witness stand as a Bible expert and quizzed him about stories like Jonah and the whale",
+      "k": [
+        "witness stand",
+        "bible",
+        "jonah"
+      ],
+      "n": 3
+    },
+    {
+      "id": "died-dayton",
+      "tier": "power",
+      "t": "Died in Dayton, Tennessee, less than a week after the Scopes Trial ended (July 1925)",
+      "k": [
+        "dayton",
+        "1925"
+      ],
+      "n": 3
+    },
+    {
+      "id": "arlington",
+      "tier": "power",
+      "t": "Colonel of a Nebraska volunteer regiment in the Spanish-American War (1898); buried at Arlington National Cemetery",
+      "k": [
+        "arlington",
+        "colonel",
+        "regiment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inherit-the-wind",
+      "tier": "power",
+      "t": "The play _Inherit the Wind_ (1955) retells the Scopes Trial; its character Matthew Harrison Brady is based on him",
+      "k": [
+        "inherit the wind",
+        "matthew harrison brady",
+        "brady"
+      ],
+      "n": 0
+    },
+    {
+      "id": "salem-lincoln",
+      "tier": "power",
+      "t": "Born in Salem, Illinois (1860); built his career in Lincoln, Nebraska",
+      "k": [
+        "salem",
+        "illinois",
+        "lincoln"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Bryan, Darrow, or Scopes?",
+    "body": "The Scopes Trial shows up in tossups for several different answers. John Scopes was the Tennessee teacher on trial for teaching evolution, Clarence Darrow was his defense lawyer, and Bryan helped the prosecution, so a question asking for “this defense attorney” wants Darrow, not Bryan. On 1896 clues, don’t blurt out the winner, William McKinley, and don’t mix Bryan up with the poet William Cullen Bryant.",
+    "fix": "Bryan = the prosecution side, the Bible questions on the witness stand, free silver, the “Cross of Gold,” and resigning after the Lusitania sinking. Darrow = the defense, Scopes = the teacher, and McKinley = the man who beat Bryan twice. Plain “Bryan” is enough on real answer lines.",
+    "line": "Real answer line: William Jennings <b><u>Bryan</u></b>"
+  },
+  "freq": {
+    "rank": 29,
+    "count": 4,
+    "list": "American History"
+  }
+}

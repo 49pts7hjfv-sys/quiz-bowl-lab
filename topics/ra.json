@@ -1,0 +1,379 @@
+{
+  "id": "ra",
+  "name": "Ra",
+  "mono": "RA",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Egyptian sun god · Sails the sky by day, battles Apophis by night",
+  "dates": "Worshipped in Egypt from the Old Kingdom (c. 2600 BCE)",
+  "briefing": "Ancient Egyptians believed the sun crossing the sky was really a god sailing a glowing boat called the solar barge. Every single night, that god sailed on through the underworld, where a giant serpent named Apophis tried to swallow him and stop the sunrise forever. He won every night for thousands of years in a row, which is exactly why the Egyptians trusted the sun to always rise again.",
+  "answerHtml": "<b><u>Ra</u></b> (or <u>Re</u>)",
+  "accept": [
+    "ra",
+    "re",
+    "rah",
+    "god ra"
+  ],
+  "prompt": [
+    "amun ra",
+    "ra horakhty"
+  ],
+  "reject": [
+    "horus",
+    "osiris",
+    "isis",
+    "anubis",
+    "aten",
+    "atum",
+    "khepri",
+    "set",
+    "thoth"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ra and the Sun Boat (God of Sun) Egyptian Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=z3VKIy00mhc",
+      "note": "Animated story of the sun god’s daily voyage in his sun boat"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Ra",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Ra",
+      "note": "Kid-friendly encyclopedia article on Ra’s sun boat, his nightly battle with Apep, and Amun-Ra"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Ra",
+  "qb": {
+    "q": "Ra",
+    "found": 44,
+    "tip": "A 2-letter query is noisy even filtered to categories=Mythology: fuzzy matching surfaced Heracles, Persephone, Yggdrasil, and King Arthur among the 44. Only one hit (2022 MAKEMAKE) was genuinely about this god; the others were skipped."
+  },
+  "sample": {
+    "n": 1,
+    "note": "the 1 real QBReader tossup clearly matched to this answer line (Middle School/Easy High School, power-marked); a 2-letter query returns too much unrelated noise to trust a bigger batch"
+  },
+  "tossups": [
+    {
+      "p": "This deity was believed to have formed himself out of the watery chaos called Nun, rising on the first mound of dry land to ever exist. By one legend, when this deity wept, his tears fell to earth and became the first human beings. This deity led the group of nine original gods worshipped at",
+      "r": "Heliopolis, known as the Ennead. For 10 points, name this Egyptian god of the sun."
+    },
+    {
+      "p": "This deity aged through the sky each day, appearing as a scarab beetle named Khepri at dawn and as the god Atum by dusk. Pharaohs took the title “Son of” this deity as part of their royal names. Each night, the god Set helped defend",
+      "r": "this deity’s boat by spearing the serpent Apophis from its bow. For 10 points, name this Egyptian sun god who sails across the sky in a solar barge."
+    },
+    {
+      "p": "This deity was once tricked by the goddess Isis, who made a snake out of his own spit and had it bite him, then offered to heal him only if he revealed his secret true name. This deity is often shown with a falcon’s head topped by a sun disk circled by a",
+      "r": "rearing cobra called a uraeus. For 10 points, name this Egyptian god who battles the serpent Apophis every night to rise again at dawn."
+    },
+    {
+      "p": "This deity’s fierce daughter, called his “Eye,” nearly wiped out humanity as punishment for their disobedience, stopping only after this deity had the fields flooded with beer dyed red to trick her into getting drunk. That daughter is usually identified as Sekhmet, and this deity was often merged with other gods, such as the",
+      "r": "falcon god Horus and the Theban god Amun. For 10 points, name this Egyptian god of the sun, grandfather of Geb and Nut."
+    },
+    {
+      "p": "This deity’s nightly voyage carries him through the underworld region called the Duat, where the serpent Apophis waits to swallow him and end the sunrise forever. This deity was worshipped above all at a city whose Greek name literally means “City of the",
+      "r": "Sun,” known as Heliopolis. For 10 points, name this Egyptian sun god who sails the sky each day in a glowing solar barge."
+    },
+    {
+      "p": "This deity is the grandfather of the earth god Geb and the sky goddess Nut, making him an ancestor of Osiris and Isis as well. During the New Kingdom, this deity was often joined with a",
+      "r": "Theban god, Amun, to form a single chief deity. For 10 points, name this Egyptian sun god who fights off the serpent Apophis each night from his solar barge."
+    },
+    {
+      "p": "This deity’s priests at Heliopolis taught that he created the first pair of gods, Shu and Tefnut, simply by sneezing or spitting them out. Ancient Pyramid Texts, among the oldest religious writings in the world, repeatedly call on this deity to help the pharaoh’s soul rise into the",
+      "r": "sky after death. For 10 points, name this Egyptian god of the sun, who sails across the sky in a barge each day."
+    },
+    {
+      "p": "This deity is sometimes shown as an old man by sunset after appearing as a child at dawn and a full-grown man at noon, mirroring the sun’s path. The pharaoh Akhenaten later tried to replace worship of this deity with a more abstract sun-disk god named",
+      "r": "Aten. For 10 points, name this traditional Egyptian sun god, often fused with the falcon god Horus."
+    },
+    {
+      "p": "This deity’s sacred animal forms include a scarab beetle rolling the morning sun like a dung ball across the sky. The city most devoted to this deity’s worship, Heliopolis, housed a group of nine gods called the Ennead that this deity",
+      "r": "headed as its chief. For 10 points, name this Egyptian god who sails a solar barge and fights the serpent Apophis nightly."
+    },
+    {
+      "p": "This deity relented and stopped a goddess’s rampage against humanity only after dyeing beer blood-red and flooding a field with it so she would drink herself into a stupor. Egyptian pharaohs claimed descent from this deity, adding the title",
+      "r": "“Son of” this god to their royal names. For 10 points, name this sun god, father of the fierce lioness goddess Sekhmet in that myth."
+    },
+    {
+      "p": "This deity was tricked into speaking his hidden true name aloud in order to cure a venomous bite planted on him by his own great-granddaughter, Isis. That secret name supposedly gave Isis enormous magical power over",
+      "r": "this deity and the rest of the gods. For 10 points, name this Egyptian sun god who crosses the sky daily in the solar barge."
+    },
+    {
+      "p": "This deity’s solar barge was defended each night by the god Set, who speared a giant chaos-serpent threatening to capsize the boat. Without that nightly victory, Egyptians believed the sun would never",
+      "r": "rise again the next morning. For 10 points, name this Egyptian god of the sun who battles the serpent Apophis every night."
+    },
+    {
+      "p": "This deity formed himself out of the primeval waters of Nun atop the very first mound of earth, then created the first divine couple, Shu and Tefnut, from his own body. This deity is the great-grandfather of Osiris, Isis, and",
+      "r": "Set. For 10 points, name this Egyptian sun god, grandfather of Geb and Nut."
+    },
+    {
+      "p": "This deity’s daily journey across the sky was imagined as three stages: a scarab-headed form at sunrise, a falcon-headed form at noon, and the form of the god Atum at sunset. Each stage still referred to the same",
+      "r": "underlying sun god. For 10 points, name this Egyptian deity who sails the sky in a solar barge and fights Apophis nightly."
+    },
+    {
+      "p": "This deity’s name was hidden so carefully that his own great-granddaughter Isis had to trick it out of him using a magical snakebite before she could cure it. This deity’s fierce “Eye,” often identified with the lioness goddess Sekhmet, nearly destroyed",
+      "r": "humanity before being calmed with red-dyed beer. For 10 points, name this Egyptian god of the sun."
+    }
+  ],
+  "clues": [
+    {
+      "id": "sun-god",
+      "tier": "giveaway",
+      "t": "Egyptian god of the Sun",
+      "k": [
+        "egyptian",
+        "sun"
+      ],
+      "n": 1
+    },
+    {
+      "id": "solar-barge",
+      "tier": "giveaway",
+      "t": "Sails across the sky each day in a glowing boat called the solar barge",
+      "k": [
+        "solar barge",
+        "sails"
+      ],
+      "n": 1,
+      "rabbit": "solar barge"
+    },
+    {
+      "id": "apophis-nightly",
+      "tier": "giveaway",
+      "t": "Battles the giant serpent Apophis (also called Apep) every single night",
+      "k": [
+        "apophis",
+        "apep",
+        "serpent"
+      ],
+      "n": 1,
+      "rabbit": "Apophis"
+    },
+    {
+      "id": "son-of-ra",
+      "tier": "giveaway",
+      "t": "Egyptian pharaohs took the title “Son of” this god as part of their royal names",
+      "k": [
+        "pharaohs",
+        "royal names"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heliopolis",
+      "tier": "middle",
+      "t": "Worshipped above all at the city of Heliopolis, Greek for “City of the Sun”",
+      "k": [
+        "heliopolis",
+        "city of the sun"
+      ],
+      "n": 1,
+      "rabbit": "Heliopolis"
+    },
+    {
+      "id": "secret-name",
+      "tier": "middle",
+      "t": "Tricked by the goddess Isis, who made a snake from his own spit to learn his secret true name",
+      "k": [
+        "isis",
+        "secret name",
+        "snake"
+      ],
+      "n": 1,
+      "rabbit": "Isis"
+    },
+    {
+      "id": "sekhmet-eye",
+      "tier": "middle",
+      "t": "His fierce daughter Sekhmet, called his “Eye,” nearly destroyed humanity until he calmed her with red-dyed beer",
+      "k": [
+        "sekhmet",
+        "eye",
+        "beer"
+      ],
+      "n": 1,
+      "rabbit": "Sekhmet"
+    },
+    {
+      "id": "nut-geb",
+      "tier": "middle",
+      "t": "Grandfather of the earth god Geb and the sky goddess Nut",
+      "k": [
+        "geb",
+        "nut",
+        "grandfather"
+      ],
+      "n": 1
+    },
+    {
+      "id": "amun-ra",
+      "tier": "middle",
+      "t": "Often merged with the Theban god Amun into a combined chief god of the New Kingdom",
+      "k": [
+        "amun",
+        "theban",
+        "merged"
+      ],
+      "n": 0,
+      "rabbit": "Amun"
+    },
+    {
+      "id": "ra-horakhty",
+      "tier": "middle",
+      "t": "Also merged with the falcon god Horus into a combined sun god of the horizon",
+      "k": [
+        "horizon",
+        "falcon",
+        "horus"
+      ],
+      "n": 0,
+      "rabbit": "Horus"
+    },
+    {
+      "id": "duat-underworld",
+      "tier": "middle",
+      "t": "His nightly voyage passes through the underworld region called the Duat before sunrise",
+      "k": [
+        "duat",
+        "underworld",
+        "voyage"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nun-chaos",
+      "tier": "power",
+      "t": "Formed himself out of the primeval watery chaos called Nun, rising on the first mound of earth",
+      "k": [
+        "nun",
+        "chaos",
+        "primeval"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tears-humans",
+      "tier": "power",
+      "t": "By one legend, human beings were created from this god’s own tears",
+      "k": [
+        "tears",
+        "created",
+        "humans"
+      ],
+      "n": 0
+    },
+    {
+      "id": "khepri-atum",
+      "tier": "power",
+      "t": "Took the form of the scarab beetle Khepri at dawn and the god Atum, or a ram, at dusk",
+      "k": [
+        "khepri",
+        "scarab",
+        "atum"
+      ],
+      "n": 0,
+      "rabbit": "Khepri"
+    },
+    {
+      "id": "set-defends",
+      "tier": "power",
+      "t": "Defended in the solar barge each night by the god Set, who spears Apophis from the bow",
+      "k": [
+        "set",
+        "spears",
+        "bow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "uraeus-crown",
+      "tier": "power",
+      "t": "Shown wearing a sun disk crown circled by a rearing cobra called a uraeus",
+      "k": [
+        "uraeus",
+        "cobra",
+        "sun disk"
+      ],
+      "n": 0
+    },
+    {
+      "id": "falcon-head",
+      "tier": "power",
+      "t": "Often depicted with the head of a falcon topped by that same sun disk",
+      "k": [
+        "falcon",
+        "depicted",
+        "head"
+      ],
+      "n": 0
+    },
+    {
+      "id": "daily-aging",
+      "tier": "power",
+      "t": "Pictured aging through the day, from a baby at sunrise to an old man by sunset, reborn each morning",
+      "k": [
+        "baby",
+        "old man",
+        "reborn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pyramid-texts",
+      "tier": "power",
+      "t": "Central figure in the Pyramid Texts, among the oldest religious writings in the world",
+      "k": [
+        "pyramid texts",
+        "oldest",
+        "religious"
+      ],
+      "n": 0,
+      "rabbit": "Pyramid Texts"
+    },
+    {
+      "id": "ennead",
+      "tier": "power",
+      "t": "Led the Ennead, the group of nine original gods worshipped at Heliopolis",
+      "k": [
+        "ennead",
+        "nine",
+        "worshipped"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Egyptian sun god?",
+    "body": "Ra shares the sun with several other Egyptian gods: Horus is a separate falcon god until he merges with Ra as Ra-Horakhty, Amun is a separate Theban god until he merges with Ra as Amun-Ra, and Aten is a more abstract sun-disk deity that the pharaoh Akhenaten promoted above all others, including Ra, for a short time. A clue naming only Horus, Amun, or Aten by themselves points to a different answer line.",
+    "fix": "If the clue says this god battles Apophis nightly in a solar barge, sails from Heliopolis, or is the grandfather of Geb and Nut, say Ra. If the clue is specifically about Akhenaten’s religious revolution, the answer is Aten, not Ra.",
+    "line": "Real answer line: <b><u>Ra</u></b> (or <u>Re</u>)."
+  },
+  "tests": {
+    "right": [
+      "Ra",
+      "Re",
+      "Rah",
+      "the god Ra"
+    ],
+    "prompt": [
+      "Amun-Ra"
+    ],
+    "wrong": [
+      "Horus",
+      "Osiris",
+      "Isis",
+      "Set",
+      "Amun"
+    ]
+  },
+  "freq": {
+    "rank": 19,
+    "count": 5,
+    "list": "Mythology"
+  }
+}

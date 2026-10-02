@@ -1,0 +1,401 @@
+{
+  "id": "ribosomes",
+  "name": "Ribosomes",
+  "mono": "RIB",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Tiny organelles that build proteins · Read mRNA to link amino acids",
+  "dates": "First identified by George Palade in 1955",
+  "briefing": "Ribosomes are the cell’s tiny protein factories, each one reading a strand of messenger RNA like an instruction manual and linking amino acids together one by one. Built from two subunits assembled in the nucleolus, they can float freely in the cytoplasm or stud the rough endoplasmic reticulum like tiny rivets. Every living cell, from bacteria to blue whales, is packed with thousands of them, because every cell constantly needs fresh protein.",
+  "answerHtml": "<b><u>Ribosomes</u></b> (accept <u>mitoribosomes</u>; prompt on <u>ribosomal RNA</u> or <u>rRNA</u>)",
+  "accept": [
+    "ribosomes",
+    "ribosome",
+    "mitochondrial ribosomes",
+    "mitoribosomes"
+  ],
+  "prompt": [
+    "ribosomal rna",
+    "rrna"
+  ],
+  "reject": [
+    "endoplasmic reticulum",
+    "rough endoplasmic reticulum",
+    "nucleolus",
+    "nucleus",
+    "golgi apparatus",
+    "golgi body",
+    "mitochondria",
+    "translation",
+    "protein synthesis",
+    "mrna",
+    "trna",
+    "ribose"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ribosomes | Cell: The Unit of Life",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=ZDU8vHkkxWs",
+      "note": "Lesson on what ribosomes are made of and how they build proteins"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Protein Synthesis: Transcription and Translation (Updated)",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=oefAI2x2CQM",
+      "note": "How DNA’s code is read, ending with ribosomes building proteins (translation)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Introduction to Cells: The Grand Cell Tour",
+      "source": "Amoeba Sisters",
+      "url": "https://www.youtube.com/watch?v=8IlzKri08kk",
+      "note": "Cartoon tour of all the organelles, ribosomes included"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Cell Ribosome",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/biology/cell_ribosome.php",
+      "note": "Quick read on where ribosomes are and how they build proteins, with a 10-question quiz"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Ribosome",
+  "qb": {
+    "q": "ribosomes",
+    "found": 2,
+    "tip": "Only 2 Middle School/Easy High School tossups exist, so 6 Regular HS ones were blended in; nearly all of the 8 agree on nucleolus assembly, A/P/E tRNA sites, and rough-ER studding, and one explicitly accepts “mitochondrial ribosomes” while only prompting on “rRNA.”"
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (2 Middle School/Easy High School + 6 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The sedimentation rates of this structure’s two subunits are measured in Svedberg units, with bacterial versions showing 30S and 50S values that combine into a 70S whole. A bridge called B2a, containing a segment named Helix 69, is a target for aminoglycoside [“uh-MEE-no-GLY-co-side”] antibiotics within this structure.",
+      "r": "Elongation factors such as EF-Tu escort transfer RNA molecules into the A site, the entry point among this structure’s A, P, and E sites. For 10 points, name these organelles, assembled in the nucleolus, that read messenger RNA to build chains of amino acids."
+    },
+    {
+      "p": "A technique that “freezes” these structures in place with the drug cycloheximide [“sy-kloh-HEX-ih-mide”] is called profiling, letting scientists see exactly which messenger RNA sequences are being read at a given moment. This structure’s core job, linking amino acids with a peptide bond, is carried out by an RNA-based enzyme called peptidyl transferase.",
+      "r": "Chloramphenicol and tetracycline block this structure’s function in bacteria while largely sparing human cells. For 10 points, name these tiny structures where proteins are assembled."
+    },
+    {
+      "p": "Signal recognition particles guide this structure toward a channel called the Sec61 translocon [“trans-LOH-con”] whenever a growing protein carries a signal sequence. This structure cycles between a free, unbound state and one docked at that channel.",
+      "r": "This structure’s job halts when a release factor recognizes one of three stop sequences nicknamed amber, ochre, and opal. For 10 points, name these organelles that build proteins by reading messenger RNA three letters at a time."
+    },
+    {
+      "p": "This structure’s own folded strand of RNA is often cited as key evidence for the “RNA World” hypothesis about life’s earliest chemistry. A condensation reaction inside this structure joins a free amine group on one amino acid to a carboxyl group on the next, releasing water as it forms each new bond in a growing chain.",
+      "r": "Tetracycline binds to this structure and blocks protein-making in bacteria. For 10 points, name this organelle, built partly from RNA, where amino acids are strung together."
+    },
+    {
+      "p": "A specialized version of this structure found inside mitochondria helps build proteins for that organelle’s own inner membrane. Elongation factors help guide fresh amino acids into this structure as it works.",
+      "r": "In bacteria, this structure’s large and small subunits sediment at rates described as 50S and 30S. For 10 points, name this organelle that uses messenger RNA as a blueprint to build proteins."
+    },
+    {
+      "p": "In bacteria, this structure recognizes a Shine-Dalgarno [“SHY-n DAHL-gar-no”] sequence sitting just upstream of a start codon, while the eukaryotic version instead looks for a nearby Kozak sequence. A cloverleaf-shaped molecule carrying an anticodon loop checks each passing codon for a match inside this structure.",
+      "r": "This organelle’s large and small subunits are built separately inside the nucleolus before joining together. For 10 points, name this cell structure that decodes messenger RNA to assemble proteins."
+    },
+    {
+      "p": "This structure’s large subunit is labeled 60S and its small subunit 40S in humans, numbers describing how fast each piece settles in a spinning centrifuge. The enzyme peptidyl transferase, housed inside this structure, forms the bond linking one amino acid to the next.",
+      "r": "This organelle can be found floating free in the cytosol or clustered on the rough endoplasmic reticulum. For 10 points, name these organelles, the site of protein synthesis in every living cell."
+    },
+    {
+      "p": "Release factors ending this structure’s work recognize one of three stop sequences, informally nicknamed amber, ochre, and opal in classic bacterial genetics. A start codon reading A-U-G instead signals this structure to begin building a fresh protein chain.",
+      "r": "This structure reads messenger RNA in groups of three bases called codons. For 10 points, name this organelle, assembled from two subunits, that translates genetic messages into protein."
+    },
+    {
+      "p": "Three binding pockets in this structure, labeled A, P, and E, each hold a transfer RNA molecule at a different stage of building a protein chain. A tiny bridge called B2a links this structure’s two subunits together as they work in tandem.",
+      "r": "Antibiotics including tetracycline and chloramphenicol specifically target this structure in bacterial cells. For 10 points, name this organelle where messenger RNA is read and proteins are built."
+    },
+    {
+      "p": "This organelle can exist “free,” drifting through the cytosol, or “bound,” clustered along one face of the endoplasmic reticulum, giving that membrane system its bumpy, rough appearance. Transfer RNA molecules ferry amino acids to this structure during the process of translation.",
+      "r": "This structure’s subunits are synthesized separately inside the nucleolus before export from the nucleus. For 10 points, name this organelle that strings amino acids together to build proteins."
+    },
+    {
+      "p": "The nucleolus builds this organelle’s large and small subunits before they leave the nucleus and join together in the cytoplasm. A special, smaller version of this organelle operates inside mitochondria, assisting that organelle in making a handful of its own proteins.",
+      "r": "Some copies of this structure float freely, while others stud the surface of the rough endoplasmic reticulum. For 10 points, name this cell structure that manufactures proteins by reading messenger RNA."
+    },
+    {
+      "p": "Several classes of antibiotics work by jamming this structure specifically in bacteria while largely sparing the human version, which is what makes them useful medicines. Tetracycline, chloramphenicol, and aminoglycoside drugs all exploit slight differences between the bacterial and human forms of this organelle.",
+      "r": "This organelle reads messenger RNA three bases at a time and matches each codon to an incoming transfer RNA. For 10 points, name this protein-building cell structure."
+    },
+    {
+      "p": "A small, cloverleaf-folded RNA molecule carries each amino acid to this structure, matching its three-letter anticodon to a codon on a passing messenger RNA strand. This structure’s small subunit first locks onto messenger RNA near a start codon before the large subunit joins it.",
+      "r": "This organelle is built from two subunits that assemble separately in the nucleolus. For 10 points, name this cell structure that translates genetic code into protein."
+    },
+    {
+      "p": "This organelle reads a messenger RNA strand three letters at a time, matching each codon to a transfer RNA carrying the matching amino acid. Thousands of copies of this structure can be found in a single busy cell, some drifting loose and others studding the rough endoplasmic reticulum.",
+      "r": "Scientist George Palade first identified this organelle using an electron microscope in 1955. For 10 points, name this cell structure that builds proteins by translating messenger RNA."
+    },
+    {
+      "p": "Every living cell, from the simplest bacterium to the largest whale, is packed with thousands of copies of this tiny organelle, since every cell constantly needs a fresh supply of protein. This structure is made of two subunits, each combining RNA with proteins of its own.",
+      "r": "This organelle reads messenger RNA and links together amino acids to build a protein chain, one codon at a time. For 10 points, name these organelles, often called the protein factories of the cell."
+    }
+  ],
+  "clues": [
+    {
+      "id": "protein-factories",
+      "tier": "giveaway",
+      "t": "Often nicknamed the cell’s protein factories; found in every living cell, from bacteria to whales",
+      "k": [
+        "protein factories"
+      ],
+      "n": 8
+    },
+    {
+      "id": "reads-mrna",
+      "tier": "giveaway",
+      "t": "Read messenger RNA three bases (one codon) at a time to decide which amino acid comes next",
+      "k": [
+        "messenger rna",
+        "codon"
+      ],
+      "n": 8
+    },
+    {
+      "id": "two-subunits",
+      "tier": "giveaway",
+      "t": "Built from a large and a small subunit that join together to start building a protein",
+      "k": [
+        "large subunit",
+        "small subunit"
+      ],
+      "n": 6
+    },
+    {
+      "id": "nucleolus-made",
+      "tier": "giveaway",
+      "t": "Assembled from parts built inside the nucleolus before export from the nucleus",
+      "k": [
+        "nucleolus"
+      ],
+      "n": 7
+    },
+    {
+      "id": "free-or-bound",
+      "tier": "giveaway",
+      "t": "Found either “free” floating in the cytoplasm or “bound” and studding the rough endoplasmic reticulum",
+      "k": [
+        "free",
+        "bound",
+        "rough"
+      ],
+      "n": 6
+    },
+    {
+      "id": "svedberg",
+      "tier": "middle",
+      "t": "Subunit sizes are measured in Svedberg (S) units: 30S and 50S in bacteria, 40S and 60S in humans",
+      "k": [
+        "svedberg"
+      ],
+      "n": 5
+    },
+    {
+      "id": "ape-sites",
+      "tier": "middle",
+      "t": "Has three pockets, the A, P, and E sites, that each hold a transfer RNA molecule at a different stage",
+      "k": [
+        "a, p, and e sites",
+        "three pockets"
+      ],
+      "n": 5
+    },
+    {
+      "id": "antibiotics",
+      "tier": "middle",
+      "t": "Tetracycline and chloramphenicol are antibiotics that jam the bacterial version of this structure while largely sparing human cells",
+      "k": [
+        "tetracycline",
+        "chloramphenicol",
+        "antibiotics"
+      ],
+      "n": 4
+    },
+    {
+      "id": "trna-delivery",
+      "tier": "middle",
+      "t": "Transfer RNA, folded into a cloverleaf shape, delivers each amino acid by matching its anticodon to a codon here",
+      "k": [
+        "transfer rna",
+        "cloverleaf",
+        "anticodon"
+      ],
+      "n": 5
+    },
+    {
+      "id": "mitoribosome",
+      "tier": "middle",
+      "t": "A smaller, specialized version exists inside mitochondria to help build that organelle’s own proteins",
+      "k": [
+        "mitochondria",
+        "specialized version"
+      ],
+      "n": 2
+    },
+    {
+      "id": "peptide-bond",
+      "tier": "middle",
+      "t": "An enzyme called peptidyl transferase, built from RNA, forms the peptide bond linking each new amino acid to the chain",
+      "k": [
+        "peptidyl transferase",
+        "peptide bond"
+      ],
+      "n": 2
+    },
+    {
+      "id": "stop-codons",
+      "tier": "middle",
+      "t": "Protein-building halts when a release factor recognizes a stop codon, informally nicknamed amber, ochre, or opal",
+      "k": [
+        "release factor",
+        "stop codon"
+      ],
+      "n": 2
+    },
+    {
+      "id": "palade",
+      "tier": "middle",
+      "t": "Scientist George Palade first identified these organelles with an electron microscope in 1955",
+      "k": [
+        "george palade"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shine-dalgarno",
+      "tier": "power",
+      "t": "In bacteria, this structure recognizes a Shine-Dalgarno sequence just upstream of the start codon on messenger RNA",
+      "k": [
+        "shine-dalgarno"
+      ],
+      "n": 2
+    },
+    {
+      "id": "kozak",
+      "tier": "power",
+      "t": "The eukaryotic (non-bacterial) version instead looks for a nearby Kozak sequence to find the start codon",
+      "k": [
+        "kozak sequence"
+      ],
+      "n": 1
+    },
+    {
+      "id": "b2a-bridge",
+      "tier": "power",
+      "t": "A bridge named B2a, containing a segment called Helix 69, links this structure’s two subunits and is targeted by aminoglycoside antibiotics",
+      "k": [
+        "b2a bridge",
+        "helix 69"
+      ],
+      "n": 1
+    },
+    {
+      "id": "srp",
+      "tier": "power",
+      "t": "Signal recognition particles guide this structure to the Sec61 translocon channel whenever a signal sequence appears",
+      "k": [
+        "signal recognition particle",
+        "sec61 translocon"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ef-tu",
+      "tier": "power",
+      "t": "Elongation factors such as EF-Tu escort fresh transfer RNA molecules into the A site",
+      "k": [
+        "elongation factors",
+        "ef-tu"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rna-world",
+      "tier": "power",
+      "t": "Its own folded RNA core is cited as key evidence for the “RNA World” hypothesis about life’s earliest chemistry",
+      "k": [
+        "rna world"
+      ],
+      "n": 1
+    },
+    {
+      "id": "profiling",
+      "tier": "power",
+      "t": "A technique using the drug cycloheximide to “freeze” these in place, called profiling, shows exactly which mRNA is being read",
+      "k": [
+        "cycloheximide",
+        "profiling"
+      ],
+      "n": 1
+    },
+    {
+      "id": "70s-whole",
+      "tier": "power",
+      "t": "In bacteria, the 30S small and 50S large subunits combine into a complete 70S structure",
+      "k": [
+        "70s structure",
+        "30s",
+        "50s"
+      ],
+      "n": 1
+    },
+    {
+      "id": "selective-toxicity",
+      "tier": "power",
+      "t": "Differences between the bacterial and human forms let antibiotics target mainly the bacterial version, a property called selective toxicity",
+      "k": [
+        "selective toxicity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "start-codon",
+      "tier": "power",
+      "t": "Protein-building begins when a start codon reading A-U-G is recognized on the messenger RNA strand",
+      "k": [
+        "start codon",
+        "aug"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "The organelle, or translation?",
+    "body": "Real tossups almost always ask for the organelle itself (“name this structure” or “name these organelles”), not the process of reading messenger RNA into protein, which is a separate, more specific answer called translation. Likewise, these organelles stud the rough endoplasmic reticulum rather than being part of it, and their RNA core is a component, not the whole organelle.",
+    "fix": "If the clues describe a process happening (reading codons, matching tRNA) but the question clearly asks for a structure, give the organelle’s name. Save “translation” or “protein synthesis” for a question that explicitly asks for the process, and never answer “endoplasmic reticulum” just because the two are mentioned together.",
+    "line": "Real answer line: <b><u>Ribosomes</u></b> (accept mitochondrial ribosomes or mitoribosomes; prompt on ribosomal RNA or rRNA)."
+  },
+  "tests": {
+    "right": [
+      "Ribosomes",
+      "ribosome",
+      "Ribosones",
+      "Mitoribosomes"
+    ],
+    "prompt": [
+      "Ribosomal RNA",
+      "rRNA"
+    ],
+    "wrong": [
+      "Endoplasmic Reticulum",
+      "Nucleolus",
+      "Translation",
+      "Protein Synthesis",
+      "Mitochondria",
+      "Ribose"
+    ]
+  },
+  "freq": {
+    "rank": 26,
+    "count": 3,
+    "list": "Biology"
+  }
+}

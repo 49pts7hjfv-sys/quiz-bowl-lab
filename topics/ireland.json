@@ -1,0 +1,398 @@
+{
+  "id": "ireland",
+  "name": "Ireland",
+  "mono": "IRE",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Ireland in myth and legend · The clues quiz bowl uses for the Emerald Isle",
+  "dates": "Legendary; written down in medieval Irish manuscripts",
+  "briefing": "When quiz bowl’s Mythology category asks about this country, the clues are almost never modern history — they are its myths. The magical Tuatha Dé Danann, the hound-named hero Cú Chulainn, and Fionn mac Cumhaill, who gained all the world’s wisdom from one taste of a magic salmon, all lead to the same answer: the island itself, nicknamed the “Emerald Isle.”",
+  "answerHtml": "<b><u>Ireland</u></b> (or <u>Eire</u>; do not accept or prompt on “Northern Ireland”)",
+  "accept": [
+    "ireland",
+    "eire",
+    "eireann",
+    "republic of ireland",
+    "irish free state",
+    "poblacht na heireann"
+  ],
+  "prompt": [],
+  "reject": [
+    "northern ireland",
+    "england",
+    "scotland",
+    "wales",
+    "united kingdom",
+    "great britain",
+    "uk",
+    "iceland"
+  ],
+  "tests": {
+    "right": [
+      "Ireland",
+      "Eire",
+      "Irland",
+      "Republic of Ireland",
+      "Eireann"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Northern Ireland",
+      "Scotland",
+      "England",
+      "United Kingdom",
+      "Iceland",
+      "Great Britain"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Irish myth of the Giant’s Causeway - Iseult Gillespie",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=aQbyVYUob1o",
+      "note": "Short animated myth · how Fionn mac Cumhaill outwits a Scottish giant at the famous stone causeway"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Miscellaneous Myths: Fionn Mac Cumhaill",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=gVHyXcAJ-Ks",
+      "note": "Funny cartoon summary of the legends of Fionn, one of quiz bowl’s favorite Ireland clues"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Celtic Mythology: The Tuatha dé Danann | Mythic Origins of the Irish People (5/6)",
+      "source": "Brehon Academy",
+      "url": "https://www.youtube.com/watch?v=1BYfpqLF1js",
+      "note": "Irish history channel on the magical Tuatha Dé Danann, one of the mythical invasions of Ireland"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Irish mythology",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Irish_mythology",
+      "note": "Kid-friendly encyclopedia article on the Tuatha Dé Danann, the Ulster Cycle, and Fionn’s Fenian Cycle"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Irish_mythology",
+  "qb": {
+    "q": "Ireland",
+    "found": 26,
+    "tip": "Most of the 26 hits are History tossups about modern Ireland (the Troubles, the Easter Rising, the potato famine) — skip those entirely. The mythology-flavored ones lead with Cú Chulainn, the Tuatha Dé Danann, and Fionn mac Cumhaill before naming the country itself as the giveaway."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line that lead with Irish mythology clues (Middle School + Easy High School, power-marked); the other 21 of the 26 total hits are History/Geography tossups about the Troubles, the Easter Rising, or the United Kingdom and are not used here"
+  },
+  "tossups": [
+    {
+      "p": "A medieval text called the _Book of Invasions_ describes a series of mythical peoples who settled this island and their battles with the monstrous Fomorians, led by the one-eyed giant Balor. Another group in that text, the Tuatha Dé Danann, were a race of magical beings named for the goddess Danu.",
+      "r": "Those gods were eventually driven to live underground by invaders called the Milesians. For 10 points, name this island whose folklore also includes leprechauns and pots of gold."
+    },
+    {
+      "p": "The god Lugh killed his own tyrannical grandfather, Balor, with a sling stone through his one giant eye at a battle fought on this island’s plain of Mag Tuired. In another tale, four children of the god Lir were turned into swans by a jealous stepmother for 900 years.",
+      "r": "This island’s hero Cú Chulainn single-handedly defended Ulster against Queen Medb’s cattle raid. For 10 points, name this country, legendarily home to a chief god called the Dagda and his bottomless cauldron."
+    },
+    {
+      "p": "According to legend, the poet Oisín returned from the magical land of Tír na nÓg to this island after what felt like three years, only to instantly turn into an old man when he touched the ground. Oisín’s father, Fionn mac Cumhaill, gained all the world’s wisdom from one taste of the Salmon of Knowledge.",
+      "r": "A trio of sisters making up the crow goddess the Morrígan could spread fear and panic on this island’s battlefields. For 10 points, Saint Patrick legendarily drove all the snakes out of what island country?"
+    },
+    {
+      "p": "In one tale, the giant Fionn mac Cumhaill’s quick-thinking wife disguised him as a baby to trick a rival Scottish giant, Benandonner, into fleeing in fright. That same Fionn is said to have built the Giant’s Causeway, connecting this island to Scotland.",
+      "r": "This island’s Queen Medb led a famous raid to steal a prized bull in the _Táin Bó Cúailnge_, the Cattle Raid of Cooley. For 10 points, name this country, home to Dublin and the legendary hero Cú Chulainn."
+    },
+    {
+      "p": "The Milesians, Gaelic-speaking invaders said to have come from Spain, conquered this island’s earlier divine inhabitants, the Tuatha Dé Danann, who then withdrew to live in hidden mounds called the sídhe. The ancient festival of Samhain, later a root of Halloween, marked the start of winter on this island.",
+      "r": "This island’s hero Fionn mac Cumhaill led a band of warriors called the Fianna. For 10 points, name this “Emerald Isle,” legendary home of leprechauns and banshees."
+    },
+    {
+      "p": "This island’s folklore includes wailing female spirits called banshees, who are said to warn families of a coming death. In its most famous epic, a single hero wielding a barbed spear called the Gáe Bulg held off an entire army alone to protect the province of Ulster.",
+      "r": "That hero, Cú Chulainn, fought for this island’s province of Ulster against the forces of Queen Medb. For 10 points, name this country whose mythical former rulers included the magical Tuatha Dé Danann."
+    },
+    {
+      "p": "A bottomless cauldron of plenty belonged to the Dagda, a chief god of this island’s mythical Tuatha Dé Danann. According to the _Book of Invasions_, those gods took control of this island by defeating an earlier people called the Fir Bolg.",
+      "r": "Fionn mac Cumhaill accidentally gained all wisdom by tasting the Salmon of Knowledge while cooking it for his teacher on this island. For 10 points, name this country, legendary home of the hero Cú Chulainn."
+    },
+    {
+      "p": "Niamh, a princess from the Land of Youth, fell in love with the poet Oisín and brought him away from this island for what he thought was only a few years. This island’s one-eyed giant Balor led the monstrous Fomorians against the Tuatha Dé Danann at the Battle of Mag Tuired.",
+      "r": "This island’s Giant’s Causeway was supposedly built by the giant Fionn mac Cumhaill. For 10 points, name this island nation, home to Dublin and Saint Patrick."
+    },
+    {
+      "p": "Three sisters, Badb, Macha, and Nemain, together made up this island’s crow-shaped war goddess, the Morrígan. This island’s divine Tuatha Dé Danann were eventually defeated by Gaelic-speaking invaders called the Milesians and withdrew to live in the sídhe mounds.",
+      "r": "In this island’s best-known epic, Queen Medb led a raid to steal a bull in the Cattle Raid of Cooley. For 10 points, what island country’s folklore also features leprechauns who guard pots of gold?"
+    },
+    {
+      "p": "This island’s hero Fionn mac Cumhaill is said to have built a rock causeway to Scotland to fight a rival giant he later tricked by disguising himself as a baby. This island’s war goddess the Morrígan could shapeshift into an eel, a wolf, or a heifer.",
+      "r": "That goddess is sometimes grouped as three sisters who spread panic in battle on this island. For 10 points, name this country, legendary setting of the Ulster Cycle and the Cattle Raid of Cooley."
+    },
+    {
+      "p": "According to the _Book of Invasions_, a race of gods called the Tuatha Dé Danann ruled this island until Gaelic-speaking Milesians arrived from Spain and drove them underground. This island’s chief god, the Dagda, owned a cauldron that never ran empty and a club that could kill with one end and heal with the other.",
+      "r": "This island’s hero Cú Chulainn earned his name after killing a smith’s guard dog as a boy. For 10 points, name this country, legendary home of banshees and leprechauns."
+    },
+    {
+      "p": "The festival of Samhain, a root of modern Halloween, marked the start of winter on this island, when spirits of the Otherworld were thought to roam freely. This island’s god Lugh killed his tyrannical grandfather Balor with a single well-aimed strike to his one giant eye.",
+      "r": "This island’s hero Fionn mac Cumhaill tasted the Salmon of Knowledge and gained all the world’s wisdom. For 10 points, Saint Patrick is said to have driven every snake out of this country."
+    },
+    {
+      "p": "In one tragic tale, four children of the god Lir were transformed into swans by a jealous stepmother and spent 900 years on this island’s waters before returning to human form. This island’s poet Oisín, son of Fionn mac Cumhaill, is said to have visited the magical Tír na nÓg.",
+      "r": "This island’s divine Tuatha Dé Danann were said to have withdrawn into fairy mounds called the sídhe. For 10 points, name this country, legendary home of the hero Cú Chulainn and the Cattle Raid of Cooley."
+    },
+    {
+      "p": "This island’s monstrous Fomorians, led by the giant Balor, fought the divine Tuatha Dé Danann at the Battle of Mag Tuired. This island’s Fionn mac Cumhaill led a band of warriors called the Fianna and once tricked a Scottish giant by dressing as a giant baby.",
+      "r": "This island’s war goddess, the Morrígan, could take the shape of a crow, an eel, or a wolf. For 10 points, what country was legendarily cleared of snakes by Saint Patrick?"
+    },
+    {
+      "p": "This island’s Queen Medb commanded the armies that invaded Ulster in search of a prized brown bull in its best-known epic. This island’s chief god, the Dagda, is linked to a giant club and a cauldron that could feed any number of guests without ever running dry.",
+      "r": "This island’s hero Cú Chulainn single-handedly defended Ulster using a barbed spear called the Gáe Bulg. For 10 points, name this “Emerald Isle,” home to Dublin."
+    }
+  ],
+  "clues": [
+    {
+      "id": "st-patrick-snakes",
+      "tier": "giveaway",
+      "t": "Legend says Saint Patrick drove every snake out of this island",
+      "k": [
+        "saint patrick",
+        "snakes",
+        "expelled"
+      ],
+      "n": 2
+    },
+    {
+      "id": "dublin-capital",
+      "tier": "giveaway",
+      "t": "Capital and largest city: Dublin",
+      "k": [
+        "dublin",
+        "capital"
+      ],
+      "n": 1
+    },
+    {
+      "id": "emerald-isle",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Emerald Isle,” an island west of Great Britain",
+      "k": [
+        "emerald isle",
+        "great britain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leprechauns-banshees",
+      "tier": "giveaway",
+      "t": "Folklore home to leprechauns, who guard pots of gold, and wailing spirits called banshees",
+      "k": [
+        "leprechauns",
+        "banshees",
+        "pots of gold"
+      ],
+      "n": 2,
+      "rabbit": "Leprechaun"
+    },
+    {
+      "id": "cu-chulainn-defender",
+      "tier": "middle",
+      "t": "In the Ulster Cycle, the hero Cú Chulainn single-handedly defended the province of Ulster against Queen Medb",
+      "k": [
+        "cu chulainn",
+        "ulster cycle",
+        "medb"
+      ],
+      "n": 3,
+      "rabbit": "Cú Chulainn"
+    },
+    {
+      "id": "fionn-salmon",
+      "tier": "middle",
+      "t": "Fionn mac Cumhaill gained all the world’s wisdom by tasting the Salmon of Knowledge",
+      "k": [
+        "fionn mac cumhaill",
+        "salmon of knowledge",
+        "finn maccool"
+      ],
+      "n": 3
+    },
+    {
+      "id": "morrigan-triple",
+      "tier": "middle",
+      "t": "The crow-shaped war goddess the Morrígan is sometimes three sisters who spread fear in battle",
+      "k": [
+        "morrigan",
+        "crow goddess",
+        "three sisters"
+      ],
+      "n": 3
+    },
+    {
+      "id": "cattle-raid-medb",
+      "tier": "middle",
+      "t": "Queen Medb led a raid to steal a bull in the _Táin Bó Cúailnge_, the Cattle Raid of Cooley",
+      "k": [
+        "medb",
+        "cattle raid",
+        "cooley"
+      ],
+      "n": 3,
+      "rabbit": "Queen Medb"
+    },
+    {
+      "id": "giants-causeway",
+      "tier": "middle",
+      "t": "Fionn mac Cumhaill is said to have built the Giant’s Causeway to reach a rival in Scotland",
+      "k": [
+        "giants causeway",
+        "causeway",
+        "scotland"
+      ],
+      "n": 2
+    },
+    {
+      "id": "samhain",
+      "tier": "middle",
+      "t": "The festival of Samhain marked the start of winter, when the Otherworld seemed close; it is a root of Halloween",
+      "k": [
+        "samhain",
+        "halloween",
+        "winter festival"
+      ],
+      "n": 1
+    },
+    {
+      "id": "oisin-poet",
+      "tier": "middle",
+      "t": "The poet Oisín, son of Fionn mac Cumhaill, is said to have visited the Otherworld and returned centuries later",
+      "k": [
+        "oisin",
+        "poet",
+        "otherworld"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hibernia",
+      "tier": "middle",
+      "t": "Known to the ancient Romans by the Latin name Hibernia",
+      "k": [
+        "hibernia",
+        "latin name"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tuatha-de-danann",
+      "tier": "power",
+      "t": "The Tuatha Dé Danann, a magical race named for the goddess Danu, once ruled this island",
+      "k": [
+        "tuatha de danann",
+        "danu"
+      ],
+      "n": 1,
+      "rabbit": "Tuatha Dé Danann"
+    },
+    {
+      "id": "book-of-invasions",
+      "tier": "power",
+      "t": "The _Lebor Gabála Érenn_, or Book of Invasions, records a series of mythical settlements of this island",
+      "k": [
+        "book of invasions",
+        "lebor gabala"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fomorians-balor",
+      "tier": "power",
+      "t": "The one-eyed giant Balor led the monstrous Fomorians against the Tuatha Dé Danann at the Battle of Mag Tuired",
+      "k": [
+        "fomorians",
+        "balor",
+        "mag tuired"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lugh-kills-balor",
+      "tier": "power",
+      "t": "The god Lugh killed his own tyrannical grandfather, Balor, with a sling stone through his one giant eye",
+      "k": [
+        "lugh",
+        "balor",
+        "grandfather"
+      ],
+      "n": 1,
+      "rabbit": "Lugh"
+    },
+    {
+      "id": "dagda",
+      "tier": "power",
+      "t": "The Dagda, a chief god of the Tuatha Dé Danann, owned a bottomless cauldron of plenty and a giant club",
+      "k": [
+        "dagda",
+        "cauldron",
+        "club"
+      ],
+      "n": 1
+    },
+    {
+      "id": "milesians",
+      "tier": "power",
+      "t": "Gaelic-speaking invaders called the Milesians defeated the Tuatha Dé Danann, who withdrew to live in the sídhe",
+      "k": [
+        "milesians",
+        "sidhe",
+        "underground"
+      ],
+      "n": 1
+    },
+    {
+      "id": "children-of-lir",
+      "tier": "power",
+      "t": "In one tragic tale, the four Children of Lir were turned into swans by a jealous stepmother for 900 years",
+      "k": [
+        "children of lir",
+        "swans",
+        "stepmother"
+      ],
+      "n": 1
+    },
+    {
+      "id": "benandonner-trick",
+      "tier": "power",
+      "t": "Fionn mac Cumhaill’s wife disguised him as a giant baby to trick the rival giant Benandonner into fleeing",
+      "k": [
+        "benandonner",
+        "giant baby",
+        "trick"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tir-na-nog-return",
+      "tier": "power",
+      "t": "When Oisín finally returned from Tír na nÓg, the Land of Youth, and touched the ground, he instantly aged",
+      "k": [
+        "tir na nog",
+        "land of youth",
+        "aged"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Ireland, or its heroes?",
+    "body": "Many of these tossups spend three sentences on Cú Chulainn, Fionn mac Cumhaill, or the Tuatha Dé Danann before finally asking for the island itself — buzzing with a hero’s name instead of the country loses the game. There is also a political trap: real answer lines specifically say do not accept or prompt on “Northern Ireland,” which is a different, smaller answer line.",
+    "fix": "Listen for the pronoun. “This island,” “this country,” or “this nation” means Ireland as a whole. A named hero mentioned inside the clues (Cú Chulainn, Fionn mac Cumhaill, the Dagda) is never the answer unless the question explicitly asks “name this god” or “name this hero.”",
+    "line": "Real answer line: <b><u>Ireland</u></b> [or Eire; accept Republic of Ireland or Poblacht na hEireann; accept Irish Free State; do not accept or prompt on “Northern Ireland”]"
+  },
+  "freq": {
+    "rank": 19,
+    "count": 5,
+    "list": "Mythology"
+  }
+}

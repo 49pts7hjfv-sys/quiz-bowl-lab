@@ -1,0 +1,502 @@
+{
+  "id": "battle-of-waterloo",
+  "name": "Battle of Waterloo",
+  "mono": "BW",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Napoleon’s final defeat, 1815 · Ended his comeback and his rule",
+  "dates": "Fought June 18, 1815",
+  "briefing": "On June 18, 1815, near the village of Waterloo in what is now Belgium, Napoleon gambled everything on one last battle against the Duke of Wellington’s army. Wellington’s troops held their ridge all afternoon against French attacks, and by evening Gebhard von Blücher’s Prussians had arrived to help finish the job. Napoleon gave up his throne four days later and was exiled to Saint Helena, and “meeting your Waterloo” still means facing a final defeat.",
+  "answerHtml": "Battle of <b><u>Waterloo</u></b>",
+  "accept": [
+    "waterloo",
+    "battle of waterloo"
+  ],
+  "prompt": [],
+  "reject": [
+    "napoleon",
+    "napoleon bonaparte",
+    "wellington",
+    "duke of wellington",
+    "hundred days",
+    "100 days",
+    "napoleonic wars",
+    "ligny",
+    "battle of ligny",
+    "quatre bras",
+    "battle of quatre bras",
+    "wavre",
+    "battle of wavre",
+    "austerlitz",
+    "battle of austerlitz",
+    "trafalgar",
+    "battle of trafalgar",
+    "leipzig",
+    "battle of leipzig",
+    "battle of the nations",
+    "borodino",
+    "jena",
+    "marengo",
+    "blucher",
+    "peterloo",
+    "seventh coalition",
+    "congress of vienna",
+    "elba",
+    "saint helena",
+    "st helena",
+    "sedan",
+    "agincourt"
+  ],
+  "tests": {
+    "right": [
+      "Waterloo",
+      "Battle of Waterloo",
+      "the battle of waterloo",
+      "Waterlo",
+      "Battle of Watterloo"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Napoleon",
+      "Wellington",
+      "Quatre Bras",
+      "Ligny",
+      "Hundred Days",
+      "Napoleonic Wars",
+      "Austerlitz",
+      "Trafalgar"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "18th June 1815: Battle of Waterloo",
+      "source": "HistoryPod",
+      "url": "https://www.youtube.com/watch?v=OdPUaHELOU4",
+      "note": "Short · “on this day” recap of June 18, 1815"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Battle of Waterloo: Wellington’s Finest Hour",
+      "source": "The History Chap",
+      "url": "https://www.youtube.com/watch?v=15f4iKsS710",
+      "note": "A storyteller walks you through the battle on Wellington’s big day"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How Did Napoleon Lose Waterloo?",
+      "source": "The Armchair Historian",
+      "url": "https://www.youtube.com/watch?v=OE_dtHRITY8",
+      "note": "Animated · why Napoleon lost, with cartoon battle maps"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Napoleonic Wars: Battle of Waterloo 1815",
+      "source": "Epic History",
+      "url": "https://www.youtube.com/watch?v=nDZGL1xsqzs",
+      "note": "Weekend watch · the whole battle on animated maps (battle scenes)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Napoleonic Wars, Part 2",
+      "source": "OverSimplified",
+      "url": "https://www.youtube.com/watch?v=mY3SEMTROas",
+      "note": "Weekend watch · funny cartoon of the later wars, ending at Waterloo (preview first)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Why Was Napoleon Exiled Instead of Executed?",
+      "source": "History Matters",
+      "url": "https://www.youtube.com/watch?v=T9VqAjLhT4Y",
+      "note": "Short · why he was sent to Elba, then St. Helena"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Battle of Waterloo",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Battle-of-Waterloo/476334",
+      "note": "Short encyclopedia article: Wellington holds on, Blücher’s Prussians arrive, Napoleon falls"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+  "qb": {
+    "q": "Waterloo",
+    "found": 7,
+    "tip": "The Battle of Waterloo is #6 on QBReader’s European History frequency list (7 Middle School and Easy High School tossups). Skip the one result whose answer is the Napoleonic Wars: it only prompts on Waterloo, so the last line tells you whether they want the battle or the whole war."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A huge artificial hill topped by a statue of a lion marks roughly where the Prince of Orange, the future King William II of the Netherlands, was wounded in this battle. Fighting in this battle also raged all day around the walled farm of Hougoumont [“OO-goo-mohn”].",
+      "r": "For 10 points, name this 1815 battle in which the Duke of Wellington defeated Napoleon."
+    },
+    {
+      "p": "A deadly 1819 cavalry charge into a crowd demanding voting reform at St. Peter’s Field in Manchester was nicknamed the Peterloo Massacre, a bitter joke on this battle’s name. This battle came two days after Napoleon beat the Prussians at Ligny [“leen-YEE”].",
+      "r": "The Duke of Wellington won it. For 10 points, name this 1815 battle in Belgium, Napoleon’s final defeat."
+    },
+    {
+      "p": "Napoleon sent Marshal Emmanuel de Grouchy [“groo-SHEE”] with a large part of his army to chase the Prussians, but Grouchy fought at Wavre [“WAHV-ruh”] and missed this battle. Meanwhile, the Prussians hit the French right flank at the village of Plancenoit [“plahns-NWAH”].",
+      "r": "For 10 points, name this 1815 battle, where Wellington and Gebhard von Blücher defeated Napoleon."
+    },
+    {
+      "p": "Many British officers left the Duchess of Richmond’s ball in Brussels to join the campaign that ended in this battle, some still wearing their evening clothes. Two days before this battle, Wellington’s army fought the French at the crossroads of Quatre Bras [“KAH-truh BRAH”].",
+      "r": "For 10 points, name this battle of June 18, 1815, which ended Napoleon’s Hundred Days."
+    },
+    {
+      "p": "Heavy rain the night before this battle turned the fields to mud, so Napoleon waited until late morning to attack, giving the Prussians more time to arrive. The first French attack in this battle struck the walled château and farm of Hougoumont [“OO-goo-mohn”].",
+      "r": "For 10 points, name this 1815 battle in which Napoleon lost to the Duke of Wellington."
+    },
+    {
+      "p": "Soldiers of the King’s German Legion held the farmhouse of La Haye Sainte [“lah AY SANT”] at the center of this battle until their ammunition ran out. That same afternoon, British infantry squares fought off huge French cavalry charges led by Marshal Ney.",
+      "r": "Blücher’s Prussians helped win it. For 10 points, name this battle where Napoleon was finally defeated in 1815."
+    },
+    {
+      "p": "The winning commander in this battle sheltered many of his troops behind the crest of a low ridge so that French cannonballs would fly over them. Afterward, he called this battle “the nearest-run thing you ever saw in your life.”",
+      "r": "That commander was the Duke of Wellington. For 10 points, name this 1815 battle, Napoleon’s final defeat."
+    },
+    {
+      "p": "In the evening of this battle, Napoleon sent his elite Imperial Guard up the slope in a last attack, and the French army fell apart after the Guard was driven back. Napoleon gave up his throne four days later.",
+      "r": "The Duke of Wellington and Gebhard von Blücher commanded the winning armies. For 10 points, name this 1815 battle."
+    },
+    {
+      "p": "In _Les Misérables_, Victor Hugo spends many chapters on this battle, in which the crook Thénardier [“tay-nar-DYAY”] robs a wounded French officer who thinks Thénardier has saved his life. That officer, Colonel Pontmercy, is the father of the student Marius.",
+      "r": "Today, this battle’s name means any final, crushing defeat. For 10 points, name this 1815 battle in Belgium."
+    },
+    {
+      "p": "Diplomats at the Congress of Vienna were still redrawing the map of Europe when Napoleon escaped from Elba, and they signed their Final Act just nine days before this battle. In this battle, the armies of the Seventh Coalition defeated Napoleon for good.",
+      "r": "For 10 points, name this battle in modern Belgium that ended Napoleon’s Hundred Days."
+    },
+    {
+      "p": "Two days before this battle, the 72-year-old Prussian commander Gebhard von Blücher [“BLOO-kur”] was trapped under his fallen horse at Ligny [“leen-YEE”]. He recovered in time to march his army toward this battle anyway.",
+      "r": "His Prussians arrived in the afternoon to help the Duke of Wellington win. For 10 points, name this 1815 battle, Napoleon’s last."
+    },
+    {
+      "p": "About a month after this battle, its loser surrendered to Captain Frederick Maitland aboard the British warship HMS _Bellerophon_. The British then sent him to the remote South Atlantic island of Saint Helena, where he died six years later.",
+      "r": "For 10 points, name this battle of June 18, 1815, Napoleon’s final defeat."
+    },
+    {
+      "p": "In William Makepeace Thackeray’s novel _Vanity Fair_, Amelia Sedley waits anxiously in Brussels while her husband, George Osborne, marches off and is killed in this battle. After this battle, King Louis XVIII returned to Paris and took back the French throne.",
+      "r": "Wellington and Blücher won it. For 10 points, name this 1815 battle, the final defeat of Napoleon."
+    },
+    {
+      "p": "Napoleon hoped to defeat the British and Prussian armies one at a time before they could join forces, so he invaded what was then the United Kingdom of the Netherlands. His plan failed in this battle, fought near a village south of Brussels.",
+      "r": "For 10 points, name this 1815 battle in which the Duke of Wellington and Blücher ended Napoleon’s Hundred Days."
+    },
+    {
+      "p": "The winning general in this battle rode his chestnut horse Copenhagen for many hours during the fighting. That general had earlier beaten the French in Spain and Portugal during the Peninsular War.",
+      "r": "That general was the Duke of Wellington. For 10 points, name this 1815 battle in Belgium where Napoleon met his final defeat."
+    }
+  ],
+  "clues": [
+    {
+      "id": "final-defeat",
+      "tier": "giveaway",
+      "t": "Napoleon’s final defeat, on June 18, 1815",
+      "k": [
+        "final defeat",
+        "june 18",
+        "1815",
+        "napoleon"
+      ],
+      "n": 6
+    },
+    {
+      "id": "wellington",
+      "tier": "giveaway",
+      "t": "Won by the Duke of Wellington’s British-led army",
+      "k": [
+        "wellington",
+        "duke of wellington",
+        "british-led"
+      ],
+      "n": 5,
+      "rabbit": "Duke of Wellington"
+    },
+    {
+      "id": "blucher",
+      "tier": "giveaway",
+      "t": "Gebhard von Blücher’s Prussian army arrived to help win it",
+      "k": [
+        "blücher",
+        "blucher",
+        "prussian",
+        "prussians"
+      ],
+      "n": 5
+    },
+    {
+      "id": "belgium",
+      "tier": "giveaway",
+      "t": "Fought in modern Belgium, south of Brussels",
+      "k": [
+        "belgium",
+        "brussels"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hundred-days",
+      "tier": "giveaway",
+      "t": "Ended Napoleon’s Hundred Days, his comeback after escaping from Elba",
+      "k": [
+        "hundred days",
+        "elba",
+        "comeback"
+      ],
+      "n": 3,
+      "rabbit": "Napoleon Bonaparte"
+    },
+    {
+      "id": "saint-helena",
+      "tier": "middle",
+      "t": "Afterward, Napoleon was exiled to Saint Helena, where he died in 1821",
+      "k": [
+        "saint helena",
+        "st helena",
+        "helena",
+        "exiled"
+      ],
+      "n": 3
+    },
+    {
+      "id": "seventh-coalition",
+      "tier": "middle",
+      "t": "Won by the Seventh Coalition of Britain, Prussia, the Netherlands, and several German states",
+      "k": [
+        "seventh coalition",
+        "coalition"
+      ],
+      "n": 2
+    },
+    {
+      "id": "squares-ney",
+      "tier": "middle",
+      "t": "British infantry squares beat off huge French cavalry charges led by Marshal Ney",
+      "k": [
+        "squares",
+        "marshal ney",
+        "ney",
+        "cavalry"
+      ],
+      "n": 2
+    },
+    {
+      "id": "imperial-guard",
+      "tier": "middle",
+      "t": "Napoleon’s elite Imperial Guard made a last attack in the evening and was driven back",
+      "k": [
+        "imperial guard",
+        "guard",
+        "evening"
+      ],
+      "n": 0
+    },
+    {
+      "id": "louis-xviii",
+      "tier": "middle",
+      "t": "Afterward, Louis XVIII took back the French throne for the Bourbons",
+      "k": [
+        "louis xviii",
+        "bourbons",
+        "bourbon"
+      ],
+      "n": 1
+    },
+    {
+      "id": "idiom",
+      "tier": "middle",
+      "t": "Its name became a phrase meaning a final, crushing defeat",
+      "k": [
+        "crushing defeat",
+        "phrase",
+        "idiom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abdication",
+      "tier": "middle",
+      "t": "Napoleon gave up his throne four days later and surrendered aboard HMS _Bellerophon_",
+      "k": [
+        "bellerophon",
+        "surrendered",
+        "four days"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ligny-quatre-bras",
+      "tier": "power",
+      "t": "Two days earlier (June 16), Napoleon beat Blücher at Ligny while Wellington’s troops fought at Quatre Bras",
+      "k": [
+        "ligny",
+        "quatre bras",
+        "june 16",
+        "two days"
+      ],
+      "n": 2
+    },
+    {
+      "id": "la-haye-sainte",
+      "tier": "power",
+      "t": "The King’s German Legion held the farmhouse of La Haye Sainte in the center until their ammunition ran out",
+      "k": [
+        "la haye sainte",
+        "haye sainte",
+        "king’s german legion"
+      ],
+      "n": 3
+    },
+    {
+      "id": "hougoumont",
+      "tier": "power",
+      "t": "Wellington’s troops held the walled farm of Hougoumont all day",
+      "k": [
+        "hougoumont",
+        "walled farm"
+      ],
+      "n": 2
+    },
+    {
+      "id": "congress-of-vienna",
+      "tier": "power",
+      "t": "The Congress of Vienna signed its Final Act just nine days before the battle",
+      "k": [
+        "congress of vienna",
+        "final act",
+        "vienna"
+      ],
+      "n": 2
+    },
+    {
+      "id": "grouchy",
+      "tier": "power",
+      "t": "Marshal Grouchy chased the Prussians to Wavre and missed the battle",
+      "k": [
+        "grouchy",
+        "wavre"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lions-mound",
+      "tier": "power",
+      "t": "The Lion’s Mound marks where the Prince of Orange (later King William II of the Netherlands) was wounded",
+      "k": [
+        "lion’s mound",
+        "lions mound",
+        "prince of orange",
+        "lion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peterloo",
+      "tier": "power",
+      "t": "The 1819 Peterloo Massacre in Manchester was named as a bitter joke on it",
+      "k": [
+        "peterloo",
+        "manchester",
+        "1819"
+      ],
+      "n": 1
+    },
+    {
+      "id": "reverse-slope",
+      "tier": "power",
+      "t": "Wellington sheltered troops behind a ridge (a “reverse slope”) from French cannon fire",
+      "k": [
+        "reverse slope",
+        "ridge"
+      ],
+      "n": 1
+    },
+    {
+      "id": "plancenoit",
+      "tier": "power",
+      "t": "The Prussians attacked the French right flank at the village of Plancenoit",
+      "k": [
+        "plancenoit",
+        "right flank"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rain-delay",
+      "tier": "power",
+      "t": "Rain the night before soaked the ground, so Napoleon delayed his attack until late morning",
+      "k": [
+        "rain",
+        "mud",
+        "delayed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "duchess-ball",
+      "tier": "power",
+      "t": "Officers left the Duchess of Richmond’s ball in Brussels to join the campaign",
+      "k": [
+        "duchess of richmond",
+        "ball"
+      ],
+      "n": 0
+    },
+    {
+      "id": "novels",
+      "tier": "power",
+      "t": "In _Les Misérables_, Thénardier robs the wounded Colonel Pontmercy here; in _Vanity Fair_, George Osborne dies here",
+      "k": [
+        "les misérables",
+        "les miserables",
+        "thénardier",
+        "vanity fair",
+        "pontmercy"
+      ],
+      "n": 0,
+      "rabbit": "Les Misérables"
+    },
+    {
+      "id": "nearest-run",
+      "tier": "power",
+      "t": "Wellington called it “the nearest-run thing you ever saw in your life”",
+      "k": [
+        "nearest-run",
+        "nearest run",
+        "nearest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "copenhagen",
+      "tier": "power",
+      "t": "Wellington rode his horse Copenhagen through the battle",
+      "k": [
+        "copenhagen",
+        "horse"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Battle or emperor?",
+    "body": "Waterloo tossups are packed with Napoleon clues (the Hundred Days, Elba, Saint Helena), so it is easy to blurt out “Napoleon” when the question wants the battle, or to say “Waterloo” on a Napoleon question that ends “name this emperor.” Players also mix up the battles of that week: Ligny and Quatre Bras were fought on June 16, two days before this one. And one real Napoleonic Wars tossup only prompts on Waterloo, because it wants the whole war.",
+    "fix": "Listen to the last line: “name this battle” wants Waterloo, “name this emperor” wants Napoleon, and “name this conflict” wants the Napoleonic Wars. Waterloo is the one where Wellington and Blücher won together, with fighting at Hougoumont and La Haye Sainte and Marshal Ney’s cavalry charges.",
+    "line": "Real answer line: Battle of <b><u>Waterloo</u></b>"
+  },
+  "freq": {
+    "rank": 6,
+    "count": 7,
+    "list": "European History"
+  }
+}

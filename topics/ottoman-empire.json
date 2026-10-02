@@ -1,0 +1,463 @@
+{
+  "id": "ottoman-empire",
+  "name": "Ottoman Empire",
+  "mono": "OE",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Turkic Islamic empire from Istanbul · Three continents, six centuries",
+  "dates": "c. 1299–1922",
+  "briefing": "In 1453, the Ottoman Empire’s cannons finally breached the ancient walls of Constantinople, toppling the Byzantine Empire and winning one of the world’s great cities. Under Suleiman the Magnificent, the empire stretched across three continents, from the gates of Vienna to the shores of the Red Sea, ruled by sultans who were also Islamic caliphs. It lasted more than six centuries before finally collapsing after World War I.",
+  "answerHtml": "<b><u>Ottoman Empire</u></b> (or <u>Ottoman Turks</u>; do not accept “Turkey”)",
+  "accept": [
+    "ottoman empire",
+    "ottomans",
+    "ottoman turks",
+    "ottoman turkish empire"
+  ],
+  "prompt": [],
+  "reject": [
+    "turkey",
+    "republic of turkey",
+    "byzantine empire",
+    "byzantium",
+    "seljuk empire",
+    "seljuk turks",
+    "safavid empire",
+    "safavid dynasty",
+    "mughal empire",
+    "suleiman the magnificent",
+    "suleiman",
+    "mehmed ii",
+    "mehmed the conqueror",
+    "mustafa kemal ataturk",
+    "ataturk",
+    "mustafa kemal"
+  ],
+  "tests": {
+    "right": [
+      "Ottoman Empire",
+      "Ottomans",
+      "the Ottoman Empire",
+      "Otoman Empire",
+      "Ottoman Turks"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Turkey",
+      "Byzantine Empire",
+      "Safavid Empire",
+      "Suleiman the Magnificent",
+      "Seljuk Empire"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ten Minute History – The Rise of the Ottoman Empire (Short Documentary)",
+      "source": "History Matters",
+      "url": "https://www.youtube.com/watch?v=PWg0tae_QT0",
+      "note": "About 10 min · how a small Anatolian state grew into an empire"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "History Summarized: The Ottoman Empire",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=SZ8UWobHA3M",
+      "note": "Fast-paced tour of the empire's rise, peak, and long decline"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Ottoman Expansion in Anatolia",
+      "source": "Kings and Generals",
+      "url": "https://www.youtube.com/watch?v=bIO66-ZKNhQ",
+      "note": "How the early empire grew out of its Anatolian homeland"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Battle of Kosovo 1389 – Rise of Ottoman Empire",
+      "source": "Kings and Generals",
+      "url": "https://www.youtube.com/watch?v=PwRfCAU7vzA",
+      "note": "One of the empire's key early victories in the Balkans"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Venice and the Ottoman Empire: Crash Course World History #19",
+      "source": "Crash Course World History",
+      "url": "https://www.youtube.com/watch?v=UN-II_jBzzo",
+      "note": "Bigger picture: trade and war between the empire and Venice"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Renaissance for Kids: Ottoman Empire",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/renaissance/ottoman_empire.php",
+      "note": "Short, kid-friendly overview of the empire's history"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Ottoman_Empire",
+  "qb": {
+    "q": "Ottoman Empire",
+    "found": 8,
+    "tip": "All 8 real tossups here are cleanly on this answer line. The “Sick Man of Europe” nickname and Suleiman the Magnificent are the biggest stock clues by far, so learn those first, then the 1453 fall of Constantinople and the failed 1683 siege of Vienna."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School/Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Sultan Mahmud II abolished this empire’s elite Janissary corps in 1826, ending centuries in which those soldiers had been recruited as boys from Christian families under the devshirme [“dev-SHEER-meh”] system. Earlier, admiral Hayreddin Barbarossa had helped this state dominate much of the Mediterranean Sea.",
+      "r": "This empire later joined the Central Powers alongside Germany in World War I and was dissolved soon after losing. For 10 points, name this empire of sultans, once led by Suleiman the Magnificent from its capital at Istanbul."
+    },
+    {
+      "p": "A chieftain named Osman I founded this state around 1299 in Anatolia. After its sultans conquered the Mamluk Sultanate in 1517, they also began claiming the Islamic title of caliph, ruling over Islam’s holiest cities.",
+      "r": "In 1920, the Treaty of Sèvres [“SEV-ruh”] tried to carve up this empire, but Mustafa Kemal led a resistance movement that rejected it. For 10 points, name this empire nicknamed the “Sick Man of Europe,” which finally dissolved after World War I."
+    },
+    {
+      "p": "This empire crushed Hungary’s King Louis II at the Battle of Mohács [“MOH-hahch”] in 1526, a defeat that ended the Jagiellonian [“yah-gyeh-loh-NEE-an”] dynasty’s rule there. In 1522, its forces had already driven the Knights Hospitaller off the island of Rhodes.",
+      "r": "A Catholic alliance stopped this empire’s advance into central Europe by winning the 1683 Siege of Vienna. For 10 points, name this empire led at its height by Suleiman the Magnificent from Istanbul."
+    },
+    {
+      "p": "This empire turned the great church of Hagia Sophia into a mosque soon after taking its new capital. Sultan Selim the Grim pushed this empire’s borders deep into the Middle East and Egypt early in the 1500s.",
+      "r": "Boys from conquered Christian families were trained as soldiers for this empire’s Janissary corps under the devshirme system. For 10 points, name this empire that collapsed after World War I, giving rise to the modern nation of Turkey."
+    },
+    {
+      "p": "A Holy League fleet defeated this empire’s navy at the Battle of Lepanto in 1571, checking its power in the Mediterranean. Centuries later, the Treaty of Sèvres of 1920 proposed splitting up this empire’s remaining land among the Allied powers.",
+      "r": "Defenders of this empire beat back an Allied invasion at Gallipoli in 1915, where an officer named Mustafa Kemal first rose to fame. For 10 points, name this “Sick Man of Europe” that dissolved after the First World War."
+    },
+    {
+      "p": "Mehmed VI, the last sultan of this empire, left the country when its sultanate was abolished in 1922. Years earlier, this empire’s troops had defeated British forces at the Siege of Kut in Mesopotamia during World War I.",
+      "r": "In the 1800s, this empire’s Edict of Gülhane [“gul-HAH-neh”] launched the Tanzimat reforms, an attempt to modernize its laws and government. For 10 points, name this empire once ruled by Suleiman the Magnificent from Istanbul."
+    },
+    {
+      "p": "Around 1299, a chieftain named Osman I founded this state in Anatolia. Later, Sultan Selim the Grim expanded this empire into Egypt and the Middle East, setting up his son’s even larger conquests.",
+      "r": "This empire’s capital of Istanbul, once called Constantinople, had been the seat of the Byzantine Empire before this empire’s sultans took it over. For 10 points, name this empire that dissolved into the modern nation of Turkey after World War I."
+    },
+    {
+      "p": "This empire’s defeat of Hungary at the Battle of Mohács in 1526 opened central Europe to invasion, but a Catholic alliance stopped this empire’s armies at the gates of Vienna in 1683. Young Christian boys were taken into this empire’s service under the devshirme system to become elite Janissary soldiers.",
+      "r": "For 10 points, name this empire nicknamed the “Sick Man of Europe” in its final century, once led by Suleiman the Magnificent."
+    },
+    {
+      "p": "Suleiman the Magnificent personally led this empire’s forces in driving the Knights Hospitaller from Rhodes in 1522, decades before this empire’s navy lost the Battle of Lepanto to a Holy League fleet.",
+      "r": "This empire fought on the losing side of World War I as part of the Central Powers, alongside Germany and Austria-Hungary. For 10 points, name this empire that dissolved soon after that war, giving way to modern Turkey."
+    },
+    {
+      "p": "After capturing its new capital, this empire converted the great church of Hagia Sophia into a mosque. In 1826, Sultan Mahmud II abolished this empire’s once-feared Janissary corps, a group originally built from Christian boys taken under the devshirme system.",
+      "r": "This empire later tried to modernize through the 1800s Tanzimat reforms. For 10 points, name this empire ruled from Istanbul and nicknamed the “Sick Man of Europe.”"
+    },
+    {
+      "p": "The 1920 Treaty of Sèvres proposed dividing up this empire’s remaining territory among the Allied powers, but Turkish nationalists rejected it and fought back. Mehmed VI, this empire’s last sultan, left the country in 1922 as its sultanate was formally abolished.",
+      "r": "The 1923 Treaty of Lausanne then recognized the new Republic of Turkey in its place. For 10 points, name this empire once ruled by Suleiman the Magnificent, which collapsed after World War I."
+    },
+    {
+      "p": "This empire’s troops defeated a British-led force at the Siege of Kut during World War I, after earlier turning back an Allied landing at Gallipoli, where a young officer named Mustafa Kemal made his name.",
+      "r": "This empire had joined the war on the side of the Central Powers, alongside Germany and Austria-Hungary. For 10 points, name this empire of sultans, ruled from Istanbul and nicknamed the “Sick Man of Europe.”"
+    },
+    {
+      "p": "Sultan Selim the Grim expanded this empire’s rule into Egypt and the Middle East, and after his forces conquered the Mamluk Sultanate in 1517, this empire’s rulers began also calling themselves caliphs. Young Christian boys were recruited into this empire’s service under the devshirme system.",
+      "r": "For 10 points, name this Islamic empire led at its peak by Suleiman the Magnificent, which lasted until just after World War I."
+    },
+    {
+      "p": "A chieftain named Osman I founded this state around 1299 in Anatolia, and by 1526 its armies were crushing Hungary at the Battle of Mohács. A Catholic alliance finally stopped this empire’s expansion into central Europe at the 1683 Siege of Vienna.",
+      "r": "For 10 points, name this empire that collapsed after World War I, leading to the creation of the modern nation of Turkey."
+    },
+    {
+      "p": "Admiral Hayreddin Barbarossa helped this empire dominate much of the Mediterranean Sea in the first half of the 1500s, though a Holy League fleet later defeated this empire’s navy at the Battle of Lepanto in 1571. In the 1800s, this empire’s Tanzimat reforms tried to modernize its government.",
+      "r": "For 10 points, name this empire ruled from Istanbul by sultans such as Suleiman the Magnificent, nicknamed the “Sick Man of Europe” in its final century."
+    }
+  ],
+  "clues": [
+    {
+      "id": "capital-istanbul",
+      "tier": "giveaway",
+      "t": "Capital at Istanbul, the city once called Constantinople",
+      "k": [
+        "istanbul",
+        "constantinople",
+        "capital"
+      ],
+      "n": 4
+    },
+    {
+      "id": "dissolved-ww1-turkey",
+      "tier": "giveaway",
+      "t": "Collapsed after World War I; its land became the modern nation of Turkey",
+      "k": [
+        "world war i",
+        "turkey",
+        "collapsed"
+      ],
+      "n": 5
+    },
+    {
+      "id": "sick-man",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Sick Man of Europe” in its final century",
+      "k": [
+        "sick man",
+        "europe",
+        "nicknamed"
+      ],
+      "n": 7
+    },
+    {
+      "id": "suleiman-sultans",
+      "tier": "giveaway",
+      "t": "Ruled by sultans, most famously the 16th-century ruler Suleiman the Magnificent",
+      "k": [
+        "sultans",
+        "suleiman",
+        "16th century"
+      ],
+      "n": 6
+    },
+    {
+      "id": "fall-of-constantinople",
+      "tier": "middle",
+      "t": "Conquered Constantinople in 1453 under Sultan Mehmed II, ending the Byzantine Empire",
+      "k": [
+        "constantinople",
+        "1453",
+        "mehmed ii"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lawgiver",
+      "tier": "middle",
+      "t": "Suleiman, who ruled from 1520 to 1566, was also nicknamed “the Lawgiver”",
+      "k": [
+        "lawgiver",
+        "1520",
+        "1566"
+      ],
+      "n": 1
+    },
+    {
+      "id": "siege-of-vienna",
+      "tier": "middle",
+      "t": "Failed to take Vienna in a 1683 siege, a turning point after which this empire slowly lost ground in Europe",
+      "k": [
+        "vienna",
+        "1683",
+        "siege"
+      ],
+      "n": 2
+    },
+    {
+      "id": "janissaries-devshirme",
+      "tier": "middle",
+      "t": "Elite Janissary soldiers were originally recruited as boys from Christian families under the devshirme system",
+      "k": [
+        "janissaries",
+        "devshirme",
+        "christian boys"
+      ],
+      "n": 4
+    },
+    {
+      "id": "central-powers",
+      "tier": "middle",
+      "t": "Joined the Central Powers alongside Germany and Austria-Hungary in World War I",
+      "k": [
+        "central powers",
+        "world war i",
+        "germany"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gallipoli",
+      "tier": "middle",
+      "t": "Defending troops beat back an Allied invasion at Gallipoli in 1915–16, where officer Mustafa Kemal first became famous",
+      "k": [
+        "gallipoli",
+        "mustafa kemal",
+        "1915"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tanzimat",
+      "tier": "middle",
+      "t": "The 19th-century Tanzimat reforms tried to modernize this empire’s government and laws",
+      "k": [
+        "tanzimat",
+        "reforms",
+        "modernize"
+      ],
+      "n": 2
+    },
+    {
+      "id": "treaty-of-lausanne",
+      "tier": "middle",
+      "t": "The Treaty of Lausanne (1923) recognized the new Republic of Turkey after an earlier treaty was rejected",
+      "k": [
+        "treaty of lausanne",
+        "1923",
+        "turkey"
+      ],
+      "n": 1
+    },
+    {
+      "id": "osman-founding",
+      "tier": "power",
+      "t": "Founded around 1299 in Anatolia by the chieftain Osman I",
+      "k": [
+        "1299",
+        "anatolia",
+        "osman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mamluk-caliph",
+      "tier": "power",
+      "t": "After conquering the Mamluk Sultanate in 1517, this empire’s sultans also claimed the Islamic title of caliph",
+      "k": [
+        "mamluk",
+        "1517",
+        "caliph"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hagia-sophia",
+      "tier": "power",
+      "t": "Converted the great church of Hagia Sophia into a mosque after taking Constantinople",
+      "k": [
+        "hagia sophia",
+        "mosque",
+        "constantinople"
+      ],
+      "n": 1
+    },
+    {
+      "id": "barbarossa",
+      "tier": "power",
+      "t": "Admiral Hayreddin Barbarossa helped this empire dominate the Mediterranean Sea in the 1500s",
+      "k": [
+        "barbarossa",
+        "admiral",
+        "mediterranean"
+      ],
+      "n": 1
+    },
+    {
+      "id": "battle-of-lepanto",
+      "tier": "power",
+      "t": "Lost the major naval Battle of Lepanto to a Holy League fleet in 1571",
+      "k": [
+        "lepanto",
+        "1571",
+        "holy league"
+      ],
+      "n": 2
+    },
+    {
+      "id": "battle-of-mohacs",
+      "tier": "power",
+      "t": "Crushed Hungary’s King Louis II at the Battle of Mohács in 1526",
+      "k": [
+        "mohacs",
+        "1526",
+        "louis ii"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rhodes",
+      "tier": "power",
+      "t": "Expelled the Knights Hospitaller from the island of Rhodes in 1522",
+      "k": [
+        "rhodes",
+        "1522",
+        "knights hospitaller"
+      ],
+      "n": 1
+    },
+    {
+      "id": "millet-system",
+      "tier": "power",
+      "t": "Under the millet system, religious minorities governed many of their own community affairs",
+      "k": [
+        "millet system",
+        "minorities",
+        "religious"
+      ],
+      "n": 0
+    },
+    {
+      "id": "selim-the-grim",
+      "tier": "power",
+      "t": "Selim the Grim, Suleiman’s father, expanded this empire into the Middle East and Egypt",
+      "k": [
+        "selim",
+        "middle east",
+        "egypt"
+      ],
+      "n": 1
+    },
+    {
+      "id": "battle-of-kut",
+      "tier": "power",
+      "t": "Defeated British forces at the Siege of Kut during World War I’s Mesopotamian campaign",
+      "k": [
+        "kut",
+        "mesopotamia",
+        "british"
+      ],
+      "n": 1
+    },
+    {
+      "id": "treaty-of-sevres",
+      "tier": "power",
+      "t": "The 1920 Treaty of Sèvres tried to partition this empire, but Turkish nationalists rejected it",
+      "k": [
+        "sevres",
+        "1920",
+        "partition"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mehmed-vi",
+      "tier": "power",
+      "t": "Mehmed VI, its last sultan, left the country in 1922 when the sultanate was abolished",
+      "k": [
+        "mehmed vi",
+        "last sultan",
+        "1922"
+      ],
+      "n": 1
+    },
+    {
+      "id": "janissaries-abolished",
+      "tier": "power",
+      "t": "Sultan Mahmud II abolished the powerful Janissary corps in 1826",
+      "k": [
+        "mahmud ii",
+        "1826",
+        "abolished"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Empire, not Turkey",
+    "body": "Several real packets specifically rule that “Turkey” does not earn credit for this empire, since modern Turkey is the separate nation Mustafa Kemal Ataturk founded after this empire dissolved. Players also mix this empire up with the Byzantine Empire it conquered in 1453, and with the rival Safavid Empire next door in Persia.",
+    "fix": "If the clues describe sultans, Istanbul, or events before 1922, give the empire’s name, not “Turkey” — and give the state’s name, not a ruler’s name like Suleiman, since the question wants the empire, not the person.",
+    "line": "Real answer line: <b><u>Ottoman Empire</u></b> (do not accept or prompt on “Turkey”)"
+  },
+  "freq": {
+    "rank": 24,
+    "count": 4,
+    "list": "European History"
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "id": "jamestown",
+  "name": "Jamestown",
+  "mono": "JT",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "First permanent English settlement in North America",
+  "dates": "Founded 1607",
+  "briefing": "In 1607, about 100 English men and boys sailed up a Virginia river, built a triangle-shaped fort on a swampy spot, and named it after their king. Disease, hunger, and war with the Powhatan people nearly wiped them out. Jamestown survived anyway and became the first permanent English settlement in North America, 13 years before the Pilgrims landed at Plymouth.",
+  "answerHtml": "<b><u>Jamestown</u></b> (prompt on Colony of <u>Virginia</u>)",
+  "accept": [
+    "jamestown",
+    "james town",
+    "jamestowne",
+    "james towne",
+    "james fort",
+    "jamestown colony",
+    "jamestown settlement",
+    "jamestown virginia",
+    "jamestown va"
+  ],
+  "prompt": [
+    "virginia",
+    "colony of virginia",
+    "virginia colony",
+    "virginia company"
+  ],
+  "reject": [
+    "plymouth",
+    "plymouth colony",
+    "plymouth rock",
+    "roanoke",
+    "williamsburg",
+    "st augustine",
+    "saint augustine",
+    "massachusetts bay",
+    "yorktown"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Colonizing America (#2)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=o69TvQqyGdg",
+      "note": "About 12 min · Jamestown, the Lost Colony of Roanoke, and the Pilgrims"
+    },
+    {
+      "kind": "museum",
+      "group": "focus",
+      "title": "Discovering Jamestown",
+      "source": "Jamestown-Yorktown Foundation",
+      "url": "https://historytube.org/gallery/discovering-jamestown/",
+      "note": "Five short museum videos about the English, Powhatan, and African people at Jamestown"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "How Pocahontas Redefined How Europeans Saw Native Americans",
+      "source": "Smithsonian Channel",
+      "url": "https://www.youtube.com/watch?v=2YZx-rDajSg",
+      "note": "Short clip · Pocahontas’s trip to England"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Finding a Dagger in a 400-Year-Old Well at Historic Jamestowne",
+      "source": "Jamestown Rediscovery",
+      "url": "https://www.youtube.com/watch?v=PMhAGfwMv5o",
+      "note": "Short · archaeologists digging at the real fort site"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Archaeology at Jamestown, Virginia",
+      "source": "C-SPAN American Artifacts",
+      "url": "https://www.youtube.com/watch?v=zWis8J_wr5E",
+      "note": "Short preview · William Kelso, the archaeologist who found James Fort"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Jamestown Settlement",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/colonial_america/jamestown_settlement.php",
+      "note": "Quick read with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Jamestown,_Virginia",
+  "qb": {
+    "q": "Jamestown",
+    "found": 6,
+    "tip": "Look closely: two of the six answers are “Colony of Virginia” and one is “James.” That is the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups that came up for this answer line (Middle School + Easy High School, power-marked; 2 of them wanted “Virginia”)"
+  },
+  "tossups": [
+    {
+      "p": "Only about 60 of roughly 500 colonists survived this settlement’s “Starving Time” in the winter of 1609 to 1610. The survivors had already boarded ships to abandon this settlement when they met Lord De La Warr’s relief fleet arriving with supplies.",
+      "r": "John Smith had led this settlement until an injury sent him back to England. For 10 points, name this first permanent English settlement in North America, located in Virginia."
+    },
+    {
+      "p": "The wreck of the _Sea Venture_ on Bermuda, which may have inspired Shakespeare’s _The Tempest_, cut this settlement off from its new governor and its supplies. Survivors of that wreck, including John Rolfe, built two new boats and finally reached this settlement in 1610.",
+      "r": "This settlement was founded in 1607 on a river named for an English king. For 10 points, name this first permanent English settlement in America."
+    },
+    {
+      "p": "Edward Maria Wingfield served as the first president of this settlement’s ruling council before he was forced out. A later leader of this settlement ordered that colonists who refused to work would not be allowed to eat.",
+      "r": "That leader, Captain John Smith, claimed that Pocahontas once saved his life. For 10 points, name this first permanent English settlement in North America."
+    },
+    {
+      "p": "The _Susan Constant_, the _Godspeed_, and the _Discovery_ carried about 100 men and boys to found this settlement. Christopher Newport commanded that voyage, which was paid for by investors in the Virginia Company of London.",
+      "r": "This settlement was established in 1607 and named for King James I. For 10 points, name this first permanent English settlement in America."
+    },
+    {
+      "p": "John Rolfe rescued this settlement’s economy by growing a sweeter kind of tobacco from seeds that came from Spanish colonies to the south. Rolfe’s 1614 marriage to a Powhatan woman, who had been baptized with the name Rebecca, brought several years of peace to this settlement.",
+      "r": "That woman was Pocahontas. For 10 points, name this Virginia settlement founded in 1607, the first permanent English colony in North America."
+    },
+    {
+      "p": "In 1619, the first elected lawmaking assembly in English America met in this settlement’s church, and the ship _White Lion_ brought the first recorded enslaved Africans to the colony nearby. Governor George Yeardley called that assembly, which became known as the House of Burgesses.",
+      "r": "For 10 points, name this settlement founded in 1607, the first permanent English settlement in North America."
+    },
+    {
+      "p": "Nathaniel Bacon’s followers burned this settlement to the ground in 1676 during a revolt against Governor William Berkeley. After its statehouse burned again in 1698, Virginia’s capital was moved to Williamsburg.",
+      "r": "This settlement had been founded in 1607 by the Virginia Company. For 10 points, name this first permanent English settlement in North America."
+    },
+    {
+      "p": "In 1622, warriors led by Opechancanough [“oh-puh-CHAN-kuh-noh”] killed about a quarter of the English colonists living near this settlement. Partly because of that disaster, the Virginia Company lost its charter, and Virginia became a royal colony.",
+      "r": "Captain John Smith once led this settlement. For 10 points, name this Virginia settlement founded in 1607."
+    },
+    {
+      "p": "In 1994, archaeologists began uncovering this settlement’s triangular wooden fort, which historians had long believed was washed away by the river. Many of the fort’s builders were “gentlemen” who were more interested in searching for gold than planting crops.",
+      "r": "Disease from dirty, salty drinking water nearly destroyed this settlement. For 10 points, name this Virginia settlement, England’s first permanent colony in North America."
+    },
+    {
+      "p": "Samuel Argall kidnapped a young woman and held her at this settlement to force her father to release English prisoners and return stolen weapons. That woman later traveled to England, where she died at Gravesend in 1617.",
+      "r": "That woman, Pocahontas, married John Rolfe here. For 10 points, name this Virginia settlement founded in 1607."
+    },
+    {
+      "p": "This settlement’s sister colony, founded by the Plymouth Company in Maine in the same year, was abandoned after just one winter. King James I’s 1606 charter allowed the Virginia Company of London to start this settlement.",
+      "r": "This settlement’s early leaders included John Smith. For 10 points, name this first permanent English settlement in North America."
+    },
+    {
+      "p": "Thomas Dale enforced harsh military laws at this settlement, where colonists could be whipped for skipping church. A glass furnace built near this settlement in 1608 was one of the first factories in English America.",
+      "r": "This settlement nearly collapsed during the “Starving Time.” For 10 points, name this Virginia settlement founded in 1607."
+    },
+    {
+      "p": "While exploring the Chickahominy River in 1607, one leader of this settlement was captured by Opechancanough [“oh-puh-CHAN-kuh-noh”] and taken to the town of Werowocomoco [“wair-uh-wuh-KOH-muh-koh”]. That leader later mapped the Chesapeake Bay and wrote a history claiming that Pocahontas saved his life.",
+      "r": "For 10 points, name this settlement once led by Captain John Smith, the first permanent English colony in North America."
+    },
+    {
+      "p": "This historic site forms Virginia’s “Historic Triangle” with Williamsburg and Yorktown, which are linked by the Colonial Parkway. Queen Elizabeth II visited this place for both its 350th and 400th anniversaries.",
+      "r": "This settlement was founded in 1607 on a river named for King James. For 10 points, name this first permanent English settlement in America."
+    },
+    {
+      "p": "Bartholomew Gosnold, who helped organize the voyage that founded this settlement, died there during a deadly first summer when colonists drank salty, polluted river water. Its colonists came ashore on May 14, 1607, after first landing at Cape Henry.",
+      "r": "Powhatan, the father of Pocahontas, ruled the Native confederacy around this settlement. For 10 points, name this settlement led for a time by John Smith."
+    }
+  ],
+  "clues": [
+    {
+      "id": "first-permanent",
+      "tier": "giveaway",
+      "t": "First permanent English settlement in North America (1607)",
+      "k": [
+        "first permanent",
+        "1607"
+      ],
+      "n": 3
+    },
+    {
+      "id": "virginia",
+      "tier": "giveaway",
+      "t": "In Virginia, on the James River; named for King James I",
+      "k": [
+        "james river",
+        "king james",
+        "virginia"
+      ],
+      "n": 3
+    },
+    {
+      "id": "john-smith",
+      "tier": "giveaway",
+      "t": "Led for a time by Captain John Smith",
+      "k": [
+        "john smith",
+        "smith"
+      ],
+      "n": 3,
+      "rabbit": "John Smith"
+    },
+    {
+      "id": "pocahontas",
+      "tier": "giveaway",
+      "t": "Pocahontas, the daughter of Chief Powhatan, was said to have saved John Smith’s life",
+      "k": [
+        "pocahontas"
+      ],
+      "n": 3,
+      "rabbit": "Pocahontas"
+    },
+    {
+      "id": "tobacco",
+      "tier": "giveaway",
+      "t": "John Rolfe made tobacco the colony’s money crop",
+      "k": [
+        "tobacco",
+        "rolfe"
+      ],
+      "n": 3
+    },
+    {
+      "id": "starving",
+      "tier": "middle",
+      "t": "The “Starving Time” of 1609–1610: only about 60 of 500 colonists survived",
+      "k": [
+        "starving"
+      ],
+      "n": 5
+    },
+    {
+      "id": "work-eat",
+      "tier": "middle",
+      "t": "John Smith’s rule: colonists who refused to work would not eat",
+      "k": [
+        "not work",
+        "will not work",
+        "refused to work",
+        "no work",
+        "shall not eat",
+        "wont eat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "de-la-warr",
+      "tier": "middle",
+      "t": "Lord De La Warr’s relief fleet arrived in 1610 just as the survivors were leaving",
+      "k": [
+        "de la warr",
+        "la warr",
+        "delaware"
+      ],
+      "n": 2
+    },
+    {
+      "id": "burgesses",
+      "tier": "middle",
+      "t": "1619: the House of Burgesses, the first elected assembly in English America, met in its church",
+      "k": [
+        "burgesses",
+        "1619",
+        "assembly"
+      ],
+      "n": 2,
+      "rabbit": "House of Burgesses"
+    },
+    {
+      "id": "africans",
+      "tier": "middle",
+      "t": "1619: the _White Lion_ brought the first recorded enslaved Africans to Virginia",
+      "k": [
+        "white lion",
+        "african",
+        "enslaved",
+        "slave"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bacon",
+      "tier": "middle",
+      "t": "Burned in 1676 during Bacon’s Rebellion, a revolt against Governor William Berkeley",
+      "k": [
+        "bacon",
+        "berkeley"
+      ],
+      "n": 4,
+      "rabbit": "Bacon’s Rebellion"
+    },
+    {
+      "id": "ships",
+      "tier": "middle",
+      "t": "Three ships, the _Susan Constant_, _Godspeed_, and _Discovery_, paid for by the Virginia Company of London",
+      "k": [
+        "susan constant",
+        "godspeed",
+        "discovery",
+        "virginia company"
+      ],
+      "n": 0
+    },
+    {
+      "id": "williamsburg",
+      "tier": "middle",
+      "t": "Capital of Virginia until 1699, when the capital moved to Williamsburg",
+      "k": [
+        "williamsburg",
+        "capital"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rolfe-marriage",
+      "tier": "middle",
+      "t": "John Rolfe married Pocahontas (baptized Rebecca) in 1614, bringing years of peace",
+      "k": [
+        "rebecca",
+        "married",
+        "marriage",
+        "1614"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sea-venture",
+      "tier": "power",
+      "t": "The _Sea Venture_ wrecked on Bermuda (1609), which may have inspired Shakespeare’s _The Tempest_",
+      "k": [
+        "sea venture",
+        "bermuda",
+        "tempest"
+      ],
+      "n": 1,
+      "rabbit": "The Tempest"
+    },
+    {
+      "id": "wingfield",
+      "tier": "power",
+      "t": "Edward Maria Wingfield was the first president of its ruling council",
+      "k": [
+        "wingfield"
+      ],
+      "n": 1
+    },
+    {
+      "id": "opechancanough",
+      "tier": "power",
+      "t": "Opechancanough’s 1622 attack killed about a quarter of the colonists; Virginia became a royal colony in 1624",
+      "k": [
+        "opechancanough",
+        "1622",
+        "royal colony"
+      ],
+      "n": 1
+    },
+    {
+      "id": "werowocomoco",
+      "tier": "power",
+      "t": "John Smith was captured on the Chickahominy River and taken to Powhatan’s town, Werowocomoco",
+      "k": [
+        "werowocomoco",
+        "chickahominy",
+        "powhatan"
+      ],
+      "n": 1
+    },
+    {
+      "id": "argall",
+      "tier": "power",
+      "t": "Samuel Argall kidnapped Pocahontas (1613); she died at Gravesend, England (1617)",
+      "k": [
+        "argall",
+        "gravesend",
+        "kidnapped",
+        "kidnap"
+      ],
+      "n": 0
+    },
+    {
+      "id": "newport",
+      "tier": "power",
+      "t": "Christopher Newport commanded the voyage; the colonists first landed at Cape Henry",
+      "k": [
+        "newport",
+        "cape henry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gosnold",
+      "tier": "power",
+      "t": "Bartholomew Gosnold died in the deadly first summer of salty, dirty water",
+      "k": [
+        "gosnold",
+        "salty",
+        "brackish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dale",
+      "tier": "power",
+      "t": "Thomas Dale’s harsh laws; a 1608 glass furnace was one of the first factories in English America",
+      "k": [
+        "dale",
+        "glass"
+      ],
+      "n": 0
+    },
+    {
+      "id": "popham",
+      "tier": "power",
+      "t": "Popham Colony, its failed sister colony in Maine (1607)",
+      "k": [
+        "popham",
+        "maine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fort",
+      "tier": "power",
+      "t": "Archaeologists began finding its triangular fort in 1994",
+      "k": [
+        "triangular",
+        "archaeolog",
+        "rediscovery",
+        "james fort"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triangle",
+      "tier": "power",
+      "t": "Part of Virginia’s Historic Triangle with Williamsburg and Yorktown, linked by the Colonial Parkway",
+      "k": [
+        "historic triangle",
+        "colonial parkway",
+        "yorktown"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Settlement or colony? Not Plymouth!",
+    "body": "Jamestown was the first settlement in the Colony of Virginia, and some real tossups want the colony instead. One real question about Bacon’s Rebellion says “do not accept or prompt on Jamestown,” because it asked for Virginia. Players also mix up Jamestown (1607, Virginia, John Smith) with Plymouth (1620, Massachusetts, the Pilgrims and the Mayflower) and Roanoke (1587, the “Lost Colony”).",
+    "fix": "Listen to the noun. “This settlement,” “this town,” or “this fort” usually means Jamestown. “This colony,” with clues about later governors or the whole region, may mean Virginia. Pilgrims, the Mayflower, or Squanto means Plymouth.",
+    "line": "Real answer lines: <b><u>Jamestown</u></b> [prompt on Colony of <u>Virginia</u> before mention] and Colony of <u>Virginia</u> (do not accept or prompt on “Jamestown”)"
+  },
+  "tests": {
+    "right": [
+      "Jamestown",
+      "jamestowne",
+      "Jamestown, Virginia",
+      "Jamestwon"
+    ],
+    "prompt": [
+      "Virginia"
+    ],
+    "wrong": [
+      "Plymouth",
+      "Roanoke",
+      "Williamsburg"
+    ]
+  },
+  "freq": {
+    "rank": 17,
+    "count": 5,
+    "list": "American History"
+  }
+}

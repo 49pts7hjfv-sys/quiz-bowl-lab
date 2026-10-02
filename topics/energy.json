@@ -1,0 +1,394 @@
+{
+  "id": "energy",
+  "name": "Energy",
+  "mono": "NRG",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "The capacity to do work · Shifts between forms but is never lost",
+  "dates": "Measured in joules (J)",
+  "briefing": "Energy is the capacity to move something, heat it up, light it up, or change it in any way, and physicists measure it in joules. It never appears from nothing and never disappears — the law of conservation says it only converts between forms, like a falling apple trading stored height for speed. Albert Einstein even showed that mass itself is a tightly packed form of it.",
+  "answerHtml": "<b><u>Energy</u></b> (prompt on <u>kinetic energy</u> or <u>potential energy</u>)",
+  "accept": [
+    "energy"
+  ],
+  "prompt": [
+    "kinetic energy",
+    "potential energy"
+  ],
+  "reject": [
+    "heat",
+    "thermal energy",
+    "chemical energy",
+    "nuclear energy",
+    "solar energy",
+    "activation energy",
+    "ionization energy",
+    "mechanical energy",
+    "voltage",
+    "power",
+    "conservation of energy",
+    "dark energy"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Is Energy? - Energy, Forces, and Motion Explained",
+      "source": "Miacademy",
+      "url": "https://www.youtube.com/watch?v=JgXexfm4wcQ",
+      "note": "Kid-level lesson on what energy is and how it makes things move"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "World’s Most Asked Questions: What Is Energy?",
+      "source": "SciShow",
+      "url": "https://www.youtube.com/watch?v=CW0_S5YpYVo",
+      "note": "SciShow tackles what energy really is"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Energy intro (kinetic & potential)",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=e-CAW3fN68M",
+      "note": "Energy as the ability to do work, and its kinetic and potential forms"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Work, Energy, and Power: Crash Course Physics #9",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=w4QFJb9a8vo",
+      "note": "Work, kinetic and potential energy, conservation of energy, and power (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Energy",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/energy.php",
+      "note": "Quick read on forms of energy, joules, and the law of conservation, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Energy",
+  "qb": {
+    "q": "energy",
+    "found": 24,
+    "tip": "“Energy” is a common root word, so most of the 24 raw hits were really about a more specific sibling answer line (kinetic energy, potential energy, heat, voltage, solar/activation/nuclear energy) rather than the bare word itself — only 2 were genuinely about general “energy,” so a difficulties=3 retry was added to find 2 more. Be careful not to over-credit “kinetic energy” here; it has its own page on this site."
+  },
+  "sample": {
+    "n": 4,
+    "note": "4 real QBReader tossups whose answer line is the bare word itself (2 Middle School/Easy High School + 2 Regular High School, power-marked) — a thin, honestly-reported sample, since most “energy” hits online belong to a more specific sibling answer line instead"
+  },
+  "tossups": [
+    {
+      "p": "Combining time symmetry with a theorem from Emmy Noether proves that the total amount of this quantity in an isolated system cannot change, which is why machines that run forever without fuel are impossible. For such a system, the overall value of this quantity is given by a function called the Hamiltonian.",
+      "r": "This quantity is stored inside a capacitor’s electric field. Its SI unit describes the work done when a force of one newton moves something one meter. For 10 points, name this physical quantity, measured in joules, which comes in forms tied to motion and to stored position."
+    },
+    {
+      "p": "For a single particle of light, this quantity equals Planck’s constant multiplied by the light’s frequency. Albert Einstein’s most famous equation relates this quantity to an object’s mass, multiplying it by the speed of light squared.",
+      "r": "Food Calories on a nutrition label are really a unit of this quantity. Work measures the transfer of this quantity. For 10 points, name this quantity that is measured in joules and comes in forms tied to motion and to stored height or position."
+    },
+    {
+      "p": "A capacitor stores this quantity inside the electric field between its two plates. Because this quantity is always conserved, so-called perpetual motion machines, which would run forever without any outside fuel, can never actually work.",
+      "r": "Snapping a glow stick starts a chemical reaction that releases this quantity as light instead of heat. For 10 points, name this quantity measured in joules, which is never created or destroyed, only changed from one form to another."
+    },
+    {
+      "p": "This quantity’s SI unit equals the work done by a one-newton force acting over one meter. Splitting a heavy atomic nucleus apart, or fusing two light ones together, both release huge amounts of this quantity.",
+      "r": "Wind turbines, solar panels, and dams all turn naturally renewable sources into a usable form of this quantity, unlike burning coal, oil, or natural gas. For 10 points, name this quantity that a moving object has in one form and a raised or stretched object stores in another."
+    },
+    {
+      "p": "One stored form of this quantity, held by an object because of its height above the ground, is calculated by multiplying its mass, its height, and the strength of gravity. Electric companies bill customers in kilowatt-hours, a unit of this quantity equal to running a thousand-watt device for one hour.",
+      "r": "Burning gasoline inside a car engine converts a stored chemical form of this quantity into motion and heat. For 10 points, identify this quantity, whose moving form equals one-half an object’s mass times its speed squared."
+    },
+    {
+      "p": "Deep underground, Earth’s internal heat supplies a renewable form of this quantity that geothermal plants tap into, while ocean tides pulled by the Moon supply another renewable form. A food’s Calorie count on its nutrition label actually measures this same quantity.",
+      "r": "A battery converts a stored chemical form of this quantity into an electrical form that can light a bulb. For 10 points, name this quantity that is conserved overall even as it keeps changing from one form into another."
+    },
+    {
+      "p": "This quantity is stored in the electric field of a charged capacitor and can also be carried by a single photon in an amount equal to Planck’s constant times frequency. A device that claimed to produce more of this quantity than it consumes, forever, would violate its own conservation law.",
+      "r": "Muscles convert a stored chemical form of this quantity, originally from food, into the kind linked to motion. For 10 points, name this quantity, whose SI unit, the joule, honors English physicist James Prescott Joule."
+    },
+    {
+      "p": "Mass itself is a densely packed form of this quantity according to one of Albert Einstein’s equations. Splitting uranium atoms apart in a nuclear reactor, or fusing hydrogen atoms together inside the Sun, both free up enormous stores of this quantity.",
+      "r": "A plant’s leaves capture sunlight and lock this quantity away in chemical form inside sugar molecules. For 10 points, name this quantity, which a stretched spring stores in one form and a speeding car carries in another."
+    },
+    {
+      "p": "A glow stick converts a chemical reaction directly into a form of this quantity that is light rather than heat, in a process called chemiluminescence [“KEM-ee-loo-mih-NESS-ents”]. This quantity carried by a photon equals Planck’s constant times the light wave’s frequency.",
+      "r": "Wind, moving water, and sunlight are renewable sources of this quantity, unlike coal, oil, and natural gas. For 10 points, name this quantity that a falling object trades from a stored, height-based form into a moving form."
+    },
+    {
+      "p": "Combining time symmetry with Noether’s theorem shows that the total amount of this quantity never changes in an isolated system, which is why no machine can run forever without fuel. A single photon of light carries an amount of this quantity set by its frequency and Planck’s constant.",
+      "r": "A toaster converts an electrical form of this quantity into heat and light. For 10 points, name this quantity, measured in joules, that comes in a form tied to an object’s motion and a form tied to its stored position or condition."
+    },
+    {
+      "p": "James Prescott Joule’s experiments with a falling weight turning a paddle wheel in water helped establish this quantity’s law of conservation, now also called the first law of thermodynamics. Fusing hydrogen nuclei together inside stars releases enormous amounts of this quantity.",
+      "r": "A car battery stores a chemical form of this quantity that becomes electrical to start the engine. For 10 points, name this quantity whose moving form equals one-half mass times velocity squared."
+    },
+    {
+      "p": "Earth’s internal heat and the Moon’s gravitational pull on the oceans both supply renewable, naturally replenished sources of this quantity, geothermal and tidal. This quantity’s SI unit equals the work a one-newton force does moving something one meter.",
+      "r": "Burning natural gas releases a stored chemical form of this quantity as heat and light. For 10 points, name this quantity, which is measured on food packaging in Calories and physically in joules."
+    },
+    {
+      "p": "An object’s mass is, according to Einstein, an extremely concentrated form of this quantity, related by the speed of light squared. This quantity trapped between the plates of a charged capacitor can later be released as an electric current.",
+      "r": "A roller coaster car at the top of a hill stores a form of this quantity based on height, which converts into a moving form as it speeds downward. For 10 points, name this quantity measured in joules."
+    },
+    {
+      "p": "This quantity cannot be created or destroyed, a rule tied to time symmetry through Noether’s theorem, which also rules out machines that would run forever without fuel. For a beam of light, a single photon’s share of this quantity is fixed by its frequency times Planck’s constant.",
+      "r": "Solar panels, wind turbines, and hydroelectric dams all capture naturally renewing sources of this quantity, unlike fossil fuels. For 10 points, name this quantity whose SI unit, the joule, honors English physicist James Prescott Joule."
+    },
+    {
+      "p": "Splitting apart a heavy nucleus like uranium, or fusing together light nuclei like hydrogen, both release vast amounts of this quantity from within the atom itself. This quantity held in a stretched or compressed spring equals one-half its spring constant times its displacement squared.",
+      "r": "A hot cup of cocoa slowly transfers this quantity as heat to the cooler air around it. For 10 points, name this quantity, which a falling ball converts from a stored, height-based form into a form tied to its speed."
+    }
+  ],
+  "clues": [
+    {
+      "id": "two-forms",
+      "tier": "giveaway",
+      "t": "Comes mainly in a moving form, carried by anything in motion, and a stored form, held by height or position",
+      "k": [
+        "moving form",
+        "stored form"
+      ],
+      "n": 4
+    },
+    {
+      "id": "si-unit-joule",
+      "tier": "giveaway",
+      "t": "Measured in joules (J), the SI unit for this quantity",
+      "k": [
+        "joules"
+      ],
+      "n": 4
+    },
+    {
+      "id": "conservation",
+      "tier": "giveaway",
+      "t": "Conserved overall: never created or destroyed, only converted from one form into another, so “perpetual motion” machines are impossible",
+      "k": [
+        "conserved",
+        "perpetual motion"
+      ],
+      "n": 2
+    },
+    {
+      "id": "forms-taxonomy",
+      "tier": "giveaway",
+      "t": "Also comes in chemical, electrical, nuclear, thermal (heat), and light forms, besides the moving and stored forms",
+      "k": [
+        "chemical",
+        "electrical",
+        "nuclear",
+        "thermal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "renewable-sources",
+      "tier": "giveaway",
+      "t": "Sources are grouped as renewable (sunlight, wind, moving water) or nonrenewable (coal, oil, natural gas)",
+      "k": [
+        "renewable",
+        "nonrenewable"
+      ],
+      "n": 0
+    },
+    {
+      "id": "work-transfer",
+      "tier": "middle",
+      "t": "Transferred whenever a force moves an object, in an amount physicists call “work”",
+      "k": [
+        "work",
+        "force"
+      ],
+      "n": 1
+    },
+    {
+      "id": "transformations",
+      "tier": "middle",
+      "t": "Changes form constantly: a battery turns a chemical store into electrical current, and a toaster turns that current into heat and light",
+      "k": [
+        "battery",
+        "chemical"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calorie-unit",
+      "tier": "middle",
+      "t": "The Calorie listed on a nutrition label is really a unit of this same quantity",
+      "k": [
+        "calorie",
+        "nutrition label"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kinetic-formula",
+      "tier": "middle",
+      "t": "A moving object’s share of this quantity equals one-half its mass times its speed squared",
+      "k": [
+        "one-half",
+        "mass",
+        "speed squared"
+      ],
+      "n": 0
+    },
+    {
+      "id": "potential-formula",
+      "tier": "middle",
+      "t": "A raised object’s stored share equals its mass times its height times the strength of gravity",
+      "k": [
+        "mass",
+        "height",
+        "gravity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kilowatt-hour",
+      "tier": "middle",
+      "t": "Electric bills use the kilowatt-hour, a unit equal to running a thousand-watt device for one hour",
+      "k": [
+        "kilowatt-hour",
+        "electric bills"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-law-thermo",
+      "tier": "middle",
+      "t": "This quantity’s conservation law is also called the first law of thermodynamics",
+      "k": [
+        "first law",
+        "thermodynamics"
+      ],
+      "n": 0
+    },
+    {
+      "id": "joule-namesake",
+      "tier": "power",
+      "t": "The joule unit honors 19th-century English physicist James Prescott Joule, who linked this quantity to mechanical work",
+      "k": [
+        "james prescott joule"
+      ],
+      "n": 0
+    },
+    {
+      "id": "newton-meter",
+      "tier": "power",
+      "t": "One joule equals the work done when a one-newton force moves something one meter",
+      "k": [
+        "newton",
+        "meter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "capacitor-storage",
+      "tier": "power",
+      "t": "A charged capacitor stores this quantity inside the electric field between its two plates",
+      "k": [
+        "capacitor",
+        "electric field"
+      ],
+      "n": 1
+    },
+    {
+      "id": "photon-planck",
+      "tier": "power",
+      "t": "A single photon carries an amount of this quantity equal to Planck’s constant times the light’s frequency",
+      "k": [
+        "photon",
+        "planck",
+        "frequency"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mass-energy-einstein",
+      "tier": "power",
+      "t": "Einstein’s equation relating mass to the speed of light squared shows that mass is itself a concentrated form of this quantity",
+      "k": [
+        "einstein",
+        "mass",
+        "speed of light"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fission-fusion",
+      "tier": "power",
+      "t": "Splitting a heavy nucleus (fission) or fusing light nuclei together (fusion) both release huge amounts from inside the atom",
+      "k": [
+        "fission",
+        "fusion",
+        "nucleus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "geothermal-tidal",
+      "tier": "power",
+      "t": "Geothermal plants tap Earth’s internal heat, and tidal plants tap the Moon’s pull on the oceans, as two less common renewable sources",
+      "k": [
+        "geothermal",
+        "tidal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chemiluminescence",
+      "tier": "power",
+      "t": "A glow stick’s chemical reaction releases this quantity as light instead of heat, a process called chemiluminescence",
+      "k": [
+        "glow stick",
+        "chemiluminescence"
+      ],
+      "n": 0
+    },
+    {
+      "id": "noether-theorem",
+      "tier": "power",
+      "t": "Its conservation follows from time symmetry through a theorem proved by mathematician Emmy Noether",
+      "k": [
+        "noether",
+        "time symmetry"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "General energy, or specific form?",
+    "body": "Kinetic, potential, thermal, chemical, nuclear, and electrical energy are all specific named forms, not the bare general word — and real answer lines sometimes want one exact form instead of the general quantity. “Kinetic energy” is especially easy to over-credit here because it is studied as its own separate answer line on this site, right next to this one.",
+    "fix": "If the question’s giveaway line stays general (“this quantity’s moving and stored forms,” “measured in joules”) without ever building toward one specific named type, “energy” is the safer answer. If every clue points at one exact form — especially one-half mass times velocity squared with no mention of a stored counterpart — give that specific name instead.",
+    "line": "Real answer line: <b><u>Energy</u></b> [many real answer lines also list “or kinetic energy” and “or potential energy” as accepted alternates; this site prompts on both instead of a flat accept, since “kinetic energy” has its own study page]."
+  },
+  "tests": {
+    "right": [
+      "Energy",
+      "energy",
+      "Enargy",
+      "Total Energy"
+    ],
+    "prompt": [
+      "Kinetic Energy",
+      "kinetic energy",
+      "Potential Energy"
+    ],
+    "wrong": [
+      "Heat",
+      "Voltage",
+      "Nuclear Energy",
+      "Power",
+      "Activation Energy"
+    ]
+  },
+  "freq": {
+    "rank": 40,
+    "count": 3,
+    "list": "Physics"
+  }
+}

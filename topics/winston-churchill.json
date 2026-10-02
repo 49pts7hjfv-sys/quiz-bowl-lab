@@ -1,0 +1,460 @@
+{
+  "id": "winston-churchill",
+  "name": "Winston Churchill",
+  "mono": "WC",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "UK prime minister during WWII · Led Britain’s defiance of Hitler",
+  "dates": "1874–1965",
+  "briefing": "Churchill became prime minister in May 1940 just as Nazi Germany swept across Western Europe, and he refused to even consider surrender. He promised Britain only “blood, toil, tears, and sweat,” rallied the country through the Blitz, and later popularized the phrase “Iron Curtain” to describe divided postwar Europe. He also won the Nobel Prize in Literature for his writing.",
+  "answerHtml": "<b><u>Winston Churchill</u></b>",
+  "accept": [
+    "winston churchill",
+    "winston leonard spencer churchill",
+    "winston spencer churchill",
+    "churchill"
+  ],
+  "prompt": [],
+  "reject": [
+    "franklin roosevelt",
+    "franklin delano roosevelt",
+    "roosevelt",
+    "joseph stalin",
+    "stalin",
+    "adolf hitler",
+    "hitler",
+    "benito mussolini",
+    "mussolini",
+    "margaret thatcher",
+    "thatcher",
+    "neville chamberlain",
+    "chamberlain",
+    "clement attlee",
+    "attlee",
+    "world war i",
+    "world war 1",
+    "world war ii",
+    "world war 2",
+    "world war two"
+  ],
+  "tests": {
+    "right": [
+      "Winston Churchill",
+      "Churchill",
+      "Sir Winston Churchill",
+      "Winstonn Churchill",
+      "Winston Leonard Spencer Churchill"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Franklin Roosevelt",
+      "Stalin",
+      "Hitler",
+      "Neville Chamberlain",
+      "Clement Attlee",
+      "Margaret Thatcher"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Best of Winston Churchill | Compilation",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=Wj_jkgzLCJo",
+      "note": "Funny sketches covering his life and sayings"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Winston Churchill - Prime Minister | Mini Bio",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=cFUSLK2z6qI",
+      "note": "Short biography of his life and career"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The World Wars: Winston Churchill",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=YuYGkcgzf_o",
+      "note": "His role across both World Wars"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "World War II: Crash Course European History #38",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=Hs_JMydrxZM",
+      "note": "The bigger picture of the war he led Britain through"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Winston Churchill for Kids - Biography",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/winston_churchill.php",
+      "note": "Short biography: his career, speeches, and WWII leadership"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Winston_Churchill",
+  "qb": {
+    "q": "Winston Churchill",
+    "found": 4,
+    "tip": "Only 4 Middle School/Easy High School tossups came back, so a Regular High School tossup was added to the sample — watch for the “Big Three” Allied leaders (this man, Roosevelt, and Stalin) showing up together in the same clues."
+  },
+  "sample": {
+    "n": 5,
+    "note": "5 real QBReader tossups (4 Middle School/Easy High School + 1 Regular High School, power-marked) for this answer line"
+  },
+  "tossups": [
+    {
+      "p": "This politician was born in 1874 at Blenheim [“BLEN-um”] Palace, the grand estate of his family, the Dukes of Marlborough. His mother, Jennie Jerome, was an American socialite, making this leader half-American by birth.",
+      "r": "He later served as prime minister through most of World War II. For 10 points, name this British statesman famous for his wartime speeches."
+    },
+    {
+      "p": "As a young army officer and war correspondent, this man charged with the cavalry at the Battle of Omdurman [“om-DUR-man”] in Sudan and later made a daring escape from a prisoner-of-war camp during the Boer War in South Africa.",
+      "r": "These early adventures were recounted in his memoir _My Early Life_. For 10 points, name this British leader who later led his country through World War II."
+    },
+    {
+      "p": "This politician switched from the Conservative Party to the Liberal Party early in his career, and later switched back again. As Chancellor of the Exchequer in the 1920s, he made the controversial decision to return Britain to the gold standard.",
+      "r": "He spent much of the 1930s out of government, warning Parliament about the rise of Adolf Hitler. For 10 points, name this British politician who became prime minister in 1940."
+    },
+    {
+      "p": "This politician was forced out as First Lord of the Admiralty after the disastrous Gallipoli [“guh-LIP-oh-lee”] campaign of World War I, but returned to that same post at the start of World War II.",
+      "r": "He became prime minister in May 1940 after Neville Chamberlain resigned. For 10 points, name this British leader known for his defiant wartime speeches."
+    },
+    {
+      "p": "In May 1940, this new prime minister faced a war cabinet crisis pushed by Lord Halifax, who favored negotiating with Germany. Later in the war, he proposed the “Percentages Agreement,” dividing up postwar influence in Eastern Europe with Stalin.",
+      "r": "He met with Stalin and Roosevelt again at the Yalta Conference. For 10 points, name this prime minister who led Britain through World War II."
+    },
+    {
+      "p": "During his so-called “wilderness years” in the 1930s, this politician held no government office but repeatedly warned Parliament about German rearmament. He had earlier written of his youthful adventures in a memoir called _My Early Life_.",
+      "r": "He later won the Nobel Prize in Literature for his histories and his speeches. For 10 points, name this British leader who became prime minister in 1940."
+    },
+    {
+      "p": "In one of his first speeches as prime minister, this leader promised his country nothing but “blood, toil, tears, and sweat.” He then led Britain through the Battle of Britain and the nightly bombing campaign known as the Blitz.",
+      "r": "He later promised that “we shall never surrender” after the evacuation at Dunkirk. For 10 points, name this British prime minister of World War II."
+    },
+    {
+      "p": "This politician won the 1953 Nobel Prize in Literature for his historical writing and his speeches. He also popularized a two-fingered hand gesture meaning “V for Victory” during the war.",
+      "r": "He made the term “Iron Curtain” famous in a 1946 speech in Fulton, Missouri. For 10 points, name this British wartime prime minister."
+    },
+    {
+      "p": "This leader met with Stalin and Roosevelt at the Yalta Conference to help plan the postwar world, but was voted out of office by British voters in July 1945, partway through the Potsdam Conference.",
+      "r": "Clement Attlee replaced him at that conference. For 10 points, name this Conservative leader who had led Britain to victory in World War II."
+    },
+    {
+      "p": "Known for his ever-present cigars, this politician took up oil painting as a relaxing hobby in middle age. He returned for a second term as prime minister in the early 1950s and was later made a knight.",
+      "r": "He had first become prime minister in 1940, succeeding Neville Chamberlain. For 10 points, name this British statesman."
+    },
+    {
+      "p": "When this politician died in 1965, he was given a state funeral, an honor rarely given to a commoner rather than a monarch. Decades earlier, he had been forced out as First Lord of the Admiralty after the failed Gallipoli campaign of World War I.",
+      "r": "He later served as prime minister through most of World War II. For 10 points, name this British leader famous for his cigars and his defiant wartime speeches."
+    },
+    {
+      "p": "In a 1946 speech in Fulton, Missouri, this former prime minister warned that an “iron curtain” had descended across Europe, dividing the continent. During the war itself, he had proposed dividing up postwar influence in Eastern Europe with Stalin.",
+      "r": "He had already led Britain through the Battle of Britain and the Blitz. For 10 points, name this British statesman."
+    },
+    {
+      "p": "Years before becoming prime minister, this politician served as Chancellor of the Exchequer and made the unpopular choice to return Britain to the gold standard. He spent much of the following decade out of office, in what became known as his “wilderness years.”",
+      "r": "He became prime minister for the first time in May 1940. For 10 points, name this British leader who later won a Nobel Prize in Literature."
+    },
+    {
+      "p": "As a young man, this politician made a daring escape from a Boer prisoner-of-war camp in South Africa. Many years later, as a brand-new prime minister, he promised his country only “blood, toil, tears, and sweat.”",
+      "r": "He would soon follow that speech with a promise that “we shall never surrender.” For 10 points, name this British wartime leader."
+    },
+    {
+      "p": "This politician served as Conservative prime minister of the United Kingdom for most of World War II, succeeding Neville Chamberlain in May 1940 and leading the country through the Blitz. Despite that wartime leadership, voters removed his party from power in a 1945 election.",
+      "r": "He returned for a second term as prime minister in the 1950s. For 10 points, name this British statesman and wartime leader."
+    }
+  ],
+  "clues": [
+    {
+      "id": "pm-ww2",
+      "tier": "giveaway",
+      "t": "Led the United Kingdom as prime minister through most of World War II",
+      "k": [
+        "prime minister",
+        "world war ii",
+        "united kingdom"
+      ],
+      "n": 5
+    },
+    {
+      "id": "succeeded-chamberlain-1940",
+      "tier": "giveaway",
+      "t": "Became prime minister in May 1940 after Neville Chamberlain resigned",
+      "k": [
+        "neville chamberlain",
+        "may 1940",
+        "resigned"
+      ],
+      "n": 3
+    },
+    {
+      "id": "never-surrender-speech",
+      "tier": "giveaway",
+      "t": "Famous for defiant wartime speeches, including “we shall never surrender”",
+      "k": [
+        "never surrender",
+        "defiant speeches",
+        "wartime"
+      ],
+      "n": 2
+    },
+    {
+      "id": "iron-curtain-speech",
+      "tier": "giveaway",
+      "t": "Popularized the term “Iron Curtain” in a 1946 speech in Fulton, Missouri",
+      "k": [
+        "iron curtain",
+        "fulton missouri",
+        "1946"
+      ],
+      "n": 3
+    },
+    {
+      "id": "voted-out-1945",
+      "tier": "giveaway",
+      "t": "Lost the 1945 election to Clement Attlee despite leading Britain to victory",
+      "k": [
+        "clement attlee",
+        "1945 election",
+        "voted out"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gallipoli-resignation",
+      "tier": "middle",
+      "t": "Was forced out as First Lord of the Admiralty after the failed Gallipoli campaign in WWI",
+      "k": [
+        "gallipoli",
+        "first lord of the admiralty",
+        "forced out"
+      ],
+      "n": 3
+    },
+    {
+      "id": "nobel-literature",
+      "tier": "middle",
+      "t": "Won the 1953 Nobel Prize in Literature for his historical writing and his speeches",
+      "k": [
+        "nobel prize",
+        "historical writing",
+        "literature"
+      ],
+      "n": 2
+    },
+    {
+      "id": "yalta-potsdam",
+      "tier": "middle",
+      "t": "Met with Stalin and Roosevelt at Yalta, planning the postwar world",
+      "k": [
+        "yalta",
+        "stalin and roosevelt",
+        "postwar world"
+      ],
+      "n": 1
+    },
+    {
+      "id": "blood-sweat-tears",
+      "tier": "middle",
+      "t": "Promised only “blood, toil, tears, and sweat” in an early speech as prime minister",
+      "k": [
+        "blood toil tears sweat",
+        "early speech",
+        "promised"
+      ],
+      "n": 1
+    },
+    {
+      "id": "war-cabinet-crisis",
+      "tier": "middle",
+      "t": "Faced a war cabinet crisis pushed by Lord Halifax in 1940",
+      "k": [
+        "war cabinet crisis",
+        "lord halifax",
+        "1940"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wilderness-years",
+      "tier": "middle",
+      "t": "Spent the 1930s out of power in his so-called “wilderness years,” warning about Hitler",
+      "k": [
+        "wilderness years",
+        "1930s",
+        "warning about hitler"
+      ],
+      "n": 1
+    },
+    {
+      "id": "percentages-agreement",
+      "tier": "middle",
+      "t": "Proposed the “Percentages Agreement” dividing Eastern Europe into spheres of influence",
+      "k": [
+        "percentages agreement",
+        "eastern europe",
+        "spheres of influence"
+      ],
+      "n": 1
+    },
+    {
+      "id": "battle-of-britain-blitz",
+      "tier": "middle",
+      "t": "Led the country through the Battle of Britain and the nightly bombing of the Blitz",
+      "k": [
+        "battle of britain",
+        "the blitz",
+        "nightly bombing"
+      ],
+      "n": 1
+    },
+    {
+      "id": "born-blenheim",
+      "tier": "power",
+      "t": "Born in 1874 at Blenheim Palace, his family’s grand estate",
+      "k": [
+        "blenheim palace",
+        "1874",
+        "family estate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boer-war-escape",
+      "tier": "power",
+      "t": "Made a daring escape from a prisoner-of-war camp during the Boer War",
+      "k": [
+        "boer war",
+        "prisoner of war",
+        "escaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-lord-again-ww2",
+      "tier": "power",
+      "t": "Returned to lead the Admiralty again at the start of World War II",
+      "k": [
+        "returned to the admiralty",
+        "start of world war ii",
+        "again"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chancellor-gold-standard",
+      "tier": "power",
+      "t": "As Chancellor of the Exchequer in the 1920s, he returned Britain to the gold standard",
+      "k": [
+        "chancellor of the exchequer",
+        "gold standard",
+        "1920s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "half-american-mother",
+      "tier": "power",
+      "t": "His mother, Jennie Jerome, was an American socialite",
+      "k": [
+        "jennie jerome",
+        "american socialite",
+        "his mother"
+      ],
+      "n": 0
+    },
+    {
+      "id": "my-early-life",
+      "tier": "power",
+      "t": "Wrote a memoir of his early adventures called _My Early Life_",
+      "k": [
+        "my early life",
+        "memoir",
+        "early adventures"
+      ],
+      "n": 1
+    },
+    {
+      "id": "v-for-victory",
+      "tier": "power",
+      "t": "Popularized the two-fingered “V for Victory” hand sign during the war",
+      "k": [
+        "v for victory",
+        "hand sign",
+        "popularized"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cigars-painting",
+      "tier": "power",
+      "t": "Known for his cigars and for taking up oil painting in middle age",
+      "k": [
+        "cigars",
+        "oil painting",
+        "middle age"
+      ],
+      "n": 0
+    },
+    {
+      "id": "malakand-omdurman",
+      "tier": "power",
+      "t": "Served as a young soldier and war correspondent at the Battle of Omdurman in Sudan",
+      "k": [
+        "battle of omdurman",
+        "sudan",
+        "war correspondent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "switched-parties",
+      "tier": "power",
+      "t": "Switched from the Conservative Party to the Liberal Party, and later back again",
+      "k": [
+        "conservative party",
+        "liberal party",
+        "switched"
+      ],
+      "n": 0
+    },
+    {
+      "id": "second-term-knighted",
+      "tier": "power",
+      "t": "Served a second term as prime minister in the 1950s and was later knighted",
+      "k": [
+        "second term",
+        "1950s",
+        "knighted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "state-funeral-1965",
+      "tier": "power",
+      "t": "Given a state funeral in 1965, a rare honor for a commoner",
+      "k": [
+        "state funeral",
+        "1965",
+        "commoner"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which “Big Three” leader?",
+    "body": "Clues about Yalta, Potsdam, and the wartime alliance against Hitler apply to all three of the “Big Three” Allied leaders, so it is easy to blurt out “Roosevelt” or “Stalin” when the question actually wants this man. He is also bracketed by two other British prime ministers who get mentioned constantly in his clues: Neville Chamberlain, whom he succeeded in 1940, and Clement Attlee, who defeated him in 1945.",
+    "fix": "If the clue says “President,” it wants Roosevelt; if it is about the Soviet Union, it wants Stalin. This man is the British prime minister in the group — the one with the cigar, the one who refused to surrender in 1940, and the one voted out right after the war ended.",
+    "line": "Real answer line: <b><u>Winston Churchill</u></b>"
+  },
+  "freq": {
+    "rank": 17,
+    "count": 5,
+    "list": "European History"
+  }
+}

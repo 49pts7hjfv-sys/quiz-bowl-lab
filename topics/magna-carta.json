@@ -1,0 +1,446 @@
+{
+  "id": "magna-carta",
+  "name": "Magna Carta",
+  "mono": "MC",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "King John’s 1215 charter limiting royal power · Sealed at Runnymede",
+  "dates": "Sealed June 15, 1215",
+  "briefing": "In June 1215, England’s rebellious barons forced King John to seal a charter at Runnymede, a meadow by the Thames, after his allies lost a key battle in France and he badly mismanaged the kingdom’s finances. Magna Carta — Latin for “Great Charter” — limited royal power, protected the barons’ rights, and even banned certain fish traps on rivers. Though Pope Innocent III quickly tried to cancel it, its due-process ideas later shaped English law and inspired the U.S. Constitution.",
+  "answerHtml": "<b><u>Magna Carta</u></b> (or <u>Great Charter</u>; prompt on <u>Runnymede Charter</u>)",
+  "accept": [
+    "magna carta",
+    "magna carta libertatum",
+    "great charter",
+    "great charter of liberties",
+    "great charter of the liberties"
+  ],
+  "prompt": [
+    "runnymede charter",
+    "runnymede"
+  ],
+  "reject": [
+    "charter of the forest",
+    "first barons war",
+    "petition of right",
+    "english bill of rights",
+    "mayflower compact",
+    "domesday book",
+    "king john",
+    "stephen langton",
+    "robert fitzwalter",
+    "provisions of oxford"
+  ],
+  "tests": {
+    "right": [
+      "Magna Carta",
+      "the Magna Carta",
+      "Great Charter",
+      "Magna Charta",
+      "Magna Carta Libertatum"
+    ],
+    "prompt": [
+      "Runnymede",
+      "Runnymede Charter"
+    ],
+    "wrong": [
+      "King John",
+      "Charter of the Forest",
+      "First Barons' War",
+      "Stephen Langton",
+      "Domesday Book"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "15th June 1215: Magna Carta approved by King John at Runnymede near Windsor in England",
+      "source": "HistoryPod",
+      "url": "https://www.youtube.com/watch?v=hcri6pnQ8QE",
+      "note": "Short · “on this day” recap of the sealing at Runnymede"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "King John's Magna Carta Rap Battle | Rotten Rulers",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=4yCpNzCcGsI",
+      "note": "Funny rap battle between King John and his rebel barons"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Horrible Histories Song - Magna Carta 800 Years",
+      "source": "CBBC",
+      "url": "https://www.youtube.com/watch?v=XTWQzF1027I",
+      "note": "Short song marking the 800th anniversary of the charter"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Magna Carta",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Magna-Carta/275610",
+      "note": "Short encyclopedia article on why barons forced King John to agree to it"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Magna_Carta",
+  "qb": {
+    "q": "Magna Carta",
+    "found": 5,
+    "tip": "All 5 results are Middle School/Easy High School tossups on this exact document — a clean, on-topic search."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The 18th-century jurist William Blackstone later numbered this document’s clauses from 1 to 63. One original copy of this document is thought to have gone to a group of English ports known as the Cinque [“sink”] Ports, while others went to cathedrals around the kingdom.",
+      "r": "Drafted largely by Stephen Langton, the Archbishop of Canterbury, this document was meant to settle a dispute between a king and his barons. For 10 points, name this 1215 charter sealed at Runnymede by King John of England."
+    },
+    {
+      "p": "King John had made England a fief of the Pope back in 1213, a move that later let him appeal for this document’s annulment. John agreed to this document only after Philip II of France crushed his allies at the Battle of Bouvines [“boo-VEEN”], forcing John to sue for peace.",
+      "r": "Pope Innocent III soon declared this document invalid anyway. For 10 points, name this 1215 English charter, sealed at Runnymede by King John."
+    },
+    {
+      "p": "This document’s sixty-first clause let a council of twenty-five barons seize the king’s lands and castles if he broke its terms. When King John ignored that threat, rebel barons led by Robert Fitzwalter rose up in the First Barons’ War and invited the future French king Louis VIII to invade England.",
+      "r": "For 10 points, name this 1215 charter that English barons forced King John to seal at Runnymede."
+    },
+    {
+      "p": "A companion document called the Charter of the Forest eased harsh royal forest laws soon after this charter first appeared, ending the death penalty for poaching deer. This earlier document itself banned certain fish-weir traps from blocking England’s rivers.",
+      "r": "Stephen Langton helped draft this charter to settle a dispute between King John and his barons. For 10 points, name this 1215 document sealed at Runnymede."
+    },
+    {
+      "p": "This document’s thirty-ninth clause said a free man could be punished only by the lawful judgment of his peers or the law of the land, an early statement of due process. Historians often credit it with introducing ideas related to habeas corpus into English law.",
+      "r": "For 10 points, name this 1215 charter whose due-process ideas later influenced the U.S. Constitution."
+    },
+    {
+      "p": "This document’s very first clause guaranteed the freedom of the English Church, while its thirteenth clause confirmed the City of London’s ancient liberties. Most of its sixty-three clauses, though, dealt with narrower feudal privileges that no longer apply today.",
+      "r": "For 10 points, name this 1215 charter sealed by King John at Runnymede under pressure from his barons."
+    },
+    {
+      "p": "After the king who first sealed this document died in 1216, his nine-year-old son Henry III quickly reissued it to win back rebel barons’ support. The version with lasting legal authority actually comes from a further reissue of this document in 1225.",
+      "r": "For 10 points, name this charter, originally sealed in 1215 by King John at Runnymede."
+    },
+    {
+      "p": "This document’s guarantees technically applied only to “free men,” a minority in a society where most people were unfree peasants bound to the land. Despite that narrow original scope, its rule-of-law ideas eventually helped inspire constitutions worldwide.",
+      "r": "For 10 points, name this 1215 charter, sealed at Runnymede, whose Latin name translates to roughly “big charter.”"
+    },
+    {
+      "p": "Pope Innocent III declared this document null and void within weeks of its sealing, siding with the king against his barons. That annulment helped trigger England’s First Barons’ War soon afterward.",
+      "r": "Despite the Pope’s objection, this document survived in reissued form for centuries. For 10 points, name this 1215 charter forced on King John by rebellious barons."
+    },
+    {
+      "p": "Stephen Langton, the Archbishop of Canterbury, helped draft this document in an attempt to prevent open war between King John and his barons. It failed in the short term, since John’s refusal to honor it helped start the First Barons’ War anyway.",
+      "r": "For 10 points, name this 1215 charter sealed in a meadow called Runnymede."
+    },
+    {
+      "p": "Rebel barons who felt King John had broken this document invited Louis, the future King Louis VIII of France, to invade England and claim the throne. Those same barons had rebelled partly because John’s allies had been crushed at the Battle of Bouvines.",
+      "r": "For 10 points, name this 1215 charter, which John had sealed at Runnymede under baronial pressure."
+    },
+    {
+      "p": "Copies of this document were distributed to cathedrals and, it is thought, to the Cinque Ports after it was sealed. Centuries later, William Blackstone organized its text into the numbered clauses still used today, including one guaranteeing the freedom of the English Church.",
+      "r": "For 10 points, name this 1215 charter that King John sealed at Runnymede."
+    },
+    {
+      "p": "Among its more specific provisions, this document ordered the removal of fish-weir traps from England’s rivers and promised that free men would face only lawful judgment by their peers. A companion charter dealing with royal forests followed a few years later.",
+      "r": "For 10 points, name this 1215 charter that barons forced King John to seal at Runnymede, limiting royal power."
+    },
+    {
+      "p": "Clauses of this document promising “lawful judgment” and protection from arbitrary imprisonment later echoed through English common law and across the Atlantic. Drafted by Stephen Langton to end a crisis between a king and his barons, it originally protected only “free men.”",
+      "r": "For 10 points, name this 1215 charter whose ideas influenced the U.S. Constitution and Bill of Rights."
+    },
+    {
+      "p": "After his allies lost the Battle of Bouvines, King John sealed this document at Runnymede, only to see Pope Innocent III annul it within weeks. His son Henry III later reissued it to help end the war that followed.",
+      "r": "For 10 points, name this 1215 charter whose Latin name refers to its great size and importance."
+    }
+  ],
+  "clues": [
+    {
+      "id": "king-john-runnymede",
+      "tier": "giveaway",
+      "t": "Sealed by King John of England at Runnymede, a meadow by the Thames, in June 1215",
+      "k": [
+        "king john",
+        "runnymede",
+        "1215"
+      ],
+      "n": 5
+    },
+    {
+      "id": "name-meaning",
+      "tier": "giveaway",
+      "t": "Its name comes from Latin words meaning roughly “big charter”",
+      "k": [
+        "latin",
+        "big charter",
+        "name"
+      ],
+      "n": 2
+    },
+    {
+      "id": "limits-power",
+      "tier": "giveaway",
+      "t": "Limited royal power and said that even the king had to obey the law",
+      "k": [
+        "limited",
+        "royal power",
+        "obey the law"
+      ],
+      "n": 0
+    },
+    {
+      "id": "legacy",
+      "tier": "giveaway",
+      "t": "Its due-process ideas later influenced English law and the U.S. Constitution",
+      "k": [
+        "due process",
+        "us constitution",
+        "influenced"
+      ],
+      "n": 0
+    },
+    {
+      "id": "langton-drafts",
+      "tier": "giveaway",
+      "t": "Drafted with help from Stephen Langton, the Archbishop of Canterbury, to settle a dispute between John and his barons",
+      "k": [
+        "stephen langton",
+        "archbishop of canterbury",
+        "barons"
+      ],
+      "n": 2
+    },
+    {
+      "id": "clause-61",
+      "tier": "middle",
+      "t": "Clause 61 let a council of 25 barons seize the king’s lands and castles if he broke the charter",
+      "k": [
+        "clause 61",
+        "25 barons",
+        "seize"
+      ],
+      "n": 3
+    },
+    {
+      "id": "innocent-annuls",
+      "tier": "middle",
+      "t": "Pope Innocent III declared it invalid soon after it was sealed",
+      "k": [
+        "pope innocent iii",
+        "invalid",
+        "annulled"
+      ],
+      "n": 3
+    },
+    {
+      "id": "barons-war",
+      "tier": "middle",
+      "t": "John’s refusal to honor it, plus the Pope’s annulment, helped trigger the First Barons’ War",
+      "k": [
+        "first barons war",
+        "trigger",
+        "refusal"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fitzwalter-louis",
+      "tier": "middle",
+      "t": "Rebel barons, led by Robert Fitzwalter, invited the future French king Louis VIII to invade England",
+      "k": [
+        "robert fitzwalter",
+        "louis viii",
+        "invited"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bouvines",
+      "tier": "middle",
+      "t": "Sealed after Philip II of France crushed King John’s allies at the Battle of Bouvines (1214)",
+      "k": [
+        "battle of bouvines",
+        "philip ii",
+        "allies"
+      ],
+      "n": 3
+    },
+    {
+      "id": "habeas-corpus",
+      "tier": "middle",
+      "t": "Included early ideas related to habeas corpus, protecting people from unlawful imprisonment",
+      "k": [
+        "habeas corpus",
+        "unlawful imprisonment"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fish-weirs",
+      "tier": "middle",
+      "t": "Banned certain fish-weir traps from blocking England’s rivers",
+      "k": [
+        "fish-weir traps",
+        "banned",
+        "rivers"
+      ],
+      "n": 2
+    },
+    {
+      "id": "charter-of-forest",
+      "tier": "middle",
+      "t": "A companion document, the Charter of the Forest, later eased harsh forest laws, including ending the death penalty for poaching deer",
+      "k": [
+        "charter of the forest",
+        "forest laws",
+        "poaching"
+      ],
+      "n": 1
+    },
+    {
+      "id": "reissued-1297",
+      "tier": "middle",
+      "t": "Reissued several times and confirmed as English statute law in 1297",
+      "k": [
+        "reissued",
+        "1297",
+        "statute law"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blackstone-63",
+      "tier": "power",
+      "t": "Its clauses were later numbered 1 to 63 by the 18th-century jurist William Blackstone",
+      "k": [
+        "william blackstone",
+        "63 clauses",
+        "numbered"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cinque-ports",
+      "tier": "power",
+      "t": "One original copy is thought to have been sent to a group of ports known as the Cinque Ports",
+      "k": [
+        "cinque ports",
+        "copy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "clause-39",
+      "tier": "power",
+      "t": "Clause 39 said free men could be punished only by the lawful judgment of their peers",
+      "k": [
+        "clause 39",
+        "lawful judgment",
+        "peers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "feudal-privileges",
+      "tier": "power",
+      "t": "Most of its specific clauses actually dealt with feudal and baronial privileges that no longer apply today",
+      "k": [
+        "feudal privileges",
+        "baronial",
+        "no longer apply"
+      ],
+      "n": 0
+    },
+    {
+      "id": "papal-fief",
+      "tier": "power",
+      "t": "King John had made England a fief of the Pope in 1213, which let him later appeal for the charter’s annulment",
+      "k": [
+        "papal fief",
+        "1213",
+        "appeal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "henry-iii-reissue",
+      "tier": "power",
+      "t": "John died in 1216, and his nine-year-old son Henry III quickly reissued the charter to win back rebel barons’ support",
+      "k": [
+        "henry iii",
+        "1216",
+        "reissued"
+      ],
+      "n": 0
+    },
+    {
+      "id": "1225-reissue",
+      "tier": "power",
+      "t": "The version with lasting legal authority actually comes from a further reissue in 1225",
+      "k": [
+        "1225",
+        "further reissue",
+        "legal authority"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clause-1-church",
+      "tier": "power",
+      "t": "Clause 1 guaranteed the freedom of the English Church",
+      "k": [
+        "clause 1",
+        "english church",
+        "freedom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clause-13-london",
+      "tier": "power",
+      "t": "Clause 13 confirmed the City of London’s ancient liberties",
+      "k": [
+        "clause 13",
+        "city of london",
+        "liberties"
+      ],
+      "n": 0
+    },
+    {
+      "id": "free-men-only",
+      "tier": "power",
+      "t": "Its guarantees originally protected only “free men,” a minority in a society of mostly unfree peasants",
+      "k": [
+        "free men",
+        "unfree",
+        "peasants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "runnymede-memorials",
+      "tier": "power",
+      "t": "Modern Runnymede also hosts memorials tied to its legacy, including one for President John F. Kennedy",
+      "k": [
+        "runnymede memorials",
+        "john f kennedy",
+        "legacy"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which charter, which crisis?",
+    "body": "Medieval England produced a whole family of “charter” and “rights” documents, and it’s easy to mix them up: Henry I’s 1100 Charter of Liberties came a century earlier, the Charter of the Forest is a separate companion document about forest law, the Provisions of Oxford (1258) and the English Bill of Rights (1689) are later constitutional moments, and King John himself is a person, not a document.",
+    "fix": "Clues about King John, Runnymede, 1215, Stephen Langton, or barons forcing a king’s hand mean this charter. If the clue names a different king, a different century, or an ocean voyage (that’s the Mayflower Compact), it isn’t this one.",
+    "line": "Real answer line: <b><u>Magna Carta</u></b> (or Great Charter; prompt on Runnymede charter)"
+  },
+  "freq": {
+    "rank": 35,
+    "count": 3,
+    "list": "European History"
+  }
+}

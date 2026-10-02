@@ -1,0 +1,508 @@
+{
+  "id": "passover",
+  "name": "Passover",
+  "mono": "PSV",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Spring Jewish holiday · Retells the Exodus from slavery in Egypt",
+  "dates": "Spring · begins the 15th of Nisan",
+  "briefing": "Why is this night different from all other nights? Each spring, the youngest child at the table asks that question at the seder, the special Passover meal that retells how Moses led the Israelites out of slavery in Egypt. For seven or eight days, many Jewish families eat flat, crunchy matzah instead of bread, remembering that the Israelites left in such a hurry that their dough had no time to rise.",
+  "answerHtml": "<b><u>Passover</u></b> (or <u>Pesach</u> or <u>Pesah</u>; accept <u>Passover</u> seder)",
+  "accept": [
+    "passover",
+    "pesach",
+    "pesah",
+    "pesech",
+    "pesakh",
+    "passover seder",
+    "the passover seder",
+    "a passover seder",
+    "passover seders",
+    "pesach seder",
+    "jewish passover seder"
+  ],
+  "prompt": [],
+  "reject": [
+    "easter",
+    "shavuot",
+    "shavuos",
+    "pentecost",
+    "sukkot",
+    "sukkos",
+    "purim",
+    "hanukkah",
+    "chanukah",
+    "yom kippur",
+    "rosh hashanah",
+    "exodus",
+    "last supper"
+  ],
+  "tests": {
+    "right": [
+      "Passover",
+      "Pesach",
+      "Passsover",
+      "Pesah",
+      "Pesakh",
+      "Passover Seder",
+      "the Passover seder",
+      "Pasover seder"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Easter",
+      "Shavuot",
+      "Sukkot",
+      "Purim",
+      "Seder",
+      "Hanukkah",
+      "Exodus",
+      "The Last Supper",
+      "Yom Kippur"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What Is Passover? (My Life, My Religion: Judaism)",
+      "source": "BBC Teach",
+      "url": "https://www.youtube.com/watch?v=QF84Wx0dGTg",
+      "note": "Short · from BBC Teach’s My Life, My Religion series for schools"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Passover for Kids | How Do We Celebrate Passover?",
+      "source": "Twinkl",
+      "url": "https://www.youtube.com/watch?v=o0sqZH3HU0Y",
+      "note": "Kid-friendly explainer of how families celebrate"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Passover Seder: What to Expect",
+      "source": "BimBam",
+      "url": "https://www.youtube.com/watch?v=LzsuL9U1a_k",
+      "note": "Animated guide to what happens at the seder"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Passover Seder Plate Explained",
+      "source": "HuffPost",
+      "url": "https://www.youtube.com/watch?v=OYK4oB5F08A",
+      "note": "Short · what the foods on the seder plate stand for"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The Jewish Story of Moses | Religions of the World",
+      "source": "BBC Teach",
+      "url": "https://www.youtube.com/watch?v=RdSQT7DS1lI",
+      "note": "Bigger picture · the Exodus story behind the holiday, made for schools"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "What Does It Mean to Be Jewish? (Crash Course Religions #8)",
+      "source": "Crash Course Religions",
+      "url": "https://www.youtube.com/watch?v=g9b48p9NaYc",
+      "note": "Bigger picture · an overview of Judaism"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Passover",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Passover/353602",
+      "note": "Quick encyclopedia read for students"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Passover",
+  "qb": {
+    "q": "Passover",
+    "found": 6,
+    "tip": "All 6 tossups are built around the seder: the Four Questions, matzah, the Haggadah, and songs like Dayenu come up again and again, so learn the meal’s rituals in order."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The 49-day Counting of the Omer begins on the second night of this holiday and leads up to Shavuot [“shah-voo-OHT”]. During this holiday’s ritual meal, the youngest child asks the Four Questions, beginning “Why is this night different from all other nights?”",
+      "r": "For 10 points, name this spring Jewish holiday that celebrates the Exodus, when Moses led the Israelites out of slavery in Egypt."
+    },
+    {
+      "p": "Since 1932, the Maxwell House coffee company has given away millions of copies of a guidebook for this holiday’s meal. That guidebook, the Haggadah [“huh-GAH-duh”], has a name meaning “telling,” and it includes the song “Dayenu” [“dye-AY-noo”].",
+      "r": "For 10 points, name this Jewish holiday when families hold a seder, eat matzah, and remember the Exodus from Egypt."
+    },
+    {
+      "p": "Near the end of this holiday’s ritual meal, people sing “Echad Mi Yodea” [“eh-KHAHD mee YOH-day-ah”] (“Who Knows One?”) and “Chad Gadya” [“KHAHD GAHD-yah”], an Aramaic song about one little goat that a father bought for two coins.",
+      "r": "Earlier, people eat bitter herbs called maror [“mah-ROR”]. For 10 points, name this Jewish holiday that remembers the Exodus from Egypt."
+    },
+    {
+      "p": "The Haggadah [“huh-GAH-duh”] read at this holiday’s meal describes four sons: one wise, one wicked, one simple, and one who does not know how to ask. At that meal, the youngest child asks the Four Questions, including why everyone eats bitter herbs.",
+      "r": "For 10 points, name this Jewish holiday that celebrates the Israelites’ escape from slavery in Egypt."
+    },
+    {
+      "p": "Hillel’s sandwich, eaten at this holiday’s meal, places bitter herbs between pieces of matzah. Charoset [“khah-ROH-set”], a sweet mix of apples, nuts, and wine, stands for the mortar the Israelites used to make bricks in Egypt.",
+      "r": "Those foods sit on a special plate at the seder. For 10 points, name this Jewish holiday that celebrates the Exodus."
+    },
+    {
+      "p": "On the night before this holiday, families search their homes by candlelight for chametz [“khah-METS”], or leavened food, and they burn whatever they find the next morning. Some families formally sell any leftover leavened food to a non-Jew until the holiday ends.",
+      "r": "For 10 points, name this Jewish holiday when matzah is eaten in place of bread and the Exodus is retold."
+    },
+    {
+      "p": "To make sure the dough never has time to rise, the flat bread for this holiday must be mixed and baked within 18 minutes. That bread recalls how the Israelites left in such a hurry that their dough could not rise.",
+      "r": "That bread is matzah. For 10 points, name this Jewish holiday whose name comes from God “passing over” the Israelites’ homes."
+    },
+    {
+      "p": "Many Jews read the Song of Songs, a biblical poem full of springtime imagery, during this holiday, which begins on the 15th of Nisan [“nee-SAHN”]. The ritual meal on this holiday ends with the words “Next year in Jerusalem.”",
+      "r": "For 10 points, name this Jewish holiday that recalls Moses leading the Israelites out of Egypt."
+    },
+    {
+      "p": "In ancient times, this holiday was one of three pilgrimage festivals, along with Shavuot [“shah-voo-OHT”] and Sukkot [“soo-KOHT”], when people traveled to the Temple in Jerusalem. On this one, each household offered a lamb, which a roasted shank bone recalls today.",
+      "r": "It sits on the seder plate with an egg and bitter herbs. For 10 points, name this Jewish holiday when matzah is eaten."
+    },
+    {
+      "p": "At this holiday’s meal, a special cup of wine is filled for the prophet Elijah, and the front door is opened to welcome him. Everyone drinks four cups of wine or grape juice during the meal.",
+      "r": "Guests lean to one side as a sign of freedom. For 10 points, name this Jewish holiday that remembers the Exodus from Egypt."
+    },
+    {
+      "p": "The Gospels of Matthew, Mark, and Luke describe Jesus’s Last Supper as a meal for this holiday. In Greek and Latin, Easter is called “Pascha” [“PAHS-kah”], a word that comes from this holiday’s Hebrew name.",
+      "r": "For 10 points, name this Jewish holiday when families eat matzah at a seder and retell the Exodus."
+    },
+    {
+      "p": "In the song “Dayenu” [“dye-AY-noo”], sung during this holiday’s meal, each verse names a gift from God and repeats that it “would have been enough.” That meal is called a seder, the Hebrew word for “order,” because it follows a set order of steps.",
+      "r": "For 10 points, name this Jewish holiday when families eat matzah and retell how Moses led the Israelites out of Egypt."
+    },
+    {
+      "p": "During this holiday’s meal, people spill a drop of wine for each of the ten plagues, including blood, frogs, and locusts, to show that their joy is lessened by the Egyptians’ suffering. Those plagues struck Egypt after Pharaoh refused to let the Israelites go.",
+      "r": "This holiday’s English name comes from the tenth plague, when God spared the Israelites’ homes. For 10 points, name this spring Jewish holiday celebrated with a seder."
+    },
+    {
+      "p": "Early in this holiday’s meal, people dip karpas [“KAR-pahs”], a green vegetable such as parsley, into salt water that stands for tears. Later, children hunt for the afikoman [“ah-fee-KOH-mahn”], a hidden piece of matzah that is the last food eaten that night.",
+      "r": "For 10 points, name this Jewish holiday that recalls the Exodus from Egypt and lasts seven or eight days."
+    },
+    {
+      "p": "In the Book of Exodus, God tells the Israelites to eat the first meal of this holiday in a hurry, with their sandals on and walking staffs in hand, after marking their doorposts with a lamb’s blood. That meal came on the night of the tenth plague.",
+      "r": "For 10 points, name this Jewish holiday when families hold a seder and eat matzah to remember the Exodus."
+    }
+  ],
+  "clues": [
+    {
+      "id": "exodus",
+      "tier": "giveaway",
+      "t": "Celebrates the Exodus, when Moses led the Israelites out of slavery in Egypt",
+      "k": [
+        "exodus",
+        "moses",
+        "egypt"
+      ],
+      "n": 6,
+      "rabbit": "Moses"
+    },
+    {
+      "id": "seder",
+      "tier": "giveaway",
+      "t": "Families hold a seder, a ritual meal, on the first night (or first two nights)",
+      "k": [
+        "seder",
+        "meal"
+      ],
+      "n": 6
+    },
+    {
+      "id": "matzah",
+      "tier": "giveaway",
+      "t": "People eat matzah, a flat bread made without yeast, instead of leavened bread",
+      "k": [
+        "matzah",
+        "matzo",
+        "yeast",
+        "flat"
+      ],
+      "n": 5
+    },
+    {
+      "id": "eight-days",
+      "tier": "giveaway",
+      "t": "Lasts seven days in Israel and eight days for many Jews elsewhere, in the spring",
+      "k": [
+        "eight days",
+        "seven days",
+        "spring"
+      ],
+      "n": 1
+    },
+    {
+      "id": "four-questions",
+      "tier": "middle",
+      "t": "The youngest child asks the Four Questions, starting “Why is this night different from all other nights?”",
+      "k": [
+        "four questions",
+        "youngest",
+        "ma nishtana"
+      ],
+      "n": 5
+    },
+    {
+      "id": "haggadah",
+      "tier": "middle",
+      "t": "The Haggadah (“telling”) is the book read at the seder to retell the story",
+      "k": [
+        "haggadah",
+        "telling"
+      ],
+      "n": 3
+    },
+    {
+      "id": "maror",
+      "tier": "middle",
+      "t": "Bitter herbs (maror), often horseradish, recall the bitterness of slavery",
+      "k": [
+        "bitter herbs",
+        "maror",
+        "horseradish"
+      ],
+      "n": 3
+    },
+    {
+      "id": "nisan",
+      "tier": "middle",
+      "t": "Begins on the 15th day of Nisan, in March or April",
+      "k": [
+        "nisan",
+        "15th",
+        "fifteenth"
+      ],
+      "n": 2
+    },
+    {
+      "id": "afikoman",
+      "tier": "middle",
+      "t": "The afikoman, a hidden piece of matzah, is found by the children and eaten as the last food of the night",
+      "k": [
+        "afikoman",
+        "afikomen",
+        "hidden"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ten-plagues",
+      "tier": "middle",
+      "t": "People spill a drop of wine for each of the ten plagues",
+      "k": [
+        "ten plagues",
+        "plagues",
+        "drop"
+      ],
+      "n": 1
+    },
+    {
+      "id": "passed-over",
+      "tier": "middle",
+      "t": "Its English name: God “passed over” the Israelites’ homes, marked with lamb’s blood, during the tenth plague",
+      "k": [
+        "passed over",
+        "doorposts",
+        "lamb"
+      ],
+      "n": 1
+    },
+    {
+      "id": "seder-plate",
+      "tier": "middle",
+      "t": "The seder plate holds symbolic foods: a roasted shank bone, a roasted egg, bitter herbs, charoset, and a green vegetable",
+      "k": [
+        "seder plate",
+        "shank bone",
+        "egg",
+        "karpas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elijah",
+      "tier": "middle",
+      "t": "A cup of wine is poured for the prophet Elijah, and the door is opened to welcome him",
+      "k": [
+        "elijah",
+        "cup",
+        "door"
+      ],
+      "n": 0
+    },
+    {
+      "id": "last-supper",
+      "tier": "middle",
+      "t": "Matthew, Mark, and Luke describe Jesus’s Last Supper as a meal for this holiday; Easter is “Pascha” in Greek",
+      "k": [
+        "last supper",
+        "pascha",
+        "easter",
+        "jesus"
+      ],
+      "n": 0,
+      "rabbit": "The Last Supper"
+    },
+    {
+      "id": "dayenu",
+      "tier": "power",
+      "t": "“Dayenu” (“It would have been enough”) thanks God for each gift of the Exodus",
+      "k": [
+        "dayenu",
+        "enough"
+      ],
+      "n": 3
+    },
+    {
+      "id": "chad-gadya",
+      "tier": "power",
+      "t": "The seder ends with songs like “Chad Gadya” (“One Little Goat”) and “Echad Mi Yodea” (“Who Knows One?”)",
+      "k": [
+        "chad gadya",
+        "had gadya",
+        "goat"
+      ],
+      "n": 2
+    },
+    {
+      "id": "omer",
+      "tier": "power",
+      "t": "The Counting of the Omer starts on its second night: 49 days counted up to Shavuot",
+      "k": [
+        "counting of the omer",
+        "omer",
+        "49 days",
+        "shavuot"
+      ],
+      "n": 2,
+      "rabbit": "Shavuot"
+    },
+    {
+      "id": "four-cups",
+      "tier": "power",
+      "t": "Four cups of wine (or grape juice); people recline, leaning to one side as a sign of freedom",
+      "k": [
+        "four cups",
+        "recline",
+        "lean"
+      ],
+      "n": 1
+    },
+    {
+      "id": "four-sons",
+      "tier": "power",
+      "t": "The Haggadah’s four sons: one wise, one wicked, one simple, and one who does not know how to ask",
+      "k": [
+        "four sons",
+        "wicked",
+        "simple"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hillel",
+      "tier": "power",
+      "t": "Hillel’s sandwich puts bitter herbs between matzah; charoset, a sweet apple-and-nut paste, stands for the mortar of slavery",
+      "k": [
+        "hillel’s sandwich",
+        "hillel",
+        "charoset",
+        "mortar"
+      ],
+      "n": 1
+    },
+    {
+      "id": "haste",
+      "tier": "power",
+      "t": "Exodus 12: the first holiday meal was eaten in a hurry, with sandals on and walking staffs in hand",
+      "k": [
+        "sandals",
+        "staff",
+        "hurry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chametz",
+      "tier": "power",
+      "t": "The night before, families search the house for chametz (leavened food) by candlelight, then burn it",
+      "k": [
+        "chametz",
+        "search",
+        "burn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eighteen-minutes",
+      "tier": "power",
+      "t": "Matzah must be mixed and baked within 18 minutes so the dough cannot rise",
+      "k": [
+        "18 minutes",
+        "eighteen",
+        "rise"
+      ],
+      "n": 0
+    },
+    {
+      "id": "song-of-songs",
+      "tier": "power",
+      "t": "The Song of Songs, a biblical poem full of springtime imagery, is read during the holiday",
+      "k": [
+        "song of songs",
+        "song of solomon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pilgrimage",
+      "tier": "power",
+      "t": "One of three pilgrimage festivals (with Shavuot and Sukkot); in Temple times each household offered a lamb",
+      "k": [
+        "pilgrimage",
+        "lamb",
+        "temple"
+      ],
+      "n": 0
+    },
+    {
+      "id": "next-year-jerusalem",
+      "tier": "power",
+      "t": "The seder ends with the words “Next year in Jerusalem,” which also close Yom Kippur",
+      "k": [
+        "next year in jerusalem",
+        "jerusalem"
+      ],
+      "n": 0,
+      "rabbit": "Yom Kippur"
+    },
+    {
+      "id": "maxwell-house",
+      "tier": "power",
+      "t": "Since 1932, Maxwell House coffee has given away millions of copies of a Haggadah",
+      "k": [
+        "maxwell house",
+        "coffee",
+        "1932"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The meal isn’t the holiday",
+    "body": "Almost every clue describes the seder, the ritual meal with the Haggadah, the Four Questions, and the afikoman, so it is tempting to buzz “seder.” But the seder is the meal held on the holiday’s first night (or first two nights), not the holiday itself, and real answer lines accept “Passover seder” but not “seder” alone. Clues about the Last Supper can also tempt you to say “Easter.”",
+    "fix": "Name the holiday: “Passover” or “Pesach.” Say “seder” only when the question asks for “this meal” or “this ritual dinner.” Shavuot comes seven weeks later (the giving of the Torah), and Sukkot is the fall harvest festival of huts.",
+    "line": "Real answer line: <b><u>Passover</u></b> (or <u>Pesakh</u>; accept <u>Passover</u> seder)"
+  },
+  "freq": {
+    "rank": 6,
+    "count": 8,
+    "list": "Religion"
+  }
+}

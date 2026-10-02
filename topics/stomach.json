@@ -1,0 +1,357 @@
+{
+  "id": "stomach",
+  "name": "Stomach",
+  "mono": "STM",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Muscular digestive organ · Churns food with acid and enzymes",
+  "dates": "Sits in the upper left abdomen, below the diaphragm",
+  "briefing": "The stomach is a muscular, J-shaped organ that receives chewed food from the esophagus and churns it together with hydrochloric acid and digestive enzymes. Specialized cells in its lining produce that acid, along with a thick layer of mucus that keeps the stomach from digesting itself. After a few hours, the stomach has turned a meal into a thick, acidic liquid called chyme, which it releases bit by bit into the small intestine.",
+  "answerHtml": "<b><u>Stomach</u></b>",
+  "accept": [
+    "stomach"
+  ],
+  "prompt": [],
+  "reject": [
+    "esophagus",
+    "small intestine",
+    "intestine",
+    "duodenum",
+    "pancreas"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Science for Kids: The Acid Inside My Stomach",
+      "source": "Operation Ouch",
+      "url": "https://www.youtube.com/watch?v=5vT6JxFBktw",
+      "note": "Kids’ TV experiment on the acid your stomach uses to digest food"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The surprising cause of stomach ulcers",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=V_U6czbDHLE",
+      "note": "Animated story of how a germ, not stress, causes most stomach ulcers"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Digestive System, Part 2: Crash Course Anatomy & Physiology #34",
+      "source": "Crash Course Anatomy & Physiology",
+      "url": "https://www.youtube.com/watch?v=pqgcEIaXGME",
+      "note": "Chewing and swallowing, then the stomach’s acid, enzymes, and churning (older end)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "How your digestive system works",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=Og5xAdC8EUI",
+      "note": "The whole trip food takes, from mouth to large intestine"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Stomach Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Stomach",
+      "note": "Quick read: what the stomach does, common stomach problems, and animal stomachs"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Stomach",
+  "qb": {
+    "q": "stomach",
+    "found": 6,
+    "tip": "All 6 Middle School/Easy High School tossups are about this exact organ with no off-topic answer lines mixed in, repeatedly citing chyme, H. pylori ulcers, and intrinsic factor from parietal cells."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Barry Marshall won a Nobel Prize after deliberately drinking a culture of H. pylori bacteria to prove it could infect this organ and cause ulcers. A nerve network called Meissner’s plexus runs through the submucosa, one layer of this organ’s wall.",
+      "r": "Parietal cells in its lining release intrinsic factor, needed to absorb vitamin B12. For 10 points, name this organ that churns swallowed food with acid and enzymes."
+    },
+    {
+      "p": "Secreting acid here triggers an “alkaline tide,” a brief rise in blood pH as bicarbonate enters the bloodstream. Pepsin, the active enzyme formed from a precursor made here, belongs to a class of enzymes called aspartic proteases.",
+      "r": "Deep folds called rugae line its inner walls, letting it stretch after a big meal. For 10 points, name this digestive organ that turns food into a liquid called chyme."
+    },
+    {
+      "p": "The narrow region nearest the esophagus is called the cardia, while a dome-shaped region just beyond it is called the fundus. Unlike most of the digestive tract, this organ’s muscle layer has three sheets of smooth muscle instead of two, letting it churn food vigorously.",
+      "r": "A muscular valve called the pyloric sphincter controls the release of partly digested food into the small intestine. For 10 points, name this organ that digests food with hydrochloric acid."
+    },
+    {
+      "p": "The soft mass of chewed food that enters this organ is called a bolus, before being converted into a semi-liquid mixture. A hormone called gastrin, released by G cells in its lining, stimulates this organ to secrete more acid.",
+      "r": "Chief cells here secrete pepsinogen, which the organ’s own acid converts into the protein-digesting enzyme pepsin. For 10 points, name this organ that lies between the esophagus and small intestine."
+    },
+    {
+      "p": "Like the rest of the digestive tract, this organ’s wall has four main layers: mucosa, submucosa, muscularis, and serosa. A nerve network called Meissner’s plexus sits within its submucosa layer.",
+      "r": "The bacterium H. pylori can infect its lining and cause painful ulcers to form. For 10 points, name this digestive organ that converts food into a liquid called chyme."
+    },
+    {
+      "p": "Barry Marshall shared a Nobel Prize for showing that H. pylori bacteria, not stress alone, cause most ulcers in this organ. Its narrow entrance region, closest to the heart across the diaphragm, is called the cardia.",
+      "r": "A layer of mucus coats its inner walls, protecting its own tissue from the acid it produces. For 10 points, name this muscular organ that receives food from the esophagus."
+    },
+    {
+      "p": "Unlike most of the digestive tract, this organ’s muscularis has three layers of smooth muscle rather than two, allowing it to churn its contents vigorously. Deep folds called rugae line its walls and flatten out as it fills.",
+      "r": "Parietal cells here secrete intrinsic factor, needed to absorb vitamin B12, along with hydrochloric acid. For 10 points, name this digestive organ that produces the liquid chyme."
+    },
+    {
+      "p": "A hormone called gastrin, released by cells in this organ’s own lining, signals it to release more acid after a meal. Food first enters through a muscular valve called the cardiac sphincter, just below the esophagus.",
+      "r": "Chief cells secrete pepsinogen, an inactive precursor converted into the enzyme pepsin by this organ’s own acid. For 10 points, name this organ that churns food into chyme."
+    },
+    {
+      "p": "Pepsin, formed here from an inactive precursor, is classified as an aspartic protease that breaks down proteins. A dome-shaped upper region of this organ, called the fundus, bulges up beside where the esophagus enters.",
+      "r": "A thick layer of mucus coats its inner lining to protect it from its own hydrochloric acid. For 10 points, name this organ that digests food before passing it to the small intestine."
+    },
+    {
+      "p": "This organ’s submucosa contains a nerve network called Meissner’s plexus, part of the digestive tract’s own nervous system. Acid secretion here triggers a brief “alkaline tide” as bicarbonate is released into the blood.",
+      "r": "A muscular valve called the pyloric sphincter releases partly digested food into the small intestine. For 10 points, name this digestive organ that produces hydrochloric acid."
+    },
+    {
+      "p": "A muscular valve called the cardiac sphincter admits a chewed mass of food, or bolus, into this organ from the esophagus. Deep folds called rugae allow its walls to stretch considerably after a large meal.",
+      "r": "The bacterium H. pylori can infect its lining, leading to painful ulcers. For 10 points, name this digestive organ that converts food into chyme using acid and enzymes."
+    },
+    {
+      "p": "G cells in this organ’s lining release the hormone gastrin, which signals it to secrete more acid. Its wall, like the rest of the digestive tract, has four main layers, including a submucosa that houses Meissner’s plexus.",
+      "r": "Parietal cells here secrete intrinsic factor for vitamin B12 absorption and hydrochloric acid for digestion. For 10 points, name this organ that lies below the esophagus."
+    },
+    {
+      "p": "This organ’s entrance region, named the cardia for its nearness to the heart, leads into a dome-shaped fundus. Barry Marshall famously drank H. pylori bacteria to prove they caused ulcers in this organ.",
+      "r": "Chief cells secrete pepsinogen, which this organ’s acid converts into the enzyme pepsin. For 10 points, name this digestive organ that produces the liquid mixture chyme."
+    },
+    {
+      "p": "Unlike most of the digestive tract, this organ has three layers of smooth muscle rather than two, letting it mix food thoroughly. A thick coat of mucus protects its lining from the hydrochloric acid it produces.",
+      "r": "A muscular valve, the pyloric sphincter, releases chyme bit by bit into the small intestine. For 10 points, name this organ that digests food after it leaves the esophagus."
+    },
+    {
+      "p": "A hormone called gastrin stimulates this organ to secrete more acid after a meal, while deep folds called rugae let its walls expand to hold that meal. Pepsin, formed here from pepsinogen, is an aspartic protease that breaks down proteins.",
+      "r": "Parietal cells in its lining secrete both hydrochloric acid and intrinsic factor. For 10 points, name this muscular digestive organ that turns food into chyme."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The digestive organ that receives food from the esophagus and churns it with acid and enzymes before passing it to the small intestine",
+      "k": [
+        "esophagus",
+        "small intestine"
+      ],
+      "n": 6
+    },
+    {
+      "id": "hcl-digestion",
+      "tier": "giveaway",
+      "t": "Produces hydrochloric acid and enzymes that break proteins apart as part of digestion",
+      "k": [
+        "hydrochloric acid",
+        "enzymes"
+      ],
+      "n": 5
+    },
+    {
+      "id": "chyme",
+      "tier": "giveaway",
+      "t": "Turns swallowed food into a semi-liquid mixture called chyme before releasing it bit by bit into the small intestine",
+      "k": [
+        "chyme"
+      ],
+      "n": 4
+    },
+    {
+      "id": "mucus-protection",
+      "tier": "giveaway",
+      "t": "A layer of mucus coats its inner walls, protecting its own tissue from the strong acid it produces",
+      "k": [
+        "mucus",
+        "protecting"
+      ],
+      "n": 3
+    },
+    {
+      "id": "h-pylori",
+      "tier": "middle",
+      "t": "The bacterium H. pylori can infect its lining and cause painful ulcers to form",
+      "k": [
+        "h pylori",
+        "ulcers"
+      ],
+      "n": 4
+    },
+    {
+      "id": "parietal-intrinsic-factor",
+      "tier": "middle",
+      "t": "Parietal cells in its lining release intrinsic factor, a protein needed to absorb vitamin B12",
+      "k": [
+        "parietal cells",
+        "intrinsic factor"
+      ],
+      "n": 3
+    },
+    {
+      "id": "chief-cells-pepsinogen",
+      "tier": "middle",
+      "t": "Chief cells secrete pepsinogen, an inactive precursor that its own acid converts into the protein-digesting enzyme pepsin",
+      "k": [
+        "chief cells",
+        "pepsinogen",
+        "pepsin"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fundus-region",
+      "tier": "middle",
+      "t": "Its upper, dome-shaped region is called the fundus, just beyond where food first enters from the esophagus",
+      "k": [
+        "fundus"
+      ],
+      "n": 3
+    },
+    {
+      "id": "rugae",
+      "tier": "middle",
+      "t": "Deep folds called rugae line its inner walls, allowing it to stretch and expand after a large meal",
+      "k": [
+        "rugae"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pyloric-sphincter",
+      "tier": "middle",
+      "t": "A muscular valve called the pyloric sphincter controls the release of partly digested food into the small intestine",
+      "k": [
+        "pyloric sphincter"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cardiac-sphincter",
+      "tier": "middle",
+      "t": "Food first enters through a muscular valve called the cardiac sphincter, just below the esophagus",
+      "k": [
+        "cardiac sphincter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "barry-marshall",
+      "tier": "power",
+      "t": "Barry Marshall won a Nobel Prize after deliberately drinking a culture of H. pylori to prove it caused ulcers in this organ",
+      "k": [
+        "barry marshall",
+        "nobel prize"
+      ],
+      "n": 1
+    },
+    {
+      "id": "alkaline-tide",
+      "tier": "power",
+      "t": "Secreting acid here triggers an “alkaline tide,” a brief rise in blood pH as bicarbonate enters the bloodstream",
+      "k": [
+        "alkaline tide"
+      ],
+      "n": 1
+    },
+    {
+      "id": "meissners-plexus",
+      "tier": "power",
+      "t": "Its submucosa, one layer of its wall, contains a nerve network called Meissner’s plexus",
+      "k": [
+        "meissner’s plexus",
+        "submucosa"
+      ],
+      "n": 1
+    },
+    {
+      "id": "aspartic-protease",
+      "tier": "power",
+      "t": "Pepsin, the active enzyme formed here from a precursor, belongs to a class of enzymes called aspartic proteases",
+      "k": [
+        "aspartic proteases"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cardia-region",
+      "tier": "power",
+      "t": "The narrow region nearest the esophagus is called the cardia, named for its closeness to the heart across the diaphragm",
+      "k": [
+        "cardia"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bolus-term",
+      "tier": "power",
+      "t": "The soft mass of chewed food that enters it is called a bolus, before being converted into chyme",
+      "k": [
+        "bolus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gastrin-hormone",
+      "tier": "power",
+      "t": "A hormone called gastrin, released by G cells in its lining, stimulates it to release more acid",
+      "k": [
+        "gastrin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-wall-layers",
+      "tier": "power",
+      "t": "Like the rest of the digestive tract, its wall has four main layers: mucosa, submucosa, muscularis, and serosa",
+      "k": [
+        "mucosa",
+        "muscularis",
+        "serosa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-muscle-layers",
+      "tier": "power",
+      "t": "Unlike most of the digestive tract, its muscularis has three layers of smooth muscle instead of two, letting it churn food vigorously",
+      "k": [
+        "three layers",
+        "smooth muscle"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which digestive organ?",
+    "body": "Several nearby organs get mixed up with this one: the esophagus delivers food into it, the small intestine (starting with the duodenum) receives what it releases, and the pancreas sits behind it adding its own digestive juices further downstream. Clues about swallowing or a simple tube belong to the esophagus, and clues about nutrient absorption or villi belong to the small intestine, not this organ.",
+    "fix": "If the clues mention churning food into chyme, hydrochloric acid, pepsin, or H. pylori ulcers, that is this organ. If the clues mention swallowing a bolus into a tube, that is the esophagus; if they mention absorbing nutrients further down the digestive tract, that is the small intestine.",
+    "line": "Real answer line: <b><u>Stomach</u></b>."
+  },
+  "tests": {
+    "right": [
+      "Stomach",
+      "stomach",
+      "Stomache",
+      "Stomachs"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Esophagus",
+      "Small intestine",
+      "Duodenum",
+      "Pancreas",
+      "Intestine"
+    ]
+  },
+  "freq": {
+    "rank": 10,
+    "count": 6,
+    "list": "Biology"
+  }
+}

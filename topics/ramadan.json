@@ -1,0 +1,468 @@
+{
+  "id": "ramadan",
+  "name": "Ramadan",
+  "mono": "RM",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Islam’s holy month of fasting · Marks the Quran’s first revelation",
+  "dates": "Ninth month of the Islamic year",
+  "briefing": "During Ramadan, Muslims around the world go without food or drink from dawn until sunset as an act of worship, then break the fast together at a sunset meal called iftar, often starting with a date. Muslims believe the Quran was first revealed during this month, on the Night of Power. Because the Islamic calendar follows the moon, Ramadan starts about 11 days earlier each year, and it ends with the joyful festival of Eid al-Fitr.",
+  "answerHtml": "<b><u>Ramadan</u></b> [or <u>Ramazan</u> or <u>Ramadhan</u>; prompt on <u>fasting</u>, <u>sawm</u>, <u>Night of Power</u>, <u>Laylat al-Qadr</u>, or <u>Eid al-Fitr</u>; do not accept “Eid al-Adha”]",
+  "accept": [
+    "ramadan",
+    "ramazan",
+    "ramadhan",
+    "ramzan",
+    "ramathan",
+    "ramadaan"
+  ],
+  "prompt": [
+    "night of power",
+    "laylat al qadr",
+    "lailat al qadr",
+    "laylatul qadr",
+    "lailatul qadr",
+    "qadr night",
+    "night of decree",
+    "night of destiny",
+    "eid al fitr",
+    "eid ul fitr",
+    "fasting",
+    "fast",
+    "sawm"
+  ],
+  "reject": [
+    "eid",
+    "eid al adha",
+    "eid ul adha",
+    "hajj",
+    "yom kippur",
+    "lent",
+    "shawwal",
+    "shaban",
+    "dhu al hijjah",
+    "muharram",
+    "iftar",
+    "suhoor",
+    "suhur"
+  ],
+  "tests": {
+    "right": [
+      "Ramadan",
+      "Ramazan",
+      "Ramadhan",
+      "Ramdan",
+      "the holy month of Ramadan"
+    ],
+    "prompt": [
+      "Night of Power",
+      "Laylat al-Qadr",
+      "Eid al-Fitr",
+      "fasting",
+      "sawm"
+    ],
+    "wrong": [
+      "Eid al-Adha",
+      "Hajj",
+      "Yom Kippur",
+      "Lent",
+      "Shawwal"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is Ramadan? | Explainer | Newsround",
+      "source": "BBC Newsround",
+      "url": "https://www.youtube.com/watch?v=Qa2f7gdP4vw",
+      "note": "Short · BBC’s kids’ news explainer of the month"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "7 things you need to know about Ramadan | Newsround",
+      "source": "BBC Newsround",
+      "url": "https://www.youtube.com/watch?v=Bd4Sh-nOdJo",
+      "note": "Short · seven quick facts about the month"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is Ramadan? | Newsround | CBBC",
+      "source": "CBBC",
+      "url": "https://www.youtube.com/watch?v=WNey5Rqv30g",
+      "note": "Short · another kid-friendly Newsround explainer"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The longest vs shortest fasting hours: Ramadan North and South | Al Jazeera World Documentary",
+      "source": "Al Jazeera English",
+      "url": "https://www.youtube.com/watch?v=4kCx1R_V8A0",
+      "note": "Documentary · how long the daily fast lasts in the far north and the far south"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Five Pillars of Islam | Religions of the World",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=H9U8T8x1AhQ",
+      "note": "Short · the five core duties of Islam, including fasting in this month"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Faith and the Moon: Why astronomy dates Lent and Ramadan",
+      "source": "Cambridge University",
+      "url": "https://www.youtube.com/watch?v=jIvWfCTU10I",
+      "note": "How the moon sets the dates of the month (and of Christian Lent)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Ramadan",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Ramadan/353696",
+      "note": "Quick read: fasting, iftar, the Night of Power, and Eid al-Fitr"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Ramadan",
+  "qb": {
+    "q": "Ramadan",
+    "found": 8,
+    "tip": "One of the eight results is a 2020 tossup whose answer was “fasting,” with this month used only as a clue, so read each answer line before you buzz."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups that came up for this answer line (Middle School + Easy High School, power-marked; 1 of them wanted “fasting”)"
+  },
+  "tossups": [
+    {
+      "p": "A verse in the Quran’s second surah, “The Cow,” says believers may eat and drink at night during this month until the white thread of dawn can be told apart from the black thread. The same surah calls this the month in which the Quran was sent down as guidance.",
+      "r": "Each evening, families break the day’s fast with a meal called iftar. For 10 points, name this ninth month of the Islamic calendar, when Muslims fast from dawn to sunset."
+    },
+    {
+      "p": "During this month, many mosques hold extra night prayers called tarawih [“tah-rah-WEE”], and some recite one juz’ [“JOOZ”], or one-thirtieth of the Quran, each night so the whole book is finished by the month’s end. A meal called suhoor [“suh-HOOR”] is eaten before dawn on each day of this month.",
+      "r": "It ends with the feast of Eid al-Fitr. For 10 points, name this Islamic holy month of daytime fasting."
+    },
+    {
+      "p": "On the 17th day of this month in the year 624, Muhammad’s outnumbered followers defeated an army from Mecca at the Battle of Badr [“BAH-der”]. Muslims believe the angel Gabriel first revealed the Quran to Muhammad during this month, on the Night of Power.",
+      "r": "This month ends with the festival of Eid al-Fitr. For 10 points, name this ninth month of the Islamic year, when Muslims fast from dawn to sunset."
+    },
+    {
+      "p": "Egypt’s 1973 attack across the Suez Canal was code-named Operation Badr, and it began on the tenth day of this month, which that year fell on the Jewish holy day of Yom Kippur. That war is also named after this month, which includes the Night of Power.",
+      "r": "Muslims eat a meal called iftar at sunset on each day of this month. For 10 points, name this Islamic holy month of fasting."
+    },
+    {
+      "p": "A short chapter of the Quran says that one night in this month is “better than a thousand months” and that angels come down on that night, which is peace until dawn. Many Muslims seek that night among the odd-numbered nights of this month’s last ten days, especially the 27th.",
+      "r": "That night, Laylat al-Qadr [“LAY-lat al-KAH-der”], marks the first revelation of the Quran. For 10 points, name this Islamic month of fasting that ends with Eid al-Fitr."
+    },
+    {
+      "p": "Following Muhammad’s example, some Muslims spend the last ten days of this month in i’tikaf [“ih-tih-KAHF”], a retreat inside a mosque for prayer and reading the Quran. Those last ten nights are believed to include the Night of Power, when the Quran was first revealed.",
+      "r": "Muslims eat suhoor before dawn and iftar after sunset during this month. For 10 points, name this ninth month of the Islamic calendar."
+    },
+    {
+      "p": "Before a special prayer at the end of this month, Muslims give a charity called zakat al-fitr [“zuh-KAHT al-FIT-er”] so that poor families can celebrate too. That celebration falls on the first day of Shawwal [“shah-WAHL”], the month that follows this one.",
+      "r": "That festival, Eid al-Fitr, is the “Festival of Breaking the Fast.” For 10 points, name this Islamic holy month, when Muslims fast during daylight hours."
+    },
+    {
+      "p": "Muslims who miss days of this month’s main religious duty because of illness or travel must make them up later, and those who never can may instead give fidya [“FID-yah”] by feeding a needy person for each missed day. Young children and the elderly are excused from that duty.",
+      "r": "That duty, the pillar of sawm, means fasting from dawn to sunset. For 10 points, name this ninth month of the Islamic calendar."
+    },
+    {
+      "p": "This month comes after Sha’ban [“shah-BAHN”] and before Shawwal [“shah-WAHL”]. Because it follows a lunar calendar, this month begins about 11 days earlier each year on the Gregorian calendar, so over about 33 years it passes through every season.",
+      "r": "It ends with the feast of Eid al-Fitr. For 10 points, name this month in which Muslims fast from dawn to sunset."
+    },
+    {
+      "p": "Following a tradition that Muhammad broke his fast with dates and water, many Muslims begin their sunset meal during this month with a date. Before the first light of dawn, they eat another meal called suhoor [“suh-HOOR”].",
+      "r": "That sunset meal is called iftar. For 10 points, name this ninth month of the Islamic calendar, whose fast is one of the Five Pillars of Islam."
+    },
+    {
+      "p": "In the year 630, Muhammad’s followers took control of Mecca with almost no fighting during this month. Six years earlier, also during this month, they had won the Battle of Badr [“BAH-der”]. Muslims believe the Quran was first revealed to Muhammad during this month.",
+      "r": "For 10 points, name this Islamic holy month, which ends with the festival of Eid al-Fitr."
+    },
+    {
+      "p": "Muslims believe that during this month, while Muhammad was meditating in a cave on Mount Hira [“hih-RAH”], the angel Gabriel came to him and commanded him to “Read!” The Quran calls the night of that first revelation “better than a thousand months.”",
+      "r": "Muslims mark this month by fasting from dawn to sunset. For 10 points, name this ninth month of the Islamic calendar."
+    },
+    {
+      "p": "The Quran tells believers that one practice “is prescribed to you as it was prescribed to those before you” and then names this month as the time for it. Travelers and the sick may skip that practice and make up the days later.",
+      "r": "During this month, Muslims eat and drink nothing, not even water, from dawn until sunset. For 10 points, name this ninth month of the Islamic calendar."
+    },
+    {
+      "p": "A pillar of Islam whose Arabic name, sawm, means “to refrain” is mainly carried out during this month. Many Muslims also give extra charity during this month and try to read the entire Quran before it ends.",
+      "r": "Each day of this month, Muslims eat suhoor before dawn and iftar after sunset. For 10 points, name this Islamic holy month of fasting."
+    },
+    {
+      "p": "In many countries, moon-sighting committees watch the western sky after sunset to spot the hilal [“hih-LAHL”], a thin crescent moon whose sighting begins and ends this month. As a result, this month lasts either 29 or 30 days, and its last ten nights include Laylat al-Qadr.",
+      "r": "This month ends with the feast of Eid al-Fitr. For 10 points, name this ninth Islamic month, when Muslims fast from dawn to sunset."
+    }
+  ],
+  "clues": [
+    {
+      "id": "ninth-month",
+      "tier": "giveaway",
+      "t": "Ninth and holiest month of the Islamic calendar, which follows the moon",
+      "k": [
+        "ninth",
+        "ninth month",
+        "holy month"
+      ],
+      "n": 7
+    },
+    {
+      "id": "dawn-to-sunset",
+      "tier": "giveaway",
+      "t": "As an act of worship, Muslims fast from dawn to sunset each day: no food or drink, not even water",
+      "k": [
+        "dawn to sunset",
+        "dawn",
+        "sunset",
+        "worship"
+      ],
+      "n": 7
+    },
+    {
+      "id": "eid-al-fitr",
+      "tier": "giveaway",
+      "t": "Ends with Eid al-Fitr, the “Festival of Breaking the Fast”",
+      "k": [
+        "eid al-fitr",
+        "eid",
+        "fitr"
+      ],
+      "n": 7,
+      "rabbit": "Eid al-Fitr"
+    },
+    {
+      "id": "iftar",
+      "tier": "giveaway",
+      "t": "Each day’s fast is broken at sunset with a meal called iftar, often shared with family and friends",
+      "k": [
+        "iftar",
+        "sunset meal"
+      ],
+      "n": 8
+    },
+    {
+      "id": "sawm",
+      "tier": "middle",
+      "t": "Its fast, called sawm (“to refrain”), is one of the Five Pillars of Islam, often listed fourth",
+      "k": [
+        "sawm",
+        "siyam",
+        "fourth pillar"
+      ],
+      "n": 5,
+      "rabbit": "Five Pillars of Islam"
+    },
+    {
+      "id": "suhoor",
+      "tier": "middle",
+      "t": "Suhoor (or suhur) is the meal eaten before dawn, before the day’s fast begins",
+      "k": [
+        "suhoor",
+        "suhur",
+        "predawn meal"
+      ],
+      "n": 5
+    },
+    {
+      "id": "night-of-power",
+      "tier": "middle",
+      "t": "Laylat al-Qadr, the Night of Power, falls in its last ten nights; many observe it on the 27th",
+      "k": [
+        "laylat al-qadr",
+        "night of power",
+        "qadr",
+        "27th"
+      ],
+      "n": 5
+    },
+    {
+      "id": "quran-revealed",
+      "tier": "middle",
+      "t": "Muslims believe the angel Gabriel (Jibril) first revealed the Quran to Muhammad during this month",
+      "k": [
+        "gabriel",
+        "jibril",
+        "quran",
+        "first revelation"
+      ],
+      "n": 3,
+      "rabbit": "Muhammad"
+    },
+    {
+      "id": "exemptions",
+      "tier": "middle",
+      "t": "Children, the sick, travelers, the elderly, and pregnant or nursing mothers do not have to fast",
+      "k": [
+        "children",
+        "sick",
+        "travelers",
+        "elderly",
+        "exempt"
+      ],
+      "n": 2
+    },
+    {
+      "id": "crescent-moon",
+      "tier": "middle",
+      "t": "Begins and ends with the sighting of a new crescent moon (hilal), so it lasts 29 or 30 days",
+      "k": [
+        "crescent moon",
+        "crescent",
+        "hilal",
+        "new moon"
+      ],
+      "n": 2
+    },
+    {
+      "id": "white-thread",
+      "tier": "power",
+      "t": "The fast begins when a white thread can be told from a black thread at dawn, a rule from the surah “The Cow” (al-Baqarah)",
+      "k": [
+        "white thread",
+        "black thread",
+        "thread",
+        "the cow",
+        "baqarah"
+      ],
+      "n": 3
+    },
+    {
+      "id": "prescribed",
+      "tier": "power",
+      "t": "The Quran says fasting “is prescribed to you as it was prescribed to those before you” (verse 2:183)",
+      "k": [
+        "prescribed",
+        "2:183"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tarawih",
+      "tier": "power",
+      "t": "Tarawih: extra night prayers held in mosques during this month",
+      "k": [
+        "tarawih",
+        "taraweeh",
+        "extra prayers"
+      ],
+      "n": 3
+    },
+    {
+      "id": "juz",
+      "tier": "power",
+      "t": "Many mosques recite one juz’ (one-thirtieth of the Quran) each night, finishing the whole book by the month’s end",
+      "k": [
+        "juz",
+        "one-thirtieth",
+        "thirtieth"
+      ],
+      "n": 1
+    },
+    {
+      "id": "shaban-shawwal",
+      "tier": "power",
+      "t": "Comes after Sha’ban and before Shawwal, the month that begins with Eid al-Fitr",
+      "k": [
+        "shaban",
+        "sha’ban",
+        "shawwal"
+      ],
+      "n": 3
+    },
+    {
+      "id": "dates",
+      "tier": "power",
+      "t": "Many Muslims break each day’s fast by eating dates, following Muhammad’s example",
+      "k": [
+        "dates",
+        "date"
+      ],
+      "n": 1
+    },
+    {
+      "id": "zakat-al-fitr",
+      "tier": "power",
+      "t": "Zakat al-Fitr: charity given before the Eid prayer so poor families can celebrate too",
+      "k": [
+        "zakat al-fitr",
+        "zakat",
+        "charity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "thousand-months",
+      "tier": "power",
+      "t": "The Quran’s Surah al-Qadr says the Night of Power is “better than a thousand months”",
+      "k": [
+        "thousand months",
+        "al-qadr",
+        "surah 97"
+      ],
+      "n": 0
+    },
+    {
+      "id": "itikaf",
+      "tier": "power",
+      "t": "I’tikaf: a retreat in a mosque for prayer during the last ten days, as Muhammad did",
+      "k": [
+        "i’tikaf",
+        "itikaf",
+        "retreat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "badr",
+      "tier": "power",
+      "t": "The Battle of Badr (624) and the conquest of Mecca (630) both took place during this month",
+      "k": [
+        "badr",
+        "624",
+        "630"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Badr"
+    },
+    {
+      "id": "fidya",
+      "tier": "power",
+      "t": "Missed fast days are made up later; people who can never fast give fidya, feeding a needy person for each day",
+      "k": [
+        "fidya",
+        "needy",
+        "make up"
+      ],
+      "n": 0
+    },
+    {
+      "id": "october-war",
+      "tier": "power",
+      "t": "The 1973 war that began on Yom Kippur is also named for this month; Egypt called its attack Operation Badr",
+      "k": [
+        "1973",
+        "yom kippur",
+        "operation badr",
+        "october war"
+      ],
+      "n": 0,
+      "rabbit": "Yom Kippur"
+    }
+  ],
+  "trap": {
+    "title": "Month, fast, or feast?",
+    "body": "The same clues (iftar, sawm, Eid al-Fitr) show up in tossups with different answers. One real 2020 tossup wanted “fasting,” the practice, and used this month only as a clue. Eid al-Fitr is the feast that ends the month, and real answer lines say do not accept Eid al-Adha, the Feast of the Sacrifice held during the Hajj season.",
+    "fix": "Listen for the noun. “This month” or “this period” means the month. “This action” or “this practice” means fasting (sawm). “This festival” or “this feast” means an Eid: breaking the fast and Shawwal point to Eid al-Fitr, while Abraham’s sacrifice and the Hajj point to Eid al-Adha.",
+    "line": "Real answer line: <b><u>Ramadan</u></b> [or <u>Ramazan</u> or <u>Ramathan</u> or <u>Ramzan</u>; prompt on <u>Night of Power</u>, <u>Qadr Night</u>, or <u>Eid al-Fitr</u> before they are read by asking “What longer period does that happen during?”; do NOT accept or prompt on “Eid al-Adha”]"
+  },
+  "freq": {
+    "rank": 3,
+    "count": 9,
+    "list": "Religion"
+  }
+}

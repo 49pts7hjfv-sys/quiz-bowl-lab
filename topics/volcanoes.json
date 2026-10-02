@@ -1,0 +1,398 @@
+{
+  "id": "volcanoes",
+  "name": "Volcanoes",
+  "mono": "VOL",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Vents where magma erupts from Earth’s crust · Common on the Ring of Fire",
+  "dates": "About 1,500 potentially active ones exist on Earth today",
+  "briefing": "A volcano is an opening in Earth’s crust where molten rock, ash, and gas escape from deep underground. Mount Vesuvius buried the Roman city of Pompeii in ash in the year 79, and Krakatoa’s 1883 eruption was heard thousands of miles away. Most of them cluster along the Pacific Ring of Fire, where shifting tectonic plates give magma a path to the surface.",
+  "answerHtml": "<b><u>Volcanoes</u></b> (accept <u>volcano</u> or <u>volcanic eruptions</u>; accept shield volcano, cinder-cone volcano, etc.)",
+  "accept": [
+    "volcano",
+    "volcanoes",
+    "shield volcano",
+    "shield volcanoes",
+    "cinder cone volcano",
+    "cinder cone volcanoes",
+    "composite volcano",
+    "composite volcanoes",
+    "stratovolcano",
+    "stratovolcanoes",
+    "active volcano",
+    "active volcanoes",
+    "volcanic eruption",
+    "volcanic eruptions"
+  ],
+  "prompt": [],
+  "reject": [
+    "earthquake",
+    "earthquakes",
+    "mantle",
+    "magma",
+    "lava",
+    "crater",
+    "craters",
+    "caldera",
+    "calderas",
+    "geyser",
+    "geysers",
+    "ring of fire"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Every Kind of Volcano",
+      "source": "SciShow Kids",
+      "url": "https://www.youtube.com/watch?v=0jKoOUZ1GBM",
+      "note": "Kid-friendly tour of the different kinds of volcanoes"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Volcanoes 101",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=VNGUdObDoLk",
+      "note": "What makes volcanoes erupt and the main kinds of volcanoes"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The colossal consequences of supervolcanoes - Alex Gendler",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=hDNlu7Qf6_E",
+      "note": "Animated lesson on supervolcanoes and what a super-eruption would do"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Mountains and Volcanoes! | SciShow Kids Compilation",
+      "source": "SciShow Kids",
+      "url": "https://www.youtube.com/watch?v=VXINWLn57sE",
+      "note": "Longer compilation of SciShow Kids episodes on mountains and volcanoes"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Earth Science for Kids: Volcanoes",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/volcanoes.php",
+      "note": "Quick read: magma vs. lava and the main types (cinder cone, composite, shield), plus a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Volcano",
+  "qb": {
+    "q": "volcano",
+    "found": 8,
+    "tip": "The Science-category filter kept results on-topic; one of the 8 (2021 CERES) specifically wants “volcanic eruptions” as the event rather than “volcanoes” as the landform, which became the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "NASA’s Dawn spacecraft found evidence that the dwarf planet Ceres may host an icy version of this kind of landform, one that releases cold, watery material instead of molten rock. Jupiter’s moon Io is covered in hundreds of active examples of this feature, which help give its surface a distinctive mottled color.",
+      "r": "The largest known example in the solar system, Mars’s Olympus Mons, is a shield-type one of these that may still be active. For 10 points, name these geologic openings that erupt with lava, ash, and gas."
+    },
+    {
+      "p": "Eruptions from one of these structures can be classified as Plinian or Strombolian, depending on how explosive they are. Fast-moving, wet mudslides called lahars can rush down the sides of one of these features, which can also release a smooth, ropy kind of lava called pahoehoe [“pa-HOH-ay-HOH-ay”].",
+      "r": "Underground pressure builds in a magma chamber until it bursts out of these structures, launching ash and rock called tephra. For 10 points, name these cone-shaped openings in Earth’s crust that erupt with lava."
+    },
+    {
+      "p": "Vertical pipes called diatremes and the bowl-shaped craters called maars can form near one of these structures. Consolidated ash from this kind of structure hardens into a rock called tuff, while cooling lava from it can become obsidian or pumice.",
+      "r": "Shield and cinder-cone are two common shapes for this kind of structure. For 10 points, name these geologic structures that erupt with lava, ash, and gas from inside the Earth."
+    },
+    {
+      "p": "In the year 79, Mount Vesuvius buried the Roman city of Pompeii under ash during a catastrophic eruption. Centuries later, in 1980, the radio message “Vancouver, this is it” announced the start of a similarly destructive eruption from Mount St. Helens.",
+      "r": "That 1980 eruption caused the largest landslide ever recorded. For 10 points, name these mountain-like openings in Earth’s crust from which lava and ash erupt."
+    },
+    {
+      "p": "Most of these structures form along the boundaries of tectonic plates, clustering heavily around the Pacific Ring of Fire. Away from plate edges, rising columns of hot mantle rock called plumes can still create one of these features at a hotspot, as beneath Hawaii’s Mauna Loa and Kilauea.",
+      "r": "These structures release built-up pressure from underground magma chambers. For 10 points, name these mountain-like openings in Earth’s crust that erupt with lava, ash, and gas."
+    },
+    {
+      "p": "In 1883, the Indonesian island of Krakatoa produced one of the loudest eruptions in recorded history from one of these features, audible thousands of miles away. The Philippines’ Mayon is famous for its nearly perfect cone shape, a classic example of the steep-sided “strato” type of this structure.",
+      "r": "These structures are found heavily around the Pacific Ring of Fire. For 10 points, name these openings in Earth’s crust through which lava, ash, and gas erupt."
+    },
+    {
+      "p": "A superheated mixture of gas and rock called a pyroclastic flow can race down the sides of one of these structures during a major eruption. A massive eruption from one of these features at what is now Yellowstone National Park left behind a giant caldera.",
+      "r": "Lava from this kind of structure can cool into a natural glass called obsidian or a lightweight, bubbly rock called pumice. For 10 points, name these geologic features that erupt with molten rock."
+    },
+    {
+      "p": "Low-viscosity basalt flows can build a broad, gently sloped shield-type version of this structure, while thicker lava and ash build steeper cinder-cone and composite types. Hawaiian lava from this kind of structure can take the form of smooth pahoehoe or jagged a‘a [“AH-ah”].",
+      "r": "These structures can also leave behind calderas after a particularly powerful eruption empties their magma chamber. For 10 points, name these geologic structures, including Mount Vesuvius and Mauna Loa, that erupt with lava."
+    },
+    {
+      "p": "Material launched from one of these structures during an explosive eruption is classified by size into ash, lapilli, and larger pyroclastic blocks, together called tephra. The Philippines’ Mayon, a steep strato-type example of this structure, is famous for its symmetrical cone.",
+      "r": "The shield type of this structure instead forms from gently flowing basalt, as at Hawaii’s Mauna Loa. For 10 points, name these structures from which lava, ash, and gas erupt."
+    },
+    {
+      "p": "Named for the Hawaiian goddess of these features, Pele is an especially active example found on Jupiter’s moon Io. In our own solar system, the largest known example of this kind of structure, Mars’s Olympus Mons, formed from low-viscosity basalt flows into a broad shield shape.",
+      "r": "On Earth, Hawaii’s Mauna Loa is a shield-type example of this kind of structure. For 10 points, name these geologic features that include a vent or rupture through which gas, ash, and lava erupt."
+    },
+    {
+      "p": "A sudden, explosive Plinian-type eruption from one of these structures can send a pyroclastic flow of superheated gas and ash racing down its slopes, while meltwater and ash can combine into a fast, deadly mudflow called a lahar.",
+      "r": "Pressure builds inside an underground magma chamber until it finally escapes through this structure. For 10 points, name these cone-shaped geologic structures that erupt with lava and ash."
+    },
+    {
+      "p": "Vertical pipes called diatremes and the bowl-shaped craters that they leave behind, called maars, are both associated with this kind of structure. Ash expelled from one of these features can harden over time into a rock called tuff.",
+      "r": "Cooling lava from this structure forms igneous rocks such as basalt, obsidian, and pumice. For 10 points, name these openings in Earth’s crust through which magma reaches the surface."
+    },
+    {
+      "p": "Most of these structures are found at the edges of tectonic plates, especially around the Pacific Ring of Fire, though some form instead over stationary hotspots far from any plate boundary. Hawaii’s chain of islands grew from exactly this kind of hotspot activity.",
+      "r": "These structures can be shield-shaped, like Mauna Loa, or steep cinder cones. For 10 points, name these mountain-like structures that erupt with lava, ash, and gas from inside the Earth."
+    },
+    {
+      "p": "Mount Vesuvius famously destroyed the Roman city of Pompeii in the year 79 when ash and pyroclastic flows buried it. A massive ancient eruption from this kind of structure beneath what is now Yellowstone left behind one of the largest calderas on the continent.",
+      "r": "These structures release pressure that builds inside underground magma chambers. For 10 points, name these openings in Earth’s crust that violently erupt with lava and ash."
+    },
+    {
+      "p": "These geologic structures form where magma from deep underground finds a path to Earth’s surface, often at the boundary between two tectonic plates. When pressure builds high enough inside an underground magma chamber, one of these structures can erupt, releasing lava, ash, and gas.",
+      "r": "Famous examples include Mount Vesuvius in Italy and Mauna Loa in Hawaii. For 10 points, name these cone-shaped openings in Earth’s crust."
+    }
+  ],
+  "clues": [
+    {
+      "id": "opening-crust",
+      "tier": "giveaway",
+      "t": "An opening in Earth’s crust where magma, ash, and gas reach the surface",
+      "k": [
+        "opening",
+        "magma"
+      ],
+      "n": 2
+    },
+    {
+      "id": "magma-chamber",
+      "tier": "giveaway",
+      "t": "Erupts with lava, ash, and gas when pressure builds in an underground magma chamber",
+      "k": [
+        "magma chamber"
+      ],
+      "n": 3
+    },
+    {
+      "id": "shield-cinder-composite",
+      "tier": "giveaway",
+      "t": "Comes in types like shield, cinder-cone, and composite, based on shape and lava type",
+      "k": [
+        "shield",
+        "cinder-cone",
+        "composite"
+      ],
+      "n": 4
+    },
+    {
+      "id": "ring-of-fire",
+      "tier": "giveaway",
+      "t": "Clusters heavily along the Pacific Ring of Fire, where tectonic plates meet",
+      "k": [
+        "ring of fire"
+      ],
+      "n": 2,
+      "rabbit": "Earthquakes"
+    },
+    {
+      "id": "pyroclastic-flow",
+      "tier": "giveaway",
+      "t": "A fast-moving cloud of superheated gas and ash called a pyroclastic flow can race down its sides",
+      "k": [
+        "pyroclastic flow"
+      ],
+      "n": 4
+    },
+    {
+      "id": "caldera",
+      "tier": "middle",
+      "t": "A massive eruption can empty its magma chamber and leave behind a collapsed caldera",
+      "k": [
+        "caldera"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lahars",
+      "tier": "middle",
+      "t": "Meltwater mixing with ash can rush downhill as a fast, destructive mudflow called a lahar",
+      "k": [
+        "lahar"
+      ],
+      "n": 2
+    },
+    {
+      "id": "pahoehoe-aa",
+      "tier": "middle",
+      "t": "Hawaiian-style lava can form smooth pahoehoe or jagged, chunky a‘a",
+      "k": [
+        "pahoehoe"
+      ],
+      "n": 3
+    },
+    {
+      "id": "tephra",
+      "tier": "middle",
+      "t": "Rock and ash launched into the air during an eruption are together called tephra",
+      "k": [
+        "tephra"
+      ],
+      "n": 4
+    },
+    {
+      "id": "mantle-plumes",
+      "tier": "middle",
+      "t": "Can form away from plate boundaries at a hotspot, above a rising column of hot mantle rock called a plume",
+      "k": [
+        "hotspot",
+        "plume"
+      ],
+      "n": 1,
+      "rabbit": "Mantle"
+    },
+    {
+      "id": "plinian-strombolian",
+      "tier": "middle",
+      "t": "Explosive eruptions are classified by style, including Plinian and Strombolian types",
+      "k": [
+        "plinian",
+        "strombolian"
+      ],
+      "n": 2
+    },
+    {
+      "id": "plate-boundaries",
+      "tier": "middle",
+      "t": "Most form along the boundaries where tectonic plates meet",
+      "k": [
+        "tectonic plates"
+      ],
+      "n": 1
+    },
+    {
+      "id": "obsidian-pumice",
+      "tier": "middle",
+      "t": "Cooling lava can harden into a natural glass called obsidian or a light, bubbly rock called pumice",
+      "k": [
+        "obsidian",
+        "pumice"
+      ],
+      "n": 1
+    },
+    {
+      "id": "olympus-mons",
+      "tier": "power",
+      "t": "Mars’s Olympus Mons, a giant shield-shaped example, is the largest known one in the solar system",
+      "k": [
+        "olympus mons"
+      ],
+      "n": 2
+    },
+    {
+      "id": "io-pele",
+      "tier": "power",
+      "t": "Jupiter’s moon Io hosts hundreds of active examples, including one named Pele after the Hawaiian goddess",
+      "k": [
+        "io",
+        "pele"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ceres-cryovolcano",
+      "tier": "power",
+      "t": "Evidence from NASA’s Dawn mission suggests the dwarf planet Ceres may host icy versions that release cold, watery material instead of molten rock",
+      "k": [
+        "ceres",
+        "dawn mission",
+        "icy versions"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mayon",
+      "tier": "power",
+      "t": "In the Philippines, Mayon is a steep, nearly perfectly conical strato-type example",
+      "k": [
+        "mayon"
+      ],
+      "n": 2
+    },
+    {
+      "id": "diatremes-maars",
+      "tier": "power",
+      "t": "Can leave behind vertical pipes called diatremes and bowl-shaped craters called maars",
+      "k": [
+        "diatremes",
+        "maars"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tuff",
+      "tier": "power",
+      "t": "Consolidated ash from eruptions hardens over time into a rock called tuff",
+      "k": [
+        "tuff"
+      ],
+      "n": 2
+    },
+    {
+      "id": "vesuvius-pompeii",
+      "tier": "power",
+      "t": "Mount Vesuvius buried the Roman city of Pompeii in ash in the year 79",
+      "k": [
+        "vesuvius",
+        "pompeii"
+      ],
+      "n": 0
+    },
+    {
+      "id": "krakatoa",
+      "tier": "power",
+      "t": "The 1883 eruption of Indonesia’s Krakatoa produced one of the loudest sounds ever recorded",
+      "k": [
+        "krakatoa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mauna-loa-kilauea",
+      "tier": "power",
+      "t": "Hawaii’s Mauna Loa and Kilauea are both shield-type examples built from runny basalt lava",
+      "k": [
+        "mauna loa",
+        "kilauea"
+      ],
+      "n": 3
+    }
+  ],
+  "trap": {
+    "title": "Volcano, or volcanic eruption?",
+    "body": "Some real sets ask specifically about the event of erupting (“volcanic eruptions”) rather than the mountain-like structure itself (“volcanoes”), especially when the clues describe one historic disaster like Mount St. Helens in 1980. Both answers are accepted here, but a sharp player notices the difference: the landform sits there for centuries, while an eruption is one specific event.",
+    "fix": "If the clues describe one dramatic moment, like a famous radio message or a single landslide, lean toward “volcanic eruption.” If the clues describe the shape, parts, or general behavior of the mountain itself, say “volcano.” Also remember that magma is the molten rock before it reaches the surface and lava is the same rock afterward — neither word alone is the answer to “name this structure.”",
+    "line": "Real answer lines: <b><u>Volcanoes</u></b> [accept shield volcano, cinder-cone volcano, etc.] on most sets, and <b><u>Volcanic eruptions</u></b> [accept anything indicating volcanoes and erupting] on at least one real set — both accepted here"
+  },
+  "tests": {
+    "right": [
+      "Volcanoes",
+      "volcano",
+      "Volcanos",
+      "Shield volcano",
+      "Volcanic eruption"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Earthquake",
+      "Mantle",
+      "Magma",
+      "Crater",
+      "Caldera"
+    ]
+  },
+  "freq": {
+    "rank": 3,
+    "count": 6,
+    "list": "Earth Science"
+  }
+}

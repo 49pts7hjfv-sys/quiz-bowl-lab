@@ -1,0 +1,416 @@
+{
+  "id": "statue-of-liberty",
+  "name": "Statue of Liberty",
+  "mono": "SOL",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Colossal statue in New York Harbor · France’s gift of liberty to America",
+  "dates": "Dedicated 1886",
+  "briefing": "In 1886, France gave the United States a gift too big to wrap: a copper woman more than fifteen stories tall, holding a torch over New York Harbor. Her sculptor had first dreamed up a giant lighthouse for Egypt’s Suez Canal, and the iron skeleton inside her copper skin was engineered by Gustave Eiffel — years before he built a certain tower in Paris.",
+  "answerHtml": "<b><u>Statue of Liberty</u></b> (accept <u>Liberty Enlightening the World</u>)",
+  "accept": [
+    "statue of liberty",
+    "lady liberty",
+    "liberty enlightening the world"
+  ],
+  "prompt": [
+    "liberty"
+  ],
+  "reject": [
+    "eiffel tower",
+    "liberty bell",
+    "statue of freedom",
+    "colossus of rhodes",
+    "mount rushmore",
+    "liberty island"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Statue of Liberty’s History in 90 Seconds",
+      "source": "TIME",
+      "url": "https://www.youtube.com/watch?v=YE1xZ6aAPmw",
+      "note": "90 sec · quick history of France’s gift to the United States"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The History of the Statue of Liberty",
+      "source": "Mr. DeMaio",
+      "url": "https://www.youtube.com/watch?v=ApMxShXamaI",
+      "note": "Teacher-made history of how the statue was designed, built, and brought to New York Harbor"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "History of the Statue of Liberty Explained",
+      "source": "News 12",
+      "url": "https://www.youtube.com/watch?v=4SkOpDC4iGk",
+      "note": "News explainer on the statue’s origins, its symbols, and what it has come to mean"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Bringing the Parks to You: Statue of Liberty National Monument",
+      "source": "National Parks Conservation Association",
+      "url": "https://www.youtube.com/watch?v=OiXBOvKApWs",
+      "note": "Virtual visit to the monument on Liberty Island"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Statue of Liberty Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Statue_of_Liberty",
+      "note": "Quick read: how it was designed, built, and dedicated, and its later history"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+  "qb": {
+    "q": "Statue of Liberty",
+    "found": 1,
+    "tip": "Only one real Middle School/Easy High School tossup came up, and the Regular High School search found none — most of this topic’s facts come from well-established general knowledge rather than reused real clues."
+  },
+  "sample": {
+    "n": 1,
+    "note": "the 1 real QBReader tossup for this answer line (power-marked) — too few came back to build a full clue bank, so most facts here are well-documented general knowledge, not reused real clue text"
+  },
+  "tossups": [
+    {
+      "p": "This sculpture’s design recycled an earlier, rejected project: a lighthouse called “Egypt Carrying the Light to Asia” that its creator had proposed for the entrance to the Suez Canal at Port Said. An eleven-pointed star fort forms part of its 154-foot pedestal.",
+      "r": "A broken chain and shackle lie half-hidden by its robes at its feet. For 10 points, name this colossal statue in New York Harbor, a gift from France."
+    },
+    {
+      "p": "Gustave Eiffel engineered the iron skeleton inside this statue’s copper skin, years before he built a much taller tower in Paris. French sculptor Frédéric Auguste Bartholdi designed the statue itself, which was dismantled into crates and reassembled after crossing the Atlantic.",
+      "r": "It was dedicated on October 28, 1886. For 10 points, name this statue of a robed woman holding a torch in New York Harbor."
+    },
+    {
+      "p": "A 1903 bronze plaque at this statue’s base carries a sonnet written twenty years earlier for a fundraising auction, including the line “Give me your tired, your poor.” That poem, Emma Lazarus’s “The New Colossus,” nicknames this statue’s figure “Mother of Exiles.”",
+      "r": "The statue’s tablet reads “JULY IV MDCCLXXVI” in Roman numerals. For 10 points, name this statue that has welcomed immigrants to New York Harbor since 1886."
+    },
+    {
+      "p": "Architect Richard Morris Hunt designed this statue’s granite pedestal, which was partly funded by small donations collected through Joseph Pulitzer’s newspaper, the _New York World_. Over 120,000 people gave money, most of it less than a dollar each.",
+      "r": "Sculptor Frédéric Auguste Bartholdi had reused an earlier lighthouse design meant for Egypt. For 10 points, name this statue that France gave to the United States in 1886."
+    },
+    {
+      "p": "This statue’s current torch, installed in a 1986 renovation, is an exact replica of the original covered in 24-karat gold leaf. Its seven crown spikes are popularly said to stand for the seven seas and continents, though historians have not confirmed that symbolism.",
+      "r": "Gustave Eiffel engineered its internal iron frame. For 10 points, name this statue that stands on Liberty Island in New York Harbor."
+    },
+    {
+      "p": "Before designing this statue, French sculptor Frédéric Auguste Bartholdi had proposed a similar giant lighthouse, shaped like a robed peasant woman, for the entrance to the Suez Canal. Egypt’s ruler rejected that design as too costly.",
+      "r": "This statue instead became a gift from France honoring the two countries’ alliance during the American Revolution. For 10 points, name this copper statue holding a torch in New York Harbor."
+    },
+    {
+      "p": "Workers assembled this statue’s copper skin over an iron framework engineered by Gustave Eiffel, who later designed a much taller Paris landmark. From ground level to the tip of its torch, this statue measures about 305 feet.",
+      "r": "Its copper surface, now green from oxidation, was originally a shiny brown color. For 10 points, name this statue dedicated in New York Harbor in 1886."
+    },
+    {
+      "p": "A broken chain and shackle rest at this statue’s feet, half-hidden by its robes, symbolizing freedom from oppression. The statue itself stands 151 feet tall, not counting its pedestal, which rises from the star-shaped walls of an old fort.",
+      "r": "Emma Lazarus’s sonnet “The New Colossus” is engraved on a plaque inside its base. For 10 points, name this statue of a woman holding a torch and tablet in New York Harbor."
+    },
+    {
+      "p": "Before this statue existed, its sculptor Frédéric Auguste Bartholdi tried to interest Egypt in a similar lighthouse statue for the Suez Canal. Funds for this statue’s pedestal came partly from pennies and dimes collected by Joseph Pulitzer’s newspaper.",
+      "r": "Its tablet reads “JULY IV MDCCLXXVI,” marking American independence in Roman numerals. For 10 points, name this statue France gave the United States, dedicated in 1886."
+    },
+    {
+      "p": "This statue’s internal iron support structure, engineered by Gustave Eiffel, had to survive being shipped across the Atlantic Ocean in pieces inside more than 200 crates. Its sculptor had first imagined a similar robed figure for the Suez Canal in Egypt.",
+      "r": "For 10 points, name this statue of a woman holding a torch and a tablet reading “JULY IV MDCCLXXVI,” which stands in New York Harbor."
+    },
+    {
+      "p": "This statue’s pedestal was designed by architect Richard Morris Hunt and rises from the star-shaped walls of an old fort. The poet Emma Lazarus wrote a sonnet to help raise money for that pedestal, decades before the poem was actually placed inside it.",
+      "r": "That sonnet calls this statue’s figure the “Mother of Exiles.” For 10 points, name this statue on Liberty Island, holding a torch over New York Harbor."
+    },
+    {
+      "p": "This statue’s thin copper skin, no thicker than two pennies stacked together, covers an iron framework strong enough to withstand ocean winds. Sculptor Frédéric Auguste Bartholdi had earlier proposed a similar robed figure as a lighthouse for the Suez Canal.",
+      "r": "Gustave Eiffel engineered that internal ironwork. For 10 points, name this statue dedicated on October 28, 1886, that France gave to the United States."
+    },
+    {
+      "p": "A chain lies broken at this statue’s feet, and its crown bears seven spikes often said to represent the seas and continents. Architect Richard Morris Hunt designed the granite pedestal on which it stands, raised partly by Joseph Pulitzer’s newspaper campaign.",
+      "r": "This statue’s tablet is inscribed with the date of American independence in Roman numerals. For 10 points, name this statue holding a torch over New York Harbor."
+    },
+    {
+      "p": "Sculptor Bartholdi recycled the concept for this statue from an unbuilt Egyptian lighthouse. It was planned for the 1876 centennial of American independence, honoring the wartime alliance between the United States and the country that gave it.",
+      "r": "Gustave Eiffel designed the iron skeleton that still supports its copper skin today. For 10 points, name this statue in New York Harbor."
+    },
+    {
+      "p": "Emma Lazarus’s 1883 poem about this statue was not actually placed on a plaque at its base until 1903, seventeen years after the statue’s own dedication. That poem describes this statue’s figure holding “a torch, whose flame is the imprisoned lightning.”",
+      "r": "For 10 points, name this statue in New York Harbor, gift of France, sculpted by Frédéric Auguste Bartholdi."
+    }
+  ],
+  "clues": [
+    {
+      "id": "liberty-island-location",
+      "tier": "giveaway",
+      "t": "Stands on Liberty Island in New York Harbor",
+      "k": [
+        "liberty island",
+        "new york",
+        "harbor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "france-gift",
+      "tier": "giveaway",
+      "t": "A gift from France to the United States",
+      "k": [
+        "france",
+        "gift",
+        "united states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "torch-tablet",
+      "tier": "giveaway",
+      "t": "Holds a torch in one hand and a tablet in the other",
+      "k": [
+        "torch",
+        "tablet",
+        "holds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "official-name",
+      "tier": "giveaway",
+      "t": "Its official name describes Liberty as “enlightening,” or lighting up, the world",
+      "k": [
+        "official name",
+        "enlightening",
+        "world"
+      ],
+      "n": 0
+    },
+    {
+      "id": "broken-chain",
+      "tier": "giveaway",
+      "t": "A broken chain and shackle lie at her feet, symbolizing freedom",
+      "k": [
+        "broken chain",
+        "shackle",
+        "freedom"
+      ],
+      "n": 1
+    },
+    {
+      "id": "eiffel-frame",
+      "tier": "middle",
+      "t": "Engineer Gustave Eiffel designed its internal iron frame",
+      "k": [
+        "eiffel",
+        "iron frame",
+        "engineer"
+      ],
+      "n": 1,
+      "rabbit": "Eiffel Tower"
+    },
+    {
+      "id": "bartholdi-sculptor",
+      "tier": "middle",
+      "t": "Sculpted by the French artist Frédéric Auguste Bartholdi",
+      "k": [
+        "bartholdi",
+        "sculpted",
+        "french artist"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dedicated-1886",
+      "tier": "middle",
+      "t": "Dedicated on October 28, 1886",
+      "k": [
+        "dedicated",
+        "october",
+        "1886"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lazarus-poem",
+      "tier": "middle",
+      "t": "Emma Lazarus’s sonnet “The New Colossus” is engraved on a plaque at its base",
+      "k": [
+        "emma lazarus",
+        "new colossus",
+        "plaque"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tablet-date",
+      "tier": "middle",
+      "t": "Its tablet reads “JULY IV MDCCLXXVI,” July 4, 1776, in Roman numerals",
+      "k": [
+        "tablet",
+        "roman numerals",
+        "july"
+      ],
+      "n": 0
+    },
+    {
+      "id": "star-fort-pedestal",
+      "tier": "middle",
+      "t": "Stands atop an eleven-pointed star fort that forms part of its pedestal",
+      "k": [
+        "star fort",
+        "eleven pointed",
+        "pedestal"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hunt-pulitzer",
+      "tier": "middle",
+      "t": "Pedestal designed by architect Richard Morris Hunt, funded partly by Joseph Pulitzer’s newspaper campaign",
+      "k": [
+        "richard morris hunt",
+        "pulitzer",
+        "newspaper"
+      ],
+      "n": 0
+    },
+    {
+      "id": "suez-lighthouse",
+      "tier": "power",
+      "t": "Design recycled Bartholdi’s earlier, unbuilt lighthouse proposed for the Suez Canal’s entrance at Port Said, Egypt",
+      "k": [
+        "suez canal",
+        "port said",
+        "lighthouse"
+      ],
+      "n": 1,
+      "rabbit": "Suez Canal"
+    },
+    {
+      "id": "crown-spikes",
+      "tier": "power",
+      "t": "Her crown’s seven spikes are popularly said to represent the seven seas and continents, though this is not confirmed",
+      "k": [
+        "crown",
+        "seven spikes",
+        "continents"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dismantled-shipped",
+      "tier": "power",
+      "t": "Built in France, taken apart, and shipped across the Atlantic in over 200 crates for reassembly",
+      "k": [
+        "dismantled",
+        "crates",
+        "atlantic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "copper-patina",
+      "tier": "power",
+      "t": "Made of copper sheets, originally shiny brown, now green from oxidation",
+      "k": [
+        "copper",
+        "oxidation",
+        "brown"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heights",
+      "tier": "power",
+      "t": "Stands 151 feet tall alone, or about 305 feet from ground to torch including the pedestal",
+      "k": [
+        "151 feet",
+        "305 feet",
+        "pedestal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "torch-1986",
+      "tier": "power",
+      "t": "Current gold-leaf torch dates from a 1986 restoration for the statue’s centennial",
+      "k": [
+        "gold leaf",
+        "1986",
+        "restoration"
+      ],
+      "n": 0
+    },
+    {
+      "id": "centennial-alliance",
+      "tier": "power",
+      "t": "Commemorated the centennial of American independence and the wartime Franco-American alliance",
+      "k": [
+        "centennial",
+        "independence",
+        "alliance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mother-of-exiles",
+      "tier": "power",
+      "t": "Nicknamed “Mother of Exiles” in Lazarus’s poem, reflecting her welcome to immigrants arriving nearby at Ellis Island",
+      "k": [
+        "mother of exiles",
+        "immigrants",
+        "ellis island"
+      ],
+      "n": 0
+    },
+    {
+      "id": "national-monument",
+      "tier": "power",
+      "t": "Administered today as a National Monument by the National Park Service",
+      "k": [
+        "national monument",
+        "park service"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fort-wood-site",
+      "tier": "power",
+      "t": "Pedestal rises from the walls of Fort Wood, an old star shaped army fort",
+      "k": [
+        "fort wood",
+        "army fort",
+        "star shaped"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Eiffel, or the Eiffel Tower?",
+    "body": "Gustave Eiffel engineered the Statue of Liberty’s internal iron frame years before he built his famous tower in Paris. A clue naming “Gustave Eiffel” describes this statue, not the Eiffel Tower itself — a very easy, very common early-buzz mistake.",
+    "fix": "If the clues mention New York Harbor, a torch, a tablet, or Bartholdi, the answer is the statue. Eiffel only engineered its skeleton; he did not design the statue itself, and the Eiffel Tower is a completely separate French landmark he built later.",
+    "line": "Real answer line: <b><u>Statue of Liberty</u></b> (accept <u>Liberty Enlightening the World</u>)"
+  },
+  "tests": {
+    "right": [
+      "Statue of Liberty",
+      "the Statue of Liberty",
+      "Lady Liberty",
+      "Staue of Liberty",
+      "Liberty Enlightening the World"
+    ],
+    "prompt": [
+      "Liberty"
+    ],
+    "wrong": [
+      "Eiffel Tower",
+      "Liberty Bell",
+      "Statue of Freedom",
+      "Colossus of Rhodes",
+      "Mount Rushmore"
+    ]
+  },
+  "freq": {
+    "rank": 96,
+    "count": 2,
+    "list": "Fine Arts"
+  }
+}

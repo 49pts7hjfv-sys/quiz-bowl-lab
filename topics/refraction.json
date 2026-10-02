@@ -1,0 +1,371 @@
+{
+  "id": "refraction",
+  "name": "Refraction",
+  "mono": "RFR",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Bending of a wave entering a new material · Why straws look broken",
+  "dates": "Water’s bending number: about 1.33",
+  "briefing": "Refraction is the bending that happens when a wave like light slows down or speeds up while crossing from one material into another, such as air into water. It is why a straw in a glass of water looks snapped in two and why a prism spreads white light into a rainbow. Snell’s law, a rule connecting the bending angle to a fixed number for each material, describes exactly how much a wave bends.",
+  "answerHtml": "<b><u>Refraction</u></b>",
+  "accept": [
+    "refraction",
+    "refracting",
+    "index of refraction",
+    "refractive index",
+    "angle of refraction"
+  ],
+  "prompt": [],
+  "reject": [
+    "reflection",
+    "diffraction",
+    "rarefaction",
+    "dispersion",
+    "critical angle",
+    "brewsters angle",
+    "snells law"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Refraction of light | Physics - Bitesize Science",
+      "source": "BBC Bitesize",
+      "url": "https://www.youtube.com/watch?v=2X2U2y93nCk",
+      "note": "Class video · why light bends when it passes from one material into another"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Snell’s law & refractive index summary",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=qHzuhzk2eaY",
+      "note": "Summary of Snell’s law and the index of refraction (uses a little math)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Is Snell’s Law? | Optics Explained",
+      "source": "Thorlabs",
+      "url": "https://www.youtube.com/watch?v=behqmQHlAg8",
+      "note": "An optics company’s explainer on the law of refraction (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Refraction facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Refraction",
+      "note": "Kid-friendly encyclopedia page: light slowing and bending, refractive index, Snell’s law, prisms and rainbows"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Refraction",
+  "qb": {
+    "q": "refraction",
+    "found": 1,
+    "tip": "Only 1 Middle School/Easy High School tossup exists, but it and 3 Regular HS ones (out of 17 total, most of which actually want the related “index of refraction” or “angle” answer lines) agree closely on Snell’s law and birefringence; a “do not accept reflection or diffraction” rule shows up on the real answer line, and real reflection/diffraction tossups reject this answer right back."
+  },
+  "sample": {
+    "n": 4,
+    "note": "4 real QBReader tossups for this exact answer line (1 Middle School/Easy High School + 3 Regular High School, power-marked); several more results wanted the related but more specific “index of refraction” or “angle” answer lines instead and were not counted"
+  },
+  "tossups": [
+    {
+      "p": "Physicists used microwaves to demonstrate a rare “negative” version of this effect inside an engineered metamaterial. At one special angle, reflected light becomes fully polarized, a value equal to the arctangent of a ratio between two materials’ bending numbers and named for Brewster.",
+      "r": "Some crystals split light differently depending on its polarization, a “double” version of this effect called birefringence. For 10 points, name this effect in which a wave bends as it crosses from one material into another."
+    },
+    {
+      "p": "A law governing this effect can be derived from Fermat’s principle of least time, by imagining a lifeguard sprinting down the sand before swimming out to a drowning swimmer. This effect depends on polarization inside “birefringent” crystals like calcite.",
+      "r": "Past a steep enough angle, this effect stops happening entirely and a wave reflects back instead, the trick behind fiber optic cables. For 10 points, name this effect that makes a straw in a glass of water look bent at the surface."
+    },
+    {
+      "p": "Electro-optic effects named for Pockels and Kerr describe how a strong electric field can change how much a material produces this effect. For water, the fixed “bending number” behind this effect is about 1.33, found by comparing light’s speed there to its speed in a vacuum.",
+      "r": "Warm air near hot pavement can cause this effect too, creating the shimmering illusion of a mirage. For 10 points, name this effect in which a wave changes direction and speed while moving from one material into another."
+    },
+    {
+      "p": "A photography technique called Schlieren [“SHLEER-en”] constantly tracks tiny changes in this effect to make invisible airflow and rising heat visible on camera. Past a certain “critical” angle, calculated from the arcsine of a ratio between two bending numbers, a wave stops crossing over at all.",
+      "r": "A “double” version of this effect in some crystals is called birefringence. For 10 points, name this effect that makes a swimming pool or a fish underwater look closer to the surface than it really is."
+    },
+    {
+      "p": "Microwave experiments with engineered metamaterials demonstrated a rare “negative” form of this effect. Light reflecting off a surface becomes fully polarized at one special angle, equal to the arctangent of a ratio of two materials’ bending numbers and named for Brewster.",
+      "r": "This effect happens because light actually slows down when it enters a denser material like glass or water. For 10 points, name this effect described by Snell’s law, which relates the bending angle on each side to a fixed number for each material."
+    },
+    {
+      "p": "Fermat’s principle of least time can be used to derive a law behind this effect, often illustrated with a lifeguard choosing the fastest path to a swimmer. Birefringent materials such as calcite show a “double” version of this effect that depends on polarization.",
+      "r": "Eyeglasses, cameras, and telescopes all use curved lenses that control exactly how much this effect focuses light. For 10 points, name this bending of a wave’s path as it passes from one material into another."
+    },
+    {
+      "p": "Pockels and Kerr each have an electro-optic effect named for them, in which an applied electric field changes how strongly a material produces this effect. Past a critical angle found from the arcsine of a ratio of bending numbers, this effect gives way completely to reflection instead.",
+      "r": "A rare “negative” version of this effect was shown using microwaves in an engineered metamaterial. For 10 points, name this effect that bends a wave’s direction when it passes from one material into another, such as from air into water."
+    },
+    {
+      "p": "At the angle named for Brewster, equal to the arctangent of a ratio between two materials’ bending numbers, light reflecting off a surface becomes completely polarized. Crystals that show a “double” form of this effect depending on polarization, such as calcite, display birefringence.",
+      "r": "When this effect happens by a different amount for each wavelength of light, it is called dispersion, which is how a prism spreads white light into a full spectrum. For 10 points, name this bending effect that makes a pencil in a glass of water look broken."
+    },
+    {
+      "p": "A technique named Schlieren tracks small changes in this effect to photograph invisible heat and airflow. This effect’s law can be derived from Fermat’s principle of least time, often explained with a lifeguard who runs along the sand before swimming toward a drowning swimmer.",
+      "r": "Warm air above hot pavement bends light through this same effect, producing the shimmering look of a mirage. For 10 points, name this effect, described by Snell’s law, in which a wave bends while crossing into a new material."
+    },
+    {
+      "p": "Researchers showed a “negative” version of this effect using microwaves and a specially built metamaterial. This effect’s fixed bending number for water is close to 1.33, the ratio of light’s speed in a vacuum to its speed there.",
+      "r": "Eyeglass and camera lenses are shaped to carefully control this effect in order to focus light. For 10 points, name this effect in which a wave such as light changes speed and direction when entering a new material."
+    },
+    {
+      "p": "This effect gives way entirely to total reflection past a “critical” angle, equal to the arcsine of a ratio of two materials’ bending numbers. Birefringent crystals like calcite split light differently depending on polarization, a “double” form of this same effect.",
+      "r": "This effect happens because a wave actually slows down or speeds up when it enters a new material. For 10 points, name this effect that makes a straw in a cup of water appear bent at the surface."
+    },
+    {
+      "p": "Brewster’s angle, the value at which reflected light becomes fully polarized, equals the arctangent of a ratio between two materials’ fixed bending numbers tied to this effect. A rare “negative” version of this effect was demonstrated with microwaves in an engineered metamaterial.",
+      "r": "A prism spreading white light into a rainbow relies on this same effect. For 10 points, name this bending of a wave’s path as it passes between two different materials."
+    },
+    {
+      "p": "The Pockels and Kerr effects describe how an electric field can shift how strongly a material produces this effect. Fermat’s principle of least time can derive this effect’s governing law, often pictured as a lifeguard choosing the quickest path to a swimmer offshore.",
+      "r": "Fiber-optic cables rely on this effect giving way completely to reflection past a steep enough angle. For 10 points, name this effect in which light bends while crossing from one material into another, such as air into glass."
+    },
+    {
+      "p": "Calcite and other birefringent crystals split light differently by polarization, a “double” version of this effect. This effect’s bending numbers appear on both sides of Snell’s law, and their ratio’s arctangent gives the fully-polarizing angle named for Brewster.",
+      "r": "Light actually slows down when entering a denser material like glass or water, which is the real reason behind this effect. For 10 points, name this effect that makes a fish underwater look closer to the surface than it actually is."
+    },
+    {
+      "p": "A rare “negative” version of this effect appears in specially engineered metamaterials, first shown using microwaves. Warm air near hot pavement can also bend light through this effect, producing the shimmering look of a mirage.",
+      "r": "When this effect bends different wavelengths of light by slightly different amounts, it is called dispersion, which lets a prism spread white light into a spectrum. For 10 points, name this bending of a wave as it crosses from one material into another, described by Snell’s law."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Bends a wave’s direction and speed as it crosses from one material into another, like from air into water",
+      "k": [
+        "bends",
+        "crosses",
+        "material"
+      ],
+      "n": 3,
+      "rabbit": "Waves"
+    },
+    {
+      "id": "straw-in-water",
+      "tier": "giveaway",
+      "t": "Makes a straw or pencil in a glass of water look bent or snapped at the surface",
+      "k": [
+        "straw",
+        "pencil",
+        "bent"
+      ],
+      "n": 2
+    },
+    {
+      "id": "snells-law",
+      "tier": "giveaway",
+      "t": "Described by Snell’s law, which relates the bending angle on each side to a fixed number for each material",
+      "k": [
+        "snell",
+        "bending angle"
+      ],
+      "n": 4
+    },
+    {
+      "id": "prism-rainbow",
+      "tier": "giveaway",
+      "t": "A glass prism can spread ordinary white light into a rainbow using exactly this effect",
+      "k": [
+        "prism",
+        "rainbow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pool-illusion",
+      "tier": "giveaway",
+      "t": "Makes a swimming pool or a fish underwater look closer to the surface than it really is",
+      "k": [
+        "swimming pool",
+        "closer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "birefringence",
+      "tier": "middle",
+      "t": "A “double” version called birefringence happens in some crystals, splitting light differently by its polarization",
+      "k": [
+        "birefringence",
+        "crystals",
+        "polarization"
+      ],
+      "n": 3
+    },
+    {
+      "id": "mirage",
+      "tier": "middle",
+      "t": "Warm air near hot pavement can bend light this same way, creating the shimmering illusion of a mirage",
+      "k": [
+        "mirage",
+        "shimmering"
+      ],
+      "n": 1
+    },
+    {
+      "id": "why-it-bends",
+      "tier": "middle",
+      "t": "Happens because light actually slows down when it enters a denser material like glass or water",
+      "k": [
+        "slows down",
+        "denser"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lenses",
+      "tier": "middle",
+      "t": "Eyeglasses, cameras, and telescopes all use curved lenses that control exactly how much this effect focuses light",
+      "k": [
+        "lenses",
+        "focuses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fiber-optics",
+      "tier": "middle",
+      "t": "Past a steep enough angle it stops happening and the wave reflects back instead, the trick behind fiber optic cables",
+      "k": [
+        "fiber optic",
+        "reflects back"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bending-direction",
+      "tier": "middle",
+      "t": "Light bends toward the “normal” line when entering a denser material, and away from it when leaving one",
+      "k": [
+        "normal",
+        "denser"
+      ],
+      "n": 0
+    },
+    {
+      "id": "negative-refraction",
+      "tier": "power",
+      "t": "A rare “negative” version occurs in specially engineered metamaterials, first demonstrated using microwaves",
+      "k": [
+        "negative",
+        "metamaterials",
+        "microwaves"
+      ],
+      "n": 2
+    },
+    {
+      "id": "brewsters-angle",
+      "tier": "power",
+      "t": "At one special angle, reflected light becomes fully polarized, a value equal to the arctangent of a ratio between two materials’ bending numbers, named for Brewster",
+      "k": [
+        "polarized",
+        "brewster",
+        "arctangent"
+      ],
+      "n": 1
+    },
+    {
+      "id": "schlieren",
+      "tier": "power",
+      "t": "A photography technique called Schlieren [“SHLEER-en”] constantly tracks tiny changes in this effect to make invisible airflow and heat shimmer visible on camera",
+      "k": [
+        "schlieren",
+        "airflow"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pockels-kerr",
+      "tier": "power",
+      "t": "Specific electro-optic effects named Pockels and Kerr describe how a strong electric field can change how much a material does this to light",
+      "k": [
+        "pockels",
+        "kerr",
+        "electric field"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fermat",
+      "tier": "power",
+      "t": "One law governing this effect can be derived from Fermat’s principle of least time, by imagining a lifeguard sprinting down sand before swimming out to a drowning swimmer",
+      "k": [
+        "fermat",
+        "lifeguard"
+      ],
+      "n": 1
+    },
+    {
+      "id": "water-index",
+      "tier": "power",
+      "t": "For water, a material’s fixed bending number is about 1.33, found by comparing light’s speed there to its speed in a vacuum",
+      "k": [
+        "1.33",
+        "vacuum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "critical-angle",
+      "tier": "power",
+      "t": "Past a certain “critical” angle, calculated from the arcsine of a ratio between two bending numbers, the wave stops crossing over and reflects back completely instead",
+      "k": [
+        "critical",
+        "arcsine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dispersion",
+      "tier": "power",
+      "t": "Happening by a different amount for each wavelength of light, this effect is called dispersion when it spreads white light into a full spectrum through a prism",
+      "k": [
+        "dispersion",
+        "wavelength",
+        "spectrum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "speed-ratio",
+      "tier": "power",
+      "t": "A material’s exact bending power equals how much more slowly light travels inside it compared to empty space",
+      "k": [
+        "bending power",
+        "empty space"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Refraction, or reflection/diffraction?",
+    "body": "All three are things a wave can do at a boundary, and real tossups are strict about which one they want: a real refraction answer line explicitly says “do not accept reflection or diffraction,” while real reflection and diffraction tossups explicitly reject “refraction” right back. Reflection is light bouncing off a surface and staying in the same material; diffraction is a wave bending around obstacles or spreading out after a narrow slit, tested with the Davisson-Germer experiment and Bragg’s law.",
+    "fix": "If the clues describe a wave crossing into a new material and changing speed (Snell’s law, a bent straw, a lens), it is refraction. If a mirror or “angle of incidence equals angle of reflection” shows up, it is reflection. If slits, gratings, or spreading around an edge shows up, it is diffraction.",
+    "line": "Real answer line: <b><u>Refraction</u></b> (accept word forms; accept index of refraction; do not accept “reflection” or “diffraction”)"
+  },
+  "tests": {
+    "right": [
+      "Refraction",
+      "refraction",
+      "Refraktion",
+      "Index of Refraction"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Reflection",
+      "Diffraction",
+      "Dispersion",
+      "Snells Law",
+      "Brewsters Angle"
+    ]
+  },
+  "freq": {
+    "rank": 93,
+    "count": 1,
+    "list": "Physics"
+  }
+}

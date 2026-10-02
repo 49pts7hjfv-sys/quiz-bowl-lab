@@ -1,0 +1,460 @@
+{
+  "id": "book-of-revelation",
+  "name": "Book of Revelation",
+  "mono": "REV",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Last book of the New Testament · Visions of the end of the world",
+  "dates": "Written late 1st century CE",
+  "briefing": "The Book of Revelation is one of the most vivid books in the Bible. A man named John, on the Greek island of Patmos, describes visions of a scroll with seven seals, the Four Horsemen, a seven-headed red dragon, and the mysterious number 666, and the book ends with a shining New Jerusalem coming down from heaven. Its other name, the Apocalypse, comes from a Greek word meaning “unveiling.”",
+  "answerHtml": "Book of <b><u>Revelation</u></b> (accept <u>Apocalypse</u> of John; prompt on <u>New Testament</u> or <u>Bible</u>; do not accept or prompt on “Revelations”)",
+  "accept": [
+    "revelation",
+    "book of revelation",
+    "revelation of john",
+    "revelation to john",
+    "apocalypse of john",
+    "the apocalypse",
+    "apocalypse"
+  ],
+  "prompt": [
+    "new testament",
+    "bible",
+    "christian bible"
+  ],
+  "reject": [
+    "revelations",
+    "book of revelations",
+    "gospel of john",
+    "1 john",
+    "book of daniel",
+    "daniel",
+    "ezekiel",
+    "genesis",
+    "exodus",
+    "horsemen",
+    "four horsemen",
+    "apocalypse now",
+    "apocalypse of peter",
+    "revolution"
+  ],
+  "tests": {
+    "right": [
+      "Book of Revelation",
+      "Revelation",
+      "Revalation",
+      "Apocalypse of John",
+      "the Apocalypse",
+      "Revelation to John"
+    ],
+    "prompt": [
+      "New Testament",
+      "the Bible"
+    ],
+    "wrong": [
+      "Revelations",
+      "Book of Revelations",
+      "Book of Daniel",
+      "Gospel of John",
+      "Genesis",
+      "Exodus",
+      "Four Horsemen of the Apocalypse"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Book of Revelation Summary: A Complete Animated Overview (Part 1)",
+      "source": "BibleProject",
+      "url": "https://www.youtube.com/watch?v=5nvVVcYD-0w",
+      "note": "Animated overview of chapters 1–11, from a Christian Bible-study nonprofit"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Book of Revelation Summary: A Complete Animated Overview (Part 2)",
+      "source": "BibleProject",
+      "url": "https://www.youtube.com/watch?v=QpnIrbq2bKo",
+      "note": "Animated overview of chapters 12–22, through the new Jerusalem"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Was Nero the Antichrist? (and why early Christians thought he’d rise again)",
+      "source": "ReligionForBreakfast",
+      "url": "https://www.youtube.com/watch?v=ZjV0tq8kZAs",
+      "note": "A religious-studies scholar on why many readers linked this book’s beast to Emperor Nero"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Book of Revelation",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Book-of-Revelation/334444",
+      "note": "Student encyclopedia · who wrote it, its two parts, and how people read it"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Book_of_Revelation",
+  "qb": {
+    "q": "Revelation",
+    "found": 3,
+    "tip": "All 3 results are this book, so the sample adds 9 Regular High School tossups, and 11 of the 12 answer lines say “do not accept or prompt on Revelations.”"
+  },
+  "sample": {
+    "n": 12,
+    "note": "12 real QBReader tossups (3 Middle School/Easy High School + 9 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The narrator of this book is told by an angel to eat a little scroll, which tastes as sweet as honey in his mouth but turns bitter in his stomach. Earlier in this book, 144,000 people from the twelve tribes of Israel are sealed as servants of God.",
+      "r": "Seven angels blow seven trumpets after the seventh seal is opened in this book. For 10 points, name this last book of the New Testament."
+    },
+    {
+      "p": "When the third angel in this book blows his trumpet, a blazing star named Wormwood falls from heaven and turns a third of the rivers and springs bitter. At the second trumpet, something like a great burning mountain is thrown into the sea.",
+      "r": "Its author, John, says he saw its visions on the Greek island of Patmos. For 10 points, name this final book of the Bible."
+    },
+    {
+      "p": "In this book, the church in Laodicea [“lay-oh-dih-SEE-uh”] is scolded for being “lukewarm,” neither hot nor cold, while the church in Ephesus is told it has abandoned the love it had at first. The message to Laodicea also says, “Behold, I stand at the door, and knock.”",
+      "r": "Those are two of the seven churches of Asia that receive messages near the start of this book. For 10 points, name this book written by John of Patmos."
+    },
+    {
+      "p": "In this book, locusts with human faces, lions’ teeth, and tails like scorpions rise from a bottomless pit when the fifth trumpet sounds, and they torment people for five months. Their king is an angel called Abaddon [“uh-BAD-un”] in Hebrew and Apollyon [“uh-POL-yun”] in Greek.",
+      "r": "Earlier, the Four Horsemen ride out as the first four seals are opened. For 10 points, name this final book of the New Testament, which describes the end of the world."
+    },
+    {
+      "p": "In this book, no one in heaven or on earth is worthy to open a scroll sealed with seven seals until the “Lion of the tribe of Judah” appears as a Lamb with seven horns and seven eyes.",
+      "r": "As the Lamb opens the first four seals, the Four Horsemen ride out. For 10 points, name this book of the Bible attributed to John of Patmos."
+    },
+    {
+      "p": "In this book, the one seated on the heavenly throne looks like jasper and carnelian [“kar-NEEL-yun”], with a rainbow like an emerald around the throne. Four winged living creatures stand around that throne, before which lies a sea of glass like crystal.",
+      "r": "Later, the narrator sees a new heaven, a new earth, and a holy city called New Jerusalem. For 10 points, name this final book of the Bible."
+    },
+    {
+      "p": "In this book, a great red dragon with seven heads and ten horns threatens a woman and her newborn child, who is carried up to God. The archangel Michael and his angels then defeat the dragon in a war in heaven.",
+      "r": "That dragon is identified as Satan. For 10 points, name this last book of the New Testament, whose Four Horsemen are often called Conquest, War, Famine, and Death."
+    },
+    {
+      "p": "In this book, a woman dressed in purple and scarlet rides a scarlet beast and holds a golden cup, and her forehead bears the name “Babylon the Great.” An angel later announces that “Babylon the great is fallen,” and merchants weep over the city’s ruin.",
+      "r": "Many scholars think “Babylon” was a code name for Rome. For 10 points, name this final book of the New Testament, written by John of Patmos."
+    },
+    {
+      "p": "When the sixth seal is opened in this book, a great earthquake strikes, the sun turns black, the moon turns red, and the stars fall to earth like figs from a tree. Afterward, four angels hold back the four winds while servants of God are sealed on their foreheads.",
+      "r": "Those servants number 144,000. For 10 points, name this last book of the Bible, which also features the Four Horsemen."
+    },
+    {
+      "p": "At the end of this book, a river of the water of life flows from God’s throne, and beside it grows a tree of life that bears twelve kinds of fruit, with leaves for the healing of the nations. Each of the twelve gates of the holy city in that vision is made from a single pearl.",
+      "r": "That city, the New Jerusalem, has a street of pure gold. For 10 points, name this final book of the New Testament."
+    },
+    {
+      "p": "When the sixth angel pours out his bowl in this book, the Euphrates [“yoo-FRAY-teez”] River dries up to prepare the way for “the kings of the east.” Those kings are then gathered for a final battle at a place called, in Hebrew, Armageddon [“ar-muh-GED-un”].",
+      "r": "This book also introduces the number of the beast, 666. For 10 points, name this last book of the Bible."
+    },
+    {
+      "p": "Ingmar Bergman’s film _The Seventh Seal_ takes its title from this book, and Albrecht Dürer [“DYUR-er”] made a famous woodcut of four riders from it. The words “King of Kings, and Lord of Lords” in Handel’s “Hallelujah” chorus also come from this book.",
+      "r": "For 10 points, name this final book of the New Testament, in which the Four Horsemen ride out as seals are opened."
+    },
+    {
+      "p": "Many scholars think a number in this book is a code for the emperor Nero, since the Hebrew letters of “Nero Caesar” add up to it. In this book, no one can buy or sell without a mark on the right hand or forehead.",
+      "r": "That number, 666, is the number of the beast. For 10 points, name this last book of the New Testament."
+    },
+    {
+      "p": "Near the end of this book, an angel binds Satan with a great chain and locks him in a bottomless pit for a thousand years, a period that gives its name to beliefs called millennialism. Satan is finally thrown into a lake of fire.",
+      "r": "This book ends with a vision of a new heaven and a new earth. For 10 points, name this final book of the New Testament."
+    },
+    {
+      "p": "This book’s narrator says he was “in the Spirit on the Lord’s day” when a loud voice behind him, like a trumpet, told him to write down what he saw and send it to seven churches in Asia. He then saw seven golden lampstands.",
+      "r": "A voice in this book declares, “I am the Alpha and the Omega.” For 10 points, name this book by John of Patmos, the last book of the Bible."
+    }
+  ],
+  "clues": [
+    {
+      "id": "last-book",
+      "tier": "giveaway",
+      "t": "The last book of the New Testament, and so the final book of the Christian Bible",
+      "k": [
+        "new testament",
+        "final book",
+        "last book"
+      ],
+      "n": 12
+    },
+    {
+      "id": "patmos",
+      "tier": "giveaway",
+      "t": "Its author, a man named John, says he saw its visions on the Greek island of Patmos",
+      "k": [
+        "patmos",
+        "john",
+        "island"
+      ],
+      "n": 8
+    },
+    {
+      "id": "end-of-world",
+      "tier": "giveaway",
+      "t": "Its visions describe the end of the world and God’s final victory over evil",
+      "k": [
+        "end of the world",
+        "final victory",
+        "visions"
+      ],
+      "n": 8
+    },
+    {
+      "id": "four-horsemen",
+      "tier": "giveaway",
+      "t": "Opening the first four seals releases the Four Horsemen, often called Conquest, War, Famine, and Death",
+      "k": [
+        "four horsemen",
+        "horsemen",
+        "conquest",
+        "famine"
+      ],
+      "n": 8
+    },
+    {
+      "id": "seven-seals",
+      "tier": "middle",
+      "t": "A scroll sealed with seven seals is opened one seal at a time by the Lamb",
+      "k": [
+        "seven seals",
+        "seals",
+        "scroll"
+      ],
+      "n": 11
+    },
+    {
+      "id": "seven-churches",
+      "tier": "middle",
+      "t": "Opens with messages to seven churches in Asia Minor, including Ephesus, Sardis, and Philadelphia",
+      "k": [
+        "seven churches",
+        "ephesus",
+        "sardis",
+        "asia minor"
+      ],
+      "n": 8
+    },
+    {
+      "id": "seven-trumpets",
+      "tier": "middle",
+      "t": "After the seventh seal is opened, seven angels blow seven trumpets",
+      "k": [
+        "trumpets",
+        "angels"
+      ],
+      "n": 5
+    },
+    {
+      "id": "number-of-the-beast",
+      "tier": "middle",
+      "t": "666 is the “number of the beast”; many scholars think it was a code for the emperor Nero",
+      "k": [
+        "number of the beast",
+        "666",
+        "nero",
+        "mark"
+      ],
+      "n": 3
+    },
+    {
+      "id": "new-jerusalem",
+      "tier": "middle",
+      "t": "It ends with a new heaven, a new earth, and the New Jerusalem, a holy city with gates of pearl and a street of gold",
+      "k": [
+        "new jerusalem",
+        "pearl",
+        "gold"
+      ],
+      "n": 4,
+      "rabbit": "Jerusalem"
+    },
+    {
+      "id": "sealed-144000",
+      "tier": "middle",
+      "t": "144,000 servants of God, 12,000 from each tribe of Israel, are sealed on their foreheads",
+      "k": [
+        "144,000",
+        "144000",
+        "twelve tribes"
+      ],
+      "n": 4
+    },
+    {
+      "id": "alpha-omega",
+      "tier": "middle",
+      "t": "A voice declares, “I am the Alpha and the Omega,” the first and last letters of the Greek alphabet",
+      "k": [
+        "alpha and the omega",
+        "alpha",
+        "omega"
+      ],
+      "n": 3
+    },
+    {
+      "id": "armageddon",
+      "tier": "middle",
+      "t": "The Euphrates River dries up for “the kings of the east,” who gather for battle at Armageddon",
+      "k": [
+        "armageddon",
+        "euphrates"
+      ],
+      "n": 1
+    },
+    {
+      "id": "little-scroll",
+      "tier": "power",
+      "t": "The narrator eats a little scroll that is sweet as honey in his mouth but bitter in his stomach",
+      "k": [
+        "little scroll",
+        "honey",
+        "bitter"
+      ],
+      "n": 2
+    },
+    {
+      "id": "wormwood",
+      "tier": "power",
+      "t": "At the third trumpet, a blazing star named Wormwood makes a third of the rivers and springs bitter",
+      "k": [
+        "wormwood",
+        "star"
+      ],
+      "n": 2
+    },
+    {
+      "id": "locusts",
+      "tier": "power",
+      "t": "At the fifth trumpet, locusts with human faces and scorpion tails, led by the angel Abaddon, torment people for five months",
+      "k": [
+        "locusts",
+        "abaddon",
+        "apollyon"
+      ],
+      "n": 4
+    },
+    {
+      "id": "lion-and-lamb",
+      "tier": "power",
+      "t": "Only the Lamb, called the “Lion of the tribe of Judah,” is worthy to open the sealed scroll",
+      "k": [
+        "lamb",
+        "lion of judah"
+      ],
+      "n": 2
+    },
+    {
+      "id": "throne",
+      "tier": "power",
+      "t": "God on the throne looks like jasper and carnelian, with an emerald rainbow and a sea of glass before the throne",
+      "k": [
+        "jasper",
+        "carnelian",
+        "emerald"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sixth-seal",
+      "tier": "power",
+      "t": "At the sixth seal, the sun turns black, the moon turns red, and stars fall to earth like figs",
+      "k": [
+        "sixth seal",
+        "figs",
+        "earthquake"
+      ],
+      "n": 1
+    },
+    {
+      "id": "babylon-the-great",
+      "tier": "power",
+      "t": "A woman named “Babylon the Great” rides a scarlet beast and holds a golden cup; many think “Babylon” stood for Rome",
+      "k": [
+        "babylon the great",
+        "scarlet beast",
+        "golden cup",
+        "rome"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tree-of-life",
+      "tier": "power",
+      "t": "A river of the water of life flows from God’s throne past a tree of life with twelve kinds of fruit and healing leaves",
+      "k": [
+        "tree of life",
+        "healing",
+        "fruit"
+      ],
+      "n": 1
+    },
+    {
+      "id": "millennium",
+      "tier": "power",
+      "t": "An angel chains Satan in a bottomless pit for a thousand years (the millennium); later Satan is thrown into a lake of fire",
+      "k": [
+        "thousand years",
+        "millennium",
+        "lake of fire"
+      ],
+      "n": 3
+    },
+    {
+      "id": "dragon",
+      "tier": "power",
+      "t": "A great red dragon with seven heads loses a war in heaven to the archangel Michael and his angels",
+      "k": [
+        "war in heaven",
+        "dragon",
+        "michael"
+      ],
+      "n": 1
+    },
+    {
+      "id": "laodicea",
+      "tier": "power",
+      "t": "The church in Laodicea is scolded for being “lukewarm,” neither hot nor cold",
+      "k": [
+        "laodicea",
+        "lukewarm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arts",
+      "tier": "power",
+      "t": "Inspired Bergman’s film _The Seventh Seal_, Dürer’s woodcut of four riders, and words in Handel’s “Hallelujah” chorus",
+      "k": [
+        "seventh seal",
+        "dürer",
+        "bergman",
+        "handel",
+        "hallelujah"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lords-day",
+      "tier": "power",
+      "t": "The narrator was “in the Spirit on the Lord’s day” when a trumpet-like voice spoke, and he saw seven golden lampstands",
+      "k": [
+        "golden lampstands",
+        "lampstands",
+        "lord’s day"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Revelation, not Revelations!",
+    "body": "The book’s title is singular. In 11 of the 12 real answer lines in our sample, “Revelations” or “Book of Revelations” is marked “do not accept or prompt,” so one extra letter loses the tossup. Players also confuse it with the Gospel of John (one real line refuses “Apocalypse of John” for the Gospel) and the Book of Daniel, the Hebrew Bible’s book of beast visions.",
+    "fix": "Say “Book of Revelation” or just “Revelation.” “Apocalypse of John” is accepted too, but plain “Apocalypse” is accepted by some answer lines and only prompted by others. Seals, trumpets, horsemen, Patmos, and 666 mean Revelation; the lions’ den and the writing on the wall mean Daniel.",
+    "line": "Real answer line: Book of <b><u>Revelation</u></b> [prompt on the Bible or the New Testament before mentioned; do not accept or prompt on “Book of Revelations”]"
+  },
+  "freq": {
+    "rank": 11,
+    "count": 5,
+    "list": "Religion"
+  }
+}

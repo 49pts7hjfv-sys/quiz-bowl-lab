@@ -1,0 +1,399 @@
+{
+  "id": "glaciers",
+  "name": "Glaciers",
+  "mono": "GLC",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Earth Science concept · Slow-moving rivers of ice that carve mountains",
+  "dates": "Form over centuries · covered far more of Earth during past ice ages",
+  "briefing": "A glacier starts out as ordinary snow that never fully melts, year after year, until its own weight presses it into solid, flowing ice. These rivers of ice carved the fjords of Norway and the U-shaped valleys of places like Yosemite, dropping boulders and gravel called moraines wherever they travel. Today almost seventy percent of Earth’s fresh water is locked up inside them, and climate change is causing most of them to shrink.",
+  "answerHtml": "<b><u>Glaciers</u></b> (accept <u>ice sheets</u> or <u>ice shelves</u>; prompt on <u>ice</u>)",
+  "accept": [
+    "glaciers",
+    "glacier",
+    "ice sheet",
+    "ice sheets",
+    "ice shelf",
+    "ice shelves"
+  ],
+  "prompt": [
+    "ice"
+  ],
+  "reject": [
+    "icebergs",
+    "iceberg",
+    "permafrost",
+    "ice age",
+    "ice ages",
+    "sea ice",
+    "avalanche",
+    "avalanches"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How Glaciers Change the World! | Winter Science",
+      "source": "SciShow Kids",
+      "url": "https://www.youtube.com/watch?v=W1InAfn7am0",
+      "note": "Kid-friendly look at how slow-moving ice reshapes the land"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Clues Glaciers Left Behind! | Winter Science",
+      "source": "SciShow Kids",
+      "url": "https://www.youtube.com/watch?v=4GKVxaQwOBQ",
+      "note": "The landforms and rocks that show where ice-age glaciers once were"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Climate 101: Glaciers",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=WJgpDyP9ewQ",
+      "note": "How glaciers form and move, and why most of them are shrinking"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Glacier Power",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=cIBFAke90SI",
+      "note": "National Geographic clip on the power of glaciers"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Earth Science for Kids: Glaciers",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/earth_science/glaciers.php",
+      "note": "Quick read: how glaciers form, valley vs. polar glaciers, fjords and moraines, plus a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Glacier",
+  "qb": {
+    "q": "glaciers",
+    "found": 11,
+    "tip": "Every single one of the 11 real tossups mentions moraines, and most mention calving into icebergs — those are the two clues to drill first. Don’t confuse this answer with icebergs themselves, which are only the floating chunks that break off."
+  },
+  "sample": {
+    "n": 11,
+    "note": "the 11 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "These objects grind bedrock into fine “rock flour” and crack into unstable towers of ice called seracs under their own internal stress. They gain mass in an upper “accumulation zone” and lose it in a lower “ablation zone,” where melting finally wins out.",
+      "r": "As they move, they pile up ridges of rock and debris, called till, into landforms known as moraines along their edges. For 10 points, name these large, slow-moving masses of land ice."
+    },
+    {
+      "p": "The surfaces of these objects can show alternating light and dark stripes called ogives, which form as the ice flows through steep icefalls. Alaska’s Malaspina, the largest example of a “piedmont” type, formed where several of these objects merged together.",
+      "r": "They break apart at their edges in a process called calving, which creates icebergs. For 10 points, name these objects that hold roughly seventy percent of Earth’s fresh water."
+    },
+    {
+      "p": "The nineteenth-century Scottish scientist James Forbes pioneered the study of how these objects flow, a movement that speeds up when meltwater beneath them reduces friction with the ground below. Erosion by these objects carves out bowl-shaped hollows called cirques.",
+      "r": "Those hollows are separated from each other by razor-thin ridges called aretes. For 10 points, name these large, slow-moving masses of land ice that form from compacted snow."
+    },
+    {
+      "p": "As they retreat, these objects leave behind streamlined, egg-shaped hills called drumlins and long, winding ridges called eskers made of sorted sand and gravel. They pile rock debris into ridges called moraines along their edges and at their farthest advance.",
+      "r": "They come in two main types: smaller ones that flow down mountain valleys, and continental-scale sheets that bury whole landmasses like Antarctica. For 10 points, a National Park in Montana takes its very name from what large masses of moving ice?"
+    },
+    {
+      "p": "Small mountain lakes called tarns can form when meltwater fills the bowl-shaped hollows these objects carve. Surface meltwater on these objects plunges downward through vertical shafts called moulins, sometimes reaching all the way to the base.",
+      "r": "As they melted back at the end of the last ice age, they helped carve out the basins that became the Great Lakes. For 10 points, name these huge, moving bodies of ice."
+    },
+    {
+      "p": "Iceland’s Okjökull [“OH-kyer-kootl”] lost its official status as one of these objects in 2014 and was memorialized five years later with a plaque whose inscription ends “Only you know if we did it.” Many of these objects have lost mass almost every single year since the late 1980s as the climate has warmed.",
+      "r": "Moving ice within them can crack open deep fissures called crevasses. For 10 points, name these large, slow-moving masses of land ice."
+    },
+    {
+      "p": "Internal stress on these objects can crack their surfaces into towers of ice called seracs, while their grinding motion pulverizes stone into a fine powder called rock flour. Debris carried along by these objects settles into ridges called moraines when the ice melts back.",
+      "r": "Chunks that break off the edges of these objects in a process called calving become icebergs. For 10 points, name these objects that hold about seventy percent of the planet’s fresh water."
+    },
+    {
+      "p": "These objects gain mass where snowfall outpaces melting, in a zone called the accumulation zone, and lose mass in the opposite ablation zone. Their flow, studied by the pioneering scientist James Forbes, speeds up through a kind of sliding that occurs when meltwater at their base reduces friction with the ground.",
+      "r": "Their erosion carves out deep U-shaped valleys, which flood with seawater along mountainous coastlines to form fjords. For 10 points, name these objects formed when layers of snow compact into ice over many years."
+    },
+    {
+      "p": "Alternating bands of light and dark ice, called ogives, appear on the surfaces of these objects as they flow through steep sections called icefalls. As they retreat, these objects leave streamlined hills called drumlins and sinuous ridges of gravel called eskers behind them.",
+      "r": "They exist in two main forms: smaller ones confined to mountain valleys, and vast continental-scale sheets that bury whole landmasses like Greenland. For 10 points, as they melted at the end of the last ice age, what large masses of ice helped carve out the Great Lakes?"
+    },
+    {
+      "p": "Alaska’s Malaspina, the largest “piedmont” example of one of these objects, formed from the merger of several smaller ones. Hollowed-out basins left behind by these objects often fill with meltwater to become small lakes called tarns.",
+      "r": "Surface meltwater on top of these objects can plunge downward through narrow vertical shafts called moulins. For 10 points, a Montana National Park is named directly for what large, slow-moving masses of ice?"
+    },
+    {
+      "p": "As they pile up rock and debris called till into ridges called moraines, these objects also grind stone into fine “rock flour.” Internal stress within these objects can crack their surfaces into unstable towers of ice called seracs.",
+      "r": "Moving ice inside them can also split open deep cracks called crevasses. For 10 points, name these large, slow-moving masses of land ice."
+    },
+    {
+      "p": "The Scottish scientist James Forbes studied how these objects flow, a movement that speeds up when meltwater beneath them reduces friction with the ground below. Iceland’s Okjökull lost its official status as one of these objects in 2014, later memorialized with a plaque.",
+      "r": "Pieces that break off the front edges of these objects in a process called calving become icebergs floating at sea. For 10 points, name these objects that hold roughly seventy percent of Earth’s fresh water."
+    },
+    {
+      "p": "Erosion from these objects carves bowl-shaped hollows called cirques, separated from one another by razor-thin ridges called aretes. Alternating light and dark stripes called ogives can appear on the surfaces of these objects as they flow through steep icefalls.",
+      "r": "They form in the first place when layers of snow pile up faster than they can melt, compacting over many years into dense ice. For 10 points, name these objects that form from compacted snow."
+    },
+    {
+      "p": "As they retreat, these objects leave behind streamlined, egg-shaped hills called drumlins and long, winding ridges of sand and gravel called eskers. They also gain mass in an accumulation zone and lose mass in an ablation zone further down their length.",
+      "r": "Deep U-shaped valleys carved by these objects can flood with seawater along mountainous coasts to form fjords. For 10 points, name these objects whose melting at the end of the last ice age helped carve out North America’s Great Lakes."
+    },
+    {
+      "p": "Small mountain lakes called tarns can form when meltwater fills bowl-shaped hollows left behind by these objects. Alaska’s Malaspina, the largest “piedmont” example of one of these objects, formed where several smaller ones merged together, and moving ice within them can crack open deep fissures called crevasses.",
+      "r": "Most of these objects, tracked yearly by scientists, have lost mass almost every year since the late 1980s as the climate has warmed. For 10 points, a Montana National Park is named for what masses of moving ice, which hold about seventy percent of Earth’s fresh water?"
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Large, slow-moving masses of land ice that flow downhill under their own weight",
+      "k": [
+        "flow downhill",
+        "own weight"
+      ],
+      "n": 11
+    },
+    {
+      "id": "freshwater-70pct",
+      "tier": "giveaway",
+      "t": "Hold about seventy percent of Earth’s fresh water",
+      "k": [
+        "seventy percent",
+        "fresh water"
+      ],
+      "n": 2
+    },
+    {
+      "id": "compacted-snow-origin",
+      "tier": "giveaway",
+      "t": "Form when layers of snow pile up faster than they melt, compacting over many years into dense ice",
+      "k": [
+        "compacting",
+        "dense ice"
+      ],
+      "n": 1
+    },
+    {
+      "id": "montana-np",
+      "tier": "giveaway",
+      "t": "A National Park in Montana takes its very name from these features",
+      "k": [
+        "national park",
+        "montana"
+      ],
+      "n": 1
+    },
+    {
+      "id": "great-lakes",
+      "tier": "giveaway",
+      "t": "The Great Lakes were carved out as these retreated at the end of the last ice age",
+      "k": [
+        "great lakes",
+        "end of the last"
+      ],
+      "n": 2
+    },
+    {
+      "id": "calving-icebergs",
+      "tier": "middle",
+      "t": "Break apart at their edges in a process called calving, which creates icebergs",
+      "k": [
+        "calving",
+        "icebergs"
+      ],
+      "n": 6,
+      "rabbit": "icebergs"
+    },
+    {
+      "id": "basal-sliding",
+      "tier": "middle",
+      "t": "Move partly through “basal sliding,” when meltwater beneath them reduces friction with the ground below",
+      "k": [
+        "basal sliding",
+        "meltwater"
+      ],
+      "n": 4
+    },
+    {
+      "id": "cirques-aretes",
+      "tier": "middle",
+      "t": "Carve bowl-shaped hollows called cirques, leaving razor-thin ridges called aretes between neighboring valleys",
+      "k": [
+        "cirques",
+        "aretes"
+      ],
+      "n": 3
+    },
+    {
+      "id": "u-valleys-fjords",
+      "tier": "middle",
+      "t": "Carve wide U-shaped valleys, which flood with seawater along mountainous coasts to form fjords",
+      "k": [
+        "fjords",
+        "seawater"
+      ],
+      "n": 2
+    },
+    {
+      "id": "moulins",
+      "tier": "middle",
+      "t": "Develop vertical shafts called moulins, where surface meltwater plunges down into the ice below",
+      "k": [
+        "moulins",
+        "meltwater plunges"
+      ],
+      "n": 2
+    },
+    {
+      "id": "climate-retreat",
+      "tier": "middle",
+      "t": "Have lost mass almost every year since the late 1980s as the climate has warmed, a trend called retreat",
+      "k": [
+        "climate has warmed",
+        "trend called retreat"
+      ],
+      "n": 1
+    },
+    {
+      "id": "types",
+      "tier": "middle",
+      "t": "Come in two main types: smaller ones flowing down mountain valleys, and continental scale sheets that bury whole landmasses like Antarctica",
+      "k": [
+        "mountain valleys",
+        "continental scale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crevasses",
+      "tier": "middle",
+      "t": "Develop deep cracks called crevasses where moving ice stretches and breaks over uneven ground",
+      "k": [
+        "crevasses",
+        "uneven ground"
+      ],
+      "n": 2
+    },
+    {
+      "id": "moraines",
+      "tier": "power",
+      "t": "Pile up ridges of rock and debris, called till, into landforms known as moraines along their edges and tips",
+      "k": [
+        "moraines",
+        "till"
+      ],
+      "n": 11
+    },
+    {
+      "id": "drumlins-eskers",
+      "tier": "power",
+      "t": "Leave streamlined, egg-shaped hills called drumlins and long, winding ridges called eskers as they retreat",
+      "k": [
+        "drumlins",
+        "eskers"
+      ],
+      "n": 5
+    },
+    {
+      "id": "rock-flour-seracs",
+      "tier": "power",
+      "t": "Grind bedrock into fine “rock flour” and crack into unstable towers of ice called seracs under their own stress",
+      "k": [
+        "rock flour",
+        "seracs"
+      ],
+      "n": 3
+    },
+    {
+      "id": "accumulation-ablation",
+      "tier": "power",
+      "t": "Gain mass in an upper “accumulation zone” and lose it in a lower “ablation zone” where melting wins out",
+      "k": [
+        "accumulation zone",
+        "ablation zone"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ogives",
+      "tier": "power",
+      "t": "Show alternating light and dark stripes called ogives, which form as the ice flows through steep icefalls",
+      "k": [
+        "ogives",
+        "icefalls"
+      ],
+      "n": 2
+    },
+    {
+      "id": "malaspina",
+      "tier": "power",
+      "t": "Alaska’s Malaspina, the largest of a “piedmont” type, formed where several smaller examples merged together",
+      "k": [
+        "malaspina",
+        "piedmont"
+      ],
+      "n": 1
+    },
+    {
+      "id": "forbes",
+      "tier": "power",
+      "t": "Had their flow studied by the nineteenth-century Scottish scientist James Forbes, a pioneer in the field",
+      "k": [
+        "james forbes",
+        "scottish"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tarns",
+      "tier": "power",
+      "t": "Leave behind small mountain lakes called tarns where hollowed out basins fill with meltwater",
+      "k": [
+        "tarns",
+        "hollowed out basins"
+      ],
+      "n": 2
+    },
+    {
+      "id": "okjokull",
+      "tier": "power",
+      "t": "Iceland’s Okjokull lost its official status as one of these in 2014; its 2019 memorial plaque ends with the words “Only you know if we did it”",
+      "k": [
+        "okjokull",
+        "memorialized"
+      ],
+      "n": 1,
+      "rabbit": "climate change"
+    }
+  ],
+  "trap": {
+    "title": "Glaciers, or just icebergs?",
+    "body": "Most real tossups eventually mention calving, the process by which icebergs break off a glacier’s edge into the water. Hearing “ice,” “ocean,” and “breaking apart” together tempts some players to blurt out icebergs — but an iceberg is only the floating piece that calved away, not the slow-moving mass of land ice the rest of the clues describe.",
+    "fix": "Icebergs are a RESULT of glaciers, not glaciers themselves. If the clues describe movement, moraines, crevasses, or valleys carved over a long time, the answer is glaciers; save “iceberg” for a clue that is only about the floating piece after it breaks off.",
+    "line": "Real answer line: <b><u>glaciers</u></b> [accept ice sheet or ice shelf]."
+  },
+  "tests": {
+    "right": [
+      "Glaciers",
+      "glacier",
+      "Glacers",
+      "The Glaciers",
+      "Ice sheet"
+    ],
+    "prompt": [
+      "ice"
+    ],
+    "wrong": [
+      "Icebergs",
+      "Permafrost",
+      "Ice Age",
+      "Sea Ice"
+    ]
+  },
+  "freq": {
+    "rank": 1,
+    "count": 14,
+    "list": "Earth Science"
+  }
+}

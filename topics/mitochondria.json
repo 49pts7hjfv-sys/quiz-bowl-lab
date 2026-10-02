@@ -1,0 +1,387 @@
+{
+  "id": "mitochondria",
+  "name": "Mitochondria",
+  "mono": "MIT",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Double-membraned cell organelle · Breaks down food to make usable ATP",
+  "dates": "Found in nearly every cell in the body",
+  "briefing": "Mitochondria are bean-shaped organelles nicknamed the “powerhouse of the cell” because they break down digested food to make ATP, the fuel nearly every cell runs on. Folds in their inner membrane, called cristae, pack in extra surface area for this chemical machinery, and each one even carries its own small loop of DNA, passed down only from a person’s mother. Billions of years ago they were likely free-living bacteria that got swallowed by a larger cell and simply stayed.",
+  "answerHtml": "<b><u>Mitochondria</u></b> (accept <u>mitochondrion</u>)",
+  "accept": [
+    "mitochondria",
+    "mitochondrion"
+  ],
+  "prompt": [],
+  "reject": [
+    "chloroplast",
+    "nucleus",
+    "cytoplasm",
+    "ribosome",
+    "lysosome"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mitochondria: the cell’s powerhouse",
+      "source": "Harvard Online",
+      "url": "https://www.youtube.com/watch?v=vkYEYjintqU",
+      "note": "Harvard explainer of why mitochondria are called the cell’s powerhouse"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mitochondria | Cell: The Unit of Life",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=NgPeOKzJxVM",
+      "note": "Lesson on mitochondria’s structure and their job of making energy for the cell"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mitochondria: The Powerhouse of the Cell",
+      "source": "Bozeman Science",
+      "url": "https://www.youtube.com/watch?v=uSlEmBeHlgg",
+      "note": "Teacher Paul Andersen on mitochondria’s parts and how they make ATP"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Mitochondria Aren’t Just the Powerhouse of the Cell",
+      "source": "Seeker",
+      "url": "https://www.youtube.com/watch?v=1xwaG-GBHIU",
+      "note": "Surprising jobs mitochondria do besides making energy"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "ATP & Respiration: Crash Course Biology #7",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=00jbG_cfGuQ",
+      "note": "Cellular respiration and ATP, the energy process mitochondria are famous for"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Cell Mitochondria",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/biology/cell_mitochondria.php",
+      "note": "Quick read on mitochondria’s parts and energy job, with a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Mitochondrion",
+  "qb": {
+    "q": "mitochondria",
+    "found": 13,
+    "tip": "A clean, specific search: all 13 results are genuinely about this organelle, and several explicitly warn “it’s not the chloroplast” before describing it — a strong signal for the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 13,
+    "note": "the 13 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "It’s not the chloroplast, but the endosymbiotic theory holds that this organelle also began as a free-living bacterium that got engulfed by a larger cell billions of years ago. Hydrogen ions moving across a concentration gradient inside this organelle, a process called chemiosmosis, helps power the enzyme ATP synthase.",
+      "r": "Folds in this organelle’s inner membrane, called cristae, increase the surface area available for its chemical reactions. For 10 points, name this organelle, nicknamed the “powerhouse of the cell,” that makes ATP for the rest of the cell to use."
+    },
+    {
+      "p": "Because a sperm cell’s copies of this organelle are destroyed after fertilization, its DNA is passed down only from a person’s mother; the most recent common maternal ancestor traced this way is nicknamed for this organelle and the Bible’s Eve. This organelle performs oxidative phosphorylation along its folded inner membrane.",
+      "r": "The Krebs cycle takes place in this organelle’s innermost compartment, called the matrix. For 10 points, name this organelle that is commonly called the “powerhouse of the cell” because it manufactures ATP."
+    },
+    {
+      "p": "A group of diseases affecting this organelle causes muscle cells to show “ragged red” fibers under a microscope, including one called MERRF syndrome. Releasing the protein cytochrome c from this organelle is an early step that triggers a cell’s programmed death, called apoptosis.",
+      "r": "The electron transport chain runs along the inner membrane of this organelle, and the Krebs cycle runs inside its matrix. For 10 points, name this organelle nicknamed the “powerhouse of the cell” for its role in making ATP."
+    },
+    {
+      "p": "A series of four protein complexes, numbered one through four, work together in this organelle to build up a chemiosmotic gradient that its own ATP synthase then uses to generate ATP. The Krebs cycle, which feeds that process, occurs in this organelle’s innermost matrix.",
+      "r": "Folded ridges called cristae line the inner membrane of this organelle. For 10 points, identify this cell organelle, often called the “powerhouse of the cell,” where most cellular respiration finishes up."
+    },
+    {
+      "p": "Brown fat cells keep a protein called thermogenin in this organelle specifically to generate body heat instead of ATP. Along with chloroplasts, this organelle is thought to have begun as a separate bacterium absorbed by a larger cell, according to the endosymbiotic theory.",
+      "r": "This organelle’s inner membrane folds into ridges called cristae to increase its surface area for chemical reactions. For 10 points, name this organelle nicknamed the “powerhouse of the cell” because it produces most of a cell’s ATP."
+    },
+    {
+      "p": "It’s not the chloroplast, but this organelle carries its own small loop of DNA, inherited only from a person’s mother. The electron transport chain, which drives most ATP production, runs along the folded inner membrane of this organelle.",
+      "r": "The Krebs cycle takes place inside this organelle’s fluid-filled matrix. For 10 points, name this cell organelle, nicknamed the “powerhouse of the cell,” that converts digested food into usable chemical energy."
+    },
+    {
+      "p": "Releasing the protein cytochrome c from inside this organelle can trigger apoptosis, a cell’s programmed self-destruction. Certain inherited diseases of this organelle make muscle fibers appear “ragged” and red-tinted under a microscope.",
+      "r": "Hydrogen ions flow down a gradient inside this organelle in a process called chemiosmosis, powering its ATP synthase. For 10 points, name this organelle found in nearly every body cell, often called the cell’s “powerhouse.”"
+    },
+    {
+      "p": "The most recent common maternal ancestor of all living humans is nicknamed for this organelle and the Bible’s Eve, since its DNA passes only from mother to child. Four numbered protein complexes embedded in this organelle’s inner membrane carry out the electron transport chain.",
+      "r": "Folds called cristae in this organelle’s inner membrane boost the surface area available for making ATP. For 10 points, name this organelle, nicknamed the cell’s “powerhouse,” that also houses the Krebs cycle."
+    },
+    {
+      "p": "The endosymbiotic theory proposes that this organelle, like the chloroplast, began as an independent bacterium that a larger ancient cell engulfed and kept. Brown adipose tissue uses a protein called thermogenin inside this organelle to produce heat rather than ATP.",
+      "r": "The Krebs cycle occurs in this organelle’s matrix, while the electron transport chain runs along its folded inner membrane. For 10 points, name this organelle, often nicknamed the “powerhouse of the cell.”"
+    },
+    {
+      "p": "This organelle’s DNA is inherited only from a person’s mother, since a sperm cell’s copies are destroyed after fertilization. It’s not the chloroplast, but this organelle is also believed to have started out as a free-living bacterium under the endosymbiotic theory.",
+      "r": "Oxidative phosphorylation and the Krebs cycle both occur inside this organelle. For 10 points, name this organelle, nicknamed the “powerhouse of the cell” because it generates most of a cell’s ATP."
+    },
+    {
+      "p": "A group of diseases that give muscle cells a “ragged red” appearance under a microscope specifically damage this organelle. Releasing cytochrome c from this organelle is an early trigger for a cell’s programmed death, called apoptosis.",
+      "r": "This organelle’s ATP synthase sits in its folded inner membrane, right beside the matrix that holds the Krebs cycle. For 10 points, name this cell organelle often called the “powerhouse of the cell.”"
+    },
+    {
+      "p": "The most recent common maternal ancestor of all humans alive today is an “Eve” named for this organelle’s uniquely maternal DNA. Four numbered protein complexes in this organelle’s inner membrane carry out the electron transport chain that drives most ATP production.",
+      "r": "Folded cristae line this organelle’s inner membrane around a central matrix. For 10 points, name this organelle, nicknamed the “powerhouse of the cell,” that also hosts the Krebs cycle."
+    },
+    {
+      "p": "The endosymbiotic theory holds that this organelle, like the chloroplast, was once a free-living bacterium absorbed by an ancient cell, which explains why it still carries its own maternally inherited DNA. The electron transport chain runs along this organelle’s folded inner membrane.",
+      "r": "The Krebs cycle takes place in this organelle’s innermost compartment, the matrix. For 10 points, name this organelle, often nicknamed the “powerhouse of the cell,” that manufactures most of a cell’s ATP."
+    },
+    {
+      "p": "Brown fat cells use a protein called thermogenin inside this organelle to waste chemical energy as body heat rather than storing it as ATP. It’s not the chloroplast, but this organelle carries folds called cristae that increase its inner membrane’s surface area.",
+      "r": "Hydrogen ions crossing a gradient inside this organelle power its ATP synthase, in a process called chemiosmosis. For 10 points, name this organelle, nicknamed the cell’s “powerhouse,” that also contains the Krebs cycle."
+    },
+    {
+      "p": "Releasing the protein cytochrome c from this organelle helps trigger apoptosis, a cell’s own programmed death. Under the endosymbiotic theory, this organelle and the chloroplast both likely began as separate bacteria that an ancient cell engulfed and kept for good.",
+      "r": "This organelle contains its own small, maternally inherited genome called mtDNA. For 10 points, name this cell organelle, nicknamed the “powerhouse of the cell,” that converts food into usable ATP."
+    }
+  ],
+  "clues": [
+    {
+      "id": "powerhouse-nickname",
+      "tier": "giveaway",
+      "t": "Nicknamed the “powerhouse of the cell”",
+      "k": [
+        "powerhouse"
+      ],
+      "n": 13
+    },
+    {
+      "id": "atp-production",
+      "tier": "giveaway",
+      "t": "Makes most of a cell’s ATP, its usable chemical fuel",
+      "k": [
+        "atp",
+        "chemical fuel"
+      ],
+      "n": 13
+    },
+    {
+      "id": "cellular-respiration-site",
+      "tier": "giveaway",
+      "t": "Hosts the second half of cellular respiration, finishing the breakdown of digested food",
+      "k": [
+        "cellular respiration"
+      ],
+      "n": 4
+    },
+    {
+      "id": "double-membrane",
+      "tier": "giveaway",
+      "t": "Wrapped in two membranes: a smooth outer one and a folded inner one",
+      "k": [
+        "two membranes",
+        "outer",
+        "inner"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eukaryotic-cells",
+      "tier": "giveaway",
+      "t": "Found in nearly every cell in the human body, though the exact number varies by cell type",
+      "k": [
+        "human body",
+        "cell type"
+      ],
+      "n": 0
+    },
+    {
+      "id": "krebs-cycle",
+      "tier": "middle",
+      "t": "Its fluid-filled matrix is where the Krebs cycle takes place",
+      "k": [
+        "krebs cycle",
+        "matrix"
+      ],
+      "n": 7,
+      "rabbit": "Krebs cycle"
+    },
+    {
+      "id": "electron-transport-chain",
+      "tier": "middle",
+      "t": "Its folded inner membrane carries the electron transport chain",
+      "k": [
+        "electron transport chain"
+      ],
+      "n": 8
+    },
+    {
+      "id": "cristae-folds",
+      "tier": "middle",
+      "t": "Inner membrane folds called cristae add extra surface area for chemical reactions",
+      "k": [
+        "cristae"
+      ],
+      "n": 5
+    },
+    {
+      "id": "maternal-dna",
+      "tier": "middle",
+      "t": "Carries its own small loop of DNA, inherited only from a person’s mother",
+      "k": [
+        "maternal",
+        "mother",
+        "dna"
+      ],
+      "n": 8
+    },
+    {
+      "id": "chemiosmosis",
+      "tier": "middle",
+      "t": "Builds a hydrogen-ion gradient across its inner membrane in a process called chemiosmosis",
+      "k": [
+        "chemiosmosis",
+        "hydrogen ion"
+      ],
+      "n": 4
+    },
+    {
+      "id": "matrix-location",
+      "tier": "middle",
+      "t": "Its innermost fluid-filled space is called the matrix",
+      "k": [
+        "matrix"
+      ],
+      "n": 3
+    },
+    {
+      "id": "oxidative-phosphorylation",
+      "tier": "middle",
+      "t": "Finishes ATP production through a step called oxidative phosphorylation",
+      "k": [
+        "oxidative phosphorylation"
+      ],
+      "n": 3
+    },
+    {
+      "id": "atp-synthase",
+      "tier": "middle",
+      "t": "Its inner membrane holds the enzyme ATP synthase, which assembles the final ATP",
+      "k": [
+        "atp synthase"
+      ],
+      "n": 3
+    },
+    {
+      "id": "endosymbiotic-theory",
+      "tier": "power",
+      "t": "The endosymbiotic theory says it began as a free-living bacterium engulfed by a larger ancient cell",
+      "k": [
+        "endosymbiotic theory"
+      ],
+      "n": 5,
+      "rabbit": "Endosymbiotic theory"
+    },
+    {
+      "id": "not-chloroplast",
+      "tier": "power",
+      "t": "Real tossups often flag “it’s not the chloroplast” before describing this organelle, since both arose the same way",
+      "k": [
+        "chloroplast"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ragged-red-fibers",
+      "tier": "power",
+      "t": "Diseases of this organelle, like MERRF syndrome, make muscle fibers look “ragged” and red under a microscope",
+      "k": [
+        "ragged red",
+        "merrf"
+      ],
+      "n": 3
+    },
+    {
+      "id": "apoptosis-cytochrome-c",
+      "tier": "power",
+      "t": "Releasing its protein cytochrome c is an early step that triggers apoptosis, a cell’s programmed death",
+      "k": [
+        "cytochrome c",
+        "apoptosis"
+      ],
+      "n": 1
+    },
+    {
+      "id": "brown-fat-thermogenin",
+      "tier": "power",
+      "t": "Brown fat cells use a protein called thermogenin inside this organelle to make body heat instead of ATP",
+      "k": [
+        "thermogenin",
+        "brown fat"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mitochondrial-eve",
+      "tier": "power",
+      "t": "Because its DNA passes only from mother to child, the most recent shared maternal ancestor of all humans is an “Eve” named for it",
+      "k": [
+        "maternal ancestor",
+        "eve"
+      ],
+      "n": 1
+    },
+    {
+      "id": "protein-complexes",
+      "tier": "power",
+      "t": "Four numbered protein complexes in its inner membrane carry out the electron transport chain",
+      "k": [
+        "protein complexes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "own-genome-mtdna",
+      "tier": "power",
+      "t": "Its small maternal genome is labeled mtDNA, separate from the cell’s main DNA in the nucleus",
+      "k": [
+        "mtdna",
+        "genome"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cell-type-variation",
+      "tier": "power",
+      "t": "Packed densely into busy cells like muscle and liver cells, but absent from mature red blood cells",
+      "k": [
+        "muscle cells",
+        "red blood cells"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Mitochondria, or chloroplasts?",
+    "body": "Both organelles have double membranes, both likely began as engulfed bacteria under the endosymbiotic theory, and both carry their own small DNA loop — which is exactly why several real tossups interrupt themselves to say “it’s not the chloroplast, but…” before describing this organelle. The key difference is direction: one breaks food down for energy, the other builds food up from sunlight.",
+    "fix": "If the clues mention breaking down food, the Krebs cycle, the electron transport chain, or ATP as a final product, it’s mitochondria. If the clues mention capturing sunlight, chlorophyll, or building glucose, it’s chloroplasts instead — never answer “chloroplast” for a mitochondria question.",
+    "line": "Real answer line: <b><u>Mitochondria</u></b> (accept mitochondrion; reject chloroplast)."
+  },
+  "tests": {
+    "right": [
+      "Mitochondria",
+      "mitochondria",
+      "Mitochondrion",
+      "Mitocondria"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Chloroplast",
+      "Nucleus",
+      "Cytoplasm",
+      "Ribosome"
+    ]
+  },
+  "freq": {
+    "rank": 1,
+    "count": 15,
+    "list": "Biology"
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "id": "black-holes",
+  "name": "Black Holes",
+  "mono": "BHL",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Collapsed stars with inescapable gravity · Nothing, not even light, gets out",
+  "dates": "Predicted by general relativity, 1916; first imaged 2019",
+  "briefing": "A black hole is what’s left when a massive star collapses in on itself so completely that its gravity traps even light. Cross its boundary, called the event horizon, and nothing can ever climb back out. Despite that, physicist Stephen Hawking predicted these objects slowly leak radiation and shrink over time, and in 2019 astronomers captured the first-ever image of one, glowing at the center of a distant galaxy.",
+  "answerHtml": "<b><u>Black Holes</u></b> (accept <u>black hole</u>)",
+  "accept": [
+    "black hole",
+    "black holes"
+  ],
+  "prompt": [],
+  "reject": [
+    "gravity",
+    "neutron star",
+    "white dwarf",
+    "quasar",
+    "event horizon",
+    "singularity",
+    "wormhole"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Black Holes 101",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=kOEDG3j1bjs",
+      "note": "National Geographic’s 101 explainer · what black holes are and how they form"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Black Holes Explained – From Birth to Death",
+      "source": "Kurzgesagt – In a Nutshell",
+      "url": "https://www.youtube.com/watch?v=e-P5IFTqB98",
+      "note": "Animated · how a giant star becomes a black hole, and how black holes slowly evaporate"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Black Holes: Crash Course Astronomy #33",
+      "source": "Crash Course Astronomy",
+      "url": "https://www.youtube.com/watch?v=qZWPBKULkdQ",
+      "note": "Fast-paced lesson · how they form and what the event horizon is"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Astronomy for Kids: Black Holes",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/black_hole.php",
+      "note": "Quick read: how they form, the event horizon, the singularity, and fun facts"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Black_hole",
+  "qb": {
+    "q": "black hole",
+    "found": 12,
+    "tip": "All 12 results genuinely answer with “black holes”; none had to be set aside as off-topic or as a different, more specific answer line."
+  },
+  "sample": {
+    "n": 12,
+    "note": "the 12 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Frame-dragging occurs around rotating examples of these objects, which possess a region called the ergosphere. A faint form of radiation, predicted by physicist Stephen Hawking, causes these objects to slowly evaporate over immense timescales.",
+      "r": "A boundary called the event horizon surrounds these objects, marking the point past which not even light can escape. For 10 points, name these collapsed objects in space whose gravity is so strong that nothing can get out."
+    },
+    {
+      "p": "The holographic principle was developed partly to resolve a paradox surrounding these objects. According to the no-hair theorem, only three outside properties fully describe one of these: mass, electric charge, and angular momentum. Falling toward one closely enough would stretch a person head-to-toe in a process nicknamed spaghettification.",
+      "r": "The Schwarzschild radius marks the size of the event horizon around one of these objects. For 10 points, name these astronomical objects so dense that their gravity traps even light."
+    },
+    {
+      "p": "The first-ever direct image of one of these objects, released in 2019, showed a glowing ring around the shadow of a giant one in the galaxy M87. These objects can be found at the centers of most galaxies, including our own Milky Way.",
+      "r": "The collapse of a sufficiently massive, dying star can form one of these. For 10 points, name these regions of space where gravity overwhelms everything nearby, including light."
+    },
+    {
+      "p": "A rotating example of one of these objects follows the Kerr metric and has a region called an ergosphere, while a non-rotating one follows the simpler Schwarzschild solution. The no-hair theorem states that these objects have exactly three measurable properties.",
+      "r": "Our galaxy’s center is thought to hold a supermassive one of these objects. Falling toward one triggers an extreme stretching effect called spaghettification. For 10 points, name these objects so dense that not even light can escape their pull."
+    },
+    {
+      "p": "These objects are predicted to slowly lose mass through a kind of radiation named for Stephen Hawking. The no-hair theorem states that mass, electric charge, and spin are the only three properties that describe one from the outside.",
+      "r": "Inside the Schwarzschild radius of one of these objects, the speed needed to escape exceeds the speed of light. Massive collapsing stars can form these. For 10 points, name what objects light cannot escape from."
+    },
+    {
+      "p": "The Penrose process theorizes a way to pull usable energy out of a spinning example of one of these objects. According to the no-hair theorem, these objects have exactly three properties that can be measured from outside.",
+      "r": "These objects slowly evaporate by emitting a faint radiation named for Stephen Hawking. A supermassive one of these objects is thought to sit at the center of the Milky Way. For 10 points, name these objects whose gravity traps even light."
+    },
+    {
+      "p": "These objects can form once a dying star’s core exceeds a mass limit named for Tolman, Oppenheimer, and Volkoff, triggering a total gravitational collapse. The extreme tidal pull near one of these objects can stretch a falling object in a process nicknamed spaghettification.",
+      "r": "Light itself cannot escape from inside the boundary of one of these objects. For 10 points, name these extremely dense, extremely dark objects found in space."
+    },
+    {
+      "p": "The three properties that fully describe one of these objects, according to the no-hair theorem, are its angular momentum, mass, and electric charge. A size threshold called the Schwarzschild radius determines whether a collapsing mass will form one of these objects, the densest known products of a supernova.",
+      "r": "The event horizon marks the outer boundary of one of these objects. For 10 points, name these astronomical objects from which light cannot escape, due to their immense gravitational pull."
+    },
+    {
+      "p": "A 2014 paper tried to resolve a firewall paradox surrounding these objects by proposing that they have only a temporary apparent horizon rather than a true event horizon. These objects evaporate as particle-antiparticle pairs are generated near their boundary, a radiation named for the author of _A Brief History of Time_.",
+      "r": "These regions of space have gravity so strong that not even light can escape. For 10 points, name these collapsed astronomical objects."
+    },
+    {
+      "p": "The Schwarzschild radius can be used to find the size of one of these objects, which can form after a supernova or sit at the center of a galaxy like the Milky Way. The no-hair theorem limits an outside observer to measuring only three of these objects’ properties: mass, charge, and angular momentum.",
+      "r": "These objects are so dense that light cannot escape their gravity. For 10 points, name these astronomical entities, sometimes called supermassive when found at a galaxy’s center."
+    },
+    {
+      "p": "If one of these objects has an ergosphere, energy can theoretically be extracted from it until its angular momentum runs out, through the Penrose process. A non-rotating, electrically neutral one of these objects is called a Schwarzschild type.",
+      "r": "The no-hair theorem states that mass, charge, and angular momentum are the only observable qualities of one of these objects outside its event horizon. For 10 points, name these objects from which not even light can escape."
+    },
+    {
+      "p": "These astronomical bodies have an entropy formula named for physicist Jacob Bekenstein, alongside Stephen Hawking. Physicist Roger Penrose theorized a process for extracting energy from rotating examples of these objects, which contain, at their very center, an infinitely dense point called a singularity.",
+      "r": "Non-rotating examples of these objects are smaller than their own Schwarzschild radius, which becomes their event horizon. For 10 points, name these objects so massive that not even light can escape their pull, for which Stephen Hawking and two colleagues developed four laws of mechanics."
+    },
+    {
+      "p": "Stephen Hawking and two colleagues worked out four laws governing these objects, closely paralleling the laws of thermodynamics. A rare glowing ring around the shadow of one of these objects, in the galaxy M87, was captured in a landmark 2019 image.",
+      "r": "These objects can form when a massive star collapses after running out of nuclear fuel. For 10 points, name these objects whose gravitational pull is so strong that light cannot escape them."
+    },
+    {
+      "p": "The holographic principle helps resolve an information paradox tied to these objects, which also feature in a 2014 paper’s proposed resolution of the firewall paradox. Anything that falls past these objects’ event horizon is stretched by intense tidal forces in a process nicknamed spaghettification.",
+      "r": "A singularity of infinite density theoretically sits at the center of one of these objects. For 10 points, name these collapsed objects, the densest in the universe, from which nothing can escape."
+    },
+    {
+      "p": "These objects are the densest possible remnant of a dying star, forming once a collapsing stellar core exceeds the Tolman-Oppenheimer-Volkoff mass limit. Frame-dragging, caused by rotating examples of these objects, drags the fabric of spacetime itself around with it.",
+      "r": "A supermassive one of these objects likely anchors the center of nearly every galaxy, including the Milky Way. For 10 points, name these objects whose gravity is so extreme that not even light escapes."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Regions of space where gravity is so strong that nothing, not even light, can ever escape",
+      "k": [
+        "regions of space",
+        "not even light"
+      ],
+      "n": 12
+    },
+    {
+      "id": "formation",
+      "tier": "giveaway",
+      "t": "Usually formed when a massive star runs out of fuel and collapses in on itself, often triggering a supernova on the way",
+      "k": [
+        "massive star",
+        "supernova"
+      ],
+      "n": 3
+    },
+    {
+      "id": "supermassive-milky-way",
+      "tier": "giveaway",
+      "t": "A gigantic supermassive variety is thought to sit at the center of nearly every galaxy, including our own Milky Way",
+      "k": [
+        "supermassive",
+        "milky way"
+      ],
+      "n": 4,
+      "rabbit": "Gravity"
+    },
+    {
+      "id": "event-horizon-giveaway",
+      "tier": "giveaway",
+      "t": "Bounded by a point-of-no-return surface called the event horizon",
+      "k": [
+        "event horizon",
+        "point-of-no-return"
+      ],
+      "n": 5
+    },
+    {
+      "id": "escape-velocity",
+      "tier": "middle",
+      "t": "Inside that boundary, the speed needed to escape is faster than light itself can travel",
+      "k": [
+        "escape",
+        "faster than light"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hawking-radiation",
+      "tier": "middle",
+      "t": "Slowly shrinks over immense timescales by leaking a faint form of radiation predicted by physicist Stephen Hawking",
+      "k": [
+        "stephen hawking",
+        "radiation"
+      ],
+      "n": 6,
+      "rabbit": "Stephen Hawking"
+    },
+    {
+      "id": "no-hair-theorem",
+      "tier": "middle",
+      "t": "According to the no-hair theorem, only three outside properties fully describe one of these: mass, electric charge, and spin",
+      "k": [
+        "no-hair theorem",
+        "outside properties"
+      ],
+      "n": 7
+    },
+    {
+      "id": "spaghettification",
+      "tier": "middle",
+      "t": "Falling toward one closely enough would stretch a person head-to-toe in a gruesome process nicknamed spaghettification",
+      "k": [
+        "spaghettification",
+        "head-to-toe"
+      ],
+      "n": 3
+    },
+    {
+      "id": "schwarzschild-radius",
+      "tier": "middle",
+      "t": "The Schwarzschild radius marks exactly how small an object has to get, for its own mass, to seal itself inside one of these",
+      "k": [
+        "schwarzschild radius",
+        "seal itself"
+      ],
+      "n": 4
+    },
+    {
+      "id": "m87-image",
+      "tier": "middle",
+      "t": "The first-ever direct image of one, released in 2019, showed a glowing ring around the shadow of a giant one in the galaxy M87",
+      "k": [
+        "2019",
+        "glowing ring"
+      ],
+      "n": 1
+    },
+    {
+      "id": "singularity-power",
+      "tier": "power",
+      "t": "Theoretically contains an infinitely dense point at its very center called a singularity",
+      "k": [
+        "singularity",
+        "infinitely dense"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ergosphere-frame-dragging",
+      "tier": "power",
+      "t": "A spinning one drags the fabric of space itself around with it, in a region called the ergosphere, through an effect called frame-dragging",
+      "k": [
+        "ergosphere",
+        "frame-dragging"
+      ],
+      "n": 2
+    },
+    {
+      "id": "kerr-metric",
+      "tier": "power",
+      "t": "Rotating examples are described by the Kerr metric, while non-rotating ones follow the simpler Schwarzschild solution",
+      "k": [
+        "kerr metric",
+        "schwarzschild solution"
+      ],
+      "n": 2
+    },
+    {
+      "id": "penrose-process",
+      "tier": "power",
+      "t": "The Penrose process theoretically lets physicists siphon off pure energy from a spinning one’s rotation",
+      "k": [
+        "penrose process",
+        "siphon off"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tov-limit",
+      "tier": "power",
+      "t": "Forms instead of a mere neutron star whenever a collapsing stellar core exceeds a mass limit named for Tolman, Oppenheimer, and Volkoff",
+      "k": [
+        "tolman",
+        "mass limit"
+      ],
+      "n": 1,
+      "rabbit": "Neutron star"
+    },
+    {
+      "id": "firewall-paradox",
+      "tier": "power",
+      "t": "A 2014 scientific paper tried to resolve a thorny firewall paradox about information seemingly getting destroyed at the boundary",
+      "k": [
+        "firewall paradox",
+        "2014"
+      ],
+      "n": 1
+    },
+    {
+      "id": "apparent-horizon",
+      "tier": "power",
+      "t": "That same paper argued these objects really have only a temporary apparent horizon, rather than a permanent true event horizon",
+      "k": [
+        "apparent horizon",
+        "temporary"
+      ],
+      "n": 1
+    },
+    {
+      "id": "holographic-principle",
+      "tier": "power",
+      "t": "The holographic principle in theoretical physics was developed partly to resolve a paradox involving information that falls in",
+      "k": [
+        "holographic principle",
+        "theoretical physics"
+      ],
+      "n": 1
+    },
+    {
+      "id": "four-laws",
+      "tier": "power",
+      "t": "Physicist Stephen Hawking and two colleagues worked out four laws governing how these objects behave, closely paralleling the laws of thermodynamics",
+      "k": [
+        "four laws",
+        "thermodynamics"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bekenstein",
+      "tier": "power",
+      "t": "Their entropy formula is named for physicist Jacob Bekenstein, alongside Hawking",
+      "k": [
+        "bekenstein",
+        "jacob"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Black hole, or related object?",
+    "body": "Several nearby terms describe something else: a neutron star is the dense remnant of a slightly less massive collapsing star (one that falls short of the Tolman-Oppenheimer-Volkoff limit), a quasar is the brilliant, actively feeding disk of material around a distant supermassive one of these, and “event horizon” or “singularity” name just one specific part of the whole object, not the object itself.",
+    "fix": "If the clues describe the whole collapsed object — its formation, its gravity, its evaporation — answer with the general term. If the clues clearly isolate just the boundary or just the central point, the sharper, more specific term may be wanted instead.",
+    "line": "Real answer line: <b><u>Black Holes</u></b> (accept <u>black hole</u>)."
+  },
+  "tests": {
+    "right": [
+      "Black Holes",
+      "black hole",
+      "Black Hole",
+      "Blak Holes",
+      "Supermassive Black Hole"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Gravity",
+      "Neutron Star",
+      "Event Horizon",
+      "Quasar"
+    ]
+  },
+  "freq": {
+    "rank": 5,
+    "count": 9,
+    "list": "Physics"
+  }
+}

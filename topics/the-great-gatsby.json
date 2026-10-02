@@ -1,0 +1,459 @@
+{
+  "id": "the-great-gatsby",
+  "name": "The Great Gatsby",
+  "mono": "TGG",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Fitzgerald’s Jazz Age novel · A millionaire’s doomed pursuit of lost love",
+  "dates": "Published 1925",
+  "briefing": "_The Great Gatsby_ is narrated by Nick Carraway, who spends the summer of 1922 next door to the mysterious millionaire Jay Gatsby on Long Island. Gatsby throws lavish parties while secretly longing for Daisy Buchanan, his lost love from years before, who is now married to the brutish Tom Buchanan. A green light across the water comes to symbolize Gatsby’s hopeless longing in F. Scott Fitzgerald’s portrait of Jazz Age glamour and corruption.",
+  "answerHtml": "<b><u>The Great Gatsby</u></b> (prompt on <u>Gatsby</u> alone)",
+  "accept": [
+    "the great gatsby",
+    "great gatsby"
+  ],
+  "prompt": [
+    "gatsby"
+  ],
+  "reject": [
+    "jay gatsby",
+    "tom buchanan",
+    "daisy buchanan",
+    "nick carraway",
+    "tender is the night"
+  ],
+  "tests": {
+    "right": [
+      "The Great Gatsby",
+      "Great Gatsby",
+      "The Great Gatbsy",
+      "great gatsby",
+      "the great Gatsby"
+    ],
+    "prompt": [
+      "Gatsby",
+      "gatsby"
+    ],
+    "wrong": [
+      "Jay Gatsby",
+      "Tom Buchanan",
+      "Daisy Buchanan",
+      "Nick Carraway",
+      "Tender Is the Night"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Video SparkNotes: Gatsby’s Life Story from F. Scott Fitzgerald’s The Great Gatsby",
+      "source": "SparkNotes",
+      "url": "https://www.youtube.com/watch?v=w7qkzrsC5J4",
+      "note": "Short · the real life story that Gatsby hides from everyone"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Video SparkNotes: F. Scott Fitzgerald’s The Great Gatsby summary",
+      "source": "SparkNotes",
+      "url": "https://www.youtube.com/watch?v=e6Iu29TNfkM",
+      "note": "Animated, funny summary of the whole plot"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Like Pale Gold - The Great Gatsby Part 1: Crash Course English Literature #4",
+      "source": "Crash Course Literature",
+      "url": "https://www.youtube.com/watch?v=xw9Au9OoN88",
+      "note": "John Green on the story, the characters, and the American Dream"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Was Gatsby Great? The Great Gatsby Part 2: Crash Course English Literature #5",
+      "source": "Crash Course Literature",
+      "url": "https://www.youtube.com/watch?v=cn0WZ8-0Z1Y",
+      "note": "Part 2: was Gatsby really great? The big themes and the ending"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Roaring 20’s (#32)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=VfOR1XCMf7A",
+      "note": "The 1920s world of the novel: Prohibition, booming business, and the Jazz Age"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "The Great Gatsby",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/the-great-gatsby",
+      "note": "Quick plot summary and key facts about the novel"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+  "qb": {
+    "q": "Great Gatsby",
+    "found": 10,
+    "tip": "Two of the ten tossups are primarily about the character Jay Gatsby rather than the novel as a whole, though both still accept this answer line; the other eight, which are squarely about the novel, make up the sample."
+  },
+  "sample": {
+    "n": 8,
+    "note": "8 of the 10 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked) that are specifically about the novel rather than the character Jay Gatsby"
+  },
+  "tossups": [
+    {
+      "p": "As a young man, this novel’s protagonist warns a yacht owner named Dan Cody about an incoming storm and is taken on as an assistant. That protagonist, born James “Jimmy” Gatz, later befriends a gambler named Meyer Wolfsheim, who wears cufflinks made of human molars.",
+      "r": "The protagonist throws lavish parties at his West Egg mansion mainly to attract his lost love, Daisy Buchanan. For 10 points, name this novel narrated by Nick Carraway."
+    },
+    {
+      "p": "A bespectacled stranger nicknamed Owl Eyes marvels at this novel’s protagonist’s library and later turns up at his poorly attended funeral. Wolfsheim, haunted by the memory of a gambler named Rosy Rosenthal’s shooting, refuses to attend that same funeral in this novel.",
+      "r": "This novel’s title character is shot in his own swimming pool by the grieving mechanic George Wilson. For 10 points, name this novel set in the fictional communities of West Egg and East Egg."
+    },
+    {
+      "p": "Myrtle’s sister Catherine spreads a rumor that this novel’s protagonist is secretly a cousin of the German Kaiser. A dog leash found at home convinces the mechanic George Wilson that his wife has been unfaithful in this novel.",
+      "r": "That mechanic later shoots the title character after Tom Buchanan implies he was driving the car that killed Myrtle. For 10 points, name this novel narrated by Nick Carraway."
+    },
+    {
+      "p": "A minor associate named Walter Chase spends a month in jail after this novel’s protagonist leaves him in the lurch. That same protagonist calls other men “old sport” and claims an Oxford education, though his real fortune comes from bootlegging.",
+      "r": "A faded billboard for the optometrist Doctor T.J. Eckleburg watches over the desolate Valley of Ashes in this novel. For 10 points, name this Jazz Age novel by F. Scott Fitzgerald."
+    },
+    {
+      "p": "A heated confrontation at the Plaza Hotel, on the narrator’s thirtieth birthday, exposes this novel’s protagonist’s feelings for Daisy Buchanan. Later in the novel, Daisy herself is actually driving the car that strikes and kills Tom’s mistress, Myrtle Wilson.",
+      "r": "The protagonist plans to take the blame himself. For 10 points, name this novel in which that same protagonist is shot in his swimming pool."
+    },
+    {
+      "p": "This novel’s narrator discusses tennis shoes over the phone with a freeloading houseguest named Klipspringer. Wolfsheim is said to have fixed the 1919 World Series in this novel, which also introduces a bespectacled onlooker called Owl Eyes.",
+      "r": "This novel’s protagonist throws parties hoping to win back Daisy Buchanan, the narrator’s cousin. For 10 points, name this novel narrated by Nick Carraway."
+    },
+    {
+      "p": "A green light across the water on Daisy Buchanan’s dock comes to symbolize this novel’s protagonist’s longing. That same protagonist was born James Gatz before reinventing himself under a new name.",
+      "r": "George Wilson shoots the protagonist in his own pool after Tom hints that he was driving the car that killed Myrtle. For 10 points, name this novel set on Long Island in the summer of 1922."
+    },
+    {
+      "p": "Klipspringer plays the piano at this novel’s protagonist’s mansion, and Meyer Wolfsheim is said to have fixed the 1919 World Series. A faded billboard advertisement watches over the Valley of Ashes with giant painted eyes in this novel.",
+      "r": "This novel’s protagonist throws his parties mainly to attract Daisy Buchanan’s attention. For 10 points, name this novel in which George Wilson shoots that wealthy host."
+    },
+    {
+      "p": "Dan Cody takes on this novel’s protagonist as an assistant after the young man warns him about a storm at sea. Wolfsheim’s cufflinks are famously made from human molars in this same novel.",
+      "r": "For 10 points, name this novel, narrated by Nick Carraway, in which a mechanic named George Wilson shoots the title millionaire in his swimming pool."
+    },
+    {
+      "p": "This novel’s famous final line compares human striving to “boats against the current, borne back ceaselessly into the past.” Earlier in the book, Myrtle’s sister Catherine claims this novel’s protagonist is related to the German Kaiser.",
+      "r": "Daisy Buchanan, not the protagonist, was actually driving when Myrtle Wilson was struck and killed. For 10 points, name this F. Scott Fitzgerald novel."
+    },
+    {
+      "p": "A dog leash left at home convinces the mechanic George Wilson that his wife Myrtle has been unfaithful in this novel. This novel’s narrator is the cousin of Daisy Buchanan, who married the brutish Tom Buchanan.",
+      "r": "George Wilson later shoots this novel’s title character in his swimming pool. For 10 points, name this Jazz Age novel narrated by Nick Carraway."
+    },
+    {
+      "p": "A man named Walter Chase spends a month in jail after being left in the lurch by this novel’s protagonist. This novel’s title character insists on calling people “old sport” and hosts extravagant parties at his West Egg mansion.",
+      "r": "That host is shot in his pool by George Wilson, whose wife Myrtle was killed by a car actually driven by Daisy Buchanan. For 10 points, name this novel by F. Scott Fitzgerald."
+    },
+    {
+      "p": "Owl Eyes turns up at both a library scene and a sparsely attended funeral in this novel. Meyer Wolfsheim, who wears cufflinks made of human molars, is this novel’s protagonist’s partner in bootlegging.",
+      "r": "The green light on Daisy Buchanan’s dock symbolizes that protagonist’s longing throughout the novel. For 10 points, name this novel in which George Wilson shoots that same protagonist."
+    },
+    {
+      "p": "A heated birthday confrontation at the Plaza Hotel exposes old feelings between this novel’s protagonist and his married former love. Myrtle Wilson, struck and killed by a car actually driven by that love, is mourned by her husband George in this novel.",
+      "r": "George then shoots the protagonist in his swimming pool. For 10 points, name this novel narrated by Daisy’s cousin, Nick Carraway."
+    },
+    {
+      "p": "This novel’s protagonist, born James Gatz, is mentored by the yacht owner Dan Cody before reinventing himself as a wealthy bootlegger. Nick Carraway narrates this novel from his small rented house next to the protagonist’s mansion.",
+      "r": "That protagonist is shot in his pool by George Wilson over the death of Myrtle Wilson. For 10 points, name this Jazz Age novel by F. Scott Fitzgerald."
+    }
+  ],
+  "clues": [
+    {
+      "id": "nick-narrator",
+      "tier": "giveaway",
+      "t": "Narrated by Nick Carraway, who moves next door to the title character on Long Island",
+      "k": [
+        "nick carraway",
+        "narrator",
+        "long island"
+      ],
+      "n": 8,
+      "rabbit": "Nick Carraway"
+    },
+    {
+      "id": "author-fitzgerald",
+      "tier": "giveaway",
+      "t": "Written by F. Scott Fitzgerald and published in 1925, during the Jazz Age",
+      "k": [
+        "fitzgerald",
+        "jazz age",
+        "1925"
+      ],
+      "n": 8
+    },
+    {
+      "id": "green-light",
+      "tier": "giveaway",
+      "t": "A green light across the water on Daisy’s dock symbolizes the title character’s longing",
+      "k": [
+        "green light",
+        "dock",
+        "symbolizes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "west-egg-setting",
+      "tier": "giveaway",
+      "t": "Set in the fictional Long Island communities of West Egg and East Egg in the summer of 1922",
+      "k": [
+        "west egg",
+        "east egg",
+        "long island"
+      ],
+      "n": 3,
+      "rabbit": "Long Island"
+    },
+    {
+      "id": "daisy-buchanan",
+      "tier": "middle",
+      "t": "Nick’s cousin Daisy Buchanan, married to the brutish Tom Buchanan, is the title character’s lost love",
+      "k": [
+        "daisy buchanan",
+        "tom buchanan",
+        "lost love"
+      ],
+      "n": 6,
+      "rabbit": "Daisy Buchanan"
+    },
+    {
+      "id": "myrtle-affair",
+      "tier": "middle",
+      "t": "Tom Buchanan carries on an affair with Myrtle Wilson, a mechanic’s wife from the Valley of Ashes",
+      "k": [
+        "myrtle wilson",
+        "affair",
+        "valley of ashes"
+      ],
+      "n": 2,
+      "rabbit": "Myrtle Wilson"
+    },
+    {
+      "id": "valley-of-ashes",
+      "tier": "middle",
+      "t": "The desolate Valley of Ashes lies between West Egg and New York City",
+      "k": [
+        "valley of ashes",
+        "desolate"
+      ],
+      "n": 2
+    },
+    {
+      "id": "eckleburg-eyes",
+      "tier": "middle",
+      "t": "A faded billboard for the optometrist Doctor T.J. Eckleburg watches over that valley with giant painted eyes",
+      "k": [
+        "eckleburg",
+        "billboard",
+        "giant eyes"
+      ],
+      "n": 3
+    },
+    {
+      "id": "george-wilson-shoots",
+      "tier": "middle",
+      "t": "The grieving mechanic George Wilson shoots the title character in his own swimming pool",
+      "k": [
+        "george wilson",
+        "shoots",
+        "swimming pool"
+      ],
+      "n": 6,
+      "rabbit": "George Wilson"
+    },
+    {
+      "id": "daisy-driving",
+      "tier": "middle",
+      "t": "Daisy, not the title character, was actually driving the car that struck and killed Myrtle",
+      "k": [
+        "daisy",
+        "driving",
+        "killed myrtle"
+      ],
+      "n": 6
+    },
+    {
+      "id": "gatsby-parties",
+      "tier": "middle",
+      "t": "The title character throws lavish parties at his mansion mainly hoping Daisy will attend",
+      "k": [
+        "lavish parties",
+        "mansion",
+        "hoping"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wolfsheim-1919",
+      "tier": "middle",
+      "t": "The title character’s shady associate Meyer Wolfsheim is said to have fixed the 1919 World Series",
+      "k": [
+        "meyer wolfsheim",
+        "1919",
+        "fixed"
+      ],
+      "n": 6,
+      "rabbit": "Meyer Wolfsheim"
+    },
+    {
+      "id": "klipspringer",
+      "tier": "middle",
+      "t": "A freeloading houseguest named Klipspringer lingers at the title character’s mansion",
+      "k": [
+        "klipspringer",
+        "houseguest",
+        "freeloading"
+      ],
+      "n": 3
+    },
+    {
+      "id": "james-gatz",
+      "tier": "power",
+      "t": "The title character was born James “Jimmy” Gatz before reinventing himself under a new name",
+      "k": [
+        "james gatz",
+        "jimmy",
+        "reinventing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dan-cody",
+      "tier": "power",
+      "t": "As a young man, the title character warned a yacht owner named Dan Cody about a coming storm and was taken under his wing",
+      "k": [
+        "dan cody",
+        "yacht owner",
+        "storm"
+      ],
+      "n": 0,
+      "rabbit": "Dan Cody"
+    },
+    {
+      "id": "owl-eyes",
+      "tier": "power",
+      "t": "A bespectacled stranger nicknamed Owl Eyes marvels at the title character’s library and later attends his sparsely attended funeral",
+      "k": [
+        "owl eyes",
+        "bespectacled",
+        "library"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wolfsheim-cufflinks",
+      "tier": "power",
+      "t": "Meyer Wolfsheim wears cufflinks made from human molars",
+      "k": [
+        "cufflinks",
+        "molars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rosy-rosenthal",
+      "tier": "power",
+      "t": "Wolfsheim is haunted by the memory of a gambler named Rosy Rosenthal’s shooting",
+      "k": [
+        "rosy rosenthal",
+        "gambler",
+        "shooting"
+      ],
+      "n": 2
+    },
+    {
+      "id": "walter-chase",
+      "tier": "power",
+      "t": "A minor associate named Walter Chase spends a month in jail after the title character leaves him in the lurch",
+      "k": [
+        "walter chase",
+        "jail",
+        "lurch"
+      ],
+      "n": 1
+    },
+    {
+      "id": "plaza-confrontation",
+      "tier": "power",
+      "t": "A heated confrontation at the Plaza Hotel on the narrator’s thirtieth birthday exposes the title character’s love for Daisy",
+      "k": [
+        "plaza hotel",
+        "thirtieth birthday",
+        "confrontation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "catherine-rumor",
+      "tier": "power",
+      "t": "Myrtle’s sister Catherine spreads a rumor that the title character is really the German Kaiser’s cousin",
+      "k": [
+        "catherine",
+        "rumor",
+        "kaiser"
+      ],
+      "n": 1
+    },
+    {
+      "id": "old-sport",
+      "tier": "power",
+      "t": "The title character calls other men “old sport” as a verbal tic",
+      "k": [
+        "old sport",
+        "verbal tic"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dog-leash-clue",
+      "tier": "power",
+      "t": "A dog leash found at home convinces George Wilson that his wife has been unfaithful",
+      "k": [
+        "dog leash",
+        "unfaithful",
+        "convinces"
+      ],
+      "n": 2
+    },
+    {
+      "id": "wealthy-bootlegger",
+      "tier": "power",
+      "t": "Though he claims an Oxford education and inherited wealth, the title character’s real fortune comes from bootlegging",
+      "k": [
+        "bootlegging",
+        "oxford",
+        "inherited wealth"
+      ],
+      "n": 1
+    },
+    {
+      "id": "famous-last-line",
+      "tier": "power",
+      "t": "The novel’s famous final line compares human striving to “boats against the current, borne back ceaselessly into the past”",
+      "k": [
+        "boats against the current",
+        "final line",
+        "borne back"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "The man or the book?",
+    "body": "“Gatsby” alone is ambiguous: it could mean the title character, Jay Gatsby, or be short for the novel’s title. A tossup that asks to “name this novel” wants the full title, not just the protagonist’s last name.",
+    "fix": "If the clues describe “this character” or “this man,” the moderator is asking about Jay Gatsby specifically. If they say “this novel” or “this book,” answer with the full title, The Great Gatsby.",
+    "line": "Real answer line: <b><u>The Great Gatsby</u></b> (prompt on <u>Gatsby</u> alone)."
+  },
+  "freq": {
+    "rank": 7,
+    "count": 13,
+    "list": "Literature"
+  }
+}

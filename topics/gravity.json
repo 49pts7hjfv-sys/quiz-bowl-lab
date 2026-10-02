@@ -1,0 +1,416 @@
+{
+  "id": "gravity",
+  "name": "Gravity",
+  "mono": "GRV",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Universal attractive force · Holds planets in orbit, keeps us on the ground",
+  "dates": "Formalized by Newton in 1687; reimagined by Einstein in 1915",
+  "briefing": "Gravity is the invisible pull that makes any two objects with mass attract each other, from a dropped pencil snapping to the floor to planets looping around the Sun. Isaac Newton described it as a universal force, while Albert Einstein later reimagined it as the curving of space and time itself. It is the weakest of nature’s four fundamental forces, yet it shapes the entire universe.",
+  "answerHtml": "<b><u>Gravity</u></b>",
+  "accept": [
+    "gravity",
+    "gravitation",
+    "force of gravity",
+    "gravitational force",
+    "gravitational attraction",
+    "gravitational pull",
+    "gravitational field",
+    "law of gravity",
+    "law of universal gravitation",
+    "universal gravitation",
+    "newtons law of gravitation"
+  ],
+  "prompt": [],
+  "reject": [
+    "weight",
+    "mass",
+    "acceleration",
+    "isaac newton",
+    "gravitational waves",
+    "black holes",
+    "black hole"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Brian Cox visits the world’s biggest vacuum | Human Universe",
+      "source": "BBC",
+      "url": "https://www.youtube.com/watch?v=E43-CfukEgs",
+      "note": "A bowling ball and feathers dropped in a giant vacuum chamber land together"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Misconceptions About Falling Objects",
+      "source": "Veritasium",
+      "url": "https://www.youtube.com/watch?v=_mCC-68LyZM",
+      "note": "Common wrong ideas about how things fall, tested with real drops"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Newtonian Gravity: Crash Course Physics #8",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=7gf6YpdvtE0",
+      "note": "Newton’s law of universal gravitation, with the math (older end)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Everyone Gets Wrong About Gravity",
+      "source": "Veritasium",
+      "url": "https://www.youtube.com/watch?v=XRr1kaXKBsU",
+      "note": "Einstein’s view of gravity as curved spacetime, not a pull (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Gravity",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/gravity.php",
+      "note": "Quick read on what gravity is, who discovered it, and weight, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Gravity",
+  "qb": {
+    "q": "gravity",
+    "found": 14,
+    "tip": "Two of the 14 hits are actually different answer lines that merely mention this force in passing — one wants “acceleration” and one wants “weight” (and explicitly refuses “mass”) — both excluded from the sample; the other 12 are genuinely about this force."
+  },
+  "sample": {
+    "n": 12,
+    "note": "the 12 real QBReader tossups genuinely about this force (Middle School + Easy High School, power-marked); 2 further hits that were actually separate “acceleration” and “weight” answer lines were excluded"
+  },
+  "tossups": [
+    {
+      "p": "Physicists hypothesize that this force’s carrier particle would be a massless boson with a spin of two. The unsolved “hierarchy problem” in particle physics asks why this force is so many orders of magnitude weaker than the other fundamental interactions.",
+      "r": "A 2012 study found that this force propagates at the speed of light, and “loop quantum” versions of it rely on a master constraint built from Hamiltonian terms. For 10 points, name this weakest of the four fundamental forces, which gives falling objects on Earth an acceleration of 9.8 meters per second squared."
+    },
+    {
+      "p": "The Pound–Rebka [“pownd REB-kuh”] experiment showed that this phenomenon redshifts gamma rays climbing a tower, confirming a key prediction of general relativity. Beginning in 2015, the LIGO observatory detected ripples from this phenomenon produced by colliding black holes.",
+      "r": "English scientist Henry Cavendish used a torsion balance to measure this phenomenon’s namesake constant, close to 6.67 times ten to the negative eleven newton-meters squared per kilogram squared. For 10 points, name this attractive pull that causes falling objects to accelerate at 9.8 meters per second squared."
+    },
+    {
+      "p": "Einstein’s equivalence principle holds that the pull of this phenomenon feels identical to the push felt by an observer inside an accelerating rocket. In an ideal Atwood machine, only tension and this force act on the two hanging masses.",
+      "r": "This force is the true source of the notoriously unsolvable three-body problem in orbital mechanics. For 10 points, name this weakest of the four fundamental forces, which pulls every object with mass toward every other."
+    },
+    {
+      "p": "This force can bend passing starlight around a massive object, an effect called lensing that was first confirmed during a 1919 solar eclipse. Physicists hoping to unify this force with quantum mechanics into a single framework call their goal a “theory of everything.”",
+      "r": "Isaac Newton is said to have begun studying this force after watching an apple fall from a tree outside his window. For 10 points, name this force that also keeps the Moon orbiting the Earth."
+    },
+    {
+      "p": "Henry Cavendish used a torsion balance to measure this force’s namesake constant, nicknamed “Big G.” That constant, multiplied by the product of two objects’ masses and divided by the square of their distance, gives the strength of this force.",
+      "r": "Einstein’s theory of general relativity describes this force as nothing more than the curving of spacetime itself. For 10 points, name this force that gives falling objects on Earth an acceleration of about 9.8 meters per second squared."
+    },
+    {
+      "p": "“Loop quantum” theories of this force build a master constraint out of Hamiltonian terms, while a 2012 study measured the speed at which it propagates and found it equal to the speed of light.",
+      "r": "This force is always attractive, with a strength proportional to the product of two objects’ masses. It is the weakest of the four fundamental forces, yet it gives objects on Earth’s surface an acceleration of 9.8 meters per second squared. For 10 points, name this force of mutual attraction between any two masses."
+    },
+    {
+      "p": "This force is always attractive and never repulsive, with a strength directly proportional to the product of two objects’ masses. During free-fall, it is the only force acting on a tumbling object.",
+      "r": "This force’s namesake constant is approximately 6.67 times ten to the negative eleven meters cubed per kilogram per second squared, and on Earth this force causes an acceleration of 9.8 meters per second squared. For 10 points, name this force of attraction between any two masses, which pulls objects toward Earth."
+    },
+    {
+      "p": "The redshift this phenomenon produces in light was first measured in a laboratory in the Pound–Rebka [“pownd REB-kuh”] experiment. Its namesake constant is close to 6.67 times ten to the negative eleven meters cubed per kilogram per second squared.",
+      "r": "During free-fall, this phenomenon is the only force acting on a tumbling object, accelerating it at 9.8 meters per second squared. For 10 points, name this force of attraction between any two masses."
+    },
+    {
+      "p": "In an ideal Atwood machine, only tension and this force act on the two hanging weights. After two black holes collided, ripples from this force were detected by the LIGO observatory.",
+      "r": "This force causes a falling object to accelerate at 9.8 meters per second squared. For 10 points, name this weakest of the four fundamental forces, which attracts any two objects with mass toward each other."
+    },
+    {
+      "p": "Einstein’s equivalence principle relates this phenomenon to the push felt by an observer riding in an accelerating elevator. Spacecraft can borrow extra speed from a planet by using this phenomenon in a “slingshot” maneuver.",
+      "r": "Galileo reportedly dropped balls of different masses to show that this phenomenon causes the same acceleration no matter an object’s mass. For 10 points, name this force that pulls objects down toward Earth."
+    },
+    {
+      "p": "“Loop quantum” approaches to this force rely on a master constraint built from Hamiltonian terms, and this force is the true source of the notoriously unsolvable three-body problem studied in orbital mechanics.",
+      "r": "A constant named for this force, sometimes called “Big G,” is multiplied by the product of two masses and divided by the square of their separation to find its strength. For 10 points, name this weakest of the four fundamental forces."
+    },
+    {
+      "p": "Always attractive and never repulsive, this force’s strength is proportional to the product of two objects’ masses, as Henry Cavendish helped confirm using a torsion balance. Einstein later explained it through the curving of spacetime in general relativity.",
+      "r": "The pull of this force on an object’s mass is what gives that object its weight. For 10 points, name this force that accelerates objects on Earth downward at 9.8 meters per second squared."
+    },
+    {
+      "p": "Along with the Sun, the Moon’s pull from this force on Earth’s oceans produces the tides. The Pound–Rebka [“pownd REB-kuh”] experiment confirmed that this phenomenon redshifts light climbing against it.",
+      "r": "Isaac Newton supposedly began studying this force after an apple fell near him. For 10 points, name this weakest of the four fundamental forces, which causes a 9.8-meters-per-second-squared acceleration on Earth."
+    },
+    {
+      "p": "The unsolved “hierarchy problem” asks why this force is so much weaker than the other fundamental interactions, and physicists predict its force-carrying particle would be a massless, spin-two boson.",
+      "r": "This force is the weakest of the four fundamental forces, yet it governs the motion of planets and galaxies alike. For 10 points, name this force that causes a dropped ball to accelerate at 9.8 meters per second squared."
+    },
+    {
+      "p": "Einstein’s general relativity reduces this phenomenon to nothing more than curved spacetime, an idea confirmed when starlight was observed bending around the Sun during a 1919 eclipse.",
+      "r": "Isaac Newton supposedly puzzled over this force after watching an apple fall from a tree. For 10 points, name this weakest fundamental force, which causes objects on Earth to accelerate downward at 9.8 meters per second squared."
+    }
+  ],
+  "clues": [
+    {
+      "id": "basic-definition",
+      "tier": "giveaway",
+      "t": "An attractive pull that exists between any two objects with mass",
+      "k": [
+        "attractive pull",
+        "objects with mass"
+      ],
+      "n": 9
+    },
+    {
+      "id": "four-forces",
+      "tier": "giveaway",
+      "t": "The weakest of the four fundamental forces in all of physics",
+      "k": [
+        "weakest",
+        "fundamental forces"
+      ],
+      "n": 7
+    },
+    {
+      "id": "nine-eight",
+      "tier": "giveaway",
+      "t": "Gives objects on Earth a downward acceleration of about 9.8 meters per second squared",
+      "k": [
+        "9.8 meters",
+        "downward acceleration"
+      ],
+      "n": 11
+    },
+    {
+      "id": "newton-apple",
+      "tier": "giveaway",
+      "t": "Isaac Newton reportedly began studying it after an apple fell from a tree",
+      "k": [
+        "isaac newton",
+        "apple"
+      ],
+      "n": 2
+    },
+    {
+      "id": "general-relativity-basic",
+      "tier": "giveaway",
+      "t": "Albert Einstein’s theory of general relativity describes it as the curving of spacetime",
+      "k": [
+        "general relativity",
+        "curving of spacetime"
+      ],
+      "n": 5
+    },
+    {
+      "id": "weight",
+      "tier": "middle",
+      "t": "The pull of this force on an object’s mass is what gives that object its weight",
+      "k": [
+        "weight",
+        "pull"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cavendish",
+      "tier": "middle",
+      "t": "English scientist Henry Cavendish used a torsion balance to measure its namesake constant",
+      "k": [
+        "henry cavendish",
+        "torsion balance"
+      ],
+      "n": 3
+    },
+    {
+      "id": "constant-value",
+      "tier": "middle",
+      "t": "Its namesake constant, nicknamed Big G, equals about 6.67 times ten to the negative eleven",
+      "k": [
+        "big g",
+        "6.67"
+      ],
+      "n": 4
+    },
+    {
+      "id": "free-fall",
+      "tier": "middle",
+      "t": "During free-fall, it is the only force acting on a falling object",
+      "k": [
+        "free-fall",
+        "only force"
+      ],
+      "n": 2
+    },
+    {
+      "id": "always-attractive",
+      "tier": "middle",
+      "t": "Always attractive and never repulsive, with strength proportional to the product of two masses",
+      "k": [
+        "always attractive",
+        "proportional"
+      ],
+      "n": 2
+    },
+    {
+      "id": "tides",
+      "tier": "middle",
+      "t": "Its pull from the Moon and Sun on Earth’s oceans is responsible for the tides",
+      "k": [
+        "tides",
+        "moon and sun"
+      ],
+      "n": 1
+    },
+    {
+      "id": "equivalence-principle",
+      "tier": "middle",
+      "t": "Einstein’s equivalence principle says its pull feels identical to being inside an accelerating rocket",
+      "k": [
+        "equivalence principle",
+        "accelerating rocket"
+      ],
+      "n": 1
+    },
+    {
+      "id": "slingshot",
+      "tier": "middle",
+      "t": "Spacecraft can gain extra speed from a planet using this pull in a slingshot maneuver",
+      "k": [
+        "slingshot",
+        "spacecraft"
+      ],
+      "n": 1
+    },
+    {
+      "id": "galileo-balls",
+      "tier": "middle",
+      "t": "Galileo reportedly dropped balls of different masses to show its pull causes the same acceleration regardless of mass",
+      "k": [
+        "galileo",
+        "different masses"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pound-rebka",
+      "tier": "power",
+      "t": "The Pound–Rebka experiment showed that it redshifts gamma rays climbing a tower, confirming a prediction of general relativity",
+      "k": [
+        "pound-rebka",
+        "redshift"
+      ],
+      "n": 5
+    },
+    {
+      "id": "ligo-waves",
+      "tier": "power",
+      "t": "Ripples from this force, first detected by the LIGO observatory in 2015, come from events like colliding black holes",
+      "k": [
+        "ligo",
+        "colliding black holes"
+      ],
+      "n": 3
+    },
+    {
+      "id": "graviton",
+      "tier": "power",
+      "t": "Its hypothetical force-carrying particle, the graviton, would be a massless boson with a spin of two",
+      "k": [
+        "graviton",
+        "spin of two"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hierarchy-problem",
+      "tier": "power",
+      "t": "The unsolved hierarchy problem asks why this force is so much weaker than the other fundamental forces",
+      "k": [
+        "hierarchy problem"
+      ],
+      "n": 1
+    },
+    {
+      "id": "three-body",
+      "tier": "power",
+      "t": "It is the true source of the notoriously unsolvable three-body problem in orbital mechanics",
+      "k": [
+        "three-body problem"
+      ],
+      "n": 1
+    },
+    {
+      "id": "theory-everything",
+      "tier": "power",
+      "t": "Unifying it with quantum mechanics into one framework is often called the search for a theory of everything",
+      "k": [
+        "theory of everything",
+        "quantum mechanics"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lensing",
+      "tier": "power",
+      "t": "It can bend passing starlight around a massive object, an effect called lensing",
+      "k": [
+        "lensing",
+        "bend starlight"
+      ],
+      "n": 1
+    },
+    {
+      "id": "atwood-machine",
+      "tier": "power",
+      "t": "In an ideal Atwood machine, only tension and this force act on the two hanging masses",
+      "k": [
+        "atwood machine",
+        "tension"
+      ],
+      "n": 1
+    },
+    {
+      "id": "loop-quantum",
+      "tier": "power",
+      "t": "Loop quantum approaches to it use a master constraint built from Hamiltonian terms",
+      "k": [
+        "loop quantum",
+        "hamiltonian"
+      ],
+      "n": 1
+    },
+    {
+      "id": "speed-of-light",
+      "tier": "power",
+      "t": "A 2012 study measured the speed at which it propagates and found it equal to the speed of light",
+      "k": [
+        "speed of light",
+        "propagates"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Gravity, or weight?",
+    "body": "A real tossup whose answer is “weight” only accepts “force of gravity” early in the question and explicitly refuses “mass” — weight is the specific pull on one particular object, not the general force itself. A separate real tossup is actually about “acceleration” and only mentions this force’s 9.8-meters-per-second-squared value as one supporting clue.",
+    "fix": "If the question asks for the force of attraction between any two masses in general, answer with this force. If it instead asks how hard that force pulls on one specific object (often with units like newtons or pounds), the sharper answer is “weight.”",
+    "line": "Real answer line: <b><u>Gravity</u></b> [a related tossup instead wants “weight,” and does not accept “mass”]"
+  },
+  "tests": {
+    "right": [
+      "Gravity",
+      "gravity",
+      "Gravaty",
+      "Law of Gravity",
+      "Universal Gravitation"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Weight",
+      "Mass",
+      "Acceleration",
+      "Isaac Newton",
+      "Black Hole"
+    ]
+  },
+  "freq": {
+    "rank": 1,
+    "count": 16,
+    "list": "Physics"
+  }
+}

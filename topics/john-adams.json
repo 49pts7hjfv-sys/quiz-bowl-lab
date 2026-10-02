@@ -1,0 +1,441 @@
+{
+  "id": "john-adams",
+  "name": "John Adams",
+  "mono": "JA",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "2nd U.S. President · 1st Vice President",
+  "dates": "1735–1826",
+  "briefing": "John Adams argued so hard for independence in Congress that a fellow delegate called him the “Atlas of Independence,” and then he talked Thomas Jefferson into writing the Declaration. He became the first vice president, the second president, and the first president to live in the White House. He and Jefferson went from friends to rivals to pen pals, and both died on the same day: July 4, 1826, the Declaration’s 50th birthday.",
+  "answerHtml": "<b><u>John Adams</u></b> (prompt on <u>Adams</u>; do not accept “John Quincy Adams”)",
+  "accept": [
+    "john adams",
+    "president john adams"
+  ],
+  "prompt": [
+    "adams",
+    "president adams",
+    "j adams"
+  ],
+  "reject": [
+    "john quincy adams",
+    "john q adams",
+    "jqa",
+    "quincy adams",
+    "samuel adams",
+    "sam adams",
+    "abigail adams",
+    "abigail"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "John Adams | 60-Second Presidents",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=sa-5E1SsEnU",
+      "note": "1 min · his whole life in one minute"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Boston Massacre Trial (1770): Triumph of the Rule of Law",
+      "source": "State Bar of Georgia",
+      "url": "https://www.youtube.com/watch?v=Fx0B5A2GVNE",
+      "note": "Why Adams defended the British soldiers, and why it mattered"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Benjamin Franklin and John Adams: Rivals on the Same Diplomatic Mission",
+      "source": "PBS · Ken Burns’s The American Revolution",
+      "url": "https://www.youtube.com/watch?v=BWSKQ7z3Ing",
+      "note": "Short clip · Adams as a diplomat in France"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Where US Politics Came From (#9)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=r161cLYzuDI",
+      "note": "Adams as president: the XYZ Affair, the Quasi-War, and the Alien and Sedition Acts"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The American Revolution, Part 1",
+      "source": "OverSimplified",
+      "url": "https://www.youtube.com/watch?v=gzALIXcY4pg",
+      "note": "15 min · the Boston Massacre and the Continental Congress, where Adams made his name"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "President John Adams",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/johnadams.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/John_Adams",
+  "qb": {
+    "q": "John Adams",
+    "found": 4,
+    "tip": "One of the four results is about John Quincy Adams, his son. Read the answer line carefully. That is the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 10,
+    "note": "10 real QBReader tossups for this answer line (3 Middle School/Easy High School + 7 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This lawyer declared that “facts are stubborn things” while defending Captain Thomas Preston and the British soldiers charged in the Boston Massacre. Most of the soldiers he defended were found not guilty, though two were convicted of manslaughter.",
+      "r": "He later became the second President of the United States. For 10 points, name this Massachusetts Founding Father, the father of John Quincy Adams."
+    },
+    {
+      "p": "When agents of the French foreign minister Talleyrand [“TAL-ee-rand”] demanded a bribe before they would negotiate, this president released their reports with the agents’ names replaced by the letters X, Y, and Z. That affair led to an undeclared naval war called the Quasi-War.",
+      "r": "This Federalist also signed the Alien and Sedition Acts. For 10 points, name this second U.S. president."
+    },
+    {
+      "p": "Congressman Matthew Lyon was jailed under a law this president signed that made it a crime to publish “false, scandalous and malicious” writing against the government. Thomas Jefferson and James Madison secretly wrote the Kentucky and Virginia Resolutions to protest that law and three others passed with it.",
+      "r": "Those laws were the Alien and Sedition Acts. For 10 points, name this second president, a Federalist from Massachusetts."
+    },
+    {
+      "p": "This president pardoned John Fries [“FREEZ”], who had led Pennsylvania farmers in a revolt against a federal tax on houses and land. That tax helped pay for this president’s buildup of the navy during an undeclared war with France.",
+      "r": "This president was the first to live in the White House. For 10 points, name this second U.S. president."
+    },
+    {
+      "p": "Richard Stockton called this man the “Atlas of Independence” for his speeches at the Second Continental Congress. This man nominated George Washington to lead the Continental Army and persuaded Thomas Jefferson to write the first draft of the Declaration of Independence.",
+      "r": "For 10 points, name this Massachusetts delegate who later became the second U.S. president."
+    },
+    {
+      "p": "This diplomat bought a house in The Hague that became the first American embassy, after he won Dutch recognition and loans for the new nation. He later joined Benjamin Franklin and John Jay to negotiate the Treaty of Paris that ended the American Revolution.",
+      "r": "He then became the first U.S. minister to Great Britain. For 10 points, name this man who later served as the second U.S. president."
+    },
+    {
+      "p": "This man called his job “the most insignificant office that ever the invention of man contrived,” and critics mocked him as “His Rotundity” after he pushed for grand titles for the president. As vice president, he cast more than two dozen tie-breaking votes in the Senate.",
+      "r": "In 1796, he narrowly defeated Thomas Jefferson for the presidency. For 10 points, name this first vice president and second president of the United States."
+    },
+    {
+      "p": "This man was the main author of the 1780 Massachusetts Constitution, the oldest written constitution still in use anywhere in the world. His pamphlet _Thoughts on Government_ argued for splitting power among separate branches of government.",
+      "r": "His wife, Abigail, famously urged him to “remember the ladies.” For 10 points, name this second U.S. president."
+    },
+    {
+      "p": "This man died on the 50th anniversary of the Declaration of Independence, reportedly saying “Thomas Jefferson survives,” not knowing that Jefferson had died hours earlier. The two men had become friends again through letters after Benjamin Rush encouraged them to make peace.",
+      "r": "For 10 points, name this second U.S. president, who died on July 4, 1826."
+    },
+    {
+      "p": "Franklin Roosevelt had this man’s prayer “I pray Heaven to bestow the best of blessings on this House” carved into a fireplace mantel in the State Dining Room. This man created the Department of the Navy during a conflict with France.",
+      "r": "He was the first president to live in the White House. For 10 points, name this second U.S. president."
+    },
+    {
+      "p": "In his final days in office, this man made last-minute appointments nicknamed the “midnight judges,” including William Marbury, whose undelivered commission led to the case _Marbury v. Madison_. This man also appointed John Marshall as Chief Justice of the Supreme Court.",
+      "r": "He lost the election of 1800 to his own vice president, Thomas Jefferson. For 10 points, name this second U.S. president."
+    },
+    {
+      "p": "Alexander Hamilton wrote a pamphlet attacking this fellow Federalist, which helped split their party before the election of 1800. This president angered Hamilton by sending a peace mission to France that produced the Convention of 1800, ending the Quasi-War.",
+      "r": "For 10 points, name this second president, whose vice president was Thomas Jefferson."
+    },
+    {
+      "p": "This man exchanged more than 1,100 letters with his wife, who told him to “remember the ladies” while he helped plan a new government. Their son served as Secretary of State under James Monroe before winning the presidency himself in the election of 1824.",
+      "r": "For 10 points, name this second U.S. president, the husband of Abigail and father of John Quincy Adams."
+    },
+    {
+      "p": "Writing under the pen name “Novanglus,” this lawyer argued that Parliament had no right to govern the colonies. Years earlier, he drafted his town’s instructions protesting the Stamp Act, and in 1776 he seconded Richard Henry Lee’s resolution declaring independence.",
+      "r": "For 10 points, name this Massachusetts patriot who served as the first U.S. vice president and the second president."
+    },
+    {
+      "p": "David McCullough won a Pulitzer Prize for a 2001 biography of this man that later became an HBO miniseries starring Paul Giamatti. This man is the main character of the musical _1776_, which shows him pushing a reluctant Congress toward independence.",
+      "r": "For 10 points, name this Founding Father from Massachusetts who became the second U.S. president."
+    }
+  ],
+  "clues": [
+    {
+      "id": "second-president",
+      "tier": "giveaway",
+      "t": "2nd President (1797–1801) and the 1st Vice President, under George Washington",
+      "k": [
+        "second president",
+        "2nd president",
+        "vice president",
+        "first vice",
+        "1st vice"
+      ],
+      "n": 8
+    },
+    {
+      "id": "jqa-father",
+      "tier": "giveaway",
+      "t": "Father of John Quincy Adams, the 6th president",
+      "k": [
+        "john quincy",
+        "quincy",
+        "jqa"
+      ],
+      "n": 3
+    },
+    {
+      "id": "abigail",
+      "tier": "giveaway",
+      "t": "Husband of Abigail Adams, who told him to “remember the ladies”",
+      "k": [
+        "abigail",
+        "remember the ladies"
+      ],
+      "n": 3,
+      "rabbit": "Abigail Adams"
+    },
+    {
+      "id": "july-4",
+      "tier": "giveaway",
+      "t": "Died July 4, 1826, the same day as Thomas Jefferson (“Thomas Jefferson survives”)",
+      "k": [
+        "july 4",
+        "1826",
+        "jefferson survives",
+        "same day"
+      ],
+      "n": 3
+    },
+    {
+      "id": "white-house",
+      "tier": "giveaway",
+      "t": "First president to live in the White House",
+      "k": [
+        "white house"
+      ],
+      "n": 1
+    },
+    {
+      "id": "alien-sedition",
+      "tier": "middle",
+      "t": "Signed the Alien and Sedition Acts (1798)",
+      "k": [
+        "alien",
+        "sedition"
+      ],
+      "n": 8,
+      "rabbit": "Alien and Sedition Acts"
+    },
+    {
+      "id": "quasi-war",
+      "tier": "middle",
+      "t": "The Quasi-War: an undeclared naval war with France (1798–1800)",
+      "k": [
+        "quasi"
+      ],
+      "n": 7,
+      "rabbit": "Quasi-War"
+    },
+    {
+      "id": "xyz",
+      "tier": "middle",
+      "t": "XYZ Affair: agents of Talleyrand demanded a bribe from U.S. diplomats",
+      "k": [
+        "xyz",
+        "talleyrand",
+        "bribe"
+      ],
+      "n": 4,
+      "rabbit": "XYZ Affair"
+    },
+    {
+      "id": "boston-massacre",
+      "tier": "middle",
+      "t": "As a lawyer, defended Captain Thomas Preston and the British soldiers after the Boston Massacre (1770)",
+      "k": [
+        "boston massacre",
+        "preston"
+      ],
+      "n": 4,
+      "rabbit": "Boston Massacre"
+    },
+    {
+      "id": "federalist",
+      "tier": "middle",
+      "t": "The only Federalist president; lost the election of 1800 to his vice president, Thomas Jefferson",
+      "k": [
+        "federalist",
+        "1800"
+      ],
+      "n": 4
+    },
+    {
+      "id": "independence",
+      "tier": "middle",
+      "t": "Pushed Congress toward independence, nominated Washington as commander, and urged Jefferson to write the Declaration",
+      "k": [
+        "declaration",
+        "independence",
+        "nominated washington"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fries",
+      "tier": "power",
+      "t": "Fries’s Rebellion (1799): Pennsylvania farmers revolted over a house tax, and he pardoned John Fries",
+      "k": [
+        "fries"
+      ],
+      "n": 4
+    },
+    {
+      "id": "stubborn",
+      "tier": "power",
+      "t": "“Facts are stubborn things,” from his Boston Massacre defense",
+      "k": [
+        "stubborn"
+      ],
+      "n": 2
+    },
+    {
+      "id": "midnight",
+      "tier": "power",
+      "t": "“Midnight judges,” including William Marbury (which led to _Marbury v. Madison_); appointed John Marshall Chief Justice",
+      "k": [
+        "midnight",
+        "marbury",
+        "marshall"
+      ],
+      "n": 1,
+      "rabbit": "Marbury v. Madison"
+    },
+    {
+      "id": "mass-constitution",
+      "tier": "power",
+      "t": "Wrote _Thoughts on Government_ and most of the Massachusetts Constitution (1780), the oldest written constitution still in use",
+      "k": [
+        "thoughts on government",
+        "massachusetts constitution"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hague",
+      "tier": "power",
+      "t": "Won Dutch recognition and bought the first American embassy at The Hague; helped negotiate the Treaty of Paris (1783)",
+      "k": [
+        "hague",
+        "dutch",
+        "netherlands",
+        "treaty of paris",
+        "embassy"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mortefontaine",
+      "tier": "power",
+      "t": "The Convention of 1800 (Treaty of Mortefontaine) ended the Quasi-War; Hamilton’s attack pamphlet split the Federalists",
+      "k": [
+        "mortefontaine",
+        "convention of 1800",
+        "hamilton"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rotundity",
+      "tier": "power",
+      "t": "Called the vice presidency “the most insignificant office”; mocked as “His Rotundity”",
+      "k": [
+        "rotundity",
+        "insignificant",
+        "his highness"
+      ],
+      "n": 1
+    },
+    {
+      "id": "naturalization",
+      "tier": "power",
+      "t": "The Naturalization Act raised the wait to become a citizen from 5 to 14 years",
+      "k": [
+        "naturalization",
+        "14 years",
+        "citizen"
+      ],
+      "n": 1
+    },
+    {
+      "id": "navy",
+      "tier": "power",
+      "t": "Created the Department of the Navy (1798)",
+      "k": [
+        "navy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atlas",
+      "tier": "power",
+      "t": "Called the “Atlas of Independence”; seconded Richard Henry Lee’s resolution for independence",
+      "k": [
+        "atlas",
+        "richard henry lee"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lyon",
+      "tier": "power",
+      "t": "Congressman Matthew Lyon was jailed under the Sedition Act; the Kentucky and Virginia Resolutions protested it",
+      "k": [
+        "lyon",
+        "kentucky",
+        "virginia resolution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "novanglus",
+      "tier": "power",
+      "t": "Wrote the “Novanglus” essays and the Braintree Instructions against the Stamp Act",
+      "k": [
+        "novanglus",
+        "braintree",
+        "stamp act"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mccullough",
+      "tier": "power",
+      "t": "Subject of David McCullough’s Pulitzer-winning biography (an HBO miniseries) and the hero of the musical _1776_",
+      "k": [
+        "mccullough",
+        "1776",
+        "giamatti",
+        "hbo"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Which Adams?",
+    "body": "Three famous Adamses show up in quiz bowl. John Adams was the 2nd president. His son, John Quincy Adams, was the 6th president. His cousin Samuel Adams organized the Sons of Liberty. Real answer lines say “do not accept John Quincy Adams,” so naming the wrong one loses the tossup, and an early wrong buzz costs 5 points.",
+    "fix": "John Quincy Adams clues: the Monroe Doctrine, the “corrupt bargain” of 1824, the Amistad case, and collapsing on the floor of the House. Samuel Adams clues: the Sons of Liberty, the Committees of Correspondence, and the Boston Tea Party. Saying only “Adams” gets a prompt, so be ready to add “John.”",
+    "line": "Real answer line: <b><u>John Adams</u></b> (prompt on <u>Adams</u>; do not accept or prompt on “John Quincy Adams”)"
+  },
+  "tests": {
+    "right": [
+      "John Adams",
+      "Jon Adams",
+      "President John Adams"
+    ],
+    "prompt": [
+      "Adams"
+    ],
+    "wrong": [
+      "John Quincy Adams",
+      "Sam Adams",
+      "J.Q.A.",
+      "Abigail Adams"
+    ]
+  },
+  "freq": {
+    "rank": 39,
+    "count": 3,
+    "list": "American History"
+  }
+}

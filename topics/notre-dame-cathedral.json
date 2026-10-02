@@ -1,0 +1,393 @@
+{
+  "id": "notre-dame-cathedral",
+  "name": "Notre Dame Cathedral",
+  "mono": "ND",
+  "category": "Fine Arts",
+  "qbCategory": "Fine Arts",
+  "kicker": "Gothic cathedral on an island in Paris · Setting of Hugo’s bell-ringer novel",
+  "dates": "Built 1163–1345",
+  "briefing": "Started around 1163 on an island in the Seine River, Notre Dame Cathedral took nearly two centuries to finish and became one of the finest examples of French Gothic architecture, famous for its flying buttresses, stone gargoyles, and three glowing rose windows. Victor Hugo set his novel about the bell-ringer Quasimodo inside its towers, and Napoleon crowned himself emperor there in 1804. A devastating fire tore through the cathedral’s roof and spire in 2019, but a major restoration brought it back in 2024.",
+  "answerHtml": "<b><u>Notre Dame</u></b> Cathedral",
+  "accept": [
+    "notre dame",
+    "notre dame cathedral",
+    "cathedral of notre dame"
+  ],
+  "prompt": [],
+  "reject": [
+    "hunchback of notre dame",
+    "the hunchback of notre dame",
+    "university of notre dame",
+    "notre dame university",
+    "sainte chapelle",
+    "saint chapelle"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Notre Dame: France’s Gothic Icon and Medieval Masterpiece",
+      "source": "RFI English",
+      "url": "https://www.youtube.com/watch?v=Pe7t80bQEwk",
+      "note": "News explainer on the Gothic cathedral and why it matters so much to France"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The History of Notre-Dame",
+      "source": "See U in History",
+      "url": "https://www.youtube.com/watch?v=wvtoJ7Dyj1A",
+      "note": "Animated history of the cathedral"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Cathedral of Notre-Dame, Paris (before the fire)",
+      "source": "Smarthistory",
+      "url": "https://www.youtube.com/watch?v=Hijg5XG6yg8",
+      "note": "Art historians tour the Gothic cathedral, filmed before the 2019 fire"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Notre-Dame de Paris Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Notre-Dame_de_Paris",
+      "note": "Quick read: its history since 1163, the 2019 fire, and the 2024 reopening"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+  "qb": {
+    "q": "Notre Dame",
+    "found": 5,
+    "tip": "Most ‘Notre Dame’ results are actually about Victor Hugo’s novel or the University of Notre Dame, not the building — read the answer line carefully before trusting a result. A follow-up search for ‘Notre Dame Cathedral’ found one more real tossup about the building itself."
+  },
+  "sample": {
+    "n": 2,
+    "note": "2 real QBReader tossups clearly about the cathedral building itself (power-marked; most other ‘Notre Dame’ results found were about the Victor Hugo novel or the university instead)"
+  },
+  "tossups": [
+    {
+      "p": "In 1804, Napoleon crowned himself Emperor of the French inside this building, a moment later painted by Jacques-Louis David. A 1723 Pietà sculpture by Nicolas Coustou stands at one of its altars.",
+      "r": "Severely damaged by a 2019 fire that destroyed its roof and toppled its spire, it reopened in December 2024 after a major restoration. For 10 points, name this Gothic cathedral on an island in Paris’s Seine River."
+    },
+    {
+      "p": "A tomb sculpture by Jean-Baptiste Pigalle [“pee-GAHL”] inside this building honors a Count of Harcourt, showing Death holding an hourglass over his effigy. Its west rose window displays the signs of the zodiac.",
+      "r": "Bishop Maurice de Sully began its construction when its cornerstone was laid in 1163. For 10 points, name this Gothic cathedral on an island in the Seine River in Paris."
+    },
+    {
+      "p": "Architect Jean de Chelles [“shell”] designed major additions to this building’s transept facades in the 13th century, part of a project that took nearly two centuries and many different architects to complete.",
+      "r": "It is famous for its flying buttresses and three rose windows. For 10 points, name this Gothic cathedral in Paris, badly damaged by a 2019 fire."
+    },
+    {
+      "p": "The spire that collapsed in a 2019 fire at this building was not actually medieval; it had been added in the 19th century, built mostly of lead and oak. That restoration was led by the architect Eugène Viollet-le-Duc [“vee-oh-lay luh DOOK”].",
+      "r": "Viollet-le-Duc also redesigned many of its carved gargoyles. For 10 points, name this Gothic cathedral on an island in the Seine River."
+    },
+    {
+      "p": "After a 2019 fire, workers rebuilt part of this building’s roof using oak timbers cut and shaped with hand tools, following medieval carpentry methods. It reopened to the public in December 2024.",
+      "r": "Its two towers rise above the Île de la Cité in Paris. For 10 points, name this French Gothic cathedral, the setting of a Victor Hugo novel about a bell-ringer and a dancer."
+    },
+    {
+      "p": "A popular 19th-century Victor Hugo novel about a bell-ringer and a Romani dancer helped spark public interest that led to this building’s restoration. In that novel, the bell-ringer and the dancer both take refuge inside its towers.",
+      "r": "Eugène Viollet-le-Duc led that 19th-century restoration. For 10 points, name this Gothic cathedral in Paris, famous for its rose windows and flying buttresses."
+    },
+    {
+      "p": "Begun under Bishop Maurice de Sully around 1163, this building’s main structure was largely finished by about 1260, though final details and decoration took until roughly 1345. Jean de Chelles worked on its transept facades along the way.",
+      "r": "It sits on an island in the Seine River. For 10 points, name this Gothic cathedral in Paris, badly damaged by fire in 2019."
+    },
+    {
+      "p": "This building’s three rose windows include one on its west front showing the signs of the zodiac. Its exterior is covered with carved gargoyles and chimeras, many added during a 19th-century restoration.",
+      "r": "Flying buttresses support its tall stone walls. For 10 points, name this Gothic cathedral on an island in Paris, the setting of a Victor Hugo novel."
+    },
+    {
+      "p": "One of this building’s two towers holds its great bell, named Emmanuel, while most of its other bells were melted down during the French Revolution and later replaced. Napoleon crowned himself emperor here in 1804.",
+      "r": "A fire tore through its roof and spire in 2019. For 10 points, name this Gothic cathedral in Paris, famous for flying buttresses and rose windows."
+    },
+    {
+      "p": "Flying buttresses, stone supports reaching out from its walls, help this Gothic building’s tall windows and ceilings stand without collapsing. Bishop Maurice de Sully began its construction in the 1160s.",
+      "r": "Its three rose windows and carved gargoyles draw visitors from around the world. For 10 points, name this Paris cathedral, badly damaged by a 2019 fire."
+    },
+    {
+      "p": "Architect Eugène Viollet-le-Duc restored this building in the 19th century, adding many of its famous gargoyles and a tall spire. That spire collapsed in a 2019 fire.",
+      "r": "It stands on an island in the Seine River in Paris. For 10 points, name this Gothic cathedral, the setting of a Victor Hugo novel about a bell-ringer."
+    },
+    {
+      "p": "A Victor Hugo novel set inside this building follows a bell-ringer and a dancer named Esmeralda. The real building has three rose windows and is covered in carved gargoyles.",
+      "r": "It sits on an island in the Seine River in Paris. For 10 points, name this French Gothic cathedral, badly damaged by a 2019 fire."
+    },
+    {
+      "p": "A 2019 fire destroyed this building’s roof and toppled its spire, but it reopened to the public in December 2024 after a major restoration. Bishop Maurice de Sully began building it in 1163.",
+      "r": "It stands on an island in the Seine River in Paris, with flying buttresses and three rose windows. For 10 points, name this French Gothic cathedral."
+    },
+    {
+      "p": "Its name is French for “Our Lady,” honoring the Virgin Mary. This Gothic building stands on the Île de la Cité, an island in the Seine River in the middle of Paris.",
+      "r": "A 2019 fire badly damaged its roof and spire before a major restoration. For 10 points, name this French cathedral, famous for its flying buttresses and gargoyles."
+    },
+    {
+      "p": "This Gothic cathedral sits on an island in the Seine River in Paris, famous for its flying buttresses, carved gargoyles, and three rose windows.",
+      "r": "A 2019 fire destroyed its roof and spire before it reopened in December 2024. For 10 points, name this French cathedral, the setting of a Victor Hugo novel about a bell-ringer."
+    }
+  ],
+  "clues": [
+    {
+      "id": "location",
+      "tier": "giveaway",
+      "t": "Gothic cathedral on the Île de la Cité, an island in the Seine River in Paris",
+      "k": [
+        "ile de la cite",
+        "seine river"
+      ],
+      "n": 2
+    },
+    {
+      "id": "de-sully-1163",
+      "tier": "giveaway",
+      "t": "Construction began under Bishop Maurice de Sully, with the cornerstone traditionally laid in 1163",
+      "k": [
+        "maurice de sully",
+        "1163"
+      ],
+      "n": 2
+    },
+    {
+      "id": "name-meaning",
+      "tier": "giveaway",
+      "t": "Its name is French for “Our Lady,” honoring the Virgin Mary",
+      "k": [
+        "our lady",
+        "virgin mary"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fire-2019",
+      "tier": "giveaway",
+      "t": "Severely damaged by a fire in April 2019 that destroyed its roof and toppled its spire",
+      "k": [
+        "april 2019",
+        "toppled its spire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hugo-novel",
+      "tier": "giveaway",
+      "t": "Setting of a famous Victor Hugo novel about the bell-ringer Quasimodo and the dancer Esmeralda",
+      "k": [
+        "victor hugo",
+        "quasimodo",
+        "esmeralda"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gothic-style",
+      "tier": "middle",
+      "t": "A prime example of French Gothic architecture",
+      "k": [
+        "gothic architecture"
+      ],
+      "n": 2
+    },
+    {
+      "id": "three-rose-windows",
+      "tier": "middle",
+      "t": "Famous for three large rose windows set into its facades",
+      "k": [
+        "rose windows",
+        "three large"
+      ],
+      "n": 2
+    },
+    {
+      "id": "viollet-le-duc",
+      "tier": "middle",
+      "t": "Restored in the 19th century by architect Eugène Viollet-le-Duc, who redesigned many gargoyles and added the spire that later collapsed in 2019",
+      "k": [
+        "viollet-le-duc",
+        "redesigned many gargoyles"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gargoyles",
+      "tier": "middle",
+      "t": "Covered in carved gargoyles and chimeras, many added during that 19th-century restoration",
+      "k": [
+        "gargoyles",
+        "chimeras"
+      ],
+      "n": 1
+    },
+    {
+      "id": "flying-buttresses",
+      "tier": "middle",
+      "t": "Famous for flying buttresses, the external stone supports that let its walls rise higher with huge windows",
+      "k": [
+        "flying buttresses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "architects-centuries",
+      "tier": "middle",
+      "t": "Built over nearly two centuries by many different architects",
+      "k": [
+        "nearly two centuries",
+        "many architects"
+      ],
+      "n": 1
+    },
+    {
+      "id": "reopened-2024",
+      "tier": "middle",
+      "t": "Reopened to the public in December 2024 after a major restoration",
+      "k": [
+        "reopened",
+        "december 2024"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hunchback-characters",
+      "tier": "middle",
+      "t": "In Hugo’s novel, the bell-ringer and the dancer both take refuge within its towers",
+      "k": [
+        "bell ringer",
+        "take refuge",
+        "towers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zodiac",
+      "tier": "power",
+      "t": "The signs of the zodiac decorate its west rose window",
+      "k": [
+        "signs of the zodiac",
+        "west rose window"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pieta",
+      "tier": "power",
+      "t": "A 1723 Pietà statue by sculptor Nicolas Coustou stands at one of its altars",
+      "k": [
+        "nicolas coustou",
+        "pieta"
+      ],
+      "n": 1
+    },
+    {
+      "id": "harcourt-tomb",
+      "tier": "power",
+      "t": "A tomb sculpture by Jean-Baptiste Pigalle honors a Count of Harcourt, showing Death holding an hourglass over his effigy",
+      "k": [
+        "pigalle",
+        "count of harcourt"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chelles",
+      "tier": "power",
+      "t": "Architect Jean de Chelles designed major work on its transept facades in the 13th century",
+      "k": [
+        "jean de chelles",
+        "transept facades"
+      ],
+      "n": 1
+    },
+    {
+      "id": "completion-dates",
+      "tier": "power",
+      "t": "Main structure was largely finished by about 1260, though final details and decoration took until roughly 1345",
+      "k": [
+        "1260",
+        "1345"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spire-material",
+      "tier": "power",
+      "t": "The spire destroyed in the 2019 fire was a 19th-century addition made mostly of lead and oak, not an original medieval piece",
+      "k": [
+        "lead and oak",
+        "19th century addition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "restoration-technique",
+      "tier": "power",
+      "t": "The post-2019 restoration used traditional medieval techniques, including oak-timber framing cut and shaped by hand",
+      "k": [
+        "timber framing",
+        "shaped by hand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hugo-campaign",
+      "tier": "power",
+      "t": "Victor Hugo’s 1831 novel helped spark the public interest that led to the 19th-century restoration",
+      "k": [
+        "1831 novel",
+        "sparked interest"
+      ],
+      "n": 0,
+      "rabbit": "Victor Hugo"
+    },
+    {
+      "id": "emmanuel-bell",
+      "tier": "power",
+      "t": "Its south tower holds the cathedral’s great bell, named Emmanuel; most of its other bells were melted down during the French Revolution and later replaced",
+      "k": [
+        "great bell",
+        "emmanuel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "napoleon-coronation",
+      "tier": "power",
+      "t": "In 1804, Napoleon crowned himself Emperor of the French inside this cathedral",
+      "k": [
+        "napoleon crowned himself",
+        "1804"
+      ],
+      "n": 0,
+      "rabbit": "Napoleon Bonaparte"
+    }
+  ],
+  "trap": {
+    "title": "Cathedral, novel, or university?",
+    "body": "Several different answer lines can hide behind the words “Notre Dame.” Most real tossups that search for “Notre Dame” turn out to be about Victor Hugo’s novel, not the building itself, and in the United States “Notre Dame” almost always means the University of Notre Dame and its Fighting Irish football team. A tossup about rose windows, flying buttresses, or a 2019 fire wants the actual cathedral in Paris.",
+    "fix": "Listen for the subject noun. “This novel,” or clues about Quasimodo, Esmeralda, or Victor Hugo as the author, mean the book. “This university,” or clues about football and South Bend, Indiana, mean the school. “This cathedral,” “this building,” or “this structure” means the real building in Paris.",
+    "line": "Real answer line: <b><u>Notre Dame</u></b> Cathedral (or Notre-Dame de Paris)."
+  },
+  "tests": {
+    "right": [
+      "Notre Dame Cathedral",
+      "Notre Dame",
+      "notre dame",
+      "Nortre Dame",
+      "Cathedral of Notre Dame"
+    ],
+    "prompt": [],
+    "wrong": [
+      "The Hunchback of Notre Dame",
+      "University of Notre Dame",
+      "Victor Hugo",
+      "Quasimodo",
+      "Sainte-Chapelle"
+    ]
+  },
+  "freq": {
+    "rank": 96,
+    "count": 2,
+    "list": "Fine Arts"
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "id": "pangaea",
+  "name": "Pangaea",
+  "mono": "PAN",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Ancient supercontinent · Broke apart into today’s continents",
+  "dates": "Formed ~335 million years ago; began splitting ~200 million years ago",
+  "briefing": "Imagine every continent on Earth squashed together into one giant landmass — that was Pangaea. About 335 million years ago, Earth’s continents collided into this single supercontinent, and scientist Alfred Wegener used its puzzle-piece coastlines and matching fossils to argue that the continents must once have been joined. Slow-moving plate tectonics tore Pangaea apart starting around 200 million years ago, splitting it into the continents we recognize today.",
+  "answerHtml": "<b><u>Pangaea</u></b> (also spelled <u>Pangea</u>; prompt on <u>supercontinent</u>)",
+  "accept": [
+    "pangaea",
+    "pangea"
+  ],
+  "prompt": [
+    "supercontinent"
+  ],
+  "reject": [
+    "gondwana",
+    "gondwanaland",
+    "laurasia",
+    "pannotia",
+    "rodinia",
+    "panthalassa",
+    "pangaea ultima",
+    "pangaea proxima",
+    "continental drift",
+    "plate tectonics"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Pangaea Pop-up - Michael Molina",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=p-vNSqUy0l4",
+      "note": "Animated lesson on how the continents once fit together and then drifted apart"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Continental Drift from Pangea to Today",
+      "source": "ArcGIS",
+      "url": "https://www.youtube.com/watch?v=OGdPqpzYD4o",
+      "note": "Animated map of Pangaea breaking up into today’s continents"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Animated Life: Pangea, Wegener, and Continental Drift",
+      "source": "HHMI BioInteractive",
+      "url": "https://www.youtube.com/watch?v=RgJZ0ySEKYg",
+      "note": "Animated story of how Alfred Wegener used fossils and rocks to argue the continents were once joined"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Alfred Wegener: Great Minds",
+      "source": "SciShow",
+      "url": "https://www.youtube.com/watch?v=nbU809Cyrao",
+      "note": "Life of the scientist who proposed continental drift and Pangaea"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Pangaea Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Pangaea",
+      "note": "Quick read: Wegener’s continental drift, matching fossils, and how Pangaea broke apart"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Pangaea",
+  "qb": {
+    "q": "Pangaea",
+    "found": 5,
+    "tip": "All 5 results were genuinely about the supercontinent, so nothing had to be thrown out as off-topic."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This landmass’s assembly did not include the blocks that became Cathaysia, now part of China, and fossils of the reptile Lystrosaurus on several separate modern continents support its existence. The collision of Gondwana with Laurasia that assembled this landmass threw up the Appalachian Mountains.",
+      "r": "Mesosaurus fossils found on both sides of the Atlantic Ocean offer more proof that this landmass once existed. For 10 points, name this ancient supercontinent proposed by Alfred Wegener, whose name means “all Earth.”"
+    },
+    {
+      "p": "Rock layers in South Africa’s Karoo region match strata found across the Atlantic in Brazil’s Santa Catarina region, a clue cited as early evidence for this landmass’s existence. German scientist Alfred Wegener first proposed this landmass while developing his theory of continental drift, noting how the coastlines of South America and Africa seem to fit together like puzzle pieces.",
+      "r": "This landmass was surrounded by a single giant ocean called Panthalassa. For 10 points, name this supercontinent that broke apart into today’s continents."
+    },
+    {
+      "p": "Fossils of the seed fern Glossopteris, found across several now-separated southern continents, helped convince scientists that this landmass once joined them together. A smaller sea named Tethys cut into this landmass’s eastern edge, separating its southern half from its northern half.",
+      "r": "This landmass began splitting apart roughly 200 million years ago, first dividing into the northern Laurasia and the southern Gondwana. For 10 points, name this supercontinent that contained nearly all of Earth’s dry land."
+    },
+    {
+      "p": "Glacial scratches found in now-warm regions like southern Africa, South America, India, and Australia show that those lands once sat clustered near the South Pole as part of this landmass. Wegener’s 1915 book, _The Origin of Continents and Oceans_, used such climate clues alongside matching fossils to argue for this landmass’s past existence.",
+      "r": "Scientists later confirmed this landmass had existed using paleomagnetism, the record of Earth’s magnetic field preserved in ancient rock. For 10 points, name this ancient supercontinent, the most recent single landmass to contain nearly all of Earth’s dry land."
+    },
+    {
+      "p": "This landmass is hypothesized to be only the most recent in a series of supercontinents that includes two earlier ones called Rodinia and Pannotia. Some geologists predict that continuing plate movement will eventually reassemble a similar future supercontinent, perhaps in another 200 million years.",
+      "r": "This landmass’s formation left out a set of blocks called Cathaysia, now part of eastern Asia. For 10 points, name this supercontinent proposed by Alfred Wegener, whose breakup created the modern Atlantic Ocean."
+    },
+    {
+      "p": "Early in this landmass’s assembly, a collision between two large landmasses threw up a mountain chain that today appears as the Appalachians in North America, the Caledonides in Scotland and Scandinavia, and the Atlas range in Morocco. Those three ranges share matching rock layers even though they now sit on three separate continents.",
+      "r": "This landmass broke apart starting in the Triassic and Jurassic periods, helping open up the modern Atlantic Ocean as the pieces drifted away from each other. For 10 points, name this most recent of Earth’s supercontinents."
+    },
+    {
+      "p": "An ocean called Panthalassa, meaning “all sea,” surrounded this landmass on every side, while the smaller Tethys Sea wrapped partway around its eastern edge. Mesosaurus, a small freshwater reptile unable to swim across oceans, left matching fossils on both the South American and African sides of the later Atlantic Ocean because of this landmass’s existence.",
+      "r": "German meteorologist Alfred Wegener proposed this landmass’s existence as part of his theory of continental drift. For 10 points, name this ancient supercontinent whose name combines Greek words for “all” and “Earth.”"
+    },
+    {
+      "p": "Fossils of Lystrosaurus, a stocky plant-eating reptile, have been found on modern-day Antarctica, Africa, and Asia, offering evidence for this landmass’s existence. Scratches left by ancient glaciers in regions that are now tropical, including parts of India and Australia, show those lands once sat much closer to the South Pole as part of this landmass.",
+      "r": "Alfred Wegener first proposed this landmass in the early 20th century as part of his theory of continental drift. For 10 points, name this single enormous landmass that contained nearly all of Earth’s continents before it broke apart."
+    },
+    {
+      "p": "Fossils of the extinct seed fern Glossopteris appear across the southern continents that once made up this landmass’s larger half, a region later named Gondwana. This landmass’s puzzle-piece shape is visible today in how the eastern coast of South America curves to match the western coast of Africa.",
+      "r": "This landmass formed roughly 335 million years ago as nearly all of Earth’s continents collided into one. For 10 points, name this supercontinent, a name combining the Greek words for “all” and “Earth.”"
+    },
+    {
+      "p": "Rock strata in the Karoo region of South Africa line up with matching layers found across the Atlantic in Brazil, a clue early geologists used to argue that those regions were once joined as part of this landmass. A single world ocean named Panthalassa stretched around this landmass’s outer edge.",
+      "r": "This landmass takes its name from Greek words meaning “all” and “Earth,” since it once contained virtually all of Earth’s land. For 10 points, name this supercontinent proposed by Alfred Wegener."
+    },
+    {
+      "p": "A now-extinct freshwater reptile called Mesosaurus left fossils on both the South American and African coastlines, even though it could never have swum across the ocean that now separates them. This landmass’s assembly closed up an earlier ocean through the collision of Gondwana and Laurasia, raising a mountain chain whose eroded remains include the Appalachians.",
+      "r": "Alfred Wegener’s early 20th-century theory of continental drift first proposed that this landmass had existed. For 10 points, name this ancient supercontinent that broke apart into today’s continents."
+    },
+    {
+      "p": "Fossils of the seed fern Glossopteris and the reptile Lystrosaurus turn up in both Africa and the Indian subcontinent, lands now separated by a wide ocean, and were cited as evidence for this landmass. Alfred Wegener also noted how neatly South America’s eastern bulge fits against the western coast of Africa while developing his theory of continental drift.",
+      "r": "This landmass eventually broke into the northern Laurasia and the southern Gondwana. For 10 points, name this ancient supercontinent."
+    },
+    {
+      "p": "This landmass is the most recent in a long line of supercontinents that includes Rodinia and Pannotia, part of a repeating pattern geologists call the supercontinent cycle. Scientists confirmed this landmass’s past existence partly through paleomagnetism, which reads the direction of Earth’s ancient magnetic field as it was frozen into cooling rock.",
+      "r": "Alfred Wegener first proposed this landmass as part of his theory of continental drift in the early 1900s. For 10 points, name this supercontinent whose slow breakup eventually produced the Atlantic Ocean."
+    },
+    {
+      "p": "This landmass’s interior, far from any ocean, likely had an extremely dry, harsh climate with huge temperature swings between seasons. Its formation sealed shut an earlier ocean and sent up a mountain range whose worn-down remains now appear on three separate continents as the Appalachians, the Caledonides, and the Atlas Mountains.",
+      "r": "A single world ocean called Panthalassa surrounded this landmass, while the smaller Tethys Sea bordered part of its eastern edge. For 10 points, name this ancient supercontinent that broke apart beginning around 200 million years ago."
+    },
+    {
+      "p": "Coal deposits found today beneath the ice of Antarctica suggest that continent once had a far warmer, swampier climate as part of this landmass, before drifting to its present polar position. This landmass did not include a set of continental blocks called Cathaysia, now part of eastern Asia.",
+      "r": "This landmass formed around 335 million years ago, when nearly every one of Earth’s continents collided into a single mass. For 10 points, name this supercontinent, whose name combines the Greek words for “all” and “Earth.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "An ancient supercontinent that broke apart into today’s separate continents",
+      "k": [
+        "supercontinent",
+        "broke apart"
+      ],
+      "n": 5
+    },
+    {
+      "id": "wegener",
+      "tier": "giveaway",
+      "t": "Proposed by German scientist Alfred Wegener as part of his theory of continental drift",
+      "k": [
+        "alfred wegener",
+        "continental drift"
+      ],
+      "n": 5,
+      "rabbit": "Plate tectonics"
+    },
+    {
+      "id": "name-meaning",
+      "tier": "giveaway",
+      "t": "Its name combines Greek words meaning “all” and “Earth”",
+      "k": [
+        "all earth",
+        "greek"
+      ],
+      "n": 3
+    },
+    {
+      "id": "breakup-timing",
+      "tier": "giveaway",
+      "t": "Began breaking apart roughly 200 million years ago",
+      "k": [
+        "200 million",
+        "breaking apart"
+      ],
+      "n": 5
+    },
+    {
+      "id": "laurasia-gondwana",
+      "tier": "giveaway",
+      "t": "Split first into the northern Laurasia and the southern Gondwana",
+      "k": [
+        "laurasia",
+        "gondwana"
+      ],
+      "n": 5,
+      "rabbit": "Gondwana"
+    },
+    {
+      "id": "tethys",
+      "tier": "middle",
+      "t": "A smaller sea named Tethys bordered its eastern edge, between its two halves",
+      "k": [
+        "tethys sea",
+        "tethys"
+      ],
+      "n": 3
+    },
+    {
+      "id": "fourth-supercontinent",
+      "tier": "middle",
+      "t": "The most recent in a series of supercontinents that includes earlier ones like Columbia, Rodinia, and Pannotia",
+      "k": [
+        "rodinia",
+        "pannotia"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mesosaurus",
+      "tier": "middle",
+      "t": "Matching Mesosaurus fossils on the Brazilian and African coasts support its existence",
+      "k": [
+        "mesosaurus"
+      ],
+      "n": 2
+    },
+    {
+      "id": "formed-335",
+      "tier": "middle",
+      "t": "Formed roughly 335 million years ago as nearly all of Earth’s continents collided",
+      "k": [
+        "335 million"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plate-tectonics",
+      "tier": "middle",
+      "t": "Its breakup was driven by plate tectonics, the slow movement of Earth’s crustal plates",
+      "k": [
+        "plate tectonics"
+      ],
+      "n": 0
+    },
+    {
+      "id": "book",
+      "tier": "middle",
+      "t": "Wegener detailed the idea in his book _The Origin of Continents and Oceans_",
+      "k": [
+        "origin of continents"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ocean-opened",
+      "tier": "middle",
+      "t": "Its slow breakup helped open up the modern Atlantic Ocean",
+      "k": [
+        "atlantic ocean"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coastlines",
+      "tier": "middle",
+      "t": "South America’s eastern coastline appears to fit against Africa’s western coastline like puzzle pieces",
+      "k": [
+        "puzzle pieces",
+        "south america"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lystrosaurus",
+      "tier": "power",
+      "t": "Lystrosaurus fossils on modern Antarctica, Africa, and Asia offer more proof of its existence",
+      "k": [
+        "lystrosaurus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cathaysia",
+      "tier": "power",
+      "t": "Its assembly did not include a set of blocks called Cathaysia, now part of eastern Asia",
+      "k": [
+        "cathaysia"
+      ],
+      "n": 1
+    },
+    {
+      "id": "karoo",
+      "tier": "power",
+      "t": "Matching rock layers in South Africa’s Karoo region and Brazil’s Santa Catarina region were early evidence for its existence",
+      "k": [
+        "karoo",
+        "santa catarina"
+      ],
+      "n": 1
+    },
+    {
+      "id": "appalachians",
+      "tier": "power",
+      "t": "The collision that assembled it threw up a mountain chain now split among the Appalachians, the Caledonides, and the Atlas Mountains",
+      "k": [
+        "appalachians",
+        "caledonides"
+      ],
+      "n": 1
+    },
+    {
+      "id": "glossopteris",
+      "tier": "power",
+      "t": "Fossils of the seed fern Glossopteris appear across its former southern half, later named Gondwana",
+      "k": [
+        "glossopteris"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glacial",
+      "tier": "power",
+      "t": "Glacial scratches in now-tropical regions like India and Australia show those lands once sat near the South Pole as part of it",
+      "k": [
+        "glacial scratches"
+      ],
+      "n": 1
+    },
+    {
+      "id": "paleomagnetism",
+      "tier": "power",
+      "t": "Confirmed scientifically through paleomagnetism, the record of Earth’s ancient magnetic field preserved in rock",
+      "k": [
+        "paleomagnetism"
+      ],
+      "n": 0
+    },
+    {
+      "id": "interior-climate",
+      "tier": "power",
+      "t": "Its vast, ocean-less interior is thought to have had an extremely dry, harsh climate",
+      "k": [
+        "interior"
+      ],
+      "n": 0
+    },
+    {
+      "id": "supercontinent-cycle",
+      "tier": "power",
+      "t": "Part of a repeating “supercontinent cycle”: landmasses like it periodically join and split apart over hundreds of millions of years",
+      "k": [
+        "supercontinent cycle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "panthalassa",
+      "tier": "power",
+      "t": "A single enormous world ocean called Panthalassa surrounded nearly all of it",
+      "k": [
+        "panthalassa"
+      ],
+      "n": 2
+    }
+  ],
+  "trap": {
+    "title": "Pangaea, Laurasia, or Gondwana?",
+    "body": "Quiz bowl also asks about Laurasia (the northern half Pangaea first split into) and Gondwana (the southern half) as their own separate answers. A tossup describing only Africa, South America, Antarctica, India, and Australia wants Gondwana. A tossup describing only North America, Europe, and most of Asia wants Laurasia, not the whole original supercontinent.",
+    "fix": "If the clues only cover the southern continents, it is probably Gondwana. If they only cover the northern continents, it is probably Laurasia. If the clues describe puzzle-piece coastlines, Alfred Wegener, or essentially all of Earth’s land joined together, it is Pangaea.",
+    "line": "Real answer line: <b><u>Pangaea</u></b> [one real set also accepted “Gondwanaland” on its earliest clues only; this site marks it wrong, since Gondwana is its own answer]"
+  },
+  "tests": {
+    "right": [
+      "Pangaea",
+      "Pangea",
+      "Pangaia",
+      "pangaea supercontinent"
+    ],
+    "prompt": [
+      "supercontinent"
+    ],
+    "wrong": [
+      "Gondwana",
+      "Laurasia",
+      "Pannotia",
+      "Continental Drift"
+    ]
+  },
+  "freq": {
+    "rank": 3,
+    "count": 6,
+    "list": "Earth Science"
+  }
+}

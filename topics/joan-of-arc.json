@@ -1,0 +1,389 @@
+{
+  "id": "joan-of-arc",
+  "name": "Joan of Arc",
+  "mono": "JOA",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Peasant girl who led French troops · Later canonized a saint",
+  "dates": "c. 1412–1431",
+  "briefing": "At about 17, a peasant girl named Joan of Arc told France’s future king that heavenly visions had sent her to save the country from England. Wearing armor and carrying her own banner, she led French troops to break the Siege of Orléans in 1429, turning the tide of the Hundred Years’ War. Captured a year later, she was convicted of heresy by an English-backed court and burned at the stake in 1431 — but the Catholic Church later declared her innocent and made her a saint.",
+  "answerHtml": "<b><u>Joan of Arc</u></b> (or <u>Saint Joan of Arc</u>, <u>Jeanne d’Arc</u>; prompt on <u>Joan</u> or <u>Jeanne</u> alone)",
+  "accept": [
+    "joan of arc",
+    "saint joan of arc",
+    "st joan of arc",
+    "saint joan",
+    "jeanne darc",
+    "jeanne d arc"
+  ],
+  "prompt": [
+    "joan",
+    "jeanne",
+    "maid of orleans"
+  ],
+  "reject": [
+    "charles vii",
+    "hundred years war",
+    "marie antoinette",
+    "dauphin",
+    "siege of orleans"
+  ],
+  "tests": {
+    "right": [
+      "Joan of Arc",
+      "Saint Joan of Arc",
+      "Jeanne d'Arc",
+      "Jone of Arc",
+      "St. Joan of Arc"
+    ],
+    "prompt": [
+      "Joan",
+      "Jeanne"
+    ],
+    "wrong": [
+      "Charles VII",
+      "Hundred Years' War",
+      "Marie Antoinette",
+      "Dauphin"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Joan of Arc Song",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=5ZGwXRuNsUg",
+      "note": "Short · funny song that tells Joan of Arc’s whole story"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Joan of Arc: The Biography Shorties",
+      "source": "Teachings in Education",
+      "url": "https://www.youtube.com/watch?v=RInNBPuZb0M",
+      "note": "Short kid-friendly overview of her life and death"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Joan of Arc: The Mad King (Part 1)",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=4XFVzpJxgUk",
+      "note": "Cartoon series, Part 1 of 5: France’s “mad king” and the mess Joan was born into"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Biography: Joan of Arc for Kids",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/women_leaders/joan_of_arc.php",
+      "note": "Quick read: her visions, her victories over the English, and her capture and death"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+  "qb": {
+    "q": "Joan of Arc",
+    "found": 5,
+    "tip": "All 5 results were about her specifically rather than the larger war, so no extra filtering was needed."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this exact answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "While imprisoned at Beaurevoir Castle, this woman tried to escape by jumping from a tower some 70 feet high into a dry moat. Earlier, she had told France’s uncrowned heir that heavenly voices, including those of Saints Michael, Catherine, and Margaret, had sent her to save the kingdom.",
+      "r": "This peasant girl led French troops to break the Siege of Orléans in 1429. For 10 points, name this teenager who was later burned at the stake and eventually made a saint."
+    },
+    {
+      "p": "An English-backed court partly convicted this woman of heresy over her choice to wear men’s clothing, since heresy alone required a repeat offense to carry the death penalty. Burgundian forces captured this woman at the Siege of Compiègne [“kom-pyen”] in 1430 and later sold her to the English.",
+      "r": "This commander had escorted Charles VII to Reims for his coronation the year before. For 10 points, name this French peasant who was burned at the stake in 1431."
+    },
+    {
+      "p": "Years after her death, a woman named Claude des Armoises pretended to be this person, claiming she had secretly survived. A later church trial, held about 25 years after her death, declared this person innocent and a martyr.",
+      "r": "This commander broke the English siege of Orléans in 1429. For 10 points, name this French peasant girl, eventually canonized a saint by the Catholic Church."
+    },
+    {
+      "p": "This commander reportedly pushed French captains to make greater use of artillery and cannons during sieges. Said to have experienced visions of Saints Michael, Catherine, and Margaret, this teenager left her village of Domrémy [“doh-ray-MEE”] to find France’s uncrowned heir.",
+      "r": "This leader helped crown Charles VII at Reims. For 10 points, name this peasant girl who led French troops during the Hundred Years’ War."
+    },
+    {
+      "p": "This woman’s connection to Saint Michael is one reason he is considered a patron saint of France. Historians still study the unusually detailed trial transcripts kept from this woman’s 1431 trial, among the best-documented records to survive from the Middle Ages.",
+      "r": "This commander was burned at the stake after being convicted of heresy. For 10 points, name this teenage French peasant who broke the Siege of Orléans."
+    },
+    {
+      "p": "Rather than fighting hand-to-hand, this commander mostly rode into battle wearing armor and carrying her own banner to inspire French troops. Burgundian forces captured this commander at Compiègne and sold her to the English, who put her on trial at Rouen [“roo-AHN”].",
+      "r": "This peasant girl helped crown Charles VII at Reims in 1429. For 10 points, name this French teenager burned at the stake for heresy in 1431."
+    },
+    {
+      "p": "This teenager first approached Charles VII while he was still only France’s uncrowned “Dauphin,” convincing him that heavenly visions had sent her to save the kingdom. This commander then led troops that broke the long English siege of Orléans in 1429.",
+      "r": "This peasant was burned at the stake two years later. For 10 points, name this French commander from the Hundred Years’ War, later made a Catholic saint."
+    },
+    {
+      "p": "This woman tried to escape captivity at Beaurevoir Castle by leaping from a high tower into a dry moat below. A posthumous trial about 25 years after her death declared this woman innocent of all charges and a martyr.",
+      "r": "This peasant girl was burned at the stake at Rouen in 1431. For 10 points, name this French commander who broke the Siege of Orléans."
+    },
+    {
+      "p": "This commander claimed visions of Saints Michael, Catherine, and Margaret convinced her to escort France’s heir to his coronation at Reims. Captured by Burgundian troops at Compiègne in 1430, this woman was later sold to the English.",
+      "r": "This peasant girl was convicted of heresy and burned at the stake in 1431. For 10 points, name this teenage French military leader."
+    },
+    {
+      "p": "This teenager encouraged French commanders to rely more on artillery, including in the fighting that finally broke the English siege of Orléans. A few years after her death, a woman named Claude des Armoises falsely claimed to be this person.",
+      "r": "This peasant from Domrémy helped crown Charles VII. For 10 points, name this French commander burned at the stake in 1431."
+    },
+    {
+      "p": "Part of the case against this woman rested on her decision to wear men’s clothing and armor, since a first offense of heresy alone could not bring a death sentence. This commander’s connection to Saint Michael is one reason he became a patron saint of France.",
+      "r": "This peasant girl broke the Siege of Orléans in 1429. For 10 points, name this French teenager later burned at the stake and made a saint."
+    },
+    {
+      "p": "This commander rode into battle carrying a banner rather than personally fighting with a sword. Burgundian forces who captured this woman at Compiègne sold her to the English, who tried her at Rouen on charges of heresy.",
+      "r": "This peasant helped crown Charles VII of France at Reims. For 10 points, name this teenage military leader burned at the stake in 1431."
+    },
+    {
+      "p": "This woman’s trial records are considered unusually complete for a medieval legal case, giving historians rare insight into her own words. This commander said visions of Saints Michael, Catherine, and Margaret had convinced her to seek out France’s uncrowned heir.",
+      "r": "This peasant girl led French troops to break the Siege of Orléans. For 10 points, name this French commander burned at the stake in 1431 and later canonized a saint."
+    },
+    {
+      "p": "This teenager tried to escape imprisonment at Beaurevoir Castle by jumping from a tower, though she survived the fall. This commander had earlier escorted Charles VII to his coronation at Reims after breaking the English siege of Orléans.",
+      "r": "This peasant girl was tried at Rouen and burned at the stake for heresy. For 10 points, name this French military leader from the Hundred Years’ War."
+    },
+    {
+      "p": "This woman urged French commanders to make fuller use of cannons and artillery at sieges. Said to have heard voices from Saints Michael, Catherine, and Margaret, this peasant left Domrémy to find Charles VII while he was still uncrowned.",
+      "r": "This commander broke the Siege of Orléans and helped crown Charles VII at Reims. For 10 points, name this French teenager burned at the stake in 1431, later made a Catholic saint."
+    }
+  ],
+  "clues": [
+    {
+      "id": "siege-orleans",
+      "tier": "giveaway",
+      "t": "Led French troops to break the English Siege of Orléans in 1429",
+      "k": [
+        "siege of orleans",
+        "orleans",
+        "french troops"
+      ],
+      "n": 5
+    },
+    {
+      "id": "burned-stake",
+      "tier": "giveaway",
+      "t": "Convicted of heresy and burned at the stake in 1431, at about age 19",
+      "k": [
+        "burned at the stake",
+        "heresy",
+        "1431"
+      ],
+      "n": 5
+    },
+    {
+      "id": "peasant-domremy",
+      "tier": "giveaway",
+      "t": "A peasant from the French village of Domrémy who said she experienced heavenly visions",
+      "k": [
+        "domremy",
+        "peasant",
+        "heavenly visions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "later-saint",
+      "tier": "giveaway",
+      "t": "A later church trial declared her innocent, and she was eventually made a Catholic saint",
+      "k": [
+        "church trial",
+        "innocent",
+        "catholic saint"
+      ],
+      "n": 3
+    },
+    {
+      "id": "visions",
+      "tier": "middle",
+      "t": "Said she experienced visions of Saints Michael, Catherine, and Margaret urging her to act",
+      "k": [
+        "saint michael",
+        "catherine",
+        "margaret"
+      ],
+      "n": 3
+    },
+    {
+      "id": "charles-reims",
+      "tier": "middle",
+      "t": "Escorted Charles VII to Reims Cathedral, where he was crowned king of France",
+      "k": [
+        "charles vii",
+        "reims",
+        "crowned"
+      ],
+      "n": 5
+    },
+    {
+      "id": "crossdressing",
+      "tier": "middle",
+      "t": "Partly convicted over her choice to wear men’s armor and clothing, since a first heresy offense alone could not bring a death sentence",
+      "k": [
+        "men’s armor",
+        "men’s clothing",
+        "death sentence"
+      ],
+      "n": 3
+    },
+    {
+      "id": "compiegne-rouen",
+      "tier": "middle",
+      "t": "Captured by Burgundian forces at the Siege of Compiègne in 1430 and put on trial by an English-backed court at Rouen",
+      "k": [
+        "compiegne",
+        "rouen",
+        "burgundian"
+      ],
+      "n": 1
+    },
+    {
+      "id": "martyr",
+      "tier": "middle",
+      "t": "A posthumous trial declared her a martyr about 25 years after her death",
+      "k": [
+        "posthumous",
+        "martyr",
+        "25 years"
+      ],
+      "n": 3
+    },
+    {
+      "id": "artillery",
+      "tier": "middle",
+      "t": "Pushed French commanders to make fuller use of artillery and cannons at sieges",
+      "k": [
+        "artillery",
+        "cannons",
+        "sieges"
+      ],
+      "n": 1
+    },
+    {
+      "id": "national-symbol",
+      "tier": "middle",
+      "t": "Became a lasting national symbol of France and French patriotism",
+      "k": [
+        "national symbol",
+        "patriotism",
+        "lasting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beaurevoir",
+      "tier": "power",
+      "t": "Tried to escape imprisonment at Beaurevoir Castle by jumping from a tower some 70 feet high",
+      "k": [
+        "beaurevoir",
+        "tower",
+        "escape"
+      ],
+      "n": 2
+    },
+    {
+      "id": "patron-saint",
+      "tier": "power",
+      "t": "Her connection to Saint Michael is one reason he is a patron saint of France",
+      "k": [
+        "patron saint",
+        "connection",
+        "michael"
+      ],
+      "n": 1
+    },
+    {
+      "id": "impersonator",
+      "tier": "power",
+      "t": "Years later, a woman named Claude des Armoises falsely claimed to be her, pretending she had survived",
+      "k": [
+        "claude des armoises",
+        "impersonator",
+        "survived"
+      ],
+      "n": 1
+    },
+    {
+      "id": "canonization",
+      "tier": "power",
+      "t": "Canonized a saint by Pope Benedict XV in 1920",
+      "k": [
+        "canonized",
+        "pope benedict",
+        "1920"
+      ],
+      "n": 0
+    },
+    {
+      "id": "birth-year",
+      "tier": "power",
+      "t": "Born around 1412 in Domrémy, in northeastern France",
+      "k": [
+        "1412",
+        "domremy",
+        "northeastern"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dauphin-title",
+      "tier": "power",
+      "t": "Charles VII was still the uncrowned “Dauphin,” or heir to the throne, when she first sought him out",
+      "k": [
+        "dauphin",
+        "heir",
+        "uncrowned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "armor-banner",
+      "tier": "power",
+      "t": "Rode into battle wearing armor and carrying her own banner rather than fighting hand-to-hand",
+      "k": [
+        "banner",
+        "armor",
+        "hand-to-hand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sold-to-english",
+      "tier": "power",
+      "t": "Burgundian forces that captured her sold her to the English",
+      "k": [
+        "burgundian",
+        "sold",
+        "english"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trial-records",
+      "tier": "power",
+      "t": "Her 1431 trial left unusually detailed transcripts, among the best-documented records from medieval Europe",
+      "k": [
+        "transcripts",
+        "trial records",
+        "medieval europe"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The heroine, not the war",
+    "body": "Joan of Arc is one of the most famous figures in the Hundred Years’ War, but she is a different answer from the war itself, from the king she helped crown (Charles VII), and from the siege she’s most famous for breaking (the Siege of Orléans). Real answer lines for Joan of Arc reject the war’s name, and the reverse is true too.",
+    "fix": "If the question asks to “name this war” or spans more than a century, say the war. If it asks for the peasant girl, soldier, or saint who heard visions and led troops, say Joan of Arc. “Just Joan” or “Jeanne” alone only earns a prompt.",
+    "line": "Real answer line: <b><u>Joan of Arc</u></b> (or <u>Saint Joan of Arc</u>, <u>Jeanne d’Arc</u>; prompt on <u>Joan</u> or <u>Jeanne</u> alone)"
+  },
+  "freq": {
+    "rank": 24,
+    "count": 4,
+    "list": "European History"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "id": "mantle",
+  "name": "Mantle",
+  "mono": "MTL",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Thick rock layer between crust and core · Its slow flow drives plate tectonics",
+  "dates": "Formed along with the rest of Earth, about 4.5 billion years ago",
+  "briefing": "Beneath your feet lies a layer of hot, slowly flowing rock that makes up 84 percent of Earth’s entire volume. Though it is solid rock, it behaves like an extremely thick liquid over millions of years, churning in massive convection currents that drag the crustal plates above it across the planet. No drilling project, including one by a Japanese research ship, has ever managed to bore all the way down to it.",
+  "answerHtml": "<b><u>Mantle</u></b> (accept upper or lower mantle; prompt on Mohorovičić discontinuity or asthenosphere)",
+  "accept": [
+    "mantle",
+    "earths mantle",
+    "upper mantle",
+    "lower mantle"
+  ],
+  "prompt": [
+    "mohorovicic discontinuity",
+    "moho discontinuity",
+    "moho",
+    "asthenosphere"
+  ],
+  "reject": [
+    "crust",
+    "earths crust",
+    "core",
+    "earths core",
+    "inner core",
+    "outer core",
+    "lithosphere",
+    "plate tectonics",
+    "convection",
+    "convection currents"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What Can We Learn By Drilling Into The Earth’s Mantle?",
+      "source": "Seeker",
+      "url": "https://www.youtube.com/watch?v=QaYOGayEmFU",
+      "note": "Why scientists keep trying to drill down to the mantle and what they hope to find"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Earth’s Crust and Mantle Explained: Crash Course Geology #3",
+      "source": "Crash Course Geology",
+      "url": "https://www.youtube.com/watch?v=bouvNyq8xCY",
+      "note": "The layers under our feet: the crust, the mantle, and how we know what is down there"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Earth’s Mantle is Nothing Like You Thought",
+      "source": "SciShow",
+      "url": "https://www.youtube.com/watch?v=RLQpuPqDEfM",
+      "note": "Surprising facts about what the mantle is really like"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Mystifying Structures Hidden Within Earth’s Mantle",
+      "source": "Seeker",
+      "url": "https://www.youtube.com/watch?v=ghq104tF3ZY",
+      "note": "Strange giant structures found deep inside the mantle (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Earth’s mantle facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Mantle_(geology)",
+      "note": "Quick read: upper and lower mantle, the asthenosphere and lithosphere, and mantle convection"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Mantle_(geology)",
+  "qb": {
+    "q": "mantle",
+    "found": 7,
+    "tip": "Restricting the search to the Science category kept out unrelated meanings, like a mollusk’s mantle or a fireplace mantel; every one of the 7 results that came back was genuinely about Earth’s rock layer."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A mineral called post-perovskite is thought to exist near the bottom 200 kilometers of this region, a zone nicknamed D double-prime that sits just above the Gutenberg discontinuity. The upper part of this region, by contrast, is especially rich in the mineral olivine.",
+      "r": "Magnesium oxide is the second most abundant compound in this mostly solid, slowly flowing layer. For 10 points, name this huge rock layer of Earth that lies between the crust and the core."
+    },
+    {
+      "p": "The Japanese research vessel Chikyu has attempted to drill a borehole deep enough to sample this region directly, though no project has ever succeeded. Just below the crust, the upper part of this region contains a low-velocity zone where seismic waves travel more slowly than usual.",
+      "r": "Convection currents within this region are the engine that drives the slow motion of tectonic plates above it. For 10 points, name this thick layer of hot rock that makes up most of Earth’s volume."
+    },
+    {
+      "p": "The Mohorovičić [“moh-ho-ROH-vih-chich”] discontinuity marks this region’s upper edge, just beneath Earth’s crust. Its plastic, slow-flowing upper portion, the asthenosphere, lies beneath a rigid cap called the lithosphere, which also includes the crust and the very topmost sliver of this region.",
+      "r": "Though technically solid rock, it behaves like an extremely thick liquid over millions of years. For 10 points, name this layer of Earth sandwiched between the crust and the core."
+    },
+    {
+      "p": "The lowest part of this region is called D double-prime, and the Lehmann [“LAY-mun”] discontinuity marks an abrupt jump in seismic wave speed within its low-velocity zone beneath continents. Convection currents churning through this layer are what drag Earth’s tectonic plates across the surface.",
+      "r": "Its upper layers include the rigid lithosphere and the more plastic asthenosphere. For 10 points, name this largest layer of Earth, found between the crust and the core."
+    },
+    {
+      "p": "Rising columns of unusually hot rock called plumes move up through this layer and are thought to create volcanic hotspots far from the edges of tectonic plates, such as the one beneath Hawaii. This region’s convection also drives seafloor spreading at mid-ocean ridges.",
+      "r": "Magnesium oxide and silicate minerals make up most of this hot, slowly flowing layer. For 10 points, name this plastic solid region of Earth’s interior that lies below the crust."
+    },
+    {
+      "p": "This layer makes up about 84 percent of Earth’s total volume, making it by far the largest of Earth’s main layers. Although made of solid rock, it flows extremely slowly over millions of years because of the heat and pressure deep inside the planet.",
+      "r": "Convection currents in this layer drive the slow movement of the tectonic plates riding on top of it. For 10 points, name this thick layer of Earth found between the thin outer crust and the metal core."
+    },
+    {
+      "p": "This region’s uppermost, most rigid sliver combines with the crust to form the lithosphere, while just beneath that sits a softer, more easily deformed layer called the asthenosphere. Seismic waves slow down noticeably as they pass through this region’s low-velocity zone.",
+      "r": "Scientists divide this huge rock layer into upper and lower portions, separated by changes in mineral structure under increasing pressure. For 10 points, name this layer of Earth that lies beneath the crust and above the outer core."
+    },
+    {
+      "p": "No drilling project, including Japan’s Chikyu Hakken expedition, has ever bored all the way down to this layer of Earth. The Mohorovičić discontinuity marks where this layer begins, just underneath the crust.",
+      "r": "This thick layer of solid but slowly flowing rock surrounds Earth’s core. For 10 points, name this layer, the largest by volume inside the planet."
+    },
+    {
+      "p": "Within this region’s low-velocity zone beneath the continents, the Lehmann discontinuity marks a sudden increase in the speed of seismic waves. Far below, near this region’s boundary with the outer core, lies a distinct zone called D double-prime.",
+      "r": "Heat escaping from deep inside the planet drives slow convection currents throughout this region. For 10 points, name this rocky layer of Earth found between the crust and the core."
+    },
+    {
+      "p": "Plumes of especially hot rock rising through this layer are blamed for volcanic hotspots that can appear in the middle of a tectonic plate rather than at its edge. Accounting for roughly 84 percent of Earth’s volume, this layer mostly behaves like a slowly flowing plastic solid.",
+      "r": "This layer sits directly beneath the thin crust and directly above the molten outer core. For 10 points, name this huge middle layer of planet Earth."
+    },
+    {
+      "p": "Olivine is especially common in the upper part of this region, while scientists hypothesize that a mineral called post-perovskite forms near its lowest 200 kilometers. Magnesium oxide ranks as the second most abundant compound found throughout this layer.",
+      "r": "This layer behaves like an extremely slow-moving fluid even though it is technically solid rock. For 10 points, name this layer of the Earth that lies beneath the crust and above the core."
+    },
+    {
+      "p": "The Gutenberg discontinuity marks the boundary between this layer and the liquid outer core, just below a zone called D double-prime. Convection within this layer is the main engine behind the movement of Earth’s tectonic plates.",
+      "r": "This region makes up the bulk of Earth’s interior, sitting between the thin outer crust and the metallic core. For 10 points, name this huge rocky layer of the planet."
+    },
+    {
+      "p": "A low-velocity zone within the uppermost part of this layer sits just below a rigid cap called the lithosphere. Scientists aboard the Japanese ship Chikyu have tried to drill through the crust to directly sample rock from this layer.",
+      "r": "Although solid, this layer flows slowly enough over millions of years to carry tectonic plates along on top of it. For 10 points, name this thick layer of Earth that lies beneath the crust."
+    },
+    {
+      "p": "This region begins just beneath the Mohorovičić discontinuity and ends at the Gutenberg discontinuity bordering the outer core. Near its very base lies the mysterious D double-prime zone, where seismic wave speeds change dramatically.",
+      "r": "Slow convection currents inside this region are the main force behind the drifting of Earth’s tectonic plates. For 10 points, name this massive middle layer of planet Earth."
+    },
+    {
+      "p": "This layer of Earth lies directly below the crust and directly above the core, and it makes up the largest share of the planet’s volume. Although it is solid rock, heat from deep within the planet makes it flow slowly over millions of years.",
+      "r": "Convection currents in this layer, home to the asthenosphere, drive the motion of tectonic plates on the surface above. For 10 points, name this thick rocky layer of planet Earth."
+    }
+  ],
+  "clues": [
+    {
+      "id": "between-crust-core",
+      "tier": "giveaway",
+      "t": "Lies directly between Earth’s crust and its core, making up most of the planet’s volume",
+      "k": [
+        "crust",
+        "core"
+      ],
+      "n": 6
+    },
+    {
+      "id": "largest-layer",
+      "tier": "giveaway",
+      "t": "The largest layer in Earth by volume, making up roughly 84 percent of the planet",
+      "k": [
+        "84 percent",
+        "largest layer"
+      ],
+      "n": 3
+    },
+    {
+      "id": "solid-but-flows",
+      "tier": "giveaway",
+      "t": "Technically solid rock, but it flows very slowly over millions of years like a thick liquid",
+      "k": [
+        "solid rock",
+        "flows"
+      ],
+      "n": 3
+    },
+    {
+      "id": "convection-plates",
+      "tier": "giveaway",
+      "t": "Convection currents here drive the slow movement of Earth’s tectonic plates",
+      "k": [
+        "convection",
+        "tectonic plates"
+      ],
+      "n": 3
+    },
+    {
+      "id": "moho",
+      "tier": "giveaway",
+      "t": "Begins just below the crust at the boundary nicknamed the Moho discontinuity",
+      "k": [
+        "moho discontinuity"
+      ],
+      "n": 6
+    },
+    {
+      "id": "asthenosphere",
+      "tier": "middle",
+      "t": "Its soft, plastic upper part, the asthenosphere, flows more easily than the rock above or below it",
+      "k": [
+        "asthenosphere"
+      ],
+      "n": 6
+    },
+    {
+      "id": "lithosphere",
+      "tier": "middle",
+      "t": "Its rigid topmost sliver joins the crust to form the lithosphere",
+      "k": [
+        "lithosphere"
+      ],
+      "n": 3
+    },
+    {
+      "id": "plumes-hotspots",
+      "tier": "middle",
+      "t": "Rising plumes of hot rock create volcanic hotspots far from plate edges, like Hawaii",
+      "k": [
+        "plumes",
+        "hotspots"
+      ],
+      "n": 3,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "d-double-prime",
+      "tier": "middle",
+      "t": "Its lowest part is a mysterious zone called D double-prime",
+      "k": [
+        "double-prime"
+      ],
+      "n": 4
+    },
+    {
+      "id": "low-velocity",
+      "tier": "middle",
+      "t": "An upper low-velocity zone slows seismic waves passing through it",
+      "k": [
+        "low-velocity zone"
+      ],
+      "n": 2
+    },
+    {
+      "id": "seafloor-spreading",
+      "tier": "middle",
+      "t": "Its convection also drives seafloor spreading at mid-ocean ridges",
+      "k": [
+        "seafloor spreading"
+      ],
+      "n": 1
+    },
+    {
+      "id": "upper-lower",
+      "tier": "middle",
+      "t": "Divided into an upper portion and a lower portion, separated by changes in mineral structure under pressure",
+      "k": [
+        "upper portion",
+        "lower portion"
+      ],
+      "n": 2
+    },
+    {
+      "id": "chikyu",
+      "tier": "middle",
+      "t": "No drilling project, including Japan’s Chikyu Hakken, has ever bored all the way down to it",
+      "k": [
+        "chikyu hakken"
+      ],
+      "n": 3
+    },
+    {
+      "id": "gutenberg",
+      "tier": "power",
+      "t": "Its lower boundary with the outer core is called the Gutenberg discontinuity",
+      "k": [
+        "gutenberg discontinuity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lehmann",
+      "tier": "power",
+      "t": "The Lehmann discontinuity marks a sharp jump in wave speed within its low-velocity zone",
+      "k": [
+        "lehmann discontinuity"
+      ],
+      "n": 1
+    },
+    {
+      "id": "post-perovskite",
+      "tier": "power",
+      "t": "A mineral called post-perovskite is hypothesized to exist near its very base",
+      "k": [
+        "post-perovskite"
+      ],
+      "n": 1
+    },
+    {
+      "id": "olivine",
+      "tier": "power",
+      "t": "Its upper portion is especially rich in the green mineral olivine",
+      "k": [
+        "olivine"
+      ],
+      "n": 1
+    },
+    {
+      "id": "magnesium-oxide",
+      "tier": "power",
+      "t": "Magnesium oxide is the second most abundant compound found throughout it",
+      "k": [
+        "magnesium oxide"
+      ],
+      "n": 1
+    },
+    {
+      "id": "silicate-rock",
+      "tier": "power",
+      "t": "Made mostly of silicate rock rich in iron and magnesium",
+      "k": [
+        "silicate rock"
+      ],
+      "n": 0
+    },
+    {
+      "id": "basalt-source",
+      "tier": "power",
+      "t": "Partial melting here produces the magma that erupts as basalt at mid-ocean ridges",
+      "k": [
+        "partial melting",
+        "basalt"
+      ],
+      "n": 0,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "density-increase",
+      "tier": "power",
+      "t": "Pressure and temperature both increase gradually with depth, and so does density",
+      "k": [
+        "density"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Whole mantle, or one part?",
+    "body": "The mantle has famous neighbors and famous parts, and a question can want any of them. The crust sits above it and the core sits below it, and both are completely different answer lines. Inside the mantle itself, the asthenosphere is only its soft, flowing upper part, and the Mohorovičić discontinuity (the Moho) is just the boundary where the mantle begins, not the whole layer.",
+    "fix": "If the clue describes the thin outermost layer we live on, say crust. If it describes Earth’s center, say core. If the clue is clearly naming just the flowing upper slice or the boundary itself, lead with that specific term — otherwise, for the big rock layer between crust and core, say mantle.",
+    "line": "Real answer line: <b><u>Mantle</u></b> [accept upper mantle or lower mantle; prompt on Mohorovičić discontinuity or asthenosphere]"
+  },
+  "tests": {
+    "right": [
+      "Mantle",
+      "mantle",
+      "Mantl",
+      "Earth's mantle",
+      "Upper mantle"
+    ],
+    "prompt": [
+      "Moho discontinuity",
+      "Asthenosphere"
+    ],
+    "wrong": [
+      "Crust",
+      "Core",
+      "Lithosphere",
+      "Outer core",
+      "Convection"
+    ]
+  },
+  "freq": {
+    "rank": 3,
+    "count": 6,
+    "list": "Earth Science"
+  }
+}

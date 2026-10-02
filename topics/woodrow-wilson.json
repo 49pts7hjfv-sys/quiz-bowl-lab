@@ -1,0 +1,508 @@
+{
+  "id": "woodrow-wilson",
+  "name": "Woodrow Wilson",
+  "mono": "WW",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "28th U.S. President · World War I & the Fourteen Points",
+  "dates": "1856–1924",
+  "briefing": "Woodrow Wilson is the only president who earned a PhD, and he ran Princeton University before becoming the 28th president. He won reelection in 1916 with the slogan “He kept us out of war,” then led the United States into World War I just a few months later. His Fourteen Points called for a League of Nations, but the Senate refused to approve the peace treaty, so America never joined.",
+  "answerHtml": "Woodrow <b><u>Wilson</u></b> (or Thomas Woodrow <b><u>Wilson</u></b>)",
+  "accept": [
+    "woodrow wilson",
+    "wilson",
+    "thomas woodrow wilson",
+    "thomas wilson",
+    "president wilson",
+    "president woodrow wilson"
+  ],
+  "prompt": [],
+  "reject": [
+    "edith wilson",
+    "edith",
+    "ellen wilson",
+    "ellen",
+    "woody guthrie",
+    "woodrow wilson guthrie",
+    "guthrie",
+    "woody",
+    "fourteen points",
+    "14 points",
+    "league of nations",
+    "treaty of versailles",
+    "versailles",
+    "henry wilson",
+    "james wilson",
+    "august wilson",
+    "william howard taft",
+    "warren harding"
+  ],
+  "tests": {
+    "right": [
+      "Woodrow Wilson",
+      "Wilson",
+      "Thomas Woodrow Wilson",
+      "Woodrow Willson",
+      "President Wilson"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Edith Wilson",
+      "Woodrow",
+      "Fourteen Points",
+      "League of Nations",
+      "Treaty of Versailles",
+      "Woody Guthrie",
+      "Ellen Wilson",
+      "Theodore Roosevelt"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Woodrow Wilson | 60-Second Presidents",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=-ECp83V4XF0",
+      "note": "1 min · his whole life in one minute"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Woodrow Wilson’s Fourteen Points",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=lbdhxLVlrhI",
+      "note": "Short clip · his 1918 plan for peace after World War I"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Woodrow Wilson: American Idealist",
+      "source": "Lucasfilm (historical documentary)",
+      "url": "https://www.youtube.com/watch?v=TBNjkfSi9ho",
+      "note": "Longer documentary · Wilson’s life and his dream of a peaceful world"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Progressive Presidents (#29)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=F7flSW1PGsA",
+      "note": "Wilson’s New Freedom reforms, after Theodore Roosevelt and Taft"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "President Woodrow Wilson",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/woodrowwilson.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Woodrow_Wilson",
+  "qb": {
+    "q": "Woodrow Wilson",
+    "found": 1,
+    "tip": "Only 1 Middle School/Easy High School tossup came up, so the Regular High School search was added: skip its Woody Guthrie result (his full name was Woodrow Wilson Guthrie), and notice that every real Wilson line underlines only “Wilson.”"
+  },
+  "sample": {
+    "n": 4,
+    "note": "4 real QBReader tossups (1 Middle School/Easy High School + 3 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "During this president’s first term, the Keating-Owen Act tried to stop factories from shipping goods made by child labor, but the Supreme Court struck it down in 1918. This president also signed the Adamson Act, which gave railroad workers an eight-hour day.",
+      "r": "He won a second term in 1916 with the slogan “He kept us out of war.” For 10 points, name this 28th president."
+    },
+    {
+      "p": "To build support for a war, this president created the Committee on Public Information, whose “Four Minute Men” gave short patriotic speeches in movie theaters. He also signed the Espionage Act, under which the socialist Eugene Debs was later jailed for an antiwar speech.",
+      "r": "For 10 points, name this president who led the United States into World War I."
+    },
+    {
+      "p": "This president learned of a secret telegram from German official Arthur Zimmermann that offered to help Mexico win back Texas, New Mexico, and Arizona. Weeks later, he asked Congress to declare war, saying “the world must be made safe for democracy.”",
+      "r": "His Fourteen Points later laid out a plan for peace. For 10 points, name this president during World War I."
+    },
+    {
+      "p": "After a German submarine sank the British liner _Lusitania_ in 1915, killing more than 100 Americans, this president sent protests so strong that his secretary of state, William Jennings Bryan, resigned.",
+      "r": "In 1917, after Germany restarted unrestricted submarine warfare, he asked Congress to declare war. For 10 points, name this 28th president."
+    },
+    {
+      "p": "This president’s Treasury secretary, William McAdoo, helped set up a new system of twelve regional banks to manage the nation’s money. That system, the Federal Reserve, was part of this president’s New Freedom program, which also lowered tariffs.",
+      "r": "For 10 points, name this Democrat who was president during World War I."
+    },
+    {
+      "p": "Senator Henry Cabot Lodge demanded changes, called “reservations,” before he would support a treaty this president had helped write. This president refused to compromise, and the Senate rejected that treaty, which kept the United States out of the League of Nations.",
+      "r": "He still won the Nobel Peace Prize for his work on the League. For 10 points, name this president who proposed the Fourteen Points."
+    },
+    {
+      "p": "Near the end of this president’s second term, his attorney general, A. Mitchell Palmer, had thousands of suspected radicals arrested during the First Red Scare. Years earlier, this president had signed the Clayton Antitrust Act, which protected labor unions.",
+      "r": "He also proposed a League of Nations. For 10 points, name this president who led the U.S. through World War I."
+    },
+    {
+      "p": "Colonel Edward House, this president’s closest adviser, organized a team of experts called “The Inquiry” to plan the world after a great war. Their work helped shape a January 1918 speech in which this president called for an independent Poland and freedom of the seas.",
+      "r": "That speech listed his Fourteen Points for peace. For 10 points, name this president who led the U.S. into World War I."
+    },
+    {
+      "p": "After Pancho Villa’s men raided Columbus, New Mexico, in 1916, this president sent General John J. Pershing into Mexico to chase Villa. Two years earlier, he had ordered U.S. troops to occupy the Mexican port of Veracruz [“vair-uh-KROOZ”].",
+      "r": "Pershing later led American troops in World War I. For 10 points, name this president who led the U.S. into that war."
+    },
+    {
+      "p": "Before entering politics, this man earned a PhD from Johns Hopkins, the only president with that degree, and he served as president of Princeton University. He then won election as governor of New Jersey in 1910.",
+      "r": "Two years later, he won the White House when Theodore Roosevelt and William Howard Taft split the Republican vote. For 10 points, name this Democrat."
+    },
+    {
+      "p": "This leader became the first sitting American president to visit Europe when he sailed to the Paris Peace Conference in 1918. There, he joined David Lloyd George, Georges Clemenceau [“KLEM-un-soh”], and Vittorio Orlando as one of the “Big Four.”",
+      "r": "For 10 points, name this American president who hoped a League of Nations would prevent future wars."
+    },
+    {
+      "p": "While touring the country by train to win support for the League of Nations, this president collapsed in Pueblo, Colorado. After his stroke in 1919, his wife Edith screened his papers and visitors, and he later forced out Secretary of State Robert Lansing for holding cabinet meetings without him.",
+      "r": "This Democrat had led the nation through World War I. For 10 points, name this 28th president."
+    },
+    {
+      "p": "In 1917, Alice Paul’s “Silent Sentinels” stood outside this president’s White House with banners asking how long women must wait for liberty. He eventually supported the 19th Amendment, which gave women the right to vote in 1920.",
+      "r": "He vetoed the Volstead Act, which enforced Prohibition, but Congress overrode him. For 10 points, name this president during World War I."
+    },
+    {
+      "p": "This president’s administration segregated many federal offices, a racist policy that hurt Black government workers. In 1915 he showed the racist film _The Birth of a Nation_ at the White House.",
+      "r": "He had grown up in the South during the Civil War. For 10 points, name this Democrat who led the U.S. into World War I."
+    },
+    {
+      "p": "In 1913, this president became the first since John Adams to speak to Congress in person, asking it to lower tariffs. That request led to the Underwood Tariff, and he also created the Federal Trade Commission to police unfair business practices.",
+      "r": "He later won the 1919 Nobel Peace Prize. For 10 points, name this president whose reform program was called the New Freedom."
+    }
+  ],
+  "clues": [
+    {
+      "id": "world-war-i",
+      "tier": "giveaway",
+      "t": "President during World War I; in 1917 he asked Congress to declare war on Germany so the world could be “made safe for democracy”",
+      "k": [
+        "world war i",
+        "safe for democracy",
+        "germany",
+        "1917"
+      ],
+      "n": 3,
+      "rabbit": "World War I"
+    },
+    {
+      "id": "fourteen-points",
+      "tier": "giveaway",
+      "t": "The Fourteen Points (January 1918): his plan for a fair peace after World War I",
+      "k": [
+        "fourteen points",
+        "14 points",
+        "1918"
+      ],
+      "n": 4,
+      "rabbit": "Fourteen Points"
+    },
+    {
+      "id": "28th-president",
+      "tier": "giveaway",
+      "t": "28th President (1913–1921), a Democrat who served two terms",
+      "k": [
+        "28th",
+        "twenty-eighth",
+        "1913"
+      ],
+      "n": 1
+    },
+    {
+      "id": "league-of-nations",
+      "tier": "giveaway",
+      "t": "Championed the League of Nations, but the Senate rejected the Treaty of Versailles, so the U.S. never joined",
+      "k": [
+        "league of nations",
+        "versailles",
+        "senate"
+      ],
+      "n": 2,
+      "rabbit": "League of Nations"
+    },
+    {
+      "id": "kept-us-out",
+      "tier": "middle",
+      "t": "Won reelection in 1916 with the slogan “He kept us out of war”",
+      "k": [
+        "kept us out of war",
+        "1916",
+        "slogan",
+        "reelection"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lusitania",
+      "tier": "middle",
+      "t": "A German submarine sank the _Lusitania_ (1915); his strong protests led Secretary of State William Jennings Bryan to resign",
+      "k": [
+        "lusitania",
+        "submarine",
+        "bryan"
+      ],
+      "n": 1,
+      "rabbit": "William Jennings Bryan"
+    },
+    {
+      "id": "zimmermann",
+      "tier": "middle",
+      "t": "The Zimmermann Telegram (1917): Germany secretly offered to help Mexico win back Texas, New Mexico, and Arizona",
+      "k": [
+        "zimmermann",
+        "telegram",
+        "mexico"
+      ],
+      "n": 0,
+      "rabbit": "Zimmermann Telegram"
+    },
+    {
+      "id": "federal-reserve",
+      "tier": "middle",
+      "t": "Created the Federal Reserve (1913), a system of 12 regional banks; Treasury Secretary William McAdoo helped set it up",
+      "k": [
+        "federal reserve",
+        "regional banks",
+        "mcadoo"
+      ],
+      "n": 2
+    },
+    {
+      "id": "new-freedom",
+      "tier": "middle",
+      "t": "His reform program, the New Freedom, cut tariffs with the Underwood Tariff (1913) and created the Federal Trade Commission (1914)",
+      "k": [
+        "new freedom",
+        "underwood",
+        "tariff"
+      ],
+      "n": 1
+    },
+    {
+      "id": "princeton",
+      "tier": "middle",
+      "t": "The only president with a PhD; he led Princeton University (1902–1910) and was governor of New Jersey (1911–1913)",
+      "k": [
+        "princeton university",
+        "phd",
+        "new jersey",
+        "johns hopkins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "election-1912",
+      "tier": "middle",
+      "t": "Won the 1912 election when the Republicans split between William Howard Taft and Theodore Roosevelt’s Bull Moose Party",
+      "k": [
+        "bull moose",
+        "1912",
+        "taft",
+        "split"
+      ],
+      "n": 0,
+      "rabbit": "Theodore Roosevelt"
+    },
+    {
+      "id": "edith-stroke",
+      "tier": "middle",
+      "t": "Collapsed in Pueblo, Colorado, on a 1919 tour for the League; after his stroke, his wife Edith screened his papers and visitors",
+      "k": [
+        "stroke",
+        "pueblo",
+        "edith",
+        "1919"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel",
+      "tier": "middle",
+      "t": "Won the 1919 Nobel Peace Prize for his work creating the League of Nations",
+      "k": [
+        "nobel peace prize",
+        "nobel",
+        "1919"
+      ],
+      "n": 0
+    },
+    {
+      "id": "suffragists",
+      "tier": "middle",
+      "t": "Alice Paul’s “Silent Sentinels” picketed his White House (1917); he later backed the 19th Amendment, which gave women the vote (1920)",
+      "k": [
+        "silent sentinels",
+        "alice paul",
+        "19th amendment",
+        "suffrage"
+      ],
+      "n": 0,
+      "rabbit": "Women’s Suffrage"
+    },
+    {
+      "id": "clayton",
+      "tier": "power",
+      "t": "Signed the Clayton Antitrust Act (1914), which banned unfair practices like price discrimination and protected labor unions",
+      "k": [
+        "clayton",
+        "1914",
+        "unions"
+      ],
+      "n": 3
+    },
+    {
+      "id": "keating-owen",
+      "tier": "power",
+      "t": "The Keating-Owen Act (1916) barred goods made by child labor from interstate trade; the Supreme Court struck it down in 1918",
+      "k": [
+        "keating-owen",
+        "child labor",
+        "keating"
+      ],
+      "n": 2
+    },
+    {
+      "id": "adamson",
+      "tier": "power",
+      "t": "The Adamson Act (1916) gave railroad workers an eight-hour day and headed off a national rail strike",
+      "k": [
+        "adamson",
+        "8-hour",
+        "rail"
+      ],
+      "n": 1
+    },
+    {
+      "id": "palmer-raids",
+      "tier": "power",
+      "t": "The Palmer Raids (1919–1920): his attorney general, A. Mitchell Palmer, had thousands of suspected radicals arrested in the First Red Scare",
+      "k": [
+        "palmer raids",
+        "red scare",
+        "palmer"
+      ],
+      "n": 1
+    },
+    {
+      "id": "public-information",
+      "tier": "power",
+      "t": "His Committee on Public Information (led by George Creel) sent “Four Minute Men” to give short speeches supporting the war",
+      "k": [
+        "committee on public information",
+        "four minute men",
+        "creel"
+      ],
+      "n": 1
+    },
+    {
+      "id": "house-inquiry",
+      "tier": "power",
+      "t": "Colonel Edward House, his closest adviser, organized “The Inquiry,” a team of experts that helped plan the Fourteen Points",
+      "k": [
+        "edward house",
+        "inquiry",
+        "colonel house"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lodge",
+      "tier": "power",
+      "t": "Senator Henry Cabot Lodge (with his “reservations”) and the “Irreconcilables” led the Senate fight against the Treaty of Versailles",
+      "k": [
+        "henry cabot lodge",
+        "irreconcilables",
+        "reservations",
+        "lodge"
+      ],
+      "n": 2
+    },
+    {
+      "id": "self-determination",
+      "tier": "power",
+      "t": "The Fourteen Points called for open diplomacy, freedom of the seas, self-determination for peoples, and an independent Poland",
+      "k": [
+        "self-determination",
+        "freedom of the seas",
+        "poland",
+        "open diplomacy"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lansing",
+      "tier": "power",
+      "t": "Forced out Secretary of State Robert Lansing (1920) for holding cabinet meetings while he was sick",
+      "k": [
+        "robert lansing",
+        "lansing",
+        "cabinet"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pershing-villa",
+      "tier": "power",
+      "t": "Sent General John J. Pershing into Mexico (1916) to chase Pancho Villa after Villa’s raid on Columbus, New Mexico",
+      "k": [
+        "pancho villa",
+        "pershing",
+        "columbus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "segregation",
+      "tier": "power",
+      "t": "His administration segregated many federal offices, a racist policy that hurt Black government workers",
+      "k": [
+        "segregated",
+        "federal offices",
+        "segregation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "big-four",
+      "tier": "power",
+      "t": "First sitting president to visit Europe; one of the “Big Four” at the Paris Peace Conference (1919) with Lloyd George, Clemenceau, and Orlando",
+      "k": [
+        "big four",
+        "paris peace conference",
+        "clemenceau",
+        "lloyd george"
+      ],
+      "n": 0
+    },
+    {
+      "id": "espionage-act",
+      "tier": "power",
+      "t": "Signed the Espionage Act (1917) and Sedition Act (1918); the socialist Eugene Debs was jailed for an antiwar speech",
+      "k": [
+        "espionage act",
+        "sedition act",
+        "eugene debs",
+        "debs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "volstead",
+      "tier": "power",
+      "t": "Vetoed the Volstead Act (1919), which enforced Prohibition, but Congress overrode the veto",
+      "k": [
+        "volstead",
+        "prohibition",
+        "veto"
+      ],
+      "n": 0,
+      "rabbit": "Prohibition"
+    }
+  ],
+  "trap": {
+    "title": "President or his plan?",
+    "body": "Quiz bowl also has tossups whose answer is the Fourteen Points, the League of Nations, or the Treaty of Versailles, and they use many of the same clues as this one. If the question says “this speech,” “this organization,” or “this treaty,” answering “Wilson” is wrong, and an early wrong buzz costs 5 points. His New Freedom reforms can also sound like Theodore Roosevelt’s Square Deal.",
+    "fix": "Listen for the noun: “this president” or “this man” means Wilson. Then sort the reforms: the Clayton Antitrust Act, the Federal Reserve, and the New Freedom are Wilson, while the Square Deal and the Rough Riders are Theodore Roosevelt. Plain “Wilson” is enough on real answer lines.",
+    "line": "Real answer line: Woodrow <b><u>Wilson</u></b> [Thomas Woodrow <b><u>Wilson</u></b>]"
+  }
+}

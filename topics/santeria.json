@@ -1,0 +1,463 @@
+{
+  "id": "santeria",
+  "name": "Santería",
+  "mono": "SA",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Afro-Cuban faith · Yoruba orishas worshipped alongside Catholic saints",
+  "dates": "Developed in 19th-century Cuba",
+  "briefing": "In Cuba, enslaved Yoruba people kept their gods alive by hiding them behind Catholic saints: the storm god Changó became linked to Santa Bárbara, and the sea goddess Yemayá to Our Lady of Regla. Santería blends Yoruba spirit worship with Catholicism, honoring a distant creator, Olodumare, through dozens of orishas who can possess dancers during drumming ceremonies led by priests called santeros and santeras.",
+  "answerHtml": "<b><u>Santería</u></b> (accept <u>Lucumí</u> or <u>Regla de Ocha</u>; prompt on <u>Regla</u>)",
+  "accept": [
+    "santeria",
+    "the santeria religion",
+    "lucumi",
+    "regla de ocha",
+    "la regla de ocha",
+    "regla lucumi"
+  ],
+  "prompt": [
+    "regla",
+    "the regla"
+  ],
+  "reject": [
+    "orisha",
+    "orishas",
+    "voodoo",
+    "vodou",
+    "candomble",
+    "umbanda",
+    "palo",
+    "palo mayombe",
+    "regla conga",
+    "regla arara",
+    "ifa",
+    "yoruba religion",
+    "rastafarianism",
+    "rastafari",
+    "rasta",
+    "eleggua",
+    "chango",
+    "yemaya",
+    "obatala"
+  ],
+  "tests": {
+    "right": [
+      "Santeria",
+      "Santería",
+      "Santeriaa",
+      "Lucumi",
+      "Regla de Ocha"
+    ],
+    "prompt": [
+      "Regla",
+      "the Regla"
+    ],
+    "wrong": [
+      "Orisha",
+      "Orishas",
+      "Voodoo",
+      "Candomble",
+      "Eleggua",
+      "Chango",
+      "Palo Mayombe"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Cuba’s African-derived Santeria religion thriving in Havana",
+      "source": "AP Archive",
+      "url": "https://www.youtube.com/watch?v=Vo5ZH5gbja4",
+      "note": "Short news clip · the religion today in Havana"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Yoruba Religion in Cuba: Embraced, Revered, and Thriving",
+      "source": "Belly of the Beast",
+      "url": "https://www.youtube.com/watch?v=Fdo9hcAizRQ",
+      "note": "A respectful look at Yoruba-rooted faith in Cuba today"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Cuban Santeria: The Way of the Saints",
+      "source": "Our Human Planet",
+      "url": "https://www.youtube.com/watch?v=JAEv4XLU16s",
+      "note": "Documentary look at ceremonies and daily practice"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Santeria (Regla de Ocha) Documentary",
+      "source": "Planet Doc Full Documentaries",
+      "url": "https://www.youtube.com/watch?v=BXju_q5WmZ0",
+      "note": "Fuller documentary using the religion’s formal name"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Religions of the African Diaspora (Crash Course Religions #11)",
+      "source": "Crash Course Religions",
+      "url": "https://www.youtube.com/watch?v=eWQrjBoT8BA",
+      "note": "Bigger picture · Santería, Vodou, and other African diaspora religions"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Santería",
+      "source": "Britannica",
+      "url": "https://www.britannica.com/summary/Santeria",
+      "note": "Quick encyclopedia summary for students"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Santer%C3%ADa",
+  "qb": {
+    "q": "Santeria",
+    "found": 0,
+    "tip": "QBReader returned no Middle School/Easy High School or Regular High School tossups for “Santeria” at any difficulty, and a follow-up search on “orisha” also came back empty, so this topic is written from reference sources (Wikipedia, Britannica) instead."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real QBReader tossups were found for this answer line; the clue breakdown comes from reference sources instead"
+  },
+  "tossups": [
+    {
+      "p": "In 1993, the U.S. Supreme Court sided with a Hialeah, Florida, congregation of this religion in a case protecting its animal-sacrifice rituals under the First Amendment. Diviners in this religion called babalawos [“bah-bah-LAH-wohs”] interpret messages from spirits using a system called Ifá [“ee-FAH”].",
+      "r": "Those spirits, called orishas, are each linked to a Catholic saint. For 10 points, name this Afro-Cuban religion that blends Yoruba spirit worship with Catholicism."
+    },
+    {
+      "p": "This religion blends Yoruba tradition with Spiritism, a nineteenth-century movement built around contacting the dead, and with Catholicism, the only religion legally permitted in Spanish colonial Cuba. Ancestor spirits called egun are honored separately from this religion’s orishas, who are each linked to a Catholic saint.",
+      "r": "Priests called santeros and priestesses called santeras lead its ceremonies. For 10 points, name this Afro-Cuban religion that developed among enslaved Yoruba people."
+    },
+    {
+      "p": "Full initiation into this religion, called the asiento, is a seven-day ceremony after which the new initiate, called an iyawó [“ee-yah-WOH”], traditionally dresses only in white for a full year. Its diviners read messages from the orishas using cowrie shells or the Ifá system.",
+      "r": "Those orishas are each linked to a Catholic saint. For 10 points, name this Afro-Cuban religion that blends Yoruba spirit worship with Catholicism."
+    },
+    {
+      "p": "Sacred stones called otanes, believed to hold an orisha’s power, are kept in covered porcelain tureens on this religion’s home altars. Offerings called ebbó [“eh-BOH”], including fruit, rum, and candles, are believed to feed the orishas and keep a spiritual energy called aché flowing.",
+      "r": "Priests called santeros and priestesses called santeras tend these altars. For 10 points, name this Afro-Cuban religion that blends Yoruba tradition with Catholicism."
+    },
+    {
+      "p": "A spiritual energy called aché [“ah-SHAY”] is said to flow through people, animals, and sacred objects in this religion, strengthened through proper ritual and offerings called ebbó. Diviners called babalawos interpret the will of this religion’s orishas using the Ifá system.",
+      "r": "Each orisha is linked to a Catholic saint. For 10 points, name this Afro-Cuban religion that developed among enslaved Yoruba people in Cuba."
+    },
+    {
+      "p": "Double-headed drums called batá [“bah-TAH”], played in matching sets of three sizes, call the orishas to ceremonies known as toques de santo [“TOH-kays deh SAHN-toh”] in this religion. Priests called santeros and priestesses called santeras lead these drumming ceremonies.",
+      "r": "Its spirits, called orishas, are each linked to a Catholic saint. For 10 points, name this Afro-Cuban religion that blends Yoruba tradition with Catholicism."
+    },
+    {
+      "p": "Changó [“chahn-GOH”], this religion’s orisha of lightning and fire, is identified with the Catholic Santa Bárbara. That pairing reflects how enslaved Yoruba people in Cuba hid their orishas behind Catholic saints under Spanish colonial rule.",
+      "r": "A madrina or padrino, meaning “godmother” or “godfather,” sponsors each new initiate into this religion. For 10 points, name this Afro-Cuban religion."
+    },
+    {
+      "p": "Yemayá [“yeh-mah-YAH”], this religion’s orisha of the sea and motherhood, is identified with Our Lady of Regla. Her fellow orisha Ochún [“oh-CHOON”], linked to rivers and love, is identified with Cuba’s patron saint, Our Lady of Charity.",
+      "r": "Both are honored alongside a distant creator, Olodumare. For 10 points, name this Afro-Cuban religion that blends Yoruba orisha worship with Catholicism."
+    },
+    {
+      "p": "Elegguá [“eh-leh-GWAH”], this religion’s guardian of the crossroads, is usually honored first in ceremonies and is linked to the Holy Child of Atocha. Other orishas in this religion include the warrior-smith Ogún and the storm god Changó.",
+      "r": "Each is identified with a Catholic saint. For 10 points, name this Afro-Cuban religion that developed among enslaved Yoruba people in Cuba."
+    },
+    {
+      "p": "Obatalá, this religion’s orisha of truth, justice, and creation, is often linked to Our Lady of Mercy. Oyá, its orisha of wind, lightning, and cemeteries, is sometimes linked to Our Lady of Candelaria.",
+      "r": "Both orishas trace back to Yoruba tradition in West Africa. For 10 points, name this Afro-Cuban religion that blends that tradition with Catholicism."
+    },
+    {
+      "p": "This religion is one of several Afro-Cuban “reglas,” or religious orders, that split along different West and Central African lines; the separate, Kongo-rooted Palo is one example. This religion’s own roots trace specifically to the Yoruba people of West Africa.",
+      "r": "Priests called santeros and priestesses called santeras lead its ceremonies honoring spirits called orishas. For 10 points, name this Afro-Cuban religion that blends Yoruba tradition with Catholicism."
+    },
+    {
+      "p": "A babalawo, a senior diviner in this religion, interprets the will of its spirits using the Ifá system, while other diviners read patterns cast with cowrie shells. These diviners help ordinary believers understand messages from orishas such as Changó and Yemayá.",
+      "r": "Each orisha is linked to a Catholic saint in this religion. For 10 points, name this Afro-Cuban faith that developed among enslaved Yoruba people in Cuba."
+    },
+    {
+      "p": "Ancestor spirits called egun are honored at their own household altars in this religion, kept separate from altars for the orishas. Sacred stones called otanes, believed to hold an orisha’s power, are kept in covered porcelain tureens.",
+      "r": "Priests called santeros and priestesses called santeras maintain these altars. For 10 points, name this Afro-Cuban religion."
+    },
+    {
+      "p": "Ceremonies in this religion called toques de santo feature batá drumming meant to call down one of its orishas, who may possess a dancer. Priests called santeros and priestesses called santeras lead these ceremonies.",
+      "r": "Each orisha this religion honors is linked to a Catholic saint. For 10 points, name this Afro-Cuban religion that developed among enslaved Yoruba people in Cuba."
+    },
+    {
+      "p": "Believers in this religion honor a distant creator god, Olodumare, and a spiritual energy called aché. Its spirits, called orishas, are each linked to a Catholic saint, and priests called santeros and priestesses called santeras lead its drumming ceremonies.",
+      "r": "It developed among enslaved Yoruba people in nineteenth-century Cuba. For 10 points, name this Afro-Cuban religion that blends Yoruba spirit worship with Roman Catholicism."
+    }
+  ],
+  "clues": [
+    {
+      "id": "cuba-origin",
+      "tier": "giveaway",
+      "t": "A religion that developed among enslaved Yoruba people in 19th-century Cuba",
+      "k": [
+        "cuba",
+        "yoruba",
+        "enslaved"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orishas",
+      "tier": "giveaway",
+      "t": "Believers honor spirits called orishas, who each have their own powers and personality",
+      "k": [
+        "orishas",
+        "spirits",
+        "personality"
+      ],
+      "n": 0
+    },
+    {
+      "id": "santero-santera",
+      "tier": "giveaway",
+      "t": "Priests called santeros and priestesses called santeras lead ceremonies of drumming and dance",
+      "k": [
+        "santero",
+        "santera",
+        "drumming"
+      ],
+      "n": 0
+    },
+    {
+      "id": "catholic-saints",
+      "tier": "giveaway",
+      "t": "Each orisha is also linked to a Catholic saint, a legacy of worshipping in secret under Spanish rule",
+      "k": [
+        "catholic saint",
+        "spanish rule",
+        "secret"
+      ],
+      "n": 0
+    },
+    {
+      "id": "olodumare",
+      "tier": "middle",
+      "t": "A distant supreme creator, Olodumare (or Olorun), rarely receives offerings directly",
+      "k": [
+        "olodumare",
+        "olorun",
+        "supreme creator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chango",
+      "tier": "middle",
+      "t": "Changó, orisha of lightning and fire, is identified with the Catholic Santa Bárbara",
+      "k": [
+        "chango",
+        "lightning and fire",
+        "santa barbara"
+      ],
+      "n": 0,
+      "rabbit": "Changó"
+    },
+    {
+      "id": "yemaya",
+      "tier": "middle",
+      "t": "Yemayá, orisha of the sea and motherhood, is identified with Our Lady of Regla",
+      "k": [
+        "yemaya",
+        "sea and motherhood",
+        "our lady of regla"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ochun",
+      "tier": "middle",
+      "t": "Ochún, orisha of rivers and love, is linked to Cuba’s patron saint, Our Lady of Charity",
+      "k": [
+        "ochun",
+        "rivers and love",
+        "our lady of charity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elegua",
+      "tier": "middle",
+      "t": "Elegguá, guardian of the crossroads, is often honored first and is linked to the Holy Child of Atocha",
+      "k": [
+        "elegua",
+        "crossroads",
+        "holy child of atocha"
+      ],
+      "n": 0,
+      "rabbit": "Elegguá"
+    },
+    {
+      "id": "godparent",
+      "tier": "middle",
+      "t": "A madrina or padrino, meaning “godmother” or “godfather,” sponsors and guides each new initiate",
+      "k": [
+        "madrina",
+        "padrino",
+        "godmother"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bata-drums",
+      "tier": "middle",
+      "t": "Double-headed batá drums, played in sets of three sizes, call the orishas to ceremonies called toques",
+      "k": [
+        "bata drums",
+        "three sizes",
+        "toques"
+      ],
+      "n": 0
+    },
+    {
+      "id": "obatala",
+      "tier": "power",
+      "t": "Obatalá, orisha of truth, justice, and creation, is often linked to Our Lady of Mercy",
+      "k": [
+        "obatala",
+        "truth and justice",
+        "our lady of mercy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oya",
+      "tier": "power",
+      "t": "Oyá, orisha of wind, lightning, and cemeteries, is sometimes linked to Our Lady of Candelaria",
+      "k": [
+        "oya",
+        "wind and lightning",
+        "candelaria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ogun",
+      "tier": "power",
+      "t": "Ogún, orisha of iron and war, watches over blacksmiths and other metalworkers",
+      "k": [
+        "ogun",
+        "iron and war",
+        "metalworkers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "babalawo",
+      "tier": "power",
+      "t": "A babalawo is a senior diviner who interprets messages from the orishas using the Ifá system",
+      "k": [
+        "babalawo",
+        "diviner",
+        "ifa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cowrie-shells",
+      "tier": "power",
+      "t": "Diviners also read patterns cast with cowrie shells to answer questions on an orisha’s behalf",
+      "k": [
+        "cowrie shells",
+        "patterns",
+        "divination"
+      ],
+      "n": 0
+    },
+    {
+      "id": "asiento",
+      "tier": "power",
+      "t": "Full initiation, the asiento, is a seven-day ceremony after which a new initiate is called an iyawó",
+      "k": [
+        "asiento",
+        "seven-day",
+        "iyawo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "white-year",
+      "tier": "power",
+      "t": "A newly initiated iyawó traditionally dresses only in white for a full year afterward",
+      "k": [
+        "iyawo",
+        "dresses in white",
+        "a full year"
+      ],
+      "n": 0
+    },
+    {
+      "id": "otanes",
+      "tier": "power",
+      "t": "Sacred stones called otanes, believed to hold an orisha’s power, are kept in covered porcelain tureens",
+      "k": [
+        "otanes",
+        "sacred stones",
+        "tureens"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ebbo",
+      "tier": "power",
+      "t": "Offerings called ebbó — fruit, rum, candles, and sometimes animals — are believed to feed the orishas",
+      "k": [
+        "ebbo",
+        "offerings",
+        "feed the orishas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ache",
+      "tier": "power",
+      "t": "A spiritual energy called aché is said to flow through people, animals, plants, and sacred objects alike",
+      "k": [
+        "ache",
+        "spiritual energy",
+        "flow through"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spiritism",
+      "tier": "power",
+      "t": "This religion blends Yoruba tradition not just with Catholicism but also with Spiritism, a 19th-century movement focused on contacting the dead",
+      "k": [
+        "spiritism",
+        "contacting the dead",
+        "19th century"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hialeah-case",
+      "tier": "power",
+      "t": "A 1993 Supreme Court case over animal sacrifice, brought by a Hialeah, Florida congregation of this faith, affirmed its followers’ religious-freedom rights",
+      "k": [
+        "hialeah",
+        "supreme court",
+        "religious freedom"
+      ],
+      "n": 0,
+      "rabbit": "First Amendment"
+    },
+    {
+      "id": "egun",
+      "tier": "power",
+      "t": "Ancestor spirits, called egun, are honored at their own household altars, separate from the orishas",
+      "k": [
+        "egun",
+        "ancestor spirits",
+        "household altars"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Orishas aren’t the religion",
+    "body": "Nearly every clue names a specific orisha (Changó, Yemayá, Elegguá) or a Catholic saint standing in for one, which tempts players to blurt that name instead of the religion. This faith is also easy to confuse with Haitian Voodoo/Vodou (whose spirits are lwa, not orishas) or with Cuba’s other “reglas,” like the separate Kongo-rooted Palo.",
+    "fix": "If the question asks “name this religion” and mentions orishas, santeros, or babalawos, answer “Santería.” Say the orisha’s own name only when the question asks for “this spirit” or “this god.” Voodoo’s spirits are lwa; this religion’s are orishas.",
+    "line": "Real answer line: <b><u>Santería</u></b> [or <u>Regla de Ocha</u>; or <u>Lucumí</u>]"
+  }
+}

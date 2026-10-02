@@ -1,0 +1,444 @@
+{
+  "id": "berlin-wall",
+  "name": "Berlin Wall",
+  "mono": "BLW",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Cold War barrier through Berlin · Fell in 1989",
+  "dates": "1961–1989",
+  "briefing": "East Germany built the Berlin Wall overnight in August 1961 to stop its own people from fleeing to the West, ringing West Berlin with concrete, barbed wire, and guard towers. For 28 years it split friends, families, and one city in half, until crowds poured through its suddenly opened gates on November 9, 1989. Today, painted fragments and a double line of cobblestones in the pavement are almost all that’s left.",
+  "answerHtml": "<b><u>Berlin Wall</u></b> (or <u>Berliner Mauer</u>; prompt on <u>Berlin</u>)",
+  "accept": [
+    "berlin wall",
+    "the berlin wall",
+    "berliner mauer"
+  ],
+  "prompt": [
+    "berlin"
+  ],
+  "reject": [
+    "berlin airlift",
+    "the berlin airlift",
+    "iron curtain",
+    "checkpoint charlie",
+    "brandenburg gate",
+    "east germany",
+    "german democratic republic",
+    "gdr",
+    "west germany",
+    "east berlin",
+    "west berlin"
+  ],
+  "tests": {
+    "right": [
+      "Berlin Wall",
+      "Berlin wall",
+      "the Berlin Wall",
+      "Berliner Mauer",
+      "Berln Wall"
+    ],
+    "prompt": [
+      "Berlin"
+    ],
+    "wrong": [
+      "Berlin Airlift",
+      "Iron Curtain",
+      "Checkpoint Charlie",
+      "East Germany",
+      "Brandenburg Gate"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The rise and fall of the Berlin Wall - Konrad H. Jarausch",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=A9fQPzZ1-hg",
+      "note": "Short · animated lesson on why the wall went up and how it came down"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "WHAT WAS THE BERLIN WALL?",
+      "source": "A Kid Explains History",
+      "url": "https://www.youtube.com/watch?v=EWT5FveT_Pg",
+      "note": "Short · a kid’s-eye explainer on why it went up and why it fell"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Berlin Wall - How it worked",
+      "source": "DW Documentary",
+      "url": "https://www.youtube.com/watch?v=khXGMcX59YE",
+      "note": "Germany’s own broadcaster on how the border and checkpoints actually worked"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Checkpoint Charlie - Berlin's Cold War Frontier",
+      "source": "Mark Felton Productions",
+      "url": "https://www.youtube.com/watch?v=bCquI4GOoF4",
+      "note": "The most famous crossing point, and the spies and escapes there"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Berlin Wall: History Explained on Maps",
+      "source": "History on Maps",
+      "url": "https://www.youtube.com/watch?v=hDdxUut4Xhc",
+      "note": "A map-based walkthrough of the divided city"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Soviet Bloc Unwinds: Crash Course European History #46",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=aStaPgdvIdI",
+      "note": "The wider collapse of communism in Eastern Europe that the wall’s fall kicked off"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Berlin Wall",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Berlin-Wall/598930",
+      "note": "Quick read on why it was built and how it fell"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Berlin_Wall",
+  "qb": {
+    "q": "Berlin Wall",
+    "found": 6,
+    "tip": "4 of the 6 results are squarely “Berlin Wall”; the other 2 are “Berlin” answer lines (the city) that also accept “Berlin Wall” as an alternate — that mix-up is the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 6 real QBReader tossups that came up for this answer line (Middle School + Easy High School, power-marked; 2 of them primarily wanted the city “Berlin,” accepting “Berlin Wall” as an alternate)"
+  },
+  "tossups": [
+    {
+      "p": "After World War II split a German capital into four occupying zones, the three Western ones merged into a democratic island deep inside Communist territory. To stop the “Brain Drain” of skilled workers fleeing to that island, authorities sealed its border overnight in August 1961, first with barbed wire and then with concrete.",
+      "r": "This barrier’s most famous crossing point was Checkpoint Charlie, near where a young bricklayer named Peter Fechter was shot in 1962 and left in the “death strip.” For 10 points, name this structure that divided a German capital into East and West until 1989."
+    },
+    {
+      "p": "Shortly before this barrier went up, East Germany was losing more than a thousand people a day to the West, many of them skilled workers, a “Brain Drain” its builders hoped to stop. Its planners even gave it a propaganda name, the “antifascist protective rampart,” and raised it almost overnight with barbed wire that was later replaced by concrete slabs.",
+      "r": "President Ronald Reagan later stood at the Brandenburg Gate and urged Soviet leader Mikhail Gorbachev [“GOR-buh-chawf”] to tear it down. For 10 points, name this Cold War structure that split a divided German city for 28 years."
+    },
+    {
+      "p": "In 1986, artist Keith Haring painted a long mural of linked human figures on this structure’s western side. A later painting, Dmitri Vrubel’s “My God, Help Me to Survive This Deadly Love,” shows East German leader Erich Honecker [“HOH-neck-er”] and Soviet leader Leonid Brezhnev [“BREZH-neff”] kissing in greeting.",
+      "r": "Vrubel’s mural is part of the East Side Gallery, the longest surviving section of this barrier. For 10 points, name this structure whose fall in 1989 is now celebrated with murals and museums in a reunified German capital."
+    },
+    {
+      "p": "On the night of November 9, 1989, an East German spokesman named Günter Schabowski [“SHAH-boff-skee”] mistakenly announced at a press conference that a new travel policy would start “immediately.” Crowds raced to crossing points and overwhelmed confused guards, who eventually opened the gates without orders from above.",
+      "r": "Demolition of this barrier continued through 1990, the same year Germany formally reunified. For 10 points, name this Cold War structure whose sudden fall that night is now remembered every November 9th."
+    },
+    {
+      "p": "This structure’s “death strip” no-man’s-land included raked sand to reveal footprints, floodlights, guard dogs, and spike strips nicknamed “Stalin’s carpet.” Watchtowers overlooked the whole stretch, and guards there had standing shoot-to-kill orders for anyone trying to cross.",
+      "r": "A bricklayer named Peter Fechter died in this zone in 1962 after being shot while trying to escape. For 10 points, name this heavily guarded Cold War barrier that divided a German capital for 28 years."
+    },
+    {
+      "p": "More than a decade before this structure existed, a Soviet blockade of the city it would later divide was broken by an airlift, as American and British planes flew in supplies for nearly a year. One pilot, Gail Halvorsen, became known as the “Candy Bomber” for dropping treats to children below.",
+      "r": "That 1948–49 crisis previewed the divide that this barrier made permanent in 1961. For 10 points, name this Cold War structure that split a German capital until 1989."
+    },
+    {
+      "p": "The Western Allies named three of their checkpoints using the NATO alphabet: Alpha, Bravo, and Charlie. The last of those became the main crossing for foreigners and Allied personnel, and the site of a tense tank standoff between American and Soviet forces in October 1961.",
+      "r": "That crossing, Checkpoint Charlie, became the best-known landmark of this barrier. For 10 points, name this Cold War structure, demolished after 1989, that divided a German capital into two halves."
+    },
+    {
+      "p": "At least 5,000 people are estimated to have escaped across this barrier by tunneling underneath it, leaping from windows of border buildings, or hiding in secret compartments built into cars. At least 140 people died at this barrier over nearly three decades.",
+      "r": "Those numbers made this one of the deadliest borders of the Cold War. For 10 points, name this heavily guarded structure that divided a German capital from 1961 to 1989."
+    },
+    {
+      "p": "In a 1987 speech at the Brandenburg Gate, President Ronald Reagan directly challenged Soviet leader Mikhail Gorbachev to tear down this structure if he truly wanted peace and openness. Two years later, crowds streamed through its opened gates and began chipping it apart with hammers and chisels.",
+      "r": "Chunks of this barrier were later sold as souvenirs around the world. For 10 points, name this Cold War structure whose fall in 1989 helped end the division of Germany."
+    },
+    {
+      "p": "Builders eventually replaced an initial barbed-wire fence with concrete slabs about 12 feet tall, topped with smooth pipe meant to stop anyone from climbing over. Rather than running only through downtown, it stretched about 96 miles to encircle an entire isolated half of a city.",
+      "r": "That encircled half was West Berlin, an island of democracy deep inside Communist East Germany. For 10 points, name this Cold War barrier that surrounded it until 1989."
+    },
+    {
+      "p": "Because builders raised this barrier overnight on a Sunday with almost no warning, some residents woke up on August 13, 1961, suddenly unable to reach relatives, friends, or jobs across town. Most train and subway links between the two sides were cut the same day.",
+      "r": "Many families remained separated by this barrier for the better part of three decades. For 10 points, name this Cold War structure that abruptly divided a German capital starting in 1961."
+    },
+    {
+      "p": "Several of a divided city’s subway and commuter-rail lines briefly ran beneath its eastern half, so trains from the western side passed without stopping through sealed “ghost stations.” Guards even patrolled some of those unused platforms underground.",
+      "r": "Those eerie stations reopened only after this barrier came down. For 10 points, name this Cold War structure that forced a divided city’s transit system to work around it from 1961 to 1989."
+    },
+    {
+      "p": "Today, a double row of cobblestones set into a reunified capital’s streets traces the old path of this vanished structure. Museums, preserved guard towers, and an open-air mural gallery along its longest surviving stretch now mark where it once stood.",
+      "r": "That gallery takes its name from the eastern side it once faced. For 10 points, name this Cold War structure, demolished after 1989, that once divided a German capital in two."
+    },
+    {
+      "p": "Soviet premier Nikita Khrushchev [“KROOSH-chef”] had demanded Western withdrawal from a divided city for years before this structure finally sealed its border by surprise. Western leaders, caught off guard, chose not to intervene militarily, accepting the new barrier rather than risk war.",
+      "r": "Its construction hardened a line that had already split the city since the end of World War II. For 10 points, name this Cold War structure that physically divided a German capital from 1961 to 1989."
+    },
+    {
+      "p": "When this structure finally fell, commentators around the world called it the symbolic end of the Cold War, since it had stood for decades as the clearest physical line between NATO and Soviet-backed Europe. Celebrations at the site were broadcast live to a global audience that same night.",
+      "r": "Within a year of its fall, East and West Germany formally reunified as one country. For 10 points, name this Cold War structure whose collapse in November 1989 is remembered as a turning point in world history."
+    }
+  ],
+  "clues": [
+    {
+      "id": "divided-city",
+      "tier": "giveaway",
+      "t": "Divided the German capital into Soviet-run East and Allied-run West for 28 years",
+      "k": [
+        "divided",
+        "east and west",
+        "german capital"
+      ],
+      "n": 8
+    },
+    {
+      "id": "built-and-fell",
+      "tier": "giveaway",
+      "t": "Went up overnight in August 1961 and came down in November 1989",
+      "k": [
+        "1961",
+        "1989",
+        "overnight"
+      ],
+      "n": 4
+    },
+    {
+      "id": "checkpoint-charlie",
+      "tier": "giveaway",
+      "t": "Checkpoint Charlie was its most famous crossing point between the two sides",
+      "k": [
+        "checkpoint charlie",
+        "crossing point"
+      ],
+      "n": 6
+    },
+    {
+      "id": "cold-war-symbol",
+      "tier": "giveaway",
+      "t": "Became the most famous single symbol of the whole Cold War",
+      "k": [
+        "cold war",
+        "symbol"
+      ],
+      "n": 1
+    },
+    {
+      "id": "reagan-tear-down",
+      "tier": "giveaway",
+      "t": "Ronald Reagan stood at the Brandenburg Gate and challenged Mikhail Gorbachev to tear it down",
+      "k": [
+        "reagan",
+        "gorbachev",
+        "tear down",
+        "brandenburg gate"
+      ],
+      "n": 4
+    },
+    {
+      "id": "brain-drain",
+      "tier": "middle",
+      "t": "East Germany claimed it was needed to stop “Brain Drain,” skilled workers escaping to the West",
+      "k": [
+        "brain drain",
+        "skilled workers"
+      ],
+      "n": 2
+    },
+    {
+      "id": "death-strip",
+      "tier": "middle",
+      "t": "Its “death strip” no-man’s-land used raked sand, floodlights, and spike strips nicknamed “Stalin’s carpet”",
+      "k": [
+        "death strip",
+        "stalins carpet"
+      ],
+      "n": 2
+    },
+    {
+      "id": "peter-fechter",
+      "tier": "middle",
+      "t": "Bricklayer Peter Fechter was shot trying to cross in 1962 and left in the death strip",
+      "k": [
+        "peter fechter",
+        "bricklayer"
+      ],
+      "n": 2
+    },
+    {
+      "id": "schabowski-announcement",
+      "tier": "middle",
+      "t": "An East German spokesman’s confused announcement that the border was open “immediately” triggered its fall on November 9, 1989",
+      "k": [
+        "spokesman",
+        "immediately",
+        "november 9"
+      ],
+      "n": 1
+    },
+    {
+      "id": "official-name",
+      "tier": "middle",
+      "t": "East Germany’s official name for it was the “antifascist protective rampart”",
+      "k": [
+        "antifascist",
+        "protective rampart"
+      ],
+      "n": 1
+    },
+    {
+      "id": "escapes-and-deaths",
+      "tier": "middle",
+      "t": "More than 5,000 people escaped over, under, or through it, while at least 140 people were killed there",
+      "k": [
+        "5000",
+        "killed there"
+      ],
+      "n": 0
+    },
+    {
+      "id": "haring-mural",
+      "tier": "middle",
+      "t": "In 1986, artist Keith Haring painted a long mural of linked human figures on its western side",
+      "k": [
+        "keith haring",
+        "mural"
+      ],
+      "n": 1
+    },
+    {
+      "id": "airlift-backdrop",
+      "tier": "middle",
+      "t": "A Soviet blockade of the city in 1948 and 1949, broken by a famous airlift, showed Cold War tension there over a decade before it went up",
+      "k": [
+        "airlift",
+        "blockade",
+        "1948"
+      ],
+      "n": 2
+    },
+    {
+      "id": "kiss-mural",
+      "tier": "middle",
+      "t": "A famous mural shows East German leader Erich Honecker and Soviet leader Leonid Brezhnev kissing in greeting",
+      "k": [
+        "honecker",
+        "brezhnev",
+        "kissing"
+      ],
+      "n": 1
+    },
+    {
+      "id": "four-zones",
+      "tier": "power",
+      "t": "After World War II, occupying Allies split the city into four zones; the three Western ones merged into a democratic island inside Communist East Germany",
+      "k": [
+        "four zones",
+        "occupying allies",
+        "democratic island"
+      ],
+      "n": 2
+    },
+    {
+      "id": "alpha-bravo-charlie",
+      "tier": "power",
+      "t": "Checkpoint Charlie took its letter from the NATO alphabet, after original Checkpoints Alpha and Bravo",
+      "k": [
+        "nato alphabet",
+        "alpha",
+        "bravo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tank-standoff",
+      "tier": "power",
+      "t": "American and Soviet tanks faced off at its most famous checkpoint in October 1961, one of the Cold War’s tensest moments",
+      "k": [
+        "tank standoff",
+        "october 1961"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ghost-stations",
+      "tier": "power",
+      "t": "It sealed off “ghost stations,” where Western subway trains passed without stopping under the Eastern side",
+      "k": [
+        "ghost stations",
+        "subway trains"
+      ],
+      "n": 0
+    },
+    {
+      "id": "construction-details",
+      "tier": "power",
+      "t": "Concrete slabs about 12 feet tall, topped with smooth pipe to stop climbers, eventually replaced the first barbed-wire barrier",
+      "k": [
+        "concrete slabs",
+        "smooth pipe",
+        "barbed wire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "escape-methods",
+      "tier": "power",
+      "t": "Escapees used secret tunnels, a homemade hot-air balloon, and cars with hidden compartments to slip past it",
+      "k": [
+        "secret tunnels",
+        "hot air balloon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "length-fact",
+      "tier": "power",
+      "t": "It ran about 96 miles, encircling all of West Berlin rather than just cutting through downtown",
+      "k": [
+        "96 miles",
+        "encircling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sunday-surprise",
+      "tier": "power",
+      "t": "Because it went up on a Sunday with almost no warning, some Berliners woke up suddenly cut off from family or jobs across town",
+      "k": [
+        "sunday",
+        "cut off"
+      ],
+      "n": 0
+    },
+    {
+      "id": "east-side-gallery",
+      "tier": "power",
+      "t": "Its longest surviving stretch, covered in murals like the “kissing” mural, is preserved as the East Side Gallery",
+      "k": [
+        "east side gallery",
+        "surviving stretch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cobblestone-line",
+      "tier": "power",
+      "t": "A double row of cobblestones now traces its old path through the reunified city",
+      "k": [
+        "cobblestones",
+        "reunified city"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Wall, Airlift, or Iron Curtain?",
+    "body": "Several different Cold War “Berlin” answers get mixed up. The Berlin Airlift (1948–49) was a supply operation that happened 13 years before this wall even existed, and the “Iron Curtain” was Winston Churchill’s broader term for the whole border between Communist and Western Europe, not this one city’s wall. Some real tossups also want just “Berlin” the city rather than this specific structure, especially when the clues describe the divided city as a whole.",
+    "fix": "Brain Drain, Checkpoint Charlie, barbed wire and concrete, and the 1989 fall mean this wall specifically. Candy-dropping pilots and a 1948 blockade mean the Airlift. A line running through all of Eastern Europe, not just one city, means the Iron Curtain.",
+    "line": "Real answer lines: <b><u>Berlin Wall</u></b> [or <u>Berliner Mauer</u>] and, on some sets, <u>Berlin</u> [accept <u>Berlin Wall</u>]"
+  },
+  "freq": {
+    "rank": 17,
+    "count": 5,
+    "list": "European History"
+  }
+}

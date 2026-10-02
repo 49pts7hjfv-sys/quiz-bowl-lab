@@ -1,0 +1,451 @@
+{
+  "id": "purim",
+  "name": "Purim",
+  "mono": "PU",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Jewish holiday from the Book of Esther · Esther foils Haman’s plot",
+  "dates": "Late winter · the 14th of Adar",
+  "briefing": "Put on a costume, grab a noisemaker, and get ready to drown out a villain’s name. Purim retells the Book of Esther: a hidden Jewish queen and her cousin Mordecai secretly foil the scheme of the king’s vizier, Haman, to destroy the Jewish people of Persia. Families now celebrate with costumes, a noisy reading of the Megillah, and three-cornered pastries called hamantaschen.",
+  "answerHtml": "<b><u>Purim</u></b> (or the <u>Festival of Lots</u>; accept <u>Feast of Lots</u>)",
+  "accept": [
+    "purim",
+    "festival of lots",
+    "feast of lots"
+  ],
+  "prompt": [],
+  "reject": [
+    "shushan",
+    "shushan purim",
+    "esther",
+    "book of esther",
+    "haman",
+    "mordecai",
+    "megillah",
+    "passover",
+    "pesach",
+    "hanukkah",
+    "chanukah",
+    "yom kippur",
+    "rosh hashanah",
+    "sukkot",
+    "shavuot",
+    "simchat torah",
+    "tisha bav"
+  ],
+  "tests": {
+    "right": [
+      "Purim",
+      "Purrim",
+      "Feast of Lots",
+      "the Festival of Lots"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Shushan",
+      "Esther",
+      "Haman",
+      "Mordecai",
+      "Megillah",
+      "Yom Kippur",
+      "Passover",
+      "Hanukkah"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Purim Story in 4 minutes: Go Esther!",
+      "source": "BimBam",
+      "url": "https://www.youtube.com/watch?v=mYGqOMe-DqQ",
+      "note": "4 minutes · animated retelling of the Esther story"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The Purim Megillah: for kids! An introduction to the scroll",
+      "source": "Shaboom!",
+      "url": "https://www.youtube.com/watch?v=Xe2COQmYoHU",
+      "note": "Kid-friendly intro to the scroll read aloud on Purim"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Shalom Sesame: Purim Story",
+      "source": "Shalom Sesame",
+      "url": "https://www.youtube.com/watch?v=3wvrbAa2Onk",
+      "note": "Sesame-Street-style retelling of the holiday"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Purim Story Time: The Story of Esther",
+      "source": "Jewish Learning Institute",
+      "url": "https://www.youtube.com/watch?v=EZYvR8z1njg",
+      "note": "Story-time narration of the Esther story"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "What Does It Mean to Be Jewish? (Crash Course Religions #8)",
+      "source": "Crash Course Religions",
+      "url": "https://www.youtube.com/watch?v=g9b48p9NaYc",
+      "note": "Bigger picture · an overview of Judaism"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Purim",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Purim/400156",
+      "note": "Quick read: the Esther story, the synagogue reading, gifts, and hamantaschen"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Purim",
+  "qb": {
+    "q": "Purim",
+    "found": 2,
+    "tip": "The difficulties=1,2 search returned 2 results, but one was an unrelated Yom Kippur tossup (a search quirk), leaving only 1 genuine Middle School/Easy High School tossup, so we added Regular High School results; those also mixed in one more off-target Yom Kippur tossup, which we skipped."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 real QBReader tossups (1 Middle School/Easy High School + 5 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A Persian king often identified with Xerxes I, Ahasuerus [“uh-haz-yoo-EE-rus”], removed his first queen, Vashti, and later chose a Jewish woman whose Hebrew name was Hadassah to replace her. She kept her Jewish identity secret even after becoming queen, on the advice of",
+      "r": "her cousin, who had raised her like a daughter and worked as a minor official in the palace. That cousin later refused to bow to the king’s powerful new vizier. For 10 points, name this Jewish holiday that celebrates how the vizier’s plot against the Jewish people failed."
+    },
+    {
+      "p": "This holiday takes its name from “pur,” an ancient word for the lots that its villain cast to choose a date for his planned massacre. He had grown furious after a palace official named Mordecai refused to",
+      "r": "bow to him at the city gate. Mordecai was the guardian of the new Persian queen. For 10 points, name this holiday that celebrates the defeat of that villain, Haman."
+    },
+    {
+      "p": "This holiday’s heroine risked execution by approaching the king without being summoned, a crime normally punished by death. At a banquet, she finally exposed a plot to destroy her people, which the king’s vizier had set in motion after being humiliated by a palace official who refused to bow to him.",
+      "r": "The heroine had become queen after the king removed his first wife, Vashti. For 10 points, name this holiday that celebrates Queen Esther’s brave intervention."
+    },
+    {
+      "p": "This holiday’s villain had ten sons, whose names are read together in one breath during the holiday’s public reading to show that all ten died at once.",
+      "r": "That villain had convinced the king that an entire people should be destroyed. His plan was foiled when the queen revealed it at a feast. For 10 points, name this holiday that celebrates the downfall of the villain Haman."
+    },
+    {
+      "p": "This holiday’s villain was ultimately hanged on gallows that he himself had built, originally intending them for a palace official who refused to bow to him. That official, Mordecai, was the cousin and guardian of the new",
+      "r": "queen, who exposed the villain’s plan to the king. Families now read the whole story aloud from a scroll called the Megillah. For 10 points, name this Jewish holiday celebrating the fall of the villain Haman."
+    },
+    {
+      "p": "A Hebrew phrase meaning “and it was turned about” sums up this holiday’s sudden reversals, as a villain’s own gallows become his downfall and a condemned people are saved instead. That reversal theme is sometimes used to explain why",
+      "r": "costumes and disguises are worn on this day. Noisemakers called groggers are also shaken whenever the villain Haman’s name is read aloud. For 10 points, name this Jewish holiday that recalls Esther’s rescue of her people."
+    },
+    {
+      "p": "The biblical book behind this holiday famously never mentions God by name. That book, called the Megillah [“muh-GIL-uh”], is read aloud twice, once in the evening and once the next",
+      "r": "morning, during this holiday’s observance. Listeners shake noisemakers called groggers whenever the villain’s name is spoken. For 10 points, name this Jewish holiday that tells the story of Esther and Haman."
+    },
+    {
+      "p": "The day before this holiday is the Fast of Esther, which recalls the queen’s period of fasting before she approached the king. This holiday also carries an obligation called matanot la-evyonim [“mah-tah-NOTE lah ev-yoh-NEEM”], requiring",
+      "r": "gifts of charity to at least two poor people. People also exchange baskets of food called mishloach manot. For 10 points, name this Jewish holiday celebrating the defeat of the villain Haman."
+    },
+    {
+      "p": "During this holiday’s public reading, the villain’s name is spoken 54 times, and each time, the congregation shakes noisemakers called groggers to “blot out” the sound of it. Some synagogues also stamp their feet or boo.",
+      "r": "The scroll being read is the Book of Esther. For 10 points, name this Jewish holiday on which a plot by the vizier Haman was foiled."
+    },
+    {
+      "p": "Residents of walled cities such as Jerusalem celebrate a second version of this holiday one day later, on the 15th of the month of Adar, following the precedent set in the ancient capital of",
+      "r": "Shushan. Most other Jewish communities observe the main holiday on the 14th of Adar. The holiday retells how Queen Esther saved her people from the vizier Haman. For 10 points, identify this Jewish holiday."
+    },
+    {
+      "p": "A well-known custom on this holiday calls for adults to drink until two phrases, “Blessed be Mordecai” and “Cursed be Haman,” become impossible to tell apart, though many celebrate more moderately. Families also hold a festive meal called the",
+      "r": "Se’udah, often with wine, to close out the day. They also send each other gift baskets of food. For 10 points, name this holiday celebrating Esther’s rescue of the Jewish people of Persia."
+    },
+    {
+      "p": "Like Hanukkah, this holiday is rabbinically ordained rather than commanded directly in the Torah, so work is technically permitted on it. It began after a Persian king removed his first queen, Vashti, for refusing a",
+      "r": "royal summons, opening the way for a new queen to be chosen. That new queen was secretly Jewish. For 10 points, name this holiday that celebrates how she and her cousin Mordecai foiled a plot against their people."
+    },
+    {
+      "p": "Because its heroine hid her identity for much of the story, and because God is never named anywhere in its biblical book, many people mark this holiday by wearing costumes and masks. Comic plays called",
+      "r": "spiels retell the story for laughs. Families also eat triangular pastries called hamantaschen. For 10 points, name this Jewish holiday celebrating Esther’s hidden heroism."
+    },
+    {
+      "p": "Triangular pastries nicknamed “Haman’s pockets” or “Haman’s ears,” often filled with poppy seed or fruit, are a signature food of this holiday. They’re frequently tucked into gift baskets of at least two treats, called",
+      "r": "mishloach manot, that are exchanged with friends and neighbors. Noisemakers called groggers are shaken whenever the villain’s name is read from the Megillah. For 10 points, name this Jewish holiday."
+    },
+    {
+      "p": "Celebrated on the 14th day of the Hebrew month of Adar, this holiday’s story is read aloud from a scroll called the Megillah, and listeners shake noisemakers whenever the villain’s name comes up.",
+      "r": "That villain, a Persian official named Haman, plotted to destroy the Jewish people until Queen Esther and her cousin Mordecai stopped him. For 10 points, name this festive Jewish holiday, when people eat triangular pastries called hamantaschen."
+    }
+  ],
+  "clues": [
+    {
+      "id": "esther-haman",
+      "tier": "giveaway",
+      "t": "Celebrates how Queen Esther and her cousin Mordecai stopped the royal official Haman’s plot to destroy the Jews of Persia",
+      "k": [
+        "esther",
+        "haman",
+        "mordecai",
+        "persia"
+      ],
+      "n": 6,
+      "rabbit": "Book of Esther"
+    },
+    {
+      "id": "hamantaschen",
+      "tier": "giveaway",
+      "t": "Families eat hamantaschen, triangular pastries often called “Haman’s pockets” or “Haman’s ears”",
+      "k": [
+        "hamantaschen",
+        "triangular",
+        "pastries"
+      ],
+      "n": 6
+    },
+    {
+      "id": "megillah-reading",
+      "tier": "giveaway",
+      "t": "The Book of Esther, called the Megillah, is read aloud in the synagogue",
+      "k": [
+        "megillah",
+        "book of esther",
+        "read aloud"
+      ],
+      "n": 5
+    },
+    {
+      "id": "costumes",
+      "tier": "giveaway",
+      "t": "Many people wear costumes, since Esther hid her identity and the story never mentions God directly",
+      "k": [
+        "costumes",
+        "hid her identity"
+      ],
+      "n": 3
+    },
+    {
+      "id": "groggers",
+      "tier": "giveaway",
+      "t": "Noisemakers called groggers are spun or shaken to “blot out” the villain’s name whenever it is read",
+      "k": [
+        "groggers",
+        "blot out",
+        "noisemakers"
+      ],
+      "n": 5
+    },
+    {
+      "id": "adar-14",
+      "tier": "middle",
+      "t": "Falls on the 14th day of the Hebrew month of Adar, usually in late winter",
+      "k": [
+        "14th",
+        "adar",
+        "late winter"
+      ],
+      "n": 4
+    },
+    {
+      "id": "mordecai-bow",
+      "tier": "middle",
+      "t": "Mordecai’s refusal to bow to the king’s vizier set off the vizier’s plan for revenge",
+      "k": [
+        "mordecai",
+        "refused to bow",
+        "vizier"
+      ],
+      "n": 2,
+      "rabbit": "Mordecai"
+    },
+    {
+      "id": "shushan-purim",
+      "tier": "middle",
+      "t": "Walled cities such as Jerusalem celebrate a second version one day later, on the 15th of Adar",
+      "k": [
+        "walled cities",
+        "15th",
+        "jerusalem"
+      ],
+      "n": 3
+    },
+    {
+      "id": "mishloach-manot",
+      "tier": "middle",
+      "t": "Friends exchange gift baskets of food called mishloach manot, each with at least two treats",
+      "k": [
+        "mishloach manot",
+        "gift baskets",
+        "two treats"
+      ],
+      "n": 2
+    },
+    {
+      "id": "matanot-laevyonim",
+      "tier": "middle",
+      "t": "Giving to at least two poor people, called matanot la-evyonim, is a holiday obligation",
+      "k": [
+        "matanot la-evyonim",
+        "charity",
+        "poor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fast-of-esther",
+      "tier": "middle",
+      "t": "The day before, the Fast of Esther, recalls Esther’s fast before she approached the king",
+      "k": [
+        "fast of esther",
+        "fast",
+        "before"
+      ],
+      "n": 0
+    },
+    {
+      "id": "purim-drinking",
+      "tier": "middle",
+      "t": "A well-known custom calls for adults to keep drinking until they can’t tell “Blessed be Mordecai” from “Cursed be Haman”",
+      "k": [
+        "drinking",
+        "blessed be mordecai",
+        "cursed be haman"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ahasuerus",
+      "tier": "power",
+      "t": "The Persian king Ahasuerus, who chose the new queen, is often identified with Xerxes I",
+      "k": [
+        "ahasuerus",
+        "xerxes",
+        "persian king"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hadassah",
+      "tier": "power",
+      "t": "The queen’s Hebrew name was Hadassah before she took a Persian name",
+      "k": [
+        "hadassah",
+        "hebrew name"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ten-sons",
+      "tier": "power",
+      "t": "Haman’s ten sons are named together and read in one breath to mark their simultaneous deaths",
+      "k": [
+        "ten sons",
+        "one breath",
+        "simultaneous"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fifty-four",
+      "tier": "power",
+      "t": "The villain’s name is read 54 times, and groggers drown it out every single time",
+      "k": [
+        "54 times",
+        "drown it out"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gallows",
+      "tier": "power",
+      "t": "The villain is ultimately hanged on the very gallows he built for his enemy Mordecai",
+      "k": [
+        "hanged",
+        "gallows",
+        "built"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lots-etymology",
+      "tier": "power",
+      "t": "The holiday’s name comes from “pur,” a word for the lots the villain cast to set his date",
+      "k": [
+        "pur",
+        "lots",
+        "cast"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-god",
+      "tier": "power",
+      "t": "The Book of Esther famously never mentions God by name",
+      "k": [
+        "book of esther",
+        "never mentions god"
+      ],
+      "n": 0
+    },
+    {
+      "id": "venahafochu",
+      "tier": "power",
+      "t": "A Hebrew phrase meaning “and it was turned about” describes how the story’s fortunes suddenly reverse",
+      "k": [
+        "turned about",
+        "reverse",
+        "fortunes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "banquet",
+      "tier": "power",
+      "t": "The queen risked execution by appearing before the king unsummoned, then exposed the plot at a banquet",
+      "k": [
+        "unsummoned",
+        "banquet",
+        "risked"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vashti",
+      "tier": "power",
+      "t": "The king’s first queen, Vashti, was removed before a search began for her replacement",
+      "k": [
+        "vashti",
+        "first queen"
+      ],
+      "n": 0,
+      "rabbit": "Vashti"
+    },
+    {
+      "id": "seudah",
+      "tier": "power",
+      "t": "A festive meal, the Se’udah, caps off the day, often with wine and a special blessing afterward",
+      "k": [
+        "seudah",
+        "festive meal"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rabbinic",
+      "tier": "power",
+      "t": "Like Hanukkah, this holiday is rabbinically ordained rather than commanded in the Torah itself",
+      "k": [
+        "rabbinically ordained",
+        "not torah"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Holiday, not Haman or Esther",
+    "body": "Clues about Haman, Mordecai, and Esther can tempt you to blurt a person’s name instead of the holiday, and “Megillah” names the scroll that’s read, not the day itself. Walled cities like Jerusalem also celebrate a related but separate-sounding “Shushan Purim” one day later, which is still this same holiday, not a different one.",
+    "fix": "Listen for “this holiday” or “this festival.” Say “Esther,” “Mordecai,” or “Haman” only when the question asks for “this queen,” “this official,” or “this villain.” “Shushan Purim” and the 15th of Adar still point to this same answer.",
+    "line": "Real answer line: <b><u>Purim</u></b> [accept <u>Feast of Lots</u> or <u>Festival of Lots</u> until “Lots” is read]"
+  },
+  "freq": {
+    "rank": 74,
+    "count": 1,
+    "list": "Religion"
+  }
+}

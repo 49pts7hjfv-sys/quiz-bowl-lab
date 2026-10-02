@@ -1,0 +1,467 @@
+{
+  "id": "world-war-i",
+  "name": "World War I",
+  "mono": "WWI",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Global war, 1914–1918 · Trench warfare and a new, deadlier kind of combat",
+  "dates": "Fought 1914–1918",
+  "briefing": "World War I began in 1914 after a Bosnian assassin killed Archduke Franz Ferdinand of Austria-Hungary, pulling Europe’s alliances into a war that most leaders expected to be over by Christmas. Instead, armies dug trenches across the Western Front and fought for years over a few miles of mud, while new weapons like machine guns, poison gas, and tanks made the fighting deadlier than ever. The war ended in 1918 with an armistice, and the Treaty of Versailles that followed reshaped the map of Europe.",
+  "answerHtml": "<b><u>World War I</u></b> (or <u>WWI</u>, <u>the First World War</u>; prompt on <u>the Great War</u>)",
+  "accept": [
+    "world war i",
+    "world war 1",
+    "wwi",
+    "ww1",
+    "first world war",
+    "the first world war",
+    "world war one",
+    "1st world war"
+  ],
+  "prompt": [
+    "the great war",
+    "great war",
+    "the war to end all wars",
+    "war to end all wars"
+  ],
+  "reject": [
+    "world war ii",
+    "wwii",
+    "ww2",
+    "world war 2",
+    "second world war",
+    "archduke franz ferdinand",
+    "franz ferdinand",
+    "assassination of archduke franz ferdinand",
+    "treaty of versailles",
+    "league of nations",
+    "russian civil war",
+    "russian revolution",
+    "battle of the marne",
+    "battle of the somme",
+    "battle of verdun",
+    "battle of tannenberg",
+    "gallipoli",
+    "battle of jutland",
+    "zimmerman telegram",
+    "zimmermann telegram",
+    "lusitania",
+    "fourteen points",
+    "central powers",
+    "triple entente"
+  ],
+  "tests": {
+    "right": [
+      "World War I",
+      "WWI",
+      "WW1",
+      "The First World War",
+      "Wrold War I"
+    ],
+    "prompt": [
+      "The Great War",
+      "Great War"
+    ],
+    "wrong": [
+      "World War II",
+      "Archduke Franz Ferdinand",
+      "Treaty of Versailles",
+      "Russian Civil War",
+      "Battle of the Somme"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Horrible Histories Song - World War 1 Cousins",
+      "source": "CBBC",
+      "url": "https://www.youtube.com/watch?v=oXmMT4sETu8",
+      "note": "Short · song about the royal cousins whose countries went to war"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Horrible Histories - World War 1 Sketch",
+      "source": "CBBC",
+      "url": "https://www.youtube.com/watch?v=qH-X9uWltxY",
+      "note": "Short sketch on daily life and absurdities of the war"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Sentry Duty (World War I)",
+      "source": "Simple History",
+      "url": "https://www.youtube.com/watch?v=MV6OfUXeGd4",
+      "note": "Short dramatized clip on a soldier’s night watch in the trenches"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "WW1 - Oversimplified (Part 1)",
+      "source": "OverSimplified",
+      "url": "https://www.youtube.com/watch?v=dHSQAEam2yc",
+      "note": "Weekend watch · the war’s causes and early years, fast and funny (preview first: a few grown-up jokes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "WW1 - Oversimplified (Part 2)",
+      "source": "OverSimplified",
+      "url": "https://www.youtube.com/watch?v=Mun1dKkc_As",
+      "note": "Weekend watch · continues through US entry to the armistice (preview first: a few grown-up jokes)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "How World War I Started: Crash Course World History 209",
+      "source": "Crash Course",
+      "url": "https://www.youtube.com/watch?v=Cd2ch4XV84s",
+      "note": "A deeper look at the alliances and decisions that led to war"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "World War I: Overview",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/world_war_i/",
+      "note": "Quick read: causes, major battles, and how the war ended"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/World_War_I",
+  "qb": {
+    "q": "World War I",
+    "found": 16,
+    "tip": "This search mixes in World War II and the Holocaust (which mostly just prompt on World War II) and the separate “assassination of Archduke Franz Ferdinand” answer line — skip those and keep the ones that are really about this war."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups (6 Middle School/Easy High School + 3 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "To knock France out quickly, German commanders followed the Schlieffen [“SHLEE-fen”] Plan and marched their armies through neutral Belgium, violating a treaty that Britain had promised to defend. That invasion of Belgium brought Britain into this war within days of its start in 1914.",
+      "r": "Trench lines soon stretched across the Western Front from the English Channel to Switzerland. For 10 points, name this war fought mainly between the Allied and Central Powers from 1914 to 1918."
+    },
+    {
+      "p": "This conflict began after a Bosnian Serb named Gavrilo Princip shot and killed Archduke Franz Ferdinand of Austria-Hungary and his wife Sophie in Sarajevo. Austria-Hungary then declared war on Serbia, and a web of alliances pulled in Russia, Germany, France, and Britain within weeks.",
+      "r": "Historians call that chain reaction the July Crisis. For 10 points, name this war, often called the Great War, that broke out in the summer of 1914."
+    },
+    {
+      "p": "Along much of its Western Front, this conflict became a stalemate of trench warfare, with soldiers on both sides living in muddy ditches separated by a deadly strip called No Man’s Land. New weapons used in this conflict included poison gas, machine guns, and, starting at the Somme in 1916, tanks.",
+      "r": "For 10 points, name this war in which Britain, France, and their allies fought Germany and Austria-Hungary from 1914 to 1918."
+    },
+    {
+      "p": "Early in this war, French general Joseph Gallieni [“gal-YAY-nee”] famously rushed reinforcements to the front in requisitioned Paris taxicabs during the First Battle of the Marne, which stopped Germany’s advance and ended hopes of a quick victory. Four years of trench warfare followed on this war’s Western Front.",
+      "r": "For 10 points, name this war that also saw heavy fighting on an Eastern Front against Russia."
+    },
+    {
+      "p": "On this war’s Eastern Front, German commanders Paul von Hindenburg and Erich Ludendorff [“LOO-den-dorf”] became national heroes after crushing a Russian army at the Battle of Tannenberg in 1914. Russia suffered further defeats before leaving this war after its 1917 revolution.",
+      "r": "For 10 points, name this war that pitted the Central Powers against Russia, France, and Britain beginning in 1914."
+    },
+    {
+      "p": "A telegram from German official Arthur Zimmermann [“TSIM-er-mahn”], proposing a secret alliance with Mexico against the United States, was intercepted and published during this war, outraging American public opinion. Along with Germany’s resumption of unrestricted submarine warfare, that telegram helped push the United States to enter this war in 1917.",
+      "r": "For 10 points, name this war, in which General John Pershing then led the American Expeditionary Forces."
+    },
+    {
+      "p": "A German U-boat torpedoed the British liner _Lusitania_ in 1915 during this war, killing nearly 1,200 people, including well over a hundred Americans, and souring American opinion of Germany. Germany had declared the waters around Britain a war zone open to submarine attack.",
+      "r": "For 10 points, name this war, which the United States entered two years after that sinking."
+    },
+    {
+      "p": "British poet Wilfred Owen described a gas attack victim “guttering, choking, drowning” in a poem about this war titled “Dulce et Decorum Est” [“DUL-chay et deh-KOR-um EST”], which calls the Latin saying that it is sweet and fitting to die for one’s country “the old Lie.” Owen was killed in action just a week before this war ended.",
+      "r": "For 10 points, name this war, which also inspired Erich Maria Remarque’s novel _All Quiet on the Western Front_."
+    },
+    {
+      "p": "Fighting in this war stopped at the eleventh hour of the eleventh day of the eleventh month of 1918, when an armistice took effect. Ordinary soldiers in this war were nicknamed “doughboys” in the American army and “Tommies” in the British one.",
+      "r": "For 10 points, name this war that was, for a time, called “the war to end all wars.”"
+    },
+    {
+      "p": "The treaty that ended this war forced Germany to accept blame in a “war guilt” clause, pay heavy reparations, and give up territory, while also creating the League of Nations. Woodrow Wilson had hoped for a gentler peace built on his Fourteen Points.",
+      "r": "That treaty was signed at the palace of Versailles in 1919. For 10 points, name this war that had begun in 1914."
+    },
+    {
+      "p": "Winston Churchill lost his post as First Lord of the Admiralty during this war after planning a failed invasion of the Gallipoli [“guh-LIP-oh-lee”] Peninsula meant to open a supply route to Russia. Soldiers from Australia and New Zealand suffered heavy losses on Gallipoli’s beaches during this war.",
+      "r": "For 10 points, name this war, whose Western Front saw far more Allied troops than Gallipoli ever did."
+    },
+    {
+      "p": "German pilot Manfred von Richthofen, nicknamed the “Red Baron,” shot down about eighty enemy aircraft during this war before he was killed in 1918. Earlier in this war, Britain lost about 20,000 men on a single day at the start of the Battle of the Somme.",
+      "r": "For 10 points, name this war that introduced tanks and fighter planes to modern combat."
+    },
+    {
+      "p": "Three royal cousins, Britain’s King George the Fifth, Germany’s Kaiser Wilhelm the Second, and Russia’s Tsar Nicholas the Second, ruled countries that ended up on opposite sides of this war, despite their close family ties. The tsar lost his throne and his life during this war.",
+      "r": "For 10 points, name this war that broke out among the royal cousins’ countries in 1914."
+    },
+    {
+      "p": "A mostly Black American regiment nicknamed the Harlem Hellfighters spent more days in front-line combat than almost any other American unit in this war. The American Expeditionary Forces, commanded by General John Pershing, arrived late in this war but helped turn the tide on the Western Front.",
+      "r": "For 10 points, name this war that the United States entered in 1917, more than two years after it began."
+    },
+    {
+      "p": "This war grew out of a tangle of causes that histories still summarize with the acronym MAIN: Militarism, Alliances, Imperialism, and Nationalism. Writers who came of age during this war, like Ernest Hemingway, became known as the “Lost Generation.”",
+      "r": "For 10 points, name this war that, despite hopes it would be “the war to end all wars,” was followed two decades later by an even larger global conflict."
+    }
+  ],
+  "clues": [
+    {
+      "id": "trench-warfare",
+      "tier": "giveaway",
+      "t": "Western Front fighting bogged down into trench warfare, separated by deadly “No Man’s Land”",
+      "k": [
+        "trench warfare",
+        "western front",
+        "no mans land"
+      ],
+      "n": 3
+    },
+    {
+      "id": "dates-1914-1918",
+      "tier": "giveaway",
+      "t": "Fought from 1914 to 1918, drawing in most of Europe’s great powers plus the United States",
+      "k": [
+        "1914",
+        "1918",
+        "great powers"
+      ],
+      "n": 2
+    },
+    {
+      "id": "armistice-versailles",
+      "tier": "giveaway",
+      "t": "Ended by an armistice on November 11, 1918, and formally closed out by the Treaty of Versailles in 1919",
+      "k": [
+        "armistice",
+        "november 11",
+        "treaty of versailles"
+      ],
+      "n": 2,
+      "rabbit": "Treaty of Versailles"
+    },
+    {
+      "id": "franz-ferdinand-spark",
+      "tier": "giveaway",
+      "t": "Sparked by the assassination of Archduke Franz Ferdinand of Austria-Hungary in Sarajevo (1914)",
+      "k": [
+        "archduke franz ferdinand",
+        "sarajevo",
+        "assassination"
+      ],
+      "n": 2,
+      "rabbit": "Archduke Franz Ferdinand"
+    },
+    {
+      "id": "central-vs-allied",
+      "tier": "middle",
+      "t": "Fought mainly between the Allied Powers (Britain, France, Russia, later the US) and the Central Powers (Germany, Austria-Hungary, the Ottomans)",
+      "k": [
+        "allied powers",
+        "central powers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "us-entry-zimmermann",
+      "tier": "middle",
+      "t": "The intercepted Zimmermann Telegram, proposing a German-Mexican alliance against the US, helped bring America into the war (1917)",
+      "k": [
+        "zimmermann telegram",
+        "mexico",
+        "1917"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lusitania",
+      "tier": "middle",
+      "t": "A German U-boat’s sinking of the passenger liner _Lusitania_ (1915) turned American opinion against Germany",
+      "k": [
+        "lusitania",
+        "u-boat",
+        "1915"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tannenberg-eastern-front",
+      "tier": "middle",
+      "t": "On the Eastern Front, Paul von Hindenburg and Erich Ludendorff crushed a Russian army at the Battle of Tannenberg (1914)",
+      "k": [
+        "tannenberg",
+        "hindenburg",
+        "ludendorff",
+        "eastern front"
+      ],
+      "n": 2,
+      "rabbit": "Battle of Tannenberg"
+    },
+    {
+      "id": "marne",
+      "tier": "middle",
+      "t": "The First Battle of the Marne (1914), reinforced by troops rushed to the front in Paris taxicabs, stopped the initial German advance",
+      "k": [
+        "battle of the marne",
+        "marne",
+        "taxicabs"
+      ],
+      "n": 2
+    },
+    {
+      "id": "owen-poetry",
+      "tier": "middle",
+      "t": "British poet Wilfred Owen described the horror of a gas attack in his poem “Dulce et Decorum Est”",
+      "k": [
+        "wilfred owen",
+        "dulce et decorum est",
+        "gas attack"
+      ],
+      "n": 3,
+      "rabbit": "Wilfred Owen"
+    },
+    {
+      "id": "doughboys-pershing",
+      "tier": "middle",
+      "t": "American “doughboys” of the American Expeditionary Forces, led by General John Pershing, arrived in 1917–18",
+      "k": [
+        "doughboys",
+        "american expeditionary forces",
+        "pershing"
+      ],
+      "n": 1
+    },
+    {
+      "id": "versailles-treaty-terms",
+      "tier": "middle",
+      "t": "The Treaty of Versailles forced Germany to accept a “war guilt” clause, pay reparations, and helped create the League of Nations",
+      "k": [
+        "war guilt",
+        "reparations",
+        "league of nations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "schlieffen-plan",
+      "tier": "power",
+      "t": "Germany’s Schlieffen Plan sent its armies through neutral Belgium to try to knock France out quickly",
+      "k": [
+        "schlieffen plan",
+        "belgium",
+        "neutral"
+      ],
+      "n": 1
+    },
+    {
+      "id": "july-crisis",
+      "tier": "power",
+      "t": "The chain of ultimatums and alliance obligations after the assassination is called the July Crisis",
+      "k": [
+        "july crisis",
+        "ultimatums",
+        "alliance"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gallipoli-churchill",
+      "tier": "power",
+      "t": "Winston Churchill lost his post as First Lord of the Admiralty after the failed Gallipoli campaign against the Ottomans",
+      "k": [
+        "gallipoli",
+        "winston churchill",
+        "first lord of the admiralty"
+      ],
+      "n": 1,
+      "rabbit": "Winston Churchill"
+    },
+    {
+      "id": "somme-tanks",
+      "tier": "power",
+      "t": "Britain lost about 20,000 men on the first day of the Battle of the Somme (1916), which also saw the first use of tanks",
+      "k": [
+        "battle of the somme",
+        "20000",
+        "tanks"
+      ],
+      "n": 1
+    },
+    {
+      "id": "red-baron",
+      "tier": "power",
+      "t": "German flying ace Manfred von Richthofen, the “Red Baron,” downed about 80 Allied aircraft before his death in 1918",
+      "k": [
+        "red baron",
+        "richthofen",
+        "flying ace"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jutland",
+      "tier": "power",
+      "t": "The Battle of Jutland (1916), fought by John Jellicoe’s fleet, was the war’s only full-scale clash of steel battleships",
+      "k": [
+        "battle of jutland",
+        "jellicoe",
+        "battleships"
+      ],
+      "n": 1
+    },
+    {
+      "id": "royal-cousins",
+      "tier": "power",
+      "t": "Britain’s King George V, Germany’s Kaiser Wilhelm II, and Russia’s Tsar Nicholas II were royal cousins who ended up on opposite sides",
+      "k": [
+        "george v",
+        "wilhelm ii",
+        "nicholas ii",
+        "royal cousins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "russia-exits",
+      "tier": "power",
+      "t": "Russia left the war after its 1917 revolution and signed the separate Treaty of Brest-Litovsk with Germany (1918)",
+      "k": [
+        "1917 revolution",
+        "brest-litovsk",
+        "russia left"
+      ],
+      "n": 0,
+      "rabbit": "Russian Revolution"
+    },
+    {
+      "id": "fourteen-points",
+      "tier": "power",
+      "t": "Woodrow Wilson’s Fourteen Points outlined his hoped-for peace terms, including a League of Nations",
+      "k": [
+        "fourteen points",
+        "woodrow wilson",
+        "peace terms"
+      ],
+      "n": 0,
+      "rabbit": "Woodrow Wilson"
+    },
+    {
+      "id": "main-causes",
+      "tier": "power",
+      "t": "Historians sum up its tangled causes with the acronym MAIN: Militarism, Alliances, Imperialism, and Nationalism",
+      "k": [
+        "militarism",
+        "alliances",
+        "imperialism",
+        "nationalism"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which war? Which event?",
+    "body": "World War I shares territory with several related-but-different quiz bowl answers: the assassination of Archduke Franz Ferdinand is the spark, not the war itself; the Treaty of Versailles is the document that ended it; and World War II, fought a generation later with many of the same countries, is a completely different war with its own battles and leaders. The Russian Civil War, which followed the 1917 Revolution, is also a separate conflict, even though it grew partly out of Russia leaving this one.",
+    "fix": "Trenches, the Western and Eastern Fronts, the Marne, Tannenberg, the Zimmermann Telegram, and 1914–1918 dates mean World War I. “Name this assassination” wants Franz Ferdinand’s murder; “name this treaty” wants Versailles. D-Day, the Holocaust, and Pearl Harbor all mean World War II instead.",
+    "line": "Real answer line: <b><u>World War I</u></b> (or <u>WWI</u>, <u>the First World War</u>)"
+  },
+  "freq": {
+    "rank": 24,
+    "count": 4,
+    "list": "European History"
+  }
+}

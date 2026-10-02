@@ -1,0 +1,543 @@
+{
+  "id": "napoleon-bonaparte",
+  "name": "Napoleon Bonaparte",
+  "mono": "N",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Emperor of the French · Conquered much of Europe, lost at Waterloo",
+  "dates": "1769–1821",
+  "briefing": "Napoleon Bonaparte was born on the island of Corsica and rose from artillery officer to Emperor of the French by age 35, crowning himself at Notre-Dame in Paris. His armies conquered much of Europe, and his Napoleonic Code still shapes laws around the world. Then a disastrous invasion of Russia began his downfall, and after a final defeat at Waterloo he was exiled to the tiny island of Saint Helena, where he died in 1821.",
+  "answerHtml": "<b><u>Napoleon</u></b> Bonaparte (or <u>Napoleon I</u>; prompt on <u>Bonaparte</u>; do not accept or prompt on “Napoleon III”)",
+  "accept": [
+    "napoleon",
+    "napoleon bonaparte",
+    "napoleon i",
+    "napoleon 1",
+    "napoleon 1st",
+    "napoleon the first",
+    "napoleon the 1st",
+    "napoleon first",
+    "napoleon buonaparte",
+    "napoleone buonaparte",
+    "napoleone di buonaparte",
+    "emperor napoleon",
+    "napoleon i bonaparte"
+  ],
+  "prompt": [
+    "bonaparte",
+    "buonaparte",
+    "emperor bonaparte",
+    "general bonaparte"
+  ],
+  "reject": [
+    "napoleon iii",
+    "napoleon 3",
+    "napoleon 3rd",
+    "napoleon the third",
+    "napoleon the 3rd",
+    "napoleon three",
+    "napoleon third",
+    "louis napoleon",
+    "louis napoleon bonaparte",
+    "charles louis napoleon",
+    "napoleon ii",
+    "napoleon 2",
+    "napoleon 2nd",
+    "napoleon the second",
+    "napoleon the 2nd",
+    "napoleon two",
+    "napoleon second",
+    "napoleon iv",
+    "king of rome",
+    "joseph bonaparte",
+    "lucien bonaparte",
+    "louis bonaparte",
+    "jerome bonaparte",
+    "josephine",
+    "josephine bonaparte",
+    "empress josephine",
+    "marie louise",
+    "waterloo",
+    "battle of waterloo",
+    "napoleonic wars",
+    "napoleonic code",
+    "napoleonic",
+    "wellington",
+    "duke of wellington",
+    "horatio nelson",
+    "nelson",
+    "kutuzov",
+    "alexander i",
+    "louis xiv",
+    "louis xvi",
+    "louis xviii",
+    "louis philippe",
+    "robespierre",
+    "talleyrand"
+  ],
+  "tests": {
+    "right": [
+      "Napoleon",
+      "Napoleon Bonaparte",
+      "Napoleon I",
+      "Emperor Napoleon",
+      "Napolean",
+      "Napoleon the First"
+    ],
+    "prompt": [
+      "Bonaparte"
+    ],
+    "wrong": [
+      "Napoleon III",
+      "Louis Napoleon",
+      "Joseph Bonaparte",
+      "Napoleon II",
+      "Waterloo",
+      "Duke of Wellington",
+      "Napoleonic Wars"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Napoleon Bonaparte: This Is Your Reign",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=uIvFaouUQ5s",
+      "note": "Short · comedy sketch that races through his whole life"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Napoleon: French Military Leader & Emperor",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=9l21Mbhnguk",
+      "note": "Short · quick life story of the general who became emperor"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "History vs. Napoleon Bonaparte",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=8aq_gRfmjgY",
+      "note": "5 min · animated mock trial: hero or tyrant? You are the jury"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Napoleon Bonaparte (#22)",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=Pd6E38FfuMg",
+      "note": "Fast overview of his rise, his wars, and his fall"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The French Revolution (#21)",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=5fJl_ZX91l0",
+      "note": "The Revolution that opened the door for him"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The Napoleonic Wars, Part 1",
+      "source": "OverSimplified",
+      "url": "https://www.youtube.com/watch?v=zqllxbPWKNI",
+      "note": "Weekend watch · funny cartoon story of his rise and wars (preview first: a few grown-up jokes)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Biography for Kids: Napoleon Bonaparte",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/world_leaders/napoleon_bonaparte.php",
+      "note": "Quick read: Corsica to emperor, Russia, Waterloo, plus fun facts (was he really short?)"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Napoleon",
+  "qb": {
+    "q": "Napoleon",
+    "found": 10,
+    "tip": "Napoleon is #1 on QBReader’s European History frequency list (10 Middle School and Easy High School tossups), the most-asked answer in the whole category. Skip the one result whose answer is the Napoleonic Wars, and notice that one answer line says not to accept Napoleon III."
+  },
+  "sample": {
+    "n": 9,
+    "note": "the 9 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A young German named Friedrich Staps was arrested at a military parade in Vienna in 1809 for trying to assassinate this ruler, who questioned him in person. Later that year, this ruler ended his marriage to Josephine because she had not given him an heir.",
+      "r": "He then married Marie Louise of Austria. For 10 points, name this French emperor who was defeated at Waterloo."
+    },
+    {
+      "p": "A bomb called the “infernal machine” exploded on a Paris street in 1800, just after this leader’s carriage passed by. At the time, this leader ruled France as First Consul, a post he had seized in the Coup of 18 Brumaire [“broo-MAIR”].",
+      "r": "Four years later, he crowned himself emperor. For 10 points, name this Corsican-born ruler of France."
+    },
+    {
+      "p": "As a young artillery officer, this man first won fame by helping drive the British out of the port of Toulon [“too-LOHN”] in 1793. Two years later, he used cannon fire to break up a royalist uprising in the streets of Paris.",
+      "r": "He later lost the Battle of Waterloo. For 10 points, name this general who became Emperor of the French."
+    },
+    {
+      "p": "This general named one of his war horses Marengo after his 1800 victory over the Austrians in northern Italy. Jacques-Louis David painted this general crossing the Alps at the Great St. Bernard Pass on a rearing horse.",
+      "r": "For 10 points, name this French emperor who was finally exiled to Saint Helena."
+    },
+    {
+      "p": "This ruler forced Austria to give up land in the Treaty of Pressburg after his victory at Austerlitz, the “Battle of the Three Emperors,” in 1805. Only weeks before that victory, Horatio Nelson had crushed a French and Spanish fleet at Trafalgar.",
+      "r": "For 10 points, name this French emperor who was defeated at Waterloo in 1815."
+    },
+    {
+      "p": "This ruler called his 1812 invasion of Russia the “Second Polish War.” After winning a costly battle against Mikhail Kutuzov [“koo-TOO-zuff”] at Borodino [“bor-uh-DEE-noh”], his Grande Armée [“grahnd ar-MAY”] reached Moscow, only to find the city in flames.",
+      "r": "Most of his army was lost during the retreat through the Russian winter. For 10 points, name this French emperor who was later defeated at Waterloo."
+    },
+    {
+      "p": "During this general’s invasion of Egypt, French soldiers found the Rosetta Stone in 1799, and scholars he brought along began studying ancient Egyptian ruins. Horatio Nelson destroyed this general’s fleet at the Battle of the Nile, leaving his army stranded.",
+      "r": "For 10 points, name this French leader who later crowned himself emperor and lost at Waterloo."
+    },
+    {
+      "p": "This ruler’s Berlin and Milan Decrees set up the Continental System, which tried to ruin Britain’s economy by banning European trade with it. Portugal’s refusal to join that blockade led this ruler to invade the Iberian Peninsula.",
+      "r": "That invasion started the Peninsular War. For 10 points, name this French emperor who lost at Waterloo."
+    },
+    {
+      "p": "Ludwig van Beethoven angrily scratched this ruler’s name off the title page of his Third Symphony, the _Eroica_, after this man declared himself emperor. This man’s coronation in 1804, with Pope Pius VII looking on, was painted by Jacques-Louis David.",
+      "r": "He was later exiled to Elba and to Saint Helena. For 10 points, name this Corsican-born Emperor of the French."
+    },
+    {
+      "p": "This emperor met Tsar Alexander I on a raft in the middle of the Neman River before they signed the Treaties of Tilsit in 1807. A year earlier, he had grouped many German states into the Confederation of the Rhine.",
+      "r": "That move helped end the Holy Roman Empire. For 10 points, name this French emperor who lost at Waterloo."
+    },
+    {
+      "p": "After his army failed to retake the rebellious colony of Saint-Domingue [“san doh-MANG”], this leader sold the huge Louisiana Territory to the United States in 1803 for about 15 million dollars. That colony soon became the independent nation of Haiti.",
+      "r": "He also introduced a single civil code of laws for all of France. For 10 points, name this French leader who crowned himself emperor in 1804."
+    },
+    {
+      "p": "In 1815, this man escaped from Elba, landed in southern France, and won over the soldiers sent to arrest him, starting the Hundred Days. The Seventh Coalition, led by the Duke of Wellington and the Prussian general Blücher [“BLOO-kur”], ended that comeback.",
+      "r": "For 10 points, name this French emperor who spent his last years in exile on Saint Helena."
+    },
+    {
+      "p": "This ruler made his older brother Joseph the unpopular king of Spain in 1808, during the Peninsular War. In 1813, this ruler lost the Battle of Leipzig [“LIPE-sig”], also called the Battle of the Nations, and the next year he was exiled to Elba.",
+      "r": "For 10 points, name this French emperor whose final defeat came at Waterloo in 1815."
+    },
+    {
+      "p": "This leader reached the Concordat of 1801 with Pope Pius VII, making peace between the French government and the Catholic Church after the Revolution. This leader’s first wife, Josephine, was crowned empress at Notre-Dame Cathedral in 1804.",
+      "r": "For 10 points, name this French emperor who was defeated at Waterloo and exiled to Saint Helena."
+    },
+    {
+      "p": "This man’s remains were brought back to Paris in 1840 and now lie in a huge tomb under the dome of Les Invalides [“lay zan-vah-LEED”]. In 1806, he ordered the building of the Arc de Triomphe to honor the soldiers of his Grande Armée.",
+      "r": "Admirers called him “the Little Corporal.” For 10 points, name this Corsican-born emperor of France."
+    }
+  ],
+  "clues": [
+    {
+      "id": "waterloo",
+      "tier": "giveaway",
+      "t": "Lost the Battle of Waterloo (1815) to the Duke of Wellington and the Prussians",
+      "k": [
+        "waterloo",
+        "wellington",
+        "1815"
+      ],
+      "n": 9,
+      "rabbit": "Battle of Waterloo"
+    },
+    {
+      "id": "emperor",
+      "tier": "giveaway",
+      "t": "Crowned himself Emperor of the French at Notre-Dame in 1804",
+      "k": [
+        "emperor",
+        "crowned himself",
+        "notre-dame",
+        "1804"
+      ],
+      "n": 8
+    },
+    {
+      "id": "saint-helena",
+      "tier": "giveaway",
+      "t": "Died in exile on Saint Helena, a remote island in the South Atlantic (1821)",
+      "k": [
+        "saint helena",
+        "st helena",
+        "helena",
+        "exile"
+      ],
+      "n": 7
+    },
+    {
+      "id": "corsica",
+      "tier": "giveaway",
+      "t": "Born on the Mediterranean island of Corsica (1769)",
+      "k": [
+        "corsica",
+        "corsican",
+        "1769"
+      ],
+      "n": 1
+    },
+    {
+      "id": "austerlitz",
+      "tier": "middle",
+      "t": "Battle of Austerlitz (1805): beat Austria and Russia in the “Battle of the Three Emperors,” his greatest victory",
+      "k": [
+        "austerlitz",
+        "three emperors",
+        "1805"
+      ],
+      "n": 5
+    },
+    {
+      "id": "russia-1812",
+      "tier": "middle",
+      "t": "Invaded Russia in 1812; reached a burning Moscow, then lost most of his army retreating in winter",
+      "k": [
+        "russia",
+        "1812",
+        "moscow",
+        "retreat"
+      ],
+      "n": 5
+    },
+    {
+      "id": "elba",
+      "tier": "middle",
+      "t": "Lost at Leipzig (1813), was exiled to Elba (1814), then escaped for the Hundred Days (1815)",
+      "k": [
+        "elba",
+        "leipzig",
+        "hundred days"
+      ],
+      "n": 4
+    },
+    {
+      "id": "coalitions",
+      "tier": "middle",
+      "t": "Fought seven coalitions of European powers; the Seventh Coalition finally beat him",
+      "k": [
+        "seventh coalition",
+        "coalitions",
+        "coalition"
+      ],
+      "n": 4
+    },
+    {
+      "id": "trafalgar",
+      "tier": "middle",
+      "t": "Horatio Nelson destroyed a French and Spanish fleet at Trafalgar (1805), ending his hopes of invading Britain",
+      "k": [
+        "trafalgar",
+        "horatio nelson",
+        "nelson"
+      ],
+      "n": 2
+    },
+    {
+      "id": "josephine",
+      "tier": "middle",
+      "t": "First wife Josephine; he divorced her for lack of an heir and married Marie Louise of Austria (1810)",
+      "k": [
+        "josephine",
+        "marie louise"
+      ],
+      "n": 1
+    },
+    {
+      "id": "civil-code",
+      "tier": "middle",
+      "t": "His Civil Code (1804) gave all of France one set of laws, and it still bears his name",
+      "k": [
+        "civil code",
+        "code",
+        "laws"
+      ],
+      "n": 0
+    },
+    {
+      "id": "louisiana",
+      "tier": "middle",
+      "t": "Sold the Louisiana Territory to the United States (1803) after failing to retake Saint-Domingue (Haiti)",
+      "k": [
+        "louisiana",
+        "saint-domingue",
+        "haiti"
+      ],
+      "n": 0
+    },
+    {
+      "id": "little-corporal",
+      "tier": "middle",
+      "t": "Nicknamed “the Little Corporal”; the idea that he was very short is mostly a myth",
+      "k": [
+        "little corporal",
+        "corporal",
+        "short"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peninsular-war",
+      "tier": "power",
+      "t": "Made his brother Joseph king of Spain (1808) and fought the British, Spanish, and Portuguese in the Peninsular War",
+      "k": [
+        "peninsular war",
+        "peninsular",
+        "joseph",
+        "spain"
+      ],
+      "n": 4
+    },
+    {
+      "id": "egypt",
+      "tier": "power",
+      "t": "Invaded Egypt (1798): his soldiers found the Rosetta Stone, but Nelson sank his fleet at the Battle of the Nile",
+      "k": [
+        "egypt",
+        "rosetta stone",
+        "battle of the nile",
+        "nile"
+      ],
+      "n": 2
+    },
+    {
+      "id": "continental-system",
+      "tier": "power",
+      "t": "Continental System (Berlin and Milan Decrees): tried to ruin Britain by banning European trade with it",
+      "k": [
+        "continental system",
+        "berlin decree",
+        "milan decree",
+        "milan"
+      ],
+      "n": 2
+    },
+    {
+      "id": "borodino",
+      "tier": "power",
+      "t": "Won the costly Battle of Borodino (1812) against Kutuzov’s Russian army",
+      "k": [
+        "borodino",
+        "kutuzov"
+      ],
+      "n": 3
+    },
+    {
+      "id": "pressburg",
+      "tier": "power",
+      "t": "Treaty of Pressburg (1805) took land from Austria after Austerlitz",
+      "k": [
+        "pressburg"
+      ],
+      "n": 2
+    },
+    {
+      "id": "brumaire",
+      "tier": "power",
+      "t": "Seized power in the Coup of 18 Brumaire (1799) and ruled as First Consul",
+      "k": [
+        "brumaire",
+        "first consul",
+        "consul",
+        "1799"
+      ],
+      "n": 1
+    },
+    {
+      "id": "toulon",
+      "tier": "power",
+      "t": "First won fame as an artillery officer at the Siege of Toulon (1793)",
+      "k": [
+        "toulon",
+        "artillery",
+        "1793"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marengo",
+      "tier": "power",
+      "t": "Named one of his horses Marengo after his 1800 victory over Austria",
+      "k": [
+        "marengo",
+        "horse",
+        "horses"
+      ],
+      "n": 1
+    },
+    {
+      "id": "staps",
+      "tier": "power",
+      "t": "Friedrich Staps tried to assassinate him at a parade in Vienna (1809)",
+      "k": [
+        "staps",
+        "assassinate",
+        "vienna"
+      ],
+      "n": 1
+    },
+    {
+      "id": "infernal-machine",
+      "tier": "power",
+      "t": "Survived the “infernal machine,” a bomb set off near his carriage in Paris (1800)",
+      "k": [
+        "infernal machine",
+        "infernal",
+        "bomb"
+      ],
+      "n": 1
+    },
+    {
+      "id": "second-polish-war",
+      "tier": "power",
+      "t": "Called his invasion of Russia the “Second Polish War”",
+      "k": [
+        "second polish war",
+        "polish"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tilsit",
+      "tier": "power",
+      "t": "Treaties of Tilsit (1807): met Tsar Alexander I on a raft in the Neman River",
+      "k": [
+        "tilsit",
+        "alexander i",
+        "raft"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eroica",
+      "tier": "power",
+      "t": "Beethoven scratched his name off the dedication of the _Eroica_ Symphony when he became emperor",
+      "k": [
+        "eroica",
+        "beethoven"
+      ],
+      "n": 0
+    },
+    {
+      "id": "david",
+      "tier": "power",
+      "t": "Jacques-Louis David painted his coronation and showed him crossing the Alps on a rearing horse",
+      "k": [
+        "jacques-louis david",
+        "david",
+        "crossing the alps",
+        "alps"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Napoleon? Which answer?",
+    "body": "Napoleon I (Napoleon Bonaparte) is the famous emperor; his nephew Louis-Napoleon became Napoleon III, Emperor of the French from 1852 until he was captured at Sedan in the Franco-Prussian War. Real answer lines say “do NOT accept or prompt on Napoleon III,” and saying only “Bonaparte” gets a prompt. Napoleon and Waterloo tossups share clues like Wellington, Blücher, and Saint Helena, so the last line decides the answer.",
+    "fix": "“Name this emperor” (or this general, or this leader) wants Napoleon; “name this battle” wants Waterloo; “name this conflict” wants the Napoleonic Wars. Sedan, the Crimean War, and Baron Haussmann’s rebuilding of Paris mean Napoleon III. Say “Napoleon,” not just “Bonaparte.”",
+    "line": "Real answer line: <b><u>Napoleon</u></b> Bonaparte (or <u>Napoleon I</u>; prompt on <u>Bonaparte</u>; do NOT accept or prompt on “Napoleon III”)"
+  },
+  "freq": {
+    "rank": 1,
+    "count": 10,
+    "list": "European History"
+  }
+}

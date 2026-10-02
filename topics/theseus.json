@@ -1,0 +1,437 @@
+{
+  "id": "theseus",
+  "name": "Theseus",
+  "mono": "TH",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Greek hero and king of Athens · Famous for slaying the Minotaur",
+  "dates": "Legendary king of Athens; Plutarch collected his myths around 100 CE",
+  "briefing": "Theseus proved himself to his father, the king of Athens, by surviving a string of monstrous bandits on the road from Troezen. His most famous adventure came on the island of Crete, where the princess Ariadne handed him a ball of thread so he could track his way back out of the Labyrinth after slaying the monstrous Minotaur. Theseus became king of Athens himself, but a single forgotten detail, the color of his ship’s sails, convinced his own father that he had died.",
+  "answerHtml": "<b><u>Theseus</u></b>",
+  "accept": [
+    "theseus"
+  ],
+  "prompt": [],
+  "reject": [
+    "heracles",
+    "hercules",
+    "perseus",
+    "jason",
+    "achilles",
+    "minos",
+    "daedalus",
+    "icarus",
+    "ariadne",
+    "aegeus",
+    "pirithous"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Greek Mythology: Theseus",
+      "source": "Learn Bright",
+      "url": "https://www.youtube.com/watch?v=6C07Wbsxu_M",
+      "note": "Kid-friendly lesson on Theseus and the Minotaur"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Myths & Misadventures - Theseus",
+      "source": "National Hellenic Museum",
+      "url": "https://www.youtube.com/watch?v=UbXQXAhR6Lg",
+      "note": "A Greek museum’s myth series tells the story of Theseus"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Greek Myth of Theseus, Ariadne and the Minotaur",
+      "source": "World History Encyclopedia",
+      "url": "https://www.youtube.com/watch?v=gpVWMQ8g6K4",
+      "note": "Ariadne’s thread, the Labyrinth, and the Minotaur"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Miscellaneous Myths: Theseus and Pirithous",
+      "source": "Overly Sarcastic Productions",
+      "url": "https://www.youtube.com/watch?v=Ije2WDJttrc",
+      "note": "Funny retelling of his later adventures with his friend Pirithous, including a trip to the Underworld (some mature themes)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The scientific origins of the Minotaur",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=2aoIs-5zqoI",
+      "note": "Short · how real places and events on ancient Crete may have inspired the Minotaur legend"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Theseus facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Theseus",
+      "note": "Kid-friendly encyclopedia article: the road to Athens, the Labyrinth, and his time as king"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Theseus",
+  "qb": {
+    "q": "Theseus",
+    "found": 6,
+    "tip": "One of the six hits at Middle School/Easy High School is actually an “Underworld” tossup that only mentions Theseus in a prompt instruction, not a real Theseus tossup, so the true sample there is 5; a wider Regular High School search added 11 more clearly-relevant tossups."
+  },
+  "sample": {
+    "n": 16,
+    "note": "16 real QBReader tossups (5 Middle School/Easy High School + 11 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This hero once agreed to help his friend Pirithous [“pih-RITH-oh-us”] kidnap Persephone from the Underworld, a plan that got them both trapped on a rock remembered as the “Chair of Forgetfulness.” The hero Heracles eventually pulled this hero free, though Pirithous had to stay behind forever.",
+      "r": "This hero’s own father had earlier thrown himself into the sea after seeing black sails on this hero’s returning ship. For 10 points, name this Greek hero who slew the Minotaur."
+    },
+    {
+      "p": "According to legend, the city of Athens kept this hero’s ship in good repair for centuries by replacing its rotting planks one by one, inspiring a famous puzzle about whether it remained the same ship. This hero also joined the hunt for the Calydonian [“kal-ih-DOH-nee-un”] Boar alongside his best friend, Pirithous.",
+      "r": "That same friend later joined him on a doomed trip to the Underworld. For 10 points, name this Greek hero who used a ball of thread from Ariadne to escape the Labyrinth after killing the Minotaur."
+    },
+    {
+      "p": "The Athenian general Cimon [“KY-mon”] sailed to the island of Skyros to recover bones believed to belong to this hero, which he brought back to a shrine in Athens called the “Theseion.” This hero is said to have died on that same island, possibly pushed off a cliff by a king there.",
+      "r": "Centuries earlier, this hero had become king of Athens. For 10 points, name this Greek founding hero who slew the Minotaur in Crete’s Labyrinth."
+    },
+    {
+      "p": "Before this hero’s birth, the Oracle of Delphi cryptically warned his father not to “loosen the mouth of the wineskin” until he reached Athens. This hero later found that same father’s sword and sandals hidden beneath a boulder, which let him prove his identity.",
+      "r": "This hero then traveled to Athens, defeating bandits along the way. For 10 points, name this Greek hero who went on to kill the Minotaur."
+    },
+    {
+      "p": "This hero tricked the club-wielding bandit Periphetes [“pair-ih-FEE-teez”] into handing over his own weapon before killing him with it. This hero also defeated the robber Sinis [“SY-nis”], nicknamed the “Pine-Bender,” who tore travelers apart between two bent pine trees.",
+      "r": "This hero defeated several such bandits on his journey to Athens, where his father ruled as king. For 10 points, name this Greek hero who killed the Minotaur."
+    },
+    {
+      "p": "This hero pushed the cliffside bandit Sciron [“SKY-ron”] into the sea to be eaten by a sea monster, the same fate Sciron had forced on travelers who washed his feet. This hero also killed Procrustes [“proh-KRUS-teez”], who forced guests to fit his bed exactly by stretching or cutting their limbs.",
+      "r": "This hero defeated such bandits while traveling to Athens to meet his father. For 10 points, name this Greek hero who defeated the Minotaur in the Labyrinth."
+    },
+    {
+      "p": "With his friend Pirithous, this hero once helped kidnap a young Helen, prompting Helen’s brothers to raid Athens and capture this hero’s own mother in revenge. This hero also captured the Marathonian Bull, the same bull once driven out of Crete by Heracles.",
+      "r": "This hero is better remembered for an earlier trip to Crete. For 10 points, name this Greek hero who killed the Minotaur with help from Ariadne’s thread."
+    },
+    {
+      "p": "This hero is credited with the synoikismos [“sin-oy-kis-MOS”], the legendary unification of Attica’s scattered villages into the single city-state of Athens. He is remembered as one of that city’s founding kings.",
+      "r": "Before becoming king, this hero sailed to Crete and navigated the Labyrinth using thread given to him by the princess Ariadne. For 10 points, name this slayer of the Minotaur."
+    },
+    {
+      "p": "This hero joined the hunt for the monstrous Calydonian Boar alongside his close friend Pirithous. The two later tried to kidnap the goddess Persephone from the Underworld together, a plan that left them both stuck to a rock.",
+      "r": "Only this hero was eventually freed, by the hero Heracles. For 10 points, name this Greek hero who killed the Minotaur in the Labyrinth."
+    },
+    {
+      "p": "This hero navigated a maze on Crete that had been built by the clever inventor Daedalus [“DED-uh-lus”]. Pasiphae’s [“puh-SIF-uh-eez”] monstrous son lived at the center of that maze.",
+      "r": "Ariadne gave this hero a ball of thread to find his way back out after he killed that monster. For 10 points, name this Greek hero who slew the Minotaur."
+    },
+    {
+      "p": "On the road to Athens, this hero killed the bandit Procrustes, who forced travelers to fit his iron bed exactly, stretching or cutting them until they did. This hero also defeated the robber Sinis by using the same bent-pine-tree trick Sinis had used on his own victims.",
+      "r": "This hero traveled that dangerous road to reach his father, the king of Athens. For 10 points, name this Greek hero who slew the Minotaur in the Labyrinth on Crete."
+    },
+    {
+      "p": "The sorceress Medea once sent this hero to capture the Marathonian Bull, hoping the beast would kill him before he could claim his father’s throne. This hero succeeded and dragged the bull back to Athens.",
+      "r": "This hero had better luck than Medea hoped, later sailing to Crete and defeating an even more dangerous bull-headed monster. For 10 points, name this slayer of the Minotaur."
+    },
+    {
+      "p": "Before setting out for Athens, this hero lifted a boulder to find the sword and sandals his father had hidden there as a test. His mother, Aethra [“EE-thruh”], had raised him alone in Troezen [“TREE-zen”] and finally told him who his father was.",
+      "r": "Using those as proof, this hero was recognized by his father, the king of Athens. For 10 points, name this hero who went on to kill the Minotaur."
+    },
+    {
+      "p": "After being freed from the Underworld’s “Chair of Forgetfulness,” this hero was said to have left behind part of his own backside, which Athenian comedians later joked explained why Athenians had unusually small backsides. His friend Pirithous was not so lucky and remained stuck forever.",
+      "r": "This hero had gone to the Underworld to help Pirithous try to kidnap Persephone. For 10 points, name this Greek hero who slew the Minotaur."
+    },
+    {
+      "p": "This hero defeated the bandit Sinis, the “Pine-Bender,” by tying him between two bent pine trees, the same trap Sinis had used on travelers. This hero also pushed the cliffside robber Sciron into the sea.",
+      "r": "This hero defeated such villains on his way to Athens, where his father ruled as king. For 10 points, name this Greek hero who killed the Minotaur using thread from Ariadne."
+    }
+  ],
+  "clues": [
+    {
+      "id": "minotaur",
+      "tier": "giveaway",
+      "t": "Killed the Minotaur, a monster with a bull’s head, inside the Labyrinth on Crete",
+      "k": [
+        "minotaur",
+        "labyrinth",
+        "crete"
+      ],
+      "n": 16
+    },
+    {
+      "id": "sails",
+      "tier": "giveaway",
+      "t": "His father Aegeus drowned himself in the sea after seeing his ship’s black sails and wrongly believing his son had died",
+      "k": [
+        "aegeus",
+        "black sails",
+        "drowned"
+      ],
+      "n": 13,
+      "rabbit": "Aegeus"
+    },
+    {
+      "id": "ariadne-thread",
+      "tier": "giveaway",
+      "t": "Found his way out of the Labyrinth using a ball of thread given to him by the princess Ariadne",
+      "k": [
+        "ariadne",
+        "thread",
+        "labyrinth"
+      ],
+      "n": 15,
+      "rabbit": "Ariadne"
+    },
+    {
+      "id": "king-athens",
+      "tier": "giveaway",
+      "t": "Became king of Athens and is remembered as one of its founding heroes",
+      "k": [
+        "king of athens",
+        "founding hero"
+      ],
+      "n": 6
+    },
+    {
+      "id": "naxos",
+      "tier": "giveaway",
+      "t": "Sailed away from Crete but abandoned Ariadne, asleep, on the island of Naxos",
+      "k": [
+        "naxos",
+        "abandoned",
+        "asleep"
+      ],
+      "n": 6
+    },
+    {
+      "id": "pirithous",
+      "tier": "middle",
+      "t": "His best friend was Pirithous, king of the Lapiths [“LAP-iths”]",
+      "k": [
+        "pirithous",
+        "lapiths"
+      ],
+      "n": 9,
+      "rabbit": "Pirithous"
+    },
+    {
+      "id": "chair",
+      "tier": "middle",
+      "t": "Became stuck to a rock in the Underworld, remembered as the “Chair of Forgetfulness”",
+      "k": [
+        "chair of forgetfulness",
+        "underworld",
+        "stuck"
+      ],
+      "n": 9
+    },
+    {
+      "id": "heracles-rescue",
+      "tier": "middle",
+      "t": "Was freed from the Underworld by the hero Heracles, who could not also save Pirithous",
+      "k": [
+        "heracles",
+        "freed",
+        "rescue"
+      ],
+      "n": 5,
+      "rabbit": "Heracles"
+    },
+    {
+      "id": "phaedra",
+      "tier": "middle",
+      "t": "His later wife Phaedra fell in love with his own son Hippolytus",
+      "k": [
+        "phaedra",
+        "hippolytus"
+      ],
+      "n": 5,
+      "rabbit": "Phaedra"
+    },
+    {
+      "id": "procrustes",
+      "tier": "middle",
+      "t": "On the road to Athens, killed the bandit Procrustes, who forced travelers to fit his bed by stretching or cutting them",
+      "k": [
+        "procrustes",
+        "bed",
+        "stretching"
+      ],
+      "n": 5
+    },
+    {
+      "id": "sinis",
+      "tier": "middle",
+      "t": "Also killed Sinis, the “Pine-Bender,” who tore travelers apart between two bent pine trees",
+      "k": [
+        "sinis",
+        "pine bender",
+        "pine trees"
+      ],
+      "n": 4
+    },
+    {
+      "id": "marathonian-bull",
+      "tier": "middle",
+      "t": "Captured the Marathonian Bull, the same bull once brought from Crete by Heracles",
+      "k": [
+        "marathonian bull"
+      ],
+      "n": 4
+    },
+    {
+      "id": "sword-sandals",
+      "tier": "middle",
+      "t": "Proved his identity to his father by finding a sword and sandals hidden under a boulder",
+      "k": [
+        "sword",
+        "sandals",
+        "boulder"
+      ],
+      "n": 3
+    },
+    {
+      "id": "buttocks",
+      "tier": "middle",
+      "t": "Left part of his backside stuck to the Underworld rock, which Athenians joked explained their famously small backsides",
+      "k": [
+        "small backsides",
+        "stuck",
+        "joke"
+      ],
+      "n": 4
+    },
+    {
+      "id": "persephone-motive",
+      "tier": "power",
+      "t": "Tried to help Pirithous kidnap Persephone from the Underworld, which led to their punishment",
+      "k": [
+        "persephone",
+        "kidnap"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ship-paradox",
+      "tier": "power",
+      "t": "His ship was said to be preserved in Athens for centuries by replacing its rotten planks one by one, inspiring a famous philosophical puzzle about whether it was still the same ship",
+      "k": [
+        "rotten planks",
+        "same ship",
+        "philosophical puzzle"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cimon-bones",
+      "tier": "power",
+      "t": "The general Cimon recovered bones believed to be his from the island of Skyros and brought them to a shrine in Athens called the “Theseion”",
+      "k": [
+        "cimon",
+        "skyros",
+        "theseion"
+      ],
+      "n": 3
+    },
+    {
+      "id": "oracle",
+      "tier": "power",
+      "t": "Before his birth, the Oracle of Delphi warned his father not to “loosen the mouth of the wineskin” until reaching Athens",
+      "k": [
+        "oracle of delphi",
+        "wineskin"
+      ],
+      "n": 2
+    },
+    {
+      "id": "periphetes",
+      "tier": "power",
+      "t": "Killed the club-wielding bandit Periphetes by tricking him into handing over his own weapon",
+      "k": [
+        "periphetes",
+        "club"
+      ],
+      "n": 2
+    },
+    {
+      "id": "sciron",
+      "tier": "power",
+      "t": "Pushed the cliffside bandit Sciron into the sea to be eaten by a sea monster, just as Sciron had done to travelers",
+      "k": [
+        "sciron",
+        "cliff",
+        "sea monster"
+      ],
+      "n": 2
+    },
+    {
+      "id": "helen",
+      "tier": "power",
+      "t": "Helped Pirithous kidnap a young Helen, which led Helen’s brothers to raid Athens in revenge",
+      "k": [
+        "helen",
+        "kidnap"
+      ],
+      "n": 2
+    },
+    {
+      "id": "synoikismos",
+      "tier": "power",
+      "t": "Credited with the synoikismos, the legendary unification of Attica’s villages into the city-state of Athens",
+      "k": [
+        "synoikismos",
+        "athens",
+        "unification"
+      ],
+      "n": 1
+    },
+    {
+      "id": "calydonian-boar",
+      "tier": "power",
+      "t": "Joined the hunt for the Calydonian Boar alongside Pirithous and other Greek heroes",
+      "k": [
+        "calydonian boar",
+        "hunt"
+      ],
+      "n": 2
+    },
+    {
+      "id": "daedalus",
+      "tier": "power",
+      "t": "Navigated the Labyrinth that had been built on Crete by the inventor Daedalus",
+      "k": [
+        "daedalus",
+        "labyrinth builder"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Theseus or Heracles?",
+    "body": "Theseus and Heracles are often tangled together: Heracles rescues Theseus from the Chair of Forgetfulness in the Underworld (but cannot also free Theseus’s friend Pirithous), and both heroes deal with a famous bull (Theseus kills the Minotaur; Heracles captures the Cretan/Marathonian Bull). A clue about being rescued from the Underworld, or about black-and-white sails, or about Ariadne’s thread, means Theseus, not Heracles.",
+    "fix": "Listen for who is doing the action. If the hero needs help from someone else, such as being saved by Heracles or guided by Ariadne’s thread, the answer is usually Theseus. If the hero is doing Twelve Labors himself, it is Heracles.",
+    "line": "Real answer line: <b><u>Theseus</u></b>."
+  },
+  "tests": {
+    "right": [
+      "Theseus",
+      "Thesus",
+      "King Theseus",
+      "Thesius"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Heracles",
+      "Minos",
+      "Daedalus",
+      "Ariadne",
+      "Perseus"
+    ]
+  },
+  "freq": {
+    "rank": 7,
+    "count": 8,
+    "list": "Mythology"
+  }
+}

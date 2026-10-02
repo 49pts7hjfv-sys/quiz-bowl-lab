@@ -1,0 +1,484 @@
+{
+  "id": "thomas-jefferson",
+  "name": "Thomas Jefferson",
+  "mono": "TJ",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "3rd U.S. President · Author of the Declaration of Independence",
+  "dates": "1743–1826",
+  "briefing": "Thomas Jefferson was only 33 when he wrote the first draft of the Declaration of Independence, with its famous words “all men are created equal,” yet he enslaved more than 600 people during his life. As the third president, he doubled the size of the country with the Louisiana Purchase and sent Lewis and Clark to explore it. He also designed his hilltop home, Monticello, which appears on the back of the nickel.",
+  "answerHtml": "Thomas <b><u>Jefferson</u></b>",
+  "accept": [
+    "thomas jefferson",
+    "jefferson",
+    "tom jefferson",
+    "president thomas jefferson"
+  ],
+  "prompt": [],
+  "reject": [
+    "jefferson davis",
+    "martha jefferson",
+    "jefferson memorial",
+    "jefferson city",
+    "james madison",
+    "madison",
+    "john adams",
+    "james monroe",
+    "monroe",
+    "aaron burr",
+    "alexander hamilton"
+  ],
+  "tests": {
+    "right": [
+      "Thomas Jefferson",
+      "Jefferson",
+      "Thomas Jeffersen",
+      "jeferson",
+      "President Jefferson"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Jefferson Davis",
+      "James Madison",
+      "Madison",
+      "John Adams",
+      "Martha Jefferson",
+      "James Monroe"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Thomas Jefferson | 60-Second Presidents",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=m_VdRgpHUMY",
+      "note": "1 min · his whole life in one minute"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What makes Thomas Jefferson so controversial?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=c517cpFALXE",
+      "note": "Animated lesson · the man who wrote “all men are created equal” and also enslaved people"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Thomas Jefferson & His Democracy (#10)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=_3Ox6vGteek",
+      "note": "His ideas and his presidency, including the election of 1800 and the Louisiana Purchase"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Live with Thomas Jefferson: Lewis & Clark Expedition",
+      "source": "Thomas Jefferson’s Monticello",
+      "url": "https://www.youtube.com/watch?v=HsnRJPt5MLU",
+      "note": "Live Q&A from his home · a historical interpreter, in character, talks about Lewis and Clark"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The historical audacity of the Louisiana Purchase",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=sMh8RCqJf9U",
+      "note": "Animated lesson · why buying Louisiana was such a huge, risky decision"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Biography of President Thomas Jefferson",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/thomasjefferson.php",
+      "note": "Quick kid-friendly read, with a quiz page"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+  "qb": {
+    "q": "Thomas Jefferson",
+    "found": 5,
+    "tip": "All five end with “third president,” so race the early clues; the “Ograbme” turtle cartoon (embargo spelled backward) is the favorite power clue."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups (5 Middle School/Easy High School + 4 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A political cartoon showed a snapping turtle named “Ograbme” [“oh-GRAB-mee”], which is “embargo” spelled backward, biting a smuggler who was carrying a barrel toward a ship. That cartoon mocked this president’s 1807 law that kept American ships from sailing to foreign ports.",
+      "r": "This president had earlier bought the Louisiana Territory from France. For 10 points, name this third U.S. president."
+    },
+    {
+      "p": "While serving as the American minister to France, this diplomat wrote the artist Maria Cosway a famous letter in the form of a dialogue between his “Head” and his “Heart.” He came home to become the first U.S. Secretary of State.",
+      "r": "In that job, he clashed with Alexander Hamilton over a national bank. For 10 points, name this author of the Declaration of Independence."
+    },
+    {
+      "p": "After the frigate USS _Philadelphia_ ran aground and was captured near Tripoli, Stephen Decatur led a nighttime raid to burn it so the enemy could not use it. This president had sent warships to the Mediterranean after the ruler of Tripoli demanded more tribute money.",
+      "r": "U.S. Marines later fought at Derna [“DAIR-nuh”] in that First Barbary War. For 10 points, name this president who sent Lewis and Clark to explore the West."
+    },
+    {
+      "p": "The only full-length book this man published, _Notes on the State of Virginia_, began as answers to questions from the French diplomat François Barbé-Marbois [“bar-BAY mar-BWAH”]. More than twenty years later, Barbé-Marbois sold an enormous territory to this man’s negotiators, Robert Livingston and James Monroe.",
+      "r": "For 10 points, name this president who doubled the size of the United States with the Louisiana Purchase."
+    },
+    {
+      "p": "After British troops burned the Capitol in 1814, this retired president sold more than 6,000 of his books to Congress so it could rebuild its library. He spent his last years founding a university in Charlottesville and designing its domed Rotunda.",
+      "r": "His home, Monticello, sits on a nearby mountaintop. For 10 points, name this third U.S. president."
+    },
+    {
+      "p": "This president refused to send the Monroe–Pinkney Treaty to the Senate because it did not end British impressment of American sailors. After the British warship _Leopard_ fired on the frigate _Chesapeake_ in 1807, he responded by stopping American ships from trading overseas.",
+      "r": "That Embargo Act badly hurt merchants in New England. For 10 points, name this third U.S. president."
+    },
+    {
+      "p": "This man’s tombstone, which he designed himself, calls him the author of the Virginia Statute for Religious Freedom and the father of a university, but it never mentions his presidency. James Madison got that statute passed in 1786 while this man was serving as a diplomat in France.",
+      "r": "He died on July 4, 1826, exactly fifty years after the Declaration of Independence was adopted. For 10 points, name this third U.S. president."
+    },
+    {
+      "p": "In one election, this candidate tied his own running mate, Aaron Burr, in the Electoral College, so the House of Representatives had to vote 36 times to pick the winner. To prevent another tie like that, the states ratified the Twelfth Amendment.",
+      "r": "This man later called his win the “Revolution of 1800.” For 10 points, name this Democratic-Republican who defeated John Adams to become the third president."
+    },
+    {
+      "p": "In the first presidential inauguration held in Washington, D.C., this man tried to calm a divided country by declaring, “We are all Republicans, we are all Federalists.” His Secretary of State, James Madison, was sued in the Supreme Court case _Marbury v. Madison_.",
+      "r": "For 10 points, name this president who sent Lewis and Clark to explore the lands he bought from France."
+    },
+    {
+      "p": "While he was vice president, this man secretly wrote the Kentucky Resolutions, which argued that states could declare federal laws unconstitutional. His close friend James Madison wrote a similar set of resolutions for Virginia, and both protested the Alien and Sedition Acts.",
+      "r": "As president, he pardoned people convicted under the Sedition Act. For 10 points, name this man who defeated John Adams in the election of 1800."
+    },
+    {
+      "p": "Using a razor and glue, this thinker cut verses from the Gospels to create _The Life and Morals of Jesus of Nazareth_, a book that kept Jesus’s moral teachings but left out the miracles. He was proud of writing a Virginia law that guaranteed freedom of religion.",
+      "r": "This owner of Monticello also bought the Louisiana Territory from France. For 10 points, name this third U.S. president."
+    },
+    {
+      "p": "Congress deleted a long passage in this delegate’s draft that blamed King George III for the slave trade. John Adams later recalled telling this younger Virginian, “You can write ten times better than I can,” when the Committee of Five chose him to write that draft.",
+      "r": "That document was adopted on July 4, 1776. For 10 points, name this Virginian who wrote the Declaration of Independence."
+    },
+    {
+      "p": "When people in France asked if he was the man replacing Benjamin Franklin, this American minister usually answered, “No one can replace him, Sir; I am only his successor.” In Paris, he had his enslaved cook, James Hemings, trained as a French chef.",
+      "r": "James’s sister Sally Hemings was among the more than 600 people this man enslaved during his life. For 10 points, name this owner of Monticello and third U.S. president."
+    },
+    {
+      "p": "In an 1802 letter to a group of Baptists in Danbury, Connecticut, this president wrote that the First Amendment built a “wall of separation between church and state.” As vice president, he had secretly written the Kentucky Resolutions against the Alien and Sedition Acts.",
+      "r": "He sent Lewis and Clark to explore the West. For 10 points, name this president who bought the Louisiana Territory from Napoleon."
+    },
+    {
+      "p": "After years of political anger, this man and an old rival from Massachusetts became pen pals again when Benjamin Rush encouraged them to make peace. This man died at his Virginia home on July 4, 1826, just hours before that rival died.",
+      "r": "That rival was John Adams. For 10 points, name this third U.S. president, the main author of the Declaration of Independence."
+    }
+  ],
+  "clues": [
+    {
+      "id": "third-president",
+      "tier": "giveaway",
+      "t": "3rd President (1801–1809), after John Adams and before James Madison",
+      "k": [
+        "third president",
+        "3rd president",
+        "1801",
+        "john adams"
+      ],
+      "n": 9
+    },
+    {
+      "id": "declaration",
+      "tier": "giveaway",
+      "t": "Main author of the Declaration of Independence (1776): “all men are created equal”",
+      "k": [
+        "declaration",
+        "independence",
+        "created equal",
+        "1776"
+      ],
+      "n": 4
+    },
+    {
+      "id": "louisiana-purchase",
+      "tier": "giveaway",
+      "t": "Louisiana Purchase (1803): bought from Napoleon’s France for $15 million, doubling the size of the country",
+      "k": [
+        "louisiana",
+        "napoleon",
+        "doubling",
+        "15 million"
+      ],
+      "n": 6,
+      "rabbit": "Louisiana Purchase"
+    },
+    {
+      "id": "monticello",
+      "tier": "giveaway",
+      "t": "Designed and lived at Monticello, his hilltop home in Virginia, shown on the back of the nickel",
+      "k": [
+        "monticello",
+        "nickel",
+        "hilltop"
+      ],
+      "n": 5
+    },
+    {
+      "id": "lewis-clark",
+      "tier": "middle",
+      "t": "Sent Lewis and Clark’s Corps of Discovery to explore the West (1804–1806)",
+      "k": [
+        "lewis",
+        "clark",
+        "corps of discovery"
+      ],
+      "n": 4,
+      "rabbit": "Lewis and Clark Expedition"
+    },
+    {
+      "id": "embargo",
+      "tier": "middle",
+      "t": "Embargo Act (1807): kept American ships from trading with foreign ports; hated in New England and replaced by the Non-Intercourse Act (1809)",
+      "k": [
+        "embargo",
+        "non-intercourse",
+        "new england",
+        "1807"
+      ],
+      "n": 6
+    },
+    {
+      "id": "hemings",
+      "tier": "middle",
+      "t": "Enslaved more than 600 people in his lifetime, including Sally Hemings; most historians believe he fathered her children",
+      "k": [
+        "hemings",
+        "sally hemings",
+        "enslaved",
+        "600"
+      ],
+      "n": 3
+    },
+    {
+      "id": "secretary-of-state",
+      "tier": "middle",
+      "t": "First Secretary of State (under Washington); feuded with Alexander Hamilton and founded the Democratic-Republican Party with James Madison",
+      "k": [
+        "secretary of state",
+        "hamilton",
+        "democratic-republican"
+      ],
+      "n": 3,
+      "rabbit": "Alexander Hamilton"
+    },
+    {
+      "id": "kentucky-resolutions",
+      "tier": "middle",
+      "t": "Secretly wrote the Kentucky Resolutions against the Alien and Sedition Acts (Madison wrote Virginia’s)",
+      "k": [
+        "kentucky",
+        "alien and sedition",
+        "virginia resolutions"
+      ],
+      "n": 2
+    },
+    {
+      "id": "election-1800",
+      "tier": "middle",
+      "t": "Won the election of 1800 after an Electoral College tie with Aaron Burr, who became his vice president; the tie led to the 12th Amendment",
+      "k": [
+        "aaron burr",
+        "burr",
+        "1800",
+        "12th amendment",
+        "revolution of 1800"
+      ],
+      "n": 1
+    },
+    {
+      "id": "july-4",
+      "tier": "middle",
+      "t": "Died July 4, 1826, the Declaration’s 50th anniversary, a few hours before John Adams",
+      "k": [
+        "july 4",
+        "1826",
+        "50th anniversary",
+        "same day"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ograbme",
+      "tier": "power",
+      "t": "A cartoon snapping turtle named “Ograbme” (embargo spelled backward) mocked his Embargo Act",
+      "k": [
+        "ograbme",
+        "snapping turtle",
+        "turtle",
+        "backward"
+      ],
+      "n": 5
+    },
+    {
+      "id": "barbary",
+      "tier": "power",
+      "t": "First Barbary War against Tripoli: Stephen Decatur burned the captured USS _Philadelphia_ (1804); Marines fought at Derna (1805)",
+      "k": [
+        "barbary",
+        "tripoli",
+        "decatur",
+        "philadelphia",
+        "derna"
+      ],
+      "n": 4,
+      "rabbit": "Barbary Wars"
+    },
+    {
+      "id": "head-heart",
+      "tier": "power",
+      "t": "Wrote the artist Maria Cosway a letter set up as a dialogue between “My Head and My Heart”",
+      "k": [
+        "maria cosway",
+        "cosway",
+        "head",
+        "heart"
+      ],
+      "n": 2
+    },
+    {
+      "id": "paris",
+      "tier": "power",
+      "t": "Minister to France (1785–1789) after Benjamin Franklin; his enslaved cook James Hemings trained as a chef in Paris",
+      "k": [
+        "minister to france",
+        "paris",
+        "franklin",
+        "james hemings"
+      ],
+      "n": 1
+    },
+    {
+      "id": "notes-virginia",
+      "tier": "power",
+      "t": "Wrote _Notes on the State of Virginia_, his only full-length book, answering questions from François Barbé-Marbois",
+      "k": [
+        "notes on the state of virginia",
+        "notes",
+        "marbois",
+        "barbe-marbois"
+      ],
+      "n": 1
+    },
+    {
+      "id": "library",
+      "tier": "power",
+      "t": "Sold Congress more than 6,000 of his books to restart the Library of Congress after the British burned Washington (1814)",
+      "k": [
+        "library of congress",
+        "library",
+        "books",
+        "6,000"
+      ],
+      "n": 1
+    },
+    {
+      "id": "university",
+      "tier": "power",
+      "t": "Founded the University of Virginia in Charlottesville and designed its buildings, including the domed Rotunda",
+      "k": [
+        "university of virginia",
+        "charlottesville",
+        "rotunda",
+        "uva"
+      ],
+      "n": 1,
+      "rabbit": "University of Virginia"
+    },
+    {
+      "id": "epitaph",
+      "tier": "power",
+      "t": "Wrote the Virginia Statute for Religious Freedom; his tombstone lists it, the Declaration, and the university, but not the presidency",
+      "k": [
+        "statute for religious freedom",
+        "religious freedom",
+        "tombstone",
+        "epitaph"
+      ],
+      "n": 0
+    },
+    {
+      "id": "danbury",
+      "tier": "power",
+      "t": "1802 letter to the Danbury Baptists: a “wall of separation between church and state”",
+      "k": [
+        "danbury",
+        "wall of separation",
+        "church and state",
+        "baptists"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chesapeake",
+      "tier": "power",
+      "t": "Refused to send the Monroe–Pinkney Treaty to the Senate; the _Chesapeake_–_Leopard_ affair (1807) led to the embargo",
+      "k": [
+        "monroe-pinkney",
+        "pinkney",
+        "chesapeake",
+        "leopard"
+      ],
+      "n": 1
+    },
+    {
+      "id": "life-and-morals",
+      "tier": "power",
+      "t": "Cut and pasted verses from the Gospels into _The Life and Morals of Jesus of Nazareth_, leaving out the miracles",
+      "k": [
+        "life and morals",
+        "gospels",
+        "miracles",
+        "razor"
+      ],
+      "n": 1
+    },
+    {
+      "id": "marbury",
+      "tier": "power",
+      "t": "His Secretary of State, James Madison, was sued in _Marbury v. Madison_ (1803), the case that set up judicial review",
+      "k": [
+        "marbury",
+        "judicial review"
+      ],
+      "n": 0,
+      "rabbit": "Marbury v. Madison"
+    },
+    {
+      "id": "inaugural",
+      "tier": "power",
+      "t": "First president inaugurated in Washington, D.C. (1801): “We are all Republicans, we are all Federalists”",
+      "k": [
+        "inaugurated",
+        "we are all republicans",
+        "we are all federalists"
+      ],
+      "n": 0
+    },
+    {
+      "id": "committee-of-five",
+      "tier": "power",
+      "t": "Chosen by the Committee of Five to write the draft; Congress cut his passage blaming King George III for the slave trade",
+      "k": [
+        "committee of five",
+        "slave trade",
+        "draft"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Jefferson or Madison?",
+    "body": "Thomas Jefferson and James Madison were lifelong partners. They founded the Democratic-Republican Party together and secretly wrote the Kentucky and Virginia Resolutions (Jefferson wrote Kentucky’s, Madison wrote Virginia’s), and Madison was Jefferson’s Secretary of State before becoming the next president. A clue like “his Secretary of State was sued in _Marbury v. Madison_” is about Jefferson, so buzzing “Madison” because you heard the name loses the tossup.",
+    "fix": "Jefferson clues: the Declaration, the Louisiana Purchase, Lewis and Clark, the Embargo Act, Monticello, and the University of Virginia. Madison clues: “Father of the Constitution,” the Bill of Rights, _The Federalist Papers_, the War of 1812, and his home, Montpelier. And never answer Jefferson for Jefferson Davis, the president of the Confederacy.",
+    "line": "Real answer line: Thomas <b><u>Jefferson</u></b>"
+  },
+  "freq": {
+    "rank": 5,
+    "count": 7,
+    "list": "American History"
+  }
+}

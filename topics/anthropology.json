@@ -1,0 +1,358 @@
+{
+  "id": "anthropology",
+  "name": "Anthropology",
+  "mono": "ANT",
+  "category": "Social Science",
+  "qbCategory": "Social Science",
+  "kicker": "The study of human cultures and societies · From fieldwork to ancient artifacts",
+  "dates": "Became a university discipline in the late 1800s",
+  "briefing": "What do a stone tool, a word’s grammar, a skeleton, and a wedding ceremony have in common? They are all evidence anthropologists use to understand what makes people people. This “study of humankind” splits into subfields covering culture, the human body, ancient remains, and language, and pioneers like Franz Boas and his students helped turn it into a rigorous university discipline in the early 1900s.",
+  "answerHtml": "<b><u>Anthropology</u></b>",
+  "accept": [
+    "anthropology",
+    "anthropological",
+    "anthropologist",
+    "anthropologists"
+  ],
+  "prompt": [
+    "social science"
+  ],
+  "reject": [
+    "margaret mead",
+    "franz boas",
+    "boas",
+    "ruth benedict",
+    "bronislaw malinowski",
+    "malinowski",
+    "zora neale hurston",
+    "hurston",
+    "sociology",
+    "archaeology",
+    "ethnography"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Introduction to Anthropology",
+      "source": "Professor Dave Explains",
+      "url": "https://www.youtube.com/watch?v=LYUzIf12qac",
+      "note": "Clear overview of what anthropology is and what anthropologists study"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Anthropology Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Anthropology",
+      "note": "Quick read: the study of humans and its four branches, with famous anthropologists"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Anthropology",
+  "qb": {
+    "q": "anthropology",
+    "found": 4,
+    "tip": "All four real hits lean on the same small cluster of names — Boas, Benedict, Mead, Malinowski — and the “study of humankind” definition; extra flashcards below were built from outside knowledge to round out the power clues."
+  },
+  "sample": {
+    "n": 4,
+    "note": "the 4 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Before becoming a professor, one founding figure in this field studied the migrations of Inuit communities on Canada’s Baffin Island in the 1880s. That researcher, Franz Boas, later developed the idea of “cultural relativism,” judging a culture by its own standards instead of outside ones, while training generations of students at Columbia University.",
+      "r": "His book _The Mind of Primitive Man_ challenged racist theories of his day. For 10 points, name this social science that studies human cultures and societies."
+    },
+    {
+      "p": "One researcher in this field spent months on the Pacific island of Samoa interviewing teenage girls for her landmark 1928 book, _Coming of Age in Samoa_. That researcher, Margaret Mead, studied under Franz Boas at Columbia alongside classmates who became leaders in the same discipline.",
+      "r": "Practitioners of this field often live for months inside the community they are studying, a method called fieldwork. For 10 points, name this field devoted to the study of human cultures."
+    },
+    {
+      "p": "Researcher Ruth Benedict studied Japanese culture “at a distance” during World War II, partly through interviews conducted in Japanese internment camps in the United States, since she could not travel there herself. Her resulting book, _The Chrysanthemum and the Sword_, contrasted Japan’s “shame culture” with what she called the West’s “guilt culture.”",
+      "r": "Benedict had earlier argued that every culture has its own consistent personality in _Patterns of Culture_. For 10 points, name this discipline that studies human societies and their customs."
+    },
+    {
+      "p": "Bronislaw Malinowski [“broh-NEE-swahf mah-lih-NOF-skee”] pioneered “participant observation” in this field by living for years among the Trobriand Islanders of Melanesia instead of simply reading other travelers’ reports. His 1922 book, _Argonauts of the Western Pacific_, described the Kula ring, a ceremonial exchange of shell jewelry between neighboring islands.",
+      "r": "Researchers in this field who focus on living cultures often call their detailed written studies ethnographies. For 10 points, name this field, the study of human societies and cultures."
+    },
+    {
+      "p": "Before she became a celebrated novelist, one figure connected to this field trained under Franz Boas at Columbia and Barnard and collected folklore across the American South, Haiti, and Jamaica. That researcher and writer, Zora Neale Hurston, applied her training in this discipline to her fiction.",
+      "r": "This discipline’s name comes from Greek words meaning the “study of humankind.” For 10 points, name this field, which examines human cultures, biology, language, and the past."
+    },
+    {
+      "p": "This discipline is often divided into four main subfields: cultural, which studies living societies; biological, which studies human evolution and variation; archaeological, which studies physical remains of past peoples; and linguistic, which studies language in its cultural setting. Researchers in its cultural branch often spend months doing fieldwork within a single community.",
+      "r": "Franz Boas trained many of the field’s early American pioneers at Columbia University. For 10 points, name this field, the broad study of human societies and cultures."
+    },
+    {
+      "p": "A detailed written account of a culture, built from months of fieldwork, is called an ethnography in this discipline. Early practitioners of this field sometimes relied only on other travelers’ secondhand reports until Bronislaw Malinowski’s firsthand stay among the Trobriand Islanders helped make direct fieldwork the standard.",
+      "r": "This field is often compared with sociology, though it traditionally takes a broader, more cross-cultural view. For 10 points, name this field devoted to studying human cultures and societies."
+    },
+    {
+      "p": "Margaret Mead’s 1928 study of adolescence among girls on Samoa became one of the most widely read books ever written in this field, though later researchers questioned some of her conclusions. Mead studied at Columbia under Franz Boas, the same mentor who trained Ruth Benedict and Zora Neale Hurston.",
+      "r": "This discipline’s name derives from Greek roots meaning “the study of humankind.” For 10 points, name this field that studies human cultures, past and present."
+    },
+    {
+      "p": "Ruth Benedict’s _The Chrysanthemum and the Sword_ popularized the influential, if later debated, distinction between “guilt cultures” and “shame cultures.” Her mentor, Franz Boas, had earlier used this discipline to argue against so-called “scientific racism” in his book _The Mind of Primitive Man_.",
+      "r": "The field’s biological subfield instead studies human evolution and variation across populations. For 10 points, name this discipline, the broad study of human societies and cultures."
+    },
+    {
+      "p": "Before becoming a professor, one founder of modern fieldwork methods in this discipline studied Inuit migration on Baffin Island; another, Bronislaw Malinowski, developed “participant observation” while living among Pacific islanders he described in _Argonauts of the Western Pacific_. Both approaches replaced older reliance on secondhand travelers’ accounts.",
+      "r": "This discipline includes cultural, biological, archaeological, and linguistic subfields. For 10 points, name this field, the broad study of humankind."
+    },
+    {
+      "p": "This field’s archaeological subfield examines tools, pottery, and other physical remains left behind by past peoples, while its linguistic subfield studies how language reflects and shapes culture. Its biological subfield traces human evolution and the variation found across living populations today.",
+      "r": "Its cultural subfield relies heavily on fieldwork, living inside a community to study it firsthand. For 10 points, name this broad field, the study of human societies past and present."
+    },
+    {
+      "p": "Zora Neale Hurston once described her Columbia training in this discipline as giving her an outsider’s lens for looking at her own community in the American South. Her teacher, Franz Boas, had spent his own early career documenting Inuit life on Baffin Island before developing the idea of cultural relativism.",
+      "r": "Ruth Benedict and Margaret Mead were two of Boas’s other famous students in this field. For 10 points, name this discipline that studies human cultures and societies."
+    },
+    {
+      "p": "This discipline takes its name from Greek words meaning “the study of humankind,” and it is often compared with sociology, though it traditionally takes a broader, more cross-cultural view of human life. Bronislaw Malinowski helped establish fieldwork, living among the people being studied, as this field’s defining method.",
+      "r": "Franz Boas and his students, including Margaret Mead and Ruth Benedict, shaped the field’s early years in the United States. For 10 points, name this field, the study of human cultures."
+    },
+    {
+      "p": "In _Patterns of Culture_, researcher Ruth Benedict argued that every society has its own consistent cultural “personality.” This field’s archaeological subfield, meanwhile, pieces together the lives of long-vanished peoples using tools, pottery, and other physical remains they left behind.",
+      "r": "Its name comes from Greek words meaning the study of humankind. For 10 points, identify this broad field devoted to studying human societies and cultures."
+    },
+    {
+      "p": "Bronislaw Malinowski’s years living among the Trobriand Islanders, studying the ceremonial Kula ring, helped define the fieldwork methods still used in this discipline today. Columbia University, meanwhile, became an early American hub for the field under Franz Boas, who trained Margaret Mead, Ruth Benedict, and Zora Neale Hurston.",
+      "r": "This discipline’s linguistic subfield studies how language shapes and reflects culture. For 10 points, name this field, the study of human societies and cultures."
+    }
+  ],
+  "clues": [
+    {
+      "id": "study-of-humans",
+      "tier": "giveaway",
+      "t": "Its name comes from Greek words meaning the “study of humankind”",
+      "k": [
+        "study of humankind",
+        "greek"
+      ],
+      "n": 4
+    },
+    {
+      "id": "four-subfields",
+      "tier": "giveaway",
+      "t": "Splits into four main subfields: cultural, biological, archaeological, and linguistic",
+      "k": [
+        "subfields",
+        "cultural"
+      ],
+      "n": 0
+    },
+    {
+      "id": "culture-society",
+      "tier": "giveaway",
+      "t": "Looks closely at human societies, cultures, and how they have developed over time",
+      "k": [
+        "societies",
+        "developed"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fieldwork",
+      "tier": "giveaway",
+      "t": "Researchers often do fieldwork, living among a community for months to observe it firsthand",
+      "k": [
+        "fieldwork",
+        "living among"
+      ],
+      "n": 1
+    },
+    {
+      "id": "boas",
+      "tier": "middle",
+      "t": "Franz Boas, often called the father of American work in this field, taught many of its early pioneers at Columbia University",
+      "k": [
+        "franz boas",
+        "columbia university"
+      ],
+      "n": 3,
+      "rabbit": "Franz Boas"
+    },
+    {
+      "id": "cultural-relativism",
+      "tier": "middle",
+      "t": "Boas developed “cultural relativism,” the idea of judging a culture by its own standards rather than by outside ones",
+      "k": [
+        "cultural relativism",
+        "own standards"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mead",
+      "tier": "middle",
+      "t": "Researcher Margaret Mead studied teenagers on the Pacific islands of Samoa for her best-known book",
+      "k": [
+        "margaret mead",
+        "samoa"
+      ],
+      "n": 3,
+      "rabbit": "Margaret Mead"
+    },
+    {
+      "id": "coming-of-age",
+      "tier": "middle",
+      "t": "That 1928 book, _Coming of Age in Samoa_, compared growing up there with growing up in the West",
+      "k": [
+        "coming of age",
+        "1928"
+      ],
+      "n": 1
+    },
+    {
+      "id": "benedict",
+      "tier": "middle",
+      "t": "Ruth Benedict studied Japanese culture “at a distance” during World War II for a famous book on guilt and shame",
+      "k": [
+        "ruth benedict",
+        "guilt and shame"
+      ],
+      "n": 3,
+      "rabbit": "Ruth Benedict"
+    },
+    {
+      "id": "chrysanthemum",
+      "tier": "middle",
+      "t": "That book, _The Chrysanthemum and the Sword_, partly drew on interviews conducted in Japanese internment camps in the United States",
+      "k": [
+        "chrysanthemum and the sword",
+        "internment camps"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ethnography",
+      "tier": "middle",
+      "t": "A detailed written account of a culture based on fieldwork is called an ethnography",
+      "k": [
+        "written account",
+        "fieldwork"
+      ],
+      "n": 1
+    },
+    {
+      "id": "malinowski",
+      "tier": "power",
+      "t": "Bronislaw Malinowski pioneered “participant observation,” living among the people he studied instead of just reading old travel reports",
+      "k": [
+        "malinowski",
+        "participant observation"
+      ],
+      "n": 2,
+      "rabbit": "Bronislaw Malinowski"
+    },
+    {
+      "id": "trobriand",
+      "tier": "power",
+      "t": "Malinowski studied the Trobriand Islands of Melanesia and the Kula ring, a ceremonial exchange of shell jewelry between islands",
+      "k": [
+        "trobriand islands",
+        "kula ring"
+      ],
+      "n": 1
+    },
+    {
+      "id": "argonauts",
+      "tier": "power",
+      "t": "His 1922 book _Argonauts of the Western Pacific_ described that voyaging exchange system in detail",
+      "k": [
+        "argonauts",
+        "western pacific"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hurston",
+      "tier": "power",
+      "t": "Novelist Zora Neale Hurston trained in this field under Boas and collected folklore in the American South, Haiti, and Jamaica",
+      "k": [
+        "zora neale hurston",
+        "folklore"
+      ],
+      "n": 2
+    },
+    {
+      "id": "mind-of-primitive-man",
+      "tier": "power",
+      "t": "In _The Mind of Primitive Man_, Boas pushed back against so-called “scientific racism” of his era",
+      "k": [
+        "mind of primitive man",
+        "scientific racism"
+      ],
+      "n": 1
+    },
+    {
+      "id": "baffin",
+      "tier": "power",
+      "t": "Boas’s own first fieldwork studied the migrations of Inuit communities on Canada’s Baffin Island in the 1880s",
+      "k": [
+        "baffin island",
+        "inuit"
+      ],
+      "n": 1
+    },
+    {
+      "id": "patterns-of-culture",
+      "tier": "power",
+      "t": "Benedict’s earlier book _Patterns of Culture_ argued that every culture has its own consistent personality or style",
+      "k": [
+        "patterns of culture",
+        "consistent personality"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sociology-contrast",
+      "tier": "power",
+      "t": "Often compared with sociology, though this field traditionally takes a broader, more cross-cultural view",
+      "k": [
+        "sociology",
+        "cross cultural"
+      ],
+      "n": 1
+    },
+    {
+      "id": "subfield-bio",
+      "tier": "power",
+      "t": "Its biological subfield studies human evolution, genetics, and variation across populations",
+      "k": [
+        "biological subfield",
+        "evolution"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Names are not the field",
+    "body": "These tossups are packed with names: Franz Boas, Ruth Benedict, Margaret Mead, Bronislaw Malinowski, Zora Neale Hurston. They are all famous people IN this field, not the answer. Quiz bowl also has separate tossups just on Margaret Mead herself, so naming her here is a different, and wrong, answer line. Two related fields come up too: sociology, which leans toward modern societies, and archaeology, which is just one piece of this broader field.",
+    "fix": "Wait for the describing word: “this discipline,” “this field,” or “this social science” means the whole subject, even right after a famous researcher’s name is read. Only buzz with a person’s name if the clue asks to name that person.",
+    "line": "Real answer line: <b><u>Anthropology</u></b> (prompt on <u>social science</u>)"
+  },
+  "tests": {
+    "right": [
+      "Anthropology",
+      "Anthropolgy",
+      "anthropologist",
+      "Anthropologists"
+    ],
+    "prompt": [
+      "social science"
+    ],
+    "wrong": [
+      "Margaret Mead",
+      "Sociology",
+      "Archaeology",
+      "Franz Boas"
+    ]
+  },
+  "freq": {
+    "rank": 6,
+    "count": 4,
+    "list": "Social Science"
+  }
+}

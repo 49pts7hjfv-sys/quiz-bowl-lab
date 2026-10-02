@@ -1,0 +1,478 @@
+{
+  "id": "bahai-faith",
+  "name": "Bahá’í Faith",
+  "mono": "BF",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Religion founded by Bahá’u’lláh · Teaches the unity of all faiths",
+  "dates": "Founded 1863",
+  "briefing": "The Bahá’í Faith began in the 1800s among Persians, when a prophet called the Báb (“the Gate”) announced that a greater messenger was coming. In 1863, Bahá’u’lláh declared that he was that messenger and taught that all the world’s religions come from one God. Today Bahá’ís worship in nine-sided temples like the Lotus Temple in New Delhi, and their world center sits among gardens climbing Mount Carmel in Haifa, Israel.",
+  "answerHtml": "<b><u>Bahá’í</u></b> Faith (accept <u>Bahaism</u> or <u>Baha’iyyah</u>; do not accept “Bábism” or “Bahá’u’lláh”)",
+  "accept": [
+    "bahai faith",
+    "bahai",
+    "bahais",
+    "bahaism",
+    "bahaiyyah",
+    "bahai religion",
+    "baha i",
+    "baha i faith"
+  ],
+  "prompt": [],
+  "reject": [
+    "babism",
+    "babi",
+    "babis",
+    "bab",
+    "the bab",
+    "bahaullah",
+    "abdul baha",
+    "shoghi effendi",
+    "islam",
+    "shia islam",
+    "shiism",
+    "sufism",
+    "sikhism",
+    "zoroastrianism",
+    "bahamas",
+    "bahrain",
+    "unitarian universalism",
+    "ahmadiyya",
+    "druze"
+  ],
+  "tests": {
+    "right": [
+      "Bahá’í Faith",
+      "Bahai",
+      "Baha'i",
+      "Bahaism",
+      "bahaii",
+      "the Baha'i Faith"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Babism",
+      "the Bab",
+      "Baha'u'llah",
+      "Islam",
+      "Sikhism",
+      "Zoroastrianism",
+      "Bahamas",
+      "Abdu'l-Baha"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Bahá’í Faith Explained | Bahá’í Faith in 5 Minutes",
+      "source": "Illustrate to Educate",
+      "url": "https://www.youtube.com/watch?v=5WQv7200zKs",
+      "note": "Short · who Bahá’u’lláh was and what his followers believe"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Behind the Bahá’í faith, one of the fastest growing religions",
+      "source": "CBS Mornings",
+      "url": "https://www.youtube.com/watch?v=qmNWatW17kc",
+      "note": "TV news feature · a look inside the faith and its growth"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Baha’is arrive for opening of garden terraces on Mount Carmel",
+      "source": "AP Archive",
+      "url": "https://www.youtube.com/watch?v=U1GqPA9psoo",
+      "note": "Short clip · news footage from the opening of the garden terraces in Haifa"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What Is The Baháʼí Faith? (World’s Newest Religion)",
+      "source": "Drew Binsky",
+      "url": "https://www.youtube.com/watch?v=9qDN0COSvds",
+      "note": "A travel vlogger’s explainer of the faith"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Bahaʾi Faith",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Baha%CA%BEi-Faith/352816",
+      "note": "Quick read: the founders, beliefs, nine-sided temples, and life in Iran"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Bah%C3%A1%27%C3%AD_Faith",
+  "qb": {
+    "q": "Bah",
+    "found": 2,
+    "tip": "Typing just “Bah” in the Religion category catches every spelling (Baha’i, Bahá’í, Bahaism), but only 2 Middle School/Easy High School tossups came up, so we added Regular High School ones, and a few of those mix up the _Book of Certitude_ with the _Kitáb-i-Aqdas_."
+  },
+  "sample": {
+    "n": 10,
+    "note": "10 real QBReader tossups (2 Middle School/Easy High School + 8 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "After the death of Shoghi Effendi [“SHOW-ghee eh-FEN-dee”] in 1957, a group called the Hands of the Cause guided this religion through the end of its Ten Year Crusade. In 1963, this religion’s followers elected their first Universal House of Justice.",
+      "r": "For 10 points, name this religion founded by Bahá’u’lláh [“bah-HAH-oo-LAH”], whose world center is in Haifa, Israel."
+    },
+    {
+      "p": "This religion’s founder addressed his last major book, the _Epistle to the Son of the Wolf_, to a cleric whose father had persecuted his followers. Decades earlier, that founder had been chained in a Tehran dungeon called the Síyáh-Chál [“SEE-yah CHAHL”], or “Black Pit.”",
+      "r": "For 10 points, name this religion whose founder, Bahá’u’lláh, taught the unity of all faiths."
+    },
+    {
+      "p": "This religion’s founder wrote the mystical _Seven Valleys_ and _The Hidden Words_. In Baghdad, he wrote the _Kitáb-i-Íqán_ [“kih-TAHB-ee ee-KAHN”], or _Book of Certitude_, which explains that God sends messengers to humanity one after another.",
+      "r": "For 10 points, name this religion, whose followers see Moses, Jesus, and Muhammad as Manifestations of God."
+    },
+    {
+      "p": "This religion’s House of Worship in New Delhi, designed by Fariborz Sahba [“fah-ree-BORZ SAH-buh”], has 27 marble-clad “petals” and is called the Lotus Temple. Like all of this religion’s Houses of Worship, it has nine sides and welcomes people of every faith.",
+      "r": "This religion uses a nine-pointed star as a symbol. For 10 points, name this religion founded by Bahá’u’lláh."
+    },
+    {
+      "p": "In 1863, this religion’s founder spent twelve days in a garden beside the Tigris River in Baghdad, where he announced that he was the messenger foretold by an earlier prophet.",
+      "r": "His followers celebrate those days each spring as the Festival of Ridván [“rez-VAHN”]. For 10 points, name this faith founded by Bahá’u’lláh."
+    },
+    {
+      "p": "Followers of this religion face the Qiblih [“KIB-luh”], the shrine of its founder at Bahjí [“bah-JEE”], when they say their daily obligatory prayers. That founder spent his final 24 years as a prisoner and exile in and around the city of Acre.",
+      "r": "His son ʻAbdu’l-Bahá [“ab-DOOL bah-HAH”] later led the faith. For 10 points, name this religion founded by Bahá’u’lláh."
+    },
+    {
+      "p": "The words “Ye are the fruits of one tree, and the leaves of one branch” are inscribed above an entrance to this religion’s House of Worship in Wilmette, Illinois, its oldest surviving temple. ʻAbdu’l-Bahá laid that building’s cornerstone during a 1912 visit to America.",
+      "r": "For 10 points, name this faith founded by Bahá’u’lláh, whose followers believe in the oneness of humanity."
+    },
+    {
+      "p": "Lady Sara Blomfield published _Paris Talks_, a record of speeches that this religion’s leader ʻAbdu’l-Bahá [“ab-DOOL bah-HAH”] gave in 1911. ʻAbdu’l-Bahá, the eldest son of this religion’s founder, led the faith from 1892 until his death in 1921.",
+      "r": "His grandson Shoghi Effendi then became its Guardian. For 10 points, name this religion based in Haifa, Israel."
+    },
+    {
+      "p": "A forerunner of this religion took a title meaning “the Gate” when he announced his mission in Shiraz in 1844. That prophet, whose followers were called Bábís [“BAH-beez”], was executed by a firing squad in Tabriz in 1850.",
+      "r": "For 10 points, name this religion founded by Bahá’u’lláh, who claimed to be the messenger the Báb had foretold."
+    },
+    {
+      "p": "This religion’s calendar has 19 months of 19 days each, plus four or five extra days called Ayyám-i-Há [“eye-YAHM-ee-HAH”] that are set aside for gifts and charity. During the last month, ʻAláʼ [“ah-LAH”], adults in this religion go without food or drink from sunrise to sunset.",
+      "r": "That month ends with the new year, Naw-Rúz. For 10 points, name this faith founded by Bahá’u’lláh."
+    },
+    {
+      "p": "Since Iran’s 1979 revolution, followers of this religion there have been arrested, fired from jobs, and barred from universities, even though Iran is where this religion began more than 150 years ago. They form Iran’s largest non-Muslim religious minority.",
+      "r": "For 10 points, name this religion founded by Bahá’u’lláh, whose symbol is a nine-pointed star."
+    },
+    {
+      "p": "This religion has no clergy, and its members may not take part in partisan politics. Instead, its local communities elect nine-member Spiritual Assemblies to run their affairs, and its worldwide leaders are elected every five years.",
+      "r": "Those worldwide leaders form the Universal House of Justice. For 10 points, name this faith founded by Bahá’u’lláh."
+    },
+    {
+      "p": "Nineteen terraces of gardens climb Mount Carmel around a golden-domed shrine that holds the remains of this religion’s forerunner. In 2008, that shrine and other holy places of this religion in Haifa and near Acre became a UNESCO World Heritage Site.",
+      "r": "For 10 points, name this religion led by the Universal House of Justice, which was founded by Bahá’u’lláh."
+    },
+    {
+      "p": "This religion’s book of laws, the _Kitáb-i-Aqdas_ [“kih-TAHB-ee AHK-dahs”], or “Most Holy Book,” was written by its founder in Acre around 1873, and Shoghi Effendi translated parts of it into English. That book sets a nineteen-day period of fasting.",
+      "r": "For 10 points, name this faith that sees the Buddha, Jesus, and Muhammad as Manifestations of God."
+    },
+    {
+      "p": "This religion teaches the “three onenesses” of God, religion, and humanity, and it calls for the equality of women and men and for harmony between science and religion.",
+      "r": "It counts Krishna, Zoroaster, and the Buddha as Manifestations of God. For 10 points, name this religion founded in Persia by Bahá’u’lláh."
+    }
+  ],
+  "clues": [
+    {
+      "id": "bahaullah",
+      "tier": "giveaway",
+      "t": "Founded by Bahá’u’lláh (“Glory of God”), a Persian nobleman, in the 1800s",
+      "k": [
+        "bahá’u’lláh",
+        "glory of god",
+        "persian"
+      ],
+      "n": 10,
+      "rabbit": "Bahá’u’lláh"
+    },
+    {
+      "id": "universal-house",
+      "tier": "giveaway",
+      "t": "Led by the Universal House of Justice, an elected body of nine, on Mount Carmel in Haifa, Israel",
+      "k": [
+        "universal house of justice",
+        "haifa",
+        "mount carmel",
+        "israel"
+      ],
+      "n": 7
+    },
+    {
+      "id": "manifestations",
+      "tier": "giveaway",
+      "t": "Sees Abraham, Moses, Zoroaster, Krishna, the Buddha, Jesus, and Muhammad as Manifestations of God",
+      "k": [
+        "manifestations of god",
+        "manifestations",
+        "zoroaster",
+        "krishna"
+      ],
+      "n": 5
+    },
+    {
+      "id": "unity",
+      "tier": "giveaway",
+      "t": "Teaches the unity of all religions: the “three onenesses” of God, religion, and humanity",
+      "k": [
+        "unity",
+        "onenesses",
+        "oneness",
+        "all religions"
+      ],
+      "n": 4
+    },
+    {
+      "id": "persia",
+      "tier": "giveaway",
+      "t": "Began in Persia (Iran) in the 1800s",
+      "k": [
+        "persia",
+        "iran",
+        "1800s"
+      ],
+      "n": 4
+    },
+    {
+      "id": "the-bab",
+      "tier": "middle",
+      "t": "Its forerunner, the Báb (“the Gate”), announced his mission in Shiraz in 1844 and was executed in Tabriz in 1850",
+      "k": [
+        "the gate",
+        "gate",
+        "1844",
+        "shiraz",
+        "tabriz"
+      ],
+      "n": 5,
+      "rabbit": "the Báb"
+    },
+    {
+      "id": "shoghi-effendi",
+      "tier": "middle",
+      "t": "Shoghi Effendi, ʻAbdu’l-Bahá’s grandson, was its Guardian from 1921 to 1957",
+      "k": [
+        "shoghi effendi",
+        "guardian",
+        "grandson"
+      ],
+      "n": 7
+    },
+    {
+      "id": "abdul-baha",
+      "tier": "middle",
+      "t": "ʻAbdu’l-Bahá, the founder’s eldest son, led it from 1892 to 1921; his 1911 speeches became _Paris Talks_",
+      "k": [
+        "eldest son",
+        "paris talks",
+        "1892",
+        "1921"
+      ],
+      "n": 2,
+      "rabbit": "ʻAbdu’l-Bahá"
+    },
+    {
+      "id": "calendar-fast",
+      "tier": "middle",
+      "t": "Its calendar has 19 months of 19 days; followers fast from sunrise to sunset during the last month, just before the New Year, Naw-Rúz",
+      "k": [
+        "19 months",
+        "19 days",
+        "calendar",
+        "new year"
+      ],
+      "n": 6,
+      "rabbit": "Fasting"
+    },
+    {
+      "id": "certitude",
+      "tier": "middle",
+      "t": "The _Kitáb-i-Íqán_, or _Book of Certitude_, says God sends messengers one after another (“progressive revelation”)",
+      "k": [
+        "book of certitude",
+        "certitude",
+        "progressive revelation"
+      ],
+      "n": 6
+    },
+    {
+      "id": "ridvan",
+      "tier": "middle",
+      "t": "Ridván, a 12-day spring festival, marks the founder’s 1863 announcement in a Baghdad garden that he was God’s new messenger",
+      "k": [
+        "ridván",
+        "ridvan",
+        "12-day",
+        "baghdad",
+        "garden"
+      ],
+      "n": 4
+    },
+    {
+      "id": "nine-star",
+      "tier": "middle",
+      "t": "Its symbol is a nine-pointed star, and its Houses of Worship all have nine sides",
+      "k": [
+        "nine-pointed star",
+        "nine sides",
+        "nine"
+      ],
+      "n": 2
+    },
+    {
+      "id": "iran-persecution",
+      "tier": "middle",
+      "t": "Its followers are Iran’s largest non-Muslim minority and have been persecuted there, especially since the 1979 revolution",
+      "k": [
+        "persecuted",
+        "iran",
+        "1979",
+        "minority"
+      ],
+      "n": 1
+    },
+    {
+      "id": "aqdas",
+      "tier": "power",
+      "t": "The founder’s _Kitáb-i-Aqdas_ (“Most Holy Book,” about 1873) is its book of laws; Shoghi Effendi translated parts of it",
+      "k": [
+        "most holy book",
+        "aqdas",
+        "book of laws"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hands-crusade",
+      "tier": "power",
+      "t": "After Shoghi Effendi died in 1957, the Hands of the Cause guided it through the Ten Year Crusade (1953–1963)",
+      "k": [
+        "hands of the cause",
+        "ten year crusade",
+        "1957",
+        "1963"
+      ],
+      "n": 4
+    },
+    {
+      "id": "epistle-wolf",
+      "tier": "power",
+      "t": "The founder’s last major book, _Epistle to the Son of the Wolf_, was addressed to a cleric whose father persecuted his followers",
+      "k": [
+        "epistle",
+        "son of the wolf",
+        "wolf"
+      ],
+      "n": 2
+    },
+    {
+      "id": "seven-valleys",
+      "tier": "power",
+      "t": "The founder also wrote the mystical _Seven Valleys_ and _The Hidden Words_",
+      "k": [
+        "seven valleys",
+        "hidden words",
+        "mystical"
+      ],
+      "n": 2
+    },
+    {
+      "id": "acre-qiblih",
+      "tier": "power",
+      "t": "The founder spent his last 24 years as a prisoner and exile around Acre; his shrine at Bahjí is the Qiblih that followers face in prayer",
+      "k": [
+        "acre",
+        "qiblih",
+        "prisoner",
+        "bahjí",
+        "akka"
+      ],
+      "n": 2
+    },
+    {
+      "id": "black-pit",
+      "tier": "power",
+      "t": "In 1852 the founder was chained in Tehran’s Síyáh-Chál (“Black Pit”) dungeon, where his mission began",
+      "k": [
+        "black pit",
+        "tehran",
+        "dungeon",
+        "1852"
+      ],
+      "n": 0
+    },
+    {
+      "id": "terraces",
+      "tier": "power",
+      "t": "The golden-domed Shrine of the Báb sits among 19 garden terraces on Mount Carmel, part of a UNESCO World Heritage Site (2008)",
+      "k": [
+        "terraces",
+        "shrine of the báb",
+        "unesco",
+        "golden-domed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lotus-temple",
+      "tier": "power",
+      "t": "The Lotus Temple in New Delhi, designed by Fariborz Sahba, has 27 marble-clad “petals”",
+      "k": [
+        "lotus temple",
+        "new delhi",
+        "petals",
+        "sahba"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wilmette",
+      "tier": "power",
+      "t": "Its oldest surviving House of Worship is in Wilmette, Illinois; ʻAbdu’l-Bahá laid its cornerstone in 1912",
+      "k": [
+        "wilmette",
+        "illinois",
+        "cornerstone",
+        "1912"
+      ],
+      "n": 1
+    },
+    {
+      "id": "no-clergy",
+      "tier": "power",
+      "t": "It has no clergy, members avoid partisan politics, and communities elect nine-member Spiritual Assemblies",
+      "k": [
+        "no clergy",
+        "partisan politics",
+        "spiritual assemblies",
+        "partisan"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ayyam-i-ha",
+      "tier": "power",
+      "t": "Ayyám-i-Há: four or five extra calendar days set aside for gifts and charity",
+      "k": [
+        "extra calendar days",
+        "extra",
+        "gifts",
+        "charity"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Religion, not its prophet",
+    "body": "This religion grew out of an earlier movement led by the Báb, whose followers were called Bábís, so early clues about “the Gate,” Shiraz, or 1844 can lure you into saying “Bábism.” Players also blurt out a person, like Bahá’u’lláh or ʻAbdu’l-Bahá, when the question wants the religion. And because it began in Iran, some players guess Zoroastrianism or Shia Islam.",
+    "fix": "If the question asks for “this religion” or “this faith” and mentions the Universal House of Justice, Haifa, Shoghi Effendi, or a nine-pointed star, answer “Bahá’í Faith.” Say “the Báb” or “Bahá’u’lláh” only when it asks for “this man” or “this prophet.”",
+    "line": "Real answer line: <b><u>Baha’i</u></b> Faith [accept <u>Baha’ism</u> or <u>Baha’iyyah</u>]"
+  },
+  "freq": {
+    "rank": 25,
+    "count": 3,
+    "list": "Religion"
+  }
+}

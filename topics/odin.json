@@ -1,0 +1,393 @@
+{
+  "id": "odin",
+  "name": "Odin",
+  "mono": "ODN",
+  "category": "Mythology",
+  "qbCategory": "Mythology",
+  "kicker": "Allfather of the Norse gods · Traded an eye for wisdom, father of Thor",
+  "dates": "Pre-Christian Norse mythology, Scandinavia",
+  "briefing": "Odin ruled Asgard as the one-eyed king of the Norse gods, forever hungry for more wisdom than any god should want. He traded an eye for a single drink from a magic well, and hanged himself from the World Tree for nine nights just to learn a new alphabet. Two ravens flew across the whole world every day just to keep him informed, and even then, he knew Ragnarök would one day swallow him whole.",
+  "answerHtml": "<b><u>Odin</u></b> [or Woden; or Wotan]",
+  "accept": [
+    "odin",
+    "woden",
+    "wotan",
+    "wodan",
+    "odinn"
+  ],
+  "prompt": [],
+  "reject": [
+    "thor",
+    "loki",
+    "frigg",
+    "baldr",
+    "balder",
+    "tyr",
+    "ymir",
+    "zeus",
+    "jupiter"
+  ],
+  "tests": {
+    "right": [
+      "Odin",
+      "odin",
+      "Wotan",
+      "Woden",
+      "King Odin"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Thor",
+      "Loki",
+      "Zeus",
+      "Frigg",
+      "Baldr"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How Odin Lost His Eye? The Well of Knowledge – Norse Mythology (Animated Version)",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=0fhSQ-J1u58",
+      "note": "Animated retelling · Odin trades an eye for a drink from Mímir’s well of wisdom"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Odin Loses His Eye (Odin and Mímir – The Quest for Wisdom) – Norse Mythology",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=XV671FOjVh4",
+      "note": "Comic-style version of the same story · Odin and the wise Mímir"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Norse Pantheon: Crash Course World Mythology #10",
+      "source": "Crash Course World Mythology",
+      "url": "https://www.youtube.com/watch?v=CyU54gV_PWM",
+      "note": "Fast-paced look at the Norse gods and their chief, Odin"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Odin: Not Allfather but All-master",
+      "source": "Jackson Crawford",
+      "url": "https://www.youtube.com/watch?v=h2YZfYThALM",
+      "note": "Talk by an Old Norse scholar on what Odin’s title “Allfather” really meant (tossups still say “Allfather”)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Norse Gods: Odin – Freyr – Freyja – Frigg – Norse Mythology #01 (Part 1)",
+      "source": "See U in History / Mythology",
+      "url": "https://www.youtube.com/watch?v=CWf1sdSZ-dg",
+      "note": "Meet Odin, his wife Frigg, and the Vanir twins Freyr and Freyja"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Odin",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Odin",
+      "note": "Kid-friendly encyclopedia article on Odin’s family, ravens, horse, and worship"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Odin",
+  "qb": {
+    "q": "Odin",
+    "found": 13,
+    "tip": "All 13 are genuinely about this god; many accept Woden or Wotan as the same name in Old English and German, so don’t be thrown by the spelling."
+  },
+  "sample": {
+    "n": 13,
+    "note": "the 13 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Disguised as the farmhand Bölverk [“BURL-vehrk”], this figure won over the giantess Gunnlöð and stole the Mead of Poetry from her father Suttung, after slithering through a hole in a mountain in the shape of a snake. He also traded one of his eyes for a single drink of wisdom from the Well of Mimir [“MEE-mir”].",
+      "r": "Two ravens named Huginn and Muninn fly across the world each day and report back to him. For 10 points, name this one-eyed chief of the Norse gods, the father of Thor."
+    },
+    {
+      "p": "This figure owns a ring called Draupnir [“DROW-pnir”] that drips eight new rings of equal weight every ninth night. Dwarves forged that ring as part of a wager that also produced a golden boar and the hammer Mjölnir for his son.",
+      "r": "He rides to battle on the eight-legged horse Sleipnir and keeps two wolves, Geri and Freki, fed at his feet. For 10 points, name this Allfather of Asgard, who is destined to be swallowed by the wolf Fenrir at Ragnarök."
+    },
+    {
+      "p": "With his brothers Vili and Vé, this god killed the primordial giant Ymir and built the world from his body, raising Ymir’s skull as the sky. He is also said to have won the secret of the runes by piercing himself with his own spear.",
+      "r": "This husband of Frigg hung from the World Tree Yggdrasil for nine nights to learn that secret. For 10 points, name this one-eyed ruler of the Norse gods."
+    },
+    {
+      "p": "After a war between two families of gods, this figure preserved the severed head of the wise being Mimir with herbs so that it could keep advising him. He later disguised himself as a farmhand to win the Mead of Poetry from the giant Suttung.",
+      "r": "This figure’s ravens, Huginn and Muninn, bring him news from across the nine worlds every day. For 10 points, name this one-eyed chief god of Norse mythology, whose son Thor wields the hammer Mjölnir."
+    },
+    {
+      "p": "Disguised as a gruff ferryman named Hárbarðr [“HAR-bard”], or “Graybeard,” this figure once traded insults with his own son and refused to row him across a strait. In another tale, disguised as a traveler, he won a riddle contest against the giant Vafþrúðnir [“vahf-THROOTH-nir”] by asking a question only he himself could answer.",
+      "r": "That final, unanswerable riddle was about what he had once whispered into his dead son Baldr’s ear. For 10 points, name this chief of the Norse gods, who gave up an eye at the Well of Mimir for wisdom."
+    },
+    {
+      "p": "In the Prose Edda’s frame story, a traveler named Gangleri questions three enthroned figures called High, Just-As-High, and Third, who are later revealed to be forms of this one god. The witch Gullveig was also burned three times in this deity’s hall, helping spark a war between two families of deities.",
+      "r": "His wolves, Geri and Freki, and his ravens, Huginn and Muninn, are constant companions. For 10 points, name this one-eyed king of Asgard, father of Thor."
+    },
+    {
+      "p": "This god and his brothers Vili and Vé were sons of the god Borr and the giantess Bestla. According to the Poetic Edda, he hanged himself from a windswept tree, pierced by his own spear, for nine long nights to gain knowledge of the runes.",
+      "r": "He rules from his throne Hliðskjalf, from which he can see into all nine worlds. For 10 points, name this one-eyed Allfather, husband of Frigg."
+    },
+    {
+      "p": "To earn a single drink from the Well of Mimir, this figure gave up one of his own eyes, gaining great wisdom in return. He is also said to ride into battle on an eight-legged horse born to Loki, who had shapeshifted into a mare.",
+      "r": "This god’s hall, Valhalla, welcomes half of all warriors who die bravely in battle. For 10 points, name this one-eyed chief of the Norse gods, father of Thor."
+    },
+    {
+      "p": "This figure’s eight-legged horse, Sleipnir, was born after Loki, disguised as a mare, distracted a giant’s stallion to stop him from finishing the walls of Asgard. This deity also kept two wolves, Geri and Freki, well fed, since he himself needed no food.",
+      "r": "His ravens Huginn and Muninn bring him news from around the world each day. For 10 points, name this one-eyed Allfather, who is destined to be swallowed by the wolf Fenrir at Ragnarök."
+    },
+    {
+      "p": "Two ravens named Huginn, meaning “Thought,” and Muninn, meaning “Memory,” fly across the world each day and whisper what they see into this figure’s ears. This deity hanged himself from the World Tree Yggdrasil for nine nights, wounded by his own spear, to learn the secret of the runes.",
+      "r": "He also traded one eye for a drink of wisdom from the Well of Mimir. For 10 points, name this chief of the Norse gods, husband of Frigg and father of Thor."
+    },
+    {
+      "p": "This god’s two wolves, Geri and Freki, whose names both mean something like “greedy,” eat all the food at his table, since this deity needs none himself. This one-eyed figure also won the Mead of Poetry from the giant Suttung while disguised as the farmhand Bölverk.",
+      "r": "His hall of the slain, Valhalla, is filled with warriors chosen by the Valkyries. For 10 points, name this Allfather of the Norse gods."
+    },
+    {
+      "p": "Half of all warriors who die bravely in battle are chosen by the Valkyries to feast in this figure’s hall, Valhalla, until Ragnarök. This husband of Frigg once disguised himself as a ferryman to insult his own son across a strait.",
+      "r": "He also traded an eye for wisdom at the Well of Mimir. For 10 points, name this one-eyed chief of the Norse gods, father of Thor."
+    },
+    {
+      "p": "At Ragnarök, this god will be swallowed whole by the giant wolf Fenrir, only for Fenrir to then be killed by this god’s own son Víðarr [“VEE-thar”]. Long before that final battle, this deity had sacrificed an eye for wisdom at the Well of Mimir.",
+      "r": "His ravens Huginn and Muninn and his wolves Geri and Freki are always close by. For 10 points, name this one-eyed Allfather of Asgard."
+    },
+    {
+      "p": "This god’s eight-legged horse, Sleipnir, was actually born to Loki, who is this god’s blood brother rather than his son. This deity’s own son, by contrast, is the thunder god Thor, who wields the hammer Mjölnir.",
+      "r": "This figure sacrificed an eye at the Well of Mimir and hanged himself from Yggdrasil to learn the secret of the runes. For 10 points, name this one-eyed chief of the Norse gods."
+    },
+    {
+      "p": "This deity rules from Asgard as the chief of the Norse gods, accompanied everywhere by his ravens Huginn and Muninn and his wolves Geri and Freki. He famously gave up one eye for a drink of wisdom from the Well of Mimir.",
+      "r": "This god’s hall, Valhalla, welcomes fallen warriors, and his son Thor wields the hammer Mjölnir. For 10 points, name this one-eyed Allfather of the Norse gods."
+    }
+  ],
+  "clues": [
+    {
+      "id": "chief-god",
+      "tier": "giveaway",
+      "t": "Chief god and king of Asgard, often called the Allfather",
+      "k": [
+        "chief god",
+        "allfather",
+        "asgard"
+      ],
+      "n": 6
+    },
+    {
+      "id": "father-of-thor",
+      "tier": "giveaway",
+      "t": "Father of Thor, the Norse god of thunder",
+      "k": [
+        "father of thor",
+        "thunder"
+      ],
+      "n": 2,
+      "rabbit": "Thor"
+    },
+    {
+      "id": "valhalla",
+      "tier": "giveaway",
+      "t": "Rules over Valhalla, the hall of warriors slain in battle",
+      "k": [
+        "valhalla",
+        "slain in battle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "one-eyed",
+      "tier": "giveaway",
+      "t": "Famously missing one eye, traded away for great wisdom",
+      "k": [
+        "one eye",
+        "missing one eye"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mimir-well",
+      "tier": "middle",
+      "t": "Gave up one eye for a single drink of wisdom from the Well of Mimir",
+      "k": [
+        "well of mimir",
+        "gave up one eye"
+      ],
+      "n": 3
+    },
+    {
+      "id": "huginn-muninn",
+      "tier": "middle",
+      "t": "Ravens Huginn (“Thought”) and Muninn (“Memory”) fly the world and report back to him daily",
+      "k": [
+        "huginn",
+        "muninn",
+        "ravens"
+      ],
+      "n": 3
+    },
+    {
+      "id": "geri-freki",
+      "tier": "middle",
+      "t": "Wolves Geri and Freki eat all his food at the table, since he needs none himself",
+      "k": [
+        "geri",
+        "freki",
+        "wolves"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sleipnir",
+      "tier": "middle",
+      "t": "Rides the eight-legged horse Sleipnir, born when Loki shapeshifted into a mare",
+      "k": [
+        "sleipnir",
+        "eight legged horse"
+      ],
+      "n": 2,
+      "rabbit": "Loki"
+    },
+    {
+      "id": "yggdrasil-runes",
+      "tier": "middle",
+      "t": "Hanged himself from the World Tree Yggdrasil for nine nights, pierced by his own spear, to learn the runes",
+      "k": [
+        "yggdrasil",
+        "nine nights",
+        "runes"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fenrir-fate",
+      "tier": "middle",
+      "t": "Fated to be swallowed by the wolf Fenrir at Ragnarök",
+      "k": [
+        "fenrir",
+        "ragnarok",
+        "swallowed"
+      ],
+      "n": 1,
+      "rabbit": "Loki"
+    },
+    {
+      "id": "frigg-husband",
+      "tier": "middle",
+      "t": "Husband of the goddess Frigg",
+      "k": [
+        "frigg",
+        "husband"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mead-of-poetry",
+      "tier": "power",
+      "t": "Disguised as the farmhand Bölverk to steal the Mead of Poetry from the giant Suttung, after slithering through a hole in a mountain as a snake",
+      "k": [
+        "bolverk",
+        "mead of poetry",
+        "suttung"
+      ],
+      "n": 3
+    },
+    {
+      "id": "draupnir",
+      "tier": "power",
+      "t": "Owns the ring Draupnir, which drips eight new rings of equal weight every ninth night",
+      "k": [
+        "draupnir",
+        "drips eight"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ymir-creation",
+      "tier": "power",
+      "t": "Killed the primordial giant Ymir with his brothers Vili and Vé to build the world from Ymir’s body",
+      "k": [
+        "ymir",
+        "vili and ve"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mimirs-head",
+      "tier": "power",
+      "t": "Preserved the severed head of the wise being Mimir with herbs to keep receiving counsel",
+      "k": [
+        "mimirs head",
+        "severed head"
+      ],
+      "n": 1
+    },
+    {
+      "id": "harbard-ferryman",
+      "tier": "power",
+      "t": "Disguised as the gruff ferryman Hárbarðr, or “Graybeard,” he once refused to row his own son across a strait",
+      "k": [
+        "harbard",
+        "graybeard",
+        "ferryman"
+      ],
+      "n": 1,
+      "rabbit": "Thor"
+    },
+    {
+      "id": "vafthrudnir",
+      "tier": "power",
+      "t": "Won a riddle contest against the giant Vafþrúðnir by asking what he had once whispered to his dead son Baldr",
+      "k": [
+        "vafthrudnir",
+        "riddle contest"
+      ],
+      "n": 1
+    },
+    {
+      "id": "high-third",
+      "tier": "power",
+      "t": "Appears in the Prose Edda’s frame story as three enthroned figures: High, Just-As-High, and Third",
+      "k": [
+        "high just as high",
+        "prose edda"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gullveig",
+      "tier": "power",
+      "t": "The witch Gullveig was burned three times in his hall, helping spark a war between two families of gods",
+      "k": [
+        "gullveig",
+        "burned three times"
+      ],
+      "n": 1
+    },
+    {
+      "id": "vili-ve-parentage",
+      "tier": "power",
+      "t": "Son of the god Borr and the giantess Bestla, with brothers Vili and Vé",
+      "k": [
+        "borr",
+        "bestla"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Odin, Woden, or Wotan?",
+    "body": "Odin, Woden, and Wotan are all the exact same god — just the Norse, Old English, and German versions of his name (that’s also why Wednesday is “Woden’s day”). Don’t mistake an unfamiliar spelling for a wrong answer. Separately, don’t confuse this chief god with his son Thor or his blood brother Loki, who share many of the same stories.",
+    "fix": "If a clue uses “Woden” or “Wotan,” it’s still this same god. If the clue is about a hammer or thunder, buzz Thor instead; if it’s about shapeshifting pranks, buzz Loki.",
+    "line": "Real answer line: <b><u>Odin</u></b> [or Woden; or Wotan]"
+  },
+  "freq": {
+    "rank": 1,
+    "count": 15,
+    "list": "Mythology"
+  }
+}

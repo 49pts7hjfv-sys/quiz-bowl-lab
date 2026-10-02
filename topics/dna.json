@@ -1,0 +1,378 @@
+{
+  "id": "dna",
+  "name": "DNA",
+  "mono": "DNA",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Carries genetic instructions for life · Shaped like a twisted ladder",
+  "dates": "Double-helix structure described in 1953",
+  "briefing": "DNA is a long, twisted-ladder-shaped molecule found inside nearly every living cell, carrying the instructions that make each organism who it is. Its code is spelled out using just four chemical letters, adenine, thymine, guanine, and cytosine, which pair up to form rungs of the ladder. James Watson and Francis Crick are famous for describing its double-helix shape in 1953, though Rosalind Franklin’s X-ray images were crucial evidence they relied on.",
+  "answerHtml": "<b><u>DNA</u></b> (or <u>deoxyribonucleic acid</u>; prompt on <u>double helix</u>)",
+  "accept": [
+    "dna",
+    "deoxyribonucleic acid"
+  ],
+  "prompt": [
+    "double helix"
+  ],
+  "reject": [
+    "rna",
+    "ribonucleic acid",
+    "mrna",
+    "messenger rna",
+    "chromosome",
+    "chromosomes",
+    "nucleus",
+    "gene",
+    "genes",
+    "genome",
+    "nucleotide",
+    "nucleotides",
+    "plasmid",
+    "plasmids",
+    "pcr",
+    "polymerase chain reaction",
+    "dna replication",
+    "genetic code"
+  ],
+  "tests": {
+    "right": [
+      "DNA",
+      "dna",
+      "Deoxyribonucleic Acid",
+      "Dioxyribonucleic Acid",
+      "The DNA"
+    ],
+    "prompt": [
+      "Double Helix",
+      "double helix"
+    ],
+    "wrong": [
+      "RNA",
+      "Chromosomes",
+      "Nucleus",
+      "Gene",
+      "Genome",
+      "Plasmid"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Structure of DNA",
+      "source": "MIT Biology",
+      "url": "https://www.youtube.com/watch?v=o_-6JXLYS-k",
+      "note": "MIT explainer of how the double helix is put together"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "DNA Structure and Replication: Crash Course Biology #10",
+      "source": "Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=8kK2zwjRV0M",
+      "note": "The double helix, base pairing, and how DNA copies itself"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "DNA animation (2002–2014) by Drew Berry and Etsuko Uno",
+      "source": "WEHI",
+      "url": "https://www.youtube.com/watch?v=7Hk9jct2ozY",
+      "note": "Famous 3D animation of DNA being packed, copied, and read inside a cell"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "DNA",
+      "source": "Khan Academy",
+      "url": "https://www.youtube.com/watch?v=_-vZ_g7K6P0",
+      "note": "Sal Khan’s chalkboard lesson on what DNA is and how it gets copied"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "DNA and Genes",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/biology/dna.php",
+      "note": "Quick read on DNA’s building blocks, the genetic code, and genes, with a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/DNA",
+  "qb": {
+    "q": "DNA",
+    "found": 8,
+    "tip": "Of the 8 results, 5 are this bare answer line; the other 3 want more specific related answers (“double helix,” which prompts on this; “DNA replication,” the process; and “plasmids,” a specific bacterial form) and were kept out of the sample and the clue bank."
+  },
+  "sample": {
+    "n": 5,
+    "note": "the 5 real QBReader tossups for this exact answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Rosalind Franklin’s X-ray diffraction image, nicknamed “Photo 51,” provided key evidence for this molecule’s structure. James Watson and Francis Crick described this molecule’s twisted-ladder shape in 1953, later sharing a 1962 Nobel Prize with Maurice Wilkins.",
+      "r": "This molecule is tightly coiled with proteins into structures called chromosomes inside the nucleus. For 10 points, name this molecule built from four chemical bases that carries the instructions for how a living thing grows and functions."
+    },
+    {
+      "p": "In the Avery-MacLeod-McCarty experiment, this molecule was identified as the “transforming factor” that could change one strain of bacteria into another. The Hershey-Chase experiments later showed that this molecule, rather than protein, carries genetic instructions during a virus’s attack on bacteria.",
+      "r": "An enzyme called helicase unwinds and “unzips” this molecule’s two strands before they are copied. For 10 points, name this double-helix-shaped molecule made of adenine, thymine, guanine, and cytosine."
+    },
+    {
+      "p": "The Human Genome Project mapped the complete order of this molecule’s four chemical bases across the entire human set of it. J. Craig Venter’s shotgun method randomly fragments this molecule before reading each small piece with the Sanger method.",
+      "r": "Okazaki fragments help piece together one of this molecule’s two new strands as it copies itself. For 10 points, name this molecule whose sequence is unique enough to each person to be used in forensic science."
+    },
+    {
+      "p": "This molecule’s two strands run in opposite directions, a property called antiparallel, and are held together by hydrogen bonds between paired bases. This molecule is the first step of the “central dogma” of molecular biology, giving instructions to RNA.",
+      "r": "Adenine always pairs with thymine, and guanine always pairs with cytosine, across this molecule’s two strands. For 10 points, name this molecule whose structure was described by James Watson and Francis Crick."
+    },
+    {
+      "p": "Each building-block unit of this molecule pairs a sugar, a phosphate group, and one of four nitrogen-containing bases. This molecule copies itself through a semiconservative process, so each new copy keeps one original strand and builds one brand-new one.",
+      "r": "Permanent changes to this molecule’s sequence, called mutations, can be inherited or caused by things like radiation. For 10 points, name this molecule shaped like a double helix."
+    },
+    {
+      "p": "This molecule was identified as bacteria’s “transforming factor” in the Avery-MacLeod-McCarty experiment, and the Hershey-Chase experiments confirmed its role using viruses. Helicase unwinds this molecule’s two strands before copying begins.",
+      "r": "This molecule is packaged together with proteins into chromosomes inside the nucleus. For 10 points, name this molecule made of four bases: adenine, thymine, guanine, and cytosine."
+    },
+    {
+      "p": "Rosalind Franklin’s X-ray diffraction work, including the image called “Photo 51,” helped reveal that this molecule forms a double helix. The Human Genome Project later mapped out the complete sequence of this molecule’s bases in humans.",
+      "r": "Okazaki fragments assemble one of this molecule’s two new strands during copying. For 10 points, name this molecule that carries the genetic instructions controlling how living things grow and function."
+    },
+    {
+      "p": "J. Craig Venter’s shotgun method randomly breaks this molecule into pieces before each is read using the Sanger method. This molecule’s two antiparallel strands are held together by hydrogen bonds between its paired bases.",
+      "r": "This molecule gives instructions to RNA as the first step of the “central dogma” of molecular biology. For 10 points, name this molecule whose structure James Watson and Francis Crick are famous for describing."
+    },
+    {
+      "p": "An enzyme called helicase “unzips” this molecule’s two strands so that Okazaki fragments can help rebuild one of them. This molecule replicates semiconservatively, meaning each new copy keeps one original strand.",
+      "r": "Each person’s exact sequence of this molecule is unique enough to be used in forensic science. For 10 points, name this molecule, shaped like a twisted ladder, that is packaged into chromosomes."
+    },
+    {
+      "p": "This molecule’s four chemical bases, adenine, thymine, guanine, and cytosine, pair up to form the rungs of its double-helix “ladder.” The Avery-MacLeod-McCarty experiment first identified this molecule as the factor that could transform one type of bacteria into another.",
+      "r": "Mutations, or permanent changes to this molecule’s sequence, can be inherited or caused by things like radiation. For 10 points, name this molecule discovered to be a double helix by James Watson and Francis Crick."
+    },
+    {
+      "p": "This molecule’s building blocks each pair a sugar and a phosphate group with one of four nitrogen-containing bases. Hershey and Chase’s experiments with viruses showed that this molecule, not protein, carries hereditary instructions.",
+      "r": "This molecule gives instructions to RNA as the first step of the central dogma. For 10 points, name this molecule whose bases were fully sequenced in humans by the Human Genome Project."
+    },
+    {
+      "p": "Photo 51, an X-ray diffraction image taken by Rosalind Franklin, was crucial evidence for this molecule’s double-helix shape. This molecule’s two strands are antiparallel, running in opposite directions and linked by hydrogen bonds.",
+      "r": "This molecule is coiled up with proteins to form chromosomes inside a cell’s nucleus. For 10 points, name this molecule whose bases pair adenine with thymine and guanine with cytosine."
+    },
+    {
+      "p": "Semiconservative replication of this molecule means each new copy keeps one of the original two strands. Helicase unwinds this molecule ahead of the replication process, while Okazaki fragments are stitched together on the lagging side.",
+      "r": "J. Craig Venter’s shotgun method, paired with Sanger sequencing, was used to help read this molecule’s full human sequence. For 10 points, name this molecule that stores the genetic information of nearly every living thing."
+    },
+    {
+      "p": "The Avery-MacLeod-McCarty experiment and the later Hershey-Chase experiments both helped prove that this molecule, rather than protein, carries genetic information between generations. This molecule’s sequence is unique enough to each individual to be used in forensic science.",
+      "r": "This molecule is the first step of the central dogma, passing instructions on to RNA. For 10 points, name this double-helix-shaped molecule built from four bases."
+    },
+    {
+      "p": "Mutations in this molecule’s sequence can be inherited or triggered by outside factors like radiation. This molecule’s sugar-phosphate-base building blocks link together into two antiparallel strands joined by hydrogen bonds.",
+      "r": "Rosalind Franklin’s X-ray images contributed to Watson and Crick’s discovery of this molecule’s double-helix structure. For 10 points, name this molecule that is packaged into chromosomes and stored in a cell’s nucleus."
+    }
+  ],
+  "clues": [
+    {
+      "id": "genetic-info",
+      "tier": "giveaway",
+      "t": "Carries the genetic instructions that control how a living thing grows, looks, and functions",
+      "k": [
+        "genetic instructions"
+      ],
+      "n": 5
+    },
+    {
+      "id": "double-helix-shape",
+      "tier": "giveaway",
+      "t": "Shaped like a twisted ladder known as a double helix",
+      "k": [
+        "double helix",
+        "twisted ladder"
+      ],
+      "n": 5
+    },
+    {
+      "id": "four-bases",
+      "tier": "giveaway",
+      "t": "Built from four chemical bases: adenine, thymine, guanine, and cytosine",
+      "k": [
+        "adenine",
+        "thymine",
+        "guanine",
+        "cytosine"
+      ],
+      "n": 4
+    },
+    {
+      "id": "location-in-cell",
+      "tier": "giveaway",
+      "t": "Found coiled up inside the nucleus of almost every cell in the body",
+      "k": [
+        "nucleus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "james-watson-francis-crick",
+      "tier": "middle",
+      "t": "Its double-helix structure was described by James Watson and Francis Crick",
+      "k": [
+        "james watson",
+        "francis crick"
+      ],
+      "n": 2
+    },
+    {
+      "id": "base-pairing",
+      "tier": "middle",
+      "t": "Adenine always pairs with thymine, and guanine always pairs with cytosine, across two matching strands",
+      "k": [
+        "pairs with thymine",
+        "adenine"
+      ],
+      "n": 1
+    },
+    {
+      "id": "helicase-unzip",
+      "tier": "middle",
+      "t": "An enzyme called helicase unwinds and “unzips” its two strands before they are copied",
+      "k": [
+        "helicase",
+        "unzips"
+      ],
+      "n": 2
+    },
+    {
+      "id": "okazaki",
+      "tier": "middle",
+      "t": "Okazaki fragments are used to piece together one of its two new strands during copying",
+      "k": [
+        "okazaki fragments"
+      ],
+      "n": 2
+    },
+    {
+      "id": "semiconservative",
+      "tier": "middle",
+      "t": "Copies itself through a semiconservative process, so each new copy keeps one original strand and builds one new one",
+      "k": [
+        "semiconservative"
+      ],
+      "n": 1
+    },
+    {
+      "id": "unique-to-individual",
+      "tier": "middle",
+      "t": "Each person’s exact sequence of it is unique, a fact used in forensic science to identify people",
+      "k": [
+        "forensic science"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mutation",
+      "tier": "middle",
+      "t": "Permanent changes in its sequence, called mutations, can be inherited or caused by things like radiation",
+      "k": [
+        "mutations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "franklin-photo51",
+      "tier": "power",
+      "t": "Rosalind Franklin’s X-ray diffraction image, known as Photo 51, was key evidence for its structure",
+      "k": [
+        "photo 51",
+        "x-ray diffraction"
+      ],
+      "n": 1
+    },
+    {
+      "id": "avery-macleod",
+      "tier": "power",
+      "t": "Identified as the “transforming factor” in the Avery-MacLeod-McCarty experiment on bacteria",
+      "k": [
+        "transforming factor",
+        "avery-macleod-mccarty"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hershey-chase",
+      "tier": "power",
+      "t": "The Hershey-Chase experiments showed this molecule, not protein, carries genetic instructions during a virus’s attack on bacteria",
+      "k": [
+        "hershey-chase"
+      ],
+      "n": 1
+    },
+    {
+      "id": "central-dogma",
+      "tier": "power",
+      "t": "The first step of the “central dogma” of molecular biology, giving instructions to RNA",
+      "k": [
+        "central dogma"
+      ],
+      "n": 1
+    },
+    {
+      "id": "human-genome-project",
+      "tier": "power",
+      "t": "The Human Genome Project mapped the complete order of its four chemical bases in humans",
+      "k": [
+        "human genome project"
+      ],
+      "n": 1
+    },
+    {
+      "id": "sequencing-shotgun",
+      "tier": "power",
+      "t": "J. Craig Venter’s shotgun method randomly fragments it before reading each small piece with the Sanger method",
+      "k": [
+        "shotgun method",
+        "sanger method"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chromosomes-location",
+      "tier": "power",
+      "t": "Tightly coiled and packaged together with proteins to form structures called chromosomes",
+      "k": [
+        "chromosomes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nucleotide-structure",
+      "tier": "power",
+      "t": "Each building-block unit pairs a sugar, a phosphate group, and one of the four nitrogen-containing bases",
+      "k": [
+        "sugar",
+        "phosphate group"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-stranded-antiparallel",
+      "tier": "power",
+      "t": "Its two strands run in opposite directions, a property called antiparallel, held together by hydrogen bonds between bases",
+      "k": [
+        "antiparallel",
+        "hydrogen bonds"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "DNA, double helix, or chromosomes?",
+    "body": "Clues about the exact twisted-ladder shape itself — zinc fingers binding a groove, topoisomerase relieving supercoiling, or the B and Z forms — are sometimes written for the more specific answer “double helix,” which only prompts on this molecule. Clues about where it’s packaged (wound around proteins into chromosomes, stored in the nucleus) describe its neighbors, not this molecule itself.",
+    "fix": "If the whole question is really about the three-dimensional twist and groove shape of the ladder, “double helix” may be the safer answer; if it’s about where the molecule lives or how it’s organized, remember that chromosomes and the nucleus are related but separate answers.",
+    "line": "Real answer line: <b><u>DNA</u></b> (or deoxyribonucleic acid; prompt on double helix)"
+  },
+  "freq": {
+    "rank": 10,
+    "count": 6,
+    "list": "Biology"
+  }
+}

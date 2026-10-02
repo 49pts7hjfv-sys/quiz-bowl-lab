@@ -1,0 +1,487 @@
+{
+  "id": "diwali",
+  "name": "Diwali",
+  "mono": "DI",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Hindu festival of lights · Honors Lakshmi and Rama’s homecoming",
+  "dates": "Celebrated in October or November",
+  "briefing": "Every autumn, families across India and around the world light rows of little clay lamps called diyas, set off fireworks, share sweets, and draw colorful rangoli designs at their doors. Many Hindus remember how Prince Rama returned home to Ayodhya with Sita after defeating the demon king Ravana, and they welcome Lakshmi, the goddess of wealth. Sikhs and Jains mark their own holidays at the same time.",
+  "answerHtml": "<b><u>Diwali</u></b> (accept <u>Deepavali</u>, <u>Divali</u>, <u>Dipavali</u>, <u>Deepawali</u>, or the Nepali name <u>Tihar</u>; prompt on “Festival of Lights” or on single days like “Bhai Dooj”; do not accept “Holi,” “Hanukkah,” or “Navaratri”)",
+  "accept": [
+    "diwali",
+    "deepavali",
+    "divali",
+    "dipavali",
+    "deepawali",
+    "dipawali",
+    "divalli",
+    "tihar"
+  ],
+  "prompt": [
+    "festival of lights",
+    "hindu festival of lights",
+    "new year",
+    "hindu new year",
+    "lakshmi puja",
+    "dhanteras",
+    "naraka chaturdashi",
+    "govardhan puja",
+    "padwa",
+    "annakut",
+    "bhai dooj",
+    "bhai duj",
+    "bhai dhuj",
+    "bhaubeej",
+    "bhai tika",
+    "bhai phota",
+    "bhratri dwitiya"
+  ],
+  "reject": [
+    "holi",
+    "hanukkah",
+    "hanukah",
+    "hannukah",
+    "chanukah",
+    "navaratri",
+    "navratri",
+    "dussehra",
+    "dussera",
+    "dasara",
+    "vijayadashami",
+    "durga puja",
+    "kali puja",
+    "lakshmi",
+    "rama",
+    "ramayana",
+    "ravana",
+    "raksha bandhan",
+    "pongal",
+    "onam",
+    "janmashtami",
+    "ganesh chaturthi",
+    "makar sankranti",
+    "bandi chhor divas",
+    "bandi chhor",
+    "loy krathong",
+    "vesak",
+    "ramadan",
+    "christmas"
+  ],
+  "tests": {
+    "right": [
+      "Diwali",
+      "Deepavali",
+      "Divali",
+      "Diwalli",
+      "Dipavali"
+    ],
+    "prompt": [
+      "Festival of Lights",
+      "Hindu festival of lights",
+      "Bhai Dooj"
+    ],
+    "wrong": [
+      "Holi",
+      "Hanukkah",
+      "Navaratri",
+      "Dussehra",
+      "Lakshmi",
+      "Bandi Chhor Divas",
+      "Ramadan"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Diwali - Festival of Lights",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=HrrW3rO51ak",
+      "note": "The festival of lights and how families celebrate it"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The festival of Diwali",
+      "source": "BBC Bitesize for Teachers · My Life, My Religion: Hinduism",
+      "url": "https://www.youtube.com/watch?v=Niy1XYspVfg",
+      "note": "Short · the holiday from the series My Life, My Religion"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Hindu Story of Rama and Sita",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=uRpNNF4fB4g",
+      "note": "Short · the Ramayana story that many Hindus remember at this festival"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "10 fabulous facts about Diwali!",
+      "source": "National Geographic Kids",
+      "url": "https://www.natgeokids.com/uk/discover/geography/general-geography/facts-about-diwali/",
+      "note": "Quick list of fun facts"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Diwali",
+  "qb": {
+    "q": "Diwali",
+    "found": 3,
+    "tip": "All 9 real tossups mention Lakshmi and end with the “festival of lights” nickname, and most also use diyas, rangoli, and Rama’s return, so those are must-know clues."
+  },
+  "sample": {
+    "n": 9,
+    "note": "9 real QBReader tossups (3 Middle School/Easy High School + 6 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Jains celebrate this holiday as the anniversary of the nirvana of Mahavira [“muh-HAH-vee-ruh”], the last tirthankara [“teer-TUN-kuh-ruh”], who reached liberation at Pawapuri [“PAH-vah-poo-ree”]. Like the Hindu version of this holiday, the Jain one falls on the new moon night of the month of Kartika [“KAR-tee-kuh”].",
+      "r": "Hindus light clay lamps called diyas on this holiday. For 10 points, name this autumn festival of lights."
+    },
+    {
+      "p": "Sikhs celebrate Bandi Chhor Divas [“BUN-dee CHOR dee-VAHS”] at the same time as this holiday, remembering how Guru Hargobind [“HAR-goh-bind”] was freed from Gwalior [“GWAH-lee-or”] Fort along with 52 imprisoned princes. On that day, Sikhs light up the Golden Temple in Amritsar.",
+      "r": "Hindus honor the goddess Lakshmi during this holiday. For 10 points, name this Hindu festival of lights."
+    },
+    {
+      "p": "The second day of this holiday, Naraka Chaturdashi [“NUH-ruh-kuh chuh-toor-DUSH-ee”], celebrates the god Krishna’s defeat of the demon Narakasura [“nuh-ruh-KAH-soo-ruh”]. In South India, many families begin that day with an oil bath before sunrise, followed by new clothes and sweets.",
+      "r": "Families draw rangoli designs at their doors during this festival. For 10 points, name this five-day Hindu festival of lights."
+    },
+    {
+      "p": "On Dhanteras [“dun-TAIR-us”], the first day of this holiday, many families buy new pots, utensils, or gold, and some honor Dhanvantari [“dun-VUN-tuh-ree”], the god of medicine. This holiday’s main night falls on the new moon of the month of Kartika [“KAR-tee-kuh”].",
+      "r": "That night honors Lakshmi, the goddess of wealth. For 10 points, name this Hindu festival of lights, usually held in October or November."
+    },
+    {
+      "p": "In Nepal, one day of this five-day festival honors crows, another honors dogs with flower garlands and treats, and another honors cows. On the festival’s last day there, sisters place colorful tika [“TEE-kuh”] marks on their brothers’ foreheads and pray for their long lives.",
+      "r": "In India, this holiday recalls Rama’s return to Ayodhya. For 10 points, name this Hindu festival of lights."
+    },
+    {
+      "p": "On Bhai Dooj [“BYE DOOJ”], the last day of this holiday, sisters pray for their brothers’ long lives, and brothers often visit their sisters’ homes for a meal. The day before, many Hindus perform Govardhan Puja, remembering how Krishna lifted a hill to shelter villagers from a storm.",
+      "r": "This holiday’s main night honors Lakshmi. For 10 points, name this festival of lights celebrated with diyas and rangoli."
+    },
+    {
+      "p": "Many temples prepare Annakut [“UN-uh-koot”], a “mountain of food” offered to Krishna, during this holiday. In Gujarat [“goo-juh-RAHT”], the new year begins right after this holiday’s main night, and many merchants worship fresh account books for the coming business year.",
+      "r": "Families light lamps to welcome Lakshmi, goddess of wealth. For 10 points, name this Hindu festival of lights."
+    },
+    {
+      "p": "In West Bengal, many Hindus worship the fierce goddess Kali [“KAH-lee”] on this holiday’s new moon night, while most other regions worship Lakshmi. Bengali families often buy and share sweets such as sandesh [“SHUN-desh”] for the celebration.",
+      "r": "Homes glow with rows of clay lamps called diyas. For 10 points, name this Hindu festival of lights."
+    },
+    {
+      "p": "For this holiday, families draw rangoli [“run-GOH-lee”], colorful floor designs made from powders, rice, or flower petals, at their doorways to welcome guests. In Tamil Nadu, similar designs called kolam [“KOH-lum”] are drawn with rice flour.",
+      "r": "This holiday honors Lakshmi and celebrates Rama’s homecoming. For 10 points, name this Hindu festival of lights held in October or November."
+    },
+    {
+      "p": "On this holiday’s main night, many families leave doors and windows open and light lamps so that a goddess who sits on a lotus and rides an owl will visit their homes. That goddess is often worshiped alongside Ganesha [“guh-NAY-shuh”], the elephant-headed remover of obstacles.",
+      "r": "That goddess is Lakshmi, and families draw rangoli at their doors to welcome her. For 10 points, name this Hindu festival of lights."
+    },
+    {
+      "p": "Many Hindus say this holiday recalls how the people of Ayodhya [“uh-YOHD-hyuh”] lit rows of lamps to welcome their prince home after fourteen years of exile and his victory over the demon king Ravana [“RAH-vuh-nuh”]. That prince returned with his wife, Sita, his brother Lakshmana [“LUK-shmuh-nuh”], and the monkey hero Hanuman.",
+      "r": "That prince was Rama, and today families still light clay lamps called diyas. For 10 points, name this Hindu festival of lights."
+    },
+    {
+      "p": "In Maharashtra [“mah-huh-RAHSH-truh”], families hang star-shaped paper lanterns called kandils [“kun-DEELZ”] outside their homes for this holiday and make snacks and sweets such as chakli [“CHUCK-lee”] and karanji [“kuh-RUN-jee”]. Many people also wear new clothes and set off fireworks.",
+      "r": "The holiday’s main day honors the goddess Lakshmi. For 10 points, name this Hindu festival of lights."
+    },
+    {
+      "p": "This holiday’s name comes from Sanskrit words meaning “row of lamps.” Families line their windows, doorsteps, and rooftops with those lamps, which stand for the victory of light over darkness and of good over evil.",
+      "r": "The small clay oil lamps are called diyas. For 10 points, name this Hindu festival of lights, which honors Lakshmi."
+    },
+    {
+      "p": "This festival’s main night falls on amavasya [“uh-MAH-vus-yuh”], the darkest, moonless night of the Hindu month of Kartika [“KAR-tee-kuh”], about three weeks after the festival of Dussehra [“duh-SAIR-uh”]. Its date changes from year to year because Hindu months follow the moon.",
+      "r": "Families light diyas and draw rangoli. For 10 points, name this five-day Hindu festival of lights in October or November."
+    },
+    {
+      "p": "This holiday is a national public holiday in Trinidad and Tobago, Guyana, Fiji, and Mauritius, and the English city of Leicester [“LESS-ter”] hosts one of the largest celebrations of it outside India. Singapore’s Little India neighborhood is decorated with bright lights for it each year.",
+      "r": "It honors Lakshmi and celebrates Rama’s return to Ayodhya. For 10 points, name this Hindu festival of lights."
+    }
+  ],
+  "clues": [
+    {
+      "id": "festival-of-lights",
+      "tier": "giveaway",
+      "t": "Nicknamed the “festival of lights”; one of the biggest Hindu holidays",
+      "k": [
+        "festival of lights",
+        "hindu"
+      ],
+      "n": 9
+    },
+    {
+      "id": "lakshmi",
+      "tier": "giveaway",
+      "t": "Honors Lakshmi, the goddess of wealth and good fortune",
+      "k": [
+        "lakshmi",
+        "goddess of wealth",
+        "wealth"
+      ],
+      "n": 9,
+      "rabbit": "Lakshmi"
+    },
+    {
+      "id": "diyas",
+      "tier": "giveaway",
+      "t": "Families light diyas, small clay oil lamps, in rows",
+      "k": [
+        "diyas",
+        "diya",
+        "clay oil lamps",
+        "lamps"
+      ],
+      "n": 8
+    },
+    {
+      "id": "autumn",
+      "tier": "giveaway",
+      "t": "Celebrated in autumn, usually in October or November",
+      "k": [
+        "october",
+        "november",
+        "autumn"
+      ],
+      "n": 5
+    },
+    {
+      "id": "rama-return",
+      "tier": "middle",
+      "t": "Recalls Rama’s return to Ayodhya with Sita after 14 years of exile and his defeat of Ravana",
+      "k": [
+        "rama",
+        "ayodhya",
+        "sita",
+        "ravana",
+        "exile"
+      ],
+      "n": 6,
+      "rabbit": "Ramayana"
+    },
+    {
+      "id": "rangoli",
+      "tier": "middle",
+      "t": "Families draw rangoli, colorful floor designs of powder, rice, or petals (called kolam in Tamil Nadu)",
+      "k": [
+        "rangoli",
+        "kolam",
+        "floor designs"
+      ],
+      "n": 7
+    },
+    {
+      "id": "five-days",
+      "tier": "middle",
+      "t": "Lasts five days; the third and main day is Lakshmi Puja",
+      "k": [
+        "five days",
+        "lakshmi puja",
+        "third"
+      ],
+      "n": 6
+    },
+    {
+      "id": "sweets-fireworks",
+      "tier": "middle",
+      "t": "People share sweets (mithai), wear new clothes, and set off fireworks",
+      "k": [
+        "sweets",
+        "mithai",
+        "fireworks",
+        "firecrackers"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ganesha-owl",
+      "tier": "middle",
+      "t": "Lakshmi, who sits on a lotus and rides an owl, is worshiped with Ganesha; doors are left open for her",
+      "k": [
+        "ganesha",
+        "owl",
+        "lotus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kartika",
+      "tier": "power",
+      "t": "Main night: amavasya, the new moon of the month of Kartika",
+      "k": [
+        "kartika",
+        "new moon",
+        "amavasya",
+        "kartik"
+      ],
+      "n": 5
+    },
+    {
+      "id": "narakasura",
+      "tier": "power",
+      "t": "Second day, Naraka Chaturdashi: Krishna’s defeat of the demon Narakasura; South Indians take a pre-dawn oil bath",
+      "k": [
+        "narakasura",
+        "naraka chaturdashi",
+        "oil bath",
+        "krishna"
+      ],
+      "n": 4
+    },
+    {
+      "id": "bhai-dooj",
+      "tier": "power",
+      "t": "Last day, Bhai Dooj: sisters pray for their brothers, who visit them for a meal",
+      "k": [
+        "bhai dooj",
+        "sisters",
+        "brothers",
+        "siblings"
+      ],
+      "n": 4
+    },
+    {
+      "id": "new-year",
+      "tier": "power",
+      "t": "Begins a new business year: merchants worship new account books, and Gujarat’s new year starts the next day",
+      "k": [
+        "account books",
+        "new year",
+        "merchants",
+        "gujarat"
+      ],
+      "n": 3
+    },
+    {
+      "id": "mahavira",
+      "tier": "power",
+      "t": "Jains mark Mahavira’s nirvana at Pawapuri on the same night",
+      "k": [
+        "mahavira",
+        "pawapuri",
+        "jains",
+        "nirvana"
+      ],
+      "n": 3,
+      "rabbit": "Jainism"
+    },
+    {
+      "id": "bandi-chhor",
+      "tier": "power",
+      "t": "Sikhs celebrate Bandi Chhor Divas: Guru Hargobind was freed from Gwalior Fort with 52 princes",
+      "k": [
+        "bandi chhor divas",
+        "bandi chhor",
+        "hargobind",
+        "gwalior",
+        "52 princes"
+      ],
+      "n": 1,
+      "rabbit": "Sikhism"
+    },
+    {
+      "id": "dhanteras",
+      "tier": "power",
+      "t": "First day, Dhanteras: people buy pots, utensils, or gold and honor Dhanvantari, god of medicine",
+      "k": [
+        "dhanteras",
+        "dhanvantari",
+        "utensils",
+        "gold"
+      ],
+      "n": 2
+    },
+    {
+      "id": "nepal",
+      "tier": "power",
+      "t": "In Nepal, its days honor crows, dogs, and cows, and sisters put tika marks on their brothers’ foreheads",
+      "k": [
+        "nepal",
+        "dogs",
+        "crows",
+        "tika"
+      ],
+      "n": 1
+    },
+    {
+      "id": "govardhan",
+      "tier": "power",
+      "t": "Fourth day: Govardhan Puja and Annakut (“mountain of food”), remembering Krishna lifting a hill; also called Padwa",
+      "k": [
+        "govardhan",
+        "annakut",
+        "padwa",
+        "mountain of food"
+      ],
+      "n": 2
+    },
+    {
+      "id": "kali-puja",
+      "tier": "power",
+      "t": "In West Bengal, the fierce goddess Kali is worshiped on its new moon night",
+      "k": [
+        "kali",
+        "west bengal",
+        "bengal"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kandils",
+      "tier": "power",
+      "t": "In Maharashtra, families hang star-shaped kandil lanterns and make snacks like chakli",
+      "k": [
+        "kandil",
+        "kandils",
+        "lanterns",
+        "chakli",
+        "maharashtra"
+      ],
+      "n": 1
+    },
+    {
+      "id": "row-of-lamps",
+      "tier": "power",
+      "t": "Its name comes from Sanskrit for “row of lamps”; the lamps stand for light beating darkness and good beating evil",
+      "k": [
+        "row of lamps",
+        "sanskrit",
+        "darkness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dussehra",
+      "tier": "power",
+      "t": "Comes about three weeks after Dussehra, the festival of Rama’s victory over Ravana",
+      "k": [
+        "dussehra",
+        "three weeks"
+      ],
+      "n": 0,
+      "rabbit": "Dussehra"
+    },
+    {
+      "id": "diaspora",
+      "tier": "power",
+      "t": "A public holiday in Trinidad and Tobago, Guyana, Fiji, and Mauritius; Leicester, England, holds a huge celebration",
+      "k": [
+        "trinidad",
+        "guyana",
+        "fiji",
+        "mauritius",
+        "leicester"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which festival of lights?",
+    "body": "Hanukkah, the Jewish holiday, is also called the Festival of Lights, so real Diwali answer lines only prompt on “festival of lights” until the nickname is read. Diwali also gets mixed up with other Hindu festivals: Holi is the spring festival of colors, while Navaratri and Dussehra come a few weeks before Diwali. Sikhs celebrate Bandi Chhor Divas on the same day, but that is its own answer.",
+    "fix": "Hanukkah clues: a menorah, eight nights, the Maccabees, and dreidels. Diwali clues: diyas, rangoli, Lakshmi, Rama’s return to Ayodhya, and the month of Kartika. If you are prompted after saying “festival of lights,” name the holiday: Diwali.",
+    "line": "Real answer line: <b><u>Diwali</u></b> (accept <u>Divali</u>; accept <u>Deepavali</u>; prompt on “Festival of Lights” before it is read)"
+  },
+  "freq": {
+    "rank": 14,
+    "count": 4,
+    "list": "Religion"
+  }
+}

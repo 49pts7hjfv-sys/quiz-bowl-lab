@@ -1,0 +1,371 @@
+{
+  "id": "albert-einstein",
+  "name": "Albert Einstein",
+  "mono": "AE",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Physicist behind relativity · Rethought space, time, and gravity",
+  "dates": "1879–1955",
+  "briefing": "Albert Einstein was a German-born physicist whose theories of special and general relativity reshaped how scientists understand space, time, and gravity. His equation E = mc² showed that mass and energy are really the same thing, and his explanation of the photoelectric effect won him the 1921 Nobel Prize. He later emigrated to the United States and spent his final decades at Princeton.",
+  "answerHtml": "<b><u>Albert Einstein</u></b> (accept <u>Einstein</u>)",
+  "accept": [
+    "albert einstein",
+    "einstein"
+  ],
+  "prompt": [],
+  "reject": [
+    "isaac newton",
+    "stephen hawking"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Albert Einstein: Nobel Prize Winner & Physicist | Mini Bio",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=KyjQJBDD5V4",
+      "note": "Mini Bio · a quick overview of his whole life"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Einstein’s miracle year - Larry Lagerstrom",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=91XI7M9l3no",
+      "note": "Animated lesson · the amazing papers he published in 1905"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Special Relativity: Crash Course Physics #42",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=AInCqm5nCzw",
+      "note": "His special theory of relativity, explained (fast-paced, older end)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "What Everyone Gets Wrong About Gravity",
+      "source": "Veritasium",
+      "url": "https://www.youtube.com/watch?v=XRr1kaXKBsU",
+      "note": "His general relativity: gravity as curved spacetime, not a pull (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Albert Einstein: Genius Inventor and Scientist",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/albert_einstein.php",
+      "note": "Quick read: relativity, E = mc², photons and his 1921 Nobel Prize, plus fun facts"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Albert_Einstein",
+  "qb": {
+    "q": "Einstein",
+    "found": 8,
+    "tip": "All 8 hits were genuinely about him, spanning relativity, the photoelectric effect, Brownian motion, and the EPR paradox; none had to be thrown out as off-topic."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "With mathematician David Hilbert, this man is sometimes credited for an “action” underlying a tensor-notated set of ten field equations. In 1935, this man and Nathan Rosen used those equations to predict what are now called wormholes.",
+      "r": "This man later called his own cosmological constant, added to keep the universe static, his “biggest blunder.” For 10 points, name this German-born physicist who developed the theories of special and general relativity."
+    },
+    {
+      "p": "This man’s name is alphabetically first in a famous paradox describing quantum entanglement, which he dismissively called “spooky action at a distance.” Independently of Marian Smoluchowski [“smoh-loo-KOF-skee”], this man derived an equation relating a particle’s diffusion constant to its mobility and temperature.",
+      "r": "In 1905, a year historians call his “annus mirabilis,” this man explained the photoelectric effect by proposing that light comes in discrete packets. For 10 points, name this physicist who won the 1921 Nobel Prize and formulated E equals m c squared."
+    },
+    {
+      "p": "This man’s equivalence principle holds that inertial mass and gravitational mass are one and the same quantity. In his theory, objects with no forces acting on them travel along geodesic curves through curved spacetime.",
+      "r": "A 1919 solar eclipse confirmed one of this man’s predictions by showing that starlight bends around the Sun. For 10 points, name this physicist whose theory of general relativity describes gravity itself as curved spacetime."
+    },
+    {
+      "p": "One of this man’s papers described stimulated emission using coefficients now labeled A and B, laying groundwork for the laser. This man’s own field equations include a term called the cosmological constant, which he introduced to allow for a static universe.",
+      "r": "This man’s work explaining the photoelectric effect, not his more famous work on relativity, won him the 1921 Nobel Prize in Physics. For 10 points, name this theorist behind the equation E equals m c squared."
+    },
+    {
+      "p": "This man used his own field equations, solved together with physicist Nathan Rosen, to describe a theoretical bridge between two points in spacetime now called a wormhole. His explanation for the precession of Mercury’s orbit was an early triumph of his general theory.",
+      "r": "Rings formed when galaxy clusters bend light, a phenomenon called lensing, are named for this man. For 10 points, name this physicist who called his cosmological constant his “biggest blunder.”"
+    },
+    {
+      "p": "One of this man’s theories predicts that fast-moving objects shrink and fast-moving clocks run slow, the effect at the heart of the “twin paradox.” A second theory by this man holds that space and time bend in the presence of matter and energy.",
+      "r": "This man’s best-known equation relates energy, mass, and the speed of light as E equals m c squared. For 10 points, name this physicist who developed the special and general theories of relativity."
+    },
+    {
+      "p": "This man proposed that light could be quantized into packets to explain the photoelectric effect, an idea he first floated in 1905, his “miracle year.” He also argued that the speed of light must stay constant in every reference frame.",
+      "r": "This German-born physicist eventually settled in the United States, taking a position at Princeton. For 10 points, name this theorist of special and general relativity and author of E equals m c squared."
+    },
+    {
+      "p": "Independently of Marian Smoluchowski [“smoh-loo-KOF-skee”], this man derived an equation connecting a particle’s diffusion constant to its mobility and the surrounding temperature, explaining the random jostling called Brownian motion. In a later theory, this man wrote ten namesake field equations to describe gravity.",
+      "r": "During his 1905 “annus mirabilis,” this man also predicted time dilation and length contraction. For 10 points, name this physicist famous for developing special and general relativity."
+    },
+    {
+      "p": "This man’s equivalence principle treats gravitational mass and inertial mass as identical. The metric tensor and a term called the cosmological constant both appear in a set of field equations this man wrote to describe gravity.",
+      "r": "A bending of starlight around the Sun, observed during a solar eclipse, confirmed one of this man’s key predictions. For 10 points, name this physicist behind the general and special theories of relativity."
+    },
+    {
+      "p": "This man’s field equations, which also follow from an action named for him and mathematician David Hilbert, use ten separate equations to describe how matter curves spacetime. A 1935 paper by this man and Nathan Rosen proposed what is now called a wormhole.",
+      "r": "For his explanation of the photoelectric effect, this man won the 1921 Nobel Prize in Physics. For 10 points, name this theorist behind E equals m c squared."
+    },
+    {
+      "p": "This man’s own equation for Brownian motion, also derived independently by Marian Smoluchowski [“smoh-loo-KOF-skee”], related a particle’s diffusion to its temperature and mobility. He later called the cosmological constant in his own field equations his “biggest blunder.”",
+      "r": "This man’s explanation of the photoelectric effect, published during his 1905 “miracle year,” won him the 1921 Nobel Prize. For 10 points, name this physicist who proposed the theories of special and general relativity."
+    },
+    {
+      "p": "In a 1935 paper, this man and Nathan Rosen solved this man’s own field equations to describe a theoretical bridge through spacetime. This man’s explanation for the slow drift of Mercury’s orbit around the Sun was an early confirmation of his general theory.",
+      "r": "This man’s equivalence principle treats gravitational and inertial mass as the same thing. For 10 points, name this physicist who described gravity as the curving of spacetime."
+    },
+    {
+      "p": "This man dismissed quantum entanglement as “spooky action at a distance” and, with two coauthors, names a paradox about it. Independently of Marian Smoluchowski [“smoh-loo-KOF-skee”], he also explained the random motion of particles suspended in a fluid.",
+      "r": "This man proposed that light travels in discrete quanta to explain the photoelectric effect, winning the 1921 Nobel Prize in Physics for that work. For 10 points, name this physicist who formulated E equals m c squared."
+    },
+    {
+      "p": "Derivable from an action named for him and David Hilbert, this man’s ten field equations describe how mass and energy curve spacetime. In this man’s theory, an object feels no force while following a geodesic path through that curved spacetime.",
+      "r": "This man introduced a cosmological constant to keep his model of the universe static, later calling it his “biggest blunder.” For 10 points, name this physicist, the formulator of general and special relativity."
+    },
+    {
+      "p": "This man’s prediction that starlight bends around the Sun was confirmed during a 1919 solar eclipse, the first direct evidence of gravitational lensing. He also proposed that time slows and length shrinks for objects moving near the speed of light.",
+      "r": "Born in Germany, this man later emigrated to the United States and worked in Princeton, New Jersey. For 10 points, name this physicist famous for E equals m c squared and the theories of relativity."
+    }
+  ],
+  "clues": [
+    {
+      "id": "emc2",
+      "tier": "giveaway",
+      "t": "Famous for the equation E equals m c squared, relating energy, mass, and the speed of light",
+      "k": [
+        "e equals m c squared",
+        "energy"
+      ],
+      "n": 6
+    },
+    {
+      "id": "nobel-photoelectric",
+      "tier": "giveaway",
+      "t": "Won the 1921 Nobel Prize in Physics for explaining the photoelectric effect",
+      "k": [
+        "nobel prize",
+        "photoelectric effect"
+      ],
+      "n": 3
+    },
+    {
+      "id": "relativity-both",
+      "tier": "giveaway",
+      "t": "Developed the special theory and the general theory of relativity",
+      "k": [
+        "special theory",
+        "general theory"
+      ],
+      "n": 5
+    },
+    {
+      "id": "emigration",
+      "tier": "giveaway",
+      "t": "Born in Germany, later emigrated to the United States and worked at the Institute for Advanced Study in Princeton, New Jersey",
+      "k": [
+        "emigrated",
+        "princeton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "annus-mirabilis",
+      "tier": "giveaway",
+      "t": "Published four groundbreaking papers in 1905, a year historians call his annus mirabilis",
+      "k": [
+        "annus mirabilis",
+        "groundbreaking papers"
+      ],
+      "n": 4
+    },
+    {
+      "id": "light-quanta",
+      "tier": "middle",
+      "t": "Explained the photoelectric effect by proposing that light arrives in discrete energy packets called quanta",
+      "k": [
+        "photoelectric effect",
+        "quanta"
+      ],
+      "n": 2
+    },
+    {
+      "id": "twin-paradox",
+      "tier": "middle",
+      "t": "Predicted time dilation, the basis of the famous twin paradox, and length contraction",
+      "k": [
+        "time dilation",
+        "twin paradox"
+      ],
+      "n": 2
+    },
+    {
+      "id": "curved-spacetime",
+      "tier": "middle",
+      "t": "His general theory of relativity describes gravity itself as the curving of spacetime",
+      "k": [
+        "curving of spacetime"
+      ],
+      "n": 2
+    },
+    {
+      "id": "eclipse-lensing",
+      "tier": "middle",
+      "t": "A 1919 solar eclipse confirmed his prediction that starlight bends around the Sun",
+      "k": [
+        "solar eclipse",
+        "bends"
+      ],
+      "n": 1
+    },
+    {
+      "id": "princeton-fdr-letter",
+      "tier": "middle",
+      "t": "A 1939 letter he signed warned President Franklin Roosevelt that Germany might build an atomic bomb",
+      "k": [
+        "franklin roosevelt",
+        "atomic bomb"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mercury-precession",
+      "tier": "middle",
+      "t": "His general theory also explained the slow precession of Mercury’s orbit around the Sun",
+      "k": [
+        "mercury",
+        "precession"
+      ],
+      "n": 1
+    },
+    {
+      "id": "epr-paradox",
+      "tier": "power",
+      "t": "His name comes alphabetically first in a paradox describing quantum entanglement, which he called spooky action at a distance",
+      "k": [
+        "quantum entanglement",
+        "spooky action"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wormholes",
+      "tier": "power",
+      "t": "Working with physicist Nathan Rosen, he solved his own field equations to describe a theoretical bridge through spacetime now called a wormhole",
+      "k": [
+        "nathan rosen",
+        "wormhole"
+      ],
+      "n": 1
+    },
+    {
+      "id": "brownian-motion",
+      "tier": "power",
+      "t": "Independently of Marian Smoluchowski, he derived an equation relating a particle’s diffusion constant to its mobility and temperature, explaining Brownian motion",
+      "k": [
+        "smoluchowski",
+        "brownian motion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stimulated-emission",
+      "tier": "power",
+      "t": "His work on stimulated emission introduced coefficients labeled A and B, later important to the development of the laser",
+      "k": [
+        "stimulated emission",
+        "laser"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cosmological-constant",
+      "tier": "power",
+      "t": "Added a cosmological constant to his own equations to allow for a static universe, later calling it his biggest blunder",
+      "k": [
+        "cosmological constant",
+        "biggest blunder"
+      ],
+      "n": 3
+    },
+    {
+      "id": "field-equations",
+      "tier": "power",
+      "t": "He wrote ten tensor-based field equations describing how matter curves spacetime, which follow from an action named for him and mathematician David Hilbert",
+      "k": [
+        "david hilbert",
+        "field equations"
+      ],
+      "n": 5
+    },
+    {
+      "id": "equivalence-principle",
+      "tier": "power",
+      "t": "His equivalence principle treats gravitational mass and inertial mass as one and the same quantity",
+      "k": [
+        "equivalence principle",
+        "inertial mass"
+      ],
+      "n": 1
+    },
+    {
+      "id": "geodesics",
+      "tier": "power",
+      "t": "In his theory, an object with no forces acting on it follows a geodesic path through curved spacetime",
+      "k": [
+        "geodesic path",
+        "no forces"
+      ],
+      "n": 1
+    },
+    {
+      "id": "speed-of-light-constant",
+      "tier": "power",
+      "t": "He proposed that the speed of light must remain constant in every reference frame, a key postulate of his special theory",
+      "k": [
+        "speed of light",
+        "reference frame"
+      ],
+      "n": 1
+    },
+    {
+      "id": "patent-clerk",
+      "tier": "power",
+      "t": "While working as a patent office clerk in Switzerland, he wrote the four papers of his 1905 annus mirabilis",
+      "k": [
+        "patent office",
+        "switzerland"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The man, or his theory/equation?",
+    "body": "Quizbowl also writes separate tossups whose answer is “relativity” itself, or “E = mc²,” rather than the person — if a question’s very last clue is a theory name or equation but everything before it was clearly biographical (birthplace, prizes, emigration), the question still wants the scientist’s name, not the theory.",
+    "fix": "Check whether the clues describe a life (born, prizes, moved somewhere) or describe only one idea in isolation; biographical clues mean the answer is the person.",
+    "line": "Real answer line: <b><u>Albert Einstein</u></b> (accept Einstein)"
+  },
+  "tests": {
+    "right": [
+      "Albert Einstein",
+      "Einstein",
+      "Albrt Einstein",
+      "einstein"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Isaac Newton",
+      "Stephen Hawking",
+      "Nikola Tesla",
+      "Marie Curie"
+    ]
+  },
+  "freq": {
+    "rank": 3,
+    "count": 12,
+    "list": "Physics"
+  }
+}

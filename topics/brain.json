@@ -1,0 +1,393 @@
+{
+  "id": "brain",
+  "name": "Brain",
+  "mono": "BRN",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Body’s command center · Runs thought, movement, and the senses",
+  "dates": "Made up of roughly 86 billion neurons",
+  "briefing": "Packed inside the skull and cushioned by three thin membranes, this wrinkled organ runs everything from breathing to breakdancing. Its outer layer folds into four lobes that handle vision, movement, language, and more, while a deeper stem quietly manages automatic jobs like breathing and heartbeat. Though it is only about 2 percent of body weight, it burns roughly a fifth of the body’s energy.",
+  "answerHtml": "<b><u>Brain</u></b> (prompt on <u>nervous system</u> or <u>central nervous system</u>; do not accept “neurons,” “cerebrum,” or “concussion”)",
+  "accept": [
+    "brain",
+    "human brain"
+  ],
+  "prompt": [
+    "nervous system",
+    "central nervous system",
+    "cns"
+  ],
+  "reject": [
+    "neurons",
+    "neuron",
+    "spinal cord",
+    "brainstem",
+    "cerebrum",
+    "cerebellum",
+    "concussion",
+    "concussions",
+    "skull",
+    "cranium",
+    "mind",
+    "memory"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Brilliant Brain Facts",
+      "source": "Operation Ouch",
+      "url": "https://www.youtube.com/watch?v=hbEUs21H5j8",
+      "note": "Kids’ TV doctors rattle off fun facts about the brain"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Body Parts: The Human Brain | Experiments for Kids",
+      "source": "Operation Ouch",
+      "url": "https://www.youtube.com/watch?v=4Dcj6nYcbLI",
+      "note": "Kids’ TV doctors use experiments to show what the brain does"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Brilliant Brains: The Nervous System | Experiments for Kids",
+      "source": "Operation Ouch",
+      "url": "https://www.youtube.com/watch?v=GUCcsMmZVec",
+      "note": "How the brain and nerves send messages around the body"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Meet Your Master - Getting to Know Your Brain: Crash Course Psychology #4",
+      "source": "Crash Course Psychology",
+      "url": "https://www.youtube.com/watch?v=vHrmiy4W9C0",
+      "note": "Tour of the brain’s parts, from the brain stem to the cerebral cortex’s lobes (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Your Brain & Nervous System (for Kids)",
+      "source": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/brain.html",
+      "note": "Quick read: cerebrum, cerebellum, brain stem, and the rest of the nervous system"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Human_brain",
+  "qb": {
+    "q": "brain",
+    "found": 7,
+    "tip": "One of the 7 results (a 2015 SCOP Novice tossup) is actually about concussions, a related but different answer line — excluded from the sample and added to this topic’s reject list instead."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 of the 7 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked); the 7th was really about concussions and was set aside"
+  },
+  "tossups": [
+    {
+      "p": "A bundle of fibers called the arcuate fasciculus connects two specialized language areas in this organ, one of which French physician Paul Broca identified by studying a patient nicknamed “Tan.” The other, Wernicke’s area, handles language comprehension rather than production.",
+      "r": "Areas named for Broca and Wernicke sit among this organ’s four lobes: frontal, parietal, temporal, and occipital. For 10 points, name this organ that interprets the senses, directs movement, and produces thought."
+    },
+    {
+      "p": "An 1848 railroad accident drove an iron rod through the skull of Phineas Gage, damaging part of this organ and dramatically altering his personality, which taught early scientists about its different regions. The amygdala, part of this organ’s limbic system, helps process emotions like fear.",
+      "r": "Housed safely inside the skull, this organ coordinates nearly everything the body does. For 10 points, name this organ responsible for thought, movement, and the senses."
+    },
+    {
+      "p": "A lobotomy severs connections in this organ’s prefrontal cortex, a procedure once wrongly used to treat mental illness. Automatic jobs like breathing and heart rate are managed lower down, where this organ’s stem meets the spinal cord.",
+      "r": "This organ is made up of the cerebrum and the cerebellum, along with that lower stem. For 10 points, name this organ that controls the body from inside the skull."
+    },
+    {
+      "p": "An obsolete, excruciatingly painful X-ray procedure known as PEG involved draining fluid from around this organ to sharpen its image. Three thin protective membranes called the meninges wrap around it just beneath the skull.",
+      "r": "Housed inside the skull and divided into four lobes, this organ interprets signals from the nervous system. For 10 points, name this organ responsible for thinking and movement."
+    },
+    {
+      "p": "Roughly 86 billion neurons are packed into this organ, communicating across trillions of connections. A cushioning fluid called cerebrospinal fluid surrounds it, protecting it from shock and carrying away waste.",
+      "r": "For 10 points, name this organ, housed inside the skull, that interprets the senses and directs the body’s movements."
+    },
+    {
+      "p": "Supporting cells called glia, including ones that wrap neurons in insulating myelin, fill much of this organ’s tissue alongside its neurons. Its wrinkled outer surface is covered in grooves called sulci and ridges called gyri.",
+      "r": "This organ is made up of the cerebrum and cerebellum. For 10 points, name this organ that controls thought and movement from inside the skull."
+    },
+    {
+      "p": "Despite making up only about 2 percent of body weight, this organ burns roughly a fifth of the body’s total energy at rest. A structure named for its resemblance to a seahorse, the hippocampus, helps this organ turn short-term experiences into lasting memories.",
+      "r": "Four lobes named frontal, parietal, temporal, and occipital divide this organ. For 10 points, name this organ that controls the body from inside the skull."
+    },
+    {
+      "p": "A protective barrier tightly controls which substances can pass from the bloodstream into this organ’s tissue. The corpus callosum, a thick bundle of nerve fibers, connects this organ’s left and right halves.",
+      "r": "Tucked safely inside the skull, this organ directs the body’s movements and interprets its senses. For 10 points, name this organ responsible for thought."
+    },
+    {
+      "p": "Specialized areas named for scientists Broca and Wernicke, linked by the arcuate fasciculus, let this organ produce and understand language. Lower down, this organ’s stem quietly manages automatic functions like breathing.",
+      "r": "Divided into frontal, parietal, temporal, and occipital lobes, this organ interprets the senses. For 10 points, name this organ that runs the body from inside the skull."
+    },
+    {
+      "p": "Damage to part of this organ in the famous 1848 case of railroad worker Phineas Gage revealed how different regions control different aspects of personality. The amygdala, tucked within this organ’s limbic system, helps it process fear and other emotions.",
+      "r": "This organ is made up of the cerebrum and the cerebellum. For 10 points, name this organ that directs thought and movement from inside the skull."
+    },
+    {
+      "p": "A once-common but deeply harmful surgery called a lobotomy cut connections in this organ’s prefrontal cortex to treat mental illness. Its wrinkled surface folds into ridges called gyri and grooves called sulci to pack in more tissue.",
+      "r": "Protected inside the skull, this organ interprets the body’s senses. For 10 points, name this organ that directs movement and produces thought."
+    },
+    {
+      "p": "Doctors once used a painful procedure called PEG, which drained fluid from around this organ, to make its structure show up more clearly on X-rays. The hippocampus, named for its resemblance to a seahorse, helps this organ store new memories.",
+      "r": "Four lobes named frontal, parietal, temporal, and occipital make up most of this organ. For 10 points, name this organ that runs the body from inside the skull."
+    },
+    {
+      "p": "This organ contains roughly 86 billion neurons, each one capable of forming thousands of connections with others. Three thin membranes called the meninges cushion and protect it just inside the skull.",
+      "r": "For 10 points, name this organ, made up of the cerebrum, cerebellum, and stem, that controls the body."
+    },
+    {
+      "p": "Glial cells support and insulate the neurons of this organ, including some that wrap them in a fatty coating called myelin. A cushioning liquid, cerebrospinal fluid, bathes this organ and helps carry away waste.",
+      "r": "Tucked inside the skull and made up of the cerebrum and cerebellum, this organ interprets the senses. For 10 points, name this organ that produces thought and directs movement."
+    },
+    {
+      "p": "This organ burns about a fifth of the body’s energy despite its modest size, and a selective barrier tightly limits which substances can cross into it from the bloodstream. The corpus callosum links its two halves together.",
+      "r": "Divided into frontal, parietal, temporal, and occipital lobes, this organ sits safely inside the skull. For 10 points, name this organ that directs the body’s thought and movement."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Main organ of the nervous system; interprets the senses, directs movement, and produces thought",
+      "k": [
+        "interprets senses",
+        "directs movement"
+      ],
+      "n": 6
+    },
+    {
+      "id": "four-lobes",
+      "tier": "giveaway",
+      "t": "Divided into four lobes: frontal, parietal, temporal, and occipital",
+      "k": [
+        "frontal",
+        "parietal",
+        "temporal",
+        "occipital"
+      ],
+      "n": 4
+    },
+    {
+      "id": "skull",
+      "tier": "giveaway",
+      "t": "Housed and protected inside the skull",
+      "k": [
+        "skull",
+        "housed inside"
+      ],
+      "n": 4
+    },
+    {
+      "id": "cerebrum-cerebellum",
+      "tier": "giveaway",
+      "t": "Made up of the cerebrum and the cerebellum, plus a lower stem",
+      "k": [
+        "cerebrum",
+        "cerebellum"
+      ],
+      "n": 2
+    },
+    {
+      "id": "corpus-callosum",
+      "tier": "middle",
+      "t": "The corpus callosum, a thick bundle of nerve fibers, connects its left and right halves",
+      "k": [
+        "corpus callosum",
+        "left and right halves"
+      ],
+      "n": 2
+    },
+    {
+      "id": "meninges",
+      "tier": "middle",
+      "t": "Wrapped in three thin protective membranes called the meninges",
+      "k": [
+        "meninges",
+        "three membranes"
+      ],
+      "n": 1
+    },
+    {
+      "id": "csf",
+      "tier": "middle",
+      "t": "Cushioned by cerebrospinal fluid, which also helps carry away waste",
+      "k": [
+        "cerebrospinal fluid",
+        "cushioned"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stem",
+      "tier": "middle",
+      "t": "Its lower stem, which includes the medulla oblongata and pons, manages automatic functions like breathing",
+      "k": [
+        "medulla oblongata",
+        "pons",
+        "automatic functions"
+      ],
+      "n": 4
+    },
+    {
+      "id": "broca-wernicke",
+      "tier": "middle",
+      "t": "Specialized areas named for Broca and Wernicke handle producing and understanding language",
+      "k": [
+        "broca",
+        "wernicke",
+        "language"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sulci-gyri",
+      "tier": "middle",
+      "t": "Its wrinkled outer surface has grooves called sulci and ridges called gyri",
+      "k": [
+        "sulci",
+        "gyri",
+        "wrinkled"
+      ],
+      "n": 1
+    },
+    {
+      "id": "amygdala",
+      "tier": "middle",
+      "t": "The amygdala, part of its limbic system, helps process emotions like fear",
+      "k": [
+        "amygdala",
+        "limbic system"
+      ],
+      "n": 2
+    },
+    {
+      "id": "hippocampus",
+      "tier": "middle",
+      "t": "The hippocampus, named for its resemblance to a seahorse, helps turn experiences into lasting memories",
+      "k": [
+        "hippocampus",
+        "seahorse"
+      ],
+      "n": 2
+    },
+    {
+      "id": "arcuate-fasciculus",
+      "tier": "power",
+      "t": "The arcuate fasciculus is a bundle of fibers connecting Broca’s and Wernicke’s language areas",
+      "k": [
+        "arcuate fasciculus"
+      ],
+      "n": 1
+    },
+    {
+      "id": "patient-tan",
+      "tier": "power",
+      "t": "French physician Paul Broca identified his namesake language area by studying a patient nicknamed “Tan”",
+      "k": [
+        "paul broca",
+        "patient tan"
+      ],
+      "n": 1
+    },
+    {
+      "id": "phineas-gage",
+      "tier": "power",
+      "t": "An 1848 railroad accident drove an iron rod through the skull of Phineas Gage, revealing how damage here can change personality",
+      "k": [
+        "phineas gage",
+        "railroad accident"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lobotomy",
+      "tier": "power",
+      "t": "A lobotomy severs connections in its prefrontal cortex, a procedure once wrongly used to treat mental illness",
+      "k": [
+        "lobotomy",
+        "prefrontal cortex"
+      ],
+      "n": 1
+    },
+    {
+      "id": "peg",
+      "tier": "power",
+      "t": "A painful, obsolete X-ray procedure called PEG involved draining fluid from around it to sharpen the image",
+      "k": [
+        "peg",
+        "x-ray procedure"
+      ],
+      "n": 1
+    },
+    {
+      "id": "neuron-count",
+      "tier": "power",
+      "t": "Contains roughly 86 billion neurons, each capable of forming thousands of connections",
+      "k": [
+        "86 billion neurons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glial-cells",
+      "tier": "power",
+      "t": "Supporting glial cells, including ones that wrap neurons in insulating myelin, fill much of its tissue",
+      "k": [
+        "glial cells",
+        "myelin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "energy-use",
+      "tier": "power",
+      "t": "Burns roughly a fifth of the body’s energy despite being only about 2 percent of its weight",
+      "k": [
+        "a fifth",
+        "2 percent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "protective-barrier",
+      "tier": "power",
+      "t": "A protective barrier tightly controls which substances can pass into it from the bloodstream",
+      "k": [
+        "protective barrier",
+        "bloodstream"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The organ, or an injury?",
+    "body": "A concussion (a mild traumatic injury to this organ) is a real, separate QBReader answer line — one sample tossup about concussions and chronic traumatic encephalopathy (CTE) came up in the same search but is a different, more specific answer, not this organ itself. Likewise, “neurons” are only this organ’s building-block cells, and “cerebrum” or “cerebellum” are only parts of it, not the whole organ.",
+    "fix": "If the clues describe an injury, a symptom, or one specific part (a lobe, the cerebrum, a named area), wait for a clue true of the whole organ — “interprets the senses,” “directs movement,” its four lobes together — before buzzing.",
+    "line": "Real answer line: <b><u>Brain</u></b> (prompt on nervous system or central nervous system; do not accept neurons, cerebrum, cerebellum, or concussion)"
+  },
+  "tests": {
+    "right": [
+      "Brain",
+      "Brains",
+      "Human Brain",
+      "Brai"
+    ],
+    "prompt": [
+      "Nervous System",
+      "Central Nervous System"
+    ],
+    "wrong": [
+      "Neurons",
+      "Cerebrum",
+      "Cerebellum",
+      "Spinal Cord",
+      "Concussion"
+    ]
+  },
+  "freq": {
+    "rank": 4,
+    "count": 8,
+    "list": "Biology"
+  }
+}

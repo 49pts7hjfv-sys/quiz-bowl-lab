@@ -1,0 +1,462 @@
+{
+  "id": "elizabeth-i",
+  "name": "Elizabeth I",
+  "mono": "EI",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "England’s Tudor “Virgin Queen” · Her navy beat the Spanish Armada",
+  "dates": "1533–1603",
+  "briefing": "Elizabeth I was Henry VIII’s daughter, but she only reached the English throne because her younger half-brother Edward VI and older half-sister Mary I both died without children. Her 44-year reign became known as the Elizabethan Era, a golden age of Shakespeare’s plays and English voyages at sea, though she famously never married or named an heir. When Spain’s King Philip II sent his “Invincible” Armada to invade England in 1588, storms and the English navy sent it home defeated instead.",
+  "answerHtml": "<b><u>Elizabeth I</u></b> (prompt on <u>Elizabeth</u>; do not accept “Elizabeth II”)",
+  "accept": [
+    "elizabeth i",
+    "elizabeth the first",
+    "elizabeth 1",
+    "elizabeth tudor",
+    "elizabeth i of england",
+    "elizabeth i tudor",
+    "queen elizabeth i",
+    "good queen bess"
+  ],
+  "prompt": [
+    "elizabeth",
+    "queen elizabeth",
+    "bess"
+  ],
+  "reject": [
+    "elizabeth ii",
+    "elizabeth the second",
+    "elizabeth 2",
+    "queen elizabeth ii",
+    "henry viii",
+    "henry the eighth",
+    "mary i",
+    "mary tudor",
+    "bloody mary",
+    "edward vi",
+    "edward the sixth",
+    "anne boleyn",
+    "catherine of aragon",
+    "mary queen of scots",
+    "mary stuart",
+    "mary of scotland",
+    "philip ii",
+    "philip ii of spain",
+    "james i",
+    "james vi",
+    "queen victoria",
+    "catherine the great"
+  ],
+  "tests": {
+    "right": [
+      "Elizabeth I",
+      "Elizebeth I",
+      "Queen Elizabeth I",
+      "Elizabeth the First",
+      "Elizabeth 1"
+    ],
+    "prompt": [
+      "Elizabeth",
+      "Queen Elizabeth"
+    ],
+    "wrong": [
+      "Elizabeth II",
+      "Mary I",
+      "Henry VIII",
+      "Edward VI",
+      "Mary Queen of Scots"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Historical Desktop: Elizabeth I | Terrible Tudors | Horrible Histories",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=3C4EuTtnwpE",
+      "note": "Short · a quick, funny official Horrible Histories take on her reign"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Elizabeth I - Queen of England & Last Monarch of the House of Tudor | Mini Bio",
+      "source": "Biography",
+      "url": "https://www.youtube.com/watch?v=cDg9AoJYxeY",
+      "note": "Short · quick life story: the Virgin Queen and her Tudor family"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Spanish Armada vs. The Royal Navy of Elizabeth I",
+      "source": "World History Encyclopedia",
+      "url": "https://www.youtube.com/watch?v=KMVORli6lxA",
+      "note": "How her navy and the weather beat Spain’s “Invincible” fleet in 1588"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Elizabeth I & The Spanish Armada: A Short Documentary",
+      "source": "ElleHistory",
+      "url": "https://www.youtube.com/watch?v=eJiJkCDIiXs",
+      "note": "Short documentary focused on the Armada campaign itself"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Elizabeth I facts",
+      "source": "National Geographic Kids",
+      "url": "https://www.natgeokids.com/uk/discover/history/monarchy/elizabeth-i-facts/",
+      "note": "Quick facts on the Virgin Queen and her reign"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Elizabeth_I",
+  "qb": {
+    "q": "Elizabeth I",
+    "found": 8,
+    "tip": "All 8 results are squarely this queen; most prompt on bare “Elizabeth,” and one explicitly says do not accept “Elizabeth II” — that mix-up is the Buzzer Trap below. One 2021 result’s own answer line is just “Elizabeth,” mixing in a clue about the current queen, so skip it if you search again."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Coded letters smuggled in beer barrels exposed the Babington Plot, a scheme to assassinate this monarch that her spymaster Francis Walsingham had been secretly tracking for months. In a speech before her troops, this monarch famously declared she had “the body of a weak and feeble woman” but “the heart and stomach of a king.”",
+      "r": "She gave that speech at Tilbury while England still feared invasion by Spain’s “Invincible” Armada. For 10 points, name this English queen, the daughter of Henry VIII, known as the “Virgin Queen.”"
+    },
+    {
+      "p": "This monarch’s principal secretary, William Cecil, Lord Burghley, guided most of her foreign policy, while her spymaster Francis Walsingham foiled the Throckmorton and Babington Plots against her. This monarch’s navy, aided by commanders like Francis Drake, defeated an invasion fleet sent by Spain’s King Philip II in 1588.",
+      "r": "She died childless in 1603, ending the Tudor line and passing the crown to James Stuart. For 10 points, name this final Tudor monarch of England, half-sister of Mary I."
+    },
+    {
+      "p": "Pope Pius V excommunicated this monarch in 1570, encouraging Catholic plots to replace her with her cousin and prisoner, Mary, Queen of Scots. This monarch finally signed the execution warrant for that rival royal in 1587, despite years of hesitation.",
+      "r": "She never named an heir of her own, having refused every suitor who proposed marriage. For 10 points, name this unmarried English queen nicknamed the “Virgin Queen.”"
+    },
+    {
+      "p": "Robert Cecil had to prepare in secret for this monarch’s death because she refused to name a successor. Early in her reign, this monarch reversed her half-sister’s Catholic restoration by passing a new Act of Supremacy in 1559.",
+      "r": "That act made her Supreme Governor of the Church of England. For 10 points, name this Tudor queen, daughter of Henry VIII, who defeated the Spanish Armada in 1588."
+    },
+    {
+      "p": "A victory at the Battle of Gravelines [“GRAV-uh-leen”] let this monarch’s navy and a timely storm scatter a huge invasion fleet in 1588. Plots against this monarch included the Ridolfi conspiracy and the Throckmorton conspiracy, the latter uncovered by her spymaster, Francis Walsingham.",
+      "r": "Catholic conspirators wanted to replace her with her own prisoner and cousin, Mary, Queen of Scots. For 10 points, name this Tudor monarch, a daughter of Henry VIII known as the “Virgin Queen.”"
+    },
+    {
+      "p": "This monarch signed the Treaty of Nonsuch to send English troops under Robert Dudley to aid Dutch rebels fighting Spain. She later ordered the execution of Mary, Queen of Scots for her role in the Babington Plot, a conspiracy aimed at this monarch’s own life.",
+      "r": "This monarch was succeeded by Mary’s son, James I, the first Stuart king of England. For 10 points, name this Tudor queen, daughter of Anne Boleyn, nicknamed the “Virgin Queen.”"
+    },
+    {
+      "p": "This monarch sent her favorite, Robert Dudley, to help Dutch forces resist Spain’s Duke of Parma, and later had her own former favorite, the Earl of Essex, executed for leading a failed rebellion. Under this monarch, the Thirty-Nine Articles officially defined the Church of England’s Protestant beliefs.",
+      "r": "Francis Drake helped defeat Spain’s Armada in 1588 for this daughter of Anne Boleyn. For 10 points, name this last monarch of the Tudor dynasty, nicknamed the “Virgin Queen.”"
+    },
+    {
+      "p": "This monarch faced Tyrone’s Rebellion in Ireland late in her reign, even as her government battled Spain at sea for years. Among this monarch’s advisors was Robert Cecil, while her court favorites included the dashing Robert Dudley.",
+      "r": "Francis Drake helped this ruler defeat a fleet nicknamed “Invincible” off the English coast in 1588. For 10 points, name this queen, a daughter of Anne Boleyn who ruled England for 44 years."
+    },
+    {
+      "p": "Playwrights William Shakespeare and Christopher Marlowe both wrote during this monarch’s reign, a cultural golden age now named for her. Sir Walter Raleigh named a North American colony “Virginia” in this unmarried monarch’s honor, hoping to flatter her with a nod to her most famous nickname.",
+      "r": "That colony, founded on Roanoke Island, mysteriously disappeared a few years later. For 10 points, name this English queen whose 44-year reign is called the Elizabethan Era."
+    },
+    {
+      "p": "Edmund Spenser dedicated his epic poem _The Faerie Queene_ to this monarch, allegorizing her as the title character. Painters produced several famous portraits of this ruler, including one showing her hand resting on a globe to celebrate her navy’s 1588 victory over Spain.",
+      "r": "That victory came against the Spanish Armada sent by King Philip II. For 10 points, name this English queen, daughter of Henry VIII, whose reign is called a golden age for English literature."
+    },
+    {
+      "p": "This monarch’s mother was executed on her father’s orders when this future ruler was only two years old, and she was declared illegitimate soon after. Despite that rocky start, she survived imprisonment in the Tower of London under her half-sister’s reign before finally taking the throne in 1558.",
+      "r": "She ruled for the next 44 years without ever marrying. For 10 points, name this daughter of Anne Boleyn and Henry VIII, nicknamed the “Virgin Queen.”"
+    },
+    {
+      "p": "In 1588, this monarch addressed her assembled troops at Tilbury while England still feared a Spanish invasion, delivering one of the most quoted speeches in English history. She told her soldiers she had come among them not for recreation, but resolved to live and die among them all.",
+      "r": "By then, the Royal Navy and storms were already scattering Spain’s “Invincible” Armada. For 10 points, name this Tudor queen who ruled England from 1558 to 1603."
+    },
+    {
+      "p": "This monarch’s government passed the Thirty-Nine Articles, permanently establishing a moderate Protestant settlement for the English church. Decades later, she had the Earl of Essex, once a favorite courtier, executed after he led a failed uprising against her in London.",
+      "r": "Essex had previously commanded failed military campaigns in Ireland on her behalf. For 10 points, name this queen, a daughter of Anne Boleyn who never married."
+    },
+    {
+      "p": "This monarch’s government drew up detailed plans to defend the English coastline with a chain of warning beacons, ready to light if Spanish ships were sighted. Her cousin Mary, Queen of Scots, had already been executed the year before for plotting against her in the Babington conspiracy.",
+      "r": "Those beacons were lit when the Armada was sighted, but the Royal Navy and bad weather stopped any invasion. For 10 points, name this queen who ruled England during that 1588 victory."
+    },
+    {
+      "p": "Historians often call this monarch’s 44-year reign a golden age, pointing to English exploration, a flourishing of drama and poetry, and a newly confident Protestant Church of England. She balanced Catholic and Protestant factions at home while facing down the most powerful Catholic empire in Europe abroad.",
+      "r": "Her famous victory over the Spanish Armada in 1588 became the defining moment of her reign. For 10 points, name this last Tudor monarch, daughter of Henry VIII and Anne Boleyn."
+    }
+  ],
+  "clues": [
+    {
+      "id": "daughter-of-henry",
+      "tier": "giveaway",
+      "t": "Daughter of King Henry VIII and his second wife, Anne Boleyn",
+      "k": [
+        "henry viii",
+        "anne boleyn"
+      ],
+      "n": 4,
+      "rabbit": "Henry VIII"
+    },
+    {
+      "id": "virgin-queen",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Virgin Queen” because she never married",
+      "k": [
+        "virgin queen",
+        "never married"
+      ],
+      "n": 6
+    },
+    {
+      "id": "spanish-armada",
+      "tier": "giveaway",
+      "t": "Her navy defeated Spain’s “Invincible” Armada in 1588",
+      "k": [
+        "invincible",
+        "1588",
+        "armada"
+      ],
+      "n": 8
+    },
+    {
+      "id": "last-tudor",
+      "tier": "giveaway",
+      "t": "Last monarch of the Tudor dynasty; succeeded by James I, the first Stuart king",
+      "k": [
+        "james i",
+        "stuart",
+        "tudor dynasty"
+      ],
+      "n": 2
+    },
+    {
+      "id": "elizabethan-era",
+      "tier": "giveaway",
+      "t": "Her 44-year reign (1558–1603) is called the Elizabethan Era, a golden age for English drama",
+      "k": [
+        "elizabethan era",
+        "44 year"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tilbury-speech",
+      "tier": "middle",
+      "t": "Gave the Tilbury Speech before her troops, claiming the “heart and stomach” of a king",
+      "k": [
+        "tilbury",
+        "heart and stomach"
+      ],
+      "n": 5
+    },
+    {
+      "id": "francis-drake",
+      "tier": "middle",
+      "t": "Relied on Sir Francis Drake and the Royal Navy to help scatter the Armada",
+      "k": [
+        "francis drake",
+        "royal navy"
+      ],
+      "n": 6,
+      "rabbit": "Francis Drake"
+    },
+    {
+      "id": "walsingham",
+      "tier": "middle",
+      "t": "Spymaster Sir Francis Walsingham uncovered plots against her life",
+      "k": [
+        "walsingham",
+        "spymaster"
+      ],
+      "n": 3
+    },
+    {
+      "id": "babington-plot",
+      "tier": "middle",
+      "t": "The Babington Plot (1586), a Catholic conspiracy using coded letters, targeted her life",
+      "k": [
+        "babington plot",
+        "coded letters"
+      ],
+      "n": 3
+    },
+    {
+      "id": "mary-queen-of-scots",
+      "tier": "middle",
+      "t": "Signed the execution warrant for her cousin and rival, Mary, Queen of Scots, in 1587",
+      "k": [
+        "execution warrant",
+        "mary queen of scots"
+      ],
+      "n": 3,
+      "rabbit": "Mary, Queen of Scots"
+    },
+    {
+      "id": "act-of-supremacy",
+      "tier": "middle",
+      "t": "Her 1559 Act of Supremacy restored royal control over the Church of England",
+      "k": [
+        "act of supremacy",
+        "1559"
+      ],
+      "n": 2
+    },
+    {
+      "id": "sister-of-mary",
+      "tier": "middle",
+      "t": "Succeeded her half-sister, Mary I, who had restored Catholicism",
+      "k": [
+        "half sister",
+        "restored catholicism"
+      ],
+      "n": 2
+    },
+    {
+      "id": "essex-executed",
+      "tier": "middle",
+      "t": "Had her former favorite, the Earl of Essex, executed after his failed 1601 rebellion",
+      "k": [
+        "earl of essex",
+        "rebellion"
+      ],
+      "n": 1
+    },
+    {
+      "id": "philip-ii",
+      "tier": "middle",
+      "t": "Spain’s King Philip II, her former brother-in-law, sent the Armada to invade her kingdom",
+      "k": [
+        "philip ii",
+        "spains king"
+      ],
+      "n": 4,
+      "rabbit": "Philip II"
+    },
+    {
+      "id": "burghley",
+      "tier": "power",
+      "t": "Longtime chief advisor William Cecil, Lord Burghley, guided most of her government",
+      "k": [
+        "william cecil",
+        "burghley"
+      ],
+      "n": 1
+    },
+    {
+      "id": "robert-cecil",
+      "tier": "power",
+      "t": "Burghley’s son, Robert Cecil, secretly prepared for the succession since she refused to name an heir",
+      "k": [
+        "robert cecil",
+        "refused to name"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ridolfi-throckmorton",
+      "tier": "power",
+      "t": "The Ridolfi and Throckmorton Plots were earlier Catholic conspiracies that her government foiled",
+      "k": [
+        "ridolfi",
+        "throckmorton"
+      ],
+      "n": 2
+    },
+    {
+      "id": "excommunicated",
+      "tier": "power",
+      "t": "Pope Pius V excommunicated her in 1570, encouraging Catholics to see her overthrow as righteous",
+      "k": [
+        "pope pius v",
+        "excommunicated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gravelines",
+      "tier": "power",
+      "t": "The Battle of Gravelines broke up the Armada’s formation before storms wrecked much of the fleet",
+      "k": [
+        "gravelines"
+      ],
+      "n": 1
+    },
+    {
+      "id": "robert-dudley",
+      "tier": "power",
+      "t": "Favorite courtier Robert Dudley led English troops sent to help Dutch rebels fight Spain",
+      "k": [
+        "robert dudley",
+        "dutch rebels"
+      ],
+      "n": 2,
+      "rabbit": "Robert Dudley"
+    },
+    {
+      "id": "nonsuch",
+      "tier": "power",
+      "t": "The Treaty of Nonsuch (1585) committed her to support the Dutch revolt against Spain",
+      "k": [
+        "treaty of nonsuch",
+        "dutch revolt"
+      ],
+      "n": 1
+    },
+    {
+      "id": "thirty-nine-articles",
+      "tier": "power",
+      "t": "The Thirty-Nine Articles (1563) defined Protestant doctrine for the Church of England under her",
+      "k": [
+        "thirty nine articles"
+      ],
+      "n": 1
+    },
+    {
+      "id": "tyrone-rebellion",
+      "tier": "power",
+      "t": "Late in her reign, she faced Tyrone’s Rebellion in Ireland",
+      "k": [
+        "tyrones rebellion",
+        "ireland"
+      ],
+      "n": 1
+    },
+    {
+      "id": "raleigh-virginia",
+      "tier": "power",
+      "t": "Sir Walter Raleigh named the Virginia colony after her unmarried nickname",
+      "k": [
+        "walter raleigh",
+        "virginia colony"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faerie-queene",
+      "tier": "power",
+      "t": "Poet Edmund Spenser allegorized her as the title character of _The Faerie Queene_",
+      "k": [
+        "edmund spenser",
+        "faerie queene"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tower-imprisonment",
+      "tier": "power",
+      "t": "Was imprisoned in the Tower of London under Mary I before becoming queen in 1558",
+      "k": [
+        "tower of london",
+        "imprisoned"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Elizabeth? Which Mary?",
+    "body": "England has had two Queen Elizabeths, and real tossups explicitly say “do not accept Elizabeth II” for this earlier queen. This monarch is also easy to confuse with her own relatives: her father Henry VIII, her half-siblings Edward VI and Mary I, and her prisoner and rival Mary, Queen of Scots, whom she eventually had executed.",
+    "fix": "Spanish Armada, the Virgin Queen, Tilbury, and a 44-year unmarried reign mean this Elizabeth. A reigning queen with Prince Charles or Princess Diana means Elizabeth II. Six wives mean Henry VIII; a brief Catholic restoration means Mary I; a beheaded Scottish rival means Mary, Queen of Scots.",
+    "line": "Real answer line: <b><u>Elizabeth I</u></b> (prompt on <u>Elizabeth</u>; do not accept “Elizabeth II”)"
+  },
+  "freq": {
+    "rank": 17,
+    "count": 5,
+    "list": "European History"
+  }
+}

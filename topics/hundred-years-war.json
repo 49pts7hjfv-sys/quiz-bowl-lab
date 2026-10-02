@@ -1,0 +1,508 @@
+{
+  "id": "hundred-years-war",
+  "name": "Hundred Years’ War",
+  "mono": "HYW",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "England vs. France over the French crown · Longbows and Joan of Arc",
+  "dates": "Fought 1337–1453",
+  "briefing": "The Hundred Years’ War actually lasted 116 years, from 1337 to 1453, as English kings fought to win the crown of France. English longbowmen won famous victories at Crécy, Poitiers, and Agincourt, but a teenage peasant girl named Joan of Arc turned the tide by breaking the Siege of Orléans in 1429. In the end, France drove the English out of all of France except the port of Calais.",
+  "answerHtml": "<b><u>Hundred Years’ War</u></b> (or <u>100 Years’ War</u>; prompt on <u>Hundred Years</u> alone)",
+  "accept": [
+    "hundred years war",
+    "100 years war",
+    "one hundred years war",
+    "hundred year war",
+    "100 year war",
+    "hundred years wars"
+  ],
+  "prompt": [
+    "hundred years",
+    "100 years",
+    "one hundred years"
+  ],
+  "reject": [
+    "thirty years war",
+    "30 years war",
+    "seven years war",
+    "7 years war",
+    "eighty years war",
+    "80 years war",
+    "nine years war",
+    "9 years war",
+    "ten years war",
+    "10 years war",
+    "hundred days",
+    "100 days",
+    "one hundred days",
+    "wars of the roses",
+    "war of the roses",
+    "napoleonic wars",
+    "second hundred years war",
+    "one hundred years of solitude",
+    "hundred years of solitude",
+    "crusades",
+    "the crusades",
+    "english civil war",
+    "world war i",
+    "war of the spanish succession",
+    "war of the austrian succession",
+    "agincourt",
+    "battle of agincourt",
+    "crecy",
+    "battle of crecy",
+    "poitiers",
+    "joan of arc"
+  ],
+  "tests": {
+    "right": [
+      "Hundred Years' War",
+      "100 Years War",
+      "the Hundred Years War",
+      "Hundred Year War",
+      "Hundered Years War"
+    ],
+    "prompt": [
+      "Hundred Years"
+    ],
+    "wrong": [
+      "Thirty Years' War",
+      "Seven Years War",
+      "Wars of the Roses",
+      "Hundred Days",
+      "30 Years War",
+      "Eighty Years War"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Joan of Arc Song",
+      "source": "Horrible Histories",
+      "url": "https://www.youtube.com/watch?v=5ZGwXRuNsUg",
+      "note": "Short · funny song that tells Joan of Arc’s whole story"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How the Medieval Longbow Cut Down a French Army in 1346",
+      "source": "Smithsonian Channel",
+      "url": "https://www.youtube.com/watch?v=UGg3dqrzaY4",
+      "note": "Short clip · how English longbows beat French knights at Crécy (some battle scenes)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Hundred Years’ War (Ten Minute English and British History #15)",
+      "source": "History Matters",
+      "url": "https://www.youtube.com/watch?v=d6CrOGoXtMI",
+      "note": "About 10 min · the whole war, 1337 to 1453, in simple drawings"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Joan of Arc: The Mad King (Part 1)",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=4XFVzpJxgUk",
+      "note": "Cartoon series, Part 1 of 5: France’s “mad king” and the mess Joan was born into"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Battle of Agincourt 1415",
+      "source": "Kings and Generals",
+      "url": "https://www.youtube.com/watch?v=mZzaaORehzs",
+      "note": "Weekend watch · animated battle maps of Henry V’s famous win (battle scenes)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Middle Ages for Kids: Hundred Years War",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/middle_ages/hundred_years_war.php",
+      "note": "Quick read: Edward III, the Black Prince, Henry V, Joan of Arc, and the longbow, plus a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Hundred_Years%27_War",
+  "qb": {
+    "q": "Hundred Years",
+    "found": 12,
+    "tip": "The Hundred Years’ War is #8 on QBReader’s European History frequency list (7 Middle School and Easy High School tossups). Skip the seven results about the novel _One Hundred Years of Solitude_, or add the History category to hide them."
+  },
+  "sample": {
+    "n": 11,
+    "note": "11 real QBReader tossups (5 Middle School/Easy High School + 6 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This war’s first major battle was fought at sea off Sluys, where an English fleet destroyed a French one in 1340. This war had begun three years earlier, after Philip VI of France seized English lands in Gascony and Edward III of England claimed the French crown.",
+      "r": "For 10 points, name this long war between England and France that lasted from 1337 to 1453."
+    },
+    {
+      "p": "At one battle in this war, the blind King John of Bohemia had his knights tie their horses to his so that he could ride into the fight, where he was killed. At that 1346 battle, Crécy [“kray-SEE”], English archers cut down charge after charge of French knights.",
+      "r": "For 10 points, name this war in which England and France fought from 1337 to 1453."
+    },
+    {
+      "p": "A French peasant revolt called the Jacquerie [“zhah-kuh-REE”] broke out in 1358, two years after the king of France was captured in this war. That king, John II, had lost the Battle of Poitiers [“pwah-TYAY”] to Edward the Black Prince, who had fought at Crécy as a teenager.",
+      "r": "For 10 points, name this war between England and France that later featured Joan of Arc."
+    },
+    {
+      "p": "The Treaty of Troyes [“TWAH”] in this war named England’s king as heir to the French throne and arranged his marriage to Catherine of Valois. That English king had won a famous victory at Agincourt [“AJ-in-kort”] five years earlier.",
+      "r": "That king was Henry V. For 10 points, name this war between England and France that lasted more than a century."
+    },
+    {
+      "p": "This war’s last major battle was fought at Castillon [“kass-tee-YOHN”] in 1453, where French cannons shattered an English army and its commander, John Talbot, was killed. That defeat left England holding only the port of Calais [“ka-LAY”] in France.",
+      "r": "Joan of Arc had fought in this war decades earlier. For 10 points, name this war that, despite its name, lasted 116 years."
+    },
+    {
+      "p": "Auguste Rodin’s sculpture _The Burghers of Calais_ shows six town leaders who offered their lives to England’s Edward III after a long siege in this war. Queen Philippa persuaded her husband to spare them, and England then held Calais [“ka-LAY”] until 1558.",
+      "r": "For 10 points, name this war between England and France, fought from 1337 to 1453."
+    },
+    {
+      "p": "In one battle of this war, French knights in heavy armor struggled across a muddy, freshly plowed field while English archers sheltered behind sharpened wooden stakes. The Constable of France, Charles d’Albret [“dahl-BRAY”], was among the many French nobles killed that day.",
+      "r": "That battle was Agincourt. For 10 points, name this war in which Henry V defeated the French."
+    },
+    {
+      "p": "The Treaty of Brétigny [“bray-teen-YEE”] paused this war in 1360, giving England a large part of southwestern France in exchange for Edward III agreeing to give up his claim to the French crown. That treaty also set a huge ransom for a French king captured four years earlier.",
+      "r": "For 10 points, name this war in which Joan of Arc later fought for France against England."
+    },
+    {
+      "p": "Jean Froissart [“frwah-SAR”] wrote chronicles of this war, describing knights, sieges, and battles such as Crécy and Poitiers. In this war’s later years, France was torn between two rival groups, the Armagnacs and the Burgundians, until the Treaty of Arras brought Burgundy back to the French side in 1435.",
+      "r": "For 10 points, name this war, fought from 1337 to 1453, in which Joan of Arc served France."
+    },
+    {
+      "p": "Poll taxes raised to pay for this war helped spark England’s Peasants’ Revolt of 1381. Decades earlier in this war, the Black Death swept through both England and France and slowed the fighting for several years.",
+      "r": "Later, English archers won at Agincourt. For 10 points, name this war in which Joan of Arc helped France defeat England."
+    },
+    {
+      "p": "In a Shakespeare history play, a king rallies his outnumbered troops during this war with a speech about “we few, we happy few, we band of brothers.” He gives that speech before a battle on St. Crispin’s Day in 1415.",
+      "r": "That battle was Agincourt. For 10 points, name this long war between England and France."
+    },
+    {
+      "p": "In 1431, an English-controlled church court in Rouen [“roo-AHN”] convicted a young prisoner of heresy during this war, and she was burned at the stake. Two years earlier, that young woman had led French troops to break the Siege of Orléans [“or-lay-AHN”].",
+      "r": "That woman was Joan of Arc. For 10 points, name this war between England and France."
+    },
+    {
+      "p": "The French heir Charles VII was crowned at Reims in 1429 during this war, even though his own father had once signed a treaty naming an English king as heir to France. A teenage girl who had just won a key siege stood near Charles at the ceremony.",
+      "r": "For 10 points, name this war in which Joan of Arc led French troops against England."
+    },
+    {
+      "p": "English armies in this war often used the chevauchée [“sheh-voh-SHAY”], a mounted raid that burned crops and villages across the French countryside. Edward the Black Prince led one such raid shortly before winning the Battle of Poitiers in 1356.",
+      "r": "For 10 points, name this war in which English longbowmen won at Crécy and Agincourt."
+    },
+    {
+      "p": "When he was just ten years old, England’s Henry VI was crowned King of France in Paris during this war, while his uncle, the Duke of Bedford, governed English-held France for him. Henry VI’s father had won the Battle of Agincourt.",
+      "r": "For 10 points, name this war in which Joan of Arc fought to drive the English out of France."
+    }
+  ],
+  "clues": [
+    {
+      "id": "england-vs-france",
+      "tier": "giveaway",
+      "t": "Fought between England and France, as English kings claimed the French crown",
+      "k": [
+        "england",
+        "france",
+        "french crown"
+      ],
+      "n": 11
+    },
+    {
+      "id": "lasted-116",
+      "tier": "giveaway",
+      "t": "Lasted 116 years, from 1337 to 1453, despite its name",
+      "k": [
+        "116",
+        "1337",
+        "1453"
+      ],
+      "n": 7
+    },
+    {
+      "id": "joan-of-arc",
+      "tier": "giveaway",
+      "t": "Joan of Arc, a teenage peasant girl, led the French to break the Siege of Orléans (1429)",
+      "k": [
+        "joan of arc",
+        "orléans",
+        "orleans",
+        "siege"
+      ],
+      "n": 9,
+      "rabbit": "Joan of Arc"
+    },
+    {
+      "id": "agincourt",
+      "tier": "giveaway",
+      "t": "Henry V won the Battle of Agincourt (1415), fought on St. Crispin’s Day",
+      "k": [
+        "agincourt",
+        "henry v",
+        "crispin",
+        "1415"
+      ],
+      "n": 10,
+      "rabbit": "Henry V"
+    },
+    {
+      "id": "longbow",
+      "tier": "giveaway",
+      "t": "English longbowmen beat French knights again and again",
+      "k": [
+        "longbowmen",
+        "longbow",
+        "archers"
+      ],
+      "n": 8
+    },
+    {
+      "id": "crecy",
+      "tier": "middle",
+      "t": "Battle of Crécy (1346): Edward III’s archers beat a larger French army",
+      "k": [
+        "crécy",
+        "crecy",
+        "edward iii",
+        "1346"
+      ],
+      "n": 6
+    },
+    {
+      "id": "poitiers",
+      "tier": "middle",
+      "t": "Battle of Poitiers (1356): Edward the Black Prince defeated King John II of France, who was taken prisoner",
+      "k": [
+        "poitiers",
+        "black prince",
+        "john ii",
+        "1356"
+      ],
+      "n": 6
+    },
+    {
+      "id": "edward-iii-claim",
+      "tier": "middle",
+      "t": "Began in 1337 after Philip VI of France seized Gascony and Edward III of England pressed his claim to the French throne",
+      "k": [
+        "edward iii",
+        "philip vi",
+        "claim",
+        "throne"
+      ],
+      "n": 1
+    },
+    {
+      "id": "charles-vii",
+      "tier": "middle",
+      "t": "Joan of Arc brought the French heir Charles VII to be crowned at Reims (1429)",
+      "k": [
+        "charles vii",
+        "reims",
+        "crowned"
+      ],
+      "n": 2
+    },
+    {
+      "id": "joan-rouen",
+      "tier": "middle",
+      "t": "Joan was captured, convicted of heresy by an English-backed church court, and burned at the stake in Rouen (1431)",
+      "k": [
+        "rouen",
+        "heresy",
+        "burned at the stake",
+        "1431"
+      ],
+      "n": 1
+    },
+    {
+      "id": "band-of-brothers",
+      "tier": "middle",
+      "t": "Shakespeare’s _Henry V_ has the “band of brothers” speech before Agincourt",
+      "k": [
+        "band of brothers",
+        "happy few",
+        "shakespeare"
+      ],
+      "n": 2
+    },
+    {
+      "id": "calais",
+      "tier": "middle",
+      "t": "When it ended, England held only the port of Calais, which it kept until 1558",
+      "k": [
+        "calais",
+        "1558"
+      ],
+      "n": 0
+    },
+    {
+      "id": "castillon",
+      "tier": "power",
+      "t": "Battle of Castillon (1453), the last battle: French cannons won, and English commander John Talbot was killed",
+      "k": [
+        "castillon",
+        "talbot",
+        "cannons"
+      ],
+      "n": 4
+    },
+    {
+      "id": "agincourt-mud",
+      "tier": "power",
+      "t": "At Agincourt, French knights struggled through mud while English archers sheltered behind sharpened stakes",
+      "k": [
+        "mud",
+        "muddy",
+        "stakes",
+        "sharpened"
+      ],
+      "n": 3
+    },
+    {
+      "id": "john-of-bohemia",
+      "tier": "power",
+      "t": "The blind King John of Bohemia rode into battle at Crécy tied to his knights and was killed",
+      "k": [
+        "john of bohemia",
+        "bohemia",
+        "blind"
+      ],
+      "n": 3
+    },
+    {
+      "id": "sluys",
+      "tier": "power",
+      "t": "Battle of Sluys (1340): an English naval victory, its first major battle",
+      "k": [
+        "sluys",
+        "naval",
+        "1340"
+      ],
+      "n": 3
+    },
+    {
+      "id": "bretigny",
+      "tier": "power",
+      "t": "Treaty of Brétigny (1360) paused the fighting and set King John II’s ransom",
+      "k": [
+        "brétigny",
+        "bretigny",
+        "1360",
+        "ransom"
+      ],
+      "n": 2
+    },
+    {
+      "id": "troyes",
+      "tier": "power",
+      "t": "Treaty of Troyes (1420): Henry V married Catherine of Valois and was named heir to the French throne",
+      "k": [
+        "troyes",
+        "catherine of valois",
+        "1420"
+      ],
+      "n": 2
+    },
+    {
+      "id": "dalbret",
+      "tier": "power",
+      "t": "Charles d’Albret, the Constable of France, was killed at Agincourt",
+      "k": [
+        "d’albret",
+        "albret",
+        "constable"
+      ],
+      "n": 2
+    },
+    {
+      "id": "jacquerie",
+      "tier": "power",
+      "t": "The Jacquerie (1358): a French peasant revolt after King John II was captured",
+      "k": [
+        "jacquerie",
+        "peasant revolt",
+        "1358"
+      ],
+      "n": 2
+    },
+    {
+      "id": "arras",
+      "tier": "power",
+      "t": "The Burgundians sided with England until the Treaty of Arras (1435)",
+      "k": [
+        "arras",
+        "burgundians",
+        "burgundy",
+        "armagnacs"
+      ],
+      "n": 1
+    },
+    {
+      "id": "froissart",
+      "tier": "power",
+      "t": "Jean Froissart wrote its most famous chronicles",
+      "k": [
+        "froissart",
+        "chronicles"
+      ],
+      "n": 1
+    },
+    {
+      "id": "burghers-of-calais",
+      "tier": "power",
+      "t": "Rodin’s _The Burghers of Calais_ honors six leaders who offered their lives to Edward III (1347)",
+      "k": [
+        "burghers",
+        "rodin"
+      ],
+      "n": 0,
+      "rabbit": "The Burghers of Calais"
+    },
+    {
+      "id": "peasants-revolt",
+      "tier": "power",
+      "t": "Poll taxes to pay for it helped spark England’s Peasants’ Revolt (1381)",
+      "k": [
+        "poll taxes",
+        "poll tax",
+        "peasants’ revolt",
+        "1381"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chevauchee",
+      "tier": "power",
+      "t": "English armies used the chevauchée, a raid that burned crops and villages across the French countryside",
+      "k": [
+        "chevauchée",
+        "chevauchee",
+        "raid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "henry-vi-bedford",
+      "tier": "power",
+      "t": "Henry VI was crowned King of France in Paris (1431) while his uncle, the Duke of Bedford, ruled for him",
+      "k": [
+        "henry vi",
+        "bedford",
+        "paris"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Count the years",
+    "body": "Quiz bowl has a whole family of “number” wars. The Hundred Years’ War was England vs. France (1337–1453); the Thirty Years’ War (1618–1648) was fought mostly in the Holy Roman Empire; the Seven Years’ War (1756–1763) included the French and Indian War; and the Eighty Years’ War was the Dutch revolt against Spain. Napoleon’s “Hundred Days” (1815) sounds close but is a different answer, and a QBReader search for “Hundred Years” also turns up the novel _One Hundred Years of Solitude_.",
+    "fix": "Medieval clues (knights, longbows, Joan of Arc, Agincourt, Crécy, Poitiers, the Black Prince) mean the Hundred Years’ War. Catholics vs. Protestants and the Defenestration of Prague mean the Thirty Years’ War. Say the whole name: just “Hundred Years” only earns a prompt.",
+    "line": "Real answer line: <b><u>Hundred Years’ War</u></b>"
+  },
+  "freq": {
+    "rank": 6,
+    "count": 7,
+    "list": "European History"
+  }
+}

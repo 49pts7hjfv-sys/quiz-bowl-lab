@@ -1,0 +1,388 @@
+{
+  "id": "the-divine-comedy",
+  "name": "The Divine Comedy",
+  "mono": "DC",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Dante’s journey through the afterlife · Medieval Europe’s great epic poem",
+  "dates": "Written c. 1308–1320",
+  "briefing": "Exiled from his beloved Florence and never allowed to return, Dante Alighieri built an entire afterlife instead. In _The Divine Comedy_, the spirit of the Roman poet Virgil guides a lost, frightened Dante down through nine circles of Hell and up the mountain of Purgatory, at whose summit Dante’s long-lost love, Beatrice, takes over as his guide into Heaven. All three parts end on the very same word: the Italian for “stars.”",
+  "answerHtml": "The <b><u>Divine Comedy</u></b> (or <u>Divina Commedia</u>)",
+  "accept": [
+    "the divine comedy",
+    "divine comedy",
+    "divina commedia",
+    "la divina commedia"
+  ],
+  "prompt": [],
+  "reject": [
+    "inferno",
+    "the inferno",
+    "dantes inferno",
+    "purgatorio",
+    "the purgatorio",
+    "paradiso",
+    "the paradiso",
+    "dante",
+    "dante alighieri"
+  ],
+  "tests": {
+    "right": [
+      "The Divine Comedy",
+      "Divine Comedy",
+      "Divina Commedia",
+      "Devine Comedy",
+      "the divine comedy"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Inferno",
+      "Dante",
+      "Purgatorio",
+      "Paradiso"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Why should you read Dante’s “Divine Comedy”?",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=YbCEWSip9pQ",
+      "note": "Animated tour of Dante’s trip through Hell, Purgatory, and Paradise (Inferno’s punishments at a classroom level)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Dante’s Inferno | Canto 1 Summary & Analysis",
+      "source": "Course Hero",
+      "url": "https://www.youtube.com/watch?v=TpU2E5fRoGY",
+      "note": "The famous opening: lost in a dark wood, three beasts, and Virgil the guide"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Divine Comedy: Dante’s Journey to Freedom, Part 1 | GeorgetownX on edX",
+      "source": "edX (Georgetown University)",
+      "url": "https://www.youtube.com/watch?v=AArcozcBNMo",
+      "note": "Georgetown University course intro to Dante’s journey (for older students)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Divine Comedy Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Divine_Comedy",
+      "note": "Kids’ encyclopedia page on the poem’s three parts: Inferno, Purgatorio, and Paradiso"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Divine_Comedy",
+  "qb": {
+    "q": "Divine Comedy",
+    "found": 9,
+    "tip": "6 of the 9 real tossups actually have “Inferno” as the answer line (with a prompt on “Divine Comedy”); only buzz with “Divine Comedy” once the clues reach beyond Hell into Purgatorio or Paradiso, or name both Virgil and Beatrice as guides."
+  },
+  "sample": {
+    "n": 9,
+    "note": "the 9 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked), including several whose real answer is “Inferno” alone"
+  },
+  "tossups": [
+    {
+      "p": "In this poem, the Roman poet Virgil guides the narrator through the first two of its three parts before giving way to Beatrice, who leads him through the third. A gate near the start of the journey bears the warning “Abandon all hope, ye who enter here.”",
+      "r": "Its first part organizes Hell into nine circles, each one devoted to a different kind of sin. For 10 points, name this three-part epic by Dante Alighieri, which also includes Purgatorio and Paradiso."
+    },
+    {
+      "p": "Early in this poem, a spirit discusses Florence’s rival Black and White Guelph political factions with the narrator. Dante Alighieri wrote much of this work while exiled from that same city. Its final part has Beatrice guide the narrator through the heavenly spheres.",
+      "r": "That final part ends with a vision of three overlapping circles of light in the Empyrean. For 10 points, name this three-part poem whose first part, Inferno, follows Virgil and Dante through nine circles of Hell."
+    },
+    {
+      "p": "This poem’s narrator is first blocked in a dark wood by a leopard, a lion, and a she-wolf before Virgil arrives to guide him. Deep inside Hell, a giant three-headed Lucifer sits frozen in ice at the very center of the ninth circle.",
+      "r": "The narrator’s journey continues upward into Purgatorio and finally Paradiso, where Beatrice takes over as guide. For 10 points, name this three-part epic poem by Dante."
+    },
+    {
+      "p": "The monster Geryon carries this poem’s narrator down to a lower circle, and an angel must open the gates of the walled City of Dis before he can continue. Earlier, the doomed lovers Paolo and Francesca are swept up together forever for falling in love when they should not have.",
+      "r": "Its narrator is guided first by Virgil and later by Beatrice. For 10 points, name this three-canticle poem by Dante Alighieri."
+    },
+    {
+      "p": "Fortune-tellers in this poem’s underworld are punished by being forced to walk forever with their heads turned backward. At the very bottom of that underworld, Lucifer’s three mouths hold history’s three most notorious traitors: Brutus, Cassius, and Judas.",
+      "r": "That underworld, Inferno, is only the first of this poem’s three parts, which also include Purgatorio and Paradiso. For 10 points, name this epic poem by Dante Alighieri."
+    },
+    {
+      "p": "A gate in this poem warns “Abandon all hope, ye who enter here.” Nearby, the self-serving souls of history’s fence-sitters cry out in Hell’s vestibule, never allowed to cross the river Acheron into Hell proper.",
+      "r": "This poem later follows its narrator up the mountain of Purgatory and into the heavenly spheres of Paradiso. For 10 points, name this three-part epic by Dante Alighieri, whose first part is Inferno."
+    },
+    {
+      "p": "A demon named Malacoda lies to this poem’s travelers about a bridge being intact over one of Hell’s ditches. In this same poem’s final canto, Beatrice has already given way to Saint Bernard as the narrator glimpses three overlapping circles of light in the Empyrean.",
+      "r": "For 10 points, name this three-part poem in which Dante Alighieri journeys through Inferno, Purgatorio, and Paradiso."
+    },
+    {
+      "p": "The medieval theologian Saint Bonaventure appears to this poem’s narrator in the heavenly sphere of the Sun. Earlier in the same poem, that narrator’s path through a dark wood is blocked by a leopard, a lion, and a she-wolf.",
+      "r": "Virgil then arrives to guide him through Inferno and Purgatorio. For 10 points, name this three-part epic poem by Dante."
+    },
+    {
+      "p": "Souls in this poem’s Purgatorio are heard chanting the Latin psalm “In exitu Israel de Aegypto.” Much earlier, a gate warns the narrator to “abandon all hope,” and he soon finds Hell divided into nine circles, each one devoted to a different kind of sin.",
+      "r": "For 10 points, name this epic poem whose narrator, Dante, is guided by Virgil and then by Beatrice."
+    },
+    {
+      "p": "Lucifer’s three mouths hold history’s three most notorious traitors — Brutus, Cassius, and Judas — at the very bottom of this poem’s Hell. All three parts of this poem end on the exact same Italian word, “stelle,” meaning stars.",
+      "r": "For 10 points, name this three-part epic in which Dante Alighieri travels through Inferno, Purgatorio, and Paradiso."
+    },
+    {
+      "p": "A giant three-headed Lucifer is frozen in ice at the exact center of this poem’s Hell. Far above, in this same poem’s Paradiso, the narrator glimpses three overlapping circles of light in the Empyrean.",
+      "r": "Virgil and later Beatrice guide the narrator between these two settings. For 10 points, name this three-part poem by Dante Alighieri."
+    },
+    {
+      "p": "This poem’s doomed lovers Paolo and Francesca are punished together forever for a love affair they should not have had. A gate elsewhere in the same work warns “Abandon all hope,” above Hell’s nine circles of sin.",
+      "r": "For 10 points, name this three-part epic whose narrator, guided first by Virgil, eventually reaches Paradiso with Beatrice."
+    },
+    {
+      "p": "This poem’s narrator loses his way in a dark wood on Good Friday before Virgil appears to guide him. At the very bottom of this poem’s Hell, Lucifer’s three mouths hold Brutus, Cassius, and Judas.",
+      "r": "For 10 points, name this three-part poem that also includes Purgatorio and Paradiso, written by Dante Alighieri."
+    },
+    {
+      "p": "This poem’s narrator rides the monster Geryon down toward a lower circle, where he later sees fortune-tellers forced to walk with their heads turned backward. Much later, Beatrice guides the same narrator through the heavenly spheres of Paradiso.",
+      "r": "For 10 points, name this three-canticle epic poem by Dante Alighieri."
+    },
+    {
+      "p": "An angel must open the gates of the City of Dis before this poem’s narrator and his guide Virgil can continue deeper into Hell. All three parts of this poem — Inferno, Purgatorio, and Paradiso — end with the same word, the Italian word for stars.",
+      "r": "For 10 points, name this epic poem written by the medieval Italian poet Dante Alighieri."
+    }
+  ],
+  "clues": [
+    {
+      "id": "author",
+      "tier": "giveaway",
+      "t": "Written by the medieval Italian poet Dante Alighieri",
+      "k": [
+        "dante alighieri",
+        "medieval"
+      ],
+      "n": 9
+    },
+    {
+      "id": "three-parts",
+      "tier": "giveaway",
+      "t": "Divided into three parts — Inferno, Purgatorio, and Paradiso — covering Hell, Purgatory, and Heaven",
+      "k": [
+        "inferno",
+        "purgatorio",
+        "paradiso"
+      ],
+      "n": 4
+    },
+    {
+      "id": "virgil",
+      "tier": "giveaway",
+      "t": "The Roman poet Virgil serves as the narrator’s guide through the first two parts of the journey",
+      "k": [
+        "virgil",
+        "roman poet"
+      ],
+      "n": 9,
+      "rabbit": "Virgil"
+    },
+    {
+      "id": "nine-circles",
+      "tier": "giveaway",
+      "t": "Hell is organized into nine circles, each one punishing a different category of sin",
+      "k": [
+        "nine circles",
+        "sin"
+      ],
+      "n": 6
+    },
+    {
+      "id": "gate-inscription",
+      "tier": "giveaway",
+      "t": "A gate leading into Hell bears the warning “Abandon all hope, ye who enter here”",
+      "k": [
+        "abandon all hope",
+        "gate"
+      ],
+      "n": 6
+    },
+    {
+      "id": "beatrice",
+      "tier": "middle",
+      "t": "Dante’s idealized love, Beatrice, takes over from Virgil as his guide for the final part of the journey, into Heaven",
+      "k": [
+        "beatrice",
+        "heaven"
+      ],
+      "n": 2,
+      "rabbit": "Beatrice"
+    },
+    {
+      "id": "stars-ending",
+      "tier": "middle",
+      "t": "Each of the poem’s three parts ends on the same Italian word, “stelle,” meaning stars",
+      "k": [
+        "stelle",
+        "stars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lucifer-bottom",
+      "tier": "middle",
+      "t": "At the very center of Hell, a giant three-headed Lucifer is trapped in ice",
+      "k": [
+        "lucifer",
+        "frozen"
+      ],
+      "n": 2
+    },
+    {
+      "id": "brutus-cassius-judas",
+      "tier": "middle",
+      "t": "Lucifer’s three mouths hold history’s three worst traitors, Brutus, Cassius, and Judas",
+      "k": [
+        "brutus",
+        "cassius",
+        "judas"
+      ],
+      "n": 2
+    },
+    {
+      "id": "paolo-francesca",
+      "tier": "middle",
+      "t": "The doomed lovers Paolo and Francesca are swept up together forever, unable to part",
+      "k": [
+        "paolo",
+        "francesca"
+      ],
+      "n": 3,
+      "rabbit": "Paolo and Francesca"
+    },
+    {
+      "id": "leopard-lion-wolf",
+      "tier": "middle",
+      "t": "Dante’s path is first blocked in a dark wood by a leopard, a lion, and a she-wolf",
+      "k": [
+        "leopard",
+        "dark wood"
+      ],
+      "n": 3
+    },
+    {
+      "id": "florence-exile",
+      "tier": "middle",
+      "t": "Dante wrote much of this poem in exile, after politics in his home city of Florence turned against him",
+      "k": [
+        "florence",
+        "exile"
+      ],
+      "n": 1
+    },
+    {
+      "id": "geryon",
+      "tier": "middle",
+      "t": "The monster Geryon carries Dante and Virgil down to a lower circle on its back",
+      "k": [
+        "geryon",
+        "monster"
+      ],
+      "n": 2
+    },
+    {
+      "id": "soothsayers",
+      "tier": "power",
+      "t": "Fortune-tellers are punished by being forced to walk forever with their heads turned backward",
+      "k": [
+        "fortune tellers",
+        "backward"
+      ],
+      "n": 3
+    },
+    {
+      "id": "city-of-dis",
+      "tier": "power",
+      "t": "An angel must open the gates of the City of Dis, a walled fortress deep inside Hell, before the journey can continue",
+      "k": [
+        "city of dis",
+        "angel"
+      ],
+      "n": 2
+    },
+    {
+      "id": "good-friday",
+      "tier": "power",
+      "t": "The poem’s journey famously begins on Good Friday",
+      "k": [
+        "good friday"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bonaventure-sun",
+      "tier": "power",
+      "t": "The medieval theologian Saint Bonaventure appears in the heavenly sphere of the Sun",
+      "k": [
+        "bonaventure",
+        "sphere of the sun"
+      ],
+      "n": 1
+    },
+    {
+      "id": "acheron",
+      "tier": "power",
+      "t": "The self-serving souls of history’s fence-sitters cry out in Hell’s vestibule, never allowed to cross the river Acheron into Hell proper",
+      "k": [
+        "acheron",
+        "fence-sitters"
+      ],
+      "n": 1
+    },
+    {
+      "id": "malacoda",
+      "tier": "power",
+      "t": "A demon named Malacoda lies about a bridge being intact over one of Hell’s ditches",
+      "k": [
+        "malacoda",
+        "bridge"
+      ],
+      "n": 1
+    },
+    {
+      "id": "guelphs",
+      "tier": "power",
+      "t": "A spirit discusses the rival Black and White Guelph political factions of Florence early in the journey",
+      "k": [
+        "guelph",
+        "florence"
+      ],
+      "n": 1
+    },
+    {
+      "id": "empyrean",
+      "tier": "power",
+      "t": "The very last canto describes three overlapping circles of light in the Empyrean, the highest heaven",
+      "k": [
+        "empyrean",
+        "circles of light"
+      ],
+      "n": 1
+    },
+    {
+      "id": "exitu-israel",
+      "tier": "power",
+      "t": "Souls in Purgatorio are heard chanting the Latin psalm “In exitu Israel de Aegypto”",
+      "k": [
+        "in exitu israel",
+        "latin psalm"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Whole poem, or just Inferno?",
+    "body": "Most real tossups on Dante’s hellish imagery — the nine circles, Virgil as guide, “Abandon all hope” — are actually asking for Inferno alone, which is only the poem’s first third, with a prompt if you say “Divine Comedy.” Purgatorio and Paradiso are the other two parts, and a tossup on the whole poem has to reach into one of them.",
+    "fix": "If every clue is about Hell, sinners, and Virgil with no mention of Purgatorio, Paradiso, or Beatrice, the safer buzz is “Inferno.” Wait for the poem to leave Hell — a mountain of Purgatory, the heavenly spheres, or Beatrice taking over as guide — before buzzing “Divine Comedy.”",
+    "line": "Real answer line: The <b><u>Divine Comedy</u></b> (or <u>Divina Commedia</u>); a related tossup’s line: <u>Inferno</u> (prompt on Divine Comedy)"
+  },
+  "freq": {
+    "rank": 212,
+    "count": 2,
+    "list": "Literature"
+  }
+}

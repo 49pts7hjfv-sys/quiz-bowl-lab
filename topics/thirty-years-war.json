@@ -1,0 +1,404 @@
+{
+  "id": "thirty-years-war",
+  "name": "Thirty Years’ War",
+  "mono": "TYW",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Catholics vs. Protestants engulfed the Holy Roman Empire · Ended at Westphalia",
+  "dates": "Fought 1618–1648",
+  "briefing": "In 1618, Protestant nobles in Bohemia hurled Catholic officials out of a Prague castle window, igniting a war that would consume Central Europe for three decades. What began as a fight between Catholics and Protestants pulled in Sweden, Denmark, Spain, and even Catholic France, leaving the Holy Roman Empire devastated by plundering armies, famine, and disease. The Peace of Westphalia finally ended it in 1648, helping invent the modern idea that nations are sovereign.",
+  "answerHtml": "<b><u>Thirty Years’ War</u></b> (or <u>30 Years’ War</u>; prompt on <u>Thirty Years</u> alone)",
+  "accept": [
+    "thirty years war",
+    "30 years war",
+    "thirty year war",
+    "30 year war"
+  ],
+  "prompt": [
+    "thirty years",
+    "30 years"
+  ],
+  "reject": [
+    "hundred years war",
+    "100 years war",
+    "english civil war",
+    "peace of westphalia",
+    "gustavus adolphus",
+    "ferdinand ii",
+    "wallenstein",
+    "cardinal richelieu",
+    "napoleonic wars",
+    "war of the roses",
+    "franco prussian war",
+    "seven years war"
+  ],
+  "tests": {
+    "right": [
+      "Thirty Years War",
+      "Thirty Years' War",
+      "30 Years War",
+      "Thirty Yeras War",
+      "The Thirty Years War"
+    ],
+    "prompt": [
+      "Thirty Years",
+      "30 Years"
+    ],
+    "wrong": [
+      "Hundred Years War",
+      "English Civil War",
+      "Peace of Westphalia",
+      "Seven Years War",
+      "Napoleonic Wars"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Thirty Years War: Overview (1618-1648)",
+      "source": "History in Five",
+      "url": "https://www.youtube.com/watch?v=YmLEewDQ11g",
+      "note": "Short · quick rundown of causes, phases, and the peace that ended it"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Thirty Years’ War - White Mountain 1620 DOCUMENTARY",
+      "source": "Kings and Generals",
+      "url": "https://www.youtube.com/watch?v=ZIEU_um0GfQ",
+      "note": "The war’s opening battle, where the Bohemian revolt was crushed"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The Thirty Years War | European History | Extra History Complete",
+      "source": "Extra History",
+      "url": "https://www.youtube.com/watch?v=CaMe0SVcCKc",
+      "note": "Full animated series covering the whole war start to finish"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The 17th Century Crisis: Crash Course European History #11",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=cmKHYpC_jVs",
+      "note": "The bigger 17th-century picture this war was part of"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Thirty Years’ War Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Thirty_Years%27_War",
+      "note": "Quick read: causes, phases, and the Peace of Westphalia"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+  "qb": {
+    "q": "Thirty Years’ War",
+    "found": 5,
+    "tip": "Every hit power-marks the Second Defenestration of Prague and the Peace of Westphalia; Gustavus Adolphus’s death at Lützen is nearly as common, and “named for its length” is the usual giveaway."
+  },
+  "sample": {
+    "n": 5,
+    "note": "all 5 real QBReader Middle School/Easy High School tossups for this answer line (power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This conflict began after Bohemian Protestant nobles threw royal officials out a castle window in Prague. It was sparked partly by the 1617 election of the staunchly Catholic Ferdinand II as king of Bohemia. Early on, Frederick V, the “Winter King,” was crushed at the Battle of White Mountain in 1620.",
+      "r": "Sweden’s Gustavus Adolphus later entered on the Protestant side before dying at the Battle of Lützen [“LOOT-sen”]. For 10 points, name this war, fought from 1618 to 1648 and named for its length."
+    },
+    {
+      "p": "This war followed decades after the 1555 Peace of Augsburg, which had only papered over Catholic-Protestant tensions in the Holy Roman Empire. Denmark’s King Christian IV intervened on the Protestant side but was forced into the Treaty of Lübeck in 1629. Imperial generalissimo Albrecht von Wallenstein [“VAH-len-shtyne”] commanded Catholic forces until his assassination in 1634.",
+      "r": "Catholic France eventually joined on the Protestant side against its Habsburg rivals. For 10 points, name this war ended by the Peace of Westphalia."
+    },
+    {
+      "p": "This war reignited after Emperor Ferdinand II’s 1629 Edict of Restitution tried to reclaim Protestant church lands. Cardinal Richelieu funneled French funding to Sweden’s war effort despite France’s own Catholic faith. Spain’s elite tercios were broken at the Battle of Rocroi [“roh-KRWAH”] in 1643.",
+      "r": "It left much of Germany devastated by plundering armies, famine, and disease. For 10 points, name this seventeenth-century war that ended with the Peace of Westphalia."
+    },
+    {
+      "p": "This war’s Bohemian phase began with the defenestration of royal officials from a castle window in Prague. Gustavus Adolphus led Sweden to victory over Count Tilly at the Battle of Breitenfeld [“BRY-ten-felt”] in 1631, then died at Lützen the following year. Denmark’s Christian IV had already been forced to make peace at Lübeck.",
+      "r": "It is often divided into Bohemian, Danish, Swedish, and French phases. For 10 points, name this war that devastated Central Europe from 1618 to 1648."
+    },
+    {
+      "p": "This war’s peace treaty is often credited with founding the modern idea of state sovereignty. Ferdinand II’s Edict of Restitution tried to undo Protestant land gains, reigniting the fighting in 1629. Count Tilly’s Catholic League army was defeated at Breitenfeld by Swedish forces.",
+      "r": "It was fought mainly between Catholic and Protestant states within the Holy Roman Empire. For 10 points, name this war ended by the Peace of Westphalia in 1648."
+    },
+    {
+      "p": "This war began after Protestant nobles in Bohemia hurled Catholic officials out of a Prague castle window. Frederick V, called the “Winter King,” lost his throne after the Battle of White Mountain in 1620. Wallenstein, the emperor’s generalissimo, was later assassinated in 1634 amid suspicions of disloyalty.",
+      "r": "It marked Europe’s last major war fought mainly over religion. For 10 points, name this war named for how long it lasted, from 1618 to 1648."
+    },
+    {
+      "p": "This war saw France, though Catholic, back the Protestant side against its Habsburg rivals, with funding arranged by Cardinal Richelieu. A French victory over Spanish tercios at Rocroi in 1643 helped bring it to a close. Gustavus Adolphus of Sweden won at Breitenfeld before dying at Lützen.",
+      "r": "It followed the 1617 election of the staunchly Catholic Ferdinand II as king of Bohemia. For 10 points, name this war ended by the Peace of Westphalia."
+    },
+    {
+      "p": "This war is often divided into four phases, beginning with a Bohemian revolt after the defenestration of Prague. Denmark’s Christian IV then intervened, only to be defeated and forced into the Treaty of Lübeck. During Sweden’s phase, Gustavus Adolphus triumphed at Breitenfeld.",
+      "r": "Plundering armies left much of Germany ravaged by famine and disease. For 10 points, name this war fought from 1618 to 1648."
+    },
+    {
+      "p": "This war began just two years before the brief Battle of White Mountain ended Bohemian resistance to Ferdinand II. Its underlying religious tensions dated back to the failed 1555 Peace of Augsburg. Wallenstein’s rise and eventual assassination occurred during its middle years.",
+      "r": "It was fought mainly between Catholic and Protestant states in the Holy Roman Empire. For 10 points, name this war that ended with the Peace of Westphalia in 1648."
+    },
+    {
+      "p": "This war’s Swedish phase featured Gustavus Adolphus’s victory over Count Tilly at Breitenfeld in 1631. Its earlier Danish phase had ended with Christian IV’s defeat and the Treaty of Lübeck. French intervention, funded by Cardinal Richelieu, extended the fighting for years more.",
+      "r": "A French victory over Spanish tercios at Rocroi in 1643 helped finally end it. For 10 points, name this war, fought from 1618 to 1648."
+    },
+    {
+      "p": "This war is often credited with establishing the modern idea of state sovereignty through the treaty that ended it. It began when Bohemian Protestant nobles threw royal officials out a castle window in Prague in 1618. Ferdinand II’s harsh Edict of Restitution reignited fighting in 1629.",
+      "r": "One of the most destructive wars in European history before the twentieth century, it ravaged the Holy Roman Empire for three decades. For 10 points, name this war named for its length."
+    },
+    {
+      "p": "This war’s Bohemian phase crushed Frederick V, the so-called “Winter King,” at the Battle of White Mountain. Imperial generalissimo Wallenstein was assassinated in 1634 after a long and controversial command. Gustavus Adolphus of Sweden died winning the Battle of Lützen in 1632.",
+      "r": "It ended with the Peace of Westphalia in 1648. For 10 points, name this religious and political war that began in 1618."
+    },
+    {
+      "p": "This war saw Cardinal Richelieu quietly fund Sweden’s campaigns even though his own country, France, was Catholic. The 1555 Peace of Augsburg had failed to prevent the religious tensions that caused it. Count Tilly’s Catholic League forces fell to Gustavus Adolphus at Breitenfeld.",
+      "r": "France’s own entry helped defeat Spanish tercios at the Battle of Rocroi in 1643. For 10 points, name this war that devastated Germany from 1618 to 1648."
+    },
+    {
+      "p": "This war erupted after the Second Defenestration of Prague, in which Bohemian nobles threw Catholic officials from a castle window. It is often split into Bohemian, Danish, Swedish, and French phases by historians. Denmark’s Christian IV led the second of those phases before his defeat.",
+      "r": "It is named simply for how long it lasted. For 10 points, name this war fought from 1618 to 1648 and ended by the Peace of Westphalia."
+    },
+    {
+      "p": "This war began over religious tensions the 1555 Peace of Augsburg had failed to resolve, worsened by the 1617 election of Ferdinand II as king of Bohemia. Gustavus Adolphus’s death at Lützen in 1632 came amid a Swedish victory. Wallenstein’s assassination followed two years later.",
+      "r": "It devastated the Holy Roman Empire with plundering armies, famine, and disease for three decades. For 10 points, name this war that ended with the Peace of Westphalia."
+    }
+  ],
+  "clues": [
+    {
+      "id": "dates-length",
+      "tier": "giveaway",
+      "t": "Fought from 1618 to 1648, and is named for how long it lasted",
+      "k": [
+        "1618",
+        "1648",
+        "named for"
+      ],
+      "n": 5
+    },
+    {
+      "id": "catholic-protestant",
+      "tier": "giveaway",
+      "t": "Fought mainly between Catholic and Protestant states within the Holy Roman Empire",
+      "k": [
+        "catholic",
+        "protestant",
+        "holy roman empire"
+      ],
+      "n": 4
+    },
+    {
+      "id": "westphalia-end",
+      "tier": "giveaway",
+      "t": "Ended with the Peace of Westphalia in 1648",
+      "k": [
+        "peace of westphalia",
+        "westphalia",
+        "1648"
+      ],
+      "n": 4
+    },
+    {
+      "id": "deadliest-era",
+      "tier": "giveaway",
+      "t": "One of the most destructive wars in European history before the twentieth century",
+      "k": [
+        "destructive",
+        "european history",
+        "twentieth century"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-phases",
+      "tier": "middle",
+      "t": "Is often divided into four phases: Bohemian, Danish, Swedish, and French",
+      "k": [
+        "bohemian",
+        "danish",
+        "swedish",
+        "french"
+      ],
+      "n": 0
+    },
+    {
+      "id": "white-mountain",
+      "tier": "middle",
+      "t": "Saw an early, crushing defeat of Frederick V, the “Winter King,” at the Battle of White Mountain in 1620",
+      "k": [
+        "white mountain",
+        "winter king",
+        "frederick v",
+        "1620"
+      ],
+      "n": 2
+    },
+    {
+      "id": "gustavus-breitenfeld",
+      "tier": "middle",
+      "t": "Saw Swedish king Gustavus Adolphus defeat Count Tilly at the Battle of Breitenfeld in 1631",
+      "k": [
+        "gustavus adolphus",
+        "count tilly",
+        "breitenfeld"
+      ],
+      "n": 3
+    },
+    {
+      "id": "gustavus-death-lutzen",
+      "tier": "middle",
+      "t": "Claimed the life of Gustavus Adolphus at the Battle of Lützen in 1632, a battle his side still won",
+      "k": [
+        "gustavus adolphus",
+        "lutzen",
+        "1632"
+      ],
+      "n": 4
+    },
+    {
+      "id": "french-phase",
+      "tier": "middle",
+      "t": "Eventually drew in Catholic France on the Protestant side, against its Habsburg rivals",
+      "k": [
+        "france",
+        "catholic",
+        "habsburg"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rocroi",
+      "tier": "middle",
+      "t": "Was helped toward its end by a French victory over Spanish tercios at Rocroi in 1643",
+      "k": [
+        "rocroi",
+        "tercios",
+        "spanish"
+      ],
+      "n": 2
+    },
+    {
+      "id": "sovereignty",
+      "tier": "middle",
+      "t": "Is often credited, through its peace treaty, with founding the modern idea of state sovereignty",
+      "k": [
+        "state sovereignty",
+        "peace treaty",
+        "modern"
+      ],
+      "n": 0
+    },
+    {
+      "id": "religious-wars-end",
+      "tier": "middle",
+      "t": "Marked Europe’s last major war fought mainly over religion",
+      "k": [
+        "religion",
+        "last major",
+        "europe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "defenestration",
+      "tier": "power",
+      "t": "Began after Bohemian Protestant nobles threw royal officials out a castle window in Prague",
+      "k": [
+        "bohemian",
+        "prague",
+        "castle window"
+      ],
+      "n": 4
+    },
+    {
+      "id": "augsburg-cause",
+      "tier": "power",
+      "t": "Followed decades after the 1555 Peace of Augsburg, which had only papered over Catholic-Protestant tensions",
+      "k": [
+        "peace of augsburg",
+        "1555",
+        "tensions"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ferdinand-elected",
+      "tier": "power",
+      "t": "Was sparked partly by the 1617 election of the staunchly Catholic Ferdinand II as king of Bohemia",
+      "k": [
+        "ferdinand ii",
+        "king of bohemia",
+        "catholic"
+      ],
+      "n": 1
+    },
+    {
+      "id": "denmark-christian",
+      "tier": "power",
+      "t": "Saw Denmark’s King Christian IV intervene, only to be forced into the Treaty of Lübeck in 1629",
+      "k": [
+        "christian iv",
+        "denmark",
+        "treaty of lubeck"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wallenstein",
+      "tier": "power",
+      "t": "Was shaped by imperial generalissimo Albrecht von Wallenstein, who was assassinated in 1634",
+      "k": [
+        "wallenstein",
+        "generalissimo",
+        "assassinated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plunder-devastation",
+      "tier": "power",
+      "t": "Left much of Germany devastated by plundering armies, famine, and disease",
+      "k": [
+        "devastated",
+        "plundering",
+        "famine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "richelieu",
+      "tier": "power",
+      "t": "Received French funding for Sweden’s war effort, arranged by Cardinal Richelieu despite France’s Catholic faith",
+      "k": [
+        "cardinal richelieu",
+        "french funding",
+        "sweden"
+      ],
+      "n": 0
+    },
+    {
+      "id": "edict-of-restitution",
+      "tier": "power",
+      "t": "Reignited after Emperor Ferdinand II’s Edict of Restitution in 1629 tried to reclaim Protestant church lands",
+      "k": [
+        "edict of restitution",
+        "1629",
+        "protestant"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which “Years’ War”?",
+    "body": "The Thirty Years’ War (1618–1648, Catholics vs. Protestants in the Holy Roman Empire) is easy to confuse with the Hundred Years’ War (1337–1453, England vs. France), since both are named for how long they lasted. It also gets mixed up with the English Civil War, a religious and political conflict happening in England around the same years.",
+    "fix": "Check the dates and the place: 1618–1648 in the Holy Roman Empire (mostly Germany) means the Thirty Years’ War; 1337–1453 between England and France means the Hundred Years’ War; Charles I and Oliver Cromwell mean the English Civil War.",
+    "line": "Real answer line: <b><u>Thirty Years’ War</u></b> (or <u>30 Years’ War</u>; prompt on <u>Thirty Years</u> alone)"
+  },
+  "freq": {
+    "rank": 11,
+    "count": 6,
+    "list": "European History"
+  }
+}

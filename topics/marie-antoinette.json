@@ -1,0 +1,438 @@
+{
+  "id": "marie-antoinette",
+  "name": "Marie Antoinette",
+  "mono": "MA",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "Queen of France · Symbol of royal excess, executed in the Revolution",
+  "dates": "1755–1793",
+  "briefing": "Marie Antoinette arrived in France at just fourteen to marry the future king and seal an alliance between Austria and France. As queen, rumors about her spending and a stolen-necklace scandal she had nothing to do with made her one of the most hated women in France, even though she almost certainly never said “let them eat cake.” When the French Revolution overthrew the monarchy, she was tried and executed by guillotine in 1793, months after her husband, Louis XVI.",
+  "answerHtml": "<b><u>Marie Antoinette</u></b> (or <u>Maria Antonia Josepha Johanna</u>, her birth name; prompt on <u>Marie</u> or <u>Antoinette</u> alone)",
+  "accept": [
+    "marie antoinette",
+    "maria antonia josepha johanna",
+    "queen marie antoinette",
+    "marie antoinette of austria",
+    "marie antoinette of france"
+  ],
+  "prompt": [
+    "marie",
+    "antoinette",
+    "maria antonia",
+    "the queen"
+  ],
+  "reject": [
+    "louis xvi",
+    "king louis xvi",
+    "louis the sixteenth",
+    "louis 16",
+    "louis xiv",
+    "louis the fourteenth",
+    "louis xv",
+    "louis the fifteenth",
+    "louis xvii",
+    "louis xviii",
+    "louis charles",
+    "louis joseph",
+    "marie therese",
+    "madame royale",
+    "axel von fersen",
+    "fersen",
+    "jeanne de la motte",
+    "cardinal de rohan",
+    "rohan",
+    "maximilien robespierre",
+    "robespierre",
+    "napoleon",
+    "napoleon bonaparte",
+    "josephine",
+    "catherine the great",
+    "anne of austria",
+    "catherine de medici",
+    "maria theresa",
+    "empress maria theresa",
+    "elisabeth vigee le brun",
+    "vigee le brun",
+    "jacques louis david"
+  ],
+  "tests": {
+    "right": [
+      "Marie Antoinette",
+      "Maria Antonia Josepha Johanna",
+      "Queen Marie Antoinette",
+      "Marrie Antoinette",
+      "Marie Antoinette of France"
+    ],
+    "prompt": [
+      "Marie",
+      "Antoinette"
+    ],
+    "wrong": [
+      "Louis XVI",
+      "Louis XIV",
+      "Maria Theresa",
+      "Catherine de Medici",
+      "Robespierre",
+      "Elisabeth Vigee Le Brun"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Marie Antoinette: The Last Queen of France Before The French Revolution",
+      "source": "Biography (Mini Bio)",
+      "url": "https://www.youtube.com/watch?v=KqHacO7lQo0",
+      "note": "Short · quick life story of the queen and her downfall"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Marie Antoinette: The Queen Behind the Revolution",
+      "source": "Smithsonian Magazine",
+      "url": "https://www.youtube.com/watch?v=dex5RGeKcxA",
+      "note": "Her life and reputation during the French Revolution"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Marie Antoinette: Child Bride, Party Girl, and Beheaded",
+      "source": "Dan Snow’s History Hit",
+      "url": "https://www.youtube.com/watch?v=S6YKDqHmVDg",
+      "note": "Her arranged marriage, reputation, and downfall"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "The French Revolution (#21)",
+      "source": "Crash Course European History",
+      "url": "https://www.youtube.com/watch?v=5fJl_ZX91l0",
+      "note": "The bigger revolution that overthrew the monarchy around her"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Marie Antoinette Biography",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/history/french_revolution/marie_antoinette.php",
+      "note": "Quick read: her life, the Diamond Necklace scandal, and the Revolution"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Marie_Antoinette",
+  "qb": {
+    "q": "Marie Antoinette",
+    "found": 3,
+    "tip": "All 3 Middle School/Easy High School tossups are clean hits; a difficulties=3 search adds 1 more Regular High School tossup. The Flight to Varennes and the Diamond Necklace affair repeat in almost every one."
+  },
+  "sample": {
+    "n": 4,
+    "note": "4 real QBReader tossups (3 Middle School/Easy High School + 1 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "A con artist named Jeanne de la Motte masterminded a fraud that forged this woman’s signature to buy an enormously expensive diamond necklace. That scandal led to the arrest of Cardinal de Rohan in the Hall of Mirrors, even though this woman had no real part in the scheme.",
+      "r": "She was executed by guillotine in Paris in 1793. For 10 points, name this queen, the wife of France’s Louis the Sixteenth."
+    },
+    {
+      "p": "The line “let them eat cake” had actually been written by Jean-Jacques Rousseau about a different, unnamed princess, years before this woman became queen. Critics later pinned that line on this woman to paint her as out of touch.",
+      "r": "She was caught fleeing France in the Flight to Varennes in 1791. For 10 points, name this wife of Louis the Sixteenth, executed in the French Revolution."
+    },
+    {
+      "p": "After the monarchy fell in August 1792, this woman and her family were locked up in Paris’s Temple prison. She had already become one of the most hated women in France after being falsely linked to a stolen-necklace scandal.",
+      "r": "She was sent to the guillotine on October 16, 1793. For 10 points, name this French queen, wife of Louis the Sixteenth."
+    },
+    {
+      "p": "This woman’s husband was tried and executed in January 1793, months before she herself faced the Revolutionary Tribunal on charges including treason. Years earlier, this woman had been caught trying to flee the country with her family at Varennes.",
+      "r": "For 10 points, name this French queen who was wrongly blamed for the Affair of the Diamond Necklace and executed by guillotine in 1793."
+    },
+    {
+      "p": "Born in Vienna with the name Maria Antonia, this woman was married off to the future king of France at just fourteen to seal an alliance between two great powers. Crowds later mocked her as “the Austrian woman” because of where she was born.",
+      "r": "She was executed during the French Revolution. For 10 points, name this queen, the wife of Louis the Sixteenth."
+    },
+    {
+      "p": "The Women’s March on Versailles in 1789 forced this woman and her family to leave the palace of Versailles for Paris. Two years later, Count Axel von Fersen and the Baron de Breteuil helped plan this woman’s failed escape from the city.",
+      "r": "That escape attempt was stopped at Varennes. For 10 points, name this queen of France, who was executed by guillotine in 1793."
+    },
+    {
+      "p": "Court painter Élisabeth Vigée Le Brun [“vee-ZHAY luh BRUHN”] caused controversy by showing this woman in a plain muslin dress in one official portrait. This woman was later wrongly blamed in the Affair of the Diamond Necklace.",
+      "r": "She was caught trying to flee France at Varennes before her execution in 1793. For 10 points, name this queen, the wife of Louis the Sixteenth."
+    },
+    {
+      "p": "On her final morning, the painter Jacques-Louis David sketched this woman being led away to her death. By then, revolutionaries had taken to calling her “Widow Capet,” using her dead husband’s old family name.",
+      "r": "Her own attempt to flee France had failed at Varennes two years earlier. For 10 points, name this executed queen of France."
+    },
+    {
+      "p": "Parisians nicknamed this woman “L’Autrichienne” [“law-tree-shee-EN”], or “the Austrian woman,” long before a forged signature linked her to the Affair of the Diamond Necklace. Count Axel von Fersen later helped plan this woman’s escape from Paris.",
+      "r": "That escape failed at Varennes in 1791. For 10 points, name this queen who was executed by guillotine two years later."
+    },
+    {
+      "p": "This woman’s young son was later called “Louis the Seventeenth” by royalists even though he never actually ruled France. This woman and her children were imprisoned in Paris’s Temple tower after the monarchy fell in 1792.",
+      "r": "She herself had married into the French throne at just fourteen. For 10 points, name this executed wife of Louis the Sixteenth."
+    },
+    {
+      "p": "This woman was the daughter of the powerful Habsburg empress Maria Theresa, who arranged her marriage into the French royal family for political reasons. This woman was caught trying to flee France with her family at Varennes in 1791.",
+      "r": "She was executed by guillotine two years later. For 10 points, name this queen, the wife of Louis the Sixteenth."
+    },
+    {
+      "p": "A scheming noblewoman named Jeanne de la Motte forged this woman’s signature to trick Cardinal de Rohan into buying a diamond necklace, sparking a scandal that badly hurt this woman’s reputation. A popular legend falsely claims that this woman once said “let them eat cake.”",
+      "r": "For 10 points, name this queen of France, executed by guillotine in 1793."
+    },
+    {
+      "p": "This woman faced the Revolutionary Tribunal on charges including treason shortly after being held in the Temple prison with her children. Two years before that, she had been caught fleeing France with her family at Varennes.",
+      "r": "She was the wife of Louis the Sixteenth. For 10 points, name this French queen executed by guillotine in 1793."
+    },
+    {
+      "p": "Years before this woman ever became queen, the writer Jean-Jacques Rousseau had already written a version of “let them eat cake” about an entirely different princess. This woman was also wrongly blamed for cheating jewelers in the Affair of the Diamond Necklace.",
+      "r": "She was executed by guillotine in Paris in 1793. For 10 points, name this queen, the wife of Louis the Sixteenth."
+    },
+    {
+      "p": "Born in Vienna and married into the French throne at fourteen, this woman spent her reign dogged by rumors of overspending and by a scandal over a diamond necklace she had nothing to do with. Her family’s attempt to flee France failed at Varennes in 1791.",
+      "r": "She followed her husband, Louis the Sixteenth, to the guillotine in 1793. For 10 points, name this last queen of France before the Revolution."
+    }
+  ],
+  "clues": [
+    {
+      "id": "guillotine-1793",
+      "tier": "giveaway",
+      "t": "Executed by guillotine in Paris on October 16, 1793",
+      "k": [
+        "guillotine",
+        "october 1793",
+        "executed"
+      ],
+      "n": 4
+    },
+    {
+      "id": "wife-louis-xvi",
+      "tier": "giveaway",
+      "t": "Wife of King Louis XVI of France",
+      "k": [
+        "louis xvi",
+        "wife",
+        "king of france"
+      ],
+      "n": 4,
+      "rabbit": "Louis XVI"
+    },
+    {
+      "id": "varennes",
+      "tier": "giveaway",
+      "t": "Caught fleeing France with her family in the Flight to Varennes (June 1791)",
+      "k": [
+        "varennes",
+        "flight to varennes",
+        "flee"
+      ],
+      "n": 4
+    },
+    {
+      "id": "diamond-necklace",
+      "tier": "giveaway",
+      "t": "Falsely linked to the Affair of the Diamond Necklace, a scandal she had nothing to do with",
+      "k": [
+        "diamond necklace",
+        "affair of the diamond necklace"
+      ],
+      "n": 3
+    },
+    {
+      "id": "let-them-eat-cake",
+      "tier": "giveaway",
+      "t": "Almost certainly never actually said the famous line “let them eat cake”",
+      "k": [
+        "let them eat cake",
+        "myth"
+      ],
+      "n": 2
+    },
+    {
+      "id": "vigee-le-brun",
+      "tier": "middle",
+      "t": "Painted many times by court artist Élisabeth Vigée Le Brun, including one controversial portrait in a plain muslin dress",
+      "k": [
+        "vigee le brun",
+        "muslin dress",
+        "portrait"
+      ],
+      "n": 1,
+      "rabbit": "Élisabeth Vigée Le Brun"
+    },
+    {
+      "id": "david-sketch",
+      "tier": "middle",
+      "t": "Painter Jacques-Louis David made a quick sketch of her final walk to her execution",
+      "k": [
+        "jacques louis david",
+        "sketch"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lautrichienne",
+      "tier": "middle",
+      "t": "Mocked by crowds as “L’Autrichienne,” or “the Austrian woman,” because of where she was born",
+      "k": [
+        "lautrichienne",
+        "austrian woman"
+      ],
+      "n": 1
+    },
+    {
+      "id": "widow-capet",
+      "tier": "middle",
+      "t": "Called “Widow Capet” by revolutionaries after her husband’s execution, using the old royal family name",
+      "k": [
+        "widow capet",
+        "capet"
+      ],
+      "n": 1
+    },
+    {
+      "id": "varennes-helpers",
+      "tier": "middle",
+      "t": "Count Axel von Fersen and the Baron de Breteuil helped plan her family’s failed escape from Paris",
+      "k": [
+        "axel von fersen",
+        "fersen",
+        "breteuil"
+      ],
+      "n": 1
+    },
+    {
+      "id": "austrian-archduchess",
+      "tier": "middle",
+      "t": "Born an Austrian archduchess, daughter of the Holy Roman Empress Maria Theresa",
+      "k": [
+        "archduchess",
+        "maria theresa",
+        "austria"
+      ],
+      "n": 0,
+      "rabbit": "Maria Theresa"
+    },
+    {
+      "id": "married-at-14",
+      "tier": "middle",
+      "t": "Married the future king at just fourteen to seal an alliance between France and Austria",
+      "k": [
+        "fourteen",
+        "arranged marriage",
+        "alliance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "womens-march",
+      "tier": "middle",
+      "t": "The Women’s March on Versailles (1789) forced her family to move from Versailles to Paris",
+      "k": [
+        "womens march",
+        "versailles",
+        "1789"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rohan",
+      "tier": "power",
+      "t": "Cardinal de Rohan was arrested in the Hall of Mirrors after being tricked in the necklace scandal",
+      "k": [
+        "cardinal de rohan",
+        "hall of mirrors"
+      ],
+      "n": 1
+    },
+    {
+      "id": "jeanne-de-la-motte",
+      "tier": "power",
+      "t": "The necklace fraud was actually masterminded by a con artist, Jeanne de la Motte, using a forged signature",
+      "k": [
+        "jeanne de la motte",
+        "forged signature"
+      ],
+      "n": 1
+    },
+    {
+      "id": "monarchy-abolished-1792",
+      "tier": "power",
+      "t": "Her family was imprisoned in August 1792, weeks before the French monarchy was formally abolished",
+      "k": [
+        "august 1792",
+        "monarchy",
+        "abolished"
+      ],
+      "n": 0
+    },
+    {
+      "id": "revolutionary-tribunal",
+      "tier": "power",
+      "t": "Tried by the Revolutionary Tribunal on charges including treason in October 1793",
+      "k": [
+        "revolutionary tribunal",
+        "treason"
+      ],
+      "n": 0
+    },
+    {
+      "id": "louis-xvii",
+      "tier": "power",
+      "t": "Her young son was later called “Louis XVII” by royalists, though he never actually ruled",
+      "k": [
+        "louis xvii"
+      ],
+      "n": 0,
+      "rabbit": "Louis XVII"
+    },
+    {
+      "id": "birth-name",
+      "tier": "power",
+      "t": "Born with the name Maria Antonia in Vienna before taking a French form of her name",
+      "k": [
+        "maria antonia",
+        "vienna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "temple-prison",
+      "tier": "power",
+      "t": "Held with her family in Paris’s Temple prison after the monarchy fell",
+      "k": [
+        "temple prison",
+        "paris"
+      ],
+      "n": 0
+    },
+    {
+      "id": "louis-xvi-executed-first",
+      "tier": "power",
+      "t": "Her husband was tried and executed months before she was, in January 1793",
+      "k": [
+        "january 1793",
+        "husband"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rousseau-origin",
+      "tier": "power",
+      "t": "The “let them eat cake” line actually traces back to a memoir by Jean-Jacques Rousseau, about someone else entirely",
+      "k": [
+        "rousseau",
+        "jean jacques rousseau"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which royal? Which Louis?",
+    "body": "France had several kings named Louis, so always get the number right: this woman married Louis XVI, not the much earlier “Sun King” Louis XIV or his great-grandson Louis XV. Her mother, Empress Maria Theresa of Austria, and the earlier French queens Catherine de’ Medici and Anne of Austria are easy namesake mix-ups too. And watch for “let them eat cake”: real tossups treat it as a myth she never actually said, not as a genuine clue about her.",
+    "fix": "Varennes, the Diamond Necklace, and the guillotine in 1793 all mean this queen. A clue about “this king” being executed first, in January 1793, means Louis XVI instead. Vigée Le Brun and Jacques-Louis David are the painters who depicted her, not the answer itself.",
+    "line": "Real answer line: <b><u>Marie Antoinette</u></b> (accept <u>Maria Antonia Josepha Johanna</u>; prompt on partial answers)"
+  },
+  "freq": {
+    "rank": 35,
+    "count": 3,
+    "list": "European History"
+  }
+}

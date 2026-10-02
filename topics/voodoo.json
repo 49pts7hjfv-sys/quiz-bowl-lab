@@ -1,0 +1,454 @@
+{
+  "id": "voodoo",
+  "name": "Voodoo",
+  "mono": "VD",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Haitian faith · Blends West African lwa worship with Catholic saints",
+  "dates": "Developed 1600s–1800s in colonial Haiti",
+  "briefing": "Beneath a top hat and tails, the spirit Baron Samedi watches over the dead in a real religion practiced by millions across Haiti and its diaspora. Vodou grew when enslaved West Africans blended their traditions with Catholicism, worshipping a distant creator, Bondye, through hundreds of approachable spirits called lwa. Priests called houngans and priestesses called mambos lead drumming ceremonies where dancers may become possessed — a far cry from Hollywood’s dolls and curses.",
+  "answerHtml": "<b><u>Voodoo</u></b> (or <u>Vodou</u> or <u>Vodun</u>; accept <u>Haitian Vodou</u> or <u>Louisiana Voodoo</u>)",
+  "accept": [
+    "voodoo",
+    "vodou",
+    "vodun",
+    "vodoun",
+    "vaudou",
+    "vaudoux",
+    "voudou",
+    "vodon",
+    "haitian vodou",
+    "haitian voodoo",
+    "louisiana voodoo",
+    "haitian vodoun"
+  ],
+  "prompt": [],
+  "reject": [
+    "voodoo doll",
+    "voodoo dolls",
+    "hoodoo",
+    "santeria",
+    "candomble",
+    "umbanda",
+    "obeah",
+    "rastafarianism",
+    "rastafarian",
+    "rastafari",
+    "rasta",
+    "lwa",
+    "loa",
+    "bondye"
+  ],
+  "tests": {
+    "right": [
+      "Voodoo",
+      "Vodou",
+      "Voodo",
+      "Haitian Vodou",
+      "Vodun"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Hoodoo",
+      "Santeria",
+      "Rastafarianism",
+      "Voodoo doll",
+      "Candomble",
+      "Lwa",
+      "Bondye",
+      "Obeah"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Haitian Voodoo",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=kpeLdXeIbwA",
+      "note": "Short · National Geographic’s look at the real religion in Haiti"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What Is Vodou? The Real Religion of the Lwa and Ancestors",
+      "source": "Religion Files",
+      "url": "https://www.youtube.com/watch?v=DRDso6m45Tw",
+      "note": "Overview of Bondye, the lwa, and common misconceptions"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Vodou and The Lwa",
+      "source": "Nottingham Contemporary",
+      "url": "https://www.youtube.com/watch?v=3pqM46MYCFA",
+      "note": "Museum talk on the lwa and their role in Vodou"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Baron Samedi - The Powerful Lwa Of Life And Death In Haitian Voodoo | Voodoo Religion Explained",
+      "source": "Afro Emperor Fiction & Mythology",
+      "url": "https://www.youtube.com/watch?v=3TyGDKfW0sc",
+      "note": "A closer look at one well-known lwa, Baron Samedi"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Religions of the African Diaspora (Crash Course Religions #11)",
+      "source": "Crash Course Religions",
+      "url": "https://www.youtube.com/watch?v=eWQrjBoT8BA",
+      "note": "Bigger picture · Vodou, Santería, and other African diaspora religions"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Vodou",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Vodou/277629",
+      "note": "Quick encyclopedia read for students"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Haitian_Vodou",
+  "qb": {
+    "q": "Voodoo",
+    "found": 11,
+    "tip": "11 results came back, but one was actually a different answer line (“dolls,” accepting kachina dolls or voodoo dolls as objects, not this religion), so we treated it as a search mismatch and used the other 10; nearly every one of those ends by noting that real believers don’t actually use pins and dolls, which is worth building into the trap."
+  },
+  "sample": {
+    "n": 10,
+    "note": "10 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "One spirit in this religion wears three wedding bands, symbolizing her marriages to three other spirits, including the warrior Ogou and the serpent spirit Damballa [“dahm-bah-LAH”]. That spirit of love and beauty, Erzulie [“air-ZOO-lee”], is one of hundreds of spirits called lwa that believers honor.",
+      "r": "Those spirits connect worshippers to a distant creator called Bondye. For 10 points, name this Haitian religion, which does not actually focus on cursing dolls."
+    },
+    {
+      "p": "A 1791 ceremony at Bois Caïman [“bwah ky-MAHN”], led by figures of this religion, is widely remembered as a spark for the uprising that won Haiti’s independence. Priests called houngans and priestesses called mambos have long led this religion’s ceremonies of drumming, song, and dance.",
+      "r": "Its supreme god, Bondye, is reached only through spirits called lwa. For 10 points, name this religion, whose practitioners do not really use pins and dolls to curse people."
+    },
+    {
+      "p": "Tradition in this religion holds that every person’s soul has two linked parts, called the gros bon ange and the ti bon ange. Initiated priests and priestesses carry a sacred beaded rattle, the asson, and may undergo possession by a spirit during ceremonies.",
+      "r": "Those spirits, called lwa, include Baron Samedi and Papa Legba. For 10 points, name this Haitian religion that blends West African traditions with Catholicism."
+    },
+    {
+      "p": "A specialist called a bokor is sometimes hired in this religion for darker magic, unlike the community-serving priests and priestesses. Protective charm bags called gris-gris [“GREE-gree”] are part of a related tradition that took root in Louisiana, where Marie Laveau became a famous 19th-century priestess.",
+      "r": "This religion’s main form developed in Haiti, blending Catholic and West African beliefs. For 10 points, name this religion, which doesn’t really revolve around cursing dolls."
+    },
+    {
+      "p": "Before many ceremonies in this religion, believers draw geometric patterns called veves [“vay-VAYS”] on the ground to invite a particular spirit to attend. One such spirit, Papa Legba, guardian of crossroads and gates, is traditionally saluted first.",
+      "r": "Drumming and dance can lead worshippers to be possessed by one of these spirits, called lwa. For 10 points, name this Haitian religion."
+    },
+    {
+      "p": "Becoming a priest or priestess in this religion requires an initiation called the kanzo, which includes ritual seclusion and a symbolic washing of the head. Initiates then carry a sacred rattle called an asson.",
+      "r": "Those priests, called houngans and mambos, lead ceremonies honoring spirits known as lwa. For 10 points, name this religion practiced mainly in Haiti."
+    },
+    {
+      "p": "The Ghede family of spirits in this religion, linked to death and ancestors, is often represented by a cross standing over a tomb. The head of that family, Baron Samedi, is usually pictured in a top hat, tails, and dark glasses.",
+      "r": "He and other lwa connect believers to a distant creator called Bondye. For 10 points, name this Haitian religion, which is often unfairly reduced to zombies and dolls in movies."
+    },
+    {
+      "p": "Spirits in this religion are organized into groups called “nations,” including the gentle Rada and the fierier Petwo [“PET-wo”]. Most of these spirits are also linked to Catholic saints, a result of enslaved West Africans blending their beliefs with Catholicism under colonial rule.",
+      "r": "Priests called houngans and priestesses called mambos lead this religion’s ceremonies. For 10 points, name this religion whose spirits are called lwa."
+    },
+    {
+      "p": "A jar called a govi is used in this religion to hold and honor the spirit of someone who has died. Spirits in this religion, called lwa, serve as go-betweens for a distant creator god whose French-derived name, Bondye, means “good god.”",
+      "r": "They include Papa Legba and the top-hatted Baron Samedi. For 10 points, name this religion of Haiti, which doesn’t actually use pins and dolls to curse people."
+    },
+    {
+      "p": "A serpent spirit linked to water, Damballa, is honored in this religion alongside hundreds of other lwa. This religion’s priests, called houngans, and priestesses, called mambos, lead ceremonies of drumming, song, and dance that can end in spirit possession.",
+      "r": "A related tradition took root in Louisiana, home to the famous priestess Marie Laveau. For 10 points, name this Haitian religion."
+    },
+    {
+      "p": "A warrior spirit tied to iron and weapons, Ogou [“oh-GOO”], is especially honored by soldiers and metalworkers in this religion. Spirits here are called lwa, and they connect believers to a distant creator known as Bondye.",
+      "r": "This religion developed in Haiti by blending West African traditions with Catholicism. For 10 points, name this religion, which doesn’t really revolve around cursing dolls."
+    },
+    {
+      "p": "Marie Laveau became a famous 19th-century priestess of a Louisiana branch of this religion in New Orleans. Its main form developed in Haiti, where priests called houngans and priestesses called mambos lead worshippers in drumming, song, and dance.",
+      "r": "Believers honor spirits called lwa, including Baron Samedi and Papa Legba. For 10 points, name this religion, which doesn’t actually focus on cursing dolls."
+    },
+    {
+      "p": "Baron Samedi, lord of the dead and cemeteries in this religion, is traditionally pictured in a top hat, tails, and dark glasses, smoking a cigar. He is one of hundreds of spirits called lwa who connect believers to the distant creator Bondye.",
+      "r": "Priests called houngans and priestesses called mambos lead this religion’s drumming ceremonies. For 10 points, name this religion of Haiti, often unfairly linked to zombies and dolls in movies."
+    },
+    {
+      "p": "Papa Legba, the guardian of crossroads and gates, is traditionally saluted first at ceremonies in this religion, which honors hundreds of spirits called lwa. Those spirits serve as go-betweens for a distant, rarely-approached creator called Bondye.",
+      "r": "This religion blends West African traditions with Roman Catholicism. For 10 points, name this religion practiced in Haiti and in Louisiana, which does not actually use pins and dolls to curse people."
+    },
+    {
+      "p": "Priests called houngans and priestesses called mambos lead this religion’s ceremonies of drumming, singing, and dance, which can end in spirit possession. Believers honor hundreds of spirits called lwa, who connect them to a distant creator, Bondye.",
+      "r": "Despite its portrayal in horror movies, real believers do not use pins and dolls to curse people. For 10 points, name this Haitian religion that blends West African traditions with Catholicism."
+    }
+  ],
+  "clues": [
+    {
+      "id": "haiti-origin",
+      "tier": "giveaway",
+      "t": "A religion that developed in Haiti, blending West African traditions with Roman Catholicism",
+      "k": [
+        "haiti",
+        "west african",
+        "catholicism"
+      ],
+      "n": 10
+    },
+    {
+      "id": "lwa",
+      "tier": "giveaway",
+      "t": "Believers honor spirits called lwa (or loa), who connect people to the divine",
+      "k": [
+        "lwa",
+        "loa",
+        "spirits"
+      ],
+      "n": 10
+    },
+    {
+      "id": "not-hollywood",
+      "tier": "giveaway",
+      "t": "Real-world believers do not use pins and dolls to curse people — that’s a Hollywood myth, not the actual faith",
+      "k": [
+        "hollywood myth",
+        "pins and dolls",
+        "not real"
+      ],
+      "n": 6
+    },
+    {
+      "id": "houngan-mambo",
+      "tier": "giveaway",
+      "t": "Priests called houngans and priestesses called mambos lead ceremonies of drumming, singing, and dance",
+      "k": [
+        "houngan",
+        "mambo",
+        "drumming"
+      ],
+      "n": 5
+    },
+    {
+      "id": "bondye",
+      "tier": "middle",
+      "t": "A distant supreme creator, Bondye (from French for “good god”), is approached only through the spirits, not directly",
+      "k": [
+        "bondye",
+        "good god",
+        "distant creator"
+      ],
+      "n": 7
+    },
+    {
+      "id": "papa-legba",
+      "tier": "middle",
+      "t": "Papa Legba, guardian of crossroads and gates, is traditionally saluted first at the start of ceremonies",
+      "k": [
+        "papa legba",
+        "crossroads",
+        "saluted first"
+      ],
+      "n": 10,
+      "rabbit": "Papa Legba"
+    },
+    {
+      "id": "baron-samedi",
+      "tier": "middle",
+      "t": "Baron Samedi, head of the Ghede spirits and lord of the dead and cemeteries, is pictured in a top hat, tails, and dark glasses",
+      "k": [
+        "baron samedi",
+        "top hat",
+        "cemeteries"
+      ],
+      "n": 7
+    },
+    {
+      "id": "catholic-saints",
+      "tier": "middle",
+      "t": "Most spirits are linked to Catholic saints, since the faith grew out of enslaved Africans blending their religion with Catholicism in secret",
+      "k": [
+        "catholic saints",
+        "blending",
+        "enslaved"
+      ],
+      "n": 5
+    },
+    {
+      "id": "new-orleans",
+      "tier": "middle",
+      "t": "A related tradition took root in Louisiana, where Marie Laveau became a famous 19th-century priestess in New Orleans",
+      "k": [
+        "louisiana",
+        "marie laveau",
+        "new orleans"
+      ],
+      "n": 4,
+      "rabbit": "Marie Laveau"
+    },
+    {
+      "id": "possession",
+      "tier": "middle",
+      "t": "Drumming and dancing at ceremonies can lead to spirit possession, when a lwa is believed to ride a devotee",
+      "k": [
+        "possession",
+        "ride a devotee",
+        "drumming"
+      ],
+      "n": 0
+    },
+    {
+      "id": "erzulie",
+      "tier": "power",
+      "t": "Erzulie, a spirit of love and beauty, wears three wedding bands for her symbolic marriages to three other spirits",
+      "k": [
+        "erzulie",
+        "love and beauty",
+        "three wedding bands"
+      ],
+      "n": 1
+    },
+    {
+      "id": "damballa",
+      "tier": "power",
+      "t": "Damballa, a serpent spirit linked to water, is one of Erzulie’s symbolic husbands",
+      "k": [
+        "damballa",
+        "serpent spirit",
+        "water"
+      ],
+      "n": 2,
+      "rabbit": "Damballa"
+    },
+    {
+      "id": "ogou",
+      "tier": "power",
+      "t": "Ogou, a warrior spirit tied to iron and weapons, is honored especially by soldiers and metalworkers",
+      "k": [
+        "ogou",
+        "warrior spirit",
+        "iron"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ghede",
+      "tier": "power",
+      "t": "The Ghede family of spirits, linked to death and ancestors, is often shown as a cross standing over a tomb",
+      "k": [
+        "ghede",
+        "cross over a tomb",
+        "ancestors"
+      ],
+      "n": 1
+    },
+    {
+      "id": "rada-petwo",
+      "tier": "power",
+      "t": "Spirits are grouped into “nations,” including the gentle Rada and the fierier Petwo",
+      "k": [
+        "rada",
+        "petwo",
+        "nations"
+      ],
+      "n": 1
+    },
+    {
+      "id": "asson",
+      "tier": "power",
+      "t": "Priests and priestesses carry a sacred beaded rattle called an asson once they complete initiation",
+      "k": [
+        "asson",
+        "rattle",
+        "initiation"
+      ],
+      "n": 1
+    },
+    {
+      "id": "veve",
+      "tier": "power",
+      "t": "Before a ceremony, believers draw geometric patterns called veves on the ground to invite a specific spirit",
+      "k": [
+        "veve",
+        "geometric patterns",
+        "ground"
+      ],
+      "n": 1
+    },
+    {
+      "id": "kanzo",
+      "tier": "power",
+      "t": "Becoming a priest or priestess requires the kanzo initiation, including ritual seclusion and a symbolic head-washing",
+      "k": [
+        "kanzo",
+        "initiation",
+        "head-washing"
+      ],
+      "n": 2
+    },
+    {
+      "id": "two-souls",
+      "tier": "power",
+      "t": "Tradition holds that each person’s soul has two parts, the gros bon ange and the ti bon ange",
+      "k": [
+        "gros bon ange",
+        "ti bon ange",
+        "two parts"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bokor",
+      "tier": "power",
+      "t": "A bokor is a specialist sometimes hired for darker magic, unlike the community-serving houngans and mambos",
+      "k": [
+        "bokor",
+        "darker magic",
+        "specialist"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bois-caiman",
+      "tier": "power",
+      "t": "A 1791 ceremony at Bois Caïman is widely remembered as a spark for the uprising that won Haiti’s independence",
+      "k": [
+        "bois caiman",
+        "1791",
+        "uprising"
+      ],
+      "n": 0,
+      "rabbit": "Haitian Revolution"
+    },
+    {
+      "id": "gris-gris",
+      "tier": "power",
+      "t": "Protective charm bags called gris-gris are a well-known part of the related Louisiana tradition",
+      "k": [
+        "gris-gris",
+        "charm bags",
+        "louisiana"
+      ],
+      "n": 1
+    },
+    {
+      "id": "govi",
+      "tier": "power",
+      "t": "A govi is a jar believed to hold and honor the spirit of someone who has died",
+      "k": [
+        "govi",
+        "jar",
+        "spirit of the dead"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Dolls are another answer line",
+    "body": "Because the real-world stereotype about pins and dolls is so well known, some tossups are actually about “dolls” as an object (accepting kachina dolls or voodoo dolls), not about this religion — don’t blurt the religion’s name when the question wants the object. It’s also easy to confuse this religion with Santería (Cuban, orishas and santeros) or Hoodoo (an American folk-magic practice with no temples or formal priesthood), which share African roots but are not the same tradition.",
+    "fix": "If the question asks “name this religion” and mentions Bondye, lwa, houngans, or mambos, answer “Voodoo” or “Vodou.” If it asks “name this object” and focuses on pins, answer “dolls” instead. Santería’s spirits are orishas, not lwa; Hoodoo has no priesthood at all.",
+    "line": "Real answer line: <b><u>Voodoo</u></b> [or <u>Vodun</u>; accept <u>Haitian Vodou</u> or <u>Louisiana Voodoo</u>]"
+  },
+  "freq": {
+    "rank": 6,
+    "count": 8,
+    "list": "Religion"
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "id": "rene-descartes",
+  "name": "René Descartes",
+  "mono": "RD",
+  "category": "Philosophy",
+  "qbCategory": "Philosophy",
+  "kicker": "French philosopher and mathematician · Father of mind-body dualism",
+  "dates": "1596–1650",
+  "briefing": "René Descartes wanted to doubt absolutely everything until he found one fact he could not deny: that he was thinking, and therefore he existed. That idea, “I think, therefore I am,” first appeared in his _Discourse on the Method_, and his most famous book, _Meditations on First Philosophy_, argued that mind and body are two separate kinds of things. He was a brilliant mathematician too: the x-y graph used in math class is called the “Cartesian plane” in his honor.",
+  "answerHtml": "René <b><u>Descartes</u></b> (prompt on “Cartesian coordinate system,” “Cartesian plane,” or “Cartesian dualism” before mention)",
+  "accept": [
+    "descartes",
+    "rene descartes",
+    "renatus cartesius"
+  ],
+  "prompt": [
+    "cartesian coordinate system",
+    "cartesian plane",
+    "cartesian coordinates",
+    "cartesian dualism",
+    "cartesian circle"
+  ],
+  "reject": [
+    "rene magritte",
+    "blaise pascal",
+    "sartre",
+    "jean paul sartre",
+    "john locke",
+    "immanuel kant"
+  ],
+  "tests": {
+    "right": [
+      "Descartes",
+      "Rene Descartes",
+      "Decartes",
+      "René Descartes"
+    ],
+    "prompt": [
+      "Cartesian plane",
+      "Cartesian coordinate system",
+      "Cartesian dualism"
+    ],
+    "wrong": [
+      "Blaise Pascal",
+      "Rene Magritte",
+      "John Locke",
+      "Immanuel Kant",
+      "Sartre"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Cartesian Skepticism - Neo, Meet Rene: Crash Course Philosophy #5",
+      "source": "Crash Course Philosophy",
+      "url": "https://www.youtube.com/watch?v=MLKrmw906TM",
+      "note": "Hank Green on Descartes’s method of doubt and “I think, therefore I am” (uses The Matrix as an example)"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Where Does Your Mind Reside?: Crash Course Philosophy #22",
+      "source": "Crash Course Philosophy",
+      "url": "https://www.youtube.com/watch?v=3SJROTXnmus",
+      "note": "Bigger picture · the mind-body problem, starting with Descartes’s idea that mind and body are separate"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "René Descartes Facts for Kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Ren%C3%A9_Descartes",
+      "note": "Quick read: his life, his mind-body ideas, and his work in math and physics"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/René_Descartes",
+  "qb": {
+    "q": "Descartes",
+    "found": 4,
+    "tip": "Only 4 Middle School/Easy High School tossups, so we added 12 Regular HS ones for more clues. Skip any result about the separate “Snell-Descartes Law” answer line in physics; that question wants the law of refraction, not this man."
+  },
+  "sample": {
+    "n": 15,
+    "note": "15 real QBReader tossups for this answer line (4 Middle School/Easy High School + 11 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This thinker opened a six-part work with a chapter called “What Can Be Called Into Doubt,” arguing that since dreams can feel just as real as waking life, the senses alone prove nothing for certain. To push that doubt even further, he imagined an evil demon bent on deceiving him about absolutely everything.",
+      "r": "He decided that the one thing he could not doubt was his own thinking. For 10 points, name this French philosopher who wrote _Meditations on First Philosophy_ and concluded, “I think, therefore I am.”"
+    },
+    {
+      "p": "Princess Elisabeth of Bohemia pressed this thinker to explain how an immaterial mind could possibly move a physical body, a puzzle later called the “problem of interaction.” This thinker believed that the two met inside a small structure in the brain called the pineal gland.",
+      "r": "He had described mind and body as two completely separate kinds of substance in his _Meditations on First Philosophy_. For 10 points, name this French rationalist who wrote “I think, therefore I am.”"
+    },
+    {
+      "p": "This thinker used a piece of wax that keeps changing shape, smell, and texture as it melts to argue that only reason, not the senses, can ever truly understand what an object is. He split all of reality into thinking substance and extended, physical substance.",
+      "r": "That split is now called mind-body dualism. For 10 points, name this French philosopher who proposed this theory in _Meditations on First Philosophy_ and declared, “I think, therefore I am.”"
+    },
+    {
+      "p": "This thinker imagined a thousand-sided shape called a chiliagon [“KIL-ee-uh-gon”] to show that the mind can understand an idea clearly through reason even when it cannot picture it through imagination. He also distinguished ideas that are innate, invented, or received from the senses.",
+      "r": "This thinker argued that because he had an idea of a perfect, infinite being, that being, God, must exist. For 10 points, name this French philosopher who wrote _Meditations on First Philosophy_."
+    },
+    {
+      "p": "As a mathematician, this thinker devised a rule for counting how many positive and negative roots a polynomial equation can have, now called his Rule of Signs. He also pioneered analytic geometry, the use of algebra to study geometric shapes.",
+      "r": "The x-y coordinate grid used in graphing is named for him. For 10 points, name this French thinker and mathematician who also wrote “I think, therefore I am.”"
+    },
+    {
+      "p": "Twentieth-century philosopher Gilbert Ryle mocked one of this man’s ideas as the “ghost in the machine” and called it a “category mistake” in his book _The Concept of Mind_. Ryle was attacking this man’s theory that the mind and body are two separate substances.",
+      "r": "That theory is now called mind-body dualism. For 10 points, name this French philosopher who proposed it in _Meditations on First Philosophy_."
+    },
+    {
+      "p": "Critics including Antoine Arnauld and Pierre Gassendi wrote formal objections to this thinker’s most famous book, and he published his point-by-point answers alongside them as “Objections and Replies.” Some critics accused him of circular reasoning in his proof that God exists.",
+      "r": "That accusation is sometimes called his namesake “circle.” For 10 points, name this French philosopher whose _Meditations on First Philosophy_ drew all those objections."
+    },
+    {
+      "p": "After years of living quietly in the Dutch Republic, this thinker traveled to Sweden at the invitation of Queen Christina, who wanted him to tutor her in philosophy. He caught pneumonia there in the harsh winter and died in 1650.",
+      "r": "Years earlier, he had written that the one thing he could never doubt was his own thinking. For 10 points, name this French philosopher who declared, “I think, therefore I am.”"
+    },
+    {
+      "p": "In his final book, this thinker explained emotions like wonder, love, and hatred as being caused by the movement of tiny “animal spirits” through the nerves. That book, written near the end of his life, was called _The Passions of the Soul_.",
+      "r": "Earlier, in _Meditations on First Philosophy_, this same thinker had argued that mind and body are entirely separate things. For 10 points, name this French philosopher who wrote “I think, therefore I am.”"
+    },
+    {
+      "p": "This thinker’s most famous book opens with a section explaining what can be “called into doubt,” before moving on to an argument built around a melting piece of wax, which he said only the intellect, and not the senses, can truly know.",
+      "r": "That book also describes an all-powerful evil demon devoted to deception. For 10 points, name this French philosopher whose _Meditations on First Philosophy_ concludes that mind and body are separate substances."
+    },
+    {
+      "p": "This thinker’s work often just called his _Discourse_ laid out a four-step method for reasoning clearly and first stated the idea known in Latin as “cogito, ergo sum.” He also used that method of radical doubt to question even basic mathematics.",
+      "r": "That phrase translates to “I think, therefore I am.” For 10 points, name this French philosopher and mathematician, the namesake of the Cartesian coordinate plane."
+    },
+    {
+      "p": "This thinker compared the usual view of how a mind controls a body to a sailor simply steering a ship, before arguing that the true relationship feels much closer and more “intermingled” than that. He is also remembered for describing a deceptive evil demon.",
+      "r": "That demon appears in his _Meditations on First Philosophy_, which also proposes mind-body dualism. For 10 points, name this French philosopher who wrote “I think, therefore I am.”"
+    },
+    {
+      "p": "Besides his philosophy, this man worked out a law describing how light bends when it passes from one medium into another, publishing it as an essay on optics alongside his famous _Discourse_. That law of refraction is sometimes named jointly for him and Snell.",
+      "r": "In philosophy, this same man is remembered for radical doubt and for saying “I think, therefore I am.” For 10 points, name this French thinker, the namesake of the Cartesian coordinate system."
+    },
+    {
+      "p": "This philosopher argued that children are born with certain innate ideas already present in the mind, a claim that English thinkers who believed in the “blank slate” would later reject. He also believed that knowledge built on reason was more reliable than knowledge built on the senses.",
+      "r": "That approach makes him one of the first great rationalists. For 10 points, name this French philosopher who wrote _Meditations on First Philosophy_ and declared, “I think, therefore I am.”"
+    },
+    {
+      "p": "This thinker spent much of his adult life living quietly in the Dutch Republic, away from France, so he could write and study in peace. While there, he corresponded with Princess Elisabeth of Bohemia about how the mind and body interact.",
+      "r": "He is considered the father of modern philosophy and of analytic geometry. For 10 points, name this French thinker who wrote _Meditations on First Philosophy_ and concluded, “I think, therefore I am.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "cogito",
+      "tier": "giveaway",
+      "t": "“Cogito, ergo sum” — “I think, therefore I am,” first stated in the _Discourse on the Method_",
+      "k": [
+        "cogito",
+        "therefore i am",
+        "think therefore"
+      ],
+      "n": 14
+    },
+    {
+      "id": "french-philosopher-mathematician",
+      "tier": "giveaway",
+      "t": "French philosopher AND mathematician (1596–1650)",
+      "k": [
+        "french",
+        "mathematician",
+        "1596",
+        "1650"
+      ],
+      "n": 10
+    },
+    {
+      "id": "cartesian-coordinates",
+      "tier": "giveaway",
+      "t": "Namesake of the Cartesian coordinate system (the x-y graph) and a founder of analytic geometry",
+      "k": [
+        "cartesian",
+        "coordinate",
+        "x-y",
+        "analytic geometry"
+      ],
+      "n": 3
+    },
+    {
+      "id": "meditations",
+      "tier": "giveaway",
+      "t": "Wrote _Meditations on First Philosophy_, his most famous philosophical book",
+      "k": [
+        "meditations",
+        "first philosophy"
+      ],
+      "n": 12
+    },
+    {
+      "id": "mind-body-dualism",
+      "tier": "middle",
+      "t": "Mind-body dualism: the mind (a thinking thing) and the body (an extended thing) are separate substances",
+      "k": [
+        "dualism",
+        "mind body",
+        "thinking thing"
+      ],
+      "n": 7,
+      "rabbit": "John Locke"
+    },
+    {
+      "id": "evil-demon",
+      "tier": "middle",
+      "t": "Imagined an all-powerful “evil demon” deceiving him about everything, to test what he could still be sure of",
+      "k": [
+        "evil demon",
+        "deceiving"
+      ],
+      "n": 7
+    },
+    {
+      "id": "wax-argument",
+      "tier": "middle",
+      "t": "The wax argument: only reason, not the senses, can know what a piece of melting wax really is",
+      "k": [
+        "wax",
+        "melting",
+        "reason"
+      ],
+      "n": 6
+    },
+    {
+      "id": "method-of-doubt",
+      "tier": "middle",
+      "t": "Used a “method of doubt,” rejecting any belief he could doubt at all, to find a foundation of certain knowledge",
+      "k": [
+        "method of doubt",
+        "doubt everything"
+      ],
+      "n": 3
+    },
+    {
+      "id": "died-sweden",
+      "tier": "middle",
+      "t": "Died of pneumonia in Sweden (1650) after Queen Christina invited him to tutor her in philosophy",
+      "k": [
+        "sweden",
+        "christina",
+        "pneumonia"
+      ],
+      "n": 1
+    },
+    {
+      "id": "elisabeth-bohemia",
+      "tier": "middle",
+      "t": "Corresponded with Princess Elisabeth of Bohemia, who pressed him on how mind and body interact",
+      "k": [
+        "elisabeth",
+        "bohemia",
+        "interaction"
+      ],
+      "n": 3
+    },
+    {
+      "id": "discourse-method",
+      "tier": "middle",
+      "t": "_Discourse on the Method_ laid out his four-step method and first stated “I think, therefore I am”",
+      "k": [
+        "discourse",
+        "method"
+      ],
+      "n": 3
+    },
+    {
+      "id": "doubt-chapter",
+      "tier": "power",
+      "t": "_Meditations_ opens with a chapter titled “What Can Be Called Into Doubt”",
+      "k": [
+        "called into doubt"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dream-argument",
+      "tier": "power",
+      "t": "The “dream argument”: since dreams can feel completely real, the senses alone cannot prove we are awake",
+      "k": [
+        "dream argument",
+        "dreaming"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pineal-gland",
+      "tier": "power",
+      "t": "Believed the pineal gland in the brain was where the immaterial mind interacted with the physical body",
+      "k": [
+        "pineal gland"
+      ],
+      "n": 2
+    },
+    {
+      "id": "res-cogitans-extensa",
+      "tier": "power",
+      "t": "Divided reality into _res cogitans_ (thinking substance) and _res extensa_ (extended, physical substance)",
+      "k": [
+        "res cogitans",
+        "res extensa",
+        "extended substance"
+      ],
+      "n": 1
+    },
+    {
+      "id": "chiliagon",
+      "tier": "power",
+      "t": "Used the chiliagon, a thousand-sided shape nobody can picture, to separate imagination from understanding",
+      "k": [
+        "chiliagon",
+        "thousand sided"
+      ],
+      "n": 1,
+      "rabbit": "non-Euclidean geometry"
+    },
+    {
+      "id": "rule-of-signs",
+      "tier": "power",
+      "t": "As a mathematician, devised the Rule of Signs for counting a polynomial’s positive and negative roots",
+      "k": [
+        "rule of signs",
+        "polynomial"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ghost-in-machine",
+      "tier": "power",
+      "t": "Philosopher Gilbert Ryle later mocked his mind-body dualism as the “ghost in the machine”",
+      "k": [
+        "ghost in the machine",
+        "ryle"
+      ],
+      "n": 5
+    },
+    {
+      "id": "cartesian-circle",
+      "tier": "power",
+      "t": "Accused of circular reasoning, now called the “Cartesian circle,” in his proof that God exists",
+      "k": [
+        "cartesian circle",
+        "circular reasoning"
+      ],
+      "n": 1
+    },
+    {
+      "id": "objections-replies",
+      "tier": "power",
+      "t": "Published “Objections and Replies,” his answers to critics like Gassendi and Arnauld who challenged the _Meditations_",
+      "k": [
+        "objections and replies",
+        "gassendi",
+        "arnauld"
+      ],
+      "n": 2
+    },
+    {
+      "id": "refraction-law",
+      "tier": "power",
+      "t": "Also worked in optics, describing the law of refraction of light (shares a namesake law with Snell)",
+      "k": [
+        "refraction",
+        "optics",
+        "snell"
+      ],
+      "n": 1
+    },
+    {
+      "id": "dutch-republic",
+      "tier": "power",
+      "t": "Spent most of his adult working life living quietly in the Dutch Republic, away from France",
+      "k": [
+        "dutch republic",
+        "netherlands"
+      ],
+      "n": 2
+    },
+    {
+      "id": "sailor-ship",
+      "tier": "power",
+      "t": "Argued the mind is not merely steering the body like a sailor steers a ship, but is deeply “intermingled” with it",
+      "k": [
+        "sailor",
+        "ship",
+        "intermingled"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Rationalist, not empiricist",
+    "body": "Real tossups often pile on words like “philosopher,” “doubt,” and “innate ideas” that also fit other Enlightenment thinkers. Mixing this man up with a British empiricist like John Locke, who argued the mind starts as a blank slate with no innate ideas, is the single most common wrong buzz, since the two philosophers argue almost the exact opposite point.",
+    "fix": "This man’s clues are rationalist: innate ideas, doubting the senses, an evil demon, melting wax, mind-body dualism, and the Cartesian coordinate plane. Locke’s clues are empiricist: tabula rasa, no innate ideas, knowledge from experience, and natural rights to life, liberty, and property.",
+    "line": "Real answer line: René <b><u>Descartes</u></b> (prompt on “Cartesian coordinate system,” “Cartesian plane,” or “Cartesian dualism” before mention)"
+  },
+  "freq": {
+    "rank": 9,
+    "count": 4,
+    "list": "Philosophy"
+  }
+}

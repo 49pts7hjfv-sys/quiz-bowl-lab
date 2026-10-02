@@ -1,0 +1,531 @@
+{
+  "id": "fasting",
+  "name": "Fasting",
+  "mono": "FS",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Going without food for faith · Practiced across many religions",
+  "dates": "Practiced since ancient times",
+  "briefing": "Fasting means going without food, and sometimes drink, for a set time as an act of faith. Muslims fast from dawn to sunset all through Ramadan, Jews fast for about 25 hours on Yom Kippur, many Christians give things up for the 40 days of Lent, and Bahá’ís fast from sunrise to sunset for 19 days every March. Mohandas Gandhi even turned fasting into a peaceful form of protest.",
+  "answerHtml": "<b><u>fasting</u></b> (accept <u>fast</u>s, <u>sawm</u>, or <u>siyam</u>; prompt on descriptions like “not eating” or the Hebrew word <u>ta’anit</u>; do not accept “Ramadan”)",
+  "accept": [
+    "fasting",
+    "fast",
+    "fasts",
+    "fasted",
+    "sawm",
+    "saum",
+    "siyam",
+    "religious fasting"
+  ],
+  "prompt": [
+    "not eating",
+    "not eating food",
+    "not eating or drinking",
+    "no eating",
+    "no food",
+    "abstaining from food",
+    "abstaining from eating",
+    "abstaining from food and drink",
+    "going without food",
+    "hunger strike",
+    "taanit"
+  ],
+  "reject": [
+    "ramadan",
+    "yom kippur",
+    "lent",
+    "prayer",
+    "almsgiving",
+    "pilgrimage",
+    "eid",
+    "eid al fitr",
+    "eid ul fitr",
+    "breaking the fast",
+    "iftar",
+    "suhoor",
+    "suhur",
+    "feast",
+    "feasts",
+    "feasting",
+    "tisha bav",
+    "ash wednesday",
+    "good friday",
+    "fast of esther",
+    "zakat",
+    "salat",
+    "hajj",
+    "charity",
+    "meditation"
+  ],
+  "tests": {
+    "right": [
+      "fasting",
+      "Fasting",
+      "fast",
+      "Sawm",
+      "fastng",
+      "siyam",
+      "a fast"
+    ],
+    "prompt": [
+      "not eating",
+      "hunger strike",
+      "ta'anit"
+    ],
+    "wrong": [
+      "Ramadan",
+      "Yom Kippur",
+      "feasting",
+      "Lent",
+      "prayer",
+      "Eid al-Fitr",
+      "breaking the fast",
+      "pilgrimage"
+    ]
+  },
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Why do some religions fast for faith?",
+      "source": "CBC Kids News",
+      "url": "https://www.youtube.com/watch?v=yXkzNMc2dUY",
+      "note": "Short · Canadian kids’ news on why people of several faiths go without food"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What is Ramadan? | Explainer",
+      "source": "BBC Newsround",
+      "url": "https://www.youtube.com/watch?v=Qa2f7gdP4vw",
+      "note": "Short · the Muslim month of dawn-to-sunset fasting, explained for kids"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "What is Lent? The Christian Festival Before Easter",
+      "source": "Behind the News (ABC Australia)",
+      "url": "https://www.youtube.com/watch?v=-4ZuiMdCH7w",
+      "note": "Short · kids’ news on Lent, the Christian season before Easter"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "The longest vs shortest fasting hours: Ramadan North and South",
+      "source": "Al Jazeera English",
+      "url": "https://www.youtube.com/watch?v=4kCx1R_V8A0",
+      "note": "Documentary · how long the daily fast lasts in the far north and the far south"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "The Five Pillars of Islam | Religions of the World",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=H9U8T8x1AhQ",
+      "note": "Short · Islam’s five core duties, including fasting in Ramadan"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "Fasting (summary)",
+      "source": "Britannica",
+      "url": "https://www.britannica.com/summary/fasting",
+      "note": "One-paragraph encyclopedia summary: Yom Kippur, Lent, Ramadan, and hunger strikes"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Fasting#Religious_views",
+  "qb": {
+    "q": "fast",
+    "found": 4,
+    "tip": "Searching the short word “fast” in the Religion category finds only 4 Middle School/Easy High School tossups, all on target, while the Regular High School search adds Ramadan tossups that only prompt on “fasting” and one sneaky tossup whose answer was “eating.”"
+  },
+  "sample": {
+    "n": 13,
+    "note": "13 real QBReader tossups (4 Middle School/Easy High School + 9 Regular High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Bahá’u’lláh’s [“bah-HAH-oo-LAH”] _Kitáb-i-Aqdas_ [“kih-TAHB-ee AHK-dahs”] commands this practice, which Bahá’ís aged 15 to 70 observe from sunrise to sunset during ʻAláʼ [“ah-LAH”], the nineteen-day month just before their New Year, Naw-Rúz [“no-ROOZ”], in March.",
+      "r": "Jews do it for about 25 hours on Yom Kippur. For 10 points, name this religious practice of going without food for a set time."
+    },
+    {
+      "p": "The 183rd verse of “The Cow,” the longest surah of the Qur’an, says that this practice was prescribed for believers as it was for those before them, so that they might gain taqwa [“TAHK-wah”], or God-consciousness.",
+      "r": "Each day of it ends at sunset with a meal called iftar [“if-TAR”]. For 10 points, name this practice that Muslims observe during Ramadan."
+    },
+    {
+      "p": "On the first Sunday of most months, Latter-day Saints skip two meals and donate the money they save to help people in need. The Assyrian Church of the East does this for three days to remember how the people of Nineveh repented in the Book of Jonah.",
+      "r": "Muslims do it every day of Ramadan. For 10 points, name this practice of going without food."
+    },
+    {
+      "p": "A stone statue from ancient Gandhara [“gun-DAR-uh”], now in the Lahore Museum, shows Siddhartha Gautama worn out by years of this practice. Siddhartha later gave up such harsh self-denial and chose the Middle Way.",
+      "r": "Muslims do this from dawn to sunset during Ramadan. For 10 points, name this practice of going without food."
+    },
+    {
+      "p": "In January 1948, Mohandas Gandhi began this practice in Delhi and kept it up until community leaders promised to stop the fighting between Hindus and Muslims. Gandhi often used this action as a peaceful form of protest.",
+      "r": "Muslims observe it during the daylight hours of Ramadan. For 10 points, name this practice of going without food."
+    },
+    {
+      "p": "Jews perform this practice on Tzom Gedaliah [“TSOHM ged-uh-LYE-uh”], the day after Rosh Hashanah, and on Ta’anit Esther [“tah-ah-NEET ESS-ter”], the day before Purim, which recalls Queen Esther asking her people to do this before she went to see the king.",
+      "r": "On Tisha B’Av [“TISH-uh BAHV”], they do it while mourning the destroyed Temples in Jerusalem. For 10 points, name this practice also observed on Yom Kippur."
+    },
+    {
+      "p": "Jains call this practice upavasa [“oo-puh-VAH-suh”], and many perform it during Paryushana [“par-YOO-shuh-nuh”], a festival when they ask forgiveness from all living beings. During this practice, some Jains drink only boiled water.",
+      "r": "Many Christians do this during Lent, the season before Easter. For 10 points, name this practice of giving up food for religious reasons."
+    },
+    {
+      "p": "On the holiday of Karva Chauth [“KUR-vuh CHOHT”], many married Hindu women perform this practice from sunrise until moonrise, praying for their husbands’ safety. Hindus also often do this on Ekadashi [“ay-KAH-duh-shee”], the eleventh day of each half of the lunar month, a day sacred to Vishnu.",
+      "r": "Jews do it on Yom Kippur. For 10 points, name this religious practice of going without food."
+    },
+    {
+      "p": "Zoroastrians traditionally reject this practice, teaching that weakening the body makes a person less able to fight evil. The Guru Granth Sahib says that people who rely on this ritual are rewarded with “less than a shell.”",
+      "r": "Many Christians perform it during Lent. For 10 points, name this practice that Muslims observe during the daylight hours of Ramadan."
+    },
+    {
+      "p": "An early Christian guidebook called the _Didache_ [“DID-uh-kay”] told believers to perform this practice on Wednesdays and Fridays, and John Wesley’s early Methodists kept that custom to remember the betrayal and death of Jesus.",
+      "r": "Jesus himself did this for forty days in the wilderness. For 10 points, name this practice that many Christians observe during Lent."
+    },
+    {
+      "p": "A verse of the Qur’an says believers may eat and drink at night until the white thread of dawn can be told apart from the black thread, and then this practice begins. Travelers may skip this practice and make up the missed days later.",
+      "r": "For 10 points, name this Pillar of Islam, which Muslims observe from dawn to sunset all through Ramadan."
+    },
+    {
+      "p": "Muslims are forbidden to do this on Eid al-Fitr [“EED al-FIT-ur”], the holiday that ends a month devoted to it. On each day of that month, believers eat a pre-dawn meal called suhoor [“suh-HOOR”] before starting this practice.",
+      "r": "For 10 points, name this practice, one of the Five Pillars of Islam, which lasts from dawn to sunset during Ramadan."
+    },
+    {
+      "p": "Jews perform this practice on Asara B’Tevet [“ah-SAH-rah buh-TAY-vet”], the tenth day of the month of Tevet, to remember when the Babylonians began their siege of Jerusalem. On the holiest day of the Jewish year, this practice lasts about 25 hours.",
+      "r": "For 10 points, name this practice that Jews observe on Yom Kippur and Muslims observe during Ramadan."
+    },
+    {
+      "p": "Moses performed this practice for forty days and forty nights on Mount Sinai while receiving the Ten Commandments. Many Muslims add six days of this practice in Shawwal [“shuh-WAHL”], the month after Ramadan.",
+      "r": "Many Christians do it during Lent. For 10 points, name this practice of going without food for religious reasons."
+    },
+    {
+      "p": "Catholic rules for this practice allow one full meal plus two smaller meals that together do not equal a full one. Catholics aged 18 to 59 follow those rules on Ash Wednesday and Good Friday.",
+      "r": "Many Christians do this during Lent, the 40 days before Easter. For 10 points, name this practice that Muslims observe during Ramadan, the ninth month of the Islamic calendar."
+    }
+  ],
+  "clues": [
+    {
+      "id": "ramadan",
+      "tier": "giveaway",
+      "t": "Muslims do it from dawn to sunset every day of Ramadan, the ninth month of the Islamic calendar",
+      "k": [
+        "ramadan",
+        "dawn to sunset",
+        "ninth month"
+      ],
+      "n": 11,
+      "rabbit": "Ramadan"
+    },
+    {
+      "id": "five-pillars",
+      "tier": "giveaway",
+      "t": "One of the Five Pillars of Islam, usually listed fourth (after the declaration of faith, prayer, and charity)",
+      "k": [
+        "five pillars",
+        "pillars",
+        "fourth"
+      ],
+      "n": 8
+    },
+    {
+      "id": "without-food",
+      "tier": "giveaway",
+      "t": "Giveaway wording: “the religious practice of abstaining from food,” sometimes from drink too, for a set time",
+      "k": [
+        "abstaining",
+        "abstain",
+        "without food"
+      ],
+      "n": 11
+    },
+    {
+      "id": "yom-kippur",
+      "tier": "giveaway",
+      "t": "Jews do it for about 25 hours on Yom Kippur, the Day of Atonement",
+      "k": [
+        "yom kippur",
+        "25 hours",
+        "atonement"
+      ],
+      "n": 4,
+      "rabbit": "Yom Kippur"
+    },
+    {
+      "id": "lent",
+      "tier": "middle",
+      "t": "Many Christians do it during Lent, the 40 days before Easter; Catholics aged 18 to 59 do it on Ash Wednesday and Good Friday",
+      "k": [
+        "lent",
+        "ash wednesday",
+        "good friday",
+        "easter"
+      ],
+      "n": 3,
+      "rabbit": "Lent"
+    },
+    {
+      "id": "iftar",
+      "tier": "middle",
+      "t": "Each day of it ends at sunset with a meal called iftar, often starting with dates and water",
+      "k": [
+        "iftar",
+        "dates",
+        "sunset"
+      ],
+      "n": 5
+    },
+    {
+      "id": "suhoor",
+      "tier": "middle",
+      "t": "Muslims eat a pre-dawn meal called suhoor (or suhur) before each day of it begins",
+      "k": [
+        "suhoor",
+        "suhur",
+        "pre-dawn"
+      ],
+      "n": 2
+    },
+    {
+      "id": "eid-al-fitr",
+      "tier": "middle",
+      "t": "Eid al-Fitr, the “Festival of Breaking the …,” ends Ramadan; doing it on Eid itself is forbidden",
+      "k": [
+        "eid al-fitr",
+        "eid",
+        "forbidden"
+      ],
+      "n": 2,
+      "rabbit": "Eid al-Fitr"
+    },
+    {
+      "id": "tisha-bav",
+      "tier": "middle",
+      "t": "Jews do it on Tisha B’Av, mourning the destruction of both Temples in Jerusalem",
+      "k": [
+        "tisha b’av",
+        "temples",
+        "jerusalem"
+      ],
+      "n": 5
+    },
+    {
+      "id": "forty-days",
+      "tier": "middle",
+      "t": "Jesus did it for 40 days in the wilderness (the model for Lent); Moses did it for 40 days on Mount Sinai",
+      "k": [
+        "40 days",
+        "wilderness",
+        "sinai"
+      ],
+      "n": 0,
+      "rabbit": "Moses"
+    },
+    {
+      "id": "gandhi",
+      "tier": "middle",
+      "t": "Mohandas Gandhi used it as peaceful protest; in January 1948 in Delhi he kept it up until leaders promised to end Hindu–Muslim fighting",
+      "k": [
+        "gandhi",
+        "protest",
+        "hunger strike",
+        "delhi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shawwal",
+      "tier": "middle",
+      "t": "Many Muslims add six more days of it in Shawwal, the month after Ramadan",
+      "k": [
+        "shawwal",
+        "six more days",
+        "six days"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bahai-fast",
+      "tier": "power",
+      "t": "Bahá’ís aged 15 to 70 do it from sunrise to sunset for 19 days in the month of ʻAláʼ, just before their New Year, Naw-Rúz, in March",
+      "k": [
+        "19 days",
+        "new year",
+        "march",
+        "15 to 70"
+      ],
+      "n": 3,
+      "rabbit": "Bahá’í Faith"
+    },
+    {
+      "id": "taqwa",
+      "tier": "power",
+      "t": "Qur’an 2:183 (in “The Cow”) says it was prescribed for believers as it was for those before them, so they might gain taqwa (God-consciousness)",
+      "k": [
+        "taqwa",
+        "the cow",
+        "2:183",
+        "prescribed"
+      ],
+      "n": 2
+    },
+    {
+      "id": "travelers",
+      "tier": "power",
+      "t": "Travelers may skip it and make up the missed days later; young children are excused",
+      "k": [
+        "travelers",
+        "make up",
+        "children"
+      ],
+      "n": 2
+    },
+    {
+      "id": "taanit",
+      "tier": "power",
+      "t": "Hebrew name: ta’anit; minor Jewish days of it include Tzom Gedaliah, Asara B’Tevet, and Ta’anit Esther (the day before Purim)",
+      "k": [
+        "ta’anit",
+        "gedaliah",
+        "esther",
+        "purim",
+        "tevet"
+      ],
+      "n": 3,
+      "rabbit": "Purim"
+    },
+    {
+      "id": "wednesday-friday",
+      "tier": "power",
+      "t": "The early Christian _Didache_ said to do it on Wednesdays and Fridays; John Wesley’s early Methodists kept that custom",
+      "k": [
+        "didache",
+        "wednesdays",
+        "fridays",
+        "wesley",
+        "methodists"
+      ],
+      "n": 1
+    },
+    {
+      "id": "latter-day-saints",
+      "tier": "power",
+      "t": "Latter-day Saints skip two meals on the first Sunday of most months and donate the money saved to help people in need",
+      "k": [
+        "latter-day saints",
+        "first sunday",
+        "two meals",
+        "mormons"
+      ],
+      "n": 1
+    },
+    {
+      "id": "nineveh",
+      "tier": "power",
+      "t": "Some Eastern churches do it for three days to remember how Nineveh repented in the Book of Jonah",
+      "k": [
+        "nineveh",
+        "jonah",
+        "three days"
+      ],
+      "n": 1
+    },
+    {
+      "id": "gandhara-buddha",
+      "tier": "power",
+      "t": "A statue from Gandhara in the Lahore Museum shows Siddhartha worn out by it, before he chose the Middle Way",
+      "k": [
+        "gandhara",
+        "lahore",
+        "siddhartha",
+        "middle way"
+      ],
+      "n": 1,
+      "rabbit": "Buddhism"
+    },
+    {
+      "id": "paryushana",
+      "tier": "power",
+      "t": "Jains call it upavasa and do it during Paryushana, a festival of forgiveness; some drink only boiled water",
+      "k": [
+        "paryushana",
+        "upavasa",
+        "boiled water",
+        "forgiveness"
+      ],
+      "n": 1,
+      "rabbit": "Jainism"
+    },
+    {
+      "id": "karva-chauth",
+      "tier": "power",
+      "t": "On Karva Chauth, many married Hindu women do it from sunrise to moonrise, praying for their husbands’ safety",
+      "k": [
+        "karva chauth",
+        "moonrise",
+        "husbands"
+      ],
+      "n": 1
+    },
+    {
+      "id": "ekadashi",
+      "tier": "power",
+      "t": "Hindus often do it on Ekadashi, the 11th day of each half of the lunar month, a day sacred to Vishnu",
+      "k": [
+        "ekadashi",
+        "11th day",
+        "vishnu"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zoroastrian",
+      "tier": "power",
+      "t": "Zoroastrians traditionally reject it, teaching that a weakened body is less able to fight evil",
+      "k": [
+        "zoroastrians",
+        "weakened",
+        "fight evil"
+      ],
+      "n": 1,
+      "rabbit": "Zoroastrianism"
+    },
+    {
+      "id": "sikh-shell",
+      "tier": "power",
+      "t": "The Guru Granth Sahib says people who rely on this ritual are rewarded with “less than a shell”; Sikhism rejects it as a ritual",
+      "k": [
+        "less than a shell",
+        "shell",
+        "guru granth",
+        "sikhism"
+      ],
+      "n": 1,
+      "rabbit": "Sikhism"
+    },
+    {
+      "id": "white-thread",
+      "tier": "power",
+      "t": "The Qur’an says each day of it begins when the white thread of dawn can be told apart from the black thread of night",
+      "k": [
+        "white thread",
+        "black thread",
+        "dawn"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Practice or holy month?",
+    "body": "Fasting and Ramadan share almost every clue, but they are different answer lines. Real Ramadan tossups say “prompt on fasting or sawm” and then ask “What larger observance is that a part of?”, while fasting tossups use Ramadan, Yom Kippur, and Lent only as clues. One real tossup even wanted “eating” and said “do not accept or prompt on fasting.”",
+    "fix": "Listen to the noun. “This practice” or “this action” of going without food means fasting (or sawm). “This month” or “this observance,” with clues like the Night of Power or tarawih prayers, means Ramadan, and the holiday that ends it is Eid al-Fitr.",
+    "line": "Real answer lines: <b><u>fasting</u></b> [or <u>sawm</u> until it is read] and the month of <b><u>Ramadan</u></b> (prompt on “fasting” or “sawm” with “What larger observance is that a part of?”)"
+  },
+  "freq": {
+    "rank": 14,
+    "count": 4,
+    "list": "Religion"
+  }
+}

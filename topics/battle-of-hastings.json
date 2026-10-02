@@ -1,0 +1,458 @@
+{
+  "id": "battle-of-hastings",
+  "name": "Battle of Hastings",
+  "mono": "BH",
+  "category": "European History",
+  "qbCategory": "History · European History",
+  "kicker": "William the Conqueror defeats Harold II · Norman Conquest begins",
+  "dates": "Fought October 14, 1066",
+  "briefing": "In 1066, William, Duke of Normandy, crossed the English Channel, and on October 14 he crushed King Harold II’s exhausted army near the town of Hastings. Harold had just force-marched south after beating a Viking invasion at Stamford Bridge, and he was killed in the fighting — legend says by an arrow to the eye, as shown on the embroidered _Bayeux Tapestry_. William’s win began the Norman Conquest, ending Anglo-Saxon rule of England.",
+  "answerHtml": "Battle of <b><u>Hastings</u></b>",
+  "accept": [
+    "hastings",
+    "battle of hastings"
+  ],
+  "prompt": [],
+  "reject": [
+    "william the conqueror",
+    "william i",
+    "william of normandy",
+    "harold godwinson",
+    "harold ii",
+    "king harold",
+    "battle of stamford bridge",
+    "stamford bridge",
+    "norman conquest",
+    "bayeux tapestry",
+    "domesday book",
+    "fasting"
+  ],
+  "tests": {
+    "right": [
+      "Battle of Hastings",
+      "Hastings",
+      "the Battle of Hastings",
+      "Hasstings",
+      "battle of Hastings"
+    ],
+    "prompt": [],
+    "wrong": [
+      "William the Conqueror",
+      "Harold Godwinson",
+      "Stamford Bridge",
+      "Norman Conquest",
+      "Bayeux Tapestry"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "1066: The Battle of Hastings (4/6) | History – The Norman Conquest",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=zigjVCFzZ38",
+      "note": "Short · the battle itself, part of a 6-part Norman Conquest series"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Why William Won at the Battle of Hastings 1066",
+      "source": "English Heritage",
+      "url": "https://www.youtube.com/watch?v=wiaCId6pANI",
+      "note": "Animated · the shield wall, the feigned retreats, and why William won"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How William the Conqueror Won the Battle of Hastings in 1066",
+      "source": "History Hit",
+      "url": "https://www.youtube.com/watch?v=wDzFwL1IHSE",
+      "note": "A historian walks through the day of the battle"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Historian Explains The EPIC Battle Of Hastings",
+      "source": "Dan Snow’s History Hit",
+      "url": "https://www.youtube.com/watch?v=BI7nPfCk84I",
+      "note": "Weekend watch · a deeper walkthrough of the whole battle"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "1066: The Battle of Stamford Bridge (3/6) | History – The Norman Conquest",
+      "source": "BBC Bitesize for Teachers",
+      "url": "https://www.youtube.com/watch?v=qtW7H7yPZLg",
+      "note": "Short · the Viking battle Harold won just before marching south"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Battle of Hastings",
+      "source": "Britannica Kids",
+      "url": "https://kids.britannica.com/students/article/Battle-of-Hastings/274788",
+      "note": "Short encyclopedia article on the battle and the Bayeux Tapestry"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Battle_of_Hastings",
+  "qb": {
+    "q": "Hastings",
+    "found": 6,
+    "tip": "All 6 results are Middle School/Easy High School tossups on this exact battle — a clean search with no overlap from other meanings of “Hastings.”"
+  },
+  "sample": {
+    "n": 6,
+    "note": "all 6 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Pope Alexander II blessed the invading side’s banner before this battle, in which archers and mounted knights backed the attackers while their opponents fought entirely on foot. Two of the losing king’s brothers, Gyrth and Leofwine, died defending him here, fighting alongside men armed with long battle-axes.",
+      "r": "Norman horsemen staged fake retreats to pull defenders off a ridge and break apart their wall of shields. For 10 points, name this 1066 battle in which William the Conqueror defeated Harold Godwinson."
+    },
+    {
+      "p": "Weeks before this battle, the losing side’s troops had just defeated a Norwegian invasion, killing both King Harald Hardrada [“HAR-uld HARD-rah-duh”] and the English king’s own exiled brother Tostig. Those exhausted troops then marched roughly two hundred miles south in a matter of days to meet a second invading army near England’s coast.",
+      "r": "The invaders’ cavalry staged fake retreats to break apart a shield wall atop a ridge. For 10 points, name this 1066 battle in which William the Conqueror defeated King Harold II of England."
+    },
+    {
+      "p": "The winning commander in this battle claimed that the childless King Edward the Confessor had already promised him the English crown, and that his rival had once sworn, while shipwrecked in Normandy years earlier, to support that claim. England’s nobles, the Witenagemot [“WIT-en-uh-geh-mot”], had instead chosen that rival as king.",
+      "r": "That rival was Harold Godwinson. For 10 points, name this 1066 battle, William the Conqueror’s decisive victory over Harold in England."
+    },
+    {
+      "p": "A Norman ally named Eustace of Boulogne was wounded during this battle, in which retreating soldiers made a desperate last stand in a ditch later called the Malfosse [“mal-FOSS”]. Most of the fighting took place on a ridge known to some chroniclers as Senlac Hill.",
+      "r": "William the Conqueror won this battle over King Harold II. For 10 points, name this 1066 battle that began the Norman Conquest of England."
+    },
+    {
+      "p": "Odo, the Bishop of Bayeux [“bai-YOO”] and half-brother of this battle’s winning commander, is thought to have commissioned a famous 230-foot embroidery depicting it. That commander later built an abbey on the site, with tradition holding that its altar marked the exact spot where his rival fell.",
+      "r": "His rival was Harold Godwinson, killed in the fighting. For 10 points, name this 1066 battle won by William the Conqueror."
+    },
+    {
+      "p": "This battle lasted most of a single day, beginning around nine in the morning and dragging on until dusk. Weeks earlier, the eventual winner had sailed an invasion fleet across the English Channel from Normandy, landing on England’s southern coast in late September.",
+      "r": "William the Conqueror’s fleet finally met Harold Godwinson’s army in this battle. For 10 points, name this 1066 battle that began Norman rule of England."
+    },
+    {
+      "p": "One side in this battle formed a shield wall using housecarls, the king’s elite bodyguards, along with fyrd levies of ordinary freemen. That side had no cavalry and very few archers of its own, unlike its opponents.",
+      "r": "The shield wall held for hours atop a ridge before finally breaking. For 10 points, name this 1066 battle in which William the Conqueror defeated the English king."
+    },
+    {
+      "p": "Twenty years after this battle, its winner ordered a massive survey of English land and property later called the _Domesday Book_. That same winner brought Norman French words and nobles into England, reshaping its language and ruling class for centuries.",
+      "r": "For 10 points, name this 1066 battle, William the Conqueror’s victory over Harold Godwinson that began the Norman Conquest of England."
+    },
+    {
+      "p": "Chroniclers say the losing king in this battle was struck by an arrow near the eye, a death shown in one famous scene of the _Bayeux Tapestry_. That same embroidered artwork depicts the whole Norman invasion leading up to this fight.",
+      "r": "Harold Godwinson died in this battle. For 10 points, name this 1066 battle in which William the Conqueror conquered England."
+    },
+    {
+      "p": "Its winning commander became known ever after by an epithet referring to this battle’s outcome, and was crowned King of England in London before the year was out. His rival had been chosen by the Witenagemot just months earlier.",
+      "r": "That winning commander was William the Conqueror. For 10 points, name this 1066 battle in which he defeated Harold Godwinson, ending Anglo-Saxon rule of England."
+    },
+    {
+      "p": "Among the dead in this battle were Gyrth and Leofwine, both brothers of the English king, who fell defending him atop Senlac Hill. Norman cavalry had to charge the ridge repeatedly before the defenders’ line finally gave way.",
+      "r": "The English king himself, Harold Godwinson, was killed soon after. For 10 points, name this 1066 battle, William the Conqueror’s victory in southern England."
+    },
+    {
+      "p": "English nobles called the Witenagemot [“WIT-en-uh-geh-mot”] had elected the loser of this battle king only months before, passing over a Norman duke who insisted the dead King Edward the Confessor had already promised him the throne.",
+      "r": "That Norman duke, William, won this battle instead. For 10 points, name this 1066 battle that gave William the Conqueror the English crown."
+    },
+    {
+      "p": "A wounded Norman ally, Eustace of Boulogne, survived this battle, in which some of the defeated army made a final stand in a ditch nicknamed the Malfosse after the main fighting ended. The battle was fought on a ridge soon after an exhausting forced march from the north.",
+      "r": "That march followed a victory at Stamford Bridge. For 10 points, name this 1066 battle in which William the Conqueror defeated the English army."
+    },
+    {
+      "p": "William the Conqueror later built Battle Abbey on the site of this fight, with legend placing its high altar at the exact spot where his rival died. Years afterward, William ordered the detailed land survey known as the _Domesday Book_.",
+      "r": "For 10 points, name this 1066 battle in which William defeated and killed Harold Godwinson, beginning the Norman Conquest of England."
+    },
+    {
+      "p": "Before this battle, the English army had just force-marched south after a brutal win over Vikings at Stamford Bridge, where King Harald Hardrada and the English king’s brother Tostig were both killed. That exhausted army then formed a shield wall to face a second, fresh invading force.",
+      "r": "William the Conqueror’s Normans broke that shield wall. For 10 points, name this 1066 battle that ended Anglo-Saxon rule of England."
+    }
+  ],
+  "clues": [
+    {
+      "id": "core-1066",
+      "tier": "giveaway",
+      "t": "Fought in 1066 between William, Duke of Normandy, and King Harold II of England",
+      "k": [
+        "1066",
+        "william",
+        "duke of normandy",
+        "harold ii"
+      ],
+      "n": 6
+    },
+    {
+      "id": "norman-conquest",
+      "tier": "giveaway",
+      "t": "William’s win began the Norman Conquest, ending Anglo-Saxon rule of England",
+      "k": [
+        "norman conquest",
+        "anglo-saxon",
+        "ending"
+      ],
+      "n": 5
+    },
+    {
+      "id": "the-conqueror",
+      "tier": "giveaway",
+      "t": "William became known as William the Conqueror and was crowned king in London that same year",
+      "k": [
+        "william the conqueror",
+        "crowned",
+        "london"
+      ],
+      "n": 5
+    },
+    {
+      "id": "arrow-eye",
+      "tier": "giveaway",
+      "t": "Harold II died in the fighting, traditionally said to be from an arrow near the eye",
+      "k": [
+        "arrow",
+        "eye",
+        "traditionally"
+      ],
+      "n": 3,
+      "rabbit": "Harold Godwinson"
+    },
+    {
+      "id": "bayeux-tapestry",
+      "tier": "giveaway",
+      "t": "The whole invasion story is shown on the embroidered _Bayeux Tapestry_",
+      "k": [
+        "bayeux tapestry",
+        "embroidered"
+      ],
+      "n": 4
+    },
+    {
+      "id": "shield-wall",
+      "tier": "middle",
+      "t": "Harold’s English troops formed a shield wall of housecarls and fyrd levies",
+      "k": [
+        "shield wall",
+        "housecarls",
+        "fyrd"
+      ],
+      "n": 3
+    },
+    {
+      "id": "senlac-hill",
+      "tier": "middle",
+      "t": "Most of the fighting happened on a ridge later called Senlac Hill",
+      "k": [
+        "senlac hill",
+        "ridge"
+      ],
+      "n": 3
+    },
+    {
+      "id": "stamford-march",
+      "tier": "middle",
+      "t": "Harold had just force-marched his army south after winning the Battle of Stamford Bridge",
+      "k": [
+        "stamford bridge",
+        "force-marched",
+        "south"
+      ],
+      "n": 6,
+      "rabbit": "Vikings"
+    },
+    {
+      "id": "hardrada-tostig",
+      "tier": "middle",
+      "t": "That earlier battle killed Norway’s King Harald Hardrada and Harold’s own brother Tostig",
+      "k": [
+        "harald hardrada",
+        "tostig",
+        "brother"
+      ],
+      "n": 4,
+      "rabbit": "Vikings"
+    },
+    {
+      "id": "feigned-retreat",
+      "tier": "middle",
+      "t": "Norman cavalry staged fake retreats that lured English fighters off the ridge, breaking the wall",
+      "k": [
+        "feigned retreat",
+        "cavalry",
+        "lured"
+      ],
+      "n": 0
+    },
+    {
+      "id": "malfosse",
+      "tier": "middle",
+      "t": "Fighting spilled into a ditch nicknamed the Malfosse, where some pursuers were killed",
+      "k": [
+        "malfosse",
+        "ditch"
+      ],
+      "n": 2
+    },
+    {
+      "id": "norman-french",
+      "tier": "middle",
+      "t": "England’s new Norman rulers brought French-speaking nobles and words into English",
+      "k": [
+        "norman french",
+        "nobles",
+        "english language"
+      ],
+      "n": 0
+    },
+    {
+      "id": "domesday",
+      "tier": "middle",
+      "t": "William later ordered the _Domesday Book_, a survey of English land and property carried out in 1086",
+      "k": [
+        "domesday book",
+        "survey",
+        "1086"
+      ],
+      "n": 0
+    },
+    {
+      "id": "edward-promise",
+      "tier": "power",
+      "t": "William claimed the childless King Edward the Confessor had already promised him the English crown",
+      "k": [
+        "edward the confessor",
+        "promised",
+        "crown"
+      ],
+      "n": 0
+    },
+    {
+      "id": "harold-oath",
+      "tier": "power",
+      "t": "William also said Harold had sworn, years earlier while shipwrecked in Normandy, to support his claim",
+      "k": [
+        "shipwrecked",
+        "sworn",
+        "oath"
+      ],
+      "n": 0
+    },
+    {
+      "id": "witenagemot",
+      "tier": "power",
+      "t": "England’s nobles, the Witenagemot, had instead chosen Harold as king right after Edward died",
+      "k": [
+        "witenagemot",
+        "nobles",
+        "chosen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-archers",
+      "tier": "power",
+      "t": "Norman forces included archers and armored cavalry, while the English fought on foot with very few archers",
+      "k": [
+        "archers",
+        "cavalry",
+        "on foot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eustace",
+      "tier": "power",
+      "t": "Norman ally Eustace of Boulogne was wounded during the fighting",
+      "k": [
+        "eustace",
+        "boulogne",
+        "wounded"
+      ],
+      "n": 1
+    },
+    {
+      "id": "odo-tapestry",
+      "tier": "power",
+      "t": "The tapestry commemorating the battle was likely commissioned by Odo, Bishop of Bayeux and William’s half-brother",
+      "k": [
+        "odo",
+        "bayeux",
+        "half-brother"
+      ],
+      "n": 1
+    },
+    {
+      "id": "battle-abbey",
+      "tier": "power",
+      "t": "William built Battle Abbey on the site, with legend placing its altar where Harold fell",
+      "k": [
+        "battle abbey",
+        "altar",
+        "legend"
+      ],
+      "n": 0
+    },
+    {
+      "id": "one-day",
+      "tier": "power",
+      "t": "The fighting lasted most of a single day, from roughly nine in the morning until dusk",
+      "k": [
+        "one day",
+        "dusk",
+        "morning"
+      ],
+      "n": 0
+    },
+    {
+      "id": "channel-crossing",
+      "tier": "power",
+      "t": "William sailed his invasion fleet across the English Channel from Normandy in late September",
+      "k": [
+        "english channel",
+        "fleet",
+        "september"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brothers-die",
+      "tier": "power",
+      "t": "Two of Harold’s brothers, Gyrth and Leofwine, also died fighting beside him",
+      "k": [
+        "gyrth",
+        "leofwine",
+        "brothers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "papal-banner",
+      "tier": "power",
+      "t": "Pope Alexander II had backed William’s invasion, blessing a banner for his Norman troops",
+      "k": [
+        "pope alexander ii",
+        "papal banner",
+        "blessed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "battle-axes",
+      "tier": "power",
+      "t": "English housecarls fought with long battle-axes in addition to swords and spears",
+      "k": [
+        "battle-axes",
+        "swords",
+        "spears"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Stamford Bridge vs. Hastings",
+    "body": "Harold Godwinson fought — and won — the Battle of Stamford Bridge against a Viking army just weeks before marching south to lose this battle, so clues about defeating Harald Hardrada or Tostig describe that earlier, different battle. Questions also lean on the famous “arrow to the eye” story from the _Bayeux Tapestry_, even though historians aren’t fully certain that is exactly how Harold died.",
+    "fix": "A Viking invasion in the north that Harold wins is Stamford Bridge. William landing in the south and Harold losing — and dying — is this battle. Say “Hastings,” not just “Norman Conquest,” which is the whole era this battle began.",
+    "line": "Real answer line: Battle of <b><u>Hastings</u></b>"
+  },
+  "freq": {
+    "rank": 11,
+    "count": 6,
+    "list": "European History"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "id": "the-adventures-of-tom-sawyer",
+  "name": "The Adventures of Tom Sawyer",
+  "mono": "TS",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Mark Twain’s mischievous boy hero · A classic American boyhood adventure",
+  "dates": "Published 1876",
+  "briefing": "Mark Twain based _The Adventures of Tom Sawyer_ (1876) on his own boyhood memories of growing up along the Mississippi River in Hannibal, Missouri. Tom tricks his friends into whitewashing Aunt Polly’s fence, falls for the judge’s daughter Becky Thatcher, and gets lost in a cave where the murderous Injun Joe is hiding. Twain later let Tom’s best friend, Huckleberry Finn, narrate an even more famous novel of his own.",
+  "answerHtml": "<b><u>The Adventures of Tom Sawyer</u></b> (or <u>Tom Sawyer</u>)",
+  "accept": [
+    "the adventures of tom sawyer",
+    "tom sawyer",
+    "adventures of tom sawyer",
+    "thomas sawyer",
+    "the adventures of thomas sawyer"
+  ],
+  "prompt": [
+    "tom"
+  ],
+  "reject": [
+    "the adventures of huckleberry finn",
+    "adventures of huckleberry finn",
+    "huckleberry finn",
+    "huck finn",
+    "tom sawyer abroad",
+    "tom sawyer detective",
+    "joe harper",
+    "becky thatcher",
+    "aunt polly",
+    "injun joe",
+    "muff potter",
+    "sid sawyer"
+  ],
+  "tests": {
+    "right": [
+      "The Adventures of Tom Sawyer",
+      "Tom Sawyer",
+      "Tom Sawer",
+      "Thomas Sawyer",
+      "the adventures of tom sawyer"
+    ],
+    "prompt": [
+      "Tom"
+    ],
+    "wrong": [
+      "The Adventures of Huckleberry Finn",
+      "Huckleberry Finn",
+      "Becky Thatcher",
+      "Injun Joe"
+    ]
+  },
+  "media": [
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "The Adventures of Tom Sawyer",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/the-adventures-of-tom-sawyer",
+      "note": "Quick plot summary and key facts about the novel"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+  "qb": {
+    "q": "Tom Sawyer",
+    "found": 7,
+    "tip": "Most real answer lines are the character “Tom Sawyer” rather than the novel; one tossup (2012 SCOP Novice 3) uses “The Adventures of Tom Sawyer” as the answer instead, with nearly identical clues."
+  },
+  "sample": {
+    "n": 7,
+    "note": "the 7 real QBReader tossups for Tom Sawyer / The Adventures of Tom Sawyer (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "This character tricks a group of neighborhood boys into trading him treasures for the privilege of whitewashing a fence. He later runs away with two friends to Jackson’s Island to live as pirates, letting the whole town believe the boys have drowned.",
+      "r": "He then sneaks into his own funeral to watch his grieving Aunt Polly mourn him. For 10 points, name this title character, a friend of Huckleberry Finn, in a novel by Mark Twain."
+    },
+    {
+      "p": "While out at midnight to test a wart cure, this character secretly watches the drunkard Muff Potter get framed for a murder actually committed by Injun Joe. Months later, this character finally testifies in court to clear Potter’s name.",
+      "r": "He later gets lost in a cave with Becky Thatcher and spots Injun Joe hiding there. For 10 points, name this character created by Mark Twain."
+    },
+    {
+      "p": "This character trades his whitewashing loot for colored tickets so he can win a Bible at Sunday school, then ruins the moment by answering “David and Goliath” when asked to name Jesus’s first two disciples. He also takes a whipping for a page torn from the schoolmaster’s anatomy book.",
+      "r": "He does this to protect his sweetheart, Becky Thatcher. For 10 points, name this friend of Huckleberry Finn and title character of a Mark Twain novel."
+    },
+    {
+      "p": "This character calls himself the “Black Avenger of the Spanish Main” while camping out on an island with Joe Harper and Huckleberry Finn. His sweetheart later wishes she still had the brass andiron knob he once offered her.",
+      "r": "Believed drowned, he returns to town just in time to attend his own funeral. For 10 points, name this Mark Twain title character."
+    },
+    {
+      "p": "This character lives with his Aunt Polly and often clashes with his tattling younger half-brother, Sid, in the river town of St. Petersburg, Missouri. He once fed his aunt’s Pain-Killer medicine to a cat named Peter.",
+      "r": "He tricks his friends into whitewashing a fence for him by pretending the chore is enjoyable. For 10 points, name this friend of Huckleberry Finn created by Mark Twain."
+    },
+    {
+      "p": "This character falls for Becky Thatcher, the new girl in town and daughter of the local judge. While lost with her in McDougal’s Cave, this character spots Injun Joe, who is hiding stolen treasure there.",
+      "r": "After the cave is sealed, Injun Joe is later found dead inside it. For 10 points, name this character, the title friend of Huckleberry Finn in a Mark Twain novel."
+    },
+    {
+      "p": "This character overhears Mrs. Harper regret punishing her son, Joe, for setting off a firecracker. With that same friend and with Huckleberry Finn, this character runs off to live as a pirate on Jackson’s Island.",
+      "r": "For 10 points, name this title character of a Mark Twain novel, who later attends his own funeral and gets lost in a cave with Becky Thatcher."
+    },
+    {
+      "p": "This character returns in two later Mark Twain novels that send him Abroad and make him a Detective. In the book that introduced him, he persuades a group of boys to pay him for the chance to whitewash a fence.",
+      "r": "For 10 points, name this Mississippi River boy, Mark Twain’s title character and best friend of Huckleberry Finn."
+    },
+    {
+      "p": "This character’s closest friend is a poor boy named Huckleberry Finn, son of the town drunkard. Together with Joe Harper, the two friends run off to Jackson’s Island after this character grows tired of being punished at home and at school.",
+      "r": "This character later takes a whipping for a page torn from the schoolmaster’s anatomy book to shield Becky Thatcher. For 10 points, name this Mark Twain title character."
+    },
+    {
+      "p": "This character and his best friend dig up gold hidden in a cave by the murderous Injun Joe and split the fortune between them. Mark Twain later sent this character Abroad and made him a Detective in two sequels.",
+      "r": "For 10 points, name this title character and friend of Huckleberry Finn, created by Mark Twain."
+    },
+    {
+      "p": "This character once tried to win back a sobbing sweetheart by offering her a brass andiron knob. He overhears Mrs. Harper regret punishing her son, Joe, for a firecracker prank after sneaking home one night from Jackson’s Island.",
+      "r": "For 10 points, name this title character and friend of Huckleberry Finn in a novel by Mark Twain."
+    },
+    {
+      "p": "At midnight in a graveyard, this character secretly watches the body-snatcher Doctor Robinson get murdered by Injun Joe, who then frames the drunkard Muff Potter. This character stays silent out of fear until finally testifying months later at Potter’s trial.",
+      "r": "For 10 points, name this title character and friend of Huckleberry Finn, created by Mark Twain."
+    },
+    {
+      "p": "Mark Twain based this character partly on his own boyhood in Hannibal, Missouri. This character plays the “Black Avenger of the Spanish Main” while hiding out on Jackson’s Island with Joe Harper and Huckleberry Finn.",
+      "r": "For 10 points, name this title character who later gets lost in a cave with Becky Thatcher, created by Mark Twain."
+    },
+    {
+      "p": "This character ruins his moment of glory at Sunday school by naming “David and Goliath” as Jesus’s first two disciples, right after trading his whitewashing loot for the tickets needed to win a Bible. He later gets lost in McDougal’s Cave with Becky Thatcher.",
+      "r": "There, he glimpses Injun Joe, who has hidden stolen gold in the cave. For 10 points, name this title character and friend of Huckleberry Finn."
+    },
+    {
+      "p": "This character and two friends are presumed drowned after running off to Jackson’s Island, only to sneak into their own funeral and watch their families grieve. This character lives with his Aunt Polly and often argues with his tattling half-brother, Sid.",
+      "r": "For 10 points, name this title character, the best friend of Huckleberry Finn, from a novel by Mark Twain."
+    }
+  ],
+  "clues": [
+    {
+      "id": "author",
+      "tier": "giveaway",
+      "t": "Written by Mark Twain, the pen name of the humorist Samuel Clemens",
+      "k": [
+        "mark twain",
+        "samuel clemens"
+      ],
+      "n": 7
+    },
+    {
+      "id": "setting",
+      "tier": "giveaway",
+      "t": "Set in the fictional Mississippi River town of St. Petersburg, Missouri, where he lives with his Aunt Polly",
+      "k": [
+        "st petersburg",
+        "aunt polly"
+      ],
+      "n": 2
+    },
+    {
+      "id": "huck",
+      "tier": "giveaway",
+      "t": "Best friends with a poor boy named Huckleberry Finn, son of the town drunkard, who stars in his own, even more famous sequel",
+      "k": [
+        "huckleberry finn",
+        "sequel"
+      ],
+      "n": 7,
+      "rabbit": "The Adventures of Huckleberry Finn"
+    },
+    {
+      "id": "fence",
+      "tier": "giveaway",
+      "t": "Tricks the neighborhood boys into whitewashing a fence for him by pretending it is fun",
+      "k": [
+        "whitewashing",
+        "fence"
+      ],
+      "n": 5
+    },
+    {
+      "id": "becky",
+      "tier": "middle",
+      "t": "Falls for Becky Thatcher, the new girl in town and daughter of the local judge",
+      "k": [
+        "becky thatcher",
+        "judge"
+      ],
+      "n": 4
+    },
+    {
+      "id": "sunday-school",
+      "tier": "middle",
+      "t": "Trades treasures for tickets to win a Bible at Sunday school, then names “David and Goliath” as Jesus’s first two disciples",
+      "k": [
+        "david and goliath",
+        "sunday school"
+      ],
+      "n": 4
+    },
+    {
+      "id": "own-funeral",
+      "tier": "middle",
+      "t": "Runs off to an island to play pirate with friends, then comes home just in time to attend his own funeral",
+      "k": [
+        "own funeral",
+        "pirate"
+      ],
+      "n": 3
+    },
+    {
+      "id": "joe-harper",
+      "tier": "middle",
+      "t": "Shares his pirate adventures with a loyal friend named Joe Harper",
+      "k": [
+        "joe harper"
+      ],
+      "n": 3
+    },
+    {
+      "id": "doc-robinson",
+      "tier": "middle",
+      "t": "Secretly witnesses the body-snatcher Doctor Robinson get killed one midnight in the graveyard, by Injun Joe",
+      "k": [
+        "doctor robinson",
+        "graveyard"
+      ],
+      "n": 3
+    },
+    {
+      "id": "muff-potter",
+      "tier": "middle",
+      "t": "Waits months before testifying in court to save a drunkard named Muff Potter, who had been wrongly blamed for that murder",
+      "k": [
+        "muff potter",
+        "wrongly blamed"
+      ],
+      "n": 1
+    },
+    {
+      "id": "anatomy-book",
+      "tier": "middle",
+      "t": "Takes the blame and a whipping for tearing a page out of the schoolmaster’s anatomy book to protect Becky",
+      "k": [
+        "anatomy book",
+        "whipping"
+      ],
+      "n": 2
+    },
+    {
+      "id": "cave",
+      "tier": "middle",
+      "t": "Gets lost in McDougal’s Cave with Becky and glimpses Injun Joe, who has hidden stolen treasure there",
+      "k": [
+        "cave",
+        "stolen treasure"
+      ],
+      "n": 2,
+      "rabbit": "Injun Joe"
+    },
+    {
+      "id": "sequels",
+      "tier": "power",
+      "t": "Returns in two later Mark Twain books that send him Abroad and make him a Detective",
+      "k": [
+        "abroad",
+        "detective"
+      ],
+      "n": 2
+    },
+    {
+      "id": "black-avenger",
+      "tier": "power",
+      "t": "Imagines himself as the “Black Avenger of the Spanish Main” while playing pirate",
+      "k": [
+        "black avenger",
+        "spanish main"
+      ],
+      "n": 1
+    },
+    {
+      "id": "andiron",
+      "tier": "power",
+      "t": "Offers Becky his prized brass andiron knob to make up after a quarrel, but she knocks it to the floor",
+      "k": [
+        "andiron"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mrs-harper",
+      "tier": "power",
+      "t": "Overhears Joe Harper’s mother, Mrs. Harper, regret having punished Joe for a firecracker prank",
+      "k": [
+        "mrs harper",
+        "firecracker"
+      ],
+      "n": 1
+    },
+    {
+      "id": "injun-joe-fate",
+      "tier": "power",
+      "t": "After the cave is sealed shut on Judge Thatcher’s orders, Injun Joe is later found dead, trapped inside",
+      "k": [
+        "sealed shut",
+        "found dead"
+      ],
+      "n": 0,
+      "rabbit": "Injun Joe"
+    },
+    {
+      "id": "treasure-found",
+      "tier": "power",
+      "t": "Later digs up the gold that Injun Joe hid in the cave and splits it with Huck",
+      "k": [
+        "digs up",
+        "splits it"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hannibal",
+      "tier": "power",
+      "t": "Modeled partly on Mark Twain’s own childhood in the river town of Hannibal, Missouri",
+      "k": [
+        "hannibal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "narrator-style",
+      "tier": "power",
+      "t": "Narrated by an outside storyteller, unlike its first-person sequel, which is narrated by Huck himself",
+      "k": [
+        "outside storyteller",
+        "huck himself"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pain-killer",
+      "tier": "power",
+      "t": "Secretly feeds his aunt’s quack medicine, Pain-Killer, to a cat named Peter",
+      "k": [
+        "pain killer",
+        "peter the cat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sid",
+      "tier": "power",
+      "t": "Often clashes with his tattling, well-behaved younger half-brother, Sid",
+      "k": [
+        "tattling",
+        "half brother"
+      ],
+      "n": 0,
+      "rabbit": "Sid Sawyer"
+    }
+  ],
+  "trap": {
+    "title": "Tom Sawyer or Huckleberry Finn?",
+    "body": "These two Mississippi River boys share one novel and then split into two different ones. Tom’s book is told by an outside narrator and centers on a treasure hunt and a cave; Huck’s own, more serious sequel is narrated by Huck himself and centers on a raft trip down the river with a runaway named Jim.",
+    "fix": "If the clues mention whitewashing a fence, Aunt Polly, Becky Thatcher, or Injun Joe and a cave, buzz with this novel. If they mention a raft, the river journey, Jim, or a father named Pap, that is the sequel about Huck instead.",
+    "line": "Real answer line: <b><u>The Adventures of Tom Sawyer</u></b> (accept <u>Tom Sawyer</u>)."
+  },
+  "freq": {
+    "rank": 21,
+    "count": 9,
+    "list": "Literature"
+  }
+}

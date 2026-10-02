@@ -1,0 +1,418 @@
+{
+  "id": "moby-dick",
+  "name": "Moby-Dick",
+  "mono": "MD",
+  "category": "Literature",
+  "qbCategory": "Literature",
+  "kicker": "Herman Melville’s whaling novel · Captain Ahab hunts a white whale",
+  "dates": "Published 1851",
+  "briefing": "_Moby-Dick_ follows the sailor Ishmael, who signs aboard the whaling ship Pequod under its one-legged captain, Ahab. Ahab turns the voyage away from ordinary whaling and toward revenge against Moby Dick, the giant white whale that bit off his leg on an earlier voyage. Along the way Ishmael bonds with the tattooed harpooner Queequeg, and the voyage builds toward a catastrophic final chase.",
+  "answerHtml": "<b><u>Moby-Dick</u></b> (or <u>Moby Dick</u>; full title <u>Moby-Dick; or, The Whale</u>; prompt on <u>the white whale</u>)",
+  "accept": [
+    "moby dick",
+    "moby dick or the whale"
+  ],
+  "prompt": [
+    "the white whale",
+    "white whale",
+    "great white whale"
+  ],
+  "reject": [
+    "ahab",
+    "captain ahab",
+    "ishmael",
+    "queequeg",
+    "pequod",
+    "billy budd"
+  ],
+  "tests": {
+    "right": [
+      "Moby Dick",
+      "Moby-Dick",
+      "Moby Dic",
+      "moby dick",
+      "Moby Dick, or The Whale"
+    ],
+    "prompt": [
+      "the white whale",
+      "the great white whale"
+    ],
+    "wrong": [
+      "Captain Ahab",
+      "Ishmael",
+      "Queequeg",
+      "The Pequod",
+      "Billy Budd"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Book Summary of “Moby Dick” by Herman Melville",
+      "source": "Shmoop",
+      "url": "https://www.youtube.com/watch?v=rcav9FuAfvA",
+      "note": "Short · funny summary of Ishmael, Captain Ahab, and the hunt for the white whale"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Moby-Dick",
+      "source": "LitCharts",
+      "url": "https://www.litcharts.com/lit/moby-dick",
+      "note": "Quick plot summary and key facts about the novel"
+    }
+  ],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Moby-Dick",
+  "qb": {
+    "q": "Moby Dick",
+    "found": 2,
+    "tip": "Only 2 Middle School/Easy High School tossups exist for this query; a Regular High School search found 4 more usable tossups, including one written mainly about the whale itself rather than the human characters."
+  },
+  "sample": {
+    "n": 6,
+    "note": "the 2 real Middle School/Easy High School QBReader tossups for this answer line plus 4 Regular High School tossups, all power-marked"
+  },
+  "tossups": [
+    {
+      "p": "A stranger named Elijah warns this novel’s narrator and his new friend about their captain before their ship ever leaves Nantucket harbor. Three mates named Starbuck, Stubb, and Flask each command a whaleboat and its harpooner on the voyage that follows.",
+      "r": "That captain nails a gold doubloon to the mast as a reward for whoever first spots his quarry. For 10 points, name this novel about Captain Ahab’s hunt for a giant white whale, written by Herman Melville."
+    },
+    {
+      "p": "Long digressive chapters in this novel classify whale species and describe the anatomy of a sperm whale in encyclopedic detail. Late in the book, a harpooner named Fedallah predicts that only a rope of hemp can kill this novel’s captain.",
+      "r": "That captain lost a leg to the title creature on an earlier voyage and now wears one carved from whalebone. For 10 points, name this Herman Melville novel narrated by Ishmael."
+    },
+    {
+      "p": "This novel’s narrator befriends a tattooed Polynesian harpooner said to be the son of a chief from the island of Rokovoko, whom he meets at the Spouter Inn. A chapter titled “The Whiteness of the Whale” meditates on why the title animal’s color is so unsettling.",
+      "r": "That harpooner’s own coffin later becomes a life buoy that saves the narrator when the ship sinks. For 10 points, name this novel whose narrator famously begins, “Call me Ishmael.”"
+    },
+    {
+      "p": "Before the voyage begins in this novel, Father Mapple delivers a sermon on the Biblical Jonah at a chapel decorated with memorial plaques for sailors lost at sea. This novel’s first mate, a cautious Quaker named Starbuck, questions his captain’s obsession throughout the voyage.",
+      "r": "That captain, Ahab, nails a gold doubloon to the mast to reward whoever spots the title whale first. For 10 points, name this novel about a doomed whaling voyage, written by Herman Melville."
+    },
+    {
+      "p": "This novel’s cabin boy, Pip, loses his sanity after being left alone and adrift at sea for a time. A commercial failure when it was first published, this novel was largely rediscovered and celebrated only in the 1920s.",
+      "r": "Its narrator, Ishmael, is the sole survivor when a ship called the Rachel rescues him in the epilogue. For 10 points, name this Herman Melville novel about Captain Ahab’s hunt for a whale."
+    },
+    {
+      "p": "The title creature in this novel is said to have a crooked lower jaw and a distinctive white, humped back. This novel’s captain wears a leg made of whalebone after losing his own leg to that creature years earlier.",
+      "r": "The whaling ship Pequod sails from Nantucket commanded by that one-legged captain, Ahab. For 10 points, name this novel narrated by the sailor Ishmael."
+    },
+    {
+      "p": "This novel’s full original title adds the words “or, The Whale” after its main title. Three mates named Starbuck, Stubb, and Flask each lead a whaleboat crew in this novel.",
+      "r": "The title whale eventually rams and sinks the ship Pequod in this novel. For 10 points, name this Herman Melville novel in which Captain Ahab chases a great white whale."
+    },
+    {
+      "p": "A harpooner named Fedallah prophesies that Captain Ahab can only be killed by a rope made of hemp in this novel. This novel’s narrator meets his best friend, a tattooed harpooner from the island of Rokovoko, at the Spouter Inn.",
+      "r": "That friend, Queequeg, later has a coffin made for himself, which becomes a life buoy when the ship sinks. For 10 points, name this novel about the hunt for a white whale, narrated by Ishmael."
+    },
+    {
+      "p": "Early in this novel, a stranger named Elijah gives the narrator and Queequeg an ominous warning about their captain on the docks of Nantucket. A chapter on “The Whiteness of the Whale” ponders the terror behind the title creature’s color in this book.",
+      "r": "That creature eventually sinks the whaling ship Pequod. For 10 points, name this novel about Captain Ahab’s hunt for a white whale, written by Herman Melville."
+    },
+    {
+      "p": "This novel’s cabin boy, Pip, goes mad after being abandoned alone in the open ocean. A Quaker first mate named Starbuck repeatedly questions his captain’s obsessive quest in this same novel.",
+      "r": "That quest ends when the title whale destroys the ship Pequod, leaving Ishmael as the sole survivor. For 10 points, name this Herman Melville novel in which Captain Ahab hunts a great white whale."
+    },
+    {
+      "p": "Father Mapple’s sermon on Jonah, delivered at a whalemen’s chapel, comes early in this novel, before its narrator ever boards a ship. This novel’s title whale has a famously crooked jaw and a white, humped back.",
+      "r": "That whale finally destroys the Pequod, a ship commanded by the vengeful Captain Ahab. For 10 points, name this novel about the hunt for a white whale, narrated by Ishmael."
+    },
+    {
+      "p": "Ahab’s final speech to this novel’s title whale includes the line “From hell’s heart I stab at thee.” Long encyclopedic chapters elsewhere in this novel classify different kinds of whales and describe their anatomy.",
+      "r": "This novel’s narrator, Ishmael, survives by clinging to his friend Queequeg’s floating coffin. For 10 points, name this novel by Herman Melville."
+    },
+    {
+      "p": "Ahab nails a gold doubloon to his ship’s mast in this novel as a reward for whoever first sights the title whale. This novel’s narrator also befriends the tattooed harpooner Queequeg, said to be a chief’s son from Rokovoko.",
+      "r": "A ship called the Rachel rescues that narrator in this novel’s epilogue. For 10 points, name this novel in which Captain Ahab hunts a great white whale, written by Herman Melville."
+    },
+    {
+      "p": "This novel’s title whale rams and sinks the Pequod near the story’s end, drowning everyone aboard but the narrator. Three mates named Starbuck, Stubb, and Flask each command a whaleboat in this novel.",
+      "r": "Only Ishmael survives, kept afloat by Queequeg’s old coffin until the Rachel picks him up. For 10 points, name this Herman Melville novel about Captain Ahab’s pursuit of a white whale."
+    },
+    {
+      "p": "A commercial failure in 1851, this novel was not widely celebrated until a revival of interest in the 1920s. This novel’s Fedallah warns that only hemp rope can kill its captain, who already wears a whalebone leg.",
+      "r": "That captain, Ahab, commands the Pequod on a voyage that is narrated by Ishmael in this novel. For 10 points, name this novel about the hunt for a white whale."
+    }
+  ],
+  "clues": [
+    {
+      "id": "author-melville",
+      "tier": "giveaway",
+      "t": "Written by the American author Herman Melville",
+      "k": [
+        "herman melville",
+        "american author"
+      ],
+      "n": 6
+    },
+    {
+      "id": "ishmael-narrator",
+      "tier": "giveaway",
+      "t": "Narrated by the sailor Ishmael, whose famous opening line is “Call me Ishmael”",
+      "k": [
+        "ishmael",
+        "call me ishmael",
+        "narrator"
+      ],
+      "n": 4,
+      "rabbit": "Ishmael"
+    },
+    {
+      "id": "ahab-quest",
+      "tier": "giveaway",
+      "t": "Captain Ahab’s obsessive hunt for a giant white whale drives the plot",
+      "k": [
+        "captain ahab",
+        "white whale",
+        "obsessive"
+      ],
+      "n": 6,
+      "rabbit": "Captain Ahab"
+    },
+    {
+      "id": "published-1851",
+      "tier": "giveaway",
+      "t": "Published in 1851; largely ignored in its own time but now considered a classic of American literature",
+      "k": [
+        "1851",
+        "american literature",
+        "classic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pequod-ship",
+      "tier": "middle",
+      "t": "The whaling ship Pequod, commanded by Ahab, sails from the island of Nantucket",
+      "k": [
+        "pequod",
+        "nantucket",
+        "whaling ship"
+      ],
+      "n": 5,
+      "rabbit": "Nantucket"
+    },
+    {
+      "id": "queequeg-friend",
+      "tier": "middle",
+      "t": "Ishmael’s close friend, the tattooed Polynesian harpooner Queequeg, is met at the Spouter Inn",
+      "k": [
+        "queequeg",
+        "harpooner",
+        "spouter inn"
+      ],
+      "n": 1,
+      "rabbit": "Queequeg"
+    },
+    {
+      "id": "queequeg-coffin",
+      "tier": "middle",
+      "t": "Queequeg’s own coffin, built when he fell ill, becomes a life buoy that later saves the narrator",
+      "k": [
+        "coffin",
+        "life buoy",
+        "queequeg"
+      ],
+      "n": 5
+    },
+    {
+      "id": "starbuck-firstmate",
+      "tier": "middle",
+      "t": "The cautious first mate Starbuck, a Quaker, questions Ahab’s obsession throughout the voyage",
+      "k": [
+        "starbuck",
+        "first mate",
+        "quaker"
+      ],
+      "n": 2
+    },
+    {
+      "id": "fedallah-prophecy",
+      "tier": "middle",
+      "t": "The mysterious harpooner Fedallah prophesies that only hemp can kill Ahab",
+      "k": [
+        "fedallah",
+        "prophesies",
+        "hemp"
+      ],
+      "n": 3
+    },
+    {
+      "id": "gold-doubloon",
+      "tier": "middle",
+      "t": "Ahab nails a gold doubloon to the mast as a reward for the first sailor to spot the whale",
+      "k": [
+        "doubloon",
+        "mast",
+        "reward"
+      ],
+      "n": 3
+    },
+    {
+      "id": "ahabs-leg",
+      "tier": "middle",
+      "t": "Ahab wears a leg carved from whalebone after losing his real leg to the whale on an earlier voyage",
+      "k": [
+        "whalebone leg",
+        "earlier voyage",
+        "lost his leg"
+      ],
+      "n": 1
+    },
+    {
+      "id": "pip-madness",
+      "tier": "middle",
+      "t": "The cabin boy Pip loses his sanity after being left adrift alone at sea",
+      "k": [
+        "pip",
+        "cabin boy",
+        "adrift"
+      ],
+      "n": 2
+    },
+    {
+      "id": "rachel-rescue",
+      "tier": "middle",
+      "t": "In the novel’s epilogue, a ship called the Rachel rescues the sole survivor",
+      "k": [
+        "rachel",
+        "epilogue",
+        "survivor"
+      ],
+      "n": 2
+    },
+    {
+      "id": "father-mapple-sermon",
+      "tier": "power",
+      "t": "Father Mapple preaches a sermon on the Biblical Jonah at the Whalemen’s Chapel before the voyage begins",
+      "k": [
+        "father mapple",
+        "jonah",
+        "chapel"
+      ],
+      "n": 2
+    },
+    {
+      "id": "whiteness-chapter",
+      "tier": "power",
+      "t": "A chapter titled “The Whiteness of the Whale” meditates on why the whale’s color is so terrifying",
+      "k": [
+        "whiteness",
+        "terrifying",
+        "chapter"
+      ],
+      "n": 1
+    },
+    {
+      "id": "final-quote",
+      "tier": "power",
+      "t": "Ahab’s final speech to the whale includes “From hell’s heart I stab at thee”",
+      "k": [
+        "hells heart",
+        "stab",
+        "final speech"
+      ],
+      "n": 2
+    },
+    {
+      "id": "full-title",
+      "tier": "power",
+      "t": "The novel’s full original title adds the subtitle _or, The Whale_",
+      "k": [
+        "subtitle",
+        "the whale",
+        "original title"
+      ],
+      "n": 0
+    },
+    {
+      "id": "moby-description",
+      "tier": "power",
+      "t": "The whale itself is said to have a crooked lower jaw and a distinctive white, humped back",
+      "k": [
+        "crooked jaw",
+        "humped back"
+      ],
+      "n": 1
+    },
+    {
+      "id": "commercial-failure",
+      "tier": "power",
+      "t": "A commercial failure when published, the novel was rediscovered and celebrated only in the 1920s",
+      "k": [
+        "commercial failure",
+        "rediscovered",
+        "1920s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-mates",
+      "tier": "power",
+      "t": "Three mates, Starbuck, Stubb, and Flask, each command one of the ship’s whaleboats",
+      "k": [
+        "stubb",
+        "flask",
+        "whaleboats"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pequod-destroyed",
+      "tier": "power",
+      "t": "The whale rams and sinks the Pequod in the novel’s final chapters, drowning the whole crew but one",
+      "k": [
+        "rams",
+        "sinks",
+        "final chapters"
+      ],
+      "n": 1
+    },
+    {
+      "id": "cetology-chapters",
+      "tier": "power",
+      "t": "Long nonfiction-style chapters classify whale species and describe the anatomy of a sperm whale",
+      "k": [
+        "classify",
+        "anatomy",
+        "sperm whale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elijah-warning",
+      "tier": "power",
+      "t": "A stranger named Elijah warns Ishmael and Queequeg about their captain before the ship even leaves port",
+      "k": [
+        "elijah",
+        "stranger",
+        "warns"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rokovoko-origin",
+      "tier": "power",
+      "t": "Queequeg is said to be the son of a chief from the fictional Pacific island of Rokovoko",
+      "k": [
+        "rokovoko",
+        "chief",
+        "pacific island"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Whale, captain, or book?",
+    "body": "Moby Dick is both the name of the title whale and an acceptable answer for the novel itself, but Captain Ahab, Ishmael, Queequeg, and the ship Pequod are all separate answer lines with their own tossups.",
+    "fix": "Listen for the pronoun: “this novel” or “this book” wants Moby-Dick. “This captain,” “this narrator,” or “this ship” wants Ahab, Ishmael, or the Pequod instead.",
+    "line": "Real answer line: <b><u>Moby Dick</u></b> (or <u>Moby-Dick</u>; accept <u>Moby-Dick; or, The Whale</u>; prompt on “the white whale”)."
+  },
+  "freq": {
+    "rank": 82,
+    "count": 5,
+    "list": "Literature"
+  }
+}

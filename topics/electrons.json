@@ -1,0 +1,378 @@
+{
+  "id": "electrons",
+  "name": "Electrons",
+  "mono": "ELC",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Negatively charged particles around the nucleus · They carry electric current",
+  "dates": "Discovered by J. J. Thomson, 1897",
+  "briefing": "Electrons are tiny, negatively charged particles that swarm around the nucleus of every atom, vastly outweighed in mass by the protons and neutrons packed inside it. J. J. Thomson discovered them in 1897 using a cathode ray tube, proving that atoms are not solid, indivisible balls after all. The outermost ones are what atoms trade or share to form chemical bonds, and their steady flow through a wire is what we call electric current.",
+  "answerHtml": "<b><u>Electrons</u></b> (accept <u>electron</u> or <u>valence electrons</u>; prompt on <u>lepton</u>)",
+  "accept": [
+    "electrons",
+    "electron",
+    "valence electrons"
+  ],
+  "prompt": [
+    "lepton",
+    "leptons"
+  ],
+  "reject": [
+    "protons",
+    "proton",
+    "neutrons",
+    "neutron",
+    "quarks",
+    "quark",
+    "atoms",
+    "atom",
+    "ions",
+    "ion",
+    "nucleus",
+    "positron",
+    "cathode rays",
+    "cathode ray"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "What is an Electron?",
+      "source": "Reactions (American Chemical Society)",
+      "url": "https://www.youtube.com/watch?v=dgqHFpP1w2k",
+      "note": "Chemistry explainer · what an electron is and why it matters"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "The uncertain location of electrons - George Zaidan and Charles Morton",
+      "source": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=8ROHpZ0A70I",
+      "note": "Animated lesson · why we can only say where an electron probably is (electron clouds)"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Electrons",
+      "source": "Jefferson Lab",
+      "url": "https://www.youtube.com/watch?v=0qs3qj0hd48",
+      "note": "From Jefferson Lab, a U.S. national physics lab · all about the electron"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Electron facts for kids",
+      "source": "Kiddle",
+      "url": "https://kids.kiddle.co/Electron",
+      "note": "Kid-friendly encyclopedia page: negative charge, J. J. Thomson’s discovery, electron shells, and electricity"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Electron",
+  "qb": {
+    "q": "electrons",
+    "found": 8,
+    "tip": "All 8 Middle School/Easy High School results are genuinely about this particle, often alongside its outer “valence” role in bonding; watch for tossups that really want the broader “lepton” family or the quark-built protons and neutrons it orbits, not this particle itself."
+  },
+  "sample": {
+    "n": 8,
+    "note": "the 8 real QBReader tossups for this answer line (Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "Crystal field theory describes how nearby charged atoms can split the energy levels available to these particles. In the Compton effect, photons scatter off these particles and lose some of their energy in the process.",
+      "r": "The Aufbau principle governs the order in which these particles fill up energy “shells” around an atom’s nucleus. For 10 points, name these tiny, negatively charged particles that surround the nucleus of every atom."
+    },
+    {
+      "p": "The Stern-Gerlach experiment demonstrated that these particles carry a built-in angular momentum called spin. These particles belong to a broad class of matter particles called fermions, distinct from the force-carrying bosons.",
+      "r": "Robert Millikan measured one of these particles’ exact electric charge with his famous oil drop experiment. For 10 points, name these negatively charged particles first identified in 1897 by J. J. Thomson using a cathode ray tube."
+    },
+    {
+      "p": "In the common “Michel decay,” a muon breaks down into a neutrino, an antineutrino, and one of these particles. This particle’s antiparticle, carrying the opposite, positive charge, is called the positron.",
+      "r": "The Davisson-Germer experiment bounced these particles off a nickel target and proved they also behave like waves. For 10 points, name these particles, the outermost of which are traded or shared between atoms to form chemical bonds."
+    },
+    {
+      "p": "Pairs of these particles are accepted by “Lewis acids” during certain chemical reactions. In J. J. Thomson’s early “plum pudding” model, these particles were pictured studded through a positive blob like fruit in a dessert.",
+      "r": "Shining light above a certain threshold frequency can knock these particles loose from a metal, a trick called the photoelectric effect. For 10 points, name these particles that flow through a wire to carry electric current."
+    },
+    {
+      "p": "Beta decay spits one of these particles out of an unstable nucleus, along with an antineutrino. Niels Bohr’s model instead placed these particles in fixed circular shells at set distances from the nucleus.",
+      "r": "These particles belong to a family of fundamental particles called leptons, along with the heavier muon and tau. For 10 points, name these negatively charged particles first identified by J. J. Thomson in 1897."
+    },
+    {
+      "p": "Crystal field theory explains how nearby charged atoms split the energy levels available to these particles inside a compound. The Stern-Gerlach experiment showed that these particles carry their own built-in angular momentum, called spin.",
+      "r": "These particles are shared in covalent bonds, but fully transferred from one atom to another in ionic bonds. For 10 points, name these tiny particles with a negative charge that orbit the nucleus of an atom."
+    },
+    {
+      "p": "In the Compton effect, photons lose energy after scattering off these particles. The common “Michel decay” of a muon produces a neutrino, an antineutrino, and one of these particles.",
+      "r": "The Aufbau principle governs the order in which these particles fill up energy shells around a nucleus. For 10 points, name these particles, first identified in 1897 by J. J. Thomson using a cathode ray tube."
+    },
+    {
+      "p": "J. J. Thomson first pictured these particles studded through a positive blob, like fruit in a “plum pudding,” before Niels Bohr placed them in fixed shells instead. These particles carry spin, a built-in angular momentum confirmed by the Stern-Gerlach experiment.",
+      "r": "Robert Millikan’s oil drop experiment measured the exact electric charge on one of these particles. For 10 points, name these negatively charged particles that are shared or traded between atoms to form chemical bonds."
+    },
+    {
+      "p": "Lewis acids accept pairs of these particles during certain reactions, and crystal field theory explains how charged neighbors can split the energy levels available to them. These particles belong to a class called fermions, separate from the force-carrying bosons.",
+      "r": "The photoelectric effect knocks these particles loose from a metal once light passes a threshold frequency. For 10 points, name these particles that flow through a wire as electric current."
+    },
+    {
+      "p": "An unstable nucleus undergoing beta decay ejects one of these particles along with an antineutrino. These particles were shown to behave like waves, not just particles, when the Davisson-Germer experiment bounced them off a nickel target.",
+      "r": "These particles belong to the same family as the heavier muon and tau, called the leptons. For 10 points, name these negatively charged particles that surround the nucleus of every atom."
+    },
+    {
+      "p": "The positron, this particle’s positively charged antiparticle, appears in the common “Michel decay” of a positive muon alongside a neutrino and antineutrino. Niels Bohr pictured these particles orbiting in fixed circular shells, a big change from J. J. Thomson’s earlier “plum pudding” model.",
+      "r": "Robert Millikan calculated this particle’s tiny charge using his famous oil drop experiment. For 10 points, name these particles first identified in 1897 inside a cathode ray tube."
+    },
+    {
+      "p": "Crystal field theory describes the “splitting” of energy levels available to these particles when charged atoms sit nearby. The Stern-Gerlach experiment proved these particles carry an intrinsic angular momentum known as spin.",
+      "r": "These fermions are lost by an atom during oxidation and gained during reduction, a pair of reactions built around this particle’s transfer. For 10 points, name these negatively charged particles that fill shells according to the Aufbau principle."
+    },
+    {
+      "p": "The Compton effect describes how photons scatter off these particles and lose some of their energy. A “Michel decay” releases one of these particles from a decaying muon, alongside a neutrino and an antineutrino.",
+      "r": "These particles were fired at a nickel target in the Davisson-Germer experiment to reveal their wave-like behavior. For 10 points, name these subatomic particles, the outermost of which are traded or shared to form chemical bonds."
+    },
+    {
+      "p": "Lewis acids are defined by their ability to accept a pair of these particles. J. J. Thomson’s “plum pudding” model pictured these particles scattered through a positive blob before Rutherford’s and Bohr’s models replaced it.",
+      "r": "The photoelectric effect, in which light above a threshold frequency ejects these particles from a metal, helped confirm that light comes in discrete packets. For 10 points, name these negatively charged particles that carry electric current through a wire."
+    },
+    {
+      "p": "These particles carry spin, an intrinsic angular momentum first demonstrated by the Stern-Gerlach experiment, and belong to a broader class called fermions. Beta decay releases one of these particles from an unstable nucleus, along with an antineutrino.",
+      "r": "J. J. Thomson discovered these particles in 1897 using a cathode ray tube, and Robert Millikan later measured their charge with an oil drop experiment. For 10 points, name these particles that orbit an atom’s nucleus and carry a negative charge."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Tiny particles with a negative electric charge that orbit the nucleus of every atom",
+      "k": [
+        "negative",
+        "orbit",
+        "nucleus"
+      ],
+      "n": 8
+    },
+    {
+      "id": "thomson-1897",
+      "tier": "giveaway",
+      "t": "First identified in 1897 by J. J. Thomson using a cathode ray tube",
+      "k": [
+        "thomson",
+        "1897",
+        "cathode"
+      ],
+      "n": 5
+    },
+    {
+      "id": "bonding",
+      "tier": "giveaway",
+      "t": "The outermost ones are traded or shared between atoms to form chemical bonds",
+      "k": [
+        "outermost",
+        "traded",
+        "bonds"
+      ],
+      "n": 5,
+      "rabbit": "Quarks"
+    },
+    {
+      "id": "current",
+      "tier": "giveaway",
+      "t": "A flow of these through a wire is what carries electric current",
+      "k": [
+        "flow",
+        "current",
+        "wire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "millikan",
+      "tier": "middle",
+      "t": "Robert Millikan measured this particle’s exact charge with his famous oil drop experiment",
+      "k": [
+        "millikan",
+        "oil drop"
+      ],
+      "n": 3
+    },
+    {
+      "id": "aufbau",
+      "tier": "middle",
+      "t": "The Aufbau principle governs the order in which these fill up energy shells around the nucleus",
+      "k": [
+        "aufbau",
+        "shells"
+      ],
+      "n": 3
+    },
+    {
+      "id": "davisson-germer",
+      "tier": "middle",
+      "t": "The Davisson-Germer experiment bounced these off a nickel target and proved they also behave like waves",
+      "k": [
+        "davisson",
+        "nickel"
+      ],
+      "n": 4
+    },
+    {
+      "id": "photoelectric",
+      "tier": "middle",
+      "t": "Shining light above a certain threshold frequency can knock these loose from a metal, a trick called the photoelectric effect",
+      "k": [
+        "photoelectric",
+        "threshold"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lepton-family",
+      "tier": "middle",
+      "t": "Belongs to a family of fundamental particles called leptons, along with the heavier muon and tau",
+      "k": [
+        "leptons",
+        "muon"
+      ],
+      "n": 4
+    },
+    {
+      "id": "bonding-type",
+      "tier": "middle",
+      "t": "Shared in covalent bonds, but fully transferred from one atom to another in ionic bonds",
+      "k": [
+        "covalent",
+        "ionic"
+      ],
+      "n": 3
+    },
+    {
+      "id": "plum-pudding",
+      "tier": "power",
+      "t": "In J. J. Thomson’s early “plum pudding” model, these particles were pictured studded through a positive blob like fruit in a dessert",
+      "k": [
+        "plum pudding",
+        "thomson"
+      ],
+      "n": 1
+    },
+    {
+      "id": "bohr-model",
+      "tier": "power",
+      "t": "Niels Bohr’s model instead placed these in fixed circular shells at set distances from the nucleus",
+      "k": [
+        "bohr",
+        "shells"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stern-gerlach",
+      "tier": "power",
+      "t": "The Stern-Gerlach experiment demonstrated that these particles carry a built-in angular momentum called spin",
+      "k": [
+        "stern",
+        "spin"
+      ],
+      "n": 1
+    },
+    {
+      "id": "fermions",
+      "tier": "power",
+      "t": "These particles belong to a broad class of matter particles called fermions, distinct from force-carrying bosons",
+      "k": [
+        "fermions",
+        "bosons"
+      ],
+      "n": 1
+    },
+    {
+      "id": "lewis-acids",
+      "tier": "power",
+      "t": "Pairs of these are accepted by Lewis acids in certain chemical reactions",
+      "k": [
+        "lewis acids"
+      ],
+      "n": 1
+    },
+    {
+      "id": "compton",
+      "tier": "power",
+      "t": "In the Compton effect, photons scatter off these particles and lose some energy in the process",
+      "k": [
+        "compton",
+        "photons"
+      ],
+      "n": 1
+    },
+    {
+      "id": "crystal-field",
+      "tier": "power",
+      "t": "Crystal field theory describes how nearby charged atoms can split the energy levels available to these",
+      "k": [
+        "crystal field",
+        "energy levels"
+      ],
+      "n": 1
+    },
+    {
+      "id": "beta-decay",
+      "tier": "power",
+      "t": "Beta decay spits one of these out of an unstable nucleus, along with an antineutrino",
+      "k": [
+        "beta decay",
+        "antineutrino"
+      ],
+      "n": 1
+    },
+    {
+      "id": "positron",
+      "tier": "power",
+      "t": "Its antiparticle, carrying the opposite, positive charge, is called the positron",
+      "k": [
+        "antiparticle",
+        "positron"
+      ],
+      "n": 1
+    },
+    {
+      "id": "michel-decay",
+      "tier": "power",
+      "t": "In the common Michel decay, a muon breaks down into a neutrino, an antineutrino, and one of these",
+      "k": [
+        "michel decay",
+        "muon"
+      ],
+      "n": 1
+    }
+  ],
+  "trap": {
+    "title": "Leptons, not quarks",
+    "body": "These particles are fundamental leptons that are not built from anything smaller. The protons and neutrons they orbit, by contrast, are each built from three even tinier quarks, a completely different family. A kid who mixes up the two families might blurt “quark” for a particle clue about the nucleus, or blurt this particle’s name for a clue that is really describing the quarks hiding inside a proton.",
+    "fix": "If the clue describes something negatively charged orbiting the nucleus, discovered by J. J. Thomson, or traded in chemical bonds, it is this particle. If the clue describes “up” and “down” types combining in threes to build protons and neutrons, that is quarks instead.",
+    "line": "Real answer line: <b><u>Electrons</u></b> [or valence electrons]"
+  },
+  "tests": {
+    "right": [
+      "Electrons",
+      "electron",
+      "Electorns",
+      "Valence Electrons"
+    ],
+    "prompt": [
+      "Lepton",
+      "Leptons"
+    ],
+    "wrong": [
+      "Protons",
+      "Neutrons",
+      "Quarks",
+      "Atoms",
+      "Positron"
+    ]
+  },
+  "freq": {
+    "rank": 4,
+    "count": 11,
+    "list": "Physics"
+  }
+}

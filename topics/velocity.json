@@ -1,0 +1,405 @@
+{
+  "id": "velocity",
+  "name": "Velocity",
+  "mono": "VEL",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Speed with a direction · The vector quantity behind every motion graph",
+  "dates": "A core concept since classical mechanics began",
+  "briefing": "Velocity is what a speedometer leaves out: not just how fast something moves, but which way it’s headed. A car circling a track at a steady speed still has a constantly changing velocity, because its direction keeps changing — which is why physicists call it a vector quantity. Drop a ball and its velocity grows every second due to gravity, until drag finally balances things out at a “terminal” value.",
+  "answerHtml": "<b><u>Velocity</u></b> (accept <u>terminal velocity</u> or <u>escape velocity</u>)",
+  "accept": [
+    "velocity",
+    "terminal velocity",
+    "escape velocity"
+  ],
+  "prompt": [
+    "speed"
+  ],
+  "reject": [
+    "acceleration",
+    "speed of light",
+    "the speed of light"
+  ],
+  "tests": {
+    "right": [
+      "Velocity",
+      "Velocty",
+      "Terminal Velocity",
+      "Escape Velocity"
+    ],
+    "prompt": [
+      "Speed"
+    ],
+    "wrong": [
+      "Acceleration",
+      "The Speed of Light",
+      "Mass",
+      "Energy"
+    ]
+  },
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Velocity - GCSE Physics",
+      "source": "Physics Online",
+      "url": "https://www.youtube.com/watch?v=ZL4cKx8NK8E",
+      "note": "Velocity as speed in a given direction, a vector"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Effect of speed and direction on velocity",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=7KkLEaeX0W0",
+      "note": "Why changing direction changes velocity even at a steady speed"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Instantaneous speed & velocity",
+      "source": "Khan Academy India",
+      "url": "https://www.youtube.com/watch?v=jNv-U1Gr8xI",
+      "note": "Speed and velocity at a single instant, not averaged over a trip"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Velocity Time Graphs",
+      "source": "FuseSchool",
+      "url": "https://www.youtube.com/watch?v=AJF2n5RWXKE",
+      "note": "How to read velocity-time graphs"
+    },
+    {
+      "group": "background",
+      "kind": "video",
+      "title": "Motion in a Straight Line: Crash Course Physics #1",
+      "source": "Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=ZM8ECpBuQYE",
+      "note": "Displacement, velocity, and acceleration, the building blocks of motion (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Physics for Kids: Speed and Velocity",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/physics/speed_and_velocity.php",
+      "note": "Quick read on speed vs. velocity and how to measure each, with a 10-question quiz at the end"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Velocity",
+  "qb": {
+    "q": "velocity",
+    "found": 9,
+    "tip": "4 of the 9 raw hits were really about the distinct “speed of light” answer line (which itself only prompts on “speed” or “velocity”), so only the 5 tossups truly about this vector quantity were used."
+  },
+  "sample": {
+    "n": 5,
+    "note": "5 real QBReader tossups genuinely about this quantity (Middle School + Easy High School, power-marked); 4 other hits in the same search were about the separate “speed of light” answer line"
+  },
+  "tossups": [
+    {
+      "p": "Formally defined as the derivative of an object’s position with respect to time, this quantity for liquid draining out of a tank is given by Torricelli’s theorem as the square root of two times gravity times height. Streamlines in fluid dynamics are drawn tangent to this quantity at every point in a flow.",
+      "r": "This quantity’s own rate of change over time is called acceleration. For 10 points, name this vector quantity that combines a speed with a direction."
+    },
+    {
+      "p": "In one kinematics equation, this quantity’s final value equals its initial value plus the product of acceleration and time. Kinetic energy equals one-half times mass times this quantity squared, and centripetal acceleration equals this quantity squared divided by the radius of a circular path.",
+      "r": "A “drift” type of this quantity in a conductor equals current density divided by charge density. For 10 points, name this quantity that is the vector version of speed."
+    },
+    {
+      "p": "The spread of molecular values of this quantity among ideal gas particles follows the Maxwell-Boltzmann distribution. A “terminal” type of this quantity is reached during free fall once drag and buoyant forces balance out the pull of gravity, while an “escape” type is the minimum needed to break completely free of a planet’s gravity.",
+      "r": "On a graph of position plotted against time, the slope at any point gives this quantity’s instantaneous value. For 10 points, name this quantity, a vector equal to speed combined with direction."
+    },
+    {
+      "p": "In projectile motion, this quantity splits into separate horizontal and vertical components that can be analyzed independently of each other. The area underneath a graph of this quantity plotted against time gives the total displacement traveled.",
+      "r": "This quantity can be positive or negative along a line, with its sign showing direction. For 10 points, name this quantity, measured in meters per second, that describes both how fast something moves and which way it is going."
+    },
+    {
+      "p": "Rocket scientists calculate the energy needed for this quantity to let a spacecraft permanently break free of a planet’s gravitational pull, a threshold called its “escape” value. Centripetal acceleration equals this quantity’s square divided by the radius of a curved path, and this quantity’s own rate of change defines acceleration.",
+      "r": "Dividing total displacement by elapsed time gives this quantity’s average value over that interval. For 10 points, name this vector quantity equal to speed combined with a direction."
+    },
+    {
+      "p": "A “drift” type of this quantity inside a current-carrying wire equals current density divided by charge density. Maxwell-Boltzmann statistics describe how this quantity varies among the molecules of an ideal gas, and Torricelli’s theorem predicts this quantity for liquid draining from a hole using the square root of two times gravity times height.",
+      "r": "This quantity is divided into “average” and “instantaneous” types, the second found from the slope of a position-time graph. For 10 points, name this quantity, the rate of change of position."
+    },
+    {
+      "p": "Streamlines in fluid dynamics are drawn tangent to this quantity at every point along a flow. In one kinematics equation, this quantity’s final value equals its initial value plus the product of acceleration and time, and kinetic energy equals one-half times mass times this quantity’s square.",
+      "r": "Unlike plain speed, this quantity carries a direction as well as a size, making it what physicists call a vector. For 10 points, name this quantity, often graphed with its slope equal to acceleration."
+    },
+    {
+      "p": "This quantity is formally defined as the derivative of position with respect to time, and the area beneath its graph against time equals total displacement. In projectile motion, this quantity is broken into independent horizontal and vertical components.",
+      "r": "An object in free fall speeds up until drag and buoyancy balance gravity, capping this quantity at a “terminal” value. For 10 points, name this vector quantity measured in meters per second."
+    },
+    {
+      "p": "Centripetal acceleration equals this quantity squared, divided by the radius of a circular path. A “drift” version of this quantity in a conductor equals current density over charge density, and the minimum value of this quantity needed to permanently leave a planet’s gravity is its “escape” value.",
+      "r": "This quantity’s rate of change over time is, by definition, acceleration. For 10 points, name this vector quantity that measures both speed and direction of motion."
+    },
+    {
+      "p": "Torricelli’s theorem gives this quantity for water leaving a drain as the square root of two times gravitational acceleration times height. Ideal gas molecules have values of this quantity distributed according to Maxwell-Boltzmann statistics, and in a wire, a “drift” type of this quantity equals current density divided by charge density.",
+      "r": "This quantity may be positive or negative along a line, with its sign revealing direction. For 10 points, name this quantity, the rate of change of an object’s position."
+    },
+    {
+      "p": "Kinetic energy is one-half times mass times the square of this quantity, which in one kinematics formula is also equal to an initial value plus acceleration multiplied by time. In fluid dynamics, streamlines stay tangent to this quantity throughout a flow.",
+      "r": "This quantity reaches a “terminal” level during free fall once drag and buoyant forces cancel out gravity, and an “escape” level once it is enough to leave a planet’s gravity for good. For 10 points, name this quantity that differs from speed by also specifying direction."
+    },
+    {
+      "p": "This quantity’s instantaneous value at any instant is given by the slope of a graph of position against time, while the area under its own graph against time yields total displacement. This quantity is formally the derivative of position with respect to time.",
+      "r": "Centripetal acceleration equals the square of this quantity divided by the radius of a curved path. For 10 points, name this vector quantity, equal to the rate of change of displacement."
+    },
+    {
+      "p": "A “drift” variety of this quantity in a current-carrying conductor is found by dividing current density by charge density. The Maxwell-Boltzmann distribution describes how this quantity is spread among the molecules of an ideal gas, and Torricelli’s theorem predicts this quantity for liquid draining from a tank.",
+      "r": "This quantity’s own rate of change over time is what defines acceleration. For 10 points, name this quantity, a vector made of speed plus direction."
+    },
+    {
+      "p": "In projectile motion, this quantity is split into independent horizontal and vertical components for separate analysis. This quantity for a spacecraft must reach an “escape” threshold to permanently overcome a planet’s gravitational pull, and it instead reaches a “terminal” threshold during free fall once drag balances gravity.",
+      "r": "This quantity equals total displacement divided by elapsed time when averaged over an interval. For 10 points, name this vector quantity, often confused with plain speed."
+    },
+    {
+      "p": "Formally defined as the derivative of position with respect to time, this quantity’s final value in one kinematics equation equals its initial value plus acceleration times elapsed time. Kinetic energy equals one-half mass times the square of this quantity.",
+      "r": "Streamlines in fluid dynamics stay tangent to this quantity everywhere in a flow, and this quantity’s own rate of change over time is called acceleration. For 10 points, name this quantity measured in meters per second that combines speed with a direction."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The rate of change of an object’s position (or displacement) with respect to time",
+      "k": [
+        "rate of change",
+        "position",
+        "displacement"
+      ],
+      "n": 3
+    },
+    {
+      "id": "vector-not-scalar",
+      "tier": "giveaway",
+      "t": "A vector quantity with both size and direction, unlike plain speed, which has size only",
+      "k": [
+        "vector",
+        "direction",
+        "speed"
+      ],
+      "n": 4
+    },
+    {
+      "id": "units",
+      "tier": "giveaway",
+      "t": "Usually measured in meters per second (m/s), the same unit as speed",
+      "k": [
+        "meters per second",
+        "m/s"
+      ],
+      "n": 1
+    },
+    {
+      "id": "formula-basic",
+      "tier": "giveaway",
+      "t": "Equal to displacement divided by time during steady, unchanging motion",
+      "k": [
+        "displacement",
+        "divided by time"
+      ],
+      "n": 0
+    },
+    {
+      "id": "terminal-velocity",
+      "tier": "middle",
+      "t": "A “terminal” type reached in free fall once drag and buoyancy forces balance out gravity",
+      "k": [
+        "terminal",
+        "free fall",
+        "drag",
+        "buoyancy"
+      ],
+      "n": 3
+    },
+    {
+      "id": "rate-of-change-acceleration",
+      "tier": "middle",
+      "t": "Its own rate of change over time defines acceleration",
+      "k": [
+        "rate of change",
+        "acceleration"
+      ],
+      "n": 2,
+      "rabbit": "Acceleration"
+    },
+    {
+      "id": "negative-direction",
+      "tier": "middle",
+      "t": "Can be positive or negative along a line, with the sign showing direction",
+      "k": [
+        "positive",
+        "negative",
+        "sign",
+        "direction"
+      ],
+      "n": 0
+    },
+    {
+      "id": "graph-slope",
+      "tier": "middle",
+      "t": "On a graph of position plotted against time, the slope at any point gives its instantaneous value",
+      "k": [
+        "graph",
+        "slope",
+        "instantaneous"
+      ],
+      "n": 0
+    },
+    {
+      "id": "average-vs-instantaneous",
+      "tier": "middle",
+      "t": "Divided into an “average” value over an interval and an “instantaneous” value at one exact moment",
+      "k": [
+        "average",
+        "instantaneous"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kinematics-formula",
+      "tier": "middle",
+      "t": "In one key motion equation, a final value equals an initial value plus acceleration multiplied by time",
+      "k": [
+        "final value",
+        "initial value",
+        "acceleration"
+      ],
+      "n": 1
+    },
+    {
+      "id": "direction-matters",
+      "tier": "middle",
+      "t": "Two cars moving at the same speed but heading in different directions have different values of it",
+      "k": [
+        "same speed",
+        "different directions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "escape-velocity",
+      "tier": "power",
+      "t": "An “escape” type is the minimum needed for an object to break completely free of a planet’s gravity",
+      "k": [
+        "escape",
+        "break completely free",
+        "gravity"
+      ],
+      "n": 2,
+      "rabbit": "Gravity"
+    },
+    {
+      "id": "kinetic-energy-formula",
+      "tier": "power",
+      "t": "Appears squared, multiplied by one-half the mass, in the formula for kinetic energy",
+      "k": [
+        "kinetic energy",
+        "one-half",
+        "squared"
+      ],
+      "n": 1
+    },
+    {
+      "id": "centripetal",
+      "tier": "power",
+      "t": "Centripetal acceleration equals its square divided by the radius of a circular path",
+      "k": [
+        "centripetal acceleration",
+        "radius",
+        "circular path"
+      ],
+      "n": 1
+    },
+    {
+      "id": "torricelli",
+      "tier": "power",
+      "t": "Torricelli’s theorem calculates it for draining liquid as the square root of two times gravity times height",
+      "k": [
+        "torricelli",
+        "square root",
+        "draining liquid"
+      ],
+      "n": 1
+    },
+    {
+      "id": "maxwell-boltzmann",
+      "tier": "power",
+      "t": "The spread of molecular values among ideal gas particles follows the Maxwell-Boltzmann distribution",
+      "k": [
+        "maxwell-boltzmann",
+        "gas particles",
+        "distribution"
+      ],
+      "n": 1
+    },
+    {
+      "id": "drift",
+      "tier": "power",
+      "t": "A “drift” type in a conductor equals current density divided by charge density",
+      "k": [
+        "drift",
+        "current density",
+        "charge density"
+      ],
+      "n": 1
+    },
+    {
+      "id": "streamlines",
+      "tier": "power",
+      "t": "In fluid dynamics, “streamlines” are drawn tangent to it at every point in a flow",
+      "k": [
+        "streamlines",
+        "fluid dynamics",
+        "tangent"
+      ],
+      "n": 1
+    },
+    {
+      "id": "calculus-derivative",
+      "tier": "power",
+      "t": "Formally defined as the derivative of position with respect to time",
+      "k": [
+        "derivative",
+        "position",
+        "respect to time"
+      ],
+      "n": 0
+    },
+    {
+      "id": "area-under-graph",
+      "tier": "power",
+      "t": "The area underneath its graph plotted against time gives total displacement",
+      "k": [
+        "graph",
+        "total displacement"
+      ],
+      "n": 0
+    },
+    {
+      "id": "projectile-components",
+      "tier": "power",
+      "t": "In projectile motion, it splits into separate horizontal and vertical components analyzed independently",
+      "k": [
+        "projectile motion",
+        "horizontal",
+        "vertical"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Velocity, speed, or light speed?",
+    "body": "Several real tossups about the universal constant “the speed of light” only prompt on “velocity” or “speed” before the specific numeric value or Einstein’s relativity clues are read — meaning the sharper answer there is “speed of light,” not this one. Early in a tossup about this quantity itself, saying plain “speed” instead of this quantity also only earns a prompt, since speed is the related scalar that drops the direction.",
+    "fix": "If the clues are building toward “about 300,000 kilometers per second,” Einstein’s E=mc², or the Lorentz factor, hold out for “speed of light.” If the clues mention a magnitude and a direction (or contrast directly with “speed”), answer with this vector quantity instead.",
+    "line": "Real answer line: <b><u>Velocity</u></b> (accept <u>terminal velocity</u> or <u>escape velocity</u>; prompt on “speed”; several real tossups about the speed of light itself only prompt on “velocity”)"
+  },
+  "freq": {
+    "rank": 14,
+    "count": 6,
+    "list": "Physics"
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "id": "andrew-johnson",
+  "name": "Andrew Johnson",
+  "mono": "17",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "17th U.S. President · First president to be impeached",
+  "dates": "1808–1875",
+  "briefing": "Andrew Johnson never went to school; he taught himself to read and worked as a tailor in Tennessee. He rose to congressman, governor, senator, and finally Abraham Lincoln’s vice president, then became president when Lincoln was assassinated in 1865. His fights with Congress over rebuilding the South made him the first president to be impeached, and he survived his Senate trial by just one vote.",
+  "answerHtml": "<b><u>Andrew Johnson</u></b> (prompt on <u>Johnson</u>)",
+  "accept": [
+    "andrew johnson",
+    "president andrew johnson"
+  ],
+  "prompt": [
+    "johnson",
+    "president johnson",
+    "andrew"
+  ],
+  "reject": [
+    "andrew jackson",
+    "jackson",
+    "andy jackson",
+    "stonewall jackson",
+    "lyndon johnson",
+    "lyndon b johnson",
+    "lyndon baines johnson",
+    "lbj",
+    "l b j",
+    "lyndon"
+  ],
+  "media": [
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Andrew Johnson | 60-Second Presidents",
+      "source": "PBS",
+      "url": "https://www.youtube.com/watch?v=H11SE9M2oMY",
+      "note": "1 min · his whole life in one minute"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Andrew Johnson’s Failed Presidency | Ultimate Guide to the Presidents",
+      "source": "HISTORY",
+      "url": "https://www.youtube.com/watch?v=yCB0qFaTCFA",
+      "note": "Short clip · why his presidency is remembered as a failure"
+    },
+    {
+      "kind": "video",
+      "group": "focus",
+      "title": "Andrew Johnson: The Impeached President",
+      "source": "CBS Sunday Morning",
+      "url": "https://www.youtube.com/watch?v=N466WTClpe4",
+      "note": "TV news story · the first presidential impeachment, in 1868"
+    },
+    {
+      "kind": "video",
+      "group": "background",
+      "title": "Reconstruction and 1876 (#22)",
+      "source": "Crash Course US History",
+      "url": "https://www.youtube.com/watch?v=nowsS7pMApI",
+      "note": "The bigger picture: Reconstruction after the Civil War, the era of his presidency"
+    },
+    {
+      "kind": "article",
+      "group": "read",
+      "title": "President Andrew Johnson",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/biography/uspresidents/andrewjohnson.php",
+      "note": "Quick read with fun facts and a quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Andrew_Johnson",
+  "qb": {
+    "q": "Andrew Johnson",
+    "found": 3,
+    "tip": "Only two of the three results are about him: the third is a Lyndon B. Johnson question that says “do NOT accept or prompt on Andrew Johnson,” so always read the answer line."
+  },
+  "sample": {
+    "n": 6,
+    "note": "6 real QBReader tossups (2 Middle School/Easy High School + 4 Regular High School, power-marked; 2 of the Regular High School ones wanted “Impeachment of Andrew Johnson”)"
+  },
+  "tossups": [
+    {
+      "p": "In 1866, this president went on a speaking tour called the “Swing Around the Circle,” stopping in cities such as Cleveland, Chicago, and St. Louis, where he traded insults with hecklers. The tour backfired, and his opponents, the Radical Republicans, won big in that year’s congressional elections.",
+      "r": "Two years later, he became the first president to be impeached. For 10 points, name this man who succeeded Abraham Lincoln."
+    },
+    {
+      "p": "When this president named Adjutant General Lorenzo Thomas to take over the War Department, Edwin Stanton refused to leave and barricaded himself in his office. Stanton was protected by a law that required the Senate’s approval before this president could remove certain officials.",
+      "r": "That law was the Tenure of Office Act. For 10 points, name this 17th president, the first to be impeached."
+    },
+    {
+      "p": "In the 1926 case _Myers v. United States_, the Supreme Court said that the law this president was accused of breaking had been unconstitutional. Congress had passed that law, the Tenure of Office Act, partly to stop this president from firing Secretary of War Edwin Stanton.",
+      "r": "For 10 points, name this Tennessean who was impeached in 1868, three years after he succeeded Abraham Lincoln."
+    },
+    {
+      "p": "Chief Justice Salmon Chase presided over this man’s trial in the Senate, where Edmund Ross of Kansas was one of seven Republicans who voted to acquit him. John F. Kennedy later honored Ross’s vote in the book _Profiles in Courage_.",
+      "r": "The Senate fell one vote short of removing him from office. For 10 points, name this first president to be impeached."
+    },
+    {
+      "p": "When Tennessee left the Union in 1861, this man was the only senator from a seceding state who refused to give up his seat in the U.S. Senate. In 1864, Republicans running as the National Union Party chose this Southern Democrat to replace Hannibal Hamlin on the ticket.",
+      "r": "For 10 points, name this vice president who became the 17th president after Abraham Lincoln’s assassination."
+    },
+    {
+      "p": "In 1862, after Union troops captured Nashville, Abraham Lincoln made this man the military governor of Tennessee with the rank of brigadier general. Years before, this man had been elected governor of Tennessee and then sent to the U.S. Senate.",
+      "r": "As president, he fought with Congress over Reconstruction. For 10 points, name this successor of Lincoln, the first president impeached."
+    },
+    {
+      "p": "This man never attended school, taught himself to read, and was apprenticed to a tailor as a boy. He later ran a tailor shop in Greeneville, Tennessee, and his wife, Eliza, helped him improve his writing and math.",
+      "r": "He became vice president in March 1865. For 10 points, name this man who took over the presidency after Abraham Lincoln was shot."
+    },
+    {
+      "p": "For years, this congressman from Tennessee pushed for a homestead law that would give free western land to small farmers, a goal finally met by the Homestead Act of 1862. As a senator, he stayed loyal to the Union even after his state seceded.",
+      "r": "For 10 points, name this man who became president in 1865 and was impeached three years later."
+    },
+    {
+      "p": "On Christmas Day in 1868, this president pardoned everyone who had taken part in the Confederate rebellion. In early 1869, he also pardoned Dr. Samuel Mudd, who had been sent to prison for helping John Wilkes Booth escape after Abraham Lincoln’s assassination.",
+      "r": "For 10 points, name this 17th president, who had taken office after Lincoln’s death."
+    },
+    {
+      "p": "On the night Abraham Lincoln was shot, George Atzerodt was supposed to attack this man at the Kirkwood House hotel, but he never made the attempt. The next morning, this man was sworn in at that same hotel by Chief Justice Salmon Chase.",
+      "r": "Abraham Lincoln had died just hours earlier. For 10 points, name this vice president who became the 17th president."
+    },
+    {
+      "p": "This president vetoed the Civil Rights Act of 1866, which declared that people born in the United States were citizens, but Congress overrode him, making it the first major law ever passed over a president’s veto. He also opposed the Fourteenth Amendment.",
+      "r": "For 10 points, name this 17th president who battled the Radical Republicans and was impeached in 1868."
+    },
+    {
+      "p": "The Reconstruction Acts of 1867, which split most of the former Confederacy into five military districts, were passed over this president’s veto. That same year, his Secretary of State, William Seward, bought Alaska from Russia in a deal mocked as “Seward’s Folly.”",
+      "r": "For 10 points, name this president who was in office when the United States bought Alaska, the first president to be impeached."
+    },
+    {
+      "p": "In 1875, this man became the only former president ever elected to the U.S. Senate, but he died just a few months after taking his seat. During his own presidency, the Senate had come within one vote of removing him from office.",
+      "r": "For 10 points, name this Tennessean who was the first U.S. president to be impeached."
+    },
+    {
+      "p": "Henry Stanbery resigned as attorney general to help defend this man, while Benjamin Butler and Thaddeus Stevens were among the House members who argued the case against him. That case began after he tried to fire Secretary of War Edwin Stanton.",
+      "r": "For 10 points, name this president, the first to be impeached, who took over after Abraham Lincoln’s death."
+    },
+    {
+      "p": "Under this president’s plan for Reconstruction, former Confederate states quickly formed new governments, passed “Black Codes” that limited the freedom of formerly enslaved people, and elected former Confederate leaders to Congress, which refused to seat them.",
+      "r": "The Radical Republicans fought his plan. For 10 points, name this president who was impeached in 1868."
+    }
+  ],
+  "clues": [
+    {
+      "id": "lincolns-successor",
+      "tier": "giveaway",
+      "t": "17th President (1865–1869); took over after Abraham Lincoln’s assassination",
+      "k": [
+        "17th president",
+        "seventeenth",
+        "lincoln",
+        "successor"
+      ],
+      "n": 6,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "first-impeached",
+      "tier": "giveaway",
+      "t": "First president to be impeached (1868); the Senate fell one vote short of removing him",
+      "k": [
+        "impeached",
+        "impeachment",
+        "1868",
+        "one vote"
+      ],
+      "n": 6
+    },
+    {
+      "id": "alaska",
+      "tier": "giveaway",
+      "t": "Alaska was bought from Russia (1867) during his presidency, in a deal nicknamed “Seward’s Folly”",
+      "k": [
+        "alaska",
+        "seward’s folly",
+        "sewards folly",
+        "russia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tenure-of-office",
+      "tier": "middle",
+      "t": "Accused of breaking the Tenure of Office Act, which required the Senate’s OK before he fired certain officials",
+      "k": [
+        "tenure of office",
+        "tenure"
+      ],
+      "n": 5
+    },
+    {
+      "id": "stanton",
+      "tier": "middle",
+      "t": "Tried to fire Secretary of War Edwin Stanton, who barricaded himself in his office",
+      "k": [
+        "edwin stanton",
+        "stanton",
+        "barricaded"
+      ],
+      "n": 5
+    },
+    {
+      "id": "radical-republicans",
+      "tier": "middle",
+      "t": "Battled the Radical Republicans in Congress, who wanted stronger protection for freed people in the South",
+      "k": [
+        "radical republicans",
+        "radical",
+        "congress"
+      ],
+      "n": 4
+    },
+    {
+      "id": "hamlin",
+      "tier": "middle",
+      "t": "Replaced Hannibal Hamlin as Lincoln’s running mate in 1864, on the National Union ticket",
+      "k": [
+        "hannibal hamlin",
+        "hamlin",
+        "national union",
+        "1864"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lenient-reconstruction",
+      "tier": "middle",
+      "t": "Wanted the South back in quickly and easily; Southern states under his plan passed Black Codes",
+      "k": [
+        "black codes",
+        "reconstruction",
+        "quickly"
+      ],
+      "n": 1
+    },
+    {
+      "id": "vetoes",
+      "tier": "middle",
+      "t": "Vetoed the Civil Rights Act of 1866, but Congress overrode him; also opposed the 14th Amendment",
+      "k": [
+        "civil rights act",
+        "veto",
+        "14th amendment",
+        "overrode"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reconstruction-acts",
+      "tier": "middle",
+      "t": "The Reconstruction Acts (1867) split the South into five military districts, passed over his veto",
+      "k": [
+        "reconstruction acts",
+        "military districts",
+        "five military"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tailor",
+      "tier": "middle",
+      "t": "Never went to school; a tailor in Greeneville, Tennessee, whose wife Eliza helped him improve his writing and math",
+      "k": [
+        "tailor",
+        "eliza",
+        "school"
+      ],
+      "n": 0
+    },
+    {
+      "id": "swing-around-the-circle",
+      "tier": "power",
+      "t": "“Swing Around the Circle” (1866): a speaking tour where he argued with hecklers; it backfired before the midterm elections",
+      "k": [
+        "swing around the circle",
+        "swing",
+        "hecklers",
+        "speaking tour"
+      ],
+      "n": 3
+    },
+    {
+      "id": "myers",
+      "tier": "power",
+      "t": "_Myers v. United States_ (1926) later said the Tenure of Office Act had been unconstitutional",
+      "k": [
+        "myers v. united states",
+        "myers",
+        "1926"
+      ],
+      "n": 2
+    },
+    {
+      "id": "lorenzo-thomas",
+      "tier": "power",
+      "t": "Named Adjutant General Lorenzo Thomas to replace Stanton as Secretary of War",
+      "k": [
+        "lorenzo thomas",
+        "thomas",
+        "adjutant"
+      ],
+      "n": 2
+    },
+    {
+      "id": "trial-managers",
+      "tier": "power",
+      "t": "Benjamin Butler, John Bingham, and Thaddeus Stevens led the House’s case; Henry Stanbery quit as attorney general to defend him",
+      "k": [
+        "thaddeus stevens",
+        "benjamin butler",
+        "butler",
+        "bingham",
+        "stanbery"
+      ],
+      "n": 2,
+      "rabbit": "Thaddeus Stevens"
+    },
+    {
+      "id": "military-governor",
+      "tier": "power",
+      "t": "Elected governor of Tennessee (1853); later Lincoln’s military governor of Tennessee (1862), as a brigadier general",
+      "k": [
+        "military governor",
+        "brigadier general",
+        "governor",
+        "nashville"
+      ],
+      "n": 2
+    },
+    {
+      "id": "ross-chase",
+      "tier": "power",
+      "t": "Chief Justice Salmon Chase ran the Senate trial; Edmund Ross was one of seven Republicans who voted to acquit (_Profiles in Courage_)",
+      "k": [
+        "edmund ross",
+        "ross",
+        "acquit",
+        "chase"
+      ],
+      "n": 1
+    },
+    {
+      "id": "loyal-senator",
+      "tier": "power",
+      "t": "As a Tennessee senator, the only senator from a seceding state who kept his seat in 1861",
+      "k": [
+        "senator",
+        "seceding",
+        "kept his seat",
+        "loyal"
+      ],
+      "n": 1
+    },
+    {
+      "id": "homestead",
+      "tier": "power",
+      "t": "As a congressman and senator, pushed for years for a homestead law giving free western land to settlers",
+      "k": [
+        "homestead",
+        "free land"
+      ],
+      "n": 1
+    },
+    {
+      "id": "christmas-amnesty",
+      "tier": "power",
+      "t": "Pardoned all former Confederates on Christmas Day, 1868; pardoned Dr. Samuel Mudd in 1869",
+      "k": [
+        "christmas day",
+        "christmas",
+        "pardoned",
+        "amnesty",
+        "mudd"
+      ],
+      "n": 1
+    },
+    {
+      "id": "atzerodt",
+      "tier": "power",
+      "t": "The night Lincoln was shot, George Atzerodt was supposed to attack him at the Kirkwood House hotel but never tried",
+      "k": [
+        "atzerodt",
+        "kirkwood"
+      ],
+      "n": 0
+    },
+    {
+      "id": "senate-again",
+      "tier": "power",
+      "t": "The only former president later elected to the U.S. Senate (1875); he died a few months after taking his seat",
+      "k": [
+        "u.s. senate",
+        "senate",
+        "1875"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Andrew? Which Johnson?",
+    "body": "Andrew Johnson (17th president) and Andrew Jackson (7th president) were both Tennessee Democrats born in the Carolinas, and their last names differ by only a few letters. Lyndon B. Johnson, the 36th president, also took over after a president was shot. A real LBJ tossup says “do NOT accept or prompt on Andrew Johnson,” and this answer line only prompts on “Johnson,” so the first name matters both ways.",
+    "fix": "Andrew Johnson clues: Lincoln’s successor, Reconstruction, Edwin Stanton, the Tenure of Office Act, and impeachment in 1868. Jackson clues: New Orleans, the Bank War, and the Trail of Tears; LBJ clues: Kennedy, the Great Society, and Vietnam. Always say the full name “Andrew Johnson.”",
+    "line": "Real answer lines: <b><u>Andrew Johnson</u></b> (prompt on <u>Johnson</u>) and, in an LBJ tossup, <b><u>Lyndon</u></b> Baines <b><u>Johnson</u></b> [or <b><u>LBJ</u></b>; prompt on <u>Johnson</u>; do NOT accept or prompt on “Andrew Johnson”]"
+  },
+  "tests": {
+    "right": [
+      "Andrew Johnson",
+      "andrew jonson",
+      "President Andrew Johnson",
+      "Andrew Johnston"
+    ],
+    "prompt": [
+      "Johnson",
+      "President Johnson",
+      "Andrew"
+    ],
+    "wrong": [
+      "Andrew Jackson",
+      "Jackson",
+      "Andrew Jakson",
+      "Lyndon Johnson",
+      "Lyndon B. Johnson",
+      "LBJ",
+      "Old Hickory"
+    ]
+  },
+  "freq": {
+    "rank": 39,
+    "count": 3,
+    "list": "American History"
+  }
+}

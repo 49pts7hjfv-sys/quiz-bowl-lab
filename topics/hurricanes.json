@@ -1,0 +1,446 @@
+{
+  "id": "hurricanes",
+  "name": "Hurricanes",
+  "mono": "HU",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Giant rotating tropical storms · Run on warm ocean water, not gasoline",
+  "dates": "Atlantic season: June–November",
+  "briefing": "A hurricane is like an engine that burns warm ocean water instead of gasoline. Moist air rises and spins into a wheel of thunderstorms hundreds of miles wide, with a strangely calm “eye” at the center ringed by its most violent winds, the eyewall. Scientists rank these storms on the five-step Saffir-Simpson scale, and the names of the worst ones, like Katrina and Harvey, get retired for good.",
+  "answerHtml": "<b><u>Hurricanes</u></b> (or <u>Tropical Cyclones</u>; prompt on <u>Typhoon</u>, <u>Cyclone</u>, or <u>Tropical Storm</u>)",
+  "accept": [
+    "hurricane",
+    "hurricanes",
+    "tropical cyclone",
+    "tropical cyclones"
+  ],
+  "prompt": [
+    "cyclone",
+    "cyclones",
+    "typhoon",
+    "typhoons",
+    "tropical storm",
+    "tropical storms"
+  ],
+  "reject": [
+    "hurricane katrina",
+    "hurricane harvey",
+    "hurricane sandy",
+    "hurricane maria",
+    "tornado",
+    "tornadoes",
+    "monsoon"
+  ],
+  "media": [
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How Do Hurricanes Form?",
+      "source": "NOAA SciJinks",
+      "url": "https://www.youtube.com/watch?v=wPDoIrGUrEc",
+      "note": "NOAA’s kid-friendly explainer of how hurricanes grow over warm ocean water"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Discovering hurricanes: The science behind nature’s epic storms explained",
+      "source": "CBC Kids News",
+      "url": "https://www.youtube.com/watch?v=bikHUJh-WzY",
+      "note": "Kids’ news explainer on how hurricanes form and why they are so powerful"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "Hurricanes 101",
+      "source": "National Geographic",
+      "url": "https://www.youtube.com/watch?v=LlXVikDkyTg",
+      "note": "How hurricanes form, their parts, and how they are ranked"
+    },
+    {
+      "group": "focus",
+      "kind": "video",
+      "title": "How Does a Hurricane Form?",
+      "source": "NOVA PBS",
+      "url": "https://www.youtube.com/watch?v=6VgmsBzprcM",
+      "note": "NOVA’s science explainer on how a hurricane forms and builds strength (older end)"
+    },
+    {
+      "group": "read",
+      "kind": "article",
+      "title": "Weather: Hurricanes (Tropical Cyclones)",
+      "source": "Ducksters",
+      "url": "https://www.ducksters.com/science/earth_science/hurricanes.php",
+      "note": "Quick read: how hurricanes form, the eye and eye wall, categories, and naming, plus a 10-question quiz"
+    }
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Tropical_cyclone",
+  "qb": {
+    "q": "hurricane",
+    "found": 7,
+    "tip": "Two of the seven results, Hurricane Katrina and Hurricane Harvey, are about one specific storm, not the general phenomenon — that mismatch is the Buzzer Trap below."
+  },
+  "sample": {
+    "n": 5,
+    "note": "5 of the 7 real QBReader tossups for this answer line (the other 2 named one specific storm instead; Middle School + Easy High School, power-marked)"
+  },
+  "tossups": [
+    {
+      "p": "The Fujiwhara [“foo-jee-WAH-rah”] Effect describes how two of these systems can interact or merge. Size can be measured by the ROCI, or “radius of outermost closed isobar.” A “stadium effect,” an inverted dome shape, can appear around the calm center of a strong one of these systems.",
+      "r": "The Coriolis effect gives these systems their spin, which is why they almost never form within about 5 degrees of the equator. Wind speed in these storms is ranked on the Saffir-Simpson scale up to Category 5. For 10 points, name these giant rotating tropical storms."
+    },
+    {
+      "p": "Specialized aircraft nicknamed “Hunters,” including the Lockheed WP-3D Orion, fly directly into these systems to gather data. Climatologist Kerry Emanuel has tracked a decades-long rise in these systems’ destructive force using a “power dissipation index.”",
+      "r": "The ring of intense wind and rain surrounding the calm center of these systems is called the eyewall. For 10 points, name these rotating storms rated on the Saffir-Simpson scale, which officially form once sustained winds reach 74 miles per hour."
+    },
+    {
+      "p": "Forecasters have used the “Mariners’ 1-2-3 Rule” to estimate how far off their predicted path for one of these systems might be. These systems draw their energy from the heat released as warm ocean water evaporates and then condenses inside the storm.",
+      "r": "These storms weaken quickly once they make landfall, because crossing onto land cuts off their fuel supply of warm water. For 10 points, name these storms, rated up to Category 5 on the Saffir-Simpson scale, with calm centers called eyes."
+    },
+    {
+      "p": "The World Meteorological Organization maintains the rotating, alternating-gender lists of names given to these storms, and retires the name of any especially destructive one. These systems can merge through the Fujiwhara Effect, and their size can be described using the ROCI measurement.",
+      "r": "Spiral rainbands of thunderstorms wind outward from these systems’ eyewalls. For 10 points, name these giant storms, including examples like Harvey and Maria, which are rated on the five-category Saffir-Simpson scale."
+    },
+    {
+      "p": "This weather system’s outermost size can be measured by its ROCI, and two of these systems can merge through the Fujiwhara Effect. An inverted-dome “stadium effect” can form around this system’s calm center in its most intense stage.",
+      "r": "This system’s worst damage often comes from a storm surge, a wind-driven wall of ocean water pushed onto land. For 10 points, name this type of rotating tropical storm, called a typhoon in the western Pacific, rated on the Saffir-Simpson scale."
+    },
+    {
+      "p": "Sustained winds of at least 157 miles per hour are needed for one of these systems to reach Category 5, the top of the Saffir-Simpson scale. The Lockheed WP-3D Orion aircraft, nicknamed a “Hunter” of these systems, flies directly into them to collect data.",
+      "r": "A ring called the eyewall, which surrounds the calm central eye, drives the worst storm surge onto land. For 10 points, name these giant rotating storms that form over warm tropical oceans and are rated up to Category 5."
+    },
+    {
+      "p": "Because the Coriolis effect is too weak near the equator, these systems almost never form within about 5 degrees of it. Kerry Emanuel’s “power dissipation index” tracks how the destructive energy of these systems has changed over several decades.",
+      "r": "The deadliest part of one of these storms making landfall is often not the wind but the storm surge. For 10 points, name these tropical weather systems, with calm eyes at their centers, rated on the Saffir-Simpson scale."
+    },
+    {
+      "p": "These storms lent their name to sports teams such as the Carolina team in the NHL and the University of Miami’s teams. The World Meteorological Organization is responsible for retiring the names of the most destructive examples of these systems, such as Harvey and Maria.",
+      "r": "These storms grow from a tropical depression into a named tropical storm before finally earning this title once winds reach 74 miles per hour. For 10 points, name these storms with calm eyes, rated on the five-step Saffir-Simpson scale."
+    },
+    {
+      "p": "The “stadium effect,” in which the clouds of the eyewall lean outward like the seating in a sports arena, can be seen around the center of an especially intense one of these systems. Two of these systems can interact through the Fujiwhara Effect, sometimes merging into one.",
+      "r": "The Saffir-Simpson scale ranks these storms by sustained wind speed, from Category 1 up to Category 5. For 10 points, name these giant rotating ocean storms with calm centers called eyes."
+    },
+    {
+      "p": "This system’s overall size is sometimes described using the ROCI, or radius of its outermost closed isobar. This system forms its spin thanks to the Coriolis effect, which also explains why it almost never forms close to the equator.",
+      "r": "In the western Pacific, this same kind of storm is instead called a typhoon. For 10 points, name this type of giant rotating tropical storm, rated on the Saffir-Simpson scale, with a calm “eye” at its center."
+    },
+    {
+      "p": "The destructive power of these storms over several decades was tracked by Kerry Emanuel using a measurement called the “power dissipation index.” Forecasters have historically used the “Mariners’ 1-2-3 Rule” to budget for error in these systems’ predicted paths.",
+      "r": "Named examples of these systems include Katrina, Sandy, and Joaquin. For 10 points, name these rotating tropical storms with sustained winds of at least 74 miles per hour, rated on the Saffir-Simpson scale, with calm eyes at their centers."
+    },
+    {
+      "p": "A ring of the most violent wind and rain, called the eyewall, surrounds this system’s deceptively calm center. This system is fueled by heat released as warm ocean water evaporates and condenses, which is why it weakens quickly after moving over land or cooler water.",
+      "r": "The Saffir-Simpson scale rates this type of storm from Category 1 to Category 5. For 10 points, name this type of giant rotating storm that forms over warm tropical oceans, with examples named from a rotating list maintained by the World Meteorological Organization."
+    },
+    {
+      "p": "Two of these systems merging is described by the Fujiwhara Effect, and an inverted-dome cloud shape called the “stadium effect” can appear around an intense one’s calm center. These systems almost never form within about 5 degrees of the equator because the Coriolis effect is too weak there.",
+      "r": "The Atlantic season for these storms runs from June through November, peaking in September. For 10 points, name these giant storms rated on the Saffir-Simpson scale, which take their energy from warm ocean water."
+    },
+    {
+      "p": "The ROCI measurement describes this system’s overall size, while the Saffir-Simpson scale describes its intensity. A storm surge, a wind-driven rise in sea level, is often the most destructive part of this weather system’s landfall.",
+      "r": "This system’s calm, clear center is surrounded by a ring of violent wind called the eyewall. For 10 points, name this type of giant rotating tropical storm, whose especially destructive examples have their names retired."
+    },
+    {
+      "p": "This weather system forms in stages, starting as a tropical depression and becoming a named tropical storm before earning this title at 74 miles per hour. Two of these systems can merge through the Fujiwhara Effect, and an intense one can develop a “stadium effect” cloud shape.",
+      "r": "This system’s spin comes from the Coriolis effect, and it is rated up to Category 5 on the Saffir-Simpson scale. For 10 points, name this type of giant tropical storm with a calm eye, called a typhoon in the western Pacific."
+    }
+  ],
+  "clues": [
+    {
+      "id": "saffir-simpson",
+      "tier": "giveaway",
+      "t": "Rated on the five-category Saffir-Simpson scale, from Category 1 up to Category 5",
+      "k": [
+        "saffir-simpson",
+        "category",
+        "scale"
+      ],
+      "n": 5,
+      "rabbit": "Saffir-Simpson scale"
+    },
+    {
+      "id": "eye",
+      "tier": "giveaway",
+      "t": "Has a calm, clear “eye” at its center",
+      "k": [
+        "eye",
+        "calm",
+        "center"
+      ],
+      "n": 4
+    },
+    {
+      "id": "warm-ocean-fuel",
+      "tier": "giveaway",
+      "t": "Forms only over warm tropical ocean water, which fuels the storm with energy",
+      "k": [
+        "warm",
+        "ocean",
+        "fuels"
+      ],
+      "n": 0
+    },
+    {
+      "id": "named-storms",
+      "tier": "giveaway",
+      "t": "Each storm gets a name from a rotating yearly list; names of the worst storms (like Katrina) are retired forever",
+      "k": [
+        "named",
+        "retired",
+        "list"
+      ],
+      "n": 2,
+      "rabbit": "Hurricane Katrina"
+    },
+    {
+      "id": "regional-names",
+      "tier": "giveaway",
+      "t": "Uses this name in the Atlantic/NE Pacific, but is called a typhoon in the NW Pacific and a cyclone in the Indian/South Pacific — same storm, different regional name",
+      "k": [
+        "typhoon",
+        "cyclone",
+        "regional"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eyewall",
+      "tier": "middle",
+      "t": "The eyewall, a ring of the most intense wind and rain, surrounds the calm eye",
+      "k": [
+        "eyewall",
+        "intense",
+        "ring"
+      ],
+      "n": 1
+    },
+    {
+      "id": "storm-surge",
+      "tier": "middle",
+      "t": "A storm surge, a wind-driven rise in sea level pushed onto land, is often the most destructive part of landfall",
+      "k": [
+        "storm surge",
+        "sea level",
+        "landfall"
+      ],
+      "n": 3
+    },
+    {
+      "id": "formation-stages",
+      "tier": "middle",
+      "t": "Grows from a tropical depression into a named tropical storm before becoming this at 74 mph winds",
+      "k": [
+        "depression",
+        "tropical storm",
+        "74"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coriolis",
+      "tier": "middle",
+      "t": "Gets its spin from the Coriolis effect, which is so weak within about 5 degrees of the equator that one almost never forms there",
+      "k": [
+        "coriolis",
+        "spin",
+        "equator"
+      ],
+      "n": 2
+    },
+    {
+      "id": "weakens-over-land",
+      "tier": "middle",
+      "t": "Weakens quickly after landfall or over cool water, because its warm-water energy source is cut off",
+      "k": [
+        "weakens",
+        "landfall",
+        "cool"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sports-teams",
+      "tier": "middle",
+      "t": "Lent its name to sports teams, including an NHL team in Carolina and the University of Miami’s teams",
+      "k": [
+        "carolina",
+        "miami",
+        "teams"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wmo-naming",
+      "tier": "middle",
+      "t": "The World Meteorological Organization maintains the rotating lists of storm names",
+      "k": [
+        "meteorological",
+        "organization",
+        "names"
+      ],
+      "n": 1
+    },
+    {
+      "id": "season",
+      "tier": "middle",
+      "t": "Atlantic season runs June through November, peaking in September",
+      "k": [
+        "season",
+        "june",
+        "november"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fujiwhara",
+      "tier": "power",
+      "t": "Two of these storms interacting or merging is called the Fujiwhara Effect",
+      "k": [
+        "fujiwhara",
+        "merging",
+        "interacting"
+      ],
+      "n": 2
+    },
+    {
+      "id": "roci",
+      "tier": "power",
+      "t": "Overall size can be measured by the ROCI, or “radius of outermost closed isobar”",
+      "k": [
+        "roci",
+        "isobar",
+        "radius"
+      ],
+      "n": 1
+    },
+    {
+      "id": "stadium-effect",
+      "tier": "power",
+      "t": "An inverted-dome cloud shape called the “stadium effect” can appear around an intense storm’s eye",
+      "k": [
+        "stadium",
+        "inverted-dome",
+        "effect"
+      ],
+      "n": 1
+    },
+    {
+      "id": "power-dissipation",
+      "tier": "power",
+      "t": "Climatologist Kerry Emanuel tracks storm intensity over decades using a “power dissipation index”",
+      "k": [
+        "emanuel",
+        "dissipation",
+        "index"
+      ],
+      "n": 1
+    },
+    {
+      "id": "mariners-rule",
+      "tier": "power",
+      "t": "Forecasters used the “Mariners’ 1-2-3 Rule” to estimate error in a storm’s predicted track",
+      "k": [
+        "mariners",
+        "forecast",
+        "error"
+      ],
+      "n": 1
+    },
+    {
+      "id": "hurricane-hunters",
+      "tier": "power",
+      "t": "Aircraft nicknamed “Hunters,” including the Lockheed WP-3D Orion, fly directly into these storms to gather data",
+      "k": [
+        "lockheed",
+        "orion",
+        "aircraft"
+      ],
+      "n": 1
+    },
+    {
+      "id": "wind-threshold",
+      "tier": "power",
+      "t": "Officially earns this title once sustained winds reach 74 miles per hour",
+      "k": [
+        "74",
+        "sustained",
+        "threshold"
+      ],
+      "n": 1
+    },
+    {
+      "id": "latent-heat",
+      "tier": "power",
+      "t": "Draws its energy from heat released as warm ocean water evaporates and then condenses inside the storm",
+      "k": [
+        "evaporates",
+        "condenses",
+        "energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rainbands",
+      "tier": "power",
+      "t": "Spiral rainbands of thunderstorms wind outward from the eyewall",
+      "k": [
+        "rainbands",
+        "spiral",
+        "outward"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cat5-threshold",
+      "tier": "power",
+      "t": "Category 5, the strongest Saffir-Simpson rank, needs sustained winds of at least 157 mph",
+      "k": [
+        "157",
+        "strongest",
+        "sustained"
+      ],
+      "n": 0
+    },
+    {
+      "id": "retired-names",
+      "tier": "power",
+      "t": "An especially deadly or costly storm’s name is permanently retired and never reused",
+      "k": [
+        "retired",
+        "permanently",
+        "reused"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "General type, or one storm?",
+    "body": "A tossup that names one storm, like Hurricane Katrina or Hurricane Harvey, wants that one specific event, not the general weather phenomenon — they are different, more specific answers. Real packets also disagree on how to score “typhoon” and “cyclone”: some fully accept them as the same storm under a different regional name, others want only “hurricane.”",
+    "fix": "If the clues build toward one storm’s own story, with one city, one year, or one path, that is the specific storm. If the clues describe the storm type in general (the eye, the Saffir-Simpson scale, how it forms), that is the general answer. When in doubt, say “hurricane” unless the clues clearly point to the western Pacific or Indian Ocean.",
+    "line": "Real answer line: <b><u>Hurricanes</u></b> [or tropical cyclones, tropical storms, or typhoons — real packets vary on this]."
+  },
+  "tests": {
+    "right": [
+      "Hurricane",
+      "Hurricanes",
+      "Huricane",
+      "Tropical Cyclone"
+    ],
+    "prompt": [
+      "Cyclone",
+      "Typhoon",
+      "Tropical Storm"
+    ],
+    "wrong": [
+      "Hurricane Katrina",
+      "Tornado",
+      "Monsoon",
+      "Hurricane Harvey"
+    ]
+  },
+  "freq": {
+    "rank": 10,
+    "count": 3,
+    "list": "Earth Science"
+  }
+}
