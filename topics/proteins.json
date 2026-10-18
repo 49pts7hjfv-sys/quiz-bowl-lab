@@ -59,7 +59,7 @@
   },
   "tossups": [
     {
-      "p": "Cyrus Levinthal pointed out that one of these molecules could never fold in a reasonable time by randomly testing every possible shape, yet many fold in less than a second. Christian Anfinsen showed that one of these molecules, ribonuclease, refolds correctly on its own after being unfolded, proving that its sequence determines its shape.",
+      "p": "Cyrus Levinthal pointed out that one of these molecules could never fold in a reasonable time by randomly testing every possible shape, yet many fold in less than a second. Christian Anfinsen showed that one of these molecules, ribonuclease, refolds correctly on its own after being unfolded, evidence that its sequence determines its shape.",
       "r": "Ribosomes link amino acids together to build these molecules. For 10 points, name these large molecules, such as enzymes and antibodies."
     },
     {
@@ -83,7 +83,7 @@
       "r": "For 10 points, name this class of nutrients, found in meat, eggs, and beans, that are made of amino acids."
     },
     {
-      "p": "Stanley Prusiner won a Nobel Prize for discovering prions [“PREE-onz”], misfolded versions of these molecules that force normal copies to misfold, leading to mad cow disease. Sickle-cell disease comes from swapping just one building block, valine for glutamic acid, in one of these molecules, hemoglobin.",
+      "p": "Stanley Prusiner won a Nobel Prize for discovering prions [“PREE-onz”], misfolded versions of these molecules that force normal copies to misfold, leading to mad cow disease. Sickle-cell disease comes from changing just one building block in one of these molecules, hemoglobin, where valine replaces glutamic acid.",
       "r": "Ribosomes build these molecules from amino acids. For 10 points, name these large biomolecules, which include enzymes, antibodies, and keratin."
     },
     {
@@ -269,7 +269,7 @@
     {
       "id": "sickle",
       "tier": "middle",
-      "t": "Sickle-cell disease comes from one swap, valine for glutamic acid, in hemoglobin",
+      "t": "Sickle-cell disease comes from one change in hemoglobin: valine replaces glutamic acid",
       "k": [
         "sickle-cell",
         "valine",

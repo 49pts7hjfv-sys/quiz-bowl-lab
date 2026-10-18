@@ -104,7 +104,7 @@
       "r": "For 10 points, name these hard structures in the mouths of most mammals, which include canines and molars."
     },
     {
-      "p": "A narwhal’s long tusk is actually one of these structures, a canine that usually grows out through the upper lip of males, and a walrus’s tusks are canines too. In humans, the last of these structures to come in are the third molars, nicknamed for “wisdom.”",
+      "p": "A narwhal’s long tusk, which usually grows out through the upper lip of males, is actually one of these structures, and a walrus’s tusks are extra-long canines. In humans, the last of these structures to come in are the third molars, nicknamed for “wisdom.”",
       "r": "For 10 points, name these structures, covered in enamel, that people brush and floss to prevent cavities."
     },
     {
@@ -256,7 +256,7 @@
     {
       "id": "tusks",
       "tier": "middle",
-      "t": "Elephant tusks are giant incisors; narwhal and walrus tusks are canines",
+      "t": "Elephant tusks are giant incisors and walrus tusks are canines; a narwhal’s tusk is one, too",
       "k": [
         "tusks",
         "elephant",
@@ -378,7 +378,7 @@
     {
       "id": "strep-mutans",
       "tier": "power",
-      "t": "_Streptococcus mutans_ is the main bacterium behind cavities, or decay",
+      "t": "The bacterium _Streptococcus mutans_ is a main cause of cavities, or decay",
       "k": [
         "streptococcus mutans",
         "bacterium"

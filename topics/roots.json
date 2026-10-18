@@ -7,7 +7,7 @@
   "kicker": "Underground plant organs · Anchor the plant and soak up water and minerals",
   "dates": "Grow from the radicle of a sprouting seed",
   "briefing": "Roots anchor a plant and drink for it, soaking up water and minerals through countless microscopic root hairs. Some store food, which is why we eat carrots, beets, and sweet potatoes, though an ordinary potato is actually a stem. Others grow in surprising directions: mangroves send “breathing” roots up out of the mud, and banyan trees drop roots from their branches that thicken into pillars.",
-  "answerHtml": "<b><u>Roots</u></b> (accept <u>root</u>, <u>root system</u>, or <u>taproot</u>; prompt on <u>root hairs</u> or <u>radicle</u>; do not accept “stems” or “rhizomes”)",
+  "answerHtml": "<b><u>Roots</u></b> (accept <u>root</u>, <u>root system</u>, or <u>taproot</u>; prompt on <u>root hairs</u>, <u>root cap</u>, or <u>radicle</u>; do not accept “stems” or “rhizomes”)",
   "accept": [
     "roots",
     "root",
@@ -91,7 +91,7 @@
       "r": "For 10 points, name these plant organs, which usually grow underground to absorb water and minerals."
     },
     {
-      "p": "Most plants trade sugar to fungi called mycorrhizae [“my-koh-RYE-zee”] that grow around or into these organs and help them collect water and phosphorus. Legumes like soybeans also house nitrogen-fixing _Rhizobium_ [“rye-ZOH-bee-um”] bacteria in nodules on these organs.",
+      "p": "Most plants trade sugar to fungi that grow around or into these organs, forming partnerships called mycorrhizae [“my-koh-RYE-zee”] that help them collect water and phosphorus. Legumes like peas also house nitrogen-fixing _Rhizobium_ [“rye-ZOH-bee-um”] bacteria in nodules on these organs.",
       "r": "For 10 points, name these plant organs that anchor a plant and absorb water from the soil, often through tiny hairs."
     },
     {
@@ -195,7 +195,7 @@
     {
       "id": "nodules",
       "tier": "middle",
-      "t": "Legumes like soybeans house nitrogen-fixing _Rhizobium_ bacteria in nodules on them",
+      "t": "Legumes like peas house nitrogen-fixing _Rhizobium_ bacteria in nodules on them",
       "k": [
         "nodules",
         "rhizobium",
@@ -207,7 +207,7 @@
     {
       "id": "mycorrhizae",
       "tier": "middle",
-      "t": "Most plants trade sugar to mycorrhizae, fungi that help them collect water and phosphorus",
+      "t": "Most plants trade sugar to fungi in partnerships called mycorrhizae, which help them collect water and phosphorus",
       "k": [
         "mycorrhizae",
         "phosphorus",
@@ -431,7 +431,7 @@
   "trap": {
     "title": "Potatoes are stems!",
     "body": "Plenty of underground plant parts are not roots. Potatoes are tubers (swollen underground stems), ginger is a rhizome (another underground stem), and onions are bulbs made of fleshy leaves, while carrots, beets, and sweet potatoes really are roots. Mosses don’t have true roots at all; their rhizoids only look like them.",
-    "fix": "A potato’s “eyes” are buds, and only stems grow buds. If the clues mention root hairs, a root cap, a Casparian strip, or absorbing water and minerals, answer roots, not stems or rhizomes.",
+    "fix": "A potato’s “eyes” are buds growing from nodes, a feature of stems. If the clues mention root hairs, a root cap, a Casparian strip, or absorbing water and minerals, answer roots, not stems or rhizomes.",
     "line": "Real answer line: <b><u>Roots</u></b> (accept <u>root</u> system or <u>taproot</u>; do not accept “stems,” “tubers,” “rhizomes,” or “rhizoids”)"
   },
   "tests": {

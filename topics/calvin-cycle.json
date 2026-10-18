@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Sugar-building stage of photosynthesis · Fixes carbon dioxide in the stroma",
   "dates": "Nobel Prize in Chemistry, 1961",
-  "briefing": "The Calvin cycle is the second half of photosynthesis, where a plant actually builds sugar. In the stroma of each chloroplast, the enzyme RuBisCO grabs carbon dioxide from the air, and the cycle spends ATP and NADPH from the light reactions to turn it into a three-carbon sugar called G3P. Melvin Calvin’s team at Berkeley worked out every step by tracing radioactive carbon through algae, earning him the 1961 Nobel Prize in Chemistry.",
+  "briefing": "The Calvin cycle is the second half of photosynthesis, where a plant actually builds sugar. In the stroma of each chloroplast, the enzyme RuBisCO grabs carbon dioxide from the air, and the cycle spends ATP and NADPH from the light reactions to turn it into a three-carbon sugar called G3P. Melvin Calvin’s team at Berkeley worked out its steps by tracing radioactive carbon through algae, earning him the 1961 Nobel Prize in Chemistry.",
   "answerHtml": "<b><u>Calvin cycle</u></b> (accept <u>Calvin–Benson</u> cycle, <u>Calvin–Benson–Bassham</u> cycle, <u>CBB</u> cycle, <u>light-independent reactions</u>, or <u>dark reactions</u>; prompt on <u>carbon fixation</u>; do not accept “photosynthesis”)",
   "accept": [
     "calvin cycle",
@@ -69,7 +69,7 @@
       "r": "This process earned its Berkeley namesake the 1961 Nobel Prize in Chemistry. For 10 points, name this cycle of photosynthesis that builds sugar from carbon dioxide."
     },
     {
-      "p": "In daylight, a small protein called thioredoxin [“thy-oh-ree-DOX-in”] switches on several enzymes of this process, one reason an old nickname suggesting that this process runs in darkness is misleading. This process spends the ATP and NADPH made by the light-capturing reactions in the thylakoid membranes.",
+      "p": "Andrew Benson and James Bassham helped map this process at Berkeley, so their names are sometimes added to its name. This process spends the ATP and NADPH made by the light-capturing reactions in the thylakoid membranes.",
       "r": "For 10 points, name this cycle that takes place in the stroma of chloroplasts and fixes carbon dioxide into sugar."
     },
     {
@@ -351,12 +351,12 @@
       "n": 0
     },
     {
-      "id": "thioredoxin",
+      "id": "benson-bassham",
       "tier": "power",
-      "t": "In daylight, a small protein called thioredoxin switches on several of its enzymes",
+      "t": "Andrew Benson and James Bassham helped map it at Berkeley, so their names are sometimes added to its name",
       "k": [
-        "thioredoxin",
-        "switches on"
+        "benson",
+        "bassham"
       ],
       "n": 0
     },
