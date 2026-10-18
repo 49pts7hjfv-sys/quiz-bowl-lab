@@ -116,7 +116,7 @@
       "r": "A square one has as many rows as columns. For 10 points, name these grids of numbers, which have rows and columns."
     },
     {
-      "p": "Volker Strassen found a way in 1969 to multiply two 2-by-2 ones of these objects using seven multiplications instead of eight, which speeds up multiplying very large ones. Computer graphics cards are designed to multiply these objects quickly.",
+      "p": "To invert a 2-by-2 one of these objects, swap the two entries on its main diagonal, change the signs of the other two entries, and divide everything by the determinant. Computer graphics cards are designed to multiply these objects quickly.",
       "r": "One with a single row is called a row vector. For 10 points, name these rectangular arrays of numbers."
     },
     {
@@ -375,13 +375,13 @@
       "n": 0
     },
     {
-      "id": "strassen",
+      "id": "inverse-formula",
       "tier": "power",
-      "t": "Volker Strassen (1969) multiplied 2 × 2 ones using seven multiplications instead of eight",
+      "t": "To invert a 2 × 2 one, swap the two main-diagonal entries, change the signs of the other two, and divide by the determinant",
       "k": [
-        "strassen",
-        "1969",
-        "seven multiplications"
+        "invert",
+        "swap",
+        "change the signs"
       ],
       "n": 0
     },

@@ -153,11 +153,11 @@
       "r": "Their zeros are also called roots. For 10 points, name these expressions, which include monomials, binomials, and trinomials."
     },
     {
-      "p": "Horner’s method evaluates one of these quickly by rewriting it as a chain of nested multiplications, a technique the Chinese mathematician Qin Jiushao [“chin jyoh-SHOW”] described centuries before William Horner. A test named for Gotthold Eisenstein [“EYE-zen-shtyne”] can prove that some of these cannot be factored into smaller ones.",
+      "p": "Horner’s method evaluates one of these quickly by rewriting it as a chain of nested multiplications, a technique the Chinese mathematician Qin Jiushao [“chin jyoh-SHOW”] described centuries before William Horner. Completing the square rewrites one of these, x squared plus 6x plus 5, as the quantity x plus 3, squared, minus 4.",
       "r": "Long division works on them too. For 10 points, name these expressions, whose degree is the highest power of their variable."
     },
     {
-      "p": "Hilbert’s tenth problem asked for a method to decide whether an equation made from one of these with whole-number coefficients has whole-number solutions, and Yuri Matiyasevich [“mah-tee-yah-SYAY-vich”] proved in 1970 that no such method can exist.",
+      "p": "The Persian poet and mathematician Omar Khayyam [“OH-mar ky-YAHM”] solved cubic equations built from these expressions by intersecting conic sections. When a zero of one of these is repeated an even number of times, its graph just touches the x-axis there instead of crossing it.",
       "r": "The highest exponent in one of these is its degree. For 10 points, name these expressions, such as 3x squared minus 5x plus 2."
     }
   ],
@@ -302,10 +302,11 @@
     {
       "id": "odd-degree",
       "tier": "middle",
-      "t": "An odd-degree one with real coefficients, like a cubic, always crosses the x-axis at least once",
+      "t": "An odd-degree one with real coefficients, like a cubic, always crosses the x-axis at least once; at a zero repeated an even number of times, it only touches the axis",
       "k": [
         "odd-degree",
-        "at least once"
+        "at least once",
+        "even number"
       ],
       "n": 0
     },
@@ -431,26 +432,26 @@
       "n": 0
     },
     {
-      "id": "eisenstein",
+      "id": "completing-square",
       "tier": "power",
-      "t": "Eisenstein’s criterion can prove that some with whole-number coefficients cannot be factored into smaller ones",
+      "t": "Completing the square rewrites x² + 6x + 5 as (x + 3)² − 4, the same method used to derive the quadratic formula",
       "k": [
-        "eisenstein",
-        "criterion"
+        "completing the square",
+        "quadratic formula"
       ],
       "n": 0
     },
     {
-      "id": "hilbert-tenth",
+      "id": "khayyam",
       "tier": "power",
-      "t": "Hilbert’s tenth problem: Yuri Matiyasevich proved in 1970 that no method can decide if their equations have whole-number solutions",
+      "t": "The Persian poet and mathematician Omar Khayyam solved cubic equations by intersecting conic sections",
       "k": [
-        "hilbert’s tenth problem",
-        "matiyasevich",
-        "1970"
+        "omar khayyam",
+        "conic sections",
+        "cubic equations"
       ],
       "n": 0,
-      "rabbit": "David Hilbert"
+      "rabbit": "Rubáiyát of Omar Khayyám"
     },
     {
       "id": "al-khwarizmi",

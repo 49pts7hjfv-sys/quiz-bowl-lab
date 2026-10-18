@@ -100,7 +100,7 @@
       "r": "For 10 points, name this constant, roughly 3.14, the ratio of a circle’s circumference to its diameter."
     },
     {
-      "p": "Ludolph van Ceulen [“LOO-dolf vahn KUH-len”] spent years computing 35 decimal places of this number, and the digits were carved on his tombstone. In 1873, William Shanks published 707 digits of it, but he had made a mistake at the 528th place.",
+      "p": "Ludolph van Ceulen [“LOO-dolf vahn KUH-len”] spent years computing 35 decimal places of this number, and the digits were carved on his tombstone. In 1873, William Shanks published 707 decimal places of it, but he had made a mistake at the 528th decimal place.",
       "r": "For 10 points, name this number, whose decimal digits begin 3.14159 and never end."
     },
     {
@@ -108,7 +108,7 @@
       "r": "A full turn of 360 degrees equals two times this number in radians. For 10 points, name this constant, about 3.14."
     },
     {
-      "p": "Georges-Louis Leclerc, Comte de Buffon [“boo-FOHN”], showed that dropping needles onto a floor marked with evenly spaced lines can be used to estimate this number. The chance that a needle lands across a line has this number in its denominator.",
+      "p": "Georges-Louis Leclerc, Comte de Buffon [“boo-FOHN”], worked out the chance that a needle dropped onto a floor marked with evenly spaced lines lands across a line, a problem later used to estimate this number. That chance has this number in its denominator.",
       "r": "It is the ratio of any circle’s circumference to its diameter. For 10 points, name this number, about 3.14."
     },
     {
@@ -120,7 +120,7 @@
       "r": "For 10 points, name this number, which you multiply by the radius squared to find a circle’s area."
     },
     {
-      "p": "The Bible’s First Book of Kings describes a round bronze basin 10 cubits across and 30 cubits around, which suggests a value of 3 for this number. A Babylonian clay tablet gives this number as 3 and one-eighth.",
+      "p": "The Bible’s First Book of Kings describes a round bronze basin 10 cubits across and 30 cubits around, which suggests a value of 3 for this number. A Babylonian clay tablet implies a value of 3 and one-eighth for it.",
       "r": "For 10 points, name this number, which is the ratio of a circle’s circumference to its diameter."
     },
     {
@@ -319,7 +319,7 @@
     {
       "id": "hand-digits",
       "tier": "power",
-      "t": "Ludolph van Ceulen’s 35 decimal places were carved on his tombstone; William Shanks’s 707 digits (1873) were right only to 527",
+      "t": "Ludolph van Ceulen’s 35 decimal places were carved on his tombstone; only the first 527 of William Shanks’s 707 decimal places (1873) were right",
       "k": [
         "ludolph",
         "tombstone",
@@ -341,7 +341,7 @@
     {
       "id": "ancient-values",
       "tier": "power",
-      "t": "The Bible’s First Book of Kings implies 3; a Babylonian tablet gives 3 1/8; Egypt’s Rhind Papyrus implies about 3.16",
+      "t": "The Bible’s First Book of Kings implies 3; a Babylonian tablet implies 3 1/8; Egypt’s Rhind Papyrus implies about 3.16",
       "k": [
         "first book of kings",
         "babylonian",

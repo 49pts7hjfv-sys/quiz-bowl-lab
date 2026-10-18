@@ -22,12 +22,9 @@
     "anti derivatives",
     "area under the curve",
     "area under a curve",
-    "area under curve",
-    "calculus"
+    "area under curve"
   ],
   "reject": [
-    "derivative",
-    "derivatives",
     "differentiation",
     "differentiate",
     "differential",
@@ -62,7 +59,8 @@
     ],
     "prompt": [
       "antiderivative",
-      "area under the curve"
+      "area under the curve",
+      "the anti-derivative"
     ],
     "wrong": [
       "derivative",

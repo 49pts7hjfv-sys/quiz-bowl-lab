@@ -5,7 +5,7 @@
   "category": "Math",
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "One number computed from a square matrix · Zero means no inverse",
-  "dates": "First studied by Seki and Leibniz, 1680s–1690s",
+  "dates": "Introduced by Seki (1683) and Leibniz (1693)",
   "briefing": "The determinant is a single number calculated from a square matrix. For a 2 × 2 matrix with rows a, b and c, d, it equals ad − bc, and it tells you how much the matrix stretches or shrinks areas. If the determinant is zero, the matrix squashes space flat and has no inverse, which is why mathematicians check it before solving systems of equations.",
   "answerHtml": "<b><u>determinant</u></b> (accept <u>det</u>; do not accept “matrix” or “discriminant”)",
   "accept": [
@@ -24,9 +24,6 @@
   ],
   "prompt": [],
   "reject": [
-    "matrix",
-    "matrices",
-    "matrixes",
     "discriminant",
     "discriminants",
     "determination",
@@ -54,7 +51,8 @@
       "Determinants",
       "det",
       "determinent",
-      "determinant of a matrix"
+      "determinant of a matrix",
+      "determinant of a 2x2 matrix"
     ],
     "prompt": [],
     "wrong": [
@@ -80,7 +78,7 @@
   },
   "tossups": [
     {
-      "p": "Seki Takakazu [“SEH-kee tah-kah-KAH-zoo”] in Japan and Gottfried Leibniz in Germany each discovered this quantity in the late 1600s while studying systems of linear equations. This quantity for a product of two square matrices equals the product of their separate values of this quantity.",
+      "p": "Seki Takakazu [“SEH-kee tah-kah-KAH-zoo”] in Japan and Gottfried Leibniz in Germany each discovered this quantity in the late 1600s while studying systems of equations. This quantity for a product of two square matrices equals the product of their separate values of this quantity.",
       "r": "For 10 points, name this number computed from a square matrix, which equals ad minus bc for a 2-by-2 matrix."
     },
     {
