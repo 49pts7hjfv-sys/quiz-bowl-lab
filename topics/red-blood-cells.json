@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Disc-shaped oxygen carriers · Packed with hemoglobin, no nucleus",
   "dates": "Each one lives about 120 days",
-  "briefing": "A single drop of blood holds millions of red blood cells, making them the most common cells in your body. These tiny, dented discs have no nucleus, which leaves more room for hemoglobin, the iron-rich protein that grabs oxygen in the lungs and gives blood its red color. Each one squeezes through narrow capillaries for about 120 days before the spleen recycles it.",
+  "briefing": "A single drop of blood holds millions of red blood cells, and they are the most common cells in your body. These tiny, dented discs have no nucleus, which leaves more room for hemoglobin, the iron-rich protein that grabs oxygen in the lungs and gives blood its red color. Each one squeezes through narrow capillaries for about 120 days before the spleen or liver recycles it.",
   "answerHtml": "<b><u>Red blood cells</u></b> (accept <u>erythrocytes</u>, <u>RBCs</u>, or <u>red corpuscles</u>; prompt on <u>blood cells</u> or <u>blood</u>; do not accept “white blood cells” or “hemoglobin”)",
   "accept": [
     "red blood cells",
@@ -72,15 +72,15 @@
       "r": "These cells are made in red bone marrow. For 10 points, name these disc-shaped cells that carry oxygen using hemoglobin."
     },
     {
-      "p": "Young versions of these cells, called reticulocytes [“reh-TIK-yoo-loh-sites”], still hold a net-like mesh of RNA. Athletes who train at high altitudes can end up with more of these cells, because low oxygen levels make the kidneys release the hormone erythropoietin [“ih-RITH-roh-POY-ih-tin”].",
+      "p": "Young versions of these cells, called reticulocytes [“reh-TIK-yoo-loh-sites”], still hold leftover RNA that shows up as a net-like mesh when stained. Athletes who train at high altitudes can end up with more of these cells, because low oxygen levels make the kidneys release the hormone erythropoietin [“ih-RITH-roh-POY-ih-tin”].",
       "r": "For 10 points, name these blood cells that carry oxygen to the body’s tissues."
     },
     {
-      "p": "Breaking down the hemoglobin from these cells produces bilirubin, a yellow pigment that can build up and cause jaundice. Large white blood cells in the spleen, nicknamed these cells’ “graveyard,” remove old ones from circulation.",
+      "p": "Breaking down the hemoglobin from these cells produces bilirubin, a yellow pigment that can build up and cause jaundice. In the spleen, an organ nicknamed these cells’ “graveyard,” large white blood cells remove old ones from circulation.",
       "r": "Each of these cells lives about 120 days. For 10 points, name these oxygen-carrying blood cells."
     },
     {
-      "p": "In the chloride shift, a membrane protein called band 3 swaps bicarbonate ions for chloride ions across the membranes of these cells. Inside these cells, the enzyme carbonic anhydrase turns carbon dioxide and water into carbonic acid.",
+      "p": "In the chloride shift, these cells trade bicarbonate ions to the plasma in exchange for chloride ions. Inside these cells, the enzyme carbonic anhydrase turns carbon dioxide and water into carbonic acid.",
       "r": "These cells also carry some carbon dioxide back to the lungs. For 10 points, name these blood cells that carry oxygen using hemoglobin."
     },
     {
@@ -116,7 +116,7 @@
       "r": "For 10 points, name these biconcave cells, the most common cells in the human body."
     },
     {
-      "p": "Plasmodium parasites spend part of their life cycle inside these cells, which break open on a regular schedule and cause the repeating fevers of malaria. Carrying one copy of the gene for sickle-cell hemoglobin, found inside these cells, gives some protection against malaria.",
+      "p": "Plasmodium parasites spend part of their life cycle inside these cells, which break open on a regular schedule and cause the repeating fevers of malaria. People who carry one copy of the sickle-cell gene, which changes the hemoglobin inside these cells, have some protection against malaria.",
       "r": "These cells are shaped like discs dented in on both sides. For 10 points, name these oxygen-carrying blood cells."
     },
     {
@@ -200,7 +200,7 @@
     {
       "id": "spleen",
       "tier": "middle",
-      "t": "Old ones are removed mainly in the spleen, nicknamed their “graveyard”",
+      "t": "Old ones are removed by the spleen, nicknamed their “graveyard,” and by the liver",
       "k": [
         "spleen",
         "graveyard"
@@ -302,7 +302,7 @@
     {
       "id": "reticulocytes",
       "tier": "power",
-      "t": "Young ones, called reticulocytes, still hold a mesh of RNA",
+      "t": "Young ones, called reticulocytes, still hold leftover RNA that looks like a net when stained",
       "k": [
         "reticulocytes",
         "rna"
@@ -322,11 +322,10 @@
     {
       "id": "chloride-shift",
       "tier": "power",
-      "t": "Carbonic anhydrase inside them turns carbon dioxide into carbonic acid; in the chloride shift, band 3 swaps bicarbonate for chloride",
+      "t": "Carbonic anhydrase inside them turns carbon dioxide into carbonic acid; in the chloride shift, they trade bicarbonate for chloride",
       "k": [
         "carbonic anhydrase",
         "chloride shift",
-        "band 3",
         "bicarbonate"
       ],
       "n": 0
@@ -434,7 +433,7 @@
     "title": "Cell, protein, or fluid?",
     "body": "Tossups on these cells talk constantly about hemoglobin, so players buzz with “hemoglobin,” which is the protein inside the cells, not the cells themselves. Others say “blood,” which is only a prompt here, or mix them up with white blood cells, which fight infection, and platelets, which help clotting.",
     "fix": "If the question asks for “these cells” that carry oxygen, lack a nucleus, or live about 120 days, say red blood cells (or erythrocytes). Say hemoglobin only for “this protein,” and white blood cells for clues about antibodies, phagocytes, or lymphocytes.",
-    "line": "Real answer line: <b><u>Red blood cells</u></b> (accept <u>erythrocytes</u> or <u>RBCs</u>; prompt on <u>blood cells</u>; do not accept “white blood cells” or “hemoglobin”)"
+    "line": "Real answer line: <b><u>Red blood cells</u></b> (accept <u>erythrocytes</u>, <u>RBCs</u>, or <u>red corpuscles</u>; prompt on <u>blood cells</u> or <u>blood</u>; do not accept “white blood cells” or “hemoglobin”)"
   },
   "tests": {
     "right": [

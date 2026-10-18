@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Nightly resting state of brain and body · Cycles through REM and non-REM",
   "dates": "Takes up about a third of a human life",
-  "briefing": "You will spend about a third of your life asleep, and your brain stays busy the whole time. Each night it cycles through light and deep non-REM stages and REM sleep, when the eyes dart around and most vivid dreams happen, roughly every 90 minutes. Sleep helps the brain store memories and clear out waste, which is why experts say kids 6 to 12 need 9 to 12 hours a night and teens need 8 to 10.",
+  "briefing": "You will spend about a third of your life asleep, and your brain stays busy the whole time. Each night it cycles through light and deep non-REM stages and REM sleep, when the eyes dart around and most vivid dreams happen, roughly every 90 minutes. Scientists think sleep helps the brain store memories and clear out waste, and experts say kids 6 to 12 need 9 to 12 hours a night and teens need 8 to 10.",
   "answerHtml": "<b><u>Sleep</u></b> (accept <u>sleeping</u> or specific stages such as <u>REM sleep</u>; prompt on <u>REM</u> alone; do not accept “dreaming” or “hibernation”)",
   "accept": [
     "sleep",
@@ -70,7 +70,7 @@
       "r": "That stage, called REM, is when most vivid dreams happen. For 10 points, name this nightly resting state."
     },
     {
-      "p": "In 1938, Nathaniel Kleitman and a student spent 32 days deep in Kentucky’s Mammoth Cave, trying to switch their daily cycle of waking and this state to a 28-hour schedule. Kleitman is often called the father of modern research on this state.",
+      "p": "In 1938, Nathaniel Kleitman and a colleague spent 32 days deep in Kentucky’s Mammoth Cave, trying to switch their daily cycle of waking and this state to a 28-hour schedule. Kleitman is often called the father of modern research on this state.",
       "r": "For 10 points, name this state that the body’s circadian rhythm helps time each night."
     },
     {
@@ -106,7 +106,7 @@
       "r": "For 10 points, name this state that experts say kids aged 6 to 12 need 9 to 12 hours of each night."
     },
     {
-      "p": "The Greek god Hypnos, the twin brother of Thanatos [“THAN-uh-tohs”], personified this state, and his Roman counterpart was Somnus, whose name gives us the word “insomnia.” Morpheus, a son of Hypnos, brought dreams to people in this state.",
+      "p": "The Greek god Hypnos, the twin brother of Thanatos [“THAN-uh-tohs”], personified this state, and his Roman counterpart was Somnus, whose name gives us the word “insomnia.” In Ovid’s _Metamorphoses_, Morpheus, a son of Somnus, brings dreams to people in this state.",
       "r": "The hormone melatonin helps bring on this state. For 10 points, name this nightly resting state."
     },
     {
@@ -367,7 +367,7 @@
     {
       "id": "hypnos",
       "tier": "power",
-      "t": "Personified by the Greek god Hypnos (Roman Somnus), twin of Thanatos; his son Morpheus brought dreams",
+      "t": "Personified by the Greek god Hypnos (Roman Somnus), twin of Thanatos; in Ovid, Somnus’s son Morpheus brings dreams",
       "k": [
         "hypnos",
         "somnus",

@@ -86,7 +86,7 @@
       "r": "Modern donors give about a pint of it at a time for transfusions. For 10 points, name this red body fluid."
     },
     {
-      "p": "Vampire bat saliva contains a protein named draculin that keeps this fluid from clotting while the bats feed, and medicinal leeches make a similar substance called hirudin [“hih-ROO-din”]. Doctors use medicines with the same effect, such as heparin, to prevent dangerous clots.",
+      "p": "Medicinal leeches release a substance called hirudin [“hih-ROO-din”] that keeps this fluid from clotting while they feed. Doctors use medicines with a similar effect, such as heparin and warfarin, to prevent dangerous clots.",
       "r": "In humans, platelets and threads of a protein called fibrin help this fluid clot. For 10 points, name this fluid that the heart pumps."
     },
     {
@@ -370,12 +370,12 @@
     {
       "id": "anticoagulants",
       "tier": "power",
-      "t": "Draculin (from vampire bats), hirudin (from leeches), and the medicine heparin keep it from clotting",
+      "t": "Hirudin (from leeches) and medicines such as heparin and warfarin keep it from clotting",
       "k": [
-        "draculin",
         "hirudin",
         "heparin",
-        "vampire bats"
+        "warfarin",
+        "leeches"
       ],
       "n": 0
     },

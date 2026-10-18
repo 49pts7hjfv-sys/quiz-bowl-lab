@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Cell division that splits the nucleus · Makes two identical daughter cells",
   "dates": "Named by Walther Flemming in 1882",
-  "briefing": "Your body makes millions of new cells every second, and they come from mitosis. In this kind of cell division, a cell that has already copied its chromosomes splits its nucleus so each new cell gets an identical, complete set, which is how you grow and how a scraped knee heals. It runs in four stages, prophase, metaphase, anaphase, and telophase (“PMAT”), and then cytokinesis pinches the cell in two.",
+  "briefing": "Your body makes millions of new cells every second, and they come from mitosis. In this kind of cell division, a cell that has already copied its chromosomes splits its nucleus so each new cell gets an identical, complete set, which is how you grow and how a scraped knee heals. It is usually taught as four stages, prophase, metaphase, anaphase, and telophase (“PMAT”), and then cytokinesis pinches the cell in two.",
   "answerHtml": "<b><u>Mitosis</u></b> (accept <u>karyokinesis</u> or <u>M phase</u>; prompt on <u>cell division</u>; do not accept “meiosis” or the name of a single stage, such as “prophase”)",
   "accept": [
     "mitosis",
@@ -21,7 +21,6 @@
     "cell division",
     "cellular division",
     "nuclear division",
-    "cell cycle",
     "division"
   ],
   "reject": [
@@ -50,7 +49,8 @@
     "dna replication",
     "replication",
     "fertilization",
-    "chromosomes"
+    "chromosomes",
+    "cell cycle"
   ],
   "media": [],
   "mediaPending": true,
@@ -78,7 +78,7 @@
       "r": "For 10 points, name this kind of nuclear division that keeps the chromosome number the same."
     },
     {
-      "p": "Before this process, plant cells form a preprophase band, a ring of microtubules that marks where the cell will split. As this process ends, a structure called the phragmoplast [“FRAG-moh-plast”] guides vesicles from the Golgi apparatus that build a new cell plate.",
+      "p": "Most plant cells carry out this process without centrioles, the paired cylinders found in the centrosomes of animal cells. As this process ends, a structure called the phragmoplast [“FRAG-moh-plast”] guides vesicles from the Golgi apparatus that build a new cell plate.",
       "r": "For 10 points, name this process of cell division often observed in onion root tips."
     },
     {
@@ -375,10 +375,10 @@
     {
       "id": "phragmoplast",
       "tier": "power",
-      "t": "Plant cells mark the dividing line with a preprophase band, and a phragmoplast builds the cell plate from Golgi vesicles",
+      "t": "Most plant cells do it without centrioles; as it ends, a phragmoplast builds the cell plate from Golgi vesicles",
       "k": [
         "phragmoplast",
-        "preprophase band",
+        "centrioles",
         "golgi"
       ],
       "n": 0
@@ -421,8 +421,7 @@
       "M phase"
     ],
     "prompt": [
-      "Cell division",
-      "Cell cycle"
+      "Cell division"
     ],
     "wrong": [
       "Meiosis",
@@ -430,7 +429,8 @@
       "Prophase",
       "Anaphase",
       "Interphase",
-      "Binary fission"
+      "Binary fission",
+      "Cell cycle"
     ]
   }
 }

@@ -24,7 +24,6 @@
   ],
   "reject": [
     "surface tension",
-    "friction",
     "drag",
     "drag force",
     "density",
@@ -58,11 +57,11 @@
       "r": "For 10 points, name this property that measures how strongly a fluid resists flowing, which is high for honey and molasses."
     },
     {
-      "p": "In 1937, Pyotr Kapitsa [“KAH-pee-tsuh”], and separately John Allen and Don Misener, found that liquid helium cooled below about 2 kelvins flows through tiny gaps with none of this property. Such a superfluid can even creep up and over the walls of its container.",
+      "p": "In 1937, Pyotr Kapitsa, and separately John Allen and Don Misener, found that liquid helium cooled below about 2.2 kelvins flows through tiny gaps with none of this property. Such a superfluid can even creep up and over the walls of its container.",
       "r": "For 10 points, name this property that describes how “thick” a fluid is, which makes honey flow slowly."
     },
     {
-      "p": "Proving that the Navier–Stokes [“nahv-YAY STOHKS”] equations, which describe fluids that have this property, always have smooth solutions is one of the Clay Institute’s million-dollar Millennium Prize Problems. This property is the reason a stirred cup of tea eventually stops swirling.",
+      "p": "Deciding whether the Navier–Stokes [“nahv-YAY STOHKS”] equations, which describe fluids that have this property, always have smooth solutions is one of the Clay Institute’s million-dollar Millennium Prize Problems. This property is the reason a stirred cup of tea eventually stops swirling.",
       "r": "For 10 points, name this property, a fluid’s internal resistance to flow, which is much higher for honey than for water."
     },
     {
@@ -98,8 +97,8 @@
       "r": "Honey has thousands of times more of it than water does. For 10 points, name this property, a fluid’s resistance to flow."
     },
     {
-      "p": "When a giant storage tank burst in Boston’s North End in January 1919, cold winter air raised this property of the spilled molasses, making rescue and cleanup much harder. Most liquids flow more easily as they warm up because heat lowers this property.",
-      "r": "For 10 points, name this property that describes how thick and slow-flowing a fluid is."
+      "p": "When a giant storage tank burst in Boston’s North End in January 1919, cold winter air raised this property of the spilled molasses, making rescue and cleanup much harder. The pascal-second is the SI unit of this property.",
+      "r": "Most liquids flow more easily as they warm up because heat lowers this property. For 10 points, name this property that describes how thick and slow-flowing a fluid is."
     },
     {
       "p": "Ludwig Prandtl [“PRAHN-tul”] showed in 1904 that the effects of this property are concentrated in a thin “boundary layer” of fluid right next to a surface, such as an airplane wing, where the fluid touching the wing does not move relative to it.",
@@ -276,7 +275,7 @@
     {
       "id": "navier-stokes",
       "tier": "power",
-      "t": "Navier–Stokes equations: proving they always have smooth solutions is a million-dollar Millennium Prize Problem",
+      "t": "Navier–Stokes equations: deciding whether they always have smooth solutions is a million-dollar Millennium Prize Problem",
       "k": [
         "navier",
         "millennium prize"

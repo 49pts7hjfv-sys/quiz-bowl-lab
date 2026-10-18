@@ -59,7 +59,7 @@
       "r": "For 10 points, name this quantity that a thermometer measures, telling how hot or cold something is."
     },
     {
-      "p": "Around 1593, Galileo built a thermoscope, an air-filled glass bulb whose tube dipped into water, which showed changes in this quantity but had no numbered scale. Daniel Gabriel Fahrenheit later made the first reliable mercury thermometer, in 1714.",
+      "p": "In the 1590s, Galileo built a thermoscope, an air-filled glass bulb whose tube dipped into water, which showed changes in this quantity but had no numbered scale. Daniel Gabriel Fahrenheit later made the first reliable mercury thermometer, in 1714.",
       "r": "On his scale, water freezes at 32 degrees and boils at 212. For 10 points, name this quantity measured by thermometers."
     },
     {
@@ -87,7 +87,7 @@
       "r": "Thermometers measure it. For 10 points, name this quantity given in kelvins, degrees Celsius, or degrees Fahrenheit."
     },
     {
-      "p": "Gay-Lussac’s [“gay-loo-SAKS”] law says a sealed gas’s pressure rises in proportion to this quantity, while Charles’s law says a gas’s volume at constant pressure does the same. In the ideal gas law, P V equals n R times this quantity.",
+      "p": "Gay-Lussac’s [“gay-loo-SAKS”] law says the pressure of a gas in a sealed, rigid container rises in proportion to this quantity, while Charles’s law says a gas’s volume at constant pressure does the same. In the ideal gas law, P V equals n R times this quantity.",
       "r": "For 10 points, name this quantity measured by a thermometer, which tells how hot or cold something is."
     },
     {
@@ -103,8 +103,8 @@
       "r": "Wind chill and the heat index describe how this quantity feels to people. For 10 points, name this quantity that weather forecasters report in degrees."
     },
     {
-      "p": "The Maxwell–Boltzmann distribution, which shows how fast the molecules in a gas are moving, gets wider and shifts to higher speeds as this quantity rises. For an ideal gas, this quantity is proportional to the average kinetic energy of its molecules.",
-      "r": "A spoonful and a whole pot of the same soup can share the same value of it. For 10 points, name this quantity measured in degrees or kelvins."
+      "p": "The Maxwell–Boltzmann distribution, which shows how fast the molecules in a gas are moving, gets wider and shifts to higher speeds as this quantity rises. A spoonful and a whole pot of the same soup can share the same value of this quantity.",
+      "r": "For an ideal gas, it is proportional to the average kinetic energy of the molecules. For 10 points, name this quantity measured in degrees or kelvins."
     }
   ],
   "clues": [
@@ -285,11 +285,11 @@
     {
       "id": "galileo",
       "tier": "power",
-      "t": "Galileo’s thermoscope (around 1593) showed changes but had no numbered scale",
+      "t": "Galileo’s thermoscope (1590s) showed changes but had no numbered scale",
       "k": [
         "galileo",
         "thermoscope",
-        "1593"
+        "1590s"
       ],
       "n": 0,
       "rabbit": "Galileo Galilei"

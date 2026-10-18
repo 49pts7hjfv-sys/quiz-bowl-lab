@@ -61,7 +61,7 @@
       "r": "It is often called the fourth state of matter. For 10 points, name this state of matter found in neon signs and the Sun."
     },
     {
-      "p": "The Saha [“SAH-hah”] equation, worked out by the Indian physicist Meghnad Saha in 1920, predicts how much of a hot gas will turn into this state of matter at a given temperature. Astronomers use it to explain why different stars show different spectral lines.",
+      "p": "Sailors in thunderstorms sometimes saw a blue glow called St. Elmo’s fire on their ships’ masts, made when a strong electric field turns the air into this state of matter. Novelty glass-globe lamps send glowing streamers of it toward any finger touching the glass.",
       "r": "For 10 points, name this state of matter, an ionized gas found in lightning and stars."
     },
     {
@@ -97,8 +97,8 @@
       "r": "For 10 points, name this state of matter, a gas whose atoms have lost some of their electrons."
     },
     {
-      "p": "Lev Landau [“lahn-DOW”] predicted in 1946 that waves in this state of matter can die out without any collisions, an effect called Landau damping. Most of the ordinary matter in the universe, including the matter in stars, is found in this state.",
-      "r": "For 10 points, name this state of matter made of ions and free electrons, found inside glowing neon signs."
+      "p": "A spacecraft plunging back into the atmosphere heats the air around it into a glowing sheath of this state of matter, which can briefly block radio signals. Magnetic fields can steer this state of matter, since its charged particles spiral around magnetic field lines.",
+      "r": "Most of the ordinary matter in the universe is in this state. For 10 points, name this state of matter made of ions and free electrons, found inside glowing neon signs."
     },
     {
       "p": "A comet’s straight, bluish ion tail is made of this state of matter and is pushed directly away from the Sun by the solar wind. In this state, many electrons have broken free of their atoms.",
@@ -277,12 +277,13 @@
       "n": 0
     },
     {
-      "id": "saha",
+      "id": "st-elmo",
       "tier": "power",
-      "t": "Meghnad Saha’s 1920 equation predicts how much of a hot gas becomes this; it explains star spectra",
+      "t": "St. Elmo’s fire, a blue glow on ships’ masts in thunderstorms, forms when a strong electric field turns air into it",
       "k": [
-        "saha",
-        "1920"
+        "st. elmo’s fire",
+        "masts",
+        "thunderstorms"
       ],
       "n": 0
     },
@@ -360,12 +361,13 @@
       "n": 0
     },
     {
-      "id": "landau",
+      "id": "reentry",
       "tier": "power",
-      "t": "Landau damping (Lev Landau, 1946): its waves can die out without any collisions",
+      "t": "A spacecraft returning to Earth is wrapped in a glowing sheath of it that can briefly block radio signals",
       "k": [
-        "landau damping",
-        "collisions"
+        "spacecraft",
+        "glowing sheath",
+        "radio signals"
       ],
       "n": 0
     },

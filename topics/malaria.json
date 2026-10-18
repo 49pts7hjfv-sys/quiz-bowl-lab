@@ -17,7 +17,6 @@
     "plasmodium",
     "plasmodium falciparum",
     "plasmodium vivax",
-    "falciparum",
     "anopheles",
     "mosquito",
     "mosquitoes",
@@ -399,7 +398,7 @@
   ],
   "trap": {
     "title": "Disease, parasite, or mosquito?",
-    "body": "These tossups describe three different living things: the disease, the Plasmodium parasite that causes it, and the Anopheles mosquito that carries it. If the question asks for “this disease,” naming the parasite or the mosquito is wrong. Players also mix it up with other mosquito-borne diseases, such as yellow fever, dengue, and Zika, which are caused by viruses.",
+    "body": "These tossups describe three different things: the disease, the Plasmodium parasite that causes it, and the Anopheles mosquito that carries it. If the question asks for “this disease,” naming the parasite or the mosquito is wrong. Players also mix it up with other mosquito-borne diseases, such as yellow fever, dengue, and Zika, which are caused by viruses.",
     "fix": "Plasmodium is the parasite, Anopheles is the mosquito, and malaria is the disease. Quinine, artemisinin, hypnozoites, and the sickle-cell trait point to malaria; Walter Reed and Aedes mosquitoes point to yellow fever.",
     "line": "Real answer line: <b><u>Malaria</u></b> (do not accept “Plasmodium” or “mosquito”)"
   },
@@ -409,7 +408,8 @@
       "malaria",
       "Maleria",
       "Malarea",
-      "Malarial fever"
+      "Malarial fever",
+      "Falciparum malaria"
     ],
     "prompt": [],
     "wrong": [
@@ -418,7 +418,8 @@
       "Dengue fever",
       "Mosquito",
       "Sickle-cell disease",
-      "Sleeping sickness"
+      "Sleeping sickness",
+      "Falciparum"
     ]
   }
 }

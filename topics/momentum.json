@@ -57,7 +57,7 @@
       "r": "It is conserved in collisions. For 10 points, name this quantity, equal to mass times velocity for everyday objects."
     },
     {
-      "p": "Emmy Noether’s [“NUR-terz”] theorem shows that the conservation of this quantity comes from the fact that the laws of physics are the same everywhere in space. In Hamiltonian mechanics, this quantity is paired with position as its “conjugate” variable.",
+      "p": "Emmy Noether’s [“NUR-terz”] theorem shows that the conservation of this quantity comes from the fact that the laws of physics are the same everywhere in space. Stepping off a small rowboat onto a dock pushes the boat away in the opposite direction, since the total of this quantity is conserved.",
       "r": "The total amount of it stays the same when two carts collide on a track. For 10 points, name this quantity, symbolized p, which equals mass times velocity."
     },
     {
@@ -65,7 +65,7 @@
       "r": "For 10 points, name this quantity, mass times velocity, which is conserved in collisions."
     },
     {
-      "p": "Japan’s IKAROS spacecraft, launched in 2010, became the first to travel between planets using a solar sail, which is pushed by the tiny amount of this quantity carried by sunlight. A photon’s value of this quantity equals its energy divided by the speed of light.",
+      "p": "Japan’s IKAROS spacecraft, launched in 2010, was the first to show that a solar sail works in interplanetary space; sunlight pushes such a sail with the tiny amount of this quantity it carries. A photon’s value of this quantity equals its energy divided by the speed of light.",
       "r": "For 10 points, name this quantity, symbolized p, that equals mass times velocity for ordinary objects."
     },
     {
@@ -85,16 +85,16 @@
       "r": "A slow bowling ball can have more of it than a fast ping-pong ball. For 10 points, name this quantity, equal to mass times velocity."
     },
     {
-      "p": "When a moving cue ball hits a resting billiard ball of the same mass head-on, the cue ball stops dead and the other ball rolls off with all of this quantity. This quantity is conserved in collisions as long as no outside force acts.",
-      "r": "It is measured in newton-seconds. For 10 points, name this vector quantity, symbolized p, equal to mass times velocity."
+      "p": "When a moving cue ball hits a resting billiard ball of the same mass head-on, the cue ball stops dead and the other ball rolls off with all of this quantity. Unlike kinetic energy, this quantity is a vector, so equal amounts moving in opposite directions add up to zero.",
+      "r": "It is measured in newton-seconds. For 10 points, name this quantity, symbolized p, equal to mass times velocity."
     },
     {
       "p": "Physicists find a charged particle’s value of this quantity from how tightly its track curves in a magnetic field, since a larger value makes a wider curve. In special relativity, this quantity equals the Lorentz factor times mass times velocity.",
       "r": "For 10 points, name this quantity, mass times velocity, that is conserved when two objects collide."
     },
     {
-      "p": "In quantum mechanics, the operator for this quantity is minus i times h-bar times a derivative with respect to position. A particle’s wave function written in terms of this quantity is the Fourier [“FOOR-ee-ay”] transform of its position wave function.",
-      "r": "For 10 points, name this quantity, symbolized p, which equals mass times velocity in everyday physics."
+      "p": "Two equal lumps of clay thrown at each other at the same speed stick together and stop dead, because their total of this quantity was zero before they hit. Crumple zones in cars fold up during a crash, stretching out the time it takes to change this quantity so the force on passengers is smaller.",
+      "r": "It is conserved in collisions. For 10 points, name this quantity, symbolized p, which equals mass times velocity in everyday physics."
     },
     {
       "p": "When a firework shell bursts in midair, its pieces fly apart in all directions, but the total of this quantity just after the burst equals the total just before. A system’s center of mass keeps a steady velocity when this quantity is conserved.",
@@ -175,9 +175,10 @@
     {
       "id": "airbags",
       "tier": "middle",
-      "t": "Airbags stretch out the time it takes to change it, which lowers the force on people in a crash",
+      "t": "Airbags and crumple zones stretch out the time it takes to change it, which lowers the force on people in a crash",
       "k": [
         "airbags",
+        "crumple zones",
         "lowers the force"
       ],
       "n": 0
@@ -300,12 +301,12 @@
       "n": 0
     },
     {
-      "id": "hamiltonian",
+      "id": "rowboat",
       "tier": "power",
-      "t": "In Hamiltonian mechanics, it is the “conjugate” variable paired with position",
+      "t": "Stepping off a small rowboat onto a dock pushes the boat away in the opposite direction, since its total is conserved",
       "k": [
-        "hamiltonian",
-        "conjugate"
+        "rowboat",
+        "dock"
       ],
       "n": 0
     },
@@ -364,13 +365,12 @@
       "n": 0
     },
     {
-      "id": "operator",
+      "id": "clay-lumps",
       "tier": "power",
-      "t": "Its quantum operator is minus i times h-bar times a derivative with respect to position",
+      "t": "Two equal lumps of clay thrown at each other at the same speed stick together and stop: their total was zero",
       "k": [
-        "operator",
-        "h-bar",
-        "derivative"
+        "clay",
+        "stick together"
       ],
       "n": 0
     },
@@ -397,7 +397,7 @@
   ],
   "trap": {
     "title": "Linear, not angular",
-    "body": "Momentum (mass times velocity) and angular momentum (the spinning version) are separate answer lines, so “angular momentum” is wrong on a collision question. Players also confuse momentum with impulse, which is the change in momentum, and with kinetic energy, which is not conserved in inelastic collisions.",
+    "body": "Momentum (mass times velocity) and angular momentum (the spinning version) are separate answer lines: “angular momentum” is wrong on a collision question, and plain “momentum” only earns a prompt on a spinning one. Players also confuse momentum with impulse, which is the change in momentum, and with kinetic energy, which is not conserved in inelastic collisions.",
     "fix": "Collisions, p = mv, impulse, airbags, rockets, Newton’s cradle, and de Broglie wavelengths mean momentum. Spinning skaters, torque, orbits, Kepler’s equal areas, and L mean angular momentum. If a question asks for the quantity that an impulse changes, the answer is momentum, not impulse.",
     "line": "Real answer line: <b><u>Momentum</u></b> (accept <u>linear momentum</u>; prompt on <u>p</u>; do not accept “angular momentum”)"
   },

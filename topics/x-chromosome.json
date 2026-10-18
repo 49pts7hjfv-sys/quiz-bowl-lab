@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Sex chromosome · Two copies in most females, one in most males",
   "dates": "First spotted by Hermann Henking in 1891",
-  "briefing": "Most human females have two X chromosomes, and most males have one X paired with a much smaller Y. Because males have only one copy, traits carried on the X, like red-green color blindness and hemophilia, show up far more often in boys. In females, one X in each cell is switched off, which is why calico cats, whose fur-color gene rides on the X, are almost always female.",
+  "briefing": "Most human females have two X chromosomes, and most males have one X paired with a much smaller Y. Because males have only one copy, recessive traits carried on the X, like red-green color blindness and hemophilia, show up far more often in boys. In females, one X in each cell is switched off, which is why calico cats, whose fur-color gene rides on the X, are almost always female.",
   "answerHtml": "<b><u>X chromosome</u></b> (accept <u>X</u>; prompt on <u>sex chromosome</u> or <u>chromosome</u>; do not accept “Y chromosome”)",
   "accept": [
     "x chromosome",
@@ -416,7 +416,7 @@
     "title": "X, Y, or just chromosome?",
     "body": "Tossups on this chromosome are full of clues about sex chromosomes, Barr bodies, and the Y, so players blurt “Y chromosome,” “sex chromosome,” or just “chromosome.” The two sex chromosomes are very different: the Y is small, carries far fewer genes, and passes only from father to son.",
     "fix": "Calico cats, Barr bodies, lyonization, hemophilia, color blindness, fragile X syndrome, or “two copies in females” mean the X chromosome. Father-to-son inheritance means the Y. Saying only “sex chromosome” or “chromosome” earns a prompt, so be ready to add the letter.",
-    "line": "Real answer line: <b><u>X chromosome</u></b> (accept <u>X</u>; prompt on <u>sex chromosome</u>; do not accept “Y chromosome”)"
+    "line": "Real answer line: <b><u>X chromosome</u></b> (accept <u>X</u>; prompt on <u>sex chromosome</u> or <u>chromosome</u>; do not accept “Y chromosome”)"
   },
   "tests": {
     "right": [
