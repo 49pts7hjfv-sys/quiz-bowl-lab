@@ -94,7 +94,7 @@
       "r": "For 10 points, name this effect in which charges pushed sideways by a magnetic field build up a voltage across a conductor."
     },
     {
-      "p": "In magnetic metals like iron and nickel, an “anomalous” version of this effect is much stronger than usual because it depends on the metal’s own magnetization. Reversing the magnetic field flips the sign of the voltage this effect produces.",
+      "p": "The voltage from this effect equals the current times the magnetic field, divided by the product of three things: the density of charge carriers, their charge, and the sample’s thickness. Reversing the magnetic field flips the sign of the voltage this effect produces.",
       "r": "For 10 points, name this effect discovered by an American physicist in 1879, in which a magnetic field makes a sideways voltage across a current."
     },
     {
@@ -110,7 +110,7 @@
       "r": "For 10 points, name this effect, discovered in 1879, in which a voltage appears across a current-carrying strip placed in a magnetic field."
     },
     {
-      "p": "In a “spin” version of this effect, electrons with opposite spins collect on opposite edges of a material even when no magnetic field is applied. Measurements of this effect, together with resistance, tell chip makers how easily charges move through a semiconductor, a property called mobility.",
+      "p": "Measurements of this effect, together with resistance, tell chip makers how easily charges move through a semiconductor, a property called mobility. In copper, the direction of the voltage from this effect shows that the charges carrying the current are negative.",
       "r": "For 10 points, name this effect, in which a magnetic field produces a voltage across a conductor at right angles to the current."
     },
     {
@@ -315,26 +315,25 @@
       "n": 0
     },
     {
-      "id": "anomalous",
+      "id": "voltage-formula",
       "tier": "power",
-      "t": "An “anomalous” version is much stronger in magnetic metals like iron and nickel",
+      "t": "Its voltage equals current times magnetic field, divided by the product of carrier density, carrier charge, and sample thickness",
       "k": [
-        "anomalous",
-        "iron",
-        "nickel"
+        "current times magnetic field",
+        "sample thickness"
       ],
       "n": 0
     },
     {
-      "id": "spin",
+      "id": "copper-negative",
       "tier": "power",
-      "t": "In a “spin” version, electrons with opposite spins collect on opposite edges, even with no magnetic field",
+      "t": "In copper, the direction of its voltage shows that the charges carrying the current are negative",
       "k": [
-        "spin",
-        "opposite edges"
+        "copper",
+        "negative",
+        "direction"
       ],
-      "n": 0,
-      "rabbit": "Spin (physics)"
+      "n": 0
     },
     {
       "id": "mobility",

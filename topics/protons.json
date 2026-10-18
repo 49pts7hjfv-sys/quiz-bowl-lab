@@ -54,8 +54,6 @@
     "alpha particles",
     "deuteron",
     "deuterons",
-    "prion",
-    "prions",
     "hydrogen bond",
     "hydrogen bonds",
     "hydrogen bonding",
@@ -80,7 +78,7 @@
       "r": "The strong force holds these particles together in nuclei despite their electric repulsion. For 10 points, name this positively charged particle found in the nucleus of every atom."
     },
     {
-      "p": "In the late 1980s, the European Muon Collaboration found that the spins of this particle’s quarks add up to only a small part of its total spin, a surprise nicknamed the “spin crisis.” Only about one percent of this particle’s mass comes from the masses of its quarks.",
+      "p": "Only about one percent of this particle’s mass comes from the masses of its quarks. This particle has a mass of about one atomic mass unit, and its charge, about 1.6 times ten to the negative nineteenth coulombs, is the same size as an electron’s.",
       "r": "Gluons hold its three quarks together. For 10 points, name this positive particle found in atomic nuclei along with neutrons."
     },
     {
@@ -132,7 +130,7 @@
       "r": "Acids give them away. For 10 points, name these positive particles found in every atomic nucleus."
     },
     {
-      "p": "In 1933, Otto Stern measured this particle’s magnetic strength and found it much larger than expected, an early sign that this particle is more complicated than the electron. This particle is slightly lighter than the neutron.",
+      "p": "This particle is slightly lighter than the neutron. An atom’s mass number is found by adding the number of these particles to the number of neutrons, and in a neutral atom, the number of these particles equals the number of electrons.",
       "r": "Isotopes of an element all have the same number of these particles but different numbers of neutrons. For 10 points, name these positive nuclear particles."
     }
   ],
@@ -303,12 +301,12 @@
       "n": 0
     },
     {
-      "id": "spin-crisis",
+      "id": "amu-charge",
       "tier": "power",
-      "t": "The late-1980s “spin crisis”: the European Muon Collaboration found its quarks’ spins make up only a small part of its spin",
+      "t": "Has a mass of about one atomic mass unit and a charge of about 1.6 × 10⁻¹⁹ coulombs, the same size as an electron’s",
       "k": [
-        "spin crisis",
-        "european muon collaboration"
+        "atomic mass unit",
+        "coulombs"
       ],
       "n": 0
     },
@@ -427,13 +425,12 @@
       "n": 0
     },
     {
-      "id": "stern",
+      "id": "mass-number",
       "tier": "power",
-      "t": "In 1933, Otto Stern found its magnetic strength much larger than expected",
+      "t": "An atom’s mass number is the number of these plus the number of neutrons; in a neutral atom, their number equals the number of electrons",
       "k": [
-        "otto stern",
-        "1933",
-        "magnetic strength"
+        "mass number",
+        "neutral atom"
       ],
       "n": 0
     }
@@ -450,7 +447,8 @@
       "proton",
       "Hydrogen nucleus",
       "hydrogen ions",
-      "Protns"
+      "Protns",
+      "Prton"
     ],
     "prompt": [
       "Nucleons",
@@ -463,7 +461,8 @@
       "Photons",
       "Quarks",
       "Antiprotons",
-      "Positron"
+      "Positron",
+      "Prion"
     ]
   }
 }

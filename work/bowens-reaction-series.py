@@ -123,15 +123,15 @@ data = {
             "r": "For 10 points, name this sequence, named for a Canadian scientist, that lists the order in which minerals crystallize from magma."
         },
         {
-            "p": "Biotite, a dark mica, is the last mineral on one branch of this sequence, while muscovite, a light mica, crystallizes after its two branches join. The place where those branches meet makes diagrams of this sequence look like a letter Y.",
-            "r": "For 10 points, name this sequence of minerals that crystallize from cooling magma, starting with olivine and ending with quartz."
+            "p": "Biotite, a dark mica, is the last mineral on one branch of this sequence, while muscovite, a light mica, crystallizes after its two branches join, just before the final mineral. Both of those micas split into thin, flexible sheets.",
+            "r": "Diagrams of it look like a letter Y. For 10 points, name this sequence of minerals that crystallize from cooling magma, starting with olivine and ending with quartz."
         },
         {
-            "p": "The dark, ferromagnesian minerals on the left side of this sequence are rich in iron and magnesium, which is why the first rocks to form from a cooling basalt magma are dark. The right side of this sequence holds plagioclase feldspar.",
+            "p": "The dark, ferromagnesian minerals on the left side of this sequence are rich in iron and magnesium, which is why rocks built from its early minerals, like basalt, are dark. The right side of this sequence holds plagioclase feldspar.",
             "r": "For 10 points, name this Y-shaped sequence that shows the order in which minerals crystallize from cooling magma."
         },
         {
-            "p": "This sequence explains why dark basalt is full of pyroxene and calcium-rich plagioclase, while pale granite is made mostly of potassium feldspar and quartz. It splits into discontinuous and continuous branches that come together near its low-temperature end.",
+            "p": "This sequence explains why dark basalt is full of pyroxene and calcium-rich plagioclase, while pale granite is rich in quartz and potassium feldspar. Its high-temperature minerals are rich in iron and magnesium, and its low-temperature minerals are rich in silica.",
             "r": "For 10 points, name this sequence, worked out by a Canadian scientist, in which olivine crystallizes first and quartz last."
         }
     ],
@@ -183,7 +183,7 @@ data = {
         {
             "id": "bottom-three",
             "tier": "middle",
-            "t": "After the branches join come potassium feldspar, then muscovite mica, then quartz, the main minerals of granite",
+            "t": "After the branches join come potassium feldspar, then muscovite mica, then quartz, minerals common in granite",
             "k": ["potassium feldspar", "muscovite", "granite"],
             "n": 0,
             "rabbit": "Granite"

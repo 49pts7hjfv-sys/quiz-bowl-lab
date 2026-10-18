@@ -11,7 +11,7 @@ data = {
     "qbCategory": "Science · Physics",
     "kicker": "Heat flows hot to cold on its own · Entropy never falls in an isolated system",
     "dates": "Foundation laid by Rudolf Clausius, 1850",
-    "briefing": "The second law of thermodynamics explains why hot cocoa cools down and ice melts in a warm room, but never the other way around: heat flows on its own from hot things to cold things, unless something does work to push it back. Another way to say it is that entropy, a measure of disorder, never decreases in an isolated system. It also means no engine can turn all of its heat into useful work, so no machine can run forever on its own.",
+    "briefing": "The second law of thermodynamics explains why hot cocoa cools down and ice melts in a warm room, but never the other way around: heat flows on its own from hot things to cold things, unless something does work to push it back. Another way to say it is that entropy, a measure of disorder, never decreases in an isolated system. It also means no engine can turn all of its heat into useful work, so even the best engine wastes some heat.",
     "answerHtml": "<b><u>Second law of thermodynamics</u></b> (accept <u>2nd law of thermodynamics</u>; prompt on <u>second law</u> or <u>thermodynamics</u>; do not accept “entropy” or another law)",
     "accept": [
         "second law of thermodynamics",
@@ -110,11 +110,11 @@ data = {
             "r": "The rule about entropy is this law. For 10 points, name this law of thermodynamics, which says that heat flows on its own from hot to cold."
         },
         {
-            "p": "Cream poured into hot coffee swirls in and spreads out but never gathers itself back into a blob, an everyday example of this law. This law also explains why a hot cup of cocoa always cools to room temperature instead of warming up by itself.",
-            "r": "For 10 points, name this law of thermodynamics, which says the entropy of an isolated system never decreases."
+            "p": "When the wall between a box of gas and an empty box is removed, the gas spreads through both boxes and never squeezes itself back into one, as this law predicts. The chance of all the molecules gathering back in one box by accident is so tiny that it never happens in practice.",
+            "r": "Hot cocoa cools to room temperature because of this law. For 10 points, name this law of thermodynamics, which says the entropy of an isolated system never decreases."
         },
         {
-            "p": "Max Planck wrote his 1879 doctoral thesis on this law, and his name is paired with Lord Kelvin’s in a statement of this law about engines. That statement says no engine working in a cycle can do nothing but turn heat into work.",
+            "p": "Max Planck wrote his 1879 doctoral thesis on this law. This law sets the best possible efficiency of a heat engine at one minus the ratio of its cold temperature to its hot temperature, measured in kelvins.",
             "r": "For 10 points, name this law of thermodynamics, which says that entropy never decreases in an isolated system."
         },
         {
@@ -122,7 +122,7 @@ data = {
             "r": "For 10 points, name this law of thermodynamics, which says that the total entropy of an isolated system never goes down."
         },
         {
-            "p": "A snowflake can grow into an orderly crystal without breaking this law, because the heat it gives off as it freezes raises the disorder of the air around it even more. Chemists say a process happens on its own only if it raises the total entropy of the universe, as this law requires.",
+            "p": "A snowflake can grow into an orderly crystal without breaking this law, because the heat it gives off as it freezes raises the disorder of the air around it even more. Ice cubes can form in a freezer for a similar reason, since the freezer dumps even more heat into the kitchen.",
             "r": "For 10 points, name this law of thermodynamics, which says heat flows on its own from hot to cold."
         },
         {
@@ -168,10 +168,10 @@ data = {
         {
             "id": "everyday",
             "tier": "giveaway",
-            "t": "Explains why hot cocoa cools to room temperature and cream spreads through coffee but never un-mixes",
+            "t": "Explains why hot cocoa cools to room temperature and ice melts in a warm room, but never the reverse",
             "k": [
                 "cocoa",
-                "cream",
+                "ice melts",
                 "room temperature"
             ],
             "n": 0
@@ -309,10 +309,32 @@ data = {
         {
             "id": "clausius-1865",
             "tier": "power",
-            "t": "Clausius (1865): the energy of the universe is constant, and its entropy tends toward a maximum",
+            "t": "Clausius (1865), the year he named entropy: the energy of the universe is constant, and its entropy tends toward a maximum",
             "k": [
                 "1865",
                 "tends toward a maximum"
+            ],
+            "n": 0
+        },
+        {
+            "id": "free-expansion",
+            "tier": "power",
+            "t": "Gas let into an empty box spreads through both boxes and never squeezes itself back into one; the odds are far too tiny",
+            "k": [
+                "empty box",
+                "spreads",
+                "odds"
+            ],
+            "n": 0
+        },
+        {
+            "id": "carnot-efficiency",
+            "tier": "power",
+            "t": "Best possible engine efficiency: one minus the cold temperature divided by the hot temperature, both in kelvins",
+            "k": [
+                "efficiency",
+                "kelvins",
+                "one minus"
             ],
             "n": 0
         },
@@ -375,10 +397,11 @@ data = {
         {
             "id": "snowflake",
             "tier": "power",
-            "t": "A snowflake can grow into an orderly crystal because the heat it releases raises the surrounding air’s disorder even more",
+            "t": "A snowflake can grow into an orderly crystal because the heat it releases raises the surrounding air’s disorder even more; a freezer making ice dumps heat into the kitchen",
             "k": [
                 "snowflake",
-                "crystal"
+                "crystal",
+                "freezer"
             ],
             "n": 0
         }
