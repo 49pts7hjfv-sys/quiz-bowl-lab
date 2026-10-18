@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Waxy steroid in animal cell membranes · Raw material for bile and hormones",
   "dates": "Named by Michel Chevreul in 1815",
-  "briefing": "Cholesterol has a bad reputation, but your body can’t live without it. This waxy steroid helps hold together the membrane around every animal cell, and your body turns it into bile and into hormones like testosterone and estrogen. Trouble starts when too much of it, carried through the blood by “bad” LDL particles, builds up as plaque inside artery walls.",
+  "briefing": "Cholesterol has a bad reputation, but your body can’t live without it. This waxy steroid is a key building block of the membrane around every animal cell, and your body turns it into bile acids and into hormones like testosterone and estrogen. Trouble starts when too much of it, carried through the blood by “bad” LDL particles, builds up as plaque inside artery walls.",
   "answerHtml": "<b><u>Cholesterol</u></b> (prompt on <u>sterol</u> or <u>steroid</u>; do not accept “LDL” or “HDL”)",
   "accept": [
     "cholesterol",
@@ -94,7 +94,7 @@
       "r": "High blood levels of it are treated with statins. For 10 points, name this steroid carried through the blood by LDL and HDL particles."
     },
     {
-      "p": "Inside mitochondria, an enzyme snips the side chain off this molecule to make pregnenolone [“preg-NEE-nuh-lohn”], the first step in making cortisol, aldosterone, and other steroid hormones. The liver also converts this molecule into bile acids, which are stored in the gallbladder as part of bile.",
+      "p": "Inside mitochondria, an enzyme snips off part of this molecule’s side chain to make pregnenolone [“preg-NEE-nuh-lohn”], the first step in making cortisol, aldosterone, and other steroid hormones. The liver also converts this molecule into bile acids, which are stored in the gallbladder as part of bile.",
       "r": "LDL particles carry it to body cells. For 10 points, name this lipid whose high blood levels are linked to heart disease."
     },
     {
@@ -118,7 +118,7 @@
       "r": "Egg yolks are among the richest food sources of it. For 10 points, name this substance carried in the blood by LDL and HDL."
     },
     {
-      "p": "The two main bile acids made by the human liver, cholic [“KOH-lick”] acid and chenodeoxycholic [“KEE-noh-dee-OX-ee-KOH-lick”] acid, are both built from this molecule. Converting it into bile acids is one of the main ways the body gets rid of extra amounts of it.",
+      "p": "Cholic [“KOH-lick”] acid, one of the two main bile acids made by the human liver, is built from this molecule. Bile acids help the intestine digest fats, and making them is one of the main ways the body gets rid of extra amounts of this molecule.",
       "r": "LDL carries it to body cells. For 10 points, name this steroid whose buildup in arteries can lead to heart disease."
     },
     {
@@ -349,7 +349,7 @@
     {
       "id": "pregnenolone",
       "tier": "power",
-      "t": "Making steroid hormones starts when an enzyme in mitochondria snips off its side chain to form pregnenolone",
+      "t": "Making steroid hormones starts when an enzyme in mitochondria snips off part of its side chain to form pregnenolone",
       "k": [
         "pregnenolone",
         "side chain"
@@ -359,10 +359,10 @@
     {
       "id": "cholic-acid",
       "tier": "power",
-      "t": "The two main human bile acids, cholic acid and chenodeoxycholic acid, are both made from it",
+      "t": "Cholic acid, one of the two main bile acids made by the human liver, is built from it",
       "k": [
         "cholic acid",
-        "chenodeoxycholic"
+        "bile acids"
       ],
       "n": 0
     },

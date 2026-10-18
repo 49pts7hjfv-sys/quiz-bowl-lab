@@ -75,7 +75,7 @@
       "r": "Its enzymes are shipped to it by the Golgi apparatus. For 10 points, name this organelle, nicknamed the cell’s recycling center."
     },
     {
-      "p": "Heavily sugar-coated proteins called LAMPs line the inside of this organelle’s membrane, protecting it from being digested by the organelle’s own enzymes. Those enzymes, called acid hydrolases [“HY-druh-lay-zez”], work best at a low pH, so they do little damage if they leak into the cytoplasm.",
+      "p": "As a tadpole turns into a frog, enzymes from this organelle help break down its tail, which shrinks away. Those enzymes, called acid hydrolases [“HY-druh-lay-zez”], work best at a low pH, so they do little damage if they leak into the cytoplasm.",
       "r": "Plants use vacuoles for much of this job. For 10 points, name this organelle that digests food particles and old cell parts."
     },
     {
@@ -104,10 +104,10 @@
     },
     {
       "p": "When cells die, enzymes leaking out of this organelle help digest them in a process called autolysis [“aw-TOL-ih-sis”], or self-digestion. In living cells, this organelle breaks down worn-out mitochondria and other old parts so their materials can be reused.",
-      "r": "For 10 points, name this organelle that is sometimes nicknamed the cell’s “suicide bag.”"
+      "r": "It is found mainly in animal cells. For 10 points, name this organelle, the cell’s cleanup crew, packed with digestive enzymes."
     },
     {
-      "p": "When a white blood cell swallows a bacterium, the bacterium ends up inside a sac called a phagosome [“FAG-oh-sohm”], which then fuses with this organelle so its enzymes can destroy the invader. Single-celled organisms like amoebas digest their food the same way.",
+      "p": "When a white blood cell swallows a bacterium, the bacterium ends up inside a sac called a phagosome, which then fuses with this organelle so its enzymes can destroy the invader. Single-celled organisms like amoebas digest their food the same way.",
       "r": "For 10 points, name this organelle, sometimes called the cell’s recycling center, that is full of digestive enzymes."
     },
     {
@@ -144,7 +144,7 @@
     {
       "id": "suicide-bags",
       "tier": "giveaway",
-      "t": "Nicknamed “suicide bags,” since their enzymes could digest the whole cell if they burst",
+      "t": "Sometimes nicknamed “suicide bags,” because their enzymes could break down the cell if many of them burst at once",
       "k": [
         "suicide bags",
         "burst"
@@ -343,12 +343,13 @@
       "n": 0
     },
     {
-      "id": "lamps",
+      "id": "tadpole-tail",
       "tier": "power",
-      "t": "Sugar-coated membrane proteins called LAMPs protect their membrane from their own enzymes",
+      "t": "As a tadpole turns into a frog, their enzymes help break down its shrinking tail",
       "k": [
-        "lamps",
-        "sugar-coated"
+        "tadpole",
+        "shrinking tail",
+        "frog"
       ],
       "n": 0
     },

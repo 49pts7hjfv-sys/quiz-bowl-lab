@@ -415,8 +415,8 @@
   ],
   "trap": {
     "title": "Golgi or the ER?",
-    "body": "The endoplasmic reticulum and the Golgi apparatus work as a team, so their clues blur together. The rough ER, studded with ribosomes, makes proteins; the Golgi receives them at its cis face, modifies them, and ships them out from its trans face in vesicles. Players who hear “proteins,” “membranes,” and “vesicles” often buzz with the wrong one.",
-    "fix": "Stacked, flattened sacs (cisternae), cis and trans faces, sorting, packaging, and “post office” mean Golgi. Ribosomes on the surface, a network connected to the nuclear envelope, or making lipids mean the ER. If a question asks for the Italian scientist himself, say Camillo Golgi.",
+    "body": "The endoplasmic reticulum and the Golgi apparatus work as a team, so their clues blur together. The rough ER, studded with ribosomes, makes proteins; the Golgi receives them at its cis face, modifies them, and ships them out from its trans face in vesicles. Players who hear “proteins,” “vesicles,” “cisternae,” or the K-D-E-L tag, which turn up in both organelles’ tossups, often buzz with the wrong one.",
+    "fix": "A stack of flattened sacs with cis and trans faces, sorting, packaging, and “post office” mean Golgi. Ribosomes on the surface, a network connected to the nuclear envelope, or making lipids mean the ER. If a question asks for the Italian scientist himself, say Camillo Golgi.",
     "line": "Real answer line: <b><u>Golgi</u></b> apparatus (accept <u>Golgi</u> body or <u>Golgi</u> complex; accept <u>dictyosomes</u>)"
   },
   "tests": {

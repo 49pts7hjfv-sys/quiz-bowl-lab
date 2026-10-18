@@ -68,7 +68,7 @@
       "r": "It works alongside phloem. For 10 points, name this plant tissue that carries water up from the roots."
     },
     {
-      "p": "Henry Dixon and John Joly [“JOH-lee”] proposed in the 1890s that water is pulled up this tissue as one unbroken column, held together by hydrogen bonds. In their cohesion-tension theory, the pull comes from water evaporating out of leaves through tiny pores called stomata.",
+      "p": "Henry Dixon and John Joly [“JOH-lee”] proposed in the 1890s that water is pulled up this tissue as one unbroken column, held together because water molecules cling to one another. In their cohesion-tension theory, the pull comes from water evaporating out of leaves through tiny pores called stomata.",
       "r": "It can lift water more than 100 meters up the tallest redwoods. For 10 points, name this vascular tissue, which works alongside phloem."
     },
     {
@@ -108,7 +108,7 @@
       "r": "For 10 points, name this plant tissue that carries water and minerals up from the roots."
     },
     {
-      "p": "Vascular plants are sometimes called tracheophytes, after one kind of cell in this tissue. Mosses and other bryophytes lack this tissue, which is one reason they stay small and grow in damp places.",
+      "p": "Vascular plants, also called tracheophytes, carry water through cells such as tracheids in this tissue. Mosses and other bryophytes lack this tissue, which is one reason they stay small and grow in damp places.",
       "r": "Wood is made mostly of it. For 10 points, name this water-carrying plant tissue that works alongside phloem."
     },
     {
@@ -120,7 +120,7 @@
       "r": "It carries water up from the roots. For 10 points, name this plant tissue that makes up wood."
     },
     {
-      "p": "This plant tissue is made of dead, hollow cells with stiff walls that link up into tiny pipes. It carries water and dissolved minerals from the roots up to the leaves, pulled along as water evaporates from the leaves.",
+      "p": "This plant tissue is made mostly of dead, hollow cells with stiff walls that link up into tiny pipes. It carries water and dissolved minerals from the roots up to the leaves, pulled along as water evaporates from the leaves.",
       "r": "Wood is made mostly of it. For 10 points, name this vascular tissue that works alongside phloem."
     }
   ],
@@ -427,7 +427,7 @@
   "trap": {
     "title": "Xylem or phloem?",
     "body": "Xylem and phloem are the two vascular tissues, and tossups often mention both. Xylem carries water and minerals up from the roots and is made mostly of dead, hollow cells; phloem carries sugar from the leaves to the rest of the plant through living sieve-tube cells. The vascular cambium, which makes new xylem and phloem, is a third answer that players confuse with both.",
-    "fix": "Water, minerals, transpiration, tracheids, vessel elements, lignin, wood, or tree rings mean xylem. Sugar, sap flowing both up and down, sieve tubes, companion cells, or aphids mean phloem. A memory trick: phloem carries food.",
+    "fix": "Water, minerals, transpiration, tracheids, vessel elements, lignin, wood, or tree rings mean xylem. Sugar, sap flowing both up and down, sieve tubes, companion cells, or aphids mean phloem, except that the sugary sap tapped for maple syrup comes from xylem. A memory trick: phloem carries food.",
     "line": "Real answer line: <b><u>Xylem</u></b> (prompt on <u>vascular tissue</u>; do not accept “phloem”)"
   },
   "tests": {
