@@ -1,0 +1,469 @@
+{
+  "id": "rna",
+  "name": "RNA",
+  "mono": "RNA",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Single-stranded nucleic acid with uracil · Turns genes into proteins",
+  "dates": "Found in every living cell",
+  "briefing": "RNA is DNA’s single-stranded chemical cousin, and it does a surprising amount of the cell’s work. Messenger RNA carries copies of genes from DNA to the ribosomes, transfer RNA brings the matching amino acids, and ribosomal RNA helps link those amino acids into proteins. It uses the sugar ribose and the base uracil in place of thymine, and many viruses, including flu viruses, store their genes in it.",
+  "answerHtml": "<b><u>RNA</u></b> (or <u>ribonucleic acid</u>; prompt on <u>nucleic acid</u>; do not accept “DNA” or one specific type such as “mRNA”)",
+  "accept": [
+    "rna",
+    "rnas",
+    "ribonucleic acid",
+    "ribonucleic acids",
+    "rna molecule",
+    "rna molecules"
+  ],
+  "prompt": [
+    "nucleic acid",
+    "nucleic acids"
+  ],
+  "reject": [
+    "dna",
+    "deoxyribonucleic acid",
+    "mrna",
+    "messenger rna",
+    "trna",
+    "transfer rna",
+    "rrna",
+    "ribosomal rna",
+    "microrna",
+    "mirna",
+    "sirna",
+    "snrna",
+    "cdna",
+    "ribose",
+    "uracil",
+    "ribosome",
+    "ribosomes",
+    "ribozyme",
+    "ribozymes",
+    "rna polymerase",
+    "nucleotide",
+    "nucleotides",
+    "protein",
+    "proteins",
+    "transcription",
+    "translation",
+    "codon",
+    "codons",
+    "anticodon",
+    "gene",
+    "genes",
+    "chromosome"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/RNA",
+  "qb": {
+    "q": "RNA",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1986, Walter Gilbert named a hypothesis proposing that early life used this molecule both to store genetic information and to speed up chemical reactions. That idea grew out of Thomas Cech [“CHECK”] and Sidney Altman’s discovery that some molecules of this kind act as enzymes, called ribozymes.",
+      "r": "It is usually single-stranded. For 10 points, name this nucleic acid that uses uracil instead of thymine."
+    },
+    {
+      "p": "In 1961, Marshall Nirenberg and Heinrich Matthaei cracked the first codon by adding a synthetic chain of this molecule whose bases were all uracil to a cell extract. The extract then built a protein chain made only of the amino acid phenylalanine.",
+      "r": "For 10 points, name this nucleic acid that carries genetic information from DNA to ribosomes."
+    },
+    {
+      "p": "Andrew Fire and Craig Mello won the 2006 Nobel Prize for discovering that small double-stranded pieces of this molecule can silence matching genes in worms, a process called interference. Short “micro” versions of this molecule control genes in a similar way.",
+      "r": "It uses uracil instead of thymine. For 10 points, name this nucleic acid that contains the sugar ribose."
+    },
+    {
+      "p": "Katalin Karikó [“KAR-ih-koh”] and Drew Weissman won the 2023 Nobel Prize for showing that changing one of this molecule’s bases keeps it from setting off a harmful immune reaction. That work made possible the COVID-19 vaccines built from this molecule’s messenger type.",
+      "r": "It is made from DNA by transcription. For 10 points, name this nucleic acid that uses ribose and uracil."
+    },
+    {
+      "p": "Scientists detect this molecule with a lab method called the Northern blot, named as a play on the Southern blot, which detects DNA and was named for Edwin Southern. This molecule is less stable than DNA because its sugar carries an extra hydroxyl group.",
+      "r": "It contains uracil. For 10 points, name this nucleic acid that comes in messenger, transfer, and ribosomal types."
+    },
+    {
+      "p": "Viroids, tiny plant pathogens first identified by Theodor Diener in 1971, are nothing more than short circles of this molecule with no protein coat. Many viruses, including flu viruses and coronaviruses, also store their genes in this molecule instead of DNA.",
+      "r": "It is usually single-stranded. For 10 points, name this nucleic acid that uses uracil in place of thymine."
+    },
+    {
+      "p": "In 1977, Phillip Sharp and Richard Roberts discovered that many genes come in pieces. Before a copy of such a gene, made of this molecule, can be used, its introns must be cut out and its exons joined by spliceosomes.",
+      "r": "Spliceosomes are built partly from small molecules of this kind. For 10 points, name this nucleic acid made from DNA during transcription."
+    },
+    {
+      "p": "In CRISPR gene editing, a guide made of this molecule leads the Cas9 [“kass nine”] enzyme to the exact spot in DNA that it should cut. Jennifer Doudna and Emmanuelle Charpentier [“shar-pahn-TYAY”] won the 2020 Nobel Prize in Chemistry for developing that tool.",
+      "r": "It is usually single-stranded. For 10 points, name this nucleic acid that contains ribose and uracil."
+    },
+    {
+      "p": "An enzyme called primase lays down short primers of this molecule so that DNA polymerase can start copying DNA, including at the start of each Okazaki [“oh-kah-ZAH-kee”] fragment. Those primers are later removed and replaced with DNA.",
+      "r": "It uses uracil instead of thymine. For 10 points, name this nucleic acid whose messenger type carries genes to ribosomes."
+    },
+    {
+      "p": "In 1965, Robert Holley worked out the complete sequence of one transfer type of this molecule, taken from yeast. That type of this molecule folds into a cloverleaf shape and uses a three-base anticodon to carry the right amino acid to the ribosome.",
+      "r": "It contains uracil. For 10 points, name this nucleic acid that also has messenger and ribosomal types."
+    },
+    {
+      "p": "In eukaryotes, the messenger type of this molecule gets a protective cap on its five-prime end and a long poly-A tail of adenine nucleotides on its three-prime end before leaving the nucleus. This molecule is built in the five-prime to three-prime direction during transcription.",
+      "r": "It is usually single-stranded. For 10 points, name this nucleic acid that uses uracil instead of thymine."
+    },
+    {
+      "p": "Howard Temin and David Baltimore each discovered reverse transcriptase in 1970, an enzyme that copies this molecule back into DNA. Retroviruses such as HIV use that enzyme because their genes are stored in this molecule.",
+      "r": "It contains the sugar ribose. For 10 points, name this nucleic acid that is made from DNA during transcription."
+    },
+    {
+      "p": "Francis Crick’s “central dogma” says that genetic information flows from DNA to this molecule and then to protein. In the second step, ribosomes read this molecule’s messenger type three bases at a time, in units called codons.",
+      "r": "It is usually single-stranded. For 10 points, name this nucleic acid that uses uracil instead of thymine."
+    },
+    {
+      "p": "Severo Ochoa’s [“oh-CHOH-uh’s”] lab found an enzyme that could build chains of this molecule in a test tube, helping Ochoa win a share of the 1959 Nobel Prize. Pictures of the ribosome later showed that its amino-acid–linking center is made of this molecule, not protein.",
+      "r": "It is made from DNA by transcription. For 10 points, name this nucleic acid that contains uracil and ribose."
+    },
+    {
+      "p": "This molecule is usually single-stranded, uses the sugar ribose, and has the base uracil in place of thymine. It is made from a DNA template during transcription and comes in messenger, transfer, and ribosomal types.",
+      "r": "Ribosomes read its messenger type. For 10 points, name this nucleic acid that helps cells turn genes into proteins."
+    }
+  ],
+  "clues": [
+    {
+      "id": "uracil",
+      "tier": "giveaway",
+      "t": "Uses the base uracil in place of thymine",
+      "k": [
+        "uracil",
+        "thymine"
+      ],
+      "n": 0,
+      "rabbit": "Uracil"
+    },
+    {
+      "id": "ribose",
+      "tier": "giveaway",
+      "t": "Its sugar is ribose, which has one more oxygen atom than DNA’s sugar, deoxyribose",
+      "k": [
+        "ribose",
+        "oxygen atom",
+        "deoxyribose"
+      ],
+      "n": 0
+    },
+    {
+      "id": "single-stranded",
+      "tier": "giveaway",
+      "t": "Usually single-stranded, unlike the double helix of DNA",
+      "k": [
+        "single-stranded",
+        "double helix"
+      ],
+      "n": 0,
+      "rabbit": "DNA"
+    },
+    {
+      "id": "transcription",
+      "tier": "giveaway",
+      "t": "Made from a DNA template during transcription",
+      "k": [
+        "transcription",
+        "template"
+      ],
+      "n": 0,
+      "rabbit": "Transcription"
+    },
+    {
+      "id": "three-types",
+      "tier": "giveaway",
+      "t": "Comes in three main types: messenger, transfer, and ribosomal",
+      "k": [
+        "messenger",
+        "transfer",
+        "ribosomal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "codons",
+      "tier": "middle",
+      "t": "The messenger type carries a gene’s code to the ribosomes in three-base “words” called codons",
+      "k": [
+        "codons",
+        "messenger type"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anticodons",
+      "tier": "middle",
+      "t": "The cloverleaf-shaped transfer type uses a three-base anticodon to bring the right amino acid",
+      "k": [
+        "cloverleaf",
+        "anticodon",
+        "transfer type"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ribosomal-type",
+      "tier": "middle",
+      "t": "The ribosomal type, along with proteins, makes up the ribosomes",
+      "k": [
+        "ribosomal type",
+        "ribosomes"
+      ],
+      "n": 0,
+      "rabbit": "Ribosomes"
+    },
+    {
+      "id": "translation",
+      "tier": "middle",
+      "t": "Ribosomes read the messenger type to build proteins in translation",
+      "k": [
+        "translation",
+        "proteins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "central-dogma",
+      "tier": "middle",
+      "t": "Francis Crick’s “central dogma”: genetic information flows from DNA to this molecule to protein",
+      "k": [
+        "central dogma",
+        "francis crick"
+      ],
+      "n": 0
+    },
+    {
+      "id": "splicing",
+      "tier": "middle",
+      "t": "Spliceosomes cut out introns and join exons together in a step called splicing",
+      "k": [
+        "splicing",
+        "introns",
+        "exons",
+        "spliceosomes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "viruses",
+      "tier": "middle",
+      "t": "Flu viruses, coronaviruses, and HIV store their genes in it instead of DNA",
+      "k": [
+        "flu",
+        "coronaviruses",
+        "hiv"
+      ],
+      "n": 0,
+      "rabbit": "HIV"
+    },
+    {
+      "id": "reverse-transcriptase",
+      "tier": "middle",
+      "t": "Retroviruses like HIV copy it into DNA with reverse transcriptase, found by Howard Temin and David Baltimore in 1970",
+      "k": [
+        "reverse transcriptase",
+        "retroviruses",
+        "temin",
+        "baltimore"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ribozymes",
+      "tier": "middle",
+      "t": "Some molecules of it act as enzymes called ribozymes; the ribosome’s amino-acid–linking center is one",
+      "k": [
+        "ribozymes",
+        "enzymes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "less-stable",
+      "tier": "middle",
+      "t": "Less stable than DNA, because the extra hydroxyl group on its sugar helps it break apart",
+      "k": [
+        "less stable",
+        "hydroxyl"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gilbert",
+      "tier": "power",
+      "t": "In 1986, Walter Gilbert named the hypothesis that early life used it both to store genes and to speed up reactions",
+      "k": [
+        "walter gilbert",
+        "1986",
+        "early life"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cech-altman",
+      "tier": "power",
+      "t": "Thomas Cech and Sidney Altman won the 1989 Nobel Prize in Chemistry for showing it can act as an enzyme",
+      "k": [
+        "cech",
+        "altman",
+        "1989"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nirenberg",
+      "tier": "power",
+      "t": "In 1961, Marshall Nirenberg and Heinrich Matthaei cracked the first codon: a chain whose bases were all uracil built a chain of phenylalanine",
+      "k": [
+        "nirenberg",
+        "matthaei",
+        "phenylalanine",
+        "1961"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holley",
+      "tier": "power",
+      "t": "Robert Holley worked out the full sequence of a transfer type from yeast in 1965",
+      "k": [
+        "holley",
+        "1965",
+        "yeast"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fire-mello",
+      "tier": "power",
+      "t": "Andrew Fire and Craig Mello won the 2006 Nobel Prize for discovering gene-silencing “interference” in worms",
+      "k": [
+        "mello",
+        "2006",
+        "interference",
+        "fire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kariko-weissman",
+      "tier": "power",
+      "t": "Katalin Karikó and Drew Weissman won the 2023 Nobel Prize for base changes that made messenger-type COVID-19 vaccines possible",
+      "k": [
+        "karikó",
+        "weissman",
+        "2023",
+        "vaccines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "northern-blot",
+      "tier": "power",
+      "t": "Detected with the Northern blot, named as a play on the Southern blot for DNA",
+      "k": [
+        "northern blot",
+        "southern blot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ochoa",
+      "tier": "power",
+      "t": "Severo Ochoa’s lab found an enzyme that builds chains of it in a test tube; Ochoa shared the 1959 Nobel Prize",
+      "k": [
+        "ochoa",
+        "1959",
+        "test tube"
+      ],
+      "n": 0
+    },
+    {
+      "id": "viroids",
+      "tier": "power",
+      "t": "Viroids, plant pathogens identified by Theodor Diener in 1971, are short circles of it with no protein coat",
+      "k": [
+        "viroids",
+        "diener",
+        "1971"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sharp-roberts",
+      "tier": "power",
+      "t": "Phillip Sharp and Richard Roberts discovered in 1977 that many genes come in pieces that must be spliced",
+      "k": [
+        "sharp",
+        "roberts",
+        "1977"
+      ],
+      "n": 0
+    },
+    {
+      "id": "primers",
+      "tier": "power",
+      "t": "Primase makes short primers of it to start DNA copying, including each Okazaki fragment",
+      "k": [
+        "primase",
+        "primers",
+        "okazaki"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cap-tail",
+      "tier": "power",
+      "t": "In eukaryotes, the messenger type gets a five-prime cap and a three-prime poly-A tail before leaving the nucleus",
+      "k": [
+        "poly-a tail",
+        "five-prime cap",
+        "cap"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crispr",
+      "tier": "power",
+      "t": "In CRISPR gene editing, a guide made of it leads Cas9 to its target; Jennifer Doudna and Emmanuelle Charpentier won the 2020 Nobel Prize in Chemistry",
+      "k": [
+        "crispr",
+        "cas9",
+        "doudna",
+        "charpentier",
+        "2020"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "RNA, DNA, or one type?",
+    "body": "RNA and DNA are both nucleic acids built from nucleotides, so players mix them up, especially on clues about sugars and bases. RNA uses ribose and uracil and is usually single-stranded; DNA uses deoxyribose and thymine and forms a double helix. Some tossups also ask for one specific type, like messenger RNA or transfer RNA, instead of RNA in general.",
+    "fix": "Uracil, ribose, ribozymes, or a single strand mean RNA; thymine, deoxyribose, or a double helix mean DNA. Say just “RNA” when a question asks for “this nucleic acid” or “this molecule,” and name a type only when it asks for “this type of RNA,” such as the one with codons (mRNA) or the one with anticodons (tRNA).",
+    "line": "Real answer line: <b><u>RNA</u></b> (or <u>ribonucleic acid</u>; prompt on <u>nucleic acid</u>; do not accept “DNA” or one specific type such as “mRNA”)"
+  },
+  "tests": {
+    "right": [
+      "RNA",
+      "Ribonucleic acid",
+      "rna",
+      "Ribonucleic acids",
+      "Ribonucliec acid"
+    ],
+    "prompt": [
+      "Nucleic acid"
+    ],
+    "wrong": [
+      "DNA",
+      "mRNA",
+      "Deoxyribonucleic acid",
+      "Transfer RNA",
+      "Ribose",
+      "Uracil"
+    ]
+  }
+}

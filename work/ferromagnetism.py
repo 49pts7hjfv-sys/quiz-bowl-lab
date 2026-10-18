@@ -1,0 +1,348 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "ferromagnetism",
+    "name": "Ferromagnetism",
+    "mono": "FM",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Spins that line up on their own · Why iron makes permanent magnets",
+    "dates": "Pierre Weiss’s domain theory, 1907",
+    "briefing": "Ferromagnetism is the strong magnetism of iron, nickel, and cobalt, the kind that makes permanent magnets possible. Inside these metals, the tiny magnetic spins of electrons line up on their own in small regions called domains. Heat a piece of iron past about 770 degrees Celsius, its Curie temperature, and the spins scramble, so the iron loses its strong magnetism.",
+    "answerHtml": "<b><u>Ferromagnetism</u></b> (accept word forms such as <u>ferromagnetic</u>; prompt on <u>magnetism</u>; do not accept “ferrimagnetism,” “paramagnetism,” or “antiferromagnetism”)",
+    "accept": [
+        "ferromagnetism",
+        "ferromagnetic",
+        "ferromagnet",
+        "ferromagnets",
+        "ferromagnetic materials",
+        "ferro magnetism",
+        "ferro magnetic"
+    ],
+    "prompt": [
+        "magnetism",
+        "magnetic",
+        "permanent magnetism"
+    ],
+    "reject": [
+        "ferrimagnetism",
+        "ferrimagnetic",
+        "ferrimagnet",
+        "ferrimagnets",
+        "antiferromagnetism",
+        "antiferromagnetic",
+        "antiferromagnet",
+        "anti ferromagnetism",
+        "anti ferromagnetic",
+        "paramagnetism",
+        "paramagnetic",
+        "diamagnetism",
+        "diamagnetic",
+        "superparamagnetism",
+        "electromagnetism",
+        "electromagnetic",
+        "electromagnet",
+        "magnetic field",
+        "magnetic fields",
+        "magnetic domains",
+        "curie temperature",
+        "hysteresis",
+        "magnetite",
+        "lodestone"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Ferromagnetism",
+    "qb": {
+        "q": "ferromagnetism",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Pierre Weiss explained this phenomenon by imagining an internal “molecular field” and by proposing that a material showing it is split into small regions called domains. Inside each domain, the spins of unpaired electrons all point the same way.",
+            "r": "For 10 points, name this strong type of magnetic behavior shown by iron, nickel, and cobalt."
+        },
+        {
+            "p": "Above a temperature named for Pierre Curie, a material loses this property and becomes merely paramagnetic. For iron, that temperature is about 770 degrees Celsius, which is why Earth’s hot core cannot be one giant permanent magnet.",
+            "r": "Its name comes from the Latin word for iron. For 10 points, name this phenomenon that lets iron, nickel, and cobalt become permanent magnets."
+        },
+        {
+            "p": "Magnetizing and demagnetizing a material with this property traces out a hysteresis loop, whose width shows the material’s coercivity. Materials with high coercivity make good permanent magnets, while “soft” ones with low coercivity are used in transformer cores.",
+            "r": "For 10 points, name this phenomenon, the strongest kind of magnetic behavior, found in iron and nickel."
+        },
+        {
+            "p": "In the Barkhausen effect, a material with this property magnetizes in tiny jumps as the walls between its domains suddenly shift, which can be heard as clicks in a loudspeaker. Bloch walls are one kind of boundary between those domains.",
+            "r": "For 10 points, name this phenomenon in which unpaired electron spins line up on their own, as in iron magnets."
+        },
+        {
+            "p": "Ernst Ising [“EE-sing”] showed that a one-dimensional chain of spins, a simple model of this phenomenon, never orders at any temperature above absolute zero. Lars Onsager later solved the two-dimensional version of Ising’s model exactly, showing that it does have a sudden transition.",
+            "r": "For 10 points, name this phenomenon in which neighboring electron spins line up, letting iron form permanent magnets."
+        },
+        {
+            "p": "The Stoner criterion predicts when the free electrons of a metal will show this phenomenon. Werner Heisenberg showed that this phenomenon comes from the exchange interaction, a quantum effect that makes it cheaper in energy for neighboring electron spins to point the same way.",
+            "r": "Materials with this property are strongly attracted to magnets. For 10 points, name this kind of magnetic ordering shown by iron, cobalt, and nickel."
+        },
+        {
+            "p": "James Joule found in 1842 that an iron bar changes length slightly when magnetized, as domains inside materials with this property turn to line up with the field. That effect, magnetostriction, makes the iron cores of transformers hum.",
+            "r": "For 10 points, name this property that lets iron, nickel, and cobalt be strongly magnetized."
+        },
+        {
+            "p": "Louis Néel [“nay-EL”] won a Nobel Prize for studying two cousins of this phenomenon in which neighboring spins point in opposite directions. In this phenomenon itself, neighboring spins line up parallel, giving a material a large spontaneous magnetization.",
+            "r": "For 10 points, name this strong magnetic behavior of iron, which lets it become a permanent magnet."
+        },
+        {
+            "p": "Gadolinium shows this property only below about 20 degrees Celsius, close to room temperature. Alnico magnets, named for aluminum, nickel, and cobalt, and powerful neodymium magnets, made of neodymium, iron, and boron, both rely on this property.",
+            "r": "For 10 points, name this property of iron, nickel, and cobalt that allows permanent magnets."
+        },
+        {
+            "p": "Albert Fert and Peter Grünberg won the 2007 Nobel Prize in Physics for giant magnetoresistance, seen when very thin layers of metals with this property are separated by nonmagnetic layers. Computer hard drives store bits in tiny regions of a material with this property.",
+            "r": "For 10 points, name this phenomenon that makes iron, nickel, and cobalt so strongly magnetic."
+        },
+        {
+            "p": "A liquid containing tiny magnetic particles, spread on a polished crystal, forms Bitter patterns that outline the domains of a material with this property. Stroking a steel needle with a magnet makes the needle’s domains line up, so the needle becomes a weak magnet.",
+            "r": "For 10 points, name this strong magnetic behavior, whose name comes from the Latin word for iron."
+        },
+        {
+            "p": "Above its critical temperature, a material that shows this phenomenon follows the Curie–Weiss law, with magnetic susceptibility inversely proportional to the temperature minus the critical temperature. Below that temperature, the material’s spins line up on their own in a phase transition.",
+            "r": "For 10 points, name this phenomenon that makes iron, nickel, and cobalt strongly attracted to magnets."
+        },
+        {
+            "p": "Felix Bloch described ripples of tilted spins, known as magnons, that travel through a material with this property. Bloch walls, named for him, separate the regions called domains in such a material, and heating or hammering a magnet can scramble those domains.",
+            "r": "For 10 points, name this phenomenon in which electron spins line up to make iron a permanent magnet."
+        },
+        {
+            "p": "A material with this property can have a relative permeability in the thousands, so wrapping a wire coil around a soft iron core makes an electromagnet far stronger. Unlike paramagnetic materials, such materials can stay magnetized after the outside field is removed.",
+            "r": "For 10 points, name this strongest form of magnetic behavior, shown by iron, nickel, and cobalt."
+        },
+        {
+            "p": "When a material with this property cools below its critical temperature, its spins must all pick one direction, a classic example of spontaneous symmetry breaking. Iron, cobalt, and nickel are the best-known elements with this property.",
+            "r": "A steel paper clip sticks to a magnet because of it. For 10 points, name this phenomenon that lets these metals become permanent magnets."
+        }
+    ],
+    "clues": [
+        {
+            "id": "iron-nickel-cobalt",
+            "tier": "giveaway",
+            "t": "Shown by iron, nickel, and cobalt, which are strongly attracted to magnets",
+            "k": ["iron", "nickel", "cobalt"],
+            "n": 0,
+            "rabbit": "Iron"
+        },
+        {
+            "id": "permanent-magnets",
+            "tier": "giveaway",
+            "t": "Lets materials become permanent magnets",
+            "k": ["permanent magnets"],
+            "n": 0
+        },
+        {
+            "id": "latin-iron",
+            "tier": "giveaway",
+            "t": "Its name comes from _ferrum_, the Latin word for iron",
+            "k": ["ferrum", "latin"],
+            "n": 0
+        },
+        {
+            "id": "spins-align",
+            "tier": "giveaway",
+            "t": "Unpaired electron spins line up parallel to each other on their own",
+            "k": ["unpaired electron spins", "parallel"],
+            "n": 0
+        },
+        {
+            "id": "strongest",
+            "tier": "giveaway",
+            "t": "The strongest kind of magnetic behavior, far stronger than paramagnetism or diamagnetism",
+            "k": ["strongest", "paramagnetism", "diamagnetism"],
+            "n": 0,
+            "rabbit": "Magnetism"
+        },
+        {
+            "id": "domains",
+            "tier": "middle",
+            "t": "Such materials are split into small regions called domains, where all the spins point the same way",
+            "k": ["domains", "regions"],
+            "n": 0
+        },
+        {
+            "id": "curie-temperature",
+            "tier": "middle",
+            "t": "Lost above the Curie temperature (about 770 °C for iron), where the material becomes paramagnetic",
+            "k": ["curie temperature", "770", "paramagnetic"],
+            "n": 0
+        },
+        {
+            "id": "earth-core",
+            "tier": "middle",
+            "t": "Earth’s core is too hot to be a giant permanent magnet, since it is above iron’s Curie temperature",
+            "k": ["earth’s core", "too hot"],
+            "n": 0,
+            "rabbit": "Earth’s magnetic field"
+        },
+        {
+            "id": "hysteresis",
+            "tier": "middle",
+            "t": "Magnetizing and demagnetizing traces a hysteresis loop; the loop’s width shows coercivity",
+            "k": ["hysteresis", "coercivity"],
+            "n": 0
+        },
+        {
+            "id": "hard-soft",
+            "tier": "middle",
+            "t": "“Hard” materials with high coercivity make permanent magnets; “soft” iron is used in transformer cores",
+            "k": ["soft", "transformer cores", "coercivity"],
+            "n": 0
+        },
+        {
+            "id": "steel-needle",
+            "tier": "middle",
+            "t": "Stroking a steel needle with a magnet lines up its domains; heating or hammering a magnet can scramble them",
+            "k": ["steel needle", "heating", "hammering"],
+            "n": 0
+        },
+        {
+            "id": "magnet-types",
+            "tier": "middle",
+            "t": "Neodymium magnets (neodymium, iron, boron) and alnico magnets (aluminum, nickel, cobalt) rely on it",
+            "k": ["neodymium", "alnico", "boron"],
+            "n": 0
+        },
+        {
+            "id": "weiss",
+            "tier": "middle",
+            "t": "Pierre Weiss proposed domains and an internal “molecular field”",
+            "k": ["weiss", "molecular field"],
+            "n": 0
+        },
+        {
+            "id": "permeability",
+            "tier": "middle",
+            "t": "Relative permeability can be in the thousands, so a soft iron core makes an electromagnet far stronger",
+            "k": ["permeability", "thousands", "electromagnet"],
+            "n": 0
+        },
+        {
+            "id": "barkhausen",
+            "tier": "power",
+            "t": "Barkhausen effect: magnetization changes in tiny jumps as domain walls shift, heard as clicks in a loudspeaker",
+            "k": ["barkhausen", "clicks", "domain walls"],
+            "n": 0
+        },
+        {
+            "id": "bloch",
+            "tier": "power",
+            "t": "Bloch walls are one kind of boundary between domains; Felix Bloch also described spin waves called magnons",
+            "k": ["bloch walls", "magnons"],
+            "n": 0
+        },
+        {
+            "id": "ising",
+            "tier": "power",
+            "t": "Ising model: Ernst Ising’s one-dimensional chain of spins never orders above absolute zero; Lars Onsager solved the 2D version",
+            "k": ["ising", "onsager"],
+            "n": 0
+        },
+        {
+            "id": "heisenberg",
+            "tier": "power",
+            "t": "Werner Heisenberg traced it to the quantum exchange interaction between neighboring spins",
+            "k": ["heisenberg", "exchange interaction"],
+            "n": 0
+        },
+        {
+            "id": "stoner",
+            "tier": "power",
+            "t": "The Stoner criterion predicts it for the free electrons in a metal",
+            "k": ["stoner criterion", "free electrons"],
+            "n": 0
+        },
+        {
+            "id": "magnetostriction",
+            "tier": "power",
+            "t": "Magnetostriction: James Joule found in 1842 that iron changes length when magnetized; it makes transformers hum",
+            "k": ["magnetostriction", "joule", "hum"],
+            "n": 0
+        },
+        {
+            "id": "neel",
+            "tier": "power",
+            "t": "Louis Néel won the 1970 Nobel Prize for two cousins of it in which neighboring spins point in opposite directions",
+            "k": ["néel", "1970", "opposite directions"],
+            "n": 0
+        },
+        {
+            "id": "gadolinium",
+            "tier": "power",
+            "t": "Gadolinium has it only below about 20 °C, close to room temperature",
+            "k": ["gadolinium", "room temperature"],
+            "n": 0
+        },
+        {
+            "id": "giant-magnetoresistance",
+            "tier": "power",
+            "t": "Albert Fert and Peter Grünberg won the 2007 Nobel Prize for giant magnetoresistance in thin layers of such metals; hard drives store bits this way",
+            "k": ["giant magnetoresistance", "2007", "hard drives"],
+            "n": 0
+        },
+        {
+            "id": "bitter-patterns",
+            "tier": "power",
+            "t": "Bitter patterns, made by a liquid of tiny magnetic particles on a polished crystal, outline the domains",
+            "k": ["bitter patterns", "polished crystal"],
+            "n": 0
+        },
+        {
+            "id": "curie-weiss",
+            "tier": "power",
+            "t": "Above the critical temperature it follows the Curie–Weiss law: susceptibility is inversely proportional to T minus the critical temperature",
+            "k": ["curie–weiss law", "susceptibility"],
+            "n": 0
+        },
+        {
+            "id": "symmetry-breaking",
+            "tier": "power",
+            "t": "Cooling below the critical temperature makes all the spins pick one direction: spontaneous symmetry breaking in a phase transition",
+            "k": ["spontaneous symmetry breaking", "phase transition"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "One letter makes it wrong",
+        "body": "Ferrimagnetism, spelled with an i, is a different answer: neighboring spins point in opposite directions but do not fully cancel, as in magnetite (lodestone) and ferrites. In antiferromagnetism the opposite spins cancel completely, paramagnetism is a weak attraction only while a field is applied, and diamagnetism is a weak push away from a magnet. Plain “magnetism” earns only a prompt.",
+        "fix": "If all the neighboring spins line up the same way, with clues like iron, nickel, cobalt, domains, hysteresis, or a Curie temperature, say ferromagnetism, with an o. Magnetite, lodestone, and ferrites usually mean ferrimagnetism, and a Néel temperature points to antiferromagnetism.",
+        "line": "Real answer line: <b><u>Ferromagnetism</u></b> (accept <u>ferromagnetic</u>; prompt on <u>magnetism</u>; do not accept “ferrimagnetism” or “antiferromagnetism”)"
+    },
+    "tests": {
+        "right": [
+            "Ferromagnetism",
+            "ferromagnetic",
+            "Ferromagnets",
+            "feromagnetism",
+            "ferro-magnetism"
+        ],
+        "prompt": [
+            "Magnetism"
+        ],
+        "wrong": [
+            "Ferrimagnetism",
+            "Paramagnetism",
+            "Diamagnetism",
+            "Antiferromagnetism",
+            "Anti-ferromagnetism",
+            "Electromagnetism"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

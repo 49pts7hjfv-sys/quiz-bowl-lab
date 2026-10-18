@@ -1,0 +1,357 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "pauli-exclusion-principle",
+    "name": "Pauli exclusion principle",
+    "mono": "PEP",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Why atoms have shells · No two electrons share all four quantum numbers",
+    "dates": "Stated by Wolfgang Pauli in 1925",
+    "briefing": "In 1925, the Austrian-born physicist Wolfgang Pauli found a strict rule for electrons: no two electrons in an atom can have exactly the same four quantum numbers. That means each orbital can hold only two electrons, with opposite spins, so electrons must stack into higher and higher shells, which gives the periodic table its shape. The same rule keeps dead stars called white dwarfs from collapsing under their own gravity.",
+    "answerHtml": "<b><u>Pauli exclusion principle</u></b> (accept <u>exclusion principle</u> or <u>Pauli principle</u>; prompt on <u>Pauli</u>; do not accept “uncertainty principle”)",
+    "accept": [
+        "pauli exclusion principle",
+        "paulis exclusion principle",
+        "pauli exclusion",
+        "exclusion principle",
+        "principle of exclusion",
+        "pauli principle",
+        "paulis principle"
+    ],
+    "prompt": [
+        "pauli",
+        "wolfgang pauli",
+        "exclusion"
+    ],
+    "reject": [
+        "uncertainty principle",
+        "heisenberg uncertainty principle",
+        "heisenbergs uncertainty principle",
+        "heisenberg principle",
+        "aufbau principle",
+        "hunds rule",
+        "hunds rules",
+        "spin statistics theorem",
+        "fermi dirac statistics",
+        "degeneracy pressure",
+        "electron degeneracy pressure",
+        "inclusion exclusion principle",
+        "principle of inclusion exclusion",
+        "inclusion exclusion",
+        "complementarity principle",
+        "correspondence principle",
+        "equivalence principle",
+        "superposition principle",
+        "linus pauling",
+        "pauli effect"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Pauli_exclusion_principle",
+    "qb": {
+        "q": "exclusion principle",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "A Slater determinant automatically obeys this principle, since the determinant becomes zero whenever two electrons are put in the same state. This principle follows from the fact that swapping two identical electrons flips the sign of their combined wavefunction.",
+            "r": "For 10 points, name this principle stating that no two electrons in an atom can have the same four quantum numbers."
+        },
+        {
+            "p": "The Delta-plus-plus baryon, made of three up quarks with matching spins, seemed to break this principle until physicists gave quarks a new property called color charge. The Omega-minus, made of three strange quarks, raised the same puzzle.",
+            "r": "For 10 points, name this rule, which says that each atomic orbital can hold at most two electrons with opposite spins."
+        },
+        {
+            "p": "Subrahmanyan Chandrasekhar [“chun-druh-SAY-kar”] showed that a white dwarf heavier than about 1.4 times the Sun’s mass cannot be held up by the electron pressure that comes from this principle. Neutron stars are also held up by a “degeneracy pressure” that results from this principle.",
+            "r": "For 10 points, name this principle stating that no two identical fermions, such as electrons, can occupy the same quantum state."
+        },
+        {
+            "p": "At absolute zero, the electrons in a metal stack up into the lowest available states until they reach a top level called the Fermi energy, instead of all crowding into the lowest state, because of this principle. Particles that obey it follow Fermi–Dirac statistics.",
+            "r": "Bosons such as photons do not obey it. For 10 points, name this principle saying no two electrons in an atom can share all four quantum numbers."
+        },
+        {
+            "p": "This principle’s namesake explained it using a mysterious fourth quantum number with only two possible values, which George Uhlenbeck and Samuel Goudsmit soon identified as electron spin. That two-valued number became the spin quantum number, which is either plus one-half or minus one-half.",
+            "r": "Its namesake won the 1945 Nobel Prize in Physics for it. For 10 points, name this rule saying each orbital holds at most two electrons, which must have opposite spins."
+        },
+        {
+            "p": "Because of this principle, an atom’s nth electron shell can hold at most 2n² electrons, so the second shell can hold eight and the third can hold eighteen. This principle forces lithium’s third electron into the second shell, since the first shell is already full.",
+            "r": "For 10 points, name this quantum rule, stated by an Austrian-born physicist in 1925, that keeps two electrons in an atom from sharing the same state."
+        },
+        {
+            "p": "In 1940, this principle’s namesake proved the spin-statistics theorem, which explains why this principle applies to particles with half-integer spin but not to particles with whole-number spin. Because photons do not obey this principle, huge numbers of them can share one state in a laser beam.",
+            "r": "For 10 points, name this principle, which says no two electrons in an atom have the same four quantum numbers."
+        },
+        {
+            "p": "Because of this principle, a p subshell can hold at most six electrons and a d subshell at most ten. Chemistry students use this principle along with Hund’s rule and the Aufbau [“OWF-bow”] principle when they write electron configurations.",
+            "r": "For 10 points, name this principle that forces two electrons in the same orbital to have opposite spins."
+        },
+        {
+            "p": "Five years after stating this principle, its namesake proposed a tiny neutral particle, later named the neutrino, in a 1930 letter that began “Dear radioactive ladies and gentlemen.” Electron “degeneracy pressure” caused by this principle keeps white dwarf stars from collapsing.",
+            "r": "Because of it, electrons fill atoms shell by shell. For 10 points, name this rule saying no two electrons in an atom can have exactly the same quantum numbers."
+        },
+        {
+            "p": "Atoms in a Bose–Einstein condensate can all pile into the same lowest-energy state because they are bosons, which ignore this principle. Particles that must obey this principle, such as electrons, protons, and neutrons, are named for Enrico Fermi.",
+            "r": "For 10 points, name this principle stating that no two identical fermions can be in the same quantum state at once."
+        },
+        {
+            "p": "This principle’s namesake arrived at it while puzzling over the “anomalous” Zeeman [“ZAY-mahn”] effect, the strange splitting of atoms’ spectral lines in a magnetic field. This principle helps explain why the first row of the periodic table has only two elements, hydrogen and helium.",
+            "r": "For 10 points, name this principle that says each atomic orbital can hold only two electrons, with opposite spins."
+        },
+        {
+            "p": "A neutron star only about 20 kilometers across avoids collapsing into a black hole because its neutrons resist being squeezed into the same states, a “degeneracy pressure” that comes from this principle. In atoms, this principle forces electrons into higher and higher shells as more of them are added.",
+            "r": "For 10 points, name this principle stating that no two electrons in an atom can have the same four quantum numbers."
+        },
+        {
+            "p": "In 1926, Enrico Fermi and Paul Dirac independently worked out the statistics that describe large groups of particles obeying this principle. Electrons, protons, and neutrons all obey this principle because they have half-integer spin.",
+            "r": "For 10 points, name this principle stating that two electrons in an atom can never share the same set of four quantum numbers."
+        },
+        {
+            "p": "This principle’s namesake spent most of World War II at the Institute for Advanced Study in Princeton, New Jersey, and won the 1945 Nobel Prize in Physics for discovering it. This principle explains why helium’s two electrons must have opposite spins.",
+            "r": "For 10 points, name this principle stating that no two electrons in an atom can share all four quantum numbers."
+        },
+        {
+            "p": "Together with the electric repulsion between electrons, this principle produces the “exchange interaction,” which lines up the spins of electrons on neighboring atoms in iron magnets. In covalent bonds, this principle requires the two shared electrons to have opposite spins.",
+            "r": "For 10 points, name this rule, stated in 1925, which says no two electrons in an atom can have the same four quantum numbers."
+        }
+    ],
+    "clues": [
+        {
+            "id": "four-quantum-numbers",
+            "tier": "giveaway",
+            "t": "No two electrons in an atom can have the same set of four quantum numbers",
+            "k": ["four quantum numbers", "no two electrons"],
+            "n": 0
+        },
+        {
+            "id": "opposite-spins",
+            "tier": "giveaway",
+            "t": "Each orbital holds at most two electrons, and those two must have opposite spins",
+            "k": ["opposite spins", "two electrons", "orbital"],
+            "n": 0
+        },
+        {
+            "id": "identical-fermions",
+            "tier": "giveaway",
+            "t": "In general, no two identical fermions (particles with half-integer spin) can be in the same quantum state at once",
+            "k": ["identical fermions", "fermions", "quantum state"],
+            "n": 0
+        },
+        {
+            "id": "namesake-1925",
+            "tier": "giveaway",
+            "t": "Named for the Austrian-born physicist who stated it in 1925",
+            "k": ["austrian-born", "1925"],
+            "n": 0
+        },
+        {
+            "id": "shell-by-shell",
+            "tier": "middle",
+            "t": "Makes electrons fill atoms shell by shell instead of all crowding into the lowest energy level",
+            "k": ["shell by shell", "crowding", "lowest energy level"],
+            "n": 0
+        },
+        {
+            "id": "first-row",
+            "tier": "middle",
+            "t": "Helps explain why the first row of the periodic table has only two elements, hydrogen and helium",
+            "k": ["first row", "periodic table", "hydrogen", "helium"],
+            "n": 0
+        },
+        {
+            "id": "lithium",
+            "tier": "middle",
+            "t": "Lithium’s third electron must go into the second shell, because the first shell is full with two",
+            "k": ["lithium", "third electron", "second shell"],
+            "n": 0
+        },
+        {
+            "id": "two-n-squared",
+            "tier": "middle",
+            "t": "The nth shell can hold at most 2n² electrons: 2 in the first, 8 in the second, and 18 in the third",
+            "k": ["2n²", "nth shell"],
+            "n": 0
+        },
+        {
+            "id": "subshells",
+            "tier": "middle",
+            "t": "A p subshell holds at most six electrons and a d subshell at most ten",
+            "k": ["subshell", "six electrons"],
+            "n": 0
+        },
+        {
+            "id": "hund-aufbau",
+            "tier": "middle",
+            "t": "Used with Hund’s rule and the Aufbau principle to write electron configurations and draw orbital diagrams",
+            "k": ["hund’s rule", "aufbau", "electron configurations"],
+            "n": 0
+        },
+        {
+            "id": "bosons",
+            "tier": "middle",
+            "t": "Bosons, such as photons, do not obey it, so huge numbers of photons can share one state in a laser beam",
+            "k": ["bosons", "photons", "laser"],
+            "n": 0,
+            "rabbit": "Lasers"
+        },
+        {
+            "id": "white-dwarfs",
+            "tier": "middle",
+            "t": "Electron “degeneracy pressure” caused by it keeps white dwarf stars from collapsing under gravity",
+            "k": ["degeneracy pressure", "white dwarf"],
+            "n": 0,
+            "rabbit": "White dwarfs"
+        },
+        {
+            "id": "nobel-1945",
+            "tier": "middle",
+            "t": "Its namesake won the 1945 Nobel Prize in Physics for it, after spending most of World War II in Princeton, New Jersey",
+            "k": ["1945", "nobel prize", "princeton"],
+            "n": 0
+        },
+        {
+            "id": "slater-determinant",
+            "tier": "power",
+            "t": "A Slater determinant obeys it automatically: the determinant becomes zero if two electrons are put in the same state",
+            "k": ["slater determinant", "zero"],
+            "n": 0
+        },
+        {
+            "id": "antisymmetric",
+            "tier": "power",
+            "t": "Swapping two identical electrons flips the sign of their combined wavefunction, which is called antisymmetric",
+            "k": ["antisymmetric", "wavefunction", "flips the sign"],
+            "n": 0
+        },
+        {
+            "id": "chandrasekhar",
+            "tier": "power",
+            "t": "Subrahmanyan Chandrasekhar showed that the electron pressure it causes cannot hold up a white dwarf heavier than about 1.4 times the Sun’s mass",
+            "k": ["chandrasekhar", "1.4", "sun’s mass"],
+            "n": 0
+        },
+        {
+            "id": "neutron-stars",
+            "tier": "power",
+            "t": "Neutrons resisting being squeezed into the same states, a “degeneracy pressure,” help hold up neutron stars about 20 kilometers across",
+            "k": ["neutron stars", "20 kilometers"],
+            "n": 0,
+            "rabbit": "Neutron stars"
+        },
+        {
+            "id": "fermi-energy",
+            "tier": "power",
+            "t": "At absolute zero, a metal’s electrons stack into the lowest states up to a top level called the Fermi energy",
+            "k": ["fermi energy", "absolute zero", "metal"],
+            "n": 0
+        },
+        {
+            "id": "fermi-dirac",
+            "tier": "power",
+            "t": "Fermi–Dirac statistics, worked out separately by Enrico Fermi and Paul Dirac in 1926, describe groups of particles that obey it",
+            "k": ["fermi–dirac", "1926", "paul dirac"],
+            "n": 0,
+            "rabbit": "Enrico Fermi"
+        },
+        {
+            "id": "bose-einstein",
+            "tier": "power",
+            "t": "Atoms in a Bose–Einstein condensate can all pile into one lowest-energy state because they are bosons, which ignore it",
+            "k": ["bose–einstein condensate", "pile", "bosons"],
+            "n": 0,
+            "rabbit": "Bose–Einstein condensate"
+        },
+        {
+            "id": "two-valued",
+            "tier": "power",
+            "t": "Its namesake used a two-valued fourth quantum number; George Uhlenbeck and Samuel Goudsmit identified it as electron spin (plus or minus one-half)",
+            "k": ["uhlenbeck", "goudsmit", "two-valued", "electron spin"],
+            "n": 0,
+            "rabbit": "Spin (physics)"
+        },
+        {
+            "id": "spin-statistics",
+            "tier": "power",
+            "t": "In 1940 its namesake proved the spin-statistics theorem, explaining why it applies to half-integer spin but not whole-number spin",
+            "k": ["spin-statistics", "1940"],
+            "n": 0
+        },
+        {
+            "id": "delta-color",
+            "tier": "power",
+            "t": "The Delta-plus-plus (three up quarks with matching spins) and Omega-minus (three strange quarks) seemed to break it until quarks got color charge",
+            "k": ["delta-plus-plus", "omega-minus", "color charge"],
+            "n": 0,
+            "rabbit": "Quarks"
+        },
+        {
+            "id": "zeeman",
+            "tier": "power",
+            "t": "Its namesake reached it while puzzling over the “anomalous” Zeeman effect, the splitting of spectral lines in a magnetic field",
+            "k": ["zeeman", "anomalous", "spectral lines"],
+            "n": 0
+        },
+        {
+            "id": "neutrino-letter",
+            "tier": "power",
+            "t": "Its namesake proposed the neutrino in a 1930 letter that began “Dear radioactive ladies and gentlemen”",
+            "k": ["neutrino", "1930", "radioactive ladies"],
+            "n": 0,
+            "rabbit": "Neutrinos"
+        },
+        {
+            "id": "exchange-interaction",
+            "tier": "power",
+            "t": "With the repulsion between electrons, it produces the “exchange interaction” that lines up electron spins in iron magnets",
+            "k": ["exchange interaction", "iron magnets"],
+            "n": 0,
+            "rabbit": "Ferromagnetism"
+        },
+        {
+            "id": "covalent-bonds",
+            "tier": "power",
+            "t": "The two electrons shared in a covalent bond must have opposite spins",
+            "k": ["covalent bond", "shared"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Exclusion, not uncertainty",
+        "body": "Two famous quantum “principles” get mixed up all the time. This one is about crowding: no two electrons in an atom can share all four quantum numbers. Heisenberg’s uncertainty principle is about measuring: you cannot know a particle’s exact position and exact momentum at the same time. Hund’s rule and the Aufbau principle are separate electron-filling rules that also have their own answer lines.",
+        "fix": "Opposite spins, two electrons per orbital, quantum numbers, fermions, or white dwarfs mean this principle. Position, momentum, h-bar, or Heisenberg means the uncertainty principle, and electrons spreading out into empty orbitals before pairing up means Hund’s rule.",
+        "line": "Real answer line: <b><u>Pauli exclusion principle</u></b> (accept <u>exclusion principle</u> or <u>Pauli principle</u>; prompt on <u>Pauli</u>; do not accept “uncertainty principle”)"
+    },
+    "tests": {
+        "right": [
+            "Pauli exclusion principle",
+            "exclusion principle",
+            "Pauli's exclusion principle",
+            "Pauli principle",
+            "Pauli exclusoin principle"
+        ],
+        "prompt": [
+            "Pauli",
+            "Wolfgang Pauli"
+        ],
+        "wrong": [
+            "Uncertainty principle",
+            "Heisenberg uncertainty principle",
+            "Aufbau principle",
+            "Hund's rule",
+            "Inclusion-exclusion principle"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
