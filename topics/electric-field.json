@@ -79,7 +79,7 @@
       "r": "For 10 points, name this quantity whose lines point away from positive charges and toward negative ones."
     },
     {
-      "p": "When this quantity reaches about three million volts per meter, dry air breaks down and conducts, letting a spark jump across a gap. Michael Faraday pictured this quantity using “lines of force” that spread out from every charge.",
+      "p": "When this quantity reaches about three million volts per meter, dry air breaks down and conducts, letting a spark jump across a gap. An electron placed in this quantity is pushed in the direction opposite to the way this quantity points.",
       "r": "For 10 points, name this quantity, the force per unit charge, that surrounds every charged object."
     },
     {
@@ -413,7 +413,7 @@
     "title": "Electric or magnetic?",
     "body": "Electric and magnetic fields are partners (light is a wave of both), and quiz bowl has separate answer lines for each. Charges make an electric field even when they sit still, and it pushes on any charge, moving or not; a magnetic field comes from moving charges or magnets, and it pushes only on charges that are moving. Some tossups instead want related answers like electric potential (voltage) or electric flux.",
     "fix": "Newtons per coulomb, volts per meter, Coulomb’s law, Gauss’s law, the Stark effect, or Millikan’s oil drops means electric field. Teslas, compass needles, the right-hand rule, the Hall effect, or the Zeeman effect means magnetic field.",
-    "line": "Real answer line: <b><u>electric field</u></b> (accept <u>E-field</u>; prompt on <u>field</u>; do not accept “magnetic field”)"
+    "line": "Real answer line: <b><u>electric field</u></b> (accept <u>E-field</u> or <u>electrostatic field</u>; prompt on <u>field</u> or <u>electromagnetic field</u>; do not accept “magnetic field”)"
   },
   "tests": {
     "right": [

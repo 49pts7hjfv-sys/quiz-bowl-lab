@@ -14,7 +14,6 @@
     "electrical resistance",
     "electric resistance",
     "ohmic resistance",
-    "electrical resistance and conductance",
     "resistor",
     "resistors"
   ],
@@ -53,7 +52,7 @@
   },
   "tossups": [
     {
-      "p": "In the quantum Hall effect, a version of this quantity comes only in exact fractions of Planck’s constant divided by the electron’s charge squared, a value named for Klaus von Klitzing. In ordinary metals, this quantity increases as the temperature rises.",
+      "p": "An ideal ammeter has almost none of this quantity, so it does not change the current it measures, while an ideal voltmeter has an enormous amount of it. In ordinary metals, this quantity increases as the temperature rises.",
       "r": "Georg Ohm found that voltage equals current times this quantity. For 10 points, name this property, measured in ohms, that opposes the flow of electric current."
     },
     {
@@ -61,7 +60,7 @@
       "r": "Ohm’s law says that voltage equals current times this quantity. For 10 points, name this property, measured in ohms."
     },
     {
-      "p": "Matthiessen’s rule says that the parts of this quantity caused by impurities and by vibrating atoms in a metal simply add together. The Drude [“DROO-duh”] model explains this quantity as electrons bumping into the metal’s ions as they drift along.",
+      "p": "The Drude [“DROO-duh”] model explains this quantity as electrons bumping into a metal’s ions as they drift along. Rubber and plastic are used to coat electrical wires because they have an enormous amount of this quantity.",
       "r": "This quantity equals voltage divided by current. For 10 points, name this property, symbolized R and measured in ohms."
     },
     {
@@ -89,7 +88,7 @@
       "r": "Superconductors have none of it. For 10 points, name this quantity measured in ohms, which opposes electric current."
     },
     {
-      "p": "Heating coils in toasters and hair dryers are usually made of nichrome, an alloy of nickel and chromium, because it has a high value of this quantity for its size and holds up well when red-hot. Georg Ohm’s 1827 book _The Galvanic Circuit Investigated Mathematically_ introduced a law relating current, voltage, and this quantity.",
+      "p": "Heating coils in toasters and hair dryers are usually made of nichrome, an alloy of nickel and chromium, because it has a high value of this quantity for its size and holds up well when red-hot. A German physicist’s 1827 book _The Galvanic Circuit Investigated Mathematically_ introduced a law relating current, voltage, and this quantity.",
       "r": "The unit of this quantity is symbolized by the Greek letter omega. For 10 points, name this quantity measured in ohms."
     },
     {
@@ -109,7 +108,7 @@
       "r": "Superconductors have none of it. For 10 points, name this quantity, measured in ohms, that opposes the flow of electric current."
     },
     {
-      "p": "Polygraph machines, often called lie detectors, record how this quantity in a person’s skin drops when the person sweats. Below a certain critical temperature, superconductors have none of this quantity at all.",
+      "p": "Polygraph machines, often called lie detectors, record how this quantity in a person’s skin drops when the person sweats. At room temperature, a silver wire has less of this quantity than a same-sized wire of any other metal, with copper close behind.",
       "r": "An ohmmeter measures it, and Ohm’s law says voltage equals current times it. For 10 points, name this property measured in ohms."
     }
   ],
@@ -257,7 +256,7 @@
     {
       "id": "silver-copper",
       "tier": "middle",
-      "t": "A silver wire has less of it than a same-sized wire of any other metal; copper is close behind and is the usual wire metal",
+      "t": "At room temperature, a silver wire has less of it than a same-sized wire of any other metal; copper is close behind and is the usual wire metal",
       "k": [
         "silver",
         "copper"
@@ -276,15 +275,14 @@
       "n": 0
     },
     {
-      "id": "von-klitzing",
+      "id": "meters",
       "tier": "power",
-      "t": "In the quantum Hall effect it comes only in exact fractions of h/e², the von Klitzing constant",
+      "t": "An ideal ammeter has almost none of it and an ideal voltmeter has an enormous amount, so neither one disturbs the circuit",
       "k": [
-        "von klitzing",
-        "quantum hall"
+        "ammeter",
+        "voltmeter"
       ],
-      "n": 0,
-      "rabbit": "Hall effect"
+      "n": 0
     },
     {
       "id": "wheatstone",
@@ -308,12 +306,13 @@
       "n": 0
     },
     {
-      "id": "matthiessen",
+      "id": "insulators",
       "tier": "power",
-      "t": "Matthiessen’s rule: the parts caused by impurities and by vibrating atoms simply add together",
+      "t": "Insulators like rubber and plastic coat electrical wires because they have an enormous amount of it",
       "k": [
-        "matthiessen",
-        "impurities"
+        "insulators",
+        "rubber",
+        "plastic"
       ],
       "n": 0
     },
@@ -416,7 +415,7 @@
     "title": "Resistance or resistivity?",
     "body": "Resistance belongs to one particular object, like a single wire or circuit part, while resistivity is a property of the material itself, no matter its size or shape. A long, thin copper wire has more resistance than a short, thick one, but both have the same resistivity. Conductance is the flip side: it is the reciprocal of resistance and is measured in siemens.",
     "fix": "Ohms, Ohm’s law, V = IR, or “series and parallel” clues mean resistance. Units of ohm-meters, or “a property of the material,” point to resistivity; siemens or “reciprocal” points to conductance.",
-    "line": "Real answer line: <b><u>resistance</u></b> (accept <u>electrical resistance</u>; do not accept “resistivity” or “conductance”)"
+    "line": "Real answer line: <b><u>resistance</u></b> (accept <u>electrical resistance</u> or <u>resistor</u>s; prompt on <u>impedance</u>; do not accept “resistivity” or “conductance”)"
   },
   "tests": {
     "right": [
@@ -424,7 +423,7 @@
       "electrical resistance",
       "Resistor",
       "resistence",
-      "Electrical resistance and conductance"
+      "Electric resistance"
     ],
     "prompt": [
       "Impedance"

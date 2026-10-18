@@ -7,7 +7,7 @@
   "kicker": "Light and particles bouncing off in new directions · Why the sky is blue",
   "dates": "Rayleigh explained the blue sky in 1871",
   "briefing": "Scattering happens when light or a particle hits something and bounces off in a new direction. Air molecules scatter blue sunlight much more than red, which is why the sky looks blue and sunsets glow orange and red. Physicists also scatter particles off targets to study things too small to see: alpha particles bouncing back from thin gold foil led Ernest Rutherford to discover the atomic nucleus in 1911.",
-  "answerHtml": "<b><u>scattering</u></b> (accept word forms like <u>scatter</u>; accept specific types like <u>Rayleigh scattering</u> or <u>Compton scattering</u>; prompt on <u>Tyndall effect</u> or <u>Compton effect</u>)",
+  "answerHtml": "<b><u>scattering</u></b> (accept word forms like <u>scatter</u>; accept specific types like <u>Rayleigh scattering</u> or <u>Compton scattering</u>; prompt on <u>Tyndall effect</u>, <u>Compton effect</u>, or <u>Raman effect</u>; do not accept “diffraction”)",
   "accept": [
     "scattering",
     "scatter",
@@ -64,7 +64,7 @@
       "r": "That type is named for Lord Rayleigh. For 10 points, name this process in which air molecules send sunlight off in all directions, making the sky look blue."
     },
     {
-      "p": "C. V. Raman began studying this process after wondering why the Mediterranean Sea looked so blue on a 1921 voyage to Europe. In 1928, he found an “inelastic” form of this process, in which light comes out with a slightly different wavelength.",
+      "p": "C. V. Raman began studying this process after wondering why the Mediterranean Sea looked so blue during a 1921 sea voyage. In 1928, he found an “inelastic” form of this process, in which light comes out with a slightly different wavelength.",
       "r": "For 10 points, name this process that Lord Rayleigh used to explain the blue color of the sky."
     },
     {
@@ -104,7 +104,7 @@
       "r": "In air, this process favors blue light. For 10 points, name this process that makes the daytime sky look blue."
     },
     {
-      "p": "Léon Brillouin [“bree-WAN”] predicted a type of this process in which light trades energy with sound waves inside a material. Types of this process that change the light’s energy, like Raman’s, are called inelastic, while types that do not, like Rayleigh’s, are called elastic.",
+      "p": "In some smoke detectors, smoke particles send part of a light beam onto a sensor by this process, setting off the alarm. Types of this process that change the light’s energy, like Raman’s, are called inelastic, while types that do not, like Rayleigh’s, are called elastic.",
       "r": "For 10 points, name this process, which makes the sky look blue and clouds look white."
     },
     {
@@ -116,7 +116,7 @@
       "r": "For 10 points, name this process that makes the daytime sky look blue and sunsets look red."
     },
     {
-      "p": "Clifford Shull and Bertram Brockhouse shared a Nobel Prize for using beams of neutrons in this process to study the structure of solids and liquids. Lord Rayleigh used this process in 1871 to explain a color that people see every day.",
+      "p": "Astronauts on the Moon saw a black sky even in full sunlight, because the Moon has almost no air to cause this process. Lord Rayleigh used this process in 1871 to explain a color that people see every day.",
       "r": "For 10 points, name this process in which air molecules redirect sunlight, making the sky blue."
     }
   ],
@@ -285,7 +285,7 @@
     {
       "id": "raman-voyage",
       "tier": "power",
-      "t": "Raman got curious on a 1921 voyage to Europe, wondering why the Mediterranean Sea was so blue; India’s National Science Day (February 28) honors his discovery",
+      "t": "Raman got curious on a 1921 sea voyage, wondering why the Mediterranean Sea was so blue; India’s National Science Day (February 28) honors his discovery",
       "k": [
         "mediterranean",
         "1921",
@@ -368,12 +368,13 @@
       "n": 0
     },
     {
-      "id": "brillouin",
+      "id": "smoke-detectors",
       "tier": "power",
-      "t": "Léon Brillouin’s type: light trades energy with sound waves inside a material",
+      "t": "In some smoke detectors, smoke particles send part of a light beam onto a sensor by it, setting off the alarm",
       "k": [
-        "brillouin",
-        "sound waves"
+        "smoke detectors",
+        "light beam",
+        "sensor"
       ],
       "n": 0
     },
@@ -399,13 +400,13 @@
       "rabbit": "Lasers"
     },
     {
-      "id": "neutron-beams",
+      "id": "moon-sky",
       "tier": "power",
-      "t": "Clifford Shull and Bertram Brockhouse won a Nobel Prize for using neutron beams this way to study solids and liquids",
+      "t": "Astronauts on the Moon saw a black sky even in sunlight, because there is almost no air there to cause it",
       "k": [
-        "shull",
-        "brockhouse",
-        "neutron beams"
+        "black sky",
+        "astronauts",
+        "moon"
       ],
       "n": 0
     }
@@ -414,7 +415,7 @@
     "title": "Not diffraction or refraction",
     "body": "Scattering, diffraction, refraction, and reflection are all things light can do, and quiz bowl treats them as separate answers. Scattering sends light off in many directions after it hits small particles, like air molecules (the blue sky) or the atoms in gold foil. Diffraction is a wave spreading around an edge or through a narrow slit, refraction is light bending as it enters a new material, and reflection is bouncing off a surface like a mirror.",
     "fix": "Blue sky, sunsets, colloids, Compton, Raman, or gold foil means scattering, and specific types like “Rayleigh scattering” are fine. Slits or gratings mean diffraction, prisms or lenses mean refraction, and saying just “Lord Rayleigh” names the scientist, not the process.",
-    "line": "Real answer line: <b><u>scattering</u></b> (accept specific types like <u>Rayleigh scattering</u> or <u>Compton scattering</u>; do not accept “diffraction”)"
+    "line": "Real answer line: <b><u>scattering</u></b> (accept word forms like <u>scatter</u>; accept specific types like <u>Rayleigh scattering</u> or <u>Compton scattering</u>; prompt on <u>Tyndall effect</u>, <u>Compton effect</u>, or <u>Raman effect</u>; do not accept “diffraction”)"
   },
   "tests": {
     "right": [
@@ -426,7 +427,8 @@
     ],
     "prompt": [
       "Tyndall effect",
-      "Compton effect"
+      "Compton effect",
+      "Raman effect"
     ],
     "wrong": [
       "Diffraction",

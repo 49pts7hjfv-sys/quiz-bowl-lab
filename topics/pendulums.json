@@ -5,8 +5,8 @@
   "category": "Physics",
   "qbCategory": "Science · Physics",
   "kicker": "A weight swinging from a pivot · Kept time and proved Earth spins",
-  "dates": "First pendulum clock built by Christiaan Huygens, 1656",
-  "briefing": "A pendulum is just a weight swinging from a string or rod, but it changed the world. Galileo noticed that each swing takes about the same time, wide or narrow, and in 1656 Christiaan Huygens used that idea to build the first pendulum clock, which stayed the most accurate kind of clock until the 1930s. In 1851, Léon Foucault hung a giant pendulum in Paris to prove that Earth rotates.",
+  "dates": "Pendulum clock invented by Christiaan Huygens, 1656",
+  "briefing": "A pendulum is just a weight swinging from a string or rod, but it changed the world. Galileo noticed that each swing takes about the same time, wide or narrow, and in 1656 Christiaan Huygens used that idea to invent the pendulum clock, which stayed the most accurate kind of clock until the 1930s. In 1851, Léon Foucault hung a giant pendulum in Paris to prove that Earth rotates.",
   "answerHtml": "<b><u>pendulum</u></b>s (accept specific types like <u>Foucault pendulum</u>s or <u>simple pendulum</u>s; prompt on <u>oscillator</u>s)",
   "accept": [
     "pendulums",
@@ -61,7 +61,7 @@
   "tossups": [
     {
       "p": "In 1672, Jean Richer [“ree-SHAY”] had to shorten one of these devices in Cayenne, near the equator, to make it keep the same time it kept in Paris, a sign that gravity is slightly weaker there. The time each swing takes depends on the device’s length and on gravity, but not on its mass.",
-      "r": "Christiaan Huygens built the first clock regulated by one of these devices. For 10 points, name these swinging weights that keep time in grandfather clocks."
+      "r": "Christiaan Huygens invented the first clock regulated by one of these devices. For 10 points, name these swinging weights that keep time in grandfather clocks."
     },
     {
       "p": "Christiaan Huygens [“HOY-gunz”] proved that one of these devices would keep perfect time if its bob moved along a curve called a cycloid, so he guided its string between curved metal “cheeks.” He described his designs in the 1673 book _Horologium Oscillatorium_.",
@@ -96,8 +96,8 @@
       "r": "For 10 points, name these devices, each a weight on a string or rod that swings back and forth from a fixed point."
     },
     {
-      "p": "Vincenzo Viviani [“vee-vee-AH-nee”] wrote that his teacher, while still a student, used his own pulse to time a lamp swaying in the cathedral of Pisa, finding that these devices take nearly the same time per swing whether they swing wide or narrow. That property is called isochronism [“eye-SOCK-ruh-niz-um”].",
-      "r": "That teacher was Galileo. For 10 points, name these swinging weights, later used by Christiaan Huygens to build accurate clocks."
+      "p": "Vincenzo Viviani [“vee-VYAH-nee”] wrote that his teacher, while still a student, used his own pulse to time a lamp swaying in the cathedral of Pisa, finding that these devices take nearly the same time per swing whether they swing wide or narrow. That property is called isochronism [“eye-SOCK-ruh-niz-um”].",
+      "r": "That teacher was Galileo. For 10 points, name these swinging weights, later used by Christiaan Huygens to design accurate clocks."
     },
     {
       "p": "For a “physical” or “compound” type of these devices, like a swinging rod, the period depends on its moment of inertia and on how far its center of mass sits from the pivot. On the Moon, a simple one of these devices would take about two and a half times as long per swing as on Earth.",
@@ -109,7 +109,7 @@
     },
     {
       "p": "Isaac Newton filled the hollow bobs of these devices with gold, silver, lead, glass, sand, salt, wood, water, and wheat, and found that all of them swung at the same rate. Air resistance and friction at the pivot slowly shrink the swings of real ones, an effect called damping.",
-      "r": "In 1656, Christiaan Huygens used one of these devices to build a far more accurate clock. For 10 points, name these swinging devices, which keep time in grandfather clocks."
+      "r": "In 1656, Christiaan Huygens used one of these devices to design a far more accurate clock. For 10 points, name these swinging devices, which keep time in grandfather clocks."
     },
     {
       "p": "An invention called the anchor escapement let clocks swing these devices through much smaller arcs, which led to tall “longcase” clocks. Sliding the weight farther up the arm of a wind-up metronome slows its beat, much like lengthening one of these devices.",
@@ -135,7 +135,7 @@
     {
       "id": "clocks",
       "tier": "giveaway",
-      "t": "Keeps time in grandfather clocks; Christiaan Huygens built the first clock run by one in 1656",
+      "t": "Keeps time in grandfather clocks; Christiaan Huygens invented the first clock run by one in 1656",
       "k": [
         "grandfather clocks",
         "huygens",
@@ -386,7 +386,7 @@
     {
       "id": "taipei-101",
       "tier": "power",
-      "t": "A giant steel ball hung near the top of the Taipei 101 skyscraper is one, swinging to cancel sway from strong winds",
+      "t": "A giant steel ball hung near the top of the Taipei 101 skyscraper is one, swinging to reduce sway from strong winds",
       "k": [
         "taipei 101",
         "steel ball",
@@ -431,7 +431,7 @@
     "title": "Pendulum or spring?",
     "body": "Pendulums and masses bouncing on springs are the two classic examples of simple harmonic motion, so their clues can sound alike. For small swings, a pendulum’s period depends only on its length and gravity, while a spring’s depends on the mass and on the spring’s stiffness (Hooke’s law). Literature questions on Poe’s “The Pit and the Pendulum” or Umberto Eco’s novel _Foucault’s Pendulum_ want the title, not the device.",
     "fix": "Length, a bob, a pivot, clocks, Galileo, Huygens, or Foucault means a pendulum. A spring constant, stretching, or Hooke’s law means a spring; if the question asks for “this motion,” say simple harmonic motion.",
-    "line": "Real answer line: <b><u>pendulum</u></b>s (accept specific types like <u>Foucault pendulum</u>s or <u>simple pendulum</u>s)"
+    "line": "Real answer line: <b><u>pendulum</u></b>s (accept specific types like <u>Foucault pendulum</u>s or <u>simple pendulum</u>s; prompt on <u>oscillator</u>s)"
   },
   "tests": {
     "right": [

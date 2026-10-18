@@ -62,7 +62,7 @@
   },
   "tossups": [
     {
-      "p": "Howard Robertson generalized this principle to any two quantities whose quantum operators do not commute. Earle Kennard proved its modern form, which says the spreads in a particle’s position and momentum, multiplied together, are at least h-bar over two.",
+      "p": "Earle Kennard proved this principle’s modern form, in which the spreads in a particle’s position and momentum multiply to at least h-bar over two. This principle shows that electrons cannot follow the exact circular orbits of the Bohr model.",
       "r": "For 10 points, name this principle of quantum mechanics, stated by Werner Heisenberg in 1927."
     },
     {
@@ -102,7 +102,7 @@
       "r": "For 10 points, name this principle of Werner Heisenberg, which says a particle’s exact position and momentum can’t both be known."
     },
     {
-      "p": "Hideki Yukawa’s prediction of a particle carrying the strong force is often explained with one form of this principle, which allows short-lived “virtual” particles to briefly pop into existence. That form relates energy and time.",
+      "p": "Hideki Yukawa’s prediction of a particle carrying the force that holds atomic nuclei together is often explained with one form of this principle, which allows short-lived “virtual” particles to briefly pop into existence. That form relates energy and time.",
       "r": "For 10 points, name this principle, formulated by Werner Heisenberg, stating that position and momentum cannot both be measured exactly."
     },
     {
@@ -268,12 +268,12 @@
       "n": 0
     },
     {
-      "id": "robertson",
+      "id": "bohr-orbits",
       "tier": "power",
-      "t": "Howard Robertson extended it to any two quantities whose operators don’t commute",
+      "t": "Shows that electrons cannot follow the exact circular orbits of the Bohr model",
       "k": [
-        "robertson",
-        "commute"
+        "bohr model",
+        "circular orbits"
       ],
       "n": 0
     },
@@ -363,7 +363,7 @@
     {
       "id": "yukawa",
       "tier": "power",
-      "t": "Used to explain short-lived “virtual” particles and Hideki Yukawa’s prediction of a strong-force carrier",
+      "t": "Used to explain short-lived “virtual” particles and Hideki Yukawa’s prediction of a particle that holds atomic nuclei together",
       "k": [
         "virtual",
         "yukawa"
@@ -398,7 +398,7 @@
     "title": "Not the observer effect",
     "body": "People often describe this principle as “measuring something disturbs it,” but that idea is the observer effect. Heisenberg’s principle goes deeper: there is a basic limit to how precisely position and momentum can both be known, even with perfect instruments, because particles behave like waves. Quiz bowl also has separate answer lines for the Pauli exclusion principle (no two electrons in an atom share all four quantum numbers) and Bohr’s complementarity.",
     "fix": "Position and momentum, energy and time, h-bar over 2, or Heisenberg means the uncertainty principle. Two electrons, quantum numbers, or orbitals filling up means the Pauli exclusion principle; saying just “Heisenberg” earns only a prompt, so add “uncertainty principle.”",
-    "line": "Real answer line: <b><u>uncertainty principle</u></b> (accept <u>Heisenberg uncertainty principle</u>; prompt on <u>Heisenberg</u>)"
+    "line": "Real answer line: <b><u>uncertainty principle</u></b> (accept <u>Heisenberg uncertainty principle</u> or <u>indeterminacy principle</u>; prompt on <u>Heisenberg</u> or <u>uncertainty</u>)"
   },
   "tests": {
     "right": [

@@ -68,7 +68,7 @@
   },
   "tossups": [
     {
-      "p": "In 2011, the OPERA experiment reported measurements suggesting that these particles traveled from CERN to a lab in Italy faster than light, but the result was traced to a loose fiber-optic cable. These particles come in three flavors: electron, muon, and tau.",
+      "p": "In 2011, the OPERA experiment reported measurements suggesting that these particles traveled from CERN to a lab in Italy faster than light, but the result was traced to a loose fiber-optic cable. These particles are leptons, like the electron and the muon.",
       "r": "For 10 points, name these nearly massless, electrically neutral particles first proposed by Wolfgang Pauli."
     },
     {
@@ -80,7 +80,7 @@
       "r": "These particles barely interact with matter. For 10 points, name these tiny, electrically neutral particles given off in beta decay."
     },
     {
-      "p": "Wolfgang Pauli first proposed these particles in a 1930 letter that began “Dear Radioactive Ladies and Gentlemen,” calling his idea a “desperate remedy” to save the conservation of energy. Enrico Fermi later gave these particles their name, Italian for “little neutral one.”",
+      "p": "Wolfgang Pauli first proposed these particles in a 1930 letter that began “Dear Radioactive Ladies and Gentlemen,” calling his idea a “desperate remedy” to save the conservation of energy. He called them “neutrons,” a name later given to a much heavier particle found by James Chadwick in 1932.",
       "r": "For 10 points, name these particles, which are given off along with electrons in beta decay."
     },
     {
@@ -108,7 +108,7 @@
       "r": "They have far less mass than an electron. For 10 points, name these nearly massless particles that stream from the Sun by the trillions."
     },
     {
-      "p": "The KATRIN experiment in Germany measures the energies of electrons given off in the beta decay of tritium to find out how heavy these particles can be. These particles travel at nearly the speed of light.",
+      "p": "Detectors for these particles are often built deep underground, in mines or beneath mountains, so that solid rock can block cosmic rays that would swamp their faint signals. These particles travel at nearly the speed of light.",
       "r": "They are given off in beta decay. For 10 points, name these particles, nicknamed “ghost particles,” that rarely interact with matter."
     },
     {
@@ -294,7 +294,7 @@
     {
       "id": "bahcall",
       "tier": "power",
-      "t": "John Bahcall predicted how many should come from the Sun; the shortfall was called the “solar problem”",
+      "t": "John Bahcall calculated how many should come from the Sun; the shortfall puzzled scientists for decades",
       "k": [
         "bahcall",
         "shortfall"
@@ -359,12 +359,13 @@
       "rabbit": "Antimatter"
     },
     {
-      "id": "katrin",
+      "id": "underground",
       "tier": "power",
-      "t": "KATRIN, in Germany, measures the beta decay of tritium to find how heavy they can be",
+      "t": "Detectors are often built deep underground, in mines or under mountains, so rock blocks out cosmic rays",
       "k": [
-        "katrin",
-        "tritium"
+        "underground",
+        "cosmic rays",
+        "mines"
       ],
       "n": 0
     },
@@ -424,7 +425,7 @@
     "title": "Neutrino or neutron?",
     "body": "The names sound alike because Pauli first called his proposed particle a “neutron,” but Enrico Fermi renamed it the neutrino, or “little neutral one,” after James Chadwick discovered the much heavier neutron in 1932. Neutrons sit in the nucleus with protons and are about as heavy as a proton; neutrinos are almost massless and zip through matter at nearly the speed of light. Both have no electric charge, so “neutral” alone won’t tell you which one a tossup wants.",
     "fix": "Ghost particles, the missing energy in beta decay, the Sun, oscillation, Super-Kamiokande, or IceCube means neutrinos. The nucleus, Chadwick, neutron stars, or nuclear chain reactions means neutrons.",
-    "line": "Real answer line: <b><u>neutrino</u></b>s (accept specific types like <u>electron neutrino</u>s; do not accept “neutrons”)"
+    "line": "Real answer line: <b><u>neutrino</u></b>s (accept specific types like <u>electron neutrino</u>s or <u>antineutrino</u>s; prompt on <u>lepton</u>s; do not accept “neutrons”)"
   },
   "tests": {
     "right": [

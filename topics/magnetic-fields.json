@@ -6,7 +6,7 @@
   "qbCategory": "Science · Physics",
   "kicker": "Invisible zones around magnets and currents · Steer compasses and charges",
   "dates": "Linked to electric current by Hans Christian Ørsted, 1820",
-  "briefing": "A magnetic field is the invisible region around a magnet or an electric current where magnetic forces act. Sprinkle iron filings near a bar magnet and they line up along its field lines, which loop from the north pole around to the south pole. In 1820, Hans Christian Ørsted noticed that a wire carrying current made a nearby compass needle swing, the first clue that electricity and magnetism are connected.",
+  "briefing": "A magnetic field is the invisible region around a magnet or an electric current where magnetic forces act. Sprinkle iron filings near a bar magnet and they line up along its field lines, which loop from the north pole around to the south pole. In 1820, Hans Christian Ørsted noticed that a wire carrying current made a nearby compass needle swing, showing that electricity and magnetism are connected.",
   "answerHtml": "<b><u>magnetic field</u></b>s (accept <u>B-field</u>s or <u>magnetic flux density</u>; prompt on <u>field</u> or <u>magnetism</u>; do not accept “electric field” or “Earth’s magnetic field”)",
   "accept": [
     "magnetic fields",
@@ -70,7 +70,7 @@
       "r": "Earth has its own version of this quantity. For 10 points, name this quantity, measured in teslas, that a compass needle lines up with."
     },
     {
-      "p": "In the Meissner [“MYSE-ner”] effect, a superconductor pushes this quantity out of its interior, which lets a small magnet float above the superconductor. This quantity is measured in units called teslas or gauss.",
+      "p": "In the Meissner [“MYSE-ner”] effect, a superconductor pushes this quantity out of its interior, which lets a small magnet float above the superconductor. Wrapping a current-carrying wire into a coil around an iron nail makes a much stronger version of this quantity, creating an electromagnet.",
       "r": "A compass needle turns to line up with this quantity. For 10 points, name this quantity that surrounds magnets and electric currents."
     },
     {
@@ -90,8 +90,8 @@
       "r": "For 10 points, name this quantity, which iron filings reveal around a bar magnet."
     },
     {
-      "p": "MRI machines use a very strong version of this quantity to line up the spins of hydrogen nuclei in the body, then use radio waves to make images. Its SI unit, the tesla, is named for the inventor Nikola Tesla.",
-      "r": "For 10 points, name this quantity that compass needles line up with, found around every magnet."
+      "p": "MRI machines use a very strong version of this quantity to line up the spins of hydrogen nuclei in the body, then use radio waves to make images. Most of those machines produce this quantity with coils of superconducting wire chilled by liquid helium.",
+      "r": "Its SI unit, the tesla, is named for the inventor Nikola Tesla. For 10 points, name this quantity that compass needles line up with, found around every magnet."
     },
     {
       "p": "Magnetars, a kind of neutron star, have the strongest versions of this quantity known in the universe. Earth’s version of this quantity is made by swirling molten iron in its outer core and protects the planet from the solar wind.",
@@ -418,7 +418,7 @@
     "title": "Magnetic or electric?",
     "body": "Electric and magnetic fields are partners (light is a wave of both), so tossups mix their clues, but they are separate answer lines. Magnetic fields come from magnets and moving charges, are measured in teslas, and push only on moving charges, always at right angles to their motion. Questions about the planet’s own field, its flips over time, or the magnetosphere may want “Earth’s magnetic field” instead, so listen for whether the tossup is about Earth or the general idea.",
     "fix": "Teslas, gauss, compasses, iron filings, solenoids, the right-hand rule, the Hall effect, or the Zeeman effect means magnetic field. Newtons per coulomb, volts per meter, Coulomb’s law, or the Stark effect means electric field.",
-    "line": "Real answer line: <b><u>magnetic field</u></b>s (accept <u>B-field</u>s; prompt on <u>field</u>; do not accept “electric field”)"
+    "line": "Real answer line: <b><u>magnetic field</u></b>s (accept <u>B-field</u>s or <u>magnetic flux density</u>; prompt on <u>field</u> or <u>magnetism</u>; do not accept “electric field” or “Earth’s magnetic field”)"
   },
   "tests": {
     "right": [

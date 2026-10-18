@@ -76,7 +76,7 @@
       "r": "For 10 points, name this fundamental force that causes radioactive beta decay and acts only over tiny distances."
     },
     {
-      "p": "Carlo Rubbia and Simon van der Meer won a Nobel Prize after experiments at CERN found the particles that carry this force in 1983. Because those W and Z particles are so heavy, this force reaches only across distances smaller than a proton.",
+      "p": "Carlo Rubbia and Simon van der Meer won a Nobel Prize after experiments at CERN found the particles that carry this force in 1983. Because those carrier particles are so heavy, this force reaches only across distances smaller than a proton.",
       "r": "For 10 points, name this fundamental force that turns neutrons into protons in beta decay."
     },
     {
@@ -84,7 +84,7 @@
       "r": "For 10 points, name this fundamental force, carried by W and Z bosons, which causes beta decay."
     },
     {
-      "p": "A matrix named for Cabibbo [“kuh-BEE-boh”], Kobayashi, and Maskawa describes how strongly this force mixes different kinds of quarks. Through this force, a down quark can change into an up quark by giving off a W boson, which turns a neutron into a proton.",
+      "p": "A matrix named for Cabibbo [“kuh-BEE-boh”], Kobayashi, and Maskawa describes how strongly this force mixes different kinds of quarks. Through this force, a down quark can change into an up quark by giving off a charged carrier particle, which turns a neutron into a proton.",
       "r": "Its W and Z carriers were found at CERN in 1983. For 10 points, name this fundamental force responsible for beta decay."
     },
     {
@@ -419,7 +419,7 @@
     "title": "Weak or strong force?",
     "body": "Both are called nuclear forces, and both act only over tiny distances about the size of a nucleus or smaller, so their clues can sound alike. The strong force, carried by gluons, holds quarks together and binds protons and neutrons into a nucleus; this force, carried by the W and Z bosons, makes particles change identity and causes beta decay. Answering just “nuclear force” is not enough.",
     "fix": "W or Z bosons, beta decay, neutrinos, parity violation, or changing quark flavors means the weak force. Gluons, color charge, or holding a nucleus together means the strong force.",
-    "line": "Real answer line: <b><u>weak</u></b> nuclear force (accept <u>weak interaction</u> or <u>weak force</u>; do not accept “strong nuclear force”)"
+    "line": "Real answer line: <b><u>weak</u></b> nuclear force (accept <u>weak interaction</u> or <u>weak force</u>; prompt on <u>electroweak</u> interaction or <u>nuclear force</u>; do not accept “strong nuclear force”)"
   },
   "tests": {
     "right": [
