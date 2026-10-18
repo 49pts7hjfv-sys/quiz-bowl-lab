@@ -7,7 +7,7 @@
   "kicker": "Mix of weathered rock, humus, water, and air · Where plants take root",
   "dates": "Celebrated on World Soil Day, December 5",
   "briefing": "Soil is the loose layer of crumbled rock, decayed plants and animals, water, and air that covers much of Earth’s land. A single handful can hold billions of microbes, and almost all of our food grows in it. Dig down and you’ll find layers called horizons: dark, humus-rich topsoil near the surface, then subsoil, then broken-up rock, and finally solid bedrock.",
-  "answerHtml": "<b><u>Soil</u></b> (accept <u>soils</u> or <u>pedosphere</u>; prompt on <u>dirt</u>, <u>earth</u>, <u>ground</u>, or <u>regolith</u>; do not accept one layer like “topsoil” or one particle size like “sand,” “silt,” or “clay”)",
+  "answerHtml": "<b><u>Soil</u></b> (accept <u>soils</u> or <u>pedosphere</u>; prompt on <u>dirt</u>, <u>earth</u>, <u>ground</u>, <u>regolith</u>, or <u>topsoil</u>; do not accept a lower layer like “subsoil” or “bedrock” or one particle size like “sand,” “silt,” or “clay”)",
   "accept": [
     "soil",
     "soils",
@@ -17,11 +17,11 @@
     "dirt",
     "earth",
     "ground",
-    "regolith"
+    "regolith",
+    "topsoil",
+    "top soil"
   ],
   "reject": [
-    "topsoil",
-    "top soil",
     "subsoil",
     "sub soil",
     "sand",
@@ -60,7 +60,7 @@
       "r": "For 10 points, name this mixture of weathered rock, decayed organic matter, water, and air in which plants grow."
     },
     {
-      "p": "Hans Jenny summed up the five factors that form this material with the acronym CLORPT: climate, organisms, relief, parent material, and time. Its A horizon, near the surface, is usually darkened by decayed organic matter called humus.",
+      "p": "Hans Jenny’s equation for the five factors that form this material is remembered by the acronym CLORPT: climate, organisms, relief, parent material, and time. Its A horizon, near the surface, is usually darkened by decayed organic matter called humus.",
       "r": "For 10 points, name this loose layer of sand, silt, clay, and humus that covers much of Earth’s land."
     },
     {
@@ -112,7 +112,7 @@
       "r": "For 10 points, name this material whose particles are sand, silt, and clay, mixed with decayed organic matter called humus."
     },
     {
-      "p": "The United Nations honors this material every December 5, and it named 2015 an international year dedicated to it. Some scientists call it Earth’s “living skin,” because a single handful can hold billions of microbes.",
+      "p": "The United Nations honors this material every December 5, and it named 2015 an international year dedicated to it. Some scientists call it Earth’s “living skin,” and a single handful can hold billions of microbes.",
       "r": "Its layers are called horizons. For 10 points, name this mixture of weathered rock, humus, water, and air in which plants grow."
     }
   ],
@@ -273,7 +273,7 @@
     {
       "id": "dokuchaev",
       "tier": "power",
-      "t": "Vasily Dokuchaev, the founder of its science, studied the chernozem (“black earth”) of the Russian steppe",
+      "t": "Vasily Dokuchaev, often called the founder of its science, studied the chernozem (“black earth”) of the Russian steppe",
       "k": [
         "dokuchaev",
         "chernozem",
@@ -421,9 +421,9 @@
   ],
   "trap": {
     "title": "A part isn’t the whole",
-    "body": "Tossups on this answer are full of its ingredients and layers: sand, silt, clay, humus, loam, topsoil, and bedrock. Buzzing with one of those parts is wrong, because the question wants the whole material. Players who say “dirt” or “earth” will usually be asked to be more specific.",
-    "fix": "When a clue lists particles (sand, silt, clay), layers (horizons, the A horizon, bedrock), or kinds (loam, laterite, chernozem), answer with the whole material: soil. Save “sand” or “clay” for a question that asks for one particle size.",
-    "line": "Real answer line: <b><u>Soil</u></b> (accept pedosphere; prompt on dirt or earth; do not accept “sand,” “silt,” “clay,” or “topsoil”)"
+    "body": "Tossups on this answer are full of its ingredients and layers: sand, silt, clay, humus, loam, subsoil, and bedrock. Buzzing with one of those parts is wrong, because the question wants the whole material. Players who say “dirt” or “earth” will usually be asked to be more specific, and “topsoil,” which is only the top layer, earns a prompt too.",
+    "fix": "When a clue lists particles (sand, silt, clay), layers (horizons, the A horizon, bedrock), or kinds (loam, laterite, chernozem), answer with the whole material: soil. Save “sand” or “clay” for a question that asks for one particle size. If you are prompted after saying “topsoil,” just say “soil.”",
+    "line": "Real answer line: <b><u>Soil</u></b> (accept pedosphere; prompt on dirt, earth, or topsoil; do not accept “sand,” “silt,” “clay,” or “subsoil”)"
   },
   "tests": {
     "right": [
@@ -435,13 +435,14 @@
     ],
     "prompt": [
       "Dirt",
-      "earth"
+      "earth",
+      "Topsoil"
     ],
     "wrong": [
       "Sand",
       "Clay",
       "Loam",
-      "Topsoil",
+      "Subsoil",
       "Humus",
       "Bedrock",
       "Free Soil Party"

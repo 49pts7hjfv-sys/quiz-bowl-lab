@@ -73,7 +73,7 @@
       "r": "For 10 points, name this process, proposed by Harry Hess, in which new ocean crust forms at mid-ocean ridges."
     },
     {
-      "p": "Cores drilled by the research ship _Glomar Challenger_ in the late 1960s helped confirm this process by showing that the oldest sediment resting on the ocean crust gets older farther from the Mid-Atlantic Ridge.",
+      "p": "Cores drilled by the research ship _Glomar Challenger_ in the late 1960s helped confirm this process. They showed that the oldest sediment resting on the ocean crust gets older farther from the Mid-Atlantic Ridge.",
       "r": "For 10 points, name this process in which magma rising at mid-ocean ridges creates new crust that moves outward on both sides."
     },
     {
@@ -398,7 +398,7 @@
   "trap": {
     "title": "Not drift, not the ridge",
     "body": "Three neighboring answers trip players up. Continental drift was Alfred Wegener’s older idea that the continents move; plate tectonics is the big theory that ties everything together; and the mid-ocean ridge is the place where this process happens. Clues about Harry Hess, magnetic stripes, and new crust forming want seafloor spreading, so answering any of the other three loses the tossup.",
-    "fix": "Wegener, Pangaea, matching fossils, and puzzle-piece coastlines mean continental drift. Rigid plates and all three kinds of boundaries mean plate tectonics. Harry Hess, magnetic stripes, rocks getting older away from a ridge, and new ocean crust mean seafloor spreading. Saying only “spreading” earns a prompt.",
+    "fix": "Wegener, Pangaea, matching fossils, and puzzle-piece coastlines mean continental drift. Rigid plates and all three kinds of boundaries mean plate tectonics. Harry Hess, magnetic stripes, rocks getting older away from a ridge, and new ocean crust mean seafloor spreading; saying only “spreading” earns a prompt.",
     "line": "Real answer line: <b><u>Seafloor spreading</u></b> (accept sea-floor spreading; prompt on spreading or divergent boundaries; do not accept “continental drift” or “plate tectonics”)"
   },
   "tests": {
