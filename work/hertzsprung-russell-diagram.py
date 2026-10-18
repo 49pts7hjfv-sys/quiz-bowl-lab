@@ -69,7 +69,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "Annie Jump Cannon’s letters O, B, A, F, G, K, and M can label one axis of this diagram, an axis that unusually runs from hottest on the left to coolest on the right. White dwarfs sit in this diagram’s lower left corner.",
+            "p": "Annie Jump Cannon’s letters O, B, A, F, G, K, and M can label one axis of this diagram, an axis that unusually runs from hottest on the left to coolest on the right. Cannon sorted hundreds of thousands of stars into those classes at Harvard.",
             "r": "For 10 points, name this graph that plots stars’ luminosity against their temperature, home to the main sequence."
         },
         {
@@ -97,20 +97,20 @@ data = {
             "r": "Class V stars lie on this diagram’s main sequence. For 10 points, name this graph of stars’ luminosity against temperature."
         },
         {
-            "p": "In 2018, the European Space Agency’s Gaia mission released a version of this diagram built from millions of nearby stars whose distances it had measured very precisely. Like earlier versions, it showed white dwarfs gathered in the lower left and supergiants across the top.",
-            "r": "For 10 points, name this graph of stars’ luminosity against temperature, which has a diagonal main sequence."
+            "p": "In 2018, the European Space Agency’s Gaia mission released a version of this diagram built from millions of nearby stars whose distances it had measured very precisely. That data release covered more than a billion stars in all.",
+            "r": "In it, white dwarfs gather at the lower left. For 10 points, name this graph of stars’ luminosity against temperature, which has a diagonal main sequence."
         },
         {
-            "p": "Astronomers draw “evolutionary tracks” to show how a star’s position on this diagram changes during its life. In about five billion years, the Sun’s track will carry it up and to the right as it swells into a red giant, before it ends in the lower left as a white dwarf.",
-            "r": "For 10 points, name this graph of stars’ luminosity versus temperature, which includes a diagonal band called the main sequence."
+            "p": "Astronomers draw “evolutionary tracks” to show how a star’s position on this diagram changes during its life. The tracks of very massive stars run almost straight across the top of this diagram, and those stars live only a few million years.",
+            "r": "In about five billion years, the Sun will move to this diagram’s upper right as it swells into a red giant. For 10 points, name this graph of stars’ luminosity versus temperature."
         },
         {
             "p": "By sliding a star cluster’s version of this diagram up or down until it lines up with a standard version, astronomers can find the cluster’s distance, a method called main-sequence fitting. For clusters, astronomers often plot each star’s color instead of its temperature.",
             "r": "For 10 points, name this graph of stars’ brightness against their temperature, created in the 1910s."
         },
         {
-            "p": "Stars spend about 90 percent of their lives on a diagonal band across this diagram while they fuse hydrogen into helium in their cores. Along that band, a star’s position depends mostly on its mass, with the heaviest stars at the upper left.",
-            "r": "That band is the main sequence. For 10 points, name this graph that plots stars’ luminosity against temperature."
+            "p": "A star twice as massive as the Sun is roughly ten times as luminous, so along one band of this diagram, a star’s position depends mostly on its mass. The heaviest stars on that band sit at the upper left.",
+            "r": "Stars spend about 90 percent of their lives on that band, the main sequence. For 10 points, name this graph that plots stars’ luminosity against temperature."
         },
         {
             "p": "Because of the Stefan–Boltzmann law, lines marking stars of equal size run diagonally across this diagram. That law also explains why the cool but very bright stars at its upper right must be enormous.",
@@ -121,8 +121,8 @@ data = {
             "r": "For 10 points, name this graph that plots stars’ luminosity against temperature, with the main sequence running diagonally across it."
         },
         {
-            "p": "Sirius B, the faint companion of the brightest star in the night sky, sits in the lower left of this diagram because it is hot but only about the size of Earth. Stars that have used up the hydrogen in their cores climb this diagram’s red giant branch.",
-            "r": "Sirius B is a white dwarf. For 10 points, name this graph of stars’ luminosity against temperature."
+            "p": "Stars that have just run out of hydrogen in their cores drift to the right across this diagram as subgiants, then climb its red giant branch. Many stars that are fusing helium in their cores pile up in a small region of this diagram called the red clump.",
+            "r": "Sirius B, an Earth-sized white dwarf, sits at its lower left. For 10 points, name this graph of stars’ luminosity against temperature."
         },
         {
             "p": "To fit brown dwarfs, which are too small to keep fusing ordinary hydrogen, astronomers added the letters L, T, and Y to one axis of this diagram, past M. At the other end of that axis are type O stars, with surfaces hotter than 30,000 kelvins.",
@@ -156,7 +156,7 @@ data = {
         },
         {
             "id": "creators",
-            "tier": "giveaway",
+            "tier": "middle",
             "t": "Created independently in the early 1910s by a Danish astronomer and an American astronomer, whose names it bears",
             "k": ["danish", "american", "1910s"],
             "n": 0
@@ -164,15 +164,8 @@ data = {
         {
             "id": "backward-axis",
             "tier": "middle",
-            "t": "Its temperature axis runs backward: the hottest stars are on the left and the coolest on the right",
-            "k": ["backward", "hottest", "coolest"],
-            "n": 0
-        },
-        {
-            "id": "obafgkm",
-            "tier": "middle",
-            "t": "That axis can be labeled with the spectral classes O, B, A, F, G, K, and M from Annie Jump Cannon’s Harvard system",
-            "k": ["spectral classes", "annie jump cannon", "harvard"],
+            "t": "Its temperature axis runs backward (hottest on the left) and can be labeled O, B, A, F, G, K, M from Annie Jump Cannon’s Harvard system",
+            "k": ["backward", "annie jump cannon", "harvard", "hottest"],
             "n": 0
         },
         {
@@ -193,8 +186,8 @@ data = {
         {
             "id": "mass",
             "tier": "middle",
-            "t": "Along the main sequence, a star’s position depends mostly on its mass, with the heaviest, hottest stars at the upper left",
-            "k": ["mass", "heaviest"],
+            "t": "Along the main sequence, position depends mostly on mass, with the heaviest stars at the upper left; a star twice the Sun’s mass is about ten times as luminous",
+            "k": ["mass", "heaviest", "ten times"],
             "n": 0
         },
         {
@@ -258,8 +251,8 @@ data = {
         {
             "id": "giant-branches",
             "tier": "power",
-            "t": "Stars that use up their core hydrogen climb the red giant branch; near the end of their lives, they climb the asymptotic giant branch",
-            "k": ["red giant branch", "asymptotic giant branch"],
+            "t": "Stars out of core hydrogen drift right as subgiants and climb the red giant branch; helium-burning stars pile up in the red clump; dying stars climb the asymptotic giant branch",
+            "k": ["subgiants", "red giant branch", "red clump", "asymptotic giant branch"],
             "n": 0
         },
         {

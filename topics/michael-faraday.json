@@ -33,8 +33,7 @@
     "faradays constant",
     "faraday effect",
     "faraday disk",
-    "faraday disc",
-    "farad"
+    "faraday disc"
   ],
   "media": [],
   "mediaPending": true,
@@ -70,7 +69,7 @@
       "r": "Transformers and the generators in power plants rely on that law. For 10 points, name this English scientist."
     },
     {
-      "p": "With help from the scholar William Whewell [“HYOO-el”], this scientist introduced the words anode, cathode, and ion. His two laws of electrolysis say that the amount of a substance made at an electrode is proportional to the electric charge that flows.",
+      "p": "With help from the scholar William Whewell [“HYOO-el”], this scientist introduced the words anode, cathode, and ion. The first of his two laws of electrolysis says that the amount of a substance made at an electrode is proportional to the electric charge that flows.",
       "r": "A constant of about 96,485 coulombs per mole is named for him. For 10 points, name this English scientist."
     },
     {
@@ -82,7 +81,7 @@
       "r": "Davy hired him as an assistant in 1813. For 10 points, name this English scientist who discovered electromagnetic induction."
     },
     {
-      "p": "James Clerk Maxwell built on this scientist’s idea of invisible “lines of force” stretching around magnets and electric charges, writing an 1855 paper named for those lines. This scientist sprinkled iron filings around magnets to make the lines visible.",
+      "p": "James Clerk Maxwell built on this scientist’s idea of invisible “lines of force” stretching around magnets and electric charges, writing a paper named for those lines. This scientist sprinkled iron filings around magnets to make the lines visible.",
       "r": "The SI unit of capacitance is named for him. For 10 points, name this English discoverer of electromagnetic induction."
     },
     {
@@ -102,7 +101,7 @@
       "r": "He also discovered benzene. For 10 points, name this English scientist who discovered electromagnetic induction."
     },
     {
-      "p": "Albert Einstein kept pictures of Isaac Newton, James Clerk Maxwell, and this scientist on the wall of his study. This scientist’s law of induction explains how transformers raise or lower the voltage of electric power.",
+      "p": "Albert Einstein kept a picture of this scientist on the wall of his study, along with one of James Clerk Maxwell. This scientist’s law of induction explains how transformers raise or lower the voltage of electric power.",
       "r": "A constant equal to the charge on one mole of electrons is named for him. For 10 points, name this English scientist, the discoverer of electromagnetic induction."
     },
     {
@@ -401,7 +400,7 @@
     {
       "id": "einstein-wall",
       "tier": "power",
-      "t": "Albert Einstein kept his picture on his study wall, along with pictures of Isaac Newton and James Clerk Maxwell",
+      "t": "Albert Einstein kept his picture on his study wall, along with a picture of James Clerk Maxwell",
       "k": [
         "einstein",
         "study wall"
@@ -433,7 +432,8 @@
       "Faraday",
       "Micheal Faraday",
       "Michael Farraday",
-      "faraday"
+      "faraday",
+      "Farady"
     ],
     "prompt": [],
     "wrong": [
@@ -441,7 +441,8 @@
       "James Clerk Maxwell",
       "Joseph Henry",
       "Faraday's law",
-      "Faraday cage"
+      "Faraday cage",
+      "Farad"
     ]
   }
 }

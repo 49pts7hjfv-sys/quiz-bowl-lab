@@ -135,8 +135,8 @@
       "r": "For 10 points, name these huge systems of stars, such as the Milky Way and Andromeda."
     },
     {
-      "p": "Lenticular examples of these objects, labeled S0, have a central bulge and a disk but no spiral arms. Irregular examples have no regular shape at all, sometimes because they were pulled out of shape by the gravity of a neighbor.",
-      "r": "Spiral examples of these objects include the Milky Way. For 10 points, name these huge systems of stars, gas, and dust."
+      "p": "Lenticular examples of these objects, labeled S0, have a central bulge and a disk but no spiral arms. Hoag’s Object, found in 1950, is a rare ring-shaped one, with a yellow core surrounded by a separate ring of young blue stars.",
+      "r": "Irregular examples have no regular shape at all. For 10 points, name these huge systems of stars, gas, and dust, which also come in spiral and elliptical shapes."
     },
     {
       "p": "Large examples of these objects grow by swallowing smaller ones, a process sometimes called cannibalism. The Sagittarius Dwarf, found in 1994, is a small one of these objects being slowly torn apart by a much larger neighbor.",
@@ -421,10 +421,11 @@
     {
       "id": "lenticular",
       "tier": "power",
-      "t": "Lenticular ones (labeled S0) have a central bulge and a disk but no spiral arms",
+      "t": "Lenticular ones (labeled S0) have a bulge and a disk but no spiral arms; Hoag’s Object, found in 1950, is a rare ring-shaped one",
       "k": [
         "lenticular",
-        "bulge"
+        "hoag",
+        "1950"
       ],
       "n": 0
     },

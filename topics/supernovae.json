@@ -75,7 +75,7 @@
   },
   "tossups": [
     {
-      "p": "On February 23, 1987, detectors in Japan and the United States caught a burst of neutrinos a few hours before astronomers saw the light of one of these events in the Large Magellanic Cloud. Masatoshi Koshiba shared a Nobel Prize partly for detecting those neutrinos.",
+      "p": "On February 23, 1987, detectors in Japan and the United States caught a burst of neutrinos a few hours before the first light from one of these events in the Large Magellanic Cloud reached Earth. Masatoshi Koshiba shared a Nobel Prize partly for detecting those neutrinos.",
       "r": "That event, 1987A, was the closest of these explosions seen since 1604. For 10 points, name these explosions of stars, which can briefly outshine entire galaxies."
     },
     {
@@ -87,20 +87,20 @@
       "r": "He described it in his book _On the New Star_. For 10 points, name these powerful explosions of stars, which can briefly outshine a whole galaxy."
     },
     {
-      "p": "Chinese astronomers recorded a “guest star” in 1054 CE that was bright enough to see in daylight for 23 days. The wreckage of that event, which lies in Taurus, is the Crab Nebula, which has a spinning neutron star at its center.",
-      "r": "For 10 points, name these stellar explosions, which can leave behind neutron stars or black holes."
+      "p": "Chinese astronomers recorded a “guest star” in 1054 CE that was bright enough to see in daylight for 23 days. Some historians think a rock painting at Chaco Canyon in New Mexico also shows that event.",
+      "r": "Its wreckage is the Crab Nebula, which has a spinning neutron star at its center. For 10 points, name these stellar explosions."
     },
     {
       "p": "One kind of these events happens when a white dwarf pulls gas from a partner star until it nears about 1.4 times the Sun’s mass, a cap called the Chandrasekhar [“chun-druh-SAY-kar”] limit. The white dwarf then blows itself apart in a runaway burst of carbon fusion.",
       "r": "That kind is called Type Ia. For 10 points, name these huge stellar explosions, which can briefly outshine a whole galaxy."
     },
     {
-      "p": "Inside very massive stars, fusion builds up a core of iron, which cannot release energy by fusing further. Once that core grows too heavy, it collapses in less than a second into a neutron star or a black hole.",
-      "r": "The rebound blasts the star’s outer layers into space in one of these events. For 10 points, name these stellar explosions."
+      "p": "Inside very massive stars, fusion builds up a core of iron, which cannot release energy by fusing further. Once that core grows too heavy, it collapses in less than a second, and a flood of neutrinos carries away most of the energy.",
+      "r": "The rebound blasts the star’s outer layers into space, leaving a neutron star or black hole behind. For 10 points, name these stellar explosions."
     },
     {
-      "p": "Walter Baade [“BAH-duh”] and Fritz Zwicky [“TSVIK-ee”] coined the name for these events in the early 1930s and proposed that they turn ordinary stars into neutron stars. Zwicky later found more than a hundred of them by searching photographs of other galaxies.",
-      "r": "They can also leave behind black holes. For 10 points, name these explosions of stars, which can briefly outshine a whole galaxy."
+      "p": "Walter Baade [“BAH-duh”] and Fritz Zwicky [“TSVIK-ee”] coined the name for these events in the early 1930s and suggested that they produce cosmic rays. Zwicky later found more than a hundred of them by searching photographs of other galaxies.",
+      "r": "Baade and Zwicky also predicted that these blasts leave behind neutron stars. For 10 points, name these explosions of stars, which can briefly outshine a whole galaxy."
     },
     {
       "p": "A famous 1957 paper by Margaret and Geoffrey Burbidge, William Fowler, and Fred Hoyle explained how stars forge chemical elements, including in these events. Some elements heavier than iron may be built in these events by rapid neutron capture, called the r-process.",
@@ -119,11 +119,11 @@
       "r": "That object is a neutron star. For 10 points, name these stellar explosions, which also left behind the Crab Nebula."
     },
     {
-      "p": "The most massive stars may end in a rare “pair-instability” version of these events, in which gamma rays inside the star turn into pairs of electrons and positrons. Closer to home, the red supergiant Betelgeuse is expected to end its life in one of these events.",
-      "r": "Such explosions can leave behind neutron stars or black holes. For 10 points, name these blasts that end the lives of many massive stars."
+      "p": "The most massive stars may end in a rare “pair-instability” version of these events, in which gamma rays inside the star turn into pairs of electrons and positrons. Such a blast would leave no neutron star or black hole behind.",
+      "r": "The red supergiant Betelgeuse is expected to end its life in one of these events. For 10 points, name these blasts that end the lives of many massive stars."
     },
     {
-      "p": "The earliest written record of one of these events comes from Chinese astronomers in 185 CE, who described a “guest star” that stayed visible for months. Its leftover shell of gas is called RCW 86. Some historians think a rock painting at Chaco Canyon in New Mexico shows a later one, from 1054.",
+      "p": "The earliest written record of one of these events comes from Chinese astronomers in 185 CE, who described a “guest star” that stayed visible for months. Its leftover shell of gas is called RCW 86.",
       "r": "Such blasts can briefly outshine a whole galaxy of stars. For 10 points, name these stellar explosions, some of which leave behind neutron stars."
     },
     {
@@ -315,7 +315,7 @@
     {
       "id": "baade-zwicky",
       "tier": "power",
-      "t": "Walter Baade and Fritz Zwicky named them in the early 1930s and said they make neutron stars; Zwicky later found more than a hundred",
+      "t": "Walter Baade and Fritz Zwicky named them in the early 1930s and linked them to cosmic rays and neutron stars; Zwicky later found more than a hundred",
       "k": [
         "baade",
         "zwicky",
@@ -424,7 +424,7 @@
     {
       "id": "pair-instability",
       "tier": "power",
-      "t": "The most massive stars may die in “pair-instability” blasts, where gamma rays turn into pairs of electrons and positrons",
+      "t": "The most massive stars may die in “pair-instability” blasts, where gamma rays turn into electron–positron pairs, leaving nothing behind",
       "k": [
         "pair-instability",
         "positrons",

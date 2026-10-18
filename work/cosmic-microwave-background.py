@@ -72,8 +72,8 @@ data = {
     },
     "tossups": [
         {
-            "p": "While trying to remove a stubborn hiss from a horn antenna in Holmdel, New Jersey, two Bell Labs scientists cleaned out pigeon droppings, but the noise stayed the same in every direction. That 1964 accident won Arno Penzias and Robert Wilson the 1978 Nobel Prize in Physics.",
-            "r": "They had found this faint radiation left over from the Big Bang. For 10 points, name this glow that fills the whole sky."
+            "p": "While hunting for the source of a stubborn hiss in their horn antenna in Holmdel, New Jersey, two scientists evicted nesting pigeons and cleaned out their droppings, but the hiss did not go away. The two later shared the 1978 Nobel Prize in Physics.",
+            "r": "Those scientists, Arno Penzias and Robert Wilson, had found this faint radiation left over from the Big Bang. For 10 points, name this glow that fills the whole sky."
         },
         {
             "p": "In 1948, Ralph Alpher and Robert Herman predicted that this radiation should exist with a temperature of about 5 kelvins, but their prediction was largely forgotten for years. Their work grew out of George Gamow’s studies of how the first chemical elements formed.",
@@ -92,7 +92,7 @@ data = {
             "r": "That happened about 380,000 years after the Big Bang. For 10 points, name this afterglow that fills the whole sky."
         },
         {
-            "p": "Because the Sun is moving relative to this radiation, one half of the sky looks very slightly warmer in it than the other, a pattern called the dipole. Apart from that, it is the same in every direction to about one part in 100,000.",
+            "p": "Because the Sun is moving relative to this radiation, one half of the sky looks very slightly warmer in it than the other, a pattern called the dipole. Apart from that, its temperature varies across the sky by only about one part in 100,000.",
             "r": "Its temperature is only about 2.7 kelvins. For 10 points, name this leftover radiation from the Big Bang."
         },
         {
@@ -108,7 +108,7 @@ data = {
             "r": "For 10 points, name this radiation left over from the Big Bang, which has a temperature of about 2.7 kelvins."
         },
         {
-            "p": "A small part of the snowy static on old analog television sets came from this radiation, which reaches Earth from every direction, day and night. Its brightness peaks at a wavelength of about one millimeter.",
+            "p": "A small part of the snowy static on old analog television sets came from this radiation. Because it is so cold, its brightness peaks at a wavelength of about one millimeter, as Wien’s [“VEENZ”] law predicts.",
             "r": "It is the leftover glow from the Big Bang. For 10 points, name this radiation, discovered by Arno Penzias and Robert Wilson."
         },
         {
@@ -165,7 +165,7 @@ data = {
         {
             "id": "pigeons",
             "tier": "middle",
-            "t": "Its discoverers first blamed the hiss on pigeon droppings in their horn antenna in Holmdel, New Jersey",
+            "t": "Its discoverers evicted nesting pigeons and cleaned out their droppings from their horn antenna in Holmdel, New Jersey, but the hiss stayed",
             "k": ["pigeon", "holmdel", "horn antenna"],
             "n": 0
         },
@@ -221,8 +221,8 @@ data = {
         {
             "id": "tv-static",
             "tier": "middle",
-            "t": "A small part of the snowy static on old analog TV sets came from it",
-            "k": ["static", "analog"],
+            "t": "A small part of the snowy static on old analog TV sets came from it; its brightness peaks at a wavelength of about one millimeter",
+            "k": ["static", "analog", "one millimeter"],
             "n": 0
         },
         {

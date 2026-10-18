@@ -73,8 +73,8 @@
       "r": "3C 273 was the first of these objects to have its redshift measured. For 10 points, name these super-bright cores of distant galaxies, powered by supermassive black holes."
     },
     {
-      "p": "The brightness of these objects can change in just days, which shows that the region giving off most of their light is only a few light-days across. In 1964, Hong-Yee Chiu coined their short name, which came from the fact that they first looked like faint stars.",
-      "r": "For 10 points, name these super-bright centers of distant galaxies, where gas spirals into a supermassive black hole."
+      "p": "The brightness of these objects can change in just days, which shows that the region giving off most of their light is only a few light-days across. In 1964, Hong-Yee Chiu coined the short name now used for these objects.",
+      "r": "Their name comes from the fact that they first looked like faint stars. For 10 points, name these super-bright cores of distant galaxies."
     },
     {
       "p": "In 1979, Dennis Walsh and his colleagues found two nearly identical images of one of these objects side by side, the first gravitational lens ever identified. Another of these objects, split into four images around a foreground galaxy, is called the Einstein Cross.",
@@ -85,7 +85,7 @@
       "r": "These objects are so far away that we see them as they were billions of years ago. For 10 points, name these super-luminous centers of distant galaxies."
     },
     {
-      "p": "In 1960, Allan Sandage and Thomas Matthews matched the radio source 3C 48 with a faint starlike dot in a photograph, making it the first of these objects ever discovered. Its odd spectrum puzzled astronomers until a similar object’s lines were decoded three years later.",
+      "p": "In 1960, Allan Sandage and Thomas Matthews matched the radio source 3C 48 with a faint point of light in a photograph, making it the first of these objects ever discovered. Its odd spectrum puzzled astronomers until a similar object’s lines were decoded three years later.",
       "r": "That decoded object, 3C 273, is the brightest of these objects in our sky. For 10 points, name these distant, star-like objects powered by supermassive black holes."
     },
     {
@@ -113,7 +113,7 @@
       "r": "For 10 points, name these super-luminous cores of distant galaxies, each powered by a supermassive black hole."
     },
     {
-      "p": "Although the first of these objects were found by radio telescopes, only about one in ten of them turned out to be a strong radio source. The rest, called radio-quiet, were found by searching for faint, very blue “stars” in photographs.",
+      "p": "Although the first of these objects were found by radio telescopes, only about one in ten of them turned out to be a strong radio source. The rest, called radio-quiet, were found by searching photographs for unusually blue points of light.",
       "r": "For 10 points, name these super-bright cores of distant galaxies, whose name is short for “star-like radio source.”"
     },
     {
@@ -125,7 +125,7 @@
       "r": "They look like stars through a telescope. For 10 points, name these super-bright cores of distant galaxies, powered by supermassive black holes."
     },
     {
-      "p": "Several famous examples of these objects have names starting with “3C,” after the Third Cambridge Catalogue of Radio Sources. Their spectra show such large redshifts that most of them must be billions of light-years away.",
+      "p": "Several famous examples of these objects have names starting with “3C,” after the Third Cambridge Catalogue of Radio Sources. In 1971, one of them, 3C 279, became one of the first objects seen with jets that seem to move faster than light.",
       "r": "Through a telescope, they look like faint stars. For 10 points, name these super-bright objects powered by supermassive black holes."
     }
   ],
@@ -280,7 +280,7 @@
     {
       "id": "3c-48",
       "tier": "power",
-      "t": "3C 48, matched to a faint starlike dot by Allan Sandage and Thomas Matthews in 1960, was the first one discovered",
+      "t": "3C 48, matched to a faint point of light by Allan Sandage and Thomas Matthews in 1960, was the first one discovered",
       "k": [
         "3c 48",
         "sandage",
@@ -354,7 +354,7 @@
     {
       "id": "superluminal",
       "tier": "power",
-      "t": "Some of their jets seem to move faster than light, an illusion called superluminal motion",
+      "t": "Some of their jets, like those of 3C 279, seem to move faster than light, an illusion called superluminal motion",
       "k": [
         "superluminal motion",
         "faster than light"

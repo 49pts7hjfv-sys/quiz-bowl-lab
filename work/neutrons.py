@@ -1,0 +1,384 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "neutrons",
+    "name": "Neutrons",
+    "mono": "N0",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "The neutral particle in the nucleus · Key to isotopes and chain reactions",
+    "dates": "Discovered by James Chadwick, 1932",
+    "briefing": "Neutrons are the uncharged particles packed into the nucleus of almost every atom alongside protons, and each one is just slightly heavier than a proton. James Chadwick discovered them in 1932. Changing the number of neutrons makes a different isotope of the same element, and neutrons trigger nuclear chain reactions: when one splits a uranium-235 nucleus, two or three more fly out to split others.",
+    "answerHtml": "<b><u>neutron</u></b>s (prompt on <u>nucleon</u>s, <u>baryon</u>s, or <u>hadron</u>s; do not accept “neutrinos”)",
+    "accept": [
+        "neutrons",
+        "neutron",
+        "free neutron",
+        "free neutrons",
+        "thermal neutron",
+        "thermal neutrons",
+        "fast neutron",
+        "fast neutrons",
+        "slow neutron",
+        "slow neutrons"
+    ],
+    "prompt": [
+        "nucleon",
+        "nucleons",
+        "baryon",
+        "baryons",
+        "hadron",
+        "hadrons"
+    ],
+    "reject": [
+        "neutrino",
+        "neutrinos",
+        "antineutrino",
+        "antineutrinos",
+        "antineutron",
+        "antineutrons",
+        "neutron star",
+        "neutron stars",
+        "neutron number",
+        "neutron bomb",
+        "neutralino",
+        "neutralinos",
+        "neutral",
+        "proton",
+        "protons",
+        "electron",
+        "electrons",
+        "positron",
+        "positrons",
+        "quark",
+        "quarks",
+        "nucleus",
+        "nuclei",
+        "photon",
+        "photons",
+        "isotope",
+        "isotopes",
+        "alpha particle",
+        "alpha particles",
+        "deuteron",
+        "deuterons",
+        "muon",
+        "pion",
+        "neuron",
+        "neurons"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Neutron",
+    "qb": {
+        "q": "neutron",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1930, Walther Bothe [“BOH-tuh”] and Herbert Becker found that beryllium struck by alpha particles gave off a penetrating radiation that was really a stream of these particles. Irène Joliot-Curie [“ee-REN zhoh-LYOH kyoo-REE”] and Frédéric Joliot then saw that radiation knock protons out of paraffin wax, but they mistook it for gamma rays.",
+            "r": "For 10 points, name these neutral particles discovered by James Chadwick in 1932."
+        },
+        {
+            "p": "In 1920, Ernest Rutherford predicted that atomic nuclei held a neutral particle about as heavy as a proton. Twelve years later, a scientist working under him at the Cavendish Laboratory in Cambridge proved that these particles exist.",
+            "r": "For 10 points, name these particles discovered by James Chadwick, which have no electric charge."
+        },
+        {
+            "p": "Outside an atom’s nucleus, one of these particles lasts only about 15 minutes on average before the weak force makes it decay into a proton, an electron, and an antineutrino. That process is called beta decay.",
+            "r": "For 10 points, name these neutral particles that sit alongside protons in the nucleus."
+        },
+        {
+            "p": "Physicists who trap these particles in a “bottle” and physicists who count their decays in a “beam” get average lifetimes that disagree by about nine seconds, a long-standing puzzle. That lifetime matters for working out how much helium formed after the Big Bang.",
+            "r": "For 10 points, name these neutral particles found in atomic nuclei, discovered in 1932."
+        },
+        {
+            "p": "In 1933, while waiting to cross a street in London, Leo Szilard [“SIL-ard”] imagined a chain reaction in which each atom that splits releases more of these particles. Szilard later patented that idea in Britain.",
+            "r": "A uranium-235 nucleus that splits releases two or three of them. For 10 points, name these neutral particles that drive nuclear chain reactions."
+        },
+        {
+            "p": "Enrico Fermi found that these particles work far better at making elements radioactive after they are slowed down by passing through paraffin wax. Nuclear reactors use moderators such as graphite or heavy water to slow these particles down.",
+            "r": "For 10 points, name these neutral particles that, along with protons, make up atomic nuclei."
+        },
+        {
+            "p": "Control rods made of boron or cadmium soak up these particles to keep a nuclear reactor’s chain reaction from running out of control. Boron’s isotope with mass number 10 is especially good at absorbing them.",
+            "r": "For 10 points, name these uncharged particles found in the nucleus, which were discovered by James Chadwick."
+        },
+        {
+            "p": "Even though these particles have no electric charge, each one has a magnetic moment, a sign that it is built from smaller charged pieces. Those pieces are one up quark and two down quarks, whose charges add up to zero.",
+            "r": "For 10 points, name these particles found in atomic nuclei, about as heavy as protons but with no charge."
+        },
+        {
+            "p": "Clifford Shull and Bertram Brockhouse won the 1994 Nobel Prize in Physics for bouncing beams of these particles off solids and liquids to learn how their atoms are arranged and how they move. Because these particles have no charge, they slip deep into materials.",
+            "r": "For 10 points, name these neutral particles that share the nucleus with protons."
+        },
+        {
+            "p": "A few minutes after the Big Bang, about one of these particles remained for every seven protons, and nearly all of them ended up inside helium nuclei. Each helium-4 nucleus contains two of these particles.",
+            "r": "For 10 points, name these neutral particles discovered by James Chadwick in 1932."
+        },
+        {
+            "p": "The common isotope lead-208 holds a “magic” number of these particles, 126, which makes its nucleus especially stable. Heavy stable nuclei like that one contain more of these particles than protons.",
+            "r": "For 10 points, name these particles whose number differs among isotopes of the same element."
+        },
+        {
+            "p": "The collapsed cores of some exploded stars, only about 20 kilometers across, are made mostly of these particles, which resist being squeezed together because of the Pauli exclusion principle. That resistance, called degeneracy pressure, keeps such cores from collapsing further.",
+            "r": "For 10 points, name these neutral particles that join protons in atomic nuclei."
+        },
+        {
+            "p": "Cosmic rays striking the upper atmosphere knock loose these particles, which turn nitrogen atoms into carbon-14 for radiocarbon dating. Carbon-14 has eight of these particles, two more than ordinary carbon-12.",
+            "r": "An atom’s count of them equals its mass number minus its atomic number. For 10 points, name these neutral particles."
+        },
+        {
+            "p": "Ordinary hydrogen is the only stable kind of atom with none of these particles, while its isotope deuterium has one and radioactive tritium has two. Heavy water, made with deuterium, is used to slow these particles down in some nuclear reactors.",
+            "r": "For 10 points, name these neutral particles that, with protons, make up the nucleus."
+        },
+        {
+            "p": "In 1956, physicists at Berkeley’s Bevatron accelerator discovered the antiparticle of these particles. The scientist who first identified these particles won the 1935 Nobel Prize in Physics and later led Britain’s team on the Manhattan Project.",
+            "r": "For 10 points, name these uncharged particles, slightly heavier than protons, that James Chadwick discovered in 1932."
+        }
+    ],
+    "clues": [
+        {
+            "id": "nucleus",
+            "tier": "giveaway",
+            "t": "Neutral particles found with protons in the nucleus of an atom",
+            "k": ["nucleus", "protons", "neutral"],
+            "n": 0,
+            "rabbit": "Protons"
+        },
+        {
+            "id": "no-charge",
+            "tier": "giveaway",
+            "t": "Have no electric charge and are slightly heavier than protons",
+            "k": ["no electric charge", "slightly heavier"],
+            "n": 0
+        },
+        {
+            "id": "chadwick",
+            "tier": "giveaway",
+            "t": "Discovered by James Chadwick in 1932",
+            "k": ["james chadwick", "chadwick", "1932"],
+            "n": 0
+        },
+        {
+            "id": "isotopes",
+            "tier": "giveaway",
+            "t": "Isotopes of an element differ in how many of these they have; their count equals mass number minus atomic number",
+            "k": ["isotopes", "mass number", "atomic number"],
+            "n": 0
+        },
+        {
+            "id": "chain-reaction",
+            "tier": "giveaway",
+            "t": "Drive nuclear chain reactions: a splitting uranium-235 nucleus releases two or three more",
+            "k": ["chain reactions", "uranium-235"],
+            "n": 0
+        },
+        {
+            "id": "quarks",
+            "tier": "middle",
+            "t": "Each is made of one up quark and two down quarks, whose charges add up to zero",
+            "k": ["one up", "two down", "quarks"],
+            "n": 0,
+            "rabbit": "Quarks"
+        },
+        {
+            "id": "beta-decay",
+            "tier": "middle",
+            "t": "A free one lasts about 15 minutes on average before beta decay turns it into a proton, an electron, and an antineutrino",
+            "k": ["15 minutes", "beta decay", "antineutrino"],
+            "n": 0,
+            "rabbit": "Weak nuclear force"
+        },
+        {
+            "id": "moderators",
+            "tier": "middle",
+            "t": "Moderators such as graphite and heavy water slow them down in nuclear reactors",
+            "k": ["moderators", "graphite", "heavy water"],
+            "n": 0
+        },
+        {
+            "id": "control-rods",
+            "tier": "middle",
+            "t": "Control rods of boron or cadmium absorb them to keep a chain reaction in check",
+            "k": ["control rods", "boron", "cadmium"],
+            "n": 0,
+            "rabbit": "Boron"
+        },
+        {
+            "id": "fermi-slow",
+            "tier": "middle",
+            "t": "Enrico Fermi found that slowed-down ones (passed through paraffin wax) make elements radioactive far better",
+            "k": ["enrico fermi", "paraffin", "slowed-down"],
+            "n": 0,
+            "rabbit": "Enrico Fermi"
+        },
+        {
+            "id": "hydrogen",
+            "tier": "middle",
+            "t": "Ordinary hydrogen has none; deuterium has one, and radioactive tritium has two",
+            "k": ["deuterium", "tritium", "hydrogen"],
+            "n": 0,
+            "rabbit": "Hydrogen"
+        },
+        {
+            "id": "star-cores",
+            "tier": "middle",
+            "t": "The collapsed cores of some exploded stars, about 20 kilometers across, are made mostly of them",
+            "k": ["20 kilometers", "collapsed cores"],
+            "n": 0
+        },
+        {
+            "id": "nucleons",
+            "tier": "middle",
+            "t": "With protons, they are called nucleons; they are baryons, each built from three quarks",
+            "k": ["nucleons", "baryons", "three quarks"],
+            "n": 0
+        },
+        {
+            "id": "strong-force",
+            "tier": "middle",
+            "t": "The strong force binds them and protons together in the nucleus",
+            "k": ["strong force", "binds"],
+            "n": 0
+        },
+        {
+            "id": "bothe-becker",
+            "tier": "power",
+            "t": "Walther Bothe and Herbert Becker (1930) found a penetrating radiation from beryllium struck by alpha particles",
+            "k": ["bothe", "becker", "beryllium"],
+            "n": 0
+        },
+        {
+            "id": "joliot-curie",
+            "tier": "power",
+            "t": "Irène Joliot-Curie and Frédéric Joliot saw that radiation knock protons out of paraffin wax but mistook it for gamma rays",
+            "k": ["joliot-curie", "paraffin wax", "gamma rays"],
+            "n": 0
+        },
+        {
+            "id": "rutherford-1920",
+            "tier": "power",
+            "t": "Ernest Rutherford predicted a neutral particle in the nucleus in 1920; Chadwick worked under him at the Cavendish Laboratory",
+            "k": ["rutherford", "1920", "cavendish"],
+            "n": 0
+        },
+        {
+            "id": "szilard",
+            "tier": "power",
+            "t": "Leo Szilard imagined a chain reaction driven by them in 1933 while waiting to cross a London street",
+            "k": ["szilard", "1933", "london"],
+            "n": 0
+        },
+        {
+            "id": "lifetime-puzzle",
+            "tier": "power",
+            "t": "“Bottle” and “beam” measurements of a free one’s average lifetime disagree by about nine seconds",
+            "k": ["bottle", "beam", "nine seconds"],
+            "n": 0
+        },
+        {
+            "id": "magnetic-moment",
+            "tier": "power",
+            "t": "Though uncharged, each has a magnetic moment, a sign that it is built from charged quarks",
+            "k": ["magnetic moment", "charged quarks"],
+            "n": 0
+        },
+        {
+            "id": "shull-brockhouse",
+            "tier": "power",
+            "t": "Clifford Shull and Bertram Brockhouse won the 1994 Nobel Prize for bouncing beams of them off solids and liquids",
+            "k": ["shull", "brockhouse", "1994"],
+            "n": 0,
+            "rabbit": "Scattering"
+        },
+        {
+            "id": "big-bang",
+            "tier": "power",
+            "t": "After the Big Bang, about one survived for every seven protons, and nearly all ended up in helium nuclei",
+            "k": ["big bang", "seven protons", "helium"],
+            "n": 0
+        },
+        {
+            "id": "lead-208",
+            "tier": "power",
+            "t": "Lead-208 holds a “magic” number of them, 126; heavy stable nuclei have more of them than protons",
+            "k": ["lead-208", "magic", "126"],
+            "n": 0,
+            "rabbit": "Lead (element)"
+        },
+        {
+            "id": "carbon-14",
+            "tier": "power",
+            "t": "Cosmic-ray ones striking nitrogen high in the atmosphere make carbon-14, which has eight of them",
+            "k": ["carbon-14", "cosmic-ray", "nitrogen"],
+            "n": 0
+        },
+        {
+            "id": "antiparticle",
+            "tier": "power",
+            "t": "Their antiparticle was discovered in 1956 at Berkeley’s Bevatron accelerator",
+            "k": ["bevatron", "1956", "antiparticle"],
+            "n": 0,
+            "rabbit": "Antimatter"
+        },
+        {
+            "id": "degeneracy",
+            "tier": "power",
+            "t": "Their degeneracy pressure, which comes from the Pauli exclusion principle, holds up those collapsed stellar cores",
+            "k": ["degeneracy pressure", "pauli exclusion principle"],
+            "n": 0,
+            "rabbit": "Pauli exclusion principle"
+        },
+        {
+            "id": "chadwick-nobel",
+            "tier": "power",
+            "t": "Chadwick won the 1935 Nobel Prize in Physics and later led Britain’s team on the Manhattan Project",
+            "k": ["1935", "manhattan project"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Neutron, not neutrino",
+        "body": "The names sound alike because Wolfgang Pauli first called his ghostly particle a “neutron” before Enrico Fermi renamed it the neutrino, or “little neutral one,” after Chadwick found the much heavier neutron in 1932. Both have no electric charge, so “neutral” alone won’t tell you which one a tossup wants, and neutron stars are a separate answer line too.",
+        "fix": "The nucleus, isotopes, Chadwick, chain reactions, moderators, and control rods mean neutrons. Ghost particles, the Sun, oscillation, Super-Kamiokande, and IceCube mean neutrinos. A whole collapsed star about 20 kilometers across means neutron star.",
+        "line": "Real answer line: <b><u>neutron</u></b>s (prompt on <u>nucleon</u>s, <u>baryon</u>s, or <u>hadron</u>s; do not accept “neutrinos”)"
+    },
+    "tests": {
+        "right": [
+            "Neutrons",
+            "neutron",
+            "Nuetrons",
+            "Free neutrons",
+            "Thermal neutrons"
+        ],
+        "prompt": [
+            "Nucleons",
+            "Baryon"
+        ],
+        "wrong": [
+            "Neutrinos",
+            "Neutrino",
+            "Protons",
+            "Neutron star",
+            "Electrons",
+            "Antineutrino",
+            "Quarks",
+            "Neurons"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

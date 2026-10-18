@@ -119,7 +119,7 @@ data = {
             "r": "For 10 points, name this world found by Clyde Tombaugh, which was reclassified as a dwarf planet in 2006."
         },
         {
-            "p": "The American Dialect Society’s 2006 Word of the Year was a verb based on this world’s name, meaning “to demote or devalue someone or something.” This world’s thin atmosphere may partly freeze onto its surface as it moves farther from the Sun.",
+            "p": "The American Dialect Society once chose as its Word of the Year a verb based on this world’s name, meaning “to demote or devalue someone or something.” This world’s thin atmosphere may partly freeze onto its surface as it moves farther from the Sun.",
             "r": "In 2006, this world lost its planet status and became a dwarf planet. For 10 points, name this icy world beyond Neptune."
         }
     ],
@@ -206,7 +206,7 @@ data = {
         {
             "id": "blink",
             "tier": "middle",
-            "t": "Found with a blink comparator, flipping back and forth between two photographs of the same patch of sky",
+            "t": "Found with a blink comparator, flipping back and forth between two photographs of the same patch of sky taken six days apart",
             "k": ["blink comparator", "photographs"],
             "n": 0
         },

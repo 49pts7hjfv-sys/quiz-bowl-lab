@@ -73,8 +73,8 @@
       "r": "Water has an unusually high value of it. For 10 points, name this quantity measured in joules per kelvin, which tells how much heat it takes to warm something up."
     },
     {
-      "p": "Stars and black holes have negative values of this quantity, meaning they actually get hotter as they lose energy. Unlike its “specific” version, the ordinary version of this quantity depends on how much material an object contains.",
-      "r": "A full swimming pool has a far larger value of it than a cup of water. For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
+      "p": "Stars and black holes have negative values of this quantity, meaning they actually get hotter as they lose energy. Unlike its “specific” version, the ordinary version of this quantity depends on how much material an object contains. A full swimming pool has a far larger value of it than a cup of water.",
+      "r": "Water has an unusually high value of it. For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
     },
     {
       "p": "Sea breezes blow onshore on sunny afternoons partly because land has a lower value of this quantity than the ocean, so the land warms up faster. Coastal towns have milder summers and winters than inland towns because of water’s high value of this quantity.",
@@ -85,16 +85,16 @@
       "r": "For 10 points, name this quantity, which is unusually high for water and tells how much heat it takes to warm something up."
     },
     {
-      "p": "The original calorie was defined as the heat needed to warm one gram of water by one degree Celsius, which sets water’s value of this quantity per gram at one calorie per gram per degree. In joules, water’s value is about 4.18 per gram per degree Celsius.",
+      "p": "The food “Calorie” on nutrition labels is really a kilocalorie, and the original small calorie was chosen so that water’s value of this quantity per gram came out to exactly one. In joules, that per-gram value for water is about 4.18 per degree Celsius.",
       "r": "For 10 points, name this quantity, the amount of heat needed to raise an object’s temperature by one degree."
     },
     {
-      "p": "Car engines are cooled mostly with water because its high value of this quantity lets it soak up a lot of heat while warming only a little. Water’s high value of this quantity comes from the energy needed to break its hydrogen bonds.",
+      "p": "Car engines are cooled with water-based coolant because water’s high value of this quantity lets it soak up a lot of heat while warming only a little. Water’s high value of this quantity comes from the energy needed to break its hydrogen bonds.",
       "r": "For 10 points, name this quantity, measured in joules per kelvin, that tells how much heat it takes to warm something by one degree."
     },
     {
       "p": "The speed of sound in a gas depends on the ratio of this quantity measured at constant pressure to this quantity measured at constant volume, a ratio called gamma. For a gas, the constant-pressure value of this quantity is always the larger one, because some of the added heat goes into pushing the gas outward.",
-      "r": "For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
+      "r": "Water has a high value of it. For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
     },
     {
       "p": "On a heating curve, the slanted sections are less steep when a substance has a larger value of this quantity, while the flat sections show latent heat being absorbed during melting and boiling. Metals like copper have low values of this quantity, so they heat up quickly.",
@@ -106,7 +106,7 @@
     },
     {
       "p": "In the 1760s, the Scottish chemist Joseph Black studied this quantity, which he called a substance’s “capacity for heat,” and he also discovered latent heat. Black showed that equal masses of different substances need different amounts of heat to warm by the same number of degrees.",
-      "r": "For 10 points, name this quantity, which is especially high for water."
+      "r": "Water’s per-gram value of it is about 4.18 joules per degree Celsius. For 10 points, name this quantity, which is especially high for water."
     },
     {
       "p": "Nitrogen gas has a larger value of this quantity per mole than argon does, because nitrogen’s two-atom molecules can also store energy by spinning. Helium and argon, both made of single atoms, have the same value of this quantity per mole.",
@@ -121,8 +121,8 @@
       "r": "For 10 points, name this quantity, the amount of heat needed to warm an object by one degree."
     },
     {
-      "p": "Per gram, ice has only about half the value of this quantity that liquid water has, and steam also has about half of liquid water’s value. The per-gram form of this quantity is called “specific,” and the per-mole form is called “molar.”",
-      "r": "For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
+      "p": "Per gram, ice has only about half the value of this quantity that liquid water has, and steam also has about half of liquid water’s value. Builders use the term “thermal mass” for a large value of this quantity in materials like concrete and brick.",
+      "r": "Its per-gram form is called “specific.” For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
     }
   ],
   "clues": [
@@ -382,10 +382,10 @@
     {
       "id": "adobe",
       "tier": "power",
-      "t": "Thick adobe or stone walls with large values keep desert homes cool by day and warm at night",
+      "t": "Builders call a large value “thermal mass”: thick adobe or stone walls keep desert homes cool by day and warm at night",
       "k": [
+        "thermal mass",
         "adobe",
-        "stone walls",
         "desert"
       ],
       "n": 0
@@ -393,10 +393,10 @@
     {
       "id": "original-calorie",
       "tier": "power",
-      "t": "The original calorie was the heat that warms 1 gram of water by 1 °C, so water’s per-gram value is 1 calorie per gram per degree",
+      "t": "The original small calorie was chosen so that water’s per-gram value is exactly 1 calorie per degree Celsius; a food Calorie is really a kilocalorie",
       "k": [
-        "original calorie",
-        "1 gram"
+        "small calorie",
+        "kilocalorie"
       ],
       "n": 0
     }

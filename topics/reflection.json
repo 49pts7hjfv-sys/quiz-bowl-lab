@@ -39,7 +39,6 @@
     "diffracting",
     "deflection",
     "inflection",
-    "reflex",
     "reflexes",
     "dispersion",
     "scattering",
@@ -99,7 +98,7 @@
       "r": "For 10 points, name this effect, in which a wave bounces off a surface, as light does from a mirror."
     },
     {
-      "p": "In 1668, Isaac Newton built a telescope that gathered light with a curved metal dish instead of a glass lens, which avoided the colored fringes that lenses create. Large modern telescopes, like the James Webb Space Telescope, also collect light with curved, gold-coated surfaces.",
+      "p": "In 1668, Isaac Newton built a telescope that gathered light with a curved metal dish instead of a glass lens, which avoided the colored fringes that lenses create. Most large modern telescopes also collect light with curved surfaces instead of lenses, and the James Webb Space Telescope’s curved surfaces are coated with gold.",
       "r": "Those telescopes depend on this effect. For 10 points, name this bouncing of light off a surface, which lets a mirror form an image."
     },
     {
@@ -445,7 +444,8 @@
       "Law of reflection",
       "Total internal reflection",
       "Diffuse reflection",
-      "Relfection"
+      "Relfection",
+      "reflec"
     ],
     "prompt": [],
     "wrong": [
@@ -453,7 +453,8 @@
       "Diffraction",
       "Deflection",
       "Dispersion",
-      "Scattering"
+      "Scattering",
+      "Reflex"
     ]
   }
 }

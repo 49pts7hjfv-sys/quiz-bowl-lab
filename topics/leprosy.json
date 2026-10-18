@@ -1,0 +1,442 @@
+{
+  "id": "leprosy",
+  "name": "Leprosy",
+  "mono": "LEP",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Bacterial disease of the skin and nerves · Curable with multidrug therapy",
+  "dates": "Its bacterium was identified in 1873",
+  "briefing": "Leprosy, also called Hansen’s disease, is an infection caused by a slow-growing bacterium related to the one that causes tuberculosis. It mainly affects the skin and the nerves of the hands, feet, and face, and it can take years to show symptoms. For centuries, people with leprosy were feared and forced to live apart, but since the 1980s a combination of antibiotics called multidrug therapy has cured millions of people.",
+  "answerHtml": "<b><u>Leprosy</u></b> (accept <u>Hansen’s disease</u>; prompt on <u>Mycobacterium leprae</u>; do not accept “tuberculosis”)",
+  "accept": [
+    "leprosy",
+    "hansens disease",
+    "hansen disease",
+    "hansens"
+  ],
+  "prompt": [
+    "mycobacterium leprae",
+    "m leprae",
+    "leprae",
+    "hansen"
+  ],
+  "reject": [
+    "tuberculosis",
+    "tb",
+    "mycobacterium tuberculosis",
+    "consumption",
+    "psoriasis",
+    "leishmaniasis",
+    "leptospirosis",
+    "lupus",
+    "vitiligo",
+    "scabies",
+    "smallpox",
+    "plague",
+    "elephantiasis",
+    "ringworm",
+    "eczema",
+    "shingles",
+    "gerhard hansen",
+    "armauer hansen",
+    "gerhard armauer hansen",
+    "father damien",
+    "damien"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Leprosy",
+  "qb": {
+    "q": "leprosy",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The bacterium that causes this disease still cannot be grown on lab dishes, so scientists grow it in mouse footpads and in nine-banded armadillos, whose cool bodies suit it. In people, that bacterium prefers cooler parts of the body, such as the skin and the nerves just beneath it.",
+      "r": "Gerhard Armauer Hansen identified that bacterium in 1873. For 10 points, name this disease that can damage the skin and nerves."
+    },
+    {
+      "p": "In 1941, Guy Faget began treating patients with this disease using a drug called Promin at a national hospital in Carville, Louisiana, a success called the “Miracle at Carville.” A related, cheaper pill, dapsone, later became a standard treatment for this disease.",
+      "r": "It is now cured with a mix of antibiotics called multidrug therapy. For 10 points, name this bacterial disease of the skin and nerves."
+    },
+    {
+      "p": "A Belgian priest named Damien [“DAY-mee-un”] cared for people with this disease at Kalaupapa [“kah-lah-oo-PAH-pah”] on the Hawaiian island of Molokai and caught it himself; he was declared a saint in 2009. Mother Marianne Cope, who also served people with this disease on Molokai, was declared a saint in 2012.",
+      "r": "For 10 points, name this disease caused by a bacterium related to the one that causes tuberculosis."
+    },
+    {
+      "p": "Surgeon Paul Brand showed that much of the damage linked to this disease comes from injuries that people do not notice, because the disease harms the nerves that sense pain. Despite a common myth, this disease does not make fingers and toes simply fall off.",
+      "r": "For 10 points, name this bacterial disease, curable with multidrug therapy, that can numb the hands and feet."
+    },
+    {
+      "p": "Baldwin IV became King of Jerusalem in 1174 at age 13 even though he had this disease, and three years later he defeated Saladin at the Battle of Montgisard [“mohn-zhee-ZAR”]. In medieval Europe, many people with this disease were made to live apart in special houses outside towns.",
+      "r": "For 10 points, name this disease of the skin and nerves, which is now curable with antibiotics."
+    },
+    {
+      "p": "In Lew Wallace’s 1880 novel _Ben-Hur_, the hero’s mother and sister catch this disease while in prison and are later healed. The Gospels describe Jesus healing people with this disease, which was greatly feared in the ancient world.",
+      "r": "For 10 points, name this bacterial disease that affects the skin and nerves and is now curable with multidrug therapy."
+    },
+    {
+      "p": "Raoul Follereau [“foh-luh-ROH”] of France started a world awareness day for this disease in 1954, held on the last Sunday of January, near the anniversary of Mahatma Gandhi’s death. Gandhi was known for caring for people with this disease.",
+      "r": "For 10 points, name this bacterial disease, curable with multidrug therapy, that can damage nerves in the hands and feet."
+    },
+    {
+      "p": "Doctors divide this disease into a milder “tuberculoid” form, with only a few light-colored, numb skin patches, and a more severe form with many patches and huge numbers of bacteria. Its bacterium multiplies very slowly, so symptoms can take years to appear.",
+      "r": "For 10 points, name this disease caused by a bacterium related to the tuberculosis germ."
+    },
+    {
+      "p": "Like the tuberculosis germ, the bacterium behind this disease has a waxy cell wall that holds on to red dye in an “acid-fast” stain. In 1873, Norwegian doctor Gerhard Armauer Hansen identified that bacterium, one of the first germs ever shown to cause a human disease.",
+      "r": "It can cause numb patches on the skin. For 10 points, name this disease of the skin and nerves, now curable with antibiotics."
+    },
+    {
+      "p": "In the southern United States, nine-banded armadillos carry the bacterium that causes this disease and have passed it to some people. Most people who are exposed to that bacterium never get sick, because their immune systems fight it off.",
+      "r": "For 10 points, name this disease, now curable with a mix of antibiotics, that affects the skin and nerves."
+    },
+    {
+      "p": "The World Health Organization’s multidrug therapy for this disease combines dapsone, rifampicin [“rih-FAM-pih-sin”], and clofazimine [“kloh-FAZ-ih-meen”], and it has been given free of charge around the world since 1995. That treatment has cured millions of people.",
+      "r": "For 10 points, name this disease caused by a slow-growing bacterium related to the one that causes tuberculosis."
+    },
+    {
+      "p": "India reports more new cases of this disease each year than any other country, followed by Brazil and Indonesia. In 2000, the World Health Organization announced that this disease had been eliminated “as a public health problem” worldwide, meaning fewer than one case for every 10,000 people.",
+      "r": "Its germ is a cousin of the tuberculosis germ. For 10 points, name this disease that can numb the hands and feet."
+    },
+    {
+      "p": "Many patients and doctors prefer another name for this disease, one that honors the Norwegian doctor who found its cause, because its usual name carries centuries of fear and unfair treatment. In the 1900s, many Americans with this disease were sent to live at a hospital in Carville, Louisiana.",
+      "r": "For 10 points, name this disease of the skin and nerves, caused by a bacterium related to tuberculosis."
+    },
+    {
+      "p": "Starting in 1866, the Kingdom of Hawaii sent people with this disease to live in isolation on the Kalaupapa peninsula of Molokai, a place cut off by towering sea cliffs. That settlement became a national historical park in 1980.",
+      "r": "A Belgian priest, Father Damien, served the people there. For 10 points, name this bacterial disease of the skin and nerves."
+    },
+    {
+      "p": "Medieval hospitals for people with this disease were often called lazar houses, after Lazarus, a poor, sick man in one of Jesus’s parables. In the Hebrew Bible, the word tzaraath [“tsah-RAH-aht”], often translated as the name of this disease, covers several different skin conditions.",
+      "r": "For 10 points, name this disease, caused by a bacterium related to tuberculosis, that can damage nerves."
+    }
+  ],
+  "clues": [
+    {
+      "id": "skin-nerves",
+      "tier": "giveaway",
+      "t": "A bacterial disease that mainly affects the skin and nerves",
+      "k": [
+        "bacterial",
+        "skin",
+        "nerves"
+      ],
+      "n": 0,
+      "rabbit": "Bacteria"
+    },
+    {
+      "id": "other-name",
+      "tier": "giveaway",
+      "t": "Also named for Norwegian doctor Gerhard Armauer Hansen, who identified its bacterium in 1873",
+      "k": [
+        "armauer",
+        "norwegian",
+        "1873"
+      ],
+      "n": 0
+    },
+    {
+      "id": "numbness",
+      "tier": "giveaway",
+      "t": "Damages nerves, so people can lose feeling in their hands and feet",
+      "k": [
+        "lose feeling",
+        "hands and feet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "multidrug-therapy",
+      "tier": "giveaway",
+      "t": "Curable with multidrug therapy, a combination of antibiotics",
+      "k": [
+        "multidrug therapy",
+        "antibiotics"
+      ],
+      "n": 0
+    },
+    {
+      "id": "damien",
+      "tier": "giveaway",
+      "t": "Father Damien cared for people with it on the Hawaiian island of Molokai",
+      "k": [
+        "damien",
+        "molokai"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tb-relative",
+      "tier": "middle",
+      "t": "Its bacterium is a close relative of the one that causes tuberculosis",
+      "k": [
+        "tuberculosis",
+        "relative"
+      ],
+      "n": 0
+    },
+    {
+      "id": "slow-growing",
+      "tier": "middle",
+      "t": "Its bacterium multiplies very slowly, so symptoms can take years to appear",
+      "k": [
+        "slowly",
+        "years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cool-parts",
+      "tier": "middle",
+      "t": "Its bacterium prefers cooler parts of the body, like the skin and the nerves just beneath it",
+      "k": [
+        "cooler",
+        "beneath"
+      ],
+      "n": 0
+    },
+    {
+      "id": "armadillos",
+      "tier": "middle",
+      "t": "Nine-banded armadillos in the southern United States carry it and have passed it to some people",
+      "k": [
+        "armadillos",
+        "nine-banded"
+      ],
+      "n": 0
+    },
+    {
+      "id": "most-immune",
+      "tier": "middle",
+      "t": "Most people exposed to its bacterium never get sick, because their immune systems fight it off",
+      "k": [
+        "immune systems",
+        "never get sick"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kalaupapa",
+      "tier": "middle",
+      "t": "From 1866, Hawaii sent people with it to live in isolation on the Kalaupapa peninsula of Molokai",
+      "k": [
+        "kalaupapa",
+        "1866",
+        "peninsula"
+      ],
+      "n": 0
+    },
+    {
+      "id": "myth",
+      "tier": "middle",
+      "t": "Despite a myth, it does not make fingers and toes fall off; unnoticed injuries cause much of the damage",
+      "k": [
+        "myth",
+        "unnoticed injuries"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-forms",
+      "tier": "middle",
+      "t": "Comes in a milder “tuberculoid” form with a few numb skin patches and a more severe form with many",
+      "k": [
+        "tuberculoid",
+        "skin patches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "live-apart",
+      "tier": "middle",
+      "t": "For centuries, people with it were feared and made to live apart from everyone else",
+      "k": [
+        "centuries",
+        "live apart"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gospels",
+      "tier": "middle",
+      "t": "The Gospels describe Jesus healing people with it",
+      "k": [
+        "gospels",
+        "jesus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lab-dishes",
+      "tier": "power",
+      "t": "Its bacterium can’t be grown on lab dishes, so scientists grow it in mouse footpads and armadillos",
+      "k": [
+        "lab dishes",
+        "mouse footpads"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faget-promin",
+      "tier": "power",
+      "t": "In 1941, Guy Faget’s use of the drug Promin at a hospital in Carville, Louisiana, was called the “Miracle at Carville”",
+      "k": [
+        "faget",
+        "promin",
+        "carville"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mdt-drugs",
+      "tier": "power",
+      "t": "Dapsone became a standard pill; WHO’s multidrug therapy adds rifampicin and clofazimine and has been free since 1995",
+      "k": [
+        "dapsone",
+        "rifampicin",
+        "clofazimine",
+        "1995"
+      ],
+      "n": 0
+    },
+    {
+      "id": "paul-brand",
+      "tier": "power",
+      "t": "Surgeon Paul Brand showed that much of its damage comes from injuries people can’t feel",
+      "k": [
+        "paul brand",
+        "injuries"
+      ],
+      "n": 0
+    },
+    {
+      "id": "baldwin-iv",
+      "tier": "power",
+      "t": "Baldwin IV, King of Jerusalem from 1174, had it, yet defeated Saladin at Montgisard in 1177",
+      "k": [
+        "baldwin iv",
+        "saladin",
+        "montgisard"
+      ],
+      "n": 0,
+      "rabbit": "Crusades"
+    },
+    {
+      "id": "ben-hur",
+      "tier": "power",
+      "t": "In Lew Wallace’s _Ben-Hur_ (1880), the hero’s mother and sister catch it in prison and are later healed",
+      "k": [
+        "ben-hur",
+        "lew wallace",
+        "1880"
+      ],
+      "n": 0
+    },
+    {
+      "id": "follereau",
+      "tier": "power",
+      "t": "Raoul Follereau started its world day in 1954, held on the last Sunday of January, near the anniversary of Gandhi’s death",
+      "k": [
+        "follereau",
+        "last sunday of january",
+        "1954"
+      ],
+      "n": 0
+    },
+    {
+      "id": "acid-fast",
+      "tier": "power",
+      "t": "Its bacterium’s waxy cell wall holds red dye in an “acid-fast” stain",
+      "k": [
+        "acid-fast",
+        "waxy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "india",
+      "tier": "power",
+      "t": "India reports the most new cases each year, followed by Brazil and Indonesia",
+      "k": [
+        "india",
+        "brazil",
+        "indonesia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "who-2000",
+      "tier": "power",
+      "t": "In 2000, WHO declared it eliminated “as a public health problem” worldwide: under one case per 10,000 people",
+      "k": [
+        "public health problem",
+        "2000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saints",
+      "tier": "power",
+      "t": "Damien was declared a saint in 2009, and Mother Marianne Cope, who also served on Molokai, in 2012",
+      "k": [
+        "marianne cope",
+        "2009",
+        "2012"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lazar-houses",
+      "tier": "power",
+      "t": "Medieval hospitals for people with it were called lazar houses, after Lazarus in one of Jesus’s parables",
+      "k": [
+        "lazar houses",
+        "lazarus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tzaraath",
+      "tier": "power",
+      "t": "The Hebrew Bible’s word tzaraath, often translated as its name, covers several different skin conditions",
+      "k": [
+        "tzaraath",
+        "hebrew bible"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not tuberculosis!",
+    "body": "The germ that causes this disease is a close cousin of the tuberculosis germ: both are slow-growing, acid-fast bacteria, and their discoveries came only nine years apart (Hansen in 1873, Robert Koch in 1882). Answer lines want the disease, so naming the germ may only earn a prompt. Also remember that in the Bible, the word translated as “leprosy” covered several skin conditions.",
+    "fix": "Numb skin patches, hands and feet that lose feeling, armadillos, Molokai, Father Damien, Hansen, or Carville mean leprosy. Coughing, the lungs, or Robert Koch mean tuberculosis. If you say the germ’s name, be ready to name the disease.",
+    "line": "Real answer line: <b><u>Leprosy</u></b> (accept <u>Hansen’s disease</u>; prompt on <u>Mycobacterium leprae</u>; do not accept “tuberculosis”)"
+  },
+  "tests": {
+    "right": [
+      "Leprosy",
+      "Leprocy",
+      "Hansen's disease",
+      "Hansens disease",
+      "Hansen disease"
+    ],
+    "prompt": [
+      "Mycobacterium leprae",
+      "Hansen"
+    ],
+    "wrong": [
+      "Tuberculosis",
+      "Leishmaniasis",
+      "Psoriasis",
+      "Smallpox",
+      "Leptospirosis",
+      "Father Damien"
+    ]
+  }
+}

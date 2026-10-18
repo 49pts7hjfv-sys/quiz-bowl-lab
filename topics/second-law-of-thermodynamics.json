@@ -1,0 +1,407 @@
+{
+  "id": "second-law-of-thermodynamics",
+  "name": "Second law of thermodynamics",
+  "mono": "2LT",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Heat flows hot to cold on its own · Entropy never falls in an isolated system",
+  "dates": "Foundation laid by Rudolf Clausius, 1850",
+  "briefing": "The second law of thermodynamics explains why hot cocoa cools down and ice melts in a warm room, but never the other way around: heat flows on its own from hot things to cold things, unless something does work to push it back. Another way to say it is that entropy, a measure of disorder, never decreases in an isolated system. It also means no engine can turn all of its heat into useful work, so no machine can run forever on its own.",
+  "answerHtml": "<b><u>Second law of thermodynamics</u></b> (accept <u>2nd law of thermodynamics</u>; prompt on <u>second law</u> or <u>thermodynamics</u>; do not accept “entropy” or another law)",
+  "accept": [
+    "second law of thermodynamics",
+    "2nd law of thermodynamics",
+    "second law of thermo",
+    "2nd law of thermo",
+    "second thermodynamic law",
+    "thermodynamics second law",
+    "second law of thermodynamic"
+  ],
+  "prompt": [
+    "second law",
+    "2nd law",
+    "thermodynamics",
+    "law of thermodynamics",
+    "laws of thermodynamics",
+    "clausius statement",
+    "kelvin planck statement",
+    "kelvin statement"
+  ],
+  "reject": [
+    "entropy",
+    "first law of thermodynamics",
+    "1st law of thermodynamics",
+    "third law of thermodynamics",
+    "3rd law of thermodynamics",
+    "zeroth law of thermodynamics",
+    "0th law of thermodynamics",
+    "first law",
+    "third law",
+    "zeroth law",
+    "conservation of energy",
+    "law of conservation of energy",
+    "newtons second law",
+    "second law of motion",
+    "keplers second law",
+    "carnot cycle",
+    "carnot engine",
+    "carnots theorem",
+    "heat death",
+    "maxwells demon",
+    "enthalpy",
+    "arrow of time"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+  "qb": {
+    "q": "second law of thermodynamics",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In his 1959 lecture “The Two Cultures,” C. P. Snow said that being unable to describe this law was like never having read a work of Shakespeare. Arthur Eddington wrote that this law holds “the supreme position among the laws of Nature.”",
+      "r": "For 10 points, name this law of thermodynamics, which says that the entropy of an isolated system never decreases."
+    },
+    {
+      "p": "A ship that ran by pulling heat out of the ocean and turning all of it into work would obey the conservation of energy but break this law. One statement of this law says that no engine working in a cycle can turn heat from a single source entirely into work.",
+      "r": "For 10 points, name this law of thermodynamics, which says that heat flows on its own only from hot objects to cold ones."
+    },
+    {
+      "p": "Refrigerators and air conditioners do not break this law, because they use electrical work to pump heat out of a cold space into a warmer room. Rudolf Clausius [“KLOW-zee-us”] stated this law in 1854 as the rule that heat cannot pass on its own from a colder body to a warmer one.",
+      "r": "For 10 points, name this law of thermodynamics, which says that entropy never decreases in an isolated system."
+    },
+    {
+      "p": "Sadi Carnot [“kar-NOH”] laid groundwork for this law in his 1824 book _Reflections on the Motive Power of Fire_, which argued that a heat engine must always pass some heat on to a colder body. The most efficient possible engine runs on a cycle named for Carnot.",
+      "r": "For 10 points, name this law of thermodynamics, which says that no heat engine can be 100 percent efficient."
+    },
+    {
+      "p": "James Clerk Maxwell imagined a tiny “demon” that sorts fast and slow gas molecules between two boxes, which would seem to break this law by making one box hot and the other cold without doing any work. Physicists later showed that the demon’s own information-gathering would save this law.",
+      "r": "For 10 points, name this law of thermodynamics, which says that the entropy of an isolated system never decreases."
+    },
+    {
+      "p": "Ludwig Boltzmann [“BOHLTS-mahn”] explained this law with statistics: disordered arrangements of molecules vastly outnumber orderly ones, so a system almost always drifts toward disorder. This law gives time a one-way direction that Arthur Eddington called the “arrow of time.”",
+      "r": "For 10 points, name this law of thermodynamics, which says that entropy tends to increase."
+    },
+    {
+      "p": "In Isaac Asimov’s 1956 story “The Last Question,” people keep asking a giant computer whether the effects of this law on the whole universe can ever be undone. Applied to the universe, this law suggests a far-future “heat death,” with no temperature differences left to power anything.",
+      "r": "For 10 points, name this law of thermodynamics, which explains why heat flows from hot objects to cold ones."
+    },
+    {
+      "p": "Erwin Schrödinger’s [“SHROH-ding-erz”] 1944 book _What Is Life?_ explored how living things stay organized despite this law. A living cell can lower the disorder inside itself only by giving off heat that raises the disorder of its surroundings even more, so life never breaks this law.",
+      "r": "For 10 points, name this law of thermodynamics, which says that the total entropy of an isolated system never decreases."
+    },
+    {
+      "p": "In a joke summary of the laws of thermodynamics, the first law says “you can’t win” and this law says “you can’t break even.” This law explains why a car engine must waste some of the energy in its fuel as heat.",
+      "r": "For 10 points, name this law of thermodynamics, which also says that heat flows on its own only from hot to cold."
+    },
+    {
+      "p": "In 1865, Rudolf Clausius [“KLOW-zee-us”] summed up thermodynamics in two rules: the energy of the universe is constant, and the entropy of the universe tends toward a maximum. The rule about entropy is this law, while the rule about energy is the first law.",
+      "r": "For 10 points, name this law of thermodynamics, which says that heat flows on its own from hot to cold."
+    },
+    {
+      "p": "Cream poured into hot coffee swirls in and spreads out but never gathers itself back into a blob, an everyday example of this law. This law also explains why a hot cup of cocoa always cools to room temperature instead of warming up by itself.",
+      "r": "For 10 points, name this law of thermodynamics, which says the entropy of an isolated system never decreases."
+    },
+    {
+      "p": "Max Planck wrote his 1879 doctoral thesis on this law, and his name is paired with Lord Kelvin’s in a statement of this law about engines. That statement says no engine working in a cycle can do nothing but turn heat into work.",
+      "r": "For 10 points, name this law of thermodynamics, which says that entropy never decreases in an isolated system."
+    },
+    {
+      "p": "Jacob Bekenstein [“BEK-en-stine”] proposed a “generalized” version of this law that counts the entropy of black holes along with ordinary entropy. Stephen Hawking at first doubted Bekenstein, but then showed that black holes give off radiation.",
+      "r": "For 10 points, name this law of thermodynamics, which says that the total entropy of an isolated system never goes down."
+    },
+    {
+      "p": "A snowflake can grow into an orderly crystal without breaking this law, because the heat it gives off as it freezes raises the disorder of the air around it even more. Chemists say a process happens on its own only if it raises the total entropy of the universe, as this law requires.",
+      "r": "For 10 points, name this law of thermodynamics, which says heat flows on its own from hot to cold."
+    },
+    {
+      "p": "In 1851, William Thomson, later Lord Kelvin, stated this law as the rule that no machine can get useful work out of an object just by cooling it below the temperature of its coldest surroundings. A perpetual-motion machine that kept running by recycling its own heat would break this law.",
+      "r": "For 10 points, name this law of thermodynamics, which says that no engine can be 100 percent efficient."
+    }
+  ],
+  "clues": [
+    {
+      "id": "hot-to-cold",
+      "tier": "giveaway",
+      "t": "Heat flows on its own from hot objects to cold ones, never the reverse, unless something does work to push it",
+      "k": [
+        "flows on its own",
+        "hot",
+        "cold"
+      ],
+      "n": 0
+    },
+    {
+      "id": "entropy",
+      "tier": "giveaway",
+      "t": "The entropy (disorder) of an isolated system never decreases",
+      "k": [
+        "entropy",
+        "isolated system",
+        "never decreases"
+      ],
+      "n": 0,
+      "rabbit": "Entropy"
+    },
+    {
+      "id": "no-perfect-engine",
+      "tier": "giveaway",
+      "t": "No heat engine can be 100 percent efficient; some heat is always wasted",
+      "k": [
+        "100 percent",
+        "efficient",
+        "heat engine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "everyday",
+      "tier": "giveaway",
+      "t": "Explains why hot cocoa cools to room temperature and cream spreads through coffee but never un-mixes",
+      "k": [
+        "cocoa",
+        "cream",
+        "room temperature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clausius-statement",
+      "tier": "middle",
+      "t": "Rudolf Clausius laid its foundation in 1850; his 1854 statement: heat cannot pass on its own from a colder body to a warmer one",
+      "k": [
+        "clausius",
+        "1850",
+        "colder body"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kelvin-1851",
+      "tier": "middle",
+      "t": "William Thomson (Lord Kelvin), 1851: no machine can get work out of an object just by cooling it below its coldest surroundings",
+      "k": [
+        "kelvin",
+        "1851",
+        "thomson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kelvin-planck",
+      "tier": "middle",
+      "t": "Kelvin–Planck statement: no engine working in a cycle can turn heat from one source completely into work",
+      "k": [
+        "kelvin-planck",
+        "cycle",
+        "completely into work"
+      ],
+      "n": 0
+    },
+    {
+      "id": "refrigerators",
+      "tier": "middle",
+      "t": "Refrigerators and air conditioners obey it by using electrical work to pump heat out of a cold space",
+      "k": [
+        "refrigerators",
+        "air conditioners",
+        "pump heat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carnot",
+      "tier": "middle",
+      "t": "Sadi Carnot’s 1824 _Reflections on the Motive Power of Fire_ laid its groundwork; the Carnot cycle is the most efficient possible engine",
+      "k": [
+        "carnot",
+        "1824",
+        "motive power"
+      ],
+      "n": 0
+    },
+    {
+      "id": "joke-summary",
+      "tier": "middle",
+      "t": "Joke summary of the laws of thermodynamics: the first says “you can’t win,” and this one says “you can’t break even”",
+      "k": [
+        "break even",
+        "can’t win"
+      ],
+      "n": 0
+    },
+    {
+      "id": "energy-vs-direction",
+      "tier": "middle",
+      "t": "The first law says energy is conserved; this one says which way energy naturally flows",
+      "k": [
+        "energy is conserved",
+        "which way"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heat-death",
+      "tier": "middle",
+      "t": "Applied to the whole universe, it suggests a far-future “heat death” with no temperature differences left",
+      "k": [
+        "heat death",
+        "temperature differences"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maxwells-demon",
+      "tier": "middle",
+      "t": "Maxwell’s demon, an imaginary molecule-sorter, seemed to break it; the demon’s own information-gathering saves it",
+      "k": [
+        "maxwell",
+        "demon",
+        "information"
+      ],
+      "n": 0,
+      "rabbit": "Maxwell’s demon"
+    },
+    {
+      "id": "two-cultures",
+      "tier": "power",
+      "t": "C. P. Snow’s 1959 lecture “The Two Cultures”: not being able to describe it is like never having read Shakespeare",
+      "k": [
+        "two cultures",
+        "c p snow",
+        "shakespeare"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eddington",
+      "tier": "power",
+      "t": "Arthur Eddington: it holds “the supreme position among the laws of Nature”; he called its one-way direction the “arrow of time”",
+      "k": [
+        "eddington",
+        "supreme position",
+        "arrow of time"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boltzmann",
+      "tier": "power",
+      "t": "Ludwig Boltzmann explained it with statistics: disordered arrangements vastly outnumber orderly ones",
+      "k": [
+        "boltzmann",
+        "statistics",
+        "arrangements"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clausius-1865",
+      "tier": "power",
+      "t": "Clausius (1865): the energy of the universe is constant, and its entropy tends toward a maximum",
+      "k": [
+        "1865",
+        "tends toward a maximum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "schrodinger",
+      "tier": "power",
+      "t": "Living things obey it by raising their surroundings’ disorder; Schrödinger’s 1944 book _What Is Life?_ explored this",
+      "k": [
+        "schrödinger",
+        "what is life",
+        "living things"
+      ],
+      "n": 0
+    },
+    {
+      "id": "planck-thesis",
+      "tier": "power",
+      "t": "Max Planck wrote his 1879 doctoral thesis on it",
+      "k": [
+        "max planck",
+        "1879",
+        "thesis"
+      ],
+      "n": 0,
+      "rabbit": "Max Planck"
+    },
+    {
+      "id": "bekenstein",
+      "tier": "power",
+      "t": "Jacob Bekenstein proposed a “generalized” version that also counts the entropy of black holes",
+      "k": [
+        "bekenstein",
+        "generalized",
+        "black holes"
+      ],
+      "n": 0,
+      "rabbit": "Black Holes"
+    },
+    {
+      "id": "asimov",
+      "tier": "power",
+      "t": "In Isaac Asimov’s 1956 story “The Last Question,” people keep asking a giant computer whether its effects on the universe can be undone",
+      "k": [
+        "asimov",
+        "last question",
+        "1956"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ocean-ship",
+      "tier": "power",
+      "t": "A ship powered only by pulling heat out of the ocean would obey the conservation of energy but break this law",
+      "k": [
+        "ocean",
+        "ship"
+      ],
+      "n": 0
+    },
+    {
+      "id": "snowflake",
+      "tier": "power",
+      "t": "A snowflake can grow into an orderly crystal because the heat it releases raises the surrounding air’s disorder even more",
+      "k": [
+        "snowflake",
+        "crystal"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The law, not entropy",
+    "body": "Entropy is a quantity (disorder, symbolized S), and the second law of thermodynamics is the rule that entropy never decreases in an isolated system. If a question asks for “this law,” saying only “entropy” is wrong; if it asks for “this quantity,” the answer is entropy. Players also mix up which numbered law is which, and saying just “second law” earns only a prompt, since Newton and Kepler have second laws too.",
+    "fix": "Energy being conserved is the first law; absolute zero and perfect crystals are the third law; thermometers and thermal equilibrium are the zeroth law. Heat flowing hot to cold, engines that can’t be 100 percent efficient, Carnot, Clausius, Kelvin, and Maxwell’s demon point to the second law. Say the whole name: “second law of thermodynamics.”",
+    "line": "Real answer line: <b><u>Second law of thermodynamics</u></b> (prompt on <u>second law</u>; do not accept “entropy” or another law of thermodynamics)"
+  },
+  "tests": {
+    "right": [
+      "Second law of thermodynamics",
+      "2nd law of thermodynamics",
+      "second law of thermodynamcs",
+      "The second law of thermodynamics",
+      "Second law of thermo"
+    ],
+    "prompt": [
+      "Second law",
+      "Thermodynamics"
+    ],
+    "wrong": [
+      "Entropy",
+      "First law of thermodynamics",
+      "Third law of thermodynamics",
+      "Conservation of energy",
+      "Newton's second law"
+    ]
+  }
+}

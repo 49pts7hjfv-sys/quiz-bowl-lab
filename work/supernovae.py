@@ -82,7 +82,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "On February 23, 1987, detectors in Japan and the United States caught a burst of neutrinos a few hours before astronomers saw the light of one of these events in the Large Magellanic Cloud. Masatoshi Koshiba shared a Nobel Prize partly for detecting those neutrinos.",
+            "p": "On February 23, 1987, detectors in Japan and the United States caught a burst of neutrinos a few hours before the first light from one of these events in the Large Magellanic Cloud reached Earth. Masatoshi Koshiba shared a Nobel Prize partly for detecting those neutrinos.",
             "r": "That event, 1987A, was the closest of these explosions seen since 1604. For 10 points, name these explosions of stars, which can briefly outshine entire galaxies."
         },
         {

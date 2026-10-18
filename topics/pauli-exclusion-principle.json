@@ -74,7 +74,7 @@
       "r": "Bosons such as photons do not obey it. For 10 points, name this principle saying no two electrons in an atom can share all four quantum numbers."
     },
     {
-      "p": "This principle’s namesake explained it using a mysterious fourth quantum number with only two possible values, which George Uhlenbeck and Samuel Goudsmit soon identified as electron spin. That two-valued number became the spin quantum number, which is either plus one-half or minus one-half.",
+      "p": "This principle’s namesake stated it using a mysterious fourth quantum number with only two possible values, which George Uhlenbeck and Samuel Goudsmit soon identified as electron spin. That two-valued number became the spin quantum number, which is either plus one-half or minus one-half.",
       "r": "Its namesake won the 1945 Nobel Prize in Physics for it. For 10 points, name this rule saying each orbital holds at most two electrons, which must have opposite spins."
     },
     {
@@ -82,7 +82,7 @@
       "r": "For 10 points, name this quantum rule, stated by an Austrian-born physicist in 1925, that keeps two electrons in an atom from sharing the same state."
     },
     {
-      "p": "In 1940, this principle’s namesake proved the spin-statistics theorem, which explains why this principle applies to particles with half-integer spin but not to particles with whole-number spin. Because photons do not obey this principle, huge numbers of them can share one state in a laser beam.",
+      "p": "Because photons do not obey this principle, huge numbers of them can share one state in a laser beam. In orbital diagrams, this principle is the reason that the two arrows drawn in one box must point in opposite directions, one up and one down.",
       "r": "For 10 points, name this principle, which says no two electrons in an atom have the same four quantum numbers."
     },
     {
@@ -90,7 +90,7 @@
       "r": "For 10 points, name this principle that forces two electrons in the same orbital to have opposite spins."
     },
     {
-      "p": "Five years after stating this principle, its namesake proposed a tiny neutral particle, later named the neutrino, in a 1930 letter that began “Dear radioactive ladies and gentlemen.” Electron “degeneracy pressure” caused by this principle keeps white dwarf stars from collapsing.",
+      "p": "Five years after stating this principle, its namesake proposed a tiny neutral particle, later named the neutrino, in a 1930 letter that began “Dear Radioactive Ladies and Gentlemen.” Electron “degeneracy pressure” caused by this principle keeps white dwarf stars from collapsing.",
       "r": "Because of it, electrons fill atoms shell by shell. For 10 points, name this rule saying no two electrons in an atom can have exactly the same quantum numbers."
     },
     {
@@ -98,11 +98,11 @@
       "r": "For 10 points, name this principle stating that no two identical fermions can be in the same quantum state at once."
     },
     {
-      "p": "This principle’s namesake arrived at it while puzzling over the “anomalous” Zeeman [“ZAY-mahn”] effect, the strange splitting of atoms’ spectral lines in a magnetic field. This principle helps explain why the first row of the periodic table has only two elements, hydrogen and helium.",
+      "p": "Neon’s ten electrons exactly fill its first two shells, two in the first and eight in the second, because of this principle. This principle also helps explain why the first row of the periodic table has only two elements, hydrogen and helium.",
       "r": "For 10 points, name this principle that says each atomic orbital can hold only two electrons, with opposite spins."
     },
     {
-      "p": "A neutron star only about 20 kilometers across avoids collapsing into a black hole because its neutrons resist being squeezed into the same states, a “degeneracy pressure” that comes from this principle. In atoms, this principle forces electrons into higher and higher shells as more of them are added.",
+      "p": "A neutron star only about 20 kilometers across is kept from collapsing into a black hole partly because its neutrons resist being squeezed into the same states, a “degeneracy pressure” that comes from this principle. In atoms, this principle forces electrons into higher and higher shells as more of them are added.",
       "r": "For 10 points, name this principle stating that no two electrons in an atom can have the same four quantum numbers."
     },
     {
@@ -110,11 +110,11 @@
       "r": "For 10 points, name this principle stating that two electrons in an atom can never share the same set of four quantum numbers."
     },
     {
-      "p": "This principle’s namesake spent most of World War II at the Institute for Advanced Study in Princeton, New Jersey, and won the 1945 Nobel Prize in Physics for discovering it. This principle explains why helium’s two electrons must have opposite spins.",
+      "p": "This principle’s namesake spent most of World War II at the Institute for Advanced Study in Princeton, New Jersey, and won the 1945 Nobel Prize in Physics for discovering it. This principle explains why the two electrons in a helium atom’s lowest orbital must have opposite spins.",
       "r": "For 10 points, name this principle stating that no two electrons in an atom can share all four quantum numbers."
     },
     {
-      "p": "Together with the electric repulsion between electrons, this principle produces the “exchange interaction,” which lines up the spins of electrons on neighboring atoms in iron magnets. In covalent bonds, this principle requires the two shared electrons to have opposite spins.",
+      "p": "The s block of the periodic table is two columns wide and the p block is six columns wide because of this principle, which limits how many electrons each subshell can hold. In covalent bonds, this principle requires the two shared electrons to have opposite spins.",
       "r": "For 10 points, name this rule, stated in 1925, which says no two electrons in an atom can have the same four quantum numbers."
     }
   ],
@@ -352,14 +352,16 @@
       "rabbit": "Spin (physics)"
     },
     {
-      "id": "spin-statistics",
+      "id": "orbital-arrows",
       "tier": "power",
-      "t": "In 1940 its namesake proved the spin-statistics theorem, explaining why it applies to half-integer spin but not whole-number spin",
+      "t": "In orbital diagrams, it is why the two arrows in one box must point in opposite directions, one up and one down",
       "k": [
-        "spin-statistics",
-        "1940"
+        "orbital diagrams",
+        "arrows",
+        "one up and one down"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Atomic orbitals"
     },
     {
       "id": "delta-color",
@@ -374,20 +376,20 @@
       "rabbit": "Quarks"
     },
     {
-      "id": "zeeman",
+      "id": "neon",
       "tier": "power",
-      "t": "Its namesake reached it while puzzling over the “anomalous” Zeeman effect, the splitting of spectral lines in a magnetic field",
+      "t": "Neon’s ten electrons exactly fill its first two shells: two in the first shell and eight in the second",
       "k": [
-        "zeeman",
-        "anomalous",
-        "spectral lines"
+        "neon",
+        "ten electrons",
+        "first two shells"
       ],
       "n": 0
     },
     {
       "id": "neutrino-letter",
       "tier": "power",
-      "t": "Its namesake proposed the neutrino in a 1930 letter that began “Dear radioactive ladies and gentlemen”",
+      "t": "Its namesake proposed the neutrino in a 1930 letter that began “Dear Radioactive Ladies and Gentlemen”",
       "k": [
         "neutrino",
         "1930",
@@ -397,15 +399,16 @@
       "rabbit": "Neutrinos"
     },
     {
-      "id": "exchange-interaction",
+      "id": "block-widths",
       "tier": "power",
-      "t": "With the repulsion between electrons, it produces the “exchange interaction” that lines up electron spins in iron magnets",
+      "t": "The periodic table’s s block is two columns wide and its p block is six, matching how many electrons each subshell can hold",
       "k": [
-        "exchange interaction",
-        "iron magnets"
+        "s block",
+        "p block",
+        "columns wide",
+        "subshell"
       ],
-      "n": 0,
-      "rabbit": "Ferromagnetism"
+      "n": 0
     },
     {
       "id": "covalent-bonds",
