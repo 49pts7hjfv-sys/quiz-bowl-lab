@@ -117,7 +117,7 @@
       "r": "For 10 points, name this Swiss mathematician whose identity says e to the i pi, plus 1, equals 0."
     },
     {
-      "p": "Three angles named for this man describe how a solid object is turned in space. In 1739, this man drew a grid of musical notes called a Tonnetz [“TOHN-nets”], which shows how chords are related to one another.",
+      "p": "Three angles named for this man describe how a solid object is turned in space. A path that uses every edge of a network exactly once is named for this man; no such path exists if more than two points touch an odd number of edges.",
       "r": "This man solved the Basel problem and the Seven Bridges of Königsberg problem. For 10 points, name this Swiss mathematician."
     },
     {
@@ -408,20 +408,20 @@
       "n": 0
     },
     {
-      "id": "tonnetz",
+      "id": "euler-path",
       "tier": "power",
-      "t": "In 1739 he drew the Tonnetz, a grid of musical notes showing how chords are related",
+      "t": "A path that uses every edge of a network exactly once is named for him; none exists if more than two points touch an odd number of edges",
       "k": [
-        "tonnetz",
-        "1739",
-        "musical"
+        "every edge",
+        "network",
+        "odd number"
       ],
       "n": 0
     }
   ],
   "trap": {
     "title": "Euler or a Bernoulli?",
-    "body": "Euler grew up in Basel, studied under Johann Bernoulli, and worked in St. Petersburg alongside Daniel Bernoulli, so clues about Basel or St. Petersburg can also point to a Bernoulli. Jacob Bernoulli found the number e while studying compound interest, even though e is often called “Euler’s number.” Many tossups also want a concept named for Euler, such as e or graph theory, rather than the man himself.",
+    "body": "Euler grew up in Basel, studied under Johann Bernoulli, and worked in St. Petersburg alongside Daniel Bernoulli, so clues about Basel or St. Petersburg can also point to a Bernoulli. Jacob Bernoulli found the number e while studying compound interest, even though e is often called “Euler’s number.” Many tossups also want a concept tied to Euler, such as e or graph theory, rather than the man himself.",
     "fix": "Listen for “this man” plus life clues: going blind, Frederick the Great, Catherine the Great, or writing f(x). Bernoulli clues usually mention probability, the law of large numbers, or Bernoulli’s principle about moving fluids.",
     "line": "Real answer line: <b><u>Leonhard Euler</u></b> [“OY-ler”] (accept <u>Euler</u>)"
   }

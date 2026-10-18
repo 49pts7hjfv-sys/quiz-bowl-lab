@@ -5,9 +5,9 @@
   "category": "Math",
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "Sine, cosine, tangent, and their kin · Turn angles into ratios",
-  "dates": "First chord tables by Hipparchus, 2nd century BC",
-  "briefing": "Trigonometric functions turn an angle into a number. In a right triangle, the sine of an angle is the opposite side divided by the hypotenuse, cosine is the adjacent side divided by the hypotenuse, and tangent is opposite over adjacent, which students remember as SOH-CAH-TOA. The astronomer Hipparchus built the first table of chords, their ancestor, more than 2,000 years ago, and the same functions describe sound waves, tides, and anything else that repeats in cycles.",
-  "answerHtml": "<b><u>trigonometric functions</u></b> (accept <u>trig functions</u> or <u>circular functions</u>; prompt on <u>trigonometry</u>; do not accept a single function like “sine”)",
+  "dates": "First known chord tables by Hipparchus, 2nd century BCE",
+  "briefing": "Trigonometric functions turn an angle into a number. In a right triangle, the sine of an angle is the opposite side divided by the hypotenuse, cosine is the adjacent side divided by the hypotenuse, and tangent is opposite over adjacent, which students remember as SOH-CAH-TOA. The astronomer Hipparchus built the first known table of chords, their ancestor, more than 2,000 years ago, and the same functions describe sound waves, tides, and anything else that repeats in cycles.",
+  "answerHtml": "<b><u>trigonometric functions</u></b> (accept <u>trig functions</u>, <u>trigonometric ratios</u>, or <u>circular functions</u>; prompt on <u>trigonometry</u> or <u>functions</u>; do not accept a single function like “sine”)",
   "accept": [
     "trigonometric functions",
     "trigonometric function",
@@ -93,7 +93,7 @@
       "r": "For 10 points, name these functions, such as sine and cosine, that relate angles to side ratios in right triangles."
     },
     {
-      "p": "The name of one of these functions comes from a Latin word for “fold” or “bay,” a mistranslation of an Arabic word that came from the Sanskrit word jya [“JYAH”], meaning “bowstring.” Aryabhata [“AR-yuh-BAH-tuh”] made an early table of values for that function in 499 AD.",
+      "p": "The name of one of these functions comes from a Latin word for “fold” or “bay,” a mistranslation of an Arabic word that came from the Sanskrit word jya [“JYAH”], meaning “bowstring.” Aryabhata [“AR-yuh-BAH-tuh”] made an early table of values for that function in 499 CE.",
       "r": "Students remember three of them with the mnemonic SOH-CAH-TOA. For 10 points, name these functions, including sine, cosine, and tangent."
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "p": "A formula named for Abraham de Moivre [“duh MWAHV”] raises a complex number written using two of these functions to any whole-number power. Euler’s formula says that e to the i x equals one of these functions of x plus i times another.",
-      "r": "Two of them repeat every 360 degrees. For 10 points, name these functions, which include sine and cosine."
+      "r": "The graphs of two of them are waves that repeat every 360 degrees. For 10 points, name these functions, which include sine and cosine."
     },
     {
       "p": "While studying how heat flows, Joseph Fourier [“FOOR-ee-ay”] showed how to build complicated repeating signals by adding up waves described by two of these functions. A mass bouncing on a spring moves in simple harmonic motion, which these functions also describe.",
@@ -284,7 +284,7 @@
     {
       "id": "hipparchus",
       "tier": "middle",
-      "t": "Hipparchus (2nd century BC) made the first known table of chords, the ancestor of these functions",
+      "t": "Hipparchus (2nd century BCE) made the first known table of chords, the ancestor of these functions",
       "k": [
         "hipparchus",
         "chords"
@@ -358,7 +358,7 @@
     {
       "id": "sinus",
       "tier": "power",
-      "t": "“Sine” comes from Latin sinus (“fold” or “bay”), a mistranslation of an Arabic word from Sanskrit jya (“bowstring”), used in Aryabhata’s 499 AD table",
+      "t": "“Sine” comes from Latin sinus (“fold” or “bay”), a mistranslation of an Arabic word from Sanskrit jya (“bowstring”), used in Aryabhata’s 499 CE table",
       "k": [
         "sinus",
         "mistranslation",
@@ -456,6 +456,6 @@
     "title": "One function or the family?",
     "body": "Many tossups want a single function instead of the whole family: sine (opposite over hypotenuse), cosine (adjacent over hypotenuse), or tangent (opposite over adjacent). A tossup that asks for “this function” wants one name, while “these functions” wants the group. Giving the family name when one function is wanted can cost you the tossup.",
     "fix": "Match the ratio in the giveaway: opposite ÷ hypotenuse is sine, adjacent ÷ hypotenuse is cosine, and opposite ÷ adjacent is tangent. If the question says “these functions” or “six functions,” say “trigonometric functions.”",
-    "line": "Real answer line: <b><u>trigonometric functions</u></b> (accept <u>trig functions</u>; prompt on <u>trigonometry</u>)"
+    "line": "Real answer line: <b><u>trigonometric functions</u></b> (accept <u>trig functions</u>, <u>trigonometric ratios</u>, or <u>circular functions</u>; prompt on <u>trigonometry</u> or <u>functions</u>; do not accept a single function like “sine”)"
   }
 }

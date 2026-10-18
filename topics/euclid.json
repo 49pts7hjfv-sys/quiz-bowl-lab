@@ -5,8 +5,8 @@
   "category": "Math",
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "Greek “father of geometry” · Author of the Elements",
-  "dates": "Active c. 300 BC",
-  "briefing": "Around 300 BC in Alexandria, Egypt, a Greek mathematician named Euclid gathered the geometry of his time into one great work, the _Elements_. Starting from a few definitions and five basic assumptions called postulates, he proved hundreds of facts step by step, from drawing an equilateral triangle to showing that the prime numbers never run out. Students learned geometry from his book for more than 2,000 years, which is why he is called the “father of geometry.”",
+  "dates": "Active c. 300 BCE",
+  "briefing": "Around 300 BCE in Alexandria, Egypt, a Greek mathematician named Euclid gathered the geometry of his time into one great work, the _Elements_. Starting from a list of definitions and five basic assumptions called postulates, he proved hundreds of facts step by step, from drawing an equilateral triangle to showing that the prime numbers never run out. Students learned geometry from his book for more than 2,000 years, which is why he is called the “father of geometry.”",
   "answerHtml": "<b><u>Euclid</u></b> of Alexandria",
   "accept": [
     "euclid",
@@ -73,7 +73,7 @@
     },
     {
       "p": "Oliver Byrne’s 1847 edition of this man’s greatest work replaced the letters in its diagrams with brightly colored shapes. That work’s first printed edition appeared in Venice in 1482, and its first English translation, by Henry Billingsley, appeared in 1570.",
-      "r": "That work begins by showing how to draw an equilateral triangle with a compass and straightedge. For 10 points, name this author of the _Elements_."
+      "r": "That work’s first proposition shows how to draw an equilateral triangle with a compass and straightedge. For 10 points, name this author of the _Elements_."
     },
     {
       "p": "Adelard of Bath translated this man’s most famous book from Arabic into Latin in the 1100s. That book is often said to have been printed in more editions than any other book except the Bible.",
@@ -81,7 +81,7 @@
     },
     {
       "p": "Much of the little that is known about this man’s life comes from a commentary written by Proclus [“PROH-klus”] more than 700 years after he lived. Medieval writers sometimes confused this man with a philosopher of the same name from Megara who studied with Socrates.",
-      "r": "For 10 points, name this mathematician who worked in Alexandria around 300 BC and wrote the _Elements_."
+      "r": "For 10 points, name this mathematician who worked in Alexandria around 300 BCE and wrote the _Elements_."
     },
     {
       "p": "The longest of the 13 books in this man’s major work deals with irrational lengths, and its fifth book presents a theory of proportion credited to Eudoxus [“yoo-DOK-sus”]. Its final book shows how to construct the five Platonic solids.",
@@ -149,10 +149,10 @@
     {
       "id": "alexandria",
       "tier": "giveaway",
-      "t": "Worked in Alexandria, Egypt, around 300 BC, in the time of King Ptolemy I",
+      "t": "Worked in Alexandria, Egypt, around 300 BCE, in the time of King Ptolemy I",
       "k": [
         "alexandria",
-        "300 bc",
+        "300 bce",
         "ptolemy i"
       ],
       "n": 0

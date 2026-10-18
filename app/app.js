@@ -610,7 +610,7 @@ const QBCore = (() => {
   function libCard(e) {
     const d = stepsDone(e);
     return `<button class="lib-card" data-act="go" data-to="topic-${esc(e.id)}">
-      <span class="lib-card-top">${mono(e)}<span><span class="lc-name">${esc(e.name)}</span><span class="kick">${esc(e.kicker)}</span></span></span>
+      <span class="lib-card-top">${mono(e)}<span><span class="lc-name">${esc(e.name)}</span><span class="kick">${fmt(e.kicker)}</span></span></span>
       <span class="meter" aria-hidden="true"><span style="width:${(d / 5) * 100}%"></span></span>
       <span class="meta"><span>${d} of 5 steps</span><span>${pct(mastery(e))} cards mastered</span></span>
     </button>`;
@@ -638,7 +638,7 @@ const QBCore = (() => {
         <button class="btn btn-pen" data-act="go" data-to="topics">Pick your topics</button>
       </div>`;
     const nextHtml = next
-      ? `<div class="next-card">${mono(next)}<div><p class="eyebrow">Up next</p><h2>${esc(next.name)}</h2><p>${esc(next.kicker)} · ${stepsDone(next)} of 5 steps done</p></div><button class="btn btn-buzz" data-act="go" data-to="topic-${esc(next.id)}">Start studying</button></div>`
+      ? `<div class="next-card">${mono(next)}<div><p class="eyebrow">Up next</p><h2>${esc(next.name)}</h2><p>${fmt(next.kicker)} · ${stepsDone(next)} of 5 steps done</p></div><button class="btn btn-buzz" data-act="go" data-to="topic-${esc(next.id)}">Start studying</button></div>`
       : scopeBuilt.length
         ? `<div class="next-card"><span class="mono">${ICON.bell}</span><div><p class="eyebrow">All notes done</p><h2>Time for a mixed round</h2><p>Every topic${mine.length ? ' in My topics' : ''} has notes. Now play Buzz Mode mixed, like a real match.</p></div><button class="btn btn-buzz" data-act="${mine.length ? 'buzz-my' : 'buzz-all'}">Play Buzz Mode</button></div>`
         : `<div class="next-card"><span class="mono">${ICON.bell}</span><div><p class="eyebrow">Coming soon</p><h2>Your topics aren’t built yet</h2><p>None of the topics you picked are ready yet. Check back soon, or study any topic that’s already built.</p></div><button class="btn btn-buzz" data-act="go" data-to="topics">Browse built topics</button></div>`;
@@ -811,7 +811,7 @@ const QBCore = (() => {
     return `<header class="topic-head">
         <p class="eyebrow">${esc(e.category)}</p>
         <h1 class="display">${esc(e.name)}</h1>
-        ${e.kicker ? `<p class="kicker">${esc(e.kicker)}</p>` : ''}
+        ${e.kicker ? `<p class="kicker">${fmt(e.kicker)}</p>` : ''}
         <div class="row"><button class="btn btn-buzz" data-act="buzz-topic" data-id="${id}">${ICON.bell}Buzz these ${e.tossups || 15}</button><button class="btn" data-act="cards-topic" data-id="${id}">${ICON.cards}Flashcards</button>
           ${myBtnHtml(e.id)}</div>
       </header>`;
@@ -904,7 +904,7 @@ const QBCore = (() => {
       <header class="topic-head">
         <p class="eyebrow">${esc(t.category)}${t.qbCategory && !t.qbCategory.endsWith(t.category) ? ' · ' + esc(t.qbCategory) : ''}</p>
         <h1 class="display">${esc(t.name)}</h1>
-        <p class="kicker">${esc(t.kicker)} · ${esc(t.dates)}</p>
+        <p class="kicker">${fmt(t.kicker)} · ${fmt(t.dates)}</p>
         <div class="answer-chip"><span class="answer-tag">Answer line</span><span>${t.answerHtml}</span></div>
         <div class="row"><button class="btn btn-buzz" data-act="buzz-topic" data-id="${id}">${ICON.bell}Buzz these ${t.tossups.length}</button><button class="btn" data-act="cards-topic" data-id="${id}">${ICON.cards}Flashcards</button>
           ${myBtnHtml(t.id)}</div>

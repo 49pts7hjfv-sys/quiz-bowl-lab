@@ -5,8 +5,8 @@
   "category": "Math",
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "Divisible only by 1 and themselves · The building blocks of arithmetic",
-  "dates": "Infinitely many, proved by Euclid c. 300 BC",
-  "briefing": "A prime number is a whole number greater than 1 that can be divided evenly only by 1 and itself, like 2, 3, 5, 7, and 11. Every other whole number above 1 can be built by multiplying primes together, so mathematicians call them the building blocks of arithmetic. Around 300 BC, Euclid proved that the primes never run out, and many of the codes that protect online shopping depend on how hard it is to split huge numbers back into primes.",
+  "dates": "Infinitely many, proved by Euclid c. 300 BCE",
+  "briefing": "A prime number is a whole number greater than 1 that can be divided evenly only by 1 and itself, like 2, 3, 5, 7, and 11. Every other whole number above 1 can be built by multiplying primes together, so mathematicians call them the building blocks of arithmetic. Around 300 BCE, Euclid proved that the primes never run out, and many of the codes that protect online shopping depend on how hard it is to split huge numbers back into primes.",
   "answerHtml": "<b><u>prime</u></b> numbers (accept <u>primes</u>; do not accept “composite numbers”)",
   "accept": [
     "prime numbers",
@@ -123,7 +123,7 @@
     },
     {
       "p": "Pafnuty Chebyshev [“cheh-bih-SHOFF”] proved Bertrand’s postulate, which says there is always at least one of these numbers between any whole number greater than 1 and twice that number. To test whether a number is one of these, you only need to try divisors up to its square root.",
-      "r": "Numbers that are not of this type, like 4 and 9, are called composite. For 10 points, name these numbers, like 2, 3, 5, and 7, that have exactly two factors."
+      "r": "Whole numbers above 1 that are not of this type, like 4 and 9, are called composite. For 10 points, name these numbers, like 2, 3, 5, and 7, that have exactly two factors."
     },
     {
       "p": "Ben Green and Terence Tao proved in 2004 that these numbers contain evenly spaced runs of any length, such as 5, 11, 17, 23, and 29. Eratosthenes [“air-uh-TOSS-thuh-neez”] names a “sieve” that finds these numbers by crossing out the multiples of 2, 3, 5, and so on.",

@@ -6,8 +6,8 @@
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "Each number is the sum of the two before · 1, 1, 2, 3, 5, 8, 13…",
   "dates": "Brought to Europe in Liber Abaci, 1202",
-  "briefing": "The Fibonacci sequence starts with 1 and 1, then keeps adding the last two numbers: 2, 3, 5, 8, 13, 21, and on forever. Leonardo of Pisa, nicknamed Fibonacci, made this pattern famous in Europe in 1202 with a puzzle about breeding rabbits. Its numbers show up in the spirals of sunflowers and pinecones, and dividing each term by the one before it gets closer and closer to the golden ratio, about 1.618.",
-  "answerHtml": "<b><u>Fibonacci</u></b> sequence (accept <u>Fibonacci</u> numbers or <u>Fibonacci</u> series; prompt on <u>sequence</u>)",
+  "briefing": "The Fibonacci sequence starts with 1 and 1, then keeps adding the last two numbers: 2, 3, 5, 8, 13, 21, and on forever. Leonardo of Pisa, nicknamed Fibonacci, introduced this pattern to Europe in 1202 with a puzzle about breeding rabbits. Its numbers show up in the spirals of sunflowers and pinecones, and dividing each term by the one before it gets closer and closer to the golden ratio, about 1.618.",
+  "answerHtml": "<b><u>Fibonacci</u></b> sequence (accept <u>Fibonacci</u> numbers or <u>Fibonacci</u> series; prompt on <u>sequence</u> or <u>recurrence relation</u>)",
   "accept": [
     "fibonacci sequence",
     "fibonacci sequences",
@@ -193,7 +193,7 @@
     {
       "id": "liber-abaci",
       "tier": "middle",
-      "t": "Appeared in Leonardo’s book _Liber Abaci_ (1202), which also spread Hindu-Arabic numerals across Europe",
+      "t": "Appeared in Leonardo’s book _Liber Abaci_ (1202), which also helped spread Hindu-Arabic numerals across Europe",
       "k": [
         "liber abaci",
         "1202",
@@ -236,7 +236,7 @@
     {
       "id": "bees",
       "tier": "middle",
-      "t": "A male honeybee’s family tree has 1, 1, 2, 3, 5, 8… ancestors in each generation going back",
+      "t": "A male honeybee’s family tree has 1 parent, 2 grandparents, 3 great-grandparents, then 5, 8… ancestors per generation going back",
       "k": [
         "honeybee",
         "family tree",
@@ -257,7 +257,7 @@
     {
       "id": "indian",
       "tier": "middle",
-      "t": "Indian scholars of Sanskrit poetry, like Virahanka and Hemachandra, described it centuries before Leonardo",
+      "t": "Indian scholars of Sanskrit poetry knew it before Leonardo: Virahanka centuries earlier, and Hemachandra around 1150",
       "k": [
         "sanskrit",
         "virahanka",
@@ -435,8 +435,8 @@
   ],
   "trap": {
     "title": "Sequence, ratio, or man?",
-    "body": "Three answer lines sit very close together. The golden ratio (about 1.618, also called phi) is the number that neighboring terms of this sequence approach. Leonardo of Pisa is the man, who also brought Hindu-Arabic numerals to Europe, and Lucas numbers follow the same adding rule but start 2, 1.",
+    "body": "Three answer lines sit very close together. The golden ratio (about 1.618, also called phi) is the number that neighboring terms of this sequence approach. Leonardo of Pisa is the man, who also helped spread Hindu-Arabic numerals in Europe, and Lucas numbers follow the same adding rule but start 2, 1.",
     "fix": "Listen for the noun. “This sequence” or “these numbers” means Fibonacci; “this ratio” or “this constant,” with clues about regular pentagons or phi, means the golden ratio; “this mathematician,” with clues about his life and _Liber Abaci_, means Fibonacci the man.",
-    "line": "Real answer line: <b><u>Fibonacci</u></b> sequence (accept <u>Fibonacci</u> numbers)"
+    "line": "Real answer line: <b><u>Fibonacci</u></b> sequence (accept <u>Fibonacci</u> numbers or <u>Fibonacci</u> series; prompt on <u>sequence</u> or <u>recurrence relation</u>)"
   }
 }

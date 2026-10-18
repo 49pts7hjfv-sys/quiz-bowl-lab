@@ -4,10 +4,10 @@
   "mono": "TRI",
   "category": "Math",
   "qbCategory": "Science · Other Science (Math)",
-  "kicker": "Three sides, three angles · The angles always add up to 180°",
-  "dates": "Angle-sum proof in Euclid’s Elements, c. 300 BC",
+  "kicker": "Three sides, three angles · Angles add up to 180° on a flat surface",
+  "dates": "Angle-sum proof in Euclid’s Elements, c. 300 BCE",
   "briefing": "A triangle is the simplest polygon: three straight sides, three corners, and three angles that always add up to 180 degrees on a flat surface. Triangles are sorted by their sides (equilateral, isosceles, or scalene) and by their angles (acute, right, or obtuse), and the Pythagorean theorem works only for right triangles. Engineers build bridges and towers from triangles because, unlike a square, a triangle cannot be pushed out of shape without changing the length of a side.",
-  "answerHtml": "<b><u>triangle</u></b>s (accept specific kinds, such as <u>equilateral triangle</u>s; prompt on <u>polygon</u>s)",
+  "answerHtml": "<b><u>triangle</u></b>s (accept specific kinds, such as <u>equilateral triangle</u>s; prompt on <u>polygon</u>s or <u>shape</u>s)",
   "accept": [
     "triangles",
     "triangle"
@@ -78,11 +78,11 @@
   },
   "tossups": [
     {
-      "p": "Frank Morley proved in 1899 that the lines trisecting the angles of any one of these shapes meet at the corners of a smaller, equilateral one. The point where the three angle bisectors of one of these shapes meet is the center of its inscribed circle.",
+      "p": "Frank Morley discovered in 1899 that, in any one of these shapes, the angle trisectors nearest each side meet at the corners of a smaller, equilateral one. The point where the three angle bisectors of one of these shapes meet is the center of its inscribed circle.",
       "r": "Each of these shapes has three sides. For 10 points, name these polygons whose three interior angles add up to 180 degrees."
     },
     {
-      "p": "The Babylonian clay tablet Plimpton 322, made around 1800 BC, contains columns of numbers that come from whole-number side lengths of right-angled examples of these shapes. In those examples, the side across from the right angle is the longest side, called the hypotenuse.",
+      "p": "The Babylonian clay tablet Plimpton 322, made around 1800 BCE, contains columns of numbers that come from whole-number side lengths of right-angled examples of these shapes. In those examples, the side across from the right angle is the longest side, called the hypotenuse.",
       "r": "The Pythagorean theorem applies to right examples of these shapes. For 10 points, name these three-sided polygons."
     },
     {
@@ -114,7 +114,7 @@
       "r": "On a flat surface, they add up to exactly 180 degrees. For 10 points, name this three-sided polygon."
     },
     {
-      "p": "A theorem credited to Napoleon Bonaparte says that if equilateral versions of this shape are built outward on the sides of any one of them, their centers form another equilateral one. Euclid’s _Elements_ begins by constructing an equilateral one.",
+      "p": "A theorem credited to Napoleon Bonaparte says that if equilateral versions of this shape are built outward on the sides of any one of them, their centers form another equilateral one. The first proposition of Euclid’s _Elements_ constructs an equilateral one.",
       "r": "This shape can be acute, right, or obtuse. For 10 points, name this three-sided polygon."
     },
     {
@@ -153,7 +153,7 @@
     {
       "id": "angle-sum",
       "tier": "giveaway",
-      "t": "Its three interior angles always add up to 180 degrees",
+      "t": "On a flat surface, its three interior angles always add up to 180 degrees",
       "k": [
         "180 degrees",
         "interior angles"
@@ -325,10 +325,10 @@
     {
       "id": "morley",
       "tier": "power",
-      "t": "Morley’s theorem (1899): the lines trisecting the angles of any one meet at the corners of an equilateral one",
+      "t": "Morley’s theorem (discovered 1899): in any one, the angle trisectors nearest each side meet at the corners of an equilateral one",
       "k": [
         "morley",
-        "trisecting",
+        "trisectors",
         "1899"
       ],
       "n": 0
@@ -402,7 +402,7 @@
     {
       "id": "plimpton",
       "tier": "power",
-      "t": "The Babylonian tablet Plimpton 322 (about 1800 BC) holds numbers from whole-number sides of right ones",
+      "t": "The Babylonian tablet Plimpton 322 (about 1800 BCE) holds numbers from whole-number sides of right ones",
       "k": [
         "plimpton 322",
         "babylonian"
@@ -447,8 +447,8 @@
   ],
   "trap": {
     "title": "Any shape or one kind?",
-    "body": "Some tossups want one specific kind: equilateral (all sides equal), isosceles (two equal sides), scalene (no equal sides), or right (one 90° angle). On those, plain “triangle” may earn only a prompt, so be ready to add the type. Other tossups want the Pythagorean theorem, which works only for right ones, or Pascal’s triangle, which is a pattern of numbers rather than a shape.",
+    "body": "Some tossups want one specific kind: equilateral (all sides equal), isosceles (at least two equal sides), scalene (no equal sides), or right (one 90° angle). On those, plain “triangle” may earn only a prompt, so be ready to add the type. Other tossups want the Pythagorean theorem, which works only for right ones, or Pascal’s triangle, which is a pattern of numbers rather than a shape.",
     "fix": "Listen to the giveaway. If it says “three-sided polygon” with clues true of every one (angles add up to 180°, area is one-half × base × height), say “triangle.” If it gives a defining detail like “all three sides equal” or “one 90-degree angle,” name that kind.",
-    "line": "Real answer line: <b><u>triangle</u></b>s (accept specific kinds, such as <u>equilateral triangle</u>s)"
+    "line": "Real answer line: <b><u>triangle</u></b>s (accept specific kinds, such as <u>equilateral triangle</u>s; prompt on <u>polygon</u>s or <u>shape</u>s)"
   }
 }
