@@ -1,0 +1,366 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "cholesterol",
+    "name": "Cholesterol",
+    "mono": "CHL",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Waxy steroid in animal cell membranes · Raw material for bile and hormones",
+    "dates": "Named by Michel Chevreul in 1815",
+    "briefing": "Cholesterol has a bad reputation, but your body can’t live without it. This waxy steroid helps hold together the membrane around every animal cell, and your body turns it into bile and into hormones like testosterone and estrogen. Trouble starts when too much of it, carried through the blood by “bad” LDL particles, builds up as plaque inside artery walls.",
+    "answerHtml": "<b><u>Cholesterol</u></b> (prompt on <u>sterol</u> or <u>steroid</u>; do not accept “LDL” or “HDL”)",
+    "accept": [
+        "cholesterol",
+        "cholesterols",
+        "cholesterin"
+    ],
+    "prompt": [
+        "sterol",
+        "sterols",
+        "steroid",
+        "steroids"
+    ],
+    "reject": [
+        "ldl",
+        "hdl",
+        "low density lipoprotein",
+        "high density lipoprotein",
+        "lipoprotein",
+        "lipoproteins",
+        "lipid",
+        "lipids",
+        "fat",
+        "fats",
+        "triglyceride",
+        "triglycerides",
+        "fatty acid",
+        "fatty acids",
+        "phospholipid",
+        "phospholipids",
+        "ergosterol",
+        "lanosterol",
+        "squalene",
+        "pregnenolone",
+        "cortisol",
+        "testosterone",
+        "estrogen",
+        "vitamin d",
+        "bile",
+        "bile acid",
+        "bile acids",
+        "bile salts",
+        "statin",
+        "statins",
+        "plaque"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Cholesterol",
+    "qb": {
+        "q": "cholesterol",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "French chemist Michel Chevreul [“shuh-VRUHL”] named this substance in 1815, taking its name from Greek words meaning “bile” and “solid” because it was first found in solid form in gallstones. A related molecule in the skin is converted into vitamin D by ultraviolet light.",
+            "r": "For 10 points, name this waxy steroid, carried in the blood by LDL and HDL, that can build up as plaque in arteries."
+        },
+        {
+            "p": "Michael Brown and Joseph Goldstein shared the 1985 Nobel Prize in Physiology or Medicine for discovering the receptor that lets cells pull in particles carrying this substance. Faulty versions of that receptor cause an inherited condition in which blood levels of this substance are very high from birth.",
+            "r": "Statin drugs lower levels of this substance. For 10 points, name this steroid found in animal cell membranes."
+        },
+        {
+            "p": "Konrad Bloch and Feodor Lynen won a 1964 Nobel Prize for working out how cells build this molecule, a process in which squalene [“SKWAY-leen”] is converted into lanosterol on the way to the final product. Its production starts from acetyl-CoA in the mevalonate [“meh-VAL-uh-nate”] pathway.",
+            "r": "Egg yolks are rich in this molecule. For 10 points, name this lipid that is carried in the blood by LDL and HDL."
+        },
+        {
+            "p": "HMG-CoA reductase is the enzyme that sets the pace of this substance’s production in the body. Japanese biochemist Akira Endo found the first drug that blocks that enzyme in a mold, launching a family of widely used medicines.",
+            "r": "Those drugs, the statins, lower its level in the blood. For 10 points, name this waxy steroid carried by “good” HDL and “bad” LDL."
+        },
+        {
+            "p": "In 1888, Friedrich Reinitzer [“RYE-nit-ser”] discovered liquid crystals while studying a benzoate made from this compound, which seemed to melt twice. A twisted liquid-crystal phase is still named for this compound, whose structure includes four fused rings and one hydroxyl group.",
+            "r": "Statins lower blood levels of this compound. For 10 points, name this sterol that is found in animal cell membranes and can clog arteries."
+        },
+        {
+            "p": "This molecule packs together with sphingolipids [“SFING-go-lip-idz”] to form thicker, more orderly patches of membrane called lipid rafts. It also acts as a “fluidity buffer,” keeping animal cell membranes from becoming too runny when warm or too stiff when cold.",
+            "r": "It is carried through the blood by LDL and HDL. For 10 points, name this steroid, made by the liver, that can build up as plaque inside arteries."
+        },
+        {
+            "p": "Many antifungal drugs target ergosterol, the sterol that fungi use in place of this one in their cell membranes. Plants use similar molecules called phytosterols, so plant foods contain almost none of this compound, which is common in egg yolks and meat.",
+            "r": "High blood levels of it are treated with statins. For 10 points, name this steroid carried through the blood by LDL and HDL particles."
+        },
+        {
+            "p": "Inside mitochondria, an enzyme snips the side chain off this molecule to make pregnenolone [“preg-NEE-nuh-lohn”], the first step in making cortisol, aldosterone, and other steroid hormones. The liver also converts this molecule into bile acids, which are stored in the gallbladder as part of bile.",
+            "r": "LDL particles carry it to body cells. For 10 points, name this lipid whose high blood levels are linked to heart disease."
+        },
+        {
+            "p": "White blood cells called macrophages can swallow so many particles carrying this substance that they swell into “foam cells” inside artery walls. Those cells help form the fatty plaques of atherosclerosis [“ath-uh-roh-skluh-ROH-sis”], which can narrow arteries and lead to heart attacks.",
+            "r": "Egg yolks are a rich source of it. For 10 points, name this waxy steroid that “bad” LDL particles carry through the blood."
+        },
+        {
+            "p": "This compound has 27 carbon atoms, and its four fused rings are labeled A through D, with the D ring holding only five carbons. A hydroxyl group on carbon 3 makes it a sterol, and that small polar end points toward the water at the surface of a cell membrane.",
+            "r": "Too much of it can form plaque in arteries. For 10 points, name this molecule whose blood levels are lowered by statins."
+        },
+        {
+            "p": "A molecule that differs from this one by just one extra double bond is turned into vitamin D when ultraviolet light strikes the skin. Many gallstones are made mostly of this compound, which is also the raw material for testosterone and estrogen.",
+            "r": "For 10 points, name this steroid found in animal cell membranes and carried in the blood by LDL."
+        },
+        {
+            "p": "In a process called reverse transport, high-density lipoproteins collect extra amounts of this substance from body tissues and carry them back to the liver. Low-density lipoproteins carry it the other way, out to body cells, and high levels of them are linked to clogged arteries.",
+            "r": "Statin drugs lower its levels. For 10 points, name this waxy steroid that is found in egg yolks and animal cell membranes."
+        },
+        {
+            "p": "Adolf Windaus [“VIN-douse”] won the 1928 Nobel Prize in Chemistry for research on sterols like this one, and on how they connect to vitamins. The fatty myelin sheaths that insulate nerve fibers are especially rich in this lipid.",
+            "r": "Egg yolks are among the richest food sources of it. For 10 points, name this substance carried in the blood by LDL and HDL."
+        },
+        {
+            "p": "The two main bile acids made by the human liver, cholic [“KOH-lick”] acid and chenodeoxycholic [“KEE-noh-dee-OX-ee-KOH-lick”] acid, are both built from this molecule. Converting it into bile acids is one of the main ways the body gets rid of extra amounts of it.",
+            "r": "LDL carries it to body cells. For 10 points, name this steroid whose buildup in arteries can lead to heart disease."
+        },
+        {
+            "p": "Blood tests often report this substance’s total level along with separate numbers for its two main carriers, one nicknamed “good” and the other “bad.” Doctors may prescribe statins when its level is too high, since extra amounts can build up in artery walls.",
+            "r": "For 10 points, name this waxy steroid that is carried in the blood by HDL and LDL."
+        }
+    ],
+    "clues": [
+        {
+            "id": "waxy-steroid",
+            "tier": "giveaway",
+            "t": "A waxy, fat-like steroid that animal cells need to build their membranes",
+            "k": ["waxy", "fat-like", "steroid"],
+            "n": 0
+        },
+        {
+            "id": "ldl-hdl",
+            "tier": "giveaway",
+            "t": "Carried through the blood by lipoproteins: LDL (nicknamed “bad”) and HDL (nicknamed “good”)",
+            "k": ["lipoproteins", "ldl", "hdl"],
+            "n": 0
+        },
+        {
+            "id": "plaque",
+            "tier": "giveaway",
+            "t": "Too much in the blood can build up as plaque in artery walls and raise the risk of heart disease",
+            "k": ["plaque", "artery walls", "heart disease"],
+            "n": 0
+        },
+        {
+            "id": "statins",
+            "tier": "giveaway",
+            "t": "Statin drugs lower its level in the blood",
+            "k": ["statin", "statins"],
+            "n": 0
+        },
+        {
+            "id": "egg-yolks",
+            "tier": "giveaway",
+            "t": "The body makes most of what it needs; in food it comes from animal products, such as egg yolks and meat",
+            "k": ["egg yolks", "animal products"],
+            "n": 0
+        },
+        {
+            "id": "sterol",
+            "tier": "middle",
+            "t": "Four fused carbon rings plus one hydroxyl (–OH) group make it a sterol, or steroid alcohol",
+            "k": ["four fused", "hydroxyl", "sterol"],
+            "n": 0
+        },
+        {
+            "id": "fluidity-buffer",
+            "tier": "middle",
+            "t": "In animal cell membranes it acts as a “fluidity buffer”: not too runny when warm, not too stiff when cold",
+            "k": ["fluidity buffer", "membranes"],
+            "n": 0,
+            "rabbit": "Cell membrane"
+        },
+        {
+            "id": "steroid-hormones",
+            "tier": "middle",
+            "t": "Raw material for steroid hormones like testosterone, estrogen, cortisol, and aldosterone",
+            "k": ["steroid hormones", "testosterone", "estrogen", "cortisol"],
+            "n": 0,
+            "rabbit": "Testosterone"
+        },
+        {
+            "id": "bile-acids",
+            "tier": "middle",
+            "t": "The liver turns it into bile acids, which are stored in the gallbladder as part of bile; this is a main way the body gets rid of it",
+            "k": ["bile acids", "gallbladder"],
+            "n": 0,
+            "rabbit": "Gallbladder"
+        },
+        {
+            "id": "gallstones",
+            "tier": "middle",
+            "t": "Many gallstones are made mostly of it; its name comes from Greek words for “bile” and “solid”",
+            "k": ["gallstones", "greek", "solid"],
+            "n": 0
+        },
+        {
+            "id": "vitamin-d",
+            "tier": "middle",
+            "t": "A close relative with one extra double bond is turned into vitamin D when ultraviolet light hits the skin",
+            "k": ["vitamin d", "ultraviolet", "double bond"],
+            "n": 0
+        },
+        {
+            "id": "atherosclerosis",
+            "tier": "middle",
+            "t": "Its buildup in artery walls is part of atherosclerosis, which can lead to heart attacks",
+            "k": ["atherosclerosis", "heart attacks"],
+            "n": 0
+        },
+        {
+            "id": "ergosterol",
+            "tier": "middle",
+            "t": "Fungi use ergosterol in its place, and plants use phytosterols; many antifungal drugs target ergosterol",
+            "k": ["ergosterol", "phytosterols", "antifungal"],
+            "n": 0
+        },
+        {
+            "id": "myelin",
+            "tier": "middle",
+            "t": "Especially plentiful in the myelin sheaths that insulate nerve fibers",
+            "k": ["myelin", "nerve fibers"],
+            "n": 0
+        },
+        {
+            "id": "chevreul",
+            "tier": "power",
+            "t": "French chemist Michel Chevreul named it in 1815, after it was first found in solid form in gallstones",
+            "k": ["chevreul", "1815"],
+            "n": 0
+        },
+        {
+            "id": "brown-goldstein",
+            "tier": "power",
+            "t": "Michael Brown and Joseph Goldstein won the 1985 Nobel Prize for discovering the LDL receptor, which pulls it into cells",
+            "k": ["goldstein", "ldl receptor", "1985", "brown"],
+            "n": 0
+        },
+        {
+            "id": "familial",
+            "tier": "power",
+            "t": "Faulty LDL receptors cause a familial (inherited) condition with very high blood levels of it from birth",
+            "k": ["familial", "inherited", "from birth"],
+            "n": 0
+        },
+        {
+            "id": "hmg-coa-reductase",
+            "tier": "power",
+            "t": "Statins block HMG-CoA reductase, the enzyme that sets the pace of its production; Akira Endo found the first statin in a mold",
+            "k": ["hmg-coa reductase", "akira endo", "mold"],
+            "n": 0
+        },
+        {
+            "id": "bloch-lynen",
+            "tier": "power",
+            "t": "Konrad Bloch and Feodor Lynen won the 1964 Nobel Prize for working out how cells build it",
+            "k": ["bloch", "lynen", "1964"],
+            "n": 0
+        },
+        {
+            "id": "mevalonate",
+            "tier": "power",
+            "t": "Built from acetyl-CoA through the mevalonate pathway; squalene and lanosterol are steps along the way",
+            "k": ["mevalonate", "squalene", "lanosterol", "acetyl-coa"],
+            "n": 0
+        },
+        {
+            "id": "pregnenolone",
+            "tier": "power",
+            "t": "Making steroid hormones starts when an enzyme in mitochondria snips off its side chain to form pregnenolone",
+            "k": ["pregnenolone", "side chain"],
+            "n": 0
+        },
+        {
+            "id": "cholic-acid",
+            "tier": "power",
+            "t": "The two main human bile acids, cholic acid and chenodeoxycholic acid, are both made from it",
+            "k": ["cholic acid", "chenodeoxycholic"],
+            "n": 0
+        },
+        {
+            "id": "reinitzer",
+            "tier": "power",
+            "t": "Friedrich Reinitzer discovered liquid crystals in 1888 while studying a benzoate made from it; a twisted liquid-crystal phase is named for it",
+            "k": ["reinitzer", "liquid crystals", "1888"],
+            "n": 0
+        },
+        {
+            "id": "lipid-rafts",
+            "tier": "power",
+            "t": "Packs with sphingolipids into thick, orderly membrane patches called lipid rafts",
+            "k": ["lipid rafts", "sphingolipids"],
+            "n": 0
+        },
+        {
+            "id": "foam-cells",
+            "tier": "power",
+            "t": "In artery plaques, macrophages that swallow too much LDL swell into “foam cells”",
+            "k": ["foam cells", "macrophages"],
+            "n": 0
+        },
+        {
+            "id": "rings",
+            "tier": "power",
+            "t": "Has 27 carbon atoms; its four rings are labeled A through D, and the D ring has only five carbons",
+            "k": ["27 carbon", "five carbons", "a through d"],
+            "n": 0
+        },
+        {
+            "id": "reverse-transport",
+            "tier": "power",
+            "t": "In “reverse transport,” HDL carries extra amounts of it from body tissues back to the liver",
+            "k": ["reverse transport", "back to the liver"],
+            "n": 0
+        },
+        {
+            "id": "windaus",
+            "tier": "power",
+            "t": "Adolf Windaus won the 1928 Nobel Prize in Chemistry for research on sterols like it and their link to vitamins",
+            "k": ["windaus", "1928"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The molecule, not its carriers",
+        "body": "LDL and HDL are not cholesterol itself. They are lipoproteins, tiny packages of fat and protein that carry it through the blood, but people call them “bad cholesterol” and “good cholesterol,” so players blurt “LDL” when a question wants the molecule. Others answer “steroid” or “sterol,” which names the whole family of four-ring molecules, not this one member.",
+        "fix": "If the question says “this molecule,” “this sterol,” or “this compound,” say cholesterol. Save “LDL” for a question about “this lipoprotein” that delivers it to cells, and “HDL” for the one that carries it back to the liver.",
+        "line": "Real answer line: <b><u>Cholesterol</u></b> (prompt on <u>sterol</u> or <u>steroid</u>; do not accept “LDL” or “HDL”)"
+    },
+    "tests": {
+        "right": [
+            "Cholesterol",
+            "cholestrol",
+            "Cholesteral",
+            "Cholesterin"
+        ],
+        "prompt": [
+            "Steroid",
+            "Sterol"
+        ],
+        "wrong": [
+            "LDL",
+            "HDL",
+            "Lipoprotein",
+            "Triglyceride",
+            "Ergosterol",
+            "Testosterone"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

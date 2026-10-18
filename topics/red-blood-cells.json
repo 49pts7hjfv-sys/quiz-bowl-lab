@@ -1,0 +1,460 @@
+{
+  "id": "red-blood-cells",
+  "name": "Red blood cells",
+  "mono": "ERY",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Disc-shaped oxygen carriers · Packed with hemoglobin, no nucleus",
+  "dates": "Each one lives about 120 days",
+  "briefing": "A single drop of blood holds millions of red blood cells, making them the most common cells in your body. These tiny, dented discs have no nucleus, which leaves more room for hemoglobin, the iron-rich protein that grabs oxygen in the lungs and gives blood its red color. Each one squeezes through narrow capillaries for about 120 days before the spleen recycles it.",
+  "answerHtml": "<b><u>Red blood cells</u></b> (accept <u>erythrocytes</u>, <u>RBCs</u>, or <u>red corpuscles</u>; prompt on <u>blood cells</u> or <u>blood</u>; do not accept “white blood cells” or “hemoglobin”)",
+  "accept": [
+    "red blood cells",
+    "red blood cell",
+    "erythrocytes",
+    "erythrocyte",
+    "rbc",
+    "rbcs",
+    "red cells",
+    "red cell",
+    "red corpuscles",
+    "red corpuscle",
+    "red blood corpuscles",
+    "red blood corpuscle"
+  ],
+  "prompt": [
+    "blood cells",
+    "blood cell",
+    "blood",
+    "cells",
+    "red blood",
+    "corpuscles"
+  ],
+  "reject": [
+    "white blood cells",
+    "white blood cell",
+    "white cells",
+    "leukocytes",
+    "leukocyte",
+    "platelets",
+    "platelet",
+    "thrombocytes",
+    "hemoglobin",
+    "plasma",
+    "sickle cells",
+    "sickle cell",
+    "sickle cell disease",
+    "stem cells",
+    "stem cell",
+    "lymphocytes",
+    "macrophages",
+    "neurons"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Red_blood_cell",
+  "qb": {
+    "q": "red blood cell",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Jan Swammerdam is usually credited as the first person to describe these cells, which he saw in frog blood through an early microscope in 1658. Antonie van Leeuwenhoek [“LAY-vun-hook”] described and measured these cells more precisely in the 1670s.",
+      "r": "These cells get their color from hemoglobin. For 10 points, name these oxygen-carrying blood cells."
+    },
+    {
+      "p": "Camels and llamas are unusual among mammals because these cells in their blood are oval instead of round. In birds, reptiles, and fish, these cells keep their nucleus, but in mammals they push it out as they mature.",
+      "r": "These cells are made in red bone marrow. For 10 points, name these disc-shaped cells that carry oxygen using hemoglobin."
+    },
+    {
+      "p": "Young versions of these cells, called reticulocytes [“reh-TIK-yoo-loh-sites”], still hold a net-like mesh of RNA. Athletes who train at high altitudes can end up with more of these cells, because low oxygen levels make the kidneys release the hormone erythropoietin [“ih-RITH-roh-POY-ih-tin”].",
+      "r": "For 10 points, name these blood cells that carry oxygen to the body’s tissues."
+    },
+    {
+      "p": "Breaking down the hemoglobin from these cells produces bilirubin, a yellow pigment that can build up and cause jaundice. Large white blood cells in the spleen, nicknamed these cells’ “graveyard,” remove old ones from circulation.",
+      "r": "Each of these cells lives about 120 days. For 10 points, name these oxygen-carrying blood cells."
+    },
+    {
+      "p": "In the chloride shift, a membrane protein called band 3 swaps bicarbonate ions for chloride ions across the membranes of these cells. Inside these cells, the enzyme carbonic anhydrase turns carbon dioxide and water into carbonic acid.",
+      "r": "These cells also carry some carbon dioxide back to the lungs. For 10 points, name these blood cells that carry oxygen using hemoglobin."
+    },
+    {
+      "p": "A molecule called 2,3-BPG, made inside these cells, helps them unload oxygen in the body’s tissues. They also give up more oxygen in acidic, carbon dioxide–rich areas, thanks to the Bohr effect, named for Niels Bohr’s father, Christian.",
+      "r": "For 10 points, name these hemoglobin-filled blood cells that are made in bone marrow."
+    },
+    {
+      "p": "In 1925, Gorter and Grendel extracted the fats from the membranes of these cells and found enough to cover their surface twice, which led to the idea of the lipid bilayer. The empty membranes left after these cells burst are called “ghosts.”",
+      "r": "In mammals, these cells have no nucleus. For 10 points, name these oxygen-carrying cells, which get their color from hemoglobin."
+    },
+    {
+      "p": "Peter Agre shared a 2003 Nobel Prize for discovering aquaporins, channels that let water rush across cell membranes, in the membranes of these cells. Placed in pure water, these cells swell up and burst, which is called hemolysis.",
+      "r": "In very salty water, they shrivel instead. For 10 points, name these cells that carry oxygen through the body."
+    },
+    {
+      "p": "In 1949, Linus Pauling’s team called a disorder affecting these cells a “molecular disease,” and Vernon Ingram later traced it to a single amino acid change in hemoglobin. In that disorder, sickle-cell disease, these cells can bend into stiff crescent shapes.",
+      "r": "Normally, these cells are flexible, biconcave discs. For 10 points, name these oxygen-carrying cells found in blood."
+    },
+    {
+      "p": "A mesh of the protein spectrin just under the membrane of these cells lets them bend through narrow capillaries and spring back into shape. In hereditary spherocytosis [“sfeer-oh-sye-TOH-sis”], faulty membrane proteins make these cells spherical instead of their usual biconcave disc shape.",
+      "r": "These cells are the most common cells in the human body. For 10 points, name these hemoglobin-packed cells that carry oxygen."
+    },
+    {
+      "p": "These cells can stack up like piles of coins in formations called rouleaux [“roo-LOH”]. When a blood sample is spun in a centrifuge, these cells sink to the bottom, and the percentage of the sample they fill is called the hematocrit.",
+      "r": "Each one lives about four months. For 10 points, name these blood cells that use hemoglobin to carry oxygen."
+    },
+    {
+      "p": "The A1C test for diabetes measures how much sugar has stuck to the hemoglobin inside these cells, which shows a person’s average blood sugar over the past two to three months. That works because each of these cells lasts about 120 days.",
+      "r": "In mammals, they lose their nucleus as they mature. For 10 points, name these oxygen-carrying cells made in bone marrow."
+    },
+    {
+      "p": "Because they lack mitochondria, these cells make all of their ATP by glycolysis and do not use the oxygen they carry to make energy. They also lack a nucleus, which leaves extra room for the hemoglobin packed inside them.",
+      "r": "For 10 points, name these biconcave cells, the most common cells in the human body."
+    },
+    {
+      "p": "Plasmodium parasites spend part of their life cycle inside these cells, which break open on a regular schedule and cause the repeating fevers of malaria. Carrying one copy of the gene for sickle-cell hemoglobin, found inside these cells, gives some protection against malaria.",
+      "r": "These cells are shaped like discs dented in on both sides. For 10 points, name these oxygen-carrying blood cells."
+    },
+    {
+      "p": "Because they are about 7 to 8 micrometers across, these cells are often used as a built-in ruler for judging the size of other things on microscope slides. Carbon monoxide is dangerous because it binds to the hemoglobin in these cells far more tightly than oxygen does.",
+      "r": "Antigens on these cells decide whether a person’s blood type is A, B, AB, or O. For 10 points, name these oxygen-carrying cells."
+    }
+  ],
+  "clues": [
+    {
+      "id": "carry-oxygen",
+      "tier": "giveaway",
+      "t": "Carry oxygen from the lungs to the body’s tissues",
+      "k": [
+        "oxygen",
+        "lungs",
+        "tissues"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hemoglobin",
+      "tier": "giveaway",
+      "t": "Packed with hemoglobin, the iron-containing protein that makes them red",
+      "k": [
+        "hemoglobin",
+        "iron-containing"
+      ],
+      "n": 0,
+      "rabbit": "Hemoglobin"
+    },
+    {
+      "id": "biconcave",
+      "tier": "giveaway",
+      "t": "Shaped like flexible discs dented in on both sides (biconcave)",
+      "k": [
+        "biconcave",
+        "discs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-nucleus",
+      "tier": "giveaway",
+      "t": "In mammals, mature ones have no nucleus",
+      "k": [
+        "nucleus",
+        "mammals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "most-common",
+      "tier": "giveaway",
+      "t": "The most common type of cell in the human body",
+      "k": [
+        "most common"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bone-marrow",
+      "tier": "middle",
+      "t": "Made in red bone marrow; the kidney hormone erythropoietin (EPO) speeds up production, as at high altitude",
+      "k": [
+        "bone marrow",
+        "erythropoietin",
+        "kidney",
+        "altitude"
+      ],
+      "n": 0
+    },
+    {
+      "id": "120-days",
+      "tier": "middle",
+      "t": "Each one lives about 120 days",
+      "k": [
+        "120 days"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spleen",
+      "tier": "middle",
+      "t": "Old ones are removed mainly in the spleen, nicknamed their “graveyard”",
+      "k": [
+        "spleen",
+        "graveyard"
+      ],
+      "n": 0,
+      "rabbit": "Spleen"
+    },
+    {
+      "id": "blood-type",
+      "tier": "middle",
+      "t": "Antigens on their surface set a person’s ABO blood type and Rh factor",
+      "k": [
+        "antigens",
+        "abo",
+        "rh factor"
+      ],
+      "n": 0,
+      "rabbit": "Blood types"
+    },
+    {
+      "id": "hematocrit",
+      "tier": "middle",
+      "t": "Hematocrit: the percentage of blood volume they fill, measured by spinning blood in a centrifuge",
+      "k": [
+        "hematocrit",
+        "centrifuge"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hemolysis",
+      "tier": "middle",
+      "t": "In pure water they swell and burst (hemolysis); in very salty water they shrivel",
+      "k": [
+        "hemolysis",
+        "shrivel",
+        "burst"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sickle-cell",
+      "tier": "middle",
+      "t": "Sickle-cell disease, caused by a single amino acid change in hemoglobin, can bend them into crescent shapes",
+      "k": [
+        "sickle-cell",
+        "crescent",
+        "amino acid"
+      ],
+      "n": 0,
+      "rabbit": "Sickle-cell disease"
+    },
+    {
+      "id": "glycolysis",
+      "tier": "middle",
+      "t": "Lacking mitochondria, they make ATP only by glycolysis",
+      "k": [
+        "mitochondria",
+        "glycolysis"
+      ],
+      "n": 0,
+      "rabbit": "Glycolysis"
+    },
+    {
+      "id": "malaria",
+      "tier": "middle",
+      "t": "Malaria parasites (Plasmodium) multiply inside them",
+      "k": [
+        "malaria",
+        "plasmodium"
+      ],
+      "n": 0,
+      "rabbit": "Malaria"
+    },
+    {
+      "id": "swammerdam",
+      "tier": "power",
+      "t": "Jan Swammerdam first described them, in frog blood, in 1658; Antonie van Leeuwenhoek measured them in the 1670s",
+      "k": [
+        "swammerdam",
+        "1658",
+        "leeuwenhoek",
+        "frog"
+      ],
+      "n": 0
+    },
+    {
+      "id": "camels",
+      "tier": "power",
+      "t": "Camels and llamas have oval ones; birds, reptiles, and fish have ones with nuclei",
+      "k": [
+        "camels",
+        "llamas",
+        "oval",
+        "nuclei"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reticulocytes",
+      "tier": "power",
+      "t": "Young ones, called reticulocytes, still hold a mesh of RNA",
+      "k": [
+        "reticulocytes",
+        "rna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bilirubin",
+      "tier": "power",
+      "t": "Breaking down their hemoglobin makes yellow bilirubin, which builds up in jaundice",
+      "k": [
+        "bilirubin",
+        "jaundice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chloride-shift",
+      "tier": "power",
+      "t": "Carbonic anhydrase inside them turns carbon dioxide into carbonic acid; in the chloride shift, band 3 swaps bicarbonate for chloride",
+      "k": [
+        "carbonic anhydrase",
+        "chloride shift",
+        "band 3",
+        "bicarbonate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bpg",
+      "tier": "power",
+      "t": "2,3-BPG made inside them helps hemoglobin release oxygen in the tissues",
+      "k": [
+        "2,3-bpg",
+        "release oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bohr-effect",
+      "tier": "power",
+      "t": "Bohr effect: acid and carbon dioxide make their hemoglobin give up oxygen; named for Christian Bohr, Niels Bohr’s father",
+      "k": [
+        "bohr effect",
+        "christian bohr"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gorter-grendel",
+      "tier": "power",
+      "t": "In 1925, Gorter and Grendel used their membranes to propose the lipid bilayer; their empty membranes are called “ghosts”",
+      "k": [
+        "gorter",
+        "grendel",
+        "lipid bilayer",
+        "ghosts"
+      ],
+      "n": 0,
+      "rabbit": "Cell membrane"
+    },
+    {
+      "id": "agre",
+      "tier": "power",
+      "t": "Peter Agre found aquaporin water channels in their membranes, sharing a 2003 Nobel Prize",
+      "k": [
+        "agre",
+        "aquaporin",
+        "2003"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pauling",
+      "tier": "power",
+      "t": "Linus Pauling’s team called sickle-cell anemia a “molecular disease” in 1949; Vernon Ingram found the amino acid change",
+      "k": [
+        "pauling",
+        "molecular disease",
+        "1949",
+        "ingram"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spectrin",
+      "tier": "power",
+      "t": "A mesh of spectrin under their membrane keeps them flexible; faulty proteins make them spherical in hereditary spherocytosis",
+      "k": [
+        "spectrin",
+        "spherocytosis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rouleaux",
+      "tier": "power",
+      "t": "They can stack like piles of coins in formations called rouleaux",
+      "k": [
+        "rouleaux",
+        "coins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "a1c",
+      "tier": "power",
+      "t": "The A1C test for diabetes measures sugar stuck to their hemoglobin over the past two to three months",
+      "k": [
+        "a1c",
+        "diabetes",
+        "two to three months"
+      ],
+      "n": 0,
+      "rabbit": "Diabetes"
+    },
+    {
+      "id": "built-in-ruler",
+      "tier": "power",
+      "t": "About 7 to 8 micrometers across, they serve as a built-in ruler on microscope slides",
+      "k": [
+        "micrometers",
+        "ruler"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Cell, protein, or fluid?",
+    "body": "Tossups on these cells talk constantly about hemoglobin, so players buzz with “hemoglobin,” which is the protein inside the cells, not the cells themselves. Others say “blood,” which is only a prompt here, or mix them up with white blood cells, which fight infection, and platelets, which help clotting.",
+    "fix": "If the question asks for “these cells” that carry oxygen, lack a nucleus, or live about 120 days, say red blood cells (or erythrocytes). Say hemoglobin only for “this protein,” and white blood cells for clues about antibodies, phagocytes, or lymphocytes.",
+    "line": "Real answer line: <b><u>Red blood cells</u></b> (accept <u>erythrocytes</u> or <u>RBCs</u>; prompt on <u>blood cells</u>; do not accept “white blood cells” or “hemoglobin”)"
+  },
+  "tests": {
+    "right": [
+      "Red blood cells",
+      "Erythrocytes",
+      "RBCs",
+      "red blood cell",
+      "Erythrocites",
+      "Red corpuscles"
+    ],
+    "prompt": [
+      "Blood cells",
+      "Blood"
+    ],
+    "wrong": [
+      "White blood cells",
+      "Platelets",
+      "Hemoglobin",
+      "Leukocytes",
+      "Plasma"
+    ]
+  }
+}

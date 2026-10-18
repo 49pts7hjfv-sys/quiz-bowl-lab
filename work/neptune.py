@@ -1,0 +1,329 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "neptune",
+    "name": "Neptune",
+    "mono": "NEP",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Eighth and farthest planet · The first planet found by math",
+    "dates": "Discovered 1846",
+    "briefing": "Neptune is the farthest planet from the Sun, so far away that it was found with math before anyone knew where to look. In 1846, astronomers used tugs on Uranus’s orbit to predict where an unseen planet should be, and Johann Galle spotted it the very night he received the prediction. This blue ice giant has the fastest winds of any planet, and only one spacecraft, Voyager 2, has ever visited it.",
+    "answerHtml": "<b><u>Neptune</u></b>",
+    "accept": [
+        "neptune",
+        "planet neptune"
+    ],
+    "prompt": [],
+    "reject": [
+        "poseidon",
+        "uranus",
+        "pluto",
+        "saturn",
+        "triton",
+        "trident",
+        "le verrier",
+        "neptunium"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Neptune",
+    "qb": {
+        "q": "Neptune",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The outermost ring of this planet is clumped into bright arcs named Liberté, Égalité, Fraternité, and Courage. That ring is named for John Couch Adams, one of two mathematicians who separately predicted where this planet would be found.",
+            "r": "For 10 points, name this eighth planet from the Sun, discovered in 1846."
+        },
+        {
+            "p": "Just 17 days after this planet was discovered, William Lassell found its largest moon, which orbits in the opposite direction from the planet’s spin. That moon, Triton, is probably an object captured from the Kuiper Belt.",
+            "r": "For 10 points, name this blue ice giant, the farthest planet from the Sun."
+        },
+        {
+            "p": "James Challis of Cambridge recorded this planet twice in the summer of 1846 without realizing what it was. Weeks later, Johann Galle [“GAH-luh”] found it at the Berlin Observatory, very close to where Urbain Le Verrier [“luh-vair-YAY”] had predicted it would be.",
+            "r": "For 10 points, name this ice giant, the eighth and farthest planet from the Sun."
+        },
+        {
+            "p": "Galileo sketched this planet in his notebooks in 1612 and 1613, but he thought it was just a faint star. It was finally recognized as a planet in 1846, after Le Verrier [“luh-vair-YAY”] used the tugs it caused on Uranus to calculate its position.",
+            "r": "For 10 points, name this eighth planet, named for the Roman god of the sea."
+        },
+        {
+            "p": "Gerard Kuiper [“KY-per”] discovered this planet’s moon Nereid [“NEER-ee-id”] in 1949, and Nereid’s orbit is one of the most stretched-out of any moon in the solar system. In 1989, Voyager 2 found this planet’s second-largest moon, a dark, lumpy body named Proteus.",
+            "r": "For 10 points, name this planet whose largest moon, Triton, orbits backward around it."
+        },
+        {
+            "p": "Voyager 2 photographed a fast-moving white cloud on this planet nicknamed “the Scooter,” as well as a giant storm called the Great Dark Spot. When the Hubble Space Telescope looked in 1994, that storm had vanished.",
+            "r": "For 10 points, name this blue ice giant, the eighth planet from the Sun, which Voyager 2 flew past in 1989."
+        },
+        {
+            "p": "This planet gives off far more heat than it receives from the Sun, unlike Uranus, which is slightly larger but less massive. Methane in this planet’s atmosphere absorbs red light, which helps give this planet its blue color.",
+            "r": "For 10 points, name this ice giant, the farthest planet from the Sun."
+        },
+        {
+            "p": "From 1979 to 1999, this planet was farther from the Sun than Pluto, because Pluto’s stretched-out orbit had carried it inside this planet’s path. The two never collide because Pluto orbits twice for every three orbits of this planet.",
+            "r": "For 10 points, name this eighth planet, named for the Roman sea god."
+        },
+        {
+            "p": "Gustav Holst’s _The Planets_ ends with a movement called “the Mystic,” named for this planet, in which an offstage choir of women’s voices slowly fades into silence. Element 93 is named for this planet.",
+            "r": "Its astronomical symbol is a trident. For 10 points, name this eighth planet from the Sun."
+        },
+        {
+            "p": "Scientists think the crushing pressure deep inside this planet may squeeze carbon into diamonds that sink like hail. This planet and Uranus are called ice giants because they contain lots of water, ammonia, and methane.",
+            "r": "For 10 points, name this blue planet, the eighth from the Sun, whose largest moon is Triton."
+        },
+        {
+            "p": "Voyager 2 spotted geysers shooting nitrogen gas from the frozen surface of this planet’s largest moon, one of the coldest places ever measured in the solar system. That moon, Triton, orbits this planet backward.",
+            "r": "For 10 points, name this farthest planet from the Sun, named for the Roman god of the sea."
+        },
+        {
+            "p": "In 2011, this planet completed its first full trip around the Sun since its discovery, an orbit that takes about 165 Earth years. Because its axis is tilted, each of its seasons lasts about 40 years.",
+            "r": "For 10 points, name this planet that Johann Galle discovered in 1846, using predictions by Urbain Le Verrier."
+        },
+        {
+            "p": "Urbain Le Verrier [“luh-vair-YAY”] in France and John Couch Adams in England separately used small tugs on Uranus’s orbit to predict where this planet must be. It became the first planet discovered through mathematical prediction rather than by searching the sky.",
+            "r": "Johann Galle spotted it on his first night of searching. For 10 points, name this eighth planet."
+        },
+        {
+            "p": "This planet has the fastest winds of any planet in the solar system, topping 1,000 miles per hour. Voyager 2 tracked giant storms there when it flew past in 1989, including one about as wide as Earth.",
+            "r": "Its largest moon is Triton. For 10 points, name this ice giant, the eighth planet from the Sun."
+        },
+        {
+            "p": "In August 1989, Voyager 2 made its last planetary flyby at this planet, passing close above its north pole before swinging toward its largest moon. That moon has a pinkish surface streaked with dark material from geysers.",
+            "r": "For 10 points, name this planet whose moon Triton was discovered just weeks after the planet itself."
+        }
+    ],
+    "clues": [
+        {
+            "id": "eighth-planet",
+            "tier": "giveaway",
+            "t": "The eighth and farthest planet from the Sun (since Pluto was reclassified as a dwarf planet in 2006)",
+            "k": ["eighth", "farthest planet", "pluto"],
+            "n": 0,
+            "rabbit": "Pluto"
+        },
+        {
+            "id": "sea-god",
+            "tier": "giveaway",
+            "t": "Named for the Roman god of the sea, the counterpart of the Greek Poseidon; its symbol is a trident",
+            "k": ["god of the sea", "poseidon", "trident"],
+            "n": 0,
+            "rabbit": "Poseidon"
+        },
+        {
+            "id": "math-discovery",
+            "tier": "giveaway",
+            "t": "The first planet found by mathematical prediction, from the tugs it caused on Uranus’s orbit",
+            "k": ["mathematical prediction", "uranus", "tugs"],
+            "n": 0,
+            "rabbit": "Uranus"
+        },
+        {
+            "id": "voyager-2",
+            "tier": "giveaway",
+            "t": "Voyager 2 is the only spacecraft to visit it, flying past in 1989",
+            "k": ["voyager 2", "1989"],
+            "n": 0
+        },
+        {
+            "id": "ice-giant",
+            "tier": "giveaway",
+            "t": "A blue ice giant; methane in its atmosphere absorbs red light",
+            "k": ["ice giant", "methane", "blue"],
+            "n": 0
+        },
+        {
+            "id": "le-verrier-adams",
+            "tier": "middle",
+            "t": "Urbain Le Verrier (France) and John Couch Adams (England) separately calculated where it should be",
+            "k": ["le verrier", "couch adams"],
+            "n": 0
+        },
+        {
+            "id": "galle",
+            "tier": "middle",
+            "t": "Johann Galle found it at the Berlin Observatory on September 23, 1846, close to the spot Le Verrier predicted",
+            "k": ["galle", "berlin", "1846"],
+            "n": 0
+        },
+        {
+            "id": "triton",
+            "tier": "middle",
+            "t": "Its largest moon, Triton, orbits backward (retrograde) and is probably a captured Kuiper Belt object",
+            "k": ["triton", "retrograde", "captured"],
+            "n": 0,
+            "rabbit": "Triton"
+        },
+        {
+            "id": "great-dark-spot",
+            "tier": "middle",
+            "t": "Voyager 2 saw a giant storm, the Great Dark Spot, in 1989; it was gone when the Hubble Space Telescope looked in 1994",
+            "k": ["great dark spot", "1994"],
+            "n": 0
+        },
+        {
+            "id": "winds",
+            "tier": "middle",
+            "t": "Has the fastest winds of any planet, topping 1,000 miles per hour",
+            "k": ["fastest winds", "winds"],
+            "n": 0
+        },
+        {
+            "id": "pluto-resonance",
+            "tier": "middle",
+            "t": "Pluto orbits the Sun twice for every three of its orbits, so the two never collide",
+            "k": ["never collide", "twice"],
+            "n": 0
+        },
+        {
+            "id": "galileo-1612",
+            "tier": "middle",
+            "t": "Galileo saw it in 1612 and 1613 but thought it was a star",
+            "k": ["galileo", "1612", "star"],
+            "n": 0
+        },
+        {
+            "id": "long-orbit",
+            "tier": "middle",
+            "t": "One orbit takes about 165 Earth years; it finished its first orbit since its discovery in 2011",
+            "k": ["165 earth years", "2011"],
+            "n": 0
+        },
+        {
+            "id": "element-93",
+            "tier": "middle",
+            "t": "Element 93 is named for it, just as element 92 is named for the planet just inside its orbit",
+            "k": ["element 93", "element 92"],
+            "n": 0
+        },
+        {
+            "id": "lassell",
+            "tier": "power",
+            "t": "William Lassell discovered Triton just 17 days after the planet itself was found",
+            "k": ["lassell", "17 days"],
+            "n": 0
+        },
+        {
+            "id": "geysers",
+            "tier": "power",
+            "t": "Voyager 2 saw nitrogen geysers on Triton, one of the coldest surfaces measured in the solar system",
+            "k": ["geysers", "nitrogen", "coldest"],
+            "n": 0
+        },
+        {
+            "id": "adams-ring",
+            "tier": "power",
+            "t": "Its outermost ring, the Adams ring, has bright arcs named Liberté, Égalité, Fraternité, and Courage",
+            "k": ["adams ring", "arcs", "courage"],
+            "n": 0
+        },
+        {
+            "id": "challis",
+            "tier": "power",
+            "t": "James Challis of Cambridge recorded it twice in 1846 without realizing it was a planet",
+            "k": ["challis", "cambridge"],
+            "n": 0
+        },
+        {
+            "id": "nereid",
+            "tier": "power",
+            "t": "Gerard Kuiper discovered its moon Nereid in 1949; Nereid has one of the most stretched-out orbits of any moon",
+            "k": ["nereid", "kuiper", "1949"],
+            "n": 0
+        },
+        {
+            "id": "proteus",
+            "tier": "power",
+            "t": "Its second-largest moon, the dark, lumpy Proteus, was found in Voyager 2 images in 1989",
+            "k": ["proteus", "second-largest"],
+            "n": 0
+        },
+        {
+            "id": "internal-heat",
+            "tier": "power",
+            "t": "Unlike Uranus, it gives off far more heat than it receives from the Sun",
+            "k": ["more heat", "heat"],
+            "n": 0
+        },
+        {
+            "id": "denser",
+            "tier": "power",
+            "t": "Slightly smaller than Uranus, but more massive and denser",
+            "k": ["more massive", "denser", "smaller"],
+            "n": 0
+        },
+        {
+            "id": "scooter",
+            "tier": "power",
+            "t": "Voyager 2 also tracked a fast-moving white cloud nicknamed “the Scooter”",
+            "k": ["scooter", "white cloud"],
+            "n": 0
+        },
+        {
+            "id": "farthest-1979-1999",
+            "tier": "power",
+            "t": "From 1979 to 1999, it was the farthest planet from the Sun, because Pluto had moved inside its orbit",
+            "k": ["1979", "1999"],
+            "n": 0
+        },
+        {
+            "id": "holst-mystic",
+            "tier": "power",
+            "t": "Gustav Holst’s _The Planets_ ends with its movement, “the Mystic,” which fades out with an offstage choir of women’s voices",
+            "k": ["mystic", "offstage choir", "holst"],
+            "n": 0
+        },
+        {
+            "id": "diamond-rain",
+            "tier": "power",
+            "t": "Scientists think high pressure deep inside may squeeze carbon into diamonds that sink like hail",
+            "k": ["diamonds", "carbon", "hail"],
+            "n": 0
+        },
+        {
+            "id": "seasons",
+            "tier": "power",
+            "t": "Its tilted axis gives it seasons that each last about 40 years",
+            "k": ["seasons", "40 years"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Neptune or Uranus?",
+        "body": "Uranus and Neptune are look-alike blue ice giants, and Neptune was only found because of Uranus: Le Verrier and Adams used tugs on Uranus’s orbit to predict where Neptune was. Players who hear “Uranus” early in a clue sometimes blurt it out. Mythology is the other trap: Poseidon is the Greek sea god, and only the Roman name is the planet.",
+        "fix": "Le Verrier, Adams, Galle, 1846, Triton, the Great Dark Spot, and the fastest winds mean Neptune. William Herschel, 1781, a sideways tilt, and moons named mostly for Shakespeare characters mean Uranus.",
+        "line": "Real answer line: <b><u>Neptune</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Neptune",
+            "neptune",
+            "Neptun",
+            "Nepture",
+            "Planet Neptune"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Uranus",
+            "Poseidon",
+            "Pluto",
+            "Triton",
+            "Saturn",
+            "Neptunium"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

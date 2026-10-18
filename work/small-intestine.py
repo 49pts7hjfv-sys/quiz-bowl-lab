@@ -1,0 +1,367 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "small-intestine",
+    "name": "Small intestine",
+    "mono": "SI",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Longest part of the digestive tract · Where most nutrients are absorbed",
+    "dates": "About 20 feet (6 meters) long in adults",
+    "briefing": "Your small intestine is a narrow, coiled tube about 20 feet long, folded up in your belly below the stomach. Its three sections, the duodenum, jejunum, and ileum, finish digesting your food with help from bile and pancreatic juice, then absorb nearly all of its nutrients. Millions of tiny, finger-like villi line its walls, giving it a huge surface for soaking up food.",
+    "answerHtml": "<b><u>Small intestine</u></b> (accept <u>small bowel</u>, <u>duodenum</u>, <u>jejunum</u>, or <u>ileum</u>; prompt on <u>intestine</u>, <u>bowel</u>, or <u>gut</u>; do not accept “large intestine” or “colon”)",
+    "accept": [
+        "small intestine",
+        "small intestines",
+        "small bowel",
+        "duodenum",
+        "jejunum",
+        "ileum"
+    ],
+    "prompt": [
+        "intestine",
+        "intestines",
+        "bowel",
+        "bowels",
+        "gut",
+        "intestinal tract",
+        "digestive tract",
+        "gi tract"
+    ],
+    "reject": [
+        "large intestine",
+        "large intestines",
+        "large bowel",
+        "colon",
+        "stomach",
+        "esophagus",
+        "rectum",
+        "appendix",
+        "cecum",
+        "caecum",
+        "pancreas",
+        "liver",
+        "gallbladder",
+        "villi",
+        "villus",
+        "microvilli",
+        "ilium",
+        "ileus",
+        "chyme",
+        "mesentery",
+        "lacteals",
+        "peyers patches"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Small_intestine",
+    "qb": {
+        "q": "small intestine",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Paneth [“PAH-net”] cells at the bottoms of the crypts of Lieberkühn [“LEE-ber-koon”] protect this organ by releasing germ-killing proteins, while stem cells nearby replace its inner lining every few days. Goblet cells in that lining release protective mucus.",
+            "r": "For 10 points, name this longest section of the digestive tract, where most nutrients are absorbed."
+        },
+        {
+            "p": "Lacteals [“LAK-tee-ulz”], tiny lymph vessels inside this organ’s villi, absorb digested fats packaged as chylomicrons [“kye-loh-MY-kronz”], while sugars and amino acids enter its capillaries and travel to the liver through the hepatic portal vein.",
+            "r": "It follows the stomach in the digestive tract. For 10 points, name this organ lined with finger-like villi, where most digested food is absorbed."
+        },
+        {
+            "p": "Brunner’s glands in the first section of this organ release alkaline mucus that protects it from stomach acid, and its S cells release the hormone secretin when acidic chyme arrives. That first section also receives bile and pancreatic juice.",
+            "r": "For 10 points, name this organ that connects the stomach to the large intestine."
+        },
+        {
+            "p": "The final section of this organ absorbs vitamin B12 with the help of a protein called intrinsic factor, and it recycles bile salts so the liver can reuse them. That section also holds clusters of immune tissue called Peyer’s [“PYE-erz”] patches.",
+            "r": "That section empties into the large intestine through a valve. For 10 points, name this longest part of the digestive tract."
+        },
+        {
+            "p": "Oral rehydration drinks mix sugar and salt because this organ’s lining absorbs glucose and sodium together through a carrier protein called SGLT1. The enzyme lactase, made on its lining, breaks down milk sugar, and people who make too little of it are lactose intolerant.",
+            "r": "Its walls are lined with villi. For 10 points, name this organ where most digestion and absorption take place."
+        },
+        {
+            "p": "In people with celiac disease, the immune system reacts to gluten by damaging this organ’s villi, which can flatten them and make it hard to absorb nutrients. Crohn’s disease often affects the last section of this organ.",
+            "r": "For 10 points, name this organ, about 20 feet long in adults, that follows the stomach."
+        },
+        {
+            "p": "The name of this organ’s first section comes from the Latin word for “twelve,” because that section was said to be about twelve finger-widths long. That short, C-shaped section wraps around the head of the pancreas.",
+            "r": "For 10 points, name this organ that receives chyme from the stomach and absorbs most of the nutrients in food."
+        },
+        {
+            "p": "Circular folds, finger-like villi, and tiny microvilli that form a “brush border” all multiply the surface area of this organ’s lining. Enzymes on that brush border, such as sucrase and maltase, finish breaking sugars down.",
+            "r": "It receives chyme from the stomach. For 10 points, name this organ where most nutrients are absorbed into the blood."
+        },
+        {
+            "p": "This organ’s first section makes cholecystokinin [“koh-luh-sis-toh-KY-nin”], or CCK, a hormone that tells the gallbladder to squeeze out bile when fatty food arrives. Its lining also makes enteropeptidase, which switches on the protein-cutting enzyme trypsin.",
+            "r": "Most nutrients are absorbed through its villi. For 10 points, name this organ that lies between the stomach and the large intestine."
+        },
+        {
+            "p": "Waves of muscle contraction called peristalsis push food along this organ, while back-and-forth squeezes called segmentation mix the food with digestive juices. This organ absorbs most of the water that enters the digestive tract, more than the large intestine does.",
+            "r": "For 10 points, name this narrow, coiled organ, which is about 20 feet long."
+        },
+        {
+            "p": "Most of the iron in food is absorbed in this organ’s first section, where ulcers caused by the bacterium H. pylori often form. The pyloric sphincter controls how quickly partly digested food enters this organ.",
+            "r": "For 10 points, name this organ, the longest part of the digestive tract, whose lining is covered in villi."
+        },
+        {
+            "p": "A fan-shaped fold of tissue called the mesentery [“MEZ-en-tair-ee”] holds this organ’s loops in place and carries its blood vessels. Its coiled middle section has especially tall circular folds and absorbs a large share of the body’s nutrients.",
+            "r": "For 10 points, name this organ, narrower than the large intestine but about four times as long."
+        },
+        {
+            "p": "Between meals, the hormone motilin triggers sweeping waves of contraction through this organ that clear out leftover food and bacteria, a pattern called the migrating motor complex. Its villi are covered with absorbing cells called enterocytes.",
+            "r": "For 10 points, name this organ where most of the nutrients from food are absorbed."
+        },
+        {
+            "p": "Bile salts break fats in this organ into tiny droplets, then form micelles [“MY-sellz”] that ferry digested fats to its lining. Pancreatic lipase and amylase do most of their work inside this organ.",
+            "r": "For 10 points, name this organ that lies between the stomach and the large intestine and is lined with villi."
+        },
+        {
+            "p": "In 1902, William Bayliss and Ernest Starling discovered the first known hormone, secretin, after acid placed inside this organ made the pancreas release its juice even though the nerves to that area had been cut. Hormones made here also tell the gallbladder to release bile.",
+            "r": "Its lining is covered in finger-like villi. For 10 points, name this organ that receives chyme from the stomach."
+        }
+    ],
+    "clues": [
+        {
+            "id": "after-stomach",
+            "tier": "giveaway",
+            "t": "Receives partly digested food (chyme) from the stomach and passes what is left to the large intestine",
+            "k": ["chyme", "stomach", "large intestine"],
+            "n": 0,
+            "rabbit": "Stomach"
+        },
+        {
+            "id": "absorbs-nutrients",
+            "tier": "giveaway",
+            "t": "Where most digestion is finished and most nutrients are absorbed into the blood",
+            "k": ["nutrients", "absorbed"],
+            "n": 0
+        },
+        {
+            "id": "villi",
+            "tier": "giveaway",
+            "t": "Lined with millions of finger-like villi that add surface area",
+            "k": ["villi", "finger-like", "surface area"],
+            "n": 0
+        },
+        {
+            "id": "longest",
+            "tier": "giveaway",
+            "t": "The longest part of the digestive tract, about 20 feet (6 meters) long in adults",
+            "k": ["longest", "20 feet"],
+            "n": 0
+        },
+        {
+            "id": "small-width",
+            "tier": "giveaway",
+            "t": "Called “small” for its narrow width, about an inch, not for its length",
+            "k": ["narrow", "width"],
+            "n": 0
+        },
+        {
+            "id": "three-sections",
+            "tier": "middle",
+            "t": "Has three sections: a short C-shaped first section, a coiled middle section, and a long final section",
+            "k": ["three sections", "c-shaped"],
+            "n": 0
+        },
+        {
+            "id": "bile-pancreatic-juice",
+            "tier": "middle",
+            "t": "Its first section receives bile from the liver and gallbladder and digestive juice from the pancreas",
+            "k": ["bile", "pancreas", "gallbladder"],
+            "n": 0,
+            "rabbit": "Pancreas"
+        },
+        {
+            "id": "pyloric-sphincter",
+            "tier": "middle",
+            "t": "The pyloric sphincter controls how quickly food enters it from the stomach",
+            "k": ["pyloric sphincter", "pyloric"],
+            "n": 0
+        },
+        {
+            "id": "brush-border",
+            "tier": "middle",
+            "t": "Microvilli on its cells form a “brush border” whose enzymes, like lactase and sucrase, finish digestion",
+            "k": ["brush border", "microvilli", "lactase"],
+            "n": 0
+        },
+        {
+            "id": "lacteals",
+            "tier": "middle",
+            "t": "Lacteals in the villi absorb fats; sugars and amino acids enter capillaries that lead to the liver",
+            "k": ["lacteals", "capillaries"],
+            "n": 0
+        },
+        {
+            "id": "peristalsis",
+            "tier": "middle",
+            "t": "Peristalsis pushes food along it; segmentation mixes the food with digestive juices",
+            "k": ["peristalsis", "segmentation"],
+            "n": 0
+        },
+        {
+            "id": "water",
+            "tier": "middle",
+            "t": "Absorbs most of the water that enters the gut, more than the large intestine does",
+            "k": ["water", "most of the water"],
+            "n": 0
+        },
+        {
+            "id": "celiac",
+            "tier": "middle",
+            "t": "In celiac disease, the immune system reacts to gluten and damages its villi",
+            "k": ["celiac", "gluten"],
+            "n": 0
+        },
+        {
+            "id": "secretin-cck",
+            "tier": "middle",
+            "t": "Its first section makes the hormones secretin and CCK, which signal the pancreas and gallbladder",
+            "k": ["secretin", "hormones", "cck"],
+            "n": 0
+        },
+        {
+            "id": "paneth",
+            "tier": "power",
+            "t": "Paneth cells at the base of the crypts of Lieberkühn release germ-killing proteins; goblet cells make mucus",
+            "k": ["paneth", "lieberkühn", "goblet"],
+            "n": 0
+        },
+        {
+            "id": "renewal",
+            "tier": "power",
+            "t": "Stem cells in its crypts replace its inner lining every few days",
+            "k": ["stem cells", "every few days", "crypts"],
+            "n": 0
+        },
+        {
+            "id": "brunners-glands",
+            "tier": "power",
+            "t": "Brunner’s glands in its first section release alkaline mucus that shields it from stomach acid",
+            "k": ["brunner’s glands", "brunner", "alkaline"],
+            "n": 0
+        },
+        {
+            "id": "b12",
+            "tier": "power",
+            "t": "Its final section absorbs vitamin B12 (with intrinsic factor) and recycles bile salts",
+            "k": ["vitamin b12", "intrinsic factor", "bile salts"],
+            "n": 0,
+            "rabbit": "B vitamins"
+        },
+        {
+            "id": "peyers-patches",
+            "tier": "power",
+            "t": "Its final section holds immune tissue called Peyer’s patches; Crohn’s disease often affects that section",
+            "k": ["peyer’s patches", "peyer", "crohn’s"],
+            "n": 0
+        },
+        {
+            "id": "twelve",
+            "tier": "power",
+            "t": "Its first section’s name comes from Latin for “twelve,” for a length of about twelve finger-widths",
+            "k": ["twelve", "finger-widths", "latin"],
+            "n": 0
+        },
+        {
+            "id": "chylomicrons",
+            "tier": "power",
+            "t": "Digested fats enter its lacteals packaged as chylomicrons; nutrients in its capillaries reach the liver by the hepatic portal vein",
+            "k": ["chylomicrons", "hepatic portal vein"],
+            "n": 0
+        },
+        {
+            "id": "sglt1",
+            "tier": "power",
+            "t": "Absorbs glucose together with sodium through SGLT1, which is why oral rehydration drinks mix sugar and salt",
+            "k": ["sglt1", "oral rehydration", "sodium"],
+            "n": 0
+        },
+        {
+            "id": "enteropeptidase",
+            "tier": "power",
+            "t": "Its lining makes enteropeptidase, which switches on the pancreas’s protein-cutting enzyme trypsin",
+            "k": ["enteropeptidase", "trypsin"],
+            "n": 0
+        },
+        {
+            "id": "iron-ulcers",
+            "tier": "power",
+            "t": "Most dietary iron is absorbed in its first section, where ulcers caused by H. pylori often form",
+            "k": ["iron", "ulcers", "h. pylori"],
+            "n": 0
+        },
+        {
+            "id": "mesentery",
+            "tier": "power",
+            "t": "A fan-shaped fold called the mesentery holds its loops in place; its middle section has tall circular folds",
+            "k": ["mesentery", "circular folds"],
+            "n": 0
+        },
+        {
+            "id": "motilin",
+            "tier": "power",
+            "t": "Between meals, the hormone motilin triggers cleansing waves called the migrating motor complex",
+            "k": ["motilin", "migrating motor complex"],
+            "n": 0
+        },
+        {
+            "id": "micelles",
+            "tier": "power",
+            "t": "Bile salts break fats into tiny droplets and form micelles that carry digested fats to its lining",
+            "k": ["micelles", "bile salts"],
+            "n": 0
+        },
+        {
+            "id": "bayliss-starling",
+            "tier": "power",
+            "t": "Bayliss and Starling (1902) found secretin, the first known hormone, by putting acid inside it",
+            "k": ["bayliss", "starling", "1902"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Small or large intestine?",
+        "body": "Both are tubes that come after the stomach and both absorb water, so players mix them up; the large intestine is wider but much shorter and holds most of the gut’s bacteria. Saying just “intestine” or “bowel” earns a prompt, so be ready to add “small.” Some tossups ask for one section, especially the duodenum, the C-shaped first part that receives bile and pancreatic juice; the jejunum is the middle and the ileum is the end.",
+        "fix": "Villi, chyme from the stomach, bile and pancreatic juice, Peyer’s patches, or vitamin B12 mean the small intestine. The appendix, the cecum, the colon, or squeezing the last water out of waste mean the large intestine. When unsure, say “small intestine,” since not every answer line accepts a single section.",
+        "line": "Real answer line: <b><u>Small intestine</u></b> (prompt on <u>intestine</u> or <u>bowel</u>; do not accept “large intestine”)"
+    },
+    "tests": {
+        "right": [
+            "Small intestine",
+            "small intestines",
+            "the small intestine",
+            "Duodenum",
+            "small intestin",
+            "ileum"
+        ],
+        "prompt": [
+            "Intestine",
+            "Bowel",
+            "intestines"
+        ],
+        "wrong": [
+            "Large intestine",
+            "Colon",
+            "Stomach",
+            "Ilium",
+            "Villi",
+            "Esophagus"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

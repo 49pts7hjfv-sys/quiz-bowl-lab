@@ -1,0 +1,355 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "scattering",
+    "name": "Scattering",
+    "mono": "SCT",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Light and particles bouncing off in new directions · Why the sky is blue",
+    "dates": "Rayleigh explained the blue sky in 1871",
+    "briefing": "Scattering happens when light or a particle hits something and bounces off in a new direction. Air molecules scatter blue sunlight much more than red, which is why the sky looks blue and sunsets glow orange and red. Physicists also scatter particles off targets to study things too small to see: alpha particles bouncing back from thin gold foil led Ernest Rutherford to discover the atomic nucleus in 1911.",
+    "answerHtml": "<b><u>scattering</u></b> (accept word forms like <u>scatter</u>; accept specific types like <u>Rayleigh scattering</u> or <u>Compton scattering</u>; prompt on <u>Tyndall effect</u> or <u>Compton effect</u>)",
+    "accept": [
+        "scattering",
+        "scatter",
+        "scattered",
+        "scatters",
+        "light scattering",
+        "scattering of light",
+        "rayleigh scattering",
+        "mie scattering",
+        "compton scattering",
+        "raman scattering",
+        "thomson scattering",
+        "rutherford scattering",
+        "brillouin scattering",
+        "elastic scattering",
+        "inelastic scattering",
+        "deep inelastic scattering"
+    ],
+    "prompt": [
+        "tyndall effect",
+        "compton effect",
+        "raman effect"
+    ],
+    "reject": [
+        "diffraction",
+        "refraction",
+        "reflection",
+        "diffuse reflection",
+        "dispersion",
+        "absorption",
+        "interference",
+        "polarization",
+        "diffusion",
+        "lord rayleigh",
+        "rayleigh criterion",
+        "gold foil experiment",
+        "scatter plot"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Scattering",
+    "qb": {
+        "q": "scattering",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In one type of this process, the amount of light affected goes as one over the wavelength to the fourth power, so short blue waves are affected far more than long red ones. This process also explains why sunsets glow orange and red.",
+            "r": "That type is named for Lord Rayleigh. For 10 points, name this process in which air molecules send sunlight off in all directions, making the sky look blue."
+        },
+        {
+            "p": "C. V. Raman began studying this process after wondering why the Mediterranean Sea looked so blue on a 1921 voyage to Europe. In 1928, he found an “inelastic” form of this process, in which light comes out with a slightly different wavelength.",
+            "r": "For 10 points, name this process that Lord Rayleigh used to explain the blue color of the sky."
+        },
+        {
+            "p": "Arthur Compton won a Nobel Prize for showing that X-rays bounce off electrons like billiard balls in this process, coming out with longer wavelengths. That 1923 result helped convince physicists that light comes in particles called photons.",
+            "r": "For 10 points, name this process that, for sunlight in air, makes the daytime sky look blue."
+        },
+        {
+            "p": "Gustav Mie [“MEE”] worked out the math of this process for particles as large as a light wave or larger, which explains why the water droplets in clouds look white instead of blue. Smaller particles, like air molecules, favor blue light in this process.",
+            "r": "For 10 points, name this process that makes the daytime sky blue and sunsets red."
+        },
+        {
+            "p": "Hans Geiger and Ernest Marsden fired alpha particles at a thin gold foil and saw a few of them bounce almost straight back, an example of this process. Ernest Rutherford used the result to discover the tiny, dense atomic nucleus in 1911.",
+            "r": "For 10 points, name this process in which waves or particles are knocked into new directions, which makes the sky look blue."
+        },
+        {
+            "p": "At SLAC in the late 1960s, “deep inelastic” experiments of this kind, which fired electrons at protons, revealed that protons are made of smaller particles later identified as quarks. Physicists describe how likely this process is with a quantity called a cross section.",
+            "r": "In the air, this process sends blue sunlight in all directions. For 10 points, name this process that makes the sky look blue."
+        },
+        {
+            "p": "The likelihood of this process is often measured in a tiny unit of area called the barn, which got its name from the joke that a uranium nucleus was “as big as a barn.” On Mars, fine dust in the air causes this process to make sunsets look blue.",
+            "r": "On Earth, this process by air molecules makes the daytime sky blue. For 10 points, name this process, in which light is redirected after hitting particles."
+        },
+        {
+            "p": "John Tyndall [“TIN-dul”] showed that a light beam becomes visible as it passes through a colloid, such as milky water or fog, because tiny particles cause this process. Clouds look white because their water droplets cause this process for all colors about equally.",
+            "r": "Air molecules send blue sunlight in all directions in this process. For 10 points, name this process that makes the sky look blue."
+        },
+        {
+            "p": "Sunlight that undergoes this process in the sky becomes partly polarized, most strongly in directions at right angles to the Sun, and bees use that pattern to navigate. This process affects violet light even more than blue light, but sunlight contains less violet and human eyes are more sensitive to blue.",
+            "r": "That is why this process makes the sky look blue, not violet. For 10 points, name this process, which also makes sunsets red."
+        },
+        {
+            "p": "Blue eyes contain no blue pigment; instead, they get their color from this process in a layer of the iris. This process in the air between you and a faraway mountain range makes the mountains look hazy and bluish.",
+            "r": "For 10 points, name this process by which air molecules redirect sunlight, making the daytime sky blue."
+        },
+        {
+            "p": "Before neutral atoms formed, about 380,000 years after the Big Bang, light could not travel far because of the Thomson type of this process, in which light bounces off free electrons without losing energy. That type is the low-energy version of a type named for Arthur Compton.",
+            "r": "In air, this process favors blue light. For 10 points, name this process that makes the daytime sky look blue."
+        },
+        {
+            "p": "Léon Brillouin [“bree-WAN”] predicted a type of this process in which light trades energy with sound waves inside a material. Types of this process that change the light’s energy, like Raman’s, are called inelastic, while types that do not, like Rayleigh’s, are called elastic.",
+            "r": "For 10 points, name this process, which makes the sky look blue and clouds look white."
+        },
+        {
+            "p": "A formula named for Ernest Rutherford predicts that the number of alpha particles sent off at an angle by this process drops sharply as that angle grows, following one over the sine of half the angle to the fourth power. That formula matched the results of the gold foil experiment.",
+            "r": "For 10 points, name this process in which particles or waves are deflected after hitting something, the reason the sky looks blue."
+        },
+        {
+            "p": "In the “inverse” form of a type of this process named for Arthur Compton, fast-moving electrons give energy to low-energy photons, boosting them to X-ray or gamma-ray energies. Raman spectroscopy uses this process to identify molecules from the tiny wavelength shifts they give to laser light.",
+            "r": "For 10 points, name this process that makes the daytime sky look blue and sunsets look red."
+        },
+        {
+            "p": "Clifford Shull and Bertram Brockhouse shared a Nobel Prize for using beams of neutrons in this process to study the structure of solids and liquids. Lord Rayleigh used this process in 1871 to explain a color that people see every day.",
+            "r": "For 10 points, name this process in which air molecules redirect sunlight, making the sky blue."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "Light or particles hit something and bounce off in new directions",
+            "k": ["bounce off", "new directions"],
+            "n": 0
+        },
+        {
+            "id": "blue-sky",
+            "tier": "giveaway",
+            "t": "Air molecules send blue sunlight off in all directions, making the daytime sky look blue",
+            "k": ["air molecules", "blue sunlight", "sky"],
+            "n": 0
+        },
+        {
+            "id": "sunsets",
+            "tier": "giveaway",
+            "t": "Sunsets look red and orange because blue light is removed along the long path through the air",
+            "k": ["sunsets", "long path"],
+            "n": 0
+        },
+        {
+            "id": "rayleigh",
+            "tier": "giveaway",
+            "t": "Lord Rayleigh explained the blue sky with it in 1871",
+            "k": ["lord rayleigh", "1871"],
+            "n": 0,
+            "rabbit": "Lord Rayleigh"
+        },
+        {
+            "id": "gold-foil",
+            "tier": "giveaway",
+            "t": "Rutherford’s gold foil experiment bounced alpha particles off atoms, revealing the nucleus",
+            "k": ["gold foil", "alpha particles", "nucleus"],
+            "n": 0
+        },
+        {
+            "id": "fourth-power",
+            "tier": "middle",
+            "t": "Rayleigh’s type depends on 1 ÷ wavelength to the fourth power, so short blue waves are affected most",
+            "k": ["fourth power", "wavelength"],
+            "n": 0
+        },
+        {
+            "id": "mie-clouds",
+            "tier": "middle",
+            "t": "Gustav Mie’s type, by particles as big as a light wave or bigger, affects all colors about equally, so clouds look white",
+            "k": ["clouds", "white", "mie"],
+            "n": 0,
+            "rabbit": "Clouds"
+        },
+        {
+            "id": "compton",
+            "tier": "middle",
+            "t": "Arthur Compton (1923): X-rays bounce off electrons and come out with longer wavelengths, showing light acts as particles (photons)",
+            "k": ["compton", "x-rays", "photons"],
+            "n": 0,
+            "rabbit": "X-rays"
+        },
+        {
+            "id": "raman",
+            "tier": "middle",
+            "t": "C. V. Raman (Nobel Prize, 1930) found an “inelastic” type in which light’s wavelength shifts slightly",
+            "k": ["raman", "inelastic", "1930"],
+            "n": 0
+        },
+        {
+            "id": "tyndall",
+            "tier": "middle",
+            "t": "The Tyndall effect: tiny particles in a colloid or in fog make a light beam visible",
+            "k": ["tyndall", "colloid", "fog"],
+            "n": 0
+        },
+        {
+            "id": "not-violet",
+            "tier": "middle",
+            "t": "Violet is affected even more than blue, but sunlight has less violet and our eyes are more sensitive to blue",
+            "k": ["violet", "sensitive"],
+            "n": 0
+        },
+        {
+            "id": "blue-eyes",
+            "tier": "middle",
+            "t": "Blue eyes have no blue pigment; their color comes from it in a layer of the iris",
+            "k": ["blue eyes", "pigment", "iris"],
+            "n": 0
+        },
+        {
+            "id": "elastic",
+            "tier": "middle",
+            "t": "Elastic types (like Rayleigh’s) keep the light’s energy; inelastic types (like Raman’s) change it",
+            "k": ["elastic", "energy"],
+            "n": 0
+        },
+        {
+            "id": "polarized",
+            "tier": "middle",
+            "t": "Skylight is partly polarized by it, most strongly at right angles to the Sun; bees navigate using the pattern",
+            "k": ["polarized", "bees", "right angles"],
+            "n": 0
+        },
+        {
+            "id": "mountains",
+            "tier": "middle",
+            "t": "Faraway mountains look hazy and bluish because of it in the air in between",
+            "k": ["mountains", "hazy"],
+            "n": 0
+        },
+        {
+            "id": "raman-voyage",
+            "tier": "power",
+            "t": "Raman got curious on a 1921 voyage to Europe, wondering why the Mediterranean Sea was so blue; India’s National Science Day (February 28) honors his discovery",
+            "k": ["mediterranean", "1921", "national science day"],
+            "n": 0
+        },
+        {
+            "id": "geiger-marsden",
+            "tier": "power",
+            "t": "Hans Geiger and Ernest Marsden did the gold foil experiment (1909); Rutherford explained it in 1911",
+            "k": ["geiger", "marsden", "1909"],
+            "n": 0
+        },
+        {
+            "id": "rutherford-formula",
+            "tier": "power",
+            "t": "Rutherford’s formula: the number sent off at an angle falls as 1 ÷ the sine of half the angle to the fourth power",
+            "k": ["rutherford", "sine", "half the angle"],
+            "n": 0
+        },
+        {
+            "id": "slac",
+            "tier": "power",
+            "t": "SLAC’s “deep inelastic” experiments (late 1960s) fired electrons at protons and found quarks inside",
+            "k": ["slac", "deep inelastic", "quarks"],
+            "n": 0,
+            "rabbit": "Quarks"
+        },
+        {
+            "id": "barn",
+            "tier": "power",
+            "t": "Its likelihood is a “cross section,” measured in barns (a uranium nucleus was joked to be “as big as a barn”)",
+            "k": ["cross section", "barns"],
+            "n": 0
+        },
+        {
+            "id": "thomson",
+            "tier": "power",
+            "t": "Thomson’s type is light bouncing off free electrons without losing energy, the low-energy version of Compton’s",
+            "k": ["thomson", "free electrons"],
+            "n": 0
+        },
+        {
+            "id": "big-bang",
+            "tier": "power",
+            "t": "Before neutral atoms formed, about 380,000 years after the Big Bang, it off free electrons kept light from traveling far",
+            "k": ["380,000", "big bang"],
+            "n": 0
+        },
+        {
+            "id": "mars",
+            "tier": "power",
+            "t": "On Mars, fine dust in the air makes sunsets look blue",
+            "k": ["mars", "dust"],
+            "n": 0
+        },
+        {
+            "id": "brillouin",
+            "tier": "power",
+            "t": "Léon Brillouin’s type: light trades energy with sound waves inside a material",
+            "k": ["brillouin", "sound waves"],
+            "n": 0
+        },
+        {
+            "id": "inverse-compton",
+            "tier": "power",
+            "t": "In “inverse” Compton’s type, fast electrons boost low-energy photons up to X-ray or gamma-ray energies",
+            "k": ["inverse", "gamma-ray"],
+            "n": 0
+        },
+        {
+            "id": "raman-spectroscopy",
+            "tier": "power",
+            "t": "Raman spectroscopy identifies molecules from the tiny wavelength shifts they give to laser light",
+            "k": ["raman spectroscopy", "laser"],
+            "n": 0,
+            "rabbit": "Lasers"
+        },
+        {
+            "id": "neutron-beams",
+            "tier": "power",
+            "t": "Clifford Shull and Bertram Brockhouse won a Nobel Prize for using neutron beams this way to study solids and liquids",
+            "k": ["shull", "brockhouse", "neutron beams"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not diffraction or refraction",
+        "body": "Scattering, diffraction, refraction, and reflection are all things light can do, and quiz bowl treats them as separate answers. Scattering sends light off in many directions after it hits small particles, like air molecules (the blue sky) or the atoms in gold foil. Diffraction is a wave spreading around an edge or through a narrow slit, refraction is light bending as it enters a new material, and reflection is bouncing off a surface like a mirror.",
+        "fix": "Blue sky, sunsets, colloids, Compton, Raman, or gold foil means scattering, and specific types like “Rayleigh scattering” are fine. Slits or gratings mean diffraction, prisms or lenses mean refraction, and saying just “Lord Rayleigh” names the scientist, not the process.",
+        "line": "Real answer line: <b><u>scattering</u></b> (accept specific types like <u>Rayleigh scattering</u> or <u>Compton scattering</u>; do not accept “diffraction”)"
+    },
+    "tests": {
+        "right": [
+            "Scattering",
+            "Rayleigh scattering",
+            "Compton scattering",
+            "scatter",
+            "Scatering"
+        ],
+        "prompt": [
+            "Tyndall effect",
+            "Compton effect"
+        ],
+        "wrong": [
+            "Diffraction",
+            "Refraction",
+            "Reflection",
+            "Lord Rayleigh",
+            "Dispersion"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

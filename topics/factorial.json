@@ -1,0 +1,459 @@
+{
+  "id": "factorial",
+  "name": "Factorial",
+  "mono": "FAC",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Multiply every whole number from 1 up to n · Counts the ways to line things up",
+  "dates": "Exclamation-point notation introduced by Christian Kramp, 1808",
+  "briefing": "The factorial of a whole number, written with an exclamation point, multiplies it by every smaller whole number down to 1, so 5! = 5 × 4 × 3 × 2 × 1 = 120. Factorials count the ways to put things in order: three friends can line up in 3! = 6 ways, and a deck of 52 cards can be shuffled into a number of orders with 68 digits. They grow so fast that 70! is bigger than a googol, a 1 followed by 100 zeros.",
+  "answerHtml": "<b><u>factorial</u></b> (accept <u>n factorial</u> or <u>factorial function</u>; do not accept “permutations” or “gamma function”)",
+  "accept": [
+    "factorial",
+    "factorials",
+    "factorial function",
+    "factorial functions",
+    "n factorial",
+    "factorial notation"
+  ],
+  "prompt": [],
+  "reject": [
+    "permutation",
+    "permutations",
+    "combination",
+    "combinations",
+    "combinatorics",
+    "binomial coefficient",
+    "binomial coefficients",
+    "choose function",
+    "gamma function",
+    "gamma",
+    "double factorial",
+    "subfactorial",
+    "primorial",
+    "exponent",
+    "exponents",
+    "exponential",
+    "exponentiation",
+    "power",
+    "factor",
+    "factors",
+    "factoring",
+    "factorize",
+    "factorise",
+    "factorization",
+    "factorisation",
+    "factorion",
+    "factorions",
+    "stirlings approximation",
+    "stirlings formula",
+    "derangement",
+    "derangements",
+    "recursion",
+    "multiplication",
+    "product",
+    "sum",
+    "summation",
+    "triangular number",
+    "triangular numbers"
+  ],
+  "tests": {
+    "right": [
+      "factorial",
+      "Factorials",
+      "n factorial",
+      "factoral",
+      "factorial function"
+    ],
+    "prompt": [],
+    "wrong": [
+      "permutations",
+      "gamma function",
+      "exponents",
+      "factoring",
+      "double factorial",
+      "combinations"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Factorial",
+  "qb": {
+    "q": "factorial",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1808, Christian Kramp introduced the modern symbol for this operation, a punctuation mark written after a number. This operation gives 1 when applied to 0, because multiplying no numbers at all is defined to give 1.",
+      "r": "For 10 points, name this operation, written with an exclamation point, that multiplies a whole number by every smaller positive whole number."
+    },
+    {
+      "p": "James Stirling and Abraham de Moivre [“duh MWAHV”] found that, for large n, this function is approximately equal to the square root of 2 pi n, times n over e raised to the nth power. This function grows faster than any exponential function, such as 2 to the n.",
+      "r": "For 10 points, name this function, written n followed by an exclamation point, that equals 120 when n is 5."
+    },
+    {
+      "p": "Leonhard Euler extended this function beyond whole numbers with what is now called the gamma function, which makes this function of one-half equal to half the square root of pi. For positive whole numbers n, the gamma function of n equals this function of n minus 1.",
+      "r": "This function of n counts the ways to arrange n different objects in a row. For 10 points, name this function, which equals 24 for the number 4."
+    },
+    {
+      "p": "Wilson’s theorem says that a number p greater than 1 is prime exactly when one more than this function of p minus 1 is divisible by p. This function of 100 ends in exactly 24 zeros, because each zero comes from a 5 paired with a 2.",
+      "r": "For 10 points, name this function, written with an exclamation point, whose value for 6 is 720."
+    },
+    {
+      "p": "The number of ways to choose k objects from a group of n equals this function of n divided by the product of this function of k and this function of n minus k. Every entry of Pascal’s triangle can be found with that formula.",
+      "r": "This function of 52 counts the orders of a shuffled deck of cards, a number with 68 digits. For 10 points, name this function, which equals 6 for the number 3."
+    },
+    {
+      "p": "This function of 10 equals 3,628,800, which is exactly the number of seconds in six weeks. Computer programs often compute this function with recursion, multiplying n by the same function of n minus 1.",
+      "r": "For 10 points, name this function, written with an exclamation point, which multiplies all the whole numbers from 1 up to n."
+    },
+    {
+      "p": "A traveling salesman who checks every possible route through many cities faces a number of routes that grows like this function of the number of cities. Many calculators show an error for this function of 70, because its value is more than a googol.",
+      "r": "Its value for 3 is 6. For 10 points, name this function, which equals 5,040 for the number 7."
+    },
+    {
+      "p": "Brocard’s [“broh-KARZ”] problem asks when one more than this function of n is a perfect square; the only known examples are n equals 4, 5, and 7. The number 145 equals the sum of this function applied to each of its digits.",
+      "r": "For 10 points, name this function, written with an exclamation point, whose value at 3 is 6."
+    },
+    {
+      "p": "If n letters are put into n addressed envelopes so that every letter goes to a wrong address, the number of ways to do it is the whole number closest to this function of n divided by e. Such arrangements, in which nothing lands in its original place, are called derangements.",
+      "r": "Eight runners can finish a race in 40,320 different orders, the value of this function at 8. For 10 points, name this function."
+    },
+    {
+      "p": "In 1677, Fabian Stedman explained how this function counts the different orders in which a set of church bells can be rung, in an English art called change ringing. The only whole numbers equal to this function of themselves are 1 and 2.",
+      "r": "Five bells can be rung in 120 different orders, the value of this function at 5. For 10 points, name this function, written with an exclamation point."
+    },
+    {
+      "p": "The number of positions of a Rubik’s Cube, about 43 quintillion, is found using this function of 8 for the corner pieces and this function of 12 for the edge pieces. This function also fills the denominators of the Taylor series for sine and cosine.",
+      "r": "It is written as a number followed by an exclamation point. For 10 points, name this function, which equals 24 for the number 4."
+    },
+    {
+      "p": "A “double” version of this function multiplies every other whole number, so applied to 7 it gives 7 times 5 times 3 times 1, or 105. The primorial, which multiplies only prime numbers, is named by analogy with this function.",
+      "r": "Four different books can be arranged on a shelf in 24 ways, the value of this function at 4. For 10 points, name this function."
+    },
+    {
+      "p": "Adrien-Marie Legendre’s [“luh-ZHAHN-druhz”] formula finds how many times a prime p divides this function of n by adding up n over p, n over p squared, n over p cubed, and so on, rounding each down.",
+      "r": "It counts the 120 ways to arrange the letters of “TOPIC.” For 10 points, name this function, written with an exclamation point."
+    },
+    {
+      "p": "The number of ways to seat n people around a round table, if rotating everyone counts as the same seating, is this function of n minus 1. Dividing this function of 8 by this function of 5 counts the ways to hand out three different medals among 8 runners.",
+      "r": "It is written with an exclamation point. For 10 points, name this function, which equals 6 when applied to 3."
+    },
+    {
+      "p": "Each term in the infinite series for e to the x is x to the n divided by this function of n, so e itself equals 1 plus 1 plus one-half plus one-sixth, and so on.",
+      "r": "Seven people can line up in 5,040 different orders. For 10 points, name this function, written with an exclamation point, that equals 720 for 6."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Multiplies a whole number by every smaller positive whole number: n × (n − 1) × … × 2 × 1",
+      "k": [
+        "multiplies",
+        "every smaller",
+        "whole number"
+      ],
+      "n": 0
+    },
+    {
+      "id": "notation",
+      "tier": "giveaway",
+      "t": "Written with an exclamation point after the number; its value for 5 is 5 × 4 × 3 × 2 × 1 = 120",
+      "k": [
+        "exclamation point",
+        "120"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arrangements",
+      "tier": "giveaway",
+      "t": "Applied to n, it counts the ways to arrange n different objects in a row (their permutations)",
+      "k": [
+        "arrange",
+        "permutations",
+        "in a row"
+      ],
+      "n": 0,
+      "rabbit": "Permutations"
+    },
+    {
+      "id": "small-values",
+      "tier": "giveaway",
+      "t": "Values to memorize: 3 gives 6, 4 gives 24, 6 gives 720, 7 gives 5,040, and 10 gives 3,628,800",
+      "k": [
+        "memorize",
+        "5,040",
+        "3,628,800"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zero",
+      "tier": "giveaway",
+      "t": "Its value for 0 is 1, because multiplying no numbers at all (the empty product) gives 1",
+      "k": [
+        "empty product",
+        "no numbers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "recursion",
+      "tier": "middle",
+      "t": "Defined recursively: its value for n is n times its value for n − 1, a classic first example of recursion in programming",
+      "k": [
+        "recursion",
+        "recursively"
+      ],
+      "n": 0,
+      "rabbit": "Recursion"
+    },
+    {
+      "id": "combinations",
+      "tier": "middle",
+      "t": "Combinations (n choose k) divide its value for n by its values for k and for n − k; they fill Pascal’s triangle",
+      "k": [
+        "combinations",
+        "choose",
+        "pascal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "medals",
+      "tier": "middle",
+      "t": "Gold, silver, and bronze medals can go to 3 of 8 runners in 8 × 7 × 6 = 336 ways: its value for 8 divided by its value for 5",
+      "k": [
+        "medals",
+        "runners",
+        "336"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cards",
+      "tier": "middle",
+      "t": "A 52-card deck can be shuffled in a number of orders equal to its value for 52, which has 68 digits",
+      "k": [
+        "52-card",
+        "68 digits",
+        "deck"
+      ],
+      "n": 0
+    },
+    {
+      "id": "six-weeks",
+      "tier": "middle",
+      "t": "Its value for 10, 3,628,800, is exactly the number of seconds in six weeks",
+      "k": [
+        "six weeks",
+        "seconds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "googol",
+      "tier": "middle",
+      "t": "Its value for 70 is more than a googol (10^100), so many calculators show an error",
+      "k": [
+        "googol",
+        "calculators"
+      ],
+      "n": 0
+    },
+    {
+      "id": "growth",
+      "tier": "middle",
+      "t": "Grows faster than any exponential, like 2^n; checking every traveling-salesman route takes time that grows like it",
+      "k": [
+        "exponential",
+        "traveling-salesman",
+        "faster"
+      ],
+      "n": 0
+    },
+    {
+      "id": "e-series",
+      "tier": "middle",
+      "t": "e = 1 + 1 + 1/2 + 1/6 + 1/24 + …, adding 1 over its value for each whole number; it also fills the Taylor series for sine and cosine",
+      "k": [
+        "taylor series",
+        "series",
+        "sine"
+      ],
+      "n": 0,
+      "rabbit": "Taylor series"
+    },
+    {
+      "id": "round-table",
+      "tier": "middle",
+      "t": "n people can sit around a round table in (its value for n − 1) ways, if rotations count as the same seating",
+      "k": [
+        "round table",
+        "rotations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kramp",
+      "tier": "power",
+      "t": "Christian Kramp introduced the exclamation-point notation in 1808",
+      "k": [
+        "kramp",
+        "1808"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stirling",
+      "tier": "power",
+      "t": "Stirling’s approximation (James Stirling and Abraham de Moivre): for large n, it is about √(2πn) × (n/e)^n",
+      "k": [
+        "stirling",
+        "de moivre",
+        "approximation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gamma",
+      "tier": "power",
+      "t": "Leonhard Euler’s gamma function extends it beyond whole numbers: Γ(n) equals its value for n − 1, and its value for 1/2 is √π ÷ 2",
+      "k": [
+        "gamma function",
+        "euler"
+      ],
+      "n": 0,
+      "rabbit": "Leonhard Euler"
+    },
+    {
+      "id": "wilson",
+      "tier": "power",
+      "t": "Wilson’s theorem: p > 1 is prime exactly when one more than its value for p − 1 is divisible by p",
+      "k": [
+        "wilson",
+        "prime",
+        "divisible"
+      ],
+      "n": 0,
+      "rabbit": "Prime numbers"
+    },
+    {
+      "id": "trailing-zeros",
+      "tier": "power",
+      "t": "Its value for 100 ends in exactly 24 zeros, one for each factor of 5 paired with a factor of 2",
+      "k": [
+        "24 zeros",
+        "factor of 5"
+      ],
+      "n": 0
+    },
+    {
+      "id": "legendre",
+      "tier": "power",
+      "t": "Legendre’s formula: the power of a prime p in its value for n is n/p + n/p² + n/p³ + …, each rounded down",
+      "k": [
+        "legendre",
+        "rounded down"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brocard",
+      "tier": "power",
+      "t": "Brocard’s problem: one more than its value for n is a perfect square for n = 4, 5, and 7, the only known cases",
+      "k": [
+        "brocard",
+        "perfect square"
+      ],
+      "n": 0
+    },
+    {
+      "id": "factorions",
+      "tier": "power",
+      "t": "145 is the sum of its values for 1, 4, and 5; only 1, 2, 145, and 40,585 equal the sum of its values for their digits",
+      "k": [
+        "145",
+        "digits",
+        "40,585"
+      ],
+      "n": 0
+    },
+    {
+      "id": "derangements",
+      "tier": "power",
+      "t": "Derangements (nothing left in its original place): the count is the whole number nearest its value for n, divided by e",
+      "k": [
+        "derangements",
+        "original place"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double",
+      "tier": "power",
+      "t": "The double version multiplies every other number, so for 7 it gives 7 × 5 × 3 × 1 = 105",
+      "k": [
+        "double",
+        "every other",
+        "105"
+      ],
+      "n": 0
+    },
+    {
+      "id": "primorial",
+      "tier": "power",
+      "t": "The primorial, which multiplies only prime numbers, is named by analogy with it",
+      "k": [
+        "primorial",
+        "analogy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stedman",
+      "tier": "power",
+      "t": "In 1677, Fabian Stedman used it to count the orders for ringing church bells (change ringing)",
+      "k": [
+        "stedman",
+        "change ringing",
+        "bells"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rubiks",
+      "tier": "power",
+      "t": "The Rubik’s Cube’s 43 quintillion positions are counted using its values for 8 (corner pieces) and 12 (edge pieces)",
+      "k": [
+        "rubik",
+        "quintillion",
+        "corner pieces"
+      ],
+      "n": 0
+    },
+    {
+      "id": "one-and-two",
+      "tier": "power",
+      "t": "The only whole numbers equal to their own value of it are 1 and 2",
+      "k": [
+        "only whole numbers",
+        "1 and 2"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Function or arrangements?",
+    "body": "Factorials count permutations, so a tossup about lining things up may want “permutations,” and one about choosing groups may want “combinations” or “binomial coefficients.” The gamma function extends the factorial to fractions, but it is its own answer line. Don’t mix factorials up with exponents either: 5! means 5 × 4 × 3 × 2 × 1, not 5 × 5 × 5 × 5 × 5.",
+    "fix": "Listen for the noun. “This function” or “this operation,” written with an exclamation point, means factorial. “These arrangements” or “these orderings” means permutations, and a function named for a Greek letter that also works for fractions means the gamma function.",
+    "line": "Real answer line: <b><u>factorial</u></b> (accept <u>n factorial</u>; do not accept “permutations” or “gamma function”)"
+  }
+}

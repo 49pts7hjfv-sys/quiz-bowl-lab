@@ -1,0 +1,349 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "punnett-squares",
+    "name": "Punnett squares",
+    "mono": "PSQ",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Grid that predicts offspring genotypes · Dominant, recessive, and heterozygous",
+    "dates": "Devised in the early 1900s",
+    "briefing": "A Punnett square is a simple grid that predicts what offspring might inherit. Write one parent’s alleles across the top and the other’s down the side, fill in the boxes, and you can see why two heterozygous parents (Aa) have a 1-in-4 chance of a child with the recessive trait. It is named for Reginald Punnett, a British geneticist who helped spread Gregor Mendel’s ideas in the early 1900s.",
+    "answerHtml": "<b><u>Punnett square</u></b> (accept <u>Punnett squares</u>; prompt on <u>Punnett</u> alone; do not accept “heterozygous” or “pedigree”)",
+    "accept": [
+        "punnett square",
+        "punnett squares",
+        "punnet square",
+        "punnet squares",
+        "punnetts square",
+        "punnett square diagram"
+    ],
+    "prompt": [
+        "punnett",
+        "punnet",
+        "square",
+        "grid"
+    ],
+    "reject": [
+        "heterozygous",
+        "homozygous",
+        "heterozygote",
+        "homozygote",
+        "genotype",
+        "genotypes",
+        "phenotype",
+        "phenotypes",
+        "pedigree",
+        "pedigree chart",
+        "family tree",
+        "karyotype",
+        "dihybrid cross",
+        "monohybrid cross",
+        "test cross",
+        "testcross",
+        "gregor mendel",
+        "mendel",
+        "reginald punnett",
+        "hardy weinberg",
+        "hardy weinberg principle",
+        "alleles",
+        "allele",
+        "dominant",
+        "recessive"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Punnett_square",
+    "qb": {
+        "q": "Punnett",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The namesake of this diagram asked his friend, the mathematician G. H. Hardy, why a dominant trait does not simply spread until it takes over a whole population. Hardy’s 1908 answer, which showed that allele frequencies stay steady unless something disturbs them, became part of the Hardy–Weinberg principle.",
+            "r": "This grid lists one parent’s alleles across its top and the other’s down its side. For 10 points, name this chart used to predict offspring genotypes."
+        },
+        {
+            "p": "Working with William Bateson, the namesake of this diagram noticed that flower color and pollen shape in sweet peas were inherited together far more often than expected, an early hint of genetic linkage. In this diagram, each small box shows one possible combination of alleles.",
+            "r": "For 10 points, name this grid used to predict the results of a genetic cross, such as a 3-to-1 ratio of dominant to recessive traits."
+        },
+        {
+            "p": "Gregor Mendel counted 5,474 round seeds and 1,850 wrinkled ones after letting heterozygous pea hybrids pollinate themselves, a nearly 3-to-1 result that this diagram predicts. A two-by-two version of this diagram shows why about one fourth of such offspring have the recessive trait.",
+            "r": "For 10 points, name this grid whose boxes show the possible genotypes of offspring from a genetic cross."
+        },
+        {
+            "p": "The forked-line method, or branch diagram, is a shortcut that replaces this tool when a cross involves many genes at once, since this tool would need 64 boxes for a cross of three genes. A typical two-gene cross with this tool needs 16 boxes.",
+            "r": "For 10 points, name this grid that geneticists use to predict the genotypes of offspring from two parents."
+        },
+        {
+            "p": "When one gene masks another, which is called epistasis [“ih-PISS-tuh-sis”], this tool can show why two black Labrador retrievers carrying hidden alleles may have puppies in a ratio of 9 black to 3 chocolate to 4 yellow. Without epistasis, the same kind of two-gene cross gives a 9:3:3:1 ratio.",
+            "r": "For 10 points, name this grid, named for a British geneticist, used to predict the possible offspring of a genetic cross."
+        },
+        {
+            "p": "Crosses of yellow mice studied by Lucien Cuénot [“kway-NOH”] gave a 2-to-1 ratio instead of the 3-to-1 ratio this diagram usually predicts, because inheriting two copies of the yellow allele is lethal. Tailless Manx cats show the same pattern.",
+            "r": "For 10 points, name this grid that predicts ratios like 3-to-1 by listing each parent’s alleles along its edges."
+        },
+        {
+            "p": "Thomas Hunt Morgan’s discovery of a white-eyed male fruit fly in 1910 led him to show that some traits are carried on the X chromosome. Versions of this tool for such sex-linked traits label each allele on an X or a Y.",
+            "r": "One shows that a carrier mother can expect about half of her sons to be color-blind. For 10 points, name this grid used to predict the genotypes of offspring."
+        },
+        {
+            "p": "The namesake of this tool co-founded the _Journal of Genetics_ with William Bateson in 1910. This tool can explain how Queen Victoria, a carrier of the blood-clotting disorder hemophilia, passed that X-linked allele to some of her children, spreading it into the royal families of Spain and Russia.",
+            "r": "For 10 points, name this grid that uses capital letters for dominant alleles and lowercase letters for recessive ones."
+        },
+        {
+            "p": "Carriers of the sickle-cell allele, who are heterozygous, resist malaria better than noncarriers, an example of heterozygote advantage. This tool shows that two such carriers have a 1-in-4 chance with each child of passing on two copies of the allele.",
+            "r": "For 10 points, name this grid whose boxes show the possible genotypes of offspring."
+        },
+        {
+            "p": "Carl Correns studied four o’clock flowers in which crossing red and white parents gives pink offspring, a case of incomplete dominance. For such flowers, this tool predicts that crossing two pink ones yields red, pink, and white offspring in a 1-to-2-to-1 ratio.",
+            "r": "For 10 points, name this grid used in genetics to show every possible combination of the parents’ alleles."
+        },
+        {
+            "p": "This tool shows that a parent with type A blood and a parent with type B blood, if each carries a hidden O allele, can have children with any of the four blood types. Type AB blood shows codominance, as do roan cattle with both red and white hairs.",
+            "r": "For 10 points, name this grid that predicts the possible genotypes of offspring from a genetic cross."
+        },
+        {
+            "p": "In a test cross, an individual with a dominant trait is crossed with a homozygous recessive one, and this tool shows that any offspring with the recessive trait prove the first parent was heterozygous. Breeders use that kind of cross to reveal hidden recessive alleles.",
+            "r": "For 10 points, name this grid that lists one parent’s alleles across the top and the other’s down the side."
+        },
+        {
+            "p": "A four-by-four version of this tool, with 16 boxes, predicts a 9:3:3:1 ratio for a cross between two plants that are each heterozygous for two genes, as long as the genes assort independently. A two-by-two version has four boxes, each standing for a 25 percent chance.",
+            "r": "Its rows and columns hold each parent’s possible gametes. For 10 points, name this grid used to predict the results of genetic crosses."
+        },
+        {
+            "p": "For a cross of two heterozygotes, this tool predicts a genotype ratio of 1 homozygous dominant to 2 heterozygous to 1 homozygous recessive, which produces a 3-to-1 ratio of phenotypes when one allele is completely dominant.",
+            "r": "Capital letters on this tool stand for dominant alleles. For 10 points, name this grid that shows the possible offspring of two parents."
+        },
+        {
+            "p": "This tool is named for a British geneticist who worked with William Bateson at Cambridge in the early 1900s, soon after scientists rediscovered Gregor Mendel’s work. To use it, write each parent’s possible gametes along two edges and fill every box with the alleles beside it and above it.",
+            "r": "Each box shows one possible genotype. For 10 points, name this grid that predicts the genotypes of a cross’s offspring."
+        }
+    ],
+    "clues": [
+        {
+            "id": "predict",
+            "tier": "giveaway",
+            "t": "A grid used to predict the possible genotypes of offspring from a genetic cross",
+            "k": ["grid", "predict", "genetic cross"],
+            "n": 0
+        },
+        {
+            "id": "edges",
+            "tier": "giveaway",
+            "t": "One parent’s alleles go across the top, the other’s down the side; each box is one possible offspring",
+            "k": ["across the top", "down the side", "box"],
+            "n": 0
+        },
+        {
+            "id": "three-to-one",
+            "tier": "giveaway",
+            "t": "Crossing two heterozygotes (Aa × Aa) gives a 3-to-1 ratio of dominant to recessive traits",
+            "k": ["heterozygotes", "3-to-1"],
+            "n": 0
+        },
+        {
+            "id": "capital-letters",
+            "tier": "giveaway",
+            "t": "Capital letters stand for dominant alleles; lowercase letters stand for recessive ones",
+            "k": ["capital letters", "lowercase", "dominant", "recessive"],
+            "n": 0
+        },
+        {
+            "id": "heterozygous",
+            "tier": "giveaway",
+            "t": "Heterozygous means two different alleles (Aa); homozygous means two of the same (AA or aa)",
+            "k": ["heterozygous", "homozygous"],
+            "n": 0
+        },
+        {
+            "id": "namesake",
+            "tier": "middle",
+            "t": "Named for a British geneticist who worked with William Bateson at Cambridge in the early 1900s",
+            "k": ["british geneticist", "bateson", "cambridge"],
+            "n": 0
+        },
+        {
+            "id": "one-two-one",
+            "tier": "middle",
+            "t": "A cross of two heterozygotes gives a 1:2:1 genotype ratio (AA : Aa : aa)",
+            "k": ["genotype ratio", "1:2:1"],
+            "n": 0
+        },
+        {
+            "id": "dihybrid",
+            "tier": "middle",
+            "t": "A dihybrid (two-gene) cross uses a 4-by-4 grid of 16 boxes and gives a 9:3:3:1 ratio",
+            "k": ["dihybrid", "16 boxes", "9:3:3:1"],
+            "n": 0
+        },
+        {
+            "id": "quarter",
+            "tier": "middle",
+            "t": "In a 2-by-2 grid, each of the four boxes stands for a 25 percent chance",
+            "k": ["25 percent", "four boxes"],
+            "n": 0
+        },
+        {
+            "id": "test-cross",
+            "tier": "middle",
+            "t": "A test cross with a homozygous recessive individual reveals whether a dominant-looking one is AA or Aa",
+            "k": ["test cross", "homozygous recessive"],
+            "n": 0
+        },
+        {
+            "id": "mendel",
+            "tier": "middle",
+            "t": "Gregor Mendel’s pea crosses (round vs. wrinkled seeds, tall vs. short stems) are the classic examples",
+            "k": ["mendel", "pea crosses", "wrinkled"],
+            "n": 0,
+            "rabbit": "Gregor Mendel"
+        },
+        {
+            "id": "incomplete",
+            "tier": "middle",
+            "t": "Incomplete dominance (Carl Correns’s four o’clocks): red × white gives pink, and pink × pink gives a 1:2:1 color ratio",
+            "k": ["incomplete dominance", "correns", "four o’clocks"],
+            "n": 0
+        },
+        {
+            "id": "codominance",
+            "tier": "middle",
+            "t": "Codominance: both alleles show, as in type AB blood and roan cattle",
+            "k": ["codominance", "ab blood", "roan cattle"],
+            "n": 0,
+            "rabbit": "Blood types"
+        },
+        {
+            "id": "sex-linked",
+            "tier": "middle",
+            "t": "Sex-linked versions label alleles on X and Y chromosomes; each son of a carrier mother has a 1-in-2 chance of being color-blind",
+            "k": ["sex-linked", "carrier", "color-blind"],
+            "n": 0,
+            "rabbit": "X chromosome"
+        },
+        {
+            "id": "hardy",
+            "tier": "power",
+            "t": "Its namesake asked mathematician G. H. Hardy why dominant traits don’t take over, leading to the Hardy–Weinberg principle (1908)",
+            "k": ["hardy", "weinberg", "1908"],
+            "n": 0
+        },
+        {
+            "id": "sweet-peas",
+            "tier": "power",
+            "t": "Its namesake and Bateson found sweet pea flower color and pollen shape inherited together, an early hint of linkage",
+            "k": ["sweet pea", "pollen shape", "linkage"],
+            "n": 0
+        },
+        {
+            "id": "journal",
+            "tier": "power",
+            "t": "Its namesake co-founded the _Journal of Genetics_ with William Bateson in 1910",
+            "k": ["journal of genetics", "1910"],
+            "n": 0
+        },
+        {
+            "id": "mendel-counts",
+            "tier": "power",
+            "t": "Mendel counted 5,474 round seeds to 1,850 wrinkled ones, close to 3-to-1",
+            "k": ["5,474", "1,850", "round seeds"],
+            "n": 0
+        },
+        {
+            "id": "forked-line",
+            "tier": "power",
+            "t": "The forked-line method (branch diagram) is a shortcut for crosses with many genes",
+            "k": ["forked-line", "branch diagram"],
+            "n": 0
+        },
+        {
+            "id": "trihybrid",
+            "tier": "power",
+            "t": "A three-gene cross would need an 8-by-8 grid with 64 boxes",
+            "k": ["64 boxes", "8-by-8", "three-gene"],
+            "n": 0
+        },
+        {
+            "id": "labrador",
+            "tier": "power",
+            "t": "Epistasis in Labrador retrievers gives 9 black : 3 chocolate : 4 yellow",
+            "k": ["epistasis", "labrador", "chocolate"],
+            "n": 0
+        },
+        {
+            "id": "cuenot",
+            "tier": "power",
+            "t": "Lucien Cuénot’s yellow mice gave a 2-to-1 ratio because two yellow alleles are lethal (true of tailless Manx cats, too)",
+            "k": ["cuénot", "yellow mice", "lethal", "manx"],
+            "n": 0
+        },
+        {
+            "id": "morgan",
+            "tier": "power",
+            "t": "Thomas Hunt Morgan’s white-eyed male fruit fly (1910) showed some traits ride on the X chromosome",
+            "k": ["morgan", "white-eyed", "fruit fly"],
+            "n": 0,
+            "rabbit": "Fruit flies"
+        },
+        {
+            "id": "victoria",
+            "tier": "power",
+            "t": "Queen Victoria carried hemophilia and passed it into the royal families of Spain and Russia",
+            "k": ["queen victoria", "hemophilia", "spain", "russia"],
+            "n": 0
+        },
+        {
+            "id": "sickle",
+            "tier": "power",
+            "t": "Sickle-cell carriers resist malaria (heterozygote advantage); two carriers have a 1-in-4 chance per child of passing on two copies",
+            "k": ["heterozygote advantage", "malaria", "sickle-cell"],
+            "n": 0,
+            "rabbit": "Sickle-cell disease"
+        },
+        {
+            "id": "blood-cross",
+            "tier": "power",
+            "t": "Type A (with a hidden O) × type B (with a hidden O) can give children of all four blood types",
+            "k": ["hidden o", "four blood types"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The tool, not the vocabulary",
+        "body": "Tossups about this grid are packed with genetics words (heterozygous, homozygous, dominant, recessive, genotype), and nervous players buzz with one of those. Others answer “Mendel” or “dihybrid cross,” which are the scientist and the kind of cross, not the diagram. A pedigree is a different chart altogether: it tracks a trait through a real family tree.",
+        "fix": "If the question says “this diagram,” “this grid,” or “this tool,” say “Punnett square.” Save “heterozygous” for a question asking for the term for having two different alleles, and “pedigree” for a family-tree chart of circles and squares.",
+        "line": "Real answer line: <b><u>Punnett square</u></b> (prompt on <u>Punnett</u>; do not accept “heterozygous” or “pedigree”)"
+    },
+    "tests": {
+        "right": [
+            "Punnett square",
+            "punnett squares",
+            "Punnet square",
+            "Punnett sqaure"
+        ],
+        "prompt": [
+            "Punnett"
+        ],
+        "wrong": [
+            "Heterozygous",
+            "Pedigree",
+            "Gregor Mendel",
+            "Dihybrid cross",
+            "Genotype"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

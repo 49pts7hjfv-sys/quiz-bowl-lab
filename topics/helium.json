@@ -1,0 +1,447 @@
+{
+  "id": "helium",
+  "name": "Helium",
+  "mono": "HE",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 2 · The noble gas discovered in the Sun before Earth",
+  "dates": "Seen in the Sun, 1868; found on Earth, 1895",
+  "briefing": "Helium was discovered in the Sun before anyone found it on Earth: in 1868, astronomers spotted a mysterious yellow line in sunlight and named the new element after the Greek word for “Sun.” It is the second-lightest element and a noble gas that almost never reacts, which makes it a safe gas for party balloons and blimps. Chilled close to absolute zero, liquid helium becomes a strange “superfluid” that can creep up the walls of its container.",
+  "answerHtml": "<b><u>Helium</u></b> (accept <u>He</u>)",
+  "accept": [
+    "helium",
+    "he"
+  ],
+  "prompt": [],
+  "reject": [
+    "hydrogen",
+    "hydrogen gas",
+    "neon",
+    "argon",
+    "krypton",
+    "xenon",
+    "radon",
+    "lithium",
+    "beryllium",
+    "nitrogen",
+    "oxygen",
+    "noble gas",
+    "noble gases",
+    "inert gas",
+    "alpha",
+    "alpha particle",
+    "alpha particles",
+    "helium flash",
+    "helium hydride",
+    "helios",
+    "selenium"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Helium",
+  "qb": {
+    "q": "helium",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "During a total solar eclipse in India in 1868, Jules Janssen [“zhahn-SEN”] saw a bright yellow line in the Sun’s spectrum close to the lines of sodium. Norman Lockyer, who later founded the journal _Nature_, labeled that line D3 and concluded that it came from an element unknown on Earth.",
+      "r": "Lockyer and Edward Frankland named that element after the Greek word for the Sun. For 10 points, name this element with atomic number 2."
+    },
+    {
+      "p": "Chemists at the University of Kansas discovered this element in natural gas from a well in Dexter, Kansas, whose gas had refused to burn. Most of this element on Earth forms when uranium and thorium in rocks undergo alpha decay.",
+      "r": "This element is the second-lightest of all. For 10 points, name this light, unreactive gas used to fill party balloons."
+    },
+    {
+      "p": "Heike Kamerlingh Onnes [“KAH-mer-ling OH-nes”] first turned this element into a liquid in 1908, then used that liquid to discover superconductivity in mercury. This element has the lowest boiling point of any element, about 4 kelvins.",
+      "r": "Balloons filled with this gas float because it is much less dense than air. For 10 points, name this noble gas, element number 2."
+    },
+    {
+      "p": "In 1937, Pyotr Kapitsa [“KAH-pit-sah”] helped discover that below about 2.2 kelvins, the liquid form of this element flows with no viscosity at all, a state called superfluidity. Such a superfluid can even creep up and over the walls of its container.",
+      "r": "This noble gas is the second-lightest element. For 10 points, name this element, which fills party balloons."
+    },
+    {
+      "p": "Ernest Rutherford and Thomas Royds trapped alpha particles in a sealed glass tube and showed that they turned into this element, proving that alpha particles are this element’s nuclei. Each of those nuclei holds two protons and two neutrons.",
+      "r": "Stars like the Sun produce this element by fusing hydrogen. For 10 points, name this noble gas with atomic number 2."
+    },
+    {
+      "p": "Judging only by its electron configuration, 1s², this element might belong in group 2 with beryllium, but it is placed above neon because its only electron shell is completely full. It is the only member of its group with just two valence electrons.",
+      "r": "This gas is used to fill party balloons. For 10 points, name this unreactive gas, the second element on the periodic table."
+    },
+    {
+      "p": "In 1895, William Ramsay became the first to identify this element on Earth, in gas released when the uranium mineral cleveite was treated with acid. Its spectrum matched a yellow line that astronomers had seen in sunlight 27 years earlier.",
+      "r": "This noble gas is much lighter than air. For 10 points, name this element, the second most abundant in the universe."
+    },
+    {
+      "p": "In 2019, astronomers detected in space an ion made of this element and hydrogen, which is thought to be the first molecule ever formed in the universe. Most of this element was made in the first few minutes after the Big Bang.",
+      "r": "For 10 points, name this element, which stars like the Sun also make by fusing hydrogen nuclei."
+    },
+    {
+      "p": "This is the only element that cannot be frozen solid by cooling alone at normal air pressure; it turns solid only when squeezed to about 25 times normal atmospheric pressure. Its liquid form keeps the superconducting magnets of MRI machines cold.",
+      "r": "Party balloons filled with this gas float in air. For 10 points, name this noble gas, the second-lightest element."
+    },
+    {
+      "p": "Mixed with neon, this element produces the red beam of a common gas laser, and deep-sea divers breathe mixtures of it and oxygen to avoid the dizzy confusion caused by breathing nitrogen under high pressure, called nitrogen narcosis.",
+      "r": "This gas is less dense than air, so it makes party balloons float. For 10 points, name this element with atomic number 2."
+    },
+    {
+      "p": "The U.S. government began stockpiling this element in the 1920s for military airships, and it later stored huge amounts in an underground reserve near Amarillo, Texas. Earth’s gravity is too weak to hold on to this light gas, so it slowly escapes from the atmosphere into space.",
+      "r": "Only hydrogen is lighter than this element. For 10 points, name this noble gas with atomic number 2."
+    },
+    {
+      "p": "Rocket makers use this unreactive gas to pressurize fuel tanks, and welders use it as a shielding gas to keep air away from hot metal. This element makes up about a quarter of the normal matter in the universe by mass.",
+      "r": "For 10 points, name this element whose name comes from the Greek word for “Sun.”"
+    },
+    {
+      "p": "Sound travels nearly three times faster through this gas than through air. The Goodyear company’s famous blimps are filled with this gas, which is only about one-seventh as dense as air. Unlike the hydrogen in older airships, this gas cannot catch fire.",
+      "r": "For 10 points, name this element that makes party balloons float, the second-lightest of all."
+    },
+    {
+      "p": "In an aging low-mass star, the sudden ignition of this element’s fusion in the core is called a “flash.” Stars fuse three nuclei of this element together to make carbon in the triple-alpha process.",
+      "r": "Stars like the Sun make this element by fusing hydrogen. For 10 points, name this element with atomic number 2."
+    },
+    {
+      "p": "This element’s name ends in “-ium,” the ending usually given to metals, even though it is a colorless gas. It was discovered in space before it was found on Earth, and only one element is more common in the universe.",
+      "r": "For 10 points, name this element whose name comes from the Greek word for “Sun.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "element-2",
+      "tier": "giveaway",
+      "t": "Element number 2: the second-lightest element, with two protons",
+      "k": [
+        "element number 2",
+        "second-lightest",
+        "two protons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "balloons",
+      "tier": "giveaway",
+      "t": "Makes party balloons and blimps float because it is much less dense than air",
+      "k": [
+        "balloons",
+        "blimps",
+        "less dense"
+      ],
+      "n": 0
+    },
+    {
+      "id": "noble-gas",
+      "tier": "giveaway",
+      "t": "A colorless, nearly unreactive noble gas",
+      "k": [
+        "noble gas",
+        "unreactive",
+        "colorless"
+      ],
+      "n": 0,
+      "rabbit": "Noble gases"
+    },
+    {
+      "id": "greek-sun",
+      "tier": "giveaway",
+      "t": "Named for helios, the Greek word for the Sun, where it was first detected; its “-ium” ending is usually given to metals",
+      "k": [
+        "helios",
+        "greek",
+        "sun"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fusion",
+      "tier": "giveaway",
+      "t": "Stars like the Sun make it by fusing hydrogen",
+      "k": [
+        "fusing hydrogen",
+        "stars"
+      ],
+      "n": 0,
+      "rabbit": "Nuclear fusion"
+    },
+    {
+      "id": "universe",
+      "tier": "middle",
+      "t": "Second most abundant element in the universe, about a quarter of normal matter by mass",
+      "k": [
+        "second most abundant",
+        "quarter",
+        "universe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "janssen",
+      "tier": "middle",
+      "t": "Jules Janssen saw its yellow spectral line, near sodium’s lines, during an 1868 solar eclipse in India",
+      "k": [
+        "janssen",
+        "1868",
+        "eclipse",
+        "yellow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lockyer",
+      "tier": "middle",
+      "t": "Norman Lockyer called the line D3, decided it came from a new element, and named it with Edward Frankland; Lockyer later founded _Nature_",
+      "k": [
+        "lockyer",
+        "frankland",
+        "d3"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ramsay",
+      "tier": "middle",
+      "t": "William Ramsay first identified it on Earth in 1895, in gas from the uranium mineral cleveite",
+      "k": [
+        "ramsay",
+        "cleveite",
+        "1895"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alpha",
+      "tier": "middle",
+      "t": "Alpha particles are its nuclei: two protons and two neutrons",
+      "k": [
+        "alpha particles",
+        "nuclei",
+        "two neutrons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "natural-gas",
+      "tier": "middle",
+      "t": "Most of it on Earth comes from the alpha decay of uranium and thorium, and it is collected from natural gas",
+      "k": [
+        "natural gas",
+        "uranium",
+        "thorium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boiling",
+      "tier": "middle",
+      "t": "Lowest boiling point of any element, about 4 kelvins",
+      "k": [
+        "lowest boiling point",
+        "4 kelvins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mri",
+      "tier": "middle",
+      "t": "Its liquid form cools the superconducting magnets in MRI machines",
+      "k": [
+        "mri",
+        "superconducting magnets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nonflammable",
+      "tier": "middle",
+      "t": "Unlike hydrogen, it cannot burn, so it replaced hydrogen in airships; Goodyear’s blimps use it",
+      "k": [
+        "cannot burn",
+        "goodyear",
+        "airships"
+      ],
+      "n": 0
+    },
+    {
+      "id": "config",
+      "tier": "middle",
+      "t": "Its configuration is 1s²: it sits above neon in the last column even though it has only two valence electrons",
+      "k": [
+        "above neon",
+        "two valence",
+        "1s²"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kamerlingh-onnes",
+      "tier": "power",
+      "t": "Heike Kamerlingh Onnes first liquefied it in 1908, then used the liquid to discover superconductivity in mercury",
+      "k": [
+        "kamerlingh onnes",
+        "1908",
+        "superconductivity"
+      ],
+      "n": 0,
+      "rabbit": "Superconductivity"
+    },
+    {
+      "id": "superfluid",
+      "tier": "power",
+      "t": "Below about 2.2 kelvins its liquid becomes a superfluid with no viscosity that creeps up walls; Pyotr Kapitsa helped discover this in 1937",
+      "k": [
+        "superfluid",
+        "viscosity",
+        "kapitsa",
+        "1937"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wont-freeze",
+      "tier": "power",
+      "t": "The only element that will not freeze at normal pressure; it turns solid only at about 25 atmospheres",
+      "k": [
+        "freeze",
+        "25 atmospheres"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rutherford-royds",
+      "tier": "power",
+      "t": "Ernest Rutherford and Thomas Royds trapped alpha particles in a sealed tube and showed they became this gas",
+      "k": [
+        "rutherford",
+        "royds",
+        "sealed tube"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kansas",
+      "tier": "power",
+      "t": "University of Kansas chemists found it in natural gas from a well in Dexter, Kansas, whose gas would not burn",
+      "k": [
+        "dexter",
+        "kansas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amarillo",
+      "tier": "power",
+      "t": "The U.S. stockpiled it for military airships starting in the 1920s and later stored it underground near Amarillo, Texas",
+      "k": [
+        "amarillo",
+        "stockpiled",
+        "1920s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydride-ion",
+      "tier": "power",
+      "t": "An ion of it and hydrogen, thought to be the first molecule in the universe, was detected in space in 2019",
+      "k": [
+        "first molecule",
+        "2019"
+      ],
+      "n": 0
+    },
+    {
+      "id": "big-bang",
+      "tier": "power",
+      "t": "Most of it was made in the first few minutes after the Big Bang",
+      "k": [
+        "big bang",
+        "first few minutes"
+      ],
+      "n": 0,
+      "rabbit": "Big Bang"
+    },
+    {
+      "id": "triple-alpha",
+      "tier": "power",
+      "t": "Stars fuse three of its nuclei into carbon in the triple-alpha process; its sudden ignition in an old star’s core is a “flash”",
+      "k": [
+        "triple-alpha",
+        "flash",
+        "carbon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laser-diving",
+      "tier": "power",
+      "t": "Mixed with neon, it makes the red beam of a gas laser; divers breathe it with oxygen to avoid nitrogen narcosis",
+      "k": [
+        "neon",
+        "laser",
+        "narcosis"
+      ],
+      "n": 0,
+      "rabbit": "Lasers"
+    },
+    {
+      "id": "sound",
+      "tier": "power",
+      "t": "Sound travels nearly three times faster through it than through air; it is only about one-seventh as dense as air",
+      "k": [
+        "three times faster",
+        "one-seventh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "escape",
+      "tier": "power",
+      "t": "Earth’s gravity is too weak to hold it, so it slowly escapes from the atmosphere into space",
+      "k": [
+        "escapes",
+        "into space",
+        "gravity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "uses",
+      "tier": "power",
+      "t": "Used to pressurize rocket fuel tanks and as a shielding gas in welding",
+      "k": [
+        "rocket",
+        "welding",
+        "shielding gas"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not hydrogen, not neon",
+    "body": "This element and hydrogen share many clues: the Sun, fusion, balloons, and airships. Hydrogen is the fuel the Sun fuses, while this element is what that fusion makes; hydrogen burned in the _Hindenburg_, while this element fills modern blimps because it cannot burn. Neon and argon are the other traps: they are also unreactive noble gases, used in glowing signs and light bulbs.",
+    "fix": "Atomic number 2, the yellow line seen during the 1868 eclipse, alpha particles, superfluids, and the lowest boiling point all mean helium. Atomic number 1, the _Hindenburg_, and “water-former” mean hydrogen; glowing red-orange signs mean neon.",
+    "line": "Real answer line: <b><u>Helium</u></b> (accept <u>He</u>)"
+  },
+  "tests": {
+    "right": [
+      "Helium",
+      "He",
+      "Hellium",
+      "liquid helium",
+      "helium-4"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Hydrogen",
+      "Neon",
+      "Argon",
+      "Alpha particle",
+      "Noble gas",
+      "Lithium",
+      "Helium flash"
+    ]
+  }
+}

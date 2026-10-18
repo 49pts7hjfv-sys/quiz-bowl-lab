@@ -1,0 +1,470 @@
+{
+  "id": "benzene",
+  "name": "Benzene",
+  "mono": "BZ",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "A flat ring of six carbon atoms · The model aromatic compound",
+  "dates": "Discovered by Michael Faraday, 1825",
+  "briefing": "Benzene is a flat ring of six carbon atoms, each holding one hydrogen, with the formula C₆H₆. Michael Faraday discovered it in 1825, but its structure puzzled chemists until August Kekulé proposed a hexagon in 1865, later saying the idea came to him in a dream of a snake biting its own tail. Six electrons shared around the whole ring make it unusually stable, the classic example of an “aromatic” compound.",
+  "answerHtml": "<b><u>Benzene</u></b> (or <u>C<sub>6</sub>H<sub>6</sub></u>; accept <u>benzol</u>; prompt on <u>aromatic hydrocarbon</u> or <u>arene</u>; do not accept “toluene” or other benzene derivatives)",
+  "accept": [
+    "benzene",
+    "c6h6",
+    "benzol",
+    "benzene ring",
+    "benzene molecule"
+  ],
+  "prompt": [
+    "arene",
+    "arenes",
+    "aromatic hydrocarbon",
+    "aromatic hydrocarbons",
+    "aromatic compound",
+    "aromatic compounds",
+    "aromatic ring"
+  ],
+  "reject": [
+    "toluene",
+    "phenol",
+    "phenols",
+    "benzoic acid",
+    "benzaldehyde",
+    "aniline",
+    "naphthalene",
+    "anthracene",
+    "cyclohexane",
+    "cyclohexene",
+    "hexane",
+    "hexene",
+    "xylene",
+    "styrene",
+    "polystyrene",
+    "nitrobenzene",
+    "bromobenzene",
+    "chlorobenzene",
+    "ethylbenzene",
+    "phenyl",
+    "phenyl group",
+    "benzyl",
+    "benzyne",
+    "pyridine",
+    "borazine",
+    "inorganic benzene",
+    "dewar benzene",
+    "prismane",
+    "cumene",
+    "graphene",
+    "methane",
+    "ethene",
+    "acetylene"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Benzene",
+  "qb": {
+    "q": "benzene",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1929, Kathleen Lonsdale used X-ray crystallography to show that this compound’s ring is flat, by studying a version with six methyl groups attached. August Kekulé [“KAY-kuh-lay”] had proposed its six-sided ring in 1865.",
+      "r": "For 10 points, name this flat, ring-shaped hydrocarbon made of six carbon atoms and six hydrogen atoms, the simplest aromatic compound."
+    },
+    {
+      "p": "Michael Faraday discovered this compound in 1825 in the oily residue left over from making gas for lamps, and he called it “bicarburet of hydrogen.” Eilhard Mitscherlich [“MIT-sher-likh”] made it in 1833 by heating an acid from a tree resin with lime.",
+      "r": "For 10 points, name this six-carbon ring compound, the simplest aromatic hydrocarbon, whose ring August Kekulé proposed."
+    },
+    {
+      "p": "At an 1890 celebration in honor of his work on this compound, a chemist said he had found its structure after dozing by a fire and dreaming of a snake seizing its own tail. That chemist’s structures draw this compound with alternating single and double bonds.",
+      "r": "That chemist was August Kekulé. For 10 points, name this hydrocarbon whose six carbon atoms form a flat hexagon."
+    },
+    {
+      "p": "All six carbon–carbon bonds in this compound have the same length, between that of a single bond and a double bond, because its electrons are spread around the whole ring. It is often drawn as a hexagon with a circle inside.",
+      "r": "For 10 points, name this aromatic compound, whose two Kekulé [“KAY-kuh-lay”] structures are resonance forms."
+    },
+    {
+      "p": "A rule by Erich Hückel [“HOO-kul”] says a flat ring with 4n + 2 pi electrons is especially stable, and this compound, with six pi electrons, is the classic example. Those electrons form clouds of charge above and below the plane of its carbon atoms.",
+      "r": "For 10 points, name this simplest aromatic hydrocarbon, which has six carbon atoms in a hexagonal ring."
+    },
+    {
+      "p": "Adding hydrogen to this compound releases about 150 kilojoules per mole less heat than expected for three ordinary double bonds, a measure of its extra stability called resonance energy. Fully adding hydrogen turns it into cyclohexane, which is used to make nylon.",
+      "r": "For 10 points, name this stable, ring-shaped hydrocarbon, the parent compound of the aromatic family."
+    },
+    {
+      "p": "Instead of adding atoms across its double bonds, this compound usually undergoes substitution, keeping its ring intact; for example, a mix of nitric and sulfuric acids swaps one of its hydrogens for a nitro group. Unlike alkenes, it does not turn bromine water colorless.",
+      "r": "For 10 points, name this aromatic hydrocarbon whose molecules are hexagons of six carbon atoms."
+    },
+    {
+      "p": "Charles Friedel and James Crafts discovered reactions that attach alkyl or acyl groups to this compound, using aluminum chloride as a catalyst. Adding a methyl group to this compound gives toluene, and adding an –OH group gives phenol.",
+      "r": "For 10 points, name this simplest aromatic compound, a ring of six carbon atoms."
+    },
+    {
+      "p": "When two groups are attached to this compound’s ring, their positions are called ortho, meta, or para, depending on whether the groups are next to each other, one carbon apart, or directly across the ring. Removing one hydrogen from this compound gives a phenyl group.",
+      "r": "For 10 points, name this six-carbon ring compound, the simplest aromatic hydrocarbon, which Michael Faraday discovered."
+    },
+    {
+      "p": "The phenyl group’s name comes from a Greek word meaning “to shine,” because this compound was first found in gas burned for lighting. The amino acid phenylalanine contains a ring based on this compound.",
+      "r": "For 10 points, name this aromatic hydrocarbon discovered by Michael Faraday, whose six carbon atoms form a hexagon."
+    },
+    {
+      "p": "Long exposure to this compound can cause leukemia, so safer solvents such as toluene took its place in many labs and factories. This compound is a natural part of crude oil and gasoline.",
+      "r": "For 10 points, name this colorless, flammable liquid hydrocarbon, whose six carbon atoms form a flat hexagon with one hydrogen on each corner."
+    },
+    {
+      "p": "Industry turns most of this compound into styrene for polystyrene, cumene for making phenol and acetone, and cyclohexane for making nylon. Chemists get most of this compound from crude oil, though it was once taken mainly from coal tar.",
+      "r": "For 10 points, name this aromatic hydrocarbon, whose molecule is a hexagon of six carbon atoms, each bonded to one hydrogen."
+    },
+    {
+      "p": "In NMR spectra, the hydrogen atoms of this compound show up near 7 parts per million, partly because its circulating electrons create a ring current. Naphthalene, the chemical in old-fashioned mothballs, is two of this compound’s rings fused together.",
+      "r": "For 10 points, name this simplest aromatic hydrocarbon, a flat ring of six carbon atoms discovered by Michael Faraday."
+    },
+    {
+      "p": "Albert Ladenburg proposed a prism-shaped structure for this compound, and a two-ring isomer of it is named for James Dewar. Both of those shapes turned out to be wrong for this compound, whose real shape is a flat hexagon.",
+      "r": "For 10 points, name this aromatic compound made of six carbon atoms and six hydrogen atoms."
+    },
+    {
+      "p": "Each carbon atom in this compound is sp2 hybridized, giving it bond angles of 120 degrees. This compound freezes at about 5.5 degrees Celsius and boils at about 80 degrees, and like other aromatic compounds it burns with a very smoky flame.",
+      "r": "For 10 points, name this flat, ring-shaped aromatic hydrocarbon first isolated by Michael Faraday in 1825."
+    }
+  ],
+  "clues": [
+    {
+      "id": "six-carbons",
+      "tier": "giveaway",
+      "t": "Six carbon atoms in a flat hexagonal ring, each bonded to one hydrogen atom",
+      "k": [
+        "six carbon",
+        "hexagonal ring",
+        "hydrogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aromatic",
+      "tier": "giveaway",
+      "t": "The simplest and most famous aromatic hydrocarbon",
+      "k": [
+        "aromatic",
+        "hydrocarbon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kekule",
+      "tier": "giveaway",
+      "t": "August Kekulé proposed its ring structure in 1865",
+      "k": [
+        "kekulé",
+        "1865",
+        "ring structure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faraday",
+      "tier": "giveaway",
+      "t": "Discovered by Michael Faraday in 1825",
+      "k": [
+        "faraday",
+        "1825"
+      ],
+      "n": 0,
+      "rabbit": "Michael Faraday"
+    },
+    {
+      "id": "snake-dream",
+      "tier": "giveaway",
+      "t": "Kekulé said the idea came in a dream of a snake seizing its own tail, a story he told at an 1890 celebration",
+      "k": [
+        "snake",
+        "dream",
+        "own tail",
+        "1890"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hexagon-circle",
+      "tier": "middle",
+      "t": "Often drawn as a hexagon with a circle inside, showing electrons spread around the ring",
+      "k": [
+        "hexagon",
+        "circle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "equal-bonds",
+      "tier": "middle",
+      "t": "All six carbon–carbon bonds are the same length, between a single bond and a double bond",
+      "k": [
+        "same length",
+        "double bond"
+      ],
+      "n": 0
+    },
+    {
+      "id": "resonance",
+      "tier": "middle",
+      "t": "Its two Kekulé structures, with alternating single and double bonds, are resonance forms",
+      "k": [
+        "resonance",
+        "alternating"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huckel",
+      "tier": "middle",
+      "t": "Hückel’s rule: flat rings with 4n + 2 pi electrons are aromatic; it has six pi electrons",
+      "k": [
+        "hückel",
+        "pi electrons",
+        "4n + 2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "substitution",
+      "tier": "middle",
+      "t": "Undergoes substitution rather than addition, keeping its ring, as in nitration with nitric and sulfuric acids",
+      "k": [
+        "substitution",
+        "nitration",
+        "addition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bromine-water",
+      "tier": "middle",
+      "t": "Unlike alkenes, it does not turn bromine water colorless",
+      "k": [
+        "bromine water",
+        "alkenes"
+      ],
+      "n": 0,
+      "rabbit": "Alkenes"
+    },
+    {
+      "id": "derivatives",
+      "tier": "middle",
+      "t": "Adding a methyl group gives toluene; adding an –OH group gives phenol",
+      "k": [
+        "toluene",
+        "phenol",
+        "methyl"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ortho-meta-para",
+      "tier": "middle",
+      "t": "With two groups on the ring, positions are ortho (next to each other), meta (one carbon apart), or para (across)",
+      "k": [
+        "ortho",
+        "meta",
+        "para"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phenyl",
+      "tier": "middle",
+      "t": "Removing one hydrogen gives a phenyl group",
+      "k": [
+        "phenyl group",
+        "phenyl"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crude-oil",
+      "tier": "middle",
+      "t": "A colorless, flammable liquid found naturally in crude oil and gasoline",
+      "k": [
+        "crude oil",
+        "gasoline",
+        "flammable"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lonsdale",
+      "tier": "power",
+      "t": "Kathleen Lonsdale’s 1929 X-ray study of a version with six methyl groups showed the ring is flat",
+      "k": [
+        "lonsdale",
+        "1929",
+        "x-ray"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mitscherlich",
+      "tier": "power",
+      "t": "Eilhard Mitscherlich made it in 1833 by heating an acid from a tree resin with lime",
+      "k": [
+        "mitscherlich",
+        "1833",
+        "lime"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bicarburet",
+      "tier": "power",
+      "t": "Faraday called it “bicarburet of hydrogen” and found it in oily residue from making lamp gas",
+      "k": [
+        "bicarburet",
+        "lamp gas",
+        "residue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "resonance-energy",
+      "tier": "power",
+      "t": "Adding hydrogen to it releases about 150 kJ/mol less heat than three ordinary double bonds would: its resonance energy",
+      "k": [
+        "resonance energy",
+        "150"
+      ],
+      "n": 0
+    },
+    {
+      "id": "friedel-crafts",
+      "tier": "power",
+      "t": "Friedel–Crafts reactions attach alkyl or acyl groups to it, using an aluminum chloride catalyst",
+      "k": [
+        "friedel–crafts",
+        "aluminum chloride",
+        "alkyl"
+      ],
+      "n": 0
+    },
+    {
+      "id": "to-shine",
+      "tier": "power",
+      "t": "“Phenyl” comes from a Greek word meaning “to shine,” because it was first found in gas burned for lighting",
+      "k": [
+        "to shine",
+        "greek",
+        "lighting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phenylalanine",
+      "tier": "power",
+      "t": "The amino acid phenylalanine contains a ring based on it",
+      "k": [
+        "phenylalanine",
+        "amino acid"
+      ],
+      "n": 0,
+      "rabbit": "Amino acids"
+    },
+    {
+      "id": "industry",
+      "tier": "power",
+      "t": "Industry turns most of it into styrene (for polystyrene), cumene (for phenol and acetone), and cyclohexane (for nylon)",
+      "k": [
+        "styrene",
+        "cumene",
+        "cyclohexane",
+        "nylon"
+      ],
+      "n": 0,
+      "rabbit": "Polymers"
+    },
+    {
+      "id": "ring-current",
+      "tier": "power",
+      "t": "In NMR spectra, its hydrogens show up near 7 parts per million, partly because of a ring current",
+      "k": [
+        "ring current",
+        "parts per million",
+        "nmr"
+      ],
+      "n": 0
+    },
+    {
+      "id": "naphthalene",
+      "tier": "power",
+      "t": "Naphthalene, the chemical in old-fashioned mothballs, is two of its rings fused together",
+      "k": [
+        "naphthalene",
+        "mothballs",
+        "fused"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wrong-shapes",
+      "tier": "power",
+      "t": "Wrong proposed shapes: Albert Ladenburg’s prism and a two-ring isomer named for James Dewar",
+      "k": [
+        "ladenburg",
+        "prism",
+        "dewar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "properties",
+      "tier": "power",
+      "t": "Each carbon is sp2 hybridized with 120° bond angles; it freezes near 5.5 °C and boils near 80 °C",
+      "k": [
+        "hybridized",
+        "freezes",
+        "sp2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leukemia",
+      "tier": "power",
+      "t": "Long exposure can cause leukemia, so safer solvents like toluene took its place",
+      "k": [
+        "leukemia",
+        "solvents"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The ring, not its relatives",
+    "body": "Tossups on this compound mention many of its relatives: toluene (with a methyl group added), phenol (with an –OH group), styrene, and naphthalene (two rings fused together). Answering a relative is wrong when the question wants the plain six-carbon ring. Cyclohexane, the six-carbon ring with no double bonds, is another trap: it has twelve hydrogens and none of this compound’s special stability.",
+    "fix": "Six carbons and six hydrogens, Faraday, Kekulé’s snake dream, Hückel’s rule, and a circle drawn inside a hexagon mean this answer. If the question describes an extra group stuck onto the ring, it may want that derivative instead.",
+    "line": "Real answer line: <b><u>Benzene</u></b> (or <u>C<sub>6</sub>H<sub>6</sub></u>; accept <u>benzol</u>; prompt on <u>aromatic hydrocarbon</u> or <u>arene</u>; do not accept “toluene” or other benzene derivatives)"
+  },
+  "tests": {
+    "right": [
+      "Benzene",
+      "Benzen",
+      "C6H6",
+      "Benzol",
+      "benzene ring"
+    ],
+    "prompt": [
+      "Aromatic hydrocarbon",
+      "Arene"
+    ],
+    "wrong": [
+      "Toluene",
+      "Phenol",
+      "Cyclohexane",
+      "Naphthalene",
+      "Benzoic acid",
+      "Benzyne",
+      "Phenyl group"
+    ]
+  }
+}

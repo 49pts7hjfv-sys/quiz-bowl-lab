@@ -1,0 +1,467 @@
+{
+  "id": "circles",
+  "name": "Circles",
+  "mono": "CIR",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Every point the same distance from the center · C = πd and A = πr²",
+  "dates": "Studied in Book III of Euclid’s Elements, c. 300 BCE",
+  "briefing": "A circle is the set of all points in a flat plane that sit the same distance, called the radius, from one center point. A straight segment through the center from edge to edge is the diameter, twice as long as the radius, and the distance around, the circumference, is always about 3.14 times the diameter, a number called π. Wheels, gears, and pizzas use this shape, and its area is π times the radius squared.",
+  "answerHtml": "<b><u>circle</u></b>s (prompt on <u>disk</u>s, <u>ellipse</u>s, or <u>conic section</u>s; do not accept “diameter” or “sphere”)",
+  "accept": [
+    "circles",
+    "circle"
+  ],
+  "prompt": [
+    "disk",
+    "disks",
+    "disc",
+    "discs",
+    "ellipse",
+    "ellipses",
+    "conic section",
+    "conic sections",
+    "conic",
+    "conics"
+  ],
+  "reject": [
+    "diameter",
+    "diameters",
+    "radius",
+    "radii",
+    "circumference",
+    "chord",
+    "chords",
+    "arc",
+    "arcs",
+    "sector",
+    "sectors",
+    "tangent",
+    "tangent line",
+    "secant",
+    "annulus",
+    "ring",
+    "rings",
+    "semicircle",
+    "semicircles",
+    "sphere",
+    "spheres",
+    "ball",
+    "oval",
+    "ovals",
+    "cylinder",
+    "cone",
+    "pi",
+    "polygon",
+    "polygons"
+  ],
+  "tests": {
+    "right": [
+      "Circles",
+      "circle",
+      "cirle",
+      "a circle",
+      "unit circle"
+    ],
+    "prompt": [
+      "disk",
+      "ellipse"
+    ],
+    "wrong": [
+      "diameter",
+      "sphere",
+      "semicircle",
+      "radius",
+      "oval",
+      "pi"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Circle",
+  "qb": {
+    "q": "circle",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1882, Ferdinand von Lindemann proved that it is impossible to use only a compass and straightedge to draw a square with exactly the same area as this shape. Among all closed curves with the same perimeter, this shape encloses the most area.",
+      "r": "A chord through its center is called a diameter. For 10 points, name this shape whose area equals pi times its radius squared."
+    },
+    {
+      "p": "Frederick Soddy’s 1936 poem “The Kiss Precise” restates a rule, first found by René Descartes, about the sizes of four of these shapes that all touch one another. The curvature of one of these shapes equals 1 divided by its radius.",
+      "r": "Its radius is the distance from its center to its edge. For 10 points, name this round shape whose circumference equals pi times its diameter."
+    },
+    {
+      "p": "An angle formed by two chords that meet on this shape is exactly half of the central angle that cuts off the same arc. In a quadrilateral whose four corners all lie on this shape, opposite angles add up to 180 degrees.",
+      "r": "Every point on this shape is the same distance from its center. For 10 points, name this shape, whose radius is half its diameter."
+    },
+    {
+      "p": "Book III of Euclid’s _Elements_ is devoted to this shape. Thales [“THAY-leez”] is credited with proving that if a triangle has all three corners on this shape and one side passes through its center, the angle opposite that side is a right angle.",
+      "r": "Its distance around is called its circumference. For 10 points, name this shape, whose diameter is twice its radius."
+    },
+    {
+      "p": "Apollonius of Perga posed the problem of drawing every one of these shapes that touches three given ones of them. He also showed that the points whose distances from two fixed points always have the same ratio, other than 1, form one of these shapes.",
+      "r": "Its area equals pi times its radius squared. For 10 points, name this shape, which has a center, a radius, and a diameter."
+    },
+    {
+      "p": "Ptolemy’s theorem says that for a quadrilateral with its corners on this shape, the two diagonals multiply to the sum of the products of opposite sides. When two chords of this shape cross, the pieces of one chord multiply to the same number as the pieces of the other.",
+      "r": "Its diameter is its longest chord. For 10 points, name this shape, which also has a radius and a circumference."
+    },
+    {
+      "p": "Archimedes showed that the area of this shape equals the area of a right triangle whose two legs are its radius and its circumference. Legend says that when Roman soldiers captured Syracuse, Archimedes was busy drawing these shapes in the sand and told a soldier not to disturb them.",
+      "r": "Its circumference is a little more than three times its diameter. For 10 points, name this shape, whose area is pi times the radius squared."
+    },
+    {
+      "p": "The cosine and sine of an angle are the x- and y-coordinates of a point on the one of these shapes that has radius 1 and is centered at the origin. The graph of x squared plus y squared equals 25 is one of these shapes with a radius of 5.",
+      "r": "For 10 points, name this shape made of all the points at a fixed distance from a center."
+    },
+    {
+      "p": "This shape is the conic section formed when a plane slices a cone at a right angle to the cone’s axis. It is the special ellipse with an eccentricity of zero, because its two foci are at the same point.",
+      "r": "For 10 points, name this shape, in which every point is the same distance from the center."
+    },
+    {
+      "p": "One radian is the angle at the center of this shape that cuts off an arc exactly as long as its radius. The length of any arc of this shape equals its radius times the arc’s angle measured in radians.",
+      "r": "A full turn around its center is 360 degrees. For 10 points, name this shape, whose distance around is called its circumference."
+    },
+    {
+      "p": "The ring-shaped region between two of these shapes that share a center is called an annulus. Two tangent segments drawn to one of these shapes from the same outside point have equal lengths, and each is perpendicular to the radius at the point where it touches.",
+      "r": "A line that touches it at only one point is called a tangent. For 10 points, name this shape, whose circumference is pi times its diameter."
+    },
+    {
+      "p": "In Ptolemy’s model of the heavens, each planet moved along a small one of these shapes called an epicycle, whose center rode along a larger one. Johannes Kepler later showed that planets actually orbit in ellipses instead of these perfectly round paths.",
+      "r": "It has infinitely many lines of symmetry. For 10 points, name this shape, whose area equals pi times its radius squared."
+    },
+    {
+      "p": "Every triangle has exactly one of these shapes passing through all three of its corners, centered at a point called the circumcenter. John Venn’s diagrams for comparing two or three sets are usually drawn as overlapping ones of these shapes.",
+      "r": "A slice of it shaped like a piece of pizza is called a sector. For 10 points, name this round shape, whose diameter is twice its radius."
+    },
+    {
+      "p": "The third of Euclid’s five postulates says that one of these shapes can be drawn with any center and any radius. In classical Greek geometry, the tool that draws these shapes and an unmarked straightedge were the only tools allowed for constructions.",
+      "r": "That tool is a compass. For 10 points, name this shape, whose radius runs from its center to its edge."
+    },
+    {
+      "p": "Hippocrates of Chios [“KY-oss”] found the exact areas of some crescent-shaped regions, called lunes, that are bounded by arcs of two of these shapes. Archimedes drew 96-sided polygons inside and outside one of these shapes to prove that its distance around is between 223 over 71 and 22 over 7 times its width.",
+      "r": "The ratio of its circumference to its diameter is always pi. For 10 points, name this round shape."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "All the points in a flat plane that are the same distance, the radius, from one center point",
+      "k": [
+        "same distance",
+        "center point",
+        "radius"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diameter",
+      "tier": "giveaway",
+      "t": "Its diameter is a chord through the center, twice as long as the radius and the longest chord of all",
+      "k": [
+        "diameter",
+        "twice",
+        "longest chord"
+      ],
+      "n": 0
+    },
+    {
+      "id": "circumference",
+      "tier": "giveaway",
+      "t": "Its circumference (distance around) equals π × diameter, or 2πr",
+      "k": [
+        "circumference",
+        "distance around"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "area",
+      "tier": "giveaway",
+      "t": "Its area equals π times the radius squared (πr²)",
+      "k": [
+        "area",
+        "radius squared"
+      ],
+      "n": 0
+    },
+    {
+      "id": "degrees",
+      "tier": "giveaway",
+      "t": "A full turn around its center is 360 degrees",
+      "k": [
+        "360 degrees",
+        "full turn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chord-tangent",
+      "tier": "middle",
+      "t": "A chord joins two points on it; a secant line cuts through it; a tangent line touches it at exactly one point",
+      "k": [
+        "chord",
+        "secant",
+        "tangent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tangent-radius",
+      "tier": "middle",
+      "t": "A tangent line is perpendicular to the radius at the point of contact, and two tangents from one outside point are equal in length",
+      "k": [
+        "perpendicular",
+        "point of contact"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arc-sector",
+      "tier": "middle",
+      "t": "An arc is a piece of its edge; a sector is a pizza-slice region between two radii",
+      "k": [
+        "sector",
+        "pizza-slice",
+        "arc"
+      ],
+      "n": 0
+    },
+    {
+      "id": "concentric",
+      "tier": "middle",
+      "t": "Ones that share a center are concentric; the ring-shaped region between two of them is an annulus",
+      "k": [
+        "concentric",
+        "annulus",
+        "ring-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inscribed-angle",
+      "tier": "middle",
+      "t": "Inscribed angle theorem: an angle formed by two chords meeting on it is half the central angle on the same arc",
+      "k": [
+        "inscribed angle",
+        "central angle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cyclic-quadrilateral",
+      "tier": "middle",
+      "t": "A cyclic quadrilateral has all four corners on one; its opposite angles add up to 180°",
+      "k": [
+        "cyclic quadrilateral",
+        "opposite angles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thales",
+      "tier": "middle",
+      "t": "Thales’ theorem: a triangle with one side as a diameter and its third corner on the edge has a right angle",
+      "k": [
+        "thales",
+        "right angle"
+      ],
+      "n": 0,
+      "rabbit": "Triangles"
+    },
+    {
+      "id": "equation",
+      "tier": "middle",
+      "t": "Equation with center (h, k) and radius r: (x − h)² + (y − k)² = r²",
+      "k": [
+        "equation",
+        "center"
+      ],
+      "n": 0
+    },
+    {
+      "id": "conic",
+      "tier": "middle",
+      "t": "A conic section: a plane slicing a cone at a right angle to its axis; it is an ellipse with eccentricity 0",
+      "k": [
+        "conic section",
+        "eccentricity",
+        "ellipse"
+      ],
+      "n": 0,
+      "rabbit": "Parabolas"
+    },
+    {
+      "id": "venn-symmetry",
+      "tier": "middle",
+      "t": "Has infinitely many lines of symmetry; Venn diagrams show sets as overlapping ones",
+      "k": [
+        "lines of symmetry",
+        "venn diagrams",
+        "venn"
+      ],
+      "n": 0,
+      "rabbit": "Set theory"
+    },
+    {
+      "id": "lindemann",
+      "tier": "power",
+      "t": "Ferdinand von Lindemann proved in 1882 that “squaring” it (a square of equal area using compass and straightedge) is impossible",
+      "k": [
+        "lindemann",
+        "1882",
+        "squaring"
+      ],
+      "n": 0
+    },
+    {
+      "id": "isoperimetric",
+      "tier": "power",
+      "t": "Isoperimetric property: of all closed curves with the same perimeter, it encloses the most area",
+      "k": [
+        "isoperimetric",
+        "perimeter",
+        "most area"
+      ],
+      "n": 0
+    },
+    {
+      "id": "descartes-soddy",
+      "tier": "power",
+      "t": "Descartes’ theorem relates the curvatures (1 ÷ radius) of four that all touch; Frederick Soddy restated it in his 1936 poem “The Kiss Precise”",
+      "k": [
+        "descartes",
+        "soddy",
+        "kiss precise",
+        "curvatures"
+      ],
+      "n": 0,
+      "rabbit": "René Descartes"
+    },
+    {
+      "id": "euclid",
+      "tier": "power",
+      "t": "Book III of Euclid’s _Elements_ is about them; his third postulate says one can be drawn (with a compass) for any center and radius",
+      "k": [
+        "book iii",
+        "third postulate",
+        "compass"
+      ],
+      "n": 0,
+      "rabbit": "Euclid"
+    },
+    {
+      "id": "apollonius",
+      "tier": "power",
+      "t": "Apollonius’s problem: draw the ones touching three given ones; points with a fixed distance ratio to two points form one",
+      "k": [
+        "apollonius",
+        "ratio"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ptolemy-chords",
+      "tier": "power",
+      "t": "Ptolemy’s theorem links a cyclic quadrilateral’s diagonals to its sides; when two chords cross, their pieces multiply to equal products",
+      "k": [
+        "ptolemy",
+        "diagonals",
+        "chords cross"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archimedes-area",
+      "tier": "power",
+      "t": "Archimedes: its area equals a right triangle with legs equal to its radius and circumference; legend says he told a Roman soldier not to disturb his drawings of them",
+      "k": [
+        "archimedes",
+        "right triangle",
+        "roman soldier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archimedes-96",
+      "tier": "power",
+      "t": "Archimedes used 96-sided polygons to show its circumference is between 223/71 and 22/7 times its diameter",
+      "k": [
+        "96-sided",
+        "223/71",
+        "polygons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radian",
+      "tier": "power",
+      "t": "One radian cuts off an arc as long as the radius; arc length = radius × angle in radians",
+      "k": [
+        "radian",
+        "arc length"
+      ],
+      "n": 0
+    },
+    {
+      "id": "unit",
+      "tier": "power",
+      "t": "On the one with radius 1 centered at the origin, the point at angle θ has coordinates (cos θ, sin θ)",
+      "k": [
+        "origin",
+        "radius 1",
+        "cos θ"
+      ],
+      "n": 0,
+      "rabbit": "Trigonometric functions"
+    },
+    {
+      "id": "epicycles",
+      "tier": "power",
+      "t": "Ptolemy’s model moved planets on small ones called epicycles; Johannes Kepler showed orbits are ellipses instead",
+      "k": [
+        "epicycles",
+        "kepler",
+        "ellipses"
+      ],
+      "n": 0,
+      "rabbit": "Johannes Kepler"
+    },
+    {
+      "id": "circumcenter",
+      "tier": "power",
+      "t": "Every triangle has exactly one through its three corners, centered at the circumcenter; every regular polygon’s corners lie on one too",
+      "k": [
+        "circumcenter",
+        "regular polygon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lunes",
+      "tier": "power",
+      "t": "Hippocrates of Chios found the exact areas of some crescent-shaped lunes bounded by arcs of two of them",
+      "k": [
+        "hippocrates",
+        "lunes",
+        "crescent-shaped"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Whole shape or one part?",
+    "body": "Many tossups ask for one part of this shape instead of the whole: the diameter (a chord through the center, twice the radius), the radius, the circumference, a chord, or a tangent line. Others want the number pi, the ratio of the circumference to the diameter, or the sphere, its three-dimensional cousin. Naming the whole shape when the question wants a part loses the tossup.",
+    "fix": "Listen for the noun in the giveaway. “This shape” means circle; “this segment” or “this length,” with clues like “twice the radius” or “the longest chord,” means diameter; “this number” or “this constant” means pi. A circle is a special ellipse, so “ellipse” only earns a prompt.",
+    "line": "Real answer line: <b><u>circle</u></b>s (prompt on <u>disk</u>s or <u>ellipse</u>s; do not accept “diameter” or “sphere”)"
+  }
+}

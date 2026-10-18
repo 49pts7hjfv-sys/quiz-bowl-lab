@@ -1,0 +1,440 @@
+{
+  "id": "hemoglobin",
+  "name": "Hemoglobin",
+  "mono": "HB",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Iron-rich protein in red blood cells · Carries oxygen around the body",
+  "dates": "Structure solved by Max Perutz (Nobel Prize, 1962)",
+  "briefing": "Hemoglobin is the protein that makes your blood red, and each red blood cell carries hundreds of millions of these molecules. Every hemoglobin molecule has four iron-holding heme groups, so it can grab four oxygen molecules in your lungs and drop them off in your muscles and brain. Carbon monoxide is dangerous because it sticks to hemoglobin far more tightly than oxygen does.",
+  "answerHtml": "<b><u>Hemoglobin</u></b> (accept <u>haemoglobin</u>, <u>Hb</u>, or <u>Hgb</u>; do not accept “myoglobin” or “heme”)",
+  "accept": [
+    "hemoglobin",
+    "haemoglobin",
+    "hb",
+    "hgb"
+  ],
+  "prompt": [],
+  "reject": [
+    "myoglobin",
+    "heme",
+    "haem",
+    "heme group",
+    "hemocyanin",
+    "hematocrit",
+    "hemophilia",
+    "hemolysis",
+    "hemoglobin a1c",
+    "glycated hemoglobin",
+    "fetal hemoglobin",
+    "hemoglobin f",
+    "hemoglobin s",
+    "sickle hemoglobin",
+    "carboxyhemoglobin",
+    "methemoglobin",
+    "leghemoglobin",
+    "red blood cells",
+    "red blood cell",
+    "erythrocytes",
+    "erythrocyte",
+    "iron",
+    "globin",
+    "albumin",
+    "plasma",
+    "bilirubin",
+    "biliverdin",
+    "erythropoietin",
+    "cytochrome c",
+    "chlorophyll",
+    "insulin"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Hemoglobin",
+  "qb": {
+    "q": "hemoglobin",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Max Perutz shared the 1962 Nobel Prize in Chemistry for using X-ray crystallography to work out the shape of this protein, while John Kendrew solved its smaller, single-chain cousin, myoglobin. In most adults, this protein has four chains, two alpha and two beta.",
+      "r": "Its four heme groups each hold an iron ion. For 10 points, name this protein that carries oxygen in red blood cells."
+    },
+    {
+      "p": "In 1904, Christian Bohr, the father of physicist Niels Bohr, found that carbon dioxide and acid make this protein let go of oxygen more easily, so it unloads extra oxygen in hard-working muscles.",
+      "r": "Each molecule of this protein holds four iron-containing heme groups. For 10 points, name this protein that carries oxygen in red blood cells."
+    },
+    {
+      "p": "Linus Pauling called sickle-cell disease the first “molecular disease” after finding that it changes this protein, and Vernon Ingram later showed that the change swaps just one amino acid, glutamic acid, for valine in its beta chains.",
+      "r": "For 10 points, name this iron-rich protein that red blood cells use to carry oxygen."
+    },
+    {
+      "p": "Before birth, a person makes a version of this protein with gamma chains in place of beta chains. That version grabs oxygen more tightly than the adult version, so oxygen can pass from the mother’s blood across the placenta.",
+      "r": "For 10 points, name this protein that carries oxygen in red blood cells and gives blood its red color."
+    },
+    {
+      "p": "Carbon monoxide is dangerous because it binds this protein more than 200 times as tightly as oxygen does, crowding the oxygen out. If the iron at this protein’s core loses an electron, changing from the +2 to the +3 state, the protein can no longer carry oxygen.",
+      "r": "It normally carries oxygen from the lungs to the tissues. For 10 points, name this iron-containing protein in red blood cells."
+    },
+    {
+      "p": "Root nodules of beans and peas turn pink because they hold a plant relative of this protein, which keeps oxygen away from the bacterial enzyme nitrogenase. Antarctic icefish are unusual among vertebrates because their blood has none of this protein at all.",
+      "r": "In humans, it is packed inside red blood cells. For 10 points, name this oxygen-carrying protein that makes blood red."
+    },
+    {
+      "p": "A graph of this protein’s oxygen loading is S-shaped, because once one oxygen molecule binds, the others bind more easily, a pattern called cooperative binding. This protein switches between a tense T state and a relaxed R state as oxygen attaches.",
+      "r": "Each of its four heme groups can carry one oxygen molecule. For 10 points, name this protein found in red blood cells."
+    },
+    {
+      "p": "When worn-out red blood cells are broken down in the spleen, the iron from this protein is recycled, and the rest of its heme becomes green biliverdin and then yellow bilirubin, the pigments that change a bruise’s color as it heals.",
+      "r": "Each red blood cell holds hundreds of millions of copies of it. For 10 points, name this iron-containing protein that carries oxygen in the blood."
+    },
+    {
+      "p": "Octopuses and horseshoe crabs carry oxygen with a copper-based protein that turns their blood blue, but humans use this iron-based protein instead. In humans, this protein turns bright red when it is loaded with oxygen and darker red after it lets go.",
+      "r": "For 10 points, name this protein packed inside red blood cells, which carries oxygen from the lungs."
+    },
+    {
+      "p": "Doctors track diabetes with the A1c test, which measures how much sugar has stuck to this protein over the past few months. Iron-deficiency anemia lowers the amount of this protein in the blood.",
+      "r": "Its four heme groups hold iron. For 10 points, name this protein that carries oxygen in red blood cells."
+    },
+    {
+      "p": "At high altitude, red blood cells make more of a molecule called 2,3-BPG, which binds this protein and helps it release oxygen to tissues. When oxygen runs low, the kidneys release EPO, telling the bone marrow to make more red blood cells full of this protein.",
+      "r": "Low levels of it cause anemia. For 10 points, name this iron-containing protein that carries oxygen in red blood cells."
+    },
+    {
+      "p": "The Haldane effect describes how this protein carries more carbon dioxide after it gives up its oxygen. Some carbon dioxide rides on this protein by attaching to amino groups on its chains, though most travels in the blood as bicarbonate.",
+      "r": "For 10 points, name this protein that carries oxygen from the lungs to the body’s tissues."
+    },
+    {
+      "p": "In each chain of this protein, a histidine holds an iron ion at the center of a flat porphyrin [“POR-fuh-rin”] ring. Each of those iron-containing heme groups can carry one oxygen molecule, so one copy of this protein carries up to four.",
+      "r": "Carbon monoxide can block its oxygen-binding sites. For 10 points, name this protein that makes red blood cells red."
+    },
+    {
+      "p": "People with thalassemia [“thal-uh-SEE-mee-uh”] make too little of the alpha or beta chains of this protein, which can cause anemia. A single change in the beta chains of this protein can make red blood cells bend into a sickle shape.",
+      "r": "For 10 points, name this iron-containing protein that carries oxygen in red blood cells."
+    },
+    {
+      "p": "A pulse oximeter clipped to a fingertip shines red and infrared light through the skin to estimate how much of this protein is carrying oxygen. Blood rich in oxygen-loaded copies of this protein is bright red, while blood heading back to the heart is darker red, not blue.",
+      "r": "A single amino-acid change in it causes sickle-cell disease. For 10 points, name this protein in red blood cells that contains iron."
+    }
+  ],
+  "clues": [
+    {
+      "id": "oxygen-carrier",
+      "tier": "giveaway",
+      "t": "The protein in red blood cells that carries oxygen from the lungs to the rest of the body",
+      "k": [
+        "red blood cells",
+        "oxygen",
+        "lungs"
+      ],
+      "n": 0,
+      "rabbit": "Red blood cells"
+    },
+    {
+      "id": "iron",
+      "tier": "giveaway",
+      "t": "Contains iron, which is where the oxygen binds",
+      "k": [
+        "iron"
+      ],
+      "n": 0,
+      "rabbit": "Iron"
+    },
+    {
+      "id": "red-color",
+      "tier": "giveaway",
+      "t": "Gives blood its red color: bright red when loaded with oxygen, darker red without it (never blue)",
+      "k": [
+        "red color",
+        "bright red",
+        "never blue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-heme",
+      "tier": "giveaway",
+      "t": "Each molecule has four heme groups, so it can carry up to four oxygen molecules",
+      "k": [
+        "heme",
+        "four"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-chains",
+      "tier": "middle",
+      "t": "Made of four chains (two alpha and two beta in most adults), a classic example of quaternary structure",
+      "k": [
+        "four chains",
+        "quaternary",
+        "alpha",
+        "beta"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sickle-cell",
+      "tier": "middle",
+      "t": "Sickle-cell disease comes from a single changed amino acid in its beta chains",
+      "k": [
+        "sickle-cell",
+        "beta chains",
+        "amino acid"
+      ],
+      "n": 0,
+      "rabbit": "Sickle-cell disease"
+    },
+    {
+      "id": "carbon-monoxide",
+      "tier": "middle",
+      "t": "Carbon monoxide binds it more than 200 times as tightly as oxygen, crowding the oxygen out",
+      "k": [
+        "carbon monoxide",
+        "200 times"
+      ],
+      "n": 0
+    },
+    {
+      "id": "myoglobin",
+      "tier": "middle",
+      "t": "Its single-chain cousin that stores oxygen in muscles is myoglobin",
+      "k": [
+        "myoglobin",
+        "single-chain",
+        "muscles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cooperative",
+      "tier": "middle",
+      "t": "Cooperative binding: each oxygen that binds makes the next bind more easily, giving an S-shaped curve",
+      "k": [
+        "cooperative",
+        "s-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bohr-effect",
+      "tier": "middle",
+      "t": "The Bohr effect: carbon dioxide and acid make it release oxygen more easily in working muscles",
+      "k": [
+        "bohr effect",
+        "acid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fetal",
+      "tier": "middle",
+      "t": "The fetal version uses gamma chains and grabs oxygen more tightly than the adult version",
+      "k": [
+        "fetal",
+        "gamma"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anemia",
+      "tier": "middle",
+      "t": "Low levels of it, often from too little iron, cause anemia",
+      "k": [
+        "anemia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "a1c",
+      "tier": "middle",
+      "t": "The A1c test for diabetes measures how much sugar has stuck to it over the past few months",
+      "k": [
+        "a1c",
+        "diabetes",
+        "sugar"
+      ],
+      "n": 0,
+      "rabbit": "Diabetes"
+    },
+    {
+      "id": "hemocyanin",
+      "tier": "middle",
+      "t": "Octopuses and horseshoe crabs use copper-based hemocyanin instead, which makes their blood blue",
+      "k": [
+        "hemocyanin",
+        "copper",
+        "blue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "perutz",
+      "tier": "power",
+      "t": "Max Perutz solved its shape with X-ray crystallography and shared the 1962 Nobel Prize in Chemistry with John Kendrew (myoglobin)",
+      "k": [
+        "perutz",
+        "x-ray crystallography",
+        "kendrew",
+        "1962"
+      ],
+      "n": 0
+    },
+    {
+      "id": "christian-bohr",
+      "tier": "power",
+      "t": "Christian Bohr, the father of physicist Niels Bohr, described the Bohr effect in 1904",
+      "k": [
+        "christian bohr",
+        "niels",
+        "1904"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pauling-ingram",
+      "tier": "power",
+      "t": "Linus Pauling called sickle-cell disease the first “molecular disease”; Vernon Ingram found valine replacing glutamic acid",
+      "k": [
+        "molecular disease",
+        "pauling",
+        "ingram",
+        "valine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bpg-epo",
+      "tier": "power",
+      "t": "2,3-BPG binds it to help release oxygen and rises at high altitude; kidneys release EPO to make more red cells",
+      "k": [
+        "high altitude",
+        "2,3-bpg",
+        "epo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "haldane",
+      "tier": "power",
+      "t": "Haldane effect: it carries more carbon dioxide after giving up oxygen, on amino groups of its chains (most CO2 travels as bicarbonate)",
+      "k": [
+        "haldane",
+        "bicarbonate",
+        "amino groups"
+      ],
+      "n": 0
+    },
+    {
+      "id": "t-r-states",
+      "tier": "power",
+      "t": "Switches between a tense T state and a relaxed R state as oxygen binds",
+      "k": [
+        "tense",
+        "relaxed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "histidine-porphyrin",
+      "tier": "power",
+      "t": "A histidine holds each iron ion at the center of a flat porphyrin ring",
+      "k": [
+        "histidine",
+        "porphyrin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oxidized-iron",
+      "tier": "power",
+      "t": "If its iron is oxidized from the +2 to the +3 state, it can no longer carry oxygen",
+      "k": [
+        "oxidized",
+        "+3 state"
+      ],
+      "n": 0
+    },
+    {
+      "id": "root-nodules",
+      "tier": "power",
+      "t": "A plant relative turns legume root nodules pink and keeps oxygen away from the enzyme nitrogenase",
+      "k": [
+        "root nodules",
+        "nitrogenase",
+        "legume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "icefish",
+      "tier": "power",
+      "t": "Antarctic icefish have none of it in their blood",
+      "k": [
+        "icefish",
+        "antarctic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bruise",
+      "tier": "power",
+      "t": "Broken down in the spleen into green biliverdin and yellow bilirubin, the colors of a healing bruise; its iron is recycled",
+      "k": [
+        "bilirubin",
+        "biliverdin",
+        "bruise"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thalassemia",
+      "tier": "power",
+      "t": "People with thalassemia make too little of its alpha or beta chains",
+      "k": [
+        "thalassemia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pulse-oximeter",
+      "tier": "power",
+      "t": "A fingertip pulse oximeter uses red and infrared light to estimate how much of it carries oxygen",
+      "k": [
+        "pulse oximeter",
+        "infrared"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Hemoglobin, heme, or myoglobin?",
+    "body": "Heme is only the iron-holding ring inside this protein, and myoglobin is its one-chain cousin that stores oxygen in muscles. They show up together in the same clues: Max Perutz’s Nobel was for hemoglobin, while John Kendrew’s was for myoglobin. Players also blurt “red blood cells” or “iron” as soon as they hear “carries oxygen.”",
+    "fix": "“This protein” with four chains, cooperative binding, the Bohr effect, or sickle-cell disease means hemoglobin. “Stores oxygen in muscle” or “a single chain” means myoglobin; “these cells” means red blood cells; “this element” means iron.",
+    "line": "Real answer line: <b><u>Hemoglobin</u></b> (accept <u>haemoglobin</u> or <u>Hb</u>; do not accept “myoglobin” or “heme”)"
+  },
+  "tests": {
+    "right": [
+      "Hemoglobin",
+      "haemoglobin",
+      "Hb",
+      "Hemaglobin",
+      "hemoglobin A"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Myoglobin",
+      "Heme",
+      "Hemocyanin",
+      "Red blood cells",
+      "Iron",
+      "Methemoglobin",
+      "Hematocrit"
+    ]
+  }
+}

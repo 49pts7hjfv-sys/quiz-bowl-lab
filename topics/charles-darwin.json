@@ -1,0 +1,451 @@
+{
+  "id": "charles-darwin",
+  "name": "Charles Darwin",
+  "mono": "CRD",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "English naturalist · Explained evolution by natural selection",
+  "dates": "1809–1882",
+  "briefing": "Charles Darwin was an English naturalist who spent almost five years sailing around the world on HMS _Beagle_, collecting fossils, birds, and beetles and studying the giant tortoises and finches of the Galápagos Islands. Back home, he spent about 20 years building his theory of evolution by natural selection, which he finally published in 1859 in _On the Origin of Species_. He was born on the very same day as Abraham Lincoln: February 12, 1809.",
+  "answerHtml": "<b><u>Charles Darwin</u></b> (accept <u>Darwin</u> or Charles Robert <u>Darwin</u>; do not accept “Erasmus Darwin”)",
+  "accept": [
+    "charles darwin",
+    "darwin",
+    "charles robert darwin",
+    "charles r darwin",
+    "c darwin"
+  ],
+  "prompt": [],
+  "reject": [
+    "erasmus darwin",
+    "robert darwin",
+    "emma darwin",
+    "alfred russel wallace",
+    "alfred wallace",
+    "wallace",
+    "jean baptiste lamarck",
+    "lamarck",
+    "thomas henry huxley",
+    "thomas huxley",
+    "huxley",
+    "charles lyell",
+    "lyell",
+    "gregor mendel",
+    "mendel",
+    "thomas malthus",
+    "malthus",
+    "robert fitzroy",
+    "fitzroy",
+    "herbert spencer",
+    "john gould",
+    "joseph hooker",
+    "darwinism",
+    "social darwinism",
+    "natural selection",
+    "evolution",
+    "charles dickens"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Charles_Darwin",
+  "qb": {
+    "q": "Darwin",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This scientist argued that ring-shaped coral atolls form when reefs keep growing upward around volcanic islands that are slowly sinking, an idea he published in an 1842 book. In 1835, he felt a major earthquake in Chile and saw that it had lifted the shoreline.",
+      "r": "He later wrote _On the Origin of Species_. For 10 points, name this English naturalist who sailed aboard HMS _Beagle_."
+    },
+    {
+      "p": "This scientist spent about eight years studying barnacles, publishing a series of books about them in the 1850s. His theory was shaped by Thomas Malthus’s essay arguing that populations grow faster than their food supply, leading to a struggle for existence.",
+      "r": "He described evolution by natural selection. For 10 points, name this author of _On the Origin of Species_."
+    },
+    {
+      "p": "This naturalist and his shipmates accidentally ate part of a rare, smaller kind of rhea before he realized it was the bird he had been hunting for, and the species was later named after him. He also dug up fossils of giant ground sloths in Argentina.",
+      "r": "For 10 points, name this scientist who studied finches and tortoises on the Galápagos Islands during his voyage aboard HMS _Beagle_."
+    },
+    {
+      "p": "In 1837, this scientist sketched a branching tree beneath the words “I think” in one of his notebooks, and a similar branching diagram became the only illustration in his most famous book. He read Charles Lyell’s _Principles of Geology_ during his voyage around the world.",
+      "r": "He explained evolution by natural selection. For 10 points, name this English naturalist who wrote _On the Origin of Species_."
+    },
+    {
+      "p": "Joseph Hooker and Charles Lyell arranged for papers by this man and Alfred Russel Wallace to be read together at the Linnean Society in 1858, after Wallace mailed him an essay with the same idea. The next year, this man published his own book on that idea.",
+      "r": "For 10 points, name this English naturalist who proposed the theory of evolution by natural selection."
+    },
+    {
+      "p": "After studying a Madagascar orchid whose nectar sat at the bottom of a tube about a foot long, this scientist predicted that a moth with an equally long tongue must exist, and a moth matching his prediction was described in 1903.",
+      "r": "He also wrote _The Descent of Man_, which described sexual selection. For 10 points, name this naturalist who sailed on HMS _Beagle_."
+    },
+    {
+      "p": "This scientist’s last book, published in 1881, described how earthworms slowly bury stones and build up soil. He worked for decades at Down House in Kent, where he did much of his thinking while walking a path he called the Sandwalk.",
+      "r": "He proposed natural selection. For 10 points, name this author of _On the Origin of Species_."
+    },
+    {
+      "p": "This scientist proposed that tiny particles called gemmules travel from every part of the body to carry traits to offspring, a mistaken idea he called pangenesis. He studied artificial selection by breeding fancy pigeons at his home.",
+      "r": "For 10 points, name this English naturalist who published _On the Origin of Species_ in 1859."
+    },
+    {
+      "p": "In an 1860 debate at Oxford, Bishop Samuel Wilberforce clashed with Thomas Henry Huxley, who was nicknamed this scientist’s “bulldog” for defending his ideas. Herbert Spencer coined the phrase “survival of the fittest,” which this scientist later used in his own work.",
+      "r": "He described evolution by natural selection. For 10 points, name this author of _On the Origin of Species_."
+    },
+    {
+      "p": "In Argentina, this naturalist dug up fossils of giant ground sloths and armored glyptodonts [“GLIP-tuh-donts”] and noticed that they resembled smaller animals, like armadillos, that still lived there. During his voyage, he read Charles Lyell’s _Principles of Geology_.",
+      "r": "Lyell’s book argued that Earth changes slowly over long ages. For 10 points, name this English naturalist who sailed on HMS _Beagle_."
+    },
+    {
+      "p": "This scientist ended his most famous book by describing a “tangled bank” full of life and declaring that “endless forms most beautiful and most wonderful” have evolved from simple beginnings. He called his idea “descent with modification.”",
+      "r": "That book appeared in 1859. For 10 points, name this English naturalist who wrote _On the Origin of Species_."
+    },
+    {
+      "p": "Botanist John Stevens Henslow recommended this young man as a companion for Captain Robert FitzRoy on a surveying voyage that left England in 1831. During that voyage, this man visited the Galápagos Islands in 1835.",
+      "r": "He later published _On the Origin of Species_. For 10 points, name this naturalist who sailed aboard HMS _Beagle_."
+    },
+    {
+      "p": "This man’s grandfathers were the pottery maker Josiah Wedgwood and the doctor Erasmus, who wrote the book _Zoonomia_, and this man married his cousin Emma Wedgwood. He dropped out of medical school in Edinburgh.",
+      "r": "He then studied at Cambridge to become a clergyman before sailing on HMS _Beagle_. For 10 points, name this naturalist who wrote _On the Origin of Species_."
+    },
+    {
+      "p": "The ornithologist John Gould told this scientist that the small brown birds he had collected on different Galápagos islands were separate species of finches. This man also noticed that the islands’ mockingbirds and giant tortoises differed from island to island.",
+      "r": "For 10 points, name this English naturalist who sailed on HMS _Beagle_ and proposed natural selection."
+    },
+    {
+      "p": "This scientist’s 1872 book _The Expression of the Emotions in Man and Animals_ used photographs to compare the faces people and animals make when they feel emotions. He is buried in Westminster Abbey, near Isaac Newton.",
+      "r": "For 10 points, name this author of _On the Origin of Species_, who was born on the same day as Abraham Lincoln."
+    }
+  ],
+  "clues": [
+    {
+      "id": "origin",
+      "tier": "giveaway",
+      "t": "Wrote _On the Origin of Species_ (1859)",
+      "k": [
+        "origin of species",
+        "1859"
+      ],
+      "n": 0
+    },
+    {
+      "id": "natural-selection",
+      "tier": "giveaway",
+      "t": "Explained evolution by natural selection: living things with helpful traits survive and have more offspring",
+      "k": [
+        "natural selection",
+        "helpful traits"
+      ],
+      "n": 0,
+      "rabbit": "Evolution"
+    },
+    {
+      "id": "beagle",
+      "tier": "giveaway",
+      "t": "Sailed around the world as a naturalist on HMS _Beagle_ (1831–1836)",
+      "k": [
+        "beagle",
+        "1831"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galapagos",
+      "tier": "giveaway",
+      "t": "Studied finches, giant tortoises, and mockingbirds on the Galápagos Islands",
+      "k": [
+        "galápagos",
+        "finches",
+        "tortoises"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lincoln-birthday",
+      "tier": "giveaway",
+      "t": "English naturalist born February 12, 1809, the same day as Abraham Lincoln",
+      "k": [
+        "abraham lincoln",
+        "february 12",
+        "1809"
+      ],
+      "n": 0,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "descent-with-modification",
+      "tier": "middle",
+      "t": "Called his idea “descent with modification”",
+      "k": [
+        "descent with modification"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lyell",
+      "tier": "middle",
+      "t": "Read Charles Lyell’s _Principles of Geology_, about slow change over long ages, during the voyage",
+      "k": [
+        "charles lyell",
+        "principles of geology"
+      ],
+      "n": 0
+    },
+    {
+      "id": "malthus",
+      "tier": "middle",
+      "t": "Thomas Malthus’s essay on population growth inspired his idea of a “struggle for existence”",
+      "k": [
+        "thomas malthus",
+        "malthus",
+        "struggle for existence"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wallace",
+      "tier": "middle",
+      "t": "Alfred Russel Wallace reached the same idea; their papers were read together at the Linnean Society in 1858",
+      "k": [
+        "alfred russel wallace",
+        "wallace",
+        "linnean society",
+        "1858"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huxley",
+      "tier": "middle",
+      "t": "Thomas Henry Huxley, his “bulldog,” defended his ideas against Bishop Samuel Wilberforce in 1860",
+      "k": [
+        "huxley",
+        "bulldog",
+        "wilberforce"
+      ],
+      "n": 0
+    },
+    {
+      "id": "descent-of-man",
+      "tier": "middle",
+      "t": "_The Descent of Man_ (1871) applied his ideas to humans and described sexual selection",
+      "k": [
+        "descent of man",
+        "sexual selection",
+        "1871"
+      ],
+      "n": 0,
+      "rabbit": "Human evolution"
+    },
+    {
+      "id": "pigeons",
+      "tier": "middle",
+      "t": "Studied artificial selection by breeding fancy pigeons",
+      "k": [
+        "artificial selection",
+        "pigeons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fitzroy-henslow",
+      "tier": "middle",
+      "t": "The _Beagle_’s captain was Robert FitzRoy; Cambridge botanist John Stevens Henslow recommended him for the trip",
+      "k": [
+        "robert fitzroy",
+        "fitzroy",
+        "henslow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fossils",
+      "tier": "middle",
+      "t": "Dug up fossils of giant ground sloths and glyptodonts in South America, relatives of living sloths and armadillos",
+      "k": [
+        "ground sloths",
+        "glyptodonts",
+        "fossils"
+      ],
+      "n": 0
+    },
+    {
+      "id": "westminster",
+      "tier": "middle",
+      "t": "Died in 1882 and was buried in Westminster Abbey near Isaac Newton",
+      "k": [
+        "westminster abbey",
+        "isaac newton",
+        "1882"
+      ],
+      "n": 0,
+      "rabbit": "Isaac Newton"
+    },
+    {
+      "id": "coral-earthquake",
+      "tier": "power",
+      "t": "Explained that coral atolls form as reefs grow upward around slowly sinking volcanic islands (1842 book); saw a Chilean earthquake lift the shoreline (1835)",
+      "k": [
+        "atolls",
+        "sinking",
+        "earthquake"
+      ],
+      "n": 0,
+      "rabbit": "Coral reefs"
+    },
+    {
+      "id": "barnacles",
+      "tier": "power",
+      "t": "Spent about eight years studying barnacles",
+      "k": [
+        "barnacles",
+        "eight years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rhea",
+      "tier": "power",
+      "t": "He and his shipmates accidentally ate part of a rare rhea that was later named after him",
+      "k": [
+        "rhea",
+        "accidentally"
+      ],
+      "n": 0
+    },
+    {
+      "id": "i-think",
+      "tier": "power",
+      "t": "Sketched a branching “I think” tree in an 1837 notebook; a branching diagram is the only illustration in _Origin_",
+      "k": [
+        "i think",
+        "1837",
+        "only illustration"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orchid-moth",
+      "tier": "power",
+      "t": "Predicted a long-tongued moth from a Madagascar orchid’s foot-long nectar tube; a matching moth was described in 1903",
+      "k": [
+        "madagascar",
+        "orchid",
+        "moth",
+        "1903"
+      ],
+      "n": 0
+    },
+    {
+      "id": "earthworms",
+      "tier": "power",
+      "t": "His last book (1881) was about earthworms building soil; at Down House in Kent, he thought while walking the Sandwalk",
+      "k": [
+        "earthworms",
+        "down house",
+        "sandwalk"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pangenesis",
+      "tier": "power",
+      "t": "Proposed the mistaken idea of pangenesis, in which particles called gemmules carry traits",
+      "k": [
+        "pangenesis",
+        "gemmules"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wedgwood",
+      "tier": "power",
+      "t": "Grandson of Josiah Wedgwood and of Erasmus, author of _Zoonomia_; married his cousin Emma Wedgwood",
+      "k": [
+        "wedgwood",
+        "zoonomia",
+        "emma"
+      ],
+      "n": 0
+    },
+    {
+      "id": "edinburgh",
+      "tier": "power",
+      "t": "Dropped out of medical school in Edinburgh, then studied at Cambridge to become a clergyman",
+      "k": [
+        "edinburgh",
+        "clergyman",
+        "medical school"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tangled-bank",
+      "tier": "power",
+      "t": "_Origin_ ends with a “tangled bank” and “endless forms most beautiful and most wonderful”",
+      "k": [
+        "tangled bank",
+        "endless forms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spencer",
+      "tier": "power",
+      "t": "Herbert Spencer coined “survival of the fittest”; he later used the phrase himself",
+      "k": [
+        "herbert spencer",
+        "survival of the fittest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gould",
+      "tier": "power",
+      "t": "Ornithologist John Gould told him that his Galápagos birds were separate species of finches",
+      "k": [
+        "john gould",
+        "gould",
+        "ornithologist"
+      ],
+      "n": 0
+    },
+    {
+      "id": "emotions",
+      "tier": "power",
+      "t": "_The Expression of the Emotions in Man and Animals_ (1872) used photographs to compare faces",
+      "k": [
+        "expression of the emotions",
+        "photographs",
+        "1872"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not Wallace, not Lamarck",
+    "body": "Alfred Russel Wallace came up with natural selection on his own while exploring the Malay Archipelago, and their papers were read together in 1858, so some clues fit both men. Jean-Baptiste Lamarck had an older, wrong theory that living things pass on traits they gain by using their bodies, like a giraffe stretching its neck. And the doctor and poet Erasmus Darwin, author of _Zoonomia_, was Charles’s grandfather.",
+    "fix": "The _Beagle_, the Galápagos, barnacles, earthworms, or _On the Origin of Species_ mean Charles Darwin; the Malay Archipelago and the Wallace Line mean Wallace; use and disuse of body parts means Lamarck. If a clue could fit the grandfather, say “Charles Darwin” in full.",
+    "line": "Real answer line: <b><u>Charles Darwin</u></b> (accept <u>Darwin</u> or Charles Robert <u>Darwin</u>; do not accept “Erasmus Darwin”)"
+  },
+  "tests": {
+    "right": [
+      "Charles Darwin",
+      "Darwin",
+      "Charles Robert Darwin",
+      "Charles Darwn",
+      "darwin"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Erasmus Darwin",
+      "Alfred Russel Wallace",
+      "Gregor Mendel",
+      "Lamarck",
+      "Thomas Huxley",
+      "Charles Lyell"
+    ]
+  }
+}

@@ -1,0 +1,350 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "surface-tension",
+    "name": "Surface tension",
+    "mono": "ST",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "A liquid’s stretchy skin · Lets water striders walk on ponds",
+    "dates": "Explained by Thomas Young and Pierre-Simon Laplace, 1805–1806",
+    "briefing": "Surface tension makes the top of a liquid behave like a stretchy skin. Water molecules cling to one another, so the ones at the top get pulled inward, which lets water striders skate across ponds and a carefully placed paper clip rest on water. Add a drop of dish soap and that skin weakens, so the paper clip sinks.",
+    "answerHtml": "<b><u>Surface tension</u></b> (prompt on <u>tension</u>; do not accept “capillary action” or “cohesion”)",
+    "accept": [
+        "surface tension",
+        "surface tensions"
+    ],
+    "prompt": [
+        "tension",
+        "interfacial tension",
+        "surface energy",
+        "surface free energy"
+    ],
+    "reject": [
+        "capillary action",
+        "capillarity",
+        "capillary",
+        "cohesion",
+        "cohesive force",
+        "cohesive forces",
+        "adhesion",
+        "viscosity",
+        "meniscus",
+        "hydrogen bonding",
+        "hydrogen bond",
+        "hydrogen bonds",
+        "buoyancy",
+        "surfactant",
+        "surfactants",
+        "marangoni effect",
+        "surface area",
+        "laplace pressure"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Surface_tension",
+    "qb": {
+        "q": "surface tension",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Agnes Pockels measured this property using a homemade trough in her kitchen, and Lord Rayleigh helped get her results published in _Nature_ in 1891. The Eötvös [“UHT-vuhsh”] rule says this property falls roughly in a straight line as temperature rises, reaching zero near a liquid’s critical temperature.",
+            "r": "For 10 points, name this property that lets water striders walk on a pond, caused by the cohesion of water molecules."
+        },
+        {
+            "p": "The Young–Laplace equation says the pressure inside a curved drop exceeds the outside pressure by an amount that depends on this property and the drop’s radius. Because of that, the air inside a small bubble is at a higher pressure than the air inside a large one.",
+            "r": "Soap lowers this property. For 10 points, name this property that makes a liquid’s top layer act like a stretched elastic skin."
+        },
+        {
+            "p": "The Marangoni [“mar-un-GOH-nee”] effect, named for an Italian physicist, makes liquid flow from places where this property is low toward places where it is high. A drop of soap behind a toy boat lowers this property there, so the boat zooms forward.",
+            "r": "For 10 points, name this property of liquids, which is unusually high for water because of hydrogen bonding."
+        },
+        {
+            "p": "James Jurin [“JOOR-in”] found that the height a liquid climbs in a thin glass tube is inversely proportional to the tube’s radius, a rise that depends directly on this property. Water’s meniscus curves upward at the glass because water molecules are attracted to the glass more strongly than to each other.",
+            "r": "For 10 points, name this property that lets a paper clip float on water and makes small drops form spheres."
+        },
+        {
+            "p": "A du Noüy [“doo noo-EE”] ring can be pulled up out of a liquid to measure this property, which has units of newtons per meter. Mercury has a much higher value of this property than water, which is why spilled mercury breaks into shiny beads.",
+            "r": "For 10 points, name this property, usually symbolized gamma, that lets insects called water striders stand on ponds."
+        },
+        {
+            "p": "Joseph Plateau [“plah-TOH”] found that stable soap films meet in threes at angles of 120 degrees, because this property pulls each film into the smallest possible area. The same property makes a thin falling stream of water break up into droplets.",
+            "r": "For 10 points, name this property that pulls a liquid into shapes with the least possible exposed area, such as spherical drops."
+        },
+        {
+            "p": "Tiny air sacs in the lungs called alveoli [“al-VEE-uh-lye”] are coated with a substance that lowers this property so they do not collapse. Detergents and other surfactants also lower this property, which lets water spread out and soak into fabric.",
+            "r": "For 10 points, name this property caused by cohesion, which lets a needle rest on top of water."
+        },
+        {
+            "p": "Water ripples with wavelengths under about two centimeters are called capillary waves because this property, rather than gravity, mainly pulls them flat again. The Weber number compares a moving fluid’s inertia to this property, and it predicts when a flying drop will shatter.",
+            "r": "For 10 points, name this property, measured in newtons per meter, that makes water bead up into round drops."
+        },
+        {
+            "p": "In 1805, Thomas Young related the contact angle of a drop resting on a solid to this property, often symbolized gamma. A drop of water on a waxy leaf beads up instead of spreading because the water’s cohesion beats its attraction to the wax.",
+            "r": "For 10 points, name this property that lets water striders walk on ponds and is lowered by soap."
+        },
+        {
+            "p": "This property can be given in newtons per meter or in joules per square meter, the energy needed to make each square meter of new liquid boundary. Molecules in a liquid’s top layer have fewer neighbors above them, so they feel a net inward pull.",
+            "r": "For 10 points, name this property that makes a liquid behave as if it had a stretchy skin."
+        },
+        {
+            "p": "The Bond number compares the pull of gravity on a drop to this property, and drops with a small Bond number stay nearly round. A glass can be filled slightly above its rim, forming a dome of water, because of this property.",
+            "r": "It lets water striders skate across ponds. For 10 points, name this property of liquids that soaps and detergents lower."
+        },
+        {
+            "p": "Tate’s law says the weight of a drop that falls from a thin tube is proportional to the tube’s radius times this property, so counting drops can measure it. This property is lowered by raising a liquid’s temperature.",
+            "r": "For 10 points, name this property of liquids that makes a drop pull itself into a sphere and lets small insects stand on water."
+        },
+        {
+            "p": "Small raindrops are nearly perfect spheres because of this property, while large raindrops are flattened by air resistance into a hamburger-bun shape. Astronauts on the International Space Station have watched floating blobs of water pull themselves into balls thanks to this property.",
+            "r": "For 10 points, name this property caused by the cohesion of liquid molecules, which soap lowers."
+        },
+        {
+            "p": "At room temperature, water’s value of this property is about 72 millinewtons per meter, higher than that of most common liquids, because hydrogen bonds hold water molecules tightly together. Raising water’s temperature or adding soap lowers this value.",
+            "r": "For 10 points, name this property that lets a carefully placed needle or paper clip rest on top of water."
+        },
+        {
+            "p": "In the “Cheerios effect,” floating bits of cereal drift together and clump, an effect caused by this property and buoyancy. Water striders rest on ponds on legs covered in tiny water-repelling hairs that dimple the water without breaking through.",
+            "r": "For 10 points, name this property of liquids, which is lowered by surfactants such as soap."
+        }
+    ],
+    "clues": [
+        {
+            "id": "stretchy-skin",
+            "tier": "giveaway",
+            "t": "Makes the top layer of a liquid act like a stretchy skin",
+            "k": ["stretchy skin", "top layer"],
+            "n": 0
+        },
+        {
+            "id": "water-striders",
+            "tier": "giveaway",
+            "t": "Lets water striders walk on ponds and a carefully placed paper clip or needle rest on water",
+            "k": ["water striders", "paper clip", "needle"],
+            "n": 0
+        },
+        {
+            "id": "cohesion",
+            "tier": "giveaway",
+            "t": "Caused by cohesion: liquid molecules pull on each other, so the ones at the top feel a net inward pull",
+            "k": ["cohesion", "inward pull"],
+            "n": 0
+        },
+        {
+            "id": "soap",
+            "tier": "giveaway",
+            "t": "Lowered by soap, detergents, and other surfactants",
+            "k": ["soap", "detergents", "surfactants"],
+            "n": 0
+        },
+        {
+            "id": "spheres",
+            "tier": "giveaway",
+            "t": "Pulls drops into spheres, the shape with the least area for their volume",
+            "k": ["spheres", "least area"],
+            "n": 0
+        },
+        {
+            "id": "hydrogen-bonds",
+            "tier": "middle",
+            "t": "Water’s value is unusually high because of hydrogen bonding: about 72 millinewtons per meter at room temperature",
+            "k": ["hydrogen bonding", "millinewtons", "72"],
+            "n": 0,
+            "rabbit": "Hydrogen bonds"
+        },
+        {
+            "id": "units",
+            "tier": "middle",
+            "t": "Measured in newtons per meter (the same as joules per square meter) and usually symbolized by the Greek letter gamma",
+            "k": ["newtons per meter", "joules per square meter", "gamma"],
+            "n": 0
+        },
+        {
+            "id": "capillary-action",
+            "tier": "middle",
+            "t": "Helps drive capillary action, the climb of water up a thin tube",
+            "k": ["capillary action", "thin tube"],
+            "n": 0
+        },
+        {
+            "id": "meniscus",
+            "tier": "middle",
+            "t": "Water’s meniscus curves up at the glass because its adhesion to glass beats its cohesion; mercury’s curves down",
+            "k": ["meniscus", "adhesion"],
+            "n": 0
+        },
+        {
+            "id": "mercury",
+            "tier": "middle",
+            "t": "Mercury’s value is much higher than water’s, so spilled mercury breaks into shiny beads",
+            "k": ["mercury", "beads"],
+            "n": 0
+        },
+        {
+            "id": "temperature",
+            "tier": "middle",
+            "t": "Falls as a liquid’s temperature rises",
+            "k": ["temperature", "falls"],
+            "n": 0
+        },
+        {
+            "id": "dome",
+            "tier": "middle",
+            "t": "Lets you fill a glass slightly above its rim, so the water forms a dome",
+            "k": ["dome", "rim"],
+            "n": 0
+        },
+        {
+            "id": "space-station",
+            "tier": "middle",
+            "t": "On the International Space Station, floating blobs of water pull themselves into balls",
+            "k": ["space station", "balls"],
+            "n": 0
+        },
+        {
+            "id": "lungs",
+            "tier": "middle",
+            "t": "A substance coating the lungs’ alveoli lowers it so the tiny air sacs do not collapse",
+            "k": ["alveoli", "lungs", "air sacs"],
+            "n": 0
+        },
+        {
+            "id": "young-laplace",
+            "tier": "power",
+            "t": "Young–Laplace equation: the pressure jump across a curved drop depends on it and the radius, so small bubbles have higher pressure inside",
+            "k": ["laplace", "pressure", "bubbles"],
+            "n": 0
+        },
+        {
+            "id": "contact-angle",
+            "tier": "power",
+            "t": "In 1805, Thomas Young related the contact angle of a drop on a solid to it",
+            "k": ["contact angle", "thomas young", "1805"],
+            "n": 0
+        },
+        {
+            "id": "marangoni",
+            "tier": "power",
+            "t": "Marangoni effect: liquid flows from where it is low to where it is high, so soap behind a toy boat makes it zoom forward",
+            "k": ["marangoni", "toy boat"],
+            "n": 0
+        },
+        {
+            "id": "jurin",
+            "tier": "power",
+            "t": "Jurin’s law: the height a liquid climbs in a thin tube is inversely proportional to the tube’s radius",
+            "k": ["jurin", "inversely proportional"],
+            "n": 0
+        },
+        {
+            "id": "du-nouy",
+            "tier": "power",
+            "t": "Measured with tensiometers such as a du Noüy ring or a Wilhelmy plate",
+            "k": ["du noüy", "wilhelmy", "tensiometers"],
+            "n": 0
+        },
+        {
+            "id": "eotvos",
+            "tier": "power",
+            "t": "Eötvös rule: it falls roughly linearly with temperature, reaching zero near the liquid’s critical temperature",
+            "k": ["eötvös", "critical temperature"],
+            "n": 0
+        },
+        {
+            "id": "pockels",
+            "tier": "power",
+            "t": "Agnes Pockels measured it with a homemade trough in her kitchen; Lord Rayleigh helped publish her work in _Nature_ in 1891",
+            "k": ["pockels", "kitchen", "rayleigh"],
+            "n": 0,
+            "rabbit": "Lord Rayleigh"
+        },
+        {
+            "id": "plateau",
+            "tier": "power",
+            "t": "Joseph Plateau: stable soap films meet in threes at 120 degrees; it also breaks a thin falling stream into droplets",
+            "k": ["plateau", "soap films", "droplets"],
+            "n": 0
+        },
+        {
+            "id": "capillary-waves",
+            "tier": "power",
+            "t": "Ripples shorter than about 2 centimeters are capillary waves, flattened mainly by it rather than by gravity",
+            "k": ["capillary waves", "ripples"],
+            "n": 0
+        },
+        {
+            "id": "weber-number",
+            "tier": "power",
+            "t": "The Weber number compares a moving fluid’s inertia to it and predicts when a flying drop will shatter",
+            "k": ["weber number", "inertia"],
+            "n": 0
+        },
+        {
+            "id": "bond-number",
+            "tier": "power",
+            "t": "The Bond number compares gravity’s pull on a drop to it; drops with a small Bond number stay nearly round",
+            "k": ["bond number", "gravity"],
+            "n": 0
+        },
+        {
+            "id": "tate",
+            "tier": "power",
+            "t": "Tate’s law: a falling drop’s weight is proportional to the tube’s radius times this, so counting drops can measure it",
+            "k": ["tate", "counting drops"],
+            "n": 0
+        },
+        {
+            "id": "raindrops",
+            "tier": "power",
+            "t": "Keeps small raindrops nearly spherical; large raindrops get flattened by air resistance into a hamburger-bun shape",
+            "k": ["raindrops", "hamburger-bun"],
+            "n": 0
+        },
+        {
+            "id": "cheerios",
+            "tier": "power",
+            "t": "The “Cheerios effect”: floating bits of cereal clump together because of it and buoyancy",
+            "k": ["cheerios", "clump", "buoyancy"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not capillary action!",
+        "body": "Capillary action, cohesion, adhesion, and the meniscus show up in the same clues, but each is a different answer. Cohesion is the pull between like molecules that causes this property. Capillary action is a liquid climbing a thin tube or a paper towel, which this property helps drive, and the meniscus is the curved top of a liquid in a tube.",
+        "fix": "A liquid acting like a skin, insects standing on water, round drops, soap lowering a value in newtons per meter, or the Greek letter gamma all mean this answer. Liquid climbing a narrow tube on its own is capillary action, and thick, slow pouring is viscosity. If you only say “tension,” expect a prompt.",
+        "line": "Real answer line: <b><u>Surface tension</u></b> (prompt on <u>tension</u>; do not accept “capillary action” or “cohesion”)"
+    },
+    "tests": {
+        "right": [
+            "Surface tension",
+            "surface tention",
+            "Surface Tension",
+            "surfacetension"
+        ],
+        "prompt": [
+            "Tension",
+            "interfacial tension"
+        ],
+        "wrong": [
+            "Capillary action",
+            "Cohesion",
+            "Viscosity",
+            "Adhesion",
+            "Meniscus"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,362 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "magnetic-fields",
+    "name": "Magnetic fields",
+    "mono": "MF",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Invisible zones around magnets and currents · Steer compasses and charges",
+    "dates": "Linked to electric current by Hans Christian Ørsted, 1820",
+    "briefing": "A magnetic field is the invisible region around a magnet or an electric current where magnetic forces act. Sprinkle iron filings near a bar magnet and they line up along its field lines, which loop from the north pole around to the south pole. In 1820, Hans Christian Ørsted noticed that a wire carrying current made a nearby compass needle swing, the first clue that electricity and magnetism are connected.",
+    "answerHtml": "<b><u>magnetic field</u></b>s (accept <u>B-field</u>s or <u>magnetic flux density</u>; prompt on <u>field</u> or <u>magnetism</u>; do not accept “electric field” or “Earth’s magnetic field”)",
+    "accept": [
+        "magnetic fields",
+        "magnetic field",
+        "b field",
+        "b fields",
+        "magnetic flux density",
+        "magnetic field strength",
+        "magnetic field lines"
+    ],
+    "prompt": [
+        "field",
+        "fields",
+        "magnetism",
+        "electromagnetic field",
+        "electromagnetic fields",
+        "em field"
+    ],
+    "reject": [
+        "electric field",
+        "electric fields",
+        "e field",
+        "earths magnetic field",
+        "geomagnetic field",
+        "magnetosphere",
+        "magnetic force",
+        "magnetic monopole",
+        "magnetic monopoles",
+        "magnetic moment",
+        "magnetic dipole",
+        "magnetic domain",
+        "magnetic domains",
+        "magnetic pole",
+        "magnetic poles",
+        "ferromagnetism",
+        "electromagnet",
+        "lorentz force",
+        "tesla",
+        "gauss",
+        "electromagnetic induction"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Magnetic_field",
+    "qb": {
+        "q": "magnetic field",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "George Ellery Hale used the Zeeman effect, the splitting of spectral lines by this quantity, to show in 1908 that sunspots are places where this quantity is very strong. Inside a long coil of wire called a solenoid, this quantity is nearly uniform.",
+            "r": "For 10 points, name this quantity, measured in teslas, that iron filings reveal around a bar magnet."
+        },
+        {
+            "p": "The Biot–Savart [“bee-OH suh-VAR”] law adds up the contributions to this quantity from each tiny piece of a current-carrying wire. Around a long straight wire, this quantity forms circles whose direction is given by a right-hand rule.",
+            "r": "Earth has its own version of this quantity. For 10 points, name this quantity, measured in teslas, that a compass needle lines up with."
+        },
+        {
+            "p": "In the Meissner [“MYSE-ner”] effect, a superconductor pushes this quantity out of its interior, which lets a small magnet float above the superconductor. This quantity is measured in units called teslas or gauss.",
+            "r": "A compass needle turns to line up with this quantity. For 10 points, name this quantity that surrounds magnets and electric currents."
+        },
+        {
+            "p": "One of Maxwell’s equations says the divergence of this quantity is always zero, so its lines never start or stop but always form closed loops. Outside a bar magnet, its lines run from the north pole around to the south pole.",
+            "r": "No one has ever found a lone north or south pole. For 10 points, name this quantity, whose SI unit is the tesla."
+        },
+        {
+            "p": "Hall probes measure this quantity by detecting the small voltage that appears across a current-carrying strip placed in it. A charged particle moving through this quantity feels a force at right angles to its motion, so it curves into a circle or spiral.",
+            "r": "For 10 points, name this quantity, measured in teslas, that surrounds every magnet and every electric current."
+        },
+        {
+            "p": "A charged particle circling in this quantity takes the same time for each loop no matter how fast it moves, as long as it is much slower than light, the key idea behind Ernest Lawrence’s cyclotron. This quantity never changes a moving charge’s speed, only its direction.",
+            "r": "For 10 points, name this quantity, measured in teslas, produced by magnets and by moving electric charges."
+        },
+        {
+            "p": "Inside a long solenoid, this quantity equals the permeability of free space times the current times the number of turns per unit length. Ampère’s law relates this quantity around a closed loop to the current passing through that loop.",
+            "r": "For 10 points, name this quantity, which iron filings reveal around a bar magnet."
+        },
+        {
+            "p": "MRI machines use a very strong version of this quantity to line up the spins of hydrogen nuclei in the body, then use radio waves to make images. Its SI unit, the tesla, is named for the inventor Nikola Tesla.",
+            "r": "For 10 points, name this quantity that compass needles line up with, found around every magnet."
+        },
+        {
+            "p": "Magnetars, a kind of neutron star, have the strongest versions of this quantity known in the universe. Earth’s version of this quantity is made by swirling molten iron in its outer core and protects the planet from the solar wind.",
+            "r": "For 10 points, name this quantity whose lines loop from the north pole to the south pole of a bar magnet."
+        },
+        {
+            "p": "Mass spectrometers sort ions by bending their paths through this quantity, since lighter ions with the same charge curve more sharply. The Lorentz force law gives the push on a charge moving through this quantity.",
+            "r": "For 10 points, name this quantity that Hans Christian Ørsted found an electric current could produce."
+        },
+        {
+            "p": "Michael Faraday discovered that changing the amount of this quantity passing through a coil of wire creates an electric current, the idea behind electric generators. Lenz’s law says that the induced current flows in a direction that opposes the change.",
+            "r": "For 10 points, name this quantity, measured in teslas, that surrounds every magnet and can be mapped with iron filings."
+        },
+        {
+            "p": "Doughnut-shaped machines called tokamaks use this quantity to hold superhot plasma away from their walls in nuclear fusion experiments. Charged particles from the Sun spiral along Earth’s version of this quantity toward the poles, creating auroras.",
+            "r": "A compass needle lines up with it. For 10 points, name this quantity, which surrounds both magnets and electric currents."
+        },
+        {
+            "p": "Magnetotactic bacteria build chains of tiny magnetite crystals that let them line up with Earth’s version of this quantity. Sea turtles and many migrating birds can also sense Earth’s version of this quantity to find their way.",
+            "r": "For 10 points, name this quantity, measured in teslas or gauss, that surrounds every magnet."
+        },
+        {
+            "p": "Superconducting devices called SQUIDs can measure the extremely faint amounts of this quantity produced by electric currents in the human brain. One gauss, an older unit for this quantity, equals one ten-thousandth of a tesla.",
+            "r": "For 10 points, name this quantity that makes a compass needle swing, found around magnets and electric currents."
+        },
+        {
+            "p": "A pair of Helmholtz coils, spaced one radius apart, creates a nearly uniform region of this quantity between them. A right-hand rule gives the direction of this quantity around a wire: point your thumb along the current, and your fingers curl the way this quantity points.",
+            "r": "For 10 points, name this quantity, measured in teslas, that Hans Christian Ørsted showed electric currents produce."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "The invisible region around a magnet or an electric current where magnetic forces act",
+            "k": ["invisible region", "magnet", "electric current"],
+            "n": 0
+        },
+        {
+            "id": "iron-filings",
+            "tier": "giveaway",
+            "t": "Iron filings sprinkled near a bar magnet line up along its lines, which run from the north pole to the south pole",
+            "k": ["iron filings", "bar magnet", "north pole"],
+            "n": 0
+        },
+        {
+            "id": "tesla",
+            "tier": "giveaway",
+            "t": "Measured in teslas (named for Nikola Tesla); one tesla equals 10,000 gauss",
+            "k": ["teslas", "nikola tesla", "10,000 gauss"],
+            "n": 0
+        },
+        {
+            "id": "compass",
+            "tier": "giveaway",
+            "t": "Compass needles turn to line up with Earth’s version of it",
+            "k": ["compass needles", "line up"],
+            "n": 0,
+            "rabbit": "Earth’s magnetic field"
+        },
+        {
+            "id": "oersted",
+            "tier": "giveaway",
+            "t": "Hans Christian Ørsted (1820) found that an electric current makes one, swinging a nearby compass needle",
+            "k": ["ørsted", "oersted", "1820"],
+            "n": 0,
+            "rabbit": "Magnetism"
+        },
+        {
+            "id": "symbol-b",
+            "tier": "middle",
+            "t": "Symbolized by the letter B; a vector with both a size and a direction",
+            "k": ["letter b", "vector"],
+            "n": 0
+        },
+        {
+            "id": "lorentz",
+            "tier": "middle",
+            "t": "A charge moving through it feels a sideways push (the Lorentz force), so it travels in circles or spirals",
+            "k": ["lorentz force", "sideways", "spirals"],
+            "n": 0
+        },
+        {
+            "id": "right-hand-rule",
+            "tier": "middle",
+            "t": "Forms circles around a straight current-carrying wire; a right-hand rule gives their direction",
+            "k": ["right-hand rule", "straight"],
+            "n": 0
+        },
+        {
+            "id": "closed-loops",
+            "tier": "middle",
+            "t": "Its lines always form closed loops, since no one has found a lone north or south pole (a monopole)",
+            "k": ["closed loops", "monopole"],
+            "n": 0,
+            "rabbit": "Magnetic monopoles"
+        },
+        {
+            "id": "solenoid",
+            "tier": "middle",
+            "t": "Nearly uniform inside a long coil called a solenoid, where it equals the permeability of free space × turns per unit length × current",
+            "k": ["solenoid", "coil", "turns per unit length"],
+            "n": 0
+        },
+        {
+            "id": "induction",
+            "tier": "middle",
+            "t": "Faraday’s law: changing it through a coil makes a current (the idea behind generators); Lenz’s law gives the direction",
+            "k": ["faraday’s law", "lenz’s law", "generators"],
+            "n": 0,
+            "rabbit": "Michael Faraday"
+        },
+        {
+            "id": "auroras",
+            "tier": "middle",
+            "t": "Earth’s version, made by molten iron in the outer core, steers particles from the Sun toward the poles, making auroras",
+            "k": ["auroras", "outer core", "molten iron"],
+            "n": 0
+        },
+        {
+            "id": "mri",
+            "tier": "middle",
+            "t": "MRI machines use very strong ones, usually 1.5 or 3 teslas",
+            "k": ["mri", "1.5 or 3"],
+            "n": 0
+        },
+        {
+            "id": "no-work",
+            "tier": "middle",
+            "t": "Does no work on a moving charge: it changes the direction of motion but never the speed",
+            "k": ["no work", "direction"],
+            "n": 0
+        },
+        {
+            "id": "zeeman-hale",
+            "tier": "power",
+            "t": "The Zeeman effect: it splits spectral lines; George Ellery Hale used it in 1908 to find strong ones in sunspots",
+            "k": ["zeeman effect", "hale", "sunspots"],
+            "n": 0,
+            "rabbit": "Sunspots"
+        },
+        {
+            "id": "biot-savart",
+            "tier": "power",
+            "t": "The Biot–Savart law adds up its contributions from each tiny piece of a current",
+            "k": ["biot", "savart"],
+            "n": 0
+        },
+        {
+            "id": "amperes-law",
+            "tier": "power",
+            "t": "Ampère’s law relates it around a closed loop to the current passing through the loop",
+            "k": ["ampère’s law", "closed loop"],
+            "n": 0,
+            "rabbit": "Ampère’s law"
+        },
+        {
+            "id": "meissner",
+            "tier": "power",
+            "t": "The Meissner effect: superconductors push it out, so a small magnet can float above them",
+            "k": ["meissner", "superconductors", "float"],
+            "n": 0,
+            "rabbit": "Superconductivity"
+        },
+        {
+            "id": "hall-probes",
+            "tier": "power",
+            "t": "Hall probes measure it from the small voltage across a current-carrying strip",
+            "k": ["hall probes", "voltage"],
+            "n": 0,
+            "rabbit": "Hall effect"
+        },
+        {
+            "id": "cyclotron",
+            "tier": "power",
+            "t": "A charge circling in it takes the same time per loop at any speed well below light’s, the idea behind Ernest Lawrence’s cyclotron",
+            "k": ["cyclotron", "lawrence"],
+            "n": 0
+        },
+        {
+            "id": "mass-spectrometers",
+            "tier": "power",
+            "t": "Mass spectrometers sort ions by how sharply it bends their paths",
+            "k": ["mass spectrometers", "ions"],
+            "n": 0
+        },
+        {
+            "id": "magnetars",
+            "tier": "power",
+            "t": "Magnetars, a kind of neutron star, have the strongest ones known in the universe",
+            "k": ["magnetars", "neutron star"],
+            "n": 0
+        },
+        {
+            "id": "tokamaks",
+            "tier": "power",
+            "t": "Tokamaks use it to hold superhot fusion plasma away from their walls",
+            "k": ["tokamaks", "plasma"],
+            "n": 0,
+            "rabbit": "Plasma (physics)"
+        },
+        {
+            "id": "squids",
+            "tier": "power",
+            "t": "SQUIDs (superconducting quantum interference devices) detect the faint ones made by currents in the brain",
+            "k": ["squids", "brain"],
+            "n": 0
+        },
+        {
+            "id": "helmholtz",
+            "tier": "power",
+            "t": "Helmholtz coils, spaced one radius apart, make a nearly uniform one between them",
+            "k": ["helmholtz coils", "one radius"],
+            "n": 0
+        },
+        {
+            "id": "magnetotactic",
+            "tier": "power",
+            "t": "Magnetotactic bacteria use magnetite crystals to line up with Earth’s; sea turtles and migrating birds sense it too",
+            "k": ["magnetotactic", "magnetite", "sea turtles"],
+            "n": 0
+        },
+        {
+            "id": "divergence",
+            "tier": "power",
+            "t": "Its divergence is always zero, one of Maxwell’s equations (Gauss’s law for magnetism)",
+            "k": ["divergence", "maxwell’s equations"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Magnetic or electric?",
+        "body": "Electric and magnetic fields are partners (light is a wave of both), so tossups mix their clues, but they are separate answer lines. Magnetic fields come from magnets and moving charges, are measured in teslas, and push only on moving charges, always at right angles to their motion. Questions about the planet’s own field, its flips over time, or the magnetosphere may want “Earth’s magnetic field” instead, so listen for whether the tossup is about Earth or the general idea.",
+        "fix": "Teslas, gauss, compasses, iron filings, solenoids, the right-hand rule, the Hall effect, or the Zeeman effect means magnetic field. Newtons per coulomb, volts per meter, Coulomb’s law, or the Stark effect means electric field.",
+        "line": "Real answer line: <b><u>magnetic field</u></b>s (accept <u>B-field</u>s; prompt on <u>field</u>; do not accept “electric field”)"
+    },
+    "tests": {
+        "right": [
+            "Magnetic fields",
+            "magnetic field",
+            "B-field",
+            "Magnetic feild",
+            "Magnetic flux density"
+        ],
+        "prompt": [
+            "Field",
+            "Magnetism"
+        ],
+        "wrong": [
+            "Electric field",
+            "Earth's magnetic field",
+            "Magnetic force",
+            "Magnetic monopole",
+            "Tesla",
+            "Ferromagnetism"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

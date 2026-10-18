@@ -1,0 +1,439 @@
+{
+  "id": "gregor-mendel",
+  "name": "Gregor Mendel",
+  "mono": "GM",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Austrian monk who bred pea plants · Discovered the basic laws of heredity",
+  "dates": "1822–1884",
+  "briefing": "Gregor Mendel was a monk who spent about eight years in his monastery’s garden in Brno crossing tens of thousands of pea plants. By counting how traits like seed color and flower color showed up in each generation, he discovered the basic rules of heredity. Almost nobody paid attention until 1900, 16 years after his death, when three scientists rediscovered his work and he became known as the “father of genetics.”",
+  "answerHtml": "Gregor <b><u>Mendel</u></b> (accept Gregor Johann <u>Mendel</u>; do not accept “Mendeleev”)",
+  "accept": [
+    "gregor mendel",
+    "mendel",
+    "gregor johann mendel",
+    "johann gregor mendel",
+    "johann mendel"
+  ],
+  "prompt": [],
+  "reject": [
+    "mendeleev",
+    "dmitri mendeleev",
+    "mendelssohn",
+    "felix mendelssohn",
+    "charles darwin",
+    "darwin",
+    "thomas hunt morgan",
+    "morgan",
+    "reginald punnett",
+    "punnett",
+    "punnett square",
+    "punnett squares",
+    "hugo de vries",
+    "de vries",
+    "carl correns",
+    "correns",
+    "erich von tschermak",
+    "tschermak",
+    "william bateson",
+    "bateson",
+    "carl nageli",
+    "nageli",
+    "christian doppler",
+    "doppler",
+    "lamarck",
+    "jean baptiste lamarck",
+    "pea",
+    "peas",
+    "pea plant",
+    "pea plants",
+    "garden pea",
+    "pisum sativum"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+  "qb": {
+    "q": "Gregor Mendel",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1936, statistician Ronald Fisher argued that this scientist’s data fit his predicted ratios suspiciously well, seeming almost too good to be true. This man’s 1866 paper “Experiments on Plant Hybridization” was largely ignored for more than 30 years.",
+      "r": "For 10 points, name this Austrian monk who discovered the basic laws of heredity by crossbreeding pea plants."
+    },
+    {
+      "p": "Botanist Carl Nägeli [“NAY-guh-lee”] encouraged this scientist to repeat his experiments on hawkweed, which gave confusing results because hawkweed can make seeds without fertilization. This man had first worked out his ideas during about eight years of growing plants in a monastery garden.",
+      "r": "For 10 points, name this monk whose experiments with pea plants made him the “father of genetics.”"
+    },
+    {
+      "p": "Christian Doppler was one of this man’s physics teachers at the University of Vienna, which he attended after failing an exam to become a certified teacher. He later returned to St. Thomas’s Abbey in Brno [“BUR-noh”], where he ran his famous experiments.",
+      "r": "For 10 points, name this monk who found a 3 to 1 ratio of traits by crossing pea plants."
+    },
+    {
+      "p": "In 1900, Hugo de Vries, Carl Correns, and Erich von Tschermak [“CHAIR-mahk”] each published results that matched this scientist’s forgotten work. William Bateson, who later coined the word “genetics,” became a leading champion of this man’s ideas in English.",
+      "r": "He is called the “father of genetics.” For 10 points, name this monk who described dominant and recessive traits in pea plants."
+    },
+    {
+      "p": "This scientist read his most famous paper aloud at two meetings of the Natural History Society of Brünn, the German name for Brno, in 1865. In that paper, he described “factors” passed from parents to offspring, units that were later named genes.",
+      "r": "For 10 points, name this Austrian monk who discovered the law of segregation by studying pea plants."
+    },
+    {
+      "p": "Besides plants, this scientist bred honeybees and kept careful weather records for years. In 1868 he became abbot of his monastery, and he spent much of his later life fighting a government tax on monasteries.",
+      "r": "His work was rediscovered in 1900. For 10 points, name this monk whose crosses of pea plants revealed the laws of heredity."
+    },
+    {
+      "p": "Walter Sutton and Theodor Boveri [“boh-VAIR-ee”] explained this scientist’s results in the early 1900s by proposing that his hereditary units are carried on chromosomes. Working before chromosomes were understood, he concluded that each parent passes on only one of its two copies of each unit.",
+      "r": "That idea is his law of segregation. For 10 points, name this monk who studied heredity in pea plants."
+    },
+    {
+      "p": "This scientist was born to a farming family in Austrian Silesia [“sye-LEE-zhuh”] in 1822 and took a new first name when he entered an Augustinian monastery in 1843. He later taught science at a school in Brno.",
+      "r": "Crossing hybrids, he found a 3 to 1 ratio of dominant to recessive traits. For 10 points, name this “father of genetics” who experimented on pea plants."
+    },
+    {
+      "p": "This scientist tracked seven traits, including whether pods were inflated or pinched and whether flowers grew along the stem or at its tip. His plant was a good choice because it grows quickly, has clear either-or traits, and normally pollinates itself.",
+      "r": "He worked in a monastery garden in Brno. For 10 points, name this monk who discovered the law of independent assortment."
+    },
+    {
+      "p": "To control which plants were crossed, this scientist snipped the pollen-making parts off flowers and dusted them with pollen from other plants. Crossing true-breeding tall and short plants, he found that all of the offspring were tall, but short plants reappeared in the next generation.",
+      "r": "He called tall a dominant trait. For 10 points, name this Austrian monk who experimented on pea plants."
+    },
+    {
+      "p": "When this scientist followed seed shape and seed color at the same time, the second generation showed a ratio close to 9 to 3 to 3 to 1. Round, yellow seeds were the most common result.",
+      "r": "That result supported his law of independent assortment. For 10 points, name this monk who bred pea plants in his monastery garden."
+    },
+    {
+      "p": "This scientist’s paper “Experiments on Plant Hybridization” described crosses of the plant Pisum sativum. In it, he called a trait that is hidden in hybrids “recessive” and the trait that shows “dominant.”",
+      "r": "His work was rediscovered in 1900, long after his death in 1884. For 10 points, name this monk known as the “father of genetics.”"
+    },
+    {
+      "p": "Reginald Punnett later invented a grid-shaped diagram for predicting the results of crosses like the ones this scientist performed. This scientist’s law of segregation says that the two copies of a hereditary unit separate when a parent makes reproductive cells.",
+      "r": "He is often called the father of genetics. For 10 points, name this monk who crossbred pea plants."
+    },
+    {
+      "p": "From 1856 to 1863, this scientist grew and studied tens of thousands of plants in a garden at his monastery. He counted the offspring of each cross and used simple math to find patterns, an unusual approach for biology at the time.",
+      "r": "For 10 points, name this monk who discovered the basic rules of heredity using pea plants."
+    },
+    {
+      "p": "This scientist’s work was ignored during his lifetime and rediscovered in 1900, 16 years after his death. He described traits as dominant or recessive and worked out the law of segregation by crossing plants in a monastery garden.",
+      "r": "For 10 points, name this Austrian monk, called the “father of genetics,” who experimented on pea plants."
+    }
+  ],
+  "clues": [
+    {
+      "id": "monk",
+      "tier": "giveaway",
+      "t": "Austrian monk often called the “father of genetics”",
+      "k": [
+        "monk",
+        "father of genetics"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pea-plants",
+      "tier": "giveaway",
+      "t": "Crossbred thousands of pea plants in his monastery’s garden",
+      "k": [
+        "pea plants",
+        "garden"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laws",
+      "tier": "giveaway",
+      "t": "Discovered the law of segregation and the law of independent assortment",
+      "k": [
+        "segregation",
+        "independent assortment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dominant-recessive",
+      "tier": "giveaway",
+      "t": "Described traits as dominant or recessive",
+      "k": [
+        "dominant",
+        "recessive"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rediscovered",
+      "tier": "giveaway",
+      "t": "His work was ignored in his lifetime and rediscovered in 1900, 16 years after his death",
+      "k": [
+        "rediscovered",
+        "1900"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ratio-3-1",
+      "tier": "middle",
+      "t": "Crossing two hybrids gave about 3 plants with the dominant trait for every 1 with the recessive trait: a 3 to 1 ratio",
+      "k": [
+        "3 to 1",
+        "hybrids"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ratio-9-3-3-1",
+      "tier": "middle",
+      "t": "Following seed shape and seed color together gave a 9 to 3 to 3 to 1 ratio",
+      "k": [
+        "9 to 3 to 3 to 1",
+        "seed shape"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seven-traits",
+      "tier": "middle",
+      "t": "Tracked seven traits, such as seed shape (round or wrinkled), seed color (yellow or green), and plant height (tall or short)",
+      "k": [
+        "seven traits",
+        "wrinkled",
+        "tall or short"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brno",
+      "tier": "middle",
+      "t": "Lived at St. Thomas’s Abbey in Brno, in the modern Czech Republic",
+      "k": [
+        "brno",
+        "abbey",
+        "czech republic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "factors",
+      "tier": "middle",
+      "t": "Called the hidden units of heredity “factors”; they were later named genes",
+      "k": [
+        "factors",
+        "genes",
+        "heredity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hand-pollination",
+      "tier": "middle",
+      "t": "Controlled each cross by snipping off a flower’s pollen-making parts and adding pollen from another plant by hand",
+      "k": [
+        "pollen",
+        "by hand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "true-breeding",
+      "tier": "middle",
+      "t": "Crossing true-breeding tall and short plants gave all-tall offspring; short plants reappeared in the next generation",
+      "k": [
+        "true-breeding",
+        "reappeared"
+      ],
+      "n": 0
+    },
+    {
+      "id": "why-peas",
+      "tier": "middle",
+      "t": "Peas were a good choice: they grow quickly, have clear either-or traits, and normally pollinate themselves",
+      "k": [
+        "grow quickly",
+        "either-or",
+        "pollinate themselves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "counting",
+      "tier": "middle",
+      "t": "From 1856 to 1863 he grew tens of thousands of plants, counting offspring and using math to find patterns",
+      "k": [
+        "1856",
+        "1863",
+        "counting",
+        "math"
+      ],
+      "n": 0
+    },
+    {
+      "id": "punnett",
+      "tier": "middle",
+      "t": "Reginald Punnett later invented the grid diagram used to predict the results of crosses like his",
+      "k": [
+        "punnett",
+        "grid"
+      ],
+      "n": 0,
+      "rabbit": "Punnett squares"
+    },
+    {
+      "id": "paper",
+      "tier": "power",
+      "t": "Read “Experiments on Plant Hybridization” to the Natural History Society of Brünn (Brno) in 1865; it was published in 1866",
+      "k": [
+        "plant hybridization",
+        "natural history society",
+        "1865",
+        "1866"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pisum-sativum",
+      "tier": "power",
+      "t": "His peas were the species Pisum sativum, the garden pea",
+      "k": [
+        "pisum sativum",
+        "garden pea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fisher",
+      "tier": "power",
+      "t": "Statistician Ronald Fisher argued in 1936 that his data fit the expected ratios suspiciously well",
+      "k": [
+        "ronald fisher",
+        "1936",
+        "suspiciously"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nageli-hawkweed",
+      "tier": "power",
+      "t": "Botanist Carl Nägeli encouraged him to test hawkweed, which gave confusing results because it can make seeds without fertilization",
+      "k": [
+        "nägeli",
+        "hawkweed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doppler",
+      "tier": "power",
+      "t": "Studied at the University of Vienna, where Christian Doppler was one of his physics teachers",
+      "k": [
+        "doppler",
+        "vienna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "teacher-exam",
+      "tier": "power",
+      "t": "Failed the exam to become a certified teacher",
+      "k": [
+        "failed",
+        "certified teacher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rediscoverers",
+      "tier": "power",
+      "t": "Hugo de Vries, Carl Correns, and Erich von Tschermak rediscovered his work in 1900",
+      "k": [
+        "de vries",
+        "correns",
+        "tschermak"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bateson",
+      "tier": "power",
+      "t": "William Bateson, who coined the word “genetics,” championed his ideas in English",
+      "k": [
+        "bateson",
+        "genetics"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sutton-boveri",
+      "tier": "power",
+      "t": "Walter Sutton and Theodor Boveri later proposed that his hereditary units are carried on chromosomes",
+      "k": [
+        "sutton",
+        "boveri",
+        "chromosomes"
+      ],
+      "n": 0,
+      "rabbit": "Chromosomes"
+    },
+    {
+      "id": "abbot-tax",
+      "tier": "power",
+      "t": "Became abbot of his monastery in 1868 and spent his later years fighting a government tax on monasteries",
+      "k": [
+        "abbot",
+        "1868",
+        "monasteries"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bees-weather",
+      "tier": "power",
+      "t": "Also bred honeybees and kept careful weather records",
+      "k": [
+        "honeybees",
+        "weather"
+      ],
+      "n": 0
+    },
+    {
+      "id": "born-1822",
+      "tier": "power",
+      "t": "Born in 1822 to a farming family in Austrian Silesia; took a new first name on joining an Augustinian monastery in 1843",
+      "k": [
+        "1822",
+        "silesia",
+        "augustinian",
+        "1843"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The monk, or his peas?",
+    "body": "Some tossups describe this man’s famous experiments but ask for the plant he used: peas, or Pisum sativum. Others want an idea that grew out of his work, like the law of segregation, or the Punnett square, which Reginald Punnett invented later. And his name sounds a lot like Dmitri Mendeleev, the Russian chemist who made the periodic table.",
+    "fix": "Listen for the noun. “This scientist,” “this monk,” or “this man” means Mendel; “this plant” or “this legume” means peas; “this law” or “this diagram” means the idea itself. Mendeleev clues are about chemistry and elements, not plants.",
+    "line": "Real answer line: Gregor <b><u>Mendel</u></b> (accept Gregor Johann <u>Mendel</u>; do not accept “Mendeleev”)"
+  },
+  "tests": {
+    "right": [
+      "Gregor Mendel",
+      "Mendel",
+      "Mendell",
+      "Gregor Johann Mendel",
+      "Gregor Mendle"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Mendeleev",
+      "Charles Darwin",
+      "Punnett",
+      "Thomas Hunt Morgan",
+      "Peas",
+      "Hugo de Vries"
+    ]
+  }
+}

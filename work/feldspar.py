@@ -1,0 +1,363 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "feldspar",
+    "name": "Feldspar",
+    "mono": "FSP",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Most abundant mineral group in Earth’s crust · Weathers into clay",
+    "dates": "Orthoclase marks 6 on the Mohs scale",
+    "briefing": "Feldspars are the most common minerals in Earth’s crust, found in many kinds of rock, from granite to basalt. The name comes from German words meaning “field spar,” and the pink grains in some granite countertops are usually feldspar. Over time, rain slowly breaks these minerals down into clay, so the mud of a riverbank and the porcelain in a teacup may both have started out as feldspar.",
+    "answerHtml": "<b><u>Feldspar</u></b>s (accept specific types such as <u>alkali feldspar</u>, <u>potassium feldspar</u>, or <u>plagioclase feldspar</u>; prompt on <u>silicate</u>s; do not accept “quartz” or “mica”)",
+    "accept": [
+        "feldspar",
+        "feldspars",
+        "feldspar group",
+        "feldspar minerals",
+        "feldspar family",
+        "alkali feldspar",
+        "alkali feldspars",
+        "potassium feldspar",
+        "potassium feldspars",
+        "k feldspar",
+        "k feldspars",
+        "k spar",
+        "plagioclase feldspar",
+        "plagioclase feldspars",
+        "orthoclase feldspar"
+    ],
+    "prompt": [
+        "silicate",
+        "silicates",
+        "silicate mineral",
+        "silicate minerals",
+        "aluminosilicate",
+        "aluminosilicates",
+        "tectosilicate",
+        "tectosilicates",
+        "framework silicate",
+        "framework silicates"
+    ],
+    "reject": [
+        "quartz",
+        "mica",
+        "micas",
+        "muscovite",
+        "biotite",
+        "calcite",
+        "olivine",
+        "pyroxene",
+        "amphibole",
+        "hornblende",
+        "fluorite",
+        "gypsum",
+        "talc",
+        "topaz",
+        "apatite",
+        "kaolinite",
+        "kaolin",
+        "clay",
+        "granite",
+        "feldspathoid",
+        "feldspathoids",
+        "nepheline",
+        "leucite",
+        "anorthosite",
+        "arkose",
+        "pegmatite",
+        "fluorspar",
+        "calcite spar",
+        "iceland spar"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Feldspar",
+    "qb": {
+        "q": "feldspar",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Florida made moonstone its state gem to honor the Moon landings, even though moonstone is not found naturally there, and Oregon chose sunstone. Both gems are varieties of this group of minerals, whose potassium-rich members give some granite a pink color.",
+            "r": "For 10 points, name this most abundant mineral group in Earth’s crust, which includes orthoclase and plagioclase."
+        },
+        {
+            "p": "The bright highlands of the Moon are made largely of anorthosite [“an-OR-thuh-site”], a rock made almost entirely of one kind of this mineral group. That kind forms a series that runs from sodium-rich albite to calcium-rich anorthite.",
+            "r": "For 10 points, name this group of minerals, the most abundant in Earth’s crust, that includes plagioclase and orthoclase."
+        },
+        {
+            "p": "One member of this mineral group is named for Greek words meaning “straight break,” because its two cleavage planes meet at a right angle, while another member’s name means “oblique break.” Friedrich Mohs chose that first member to mark a hardness of 6 on his scale.",
+            "r": "For 10 points, name this mineral group whose name comes from German words for “field” and “spar.”"
+        },
+        {
+            "p": "A sandstone rich in grains of this mineral group is called arkose [“AR-kohs”]. Chemical weathering by water slowly breaks this mineral group down into clays such as kaolinite [“KAY-uh-lih-nite”], which potters use to make porcelain.",
+            "r": "For 10 points, name this most abundant mineral group in Earth’s crust, which includes orthoclase and plagioclase."
+        },
+        {
+            "p": "Fine, parallel grooves called striations, caused by repeated twinning of the crystals, help geologists tell one series of this mineral group from the other. Carlsbad twins are common in this group’s potassium-rich members.",
+            "r": "Its sodium- and calcium-rich members are called plagioclase. For 10 points, name this most abundant mineral group in Earth’s crust."
+        },
+        {
+            "p": "In Bowen’s reaction series, the continuous branch is made up of this group’s calcium- and sodium-bearing members, which change from calcium-rich to sodium-rich as magma cools. Its potassium-rich members crystallize near the end of the series, along with muscovite and quartz.",
+            "r": "For 10 points, name this most abundant mineral group in Earth’s crust, which includes orthoclase and plagioclase."
+        },
+        {
+            "p": "Crystals of sanidine [“SAN-ih-deen”], a high-temperature member of this group found in volcanic rocks, are often dated by measuring the argon that builds up as their potassium-40 decays. Microcline is another potassium-rich member of this group.",
+            "r": "For 10 points, name this group of minerals, the most common in Earth’s crust, whose members include orthoclase and plagioclase."
+        },
+        {
+            "p": "Minerals such as nepheline [“NEF-uh-leen”] and leucite [“LOO-site”] form instead of this mineral group when a magma has too little silica. This group’s members are all aluminum silicates that also contain potassium, sodium, or calcium.",
+            "r": "For 10 points, name this group of minerals that includes orthoclase and plagioclase and makes up much of granite."
+        },
+        {
+            "p": "Graphic granite shows wedge-shaped quartz crystals growing inside a single crystal of this mineral group, looking like ancient cuneiform writing. Pegmatites, extremely coarse-grained igneous rocks, can hold giant crystals of this mineral group alongside quartz and mica.",
+            "r": "With quartz, it makes up most of granite. For 10 points, name this mineral group, including orthoclase and plagioclase."
+        },
+        {
+            "p": "Most of this mineral group that is mined ends up in glass and ceramics, where it works as a flux that helps the other ingredients melt at lower temperatures. Its crystals are hard enough to scratch glass and split along two cleavage planes at nearly right angles.",
+            "r": "For 10 points, name this most abundant mineral group in Earth’s crust, which includes orthoclase and plagioclase."
+        },
+        {
+            "p": "Perthite forms when a crystal of this mineral group separates into thin, alternating layers of sodium-rich and potassium-rich material as it cools. Amazonite, a blue-green gem, is a variety of this group’s potassium-rich member microcline.",
+            "r": "This group also includes orthoclase and plagioclase. For 10 points, name this most abundant mineral group in Earth’s crust."
+        },
+        {
+            "p": "Labradorite [“LAB-ruh-dor-ite”], named for a region of Canada, is a member of this mineral group that flashes blue, green, and gold in a play of color called labradorescence. Sunstone, another member, sparkles because of tiny flakes of copper or hematite trapped inside it.",
+            "r": "For 10 points, name this mineral group, the most common in Earth’s crust, that includes plagioclase and orthoclase."
+        },
+        {
+            "p": "Like quartz, this mineral group is a framework silicate, in which every silicon–oxygen tetrahedron shares all four corners with its neighbors, but in this group some of the silicon is replaced by aluminum.",
+            "r": "Its members include orthoclase and plagioclase. For 10 points, name this most abundant mineral group in Earth’s crust."
+        },
+        {
+            "p": "Light bouncing between microscopic layers inside moonstone gives it a soft, glowing sheen called adularescence [“ad-yoo-luh-RESS-unss”]. Those layers are made of two different minerals from this group, one rich in potassium and one rich in sodium.",
+            "r": "For 10 points, name this mineral group, the most abundant in Earth’s crust, which includes orthoclase and plagioclase."
+        },
+        {
+            "p": "These minerals make up more of Earth’s crust than any other mineral group, and with quartz they form most of the grains in granite. They come in two main series: potassium-rich alkali types and sodium- and calcium-rich plagioclase types.",
+            "r": "One member, orthoclase, marks 6 on the Mohs hardness scale. For 10 points, name this mineral group."
+        }
+    ],
+    "clues": [
+        {
+            "id": "most-abundant",
+            "tier": "giveaway",
+            "t": "The most abundant group of minerals in Earth’s crust",
+            "k": ["most abundant", "crust"],
+            "n": 0
+        },
+        {
+            "id": "two-kinds",
+            "tier": "giveaway",
+            "t": "Two main kinds: potassium-rich alkali types, like orthoclase, and sodium- and calcium-rich plagioclase types",
+            "k": ["orthoclase", "plagioclase", "alkali"],
+            "n": 0,
+            "rabbit": "Plagioclase"
+        },
+        {
+            "id": "granite",
+            "tier": "giveaway",
+            "t": "With quartz, it makes up most of granite; its potassium-rich crystals can make granite pink",
+            "k": ["granite", "quartz", "pink"],
+            "n": 0,
+            "rabbit": "Granite"
+        },
+        {
+            "id": "mohs-6",
+            "tier": "giveaway",
+            "t": "Orthoclase marks a hardness of 6 on the Mohs scale",
+            "k": ["mohs", "hardness", "orthoclase"],
+            "n": 0,
+            "rabbit": "Mohs hardness scale"
+        },
+        {
+            "id": "name-origin",
+            "tier": "giveaway",
+            "t": "Its name comes from German words meaning “field” and “spar”",
+            "k": ["german", "field", "spar"],
+            "n": 0
+        },
+        {
+            "id": "aluminosilicates",
+            "tier": "middle",
+            "t": "Silicates containing aluminum plus potassium, sodium, or calcium",
+            "k": ["aluminum", "potassium", "sodium", "calcium"],
+            "n": 0
+        },
+        {
+            "id": "cleavage",
+            "tier": "middle",
+            "t": "Splits along two good cleavage planes at nearly right angles, and is hard enough to scratch glass",
+            "k": ["cleavage", "right angles", "scratch glass"],
+            "n": 0
+        },
+        {
+            "id": "greek-names",
+            "tier": "middle",
+            "t": "In Greek, orthoclase means “straight break” and plagioclase means “oblique break”",
+            "k": ["straight break", "oblique break", "greek"],
+            "n": 0
+        },
+        {
+            "id": "albite-anorthite",
+            "tier": "middle",
+            "t": "The plagioclase series runs from sodium-rich albite to calcium-rich anorthite",
+            "k": ["albite", "anorthite"],
+            "n": 0
+        },
+        {
+            "id": "kaolinite",
+            "tier": "middle",
+            "t": "Chemical weathering turns it into clays like kaolinite, used to make porcelain",
+            "k": ["kaolinite", "clays", "porcelain"],
+            "n": 0
+        },
+        {
+            "id": "striations",
+            "tier": "middle",
+            "t": "Plagioclase crystals show fine, parallel striations caused by repeated twinning",
+            "k": ["striations", "twinning"],
+            "n": 0
+        },
+        {
+            "id": "state-gems",
+            "tier": "middle",
+            "t": "Moonstone (Florida’s state gem) and sunstone (Oregon’s state gem), which sparkles with tiny copper or hematite flakes, are varieties of it",
+            "k": ["moonstone", "sunstone", "florida", "oregon"],
+            "n": 0
+        },
+        {
+            "id": "labradorite",
+            "tier": "middle",
+            "t": "Labradorite, named for a region of Canada, flashes blue and green in a play of color called labradorescence",
+            "k": ["labradorite", "labradorescence"],
+            "n": 0
+        },
+        {
+            "id": "glass-ceramics",
+            "tier": "middle",
+            "t": "Mined mostly for glass and ceramics, where it acts as a flux that lowers melting temperatures",
+            "k": ["glass", "ceramics", "flux"],
+            "n": 0
+        },
+        {
+            "id": "bowen",
+            "tier": "power",
+            "t": "In Bowen’s reaction series, plagioclase forms the continuous branch; potassium-rich types crystallize near the end with muscovite and quartz",
+            "k": ["bowen’s reaction series", "bowens reaction series", "continuous branch"],
+            "n": 0,
+            "rabbit": "Bowen’s reaction series"
+        },
+        {
+            "id": "anorthosite",
+            "tier": "power",
+            "t": "Anorthosite, made almost entirely of plagioclase, forms the Moon’s bright highlands",
+            "k": ["anorthosite", "highlands", "moon"],
+            "n": 0
+        },
+        {
+            "id": "tectosilicates",
+            "tier": "power",
+            "t": "Like quartz, it is a framework silicate (tectosilicate), but with aluminum replacing some of the silicon",
+            "k": ["framework silicate", "tectosilicate"],
+            "n": 0
+        },
+        {
+            "id": "sanidine",
+            "tier": "power",
+            "t": "Sanidine crystals from volcanic rocks are dated by measuring argon made by potassium-40 decay",
+            "k": ["sanidine", "potassium-40", "argon"],
+            "n": 0
+        },
+        {
+            "id": "feldspathoids",
+            "tier": "power",
+            "t": "Nepheline and leucite form instead of it when a magma has too little silica",
+            "k": ["nepheline", "leucite", "silica"],
+            "n": 0
+        },
+        {
+            "id": "perthite",
+            "tier": "power",
+            "t": "Perthite: a crystal that separated into thin sodium-rich and potassium-rich layers as it cooled",
+            "k": ["perthite"],
+            "n": 0
+        },
+        {
+            "id": "carlsbad",
+            "tier": "power",
+            "t": "Carlsbad twins are common in its potassium-rich types",
+            "k": ["carlsbad", "twins"],
+            "n": 0
+        },
+        {
+            "id": "arkose",
+            "tier": "power",
+            "t": "Arkose is a sandstone rich in its grains",
+            "k": ["arkose", "sandstone"],
+            "n": 0
+        },
+        {
+            "id": "amazonite",
+            "tier": "power",
+            "t": "Amazonite is a blue-green variety of microcline, one of its potassium-rich members",
+            "k": ["amazonite", "microcline"],
+            "n": 0
+        },
+        {
+            "id": "graphic-granite",
+            "tier": "power",
+            "t": "Graphic granite has quartz wedges inside one of its crystals, like cuneiform writing; pegmatites hold giant crystals of it",
+            "k": ["graphic granite", "cuneiform", "pegmatites"],
+            "n": 0
+        },
+        {
+            "id": "adularescence",
+            "tier": "power",
+            "t": "Moonstone’s glowing sheen, adularescence, comes from light scattering between thin layers of two of its kinds",
+            "k": ["adularescence", "sheen"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The group, not a member",
+        "body": "Tossups on this mineral group are packed with member names (orthoclase, plagioclase, microcline, albite, labradorite) and gems like moonstone, which tempts players to buzz with one of them. The question wants the whole family. Quartz is the other trap: it sits right beside this group in granite and is the second most abundant mineral in the crust.",
+        "fix": "Listen for “this group” or “these minerals,” and answer with the family name. A type that includes the family name, like “plagioclase feldspar,” is fine, but “plagioclase” alone is a different answer. Glassy, no cleavage, and hardness 7 mean quartz; two cleavage planes, hardness 6, and weathering into clay mean feldspar.",
+        "line": "Real answer line: <b><u>Feldspar</u></b>s (accept specific types such as plagioclase feldspar or alkali feldspar; prompt on silicates; do not accept “quartz”)"
+    },
+    "tests": {
+        "right": [
+            "Feldspar",
+            "feldspars",
+            "Feldspur",
+            "Plagioclase feldspar",
+            "K-feldspar"
+        ],
+        "prompt": [
+            "Silicates",
+            "tectosilicate"
+        ],
+        "wrong": [
+            "Quartz",
+            "Plagioclase",
+            "Orthoclase",
+            "Mica",
+            "Calcite",
+            "Feldspathoid"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

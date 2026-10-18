@@ -1,0 +1,350 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "edwin-hubble",
+    "name": "Edwin Hubble",
+    "mono": "EH",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Astronomer who found other galaxies · Showed the universe is expanding",
+    "dates": "1889–1953",
+    "briefing": "Edwin Hubble studied law at Oxford and taught high school before becoming the astronomer who made the universe bigger. Using the giant Hooker Telescope on Mount Wilson in California, he showed in the 1920s that the Andromeda “nebula” is a separate galaxy far beyond the Milky Way, and in 1929 that more distant galaxies are rushing away faster, evidence that the universe is expanding. The Hubble Space Telescope is named for him.",
+    "answerHtml": "<b><u>Edwin Hubble</u></b> (accept <u>Hubble</u>)",
+    "accept": [
+        "edwin hubble",
+        "hubble",
+        "edwin powell hubble",
+        "edwin p hubble",
+        "hubbel"
+    ],
+    "prompt": [],
+    "reject": [
+        "hubble space telescope",
+        "hubble telescope",
+        "space telescope",
+        "hubble constant",
+        "hubble law",
+        "hubbles law",
+        "hubble lemaitre law",
+        "hubble sequence",
+        "hubble tuning fork",
+        "tuning fork",
+        "hubble deep field",
+        "james webb",
+        "james webb space telescope",
+        "henrietta leavitt",
+        "leavitt",
+        "georges lemaitre",
+        "lemaitre",
+        "milton humason",
+        "humason",
+        "harlow shapley",
+        "shapley",
+        "heber curtis",
+        "vesto slipher",
+        "slipher",
+        "walter baade"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Edwin_Hubble",
+    "qb": {
+        "q": "Hubble",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In October 1923, this astronomer crossed out the letter “N,” for nova, on a photographic plate of the Andromeda “nebula” and wrote “VAR!” because he had found a variable star. That star let him prove that Andromeda lies far outside the Milky Way.",
+            "r": "For 10 points, name this American astronomer, the namesake of a space telescope launched in 1990."
+        },
+        {
+            "p": "In 2018, the International Astronomical Union voted to rename a law named for this man so that it also honors Georges Lemaître [“luh-MET-ruh”], who had described the same idea in 1927. That law says galaxies recede from us at speeds proportional to their distances.",
+            "r": "For 10 points, name this American astronomer whose 1929 discovery showed that the universe is expanding."
+        },
+        {
+            "p": "Walter Baade [“BAH-duh”] showed in 1952 that there are two kinds of Cepheid variable stars, which meant that this astronomer’s distances to other galaxies were only about half as big as they should have been. This man’s first estimate of how fast the universe expands was about seven times too large.",
+            "r": "For 10 points, name this man who proved that the Andromeda Galaxy lies outside the Milky Way."
+        },
+        {
+            "p": "This scientist preferred the term “extragalactic nebulae” to the word “galaxies,” and he described his work in the 1936 book _The Realm of the Nebulae_. That book included his tuning-fork diagram, which sorts galaxies into ellipticals, spirals, and barred spirals.",
+            "r": "For 10 points, name this astronomer who discovered that the universe is expanding."
+        },
+        {
+            "p": "This astronomer worked with Milton Humason [“HYOO-muh-sun”], a former mule driver who had hauled supplies up Mount Wilson while its observatory was being built, to measure the redshifts of faint galaxies. Together they showed that more distant galaxies are moving away faster.",
+            "r": "For 10 points, name this American astronomer, the namesake of a famous space telescope."
+        },
+        {
+            "p": "This man was the first astronomer to observe with the giant 200-inch Hale Telescope at Palomar Observatory, in 1949. For most of his career, he had used the 100-inch Hooker Telescope at Mount Wilson, then the largest in the world.",
+            "r": "For 10 points, name this astronomer who showed that the universe is expanding."
+        },
+        {
+            "p": "This man’s 1929 paper “A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae” relied partly on redshifts that Vesto Slipher had measured years earlier. The paper showed that galaxies are moving away from us faster the farther away they are.",
+            "r": "For 10 points, name this American astronomer who discovered the expansion of the universe."
+        },
+        {
+            "p": "This astronomer’s measurement of the distance to the Andromeda “nebula” settled the 1920 Great Debate between Harlow Shapley and Heber Curtis, showing that Curtis was right that spiral nebulae are separate “island universes.”",
+            "r": "For 10 points, name this man who used Cepheid variable stars to show that the Milky Way is only one of many galaxies."
+        },
+        {
+            "p": "Albert Einstein had added a cosmological constant to his equations to keep the universe static, but he dropped it after this astronomer’s discovery, and in 1931 Einstein visited Mount Wilson Observatory to meet him.",
+            "r": "This man showed that galaxies are rushing away from one another. For 10 points, name this astronomer whose name is on a space telescope."
+        },
+        {
+            "p": "This man’s greatest discoveries depended on Henrietta Leavitt’s finding that Cepheid [“SEF-ee-id”] variable stars that pulse more slowly are brighter. Using that rule in the mid-1920s, he showed that the Andromeda “nebula” was hundreds of thousands of light-years away.",
+            "r": "For 10 points, name this American astronomer who proved that other galaxies exist beyond the Milky Way."
+        },
+        {
+            "p": "Born in Marshfield, Missouri, this man worked as a lab assistant for Robert Millikan at the University of Chicago and then studied law at Oxford as a Rhodes Scholar. He later taught high school Spanish and coached basketball in Indiana.",
+            "r": "Returning to astronomy, he found that the universe is expanding. For 10 points, name this namesake of a space telescope."
+        },
+        {
+            "p": "After finishing his PhD research at Yerkes [“YUR-keez”] Observatory in 1917, this man served in the U.S. Army in World War I before taking a job at Mount Wilson. There, he proved that the Andromeda “nebula” is a separate galaxy.",
+            "r": "For 10 points, name this American astronomer who showed that the universe is expanding."
+        },
+        {
+            "p": "Dividing 1 by a constant named for this man gives a rough estimate of the age of the universe, but his own value for that constant made the universe seem younger than some rocks on Earth.",
+            "r": "That constant measures how fast the universe expands. For 10 points, name this American astronomer."
+        },
+        {
+            "p": "A space telescope named for this man was launched in 1990 with a main mirror ground to slightly the wrong shape, a flaw that astronauts corrected in 1993. Its 1995 Deep Field image showed thousands of galaxies in a tiny patch of sky.",
+            "r": "For 10 points, name this astronomer who proved that the Andromeda Galaxy lies far beyond the Milky Way."
+        },
+        {
+            "p": "In 1926, this man published a scheme for classifying galaxies by shape, labeling elliptical galaxies with the letter E and spirals with the letter S. The scheme’s diagram is drawn like a tuning fork, with ordinary and barred spirals on its two prongs.",
+            "r": "For 10 points, name this American astronomer, who also found that distant galaxies are rushing away from us."
+        }
+    ],
+    "clues": [
+        {
+            "id": "expanding-universe",
+            "tier": "giveaway",
+            "t": "Showed in 1929 that the universe is expanding: more distant galaxies are moving away faster",
+            "k": ["expanding", "1929", "moving away faster"],
+            "n": 0
+        },
+        {
+            "id": "space-telescope",
+            "tier": "giveaway",
+            "t": "The space telescope launched in 1990 aboard the space shuttle _Discovery_ is named for him",
+            "k": ["space telescope", "1990"],
+            "n": 0
+        },
+        {
+            "id": "andromeda",
+            "tier": "giveaway",
+            "t": "Proved that the Andromeda “nebula” is a separate galaxy far outside the Milky Way",
+            "k": ["andromeda", "separate galaxy", "milky way"],
+            "n": 0,
+            "rabbit": "Andromeda Galaxy"
+        },
+        {
+            "id": "mount-wilson",
+            "tier": "giveaway",
+            "t": "American astronomer (1889–1953) who worked at Mount Wilson Observatory in California",
+            "k": ["mount wilson", "american astronomer", "california"],
+            "n": 0
+        },
+        {
+            "id": "law",
+            "tier": "giveaway",
+            "t": "A law named for him says a galaxy’s speed away from us is proportional to its distance",
+            "k": ["proportional to its distance", "proportional"],
+            "n": 0
+        },
+        {
+            "id": "cepheids",
+            "tier": "middle",
+            "t": "Measured the distance to Andromeda using Cepheid variable stars",
+            "k": ["cepheid", "variable stars"],
+            "n": 0,
+            "rabbit": "Cepheid variables"
+        },
+        {
+            "id": "leavitt",
+            "tier": "middle",
+            "t": "His distances relied on Henrietta Leavitt’s rule that Cepheids that pulse more slowly are brighter",
+            "k": ["henrietta leavitt", "leavitt"],
+            "n": 0
+        },
+        {
+            "id": "hooker",
+            "tier": "middle",
+            "t": "Used the 100-inch Hooker Telescope at Mount Wilson, then the largest telescope in the world",
+            "k": ["hooker telescope", "100-inch"],
+            "n": 0
+        },
+        {
+            "id": "tuning-fork",
+            "tier": "middle",
+            "t": "Sorted galaxies into ellipticals, spirals, and barred spirals on a diagram shaped like a tuning fork",
+            "k": ["tuning fork", "ellipticals", "barred spirals"],
+            "n": 0,
+            "rabbit": "Galaxies"
+        },
+        {
+            "id": "humason",
+            "tier": "middle",
+            "t": "Worked with Milton Humason, a former mule driver at Mount Wilson, to measure the redshifts of galaxies",
+            "k": ["milton humason", "humason", "mule driver", "redshifts"],
+            "n": 0
+        },
+        {
+            "id": "great-debate",
+            "tier": "middle",
+            "t": "His Andromeda result settled the 1920 Great Debate between Harlow Shapley and Heber Curtis in Curtis’s favor",
+            "k": ["great debate", "shapley", "curtis"],
+            "n": 0
+        },
+        {
+            "id": "einstein-visit",
+            "tier": "middle",
+            "t": "Albert Einstein dropped his idea of a static universe after this discovery and visited him at Mount Wilson in 1931",
+            "k": ["einstein", "1931", "static universe"],
+            "n": 0,
+            "rabbit": "Albert Einstein"
+        },
+        {
+            "id": "rhodes",
+            "tier": "middle",
+            "t": "A Rhodes Scholar, he studied law at Oxford, then taught high school Spanish and coached basketball in Indiana",
+            "k": ["rhodes scholar", "oxford", "basketball"],
+            "n": 0
+        },
+        {
+            "id": "deep-field",
+            "tier": "middle",
+            "t": "The telescope named for him took the 1995 Deep Field image, showing thousands of galaxies in a tiny patch of sky",
+            "k": ["deep field", "1995", "thousands of galaxies"],
+            "n": 0
+        },
+        {
+            "id": "var-plate",
+            "tier": "power",
+            "t": "In October 1923, he crossed out an “N” (for nova) on a photographic plate of Andromeda and wrote “VAR!” for variable",
+            "k": ["photographic plate", "var!", "nova"],
+            "n": 0
+        },
+        {
+            "id": "iau-2018",
+            "tier": "power",
+            "t": "In 2018, the International Astronomical Union voted to rename his law so it also honors Georges Lemaître, who described it in 1927",
+            "k": ["international astronomical union", "2018", "1927"],
+            "n": 0
+        },
+        {
+            "id": "too-big",
+            "tier": "power",
+            "t": "His first value for the universe’s expansion rate was about seven times too big",
+            "k": ["seven times", "too big"],
+            "n": 0
+        },
+        {
+            "id": "baade",
+            "tier": "power",
+            "t": "Walter Baade showed in 1952 that there are two kinds of Cepheids, which doubled his distances to galaxies",
+            "k": ["walter baade", "baade", "1952", "two kinds"],
+            "n": 0
+        },
+        {
+            "id": "realm",
+            "tier": "power",
+            "t": "Wrote the 1936 book _The Realm of the Nebulae_",
+            "k": ["realm of the nebulae", "1936"],
+            "n": 0
+        },
+        {
+            "id": "extragalactic",
+            "tier": "power",
+            "t": "Preferred the term “extragalactic nebulae” to the word “galaxies”",
+            "k": ["extragalactic nebulae"],
+            "n": 0
+        },
+        {
+            "id": "slipher",
+            "tier": "power",
+            "t": "His 1929 paper relied partly on redshifts measured years earlier by Vesto Slipher",
+            "k": ["vesto slipher", "slipher"],
+            "n": 0
+        },
+        {
+            "id": "hale-telescope",
+            "tier": "power",
+            "t": "Was the first astronomer to observe with the 200-inch Hale Telescope at Palomar Observatory (1949)",
+            "k": ["hale telescope", "palomar", "200-inch", "1949"],
+            "n": 0
+        },
+        {
+            "id": "marshfield",
+            "tier": "power",
+            "t": "Born in Marshfield, Missouri, in 1889; worked as a lab assistant for Robert Millikan at the University of Chicago",
+            "k": ["marshfield", "missouri", "millikan"],
+            "n": 0
+        },
+        {
+            "id": "yerkes",
+            "tier": "power",
+            "t": "Finished his PhD research at Yerkes Observatory in 1917, then served in the U.S. Army in World War I",
+            "k": ["yerkes", "1917", "world war i"],
+            "n": 0
+        },
+        {
+            "id": "age-of-universe",
+            "tier": "power",
+            "t": "Dividing 1 by the constant named for him gives a rough age of the universe, but his value made the universe seem younger than some rocks on Earth",
+            "k": ["age of the universe", "younger", "rocks"],
+            "n": 0
+        },
+        {
+            "id": "mirror",
+            "tier": "power",
+            "t": "The space telescope named for him had a main mirror ground to the wrong shape, a flaw astronauts corrected in 1993",
+            "k": ["mirror", "1993"],
+            "n": 0
+        },
+        {
+            "id": "classification-1926",
+            "tier": "power",
+            "t": "Published his galaxy classification scheme in 1926, labeling ellipticals E and spirals S",
+            "k": ["classification", "1926"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The man, not the telescope",
+        "body": "Many things are named for Edwin Hubble: the Hubble Space Telescope, Hubble’s law, the Hubble constant, and the Hubble tuning fork. A question about the man may mention them as “named for this man,” and players who just heard about a telescope blurt out “Hubble Space Telescope,” which is wrong. Henrietta Leavitt (whose Cepheid rule he used), Georges Lemaître (who described the expansion law first), and Harlow Shapley (whose small-universe view he overturned) are the other wrong buzzes.",
+        "fix": "If the question asks for “this man” or “this astronomer,” say “Hubble” or “Edwin Hubble” and nothing more. Clues about a telescope launched in 1990, its mirror, or its Deep Field image can appear, but the answer is still the person it was named for.",
+        "line": "Real answer line: <b><u>Edwin Hubble</u></b> (accept <u>Hubble</u>)"
+    },
+    "tests": {
+        "right": [
+            "Edwin Hubble",
+            "Hubble",
+            "Edwin Powell Hubble",
+            "Edwin Hubbel",
+            "Hubbel",
+            "Dr. Edwin Hubble"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Hubble Space Telescope",
+            "Henrietta Leavitt",
+            "Georges Lemaître",
+            "Harlow Shapley",
+            "Milton Humason",
+            "Hubble constant"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

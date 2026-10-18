@@ -1,0 +1,460 @@
+{
+  "id": "chromatography",
+  "name": "Chromatography",
+  "mono": "CHR",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Separating a mixture by how fast its parts travel · From ink to crime labs",
+  "dates": "Named by Mikhail Tsvet, 1906",
+  "briefing": "Chromatography separates a mixture by letting its parts race through a material at different speeds. Put a dot of black marker on paper, dip the edge in water, and the dot splits into bands of blue, pink, and yellow as the water climbs. Russian-Italian botanist Mikhail Tsvet used a tube packed with chalk to separate the colored pigments in leaves, and he named the method “color writing.” Crime labs use it to identify inks, drugs, and other evidence.",
+  "answerHtml": "<b><u>Chromatography</u></b> (accept specific types like <u>paper chromatography</u>, <u>gas chromatography</u>, or <u>thin-layer chromatography</u>; do not accept “electrophoresis”)",
+  "accept": [
+    "chromatography",
+    "chromatographic separation",
+    "chromatographic analysis",
+    "hplc",
+    "tlc",
+    "gc ms",
+    "gcms",
+    "gas chromatography mass spectrometry",
+    "liquid chromatography mass spectrometry"
+  ],
+  "prompt": [],
+  "reject": [
+    "chromatogram",
+    "chromatograms",
+    "electrophoresis",
+    "gel electrophoresis",
+    "spectroscopy",
+    "spectrometry",
+    "mass spectrometry",
+    "mass spectroscopy",
+    "infrared spectroscopy",
+    "spectrophotometry",
+    "distillation",
+    "fractional distillation",
+    "filtration",
+    "centrifugation",
+    "crystallization",
+    "recrystallization",
+    "x ray crystallography",
+    "crystallography",
+    "titration",
+    "evaporation",
+    "decantation",
+    "extraction",
+    "solvent extraction",
+    "sublimation",
+    "dialysis",
+    "electrolysis",
+    "capillary action",
+    "adsorption",
+    "absorption"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Chromatography",
+  "qb": {
+    "q": "chromatography",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Mikhail Tsvet [“TSVET”], whose last name means “color” in Russian, named this technique after he separated the pigments in plant leaves by pouring their extract through a glass column packed with chalk. Its name comes from Greek words for “color writing.”",
+      "r": "For 10 points, name this technique for separating mixtures, which comes in paper, column, and gas types."
+    },
+    {
+      "p": "Archer Martin and Richard Synge [“SING”] shared the 1952 Nobel Prize in Chemistry for inventing the partition type of this technique, which they used to separate amino acids. Martin also helped develop a form of this technique that carries samples through a column with an inert gas.",
+      "r": "For 10 points, name this lab technique that separates a mixture as a mobile phase carries it past a stationary phase."
+    },
+    {
+      "p": "The van Deemter [“DEEM-ter”] equation describes how the efficiency of a column used in this technique depends on the speed of the flowing liquid or gas. That efficiency is often measured by counting “theoretical plates,” an idea borrowed from distillation.",
+      "r": "For 10 points, name this separation technique, whose paper version can split black ink into several colors."
+    },
+    {
+      "p": "In the paper and thin-layer versions of this technique, a spot’s Rf value equals the distance it moved divided by the distance the solvent front moved, so the value always falls between 0 and 1. The starting line is drawn in pencil, because ink would dissolve and run.",
+      "r": "For 10 points, name this technique that separates the dyes in markers as a solvent climbs up a strip of paper."
+    },
+    {
+      "p": "In the size-exclusion type of this technique, the largest molecules come out of the column first, because they are too big to wander into the tiny pores of the beads inside. The affinity type uses molecules that bind tightly to just one target, like an antibody grabbing its antigen.",
+      "r": "For 10 points, name this family of techniques that separate mixtures using a mobile phase and a stationary phase."
+    },
+    {
+      "p": "Labs that test athletes for banned drugs often pair the gas form of this technique with mass spectrometry. In that gas form, a carrier gas such as helium sweeps vaporized samples through a long, thin, coiled column inside an oven.",
+      "r": "For 10 points, name this separation technique, whose paper form makes ink spots spread out into bands of color."
+    },
+    {
+      "p": "In the reverse-phase type of this technique, a nonpolar stationary phase holds back nonpolar molecules while a polar solvent rushes polar ones through. A high-performance liquid version of this technique uses pumps to push solvent through a column of tiny particles at high pressure.",
+      "r": "For 10 points, name this technique that separates the parts of a mixture by how fast they travel past a stationary phase."
+    },
+    {
+      "p": "Chemists often check the results of the thin-layer form of this technique under ultraviolet light or in a jar of iodine vapor, which turns the separated spots brown. Spraying the paper form with ninhydrin [“nye-HYE-drin”] makes amino acids show up as purple spots.",
+      "r": "For 10 points, name this technique, used in classroom labs to separate the pigments in leaves."
+    },
+    {
+      "p": "In the column form of this technique, the solvent poured in at the top is called the eluent [“ELL-yoo-ent”], and the liquid that drips out the bottom carrying separated compounds is the eluate. Each compound comes out at a different time, depending on how strongly it sticks to the packing.",
+      "r": "For 10 points, name this technique, whose paper form can separate the green and yellow pigments in spinach leaves."
+    },
+    {
+      "p": "The ion-exchange type of this technique separates molecules by electric charge, using a resin with charged groups on its surface. The chiral type of this technique can separate the two mirror-image forms of a drug molecule.",
+      "r": "For 10 points, name this technique, whose gas, paper, and thin-layer forms all separate mixtures by how fast their parts move."
+    },
+    {
+      "p": "In the gas form of this technique, each compound is identified by its retention time, how long it takes to reach the detector, and the results appear as a graph of peaks. A common detector for that gas form, the flame ionization detector, burns the compounds in a hydrogen flame.",
+      "r": "For 10 points, name this technique for separating the parts of a mixture, whose paper form can split marker ink into colors."
+    },
+    {
+      "p": "Forensic scientists use this technique to compare the ink on a forged document with the ink in a suspect’s pen, and to find traces of gasoline in the debris of a fire. Its paper form works because different dyes cling to the paper with different strengths.",
+      "r": "For 10 points, name this technique that separates the parts of a mixture as a solvent carries them along."
+    },
+    {
+      "p": "In a two-dimensional form of this technique, a sheet of paper is run in one direction, turned 90 degrees, and run again with a different solvent, a method once used to separate the amino acids that make up proteins. Supercritical carbon dioxide can serve as the moving phase in another form of this technique.",
+      "r": "For 10 points, name this technique for separating mixtures, whose name comes from the Greek for “color writing.”"
+    },
+    {
+      "p": "Molecules that cling strongly to the stationary phase move slowly in this technique, while those that dissolve well in the mobile phase race ahead. In its thin-layer form, the stationary phase is usually a coating of silica gel on a flat plate.",
+      "r": "For 10 points, name this technique, used to split marker ink into separate colors on a strip of paper."
+    },
+    {
+      "p": "In the paper form of this technique, the true stationary phase is a thin layer of water held by the paper’s cellulose fibers. Mikhail Tsvet [“TSVET”] invented this technique in the early 1900s while studying plant pigments.",
+      "r": "For 10 points, name this technique that separates a mixture as a mobile phase carries its parts along at different speeds."
+    }
+  ],
+  "clues": [
+    {
+      "id": "separates",
+      "tier": "giveaway",
+      "t": "A technique that separates the parts of a mixture because they travel at different speeds",
+      "k": [
+        "separates",
+        "mixture",
+        "different speeds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phases",
+      "tier": "giveaway",
+      "t": "A mobile phase (a liquid or gas) carries the mixture past a stationary phase",
+      "k": [
+        "mobile phase",
+        "stationary phase"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marker-ink",
+      "tier": "giveaway",
+      "t": "Its paper version splits black marker ink into bands of color as water climbs the paper",
+      "k": [
+        "marker ink",
+        "paper",
+        "bands of color"
+      ],
+      "n": 0
+    },
+    {
+      "id": "types",
+      "tier": "giveaway",
+      "t": "Comes in paper, thin-layer, column, gas, and liquid types",
+      "k": [
+        "thin-layer",
+        "column",
+        "gas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "color-writing",
+      "tier": "giveaway",
+      "t": "Its name comes from Greek words meaning “color writing”",
+      "k": [
+        "color writing",
+        "greek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tsvet",
+      "tier": "middle",
+      "t": "Invented by Mikhail Tsvet (whose name means “color” in Russian), who separated leaf pigments in a column of chalk and named it in 1906",
+      "k": [
+        "tsvet",
+        "chalk",
+        "1906",
+        "leaf pigments"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rf-value",
+      "tier": "middle",
+      "t": "Rf value = distance a spot moved ÷ distance the solvent front moved, always between 0 and 1",
+      "k": [
+        "rf value",
+        "solvent front"
+      ],
+      "n": 0
+    },
+    {
+      "id": "capillary",
+      "tier": "middle",
+      "t": "In the paper form, the solvent rises up the paper by capillary action",
+      "k": [
+        "capillary action",
+        "solvent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pencil",
+      "tier": "middle",
+      "t": "The starting line is drawn in pencil, because ink would dissolve and run",
+      "k": [
+        "pencil",
+        "starting line"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leaf-pigments",
+      "tier": "middle",
+      "t": "Classroom labs use it to separate chlorophyll a, chlorophyll b, and carotene from spinach leaves",
+      "k": [
+        "chlorophyll",
+        "carotene",
+        "spinach"
+      ],
+      "n": 0,
+      "rabbit": "Chlorophyll"
+    },
+    {
+      "id": "gas-form",
+      "tier": "middle",
+      "t": "Gas form: a carrier gas like helium sweeps vaporized samples through a long coiled column in an oven",
+      "k": [
+        "carrier gas",
+        "helium",
+        "oven"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gc-ms",
+      "tier": "middle",
+      "t": "Its gas form is often paired with mass spectrometry, as in drug tests for athletes",
+      "k": [
+        "mass spectrometry",
+        "drug tests"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forensics",
+      "tier": "middle",
+      "t": "Forensic labs use it to compare inks and to find traces of gasoline in fire debris",
+      "k": [
+        "forensic",
+        "inks",
+        "gasoline"
+      ],
+      "n": 0
+    },
+    {
+      "id": "silica-gel",
+      "tier": "middle",
+      "t": "Thin-layer form: a plate coated with silica gel is the stationary phase",
+      "k": [
+        "silica gel",
+        "plate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "martin-synge",
+      "tier": "power",
+      "t": "Archer Martin and Richard Synge won the 1952 Nobel Prize in Chemistry for inventing its partition type",
+      "k": [
+        "martin",
+        "synge",
+        "1952",
+        "partition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "van-deemter",
+      "tier": "power",
+      "t": "The van Deemter equation relates a column’s efficiency to the flow speed of the mobile phase",
+      "k": [
+        "van deemter",
+        "efficiency",
+        "flow speed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plates",
+      "tier": "power",
+      "t": "Column efficiency is counted in “theoretical plates,” an idea borrowed from distillation",
+      "k": [
+        "theoretical plates",
+        "distillation"
+      ],
+      "n": 0,
+      "rabbit": "Distillation"
+    },
+    {
+      "id": "size-exclusion",
+      "tier": "power",
+      "t": "Size-exclusion type: the largest molecules come out first, since they can’t enter the beads’ tiny pores",
+      "k": [
+        "size-exclusion",
+        "largest molecules",
+        "pores"
+      ],
+      "n": 0
+    },
+    {
+      "id": "affinity",
+      "tier": "power",
+      "t": "Affinity type: uses a molecule that binds just one target, like an antibody grabbing its antigen",
+      "k": [
+        "affinity",
+        "antibody",
+        "antigen"
+      ],
+      "n": 0,
+      "rabbit": "Antibodies"
+    },
+    {
+      "id": "ion-exchange-chiral",
+      "tier": "power",
+      "t": "Ion-exchange type separates molecules by charge with a charged resin; chiral type separates mirror-image forms",
+      "k": [
+        "ion-exchange",
+        "resin",
+        "chiral",
+        "mirror-image"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reverse-phase",
+      "tier": "power",
+      "t": "Reverse-phase type: a nonpolar stationary phase with a polar solvent",
+      "k": [
+        "reverse-phase",
+        "nonpolar",
+        "polar solvent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hplc",
+      "tier": "power",
+      "t": "High-performance liquid form: pumps push solvent through a column of tiny particles at high pressure",
+      "k": [
+        "high pressure",
+        "pumps",
+        "high-performance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eluent",
+      "tier": "power",
+      "t": "The eluent is the solvent that goes in; the eluate, carrying separated compounds, comes out",
+      "k": [
+        "eluent",
+        "eluate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "retention-time",
+      "tier": "power",
+      "t": "Gas form: compounds are identified by retention time, often with a flame ionization detector that burns them in a hydrogen flame",
+      "k": [
+        "retention time",
+        "flame ionization",
+        "peaks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "visualize",
+      "tier": "power",
+      "t": "Spots show up under ultraviolet light or in iodine vapor; ninhydrin turns amino acids purple",
+      "k": [
+        "ultraviolet",
+        "iodine vapor",
+        "ninhydrin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-dimensional",
+      "tier": "power",
+      "t": "Two-dimensional paper form: run once, turned 90 degrees, and run again with a new solvent",
+      "k": [
+        "two-dimensional",
+        "90 degrees"
+      ],
+      "n": 0
+    },
+    {
+      "id": "supercritical",
+      "tier": "power",
+      "t": "Supercritical carbon dioxide can serve as the mobile phase",
+      "k": [
+        "supercritical",
+        "carbon dioxide"
+      ],
+      "n": 0,
+      "rabbit": "Carbon dioxide"
+    },
+    {
+      "id": "cellulose",
+      "tier": "power",
+      "t": "In the paper form, the true stationary phase is water held by the paper’s cellulose fibers",
+      "k": [
+        "cellulose",
+        "water"
+      ],
+      "n": 0,
+      "rabbit": "Cellulose"
+    }
+  ],
+  "trap": {
+    "title": "Not electrophoresis or distillation",
+    "body": "Other lab techniques also pull mixtures apart. Distillation separates liquids by boiling them off at different temperatures, and electrophoresis uses an electric field to drag charged molecules like DNA through a gel. Mass spectrometry sorts charged fragments by mass to identify a substance, and because it is so often paired with this technique, players sometimes buzz with the wrong half.",
+    "fix": "Mobile phase, stationary phase, Rf values, solvent fronts, retention times, and Tsvet mean this technique. An electric current pulling DNA through a gel means electrophoresis; boiling and condensing means distillation.",
+    "line": "Real answer line: <b><u>Chromatography</u></b> (accept specific types like <u>paper chromatography</u>, <u>gas chromatography</u>, or <u>thin-layer chromatography</u>; do not accept “electrophoresis”)"
+  },
+  "tests": {
+    "right": [
+      "Chromatography",
+      "Paper chromatography",
+      "Gas chromatography",
+      "Thin-layer chromatography",
+      "Cromatography",
+      "HPLC"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Electrophoresis",
+      "Distillation",
+      "Chromatogram",
+      "Mass spectrometry",
+      "Filtration",
+      "Titration",
+      "Capillary action"
+    ]
+  }
+}

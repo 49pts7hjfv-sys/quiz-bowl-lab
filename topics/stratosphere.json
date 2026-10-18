@@ -1,0 +1,433 @@
+{
+  "id": "stratosphere",
+  "name": "Stratosphere",
+  "mono": "STR",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Second layer of the atmosphere · Home of the ozone layer",
+  "dates": "Roughly 10 to 50 km above the ground",
+  "briefing": "The stratosphere is the second layer of Earth’s atmosphere, starting about 10 kilometers up, above the clouds and storms of the troposphere. Strangely, it gets warmer as you go higher, because its ozone soaks up the Sun’s ultraviolet light, the same ozone layer that shields us from sunburn-causing rays. Jets cruise near its bottom edge, and in 2012 skydiver Felix Baumgartner jumped from a balloon high inside it.",
+  "answerHtml": "<b><u>Stratosphere</u></b> (prompt on <u>atmosphere</u> or <u>upper atmosphere</u>; do not accept “troposphere,” “mesosphere,” or “ozone layer”)",
+  "accept": [
+    "stratosphere",
+    "the stratosphere",
+    "lower stratosphere",
+    "upper stratosphere",
+    "earths stratosphere"
+  ],
+  "prompt": [
+    "atmosphere",
+    "earths atmosphere",
+    "the atmosphere",
+    "upper atmosphere",
+    "middle atmosphere",
+    "atmospheric layer",
+    "layer of the atmosphere"
+  ],
+  "reject": [
+    "troposphere",
+    "mesosphere",
+    "thermosphere",
+    "exosphere",
+    "ionosphere",
+    "ozone layer",
+    "ozone",
+    "ozonosphere",
+    "tropopause",
+    "stratopause",
+    "mesopause",
+    "magnetosphere",
+    "lithosphere",
+    "asthenosphere",
+    "hydrosphere",
+    "biosphere",
+    "heterosphere",
+    "homosphere",
+    "van allen belts",
+    "van allen radiation belts",
+    "jet stream",
+    "polar vortex"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Stratosphere",
+  "qb": {
+    "q": "stratosphere",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Léon Teisserenc de Bort and Richard Assmann independently discovered this layer around 1902, after instrument-carrying balloons showed that air stops getting colder above a certain height. Teisserenc de Bort named it for the Latin word for “layer,” thinking its air did not mix.",
+      "r": "For 10 points, name this layer of the atmosphere, above the troposphere, that contains the ozone layer."
+    },
+    {
+      "p": "High above the equator, the winds in this layer switch back and forth between blowing from the east and from the west in a cycle lasting about 28 months, called the quasi-biennial [“KWAY-zye bye-EN-ee-ul”] oscillation. Ozone in this layer absorbs ultraviolet light, so its temperature rises with height.",
+      "r": "For 10 points, name this second layer of Earth’s atmosphere, found between the troposphere and the mesosphere."
+    },
+    {
+      "p": "The slow Brewer–Dobson circulation lifts air into this layer over the tropics and carries it toward the poles, which is why ozone made over the tropics piles up at high latitudes. Gordon Dobson also gave his name to the unit used to measure ozone.",
+      "r": "For 10 points, name this layer of the atmosphere that contains the ozone layer, just above the troposphere."
+    },
+    {
+      "p": "In 1931, Auguste Piccard [“pee-KAR”] and Paul Kipfer became the first people to reach this layer, riding in a sealed, pressurized cabin hung beneath a giant balloon. Piccard later inspired the cartoon scientist Professor Calculus in _The Adventures of Tintin_.",
+      "r": "For 10 points, name this layer of the atmosphere, home to the ozone layer, that lies above the troposphere."
+    },
+    {
+      "p": "Shimmering nacreous [“NAY-kree-us”] clouds, also called “mother-of-pearl” clouds, can form in this layer over the poles during winter, and their icy particles help chlorine destroy ozone. That destruction creates the ozone hole that appears over Antarctica each spring.",
+      "r": "For 10 points, name this second layer of Earth’s atmosphere, where most ozone is found, just above the troposphere."
+    },
+    {
+      "p": "Sulfur gas blasted into this layer by the 1991 eruption of Mount Pinatubo [“pin-uh-TOO-boh”] formed a haze of tiny droplets that cooled the whole planet for about two years. Because this layer has almost no rain or weather, such particles can linger there for a long time.",
+      "r": "For 10 points, name this layer of the atmosphere above the troposphere, home to the ozone layer."
+    },
+    {
+      "p": "In 2014, Alan Eustace set a record by skydiving from a balloon high in this layer, beating the height of Felix Baumgartner’s 2012 jump, in which Baumgartner broke the sound barrier in free fall. Weather balloons often rise through much of this layer before they burst.",
+      "r": "For 10 points, name this layer of the atmosphere, between the troposphere and mesosphere, that holds the ozone layer."
+    },
+    {
+      "p": "Unlike the layer below it, this layer gets warmer the higher you go, because the ozone inside it absorbs the Sun’s ultraviolet light. That warm air on top makes this layer very stable, so its air barely mixes up and down.",
+      "r": "For 10 points, name this second layer of Earth’s atmosphere, which contains the ozone layer."
+    },
+    {
+      "p": "Sydney Chapman explained in 1930 how ozone forms in this layer: ultraviolet light splits oxygen molecules into single atoms, which then join other oxygen molecules to make ozone. About 90 percent of Earth’s ozone is found in this layer.",
+      "r": "For 10 points, name this layer of the atmosphere that lies just above the troposphere."
+    },
+    {
+      "p": "In 1985, Joseph Farman’s team at the British Antarctic Survey reported that ozone in this layer was thinning sharply over Antarctica each spring. Two years later, the Montreal Protocol was signed to phase out the CFC chemicals responsible.",
+      "r": "For 10 points, name this layer of the atmosphere above the troposphere, where the ozone layer is found."
+    },
+    {
+      "p": "The supersonic Concorde airliner cruised in this layer, about 18 kilometers up, high above nearly all clouds and storms, and the U-2 spy plane has flown even higher in it. Many ordinary jets fly near its bottom edge, where the air is smooth and thin.",
+      "r": "For 10 points, name this layer of the atmosphere that contains the ozone layer, just above the troposphere."
+    },
+    {
+      "p": "This layer ends about 50 kilometers up, at a boundary where temperatures stop rising and the mesosphere begins. Its lower boundary, the tropopause, is higher over the equator than over the poles.",
+      "r": "It sits directly above the troposphere, where weather happens. For 10 points, name this layer of Earth’s atmosphere that contains the ozone layer."
+    },
+    {
+      "p": "Sudden warmings in this layer over the Arctic can weaken or split the polar vortex, sometimes sending frigid air south weeks later. Unlike the layer beneath it, this layer has very little water vapor, so clouds rarely form there.",
+      "r": "For 10 points, name this layer of the atmosphere that holds most of Earth’s ozone."
+    },
+    {
+      "p": "The flat, spreading anvil tops of big thunderstorms form when rising air hits the bottom of this layer and stops, because the air above it is warmer. The strongest storms can punch “overshooting tops” a short way into it.",
+      "r": "For 10 points, name this second layer of Earth’s atmosphere, above the troposphere, that contains the ozone layer."
+    },
+    {
+      "p": "A thin haze of sulfuric acid droplets called the Junge [“YOONG-uh”] layer floats in this layer and grows thicker after big volcanic eruptions. Sulfur from Indonesia’s Mount Tambora reached this layer in 1815, leading to the “Year Without a Summer” in 1816.",
+      "r": "For 10 points, name this layer of the atmosphere between the troposphere and mesosphere, home of the ozone layer."
+    }
+  ],
+  "clues": [
+    {
+      "id": "second-layer",
+      "tier": "giveaway",
+      "t": "The second layer of the atmosphere, above the troposphere and below the mesosphere",
+      "k": [
+        "second layer",
+        "troposphere",
+        "mesosphere"
+      ],
+      "n": 0,
+      "rabbit": "Troposphere"
+    },
+    {
+      "id": "ozone-layer",
+      "tier": "giveaway",
+      "t": "Contains the ozone layer, which holds about 90 percent of Earth’s ozone",
+      "k": [
+        "ozone layer",
+        "90 percent"
+      ],
+      "n": 0,
+      "rabbit": "Ozone layer"
+    },
+    {
+      "id": "warmer-higher",
+      "tier": "giveaway",
+      "t": "Gets warmer with height, because its ozone absorbs the Sun’s ultraviolet light",
+      "k": [
+        "warmer",
+        "ultraviolet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "height",
+      "tier": "giveaway",
+      "t": "Runs from roughly 10 kilometers up to about 50 kilometers up",
+      "k": [
+        "50 kilometers",
+        "10 kilometers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jets",
+      "tier": "giveaway",
+      "t": "Jets fly near its bottom edge, and the Concorde cruised in it, above nearly all weather",
+      "k": [
+        "concorde",
+        "jets",
+        "weather"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boundaries",
+      "tier": "middle",
+      "t": "Its bottom boundary, the tropopause, is higher over the equator than over the poles",
+      "k": [
+        "tropopause",
+        "equator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "latin-layer",
+      "tier": "middle",
+      "t": "Named from the Latin for “layer,” because its stable air barely mixes up and down",
+      "k": [
+        "latin",
+        "stable",
+        "layer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ozone-hole",
+      "tier": "middle",
+      "t": "CFCs thinned its ozone, creating the Antarctic ozone hole; the 1987 Montreal Protocol phased them out",
+      "k": [
+        "ozone hole",
+        "montreal protocol",
+        "cfcs",
+        "1987"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nacreous",
+      "tier": "middle",
+      "t": "Shimmering nacreous (“mother-of-pearl”) clouds form in it over the poles in winter and help chlorine destroy ozone",
+      "k": [
+        "nacreous",
+        "mother-of-pearl",
+        "chlorine"
+      ],
+      "n": 0,
+      "rabbit": "Clouds"
+    },
+    {
+      "id": "dry",
+      "tier": "middle",
+      "t": "Very dry, with little water vapor, so clouds rarely form in it",
+      "k": [
+        "water vapor",
+        "dry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "volcanic-haze",
+      "tier": "middle",
+      "t": "Big eruptions like Mount Pinatubo’s in 1991 put sulfur into it, cooling Earth for about two years",
+      "k": [
+        "pinatubo",
+        "sulfur",
+        "1991"
+      ],
+      "n": 0,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "anvils",
+      "tier": "middle",
+      "t": "Thunderstorm anvil tops flatten out when rising air hits its warmer bottom",
+      "k": [
+        "anvil",
+        "thunderstorm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "weather-balloons",
+      "tier": "middle",
+      "t": "Weather balloons rise through much of it before they burst",
+      "k": [
+        "weather balloons",
+        "burst"
+      ],
+      "n": 0
+    },
+    {
+      "id": "baumgartner",
+      "tier": "middle",
+      "t": "Felix Baumgartner (2012) and Alan Eustace (2014) skydived from balloons high in it",
+      "k": [
+        "baumgartner",
+        "eustace",
+        "skydived"
+      ],
+      "n": 0
+    },
+    {
+      "id": "teisserenc",
+      "tier": "power",
+      "t": "Discovered around 1902 by Léon Teisserenc de Bort and Richard Assmann, using instrument-carrying balloons",
+      "k": [
+        "teisserenc de bort",
+        "assmann",
+        "1902"
+      ],
+      "n": 0
+    },
+    {
+      "id": "piccard",
+      "tier": "power",
+      "t": "Auguste Piccard and Paul Kipfer first reached it in 1931 in a pressurized balloon cabin; Piccard inspired Tintin’s Professor Calculus",
+      "k": [
+        "piccard",
+        "kipfer",
+        "1931",
+        "professor calculus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "qbo",
+      "tier": "power",
+      "t": "Its winds above the equator switch between easterly and westerly in a cycle of about 28 months: the quasi-biennial oscillation",
+      "k": [
+        "quasi-biennial",
+        "28 months"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brewer-dobson",
+      "tier": "power",
+      "t": "The Brewer–Dobson circulation lifts air into it over the tropics and carries it toward the poles",
+      "k": [
+        "brewer–dobson",
+        "brewer-dobson",
+        "tropics"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chapman",
+      "tier": "power",
+      "t": "Sydney Chapman (1930) explained how ultraviolet light makes ozone from oxygen in it",
+      "k": [
+        "chapman",
+        "1930"
+      ],
+      "n": 0
+    },
+    {
+      "id": "farman",
+      "tier": "power",
+      "t": "Joseph Farman’s British Antarctic Survey team reported the ozone hole in 1985",
+      "k": [
+        "british antarctic survey",
+        "farman",
+        "1985"
+      ],
+      "n": 0
+    },
+    {
+      "id": "polar-vortex",
+      "tier": "power",
+      "t": "Sudden warmings in it can weaken or split the polar vortex, sending frigid air south",
+      "k": [
+        "sudden warmings",
+        "polar vortex"
+      ],
+      "n": 0
+    },
+    {
+      "id": "junge",
+      "tier": "power",
+      "t": "The Junge layer is a thin haze of sulfuric acid droplets inside it",
+      "k": [
+        "junge",
+        "sulfuric acid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tambora",
+      "tier": "power",
+      "t": "Mount Tambora’s 1815 eruption sent sulfur into it, causing 1816’s “Year Without a Summer”",
+      "k": [
+        "year without a summer",
+        "tambora",
+        "1816"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dobson-units",
+      "tier": "power",
+      "t": "Ozone amounts are measured in Dobson units, named for Gordon Dobson",
+      "k": [
+        "dobson units",
+        "gordon dobson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "u2",
+      "tier": "power",
+      "t": "The U-2 spy plane has flown high in it, above the Concorde’s cruising height",
+      "k": [
+        "spy plane",
+        "u-2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fabry-buisson",
+      "tier": "power",
+      "t": "Charles Fabry and Henri Buisson discovered the ozone layer inside it in 1913",
+      "k": [
+        "fabry",
+        "buisson",
+        "1913"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which layer is which?",
+    "body": "The atmosphere’s layers have look-alike names, and quiz bowl asks about all of them. The troposphere is the bottom layer, where weather happens and temperature drops with height; the mesosphere sits above this one and is where most meteors burn up; and the ozone layer is only one part of this layer, not the whole thing. Saying “ozone layer” when the question wants the whole layer loses the tossup.",
+    "fix": "Remember the order going up: troposphere, stratosphere, mesosphere, thermosphere, exosphere. Ozone, warming with height, jets, and weather balloons point to the stratosphere; weather and most clouds mean the troposphere; meteors and the coldest temperatures mean the mesosphere; auroras and the International Space Station mean the thermosphere.",
+    "line": "Real answer line: <b><u>Stratosphere</u></b> (prompt on atmosphere; do not accept “troposphere,” “mesosphere,” or “ozone layer”)"
+  },
+  "tests": {
+    "right": [
+      "Stratosphere",
+      "the stratosphere",
+      "Stratosphear",
+      "Lower stratosphere",
+      "Stratospere"
+    ],
+    "prompt": [
+      "Atmosphere",
+      "Upper atmosphere"
+    ],
+    "wrong": [
+      "Troposphere",
+      "Mesosphere",
+      "Ozone layer",
+      "Thermosphere",
+      "Ionosphere",
+      "Tropopause"
+    ]
+  }
+}

@@ -1,0 +1,350 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "capacitors",
+    "name": "Capacitors",
+    "mono": "CAP",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Charge-storing circuit parts · Their key quantity is measured in farads",
+    "dates": "Leyden jar invented 1745–1746",
+    "briefing": "A capacitor is a circuit part that stores electric charge on two metal plates kept apart by an insulator. How much charge it holds for each volt is its capacitance, measured in farads after Michael Faraday. Capacitors can dump their energy in a split second, which is why camera flashes use them, and the first one, the Leyden jar, was invented in the 1740s.",
+    "answerHtml": "<b><u>Capacitor</u></b>s (accept <u>condenser</u>s; accept <u>capacitance</u> when the question asks for the quantity; do not accept “resistors,” “inductors,” or “batteries”)",
+    "accept": [
+        "capacitor",
+        "capacitors",
+        "capacitance",
+        "capacitances",
+        "condenser",
+        "condensers",
+        "supercapacitor",
+        "supercapacitors",
+        "ultracapacitor",
+        "ultracapacitors"
+    ],
+    "prompt": [
+        "leyden jar",
+        "leyden jars"
+    ],
+    "reject": [
+        "resistor",
+        "resistors",
+        "resistance",
+        "inductor",
+        "inductors",
+        "inductance",
+        "battery",
+        "batteries",
+        "transistor",
+        "transistors",
+        "diode",
+        "diodes",
+        "capacity",
+        "heat capacity",
+        "carrying capacity",
+        "condensation",
+        "farad",
+        "farads",
+        "dielectric",
+        "dielectrics",
+        "electrolyte",
+        "conductor",
+        "conductors",
+        "voltage"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Capacitor",
+    "qb": {
+        "q": "capacitor",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Ewald von Kleist and Pieter van Musschenbroek [“MUSS-en-brook”] independently invented an early type of these devices in the 1740s, and the Dutch city where van Musschenbroek worked gave that version its name. Benjamin Franklin called a row of those linked jars a “battery.”",
+            "r": "For 10 points, name these devices that store electric charge on two plates separated by an insulator, whose key property is measured in farads."
+        },
+        {
+            "p": "James Clerk Maxwell added a “displacement current” to Ampère’s law to explain the magnetic field in the gap of one of these devices while it charges. The electric field between the plates of an empty one of these devices equals the charge per area divided by the permittivity of free space.",
+            "r": "For 10 points, name these circuit elements that store energy in an electric field, often between two parallel plates."
+        },
+        {
+            "p": "The energy stored in one of these devices equals one-half times C times V squared. Camera flashes and defibrillators use these devices because they can dump their stored energy in a fraction of a second.",
+            "r": "For 10 points, name these devices, made of two conducting plates separated by an insulator, that store electric charge."
+        },
+        {
+            "p": "When one of these devices charges through a resistor, the time constant R C is how long it takes to reach about 63 percent of the final voltage. Adding a slab of dielectric material between the plates of one of these devices raises how much charge it holds at a given voltage.",
+            "r": "Their ability to store charge is measured in farads. For 10 points, name these devices that store charge on two plates."
+        },
+        {
+            "p": "Connected in parallel, the key values of these devices simply add, but in series their reciprocals add, the opposite of how resistors combine. Two identical ones wired in series have half the key value of either one alone.",
+            "r": "They store charge on two plates separated by an insulator. For 10 points, name these electric circuit components rated in farads."
+        },
+        {
+            "p": "Paired with an inductor, one of these devices forms a circuit that oscillates at one over two pi times the square root of L C. Turning the tuning knob on an old radio rotated meshing metal plates in a variable version of these devices.",
+            "r": "For 10 points, name these devices that store charge and energy in an electric field between two plates."
+        },
+        {
+            "p": "The reactance of these devices equals one over two pi times frequency times C, so they block steady direct current but let alternating current pass. In the memory aid “ELI the ICE man,” the C stands for these devices, in which current leads voltage by 90 degrees.",
+            "r": "They hold charge on two plates. For 10 points, name these circuit elements whose key property is measured in farads."
+        },
+        {
+            "p": "Each bit of DRAM computer memory is stored as charge on a tiny one of these devices, which leaks away unless the chip refreshes it many times a second. One of these devices placed across a power supply’s output smooths out ripples in the voltage.",
+            "r": "For 10 points, name these electronic components that store charge on two plates separated by a dielectric."
+        },
+        {
+            "p": "Electrolytic versions of these devices use an extremely thin oxide layer on aluminum or tantalum as the insulator, so they must be connected with the correct polarity. Other versions use thin sheets of ceramic or mica between their plates.",
+            "r": "For 10 points, name these devices rated in microfarads or picofarads, which store electric charge."
+        },
+        {
+            "p": "Electric double-layer versions of these components store charge in the thin Helmholtz layer where an electrode meets an electrolyte, giving them huge values of their key property. Like other types, they charge and discharge far faster than batteries but store less energy.",
+            "r": "For 10 points, name these devices that store energy in an electric field, often between two parallel plates."
+        },
+        {
+            "p": "An isolated metal sphere has this quantity equal to four pi times the permittivity of free space times the sphere’s radius. For two parallel plates, this quantity equals the permittivity times the plate area divided by the gap between the plates.",
+            "r": "Inserting a dielectric raises it. For 10 points, name this quantity, the charge stored per volt, which is measured in farads."
+        },
+        {
+            "p": "Most smartphone touchscreens find your finger by sensing how it changes this quantity at points on a grid of electrodes. This quantity equals the charge stored on a pair of conductors divided by the voltage between them.",
+            "r": "Its unit is named for Michael Faraday. For 10 points, name this quantity, symbolized C and measured in farads."
+        },
+        {
+            "p": "If the voltage across one of these devices gets too high, its insulating layer can suffer dielectric breakdown and let a spark jump between the plates. A thundercloud and the ground below it act like a giant one of these devices, with air as the insulator.",
+            "r": "For 10 points, name these devices that store charge on two plates separated by an insulator."
+        },
+        {
+            "p": "One kind of studio microphone works because sound shakes a thin diaphragm that forms one plate of these devices, so the changing gap turns sound into an electrical signal. When one of these devices is charged, its two plates hold equal and opposite amounts of charge.",
+            "r": "For 10 points, name these devices, rated in farads, that store energy in an electric field."
+        },
+        {
+            "p": "A resistor and one of these devices form a simple high-pass filter, since this device lets high-frequency signals through more easily than low ones. On a circuit diagram, one of these devices is drawn as two short parallel lines with a gap between them.",
+            "r": "They are rated in farads. For 10 points, name these devices that store electric charge on two plates."
+        }
+    ],
+    "clues": [
+        {
+            "id": "two-plates",
+            "tier": "giveaway",
+            "t": "Two conducting plates separated by an insulator, used to store electric charge and energy",
+            "k": ["two conducting plates", "insulator"],
+            "n": 0
+        },
+        {
+            "id": "farads",
+            "tier": "giveaway",
+            "t": "Rated in farads, a unit named for Michael Faraday",
+            "k": ["farads", "faraday"],
+            "n": 0,
+            "rabbit": "Michael Faraday"
+        },
+        {
+            "id": "electric-field",
+            "tier": "giveaway",
+            "t": "Store energy in the electric field between their plates",
+            "k": ["electric field", "plates"],
+            "n": 0
+        },
+        {
+            "id": "camera-flash",
+            "tier": "giveaway",
+            "t": "Camera flashes and defibrillators use them to release stored energy in an instant",
+            "k": ["camera flashes", "defibrillators"],
+            "n": 0
+        },
+        {
+            "id": "q-cv",
+            "tier": "middle",
+            "t": "Their key quantity, symbolized C, equals charge divided by voltage (Q = C V)",
+            "k": ["charge divided by voltage", "q = c v"],
+            "n": 0
+        },
+        {
+            "id": "energy",
+            "tier": "middle",
+            "t": "The stored energy equals one-half C V squared",
+            "k": ["one-half c v squared", "stored energy"],
+            "n": 0
+        },
+        {
+            "id": "dielectric",
+            "tier": "middle",
+            "t": "A dielectric between the plates raises the key value by a factor called the dielectric constant",
+            "k": ["dielectric constant", "dielectric"],
+            "n": 0
+        },
+        {
+            "id": "parallel-plate",
+            "tier": "middle",
+            "t": "For parallel plates, the key value equals the permittivity times the plate area divided by the gap",
+            "k": ["permittivity", "plate area", "gap"],
+            "n": 0
+        },
+        {
+            "id": "series-parallel",
+            "tier": "middle",
+            "t": "In parallel their values add; in series their reciprocals add, the opposite of resistors",
+            "k": ["reciprocals", "parallel", "series"],
+            "n": 0
+        },
+        {
+            "id": "rc-time",
+            "tier": "middle",
+            "t": "With a resistor, the time constant R C is the time to reach about 63 percent of full charge",
+            "k": ["time constant", "63 percent"],
+            "n": 0
+        },
+        {
+            "id": "leyden-jar",
+            "tier": "middle",
+            "t": "The Leyden jar, invented in the 1740s, was an early type",
+            "k": ["leyden jar", "1740s"],
+            "n": 0
+        },
+        {
+            "id": "block-dc",
+            "tier": "middle",
+            "t": "Block steady direct current but let alternating current pass",
+            "k": ["direct current", "alternating current"],
+            "n": 0
+        },
+        {
+            "id": "kleist-musschenbroek",
+            "tier": "power",
+            "t": "Ewald von Kleist and Pieter van Musschenbroek independently invented the Leyden jar; Benjamin Franklin called linked jars a “battery”",
+            "k": ["kleist", "musschenbroek", "battery"],
+            "n": 0
+        },
+        {
+            "id": "displacement-current",
+            "tier": "power",
+            "t": "Maxwell’s displacement current explains the magnetic field in the gap while one charges",
+            "k": ["displacement current", "maxwell"],
+            "n": 0,
+            "rabbit": "Ampère’s law"
+        },
+        {
+            "id": "plate-field",
+            "tier": "power",
+            "t": "The field between empty parallel plates equals the charge per area divided by the permittivity of free space",
+            "k": ["charge per area", "permittivity of free space"],
+            "n": 0
+        },
+        {
+            "id": "lc-circuit",
+            "tier": "power",
+            "t": "With an inductor, forms an LC circuit that oscillates at one over two pi root L C; variable ones tuned old radios",
+            "k": ["inductor", "lc circuit", "variable"],
+            "n": 0
+        },
+        {
+            "id": "reactance",
+            "tier": "power",
+            "t": "Reactance equals one over two pi f C, so it falls as frequency rises",
+            "k": ["reactance", "frequency"],
+            "n": 0
+        },
+        {
+            "id": "eli-ice",
+            "tier": "power",
+            "t": "In the memory aid “ELI the ICE man,” the C stands for these: current leads voltage by 90 degrees",
+            "k": ["ice man", "90 degrees", "leads"],
+            "n": 0
+        },
+        {
+            "id": "dram",
+            "tier": "power",
+            "t": "Each bit of DRAM memory is charge on a tiny one that must be refreshed; one across a power supply smooths out ripples",
+            "k": ["dram", "refreshed", "ripples"],
+            "n": 0
+        },
+        {
+            "id": "electrolytic",
+            "tier": "power",
+            "t": "Electrolytic types use a thin oxide layer on aluminum or tantalum and must be connected with the correct polarity",
+            "k": ["electrolytic", "tantalum", "polarity"],
+            "n": 0
+        },
+        {
+            "id": "double-layer",
+            "tier": "power",
+            "t": "Electric double-layer types store charge in the Helmholtz layer where an electrode meets an electrolyte",
+            "k": ["helmholtz", "double-layer", "electrolyte"],
+            "n": 0
+        },
+        {
+            "id": "sphere",
+            "tier": "power",
+            "t": "An isolated sphere’s value equals four pi times the permittivity of free space times its radius",
+            "k": ["isolated sphere", "four pi", "radius"],
+            "n": 0
+        },
+        {
+            "id": "touchscreen",
+            "tier": "power",
+            "t": "Most smartphone touchscreens sense a finger by how it changes this quantity on a grid of electrodes",
+            "k": ["touchscreens", "grid of electrodes"],
+            "n": 0
+        },
+        {
+            "id": "breakdown",
+            "tier": "power",
+            "t": "Too much voltage causes dielectric breakdown, letting a spark jump between the plates",
+            "k": ["dielectric breakdown", "spark"],
+            "n": 0
+        },
+        {
+            "id": "microphone",
+            "tier": "power",
+            "t": "In one kind of studio microphone, sound moves a thin diaphragm that is one of the plates",
+            "k": ["microphone", "diaphragm"],
+            "n": 0
+        },
+        {
+            "id": "high-pass",
+            "tier": "power",
+            "t": "With a resistor it makes a high-pass filter; on circuit diagrams it is drawn as two short parallel lines",
+            "k": ["high-pass filter", "parallel lines"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Device or quantity?",
+        "body": "This page covers the device and its key quantity together, so the site accepts “capacitor” or “capacitance.” In a real match, listen for the noun: “these devices” or “these circuit elements” wants capacitors, but “this quantity, measured in farads” wants capacitance, and naming the wrong one can be ruled incorrect. Players also mix them up with resistors, inductors, and batteries, which show up in the same circuit questions.",
+        "fix": "Plates, dielectrics, Leyden jars, and stored charge mean capacitor; “this quantity” or “charge per volt” means capacitance. Coils and henries mean inductors, ohms mean resistors, and chemical reactions that push current mean batteries.",
+        "line": "Real answer line: <b><u>Capacitor</u></b>s (accept <u>condenser</u>s); for the quantity measured in farads, <b><u>capacitance</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Capacitors",
+            "capacitor",
+            "Capacitance",
+            "capaciter",
+            "Condenser",
+            "parallel-plate capacitor"
+        ],
+        "prompt": [
+            "Leyden jar"
+        ],
+        "wrong": [
+            "Resistor",
+            "Inductor",
+            "Battery",
+            "Capacity",
+            "Transistor",
+            "Heat capacity"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

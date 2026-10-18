@@ -1,0 +1,451 @@
+{
+  "id": "diffusion",
+  "name": "Diffusion",
+  "mono": "DIF",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Particles spreading from high to low concentration · No energy needed",
+  "dates": "Described mathematically by Adolf Fick, 1855",
+  "briefing": "Diffusion is the spreading of particles from where they are crowded to where they are scarce, driven only by their constant random jiggling. It explains why the smell of popcorn fills a whole house and why a drop of food coloring slowly tints a glass of water. In your lungs, oxygen diffuses into your blood while carbon dioxide diffuses out, without your cells spending any energy to make it happen.",
+  "answerHtml": "<b><u>Diffusion</u></b> (accept <u>simple diffusion</u> or <u>facilitated diffusion</u>; prompt on <u>passive transport</u>; do not accept “osmosis” or “active transport”)",
+  "accept": [
+    "diffusion",
+    "simple diffusion",
+    "facilitated diffusion",
+    "passive diffusion",
+    "molecular diffusion"
+  ],
+  "prompt": [
+    "passive transport",
+    "passive"
+  ],
+  "reject": [
+    "osmosis",
+    "active transport",
+    "effusion",
+    "infusion",
+    "diffraction",
+    "dispersion",
+    "brownian motion",
+    "convection",
+    "conduction",
+    "dialysis",
+    "filtration",
+    "endocytosis",
+    "exocytosis",
+    "equilibrium",
+    "dynamic equilibrium",
+    "concentration gradient",
+    "grahams law",
+    "ficks law",
+    "ficks laws",
+    "cultural diffusion",
+    "diffusion of innovations"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Diffusion",
+  "qb": {
+    "q": "diffusion",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Adolf Fick’s first law says that the rate of this process is proportional to the concentration gradient, and his second law describes how concentrations change over time as it goes on. This process speeds up at higher temperatures and continues until particles are evenly spread out.",
+      "r": "For 10 points, name this passive process in which particles move from an area of higher concentration to an area of lower concentration."
+    },
+    {
+      "p": "When cotton balls soaked in ammonia and hydrochloric acid are placed at opposite ends of a glass tube, a white ring of ammonium chloride forms closer to the acid’s end, because the lighter ammonia molecules travel faster by this process. Thomas Graham compared how fast different gases undergo it.",
+      "r": "For 10 points, name this spreading of particles from where they are crowded to where they are scarce."
+    },
+    {
+      "p": "In one of his 1905 papers, Albert Einstein linked the random jiggling of tiny particles called Brownian motion to a coefficient for this process. In this process, the typical distance a particle wanders grows with the square root of time, as in a “random walk.”",
+      "r": "This process explains why the smell of perfume spreads across a room. For 10 points, name this passive movement of particles down a concentration gradient."
+    },
+    {
+      "p": "During the Manhattan Project, the K-25 plant in Oak Ridge, Tennessee, separated lighter uranium-235 by forcing uranium hexafluoride gas through porous barriers again and again, a method named for this process. Osmosis is a special case of this process in which water crosses a membrane.",
+      "r": "For 10 points, name this process in which particles spread from high concentration to low concentration without any added energy."
+    },
+    {
+      "p": "Fish gills keep this process going along their whole length by running blood in the opposite direction from the water flowing past, an arrangement called countercurrent exchange. In human lungs, oxygen crosses the thin walls of the alveoli into tiny capillaries by this process.",
+      "r": "For 10 points, name this passive movement of molecules from an area of high concentration to an area of low concentration."
+    },
+    {
+      "p": "Dialysis machines clean the blood of people whose kidneys have stopped working by letting wastes such as urea cross a thin membrane into a cleaning fluid through this process. Neurotransmitters cross the narrow gap between two neurons, called the synaptic cleft, by this same process.",
+      "r": "For 10 points, name this process that needs no energy and moves particles down their concentration gradient."
+    },
+    {
+      "p": "In a classic lab, agar cubes containing a color-changing indicator are soaked in a base, and the color creeps slowly inward from the outside, showing why cells must stay small to rely on this process. Cells take in oxygen this way, so a high ratio of surface area to volume helps them.",
+      "r": "For 10 points, name this process that spreads particles from areas of high concentration to areas of low concentration without using energy."
+    },
+    {
+      "p": "Glucose enters red blood cells through carrier proteins called GLUT1 in the “facilitated” form of this process, which uses no ATP. In the simple form of this process, small nonpolar molecules like oxygen and carbon dioxide slip straight through the lipid bilayer.",
+      "r": "For 10 points, name this kind of passive transport in which particles move down their concentration gradient."
+    },
+    {
+      "p": "The Stokes–Einstein equation shows that bigger particles moving through thicker fluids undergo this process more slowly. The coefficient that measures how fast this process happens is given in units of area per time, such as square meters per second.",
+      "r": "This process happens much faster in gases than in liquids. For 10 points, name this movement of particles from high to low concentration."
+    },
+    {
+      "p": "At a p-n junction in a semiconductor, electrons and holes cross the boundary by this process, leaving behind a thin layer called the depletion region. In living things, carbon dioxide enters a leaf through tiny pores called stomata by this process.",
+      "r": "For 10 points, name this passive process in which particles spread from where they are more concentrated to where they are less concentrated."
+    },
+    {
+      "p": "In a 1952 paper, Alan Turing proposed that two chemicals reacting with each other while spreading out by this process could create patterns like an animal’s spots and stripes. This process keeps going until a dynamic equilibrium is reached, when particles still move but there is no net movement.",
+      "r": "This process carries the smell of baking cookies through a house. For 10 points, name this process that moves particles down a concentration gradient."
+    },
+    {
+      "p": "A kind of MRI scan maps the bundles of nerve fibers in the brain by tracking how water molecules spread along them by this process. Unlike active transport, this process never moves particles against their concentration gradient, so it needs no ATP.",
+      "r": "For 10 points, name this process that makes a drop of food coloring slowly spread through a glass of water."
+    },
+    {
+      "p": "In 1827, botanist Robert Brown noticed tiny particles from pollen grains jiggling in water, and that kind of random motion is what drives this process. This process moves particles “down” their concentration gradient, so a cell does not have to spend energy for it to happen.",
+      "r": "For 10 points, name this process by which oxygen passes from the lungs into the blood."
+    },
+    {
+      "p": "The enzyme triose phosphate isomerase is called “catalytically perfect,” because it works as fast as its substrate molecules can arrive by this process. In single-celled organisms like amoebas, oxygen enters the cell directly from the surrounding water by this process.",
+      "r": "For 10 points, name this kind of passive transport that moves particles from high to low concentration."
+    },
+    {
+      "p": "Flatworms have no lungs, gills, or blood vessels, so their thin, flat bodies keep every cell close to the surface, where oxygen can arrive by this process. This process happens faster at higher temperatures and with smaller particles.",
+      "r": "For 10 points, name this process in which particles spread out from an area of high concentration, like a spray of perfume, to an area of low concentration."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Net movement of particles from an area of higher concentration to an area of lower concentration",
+      "k": [
+        "higher concentration",
+        "lower concentration",
+        "net movement"
+      ],
+      "n": 0
+    },
+    {
+      "id": "passive",
+      "tier": "giveaway",
+      "t": "A form of passive transport: it needs no energy (ATP) from the cell",
+      "k": [
+        "passive transport",
+        "no energy",
+        "atp"
+      ],
+      "n": 0
+    },
+    {
+      "id": "smells",
+      "tier": "giveaway",
+      "t": "Why a smell like perfume or baking cookies spreads through a room, and why food coloring spreads through water",
+      "k": [
+        "perfume",
+        "food coloring",
+        "smell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "random-motion",
+      "tier": "giveaway",
+      "t": "Driven by the constant random motion of particles; no stirring is needed",
+      "k": [
+        "random motion",
+        "stirring"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lungs",
+      "tier": "giveaway",
+      "t": "Oxygen moves from the lungs’ air sacs (alveoli) into the blood this way, and carbon dioxide moves out",
+      "k": [
+        "alveoli",
+        "air sacs",
+        "oxygen"
+      ],
+      "n": 0,
+      "rabbit": "Alveoli"
+    },
+    {
+      "id": "gradient",
+      "tier": "middle",
+      "t": "Particles move “down” their concentration gradient until they are evenly spread",
+      "k": [
+        "concentration gradient",
+        "evenly spread"
+      ],
+      "n": 0
+    },
+    {
+      "id": "equilibrium",
+      "tier": "middle",
+      "t": "At dynamic equilibrium, particles keep moving, but there is no more net movement",
+      "k": [
+        "dynamic equilibrium",
+        "equilibrium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "osmosis",
+      "tier": "middle",
+      "t": "Osmosis is this process for water crossing a selectively permeable membrane",
+      "k": [
+        "osmosis",
+        "selectively permeable"
+      ],
+      "n": 0,
+      "rabbit": "Cell membrane"
+    },
+    {
+      "id": "speed",
+      "tier": "middle",
+      "t": "Faster at higher temperatures, for smaller particles, and with a steeper gradient; much faster in gases than in liquids",
+      "k": [
+        "higher temperatures",
+        "smaller particles",
+        "gases"
+      ],
+      "n": 0
+    },
+    {
+      "id": "simple-facilitated",
+      "tier": "middle",
+      "t": "Simple form: small nonpolar molecules like oxygen slip through the lipid bilayer. “Facilitated” form: channel or carrier proteins (like GLUT1) help, still with no ATP",
+      "k": [
+        "facilitated",
+        "lipid bilayer",
+        "carrier proteins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stomata",
+      "tier": "middle",
+      "t": "Carbon dioxide enters a leaf through tiny pores called stomata this way",
+      "k": [
+        "stomata",
+        "leaf"
+      ],
+      "n": 0,
+      "rabbit": "Leaves"
+    },
+    {
+      "id": "synapse",
+      "tier": "middle",
+      "t": "Neurotransmitters cross the synaptic cleft between neurons this way",
+      "k": [
+        "synaptic cleft",
+        "neurotransmitters"
+      ],
+      "n": 0,
+      "rabbit": "Neurons"
+    },
+    {
+      "id": "cell-size",
+      "tier": "middle",
+      "t": "Works fast only over tiny distances, so cells stay small and keep a high ratio of surface area to volume",
+      "k": [
+        "surface area to volume",
+        "tiny distances"
+      ],
+      "n": 0
+    },
+    {
+      "id": "not-active",
+      "tier": "middle",
+      "t": "Unlike active transport, it never moves particles against their concentration gradient",
+      "k": [
+        "active transport",
+        "against"
+      ],
+      "n": 0,
+      "rabbit": "Active transport"
+    },
+    {
+      "id": "fick",
+      "tier": "power",
+      "t": "Adolf Fick’s laws (1855): its rate is proportional to the concentration gradient",
+      "k": [
+        "adolf fick",
+        "fick",
+        "1855"
+      ],
+      "n": 0
+    },
+    {
+      "id": "graham",
+      "tier": "power",
+      "t": "Thomas Graham’s law: lighter gases are faster; ammonia beats hydrogen chloride down a tube, so a white ammonium chloride ring forms nearer the HCl end",
+      "k": [
+        "thomas graham",
+        "graham",
+        "ammonium chloride"
+      ],
+      "n": 0
+    },
+    {
+      "id": "einstein-random-walk",
+      "tier": "power",
+      "t": "Albert Einstein’s 1905 Brownian motion paper tied it to random jiggling; a particle’s typical distance grows with the square root of time",
+      "k": [
+        "brownian motion",
+        "einstein",
+        "square root of time"
+      ],
+      "n": 0,
+      "rabbit": "Brownian motion"
+    },
+    {
+      "id": "robert-brown",
+      "tier": "power",
+      "t": "Robert Brown saw tiny particles from pollen grains jiggling in water in 1827",
+      "k": [
+        "robert brown",
+        "1827",
+        "pollen grains"
+      ],
+      "n": 0,
+      "rabbit": "Pollen"
+    },
+    {
+      "id": "stokes-einstein",
+      "tier": "power",
+      "t": "Stokes–Einstein equation: bigger particles in thicker fluids spread more slowly; its coefficient has units of square meters per second",
+      "k": [
+        "stokes",
+        "square meters per second"
+      ],
+      "n": 0
+    },
+    {
+      "id": "k-25",
+      "tier": "power",
+      "t": "The Manhattan Project’s K-25 plant at Oak Ridge separated uranium-235 by forcing uranium hexafluoride gas through porous barriers",
+      "k": [
+        "k-25",
+        "oak ridge",
+        "uranium hexafluoride"
+      ],
+      "n": 0,
+      "rabbit": "Manhattan Project"
+    },
+    {
+      "id": "countercurrent",
+      "tier": "power",
+      "t": "Fish gills use countercurrent exchange, with blood flowing opposite to the water, to keep oxygen moving into the blood",
+      "k": [
+        "countercurrent",
+        "gills"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dialysis",
+      "tier": "power",
+      "t": "Dialysis machines remove wastes like urea from the blood across a thin membrane this way",
+      "k": [
+        "dialysis",
+        "urea"
+      ],
+      "n": 0,
+      "rabbit": "Kidneys"
+    },
+    {
+      "id": "agar-cubes",
+      "tier": "power",
+      "t": "Agar cubes with a color indicator, soaked in a base, change color from the outside in, showing why cells stay small",
+      "k": [
+        "agar cubes",
+        "indicator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "p-n-junction",
+      "tier": "power",
+      "t": "At a p-n junction, electrons and holes spread across the boundary, leaving a depletion region",
+      "k": [
+        "p-n junction",
+        "depletion region"
+      ],
+      "n": 0,
+      "rabbit": "Semiconductors"
+    },
+    {
+      "id": "turing",
+      "tier": "power",
+      "t": "Alan Turing (1952) proposed that two chemicals reacting while spreading this way could make spots and stripes",
+      "k": [
+        "alan turing",
+        "turing",
+        "1952"
+      ],
+      "n": 0,
+      "rabbit": "Alan Turing"
+    },
+    {
+      "id": "brain-mri",
+      "tier": "power",
+      "t": "A kind of MRI scan maps nerve fiber bundles in the brain by tracking how water molecules spread along them",
+      "k": [
+        "mri",
+        "nerve fiber",
+        "water molecules"
+      ],
+      "n": 0
+    },
+    {
+      "id": "perfect-enzyme",
+      "tier": "power",
+      "t": "Triose phosphate isomerase is “catalytically perfect”: it works as fast as its substrate can arrive this way",
+      "k": [
+        "triose phosphate isomerase",
+        "catalytically perfect"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flatworms",
+      "tier": "power",
+      "t": "Flatworms have no lungs, gills, or blood vessels, so their flat bodies keep every cell close to the surface for oxygen",
+      "k": [
+        "flatworms",
+        "flat bodies"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not osmosis or active transport",
+    "body": "Osmosis is a special case: water crossing a selectively permeable membrane. A question about only water and a membrane may want “osmosis,” while one about any particles spreading out wants this broader process. Active transport is the opposite of both, since it pumps particles against their gradient and costs ATP. Chemistry questions on Graham’s law may also ask for effusion, a gas escaping through a tiny hole, which sounds very similar.",
+    "fix": "Particles spreading from high to low concentration with no energy means diffusion. Only water crossing a membrane means osmosis; ATP or pumping “uphill” means active transport; gas leaking through a pinhole means effusion.",
+    "line": "Real answer line: <b><u>Diffusion</u></b> (accept <u>simple</u> or <u>facilitated diffusion</u>; prompt on <u>passive transport</u>; do not accept “osmosis” or “active transport”)"
+  },
+  "tests": {
+    "right": [
+      "Diffusion",
+      "diffusion",
+      "Difusion",
+      "Facilitated diffusion",
+      "Simple diffusion"
+    ],
+    "prompt": [
+      "Passive transport"
+    ],
+    "wrong": [
+      "Osmosis",
+      "Active transport",
+      "Effusion",
+      "Brownian motion",
+      "Convection",
+      "Diffraction"
+    ]
+  }
+}

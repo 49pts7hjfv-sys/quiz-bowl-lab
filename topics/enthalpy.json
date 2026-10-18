@@ -1,0 +1,462 @@
+{
+  "id": "enthalpy",
+  "name": "Enthalpy",
+  "mono": "DH",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "A system’s heat content · Its change shows if a reaction gives off heat",
+  "dates": "Hess’s law published 1840",
+  "briefing": "Enthalpy, written H, is a system’s heat content. Chemists can’t measure a substance’s total enthalpy, so they measure its change, ΔH: the heat a reaction gives off or soaks up at constant pressure. A campfire has a negative ΔH because it releases heat (exothermic), while an instant cold pack has a positive ΔH because it absorbs heat (endothermic). In 1840, Germain Hess showed that the total change is the same no matter how many steps a reaction takes.",
+  "answerHtml": "<b><u>Enthalpy</u></b> (or <u>H</u>; accept change in <u>enthalpy</u> or delta <u>H</u>; prompt on <u>heat</u> or heat content)",
+  "accept": [
+    "enthalpy",
+    "enthalpies",
+    "h",
+    "delta h",
+    "dh",
+    "change in enthalpy",
+    "enthalpy change",
+    "standard enthalpy"
+  ],
+  "prompt": [
+    "heat",
+    "heat content",
+    "heat change",
+    "heat energy",
+    "heat of reaction",
+    "heat of formation",
+    "heat of combustion"
+  ],
+  "reject": [
+    "entropy",
+    "entropies",
+    "internal energy",
+    "gibbs free energy",
+    "gibbs energy",
+    "free energy",
+    "free enthalpy",
+    "helmholtz free energy",
+    "heat capacity",
+    "specific heat",
+    "specific heat capacity",
+    "lattice energy",
+    "activation energy",
+    "bond energy",
+    "thermal energy",
+    "kinetic energy",
+    "potential energy",
+    "temperature",
+    "exothermic",
+    "endothermic",
+    "calorimetry",
+    "hess",
+    "hesss law",
+    "hess law",
+    "work"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Enthalpy",
+  "qb": {
+    "q": "enthalpy",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Heike Kamerlingh Onnes [“KAH-mer-ling ON-us”], better known for discovering superconductivity, coined the name of this quantity. Chemists can measure only changes in this quantity, never its total amount, so data tables list its standard changes of formation instead.",
+      "r": "For 10 points, name this thermodynamic quantity, a system’s heat content, whose change is negative in exothermic reactions."
+    },
+    {
+      "p": "When a gas squeezes through a porous plug or a narrow valve in a Joule–Thomson expansion, this quantity stays the same, an effect used to cool gases until they turn into liquids. For an ideal gas, this quantity depends only on temperature.",
+      "r": "At constant pressure, its change equals the heat that flows in or out. For 10 points, name this quantity used to classify reactions as exothermic or endothermic."
+    },
+    {
+      "p": "Gustav Kirchhoff showed that a reaction’s change in this quantity shifts with temperature according to the difference between the heat capacities of its products and reactants. Heat capacity at constant pressure is defined as the rate at which this quantity changes with temperature.",
+      "r": "For 10 points, name this state function whose change is negative when a reaction gives off heat."
+    },
+    {
+      "p": "Steam engineers use Mollier diagrams, which plot this quantity against entropy. In the equation for Gibbs free energy, temperature times the change in entropy is subtracted from the change in this quantity.",
+      "r": "For 10 points, name this quantity, whose change is positive for endothermic reactions that absorb heat from their surroundings."
+    },
+    {
+      "p": "The Clausius–Clapeyron [“klah-pay-RAWN”] equation uses a liquid’s change in this quantity on vaporizing to predict how its vapor pressure rises with temperature. Trouton’s rule says that for many liquids, that change divided by the boiling point in kelvins is roughly the same number.",
+      "r": "For 10 points, name this thermodynamic quantity, a system’s heat content, whose changes of fusion and vaporization are absorbed when solids melt and liquids boil."
+    },
+    {
+      "p": "The van ’t Hoff [“vahnt HOFF”] equation shows that how much an equilibrium constant shifts with temperature depends on the standard change in this quantity. By Le Chatelier’s [“luh shah-tuh-LYAY”] principle, heating a reaction with a negative change in this quantity pushes its equilibrium back toward the reactants.",
+      "r": "For 10 points, name this quantity whose change, usually given in kilojoules per mole, is negative for exothermic reactions."
+    },
+    {
+      "p": "The Born–Haber cycle adds up steps such as turning solid sodium into a gas and splitting chlorine molecules into atoms to calculate the lattice energy of sodium chloride. That cycle relies on a law of constant heat summation about this quantity.",
+      "r": "Germain Hess published that law in 1840. For 10 points, name this quantity, a system’s heat content, whose total change does not depend on a reaction’s path."
+    },
+    {
+      "p": "A sealed bomb calorimeter measures a reaction’s change in internal energy, but a foam coffee-cup calorimeter, open to the air at constant pressure, measures the change in this quantity directly. Burning one mole of methane changes this quantity by about negative 890 kilojoules.",
+      "r": "For 10 points, name this quantity, whose change is negative in exothermic reactions such as combustion."
+    },
+    {
+      "p": "Chemists can estimate a reaction’s change in this quantity by adding up the energies of the bonds that break and subtracting the energies of the bonds that form. A reaction that forms stronger bonds than it breaks has a negative change in this quantity.",
+      "r": "For 10 points, name this thermodynamic quantity, the heat content of a system at constant pressure."
+    },
+    {
+      "p": "Elements in their standard states, such as oxygen gas and graphite, have a standard change of formation of zero for this quantity. A reaction’s change in this quantity can be found by subtracting the reactants’ standard values of formation from the products’ values.",
+      "r": "For 10 points, name this quantity, whose change equals the heat a reaction absorbs or releases at constant pressure."
+    },
+    {
+      "p": "On a heating curve, the flat sections show a substance absorbing the change in this quantity needed to melt or boil while its temperature stays the same. Instant cold packs feel cold because dissolving ammonium nitrate in water has a positive change in this quantity.",
+      "r": "For 10 points, name this quantity, whose change is positive for endothermic processes and negative for exothermic ones."
+    },
+    {
+      "p": "The Gibbs–Helmholtz equation relates the way Gibbs free energy changes with temperature to this quantity. A reaction that has a negative change in this quantity and a positive change in entropy is spontaneous at every temperature.",
+      "r": "For 10 points, name this quantity, whose change is negative for heat-releasing reactions like burning wood."
+    },
+    {
+      "p": "Germain Hess’s 1840 law says the change in this quantity for a reaction is the same whether the reaction happens in one step or many, because this quantity is a state function that depends only on the starting and ending states.",
+      "r": "Reactions that lower this quantity give off heat. For 10 points, name this quantity, a system’s total heat content."
+    },
+    {
+      "p": "Hand warmers heat up because the rusting of iron powder inside them has a large negative change in this quantity. On an energy diagram for an exothermic reaction, the products sit lower than the reactants because they have less of this quantity.",
+      "r": "For 10 points, name this quantity, whose change tells whether a reaction is exothermic or endothermic."
+    },
+    {
+      "p": "Adding the product of pressure and volume to internal energy gives this quantity, which chemists find useful because most lab reactions happen open to the air at constant pressure. Under those conditions, its change equals the heat, q, that flows into or out of a system.",
+      "r": "For 10 points, name this quantity whose change is negative for exothermic reactions, such as burning fuels."
+    }
+  ],
+  "clues": [
+    {
+      "id": "heat-content",
+      "tier": "giveaway",
+      "t": "A system’s heat content; its change equals the heat absorbed or released at constant pressure",
+      "k": [
+        "heat content",
+        "constant pressure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "exo-endo",
+      "tier": "giveaway",
+      "t": "Its change is negative for exothermic reactions (heat released) and positive for endothermic reactions (heat absorbed)",
+      "k": [
+        "exothermic",
+        "endothermic",
+        "negative",
+        "positive"
+      ],
+      "n": 0
+    },
+    {
+      "id": "units",
+      "tier": "giveaway",
+      "t": "Its change is written with a capital Greek delta (Δ) and usually measured in kilojoules per mole",
+      "k": [
+        "kilojoules per mole",
+        "delta"
+      ],
+      "n": 0
+    },
+    {
+      "id": "combustion",
+      "tier": "giveaway",
+      "t": "Combustion, such as burning wood or methane, has a large negative change because it gives off heat",
+      "k": [
+        "combustion",
+        "gives off heat",
+        "burning"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hess-law",
+      "tier": "middle",
+      "t": "Hess’s law: its total change is the same no matter how many steps a reaction takes",
+      "k": [
+        "hess",
+        "steps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "state-function",
+      "tier": "middle",
+      "t": "A state function: its change depends only on the starting and ending states, not on the path",
+      "k": [
+        "state function",
+        "path"
+      ],
+      "n": 0
+    },
+    {
+      "id": "definition",
+      "tier": "middle",
+      "t": "Defined as internal energy plus pressure times volume (U + PV)",
+      "k": [
+        "internal energy",
+        "pressure times volume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "formation-zero",
+      "tier": "middle",
+      "t": "Its standard change of formation is zero for elements in their standard states, like oxygen gas or graphite",
+      "k": [
+        "standard states",
+        "formation",
+        "zero"
+      ],
+      "n": 0
+    },
+    {
+      "id": "products-minus-reactants",
+      "tier": "middle",
+      "t": "A reaction’s change = formation values of the products minus formation values of the reactants",
+      "k": [
+        "products",
+        "reactants",
+        "formation values"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bond-energies",
+      "tier": "middle",
+      "t": "Estimated from bond energies: energy of bonds broken minus energy of bonds formed",
+      "k": [
+        "bond energies",
+        "bonds broken"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calorimeter",
+      "tier": "middle",
+      "t": "A coffee-cup calorimeter measures its change at constant pressure; a sealed bomb calorimeter measures internal energy instead",
+      "k": [
+        "coffee-cup",
+        "calorimeter",
+        "bomb calorimeter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gibbs",
+      "tier": "middle",
+      "t": "In the Gibbs free energy equation, temperature times the entropy change is subtracted from its change",
+      "k": [
+        "gibbs free energy",
+        "entropy"
+      ],
+      "n": 0,
+      "rabbit": "Gibbs free energy"
+    },
+    {
+      "id": "cold-packs",
+      "tier": "middle",
+      "t": "Dissolving ammonium nitrate in water has a positive change, which is why instant cold packs feel cold; hand warmers use rusting iron",
+      "k": [
+        "ammonium nitrate",
+        "cold packs",
+        "hand warmers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heating-curve",
+      "tier": "middle",
+      "t": "Its changes of fusion and vaporization are absorbed during melting and boiling, the flat parts of a heating curve",
+      "k": [
+        "fusion",
+        "vaporization",
+        "heating curve"
+      ],
+      "n": 0
+    },
+    {
+      "id": "methane",
+      "tier": "power",
+      "t": "Burning one mole of methane changes it by about −890 kilojoules",
+      "k": [
+        "methane",
+        "890"
+      ],
+      "n": 0,
+      "rabbit": "Methane"
+    },
+    {
+      "id": "kamerlingh-onnes",
+      "tier": "power",
+      "t": "Heike Kamerlingh Onnes, who discovered superconductivity, coined its name",
+      "k": [
+        "kamerlingh onnes",
+        "onnes",
+        "coined"
+      ],
+      "n": 0,
+      "rabbit": "Superconductivity"
+    },
+    {
+      "id": "joule-thomson",
+      "tier": "power",
+      "t": "Stays constant in a Joule–Thomson expansion through a porous plug or valve, which is used to cool and liquefy gases",
+      "k": [
+        "joule–thomson",
+        "porous plug",
+        "liquefy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ideal-gas",
+      "tier": "power",
+      "t": "For an ideal gas, it depends only on temperature",
+      "k": [
+        "ideal gas",
+        "temperature"
+      ],
+      "n": 0,
+      "rabbit": "Ideal gas law"
+    },
+    {
+      "id": "heat-capacity",
+      "tier": "power",
+      "t": "Heat capacity at constant pressure is the rate at which it changes with temperature",
+      "k": [
+        "heat capacity",
+        "rate"
+      ],
+      "n": 0,
+      "rabbit": "Heat capacity"
+    },
+    {
+      "id": "kirchhoff",
+      "tier": "power",
+      "t": "Kirchhoff’s law of thermochemistry: a reaction’s change shifts with temperature by the difference in heat capacities",
+      "k": [
+        "kirchhoff",
+        "heat capacities"
+      ],
+      "n": 0,
+      "rabbit": "Gustav Kirchhoff"
+    },
+    {
+      "id": "mollier",
+      "tier": "power",
+      "t": "Mollier diagrams, used by steam engineers, plot it against entropy",
+      "k": [
+        "mollier",
+        "steam"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clausius-clapeyron",
+      "tier": "power",
+      "t": "The Clausius–Clapeyron equation uses its change of vaporization to relate vapor pressure and temperature",
+      "k": [
+        "clausius–clapeyron",
+        "vapor pressure"
+      ],
+      "n": 0,
+      "rabbit": "Vapor pressure"
+    },
+    {
+      "id": "trouton",
+      "tier": "power",
+      "t": "Trouton’s rule: its change of vaporization divided by the boiling point is roughly the same for many liquids",
+      "k": [
+        "trouton",
+        "boiling point"
+      ],
+      "n": 0
+    },
+    {
+      "id": "van-t-hoff",
+      "tier": "power",
+      "t": "The van ’t Hoff equation: how an equilibrium constant shifts with temperature depends on its standard change",
+      "k": [
+        "equilibrium constant",
+        "van ’t hoff"
+      ],
+      "n": 0,
+      "rabbit": "Chemical equilibrium"
+    },
+    {
+      "id": "le-chatelier",
+      "tier": "power",
+      "t": "Le Chatelier’s principle: heating a reaction with a negative change pushes its equilibrium back toward the reactants",
+      "k": [
+        "le chatelier",
+        "equilibrium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "born-haber",
+      "tier": "power",
+      "t": "The Born–Haber cycle uses Hess’s law to find the lattice energy of ionic solids like sodium chloride",
+      "k": [
+        "born–haber",
+        "lattice energy",
+        "sodium chloride"
+      ],
+      "n": 0,
+      "rabbit": "Lattice energy"
+    },
+    {
+      "id": "gibbs-helmholtz",
+      "tier": "power",
+      "t": "The Gibbs–Helmholtz equation links how Gibbs free energy changes with temperature to it",
+      "k": [
+        "gibbs–helmholtz",
+        "helmholtz"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spontaneous",
+      "tier": "power",
+      "t": "A negative change plus a positive entropy change makes a reaction spontaneous at every temperature",
+      "k": [
+        "spontaneous",
+        "every temperature"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not entropy, not “heat”",
+    "body": "This quantity and entropy sound alike and sit side by side in the Gibbs free energy equation, so players swap them. Entropy (S) measures how spread out energy is, often called disorder, while this quantity (H) measures heat content. Saying just “heat” only earns a prompt, and an early buzz on a Gibbs clue might want Gibbs free energy itself.",
+    "fix": "Exothermic, endothermic, Hess’s law, calorimeters, heats of formation, and bond energies mean this quantity. Disorder, the second law of thermodynamics, and the Boltzmann constant mean entropy. If the question asks for the quantity that tells whether a reaction is spontaneous, that is Gibbs free energy.",
+    "line": "Real answer line: <b><u>Enthalpy</u></b> (or <u>H</u>; accept change in <u>enthalpy</u> or delta <u>H</u>; prompt on <u>heat</u> or heat content)"
+  },
+  "tests": {
+    "right": [
+      "Enthalpy",
+      "enthalpie",
+      "Delta H",
+      "H",
+      "enthalpy change",
+      "Standard enthalpy of formation"
+    ],
+    "prompt": [
+      "Heat",
+      "heat content"
+    ],
+    "wrong": [
+      "Entropy",
+      "Internal energy",
+      "Gibbs free energy",
+      "Heat capacity",
+      "Exothermic",
+      "Specific heat",
+      "Hess's law"
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "electrical-resistance",
+    "name": "Electrical resistance",
+    "mono": "OHM",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "How strongly something opposes electric current · Measured in ohms",
+    "dates": "Ohm’s law published 1827",
+    "briefing": "Electrical resistance is how strongly something fights the flow of electric current, a bit like a narrow pipe slowing down water. In 1827, Georg Ohm showed that the voltage across a wire equals the current times its resistance, and the unit of resistance, the ohm, is named for him. Resistance turns electrical energy into heat, which is why a toaster’s coils glow red, while superconductors cooled to very low temperatures have no resistance at all.",
+    "answerHtml": "<b><u>resistance</u></b> (accept <u>electrical resistance</u> or <u>resistor</u>s; prompt on <u>impedance</u>; do not accept “resistivity” or “conductance”)",
+    "accept": [
+        "resistance",
+        "resistances",
+        "electrical resistance",
+        "electric resistance",
+        "ohmic resistance",
+        "electrical resistance and conductance",
+        "resistor",
+        "resistors"
+    ],
+    "prompt": [
+        "impedance",
+        "electrical impedance"
+    ],
+    "reject": [
+        "resistivity",
+        "electrical resistivity",
+        "conductance",
+        "conductivity",
+        "reactance",
+        "air resistance",
+        "french resistance",
+        "ohm",
+        "ohms law",
+        "georg ohm",
+        "capacitance",
+        "inductance",
+        "superconductivity",
+        "transistor",
+        "transistors"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance",
+    "qb": {
+        "q": "resistance",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In the quantum Hall effect, a version of this quantity comes only in exact fractions of Planck’s constant divided by the electron’s charge squared, a value named for Klaus von Klitzing. In ordinary metals, this quantity increases as the temperature rises.",
+            "r": "Georg Ohm found that voltage equals current times this quantity. For 10 points, name this property, measured in ohms, that opposes the flow of electric current."
+        },
+        {
+            "p": "In 1911, Heike Kamerlingh Onnes [“KAH-mer-ling ON-us”] found that this quantity suddenly dropped to zero in mercury cooled with liquid helium, the first sign of superconductivity. Long, thin wires have more of this quantity than short, thick wires made of the same metal.",
+            "r": "Ohm’s law says that voltage equals current times this quantity. For 10 points, name this property, measured in ohms."
+        },
+        {
+            "p": "Matthiessen’s rule says that the parts of this quantity caused by impurities and by vibrating atoms in a metal simply add together. The Drude [“DROO-duh”] model explains this quantity as electrons bumping into the metal’s ions as they drift along.",
+            "r": "This quantity equals voltage divided by current. For 10 points, name this property, symbolized R and measured in ohms."
+        },
+        {
+            "p": "Samuel Hunter Christie invented a diamond-shaped circuit, later made famous by Charles Wheatstone, that finds an unknown amount of this quantity by balancing it against known amounts until a meter in the middle reads zero. In a series circuit, the total amount of this quantity is the sum of each part’s amount.",
+            "r": "It is measured with an ohmmeter. For 10 points, name this quantity measured in ohms, which equals voltage divided by current."
+        },
+        {
+            "p": "Samuel Langley’s bolometer detects faint heat radiation by measuring tiny changes in this quantity in a blackened metal strip. The reciprocal of this quantity is called conductance and is measured in siemens [“SEE-menz”], a unit once called the “mho.”",
+            "r": "That word is this quantity’s unit spelled backward. For 10 points, name this quantity measured in ohms, which equals voltage divided by current."
+        },
+        {
+            "p": "James Prescott Joule found that the heat given off by a wire each second equals the square of the current times this quantity. The glowing coils in a toaster and the filament of an old-fashioned light bulb heat up because of this quantity.",
+            "r": "Ohm’s law relates it to voltage and current. For 10 points, name this quantity, measured in ohms, that opposes the flow of electricity."
+        },
+        {
+            "p": "A small circuit part marked with brown, black, and red stripes has 1,000 units of this quantity, according to a color code. Joining two equal amounts of this quantity side by side, in parallel, cuts the total amount in half.",
+            "r": "Georg Ohm showed that this quantity equals voltage divided by current. For 10 points, name this property measured in ohms."
+        },
+        {
+            "p": "Thermistors work as thermometers because this quantity in them changes sharply with temperature, and light sensors called photocells lose much of this quantity in bright light. Unlike metals, semiconductors usually have less of this quantity when they are heated.",
+            "r": "It is measured in ohms. For 10 points, name this quantity that equals voltage divided by current, according to Ohm’s law."
+        },
+        {
+            "p": "A strain gauge measures how much an object stretches by tracking changes in this quantity, which rises when a wire is pulled longer and thinner. For a wire, this quantity equals a material property called rho times the wire’s length, divided by its cross-sectional area.",
+            "r": "Superconductors have none of it. For 10 points, name this quantity measured in ohms, which opposes electric current."
+        },
+        {
+            "p": "Heating coils in toasters and hair dryers are usually made of nichrome, an alloy of nickel and chromium, because it has a high value of this quantity for its size and holds up well when red-hot. Georg Ohm’s 1827 book _The Galvanic Circuit Investigated Mathematically_ introduced a law relating current, voltage, and this quantity.",
+            "r": "The unit of this quantity is symbolized by the Greek letter omega. For 10 points, name this quantity measured in ohms."
+        },
+        {
+            "p": "When several parts are joined in parallel, the reciprocal of their combined amount of this quantity equals the sum of the reciprocals of each part’s amount. Gustav Kirchhoff’s circuit laws help find this quantity for complicated networks.",
+            "r": "Thin wires have more of it than thick ones. For 10 points, name this quantity, measured with an ohmmeter, that equals voltage divided by current."
+        },
+        {
+            "p": "Because a battery has some of this quantity inside it, the voltage at its terminals drops when it delivers a large current. Power companies send electricity at very high voltages so that less current flows, cutting the energy this quantity wastes as heat in long wires.",
+            "r": "Copper wires have very little of it. For 10 points, name this quantity, measured in ohms, that opposes electric current."
+        },
+        {
+            "p": "Tunnel diodes show a “negative differential” form of this quantity, in which the current drops as the voltage rises over a certain range. Parts whose current is not proportional to voltage, such as ordinary diodes, are called “non-ohmic.”",
+            "r": "For 10 points, name this quantity, which equals voltage divided by current and is measured in ohms."
+        },
+        {
+            "p": "Adjustable sources of this quantity called rheostats [“REE-oh-stats”] and potentiometers can dim lights or change the speed of a motor. In the water-pipe comparison for circuits, a narrow section of pipe stands for this quantity, while water pressure stands for voltage.",
+            "r": "Superconductors have none of it. For 10 points, name this quantity, measured in ohms, that opposes the flow of electric current."
+        },
+        {
+            "p": "Polygraph machines, often called lie detectors, record how this quantity in a person’s skin drops when the person sweats. Below a certain critical temperature, superconductors have none of this quantity at all.",
+            "r": "An ohmmeter measures it, and Ohm’s law says voltage equals current times it. For 10 points, name this property measured in ohms."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "How strongly a material or circuit part opposes the flow of electric current",
+            "k": ["opposes", "flow", "current"],
+            "n": 0
+        },
+        {
+            "id": "ohms",
+            "tier": "giveaway",
+            "t": "Measured in ohms, symbolized by the Greek capital letter omega (Ω)",
+            "k": ["ohms", "omega"],
+            "n": 0
+        },
+        {
+            "id": "ohms-law",
+            "tier": "giveaway",
+            "t": "Ohm’s law: voltage equals current times this quantity (V = IR)",
+            "k": ["ohm’s law", "voltage", "v = ir"],
+            "n": 0,
+            "rabbit": "Voltage"
+        },
+        {
+            "id": "heat",
+            "tier": "giveaway",
+            "t": "Turns electrical energy into heat, making toaster coils and old light-bulb filaments glow",
+            "k": ["heat", "toaster", "filaments"],
+            "n": 0
+        },
+        {
+            "id": "superconductors",
+            "tier": "giveaway",
+            "t": "Superconductors have none of it below a critical temperature",
+            "k": ["superconductors", "critical temperature"],
+            "n": 0,
+            "rabbit": "Superconductivity"
+        },
+        {
+            "id": "series",
+            "tier": "middle",
+            "t": "In a series circuit, the amounts simply add: total = R1 + R2 + …",
+            "k": ["series", "add"],
+            "n": 0
+        },
+        {
+            "id": "parallel",
+            "tier": "middle",
+            "t": "In parallel, 1/total = 1/R1 + 1/R2, so two equal parts side by side give half the amount",
+            "k": ["parallel", "half"],
+            "n": 0
+        },
+        {
+            "id": "length-area",
+            "tier": "middle",
+            "t": "Grows with a wire’s length and shrinks with its thickness: R = resistivity (rho) × length ÷ area",
+            "k": ["length", "resistivity", "area"],
+            "n": 0
+        },
+        {
+            "id": "temperature",
+            "tier": "middle",
+            "t": "Rises with temperature in metals but usually falls when semiconductors are heated",
+            "k": ["metals", "semiconductors", "temperature"],
+            "n": 0,
+            "rabbit": "Semiconductors"
+        },
+        {
+            "id": "conductance",
+            "tier": "middle",
+            "t": "Its reciprocal is conductance, measured in siemens (once called the “mho,” which is “ohm” spelled backward)",
+            "k": ["conductance", "siemens", "mho"],
+            "n": 0
+        },
+        {
+            "id": "color-code",
+            "tier": "middle",
+            "t": "Small circuit parts that supply it are marked with colored bands; brown-black-red means 1,000 ohms",
+            "k": ["colored bands", "brown-black-red"],
+            "n": 0
+        },
+        {
+            "id": "joule",
+            "tier": "middle",
+            "t": "Heat given off each second = current squared × this quantity (Joule’s law), so power lines use high voltage and low current",
+            "k": ["joule", "current squared", "power lines"],
+            "n": 0
+        },
+        {
+            "id": "ohmmeter",
+            "tier": "middle",
+            "t": "Symbolized R; measured with an ohmmeter or a multimeter",
+            "k": ["ohmmeter", "multimeter"],
+            "n": 0
+        },
+        {
+            "id": "silver-copper",
+            "tier": "middle",
+            "t": "A silver wire has less of it than a same-sized wire of any other metal; copper is close behind and is the usual wire metal",
+            "k": ["silver", "copper"],
+            "n": 0
+        },
+        {
+            "id": "kamerlingh-onnes",
+            "tier": "power",
+            "t": "1911: Heike Kamerlingh Onnes saw it vanish in mercury cooled by liquid helium",
+            "k": ["kamerlingh onnes", "mercury", "1911"],
+            "n": 0
+        },
+        {
+            "id": "von-klitzing",
+            "tier": "power",
+            "t": "In the quantum Hall effect it comes only in exact fractions of h/e², the von Klitzing constant",
+            "k": ["von klitzing", "quantum hall"],
+            "n": 0,
+            "rabbit": "Hall effect"
+        },
+        {
+            "id": "wheatstone",
+            "tier": "power",
+            "t": "A Wheatstone bridge (invented by Samuel Hunter Christie) finds an unknown value by balancing until a meter reads zero",
+            "k": ["wheatstone bridge", "christie"],
+            "n": 0
+        },
+        {
+            "id": "ohm-1827",
+            "tier": "power",
+            "t": "Georg Ohm published his law in _The Galvanic Circuit Investigated Mathematically_ (1827)",
+            "k": ["georg ohm", "galvanic circuit", "1827"],
+            "n": 0
+        },
+        {
+            "id": "matthiessen",
+            "tier": "power",
+            "t": "Matthiessen’s rule: the parts caused by impurities and by vibrating atoms simply add together",
+            "k": ["matthiessen", "impurities"],
+            "n": 0
+        },
+        {
+            "id": "drude",
+            "tier": "power",
+            "t": "The Drude model explains it as drifting electrons bumping into a metal’s ions",
+            "k": ["drude", "ions"],
+            "n": 0
+        },
+        {
+            "id": "thermistors",
+            "tier": "power",
+            "t": "Thermistors change it sharply with temperature; light sensors called photocells lose much of it in bright light",
+            "k": ["thermistors", "photocells"],
+            "n": 0
+        },
+        {
+            "id": "strain-gauge",
+            "tier": "power",
+            "t": "Strain gauges measure stretching from changes in it as a wire gets longer and thinner",
+            "k": ["strain gauges", "stretching"],
+            "n": 0
+        },
+        {
+            "id": "internal",
+            "tier": "power",
+            "t": "A battery’s “internal” amount makes its terminal voltage drop when it delivers a large current",
+            "k": ["internal", "terminal voltage", "battery"],
+            "n": 0
+        },
+        {
+            "id": "tunnel-diode",
+            "tier": "power",
+            "t": "Tunnel diodes show “negative differential” behavior: current falls as voltage rises over a certain range",
+            "k": ["tunnel diodes", "negative differential"],
+            "n": 0,
+            "rabbit": "Diodes"
+        },
+        {
+            "id": "rheostats",
+            "tier": "power",
+            "t": "Adjustable versions called rheostats and potentiometers can dim lights or change a motor’s speed",
+            "k": ["rheostats", "potentiometers"],
+            "n": 0
+        },
+        {
+            "id": "bolometer",
+            "tier": "power",
+            "t": "Samuel Langley’s bolometer detects faint heat radiation from tiny changes in it in a blackened metal strip",
+            "k": ["bolometer", "langley"],
+            "n": 0
+        },
+        {
+            "id": "nichrome",
+            "tier": "power",
+            "t": "Heating coils are made of nichrome, an alloy of nickel and chromium with a high value of it for its size",
+            "k": ["nichrome", "nickel", "chromium"],
+            "n": 0
+        },
+        {
+            "id": "polygraph",
+            "tier": "power",
+            "t": "Polygraphs (lie detectors) record how the skin’s amount drops when a person sweats",
+            "k": ["polygraphs", "lie detectors", "sweats"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Resistance or resistivity?",
+        "body": "Resistance belongs to one particular object, like a single wire or circuit part, while resistivity is a property of the material itself, no matter its size or shape. A long, thin copper wire has more resistance than a short, thick one, but both have the same resistivity. Conductance is the flip side: it is the reciprocal of resistance and is measured in siemens.",
+        "fix": "Ohms, Ohm’s law, V = IR, or “series and parallel” clues mean resistance. Units of ohm-meters, or “a property of the material,” point to resistivity; siemens or “reciprocal” points to conductance.",
+        "line": "Real answer line: <b><u>resistance</u></b> (accept <u>electrical resistance</u>; do not accept “resistivity” or “conductance”)"
+    },
+    "tests": {
+        "right": [
+            "Resistance",
+            "electrical resistance",
+            "Resistor",
+            "resistence",
+            "Electrical resistance and conductance"
+        ],
+        "prompt": [
+            "Impedance"
+        ],
+        "wrong": [
+            "Resistivity",
+            "Conductance",
+            "Air resistance",
+            "Ohm's law",
+            "Voltage",
+            "Transistor"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

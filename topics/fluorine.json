@@ -1,0 +1,440 @@
+{
+  "id": "fluorine",
+  "name": "Fluorine",
+  "mono": "F",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 9 · The most reactive and most electronegative element",
+  "dates": "Isolated 1886",
+  "briefing": "Fluorine is the wildest element on the periodic table: this pale yellow gas reacts with almost everything, and it pulls on electrons harder than any other atom. It was so dangerous to isolate that chemists tried for decades before Henri Moissan finally succeeded in 1886. Tamed in compounds, it is everywhere: fluoride in toothpaste fights cavities, and nonstick Teflon pans are coated with a plastic made of carbon and fluorine.",
+  "answerHtml": "<b><u>Fluorine</u></b> (accept <u>F</u>; do not accept “fluoride”)",
+  "accept": [
+    "fluorine",
+    "f",
+    "f2"
+  ],
+  "prompt": [],
+  "reject": [
+    "fluoride",
+    "fluorides",
+    "fluorite",
+    "fluorspar",
+    "fluorescence",
+    "fluorene",
+    "fluorocarbon",
+    "fluorocarbons",
+    "hydrogen fluoride",
+    "hydrofluoric acid",
+    "sodium fluoride",
+    "teflon",
+    "chlorofluorocarbons",
+    "cfc",
+    "cfcs",
+    "chlorine",
+    "bromine",
+    "iodine",
+    "astatine",
+    "neon",
+    "oxygen",
+    "nitrogen",
+    "helium",
+    "halogen",
+    "halogens"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Fluorine",
+  "qb": {
+    "q": "fluorine",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Several chemists were poisoned or injured in failed attempts to isolate this element before Henri Moissan [“mwah-SAHN”] finally succeeded in 1886, using electrolysis in a chilled platinum apparatus. Moissan won the 1906 Nobel Prize in Chemistry for that work.",
+      "r": "For 10 points, name this pale yellow gas, the lightest halogen and the most electronegative element."
+    },
+    {
+      "p": "In an 1812 letter to Humphry Davy, André-Marie Ampère [“ahm-PAIR”] suggested a name for this element, decades before anyone managed to isolate it. A mineral made of calcium and this element defines a hardness of 4 on the Mohs scale.",
+      "r": "For 10 points, name this element with atomic number 9, whose ion, fluoride, is added to toothpaste."
+    },
+    {
+      "p": "While working on refrigerant gases at DuPont in 1938, Roy Plunkett accidentally discovered a slippery plastic made of carbon and this element. Carbon bonds to this element so strongly that compounds called PFAS, which contain many such bonds, are nicknamed “forever chemicals.”",
+      "r": "That plastic, Teflon, coats nonstick pans. For 10 points, name this most electronegative element, the lightest halogen."
+    },
+    {
+      "p": "This element has an oxidation number of −1 in all of its compounds, and in its compounds with oxygen, it even forces oxygen into a positive oxidation state. Atoms of this element are the smallest of all the halogens.",
+      "r": "For 10 points, name this element with atomic number 9, the most reactive halogen."
+    },
+    {
+      "p": "During the Manhattan Project, uranium was enriched by turning it into a gas of uranium and this element, a method that works because this element has only one natural isotope. A radioactive isotope of this element with mass number 18 is used in medical PET scans.",
+      "r": "For 10 points, name this lightest halogen, whose ion is added to toothpaste to fight cavities."
+    },
+    {
+      "p": "Xenon can bond to two, four, or six atoms of this element, and krypton also forms a compound with it. Neil Bartlett’s 1962 discovery that noble gases can form compounds used a compound of platinum and this element.",
+      "r": "For 10 points, name this pale yellow gas with atomic number 9, the most electronegative element."
+    },
+    {
+      "p": "Surprisingly, the bond holding two atoms of this element together is weaker than the bond in a chlorine molecule, because this element’s tiny atoms crowd their lone pairs close enough to repel. Chlorine also beats this element in electron affinity.",
+      "r": "Even so, this element tops Linus Pauling’s electronegativity scale. For 10 points, name this lightest halogen, element number 9."
+    },
+    {
+      "p": "In 1945, Grand Rapids, Michigan, became the first city to add a compound of this element to its drinking water to prevent tooth decay. Dentists sometimes paint a varnish containing this element onto children’s teeth for the same reason.",
+      "r": "For 10 points, name this element whose −1 ion, fluoride, is found in most toothpastes."
+    },
+    {
+      "p": "Even though this element is extremely reactive, its compound with hydrogen forms only a weak acid in water. That acid can etch glass, so it must be stored in plastic bottles, and it is used to etch frosted designs onto glassware.",
+      "r": "For 10 points, name this element with atomic number 9, the lightest member of the halogens."
+    },
+    {
+      "p": "Aluminum is made by dissolving its oxide in molten cryolite, a mineral of sodium, aluminum, and this element that was once mined in Greenland. A heavy, nonflammable gas made of sulfur and this element insulates high-voltage electrical equipment.",
+      "r": "For 10 points, name this pale yellow halogen with atomic number 9, the most electronegative element."
+    },
+    {
+      "p": "Thomas Midgley Jr. helped develop refrigerant gases containing carbon, chlorine, and this element, which were later found to damage the ozone layer. The 1987 Montreal Protocol phased out those gases, called CFCs.",
+      "r": "For 10 points, name this element with atomic number 9, which sits just above chlorine in group 17."
+    },
+    {
+      "p": "Hydrogen gas explodes on contact with this element even in the dark and at very low temperatures, unlike a mixture of hydrogen and chlorine, which needs light to set it off. This element forms compounds with nearly every other element.",
+      "r": "For 10 points, name this most reactive element, a pale yellow halogen with atomic number 9."
+    },
+    {
+      "p": "This element’s ion can take the place of hydroxide ions in hydroxyapatite, the mineral that makes up tooth enamel. That swap makes enamel harder for the acids made by mouth bacteria to dissolve, which helps prevent cavities.",
+      "r": "For 10 points, name this element, whose −1 ion, fluoride, is added to most toothpastes."
+    },
+    {
+      "p": "This element holds its electrons so tightly that it has the highest first ionization energy of any halogen. Its atoms have the electron configuration 1s² 2s² 2p⁵, one electron short of the next element, neon.",
+      "r": "For 10 points, name this element with atomic number 9, which forms diatomic molecules of a pale yellow gas."
+    },
+    {
+      "p": "This element’s name comes from the Latin word for “flow,” because a mineral containing it was added to metal ores to help them melt and flow. That mineral, a compound of calcium and this element, comes in many colors, including purple and green.",
+      "r": "The word “fluorescence” also comes from that mineral’s name. For 10 points, name this element with atomic number 9."
+    }
+  ],
+  "clues": [
+    {
+      "id": "element-9",
+      "tier": "giveaway",
+      "t": "Element with atomic number 9, the lightest halogen, at the top of group 17",
+      "k": [
+        "atomic number 9",
+        "lightest halogen",
+        "group 17"
+      ],
+      "n": 0,
+      "rabbit": "Halogens"
+    },
+    {
+      "id": "most-electronegative",
+      "tier": "giveaway",
+      "t": "The most electronegative element, with a value of nearly 4 on Pauling’s scale",
+      "k": [
+        "electronegative",
+        "pauling",
+        "nearly 4"
+      ],
+      "n": 0,
+      "rabbit": "Electronegativity"
+    },
+    {
+      "id": "most-reactive",
+      "tier": "giveaway",
+      "t": "The most reactive element; it forms compounds with nearly every other element",
+      "k": [
+        "most reactive",
+        "compounds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "toothpaste",
+      "tier": "giveaway",
+      "t": "Its −1 ion, fluoride, is added to toothpaste and drinking water to prevent cavities",
+      "k": [
+        "fluoride",
+        "toothpaste",
+        "cavities"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pale-yellow",
+      "tier": "giveaway",
+      "t": "A pale yellow gas made of diatomic molecules",
+      "k": [
+        "pale yellow",
+        "diatomic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "teflon",
+      "tier": "middle",
+      "t": "Teflon, the nonstick coating on pans, is a plastic made of carbon and this element",
+      "k": [
+        "teflon",
+        "nonstick"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hf-glass",
+      "tier": "middle",
+      "t": "Its compound with hydrogen dissolves in water to make a weak acid that etches glass",
+      "k": [
+        "etches glass",
+        "weak acid",
+        "hydrogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fluorite",
+      "tier": "middle",
+      "t": "Named for the mineral fluorite, from the Latin for “flow”; fluorite, made of calcium and this element, is 4 on the Mohs scale",
+      "k": [
+        "fluorite",
+        "flow",
+        "mohs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cfcs",
+      "tier": "middle",
+      "t": "CFCs, refrigerant gases that harmed the ozone layer, contain carbon, chlorine, and this element",
+      "k": [
+        "cfcs",
+        "ozone layer",
+        "refrigerant"
+      ],
+      "n": 0,
+      "rabbit": "Ozone layer"
+    },
+    {
+      "id": "minus-one",
+      "tier": "middle",
+      "t": "Has an oxidation number of −1 in all of its compounds",
+      "k": [
+        "oxidation number",
+        "all of its compounds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seven-valence",
+      "tier": "middle",
+      "t": "Seven valence electrons (1s² 2s² 2p⁵), one short of neon; the smallest halogen atom",
+      "k": [
+        "seven valence",
+        "neon",
+        "smallest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "moissan",
+      "tier": "middle",
+      "t": "Henri Moissan isolated it in 1886 by electrolysis, after earlier attempts injured several chemists; he won the 1906 Nobel Prize",
+      "k": [
+        "moissan",
+        "1886",
+        "electrolysis"
+      ],
+      "n": 0,
+      "rabbit": "Electrolysis"
+    },
+    {
+      "id": "grand-rapids",
+      "tier": "middle",
+      "t": "In 1945, Grand Rapids, Michigan, became the first city to add its ion to drinking water",
+      "k": [
+        "grand rapids",
+        "1945",
+        "drinking water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ampere",
+      "tier": "power",
+      "t": "André-Marie Ampère suggested its name in an 1812 letter to Humphry Davy",
+      "k": [
+        "ampere",
+        "ampère",
+        "humphry davy",
+        "1812"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plunkett",
+      "tier": "power",
+      "t": "Roy Plunkett discovered Teflon by accident at DuPont in 1938",
+      "k": [
+        "plunkett",
+        "dupont",
+        "1938"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pfas",
+      "tier": "power",
+      "t": "Carbon bonds to it so strongly that PFAS, full of such bonds, are nicknamed “forever chemicals”",
+      "k": [
+        "pfas",
+        "forever chemicals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oxygen-positive",
+      "tier": "power",
+      "t": "In its compounds with oxygen, it forces oxygen into a positive oxidation state",
+      "k": [
+        "positive oxidation",
+        "oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "one-isotope",
+      "tier": "power",
+      "t": "Has only one stable isotope, mass number 19, which made it useful for enriching uranium in the Manhattan Project",
+      "k": [
+        "one stable isotope",
+        "manhattan project",
+        "uranium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pet-scans",
+      "tier": "power",
+      "t": "Its radioactive isotope with mass number 18 is used in medical PET scans",
+      "k": [
+        "pet scans",
+        "18"
+      ],
+      "n": 0
+    },
+    {
+      "id": "xenon",
+      "tier": "power",
+      "t": "Xenon bonds to two, four, or six of its atoms; Neil Bartlett’s 1962 noble gas compound used a platinum compound of it",
+      "k": [
+        "xenon",
+        "bartlett",
+        "1962"
+      ],
+      "n": 0,
+      "rabbit": "Noble gases"
+    },
+    {
+      "id": "weak-bond",
+      "tier": "power",
+      "t": "The bond between two of its atoms is weaker than the bond in a chlorine molecule, and chlorine has a higher electron affinity",
+      "k": [
+        "electron affinity",
+        "chlorine molecule",
+        "weaker"
+      ],
+      "n": 0,
+      "rabbit": "Chlorine"
+    },
+    {
+      "id": "hydrogen-explodes",
+      "tier": "power",
+      "t": "Hydrogen explodes with it even in the dark and at very low temperatures",
+      "k": [
+        "explodes",
+        "in the dark"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cryolite",
+      "tier": "power",
+      "t": "Cryolite, a mineral of sodium, aluminum, and this element once mined in Greenland, is used to make aluminum",
+      "k": [
+        "cryolite",
+        "greenland",
+        "aluminum"
+      ],
+      "n": 0,
+      "rabbit": "Aluminum"
+    },
+    {
+      "id": "sulfur-gas",
+      "tier": "power",
+      "t": "A heavy, nonflammable compound of sulfur and this element insulates high-voltage electrical equipment",
+      "k": [
+        "sulfur",
+        "high-voltage",
+        "insulates"
+      ],
+      "n": 0
+    },
+    {
+      "id": "enamel",
+      "tier": "power",
+      "t": "Its ion replaces hydroxide in hydroxyapatite, making tooth enamel harder to dissolve",
+      "k": [
+        "hydroxyapatite",
+        "enamel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stokes",
+      "tier": "power",
+      "t": "George Stokes named “fluorescence” after fluorite, a mineral that can glow under ultraviolet light",
+      "k": [
+        "stokes",
+        "fluorescence",
+        "ultraviolet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ionization",
+      "tier": "power",
+      "t": "Has the highest first ionization energy of any halogen",
+      "k": [
+        "ionization energy",
+        "first ionization"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Element, not fluoride",
+    "body": "Many clues are really about fluoride, this element’s −1 ion, in toothpaste and tap water, so players blurt “fluoride” or the mineral “fluorite.” Those are different answers: the tossup wants the element itself. Chlorine is the other trap, since the two halogens share clues about reactivity, CFCs, and diatomic gases.",
+    "fix": "If it asks for “this element,” name the element, not its ion or its mineral. Atomic number 9, pale yellow, most electronegative, Moissan, and Teflon point here; chlorine is element 17, a yellow-green gas used to disinfect swimming pools.",
+    "line": "Real answer line: <b><u>Fluorine</u></b> (accept <u>F</u>; do not accept “fluoride”)"
+  },
+  "tests": {
+    "right": [
+      "Fluorine",
+      "F",
+      "Flourine",
+      "fluorine gas",
+      "F2"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Fluoride",
+      "Chlorine",
+      "Fluorite",
+      "Neon",
+      "Teflon",
+      "Halogens",
+      "Oxygen"
+    ]
+  }
+}

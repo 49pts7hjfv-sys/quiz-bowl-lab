@@ -1,0 +1,328 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "superconductivity",
+    "name": "Superconductivity",
+    "mono": "SC",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Zero electrical resistance in the deep cold · Makes magnets float",
+    "dates": "Discovered by Heike Kamerlingh Onnes in 1911",
+    "briefing": "Cool certain materials far enough and something amazing happens: electric current flows through them with zero resistance, and magnets can float above them. Heike Kamerlingh Onnes discovered superconductivity in 1911 by chilling mercury with liquid helium. Superconducting magnets run hospital MRI machines, and in 1987 scientists found a ceramic that works in inexpensive liquid nitrogen.",
+    "answerHtml": "<b><u>Superconductivity</u></b> (accept word forms such as <u>superconductor</u>s or <u>superconducting</u>; do not accept “semiconductors” or “superfluidity”)",
+    "accept": [
+        "superconductivity",
+        "superconductor",
+        "superconductors",
+        "superconducting",
+        "superconduction",
+        "superconductive",
+        "super conductivity",
+        "super conductor",
+        "super conductors",
+        "super conducting"
+    ],
+    "prompt": [],
+    "reject": [
+        "semiconductor",
+        "semiconductors",
+        "semiconductivity",
+        "semiconducting",
+        "superfluidity",
+        "superfluid",
+        "superfluids",
+        "meissner effect",
+        "diamagnetism",
+        "magnetism",
+        "bose einstein condensate",
+        "resistance",
+        "electrical resistance",
+        "zero resistance",
+        "magnetic levitation",
+        "cooper pairs",
+        "josephson effect"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Superconductivity",
+    "qb": {
+        "q": "superconductivity",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Heike Kamerlingh Onnes [“HAY-kuh KAH-mer-ling OH-nus”] discovered this phenomenon in 1911 while cooling mercury with liquid helium to about 4 kelvins. Three years before, Onnes had become the first person to liquefy helium, and he won the 1913 Nobel Prize in Physics for his low-temperature research.",
+            "r": "For 10 points, name this state in which a material cooled below a critical temperature carries electric current with zero resistance."
+        },
+        {
+            "p": "In 1933, Walther Meissner and Robert Ochsenfeld [“OK-sen-felt”] found that materials in this state push magnetic fields out of their interiors, making them perfect diamagnets. That effect lets a small magnet float above a cold disk of such a material.",
+            "r": "For 10 points, name this state of zero electrical resistance reached by some materials at very low temperatures."
+        },
+        {
+            "p": "In the BCS theory of this phenomenon, an attraction carried by vibrations of a crystal lattice, called phonons, binds electrons into Cooper pairs. John Bardeen became the only person to win the Nobel Prize in Physics twice when he shared the 1972 prize for that theory.",
+            "r": "For 10 points, name this phenomenon in which a very cold material carries electric current with no resistance."
+        },
+        {
+            "p": "In 1986, Georg Bednorz and Alex Müller found this phenomenon in a copper oxide ceramic at about 35 kelvins, winning a Nobel Prize the next year. Physicists led by Paul Chu and Maw-Kuen Wu then found a compound of yttrium, barium, copper, and oxygen that shows this phenomenon above the boiling point of liquid nitrogen.",
+            "r": "Materials in this state levitate magnets and carry current with no resistance. For 10 points, name this low-temperature phenomenon."
+        },
+        {
+            "p": "Brian Josephson predicted that pairs of electrons can tunnel through a thin insulating barrier sandwiched between two materials in this state. Devices called SQUIDs use such junctions to measure extremely weak magnetic fields, like those made by the human brain.",
+            "r": "For 10 points, name this phenomenon of zero electrical resistance, first seen in mercury in 1911."
+        },
+        {
+            "p": "Alexei Abrikosov showed that in “Type II” materials of this kind, magnetic field lines can thread through in tiny whirlpools of current called vortices. “Type I” materials lose this property all at once when the outside magnetic field passes a single critical value.",
+            "r": "Materials in this state can levitate magnets. For 10 points, name this state of zero electrical resistance and perfect diamagnetism."
+        },
+        {
+            "p": "Fritz and Heinz London wrote equations explaining how a magnetic field dies away within a thin layer, the penetration depth, at the edge of a material in this state. The Ginzburg–Landau theory later described this state using an order parameter.",
+            "r": "In the Meissner effect, materials in this state push out magnetic fields. For 10 points, name this state in which electrical resistance drops to zero."
+        },
+        {
+            "p": "Japan’s L0 Series maglev train, which reached 603 kilometers per hour in 2015, floats above its guideway using onboard magnets made of coils in this state. The Large Hadron Collider bends beams of protons with magnets that rely on this state, which requires cooling them close to absolute zero.",
+            "r": "Hospital MRI machines also use magnets in this state. For 10 points, name this phenomenon in which certain cold materials have zero electrical resistance."
+        },
+        {
+            "p": "Among pure elements at normal pressure, niobium shows this phenomenon at the highest temperature, about 9 kelvins. In 2001, Japanese researchers found that magnesium diboride, a simple compound, shows this phenomenon at 39 kelvins.",
+            "r": "Magnets can float above materials in this state. For 10 points, name this phenomenon of zero electrical resistance at very low temperatures."
+        },
+        {
+            "p": "The magnetic flux through a ring in this state comes in multiples of a quantum with 2e in its denominator, a clue that electrons travel in pairs. A current set flowing around such a ring can keep circulating for years with no battery attached.",
+            "r": "For 10 points, name this state of zero electrical resistance, found in mercury by Heike Kamerlingh Onnes."
+        },
+        {
+            "p": "In 1950, experiments showed that mercury made of heavier isotopes reaches this state at a slightly lower temperature, a clue that vibrations of the crystal lattice are involved. Below the critical temperature, the electrons in such materials form pairs named for Leon Cooper.",
+            "r": "For 10 points, name this phenomenon in which a cold material carries electric current with no resistance at all."
+        },
+        {
+            "p": "In “quantum locking” demonstrations, a thin disk in this state stays frozen in place above or even below a magnetic track because magnetic flux gets pinned inside it. The disk is usually a copper-oxide ceramic cooled with liquid nitrogen.",
+            "r": "For 10 points, name this state, discovered in 1911, in which a material has zero electrical resistance."
+        },
+        {
+            "p": "The giant magnets of the ITER fusion project in France use niobium-based wires in this state. Strong enough magnetic fields or currents destroy this state, so magnet designers must stay below a critical field and a critical current.",
+            "r": "For 10 points, name this state of zero electrical resistance, reached by cooling certain materials below a critical temperature."
+        },
+        {
+            "p": "In 2015, researchers found that hydrogen sulfide squeezed to enormous pressures reaches this state at about 203 kelvins, a record at the time. Physicists hope to find a material that shows this phenomenon at room temperature and ordinary pressure.",
+            "r": "For 10 points, name this state in which electric current flows through a material with zero resistance."
+        },
+        {
+            "p": "Iron-based materials called pnictides [“NIK-tydz”] joined the list of materials showing this phenomenon in 2008. Classroom demonstrations often cool a ceramic disk with liquid nitrogen until a magnet floats above it, showing the Meissner effect.",
+            "r": "Bardeen, Cooper, and Schrieffer explained it for ordinary metals in 1957. For 10 points, name this state in which a material loses all electrical resistance."
+        }
+    ],
+    "clues": [
+        {
+            "id": "zero-resistance",
+            "tier": "giveaway",
+            "t": "Zero electrical resistance in a material cooled below its critical temperature",
+            "k": ["zero electrical resistance", "critical temperature"],
+            "n": 0
+        },
+        {
+            "id": "magnets-float",
+            "tier": "giveaway",
+            "t": "Materials in this state push out magnetic fields, so a magnet can float above them",
+            "k": ["push out", "float"],
+            "n": 0
+        },
+        {
+            "id": "very-cold",
+            "tier": "giveaway",
+            "t": "Needs very low temperatures, reached with liquid helium or liquid nitrogen",
+            "k": ["liquid helium", "liquid nitrogen"],
+            "n": 0
+        },
+        {
+            "id": "uses",
+            "tier": "giveaway",
+            "t": "Used in the magnets of MRI machines, maglev trains, and the Large Hadron Collider",
+            "k": ["mri", "maglev", "large hadron collider"],
+            "n": 0
+        },
+        {
+            "id": "onnes",
+            "tier": "middle",
+            "t": "Discovered in mercury in 1911 by Heike Kamerlingh Onnes, who had liquefied helium in 1908 (Nobel Prize 1913)",
+            "k": ["kamerlingh onnes", "mercury", "1911"],
+            "n": 0
+        },
+        {
+            "id": "meissner",
+            "tier": "middle",
+            "t": "Meissner effect (1933, with Robert Ochsenfeld): magnetic fields are pushed out, making a perfect diamagnet",
+            "k": ["meissner", "ochsenfeld", "perfect diamagnet"],
+            "n": 0
+        },
+        {
+            "id": "bcs",
+            "tier": "middle",
+            "t": "BCS theory (1957), by John Bardeen, Leon Cooper, and John Robert Schrieffer",
+            "k": ["bcs", "bardeen", "schrieffer", "1957"],
+            "n": 0
+        },
+        {
+            "id": "cooper-pairs",
+            "tier": "middle",
+            "t": "Electrons form Cooper pairs, bound together with help from lattice vibrations called phonons",
+            "k": ["cooper pairs", "phonons"],
+            "n": 0
+        },
+        {
+            "id": "bardeen-twice",
+            "tier": "middle",
+            "t": "John Bardeen shared the 1972 Nobel Prize for BCS theory, making him the only person with two Nobel Prizes in Physics",
+            "k": ["only person", "1972", "two nobel"],
+            "n": 0
+        },
+        {
+            "id": "cuprates",
+            "tier": "middle",
+            "t": "1986: Georg Bednorz and Alex Müller found it in a copper oxide (cuprate) ceramic at about 35 K; Nobel Prize 1987",
+            "k": ["bednorz", "copper oxide", "cuprate"],
+            "n": 0
+        },
+        {
+            "id": "ybco",
+            "tier": "middle",
+            "t": "YBCO (yttrium barium copper oxide), found by teams led by Paul Chu and Maw-Kuen Wu, works above liquid nitrogen’s 77 K boiling point",
+            "k": ["ybco", "yttrium", "paul chu"],
+            "n": 0
+        },
+        {
+            "id": "types",
+            "tier": "middle",
+            "t": "Type I materials lose it above a single critical field; Type II materials let magnetic flux in through vortices",
+            "k": ["type ii", "vortices", "critical field"],
+            "n": 0
+        },
+        {
+            "id": "josephson",
+            "tier": "power",
+            "t": "Josephson effect: electron pairs tunnel through a thin insulating barrier; SQUIDs use these junctions to measure tiny magnetic fields",
+            "k": ["josephson", "insulating barrier", "squids"],
+            "n": 0
+        },
+        {
+            "id": "abrikosov",
+            "tier": "power",
+            "t": "Alexei Abrikosov explained the vortices in Type II materials (Nobel Prize 2003)",
+            "k": ["abrikosov", "2003"],
+            "n": 0
+        },
+        {
+            "id": "london",
+            "tier": "power",
+            "t": "Fritz and Heinz London’s equations give the penetration depth of a magnetic field at the edge",
+            "k": ["london", "penetration depth"],
+            "n": 0
+        },
+        {
+            "id": "ginzburg-landau",
+            "tier": "power",
+            "t": "The Ginzburg–Landau theory describes it using an order parameter",
+            "k": ["ginzburg", "landau", "order parameter"],
+            "n": 0
+        },
+        {
+            "id": "flux-quantum",
+            "tier": "power",
+            "t": "Magnetic flux through a ring comes in multiples of h over 2e, a clue that electrons travel in pairs",
+            "k": ["flux", "h over 2e", "pairs"],
+            "n": 0
+        },
+        {
+            "id": "persistent-current",
+            "tier": "power",
+            "t": "A persistent current in a ring can circulate for years with no battery attached",
+            "k": ["persistent", "for years", "no battery"],
+            "n": 0
+        },
+        {
+            "id": "isotope-effect",
+            "tier": "power",
+            "t": "Isotope effect (1950): mercury made of heavier isotopes reaches it at a lower temperature, so lattice vibrations matter",
+            "k": ["isotope effect", "1950", "heavier isotopes"],
+            "n": 0
+        },
+        {
+            "id": "niobium",
+            "tier": "power",
+            "t": "Niobium reaches it at the highest temperature of any element at normal pressure, about 9 K",
+            "k": ["niobium", "normal pressure"],
+            "n": 0
+        },
+        {
+            "id": "magnesium-diboride",
+            "tier": "power",
+            "t": "Magnesium diboride, found in 2001 by Japanese researchers, reaches it at 39 K",
+            "k": ["magnesium diboride", "2001", "39 k"],
+            "n": 0
+        },
+        {
+            "id": "flux-pinning",
+            "tier": "power",
+            "t": "Flux pinning (“quantum locking”) holds a cold disk frozen in place above or even below a magnetic track",
+            "k": ["flux pinning", "quantum locking"],
+            "n": 0
+        },
+        {
+            "id": "big-magnets",
+            "tier": "power",
+            "t": "The ITER fusion project in France and Japan’s L0 Series maglev (603 km/h in 2015) both use magnets in this state",
+            "k": ["iter", "fusion", "l0 series", "603"],
+            "n": 0
+        },
+        {
+            "id": "hydrogen-sulfide",
+            "tier": "power",
+            "t": "Hydrogen sulfide squeezed to enormous pressures reached it at about 203 K in 2015, a record at the time",
+            "k": ["hydrogen sulfide", "203", "enormous pressures"],
+            "n": 0
+        },
+        {
+            "id": "pnictides",
+            "tier": "power",
+            "t": "Iron-based pnictides joined the list of materials showing it in 2008",
+            "k": ["pnictides", "iron-based", "2008"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not semiconductors or superfluids",
+        "body": "Semiconductors, like the silicon in computer chips, have a resistance between that of metals and insulators, and they are a different answer. Superfluidity is a cousin phenomenon in which very cold liquid helium flows with no viscosity at all. The Meissner effect is only one feature of this state, so naming it instead of the whole phenomenon is wrong.",
+        "fix": "Zero electrical resistance, Cooper pairs, Kamerlingh Onnes, BCS theory, or levitating magnets mean this answer. Silicon chips and transistors mean semiconductors, and frictionless liquid helium creeping up the walls of its container means superfluidity.",
+        "line": "Real answer line: <b><u>Superconductivity</u></b> (accept word forms such as <u>superconductor</u>s; do not accept “semiconductors” or “superfluidity”)"
+    },
+    "tests": {
+        "right": [
+            "Superconductivity",
+            "superconductors",
+            "Superconducting",
+            "superconductivty",
+            "Super conductor"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Semiconductors",
+            "Semiconductor",
+            "Superfluidity",
+            "Meissner effect",
+            "Magnetism",
+            "Resistance"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

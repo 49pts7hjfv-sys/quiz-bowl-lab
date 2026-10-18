@@ -1,0 +1,364 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "calcium",
+    "name": "Calcium",
+    "mono": "CA",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Element 20 · The metal in bones, teeth, chalk, and limestone",
+    "dates": "Isolated by Humphry Davy, 1808",
+    "briefing": "Calcium is element number 20, a soft, silvery metal that is never found pure in nature because it reacts with water and air. Its compounds are everywhere, though: chalk, limestone, marble, seashells, and eggshells are all made mostly of calcium carbonate. Calcium is the most common metal in the human body, and about 99 percent of it is stored in your bones and teeth.",
+    "answerHtml": "<b><u>Calcium</u></b> (accept <u>Ca</u>; accept <u>calcium ions</u> or <u>Ca<sup>2+</sup></u>)",
+    "accept": [
+        "calcium",
+        "ca",
+        "ca2",
+        "ca 2",
+        "calcium ion",
+        "calcium ions",
+        "calcium metal"
+    ],
+    "prompt": [],
+    "reject": [
+        "calcium carbonate",
+        "calcium oxide",
+        "calcium hydroxide",
+        "calcium chloride",
+        "calcium sulfate",
+        "calcium phosphate",
+        "calcium carbide",
+        "calcium fluoride",
+        "calcium channel",
+        "calcium channels",
+        "calcite",
+        "aragonite",
+        "lime",
+        "quicklime",
+        "slaked lime",
+        "limewater",
+        "limestone",
+        "chalk",
+        "marble",
+        "gypsum",
+        "plaster",
+        "plaster of paris",
+        "fluorite",
+        "apatite",
+        "hydroxyapatite",
+        "calcitonin",
+        "magnesium",
+        "potassium",
+        "sodium",
+        "strontium",
+        "barium",
+        "beryllium",
+        "cadmium",
+        "cesium",
+        "californium",
+        "scandium",
+        "carbon",
+        "vitamin d",
+        "bone",
+        "bones",
+        "teeth",
+        "milk"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Calcium",
+    "qb": {
+        "q": "calcium",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Scientists at Dubna, Russia, fired beams of this element’s neutron-rich isotope with mass number 48 at heavy targets to create elements 114 through 118. That isotope and this element’s most common isotope, with mass number 40, are both “doubly magic.”",
+            "r": "For 10 points, name this alkaline earth metal with atomic number 20, found in bones and teeth."
+        },
+        {
+            "p": "Two strong, dark Fraunhofer lines in the violet part of the Sun’s spectrum, called H and K, are caused by ionized atoms of this element. In a flame test, compounds of this element give a brick-red or orange-red color.",
+            "r": "For 10 points, name this element with atomic number 20, whose carbonate makes up limestone."
+        },
+        {
+            "p": "Four minerals in a row on the Mohs hardness scale, from gypsum at 2 to apatite at 5, are all compounds of this element. Fluorite, a compound of this element and fluorine, gave the word “fluorescence” its name.",
+            "r": "For 10 points, name this element with atomic number 20, found in milk, bones, and teeth."
+        },
+        {
+            "p": "When a muscle cell is stimulated, ions of this element flood out of the sarcoplasmic reticulum and bind to troponin, which moves tropomyosin so that myosin can grab onto actin. Ions of this element also trigger the release of neurotransmitters and help blood clot.",
+            "r": "For 10 points, name this element, the most common metal in the human body, which is found in milk."
+        },
+        {
+            "p": "Parathyroid hormone raises the level of this element in the blood, partly by releasing it from bones, while a hormone made by the thyroid gland lowers it. Vitamin D helps the intestines absorb this element from food.",
+            "r": "Milk is a good source of this element. For 10 points, name this element, which makes up much of the mineral in bones and teeth."
+        },
+        {
+            "p": "Before electric lights, theaters lit up actors by heating a block of this element’s oxide in a very hot flame until it glowed brilliant white, which gave us the word “limelight.” That oxide forms when limestone is heated in a kiln, releasing carbon dioxide.",
+            "r": "That oxide is called quicklime. For 10 points, name this alkaline earth metal with atomic number 20."
+        },
+        {
+            "p": "Bubbling carbon dioxide through a clear solution of this element’s hydroxide, called limewater, turns it milky as a solid carbonate forms. Adding water to quicklime makes that hydroxide, also called slaked lime, and releases a lot of heat.",
+            "r": "For 10 points, name this element, whose carbonate makes up chalk, marble, and seashells."
+        },
+        {
+            "p": "In 1669, Rasmus Bartholin described how a clear crystal of this element’s carbonate, called Iceland spar, makes anything seen through it appear doubled. Stalactites and stalagmites in limestone caves are made of that same carbonate.",
+            "r": "Seashells and eggshells are made of that carbonate too. For 10 points, name this element with atomic number 20."
+        },
+        {
+            "p": "Old miners’ lamps dripped water onto this element’s carbide to make acetylene gas, which burned with a bright flame. This element’s chloride is spread on icy roads and is used to dry out other chemicals.",
+            "r": "Its carbonate is the main part of limestone. For 10 points, name this alkaline earth metal that sits between magnesium and strontium."
+        },
+        {
+            "p": "In 1808, Humphry Davy isolated this metal by passing electricity through a mixture of lime and mercury oxide, the same year he isolated magnesium, strontium, and barium. This element’s name comes from the Latin word for lime.",
+            "r": "Its compounds include chalk and limestone. For 10 points, name this element with atomic number 20."
+        },
+        {
+            "p": "Heating gypsum, a sulfate of this element, drives off some of its water to make plaster of Paris, which hardens again when water is added. Drywall used inside houses is made mostly of that same sulfate.",
+            "r": "For 10 points, name this element, whose carbonate is the main ingredient in natural chalk and many antacid tablets."
+        },
+        {
+            "p": "Water rich in ions of this element and magnesium is called “hard” because it makes soap form scum instead of lather. Water softeners swap those ions for sodium ions. The crusty white scale that builds up inside kettles is mostly this element’s carbonate.",
+            "r": "For 10 points, name this element, which the body needs for strong bones and teeth."
+        },
+        {
+            "p": "Hydroxyapatite [“hy-DROK-see-AP-uh-tite”], a phosphate of this element, makes up most of the mineral in bones and in the enamel that coats teeth. About 99 percent of this element in the human body is stored in the skeleton.",
+            "r": "This element is an alkaline earth metal. For 10 points, name this element found in milk, cheese, and other dairy foods."
+        },
+        {
+            "p": "This element is the fifth most abundant element in Earth’s crust, but it is never found pure in nature, because the soft, silvery metal reacts with water and slowly gives off hydrogen gas.",
+            "r": "Like magnesium, it has two valence electrons and forms ions with a 2+ charge. For 10 points, name this alkaline earth metal with atomic number 20."
+        },
+        {
+            "p": "The White Cliffs of Dover are made of chalk that formed from the tiny plates of ocean algae called coccolithophores [“kok-uh-LITH-uh-forz”], which build those plates from this element’s carbonate. Corals and clams also build their hard parts from that carbonate.",
+            "r": "Ions of this metal help muscles contract. For 10 points, name this element found in limestone, eggshells, and bones."
+        }
+    ],
+    "clues": [
+        {
+            "id": "element-20",
+            "tier": "giveaway",
+            "t": "Element number 20: an alkaline earth metal in group 2",
+            "k": ["element number 20", "alkaline earth", "group 2"],
+            "n": 0
+        },
+        {
+            "id": "bones-teeth",
+            "tier": "giveaway",
+            "t": "Found in bones and teeth, which store about 99 percent of the body’s supply",
+            "k": ["bones", "teeth", "99 percent"],
+            "n": 0,
+            "rabbit": "Bones"
+        },
+        {
+            "id": "milk",
+            "tier": "giveaway",
+            "t": "Milk and other dairy foods are rich in it",
+            "k": ["milk", "dairy"],
+            "n": 0
+        },
+        {
+            "id": "carbonate",
+            "tier": "giveaway",
+            "t": "Its carbonate makes up limestone, chalk, marble, seashells, eggshells, and many antacids",
+            "k": ["limestone", "chalk", "marble", "seashells"],
+            "n": 0,
+            "rabbit": "Limestone"
+        },
+        {
+            "id": "body-metal",
+            "tier": "giveaway",
+            "t": "The most common metal in the human body",
+            "k": ["most common metal", "human body"],
+            "n": 0
+        },
+        {
+            "id": "davy",
+            "tier": "middle",
+            "t": "Humphry Davy isolated it in 1808 by electrolysis, the same year as magnesium, strontium, and barium; its name comes from the Latin for lime",
+            "k": ["humphry davy", "1808", "electrolysis", "latin"],
+            "n": 0
+        },
+        {
+            "id": "quicklime",
+            "tier": "middle",
+            "t": "Heating limestone in a kiln makes its oxide, quicklime, and releases carbon dioxide",
+            "k": ["quicklime", "kiln"],
+            "n": 0
+        },
+        {
+            "id": "limewater",
+            "tier": "middle",
+            "t": "Limewater, a solution of its hydroxide (slaked lime), turns milky when carbon dioxide bubbles through it",
+            "k": ["limewater", "slaked lime", "milky"],
+            "n": 0
+        },
+        {
+            "id": "muscles-nerves",
+            "tier": "middle",
+            "t": "Its ions trigger muscle contraction and the release of neurotransmitters, and they help blood clot",
+            "k": ["muscle contraction", "neurotransmitters", "blood clot"],
+            "n": 0,
+            "rabbit": "Muscles"
+        },
+        {
+            "id": "hormones",
+            "tier": "middle",
+            "t": "Vitamin D helps the body absorb it; parathyroid hormone raises its level in the blood, and a thyroid hormone lowers it",
+            "k": ["vitamin d", "parathyroid"],
+            "n": 0,
+            "rabbit": "Vitamins"
+        },
+        {
+            "id": "hard-water",
+            "tier": "middle",
+            "t": "Its ions, with magnesium’s, make water “hard,” causing soap scum and kettle scale; water softeners swap them for sodium ions",
+            "k": ["soap scum", "kettle scale", "water softeners"],
+            "n": 0
+        },
+        {
+            "id": "gypsum",
+            "tier": "middle",
+            "t": "Gypsum, its sulfate, is heated to make plaster of Paris and is used in drywall",
+            "k": ["gypsum", "plaster of paris", "drywall"],
+            "n": 0
+        },
+        {
+            "id": "flame-test",
+            "tier": "middle",
+            "t": "Gives a brick-red or orange-red color in a flame test",
+            "k": ["brick-red", "flame test"],
+            "n": 0,
+            "rabbit": "Flame test"
+        },
+        {
+            "id": "caves",
+            "tier": "middle",
+            "t": "Stalactites and stalagmites in limestone caves are made of its carbonate",
+            "k": ["stalactites", "stalagmites", "caves"],
+            "n": 0,
+            "rabbit": "Caves"
+        },
+        {
+            "id": "crust",
+            "tier": "middle",
+            "t": "Fifth most abundant element in Earth’s crust; never found pure because the metal reacts with water",
+            "k": ["fifth most abundant", "crust", "reacts with water"],
+            "n": 0
+        },
+        {
+            "id": "calcium-48",
+            "tier": "power",
+            "t": "Scientists at Dubna fired beams of its isotope with mass number 48 to make elements 114 through 118",
+            "k": ["dubna", "mass number 48", "114 through 118"],
+            "n": 0
+        },
+        {
+            "id": "doubly-magic",
+            "tier": "power",
+            "t": "Its isotopes with mass numbers 40 and 48 are both “doubly magic”",
+            "k": ["doubly magic", "40 and 48"],
+            "n": 0
+        },
+        {
+            "id": "h-and-k",
+            "tier": "power",
+            "t": "The strong H and K lines in the violet part of the Sun’s spectrum come from its ions",
+            "k": ["h and k", "violet"],
+            "n": 0
+        },
+        {
+            "id": "mohs",
+            "tier": "power",
+            "t": "Gypsum (2), calcite (3), fluorite (4), and apatite (5) on the Mohs scale all contain it; fluorite gave fluorescence its name",
+            "k": ["mohs", "fluorite", "apatite", "fluorescence"],
+            "n": 0
+        },
+        {
+            "id": "troponin",
+            "tier": "power",
+            "t": "In muscle cells, its ions leave the sarcoplasmic reticulum and bind troponin, moving tropomyosin so myosin can grab actin",
+            "k": ["troponin", "tropomyosin", "sarcoplasmic reticulum"],
+            "n": 0
+        },
+        {
+            "id": "hydroxyapatite",
+            "tier": "power",
+            "t": "Hydroxyapatite, its phosphate, makes up most of the mineral in bones and tooth enamel",
+            "k": ["hydroxyapatite", "enamel", "phosphate"],
+            "n": 0
+        },
+        {
+            "id": "limelight",
+            "tier": "power",
+            "t": "Theaters once heated blocks of its oxide in a very hot flame to make bright “limelight”",
+            "k": ["limelight", "theaters"],
+            "n": 0
+        },
+        {
+            "id": "iceland-spar",
+            "tier": "power",
+            "t": "Rasmus Bartholin (1669) described how Iceland spar, a clear crystal of its carbonate, makes images appear doubled",
+            "k": ["iceland spar", "bartholin", "1669"],
+            "n": 0
+        },
+        {
+            "id": "carbide",
+            "tier": "power",
+            "t": "Its carbide plus water makes acetylene gas, burned in old miners’ lamps",
+            "k": ["acetylene", "carbide", "miners"],
+            "n": 0
+        },
+        {
+            "id": "chloride",
+            "tier": "power",
+            "t": "Its chloride is spread on icy roads and used to dry out other chemicals",
+            "k": ["chloride", "icy roads"],
+            "n": 0
+        },
+        {
+            "id": "coccolithophores",
+            "tier": "power",
+            "t": "The chalk of the White Cliffs of Dover formed from the tiny plates of coccolithophores; corals and clams also build with its carbonate",
+            "k": ["white cliffs of dover", "coccolithophores", "corals"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Metal, not its minerals",
+        "body": "Most clues about this element are really about its compounds: limestone, chalk, marble, gypsum, quicklime, and limewater. Players who answer “limestone” or “calcium carbonate” lose the points when the question wants the element. Its neighbors are traps too: magnesium sits right above it and also makes water hard, and potassium sits just before it on the periodic table.",
+        "fix": "If the question asks for “this element” or “this metal,” say calcium (symbol Ca), even when the clue is about a rock or a compound. Atomic number 20, bones and teeth, muscle contraction, and Humphry Davy in 1808 point here; magnesium is element 12, and potassium is element 19.",
+        "line": "Real answer line: <b><u>Calcium</u></b> (accept <u>Ca</u>)"
+    },
+    "tests": {
+        "right": [
+            "Calcium",
+            "Ca",
+            "Calsium",
+            "calcium ions",
+            "Ca2+"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Calcium carbonate",
+            "Magnesium",
+            "Potassium",
+            "Limestone",
+            "Chalk",
+            "Cadmium",
+            "Calcite"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

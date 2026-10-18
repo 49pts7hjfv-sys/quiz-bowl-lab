@@ -1,0 +1,361 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "enrico-fermi",
+    "name": "Enrico Fermi",
+    "mono": "EF",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Builder of the first nuclear reactor · 1938 Nobel for slow neutrons",
+    "dates": "1901–1954",
+    "briefing": "Enrico Fermi was an Italian physicist who was brilliant at both theory and experiments. He won the 1938 Nobel Prize for making elements radioactive with slow neutrons, then left Fascist Italy for the United States, where his team built Chicago Pile-1, the first nuclear reactor, in 1942. Element 100, fermium, is named for him, and so are the particles called fermions.",
+    "answerHtml": "<b><u>Enrico Fermi</u></b> (accept <u>Fermi</u>)",
+    "accept": [
+        "enrico fermi",
+        "fermi"
+    ],
+    "prompt": [],
+    "reject": [
+        "fermi paradox",
+        "fermions",
+        "fermion",
+        "fermium",
+        "fermilab",
+        "fermi lab",
+        "fermi gamma ray space telescope",
+        "fermi telescope",
+        "fermi problem",
+        "fermi estimation",
+        "fermi energy",
+        "fermi level",
+        "fermi surface",
+        "fermi dirac statistics",
+        "fermi dirac",
+        "fermis golden rule",
+        "fermi golden rule",
+        "enrico caruso",
+        "leo szilard",
+        "szilard",
+        "j robert oppenheimer",
+        "robert oppenheimer",
+        "oppenheimer",
+        "wolfgang pauli",
+        "pauli",
+        "paul dirac",
+        "dirac",
+        "emilio segre",
+        "segre",
+        "ernest rutherford",
+        "rutherford",
+        "niels bohr",
+        "bohr",
+        "arthur compton",
+        "edward teller",
+        "lise meitner",
+        "otto hahn",
+        "ettore majorana",
+        "manhattan project",
+        "chicago pile 1",
+        "chicago pile"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+    "qb": {
+        "q": "Fermi",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This physicist found that neutrons slowed down by passing through paraffin wax were far better at making elements radioactive. He won the 1938 Nobel Prize in Physics for that work, then used the trip to Stockholm to move his family to the United States.",
+            "r": "For 10 points, name this Italian-American physicist who led the team that built the first nuclear reactor in Chicago in 1942."
+        },
+        {
+            "p": "After this scientist’s team succeeded, Arthur Compton telephoned James Conant with the coded message “The Italian navigator has landed in the New World.” That success came on December 2, 1942, under the stands of a football field at the University of Chicago.",
+            "r": "For 10 points, name this physicist who led the building of Chicago Pile-1, the first nuclear reactor."
+        },
+        {
+            "p": "The journal _Nature_ turned down this physicist’s 1933 theory of beta decay as too far removed from reality. In that theory, which first described the weak force, this man used the name “neutrino,” or “little neutral one,” for a particle proposed by Wolfgang Pauli.",
+            "r": "For 10 points, name this Italian physicist who won the 1938 Nobel Prize and later worked on the Manhattan Project."
+        },
+        {
+            "p": "During a 1950 lunchtime talk at Los Alamos about flying saucers, this physicist famously asked, “Where is everybody?” A paradox named for him asks why, if the galaxy is so old and so large, no signs of alien civilizations have been found.",
+            "r": "He won the 1938 Nobel Prize in Physics. For 10 points, name this Italian-born physicist whose team achieved the first controlled nuclear chain reaction."
+        },
+        {
+            "p": "At the first atomic bomb test in 1945, this physicist estimated the blast’s strength by dropping scraps of paper and watching how far they were blown. He loved quick estimation puzzles, like how many piano tuners live in Chicago, and such puzzles are named for him.",
+            "r": "He was born in Rome in 1901. For 10 points, name this Italian-American physicist who led the team that built Chicago Pile-1."
+        },
+        {
+            "p": "In a metal at absolute zero, the highest energy level that electrons fill is named for this physicist. Particles that obey the Pauli exclusion principle, such as electrons, protons, and neutrons, are also named for him, and statistics named for him and Paul Dirac describe how such particles fill energy levels.",
+            "r": "For 10 points, name this physicist who led the first controlled nuclear chain reaction and won the 1938 Nobel Prize."
+        },
+        {
+            "p": "In 1934, this physicist’s team bombarded uranium with neutrons and believed they had made new elements heavier than uranium, even proposing names for two of them. Ida Noddack suggested instead that the uranium nuclei had split, an idea later confirmed as nuclear fission.",
+            "r": "For 10 points, name this Italian physicist whose team later built the first nuclear reactor under a stadium in Chicago."
+        },
+        {
+            "p": "Emilio Segrè belonged to this physicist’s group of young researchers in Rome, nicknamed the “Via Panisperna boys” after the street where their institute stood. Colleagues jokingly called this man “the Pope” because he never seemed to be wrong about physics.",
+            "r": "For 10 points, name this Italian physicist who later moved to the United States and worked on the Manhattan Project."
+        },
+        {
+            "p": "Element 100, first found in the debris of a 1952 hydrogen bomb test, is named for this scientist. A particle physics laboratory in Batavia, Illinois, and a NASA gamma-ray space telescope launched in 2008 are also named for him.",
+            "r": "For 10 points, name this physicist who led the first self-sustaining nuclear chain reaction in 1942."
+        },
+        {
+            "p": "This man’s wife, Laura, wrote the memoir _Atoms in the Family_ about their life together. Because Laura was Jewish, Italy’s 1938 racial laws pushed the family to leave Fascist Italy for the United States.",
+            "r": "For 10 points, name this Italian-born physicist who won the 1938 Nobel Prize and built the first nuclear reactor."
+        },
+        {
+            "p": "A “golden rule” named for this physicist gives the rate at which a quantum system jumps from one state to another. A unit of length used for atomic nuclei, equal to one femtometer, is also nicknamed for him.",
+            "r": "For 10 points, name this physicist who led the team that built Chicago Pile-1, the first nuclear reactor."
+        },
+        {
+            "p": "George Weil slowly pulled out the last control rod of a reactor while this physicist checked the readings with a slide rule. That reactor was a stack of graphite blocks and uranium, controlled by cadmium rods that soak up neutrons.",
+            "r": "For 10 points, name this Italian physicist whose team built Chicago Pile-1, the first nuclear reactor, in 1942."
+        },
+        {
+            "p": "The Thomas model of the atom, which treats an atom’s electrons as a kind of gas, also bears this physicist’s name. He studied at the Scuola Normale Superiore [“SKWOH-lah nor-MAH-leh soo-peh-RYOH-reh”] in Pisa before becoming a professor in Rome.",
+            "r": "For 10 points, name this Italian physicist who won the 1938 Nobel Prize for work with slow neutrons."
+        },
+        {
+            "p": "In 1944, this physicist helped start up the B Reactor at Hanford, Washington, the first large reactor built to make plutonium. Earlier, he had moved from Columbia University to the University of Chicago to work on the Manhattan Project.",
+            "r": "For 10 points, name this Italian-American physicist who was born in Rome and won the 1938 Nobel Prize in Physics."
+        },
+        {
+            "p": "This physicist and Leo Szilard [“SEE-lard”] shared a patent for a “neutronic reactor.” An early computer experiment on a chain of masses joined by springs is named for this man, John Pasta, Stanislaw Ulam, and Mary Tsingou.",
+            "r": "He gave the neutrino its name. For 10 points, name this Italian-born physicist who achieved the first self-sustaining nuclear chain reaction in Chicago."
+        }
+    ],
+    "clues": [
+        {
+            "id": "chicago-pile",
+            "tier": "giveaway",
+            "t": "Led the team that built Chicago Pile-1, the first nuclear reactor, which ran the first self-sustaining nuclear chain reaction on December 2, 1942",
+            "k": ["chicago pile-1", "chain reaction", "1942"],
+            "n": 0
+        },
+        {
+            "id": "nobel-1938",
+            "tier": "giveaway",
+            "t": "Won the 1938 Nobel Prize in Physics for making new radioactive substances with neutrons",
+            "k": ["1938", "nobel prize", "neutrons"],
+            "n": 0
+        },
+        {
+            "id": "italian-born",
+            "tier": "giveaway",
+            "t": "Born in Rome in 1901; moved to the United States after receiving his Nobel Prize",
+            "k": ["rome", "1901", "united states"],
+            "n": 0
+        },
+        {
+            "id": "manhattan-project",
+            "tier": "giveaway",
+            "t": "Worked on the Manhattan Project, which built the first atomic bombs",
+            "k": ["manhattan project", "atomic bombs"],
+            "n": 0,
+            "rabbit": "Manhattan Project"
+        },
+        {
+            "id": "slow-neutrons",
+            "tier": "middle",
+            "t": "Found that neutrons slowed by paraffin wax are far better at making elements radioactive",
+            "k": ["paraffin", "radioactive", "slowed"],
+            "n": 0
+        },
+        {
+            "id": "stockholm",
+            "tier": "middle",
+            "t": "Used his Nobel trip to Stockholm to move his family to the U.S.; his wife Laura was Jewish, and Italy had passed racial laws in 1938",
+            "k": ["stockholm", "laura", "racial laws"],
+            "n": 0
+        },
+        {
+            "id": "italian-navigator",
+            "tier": "middle",
+            "t": "Arthur Compton’s coded message after the first chain reaction: “The Italian navigator has landed in the New World”",
+            "k": ["italian navigator", "new world", "compton"],
+            "n": 0
+        },
+        {
+            "id": "stagg-field",
+            "tier": "middle",
+            "t": "Chicago Pile-1 was built under the stands of Stagg Field, a football field at the University of Chicago",
+            "k": ["stagg field", "university of chicago"],
+            "n": 0
+        },
+        {
+            "id": "paradox",
+            "tier": "middle",
+            "t": "A paradox named for him asks why there are no signs of alien civilizations: “Where is everybody?” (1950)",
+            "k": ["where is everybody", "alien civilizations", "paradox"],
+            "n": 0
+        },
+        {
+            "id": "estimation",
+            "tier": "middle",
+            "t": "Quick estimation puzzles, like how many piano tuners live in Chicago, are named for him",
+            "k": ["piano tuners", "estimation"],
+            "n": 0
+        },
+        {
+            "id": "particles",
+            "tier": "middle",
+            "t": "Particles that obey the Pauli exclusion principle, like electrons, protons, and neutrons, are named for him",
+            "k": ["pauli exclusion principle", "particles"],
+            "n": 0,
+            "rabbit": "Pauli exclusion principle"
+        },
+        {
+            "id": "element-100",
+            "tier": "middle",
+            "t": "Element 100, a particle physics lab in Batavia, Illinois, and a 2008 NASA gamma-ray telescope are named for him",
+            "k": ["element 100", "batavia", "gamma-ray"],
+            "n": 0
+        },
+        {
+            "id": "neutrino-name",
+            "tier": "middle",
+            "t": "Gave the neutrino (“little neutral one”) its name; Wolfgang Pauli had proposed the particle",
+            "k": ["neutrino", "little neutral one", "wolfgang pauli"],
+            "n": 0,
+            "rabbit": "Neutrinos"
+        },
+        {
+            "id": "beta-decay",
+            "tier": "power",
+            "t": "His 1933 theory of beta decay first described the weak force; the journal _Nature_ rejected it as too far from reality",
+            "k": ["beta decay", "weak force", "nature"],
+            "n": 0,
+            "rabbit": "Weak nuclear force"
+        },
+        {
+            "id": "trinity",
+            "tier": "power",
+            "t": "At the first atomic bomb test (1945), estimated the blast’s strength from how far falling scraps of paper were blown",
+            "k": ["scraps of paper", "1945"],
+            "n": 0
+        },
+        {
+            "id": "dirac-statistics",
+            "tier": "power",
+            "t": "Statistics named for him and Paul Dirac describe how such particles fill energy levels",
+            "k": ["paul dirac", "statistics"],
+            "n": 0
+        },
+        {
+            "id": "energy-level",
+            "tier": "power",
+            "t": "In a metal at absolute zero, the highest energy level filled by electrons is named for him",
+            "k": ["highest energy level", "absolute zero"],
+            "n": 0
+        },
+        {
+            "id": "noddack",
+            "tier": "power",
+            "t": "1934: his team thought it had made elements heavier than uranium; Ida Noddack suggested the nuclei had split (fission)",
+            "k": ["noddack", "fission", "heavier than uranium"],
+            "n": 0
+        },
+        {
+            "id": "panisperna",
+            "tier": "power",
+            "t": "Led the “Via Panisperna boys” in Rome, a group of young physicists that included Emilio Segrè",
+            "k": ["via panisperna", "segrè"],
+            "n": 0
+        },
+        {
+            "id": "the-pope",
+            "tier": "power",
+            "t": "Colleagues jokingly called him “the Pope” because he never seemed to be wrong about physics",
+            "k": ["the pope", "never seemed"],
+            "n": 0
+        },
+        {
+            "id": "golden-rule",
+            "tier": "power",
+            "t": "A “golden rule” for how fast a quantum system jumps between states is named for him",
+            "k": ["golden rule", "quantum system"],
+            "n": 0
+        },
+        {
+            "id": "femtometer",
+            "tier": "power",
+            "t": "The femtometer, a length unit used for atomic nuclei, is nicknamed for him",
+            "k": ["femtometer", "nuclei"],
+            "n": 0
+        },
+        {
+            "id": "weil-cadmium",
+            "tier": "power",
+            "t": "George Weil pulled the last control rod; the pile was graphite blocks and uranium, controlled with cadmium rods",
+            "k": ["george weil", "graphite", "cadmium"],
+            "n": 0
+        },
+        {
+            "id": "atoms-in-the-family",
+            "tier": "power",
+            "t": "His wife Laura wrote the memoir _Atoms in the Family_",
+            "k": ["atoms in the family", "memoir"],
+            "n": 0
+        },
+        {
+            "id": "thomas-model",
+            "tier": "power",
+            "t": "The Thomas model of the atom, treating electrons as a gas, also bears his name; he studied at the Scuola Normale Superiore in Pisa",
+            "k": ["thomas", "scuola normale", "pisa"],
+            "n": 0
+        },
+        {
+            "id": "hanford",
+            "tier": "power",
+            "t": "Helped start up the B Reactor at Hanford, Washington, in 1944, the first large reactor built to make plutonium",
+            "k": ["hanford", "plutonium", "b reactor"],
+            "n": 0
+        },
+        {
+            "id": "szilard-patent",
+            "tier": "power",
+            "t": "Shared a “neutronic reactor” patent with Leo Szilard; an early computer experiment is named for him, Pasta, Ulam, and Tsingou",
+            "k": ["szilard", "pasta", "ulam"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not Oppenheimer or Szilard",
+        "body": "Many scientists worked on the first reactor and the Manhattan Project. J. Robert Oppenheimer directed the Los Alamos lab that designed the bomb, Leo Szilard drafted the 1939 letter Albert Einstein signed to warn President Roosevelt, and Wolfgang Pauli proposed the neutrino that this man named. Several other answer lines are also named after this man, such as fermions and fermium.",
+        "fix": "Chicago Pile-1, slow neutrons, the 1938 Nobel Prize, the “Italian navigator,” estimation puzzles, and naming the neutrino point to this man. If a question asks for “these particles” or “this element,” answer with the thing, not the person.",
+        "line": "Real answer line: <b><u>Enrico Fermi</u></b> (accept <u>Fermi</u>)"
+    },
+    "tests": {
+        "right": [
+            "Enrico Fermi",
+            "Fermi",
+            "Enrico Fermy",
+            "Dr. Fermi"
+        ],
+        "prompt": [],
+        "wrong": [
+            "J. Robert Oppenheimer",
+            "Leo Szilard",
+            "Wolfgang Pauli",
+            "Niels Bohr",
+            "Fermi paradox",
+            "Enrico Caruso"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

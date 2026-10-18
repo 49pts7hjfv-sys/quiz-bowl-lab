@@ -1,0 +1,346 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "retina",
+    "name": "Retina",
+    "mono": "RET",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Light-sensing layer at the back of the eye · Home of the rods and cones",
+    "dates": "Lines the back of the eye",
+    "briefing": "The retina is a thin sheet of tissue lining the back of each eye, and it is where seeing really begins. Millions of cells called rods and cones turn light into electrical signals that travel down the optic nerve to the brain. The eye’s lens projects an upside-down image onto it, and the brain makes sense of that image so the world looks right side up.",
+    "answerHtml": "<b><u>Retina</u></b> (accept <u>retinas</u> or <u>retinae</u>; do not accept “retinal”)",
+    "accept": [
+        "retina",
+        "retinas",
+        "retinae"
+    ],
+    "prompt": [],
+    "reject": [
+        "retinal",
+        "retinol",
+        "rhodopsin",
+        "opsin",
+        "fovea",
+        "macula",
+        "optic nerve",
+        "optic disc",
+        "optic disk",
+        "blind spot",
+        "cornea",
+        "iris",
+        "lens",
+        "pupil",
+        "choroid",
+        "sclera",
+        "rods",
+        "cones",
+        "rods and cones",
+        "photoreceptor",
+        "photoreceptors",
+        "eye",
+        "eyes",
+        "vitreous humor",
+        "aqueous humor",
+        "tapetum lucidum",
+        "cochlea"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Retina",
+    "qb": {
+        "q": "retina",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Alfred Knudson developed his “two-hit” hypothesis by studying a rare childhood cancer of this tissue that is linked to mutations in the RB gene. This tissue’s sharpest vision comes from a small central pit called the fovea [“FOH-vee-uh”].",
+            "r": "It sends signals down the optic nerve. For 10 points, name this layer at the back of the eye that contains rods and cones."
+        },
+        {
+            "p": "Edme Mariotte [“mar-ee-OT”] discovered in the 1600s that one part of this tissue can’t detect light at all. That blind spot, the optic disc, has no light-sensing cells because it is where nerve fibers bundle together and exit the eye.",
+            "r": "Elsewhere, its fovea gives the sharpest vision. For 10 points, name this light-sensitive layer at the back of the eye."
+        },
+        {
+            "p": "George Wald shared a 1967 Nobel Prize for showing how vitamin A is used in this tissue. When light strikes it, a bent vitamin A–based molecule straightens from its “cis” shape into its “trans” shape, which starts a nerve signal.",
+            "r": "This tissue’s cones detect color. For 10 points, name this layer at the back of the eye that sends signals down the optic nerve."
+        },
+        {
+            "p": "In this tissue, the G protein transducin [“trans-DOO-sin”] activates an enzyme that breaks down cyclic GMP, closing sodium channels. As a result, its light-sensing cells release less of the neurotransmitter glutamate when light hits them, and more in the dark.",
+            "r": "Its central pit, the fovea, is packed with cones. For 10 points, name this layer of the eye whose rod cells contain the pigment rhodopsin."
+        },
+        {
+            "p": "In 1604, Johannes Kepler correctly explained that the lens of the eye focuses an image onto this tissue, and that the image arrives upside down. Most people have three kinds of color-sensing cells in this tissue, and a missing or faulty kind causes color blindness.",
+            "r": "Its signals reach the brain through the optic nerve. For 10 points, name this light-sensitive layer that contains rods and cones."
+        },
+        {
+            "p": "Horizontal cells and amacrine [“AM-uh-krin”] cells link neurons sideways within this tissue. Light must pass through its layers of ganglion cells and bipolar cells before reaching the light-sensing cells at the very back, and the ganglion cells’ long fibers bundle together to form the optic nerve.",
+            "r": "It contains rods and cones. For 10 points, name this layer of tissue at the back of the eye."
+        },
+        {
+            "p": "A small group of this tissue’s ganglion cells use the pigment melanopsin to sense brightness and help set the body’s daily clock, or circadian rhythm. Those signals travel to a part of the brain called the suprachiasmatic [“soo-pruh-kye-az-MAT-ik”] nucleus.",
+            "r": "Its rods work in dim light, and its cones detect color. For 10 points, name this layer at the back of the eye."
+        },
+        {
+            "p": "This tissue grows out of the developing brain and folds into a cup shape, so scientists count it as part of the central nervous system. Its dark outermost layer, the pigment epithelium, soaks up stray light and helps recycle the vitamin A–based molecules its light-sensing cells use.",
+            "r": "The optic nerve carries its signals to the brain. For 10 points, name this light-sensitive layer that contains rods and cones."
+        },
+        {
+            "p": "Hermann von Helmholtz’s 1851 invention, the ophthalmoscope [“off-THAL-muh-skope”], let doctors peer through the pupil and see this tissue inside a living eye. Eye doctors examine its blood vessels for damage caused by diabetes, and its vessel pattern is unique enough to identify a person in a security scan.",
+            "r": "Its fovea is packed with cones. For 10 points, name this light-sensitive layer at the back of the eye."
+        },
+        {
+            "p": "In cats and many other animals that are active at night, a mirror-like layer called the tapetum lucidum [“tuh-PEE-tum LOO-sih-dum”] sits behind this tissue and bounces light back through it, making their eyes shine in headlights. In humans, this tissue’s rods take over in dim light.",
+            "r": "It sends signals through the optic nerve. For 10 points, name this layer at the back of the eye whose cones detect color."
+        },
+        {
+            "p": "Age-related macular degeneration damages the center of this tissue, blurring the middle of a person’s view. That central area, the macula, contains a tiny pit called the fovea [“FOH-vee-uh”], which is packed with cones and gives the sharpest vision.",
+            "r": "The optic nerve carries its signals to the brain. For 10 points, name this layer at the back of the eye that also contains rods."
+        },
+        {
+            "p": "The pigment rhodopsin [“roh-DOP-sin”], once called “visual purple,” is packed into the rod cells of this tissue and is made from a protein called opsin plus a molecule built from vitamin A. Because of that, a lack of vitamin A can cause night blindness.",
+            "r": "It lines the back of the eye. For 10 points, name this light-sensitive layer whose cone cells detect color."
+        },
+        {
+            "p": "Octopuses and squids have a version of this tissue with its light-sensing cells facing toward the light and its nerve fibers behind, so they have no blind spot. In humans, light must pass through layers of nerve cells in this tissue before reaching the light-sensing cells at the back.",
+            "r": "Its signals leave the eye through the optic nerve. For 10 points, name this layer of the eye that contains rods and cones."
+        },
+        {
+            "p": "Santiago Ramón y Cajal [“kah-HAHL”] drew detailed pictures of the layers of neurons in this tissue. At dusk, reds start to look darker compared with blues, an effect called the Purkinje [“pur-KIN-jee”] shift, because this tissue’s rods take over from its cones.",
+            "r": "It sends signals to the brain through the optic nerve. For 10 points, name this light-sensitive layer at the back of the eye."
+        },
+        {
+            "p": "This tissue turns light into electrical signals using two kinds of cells: one kind works best in dim light, and the other kind needs brighter light and detects color. The lens of the eye focuses an upside-down image onto this tissue.",
+            "r": "For 10 points, name this layer at the back of the eye that sends signals down the optic nerve."
+        }
+    ],
+    "clues": [
+        {
+            "id": "back-of-eye",
+            "tier": "giveaway",
+            "t": "Thin, light-sensitive layer of tissue lining the back of the eye",
+            "k": ["light-sensitive", "back of the eye"],
+            "n": 0
+        },
+        {
+            "id": "rods-cones",
+            "tier": "giveaway",
+            "t": "Contains the light-sensing cells called rods and cones",
+            "k": ["rods", "cones"],
+            "n": 0
+        },
+        {
+            "id": "optic-nerve",
+            "tier": "giveaway",
+            "t": "Sends its signals to the brain through the optic nerve",
+            "k": ["optic nerve", "brain"],
+            "n": 0
+        },
+        {
+            "id": "upside-down",
+            "tier": "giveaway",
+            "t": "The eye’s lens focuses an upside-down image onto it",
+            "k": ["upside-down", "lens", "image"],
+            "n": 0
+        },
+        {
+            "id": "rods-vs-cones",
+            "tier": "middle",
+            "t": "Rods work in dim light (night vision); cones need brighter light and detect color",
+            "k": ["dim light", "detect color", "night vision"],
+            "n": 0
+        },
+        {
+            "id": "three-cones",
+            "tier": "middle",
+            "t": "Most people have three kinds of cones, most sensitive to red, green, or blue light; a missing or faulty kind causes color blindness",
+            "k": ["three kinds", "color blindness"],
+            "n": 0
+        },
+        {
+            "id": "fovea",
+            "tier": "middle",
+            "t": "The fovea, a small central pit packed with cones, gives the sharpest vision",
+            "k": ["fovea", "sharpest"],
+            "n": 0
+        },
+        {
+            "id": "macula",
+            "tier": "middle",
+            "t": "The fovea sits in the macula, the central area damaged in age-related macular degeneration",
+            "k": ["macula", "macular degeneration"],
+            "n": 0
+        },
+        {
+            "id": "blind-spot",
+            "tier": "middle",
+            "t": "The optic disc, where nerve fibers exit the eye, has no light-sensing cells and creates a blind spot",
+            "k": ["optic disc", "blind spot"],
+            "n": 0
+        },
+        {
+            "id": "rhodopsin",
+            "tier": "middle",
+            "t": "Rods are packed with the pigment rhodopsin (“visual purple”), made of the protein opsin plus a vitamin A–based molecule",
+            "k": ["rhodopsin", "visual purple", "opsin"],
+            "n": 0
+        },
+        {
+            "id": "night-blindness",
+            "tier": "middle",
+            "t": "A lack of vitamin A can cause night blindness, because rods need it to make their pigment",
+            "k": ["vitamin a", "night blindness"],
+            "n": 0
+        },
+        {
+            "id": "layers",
+            "tier": "middle",
+            "t": "Light passes through layers of ganglion cells and bipolar cells before reaching the rods and cones at the back; ganglion cell fibers form the optic nerve",
+            "k": ["ganglion cells", "bipolar cells"],
+            "n": 0
+        },
+        {
+            "id": "vessel-scan",
+            "tier": "middle",
+            "t": "Eye doctors check its blood vessels for damage from diabetes; the vessel pattern is unique enough for security scans",
+            "k": ["blood vessels", "diabetes", "security scans"],
+            "n": 0
+        },
+        {
+            "id": "octopus",
+            "tier": "power",
+            "t": "Octopus and squid versions have light-sensing cells facing the light, with nerve fibers behind, so they have no blind spot",
+            "k": ["octopus", "squid", "no blind spot"],
+            "n": 0
+        },
+        {
+            "id": "mariotte",
+            "tier": "power",
+            "t": "Edme Mariotte discovered its blind spot in the 1600s",
+            "k": ["mariotte", "1600s"],
+            "n": 0
+        },
+        {
+            "id": "kepler",
+            "tier": "power",
+            "t": "Johannes Kepler explained in 1604 that the lens focuses an upside-down image onto it",
+            "k": ["kepler", "1604"],
+            "n": 0
+        },
+        {
+            "id": "wald",
+            "tier": "power",
+            "t": "George Wald shared a 1967 Nobel Prize for showing how vitamin A works here: light straightens a bent molecule from its “cis” to its “trans” shape",
+            "k": ["george wald", "1967", "trans"],
+            "n": 0
+        },
+        {
+            "id": "transducin",
+            "tier": "power",
+            "t": "The G protein transducin triggers the breakdown of cyclic GMP, so its light-sensing cells release less glutamate in light and more in the dark",
+            "k": ["transducin", "cyclic gmp", "glutamate"],
+            "n": 0
+        },
+        {
+            "id": "horizontal-amacrine",
+            "tier": "power",
+            "t": "Horizontal cells and amacrine cells connect its neurons sideways",
+            "k": ["horizontal cells", "amacrine"],
+            "n": 0
+        },
+        {
+            "id": "knudson",
+            "tier": "power",
+            "t": "A rare childhood cancer of this tissue, linked to the RB gene, led Alfred Knudson to his “two-hit” hypothesis",
+            "k": ["knudson", "two-hit", "rb gene"],
+            "n": 0
+        },
+        {
+            "id": "central-nervous-system",
+            "tier": "power",
+            "t": "Grows out of the developing brain and folds into a cup, so it counts as part of the central nervous system",
+            "k": ["central nervous system", "developing brain"],
+            "n": 0
+        },
+        {
+            "id": "melanopsin",
+            "tier": "power",
+            "t": "Some of its ganglion cells use melanopsin to sense brightness and set the body’s circadian rhythm, signaling the suprachiasmatic nucleus",
+            "k": ["melanopsin", "circadian", "suprachiasmatic"],
+            "n": 0,
+            "rabbit": "Sleep"
+        },
+        {
+            "id": "pigment-epithelium",
+            "tier": "power",
+            "t": "Its dark outermost layer, the pigment epithelium, absorbs stray light and recycles vitamin A–based molecules",
+            "k": ["pigment epithelium", "stray light"],
+            "n": 0
+        },
+        {
+            "id": "helmholtz",
+            "tier": "power",
+            "t": "Hermann von Helmholtz invented the ophthalmoscope in 1851, letting doctors see it inside a living eye",
+            "k": ["helmholtz", "ophthalmoscope", "1851"],
+            "n": 0
+        },
+        {
+            "id": "tapetum",
+            "tier": "power",
+            "t": "In cats, a mirror-like layer behind it, the tapetum lucidum, bounces light back through it and makes their eyes shine",
+            "k": ["tapetum lucidum", "cats", "mirror-like"],
+            "n": 0
+        },
+        {
+            "id": "cajal",
+            "tier": "power",
+            "t": "Santiago Ramón y Cajal drew detailed pictures of its layers of neurons",
+            "k": ["cajal", "pictures"],
+            "n": 0,
+            "rabbit": "Neurons"
+        },
+        {
+            "id": "purkinje",
+            "tier": "power",
+            "t": "The Purkinje shift: at dusk its rods take over from its cones, so reds look darker compared with blues",
+            "k": ["purkinje", "dusk"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The whole layer, not a part",
+        "body": "Many tossups on this tissue describe its parts, like the fovea, the rods and cones, or the blind spot, and players blurt out the part instead of the whole layer. Others hear “vitamin A” or “cis and trans” and answer “retinal,” which is the light-catching molecule inside rhodopsin and a different answer line. The cornea and lens focus light; they don’t sense it.",
+        "fix": "If the question says “this tissue,” “this layer,” or “this structure at the back of the eye,” say retina. Save “fovea” for “this central pit,” “optic disc” for “this blind spot,” and “retinal” for a question about “this molecule.”",
+        "line": "Real answer line: <b><u>Retina</u></b> (accept <u>retinas</u> or <u>retinae</u>; do not accept “retinal”)"
+    },
+    "tests": {
+        "right": [
+            "Retina",
+            "retinas",
+            "Retena",
+            "the retina"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Retinal",
+            "Cornea",
+            "Fovea",
+            "Optic nerve",
+            "Iris",
+            "Rhodopsin"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

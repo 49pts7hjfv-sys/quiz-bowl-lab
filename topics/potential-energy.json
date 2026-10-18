@@ -1,0 +1,434 @@
+{
+  "id": "potential-energy",
+  "name": "Potential energy",
+  "mono": "PE",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Stored energy of position · Equals mass times g times height",
+  "dates": "Named by William Rankine in 1853",
+  "briefing": "Potential energy is energy waiting to happen: a boulder perched on a cliff, a stretched rubber band, and a drawn bow all store it because of their position or shape. Lift something and you give it gravitational potential energy equal to its mass times g times its height; let it fall, and that energy turns into kinetic energy. The Scottish engineer William Rankine gave it its name in 1853.",
+  "answerHtml": "<b><u>Potential energy</u></b> (accept <u>PE</u>; accept specific types such as <u>gravitational potential energy</u> or <u>elastic potential energy</u>; prompt on <u>energy</u> or <u>potential</u>; do not accept “kinetic energy”)",
+  "accept": [
+    "potential energy",
+    "potential energies",
+    "pe",
+    "gravitational potential energy",
+    "elastic potential energy",
+    "electric potential energy",
+    "electrical potential energy",
+    "chemical potential energy"
+  ],
+  "prompt": [
+    "energy",
+    "potential",
+    "stored energy"
+  ],
+  "reject": [
+    "kinetic energy",
+    "ke",
+    "kinetic",
+    "mechanical energy",
+    "thermal energy",
+    "heat",
+    "work",
+    "power",
+    "momentum",
+    "voltage",
+    "electric potential",
+    "potential difference",
+    "chemical potential",
+    "potential well",
+    "lagrangian",
+    "hamiltonian"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Potential_energy",
+  "qb": {
+    "q": "potential energy",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "William Rankine, who also names a temperature scale with Fahrenheit-sized degrees, gave this quantity its modern name in 1853. Subtracting this quantity from kinetic energy gives the Lagrangian, and a conservative force equals the negative gradient, or downhill slope, of this quantity.",
+      "r": "For a raised object, this quantity equals mass times g times height. For 10 points, name this energy an object stores because of its position."
+    },
+    {
+      "p": "The virial theorem says that for a stable star cluster, twice the average kinetic energy plus the average of this quantity equals zero. For gravity, this quantity is usually defined as zero at infinite separation, so it is negative at every finite distance.",
+      "r": "A stretched spring stores one-half k x squared of it. For 10 points, name this stored energy of position, the partner of kinetic energy."
+    },
+    {
+      "p": "The Lennard-Jones model describes this quantity for a pair of neutral atoms with a repulsive term that depends on the inverse twelfth power of distance and an attractive term that depends on the inverse sixth power. A system rests in stable equilibrium wherever this quantity is at a minimum.",
+      "r": "A boulder perched on a cliff has a lot of it. For 10 points, name this energy stored because of an object’s position."
+    },
+    {
+      "p": "Pumped-storage power plants use spare electricity to push water uphill into a high reservoir, banking this quantity until the water flows back down through turbines. The amount of this quantity a lake behind a dam holds depends on how far the water sits above a chosen reference level.",
+      "r": "For 10 points, name this energy of position, equal to mass times g times height near Earth’s surface."
+    },
+    {
+      "p": "For many simple systems, the Hamiltonian equals kinetic energy plus this quantity, which is often written U or V. Gravity, spring forces, and electric forces each have a version of this quantity, but friction does not, because friction is not a conservative force.",
+      "r": "A roller coaster has the most of it at the top of its highest hill. For 10 points, name this stored energy of position."
+    },
+    {
+      "p": "Setting an object’s kinetic energy equal to the size of this quantity lets you calculate a planet’s escape velocity. Between two masses, the gravitational form of this quantity equals negative G times the product of the masses, divided by the distance between them.",
+      "r": "Near the ground, it equals m g h. For 10 points, name this energy that an object stores because of where it is."
+    },
+    {
+      "p": "Dividing the electric version of this quantity by a small test charge gives a value measured in volts. For two point charges, this quantity equals Coulomb’s constant times the product of the charges divided by the distance between them.",
+      "r": "The chemical energy stored in food and fuel is a form of it. For 10 points, name this stored energy, which turns into kinetic energy as an object falls."
+    },
+    {
+      "p": "Only changes in this quantity matter physically, so physicists may choose any convenient level to call zero. In a swinging pendulum, this quantity peaks at the two ends of each swing, where the bob stops for an instant.",
+      "r": "Adding it to kinetic energy gives mechanical energy. For 10 points, name this energy of position, which turns into motion when an object drops."
+    },
+    {
+      "p": "Chemists map how this quantity changes as atoms rearrange during a reaction, and the transition state sits at a saddle point on that map. A model named for physicist Philip Morse describes this quantity for the two atoms of a diatomic molecule as their bond stretches.",
+      "r": "A drawn bow stores this kind of energy until the arrow is released. For 10 points, name this energy stored because of position or shape."
+    },
+    {
+      "p": "A particle trapped in a region where this quantity is low is said to sit in a “well,” as in the infinite square well of quantum mechanics. A spring stretched a distance x stores one-half k x squared of this quantity.",
+      "r": "For 10 points, name this stored energy, also found in rubber bands, drawn bows, and objects lifted off the ground."
+    },
+    {
+      "p": "The work done on an object by a conservative force equals the negative of the change in this quantity. A ball thrown straight up trades its kinetic energy for this quantity until it reaches the top of its path.",
+      "r": "For 10 points, name this stored energy that a raised object has, which depends on its mass and its height."
+    },
+    {
+      "p": "In the Lagrangian of classical mechanics, written L equals T minus V, this quantity is the V. Lifting a 1-kilogram mass by 1 meter near Earth’s surface adds about 9.8 joules of this quantity.",
+      "r": "Water held behind a dam and a book on a high shelf both have it. For 10 points, name this energy of position."
+    },
+    {
+      "p": "As two hydrogen atoms approach each other, this quantity falls to its lowest point at the bond length, and energy is released as the bond forms. Breaking that bond again requires adding energy to raise this quantity.",
+      "r": "For 10 points, name this energy stored in a system because of the positions of its parts, the counterpart of kinetic energy."
+    },
+    {
+      "p": "On a graph of this quantity against position, the negative of the slope at any point gives the force on an object. A pencil balanced on its tip is in unstable equilibrium because it sits at a peak of this quantity.",
+      "r": "For 10 points, name this energy of position, which a diver on a high platform has more of than a diver on a low board."
+    },
+    {
+      "p": "Pulling apart two magnets that attract each other increases this quantity, as does separating a positive charge from a negative one. Food, fuel, and batteries store chemical energy, which is really a form of this quantity.",
+      "r": "For 10 points, name this stored energy of position or arrangement, the partner of kinetic energy."
+    }
+  ],
+  "clues": [
+    {
+      "id": "stored-position",
+      "tier": "giveaway",
+      "t": "Energy an object stores because of its position, shape, or arrangement",
+      "k": [
+        "stores",
+        "position",
+        "arrangement"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mgh",
+      "tier": "giveaway",
+      "t": "Near Earth’s surface, its gravitational form equals mass times g times height (m g h)",
+      "k": [
+        "mass times g",
+        "height",
+        "mgh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "partner-kinetic",
+      "tier": "giveaway",
+      "t": "The partner of kinetic energy: a falling object converts it into kinetic energy",
+      "k": [
+        "kinetic",
+        "falling",
+        "converts"
+      ],
+      "n": 0,
+      "rabbit": "Kinetic Energy"
+    },
+    {
+      "id": "examples",
+      "tier": "giveaway",
+      "t": "Examples: a boulder on a cliff, water behind a dam, a drawn bow, a stretched rubber band",
+      "k": [
+        "boulder",
+        "drawn bow",
+        "rubber band",
+        "dam"
+      ],
+      "n": 0
+    },
+    {
+      "id": "roller-coaster",
+      "tier": "giveaway",
+      "t": "A roller coaster has the most of it at the top of its highest hill",
+      "k": [
+        "roller coaster",
+        "highest hill"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spring",
+      "tier": "middle",
+      "t": "Its elastic form: a spring stretched or squeezed a distance x stores one-half k x squared",
+      "k": [
+        "elastic",
+        "spring",
+        "one-half k x squared"
+      ],
+      "n": 0,
+      "rabbit": "Hooke’s law"
+    },
+    {
+      "id": "mechanical",
+      "tier": "middle",
+      "t": "Added to kinetic energy, it gives mechanical energy, which stays constant when there is no friction",
+      "k": [
+        "mechanical",
+        "stays constant"
+      ],
+      "n": 0
+    },
+    {
+      "id": "conservative",
+      "tier": "middle",
+      "t": "Only conservative forces (gravity, springs, electric forces) have a version of it; friction does not",
+      "k": [
+        "conservative",
+        "friction"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zero-level",
+      "tier": "middle",
+      "t": "Only changes in it matter, so physicists may choose any convenient reference level as zero",
+      "k": [
+        "reference level",
+        "zero"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pendulum",
+      "tier": "middle",
+      "t": "A pendulum has the most of it at the two ends of each swing and the least at the bottom",
+      "k": [
+        "pendulum",
+        "ends of each swing"
+      ],
+      "n": 0,
+      "rabbit": "Pendulums"
+    },
+    {
+      "id": "chemical",
+      "tier": "middle",
+      "t": "Chemical energy stored in food, fuel, and batteries is a form of it",
+      "k": [
+        "chemical",
+        "food",
+        "batteries"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pumped-storage",
+      "tier": "middle",
+      "t": "Pumped-storage power plants push water uphill to store it, then let the water flow back down through turbines",
+      "k": [
+        "pumped-storage",
+        "uphill",
+        "turbines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "work-change",
+      "tier": "middle",
+      "t": "The work done by a conservative force equals the negative of its change",
+      "k": [
+        "work done",
+        "negative"
+      ],
+      "n": 0,
+      "rabbit": "Work (physics)"
+    },
+    {
+      "id": "rankine",
+      "tier": "power",
+      "t": "Named in 1853 by Scottish engineer William Rankine, who also names a temperature scale with Fahrenheit-sized degrees",
+      "k": [
+        "rankine",
+        "1853",
+        "scottish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lagrangian",
+      "tier": "power",
+      "t": "The Lagrangian is kinetic energy minus this: L equals T minus V",
+      "k": [
+        "lagrangian",
+        "t minus v"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hamiltonian",
+      "tier": "power",
+      "t": "For many systems, the Hamiltonian (the total energy) is kinetic energy plus this",
+      "k": [
+        "hamiltonian",
+        "total energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "symbol",
+      "tier": "power",
+      "t": "Usually given the symbol U, or V in the Lagrangian",
+      "k": [
+        "symbol",
+        "u or v"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gradient",
+      "tier": "power",
+      "t": "A conservative force equals its negative gradient: on a graph against position, force is the negative of the slope",
+      "k": [
+        "gradient",
+        "slope"
+      ],
+      "n": 0
+    },
+    {
+      "id": "equilibrium",
+      "tier": "power",
+      "t": "Stable equilibrium sits at a minimum of it; a pencil balanced on its tip is at a peak (unstable equilibrium)",
+      "k": [
+        "stable equilibrium",
+        "minimum",
+        "pencil"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gravity-formula",
+      "tier": "power",
+      "t": "Between two masses, its gravitational form is negative G M m over r: zero at infinite distance and negative everywhere closer",
+      "k": [
+        "infinite distance",
+        "negative g"
+      ],
+      "n": 0
+    },
+    {
+      "id": "escape-velocity",
+      "tier": "power",
+      "t": "Setting kinetic energy equal to the size of its gravitational form gives a planet’s escape velocity",
+      "k": [
+        "escape velocity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coulomb",
+      "tier": "power",
+      "t": "Between two point charges: Coulomb’s constant times the two charges over r; dividing by charge gives a value in volts",
+      "k": [
+        "coulomb",
+        "point charges",
+        "volts"
+      ],
+      "n": 0,
+      "rabbit": "Voltage"
+    },
+    {
+      "id": "virial",
+      "tier": "power",
+      "t": "Virial theorem: in a stable star cluster, twice the average kinetic energy plus the average of this equals zero",
+      "k": [
+        "virial",
+        "star cluster"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lennard-jones",
+      "tier": "power",
+      "t": "The Lennard-Jones model for two neutral atoms has an inverse twelfth-power repulsion and an inverse sixth-power attraction",
+      "k": [
+        "lennard-jones",
+        "twelfth",
+        "sixth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saddle-point",
+      "tier": "power",
+      "t": "Chemists map it as atoms rearrange in a reaction; the transition state sits at a saddle point",
+      "k": [
+        "saddle point",
+        "transition state"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morse",
+      "tier": "power",
+      "t": "A model named for Philip Morse describes it for the two atoms of a diatomic molecule",
+      "k": [
+        "morse",
+        "diatomic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "well",
+      "tier": "power",
+      "t": "A particle trapped where it is low sits in a “well,” like the infinite square well of quantum mechanics",
+      "k": [
+        "square well",
+        "well"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Stored, moving, or volts?",
+    "body": "This is the stored half of mechanical energy; kinetic energy is the half that comes from motion, and the two are separate answers with separate pages on this site. Players also blurt out “electric potential” or “voltage,” but that is this energy divided by charge, measured in volts, so it is a different answer. A bare “energy” or “potential” only earns a prompt.",
+    "fix": "Height, springs, position, the letters U or V, or the minus sign in the Lagrangian point here. One-half m v squared or speed means kinetic energy, and volts mean voltage. If you are prompted, say the full two words.",
+    "line": "Real answer line: <b><u>Potential energy</u></b> (accept <u>PE</u> or specific types such as gravitational potential energy; prompt on <u>energy</u>; do not accept “kinetic energy”)"
+  },
+  "tests": {
+    "right": [
+      "Potential energy",
+      "PE",
+      "gravitational potential energy",
+      "Potental energy",
+      "Elastic potential energy",
+      "electric potential energy"
+    ],
+    "prompt": [
+      "Energy",
+      "potential"
+    ],
+    "wrong": [
+      "Kinetic energy",
+      "KE",
+      "Mechanical energy",
+      "Voltage",
+      "Electric potential",
+      "Work"
+    ]
+  }
+}

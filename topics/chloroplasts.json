@@ -1,0 +1,445 @@
+{
+  "id": "chloroplasts",
+  "name": "Chloroplasts",
+  "mono": "CHL",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Green organelles in plant and algae cells · Where photosynthesis happens",
+  "dates": "Found in the cells of plants and algae",
+  "briefing": "Chloroplasts are the tiny green solar factories inside plant and algae cells. Packed with the pigment chlorophyll, they capture sunlight and use it to turn carbon dioxide and water into sugar, releasing the oxygen we breathe. Long ago their ancestors were free-living cyanobacteria that got swallowed by a bigger cell, which is why chloroplasts still carry their own DNA.",
+  "answerHtml": "<b><u>Chloroplasts</u></b> (accept <u>chloroplast</u>; prompt on <u>plastids</u>; do not accept “chlorophyll” or “chromoplasts”)",
+  "accept": [
+    "chloroplasts",
+    "chloroplast"
+  ],
+  "prompt": [
+    "plastids",
+    "plastid"
+  ],
+  "reject": [
+    "chlorophyll",
+    "chlorophylls",
+    "chlorophyll a",
+    "chlorophyll b",
+    "chromoplasts",
+    "chromoplast",
+    "leucoplasts",
+    "leucoplast",
+    "amyloplasts",
+    "amyloplast",
+    "etioplasts",
+    "etioplast",
+    "proplastids",
+    "proplastid",
+    "apicoplast",
+    "chloroplast dna",
+    "chloroplast genome",
+    "thylakoids",
+    "thylakoid",
+    "grana",
+    "granum",
+    "stroma",
+    "mitochondria",
+    "mitochondrion",
+    "cyanobacteria",
+    "photosynthesis",
+    "calvin cycle",
+    "nucleus",
+    "vacuole",
+    "cell wall"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Chloroplast",
+  "qb": {
+    "q": "chloroplast",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The sea slug Elysia chlorotica steals these organelles from the algae it eats and keeps them working inside its own cells for months, a trick called kleptoplasty. Each of these organelles holds stacks of flattened sacs called grana.",
+      "r": "Inside them, chlorophyll captures sunlight for photosynthesis. For 10 points, name these green organelles found in plant cells."
+    },
+    {
+      "p": "In 1909, Carl Correns found that the green and white patches on variegated four o’clock plants are passed down only through the mother, because these organelles travel in the egg rather than in pollen. These organelles carry their own small, circular DNA.",
+      "r": "They contain chlorophyll. For 10 points, name these organelles in which plants carry out photosynthesis."
+    },
+    {
+      "p": "Theodor Engelmann shone a prism’s rainbow onto a strand of algae and found that oxygen-loving bacteria crowded around the parts lit by red and blue light, where these organelles were working hardest. These organelles hold the pigments chlorophyll a and b along with orange carotenoids.",
+      "r": "Their stacked thylakoids capture light energy. For 10 points, name these green organelles where photosynthesis takes place."
+    },
+    {
+      "p": "The alga Spirogyra [“spy-roh-JY-ruh”] is named for its ribbon-like spiral of this organelle, while Chlamydomonas [“klam-ih-doh-MOH-nus”] has one cup-shaped example holding a pyrenoid wrapped in starch. Under a microscope, these organelles drift around Elodea leaf cells by cytoplasmic streaming.",
+      "r": "For 10 points, name these green organelles that carry out photosynthesis in plant and algae cells."
+    },
+    {
+      "p": "Lynn Margulis championed the idea that these organelles descend from cyanobacteria that were swallowed by an ancient cell and never digested. Like mitochondria, these organelles are wrapped in two membranes and have their own circular DNA and bacteria-like ribosomes.",
+      "r": "They contain the green pigment chlorophyll. For 10 points, name these organelles where plants make sugar using sunlight."
+    },
+    {
+      "p": "Some algae picked up these organelles secondhand by swallowing other algae, so their versions are wrapped in three or four membranes, and cryptophytes even keep a shrunken leftover nucleus called a nucleomorph. The malaria parasite carries a non-green relative of these organelles called the apicoplast.",
+      "r": "In land plants, these organelles have just two membranes. For 10 points, name these green organelles that contain chlorophyll and carry out photosynthesis."
+    },
+    {
+      "p": "These organelles divide by pinching in two with the help of FtsZ, a ring-forming protein inherited from their bacterial ancestors. Most of their proteins are made out in the cytoplasm and must be imported through gateways called TOC and TIC.",
+      "r": "Their thylakoid membranes capture light energy. For 10 points, name these green organelles in plant cells."
+    },
+    {
+      "p": "The gene rbcL, which plant scientists use as a DNA barcode to tell species apart, sits in the DNA of these organelles and codes for the large subunit of RuBisCO [“roo-BIS-koh”]. That enzyme fixes carbon dioxide in the fluid called stroma inside these organelles.",
+      "r": "Chlorophyll in their thylakoids absorbs light. For 10 points, name these organelles where the Calvin cycle takes place."
+    },
+    {
+      "p": "Like chromoplasts, which help turn ripe tomatoes red, and starch-storing amyloplasts, these organelles develop from small, unspecialized proplastids. Plants grown in total darkness form pale etioplasts that turn into these organelles once light arrives.",
+      "r": "These green organelles hold chlorophyll and carry out photosynthesis. For 10 points, name this kind of plastid found in leaf cells."
+    },
+    {
+      "p": "During the light reactions, protons pile up inside the thylakoid lumen of these organelles and then rush back out into the stroma through ATP synthase. Water molecules are split inside these organelles, releasing the oxygen that plants give off.",
+      "r": "Their stroma hosts the Calvin cycle. For 10 points, name these green organelles where photosynthesis happens."
+    },
+    {
+      "p": "In very bright light, these organelles line up along the side walls of leaf cells to avoid damage, but in dim light they spread out across the cell to catch as much light as possible. The palisade cells of a leaf are packed with them.",
+      "r": "They give leaves their green color. For 10 points, name these organelles in plant cells that contain chlorophyll."
+    },
+    {
+      "p": "Coin-like sacs called thylakoids are stacked inside this organelle into grana [“GRAY-nuh”], which are joined by flat bridges called stroma lamellae [“luh-MEL-ee”]. The thick fluid around those stacks, the stroma, is where carbon dioxide is turned into sugar.",
+      "r": "Its green pigment is chlorophyll. For 10 points, name this organelle that carries out photosynthesis in plant cells."
+    },
+    {
+      "p": "In C4 plants such as corn, the Calvin cycle runs inside these organelles in bundle-sheath cells wrapped around the leaf veins. On the leaf’s outer skin, the guard cells that open and close each stoma also contain these organelles.",
+      "r": "They contain the pigment chlorophyll. For 10 points, name these green organelles where photosynthesis takes place."
+    },
+    {
+      "p": "In glaucophyte [“GLAW-koh-fyte”] algae, these organelles still keep a thin layer of peptidoglycan [“pep-tih-doh-GLY-kan”], the same material found in bacterial cell walls, a clue to where they came from. Their name comes from Greek words meaning “green” and “formed.”",
+      "r": "For 10 points, name these organelles in plant and algae cells that turn light energy into chemical energy."
+    },
+    {
+      "p": "In autumn, many trees break down the chlorophyll inside these organelles, letting yellow and orange carotenoids show through. During the day, these organelles store some of the sugar they make as grains of starch.",
+      "r": "Their thylakoid membranes capture sunlight. For 10 points, name these green organelles that carry out photosynthesis in plant cells."
+    }
+  ],
+  "clues": [
+    {
+      "id": "photosynthesis",
+      "tier": "giveaway",
+      "t": "The organelles where photosynthesis takes place in plants and algae",
+      "k": [
+        "photosynthesis"
+      ],
+      "n": 0,
+      "rabbit": "Photosynthesis"
+    },
+    {
+      "id": "chlorophyll",
+      "tier": "giveaway",
+      "t": "Green because they hold the pigment chlorophyll; their name comes from Greek for “green” and “formed”",
+      "k": [
+        "chlorophyll",
+        "pigment",
+        "green"
+      ],
+      "n": 0,
+      "rabbit": "Chlorophyll"
+    },
+    {
+      "id": "plant-cells",
+      "tier": "giveaway",
+      "t": "Found in plant and algae cells, but not in animal cells",
+      "k": [
+        "animal cells",
+        "plant",
+        "algae"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sunlight-sugar",
+      "tier": "giveaway",
+      "t": "Capture sunlight to build sugar from carbon dioxide and water, giving off oxygen",
+      "k": [
+        "sunlight",
+        "carbon dioxide",
+        "oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thylakoids-grana",
+      "tier": "middle",
+      "t": "Inside are coin-like sacs called thylakoids, stacked into grana and linked by stroma lamellae",
+      "k": [
+        "thylakoids",
+        "grana"
+      ],
+      "n": 0,
+      "rabbit": "Thylakoids"
+    },
+    {
+      "id": "stroma",
+      "tier": "middle",
+      "t": "The fluid around the stacks is the stroma, where the Calvin cycle turns carbon dioxide into sugar",
+      "k": [
+        "stroma",
+        "calvin cycle"
+      ],
+      "n": 0,
+      "rabbit": "Calvin cycle"
+    },
+    {
+      "id": "light-reactions",
+      "tier": "middle",
+      "t": "The light reactions happen in the thylakoid membranes, splitting water and releasing oxygen",
+      "k": [
+        "light reactions",
+        "splitting water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-membrane-dna",
+      "tier": "middle",
+      "t": "Like mitochondria, they have two membranes, their own circular DNA, and bacteria-like ribosomes",
+      "k": [
+        "two membranes",
+        "circular dna",
+        "mitochondria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "endosymbiosis",
+      "tier": "middle",
+      "t": "Endosymbiotic theory: they descend from cyanobacteria swallowed by an ancient cell; Lynn Margulis championed the idea",
+      "k": [
+        "cyanobacteria",
+        "endosymbiotic",
+        "lynn margulis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plastid",
+      "tier": "middle",
+      "t": "A type of plastid; relatives include chromoplasts (which color fruits) and amyloplasts (which store starch)",
+      "k": [
+        "plastid",
+        "chromoplasts",
+        "amyloplasts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "palisade-guard",
+      "tier": "middle",
+      "t": "Packed into a leaf’s palisade cells, and found in the guard cells that open and close each stoma",
+      "k": [
+        "palisade",
+        "guard cells",
+        "stoma"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elodea",
+      "tier": "middle",
+      "t": "Seen drifting by cytoplasmic streaming in Elodea leaf cells under a microscope",
+      "k": [
+        "cytoplasmic streaming",
+        "elodea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "autumn-starch",
+      "tier": "middle",
+      "t": "In autumn their chlorophyll breaks down, revealing yellow and orange carotenoids; they store some sugar as starch grains",
+      "k": [
+        "carotenoids",
+        "autumn",
+        "starch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kleptoplasty",
+      "tier": "power",
+      "t": "The sea slug Elysia chlorotica steals them from algae it eats and keeps them working, a trick called kleptoplasty",
+      "k": [
+        "kleptoplasty",
+        "sea slug",
+        "elysia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "correns",
+      "tier": "power",
+      "t": "Carl Correns (1909) showed that leaf patches on variegated four o’clocks come only from the mother, since these travel in the egg",
+      "k": [
+        "correns",
+        "variegated",
+        "four o’clocks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "engelmann",
+      "tier": "power",
+      "t": "Theodor Engelmann used a prism and oxygen-loving bacteria to show that algae work hardest in red and blue light",
+      "k": [
+        "engelmann",
+        "prism",
+        "red and blue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spirogyra",
+      "tier": "power",
+      "t": "Spirogyra has a spiral, ribbon-like one; Chlamydomonas has a single cup-shaped one with a starchy pyrenoid",
+      "k": [
+        "spirogyra",
+        "chlamydomonas",
+        "pyrenoid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "secondary-endosymbiosis",
+      "tier": "power",
+      "t": "Algae that got them secondhand have versions with three or four membranes; cryptophytes keep a leftover nucleus called a nucleomorph",
+      "k": [
+        "nucleomorph",
+        "four membranes",
+        "secondhand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "apicoplast",
+      "tier": "power",
+      "t": "The malaria parasite carries a non-green relative called the apicoplast",
+      "k": [
+        "apicoplast",
+        "malaria"
+      ],
+      "n": 0,
+      "rabbit": "Malaria"
+    },
+    {
+      "id": "ftsz",
+      "tier": "power",
+      "t": "Divide by pinching in two with the ring-forming protein FtsZ, inherited from their bacterial ancestors",
+      "k": [
+        "ftsz",
+        "pinching"
+      ],
+      "n": 0
+    },
+    {
+      "id": "toc-tic",
+      "tier": "power",
+      "t": "Most of their proteins are made in the cytoplasm and imported through gateways called TOC and TIC",
+      "k": [
+        "imported",
+        "gateways",
+        "toc"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rbcl",
+      "tier": "power",
+      "t": "Their gene rbcL codes for the large subunit of RuBisCO and is used as a DNA barcode for plants",
+      "k": [
+        "rbcl",
+        "rubisco",
+        "barcode"
+      ],
+      "n": 0
+    },
+    {
+      "id": "etioplasts",
+      "tier": "power",
+      "t": "Develop from proplastids; plants grown in darkness form pale etioplasts that turn green in light",
+      "k": [
+        "proplastids",
+        "etioplasts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lumen-protons",
+      "tier": "power",
+      "t": "Protons pile up in the thylakoid lumen and rush back into the stroma through ATP synthase",
+      "k": [
+        "lumen",
+        "protons",
+        "atp synthase"
+      ],
+      "n": 0
+    },
+    {
+      "id": "light-avoidance",
+      "tier": "power",
+      "t": "In bright light they line up along cell side walls to avoid damage; in dim light they spread out",
+      "k": [
+        "bright light",
+        "dim light",
+        "avoid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "c4-bundle-sheath",
+      "tier": "power",
+      "t": "In C4 plants such as corn, the Calvin cycle runs in the ones inside bundle-sheath cells",
+      "k": [
+        "bundle-sheath",
+        "c4 plants",
+        "corn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glaucophytes",
+      "tier": "power",
+      "t": "Glaucophyte algae versions still keep a peptidoglycan layer, like a bacterial cell wall",
+      "k": [
+        "glaucophyte",
+        "peptidoglycan"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Chloroplast or chlorophyll?",
+    "body": "Chlorophyll is the green pigment; chloroplasts are the organelles that hold it. The two words look almost alike, so a fast buzz on “green” or “captures light” can come out wrong. Thylakoids and the stroma are parts of the organelle, and mitochondria are its look-alike cousin, since both have two membranes and their own DNA.",
+    "fix": "Listen for the noun. “This organelle” or “this plastid” means chloroplast; “this pigment” or “this molecule” with a magnesium ion at its center means chlorophyll; “these stacked sacs” means thylakoids. Breaking down sugar for energy means mitochondria instead.",
+    "line": "Real answer line: <b><u>Chloroplasts</u></b> (accept <u>chloroplast</u>; prompt on <u>plastids</u>; do not accept “chlorophyll”)"
+  },
+  "tests": {
+    "right": [
+      "Chloroplasts",
+      "chloroplast",
+      "Cloroplasts",
+      "Chloroplats"
+    ],
+    "prompt": [
+      "Plastids",
+      "plastid"
+    ],
+    "wrong": [
+      "Chlorophyll",
+      "Chromoplasts",
+      "Mitochondria",
+      "Thylakoids",
+      "Leucoplast",
+      "Cyanobacteria"
+    ]
+  }
+}

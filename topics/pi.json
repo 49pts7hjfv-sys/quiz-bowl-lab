@@ -1,0 +1,447 @@
+{
+  "id": "pi",
+  "name": "Pi",
+  "mono": "PI",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Circumference ÷ diameter ≈ 3.14159 · Its digits never end or repeat",
+  "dates": "Symbol π first used by William Jones, 1706",
+  "briefing": "Pi (π) is the number you get when you divide any circle’s circumference by its diameter: about 3.14159, no matter how big or small the circle is. Its digits go on forever without repeating, and computers have calculated trillions of them, while people around the world celebrate Pi Day every March 14. The ancient Greek mathematician Archimedes was one of the first to pin it down, proving it is a little less than 22/7.",
+  "answerHtml": "<b><u>pi</u></b> (or <u>π</u>; accept <u>Archimedes’ constant</u> or <u>Ludolph’s number</u>; prompt on <u>3.14</u> or other decimal approximations)",
+  "accept": [
+    "pi",
+    "number pi",
+    "archimedes constant",
+    "archimedess constant",
+    "ludolphs number",
+    "ludolphine number"
+  ],
+  "prompt": [
+    "3 14",
+    "3 141",
+    "3 1415",
+    "3 14159",
+    "3 1416",
+    "3 142"
+  ],
+  "reject": [
+    "tau",
+    "e",
+    "eulers number",
+    "euler number",
+    "golden ratio",
+    "golden mean",
+    "phi",
+    "circle",
+    "circles",
+    "circumference",
+    "diameter",
+    "radius",
+    "radian",
+    "radians",
+    "22 7",
+    "355 113",
+    "infinity"
+  ],
+  "tests": {
+    "right": [
+      "pi",
+      "Pi",
+      "the number pi",
+      "Archimedes’ constant",
+      "Archimedes constnt",
+      "Ludolph’s number"
+    ],
+    "prompt": [
+      "3.14",
+      "3.14159"
+    ],
+    "wrong": [
+      "e",
+      "tau",
+      "golden ratio",
+      "pie",
+      "circumference",
+      "phi",
+      "22/7"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Pi",
+  "qb": {
+    "q": "pi",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1882, Ferdinand von Lindemann proved that this number is transcendental, meaning it is not a root of any polynomial with whole-number coefficients. His proof showed that squaring the circle with only a compass and straightedge is impossible.",
+      "r": "For 10 points, name this constant, about 3.14159, the ratio of a circle’s circumference to its diameter."
+    },
+    {
+      "p": "Johann Heinrich Lambert proved in 1761 that this number cannot be written as a fraction of two whole numbers. A run of six 9s in a row begins at the 762nd decimal place of this number, a spot named for physicist Richard Feynman.",
+      "r": "The fraction 22 over 7 is a common estimate of it. For 10 points, name this number, about 3.14."
+    },
+    {
+      "p": "William Jones first used a Greek letter as the symbol for this number in 1706, and Leonhard Euler made that symbol popular. In Euler’s identity, e raised to the power of i times this number, plus 1, equals 0.",
+      "r": "For 10 points, name this mathematical constant, which equals a circle’s circumference divided by its diameter."
+    },
+    {
+      "p": "Archimedes trapped this number between 223 over 71 and 22 over 7 by drawing polygons with 96 sides inside and outside a circle. Because of that work, this number is sometimes named after Archimedes.",
+      "r": "Its decimal expansion begins 3.14159. For 10 points, name this number that you multiply by a circle’s diameter to get its circumference."
+    },
+    {
+      "p": "In the 400s CE, the Chinese mathematician Zu Chongzhi [“zoo chong-JUR”] found the fraction 355 over 113 for this number, which is correct to six decimal places. The Rhind Papyrus from ancient Egypt implies a value of about 3.16 for it.",
+      "r": "For 10 points, name this constant, roughly 3.14, the ratio of a circle’s circumference to its diameter."
+    },
+    {
+      "p": "Ludolph van Ceulen [“LOO-dolf vahn KUH-len”] spent years computing 35 decimal places of this number, and the digits were carved on his tombstone. In 1873, William Shanks published 707 digits of it, but he had made a mistake at the 528th place.",
+      "r": "For 10 points, name this number, whose decimal digits begin 3.14159 and never end."
+    },
+    {
+      "p": "In 1897, the Indiana House of Representatives passed a bill, written by an amateur mathematician, that would have given this number an incorrect value, but the state Senate set it aside after a Purdue professor pointed out the error.",
+      "r": "A full turn of 360 degrees equals two times this number in radians. For 10 points, name this constant, about 3.14."
+    },
+    {
+      "p": "Georges-Louis Leclerc, Comte de Buffon [“boo-FOHN”], showed that dropping needles onto a floor marked with evenly spaced lines can be used to estimate this number. The chance that a needle lands across a line has this number in its denominator.",
+      "r": "It is the ratio of any circle’s circumference to its diameter. For 10 points, name this number, about 3.14."
+    },
+    {
+      "p": "Madhava [“MAH-duh-vuh”] of Sangamagrama and, much later, Gottfried Leibniz found that 1 minus one-third plus one-fifth minus one-seventh, and so on forever, equals this number divided by 4. Leonhard Euler showed that adding up the reciprocals of all the perfect squares gives this number squared, divided by 6.",
+      "r": "Multiplying it by a circle’s diameter gives the circumference. For 10 points, name this constant, roughly 3.14159."
+    },
+    {
+      "p": "In 1914, Srinivasa Ramanujan [“rah-MAH-nuh-jun”] published infinite series that close in on 1 divided by this number very quickly. In 2019, Emma Haruka Iwao [“ee-WAH-oh”] used cloud computers to set a record by calculating more than 31 trillion digits of it.",
+      "r": "For 10 points, name this number, which you multiply by the radius squared to find a circle’s area."
+    },
+    {
+      "p": "The Bible’s First Book of Kings describes a round bronze basin 10 cubits across and 30 cubits around, which suggests a value of 3 for this number. A Babylonian clay tablet gives this number as 3 and one-eighth.",
+      "r": "For 10 points, name this number, which is the ratio of a circle’s circumference to its diameter."
+    },
+    {
+      "p": "The narrator of a 2001 novel by Yann Martel, who survives at sea in a lifeboat with a Bengal tiger, shortens his first name to match this number. Many people memorize this number with the sentence “May I have a large container of coffee,” whose word lengths give its first eight digits.",
+      "r": "Its symbol is the 16th letter of the Greek alphabet. For 10 points, name this number, about 3.14."
+    },
+    {
+      "p": "John Wallis wrote half of this number as an endless product of fractions: 2 over 1, times 2 over 3, times 4 over 3, times 4 over 5, and so on. François Viète [“frahn-SWAH vee-ET”] found an earlier endless product for this number built from nested square roots of 2.",
+      "r": "It is about 3.14. For 10 points, name this number, which gives a circle’s circumference when multiplied by its diameter."
+    },
+    {
+      "p": "The total area under the bell-shaped curve of e to the negative x squared is the square root of this number. That is why the formula for the normal distribution in statistics includes the square root of 2 times this number.",
+      "r": "A sphere’s volume is four-thirds times this number times the radius cubed. For 10 points, name this constant, about 3.14."
+    },
+    {
+      "p": "Larry Shaw started a holiday for this number at San Francisco’s Exploratorium science museum in 1988, and the U.S. House of Representatives officially recognized that holiday in 2009. The holiday falls on Albert Einstein’s birthday.",
+      "r": "That holiday is March 14, or 3/14. For 10 points, name this number, the ratio of a circle’s circumference to its diameter."
+    }
+  ],
+  "clues": [
+    {
+      "id": "ratio",
+      "tier": "giveaway",
+      "t": "The ratio of any circle’s circumference to its diameter; it is the same for every circle",
+      "k": [
+        "ratio",
+        "circumference",
+        "diameter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "value",
+      "tier": "giveaway",
+      "t": "About 3.14159; common approximations are 3.14 and 22/7",
+      "k": [
+        "3.14159",
+        "approximations",
+        "22/7"
+      ],
+      "n": 0
+    },
+    {
+      "id": "formulas",
+      "tier": "giveaway",
+      "t": "In the circle formulas: circumference = it × diameter, and area = it × radius squared",
+      "k": [
+        "radius squared",
+        "area"
+      ],
+      "n": 0,
+      "rabbit": "Circles"
+    },
+    {
+      "id": "greek-letter",
+      "tier": "giveaway",
+      "t": "Written with a Greek letter, the 16th letter of the Greek alphabet",
+      "k": [
+        "greek letter",
+        "16th letter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "march-14",
+      "tier": "giveaway",
+      "t": "Celebrated every March 14 (3/14), which is also Albert Einstein’s birthday",
+      "k": [
+        "march 14",
+        "einstein"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    },
+    {
+      "id": "irrational",
+      "tier": "middle",
+      "t": "Irrational: its decimal digits never end and never repeat (proved by Johann Heinrich Lambert in 1761)",
+      "k": [
+        "irrational",
+        "never repeat",
+        "lambert"
+      ],
+      "n": 0,
+      "rabbit": "Rational numbers"
+    },
+    {
+      "id": "archimedes",
+      "tier": "middle",
+      "t": "Archimedes used 96-sided polygons to trap it between 223/71 and 22/7, so it is sometimes named for him",
+      "k": [
+        "archimedes",
+        "96-sided",
+        "223/71"
+      ],
+      "n": 0
+    },
+    {
+      "id": "euler-identity",
+      "tier": "middle",
+      "t": "Euler’s identity: e to the power of i times it, plus 1, equals 0",
+      "k": [
+        "identity",
+        "euler"
+      ],
+      "n": 0,
+      "rabbit": "Leonhard Euler"
+    },
+    {
+      "id": "radians",
+      "tier": "middle",
+      "t": "A full turn of 360° equals 2 times it in radians, so 180° equals it in radians",
+      "k": [
+        "radians",
+        "full turn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sphere",
+      "tier": "middle",
+      "t": "A sphere’s volume is 4/3 × it × r³, and a sphere’s surface area is 4 × it × r²",
+      "k": [
+        "sphere",
+        "volume",
+        "surface area"
+      ],
+      "n": 0,
+      "rabbit": "Spheres"
+    },
+    {
+      "id": "tau",
+      "tier": "middle",
+      "t": "Tau, written τ, equals twice it; some mathematicians argue that tau is the better circle constant",
+      "k": [
+        "tau",
+        "twice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mnemonic",
+      "tier": "middle",
+      "t": "Mnemonic: “May I have a large container of coffee” has word lengths 3-1-4-1-5-9-2-6",
+      "k": [
+        "mnemonic",
+        "word lengths",
+        "container of coffee"
+      ],
+      "n": 0
+    },
+    {
+      "id": "martel",
+      "tier": "middle",
+      "t": "The narrator of Yann Martel’s 2001 novel, stranded on a lifeboat with a Bengal tiger, takes his nickname from it",
+      "k": [
+        "yann martel",
+        "bengal tiger",
+        "lifeboat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jones",
+      "tier": "power",
+      "t": "William Jones first used the Greek letter for it in 1706; Leonhard Euler made the symbol popular",
+      "k": [
+        "william jones",
+        "1706",
+        "symbol"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lindemann",
+      "tier": "power",
+      "t": "Ferdinand von Lindemann proved it transcendental in 1882, so squaring the circle with compass and straightedge is impossible",
+      "k": [
+        "lindemann",
+        "transcendental",
+        "squaring the circle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "feynman",
+      "tier": "power",
+      "t": "The Feynman point: six 9s in a row starting at the 762nd decimal place",
+      "k": [
+        "feynman point",
+        "feynman",
+        "762nd"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hand-digits",
+      "tier": "power",
+      "t": "Ludolph van Ceulen’s 35 decimal places were carved on his tombstone; William Shanks’s 707 digits (1873) were right only to 527",
+      "k": [
+        "ludolph",
+        "tombstone",
+        "shanks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zu-chongzhi",
+      "tier": "power",
+      "t": "Zu Chongzhi’s fraction 355/113 (5th century CE, China) is correct to six decimal places",
+      "k": [
+        "zu chongzhi",
+        "355/113",
+        "six decimal places"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ancient-values",
+      "tier": "power",
+      "t": "The Bible’s First Book of Kings implies 3; a Babylonian tablet gives 3 1/8; Egypt’s Rhind Papyrus implies about 3.16",
+      "k": [
+        "first book of kings",
+        "babylonian",
+        "rhind papyrus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "madhava-leibniz",
+      "tier": "power",
+      "t": "Madhava, and much later Leibniz: 1 − 1/3 + 1/5 − 1/7 + … equals one-fourth of it",
+      "k": [
+        "madhava",
+        "leibniz",
+        "one-fourth"
+      ],
+      "n": 0,
+      "rabbit": "Gottfried Wilhelm Leibniz"
+    },
+    {
+      "id": "basel",
+      "tier": "power",
+      "t": "Basel problem: Euler showed that 1 + 1/4 + 1/9 + 1/16 + … equals its square divided by 6",
+      "k": [
+        "basel problem",
+        "basel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "products",
+      "tier": "power",
+      "t": "Endless products: John Wallis’s 2/1 × 2/3 × 4/3 × 4/5 × … equals half of it; François Viète used nested square roots of 2",
+      "k": [
+        "endless products",
+        "wallis",
+        "viète"
+      ],
+      "n": 0
+    },
+    {
+      "id": "buffon",
+      "tier": "power",
+      "t": "Buffon’s needle: dropping needles onto evenly spaced lines can be used to estimate it",
+      "k": [
+        "buffon",
+        "needles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "indiana",
+      "tier": "power",
+      "t": "In 1897, the Indiana House passed a bill that would have given it a wrong value; the state Senate set the bill aside",
+      "k": [
+        "indiana",
+        "1897",
+        "bill"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ramanujan-iwao",
+      "tier": "power",
+      "t": "Ramanujan’s 1914 series close in on 1 over it very quickly; Emma Haruka Iwao computed over 31 trillion digits in 2019",
+      "k": [
+        "ramanujan",
+        "iwao",
+        "31 trillion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gaussian",
+      "tier": "power",
+      "t": "The bell curve e^(−x²) has a total area equal to its square root, so the normal distribution formula contains it",
+      "k": [
+        "bell curve",
+        "normal distribution",
+        "square root"
+      ],
+      "n": 0,
+      "rabbit": "Normal distribution"
+    },
+    {
+      "id": "larry-shaw",
+      "tier": "power",
+      "t": "Larry Shaw started its holiday at San Francisco’s Exploratorium in 1988; the U.S. House recognized the holiday in 2009",
+      "k": [
+        "larry shaw",
+        "exploratorium",
+        "2009"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which famous constant?",
+    "body": "Several constants share the same kinds of clues. The number e (about 2.718) is the base of natural logarithms and also appears in Euler’s identity; the golden ratio, phi (about 1.618), is linked to the Fibonacci sequence; and tau equals 2 times pi. Buzzing on “Euler” or “infinite series” alone can land you on the wrong one.",
+    "fix": "Listen for circles: circumference, diameter, area, radians, or 3.14 mean pi. Compound interest, natural logarithms, or 2.718 mean e; pentagons, Fibonacci numbers, or 1.618 mean the golden ratio. Saying only “3.14” earns a prompt, so name the constant.",
+    "line": "Real answer line: <b><u>pi</u></b> (or <u>π</u>; accept <u>Archimedes’ constant</u>; prompt on <u>3.14</u>)"
+  }
+}

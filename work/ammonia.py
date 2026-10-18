@@ -1,0 +1,353 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "ammonia",
+    "name": "Ammonia",
+    "mono": "NH3",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Nitrogen plus three hydrogens · The pungent gas behind most fertilizer",
+    "dates": "Haber process invented 1909",
+    "briefing": "Ammonia is a sharp-smelling gas made of one nitrogen atom and three hydrogen atoms, and you may know its sting from glass cleaners. Around 1909, Fritz Haber figured out how to make it from the nitrogen in air, and Carl Bosch scaled the process up in giant factories. Fertilizer made from that ammonia helps grow food for billions of people, which makes it one of the most important chemicals on Earth.",
+    "answerHtml": "<b><u>Ammonia</u></b> (accept <u>NH3</u>; do not accept “ammonium”)",
+    "accept": [
+        "ammonia",
+        "nh3",
+        "nh 3",
+        "azane",
+        "nitrogen trihydride"
+    ],
+    "prompt": [],
+    "reject": [
+        "ammonium",
+        "ammonium ion",
+        "ammonium hydroxide",
+        "ammonium chloride",
+        "ammonium nitrate",
+        "ammonium carbonate",
+        "nh4",
+        "amine",
+        "amines",
+        "amide",
+        "nitrogen",
+        "hydrazine",
+        "urea",
+        "nitric acid",
+        "nitrate",
+        "nitrite",
+        "methane",
+        "water",
+        "hydrogen",
+        "haber process",
+        "ammonite",
+        "nitrous oxide",
+        "nitrogen dioxide",
+        "phosphine"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Ammonia",
+    "qb": {
+        "q": "ammonia",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Charles Townes built the first maser in the 1950s using molecules of this compound, which flip inside out like an umbrella in the wind about 24 billion times a second. That flip happens as the molecule’s nitrogen atom tunnels from one side of the molecule to the other.",
+            "r": "For 10 points, name this pungent compound of nitrogen and hydrogen, made by the Haber process."
+        },
+        {
+            "p": "Ernest Solvay’s process for making sodium carbonate, or soda ash, uses and recycles this compound. In the Ostwald [“OST-vahlt”] process, this compound is burned over a platinum catalyst as the first step in making nitric acid.",
+            "r": "For 10 points, name this compound made from nitrogen and hydrogen in the Haber process."
+        },
+        {
+            "p": "Carl Bosch shared the 1931 Nobel Prize in Chemistry for high-pressure methods that let factories make this compound on a huge scale. Fritz Haber won the 1918 prize for first making this compound directly from the nitrogen in air.",
+            "r": "Most of this compound becomes fertilizer. For 10 points, name this pungent gas, whose molecules contain three hydrogen atoms."
+        },
+        {
+            "p": "In a classic demonstration of Graham’s law, cotton balls soaked in this compound and in hydrochloric acid are placed at opposite ends of a glass tube. A white ring forms closer to the hydrochloric acid end, because this lighter gas diffuses faster.",
+            "r": "That white ring is a chloride salt. For 10 points, name this pungent weak base, which is made by the Haber process."
+        },
+        {
+            "p": "In the “fountain” experiment, water sprays up into a flask of this gas, which dissolves in water so readily that it leaves a partial vacuum behind. A few drops of phenolphthalein turn the fountain pink, because this gas makes water basic.",
+            "r": "For 10 points, name this pungent compound of one nitrogen and three hydrogen atoms."
+        },
+        {
+            "p": "The enzyme nitrogenase, which contains a cluster of iron and molybdenum atoms, turns nitrogen from the air into this compound. Bacteria living in the root nodules of legumes like peas and beans carry out that process, called nitrogen fixation.",
+            "r": "Factories make this same compound using the Haber process. For 10 points, name this pungent gas."
+        },
+        {
+            "p": "In 1932, Hans Krebs and Kurt Henseleit discovered the cycle the liver uses to turn this toxic waste product into urea, the first metabolic cycle ever found. Many fish simply release this compound from their gills straight into the water.",
+            "r": "For 10 points, name this pungent compound of nitrogen and hydrogen, found in some household cleaners."
+        },
+        {
+            "p": "Water, methane, and this compound make up the hot, slushy “ices” deep inside Uranus and Neptune. The bright white zones in Jupiter’s upper atmosphere are clouds of ice made of this compound, which also forms clouds on Saturn.",
+            "r": "For 10 points, name this compound with a sharp smell, made from nitrogen and hydrogen in the Haber process."
+        },
+        {
+            "p": "Sodium metal dissolves in the liquid form of this compound to make a deep blue solution full of loose electrons. Arthur Birch used lithium or sodium in that liquid to reduce benzene rings, in a reaction named for him.",
+            "r": "For 10 points, name this compound, which boils at about −33 °C and is used to make fertilizer."
+        },
+        {
+            "p": "Alfred Werner founded coordination chemistry by studying cobalt chlorides bonded to different numbers of molecules of this compound. Adding this compound to a pale blue solution of copper ions produces a deep blue complex.",
+            "r": "For 10 points, name this weak base that gains a proton to form the ammonium ion."
+        },
+        {
+            "p": "Tollens’ reagent, which coats a test tube with a silver mirror when it meets an aldehyde, is made by dissolving silver oxide in a solution of this compound. Organic compounds called amines are made by replacing one or more of this molecule’s hydrogen atoms with carbon groups.",
+            "r": "This compound is made on a huge scale by the Haber process. For 10 points, name this pungent gas."
+        },
+        {
+            "p": "This compound’s name traces back to the Egyptian god Amun, through the Latin name of a salt linked to one of his temples. Joseph Priestley first collected this gas in 1774, calling it “alkaline air.”",
+            "r": "For 10 points, name this gas whose molecules have one nitrogen atom bonded to three hydrogen atoms."
+        },
+        {
+            "p": "Carl von Linde’s refrigeration machines of the 1870s used this compound as their coolant, and it still chills many large industrial freezers. This compound boils at about −33 °C, unusually high for such a small molecule, because its molecules form hydrogen bonds.",
+            "r": "This compound is made from nitrogen and hydrogen in the Haber process. For 10 points, name this pungent gas."
+        },
+        {
+            "p": "VSEPR theory predicts that this molecule is trigonal pyramidal, with bond angles of about 107 degrees, because a lone pair on its central atom pushes its three bonds closer together. That lone pair lets this molecule act as a Lewis base.",
+            "r": "For 10 points, name this compound of nitrogen and hydrogen, made in the Haber process."
+        },
+        {
+            "p": "Mixing this compound with chlorine bleach produces toxic gases called chloramines, so the two cleaners should never be combined. Smelling salts release this sharp-smelling gas to rouse people who have fainted.",
+            "r": "For 10 points, name this pungent gas made by the Haber process, which turns into the ammonium ion when it gains a proton."
+        }
+    ],
+    "clues": [
+        {
+            "id": "formula",
+            "tier": "giveaway",
+            "t": "A compound of one nitrogen atom bonded to three hydrogen atoms",
+            "k": ["nitrogen", "three hydrogen"],
+            "n": 0,
+            "rabbit": "Nitrogen"
+        },
+        {
+            "id": "haber",
+            "tier": "giveaway",
+            "t": "Made from nitrogen and hydrogen gas in the Haber process, also called the Haber–Bosch process",
+            "k": ["haber process", "haber", "bosch"],
+            "n": 0,
+            "rabbit": "Haber process"
+        },
+        {
+            "id": "fertilizer",
+            "tier": "giveaway",
+            "t": "Most of it becomes fertilizer, which helps grow food for billions of people",
+            "k": ["fertilizer", "billions"],
+            "n": 0
+        },
+        {
+            "id": "smell",
+            "tier": "giveaway",
+            "t": "A colorless gas with a sharp, pungent smell, used in some household glass cleaners",
+            "k": ["pungent", "glass cleaners", "colorless"],
+            "n": 0
+        },
+        {
+            "id": "weak-base",
+            "tier": "giveaway",
+            "t": "A weak base that gains a proton (H⁺) to become the ammonium ion, NH₄⁺",
+            "k": ["weak base", "ammonium", "proton"],
+            "n": 0
+        },
+        {
+            "id": "pyramidal",
+            "tier": "middle",
+            "t": "Trigonal pyramidal shape with one lone pair and bond angles of about 107°",
+            "k": ["trigonal pyramidal", "lone pair", "107"],
+            "n": 0
+        },
+        {
+            "id": "lewis-base",
+            "tier": "middle",
+            "t": "Its lone pair makes it a Lewis base that can bond to metal ions",
+            "k": ["lewis base", "metal ions"],
+            "n": 0
+        },
+        {
+            "id": "hydrogen-bonds",
+            "tier": "middle",
+            "t": "Boils at about −33 °C, high for its size, because its molecules form hydrogen bonds",
+            "k": ["hydrogen bonds", "boils"],
+            "n": 0,
+            "rabbit": "Hydrogen bonds"
+        },
+        {
+            "id": "white-ring",
+            "tier": "middle",
+            "t": "Meets HCl gas in a tube to make a white ring of ammonium chloride closer to the HCl end, showing Graham’s law",
+            "k": ["white ring", "graham", "ammonium chloride"],
+            "n": 0
+        },
+        {
+            "id": "fountain",
+            "tier": "middle",
+            "t": "Dissolves in water so readily that it powers the “fountain” experiment, which turns pink with phenolphthalein",
+            "k": ["fountain", "phenolphthalein"],
+            "n": 0
+        },
+        {
+            "id": "nitrogen-fixation",
+            "tier": "middle",
+            "t": "Nitrogen-fixing bacteria in legume root nodules make it using the enzyme nitrogenase",
+            "k": ["nitrogenase", "root nodules", "legume"],
+            "n": 0
+        },
+        {
+            "id": "urea",
+            "tier": "middle",
+            "t": "The liver turns this toxic waste into urea (the urea cycle of Krebs and Henseleit); many fish release it through their gills",
+            "k": ["urea", "liver", "gills"],
+            "n": 0,
+            "rabbit": "Liver"
+        },
+        {
+            "id": "jupiter",
+            "tier": "middle",
+            "t": "Its ice forms the bright white cloud zones of Jupiter, and clouds on Saturn",
+            "k": ["jupiter", "saturn", "clouds"],
+            "n": 0,
+            "rabbit": "Jupiter"
+        },
+        {
+            "id": "nobels",
+            "tier": "power",
+            "t": "Fritz Haber won the 1918 Nobel Prize for making it from its elements; Carl Bosch shared the 1931 prize for high-pressure methods",
+            "k": ["1918", "1931", "high-pressure"],
+            "n": 0
+        },
+        {
+            "id": "iron-catalyst",
+            "tier": "power",
+            "t": "Factories make it with an iron-based catalyst at high pressure and temperature",
+            "k": ["iron-based catalyst", "catalyst"],
+            "n": 0,
+            "rabbit": "Catalysts"
+        },
+        {
+            "id": "maser",
+            "tier": "power",
+            "t": "Charles Townes built the first maser using it; its molecules flip inside out about 24 billion times a second",
+            "k": ["maser", "townes", "inside out"],
+            "n": 0
+        },
+        {
+            "id": "ostwald",
+            "tier": "power",
+            "t": "The Ostwald process burns it over a platinum catalyst to start making nitric acid",
+            "k": ["ostwald", "platinum", "nitric acid"],
+            "n": 0
+        },
+        {
+            "id": "solvay",
+            "tier": "power",
+            "t": "The Solvay process uses and recycles it to make sodium carbonate (soda ash)",
+            "k": ["solvay", "sodium carbonate", "soda ash"],
+            "n": 0
+        },
+        {
+            "id": "blue-electrons",
+            "tier": "power",
+            "t": "Sodium dissolves in its liquid form to give a deep blue solution of loose electrons",
+            "k": ["deep blue", "loose electrons", "sodium"],
+            "n": 0
+        },
+        {
+            "id": "birch",
+            "tier": "power",
+            "t": "The Birch reduction uses lithium or sodium dissolved in its liquid to reduce benzene rings",
+            "k": ["birch", "benzene", "lithium"],
+            "n": 0,
+            "rabbit": "Benzene"
+        },
+        {
+            "id": "werner",
+            "tier": "power",
+            "t": "Alfred Werner founded coordination chemistry with its cobalt complexes; with copper(II) ions it makes a deep blue complex",
+            "k": ["werner", "coordination", "cobalt"],
+            "n": 0
+        },
+        {
+            "id": "tollens",
+            "tier": "power",
+            "t": "Tollens’ reagent, the silver mirror test for aldehydes, is silver oxide dissolved in its solution",
+            "k": ["tollens", "silver mirror", "aldehydes"],
+            "n": 0
+        },
+        {
+            "id": "amines",
+            "tier": "power",
+            "t": "Amines are made by swapping its hydrogen atoms for carbon groups",
+            "k": ["amines", "carbon groups"],
+            "n": 0
+        },
+        {
+            "id": "amun",
+            "tier": "power",
+            "t": "Its name traces back to the Egyptian god Amun, through the Latin name of a salt linked to his temple",
+            "k": ["amun", "egyptian", "temple"],
+            "n": 0
+        },
+        {
+            "id": "priestley",
+            "tier": "power",
+            "t": "Joseph Priestley first collected the gas in 1774 and called it “alkaline air”",
+            "k": ["priestley", "alkaline air", "1774"],
+            "n": 0
+        },
+        {
+            "id": "linde",
+            "tier": "power",
+            "t": "Carl von Linde’s 1870s refrigerators used it as a coolant; it still chills large industrial freezers",
+            "k": ["linde", "refrigerators", "coolant"],
+            "n": 0
+        },
+        {
+            "id": "chloramines",
+            "tier": "power",
+            "t": "Mixed with bleach, it makes toxic chloramines; smelling salts release it to rouse people who faint",
+            "k": ["chloramines", "bleach", "smelling salts"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not ammonium!",
+        "body": "Ammonium, NH₄⁺, is the ion this compound becomes after it grabs a proton, and it shows up in salts like ammonium chloride and ammonium nitrate. The two names differ by just a few letters, but a tossup asking for this gas will not accept the ion. Nitrogen is the other trap, since many clues are about nitrogen fixation and fertilizer.",
+        "fix": "Listen for “gas,” “molecule,” “Haber process,” “trigonal pyramidal,” or “lone pair”: that is this compound. “Ion,” “salt,” or a positive charge means ammonium. If the question asks for an element, nitrogen is the answer.",
+        "line": "Real answer line: <b><u>Ammonia</u></b> (accept <u>NH3</u>; do not accept “ammonium”)"
+    },
+    "tests": {
+        "right": [
+            "Ammonia",
+            "NH3",
+            "amonia",
+            "Ammonia gas",
+            "liquid ammonia"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Ammonium",
+            "Ammonium nitrate",
+            "Nitrogen",
+            "Urea",
+            "Amines",
+            "Methane",
+            "Haber process",
+            "Nitric acid"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,322 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "doppler-effect",
+    "name": "Doppler effect",
+    "mono": "DOP",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Wave shift from a moving source · Why passing sirens drop in pitch",
+    "dates": "Proposed by Christian Doppler, 1842",
+    "briefing": "Stand by the road as an ambulance races past, and its siren suddenly drops from a high pitch to a low one: that is the Doppler effect. Waves bunch up in front of a moving source and stretch out behind it, so the frequency you hear changes. Austrian physicist Christian Doppler described it in 1842, and astronomers use the same effect in light to tell whether stars are moving toward us or away.",
+    "answerHtml": "<b><u>Doppler</u></b> effect (accept <u>Doppler</u> shift; prompt on <u>redshift</u> or <u>blueshift</u>)",
+    "accept": [
+        "doppler effect",
+        "doppler shift",
+        "doppler",
+        "doppler fizeau effect",
+        "relativistic doppler effect",
+        "doppler effects"
+    ],
+    "prompt": [
+        "redshift",
+        "red shift",
+        "blueshift",
+        "blue shift",
+        "frequency shift"
+    ],
+    "reject": [
+        "sonic boom",
+        "frequency",
+        "resonance",
+        "interference",
+        "beats",
+        "refraction",
+        "diffraction",
+        "hubbles law",
+        "echolocation"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Doppler_effect",
+    "qb": {
+        "q": "Doppler",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1845, the Dutch scientist Christophorus Buys Ballot tested this effect using musicians who played a steady note while riding on a train near Utrecht, as listeners with perfect pitch stood beside the tracks. This effect’s namesake had proposed it three years earlier.",
+            "r": "This effect makes an ambulance siren sound higher as it approaches and lower as it speeds away. For 10 points, name this change in a wave’s frequency caused by motion."
+        },
+        {
+            "p": "Hippolyte Fizeau [“fee-ZOH”] independently worked out the version of this effect for light in 1848, so the French often add his name to it. Light from a star moving away from us is shifted toward the red end of the spectrum by this effect.",
+            "r": "Its Austrian namesake first described it in 1842. For 10 points, name this effect that makes a passing train’s horn drop in pitch."
+        },
+        {
+            "p": "Michel Mayor and Didier Queloz [“kuh-LOH”] shared a Nobel Prize for finding the planet 51 Pegasi b in 1995 by using this effect to detect a star wobbling back and forth. That radial velocity method looks for a star’s spectral lines shifting slightly toward red and then toward blue.",
+            "r": "Police radar guns use it to measure the speed of cars. For 10 points, name this effect that makes an approaching siren sound higher in pitch."
+        },
+        {
+            "p": "The Ives–Stilwell experiment of 1938 measured light from fast-moving hydrogen ions to confirm the relativistic form of this effect, which includes a shift caused by time dilation. A star’s spectral lines move toward the blue end of the spectrum because of this effect when the star approaches Earth.",
+            "r": "For 10 points, name this effect in which the motion of a wave’s source changes the frequency an observer detects."
+        },
+        {
+            "p": "Steven Chu shared the 1997 Nobel Prize in Physics for cooling atoms with lasers tuned slightly below an atom’s natural frequency, a technique named for this effect. Atoms moving toward such a laser see its light shifted up to just the right frequency to absorb it, which slows them down.",
+            "r": "For 10 points, name this effect that makes a race car’s engine sound drop in pitch as the car zooms past."
+        },
+        {
+            "p": "Thermal motion of the atoms in a gas widens their spectral lines through a broadening named for this effect, so the width of a line can reveal the gas’s temperature. This effect explains why a star’s spectral lines shift back and forth as it orbits a companion in a spectroscopic binary.",
+            "r": "An Austrian physicist described it in 1842. For 10 points, name this effect that makes a passing siren drop in pitch."
+        },
+        {
+            "p": "A Leslie speaker, often paired with a Hammond organ, spins its horn in a circle so that this effect makes the sound wobble in pitch. This effect happens because waves in front of a moving source are bunched closer together, while waves behind it are stretched out.",
+            "r": "For 10 points, name this effect that makes a moving car’s horn sound higher as it approaches you."
+        },
+        {
+            "p": "Scientists at the Johns Hopkins Applied Physics Laboratory worked out the orbit of Sputnik 1 in 1957 by tracking how this effect shifted the frequency of its radio signal as it passed overhead, work that led to the Transit satellite navigation system.",
+            "r": "Police radar guns use this effect to measure the speed of cars. For 10 points, name this effect that causes a passing ambulance’s siren to drop in pitch."
+        },
+        {
+            "p": "This effect’s Austrian namesake wrongly suggested in an 1842 paper that it explained the different colors of double stars, which actually come from their temperatures. Weather radars use this effect to spot winds rotating inside thunderstorms that may produce tornadoes.",
+            "r": "For 10 points, name this effect that makes a siren sound higher as it approaches and lower as it moves away."
+        },
+        {
+            "p": "Starting in 1912, Vesto Slipher [“SLY-fer”] used this effect to measure how fast spiral nebulae were moving, finding that most of them were rushing away from us. Edwin Hubble later combined those speeds with distances to find that farther galaxies are moving away faster.",
+            "r": "For 10 points, name this effect that makes a train whistle drop in pitch as the train passes."
+        },
+        {
+            "p": "Light from the Andromeda Galaxy is shifted toward the blue end of the spectrum by this effect, showing that Andromeda is moving toward the Milky Way. The frequency an observer detects in this effect depends on how fast the source and observer move compared with the wave.",
+            "r": "For 10 points, name this effect that makes an ambulance’s siren sound higher-pitched as it comes closer."
+        },
+        {
+            "p": "Doctors use ultrasound machines that rely on this effect to measure how fast blood is flowing through the heart and arteries. This effect does not change the speed of the sound waves; it changes how many wave crests reach a listener each second.",
+            "r": "It shifts the spectral lines of stars moving away from Earth toward red. For 10 points, name this effect that makes a passing siren drop in pitch."
+        },
+        {
+            "p": "If a source of sound moves toward you at half the speed of sound, this effect doubles the frequency you hear. Only the part of the motion directly toward or away from the listener matters in the everyday form of this effect.",
+            "r": "For 10 points, name this effect that makes an ambulance siren sound higher as it approaches."
+        },
+        {
+            "p": "Astronomers can measure how fast the Sun rotates by comparing light from its two edges, since this effect shifts light from the edge turning toward us toward blue and light from the other edge toward red.",
+            "r": "Radar guns use it to clock tennis serves. For 10 points, name this effect that makes a passing train’s whistle drop in pitch."
+        },
+        {
+            "p": "A driver passing a ringing railroad-crossing bell hears its pitch drop, an example of this effect in which the listener, not the source, is moving. Water waves from a duck paddling across a pond bunch up in front of it and spread apart behind it, showing this effect.",
+            "r": "For 10 points, name this effect named for an Austrian physicist, heard when a fire truck’s siren drops in pitch as it passes."
+        }
+    ],
+    "clues": [
+        {
+            "id": "siren",
+            "tier": "giveaway",
+            "t": "An ambulance siren sounds higher as it approaches and lower as it moves away",
+            "k": ["siren", "ambulance", "higher"],
+            "n": 0
+        },
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "A change in the frequency of a wave caused by the motion of the source or the observer",
+            "k": ["frequency", "motion", "source"],
+            "n": 0,
+            "rabbit": "Frequency"
+        },
+        {
+            "id": "red-blue",
+            "tier": "giveaway",
+            "t": "Light from objects moving away shifts toward red (redshift); light from approaching objects is blueshifted",
+            "k": ["redshift", "blueshifted", "moving away"],
+            "n": 0
+        },
+        {
+            "id": "namesake",
+            "tier": "giveaway",
+            "t": "Named for the Austrian physicist who described it in 1842",
+            "k": ["austrian", "1842"],
+            "n": 0
+        },
+        {
+            "id": "bunching",
+            "tier": "middle",
+            "t": "Waves bunch up in front of a moving source and stretch out behind it",
+            "k": ["bunch up", "stretch out"],
+            "n": 0,
+            "rabbit": "Waves"
+        },
+        {
+            "id": "radar-guns",
+            "tier": "middle",
+            "t": "Police radar guns use it to measure the speeds of cars (and of tennis serves)",
+            "k": ["radar guns", "police"],
+            "n": 0
+        },
+        {
+            "id": "weather-radar",
+            "tier": "middle",
+            "t": "Weather radars use it to spot winds rotating inside thunderstorms",
+            "k": ["weather radars", "rotating"],
+            "n": 0
+        },
+        {
+            "id": "ultrasound",
+            "tier": "middle",
+            "t": "Medical ultrasound uses it to measure how fast blood flows through the heart and arteries",
+            "k": ["ultrasound", "blood"],
+            "n": 0
+        },
+        {
+            "id": "slipher-hubble",
+            "tier": "middle",
+            "t": "Vesto Slipher used it to show that most spiral galaxies are moving away; Edwin Hubble used those speeds",
+            "k": ["slipher", "hubble", "spiral"],
+            "n": 0,
+            "rabbit": "Edwin Hubble"
+        },
+        {
+            "id": "listener-moving",
+            "tier": "middle",
+            "t": "Also happens when the listener moves past a still source, like a driver passing a ringing crossing bell",
+            "k": ["listener", "crossing bell"],
+            "n": 0
+        },
+        {
+            "id": "wave-speed",
+            "tier": "middle",
+            "t": "It changes how many wave crests arrive each second, not the speed of the waves",
+            "k": ["wave crests", "each second"],
+            "n": 0
+        },
+        {
+            "id": "andromeda",
+            "tier": "middle",
+            "t": "The Andromeda Galaxy’s light is blueshifted, since it is moving toward the Milky Way",
+            "k": ["andromeda", "milky way"],
+            "n": 0,
+            "rabbit": "Andromeda Galaxy"
+        },
+        {
+            "id": "buys-ballot",
+            "tier": "power",
+            "t": "Tested in 1845 by Buys Ballot, with musicians playing a steady note on a train near Utrecht",
+            "k": ["buys ballot", "1845", "musicians", "utrecht"],
+            "n": 0
+        },
+        {
+            "id": "fizeau",
+            "tier": "power",
+            "t": "Hippolyte Fizeau worked out the light version in 1848; the French often add his name to it",
+            "k": ["fizeau", "1848"],
+            "n": 0
+        },
+        {
+            "id": "double-stars",
+            "tier": "power",
+            "t": "Its namesake wrongly thought it explained the colors of double stars; those colors really come from the stars’ heat",
+            "k": ["double stars", "colors"],
+            "n": 0
+        },
+        {
+            "id": "exoplanets",
+            "tier": "power",
+            "t": "Radial velocity method: Mayor and Queloz found the planet 51 Pegasi b (1995) from its star’s wobble",
+            "k": ["radial velocity", "51 pegasi", "wobble"],
+            "n": 0,
+            "rabbit": "Exoplanets"
+        },
+        {
+            "id": "ives-stilwell",
+            "tier": "power",
+            "t": "The 1938 Ives–Stilwell experiment confirmed its relativistic form, which includes time dilation",
+            "k": ["ives", "stilwell", "relativistic", "time dilation"],
+            "n": 0
+        },
+        {
+            "id": "laser-cooling",
+            "tier": "power",
+            "t": "Cooling atoms with lasers uses a technique named for it; Steven Chu shared the 1997 Nobel Prize for laser cooling",
+            "k": ["cooling atoms", "steven chu", "1997"],
+            "n": 0,
+            "rabbit": "Lasers"
+        },
+        {
+            "id": "broadening",
+            "tier": "power",
+            "t": "Thermal motion of atoms widens spectral lines (a broadening named for it), revealing a gas’s temperature",
+            "k": ["broadening", "spectral lines"],
+            "n": 0
+        },
+        {
+            "id": "spectroscopic-binary",
+            "tier": "power",
+            "t": "Spectroscopic binary stars are found when their spectral lines shift back and forth",
+            "k": ["spectroscopic binary", "back and forth"],
+            "n": 0
+        },
+        {
+            "id": "sputnik",
+            "tier": "power",
+            "t": "Tracking the shifting radio signal of Sputnik 1 (1957) led to the Transit satellite navigation system",
+            "k": ["sputnik", "transit", "1957"],
+            "n": 0
+        },
+        {
+            "id": "leslie",
+            "tier": "power",
+            "t": "A Leslie speaker’s spinning horn uses it to make a Hammond organ’s sound wobble",
+            "k": ["leslie speaker", "hammond", "spinning horn"],
+            "n": 0
+        },
+        {
+            "id": "sun-rotation",
+            "tier": "power",
+            "t": "Comparing light from the Sun’s two edges, one blueshifted and one redshifted, measures how fast it rotates",
+            "k": ["rotates", "two edges"],
+            "n": 0
+        },
+        {
+            "id": "half-speed",
+            "tier": "power",
+            "t": "A sound source approaching at half the speed of sound doubles the frequency you hear",
+            "k": ["half the speed", "doubles"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Shift, not sonic boom",
+        "body": "A sonic boom happens when a jet outruns its own sound waves; it is related, but it is not this effect. Redshift and blueshift are results of this effect in light, so saying just “redshift” may only earn a prompt. And “frequency” names the thing that changes, not the effect itself.",
+        "fix": "When the clues describe a pitch or a color that changes because something is moving toward or away from you, say “Doppler effect.” Shock waves and breaking the sound barrier mean sonic boom.",
+        "line": "Real answer line: <b><u>Doppler</u></b> effect (accept <u>Doppler</u> shift; prompt on <u>redshift</u> or <u>blueshift</u>)"
+    },
+    "tests": {
+        "right": [
+            "Doppler effect",
+            "doppler shift",
+            "Doppler",
+            "Dopler effect",
+            "Doppler-Fizeau effect"
+        ],
+        "prompt": [
+            "Redshift",
+            "Blue shift"
+        ],
+        "wrong": [
+            "Sonic boom",
+            "Frequency",
+            "Resonance",
+            "Interference"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,459 @@
+{
+  "id": "radio-waves",
+  "name": "Radio waves",
+  "mono": "RW",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Longest waves of the spectrum · Carry AM and FM broadcasts",
+  "dates": "First made and detected by Heinrich Hertz in the late 1880s",
+  "briefing": "Radio waves are the longest waves of the electromagnetic spectrum: some stretch longer than a football field, and all of them travel at the speed of light. Heinrich Hertz first made and detected them in a lab in the late 1880s, and Guglielmo Marconi soon used them to send messages across the Atlantic without wires. They carry AM and FM music, and giant dish telescopes collect them from pulsars and distant galaxies.",
+  "answerHtml": "<b><u>Radio</u></b> waves (accept <u>radio</u> radiation or <u>radio</u> frequencies; prompt on <u>electromagnetic</u> waves; do not accept “microwaves”)",
+  "accept": [
+    "radio waves",
+    "radio wave",
+    "radio",
+    "radio radiation",
+    "radio frequency",
+    "radio frequencies",
+    "radio frequency radiation",
+    "radio signals",
+    "rf",
+    "rf waves"
+  ],
+  "prompt": [
+    "waves",
+    "wave",
+    "electromagnetic waves",
+    "electromagnetic wave",
+    "electromagnetic radiation",
+    "em waves",
+    "em radiation"
+  ],
+  "reject": [
+    "microwaves",
+    "microwave",
+    "infrared",
+    "infrared waves",
+    "gamma rays",
+    "x rays",
+    "xrays",
+    "ultraviolet",
+    "visible light",
+    "light",
+    "sound",
+    "sound waves",
+    "radar",
+    "radio telescope",
+    "radio telescopes",
+    "radio astronomy",
+    "gravitational waves",
+    "cosmic microwave background",
+    "television"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Radio_wave",
+  "qb": {
+    "q": "radio waves",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Karl Jansky, an engineer at Bell Labs, traced a mysterious hiss to these waves coming from the center of the Milky Way, and a unit used by astronomers is named for him. Grote Reber later built a backyard dish in Illinois to map these waves from space.",
+      "r": "For 10 points, name these electromagnetic waves with the longest wavelengths, used by AM and FM stations."
+    },
+    {
+      "p": "Heinrich Hertz used a spark-gap transmitter and a loop of wire to make and detect these waves in the late 1880s, proving a prediction of James Clerk Maxwell. Hertz showed they could be reflected and polarized just like light.",
+      "r": "Guglielmo Marconi used them to send wireless messages. For 10 points, name these long-wavelength electromagnetic waves that carry AM and FM broadcasts."
+    },
+    {
+      "p": "Oliver Heaviside and Arthur Kennelly proposed a reflecting layer in the upper atmosphere to explain how these waves could travel past the horizon. Guglielmo Marconi had reported hearing three dots, the Morse code letter S, sent across the Atlantic on these waves in 1901.",
+      "r": "For 10 points, name these electromagnetic waves with the longest wavelengths, which carry AM and FM broadcasts."
+    },
+    {
+      "p": "Edward Appleton won the 1947 Nobel Prize in Physics for probing the ionosphere, a layer of charged gas that bounces some of these waves back toward the ground. That bouncing lets AM stations be heard hundreds of miles away at night.",
+      "r": "For 10 points, name these lowest-frequency electromagnetic waves, which also carry FM and TV signals."
+    },
+    {
+      "p": "Hydrogen atoms in space give off these waves at a wavelength of 21 centimeters when an electron flips its spin, letting astronomers map the spiral arms of the Milky Way. Jocelyn Bell Burnell discovered pulsars in 1967 by studying these waves.",
+      "r": "For 10 points, name these electromagnetic waves, collected by giant dish telescopes such as Arecibo."
+    },
+    {
+      "p": "Jerry Ehman circled a burst of these waves on a computer printout and wrote “Wow!” beside it in 1977. Astronomers searching for intelligent life scan the sky for these waves, and in 1974 the Arecibo telescope beamed a message on them toward the star cluster M13.",
+      "r": "They carry AM and FM broadcasts. For 10 points, name these electromagnetic waves, which have the longest wavelengths of all."
+    },
+    {
+      "p": "Edwin Howard Armstrong invented a way of sending sound on these waves by changing their frequency, which resisted static from lightning better than the older method of changing their amplitude. In the United States, stations using his method broadcast between 88 and 108 megahertz.",
+      "r": "Antennas on cars pick them up. For 10 points, name these long-wavelength electromagnetic waves used by AM and FM stations."
+    },
+    {
+      "p": "In 1955, Bernard Burke and Kenneth Franklin discovered that Jupiter gives off strong bursts of these waves, and the moon Io affects when the bursts occur. Very low frequency versions of these waves can send messages to submerged submarines because they travel some distance into seawater.",
+      "r": "They carry AM and FM broadcasts. For 10 points, name these electromagnetic waves, which have longer wavelengths than microwaves."
+    },
+    {
+      "p": "Early receivers for these waves used a coherer, a glass tube of metal filings developed by Édouard Branly [“brahn-LEE”]. Russia marks May 7 as a holiday honoring Alexander Popov, who demonstrated a receiver for these waves on that day in 1895.",
+      "r": "Guglielmo Marconi used them for wireless telegraphy. For 10 points, name these electromagnetic waves with the longest wavelengths."
+    },
+    {
+      "p": "A half-wave dipole antenna for these waves is about half their wavelength long, so one tuned to 100 megahertz is roughly 1.5 meters long. MRI machines send pulses of these waves into the body to flip the spins of hydrogen nuclei lined up by a strong magnet.",
+      "r": "For 10 points, name these electromagnetic waves with the lowest frequencies, used for AM and FM broadcasting."
+    },
+    {
+      "p": "Quasars got their name because astronomers first found them as starlike objects that were strong sources of these waves. The Very Large Array in New Mexico links 27 dish antennas to study the sky using these waves.",
+      "r": "AM stations broadcast them at frequencies measured in kilohertz. For 10 points, name these electromagnetic waves with the longest wavelengths."
+    },
+    {
+      "p": "In 1920, station KDKA in Pittsburgh used these waves to announce the results of the presidential election between Warren Harding and James Cox. Eight years earlier, wireless operators on the sinking _Titanic_ used these waves to call for help.",
+      "r": "Franklin Roosevelt’s “fireside chats” reached Americans through them. For 10 points, name these long-wavelength electromagnetic waves, which also carry FM music stations."
+    },
+    {
+      "p": "At a frequency of 1 megahertz, these waves have a wavelength of about 300 meters, the speed of light divided by the frequency, which is far longer than a football field. On the electromagnetic spectrum, these waves sit just past microwaves, on the opposite end from gamma rays.",
+      "r": "For 10 points, name these electromagnetic waves with the lowest frequencies, which carry AM and FM broadcasts."
+    },
+    {
+      "p": "A large “quiet zone” around the Green Bank Telescope in West Virginia restricts devices that give off these waves, so the telescope can detect faint signals from space. In China, a 500-meter dish called FAST collects these waves from pulsars and galaxies.",
+      "r": "For 10 points, name these long-wavelength electromagnetic waves, which also carry AM and FM broadcasts."
+    },
+    {
+      "p": "During World War II, a chain of British stations called Chain Home, developed under Robert Watson-Watt, bounced these waves off incoming aircraft to detect them. Walkie-talkies, garage-door openers, and baby monitors all send signals on these waves.",
+      "r": "They travel at the speed of light. For 10 points, name these electromagnetic waves with the longest wavelengths, used by AM and FM stations."
+    }
+  ],
+  "clues": [
+    {
+      "id": "longest-wavelengths",
+      "tier": "giveaway",
+      "t": "The longest wavelengths and lowest frequencies on the electromagnetic spectrum",
+      "k": [
+        "longest wavelengths",
+        "lowest frequencies"
+      ],
+      "n": 0
+    },
+    {
+      "id": "am-fm",
+      "tier": "giveaway",
+      "t": "Carry AM and FM broadcasts, plus TV signals and walkie-talkie messages",
+      "k": [
+        "am and fm",
+        "broadcasts",
+        "walkie-talkie"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marconi",
+      "tier": "giveaway",
+      "t": "Guglielmo Marconi used them for wireless telegraphy and shared the 1909 Nobel Prize in Physics",
+      "k": [
+        "marconi",
+        "wireless telegraphy",
+        "1909"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dish-telescopes",
+      "tier": "giveaway",
+      "t": "Collected by giant dish telescopes such as Arecibo in Puerto Rico",
+      "k": [
+        "dish telescopes",
+        "arecibo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hertz",
+      "tier": "middle",
+      "t": "First made and detected in a lab by Heinrich Hertz in the late 1880s, confirming James Clerk Maxwell’s prediction",
+      "k": [
+        "heinrich hertz",
+        "maxwell",
+        "1880s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spectrum-order",
+      "tier": "middle",
+      "t": "Sit next to microwaves on the electromagnetic spectrum, at the opposite end from gamma rays",
+      "k": [
+        "microwaves",
+        "gamma rays"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ionosphere",
+      "tier": "middle",
+      "t": "The ionosphere bounces some of them back to the ground, so AM stations can be heard far away at night",
+      "k": [
+        "ionosphere",
+        "at night"
+      ],
+      "n": 0
+    },
+    {
+      "id": "armstrong-fm",
+      "tier": "middle",
+      "t": "Edwin Howard Armstrong invented FM (frequency modulation), which resists static; U.S. FM stations use 88 to 108 megahertz",
+      "k": [
+        "armstrong",
+        "frequency modulation",
+        "88 to 108"
+      ],
+      "n": 0
+    },
+    {
+      "id": "am-kilohertz",
+      "tier": "middle",
+      "t": "AM means amplitude modulation; AM stations broadcast at frequencies measured in kilohertz",
+      "k": [
+        "amplitude modulation",
+        "kilohertz"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jansky",
+      "tier": "middle",
+      "t": "Karl Jansky of Bell Labs found them coming from the center of the Milky Way; an astronomy unit is named for him",
+      "k": [
+        "jansky",
+        "bell labs",
+        "milky way"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pulsars",
+      "tier": "middle",
+      "t": "Jocelyn Bell Burnell discovered pulsars in 1967 by studying them",
+      "k": [
+        "bell burnell",
+        "pulsars",
+        "1967"
+      ],
+      "n": 0,
+      "rabbit": "Pulsars"
+    },
+    {
+      "id": "quasars",
+      "tier": "middle",
+      "t": "Quasars were first found as starlike objects that were strong sources of them",
+      "k": [
+        "quasars",
+        "starlike"
+      ],
+      "n": 0,
+      "rabbit": "Quasars"
+    },
+    {
+      "id": "titanic-kdka",
+      "tier": "middle",
+      "t": "The _Titanic_ called for help with them in 1912; KDKA in Pittsburgh used them to announce the 1920 election results",
+      "k": [
+        "titanic",
+        "kdka",
+        "pittsburgh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mri",
+      "tier": "middle",
+      "t": "MRI machines send pulses of them into the body to flip the spins of hydrogen nuclei",
+      "k": [
+        "hydrogen nuclei",
+        "mri"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heaviside-kennelly",
+      "tier": "power",
+      "t": "Oliver Heaviside and Arthur Kennelly proposed a reflecting layer in the upper atmosphere to explain how they travel past the horizon",
+      "k": [
+        "heaviside",
+        "kennelly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "letter-s",
+      "tier": "power",
+      "t": "In 1901, Marconi reported hearing the Morse code letter S (three dots) sent across the Atlantic from Cornwall to Newfoundland",
+      "k": [
+        "letter s",
+        "three dots",
+        "newfoundland",
+        "cornwall"
+      ],
+      "n": 0
+    },
+    {
+      "id": "appleton",
+      "tier": "power",
+      "t": "Edward Appleton won the 1947 Nobel Prize in Physics for probing the ionosphere",
+      "k": [
+        "appleton",
+        "1947"
+      ],
+      "n": 0
+    },
+    {
+      "id": "21-centimeter",
+      "tier": "power",
+      "t": "Hydrogen in space gives off a 21-centimeter line when an electron flips its spin, used to map the Milky Way’s spiral arms",
+      "k": [
+        "21-centimeter",
+        "spin",
+        "spiral arms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wow-signal",
+      "tier": "power",
+      "t": "Jerry Ehman wrote “Wow!” beside a burst of them in 1977; in 1974 Arecibo beamed a message on them toward the star cluster M13",
+      "k": [
+        "ehman",
+        "wow",
+        "1977",
+        "m13"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reber",
+      "tier": "power",
+      "t": "Grote Reber built a backyard dish in Illinois in 1937 to map them from space",
+      "k": [
+        "reber",
+        "backyard dish",
+        "1937"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jupiter-io",
+      "tier": "power",
+      "t": "Bernard Burke and Kenneth Franklin found strong bursts of them from Jupiter in 1955; the moon Io affects when they occur",
+      "k": [
+        "jupiter",
+        "burke",
+        "franklin",
+        "io"
+      ],
+      "n": 0
+    },
+    {
+      "id": "submarines",
+      "tier": "power",
+      "t": "Very low frequency versions can send messages to submerged submarines because they travel some distance into seawater",
+      "k": [
+        "submarines",
+        "seawater",
+        "very low frequency"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coherer",
+      "tier": "power",
+      "t": "Early receivers used a coherer, Édouard Branly’s glass tube of metal filings",
+      "k": [
+        "coherer",
+        "branly",
+        "metal filings"
+      ],
+      "n": 0
+    },
+    {
+      "id": "popov",
+      "tier": "power",
+      "t": "Russia marks May 7 in honor of Alexander Popov, who demonstrated a receiver for them on that day in 1895",
+      "k": [
+        "popov",
+        "may 7",
+        "1895"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dipole",
+      "tier": "power",
+      "t": "A half-wave dipole antenna is about half the wavelength long: roughly 1.5 meters for 100 megahertz",
+      "k": [
+        "dipole",
+        "half-wave",
+        "antenna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "green-bank",
+      "tier": "power",
+      "t": "A “quiet zone” around the Green Bank Telescope in West Virginia limits devices that give them off",
+      "k": [
+        "green bank",
+        "quiet zone",
+        "west virginia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chain-home",
+      "tier": "power",
+      "t": "Britain’s Chain Home stations, developed under Robert Watson-Watt, bounced them off aircraft in World War II",
+      "k": [
+        "chain home",
+        "watson-watt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vla-fast",
+      "tier": "power",
+      "t": "The Very Large Array in New Mexico (27 dishes) and China’s 500-meter FAST dish study the sky with them",
+      "k": [
+        "very large array",
+        "new mexico",
+        "fast"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Microwaves or these?",
+    "body": "Microwaves sit right next to these waves on the electromagnetic spectrum, and some engineers even count microwaves as a high-frequency kind of them, so the clues can overlap. Quiz bowl usually treats them as separate answers: microwave ovens and the cosmic microwave background mean microwaves. A bare “waves” or “electromagnetic waves” is too general and only earns a prompt.",
+    "fix": "AM and FM, Marconi, Hertz’s spark gap, Karl Jansky, the 21-centimeter line, pulsars, and giant dishes like Arecibo point to these waves. Ovens and the leftover glow of the Big Bang point to microwaves.",
+    "line": "Real answer line: <b><u>Radio</u></b> waves (accept <u>radio</u> radiation or <u>radio</u> frequencies; prompt on <u>electromagnetic</u> waves; do not accept “microwaves”)"
+  },
+  "tests": {
+    "right": [
+      "Radio waves",
+      "radio",
+      "Radio wave",
+      "raido waves",
+      "Radio frequency"
+    ],
+    "prompt": [
+      "Waves",
+      "Electromagnetic waves"
+    ],
+    "wrong": [
+      "Microwaves",
+      "Gamma rays",
+      "Sound waves",
+      "Radar",
+      "Infrared",
+      "Radio telescope"
+    ]
+  }
+}

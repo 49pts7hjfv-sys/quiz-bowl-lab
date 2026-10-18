@@ -1,0 +1,352 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "blood",
+    "name": "Blood",
+    "mono": "BLD",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "The fluid the heart pumps · Carries oxygen, nutrients, and wastes",
+    "dates": "About 5 liters in an adult human body",
+    "briefing": "An adult carries about 5 liters of blood, and the heart pumps all of it around the body about once a minute. Just over half of it is a straw-colored liquid called plasma; the rest is red cells that carry oxygen, white cells that fight germs, and tiny platelets that plug leaks. Its red color comes from hemoglobin, an iron-rich protein, and despite the myth, it is never blue.",
+    "answerHtml": "<b><u>Blood</u></b> (accept <u>whole blood</u>; do not accept “plasma” or a single kind of blood cell)",
+    "accept": [
+        "blood",
+        "whole blood",
+        "human blood"
+    ],
+    "prompt": [],
+    "reject": [
+        "plasma",
+        "blood plasma",
+        "serum",
+        "blood serum",
+        "lymph",
+        "hemolymph",
+        "red blood cells",
+        "red blood cell",
+        "white blood cells",
+        "white blood cell",
+        "blood cells",
+        "blood cell",
+        "platelets",
+        "platelet",
+        "hemoglobin",
+        "blood types",
+        "blood type",
+        "blood groups",
+        "blood group",
+        "blood clotting",
+        "blood clot",
+        "blood vessels",
+        "blood vessel",
+        "blood pressure",
+        "blood sugar",
+        "blood glucose",
+        "heart",
+        "bone marrow"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Blood",
+    "qb": {
+        "q": "blood",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Horseshoe crabs have a blue version of this substance, colored by a copper-containing protein called hemocyanin, and an extract of it is used to test medicines for bacterial toxins. In Antarctic icefish, this substance is nearly colorless because it has no hemoglobin at all.",
+            "r": "In humans, it is a mix of plasma, platelets, and red and white cells. For 10 points, name this fluid that the heart pumps through arteries and veins."
+        },
+        {
+            "p": "In 1901, Karl Landsteiner found that samples of this fluid from different people can clump together when mixed, so he sorted it into groups he called A, B, and C. His group C was later renamed O.",
+            "r": "The Rh factor, another way of grouping this fluid, is named for rhesus monkeys. For 10 points, name this fluid whose types include A, B, AB, and O."
+        },
+        {
+            "p": "William Harvey’s 1628 book _De Motu Cordis_ showed that this fluid travels around the body in a loop, rather than being constantly made by the liver and used up. In 1661, Marcello Malpighi [“mal-PEE-ghee”] found the tiny capillaries that connect the vessels carrying it.",
+            "r": "For 10 points, name this fluid carried away from the heart by arteries and back to it by veins."
+        },
+        {
+            "p": "Albumin, a protein made by the liver, is the most common protein in the liquid part of this substance. The clear, yellowish fluid that is left after this substance clots is called serum.",
+            "r": "That liquid part, plasma, makes up about 55 percent of its volume. For 10 points, name this red fluid pumped by the heart."
+        },
+        {
+            "p": "A buffer made of carbonic acid and bicarbonate keeps the pH of this fluid between about 7.35 and 7.45, slightly basic. If that pH falls too low, a person develops acidosis.",
+            "r": "Biologists classify this fluid as a connective tissue. For 10 points, name this substance made of plasma, platelets, and red and white cells."
+        },
+        {
+            "p": "When a sample of this fluid is spun in a centrifuge, a thin, pale layer called the buffy coat forms between the two main layers. The percentage of the sample taken up by the heavy bottom layer is called the hematocrit [“hih-MAT-uh-krit”].",
+            "r": "That bottom layer is made of red cells, and the top layer is plasma. For 10 points, name this fluid pumped by the heart."
+        },
+        {
+            "p": "In ancient Greek medicine, this fluid was one of the four humors, and people thought to have extra of it were called “sanguine.” For centuries, doctors drained some of it from sick patients, sometimes using leeches, to try to balance the humors.",
+            "r": "Modern donors give about a pint of it at a time for transfusions. For 10 points, name this red body fluid."
+        },
+        {
+            "p": "Vampire bat saliva contains a protein named draculin that keeps this fluid from clotting while the bats feed, and medicinal leeches make a similar substance called hirudin [“hih-ROO-din”]. Doctors use medicines with the same effect, such as heparin, to prevent dangerous clots.",
+            "r": "In humans, platelets and threads of a protein called fibrin help this fluid clot. For 10 points, name this fluid that the heart pumps."
+        },
+        {
+            "p": "Surgeon Charles Drew developed ways to separate and store the plasma from this fluid, and in 1940 he helped lead a program that shipped that plasma to Britain during World War II. Drew then directed an early American Red Cross bank that stored donations of this fluid.",
+            "r": "Donors are often told their type, such as A, B, AB, or O. For 10 points, name this fluid collected at donation drives."
+        },
+        {
+            "p": "In the 1200s, the Arab physician Ibn al-Nafis correctly described how this fluid travels from the right side of the heart through the lungs to the left side, rather than passing through tiny pores in the heart’s wall. That route is called pulmonary circulation.",
+            "r": "For 10 points, name this fluid that picks up oxygen in the lungs and is pumped around the body by the heart."
+        },
+        {
+            "p": "Hematopoietic [“hee-muh-toh-poy-ET-ik”] stem cells in red bone marrow make every type of cell found in this fluid. The kidneys release a hormone called erythropoietin to tell the marrow to make more of its oxygen-carrying cells.",
+            "r": "Those cells are packed with hemoglobin. For 10 points, name this red fluid that the heart pumps through the body."
+        },
+        {
+            "p": "Mixing two mismatched samples of this fluid makes its cells clump together, a reaction called agglutination [“uh-gloo-tih-NAY-shun”]. Because their red cells lack A, B, and Rh antigens, people with type O-negative are called “universal donors.”",
+            "r": "Patients with type AB-positive are “universal recipients.” For 10 points, name this fluid that hospitals give in transfusions."
+        },
+        {
+            "p": "In the brain, tightly sealed capillary walls form a barrier that keeps many substances in this fluid away from nerve cells. A sphygmomanometer [“sfig-moh-muh-NOM-ih-ter”] measures the pressure of this fluid as two numbers, systolic over diastolic, in millimeters of mercury.",
+            "r": "Arteries carry it away from the heart. For 10 points, name this fluid whose red cells carry oxygen around the body."
+        },
+        {
+            "p": "The Greek-based prefix “hemo-” and the Latin word “sanguis” both refer to this substance, which is studied by doctors called hematologists. Phlebotomists [“fleh-BOT-uh-mists”] are trained to collect samples of it, usually from a vein in the arm.",
+            "r": "Its red color comes from the iron-containing protein hemoglobin. For 10 points, name this fluid pumped by the heart."
+        },
+        {
+            "p": "People with hemophilia, an inherited disorder that ran in Queen Victoria’s family, have trouble getting this fluid to clot. Normally, platelets gather at a cut while a protein called fibrinogen is turned into sticky threads of fibrin.",
+            "r": "Despite a common myth, it is never blue in humans. For 10 points, name this red fluid that an adult has about 5 liters of."
+        }
+    ],
+    "clues": [
+        {
+            "id": "pumped",
+            "tier": "giveaway",
+            "t": "A red fluid pumped by the heart through arteries, veins, and capillaries",
+            "k": ["pumped", "arteries", "veins", "capillaries"],
+            "n": 0,
+            "rabbit": "Heart"
+        },
+        {
+            "id": "four-parts",
+            "tier": "giveaway",
+            "t": "Made of liquid plasma plus red cells, white cells, and platelets",
+            "k": ["plasma", "platelets", "white cells", "red cells"],
+            "n": 0,
+            "rabbit": "Platelets"
+        },
+        {
+            "id": "transport",
+            "tier": "giveaway",
+            "t": "Carries oxygen and nutrients to the body’s cells and carries away carbon dioxide and wastes",
+            "k": ["oxygen", "nutrients", "carbon dioxide", "wastes"],
+            "n": 0
+        },
+        {
+            "id": "hemoglobin",
+            "tier": "giveaway",
+            "t": "Gets its red color from hemoglobin, an iron-containing protein in its red cells",
+            "k": ["hemoglobin", "iron"],
+            "n": 0,
+            "rabbit": "Hemoglobin"
+        },
+        {
+            "id": "types",
+            "tier": "giveaway",
+            "t": "Comes in types A, B, AB, and O, each Rh-positive or Rh-negative (Rh is named for rhesus monkeys)",
+            "k": ["rh-positive", "rh-negative", "rhesus", "types"],
+            "n": 0,
+            "rabbit": "Blood types"
+        },
+        {
+            "id": "plasma-55",
+            "tier": "middle",
+            "t": "Plasma, its straw-colored liquid part, is about 55 percent of its volume and mostly water",
+            "k": ["straw-colored", "55 percent", "plasma"],
+            "n": 0
+        },
+        {
+            "id": "landsteiner",
+            "tier": "middle",
+            "t": "Karl Landsteiner discovered the ABO groups in 1901; his group “C” was later renamed O",
+            "k": ["landsteiner", "1901", "abo"],
+            "n": 0
+        },
+        {
+            "id": "harvey",
+            "tier": "middle",
+            "t": "William Harvey’s _De Motu Cordis_ (1628) showed that it circulates in a loop pumped by the heart",
+            "k": ["william harvey", "de motu cordis", "1628", "circulates"],
+            "n": 0
+        },
+        {
+            "id": "bone-marrow",
+            "tier": "middle",
+            "t": "All of its cells come from stem cells in red bone marrow, a process called hematopoiesis",
+            "k": ["bone marrow", "hematopoiesis", "stem cells"],
+            "n": 0
+        },
+        {
+            "id": "clotting",
+            "tier": "middle",
+            "t": "Platelets and threads of fibrin (made from fibrinogen) make it clot; people with hemophilia clot poorly",
+            "k": ["fibrin", "fibrinogen", "hemophilia", "clot"],
+            "n": 0,
+            "rabbit": "Blood clotting"
+        },
+        {
+            "id": "universal-donors",
+            "tier": "middle",
+            "t": "Type O-negative donors are “universal donors”; type AB-positive patients are “universal recipients”",
+            "k": ["universal donors", "universal recipients", "o-negative", "ab-positive"],
+            "n": 0
+        },
+        {
+            "id": "connective-tissue",
+            "tier": "middle",
+            "t": "Classified as a connective tissue; an adult has about 5 liters of it",
+            "k": ["connective tissue", "5 liters"],
+            "n": 0
+        },
+        {
+            "id": "never-blue",
+            "tier": "middle",
+            "t": "Never blue in humans, despite the myth; veins only look bluish through the skin",
+            "k": ["never blue", "bluish", "myth"],
+            "n": 0
+        },
+        {
+            "id": "ph-buffer",
+            "tier": "power",
+            "t": "A carbonic acid and bicarbonate buffer keeps its pH between about 7.35 and 7.45; too low a pH is acidosis",
+            "k": ["bicarbonate", "buffer", "acidosis", "7.35"],
+            "n": 0
+        },
+        {
+            "id": "hematocrit",
+            "tier": "power",
+            "t": "Hematocrit: the percentage of its volume made of red cells, found by spinning a sample in a centrifuge",
+            "k": ["hematocrit", "centrifuge"],
+            "n": 0
+        },
+        {
+            "id": "buffy-coat",
+            "tier": "power",
+            "t": "In a spun sample, white cells and platelets form a thin middle layer called the buffy coat",
+            "k": ["buffy coat"],
+            "n": 0
+        },
+        {
+            "id": "albumin-serum",
+            "tier": "power",
+            "t": "Albumin, made by the liver, is the most common protein in its plasma; serum is the fluid left after it clots",
+            "k": ["albumin", "serum", "liver"],
+            "n": 0
+        },
+        {
+            "id": "malpighi",
+            "tier": "power",
+            "t": "Marcello Malpighi found capillaries in 1661, completing Harvey’s picture of its circulation",
+            "k": ["malpighi", "1661"],
+            "n": 0
+        },
+        {
+            "id": "ibn-al-nafis",
+            "tier": "power",
+            "t": "Ibn al-Nafis described its path from the heart through the lungs (pulmonary circulation) in the 1200s",
+            "k": ["ibn al-nafis", "pulmonary circulation", "1200s"],
+            "n": 0
+        },
+        {
+            "id": "four-humors",
+            "tier": "power",
+            "t": "One of the four humors of ancient Greek medicine; people thought to have extra were called “sanguine”",
+            "k": ["four humors", "sanguine"],
+            "n": 0
+        },
+        {
+            "id": "horseshoe-crabs",
+            "tier": "power",
+            "t": "Horseshoe crabs have a blue version colored by copper-based hemocyanin; an extract of it tests medicines for bacterial toxins",
+            "k": ["horseshoe crabs", "hemocyanin", "copper"],
+            "n": 0
+        },
+        {
+            "id": "icefish",
+            "tier": "power",
+            "t": "Antarctic icefish have a nearly colorless version with no hemoglobin",
+            "k": ["icefish", "colorless", "antarctic"],
+            "n": 0
+        },
+        {
+            "id": "anticoagulants",
+            "tier": "power",
+            "t": "Draculin (from vampire bats), hirudin (from leeches), and the medicine heparin keep it from clotting",
+            "k": ["draculin", "hirudin", "heparin", "vampire bats"],
+            "n": 0
+        },
+        {
+            "id": "charles-drew",
+            "tier": "power",
+            "t": "Charles Drew found ways to store its plasma, helped lead a 1940 program shipping plasma to Britain, and directed an early Red Cross bank for it",
+            "k": ["charles drew", "britain", "1940", "red cross"],
+            "n": 0
+        },
+        {
+            "id": "brain-barrier",
+            "tier": "power",
+            "t": "Tightly sealed capillary walls form a barrier between it and the brain’s nerve cells",
+            "k": ["barrier", "capillary"],
+            "n": 0
+        },
+        {
+            "id": "sphygmomanometer",
+            "tier": "power",
+            "t": "Its pressure is measured with a sphygmomanometer as systolic over diastolic, in millimeters of mercury",
+            "k": ["sphygmomanometer", "systolic", "diastolic"],
+            "n": 0
+        },
+        {
+            "id": "word-roots",
+            "tier": "power",
+            "t": "The prefix “hemo-” and the Latin “sanguis” refer to it; phlebotomists collect it and hematologists study it",
+            "k": ["sanguis", "phlebotomists", "hematologists", "hemo-"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The whole, or a part?",
+        "body": "Tossups on this fluid are packed with clues about its parts: plasma, platelets, hemoglobin, red cells, and white cells. Nervous players buzz with the part they just heard instead of the whole fluid. Each of those parts is a separate answer line on this site (Red blood cells, White blood cells, Platelets, Hemoglobin, Blood types, Blood clotting), so naming one here is wrong.",
+        "fix": "Listen to the noun at the end. “This fluid,” “this tissue,” or “this substance pumped by the heart” means blood. Give a part only when the question asks for “these cells,” “this protein,” or “this liquid portion.”",
+        "line": "Real answer line: <b><u>Blood</u></b> (accept <u>whole blood</u>; do not accept “plasma” or a single kind of blood cell)"
+    },
+    "tests": {
+        "right": [
+            "Blood",
+            "blood",
+            "Blod",
+            "Whole blood",
+            "Human blood"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Plasma",
+            "Red blood cells",
+            "White blood cells",
+            "Blood types",
+            "Hemoglobin",
+            "Platelets",
+            "Lymph"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

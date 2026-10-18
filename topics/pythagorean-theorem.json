@@ -1,0 +1,455 @@
+{
+  "id": "pythagorean-theorem",
+  "name": "Pythagorean theorem",
+  "mono": "PYT",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "In a right triangle, a² + b² = c² · Named for Pythagoras of Samos",
+  "dates": "Named for Pythagoras, 6th century BCE",
+  "briefing": "The Pythagorean theorem says that in any right triangle, the squares of the two shorter sides add up to the square of the longest side, the hypotenuse: a² + b² = c². A triangle with sides 3, 4, and 5 fits the rule, since 9 + 16 = 25. The rule is named for the Greek thinker Pythagoras, but Babylonian scribes were using it more than 1,000 years before he lived, and people have since found hundreds of different proofs.",
+  "answerHtml": "<b><u>Pythagorean theorem</u></b> (or <u>Pythagoras’s theorem</u>; accept <u>a² + b² = c²</u>; prompt on <u>Pythagoras</u>)",
+  "accept": [
+    "pythagorean theorem",
+    "pythagoras theorem",
+    "pythagorass theorem",
+    "theorem of pythagoras",
+    "pythagorean formula",
+    "pythagorean equation",
+    "pythagorean relation",
+    "pythagorean rule",
+    "pythagorean proposition",
+    "pythagoras rule",
+    "a2 b2 c2",
+    "a 2 b 2 c 2"
+  ],
+  "prompt": [
+    "pythagoras",
+    "pythagorean"
+  ],
+  "reject": [
+    "pythagorean triple",
+    "pythagorean triples",
+    "pythagorean identity",
+    "pythagorean identities",
+    "pythagorean trigonometric identity",
+    "pythagorean expectation",
+    "pythagorean means",
+    "pythagorean tuning",
+    "pythagoreanism",
+    "pythagoreans",
+    "converse of the pythagorean theorem",
+    "law of cosines",
+    "law of sines",
+    "distance formula",
+    "triangle inequality",
+    "triangle",
+    "triangles",
+    "right triangle",
+    "right triangles",
+    "hypotenuse",
+    "fermats last theorem",
+    "fermat last theorem",
+    "thales theorem",
+    "de guas theorem",
+    "ptolemys theorem",
+    "euclids elements",
+    "trigonometry",
+    "trigonometric functions"
+  ],
+  "tests": {
+    "right": [
+      "Pythagorean theorem",
+      "Pythagoras’s theorem",
+      "Pythagoras theorem",
+      "pythagorean theorum",
+      "a^2 + b^2 = c^2",
+      "Pythagorian Theorem"
+    ],
+    "prompt": [
+      "Pythagoras",
+      "Pythagorean"
+    ],
+    "wrong": [
+      "Pythagorean triple",
+      "law of cosines",
+      "Fermat’s Last Theorem",
+      "hypotenuse",
+      "distance formula",
+      "right triangle"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Pythagorean_theorem",
+  "qb": {
+    "q": "Pythagorean theorem",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Elisha Scott Loomis collected more than 300 different proofs of this theorem in one book. In 1876, five years before becoming president, Congressman James Garfield published a new proof of it using a trapezoid split into three right triangles.",
+      "r": "For 10 points, name this theorem, which states that a squared plus b squared equals c squared in a right triangle."
+    },
+    {
+      "p": "Proposition 47 in Book I of Euclid’s _Elements_ proves this theorem with a diagram nicknamed the “bride’s chair.” The very next proposition proves its converse: if the squares on two sides of a triangle add up to the square on the third side, the triangle has a right angle.",
+      "r": "It is usually written a squared plus b squared equals c squared. For 10 points, name this theorem about right triangles."
+    },
+    {
+      "p": "The Babylonian clay tablet Plimpton 322, made around 1800 BCE, lists numbers linked to whole-number solutions of this theorem’s equation. Such solutions include 5, 12, and 13, as well as 8, 15, and 17.",
+      "r": "The simplest such set is 3, 4, and 5. For 10 points, name this theorem about the sides of right triangles."
+    },
+    {
+      "p": "Chinese mathematicians named this theorem with the words gou and gu for a right triangle’s short and long legs, and the ancient Chinese text _Zhoubi Suanjing_ [“JOH-bee swahn-JING”] discusses it for sides of 3, 4, and 5. An Indian text called the Baudhayana [“bow-DHAH-yuh-nuh”] Shulba Sutra states it for the diagonal of a rectangle.",
+      "r": "For 10 points, name this theorem stating that the squares of a right triangle’s legs add up to the square of its hypotenuse."
+    },
+    {
+      "p": "Pierre de Fermat claimed that this theorem’s equation has no solutions in positive whole numbers once its exponent of 2 is replaced by any larger whole number, a claim Andrew Wiles finally proved in the 1990s. Whole-number solutions do exist for the original equation, such as 7, 24, and 25.",
+      "r": "Its equation relates the legs and the hypotenuse of a right triangle. For 10 points, name this theorem that says a squared plus b squared equals c squared."
+    },
+    {
+      "p": "The law of cosines generalizes this theorem by subtracting 2 times a times b times the cosine of the angle between sides a and b. When that angle is 90 degrees, its cosine is zero, and the law of cosines becomes this theorem.",
+      "r": "For 10 points, name this theorem used to find a missing side of a right triangle."
+    },
+    {
+      "p": "A baseball formula by Bill James that squares a team’s runs scored and runs allowed is nicknamed for this theorem. In the 1939 film _The Wizard of Oz_, the Scarecrow recites a garbled version of this theorem after receiving a diploma, wrongly mentioning square roots and an isosceles triangle.",
+      "r": "This theorem says the hypotenuse squared equals the sum of the squares of the legs. For 10 points, name this theorem about right triangles."
+    },
+    {
+      "p": "The diagonal between opposite corners of a box with side lengths a, b, and c has length equal to the square root of a squared plus b squared plus c squared, which comes from using this theorem twice. On a coordinate grid, the distance formula comes directly from this theorem.",
+      "r": "It applies only to triangles with a 90-degree angle. For 10 points, name this theorem used to find the hypotenuse of a right triangle."
+    },
+    {
+      "p": "Applying this theorem to a point on a circle of radius 1 gives the identity that sine squared plus cosine squared equals 1 for every angle. This theorem shows that a square with sides of length 1 has a diagonal whose length is the square root of 2.",
+      "r": "For 10 points, name this theorem, which says that the two legs of a right triangle, squared and added, equal the hypotenuse squared."
+    },
+    {
+      "p": "The Indian mathematician Bhaskara [“BAHS-kuh-ruh”] is said to have proved this theorem with a single diagram labeled only “Behold!” One common proof of it places four copies of a right triangle inside a large square and compares the uncovered areas.",
+      "r": "For 10 points, name this theorem, which says a squared plus b squared equals c squared for any right triangle."
+    },
+    {
+      "p": "De Gua’s theorem extends this theorem to a triangular pyramid with three right angles at one corner, using the areas of its faces. Builders use the converse of this theorem to check square corners by measuring 6, 8, and 10 units.",
+      "r": "For 10 points, name this theorem about the legs and the hypotenuse of a right triangle."
+    },
+    {
+      "p": "Followers of this theorem’s namesake are said to have used it to discover that the diagonal of a square with side 1 cannot be written as a fraction. This theorem is named for a Greek thinker from Samos who founded a brotherhood in Croton [“KROH-tun”], in southern Italy.",
+      "r": "For 10 points, name this theorem stating that, in a right triangle, the squares of the legs add up to the square of the hypotenuse."
+    },
+    {
+      "p": "Euclid gave a formula that builds whole-number solutions to this theorem’s equation from two numbers m and n, using m squared minus n squared, 2 m n, and m squared plus n squared. In every such solution, at least one of the three numbers is a multiple of 5.",
+      "r": "For 10 points, name this theorem, written a squared plus b squared equals c squared, about right triangles."
+    },
+    {
+      "p": "Combined with the fact that a 30-60-90 triangle is half of an equilateral triangle, this theorem shows that the longer leg of that triangle is the square root of 3 times the shorter leg. It also explains why the hypotenuse of a 45-45-90 triangle is the square root of 2 times either leg.",
+      "r": "It works only for right triangles. For 10 points, name this theorem that relates the three sides of any right triangle."
+    },
+    {
+      "p": "Applying Ptolemy’s theorem to a rectangle, whose two diagonals are equal, immediately gives this theorem. A television sold as a 50-inch model is measured along its diagonal, which can be found from the screen’s width and height using this theorem.",
+      "r": "For 10 points, name this theorem about the lengths of the three sides of a right triangle."
+    }
+  ],
+  "clues": [
+    {
+      "id": "statement",
+      "tier": "giveaway",
+      "t": "In a right triangle, a² + b² = c²: the squares of the two legs add up to the square of the hypotenuse",
+      "k": [
+        "hypotenuse",
+        "legs",
+        "right triangle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "right-only",
+      "tier": "giveaway",
+      "t": "Works only for right triangles; c is the hypotenuse, the longest side, opposite the right angle",
+      "k": [
+        "longest side",
+        "right angle",
+        "right triangles"
+      ],
+      "n": 0,
+      "rabbit": "Triangles"
+    },
+    {
+      "id": "three-four-five",
+      "tier": "giveaway",
+      "t": "The simplest whole-number example is 3, 4, 5, since 9 + 16 = 25",
+      "k": [
+        "3, 4, 5",
+        "whole-number",
+        "9 + 16 = 25"
+      ],
+      "n": 0
+    },
+    {
+      "id": "missing-side",
+      "tier": "giveaway",
+      "t": "Used to find a missing side: c = √(a² + b²), or a = √(c² − b²)",
+      "k": [
+        "missing side",
+        "√(a² + b²)"
+      ],
+      "n": 0
+    },
+    {
+      "id": "namesake",
+      "tier": "middle",
+      "t": "Named for a Greek thinker from Samos who founded a brotherhood in Croton, in southern Italy",
+      "k": [
+        "samos",
+        "croton",
+        "brotherhood"
+      ],
+      "n": 0
+    },
+    {
+      "id": "converse",
+      "tier": "middle",
+      "t": "Converse: if a² + b² = c², the triangle has a right angle; builders check square corners with 3-4-5 or 6-8-10",
+      "k": [
+        "converse",
+        "square corners",
+        "6-8-10"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triples",
+      "tier": "middle",
+      "t": "Whole-number solutions are called triples: 3-4-5, 5-12-13, 8-15-17, and 7-24-25",
+      "k": [
+        "triples",
+        "5-12-13",
+        "8-15-17"
+      ],
+      "n": 0
+    },
+    {
+      "id": "distance",
+      "tier": "middle",
+      "t": "The distance formula on a coordinate grid comes straight from it",
+      "k": [
+        "distance formula",
+        "coordinate grid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "box",
+      "tier": "middle",
+      "t": "In three dimensions, the diagonal between opposite corners of a box is √(a² + b² + c²)",
+      "k": [
+        "three dimensions",
+        "opposite corners",
+        "box"
+      ],
+      "n": 0
+    },
+    {
+      "id": "law-of-cosines",
+      "tier": "middle",
+      "t": "The law of cosines, c² = a² + b² − 2ab cos C, turns into it when angle C is 90°",
+      "k": [
+        "law of cosines",
+        "cosines"
+      ],
+      "n": 0,
+      "rabbit": "Trigonometric functions"
+    },
+    {
+      "id": "trig-identity",
+      "tier": "middle",
+      "t": "It gives the identity sin²θ + cos²θ = 1 for every angle",
+      "k": [
+        "identity",
+        "every angle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sqrt-two",
+      "tier": "middle",
+      "t": "A square with side 1 has a diagonal of √2, which is irrational (it cannot be written as a fraction)",
+      "k": [
+        "irrational",
+        "diagonal",
+        "√2"
+      ],
+      "n": 0,
+      "rabbit": "Square roots"
+    },
+    {
+      "id": "special-right",
+      "tier": "middle",
+      "t": "Special right triangles: 45-45-90 sides are 1 : 1 : √2, and 30-60-90 sides are 1 : √3 : 2",
+      "k": [
+        "special right triangles",
+        "45-45-90",
+        "30-60-90"
+      ],
+      "n": 0
+    },
+    {
+      "id": "euclid-47",
+      "tier": "power",
+      "t": "Proposition 47 of Book I of Euclid’s _Elements_ proves it with the “bride’s chair” diagram; Proposition 48 proves the converse",
+      "k": [
+        "proposition 47",
+        "bride’s chair",
+        "euclid"
+      ],
+      "n": 0,
+      "rabbit": "Euclid"
+    },
+    {
+      "id": "garfield",
+      "tier": "power",
+      "t": "James Garfield published his own trapezoid proof in 1876, five years before becoming president",
+      "k": [
+        "garfield",
+        "trapezoid",
+        "1876"
+      ],
+      "n": 0,
+      "rabbit": "James Garfield"
+    },
+    {
+      "id": "loomis",
+      "tier": "power",
+      "t": "Elisha Scott Loomis collected more than 300 different proofs of it in one book",
+      "k": [
+        "loomis",
+        "proofs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plimpton",
+      "tier": "power",
+      "t": "The Babylonian tablet Plimpton 322 (about 1800 BCE) lists numbers tied to its whole-number solutions",
+      "k": [
+        "plimpton 322",
+        "babylonian"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gougu",
+      "tier": "power",
+      "t": "Chinese name: gougu, from the words for a right triangle’s short and long legs; the _Zhoubi Suanjing_ discusses the 3-4-5 case",
+      "k": [
+        "gougu",
+        "zhoubi suanjing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "baudhayana",
+      "tier": "power",
+      "t": "India’s Baudhayana Shulba Sutra states it for the diagonal of a rectangle",
+      "k": [
+        "baudhayana",
+        "shulba sutra",
+        "rectangle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fermat",
+      "tier": "power",
+      "t": "Fermat’s Last Theorem: no positive whole-number solutions once the exponent 2 is replaced by a bigger whole number; proved by Andrew Wiles in the 1990s",
+      "k": [
+        "fermat’s last theorem",
+        "andrew wiles",
+        "wiles"
+      ],
+      "n": 0,
+      "rabbit": "Fermat’s Last Theorem"
+    },
+    {
+      "id": "euclid-formula",
+      "tier": "power",
+      "t": "Euclid’s formula makes whole-number solutions from m and n (m² − n², 2mn, m² + n²); every solution includes a multiple of 5",
+      "k": [
+        "euclid’s formula",
+        "multiple of 5",
+        "2mn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bhaskara",
+      "tier": "power",
+      "t": "Bhaskara is said to have proved it with one diagram labeled only “Behold!”",
+      "k": [
+        "bhaskara",
+        "behold"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rearrangement",
+      "tier": "power",
+      "t": "Rearrangement proof: four copies of the right triangle inside a big square leave either c² or a² + b² uncovered",
+      "k": [
+        "rearrangement",
+        "four copies"
+      ],
+      "n": 0
+    },
+    {
+      "id": "de-gua",
+      "tier": "power",
+      "t": "De Gua’s theorem: a 3D version for a triangular pyramid with three right angles at one corner, using the areas of its faces",
+      "k": [
+        "de gua",
+        "triangular pyramid",
+        "faces"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scarecrow",
+      "tier": "power",
+      "t": "The Scarecrow garbles it after receiving a diploma in _The Wizard of Oz_ (1939), wrongly using square roots and an isosceles triangle",
+      "k": [
+        "scarecrow",
+        "wizard of oz",
+        "diploma"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bill-james",
+      "tier": "power",
+      "t": "Bill James’s baseball formula, which squares runs scored and runs allowed, is nicknamed for it",
+      "k": [
+        "bill james",
+        "baseball"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ptolemy",
+      "tier": "power",
+      "t": "Ptolemy’s theorem, applied to a rectangle (whose diagonals are equal), gives it immediately",
+      "k": [
+        "ptolemy",
+        "rectangle"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Theorem, triple, or person?",
+    "body": "Some tossups want the whole-number solutions themselves, Pythagorean triples like 3-4-5, and others want the man Pythagoras or his followers, the Pythagoreans. Tossups on the law of cosines or the distance formula use this theorem as a clue but want a different answer. Fermat’s Last Theorem looks like this theorem with bigger exponents, but it is its own answer line.",
+    "fix": "Listen for the noun: “this theorem” or “this equation” means the Pythagorean theorem; “these sets of numbers” means Pythagorean triples; “this man” or “this philosopher” means Pythagoras. Saying only “Pythagoras” on a theorem tossup earns a prompt, so add “theorem.”",
+    "line": "Real answer line: <b><u>Pythagorean theorem</u></b> (or <u>Pythagoras’s theorem</u>; accept <u>a² + b² = c²</u>; prompt on <u>Pythagoras</u>)"
+  }
+}

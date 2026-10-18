@@ -1,0 +1,431 @@
+{
+  "id": "aquifers",
+  "name": "Aquifers",
+  "mono": "AQF",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Rock layers that store groundwater · Tapped by wells for drinking and farms",
+  "dates": "Hold most of Earth’s liquid fresh water",
+  "briefing": "An aquifer is a layer of underground rock or sediment, like sand, gravel, or cracked limestone, that soaks up water like a sponge and lets it flow through. People drill wells into aquifers to get water for drinking and farming. The giant Ogallala Aquifer under the Great Plains waters crops in eight states, but in many places farmers are pumping it out faster than rain can refill it.",
+  "answerHtml": "<b><u>Aquifer</u></b>s (accept confined, unconfined, or artesian <u>aquifer</u>s; prompt on <u>groundwater</u>; do not accept “water table” or “aquitard”)",
+  "accept": [
+    "aquifer",
+    "aquifers",
+    "confined aquifer",
+    "confined aquifers",
+    "unconfined aquifer",
+    "unconfined aquifers",
+    "artesian aquifer",
+    "artesian aquifers",
+    "aquifer system",
+    "aquifer systems"
+  ],
+  "prompt": [
+    "groundwater",
+    "ground water",
+    "underground water",
+    "zone of saturation",
+    "saturated zone",
+    "water bearing rock",
+    "water bearing layer",
+    "artesian basin"
+  ],
+  "reject": [
+    "water table",
+    "water tables",
+    "aquitard",
+    "aquitards",
+    "aquiclude",
+    "aquicludes",
+    "aquifuge",
+    "well",
+    "wells",
+    "artesian well",
+    "artesian wells",
+    "spring",
+    "springs",
+    "reservoir",
+    "reservoirs",
+    "lake",
+    "lakes",
+    "river",
+    "rivers",
+    "ogallala",
+    "ogallala aquifer",
+    "high plains aquifer",
+    "edwards aquifer",
+    "floridan aquifer",
+    "guarani aquifer",
+    "nubian sandstone aquifer",
+    "great artesian basin",
+    "geyser",
+    "geysers",
+    "cave",
+    "caves",
+    "aqueduct",
+    "aqueducts",
+    "cistern",
+    "watershed",
+    "drainage basin",
+    "vadose zone",
+    "karst"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Aquifer",
+  "qb": {
+    "q": "aquifer",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Henry Darcy’s law, which he worked out while designing a water supply for the public fountains of Dijon [“dee-ZHOHN”], France, describes how water flows through these underground layers. Darcy found that the flow depends on how steeply the water level drops and how easily water passes through the material.",
+      "r": "For 10 points, name these layers of porous rock or sediment that store groundwater, such as the Ogallala."
+    },
+    {
+      "p": "One type of these layers gets its name from the French region of Artois [“ar-TWAH”], where people long ago drilled wells in which water rose to the surface on its own. That confined type is trapped under pressure between watertight layers called aquicludes.",
+      "r": "For 10 points, name these underground layers of rock or sediment that hold groundwater and supply wells."
+    },
+    {
+      "p": "According to the Ghyben–Herzberg relation, fresh water in these layers beneath an ocean island floats on denser seawater and reaches about 40 times deeper below sea level than the water table rises above it. Pumping too much from them can pull in salt water.",
+      "r": "Wells are drilled into them to reach water. For 10 points, name these underground layers of permeable rock that hold groundwater."
+    },
+    {
+      "p": "Libya’s Great Man-Made River pipes ancient “fossil water” to coastal cities from the Nubian Sandstone system of these formations, which lies beneath the Sahara. Much of that water soaked in thousands of years ago, when the region was far wetter.",
+      "r": "For 10 points, name these underground layers of rock or sediment that store groundwater and supply wells."
+    },
+    {
+      "p": "Center-pivot sprinklers have steadily lowered the water level in a huge one of these formations under the Great Plains, which stretches beneath parts of eight states from South Dakota to Texas. Farmers rely on it to grow corn, wheat, and cotton.",
+      "r": "That one is the Ogallala. For 10 points, name these underground layers of rock or sediment that hold groundwater."
+    },
+    {
+      "p": "Comal Springs and San Marcos Springs bubble out of Texas’s Edwards example of these formations, whose cave-filled limestone is home to the endangered Texas blind salamander. The city of San Antonio gets much of its drinking water from it.",
+      "r": "For 10 points, name these underground layers of rock that hold groundwater and supply wells."
+    },
+    {
+      "p": "Pumping a well lowers the water level around it into a funnel shape called a cone of depression, which can dry up nearby shallow wells that tap the same one of these layers.",
+      "r": "Unconfined ones have the water table as their top surface. For 10 points, name these underground layers of permeable rock or sediment that hold groundwater."
+    },
+    {
+      "p": "The Guarani [“gwah-rah-NEE”] system of these formations, named for an Indigenous people of South America, lies beneath parts of Brazil, Argentina, Paraguay, and Uruguay. Its water is held in the tiny spaces between grains of sandstone.",
+      "r": "For 10 points, name these underground layers of rock or sediment from which wells draw groundwater."
+    },
+    {
+      "p": "A good example of these layers needs high porosity, meaning lots of open space between grains, and high permeability, meaning water can flow easily between those spaces. Clay has high porosity but such low permeability that it usually blocks water instead.",
+      "r": "For 10 points, name these underground layers of rock or sediment, such as sand and gravel, that hold groundwater."
+    },
+    {
+      "p": "Parts of California’s San Joaquin [“san wah-KEEN”] Valley sank by several meters during the 1900s as farmers pumped water out of these layers and the drained clay squeezed together. Mexico City has also sunk for the same reason.",
+      "r": "Wells are drilled into them. For 10 points, name these underground layers of permeable rock or sediment that hold groundwater."
+    },
+    {
+      "p": "Australia’s Great Artesian Basin, the world’s largest system of the confined type of these formations, lets ranchers in the dry Outback reach water through wells that Australians call bores. In many of those wells, water rises without any pumping.",
+      "r": "For 10 points, name these underground layers of permeable rock or sediment that store groundwater and supply wells."
+    },
+    {
+      "p": "The Floridan [“FLOR-ih-dun”] system of these formations is made of limestone riddled with channels that water has dissolved, and it feeds Florida’s many large freshwater springs. Cities across Florida and southern Georgia draw drinking water from it.",
+      "r": "For 10 points, name these underground layers of rock that hold groundwater, which can be confined or unconfined."
+    },
+    {
+      "p": "Leaky layers called aquitards slow water moving between these formations, while aquicludes, often made of clay or shale, block it almost completely. Unconfined types of these formations are refilled by rain and snowmelt soaking straight down from the surface.",
+      "r": "For 10 points, name these underground layers of porous rock or sediment that hold groundwater."
+    },
+    {
+      "p": "Below the vadose [“VAY-dohss”] zone, where soil pores hold both air and water, lies the saturated, or phreatic [“free-AT-ik”], zone, where these layers are found. The boundary between those two zones is called the water table.",
+      "r": "For 10 points, name these underground layers of rock or sediment that wells tap for groundwater."
+    },
+    {
+      "p": "The name of these formations comes from Latin words meaning “water-bearing.” Rain and snowmelt refill them in places called recharge zones, and their water can flow back out at springs, rivers, and wetlands.",
+      "r": "For 10 points, name these underground layers of porous rock or sediment, like the Ogallala, that hold groundwater."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "An underground layer of permeable rock or sediment that holds groundwater and lets it flow",
+      "k": [
+        "groundwater",
+        "permeable",
+        "underground layer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wells",
+      "tier": "giveaway",
+      "t": "People drill wells into them to get drinking water and water for irrigation",
+      "k": [
+        "wells",
+        "irrigation",
+        "drinking water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ogallala",
+      "tier": "giveaway",
+      "t": "The Ogallala, or High Plains, one lies under the Great Plains in parts of eight states",
+      "k": [
+        "ogallala",
+        "high plains",
+        "great plains",
+        "eight states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "materials",
+      "tier": "giveaway",
+      "t": "Good ones are made of sand, gravel, sandstone, or cracked limestone",
+      "k": [
+        "sandstone",
+        "gravel",
+        "limestone",
+        "sand"
+      ],
+      "n": 0,
+      "rabbit": "Limestone"
+    },
+    {
+      "id": "water-table",
+      "tier": "giveaway",
+      "t": "The top surface of an unconfined one is the water table",
+      "k": [
+        "water table",
+        "unconfined"
+      ],
+      "n": 0
+    },
+    {
+      "id": "artesian",
+      "tier": "middle",
+      "t": "Confined ones are trapped under pressure; water can rise on its own in artesian wells, named for Artois, France",
+      "k": [
+        "artesian",
+        "artois",
+        "confined",
+        "pressure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aquitards",
+      "tier": "middle",
+      "t": "Aquitards slow water down, and aquicludes, such as clay or shale, nearly block it",
+      "k": [
+        "aquitards",
+        "aquicludes",
+        "clay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "porosity",
+      "tier": "middle",
+      "t": "They need high porosity (open space) and high permeability (how easily water flows); clay is porous but blocks water",
+      "k": [
+        "porosity",
+        "permeability"
+      ],
+      "n": 0
+    },
+    {
+      "id": "recharge",
+      "tier": "middle",
+      "t": "Rain and snowmelt refill them in recharge zones; their water flows back out at springs, rivers, and wetlands",
+      "k": [
+        "recharge",
+        "springs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cone",
+      "tier": "middle",
+      "t": "Pumping a well creates a funnel-shaped cone of depression in the water level around it",
+      "k": [
+        "cone of depression",
+        "funnel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "subsidence",
+      "tier": "middle",
+      "t": "Overpumping can make the land sink, called subsidence, as in California’s San Joaquin Valley and Mexico City",
+      "k": [
+        "subsidence",
+        "san joaquin",
+        "mexico city"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saltwater",
+      "tier": "middle",
+      "t": "Near coasts, overpumping can draw seawater in: saltwater intrusion",
+      "k": [
+        "saltwater intrusion",
+        "seawater"
+      ],
+      "n": 0
+    },
+    {
+      "id": "center-pivot",
+      "tier": "middle",
+      "t": "Center-pivot irrigation is draining the Ogallala faster than rain refills it in many places",
+      "k": [
+        "center-pivot",
+        "draining"
+      ],
+      "n": 0
+    },
+    {
+      "id": "edwards",
+      "tier": "middle",
+      "t": "Texas’s Edwards one, in cave-filled limestone, supplies San Antonio and is home to the endangered Texas blind salamander",
+      "k": [
+        "edwards",
+        "san antonio",
+        "blind salamander"
+      ],
+      "n": 0
+    },
+    {
+      "id": "darcy",
+      "tier": "power",
+      "t": "Henry Darcy’s law (1856), worked out for the public fountains of Dijon, France, describes how water flows through them",
+      "k": [
+        "darcy",
+        "dijon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-man-made-river",
+      "tier": "power",
+      "t": "Libya’s Great Man-Made River pipes ancient “fossil water” from the Nubian Sandstone system under the Sahara",
+      "k": [
+        "great man-made river",
+        "nubian",
+        "fossil water",
+        "libya"
+      ],
+      "n": 0
+    },
+    {
+      "id": "guarani",
+      "tier": "power",
+      "t": "The Guarani system lies beneath Brazil, Argentina, Paraguay, and Uruguay",
+      "k": [
+        "guarani",
+        "paraguay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-artesian-basin",
+      "tier": "power",
+      "t": "Australia’s Great Artesian Basin is the world’s largest confined system; Outback wells there are called bores",
+      "k": [
+        "great artesian basin",
+        "outback",
+        "bores"
+      ],
+      "n": 0
+    },
+    {
+      "id": "floridan",
+      "tier": "power",
+      "t": "The Floridan one is limestone full of channels dissolved by water, and it feeds Florida’s big springs",
+      "k": [
+        "floridan",
+        "dissolved"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ghyben-herzberg",
+      "tier": "power",
+      "t": "Ghyben–Herzberg relation: under an island, the freshwater lens reaches about 40 times deeper below sea level than the water table rises above it",
+      "k": [
+        "ghyben",
+        "herzberg",
+        "freshwater lens",
+        "40 times"
+      ],
+      "n": 0
+    },
+    {
+      "id": "latin",
+      "tier": "power",
+      "t": "Its name comes from Latin words meaning “water-bearing”",
+      "k": [
+        "water-bearing",
+        "latin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vadose-phreatic",
+      "tier": "power",
+      "t": "The unsaturated vadose zone lies above the water table; the saturated phreatic zone lies below it",
+      "k": [
+        "vadose",
+        "phreatic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "comal",
+      "tier": "power",
+      "t": "Comal Springs and San Marcos Springs flow out of Texas’s Edwards one",
+      "k": [
+        "comal",
+        "san marcos"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydrogeology",
+      "tier": "power",
+      "t": "Hydrogeology is the study of groundwater and the layers that hold it",
+      "k": [
+        "hydrogeology"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Layer, table, or well?",
+    "body": "The water table is not this answer: it is only the top surface of the saturated ground, the line where the water starts. A well is the hole people drill to reach the water, an aquitard or aquiclude is a layer that slows or blocks water, and groundwater is the water itself. This answer is the rock or sediment layer that holds the water and lets it flow.",
+    "fix": "If the clue describes a layer of sand, gravel, sandstone, or limestone that stores water and supplies wells, or names the Ogallala, Edwards, or Floridan, answer aquifers. “Groundwater” earns only a prompt, so be ready to name the layer.",
+    "line": "Real answer line: <b><u>Aquifer</u></b>s (accept confined or artesian aquifers; prompt on groundwater; do not accept “water table” or “aquitard”)"
+  },
+  "tests": {
+    "right": [
+      "Aquifers",
+      "aquifer",
+      "Aquifier",
+      "Confined aquifer",
+      "Artesian aquifer"
+    ],
+    "prompt": [
+      "Groundwater"
+    ],
+    "wrong": [
+      "Water table",
+      "Aquitard",
+      "Artesian well",
+      "Ogallala Aquifer",
+      "Wells",
+      "Springs"
+    ]
+  }
+}

@@ -1,0 +1,353 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "atp",
+    "name": "ATP",
+    "mono": "ATP",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Adenosine triphosphate · The energy currency of every living cell",
+    "dates": "Discovered in 1929",
+    "briefing": "ATP, short for adenosine triphosphate, is the energy “money” that every living cell spends. Its three phosphate groups are crammed tightly together, and snapping off the last one releases energy that powers muscles, pumps, and nearly every other job in the cell. Cells never run out because their mitochondria keep rebuilding it from the leftover ADP.",
+    "answerHtml": "<b><u>ATP</u></b> (accept <u>adenosine triphosphate</u>; do not accept “ADP” or “AMP”)",
+    "accept": [
+        "atp",
+        "a t p",
+        "adenosine triphosphate",
+        "adenosine tri phosphate",
+        "adenosine 5 triphosphate"
+    ],
+    "prompt": [],
+    "reject": [
+        "adp",
+        "amp",
+        "camp",
+        "cyclic amp",
+        "gtp",
+        "ctp",
+        "utp",
+        "ttp",
+        "datp",
+        "nad",
+        "nadh",
+        "nadp",
+        "nadph",
+        "fad",
+        "fadh2",
+        "adenosine diphosphate",
+        "adenosine monophosphate",
+        "cyclic adenosine monophosphate",
+        "guanosine triphosphate",
+        "uridine triphosphate",
+        "cytidine triphosphate",
+        "thymidine triphosphate",
+        "deoxyadenosine triphosphate",
+        "atp synthase",
+        "atp synthetase",
+        "atpase",
+        "adenosine triphosphatase",
+        "adenosine triphosphate synthase",
+        "creatine phosphate",
+        "phosphocreatine",
+        "pyrophosphate",
+        "glucose",
+        "mitochondria",
+        "mitochondrion"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Adenosine_triphosphate",
+    "qb": {
+        "q": "ATP",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Paul Boyer and John Walker shared a Nobel Prize for explaining how a spinning enzyme assembles this molecule as hydrogen ions flow through it. Peter Mitchell’s chemiosmotic theory had earlier explained where that flow of ions comes from.",
+            "r": "Mitochondria make most of this molecule. For 10 points, name this “energy currency” of the cell."
+        },
+        {
+            "p": "Fritz Lipmann marked the “high-energy” phosphate bonds in this molecule with a squiggle, years after Karl Lohmann discovered it in 1929. Alexander Todd first made this molecule in a laboratory in 1948.",
+            "r": "Breaking off its last phosphate group leaves ADP. For 10 points, name this energy-carrying molecule that powers most of a cell’s work."
+        },
+        {
+            "p": "Fireflies glow when the enzyme luciferase uses this molecule to power a reaction with luciferin, so scientists use firefly enzymes to measure how much of this molecule a sample holds. Enzymes called kinases move one of its phosphate groups onto other molecules.",
+            "r": "Cellular respiration makes it. For 10 points, name this “energy currency” of cells, made mostly in the mitochondria."
+        },
+        {
+            "p": "Each cycle of the sodium-potassium pump spends one of these molecules to push three sodium ions out of a cell and bring two potassium ions in. Active transport like that needs this molecule because it moves substances against their concentration gradient.",
+            "r": "Cells rebuild it from ADP. For 10 points, name this energy molecule made of adenine, ribose, and three phosphate groups."
+        },
+        {
+            "p": "Myosin heads in muscle need a fresh one of these molecules to let go of actin, so when the body runs out of them after death, muscles lock stiff in rigor mortis. Creatine phosphate quickly rebuilds these molecules during a sprint.",
+            "r": "For 10 points, name this molecule that releases energy when it loses a phosphate group and becomes ADP."
+        },
+        {
+            "p": "In cyclic photophosphorylation, electrons loop back through photosystem I, so a chloroplast makes only this molecule and no NADPH. The light reactions of photosynthesis normally make this molecule and NADPH to power the Calvin cycle.",
+            "r": "For 10 points, name this molecule that stores energy in the bonds between its three phosphate groups."
+        },
+        {
+            "p": "High levels of this molecule slow down glycolysis by blocking the enzyme phosphofructokinase, a classic example of feedback inhibition. Hexokinase spends one of these molecules in glycolysis’s first step to attach a phosphate group to glucose.",
+            "r": "Glycolysis still ends with a net gain of two of them. For 10 points, name this energy molecule, the cell’s “energy currency.”"
+        },
+        {
+            "p": "Breaking the bond to this molecule’s gamma phosphate, the one farthest from its sugar, releases about 7.3 kilocalories per mole under standard conditions. That reaction is a hydrolysis, because a water molecule is used to split off the phosphate.",
+            "r": "The molecule left behind is ADP. For 10 points, name this “energy currency” of the cell."
+        },
+        {
+            "p": "Protons flow through a membrane-spanning rotor that spins a central stalk inside a knob-shaped head, and each full turn of that stalk builds three of these molecules. That machine sits in the inner membrane of mitochondria and in the thylakoid membranes of chloroplasts.",
+            "r": "For 10 points, name this energy-storing molecule, which the machine makes by adding a phosphate to ADP."
+        },
+        {
+            "p": "The enzyme adenylyl cyclase [“uh-DEN-uh-lil SYE-klayss”] turns this molecule into cyclic AMP, a common signal inside cells. RNA polymerase uses this molecule as one of its four building blocks when it builds a strand of RNA.",
+            "r": "For 10 points, name this nucleotide that carries energy in its three phosphate groups, the cell’s main energy source."
+        },
+        {
+            "p": "Inside cells, this molecule is usually bound to a magnesium ion, which most enzymes need in order to use it. When it loses two phosphates at once instead of one, it releases pyrophosphate and becomes AMP.",
+            "r": "Cellular respiration in the mitochondria makes most of it. For 10 points, name this molecule that powers most of a cell’s work."
+        },
+        {
+            "p": "The Krebs cycle makes only a little of this molecule directly, but it supplies NADH and FADH2 to the electron transport chain, which drives oxidative phosphorylation to make much more. Textbooks estimate that fully breaking down one glucose molecule yields about 30 to 38 of these molecules.",
+            "r": "Mitochondria make most of it. For 10 points, name this “energy currency” molecule that becomes ADP when it is used."
+        },
+        {
+            "p": "Two phosphoanhydride [“FOSS-foh-an-HY-dride”] bonds link this molecule’s three phosphate groups, which are labeled alpha, beta, and gamma. Its five-carbon sugar is ribose, and its base is adenine, a purine, so this molecule is a nucleotide.",
+            "r": "For 10 points, name this molecule that becomes ADP when it gives up energy, the cell’s “energy currency.”"
+        },
+        {
+            "p": "Cells drive uphill, energy-absorbing endergonic [“en-der-GON-ik”] reactions by coupling them to the breakdown of this molecule, which releases energy. That breakdown also powers motor proteins like kinesin and dynein that carry cargo along microtubules.",
+            "r": "For 10 points, name this molecule, the main “energy currency” of cells, which becomes ADP when it is used."
+        },
+        {
+            "p": "Fermentation lets yeast and muscle cells keep making small amounts of this molecule without oxygen by recycling NAD+. When oxygen is present, mitochondria can make many more of these molecules from each sugar molecule.",
+            "r": "For 10 points, name this energy-carrying molecule that has three phosphate groups and becomes ADP when it is used."
+        }
+    ],
+    "clues": [
+        {
+            "id": "energy-currency",
+            "tier": "giveaway",
+            "t": "The cell’s main “energy currency,” powering most of its work",
+            "k": ["energy currency", "currency"],
+            "n": 0
+        },
+        {
+            "id": "parts",
+            "tier": "giveaway",
+            "t": "Made of the base adenine, the sugar ribose, and three phosphate groups",
+            "k": ["three phosphate", "adenine", "ribose"],
+            "n": 0
+        },
+        {
+            "id": "becomes-adp",
+            "tier": "giveaway",
+            "t": "Releases energy when it loses its last phosphate group, leaving ADP, which has only two",
+            "k": ["last phosphate", "only two", "adp"],
+            "n": 0
+        },
+        {
+            "id": "mitochondria",
+            "tier": "giveaway",
+            "t": "Mitochondria, the “powerhouse of the cell,” make most of it",
+            "k": ["mitochondria", "powerhouse"],
+            "n": 0,
+            "rabbit": "Mitochondria"
+        },
+        {
+            "id": "cellular-respiration",
+            "tier": "giveaway",
+            "t": "Cellular respiration breaks down glucose to make it",
+            "k": ["cellular respiration", "glucose"],
+            "n": 0
+        },
+        {
+            "id": "glycolysis",
+            "tier": "middle",
+            "t": "Glycolysis makes a net gain of two for each glucose; fermentation lets cells keep making those two without oxygen",
+            "k": ["glycolysis", "net gain", "fermentation"],
+            "n": 0,
+            "rabbit": "Glycolysis"
+        },
+        {
+            "id": "oxidative-phosphorylation",
+            "tier": "middle",
+            "t": "Most of it comes from oxidative phosphorylation, powered by the electron transport chain; one glucose yields about 30 to 38 in all",
+            "k": ["oxidative phosphorylation", "electron transport chain"],
+            "n": 0
+        },
+        {
+            "id": "chemiosmosis",
+            "tier": "middle",
+            "t": "Hydrogen ions flowing back across a membrane (chemiosmosis) power the spinning enzyme that builds it from ADP",
+            "k": ["chemiosmosis", "hydrogen ions"],
+            "n": 0
+        },
+        {
+            "id": "light-reactions",
+            "tier": "middle",
+            "t": "The light reactions of photosynthesis make it, along with NADPH, to power the Calvin cycle",
+            "k": ["light reactions", "nadph", "calvin cycle"],
+            "n": 0,
+            "rabbit": "Calvin cycle"
+        },
+        {
+            "id": "sodium-potassium-pump",
+            "tier": "middle",
+            "t": "Powers active transport: the sodium-potassium pump spends one to move 3 sodium ions out and 2 potassium ions in",
+            "k": ["sodium-potassium pump", "active transport", "potassium"],
+            "n": 0,
+            "rabbit": "Active transport"
+        },
+        {
+            "id": "hydrolysis",
+            "tier": "middle",
+            "t": "Hydrolysis (splitting with water) of the bond to its last phosphate releases energy",
+            "k": ["hydrolysis", "water"],
+            "n": 0
+        },
+        {
+            "id": "muscle",
+            "tier": "middle",
+            "t": "Muscles use it to make myosin pull on actin and then let go",
+            "k": ["myosin", "actin"],
+            "n": 0
+        },
+        {
+            "id": "nucleotide",
+            "tier": "middle",
+            "t": "A nucleotide; RNA polymerase uses it as one of its four building blocks for RNA",
+            "k": ["nucleotide", "rna polymerase"],
+            "n": 0
+        },
+        {
+            "id": "boyer-walker",
+            "tier": "power",
+            "t": "Paul Boyer and John Walker shared a 1997 Nobel Prize for explaining the spinning enzyme that makes it",
+            "k": ["boyer", "walker", "1997"],
+            "n": 0
+        },
+        {
+            "id": "mitchell",
+            "tier": "power",
+            "t": "Peter Mitchell’s chemiosmotic theory explained how a flow of ions powers its production",
+            "k": ["peter mitchell", "chemiosmotic"],
+            "n": 0
+        },
+        {
+            "id": "rotor",
+            "tier": "power",
+            "t": "Protons turn the enzyme’s membrane rotor, spinning a stalk inside a knob-shaped head; each full turn builds three",
+            "k": ["rotor", "stalk", "knob-shaped"],
+            "n": 0
+        },
+        {
+            "id": "history",
+            "tier": "power",
+            "t": "Karl Lohmann discovered it in 1929; Fritz Lipmann marked its “high-energy” bonds with a squiggle; Alexander Todd first synthesized it in 1948",
+            "k": ["lohmann", "lipmann", "squiggle", "alexander todd"],
+            "n": 0
+        },
+        {
+            "id": "luciferase",
+            "tier": "power",
+            "t": "The firefly enzyme luciferase uses it to make luciferin glow, so scientists use that glow to measure it",
+            "k": ["luciferase", "luciferin", "firefly"],
+            "n": 0
+        },
+        {
+            "id": "kinases",
+            "tier": "power",
+            "t": "Enzymes called kinases move one of its phosphate groups onto other molecules (phosphorylation); hexokinase does this to glucose",
+            "k": ["kinases", "phosphorylation", "hexokinase"],
+            "n": 0
+        },
+        {
+            "id": "pfk",
+            "tier": "power",
+            "t": "High levels of it block the enzyme phosphofructokinase, slowing glycolysis (feedback inhibition)",
+            "k": ["phosphofructokinase", "feedback inhibition"],
+            "n": 0
+        },
+        {
+            "id": "gamma-phosphate",
+            "tier": "power",
+            "t": "Its phosphates are named alpha, beta, and gamma, joined by phosphoanhydride bonds; losing the gamma phosphate releases about 7.3 kcal per mole",
+            "k": ["gamma", "phosphoanhydride", "7.3"],
+            "n": 0
+        },
+        {
+            "id": "rigor-creatine",
+            "tier": "power",
+            "t": "Without it, myosin can’t let go of actin, causing rigor mortis; creatine phosphate quickly rebuilds it in sprinting muscles",
+            "k": ["rigor mortis", "creatine phosphate", "creatine"],
+            "n": 0
+        },
+        {
+            "id": "cyclic-amp",
+            "tier": "power",
+            "t": "The enzyme adenylyl cyclase turns it into the signal molecule cyclic AMP",
+            "k": ["adenylyl cyclase", "cyclic amp"],
+            "n": 0
+        },
+        {
+            "id": "magnesium",
+            "tier": "power",
+            "t": "Usually bound to a magnesium ion in cells; losing two phosphates at once releases pyrophosphate and leaves AMP",
+            "k": ["magnesium", "pyrophosphate"],
+            "n": 0
+        },
+        {
+            "id": "cyclic-photophosphorylation",
+            "tier": "power",
+            "t": "Cyclic photophosphorylation, with electrons looping through photosystem I, makes it without making NADPH",
+            "k": ["cyclic photophosphorylation", "photosystem i"],
+            "n": 0
+        },
+        {
+            "id": "coupling",
+            "tier": "power",
+            "t": "Energy coupling: its breakdown drives uphill endergonic reactions and motor proteins like kinesin and dynein",
+            "k": ["endergonic", "coupling", "kinesin", "dynein"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "ATP, ADP, or the enzyme?",
+        "body": "ADP (adenosine diphosphate) is what is left after ATP spends a phosphate, and AMP has only one phosphate, so naming the wrong one loses the tossup. Many questions also describe the spinning enzyme that builds ATP. If the question asks for “this enzyme,” the answer is ATP synthase, not the molecule, and “this organelle” means mitochondria.",
+        "fix": "Count the phosphates: “tri” means three, “di” means two. Listen to the noun: “this molecule” or “this nucleotide” that carries energy means ATP; “this enzyme” or “this rotary motor” means ATP synthase.",
+        "line": "Real answer line: <b><u>ATP</u></b> (accept <u>adenosine triphosphate</u>; do not accept “ADP” or “ATP synthase”)"
+    },
+    "tests": {
+        "right": [
+            "ATP",
+            "Adenosine triphosphate",
+            "adenosine triphospate",
+            "A.T.P.",
+            "adenosine tri-phosphate"
+        ],
+        "prompt": [],
+        "wrong": [
+            "ADP",
+            "AMP",
+            "GTP",
+            "NADH",
+            "Adenosine diphosphate",
+            "ATP synthase",
+            "Guanosine triphosphate",
+            "Mitochondria"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

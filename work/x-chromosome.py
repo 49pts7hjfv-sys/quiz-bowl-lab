@@ -1,0 +1,351 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "x-chromosome",
+    "name": "X chromosome",
+    "mono": "XC",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Sex chromosome · Two copies in most females, one in most males",
+    "dates": "First spotted by Hermann Henking in 1891",
+    "briefing": "Most human females have two X chromosomes, and most males have one X paired with a much smaller Y. Because males have only one copy, traits carried on the X, like red-green color blindness and hemophilia, show up far more often in boys. In females, one X in each cell is switched off, which is why calico cats, whose fur-color gene rides on the X, are almost always female.",
+    "answerHtml": "<b><u>X chromosome</u></b> (accept <u>X</u>; prompt on <u>sex chromosome</u> or <u>chromosome</u>; do not accept “Y chromosome”)",
+    "accept": [
+        "x chromosome",
+        "x chromosomes",
+        "x",
+        "chromosome x"
+    ],
+    "prompt": [
+        "sex chromosome",
+        "sex chromosomes",
+        "chromosome",
+        "chromosomes"
+    ],
+    "reject": [
+        "y chromosome",
+        "y chromosomes",
+        "y",
+        "chromosome y",
+        "xx",
+        "xy",
+        "xxy",
+        "xo",
+        "xx chromosome",
+        "xx chromosomes",
+        "xy chromosome",
+        "xy chromosomes",
+        "autosome",
+        "autosomes",
+        "barr body",
+        "barr bodies",
+        "z chromosome",
+        "w chromosome",
+        "x linked",
+        "x inactivation",
+        "fragile x",
+        "fragile x syndrome",
+        "turner syndrome",
+        "klinefelter syndrome",
+        "chromatid",
+        "chromatin",
+        "dna",
+        "gene",
+        "genes"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/X_chromosome",
+    "qb": {
+        "q": "X chromosome",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Hermann Henking gave this chromosome its one-letter name after spotting it in the cells of firebugs in 1891, and Clarence McClung later suggested that this “accessory chromosome” helps determine sex. Nettie Stevens backed up that idea in 1905 by studying mealworms.",
+            "r": "For 10 points, name this sex chromosome, of which human females usually have two copies."
+        },
+        {
+            "p": "In 1913, Alfred Sturtevant made the first genetic map using genes on this chromosome in fruit flies. Sturtevant’s teacher, Thomas Hunt Morgan, had shown in 1910 that a white-eyed male fly carried its eye-color gene on this chromosome.",
+            "r": "Human females usually have two copies of it. For 10 points, name this chromosome that human males inherit from their mothers."
+        },
+        {
+            "p": "Mary Lyon proposed in 1961 that in the cells of female mammals like mice and humans, one copy of this chromosome is randomly shut down. The inactive copy condenses into a dark spot that Murray Barr and Ewart Bertram first saw in cat nerve cells in 1949.",
+            "r": "That spot is called a Barr body. For 10 points, name this sex chromosome found in two copies in most human females."
+        },
+        {
+            "p": "A long noncoding RNA made from a gene on this chromosome coats one copy of it and silences most of its genes. That process, called dosage compensation, keeps female mammals from making twice as much of this chromosome’s gene products as males do.",
+            "r": "Females usually have two copies of it. For 10 points, name this sex chromosome whose partner in males is the Y."
+        },
+        {
+            "p": "Calico and tortoiseshell cats are almost always female, because a gene for orange or black fur sits on this chromosome and one copy is randomly shut off in each cell, leaving patches. The rare male calico usually has two copies of this chromosome plus a Y.",
+            "r": "For 10 points, name this chromosome, which also carries genes linked to red-green color blindness and hemophilia."
+        },
+        {
+            "p": "A syndrome named for a “fragile” site on this chromosome is caused by too many repeats of the DNA triplet CGG in a gene called FMR1. That syndrome is the most common inherited cause of intellectual disability.",
+            "r": "Most human males have one copy of it. For 10 points, name this sex chromosome, which pairs with the Y."
+        },
+        {
+            "p": "The largest known human gene, which codes for the muscle protein dystrophin, is found on this chromosome. Changes in that gene cause Duchenne [“doo-SHEN”] muscular dystrophy, which mostly affects boys because they usually have only one copy of this chromosome.",
+            "r": "For 10 points, name this sex chromosome, two copies of which are found in most human females."
+        },
+        {
+            "p": "Queen Victoria passed a gene variant on this chromosome to several European royal families, and her great-grandson Alexei, heir to Russia’s throne, inherited the clotting disorder it causes. That disorder, hemophilia, is far more common in males.",
+            "r": "For 10 points, name this sex chromosome that pairs with a Y in most males."
+        },
+        {
+            "p": "In 1794, John Dalton described his own color blindness, and in 1995 scientists tested DNA from his preserved eye and found that he lacked a working gene for a green-sensing pigment, which is carried on this chromosome.",
+            "r": "Because males have only one copy of this chromosome, red-green color blindness is far more common in them. For 10 points, name this sex chromosome."
+        },
+        {
+            "p": "People with Klinefelter syndrome have two copies of this chromosome plus a Y, so their cells contain one Barr body. People with Turner syndrome have just one copy of this chromosome and no second sex chromosome at all.",
+            "r": "For 10 points, name this sex chromosome, which human females usually inherit from both parents."
+        },
+        {
+            "p": "Small pseudoautosomal [“SOO-doh-aw-tuh-SOH-mul”] regions at the tips of this chromosome let it pair up and swap DNA with its much smaller partner during meiosis in males. Males are hemizygous for most genes on this chromosome, since they usually have only one copy.",
+            "r": "That smaller partner is the Y chromosome. For 10 points, name this sex chromosome, of which most females have two."
+        },
+        {
+            "p": "Male platypuses have five different versions of this chromosome along with five different Y chromosomes. Birds do not have this chromosome at all; instead, female birds have one Z chromosome and one W chromosome.",
+            "r": "For 10 points, name this mammalian sex chromosome, of which human females usually have two copies."
+        },
+        {
+            "p": "In fruit flies, sex depends on the ratio of copies of this chromosome to sets of other chromosomes, and males make up for having just one copy by roughly doubling its activity. Human females instead silence one of their two copies.",
+            "r": "For 10 points, name this sex chromosome, which human males inherit only from their mothers."
+        },
+        {
+            "p": "In 2020, this became the first human chromosome to be sequenced completely, from one end to the other, with no gaps. It carries the gene for G6PD, an enzyme whose shortage can cause anemia after a person eats fava beans.",
+            "r": "It is much larger than its partner, the Y. For 10 points, name this chromosome found in two copies in most human females."
+        },
+        {
+            "p": "A father passes his copy of this chromosome to all of his daughters and none of his sons. Because sons get their only copy from their mothers, a son who inherits a recessive allele on it will usually show that trait.",
+            "r": "For 10 points, name this sex chromosome that pairs with a Y in most human males."
+        }
+    ],
+    "clues": [
+        {
+            "id": "sex-chromosome",
+            "tier": "giveaway",
+            "t": "One of the two human sex chromosomes; its partner, the Y, is much smaller",
+            "k": ["sex chromosomes", "partner", "much smaller"],
+            "n": 0
+        },
+        {
+            "id": "two-copies",
+            "tier": "giveaway",
+            "t": "Human females usually have two copies; males usually have one, paired with a Y",
+            "k": ["two copies", "females", "males"],
+            "n": 0
+        },
+        {
+            "id": "from-mother",
+            "tier": "giveaway",
+            "t": "A male inherits his only copy from his mother",
+            "k": ["mother", "inherits"],
+            "n": 0
+        },
+        {
+            "id": "color-blindness",
+            "tier": "giveaway",
+            "t": "Carries genes linked to red-green color blindness, which is far more common in males",
+            "k": ["color blindness", "red-green"],
+            "n": 0
+        },
+        {
+            "id": "hemophilia",
+            "tier": "giveaway",
+            "t": "Carries a gene linked to hemophilia, a clotting disorder far more common in males",
+            "k": ["hemophilia", "clotting disorder"],
+            "n": 0,
+            "rabbit": "Blood clotting"
+        },
+        {
+            "id": "morgan",
+            "tier": "middle",
+            "t": "Thomas Hunt Morgan’s white-eyed fruit fly (1910) showed that a gene was carried on it",
+            "k": ["thomas hunt morgan", "white-eyed", "fruit fly", "1910"],
+            "n": 0,
+            "rabbit": "Fruit flies"
+        },
+        {
+            "id": "barr-body",
+            "tier": "middle",
+            "t": "In female mammals, one copy in each cell is shut down and condensed into a Barr body",
+            "k": ["barr body", "condensed"],
+            "n": 0
+        },
+        {
+            "id": "calico",
+            "tier": "middle",
+            "t": "Calico and tortoiseshell cats are almost always female because a fur-color gene sits on it",
+            "k": ["calico", "tortoiseshell", "fur-color"],
+            "n": 0
+        },
+        {
+            "id": "turner",
+            "tier": "middle",
+            "t": "People with Turner syndrome have only one copy and no second sex chromosome",
+            "k": ["turner syndrome"],
+            "n": 0
+        },
+        {
+            "id": "klinefelter",
+            "tier": "middle",
+            "t": "People with Klinefelter syndrome have two copies plus a Y",
+            "k": ["klinefelter syndrome"],
+            "n": 0
+        },
+        {
+            "id": "father-daughters",
+            "tier": "middle",
+            "t": "A father passes his copy to all of his daughters and none of his sons",
+            "k": ["daughters", "sons", "father"],
+            "n": 0
+        },
+        {
+            "id": "hemizygous",
+            "tier": "middle",
+            "t": "Males are “hemizygous” for most of its genes, so a single recessive allele shows up in them",
+            "k": ["hemizygous", "recessive allele"],
+            "n": 0
+        },
+        {
+            "id": "henking",
+            "tier": "power",
+            "t": "First spotted by Hermann Henking in 1891, in the cells of firebugs; he gave it its one-letter name",
+            "k": ["henking", "1891", "firebugs"],
+            "n": 0
+        },
+        {
+            "id": "mcclung-stevens",
+            "tier": "power",
+            "t": "Clarence McClung linked this “accessory chromosome” to sex; Nettie Stevens backed him up by studying mealworms (1905)",
+            "k": ["mcclung", "accessory chromosome", "nettie stevens", "mealworms"],
+            "n": 0
+        },
+        {
+            "id": "sturtevant",
+            "tier": "power",
+            "t": "Alfred Sturtevant made the first genetic map in 1913 from fruit fly genes on it",
+            "k": ["sturtevant", "genetic map", "1913"],
+            "n": 0
+        },
+        {
+            "id": "lyon-barr",
+            "tier": "power",
+            "t": "Mary Lyon proposed random shut-off in 1961 (“lyonization”); Murray Barr and Ewart Bertram had found the Barr body in cat nerve cells in 1949",
+            "k": ["mary lyon", "lyonization", "1961", "bertram", "1949"],
+            "n": 0
+        },
+        {
+            "id": "noncoding-rna",
+            "tier": "power",
+            "t": "A long noncoding RNA coats the copy that gets silenced; this dosage compensation evens out gene activity",
+            "k": ["noncoding rna", "dosage compensation", "silenced"],
+            "n": 0
+        },
+        {
+            "id": "fragile-site",
+            "tier": "power",
+            "t": "A syndrome named for a “fragile” site on it, caused by repeated CGG triplets in FMR1, is the most common inherited cause of intellectual disability",
+            "k": ["fragile", "cgg", "fmr1", "intellectual disability"],
+            "n": 0
+        },
+        {
+            "id": "dystrophin",
+            "tier": "power",
+            "t": "Holds the dystrophin gene, the largest known human gene; changes in it cause Duchenne muscular dystrophy",
+            "k": ["dystrophin", "duchenne", "largest known"],
+            "n": 0,
+            "rabbit": "Muscles"
+        },
+        {
+            "id": "dalton",
+            "tier": "power",
+            "t": "John Dalton described his own color blindness in 1794; DNA from his preserved eye was tested in 1995",
+            "k": ["john dalton", "1794", "1995", "preserved eye"],
+            "n": 0
+        },
+        {
+            "id": "alexei",
+            "tier": "power",
+            "t": "Queen Victoria’s great-grandson Alexei, heir to Russia’s throne, inherited hemophilia",
+            "k": ["alexei", "russia", "queen victoria"],
+            "n": 0
+        },
+        {
+            "id": "pseudoautosomal",
+            "tier": "power",
+            "t": "Pseudoautosomal regions at its tips pair and swap DNA with the Y during meiosis in males",
+            "k": ["pseudoautosomal", "tips", "meiosis"],
+            "n": 0
+        },
+        {
+            "id": "platypus",
+            "tier": "power",
+            "t": "Male platypuses have five different versions of it (and five Y’s); birds use Z and W chromosomes instead",
+            "k": ["platypuses", "five", "z and w"],
+            "n": 0
+        },
+        {
+            "id": "fly-ratio",
+            "tier": "power",
+            "t": "In fruit flies, sex depends on the ratio of its copies to sets of other chromosomes",
+            "k": ["ratio", "fruit flies"],
+            "n": 0
+        },
+        {
+            "id": "first-gapless",
+            "tier": "power",
+            "t": "In 2020, it became the first human chromosome sequenced end to end with no gaps",
+            "k": ["2020", "no gaps", "end to end"],
+            "n": 0
+        },
+        {
+            "id": "g6pd",
+            "tier": "power",
+            "t": "Carries the gene for G6PD; a shortage of that enzyme can cause anemia after eating fava beans",
+            "k": ["g6pd", "fava beans", "anemia"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "X, Y, or just chromosome?",
+        "body": "Tossups on this chromosome are full of clues about sex chromosomes, Barr bodies, and the Y, so players blurt “Y chromosome,” “sex chromosome,” or just “chromosome.” The two sex chromosomes are very different: the Y is small, carries far fewer genes, and passes only from father to son.",
+        "fix": "Calico cats, Barr bodies, lyonization, hemophilia, color blindness, fragile X syndrome, or “two copies in females” mean the X chromosome. Father-to-son inheritance means the Y. Saying only “sex chromosome” or “chromosome” earns a prompt, so be ready to add the letter.",
+        "line": "Real answer line: <b><u>X chromosome</u></b> (accept <u>X</u>; prompt on <u>sex chromosome</u>; do not accept “Y chromosome”)"
+    },
+    "tests": {
+        "right": [
+            "X chromosome",
+            "X",
+            "x-chromosome",
+            "X chromosomes",
+            "X chromosom"
+        ],
+        "prompt": [
+            "Sex chromosome",
+            "Chromosome"
+        ],
+        "wrong": [
+            "Y chromosome",
+            "Barr body",
+            "Autosome",
+            "XY",
+            "Y"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,361 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "cancer",
+    "name": "Cancer",
+    "mono": "CX",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Disease of cells dividing out of control · Can spread through the body",
+    "dates": "Named for the crab by Hippocrates, c. 400 BCE",
+    "briefing": "Cancer is the name for more than 100 diseases that start the same way: changes in a cell’s genes make it divide out of control instead of following the body’s normal signals. The extra cells can pile up into a lump called a tumor and sometimes spread to other parts of the body. The ancient Greek doctor Hippocrates named it after a crab, and today scientists treat many types with surgery, radiation, and medicines.",
+    "answerHtml": "<b><u>Cancer</u></b> (accept <u>malignant tumors</u> or <u>malignant neoplasms</u>; prompt on <u>tumors</u> or <u>neoplasms</u>)",
+    "accept": [
+        "cancer",
+        "cancers",
+        "malignant tumor",
+        "malignant tumors",
+        "malignant tumour",
+        "malignant tumours",
+        "malignant neoplasm",
+        "malignant neoplasms",
+        "malignancy",
+        "malignancies"
+    ],
+    "prompt": [
+        "tumor",
+        "tumors",
+        "tumour",
+        "tumours",
+        "neoplasm",
+        "neoplasms"
+    ],
+    "reject": [
+        "benign tumor",
+        "benign tumors",
+        "benign tumour",
+        "benign tumours",
+        "tropic of cancer",
+        "metastasis",
+        "mutation",
+        "mutations",
+        "apoptosis",
+        "mitosis",
+        "oncogene",
+        "oncogenes",
+        "tumor suppressor",
+        "carcinogen",
+        "carcinogens",
+        "chemotherapy",
+        "radiation",
+        "infection",
+        "virus",
+        "bacteria"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Cancer",
+    "qb": {
+        "q": "cancer",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The Greek doctor Galen used a word meaning “swelling” for the growths caused by this disease, and that word’s root now names the medical specialty that treats it, oncology. Earlier, Hippocrates named this disease after a crab, possibly because a tumor’s spreading, finger-like edges reminded him of one.",
+            "r": "Its cells can spread through the body. For 10 points, name this disease in which abnormal cells divide out of control."
+        },
+        {
+            "p": "Cells taken from a tumor of Henrietta Lacks in 1951, without her knowledge, became HeLa [“HEE-lah”] cells, the first human cells that could keep dividing in a lab indefinitely. Rebecca Skloot told the story of those cells and her family in _The Immortal Life of Henrietta Lacks_.",
+            "r": "Unlike normal cells, cells of this disease ignore signals to stop dividing. For 10 points, name this disease, whose types include leukemia and melanoma."
+        },
+        {
+            "p": "In 1911, Peyton Rous showed that a cell-free extract from a chicken’s tumor could cause the same disease in healthy chickens, and he won a Nobel Prize for that work in 1966. Genes that push cells to divide too much and help cause this disease are called oncogenes.",
+            "r": "Tumor suppressor genes normally act as brakes against it. For 10 points, name this disease in which cells grow uncontrollably and may form tumors."
+        },
+        {
+            "p": "In 1775, surgeon Percivall Pott linked a high rate of this disease among London’s chimney sweeps to soot, the first time it was tied to a job. Substances that cause this disease, like asbestos and chemicals in tobacco smoke, are called carcinogens.",
+            "r": "For 10 points, name this disease that is often treated with chemotherapy, radiation, or surgery."
+        },
+        {
+            "p": "The protein p53, nicknamed the “guardian of the genome,” stops damaged cells from dividing, and its gene is mutated in about half of all cases of this disease. Genes like BRCA1 also normally act as brakes against this disease.",
+            "r": "Those brakes are called tumor suppressor genes. For 10 points, name this disease of uncontrolled cell division that can spread through the body."
+        },
+        {
+            "p": "Alfred Knudson’s “two-hit” hypothesis, based on retinoblastoma, a rare eye tumor in children, explained why both copies of certain genes must be damaged before this disease develops. Genes that cause this disease when they become overactive are called oncogenes.",
+            "r": "For 10 points, name this disease in which cells divide uncontrollably and may spread to other organs."
+        },
+        {
+            "p": "The Philadelphia chromosome, made when pieces of chromosomes 9 and 22 swap places, causes a form of this disease called chronic myeloid leukemia, which the drug imatinib, sold as Gleevec, targets. Leukemia is the form of this disease that starts in bone marrow.",
+            "r": "Doctors who treat it are called oncologists. For 10 points, name this disease of uncontrolled cell growth."
+        },
+        {
+            "p": "Otto Warburg noticed that cells of this disease rely heavily on glycolysis to break down glucose, even when plenty of oxygen is around. Judah Folkman proposed that the tumors of this disease cannot grow large unless they recruit new blood vessels, a process called angiogenesis.",
+            "r": "Doctors called oncologists treat it. For 10 points, name this disease in which abnormal cells divide out of control."
+        },
+        {
+            "p": "Cells of this disease often switch on telomerase, an enzyme that rebuilds the protective ends of chromosomes, so they can keep dividing far past the Hayflick limit, the usual cap of about 50 divisions for normal human cells.",
+            "r": "When its cells spread to distant parts of the body, the process is called metastasis. For 10 points, name this disease in which cells divide out of control."
+        },
+        {
+            "p": "James Allison and Tasuku Honjo shared the 2018 Nobel Prize in Physiology or Medicine for finding ways to release the brakes on the immune system so it can attack cells of this disease, a treatment called immunotherapy.",
+            "r": "Chemotherapy drugs fight this disease by killing fast-dividing cells. For 10 points, name this disease, which can form tumors that spread through the body."
+        },
+        {
+            "p": "In 1947, Sidney Farber used the drug aminopterin to bring about the first temporary remissions in children with leukemia, a form of this disease, earning him the nickname “father of modern chemotherapy.”",
+            "r": "Unlike benign tumors, the tumors of this disease can invade nearby tissue. For 10 points, name this disease in which abnormal cells divide out of control."
+        },
+        {
+            "p": "Siddhartha Mukherjee won the 2011 Pulitzer Prize for General Nonfiction for _The Emperor of All Maladies_, which he called a “biography” of this disease. The name of this disease comes from the Latin word for “crab.”",
+            "r": "Doctors who treat it are called oncologists. For 10 points, name this disease in which mutated cells divide uncontrollably, sometimes spreading through the body."
+        },
+        {
+            "p": "Canadian athlete Terry Fox, who had lost a leg to a bone form of this disease, ran a “Marathon of Hope” across Canada in 1980 to raise money for research on it. Bone forms of this disease are called sarcomas.",
+            "r": "Melanoma is a form that starts in the skin’s pigment cells. For 10 points, name this disease in which cells grow out of control."
+        },
+        {
+            "p": "Bruce Ames developed a quick test that uses Salmonella bacteria to check whether a chemical causes mutations, which helps flag substances that might cause this disease. Carcinomas, the most common forms of this disease, start in cells that line the skin and organs.",
+            "r": "Sarcomas start in bone or muscle instead. For 10 points, name this disease in which abnormal cells divide uncontrollably."
+        },
+        {
+            "p": "J. Michael Bishop and Harold Varmus won the 1989 Nobel Prize for showing that oncogenes come from normal genes, called proto-oncogenes, that help control cell growth. Damage to a cell’s DNA from things like ultraviolet light can start this disease.",
+            "r": "For 10 points, name this disease, which doctors often treat with surgery, radiation, and chemotherapy."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "A group of more than 100 diseases in which abnormal cells divide out of control",
+            "k": ["divide out of control", "abnormal cells"],
+            "n": 0
+        },
+        {
+            "id": "tumors",
+            "tier": "giveaway",
+            "t": "Extra cells can form a lump called a tumor; benign tumors stay put, while malignant ones invade",
+            "k": ["tumor", "benign", "malignant"],
+            "n": 0
+        },
+        {
+            "id": "metastasis",
+            "tier": "giveaway",
+            "t": "Can spread to distant parts of the body, a process called metastasis",
+            "k": ["metastasis", "spread"],
+            "n": 0
+        },
+        {
+            "id": "treatments",
+            "tier": "giveaway",
+            "t": "Treated with surgery, chemotherapy (medicines), radiation therapy, and immunotherapy",
+            "k": ["chemotherapy", "radiation therapy", "surgery"],
+            "n": 0
+        },
+        {
+            "id": "crab",
+            "tier": "giveaway",
+            "t": "Hippocrates named it after a crab; its name is the Latin word for “crab”",
+            "k": ["crab", "hippocrates", "latin"],
+            "n": 0
+        },
+        {
+            "id": "mutations",
+            "tier": "middle",
+            "t": "Starts with mutations, changes in a cell’s DNA, which can be inherited or picked up during life",
+            "k": ["mutations", "inherited"],
+            "n": 0,
+            "rabbit": "Mutations"
+        },
+        {
+            "id": "carcinogens",
+            "tier": "middle",
+            "t": "Carcinogens, such as ultraviolet light, asbestos, and chemicals in tobacco smoke, can cause it",
+            "k": ["carcinogens", "asbestos", "ultraviolet"],
+            "n": 0
+        },
+        {
+            "id": "oncogenes",
+            "tier": "middle",
+            "t": "Oncogenes push cells to divide too much; tumor suppressor genes normally act as brakes",
+            "k": ["oncogenes", "tumor suppressor"],
+            "n": 0
+        },
+        {
+            "id": "oncology",
+            "tier": "middle",
+            "t": "Doctors who treat it are oncologists; Galen’s Greek word for “swelling” gave oncology its name",
+            "k": ["oncologists", "oncology", "galen"],
+            "n": 0
+        },
+        {
+            "id": "types",
+            "tier": "middle",
+            "t": "Carcinomas (the most common) start in linings of the skin and organs, sarcomas in bone and muscle, and leukemias in bone marrow",
+            "k": ["carcinomas", "sarcomas", "leukemias"],
+            "n": 0,
+            "rabbit": "White blood cells"
+        },
+        {
+            "id": "melanoma",
+            "tier": "middle",
+            "t": "Melanoma starts in the skin’s pigment cells and is linked to ultraviolet light",
+            "k": ["melanoma", "pigment cells"],
+            "n": 0,
+            "rabbit": "Skin"
+        },
+        {
+            "id": "apoptosis",
+            "tier": "middle",
+            "t": "Its cells avoid apoptosis, the programmed cell death that normally removes damaged cells",
+            "k": ["apoptosis", "programmed cell death"],
+            "n": 0,
+            "rabbit": "Apoptosis"
+        },
+        {
+            "id": "checkpoints",
+            "tier": "middle",
+            "t": "Its cells ignore cell-cycle checkpoints and contact inhibition, the signal that stops normal cells from dividing when crowded",
+            "k": ["checkpoints", "contact inhibition"],
+            "n": 0,
+            "rabbit": "Mitosis"
+        },
+        {
+            "id": "p53",
+            "tier": "power",
+            "t": "The p53 gene, the “guardian of the genome,” is mutated in about half of all cases; BRCA1 is another brake gene",
+            "k": ["p53", "guardian of the genome", "brca1"],
+            "n": 0
+        },
+        {
+            "id": "hela",
+            "tier": "power",
+            "t": "HeLa cells, the first human cells to divide indefinitely in a lab, came from Henrietta Lacks’s tumor in 1951 without her knowledge; Rebecca Skloot told her story",
+            "k": ["hela", "henrietta lacks", "skloot", "1951"],
+            "n": 0
+        },
+        {
+            "id": "rous",
+            "tier": "power",
+            "t": "Peyton Rous showed in 1911 that a cell-free extract could pass a chicken tumor to healthy chickens; he won the Nobel Prize in 1966",
+            "k": ["peyton rous", "rous", "1911"],
+            "n": 0
+        },
+        {
+            "id": "pott",
+            "tier": "power",
+            "t": "Percivall Pott (1775) linked chimney sweeps’ high rate of it to soot, the first link to a job",
+            "k": ["percivall pott", "chimney sweeps", "soot"],
+            "n": 0
+        },
+        {
+            "id": "knudson",
+            "tier": "power",
+            "t": "Alfred Knudson’s “two-hit” hypothesis came from studying retinoblastoma, an eye tumor in children",
+            "k": ["two-hit", "knudson", "retinoblastoma"],
+            "n": 0
+        },
+        {
+            "id": "philadelphia",
+            "tier": "power",
+            "t": "The Philadelphia chromosome, a swap between chromosomes 9 and 22, causes chronic myeloid leukemia; the drug imatinib (Gleevec) targets it",
+            "k": ["philadelphia chromosome", "imatinib", "gleevec"],
+            "n": 0,
+            "rabbit": "Chromosomes"
+        },
+        {
+            "id": "warburg-telomerase",
+            "tier": "power",
+            "t": "Its cells rely on glycolysis even with oxygen around (the Warburg effect) and often switch on telomerase to keep dividing past the Hayflick limit",
+            "k": ["warburg", "telomerase", "hayflick limit"],
+            "n": 0,
+            "rabbit": "Glycolysis"
+        },
+        {
+            "id": "angiogenesis",
+            "tier": "power",
+            "t": "Judah Folkman proposed that tumors must recruit new blood vessels (angiogenesis) to grow large",
+            "k": ["angiogenesis", "judah folkman", "blood vessels"],
+            "n": 0
+        },
+        {
+            "id": "immunotherapy",
+            "tier": "power",
+            "t": "James Allison and Tasuku Honjo won the 2018 Nobel Prize for immunotherapy that releases the immune system’s brakes",
+            "k": ["immunotherapy", "james allison", "tasuku honjo"],
+            "n": 0
+        },
+        {
+            "id": "farber",
+            "tier": "power",
+            "t": "Sidney Farber, the “father of modern chemotherapy,” used aminopterin against childhood leukemia in 1947",
+            "k": ["sidney farber", "aminopterin", "1947"],
+            "n": 0
+        },
+        {
+            "id": "mukherjee",
+            "tier": "power",
+            "t": "Siddhartha Mukherjee’s “biography” of it, _The Emperor of All Maladies_, won the 2011 Pulitzer Prize",
+            "k": ["mukherjee", "emperor of all maladies", "pulitzer"],
+            "n": 0
+        },
+        {
+            "id": "terry-fox",
+            "tier": "power",
+            "t": "Terry Fox, who lost a leg to a bone sarcoma, ran the 1980 Marathon of Hope across Canada to raise money for research",
+            "k": ["terry fox", "marathon of hope", "1980"],
+            "n": 0
+        },
+        {
+            "id": "ames-test",
+            "tier": "power",
+            "t": "The Ames test uses Salmonella bacteria to screen chemicals for mutations that might cause it",
+            "k": ["ames test", "salmonella"],
+            "n": 0
+        },
+        {
+            "id": "proto-oncogenes",
+            "tier": "power",
+            "t": "J. Michael Bishop and Harold Varmus (1989 Nobel Prize) showed that oncogenes come from normal proto-oncogenes",
+            "k": ["proto-oncogenes", "varmus", "bishop"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Disease, not tumor",
+        "body": "A tumor is just a lump of extra cells. Benign tumors stay in one place and are not this disease; only malignant ones are, so an early buzz of “tumor” earns a prompt here instead of points. The word also has namesakes, like the crab constellation and zodiac sign and the Tropic of Cancer, which belong to astronomy and geography questions.",
+        "fix": "Say the disease’s name, not the lump. Uncontrolled cell division, metastasis, oncogenes, carcinogens, or chemotherapy point here; a constellation or a line of latitude points to astronomy or geography instead.",
+        "line": "Real answer line: <b><u>Cancer</u></b> (accept <u>malignant tumors</u> or <u>malignant neoplasms</u>; prompt on <u>tumors</u>)"
+    },
+    "tests": {
+        "right": [
+            "Cancer",
+            "cancer",
+            "Cancr",
+            "Malignant tumor",
+            "Lung cancer"
+        ],
+        "prompt": [
+            "Tumor",
+            "Tumors"
+        ],
+        "wrong": [
+            "Benign tumor",
+            "Mutation",
+            "Tropic of Cancer",
+            "Apoptosis",
+            "Metastasis"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

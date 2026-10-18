@@ -1,0 +1,423 @@
+{
+  "id": "uncertainty-principle",
+  "name": "Uncertainty principle",
+  "mono": "HUP",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Heisenberg’s quantum limit · Exact position or exact momentum, never both",
+  "dates": "Stated by Werner Heisenberg in 1927",
+  "briefing": "In 1927, a 25-year-old German physicist named Werner Heisenberg found a strange rule of the quantum world: the more exactly you know where a tiny particle like an electron is, the less exactly you can know its momentum, and the reverse. This isn’t because our tools are clumsy; the limit is built into nature, because particles also behave like waves. It even helps explain why atoms don’t collapse.",
+  "answerHtml": "<b><u>uncertainty principle</u></b> (accept <u>Heisenberg uncertainty principle</u> or <u>indeterminacy principle</u>; prompt on <u>Heisenberg</u> or <u>uncertainty</u>)",
+  "accept": [
+    "uncertainty principle",
+    "uncertainty principles",
+    "heisenberg uncertainty principle",
+    "heisenbergs uncertainty principle",
+    "uncertainty relation",
+    "uncertainty relations",
+    "heisenberg uncertainty relation",
+    "principle of uncertainty",
+    "indeterminacy principle",
+    "heisenberg indeterminacy principle",
+    "principle of indeterminacy"
+  ],
+  "prompt": [
+    "heisenberg",
+    "werner heisenberg",
+    "heisenberg principle",
+    "heisenbergs principle",
+    "uncertainty"
+  ],
+  "reject": [
+    "pauli exclusion principle",
+    "exclusion principle",
+    "certainty principle",
+    "complementarity",
+    "complementarity principle",
+    "principle of complementarity",
+    "correspondence principle",
+    "superposition",
+    "superposition principle",
+    "observer effect",
+    "wave particle duality",
+    "quantum entanglement",
+    "entanglement",
+    "schrodingers cat",
+    "schrodinger equation",
+    "equivalence principle",
+    "zero point energy",
+    "matrix mechanics"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+  "qb": {
+    "q": "uncertainty principle",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Howard Robertson generalized this principle to any two quantities whose quantum operators do not commute. Earle Kennard proved its modern form, which says the spreads in a particle’s position and momentum, multiplied together, are at least h-bar over two.",
+      "r": "For 10 points, name this principle of quantum mechanics, stated by Werner Heisenberg in 1927."
+    },
+    {
+      "p": "In a famous thought experiment, trying to pinpoint an electron with a microscope that uses very short-wavelength gamma rays gives the electron an unpredictable kick, illustrating this principle. This principle applies to pairs of quantities called conjugate variables.",
+      "r": "For 10 points, name this principle formulated by Werner Heisenberg, which says a particle’s position and momentum cannot both be known exactly."
+    },
+    {
+      "p": "At the 1930 Solvay Conference, Albert Einstein described a box that releases a single photon at a precisely known time, hoping to beat the energy-time form of this principle. Niels Bohr answered him using Einstein’s own theory of general relativity.",
+      "r": "For 10 points, name this principle, discovered by Werner Heisenberg, which says position and momentum cannot both be measured precisely."
+    },
+    {
+      "p": "Because of this principle, a trapped particle can never be perfectly still, so it always keeps some “zero-point energy,” which helps explain why helium stays liquid near absolute zero unless it is squeezed under high pressure. This principle is a basic rule of nature, not a limit of clumsy measuring tools.",
+      "r": "For 10 points, name this principle by Werner Heisenberg, which says you cannot know both a particle’s exact position and its exact momentum."
+    },
+    {
+      "p": "Atoms in short-lived excited states give off spectral lines with a “natural width” instead of a perfectly sharp color because of one form of this principle. That form links the spread in a state’s energy to how long the state lasts.",
+      "r": "For 10 points, name this quantum principle, which says that a particle’s position and momentum cannot both be known exactly."
+    },
+    {
+      "p": "Mathematically, this principle follows from the fact that a wave packet squeezed into a small region must be built from many different wavelengths, a property of Fourier transforms. It holds because particles like electrons also behave like waves.",
+      "r": "For 10 points, name this principle, stated by Werner Heisenberg, that limits how precisely position and momentum can be known together."
+    },
+    {
+      "p": "The LIGO gravitational-wave detectors use “squeezed light” to cut noise, making one property of the light more precise at the cost of another, without breaking this principle. This principle’s limit is set by the reduced Planck constant, h-bar.",
+      "r": "For 10 points, name this principle, which says a particle’s position and momentum can’t both be pinned down exactly."
+    },
+    {
+      "p": "Shrinking the width of a single slit makes the electrons passing through it spread out more widely on a screen, a result that matches this principle. Pinning down where each electron crossed the slit makes its sideways momentum harder to predict.",
+      "r": "For 10 points, name this principle discovered by Werner Heisenberg in 1927, which limits how well position and momentum can be known."
+    },
+    {
+      "p": "This principle follows from the fact that two quantum operators, x and p, do not commute: their commutator equals i times h-bar. The scientist behind this principle developed matrix mechanics with Max Born and Pascual Jordan.",
+      "r": "For 10 points, name this principle that limits how precisely a particle’s position and momentum can be known together."
+    },
+    {
+      "p": "This principle helps explain why an electron does not crash into an atom’s nucleus, since squeezing the electron into a tiny space would give it a huge spread of momentum and a lot of energy. It applies to pairs of quantities called conjugate variables.",
+      "r": "For 10 points, name this principle of Werner Heisenberg, which says a particle’s exact position and momentum can’t both be known."
+    },
+    {
+      "p": "Hideki Yukawa’s prediction of a particle carrying the strong force is often explained with one form of this principle, which allows short-lived “virtual” particles to briefly pop into existence. That form relates energy and time.",
+      "r": "For 10 points, name this principle, formulated by Werner Heisenberg, stating that position and momentum cannot both be measured exactly."
+    },
+    {
+      "p": "Niels Bohr linked this principle to his idea of complementarity, which says that wave and particle pictures are both needed but can never be used at the same time. Both ideas became part of the Copenhagen interpretation of quantum mechanics.",
+      "r": "For 10 points, name this principle, published by Werner Heisenberg in 1927, about measuring position and momentum."
+    },
+    {
+      "p": "In signal processing, the Gabor [“GAH-bor”] limit is a version of this principle: a sound that lasts only an instant cannot have a precise pitch, and a pure pitch must last a long time. This principle is not the same as the observer effect, in which measuring something disturbs it.",
+      "r": "For 10 points, name this principle by Werner Heisenberg, which says position and momentum cannot both be known exactly."
+    },
+    {
+      "p": "A 25-year-old physicist worked out this principle in early 1927 while working at Niels Bohr’s institute in Copenhagen. That physicist had already helped create matrix mechanics, and he won the 1932 Nobel Prize in Physics for creating quantum mechanics.",
+      "r": "That physicist was Werner Heisenberg. For 10 points, name this principle about the limits of measuring position and momentum."
+    },
+    {
+      "p": "Richard Feynman wrote that this principle protects quantum mechanics, because any device that tells which slit each electron passes through in the double-slit experiment wipes out the interference pattern. This principle says the spreads in position and momentum multiply to at least h-bar over two.",
+      "r": "It was stated by Werner Heisenberg in 1927. For 10 points, name this principle of quantum mechanics."
+    }
+  ],
+  "clues": [
+    {
+      "id": "statement",
+      "tier": "giveaway",
+      "t": "The more exactly you know a particle’s position, the less exactly you can know its momentum, and the reverse",
+      "k": [
+        "position",
+        "momentum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heisenberg-1927",
+      "tier": "giveaway",
+      "t": "Stated by the German physicist Werner Heisenberg in 1927",
+      "k": [
+        "werner heisenberg",
+        "1927"
+      ],
+      "n": 0
+    },
+    {
+      "id": "formula",
+      "tier": "giveaway",
+      "t": "In symbols: delta x times delta p is at least h-bar over 2",
+      "k": [
+        "delta x",
+        "delta p",
+        "h-bar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "built-into-nature",
+      "tier": "giveaway",
+      "t": "A basic rule of quantum mechanics, not a problem with clumsy measuring tools",
+      "k": [
+        "quantum mechanics",
+        "measuring tools"
+      ],
+      "n": 0
+    },
+    {
+      "id": "energy-time",
+      "tier": "middle",
+      "t": "A second form links energy and time: a state that lasts only briefly has a spread-out energy",
+      "k": [
+        "energy and time",
+        "energy-time"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wave-packets",
+      "tier": "middle",
+      "t": "Comes from particles acting like waves: a wave squeezed into a small space must mix many wavelengths",
+      "k": [
+        "waves",
+        "wavelengths"
+      ],
+      "n": 0
+    },
+    {
+      "id": "conjugate",
+      "tier": "middle",
+      "t": "Applies to pairs of conjugate variables, like position and momentum",
+      "k": [
+        "conjugate variables",
+        "conjugate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "planck",
+      "tier": "middle",
+      "t": "Its limit is set by the reduced Planck constant, h-bar (h divided by 2π)",
+      "k": [
+        "reduced planck constant",
+        "planck"
+      ],
+      "n": 0,
+      "rabbit": "Max Planck"
+    },
+    {
+      "id": "observer-effect",
+      "tier": "middle",
+      "t": "Not the same as the observer effect: the limit exists even with perfect instruments",
+      "k": [
+        "observer effect",
+        "perfect instruments"
+      ],
+      "n": 0
+    },
+    {
+      "id": "single-slit",
+      "tier": "middle",
+      "t": "Narrowing a single slit makes the electrons passing through it spread out more on a screen",
+      "k": [
+        "single slit",
+        "spread out"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atoms",
+      "tier": "middle",
+      "t": "Helps explain why electrons don’t crash into the nucleus: squeezing one into a tiny space would give it lots of energy",
+      "k": [
+        "nucleus",
+        "crash"
+      ],
+      "n": 0
+    },
+    {
+      "id": "microscope",
+      "tier": "middle",
+      "t": "Gamma-ray microscope thought experiment: seeing an electron gives it an unpredictable kick",
+      "k": [
+        "gamma-ray microscope",
+        "thought experiment",
+        "kick"
+      ],
+      "n": 0
+    },
+    {
+      "id": "copenhagen",
+      "tier": "middle",
+      "t": "Heisenberg worked it out in early 1927, at age 25, at Niels Bohr’s institute in Copenhagen",
+      "k": [
+        "copenhagen",
+        "niels bohr"
+      ],
+      "n": 0,
+      "rabbit": "Niels Bohr"
+    },
+    {
+      "id": "kennard",
+      "tier": "power",
+      "t": "Earle Kennard proved its modern form, using standard deviations and h-bar over 2",
+      "k": [
+        "kennard",
+        "standard deviations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "robertson",
+      "tier": "power",
+      "t": "Howard Robertson extended it to any two quantities whose operators don’t commute",
+      "k": [
+        "robertson",
+        "commute"
+      ],
+      "n": 0
+    },
+    {
+      "id": "commutator",
+      "tier": "power",
+      "t": "The position and momentum operators don’t commute: their commutator equals i times h-bar",
+      "k": [
+        "commutator",
+        "operators"
+      ],
+      "n": 0
+    },
+    {
+      "id": "photon-box",
+      "tier": "power",
+      "t": "At the 1930 Solvay Conference, Einstein’s photon box tried to beat it; Bohr answered with general relativity",
+      "k": [
+        "photon box",
+        "solvay",
+        "1930"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    },
+    {
+      "id": "complementarity",
+      "tier": "power",
+      "t": "Bohr tied it to his complementarity idea in the Copenhagen interpretation of quantum mechanics",
+      "k": [
+        "complementarity",
+        "copenhagen interpretation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zero-point",
+      "tier": "power",
+      "t": "A trapped particle is never perfectly still (zero-point energy), which helps keep helium liquid near absolute zero",
+      "k": [
+        "zero-point energy",
+        "helium"
+      ],
+      "n": 0,
+      "rabbit": "Absolute zero"
+    },
+    {
+      "id": "linewidth",
+      "tier": "power",
+      "t": "Short-lived excited states give spectral lines a natural width instead of a perfectly sharp color",
+      "k": [
+        "natural width",
+        "spectral lines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fourier",
+      "tier": "power",
+      "t": "Follows mathematically from Fourier transforms of wave packets",
+      "k": [
+        "fourier",
+        "wave packets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gabor",
+      "tier": "power",
+      "t": "The Gabor limit in signal processing: a sound that lasts only an instant can’t have a precise pitch",
+      "k": [
+        "gabor limit",
+        "pitch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ligo",
+      "tier": "power",
+      "t": "LIGO uses “squeezed light,” making one property of light more precise at the cost of another",
+      "k": [
+        "ligo",
+        "squeezed light"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yukawa",
+      "tier": "power",
+      "t": "Used to explain short-lived “virtual” particles and Hideki Yukawa’s prediction of a strong-force carrier",
+      "k": [
+        "virtual",
+        "yukawa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "matrix-mechanics",
+      "tier": "power",
+      "t": "Heisenberg helped create matrix mechanics with Max Born and Pascual Jordan, and won the 1932 Nobel Prize in Physics",
+      "k": [
+        "matrix mechanics",
+        "max born",
+        "1932"
+      ],
+      "n": 0
+    },
+    {
+      "id": "feynman",
+      "tier": "power",
+      "t": "Richard Feynman wrote that it protects quantum mechanics: finding which slit an electron used wipes out the interference pattern",
+      "k": [
+        "feynman",
+        "interference pattern",
+        "which slit"
+      ],
+      "n": 0,
+      "rabbit": "Richard Feynman"
+    }
+  ],
+  "trap": {
+    "title": "Not the observer effect",
+    "body": "People often describe this principle as “measuring something disturbs it,” but that idea is the observer effect. Heisenberg’s principle goes deeper: there is a basic limit to how precisely position and momentum can both be known, even with perfect instruments, because particles behave like waves. Quiz bowl also has separate answer lines for the Pauli exclusion principle (no two electrons in an atom share all four quantum numbers) and Bohr’s complementarity.",
+    "fix": "Position and momentum, energy and time, h-bar over 2, or Heisenberg means the uncertainty principle. Two electrons, quantum numbers, or orbitals filling up means the Pauli exclusion principle; saying just “Heisenberg” earns only a prompt, so add “uncertainty principle.”",
+    "line": "Real answer line: <b><u>uncertainty principle</u></b> (accept <u>Heisenberg uncertainty principle</u>; prompt on <u>Heisenberg</u>)"
+  },
+  "tests": {
+    "right": [
+      "Uncertainty principle",
+      "Heisenberg uncertainty principle",
+      "Heisenberg's uncertainty principle",
+      "uncertainity principle",
+      "indeterminacy principle"
+    ],
+    "prompt": [
+      "Heisenberg",
+      "uncertainty"
+    ],
+    "wrong": [
+      "Pauli exclusion principle",
+      "Observer effect",
+      "Complementarity",
+      "Superposition",
+      "Schrödinger's cat"
+    ]
+  }
+}

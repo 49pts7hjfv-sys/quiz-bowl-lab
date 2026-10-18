@@ -1,0 +1,441 @@
+{
+  "id": "golgi-apparatus",
+  "name": "Golgi apparatus",
+  "mono": "GOL",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Stacked membrane sacs that finish proteins · The cell’s post office",
+  "dates": "Discovered by Camillo Golgi in 1898",
+  "briefing": "The Golgi apparatus is the cell’s shipping department: a stack of flattened, pancake-like membrane sacs that receives proteins from the endoplasmic reticulum, finishes them by adding sugars and other tags, and sorts them into little bubbles called vesicles. Those vesicles carry each package to where it belongs, whether that is a lysosome, the cell membrane, or the outside of the cell. Italian scientist Camillo Golgi first described it in 1898.",
+  "answerHtml": "<b><u>Golgi</u></b> apparatus (accept <u>Golgi</u> body or <u>Golgi</u> complex; accept <u>dictyosomes</u>)",
+  "accept": [
+    "golgi apparatus",
+    "golgi",
+    "golgi body",
+    "golgi bodies",
+    "golgi complex",
+    "golgi stack",
+    "golgi stacks",
+    "dictyosome",
+    "dictyosomes"
+  ],
+  "prompt": [],
+  "reject": [
+    "camillo golgi",
+    "golgi tendon organ",
+    "golgi tendon organs",
+    "golgi stain",
+    "golgi method",
+    "golgi cell",
+    "golgi cells",
+    "endoplasmic reticulum",
+    "rough endoplasmic reticulum",
+    "smooth endoplasmic reticulum",
+    "er",
+    "rough er",
+    "smooth er",
+    "ribosome",
+    "ribosomes",
+    "lysosome",
+    "lysosomes",
+    "vesicle",
+    "vesicles",
+    "vacuole",
+    "vacuoles",
+    "nucleus",
+    "mitochondria",
+    "mitochondrion",
+    "cell membrane",
+    "plasma membrane",
+    "peroxisome",
+    "peroxisomes",
+    "centrosome",
+    "centriole",
+    "cytoskeleton"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Golgi_apparatus",
+  "qb": {
+    "q": "Golgi",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "A silver-staining method called the “black reaction” let a scientist discover this structure inside nerve cells in 1898. That scientist shared the 1906 Nobel Prize with Santiago Ramón y Cajal [“kah-HAHL”], even though the two disagreed about how neurons connect.",
+      "r": "For 10 points, name this organelle, named after its Italian discoverer, that packages proteins into vesicles."
+    },
+    {
+      "p": "For decades after its discovery, many scientists thought this structure was just a mistake caused by staining, until electron microscopes showed it clearly in the 1950s. Under those microscopes, it looks like a curved stack of flattened sacs called cisternae [“sis-TER-nee”].",
+      "r": "For 10 points, name this organelle that sorts and ships proteins made in the endoplasmic reticulum."
+    },
+    {
+      "p": "Vesicles coated with a protein complex called COPII [“cop two”] carry cargo from the endoplasmic reticulum to this organelle, while COPI-coated vesicles carry escaped proteins back the other way. Its receiving side is called the cis face, and its shipping side is called the trans face.",
+      "r": "It is nicknamed the cell’s post office. For 10 points, name this stack of membrane sacs that packages proteins for delivery."
+    },
+    {
+      "p": "George Palade [“puh-LAH-day”] tracked radioactive amino acids through pancreas cells in pulse-chase experiments. He showed that newly made proteins travel from the rough ER to this organelle and then into secretory granules that release them from the cell.",
+      "r": "Cells that release lots of protein have especially large versions of it. For 10 points, name this organelle, nicknamed the cell’s post office."
+    },
+    {
+      "p": "A fungal chemical called brefeldin [“breh-FELL-din”] A makes this organelle fall apart and merge back into the endoplasmic reticulum. Normally, proteins enter this organelle at its cis face, get modified as they pass through its stacked sacs, and leave from its trans face.",
+      "r": "It is named for an Italian scientist. For 10 points, name this organelle that packages proteins into vesicles."
+    },
+    {
+      "p": "Proteins that belong in the endoplasmic reticulum end in a tag of four amino acids, written K-D-E-L, so if they drift into this organelle, receptors catch them and send them back. This organelle adds sugar chains to many other proteins, turning them into glycoproteins.",
+      "r": "For 10 points, name this stack of flattened sacs that sorts proteins and ships them in vesicles."
+    },
+    {
+      "p": "James Rothman, Randy Schekman, and Thomas Südhof [“SOOD-hof”] won the 2013 Nobel Prize for discovering how cells move cargo in vesicles, like the ones that travel to and from this organelle. Schekman found key genes for that traffic by studying mutant yeast.",
+      "r": "For 10 points, name this organelle, made of flattened membrane sacs, that modifies and packages proteins."
+    },
+    {
+      "p": "Scientists long debated two models of how cargo moves through this organelle: in one, vesicles hop between fixed sacs, and in the other, called cisternal maturation, each sac slowly changes as it moves through the stack. Either way, products leave from its trans face.",
+      "r": "For 10 points, name this organelle that receives proteins from the ER and ships them out in vesicles."
+    },
+    {
+      "p": "This organelle attaches O-linked sugar chains to the amino acids serine and threonine, and it trims and reshapes sugar chains that were added earlier in the ER. It also tags enzymes bound for lysosomes with mannose-6-phosphate [“MAN-ohs six FOSS-fate”].",
+      "r": "Its products leave in vesicles. For 10 points, name this stack of membrane sacs, nicknamed the cell’s post office."
+    },
+    {
+      "p": "When an animal cell divides, this organelle breaks into many small pieces that are shared between the two daughter cells, where they reassemble. In animal cells, this organelle usually sits close to the nucleus, near the centrosome.",
+      "r": "For 10 points, name this organelle that modifies, sorts, and packages proteins from the endoplasmic reticulum."
+    },
+    {
+      "p": "This organelle makes pectin and hemicellulose for plant cell walls, although cellulose itself is made at the cell membrane. In dividing plant cells, vesicles from this organelle gather at the middle of the cell and fuse to form the cell plate.",
+      "r": "It is nicknamed the cell’s post office. For 10 points, name this organelle that packages proteins and other molecules into vesicles."
+    },
+    {
+      "p": "Vesicles coated with the protein clathrin [“CLATH-rin”] bud from the trans side of this organelle, carrying digestive enzymes to lysosomes. Other vesicles from this organelle fuse with the cell membrane and release their contents outside the cell by exocytosis.",
+      "r": "It is made of stacked, flattened sacs. For 10 points, name this organelle that receives proteins from the endoplasmic reticulum."
+    },
+    {
+      "p": "Mucus-making goblet cells in the intestines and antibody-making plasma cells both have especially large versions of this organelle, because they release so much material. Its products are sealed into vesicles that later fuse with the cell membrane.",
+      "r": "It receives proteins from the ER. For 10 points, name this organelle, nicknamed the cell’s post office or shipping center."
+    },
+    {
+      "p": "A sorting web of tubes and vesicles sits on the trans, or shipping, side of this organelle and sends each piece of cargo to the right place. This organelle is part of the endomembrane system, along with the endoplasmic reticulum, lysosomes, and the cell membrane.",
+      "r": "It packages proteins into vesicles. For 10 points, name this stack of flattened sacs named for an Italian scientist."
+    },
+    {
+      "p": "This organelle is a stack of flattened membrane sacs that receives proteins from the endoplasmic reticulum, finishes them by adding sugars and other tags, and sorts them by destination. It then ships them out in small bubbles called vesicles.",
+      "r": "It is named for an Italian scientist. For 10 points, name this organelle, often called the cell’s post office."
+    }
+  ],
+  "clues": [
+    {
+      "id": "stacked-sacs",
+      "tier": "giveaway",
+      "t": "A stack of flattened membrane sacs, usually near the nucleus",
+      "k": [
+        "flattened",
+        "membrane sacs",
+        "stack"
+      ],
+      "n": 0
+    },
+    {
+      "id": "packages-proteins",
+      "tier": "giveaway",
+      "t": "Modifies, sorts, and packages proteins it receives from the endoplasmic reticulum",
+      "k": [
+        "packages",
+        "sorts",
+        "endoplasmic reticulum"
+      ],
+      "n": 0,
+      "rabbit": "Endoplasmic reticulum"
+    },
+    {
+      "id": "vesicles",
+      "tier": "giveaway",
+      "t": "Ships its finished products out in small bubbles called vesicles",
+      "k": [
+        "vesicles",
+        "ships"
+      ],
+      "n": 0
+    },
+    {
+      "id": "post-office",
+      "tier": "giveaway",
+      "t": "Nicknamed the cell’s post office or shipping department",
+      "k": [
+        "post office",
+        "shipping department"
+      ],
+      "n": 0
+    },
+    {
+      "id": "italian",
+      "tier": "giveaway",
+      "t": "Named for the Italian scientist who discovered it in 1898",
+      "k": [
+        "italian",
+        "1898"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cisternae",
+      "tier": "middle",
+      "t": "Each flattened sac in the stack is called a cisterna (plural cisternae)",
+      "k": [
+        "cisterna",
+        "cisternae"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cis-trans",
+      "tier": "middle",
+      "t": "Has a cis (receiving) face toward the ER and a trans (shipping) face, where a web of tubes and vesicles sorts cargo",
+      "k": [
+        "cis",
+        "trans",
+        "receiving",
+        "shipping"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glycoproteins",
+      "tier": "middle",
+      "t": "Adds and trims sugar chains on proteins, turning them into glycoproteins",
+      "k": [
+        "sugar chains",
+        "glycoproteins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lysosome-enzymes",
+      "tier": "middle",
+      "t": "Sends digestive enzymes to lysosomes",
+      "k": [
+        "lysosomes",
+        "digestive enzymes"
+      ],
+      "n": 0,
+      "rabbit": "Lysosomes"
+    },
+    {
+      "id": "secretory-cells",
+      "tier": "middle",
+      "t": "Extra large in cells that secrete a lot, like mucus-making goblet cells and antibody-making plasma cells",
+      "k": [
+        "goblet cells",
+        "plasma cells",
+        "secrete"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cell-plate",
+      "tier": "middle",
+      "t": "In dividing plant cells, its vesicles gather to build the cell plate between the two new cells",
+      "k": [
+        "cell plate",
+        "dividing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pectin",
+      "tier": "middle",
+      "t": "Makes plant cell-wall materials such as pectin and hemicellulose, but not cellulose, which is made at the cell membrane",
+      "k": [
+        "pectin",
+        "hemicellulose"
+      ],
+      "n": 0,
+      "rabbit": "Cell wall"
+    },
+    {
+      "id": "endomembrane",
+      "tier": "middle",
+      "t": "Part of the endomembrane system, along with the ER, lysosomes, and the cell membrane",
+      "k": [
+        "endomembrane system",
+        "endomembrane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "exocytosis",
+      "tier": "middle",
+      "t": "Some of its vesicles fuse with the cell membrane and release their contents outside the cell, in exocytosis",
+      "k": [
+        "exocytosis",
+        "fuse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-reaction",
+      "tier": "power",
+      "t": "Its discoverer found it inside nerve cells using a silver-staining method called the “black reaction”",
+      "k": [
+        "black reaction",
+        "silver",
+        "nerve cells"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-1906",
+      "tier": "power",
+      "t": "Its discoverer shared the 1906 Nobel Prize with Santiago Ramón y Cajal, though they disagreed about how neurons connect",
+      "k": [
+        "1906",
+        "cajal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doubted",
+      "tier": "power",
+      "t": "Many scientists thought it was a staining mistake until electron microscopes showed it clearly in the 1950s",
+      "k": [
+        "staining mistake",
+        "electron microscopes",
+        "1950s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "copii-copi",
+      "tier": "power",
+      "t": "COPII-coated vesicles bring cargo to it from the ER; COPI-coated vesicles carry escaped proteins back",
+      "k": [
+        "copii",
+        "copi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clathrin",
+      "tier": "power",
+      "t": "Clathrin-coated vesicles leave its trans side carrying enzymes bound for lysosomes",
+      "k": [
+        "clathrin",
+        "trans side"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mannose-6-phosphate",
+      "tier": "power",
+      "t": "Tags enzymes headed for lysosomes with mannose-6-phosphate",
+      "k": [
+        "mannose-6-phosphate",
+        "tags"
+      ],
+      "n": 0
+    },
+    {
+      "id": "palade",
+      "tier": "power",
+      "t": "George Palade’s pulse-chase experiments on pancreas cells traced new proteins from the rough ER through it to secretory granules",
+      "k": [
+        "palade",
+        "pulse-chase",
+        "pancreas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cisternal-maturation",
+      "tier": "power",
+      "t": "In the cisternal maturation model, each sac slowly changes as it moves through the stack, instead of cargo hopping between fixed sacs",
+      "k": [
+        "cisternal maturation",
+        "model"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brefeldin",
+      "tier": "power",
+      "t": "A fungal chemical called brefeldin A makes it fall apart and merge back into the ER",
+      "k": [
+        "brefeldin",
+        "fungal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kdel",
+      "tier": "power",
+      "t": "ER proteins ending in the amino acid tag K-D-E-L are caught here and sent back to the ER",
+      "k": [
+        "k-d-e-l",
+        "sent back"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-2013",
+      "tier": "power",
+      "t": "James Rothman, Randy Schekman, and Thomas Südhof won the 2013 Nobel Prize for discovering how cells move cargo in vesicles",
+      "k": [
+        "rothman",
+        "schekman",
+        "2013"
+      ],
+      "n": 0
+    },
+    {
+      "id": "o-linked",
+      "tier": "power",
+      "t": "Attaches O-linked sugar chains to the amino acids serine and threonine",
+      "k": [
+        "o-linked",
+        "serine",
+        "threonine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "divides",
+      "tier": "power",
+      "t": "Breaks into small pieces when an animal cell divides, then reassembles in each daughter cell; usually sits near the centrosome",
+      "k": [
+        "daughter cell",
+        "pieces",
+        "centrosome"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Golgi or the ER?",
+    "body": "The endoplasmic reticulum and the Golgi apparatus work as a team, so their clues blur together. The rough ER, studded with ribosomes, makes proteins; the Golgi receives them at its cis face, modifies them, and ships them out from its trans face in vesicles. Players who hear “proteins,” “membranes,” and “vesicles” often buzz with the wrong one.",
+    "fix": "Stacked, flattened sacs (cisternae), cis and trans faces, sorting, packaging, and “post office” mean Golgi. Ribosomes on the surface, a network connected to the nuclear envelope, or making lipids mean the ER. If a question asks for the Italian scientist himself, say Camillo Golgi.",
+    "line": "Real answer line: <b><u>Golgi</u></b> apparatus (accept <u>Golgi</u> body or <u>Golgi</u> complex; accept <u>dictyosomes</u>)"
+  },
+  "tests": {
+    "right": [
+      "Golgi apparatus",
+      "Golgi body",
+      "golgi",
+      "Golgi complex",
+      "Goldgi apparatus",
+      "Dictyosome"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Camillo Golgi",
+      "Endoplasmic reticulum",
+      "Lysosome",
+      "Vesicle",
+      "Ribosome",
+      "Golgi tendon organ"
+    ]
+  }
+}

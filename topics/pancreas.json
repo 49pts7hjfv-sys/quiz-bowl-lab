@@ -1,0 +1,430 @@
+{
+  "id": "pancreas",
+  "name": "Pancreas",
+  "mono": "PAN",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Gland tucked behind the stomach · Makes digestive enzymes and insulin",
+  "dates": "About 6 inches (15 cm) long in adults",
+  "briefing": "The pancreas is a soft, six-inch gland tucked behind your stomach that does two jobs at once. Most of it makes powerful digestive juices that pour into the small intestine to break down proteins, fats, and starches. Scattered through it are tiny “islands” of cells, the islets of Langerhans, that release insulin and glucagon to keep your blood sugar steady.",
+  "answerHtml": "<b><u>Pancreas</u></b> (do not accept “liver” or “gallbladder”)",
+  "accept": [
+    "pancreas",
+    "pancreases"
+  ],
+  "prompt": [],
+  "reject": [
+    "liver",
+    "gallbladder",
+    "gall bladder",
+    "spleen",
+    "stomach",
+    "duodenum",
+    "small intestine",
+    "large intestine",
+    "kidney",
+    "kidneys",
+    "adrenal gland",
+    "adrenal glands",
+    "thymus",
+    "islets of langerhans",
+    "islets",
+    "beta cells",
+    "insulin",
+    "glucagon",
+    "pancreatic juice",
+    "pancreatic duct",
+    "pancreatitis",
+    "bile",
+    "bile duct"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Pancreas",
+  "qb": {
+    "q": "pancreas",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "George Palade won a Nobel Prize for tracing how proteins travel from the rough ER through the Golgi apparatus and into secretory granules, using the enzyme-making acinar [“ASS-ih-nar”] cells of this organ. Those cells store inactive enzymes in zymogen [“ZY-moh-jen”] granules.",
+      "r": "This organ also makes insulin. For 10 points, name this gland that lies behind the stomach."
+    },
+    {
+      "p": "In 1902, William Bayliss and Ernest Starling discovered secretin, the first hormone ever found, which tells this organ to release bicarbonate. Another hormone, cholecystokinin [“koh-luh-sis-toh-KY-nin”], tells this organ to release its digestive enzymes.",
+      "r": "Its main duct empties into the duodenum. For 10 points, name this organ that also makes the hormones insulin and glucagon."
+    },
+    {
+      "p": "This organ ships the protein-cutting enzyme trypsin in an inactive form called trypsinogen, which switches on only when the enzyme enteropeptidase [“en-ter-oh-PEP-tih-days”] meets it in the small intestine. Trypsin then activates this organ’s other enzymes, such as chymotrypsin.",
+      "r": "It also releases bicarbonate to neutralize stomach acid. For 10 points, name this organ whose islets of Langerhans make insulin."
+    },
+    {
+      "p": "This organ’s main duct joins the common bile duct at the ampulla of Vater [“FAH-ter”], where a ring of muscle called the sphincter of Oddi [“ODD-ee”] controls the flow into the duodenum. A smaller extra duct named for Santorini [“san-toh-REE-nee”] drains part of this organ, too.",
+      "r": "For 10 points, name this organ that sends digestive enzymes to the small intestine and makes insulin."
+    },
+    {
+      "p": "A hook-shaped part of this organ called the uncinate [“UN-sih-nate”] process curls behind major blood vessels, while its head sits in the C-shaped curve of the duodenum and its tail reaches toward the spleen.",
+      "r": "This organ lies behind the stomach, against the back wall of the abdomen. For 10 points, name this organ that makes insulin."
+    },
+    {
+      "p": "Cooks call this organ from calves or lambs, along with the thymus, a “sweetbread.” Its name comes from Greek words meaning “all flesh,” and in an adult it is about six inches long.",
+      "r": "Its islets of Langerhans make insulin and glucagon. For 10 points, name this gland located behind the stomach."
+    },
+    {
+      "p": "Surgeons remove the head of this organ, along with part of the small intestine, in the Whipple procedure. Doctors check blood levels of the enzymes amylase and lipase to see whether this organ is inflamed.",
+      "r": "For 10 points, name this organ that makes both digestive enzymes and the hormone insulin."
+    },
+    {
+      "p": "Ivan Pavlov won the 1904 Nobel Prize for studying digestion in dogs, including how nerves control the juice that this organ releases. That juice is rich in bicarbonate, which neutralizes stomach acid as food enters the small intestine.",
+      "r": "Its beta cells make insulin. For 10 points, name this organ, home of the islets of Langerhans."
+    },
+    {
+      "p": "In cystic fibrosis, thick mucus can block the ducts of this organ, so many people with the condition take capsules of its enzymes with meals. This organ’s enzymes include lipase, which breaks down fats, and amylase, which breaks down starch.",
+      "r": "Its islets of Langerhans release insulin. For 10 points, name this gland that lies behind the stomach."
+    },
+    {
+      "p": "Only about one or two percent of this organ’s mass is made up of hormone-making islets, which contain alpha, beta, delta, and PP cells. The rest of this organ, made mostly of acinar cells, produces digestive enzymes.",
+      "r": "Its beta cells make insulin. For 10 points, name this organ located behind the stomach."
+    },
+    {
+      "p": "In 1889, Oskar Minkowski and Joseph von Mering showed that dogs without this organ developed diabetes, a sign that it helps control blood sugar. Its alpha cells release glucagon, which raises blood sugar.",
+      "r": "Its beta cells release insulin, which lowers blood sugar. For 10 points, name this organ located behind the stomach."
+    },
+    {
+      "p": "In 1869, a medical student named Paul Langerhans described small clusters of cells scattered through this organ, which were later named for him. In 1921, Frederick Banting and Charles Best extracted a hormone made in those clusters.",
+      "r": "That hormone is insulin. For 10 points, name this organ whose islets of Langerhans control blood sugar."
+    },
+    {
+      "p": "This organ’s duct cells release a fluid rich in bicarbonate that neutralizes acidic chyme [“KYME”] arriving from the stomach. Its acinar cells make amylase for starch, lipase for fats, and protein-digesting enzymes such as trypsin.",
+      "r": "For 10 points, name this gland that belongs to both the digestive system and the endocrine system."
+    },
+    {
+      "p": "If this organ’s trypsin switches on too early, the organ’s own enzymes can start to digest it, causing a painful inflammation. Gallstones that block its duct are a common cause of that inflammation.",
+      "r": "Its islets make insulin and glucagon. For 10 points, name this organ, which sits behind the stomach and sends enzymes into the duodenum."
+    },
+    {
+      "p": "Delta cells in this organ make somatostatin, which slows the release of its other hormones. This organ is both an exocrine gland, sending enzymes through a duct into the small intestine, and an endocrine gland, releasing hormones into the blood.",
+      "r": "Its alpha and beta cells make glucagon and insulin. For 10 points, name this organ located behind the stomach."
+    }
+  ],
+  "clues": [
+    {
+      "id": "insulin-glucagon",
+      "tier": "giveaway",
+      "t": "Makes the hormones insulin and glucagon, which control blood sugar",
+      "k": [
+        "insulin",
+        "glucagon",
+        "blood sugar"
+      ],
+      "n": 0,
+      "rabbit": "Insulin"
+    },
+    {
+      "id": "behind-stomach",
+      "tier": "giveaway",
+      "t": "A soft, six-inch gland that lies behind the stomach",
+      "k": [
+        "behind the stomach",
+        "stomach",
+        "six-inch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "digestive-enzymes",
+      "tier": "giveaway",
+      "t": "Sends digestive enzymes into the small intestine",
+      "k": [
+        "digestive enzymes",
+        "small intestine"
+      ],
+      "n": 0,
+      "rabbit": "Small intestine"
+    },
+    {
+      "id": "islets",
+      "tier": "giveaway",
+      "t": "Its islets of Langerhans hold the hormone-making cells",
+      "k": [
+        "islets of langerhans",
+        "islets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diabetes",
+      "tier": "giveaway",
+      "t": "In type 1 diabetes, the immune system destroys its insulin-making beta cells",
+      "k": [
+        "type 1 diabetes",
+        "beta cells"
+      ],
+      "n": 0,
+      "rabbit": "Diabetes"
+    },
+    {
+      "id": "exocrine-endocrine",
+      "tier": "middle",
+      "t": "Both an exocrine gland (enzymes through a duct) and an endocrine gland (hormones into the blood)",
+      "k": [
+        "exocrine",
+        "endocrine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "enzymes",
+      "tier": "middle",
+      "t": "Its enzymes include amylase (starch), lipase (fats), and trypsin (proteins)",
+      "k": [
+        "amylase",
+        "lipase",
+        "trypsin"
+      ],
+      "n": 0,
+      "rabbit": "Enzymes"
+    },
+    {
+      "id": "bicarbonate",
+      "tier": "middle",
+      "t": "Releases bicarbonate to neutralize acidic chyme arriving from the stomach",
+      "k": [
+        "bicarbonate",
+        "chyme",
+        "neutralize"
+      ],
+      "n": 0
+    },
+    {
+      "id": "duodenum-spleen",
+      "tier": "middle",
+      "t": "Its head sits in the C-shaped curve of the duodenum, and its tail reaches toward the spleen",
+      "k": [
+        "duodenum",
+        "spleen",
+        "c-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "islet-cells",
+      "tier": "middle",
+      "t": "Islet cells: alpha (glucagon), beta (insulin), delta (somatostatin); the islets are only 1–2% of its mass",
+      "k": [
+        "somatostatin",
+        "alpha",
+        "delta"
+      ],
+      "n": 0
+    },
+    {
+      "id": "secretin-cck",
+      "tier": "middle",
+      "t": "The hormones secretin and cholecystokinin (CCK) tell it to release bicarbonate and enzymes",
+      "k": [
+        "secretin",
+        "cholecystokinin",
+        "cck"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cystic-fibrosis",
+      "tier": "middle",
+      "t": "In cystic fibrosis, thick mucus can block its ducts, so many people take its enzymes as capsules with meals",
+      "k": [
+        "cystic fibrosis",
+        "mucus",
+        "capsules"
+      ],
+      "n": 0,
+      "rabbit": "Cystic fibrosis"
+    },
+    {
+      "id": "inflammation",
+      "tier": "middle",
+      "t": "Its own enzymes can digest it if they switch on too early, causing painful inflammation; doctors test blood amylase and lipase",
+      "k": [
+        "inflammation",
+        "switch on too early"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bile-duct",
+      "tier": "middle",
+      "t": "Its main duct joins the common bile duct before emptying into the duodenum",
+      "k": [
+        "common bile duct",
+        "bile duct"
+      ],
+      "n": 0
+    },
+    {
+      "id": "palade",
+      "tier": "power",
+      "t": "George Palade used its acinar cells to trace the path of secreted proteins (Nobel Prize, 1974)",
+      "k": [
+        "palade",
+        "acinar",
+        "1974"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zymogen",
+      "tier": "power",
+      "t": "Its acinar cells store inactive enzymes in zymogen granules",
+      "k": [
+        "zymogen",
+        "granules"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bayliss-starling",
+      "tier": "power",
+      "t": "William Bayliss and Ernest Starling found secretin in 1902, the first hormone ever discovered, which acts on it",
+      "k": [
+        "bayliss",
+        "starling",
+        "1902"
+      ],
+      "n": 0
+    },
+    {
+      "id": "enteropeptidase",
+      "tier": "power",
+      "t": "Enteropeptidase in the small intestine turns its trypsinogen into trypsin, which then activates chymotrypsin and others",
+      "k": [
+        "enteropeptidase",
+        "trypsinogen",
+        "chymotrypsin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ampulla",
+      "tier": "power",
+      "t": "Its duct meets the bile duct at the ampulla of Vater, guarded by the sphincter of Oddi",
+      "k": [
+        "ampulla of vater",
+        "sphincter of oddi",
+        "oddi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wirsung-santorini",
+      "tier": "power",
+      "t": "Its main duct is the duct of Wirsung; a smaller extra duct is named for Santorini",
+      "k": [
+        "wirsung",
+        "santorini"
+      ],
+      "n": 0
+    },
+    {
+      "id": "uncinate",
+      "tier": "power",
+      "t": "A hook-shaped part called the uncinate process curls behind major blood vessels",
+      "k": [
+        "uncinate",
+        "hook-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sweetbread",
+      "tier": "power",
+      "t": "Cooks call it (or the thymus) from calves and lambs a “sweetbread”",
+      "k": [
+        "sweetbread",
+        "thymus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greek-name",
+      "tier": "power",
+      "t": "Its name comes from Greek words meaning “all flesh”",
+      "k": [
+        "all flesh",
+        "greek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "whipple",
+      "tier": "power",
+      "t": "The Whipple procedure removes its head along with part of the small intestine",
+      "k": [
+        "whipple"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pavlov",
+      "tier": "power",
+      "t": "Ivan Pavlov’s Nobel-winning (1904) digestion studies in dogs included how nerves control its juice",
+      "k": [
+        "pavlov",
+        "1904"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minkowski",
+      "tier": "power",
+      "t": "Oskar Minkowski and Joseph von Mering (1889) showed that dogs without it developed diabetes",
+      "k": [
+        "minkowski",
+        "von mering",
+        "1889"
+      ],
+      "n": 0
+    },
+    {
+      "id": "langerhans",
+      "tier": "power",
+      "t": "Paul Langerhans described its islets in 1869, while still a medical student",
+      "k": [
+        "paul langerhans",
+        "1869",
+        "medical student"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Pancreas, liver, or gallbladder?",
+    "body": "All three organs send juices into the duodenum through connected ducts, so digestion clues overlap: the liver makes bile, the gallbladder stores and squeezes it out, and the pancreas sends enzymes and bicarbonate. Players who hear “islets of Langerhans” or “insulin” also sometimes answer the hormone or the islets instead of the organ.",
+    "fix": "Bile means the liver (which makes it) or the gallbladder (which stores it). Trypsin, lipase, amylase, bicarbonate, secretin, or islets mean the pancreas. If the question asks for “this organ” or “this gland,” don’t answer insulin or the islets.",
+    "line": "Real answer line: <b><u>Pancreas</u></b> (do not accept “liver” or “gallbladder”)"
+  },
+  "tests": {
+    "right": [
+      "Pancreas",
+      "the pancreas",
+      "Pancrease",
+      "pankreas",
+      "pancreas gland"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Liver",
+      "Gallbladder",
+      "Spleen",
+      "Insulin",
+      "Islets of Langerhans",
+      "Duodenum",
+      "Pancreatic juice"
+    ]
+  }
+}

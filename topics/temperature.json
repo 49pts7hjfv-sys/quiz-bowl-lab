@@ -1,0 +1,430 @@
+{
+  "id": "temperature",
+  "name": "Temperature",
+  "mono": "DEG",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "How hot or cold something is · Measured in kelvins, °C, or °F",
+  "dates": "Kelvin’s absolute scale proposed, 1848",
+  "briefing": "Temperature tells how hot or cold something is, and deep down it measures how fast the atoms and molecules inside are jiggling around. Scientists measure it in kelvins, where zero is absolute zero, the coldest anything can possibly get, while weather reports use degrees Celsius or Fahrenheit. Heat always flows on its own from a place of higher temperature to one of lower temperature, never the other way.",
+  "answerHtml": "<b><u>Temperature</u></b> (prompt on <u>T</u>; do not accept “heat”)",
+  "accept": [
+    "temperature",
+    "temperatures",
+    "absolute temperature",
+    "thermodynamic temperature"
+  ],
+  "prompt": [
+    "t"
+  ],
+  "reject": [
+    "heat",
+    "thermal energy",
+    "heat capacity",
+    "specific heat",
+    "absolute zero",
+    "kinetic energy",
+    "internal energy",
+    "energy",
+    "entropy",
+    "pressure",
+    "kelvin",
+    "celsius",
+    "fahrenheit",
+    "thermometer"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Temperature",
+  "qb": {
+    "q": "temperature",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In thermodynamics, the reciprocal of this quantity equals how fast a system’s entropy rises as energy is added to it. The equipartition theorem says each independent way a gas molecule can move or spin gets an average energy of one-half Boltzmann’s constant times this quantity.",
+      "r": "For 10 points, name this quantity measured by a thermometer, which tells how hot or cold something is."
+    },
+    {
+      "p": "When Anders Celsius made his scale for this quantity in 1742, he put 0 at water’s boiling point and 100 at its freezing point, the reverse of the modern version. His scale was widely called “centigrade” until an international conference renamed it in 1948.",
+      "r": "For 10 points, name this quantity that measures how hot or cold something is, often read off a thermometer."
+    },
+    {
+      "p": "The old Réaumur [“RAY-oh-myoor”] scale for this quantity put water’s boiling point at 80 degrees. The Rankine [“RANG-kin”] scale starts at absolute zero like the Kelvin scale, but its degrees are the same size as Fahrenheit degrees.",
+      "r": "For 10 points, name this quantity that a thermometer measures, telling how hot or cold something is."
+    },
+    {
+      "p": "Around 1593, Galileo built a thermoscope, an air-filled glass bulb whose tube dipped into water, which showed changes in this quantity but had no numbered scale. Daniel Gabriel Fahrenheit later made the first reliable mercury thermometer, in 1714.",
+      "r": "On his scale, water freezes at 32 degrees and boils at 212. For 10 points, name this quantity measured by thermometers."
+    },
+    {
+      "p": "Ralph Fowler named the zeroth law of thermodynamics, which says that if two objects are each in thermal equilibrium with a third, they share the same value of this quantity. That law is what makes thermometers work.",
+      "r": "Heat flows on its own from an object where this quantity is higher to one where it is lower. For 10 points, name this quantity measured in kelvins."
+    },
+    {
+      "p": "Since 2019, the SI unit of this quantity has been defined by fixing the exact value of the Boltzmann constant; before that, it was defined using the triple point of water, set at exactly 273.16 of those units.",
+      "r": "That unit is the kelvin, one of the seven SI base units. For 10 points, name this quantity, which measures how hot or cold something is."
+    },
+    {
+      "p": "In 1821, Thomas Seebeck [“ZAY-bek”] noticed that a loop made of two different metals deflected a compass needle when one of its junctions was heated, an effect that thermocouples use to measure this quantity. A bimetallic strip in an old thermostat bends when this quantity changes.",
+      "r": "For 10 points, name this quantity that a thermometer measures, given in degrees Celsius or Fahrenheit."
+    },
+    {
+      "p": "According to Wien’s [“VEENZ”] displacement law, the peak wavelength of light given off by a glowing object, like a star or a stove burner, is inversely proportional to this quantity, which is why blue stars are hotter than red ones.",
+      "r": "A Hertzsprung–Russell diagram plots it, increasing to the left. For 10 points, name this quantity measured in kelvins."
+    },
+    {
+      "p": "The Stefan–Boltzmann law says the energy a glowing object radiates each second rises with the fourth power of this quantity measured in kelvins, so doubling it makes the object give off 16 times as much energy. Pyrometers measure this quantity in furnaces from a distance.",
+      "r": "Fever thermometers measure it. For 10 points, name this quantity that tells how hot something is."
+    },
+    {
+      "p": "The cosmic microwave background left over from the Big Bang has a value of this quantity of about 2.7 kelvins, as measured precisely by the COBE [“KOH-bee”] satellite. The Boomerang Nebula, at about 1 kelvin, is the coldest known natural place in the universe.",
+      "r": "Thermometers measure it. For 10 points, name this quantity given in kelvins, degrees Celsius, or degrees Fahrenheit."
+    },
+    {
+      "p": "Gay-Lussac’s [“gay-loo-SAKS”] law says a sealed gas’s pressure rises in proportion to this quantity, while Charles’s law says a gas’s volume at constant pressure does the same. In the ideal gas law, P V equals n R times this quantity.",
+      "r": "For 10 points, name this quantity measured by a thermometer, which tells how hot or cold something is."
+    },
+    {
+      "p": "In 1868, the German doctor Carl Wunderlich [“VOON-der-lish”] studied many thousands of patients and set the normal value of this quantity for the human body at about 37 degrees Celsius. Nurses check it with oral, ear, or forehead thermometers.",
+      "r": "For 10 points, name this quantity, traditionally about 98.6 degrees Fahrenheit for a healthy person."
+    },
+    {
+      "p": "Negative 40 is the one reading where the Celsius and Fahrenheit scales for this quantity agree. To convert a reading of this quantity from Celsius to Fahrenheit, multiply by nine-fifths and then add 32.",
+      "r": "Water boils at 212 degrees on the Fahrenheit scale for this quantity. For 10 points, name this measure of how hot or cold something is."
+    },
+    {
+      "p": "In the troposphere, this quantity drops by about 6.5 degrees Celsius for every kilometer you climb, a change called the lapse rate, but it rises again in the stratosphere because ozone absorbs ultraviolet light.",
+      "r": "Wind chill and the heat index describe how this quantity feels to people. For 10 points, name this quantity that weather forecasters report in degrees."
+    },
+    {
+      "p": "The Maxwell–Boltzmann distribution, which shows how fast the molecules in a gas are moving, gets wider and shifts to higher speeds as this quantity rises. For an ideal gas, this quantity is proportional to the average kinetic energy of its molecules.",
+      "r": "A spoonful and a whole pot of the same soup can share the same value of it. For 10 points, name this quantity measured in degrees or kelvins."
+    }
+  ],
+  "clues": [
+    {
+      "id": "hot-cold",
+      "tier": "giveaway",
+      "t": "Measures how hot or cold something is, using a thermometer",
+      "k": [
+        "hot or cold",
+        "thermometer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scales",
+      "tier": "giveaway",
+      "t": "Measured in degrees Celsius, degrees Fahrenheit, or kelvins",
+      "k": [
+        "celsius",
+        "fahrenheit",
+        "kelvins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "water-points",
+      "tier": "giveaway",
+      "t": "Water freezes at 0 °C (32 °F) and boils at 100 °C (212 °F) at sea level",
+      "k": [
+        "freezes",
+        "boils",
+        "212"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kinetic",
+      "tier": "giveaway",
+      "t": "Proportional to the average kinetic energy of a gas’s particles",
+      "k": [
+        "average kinetic energy",
+        "particles"
+      ],
+      "n": 0,
+      "rabbit": "Kinetic Energy"
+    },
+    {
+      "id": "heat-flow",
+      "tier": "giveaway",
+      "t": "Heat flows on its own from where it is higher to where it is lower",
+      "k": [
+        "heat flows",
+        "higher",
+        "lower"
+      ],
+      "n": 0
+    },
+    {
+      "id": "absolute-zero",
+      "tier": "middle",
+      "t": "The Kelvin scale starts at absolute zero (−273.15 °C), the coldest possible",
+      "k": [
+        "absolute zero",
+        "273.15",
+        "coldest"
+      ],
+      "n": 0,
+      "rabbit": "Absolute zero"
+    },
+    {
+      "id": "kelvin-1848",
+      "tier": "middle",
+      "t": "Lord Kelvin proposed the absolute scale in 1848; the kelvin is one of the seven SI base units",
+      "k": [
+        "lord kelvin",
+        "1848",
+        "si base units"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fahrenheit",
+      "tier": "middle",
+      "t": "Daniel Gabriel Fahrenheit made the first reliable mercury thermometer (1714)",
+      "k": [
+        "fahrenheit",
+        "mercury",
+        "1714"
+      ],
+      "n": 0
+    },
+    {
+      "id": "celsius-1742",
+      "tier": "middle",
+      "t": "Anders Celsius (1742) first put 0 at boiling and 100 at freezing; his scale was called “centigrade” until 1948",
+      "k": [
+        "anders celsius",
+        "1742",
+        "centigrade"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minus-40",
+      "tier": "middle",
+      "t": "Negative 40 reads the same in Celsius and Fahrenheit; to convert, multiply Celsius by nine-fifths and add 32",
+      "k": [
+        "negative 40",
+        "nine-fifths",
+        "add 32"
+      ],
+      "n": 0
+    },
+    {
+      "id": "body",
+      "tier": "middle",
+      "t": "Normal for the human body: about 37 °C (98.6 °F), set by Carl Wunderlich in 1868",
+      "k": [
+        "98.6",
+        "wunderlich",
+        "human body"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gas-laws",
+      "tier": "middle",
+      "t": "Charles’s law (volume) and Gay-Lussac’s law (pressure) grow in proportion to it; PV = nRT",
+      "k": [
+        "charles",
+        "gay-lussac",
+        "pv = nrt"
+      ],
+      "n": 0,
+      "rabbit": "Ideal gas law"
+    },
+    {
+      "id": "zeroth-law",
+      "tier": "middle",
+      "t": "The zeroth law of thermodynamics (named by Ralph Fowler) is what makes thermometers work",
+      "k": [
+        "zeroth law",
+        "fowler"
+      ],
+      "n": 0
+    },
+    {
+      "id": "entropy-slope",
+      "tier": "power",
+      "t": "Its reciprocal equals how fast entropy rises as energy is added (1/T = dS/dU)",
+      "k": [
+        "reciprocal",
+        "entropy"
+      ],
+      "n": 0,
+      "rabbit": "Entropy"
+    },
+    {
+      "id": "equipartition",
+      "tier": "power",
+      "t": "Equipartition theorem: each way a gas molecule can move or spin gets an average energy of one-half k times it",
+      "k": [
+        "equipartition",
+        "one-half"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rankine-reaumur",
+      "tier": "power",
+      "t": "Rankine scale: starts at absolute zero with Fahrenheit-sized degrees; Réaumur scale: water boils at 80",
+      "k": [
+        "rankine",
+        "réaumur"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galileo",
+      "tier": "power",
+      "t": "Galileo’s thermoscope (around 1593) showed changes but had no numbered scale",
+      "k": [
+        "galileo",
+        "thermoscope",
+        "1593"
+      ],
+      "n": 0,
+      "rabbit": "Galileo Galilei"
+    },
+    {
+      "id": "redefinition",
+      "tier": "power",
+      "t": "Since 2019 the kelvin is defined by fixing the Boltzmann constant; before, by water’s triple point (273.16 K)",
+      "k": [
+        "boltzmann constant",
+        "triple point",
+        "273.16"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seebeck",
+      "tier": "power",
+      "t": "Thermocouples use the Seebeck effect (1821): two metals joined in a loop respond when one junction is heated",
+      "k": [
+        "thermocouples",
+        "seebeck",
+        "1821"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bimetallic",
+      "tier": "power",
+      "t": "A bimetallic strip in an old thermostat bends as it changes",
+      "k": [
+        "bimetallic strip",
+        "thermostat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wien",
+      "tier": "power",
+      "t": "Wien’s law: peak wavelength is inversely proportional to it, so blue stars are hotter than red ones",
+      "k": [
+        "wien",
+        "peak wavelength",
+        "blue stars"
+      ],
+      "n": 0,
+      "rabbit": "Hertzsprung–Russell diagram"
+    },
+    {
+      "id": "stefan-boltzmann",
+      "tier": "power",
+      "t": "Stefan–Boltzmann law: a glowing object’s radiated power grows with the fourth power of it",
+      "k": [
+        "stefan",
+        "fourth power"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pyrometer",
+      "tier": "power",
+      "t": "Pyrometers measure it in furnaces from a distance",
+      "k": [
+        "pyrometers",
+        "furnaces"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cmb",
+      "tier": "power",
+      "t": "Cosmic microwave background: about 2.7 K (measured by COBE); the Boomerang Nebula, about 1 K, is the coldest known natural place",
+      "k": [
+        "cobe",
+        "boomerang nebula",
+        "2.7"
+      ],
+      "n": 0,
+      "rabbit": "Cosmic microwave background"
+    },
+    {
+      "id": "lapse-rate",
+      "tier": "power",
+      "t": "Lapse rate: in the troposphere it drops about 6.5 °C per kilometer; it rises again in the stratosphere",
+      "k": [
+        "lapse rate",
+        "troposphere",
+        "stratosphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maxwell-boltzmann",
+      "tier": "power",
+      "t": "The Maxwell–Boltzmann speed distribution widens and shifts to higher speeds as it rises",
+      "k": [
+        "maxwell",
+        "distribution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "intensive",
+      "tier": "power",
+      "t": "An intensive property: a spoonful and a whole pot of the same soup can share the same value",
+      "k": [
+        "intensive",
+        "spoonful"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Temperature is not heat",
+    "body": "Heat is energy that moves from a hotter object to a colder one; temperature measures how hot something is, the average jiggling energy of its particles. A bathtub of warm water holds more thermal energy than a cup of boiling water, even though the cup has the higher temperature. Heat capacity and absolute zero are separate answer lines too.",
+    "fix": "Thermometers, degrees, kelvins, Celsius, Fahrenheit, and “average kinetic energy” point to temperature. Energy transferred, joules, and calories point to heat; how much energy it takes to warm something up is heat capacity.",
+    "line": "Real answer line: <b><u>Temperature</u></b> (prompt on <u>T</u>; do not accept “heat”)"
+  },
+  "tests": {
+    "right": [
+      "Temperature",
+      "temperature",
+      "Temprature",
+      "Absolute temperature",
+      "Thermodynamic temperature"
+    ],
+    "prompt": [
+      "T"
+    ],
+    "wrong": [
+      "Heat",
+      "Thermal energy",
+      "Absolute zero",
+      "Kinetic energy",
+      "Heat capacity"
+    ]
+  }
+}

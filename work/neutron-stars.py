@@ -1,0 +1,344 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "neutron-stars",
+    "name": "Neutron stars",
+    "mono": "NS",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Collapsed cores of massive stars · More mass than the Sun in a city-sized ball",
+    "dates": "Predicted 1933; first pulsar found 1967",
+    "briefing": "When a very massive star explodes as a supernova, its core can collapse into a neutron star: a ball only about 20 kilometers (12 miles) across that holds more mass than the Sun. A teaspoon of its material would weigh billions of tons. Some neutron stars spin hundreds of times a second and sweep beams of radio waves across space like a lighthouse; astronomers call those pulsars.",
+    "answerHtml": "<b><u>Neutron stars</u></b> (accept <u>neutron star</u>; prompt on <u>star</u>s)",
+    "accept": [
+        "neutron star",
+        "neutron stars"
+    ],
+    "prompt": [
+        "star",
+        "stars"
+    ],
+    "reject": [
+        "pulsar",
+        "pulsars",
+        "magnetar",
+        "magnetars",
+        "white dwarf",
+        "white dwarfs",
+        "black hole",
+        "black holes",
+        "neutrons",
+        "quasar",
+        "quasars",
+        "supernova",
+        "supernovae",
+        "supernovas",
+        "red giant",
+        "red giants",
+        "brown dwarf",
+        "brown dwarfs",
+        "quark star"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Neutron_star",
+    "qb": {
+        "q": "neutron star",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Physicists think the crusts of these objects may contain “nuclear pasta,” matter squeezed into shapes nicknamed gnocchi, spaghetti, and lasagna. Deeper inside, these objects may hold a superfluid, which could explain sudden speedups in their spin called glitches.",
+            "r": "For 10 points, name these super-dense remnants of supernovae, some of which are seen as pulsars."
+        },
+        {
+            "p": "Scorpius X-1, the first X-ray source found beyond the solar system, is one of these objects pulling gas off a companion star. In 1932, James Chadwick discovered the particle that makes up most of these objects.",
+            "r": "These objects, about 20 kilometers across, hold more mass than the Sun. For 10 points, name these collapsed stellar cores."
+        },
+        {
+            "p": "Russell Hulse and Joseph Taylor won a Nobel Prize for finding a pair of these objects orbiting each other, whose slowly shrinking orbit matched Albert Einstein’s prediction of gravitational waves. One of that pair is a pulsar.",
+            "r": "For 10 points, name these extremely dense stellar remnants, denser than white dwarfs but not quite black holes."
+        },
+        {
+            "p": "The first planets confirmed outside the solar system, found in 1992 by Aleksander Wolszczan [“VOHL-shchahn”] and Dale Frail, orbit one of these objects. That object is a pulsar that spins about 160 times every second.",
+            "r": "For 10 points, name these tiny, super-dense stars left behind when massive stars explode as supernovae."
+        },
+        {
+            "p": "In August 2017, LIGO and Virgo detected gravitational waves from two of these objects spiraling together, and telescopes then spotted the collision’s glow, called a kilonova. Astronomers found that such crashes forge gold, platinum, and other heavy elements.",
+            "r": "For 10 points, name these city-sized stellar remnants, some of which are pulsars."
+        },
+        {
+            "p": "NASA mounted an X-ray instrument called NICER on the International Space Station in 2017 to measure the sizes of these objects and learn what fills their cores. Only about 20 kilometers across, these objects can hold up to about twice the mass of the Sun.",
+            "r": "For 10 points, name these collapsed stars, so dense that a teaspoon of their material would weigh billions of tons."
+        },
+        {
+            "p": "In 1968, Thomas Gold argued that pulsars are spinning examples of these objects, and that year astronomers found one spinning about 30 times a second inside the Crab Nebula. That nebula is the wreck of a star that Chinese astronomers saw explode in 1054 CE.",
+            "r": "For 10 points, name these super-dense remnants left after supernovae, each only about the size of a city."
+        },
+        {
+            "p": "Some of these objects are called “recycled” because gas pulled from a companion star has spun them up until they turn hundreds of times every second. Those millisecond pulsars keep time so steadily that astronomers use them like cosmic clocks.",
+            "r": "For 10 points, name these collapsed stellar cores, which are denser than white dwarfs."
+        },
+        {
+            "p": "J. Robert Oppenheimer and George Volkoff calculated in 1939 that these objects have a maximum possible mass, known as the Tolman–Oppenheimer–Volkoff limit. Above that limit, one of these objects collapses further into a black hole.",
+            "r": "For 10 points, name these remnants of massive stars, which can show up as pulsars."
+        },
+        {
+            "p": "Walter Baade [“BAH-duh”] and Fritz Zwicky [“TSVIK-ee”] predicted in 1933 that a supernova could turn an ordinary star into one of these objects, less than two years after the discovery of the particle these objects are mostly made of.",
+            "r": "These objects are about the size of a city but hold more mass than the Sun. For 10 points, name these collapsed stars, often seen as pulsars."
+        },
+        {
+            "p": "These objects resist being crushed by their own gravity thanks to degeneracy pressure, which comes from the Pauli exclusion principle. A collapsing star core becomes one of these objects if it is above the Chandrasekhar [“chun-druh-SAY-kar”] limit, too heavy to become a white dwarf.",
+            "r": "For 10 points, name these city-sized stellar remnants that can spin hundreds of times per second."
+        },
+        {
+            "p": "In 1967, a graduate student noticed a strange radio signal that repeated every 1.3 seconds, which her team jokingly labeled LGM-1, for “Little Green Men.” That student, Jocelyn Bell, had found the first pulsar.",
+            "r": "Pulsars turned out to be spinning examples of these objects. For 10 points, name these collapsed stars left behind by supernovae."
+        },
+        {
+            "p": "Antony Hewish shared the 1974 Nobel Prize in Physics for his role in discovering spinning examples of these objects, a decision that drew criticism because his student Jocelyn Bell, who first spotted the signal, was left out.",
+            "r": "Spinning examples of these objects are called pulsars. For 10 points, name these extremely dense stellar remnants."
+        },
+        {
+            "p": "A type of these objects called magnetars has the strongest magnetic fields known in the universe, and starquakes on magnetars can blast out flashes of gamma rays. These objects are usually born spinning fast, because a shrinking star core conserves angular momentum.",
+            "r": "For 10 points, name these super-dense objects, about the size of a city, that form when a massive star’s core collapses."
+        },
+        {
+            "p": "Many of these objects began as the iron cores of stars at least eight times as massive as the Sun. These objects are so dense that they are often compared to a single giant atomic nucleus, and their gravity bends light noticeably around them.",
+            "r": "For 10 points, name these collapsed stars, smaller and denser than white dwarfs, that are sometimes seen as pulsars."
+        }
+    ],
+    "clues": [
+        {
+            "id": "supernova-core",
+            "tier": "giveaway",
+            "t": "The collapsed core left behind when a massive star explodes as a supernova",
+            "k": ["collapsed core", "supernova", "massive star"],
+            "n": 0,
+            "rabbit": "Supernovae"
+        },
+        {
+            "id": "density",
+            "tier": "giveaway",
+            "t": "Incredibly dense: more mass than the Sun packed into a ball about 20 km (12 miles) across",
+            "k": ["dense", "20 km", "12 miles"],
+            "n": 0
+        },
+        {
+            "id": "uncharged-particles",
+            "tier": "giveaway",
+            "t": "Made mostly of the uncharged particles found in atomic nuclei, packed tightly together",
+            "k": ["uncharged particles", "atomic nuclei"],
+            "n": 0,
+            "rabbit": "Neutrons"
+        },
+        {
+            "id": "pulsars",
+            "tier": "giveaway",
+            "t": "Spinning ones that sweep beams of radio waves past Earth like a lighthouse are called pulsars",
+            "k": ["pulsars", "lighthouse", "radio waves"],
+            "n": 0,
+            "rabbit": "Pulsars"
+        },
+        {
+            "id": "teaspoon",
+            "tier": "giveaway",
+            "t": "A teaspoon of their material would weigh billions of tons",
+            "k": ["teaspoon", "billions of tons"],
+            "n": 0
+        },
+        {
+            "id": "jocelyn-bell",
+            "tier": "middle",
+            "t": "Jocelyn Bell, a graduate student working with Antony Hewish, found the first pulsar in 1967",
+            "k": ["jocelyn bell", "hewish", "1967"],
+            "n": 0
+        },
+        {
+            "id": "lgm-1",
+            "tier": "middle",
+            "t": "The first pulsar’s steady signal was jokingly nicknamed LGM-1, for “Little Green Men”",
+            "k": ["lgm-1", "little green men"],
+            "n": 0
+        },
+        {
+            "id": "hewish-nobel",
+            "tier": "middle",
+            "t": "Hewish shared the 1974 Nobel Prize in Physics, but Bell was left out, a decision that drew criticism",
+            "k": ["1974", "nobel prize", "left out"],
+            "n": 0
+        },
+        {
+            "id": "crab-pulsar",
+            "tier": "middle",
+            "t": "The Crab Nebula, left by a supernova seen in 1054 CE, has one at its center spinning about 30 times a second",
+            "k": ["crab nebula", "1054", "30 times"],
+            "n": 0,
+            "rabbit": "Crab Nebula"
+        },
+        {
+            "id": "baade-zwicky",
+            "tier": "middle",
+            "t": "Walter Baade and Fritz Zwicky predicted them in 1933, soon after James Chadwick discovered the particle they are mostly made of (1932)",
+            "k": ["baade", "zwicky", "chadwick"],
+            "n": 0
+        },
+        {
+            "id": "degeneracy",
+            "tier": "middle",
+            "t": "Held up against gravity by degeneracy pressure, which comes from the Pauli exclusion principle",
+            "k": ["degeneracy pressure", "pauli exclusion principle"],
+            "n": 0,
+            "rabbit": "Pauli exclusion principle"
+        },
+        {
+            "id": "spin-fast",
+            "tier": "middle",
+            "t": "They spin fast because a shrinking core conserves angular momentum, like a skater pulling in her arms",
+            "k": ["angular momentum", "skater"],
+            "n": 0,
+            "rabbit": "Angular momentum"
+        },
+        {
+            "id": "tov-limit",
+            "tier": "middle",
+            "t": "Above the Tolman–Oppenheimer–Volkoff limit (calculated in 1939), they collapse into black holes",
+            "k": ["tolman", "volkoff", "1939", "black holes"],
+            "n": 0,
+            "rabbit": "Black Holes"
+        },
+        {
+            "id": "magnetars",
+            "tier": "middle",
+            "t": "Magnetars are ones with the strongest magnetic fields known in the universe",
+            "k": ["magnetars", "magnetic fields"],
+            "n": 0
+        },
+        {
+            "id": "gw170817",
+            "tier": "power",
+            "t": "In 2017, LIGO and Virgo detected gravitational waves from two of them colliding (GW170817)",
+            "k": ["gw170817", "ligo", "gravitational waves"],
+            "n": 0
+        },
+        {
+            "id": "kilonova",
+            "tier": "power",
+            "t": "That 2017 collision glowed as a kilonova and showed that such crashes make gold and other heavy elements",
+            "k": ["kilonova", "gold", "heavy elements"],
+            "n": 0
+        },
+        {
+            "id": "hulse-taylor",
+            "tier": "power",
+            "t": "Russell Hulse and Joseph Taylor found a binary pulsar (1974) whose shrinking orbit matched Einstein’s prediction of gravitational waves (1993 Nobel Prize)",
+            "k": ["hulse", "taylor", "binary pulsar"],
+            "n": 0
+        },
+        {
+            "id": "pulsar-planets",
+            "tier": "power",
+            "t": "The first confirmed exoplanets (1992) orbit a pulsar; they were found by Aleksander Wolszczan and Dale Frail",
+            "k": ["exoplanets", "wolszczan", "1992"],
+            "n": 0,
+            "rabbit": "Exoplanets"
+        },
+        {
+            "id": "millisecond",
+            "tier": "power",
+            "t": "Millisecond pulsars are “recycled”: gas from a companion star spun them up to hundreds of turns a second",
+            "k": ["millisecond pulsars", "recycled", "companion"],
+            "n": 0
+        },
+        {
+            "id": "glitches",
+            "tier": "power",
+            "t": "Pulsars sometimes suddenly spin faster, a “glitch” thought to come from a superfluid interior",
+            "k": ["glitch", "superfluid"],
+            "n": 0
+        },
+        {
+            "id": "nuclear-pasta",
+            "tier": "power",
+            "t": "Their crusts may hold “nuclear pasta,” matter squeezed into shapes nicknamed gnocchi, spaghetti, and lasagna",
+            "k": ["nuclear pasta", "gnocchi", "lasagna"],
+            "n": 0
+        },
+        {
+            "id": "sco-x1",
+            "tier": "power",
+            "t": "Scorpius X-1, the first X-ray source found beyond the solar system (1962), is one pulling gas from a companion star",
+            "k": ["scorpius x-1", "x-ray", "1962"],
+            "n": 0
+        },
+        {
+            "id": "nicer",
+            "tier": "power",
+            "t": "NASA’s NICER, an X-ray instrument installed on the International Space Station in 2017, measures their sizes",
+            "k": ["nicer", "space station"],
+            "n": 0
+        },
+        {
+            "id": "gold-1968",
+            "tier": "power",
+            "t": "Thomas Gold argued in 1968 that pulsars are spinning ones",
+            "k": ["thomas gold", "1968"],
+            "n": 0
+        },
+        {
+            "id": "chandrasekhar",
+            "tier": "power",
+            "t": "A collapsing core above the Chandrasekhar limit (about 1.4 Suns) is too heavy to become a white dwarf",
+            "k": ["chandrasekhar limit", "white dwarf", "1.4"],
+            "n": 0,
+            "rabbit": "White dwarfs"
+        },
+        {
+            "id": "iron-cores",
+            "tier": "power",
+            "t": "Many began as the iron cores of stars at least eight times as massive as the Sun",
+            "k": ["iron cores", "eight times"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Pulsar or the whole family?",
+        "body": "Pulsars and magnetars are kinds of neutron stars, so their clues fill neutron star tossups, and “Pulsars” is also an answer line of its own. Once a question has said that pulsars are spinning examples of “these objects,” answering “pulsar” is wrong. White dwarfs and black holes, the other two kinds of dead-star leftovers, are the other common mix-ups.",
+        "fix": "Think about how heavy the dead core is. A Sun-like star leaves an Earth-sized white dwarf, held up by electrons; a core above the Chandrasekhar limit makes a city-sized neutron star (Baade and Zwicky, Jocelyn Bell, the Crab pulsar); above the Tolman–Oppenheimer–Volkoff limit, it becomes a black hole. When in doubt, say “neutron star,” not “pulsar.”",
+        "line": "Real answer line: <b><u>Neutron stars</u></b> (accept <u>neutron star</u>; prompt on <u>star</u>s)"
+    },
+    "tests": {
+        "right": [
+            "Neutron stars",
+            "neutron star",
+            "Nuetron star",
+            "a neutron star",
+            "Neutron-star"
+        ],
+        "prompt": [
+            "Star",
+            "Stars"
+        ],
+        "wrong": [
+            "Pulsar",
+            "White dwarf",
+            "Black hole",
+            "Neutrons",
+            "Magnetar",
+            "Supernova"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

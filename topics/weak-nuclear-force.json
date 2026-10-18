@@ -1,0 +1,444 @@
+{
+  "id": "weak-nuclear-force",
+  "name": "Weak nuclear force",
+  "mono": "WNF",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Fundamental force behind beta decay · Carried by the W and Z bosons",
+  "dates": "First theory by Enrico Fermi, 1933; W and Z bosons found 1983",
+  "briefing": "The weak nuclear force is one of nature’s four fundamental forces, and it is the only one that can turn one type of quark into another, which is how a neutron becomes a proton in beta decay. It also starts the chain of fusion that makes the Sun shine. Its carrier particles, the heavy W and Z bosons, were discovered at CERN in 1983.",
+  "answerHtml": "<b><u>weak</u></b> nuclear force (accept <u>weak interaction</u> or <u>weak force</u>; prompt on <u>electroweak</u> interaction or <u>nuclear force</u>; do not accept “strong nuclear force”)",
+  "accept": [
+    "weak",
+    "weak force",
+    "weak forces",
+    "weak nuclear force",
+    "weak nuclear forces",
+    "weak interaction",
+    "weak interactions",
+    "weak nuclear interaction",
+    "weak nuclear"
+  ],
+  "prompt": [
+    "nuclear force",
+    "nuclear forces",
+    "electroweak",
+    "electroweak force",
+    "electroweak forces",
+    "electroweak interaction",
+    "electroweak theory"
+  ],
+  "reject": [
+    "strong",
+    "strong force",
+    "strong nuclear force",
+    "strong interaction",
+    "residual strong force",
+    "electromagnetism",
+    "electromagnetic force",
+    "electromagnetic interaction",
+    "gravity",
+    "gravitation",
+    "gravitational force",
+    "beta decay",
+    "w boson",
+    "w bosons",
+    "z boson",
+    "z bosons",
+    "w and z bosons",
+    "weak boson",
+    "weak bosons",
+    "higgs boson",
+    "radioactivity",
+    "radioactive decay",
+    "weak acid",
+    "weak base"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Weak_interaction",
+  "qb": {
+    "q": "weak force",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1956, Chien-Shiung Wu [“chyen-SHYOONG WOO”] cooled radioactive cobalt-60 nuclei and found that their electrons shot out more often in one direction, proving that this force does not treat mirror images alike. Her result confirmed a prediction made by Tsung-Dao Lee and Chen-Ning Yang.",
+      "r": "For 10 points, name this fundamental force, carried by W and Z bosons, that causes beta decay."
+    },
+    {
+      "p": "The Gargamelle bubble chamber at CERN found the first evidence of this force’s “neutral currents” in 1973. Sheldon Glashow, Abdus Salam, and Steven Weinberg shared the 1979 Nobel Prize in Physics for a theory uniting this force with electromagnetism.",
+      "r": "For 10 points, name this fundamental force that causes radioactive beta decay and acts only over tiny distances."
+    },
+    {
+      "p": "Carlo Rubbia and Simon van der Meer won a Nobel Prize after experiments at CERN found the particles that carry this force in 1983. Because those W and Z particles are so heavy, this force reaches only across distances smaller than a proton.",
+      "r": "For 10 points, name this fundamental force that turns neutrons into protons in beta decay."
+    },
+    {
+      "p": "The journal _Nature_ rejected Enrico Fermi’s first theory of this force as too far removed from reality. That theory pictured four particles meeting at a single point and explained how a neutron can turn into a proton, an electron, and an antineutrino.",
+      "r": "For 10 points, name this fundamental force, carried by W and Z bosons, which causes beta decay."
+    },
+    {
+      "p": "A matrix named for Cabibbo [“kuh-BEE-boh”], Kobayashi, and Maskawa describes how strongly this force mixes different kinds of quarks. Through this force, a down quark can change into an up quark by giving off a W boson, which turns a neutron into a proton.",
+      "r": "Its W and Z carriers were found at CERN in 1983. For 10 points, name this fundamental force responsible for beta decay."
+    },
+    {
+      "p": "James Cronin and Val Fitch won a Nobel Prize for showing that decays of neutral kaons caused by this force break a symmetry called CP. This force is the only fundamental interaction known to violate parity, treating a process and its mirror image differently.",
+      "r": "For 10 points, name this fundamental force that is stronger than gravity but much feebler than electromagnetism."
+    },
+    {
+      "p": "The Sun can shine for billions of years partly because the first step of its proton-proton chain needs this force to turn a proton into a neutron, which happens very rarely. This force also makes carbon-14 decay into nitrogen-14, the process behind radiocarbon dating.",
+      "r": "It causes beta decay. For 10 points, name this fundamental force carried by the W and Z bosons."
+    },
+    {
+      "p": "The Higgs mechanism explains why the particles that carry this force have mass while the photon does not. Because those carriers are more than 80 times as heavy as a proton, this force acts only over tiny distances.",
+      "r": "For 10 points, name this fundamental force involved in beta decay, carried by the W and Z bosons."
+    },
+    {
+      "p": "One kind of particle that carries this force interacts only with “left-handed” matter particles, so this force can tell a process apart from its mirror image. This force changes the flavor of quarks and leptons.",
+      "r": "For 10 points, name this force that makes a neutron decay into a proton, an electron, and an antineutrino."
+    },
+    {
+      "p": "In the extremely hot early universe, this force and electromagnetism behaved as one single force, which later split apart as the universe cooled. This force is the only one that can change one flavor of quark into another.",
+      "r": "For 10 points, name this force, which causes beta decay and is carried by the W and Z bosons."
+    },
+    {
+      "p": "Muons decay through this force in about two millionths of a second, producing an electron, a neutrino, and an antineutrino. A free neutron outside an atom’s nucleus lasts only about 15 minutes on average before this force makes it decay.",
+      "r": "It causes beta decay. For 10 points, name this fundamental force carried by the W and Z bosons."
+    },
+    {
+      "p": "In electron capture, this force lets a proton in a nucleus absorb one of the atom’s inner electrons and become a neutron. Positron emission, also called beta-plus decay, is caused by this force as well.",
+      "r": "Its carriers are the W and Z bosons. For 10 points, name this fundamental force responsible for all types of beta decay."
+    },
+    {
+      "p": "The strength of this force at low energies is set by the Fermi coupling constant, named for the scientist who wrote the first theory of it. Neutrinos are so hard to detect because, apart from gravity, this is the only force they feel.",
+      "r": "For 10 points, name this fundamental force, carried by W and Z bosons, that causes beta decay."
+    },
+    {
+      "p": "Charged pions decay into muons and neutrinos through this force, while neutral pions decay into gamma rays through electromagnetism instead. This force acts only over distances much smaller than an atomic nucleus, because its carrier particles are very heavy.",
+      "r": "For 10 points, name this fundamental force that causes beta decay, the second-feeblest of the four fundamental forces."
+    },
+    {
+      "p": "The “tau-theta puzzle,” in which two seemingly identical particles decayed in two different ways, led Tsung-Dao Lee and Chen-Ning Yang to suggest that this force might not treat mirror images the same way. They won the 1957 Nobel Prize after that idea was confirmed.",
+      "r": "For 10 points, name this fundamental force, carried by W and Z bosons, that causes beta decay."
+    }
+  ],
+  "clues": [
+    {
+      "id": "four-forces",
+      "tier": "giveaway",
+      "t": "One of the four fundamental forces, along with gravity, electromagnetism, and the strong force",
+      "k": [
+        "four fundamental",
+        "gravity",
+        "electromagnetism"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beta-decay",
+      "tier": "giveaway",
+      "t": "Causes beta decay, in which a neutron turns into a proton and gives off an electron and an antineutrino",
+      "k": [
+        "beta decay",
+        "antineutrino"
+      ],
+      "n": 0
+    },
+    {
+      "id": "w-z-bosons",
+      "tier": "giveaway",
+      "t": "Carried by the W and Z bosons",
+      "k": [
+        "w and z",
+        "bosons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "strength",
+      "tier": "giveaway",
+      "t": "Stronger than gravity but far feebler than electromagnetism and the strong force",
+      "k": [
+        "stronger than gravity",
+        "feebler"
+      ],
+      "n": 0
+    },
+    {
+      "id": "short-range",
+      "tier": "giveaway",
+      "t": "Acts only over tiny distances, smaller than a proton, because its carrier particles are so heavy",
+      "k": [
+        "tiny distances",
+        "heavy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flavor",
+      "tier": "middle",
+      "t": "The only force that can change one flavor of quark into another, such as a down quark into an up quark",
+      "k": [
+        "flavor",
+        "down quark",
+        "up quark"
+      ],
+      "n": 0,
+      "rabbit": "Quarks"
+    },
+    {
+      "id": "neutrinos",
+      "tier": "middle",
+      "t": "Apart from gravity, the only force neutrinos feel, which is why they are so hard to detect",
+      "k": [
+        "neutrinos",
+        "hard to detect"
+      ],
+      "n": 0,
+      "rabbit": "Neutrinos"
+    },
+    {
+      "id": "unification",
+      "tier": "middle",
+      "t": "Sheldon Glashow, Abdus Salam, and Steven Weinberg united it with electromagnetism (Nobel Prize, 1979)",
+      "k": [
+        "glashow",
+        "salam",
+        "weinberg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cern-1983",
+      "tier": "middle",
+      "t": "Its W and Z carriers were discovered at CERN in 1983; Carlo Rubbia and Simon van der Meer won the 1984 Nobel Prize",
+      "k": [
+        "cern",
+        "1983",
+        "rubbia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sun",
+      "tier": "middle",
+      "t": "Needed for the first step of the Sun’s proton-proton chain, when a proton turns into a neutron",
+      "k": [
+        "proton-proton chain",
+        "sun"
+      ],
+      "n": 0,
+      "rabbit": "The Sun"
+    },
+    {
+      "id": "fermi",
+      "tier": "middle",
+      "t": "Enrico Fermi wrote the first theory of it in 1933, to explain beta decay",
+      "k": [
+        "enrico fermi",
+        "1933"
+      ],
+      "n": 0,
+      "rabbit": "Enrico Fermi"
+    },
+    {
+      "id": "parity",
+      "tier": "middle",
+      "t": "Violates parity: it treats a process and its mirror image differently",
+      "k": [
+        "parity",
+        "mirror image"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carbon-14",
+      "tier": "middle",
+      "t": "Makes carbon-14 decay into nitrogen-14, the basis of radiocarbon dating",
+      "k": [
+        "carbon-14",
+        "radiocarbon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "higgs",
+      "tier": "middle",
+      "t": "The Higgs mechanism gives its W and Z carriers mass, while the photon stays massless",
+      "k": [
+        "higgs mechanism",
+        "photon"
+      ],
+      "n": 0,
+      "rabbit": "Higgs boson"
+    },
+    {
+      "id": "wu",
+      "tier": "power",
+      "t": "1956: Chien-Shiung Wu’s cobalt-60 experiment proved that it violates parity",
+      "k": [
+        "chien-shiung wu",
+        "cobalt-60"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lee-yang",
+      "tier": "power",
+      "t": "Tsung-Dao Lee and Chen-Ning Yang predicted its parity violation to solve the “tau-theta puzzle” (Nobel Prize, 1957)",
+      "k": [
+        "tau-theta",
+        "lee",
+        "yang"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gargamelle",
+      "tier": "power",
+      "t": "The Gargamelle bubble chamber at CERN found its “neutral currents” in 1973",
+      "k": [
+        "gargamelle",
+        "neutral currents",
+        "1973"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cronin-fitch",
+      "tier": "power",
+      "t": "James Cronin and Val Fitch found CP violation in its decays of neutral kaons (1964)",
+      "k": [
+        "cronin",
+        "fitch",
+        "kaons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ckm",
+      "tier": "power",
+      "t": "The CKM (Cabibbo–Kobayashi–Maskawa) matrix describes how it mixes different kinds of quarks",
+      "k": [
+        "ckm",
+        "cabibbo",
+        "kobayashi",
+        "maskawa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nature",
+      "tier": "power",
+      "t": "The journal _Nature_ rejected Fermi’s theory of it, which pictured four particles meeting at a single point",
+      "k": [
+        "nature",
+        "four particles",
+        "single point"
+      ],
+      "n": 0
+    },
+    {
+      "id": "left-handed",
+      "tier": "power",
+      "t": "Its W carriers interact only with “left-handed” matter particles",
+      "k": [
+        "left-handed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "early-universe",
+      "tier": "power",
+      "t": "In the hot early universe, it and electromagnetism acted as one single force",
+      "k": [
+        "early universe",
+        "single force"
+      ],
+      "n": 0
+    },
+    {
+      "id": "muon-decay",
+      "tier": "power",
+      "t": "Muons decay through it in about two millionths of a second, into an electron, a neutrino, and an antineutrino",
+      "k": [
+        "muons",
+        "millionths"
+      ],
+      "n": 0
+    },
+    {
+      "id": "free-neutron",
+      "tier": "power",
+      "t": "A free neutron outside a nucleus decays through it in about 15 minutes on average",
+      "k": [
+        "free neutron",
+        "15 minutes"
+      ],
+      "n": 0,
+      "rabbit": "Neutrons"
+    },
+    {
+      "id": "electron-capture",
+      "tier": "power",
+      "t": "Also causes electron capture and positron emission (beta-plus decay)",
+      "k": [
+        "electron capture",
+        "positron"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fermi-constant",
+      "tier": "power",
+      "t": "Its strength at low energies is set by the Fermi coupling constant",
+      "k": [
+        "fermi coupling constant",
+        "coupling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pions",
+      "tier": "power",
+      "t": "Charged pions decay into muons and neutrinos through it; neutral pions decay through electromagnetism instead",
+      "k": [
+        "pions",
+        "charged"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Weak or strong force?",
+    "body": "Both are called nuclear forces, and both act only over tiny distances about the size of a nucleus or smaller, so their clues can sound alike. The strong force, carried by gluons, holds quarks together and binds protons and neutrons into a nucleus; this force, carried by the W and Z bosons, makes particles change identity and causes beta decay. Answering just “nuclear force” is not enough.",
+    "fix": "W or Z bosons, beta decay, neutrinos, parity violation, or changing quark flavors means the weak force. Gluons, color charge, or holding a nucleus together means the strong force.",
+    "line": "Real answer line: <b><u>weak</u></b> nuclear force (accept <u>weak interaction</u> or <u>weak force</u>; do not accept “strong nuclear force”)"
+  },
+  "tests": {
+    "right": [
+      "Weak nuclear force",
+      "weak force",
+      "Weak interaction",
+      "weak",
+      "Weak nucelar force"
+    ],
+    "prompt": [
+      "Electroweak force",
+      "Nuclear force"
+    ],
+    "wrong": [
+      "Strong nuclear force",
+      "Electromagnetism",
+      "Gravity",
+      "Beta decay",
+      "W boson"
+    ]
+  }
+}

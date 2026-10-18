@@ -1,0 +1,341 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "enzymes",
+    "name": "Enzymes",
+    "mono": "ENZ",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Protein catalysts of living cells · Names usually end in “-ase”",
+    "dates": "First one found (diastase) in 1833",
+    "briefing": "Drop fresh pineapple into gelatin and it will never set, because the fruit contains an enzyme that chops up proteins. Enzymes are biological catalysts, mostly proteins, that speed up reactions by lowering the energy needed to start them, and they come out unchanged, ready to work again. Each has an active site shaped to fit its target, which is why heat that bends that shape can “denature” it.",
+    "answerHtml": "<b><u>Enzymes</u></b> (accept <u>enzyme</u>; prompt on <u>catalysts</u> or <u>proteins</u>; do not accept “coenzymes” or “substrates”)",
+    "accept": [
+        "enzymes",
+        "enzyme"
+    ],
+    "prompt": [
+        "catalysts",
+        "catalyst",
+        "biological catalysts",
+        "biological catalyst",
+        "proteins",
+        "protein"
+    ],
+    "reject": [
+        "coenzymes",
+        "coenzyme",
+        "cofactors",
+        "cofactor",
+        "substrates",
+        "substrate",
+        "ribozymes",
+        "ribozyme",
+        "hormones",
+        "hormone",
+        "amino acids",
+        "active site",
+        "active sites",
+        "inhibitors",
+        "inhibitor",
+        "zymogens",
+        "zymogen",
+        "catalase",
+        "vitamins",
+        "antibodies",
+        "carbohydrates",
+        "lipids"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Enzyme",
+    "qb": {
+        "q": "enzyme",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Alexander Fleming discovered one of these molecules, lysozyme, which is found in tears and breaks down the cell walls of some bacteria. In 1965, lysozyme became the first of these molecules to have its three-dimensional structure worked out by X-ray crystallography.",
+            "r": "For 10 points, name these biological catalysts that speed up reactions by lowering activation energy."
+        },
+        {
+            "p": "James Sumner crystallized urease from jack beans in 1926, helping prove that these substances are proteins, though many scientists doubted him at first. He shared a 1946 Nobel Prize with John Northrop, who crystallized the stomach protein pepsin.",
+            "r": "Most of these substances have names ending in “-ase.” For 10 points, name these biological catalysts."
+        },
+        {
+            "p": "Eduard Buchner won a 1907 Nobel Prize for showing that juice squeezed from ground-up yeast cells could still ferment sugar, proving that fermentation did not require living cells. Buchner named the active substance in that juice zymase [“ZYE-mayss”].",
+            "r": "For 10 points, name these protein catalysts that speed up chemical reactions in living things."
+        },
+        {
+            "p": "In 1833, Anselme Payen [“pah-YAN”] discovered diastase, a starch-digesting substance from malt that was the first of these molecules ever found. Wilhelm Kühne [“KOO-nuh”] later named these molecules from Greek words meaning “in yeast.”",
+            "r": "Amylase, which starts digesting starch in human saliva, is one of them. For 10 points, name these biological catalysts, which are usually proteins."
+        },
+        {
+            "p": "A Lineweaver–Burk plot uses reciprocals to turn rate data for these molecules into a straight line. That data is often modeled with an equation published in 1913 by Leonor Michaelis and Maud Menten, which includes a constant called Km.",
+            "r": "For 10 points, name these biological catalysts, which are often proteins whose names end in “-ase.”"
+        },
+        {
+            "p": "Aspirin works by permanently blocking cyclooxygenase [“sye-kloh-OK-sih-jen-ayss”], one of these molecules. Competitive inhibitors slow down these molecules by blocking their active sites, while noncompetitive inhibitors attach somewhere else and change their shape.",
+            "r": "Adding more substrate can overcome only the competitive kind. For 10 points, name these biological catalysts that lower activation energy."
+        },
+        {
+            "p": "Thomas Cech [“CHEK”] and Sidney Altman won the 1989 Nobel Prize in Chemistry for discovering RNA molecules that act as these substances, called ribozymes. The ribosome itself uses RNA in this role when it links amino acids together.",
+            "r": "Most of these substances, however, are proteins. For 10 points, name these biological catalysts."
+        },
+        {
+            "p": "Taq polymerase, one of these substances that can survive near-boiling temperatures, comes from a bacterium first found in a hot spring in Yellowstone National Park. Taq polymerase is used to copy DNA in a technique called PCR.",
+            "r": "Helicase and DNA ligase are other examples. For 10 points, name these protein catalysts."
+        },
+        {
+            "p": "Fresh pineapple keeps gelatin desserts from setting because it contains bromelain [“BROH-muh-lin”], one of these substances that breaks down proteins. Papain [“puh-PAY-in”], a similar substance from papaya, is used in powdered meat tenderizers.",
+            "r": "Heating pineapple, as in canning, inactivates bromelain by changing its shape. For 10 points, name these protein catalysts that heat can denature."
+        },
+        {
+            "p": "Catalase, one of these molecules, splits hydrogen peroxide into water and oxygen so quickly that a slice of raw potato or liver makes peroxide fizz. Catalase has one of the highest turnover numbers known, handling millions of molecules every second.",
+            "r": "For 10 points, name these biological catalysts that work by lowering activation energy without being used up."
+        },
+        {
+            "p": "Some of these molecules are made as inactive forms called zymogens [“ZYE-muh-jinz”], such as pepsinogen, which stomach acid turns into pepsin. In the small intestine, trypsinogen is switched on by enteropeptidase to become trypsin.",
+            "r": "Pepsin and trypsin both break down proteins. For 10 points, name these biological catalysts, which include many digestive proteins."
+        },
+        {
+            "p": "Carbonic anhydrase, one of these molecules found in red blood cells, needs a zinc ion at its active site to work. Many others rely on organic helper molecules such as NAD+, which the body makes from the vitamin niacin.",
+            "r": "Metal ions that help them are called cofactors. For 10 points, name these biological catalysts, which are usually proteins."
+        },
+        {
+            "p": "Daniel Koshland’s induced-fit model says these molecules change shape slightly when they grab their targets, improving on Emil Fischer’s 1894 “lock and key” model. In both models, a reactant called the substrate fits into an active site.",
+            "r": "RuBisCo, which grabs carbon dioxide during photosynthesis, is one of them. For 10 points, name these biological catalysts."
+        },
+        {
+            "p": "In feedback inhibition, the end product of a pathway shuts down one of these molecules early in the pathway by binding to its allosteric site. Pepsin, one of these molecules in the stomach, works best at an acidic pH of about 2.",
+            "r": "For 10 points, name these biological catalysts that can be denatured by too much heat."
+        },
+        {
+            "p": "Frances Arnold shared the 2018 Nobel Prize in Chemistry for using “directed evolution” to create new and better versions of these molecules. Laundry detergents labeled “bio” contain these molecules to break down stains made of protein, fat, and starch.",
+            "r": "Lactase, which breaks down the sugar in milk, is one of them. For 10 points, name these biological catalysts, whose names often end in “-ase.”"
+        }
+    ],
+    "clues": [
+        {
+            "id": "catalysts",
+            "tier": "giveaway",
+            "t": "Biological catalysts, usually proteins, that speed up chemical reactions in living things",
+            "k": ["catalysts", "speed up", "proteins"],
+            "n": 0,
+            "rabbit": "Catalysts"
+        },
+        {
+            "id": "activation-energy",
+            "tier": "giveaway",
+            "t": "Work by lowering a reaction’s activation energy, without being used up",
+            "k": ["activation energy", "used up"],
+            "n": 0
+        },
+        {
+            "id": "ase-names",
+            "tier": "giveaway",
+            "t": "Names usually end in “-ase,” as in lactase, amylase, and lipase",
+            "k": ["-ase", "lactase", "amylase", "lipase"],
+            "n": 0
+        },
+        {
+            "id": "active-site",
+            "tier": "giveaway",
+            "t": "The molecule each one acts on, the substrate, fits into a pocket called the active site",
+            "k": ["substrate", "active site", "pocket"],
+            "n": 0
+        },
+        {
+            "id": "denature",
+            "tier": "giveaway",
+            "t": "Too much heat or the wrong pH can denature them, changing their shape so they stop working",
+            "k": ["denature", "heat", "shape"],
+            "n": 0
+        },
+        {
+            "id": "lock-and-key",
+            "tier": "middle",
+            "t": "Emil Fischer’s lock-and-key model (1894) and Daniel Koshland’s induced-fit model (1958) describe how they grab substrates",
+            "k": ["lock-and-key", "induced-fit", "fischer", "koshland"],
+            "n": 0
+        },
+        {
+            "id": "inhibitors",
+            "tier": "middle",
+            "t": "Competitive inhibitors block the active site; noncompetitive inhibitors bind somewhere else and change the shape",
+            "k": ["competitive", "noncompetitive", "inhibitors"],
+            "n": 0
+        },
+        {
+            "id": "cofactors",
+            "tier": "middle",
+            "t": "Many need helpers: metal-ion cofactors such as zinc, or vitamin-based molecules such as NAD+ (made from niacin)",
+            "k": ["cofactors", "zinc", "niacin", "nad+"],
+            "n": 0,
+            "rabbit": "B vitamins"
+        },
+        {
+            "id": "optimal-ph",
+            "tier": "middle",
+            "t": "Each works best at an optimal temperature and pH; stomach pepsin works best near pH 2",
+            "k": ["optimal", "pepsin", "ph 2"],
+            "n": 0,
+            "rabbit": "Stomach"
+        },
+        {
+            "id": "digestive",
+            "tier": "middle",
+            "t": "Digestive examples: amylase breaks down starch, trypsin breaks down proteins, and lipase breaks down fats",
+            "k": ["amylase", "starch", "trypsin", "lipase"],
+            "n": 0
+        },
+        {
+            "id": "catalase",
+            "tier": "middle",
+            "t": "Catalase splits hydrogen peroxide into water and oxygen, making peroxide fizz on raw potato or liver",
+            "k": ["catalase", "hydrogen peroxide", "fizz"],
+            "n": 0
+        },
+        {
+            "id": "michaelis-menten",
+            "tier": "power",
+            "t": "Their rates follow Michaelis–Menten kinetics (1913); Km is the substrate level that gives half the top speed",
+            "k": ["michaelis", "menten", "1913", "km"],
+            "n": 0
+        },
+        {
+            "id": "lineweaver-burk",
+            "tier": "power",
+            "t": "A Lineweaver–Burk (double-reciprocal) plot turns their rate data into a straight line",
+            "k": ["lineweaver", "double-reciprocal", "straight line"],
+            "n": 0
+        },
+        {
+            "id": "sumner",
+            "tier": "power",
+            "t": "James Sumner crystallized urease from jack beans in 1926, helping prove these are proteins (1946 Nobel Prize)",
+            "k": ["sumner", "urease", "jack beans", "1926"],
+            "n": 0
+        },
+        {
+            "id": "buchner",
+            "tier": "power",
+            "t": "Eduard Buchner showed in 1897 that juice from ground-up yeast could still ferment sugar; he named its active substance zymase",
+            "k": ["buchner", "zymase", "yeast", "1897"],
+            "n": 0,
+            "rabbit": "Yeast"
+        },
+        {
+            "id": "payen",
+            "tier": "power",
+            "t": "Anselme Payen discovered the first one, diastase (from malt), in 1833",
+            "k": ["payen", "diastase", "1833"],
+            "n": 0
+        },
+        {
+            "id": "kuhne",
+            "tier": "power",
+            "t": "Wilhelm Kühne named them from Greek words meaning “in yeast”",
+            "k": ["kühne", "in yeast", "greek"],
+            "n": 0
+        },
+        {
+            "id": "ribozymes",
+            "tier": "power",
+            "t": "Thomas Cech and Sidney Altman won the 1989 Nobel Prize for finding ribozymes, RNA molecules that do the same job",
+            "k": ["ribozymes", "cech", "altman", "1989"],
+            "n": 0,
+            "rabbit": "RNA"
+        },
+        {
+            "id": "lysozyme",
+            "tier": "power",
+            "t": "Alexander Fleming found lysozyme, which is in tears; in 1965 it became the first one whose structure was solved by X-ray crystallography",
+            "k": ["lysozyme", "fleming", "tears", "1965"],
+            "n": 0
+        },
+        {
+            "id": "taq",
+            "tier": "power",
+            "t": "Taq polymerase, from a bacterium found in a Yellowstone hot spring, survives the heat of PCR",
+            "k": ["taq", "yellowstone", "pcr", "hot spring"],
+            "n": 0
+        },
+        {
+            "id": "bromelain",
+            "tier": "power",
+            "t": "Bromelain in fresh pineapple keeps gelatin from setting; papain from papaya tenderizes meat",
+            "k": ["bromelain", "pineapple", "papain", "gelatin"],
+            "n": 0
+        },
+        {
+            "id": "zymogens",
+            "tier": "power",
+            "t": "Some are made as inactive zymogens: pepsinogen becomes pepsin, and trypsinogen becomes trypsin",
+            "k": ["zymogens", "pepsinogen", "trypsinogen"],
+            "n": 0
+        },
+        {
+            "id": "feedback-inhibition",
+            "tier": "power",
+            "t": "Feedback inhibition: a pathway’s end product shuts down an early step by binding an allosteric site",
+            "k": ["feedback inhibition", "allosteric", "end product"],
+            "n": 0
+        },
+        {
+            "id": "rubisco",
+            "tier": "power",
+            "t": "RuBisCo, which fixes carbon dioxide in photosynthesis, is often called the most abundant one on Earth",
+            "k": ["rubisco", "most abundant", "photosynthesis"],
+            "n": 0,
+            "rabbit": "Calvin cycle"
+        },
+        {
+            "id": "frances-arnold",
+            "tier": "power",
+            "t": "Frances Arnold shared the 2018 Chemistry Nobel for “directed evolution” of new versions; “bio” detergents use them on stains",
+            "k": ["frances arnold", "directed evolution", "2018", "detergents"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Catalyst, helper, or target?",
+        "body": "Enzymes are biological catalysts, so “catalysts” is close but earns only a prompt: say the more specific word. Players also mix up the enzyme with the molecule it works on (the substrate) and with its helpers (cofactors and vitamin-based coenzymes). Not every enzyme is a protein, since RNA ribozymes do the same job, which is why “proteins” is only a prompt too.",
+        "fix": "If the question asks for “these biological catalysts” or “these proteins whose names end in -ase,” or mentions active sites and activation energy, say enzymes. If it asks for the thing that fits into the active site, that is the substrate.",
+        "line": "Real answer line: <b><u>Enzymes</u></b> (accept <u>enzyme</u>; prompt on <u>catalysts</u> or <u>proteins</u>; do not accept “coenzymes” or “substrates”)"
+    },
+    "tests": {
+        "right": [
+            "Enzymes",
+            "enzyme",
+            "Enzimes",
+            "Digestive enzymes",
+            "Enzyme molecules"
+        ],
+        "prompt": [
+            "Catalysts",
+            "Proteins"
+        ],
+        "wrong": [
+            "Coenzymes",
+            "Substrates",
+            "Hormones",
+            "Ribozymes",
+            "Cofactors",
+            "Catalase"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

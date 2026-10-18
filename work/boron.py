@@ -1,0 +1,348 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "boron",
+    "name": "Boron",
+    "mono": "B",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Element 5 · The metalloid behind borax, slime, and heat-resistant glass",
+    "dates": "Isolated 1808",
+    "briefing": "Boron is element number five, a hard, dark metalloid that is never found pure in nature. Its best-known mineral, borax, is used in laundry boosters and is the secret ingredient that turns white glue into stretchy homemade slime. Boron also helps make the heat-resistant glass used in lab beakers, and it keeps nuclear reactors under control by soaking up stray neutrons.",
+    "answerHtml": "<b><u>Boron</u></b> (accept <u>B</u>)",
+    "accept": [
+        "boron",
+        "b"
+    ],
+    "prompt": [],
+    "reject": [
+        "borax",
+        "boric acid",
+        "boric",
+        "borate",
+        "borates",
+        "borane",
+        "boranes",
+        "diborane",
+        "boride",
+        "boron nitride",
+        "boron carbide",
+        "boron trifluoride",
+        "boron fiber",
+        "borosilicate",
+        "borosilicate glass",
+        "boson",
+        "bosons",
+        "baron",
+        "bromine",
+        "barium",
+        "beryllium",
+        "carbon",
+        "aluminum",
+        "aluminium",
+        "silicon",
+        "bismuth",
+        "lithium",
+        "nitrogen"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Boron",
+    "qb": {
+        "q": "boron",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "William Lipscomb won the 1976 Nobel Prize in Chemistry for explaining how compounds of this element and hydrogen are held together by three-center, two-electron bonds. In the simplest of those compounds, two hydrogen atoms form bridges between two atoms of this element.",
+            "r": "For 10 points, name this element with atomic number 5, found in the mineral borax."
+        },
+        {
+            "p": "Herbert C. Brown shared the 1979 Nobel Prize in Chemistry for using compounds of this element in organic reactions, such as a two-step reaction that adds water across a double bond. Akira Suzuki’s coupling reaction joins carbon atoms using organic compounds of this element and palladium.",
+            "r": "This element’s best-known mineral is borax. For 10 points, name this metalloid with atomic number 5."
+        },
+        {
+            "p": "This element is made mostly when cosmic rays smash larger atomic nuclei in space, rather than by fusion inside stars, which helps explain why it is rare in the universe. Its two stable isotopes have mass numbers 10 and 11.",
+            "r": "For 10 points, name this element, the lightest in group 13, which sits just left of carbon on the periodic table."
+        },
+        {
+            "p": "This element’s isotope with mass number 10 absorbs neutrons so well that the element is used in control rods and dissolved in the cooling water of some nuclear reactors to keep the chain reaction in check.",
+            "r": "This element’s carbide is one of the hardest materials known and is used in armor. For 10 points, name this element with atomic number 5."
+        },
+        {
+            "p": "Adding a tiny amount of this element to silicon creates “holes” and makes a p-type semiconductor, because each of its atoms has one fewer valence electron than a silicon atom. It is the only metalloid in group 13.",
+            "r": "For 10 points, name this element, whose mineral borax is used in laundry products and homemade slime."
+        },
+        {
+            "p": "This element’s trifluoride is a classic Lewis acid: its central atom has only six electrons around it, so it eagerly accepts a pair of electrons from ammonia. That flat, triangular molecule is a famous exception to the octet rule.",
+            "r": "For 10 points, name this element with three valence electrons, the first member of group 13."
+        },
+        {
+            "p": "The strongest permanent magnets, used in headphones and electric car motors, are made of neodymium, iron, and this element. This element is also a micronutrient that plants need to build strong cell walls.",
+            "r": "This element is a metalloid at the top of group 13. For 10 points, name this element with atomic number 5, found in borax."
+        },
+        {
+            "p": "In the 1880s, teams of twenty mules hauled wagons full of a mineral of this element out of Death Valley, California. One of the world’s largest mines for that mineral is near a California town named after this element.",
+            "r": "That mineral, borax, is used in cleaning products. For 10 points, name this metalloid with atomic number 5."
+        },
+        {
+            "p": "The mineral ulexite [“YOO-lek-site”], a source of this element, is nicknamed “TV rock” because its bundled fibers carry an image from one side of the stone to the other. Turkey holds most of the world’s reserves of this element’s minerals.",
+            "r": "This metalloid has atomic number 5. For 10 points, name this element found in borax and boric acid."
+        },
+        {
+            "p": "Ions containing this element and oxygen link the long molecules in white glue together, turning the glue into stretchy homemade slime. An acid of this element mixed with silicone oil produced the bouncy toy Silly Putty.",
+            "r": "This element has atomic number 5. For 10 points, name this element found in the cleaning powder borax."
+        },
+        {
+            "p": "Compounds of this element give a bright green color to flames; for example, a solution of its acid in methanol burns green. That acid is also a mild antiseptic and a common insect killer used against cockroaches.",
+            "r": "That acid is boric acid. For 10 points, name this metalloid with atomic number 5."
+        },
+        {
+            "p": "In 1808, Humphry Davy in London and the team of Joseph Louis Gay-Lussac and Louis Jacques Thénard [“tay-NAR”] in Paris separately isolated this element from its acid. It sits between beryllium and carbon in the second row of the periodic table.",
+            "r": "This element’s name comes from the mineral borax. For 10 points, name this element with atomic number 5."
+        },
+        {
+            "p": "Pure forms of this element are built from clusters of twelve atoms arranged in a 20-sided shape called an icosahedron [“eye-koh-suh-HEE-drun”]. This element’s nitride can form a soft, slippery solid nicknamed “white graphite” or a cubic form nearly as hard as diamond.",
+            "r": "Slime recipes often use borax, a mineral of this element. For 10 points, name this metalloid, the first element in group 13."
+        },
+        {
+            "p": "Otto Schott developed a heat-resistant glass containing this element in the 1890s, and that kind of glass is used for lab beakers because it barely expands when heated. Strong, light fibers of this element are used to stiffen aircraft parts and some sports gear.",
+            "r": "This element is never found pure in nature. For 10 points, name this metalloid with atomic number 5, found in borax."
+        },
+        {
+            "p": "Kernite, a mineral named for Kern County, California, is a major ore of this element. This element’s ground-state electron configuration is 1s² 2s² 2p¹, and its average atomic mass is about 10.8.",
+            "r": "Like aluminum below it, this element has three valence electrons. For 10 points, name this element with atomic number 5."
+        }
+    ],
+    "clues": [
+        {
+            "id": "element-5",
+            "tier": "giveaway",
+            "t": "Element number 5: five protons and three valence electrons",
+            "k": ["element number 5", "five protons", "three valence"],
+            "n": 0
+        },
+        {
+            "id": "borax",
+            "tier": "giveaway",
+            "t": "Found in the mineral borax, used in laundry and cleaning products; its name comes from borax",
+            "k": ["borax", "laundry"],
+            "n": 0
+        },
+        {
+            "id": "metalloid",
+            "tier": "giveaway",
+            "t": "A metalloid at the top of group 13, between beryllium and carbon",
+            "k": ["metalloid", "group 13", "beryllium"],
+            "n": 0
+        },
+        {
+            "id": "slime",
+            "tier": "giveaway",
+            "t": "Borax and white glue make homemade slime, because ions containing this element link the glue’s long molecules",
+            "k": ["slime", "white glue"],
+            "n": 0
+        },
+        {
+            "id": "boric-acid",
+            "tier": "giveaway",
+            "t": "Boric acid is a mild antiseptic and a cockroach killer",
+            "k": ["boric acid", "antiseptic", "cockroach"],
+            "n": 0
+        },
+        {
+            "id": "glass",
+            "tier": "middle",
+            "t": "Heat-resistant borosilicate glass, used for lab beakers, barely expands when heated",
+            "k": ["borosilicate", "heat-resistant", "beakers"],
+            "n": 0
+        },
+        {
+            "id": "neutrons",
+            "tier": "middle",
+            "t": "Absorbs neutrons, so it is used in nuclear reactor control rods and cooling water",
+            "k": ["neutrons", "control rods"],
+            "n": 0
+        },
+        {
+            "id": "p-type",
+            "tier": "middle",
+            "t": "Adding it to silicon makes a p-type semiconductor full of “holes”",
+            "k": ["p-type", "semiconductor", "holes"],
+            "n": 0,
+            "rabbit": "Semiconductors"
+        },
+        {
+            "id": "magnets",
+            "tier": "middle",
+            "t": "Neodymium magnets, the strongest permanent magnets, contain neodymium, iron, and this element",
+            "k": ["neodymium", "permanent magnets"],
+            "n": 0
+        },
+        {
+            "id": "green-flame",
+            "tier": "middle",
+            "t": "Its compounds color flames bright green",
+            "k": ["green", "flames"],
+            "n": 0,
+            "rabbit": "Flame test"
+        },
+        {
+            "id": "carbide",
+            "tier": "middle",
+            "t": "Its carbide is one of the hardest known materials and is used in armor",
+            "k": ["carbide", "hardest", "armor"],
+            "n": 0
+        },
+        {
+            "id": "isolated",
+            "tier": "middle",
+            "t": "Isolated in 1808 by Humphry Davy and, separately, by Gay-Lussac and Thénard",
+            "k": ["1808", "humphry davy", "gay-lussac", "thénard"],
+            "n": 0
+        },
+        {
+            "id": "death-valley",
+            "tier": "middle",
+            "t": "Twenty-mule teams hauled borax out of Death Valley in the 1880s",
+            "k": ["twenty-mule", "death valley", "1880s"],
+            "n": 0
+        },
+        {
+            "id": "california-town",
+            "tier": "middle",
+            "t": "One of the world’s largest borax mines is near a California town named after this element",
+            "k": ["california", "largest borax mines"],
+            "n": 0
+        },
+        {
+            "id": "plants",
+            "tier": "middle",
+            "t": "Plants need it as a micronutrient to build their cell walls",
+            "k": ["micronutrient", "cell walls"],
+            "n": 0
+        },
+        {
+            "id": "lipscomb",
+            "tier": "power",
+            "t": "William Lipscomb won the 1976 Nobel Prize for explaining three-center, two-electron bonds in its hydrogen compounds, where hydrogen atoms bridge two of its atoms",
+            "k": ["lipscomb", "three-center", "1976"],
+            "n": 0
+        },
+        {
+            "id": "brown",
+            "tier": "power",
+            "t": "Herbert C. Brown shared the 1979 Nobel Prize for using its compounds in organic reactions, like adding water across a double bond",
+            "k": ["herbert c. brown", "1979", "double bond"],
+            "n": 0
+        },
+        {
+            "id": "suzuki",
+            "tier": "power",
+            "t": "Akira Suzuki’s coupling reaction joins carbon atoms using its organic compounds and palladium",
+            "k": ["suzuki", "palladium", "coupling"],
+            "n": 0
+        },
+        {
+            "id": "cosmic-rays",
+            "tier": "power",
+            "t": "Made mostly when cosmic rays smash larger nuclei, not by fusion in stars, so it is rare in the universe",
+            "k": ["cosmic rays", "rare"],
+            "n": 0
+        },
+        {
+            "id": "isotopes",
+            "tier": "power",
+            "t": "Its two stable isotopes have mass numbers 10 and 11; its average atomic mass is about 10.8",
+            "k": ["10.8", "isotopes", "10 and 11"],
+            "n": 0
+        },
+        {
+            "id": "lewis-acid",
+            "tier": "power",
+            "t": "Its trifluoride is a flat, triangular Lewis acid with only six electrons around the central atom, an exception to the octet rule",
+            "k": ["lewis acid", "trifluoride", "octet"],
+            "n": 0
+        },
+        {
+            "id": "icosahedra",
+            "tier": "power",
+            "t": "Its pure forms are built from 12-atom clusters shaped like icosahedra (20-sided shapes)",
+            "k": ["icosahedra", "12-atom", "20-sided"],
+            "n": 0
+        },
+        {
+            "id": "nitride",
+            "tier": "power",
+            "t": "Its nitride forms slippery “white graphite” and a cubic form nearly as hard as diamond",
+            "k": ["nitride", "white graphite"],
+            "n": 0
+        },
+        {
+            "id": "ulexite",
+            "tier": "power",
+            "t": "Ulexite, “TV rock,” carries images through its fibers; Turkey holds most of the reserves of its minerals",
+            "k": ["ulexite", "tv rock", "turkey"],
+            "n": 0
+        },
+        {
+            "id": "schott",
+            "tier": "power",
+            "t": "Otto Schott developed the heat-resistant glass in the 1890s; its fibers stiffen aircraft parts and sports gear",
+            "k": ["otto schott", "1890s", "fibers"],
+            "n": 0
+        },
+        {
+            "id": "silly-putty",
+            "tier": "power",
+            "t": "Silly Putty was made by mixing an acid of this element with silicone oil",
+            "k": ["silly putty", "silicone oil"],
+            "n": 0
+        },
+        {
+            "id": "kernite",
+            "tier": "power",
+            "t": "Kernite, a major ore, is named for Kern County, California; its electron configuration ends in 2p¹",
+            "k": ["kernite", "kern county"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Element, not borax",
+        "body": "Many clues about this element are really about its compounds: borax in slime and laundry boosters, boric acid as a cockroach killer, and the twenty-mule teams of Death Valley. Players who blurt “borax” or “boric acid” lose the points, because the question wants the element. Look-alike names are traps too: bromine, barium, and beryllium all start with B, and so does boson, a word from physics.",
+        "fix": "Atomic number 5, group 13, three valence electrons, “metalloid,” and neutron-absorbing control rods all mean boron (symbol B). Bromine is Br, barium is Ba, and beryllium is Be.",
+        "line": "Real answer line: <b><u>Boron</u></b> (accept <u>B</u>)"
+    },
+    "tests": {
+        "right": [
+            "Boron",
+            "B",
+            "Borron",
+            "elemental boron",
+            "boron-10"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Borax",
+            "Boric acid",
+            "Boson",
+            "Carbon",
+            "Aluminum",
+            "Boron nitride",
+            "Bromine"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

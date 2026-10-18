@@ -1,0 +1,350 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "louis-pasteur",
+    "name": "Louis Pasteur",
+    "mono": "LP",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "French chemist and microbiologist · Pasteurization and the rabies vaccine",
+    "dates": "1822–1895",
+    "briefing": "Louis Pasteur was a French chemist who helped prove that tiny living microbes make food spoil and spread many diseases. A gentle heating method named for him, pasteurization, is still used to keep milk safe, and his lab created vaccines against anthrax and rabies. In 1885 his rabies shots saved a nine-year-old boy who had been bitten by a rabid dog, even though Pasteur was not a medical doctor.",
+    "answerHtml": "Louis <b><u>Pasteur</u></b>",
+    "accept": [
+        "louis pasteur",
+        "pasteur",
+        "pastuer"
+    ],
+    "prompt": [],
+    "reject": [
+        "pasteurization",
+        "pasteurisation",
+        "pasteurized",
+        "pasteur institute",
+        "institut pasteur",
+        "pasteurella",
+        "robert koch",
+        "koch",
+        "joseph lister",
+        "lister",
+        "edward jenner",
+        "jenner",
+        "alexander fleming",
+        "fleming",
+        "jonas salk",
+        "salk",
+        "antonie van leeuwenhoek",
+        "leeuwenhoek",
+        "ignaz semmelweis",
+        "semmelweis",
+        "felix pouchet",
+        "pouchet",
+        "emile roux",
+        "roux",
+        "charles chamberland",
+        "chamberland",
+        "joseph meister",
+        "meister",
+        "justus von liebig",
+        "liebig"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+    "qb": {
+        "q": "Louis Pasteur",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "As a young chemist, this man used tweezers to separate tiny mirror-image crystals of a tartaric acid salt, and he found that solutions of the two kinds twisted polarized light in opposite directions. That work showed that molecules can be left- or right-handed.",
+            "r": "For 10 points, name this French scientist who later made a rabies vaccine and has a milk-heating process named for him."
+        },
+        {
+            "p": "While serving as dean of the science faculty at Lille, this scientist declared that “chance favors only the prepared mind.” Later, a local businessman asked him why the alcohol he made from beet juice kept turning sour, which led him to study fermentation.",
+            "r": "For 10 points, name this French scientist who showed that microbes cause fermentation and developed a rabies vaccine."
+        },
+        {
+            "p": "This scientist won a famous argument with Félix Pouchet [“poo-SHAY”] by boiling broth in flasks with long, curved necks that let air in but trapped dust and microbes. The broth stayed clear unless a flask’s neck was broken off, disproving the idea of spontaneous generation.",
+            "r": "A process named for him heats milk to kill germs. For 10 points, name this French scientist who also made vaccines against anthrax and rabies."
+        },
+        {
+            "p": "This scientist argued against Justus von Liebig [“LEE-big”], who believed fermentation was a purely chemical process. He showed instead that living yeast turns sugar into alcohol, and that other microbes can sour wine and beer. His book _Studies on Wine_ explained how to keep those microbes from spoiling wine.",
+            "r": "For 10 points, name this French scientist whose name is attached to a heating process that keeps milk safe."
+        },
+        {
+            "p": "An effect named for this scientist describes how oxygen slows down fermentation by yeast. Studying a fermentation that makes butyric [“byoo-TEER-ik”] acid, he found microbes that could live without any oxygen at all and were even harmed by it.",
+            "r": "He also developed a rabies vaccine. For 10 points, name this French scientist who disproved spontaneous generation with swan-neck flasks."
+        },
+        {
+            "p": "From 1865 to 1870, this scientist helped save France’s silk industry by finding ways to stop silkworm diseases, including one called pébrine [“pay-BREEN”]. He had farmers check moths under a microscope and keep only the eggs of healthy ones.",
+            "r": "A method of heating milk is named after him. For 10 points, name this French scientist who created the first rabies vaccine."
+        },
+        {
+            "p": "After a summer break, this scientist’s team injected chickens with an old culture of chicken cholera bacteria, and the birds survived. Those weakened bacteria then protected the chickens against fresh, deadly bacteria, showing that weakened germs could be used as vaccines.",
+            "r": "He also disproved spontaneous generation. For 10 points, name this French scientist who later made a rabies vaccine."
+        },
+        {
+            "p": "In 1881 at Pouilly-le-Fort [“poo-YEE luh FOR”], this scientist vaccinated about half of a flock of sheep against anthrax and then exposed the whole flock to the disease. The vaccinated sheep survived, while the unvaccinated ones died, in a public test that made him famous.",
+            "r": "A heating process for milk is named for him. For 10 points, name this French scientist who also developed a rabies vaccine."
+        },
+        {
+            "p": "This scientist and Émile Roux [“ROO”] weakened a deadly germ by drying pieces of spinal cord from infected rabbits. In 1885, a series of shots made this way saved nine-year-old Joseph Meister, who had been bitten by a rabid dog.",
+            "r": "He was a chemist, not a medical doctor. For 10 points, name this French scientist who made the first rabies vaccine."
+        },
+        {
+            "p": "This scientist suggested that all treatments using weakened germs be called “vaccines,” to honor Edward Jenner’s use of cowpox, since the Latin word for cow is vacca. His own team made vaccines against chicken cholera and anthrax.",
+            "r": "For 10 points, name this French scientist who made the first rabies vaccine and disproved spontaneous generation."
+        },
+        {
+            "p": "A stroke in 1868 left this scientist partly paralyzed on his left side, but he kept working for many more years, relying on assistants such as Charles Chamberland [“shahm-ber-LAHN”] for lab work. He was in the middle of studying silkworm diseases when the stroke hit.",
+            "r": "A milk-heating process is named for him. For 10 points, name this French scientist who developed vaccines for anthrax and rabies."
+        },
+        {
+            "p": "Born in Dole in 1822 and raised in Arbois [“ar-BWAH”], this son of a tanner made skilled pastel portraits of his parents and neighbors as a teenager. He went on to study chemistry at the École Normale Supérieure [“ay-KOHL nor-MAHL soo-pay-RYUR”] in Paris.",
+            "r": "For 10 points, name this French scientist who disproved spontaneous generation and made a rabies vaccine."
+        },
+        {
+            "p": "This scientist is buried in a decorated crypt beneath the Paris research institute named for him, which opened in 1888. Joseph Meister, the boy whose life this scientist saved, later worked at that institute as a caretaker.",
+            "r": "He also showed that microbes cause fermentation. For 10 points, name this French scientist who made the first rabies vaccine."
+        },
+        {
+            "p": "Joseph Lister began using carbolic acid to clean wounds after reading this scientist’s work on microbes, and he later wrote to thank him. This scientist had a bitter rivalry with the German scientist Robert Koch.",
+            "r": "For 10 points, name this French chemist who helped prove the germ theory of disease and made a rabies vaccine."
+        },
+        {
+            "p": "This scientist showed that gently heating wine kills the microbes that make it spoil, a process named for him that was later used on milk and juice. He also disproved spontaneous generation using flasks with curved necks.",
+            "r": "He also helped prove the germ theory of disease. For 10 points, name this French scientist who created the first rabies vaccine."
+        }
+    ],
+    "clues": [
+        {
+            "id": "french-scientist",
+            "tier": "giveaway",
+            "t": "French chemist and microbiologist who helped prove the germ theory of disease",
+            "k": ["french", "germ theory", "microbiologist"],
+            "n": 0
+        },
+        {
+            "id": "heating-process",
+            "tier": "giveaway",
+            "t": "A gentle heating process that kills microbes in wine, milk, and juice is named for him",
+            "k": ["heating process", "named for him", "milk"],
+            "n": 0
+        },
+        {
+            "id": "rabies",
+            "tier": "giveaway",
+            "t": "Made the first rabies vaccine; in 1885 it saved Joseph Meister, a boy bitten by a rabid dog",
+            "k": ["rabies", "joseph meister", "1885"],
+            "n": 0
+        },
+        {
+            "id": "swan-neck",
+            "tier": "giveaway",
+            "t": "Disproved spontaneous generation using swan-neck flasks",
+            "k": ["spontaneous generation", "swan-neck"],
+            "n": 0
+        },
+        {
+            "id": "curved-necks",
+            "tier": "middle",
+            "t": "The flasks’ long, curved necks let air in but trapped dust and microbes, so the boiled broth stayed clear",
+            "k": ["curved", "broth", "dust"],
+            "n": 0
+        },
+        {
+            "id": "fermentation",
+            "tier": "middle",
+            "t": "Showed that fermentation is caused by living yeast and other microbes, not just chemistry",
+            "k": ["fermentation", "yeast"],
+            "n": 0,
+            "rabbit": "Yeast"
+        },
+        {
+            "id": "chirality",
+            "tier": "middle",
+            "t": "As a young chemist, separated mirror-image crystals of a tartaric acid salt by hand; their solutions twisted polarized light in opposite directions",
+            "k": ["tartaric acid", "mirror-image", "polarized light"],
+            "n": 0
+        },
+        {
+            "id": "chicken-cholera",
+            "tier": "middle",
+            "t": "An old, weakened culture of chicken cholera bacteria protected chickens, showing that weakened germs can work as vaccines",
+            "k": ["chicken cholera", "weakened"],
+            "n": 0
+        },
+        {
+            "id": "anthrax",
+            "tier": "middle",
+            "t": "Publicly tested an anthrax vaccine on sheep at Pouilly-le-Fort in 1881",
+            "k": ["anthrax", "pouilly-le-fort", "sheep", "1881"],
+            "n": 0
+        },
+        {
+            "id": "institute",
+            "tier": "middle",
+            "t": "A research institute named for him opened in Paris in 1888; he is buried in a crypt there",
+            "k": ["institute", "paris", "1888", "crypt"],
+            "n": 0
+        },
+        {
+            "id": "silkworms",
+            "tier": "middle",
+            "t": "Saved France’s silk industry (1865–1870) by fighting silkworm diseases such as pébrine",
+            "k": ["silkworm", "pébrine", "silk"],
+            "n": 0
+        },
+        {
+            "id": "koch",
+            "tier": "middle",
+            "t": "Had a bitter rivalry with the German scientist Robert Koch",
+            "k": ["robert koch", "rivalry"],
+            "n": 0,
+            "rabbit": "Robert Koch"
+        },
+        {
+            "id": "lister",
+            "tier": "middle",
+            "t": "Joseph Lister used his ideas about microbes to develop antiseptic surgery with carbolic acid",
+            "k": ["lister", "antiseptic", "carbolic acid"],
+            "n": 0,
+            "rabbit": "Joseph Lister"
+        },
+        {
+            "id": "prepared-mind",
+            "tier": "power",
+            "t": "Said that “chance favors only the prepared mind”",
+            "k": ["chance favors", "prepared mind"],
+            "n": 0
+        },
+        {
+            "id": "lille-beets",
+            "tier": "power",
+            "t": "As dean of science at Lille, studied why alcohol made from beet juice kept turning sour",
+            "k": ["lille", "beet juice"],
+            "n": 0
+        },
+        {
+            "id": "pouchet",
+            "tier": "power",
+            "t": "Won his spontaneous generation debate against Félix Pouchet",
+            "k": ["pouchet", "debate"],
+            "n": 0
+        },
+        {
+            "id": "liebig",
+            "tier": "power",
+            "t": "Argued against Justus von Liebig, who thought fermentation was purely chemical",
+            "k": ["liebig", "purely chemical"],
+            "n": 0
+        },
+        {
+            "id": "oxygen-effect",
+            "tier": "power",
+            "t": "An effect named for him describes how oxygen slows down fermentation by yeast",
+            "k": ["oxygen", "slows down", "effect"],
+            "n": 0
+        },
+        {
+            "id": "without-oxygen",
+            "tier": "power",
+            "t": "Studying butyric acid fermentation, found microbes that live without oxygen and are even harmed by it",
+            "k": ["butyric", "without oxygen"],
+            "n": 0
+        },
+        {
+            "id": "studies-on-wine",
+            "tier": "power",
+            "t": "Described the diseases of wine and how to prevent them in his book _Studies on Wine_",
+            "k": ["studies on wine", "book"],
+            "n": 0
+        },
+        {
+            "id": "roux-chamberland",
+            "tier": "power",
+            "t": "Assistants Émile Roux and Charles Chamberland helped develop his vaccines",
+            "k": ["roux", "chamberland"],
+            "n": 0
+        },
+        {
+            "id": "spinal-cord",
+            "tier": "power",
+            "t": "Weakened the rabies germ by drying pieces of spinal cord from infected rabbits",
+            "k": ["spinal cord", "rabbits", "drying"],
+            "n": 0
+        },
+        {
+            "id": "jenner-vaccine",
+            "tier": "power",
+            "t": "Proposed calling all weakened-germ treatments “vaccines” to honor Edward Jenner’s cowpox work (Latin vacca, “cow”)",
+            "k": ["edward jenner", "cowpox", "vacca"],
+            "n": 0
+        },
+        {
+            "id": "stroke",
+            "tier": "power",
+            "t": "A stroke in 1868 left him partly paralyzed on his left side, but he kept working",
+            "k": ["stroke", "1868", "paralyzed"],
+            "n": 0
+        },
+        {
+            "id": "dole-arbois",
+            "tier": "power",
+            "t": "Born in Dole in 1822 and raised in Arbois, the son of a tanner; drew skilled pastel portraits as a teenager",
+            "k": ["dole", "arbois", "tanner", "pastel"],
+            "n": 0
+        },
+        {
+            "id": "ecole-normale",
+            "tier": "power",
+            "t": "Studied chemistry at the École Normale Supérieure in Paris",
+            "k": ["école normale", "supérieure"],
+            "n": 0
+        },
+        {
+            "id": "meister-caretaker",
+            "tier": "power",
+            "t": "Joseph Meister, the boy his rabies shots saved, later worked as a caretaker at the institute named for him",
+            "k": ["caretaker", "joseph meister"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Pasteur, Koch, or Lister?",
+        "body": "Several scientists built the germ theory of disease, and their clues blur together. Robert Koch, a German doctor, proved that specific bacteria cause anthrax, tuberculosis, and cholera, and wrote Koch’s postulates, so anthrax shows up in both men’s clues. Joseph Lister, a British surgeon, used carbolic acid to keep wounds clean after reading Pasteur’s work, and Edward Jenner made the first vaccine, against smallpox, in 1796.",
+        "fix": "Pasteur clues are about chemistry and France: mirror-image crystals, fermentation, swan-neck flasks, a heating process named for him, and the rabies vaccine. Postulates, tuberculosis, and Germany mean Koch; surgery and carbolic acid mean Lister; cowpox and smallpox mean Jenner.",
+        "line": "Real answer line: Louis <b><u>Pasteur</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Louis Pasteur",
+            "Pasteur",
+            "Louis Pastuer",
+            "Pastur"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Robert Koch",
+            "Joseph Lister",
+            "Edward Jenner",
+            "Pasteurization",
+            "Alexander Fleming",
+            "Pasteur Institute"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

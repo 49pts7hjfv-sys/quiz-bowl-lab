@@ -1,0 +1,392 @@
+{
+  "id": "nuclear-fusion",
+  "name": "Nuclear fusion",
+  "mono": "FUS",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Light nuclei joining into heavier ones · The power source of the stars",
+  "dates": "Proposed as the Sun’s power source, 1920",
+  "briefing": "Nuclear fusion happens when two light atomic nuclei slam together so hard that they merge into a heavier one, turning a little of their mass into a lot of energy. It powers the Sun, which joins hydrogen nuclei into helium in a core heated to about 15 million degrees. Scientists around the world are trying to build fusion reactors that could one day make electricity from fuel found in seawater.",
+  "answerHtml": "nuclear <b><u>fusion</u></b> (prompt on <u>nuclear reaction</u>; do not accept “fission”)",
+  "accept": [
+    "nuclear fusion",
+    "fusion",
+    "thermonuclear fusion",
+    "fusion reaction",
+    "fusion reactions",
+    "nuclear fusion reaction",
+    "hydrogen fusion"
+  ],
+  "prompt": [
+    "nuclear reaction",
+    "nuclear reactions",
+    "thermonuclear reaction",
+    "thermonuclear reactions",
+    "nucleosynthesis",
+    "stellar nucleosynthesis"
+  ],
+  "reject": [
+    "nuclear fission",
+    "fission",
+    "radioactive decay",
+    "radioactivity",
+    "nuclear decay",
+    "chain reaction",
+    "nuclear energy",
+    "nuclear power",
+    "nuclear reactor",
+    "hydrogen bomb",
+    "plasma"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Nuclear_fusion",
+  "qb": {
+    "q": "fusion",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1920, Arthur Eddington proposed that this process powers the stars, using Francis Aston’s measurements showing that a helium atom weighs slightly less than four hydrogen atoms. That missing mass is turned into energy according to E equals m c squared.",
+      "r": "For 10 points, name this process in which light atomic nuclei join to form a heavier nucleus, as in the core of the Sun."
+    },
+    {
+      "p": "Hans Bethe [“BAY-tuh”] won the 1967 Nobel Prize for explaining how stars make energy, including a cycle in which carbon, nitrogen, and oxygen nuclei act as catalysts. That CNO cycle and the proton-proton chain are two ways stars carry out this process.",
+      "r": "For 10 points, name this process in which hydrogen nuclei combine to form helium, releasing the energy that makes stars shine."
+    },
+    {
+      "p": "Fred Hoyle predicted that carbon-12 must have a special excited energy state, or the triple-alpha process could never produce enough carbon. In that process, which happens in red giant stars, three helium-4 nuclei join to form one carbon nucleus.",
+      "r": "For 10 points, name this type of nuclear reaction that powers the Sun, in which small nuclei combine into a larger one."
+    },
+    {
+      "p": "John Lawson worked out a condition for this process to produce more energy than it uses, based on the product of a plasma’s density, its temperature, and how long its energy stays trapped. Reactors for this process often use deuterium and tritium, two heavy forms of hydrogen.",
+      "r": "For 10 points, name this process that powers the Sun, in which light nuclei combine, the opposite of nuclear fission."
+    },
+    {
+      "p": "Igor Tamm and Andrei Sakharov [“SAH-kuh-rawf”] designed the tokamak, a doughnut-shaped machine that uses powerful magnets to hold a plasma heated to over 100 million degrees for this process. Physicists hope such machines will one day generate electricity from this process.",
+      "r": "For 10 points, name this process, the energy source of the Sun, in which light nuclei combine."
+    },
+    {
+      "p": "Lyman Spitzer invented the stellarator, a twisted ring-shaped machine for this process, in 1951; Germany’s giant Wendelstein [“VEN-dul-shtine”] 7-X is one of them. Like a tokamak, it uses magnetic fields to hold a plasma away from the walls of its chamber.",
+      "r": "For 10 points, name this process in which hydrogen nuclei combine to form helium inside stars."
+    },
+    {
+      "p": "In December 2022, the National Ignition Facility in California fired 192 lasers at a tiny fuel pellet and, for the first time, got more energy out of this process than the lasers put in. That approach is called inertial confinement.",
+      "r": "For 10 points, name this process that powers the stars, in which light nuclei combine into heavier ones."
+    },
+    {
+      "p": "More than 30 countries, including the United States, China, Japan, and members of the European Union, are building a giant experimental reactor for this process at Cadarache [“kah-dah-RASH”] in southern France. That reactor, a tokamak, is called ITER, which means “the way” in Latin.",
+      "r": "For 10 points, name this process that powers the Sun, in which light nuclei join."
+    },
+    {
+      "p": "Future reactors for this process may make their own tritium fuel by hitting lithium with neutrons in a “breeding blanket.” The easiest version of this process to achieve on Earth joins deuterium and tritium, producing a helium-4 nucleus and a fast neutron.",
+      "r": "For 10 points, name this process that powers the Sun, the opposite of splitting heavy nuclei in fission."
+    },
+    {
+      "p": "Quantum tunneling lets protons in the Sun’s core slip past the strong electric repulsion between them, called the Coulomb barrier, so that they can undergo this process at about 15 million kelvins.",
+      "r": "In the Sun, it mostly follows the proton-proton chain. For 10 points, name this process in which hydrogen nuclei combine into helium."
+    },
+    {
+      "p": "Brown dwarfs are too small to keep up the hydrogen version of this process in their cores, though many can briefly carry it out with deuterium. A star joins the main sequence once this process begins turning hydrogen into helium in its core.",
+      "r": "For 10 points, name this process that makes stars shine, in which light nuclei combine."
+    },
+    {
+      "p": "Ray Davis used a giant tank of cleaning fluid deep in a South Dakota mine to catch neutrinos made by this process in the Sun, but he found only about a third as many as expected. That “solar neutrino problem” was solved when physicists learned that neutrinos change type.",
+      "r": "For 10 points, name this process in which hydrogen nuclei combine into helium in the Sun’s core."
+    },
+    {
+      "p": "This process gives off energy only when it builds nuclei up to about the size of iron, since iron and nickel have the most tightly bound nuclei. A dying massive star that builds up an iron core can no longer make energy by this process, and the core collapses.",
+      "r": "For 10 points, name this process, the opposite of fission, that powers stars by joining light nuclei together."
+    },
+    {
+      "p": "Working with Ernest Rutherford in the 1930s, Mark Oliphant carried out this process in a laboratory by smashing deuterium nuclei together, discovering helium-3 and tritium along the way. Through this process, the Sun turns about 4 million tons of its mass into energy every second.",
+      "r": "For 10 points, name this process in which light nuclei combine, releasing the energy that powers stars."
+    },
+    {
+      "p": "The Teller–Ulam design used an atomic bomb to set off this process in a much more powerful weapon, first tested as “Ivy Mike” at Enewetak Atoll in 1952. That weapon is often called the hydrogen bomb.",
+      "r": "For 10 points, name this process in which light nuclei join into a heavier nucleus, the reverse of fission."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Light atomic nuclei combine into a heavier nucleus, releasing energy",
+      "k": [
+        "light",
+        "heavier nucleus",
+        "combine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sun",
+      "tier": "giveaway",
+      "t": "Powers the Sun and other stars, which turn hydrogen into helium",
+      "k": [
+        "sun",
+        "stars",
+        "hydrogen into helium"
+      ],
+      "n": 0,
+      "rabbit": "The Sun"
+    },
+    {
+      "id": "vs-fission",
+      "tier": "giveaway",
+      "t": "The opposite of fission, which splits heavy nuclei such as uranium",
+      "k": [
+        "fission",
+        "splits",
+        "uranium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mass-energy",
+      "tier": "giveaway",
+      "t": "A little mass turns into a lot of energy, following E = mc²",
+      "k": [
+        "mass",
+        "energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tokamak",
+      "tier": "middle",
+      "t": "Tokamaks: doughnut-shaped machines that hold superhot plasma with magnets (designed by Igor Tamm and Andrei Sakharov)",
+      "k": [
+        "tokamaks",
+        "doughnut-shaped",
+        "magnets"
+      ],
+      "n": 0,
+      "rabbit": "Plasma (physics)"
+    },
+    {
+      "id": "iter",
+      "tier": "middle",
+      "t": "ITER (Latin for “the way”): a giant experimental reactor being built at Cadarache in southern France",
+      "k": [
+        "iter",
+        "cadarache",
+        "france"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nif",
+      "tier": "middle",
+      "t": "December 2022: the National Ignition Facility’s 192 lasers got more energy out of a fuel pellet than they put in",
+      "k": [
+        "national ignition facility",
+        "192 lasers",
+        "2022"
+      ],
+      "n": 0
+    },
+    {
+      "id": "d-t",
+      "tier": "middle",
+      "t": "Easiest version on Earth: deuterium + tritium make helium-4 and a fast neutron",
+      "k": [
+        "deuterium",
+        "tritium",
+        "neutron"
+      ],
+      "n": 0
+    },
+    {
+      "id": "proton-proton",
+      "tier": "middle",
+      "t": "In the Sun it mostly follows the proton-proton chain, in a core at about 15 million kelvins",
+      "k": [
+        "proton-proton chain",
+        "15 million"
+      ],
+      "n": 0
+    },
+    {
+      "id": "main-sequence",
+      "tier": "middle",
+      "t": "A star joins the main sequence once it starts turning hydrogen into helium in its core",
+      "k": [
+        "main sequence",
+        "core"
+      ],
+      "n": 0,
+      "rabbit": "Main sequence"
+    },
+    {
+      "id": "h-bomb",
+      "tier": "middle",
+      "t": "The hydrogen bomb: the Teller–Ulam design was first tested as Ivy Mike (1952)",
+      "k": [
+        "hydrogen bomb",
+        "teller",
+        "ivy mike"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iron",
+      "tier": "middle",
+      "t": "Releases energy only up to about iron; an iron core makes a massive star collapse",
+      "k": [
+        "iron",
+        "collapse"
+      ],
+      "n": 0,
+      "rabbit": "Supernovae"
+    },
+    {
+      "id": "eddington",
+      "tier": "power",
+      "t": "Arthur Eddington (1920) proposed it powers stars, using Francis Aston’s measurement that helium is lighter than four hydrogens",
+      "k": [
+        "eddington",
+        "aston",
+        "1920"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bethe",
+      "tier": "power",
+      "t": "Hans Bethe won the 1967 Nobel Prize for explaining how stars make energy, including the CNO cycle",
+      "k": [
+        "bethe",
+        "cno cycle",
+        "1967"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hoyle",
+      "tier": "power",
+      "t": "Fred Hoyle predicted an excited state of carbon-12 needed for the triple-alpha process in red giants",
+      "k": [
+        "hoyle",
+        "triple-alpha",
+        "carbon-12"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lawson",
+      "tier": "power",
+      "t": "Lawson criterion: density × temperature × energy-trapping time must be big enough to get out more energy than goes in",
+      "k": [
+        "lawson",
+        "criterion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stellarator",
+      "tier": "power",
+      "t": "Lyman Spitzer invented the twisted, ring-shaped stellarator (1951); Germany’s giant Wendelstein 7-X is one",
+      "k": [
+        "stellarator",
+        "spitzer",
+        "wendelstein"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tunneling",
+      "tier": "power",
+      "t": "Quantum tunneling lets protons slip past the Coulomb barrier in the Sun’s core",
+      "k": [
+        "tunneling",
+        "coulomb barrier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brown-dwarf",
+      "tier": "power",
+      "t": "Brown dwarfs are too small to keep it going with ordinary hydrogen, though many can use deuterium for a while",
+      "k": [
+        "brown dwarfs",
+        "deuterium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "davis",
+      "tier": "power",
+      "t": "Ray Davis’s tank in a South Dakota mine caught only a third of the expected solar neutrinos (the solar neutrino problem)",
+      "k": [
+        "ray davis",
+        "south dakota",
+        "solar neutrino"
+      ],
+      "n": 0,
+      "rabbit": "Neutrinos"
+    },
+    {
+      "id": "oliphant",
+      "tier": "power",
+      "t": "Mark Oliphant, working with Ernest Rutherford, first did it in a lab with deuterium, discovering helium-3 and tritium",
+      "k": [
+        "oliphant",
+        "helium-3",
+        "rutherford"
+      ],
+      "n": 0
+    },
+    {
+      "id": "breeding",
+      "tier": "power",
+      "t": "Future reactors may breed tritium fuel from lithium in a “breeding blanket”",
+      "k": [
+        "breeding blanket",
+        "lithium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-million",
+      "tier": "power",
+      "t": "The Sun turns about 4 million tons of its mass into energy every second",
+      "k": [
+        "4 million tons",
+        "every second"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Fusion, not fission",
+    "body": "Fusion and fission are both nuclear reactions that release huge amounts of energy, and the two words sound alike under buzzer pressure. Fission splits heavy nuclei such as uranium and runs ordinary nuclear power plants; fusion joins light nuclei such as hydrogen and powers the Sun.",
+    "fix": "Think “fusion = join, fission = split.” Stars, hydrogen into helium, tokamaks, ITER, and deuterium-tritium mean fusion. Uranium, plutonium, chain reactions, and Enrico Fermi’s first reactor mean fission.",
+    "line": "Real answer line: nuclear <b><u>fusion</u></b> (prompt on <u>nuclear reaction</u>; do not accept “fission”)"
+  },
+  "tests": {
+    "right": [
+      "Nuclear fusion",
+      "fusion",
+      "Nuclear fuson",
+      "Thermonuclear fusion",
+      "Fusion reaction"
+    ],
+    "prompt": [
+      "Nuclear reaction",
+      "Nucleosynthesis"
+    ],
+    "wrong": [
+      "Nuclear fission",
+      "Fission",
+      "Radioactive decay",
+      "Hydrogen bomb",
+      "Plasma"
+    ]
+  }
+}

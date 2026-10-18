@@ -1,0 +1,410 @@
+{
+  "id": "plasma-physics",
+  "name": "Plasma (physics)",
+  "mono": "PLS",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "The fourth state of matter · Glowing gas of ions and free electrons",
+  "dates": "Named by Irving Langmuir, 1928",
+  "briefing": "Heat a gas enough, or zap it with electricity, and its atoms lose electrons, leaving a glowing soup of free electrons and charged ions called plasma. It is often called the fourth state of matter, after solid, liquid, and gas. Lightning, the glow inside neon signs, and the Sun are all plasma, and most of the ordinary matter in the universe is in this state.",
+  "answerHtml": "<b><u>Plasma</u></b> (prompt on <u>ionized gas</u>; do not accept “blood plasma”)",
+  "accept": [
+    "plasma",
+    "plasmas",
+    "plasma state"
+  ],
+  "prompt": [
+    "ionized gas",
+    "fourth state of matter"
+  ],
+  "reject": [
+    "blood plasma",
+    "plasma membrane",
+    "plasma cell",
+    "plasma cells",
+    "quark gluon plasma",
+    "gas",
+    "ion",
+    "ions",
+    "liquid",
+    "solid",
+    "bose einstein condensate",
+    "electricity"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Plasma_(physics)",
+  "qb": {
+    "q": "plasma",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Irving Langmuir [“LANG-myoor”] gave this state of matter its name in 1928, reportedly comparing it to the liquid part of blood that carries blood cells. Probes named for Langmuir measure the electron temperature and density of this state of matter.",
+      "r": "Lightning and the Sun are made of it. For 10 points, name this state of matter, a hot gas of charged ions and free electrons."
+    },
+    {
+      "p": "William Crookes called this state of matter “radiant matter” in 1879 while studying the glowing gas inside his cathode-ray tubes. In this state, a gas has been heated or energized so much that electrons are stripped from its atoms.",
+      "r": "For 10 points, name this fourth state of matter, found in lightning, neon signs, and stars."
+    },
+    {
+      "p": "In this state of matter, free charges gather around any extra charge and cancel out its electric field beyond a distance called the Debye [“deh-BYE”] length. As a whole, this state of matter is almost exactly electrically neutral, since it holds equal amounts of positive and negative charge.",
+      "r": "For 10 points, name this state of matter made of ions and free electrons, which makes up the Sun."
+    },
+    {
+      "p": "Hannes Alfvén [“al-VAIN”] won the 1970 Nobel Prize in Physics for magnetohydrodynamics, which treats this state of matter as an electrically conducting fluid, and waves in it are named for him. Magnetic fields can trap this state of matter because its charged particles spiral around field lines.",
+      "r": "It is often called the fourth state of matter. For 10 points, name this state of matter found in neon signs and the Sun."
+    },
+    {
+      "p": "The Saha [“SAH-hah”] equation, worked out by the Indian physicist Meghnad Saha in 1920, predicts how much of a hot gas will turn into this state of matter at a given temperature. Astronomers use it to explain why different stars show different spectral lines.",
+      "r": "For 10 points, name this state of matter, an ionized gas found in lightning and stars."
+    },
+    {
+      "p": "Radio waves below a natural oscillation frequency of this state of matter bounce off it, which is why AM radio signals can reflect off the ionosphere and travel far beyond the horizon at night. Electrons in this state of matter can slosh back and forth in Langmuir waves.",
+      "r": "For 10 points, name this state of matter, often called the fourth state after solid, liquid, and gas."
+    },
+    {
+      "p": "In a Z-pinch, an electric current flowing through this state of matter creates a magnetic field that squeezes it inward. Tokamaks use powerful magnets to hold this state of matter at over 100 million degrees so that nuclear fusion can happen.",
+      "r": "Lightning bolts are made of it. For 10 points, name this state of matter made of ions and free electrons."
+    },
+    {
+      "p": "Until about 380,000 years after the Big Bang, the whole universe was filled with this state of matter, which blocked light; when it cooled into neutral atoms, the light that became the cosmic microwave background was set free.",
+      "r": "Neon signs glow because the gas inside them is turned into this state of matter. For 10 points, name this fourth state of matter."
+    },
+    {
+      "p": "The Sun’s outer atmosphere, the corona, is made of this state of matter at more than a million degrees, and a stream of it flowing outward is called the solar wind. When that stream hits Earth’s magnetic field, it helps produce the northern and southern lights.",
+      "r": "For 10 points, name this state of matter, made when a gas gets so hot that electrons are torn from its atoms."
+    },
+    {
+      "p": "Computer chip factories use this state of matter to etch tiny patterns into silicon wafers, and metalworkers use torches of it to cut through steel. Fluorescent tubes glow when the mercury vapor inside them becomes this state of matter.",
+      "r": "For 10 points, name this fourth state of matter, made of ions and free electrons."
+    },
+    {
+      "p": "A lightning bolt heats the air in its channel to around 30,000 kelvins, about five times hotter than the Sun’s surface, turning the air into this state of matter. The sudden expansion of that superheated air makes thunder.",
+      "r": "For 10 points, name this state of matter, an ionized gas that also makes up the stars."
+    },
+    {
+      "p": "Solar flares happen when tangled magnetic field lines in the Sun’s atmosphere suddenly snap and reconnect, releasing energy into this state of matter. Because it is full of free charges, this state of matter conducts electricity very well, unlike an ordinary gas.",
+      "r": "For 10 points, name this state of matter, which makes up the Sun and lightning."
+    },
+    {
+      "p": "Some older flat-screen TVs lit up millions of tiny cells of xenon and neon gas by turning them into this state of matter. Each kind of gas glows its own color in this state, which is why a neon sign shines red-orange.",
+      "r": "For 10 points, name this state of matter, a gas whose atoms have lost some of their electrons."
+    },
+    {
+      "p": "Lev Landau [“lahn-DOW”] predicted in 1946 that waves in this state of matter can die out without any collisions, an effect called Landau damping. Most of the ordinary matter in the universe, including the matter in stars, is found in this state.",
+      "r": "For 10 points, name this state of matter made of ions and free electrons, found inside glowing neon signs."
+    },
+    {
+      "p": "A comet’s straight, bluish ion tail is made of this state of matter and is pushed directly away from the Sun by the solar wind. In this state, many electrons have broken free of their atoms.",
+      "r": "Lightning and the stars are made of it. For 10 points, name this fourth state of matter, after solid, liquid, and gas."
+    }
+  ],
+  "clues": [
+    {
+      "id": "fourth-state",
+      "tier": "giveaway",
+      "t": "Often called the fourth state of matter, after solid, liquid, and gas",
+      "k": [
+        "fourth state",
+        "state of matter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ionized-gas",
+      "tier": "giveaway",
+      "t": "A gas so energized that electrons are stripped off its atoms, leaving ions and free electrons",
+      "k": [
+        "free electrons",
+        "ions",
+        "stripped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "examples",
+      "tier": "giveaway",
+      "t": "Found in lightning, glowing neon signs, and the Sun and other stars",
+      "k": [
+        "lightning",
+        "neon signs",
+        "stars"
+      ],
+      "n": 0,
+      "rabbit": "Lightning"
+    },
+    {
+      "id": "most-matter",
+      "tier": "giveaway",
+      "t": "Most of the ordinary matter in the universe is in this state",
+      "k": [
+        "ordinary matter",
+        "universe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "langmuir-name",
+      "tier": "middle",
+      "t": "Named by Irving Langmuir in 1928, reportedly after the liquid part of blood",
+      "k": [
+        "langmuir",
+        "1928",
+        "blood"
+      ],
+      "n": 0
+    },
+    {
+      "id": "conducts",
+      "tier": "middle",
+      "t": "Full of free charges, so it conducts electricity well and is steered by magnetic fields",
+      "k": [
+        "conducts electricity",
+        "magnetic fields"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corona-wind",
+      "tier": "middle",
+      "t": "The Sun’s corona (over a million degrees) and the solar wind are made of it",
+      "k": [
+        "corona",
+        "solar wind"
+      ],
+      "n": 0,
+      "rabbit": "The Sun"
+    },
+    {
+      "id": "aurora",
+      "tier": "middle",
+      "t": "The solar wind hitting Earth’s magnetic field helps make auroras, the northern and southern lights",
+      "k": [
+        "auroras",
+        "northern and southern lights"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tokamak",
+      "tier": "middle",
+      "t": "Tokamaks hold it with magnets at over 100 million degrees so nuclear fusion can happen",
+      "k": [
+        "tokamaks",
+        "nuclear fusion"
+      ],
+      "n": 0,
+      "rabbit": "Nuclear fusion"
+    },
+    {
+      "id": "glowing-tubes",
+      "tier": "middle",
+      "t": "Fluorescent tubes and neon signs glow when their gas becomes this; each gas glows its own color",
+      "k": [
+        "fluorescent",
+        "glow",
+        "color"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lightning-hot",
+      "tier": "middle",
+      "t": "Lightning heats air to about 30,000 kelvins, about five times hotter than the Sun’s surface",
+      "k": [
+        "30,000",
+        "five times hotter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ionosphere",
+      "tier": "middle",
+      "t": "The ionosphere is a layer of it high in the atmosphere that bounces AM radio signals at night",
+      "k": [
+        "ionosphere",
+        "am radio"
+      ],
+      "n": 0,
+      "rabbit": "Ionosphere"
+    },
+    {
+      "id": "crookes",
+      "tier": "power",
+      "t": "William Crookes called it “radiant matter” (1879) while studying his cathode-ray tubes",
+      "k": [
+        "crookes",
+        "radiant matter",
+        "1879"
+      ],
+      "n": 0
+    },
+    {
+      "id": "debye",
+      "tier": "power",
+      "t": "Debye length: the distance beyond which its free charges cancel out (shield) an extra charge",
+      "k": [
+        "debye length",
+        "shield"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quasineutral",
+      "tier": "power",
+      "t": "As a whole it is almost exactly electrically neutral (quasineutral), with equal positive and negative charge",
+      "k": [
+        "quasineutral",
+        "neutral"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alfven",
+      "tier": "power",
+      "t": "Hannes Alfvén (1970 Nobel Prize): magnetohydrodynamics treats it as a conducting fluid; Alfvén waves",
+      "k": [
+        "alfvén",
+        "magnetohydrodynamics",
+        "1970"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saha",
+      "tier": "power",
+      "t": "Meghnad Saha’s 1920 equation predicts how much of a hot gas becomes this; it explains star spectra",
+      "k": [
+        "saha",
+        "1920"
+      ],
+      "n": 0
+    },
+    {
+      "id": "langmuir-waves",
+      "tier": "power",
+      "t": "Its electrons slosh back and forth in Langmuir waves; radio waves below its natural frequency bounce off it",
+      "k": [
+        "langmuir waves",
+        "natural frequency"
+      ],
+      "n": 0
+    },
+    {
+      "id": "langmuir-probe",
+      "tier": "power",
+      "t": "Langmuir probes measure its electron temperature and density",
+      "k": [
+        "langmuir probes",
+        "electron temperature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "z-pinch",
+      "tier": "power",
+      "t": "Z-pinch: a current through it makes a magnetic field that squeezes it inward",
+      "k": [
+        "z-pinch",
+        "squeezes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "recombination",
+      "tier": "power",
+      "t": "Filled the universe until about 380,000 years after the Big Bang; when it cooled, the cosmic microwave background light was set free",
+      "k": [
+        "380,000",
+        "cosmic microwave background",
+        "big bang"
+      ],
+      "n": 0,
+      "rabbit": "Cosmic microwave background"
+    },
+    {
+      "id": "reconnection",
+      "tier": "power",
+      "t": "Solar flares: tangled magnetic field lines snap and reconnect, releasing energy into it",
+      "k": [
+        "solar flares",
+        "reconnect"
+      ],
+      "n": 0
+    },
+    {
+      "id": "etching",
+      "tier": "power",
+      "t": "Used to etch patterns into computer chips and in metal-cutting torches",
+      "k": [
+        "etch",
+        "computer chips",
+        "torches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flat-screen",
+      "tier": "power",
+      "t": "Some older flat-screen TVs lit tiny cells of xenon and neon by turning them into it",
+      "k": [
+        "flat-screen",
+        "xenon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "landau",
+      "tier": "power",
+      "t": "Landau damping (Lev Landau, 1946): its waves can die out without any collisions",
+      "k": [
+        "landau damping",
+        "collisions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "comet-tail",
+      "tier": "power",
+      "t": "A comet’s straight, bluish ion tail is made of it, pushed away from the Sun by the solar wind",
+      "k": [
+        "comet",
+        "ion tail"
+      ],
+      "n": 0,
+      "rabbit": "Comets"
+    }
+  ],
+  "trap": {
+    "title": "Physics plasma, not blood",
+    "body": "Biology tossups also use the word: blood plasma is the yellowish liquid part of blood, and a cell’s plasma membrane is a different answer line again. In physics, the other states of matter are traps too: a Bose–Einstein condensate is an ultracold state, the opposite extreme from this superhot one.",
+    "fix": "Ions, free electrons, lightning, stars, tokamaks, auroras, Langmuir, and Crookes’s “radiant matter” mean plasma, the state of matter. Red and white blood cells, platelets, and clotting mean blood plasma; atoms chilled to near absolute zero mean a Bose–Einstein condensate.",
+    "line": "Real answer line: <b><u>Plasma</u></b> (prompt on <u>ionized gas</u>; do not accept “blood plasma”)"
+  },
+  "tests": {
+    "right": [
+      "Plasma",
+      "plasma",
+      "Plazma",
+      "Plasma state",
+      "Plasmas"
+    ],
+    "prompt": [
+      "Ionized gas",
+      "Fourth state of matter"
+    ],
+    "wrong": [
+      "Blood plasma",
+      "Gas",
+      "Bose-Einstein condensate",
+      "Ions",
+      "Plasma membrane"
+    ]
+  }
+}

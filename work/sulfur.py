@@ -1,0 +1,372 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "sulfur",
+    "name": "Sulfur",
+    "mono": "S",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Element 16 · The yellow “brimstone” of volcanoes and gunpowder",
+    "dates": "Known since ancient times; Lavoisier argued it was an element, 1777",
+    "briefing": "Sulfur is the bright yellow element that crusts the rocks around volcanoes and hot springs. Its old name, “brimstone,” means “burning stone,” and it really does burn, with an eerie blue flame. The rotten-egg smell people blame on it comes from hydrogen sulfide; pure sulfur has almost no smell. It goes into gunpowder, toughens rubber in Charles Goodyear’s vulcanization process, and is the key ingredient in sulfuric acid, a workhorse of the chemical industry.",
+    "answerHtml": "<b><u>Sulfur</u></b> (or <u>sulphur</u> or <u>S</u>; accept <u>brimstone</u>)",
+    "accept": [
+        "sulfur",
+        "sulphur",
+        "s",
+        "brimstone",
+        "s8"
+    ],
+    "prompt": [],
+    "reject": [
+        "sulfuric acid",
+        "sulphuric acid",
+        "sulfurous acid",
+        "sulfur dioxide",
+        "sulphur dioxide",
+        "sulfur trioxide",
+        "sulfur hexafluoride",
+        "hydrogen sulfide",
+        "hydrogen sulphide",
+        "sulfide",
+        "sulfides",
+        "sulfate",
+        "sulfates",
+        "sulphate",
+        "sulfite",
+        "sulfites",
+        "sulfa",
+        "sulfa drugs",
+        "sulfonamide",
+        "sulfonamides",
+        "thiol",
+        "thiols",
+        "mercaptan",
+        "selenium",
+        "tellurium",
+        "polonium",
+        "oxygen",
+        "phosphorus",
+        "silicon",
+        "chlorine",
+        "sodium",
+        "strontium",
+        "scandium",
+        "pyrite",
+        "gypsum",
+        "chalcogen",
+        "chalcogens"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Sulfur",
+    "qb": {
+        "q": "sulfur",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Herman Frasch invented a way to mine this element from deep deposits in Louisiana and Texas by pumping superheated water down to melt it and then blowing the liquid to the surface with compressed air. Refineries also recover large amounts of this element from oil and natural gas.",
+            "r": "For 10 points, name this yellow element with atomic number 16, which burns with a blue flame."
+        },
+        {
+            "p": "When molten samples of this element are heated past about 160 degrees Celsius, they suddenly become much thicker, because its eight-atom rings break open and link into long chains. Pouring that hot liquid into cold water makes a rubbery “plastic” form of this element.",
+            "r": "For 10 points, name this yellow nonmetal, element 16, which sits just below oxygen on the periodic table."
+        },
+        {
+            "p": "The rhombic form of this element changes into a needle-shaped monoclinic form when it is heated above about 95 degrees Celsius. Both of those forms are built from crown-shaped rings of eight atoms of this element.",
+            "r": "For 10 points, name this element, which lies just below oxygen in group 16 and forms yellow crystals near volcanoes."
+        },
+        {
+            "p": "Charles Goodyear found in 1839 that heating natural rubber with this element made the rubber tough and far less sticky, because atoms of this element form cross-links between the rubber’s long chains. That process, vulcanization, is named for the Roman god of fire.",
+            "r": "For 10 points, name this element, a yellow nonmetal with atomic number 16 that burns with a blue flame."
+        },
+        {
+            "p": "Paracelsus [“par-uh-SELL-sus”] taught that all matter was made of three principles: salt, mercury, and this element. Black gunpowder is a mixture of saltpeter, charcoal, and this element, which makes up about a tenth of it.",
+            "r": "For 10 points, name this yellow element, which burns with a blue flame to make a choking gas called its dioxide."
+        },
+        {
+            "p": "Cornelis van Niel [“van NEEL”] studied purple bacteria that use a compound of hydrogen and this element instead of water in photosynthesis, giving off this element instead of oxygen. That work helped show that the oxygen plants release comes from water.",
+            "r": "For 10 points, name this element, whose compound with hydrogen smells like rotten eggs."
+        },
+        {
+            "p": "Volcanoes on Jupiter’s moon Io spray out this element and its oxides, coloring the moon yellow and orange. The thick clouds of Venus are made of droplets of a strong acid built from hydrogen, oxygen, and this element.",
+            "r": "For 10 points, name this element, number 16 on the periodic table, which forms yellow crystals around volcanic vents."
+        },
+        {
+            "p": "Gerhard Domagk [“DOH-mahk”] won the 1939 Nobel Prize in medicine for discovering Prontosil, the first of a family of germ-fighting drugs named for this element. Bridges between atoms of this element in the amino acid cysteine help hold proteins like keratin in shape.",
+            "r": "For 10 points, name this yellow element that lies below oxygen in group 16."
+        },
+        {
+            "p": "Compounds of this element called thiols give skunk spray its stink and are added to natural gas so that leaks can be smelled. Other compounds of this element make your eyes water when you cut onions.",
+            "r": "For 10 points, name this element, whose compound with hydrogen is the source of the smell of rotten eggs."
+        },
+        {
+            "p": "In the contact process, a vanadium oxide catalyst helps turn the dioxide of this element into its trioxide, a key step in making one of the most-produced industrial chemicals, a strong acid. Burning coal that contains this element releases a gas that helps cause acid rain.",
+            "r": "For 10 points, name this yellow element with atomic number 16, whose compound with hydrogen smells like rotten eggs."
+        },
+        {
+            "p": "This element forms a hexafluoride that insulates high-voltage electrical equipment and has an octahedral shape, an example of an “expanded octet.” Like oxygen just above it, this element has six valence electrons.",
+            "r": "For 10 points, name this yellow nonmetal, which crusts the rocks around volcanic vents and hot springs and burns with a blue flame."
+        },
+        {
+            "p": "In 1777, Antoine Lavoisier [“lah-vwah-ZYAY”] helped convince other scientists that this substance was an element, not a compound. Its old English name, found in the King James Bible, means “burning stone.”",
+            "r": "For 10 points, name this yellow element, which burns with a blue flame and sits below oxygen on the periodic table."
+        },
+        {
+            "p": "At the Kawah Ijen [“KAH-wah EE-jen”] volcano in Indonesia, gases rich in this element burn with blue flames at night, and miners carry chunks of its yellow solid down the mountain. Bacteria at deep-sea hydrothermal vents make food using energy from its compounds.",
+            "r": "For 10 points, name this element with atomic number 16, whose yellow crystals form around volcanic vents."
+        },
+        {
+            "p": "In chemical names, the prefix “thio-,” as in the photographers’ fixing chemical nicknamed “hypo,” means an atom of this element has taken the place of an oxygen atom. Epsom salt and gypsum both contain an ion made of this element and four oxygen atoms.",
+            "r": "For 10 points, name this element, which forms yellow crystals and has atomic number 16."
+        },
+        {
+            "p": "Pyrite, or “fool’s gold,” is a compound of iron and this element, and galena, the main ore of lead, combines lead with it. Cinnabar, the bright red ore of mercury, is a compound of mercury and this element.",
+            "r": "For 10 points, name this yellow element, whose compound with hydrogen gives rotten eggs their smell."
+        }
+    ],
+    "clues": [
+        {
+            "id": "element-16",
+            "tier": "giveaway",
+            "t": "Element 16, a yellow, brittle nonmetal",
+            "k": ["element 16", "yellow", "nonmetal"],
+            "n": 0
+        },
+        {
+            "id": "rotten-eggs",
+            "tier": "giveaway",
+            "t": "Its compound with hydrogen smells like rotten eggs; the pure element has almost no smell",
+            "k": ["rotten eggs", "hydrogen"],
+            "n": 0
+        },
+        {
+            "id": "burning-stone",
+            "tier": "giveaway",
+            "t": "Its old English name, found in the King James Bible, means “burning stone”",
+            "k": ["burning stone", "king james"],
+            "n": 0
+        },
+        {
+            "id": "below-oxygen",
+            "tier": "giveaway",
+            "t": "Sits just below oxygen in group 16, the chalcogens; like oxygen, it has six valence electrons",
+            "k": ["oxygen", "group 16", "chalcogens", "six valence"],
+            "n": 0,
+            "rabbit": "Oxygen"
+        },
+        {
+            "id": "blue-flame",
+            "tier": "giveaway",
+            "t": "Burns with a blue flame, making a choking gas, its dioxide",
+            "k": ["blue flame", "dioxide", "choking"],
+            "n": 0
+        },
+        {
+            "id": "volcanoes",
+            "tier": "middle",
+            "t": "Forms yellow crystals around volcanoes, hot springs, and volcanic vents",
+            "k": ["volcanoes", "hot springs", "vents"],
+            "n": 0
+        },
+        {
+            "id": "gunpowder",
+            "tier": "middle",
+            "t": "Black gunpowder is saltpeter (potassium nitrate), charcoal, and this element",
+            "k": ["gunpowder", "saltpeter", "charcoal"],
+            "n": 0
+        },
+        {
+            "id": "vulcanization",
+            "tier": "middle",
+            "t": "Charles Goodyear’s vulcanization (1839): heating rubber with it makes cross-links that keep rubber tough and not sticky",
+            "k": ["goodyear", "vulcanization", "rubber", "1839"],
+            "n": 0
+        },
+        {
+            "id": "contact-process",
+            "tier": "middle",
+            "t": "Key ingredient of one of the most-produced industrial chemicals, a strong acid made by the contact process",
+            "k": ["contact process", "acid"],
+            "n": 0,
+            "rabbit": "Sulfuric acid"
+        },
+        {
+            "id": "acid-rain",
+            "tier": "middle",
+            "t": "Burning coal that contains it releases a gas that helps cause acid rain",
+            "k": ["acid rain", "coal"],
+            "n": 0
+        },
+        {
+            "id": "rings",
+            "tier": "middle",
+            "t": "Its molecules are crown-shaped rings of eight atoms",
+            "k": ["crown-shaped", "eight atoms", "rings"],
+            "n": 0
+        },
+        {
+            "id": "io-venus",
+            "tier": "middle",
+            "t": "Volcanoes on Jupiter’s moon Io spray it out; the clouds of Venus are droplets of an acid made with it",
+            "k": ["venus", "jupiter", "io"],
+            "n": 0,
+            "rabbit": "Venus (planet)"
+        },
+        {
+            "id": "amino-acids",
+            "tier": "middle",
+            "t": "Found in the amino acids cysteine and methionine; bridges between cysteines hold proteins like keratin in shape",
+            "k": ["cysteine", "methionine", "keratin"],
+            "n": 0,
+            "rabbit": "Amino acids"
+        },
+        {
+            "id": "thiols",
+            "tier": "middle",
+            "t": "Thiols containing it give skunk spray its stink and are added to natural gas; other compounds of it make cut onions sting your eyes",
+            "k": ["thiols", "skunk", "natural gas", "onions"],
+            "n": 0
+        },
+        {
+            "id": "minerals",
+            "tier": "middle",
+            "t": "Pyrite (“fool’s gold”) combines it with iron, galena with lead, and cinnabar with mercury",
+            "k": ["pyrite", "fool’s gold", "galena", "cinnabar"],
+            "n": 0,
+            "rabbit": "Iron"
+        },
+        {
+            "id": "frasch",
+            "tier": "power",
+            "t": "Herman Frasch’s process melts underground deposits with superheated water and blows the liquid up with compressed air; refineries also recover it from oil and gas",
+            "k": ["frasch", "superheated water", "compressed air", "refineries"],
+            "n": 0
+        },
+        {
+            "id": "thickens",
+            "tier": "power",
+            "t": "Molten samples heated past about 160 °C suddenly thicken, as the rings break open into long chains",
+            "k": ["160", "thicken", "long chains"],
+            "n": 0
+        },
+        {
+            "id": "plastic",
+            "tier": "power",
+            "t": "Pouring the hot liquid into cold water makes a rubbery “plastic” form",
+            "k": ["plastic", "rubbery", "cold water"],
+            "n": 0
+        },
+        {
+            "id": "allotropes",
+            "tier": "power",
+            "t": "Its rhombic form, stable at room temperature, turns into a needle-shaped monoclinic form above about 95 °C",
+            "k": ["rhombic", "monoclinic"],
+            "n": 0
+        },
+        {
+            "id": "paracelsus",
+            "tier": "power",
+            "t": "Paracelsus’s three principles of matter: salt, mercury, and this element",
+            "k": ["paracelsus", "mercury", "salt"],
+            "n": 0
+        },
+        {
+            "id": "lavoisier",
+            "tier": "power",
+            "t": "Antoine Lavoisier helped convince scientists in 1777 that it is an element, not a compound",
+            "k": ["lavoisier", "1777"],
+            "n": 0
+        },
+        {
+            "id": "van-niel",
+            "tier": "power",
+            "t": "Purple bacteria use its hydrogen compound instead of water in photosynthesis; Cornelis van Niel used them to show plants’ oxygen comes from water",
+            "k": ["van niel", "purple bacteria", "photosynthesis"],
+            "n": 0,
+            "rabbit": "Photosynthesis"
+        },
+        {
+            "id": "vents",
+            "tier": "power",
+            "t": "Bacteria at deep-sea hydrothermal vents get energy from its compounds, a process called chemosynthesis",
+            "k": ["chemosynthesis", "hydrothermal vents"],
+            "n": 0
+        },
+        {
+            "id": "domagk",
+            "tier": "power",
+            "t": "Gerhard Domagk won the 1939 Nobel Prize for Prontosil, the first of the germ-fighting drugs named for it",
+            "k": ["domagk", "prontosil", "1939"],
+            "n": 0
+        },
+        {
+            "id": "hexafluoride",
+            "tier": "power",
+            "t": "Its octahedral hexafluoride, an “expanded octet” molecule, insulates high-voltage equipment",
+            "k": ["hexafluoride", "octahedral", "expanded octet"],
+            "n": 0
+        },
+        {
+            "id": "thio",
+            "tier": "power",
+            "t": "The prefix “thio-” in a chemical name means it has replaced an oxygen atom, as in the photographers’ fixer “hypo”",
+            "k": ["thio", "hypo", "prefix"],
+            "n": 0
+        },
+        {
+            "id": "epsom-gypsum",
+            "tier": "power",
+            "t": "Epsom salt and gypsum contain an ion made of it and four oxygen atoms",
+            "k": ["epsom salt", "gypsum", "four oxygen"],
+            "n": 0
+        },
+        {
+            "id": "ijen",
+            "tier": "power",
+            "t": "At Kawah Ijen volcano in Indonesia, gases rich in it burn with blue flames at night",
+            "k": ["kawah ijen", "indonesia", "blue flames"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Element, not its compounds",
+        "body": "Tossups on this element are full of its famous compounds: the rotten-egg gas it makes with hydrogen, the strong acid made by the contact process, the dioxide behind acid rain, and minerals like pyrite and gypsum. Answering with a compound, like “hydrogen sulfide” or “sulfuric acid,” is wrong when the question asks for the element. Its group 16 neighbors, oxygen above and selenium below, are the other traps.",
+        "fix": "If the question says “this element,” give the element: either spelling, sulfur or sulphur, or its symbol, S. Save compound names for questions that say “this compound,” “this gas,” or “this acid.”",
+        "line": "Real answer line: <b><u>Sulfur</u></b> (or <u>sulphur</u> or <u>S</u>; accept <u>brimstone</u>)"
+    },
+    "tests": {
+        "right": [
+            "Sulfur",
+            "Sulphur",
+            "S",
+            "sulfer",
+            "Brimstone",
+            "elemental sulfur"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Sulfuric acid",
+            "Hydrogen sulfide",
+            "Sulfur dioxide",
+            "Selenium",
+            "Oxygen",
+            "Phosphorus",
+            "Sulfate"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

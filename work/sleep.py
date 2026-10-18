@@ -1,0 +1,366 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "sleep",
+    "name": "Sleep",
+    "mono": "ZZZ",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Nightly resting state of brain and body · Cycles through REM and non-REM",
+    "dates": "Takes up about a third of a human life",
+    "briefing": "You will spend about a third of your life asleep, and your brain stays busy the whole time. Each night it cycles through light and deep non-REM stages and REM sleep, when the eyes dart around and most vivid dreams happen, roughly every 90 minutes. Sleep helps the brain store memories and clear out waste, which is why experts say kids 6 to 12 need 9 to 12 hours a night and teens need 8 to 10.",
+    "answerHtml": "<b><u>Sleep</u></b> (accept <u>sleeping</u> or specific stages such as <u>REM sleep</u>; prompt on <u>REM</u> alone; do not accept “dreaming” or “hibernation”)",
+    "accept": [
+        "sleep",
+        "sleeping",
+        "asleep",
+        "rem sleep",
+        "non rem sleep",
+        "nrem sleep",
+        "slow wave sleep",
+        "deep sleep",
+        "rapid eye movement sleep"
+    ],
+    "prompt": [
+        "rem",
+        "nrem",
+        "non rem",
+        "rapid eye movement"
+    ],
+    "reject": [
+        "hibernation",
+        "torpor",
+        "dreams",
+        "dream",
+        "dreaming",
+        "insomnia",
+        "narcolepsy",
+        "sleep apnea",
+        "apnea",
+        "sleeping sickness",
+        "sleepwalking",
+        "sleep walking",
+        "sleep paralysis",
+        "sleep deprivation",
+        "sleep spindles",
+        "coma",
+        "anesthesia",
+        "circadian rhythm",
+        "circadian rhythms",
+        "melatonin",
+        "hypnosis",
+        "meditation",
+        "rest",
+        "fatigue",
+        "sleeping beauty"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Sleep",
+    "qb": {
+        "q": "sleep",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "By recording eye movements at night, Eugene Aserinsky and Nathaniel Kleitman discovered a stage of this state in 1953 at the University of Chicago. During that stage, the eyes dart back and forth beneath closed lids.",
+            "r": "That stage, called REM, is when most vivid dreams happen. For 10 points, name this nightly resting state."
+        },
+        {
+            "p": "In 1938, Nathaniel Kleitman and a student spent 32 days deep in Kentucky’s Mammoth Cave, trying to switch their daily cycle of waking and this state to a 28-hour schedule. Kleitman is often called the father of modern research on this state.",
+            "r": "For 10 points, name this state that the body’s circadian rhythm helps time each night."
+        },
+        {
+            "p": "Bursts of brain waves called spindles and sudden large waves called K-complexes mark the second stage of this state, known as N2. Overnight tests called polysomnography [“pol-ee-som-NOG-ruh-fee”] record brain waves, eye movements, and muscle activity during this state.",
+            "r": "For 10 points, name this state, which includes REM and non-REM stages and usually happens at night."
+        },
+        {
+            "p": "Growth hormone is released mainly during the deepest stage of this state, when slow, tall delta waves appear on an EEG. Somnambulism [“som-NAM-byuh-liz-um”] and night terrors usually happen during that deep stage, which is called N3.",
+            "r": "People are hardest to wake during that stage. For 10 points, name this nightly state that includes REM and non-REM stages."
+        },
+        {
+            "p": "French scientist Michel Jouvet [“zhoo-VAY”] called one stage of this state “paradoxical,” because the brain is nearly as active as when awake while most muscles go limp. That loss of muscle tone, called atonia, keeps people from acting out their dreams.",
+            "r": "People spend about a third of their lives in this state. For 10 points, name this state that people normally enter at night."
+        },
+        {
+            "p": "Studies of Doberman dogs helped show that a lack of signaling by the brain chemical orexin, also called hypocretin, can cause narcolepsy. People with narcolepsy can drop into this state suddenly during the day, and many also have cataplexy, a sudden muscle weakness set off by strong emotions.",
+            "r": "It cycles through several stages, including REM. For 10 points, name this state that people usually enter each night."
+        },
+        {
+            "p": "Alexander Borbély’s two-process model says this state is controlled by a circadian clock and by a pressure that builds the longer a person stays awake. A molecule called adenosine builds up in the brain while a person is awake, and caffeine blocks its receptors.",
+            "r": "Experts recommend that teenagers get 8 to 10 hours of it each night. For 10 points, name this state that people enter when they go to bed."
+        },
+        {
+            "p": "The suprachiasmatic [“soo-pruh-kye-az-MAT-ik”] nucleus in the hypothalamus acts as a master clock for this state, using signals from light-sensing cells in the retina. In darkness, the pineal gland releases melatonin to help bring on this state.",
+            "r": "Its stages include N1, N2, N3, and REM. For 10 points, name this nightly state."
+        },
+        {
+            "p": "Dolphins can let one half of the brain enter this state while the other half stays alert, which lets them keep surfacing to breathe. Some birds do the same “unihemispheric” trick, keeping one eye open to watch for predators.",
+            "r": "In humans, it includes REM and non-REM stages. For 10 points, name this state that people need every night."
+        },
+        {
+            "p": "A 2013 study of mice found that the brain’s glymphatic [“glim-FAT-ik”] system, which flushes out waste with cerebrospinal fluid, works much faster during this state. Scientists also think this state helps the brain store new memories.",
+            "r": "For 10 points, name this state that experts say kids aged 6 to 12 need 9 to 12 hours of each night."
+        },
+        {
+            "p": "The Greek god Hypnos, the twin brother of Thanatos [“THAN-uh-tohs”], personified this state, and his Roman counterpart was Somnus, whose name gives us the word “insomnia.” Morpheus, a son of Hypnos, brought dreams to people in this state.",
+            "r": "The hormone melatonin helps bring on this state. For 10 points, name this nightly resting state."
+        },
+        {
+            "p": "A hypnic jerk is a sudden twitch of the muscles that can jolt people just as they drift into this state. The drowsy in-between period as a person drifts into this state is called the hypnagogic [“hip-nuh-GOJ-ik”] state.",
+            "r": "For 10 points, name this state, which cycles through REM and non-REM stages about every 90 minutes."
+        },
+        {
+            "p": "People with obstructive apnea stop breathing for short periods during this state, and many use a CPAP machine to keep the airway open. Insomnia is a disorder in which people struggle to get into or stay in this state.",
+            "r": "For 10 points, name this state that people typically enter at bedtime and leave when they wake up."
+        },
+        {
+            "p": "Hans Berger recorded the first human EEG in 1924 and described alpha waves, which appear when a person is awake but relaxed with closed eyes. As a person drifts into this state, those waves give way to slower theta waves.",
+            "r": "Going without enough of it makes people tired and less focused. For 10 points, name this state that people normally enter every night."
+        },
+        {
+            "p": "Jeffrey Hall, Michael Rosbash, and Michael Young shared a 2017 Nobel Prize for showing how a gene called “period” helps run the circadian clock in fruit flies. A similar internal clock in people helps time this state, so jet lag can throw it off schedule.",
+            "r": "Most vivid dreams happen during its REM stage. For 10 points, name this nightly state of rest."
+        }
+    ],
+    "clues": [
+        {
+            "id": "rem-nrem",
+            "tier": "giveaway",
+            "t": "Divided into REM (rapid eye movement) and non-REM stages",
+            "k": ["rapid eye movement", "non-rem", "rem"],
+            "n": 0
+        },
+        {
+            "id": "dreams",
+            "tier": "giveaway",
+            "t": "Most vivid dreams happen during its REM stage",
+            "k": ["dreams", "vivid"],
+            "n": 0
+        },
+        {
+            "id": "melatonin",
+            "tier": "giveaway",
+            "t": "The pineal gland releases the hormone melatonin in darkness to help bring it on",
+            "k": ["melatonin", "pineal gland", "darkness"],
+            "n": 0,
+            "rabbit": "Hormones"
+        },
+        {
+            "id": "third-of-life",
+            "tier": "giveaway",
+            "t": "People spend about a third of their lives in this state",
+            "k": ["third", "lives"],
+            "n": 0
+        },
+        {
+            "id": "circadian",
+            "tier": "giveaway",
+            "t": "Timed by the body’s roughly 24-hour internal clock, the circadian rhythm",
+            "k": ["circadian rhythm", "24-hour"],
+            "n": 0
+        },
+        {
+            "id": "cycles",
+            "tier": "middle",
+            "t": "Cycles through its stages about every 90 minutes, several times a night",
+            "k": ["90 minutes", "cycles"],
+            "n": 0
+        },
+        {
+            "id": "aserinsky-kleitman",
+            "tier": "middle",
+            "t": "Eugene Aserinsky and Nathaniel Kleitman discovered REM in 1953 at the University of Chicago",
+            "k": ["aserinsky", "kleitman", "1953", "chicago"],
+            "n": 0
+        },
+        {
+            "id": "polysomnography",
+            "tier": "middle",
+            "t": "Studied overnight with polysomnography, which records brain waves (EEG), eye movements, and muscle activity",
+            "k": ["polysomnography", "eeg", "brain waves"],
+            "n": 0
+        },
+        {
+            "id": "delta-waves",
+            "tier": "middle",
+            "t": "Its deepest stage, N3 (slow-wave), shows slow delta waves and is the hardest to wake from",
+            "k": ["delta waves", "n3", "slow-wave", "deepest"],
+            "n": 0
+        },
+        {
+            "id": "atonia",
+            "tier": "middle",
+            "t": "During REM, most muscles are temporarily paralyzed (atonia), so people don’t act out their dreams",
+            "k": ["atonia", "paralyzed"],
+            "n": 0
+        },
+        {
+            "id": "suprachiasmatic",
+            "tier": "middle",
+            "t": "The suprachiasmatic nucleus in the hypothalamus is the master clock that times it",
+            "k": ["suprachiasmatic nucleus", "hypothalamus", "master clock"],
+            "n": 0
+        },
+        {
+            "id": "adenosine",
+            "tier": "middle",
+            "t": "Adenosine builds up while a person is awake, creating pressure for it; caffeine blocks adenosine receptors",
+            "k": ["adenosine", "caffeine"],
+            "n": 0
+        },
+        {
+            "id": "disorders",
+            "tier": "middle",
+            "t": "Disorders include insomnia (trouble getting or staying in it) and obstructive apnea, often treated with a CPAP machine",
+            "k": ["insomnia", "apnea", "cpap"],
+            "n": 0
+        },
+        {
+            "id": "hours-needed",
+            "tier": "middle",
+            "t": "Experts recommend 9 to 12 hours a night for kids 6 to 12, and 8 to 10 hours for teens",
+            "k": ["9 to 12", "8 to 10", "hours"],
+            "n": 0
+        },
+        {
+            "id": "spindles",
+            "tier": "power",
+            "t": "Stage N2 shows bursts called spindles and large waves called K-complexes",
+            "k": ["spindles", "k-complexes", "n2"],
+            "n": 0
+        },
+        {
+            "id": "jouvet",
+            "tier": "power",
+            "t": "Michel Jouvet called REM “paradoxical” because the brain is nearly as active as when awake",
+            "k": ["jouvet", "paradoxical"],
+            "n": 0
+        },
+        {
+            "id": "orexin",
+            "tier": "power",
+            "t": "A lack of orexin (hypocretin) signaling can cause narcolepsy, often with cataplexy, a sudden muscle weakness",
+            "k": ["orexin", "hypocretin", "narcolepsy", "cataplexy"],
+            "n": 0
+        },
+        {
+            "id": "dobermans",
+            "tier": "power",
+            "t": "Narcoleptic Doberman dogs helped researchers find an orexin receptor gene",
+            "k": ["doberman", "orexin receptor"],
+            "n": 0
+        },
+        {
+            "id": "unihemispheric",
+            "tier": "power",
+            "t": "Dolphins and some birds rest one half of the brain at a time (“unihemispheric”), keeping one eye open",
+            "k": ["unihemispheric", "dolphins", "one half"],
+            "n": 0
+        },
+        {
+            "id": "mammoth-cave",
+            "tier": "power",
+            "t": "Nathaniel Kleitman spent 32 days in Kentucky’s Mammoth Cave in 1938 testing a 28-hour day",
+            "k": ["mammoth cave", "28-hour", "1938", "32 days"],
+            "n": 0
+        },
+        {
+            "id": "glymphatic",
+            "tier": "power",
+            "t": "A 2013 mouse study found that the brain’s glymphatic system clears waste faster during it",
+            "k": ["glymphatic", "waste", "2013"],
+            "n": 0
+        },
+        {
+            "id": "growth-hormone",
+            "tier": "power",
+            "t": "Growth hormone is released mostly during its deepest, slow-wave stage",
+            "k": ["growth hormone"],
+            "n": 0
+        },
+        {
+            "id": "hypnos",
+            "tier": "power",
+            "t": "Personified by the Greek god Hypnos (Roman Somnus), twin of Thanatos; his son Morpheus brought dreams",
+            "k": ["hypnos", "somnus", "thanatos", "morpheus"],
+            "n": 0
+        },
+        {
+            "id": "hypnic-jerk",
+            "tier": "power",
+            "t": "A hypnic jerk is a sudden twitch while drifting off; the drowsy in-between period is called hypnagogic",
+            "k": ["hypnic jerk", "hypnagogic", "twitch"],
+            "n": 0
+        },
+        {
+            "id": "berger",
+            "tier": "power",
+            "t": "Hans Berger recorded the first human EEG in 1924 and described alpha waves, seen in relaxed, awake people",
+            "k": ["hans berger", "alpha waves", "1924"],
+            "n": 0
+        },
+        {
+            "id": "borbely",
+            "tier": "power",
+            "t": "Alexander Borbély’s two-process model: a pressure that builds while awake, plus the circadian clock",
+            "k": ["borbély", "two-process", "pressure"],
+            "n": 0
+        },
+        {
+            "id": "nobel-2017",
+            "tier": "power",
+            "t": "Hall, Rosbash, and Young shared a 2017 Nobel Prize for the “period” gene and other parts of the fruit fly’s circadian clock",
+            "k": ["2017", "rosbash", "fruit fly", "period"],
+            "n": 0,
+            "rabbit": "Fruit flies"
+        },
+        {
+            "id": "somnambulism",
+            "tier": "power",
+            "t": "Somnambulism and night terrors usually happen during its deep N3 stage",
+            "k": ["somnambulism", "night terrors"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Sleep, dreams, or hibernation?",
+        "body": "Sleep tossups lean hard on REM clues, so players blurt “dreams” or just “REM,” but dreaming is something that happens during sleep, and “REM” by itself earns only a prompt here. Other near-misses name what controls sleep (melatonin, the circadian rhythm) or a disorder (insomnia, narcolepsy, sleep apnea). Hibernation and torpor are energy-saving states that are different from true sleep.",
+        "fix": "If the question asks for “this state” with stages N1, N2, N3, and REM, say sleep. Save “circadian rhythm” for questions about the 24-hour clock itself, and “melatonin” for questions asking for a hormone.",
+        "line": "Real answer line: <b><u>Sleep</u></b> (accept <u>sleeping</u> or specific stages such as <u>REM sleep</u>; prompt on <u>REM</u> alone; do not accept “dreaming” or “hibernation”)"
+    },
+    "tests": {
+        "right": [
+            "Sleep",
+            "sleeping",
+            "REM sleep",
+            "Slep",
+            "Non-REM sleep"
+        ],
+        "prompt": [
+            "REM",
+            "Rapid eye movement"
+        ],
+        "wrong": [
+            "Hibernation",
+            "Dreaming",
+            "Insomnia",
+            "Sleep apnea",
+            "Narcolepsy",
+            "Circadian rhythm"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

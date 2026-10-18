@@ -1,0 +1,445 @@
+{
+  "id": "integrals",
+  "name": "Integrals",
+  "mono": "INT",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "The area under a curve · The reverse of taking a derivative",
+  "dates": "∫ sign first written by Gottfried Leibniz, 1675",
+  "briefing": "An integral adds up infinitely many tiny pieces to find a total, like the area under a curve or the distance a car travels when its speed keeps changing. Integration is the reverse of differentiation: the Fundamental Theorem of Calculus links the two, so knowing a function’s antiderivative lets you compute areas exactly. Its tall, curvy symbol, ∫, is a stretched-out S that Gottfried Leibniz chose to stand for “sum.”",
+  "answerHtml": "<b><u>integral</u></b>s (or <u>integration</u>; prompt on <u>antiderivative</u>s or <u>area under the curve</u>; do not accept “derivative”)",
+  "accept": [
+    "integrals",
+    "integral",
+    "integration",
+    "integrate",
+    "integrating"
+  ],
+  "prompt": [
+    "antiderivative",
+    "antiderivatives",
+    "anti derivative",
+    "anti derivatives",
+    "area under the curve",
+    "area under a curve",
+    "area under curve",
+    "calculus"
+  ],
+  "reject": [
+    "derivative",
+    "derivatives",
+    "differentiation",
+    "differentiate",
+    "differential",
+    "differentials",
+    "differential equation",
+    "differential equations",
+    "limit",
+    "limits",
+    "riemann sum",
+    "riemann sums",
+    "summation",
+    "sum",
+    "series",
+    "integer",
+    "integers",
+    "integrand",
+    "integrator",
+    "integrable",
+    "fundamental theorem of calculus",
+    "slope",
+    "tangent line",
+    "continuity",
+    "infinity"
+  ],
+  "tests": {
+    "right": [
+      "integrals",
+      "Integral",
+      "integration",
+      "definite integral",
+      "intergral"
+    ],
+    "prompt": [
+      "antiderivative",
+      "area under the curve"
+    ],
+    "wrong": [
+      "derivative",
+      "differentiation",
+      "Riemann sum",
+      "integer",
+      "limit",
+      "integrand"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Integral",
+  "qb": {
+    "q": "integral",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Gottfried Leibniz first wrote this operation’s symbol in 1675, choosing a tall, stretched-out letter S to stand for the Latin word for “sum.” The “dx” written at the end of that notation stands for the width of an extremely thin slice.",
+      "r": "The Fundamental Theorem of Calculus says this operation undoes differentiation. For 10 points, name this calculus operation used to find the area under a curve."
+    },
+    {
+      "p": "Gaston Darboux [“dar-BOO”] defined this operation by squeezing it between upper and lower sums. Bernhard Riemann [“REE-mahn”] defined it as the limit of sums of the areas of thin rectangles, whose heights can be taken at the left end, right end, or middle of each slice.",
+      "r": "For 10 points, name this calculus operation that finds the area under a curve, the reverse of taking a derivative."
+    },
+    {
+      "p": "Isaac Barrow, Isaac Newton’s teacher, proved an early version of a theorem saying that this operation and differentiation undo each other. That theorem says the definite form of this operation from a to b equals F of b minus F of a, where F is an antiderivative.",
+      "r": "For 10 points, name this calculus operation, written with a long S, that finds the area under a curve."
+    },
+    {
+      "p": "Archimedes used the method of exhaustion, an ancient forerunner of this operation, to show that a slice of a parabola has four-thirds the area of a certain triangle inside it. Bonaventura Cavalieri’s “method of indivisibles” was another early version of this operation.",
+      "r": "For 10 points, name this calculus operation that adds up infinitely many tiny pieces to find an area."
+    },
+    {
+      "p": "This operation applied to the bell-shaped curve e to the negative x squared, over the whole number line, gives the square root of pi. That curve has no antiderivative made of ordinary functions, so mathematicians define a special “error function” for it.",
+      "r": "It is the reverse of taking a derivative. For 10 points, name this calculus operation that finds the area under a curve."
+    },
+    {
+      "p": "One method for this operation, done “by parts,” comes from the product rule and turns it into u v minus the same operation on v d u. Another method, u-substitution, reverses the chain rule, and partial fractions help with this operation on rational functions.",
+      "r": "It is the reverse of differentiation. For 10 points, name this calculus operation that finds antiderivatives and areas under curves."
+    },
+    {
+      "p": "Henri Lebesgue [“luh-BEG”] created a more powerful version of this operation in 1902 by measuring the sets where a function takes its values. Fubini’s [“foo-BEE-neez”] theorem lets a double version of this operation be done one variable at a time.",
+      "r": "Riemann sums approximate it with thin rectangles. For 10 points, name this calculus operation, the reverse of differentiation."
+    },
+    {
+      "p": "The indefinite form of this operation always ends with “plus C,” because functions that differ only by a constant have the same derivative. For example, doing this operation on 2x gives x squared plus C.",
+      "r": "For 10 points, name this calculus operation, which finds antiderivatives and the area under a curve."
+    },
+    {
+      "p": "The disk and shell methods use this operation to find the volume of a solid made by spinning a flat region around an axis. Doing this operation on the difference between two functions finds the area of the region between their curves.",
+      "r": "This operation reverses the derivative. For 10 points, name this calculus operation, written with an elongated S."
+    },
+    {
+      "p": "Evangelista Torricelli first studied Gabriel’s horn, made by spinning the graph of 1 over x, for x of at least 1, around the x-axis; this operation shows it has finite volume but infinite surface area. Versions of this operation over an infinitely long interval are called “improper.”",
+      "r": "Its answer can be checked by taking a derivative. For 10 points, name this calculus operation, which finds areas under curves."
+    },
+    {
+      "p": "Green’s theorem turns this operation taken around a closed curve into this operation over the flat region inside that curve. In physics, applying this operation to a force over a distance gives the work done.",
+      "r": "Leibniz and Newton both developed it. For 10 points, name this calculus operation that finds the area under a curve."
+    },
+    {
+      "p": "Isaac Newton called the quantities found by this operation “fluents,” since he saw this operation as reversing his method of “fluxions.” Numerical methods for estimating this operation’s value are often called “quadrature,” an old word for finding an area.",
+      "r": "Its definite form gives a number, while its indefinite form gives a family of functions. For 10 points, name this calculus operation that is the inverse of differentiation."
+    },
+    {
+      "p": "The average value of a function on an interval equals this operation applied to the function over that interval, divided by the interval’s length. Simpson’s rule estimates this operation using pieces of parabolas, while the trapezoidal rule uses trapezoids.",
+      "r": "For 10 points, name this calculus operation, which can find the area under a curve."
+    },
+    {
+      "p": "The probability that a continuous random variable lands between two values is found by applying this operation to its probability density function. Applying this operation to a graph of a car’s speed over time gives the distance the car travels.",
+      "r": "For 10 points, name this calculus operation that finds the area under a curve."
+    },
+    {
+      "p": "The Fourier transform, which turns a signal in time into its frequencies, is defined using this operation, as is the Laplace transform. Leonhard Euler wrote the gamma function, which extends factorials, using this operation.",
+      "r": "Its symbol is a stretched-out S. For 10 points, name this calculus operation used to compute areas under curves."
+    }
+  ],
+  "clues": [
+    {
+      "id": "area",
+      "tier": "giveaway",
+      "t": "Finds the area under a curve by adding up infinitely many thin slices",
+      "k": [
+        "area under a curve",
+        "thin slices"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reverse",
+      "tier": "giveaway",
+      "t": "The reverse of differentiation (taking a derivative); an indefinite one is an antiderivative",
+      "k": [
+        "antiderivative",
+        "differentiation",
+        "reverse"
+      ],
+      "n": 0,
+      "rabbit": "Derivatives"
+    },
+    {
+      "id": "symbol",
+      "tier": "giveaway",
+      "t": "Written with a tall, stretched-out S (∫) that stands for “sum”",
+      "k": [
+        "stretched-out s",
+        "sum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ftc",
+      "tier": "giveaway",
+      "t": "Fundamental Theorem of Calculus: from a to b, it equals F(b) − F(a), where F is an antiderivative",
+      "k": [
+        "fundamental theorem of calculus",
+        "f(b) − f(a)"
+      ],
+      "n": 0
+    },
+    {
+      "id": "riemann-sums",
+      "tier": "middle",
+      "t": "Riemann sums estimate it with thin rectangles; taking the limit gives the exact value",
+      "k": [
+        "riemann sums",
+        "rectangles",
+        "limit"
+      ],
+      "n": 0,
+      "rabbit": "Bernhard Riemann"
+    },
+    {
+      "id": "plus-c",
+      "tier": "middle",
+      "t": "An indefinite one ends with “+ C,” since functions that differ by a constant have the same derivative",
+      "k": [
+        "constant",
+        "+ c"
+      ],
+      "n": 0
+    },
+    {
+      "id": "definite-indefinite",
+      "tier": "middle",
+      "t": "A definite one has limits a and b and gives a number; an indefinite one gives a family of functions",
+      "k": [
+        "definite",
+        "indefinite",
+        "family of functions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "newton-leibniz",
+      "tier": "middle",
+      "t": "Calculus was developed independently by Isaac Newton and Gottfried Leibniz in the late 1600s",
+      "k": [
+        "newton",
+        "leibniz",
+        "independently"
+      ],
+      "n": 0,
+      "rabbit": "Isaac Newton"
+    },
+    {
+      "id": "techniques",
+      "tier": "middle",
+      "t": "Techniques: u-substitution (reverses the chain rule), “by parts” (from the product rule), and partial fractions",
+      "k": [
+        "u-substitution",
+        "by parts",
+        "partial fractions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "physics",
+      "tier": "middle",
+      "t": "Speed over time gives the distance traveled; force over a distance gives the work done",
+      "k": [
+        "distance",
+        "work",
+        "speed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "volume",
+      "tier": "middle",
+      "t": "The disk and shell methods find volumes of solids made by spinning a region around an axis",
+      "k": [
+        "disk",
+        "shell",
+        "volume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "between-curves",
+      "tier": "middle",
+      "t": "The area between two curves comes from doing it on the difference of the two functions",
+      "k": [
+        "between two curves",
+        "difference"
+      ],
+      "n": 0
+    },
+    {
+      "id": "numerical",
+      "tier": "middle",
+      "t": "Estimated by the trapezoidal rule and by Simpson’s rule, which uses pieces of parabolas",
+      "k": [
+        "trapezoidal rule",
+        "simpson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "average-value",
+      "tier": "middle",
+      "t": "A function’s average value on an interval is this over the interval, divided by the interval’s length",
+      "k": [
+        "average value",
+        "interval"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leibniz-1675",
+      "tier": "power",
+      "t": "Gottfried Leibniz first wrote its ∫ symbol in 1675, from the Latin summa; the dx stands for a thin slice’s width",
+      "k": [
+        "1675",
+        "summa"
+      ],
+      "n": 0,
+      "rabbit": "Gottfried Wilhelm Leibniz"
+    },
+    {
+      "id": "archimedes",
+      "tier": "power",
+      "t": "Archimedes’ method of exhaustion was an ancient forerunner; he showed a parabola slice is 4/3 of a triangle inside it",
+      "k": [
+        "method of exhaustion",
+        "archimedes",
+        "4/3"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cavalieri",
+      "tier": "power",
+      "t": "Bonaventura Cavalieri’s “method of indivisibles” was another early version",
+      "k": [
+        "cavalieri",
+        "indivisibles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "barrow",
+      "tier": "power",
+      "t": "Isaac Barrow, Newton’s teacher, proved an early version of the Fundamental Theorem of Calculus",
+      "k": [
+        "barrow",
+        "teacher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fluents",
+      "tier": "power",
+      "t": "Newton called its results “fluents,” the reverse of his “fluxions”; numerical methods for it are called quadrature",
+      "k": [
+        "fluents",
+        "fluxions",
+        "quadrature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "darboux",
+      "tier": "power",
+      "t": "Gaston Darboux defined it by squeezing it between upper and lower sums",
+      "k": [
+        "darboux",
+        "upper and lower sums"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lebesgue",
+      "tier": "power",
+      "t": "Henri Lebesgue’s 1902 version measures the sets where a function takes its values instead of slicing the x-axis",
+      "k": [
+        "lebesgue",
+        "1902"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fubini",
+      "tier": "power",
+      "t": "Fubini’s theorem lets a double one be done one variable at a time",
+      "k": [
+        "fubini",
+        "one variable"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gaussian",
+      "tier": "power",
+      "t": "Over the whole number line, e^(−x²) gives √π; that curve has no ordinary antiderivative, so the error function is defined for it",
+      "k": [
+        "error function",
+        "√π"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "gabriel",
+      "tier": "power",
+      "t": "Gabriel’s horn, studied by Evangelista Torricelli, has finite volume but infinite surface area; ones over infinite intervals are “improper”",
+      "k": [
+        "gabriel’s horn",
+        "torricelli",
+        "improper"
+      ],
+      "n": 0
+    },
+    {
+      "id": "green",
+      "tier": "power",
+      "t": "Green’s theorem turns one around a closed curve into one over the region inside it",
+      "k": [
+        "green’s theorem",
+        "closed curve"
+      ],
+      "n": 0
+    },
+    {
+      "id": "transforms",
+      "tier": "power",
+      "t": "The Laplace and Fourier transforms, and Euler’s gamma function, are all defined with it",
+      "k": [
+        "laplace",
+        "fourier",
+        "gamma function"
+      ],
+      "n": 0
+    },
+    {
+      "id": "probability",
+      "tier": "power",
+      "t": "Doing it on a probability density function gives the chance of landing in a range of values",
+      "k": [
+        "probability density",
+        "range"
+      ],
+      "n": 0,
+      "rabbit": "Normal distribution"
+    }
+  ],
+  "trap": {
+    "title": "Derivative or its reverse?",
+    "body": "Derivatives and integrals are partners, and the Fundamental Theorem of Calculus shows up in tossups on both. Derivatives measure slope or instantaneous rate of change, while integrals measure area or accumulation, so mixing them up is the most common mistake. Some tossups want “Riemann sums” or “limits,” which are tools used to define an integral rather than the integral itself.",
+    "fix": "Listen for the key words: “slope,” “tangent line,” or “rate of change” mean derivative; “area under a curve,” “antiderivative,” “accumulation,” or the long S symbol mean integral. “Integration” is also accepted, but “antiderivative” alone earns a prompt.",
+    "line": "Real answer line: <b><u>integral</u></b>s (or <u>integration</u>; prompt on <u>antiderivative</u>s or <u>area under the curve</u>; do not accept “derivative”)"
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "id": "determinant",
+  "name": "Determinant",
+  "mono": "DET",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "One number computed from a square matrix · Zero means no inverse",
+  "dates": "First studied by Seki and Leibniz, 1680s–1690s",
+  "briefing": "The determinant is a single number calculated from a square matrix. For a 2 × 2 matrix with rows a, b and c, d, it equals ad − bc, and it tells you how much the matrix stretches or shrinks areas. If the determinant is zero, the matrix squashes space flat and has no inverse, which is why mathematicians check it before solving systems of equations.",
+  "answerHtml": "<b><u>determinant</u></b> (accept <u>det</u>; do not accept “matrix” or “discriminant”)",
+  "accept": [
+    "determinant",
+    "determinants",
+    "det",
+    "determinant of a matrix",
+    "determinant of the matrix",
+    "determinant of matrix",
+    "determinant of a square matrix",
+    "the determinant of a matrix",
+    "the determinant of the matrix",
+    "matrix determinant",
+    "matrix determinants",
+    "the matrix determinant"
+  ],
+  "prompt": [],
+  "reject": [
+    "matrix",
+    "matrices",
+    "matrixes",
+    "discriminant",
+    "discriminants",
+    "determination",
+    "eigenvalue",
+    "eigenvalues",
+    "eigenvector",
+    "eigenvectors",
+    "trace",
+    "permanent",
+    "inverse",
+    "transpose",
+    "rank",
+    "cofactor",
+    "cofactors",
+    "minor",
+    "minors",
+    "cramers rule",
+    "cramer rule",
+    "characteristic polynomial",
+    "characteristic equation"
+  ],
+  "tests": {
+    "right": [
+      "determinant",
+      "Determinants",
+      "det",
+      "determinent",
+      "determinant of a matrix"
+    ],
+    "prompt": [],
+    "wrong": [
+      "matrix",
+      "Matrices",
+      "discriminant",
+      "eigenvalues",
+      "trace",
+      "permanent"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Determinant",
+  "qb": {
+    "q": "determinant",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Seki Takakazu [“SEH-kee tah-kah-KAH-zoo”] in Japan and Gottfried Leibniz in Germany each discovered this quantity in the late 1600s while studying systems of linear equations. This quantity for a product of two square matrices equals the product of their separate values of this quantity.",
+      "r": "For 10 points, name this number computed from a square matrix, which equals ad minus bc for a 2-by-2 matrix."
+    },
+    {
+      "p": "Cramer’s rule solves a system of linear equations by dividing two values of this quantity, one of them found after replacing a column of the coefficient matrix with the constants from the right side of the equations. Gabriel Cramer published that rule in 1750.",
+      "r": "If this quantity is zero, the matrix has no inverse. For 10 points, name this number calculated from a square matrix."
+    },
+    {
+      "p": "For a 3-by-3 matrix whose rows are three vectors, the absolute value of this quantity is the volume of the parallelepiped [“pair-uh-lel-uh-PIE-ped”] they form; for two vectors in a plane, its absolute value is the area of their parallelogram. A negative value of this quantity means a transformation flips space like a mirror.",
+      "r": "It equals ad minus bc for a 2-by-2 matrix. For 10 points, name this number, which is zero for any square matrix with no inverse."
+    },
+    {
+      "p": "Setting this quantity for A minus lambda times the identity matrix equal to zero gives the characteristic equation, whose solutions are the eigenvalues of A. This quantity for any square matrix equals the product of all its eigenvalues.",
+      "r": "For 10 points, name this number, written with vertical bars around a matrix, that equals ad minus bc for a 2-by-2 matrix."
+    },
+    {
+      "p": "The cross product of two vectors can be found by computing this quantity for a 3-by-3 array whose top row holds the unit vectors i, j, and k. The rule of Sarrus [“sah-ROOS”] is a shortcut for finding this quantity for a 3-by-3 matrix by multiplying along its diagonals.",
+      "r": "For 10 points, name this number computed from a square matrix, which is zero when the matrix cannot be inverted."
+    },
+    {
+      "p": "Swapping two rows of a matrix flips the sign of this quantity, while adding a multiple of one row to another row leaves it unchanged. This quantity for a triangular matrix is simply the product of the entries on its main diagonal.",
+      "r": "For 10 points, name this number, which equals ad minus bc for the 2-by-2 matrix with rows a, b and c, d."
+    },
+    {
+      "p": "Laplace expansion finds this quantity by working along any one row or column and combining it with values of this quantity for smaller square pieces, called minors. The Leibniz formula writes this quantity as a sum over all permutations, so a 4-by-4 matrix needs 24 terms.",
+      "r": "For 10 points, name this value calculated from a square matrix, which tells whether the matrix has an inverse."
+    },
+    {
+      "p": "The Wronskian [“RON-skee-un”] is a version of this quantity used to test whether solutions of a differential equation are linearly independent. The Jacobian version of this quantity tells how much a change of variables stretches area in a double integral.",
+      "r": "For 10 points, name this number computed from a square matrix, which is zero exactly when the matrix has no inverse."
+    },
+    {
+      "p": "Alexandre-Théophile Vandermonde [“vahn-dair-MOHND”] names a special matrix whose value of this quantity equals the product of all the differences between its variables. Arthur Cayley introduced the notation of vertical bars around a grid of numbers for this quantity in 1841.",
+      "r": "For 10 points, name this number, found for a 2-by-2 matrix by computing ad minus bc."
+    },
+    {
+      "p": "Every rotation matrix has this quantity equal to exactly 1, while every reflection matrix has it equal to negative 1. A square matrix is called singular when this quantity equals 0.",
+      "r": "For 10 points, name this number calculated from a square matrix, such as ad minus bc for a 2-by-2 one."
+    },
+    {
+      "p": "Carl Friedrich Gauss used this quantity’s name in 1801 for a number linked to quadratic forms, and Augustin-Louis Cauchy gave the name its modern meaning in 1812. James Joseph Sylvester named matrices because he saw them as grids out of which values of this quantity can be formed.",
+      "r": "For 10 points, name this number computed from a square matrix, which is not zero exactly when the matrix has an inverse."
+    },
+    {
+      "p": "This quantity is the same for a matrix and for its transpose, and this quantity for a matrix’s inverse is the reciprocal of its value for the matrix. Multiplying every entry of a 3-by-3 matrix by 2 multiplies this quantity by 8.",
+      "r": "For 10 points, name this number, which equals ad minus bc for a 2-by-2 matrix."
+    },
+    {
+      "p": "Half of the absolute value of this quantity, computed from the coordinates of three points, gives the area of the triangle they form, an idea behind the shoelace formula. If this quantity is zero, the three points lie on one straight line.",
+      "r": "It tells whether a square matrix has an inverse. For 10 points, name this number, which equals ad minus bc for a 2-by-2 matrix."
+    },
+    {
+      "p": "Charles Dodgson, better known as the author of _Alice’s Adventures in Wonderland_, invented a “condensation” method for computing this quantity. For the matrix with rows 3, 1 and 4, 2, this quantity equals 2.",
+      "r": "For 10 points, name this number found from a square matrix, which must be nonzero for the matrix to have an inverse."
+    },
+    {
+      "p": "The permanent of a matrix is calculated just like this quantity, except that all of its terms are added and none are subtracted. This quantity equals 1 for the identity matrix and 0 for any square matrix with two identical rows.",
+      "r": "For 10 points, name this number, calculated as ad minus bc for a 2-by-2 matrix, which shows whether a matrix can be inverted."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "A single number calculated from a square matrix",
+      "k": [
+        "single number",
+        "square matrix"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-by-two",
+      "tier": "giveaway",
+      "t": "For a 2 × 2 matrix with rows a, b and c, d, it equals ad − bc",
+      "k": [
+        "ad − bc",
+        "2 × 2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inverse",
+      "tier": "giveaway",
+      "t": "A square matrix has an inverse exactly when this number is not zero",
+      "k": [
+        "inverse",
+        "not zero"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bars",
+      "tier": "giveaway",
+      "t": "Written by putting vertical bars around the grid of numbers",
+      "k": [
+        "vertical bars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "singular",
+      "tier": "middle",
+      "t": "If it is zero, the matrix is called singular and cannot be inverted",
+      "k": [
+        "singular",
+        "inverted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "area-volume",
+      "tier": "middle",
+      "t": "Its absolute value gives the area of a parallelogram (from two vectors) or the volume of a parallelepiped (from three)",
+      "k": [
+        "parallelogram",
+        "parallelepiped",
+        "absolute value"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sign",
+      "tier": "middle",
+      "t": "A negative value means the transformation flips orientation, like a mirror",
+      "k": [
+        "negative",
+        "mirror",
+        "orientation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "multiplicative",
+      "tier": "middle",
+      "t": "Multiplicative: its value for a product AB equals its value for A times its value for B",
+      "k": [
+        "multiplicative",
+        "product"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cramer",
+      "tier": "middle",
+      "t": "Cramer’s rule (Gabriel Cramer, 1750) solves linear systems using ratios of these numbers",
+      "k": [
+        "cramer",
+        "1750",
+        "linear systems"
+      ],
+      "n": 0,
+      "rabbit": "Systems of linear equations"
+    },
+    {
+      "id": "eigen",
+      "tier": "middle",
+      "t": "Equals the product of the eigenvalues; setting its value for A − λI equal to zero gives the characteristic equation",
+      "k": [
+        "eigenvalues",
+        "characteristic equation"
+      ],
+      "n": 0,
+      "rabbit": "Eigenvalues"
+    },
+    {
+      "id": "row-operations",
+      "tier": "middle",
+      "t": "Swapping two rows flips its sign; adding a multiple of one row to another leaves it unchanged",
+      "k": [
+        "swapping",
+        "sign",
+        "unchanged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triangular",
+      "tier": "middle",
+      "t": "For a triangular matrix it is the product of the main-diagonal entries; for the identity matrix it is 1",
+      "k": [
+        "triangular",
+        "main-diagonal",
+        "identity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cross-product",
+      "tier": "middle",
+      "t": "The cross product of two vectors can be found as one of these with i, j, and k in the top row",
+      "k": [
+        "cross product",
+        "top row"
+      ],
+      "n": 0,
+      "rabbit": "Vectors"
+    },
+    {
+      "id": "identical-rows",
+      "tier": "middle",
+      "t": "It is 0 for any square matrix with two identical rows or with a row of all zeros",
+      "k": [
+        "identical rows",
+        "zeros"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seki-leibniz",
+      "tier": "power",
+      "t": "Discovered independently by Seki Takakazu in Japan (1683) and by Gottfried Leibniz (1693)",
+      "k": [
+        "seki",
+        "leibniz",
+        "1683"
+      ],
+      "n": 0,
+      "rabbit": "Gottfried Wilhelm Leibniz"
+    },
+    {
+      "id": "gauss-cauchy",
+      "tier": "power",
+      "t": "Gauss used its name in 1801 for quadratic forms; Augustin-Louis Cauchy gave the name its modern meaning in 1812",
+      "k": [
+        "gauss",
+        "cauchy",
+        "1801",
+        "1812"
+      ],
+      "n": 0,
+      "rabbit": "Augustin-Louis Cauchy"
+    },
+    {
+      "id": "cayley-sylvester",
+      "tier": "power",
+      "t": "Arthur Cayley introduced its vertical-bar notation (1841); James Joseph Sylvester named matrices (1850) as the “womb” these numbers come from",
+      "k": [
+        "cayley",
+        "sylvester",
+        "1841",
+        "womb"
+      ],
+      "n": 0,
+      "rabbit": "Matrices"
+    },
+    {
+      "id": "sarrus",
+      "tier": "power",
+      "t": "The rule of Sarrus finds the 3 × 3 value by multiplying along diagonals",
+      "k": [
+        "sarrus",
+        "diagonals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laplace",
+      "tier": "power",
+      "t": "Laplace (cofactor) expansion works along any row or column, using smaller ones called minors and cofactors",
+      "k": [
+        "laplace",
+        "cofactor",
+        "minors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leibniz-formula",
+      "tier": "power",
+      "t": "The Leibniz formula sums over all permutations, so a 4 × 4 matrix needs 24 terms",
+      "k": [
+        "permutations",
+        "24 terms"
+      ],
+      "n": 0,
+      "rabbit": "Permutations"
+    },
+    {
+      "id": "wronskian",
+      "tier": "power",
+      "t": "The Wronskian, one of these built from functions, tests whether solutions of a differential equation are linearly independent",
+      "k": [
+        "wronskian",
+        "linearly independent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jacobian",
+      "tier": "power",
+      "t": "The Jacobian one measures how a change of variables stretches area in a double integral",
+      "k": [
+        "jacobian",
+        "change of variables"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vandermonde",
+      "tier": "power",
+      "t": "The Vandermonde one equals the product of all the differences between its variables",
+      "k": [
+        "vandermonde",
+        "differences"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rotation-reflection",
+      "tier": "power",
+      "t": "Rotation matrices have it equal to 1; reflection matrices have it equal to −1",
+      "k": [
+        "rotation",
+        "reflection"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scaling",
+      "tier": "power",
+      "t": "It is the same for a matrix and its transpose; the inverse has the reciprocal value; doubling every entry of an n × n matrix multiplies it by 2^n",
+      "k": [
+        "transpose",
+        "reciprocal",
+        "doubling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triangle-area",
+      "tier": "power",
+      "t": "Half its absolute value, from three points’ coordinates, is their triangle’s area (the shoelace idea); zero means the points are collinear",
+      "k": [
+        "shoelace",
+        "collinear"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dodgson",
+      "tier": "power",
+      "t": "Charles Dodgson (Lewis Carroll) invented a “condensation” method for computing it",
+      "k": [
+        "dodgson",
+        "lewis carroll",
+        "condensation"
+      ],
+      "n": 0,
+      "rabbit": "Lewis Carroll"
+    },
+    {
+      "id": "permanent",
+      "tier": "power",
+      "t": "The permanent is computed the same way, except that every term is added",
+      "k": [
+        "permanent",
+        "added"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Number, not the matrix",
+    "body": "Clues about matrices and determinants overlap, but a determinant is a single number while a matrix is the whole rectangular array. Tossups that ask for “these arrays” want matrices, and ones that ask for the special values λ want eigenvalues. Don’t confuse it with the discriminant, b² − 4ac, either: that number tells how many real roots a quadratic has.",
+    "fix": "Listen for the noun: “this quantity,” “this value,” or “this scalar,” plus “ad − bc” or “zero means no inverse,” means determinant. “These arrays,” “rows and columns,” or “multiplied row by column” means matrices.",
+    "line": "Real answer line: <b><u>determinant</u></b> (accept <u>det</u>; do not accept “matrix”)"
+  }
+}

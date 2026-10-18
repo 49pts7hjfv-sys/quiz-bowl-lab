@@ -1,0 +1,357 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "teeth",
+    "name": "Teeth",
+    "mono": "TTH",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Enamel-coated structures for biting and chewing · From incisors to molars",
+    "dates": "32 in a full adult set",
+    "briefing": "Teeth are covered in enamel, the hardest substance in the human body, yet enamel has no living cells, so it can’t heal itself the way bone does. Under it lies yellowish dentin, and at the center is a soft pulp full of nerves and blood vessels. Children grow 20 baby teeth, which give way to 32 permanent ones, from sharp incisors in front to flat, grinding molars in back.",
+    "answerHtml": "<b><u>Teeth</u></b> (accept <u>tooth</u> or <u>dentition</u>; prompt on specific kinds such as <u>molars</u>, <u>incisors</u>, or <u>canines</u>; do not accept “enamel” or “bones”)",
+    "accept": [
+        "teeth",
+        "tooth",
+        "dentition",
+        "human teeth"
+    ],
+    "prompt": [
+        "molars",
+        "molar",
+        "incisors",
+        "incisor",
+        "canines",
+        "canine",
+        "canine teeth",
+        "premolars",
+        "premolar",
+        "bicuspids",
+        "bicuspid",
+        "wisdom teeth",
+        "wisdom tooth",
+        "tusks",
+        "tusk",
+        "fangs",
+        "fang"
+    ],
+    "reject": [
+        "enamel",
+        "tooth enamel",
+        "dentin",
+        "dentine",
+        "pulp",
+        "gums",
+        "gum",
+        "jaw",
+        "jaws",
+        "jawbone",
+        "mandible",
+        "bone",
+        "bones",
+        "tongue",
+        "baleen",
+        "beak",
+        "beaks",
+        "cementum",
+        "dentist",
+        "dentists",
+        "dentures",
+        "false teeth",
+        "thoth"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Tooth",
+    "qb": {
+        "q": "teeth",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Pierre Fauchard [“foh-SHAR”], called the father of modern dentistry, wrote a 1728 book about caring for these structures, _The Surgeon Dentist_. Beneath their outer layer is a yellowish tissue called dentin, and at their center is a soft pulp filled with nerves and blood vessels.",
+            "r": "Their outer covering, enamel, is the hardest substance in the human body. For 10 points, name these structures, including molars and incisors, that are used to chew food."
+        },
+        {
+            "p": "After the Battle of Bunker Hill, Paul Revere identified the body of his friend Joseph Warren by recognizing a wired-in replacement he had made for one of these structures. Revere, a silversmith, also advertised that he could fit people with artificial ones.",
+            "r": "Adults normally have 32 of these structures, while children have 20. For 10 points, name these hard structures in the mouth, such as canines and molars."
+        },
+        {
+            "p": "Contrary to legend, George Washington’s replacements for these structures were not made of wood; one set was carved partly from hippopotamus ivory. When he became president in 1789, Washington had only one of his own left.",
+            "r": "Dentists check these structures for cavities. For 10 points, name these structures covered in enamel, which include incisors, canines, and molars."
+        },
+        {
+            "p": "Frederick McKay studied a “Colorado brown stain” on these structures in Colorado Springs and noticed that people with the stain had surprisingly few cavities. That stain was traced to fluoride in the water, and in 1945 Grand Rapids, Michigan, became the first city to add fluoride to its water supply.",
+            "r": "For 10 points, name these structures whose outer layer, enamel, is the hardest substance in the human body."
+        },
+        {
+            "p": "Cells called ameloblasts [“uh-MEL-oh-blasts”] build the outer layer of these structures but are lost once the structures emerge, so that layer can never grow back. Cells called odontoblasts [“oh-DON-toh-blasts”] make these structures’ dentin, which is full of tiny tubes.",
+            "r": "These structures sit in sockets in the jaw. For 10 points, name these structures, including molars, whose enamel is the hardest substance in the body."
+        },
+        {
+            "p": "Biologists summarize these structures with a formula; for adult humans it is 2-1-2-3, a count for each quarter of the mouth. Most mammals are “heterodont,” meaning they have several different kinds of these structures, while many reptiles have only one kind.",
+            "r": "Those kinds include incisors, canines, premolars, and molars. For 10 points, name these hard structures used for biting and chewing."
+        },
+        {
+            "p": "A shark’s skin is covered in dermal denticles [“DEN-tih-kulz”], tiny scales built much like these structures. Sharks constantly replace these structures, which grow in rows and move forward like a conveyor belt as old ones fall out.",
+            "r": "Humans get only two sets of these structures: 20 primary ones and 32 permanent ones. For 10 points, name these structures used for chewing."
+        },
+        {
+            "p": "A beaver’s front examples of these structures are orange because of iron in their enamel, and in all rodents those front incisors never stop growing, so the animals must gnaw to wear them down. Elephant tusks are actually giant incisors.",
+            "r": "For 10 points, name these hard structures in the mouths of most mammals, which include canines and molars."
+        },
+        {
+            "p": "A narwhal’s long tusk is actually one of these structures, a canine that usually grows out through the upper lip of males, and a walrus’s tusks are canines too. In humans, the last of these structures to come in are the third molars, nicknamed for “wisdom.”",
+            "r": "For 10 points, name these structures, covered in enamel, that people brush and floss to prevent cavities."
+        },
+        {
+            "p": "The bacterium _Streptococcus mutans_ [“strep-tuh-KOK-us MYOO-tanz”] is a main cause of decay in these structures, because it turns sugar into acid. Sticky plaque on these structures can harden into tartar, which is also called calculus.",
+            "r": "Dentists fill cavities in these structures. For 10 points, name these structures, such as incisors and molars, that are covered in enamel."
+        },
+        {
+            "p": "William Morton’s famous 1846 public demonstration of ether at Massachusetts General Hospital helped launch modern anesthesia. Morton and Horace Wells, who tried laughing gas, were both dentists hoping to spare patients pain when these structures were pulled.",
+            "r": "For 10 points, name these structures in the mouth, which include canines and premolars and are covered in enamel."
+        },
+        {
+            "p": "A bone-like layer called cementum covers the root of each of these structures, and the periodontal [“pair-ee-oh-DON-tul”] ligament holds each one in its socket. A root canal treatment removes infected pulp from inside one of these.",
+            "r": "The visible part of each of these structures is its crown. For 10 points, name these structures, coated with enamel, that grind and cut food."
+        },
+        {
+            "p": "The hardest part of these structures is made mostly of a calcium phosphate mineral called hydroxyapatite [“hy-DROX-ee-AP-uh-tite”], and fluoride helps it resist acid by turning some of it into fluorapatite. Unlike bone, that outer layer contains no living cells, so it cannot repair itself.",
+            "r": "That layer is enamel. For 10 points, name these structures, which people use to bite and chew food."
+        },
+        {
+            "p": "Paleontologists often identify fossil mammals from these structures alone, because their enamel survives so well. _Smilodon_ [“SMY-luh-don”], a big cat of the Ice Age, is famous for two of these structures that grew into long, blade-like canines.",
+            "r": "Humans have 32 of these structures as adults. For 10 points, name these structures, including incisors and molars, that are anchored in the jaw."
+        },
+        {
+            "p": "Dentin forms most of each of these structures, under an outer coating of enamel. Children lose their primary, or “baby,” set of these structures and grow a permanent set, which usually begins with the first molars around age six.",
+            "r": "For 10 points, name these structures in the mouth, which include incisors for cutting and molars for grinding."
+        }
+    ],
+    "clues": [
+        {
+            "id": "enamel",
+            "tier": "giveaway",
+            "t": "Coated in enamel, the hardest substance in the human body",
+            "k": ["enamel", "hardest substance"],
+            "n": 0
+        },
+        {
+            "id": "kinds",
+            "tier": "giveaway",
+            "t": "Kinds include incisors for cutting, canines for tearing, and premolars and molars for grinding",
+            "k": ["incisors", "canines", "premolars", "molars"],
+            "n": 0
+        },
+        {
+            "id": "counts",
+            "tier": "giveaway",
+            "t": "Adults have 32 permanent ones; children have 20 primary, or “baby,” ones",
+            "k": ["32", "20", "permanent", "primary"],
+            "n": 0
+        },
+        {
+            "id": "cavities",
+            "tier": "giveaway",
+            "t": "Dentists fix cavities, which form when mouth bacteria turn sugar into acid",
+            "k": ["dentists", "cavities", "acid"],
+            "n": 0
+        },
+        {
+            "id": "crown-socket",
+            "tier": "giveaway",
+            "t": "Each has a visible crown and is anchored in a socket in the jaw",
+            "k": ["crown", "socket", "jaw"],
+            "n": 0
+        },
+        {
+            "id": "dentin",
+            "tier": "middle",
+            "t": "Yellowish dentin, made by odontoblasts, forms most of each one, beneath the enamel",
+            "k": ["dentin", "yellowish"],
+            "n": 0
+        },
+        {
+            "id": "pulp",
+            "tier": "middle",
+            "t": "The soft pulp at the center holds nerves and blood vessels; a root canal removes infected pulp",
+            "k": ["pulp", "root canal", "nerves"],
+            "n": 0
+        },
+        {
+            "id": "fluoride",
+            "tier": "middle",
+            "t": "Fluoride helps enamel resist acid; Grand Rapids, Michigan, first added it to city water in 1945",
+            "k": ["fluoride", "grand rapids", "1945"],
+            "n": 0
+        },
+        {
+            "id": "plaque-tartar",
+            "tier": "middle",
+            "t": "Sticky plaque can harden into tartar, also called calculus",
+            "k": ["plaque", "tartar", "calculus"],
+            "n": 0
+        },
+        {
+            "id": "hydroxyapatite",
+            "tier": "middle",
+            "t": "Enamel is mostly hydroxyapatite, a calcium phosphate mineral; it has no living cells, so it can’t repair itself",
+            "k": ["hydroxyapatite", "calcium phosphate", "no living cells"],
+            "n": 0
+        },
+        {
+            "id": "cementum",
+            "tier": "middle",
+            "t": "Cementum coats the root, and the periodontal ligament holds it in its socket",
+            "k": ["cementum", "periodontal ligament"],
+            "n": 0
+        },
+        {
+            "id": "tusks",
+            "tier": "middle",
+            "t": "Elephant tusks are giant incisors; narwhal and walrus tusks are canines",
+            "k": ["tusks", "elephant", "narwhal", "walrus"],
+            "n": 0
+        },
+        {
+            "id": "sharks",
+            "tier": "middle",
+            "t": "Sharks replace theirs all their lives, in rows that move forward like a conveyor belt",
+            "k": ["sharks", "conveyor belt", "rows"],
+            "n": 0
+        },
+        {
+            "id": "rodents",
+            "tier": "middle",
+            "t": "Rodent incisors never stop growing; beavers’ are orange from iron in the enamel",
+            "k": ["rodent", "beavers", "iron"],
+            "n": 0
+        },
+        {
+            "id": "fauchard",
+            "tier": "power",
+            "t": "Pierre Fauchard, the “father of modern dentistry,” wrote _The Surgeon Dentist_ (1728)",
+            "k": ["fauchard", "surgeon dentist", "1728"],
+            "n": 0
+        },
+        {
+            "id": "revere",
+            "tier": "power",
+            "t": "Paul Revere identified Joseph Warren’s body after Bunker Hill by dental work he had made",
+            "k": ["paul revere", "joseph warren", "bunker hill"],
+            "n": 0
+        },
+        {
+            "id": "washington",
+            "tier": "power",
+            "t": "George Washington’s dentures weren’t wooden; one set used hippopotamus ivory, and by 1789 he had only one of his own left",
+            "k": ["washington", "dentures", "hippopotamus"],
+            "n": 0,
+            "rabbit": "George Washington"
+        },
+        {
+            "id": "mckay",
+            "tier": "power",
+            "t": "Frederick McKay’s study of “Colorado brown stain” in Colorado Springs led to the discovery that fluoride fights cavities",
+            "k": ["mckay", "colorado brown stain", "colorado springs"],
+            "n": 0
+        },
+        {
+            "id": "ameloblasts",
+            "tier": "power",
+            "t": "Ameloblasts build enamel and are lost once the structure emerges; odontoblasts build dentin",
+            "k": ["ameloblasts", "odontoblasts"],
+            "n": 0
+        },
+        {
+            "id": "dental-formula",
+            "tier": "power",
+            "t": "The adult human dental formula is 2-1-2-3 for each quarter of the mouth",
+            "k": ["dental formula", "2-1-2-3", "quarter"],
+            "n": 0
+        },
+        {
+            "id": "heterodont",
+            "tier": "power",
+            "t": "Most mammals are heterodont (several kinds); many reptiles have just one kind",
+            "k": ["heterodont", "reptiles"],
+            "n": 0
+        },
+        {
+            "id": "wells-morton",
+            "tier": "power",
+            "t": "Dentists Horace Wells (laughing gas) and William Morton (ether, 1846) pioneered anesthesia",
+            "k": ["horace wells", "william morton", "anesthesia", "ether"],
+            "n": 0
+        },
+        {
+            "id": "strep-mutans",
+            "tier": "power",
+            "t": "_Streptococcus mutans_ is the main bacterium behind cavities, or decay",
+            "k": ["streptococcus mutans", "bacterium"],
+            "n": 0
+        },
+        {
+            "id": "denticles",
+            "tier": "power",
+            "t": "Shark skin is covered in dermal denticles, tiny scales built much like them",
+            "k": ["dermal denticles", "shark skin"],
+            "n": 0
+        },
+        {
+            "id": "smilodon",
+            "tier": "power",
+            "t": "Paleontologists identify fossil mammals by them; _Smilodon_ had long, blade-like canines",
+            "k": ["paleontologists", "smilodon", "fossil"],
+            "n": 0
+        },
+        {
+            "id": "wisdom",
+            "tier": "power",
+            "t": "The third molars, nicknamed for “wisdom,” usually come in during the late teens or early twenties",
+            "k": ["third molars", "wisdom"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Enamel is just one layer",
+        "body": "Many tossups lead with enamel, “the hardest substance in the human body,” and eager players buzz with “enamel” when the question asks for the whole structure. Others call teeth bones, but they are not: enamel has no living cells and cannot heal. Naming just one kind, like “molars,” is also too narrow when the clues cover every kind.",
+        "fix": "Listen to the noun: “this substance” or “this tissue” wants enamel or dentin, but “these structures” wants teeth (or tooth). Give a specific kind like molars or canines only if every clue is about that kind.",
+        "line": "Real answer line: <b><u>Teeth</u></b> (accept <u>tooth</u>; prompt on specific kinds like <u>molars</u> or <u>incisors</u>; do not accept “enamel”)"
+    },
+    "tests": {
+        "right": [
+            "Teeth",
+            "tooth",
+            "Teath",
+            "human teeth",
+            "Dentition"
+        ],
+        "prompt": [
+            "Molars",
+            "incisors"
+        ],
+        "wrong": [
+            "Enamel",
+            "Dentin",
+            "Bones",
+            "Gums",
+            "Tooth enamel",
+            "Thoth"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

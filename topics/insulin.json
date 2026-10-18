@@ -1,0 +1,436 @@
+{
+  "id": "insulin",
+  "name": "Insulin",
+  "mono": "INS",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Blood-sugar-lowering hormone · Made by the pancreas’s beta cells",
+  "dates": "Discovered in 1921",
+  "briefing": "After you eat, sugar from your food pours into your blood, and your pancreas answers by releasing insulin. This hormone works like a key, signaling muscle, fat, and liver cells to take glucose out of the blood and store it. Before Frederick Banting and Charles Best discovered insulin in 1921, there was no good treatment for type 1 diabetes; today, people with it use insulin shots or pumps.",
+  "answerHtml": "<b><u>Insulin</u></b> (do not accept “glucagon”)",
+  "accept": [
+    "insulin",
+    "human insulin"
+  ],
+  "prompt": [],
+  "reject": [
+    "glucagon",
+    "inulin",
+    "proinsulin",
+    "preproinsulin",
+    "insulin resistance",
+    "insulin receptor",
+    "insulin pump",
+    "insulin like growth factor",
+    "igf",
+    "igf 1",
+    "c peptide",
+    "amylin",
+    "somatostatin",
+    "glucose",
+    "glycogen",
+    "diabetes",
+    "pancreas",
+    "islets of langerhans",
+    "beta cells",
+    "cortisol",
+    "epinephrine",
+    "adrenaline",
+    "thyroxine",
+    "growth hormone",
+    "leptin",
+    "ghrelin",
+    "secretin",
+    "gastrin"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Insulin",
+  "qb": {
+    "q": "insulin",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Frederick Sanger won his first Nobel Prize for working out the order of amino acids in this hormone, the first protein ever sequenced. This hormone’s two chains, called A and B, are held together by disulfide bonds.",
+      "r": "For 10 points, name this hormone made by the pancreas that lowers blood sugar."
+    },
+    {
+      "p": "Dorothy Crowfoot Hodgkin spent more than thirty years solving this hormone’s three-dimensional structure with X-ray crystallography, finishing in 1969. In the pancreas, this hormone is stored in granules as six-unit clusters held together by zinc ions.",
+      "r": "For 10 points, name this hormone that helps cells take in glucose from the blood."
+    },
+    {
+      "p": "Working in J. J. R. Macleod’s lab at the University of Toronto in 1921, two researchers extracted this hormone and tested it on diabetic dogs, and James Collip then purified it for use in people. In January 1922, fourteen-year-old Leonard Thompson became the first person treated with it.",
+      "r": "Those researchers were Frederick Banting and Charles Best. For 10 points, name this hormone that lowers blood sugar and is made in the pancreas."
+    },
+    {
+      "p": "In 1889, Oskar Minkowski and Joseph von Mering found that removing a dog’s pancreas caused diabetes, a clue that the organ makes this hormone. Twenty years earlier, Paul Langerhans had described the clusters of cells that produce it.",
+      "r": "For 10 points, name this hormone, made in the islets of Langerhans, that lowers blood sugar."
+    },
+    {
+      "p": "World Diabetes Day falls on November 14, the birthday of a co-discoverer of this hormone who shared the 1923 Nobel Prize in Physiology or Medicine with J. J. R. Macleod. That discoverer split his prize money with his young assistant.",
+      "r": "The discoverer was Frederick Banting, and the assistant was Charles Best. For 10 points, name this hormone used to treat diabetes."
+    },
+    {
+      "p": "In 1982, a human version of this hormone made by genetically engineered E. coli bacteria became the first medicine made with recombinant DNA to be approved for people. Before then, patients used this hormone taken from the pancreases of cattle and pigs.",
+      "r": "For 10 points, name this hormone that people with type 1 diabetes need to take."
+    },
+    {
+      "p": "Beta cells first make this hormone as a longer chain, then cut out a piece called C-peptide, so doctors measure C-peptide to learn how much of this hormone a person’s body makes on its own.",
+      "r": "This hormone tells the liver to store glucose as glycogen. For 10 points, name this hormone that lowers blood sugar."
+    },
+    {
+      "p": "This hormone binds a receptor tyrosine kinase, which signals muscle and fat cells to move GLUT4 transporters to their surface so they can take in glucose. It also tells fat cells to store fat rather than break it down.",
+      "r": "For 10 points, name this hormone from the pancreas that lowers blood sugar."
+    },
+    {
+      "p": "Rosalyn Yalow won a Nobel Prize for the radioimmunoassay, a method that let doctors measure tiny amounts of this hormone in a person’s blood. This hormone is made by beta cells, which sit next to alpha cells in the islets of Langerhans.",
+      "r": "Its partner hormone, glucagon, raises blood sugar. For 10 points, name this hormone that lowers blood sugar."
+    },
+    {
+      "p": "When glucose enters beta cells, rising ATP closes potassium channels and lets calcium rush in, triggering the release of this hormone, and sulfonylurea [“SUL-fuh-nil-yoo-REE-uh”] drugs work by closing those same channels. Its release climbs after a meal as blood sugar rises.",
+      "r": "For 10 points, name this hormone from the pancreas that helps cells absorb glucose."
+    },
+    {
+      "p": "In type 1 diabetes, the immune system destroys the cells that make this hormone, while in type 2 diabetes, the body’s cells stop responding to it well. Many people with diabetes check their blood sugar before giving themselves doses of it.",
+      "r": "For 10 points, name this hormone, made in the pancreas, that lowers blood sugar."
+    },
+    {
+      "p": "Because this hormone is a protein, digestive enzymes would break it apart in the stomach and intestines, so it is usually injected or delivered by a pump instead of swallowed as a pill.",
+      "r": "For 10 points, name this hormone that people with type 1 diabetes need, which lowers blood sugar."
+    },
+    {
+      "p": "This hormone tells the liver to store glucose as glycogen and slows the liver from making new glucose. Its partner hormone, released by alpha cells, does the opposite by raising blood sugar.",
+      "r": "That partner hormone is glucagon, and both come from the islets of Langerhans. For 10 points, name this hormone that lowers blood sugar."
+    },
+    {
+      "p": "Somatostatin, released by delta cells, slows the release of both this hormone and glucagon. This hormone’s name comes from the Latin word for “island,” because it is made in small clusters of cells scattered through the pancreas.",
+      "r": "Those clusters are the islets of Langerhans. For 10 points, name this hormone that lowers blood sugar."
+    },
+    {
+      "p": "This hormone contains 51 amino acids, with 21 in its A chain and 30 in its B chain. Taking too much of it can make blood sugar drop dangerously low, a condition called hypoglycemia [“hy-poh-gly-SEE-mee-uh”].",
+      "r": "For 10 points, name this hormone from the pancreas that many people with diabetes take to lower their blood sugar."
+    }
+  ],
+  "clues": [
+    {
+      "id": "lowers-blood-sugar",
+      "tier": "giveaway",
+      "t": "The hormone that lowers blood sugar by helping cells take in glucose",
+      "k": [
+        "blood sugar",
+        "glucose",
+        "lowers"
+      ],
+      "n": 0,
+      "rabbit": "Glucose"
+    },
+    {
+      "id": "pancreas",
+      "tier": "giveaway",
+      "t": "Made by the pancreas",
+      "k": [
+        "pancreas"
+      ],
+      "n": 0,
+      "rabbit": "Pancreas"
+    },
+    {
+      "id": "diabetes",
+      "tier": "giveaway",
+      "t": "Too little of it, or cells that respond poorly to it, causes diabetes; many people with diabetes take it by injection or pump",
+      "k": [
+        "diabetes",
+        "injection",
+        "pump"
+      ],
+      "n": 0,
+      "rabbit": "Diabetes"
+    },
+    {
+      "id": "banting-best",
+      "tier": "giveaway",
+      "t": "Discovered by Frederick Banting and Charles Best in Toronto in 1921",
+      "k": [
+        "banting",
+        "best",
+        "toronto",
+        "1921"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glucagon",
+      "tier": "giveaway",
+      "t": "Its partner hormone, glucagon, does the opposite job and raises blood sugar",
+      "k": [
+        "glucagon",
+        "opposite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beta-cells",
+      "tier": "middle",
+      "t": "Made by beta cells in the islets of Langerhans; nearby alpha cells make glucagon",
+      "k": [
+        "islets of langerhans",
+        "beta cells",
+        "islets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glycogen",
+      "tier": "middle",
+      "t": "Tells the liver and muscles to store glucose as glycogen, and tells fat cells to store fat",
+      "k": [
+        "glycogen",
+        "liver",
+        "store"
+      ],
+      "n": 0
+    },
+    {
+      "id": "type-1-type-2",
+      "tier": "middle",
+      "t": "In type 1 diabetes the immune system destroys the cells that make it; in type 2 the body’s cells respond poorly to it",
+      "k": [
+        "immune system",
+        "type 1",
+        "type 2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "protein-injected",
+      "tier": "middle",
+      "t": "A protein, so digestive enzymes would break it apart; that is why it is usually injected rather than swallowed",
+      "k": [
+        "protein",
+        "injected",
+        "digestive enzymes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "recombinant",
+      "tier": "middle",
+      "t": "In 1982, a human version made by genetically engineered E. coli became the first approved recombinant DNA medicine",
+      "k": [
+        "genetically engineered",
+        "recombinant",
+        "1982"
+      ],
+      "n": 0,
+      "rabbit": "E. coli"
+    },
+    {
+      "id": "cattle-pigs",
+      "tier": "middle",
+      "t": "Before 1982, patients used versions taken from the pancreases of cattle and pigs",
+      "k": [
+        "cattle",
+        "pigs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-1923",
+      "tier": "middle",
+      "t": "Banting and J. J. R. Macleod won the 1923 Nobel Prize; James Collip purified it for use in people",
+      "k": [
+        "macleod",
+        "collip",
+        "1923"
+      ],
+      "n": 0
+    },
+    {
+      "id": "island-name",
+      "tier": "middle",
+      "t": "Its name comes from the Latin word for “island,” after the cell clusters that make it",
+      "k": [
+        "island",
+        "latin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hypoglycemia",
+      "tier": "middle",
+      "t": "Too much of it can make blood sugar drop dangerously low, a condition called hypoglycemia",
+      "k": [
+        "hypoglycemia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sanger",
+      "tier": "power",
+      "t": "Frederick Sanger worked out its amino-acid order, the first protein ever sequenced (Nobel Prize, 1958)",
+      "k": [
+        "sanger",
+        "sequenced",
+        "1958"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hodgkin",
+      "tier": "power",
+      "t": "Dorothy Crowfoot Hodgkin solved its 3D structure by X-ray crystallography in 1969",
+      "k": [
+        "hodgkin",
+        "x-ray crystallography",
+        "1969"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-chains",
+      "tier": "power",
+      "t": "51 amino acids in two chains, A (21) and B (30), held together by disulfide bonds",
+      "k": [
+        "disulfide",
+        "two chains",
+        "51"
+      ],
+      "n": 0
+    },
+    {
+      "id": "c-peptide",
+      "tier": "power",
+      "t": "Made first as a longer chain; cutting out the C-peptide frees the active hormone",
+      "k": [
+        "c-peptide",
+        "longer chain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zinc",
+      "tier": "power",
+      "t": "Stored in granules as six-unit clusters (hexamers) held together by zinc",
+      "k": [
+        "zinc",
+        "hexamers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "receptor-glut4",
+      "tier": "power",
+      "t": "Binds a receptor tyrosine kinase, which makes muscle and fat cells move GLUT4 glucose transporters to their surface",
+      "k": [
+        "tyrosine kinase",
+        "glut4",
+        "transporters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minkowski",
+      "tier": "power",
+      "t": "Oskar Minkowski and Joseph von Mering (1889) found that removing a dog’s pancreas caused diabetes",
+      "k": [
+        "minkowski",
+        "von mering",
+        "1889"
+      ],
+      "n": 0
+    },
+    {
+      "id": "langerhans",
+      "tier": "power",
+      "t": "Paul Langerhans described the cell clusters that make it in 1869",
+      "k": [
+        "paul langerhans",
+        "1869"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leonard-thompson",
+      "tier": "power",
+      "t": "Fourteen-year-old Leonard Thompson was the first person treated with it, in January 1922",
+      "k": [
+        "leonard thompson",
+        "1922"
+      ],
+      "n": 0
+    },
+    {
+      "id": "world-diabetes-day",
+      "tier": "power",
+      "t": "World Diabetes Day, November 14, is Frederick Banting’s birthday",
+      "k": [
+        "world diabetes day",
+        "november 14"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yalow",
+      "tier": "power",
+      "t": "Rosalyn Yalow’s radioimmunoassay let doctors measure tiny amounts of it in blood (Nobel Prize, 1977)",
+      "k": [
+        "yalow",
+        "radioimmunoassay",
+        "1977"
+      ],
+      "n": 0
+    },
+    {
+      "id": "potassium-channels",
+      "tier": "power",
+      "t": "Glucose raises ATP in beta cells, closing potassium channels so calcium triggers its release; sulfonylurea drugs close the same channels",
+      "k": [
+        "potassium channels",
+        "calcium",
+        "sulfonylurea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "somatostatin",
+      "tier": "power",
+      "t": "Somatostatin from delta cells slows its release",
+      "k": [
+        "somatostatin",
+        "delta cells"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Insulin or glucagon?",
+    "body": "Both hormones come from the islets of Langerhans in the pancreas and both control blood sugar, but they push in opposite directions: insulin (from beta cells) lowers blood sugar, while glucagon (from alpha cells) raises it. Some tossups in this area want the organ (the pancreas) or the disease (diabetes) instead of the hormone.",
+    "fix": "Lowers blood sugar, beta cells, Banting and Best, Sanger, or storing glycogen means insulin. Raises blood sugar, alpha cells, or breaking down glycogen means glucagon. “This organ” means pancreas; “this disease” means diabetes.",
+    "line": "Real answer line: <b><u>Insulin</u></b> (do not accept “glucagon”)"
+  },
+  "tests": {
+    "right": [
+      "Insulin",
+      "insullin",
+      "Human insulin",
+      "insolin",
+      "insulin hormone"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Glucagon",
+      "Inulin",
+      "Glucose",
+      "Diabetes",
+      "Pancreas",
+      "Proinsulin",
+      "Insulin resistance"
+    ]
+  }
+}

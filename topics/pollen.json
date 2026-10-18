@@ -1,0 +1,466 @@
+{
+  "id": "pollen",
+  "name": "Pollen",
+  "mono": "PLN",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Fine dust made by flowers and cones · Needed for plants to make seeds",
+  "dates": "Its name is Latin for “fine flour”",
+  "briefing": "Pollen is the fine, often yellow dust that flowers and pine cones make so plants can produce seeds. Each tiny grain carries the male cells a plant needs, and it travels to another flower on the wind or hitches a ride on a bee, butterfly, bird, or bat. Its outer shell is so tough that grains buried in lake mud for thousands of years can still be identified, and in spring and summer it makes many people sneeze with hay fever.",
+  "answerHtml": "<b><u>Pollen</u></b> (accept <u>pollen grains</u>; prompt on <u>male gametophytes</u>; do not accept “pollination”)",
+  "accept": [
+    "pollen",
+    "pollen grain",
+    "pollen grains",
+    "pollens"
+  ],
+  "prompt": [
+    "male gametophyte",
+    "male gametophytes",
+    "microgametophyte",
+    "microgametophytes",
+    "gametophyte",
+    "gametophytes"
+  ],
+  "reject": [
+    "pollination",
+    "pollinators",
+    "pollen tube",
+    "pollen tubes",
+    "pollen sac",
+    "pollen sacs",
+    "pollen cone",
+    "pollen cones",
+    "pollen basket",
+    "pollen baskets",
+    "stamen",
+    "stamens",
+    "anther",
+    "anthers",
+    "stigma",
+    "pistil",
+    "carpel",
+    "nectar",
+    "spore",
+    "spores",
+    "microspore",
+    "microspores",
+    "seed",
+    "seeds",
+    "ovule",
+    "ovules",
+    "sperm",
+    "dust",
+    "honey"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Pollen",
+  "qb": {
+    "q": "pollen",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The tough outer wall of a grain of this substance, called the exine [“EK-seen”], resists decay so well that grains can survive as fossils for millions of years. Its thinner inner wall is called the intine [“IN-teen”].",
+      "r": "The study of this substance and of spores is called palynology. For 10 points, name this powdery substance made in the anthers of flowers."
+    },
+    {
+      "p": "In 1841, a 12-year-old enslaved boy named Edmond Albius invented a quick way to move this substance by hand inside vanilla flowers, launching vanilla farming on the island of Réunion. Honey bees carry this substance back to their hives in “baskets” on their back legs.",
+      "r": "This substance makes many people sneeze from hay fever. For 10 points, name this dusty substance that flowers need in order to make seeds."
+    },
+    {
+      "p": "Grains of this substance from pine trees have two air-filled sacs, sometimes called wings or bladders, that help them float on the wind. Conifers make this substance in small, soft male cones, which are much smaller than their woody seed cones.",
+      "r": "Flowers make it in their anthers. For 10 points, name this powdery substance that plants need in order to make seeds."
+    },
+    {
+      "p": "Most eudicots make grains of this substance with three slit-like openings, so they are sometimes called tricolpates, while most monocots make grains with just one opening. When a grain lands on a stigma, it grows a tube down through the style to reach an ovule.",
+      "r": "For 10 points, name this powdery substance carried from flower to flower by bees and the wind."
+    },
+    {
+      "p": "In 1827, botanist Robert Brown watched tiny particles from grains of this substance jiggle randomly in water, a movement now called Brownian motion. A grain of this substance usually holds a tube cell and a generative cell, which divides to form two sperm cells.",
+      "r": "Breathing in this substance causes hay fever. For 10 points, name this powdery substance produced by the anthers of flowers."
+    },
+    {
+      "p": "Hop-hornbeam grains of this substance, found in the gut of Ötzi the Iceman, helped scientists work out the season when he died. Scientists also study grains of this substance trapped in layers of lake mud to learn which plants grew nearby thousands of years ago.",
+      "r": "That science is called palynology. For 10 points, name this powdery substance that bees carry from flower to flower."
+    },
+    {
+      "p": "In 1898, Sergei Nawaschin [“nuh-VAH-shin”] discovered that one of the two sperm cells delivered by a grain of this substance fuses with an egg, while the other joins two polar nuclei to form a seed’s food tissue, the endosperm.",
+      "r": "That process is called double fertilization. For 10 points, name this powdery substance made by the stamens of flowers."
+    },
+    {
+      "p": "In 1896, Japanese botanist Sakugoro Hirase discovered that in ginkgo trees, grains of this substance release sperm cells that swim using many tiny flagella. Many gymnosperms, including the ginkgo, catch this substance on a sticky drop at the opening of each ovule.",
+      "r": "For 10 points, name this powdery substance made in the male cones of pines and the anthers of flowers."
+    },
+    {
+      "p": "Scientists can tell where a jar of honey came from by identifying the grains of this substance trapped inside it, a field called melissopalynology [“mel-ISS-oh-pal-ih-NOL-uh-jee”]. Honey bees mix this substance with nectar to make “bee bread,” a protein-rich food for young bees.",
+      "r": "Bees carry it home in “baskets” on their back legs. For 10 points, name this powdery substance that flowers produce in their anthers."
+    },
+    {
+      "p": "Many plants carry S-genes that make them reject this substance when it comes from the same plant, a system called self-incompatibility that prevents self-fertilization. When the right kind of this substance lands on a stigma, a tube grows out of it toward the ovary.",
+      "r": "Ragweed makes huge amounts of it in late summer. For 10 points, name this powdery substance that wind and insects carry between flowers."
+    },
+    {
+      "p": "In 1823, Giovanni Battista Amici [“ah-MEE-chee”] first saw a grain of this substance sprout a long, thin tube. That tube later carries sperm cells down the style of a flower’s pistil to reach an ovule.",
+      "r": "For 10 points, name this powdery substance whose arrival on a sticky stigma is the first step toward making a seed."
+    },
+    {
+      "p": "Inside structures called microsporangia [“my-kroh-spuh-RAN-jee-uh”], cells undergo meiosis to make microspores that develop into grains of this substance. Each grain is a tiny male gametophyte, the plant generation that makes sperm.",
+      "r": "In flowers, this substance forms in the anthers. For 10 points, name this powder that bees and wind carry to other flowers."
+    },
+    {
+      "p": "Bumblebees shake this substance out of tomato and blueberry flowers by rapidly vibrating their flight muscles, a behavior called sonication. Honey bees pack this substance into “baskets” on their hind legs and eat it as their main source of protein.",
+      "r": "For 10 points, name this powdery substance that flowers make so they can produce seeds."
+    },
+    {
+      "p": "Plants that rely on anemophily [“an-uh-MOFF-uh-lee”] make huge amounts of light, dry grains of this substance, while plants that rely on insects often make sticky or spiky grains of it that cling to the insects’ hairy bodies.",
+      "r": "Grasses, oaks, and ragweed release clouds of this substance that cause seasonal allergies. For 10 points, name this powdery substance behind hay fever."
+    },
+    {
+      "p": "On a corn plant, this substance falls from the tassel at the top onto the silks below, and each silk that catches a grain can become one kernel. Gregor Mendel used a small brush to dust this substance onto pea flowers to control his experiments.",
+      "r": "Bees and wind carry it between flowers. For 10 points, name this powdery substance made in the anthers of flowers."
+    }
+  ],
+  "clues": [
+    {
+      "id": "what-it-is",
+      "tier": "giveaway",
+      "t": "Fine, powdery grains that flowering plants and conifers make so they can produce seeds",
+      "k": [
+        "powdery",
+        "grains",
+        "seeds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anthers",
+      "tier": "giveaway",
+      "t": "Made in the anthers, at the tips of a flower’s stamens",
+      "k": [
+        "anthers",
+        "stamens"
+      ],
+      "n": 0,
+      "rabbit": "Stamen"
+    },
+    {
+      "id": "carriers",
+      "tier": "giveaway",
+      "t": "Carried from flower to flower by wind or by animals such as bees, butterflies, hummingbirds, and bats",
+      "k": [
+        "bees",
+        "wind",
+        "hummingbirds"
+      ],
+      "n": 0,
+      "rabbit": "Honey bees"
+    },
+    {
+      "id": "hay-fever",
+      "tier": "giveaway",
+      "t": "Breathing it in triggers hay fever, a seasonal allergy; ragweed is a major late-summer source",
+      "k": [
+        "hay fever",
+        "allergy",
+        "ragweed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stigma",
+      "tier": "giveaway",
+      "t": "Must land on the sticky stigma of a flower’s pistil to do its job",
+      "k": [
+        "stigma",
+        "pistil",
+        "sticky"
+      ],
+      "n": 0,
+      "rabbit": "Flowers"
+    },
+    {
+      "id": "tube",
+      "tier": "middle",
+      "t": "On the stigma, a grain grows a tube down the style to reach an ovule",
+      "k": [
+        "tube",
+        "style",
+        "ovule"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gametophyte",
+      "tier": "middle",
+      "t": "Each grain is a tiny male gametophyte: a tube cell plus a generative cell that divides into two sperm cells",
+      "k": [
+        "gametophyte",
+        "generative cell",
+        "tube cell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cones",
+      "tier": "middle",
+      "t": "Conifers such as pines make it in small male cones",
+      "k": [
+        "male cones",
+        "conifers",
+        "pines"
+      ],
+      "n": 0,
+      "rabbit": "Gymnosperms"
+    },
+    {
+      "id": "double-fertilization",
+      "tier": "middle",
+      "t": "Its two sperm cells take part in double fertilization: one joins the egg, the other helps form the endosperm",
+      "k": [
+        "double fertilization",
+        "endosperm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bee-baskets",
+      "tier": "middle",
+      "t": "Honey bees carry it home in “baskets” on their back legs; it is their main source of protein",
+      "k": [
+        "baskets",
+        "protein",
+        "back legs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fine-flour",
+      "tier": "middle",
+      "t": "Its name is Latin for “fine flour” or dust",
+      "k": [
+        "fine flour",
+        "latin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "palynology",
+      "tier": "middle",
+      "t": "Palynology is the study of it and of spores, both living and fossil",
+      "k": [
+        "palynology",
+        "spores"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corn",
+      "tier": "middle",
+      "t": "On corn, it falls from the tassel onto the silks; each silk that catches a grain can become a kernel",
+      "k": [
+        "tassel",
+        "silks",
+        "kernel"
+      ],
+      "n": 0,
+      "rabbit": "Corn (maize)"
+    },
+    {
+      "id": "mendel",
+      "tier": "middle",
+      "t": "Gregor Mendel dusted it onto pea flowers with a small brush to control his crosses",
+      "k": [
+        "gregor mendel",
+        "brush",
+        "pea flowers"
+      ],
+      "n": 0,
+      "rabbit": "Gregor Mendel"
+    },
+    {
+      "id": "exine",
+      "tier": "power",
+      "t": "Its tough outer wall, the exine, resists decay for millions of years; its inner wall is the intine",
+      "k": [
+        "exine",
+        "intine",
+        "decay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "albius",
+      "tier": "power",
+      "t": "Edmond Albius, a 12-year-old enslaved boy on Réunion, invented moving it by hand in vanilla flowers (1841)",
+      "k": [
+        "edmond albius",
+        "albius",
+        "vanilla",
+        "1841"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pine-sacs",
+      "tier": "power",
+      "t": "Pine grains have two air-filled sacs that help them float on the wind",
+      "k": [
+        "air-filled sacs",
+        "pine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tricolpate",
+      "tier": "power",
+      "t": "Most eudicots make grains with three slit-like openings (tricolpates); most monocots make grains with one",
+      "k": [
+        "tricolpates",
+        "eudicots",
+        "monocots"
+      ],
+      "n": 0
+    },
+    {
+      "id": "robert-brown",
+      "tier": "power",
+      "t": "Robert Brown saw particles from its grains jiggling in water (1827), now called Brownian motion",
+      "k": [
+        "robert brown",
+        "brownian motion",
+        "1827"
+      ],
+      "n": 0,
+      "rabbit": "Brownian motion"
+    },
+    {
+      "id": "otzi",
+      "tier": "power",
+      "t": "Hop-hornbeam grains in Ötzi the Iceman’s gut helped scientists work out the season he died",
+      "k": [
+        "hop-hornbeam",
+        "iceman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nawaschin",
+      "tier": "power",
+      "t": "Sergei Nawaschin discovered double fertilization in 1898",
+      "k": [
+        "nawaschin",
+        "1898"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hirase",
+      "tier": "power",
+      "t": "In ginkgo trees, its grains release swimming sperm, discovered by Sakugoro Hirase in 1896",
+      "k": [
+        "ginkgo",
+        "hirase",
+        "swimming sperm",
+        "1896"
+      ],
+      "n": 0
+    },
+    {
+      "id": "honey",
+      "tier": "power",
+      "t": "Grains in honey reveal which flowers bees visited (melissopalynology); bees also make “bee bread” from it",
+      "k": [
+        "melissopalynology",
+        "bee bread",
+        "honey"
+      ],
+      "n": 0
+    },
+    {
+      "id": "self-incompatibility",
+      "tier": "power",
+      "t": "S-genes for self-incompatibility make many plants reject it when it comes from the same plant",
+      "k": [
+        "self-incompatibility",
+        "s-genes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amici",
+      "tier": "power",
+      "t": "Giovanni Battista Amici first saw one of its grains grow a tube (1823)",
+      "k": [
+        "amici",
+        "1823"
+      ],
+      "n": 0
+    },
+    {
+      "id": "microsporangia",
+      "tier": "power",
+      "t": "Made inside microsporangia, where cells undergo meiosis to form microspores",
+      "k": [
+        "microsporangia",
+        "microspores",
+        "meiosis"
+      ],
+      "n": 0,
+      "rabbit": "Meiosis"
+    },
+    {
+      "id": "sonication",
+      "tier": "power",
+      "t": "Bumblebees shake it out of tomato and blueberry flowers by vibrating their flight muscles (sonication)",
+      "k": [
+        "sonication",
+        "bumblebees",
+        "tomato"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anemophily",
+      "tier": "power",
+      "t": "Wind-carried kinds (anemophily) are light, dry, and made in huge amounts; insect-carried kinds are often sticky or spiky",
+      "k": [
+        "anemophily",
+        "spiky"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Substance, not process",
+    "body": "Pollination is the process of moving this substance to a stigma, and the pollen tube is the structure a grain grows afterward. Both are separate answer lines, so neither works when the question asks for “this substance” or “these grains.” Spores are another trap: ferns, mosses, and mushrooms spread spores that can grow into new organisms on their own, while these grains only do their job by reaching the female parts of a seed plant.",
+    "fix": "Listen to the noun. “This substance,” “this powder,” or “these grains” means pollen; “this process” or “this transfer” means pollination; a structure growing down the style means pollen tube. Ferns, mosses, and mushrooms mean spores.",
+    "line": "Real answer line: <b><u>Pollen</u></b> (accept <u>pollen grains</u>; prompt on <u>male gametophytes</u>; do not accept “pollination” or “pollen tube”)"
+  },
+  "tests": {
+    "right": [
+      "Pollen",
+      "pollen grains",
+      "Polen",
+      "Pollen grain"
+    ],
+    "prompt": [
+      "Male gametophyte",
+      "Gametophytes"
+    ],
+    "wrong": [
+      "Pollination",
+      "Stamen",
+      "Pollen tube",
+      "Spores",
+      "Nectar",
+      "Anther"
+    ]
+  }
+}

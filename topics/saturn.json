@@ -1,0 +1,429 @@
+{
+  "id": "saturn",
+  "name": "Saturn",
+  "mono": "SAT",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Ringed sixth planet from the Sun · Less dense than water",
+  "dates": "Known since ancient times; rings first seen in 1610",
+  "briefing": "Saturn is the solar system’s ringed showpiece, but its rings are really countless chunks of ice, from dust grains to boulders, all orbiting together. The planet is so light for its size that it is less dense than water. Its biggest moon, Titan, has a thick atmosphere and lakes of liquid methane, and the Cassini spacecraft studied the whole system for 13 years before plunging into Saturn in 2017.",
+  "answerHtml": "<b><u>Saturn</u></b>",
+  "accept": [
+    "saturn",
+    "planet saturn"
+  ],
+  "prompt": [],
+  "reject": [
+    "cronus",
+    "kronos",
+    "cronos",
+    "saturn v",
+    "saturn 5",
+    "jupiter",
+    "uranus",
+    "neptune",
+    "titan",
+    "titans",
+    "enceladus",
+    "cassini"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Saturn",
+  "qb": {
+    "q": "Saturn",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "James Clerk Maxwell showed that the rings of this planet could not be solid sheets or fluid, but must be made of countless separate particles. Most of those rings lie inside this planet’s Roche [“ROHSH”] limit, where tidal forces keep the particles from clumping into a moon.",
+      "r": "For 10 points, name this planet, whose rings are made mostly of chunks of water ice."
+    },
+    {
+      "p": "Two shepherd moons, Prometheus and Pandora, keep this planet’s narrow F ring in shape, while the tiny moon Pan sweeps out a lane called the Encke [“EN-kee”] Gap. Giovanni Cassini discovered a wider gap between this planet’s A and B rings.",
+      "r": "For 10 points, name this planet, the second-largest in the solar system and the sixth from the Sun."
+    },
+    {
+      "p": "This planet’s rings were lettered in the order they were discovered, so starting from the planet they run D, C, B, A, F, G, and E. The faint outer E ring is fed by ice jets that spray from the moon Enceladus [“en-SEL-uh-dus”].",
+      "r": "For 10 points, name this planet, whose ring system is the largest and brightest in the solar system."
+    },
+    {
+      "p": "Giovanni Cassini noticed that this planet’s moon Iapetus [“eye-AP-ih-tus”] could be seen on only one side of this planet, because one half of that moon is dark and the other half is bright. Cassini also discovered a gap between this planet’s two brightest rings.",
+      "r": "For 10 points, name this ringed planet, the sixth from the Sun and the least dense planet."
+    },
+    {
+      "p": "William Pickering found this planet’s moon Phoebe [“FEE-bee”] in 1899, the first moon discovered in photographs. Phoebe orbits backward and sheds dust into an enormous, faint ring that was spotted in 2009 by the Spitzer Space Telescope.",
+      "r": "For 10 points, name this planet whose largest moon, Titan, is wrapped in a thick, hazy atmosphere."
+    },
+    {
+      "p": "This planet’s moon Mimas [“MY-mus”] has a giant crater named Herschel that makes it look like the Death Star from _Star Wars_. Another of its moons, Enceladus, sprays jets of water ice from cracks called “tiger stripes.”",
+      "r": "For 10 points, name this sixth planet from the Sun, known for its spectacular rings."
+    },
+    {
+      "p": "In Voltaire’s story _Micromégas_, a giant from the star Sirius travels to Earth with a companion from this planet. In Gustav Holst’s _The Planets_, this planet is called “the Bringer of Old Age.”",
+      "r": "For 10 points, name this planet, named for the Roman god who was the father of Jupiter."
+    },
+    {
+      "p": "When Galileo first viewed this planet in 1610, he thought it had two large companions, and two years later they seemed to vanish. They had not disappeared: this planet’s rings had simply turned edge-on to Earth, as they did again in 2009 and 2025.",
+      "r": "For 10 points, name this sixth planet from the Sun, famous for its bright rings."
+    },
+    {
+      "p": "In 2005, a European probe parachuted through the orange haze of this planet’s largest moon, making the most distant landing ever achieved. That moon has lakes and seas of liquid methane and ethane.",
+      "r": "The probe was named for Christiaan Huygens, who discovered that moon, Titan. For 10 points, name this planet."
+    },
+    {
+      "p": "In 2017, the Cassini spacecraft made more than 20 dives through the gap between this planet and its innermost rings before plunging into this planet’s atmosphere. Cassini was crashed on purpose so it could never contaminate moons like Enceladus that might support life.",
+      "r": "For 10 points, name this ringed planet that Cassini orbited for 13 years, starting in 2004."
+    },
+    {
+      "p": "A six-sided jet stream surrounds the north pole of this planet, a hexagon wider than Earth that the Voyager probes first photographed in the early 1980s. This planet spins in about 10 and a half hours, helping make it the most flattened planet.",
+      "r": "For 10 points, name this planet, the least dense in the solar system, whose rings are its most famous feature."
+    },
+    {
+      "p": "In 2025, astronomers announced 128 newly found moons of this planet, giving it more known moons than any other planet. Its biggest moon is the second-largest moon in the solar system and the only moon with a thick atmosphere.",
+      "r": "That moon is Titan. For 10 points, name this ringed planet, the sixth from the Sun."
+    },
+    {
+      "p": "Pioneer 11 made the first flyby of this planet in 1979, followed by both Voyager probes. This planet is the only one less dense than water, so it would float in a big enough bathtub.",
+      "r": "For 10 points, name this gas giant, the sixth planet from the Sun, famous for its rings."
+    },
+    {
+      "p": "This planet’s astronomical symbol is shaped like the sickle of the god it is named for, who was linked to farming and the harvest. That god’s Greek counterpart swallowed his children to keep them from overthrowing him.",
+      "r": "For 10 points, name this ringed planet, named for the father of Jupiter."
+    },
+    {
+      "p": "Christiaan Huygens [“HOY-gunz”] first announced in a scrambled Latin anagram that this planet is circled by a thin, flat ring that touches it nowhere. In 1655, Huygens had discovered this planet’s largest moon.",
+      "r": "That moon, Titan, has a thick nitrogen atmosphere. For 10 points, name this ringed planet, the second-largest in the solar system."
+    }
+  ],
+  "clues": [
+    {
+      "id": "rings",
+      "tier": "giveaway",
+      "t": "Famous for its bright rings, made mostly of chunks of water ice",
+      "k": [
+        "rings",
+        "water ice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sixth-planet",
+      "tier": "giveaway",
+      "t": "Sixth planet from the Sun and the second-largest planet",
+      "k": [
+        "sixth planet",
+        "second-largest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "least-dense",
+      "tier": "giveaway",
+      "t": "The least dense planet: less dense than water, so it would float in a big enough bathtub",
+      "k": [
+        "least dense",
+        "float",
+        "bathtub"
+      ],
+      "n": 0
+    },
+    {
+      "id": "titan",
+      "tier": "giveaway",
+      "t": "Its largest moon, Titan, has a thick nitrogen atmosphere and lakes of liquid methane",
+      "k": [
+        "titan",
+        "methane",
+        "nitrogen"
+      ],
+      "n": 0,
+      "rabbit": "Titan (moon)"
+    },
+    {
+      "id": "god-of-farming",
+      "tier": "giveaway",
+      "t": "Named for the Roman god of farming, the father of Jupiter and counterpart of the Greek Cronus; its symbol looks like his sickle",
+      "k": [
+        "farming",
+        "cronus",
+        "father of jupiter",
+        "sickle"
+      ],
+      "n": 0,
+      "rabbit": "Cronos"
+    },
+    {
+      "id": "cassini-division",
+      "tier": "middle",
+      "t": "Giovanni Cassini discovered the gap between its A and B rings, the Cassini Division, in 1675",
+      "k": [
+        "cassini division",
+        "1675"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cassini-mission",
+      "tier": "middle",
+      "t": "NASA’s Cassini spacecraft orbited it from 2004 until it was crashed into the planet on purpose in 2017",
+      "k": [
+        "cassini spacecraft",
+        "2004",
+        "2017"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huygens",
+      "tier": "middle",
+      "t": "Christiaan Huygens discovered Titan in 1655 and explained the rings as a thin, flat ring",
+      "k": [
+        "huygens",
+        "1655"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galileo",
+      "tier": "middle",
+      "t": "Galileo saw it in 1610 but thought its rings were two companions on either side",
+      "k": [
+        "galileo",
+        "1610",
+        "companions"
+      ],
+      "n": 0,
+      "rabbit": "Galileo Galilei"
+    },
+    {
+      "id": "enceladus",
+      "tier": "middle",
+      "t": "Its moon Enceladus sprays jets of water ice from cracks called “tiger stripes,” feeding the E ring",
+      "k": [
+        "enceladus",
+        "tiger stripes",
+        "e ring"
+      ],
+      "n": 0,
+      "rabbit": "Enceladus"
+    },
+    {
+      "id": "hexagon",
+      "tier": "middle",
+      "t": "A six-sided jet stream, the hexagon, swirls around its north pole",
+      "k": [
+        "hexagon",
+        "north pole",
+        "six-sided"
+      ],
+      "n": 0
+    },
+    {
+      "id": "most-moons",
+      "tier": "middle",
+      "t": "As of 2025, it had more known moons than any other planet, after 128 new ones were announced that year",
+      "k": [
+        "more known moons",
+        "128"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huygens-probe",
+      "tier": "middle",
+      "t": "Europe’s Huygens probe landed on Titan in 2005, the most distant landing ever made",
+      "k": [
+        "huygens probe",
+        "2005",
+        "most distant landing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flattened",
+      "tier": "middle",
+      "t": "Spins in about 10 and a half hours, helping make it the most flattened planet",
+      "k": [
+        "flattened",
+        "10 and a half hours"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maxwell",
+      "tier": "power",
+      "t": "James Clerk Maxwell showed that the rings must be made of countless separate particles, not solid sheets",
+      "k": [
+        "maxwell",
+        "particles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "roche",
+      "tier": "power",
+      "t": "Most of the rings lie inside its Roche limit, where tidal forces keep particles from clumping into a moon",
+      "k": [
+        "roche limit",
+        "tidal forces"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shepherd-moons",
+      "tier": "power",
+      "t": "Shepherd moons Prometheus and Pandora keep the narrow F ring in shape",
+      "k": [
+        "shepherd moons",
+        "prometheus",
+        "pandora",
+        "f ring"
+      ],
+      "n": 0
+    },
+    {
+      "id": "encke-gap",
+      "tier": "power",
+      "t": "The tiny moon Pan sweeps out the Encke Gap in the A ring",
+      "k": [
+        "encke gap",
+        "pan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ring-letters",
+      "tier": "power",
+      "t": "Its rings are lettered in order of discovery, so from the planet outward they run D, C, B, A, F, G, E",
+      "k": [
+        "order of discovery",
+        "lettered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iapetus",
+      "tier": "power",
+      "t": "Its moon Iapetus is two-toned, one half dark and one half bright, as Giovanni Cassini figured out in the 1670s",
+      "k": [
+        "iapetus",
+        "two-toned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mimas",
+      "tier": "power",
+      "t": "Its moon Mimas has a huge crater, Herschel, that makes it look like the Death Star from _Star Wars_",
+      "k": [
+        "mimas",
+        "herschel",
+        "death star"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phoebe",
+      "tier": "power",
+      "t": "Its moon Phoebe orbits backward, was the first moon found in photographs (1899), and feeds a giant, faint ring",
+      "k": [
+        "phoebe",
+        "photographs",
+        "1899"
+      ],
+      "n": 0
+    },
+    {
+      "id": "grand-finale",
+      "tier": "power",
+      "t": "Cassini’s “Grand Finale” in 2017 took it through the gap between the planet and its rings more than 20 times",
+      "k": [
+        "grand finale",
+        "gap"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ring-crossing",
+      "tier": "power",
+      "t": "About every 15 years the rings turn edge-on to Earth and nearly vanish, as in 2009 and 2025",
+      "k": [
+        "edge-on",
+        "vanish",
+        "2009",
+        "2025"
+      ],
+      "n": 0
+    },
+    {
+      "id": "micromegas",
+      "tier": "power",
+      "t": "In Voltaire’s _Micromégas_, a giant from the star Sirius travels with a companion from this planet",
+      "k": [
+        "voltaire",
+        "sirius"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holst-old-age",
+      "tier": "power",
+      "t": "Gustav Holst’s _The Planets_ calls it “the Bringer of Old Age”",
+      "k": [
+        "holst",
+        "old age"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anagram",
+      "tier": "power",
+      "t": "Huygens first announced his ring idea as a scrambled Latin anagram",
+      "k": [
+        "anagram",
+        "latin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pioneer-11",
+      "tier": "power",
+      "t": "Pioneer 11 made the first flyby, in 1979, followed by Voyager 1 and Voyager 2",
+      "k": [
+        "pioneer 11",
+        "1979"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not the only ringed planet",
+    "body": "All four giant planets have rings, so a ring clue alone does not prove the answer: Jupiter’s are faint and dusty, Uranus’s are thin and dark, and Neptune’s are clumped into arcs. Saturn and Jupiter also share many clues, such as their hydrogen-and-helium makeup and huge storms. And when a question describes Titan or Enceladus, players sometimes answer with the moon instead of the planet.",
+    "fix": "Bright, wide, icy rings, the Cassini Division, the hexagon, Titan, Enceladus, Huygens, the Cassini mission, and “less dense than water” all mean Saturn. The Great Red Spot, the four Galilean moons, and Juno mean Jupiter. If the question says “this planet,” name the planet.",
+    "line": "Real answer line: <b><u>Saturn</u></b>"
+  },
+  "tests": {
+    "right": [
+      "Saturn",
+      "saturn",
+      "Satern",
+      "Planet Saturn",
+      "the planet Saturn"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Jupiter",
+      "Cronus",
+      "Saturn V",
+      "Titan",
+      "Uranus",
+      "Kronos"
+    ]
+  }
+}

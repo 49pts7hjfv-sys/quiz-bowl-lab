@@ -1,0 +1,346 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "seafloor-spreading",
+    "name": "Seafloor spreading",
+    "mono": "SFS",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "New ocean crust forms at mid-ocean ridges · Proposed by Harry Hess",
+    "dates": "Proposed in the early 1960s",
+    "briefing": "Down the middle of the Atlantic Ocean runs an undersea mountain range where the ocean floor is splitting apart. Magma rises into the crack, cools into new rock, and slowly pushes older rock away on both sides, like two conveyor belts. Harry Hess proposed this idea around 1960, and stripes of magnetized rock on the seafloor soon backed it up, explaining how continents can drift apart.",
+    "answerHtml": "<b><u>Seafloor spreading</u></b> (accept <u>sea-floor spreading</u> or <u>ocean-floor spreading</u>; prompt on <u>spreading</u> or <u>divergent boundaries</u>; do not accept “continental drift” or “plate tectonics”)",
+    "accept": [
+        "seafloor spreading",
+        "sea floor spreading",
+        "ocean floor spreading",
+        "spreading of the seafloor",
+        "spreading of the sea floor",
+        "spreading of the ocean floor"
+    ],
+    "prompt": [
+        "spreading",
+        "divergence",
+        "divergent boundary",
+        "divergent boundaries",
+        "divergent plate boundary",
+        "divergent plate boundaries",
+        "rifting"
+    ],
+    "reject": [
+        "continental drift",
+        "plate tectonics",
+        "tectonic plates",
+        "subduction",
+        "convection",
+        "mantle convection",
+        "convection currents",
+        "mid ocean ridge",
+        "mid ocean ridges",
+        "mid atlantic ridge",
+        "east pacific rise",
+        "rift valley",
+        "magnetic reversal",
+        "magnetic reversals",
+        "geomagnetic reversal",
+        "paleomagnetism",
+        "magnetic striping",
+        "pangaea",
+        "ridge push",
+        "slab pull",
+        "transform fault",
+        "transform faults",
+        "hotspot",
+        "hot spot"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Seafloor_spreading",
+    "qb": {
+        "q": "seafloor spreading",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "While commanding the USS _Cape Johnson_ in World War II, a geologist used the ship’s echo sounder to map the Pacific floor and named flat-topped undersea mountains guyots [“GHEE-ohz”]. That geologist later proposed this process in a paper he called “an essay in geopoetry.”",
+            "r": "For 10 points, name this process, described by Harry Hess, in which new oceanic crust forms at mid-ocean ridges and moves outward."
+        },
+        {
+            "p": "Fred Vine and Drummond Matthews supported this process in 1963 by explaining matching stripes of rock magnetized in opposite directions on both sides of an undersea ridge. Lawrence Morley reached the same idea independently. Those stripes formed because Earth’s magnetic field flips every so often.",
+            "r": "For 10 points, name this process, proposed by Harry Hess, in which new ocean crust forms at mid-ocean ridges."
+        },
+        {
+            "p": "Cores drilled by the research ship _Glomar Challenger_ in the late 1960s helped confirm this process by showing that the oldest sediment resting on the ocean crust gets older farther from the Mid-Atlantic Ridge.",
+            "r": "For 10 points, name this process in which magma rising at mid-ocean ridges creates new crust that moves outward on both sides."
+        },
+        {
+            "p": "Robert Dietz coined the name of this process in a 1961 paper. In Iceland, visitors can walk through the Thingvellir [“THING-vet-leer”] rift valley, one of the few places on land where this process happens.",
+            "r": "For 10 points, name this process, proposed by Harry Hess, that creates new oceanic crust at divergent plate boundaries."
+        },
+        {
+            "p": "While drawing maps of the ocean floor with Bruce Heezen, Marie Tharp noticed a deep rift valley running down the center of an undersea mountain range. That rift valley marks where this process creates new crust along the Mid-Atlantic Ridge.",
+            "r": "For 10 points, name this process by which new ocean crust forms at mid-ocean ridges and slowly moves away from them."
+        },
+        {
+            "p": "J. Tuzo Wilson named the transform faults that cut across and offset the undersea ridges where this process happens. Those ridges, like the fast-opening East Pacific Rise, are divergent boundaries where magma wells up between two plates.",
+            "r": "For 10 points, name this process, described by Harry Hess, that creates new oceanic crust."
+        },
+        {
+            "p": "As new rock made by this process cools, tiny grains of magnetite pass their Curie [“KYOOR-ee”] point and lock in the direction of Earth’s magnetic field. Because that field flips every so often, the ocean floor records the flips as matching stripes on either side of a ridge.",
+            "r": "For 10 points, name this process in which new crust forms at mid-ocean ridges and moves outward like a conveyor belt."
+        },
+        {
+            "p": "In 1977, the submersible _Alvin_ discovered hydrothermal vents teeming with life near the Galápagos Islands, along a crack where this process occurs. Black smokers, chimneys that spew hot, mineral-rich water, are also found where this process makes new crust.",
+            "r": "For 10 points, name this process, first proposed by Harry Hess, in which magma rises at mid-ocean ridges to form new ocean floor."
+        },
+        {
+            "p": "Ophiolites [“OH-fee-uh-lites”], like those found in Oman and Cyprus, are slices of ocean crust made by this process that were later pushed up onto land. Rounded pillow lavas form when magma erupts underwater during this process.",
+            "r": "For 10 points, name this process in which new oceanic crust forms at mid-ocean ridges and moves away from them."
+        },
+        {
+            "p": "This process runs several times faster at the East Pacific Rise than at the Mid-Atlantic Ridge, where it widens the ocean by only a few centimeters a year, about as fast as fingernails grow. Because of it, North America and Europe are slowly moving apart.",
+            "r": "For 10 points, name this process, proposed by Harry Hess, that creates new crust at mid-ocean ridges."
+        },
+        {
+            "p": "The plate motions behind this process are thought to be driven partly by “ridge push” and by “slab pull,” as old, cold crust sinks into the mantle at deep-ocean trenches. Because subduction destroys old crust about as fast as this process makes new crust, Earth does not grow larger.",
+            "r": "For 10 points, name this process in which new oceanic crust forms at mid-ocean ridges and moves outward on both sides."
+        },
+        {
+            "p": "Heat flowing out of the ocean floor is greatest where this process occurs, and the blanket of sediment covering the ocean floor gets thicker moving away from those places. That is because the crust there is youngest and has had the least time to cool and collect sediment.",
+            "r": "For 10 points, name this process, proposed by Harry Hess, in which new crust forms at mid-ocean ridges."
+        },
+        {
+            "p": "This process is slowly widening the Red Sea, which could one day become a full ocean as the Arabian Peninsula pulls away from Africa. The same process opened the Atlantic Ocean after the supercontinent Pangaea broke apart.",
+            "r": "For 10 points, name this process, proposed by Harry Hess, that forms new oceanic crust at mid-ocean ridges."
+        },
+        {
+            "p": "This process finally gave a mechanism for Alfred Wegener’s idea of continental drift, which many scientists had rejected because Wegener could not explain what moved the continents. Together, these ideas grew into the theory of plate tectonics.",
+            "r": "For 10 points, name this process, described by Harry Hess, in which new ocean crust forms at mid-ocean ridges."
+        },
+        {
+            "p": "Rocks on the ocean floor get older the farther they are from an undersea mountain range, with matching patterns on both sides. This process explains why the ocean floor is so much younger than most of the rock on the continents.",
+            "r": "For 10 points, name this process in which magma rising at mid-ocean ridges creates new crust that moves outward."
+        }
+    ],
+    "clues": [
+        {
+            "id": "new-crust",
+            "tier": "giveaway",
+            "t": "New oceanic crust forms at mid-ocean ridges and moves outward on both sides",
+            "k": ["mid-ocean ridges", "oceanic crust", "outward"],
+            "n": 0
+        },
+        {
+            "id": "harry-hess",
+            "tier": "giveaway",
+            "t": "Proposed by Princeton geologist Harry Hess in the early 1960s",
+            "k": ["harry hess", "hess", "princeton"],
+            "n": 0
+        },
+        {
+            "id": "divergent",
+            "tier": "giveaway",
+            "t": "Happens at divergent boundaries, where two plates pull apart",
+            "k": ["divergent", "pull apart"],
+            "n": 0
+        },
+        {
+            "id": "mid-atlantic",
+            "tier": "giveaway",
+            "t": "The Mid-Atlantic Ridge is the classic example, slowly widening the Atlantic Ocean",
+            "k": ["mid-atlantic ridge", "atlantic"],
+            "n": 0
+        },
+        {
+            "id": "conveyor-belt",
+            "tier": "giveaway",
+            "t": "Magma rises into the crack, cools into new rock, and moves away like a conveyor belt",
+            "k": ["conveyor belt", "magma"],
+            "n": 0
+        },
+        {
+            "id": "magnetic-stripes",
+            "tier": "middle",
+            "t": "Matching stripes of normal and reversed magnetism lie on both sides of a ridge, because Earth’s magnetic field flips",
+            "k": ["stripes", "reversed", "magnetism"],
+            "n": 0,
+            "rabbit": "Earth’s magnetic field"
+        },
+        {
+            "id": "age-pattern",
+            "tier": "middle",
+            "t": "Ocean-floor rock gets older moving away from a ridge, so the ocean floor is far younger than most continental rock",
+            "k": ["older", "younger"],
+            "n": 0
+        },
+        {
+            "id": "continental-drift",
+            "tier": "middle",
+            "t": "Gave a mechanism for Alfred Wegener’s continental drift and helped build the theory of plate tectonics",
+            "k": ["continental drift", "wegener", "plate tectonics"],
+            "n": 0,
+            "rabbit": "Plate tectonics"
+        },
+        {
+            "id": "subduction",
+            "tier": "middle",
+            "t": "Old crust is recycled into the mantle at deep-ocean trenches by subduction, so Earth does not grow larger",
+            "k": ["subduction", "trenches"],
+            "n": 0,
+            "rabbit": "Subduction"
+        },
+        {
+            "id": "tharp-rift",
+            "tier": "middle",
+            "t": "Marie Tharp found the rift valley down the middle of the Mid-Atlantic Ridge while mapping the ocean floor with Bruce Heezen",
+            "k": ["marie tharp", "tharp", "rift valley", "heezen"],
+            "n": 0
+        },
+        {
+            "id": "sediment-heat",
+            "tier": "middle",
+            "t": "Sediment gets thicker and heat flow gets lower moving away from a ridge",
+            "k": ["sediment", "heat flow"],
+            "n": 0
+        },
+        {
+            "id": "east-pacific-rise",
+            "tier": "middle",
+            "t": "Fastest at the East Pacific Rise; slow at the Mid-Atlantic Ridge, about as fast as fingernails grow",
+            "k": ["east pacific rise", "fingernails"],
+            "n": 0
+        },
+        {
+            "id": "pillow-lavas",
+            "tier": "middle",
+            "t": "Underwater eruptions at the ridges form rounded pillow lavas made of basalt",
+            "k": ["pillow lavas", "basalt"],
+            "n": 0,
+            "rabbit": "Basalt"
+        },
+        {
+            "id": "red-sea",
+            "tier": "middle",
+            "t": "It is slowly widening the Red Sea, and it opened the Atlantic after Pangaea broke apart",
+            "k": ["red sea", "pangaea"],
+            "n": 0,
+            "rabbit": "Pangaea"
+        },
+        {
+            "id": "geopoetry",
+            "tier": "power",
+            "t": "Hess called his 1962 paper “History of Ocean Basins” “an essay in geopoetry”",
+            "k": ["geopoetry", "history of ocean basins"],
+            "n": 0
+        },
+        {
+            "id": "dietz",
+            "tier": "power",
+            "t": "Robert Dietz coined its name in a 1961 paper",
+            "k": ["robert dietz", "dietz", "1961"],
+            "n": 0
+        },
+        {
+            "id": "vine-matthews",
+            "tier": "power",
+            "t": "Fred Vine and Drummond Matthews (1963), and Lawrence Morley on his own, explained the magnetic stripes with it",
+            "k": ["vine", "matthews", "morley", "1963"],
+            "n": 0
+        },
+        {
+            "id": "glomar-challenger",
+            "tier": "power",
+            "t": "Drilling by the research ship _Glomar Challenger_ in the late 1960s helped confirm it",
+            "k": ["glomar challenger", "drilling"],
+            "n": 0
+        },
+        {
+            "id": "curie-magnetite",
+            "tier": "power",
+            "t": "Magnetite grains lock in the direction of Earth’s field as new rock cools past their Curie point",
+            "k": ["curie point", "magnetite"],
+            "n": 0
+        },
+        {
+            "id": "guyots",
+            "tier": "power",
+            "t": "Hess used the echo sounder of the USS _Cape Johnson_ in World War II and named flat-topped undersea mountains guyots",
+            "k": ["guyots", "cape johnson", "echo sounder"],
+            "n": 0
+        },
+        {
+            "id": "transform-faults",
+            "tier": "power",
+            "t": "J. Tuzo Wilson named the transform faults that cut across and offset the ridges",
+            "k": ["tuzo wilson", "transform faults"],
+            "n": 0
+        },
+        {
+            "id": "alvin-vents",
+            "tier": "power",
+            "t": "In 1977 the submersible _Alvin_ found hydrothermal vents near the Galápagos; black smokers also form along the ridges",
+            "k": ["hydrothermal vents", "alvin", "black smokers", "galápagos"],
+            "n": 0
+        },
+        {
+            "id": "ophiolites",
+            "tier": "power",
+            "t": "Ophiolites, like those in Oman and Cyprus, are slices of ocean crust it made that were pushed up onto land",
+            "k": ["ophiolites", "oman", "cyprus"],
+            "n": 0
+        },
+        {
+            "id": "ridge-push",
+            "tier": "power",
+            "t": "“Ridge push” and “slab pull” help drive the plate motions behind it",
+            "k": ["ridge push", "slab pull"],
+            "n": 0
+        },
+        {
+            "id": "thingvellir",
+            "tier": "power",
+            "t": "Iceland’s Thingvellir rift valley is one of the few places where it happens on land",
+            "k": ["thingvellir", "iceland"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not drift, not the ridge",
+        "body": "Three neighboring answers trip players up. Continental drift was Alfred Wegener’s older idea that the continents move; plate tectonics is the big theory that ties everything together; and the mid-ocean ridge is the place where this process happens. Clues about Harry Hess, magnetic stripes, and new crust forming want seafloor spreading, so answering any of the other three loses the tossup.",
+        "fix": "Wegener, Pangaea, matching fossils, and puzzle-piece coastlines mean continental drift. Rigid plates and all three kinds of boundaries mean plate tectonics. Harry Hess, magnetic stripes, rocks getting older away from a ridge, and new ocean crust mean seafloor spreading. Saying only “spreading” earns a prompt.",
+        "line": "Real answer line: <b><u>Seafloor spreading</u></b> (accept sea-floor spreading; prompt on spreading or divergent boundaries; do not accept “continental drift” or “plate tectonics”)"
+    },
+    "tests": {
+        "right": [
+            "Seafloor spreading",
+            "sea-floor spreading",
+            "Sea floor spreading",
+            "Seafloor spredding",
+            "ocean floor spreading"
+        ],
+        "prompt": [
+            "Spreading",
+            "Divergent boundary"
+        ],
+        "wrong": [
+            "Continental drift",
+            "Plate tectonics",
+            "Subduction",
+            "Mid-ocean ridge",
+            "Convection"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,472 @@
+{
+  "id": "van-der-waals-forces",
+  "name": "Van der Waals forces",
+  "mono": "VDW",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Weak attractions between molecules · How geckos climb walls",
+  "dates": "Equation of state 1873; Nobel Prize 1910",
+  "briefing": "Van der Waals forces are the weak, short-range attractions that pull neighboring molecules toward each other, even molecules with no electric charge at all. They are named for Johannes Diderik van der Waals, a Dutch physicist who won the 1910 Nobel Prize for improving the ideal gas law to account for them. Each one is tiny, but billions of them working together let a gecko walk straight up a glass window.",
+  "answerHtml": "<b><u>Van der Waals</u></b> forces (accept <u>van der Waals</u> interactions; prompt on <u>intermolecular forces</u> or London <u>dispersion</u> forces)",
+  "accept": [
+    "van der waals forces",
+    "van der waals force",
+    "van der waals",
+    "van der waals interactions",
+    "van der waals interaction",
+    "van der waals attraction",
+    "van der waals attractions",
+    "van der waals bonds",
+    "van der waals bonding",
+    "vanderwaals",
+    "vanderwaals forces",
+    "vanderwaals force"
+  ],
+  "prompt": [
+    "intermolecular forces",
+    "intermolecular force",
+    "intermolecular attractions",
+    "intermolecular interactions",
+    "imf",
+    "imfs",
+    "london dispersion forces",
+    "london dispersion force",
+    "london dispersion",
+    "dispersion forces",
+    "dispersion force",
+    "dispersion",
+    "london forces",
+    "london force",
+    "keesom forces",
+    "debye forces"
+  ],
+  "reject": [
+    "hydrogen bonds",
+    "hydrogen bond",
+    "hydrogen bonding",
+    "ionic bonds",
+    "ionic bond",
+    "covalent bonds",
+    "covalent bond",
+    "metallic bonds",
+    "metallic bond",
+    "dipole dipole",
+    "dipole dipole forces",
+    "dipoles",
+    "dipole",
+    "ion dipole",
+    "van der waals equation",
+    "van der waals radius",
+    "van der waals constant",
+    "van der waals constants",
+    "johannes van der waals",
+    "johannes diderik van der waals",
+    "weak nuclear force",
+    "strong nuclear force",
+    "gravity",
+    "electrostatic force",
+    "surface tension",
+    "adhesion",
+    "cohesion",
+    "capillary action",
+    "hydrophobic effect",
+    "lennard jones potential",
+    "casimir effect"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Van_der_Waals_force",
+  "qb": {
+    "q": "van der Waals",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Each toe of a gecko carries millions of tiny hairs called setae [“SEE-tee”], which split into even tinier tips called spatulae that press close enough to a surface for these forces to hold the gecko up, even on glass.",
+      "r": "For 10 points, name these weak attractions between molecules, named for a Dutch physicist."
+    },
+    {
+      "p": "An equation of state has a constant a that corrects for these forces and a constant b that corrects for the volume of the molecules themselves. That equation, an improvement on the ideal gas law, earned the namesake of these forces the 1910 Nobel Prize in Physics.",
+      "r": "For 10 points, name these weak attractions between neutral molecules, which include London dispersion forces and help geckos climb."
+    },
+    {
+      "p": "In the Lennard-Jones potential, the attractive part of these forces falls off with the sixth power of the distance between two molecules, while a much steeper twelfth-power term describes how the molecules repel when pushed too close.",
+      "r": "For 10 points, name these weak, short-range attractions between molecules, named for the Dutch physicist who improved the ideal gas law."
+    },
+    {
+      "p": "Willem Keesom [“KAY-sum”] described the part of these forces between two permanent dipoles, while Peter Debye [“deh-BYE”] described the part between a permanent dipole and an induced dipole. Fritz London explained a third part, which acts even between nonpolar atoms.",
+      "r": "For 10 points, name this group of weak intermolecular attractions named for a Dutch physicist."
+    },
+    {
+      "p": "In 2004, scientists peeled single sheets of graphene off graphite using ordinary sticky tape, which works because only these weak forces hold graphite’s sheets of carbon atoms together. Those sheets slide apart easily, so graphite makes a good dry lubricant.",
+      "r": "For 10 points, name these weak attractions between molecules or layers, named for a Dutch scientist."
+    },
+    {
+      "p": "The boiling points of the noble gases rise from helium to xenon, because larger atoms with bigger, more easily distorted electron clouds feel stronger versions of these forces. These forces are the only attractions between helium atoms, which is why helium boils at about 4 kelvins.",
+      "r": "For 10 points, name these weak intermolecular forces, which include the London dispersion forces between nonpolar molecules."
+    },
+    {
+      "p": "In non-contact mode, an atomic force microscope senses these forces between its sharp tip and a surface to map the surface’s shape. The Hamaker [“HAH-mah-ker”] constant describes how strongly these forces pull two larger objects, such as colloid particles, together.",
+      "r": "For 10 points, name these weak attractions between molecules, which help geckos climb walls."
+    },
+    {
+      "p": "Half of the closest distance that two non-bonded atoms can approach each other defines a radius named for the same scientist as these forces. These forces are much weaker than covalent and ionic bonds, and also weaker than hydrogen bonds.",
+      "r": "For 10 points, name these weak intermolecular attractions, named for a Dutch physicist who won the 1910 Nobel Prize."
+    },
+    {
+      "p": "Real gases stray from the ideal gas law at high pressures and low temperatures, partly because the ideal gas law ignores these attractions between molecules. These attractions are what let gases like nitrogen and argon condense into liquids when cooled enough.",
+      "r": "For 10 points, name these weak forces, named for the Dutch physicist who corrected the ideal gas law."
+    },
+    {
+      "p": "These forces between the long, nonpolar tails of phospholipids help hold cell membranes together, and they help stabilize the folded shapes of proteins. In DNA, these forces help the bases stack neatly on top of one another.",
+      "r": "For 10 points, name these weak attractions, which include London dispersion forces, named for a Dutch physicist."
+    },
+    {
+      "p": "The scientist these forces are named for wrote an 1873 doctoral thesis about the continuity of the gas and liquid states, which James Clerk Maxwell praised in the journal _Nature_. That scientist also described the law of corresponding states.",
+      "r": "For 10 points, name these weak intermolecular forces, which help geckos stick to walls."
+    },
+    {
+      "p": "Long, chain-shaped molecules such as octane feel stronger versions of these forces than tiny ones like methane, which is why octane is a liquid and methane is a gas at room temperature. These forces arise from temporary, shifting dipoles in electron clouds.",
+      "r": "For 10 points, name these weak attractions between molecules, which include London dispersion forces."
+    },
+    {
+      "p": "Crystals of iodine and of dry ice are held together mainly by these weak attractions, which is why both solids turn into gas so easily. These attractions grow stronger as molecules get bigger and have more electrons.",
+      "r": "For 10 points, name these intermolecular forces, named for a Dutch physicist who won a Nobel Prize in 1910."
+    },
+    {
+      "p": "In physisorption, gas molecules cling weakly to a solid surface because of these forces, unlike chemisorption, which forms true chemical bonds. Activated charcoal in water filters and gas masks traps many molecules this way.",
+      "r": "For 10 points, name these weak forces between molecules, named for a Dutch physicist who studied real gases."
+    },
+    {
+      "p": "Engineers have copied gecko feet to make “gecko tape” that sticks using these forces and peels off without leaving any residue, and NASA has tested gecko-inspired grippers for grabbing objects in space. These forces are generally the weakest attractions between molecules.",
+      "r": "For 10 points, name these intermolecular forces that act even between nonpolar molecules, named for a Dutch physicist."
+    }
+  ],
+  "clues": [
+    {
+      "id": "weak-attractions",
+      "tier": "giveaway",
+      "t": "Weak, short-range attractions between neighboring molecules or atoms",
+      "k": [
+        "weak",
+        "short-range",
+        "attractions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dutch-physicist",
+      "tier": "giveaway",
+      "t": "Named for a Dutch physicist who won the 1910 Nobel Prize in Physics",
+      "k": [
+        "dutch physicist",
+        "1910",
+        "nobel prize"
+      ],
+      "n": 0
+    },
+    {
+      "id": "geckos",
+      "tier": "giveaway",
+      "t": "They let geckos climb walls and walk up glass",
+      "k": [
+        "geckos",
+        "glass",
+        "climb"
+      ],
+      "n": 0
+    },
+    {
+      "id": "includes-london",
+      "tier": "giveaway",
+      "t": "They include London dispersion forces, which act even between nonpolar molecules",
+      "k": [
+        "london dispersion",
+        "nonpolar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "weakest",
+      "tier": "giveaway",
+      "t": "Generally the weakest attractions between molecules, weaker than hydrogen bonds",
+      "k": [
+        "weakest",
+        "hydrogen bonds"
+      ],
+      "n": 0,
+      "rabbit": "Hydrogen bonds"
+    },
+    {
+      "id": "equation",
+      "tier": "middle",
+      "t": "Their namesake’s equation of state improved the ideal gas law: constant a corrects for these attractions, constant b for molecule size",
+      "k": [
+        "equation of state",
+        "constant a",
+        "constant b"
+      ],
+      "n": 0,
+      "rabbit": "Ideal gas law"
+    },
+    {
+      "id": "real-gases",
+      "tier": "middle",
+      "t": "Ignoring them is one reason real gases stray from the ideal gas law at high pressure and low temperature",
+      "k": [
+        "real gases",
+        "ideal gas law"
+      ],
+      "n": 0
+    },
+    {
+      "id": "setae",
+      "tier": "middle",
+      "t": "Gecko toes have millions of hairs called setae that split into tiny spatulae",
+      "k": [
+        "setae",
+        "spatulae"
+      ],
+      "n": 0
+    },
+    {
+      "id": "graphite",
+      "tier": "middle",
+      "t": "They hold the carbon sheets in graphite together, so the sheets slide easily",
+      "k": [
+        "graphite",
+        "sheets",
+        "slide"
+      ],
+      "n": 0,
+      "rabbit": "Carbon"
+    },
+    {
+      "id": "noble-gas-boiling",
+      "tier": "middle",
+      "t": "They explain why noble gas boiling points rise from helium to xenon: bigger atoms are more polarizable",
+      "k": [
+        "polarizable",
+        "boiling points",
+        "noble gas"
+      ],
+      "n": 0,
+      "rabbit": "Noble gases"
+    },
+    {
+      "id": "temporary-dipoles",
+      "tier": "middle",
+      "t": "Dispersion forces come from temporary, shifting dipoles in electron clouds",
+      "k": [
+        "temporary",
+        "dipoles",
+        "electron clouds"
+      ],
+      "n": 0,
+      "rabbit": "Dipoles"
+    },
+    {
+      "id": "size",
+      "tier": "middle",
+      "t": "They grow stronger as molecules get bigger and have more electrons: octane is a liquid, methane a gas",
+      "k": [
+        "octane",
+        "methane",
+        "more electrons"
+      ],
+      "n": 0,
+      "rabbit": "Methane"
+    },
+    {
+      "id": "molecular-solids",
+      "tier": "middle",
+      "t": "They mainly hold together crystals of iodine and dry ice, which turn into gas easily",
+      "k": [
+        "iodine",
+        "dry ice",
+        "crystals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "keesom",
+      "tier": "power",
+      "t": "Willem Keesom described the part between two permanent dipoles",
+      "k": [
+        "keesom",
+        "permanent dipoles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "debye",
+      "tier": "power",
+      "t": "Peter Debye described the part between a permanent dipole and an induced dipole",
+      "k": [
+        "debye",
+        "induced dipole"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fritz-london",
+      "tier": "power",
+      "t": "Fritz London explained the part that acts even between nonpolar atoms",
+      "k": [
+        "fritz london",
+        "nonpolar atoms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lennard-jones",
+      "tier": "power",
+      "t": "In the Lennard-Jones potential, the attraction falls off with the sixth power of distance and the repulsion with the twelfth power",
+      "k": [
+        "lennard-jones",
+        "sixth power",
+        "twelfth power"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radius",
+      "tier": "power",
+      "t": "A radius named for the same scientist is half the closest distance between two non-bonded atoms",
+      "k": [
+        "radius",
+        "non-bonded"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thesis-1873",
+      "tier": "power",
+      "t": "Their namesake’s 1873 thesis on the continuity of the gas and liquid states was praised by James Clerk Maxwell",
+      "k": [
+        "1873",
+        "continuity",
+        "maxwell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corresponding-states",
+      "tier": "power",
+      "t": "Their namesake also described the law of corresponding states",
+      "k": [
+        "law of corresponding states",
+        "corresponding states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hamaker",
+      "tier": "power",
+      "t": "The Hamaker constant describes how strongly they pull two larger bodies, like colloid particles, together",
+      "k": [
+        "hamaker",
+        "colloid"
+      ],
+      "n": 0,
+      "rabbit": "Colloids"
+    },
+    {
+      "id": "afm",
+      "tier": "power",
+      "t": "A non-contact atomic force microscope senses them between its tip and a surface",
+      "k": [
+        "atomic force microscope",
+        "non-contact"
+      ],
+      "n": 0
+    },
+    {
+      "id": "graphene",
+      "tier": "power",
+      "t": "In 2004, scientists peeled graphene off graphite with sticky tape, since only these weak forces hold its layers together",
+      "k": [
+        "graphene",
+        "sticky tape",
+        "2004"
+      ],
+      "n": 0
+    },
+    {
+      "id": "physisorption",
+      "tier": "power",
+      "t": "They cause physisorption, the weak clinging of gas molecules to surfaces, unlike chemisorption",
+      "k": [
+        "physisorption",
+        "chemisorption"
+      ],
+      "n": 0
+    },
+    {
+      "id": "biology",
+      "tier": "power",
+      "t": "They help hold together the nonpolar tails in cell membranes, folded proteins, and stacked DNA bases",
+      "k": [
+        "cell membranes",
+        "proteins",
+        "stacked"
+      ],
+      "n": 0,
+      "rabbit": "Cell membrane"
+    },
+    {
+      "id": "helium",
+      "tier": "power",
+      "t": "The only attractions between helium atoms, which is why helium boils at about 4 kelvins",
+      "k": [
+        "helium",
+        "4 kelvins"
+      ],
+      "n": 0,
+      "rabbit": "Helium"
+    },
+    {
+      "id": "gecko-tape",
+      "tier": "power",
+      "t": "Engineers copy gecko feet to make “gecko tape” and space grippers tested by NASA",
+      "k": [
+        "gecko tape",
+        "nasa",
+        "grippers"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not hydrogen bonds",
+    "body": "Tossups on these forces often mention hydrogen bonds, the stronger attraction that gives water its high boiling point, to tempt early buzzers. London dispersion forces are a special case: they are one kind of these forces, so naming only them may earn a prompt. Saying just “intermolecular forces” also earns a prompt, since that phrase covers hydrogen bonds too.",
+    "fix": "Geckos, graphite layers, the constants a and b, and a Dutch physicist’s 1910 Nobel Prize point here. Hydrogen bonds need a hydrogen atom attached to nitrogen, oxygen, or fluorine. If you are prompted, add the namesake’s name: “van der Waals.”",
+    "line": "Real answer line: <b><u>Van der Waals</u></b> forces (accept <u>van der Waals</u> interactions; prompt on <u>intermolecular forces</u> or London <u>dispersion</u> forces)"
+  },
+  "tests": {
+    "right": [
+      "Van der Waals forces",
+      "van der Waals",
+      "van der walls forces",
+      "Van der Waals interactions",
+      "vanderwaals forces"
+    ],
+    "prompt": [
+      "Intermolecular forces",
+      "London dispersion forces"
+    ],
+    "wrong": [
+      "Hydrogen bonds",
+      "Dipole-dipole forces",
+      "Ionic bonds",
+      "Van der Waals equation",
+      "Covalent bonds",
+      "Gravity"
+    ]
+  }
+}

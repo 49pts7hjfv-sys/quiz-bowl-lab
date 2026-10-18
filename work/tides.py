@@ -1,0 +1,365 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "tides",
+    "name": "Tides",
+    "mono": "TID",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Twice-daily rise and fall of the sea · Driven mostly by the Moon’s gravity",
+    "dates": "High water about every 12 hours 25 minutes",
+    "briefing": "Twice a day, along most coasts, the ocean creeps up the beach and then slides back out again. These tides happen because the Moon’s gravity pulls a little harder on the side of Earth facing it, stretching the oceans into two bulges that Earth spins through. In Canada’s Bay of Fundy, the difference between high and low tide is the greatest in the world, enough to leave boats sitting on the mud.",
+    "answerHtml": "<b><u>Tide</u></b>s (accept <u>tidal force</u>s; accept spring or neap <u>tide</u>s; prompt on <u>sea level</u> changes; do not accept “tidal waves,” “waves,” or “currents”)",
+    "accept": [
+        "tides",
+        "tide",
+        "tidal force",
+        "tidal forces",
+        "ocean tides",
+        "ocean tide",
+        "lunar tides",
+        "tidal cycle",
+        "tidal cycles"
+    ],
+    "prompt": [
+        "sea level",
+        "sea level change",
+        "sea level changes",
+        "changes in sea level",
+        "rise and fall of the sea"
+    ],
+    "reject": [
+        "red tide",
+        "red tides",
+        "rip tide",
+        "rip tides",
+        "riptide",
+        "riptides",
+        "rip current",
+        "rip currents",
+        "tide pool",
+        "tide pools",
+        "tidepool",
+        "tidepools",
+        "tidal wave",
+        "tidal waves",
+        "tidal bore",
+        "tidal bores",
+        "tidal locking",
+        "tidally locked",
+        "tidal lock",
+        "tsunami",
+        "tsunamis",
+        "wave",
+        "waves",
+        "current",
+        "currents",
+        "ocean currents",
+        "gravity",
+        "moon",
+        "the moon",
+        "storm surge",
+        "storm surges",
+        "upwelling",
+        "sea level rise",
+        "swell",
+        "swells"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Tide",
+    "qb": {
+        "q": "tide",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Galileo wrongly argued that these events were caused by Earth’s spin and its motion around the Sun, and he used them as evidence that Earth moves. Isaac Newton correctly explained them in his _Principia_ as an effect of gravity.",
+            "r": "For 10 points, name these twice-daily rises and falls of sea level caused mostly by the Moon."
+        },
+        {
+            "p": "In most ocean basins, these events rotate around amphidromic [“am-fih-DROH-mik”] points, where the water barely rises or falls at all. Lines linking places where these events peak at the same time radiate outward from those points like the spokes of a wheel.",
+            "r": "Their range is greatest in Canada’s Bay of Fundy. For 10 points, name these daily rises and falls of the ocean."
+        },
+        {
+            "p": "Friction from these events is slowly lengthening Earth’s day and pushing the Moon about 3.8 centimeters farther away each year, a change measured by bouncing lasers off mirrors left on the Moon by Apollo astronauts.",
+            "r": "Most coasts get two high and two low ones each day. For 10 points, name these rises and falls of the ocean caused mainly by the Moon’s gravity."
+        },
+        {
+            "p": "Lord Kelvin built the first machine to predict these events, using a system of pulleys and gears to add up the many separate cycles that make them up. Their two daily highs are usually about 12 hours and 25 minutes apart.",
+            "r": "For 10 points, name these rises and falls of sea level caused by the gravity of the Moon and Sun."
+        },
+        {
+            "p": "Pierre-Simon Laplace [“luh-PLAHS”] wrote equations that treat these events as huge, slow waves moving through the ocean, instead of as fixed bulges of water. That improved on an earlier explanation by Isaac Newton.",
+            "r": "For 10 points, name these daily rises and falls of sea level, which are largest in the Bay of Fundy."
+        },
+        {
+            "p": "Even though the Sun’s gravity on Earth is far stronger than the Moon’s, the Sun produces less than half as much of these, because they depend on how much a pull changes from one side of Earth to the other, which shrinks with the cube of distance.",
+            "r": "When the Sun and Moon line up, their spring type is extra strong. For 10 points, name these twice-daily rises and falls of the sea."
+        },
+        {
+            "p": "The spring type of these, which has nothing to do with the season, happens near new and full moon, when the Sun, Moon, and Earth line up. The neap type, with the smallest range, happens near the quarter moons.",
+            "r": "For 10 points, name these daily rises and falls of the ocean caused by the Moon’s pull."
+        },
+        {
+            "p": "China’s Qiantang [“chyen-TAHNG”] River and England’s Severn are famous for bores, walls of water that rush upstream when these events push seawater into a narrowing river mouth. The Amazon’s version is called the pororoca [“por-oh-ROH-kuh”].",
+            "r": "For 10 points, name these twice-daily rises and falls of sea level, which are greatest in Canada’s Bay of Fundy."
+        },
+        {
+            "p": "Jupiter’s pull squeezes and stretches its moon Io, heating its interior enough to power hundreds of volcanoes, in a process named for these events. The same kind of flexing may keep an ocean liquid under Europa’s ice.",
+            "r": "On Earth, these are caused mostly by the Moon. For 10 points, name these regular rises and falls of the ocean."
+        },
+        {
+            "p": "France’s La Rance power station has used these events to make electricity since 1966, letting water flow through turbines in a dam across an estuary. Not far away, Mont-Saint-Michel can become an island when these events flood the sands around it.",
+            "r": "For 10 points, name these daily rises and falls of sea level caused by the Moon’s gravity."
+        },
+        {
+            "p": "California grunion fish swim onto beaches at night to lay their eggs in the sand just after the highest of these events. In the zone between the high and low water marks, these events leave behind pools full of sea stars and crabs.",
+            "r": "For 10 points, name these rises and falls of the sea caused by the Moon and Sun."
+        },
+        {
+            "p": "Sailors call the falling stage of these events the ebb and the rising stage the flood, with a brief pause called slack water in between. Printed tables list the times of these events for each day of the year.",
+            "r": "For 10 points, name these twice-daily rises and falls of sea level caused mainly by the Moon."
+        },
+        {
+            "p": "These events come from two bulges of water, one on the side of Earth facing the Moon and one on the opposite side, which Earth spins through each day. That is why most coasts get two highs and two lows daily.",
+            "r": "Their greatest range is in the Bay of Fundy. For 10 points, name these regular rises and falls of the ocean."
+        },
+        {
+            "p": "Long ago, the same kind of stretching force behind these events slowed the Moon’s spin until it always kept one face toward Earth. Inside a planet’s Roche [“ROHSH”] limit, that force can tear a moon apart.",
+            "r": "On Earth, this force makes the oceans bulge toward and away from the Moon. For 10 points, name these twice-daily rises and falls of sea level."
+        },
+        {
+            "p": "The solid ground under your feet also rises and falls slightly twice a day in a rocky version of these events, too gently for anyone to feel. In the ocean, the difference between their high and low water levels is called their range.",
+            "r": "For 10 points, name these rises and falls of sea level caused mostly by the Moon’s gravity."
+        }
+    ],
+    "clues": [
+        {
+            "id": "rise-fall",
+            "tier": "giveaway",
+            "t": "The regular rise and fall of sea level, usually twice a day",
+            "k": ["rise and fall", "sea level", "twice a day"],
+            "n": 0
+        },
+        {
+            "id": "moon-gravity",
+            "tier": "giveaway",
+            "t": "Caused mainly by the Moon’s gravity, with help from the Sun",
+            "k": ["moon’s gravity", "moon", "gravity", "sun"],
+            "n": 0,
+            "rabbit": "The Moon"
+        },
+        {
+            "id": "fundy",
+            "tier": "giveaway",
+            "t": "Canada’s Bay of Fundy has the greatest range in the world",
+            "k": ["bay of fundy", "fundy"],
+            "n": 0
+        },
+        {
+            "id": "spring-neap",
+            "tier": "giveaway",
+            "t": "Spring ones (biggest range) come near new and full moon; neap ones (smallest range) near the quarter moons",
+            "k": ["new and full moon", "spring", "neap", "quarter"],
+            "n": 0
+        },
+        {
+            "id": "high-low",
+            "tier": "giveaway",
+            "t": "Most coasts get two highs and two lows each day",
+            "k": ["two highs", "two lows"],
+            "n": 0
+        },
+        {
+            "id": "two-bulges",
+            "tier": "middle",
+            "t": "The Moon’s uneven pull stretches the oceans into two bulges: one facing the Moon and one on the far side",
+            "k": ["two bulges", "bulges", "far side"],
+            "n": 0
+        },
+        {
+            "id": "timing",
+            "tier": "middle",
+            "t": "Highs come about every 12 hours 25 minutes, so they arrive about 50 minutes later each day",
+            "k": ["12 hours 25 minutes", "50 minutes"],
+            "n": 0
+        },
+        {
+            "id": "ebb-flood",
+            "tier": "middle",
+            "t": "The falling stage is the ebb, the rising stage is the flood, and the pause in between is slack water",
+            "k": ["slack water", "flood", "ebb"],
+            "n": 0
+        },
+        {
+            "id": "newton",
+            "tier": "middle",
+            "t": "Isaac Newton first explained them with gravity in his _Principia_",
+            "k": ["newton", "principia"],
+            "n": 0,
+            "rabbit": "Isaac Newton"
+        },
+        {
+            "id": "bores",
+            "tier": "middle",
+            "t": "Bores, walls of water rushing upriver, form on China’s Qiantang, England’s Severn, and the Amazon (where it is called the pororoca)",
+            "k": ["bores", "qiantang", "severn", "pororoca"],
+            "n": 0
+        },
+        {
+            "id": "range",
+            "tier": "middle",
+            "t": "The height difference between high and low water is called the range",
+            "k": ["range", "difference"],
+            "n": 0
+        },
+        {
+            "id": "power-plants",
+            "tier": "middle",
+            "t": "France’s La Rance station (since 1966) and South Korea’s Sihwa Lake station make electricity from them",
+            "k": ["la rance", "sihwa", "electricity"],
+            "n": 0
+        },
+        {
+            "id": "sun-half",
+            "tier": "middle",
+            "t": "The Sun’s effect is less than half the Moon’s, because this stretching weakens with the cube of distance",
+            "k": ["less than half", "cube"],
+            "n": 0
+        },
+        {
+            "id": "pools",
+            "tier": "middle",
+            "t": "The zone between the high and low water marks holds pools full of sea stars and crabs",
+            "k": ["high and low water", "sea stars", "pools"],
+            "n": 0
+        },
+        {
+            "id": "galileo",
+            "tier": "power",
+            "t": "Galileo wrongly blamed them on Earth’s spin and orbit and used them as evidence that Earth moves",
+            "k": ["galileo", "earth moves"],
+            "n": 0,
+            "rabbit": "Galileo Galilei"
+        },
+        {
+            "id": "amphidromic",
+            "tier": "power",
+            "t": "They rotate around amphidromic points, where the water barely rises or falls",
+            "k": ["amphidromic"],
+            "n": 0
+        },
+        {
+            "id": "laplace",
+            "tier": "power",
+            "t": "Pierre-Simon Laplace’s equations treat them as huge, slow waves instead of fixed bulges",
+            "k": ["laplace", "equations"],
+            "n": 0
+        },
+        {
+            "id": "kelvin",
+            "tier": "power",
+            "t": "Lord Kelvin built the first machine to predict them, using pulleys and gears",
+            "k": ["kelvin", "pulleys"],
+            "n": 0
+        },
+        {
+            "id": "moon-receding",
+            "tier": "power",
+            "t": "Their friction lengthens Earth’s day and pushes the Moon away about 3.8 cm a year, measured with lasers and Apollo mirrors",
+            "k": ["lasers", "apollo", "lengthens"],
+            "n": 0
+        },
+        {
+            "id": "locking",
+            "tier": "power",
+            "t": "The same stretching force slowed the Moon’s spin until one face always points toward Earth",
+            "k": ["one face", "slowed"],
+            "n": 0
+        },
+        {
+            "id": "roche",
+            "tier": "power",
+            "t": "Inside a planet’s Roche limit, this stretching force can tear a moon apart",
+            "k": ["roche limit", "roche"],
+            "n": 0
+        },
+        {
+            "id": "io-europa",
+            "tier": "power",
+            "t": "Jupiter’s squeezing heats Io enough to power its volcanoes and may keep Europa’s ocean liquid",
+            "k": ["europa", "jupiter", "io"],
+            "n": 0
+        },
+        {
+            "id": "grunion",
+            "tier": "power",
+            "t": "California grunion lay their eggs on beaches at night just after the highest ones",
+            "k": ["grunion"],
+            "n": 0
+        },
+        {
+            "id": "mont-saint-michel",
+            "tier": "power",
+            "t": "Mont-Saint-Michel in France can become an island when they flood the surrounding sands",
+            "k": ["mont-saint-michel", "island"],
+            "n": 0
+        },
+        {
+            "id": "solid-earth",
+            "tier": "power",
+            "t": "Solid ground also rises and falls slightly twice a day in a rocky version of them",
+            "k": ["solid ground", "rocky version"],
+            "n": 0
+        },
+        {
+            "id": "king",
+            "tier": "power",
+            "t": "The biggest spring ones, when the Moon is also closest to Earth, are nicknamed “king” ones",
+            "k": ["king", "closest"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not waves, not tsunamis",
+        "body": "A tsunami is sometimes called a “tidal wave,” but it has nothing to do with these: tsunamis come from earthquakes, landslides, or eruptions. Red tides are blooms of algae, and rip currents (often called “rip tides”) are narrow streams of water flowing away from the beach. Their names sound right, so a quick buzz on any of them loses the tossup.",
+        "fix": "If the clues mention the Moon and Sun lining up, spring and neap, the Bay of Fundy, or highs about 12 hours apart, answer tides. Wind makes ordinary waves, earthquakes make tsunamis, and algae make red tides.",
+        "line": "Real answer line: <b><u>Tide</u></b>s (accept tidal forces; accept spring tides or neap tides; do not accept “tidal waves” or “tsunamis”)"
+    },
+    "tests": {
+        "right": [
+            "Tides",
+            "tide",
+            "Tidal forces",
+            "Spring tides",
+            "Tydes"
+        ],
+        "prompt": [
+            "Sea level changes"
+        ],
+        "wrong": [
+            "Waves",
+            "Tsunami",
+            "Red tide",
+            "Rip tide",
+            "Tidal wave",
+            "The Moon",
+            "Ocean currents",
+            "Gravity"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

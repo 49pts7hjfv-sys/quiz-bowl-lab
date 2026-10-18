@@ -1,0 +1,450 @@
+{
+  "id": "soil",
+  "name": "Soil",
+  "mono": "SOI",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Mix of weathered rock, humus, water, and air · Where plants take root",
+  "dates": "Celebrated on World Soil Day, December 5",
+  "briefing": "Soil is the loose layer of crumbled rock, decayed plants and animals, water, and air that covers much of Earth’s land. A single handful can hold billions of microbes, and almost all of our food grows in it. Dig down and you’ll find layers called horizons: dark, humus-rich topsoil near the surface, then subsoil, then broken-up rock, and finally solid bedrock.",
+  "answerHtml": "<b><u>Soil</u></b> (accept <u>soils</u> or <u>pedosphere</u>; prompt on <u>dirt</u>, <u>earth</u>, <u>ground</u>, or <u>regolith</u>; do not accept one layer like “topsoil” or one particle size like “sand,” “silt,” or “clay”)",
+  "accept": [
+    "soil",
+    "soils",
+    "pedosphere"
+  ],
+  "prompt": [
+    "dirt",
+    "earth",
+    "ground",
+    "regolith"
+  ],
+  "reject": [
+    "topsoil",
+    "top soil",
+    "subsoil",
+    "sub soil",
+    "sand",
+    "silt",
+    "clay",
+    "loam",
+    "humus",
+    "bedrock",
+    "sediment",
+    "sediments",
+    "mud",
+    "compost",
+    "gravel",
+    "loess",
+    "laterite",
+    "chernozem",
+    "permafrost",
+    "free soil",
+    "free soil party"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Soil",
+  "qb": {
+    "q": "soil",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Vasily Dokuchaev [“duh-koo-CHAH-yef”], often called the founder of the science that studies this material, wrote a famous study of the Russian steppe’s chernozem [“chair-nuh-ZYAWM”], whose name means “black earth.” Scientists who study this material are called pedologists.",
+      "r": "For 10 points, name this mixture of weathered rock, decayed organic matter, water, and air in which plants grow."
+    },
+    {
+      "p": "Hans Jenny summed up the five factors that form this material with the acronym CLORPT: climate, organisms, relief, parent material, and time. Its A horizon, near the surface, is usually darkened by decayed organic matter called humus.",
+      "r": "For 10 points, name this loose layer of sand, silt, clay, and humus that covers much of Earth’s land."
+    },
+    {
+      "p": "The U.S. Department of Agriculture sorts this material into twelve orders with names ending in “-sol,” such as Mollisols, which form under grasslands, and Oxisols [“OX-ih-sawlz”], which are often red from iron in the tropics. A balanced mix of particle sizes in this material is called loam.",
+      "r": "For 10 points, name this material whose particles, from largest to smallest, are sand, silt, and clay."
+    },
+    {
+      "p": "Charles Darwin’s final book described how earthworms slowly build up the top layer of this material by passing it through their bodies. Bits of decayed plants and animals in this material break down into a dark substance called humus.",
+      "r": "For 10 points, name this mixture of weathered rock, organic matter, water, and air that covers much of Earth’s land."
+    },
+    {
+      "p": "Streptomyces [“strep-toh-MY-seez”] bacteria in this material make geosmin [“jee-OZ-min”], a chemical behind the earthy smell after a rain. Selman Waksman’s lab found the antibiotic streptomycin in a kind of bacteria that commonly lives in this material.",
+      "r": "For 10 points, name this material whose layers are called horizons and whose particles include sand, silt, and clay."
+    },
+    {
+      "p": "Scientists describe the color of this material by matching it to Munsell charts, and they classify its texture on a triangle-shaped diagram. That diagram’s three sides show the percentages of three particle sizes in a sample of this material.",
+      "r": "Those particles are sand, silt, and clay, and a balanced mix of them is called loam. For 10 points, name this material in which plants take root."
+    },
+    {
+      "p": "Hugh Hammond Bennett led a new federal agency created during the Dust Bowl of the 1930s to protect this resource, which strong winds were stripping from Great Plains farms. Farmers fight erosion of this resource with contour plowing, terraces, cover crops, and rows of trees called windbreaks.",
+      "r": "For 10 points, name this resource, a mixture of weathered rock and humus in which crops grow."
+    },
+    {
+      "p": "A pedon [“PED-ahn”] is the smallest three-dimensional unit of this material that scientists sample, and its natural clumps are called peds. Its layers, called horizons, run from an O horizon of fallen leaves down toward solid bedrock.",
+      "r": "For 10 points, name this layer of weathered rock and organic matter in which plants grow."
+    },
+    {
+      "p": "Red, iron-rich laterite [“LAT-uh-rite”] is a kind of this material found in hot, rainy places, and its name comes from the Latin word for “brick.” Heavy rain can carry nutrients down and out of this material in a process called leaching.",
+      "r": "For 10 points, name this material whose texture depends on its mix of sand, silt, and clay."
+    },
+    {
+      "p": "Some hydrangea flowers turn blue when this material is acidic and pink when it is alkaline, and gardeners spread lime on it to raise its pH. Earthworms tunneling through this material let in air and water.",
+      "r": "For 10 points, name this mixture of minerals, humus, water, and air that covers most of Earth’s land."
+    },
+    {
+      "p": "Ancient peoples in the Amazon mixed charcoal and food waste into the ground, creating terra preta [“TEH-ruh PRAY-tuh”], a dark and unusually fertile kind of this material. In deserts, a hard, cement-like layer called caliche [“kuh-LEE-chee”] can form inside it.",
+      "r": "For 10 points, name this material in which plants grow, whose layers are called horizons."
+    },
+    {
+      "p": "Minerals washed out of this material’s E horizon by eluviation [“ih-loo-vee-AY-shun”] build up lower down in its B horizon, a zone of accumulation. Above them, its O horizon is made of fallen leaves and other organic matter.",
+      "r": "For 10 points, name this mixture of weathered rock, humus, water, and air in which plants grow."
+    },
+    {
+      "p": "Deep, fertile examples of this material in the American Midwest and northern China developed from loess [“LOH-ess”], thick deposits of wind-blown silt. Clay-rich Vertisols are a kind of this material that swells when wet and cracks deeply when dry.",
+      "r": "For 10 points, name this material that farmers plow, made of weathered rock, humus, water, and air."
+    },
+    {
+      "p": "The rhizosphere [“RY-zoh-sfeer”] is the thin zone of this material right around a plant’s roots, teeming with bacteria and fungi. Some bacteria living in this material turn nitrogen gas from the air into compounds that plants can use.",
+      "r": "For 10 points, name this material whose particles are sand, silt, and clay, mixed with decayed organic matter called humus."
+    },
+    {
+      "p": "The United Nations honors this material every December 5, and it named 2015 an international year dedicated to it. Some scientists call it Earth’s “living skin,” because a single handful can hold billions of microbes.",
+      "r": "Its layers are called horizons. For 10 points, name this mixture of weathered rock, humus, water, and air in which plants grow."
+    }
+  ],
+  "clues": [
+    {
+      "id": "mixture",
+      "tier": "giveaway",
+      "t": "A loose mixture of weathered rock bits, decayed organic matter, water, and air that covers much of Earth’s land",
+      "k": [
+        "weathered rock",
+        "organic matter",
+        "mixture"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plants-grow",
+      "tier": "giveaway",
+      "t": "Plants take root in it, and nearly all of our crops grow in it",
+      "k": [
+        "take root",
+        "crops",
+        "plants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "horizons",
+      "tier": "giveaway",
+      "t": "Its layers are called horizons; a slice showing all of them is called a profile",
+      "k": [
+        "horizons",
+        "profile",
+        "layers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sand-silt-clay",
+      "tier": "giveaway",
+      "t": "Its mineral particles, from largest to smallest, are sand, silt, and clay",
+      "k": [
+        "sand",
+        "silt",
+        "clay"
+      ],
+      "n": 0,
+      "rabbit": "Sand"
+    },
+    {
+      "id": "loam",
+      "tier": "giveaway",
+      "t": "A balanced mix of sand, silt, and clay is called loam, great for growing crops",
+      "k": [
+        "loam"
+      ],
+      "n": 0
+    },
+    {
+      "id": "humus",
+      "tier": "middle",
+      "t": "Humus is the dark, decayed plant and animal matter in it",
+      "k": [
+        "humus",
+        "decayed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "layer-letters",
+      "tier": "middle",
+      "t": "From the top down: O (leaf litter), A (dark and humus-rich), E, B (zone of accumulation), C (broken rock), and R (bedrock)",
+      "k": [
+        "leaf litter",
+        "zone of accumulation",
+        "bedrock"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pedology",
+      "tier": "middle",
+      "t": "Its scientific study is called pedology, and the scientists are called pedologists",
+      "k": [
+        "pedology",
+        "pedologists"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dust-bowl",
+      "tier": "middle",
+      "t": "Strong winds stripped it from Great Plains farms in the 1930s Dust Bowl; Hugh Hammond Bennett led a new federal agency to protect it",
+      "k": [
+        "dust bowl",
+        "great plains",
+        "hugh hammond bennett",
+        "bennett"
+      ],
+      "n": 0,
+      "rabbit": "Dust Bowl"
+    },
+    {
+      "id": "conservation",
+      "tier": "middle",
+      "t": "Farmers fight its erosion with contour plowing, terraces, cover crops, and windbreaks",
+      "k": [
+        "contour plowing",
+        "terraces",
+        "cover crops",
+        "windbreaks",
+        "erosion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leaching",
+      "tier": "middle",
+      "t": "Leaching: rainwater carries dissolved nutrients down and out of it",
+      "k": [
+        "leaching",
+        "nutrients"
+      ],
+      "n": 0
+    },
+    {
+      "id": "earthworms",
+      "tier": "middle",
+      "t": "Earthworms tunnel through it, mixing it and letting in air and water",
+      "k": [
+        "earthworms",
+        "tunnel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ph-hydrangeas",
+      "tier": "middle",
+      "t": "Some hydrangeas bloom blue in acidic examples and pink in alkaline ones; spreading lime raises its pH",
+      "k": [
+        "hydrangeas",
+        "acidic",
+        "alkaline",
+        "lime"
+      ],
+      "n": 0
+    },
+    {
+      "id": "texture-triangle",
+      "tier": "middle",
+      "t": "Its texture is classified on a triangle diagram showing the percentages of sand, silt, and clay",
+      "k": [
+        "texture",
+        "triangle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dokuchaev",
+      "tier": "power",
+      "t": "Vasily Dokuchaev, the founder of its science, studied the chernozem (“black earth”) of the Russian steppe",
+      "k": [
+        "dokuchaev",
+        "chernozem",
+        "black earth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clorpt",
+      "tier": "power",
+      "t": "Hans Jenny’s CLORPT: climate, organisms, relief, parent material, and time are the factors that form it",
+      "k": [
+        "clorpt",
+        "hans jenny",
+        "parent material"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twelve-orders",
+      "tier": "power",
+      "t": "The USDA sorts it into twelve orders ending in “-sol,” like grassland Mollisols and red tropical Oxisols",
+      "k": [
+        "twelve orders",
+        "mollisols",
+        "oxisols"
+      ],
+      "n": 0
+    },
+    {
+      "id": "darwin-worms",
+      "tier": "power",
+      "t": "Charles Darwin’s final book (1881) showed how earthworms slowly build up its top layer",
+      "k": [
+        "darwin",
+        "final book",
+        "1881"
+      ],
+      "n": 0,
+      "rabbit": "Charles Darwin"
+    },
+    {
+      "id": "geosmin",
+      "tier": "power",
+      "t": "Streptomyces bacteria in it make geosmin, part of the earthy smell after rain; the antibiotic streptomycin came from one of these bacteria",
+      "k": [
+        "geosmin",
+        "streptomyces",
+        "streptomycin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "munsell",
+      "tier": "power",
+      "t": "Its color is described by matching it to Munsell color charts",
+      "k": [
+        "munsell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pedon",
+      "tier": "power",
+      "t": "A pedon is its smallest sampled three-dimensional unit; its natural clumps are called peds",
+      "k": [
+        "pedon",
+        "peds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laterite",
+      "tier": "power",
+      "t": "Laterite: a red, iron-rich tropical kind, named from the Latin for “brick”",
+      "k": [
+        "laterite",
+        "brick"
+      ],
+      "n": 0
+    },
+    {
+      "id": "terra-preta",
+      "tier": "power",
+      "t": "Terra preta: a dark, fertile Amazon kind made by ancient peoples who mixed in charcoal",
+      "k": [
+        "terra preta",
+        "charcoal",
+        "amazon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eluviation",
+      "tier": "power",
+      "t": "Eluviation washes minerals out of the E horizon; illuviation deposits them in the B horizon",
+      "k": [
+        "eluviation",
+        "illuviation",
+        "e horizon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "caliche",
+      "tier": "power",
+      "t": "Caliche: a hard, cement-like layer of calcium carbonate that forms in desert examples",
+      "k": [
+        "caliche",
+        "calcium carbonate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "loess-vertisols",
+      "tier": "power",
+      "t": "Fertile Midwest and Chinese examples developed from loess (wind-blown silt); clay-rich Vertisols swell and crack",
+      "k": [
+        "loess",
+        "vertisols"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rhizosphere",
+      "tier": "power",
+      "t": "The rhizosphere is the zone right around plant roots, teeming with microbes; some bacteria there fix nitrogen",
+      "k": [
+        "rhizosphere",
+        "nitrogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "world-day",
+      "tier": "power",
+      "t": "The United Nations honors it every December 5, and 2015 was its international year",
+      "k": [
+        "december 5",
+        "united nations",
+        "2015"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "A part isn’t the whole",
+    "body": "Tossups on this answer are full of its ingredients and layers: sand, silt, clay, humus, loam, topsoil, and bedrock. Buzzing with one of those parts is wrong, because the question wants the whole material. Players who say “dirt” or “earth” will usually be asked to be more specific.",
+    "fix": "When a clue lists particles (sand, silt, clay), layers (horizons, the A horizon, bedrock), or kinds (loam, laterite, chernozem), answer with the whole material: soil. Save “sand” or “clay” for a question that asks for one particle size.",
+    "line": "Real answer line: <b><u>Soil</u></b> (accept pedosphere; prompt on dirt or earth; do not accept “sand,” “silt,” “clay,” or “topsoil”)"
+  },
+  "tests": {
+    "right": [
+      "Soil",
+      "soils",
+      "the soil",
+      "Pedosphere",
+      "pedospere"
+    ],
+    "prompt": [
+      "Dirt",
+      "earth"
+    ],
+    "wrong": [
+      "Sand",
+      "Clay",
+      "Loam",
+      "Topsoil",
+      "Humus",
+      "Bedrock",
+      "Free Soil Party"
+    ]
+  }
+}

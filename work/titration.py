@@ -1,0 +1,360 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "titration",
+    "name": "Titration",
+    "mono": "TTR",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Lab technique · Finding a solution’s concentration drop by drop",
+    "dates": "Developed in France in the late 1700s",
+    "briefing": "In a titration, a chemist slowly drips a base of known strength from a long glass tube called a buret into a flask holding an acid of unknown strength. The moment the acid is used up, a few drops of an indicator called phenolphthalein suddenly turn the liquid pink. By reading how much liquid was added, the chemist can calculate exactly how concentrated the mystery solution was.",
+    "answerHtml": "<b><u>Titration</u></b> (accept <u>titrimetry</u> or <u>volumetric analysis</u>; accept specific types such as acid-base <u>titration</u>)",
+    "accept": [
+        "titration",
+        "titrations",
+        "titrimetry",
+        "volumetric analysis",
+        "acid base titration",
+        "redox titration"
+    ],
+    "prompt": [],
+    "reject": [
+        "filtration",
+        "nitration",
+        "iteration",
+        "hydration",
+        "saturation",
+        "neutralization",
+        "neutralisation",
+        "neutralization reaction",
+        "acid base reaction",
+        "chromatography",
+        "distillation",
+        "precipitation",
+        "crystallization",
+        "spectroscopy",
+        "spectrophotometry",
+        "gravimetric analysis",
+        "gravimetry",
+        "calorimetry",
+        "electrolysis",
+        "buret",
+        "burette",
+        "pipette",
+        "pipet",
+        "indicator",
+        "equivalence point",
+        "endpoint",
+        "end point",
+        "titrant",
+        "titre",
+        "titer",
+        "molarity",
+        "concentration",
+        "dilution",
+        "standardization",
+        "ph"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Titration",
+    "qb": {
+        "q": "titration",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "A Gran plot turns the data from this procedure into a straight line that can be extended to locate the equivalence point precisely. Instead of a colored indicator, the potentiometric form of this procedure tracks the reaction with a pH meter or another electrode.",
+            "r": "For 10 points, name this lab technique in which a solution is added from a buret until the reaction is complete."
+        },
+        {
+            "p": "The Karl Fischer method, a form of this technique, measures tiny amounts of water in a sample using a reagent that contains iodine and sulfur dioxide. In another form of this technique, EDTA is added to measure the calcium and magnesium that make water “hard.”",
+            "r": "For 10 points, name this technique in which a solution of known concentration is added drop by drop until a reaction is complete."
+        },
+        {
+            "p": "The Kjeldahl [“KYEL-dahl”] method estimates the protein in food by turning its nitrogen into ammonia, which is then measured using this technique. The Winkler test uses an iodine-based form of this technique to measure the oxygen dissolved in a water sample.",
+            "r": "For 10 points, name this lab method that uses a buret and an indicator to find an unknown concentration."
+        },
+        {
+            "p": "In this technique’s Mohr method, silver nitrate is added to a sample containing chloride ions until a red-brown solid, silver chromate, begins to form. Redox forms of this technique need no separate indicator when purple potassium permanganate is added, since a faint pink color lingers once it is in excess.",
+            "r": "For 10 points, name this lab technique that finds an unknown concentration by careful addition from a buret."
+        },
+        {
+            "p": "Before using sodium hydroxide in this procedure, chemists standardize it against a primary standard such as potassium hydrogen phthalate [“THAL-ate”], because solid sodium hydroxide soaks up water and carbon dioxide from the air. The results of this procedure are often plotted as an S-shaped curve of pH against the volume of base added.",
+            "r": "For 10 points, name this lab procedure that uses an indicator such as phenolphthalein to find a solution’s concentration."
+        },
+        {
+            "p": "Halfway to this procedure’s equivalence point, the solution is a buffer whose pH equals the weak acid’s pKa, as the Henderson–Hasselbalch equation predicts. When a weak acid is neutralized by a strong base in this procedure, the pH at the equivalence point is above 7.",
+            "r": "For 10 points, name this technique in which a buret slowly adds one solution to another until an indicator changes color."
+        },
+        {
+            "p": "In iodometric forms of this procedure, starch is added near the end because it forms a blue-black complex with iodine, and that color vanishes once thiosulfate has used up all the iodine. Those forms of this procedure rely on redox reactions rather than acid-base reactions.",
+            "r": "For 10 points, name this procedure in which a solution of known concentration is dripped from a buret into a flask."
+        },
+        {
+            "p": "Chemists distinguish this procedure’s endpoint, when an indicator visibly changes color, from its equivalence point, when the added reagent exactly matches the amount of the substance being measured. A good indicator for this procedure changes color very close to the equivalence point.",
+            "r": "For 10 points, name this lab technique that uses a buret to find the concentration of an unknown solution."
+        },
+        {
+            "p": "Methyl orange, which turns from red to yellow as the pH rises, is a good indicator when a strong acid reacts with a weak base in this procedure. For a weak acid and a strong base, chemists instead choose phenolphthalein, whose color change happens in slightly basic solution.",
+            "r": "For 10 points, name this lab technique in which an indicator signals when enough solution has been added from a buret."
+        },
+        {
+            "p": "In the conductometric form of this procedure, chemists track how well the solution conducts electricity, making a graph that bends sharply at the equivalence point. The solution of unknown concentration in this procedure is called the analyte.",
+            "r": "For 10 points, name this technique in which a solution of known concentration is slowly added to the analyte from a buret."
+        },
+        {
+            "p": "When a sample reacts slowly or will not dissolve, chemists can use the “back” form of this technique: they add a known excess of one reagent, then measure how much is left over. Antacid tablets can be studied this way.",
+            "r": "For 10 points, name this lab technique that uses a buret and an indicator such as phenolphthalein."
+        },
+        {
+            "p": "A diprotic acid, which can give up two hydrogen ions, may show two separate equivalence points during this procedure, each marked by a steep jump in pH. When both the acid and the base are strong, the equivalence point of this procedure falls at a pH of 7.",
+            "r": "For 10 points, name this lab procedure that measures concentration by adding a solution from a buret."
+        },
+        {
+            "p": "Readings in this procedure are taken at the bottom of the curved surface, or meniscus, of the liquid in a tall glass tube with a stopcock. The Erlenmeyer flask below that tube is swirled after each addition so the two solutions mix completely.",
+            "r": "That tube is called a buret. For 10 points, name this procedure in which an indicator shows when a neutralization reaction is complete."
+        },
+        {
+            "p": "In this procedure, if 20.0 milliliters of 0.10 molar sodium hydroxide exactly neutralizes 10.0 milliliters of hydrochloric acid, the acid must be 0.20 molar. That calculation uses the volume read from a buret when the indicator changes color.",
+            "r": "For 10 points, name this lab procedure that finds an unknown concentration by reacting the sample with a solution of known concentration."
+        },
+        {
+            "p": "The indicators used in this procedure are themselves weak acids or bases whose two forms have different colors, so they change color over a narrow range of pH. One of them, phenolphthalein [“fee-nol-THAY-leen”], stays colorless in acid but turns pink once a slight excess of base is added.",
+            "r": "For 10 points, name this technique in which a base is added drop by drop from a buret to an acid."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "A lab method that finds the unknown concentration of a solution by reacting it with a solution of known concentration",
+            "k": ["unknown concentration", "known concentration"],
+            "n": 0
+        },
+        {
+            "id": "buret",
+            "tier": "giveaway",
+            "t": "The known solution is added drop by drop from a buret, a tall glass tube with a stopcock",
+            "k": ["buret", "stopcock", "drop by drop"],
+            "n": 0
+        },
+        {
+            "id": "indicator",
+            "tier": "giveaway",
+            "t": "An indicator changes color to show when the reaction is complete",
+            "k": ["indicator", "changes color"],
+            "n": 0
+        },
+        {
+            "id": "phenolphthalein",
+            "tier": "giveaway",
+            "t": "Phenolphthalein, a classic indicator, is colorless in acid and pink in base",
+            "k": ["phenolphthalein", "pink", "colorless"],
+            "n": 0
+        },
+        {
+            "id": "neutralize",
+            "tier": "giveaway",
+            "t": "Most often an acid is neutralized by a base, or a base by an acid",
+            "k": ["neutralized", "acid", "base"],
+            "n": 0,
+            "rabbit": "Acids"
+        },
+        {
+            "id": "equivalence-point",
+            "tier": "middle",
+            "t": "The equivalence point: the added reagent exactly matches the amount of the substance being measured",
+            "k": ["equivalence point", "exactly matches"],
+            "n": 0
+        },
+        {
+            "id": "endpoint",
+            "tier": "middle",
+            "t": "The endpoint is when the indicator actually changes color; a good indicator makes it match the equivalence point",
+            "k": ["endpoint", "end point"],
+            "n": 0
+        },
+        {
+            "id": "analyte",
+            "tier": "middle",
+            "t": "The solution of unknown concentration is called the analyte",
+            "k": ["analyte"],
+            "n": 0
+        },
+        {
+            "id": "curve",
+            "tier": "middle",
+            "t": "A graph of pH against volume added is an S-shaped curve with a steep jump near the equivalence point",
+            "k": ["s-shaped", "steep jump", "curve"],
+            "n": 0,
+            "rabbit": "pH"
+        },
+        {
+            "id": "equivalence-ph",
+            "tier": "middle",
+            "t": "At the equivalence point, a strong acid with a strong base gives pH 7; a weak acid with a strong base gives a pH above 7",
+            "k": ["ph 7", "above 7", "weak acid"],
+            "n": 0
+        },
+        {
+            "id": "erlenmeyer",
+            "tier": "middle",
+            "t": "The Erlenmeyer flask is swirled after each addition; buret readings are taken at the bottom of the meniscus",
+            "k": ["erlenmeyer", "meniscus", "swirled"],
+            "n": 0
+        },
+        {
+            "id": "methyl-orange",
+            "tier": "middle",
+            "t": "Methyl orange turns from red to yellow as pH rises and suits a strong acid with a weak base",
+            "k": ["methyl orange", "red to yellow"],
+            "n": 0
+        },
+        {
+            "id": "calculation",
+            "tier": "middle",
+            "t": "For a one-to-one reaction, molarity times volume of acid equals molarity times volume of base",
+            "k": ["molarity", "one-to-one", "volume"],
+            "n": 0
+        },
+        {
+            "id": "back",
+            "tier": "middle",
+            "t": "In the “back” form, a known excess of reagent is added and the leftover amount is measured, as with antacid tablets",
+            "k": ["excess", "leftover", "antacid"],
+            "n": 0
+        },
+        {
+            "id": "weak-acid-indicators",
+            "tier": "middle",
+            "t": "Indicators are themselves weak acids or bases whose two forms have different colors",
+            "k": ["weak acids", "two forms"],
+            "n": 0
+        },
+        {
+            "id": "half-equivalence",
+            "tier": "power",
+            "t": "At the half-equivalence point, the pH equals the weak acid’s pKa (Henderson–Hasselbalch equation)",
+            "k": ["half-equivalence", "pka", "henderson–hasselbalch"],
+            "n": 0
+        },
+        {
+            "id": "primary-standard",
+            "tier": "power",
+            "t": "Sodium hydroxide is first standardized against a primary standard such as potassium hydrogen phthalate (KHP)",
+            "k": ["primary standard", "potassium hydrogen phthalate", "khp"],
+            "n": 0
+        },
+        {
+            "id": "mohr-method",
+            "tier": "power",
+            "t": "Mohr method: silver nitrate measures chloride until red-brown silver chromate forms",
+            "k": ["mohr", "silver nitrate", "silver chromate"],
+            "n": 0
+        },
+        {
+            "id": "permanganate",
+            "tier": "power",
+            "t": "Purple potassium permanganate is its own indicator in redox forms, leaving a faint pink once in excess",
+            "k": ["permanganate", "own indicator", "redox"],
+            "n": 0
+        },
+        {
+            "id": "iodometric",
+            "tier": "power",
+            "t": "Iodometric forms use thiosulfate, with starch as the indicator because it turns blue-black with iodine",
+            "k": ["iodometric", "starch", "blue-black", "thiosulfate"],
+            "n": 0
+        },
+        {
+            "id": "edta",
+            "tier": "power",
+            "t": "EDTA measures the calcium and magnesium in hard water (the complexometric form)",
+            "k": ["edta", "hard water", "complexometric"],
+            "n": 0
+        },
+        {
+            "id": "karl-fischer",
+            "tier": "power",
+            "t": "The Karl Fischer method measures tiny amounts of water using iodine and sulfur dioxide",
+            "k": ["karl fischer", "sulfur dioxide"],
+            "n": 0
+        },
+        {
+            "id": "kjeldahl",
+            "tier": "power",
+            "t": "The Kjeldahl method finds the protein in food by turning its nitrogen into ammonia, which is then measured",
+            "k": ["kjeldahl", "protein", "ammonia"],
+            "n": 0
+        },
+        {
+            "id": "winkler",
+            "tier": "power",
+            "t": "The Winkler test uses an iodine-based form to measure the oxygen dissolved in water",
+            "k": ["winkler", "dissolved"],
+            "n": 0
+        },
+        {
+            "id": "gran-plot",
+            "tier": "power",
+            "t": "A Gran plot turns the data into a straight line to locate the equivalence point",
+            "k": ["gran plot", "straight line"],
+            "n": 0
+        },
+        {
+            "id": "instrumental",
+            "tier": "power",
+            "t": "Potentiometric forms track the reaction with a pH meter or electrode; conductometric forms track electrical conductivity",
+            "k": ["potentiometric", "conductometric", "ph meter"],
+            "n": 0
+        },
+        {
+            "id": "diprotic",
+            "tier": "power",
+            "t": "A diprotic acid, which can give up two hydrogen ions, may show two equivalence points",
+            "k": ["diprotic", "two equivalence points"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The procedure, not a part",
+        "body": "Tossups on this technique are packed with its parts and steps: the buret, the indicator, phenolphthalein, the equivalence point, and the neutralization reaction itself. Players who blurt one of those names lose the points, because the question wants the whole procedure. Filtration is the other trap: it sounds similar, but it separates solids from liquids by pouring a mixture through filter paper.",
+        "fix": "Listen for “this technique” or “this procedure.” Burets, indicators, endpoints, and finding an unknown concentration mean titration; filter paper and a funnel mean filtration.",
+        "line": "Real answer line: <b><u>Titration</u></b> (accept <u>titrimetry</u> or <u>volumetric analysis</u>)"
+    },
+    "tests": {
+        "right": [
+            "Titration",
+            "titrations",
+            "Titraton",
+            "acid-base titration",
+            "Titrimetry",
+            "volumetric analysis"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Filtration",
+            "Neutralization",
+            "Buret",
+            "Equivalence point",
+            "Chromatography",
+            "Nitration",
+            "Indicator"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

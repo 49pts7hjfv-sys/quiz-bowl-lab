@@ -1,0 +1,456 @@
+{
+  "id": "roots",
+  "name": "Roots",
+  "mono": "RT",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Underground plant organs · Anchor the plant and soak up water and minerals",
+  "dates": "Grow from the radicle of a sprouting seed",
+  "briefing": "Roots anchor a plant and drink for it, soaking up water and minerals through countless microscopic root hairs. Some store food, which is why we eat carrots, beets, and sweet potatoes, though an ordinary potato is actually a stem. Others grow in surprising directions: mangroves send “breathing” roots up out of the mud, and banyan trees drop roots from their branches that thicken into pillars.",
+  "answerHtml": "<b><u>Roots</u></b> (accept <u>root</u>, <u>root system</u>, or <u>taproot</u>; prompt on <u>root hairs</u> or <u>radicle</u>; do not accept “stems” or “rhizomes”)",
+  "accept": [
+    "roots",
+    "root",
+    "root system",
+    "root systems",
+    "taproot",
+    "taproots",
+    "tap root",
+    "tap roots",
+    "fibrous roots",
+    "fibrous root system"
+  ],
+  "prompt": [
+    "root hairs",
+    "root hair",
+    "root cap",
+    "radicle",
+    "radicles"
+  ],
+  "reject": [
+    "square root",
+    "square roots",
+    "cube root",
+    "cube roots",
+    "root canal",
+    "root beer",
+    "stem",
+    "stems",
+    "shoot",
+    "shoots",
+    "rhizome",
+    "rhizomes",
+    "rhizoid",
+    "rhizoids",
+    "tuber",
+    "tubers",
+    "bulb",
+    "bulbs",
+    "leaf",
+    "leaves",
+    "xylem",
+    "phloem",
+    "mycorrhizae",
+    "mycorrhiza"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Root",
+  "qb": {
+    "q": "root",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "A waxy band of suberin [“SOO-ber-in”] called the Casparian [“kas-PAIR-ee-un”] strip runs through the cell walls of the endodermis in these organs, forcing water and minerals to pass through living cell membranes before reaching the xylem. Just inside that endodermis lies the pericycle, where new side branches of these organs begin.",
+      "r": "For 10 points, name these plant organs that absorb water and minerals from the soil and anchor plants in the ground."
+    },
+    {
+      "p": "Starch-filled grains called statoliths settle to the bottom of cells near the tips of these organs, telling them which way is down. That signal lets these organs bend toward gravity, a response called positive gravitropism.",
+      "r": "For 10 points, name these plant organs that grow down into the soil to soak up water, protected at their tips by a cap of cells."
+    },
+    {
+      "p": "A cluster of slowly dividing cells called the quiescent [“kwee-ESS-ent”] center sits near the tip of these organs. Behind each tip, these organs have a zone of cell division, a zone of elongation where cells stretch, and a zone of maturation where tiny hairs sprout.",
+      "r": "For 10 points, name these plant organs that absorb water and minerals from the soil and hold plants in place."
+    },
+    {
+      "p": "Water entering these organs can travel through cell walls, called the apoplast, or through the cytoplasm of cells joined by tiny channels, called the symplast. Pressure built up in these organs at night can push droplets of water out of the leaf edges of grasses and strawberries, a process called guttation [“guh-TAY-shun”].",
+      "r": "For 10 points, name these plant organs covered in tiny hairs that absorb water and minerals from the soil."
+    },
+    {
+      "p": "Orchids that grow high on tree branches have aerial versions of these organs wrapped in a spongy, silvery layer called velamen [“vuh-LAY-men”] that soaks up rainwater. Banyan trees drop aerial ones from their branches that thicken into pillars looking like extra trunks.",
+      "r": "Most of these organs grow underground. For 10 points, name these plant organs that anchor a plant and absorb water from the soil."
+    },
+    {
+      "p": "Black mangroves grow pneumatophores [“noo-MAT-uh-forz”], special versions of these organs that poke up out of the mud like snorkels to take in air. Red mangroves and corn plants are braced by “prop” versions of these organs that grow down from their stems.",
+      "r": "For 10 points, name these plant organs, which usually grow underground to absorb water and minerals."
+    },
+    {
+      "p": "Most plants trade sugar to fungi called mycorrhizae [“my-koh-RYE-zee”] that grow around or into these organs and help them collect water and phosphorus. Legumes like soybeans also house nitrogen-fixing _Rhizobium_ [“rye-ZOH-bee-um”] bacteria in nodules on these organs.",
+      "r": "For 10 points, name these plant organs that anchor a plant and absorb water from the soil, often through tiny hairs."
+    },
+    {
+      "p": "Black walnut trees release juglone [“JOO-glone”], a chemical that harms nearby tomato plants, partly from these organs, an example of allelopathy [“uh-lee-LOP-uh-thee”]. The tips of these organs make much of a plant’s supply of cytokinins [“sye-toh-KYE-ninz”], hormones that trigger cell division.",
+      "r": "For 10 points, name these plant organs that absorb water and minerals, often through tiny hairs."
+    },
+    {
+      "p": "Dodder, a parasitic vine, loses these organs once it latches onto a host and then feeds through suckers called haustoria [“haw-STOR-ee-uh”]. Mosses have no true versions of these organs and instead cling to surfaces with thread-like rhizoids [“RYE-zoydz”].",
+      "r": "For 10 points, name these plant organs, which in most plants anchor them in the soil and absorb water."
+    },
+    {
+      "p": "Lilies and many other bulb-forming plants grow contractile versions of these organs, which shrink lengthwise to tug the bulb deeper into the soil. Sweet potatoes and cassava are swollen versions of these organs, but ordinary potatoes are not; potatoes are underground stems called tubers.",
+      "r": "For 10 points, name these plant organs, including edible carrots and beets, that absorb water from the soil."
+    },
+    {
+      "p": "The radicle [“RAD-ih-kul”], the first part of a sprouting seed to break out of the seed coat, develops into the first of these organs. As one of these organs pushes through soil, the protective cap at its tip is constantly worn away and replaced.",
+      "r": "For 10 points, name these plant organs that anchor a plant and absorb water through tiny hairs."
+    },
+    {
+      "p": "Versions of these organs that grow from a stem or leaf, instead of from the radicle of a seed, are called adventitious [“ad-ven-TISH-us”]. Gardeners dip stem cuttings in powders containing auxins, such as IBA, to make new ones of these organs sprout.",
+      "r": "For 10 points, name these plant organs that grow underground and absorb water and minerals from the soil."
+    },
+    {
+      "p": "In buttercups and other eudicots, the xylem at the center of these organs forms an X or star shape when cut crosswise, while in corn and other monocots the xylem and phloem form a ring around a soft central pith.",
+      "r": "Grasses usually have a fibrous system of these organs instead of one thick main one. For 10 points, name these underground plant organs that absorb water and minerals."
+    },
+    {
+      "p": "Overwatering can kill a houseplant because soggy soil leaves these organs without the oxygen they need for cellular respiration. Most of these organs lack chlorophyll, so they depend on sugar sent down from the leaves through the phloem.",
+      "r": "For 10 points, name these plant organs that take in water and minerals through tiny hairs."
+    },
+    {
+      "p": "Dandelions are hard to pull up because they have one long, thick main one of these organs, while grasses form a fibrous mat of thin ones that helps hold soil in place and prevent erosion.",
+      "r": "Carrots and radishes are swollen versions of these organs. For 10 points, name these plant organs that anchor plants and absorb water."
+    }
+  ],
+  "clues": [
+    {
+      "id": "absorb-anchor",
+      "tier": "giveaway",
+      "t": "Absorb water and minerals from the soil and anchor the plant in place",
+      "k": [
+        "absorb",
+        "anchor",
+        "minerals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tap-fibrous",
+      "tier": "giveaway",
+      "t": "Some species grow one thick main one (carrots, dandelions); grasses grow a fibrous mat",
+      "k": [
+        "fibrous",
+        "dandelions",
+        "main one"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hairs",
+      "tier": "giveaway",
+      "t": "Tiny hairs near the tip add huge surface area for soaking up water",
+      "k": [
+        "tiny hairs",
+        "surface area"
+      ],
+      "n": 0
+    },
+    {
+      "id": "storage",
+      "tier": "giveaway",
+      "t": "Carrots, beets, radishes, and sweet potatoes are swollen ones that store food",
+      "k": [
+        "carrots",
+        "beets",
+        "sweet potatoes",
+        "store food"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gravitropism",
+      "tier": "giveaway",
+      "t": "Grow down toward gravity (positive gravitropism), the opposite of stems",
+      "k": [
+        "gravitropism",
+        "gravity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cap",
+      "tier": "middle",
+      "t": "A protective cap covers the growing tip and is constantly worn away and replaced",
+      "k": [
+        "protective cap",
+        "growing tip"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nodules",
+      "tier": "middle",
+      "t": "Legumes like soybeans house nitrogen-fixing _Rhizobium_ bacteria in nodules on them",
+      "k": [
+        "nodules",
+        "rhizobium",
+        "nitrogen-fixing",
+        "legumes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mycorrhizae",
+      "tier": "middle",
+      "t": "Most plants trade sugar to mycorrhizae, fungi that help them collect water and phosphorus",
+      "k": [
+        "mycorrhizae",
+        "phosphorus",
+        "fungi"
+      ],
+      "n": 0,
+      "rabbit": "Fungi"
+    },
+    {
+      "id": "radicle",
+      "tier": "middle",
+      "t": "The radicle, the first part out of a sprouting seed, becomes the first one",
+      "k": [
+        "radicle",
+        "sprouting seed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "adventitious",
+      "tier": "middle",
+      "t": "Adventitious ones grow from stems or leaves, like corn’s “prop” ones and a banyan’s pillars",
+      "k": [
+        "adventitious",
+        "prop",
+        "banyan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pneumatophores",
+      "tier": "middle",
+      "t": "Black mangroves grow pneumatophores, “snorkel” ones that poke up out of the mud for air",
+      "k": [
+        "pneumatophores",
+        "mangroves",
+        "snorkel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zones",
+      "tier": "middle",
+      "t": "Behind the tip are zones of cell division, elongation, and maturation",
+      "k": [
+        "elongation",
+        "maturation",
+        "cell division"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rhizoids",
+      "tier": "middle",
+      "t": "Mosses have no true ones; they cling with thread-like rhizoids",
+      "k": [
+        "rhizoids",
+        "mosses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tubers",
+      "tier": "middle",
+      "t": "Potatoes are not these organs but underground stems called tubers",
+      "k": [
+        "potatoes",
+        "tubers",
+        "stems"
+      ],
+      "n": 0
+    },
+    {
+      "id": "overwatering",
+      "tier": "middle",
+      "t": "Soggy soil can starve them of the oxygen they need for cellular respiration",
+      "k": [
+        "oxygen",
+        "soggy",
+        "cellular respiration"
+      ],
+      "n": 0
+    },
+    {
+      "id": "casparian",
+      "tier": "power",
+      "t": "The Casparian strip, a waxy band of suberin in the endodermis, forces water through cell membranes",
+      "k": [
+        "casparian strip",
+        "suberin",
+        "endodermis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pericycle",
+      "tier": "power",
+      "t": "New side branches start in the pericycle, just inside the endodermis",
+      "k": [
+        "pericycle",
+        "side branches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "statoliths",
+      "tier": "power",
+      "t": "Starch-filled statoliths in the cap settle downward to sense gravity",
+      "k": [
+        "statoliths",
+        "starch-filled"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quiescent",
+      "tier": "power",
+      "t": "The quiescent center, a cluster of slow-dividing cells at the tip, keeps a reserve of stem cells",
+      "k": [
+        "quiescent center",
+        "slow-dividing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "guttation",
+      "tier": "power",
+      "t": "Their pressure at night pushes water droplets out of leaf edges (guttation)",
+      "k": [
+        "guttation",
+        "droplets",
+        "pressure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "apoplast-symplast",
+      "tier": "power",
+      "t": "Water moves through cell walls (the apoplast) or through linked cytoplasm (the symplast)",
+      "k": [
+        "apoplast",
+        "symplast"
+      ],
+      "n": 0
+    },
+    {
+      "id": "velamen",
+      "tier": "power",
+      "t": "Tree-dwelling orchids have aerial ones wrapped in spongy, silvery velamen",
+      "k": [
+        "velamen",
+        "orchids",
+        "aerial"
+      ],
+      "n": 0
+    },
+    {
+      "id": "juglone",
+      "tier": "power",
+      "t": "Black walnuts release juglone, partly from them, harming nearby tomatoes (allelopathy)",
+      "k": [
+        "juglone",
+        "black walnuts",
+        "allelopathy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cytokinins",
+      "tier": "power",
+      "t": "Their tips make much of a plant’s cytokinins, hormones that trigger cell division",
+      "k": [
+        "cytokinins",
+        "hormones"
+      ],
+      "n": 0
+    },
+    {
+      "id": "auxin-cuttings",
+      "tier": "power",
+      "t": "Gardeners dip cuttings in auxin powders like IBA to make new ones sprout",
+      "k": [
+        "auxin",
+        "cuttings",
+        "iba"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dodder",
+      "tier": "power",
+      "t": "Dodder loses its own after latching onto a host and feeds through haustoria",
+      "k": [
+        "dodder",
+        "haustoria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "contractile",
+      "tier": "power",
+      "t": "Contractile ones shrink lengthwise to pull lily bulbs deeper into soil",
+      "k": [
+        "contractile",
+        "lily bulbs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cross-section",
+      "tier": "power",
+      "t": "Cut crosswise, eudicots like buttercups show X-shaped xylem; monocots show a ring around a pith",
+      "k": [
+        "buttercups",
+        "x-shaped",
+        "pith"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Potatoes are stems!",
+    "body": "Plenty of underground plant parts are not roots. Potatoes are tubers (swollen underground stems), ginger is a rhizome (another underground stem), and onions are bulbs made of fleshy leaves, while carrots, beets, and sweet potatoes really are roots. Mosses don’t have true roots at all; their rhizoids only look like them.",
+    "fix": "A potato’s “eyes” are buds, and only stems grow buds. If the clues mention root hairs, a root cap, a Casparian strip, or absorbing water and minerals, answer roots, not stems or rhizomes.",
+    "line": "Real answer line: <b><u>Roots</u></b> (accept <u>root</u> system or <u>taproot</u>; do not accept “stems,” “tubers,” “rhizomes,” or “rhizoids”)"
+  },
+  "tests": {
+    "right": [
+      "Roots",
+      "root",
+      "Taproot",
+      "Root system",
+      "Rooots"
+    ],
+    "prompt": [
+      "Root hairs"
+    ],
+    "wrong": [
+      "Square roots",
+      "Stems",
+      "Rhizomes",
+      "Tubers",
+      "Shoots"
+    ]
+  }
+}

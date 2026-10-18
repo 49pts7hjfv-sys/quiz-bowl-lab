@@ -1,0 +1,367 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "birds",
+    "name": "Birds",
+    "mono": "BRD",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Feathered, egg-laying vertebrates · The only dinosaurs still alive",
+    "dates": "More than 10,000 living species",
+    "briefing": "Birds are the only animals alive today with feathers, and scientists consider them living dinosaurs, descended from the same branch of dinosaurs as Tyrannosaurus rex. Hollow bones, big flight muscles, and super-efficient lungs let most of them fly, from the tiny bee hummingbird of Cuba to the soaring albatross. The ostrich can’t fly at all, but it lays the biggest eggs of any living bird.",
+    "answerHtml": "<b><u>Birds</u></b> (accept <u>Aves</u> or <u>avians</u>; prompt on <u>dinosaurs</u>)",
+    "accept": [
+        "birds",
+        "bird",
+        "aves",
+        "class aves",
+        "avians",
+        "avian",
+        "avian dinosaurs",
+        "modern birds",
+        "neornithes"
+    ],
+    "prompt": [
+        "dinosaurs",
+        "dinosaur",
+        "theropods",
+        "theropod",
+        "theropod dinosaurs"
+    ],
+    "reject": [
+        "the birds",
+        "reptiles",
+        "reptile",
+        "mammals",
+        "mammal",
+        "bats",
+        "bat",
+        "insects",
+        "pterosaurs",
+        "pterosaur",
+        "pterodactyls",
+        "pterodactyl",
+        "archaeopteryx",
+        "feathers",
+        "feather",
+        "eggs",
+        "fish",
+        "amphibians",
+        "crocodilians",
+        "crocodiles",
+        "birds of prey",
+        "flightless birds",
+        "bird flu",
+        "avian flu",
+        "avian influenza"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Bird",
+    "qb": {
+        "q": "birds",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "These animals make sounds with a syrinx [“SIR-inks”], a vocal organ found where the windpipe splits toward the two lungs. Many of them grind their food in a muscular stomach called a gizzard, often with the help of swallowed stones.",
+            "r": "For 10 points, name this class of animals, the only living animals that have feathers."
+        },
+        {
+            "p": "Air sacs let these animals move air through their lungs in only one direction, so fresh air flows past gas-exchange tubes called parabronchi both when they breathe in and when they breathe out.",
+            "r": "Many of their bones are hollow and filled with air. For 10 points, name these feathered, egg-laying animals, which include robins and eagles."
+        },
+        {
+            "p": "Flightless ratites [“RAT-ites”] such as emus and kiwis lack the keel, a ridge on the breastbone that anchors the big flight muscles of most of these animals. Their fused collarbones form a springy furcula [“FUR-kyoo-luh”], better known as the wishbone.",
+            "r": "For 10 points, name this class of feathered animals that includes ostriches, penguins, and eagles."
+        },
+        {
+            "p": "In 1861, a feathered fossil called Archaeopteryx [“ar-kee-OP-ter-iks”] was found in the Solnhofen [“ZOHLN-hoh-fen”] limestone of Germany, and Thomas Henry Huxley later argued that these animals evolved from dinosaurs. Scientists now place them among the theropods, the same group as Tyrannosaurus.",
+            "r": "For 10 points, name these animals with feathers and beaks, often called the only living dinosaurs."
+        },
+        {
+            "p": "John James Audubon painted 435 life-size plates for a giant book about these animals, published in parts from 1827 to 1838. The branch of science that studies these animals is called ornithology.",
+            "r": "Examples include robins, eagles, owls, and penguins. For 10 points, name this class of feathered, egg-laying animals that descended from dinosaurs."
+        },
+        {
+            "p": "Peter and Rosemary Grant spent decades on the Galápagos island of Daphne Major, measuring how droughts changed the beaks of some of these animals. Charles Darwin had collected those animals, now called Darwin’s finches, whose beak shapes fit different foods.",
+            "r": "They have beaks but no teeth. For 10 points, name this class of feathered, egg-laying animals."
+        },
+        {
+            "p": "Konrad Lorenz showed that newly hatched goslings would follow him as if he were their mother, a kind of learning called imprinting. Chicks of these animals that hatch helpless and naked are called altricial, while those that can walk and feed right away are precocial.",
+            "r": "Ducks and geese belong to this class. For 10 points, name these egg-laying animals with feathers."
+        },
+        {
+            "p": "These animals conserve water by getting rid of nitrogen waste as a white paste of uric acid, which leaves the body through a single opening called the cloaca [“kloh-AY-kuh”]. Their eggs have hard shells made of calcium carbonate.",
+            "r": "Their front limbs are wings. For 10 points, name these warm-blooded animals that have feathers and beaks."
+        },
+        {
+            "p": "Tiny hooks on barbules [“BAR-byoolz”] zip together the barbs of these animals’ most distinctive body coverings, and a gland near the tail makes the oil these animals spread while preening. They replace those coverings in a process called molting.",
+            "r": "For 10 points, name these animals, the only living creatures covered in feathers, which include eagles and owls."
+        },
+        {
+            "p": "The last few tail vertebrae of these animals are fused into a pygostyle [“PYE-guh-style”], which supports their tail feathers, and many of their hip bones are fused into a synsacrum [“sin-SAY-krum”]. Their bones are often hollow, with thin inner struts for strength.",
+            "r": "Most of them can fly. For 10 points, name this class of feathered vertebrates that lay hard-shelled eggs."
+        },
+        {
+            "p": "Martha, the last known passenger pigeon, died at the Cincinnati Zoo in 1914, and the flightless dodo of Mauritius [“maw-RISH-us”] had vanished by the late 1600s, less than a century after Dutch sailors first landed there. Both belonged to this class of animals.",
+            "r": "Living members include pigeons, parrots, and penguins. For 10 points, name this class of feathered animals."
+        },
+        {
+            "p": "Some of these animals, such as cuckoos, are brood parasites that lay their eggs in other species’ nests, so the hosts raise their chicks. The Arctic tern, one of these animals, makes the longest yearly migration of any animal.",
+            "r": "For 10 points, name these feathered animals, many of which fly south for the winter."
+        },
+        {
+            "p": "Feathered fossils of Sinosauropteryx [“sye-noh-sor-OP-ter-iks”] and the four-winged Microraptor show that many dinosaurs closely related to these animals had feathers too. These animals were the only dinosaurs to survive the asteroid impact 66 million years ago.",
+            "r": "Their front limbs are wings, and they have beaks but no teeth. For 10 points, name these living animals with feathers."
+        },
+        {
+            "p": "Crocodiles and alligators are the closest living relatives of these animals, and both groups are archosaurs [“AR-kuh-sorz”]. Like mammals, these animals have a four-chambered heart and are warm-blooded, though the two groups evolved those traits separately.",
+            "r": "They lay hard-shelled eggs and have toothless beaks. For 10 points, name these feathered animals, which include eagles and penguins."
+        },
+        {
+            "p": "More than half of all species in this class are passerines [“PASS-uh-reenz”], a group with feet built for perching, and many passerines learn their songs from adults. Many members of this class store food in a pouch called a crop before it reaches the gizzard.",
+            "r": "The largest living member is the ostrich. For 10 points, name this class of feathered animals."
+        }
+    ],
+    "clues": [
+        {
+            "id": "feathers",
+            "tier": "giveaway",
+            "t": "The only living animals with feathers",
+            "k": ["feathers"],
+            "n": 0
+        },
+        {
+            "id": "beaks-eggs",
+            "tier": "giveaway",
+            "t": "Warm-blooded vertebrates with toothless beaks that lay hard-shelled eggs",
+            "k": ["beaks", "hard-shelled eggs", "warm-blooded"],
+            "n": 0
+        },
+        {
+            "id": "examples",
+            "tier": "giveaway",
+            "t": "Includes eagles, penguins, ostriches, robins, owls, and parrots",
+            "k": ["eagles", "penguins", "ostriches"],
+            "n": 0
+        },
+        {
+            "id": "wings",
+            "tier": "giveaway",
+            "t": "Most can fly, using wings that evolved from their front limbs",
+            "k": ["wings", "front limbs", "fly"],
+            "n": 0
+        },
+        {
+            "id": "living-dinosaurs",
+            "tier": "giveaway",
+            "t": "Descended from dinosaurs, and often called the only living dinosaurs",
+            "k": ["living dinosaurs", "dinosaurs"],
+            "n": 0
+        },
+        {
+            "id": "hollow-bones",
+            "tier": "middle",
+            "t": "Many of their bones are hollow and filled with air, which keeps them light",
+            "k": ["hollow", "bones"],
+            "n": 0
+        },
+        {
+            "id": "archaeopteryx",
+            "tier": "middle",
+            "t": "Archaeopteryx, a feathered fossil found in Germany in 1861, is a famous link between them and dinosaurs",
+            "k": ["archaeopteryx", "germany", "fossil"],
+            "n": 0
+        },
+        {
+            "id": "darwins-finches",
+            "tier": "middle",
+            "t": "Darwin’s finches on the Galápagos have beaks shaped for different foods; Peter and Rosemary Grant studied them",
+            "k": ["darwin’s finches", "finches", "galápagos", "grant"],
+            "n": 0,
+            "rabbit": "Charles Darwin"
+        },
+        {
+            "id": "ornithology",
+            "tier": "middle",
+            "t": "Studied in the branch of science called ornithology",
+            "k": ["ornithology"],
+            "n": 0
+        },
+        {
+            "id": "gizzard-crop",
+            "tier": "middle",
+            "t": "Many store food in a pouch called a crop; a muscular stomach called a gizzard grinds it, often with swallowed stones",
+            "k": ["gizzard", "crop", "stones"],
+            "n": 0
+        },
+        {
+            "id": "migration",
+            "tier": "middle",
+            "t": "Many migrate; the Arctic tern makes the longest yearly migration of any animal",
+            "k": ["arctic tern", "migration", "migrate"],
+            "n": 0
+        },
+        {
+            "id": "heart",
+            "tier": "middle",
+            "t": "Have a four-chambered heart and are warm-blooded (endothermic), like mammals",
+            "k": ["four-chambered heart", "endothermic"],
+            "n": 0
+        },
+        {
+            "id": "keel-wishbone",
+            "tier": "middle",
+            "t": "Flight muscles anchor to a keel on the breastbone; fused collarbones form the wishbone (furcula)",
+            "k": ["keel", "wishbone", "furcula"],
+            "n": 0
+        },
+        {
+            "id": "imprinting",
+            "tier": "middle",
+            "t": "Konrad Lorenz showed imprinting: newly hatched goslings followed him as if he were their mother",
+            "k": ["konrad lorenz", "imprinting", "goslings"],
+            "n": 0
+        },
+        {
+            "id": "syrinx",
+            "tier": "power",
+            "t": "Sing with a syrinx, a vocal organ where the windpipe splits toward the lungs (mammals use a larynx)",
+            "k": ["syrinx", "larynx"],
+            "n": 0
+        },
+        {
+            "id": "air-sacs",
+            "tier": "power",
+            "t": "Air sacs move air through the lungs in one direction, past tubes called parabronchi",
+            "k": ["air sacs", "parabronchi", "one direction"],
+            "n": 0
+        },
+        {
+            "id": "uric-acid-cloaca",
+            "tier": "power",
+            "t": "Get rid of nitrogen waste as white uric acid through a single opening, the cloaca",
+            "k": ["uric acid", "cloaca"],
+            "n": 0
+        },
+        {
+            "id": "barbules",
+            "tier": "power",
+            "t": "Hooks on barbules zip a feather’s barbs together; a preen gland near the tail makes oil for preening",
+            "k": ["barbules", "preen", "barbs"],
+            "n": 0
+        },
+        {
+            "id": "pygostyle",
+            "tier": "power",
+            "t": "Fused tail bones form a pygostyle that holds the tail feathers; fused hip bones form a synsacrum",
+            "k": ["pygostyle", "synsacrum"],
+            "n": 0
+        },
+        {
+            "id": "ratites",
+            "tier": "power",
+            "t": "Flightless ratites, such as ostriches, emus, and kiwis, have no keel on the breastbone",
+            "k": ["ratites", "emus", "kiwis"],
+            "n": 0
+        },
+        {
+            "id": "audubon",
+            "tier": "power",
+            "t": "John James Audubon painted 435 life-size plates of them, published from 1827 to 1838",
+            "k": ["audubon", "life-size", "435"],
+            "n": 0
+        },
+        {
+            "id": "huxley-theropods",
+            "tier": "power",
+            "t": "Thomas Henry Huxley argued they evolved from dinosaurs; they are classified with theropods like Tyrannosaurus",
+            "k": ["huxley", "theropods", "tyrannosaurus"],
+            "n": 0
+        },
+        {
+            "id": "extinct",
+            "tier": "power",
+            "t": "Extinct examples: the dodo of Mauritius and the passenger pigeon, whose last member, Martha, died in 1914",
+            "k": ["dodo", "passenger pigeon", "martha", "1914"],
+            "n": 0
+        },
+        {
+            "id": "feathered-dinosaurs",
+            "tier": "power",
+            "t": "Sinosauropteryx and four-winged Microraptor were feathered dinosaurs; this group alone survived the asteroid 66 million years ago",
+            "k": ["sinosauropteryx", "microraptor", "asteroid"],
+            "n": 0
+        },
+        {
+            "id": "archosaurs",
+            "tier": "power",
+            "t": "Crocodiles and alligators are their closest living relatives; both groups are archosaurs",
+            "k": ["archosaurs", "crocodiles", "alligators"],
+            "n": 0
+        },
+        {
+            "id": "altricial",
+            "tier": "power",
+            "t": "Chicks are altricial (hatch helpless) or precocial (can walk and feed right away)",
+            "k": ["altricial", "precocial"],
+            "n": 0
+        },
+        {
+            "id": "brood-parasites",
+            "tier": "power",
+            "t": "Cuckoos are brood parasites that lay their eggs in other species’ nests",
+            "k": ["cuckoos", "brood parasites"],
+            "n": 0
+        },
+        {
+            "id": "passerines",
+            "tier": "power",
+            "t": "Passerines, a group with feet built for perching, make up more than half of all species; many learn their songs",
+            "k": ["passerines", "perching"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Dinosaurs, reptiles, or birds?",
+        "body": "Many tossups on this answer lead with dinosaur clues such as Archaeopteryx, Microraptor, and theropods, so players blurt “dinosaurs,” which is too general and earns only a prompt at best. Others hear “lay eggs,” “cloaca,” or “crocodiles” and say “reptiles.” Pterosaurs were flying reptiles, not birds and not dinosaurs.",
+        "fix": "Hold on for feathers, beaks, the syrinx, the gizzard, or the keel, and if a prompt comes, say birds (or Aves). Aristophanes’s comedy _The Birds_ is a separate literature answer, so listen for “this play” before answering it.",
+        "line": "Real answer line: <b><u>Birds</u></b> (accept <u>Aves</u>; prompt on <u>dinosaurs</u>)"
+    },
+    "tests": {
+        "right": [
+            "Birds",
+            "bird",
+            "Aves",
+            "Class Aves",
+            "Birdz",
+            "avians"
+        ],
+        "prompt": [
+            "Dinosaurs",
+            "Theropods"
+        ],
+        "wrong": [
+            "The Birds",
+            "Reptiles",
+            "Bats",
+            "Pterosaurs",
+            "Archaeopteryx",
+            "Mammals"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

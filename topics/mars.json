@@ -1,0 +1,419 @@
+{
+  "id": "mars",
+  "name": "Mars",
+  "mono": "MAR",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Fourth planet from the Sun · The Red Planet, explored by rovers",
+  "dates": "Known since ancient times; moons found 1877",
+  "briefing": "Mars looks red because its dusty surface is full of iron oxide, the same stuff as rust. It has the solar system’s largest volcano, Olympus Mons, and a canyon system, Valles Marineris, about as long as the United States is wide. Robots have explored it for decades, from the Viking landers of 1976 to the Perseverance rover and its little helicopter, Ingenuity, which made the first powered flight on another planet in 2021.",
+  "answerHtml": "<b><u>Mars</u></b>",
+  "accept": [
+    "mars",
+    "planet mars"
+  ],
+  "prompt": [],
+  "reject": [
+    "ares",
+    "venus",
+    "earth",
+    "jupiter",
+    "mercury",
+    "phobos",
+    "deimos",
+    "olympus mons",
+    "valles marineris",
+    "barsoom"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Mars",
+  "qb": {
+    "q": "Mars",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The largest crater on this planet’s moon Phobos [“FOH-bus”] is named Stickney, after the wife of the astronomer who discovered both of this planet’s moons in 1877. That astronomer, Asaph Hall, was working at the U.S. Naval Observatory.",
+      "r": "This planet is named for the Roman god of war. For 10 points, name this fourth planet from the Sun."
+    },
+    {
+      "p": "In _Gulliver’s Travels_, astronomers on the flying island of Laputa know of two moons circling this planet, more than 150 years before real astronomers found them. Those real moons, Phobos and Deimos [“DYE-mus”], may be asteroids that this planet captured.",
+      "r": "For 10 points, name this rusty-red planet, the fourth from the Sun, named for the Roman god of war."
+    },
+    {
+      "p": "Johannes Kepler spent years trying to fit Tycho Brahe’s careful measurements of this planet’s position, a struggle that led him to realize that planets move in ellipses. This planet sometimes seems to loop backward across the night sky, which is called retrograde motion.",
+      "r": "For 10 points, name this planet, named for the Roman god of war and nicknamed the Red Planet."
+    },
+    {
+      "p": "A meteorite called ALH84001, found in Antarctica in 1984, came from this planet, and in 1996 a team of NASA scientists claimed that it might hold tiny fossils of ancient microbes. Many other scientists disputed that claim.",
+      "r": "For 10 points, name this planet, whose two small moons are Phobos and Deimos."
+    },
+    {
+      "p": "Edgar Rice Burroughs called this planet “Barsoom” in adventure novels about John Carter, and Ray Bradbury wrote a 1950 book of linked stories about rocket ships carrying settlers there from Earth.",
+      "r": "In H. G. Wells’s _The War of the Worlds_, invaders from this planet attack England. For 10 points, name this fourth planet."
+    },
+    {
+      "p": "Gustav Holst’s orchestral suite _The Planets_ opens with a pounding movement in 5/4 time that calls this planet “the Bringer of War.” In Roman myth, the god this planet is named for was the father of Romulus and Remus.",
+      "r": "For 10 points, name this planet whose surface is reddened by iron oxide."
+    },
+    {
+      "p": "A canyon system on this planet about as long as the United States is wide is named for Mariner 9, which in 1971 became the first spacecraft to orbit another planet. Mariner 4 had sent back the first close-up photos of this planet six years earlier.",
+      "r": "For 10 points, name this planet, home of Valles Marineris and of Olympus Mons, the largest volcano in the solar system."
+    },
+    {
+      "p": "The Tharsis region of this planet holds a line of three huge volcanoes named Arsia, Pavonis, and Ascraeus [“ass-KREE-us”] Mons. Nearby stands the largest volcano in the solar system, a shield volcano about two and a half times as tall as Mount Everest.",
+      "r": "That volcano is Olympus Mons. For 10 points, name this fourth planet from the Sun."
+    },
+    {
+      "p": "A rover built to last 90 sols, or days on this planet, kept working for nearly 15 years, until a planet-wide dust storm blocked its solar power in 2018. That rover, Opportunity, landed in 2004, as did its twin, Spirit.",
+      "r": "For 10 points, name this planet nicknamed the Red Planet, the fourth from the Sun."
+    },
+    {
+      "p": "A small helicopter named Ingenuity made 72 flights on this planet, starting with the first powered, controlled flight on another planet in April 2021. It rode to Jezero [“JEZ-uh-roh”] Crater, a dried-up lake bed, attached to the belly of a rover.",
+      "r": "That rover is Perseverance. For 10 points, name this planet, which NASA rovers have explored since 1997."
+    },
+    {
+      "p": "In 2012, a rocket-powered “sky crane” lowered the Curiosity rover on cables into this planet’s Gale Crater, where it began climbing a mountain called Mount Sharp. Curiosity found evidence that the crater once held a lake.",
+      "r": "For 10 points, name this planet, whose polar ice caps contain frozen carbon dioxide, or dry ice."
+    },
+    {
+      "p": "Giovanni Schiaparelli [“skyah-puh-REL-ee”] described “canali,” or channels, on this planet, a word mistranslated into English as “canals.” Percival Lowell built an observatory in Arizona and wrote books claiming that intelligent beings had dug those canals.",
+      "r": "For 10 points, name this planet, home of the giant volcano Olympus Mons and the canyon Valles Marineris."
+    },
+    {
+      "p": "In 1976, a photo of the Cydonia [“sih-DOH-nee-uh”] region taken by the Viking 1 orbiter showed a hill that looked like a human face, but sharper photos taken years later showed an ordinary mesa. The Viking landers tested this planet’s soil for signs of life.",
+      "r": "Viking 1 also sent back the first clear photos from this planet’s surface. For 10 points, name this planet, named for the Roman god of war."
+    },
+    {
+      "p": "India’s Mangalyaan orbiter reached this planet in 2014, and China’s Zhurong [“joo-RONG”] rover landed on it in 2021. Both missions studied a world whose thin atmosphere is made mostly of carbon dioxide.",
+      "r": "This planet has two small moons, Phobos and Deimos. For 10 points, name this fourth planet from the Sun."
+    },
+    {
+      "p": "A day on this planet, called a sol, lasts about 40 minutes longer than a day on Earth, and its axis is tilted about 25 degrees, so it has seasons, though each lasts about twice as long as Earth’s.",
+      "r": "A year there lasts about 687 Earth days. For 10 points, name this planet, whose reddish color comes from iron oxide, or rust."
+    }
+  ],
+  "clues": [
+    {
+      "id": "red-planet",
+      "tier": "giveaway",
+      "t": "Called the Red Planet because iron oxide (rust) in its dust colors its surface",
+      "k": [
+        "red planet",
+        "iron oxide",
+        "rust"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fourth-planet",
+      "tier": "giveaway",
+      "t": "Fourth planet from the Sun, between Earth and the asteroid belt",
+      "k": [
+        "fourth planet",
+        "asteroid belt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "god-of-war",
+      "tier": "giveaway",
+      "t": "Named for the Roman god of war, the counterpart of the Greek Ares; the month of March is named for the same god",
+      "k": [
+        "god of war",
+        "ares",
+        "march"
+      ],
+      "n": 0,
+      "rabbit": "Ares"
+    },
+    {
+      "id": "olympus-mons",
+      "tier": "giveaway",
+      "t": "Home of Olympus Mons, the largest volcano in the solar system",
+      "k": [
+        "olympus mons",
+        "largest volcano"
+      ],
+      "n": 0,
+      "rabbit": "Olympus Mons"
+    },
+    {
+      "id": "rovers",
+      "tier": "giveaway",
+      "t": "Explored by NASA rovers: Sojourner (1997), Spirit and Opportunity (2004), Curiosity (2012), and Perseverance (2021)",
+      "k": [
+        "rovers",
+        "sojourner",
+        "curiosity",
+        "perseverance",
+        "opportunity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phobos-deimos",
+      "tier": "middle",
+      "t": "Its two small moons, Phobos (“fear”) and Deimos (“dread”), are named for sons of Ares and may be captured asteroids",
+      "k": [
+        "phobos",
+        "deimos",
+        "two small moons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "valles-marineris",
+      "tier": "middle",
+      "t": "Valles Marineris, a canyon system about as long as the United States is wide, is named for the Mariner 9 orbiter",
+      "k": [
+        "valles marineris",
+        "canyon",
+        "mariner 9"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ice-caps",
+      "tier": "middle",
+      "t": "Its polar ice caps hold water ice and frozen carbon dioxide (dry ice)",
+      "k": [
+        "polar ice caps",
+        "dry ice",
+        "carbon dioxide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thin-atmosphere",
+      "tier": "middle",
+      "t": "Its thin atmosphere is mostly carbon dioxide, and dust storms sometimes cover the entire planet",
+      "k": [
+        "thin atmosphere",
+        "dust storms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ingenuity",
+      "tier": "middle",
+      "t": "Perseverance landed in Jezero Crater in 2021 carrying Ingenuity, the first helicopter to make a powered, controlled flight on another planet",
+      "k": [
+        "ingenuity",
+        "jezero",
+        "helicopter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "curiosity-gale",
+      "tier": "middle",
+      "t": "Curiosity was lowered into Gale Crater in 2012 by a rocket-powered “sky crane” and climbed Mount Sharp",
+      "k": [
+        "gale crater",
+        "sky crane",
+        "mount sharp"
+      ],
+      "n": 0
+    },
+    {
+      "id": "canals-lowell",
+      "tier": "middle",
+      "t": "Giovanni Schiaparelli’s “canali” (channels) were mistranslated as “canals,” and Percival Lowell claimed intelligent beings had built them",
+      "k": [
+        "canali",
+        "canals",
+        "lowell",
+        "schiaparelli"
+      ],
+      "n": 0
+    },
+    {
+      "id": "war-of-the-worlds",
+      "tier": "middle",
+      "t": "Invaders from this planet attack England in H. G. Wells’s _The War of the Worlds_ (1898)",
+      "k": [
+        "war of the worlds",
+        "wells"
+      ],
+      "n": 0
+    },
+    {
+      "id": "year-and-sol",
+      "tier": "middle",
+      "t": "A year there lasts about 687 Earth days; a day, called a sol, lasts about 40 minutes longer than Earth’s",
+      "k": [
+        "687 earth days",
+        "sol"
+      ],
+      "n": 0
+    },
+    {
+      "id": "asaph-hall",
+      "tier": "power",
+      "t": "Asaph Hall discovered both moons in 1877 at the U.S. Naval Observatory",
+      "k": [
+        "asaph hall",
+        "1877",
+        "naval observatory"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stickney",
+      "tier": "power",
+      "t": "Stickney, the largest crater on Phobos, is named for Asaph Hall’s wife, Angeline Stickney",
+      "k": [
+        "stickney",
+        "crater"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gulliver",
+      "tier": "power",
+      "t": "Jonathan Swift’s _Gulliver’s Travels_ (1726) gave it two moons more than 150 years before they were found",
+      "k": [
+        "gulliver",
+        "swift",
+        "laputa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kepler-ellipses",
+      "tier": "power",
+      "t": "Johannes Kepler used Tycho Brahe’s measurements of its orbit to discover that planets move in ellipses",
+      "k": [
+        "kepler",
+        "tycho",
+        "ellipses"
+      ],
+      "n": 0,
+      "rabbit": "Johannes Kepler"
+    },
+    {
+      "id": "alh84001",
+      "tier": "power",
+      "t": "Meteorite ALH84001, found in Antarctica in 1984, came from here; in 1996 NASA scientists claimed it held possible microbe fossils",
+      "k": [
+        "alh84001",
+        "antarctica",
+        "meteorite",
+        "fossils"
+      ],
+      "n": 0
+    },
+    {
+      "id": "viking-cydonia",
+      "tier": "power",
+      "t": "The Viking landers (1976) tested its soil for life; a Viking 1 orbiter photo of a hill in the Cydonia region looked like a face",
+      "k": [
+        "viking",
+        "cydonia",
+        "1976",
+        "face"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mariners",
+      "tier": "power",
+      "t": "Mariner 4 sent back the first close-up photos (1965); Mariner 9 became the first spacecraft to orbit another planet (1971)",
+      "k": [
+        "mariner 4",
+        "mariner 9",
+        "1965",
+        "1971"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tharsis",
+      "tier": "power",
+      "t": "The Tharsis region holds a row of three giant volcanoes: Arsia, Pavonis, and Ascraeus Mons",
+      "k": [
+        "tharsis",
+        "arsia",
+        "pavonis",
+        "ascraeus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holst-war",
+      "tier": "power",
+      "t": "Gustav Holst’s _The Planets_ opens with its movement, “the Bringer of War,” written in 5/4 time",
+      "k": [
+        "holst",
+        "bringer of war",
+        "5/4"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mangalyaan-zhurong",
+      "tier": "power",
+      "t": "India’s Mangalyaan orbiter arrived in 2014; China’s Zhurong rover landed in 2021",
+      "k": [
+        "mangalyaan",
+        "zhurong",
+        "india",
+        "china"
+      ],
+      "n": 0
+    },
+    {
+      "id": "opportunity",
+      "tier": "power",
+      "t": "Opportunity, designed to last 90 sols, worked for nearly 15 years until a planet-wide dust storm in 2018",
+      "k": [
+        "opportunity",
+        "90 sols",
+        "2018"
+      ],
+      "n": 0
+    },
+    {
+      "id": "barsoom",
+      "tier": "power",
+      "t": "Edgar Rice Burroughs called it “Barsoom” in his John Carter adventure novels",
+      "k": [
+        "barsoom",
+        "burroughs",
+        "john carter"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Planet, not its parts",
+    "body": "Mars tossups are full of famous features that are also answer lines of their own, like Olympus Mons, Phobos, and the Curiosity rover. When a clue names one of them, players sometimes blurt out the feature instead of the planet. The other slip is mythology: Ares is the Greek war god, and only the Roman name, Mars, is the planet.",
+    "fix": "Listen for “this planet.” Phobos and Deimos, Olympus Mons, Valles Marineris, Viking, Spirit, Opportunity, Curiosity, Perseverance, and Ingenuity all point to the Red Planet, the fourth from the Sun. Only answer with a feature if the question asks for “this volcano,” “this moon,” or “this rover.”",
+    "line": "Real answer line: <b><u>Mars</u></b>"
+  },
+  "tests": {
+    "right": [
+      "Mars",
+      "mars",
+      "MARS",
+      "Planet Mars",
+      "the planet Mars"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Ares",
+      "Venus",
+      "Phobos",
+      "Olympus Mons",
+      "Jupiter",
+      "Earth"
+    ]
+  }
+}

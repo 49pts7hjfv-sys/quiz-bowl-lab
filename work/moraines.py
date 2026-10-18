@@ -1,0 +1,362 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "moraines",
+    "name": "Moraines",
+    "mono": "MOR",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Ridges of rock debris dropped by glaciers · Mark where the ice once reached",
+    "dates": "Many formed during the last ice age",
+    "briefing": "When a glacier melts back, it drops everything it was carrying: a jumbled mix of boulders, gravel, sand, and clay called till. Those piles of debris are moraines, and they work like a glacier’s footprints, marking the sides of its path and the farthest point it reached. Long Island and Cape Cod are built partly from moraines left by the giant ice sheet that covered much of North America during the last ice age.",
+    "answerHtml": "<b><u>Moraine</u></b>s (accept terminal, end, lateral, medial, recessional, or ground <u>moraine</u>s; prompt on <u>glacial deposit</u>s; do not accept “till,” “drumlins,” or “eskers”)",
+    "accept": [
+        "moraine",
+        "moraines",
+        "terminal moraine",
+        "terminal moraines",
+        "end moraine",
+        "end moraines",
+        "lateral moraine",
+        "lateral moraines",
+        "medial moraine",
+        "medial moraines",
+        "recessional moraine",
+        "recessional moraines",
+        "ground moraine",
+        "ground moraines",
+        "glacial moraine",
+        "glacial moraines"
+    ],
+    "prompt": [
+        "glacial deposit",
+        "glacial deposits",
+        "glacial landform",
+        "glacial landforms",
+        "glacial ridge",
+        "glacial ridges",
+        "glacial debris",
+        "glacial drift"
+    ],
+    "reject": [
+        "till",
+        "glacial till",
+        "tillite",
+        "drumlin",
+        "drumlins",
+        "esker",
+        "eskers",
+        "kame",
+        "kames",
+        "kettle",
+        "kettles",
+        "kettle lake",
+        "kettle lakes",
+        "kettle hole",
+        "cirque",
+        "cirques",
+        "arete",
+        "aretes",
+        "erratic",
+        "erratics",
+        "glacial erratic",
+        "glacial erratics",
+        "outwash",
+        "outwash plain",
+        "outwash plains",
+        "glacier",
+        "glaciers",
+        "ice sheet",
+        "ice sheets",
+        "crevasse",
+        "crevasses",
+        "fjord",
+        "fjords",
+        "u shaped valley",
+        "loess",
+        "marine",
+        "marines"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Moraine",
+    "qb": {
+        "q": "moraine",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The southern ends of New York’s Finger Lakes are blocked by the Valley Heads example of these landforms, which formed along the edge of a melting ice sheet. Bumpy ridges of this kind are made of an unsorted mix of boulders, gravel, sand, and clay called till.",
+            "r": "For 10 points, name these ridges of rock debris deposited by glaciers, whose types include terminal and lateral."
+        },
+        {
+            "p": "Long Island’s “backbone” is made of two of these landforms, the Ronkonkoma [“ron-KONK-uh-muh”] and the Harbor Hill, left behind by the Laurentide Ice Sheet. Martha’s Vineyard and Nantucket also formed partly from these deposits.",
+            "r": "For 10 points, name these piles of rock debris that glaciers drop at their edges, including the terminal kind that marks a glacier’s farthest advance."
+        },
+        {
+            "p": "Louis Agassiz [“AG-uh-see”] argued that a great ice age once covered much of Europe, pointing to these landforms and to giant boulders called erratics lying far from any modern glacier. He later found similar evidence in North America after moving to Harvard.",
+            "r": "The terminal kind marks a glacier’s farthest advance. For 10 points, name these ridges of unsorted rock debris left by glaciers."
+        },
+        {
+            "p": "When two valley glaciers flow together, the debris along their touching edges joins into a single dark stripe running down the middle of the combined glacier, called the medial type of these features.",
+            "r": "Lateral ones run along the sides of a glacier. For 10 points, name these ridges of rock debris, or till, left by glaciers."
+        },
+        {
+            "p": "In the Himalayas, lakes of meltwater held back by these landforms can burst through them, causing sudden, dangerous floods called glacial lake outburst floods. Such lakes often form behind the terminal type of these ridges as a glacier shrinks.",
+            "r": "These landforms are made of unsorted sediment. For 10 points, name these ridges of rock debris, or till, deposited by glaciers."
+        },
+        {
+            "p": "Gently rolling till plains, like those across much of Ohio, Indiana, and Illinois, are made of the “ground” type of these deposits, which a glacier lays down in a sheet beneath itself.",
+            "r": "The terminal type of these landforms marks the farthest point a glacier reached. For 10 points, name these deposits of glacial debris."
+        },
+        {
+            "p": "Each recessional example of these landforms marks a spot where a retreating glacier paused long enough to drop a new ridge of debris. Pits called kettles, often filled with water, dot many of their bumpy surfaces.",
+            "r": "For 10 points, name these piles of till left by glaciers, including the terminal kind that marks a glacier’s farthest advance."
+        },
+        {
+            "p": "Unlike the neatly sorted, layered sand and gravel of an outwash plain, these landforms are made of an unsorted jumble of boulders, gravel, sand, and clay dropped straight from glacier ice. That jumbled sediment is called till.",
+            "r": "Their types include terminal, lateral, and medial. For 10 points, name these ridges of glacial debris."
+        },
+        {
+            "p": "In Wisconsin, a long, hilly example of these landforms that formed between two lobes of an ice sheet is dotted with kettle lakes and gives its name to a state forest. Geologists call that kind interlobate.",
+            "r": "For 10 points, name these ridges of till deposited by glaciers, whose lateral types form along a glacier’s sides."
+        },
+        {
+            "p": "The Valparaiso [“val-puh-RAY-zoh”] example of these landforms curves around the southern end of Lake Michigan, marking where a lobe of ice once stood. Like others of its kind, it is made of unsorted sediment called till.",
+            "r": "For 10 points, name these ridges of rock debris left by glaciers, including terminal ones that mark a glacier’s farthest advance."
+        },
+        {
+            "p": "Rock debris riding on top of a glacier, called supraglacial debris, can pile up into these landforms when the ice beneath it melts. Rockfalls from valley walls feed the lateral type of these ridges, which line a glacier’s sides.",
+            "r": "The terminal type marks a glacier’s farthest advance. For 10 points, name these ridges of till left behind by glaciers."
+        },
+        {
+            "p": "When a glacier advances, it can bulldoze loose sediment in front of it like a giant plow, building the “push” type of these landforms. Other kinds form when the ice simply melts and drops the debris it was carrying.",
+            "r": "For 10 points, name these ridges of glacial till whose types include terminal, lateral, and medial."
+        },
+        {
+            "p": "Knob-and-kettle topography, a bumpy landscape of small hills and water-filled hollows, is common on the hummocky [“HUM-uh-kee”] type of these landforms, where buried blocks of ice melted long after the glacier retreated. Many of these landforms in the northern United States formed at the end of the last ice age.",
+            "r": "For 10 points, name these ridges of unsorted rock debris dropped by glaciers, such as terminal and recessional ones."
+        },
+        {
+            "p": "Ancient rocks called tillites, the hardened remains of the jumbled sediment that makes up these landforms, helped Alfred Wegener argue that Africa, South America, India, and Australia were once joined near the South Pole.",
+            "r": "Their types include terminal and lateral. For 10 points, name these ridges of till deposited by glaciers."
+        },
+        {
+            "p": "Scientists can estimate the age of a young example of these landforms by measuring how large the lichens on its boulders have grown, a method called lichenometry [“ly-kuh-NOM-uh-tree”]. The recessional type marks where a shrinking glacier paused.",
+            "r": "For 10 points, name these ridges of rock debris, or till, deposited at the edges of glaciers."
+        }
+    ],
+    "clues": [
+        {
+            "id": "glacial-debris",
+            "tier": "giveaway",
+            "t": "Ridges or mounds of rock debris deposited by a glacier",
+            "k": ["rock debris", "glacier", "ridges"],
+            "n": 0,
+            "rabbit": "Glaciers"
+        },
+        {
+            "id": "till",
+            "tier": "giveaway",
+            "t": "Made of till: an unsorted mix of boulders, gravel, sand, and clay dropped by the ice",
+            "k": ["till", "unsorted"],
+            "n": 0
+        },
+        {
+            "id": "types",
+            "tier": "giveaway",
+            "t": "Types include terminal (or end), lateral, medial, recessional, and ground",
+            "k": ["terminal", "lateral", "medial", "recessional"],
+            "n": 0
+        },
+        {
+            "id": "terminal",
+            "tier": "giveaway",
+            "t": "The terminal kind marks the farthest point a glacier advanced",
+            "k": ["farthest", "terminal"],
+            "n": 0
+        },
+        {
+            "id": "long-island",
+            "tier": "giveaway",
+            "t": "Long Island, Cape Cod, Martha’s Vineyard, and Nantucket formed partly from them",
+            "k": ["long island", "cape cod", "nantucket", "martha’s vineyard"],
+            "n": 0,
+            "rabbit": "Cape Cod"
+        },
+        {
+            "id": "lateral",
+            "tier": "middle",
+            "t": "Lateral ones line a valley glacier’s sides, fed by rockfalls from the valley walls",
+            "k": ["lateral", "sides", "rockfalls"],
+            "n": 0
+        },
+        {
+            "id": "medial",
+            "tier": "middle",
+            "t": "Where two glaciers join, two lateral ones merge into a dark medial stripe down the middle",
+            "k": ["medial", "stripe"],
+            "n": 0
+        },
+        {
+            "id": "recessional",
+            "tier": "middle",
+            "t": "Recessional ones mark places where a retreating glacier paused",
+            "k": ["recessional", "paused"],
+            "n": 0
+        },
+        {
+            "id": "ground",
+            "tier": "middle",
+            "t": "Ground ones are sheets of till laid down beneath a glacier, forming till plains like those of Ohio and Indiana",
+            "k": ["till plains", "ground"],
+            "n": 0
+        },
+        {
+            "id": "outwash-contrast",
+            "tier": "middle",
+            "t": "Unlike outwash plains, which meltwater sorts into layers, they are unsorted",
+            "k": ["outwash", "sorted", "meltwater"],
+            "n": 0
+        },
+        {
+            "id": "kettles",
+            "tier": "middle",
+            "t": "Buried blocks of ice melt to leave kettles, pits that often fill with water",
+            "k": ["kettles", "kettle"],
+            "n": 0
+        },
+        {
+            "id": "laurentide",
+            "tier": "middle",
+            "t": "Many in North America were left by the Laurentide Ice Sheet during the last ice age",
+            "k": ["laurentide", "ice age"],
+            "n": 0
+        },
+        {
+            "id": "glof",
+            "tier": "middle",
+            "t": "Meltwater lakes dammed behind them can burst out in glacial lake outburst floods",
+            "k": ["outburst", "dammed"],
+            "n": 0
+        },
+        {
+            "id": "erratics",
+            "tier": "middle",
+            "t": "Glacial erratics, boulders carried far from where they formed, are often found with them",
+            "k": ["erratics", "boulders"],
+            "n": 0
+        },
+        {
+            "id": "valley-heads",
+            "tier": "power",
+            "t": "The Valley Heads example blocks the southern ends of New York’s Finger Lakes",
+            "k": ["valley heads", "finger lakes"],
+            "n": 0
+        },
+        {
+            "id": "ronkonkoma",
+            "tier": "power",
+            "t": "Long Island’s two big ones are the Ronkonkoma and the Harbor Hill",
+            "k": ["ronkonkoma", "harbor hill"],
+            "n": 0
+        },
+        {
+            "id": "agassiz",
+            "tier": "power",
+            "t": "Louis Agassiz used them and erratic boulders as evidence of a past ice age",
+            "k": ["agassiz", "ice age"],
+            "n": 0
+        },
+        {
+            "id": "kettle-wisconsin",
+            "tier": "power",
+            "t": "Wisconsin’s interlobate example, formed between two lobes of ice and dotted with kettle lakes, names a state forest",
+            "k": ["interlobate", "wisconsin", "state forest"],
+            "n": 0
+        },
+        {
+            "id": "valparaiso",
+            "tier": "power",
+            "t": "The Valparaiso example curves around the southern end of Lake Michigan",
+            "k": ["valparaiso", "lake michigan"],
+            "n": 0
+        },
+        {
+            "id": "supraglacial",
+            "tier": "power",
+            "t": "Supraglacial debris riding on top of a glacier can pile up into them as the ice melts",
+            "k": ["supraglacial"],
+            "n": 0
+        },
+        {
+            "id": "push",
+            "tier": "power",
+            "t": "An advancing glacier bulldozes loose sediment into “push” ones",
+            "k": ["bulldozes", "push"],
+            "n": 0
+        },
+        {
+            "id": "knob-and-kettle",
+            "tier": "power",
+            "t": "Hummocky ones show knob-and-kettle topography of small hills and water-filled hollows",
+            "k": ["knob-and-kettle", "hummocky"],
+            "n": 0
+        },
+        {
+            "id": "tillite",
+            "tier": "power",
+            "t": "Tillite is hardened till; ancient tillites helped Alfred Wegener argue that the southern continents were once joined",
+            "k": ["tillite", "wegener"],
+            "n": 0,
+            "rabbit": "Pangaea"
+        },
+        {
+            "id": "lichenometry",
+            "tier": "power",
+            "t": "Lichenometry dates young ones by measuring the lichens growing on their boulders",
+            "k": ["lichenometry", "lichens"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Moraine, till, or drumlin?",
+        "body": "Glacier tossups name a whole family of deposits, and players often grab the wrong one. Till is the jumbled sediment itself, not the landform built from it. Drumlins are smooth, egg-shaped hills shaped beneath moving ice, eskers are snaking ridges of sand and gravel left by meltwater streams, and erratics are single boulders carried far from home.",
+        "fix": "If the clue says “terminal,” “lateral,” “medial,” or “recessional,” or describes a ridge marking a glacier’s edge or farthest advance, answer moraines. Save “till” for questions about the unsorted sediment and “glaciers” for questions about the moving ice itself.",
+        "line": "Real answer line: <b><u>Moraine</u></b>s (accept specific types like terminal or lateral moraines; prompt on glacial deposits; do not accept “till”)"
+    },
+    "tests": {
+        "right": [
+            "Moraines",
+            "moraine",
+            "Terminal moraine",
+            "Lateral moraines",
+            "Morains"
+        ],
+        "prompt": [
+            "Glacial deposits"
+        ],
+        "wrong": [
+            "Till",
+            "Drumlins",
+            "Eskers",
+            "Glaciers",
+            "Kettle lakes",
+            "Outwash plain",
+            "Erratics"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,500 @@
+{
+  "id": "hydrogen-bonds",
+  "name": "Hydrogen bonds",
+  "mono": "HB",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Hydrogen’s pull toward N, O, or F · Holds water and DNA together",
+  "dates": "Described by Latimer and Rodebush, 1920",
+  "briefing": "A hydrogen bond is the strong attraction between a hydrogen atom attached to nitrogen, oxygen, or fluorine and a lone pair of electrons on another such atom nearby. Each one is much weaker than the covalent bonds inside a molecule, but together they work wonders: they give water its unusually high boiling point, let ice float, hold the two strands of DNA together, and help fold proteins into their shapes.",
+  "answerHtml": "<b><u>Hydrogen bonds</u></b> (accept <u>hydrogen bond</u>ing or <u>H-bond</u>s; prompt on <u>intermolecular force</u>s or <u>dipole-dipole</u> interactions; do not accept “hydrogen” alone)",
+  "accept": [
+    "hydrogen bonds",
+    "hydrogen bond",
+    "hydrogen bonding",
+    "hydrogen bonded",
+    "h bond",
+    "h bonds",
+    "h bonding",
+    "hydrogen bridge",
+    "hydrogen bridges"
+  ],
+  "prompt": [
+    "intermolecular force",
+    "intermolecular forces",
+    "intermolecular attraction",
+    "intermolecular attractions",
+    "imf",
+    "imfs",
+    "dipole dipole",
+    "dipole dipole force",
+    "dipole dipole forces",
+    "dipole dipole interaction",
+    "dipole dipole interactions",
+    "dipole dipole attraction",
+    "dipole dipole attractions",
+    "noncovalent bond",
+    "noncovalent bonds"
+  ],
+  "reject": [
+    "hydrogen bomb",
+    "hydrogen bombs",
+    "h bomb",
+    "hydrogen gas",
+    "hydrogen ion",
+    "hydrogen ions",
+    "hydrogen atom",
+    "hydrogen atoms",
+    "hydrogen peroxide",
+    "hydrogen chloride",
+    "hydrogen sulfide",
+    "hydrogen fluoride",
+    "covalent bond",
+    "covalent bonds",
+    "covalent bonding",
+    "ionic bond",
+    "ionic bonds",
+    "ionic bonding",
+    "metallic bond",
+    "metallic bonds",
+    "polar bond",
+    "polar bonds",
+    "van der waals forces",
+    "van der waals force",
+    "van der waals",
+    "london dispersion forces",
+    "london dispersion force",
+    "london forces",
+    "dispersion forces",
+    "dispersion force",
+    "ion dipole",
+    "hydrophobic interactions",
+    "hydrophobic effect",
+    "disulfide bond",
+    "disulfide bridge",
+    "peptide bond",
+    "peptide bonds",
+    "phosphodiester bond",
+    "glycosidic bond",
+    "halogen bond",
+    "halogen bonds",
+    "double bond",
+    "triple bond",
+    "hydride"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Hydrogen_bond",
+  "qb": {
+    "q": "hydrogen bond",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1920, Wendell Latimer and Worth Rodebush used these attractions to explain why water behaves so strangely for such a small molecule. Linus Pauling’s book _The Nature of the Chemical Bond_ made these attractions famous, and he later used them to propose the alpha helix and beta sheet in proteins.",
+      "r": "For 10 points, name these attractions between a hydrogen atom on one molecule and a nitrogen, oxygen, or fluorine atom on another."
+    },
+    {
+      "p": "The strongest known example of these attractions is found in the bifluoride ion, in which one hydrogen atom sits between two fluorine atoms. Partly because of these attractions, hydrogen fluoride boils at about 20 degrees Celsius, while hydrogen chloride boils far below zero.",
+      "r": "For 10 points, name these attractions, which form when hydrogen is bonded to nitrogen, oxygen, or fluorine."
+    },
+    {
+      "p": "Ethanol boils at about 78 degrees Celsius but dimethyl ether, which has the same chemical formula, boils below zero, because only ethanol molecules can form these attractions with each other. These attractions are usually drawn as dashed or dotted lines between molecules.",
+      "r": "For 10 points, name these intermolecular attractions, which give water its unusually high boiling point."
+    },
+    {
+      "p": "Ortho-nitrophenol boils at a lower temperature than para-nitrophenol because each of its molecules forms one of these attractions within itself instead of with its neighbors. In infrared spectra, these attractions make the peak for an O–H group broad and smeared out.",
+      "r": "For 10 points, name these attractions that hold together the two strands of DNA."
+    },
+    {
+      "p": "Guanine and cytosine share three of these attractions, while adenine and thymine share only two, so DNA rich in guanine and cytosine is harder to pull apart. The enzyme helicase breaks these attractions to unzip DNA before it is copied.",
+      "r": "For 10 points, name these attractions between a hydrogen atom and a nearby nitrogen, oxygen, or fluorine atom."
+    },
+    {
+      "p": "Stephanie Kwolek’s Kevlar fibers are strong partly because these attractions link neighboring polymer chains into sheets. Chains of nylon also cling to each other through these attractions between their amide groups.",
+      "r": "For 10 points, name these attractions, often drawn as dotted lines, that also make water molecules stick to each other."
+    },
+    {
+      "p": "In an alpha helix, these attractions form between the C=O group of one amino acid and the N–H group of the amino acid four positions farther along the chain. Beta pleated sheets are held together by these attractions between side-by-side strands.",
+      "r": "For 10 points, name these attractions, which also hold the base pairs of DNA together."
+    },
+    {
+      "p": "Ammonia boils at a much higher temperature than phosphine, its heavier cousin, because ammonia molecules can form these attractions. Each water molecule can form up to four of these attractions, which lock ice into an open, six-sided pattern.",
+      "r": "That open pattern makes ice float. For 10 points, name these attractions between water molecules."
+    },
+    {
+      "p": "Acetic acid molecules pair up into dimers, even as a vapor, through two of these attractions between their acid groups. In each of these attractions, the atom attached to the hydrogen is called the donor, and the atom offering a lone pair is called the acceptor.",
+      "r": "For 10 points, name these attractions, usually the strongest of the three main intermolecular forces."
+    },
+    {
+      "p": "Water boils at 100 degrees Celsius, but hydrogen sulfide, a heavier molecule with the same bent shape, boils at about negative 60 degrees, because its molecules form almost none of these attractions. These attractions also give water its high surface tension.",
+      "r": "For 10 points, name these attractions between molecules, which form when hydrogen is attached to nitrogen, oxygen, or fluorine."
+    },
+    {
+      "p": "The long cellulose chains in cotton and wood cling to each other through many of these attractions, and water gets in between them, which is one reason wet paper tears so easily. Heating a protein, as when you cook an egg, breaks these attractions and unravels its shape.",
+      "r": "For 10 points, name these attractions, often drawn as dotted lines, that link water molecules to each other."
+    },
+    {
+      "p": "These attractions are much weaker than covalent bonds but stronger than the London dispersion forces between molecules of similar size. Some chemists describe them as an especially strong type of dipole–dipole attraction.",
+      "r": "For 10 points, name these attractions involving a hydrogen atom bonded to a nitrogen, oxygen, or fluorine atom, which hold DNA’s two strands together."
+    },
+    {
+      "p": "Water’s high heat of vaporization, which lets sweat cool the body, comes from the energy needed to break these attractions. Cohesion from these attractions helps water climb up the thin xylem tubes of tall trees and lets water striders walk on a pond.",
+      "r": "For 10 points, name these attractions that make water molecules stick together, giving water its high boiling point."
+    },
+    {
+      "p": "In 1953, James Watson worked out how DNA bases pair up through these attractions by shuffling cardboard cutouts of the bases on his desk. These attractions between matching bases, along with the stacking of the bases, hold the double helix together.",
+      "r": "For 10 points, name these weak attractions, two of which link adenine to thymine."
+    },
+    {
+      "p": "On a graph of boiling points for the hydrogen compounds of groups 15, 16, and 17, the lightest member of each group sticks out far above the trend because of these attractions. Those three standouts are ammonia, water, and hydrogen fluoride.",
+      "r": "For 10 points, name these intermolecular attractions, which also hold proteins and DNA in shape."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "An attraction between a hydrogen atom bonded to nitrogen, oxygen, or fluorine and a lone pair on another such atom",
+      "k": [
+        "nitrogen",
+        "oxygen",
+        "fluorine",
+        "lone pair"
+      ],
+      "n": 0
+    },
+    {
+      "id": "water",
+      "tier": "giveaway",
+      "t": "Make water molecules stick together, giving water its high boiling point and letting ice float",
+      "k": [
+        "water",
+        "boiling point",
+        "ice float"
+      ],
+      "n": 0,
+      "rabbit": "Water"
+    },
+    {
+      "id": "dna",
+      "tier": "giveaway",
+      "t": "Hold the two strands of DNA together between paired bases",
+      "k": [
+        "strands",
+        "paired bases",
+        "dna"
+      ],
+      "n": 0,
+      "rabbit": "DNA"
+    },
+    {
+      "id": "dotted-lines",
+      "tier": "giveaway",
+      "t": "Usually drawn as dashed or dotted lines between molecules",
+      "k": [
+        "dotted lines",
+        "dashed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "strongest-imf",
+      "tier": "giveaway",
+      "t": "Usually the strongest of the three main intermolecular forces, but much weaker than a covalent bond",
+      "k": [
+        "intermolecular forces",
+        "covalent bond"
+      ],
+      "n": 0
+    },
+    {
+      "id": "base-pairs",
+      "tier": "middle",
+      "t": "Guanine–cytosine pairs share three; adenine–thymine pairs share two",
+      "k": [
+        "guanine",
+        "cytosine",
+        "adenine",
+        "thymine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "helicase",
+      "tier": "middle",
+      "t": "The enzyme helicase breaks them to unzip DNA before it is copied",
+      "k": [
+        "helicase",
+        "unzip"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-per-water",
+      "tier": "middle",
+      "t": "Each water molecule can form up to four, locking ice into an open, six-sided pattern",
+      "k": [
+        "four",
+        "six-sided",
+        "open"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydrogen-sulfide",
+      "tier": "middle",
+      "t": "Water boils at 100 °C, but heavier hydrogen sulfide, which forms almost none, boils at about −60 °C",
+      "k": [
+        "hydrogen sulfide",
+        "boils"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cohesion",
+      "tier": "middle",
+      "t": "Cause water’s cohesion and high surface tension, which help water climb tree xylem and let water striders walk",
+      "k": [
+        "cohesion",
+        "surface tension",
+        "xylem",
+        "water striders"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heat-of-vaporization",
+      "tier": "middle",
+      "t": "Water’s high specific heat and heat of vaporization come from the energy needed to break them",
+      "k": [
+        "heat of vaporization",
+        "specific heat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "protein-shapes",
+      "tier": "middle",
+      "t": "Hold proteins’ alpha helices and beta pleated sheets in shape",
+      "k": [
+        "alpha helices",
+        "beta pleated sheets",
+        "proteins"
+      ],
+      "n": 0,
+      "rabbit": "Proteins"
+    },
+    {
+      "id": "denature",
+      "tier": "middle",
+      "t": "Heating a protein, as when you cook an egg, breaks them and unravels its shape",
+      "k": [
+        "cook an egg",
+        "unravels",
+        "heating"
+      ],
+      "n": 0
+    },
+    {
+      "id": "donor-acceptor",
+      "tier": "middle",
+      "t": "The atom attached to the hydrogen is the donor; the atom offering a lone pair is the acceptor",
+      "k": [
+        "donor",
+        "acceptor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dipole-dipole",
+      "tier": "middle",
+      "t": "Often described as an especially strong type of dipole–dipole attraction",
+      "k": [
+        "dipole",
+        "especially strong"
+      ],
+      "n": 0,
+      "rabbit": "Dipoles"
+    },
+    {
+      "id": "latimer-rodebush",
+      "tier": "power",
+      "t": "In 1920, Wendell Latimer and Worth Rodebush used them to explain water’s strange behavior",
+      "k": [
+        "latimer",
+        "rodebush",
+        "1920"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pauling",
+      "tier": "power",
+      "t": "Linus Pauling made them famous in _The Nature of the Chemical Bond_ and used them to propose the alpha helix",
+      "k": [
+        "pauling",
+        "nature of the chemical bond",
+        "alpha helix"
+      ],
+      "n": 0,
+      "rabbit": "Linus Pauling"
+    },
+    {
+      "id": "fluoride",
+      "tier": "power",
+      "t": "Hydrogen fluoride boils near 20 °C, far above hydrogen chloride; the bifluoride ion has the strongest known one",
+      "k": [
+        "bifluoride",
+        "hydrogen fluoride",
+        "hydrogen chloride"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ethanol-ether",
+      "tier": "power",
+      "t": "Ethanol (boils near 78 °C) forms them, but dimethyl ether, with the same formula, boils below zero",
+      "k": [
+        "ethanol",
+        "dimethyl ether"
+      ],
+      "n": 0,
+      "rabbit": "Alcohols (chemistry)"
+    },
+    {
+      "id": "nitrophenol",
+      "tier": "power",
+      "t": "Ortho-nitrophenol forms one within each molecule, so it boils lower than para-nitrophenol",
+      "k": [
+        "ortho-nitrophenol",
+        "para-nitrophenol",
+        "nitrophenol"
+      ],
+      "n": 0
+    },
+    {
+      "id": "infrared",
+      "tier": "power",
+      "t": "In infrared spectra, they make the O–H peak broad and smeared out",
+      "k": [
+        "infrared",
+        "broad"
+      ],
+      "n": 0,
+      "rabbit": "Infrared spectroscopy"
+    },
+    {
+      "id": "alpha-helix",
+      "tier": "power",
+      "t": "In an alpha helix, each C=O group pairs with the N–H group of the amino acid four positions along",
+      "k": [
+        "four positions",
+        "alpha helix"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kevlar",
+      "tier": "power",
+      "t": "Link the chains of Stephanie Kwolek’s Kevlar into strong sheets; also join nylon’s amide groups",
+      "k": [
+        "kevlar",
+        "kwolek",
+        "nylon"
+      ],
+      "n": 0,
+      "rabbit": "Polymers"
+    },
+    {
+      "id": "acetic-dimers",
+      "tier": "power",
+      "t": "Acetic acid molecules pair into dimers, even as a vapor, through two of them",
+      "k": [
+        "acetic acid",
+        "dimers"
+      ],
+      "n": 0,
+      "rabbit": "Acetic acid"
+    },
+    {
+      "id": "ammonia-phosphine",
+      "tier": "power",
+      "t": "Ammonia boils far higher than heavier phosphine because ammonia molecules form them",
+      "k": [
+        "ammonia",
+        "phosphine"
+      ],
+      "n": 0,
+      "rabbit": "Ammonia"
+    },
+    {
+      "id": "hydride-graph",
+      "tier": "power",
+      "t": "On a graph of boiling points of the group 15–17 hydrogen compounds, ammonia, water, and hydrogen fluoride stick out above the trend",
+      "k": [
+        "trend",
+        "group 15",
+        "boiling points"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cellulose",
+      "tier": "power",
+      "t": "Join the cellulose chains in cotton and wood; water gets between them, so wet paper tears easily",
+      "k": [
+        "cellulose",
+        "wet paper",
+        "cotton"
+      ],
+      "n": 0,
+      "rabbit": "Cellulose"
+    },
+    {
+      "id": "watson-cardboard",
+      "tier": "power",
+      "t": "In 1953, James Watson worked out base pairing by shuffling cardboard cutouts of the bases",
+      "k": [
+        "watson",
+        "cardboard",
+        "1953"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Between molecules, not inside",
+    "body": "These attractions are easy to confuse with the covalent bonds inside a molecule: in water, the O–H bonds holding each molecule together are covalent, while these attractions link one water molecule to the next. Players also blurt “hydrogen,” the element, or give the broad category “intermolecular forces,” which only earns a prompt. London dispersion forces and dipole–dipole forces are other intermolecular forces with their own answer lines.",
+    "fix": "Hydrogen attached to nitrogen, oxygen, or fluorine pulling on a neighbor, DNA base pairs, or water’s high boiling point mean this answer, so give its full name, not just “hydrogen.” Electrons shared inside a molecule mean covalent bonds; temporary dipoles in any molecule mean London dispersion forces.",
+    "line": "Real answer line: <b><u>Hydrogen bonds</u></b> (accept <u>hydrogen bond</u>ing or <u>H-bond</u>s; prompt on <u>intermolecular force</u>s or <u>dipole-dipole</u> interactions; do not accept “hydrogen” alone)"
+  },
+  "tests": {
+    "right": [
+      "Hydrogen bonds",
+      "hydrogen bond",
+      "Hydrogen bonding",
+      "H-bonds",
+      "hydrogen bnds",
+      "Hydrogen-bonding"
+    ],
+    "prompt": [
+      "Intermolecular forces",
+      "Dipole-dipole"
+    ],
+    "wrong": [
+      "Hydrogen",
+      "Covalent bond",
+      "Hydrogen bomb",
+      "London dispersion forces",
+      "Van der Waals forces",
+      "Ionic bonds",
+      "Polar covalent bond"
+    ]
+  }
+}

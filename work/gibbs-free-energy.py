@@ -1,0 +1,363 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "gibbs-free-energy",
+    "name": "Gibbs free energy",
+    "mono": "DG",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "ΔG = ΔH − TΔS · Its sign tells whether a reaction can happen on its own",
+    "dates": "Introduced by J. Willard Gibbs in the 1870s",
+    "briefing": "Gibbs free energy, written G, tells chemists whether a reaction can happen on its own. Its change, ΔG, combines two things nature favors, giving off heat (a negative ΔH) and spreading out energy and matter (a positive ΔS), in the equation ΔG = ΔH − TΔS. When ΔG is negative, the reaction is spontaneous, though it may still be very slow. It is named for Josiah Willard Gibbs, who earned the first American doctorate in engineering, at Yale.",
+    "answerHtml": "<b><u>Gibbs free energy</u></b> (or <u>Gibbs energy</u> or <u>G</u>; accept delta <u>G</u>; prompt on <u>free energy</u> or <u>Gibbs</u>; do not accept “Helmholtz free energy”)",
+    "accept": [
+        "gibbs free energy",
+        "gibbs energy",
+        "gibbs function",
+        "gibbs free energy change",
+        "change in gibbs free energy",
+        "change in gibbs energy",
+        "standard gibbs free energy",
+        "g",
+        "delta g",
+        "dg",
+        "free enthalpy"
+    ],
+    "prompt": [
+        "free energy",
+        "gibbs",
+        "free energy change",
+        "change in free energy"
+    ],
+    "reject": [
+        "helmholtz free energy",
+        "helmholtz energy",
+        "helmholtz function",
+        "helmholtz",
+        "entropy",
+        "entropies",
+        "internal energy",
+        "activation energy",
+        "kinetic energy",
+        "potential energy",
+        "lattice energy",
+        "bond energy",
+        "chemical potential",
+        "gibbs phase rule",
+        "phase rule",
+        "gibbs paradox",
+        "josiah willard gibbs",
+        "josiah gibbs",
+        "willard gibbs",
+        "j willard gibbs",
+        "equilibrium constant",
+        "exergonic",
+        "endergonic",
+        "spontaneity",
+        "heat",
+        "work"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Gibbs_free_energy",
+    "qb": {
+        "q": "Gibbs free energy",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This quantity was introduced in “On the Equilibrium of Heterogeneous Substances,” a long paper published in parts in the 1870s by a Yale professor. That paper also defined the chemical potential, the change in this quantity for each mole of a substance added to a mixture.",
+            "r": "For 10 points, name this quantity, equal to enthalpy minus temperature times entropy, whose change is negative for spontaneous reactions."
+        },
+        {
+            "p": "Ellingham diagrams plot the standard change in this quantity for forming metal oxides against temperature, showing when carbon can pull the oxygen out of an ore. The standard change in this quantity equals negative RT times the natural log of the equilibrium constant.",
+            "r": "For 10 points, name this quantity whose change is negative for any spontaneous process at constant temperature and pressure."
+        },
+        {
+            "p": "The standard change in this quantity for a battery’s reaction equals negative n times the Faraday constant times the cell’s standard voltage, so a positive voltage means a negative change in this quantity. Combining that relationship with the reaction quotient gives the Nernst equation.",
+            "r": "For 10 points, name this thermodynamic quantity, which combines enthalpy and entropy to predict whether a reaction is spontaneous."
+        },
+        {
+            "p": "An equation named for this quantity’s namesake and Hermann von Helmholtz describes how this quantity changes with temperature. At constant temperature and pressure, a system settles into the state where this quantity is as low as possible.",
+            "r": "For 10 points, name this quantity, whose change is zero for a system at equilibrium and negative for spontaneous reactions."
+        },
+        {
+            "p": "Cells drive uphill reactions by coupling them to the breakdown of ATP, which changes this quantity by about negative 30 kilojoules per mole under standard conditions. Reactions that lower this quantity are called exergonic, while reactions that raise it are called endergonic.",
+            "r": "For 10 points, name this thermodynamic quantity, whose change is negative for spontaneous reactions."
+        },
+        {
+            "p": "The change in this quantity favors diamond slowly turning into graphite at room temperature, but that change happens far too slowly to notice, showing that a negative value of this quantity’s change says nothing about how fast a reaction goes.",
+            "r": "For 10 points, name this quantity, whose change equals the change in enthalpy minus temperature times the change in entropy."
+        },
+        {
+            "p": "A reaction that releases heat and increases entropy has a negative change in this quantity at every temperature, while one that absorbs heat and decreases entropy never does. Ice melts above 0 degrees Celsius because the entropy term wins out in the change in this quantity.",
+            "r": "For 10 points, name this quantity, defined as enthalpy minus temperature times entropy, whose change is negative for spontaneous reactions."
+        },
+        {
+            "p": "At constant temperature and pressure, the change in this quantity gives the maximum amount of useful work, not counting work done pushing back the atmosphere, that a process can do. Its Helmholtz counterpart is used at constant volume instead.",
+            "r": "For 10 points, name this quantity, whose change is negative for spontaneous reactions and is named for a Yale scientist."
+        },
+        {
+            "p": "The change in this quantity equals its standard change plus RT times the natural log of the reaction quotient, Q. When this quantity’s change reaches zero, the reaction quotient equals the equilibrium constant, and the reaction has reached equilibrium.",
+            "r": "For 10 points, name this quantity, whose change is negative for spontaneous processes at constant temperature and pressure."
+        },
+        {
+            "p": "A liquid’s normal boiling point is the temperature at which the change in this quantity for vaporizing is zero, so it equals the enthalpy of vaporization divided by the entropy of vaporization. Above that temperature, boiling happens on its own.",
+            "r": "For 10 points, name this quantity, which equals enthalpy minus temperature times entropy."
+        },
+        {
+            "p": "A protein folds up on its own because folding lowers this quantity, even though the folded chain is more orderly, partly because the water molecules around the protein gain entropy. Protein unfolding raises this quantity at body temperature.",
+            "r": "For 10 points, name this quantity, whose negative change marks a spontaneous process."
+        },
+        {
+            "p": "This quantity is named for the first American to earn a doctorate in engineering, a scientist who also wrote the phase rule, F = C − P + 2, which counts how many variables in a system can change freely.",
+            "r": "For 10 points, name this quantity, named for that Yale scientist, whose negative change marks a spontaneous reaction at constant temperature and pressure."
+        },
+        {
+            "p": "Elements in their standard states, such as oxygen gas, have a standard change of formation of zero for this quantity. Subtracting the reactants’ standard formation values from the products’ values gives the standard change in this quantity for a reaction.",
+            "r": "For 10 points, name this quantity, whose change is negative for reactions that can happen on their own."
+        },
+        {
+            "p": "Limestone breaks down into lime and carbon dioxide only when it is heated strongly in a kiln, because only at high temperatures does the entropy term make this quantity’s change negative. Endothermic reactions that increase entropy become spontaneous only above a certain temperature.",
+            "r": "For 10 points, name this quantity whose sign tells whether a reaction can happen on its own at a given temperature."
+        },
+        {
+            "p": "Dissolving ammonium nitrate in water absorbs heat, yet it happens on its own because the rise in entropy makes the change in this quantity negative. That is why instant cold packs work.",
+            "r": "For 10 points, name this thermodynamic quantity, whose change equals the change in enthalpy minus temperature times the change in entropy."
+        }
+    ],
+    "clues": [
+        {
+            "id": "spontaneous",
+            "tier": "giveaway",
+            "t": "A negative change means a reaction is spontaneous (it can happen on its own); a positive change means it is not",
+            "k": ["spontaneous", "negative"],
+            "n": 0
+        },
+        {
+            "id": "equation",
+            "tier": "giveaway",
+            "t": "Its change equals the change in enthalpy minus temperature times the change in entropy",
+            "k": ["enthalpy", "entropy", "temperature"],
+            "n": 0,
+            "rabbit": "Enthalpy"
+        },
+        {
+            "id": "yale",
+            "tier": "giveaway",
+            "t": "Named for a Yale professor who earned the first American doctorate in engineering",
+            "k": ["yale", "doctorate", "engineering"],
+            "n": 0
+        },
+        {
+            "id": "equilibrium-zero",
+            "tier": "giveaway",
+            "t": "Its change is zero for a system at equilibrium",
+            "k": ["equilibrium", "zero"],
+            "n": 0,
+            "rabbit": "Chemical equilibrium"
+        },
+        {
+            "id": "units",
+            "tier": "giveaway",
+            "t": "Usually measured in kilojoules per mole; its change is written with a capital delta (Δ)",
+            "k": ["kilojoules per mole", "delta"],
+            "n": 0
+        },
+        {
+            "id": "exergonic",
+            "tier": "middle",
+            "t": "Exergonic reactions lower it; endergonic reactions raise it",
+            "k": ["exergonic", "endergonic"],
+            "n": 0
+        },
+        {
+            "id": "sign-cases",
+            "tier": "middle",
+            "t": "Releasing heat plus increasing entropy: spontaneous at all temperatures; absorbing heat plus decreasing entropy: never",
+            "k": ["all temperatures", "never"],
+            "n": 0
+        },
+        {
+            "id": "high-temperature",
+            "tier": "middle",
+            "t": "Endothermic reactions that increase entropy, like limestone breaking down in a kiln, are spontaneous only at high temperatures",
+            "k": ["limestone", "kiln", "high temperatures"],
+            "n": 0,
+            "rabbit": "Limestone"
+        },
+        {
+            "id": "ice-melts",
+            "tier": "middle",
+            "t": "Ice melts on its own above 0 °C because the entropy term wins out",
+            "k": ["ice melts", "entropy term"],
+            "n": 0
+        },
+        {
+            "id": "constant-pressure",
+            "tier": "middle",
+            "t": "Used at constant temperature and pressure; its Helmholtz counterpart is used at constant volume",
+            "k": ["constant temperature and pressure", "helmholtz", "constant volume"],
+            "n": 0
+        },
+        {
+            "id": "not-speed",
+            "tier": "middle",
+            "t": "A negative change says nothing about speed: diamond turning into graphite is favored but far too slow to notice",
+            "k": ["diamond", "graphite", "speed"],
+            "n": 0,
+            "rabbit": "Carbon"
+        },
+        {
+            "id": "atp",
+            "tier": "middle",
+            "t": "Cells couple uphill reactions to ATP breakdown, which changes it by about −30 kilojoules per mole",
+            "k": ["couple", "uphill", "atp"],
+            "n": 0,
+            "rabbit": "ATP"
+        },
+        {
+            "id": "cold-pack",
+            "tier": "middle",
+            "t": "Dissolving ammonium nitrate absorbs heat but is still spontaneous, because entropy rises enough",
+            "k": ["ammonium nitrate", "absorbs heat"],
+            "n": 0
+        },
+        {
+            "id": "formation",
+            "tier": "middle",
+            "t": "Its standard change of formation is zero for elements in their standard states",
+            "k": ["formation", "standard states"],
+            "n": 0
+        },
+        {
+            "id": "rt-ln-k",
+            "tier": "power",
+            "t": "Its standard change equals −RT ln K, so a negative value means the equilibrium constant K is greater than 1",
+            "k": ["equilibrium constant", "rt ln k", "greater than 1"],
+            "n": 0
+        },
+        {
+            "id": "reaction-quotient",
+            "tier": "power",
+            "t": "Its change equals its standard change plus RT ln Q, where Q is the reaction quotient",
+            "k": ["reaction quotient", "rt ln q"],
+            "n": 0
+        },
+        {
+            "id": "cell-voltage",
+            "tier": "power",
+            "t": "Its standard change equals −n × the Faraday constant × the standard cell voltage; combining this with Q gives the Nernst equation",
+            "k": ["faraday constant", "cell voltage", "nernst"],
+            "n": 0
+        },
+        {
+            "id": "helmholtz-equation",
+            "tier": "power",
+            "t": "An equation named for its namesake and Hermann von Helmholtz describes how it changes with temperature",
+            "k": ["hermann von helmholtz", "helmholtz"],
+            "n": 0
+        },
+        {
+            "id": "minimum",
+            "tier": "power",
+            "t": "At constant temperature and pressure, a system settles into the state where it is as low as possible",
+            "k": ["settles", "as low as possible"],
+            "n": 0
+        },
+        {
+            "id": "chemical-potential",
+            "tier": "power",
+            "t": "The chemical potential is its change for each mole of a substance added to a mixture",
+            "k": ["chemical potential", "each mole"],
+            "n": 0
+        },
+        {
+            "id": "paper",
+            "tier": "power",
+            "t": "Introduced in “On the Equilibrium of Heterogeneous Substances,” published in parts in the 1870s",
+            "k": ["heterogeneous substances", "1870s"],
+            "n": 0
+        },
+        {
+            "id": "phase-rule",
+            "tier": "power",
+            "t": "Its namesake also wrote the phase rule, F = C − P + 2",
+            "k": ["phase rule"],
+            "n": 0
+        },
+        {
+            "id": "max-work",
+            "tier": "power",
+            "t": "Its change gives the maximum useful work (not counting pushing back the atmosphere) a process can do",
+            "k": ["maximum", "useful work"],
+            "n": 0
+        },
+        {
+            "id": "ellingham",
+            "tier": "power",
+            "t": "Ellingham diagrams plot its standard change for forming metal oxides against temperature",
+            "k": ["ellingham", "metal oxides"],
+            "n": 0
+        },
+        {
+            "id": "boiling-point",
+            "tier": "power",
+            "t": "Its change for vaporizing is zero at the normal boiling point, so that temperature = enthalpy ÷ entropy of vaporization",
+            "k": ["boiling point", "vaporizing"],
+            "n": 0,
+            "rabbit": "Boiling point"
+        },
+        {
+            "id": "protein-folding",
+            "tier": "power",
+            "t": "Protein folding lowers it even though the chain gets more orderly, partly because the surrounding water gains entropy",
+            "k": ["protein folding", "surrounding water"],
+            "n": 0,
+            "rabbit": "Proteins"
+        }
+    ],
+    "trap": {
+        "title": "Not enthalpy, not Helmholtz",
+        "body": "This quantity is built from enthalpy and entropy, so its tossups are full of clues about heat and disorder that tempt players to buzz with one of those two. Its cousin, the Helmholtz free energy, is used at constant volume instead of constant pressure and has a different answer line. Saying just “free energy” or “Gibbs” only earns a prompt.",
+        "fix": "If the clue asks whether a reaction is spontaneous, or links equilibrium constants, cell voltage, or ATP coupling, give the full name with “Gibbs.” Heat released or absorbed means enthalpy; disorder means entropy; constant volume means Helmholtz.",
+        "line": "Real answer line: <b><u>Gibbs free energy</u></b> (or <u>Gibbs energy</u> or <u>G</u>; accept delta <u>G</u>; prompt on <u>free energy</u> or <u>Gibbs</u>; do not accept “Helmholtz free energy”)"
+    },
+    "tests": {
+        "right": [
+            "Gibbs free energy",
+            "Gibbs energy",
+            "G",
+            "Delta G",
+            "gibbs free enrgy",
+            "Gibbs free energy change",
+            "Free enthalpy"
+        ],
+        "prompt": [
+            "Free energy",
+            "Gibbs"
+        ],
+        "wrong": [
+            "Helmholtz free energy",
+            "Enthalpy",
+            "Entropy",
+            "Internal energy",
+            "Activation energy",
+            "Josiah Willard Gibbs",
+            "Chemical potential"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

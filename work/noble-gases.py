@@ -1,0 +1,410 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "noble-gases",
+    "name": "Noble gases",
+    "mono": "G18",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Group 18 of the periodic table · The unreactive gases with full shells",
+    "dates": "Argon found 1894; oganesson first made 2002",
+    "briefing": "The noble gases are the elements in the far-right column of the periodic table: helium, neon, argon, krypton, xenon, radon, and the human-made oganesson. Their outer electron shells are full, so they almost never react, which is why they were once called the “inert” gases. That calm makes them useful: helium lifts balloons, argon protects the glowing filaments of old-style light bulbs, and neon glows red-orange in signs.",
+    "answerHtml": "<b><u>Noble gases</u></b> (accept <u>group 18</u>, group <u>VIIIA</u>, or group <u>0</u> elements, or <u>inert gases</u>; prompt on group <u>8</u>)",
+    "accept": [
+        "noble gases",
+        "noble gas",
+        "noble gas elements",
+        "group 18",
+        "group eighteen",
+        "group 18 elements",
+        "group viiia",
+        "group viii a",
+        "group 8a",
+        "group eight a",
+        "group 0",
+        "group zero",
+        "inert gases",
+        "inert gas",
+        "rare gases",
+        "rare gas",
+        "aerogens"
+    ],
+    "prompt": [
+        "group 8",
+        "group viii",
+        "group eight"
+    ],
+    "reject": [
+        "halogens",
+        "halogen",
+        "group 17",
+        "group seventeen",
+        "group 7",
+        "group vii",
+        "group viia",
+        "group vii a",
+        "group 7a",
+        "group 7b",
+        "group viib",
+        "group viiib",
+        "group viii b",
+        "group 8b",
+        "group 1",
+        "group 2",
+        "group 3",
+        "group 4",
+        "group 5",
+        "group 6",
+        "group 9",
+        "group 10",
+        "group 11",
+        "group 12",
+        "group 13",
+        "group 14",
+        "group 15",
+        "group 16",
+        "group 1a",
+        "group 2a",
+        "group 3a",
+        "group 4a",
+        "group 5a",
+        "group 6a",
+        "group ia",
+        "group iia",
+        "group iiia",
+        "group iva",
+        "group va",
+        "group via",
+        "alkali metals",
+        "alkali metal",
+        "alkaline earth metals",
+        "alkaline earth metal",
+        "noble metals",
+        "noble metal",
+        "noble gas configuration",
+        "transition metals",
+        "lanthanides",
+        "actinides",
+        "metalloids",
+        "chalcogens",
+        "pnictogens",
+        "helium",
+        "neon",
+        "argon",
+        "krypton",
+        "xenon",
+        "radon",
+        "oganesson",
+        "hydrogen",
+        "nitrogen",
+        "ideal gas",
+        "ideal gases",
+        "greenhouse gases"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Noble_gas",
+    "qb": {
+        "q": "noble gas",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1962, Neil Bartlett made the first compound of one of these elements after realizing that xenon gives up an electron almost as easily as an oxygen molecule does. The two lightest members of this group form no known stable compounds under ordinary conditions.",
+            "r": "These elements sit in the last column of the periodic table. For 10 points, name this group of very unreactive elements, including helium and neon."
+        },
+        {
+            "p": "In 1785, Henry Cavendish sparked air with extra oxygen and was left with a tiny bubble of gas that refused to react, later identified as one of these elements. Over a century later, Lord Rayleigh noticed that nitrogen taken from air was slightly denser than nitrogen made from chemicals.",
+            "r": "Rayleigh and William Ramsay then discovered argon. For 10 points, name this group of unreactive elements that also includes neon and xenon."
+        },
+        {
+            "p": "In 1898, William Ramsay and Morris Travers found three of these elements in liquefied air and named them from Greek words meaning “new,” “hidden,” and “stranger.” Another member’s name comes from the Greek word for “lazy.”",
+            "r": "These elements almost never react because their outer shells are full. For 10 points, name this group of elements, which includes neon, krypton, and xenon."
+        },
+        {
+            "p": "From 1960 to 1983, the meter was officially defined by the wavelength of an orange-red light given off by krypton-86, an isotope of one of these elements. Another of these elements, xenon, powers the ion engines of some spacecraft, such as NASA’s Dawn probe.",
+            "r": "For 10 points, name this unreactive group of elements on the far right side of the periodic table."
+        },
+        {
+            "p": "The heaviest member of this group was named for Yuri Oganessian [“oh-gah-NESS-ee-un”] in 2016, making him only the second person to have an element named for him during his lifetime. Like the names of neon, argon, krypton, and xenon, that element’s name ends in “-on.”",
+            "r": "Most of these elements are colorless, odorless gases. For 10 points, name this group of elements whose atoms have full outer electron shells."
+        },
+        {
+            "p": "Most of the argon in Earth’s atmosphere was made by the radioactive decay of potassium-40, a process geologists use to date volcanic rocks. Argon, the most common member of this group in air, makes up almost 1 percent of the atmosphere.",
+            "r": "Atoms of these elements have full outer shells. For 10 points, name this group of elements, which includes helium, neon, and argon."
+        },
+        {
+            "p": "Excimer lasers, used in some eye surgeries and in making computer chips, rely on short-lived molecules that join one of these elements, such as argon or krypton, to fluorine. Mixed with neon, helium produces the red beam of a common gas laser.",
+            "r": "For 10 points, name this group of elements that rarely react because their outer electron shells are full."
+        },
+        {
+            "p": "In each of the first six rows of the periodic table, the highest first ionization energy belongs to a member of this group, and one member has the highest ionization energy of any element. Their atoms attract one another only through weak London dispersion forces, so their boiling points are very low.",
+            "r": "Neon and argon belong to this group. For 10 points, name this group of elements just to the right of the halogens."
+        },
+        {
+            "p": "Georges Claude [“zhorzh KLOHD”] displayed the first glowing tubes filled with one of these elements at a show in Paris in 1910. In such signs, that element glows red-orange, while argon mixed with a little mercury gives a blue glow.",
+            "r": "For 10 points, name this group of elements, including neon and argon, in the far-right column of the periodic table."
+        },
+        {
+            "p": "Dmitri Mendeleev’s [“men-duh-LAY-efs”] original periodic table had no place for these elements, so a whole new column was added after William Ramsay discovered several of them in the 1890s. Ramsay won the 1904 Nobel Prize in Chemistry for finding them.",
+            "r": "Chemists once called these elements “inert.” For 10 points, name this group of unreactive elements, including krypton and radon."
+        },
+        {
+            "p": "Chemists shorten long electron configurations by writing the symbol of one of these elements in square brackets, as in [Ne] 3s¹ for sodium. Other atoms often gain, lose, or share electrons until they match the arrangement of one of these elements.",
+            "r": "That idea is the octet rule. For 10 points, name this group of elements with full outer shells, including helium and argon."
+        },
+        {
+            "p": "Friedrich Ernst Dorn reported in 1900 that radium gives off one of these elements as a radioactive gas. That member, the heaviest that occurs in nature, forms when uranium in soil and rocks decays, so homes are sometimes tested for it.",
+            "r": "That gas is radon. For 10 points, name this group of elements, which also includes xenon and neon."
+        },
+        {
+            "p": "In 2000, chemists in Finland made the first compound of argon, a molecule with hydrogen and fluorine that survives only at extremely low temperatures. Unlike most gases, the members of this group exist as single atoms rather than as molecules.",
+            "r": "They are found in the rightmost column of the periodic table. For 10 points, name this group of elements, which includes argon and krypton."
+        },
+        {
+            "p": "Because they do not react, members of this group fill old-style light bulbs so the hot tungsten filament will not burn up, and they shield hot metal from the air during welding. Their group name compares them to gold and platinum, metals that also resist reacting.",
+            "r": "Neon and xenon are members. For 10 points, name this group of elements whose outer electron shells are full."
+        },
+        {
+            "p": "Going down this group, boiling points rise as the atoms grow larger and easier to distort, and the lightest member has the lowest boiling point of any element. That lightest member has only two valence electrons, while the others have eight.",
+            "r": "These elements very rarely form compounds. For 10 points, name this group of elements that includes helium, neon, and xenon."
+        }
+    ],
+    "clues": [
+        {
+            "id": "members",
+            "tier": "giveaway",
+            "t": "Helium, neon, argon, krypton, xenon, radon, and oganesson",
+            "k": ["helium", "neon", "argon", "krypton", "xenon"],
+            "n": 0
+        },
+        {
+            "id": "column",
+            "tier": "giveaway",
+            "t": "The far-right column of the periodic table, just right of the halogens",
+            "k": ["far-right", "halogens", "column"],
+            "n": 0,
+            "rabbit": "Halogens"
+        },
+        {
+            "id": "full-shells",
+            "tier": "giveaway",
+            "t": "Full outer electron shells make them almost completely unreactive",
+            "k": ["full outer", "unreactive"],
+            "n": 0
+        },
+        {
+            "id": "uses",
+            "tier": "giveaway",
+            "t": "Neon glows in signs, helium fills balloons, and argon fills light bulbs",
+            "k": ["signs", "balloons", "light bulbs"],
+            "n": 0,
+            "rabbit": "Helium"
+        },
+        {
+            "id": "inert",
+            "tier": "giveaway",
+            "t": "They were once called “inert,” meaning they never react",
+            "k": ["inert", "never react"],
+            "n": 0
+        },
+        {
+            "id": "octet",
+            "tier": "middle",
+            "t": "Every member except helium has eight valence electrons (an octet); helium has two",
+            "k": ["octet", "eight valence"],
+            "n": 0
+        },
+        {
+            "id": "octet-rule",
+            "tier": "middle",
+            "t": "Other atoms gain, lose, or share electrons to match their arrangement (the octet rule); their symbols in brackets shorten electron configurations",
+            "k": ["octet rule", "brackets"],
+            "n": 0
+        },
+        {
+            "id": "monatomic",
+            "tier": "middle",
+            "t": "They exist as single atoms, not molecules (monatomic)",
+            "k": ["single atoms", "monatomic"],
+            "n": 0
+        },
+        {
+            "id": "ionization",
+            "tier": "middle",
+            "t": "Highest first ionization energy in each row; helium’s is the highest of all",
+            "k": ["ionization energy", "highest"],
+            "n": 0
+        },
+        {
+            "id": "boiling",
+            "tier": "middle",
+            "t": "Only weak London dispersion forces hold their atoms together; boiling points rise going down the group",
+            "k": ["london dispersion", "boiling points"],
+            "n": 0
+        },
+        {
+            "id": "argon",
+            "tier": "middle",
+            "t": "Lord Rayleigh and William Ramsay discovered argon (Greek for “lazy”) in 1894; both won 1904 Nobel Prizes",
+            "k": ["rayleigh", "ramsay", "1894", "1904"],
+            "n": 0,
+            "rabbit": "Lord Rayleigh"
+        },
+        {
+            "id": "denser-nitrogen",
+            "tier": "middle",
+            "t": "Rayleigh noticed nitrogen from air was slightly denser than nitrogen made from chemicals",
+            "k": ["denser", "nitrogen"],
+            "n": 0
+        },
+        {
+            "id": "travers",
+            "tier": "middle",
+            "t": "In 1898, Ramsay and Morris Travers found neon (“new”), krypton (“hidden”), and xenon (“stranger”) in liquefied air",
+            "k": ["travers", "1898", "hidden", "stranger"],
+            "n": 0
+        },
+        {
+            "id": "radon",
+            "tier": "middle",
+            "t": "Radon is radioactive, forms from uranium in rocks and soil, and can build up in homes",
+            "k": ["radon", "uranium", "radioactive"],
+            "n": 0
+        },
+        {
+            "id": "mendeleev",
+            "tier": "middle",
+            "t": "Mendeleev’s original periodic table had no place for them, so a whole new column was added",
+            "k": ["mendeleev", "new column"],
+            "n": 0
+        },
+        {
+            "id": "bartlett",
+            "tier": "power",
+            "t": "Neil Bartlett made the first compound of one of them in 1962, by reacting xenon with platinum hexafluoride",
+            "k": ["bartlett", "1962", "platinum hexafluoride"],
+            "n": 0
+        },
+        {
+            "id": "xenon-oxygen",
+            "tier": "power",
+            "t": "Bartlett tried xenon because it loses an electron almost as easily as an oxygen molecule; helium and neon form no stable compounds",
+            "k": ["oxygen molecule", "no stable compounds"],
+            "n": 0
+        },
+        {
+            "id": "cavendish",
+            "tier": "power",
+            "t": "In 1785, Henry Cavendish was left with a tiny bubble of air that would not react, later shown to be argon",
+            "k": ["cavendish", "1785", "bubble"],
+            "n": 0
+        },
+        {
+            "id": "oganesson",
+            "tier": "power",
+            "t": "Oganesson, element 118, was named in 2016 for Yuri Oganessian, the second living person honored this way; members’ names end in “-on”",
+            "k": ["oganesson", "oganessian", "2016"],
+            "n": 0
+        },
+        {
+            "id": "krypton-meter",
+            "tier": "power",
+            "t": "From 1960 to 1983, the meter was defined by an orange-red line of krypton-86",
+            "k": ["krypton-86", "meter", "1960"],
+            "n": 0
+        },
+        {
+            "id": "xenon-engines",
+            "tier": "power",
+            "t": "Xenon powers ion engines on spacecraft such as NASA’s Dawn probe",
+            "k": ["ion engines", "dawn"],
+            "n": 0
+        },
+        {
+            "id": "excimer",
+            "tier": "power",
+            "t": "Excimer lasers join argon or krypton to fluorine for eye surgery and chip-making; helium and neon make a red laser beam",
+            "k": ["excimer", "lasers"],
+            "n": 0,
+            "rabbit": "Lasers"
+        },
+        {
+            "id": "claude",
+            "tier": "power",
+            "t": "Georges Claude displayed the first glowing neon tubes in Paris in 1910; argon with a little mercury glows blue",
+            "k": ["georges claude", "paris", "1910"],
+            "n": 0
+        },
+        {
+            "id": "potassium-40",
+            "tier": "power",
+            "t": "Most of the argon in air came from the decay of potassium-40, which geologists use to date volcanic rocks",
+            "k": ["potassium-40", "volcanic rocks"],
+            "n": 0
+        },
+        {
+            "id": "harf",
+            "tier": "power",
+            "t": "Chemists in Finland made the first argon compound in 2000; it contains hydrogen and fluorine",
+            "k": ["finland", "2000", "argon compound"],
+            "n": 0
+        },
+        {
+            "id": "dorn",
+            "tier": "power",
+            "t": "Friedrich Ernst Dorn reported in 1900 that radium gives off radon",
+            "k": ["dorn", "radium", "1900"],
+            "n": 0
+        },
+        {
+            "id": "gold",
+            "tier": "power",
+            "t": "Their group name compares them to gold and platinum, metals that resist reacting; argon shields hot metal during welding",
+            "k": ["gold", "platinum", "welding"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The family, not one member",
+        "body": "Tossups on this group are full of single-member clues, like neon signs, helium balloons, argon in light bulbs, and radon in basements, which tempt players to blurt one element’s name. But the question wants the whole family. The halogens, one column to the left, are the other trap: they are among the most reactive elements, while this group almost never reacts.",
+        "fix": "Listen for “these elements” or “this group,” and answer with the family name. Full outer shells, single atoms, Bartlett’s xenon compound, and Ramsay’s discoveries mean this group; seven valence electrons, salts, and −1 ions mean the halogens.",
+        "line": "Real answer line: <b><u>Noble gases</u></b> (accept <u>group 18</u> or <u>inert gases</u>; prompt on group <u>8</u>)"
+    },
+    "tests": {
+        "right": [
+            "Noble gases",
+            "noble gas",
+            "Group 18",
+            "Nobel gases",
+            "inert gases",
+            "Group VIIIA",
+            "group 0"
+        ],
+        "prompt": [
+            "Group 8"
+        ],
+        "wrong": [
+            "Halogens",
+            "Group 17",
+            "Alkali metals",
+            "Neon",
+            "Noble metals",
+            "Group 8B",
+            "Helium"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
