@@ -68,7 +68,7 @@
       "r": "For 10 points, name this process that powers the Sun, in which light nuclei combine, the opposite of nuclear fission."
     },
     {
-      "p": "Igor Tamm and Andrei Sakharov [“SAH-kuh-rawf”] designed the tokamak, a doughnut-shaped machine that uses powerful magnets to hold a plasma heated to over 100 million degrees for this process. Physicists hope such machines will one day generate electricity from this process.",
+      "p": "Igor Tamm and Andrei Sakharov [“SAH-kuh-rawf”] invented the tokamak, a doughnut-shaped machine that uses powerful magnets to hold a plasma heated to over 100 million degrees for this process. Physicists hope such machines will one day generate electricity from this process.",
       "r": "For 10 points, name this process, the energy source of the Sun, in which light nuclei combine."
     },
     {
@@ -76,7 +76,7 @@
       "r": "For 10 points, name this process in which hydrogen nuclei combine to form helium inside stars."
     },
     {
-      "p": "In December 2022, the National Ignition Facility in California fired 192 lasers at a tiny fuel pellet and, for the first time, got more energy out of this process than the lasers put in. That approach is called inertial confinement.",
+      "p": "In December 2022, the National Ignition Facility in California fired 192 laser beams at a tiny fuel pellet and, for the first time, got more energy out of this process than the lasers put in. That approach is called inertial confinement.",
       "r": "For 10 points, name this process that powers the stars, in which light nuclei combine into heavier ones."
     },
     {
@@ -160,7 +160,7 @@
     {
       "id": "tokamak",
       "tier": "middle",
-      "t": "Tokamaks: doughnut-shaped machines that hold superhot plasma with magnets (designed by Igor Tamm and Andrei Sakharov)",
+      "t": "Tokamaks: doughnut-shaped machines that hold superhot plasma with magnets (invented by Igor Tamm and Andrei Sakharov)",
       "k": [
         "tokamaks",
         "doughnut-shaped",
@@ -183,10 +183,10 @@
     {
       "id": "nif",
       "tier": "middle",
-      "t": "December 2022: the National Ignition Facility’s 192 lasers got more energy out of a fuel pellet than they put in",
+      "t": "December 2022: the National Ignition Facility’s 192 laser beams got more energy out of a fuel pellet than they put in",
       "k": [
         "national ignition facility",
-        "192 lasers",
+        "192 laser beams",
         "2022"
       ],
       "n": 0
@@ -334,7 +334,7 @@
     {
       "id": "oliphant",
       "tier": "power",
-      "t": "Mark Oliphant, working with Ernest Rutherford, first did it in a lab with deuterium, discovering helium-3 and tritium",
+      "t": "Mark Oliphant, working with Ernest Rutherford in the 1930s, did it in a lab with deuterium, discovering helium-3 and tritium",
       "k": [
         "oliphant",
         "helium-3",
