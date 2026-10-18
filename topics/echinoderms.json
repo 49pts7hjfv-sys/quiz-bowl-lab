@@ -109,11 +109,11 @@
       "r": "Those flat animals are sand dollars. For 10 points, name this phylum that also includes sea stars and sea urchins."
     },
     {
-      "p": "Each skeletal plate of a member of this phylum acts like a single crystal of the mineral calcite, with a spongy, hole-filled structure called stereom. Among invertebrates, members of this phylum are some of the closest relatives of chordates, since both groups are deuterostomes.",
+      "p": "Japanese chefs serve the soft, golden-orange roe of some members of this phylum as a sushi topping called uni [“OO-nee”]. Among invertebrates, members of this phylum are some of the closest relatives of chordates, since both groups are deuterostomes.",
       "r": "These animals move on tube feet. For 10 points, name this phylum of spiny-skinned animals, including sea urchins and starfish."
     },
     {
-      "p": "The classes Asteroidea [“ass-tuh-ROY-dee-uh”], Ophiuroidea [“oh-fee-yuh-ROY-dee-uh”], and Holothuroidea [“hol-uh-thyoo-ROY-dee-uh”] belong to this phylum. Members of the class Ophiuroidea, called brittle stars, wave long, thin arms that can break off and grow back, and like other members of this phylum, they move using tube feet.",
+      "p": "The classes Asteroidea [“ass-tuh-ROY-dee-uh”], Ophiuroidea [“oh-fee-yuh-ROY-dee-uh”], and Holothuroidea [“hol-uh-thyoo-ROY-dee-uh”] belong to this phylum. Members of the class Ophiuroidea, called brittle stars, crawl by wriggling long, thin arms that can break off and grow back, rather than walking on their tube feet.",
       "r": "For 10 points, name this phylum of “spiny-skinned” sea animals that includes sea urchins and sand dollars."
     },
     {
@@ -374,10 +374,11 @@
     {
       "id": "classes",
       "tier": "power",
-      "t": "Its classes include Asteroidea (sea stars), Ophiuroidea (brittle stars and basket stars), Holothuroidea (sea cucumbers), and Crinoidea (sea lilies)",
+      "t": "Its five living classes: Asteroidea (sea stars), Ophiuroidea (brittle and basket stars), Echinoidea (sea urchins and sand dollars), Holothuroidea (sea cucumbers), and Crinoidea (sea lilies)",
       "k": [
         "asteroidea",
         "ophiuroidea",
+        "echinoidea",
         "holothuroidea",
         "crinoidea"
       ],
@@ -406,13 +407,13 @@
       "n": 0
     },
     {
-      "id": "stereom",
+      "id": "uni",
       "tier": "power",
-      "t": "Each skeletal plate acts like a single calcite crystal with a spongy, hole-filled structure called stereom",
+      "t": "Sea urchin roe is served in Japan as a sushi topping called uni",
       "k": [
-        "stereom",
-        "calcite",
-        "single calcite crystal"
+        "sea urchin roe",
+        "uni",
+        "sushi"
       ],
       "n": 0
     },

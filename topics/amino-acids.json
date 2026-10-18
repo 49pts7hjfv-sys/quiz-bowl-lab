@@ -88,7 +88,7 @@
       "r": "Their side chains, called R groups, can be polar, nonpolar, acidic, or basic. For 10 points, name these 20 kinds of molecules that make up proteins."
     },
     {
-      "p": "All of these molecules except glycine are chiral, and proteins in living things are built almost entirely from their L-forms, though D-forms do appear in bacterial cell walls. Three-base codons in messenger RNA spell out which of these molecules comes next in a protein.",
+      "p": "All of the 20 standard kinds of these molecules except glycine are chiral, and proteins in living things are built almost entirely from their L-forms, though D-forms do appear in bacterial cell walls. Three-base codons in messenger RNA spell out which of these molecules comes next in a protein.",
       "r": "Nine of them are essential in the human diet. For 10 points, name these building blocks of proteins, such as glycine and lysine."
     },
     {
@@ -303,7 +303,7 @@
     {
       "id": "chirality",
       "tier": "power",
-      "t": "All but glycine are chiral; proteins use L-forms, but D-forms appear in bacterial cell walls",
+      "t": "Of the 20 standard ones, all but glycine are chiral; proteins use L-forms, but D-forms appear in bacterial cell walls",
       "k": [
         "chiral",
         "l-forms",
@@ -438,7 +438,7 @@
     "title": "Links, not chains",
     "body": "Many clues describe what these molecules build, like enzymes, keratin, collagen, or insulin, so players blurt “proteins.” But proteins are the long, folded chains, and these molecules are the single links. Nucleotides are the other trap: they are the building blocks of DNA and RNA, and clues about codons and the genetic code involve both kinds of molecules.",
     "fix": "If the question wants monomers, “building blocks,” or molecules with an R group and an amine group, say amino acids. A folded chain or a named molecule like hemoglobin means a protein; a sugar, a phosphate, and a base mean nucleotides; long carbon tails in fats mean fatty acids.",
-    "line": "Real answer line: <b><u>Amino acids</u></b> (accept <u>amino acid</u>; prompt on <u>acids</u>; do not accept “proteins”)"
+    "line": "Real answer line: <b><u>Amino acids</u></b> (accept <u>amino acid</u>; prompt on <u>acids</u>; do not accept “proteins” or “peptides”)"
   },
   "tests": {
     "right": [

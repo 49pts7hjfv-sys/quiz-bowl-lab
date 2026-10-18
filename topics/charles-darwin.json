@@ -15,10 +15,11 @@
     "charles r darwin",
     "c darwin"
   ],
-  "prompt": [],
+  "prompt": [
+    "robert darwin"
+  ],
   "reject": [
     "erasmus darwin",
-    "robert darwin",
     "emma darwin",
     "alfred russel wallace",
     "alfred wallace",
@@ -99,19 +100,19 @@
       "r": "Lyell’s book argued that Earth changes slowly over long ages. For 10 points, name this English naturalist who sailed on HMS _Beagle_."
     },
     {
-      "p": "This scientist ended his most famous book by describing a “tangled bank” full of life and declaring that “endless forms most beautiful and most wonderful” have evolved from simple beginnings. He called his idea “descent with modification.”",
+      "p": "This scientist ended his most famous book by describing an “entangled bank” full of life and declaring that “endless forms most beautiful and most wonderful” have evolved from simple beginnings. He called his idea “descent with modification.”",
       "r": "That book appeared in 1859. For 10 points, name this English naturalist who wrote _On the Origin of Species_."
     },
     {
-      "p": "Botanist John Stevens Henslow recommended this young man as a companion for Captain Robert FitzRoy on a surveying voyage that left England in 1831. During that voyage, this man visited the Galápagos Islands in 1835.",
-      "r": "He later published _On the Origin of Species_. For 10 points, name this naturalist who sailed aboard HMS _Beagle_."
+      "p": "Botanist John Stevens Henslow recommended this young man as a companion for Captain Robert FitzRoy on a surveying voyage that left England in 1831. This man suffered badly from seasickness on that voyage, but he spent long stretches of it exploring on land.",
+      "r": "That voyage took him to the Galápagos Islands in 1835. For 10 points, name this naturalist who sailed aboard HMS _Beagle_ and later wrote _On the Origin of Species_."
     },
     {
       "p": "This man’s grandfathers were the pottery maker Josiah Wedgwood and the doctor Erasmus, who wrote the book _Zoonomia_, and this man married his cousin Emma Wedgwood. He dropped out of medical school in Edinburgh.",
       "r": "He then studied at Cambridge to become a clergyman before sailing on HMS _Beagle_. For 10 points, name this naturalist who wrote _On the Origin of Species_."
     },
     {
-      "p": "The ornithologist John Gould told this scientist that the small brown birds he had collected on different Galápagos islands were separate species of finches. This man also noticed that the islands’ mockingbirds and giant tortoises differed from island to island.",
+      "p": "The ornithologist John Gould told this scientist that the small brown birds he had collected on different Galápagos islands were separate species of finches. This man also learned that the islands’ mockingbirds and giant tortoises differed from island to island.",
       "r": "For 10 points, name this English naturalist who sailed on HMS _Beagle_ and proposed natural selection."
     },
     {
@@ -384,7 +385,7 @@
     {
       "id": "tangled-bank",
       "tier": "power",
-      "t": "_Origin_ ends with a “tangled bank” and “endless forms most beautiful and most wonderful”",
+      "t": "_Origin_ ends with an “entangled bank” (often called the “tangled bank”) and “endless forms most beautiful and most wonderful”",
       "k": [
         "tangled bank",
         "endless forms"
@@ -394,7 +395,7 @@
     {
       "id": "spencer",
       "tier": "power",
-      "t": "Herbert Spencer coined “survival of the fittest”; he later used the phrase himself",
+      "t": "Herbert Spencer coined “survival of the fittest”; the phrase was added to later editions of _Origin_",
       "k": [
         "herbert spencer",
         "survival of the fittest"
@@ -436,9 +437,12 @@
       "Darwin",
       "Charles Robert Darwin",
       "Charles Darwn",
-      "darwin"
+      "darwin",
+      "Sir Charles Robert Darwin"
     ],
-    "prompt": [],
+    "prompt": [
+      "Robert Darwin"
+    ],
     "wrong": [
       "Erasmus Darwin",
       "Alfred Russel Wallace",

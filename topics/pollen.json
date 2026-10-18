@@ -7,7 +7,7 @@
   "kicker": "Fine dust made by flowers and cones · Needed for plants to make seeds",
   "dates": "Its name is Latin for “fine flour”",
   "briefing": "Pollen is the fine, often yellow dust that flowers and pine cones make so plants can produce seeds. Each tiny grain carries the male cells a plant needs, and it travels to another flower on the wind or hitches a ride on a bee, butterfly, bird, or bat. Its outer shell is so tough that grains buried in lake mud for thousands of years can still be identified, and in spring and summer it makes many people sneeze with hay fever.",
-  "answerHtml": "<b><u>Pollen</u></b> (accept <u>pollen grains</u>; prompt on <u>male gametophytes</u>; do not accept “pollination”)",
+  "answerHtml": "<b><u>Pollen</u></b> (accept <u>pollen grains</u>; prompt on <u>male gametophytes</u>; do not accept “pollination” or “pollen tube”)",
   "accept": [
     "pollen",
     "pollen grain",
@@ -51,7 +51,10 @@
     "ovules",
     "sperm",
     "dust",
-    "honey"
+    "honey",
+    "female",
+    "embryo sac",
+    "embryo sacs"
   ],
   "media": [],
   "mediaPending": true,
@@ -75,7 +78,7 @@
       "r": "This substance makes many people sneeze from hay fever. For 10 points, name this dusty substance that flowers need in order to make seeds."
     },
     {
-      "p": "Grains of this substance from pine trees have two air-filled sacs, sometimes called wings or bladders, that help them float on the wind. Conifers make this substance in small, soft male cones, which are much smaller than their woody seed cones.",
+      "p": "Grains of this substance from pine trees have two air-filled sacs, sometimes called wings or bladders, and they travel on the wind. Conifers make this substance in small, soft male cones, which are much smaller than their woody seed cones.",
       "r": "Flowers make it in their anthers. For 10 points, name this powdery substance that plants need in order to make seeds."
     },
     {
@@ -91,11 +94,11 @@
       "r": "That science is called palynology. For 10 points, name this powdery substance that bees carry from flower to flower."
     },
     {
-      "p": "In 1898, Sergei Nawaschin [“nuh-VAH-shin”] discovered that one of the two sperm cells delivered by a grain of this substance fuses with an egg, while the other joins two polar nuclei to form a seed’s food tissue, the endosperm.",
+      "p": "In flowering plants, one of the two sperm cells delivered by a grain of this substance fuses with an egg, while the other joins two polar nuclei to form a seed’s food tissue, the endosperm.",
       "r": "That process is called double fertilization. For 10 points, name this powdery substance made by the stamens of flowers."
     },
     {
-      "p": "In 1896, Japanese botanist Sakugoro Hirase discovered that in ginkgo trees, grains of this substance release sperm cells that swim using many tiny flagella. Many gymnosperms, including the ginkgo, catch this substance on a sticky drop at the opening of each ovule.",
+      "p": "Unlike most seed plants, ginkgo trees and cycads make grains of this substance whose sperm cells swim using many tiny flagella. Many gymnosperms, including the ginkgo, catch this substance on a sticky drop at the opening of each ovule.",
       "r": "For 10 points, name this powdery substance made in the male cones of pines and the anthers of flowers."
     },
     {
@@ -310,7 +313,7 @@
     {
       "id": "pine-sacs",
       "tier": "power",
-      "t": "Pine grains have two air-filled sacs that help them float on the wind",
+      "t": "Pine grains have two air-filled sacs, sometimes called wings or bladders, and travel on the wind",
       "k": [
         "air-filled sacs",
         "pine"
@@ -351,24 +354,25 @@
       "n": 0
     },
     {
-      "id": "nawaschin",
+      "id": "forensic",
       "tier": "power",
-      "t": "Sergei Nawaschin discovered double fertilization in 1898",
+      "t": "Forensic scientists can use grains stuck to clothes or shoes to show where a person has been, a field called forensic palynology",
       "k": [
-        "nawaschin",
-        "1898"
+        "forensic palynology",
+        "clothes",
+        "shoes"
       ],
       "n": 0
     },
     {
-      "id": "hirase",
+      "id": "ginkgo-sperm",
       "tier": "power",
-      "t": "In ginkgo trees, its grains release swimming sperm, discovered by Sakugoro Hirase in 1896",
+      "t": "Unlike most seed plants, ginkgo trees and cycads make grains whose swimming sperm move with many tiny flagella",
       "k": [
         "ginkgo",
-        "hirase",
+        "cycads",
         "swimming sperm",
-        "1896"
+        "flagella"
       ],
       "n": 0
     },
@@ -452,7 +456,8 @@
     ],
     "prompt": [
       "Male gametophyte",
-      "Gametophytes"
+      "Gametophytes",
+      "A male gametophyte"
     ],
     "wrong": [
       "Pollination",
@@ -460,7 +465,8 @@
       "Pollen tube",
       "Spores",
       "Nectar",
-      "Anther"
+      "Anther",
+      "Female gametophyte"
     ]
   }
 }

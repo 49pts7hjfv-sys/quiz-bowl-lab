@@ -97,7 +97,7 @@
       "r": "For 10 points, name these agents, which are not made of cells and need a host cell to reproduce."
     },
     {
-      "p": "Rinderpest, a cattle disease declared wiped out in 2011, and smallpox, declared eradicated in 1980, are the only two infectious diseases ever eradicated, and both were caused by these agents. Jonas Salk developed a vaccine against polio, which is caused by another one of these agents.",
+      "p": "Rinderpest, a cattle disease declared wiped out in 2011, and smallpox, declared eradicated in 1980, were the first two infectious diseases ever eradicated, and both were caused by these agents. Jonas Salk developed a vaccine against polio, which is caused by another one of these agents.",
       "r": "These agents are much smaller than bacteria. For 10 points, name these tiny agents, which antibiotics cannot kill."
     },
     {
@@ -412,7 +412,7 @@
     {
       "id": "rinderpest",
       "tier": "power",
-      "t": "Smallpox (1980) and the cattle disease rinderpest (2011) are the only infectious diseases ever eradicated; both were caused by them",
+      "t": "Smallpox (1980) and the cattle disease rinderpest (2011) were the first two infectious diseases ever eradicated; both were caused by them",
       "k": [
         "rinderpest",
         "eradicated",

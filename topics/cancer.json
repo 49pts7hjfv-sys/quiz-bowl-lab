@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Disease of cells dividing out of control · Can spread through the body",
   "dates": "Named for the crab by Hippocrates, c. 400 BCE",
-  "briefing": "Cancer is the name for more than 100 diseases that start the same way: changes in a cell’s genes make it divide out of control instead of following the body’s normal signals. The extra cells can pile up into a lump called a tumor and sometimes spread to other parts of the body. The ancient Greek doctor Hippocrates named it after a crab, and today scientists treat many types with surgery, radiation, and medicines.",
+  "briefing": "Cancer is the name for more than 100 diseases that start the same way: changes in a cell’s genes make it divide out of control instead of following the body’s normal signals. The extra cells can pile up into a lump called a tumor and sometimes spread to other parts of the body. The ancient Greek doctor Hippocrates named it after a crab, and doctors treat many types with surgery, radiation, and medicines.",
   "answerHtml": "<b><u>Cancer</u></b> (accept <u>malignant tumors</u> or <u>malignant neoplasms</u>; prompt on <u>tumors</u> or <u>neoplasms</u>)",
   "accept": [
     "cancer",
@@ -88,7 +88,7 @@
       "r": "For 10 points, name this disease in which cells divide uncontrollably and may spread to other organs."
     },
     {
-      "p": "The Philadelphia chromosome, made when pieces of chromosomes 9 and 22 swap places, causes a form of this disease called chronic myeloid leukemia, which the drug imatinib, sold as Gleevec, targets. Leukemia is the form of this disease that starts in bone marrow.",
+      "p": "The Philadelphia chromosome, made when pieces of chromosomes 9 and 22 swap places, causes a form of this disease called chronic myeloid leukemia, which the drug imatinib, sold as Gleevec, targets. Leukemia is a form of this disease that starts in the bone marrow.",
       "r": "Doctors who treat it are called oncologists. For 10 points, name this disease of uncontrolled cell growth."
     },
     {
@@ -96,7 +96,7 @@
       "r": "Doctors called oncologists treat it. For 10 points, name this disease in which abnormal cells divide out of control."
     },
     {
-      "p": "Cells of this disease often switch on telomerase, an enzyme that rebuilds the protective ends of chromosomes, so they can keep dividing far past the Hayflick limit, the usual cap of about 50 divisions for normal human cells.",
+      "p": "Cells of this disease often switch on telomerase, an enzyme that rebuilds the protective ends of chromosomes, so they can keep dividing far past the Hayflick limit, the usual cap of about 40 to 60 divisions for normal human cells.",
       "r": "When its cells spread to distant parts of the body, the process is called metastasis. For 10 points, name this disease in which cells divide out of control."
     },
     {
@@ -104,15 +104,15 @@
       "r": "Chemotherapy drugs fight this disease by killing fast-dividing cells. For 10 points, name this disease, which can form tumors that spread through the body."
     },
     {
-      "p": "In 1947, Sidney Farber used the drug aminopterin to bring about the first temporary remissions in children with leukemia, a form of this disease, earning him the nickname “father of modern chemotherapy.”",
+      "p": "In the late 1940s, Sidney Farber used the drug aminopterin to bring about the first temporary remissions in children with leukemia, a form of this disease, earning him the nickname “father of modern chemotherapy.”",
       "r": "Unlike benign tumors, the tumors of this disease can invade nearby tissue. For 10 points, name this disease in which abnormal cells divide out of control."
     },
     {
-      "p": "Siddhartha Mukherjee won the 2011 Pulitzer Prize for General Nonfiction for _The Emperor of All Maladies_, which he called a “biography” of this disease. The name of this disease comes from the Latin word for “crab.”",
-      "r": "Doctors who treat it are called oncologists. For 10 points, name this disease in which mutated cells divide uncontrollably, sometimes spreading through the body."
+      "p": "Siddhartha Mukherjee won the 2011 Pulitzer Prize for General Nonfiction for _The Emperor of All Maladies_, which he called a “biography” of this disease. Doctors who treat this disease are called oncologists.",
+      "r": "Its name comes from the Latin word for “crab.” For 10 points, name this disease in which mutated cells divide uncontrollably, sometimes spreading through the body."
     },
     {
-      "p": "Canadian athlete Terry Fox, who had lost a leg to a bone form of this disease, ran a “Marathon of Hope” across Canada in 1980 to raise money for research on it. Bone forms of this disease are called sarcomas.",
+      "p": "Canadian athlete Terry Fox, who had lost a leg to a bone form of this disease, set out in 1980 to run across Canada in a “Marathon of Hope” to raise money for research on it. Forms of this disease that start in bone or muscle are called sarcomas.",
       "r": "Melanoma is a form that starts in the skin’s pigment cells. For 10 points, name this disease in which cells grow out of control."
     },
     {
@@ -371,11 +371,11 @@
     {
       "id": "farber",
       "tier": "power",
-      "t": "Sidney Farber, the “father of modern chemotherapy,” used aminopterin against childhood leukemia in 1947",
+      "t": "Sidney Farber, the “father of modern chemotherapy,” used aminopterin against childhood leukemia in the late 1940s",
       "k": [
         "sidney farber",
         "aminopterin",
-        "1947"
+        "childhood leukemia"
       ],
       "n": 0
     },
@@ -393,7 +393,7 @@
     {
       "id": "terry-fox",
       "tier": "power",
-      "t": "Terry Fox, who lost a leg to a bone sarcoma, ran the 1980 Marathon of Hope across Canada to raise money for research",
+      "t": "Terry Fox, who lost a leg to a bone sarcoma, set out on his 1980 Marathon of Hope across Canada to raise money for research",
       "k": [
         "terry fox",
         "marathon of hope",
@@ -427,7 +427,7 @@
     "title": "Disease, not tumor",
     "body": "A tumor is just a lump of extra cells. Benign tumors stay in one place and are not this disease; only malignant ones are, so an early buzz of “tumor” earns a prompt here instead of points. The word also has namesakes, like the crab constellation and zodiac sign and the Tropic of Cancer, which belong to astronomy and geography questions.",
     "fix": "Say the disease’s name, not the lump. Uncontrolled cell division, metastasis, oncogenes, carcinogens, or chemotherapy point here; a constellation or a line of latitude points to astronomy or geography instead.",
-    "line": "Real answer line: <b><u>Cancer</u></b> (accept <u>malignant tumors</u> or <u>malignant neoplasms</u>; prompt on <u>tumors</u>)"
+    "line": "Real answer line: <b><u>Cancer</u></b> (accept <u>malignant tumors</u> or <u>malignant neoplasms</u>; prompt on <u>tumors</u> or <u>neoplasms</u>)"
   },
   "tests": {
     "right": [

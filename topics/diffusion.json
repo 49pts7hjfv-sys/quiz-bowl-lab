@@ -108,7 +108,7 @@
       "r": "For 10 points, name this process by which oxygen passes from the lungs into the blood."
     },
     {
-      "p": "The enzyme triose phosphate isomerase is called “catalytically perfect,” because it works as fast as its substrate molecules can arrive by this process. In single-celled organisms like amoebas, oxygen enters the cell directly from the surrounding water by this process.",
+      "p": "Air enters an insect’s body through holes called spiracles and travels through branching tubes called tracheae, and oxygen then reaches the insect’s cells by this process. In single-celled organisms like amoebas, oxygen enters the cell directly from the surrounding water by this process.",
       "r": "For 10 points, name this kind of passive transport that moves particles from high to low concentration."
     },
     {
@@ -327,7 +327,7 @@
     {
       "id": "k-25",
       "tier": "power",
-      "t": "The Manhattan Project’s K-25 plant at Oak Ridge separated uranium-235 by forcing uranium hexafluoride gas through porous barriers",
+      "t": "The Manhattan Project’s K-25 plant at Oak Ridge separated uranium-235 by forcing uranium hexafluoride gas through porous barriers, a method named for this process",
       "k": [
         "k-25",
         "oak ridge",
@@ -402,12 +402,13 @@
       "n": 0
     },
     {
-      "id": "perfect-enzyme",
+      "id": "insect-tracheae",
       "tier": "power",
-      "t": "Triose phosphate isomerase is “catalytically perfect”: it works as fast as its substrate can arrive this way",
+      "t": "Insects take in air through spiracles into branching tubes called tracheae; oxygen then reaches their cells this way",
       "k": [
-        "triose phosphate isomerase",
-        "catalytically perfect"
+        "spiracles",
+        "tracheae",
+        "insects"
       ],
       "n": 0
     },
@@ -426,7 +427,7 @@
     "title": "Not osmosis or active transport",
     "body": "Osmosis is a special case: water crossing a selectively permeable membrane. A question about only water and a membrane may want “osmosis,” while one about any particles spreading out wants this broader process. Active transport is the opposite of both, since it pumps particles against their gradient and costs ATP. Chemistry questions on Graham’s law may also ask for effusion, a gas escaping through a tiny hole, which sounds very similar.",
     "fix": "Particles spreading from high to low concentration with no energy means diffusion. Only water crossing a membrane means osmosis; ATP or pumping “uphill” means active transport; gas leaking through a pinhole means effusion.",
-    "line": "Real answer line: <b><u>Diffusion</u></b> (accept <u>simple</u> or <u>facilitated diffusion</u>; prompt on <u>passive transport</u>; do not accept “osmosis” or “active transport”)"
+    "line": "Real answer line: <b><u>Diffusion</u></b> (accept <u>simple diffusion</u> or <u>facilitated diffusion</u>; prompt on <u>passive transport</u>; do not accept “osmosis” or “active transport”)"
   },
   "tests": {
     "right": [
