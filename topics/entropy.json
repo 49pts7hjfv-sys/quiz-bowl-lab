@@ -53,8 +53,8 @@
       "r": "It is measured in joules per kelvin. For 10 points, name this quantity, symbolized S, often described as a measure of disorder."
     },
     {
-      "p": "Rolf Landauer’s [“LAN-dow-erz”] principle, which says that erasing a bit of information always releases heat, helps explain why a tiny imaginary being cannot lower this quantity for free. That being opens a door between two boxes of gas only for fast molecules, sorting them from slow ones without doing work.",
-      "r": "That being is Maxwell’s demon. For 10 points, name this quantity that the second law of thermodynamics says never decreases in an isolated system."
+      "p": "James Clerk Maxwell imagined a tiny “demon” that guards a door between two boxes of gas, letting fast molecules through one way and slow ones the other. By sorting the molecules without doing any work, that demon would seem to lower this quantity.",
+      "r": "A reaction that makes more gas molecules than it uses up usually increases it. For 10 points, name this quantity that the second law of thermodynamics says never decreases in an isolated system."
     },
     {
       "p": "Jacob Bekenstein [“BEK-en-stine”] proposed that a black hole has an amount of this quantity proportional to the area of its event horizon, an idea supported when Stephen Hawking showed that black holes give off radiation.",
@@ -85,7 +85,7 @@
       "r": "Ice melting in a warm room increases it. For 10 points, name this measure of disorder, which never decreases in an isolated system."
     },
     {
-      "p": "The Gibbs paradox asks why removing a wall between two samples of the same gas does not increase this quantity, while removing a wall between two different gases does. Ludwig Boltzmann explained this quantity by counting the number of ways a system’s particles can be arranged.",
+      "p": "Removing a wall between two different gases so that they mix raises this quantity, even when both gases start at the same temperature and pressure. Ludwig Boltzmann explained this quantity by counting the number of ways a system’s particles can be arranged.",
       "r": "The total amount of this quantity rises whenever heat flows from a hot object to a cold one. For 10 points, name this measure of disorder, symbolized S."
     },
     {
@@ -93,12 +93,12 @@
       "r": "The second law of thermodynamics says this quantity never decreases in an isolated system. For 10 points, name this measure of disorder."
     },
     {
-      "p": "Erwin Schrödinger’s [“SHROH-ding-erz”] 1944 book _What Is Life?_ argued that living things stay alive by “feeding on” the negative of this quantity. A living cell can lower this quantity inside itself only by releasing heat that raises it even more in its surroundings.",
+      "p": "Erwin Schrödinger’s [“SHROH-ding-erz”] 1944 book _What Is Life?_ argued that living things stay alive by “feeding on” the negative of this quantity. A living cell can lower this quantity inside itself only by raising it even more in its surroundings, for example by giving off heat.",
       "r": "For 10 points, name this measure of disorder, which the second law of thermodynamics says tends to increase."
     },
     {
-      "p": "Josef Loschmidt [“LOHSH-mit”] objected that the laws governing colliding molecules work the same backward in time, so they could not explain why this quantity only increases. That objection targeted Ludwig Boltzmann’s H-theorem, which claimed to show this quantity rising as gas molecules collide.",
-      "r": "For 10 points, name this measure of disorder, symbolized S, whose change equals heat divided by temperature in a reversible process."
+      "p": "Walther Nernst’s heat theorem, which grew into the third law of thermodynamics, says that the change in this quantity during a chemical reaction shrinks toward zero as the temperature nears absolute zero. When a liquid boils at a steady temperature, the change in this quantity equals the heat it absorbs divided by that temperature.",
+      "r": "For 10 points, name this measure of disorder, symbolized S, which the second law of thermodynamics says never decreases in an isolated system."
     },
     {
       "p": "The Clausius [“KLOW-zee-us”] inequality leads to the rule that, in any real process, the change in this quantity is greater than the heat added divided by the temperature. This quantity, measured in joules per kelvin, has the same units as the Boltzmann constant.",
@@ -237,6 +237,16 @@
       "n": 0
     },
     {
+      "id": "more-gas",
+      "tier": "middle",
+      "t": "A reaction that makes more gas molecules than it uses up usually increases it",
+      "k": [
+        "gas molecules",
+        "uses up"
+      ],
+      "n": 0
+    },
+    {
       "id": "bekenstein",
       "tier": "power",
       "t": "Jacob Bekenstein: a black hole’s amount is proportional to the area of its event horizon",
@@ -302,12 +312,12 @@
       "n": 0
     },
     {
-      "id": "gibbs-paradox",
+      "id": "mixing",
       "tier": "power",
-      "t": "Gibbs paradox: mixing two different gases raises it, but mixing two samples of the same gas does not",
+      "t": "Letting two different gases mix raises it, even if both start at the same temperature and pressure",
       "k": [
-        "gibbs paradox",
-        "mixing"
+        "different gases",
+        "mix"
       ],
       "n": 0
     },
@@ -333,13 +343,12 @@
       "n": 0
     },
     {
-      "id": "loschmidt",
+      "id": "nernst",
       "tier": "power",
-      "t": "Loschmidt’s paradox: time-reversible molecular laws seem to clash with Boltzmann’s H-theorem, which shows it rising",
+      "t": "Walther Nernst’s heat theorem, which grew into the third law, says its change in a reaction shrinks toward zero near absolute zero",
       "k": [
-        "loschmidt",
-        "h-theorem",
-        "time-reversible"
+        "nernst",
+        "heat theorem"
       ],
       "n": 0
     },
@@ -350,16 +359,6 @@
       "k": [
         "clausius inequality",
         "inequality"
-      ],
-      "n": 0
-    },
-    {
-      "id": "landauer",
-      "tier": "power",
-      "t": "Landauer’s principle: erasing information always releases heat, which explains why Maxwell’s demon cannot win",
-      "k": [
-        "landauer",
-        "erasing"
       ],
       "n": 0
     }

@@ -73,7 +73,9 @@
     "antacid",
     "antacids",
     "superacid",
-    "superacids"
+    "superacids",
+    "magic acid",
+    "fluoroantimonic acid"
   ],
   "media": [],
   "mediaPending": true,
@@ -118,7 +120,7 @@
     },
     {
       "p": "John Ray first collected a simple one of these substances in 1671 by distilling a large number of ants, so it is named for the Latin word for “ant.” Your muscles make another one of these substances, named for milk, during hard exercise.",
-      "r": "For 10 points, name these sour substances, which include the main ingredient of vinegar."
+      "r": "For 10 points, name these sour substances, which include the active ingredient in vinegar."
     },
     {
       "p": "Parietal [“puh-RYE-uh-tul”] cells in the stomach lining pump out hydrogen ions to make a strong one of these substances, giving gastric juice a pH of about 2. Heartburn tablets made of calcium carbonate work by neutralizing these substances.",
@@ -134,10 +136,10 @@
     },
     {
       "p": "Water is amphoteric, meaning it can behave either as one of these substances or as a base. A buffer, which resists changes in pH, can be made by mixing a weak one of these substances with its conjugate base.",
-      "r": "For 10 points, name these compounds with a pH below 7, such as the main ingredient of vinegar."
+      "r": "For 10 points, name these compounds with a pH below 7, such as the active ingredient in vinegar."
     },
     {
-      "p": "Søren Sørensen [“SUR-en-sen”] introduced the pH scale in 1909 at the Carlsberg Laboratory to describe how strong solutions of these substances are. In a titration, a base of known concentration is added to one of these substances until an indicator changes color.",
+      "p": "Søren Sørensen [“SUR-en-sen”] introduced the pH scale in 1909 at the Carlsberg Laboratory to express the concentration of the hydrogen ions that these substances release in water. In a titration, a base of known concentration is added to one of these substances until an indicator changes color.",
       "r": "These substances turn blue litmus paper red. For 10 points, name these sour compounds with pH values below 7."
     },
     {
@@ -485,7 +487,8 @@
       "Amino acids",
       "Acid rain",
       "Alkali",
-      "Salts"
+      "Salts",
+      "Magic acid"
     ]
   }
 }

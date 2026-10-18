@@ -6,8 +6,8 @@
   "qbCategory": "Science · Physics",
   "kicker": "Rotation’s conserved quantity · Why skaters spin faster with arms in",
   "dates": "Kepler’s second law (1609) reflects its conservation",
-  "briefing": "Angular momentum is the spinning version of momentum. It grows with an object’s mass, with how far that mass sits from the center, and with how fast the object turns. When no outside twist, or torque, acts on a system, its angular momentum stays the same, which is why a figure skater spins faster when she pulls in her arms. The same rule makes collapsing stars spin up and helps a spinning top stay upright.",
-  "answerHtml": "<b><u>Angular momentum</u></b> (prompt on <u>L</u>; do not accept “linear momentum” or just “momentum”)",
+  "briefing": "Angular momentum is the spinning version of momentum: it grows with an object’s mass, with how far that mass sits from the center, and with how fast the object turns. When no outside twist, or torque, acts on a system, its angular momentum stays the same, which is why a figure skater spins faster when she pulls in her arms. The same rule makes collapsing stars spin up and helps a spinning top stay upright.",
+  "answerHtml": "<b><u>Angular momentum</u></b> (prompt on <u>L</u> or <u>momentum</u>; do not accept “linear momentum”)",
   "accept": [
     "angular momentum",
     "angular momenta",
@@ -17,7 +17,10 @@
     "moment of momentum"
   ],
   "prompt": [
-    "l"
+    "l",
+    "momentum",
+    "conservation of momentum",
+    "law of conservation of momentum"
   ],
   "reject": [
     "linear momentum",
@@ -62,7 +65,7 @@
       "r": "For 10 points, name this quantity, which equals moment of inertia times angular velocity and is symbolized L."
     },
     {
-      "p": "Tides slowly transfer this quantity from Earth’s spin to the Moon’s orbit, which is why Earth’s days are getting longer and the Moon drifts about four centimeters farther away each year. A spinning top or gyroscope resists tipping over because of this quantity.",
+      "p": "Tides slowly transfer this quantity from Earth’s spin to the Moon’s orbit, which is why Earth’s days are getting longer and the Moon drifts about 3.8 centimeters farther away each year. A spinning top or gyroscope resists tipping over because of this quantity.",
       "r": "Ice skaters spin faster when they pull in their arms because it is conserved. For 10 points, name this rotational quantity, symbolized L."
     },
     {
@@ -70,7 +73,7 @@
       "r": "For 10 points, name this rotational quantity, symbolized L, that equals moment of inertia times angular velocity."
     },
     {
-      "p": "When a giant star’s core collapses into a neutron star only about 20 kilometers across, conservation of this quantity makes the tiny star spin many times per second. A diver who tucks into a ball flips faster for the same reason.",
+      "p": "When a giant star’s core collapses into a neutron star only about 20 kilometers across, conservation of this quantity can make the tiny star spin many times per second. A diver who tucks into a ball flips faster for the same reason.",
       "r": "It is symbolized L. For 10 points, name this quantity, the product of moment of inertia and angular velocity."
     },
     {
@@ -82,8 +85,8 @@
       "r": "Figure skaters spin faster by pulling in their arms because it is conserved. For 10 points, name this rotational quantity, symbolized L."
     },
     {
-      "p": "Clebsch–Gordan [“KLEPSH GOR-dahn”] coefficients are used in quantum mechanics when two sources of this quantity, such as an electron’s orbit and its spin, are added together. A person sitting on a swivel stool who flips over a spinning bicycle wheel starts turning because this quantity is conserved.",
-      "r": "For 10 points, name this rotational quantity, equal to moment of inertia times angular velocity."
+      "p": "A child who walks from the middle of a freely spinning merry-go-round out to its edge makes it turn more slowly, because this quantity stays the same. A person sitting on a swivel stool who flips over a spinning bicycle wheel starts turning because this quantity is conserved.",
+      "r": "It is symbolized L. For 10 points, name this rotational quantity, equal to moment of inertia times angular velocity."
     },
     {
       "p": "Gravity’s torque on a tilted spinning top changes the direction of this quantity instead of knocking the top over, so the top’s axis slowly circles in a motion called precession. A football thrown in a tight spiral flies steadily because of this quantity.",
@@ -94,12 +97,12 @@
       "r": "For 10 points, name this rotational quantity, symbolized L, that stays constant when no outside torque acts on a system."
     },
     {
-      "p": "In the Einstein–de Haas effect, magnetizing a hanging iron cylinder makes it start to rotate, showing that the magnetism of electrons is tied to this quantity. In the absence of outside torques, this quantity is conserved.",
+      "p": "In the Einstein–de Haas effect, magnetizing a hanging iron cylinder makes it start to rotate, showing that the magnetism of electrons is tied to this quantity. Electrons carry a built-in form of this quantity called spin.",
       "r": "For 10 points, name this quantity whose conservation explains Kepler’s second law and why spinning skaters speed up."
     },
     {
-      "p": "Multiplying a torque by the time it acts gives the change in this quantity, an amount called angular impulse. For a rigid body turning about a fixed axis, this quantity equals the moment of inertia times the angular velocity.",
-      "r": "Its conservation makes a figure skater spin faster when she pulls in her arms. For 10 points, name this quantity, symbolized L."
+      "p": "Multiplying the torque on an object by the time it acts gives the change in this quantity. Earth moves fastest in its orbit in early January, when it is closest to the Sun, because this quantity stays the same.",
+      "r": "For a rigid body, it equals the moment of inertia times the angular velocity. For 10 points, name this quantity, symbolized L, whose conservation makes a figure skater spin faster."
     },
     {
       "p": "The no-hair theorem says a black hole can be described completely by just three numbers: its mass, its electric charge, and this quantity. A rotating Kerr black hole has some of this quantity, while a Schwarzschild [“SHVARTS-shilt”] black hole has none.",
@@ -307,7 +310,7 @@
     {
       "id": "moon-tides",
       "tier": "power",
-      "t": "Tides move it from Earth’s spin to the Moon’s orbit: days get longer and the Moon drifts about 4 cm farther away each year",
+      "t": "Tides move it from Earth’s spin to the Moon’s orbit: days get longer and the Moon drifts about 3.8 cm farther away each year",
       "k": [
         "tides",
         "moon",
@@ -336,13 +339,12 @@
       "n": 0
     },
     {
-      "id": "clebsch-gordan",
+      "id": "merry-go-round",
       "tier": "power",
-      "t": "Clebsch–Gordan coefficients add two sources of it (such as orbit and spin) in quantum mechanics",
+      "t": "A child walking from the middle of a spinning merry-go-round out to its edge makes it turn more slowly",
       "k": [
-        "clebsch",
-        "gordan",
-        "coefficients"
+        "merry-go-round",
+        "edge"
       ],
       "n": 0
     },
@@ -402,9 +404,9 @@
   ],
   "trap": {
     "title": "Angular, not linear",
-    "body": "Angular momentum (the spinning kind) and plain momentum (mass times velocity) are separate answer lines, and torque and moment of inertia show up in the same formulas. Saying just “momentum” is not enough here: say the whole answer, “angular momentum.” Noether’s theorem trips people up too: rotation symmetry gives angular momentum, while sameness everywhere in space gives ordinary momentum.",
+    "body": "Angular momentum (the spinning kind) and plain momentum (mass times velocity) are separate answer lines, and torque and moment of inertia show up in the same formulas. Saying just “momentum” only earns a prompt, so say the whole answer, “angular momentum.” Noether’s theorem trips people up too: rotation symmetry gives angular momentum, while sameness everywhere in space gives ordinary momentum.",
     "fix": "Spinning, orbiting, skaters pulling in their arms, Kepler’s equal areas, L, Iω, and h-bar mean angular momentum. Collisions, p = mv, impulse, and rockets mean ordinary (linear) momentum. A twisting force is torque; resistance to starting a spin is moment of inertia.",
-    "line": "Real answer line: <b><u>Angular momentum</u></b> (prompt on <u>L</u>; do not accept “linear momentum”)"
+    "line": "Real answer line: <b><u>Angular momentum</u></b> (prompt on <u>L</u> or <u>momentum</u>; do not accept “linear momentum”)"
   },
   "tests": {
     "right": [
@@ -416,10 +418,11 @@
       "the angular momentum"
     ],
     "prompt": [
-      "L"
+      "L",
+      "Momentum",
+      "Conservation of momentum"
     ],
     "wrong": [
-      "Momentum",
       "Linear momentum",
       "Torque",
       "Moment of inertia",

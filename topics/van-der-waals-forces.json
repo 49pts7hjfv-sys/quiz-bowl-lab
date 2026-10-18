@@ -7,7 +7,7 @@
   "kicker": "Weak attractions between molecules · How geckos climb walls",
   "dates": "Equation of state 1873; Nobel Prize 1910",
   "briefing": "Van der Waals forces are the weak, short-range attractions that pull neighboring molecules toward each other, even molecules with no electric charge at all. They are named for Johannes Diderik van der Waals, a Dutch physicist who won the 1910 Nobel Prize for improving the ideal gas law to account for them. Each one is tiny, but billions of them working together let a gecko walk straight up a glass window.",
-  "answerHtml": "<b><u>Van der Waals</u></b> forces (accept <u>van der Waals</u> interactions; prompt on <u>intermolecular forces</u> or London <u>dispersion</u> forces)",
+  "answerHtml": "<b><u>Van der Waals</u></b> forces (accept <u>van der Waals</u> interactions; prompt on <u>intermolecular forces</u>, London <u>dispersion</u> forces, or <u>dipole–dipole</u> forces)",
   "accept": [
     "van der waals forces",
     "van der waals force",
@@ -38,7 +38,12 @@
     "london forces",
     "london force",
     "keesom forces",
-    "debye forces"
+    "debye forces",
+    "dipole dipole forces",
+    "dipole dipole force",
+    "dipole dipole",
+    "dipole dipole interactions",
+    "dipole dipole attractions"
   ],
   "reject": [
     "hydrogen bonds",
@@ -50,10 +55,6 @@
     "covalent bond",
     "metallic bonds",
     "metallic bond",
-    "dipole dipole",
-    "dipole dipole forces",
-    "dipoles",
-    "dipole",
     "ion dipole",
     "van der waals equation",
     "van der waals radius",
@@ -87,16 +88,16 @@
   },
   "tossups": [
     {
-      "p": "Each toe of a gecko carries millions of tiny hairs called setae [“SEE-tee”], which split into even tinier tips called spatulae that press close enough to a surface for these forces to hold the gecko up, even on glass.",
-      "r": "For 10 points, name these weak attractions between molecules, named for a Dutch physicist."
+      "p": "A gecko’s toes are covered with huge numbers of tiny hairs called setae [“SEE-tee”], which split into even tinier tips called spatulae that press close enough to a surface for these forces to hold the gecko up, even on glass.",
+      "r": "These forces are generally weaker than hydrogen bonds. For 10 points, name these weak attractions between molecules, named for a Dutch physicist."
     },
     {
       "p": "An equation of state has a constant a that corrects for these forces and a constant b that corrects for the volume of the molecules themselves. That equation, an improvement on the ideal gas law, earned the namesake of these forces the 1910 Nobel Prize in Physics.",
       "r": "For 10 points, name these weak attractions between neutral molecules, which include London dispersion forces and help geckos climb."
     },
     {
-      "p": "In the Lennard-Jones potential, the attractive part of these forces falls off with the sixth power of the distance between two molecules, while a much steeper twelfth-power term describes how the molecules repel when pushed too close.",
-      "r": "For 10 points, name these weak, short-range attractions between molecules, named for the Dutch physicist who improved the ideal gas law."
+      "p": "In the Lennard-Jones potential, the energy of attraction from these forces depends on the inverse sixth power of the distance between two molecules, while a much steeper inverse twelfth-power term describes how the molecules repel when pushed too close.",
+      "r": "These forces hold the carbon sheets in graphite together. For 10 points, name these weak, short-range attractions between molecules, named for the Dutch physicist who improved the ideal gas law."
     },
     {
       "p": "Willem Keesom [“KAY-sum”] described the part of these forces between two permanent dipoles, while Peter Debye [“deh-BYE”] described the part between a permanent dipole and an induced dipole. Fritz London explained a third part, which acts even between nonpolar atoms.",
@@ -131,7 +132,7 @@
       "r": "For 10 points, name these weak intermolecular forces, which help geckos stick to walls."
     },
     {
-      "p": "Long, chain-shaped molecules such as octane feel stronger versions of these forces than tiny ones like methane, which is why octane is a liquid and methane is a gas at room temperature. These forces arise from temporary, shifting dipoles in electron clouds.",
+      "p": "Long, chain-shaped molecules such as octane feel stronger versions of these forces than tiny ones like methane, which is why octane is a liquid and methane is a gas at room temperature. Some of these forces arise from temporary, shifting dipoles in electron clouds.",
       "r": "For 10 points, name these weak attractions between molecules, which include London dispersion forces."
     },
     {
@@ -227,7 +228,7 @@
     {
       "id": "setae",
       "tier": "middle",
-      "t": "Gecko toes have millions of hairs called setae that split into tiny spatulae",
+      "t": "Gecko toes are covered with huge numbers of tiny hairs called setae that split into even tinier spatulae",
       "k": [
         "setae",
         "spatulae"
@@ -326,7 +327,7 @@
     {
       "id": "lennard-jones",
       "tier": "power",
-      "t": "In the Lennard-Jones potential, the attraction falls off with the sixth power of distance and the repulsion with the twelfth power",
+      "t": "In the Lennard-Jones potential, the attraction term depends on the inverse sixth power of distance and the repulsion term on the inverse twelfth power",
       "k": [
         "lennard-jones",
         "sixth power",
@@ -444,9 +445,9 @@
   ],
   "trap": {
     "title": "Not hydrogen bonds",
-    "body": "Tossups on these forces often mention hydrogen bonds, the stronger attraction that gives water its high boiling point, to tempt early buzzers. London dispersion forces are a special case: they are one kind of these forces, so naming only them may earn a prompt. Saying just “intermolecular forces” also earns a prompt, since that phrase covers hydrogen bonds too.",
+    "body": "Tossups on these forces often mention hydrogen bonds, the stronger attraction that gives water its high boiling point, to tempt early buzzers. London dispersion forces and dipole–dipole forces are special cases: each is one kind of these forces, so naming only one of them may earn a prompt. Saying just “intermolecular forces” also earns a prompt, since that phrase covers hydrogen bonds too.",
     "fix": "Geckos, graphite layers, the constants a and b, and a Dutch physicist’s 1910 Nobel Prize point here. Hydrogen bonds need a hydrogen atom attached to nitrogen, oxygen, or fluorine. If you are prompted, add the namesake’s name: “van der Waals.”",
-    "line": "Real answer line: <b><u>Van der Waals</u></b> forces (accept <u>van der Waals</u> interactions; prompt on <u>intermolecular forces</u> or London <u>dispersion</u> forces)"
+    "line": "Real answer line: <b><u>Van der Waals</u></b> forces (accept <u>van der Waals</u> interactions; prompt on <u>intermolecular forces</u>, London <u>dispersion</u> forces, or <u>dipole–dipole</u> forces)"
   },
   "tests": {
     "right": [
@@ -458,15 +459,17 @@
     ],
     "prompt": [
       "Intermolecular forces",
-      "London dispersion forces"
+      "London dispersion forces",
+      "Dipole-dipole forces"
     ],
     "wrong": [
       "Hydrogen bonds",
-      "Dipole-dipole forces",
       "Ionic bonds",
       "Van der Waals equation",
       "Covalent bonds",
-      "Gravity"
+      "Gravity",
+      "Metallic bonds",
+      "Dipoles"
     ]
   }
 }

@@ -27,7 +27,6 @@
     "amine",
     "amines",
     "amide",
-    "nitrogen",
     "hydrazine",
     "urea",
     "nitric acid",
@@ -64,7 +63,7 @@
       "r": "For 10 points, name this compound made from nitrogen and hydrogen in the Haber process."
     },
     {
-      "p": "Carl Bosch shared the 1931 Nobel Prize in Chemistry for high-pressure methods that let factories make this compound on a huge scale. Fritz Haber won the 1918 prize for first making this compound directly from the nitrogen in air.",
+      "p": "Carl Bosch shared the 1931 Nobel Prize in Chemistry for high-pressure methods that let factories make this compound on a huge scale. Fritz Haber won the 1918 prize for making this compound directly from its elements.",
       "r": "Most of this compound becomes fertilizer. For 10 points, name this pungent gas, whose molecules contain three hydrogen atoms."
     },
     {
@@ -96,11 +95,11 @@
       "r": "For 10 points, name this weak base that gains a proton to form the ammonium ion."
     },
     {
-      "p": "Tollens’ reagent, which coats a test tube with a silver mirror when it meets an aldehyde, is made by dissolving silver oxide in a solution of this compound. Organic compounds called amines are made by replacing one or more of this molecule’s hydrogen atoms with carbon groups.",
+      "p": "Tollens’ reagent, which coats a test tube with a silver mirror when it meets an aldehyde, is made by dissolving silver oxide in a solution of this compound. Organic compounds called amines can be thought of as this molecule with one or more of its hydrogen atoms replaced by carbon groups.",
       "r": "This compound is made on a huge scale by the Haber process. For 10 points, name this pungent gas."
     },
     {
-      "p": "This compound’s name traces back to the Egyptian god Amun, through the Latin name of a salt linked to one of his temples. Joseph Priestley first collected this gas in 1774, calling it “alkaline air.”",
+      "p": "This compound’s name traces back to the Egyptian god Amun, through the Latin name of a salt linked to one of his temples. Joseph Priestley collected this gas in the 1770s, calling it “alkaline air.”",
       "r": "For 10 points, name this gas whose molecules have one nitrogen atom bonded to three hydrogen atoms."
     },
     {
@@ -207,11 +206,11 @@
     {
       "id": "white-ring",
       "tier": "middle",
-      "t": "Meets HCl gas in a tube to make a white ring of ammonium chloride closer to the HCl end, showing Graham’s law",
+      "t": "Meets HCl gas in a tube to make a white ring of a chloride salt closer to the HCl end, showing Graham’s law",
       "k": [
         "white ring",
         "graham",
-        "ammonium chloride"
+        "chloride salt"
       ],
       "n": 0
     },
@@ -363,7 +362,7 @@
     {
       "id": "amines",
       "tier": "power",
-      "t": "Amines are made by swapping its hydrogen atoms for carbon groups",
+      "t": "Amines are versions of it with one or more hydrogen atoms swapped for carbon groups",
       "k": [
         "amines",
         "carbon groups"
@@ -384,11 +383,11 @@
     {
       "id": "priestley",
       "tier": "power",
-      "t": "Joseph Priestley first collected the gas in 1774 and called it “alkaline air”",
+      "t": "Joseph Priestley collected the gas in the 1770s and called it “alkaline air”",
       "k": [
         "priestley",
         "alkaline air",
-        "1774"
+        "1770s"
       ],
       "n": 0
     },

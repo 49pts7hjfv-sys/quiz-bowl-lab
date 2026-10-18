@@ -25,7 +25,6 @@
   ],
   "reject": [
     "sonic boom",
-    "frequency",
     "resonance",
     "interference",
     "beats",
@@ -60,7 +59,7 @@
       "r": "Police radar guns use it to measure the speed of cars. For 10 points, name this effect that makes an approaching siren sound higher in pitch."
     },
     {
-      "p": "The Ives–Stilwell experiment of 1938 measured light from fast-moving hydrogen ions to confirm the relativistic form of this effect, which includes a shift caused by time dilation. A star’s spectral lines move toward the blue end of the spectrum because of this effect when the star approaches Earth.",
+      "p": "This effect’s namesake, a physicist born in Salzburg, later taught physics at the University of Vienna, where his students included the future “father of genetics,” Gregor Mendel. A star’s spectral lines move toward the blue end of the spectrum because of this effect when the star approaches Earth.",
       "r": "For 10 points, name this effect in which the motion of a wave’s source changes the frequency an observer detects."
     },
     {
@@ -282,16 +281,16 @@
       "rabbit": "Exoplanets"
     },
     {
-      "id": "ives-stilwell",
+      "id": "mendel",
       "tier": "power",
-      "t": "The 1938 Ives–Stilwell experiment confirmed its relativistic form, which includes time dilation",
+      "t": "Its namesake, born in Salzburg, later taught physics at the University of Vienna to Gregor Mendel",
       "k": [
-        "ives",
-        "stilwell",
-        "relativistic",
-        "time dilation"
+        "salzburg",
+        "mendel",
+        "vienna"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Gregor Mendel"
     },
     {
       "id": "laser-cooling",

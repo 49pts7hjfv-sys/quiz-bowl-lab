@@ -7,7 +7,7 @@
   "kicker": "One organism hunts and eats another · Drives population cycles and arms races",
   "dates": "Modeled by Lotka and Volterra in the 1920s",
   "briefing": "Predation happens whenever one organism kills and eats another, from a cheetah sprinting after a gazelle to a ladybug munching aphids. Predators and prey are locked in an evolutionary race: hunters get faster, sneakier, or better at spotting food, while prey evolve camouflage, poisons, warning colors, and clever mimicry. When predators vanish, prey populations can explode and reshape a whole ecosystem, which is one reason wolves were brought back to Yellowstone in 1995.",
-  "answerHtml": "<b><u>Predation</u></b> (accept <u>predators</u>, <u>predator</u>–prey relationships, or <u>predatory</u> behavior; prompt on <u>hunting</u>; do not accept “parasitism” or “competition”)",
+  "answerHtml": "<b><u>Predation</u></b> (accept <u>predators</u>, <u>predator</u>–prey relationships, or <u>predatory</u> behavior; prompt on <u>hunting</u> or <u>carnivory</u>; do not accept “parasitism” or “competition”)",
   "accept": [
     "predation",
     "predators",
@@ -65,7 +65,7 @@
       "r": "A lion chasing a zebra is an example of this interaction. For 10 points, name this relationship in which one animal kills and eats another."
     },
     {
-      "p": "Since 1958, scientists have tracked wolves and moose on Isle Royale [“ROY-ul”], an island in Lake Superior, in the longest-running study of this interaction. In that study, the two animals’ populations have risen and fallen in response to each other.",
+      "p": "Since 1958, scientists have tracked wolves and moose on Isle Royale [“ROY-ul”], an island in Lake Superior, in the longest-running study of this interaction. In that study, the two animals’ populations have risen and fallen partly in response to each other.",
       "r": "For 10 points, name this ecological interaction in which wolves hunt, kill, and eat moose."
     },
     {
@@ -77,7 +77,7 @@
       "r": "For 10 points, name this interaction in which one organism, like a sea star or an otter, kills and eats another."
     },
     {
-      "p": "After wolves returned to Yellowstone National Park in 1995, scientists studied how fear of these animals changed where elk grazed, a possible “trophic cascade.” Orcas are called “apex” examples of these animals, since no other wild animals hunt adult orcas.",
+      "p": "After wolves returned to Yellowstone National Park in 1995, scientists studied whether fear of these animals changed where elk grazed, a possible “trophic cascade.” Orcas are called “apex” examples of these animals, since no other wild animals hunt adult orcas.",
       "r": "For 10 points, name these animals, such as lions and wolves, that hunt and kill other animals for food."
     },
     {
@@ -242,7 +242,7 @@
     {
       "id": "yellowstone",
       "tier": "middle",
-      "t": "Wolves were brought back to Yellowstone in 1995, changing how elk behaved",
+      "t": "Wolves were brought back to Yellowstone in 1995, and scientists study their effects on elk",
       "k": [
         "yellowstone",
         "1995",
@@ -264,7 +264,7 @@
     {
       "id": "gause",
       "tier": "power",
-      "t": "G. F. Gause’s _Didinium_ ate every _Paramecium_ in a tube and then starved, unless the prey had places to hide",
+      "t": "G. F. Gause’s _Didinium_ ate every _Paramecium_ in a tube and then starved; when the prey had a hiding place, some of them survived",
       "k": [
         "gause",
         "didinium",

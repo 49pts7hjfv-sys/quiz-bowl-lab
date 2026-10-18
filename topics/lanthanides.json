@@ -85,19 +85,19 @@
       "r": "For 10 points, name these 15 elements that, along with scandium and yttrium, make up the rare earth elements."
     },
     {
-      "p": "In 1984, General Motors and Sumitomo announced super-strong permanent magnets made of iron, boron, and neodymium, a member of this series. Magnets made with samarium, another member of this series, mixed with cobalt, keep working at even higher temperatures.",
+      "p": "In the early 1980s, General Motors and Sumitomo separately developed super-strong permanent magnets made of iron, boron, and neodymium, a member of this series. Magnets made with samarium, another member of this series, mixed with cobalt, keep working at even higher temperatures.",
       "r": "For 10 points, name this series of 15 elements, running from atomic number 57 to 71."
     },
     {
       "p": "The only member of this series with no stable isotopes was first identified in 1945 in uranium fission products at Oak Ridge, and it was named for the Titan who stole fire from the gods.",
-      "r": "For 10 points, name this series of rare earth elements that sits in its own row below the main periodic table, above the actinides."
+      "r": "Neodymium, another member, makes the strongest permanent magnets. For 10 points, name this series of rare earth elements that sits in its own row below the main periodic table, above the actinides."
     },
     {
       "p": "In 1794, the Finnish chemist Johan Gadolin found a new “earth,” or oxide, containing the element yttrium, and a member of this series is named for him. That member, gadolinium, whose ion has seven unpaired electrons, is injected into patients as a contrast agent to make MRI images clearer.",
       "r": "For 10 points, name this series of 15 metals, from element 57 to element 71, often called rare earths."
     },
     {
-      "p": "Red phosphors in old color TV screens and glowing anti-counterfeiting marks on euro banknotes use europium, a member of this series. Erbium, another member, boosts the light signals that carry internet data through fiber-optic cables.",
+      "p": "Red phosphors in old color TV screens use europium, a member of this series, which is reportedly also in the glowing anti-counterfeiting marks on euro banknotes. Erbium, another member, boosts the light signals that carry internet data through fiber-optic cables.",
       "r": "For 10 points, name this series of f-block metals named for its first member, element 57."
     },
     {
@@ -113,12 +113,12 @@
       "r": "For 10 points, name this series of elements numbered 57 through 71, often called rare earth metals."
     },
     {
-      "p": "Monazite [“MON-uh-zite”] and bastnäsite [“BAST-nuh-site”] are the main ores of these metals, and the Bayan Obo mine in Inner Mongolia holds the largest known deposit of them. China produces most of the world’s supply of these elements.",
+      "p": "Monazite [“MON-uh-zite”] and bastnäsite [“BAST-nuh-site”] are the main ores of these metals, and the Bayan Obo mine in Inner Mongolia holds the largest known deposit of them. By the 2000s, China was mining most of the world’s supply of these elements.",
       "r": "For 10 points, name these elements, numbers 57 through 71, which include the neodymium used in magnets for electric car motors."
     },
     {
       "p": "Because members of this series behave so alike chemically, chemists once needed thousands of slow crystallization steps to separate them, until Frank Spedding’s team at Iowa State developed ion-exchange methods in the 1940s.",
-      "r": "For 10 points, name this series of rare earth elements that sits below the main periodic table, just above the actinides."
+      "r": "Cerium is the most abundant member of this series. For 10 points, name this series of rare earth elements that sits below the main periodic table, just above the actinides."
     },
     {
       "p": "One member of this series was named in 1803 for Ceres, which had been discovered two years earlier and is classified as a dwarf planet. An alloy rich in that member, mixed with iron, makes the flints that throw sparks in lighters and camping fire starters.",
@@ -275,7 +275,7 @@
     {
       "id": "china",
       "tier": "middle",
-      "t": "China produces most of the world’s supply, much of it from Bayan Obo in Inner Mongolia; the main ores are monazite and bastnäsite",
+      "t": "By the 2000s, China mined most of the world’s supply, much of it from Bayan Obo in Inner Mongolia; the main ores are monazite and bastnäsite",
       "k": [
         "china",
         "bayan obo",
@@ -341,19 +341,19 @@
     {
       "id": "gm-sumitomo",
       "tier": "power",
-      "t": "General Motors and Sumitomo announced neodymium–iron–boron magnets in 1984",
+      "t": "General Motors and Sumitomo separately developed neodymium–iron–boron magnets in the early 1980s",
       "k": [
         "sumitomo",
         "general motors",
         "boron",
-        "1984"
+        "early 1980s"
       ],
       "n": 0
     },
     {
       "id": "europium",
       "tier": "power",
-      "t": "Europium makes red phosphors in old TV screens and glows in euro banknote security marks",
+      "t": "Europium makes red phosphors in old TV screens and reportedly glows in euro banknote security marks",
       "k": [
         "europium",
         "red phosphors",
