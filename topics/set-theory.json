@@ -1,0 +1,467 @@
+{
+  "id": "set-theory",
+  "name": "Set theory",
+  "mono": "ZFC",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "The math of collections · Venn diagrams and sizes of infinity",
+  "dates": "Founded by Georg Cantor, 1874",
+  "briefing": "Set theory is the math of collections, called sets: the counting numbers, the letters of the alphabet, or the players on a Quiz Bowl team. Venn diagrams use overlapping circles to show which members two sets share. In the 1870s, Georg Cantor used sets to make a startling discovery: some infinities are bigger than others, so there are more real numbers than counting numbers. Set theory became the foundation on which almost all of modern math is built.",
+  "answerHtml": "<b><u>set</u></b> theory (accept <u>set</u>s; prompt on <u>logic</u> or <u>mathematical logic</u>)",
+  "accept": [
+    "set theory",
+    "sets",
+    "set",
+    "theory of sets",
+    "mathematical sets",
+    "mathematical set"
+  ],
+  "prompt": [
+    "logic",
+    "mathematical logic",
+    "foundations of mathematics"
+  ],
+  "reject": [
+    "subset",
+    "subsets",
+    "power set",
+    "power sets",
+    "empty set",
+    "empty sets",
+    "null set",
+    "cantor set",
+    "infinite set",
+    "infinite sets",
+    "venn diagram",
+    "venn diagrams",
+    "venn",
+    "john venn",
+    "georg cantor",
+    "cantor",
+    "infinity",
+    "aleph null",
+    "aleph",
+    "continuum hypothesis",
+    "axiom of choice",
+    "russells paradox",
+    "bertrand russell",
+    "union",
+    "intersection",
+    "group theory",
+    "graph theory",
+    "number theory",
+    "category theory",
+    "boolean algebra",
+    "probability",
+    "real numbers"
+  ],
+  "tests": {
+    "right": [
+      "set theory",
+      "sets",
+      "set",
+      "Set Thoery",
+      "naive set theory"
+    ],
+    "prompt": [
+      "logic",
+      "mathematical logic"
+    ],
+    "wrong": [
+      "group theory",
+      "graph theory",
+      "Venn diagrams",
+      "Georg Cantor",
+      "empty set",
+      "power set",
+      "infinity"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Set_theory",
+  "qb": {
+    "q": "set theory",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "André Weil [“VAY”] chose the symbol for the empty example of these collections in 1939, borrowing the slashed letter Ø from the Norwegian alphabet. That empty one counts as a part of every such collection, and a collection with n members has 2 to the n sub-collections in all.",
+      "r": "For 10 points, name these collections of objects, which are written with curly braces and drawn as overlapping circles in Venn diagrams."
+    },
+    {
+      "p": "Giuseppe Peano [“pay-AH-noh”] introduced a symbol based on the Greek letter epsilon in 1889 to mean “is a member of” one of these collections. The number of members of one of these is called its cardinality, and the one with no members at all is called empty.",
+      "r": "The union of two of these joins their members, while their intersection keeps only shared members. For 10 points, name these collections."
+    },
+    {
+      "p": "Ernst Zermelo [“tsair-MAY-loh”] published axioms for this branch of math in 1908, and Abraham Fraenkel [“FRENG-kul”] later improved them; with the axiom of choice added, the system is called ZFC. Mathematicians treat ZFC as the foundation on which nearly all of mathematics can be built.",
+      "r": "Georg Cantor founded this branch of math, which uses Venn diagrams to picture collections. For 10 points, name this field that studies collections of objects."
+    },
+    {
+      "p": "Using the axiom of choice, Stefan Banach [“BAH-nahk”] and Alfred Tarski proved in 1924 that a solid ball can be cut into finitely many pieces and reassembled into two balls, each the same size as the original. That axiom says you can always pick a member from each of any number of nonempty collections.",
+      "r": "Venn diagrams picture its unions and intersections. For 10 points, name this branch of math that studies collections of objects, founded by Georg Cantor."
+    },
+    {
+      "p": "Kurt Gödel [“GUR-dul”] showed in 1940 that the continuum hypothesis cannot be disproved from the standard axioms of this field, and Paul Cohen invented a method called forcing to show in 1963 that it cannot be proved either. Cohen won a Fields Medal in 1966 for that work.",
+      "r": "For 10 points, name this branch of math, founded by Georg Cantor, that studies collections and shows some infinities are bigger than others."
+    },
+    {
+      "p": "In 1902, Bertrand Russell sent Gottlob Frege [“FRAY-guh”] a letter about a paradox just as the second volume of Frege’s _Basic Laws of Arithmetic_ was going to press. That paradox asks whether the collection of all collections that are not members of themselves is a member of itself.",
+      "r": "A popular version imagines a barber who shaves exactly the men who don’t shave themselves. For 10 points, name this branch of math, pictured with Venn diagrams."
+    },
+    {
+      "p": "Leopold Kronecker [“KROH-neck-er”] fiercely opposed the founder of this field, but David Hilbert declared that no one would expel mathematicians from the “paradise” that founder had created. In this field, two collections have the same size if their members can be paired off one-to-one.",
+      "r": "That founder, Georg Cantor, showed that some infinities are bigger than others. For 10 points, name this branch of math that studies collections."
+    },
+    {
+      "p": "In his 1638 book _Two New Sciences_, Galileo noticed that the perfect squares 1, 4, 9, 16, and so on can be paired with all the counting numbers, even though most counting numbers are not squares. This field later defined two infinite collections to be the same size whenever such a pairing exists.",
+      "r": "Georg Cantor founded this field in the 1870s. For 10 points, name this branch of math, which pictures collections with Venn diagrams."
+    },
+    {
+      "p": "Removing the middle third of a line segment, then the middle thirds of the pieces that remain, and so on forever, leaves a fractal “dust” that has zero total length but still contains uncountably many points. That fractal is named for the founder of this branch of math.",
+      "r": "That founder was Georg Cantor. For 10 points, name this branch of math whose Venn diagrams show unions and intersections of collections."
+    },
+    {
+      "p": "John von Neumann [“NOY-mahn”] built the counting numbers out of nothing: 0 is the empty collection, 1 is the collection containing 0, 2 is the collection containing 0 and 1, and so on. In this field, the size of a collection is called its cardinality.",
+      "r": "For 10 points, name this branch of math, founded by Georg Cantor, that studies collections such as {1, 2, 3}, which has 8 sub-collections."
+    },
+    {
+      "p": "Ernst Schröder [“SHRUR-der”] and Felix Bernstein name a theorem saying that if each of two collections can be matched one-to-one with part of the other, then the two collections are the same size. In this field, the counting numbers, the integers, and the fractions all turn out to be the same size.",
+      "r": "Its union and intersection operations combine collections. For 10 points, name this branch of math, founded by Georg Cantor, that uses Venn diagrams."
+    },
+    {
+      "p": "After proving in 1877 that a square contains no more points than a line segment, this field’s founder wrote to Richard Dedekind [“DAY-duh-kint”], “I see it, but I don’t believe it!” That founder also used a diagonal argument to show that the real numbers can never be fully listed.",
+      "r": "For 10 points, name this branch of math founded by Georg Cantor, which studies collections drawn in Venn diagrams."
+    },
+    {
+      "p": "In Hilbert’s Hotel, which has infinitely many rooms and no vacancies, a new guest can still get a room if every guest moves from room n to room n plus 1. That thought experiment shows that an infinite collection can be matched one-to-one with a part of itself.",
+      "r": "John Venn’s overlapping-circle diagrams, introduced in 1880, picture its collections. For 10 points, name this branch of math, founded by Georg Cantor."
+    },
+    {
+      "p": "A diagonal argument shows that any list of real numbers must leave some out, by building a new number that differs from the first number in its first digit, from the second in its second digit, and so on. The size of the counting numbers is written aleph-null, using the first letter of the Hebrew alphabet.",
+      "r": "Georg Cantor used these ideas to show some infinities are bigger than others. For 10 points, name this branch of math."
+    },
+    {
+      "p": "The axiom of extensionality says that two of these collections are equal exactly when they have the same members, so the collection containing 1 and 2 is the same as the collection containing 2, 1, and 1 again. Order and repetition do not matter in these collections.",
+      "r": "De Morgan’s laws connect their unions, intersections, and complements. For 10 points, name these collections, often drawn as circles in Venn diagrams."
+    }
+  ],
+  "clues": [
+    {
+      "id": "collections",
+      "tier": "giveaway",
+      "t": "Studies collections of distinct objects, called elements or members, written in curly braces like {1, 2, 3}",
+      "k": [
+        "collections",
+        "curly braces",
+        "elements",
+        "members"
+      ],
+      "n": 0
+    },
+    {
+      "id": "venn",
+      "tier": "giveaway",
+      "t": "Venn diagrams use overlapping circles to show which members two of these collections share",
+      "k": [
+        "venn diagrams",
+        "overlapping circles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cantor",
+      "tier": "giveaway",
+      "t": "Founded by Georg Cantor in the 1870s, who showed that some infinities are bigger than others",
+      "k": [
+        "georg cantor",
+        "1870s",
+        "bigger than others"
+      ],
+      "n": 0,
+      "rabbit": "Georg Cantor"
+    },
+    {
+      "id": "union-intersection",
+      "tier": "giveaway",
+      "t": "The union (∪) of two of them joins all their members; the intersection (∩) keeps only the shared members",
+      "k": [
+        "union",
+        "intersection"
+      ],
+      "n": 0
+    },
+    {
+      "id": "empty",
+      "tier": "middle",
+      "t": "The empty one has no members and is written ∅ or {}; it counts as a part of every collection",
+      "k": [
+        "empty",
+        "no members"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cardinality",
+      "tier": "middle",
+      "t": "The number of members of one of them is called its cardinality",
+      "k": [
+        "cardinality",
+        "number of members"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sub-collections",
+      "tier": "middle",
+      "t": "A collection with n members has 2^n sub-collections ({1, 2, 3} has 8); Cantor proved the collection of all sub-collections is always bigger than the original",
+      "k": [
+        "sub-collections",
+        "cantor’s theorem",
+        "always bigger"
+      ],
+      "n": 0
+    },
+    {
+      "id": "countable",
+      "tier": "middle",
+      "t": "Two collections are the same size if their members pair off one-to-one; the counting numbers, integers, and fractions are all the same size (countably infinite)",
+      "k": [
+        "one-to-one",
+        "countably infinite",
+        "pair off"
+      ],
+      "n": 0,
+      "rabbit": "Infinity"
+    },
+    {
+      "id": "diagonal",
+      "tier": "middle",
+      "t": "Cantor’s diagonal argument (1891) proved that no list can include every real number, so the real numbers are uncountable",
+      "k": [
+        "diagonal argument",
+        "uncountable",
+        "1891"
+      ],
+      "n": 0,
+      "rabbit": "Real numbers"
+    },
+    {
+      "id": "aleph-null",
+      "tier": "middle",
+      "t": "The size of the counting numbers is called aleph-null (ℵ₀), after the first letter of the Hebrew alphabet",
+      "k": [
+        "aleph-null",
+        "hebrew"
+      ],
+      "n": 0
+    },
+    {
+      "id": "russell",
+      "tier": "middle",
+      "t": "Russell’s paradox: does the collection of all collections that are not members of themselves contain itself? The barber who shaves exactly the men who don’t shave themselves is a version",
+      "k": [
+        "russell’s paradox",
+        "barber",
+        "members of themselves"
+      ],
+      "n": 0,
+      "rabbit": "Bertrand Russell"
+    },
+    {
+      "id": "de-morgan",
+      "tier": "middle",
+      "t": "De Morgan’s laws: outside a union is the overlap of the two outsides, and outside an intersection is the union of the two outsides",
+      "k": [
+        "de morgan",
+        "outside"
+      ],
+      "n": 0
+    },
+    {
+      "id": "euler-venn",
+      "tier": "middle",
+      "t": "John Venn introduced his overlapping-circle diagrams in 1880; Leonhard Euler had drawn similar circle diagrams for logic long before",
+      "k": [
+        "john venn",
+        "1880",
+        "euler"
+      ],
+      "n": 0,
+      "rabbit": "Leonhard Euler"
+    },
+    {
+      "id": "weil",
+      "tier": "power",
+      "t": "André Weil chose the symbol ∅ for the empty one in 1939, borrowing the letter Ø from the Norwegian alphabet",
+      "k": [
+        "andré weil",
+        "1939",
+        "norwegian"
+      ],
+      "n": 0
+    },
+    {
+      "id": "peano",
+      "tier": "power",
+      "t": "Giuseppe Peano introduced a symbol based on the Greek epsilon (now ∈) in 1889 to mean “is a member of”",
+      "k": [
+        "peano",
+        "1889",
+        "epsilon",
+        "is a member of"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zfc",
+      "tier": "power",
+      "t": "Ernst Zermelo’s 1908 axioms, improved by Abraham Fraenkel, plus the axiom of choice form ZFC, the standard foundation of math",
+      "k": [
+        "zermelo",
+        "fraenkel",
+        "zfc",
+        "1908"
+      ],
+      "n": 0
+    },
+    {
+      "id": "banach-tarski",
+      "tier": "power",
+      "t": "Banach–Tarski paradox (1924): with the axiom of choice, a ball can be cut into finitely many pieces and rebuilt into two balls of the original size",
+      "k": [
+        "banach–tarski",
+        "banach",
+        "axiom of choice",
+        "two balls"
+      ],
+      "n": 0
+    },
+    {
+      "id": "continuum",
+      "tier": "power",
+      "t": "The continuum hypothesis (Hilbert’s first problem) can’t be disproved (Gödel, 1940) or proved (Paul Cohen’s forcing, 1963) from the usual axioms; Cohen won a 1966 Fields Medal",
+      "k": [
+        "continuum hypothesis",
+        "paul cohen",
+        "forcing",
+        "1966"
+      ],
+      "n": 0,
+      "rabbit": "David Hilbert"
+    },
+    {
+      "id": "frege",
+      "tier": "power",
+      "t": "Russell’s 1902 letter about his paradox reached Gottlob Frege just as volume 2 of Frege’s _Basic Laws of Arithmetic_ was going to press",
+      "k": [
+        "frege",
+        "1902",
+        "letter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kronecker",
+      "tier": "power",
+      "t": "Leopold Kronecker fiercely opposed Cantor; David Hilbert defended him: “No one shall expel us from the paradise that Cantor has created”",
+      "k": [
+        "kronecker",
+        "paradise",
+        "expel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galileo",
+      "tier": "power",
+      "t": "Galileo’s paradox (_Two New Sciences_, 1638): the perfect squares can be paired with all the counting numbers",
+      "k": [
+        "galileo",
+        "1638",
+        "perfect squares"
+      ],
+      "n": 0,
+      "rabbit": "Galileo Galilei"
+    },
+    {
+      "id": "cantor-dust",
+      "tier": "power",
+      "t": "Cantor’s middle-thirds fractal: keep removing middle thirds of a segment to get a “dust” with zero length but uncountably many points",
+      "k": [
+        "middle thirds",
+        "fractal",
+        "zero length"
+      ],
+      "n": 0,
+      "rabbit": "Fractals"
+    },
+    {
+      "id": "von-neumann",
+      "tier": "power",
+      "t": "John von Neumann built the counting numbers from the empty collection: 0 = {}, 1 = {0}, 2 = {0, 1}, and so on",
+      "k": [
+        "von neumann",
+        "counting numbers",
+        "empty collection"
+      ],
+      "n": 0
+    },
+    {
+      "id": "schroder-bernstein",
+      "tier": "power",
+      "t": "Schröder–Bernstein theorem: if each of two collections matches one-to-one with part of the other, they are the same size",
+      "k": [
+        "schröder",
+        "bernstein",
+        "same size"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dedekind",
+      "tier": "power",
+      "t": "After proving (1877) that a square has no more points than a line segment, Cantor wrote to Richard Dedekind, “I see it, but I don’t believe it!”",
+      "k": [
+        "dedekind",
+        "1877",
+        "i see it"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hotel",
+      "tier": "power",
+      "t": "Hilbert’s Hotel: a full hotel with infinitely many rooms still fits a new guest, since an infinite collection can match one-to-one with part of itself",
+      "k": [
+        "hilbert’s hotel",
+        "hotel",
+        "new guest"
+      ],
+      "n": 0,
+      "rabbit": "David Hilbert"
+    },
+    {
+      "id": "extensionality",
+      "tier": "power",
+      "t": "Axiom of extensionality: two collections are equal exactly when they have the same members, so order and repetition don’t matter",
+      "k": [
+        "extensionality",
+        "order and repetition",
+        "same members"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Field, founder, or diagram?",
+    "body": "Set theory tossups lean on Georg Cantor, Venn diagrams, and infinity, and each of those is also its own answer line. If the question asks for “this branch of math” or “these collections,” saying “Cantor” or “Venn diagrams” loses the tossup, and so does a too-specific answer like “empty set” or “power set.” Questions about logic can also bring up Russell’s paradox, so listen for what is being asked.",
+    "fix": "Listen for the noun: “this branch of math,” “this field,” or “these collections” means set theory (or sets). “This man” means Cantor or Venn, and “this concept” may mean infinity. Singular “set” and plural “sets” are both fine.",
+    "line": "Real answer line: <b><u>set</u></b> theory (accept <u>set</u>s; prompt on <u>logic</u> or <u>mathematical logic</u>)"
+  }
+}

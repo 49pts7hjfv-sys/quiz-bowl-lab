@@ -128,7 +128,7 @@ data = {
             "r": "For 10 points, name this branch of math, founded by Georg Cantor, that studies collections and shows some infinities are bigger than others.",
         },
         {
-            "p": "In 1902, Bertrand Russell sent Gottlob Frege [“FRAY-guh”] a letter about a paradox just as the second volume of Frege’s book on the foundations of arithmetic was going to press. That paradox asks whether the collection of all collections that are not members of themselves is a member of itself.",
+            "p": "In 1902, Bertrand Russell sent Gottlob Frege [“FRAY-guh”] a letter about a paradox just as the second volume of Frege’s _Basic Laws of Arithmetic_ was going to press. That paradox asks whether the collection of all collections that are not members of themselves is a member of itself.",
             "r": "A popular version imagines a barber who shaves exactly the men who don’t shave themselves. For 10 points, name this branch of math, pictured with Venn diagrams.",
         },
         {
@@ -230,7 +230,7 @@ data = {
          "k": ["continuum hypothesis", "paul cohen", "forcing", "1966"], "n": 0,
          "rabbit": "David Hilbert"},
         {"id": "frege", "tier": "power",
-         "t": "Russell’s 1902 letter about his paradox reached Gottlob Frege just as Frege’s book on the foundations of arithmetic was going to press",
+         "t": "Russell’s 1902 letter about his paradox reached Gottlob Frege just as volume 2 of Frege’s _Basic Laws of Arithmetic_ was going to press",
          "k": ["frege", "1902", "letter"], "n": 0},
         {"id": "kronecker", "tier": "power",
          "t": "Leopold Kronecker fiercely opposed Cantor; David Hilbert defended him: “No one shall expel us from the paradise that Cantor has created”",

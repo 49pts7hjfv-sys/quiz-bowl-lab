@@ -1,0 +1,452 @@
+{
+  "id": "species",
+  "name": "Species",
+  "mono": "SPP",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Basic unit of classification · Members can interbreed and have fertile young",
+  "dates": "Two-part names became standard with Linnaeus in 1753",
+  "briefing": "A species is a group of living things so alike that they can mate and have young that can someday have young of their own. Lions are one species and tigers another, and while a horse and a donkey can produce a mule, mules are almost always sterile. Since Carl Linnaeus in the 1700s, every species gets a two-part Latin name, like Homo sapiens for humans: first the genus, then a second word for the species.",
+  "answerHtml": "<b><u>Species</u></b> (accept <u>biological species</u>; prompt on <u>taxon</u>; do not accept “genus” or “speciation”)",
+  "accept": [
+    "species",
+    "biological species",
+    "species level",
+    "species rank"
+  ],
+  "prompt": [
+    "taxon",
+    "taxa",
+    "taxonomic rank",
+    "taxonomic group"
+  ],
+  "reject": [
+    "speciation",
+    "subspecies",
+    "genus",
+    "genera",
+    "family",
+    "order",
+    "class",
+    "phylum",
+    "kingdom",
+    "domain",
+    "breed",
+    "breeds",
+    "variety",
+    "varieties",
+    "population",
+    "populations",
+    "strain",
+    "strains",
+    "hybrid",
+    "hybrids",
+    "origin of species",
+    "on the origin of species",
+    "endangered species act",
+    "keystone species",
+    "invasive species",
+    "indicator species",
+    "specific epithet",
+    "spices",
+    "spice"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Species",
+  "qb": {
+    "q": "species",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Ernst Mayr’s 1942 definition of this term describes groups of populations that actually or potentially interbreed and are reproductively isolated from other such groups. That “biological” concept of this term does not work well for organisms that reproduce without mating, such as bacteria.",
+      "r": "Members of one of these groups can mate and produce fertile offspring. For 10 points, name this basic rank of classification, which comes just below genus."
+    },
+    {
+      "p": "Ensatina [“en-suh-TEE-nuh”] salamanders form a “ring” of populations around California’s Central Valley in which neighbors can interbreed, but the two ends of the ring, which meet in southern California, rarely do. That pattern makes it hard to decide where one of these groups ends and the next begins.",
+      "r": "For 10 points, name this taxonomic rank, just below genus, whose members can mate and have fertile young."
+    },
+    {
+      "p": "Hybrid sterility is a postzygotic [“post-zye-GOT-ik”] barrier that keeps two of these groups separate even when they mate and produce offspring. Because the mules born to horses and donkeys are almost always sterile, horses and donkeys count as two different examples of this rank.",
+      "r": "For 10 points, name this basic unit of biological classification, whose members can breed and have fertile young."
+    },
+    {
+      "p": "Prezygotic [“pree-zye-GOT-ik”] barriers, such as different mating seasons or different courtship displays, can stop two of these groups from interbreeding before an egg is ever fertilized. Eastern and Western meadowlarks look almost alike but are separate examples of this rank, partly because they sing different songs.",
+      "r": "For 10 points, name this rank of classification, below genus, given by the two words of a scientific name like Homo sapiens."
+    },
+    {
+      "p": "A single preserved specimen called a holotype [“HOL-oh-type”] serves as the official reference for the scientific name of one of these groups. A scientist who discovers a new one of these groups must publish a formal description of it along with a Latin-style name.",
+      "r": "For 10 points, name this basic unit of classification, whose members can interbreed, named with a genus plus a second word."
+    },
+    {
+      "p": "In a 1753 book on plants, Carl Linnaeus made it standard to name each of these groups with two Latin words: a capitalized genus followed by a lowercase “specific epithet.” That naming system, whose names are printed in italics, is called binomial nomenclature.",
+      "r": "For 10 points, name this most specific basic rank of classification, such as Homo sapiens for humans."
+    },
+    {
+      "p": "A 2011 study estimated that Earth holds about 8.7 million of these groups of organisms whose cells have a nucleus, most of which have never been described. Beetles have more named examples of this rank than any other order of animals.",
+      "r": "For 10 points, name this basic unit of classification, whose members can mate and have fertile offspring."
+    },
+    {
+      "p": "Harris’s antelope squirrel lives south of the Grand Canyon, while the closely related white-tailed antelope squirrel lives north of it, a classic case of a barrier splitting a population into two of these groups. That kind of split, caused by geographic separation, is called “allopatric” [“al-oh-PAT-rik”].",
+      "r": "New ones form through a process called speciation. For 10 points, name this basic unit of classification just below genus."
+    },
+    {
+      "p": "A 1973 law signed by Richard Nixon protects threatened and endangered examples of this rank in the United States, and the bald eagle was taken off that law’s list in 2007 after its numbers recovered. The California condor is among the groups protected by that law.",
+      "r": "For 10 points, name this basic unit of classification, whose members can interbreed and produce fertile offspring."
+    },
+    {
+      "p": "Ecologist Robert Paine removed Pisaster [“pih-ZAS-ter”] sea stars from tide pools and found that mussels took over, showing that some of these groups have an outsized effect on their ecosystems. Paine called such a group a “keystone,” after the center stone that holds up an arch.",
+      "r": "For 10 points, name this basic unit of classification, named by the two words of a scientific name like Tyrannosaurus rex."
+    },
+    {
+      "p": "Under the phylogenetic [“fye-loh-juh-NET-ik”] concept of this term, one of these groups is the smallest set of organisms that share a common ancestor and can be told apart from all others. Because biologists use many competing definitions of this term, their debate is called this term’s “problem.”",
+      "r": "For 10 points, name this basic rank of classification, whose members can usually mate and have fertile young."
+    },
+    {
+      "p": "Martha, the last known passenger pigeon, died at the Cincinnati Zoo in 1914, and with her, that group at this level of classification was gone forever. The dodo of the island of Mauritius is another example of this rank that has gone extinct.",
+      "r": "In the memory aid “King Philip Came Over For Good Soup,” this rank is the “Soup.” For 10 points, name this most specific basic rank in taxonomy."
+    },
+    {
+      "p": "In an 1855 paper written in Sarawak on the island of Borneo, Alfred Russel Wallace argued that each new one of these groups appears near a closely related one that already exists.",
+      "r": "Four years later, Charles Darwin published a book explaining how these groups originate. For 10 points, name this basic unit of classification whose members can interbreed."
+    },
+    {
+      "p": "The tenth edition of Carl Linnaeus’s _Systema Naturae_, published in 1758, is the official starting point for scientific names of animals at this rank, including Homo sapiens, which means “wise man.”",
+      "r": "This rank sits just below genus. For 10 points, name this rank whose members can interbreed and have fertile young."
+    },
+    {
+      "p": "Lions and tigers can produce hybrid cubs called ligers in zoos, but the two cats do not interbreed in the wild, so they remain separate examples of this rank. Polar bears and grizzly bears, though, have occasionally had hybrid cubs in the wild.",
+      "r": "For 10 points, name this basic unit of classification, whose members can interbreed and have fertile young."
+    }
+  ],
+  "clues": [
+    {
+      "id": "fertile-offspring",
+      "tier": "giveaway",
+      "t": "A group whose members can mate and produce fertile offspring",
+      "k": [
+        "fertile offspring",
+        "mate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "below-genus",
+      "tier": "giveaway",
+      "t": "The most specific basic rank in taxonomy, just below genus",
+      "k": [
+        "genus",
+        "most specific",
+        "taxonomy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-part-name",
+      "tier": "giveaway",
+      "t": "Its scientific name has two parts, a genus and a second word, as in Homo sapiens for humans",
+      "k": [
+        "two parts",
+        "homo sapiens"
+      ],
+      "n": 0
+    },
+    {
+      "id": "soup",
+      "tier": "giveaway",
+      "t": "The “Soup” in the memory aid “King Philip Came Over For Good Soup”",
+      "k": [
+        "king philip",
+        "soup"
+      ],
+      "n": 0
+    },
+    {
+      "id": "darwin",
+      "tier": "giveaway",
+      "t": "Charles Darwin’s 1859 book explained how these groups originate",
+      "k": [
+        "darwin",
+        "1859",
+        "originate"
+      ],
+      "n": 0,
+      "rabbit": "Charles Darwin"
+    },
+    {
+      "id": "mules",
+      "tier": "middle",
+      "t": "Horses and donkeys make mules that are almost always sterile, so they are separate groups at this rank",
+      "k": [
+        "mules",
+        "sterile",
+        "donkeys"
+      ],
+      "n": 0
+    },
+    {
+      "id": "binomial-nomenclature",
+      "tier": "middle",
+      "t": "Two-part naming is called binomial nomenclature; the genus is capitalized and the whole name is italicized",
+      "k": [
+        "binomial nomenclature",
+        "italicized"
+      ],
+      "n": 0
+    },
+    {
+      "id": "linnaeus",
+      "tier": "middle",
+      "t": "Carl Linnaeus made two-word Latin names standard in a 1753 book on plants",
+      "k": [
+        "linnaeus",
+        "1753"
+      ],
+      "n": 0
+    },
+    {
+      "id": "speciation",
+      "tier": "middle",
+      "t": "New ones form through a process called speciation",
+      "k": [
+        "speciation"
+      ],
+      "n": 0,
+      "rabbit": "Speciation"
+    },
+    {
+      "id": "reproductive-isolation",
+      "tier": "middle",
+      "t": "Kept apart by reproductive isolation: prezygotic barriers before fertilization and postzygotic barriers after",
+      "k": [
+        "reproductive isolation",
+        "prezygotic",
+        "postzygotic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abbreviation",
+      "tier": "middle",
+      "t": "Abbreviated “sp.” for one and “spp.” for several",
+      "k": [
+        "abbreviated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "extinct",
+      "tier": "middle",
+      "t": "The dodo of Mauritius is one extinct example",
+      "k": [
+        "dodo",
+        "mauritius",
+        "extinct"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ligers",
+      "tier": "middle",
+      "t": "Lions and tigers can produce ligers in zoos but stay separate because they don’t interbreed in the wild",
+      "k": [
+        "ligers",
+        "lions",
+        "tigers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meadowlarks",
+      "tier": "middle",
+      "t": "Eastern and Western meadowlarks look alike but are separate, partly because they sing different songs",
+      "k": [
+        "meadowlarks",
+        "songs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "law-1973",
+      "tier": "middle",
+      "t": "A 1973 U.S. law signed by Richard Nixon protects endangered ones",
+      "k": [
+        "1973",
+        "nixon",
+        "endangered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mayr",
+      "tier": "power",
+      "t": "Ernst Mayr’s 1942 “biological” concept: populations that interbreed and are isolated from others; it fails for bacteria and others that don’t mate",
+      "k": [
+        "ernst mayr",
+        "1942",
+        "biological"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ensatina",
+      "tier": "power",
+      "t": "Ensatina salamanders form a “ring” around California’s Central Valley whose two ends rarely interbreed",
+      "k": [
+        "ensatina",
+        "ring",
+        "central valley"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holotype",
+      "tier": "power",
+      "t": "A single preserved holotype specimen is the official reference for a scientific name",
+      "k": [
+        "holotype",
+        "specimen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "specific-epithet",
+      "tier": "power",
+      "t": "The second word of the two-part name is called the specific epithet",
+      "k": [
+        "specific epithet",
+        "epithet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "estimate",
+      "tier": "power",
+      "t": "A 2011 study estimated about 8.7 million kinds of organisms with nucleus-containing cells, most still undescribed",
+      "k": [
+        "8.7 million",
+        "2011"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beetles",
+      "tier": "power",
+      "t": "Beetles have more named examples than any other order of animals",
+      "k": [
+        "beetles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "antelope-squirrels",
+      "tier": "power",
+      "t": "Two antelope squirrels, split by the Grand Canyon, show “allopatric” (geographic) separation",
+      "k": [
+        "grand canyon",
+        "antelope squirrels",
+        "allopatric"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bald-eagle",
+      "tier": "power",
+      "t": "The bald eagle was taken off the endangered list in 2007; the California condor is still protected",
+      "k": [
+        "bald eagle",
+        "2007",
+        "california condor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "paine",
+      "tier": "power",
+      "t": "Robert Paine’s sea star experiments showed that some are “keystone” groups with outsized effects",
+      "k": [
+        "robert paine",
+        "keystone",
+        "sea star"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phylogenetic",
+      "tier": "power",
+      "t": "The phylogenetic concept defines it by shared ancestry; arguments over definitions are called this term’s “problem”",
+      "k": [
+        "phylogenetic",
+        "ancestry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "martha",
+      "tier": "power",
+      "t": "Martha, the last known passenger pigeon, died at the Cincinnati Zoo in 1914",
+      "k": [
+        "martha",
+        "passenger pigeon",
+        "cincinnati",
+        "1914"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wallace-1855",
+      "tier": "power",
+      "t": "Alfred Russel Wallace’s 1855 paper from Sarawak said each new one appears near a closely related one",
+      "k": [
+        "wallace",
+        "sarawak",
+        "1855"
+      ],
+      "n": 0
+    },
+    {
+      "id": "systema-naturae",
+      "tier": "power",
+      "t": "The 10th edition of Linnaeus’s _Systema Naturae_ (1758) is the starting point for animal names; Homo sapiens means “wise man”",
+      "k": [
+        "systema naturae",
+        "1758",
+        "wise man"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Species, genus, or speciation?",
+    "body": "In a two-part name like Homo sapiens, the first word is the genus, the rank just above, and the species is named by both words together. Speciation, the process that forms new species, is a separate answer line, and so is genus. Breeds don’t count either: every dog breed belongs to the same species.",
+    "fix": "“Members can interbreed,” “fertile offspring,” or “the rank just below genus” means species. “The rank above,” or the capitalized first word of a scientific name, means genus. If the question asks for “this process” that splits one group into two, say speciation.",
+    "line": "Real answer line: <b><u>Species</u></b> (do not accept “genus” or “speciation”)"
+  },
+  "tests": {
+    "right": [
+      "Species",
+      "Specis",
+      "the species",
+      "Biological species",
+      "SPECIES"
+    ],
+    "prompt": [
+      "Taxon",
+      "Taxonomic rank"
+    ],
+    "wrong": [
+      "Genus",
+      "Speciation",
+      "Subspecies",
+      "Population",
+      "Breed",
+      "Kingdom"
+    ]
+  }
+}

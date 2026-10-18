@@ -6,8 +6,8 @@
   "qbCategory": "Science · Biology",
   "kicker": "Inherited disease of thick, sticky mucus · Caused by the CFTR gene",
   "dates": "Described in 1938; gene found in 1989",
-  "briefing": "Cystic fibrosis is a genetic disease that makes the body’s mucus thick and sticky, which can clog the lungs and the pancreas. It comes from changes in one gene, CFTR, which normally builds a channel that lets chloride, part of salt, out of cells; that is why people with it have extra-salty sweat. A child has it only after inheriting a changed copy from each parent, and new medicines have greatly helped many people with it.",
-  "answerHtml": "<b><u>Cystic fibrosis</u></b> (accept <u>CF</u> or <u>mucoviscidosis</u>; do not accept “pulmonary fibrosis”)",
+  "briefing": "Cystic fibrosis is a genetic disease that makes the body’s mucus thick and sticky, which can clog the lungs and the pancreas. It comes from changes in one gene, CFTR, which normally builds a channel that moves chloride, part of salt, across cell membranes; that is why people with it have extra-salty sweat. A child has it only after inheriting a changed copy from each parent, and new medicines have greatly helped many people with it.",
+  "answerHtml": "<b><u>Cystic fibrosis</u></b> (accept <u>CF</u> or <u>mucoviscidosis</u>; prompt on <u>fibrosis</u>; do not accept “pulmonary fibrosis”)",
   "accept": [
     "cystic fibrosis",
     "cf",
@@ -87,7 +87,7 @@
       "r": "For 10 points, name this inherited disease, caused by the CFTR gene, that makes mucus thick and sticky."
     },
     {
-      "p": "The 2019 film _Five Feet Apart_ takes its title from a rule that people with this disease should stay about six feet away from each other, so that they do not pass harmful bacteria back and forth. One such germ, _Pseudomonas aeruginosa_ [“soo-doh-MOH-nuss air-oo-jih-NOH-suh”], often infects the lungs of people with this disease.",
+      "p": "The title of the 2019 film _Five Feet Apart_ plays on a rule that people with this disease should stay at least six feet away from each other, so that they do not pass harmful bacteria back and forth. One such germ, _Pseudomonas aeruginosa_ [“soo-doh-MOH-nuss air-oo-jih-NOH-suh”], often infects the lungs of people with this disease.",
       "r": "For 10 points, name this genetic disease, caused by mutations in the CFTR gene, that clogs the lungs with thick, sticky mucus."
     },
     {
@@ -99,7 +99,7 @@
       "r": "For 10 points, name this recessive genetic disease, in which two faulty copies of the CFTR gene cause thick, sticky mucus."
     },
     {
-      "p": "Former NFL quarterback Boomer Esiason started a foundation to fight this disease in 1993, after his son Gunnar was diagnosed with it. Newborn babies in the United States are screened for this disease using a few drops of blood from a heel prick.",
+      "p": "NFL quarterback Boomer Esiason started a foundation to fight this disease in 1993, after his son Gunnar was diagnosed with it. Newborn babies in the United States are screened for this disease using a few drops of blood from a heel prick.",
       "r": "For 10 points, name this genetic disease that makes mucus thick and sticky and leaves sweat very salty."
     },
     {
@@ -107,12 +107,12 @@
       "r": "That channel protein is CFTR. For 10 points, name this inherited disease that causes thick, sticky mucus."
     },
     {
-      "p": "Newborn screening for this disease measures immunoreactive trypsinogen [“trip-SIN-uh-jen”], a protein from the pancreas that is often high in babies with this disease. This disease is most common among people of Northern European descent.",
+      "p": "Newborn screening for this disease checks a baby’s blood for high levels of trypsinogen [“trip-SIN-uh-jen”], a protein made by the pancreas. This disease is most common among people of Northern European descent.",
       "r": "For 10 points, name this genetic disease, caused by mutations in the CFTR gene, that clogs the lungs with mucus."
     },
     {
       "p": "Old European folklore warned about babies whose foreheads tasted salty when kissed, a sign now linked to this disease. The gene behind this disease sits on chromosome 7, and its most common mutation is called F508del.",
-      "r": "Two carrier parents have a one-in-four chance of having a child with it. For 10 points, name this inherited disease of thick, sticky mucus."
+      "r": "Each child of two carrier parents has a one-in-four chance of having it. For 10 points, name this inherited disease of thick, sticky mucus."
     }
   ],
   "clues": [
@@ -237,7 +237,7 @@
     {
       "id": "newborn-screening",
       "tier": "middle",
-      "t": "Newborns are screened with a heel-prick blood test that measures immunoreactive trypsinogen (IRT), a pancreas protein",
+      "t": "Newborns are screened with a heel-prick blood test that looks for high levels of trypsinogen, a pancreas protein",
       "k": [
         "heel-prick",
         "trypsinogen",
@@ -328,7 +328,7 @@
     {
       "id": "five-feet-apart",
       "tier": "power",
-      "t": "The 2019 film _Five Feet Apart_ is named for the rule that people with it keep about six feet apart to avoid sharing germs",
+      "t": "The title of the 2019 film _Five Feet Apart_ plays on the rule that people with it stay at least six feet apart to avoid sharing germs",
       "k": [
         "five feet apart",
         "six feet"

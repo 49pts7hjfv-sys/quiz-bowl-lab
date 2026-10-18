@@ -71,7 +71,7 @@
       "r": "That doctor gave his name to this disease. For 10 points, name this brain disease that causes memory loss and is the most common cause of dementia."
     },
     {
-      "p": "This disease’s namesake used a silver stain developed by Max Bielschowsky [“beel-SHOV-skee”] to see the twisted fibers inside neurons that mark this disease. Those fibers, called neurofibrillary tangles, are made of a protein called tau [“TOW”].",
+      "p": "Brain scans of people with this disease show the brain’s outer layer, the cortex, shrinking over time, while fluid-filled spaces called ventricles grow larger. Twisted fibers called neurofibrillary tangles, made of a protein called tau [“TOW”], build up inside neurons in this disease.",
       "r": "Clumps of beta-amyloid also build up between neurons in this disease. For 10 points, name this brain disease, the most common cause of dementia."
     },
     {
@@ -95,7 +95,7 @@
       "r": "This disease leaves amyloid plaques and tau tangles in the brain. For 10 points, name this disease, the most common cause of dementia."
     },
     {
-      "p": "A dye called Pittsburgh compound B lets PET scans show beta-amyloid plaques in the living brains of people with this disease. Before such scans existed, doctors could confirm this disease for certain only by studying brain tissue after a person had died.",
+      "p": "Special dyes let PET scans show beta-amyloid plaques in the living brains of people with this disease. Before such scans existed, doctors could confirm this disease for certain only by studying brain tissue after a person had died.",
       "r": "For 10 points, name this brain disease that destroys memory, the most common cause of dementia in older adults."
     },
     {
@@ -107,7 +107,7 @@
       "r": "For 10 points, name this brain disease that causes memory loss and is the most common cause of dementia."
     },
     {
-      "p": "Tennessee basketball coach Pat Summitt and country singer Glen Campbell both spoke publicly about living with this disease after their diagnoses in 2011. Campbell’s song “I’m Not Gonna Miss You,” about his illness, won a Grammy Award.",
+      "p": "Tennessee women’s basketball coach Pat Summitt and country singer Glen Campbell both spoke publicly about living with this disease after their diagnoses in 2011. Campbell’s song “I’m Not Gonna Miss You,” about his illness, won a Grammy Award.",
       "r": "For 10 points, name this disease that slowly destroys memory, the most common cause of dementia."
     },
     {
@@ -274,12 +274,13 @@
       "n": 0
     },
     {
-      "id": "silver-stain",
+      "id": "brain-scans",
       "tier": "power",
-      "t": "Its namesake first saw the tangles using Max Bielschowsky’s silver stain",
+      "t": "Brain scans show the cortex shrinking and the fluid-filled ventricles growing larger as the illness gets worse",
       "k": [
-        "silver stain",
-        "bielschowsky"
+        "ventricles",
+        "cortex",
+        "brain scans"
       ],
       "n": 0
     },
@@ -339,12 +340,12 @@
       "rabbit": "Antibodies"
     },
     {
-      "id": "pittsburgh-compound-b",
+      "id": "pet-scans",
       "tier": "power",
-      "t": "Pittsburgh compound B lets PET scans show amyloid plaques in a living brain; before that, it was confirmed only after death",
+      "t": "PET scans with special dyes can show amyloid plaques in a living brain; before that, it was confirmed only after death",
       "k": [
-        "pittsburgh compound b",
-        "pet scans"
+        "pet scans",
+        "special dyes"
       ],
       "n": 0
     },

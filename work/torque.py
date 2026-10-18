@@ -80,7 +80,7 @@ data = {
             "r": "For 10 points, name this rotational equivalent of force, measured in newton-meters."
         },
         {
-            "p": "Archimedes’ [“ar-kih-MEE-deez’s”] law of the lever is really a rule about balancing this quantity, and he supposedly boasted, “Give me a place to stand, and I will move the Earth.” On a balanced seesaw, a heavier child must sit closer to the pivot so that both sides have equal amounts of this quantity.",
+            "p": "Archimedes [“ar-kih-MEE-deez”] stated a law of the lever that is really a rule about balancing this quantity, and he supposedly boasted, “Give me a place to stand, and I will move the Earth.” On a balanced seesaw, a heavier child must sit closer to the pivot so that both sides have equal amounts of this quantity.",
             "r": "For 10 points, name this twisting effect of a force, equal to the force times the lever arm."
         },
         {

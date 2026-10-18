@@ -106,7 +106,7 @@ data = {
             "r": "For 10 points, name these tools, such as Python and Java, that people use to write instructions for computers.",
         },
         {
-            "p": "Alan Kay’s team at Xerox PARC created Smalltalk, which helped make “object-oriented” design popular among these tools. Other styles of these include “functional” ones like Haskell and “logic” ones like Prolog. Kay won the 2003 Turing Award.",
+            "p": "Alan Kay, who won the 2003 Turing Award, led the Xerox PARC team that created Smalltalk, which helped make “object-oriented” design popular among these tools. Other styles of these include “functional” ones like Haskell and “logic” ones like Prolog.",
             "r": "For 10 points, name these tools, including Fortran, C, and Python, used to write software.",
         },
         {
@@ -146,7 +146,7 @@ data = {
             "r": "For 10 points, name these languages, such as JavaScript and Java, that programmers use to write code.",
         },
         {
-            "p": "Seymour Papert, Wally Feurzeig, and Cynthia Solomon created one of these named Logo in 1967, in which children steer a drawing “turtle” around a screen. Papert, who had worked with the psychologist Jean Piaget, wrote about it in his 1980 book _Mindstorms_.",
+            "p": "Seymour Papert, Wally Feurzeig, and Cynthia Solomon created one of these named Logo in 1967, which became known for a drawing “turtle” that children steer around a screen. Papert, who had worked with the psychologist Jean Piaget, wrote about it in his 1980 book _Mindstorms_.",
             "r": "Kids can also learn with Scratch, whose code is made of snap-together blocks. For 10 points, name these tools used to write computer programs.",
         },
         {
@@ -245,7 +245,7 @@ data = {
          "t": "Brendan Eich wrote JavaScript in about ten days in 1995 for Netscape; its name rode the popularity of Java",
          "k": ["brendan eich", "netscape", "ten days"], "n": 0},
         {"id": "logo", "tier": "power",
-         "t": "Logo (1967), by Seymour Papert, Wally Feurzeig, and Cynthia Solomon, lets children steer a drawing turtle; Papert wrote _Mindstorms_ (1980)",
+         "t": "Logo (1967), by Seymour Papert, Wally Feurzeig, and Cynthia Solomon, became known for a drawing turtle that children steer; Papert wrote _Mindstorms_ (1980)",
          "k": ["logo", "turtle", "papert", "mindstorms"], "n": 0},
     ],
     "trap": {

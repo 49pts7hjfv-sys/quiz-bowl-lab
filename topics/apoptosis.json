@@ -37,7 +37,6 @@
     "apoptosome",
     "caspase",
     "caspases",
-    "ptosis",
     "inflammation"
   ],
   "media": [],
@@ -58,7 +57,7 @@
       "r": "This process is carried out by enzymes called caspases. For 10 points, name this orderly form of cell death, which removes the webbing between a developing embryo’s fingers."
     },
     {
-      "p": "Mutations in the worm genes ced-3 and ced-4 stop this process, while the gene ced-9, which matches the human gene Bcl-2, normally holds it in check. The protein made by ced-3 belongs to a family of protein-cutting enzymes called caspases.",
+      "p": "Many of the extra neurons made in a developing nervous system die by this process, especially ones that fail to connect to a target. Ducks keep their webbed feet because a protein blocks the signal for this process between their toes, while in chickens this process removes that webbing.",
       "r": "For 10 points, name this tidy form of cell death, a cell’s planned self-destruction, which, unlike necrosis, causes no inflammation."
     },
     {
@@ -74,19 +73,19 @@
       "r": "For 10 points, name this process, a cell’s orderly self-destruction, which is different from messy necrosis."
     },
     {
-      "p": "The protein Bcl-2, first found in a type of B-cell lymphoma, blocks this process, while its relatives Bax and Bak promote it by punching holes in the outer membranes of mitochondria. Cancer cells often avoid this process, which lets damaged cells keep dividing.",
-      "r": "For 10 points, name this tidy form of cell death that removes damaged or unneeded cells."
+      "p": "Radiation and many chemotherapy drugs fight cancer partly by damaging cancer cells’ DNA so badly that the cells undergo this process. Cancer cells often avoid this process, which lets damaged cells keep dividing.",
+      "r": "This process is carried out by enzymes called caspases. For 10 points, name this tidy form of cell death that removes damaged or unneeded cells."
     },
     {
       "p": "Douglas Hanahan and Robert Weinberg listed “evading” this process as one of the hallmarks of cancer. The protein p53, nicknamed the “guardian of the genome,” can trigger this process when a cell’s DNA is too damaged to repair.",
       "r": "For 10 points, name this form of cell death, carried out by enzymes called caspases, in which a cell destroys itself in an orderly way."
     },
     {
-      "p": "Scientists use a protein called annexin V to spot cells undergoing this process, because it binds phosphatidylserine [“foss-fuh-TY-dul-SAIR-een”], a lipid that flips to the outside of the cell membrane as an “eat me” signal. Macrophages that sense that signal swallow the cell’s remains.",
+      "p": "During this process, a lipid called phosphatidylserine [“foss-fuh-TY-dul-SAIR-een”] flips from the inner to the outer side of the cell membrane, where it acts as an “eat me” signal. Macrophages that sense that signal swallow the cell’s remains.",
       "r": "For 10 points, name this orderly form of cell death that, unlike necrosis, does not cause inflammation."
     },
     {
-      "p": "The TUNEL test labels the cut ends of DNA in cells undergoing this process, in which enzymes chop the DNA into regular-sized pieces that form a “ladder” on a gel. During this process, the cell’s membrane bulges out in bubbles called blebs.",
+      "p": "Enzymes chop a cell’s DNA into regular-sized pieces during this process, so the DNA forms a “ladder” pattern when it is run on a gel. During this process, the cell’s membrane bulges out in bubbles called blebs.",
       "r": "For 10 points, name this tidy form of cell death, which removes the webbing between a developing embryo’s fingers."
     },
     {
@@ -98,11 +97,11 @@
       "r": "For 10 points, name this orderly form of cell death, in which caspases help a cell take itself apart."
     },
     {
-      "p": "Proteins called IAPs, such as XIAP, hold back this process by blocking caspases, until mitochondria release a protein named Smac, also called DIABLO, that blocks the IAPs in turn. During this process, the cell shrinks and its chromatin clumps together.",
+      "p": "Skin cells badly damaged by the ultraviolet light in sunlight destroy themselves by this process, and scientists call those dying cells “sunburn cells.” During this process, the cell shrinks and its chromatin clumps together.",
       "r": "For 10 points, name this tidy form of cell death that removes unneeded cells, like the webbing between an embryo’s fingers."
     },
     {
-      "p": "Anoikis, whose name is Greek for “homelessness,” is a form of this process that happens to cells that lose their grip on the tissue around them. Release of cytochrome c from mitochondria starts this process’s intrinsic pathway.",
+      "p": "Some viruses carry genes that block this process, keeping the cells they infect alive long enough to make many new copies of the virus. Release of cytochrome c from mitochondria starts this process’s intrinsic pathway.",
       "r": "For 10 points, name this orderly form of cell death that, unlike necrosis, causes no inflammation."
     },
     {
@@ -274,7 +273,7 @@
     {
       "id": "nobel-2002",
       "tier": "power",
-      "t": "Sydney Brenner, H. Robert Horvitz, and John Sulston shared the 2002 Nobel Prize partly for studying it in that worm",
+      "t": "Sydney Brenner, H. Robert Horvitz, and John Sulston shared the 2002 Nobel Prize partly for studying it in the worm C. elegans",
       "k": [
         "horvitz",
         "sulston",
@@ -284,13 +283,23 @@
       "n": 0
     },
     {
-      "id": "ced-genes",
+      "id": "developing-neurons",
       "tier": "power",
-      "t": "The worm genes ced-3 and ced-4 drive it, while ced-9, which matches the human gene Bcl-2, holds it back",
+      "t": "Many extra neurons made in a developing nervous system die this way, especially ones that fail to connect to a target",
       "k": [
-        "ced-3",
-        "ced-4",
-        "ced-9"
+        "neurons",
+        "nervous system"
+      ],
+      "n": 0
+    },
+    {
+      "id": "duck-feet",
+      "tier": "power",
+      "t": "Ducks keep webbed feet because a protein blocks it between their toes; in chicken embryos it removes that webbing",
+      "k": [
+        "ducks",
+        "webbed feet",
+        "chicken"
       ],
       "n": 0
     },
@@ -318,14 +327,12 @@
       "n": 0
     },
     {
-      "id": "bcl-2",
+      "id": "cancer-treatment",
       "tier": "power",
-      "t": "Bcl-2, first found in a B-cell lymphoma, blocks it; its relatives Bax and Bak promote it by opening holes in mitochondria",
+      "t": "Radiation and many chemotherapy drugs fight cancer partly by damaging cancer cells’ DNA badly enough to trigger it",
       "k": [
-        "bcl-2",
-        "bax",
-        "bak",
-        "lymphoma"
+        "radiation",
+        "chemotherapy"
       ],
       "n": 0
     },
@@ -343,21 +350,21 @@
     {
       "id": "eat-me",
       "tier": "power",
-      "t": "Phosphatidylserine flips to the outside of the membrane as an “eat me” signal; annexin V binds it to spot dying cells",
+      "t": "The lipid phosphatidylserine flips to the outside of the membrane as an “eat me” signal for macrophages",
       "k": [
         "phosphatidylserine",
         "eat me",
-        "annexin v"
+        "macrophages"
       ],
       "n": 0
     },
     {
       "id": "dna-ladder",
       "tier": "power",
-      "t": "Its DNA is chopped into regular-sized pieces that form a “ladder” on a gel; the TUNEL test labels those cut ends",
+      "t": "Its DNA is chopped into regular-sized pieces that form a “ladder” pattern on a gel",
       "k": [
         "ladder",
-        "tunel"
+        "regular-sized"
       ],
       "n": 0
     },
@@ -383,25 +390,25 @@
       "n": 0
     },
     {
-      "id": "iaps-smac",
+      "id": "sunburn-cells",
       "tier": "power",
-      "t": "IAP proteins such as XIAP block caspases; mitochondria release Smac (DIABLO) to block the IAPs",
+      "t": "Skin cells badly damaged by ultraviolet light destroy themselves this way, becoming “sunburn cells”",
       "k": [
-        "xiap",
-        "smac",
-        "diablo"
+        "sunburn cells",
+        "ultraviolet"
       ],
       "n": 0
     },
     {
-      "id": "anoikis",
+      "id": "viruses-block",
       "tier": "power",
-      "t": "Anoikis, Greek for “homelessness,” is this kind of death in cells that lose their grip on surrounding tissue",
+      "t": "Some viruses carry genes that block it, keeping infected cells alive long enough to make more viruses",
       "k": [
-        "anoikis",
-        "homelessness"
+        "viruses",
+        "infected cells"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Viruses"
     }
   ],
   "trap": {

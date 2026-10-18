@@ -1,0 +1,494 @@
+{
+  "id": "programming-languages",
+  "name": "Programming languages",
+  "mono": "PRG",
+  "category": "Computer Science",
+  "qbCategory": "Science · Other Science (Computer Science)",
+  "kicker": "Tools for writing computer instructions · From Fortran to Python and Scratch",
+  "dates": "Fortran, the first widely used one, appeared in 1957",
+  "briefing": "Programming languages let people write instructions for computers in words and symbols instead of long strings of 0s and 1s. In the 1950s, Grace Hopper built one of the first compilers and John Backus’s team at IBM created Fortran; since then, programmers have invented thousands more, from C and Java to Python, which is named after the comedy group Monty Python. Many kids start with Scratch, whose code is made of snap-together blocks.",
+  "answerHtml": "<b><u>programming languages</u></b> (accept <u>programming language</u> or <u>computer languages</u>; prompt on <u>languages</u> or <u>code</u>)",
+  "accept": [
+    "programming languages",
+    "programming language",
+    "computer languages",
+    "computer language",
+    "coding languages",
+    "coding language",
+    "computer programming languages",
+    "computer programming language"
+  ],
+  "prompt": [
+    "languages",
+    "language",
+    "code",
+    "coding",
+    "computer code",
+    "high level languages",
+    "high level language",
+    "formal languages",
+    "formal language",
+    "scripting languages",
+    "scripting language"
+  ],
+  "reject": [
+    "java",
+    "java programming language",
+    "javascript",
+    "python",
+    "c",
+    "c sharp",
+    "fortran",
+    "cobol",
+    "basic",
+    "lisp",
+    "scratch",
+    "html",
+    "css",
+    "hypertext markup language",
+    "markup language",
+    "markup languages",
+    "natural language",
+    "natural languages",
+    "human language",
+    "human languages",
+    "machine code",
+    "machine language",
+    "assembly language",
+    "assembly",
+    "algorithm",
+    "algorithms",
+    "software",
+    "program",
+    "programs",
+    "computer program",
+    "computer programs",
+    "operating system",
+    "operating systems",
+    "compiler",
+    "compilers",
+    "interpreter",
+    "source code",
+    "binary",
+    "binary code",
+    "pseudocode",
+    "sign language"
+  ],
+  "tests": {
+    "right": [
+      "Programming languages",
+      "programming language",
+      "computer languages",
+      "Programing languages",
+      "coding languages"
+    ],
+    "prompt": [
+      "languages",
+      "code"
+    ],
+    "wrong": [
+      "Java",
+      "Python",
+      "HTML",
+      "Algorithms",
+      "Software",
+      "Machine code",
+      "Operating systems"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Programming_language",
+  "qb": {
+    "q": "programming language",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Konrad Zuse designed one of the earliest of these, Plankalkül [“PLAHN-kal-kool”], in the 1940s, but it was not run on a real computer until decades later. Zuse had built the Z3 computer in Germany during World War II.",
+      "r": "For 10 points, name these tools, such as Python and Java, that people use to write instructions for computers."
+    },
+    {
+      "p": "Alan Kay, who won the 2003 Turing Award, led the Xerox PARC team that created Smalltalk, which helped make “object-oriented” design popular among these tools. Other styles of these include “functional” ones like Haskell and “logic” ones like Prolog.",
+      "r": "For 10 points, name these tools, including Fortran, C, and Python, used to write software."
+    },
+    {
+      "p": "Brian Kernighan and Dennis Ritchie wrote a famous 1978 book, nicknamed “K&R,” about one of these that Ritchie had created at Bell Labs in the early 1970s. Ken Thompson and Ritchie used that language to rewrite the Unix operating system.",
+      "r": "That book also made “hello, world” the classic first program. For 10 points, name these tools, such as C, used to write software."
+    },
+    {
+      "p": "Bjarne Stroustrup first called one of these “C with Classes” before renaming it C++. Stroustrup did that work at Bell Labs. Niklaus Wirth named another one, released in 1970, after the French mathematician Blaise Pascal.",
+      "r": "For 10 points, name these languages, including Java and Python, that programmers use to write code."
+    },
+    {
+      "p": "Operators of the Harvard Mark II taped a moth into their logbook in 1947 as the “first actual case of bug being found,” a story made famous by Grace Hopper, whose work led to one of these named COBOL.",
+      "r": "For 10 points, name these languages, such as Fortran and Python, used to write instructions for computers."
+    },
+    {
+      "p": "Ada Lovelace’s 1843 notes on Charles Babbage’s Analytical Engine included what is often called the first computer program, and the U.S. Department of Defense later named one of these after her. Her program was meant to calculate Bernoulli numbers.",
+      "r": "For 10 points, name these languages, such as Java, C, and Python, used to write software."
+    },
+    {
+      "p": "John McCarthy designed one of these in 1958, built around lists, that became a favorite for early artificial intelligence research. The rules of another one, ALGOL 60, were written in a notation named for John Backus and Peter Naur.",
+      "r": "For 10 points, name these tools, including Python and Java, used to write computer programs."
+    },
+    {
+      "p": "Apple introduced one of these named Swift in 2014, and in 2019 Google said that another, Kotlin, was its preferred choice for writing Android apps. Kotlin was created by the company JetBrains.",
+      "r": "For 10 points, name these languages, such as Python, Java, and C, that people use to give computers instructions."
+    },
+    {
+      "p": "Graydon Hoare began one of these named Rust as a side project before Mozilla backed it, and its version 1.0 arrived in 2015 with a focus on memory safety. Another one, Go, was designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.",
+      "r": "For 10 points, name these formal languages, such as Python and C, that programmers use to write software."
+    },
+    {
+      "p": "A general-purpose one of these is called “Turing complete” because, given enough memory, it can compute anything a Turing machine can. Alan Turing’s 1936 paper described that imaginary machine. Conway’s Game of Life, which is not one of these, also meets that test.",
+      "r": "For 10 points, name these tools, such as Python and Java, used to write computer programs."
+    },
+    {
+      "p": "Brendan Eich wrote one of these in about ten days in 1995 for the Netscape web browser, and its name was chosen partly to ride the popularity of a different one from Sun Microsystems.",
+      "r": "For 10 points, name these languages, such as JavaScript and Java, that programmers use to write code."
+    },
+    {
+      "p": "Seymour Papert, Wally Feurzeig, and Cynthia Solomon created one of these named Logo in 1967, which became known for a drawing “turtle” that children steer around a screen. Papert, who had worked with the psychologist Jean Piaget, wrote about it in his 1980 book _Mindstorms_.",
+      "r": "Kids can also learn with Scratch, whose code is made of snap-together blocks. For 10 points, name these tools used to write computer programs."
+    },
+    {
+      "p": "Guido van Rossum [“GHEE-doh van ROSS-um”] named one of these after the British comedy show _Monty Python’s Flying Circus_ and released it in 1991. Code in that language uses indentation, not curly braces, to group lines together.",
+      "r": "For 10 points, name these tools, such as C and Java, that people use to write computer programs."
+    },
+    {
+      "p": "Bill Gates and Paul Allen’s first product, in 1975, was a version of one of these for the Altair 8800 computer. That language, BASIC, had been created at Dartmouth College in 1964 by John Kemeny and Thomas Kurtz.",
+      "r": "For 10 points, name these tools, such as Python and Java, used to write software."
+    },
+    {
+      "p": "John Backus, who won the 1977 Turing Award, led the IBM team that released one of these in 1957 whose name is short for “Formula Translation.” COBOL followed in 1959 for business use.",
+      "r": "That language, Fortran, was the first of these to be widely used. For 10 points, name these tools, such as Python, used to write computer programs."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Formal languages that people use to write instructions, or code, that computers can follow",
+      "k": [
+        "instructions",
+        "code",
+        "formal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "examples",
+      "tier": "giveaway",
+      "t": "Examples include Python, Java, C, and JavaScript",
+      "k": [
+        "python",
+        "javascript"
+      ],
+      "n": 0,
+      "rabbit": "Java (programming language)"
+    },
+    {
+      "id": "scratch",
+      "tier": "giveaway",
+      "t": "Scratch, from the MIT Media Lab (2007), lets kids snap together blocks of code",
+      "k": [
+        "scratch",
+        "blocks",
+        "mit media lab"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hello-world",
+      "tier": "giveaway",
+      "t": "A “Hello, World!” program, which just prints that greeting, is the traditional first program to write in a new one",
+      "k": [
+        "hello, world",
+        "first program"
+      ],
+      "n": 0
+    },
+    {
+      "id": "compiler",
+      "tier": "giveaway",
+      "t": "A compiler or interpreter translates code written in one of them into machine code the computer can run",
+      "k": [
+        "compiler",
+        "interpreter",
+        "machine code"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fortran",
+      "tier": "middle",
+      "t": "Fortran (short for “Formula Translation,” 1957), from John Backus’s team at IBM, was the first widely used high-level one; Backus won the 1977 Turing Award",
+      "k": [
+        "fortran",
+        "formula translation",
+        "1957"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cobol",
+      "tier": "middle",
+      "t": "COBOL (1959), made for business, grew out of Grace Hopper’s work",
+      "k": [
+        "cobol",
+        "business",
+        "1959"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hopper",
+      "tier": "middle",
+      "t": "Grace Hopper wrote one of the first compilers, the A-0 (1952)",
+      "k": [
+        "grace hopper",
+        "a-0",
+        "1952"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lovelace",
+      "tier": "middle",
+      "t": "Ada Lovelace’s 1843 notes on Babbage’s Analytical Engine include an early program for Bernoulli numbers; the language Ada is named for her",
+      "k": [
+        "ada lovelace",
+        "analytical engine",
+        "bernoulli",
+        "1843"
+      ],
+      "n": 0
+    },
+    {
+      "id": "python",
+      "tier": "middle",
+      "t": "Python (Guido van Rossum, 1991) is named after the comedy show _Monty Python’s Flying Circus_ and groups lines by indentation",
+      "k": [
+        "guido van rossum",
+        "monty python",
+        "indentation",
+        "1991"
+      ],
+      "n": 0
+    },
+    {
+      "id": "c-language",
+      "tier": "middle",
+      "t": "C was created by Dennis Ritchie at Bell Labs in the early 1970s and used to rewrite the Unix operating system",
+      "k": [
+        "dennis ritchie",
+        "bell labs",
+        "unix"
+      ],
+      "n": 0
+    },
+    {
+      "id": "high-low",
+      "tier": "middle",
+      "t": "High-level ones read a bit like English and math; low-level assembly is close to the machine’s own instructions",
+      "k": [
+        "high-level",
+        "low-level",
+        "assembly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "syntax",
+      "tier": "middle",
+      "t": "Each one has a syntax, rules for how code must be written; a syntax error stops a program from running",
+      "k": [
+        "syntax",
+        "syntax error"
+      ],
+      "n": 0
+    },
+    {
+      "id": "basic",
+      "tier": "middle",
+      "t": "BASIC was created at Dartmouth College in 1964 by John Kemeny and Thomas Kurtz; Microsoft’s first product (1975) was a version of it for the Altair 8800",
+      "k": [
+        "basic",
+        "dartmouth",
+        "altair",
+        "kemeny"
+      ],
+      "n": 0
+    },
+    {
+      "id": "html",
+      "tier": "middle",
+      "t": "HTML, which describes web pages, is a markup language, not one of these",
+      "k": [
+        "html",
+        "markup"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plankalkul",
+      "tier": "power",
+      "t": "Konrad Zuse designed Plankalkül in the 1940s, an early one that was not run on a computer until decades later",
+      "k": [
+        "plankalkul",
+        "konrad zuse",
+        "zuse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "smalltalk",
+      "tier": "power",
+      "t": "Alan Kay (2003 Turing Award) and his team at Xerox PARC created Smalltalk, which popularized object-oriented design; other styles include functional Haskell and logic-based Prolog",
+      "k": [
+        "smalltalk",
+        "alan kay",
+        "xerox parc",
+        "haskell",
+        "prolog"
+      ],
+      "n": 0
+    },
+    {
+      "id": "k-and-r",
+      "tier": "power",
+      "t": "Brian Kernighan and Dennis Ritchie’s 1978 book on C, nicknamed “K&R,” made “hello, world” the classic first program",
+      "k": [
+        "kernighan",
+        "k&r",
+        "1978"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stroustrup",
+      "tier": "power",
+      "t": "Bjarne Stroustrup first called C++ “C with Classes”; he built it at Bell Labs",
+      "k": [
+        "stroustrup",
+        "c with classes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pascal",
+      "tier": "power",
+      "t": "Niklaus Wirth named Pascal (1970) after the French mathematician Blaise Pascal",
+      "k": [
+        "niklaus wirth",
+        "wirth",
+        "1970"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lisp",
+      "tier": "power",
+      "t": "John McCarthy’s Lisp (1958), built around lists, became a favorite for artificial intelligence research",
+      "k": [
+        "lisp",
+        "mccarthy",
+        "artificial intelligence"
+      ],
+      "n": 0
+    },
+    {
+      "id": "algol",
+      "tier": "power",
+      "t": "ALGOL 60’s rules were written in a notation named for John Backus and Peter Naur",
+      "k": [
+        "algol",
+        "naur",
+        "notation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "moth",
+      "tier": "power",
+      "t": "Harvard Mark II operators taped a moth into their logbook in 1947 as the “first actual case of bug being found”; Grace Hopper made the story famous",
+      "k": [
+        "moth",
+        "harvard mark ii",
+        "1947",
+        "bug"
+      ],
+      "n": 0
+    },
+    {
+      "id": "swift-kotlin",
+      "tier": "power",
+      "t": "Apple introduced Swift in 2014; JetBrains created Kotlin, which Google named its preferred choice for Android apps in 2019",
+      "k": [
+        "swift",
+        "kotlin",
+        "jetbrains",
+        "2014"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rust-go",
+      "tier": "power",
+      "t": "Rust, begun by Graydon Hoare and backed by Mozilla, reached version 1.0 in 2015; Go was designed at Google by a team including Ken Thompson",
+      "k": [
+        "rust",
+        "graydon hoare",
+        "mozilla",
+        "google"
+      ],
+      "n": 0
+    },
+    {
+      "id": "turing-complete",
+      "tier": "power",
+      "t": "A general-purpose one is “Turing complete”: given enough memory, it can compute anything a Turing machine can",
+      "k": [
+        "turing complete",
+        "turing machine"
+      ],
+      "n": 0,
+      "rabbit": "Alan Turing"
+    },
+    {
+      "id": "javascript",
+      "tier": "power",
+      "t": "Brendan Eich wrote JavaScript in about ten days in 1995 for Netscape; its name rode the popularity of Java",
+      "k": [
+        "brendan eich",
+        "netscape",
+        "ten days"
+      ],
+      "n": 0
+    },
+    {
+      "id": "logo",
+      "tier": "power",
+      "t": "Logo (1967), by Seymour Papert, Wally Feurzeig, and Cynthia Solomon, became known for a drawing turtle that children steer; Papert wrote _Mindstorms_ (1980)",
+      "k": [
+        "logo",
+        "turtle",
+        "papert",
+        "mindstorms"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Category, not one language",
+    "body": "This answer is the whole category, so naming one example, like Python or Java, is wrong when a tossup asks for “these.” HTML describes how web pages are built and is usually called a markup language, not a programming language, and “algorithms” or “software” are the instructions themselves, not the languages they are written in. Natural languages like English and Spanish are a different answer too.",
+    "fix": "Listen to the pronoun. “These languages” or “one of these” means the general answer, programming languages. “This language,” with clues about one creator and one name, wants that single language, such as Java, Python, or Fortran.",
+    "line": "Real answer line: <b><u>programming languages</u></b> (accept <u>programming language</u> or <u>computer languages</u>; prompt on <u>languages</u> or <u>code</u>)"
+  }
+}

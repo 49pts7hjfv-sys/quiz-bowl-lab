@@ -90,7 +90,7 @@ data = {
             "r": "For 10 points, name this basic unit of classification, whose members can interbreed, named with a genus plus a second word."
         },
         {
-            "p": "In a 1753 book on plants, Carl Linnaeus made it standard to name each of these groups with two Latin words: a capitalized genus followed by a lowercase “specific epithet.” Such names, which are printed in italics, are called binomial nomenclature.",
+            "p": "In a 1753 book on plants, Carl Linnaeus made it standard to name each of these groups with two Latin words: a capitalized genus followed by a lowercase “specific epithet.” That naming system, whose names are printed in italics, is called binomial nomenclature.",
             "r": "For 10 points, name this most specific basic rank of classification, such as Homo sapiens for humans."
         },
         {
@@ -114,7 +114,7 @@ data = {
             "r": "For 10 points, name this basic rank of classification, whose members can usually mate and have fertile young."
         },
         {
-            "p": "When the tortoise Lonesome George died in 2012, his group at this level of classification, the Pinta Island tortoise, was believed to have no members left. The dodo and the passenger pigeon are other examples of this rank that have gone extinct.",
+            "p": "Martha, the last known passenger pigeon, died at the Cincinnati Zoo in 1914, and with her, that group at this level of classification was gone forever. The dodo of the island of Mauritius is another example of this rank that has gone extinct.",
             "r": "In the memory aid “King Philip Came Over For Good Soup,” this rank is the “Soup.” For 10 points, name this most specific basic rank in taxonomy."
         },
         {
@@ -122,7 +122,7 @@ data = {
             "r": "Four years later, Charles Darwin published a book explaining how these groups originate. For 10 points, name this basic unit of classification whose members can interbreed."
         },
         {
-            "p": "The tenth edition of Carl Linnaeus’s _Systema Naturae_ [“sis-TEE-muh nah-TOO-ree”], published in 1758, is the official starting point for scientific names of animals at this rank, including Homo sapiens, which means “wise man.”",
+            "p": "The tenth edition of Carl Linnaeus’s _Systema Naturae_, published in 1758, is the official starting point for scientific names of animals at this rank, including Homo sapiens, which means “wise man.”",
             "r": "This rank sits just below genus. For 10 points, name this rank whose members can interbreed and have fertile young."
         },
         {
@@ -213,8 +213,8 @@ data = {
         {
             "id": "extinct",
             "tier": "middle",
-            "t": "The dodo and the passenger pigeon are extinct examples",
-            "k": ["dodo", "passenger pigeon", "extinct"],
+            "t": "The dodo of Mauritius is one extinct example",
+            "k": ["dodo", "mauritius", "extinct"],
             "n": 0
         },
         {
@@ -309,10 +309,10 @@ data = {
             "n": 0
         },
         {
-            "id": "lonesome-george",
+            "id": "martha",
             "tier": "power",
-            "t": "Lonesome George (died 2012) was the last known Pinta Island tortoise",
-            "k": ["lonesome george", "pinta island", "2012"],
+            "t": "Martha, the last known passenger pigeon, died at the Cincinnati Zoo in 1914",
+            "k": ["martha", "passenger pigeon", "cincinnati", "1914"],
             "n": 0
         },
         {

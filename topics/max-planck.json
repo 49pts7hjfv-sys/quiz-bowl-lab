@@ -1,0 +1,415 @@
+{
+  "id": "max-planck",
+  "name": "Max Planck",
+  "mono": "MP",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "German father of quantum theory · Energy comes in tiny packets called quanta",
+  "dates": "1858–1947",
+  "briefing": "Max Planck was a careful German physicist who started the quantum revolution almost against his will. In 1900, trying to explain the colors of light that hot, glowing objects give off, he proposed that energy is released only in tiny packets, or quanta, whose size is set by a number now called Planck’s constant. He won the 1918 Nobel Prize in Physics, and a European space observatory and dozens of research institutes are named for him.",
+  "answerHtml": "<b><u>Max Planck</u></b> (accept <u>Planck</u>)",
+  "accept": [
+    "max planck",
+    "planck",
+    "max karl ernst ludwig planck",
+    "max karl planck"
+  ],
+  "prompt": [],
+  "reject": [
+    "planck constant",
+    "plancks constant",
+    "planck length",
+    "plancks length",
+    "planck time",
+    "planck units",
+    "planck unit",
+    "planck scale",
+    "planck mass",
+    "planck temperature",
+    "planck satellite",
+    "planck spacecraft",
+    "planck telescope",
+    "planck observatory",
+    "planck mission",
+    "planck law",
+    "plancks law",
+    "planck radiation law",
+    "max planck society",
+    "max planck institute",
+    "kelvin planck statement",
+    "planck einstein relation",
+    "max born",
+    "max von laue",
+    "max weber",
+    "lord rayleigh",
+    "rayleigh",
+    "gustav kirchhoff",
+    "kirchhoff",
+    "wilhelm wien",
+    "wien",
+    "ludwig boltzmann",
+    "boltzmann",
+    "albert einstein",
+    "einstein",
+    "niels bohr",
+    "bohr",
+    "werner heisenberg",
+    "heisenberg",
+    "erwin schrodinger",
+    "schrodinger",
+    "walther nernst",
+    "nernst",
+    "hermann von helmholtz",
+    "helmholtz"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Max_Planck",
+  "qb": {
+    "q": "Planck",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This physicist later called the key step in his most famous work “an act of desperation,” since he had given up on older physics only reluctantly. He was 42 years old when he took that step.",
+      "r": "For 10 points, name this German physicist whose namesake constant, h, sets the size of a quantum of energy."
+    },
+    {
+      "p": "As a young student in Munich, this physicist was warned by his teacher Philipp von Jolly that physics was nearly finished, with almost nothing important left to discover. He went on to write his 1879 doctoral thesis on the second law of thermodynamics.",
+      "r": "For 10 points, name this German physicist who won the 1918 Nobel Prize for discovering quanta of energy."
+    },
+    {
+      "p": "In 1899, this scientist proposed natural units of length, time, and mass built only from basic constants of nature, such as the speed of light and the constant of gravity. The tiny length in that system is about 1.6 times ten to the minus 35 meters.",
+      "r": "For 10 points, name this German physicist who started quantum theory in 1900 and whose constant is symbolized h."
+    },
+    {
+      "p": "This physicist wrote that a new scientific truth wins not by convincing its opponents, but because its opponents eventually die and a new generation grows up familiar with it. That idea is often shortened to “science advances one funeral at a time.”",
+      "r": "For 10 points, name this German physicist who won the 1918 Nobel Prize in Physics for discovering energy quanta."
+    },
+    {
+      "p": "In the 1930s, this physicist served as president of the Kaiser Wilhelm Society, a group of German research institutes that was refounded under his name in 1948. That society’s institutes have produced many Nobel Prize winners.",
+      "r": "For 10 points, name this founder of quantum theory, whose namesake constant is about 6.63 times ten to the minus 34 joule-seconds."
+    },
+    {
+      "p": "The Rayleigh–Jeans law wrongly predicted that a glowing object should give off endless energy at short wavelengths, a failure later nicknamed the “ultraviolet catastrophe.” This physicist’s radiation law avoids that problem and gives the brightness of each color of light from a perfect black body at any temperature.",
+      "r": "For 10 points, name this German physicist who proposed in 1900 that energy is given off in tiny packets called quanta."
+    },
+    {
+      "p": "This physicist succeeded Gustav Kirchhoff [“KEER-kof”] as a professor of theoretical physics in Berlin, and he later solved the puzzle of “black-body” radiation, a term Kirchhoff had coined. He taught at the University of Berlin from 1889 until 1926.",
+      "r": "This physicist’s constant, h, times the frequency of light gives the energy of one photon. For 10 points, name this founder of quantum theory."
+    },
+    {
+      "p": "From 2009 to 2013, a European Space Agency observatory named for this physicist mapped the cosmic microwave background in great detail, helping pin down the age of the universe at about 13.8 billion years. It was launched together with the Herschel Space Observatory.",
+      "r": "For 10 points, name this German physicist who won the 1918 Nobel Prize in Physics for discovering quanta of energy."
+    },
+    {
+      "p": "Since 2019, the kilogram has been defined by fixing the exact value of a constant named for this physicist, replacing a metal cylinder kept near Paris. That platinum-iridium cylinder had served as the world’s standard kilogram since 1889.",
+      "r": "Multiplying this physicist’s constant by a light wave’s frequency gives the energy of one photon. For 10 points, name this German physicist who founded quantum theory."
+    },
+    {
+      "p": "This physicist was one of the first famous scientists to support Albert Einstein’s special relativity, and in 1913 he and Walther Nernst [“NAIRNST”] traveled to Zurich to recruit Einstein to Berlin. Einstein moved there the next year.",
+      "r": "For 10 points, name this German physicist who won the 1918 Nobel Prize and whose constant appears in E equals h f."
+    },
+    {
+      "p": "This physicist’s radiation formula matches Wilhelm Wien’s [“VEENZ”] earlier formula for short wavelengths, but it also works for long ones. Albert Einstein extended this physicist’s idea in 1905, saying that light itself travels in packets, to explain the photoelectric effect.",
+      "r": "For 10 points, name this German physicist whose constant, h, is about 6.63 times ten to the minus 34 joule-seconds."
+    },
+    {
+      "p": "As a teenager, this future physicist was such a talented pianist that he considered a career in music before choosing physics. He was born in the port city of Kiel in 1858 and grew up in Munich.",
+      "r": "Niels Bohr’s 1913 atom used this man’s constant divided by two pi. For 10 points, name this German physicist who founded quantum theory."
+    },
+    {
+      "p": "Along with Lord Kelvin, this physicist names a statement of the second law of thermodynamics saying that no engine working in a cycle can turn heat entirely into work. He spent his early career studying entropy.",
+      "r": "For 10 points, name this physicist who proposed in 1900 that energy is given off in tiny packets called quanta."
+    },
+    {
+      "p": "On December 14, 1900, this physicist presented his formula for black-body radiation to the German Physical Society in Berlin. That formula matched careful measurements, made by experimenters in Berlin, of the light given off by hot ovens.",
+      "r": "That day is often called the birthday of quantum theory. For 10 points, name this German physicist whose constant is h."
+    },
+    {
+      "p": "Lise Meitner became this physicist’s assistant at the University of Berlin in 1912, at a time when women were rarely given such jobs. His doctoral students included Max von Laue [“LOW-uh”], who later showed that crystals can diffract X-rays.",
+      "r": "For 10 points, name this German physicist who won the 1918 Nobel Prize for discovering energy quanta."
+    }
+  ],
+  "clues": [
+    {
+      "id": "quantum-father",
+      "tier": "giveaway",
+      "t": "German physicist (1858–1947) often called the father of quantum theory",
+      "k": [
+        "quantum theory",
+        "german",
+        "father"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quanta-1900",
+      "tier": "giveaway",
+      "t": "In 1900, proposed that energy is given off in tiny separate packets called quanta",
+      "k": [
+        "1900",
+        "quanta",
+        "packets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "constant-h",
+      "tier": "giveaway",
+      "t": "His constant, h (about 6.63 × 10⁻³⁴ joule-seconds), times light’s frequency gives the energy of one photon (E = hf)",
+      "k": [
+        "constant",
+        "e = hf",
+        "joule-seconds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-1918",
+      "tier": "giveaway",
+      "t": "Won the 1918 Nobel Prize in Physics for discovering energy quanta",
+      "k": [
+        "1918",
+        "nobel prize"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-body",
+      "tier": "middle",
+      "t": "Explained black-body radiation, the light given off by a hot, glowing object",
+      "k": [
+        "black-body radiation",
+        "glowing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ultraviolet-catastrophe",
+      "tier": "middle",
+      "t": "His radiation law avoids the “ultraviolet catastrophe” of the Rayleigh–Jeans law, which predicted endless energy at short wavelengths",
+      "k": [
+        "ultraviolet catastrophe",
+        "rayleigh-jeans"
+      ],
+      "n": 0,
+      "rabbit": "Lord Rayleigh"
+    },
+    {
+      "id": "einstein-photoelectric",
+      "tier": "middle",
+      "t": "Einstein extended his idea in 1905, saying light itself comes in packets, to explain the photoelectric effect",
+      "k": [
+        "einstein",
+        "photoelectric effect",
+        "1905"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    },
+    {
+      "id": "natural-units",
+      "tier": "middle",
+      "t": "Proposed natural units of length, time, and mass (1899), built only from basic constants of nature",
+      "k": [
+        "natural units",
+        "1899"
+      ],
+      "n": 0
+    },
+    {
+      "id": "space-observatory",
+      "tier": "middle",
+      "t": "The European Space Agency observatory named for him (launched with Herschel) mapped the cosmic microwave background from 2009 to 2013, helping fix the universe’s age at about 13.8 billion years",
+      "k": [
+        "cosmic microwave background",
+        "13.8 billion",
+        "2009"
+      ],
+      "n": 0,
+      "rabbit": "Cosmic microwave background"
+    },
+    {
+      "id": "kilogram",
+      "tier": "middle",
+      "t": "Since 2019, the kilogram has been defined by fixing his constant’s exact value, replacing a metal cylinder kept near Paris",
+      "k": [
+        "kilogram",
+        "2019",
+        "metal cylinder"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bohr-h-bar",
+      "tier": "middle",
+      "t": "Bohr’s 1913 atom used his constant divided by 2π (h-bar) for electrons’ angular momentum",
+      "k": [
+        "h-bar",
+        "bohr",
+        "angular momentum"
+      ],
+      "n": 0,
+      "rabbit": "Niels Bohr"
+    },
+    {
+      "id": "desperation",
+      "tier": "power",
+      "t": "Called his quantum idea “an act of desperation,” since he gave up on older physics only reluctantly",
+      "k": [
+        "act of desperation",
+        "reluctantly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "december-14",
+      "tier": "power",
+      "t": "Presented his black-body formula to the German Physical Society on December 14, 1900, often called the birthday of quantum theory",
+      "k": [
+        "december 14",
+        "birthday",
+        "german physical society"
+      ],
+      "n": 0
+    },
+    {
+      "id": "von-jolly",
+      "tier": "power",
+      "t": "His Munich teacher Philipp von Jolly warned him that physics was nearly finished",
+      "k": [
+        "von jolly",
+        "nearly finished",
+        "munich"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thesis",
+      "tier": "power",
+      "t": "Wrote his 1879 doctoral thesis on the second law of thermodynamics and studied entropy early in his career",
+      "k": [
+        "1879",
+        "doctoral thesis",
+        "entropy"
+      ],
+      "n": 0,
+      "rabbit": "Second law of thermodynamics"
+    },
+    {
+      "id": "kelvin-statement",
+      "tier": "power",
+      "t": "Shares a statement of the second law with Lord Kelvin: no engine working in a cycle can turn heat entirely into work",
+      "k": [
+        "lord kelvin",
+        "engine",
+        "cycle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "one-funeral",
+      "tier": "power",
+      "t": "Wrote that a new scientific truth wins because its opponents eventually die off, often shortened to “science advances one funeral at a time”",
+      "k": [
+        "funeral",
+        "new generation",
+        "opponents"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kirchhoff",
+      "tier": "power",
+      "t": "Succeeded Gustav Kirchhoff as a theoretical physics professor in Berlin, where he taught from 1889 to 1926; Kirchhoff had coined the term “black body”",
+      "k": [
+        "kirchhoff",
+        "berlin"
+      ],
+      "n": 0,
+      "rabbit": "Gustav Kirchhoff"
+    },
+    {
+      "id": "kaiser-wilhelm",
+      "tier": "power",
+      "t": "Led the Kaiser Wilhelm Society in the 1930s; it was refounded under his name in 1948",
+      "k": [
+        "kaiser wilhelm society",
+        "1948"
+      ],
+      "n": 0
+    },
+    {
+      "id": "recruited-einstein",
+      "tier": "power",
+      "t": "An early supporter of special relativity; in 1913 he and Walther Nernst traveled to Zurich to recruit Einstein to Berlin",
+      "k": [
+        "walther nernst",
+        "zurich",
+        "1913"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pianist",
+      "tier": "power",
+      "t": "A talented teenage pianist who considered a music career; born in Kiel in 1858 and raised in Munich",
+      "k": [
+        "pianist",
+        "kiel",
+        "music"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wien-formula",
+      "tier": "power",
+      "t": "His radiation formula matches Wilhelm Wien’s earlier formula at short wavelengths but also works at long ones",
+      "k": [
+        "wilhelm wien",
+        "short wavelengths"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meitner-laue",
+      "tier": "power",
+      "t": "Lise Meitner became his assistant in Berlin in 1912; his doctoral students included Max von Laue",
+      "k": [
+        "lise meitner",
+        "max von laue",
+        "assistant"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The man, not his constant",
+    "body": "Many answer lines are named for this man: Planck’s constant, the Planck length, Planck units, and Planck’s law of black-body radiation. If a question asks for “this constant” or “this law,” name the thing; if it asks for “this physicist,” say Planck. Players also mix him up with Albert Einstein, who said in 1905 that light itself comes in packets, and with Max Born, another German-speaking quantum pioneer.",
+    "fix": "Energy packets in 1900, black-body radiation, the 1918 Nobel Prize, an “act of desperation,” and the Kaiser Wilhelm Society point to Planck. Light quanta and the photoelectric effect in 1905 point to Einstein; the probability meaning of quantum waves points to Max Born.",
+    "line": "Real answer line: <b><u>Max Planck</u></b> (accept <u>Planck</u>)"
+  },
+  "tests": {
+    "right": [
+      "Max Planck",
+      "Planck",
+      "Max Plank",
+      "Dr. Max Planck",
+      "max planck"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Max Born",
+      "Albert Einstein",
+      "Lord Rayleigh",
+      "Planck's constant",
+      "Niels Bohr"
+    ]
+  }
+}

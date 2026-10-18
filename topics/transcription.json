@@ -67,7 +67,7 @@
       "r": "That enzyme is RNA polymerase. For 10 points, name this process in which a cell copies a gene’s DNA into messenger RNA."
     },
     {
-      "p": "Alpha-amanitin, the poison in the death cap mushroom, works by blocking one of the enzymes that perform this process in eukaryotes. Those cells use three main versions of that enzyme, numbered I, II, and III, and version II handles the genes that code for proteins.",
+      "p": "Alpha-amanitin, the main poison in the death cap mushroom, works by blocking one of the enzymes that perform this process in eukaryotes. Those cells use three main versions of that enzyme, numbered I, II, and III, and version II handles the genes that code for proteins.",
       "r": "In this process, RNA polymerase builds a strand of messenger RNA. For 10 points, name this process in which a gene’s DNA is copied into RNA."
     },
     {
@@ -87,7 +87,7 @@
       "r": "In eukaryotes, it takes place in the nucleus. For 10 points, name this process in which RNA polymerase copies a gene’s DNA into RNA."
     },
     {
-      "p": "A protein complex called TFIID [“T-F-two-D”] grips a DNA sequence called the TATA box to help start this process in eukaryotes. Sequences called enhancers, which can sit thousands of base pairs away from a gene, can boost how often that gene undergoes this process.",
+      "p": "Sequences called enhancers, which can sit thousands of base pairs away from a gene, can boost how often that gene undergoes this process. In eukaryotes, helper proteins gather at a sequence called the TATA box to help start this process.",
       "r": "This process begins when RNA polymerase binds to a gene’s promoter. For 10 points, name this process that produces messenger RNA from a DNA template."
     },
     {
@@ -323,12 +323,12 @@
       "n": 0
     },
     {
-      "id": "tfiid",
+      "id": "helper-proteins",
       "tier": "power",
-      "t": "Helper proteins such as TFIID, which binds the TATA box, help RNA polymerase II get started",
+      "t": "RNA polymerase II cannot find a promoter on its own; helper proteins must first gather at the TATA box",
       "k": [
-        "tfiid",
-        "helper proteins"
+        "helper proteins",
+        "on its own"
       ],
       "n": 0
     },
@@ -367,7 +367,7 @@
     {
       "id": "amanitin",
       "tier": "power",
-      "t": "Alpha-amanitin, the toxin of the death cap mushroom, blocks RNA polymerase II",
+      "t": "Alpha-amanitin, the main toxin of the death cap mushroom, blocks RNA polymerase II",
       "k": [
         "alpha-amanitin",
         "amanitin",

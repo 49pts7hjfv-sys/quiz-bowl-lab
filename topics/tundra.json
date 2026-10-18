@@ -7,7 +7,7 @@
   "kicker": "Cold, treeless biome of the far north · Frozen permafrost underneath",
   "dates": "Growing season of only about two months",
   "briefing": "The tundra is the coldest biome on Earth: a treeless land in the far north, and on high mountaintops, where winters are long and dark and summer lasts only a couple of months. Just under the surface lies permafrost, ground that stays frozen all year, so trees cannot put down deep roots. Instead, mosses, lichens, and low shrubs feed caribou, musk oxen, and lemmings, while arctic foxes and snowy owls hunt.",
-  "answerHtml": "<b><u>Tundra</u></b> (accept <u>Arctic tundra</u> or <u>alpine tundra</u>; prompt on <u>Arctic</u>; do not accept “taiga” or “permafrost”)",
+  "answerHtml": "<b><u>Tundra</u></b> (accept <u>Arctic tundra</u> or <u>alpine tundra</u>; prompt on <u>Arctic</u> or <u>alpine</u>; do not accept “taiga” or “permafrost”)",
   "accept": [
     "tundra",
     "tundras",
@@ -117,7 +117,7 @@
       "r": "For 10 points, name this cold, treeless biome where permafrost lies beneath the soil and caribou graze on lichens."
     },
     {
-      "p": "Lakes and pits called thermokarst form in this biome when its ice-rich ground melts and the land slumps. Scientists worry that as this biome warms, microbes will break down the carbon stored in its soils and release carbon dioxide and methane.",
+      "p": "Thermokarst lakes and pits form in this biome when its ice-rich ground melts and the land slumps. Scientists worry that as this biome warms, microbes will break down the carbon stored in its soils and release carbon dioxide and methane.",
       "r": "That ice-rich ground is called permafrost. For 10 points, name this treeless biome of the far north, home to caribou and arctic foxes."
     }
   ],

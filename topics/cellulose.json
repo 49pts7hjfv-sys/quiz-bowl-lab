@@ -50,7 +50,6 @@
     "pectin",
     "cell wall",
     "cell walls",
-    "glucose",
     "sucrose",
     "cellophane",
     "rayon",
@@ -87,7 +86,7 @@
       "r": "This substance itself is a chain of glucose units that forms plant cell walls. For 10 points, name this most abundant organic compound on Earth."
     },
     {
-      "p": "Sea squirts, also called tunicates, are the only animals known to make this substance, which forms their tough outer coat, or tunic. Animals such as cows and termites can digest this substance only with help from microbes living in their guts.",
+      "p": "Tunicates, such as sea squirts, are the only animals known to make this substance, which forms their tough outer coat, or tunic. Animals such as cows and termites can digest this substance only with help from microbes living in their guts.",
       "r": "For 10 points, name this polysaccharide, made of glucose, that forms the cell walls of plants."
     },
     {
@@ -107,7 +106,7 @@
       "r": "For 10 points, name this polysaccharide that forms plant cell walls and passes through humans as dietary fiber."
     },
     {
-      "p": "Schweizer’s [“SHVY-tserz”] reagent, a deep-blue solution of copper and ammonia, is one of the few liquids that can dissolve this substance. Because hydrogen bonds pack its chains tightly together, this substance does not dissolve in water.",
+      "p": "In the viscose process, chemicals turn this substance into a thick liquid that is squeezed through tiny holes into an acid bath, forming threads of the fabric rayon. Because hydrogen bonds pack its chains tightly together, this substance does not dissolve in water.",
       "r": "For 10 points, name this polysaccharide that makes up plant cell walls, cotton, and paper."
     },
     {
@@ -123,7 +122,7 @@
       "r": "This substance is the main ingredient of paper. For 10 points, name this polysaccharide that forms plant cell walls."
     },
     {
-      "p": "Count Hilaire de Chardonnet [“shar-doh-NAY”] made an “artificial silk” from this substance in the 1880s. Cows break down this substance by fermenting it in the rumen, the first chamber of the stomach, and by chewing their cud.",
+      "p": "Count Hilaire de Chardonnet [“shar-doh-NAY”] made an “artificial silk” from this substance in the 1880s. Inside a cow’s rumen, the first chamber of its stomach, microbes ferment this substance, and chewing cud helps break it down further.",
       "r": "For 10 points, name this polysaccharide that forms plant cell walls and makes up most of cotton."
     },
     {
@@ -239,7 +238,7 @@
     {
       "id": "rumen",
       "tier": "middle",
-      "t": "Cows ferment it in the rumen, the first chamber of their stomach, and chew their cud",
+      "t": "Microbes in a cow’s rumen, the first chamber of its stomach, ferment it; cows also chew their cud",
       "k": [
         "rumen",
         "cud"
@@ -335,7 +334,7 @@
     {
       "id": "tunicates",
       "tier": "power",
-      "t": "Tunicates (sea squirts) are the only animals known to make it, in their tough outer tunic",
+      "t": "Tunicates, such as sea squirts, are the only animals known to make it, in their tough outer tunic",
       "k": [
         "tunicates",
         "sea squirts",
@@ -387,13 +386,12 @@
       "n": 0
     },
     {
-      "id": "schweizer",
+      "id": "viscose",
       "tier": "power",
-      "t": "Schweizer’s reagent, a deep-blue copper and ammonia solution, can dissolve it",
+      "t": "In the viscose process, chemicals turn it into a thick liquid that is squeezed through tiny holes into an acid bath to spin rayon threads",
       "k": [
-        "schweizer",
-        "copper",
-        "ammonia"
+        "viscose",
+        "acid bath"
       ],
       "n": 0
     },
