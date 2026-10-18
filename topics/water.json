@@ -1,0 +1,435 @@
+{
+  "id": "water",
+  "name": "Water",
+  "mono": "H2O",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "H₂O · The bent, polar molecule that covers most of Earth",
+  "dates": "Shown to be hydrogen plus oxygen in the 1780s",
+  "briefing": "Water is just two hydrogen atoms stuck to one oxygen atom, but it is one of the strangest substances around. Its bent, lopsided molecules cling to each other through hydrogen bonds, which lets water soak up huge amounts of heat and lets insects stand on its surface. Strangest of all, it expands when it freezes, so ice floats on top of lakes instead of sinking to the bottom.",
+  "answerHtml": "<b><u>Water</u></b> (accept <u>H<sub>2</sub>O</u> or <u>dihydrogen monoxide</u>; prompt on <u>ice</u> or <u>steam</u>)",
+  "accept": [
+    "water",
+    "h2o",
+    "h o",
+    "dihydrogen monoxide",
+    "dihydrogen oxide",
+    "oxidane"
+  ],
+  "prompt": [
+    "ice",
+    "steam"
+  ],
+  "reject": [
+    "heavy water",
+    "deuterium oxide",
+    "hydrogen peroxide",
+    "peroxide",
+    "hydrogen",
+    "oxygen",
+    "hydroxide",
+    "hydronium",
+    "hydrogen bond",
+    "hydrogen bonds",
+    "ammonia",
+    "carbon dioxide",
+    "methane",
+    "sodium chloride",
+    "salt",
+    "dry ice"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Water",
+  "qb": {
+    "q": "water",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Until 2019, the kelvin was defined using this substance’s triple point, the one temperature and pressure where its solid, liquid, and gas forms can all exist together. Anders Celsius’s original temperature scale put 100 degrees at this substance’s freezing point and 0 at its boiling point.",
+      "r": "For 10 points, name this compound whose molecules have two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "p": "The ion product constant of this compound equals 1.0 times 10 to the negative 14th at 25 degrees Celsius, because a tiny fraction of its molecules split into hydronium and hydroxide ions. It is amphoteric, meaning it can act as either an acid or a base.",
+      "r": "For 10 points, name this compound, which has a pH of 7 when pure at room temperature."
+    },
+    {
+      "p": "The Mpemba [“em-PEM-bah”] effect is the claim that a hot sample of this substance can sometimes freeze faster than a cold one. On a phase diagram, the line between this substance’s solid and liquid forms slopes backward, so squeezing its solid form hard enough can make it melt.",
+      "r": "For 10 points, name this substance that freezes at 0 degrees Celsius and boils at 100 degrees Celsius at sea level."
+    },
+    {
+      "p": "Each molecule of this compound can form up to four hydrogen bonds, which lock its solid form into an open, six-sided crystal pattern. Because of that open structure, this compound expands by about 9 percent when it freezes.",
+      "r": "Its solid form, ice, floats on its liquid form. For 10 points, name this compound with a bent molecular shape."
+    },
+    {
+      "p": "In 1943, Norwegian commandos working with the Allies sabotaged a plant at Vemork, Norway, that made a “heavy” form of this compound in which deuterium replaces ordinary hydrogen. That heavy form can slow down neutrons inside nuclear reactors.",
+      "r": "For 10 points, name this compound that covers about 71 percent of Earth’s surface."
+    },
+    {
+      "p": "Thales of Miletus [“mye-LEE-tus”] argued that everything in the world is ultimately made of this substance. Many centuries later, Henry Cavendish showed that it forms when hydrogen burns, and Antoine Lavoisier proved that it is a compound, not an element.",
+      "r": "For 10 points, name this substance that the ancient Greeks counted as one of the four classical elements, along with earth, air, and fire."
+    },
+    {
+      "p": "The kilogram was originally defined as the mass of one liter of this substance, and the calorie was defined as the energy needed to warm one gram of it by one degree Celsius.",
+      "r": "This substance’s molecules are attracted to each other by hydrogen bonds. For 10 points, name this compound, often called the “universal solvent.”"
+    },
+    {
+      "p": "This compound’s molecules have a bent shape with a bond angle of about 104.5 degrees, because its central oxygen atom has two lone pairs of electrons. That lopsided shape makes the molecule strongly polar.",
+      "r": "This polar compound dissolves so many substances that it is called the “universal solvent.” For 10 points, name this compound, whose solid form, ice, floats."
+    },
+    {
+      "p": "Some insects, such as pond skaters, can stand on this liquid because of its high surface tension. Cohesion and adhesion let this liquid climb up narrow tubes in a process called capillary action.",
+      "r": "Its molecules stick together through hydrogen bonds. For 10 points, name this liquid, which boils at 100 degrees Celsius at sea level."
+    },
+    {
+      "p": "This compound has an unusually high specific heat: it takes about 4.18 joules to warm one gram of it by one degree Celsius, which helps oceans keep coastal climates mild. Its high heat of vaporization lets sweat cool the body as it evaporates.",
+      "r": "For 10 points, name this compound, which freezes at 0 degrees Celsius and covers most of Earth’s surface."
+    },
+    {
+      "p": "During photosynthesis, plants split molecules of this compound in photosystem II, releasing their oxygen atoms as oxygen gas. Cellular respiration produces this compound when oxygen accepts electrons at the end of the electron transport chain.",
+      "r": "Plants take in this compound through their roots. For 10 points, name this compound made of hydrogen and oxygen."
+    },
+    {
+      "p": "Passing an electric current through this compound in a process called electrolysis splits it into two gases, with twice as much hydrogen as oxygen by volume. An electrolyte such as dilute sulfuric acid is often added first, because the pure compound conducts electricity poorly.",
+      "r": "For 10 points, name this compound, which makes up more than half of the human body by mass."
+    },
+    {
+      "p": "Condensation reactions, which link small molecules into larger ones such as proteins and starch, release one molecule of this compound each time a new bond forms. Breaking those bonds apart again requires adding this compound back.",
+      "r": "For 10 points, name this compound, which makes up most of a living cell."
+    },
+    {
+      "p": "This liquid is densest not at its freezing point but at about 4 degrees Celsius, so in winter the bottom of a deep lake stays near that temperature while its surface freezes.",
+      "r": "Its polar molecules are attracted to each other through hydrogen bonds. For 10 points, name this compound, the most common liquid on Earth’s surface."
+    },
+    {
+      "p": "The Leidenfrost [“LYE-den-frost”] effect makes droplets of this liquid skitter across a very hot pan on a cushion of their own vapor. In Kurt Vonnegut’s novel _Cat’s Cradle_, ice-nine is a fictional solid form of this substance that stays frozen at room temperature.",
+      "r": "For 10 points, name this compound that covers most of Earth’s surface and whose solid form is ice."
+    }
+  ],
+  "clues": [
+    {
+      "id": "formula",
+      "tier": "giveaway",
+      "t": "Made of two hydrogen atoms bonded to one oxygen atom",
+      "k": [
+        "two hydrogen",
+        "one oxygen",
+        "oxygen atom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "solvent",
+      "tier": "giveaway",
+      "t": "Called the “universal solvent” because it dissolves so many substances",
+      "k": [
+        "universal solvent",
+        "dissolves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ice-floats",
+      "tier": "giveaway",
+      "t": "Its solid form, ice, is less dense than the liquid, so ice floats",
+      "k": [
+        "less dense",
+        "floats"
+      ],
+      "n": 0,
+      "rabbit": "Ice"
+    },
+    {
+      "id": "freeze-boil",
+      "tier": "giveaway",
+      "t": "Freezes at 0 °C and boils at 100 °C at sea level",
+      "k": [
+        "freezes",
+        "boils",
+        "sea level"
+      ],
+      "n": 0
+    },
+    {
+      "id": "earth",
+      "tier": "giveaway",
+      "t": "Covers about 71 percent of Earth’s surface",
+      "k": [
+        "71 percent",
+        "surface"
+      ],
+      "n": 0,
+      "rabbit": "Oceans"
+    },
+    {
+      "id": "bent",
+      "tier": "middle",
+      "t": "Bent molecule with a bond angle of about 104.5°, because the oxygen atom has two lone pairs",
+      "k": [
+        "lone pairs",
+        "bent",
+        "104.5"
+      ],
+      "n": 0
+    },
+    {
+      "id": "polar",
+      "tier": "middle",
+      "t": "A polar molecule; its molecules stick together through hydrogen bonds",
+      "k": [
+        "hydrogen bonds",
+        "polar"
+      ],
+      "n": 0,
+      "rabbit": "Hydrogen bonds"
+    },
+    {
+      "id": "specific-heat",
+      "tier": "middle",
+      "t": "Very high specific heat: about 4.18 joules (1 calorie) warms 1 gram of it by 1 °C",
+      "k": [
+        "specific heat",
+        "calorie",
+        "4.18"
+      ],
+      "n": 0
+    },
+    {
+      "id": "surface-tension",
+      "tier": "middle",
+      "t": "High surface tension lets pond skaters stand on it; cohesion and adhesion cause capillary action",
+      "k": [
+        "surface tension",
+        "capillary action",
+        "cohesion"
+      ],
+      "n": 0,
+      "rabbit": "Surface tension"
+    },
+    {
+      "id": "densest-4",
+      "tier": "middle",
+      "t": "Densest at about 4 degrees Celsius, not at its freezing point",
+      "k": [
+        "densest",
+        "4 degrees"
+      ],
+      "n": 0
+    },
+    {
+      "id": "electrolysis",
+      "tier": "middle",
+      "t": "Electrolysis splits it into hydrogen and oxygen gas, 2 to 1 by volume",
+      "k": [
+        "electrolysis",
+        "2 to 1"
+      ],
+      "n": 0,
+      "rabbit": "Electrolysis"
+    },
+    {
+      "id": "neutral",
+      "tier": "middle",
+      "t": "Pure samples are neutral, with a pH of 7 at 25 °C",
+      "k": [
+        "neutral",
+        "ph of 7"
+      ],
+      "n": 0,
+      "rabbit": "pH"
+    },
+    {
+      "id": "amphoteric",
+      "tier": "middle",
+      "t": "Amphoteric: it can act as either an acid or a base",
+      "k": [
+        "amphoteric",
+        "acid or a base"
+      ],
+      "n": 0
+    },
+    {
+      "id": "photosynthesis",
+      "tier": "middle",
+      "t": "Plants split it in photosynthesis, releasing oxygen, and cellular respiration produces it",
+      "k": [
+        "photosynthesis",
+        "cellular respiration"
+      ],
+      "n": 0,
+      "rabbit": "Photosynthesis"
+    },
+    {
+      "id": "condensation",
+      "tier": "middle",
+      "t": "Released when condensation (dehydration synthesis) reactions build big molecules; added back to break them apart in hydrolysis",
+      "k": [
+        "dehydration synthesis",
+        "condensation",
+        "hydrolysis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kw",
+      "tier": "power",
+      "t": "Its ion product constant, Kw, is 1.0 × 10⁻¹⁴ at 25 °C, as a few molecules split into hydronium and hydroxide ions",
+      "k": [
+        "ion product",
+        "hydronium",
+        "hydroxide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triple-point",
+      "tier": "power",
+      "t": "Its triple point was used to define the kelvin until 2019",
+      "k": [
+        "triple point",
+        "kelvin",
+        "2019"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kilogram-calorie",
+      "tier": "power",
+      "t": "The kilogram was first defined as the mass of one liter of it, and the calorie as the heat to warm 1 gram of it by 1 °C",
+      "k": [
+        "kilogram",
+        "one liter",
+        "calorie"
+      ],
+      "n": 0
+    },
+    {
+      "id": "celsius",
+      "tier": "power",
+      "t": "Anders Celsius’s original scale put 100 at its freezing point and 0 at its boiling point",
+      "k": [
+        "anders celsius",
+        "original scale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vemork",
+      "tier": "power",
+      "t": "In 1943, commandos sabotaged a plant at Vemork, Norway, that made its “heavy” form, which uses deuterium",
+      "k": [
+        "vemork",
+        "norway",
+        "deuterium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mpemba",
+      "tier": "power",
+      "t": "The Mpemba effect claims a hot sample can sometimes freeze faster than a cold one",
+      "k": [
+        "mpemba",
+        "freeze faster"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phase-diagram",
+      "tier": "power",
+      "t": "On its phase diagram, the solid–liquid line slopes backward, so pressure can melt its solid form",
+      "k": [
+        "phase diagram",
+        "slopes backward"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-bonds",
+      "tier": "power",
+      "t": "Each molecule can form four hydrogen bonds, giving ice an open, six-sided crystal; it expands about 9 percent when it freezes",
+      "k": [
+        "four hydrogen bonds",
+        "six-sided",
+        "9 percent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thales",
+      "tier": "power",
+      "t": "Thales of Miletus said everything is made of it; it was one of the four classical elements",
+      "k": [
+        "thales",
+        "miletus",
+        "classical elements"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cavendish-lavoisier",
+      "tier": "power",
+      "t": "Henry Cavendish showed it forms when hydrogen burns; Antoine Lavoisier showed it is a compound, not an element",
+      "k": [
+        "cavendish",
+        "lavoisier",
+        "compound"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leidenfrost",
+      "tier": "power",
+      "t": "Leidenfrost effect: droplets skitter across a very hot pan on a cushion of their own vapor",
+      "k": [
+        "leidenfrost",
+        "vapor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ice-nine",
+      "tier": "power",
+      "t": "Kurt Vonnegut’s _Cat’s Cradle_ features ice-nine, a fictional solid form that stays frozen at room temperature",
+      "k": [
+        "ice-nine",
+        "vonnegut",
+        "cat’s cradle"
+      ],
+      "n": 0,
+      "rabbit": "Kurt Vonnegut"
+    }
+  ],
+  "trap": {
+    "title": "Water, ice, or hydrogen?",
+    "body": "Clues about floating ice, the triple point, or ice-nine tempt players to say “ice,” but “ice” names only the solid form, and the question usually wants the whole substance. Other players hear “hydrogen bonds” or “two hydrogen atoms” and blurt “hydrogen,” which is just one element in the molecule. “Heavy water” is a different compound, made with deuterium.",
+    "fix": "If the question says “this compound,” “this substance,” or “this liquid,” say water (or H₂O). Save “ice” for questions that ask for “this solid,” and “hydrogen bonds” for questions about the attraction itself.",
+    "line": "Real answer line: <b><u>Water</u></b> (accept <u>H<sub>2</sub>O</u> or <u>dihydrogen monoxide</u>; prompt on <u>ice</u> or <u>steam</u>)"
+  },
+  "tests": {
+    "right": [
+      "Water",
+      "H2O",
+      "Dihydrogen monoxide",
+      "Watter",
+      "liquid water"
+    ],
+    "prompt": [
+      "Ice",
+      "Steam"
+    ],
+    "wrong": [
+      "Heavy water",
+      "Hydrogen peroxide",
+      "Hydrogen",
+      "Oxygen",
+      "Ammonia"
+    ]
+  }
+}

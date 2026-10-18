@@ -1,0 +1,404 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "halogens",
+    "name": "Halogens",
+    "mono": "G17",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Group 17 of the periodic table · The “salt-forming” elements",
+    "dates": "Chlorine found 1774; tennessine made 2010",
+    "briefing": "The halogens are the six elements of group 17: fluorine, chlorine, bromine, iodine, astatine, and tennessine. Their name means “salt-former,” because they react eagerly with metals to make salts, like the sodium chloride on your dinner table. Fluorine is the most reactive element of all, chlorine keeps swimming pools clean, and bromine is one of only two elements that are liquid at room temperature.",
+    "answerHtml": "<b><u>Halogens</u></b> (accept <u>group 17</u> or group <u>VIIA</u> elements; prompt on group <u>7</u>)",
+    "accept": [
+        "halogens",
+        "halogen",
+        "group 17",
+        "group seventeen",
+        "group viia",
+        "group vii a",
+        "group 7a",
+        "group seven a"
+    ],
+    "prompt": [
+        "group 7",
+        "group vii",
+        "group seven"
+    ],
+    "reject": [
+        "noble gases",
+        "noble gas",
+        "inert gases",
+        "group 18",
+        "group eighteen",
+        "group 8a",
+        "group viiia",
+        "group viii a",
+        "group viii",
+        "group 7b",
+        "group viib",
+        "group vii b",
+        "chalcogens",
+        "chalcogen",
+        "group 16",
+        "group sixteen",
+        "group 6a",
+        "group via",
+        "group vi a",
+        "group vi",
+        "pnictogens",
+        "alkali metals",
+        "alkali metal",
+        "alkaline earth metals",
+        "transition metals",
+        "metalloids",
+        "lanthanides",
+        "actinides",
+        "nonmetals",
+        "halides",
+        "halide",
+        "fluorine",
+        "chlorine",
+        "bromine",
+        "iodine",
+        "astatine",
+        "tennessine",
+        "group 1",
+        "group 2",
+        "group 3",
+        "group 4",
+        "group 5",
+        "group 6",
+        "group 8",
+        "group 9",
+        "group 10",
+        "group 11",
+        "group 12",
+        "group 13",
+        "group 14",
+        "group 15",
+        "group 1a",
+        "group 2a",
+        "group 3a",
+        "group 4a",
+        "group 5a",
+        "group ia",
+        "group iia",
+        "group iiia",
+        "group iva",
+        "group va"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Halogen",
+    "qb": {
+        "q": "halogen",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Henri Moissan [“mwah-SAHN”] won the 1906 Nobel Prize in Chemistry for isolating the lightest of these elements, which he finally managed in 1886 by electrolysis. The heaviest of these elements, tennessine, was first made in 2010 and named for a U.S. state.",
+            "r": "For 10 points, name this group of elements, including fluorine and chlorine, whose atoms have seven valence electrons."
+        },
+        {
+            "p": "The second-lightest of these elements has the highest electron affinity of any element, even higher than the lightest one. The lightest of these elements forms a surprisingly weak bond with itself, weaker than the bond between two atoms of the second-lightest.",
+            "r": "For 10 points, name this group of reactive elements, whose name means “salt-former,” that includes fluorine and chlorine."
+        },
+        {
+            "p": "With hydrogen, the members of this group form acids, and only the one made with the lightest member, which can etch glass, is a weak acid. Two different members of this group can bond together in compounds like chlorine trifluoride.",
+            "r": "For 10 points, name this group of elements that gain one electron to form ions with a −1 charge, such as chloride and bromide."
+        },
+        {
+            "p": "Astatine, the rarest naturally occurring member of this group, was first made at the University of California, Berkeley, in 1940, and its name comes from the Greek word for “unstable.” Its lighter neighbor in this group, iodine, is named for the Greek word for “violet.”",
+            "r": "These diatomic elements sit just left of the noble gases. For 10 points, name this group that includes fluorine, chlorine, bromine, and iodine."
+        },
+        {
+            "p": "Bernard Courtois [“koor-TWAH”] discovered one of these elements in the ashes of seaweed in 1811. Antoine Balard [“bah-LAR”] announced the discovery of another one in 1826, and its name comes from the Greek word for “stench.”",
+            "r": "For 10 points, name this group of elements, including iodine and bromine, which form salts when they react with metals."
+        },
+        {
+            "p": "Silver compounds of these elements are so sensitive to light that they made old-fashioned photographic film work, and a silver compound of one of them is sprayed into clouds to help make rain or snow.",
+            "r": "Iodine is added to table salt to keep the thyroid gland healthy. For 10 points, name this group of elements whose name means “salt-former.”"
+        },
+        {
+            "p": "Thomas Midgley Jr. helped develop refrigerants called CFCs, which contain two of these elements and were later phased out by the 1987 Montreal Protocol to protect the ozone layer. These elements become less reactive going down their group.",
+            "r": "For 10 points, name this group of elements, including fluorine and chlorine, that form salts with metals."
+        },
+        {
+            "p": "Some very bright light bulbs contain a small amount of iodine or bromine, which helps their glowing tungsten filaments last longer. Chlorine, another member of this group, is used to disinfect swimming pools and drinking water.",
+            "r": "For 10 points, name this group of elements whose atoms have seven valence electrons and form ions with a −1 charge."
+        },
+        {
+            "p": "The heaviest member of this group, element 117, was first made in 2010 by a team of Russian and American scientists and named for the state of Tennessee. Another member of this group, astatine, is radioactive and extremely rare.",
+            "r": "For 10 points, name this group of elements that also includes fluorine, chlorine, bromine, and iodine."
+        },
+        {
+            "p": "Two different members of this group can bond to each other, forming compounds such as chlorine trifluoride and iodine heptafluoride. Moving down this group, the atoms get larger and the elements become less reactive.",
+            "r": "For 10 points, name this group of elements, each of which needs just one more electron to fill its outer shell."
+        },
+        {
+            "p": "When chlorine water is added to a solution of potassium bromide, the mixture turns orange-brown because chlorine pushes out the less reactive member of this group, an example of a displacement reaction.",
+            "r": "Fluorine is the most reactive member of this group. For 10 points, name this group of elements whose name means “salt-former.”"
+        },
+        {
+            "p": "At room temperature, the lightest two members of this group are gases, the third is a reddish-brown liquid, and the fourth is a gray-black solid that turns directly into a violet vapor when heated.",
+            "r": "These elements react with sodium to form salts such as table salt. For 10 points, name this group of elements just left of the noble gases."
+        },
+        {
+            "p": "Grignard [“green-YAR”] reagents are made by reacting magnesium metal with a carbon compound containing one of these elements, such as bromine. Fluorine, the most reactive member of this group, is also the most electronegative element.",
+            "r": "For 10 points, name this group of elements, including chlorine and iodine, whose atoms have seven valence electrons."
+        },
+        {
+            "p": "Humphry Davy proved that one of these elements was an element, not a compound, and named it after the Greek word for “pale green.” Carl Wilhelm Scheele [“SHAY-luh”] had first produced that element in 1774.",
+            "r": "These elements form salts with metals like sodium. For 10 points, name this group of elements that includes chlorine, fluorine, and iodine."
+        },
+        {
+            "p": "Roy Plunkett accidentally discovered the nonstick plastic Teflon in 1938, and it is made of carbon and the lightest of these elements. Iodine, another member of this group, is added to table salt to keep the thyroid gland healthy.",
+            "r": "For 10 points, name this group of reactive elements with seven valence electrons each."
+        }
+    ],
+    "clues": [
+        {
+            "id": "members",
+            "tier": "giveaway",
+            "t": "Fluorine, chlorine, bromine, iodine, astatine, and tennessine",
+            "k": ["fluorine", "chlorine", "bromine", "iodine"],
+            "n": 0
+        },
+        {
+            "id": "column",
+            "tier": "giveaway",
+            "t": "The column just left of the noble gases on the periodic table",
+            "k": ["noble gases", "column"],
+            "n": 0,
+            "rabbit": "Noble gases"
+        },
+        {
+            "id": "seven-valence",
+            "tier": "giveaway",
+            "t": "Each atom has seven valence electrons and gains one electron to form an ion with a −1 charge",
+            "k": ["seven valence", "valence electrons"],
+            "n": 0
+        },
+        {
+            "id": "salt-former",
+            "tier": "giveaway",
+            "t": "Their name comes from Greek words meaning “salt-former”",
+            "k": ["salt-former", "greek"],
+            "n": 0
+        },
+        {
+            "id": "salts",
+            "tier": "giveaway",
+            "t": "React with metals such as sodium to make salts like sodium chloride, table salt",
+            "k": ["sodium chloride", "table salt", "salts"],
+            "n": 0,
+            "rabbit": "Sodium"
+        },
+        {
+            "id": "diatomic",
+            "tier": "middle",
+            "t": "They exist as diatomic molecules such as F₂, Cl₂, Br₂, and I₂",
+            "k": ["diatomic", "molecules"],
+            "n": 0
+        },
+        {
+            "id": "states",
+            "tier": "middle",
+            "t": "At room temperature, fluorine and chlorine are gases, bromine is a liquid, and iodine is a solid",
+            "k": ["room temperature", "gases", "liquid", "solid"],
+            "n": 0
+        },
+        {
+            "id": "bromine-liquid",
+            "tier": "middle",
+            "t": "Bromine is one of only two elements that are liquid at room temperature; the other is mercury",
+            "k": ["mercury", "bromine"],
+            "n": 0
+        },
+        {
+            "id": "iodine-violet",
+            "tier": "middle",
+            "t": "Iodine is a gray-black solid that turns into a violet vapor when heated; its name comes from the Greek for “violet”",
+            "k": ["violet", "gray-black", "iodine"],
+            "n": 0
+        },
+        {
+            "id": "reactivity",
+            "tier": "middle",
+            "t": "Reactivity decreases going down the group; fluorine is the most reactive element of all",
+            "k": ["most reactive", "reactivity"],
+            "n": 0
+        },
+        {
+            "id": "ions",
+            "tier": "middle",
+            "t": "Their −1 ions are fluoride, chloride, bromide, and iodide",
+            "k": ["fluoride", "chloride", "bromide", "iodide"],
+            "n": 0
+        },
+        {
+            "id": "displacement",
+            "tier": "middle",
+            "t": "A more reactive one displaces a less reactive one from a salt: chlorine turns potassium bromide solution orange-brown",
+            "k": ["displaces", "orange-brown", "displacement"],
+            "n": 0
+        },
+        {
+            "id": "uses",
+            "tier": "middle",
+            "t": "Chlorine disinfects pools and drinking water, fluoride fights tooth decay, and iodine is added to “iodized” salt",
+            "k": ["disinfects", "tooth decay", "iodized"],
+            "n": 0
+        },
+        {
+            "id": "most-electronegative",
+            "tier": "middle",
+            "t": "Fluorine is the most electronegative element",
+            "k": ["electronegative", "fluorine"],
+            "n": 0,
+            "rabbit": "Electronegativity"
+        },
+        {
+            "id": "hf-weak",
+            "tier": "power",
+            "t": "Their acids with hydrogen are strong, except hydrofluoric acid, which is weak but can etch glass",
+            "k": ["hydrofluoric", "etch glass", "weak"],
+            "n": 0
+        },
+        {
+            "id": "mixed-compounds",
+            "tier": "power",
+            "t": "Two different members bond to each other in compounds like chlorine trifluoride and iodine heptafluoride",
+            "k": ["chlorine trifluoride", "heptafluoride"],
+            "n": 0
+        },
+        {
+            "id": "chlorine-affinity",
+            "tier": "power",
+            "t": "Chlorine has the highest electron affinity of any element, higher even than fluorine’s",
+            "k": ["electron affinity", "chlorine"],
+            "n": 0
+        },
+        {
+            "id": "weak-bond",
+            "tier": "power",
+            "t": "The bond in a fluorine molecule is surprisingly weaker than the bond in a chlorine molecule",
+            "k": ["fluorine molecule", "weaker"],
+            "n": 0
+        },
+        {
+            "id": "moissan",
+            "tier": "power",
+            "t": "Henri Moissan isolated fluorine in 1886 by electrolysis and won the 1906 Nobel Prize in Chemistry",
+            "k": ["moissan", "1886", "1906"],
+            "n": 0,
+            "rabbit": "Fluorine"
+        },
+        {
+            "id": "scheele-davy",
+            "tier": "power",
+            "t": "Carl Wilhelm Scheele first made chlorine in 1774; Humphry Davy proved it was an element and named it for its pale green color",
+            "k": ["humphry davy", "scheele", "pale green", "1774"],
+            "n": 0,
+            "rabbit": "Chlorine"
+        },
+        {
+            "id": "courtois-balard",
+            "tier": "power",
+            "t": "Bernard Courtois found iodine in seaweed ash (1811); Antoine Balard announced bromine (1826), whose name comes from the Greek for “stench”",
+            "k": ["courtois", "balard", "seaweed", "stench"],
+            "n": 0
+        },
+        {
+            "id": "astatine",
+            "tier": "power",
+            "t": "Astatine, first made at Berkeley in 1940, is radioactive and very rare; its name means “unstable”",
+            "k": ["astatine", "berkeley", "unstable", "1940"],
+            "n": 0
+        },
+        {
+            "id": "tennessine",
+            "tier": "power",
+            "t": "Tennessine, element 117, was first made in 2010 by Russian and American scientists and named for Tennessee",
+            "k": ["tennessine", "tennessee", "117", "2010"],
+            "n": 0
+        },
+        {
+            "id": "silver-compounds",
+            "tier": "power",
+            "t": "Light-sensitive silver compounds of these elements made photographic film work; silver iodide is used to seed clouds",
+            "k": ["photographic film", "silver iodide", "seed clouds"],
+            "n": 0
+        },
+        {
+            "id": "cfcs",
+            "tier": "power",
+            "t": "Thomas Midgley Jr. helped develop CFC refrigerants; the 1987 Montreal Protocol phased them out to protect the ozone layer",
+            "k": ["montreal protocol", "midgley", "ozone", "cfc"],
+            "n": 0,
+            "rabbit": "Ozone layer"
+        },
+        {
+            "id": "lamps",
+            "tier": "power",
+            "t": "Some bright light bulbs use iodine or bromine to help their tungsten filaments last longer",
+            "k": ["tungsten", "filaments", "light bulbs"],
+            "n": 0
+        },
+        {
+            "id": "grignard",
+            "tier": "power",
+            "t": "Grignard reagents are made from magnesium and a carbon compound containing chlorine, bromine, or iodine",
+            "k": ["grignard", "magnesium"],
+            "n": 0
+        },
+        {
+            "id": "teflon",
+            "tier": "power",
+            "t": "Roy Plunkett discovered Teflon, made of carbon and fluorine, in 1938",
+            "k": ["teflon", "plunkett", "1938"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The family, not one member",
+        "body": "Tossups on this group are packed with single-element clues, like fluorine’s reactivity, chlorine in pools, or bromine as a liquid, which tempts players to blurt one element’s name. But the question wants the whole family. The noble gases, one column to the right, are the other trap: they almost never react, while these elements are among the most reactive on the periodic table.",
+        "fix": "Listen for “these elements” or “this group,” and answer with the family name. Seven valence electrons, −1 ions, “salt-former,” and diatomic molecules mean this group; full outer shells, glowing neon signs, and almost no reactions mean the noble gases.",
+        "line": "Real answer line: <b><u>Halogens</u></b> (accept <u>group 17</u> or group <u>VIIA</u> elements; prompt on group <u>7</u>)"
+    },
+    "tests": {
+        "right": [
+            "Halogens",
+            "halogen",
+            "Group 17",
+            "Halogins",
+            "Group VIIA"
+        ],
+        "prompt": [
+            "Group 7"
+        ],
+        "wrong": [
+            "Noble gases",
+            "Group 18",
+            "Chlorine",
+            "Halides",
+            "Alkali metals",
+            "Group 16",
+            "Group 7B"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

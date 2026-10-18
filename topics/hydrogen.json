@@ -1,0 +1,454 @@
+{
+  "id": "hydrogen",
+  "name": "Hydrogen",
+  "mono": "H",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 1 · The lightest and most common element in the universe",
+  "dates": "Identified by Henry Cavendish, 1766",
+  "briefing": "Hydrogen is element number one: the lightest, simplest atom, usually just one proton and one electron. It makes up about three-quarters of the normal matter in the universe, and stars like the Sun shine by fusing it into helium. In 1937 the hydrogen-filled airship _Hindenburg_ burst into flames in New Jersey, but today engineers hope to use hydrogen as a clean fuel whose only exhaust is water.",
+  "answerHtml": "<b><u>Hydrogen</u></b> (accept <u>H</u> or <u>H<sub>2</sub></u>)",
+  "accept": [
+    "hydrogen",
+    "h",
+    "h2",
+    "hydrogen gas"
+  ],
+  "prompt": [],
+  "reject": [
+    "hydrogen bond",
+    "hydrogen bonds",
+    "hydrogen bonding",
+    "hydrogen peroxide",
+    "hydrogen bomb",
+    "hydrogen chloride",
+    "hydrogen sulfide",
+    "hydrogen fluoride",
+    "hydrogen cyanide",
+    "heavy hydrogen",
+    "deuterium",
+    "tritium",
+    "helium",
+    "oxygen",
+    "nitrogen",
+    "lithium",
+    "water",
+    "proton",
+    "protons",
+    "hydronium",
+    "hydroxide",
+    "hydride",
+    "dihydrogen monoxide"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Hydrogen",
+  "qb": {
+    "q": "hydrogen",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Radio astronomers map the spiral arms of the Milky Way using the 21-centimeter line, given off when the electron in an atom of this element flips its spin. This element’s visible spectral lines make up the Balmer series.",
+      "r": "For 10 points, name this lightest element, which stars like the Sun fuse into helium."
+    },
+    {
+      "p": "Harold Urey won the 1934 Nobel Prize in Chemistry for discovering a heavier isotope of this element, deuterium, whose nucleus holds one proton and one neutron. Heavy water, used to slow down neutrons in some nuclear reactors, is made with that isotope.",
+      "r": "For 10 points, name this element, the most common in the universe, whose most common isotope has one proton and no neutrons."
+    },
+    {
+      "p": "James Dewar first turned this element into a liquid in 1898; in that form it boils at only about 20 kelvins. That liquid, burned with liquid oxygen, powered the main engines of NASA’s Space Shuttle.",
+      "r": "For 10 points, name this lightest element, which filled the German airship _Hindenburg_ when it burst into flames in 1937."
+    },
+    {
+      "p": "Molecules of this element come in two forms, ortho and para, depending on whether the spins of their two nuclei point the same way or opposite ways. Under crushing pressure, this element may become a liquid metal, as scientists think happens deep inside Jupiter.",
+      "r": "For 10 points, name this gas, the lightest element, which stars like the Sun fuse into helium."
+    },
+    {
+      "p": "This element’s atom is the only neutral atom for which the Schrödinger [“SHROH-ding-er”] equation can be solved exactly. In 1913, Niels Bohr explained the colors of light this element gives off with a model in which its single electron moves in fixed orbits.",
+      "r": "For 10 points, name this element with atomic number 1, the most abundant element in the universe."
+    },
+    {
+      "p": "Henry Cavendish identified this element as a separate substance in 1766, calling it “inflammable air.” Antoine Lavoisier [“lah-vwah-zee-AY”] later named it using Greek words meaning “water-former,” because it makes water when it burns.",
+      "r": "Two atoms of this element join one oxygen atom in each water molecule. For 10 points, name this element, the lightest of all."
+    },
+    {
+      "p": "Paul Sabatier [“sah-bah-TYAY”] won a Nobel Prize for discovering that finely powdered nickel helps this element add to carbon compounds, a reaction later used to turn liquid vegetable oils into solid margarine.",
+      "r": "This element combines with nitrogen in the Haber process to make ammonia. For 10 points, name this lightest element."
+    },
+    {
+      "p": "When an electric current splits water, this element bubbles up at the negative electrode, with twice the volume of the oxygen produced at the other electrode. In the Haber process, nitrogen is combined with this element under high pressure to make ammonia.",
+      "r": "This element gave the airship _Hindenburg_ its lift. For 10 points, name this lightest element, with atomic number 1."
+    },
+    {
+      "p": "Fuel cell cars combine this element with oxygen to make electricity, leaving only water as exhaust. In a school lab, a lit wooden splint makes a “squeaky pop” when it is held in a test tube full of this gas.",
+      "r": "For 10 points, name this element with atomic number 1, the lightest of all."
+    },
+    {
+      "p": "This element is usually placed at the top of group 1, above lithium, even though it is a nonmetal and not an alkali metal. When an acid dissolves in water, it releases positive ions of this element, which are really just bare protons.",
+      "r": "For 10 points, name this element, which makes up about three-quarters of the normal matter in the universe."
+    },
+    {
+      "p": "The Lyman series of spectral lines, which are all in the ultraviolet, comes from electrons in this element’s atoms falling to the lowest energy level. The Rydberg formula predicts the wavelengths of light given off by this element.",
+      "r": "For 10 points, name this element, whose single electron Niels Bohr described in his 1913 model of the atom."
+    },
+    {
+      "p": "About 380,000 years after the Big Bang, the universe cooled enough for electrons and nuclei to combine into neutral atoms, most of them atoms of this element. Stars like the Sun shine by fusing this element’s nuclei into helium in their cores.",
+      "r": "For 10 points, name this most abundant element in the universe, which has atomic number 1."
+    },
+    {
+      "p": "The most common isotope of this element, sometimes called protium, is the only stable kind of atom whose nucleus contains no neutrons. Because its molecules are the lightest of all, this element’s gas escapes through tiny holes faster than any other gas.",
+      "r": "The airship _Hindenburg_ was filled with this flammable gas when it burst into flames in 1937. For 10 points, name this element."
+    },
+    {
+      "p": "Tritium, a radioactive isotope of this element with two neutrons, has a half-life of about 12 years and is used to make some exit signs and watch dials glow. Tritium decays into a light form of helium.",
+      "r": "For 10 points, name this element, the lightest of all, whose most common isotope has just one proton and no neutrons."
+    },
+    {
+      "p": "Emission nebulae such as the Orion Nebula glow pinkish red because of a bright line in this element’s Balmer series. The giant planets Jupiter and Saturn are made mostly of this element, along with helium.",
+      "r": "For 10 points, name this most abundant element in the universe, which has atomic number 1."
+    }
+  ],
+  "clues": [
+    {
+      "id": "element-1",
+      "tier": "giveaway",
+      "t": "Element number 1: the lightest element, usually just one proton and one electron",
+      "k": [
+        "element number 1",
+        "lightest",
+        "one proton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "universe",
+      "tier": "giveaway",
+      "t": "Most abundant element in the universe, about three-quarters of normal matter by mass",
+      "k": [
+        "most abundant",
+        "universe",
+        "three-quarters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sun",
+      "tier": "giveaway",
+      "t": "Stars like the Sun fuse it into helium in their cores",
+      "k": [
+        "helium",
+        "fuse",
+        "stars"
+      ],
+      "n": 0,
+      "rabbit": "Nuclear fusion"
+    },
+    {
+      "id": "water",
+      "tier": "giveaway",
+      "t": "Two of its atoms join one oxygen atom in every water molecule",
+      "k": [
+        "water",
+        "oxygen"
+      ],
+      "n": 0,
+      "rabbit": "Water"
+    },
+    {
+      "id": "hindenburg",
+      "tier": "giveaway",
+      "t": "The airship _Hindenburg_ was filled with it when it burst into flames in 1937",
+      "k": [
+        "hindenburg",
+        "airship",
+        "1937"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cavendish",
+      "tier": "middle",
+      "t": "Henry Cavendish identified it as a separate substance in 1766, calling it “inflammable air”",
+      "k": [
+        "inflammable air",
+        "cavendish",
+        "1766"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lavoisier",
+      "tier": "middle",
+      "t": "Antoine Lavoisier named it from Greek words meaning “water-former”",
+      "k": [
+        "water-former",
+        "lavoisier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "isotopes",
+      "tier": "middle",
+      "t": "Its three isotopes: protium (no neutrons), deuterium (one neutron), and radioactive tritium (two neutrons)",
+      "k": [
+        "deuterium",
+        "tritium",
+        "protium",
+        "isotopes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gas",
+      "tier": "middle",
+      "t": "A colorless, odorless, highly flammable gas made of two-atom (diatomic) molecules",
+      "k": [
+        "flammable",
+        "diatomic",
+        "colorless"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pop-test",
+      "tier": "middle",
+      "t": "A lit splint makes a “squeaky pop” in a test tube of it",
+      "k": [
+        "squeaky pop",
+        "splint"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fuel-cells",
+      "tier": "middle",
+      "t": "Fuel cells combine it with oxygen to make electricity, with only water as exhaust",
+      "k": [
+        "fuel cells",
+        "electricity",
+        "exhaust"
+      ],
+      "n": 0
+    },
+    {
+      "id": "haber",
+      "tier": "middle",
+      "t": "Combined with nitrogen in the Haber process to make ammonia",
+      "k": [
+        "haber process",
+        "ammonia",
+        "nitrogen"
+      ],
+      "n": 0,
+      "rabbit": "Haber process"
+    },
+    {
+      "id": "acid-ions",
+      "tier": "middle",
+      "t": "Acids release its positive ions, which are just bare protons; pH measures how many there are",
+      "k": [
+        "bare protons",
+        "acids",
+        "ph"
+      ],
+      "n": 0,
+      "rabbit": "pH"
+    },
+    {
+      "id": "electrolysis",
+      "tier": "middle",
+      "t": "Electrolysis of water produces it at the negative electrode, twice the volume of the oxygen",
+      "k": [
+        "electrolysis",
+        "negative electrode"
+      ],
+      "n": 0,
+      "rabbit": "Electrolysis"
+    },
+    {
+      "id": "group-1",
+      "tier": "middle",
+      "t": "Placed at the top of group 1 above lithium, though it is a nonmetal, not an alkali metal",
+      "k": [
+        "group 1",
+        "lithium",
+        "nonmetal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "balmer-lyman",
+      "tier": "power",
+      "t": "Its visible spectral lines form the Balmer series; its ultraviolet Lyman series ends at the lowest energy level",
+      "k": [
+        "spectral lines",
+        "balmer",
+        "lyman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bohr",
+      "tier": "power",
+      "t": "Niels Bohr’s 1913 model explained its spectrum, which the Rydberg formula describes",
+      "k": [
+        "rydberg",
+        "bohr",
+        "1913"
+      ],
+      "n": 0,
+      "rabbit": "Niels Bohr"
+    },
+    {
+      "id": "21-cm",
+      "tier": "power",
+      "t": "Radio astronomers map the Milky Way with its 21-centimeter line, made when its electron flips its spin",
+      "k": [
+        "21-centimeter",
+        "radio astronomers",
+        "spin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "urey",
+      "tier": "power",
+      "t": "Harold Urey discovered its isotope deuterium and won the 1934 Nobel Prize in Chemistry; heavy water is made with deuterium",
+      "k": [
+        "urey",
+        "heavy water",
+        "1934"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dewar",
+      "tier": "power",
+      "t": "James Dewar first liquefied it in 1898; the liquid boils at about 20 kelvins",
+      "k": [
+        "liquefied",
+        "dewar",
+        "20 kelvins",
+        "1898"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shuttle",
+      "tier": "power",
+      "t": "Its liquid form, burned with liquid oxygen, powered the Space Shuttle’s main engines",
+      "k": [
+        "space shuttle",
+        "liquid oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "metallic",
+      "tier": "power",
+      "t": "Under crushing pressure it is predicted to become a liquid metal, thought to exist deep inside Jupiter and Saturn",
+      "k": [
+        "liquid metal",
+        "jupiter",
+        "saturn"
+      ],
+      "n": 0,
+      "rabbit": "Jupiter"
+    },
+    {
+      "id": "ortho-para",
+      "tier": "power",
+      "t": "Its molecules come in ortho and para forms, depending on whether their two nuclear spins are parallel or opposite",
+      "k": [
+        "nuclear spins",
+        "ortho",
+        "para"
+      ],
+      "n": 0
+    },
+    {
+      "id": "schrodinger",
+      "tier": "power",
+      "t": "The only neutral atom for which the Schrödinger equation can be solved exactly",
+      "k": [
+        "solved exactly",
+        "neutral atom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sabatier",
+      "tier": "power",
+      "t": "Paul Sabatier won a Nobel Prize for using powdered nickel to add it to carbon compounds, later used to turn vegetable oil into margarine",
+      "k": [
+        "sabatier",
+        "margarine",
+        "nickel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tritium-glow",
+      "tier": "power",
+      "t": "Radioactive tritium, with a half-life of about 12 years, makes some exit signs and watch dials glow",
+      "k": [
+        "exit signs",
+        "half-life",
+        "glow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orion",
+      "tier": "power",
+      "t": "Emission nebulae such as the Orion Nebula glow pinkish red from one of its Balmer lines",
+      "k": [
+        "orion nebula",
+        "emission nebulae",
+        "pinkish red"
+      ],
+      "n": 0,
+      "rabbit": "Nebulae"
+    },
+    {
+      "id": "effusion",
+      "tier": "power",
+      "t": "Its gas escapes through tiny holes (effuses) faster than any other gas, because its molecules are the lightest",
+      "k": [
+        "effuses",
+        "tiny holes"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Element, not isotope",
+    "body": "Many clues name this element’s isotopes, deuterium and tritium, or things named after it, like hydrogen bonds and the hydrogen bomb, and players blurt those instead. Helium is the other trap: it is the second element, the product of the Sun’s fusion, and the gas in modern party balloons and blimps.",
+    "fix": "If the question asks for “this element,” name the element itself, even when the clue is about one of its isotopes. Atomic number 1, “water-former,” Cavendish, the Balmer series, and the _Hindenburg_ all point here; “second-lightest,” “noble gas,” or the product of the Sun’s fusion means helium.",
+    "line": "Real answer line: <b><u>Hydrogen</u></b> (accept <u>H</u>)"
+  },
+  "tests": {
+    "right": [
+      "Hydrogen",
+      "H",
+      "H2",
+      "Hydrogn",
+      "hydrogen gas"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Helium",
+      "Deuterium",
+      "Hydrogen bond",
+      "Hydrogen peroxide",
+      "Oxygen",
+      "Proton"
+    ]
+  }
+}

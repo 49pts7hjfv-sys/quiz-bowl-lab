@@ -1,0 +1,216 @@
+"""Build topics/euclid.json (Math). QBReader mode OFF: written from known stock clues."""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "euclid",
+    "name": "Euclid",
+    "mono": "EUC",
+    "category": "Math",
+    "qbCategory": "Science · Other Science (Math)",
+    "kicker": "Greek “father of geometry” · Author of the Elements",
+    "dates": "Active c. 300 BC",
+    "briefing": (
+        "Around 300 BC in Alexandria, Egypt, a Greek mathematician named Euclid gathered the geometry of his time "
+        "into one great work, the _Elements_. Starting from a few definitions and five basic assumptions called "
+        "postulates, he proved hundreds of facts step by step, from drawing an equilateral triangle to showing that "
+        "the prime numbers never run out. Students learned geometry from his book for more than 2,000 years, which "
+        "is why he is called the “father of geometry.”"
+    ),
+    "answerHtml": "<b><u>Euclid</u></b> of Alexandria",
+    "accept": [
+        "euclid",
+        "euclid of alexandria",
+        "eukleides",
+    ],
+    "prompt": [],
+    "reject": [
+        "euclid of megara",
+        "euler",
+        "leonhard euler",
+        "eudoxus",
+        "archimedes",
+        "pythagoras",
+        "ptolemy",
+        "eratosthenes",
+        "apollonius",
+        "hipparchus",
+        "thales",
+        "elements",
+        "the elements",
+        "euclids elements",
+        "euclidean geometry",
+        "geometry",
+        "parallel postulate",
+    ],
+    "tests": {
+        "right": ["Euclid", "Euclid of Alexandria", "Euclide", "Euclyd", "Eukleides"],
+        "prompt": [],
+        "wrong": ["Euler", "Archimedes", "Pythagoras", "Euclid of Megara", "The Elements"],
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Euclid",
+    "qb": {
+        "q": "Euclid",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it.",
+    },
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "Edna St. Vincent Millay wrote a sonnet claiming that this man “alone has looked on Beauty bare.” Abraham Lincoln studied the first six books of this man’s most famous work to learn what it means to “demonstrate” something.",
+            "r": "For 10 points, name this Greek mathematician from Alexandria who wrote the _Elements_.",
+        },
+        {
+            "p": "According to one story, when a student asked what he would gain from learning geometry, this teacher had a servant give the student a coin, since the student wanted to profit from what he learned. This man supposedly told a king that “there is no royal road to geometry.”",
+            "r": "That king was Ptolemy I of Egypt. For 10 points, name this “father of geometry,” who wrote the _Elements_.",
+        },
+        {
+            "p": "Oliver Byrne’s 1847 edition of this man’s greatest work replaced the letters in its diagrams with brightly colored shapes. That work’s first printed edition appeared in Venice in 1482, and its first English translation, by Henry Billingsley, appeared in 1570.",
+            "r": "That work begins by showing how to draw an equilateral triangle with a compass and straightedge. For 10 points, name this author of the _Elements_.",
+        },
+        {
+            "p": "Adelard of Bath translated this man’s most famous book from Arabic into Latin in the 1100s. That book is often said to have been printed in more editions than any other book except the Bible.",
+            "r": "That book proves the Pythagorean theorem near the end of its first part. For 10 points, name this Greek author of the _Elements_.",
+        },
+        {
+            "p": "Much of the little that is known about this man’s life comes from a commentary written by Proclus [“PROH-klus”] more than 700 years after he lived. Medieval writers sometimes confused this man with a philosopher of the same name from Megara who studied with Socrates.",
+            "r": "For 10 points, name this mathematician who worked in Alexandria around 300 BC and wrote the _Elements_.",
+        },
+        {
+            "p": "The longest of the 13 books in this man’s major work deals with irrational lengths, and its fifth book presents a theory of proportion credited to Eudoxus [“yoo-DOK-sus”]. Its final book shows how to construct the five Platonic solids.",
+            "r": "For 10 points, name this Greek mathematician whose _Elements_ was the standard geometry textbook for centuries.",
+        },
+        {
+            "p": "This man’s lemma states that if a prime number divides a product of two whole numbers, it must divide at least one of them. His formula builds Pythagorean triples, such as 3, 4, and 5, from two whole numbers m and n.",
+            "r": "This man also proved that there are infinitely many prime numbers. For 10 points, name this Greek geometer who wrote the _Elements_.",
+        },
+        {
+            "p": "In Book IX of his best-known work, this man showed how to build a perfect number, such as 28, from a prime number, such as 7, that is one less than a power of 2. That same book contains his proof that the prime numbers never run out.",
+            "r": "He is called the “father of geometry.” For 10 points, name this Alexandrian mathematician whose _Elements_ starts from five postulates.",
+        },
+        {
+            "p": "Nikolai Lobachevsky [“loh-buh-CHEF-skee”] and János Bolyai [“BOH-yoy”] built new geometries by rejecting the fifth postulate of this man. A modern version of that postulate, Playfair’s axiom, says that through a point not on a given line, only one parallel line can be drawn.",
+            "r": "For 10 points, name this Greek mathematician whose fifth postulate is called the parallel postulate.",
+        },
+        {
+            "p": "Besides his most famous book, this man wrote _Optics_, about how we see objects; _Phaenomena_ [“fee-NOM-ih-nuh”], about astronomy; and _Data_, about what can be worked out from given facts in geometry problems. His books on conic sections have been lost.",
+            "r": "This man’s algorithm finds the greatest common divisor of two numbers. For 10 points, name this author of the _Elements_.",
+        },
+        {
+            "p": "In Raphael’s painting _The School of Athens_, a figure bending over a slate with a compass is often identified as this man. A European space telescope launched in 2023 to study dark matter and dark energy is named after him.",
+            "r": "He wrote the _Elements_. For 10 points, name this mathematician known as the “father of geometry.”",
+        },
+        {
+            "p": "Proposition 5 of this man’s first book, which proves that the base angles of an isosceles triangle are equal, is nicknamed the pons asinorum [“ponz ah-sih-NOR-um”], or “bridge of donkeys,” because weaker students struggled to get past it.",
+            "r": "This man proved the Pythagorean theorem as Proposition 47 of the same book. For 10 points, name this author of the _Elements_.",
+        },
+        {
+            "p": "This man’s first definition says that a point is “that which has no part.” He listed common notions such as “things which are equal to the same thing are also equal to one another” after giving 23 definitions at the start of his first book.",
+            "r": "His five postulates included one about parallel lines. For 10 points, name this Greek mathematician who wrote the _Elements_.",
+        },
+        {
+            "p": "Proposition 2 of the seventh book of this man’s major work finds the largest number that divides two given numbers, using a method of repeated subtraction now named after him. That method is one of the oldest algorithms still in common use.",
+            "r": "He is called the “father of geometry.” For 10 points, name this Greek mathematician from Alexandria who wrote the _Elements_.",
+        },
+        {
+            "p": "Matteo Ricci and Xu Guangqi [“shoo gwahng-CHEE”] translated the first six books of this man’s most famous work into Chinese in 1607. That work’s first proposition shows how to build an equilateral triangle using only a compass and a straightedge.",
+            "r": "That work starts from five postulates. For 10 points, name this Greek author of the _Elements_.",
+        },
+    ],
+    "clues": [
+        {"id": "father", "tier": "giveaway",
+         "t": "Greek mathematician known as the “father of geometry”",
+         "k": ["father of geometry", "greek"], "n": 0},
+        {"id": "elements", "tier": "giveaway",
+         "t": "Wrote the _Elements_, a geometry textbook in 13 books that was used for more than 2,000 years",
+         "k": ["elements", "13 books", "textbook"], "n": 0},
+        {"id": "alexandria", "tier": "giveaway",
+         "t": "Worked in Alexandria, Egypt, around 300 BC, in the time of King Ptolemy I",
+         "k": ["alexandria", "300 bc", "ptolemy i"], "n": 0},
+        {"id": "postulates", "tier": "giveaway",
+         "t": "Built geometry from definitions, five postulates, and common notions like “things equal to the same thing are equal to one another”",
+         "k": ["five postulates", "postulates", "common notions"], "n": 0},
+        {"id": "parallel", "tier": "middle",
+         "t": "His fifth postulate is the parallel postulate; Lobachevsky and Bolyai built new geometries by rejecting it",
+         "k": ["parallel postulate", "fifth postulate", "lobachevsky", "bolyai"], "n": 0, "rabbit": "Parallel postulate"},
+        {"id": "royal-road", "tier": "middle",
+         "t": "Reportedly told King Ptolemy I that “there is no royal road to geometry”",
+         "k": ["royal road"], "n": 0},
+        {"id": "infinite-primes", "tier": "middle",
+         "t": "Proved that there are infinitely many prime numbers (_Elements_, Book IX)",
+         "k": ["infinitely many", "prime numbers", "book ix"], "n": 0, "rabbit": "Prime numbers"},
+        {"id": "algorithm", "tier": "middle",
+         "t": "His algorithm finds the greatest common divisor of two numbers (_Elements_, Book VII)",
+         "k": ["greatest common divisor", "algorithm", "book vii"], "n": 0, "rabbit": "Greatest common divisor"},
+        {"id": "pythagorean", "tier": "middle",
+         "t": "Book I, Proposition 47 proves the Pythagorean theorem; Proposition 48 proves its converse",
+         "k": ["pythagorean theorem", "proposition 47"], "n": 0, "rabbit": "Pythagorean theorem"},
+        {"id": "equilateral", "tier": "middle",
+         "t": "Book I, Proposition 1: build an equilateral triangle on a segment using only a compass and straightedge",
+         "k": ["equilateral triangle", "compass", "straightedge"], "n": 0, "rabbit": "Triangles"},
+        {"id": "platonic", "tier": "middle",
+         "t": "Book XIII, the last book of the _Elements_, constructs the five Platonic solids",
+         "k": ["platonic solids", "book xiii"], "n": 0},
+        {"id": "bible", "tier": "middle",
+         "t": "The _Elements_ is often said to have had more editions than any book except the Bible",
+         "k": ["bible", "editions"], "n": 0},
+        {"id": "telescope", "tier": "middle",
+         "t": "A European space telescope launched in 2023 to study dark matter and dark energy is named for him",
+         "k": ["space telescope", "2023", "dark energy"], "n": 0},
+        {"id": "lincoln", "tier": "power",
+         "t": "Abraham Lincoln studied the first six books of the _Elements_ to learn what it means to “demonstrate” something",
+         "k": ["lincoln", "six books", "demonstrate"], "n": 0, "rabbit": "Abraham Lincoln"},
+        {"id": "coin", "tier": "power",
+         "t": "When a student asked what he would gain from geometry, he reportedly had a servant give the student a coin",
+         "k": ["coin", "servant"], "n": 0},
+        {"id": "millay", "tier": "power",
+         "t": "Edna St. Vincent Millay’s sonnet says he “alone has looked on Beauty bare”",
+         "k": ["millay", "beauty bare", "sonnet"], "n": 0},
+        {"id": "editions", "tier": "power",
+         "t": "The _Elements_ was first printed in Venice in 1482 and first put into English in 1570; Oliver Byrne’s 1847 edition used colored shapes instead of letters",
+         "k": ["oliver byrne", "1482", "venice", "1570"], "n": 0},
+        {"id": "adelard", "tier": "power",
+         "t": "Adelard of Bath translated the _Elements_ from Arabic into Latin in the 1100s",
+         "k": ["adelard of bath", "adelard", "arabic", "latin"], "n": 0},
+        {"id": "ricci", "tier": "power",
+         "t": "Matteo Ricci and Xu Guangqi translated its first six books into Chinese in 1607",
+         "k": ["matteo ricci", "xu guangqi", "chinese", "1607"], "n": 0},
+        {"id": "proclus-megara", "tier": "power",
+         "t": "Proclus’s commentary, written over 700 years later, is a main source on his life; medieval writers confused him with a philosopher from Megara",
+         "k": ["proclus", "megara", "commentary"], "n": 0},
+        {"id": "other-works", "tier": "power",
+         "t": "Also wrote _Optics_, _Data_, and _Phaenomena_ (about astronomy); his books on conic sections are lost",
+         "k": ["optics", "phaenomena", "conic sections"], "n": 0},
+        {"id": "book-x", "tier": "power",
+         "t": "Book X, the longest book of the _Elements_, deals with irrational lengths; Book V’s theory of proportion comes from Eudoxus",
+         "k": ["irrational", "eudoxus", "book x"], "n": 0},
+        {"id": "pons", "tier": "power",
+         "t": "Book I, Proposition 5 (the base angles of an isosceles triangle are equal) is nicknamed the pons asinorum, “bridge of donkeys”",
+         "k": ["pons asinorum", "bridge of donkeys", "isosceles"], "n": 0},
+        {"id": "number-theory", "tier": "power",
+         "t": "His lemma: a prime that divides a product divides one of the factors; his formula makes Pythagorean triples like 3, 4, 5",
+         "k": ["lemma", "pythagorean triples"], "n": 0},
+        {"id": "perfect", "tier": "power",
+         "t": "Showed how to build an even perfect number, like 28 = 4 × 7, from a prime that is one less than a power of 2",
+         "k": ["perfect number", "28"], "n": 0, "rabbit": "Perfect numbers"},
+        {"id": "school-athens", "tier": "power",
+         "t": "Often identified as the figure bending over a slate with a compass in Raphael’s _The School of Athens_",
+         "k": ["school of athens", "raphael", "slate"], "n": 0, "rabbit": "Raphael"},
+    ],
+    "trap": {
+        "title": "The man or his work?",
+        "body": "Several answer lines grow out of this one. Some tossups want his book, the _Elements_; others want the parallel postulate, his algorithm for the greatest common divisor, or geometry itself. The Pythagorean theorem is proved in the _Elements_ but is named for Pythagoras, and Leonhard Euler is a different mathematician who lived about 2,000 years later.",
+        "fix": "Listen for “this man” or “this mathematician” versus “this work,” “this postulate,” or “this method.” Clues about Alexandria, Ptolemy I, a coin given to a student, or the “father of geometry” mean the man.",
+        "line": "Real answer line: <b><u>Euclid</u></b> of Alexandria",
+    },
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", out)

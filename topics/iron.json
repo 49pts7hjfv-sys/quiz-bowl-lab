@@ -1,0 +1,456 @@
+{
+  "id": "iron",
+  "name": "Iron",
+  "mono": "FE",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 26 · The metal in steel, blood, and Earth’s core",
+  "dates": "Used since ancient times",
+  "briefing": "Iron is the metal that built the modern world: mix in a little carbon and it becomes steel, the stuff of skyscrapers, bridges, and cars. It is the most common element in the whole Earth by mass, packed into the planet’s core, and its reddish oxide, better known as rust, gives Mars its color. Inside your blood, iron in hemoglobin carries oxygen to every cell.",
+  "answerHtml": "<b><u>Iron</u></b> (accept <u>Fe</u>)",
+  "accept": [
+    "iron",
+    "fe"
+  ],
+  "prompt": [],
+  "reject": [
+    "steel",
+    "stainless steel",
+    "carbon steel",
+    "rust",
+    "oxide",
+    "iron oxide",
+    "pyrite",
+    "iron pyrite",
+    "fools gold",
+    "magnetite",
+    "hematite",
+    "ferrite",
+    "iron curtain",
+    "iron age",
+    "iron man",
+    "iron lady",
+    "iron chancellor",
+    "ironclad",
+    "ironclads",
+    "nickel",
+    "cobalt",
+    "manganese",
+    "chromium",
+    "copper",
+    "zinc",
+    "aluminum",
+    "hemoglobin"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Iron",
+  "qb": {
+    "q": "iron",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Ferrocene, a famous “sandwich compound,” has one atom of this element sitting between two flat rings of five carbon atoms. The deep-blue pigment Prussian blue, first made in Berlin in the early 1700s, is a compound of this element.",
+      "r": "Its two common ions are called ferrous and ferric. For 10 points, name this metal with atomic number 26, the main ingredient in steel."
+    },
+    {
+      "p": "In the thermite reaction, powdered aluminum reacts with an oxide of this element, giving off so much heat that this element comes out molten and can be used to weld railroad tracks together. The Haber process for making ammonia uses a catalyst based on this element.",
+      "r": "This element rusts in moist air. For 10 points, name this metal, the main component of steel."
+    },
+    {
+      "p": "This element’s isotope with mass number 56 has one of the highest binding energies per nucleon of any nucleus. A massive star builds up a core of this element that cannot release energy by fusing, so the core collapses and the star explodes in a supernova.",
+      "r": "For 10 points, name this element with atomic number 26, the most common element in Earth by mass."
+    },
+    {
+      "p": "At room temperature, this metal has a body-centered cubic crystal form called ferrite, but at high temperatures it changes into a face-centered cubic form called austenite [“AW-stuh-nite”]. Austenite can dissolve far more carbon than ferrite can.",
+      "r": "Adding a small amount of carbon to this metal makes steel. For 10 points, name this element, whose chemical symbol comes from the Latin word ferrum."
+    },
+    {
+      "p": "The mineral goethite [“GUR-tite”], named after the German writer Johann Wolfgang von Goethe, is made of this element, oxygen, and hydrogen. Pyrite, a shiny brass-colored mineral nicknamed “fool’s gold,” is a compound of this element and sulfur.",
+      "r": "Its main ores include hematite and magnetite. For 10 points, name this metal, the main ingredient of steel."
+    },
+    {
+      "p": "Some bacteria release molecules called siderophores [“SID-ur-uh-forz”] to capture this element from their surroundings. In the human body, the protein ferritin stores this element, and the protein transferrin carries it through the blood.",
+      "r": "This element sits at the center of each heme group in hemoglobin. For 10 points, name this metal that helps red blood cells carry oxygen."
+    },
+    {
+      "p": "This element loses its strong magnetism when heated above its Curie temperature, about 770 degrees Celsius. Early compasses used pieces of lodestone, a naturally magnetized form of the mineral magnetite, which contains this element.",
+      "r": "For 10 points, name this magnetic metal with atomic number 26, whose Latin name gives us the word “ferromagnetism.”"
+    },
+    {
+      "p": "Henry Bessemer developed a process that blew air through this molten metal to burn away extra carbon, making steel cheap enough for railroads and skyscrapers. Before that step, this metal’s ore was heated with coke and limestone in a blast furnace.",
+      "r": "For 10 points, name this metal, which rusts when it is exposed to oxygen and water."
+    },
+    {
+      "p": "The Eiffel Tower, completed in 1889, was built from thousands of pieces of a wrought form of this metal. A rich ore of this metal, hematite, gets its name from the Greek word for blood because of its reddish color.",
+      "r": "An oxide of this metal gives Mars its red color. For 10 points, name this element with atomic number 26."
+    },
+    {
+      "p": "This transition metal sits in group 8 of the periodic table, between manganese and cobalt. Stainless steel is made by adding chromium, and often nickel, to this metal so that it resists rusting.",
+      "r": "A diet that is too low in this element can cause anemia. For 10 points, name this metal found in hemoglobin."
+    },
+    {
+      "p": "Adding thiocyanate [“thy-oh-SY-uh-nate”] ions to a solution containing this element’s plus-3 ions produces a blood-red color, a classic laboratory test. This element’s plus-2 and plus-3 ions are called ferrous and ferric, and both kinds appear together in the mineral magnetite.",
+      "r": "This metal rusts when it combines with oxygen and water. For 10 points, name this main ingredient of steel."
+    },
+    {
+      "p": "Earth’s magnetic field is generated by the churning liquid outer core, which is made mostly of this element mixed with nickel. Measured by mass, this element is the most common element in Earth as a whole, though it ranks only fourth in Earth’s crust.",
+      "r": "For 10 points, name this element with atomic number 26, the main ingredient in steel."
+    },
+    {
+      "p": "The planet Mercury has an unusually large core made mostly of this metal, and dust containing an oxide of this metal gives Mars its reddish color. Some meteorites are made mostly of this metal mixed with nickel.",
+      "r": "For 10 points, name this metal, the main element in Earth’s core and in steel."
+    },
+    {
+      "p": "Cytochromes [“SY-toh-krohmz”] in the electron transport chain contain heme groups built around this element, which switches between two charge states as it passes electrons along. Myoglobin, the protein that stores oxygen in muscles, also contains this element.",
+      "r": "Each heme group in hemoglobin holds one atom of it. For 10 points, name this metal that helps blood carry oxygen."
+    },
+    {
+      "p": "A dagger found in the tomb of the Egyptian pharaoh Tutankhamun has a blade made from this metal that came from a meteorite. Steel is made by mixing this metal with a small amount of carbon.",
+      "r": "For 10 points, name this element with atomic number 26, which rusts in moist air."
+    }
+  ],
+  "clues": [
+    {
+      "id": "element-26",
+      "tier": "giveaway",
+      "t": "Element with atomic number 26; its symbol comes from the Latin word ferrum",
+      "k": [
+        "ferrum",
+        "latin",
+        "26"
+      ],
+      "n": 0
+    },
+    {
+      "id": "steel",
+      "tier": "giveaway",
+      "t": "Main ingredient of steel, an alloy made by adding a small amount of carbon",
+      "k": [
+        "steel",
+        "alloy",
+        "carbon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rust",
+      "tier": "giveaway",
+      "t": "Rusts when it reacts with oxygen and water, forming a reddish-brown oxide",
+      "k": [
+        "reddish-brown",
+        "rusts",
+        "oxide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hemoglobin",
+      "tier": "giveaway",
+      "t": "Sits at the center of each heme group in hemoglobin, the blood protein that carries oxygen",
+      "k": [
+        "hemoglobin",
+        "heme",
+        "blood"
+      ],
+      "n": 0,
+      "rabbit": "Hemoglobin"
+    },
+    {
+      "id": "earth-core",
+      "tier": "giveaway",
+      "t": "Makes up most of Earth’s core, mixed with nickel, and is the most common element in Earth by mass",
+      "k": [
+        "nickel",
+        "core",
+        "by mass"
+      ],
+      "n": 0,
+      "rabbit": "Earth’s core"
+    },
+    {
+      "id": "magnetic",
+      "tier": "middle",
+      "t": "Strongly magnetic; the word ferromagnetism comes from its Latin name",
+      "k": [
+        "ferromagnetism",
+        "magnetic"
+      ],
+      "n": 0,
+      "rabbit": "Ferromagnetism"
+    },
+    {
+      "id": "ores",
+      "tier": "middle",
+      "t": "Its main ores are hematite and magnetite; lodestone is naturally magnetized magnetite",
+      "k": [
+        "hematite",
+        "magnetite",
+        "lodestone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blast-furnace",
+      "tier": "middle",
+      "t": "Smelted from ore in a blast furnace with coke and limestone, which removes impurities as slag",
+      "k": [
+        "blast furnace",
+        "coke",
+        "limestone",
+        "slag"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bessemer",
+      "tier": "middle",
+      "t": "The Bessemer process (1850s) blew air through the molten metal to burn off carbon and make cheap steel",
+      "k": [
+        "bessemer",
+        "1850s"
+      ],
+      "n": 0,
+      "rabbit": "Andrew Carnegie"
+    },
+    {
+      "id": "mars",
+      "tier": "middle",
+      "t": "An oxide of it in the dust gives Mars its red color; Mercury has an unusually large core of it",
+      "k": [
+        "mars",
+        "red color",
+        "mercury"
+      ],
+      "n": 0,
+      "rabbit": "Mars"
+    },
+    {
+      "id": "supernova",
+      "tier": "middle",
+      "t": "Massive stars build a core of it that cannot be fused for energy, so the core collapses in a supernova",
+      "k": [
+        "supernova",
+        "massive stars",
+        "fused"
+      ],
+      "n": 0,
+      "rabbit": "Supernovae"
+    },
+    {
+      "id": "ferrous-ferric",
+      "tier": "middle",
+      "t": "Its +2 and +3 ions are called ferrous and ferric; the mineral magnetite contains both",
+      "k": [
+        "ferrous",
+        "ferric"
+      ],
+      "n": 0
+    },
+    {
+      "id": "group-8",
+      "tier": "middle",
+      "t": "A transition metal in group 8, period 4, between manganese and cobalt",
+      "k": [
+        "transition metal",
+        "group 8",
+        "manganese",
+        "cobalt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stainless",
+      "tier": "middle",
+      "t": "Stainless steel adds chromium, and often nickel, to keep it from rusting",
+      "k": [
+        "stainless",
+        "chromium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anemia",
+      "tier": "middle",
+      "t": "Too little of it in the diet can cause anemia, a shortage of healthy red blood cells",
+      "k": [
+        "anemia",
+        "diet"
+      ],
+      "n": 0,
+      "rabbit": "Red blood cells"
+    },
+    {
+      "id": "ferrocene",
+      "tier": "power",
+      "t": "Ferrocene, a “sandwich compound,” has one atom of it between two flat five-carbon rings",
+      "k": [
+        "ferrocene",
+        "sandwich compound"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prussian-blue",
+      "tier": "power",
+      "t": "The deep-blue pigment Prussian blue, first made in Berlin in the early 1700s, is one of its compounds",
+      "k": [
+        "prussian blue",
+        "pigment",
+        "berlin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thermite",
+      "tier": "power",
+      "t": "Thermite reaction: aluminum plus its oxide makes molten metal, used to weld railroad tracks",
+      "k": [
+        "thermite",
+        "aluminum",
+        "railroad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "haber",
+      "tier": "power",
+      "t": "The Haber process for making ammonia uses a catalyst based on it",
+      "k": [
+        "haber process",
+        "ammonia",
+        "catalyst"
+      ],
+      "n": 0,
+      "rabbit": "Haber process"
+    },
+    {
+      "id": "binding-energy",
+      "tier": "power",
+      "t": "Its isotope with mass number 56 has one of the highest binding energies per nucleon of any nucleus",
+      "k": [
+        "binding energies",
+        "nucleon",
+        "56"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ferrite-austenite",
+      "tier": "power",
+      "t": "Its room-temperature body-centered cubic form is called ferrite; its high-temperature face-centered cubic form is austenite",
+      "k": [
+        "austenite",
+        "ferrite",
+        "body-centered",
+        "face-centered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "curie",
+      "tier": "power",
+      "t": "It loses its strong magnetism above its Curie temperature, about 770 °C",
+      "k": [
+        "curie temperature",
+        "770"
+      ],
+      "n": 0
+    },
+    {
+      "id": "goethite-pyrite",
+      "tier": "power",
+      "t": "The mineral goethite, named after the writer Goethe, contains it; pyrite (“fool’s gold”) is its compound with sulfur",
+      "k": [
+        "goethite",
+        "goethe",
+        "pyrite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "siderophores",
+      "tier": "power",
+      "t": "Bacteria release siderophores to grab it; the protein ferritin stores it, and transferrin carries it in the blood",
+      "k": [
+        "siderophores",
+        "ferritin",
+        "transferrin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thiocyanate",
+      "tier": "power",
+      "t": "Its +3 ion turns blood-red when thiocyanate is added, a classic lab test",
+      "k": [
+        "thiocyanate",
+        "blood-red"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cytochromes",
+      "tier": "power",
+      "t": "Cytochromes in the electron transport chain, and myoglobin in muscles, contain heme groups built around it",
+      "k": [
+        "cytochromes",
+        "myoglobin",
+        "electron transport"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eiffel",
+      "tier": "power",
+      "t": "The Eiffel Tower (1889) is built from thousands of pieces of its wrought form",
+      "k": [
+        "eiffel tower",
+        "wrought"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tutankhamun",
+      "tier": "power",
+      "t": "A dagger in Tutankhamun’s tomb has a blade made of it from a meteorite; some meteorites are mostly this metal and nickel",
+      "k": [
+        "tutankhamun",
+        "meteorite",
+        "dagger"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Element, not steel",
+    "body": "Steel is an alloy made mostly of this element plus a little carbon, so clues about the Bessemer process, skyscrapers, or stainless steel tempt players to say “steel.” But steel is a mixture, not an element. Cobalt and nickel are the other traps: they come right after this element on the periodic table, they are also magnetic, and nickel joins it in Earth’s core and in many meteorites.",
+    "fix": "If the question asks for “this element” or “this metal,” never say steel. Atomic number 26, hemoglobin, rust, “ferrous” and “ferric,” and the Latin word ferrum all point here; cobalt is element 27 and nickel is element 28.",
+    "line": "Real answer line: <b><u>Iron</u></b> (accept <u>Fe</u>)"
+  },
+  "tests": {
+    "right": [
+      "Iron",
+      "Fe",
+      "IRON",
+      "iron metal",
+      "Elemental iron"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Steel",
+      "Rust",
+      "Nickel",
+      "Cobalt",
+      "Iron Curtain",
+      "Iron oxide",
+      "Pyrite"
+    ]
+  }
+}
