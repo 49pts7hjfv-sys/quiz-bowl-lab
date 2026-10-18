@@ -38,10 +38,15 @@ for (const [f, t] of mine) {
 }
 if (cross) {
   // Compare against every other topic name in the manifest (built or not), so conflicts are found early.
+  // data/cross_ok.json lists known, accepted overlaps: {"<topic id>": ["<other topic name>", ...]}
+  // (e.g. two topics that share one real answer line, or original topics that were left unchanged).
+  let ok = {};
+  try { ok = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cross_ok.json'), 'utf8')); } catch (e) { ok = {}; }
   for (const [f, t] of mine) {
     if (!t) continue;
+    const allowed = new Set(ok[t.id] || []);
     for (const o of manifest.topics) {
-      if (o.id === t.id) continue;
+      if (o.id === t.id || allowed.has(o.name)) continue;
       const got = QBCore.judge(o.name, t);
       if (got === 'right') fail(`${t.id}: another topic's name "${o.name}" is accepted (add it to "reject")`);
     }

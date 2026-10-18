@@ -1,0 +1,465 @@
+# Curation report: expanded study list (October 2026)
+
+1493 new topics added; 215 original topics unchanged. Rows dropped (junk, generic, duplicates of a dropped row, or unsuitable): 62.
+
+## Dropped rows
+
+- American History: assassination — not a study topic (junk row, fragment, or generic word)
+- American History: George — not a study topic (junk row, fragment, or generic word)
+- American History: African-Americans — not a study topic (junk row, fragment, or generic word)
+- American History: Alan — not a study topic (junk row, fragment, or generic word)
+- American History: Greece — not a study topic (junk row, fragment, or generic word)
+- American History: marriage — not a study topic (junk row, fragment, or generic word)
+- European History: Louis — not a study topic (junk row, fragment, or generic word)
+- European History: Henry — not a study topic (junk row, fragment, or generic word)
+- European History: Antarctica — not a study topic (junk row, fragment, or generic word)
+- European History: Canada — not a study topic (junk row, fragment, or generic word)
+- European History: Pisa — not a study topic (junk row, fragment, or generic word)
+- European History: abdication — not a study topic (junk row, fragment, or generic word)
+- European History: African slaves — not a study topic (junk row, fragment, or generic word)
+- European History: China — not a study topic (junk row, fragment, or generic word)
+- European History: Elizabeth — not a study topic (junk row, fragment, or generic word)
+- European History: genocide — not a study topic (junk row, fragment, or generic word)
+- European History: Joaquin Archivaldo Guzman Loera — a drug-cartel leader; not a history study topic for this age
+- European History: Libya — not a study topic (junk row, fragment, or generic word)
+- European History: Mary — not a study topic (junk row, fragment, or generic word)
+- European History: monarchy — not a study topic (junk row, fragment, or generic word)
+- European History: New York City — not a study topic (junk row, fragment, or generic word)
+- European History: New Zealand — not a study topic (junk row, fragment, or generic word)
+- European History: slaves — not a study topic (junk row, fragment, or generic word)
+- European History: train transportation — not a study topic (junk row, fragment, or generic word)
+- Literature: Lolita — mature subject matter; not suitable for 11–12-year-olds
+- Literature: Japan — not a study topic (junk row, fragment, or generic word)
+- Literature: Poland — not a study topic (junk row, fragment, or generic word)
+- Literature: St. Francis College — not a study topic (junk row, fragment, or generic word)
+- Literature: Portugal — not a study topic (junk row, fragment, or generic word)
+- Literature: Argentina — not a study topic (junk row, fragment, or generic word)
+- Literature: Chile — not a study topic (junk row, fragment, or generic word)
+- Literature: Spanish — not a study topic (junk row, fragment, or generic word)
+- Literature: Bridge — not a study topic (junk row, fragment, or generic word)
+- Literature: Ghost — not a study topic (junk row, fragment, or generic word)
+- Literature: Simone Martini — not a study topic (junk row, fragment, or generic word)
+- Literature: Sword — not a study topic (junk row, fragment, or generic word)
+- Literature (mostly classical): Latin — not a study topic (junk row, fragment, or generic word)
+- Literature (mostly classical): Ancient Greek — not a study topic (junk row, fragment, or generic word)
+- Mythology: Moon — not a study topic (junk row, fragment, or generic word)
+- Mythology: The Green Magician — not a study topic (junk row, fragment, or generic word)
+- Mythology: Wind — not a study topic (junk row, fragment, or generic word)
+- Mythology: Unicorn — not a study topic (junk row, fragment, or generic word)
+- Mythology: Cynic — not a study topic (junk row, fragment, or generic word)
+- Mythology: Babylon — not a study topic (junk row, fragment, or generic word)
+- Mythology: Four Winds — not a study topic (junk row, fragment, or generic word)
+- Mythology: Proioxis — not a study topic (junk row, fragment, or generic word)
+- Philosophy: history — not a study topic (junk row, fragment, or generic word)
+- Philosophy: science — not a study topic (junk row, fragment, or generic word)
+- Social Science: Stanford University — not a study topic (junk row, fragment, or generic word)
+- Social Science: crime — not a study topic (junk row, fragment, or generic word)
+- Social Science: cities — not a study topic (junk row, fragment, or generic word)
+- Social Science: risk — not a study topic (junk row, fragment, or generic word)
+- Fine Arts: Japan — not a study topic (junk row, fragment, or generic word)
+- Fine Arts: Mexico — not a study topic (junk row, fragment, or generic word)
+- All Science: Ether — not a study topic (junk row, fragment, or generic word)
+- All Science: Inverse — not a study topic (junk row, fragment, or generic word)
+- All Science: String — not a study topic (junk row, fragment, or generic word)
+- All Science: Volume — not a study topic (junk row, fragment, or generic word)
+- All Science: Beta-Hydride elimination — college-level chemistry
+- All Science: Virtual — not a study topic (junk row, fragment, or generic word)
+- Science (mostly astronomy): distance — not a study topic (junk row, fragment, or generic word)
+- Biology + Math: compactness — college-level math
+
+## Merged spellings (new topics with other names from the list)
+
+- Massachusetts ← Commonwealth of Massachusetts
+- Reconstruction ← Reconstruction Era
+- Harry S. Truman ← Harry Truman
+- Henry Clay ← Henry Clay Sr.
+- John Brown ← Harpers Ferry
+- Richard Nixon ← Richard Milhous Nixon
+- Susan B. Anthony ← Susan Brownell Anthony
+- Boston ← Boston, Massachusetts
+- Attack on Pearl Harbor ← Pearl Harbor; USS Arizona
+- Cherokee ← Cherokee Nation
+- John Wilkes Booth ← Assassination of Abraham Lincoln
+- Lyndon B. Johnson ← Lyndon Baines Johnson; Lyndon Johnson
+- Robert E. Lee ← Robert Edward Lee
+- U.S. Supreme Court ← Supreme Court of the United States; United States Supreme Court
+- Bill Clinton ← William Jefferson “Bill” Clinton
+- Barack Obama ← Barack Hussein Obama II
+- Brown v. Board of Education ← Brown v. Board of Education of Topeka; School desegregation
+- Chicago ← Chicago, Illinois
+- First Amendment ← Freedom of the press
+- Second Amendment ← Guns
+- Rhode Island ← Rhode Island and Providence Plantations
+- Roe v. Wade ← Abortion
+- Ronald Reagan ← Ronald Wilson Reagan
+- Battle of the Alamo ← The Alamo
+- Articles of Confederation ← Articles of Confederation and Perpetual Union
+- Davy Crockett ← David “Davy” Crockett
+- Dred Scott v. Sandford ← Dred Scott v. Sanford
+- Francis Scott Key ← The Star-Spangled Banner
+- George W. Bush ← George Walker Bush
+- Great Depression ← Hoovervilles
+- John F. Kennedy ← John Fitzgerald Kennedy; Kennedy family
+- Lee Harvey Oswald ← Assassination of John Fitzgerald Kennedy; Assassination of John F. Kennedy; Jack Leon Ruby
+- Scopes Trial ← Scopes monkey trial
+- Secretary of State ← State Department
+- Soviet Union ← USSR
+- September 11 attacks ← 9/11 attacks
+- Antonio López de Santa Anna ← Antonio Lopez de Santa Anna
+- Cabinet of the United States ← Cabinet
+- Chester A. Arthur ← Chester Alan Arthur
+- Haymarket Affair ← Haymarket Square Riot
+- Henry Ford ← Ford Motor Company
+- Income tax ← Taxes
+- James Garfield ← James Abram Garfield
+- Jimmy Carter ← James Earl “Jimmy” Carter
+- John D. Rockefeller ← John Davison Rockefeller; Standard Oil Company
+- Labor unions ← Labor strike
+- Martin Van Buren ← Martin van Buren
+- Montgomery, Alabama ← Montgomery
+- Nero ← Nero Claudius Caesar Augustus Germanicus
+- Savannah, Georgia ← Savannah
+- Slave rebellions ← Slave revolt
+- Stamp Act ← Stamp Act of 1765
+- Stephen A. Douglas ← Stephen Douglas
+- Siege of Vicksburg ← Vicksburg
+- Arlington National Cemetery ← Arlington County
+- Battle of Iwo Jima ← Iwo Jima
+- Battles of Lexington and Concord ← Battle of Lexington
+- Camp David Accords ← Camp David
+- Dwight D. Eisenhower ← Dwight David Eisenhower
+- Human evolution ← Evolution of humans; Homo
+- Gabby Giffords ← Gabrielle “Gabby” Giffords
+- George Meade ← George Gordon Meade
+- Great Chicago Fire ← Great Chicago Fire of 1871
+- Hawaii ← Honolulu
+- Herbert Hoover ← Herbert Clark Hoover
+- Hillary Clinton ← Hillary Rodham Clinton
+- Japanese American internment ← Internment of Japanese-Americans; Japanese-Americans
+- Strom Thurmond ← James Strom Thurmond
+- Jim Crow laws ← Jim Crow
+- John Roberts ← John Glover Roberts, Jr.
+- J. Robert Oppenheimer ← Julius Robert Oppenheimer
+- Kansas–Nebraska Act ← Kansas-Nebraska Act of 1854
+- Kent State shootings ← Kent State University
+- Lewis and Clark Expedition ← Meriwether Lewis and William Clark
+- Charles Cornwallis ← Lord Charles Cornwallis
+- Newt Gingrich ← Newton “Newt” Gingrich
+- Affordable Care Act ← Patient Protection and Affordable Care Act
+- Robert Fulton ← Steamboat
+- St. Augustine, Florida ← Saint Augustine
+- Sinking of the Titanic ← Sinking of the RMS Titanic
+- Supremacy Clause ← Supremacy clause
+- Military draft ← The draft
+- Spain ← Kingdom of Spain
+- Poland ← Republic of Poland; Kingdom of Poland
+- Republic of Ireland ← Ireland
+- Portugal ← Kingdom of Portugal
+- France ← Kingdom of France
+- London ← London, England
+- The Pope ← Pope; Popes; Pope of the Roman Catholic Church
+- Sweden ← Kingdom of Sweden
+- Netherlands ← The Netherlands
+- William the Conqueror ← William I
+- Byzantine Empire ← Byzantine Empire or Byzantium
+- Constantinople ← Constantinople or Istanbul
+- Germany ← Federal Republic of Germany
+- Grigori Rasputin ← Grigori Yefimovich Rasputin
+- Isabella I of Castile ← Isabella I; Isabella of Castile
+- Ivan the Terrible ← Ivan IV
+- Belgium ← Kingdom of Belgium
+- Norway ← Kingdom of Norway
+- Maximilien Robespierre ← Maximilien Francois Marie Isidore de Robespierre
+- Venice ← Republic of Venice
+- Scotland ← Kingdom of Scotland
+- The Holocaust ← Auschwitz II-Birkenau
+- Second Punic War ← 2nd Punic War
+- Neville Chamberlain ← Arthur Neville Chamberlain
+- Chernobyl disaster ← Chernobyl Nuclear Power Plant; Chernobyl nuclear reactor explosion
+- Cleopatra ← Cleopatra VII Philopator
+- Constantine the Great ← Constantine
+- Council of Nicaea ← First Council of Nicaea
+- Francisco Franco ← Francisco Franco Bahamonde
+- Frederick the Great ← Frederick II
+- George III ← George III Hanover
+- Gustavus Adolphus ← Gustavus Adolphus or Gustav II Adolf of Sweden
+- House of Habsburg ← Habsburg; Habsburg Dynasty; House of Hapsburg
+- James I of England ← James I
+- Louis XVI ← King Louis XVI
+- Prussia ← Kingdom of Prussia
+- Peasants’ Revolt ← Peasants’ Revolts
+- Richard the Lionheart ← Richard I
+- Sinking of the Lusitania ← RMS Lusitania
+- Romanov dynasty ← Romanov dynasty or family
+- Russia ← Russian Federation
+- Serfdom ← Serfs
+- Storming of the Bastille ← The Bastille
+- Nicholas II ← Tsar Nicholas II
+- Vladimir Lenin ← Vladimir Ilyich Lenin
+- War of the Austrian Succession ← War of Austrian Succession
+- Aristophanes ← Peace; The Knights
+- O. Henry ← The Gift of the Magi
+- Frankenstein ← Bride of Frankenstein
+- One Thousand and One Nights ← Scheherazade
+- The Charge of the Light Brigade ← Charge of the Light Brigade
+- My Ántonia ← My Antonia
+- Ovid ← Publius Ovidius Naso
+- Adventures of Huckleberry Finn ← Huckleberry Finn
+- Kenzaburō Ōe ← Kenzaburo Oe
+- Brothers Grimm ← Hansel and Gretel
+- Harold Pinter ← The Dumb Waiter
+- Fathers and Sons ← Father and Son
+- Rubáiyát of Omar Khayyám ← Rubaiyat of Omar Khayyam
+- Rosencrantz and Guildenstern Are Dead ← Rosencrantz and Guildenstern
+- Mrs. Dalloway ← Mrs Dalloway
+- Catullus ← Gaius Valerius Catullus; Lesbia
+- Sappho ← Sappho of Lesbos
+- Plautus ← Titus Maccius Plautus; Miles Gloriosus
+- Martial ← Marcus Valerius Martialis
+- Satyr play ← Satyr plays
+- Statius ← Publius Papinius Statius
+- Propertius ← Sextus Propertius
+- Greek tragedy ← Tragedy
+- Aphrodite ← Venus
+- Aztec mythology ← Aztec
+- Titans ← Titan
+- Inca mythology ← Inca Empire
+- Shinto ← Kami; Shintoism
+- King Arthur ← Pendragon
+- Trojan War ← Trojan Horse
+- Sir Gawain and the Green Knight ← Green Knight
+- Dwarves (Norse mythology) ← Dwarf
+- Egyptian mythology ← Ancient Egyptian deities
+- King David ← Goliath
+- Maui ← Maui-tikitiki
+- Muses ← Muse
+- Maya mythology ← Maya
+- Valkyries ← Valkyrie
+- Oracle of Delphi ← Oracle
+- Centaurs ← Centaur
+- Heimdall ← Heimdallr
+- Mary, mother of Jesus ← Mary
+- Scientology ← Church of Scientology
+- Gabriel (archangel) ← Gabriel
+- Joseph (son of Jacob) ← Joseph
+- Paul the Apostle ← Saint Paul the Apostle
+- Friedrich Nietzsche ← Friedrich Wilhelm Nietzsche
+- Epistemology ← Knowledge
+- Søren Kierkegaard ← Soren Kierkegaard; Soren Aabye Kierkegaard
+- Atomism ← Atoms
+- Émile Durkheim ← Emile Durkheim; Suicide
+- Claude Lévi-Strauss ← Claude Levi-Strauss
+- Bronisław Malinowski ← Bronislaw Malinowski
+- Vowels ← Vowel
+- Taxation ← Taxes
+- Carl Jung ← Carl Gustav Jung
+- Salvador Dalí ← Salvador Dali
+- Albrecht Dürer ← Albrecht Durer
+- Constantin Brâncuși ← Constantin Brancusi
+- Paul Cézanne ← Paul Cezanne
+- René Magritte ← Rene Magritte
+- Édouard Manet ← Edouard Manet
+- Diego Velázquez ← Diego Velazquez
+- Eugène Delacroix ← Eugene Delacroix
+- Caravaggio ← Michelangelo Merisi da Caravaggio
+- David (Michelangelo) ← David
+- Frédéric Chopin ← Frederic Chopin
+- Béla Bartók ← Bela Bartok
+- Camille Saint-Saëns ← Camille Saint-Saens
+- Antonín Dvořák ← Antonin Dvorak
+- Niccolò Paganini ← Niccolo Paganini
+- Prime numbers ← Prime number; Factorization
+- Fibonacci sequence ← Fibonacci number
+- Echinoderms ← Echinoderm; Echinodermata
+- Avogadro’s number ← Avogadro constant
+- Plasma (physics) ← Plasma
+- Trigonometric functions ← Sine; Cosine
+- Halogens ← Halogen
+- Mollusks ← Mollusca
+- Comets ← Comet
+- Triangles ← Triangle; Equilateral triangle
+- Noble gases ← Noble gas
+- Ideal gas law ← Ideal gas
+- Chloroplasts ← Chloroplast
+- Small intestine ← Duodenum
+- Capacitors ← Capacitor; Capacitance
+- Colloids ← Colloid
+- Lysosomes ← Lysosome
+- Calvin cycle ← Light-independent reactions
+- Circles ← Circle; Diameter
+- Hydrogen bonds ← Hydrogen bond
+- Cnidarians ← Cnidaria
+- Alcohols (chemistry) ← Alcohol
+- Pendulums ← Pendulum
+- HIV ← HIV/AIDS
+- Lead (element) ← Lead
+- Electrical resistance ← Electrical resistance and conductance; Resistor
+- Weak nuclear force ← Weak interaction
+- Seafloor spreading ← Seafloor Spreading
+- Supernovae ← Supernova
+- Stem cells ← Stem cell
+- Faults ← Fault
+- Coriolis effect ← Coriolis force
+- Matrices ← Matrix
+- Feldspar ← Feldspars
+- Neutrinos ← Neutrino
+- Magnetic fields ← Magnetic field
+- Polynomials ← Polynomial; Zero of a function
+- Galaxies ← Galaxy; Elliptical galaxies; Spiral galaxies
+- Mercury (planet) ← Mercury
+- Enzymes ← Enzyme
+- Fractals ← Fractal
+- Venus (planet) ← Venus
+- Protons ← Proton
+- Functions (math) ← Function
+- Leaves ← Leaf
+- Epinephrine (adrenaline) ← Epinephrine; Adrenaline
+- Johannes Kepler ← Kepler’s laws of planetary motion
+- Jurassic period ← Jurassic
+- Derivatives ← Derivative; Differentiation
+- Acids ← Acid
+- Cambrian period ← Cambrian; Cambrian Period
+- Amino acids ← Amino acid
+- Van der Waals forces ← Van der Waals force
+- Lanthanides ← Lanthanide
+- The number one ← 1 (number); One
+- Nematodes ← Nematode
+- Michelson–Morley experiment ← Michelson-Morley experiment
+- Platelets ← Platelet
+- Ions ← Ion
+- E. coli ← Escherichia coli
+- Neutrons ← Neutron
+- Mitosis ← Prophase; Anaphase; Cytokinesis; Interphase
+- Pulsars ← Pulsar
+- Power (physics) ← Power
+- Liquids ← Liquid
+- Java (programming language) ← Java
+- Neanderthals ← Neanderthal
+- Integrals ← Integration
+- Influenza virus ← Orthomyxoviridae
+- Antibodies ← Antibody
+- Gymnosperms ← Gymnosperm
+- Adrenal glands ← Adrenal gland
+- Vectors ← Vector
+- Plate tectonics ← Tectonic plates
+- Marie Curie ← Curie
+- Tides ← Tide
+- Blood clotting ← Coagulation
+- Thyroid gland ← Thyroid
+- The Sun ← Sun
+- Sunspots ← Sunspot
+- Bacterial conjugation ← Conjugation
+- Redox ← Reduction
+- The Moon ← Moon
+- X-rays ← X-ray
+- Mesozoic Era ← Mesozoic
+- Electric current ← Current
+- Coral reefs ← Coral reef
+- Diabetes ← Diabetes mellitus
+- Birds ← Bird
+- Honey bees ← Honey bee
+- Capillaries ← Capillary
+- Deserts ← Desert
+- Theory of relativity ← Relativity; Special relativity
+- Systems of linear equations ← System of linear equations
+- Parallelograms ← Parallelogram
+- Trees ← Tree
+- Alveoli ← Pulmonary alveolus
+- Roots ← Root
+- Aquifers ← Aquifer
+- Mohs hardness scale ← Hardness
+- Central processing unit (CPU) ← Central processing unit
+- Teeth ← Tooth
+- El Niño ← El Nino
+- Nebulae ← Nebula
+- Simple machines ← Simple machine
+- Diodes ← Diode
+- Ampère’s law ← Ampère’s circuital law
+- Parabolas ← Parabola
+- Spin (physics) ← Spin
+- Atomic orbitals ← Atomic orbital
+- Kuiper Belt ← Kuiper belt; Edgeworth-Kuiper belt
+- Titan (moon) ← Titan
+- Bacteriophages ← Bacteriophage
+- Spheres ← Sphere
+- Chemical equilibrium ← Equilibrium constant
+- Muscles ← Muscle
+- White dwarfs ← White dwarf; White Dwarf
+- Lord Rayleigh ← John William Strutt
+- Integers ← Integer
+- Millikan oil drop experiment ← Oil drop experiment
+- Magnetic monopoles ← Magnetic monopole
+- Esters ← Ester
+- Logarithms ← Logarithm; Natural logarithm
+- Complex numbers ← Complex number
+- Vacuoles ← Vacuole
+- Sponges ← Sponge
+- Electrolytes ← Electrolyte
+- Alkenes ← Alkene
+- Quasars ← Quasar
+- Hyperbolas ← Hyperbola
+- Drag (physics) ← Drag
+- Lac operon ← Operon
+- Polymers ← Polymer
+- Mutations ← Mutation
+- Semiconductors ← Semiconductor
+- Viruses ← Virus
+- Peroxisomes ← Peroxisome
+- Asteroids ← Asteroid; Asteroid belt
+- Catalysts ← Catalysis
+- Coulomb’s law ← Charles-Augustin de Coulomb
+- Binary numbers ← Binary number
+- Ozone layer ← Ozone
+- Aluminum ← Aluminium
+- Neutron stars ← Neutron star
+- Corn (maize) ← Maize
+- Red blood cells ← Red blood cell
+- White blood cells ← White blood cell
+- Cretaceous period ← Cretaceous
+- pH ← PH
+- Antimatter ← Antiparticle
+- Lipids ← Fats
+- Fruit flies ← Fruit fly
+- Cilia ← Cilium
+- Programming languages ← Programming language
+- Diels–Alder reaction ← Diels-Alder Reaction
+- Geysers ← Geyser
+- Vitamins ← Vitamin
+- Bose–Einstein condensate ← Bose-Einstein condensate
+- Stars ← Star
+- Mohorovičić discontinuity ← Mohorovicic discontinuity; Mohorovicic Discontinuity
+- Electrodes ← Electrode
+- Linked lists ← Linked list
+- Magma ← Lava
+- Oceans ← Ocean
+- Square roots ← Square root
+- Earth’s core ← Core
+- Van Allen radiation belts ← Van Allen radiation belt
+- Andromeda Galaxy ← Andromeda
+- Perfect numbers ← Perfect number
+- Negative numbers ← Negative number
+- Work (physics) ← Work
+- Dipoles ← Dipole
+- Skin ← Epidermis
+- Pheromones ← Pheromone
+- Inequalities ← Inequality
+- Bones ← Bone
+- Bits (computing) ← Bit
+- Gregor Mendel ← Pea
+- Tension (physics) ← Tension
+- Cosmic microwave background ← Cosmic Microwave Background Radiation
+- Hertzsprung–Russell diagram ← Hertzsprung-Russell diagram
+- Oort cloud ← Opik-Oort cloud
+- Polio ← Poliomyelitis
+- Predation ← Predators
+- Punnett squares ← Punnett square; Heterozygous
+- Blood types ← Blood type
+- Chordates ← Chordata
+- Standard deviation ← Variance
+- Group theory ← Groups
+- Set theory ← Sets
+- The number four ← Four
+- The number two ← Two
+- Graph theory ← Graphs
+- Convergence (series) ← Convergence
+- Commutative property ← Commutativity

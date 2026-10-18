@@ -1,0 +1,2393 @@
+{
+ "areas": [
+  {
+   "name": "American History",
+   "qb": "History · American History",
+   "short": "US History",
+   "count": 20
+  },
+  {
+   "name": "European History",
+   "qb": "History · European History",
+   "short": "Euro History",
+   "count": 33
+  },
+  {
+   "name": "Literature",
+   "qb": "Literature",
+   "short": "Literature",
+   "count": 33
+  },
+  {
+   "name": "Mythology",
+   "qb": "Mythology",
+   "short": "Mythology",
+   "count": 20
+  },
+  {
+   "name": "Religion",
+   "qb": "Religion",
+   "short": "Religion",
+   "count": 20
+  },
+  {
+   "name": "Philosophy",
+   "qb": "Philosophy",
+   "short": "Philosophy",
+   "count": 10
+  },
+  {
+   "name": "Social Science",
+   "qb": "Social Science",
+   "short": "Social Science",
+   "count": 10
+  },
+  {
+   "name": "Fine Arts",
+   "qb": "Fine Arts",
+   "short": "Fine Arts",
+   "count": 20
+  },
+  {
+   "name": "Physics",
+   "qb": "Science · Physics",
+   "short": "Physics",
+   "count": 19
+  },
+  {
+   "name": "Biology",
+   "qb": "Science · Biology",
+   "short": "Biology",
+   "count": 20
+  },
+  {
+   "name": "Earth Science",
+   "qb": "Science · Other Science (Earth Science)",
+   "short": "Earth Science",
+   "count": 10
+  }
+ ],
+ "topics": [
+  {
+   "id": "george-washington",
+   "name": "George Washington",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "George Washington",
+   "order": 1
+  },
+  {
+   "id": "andrew-jackson",
+   "name": "Andrew Jackson",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Andrew Jackson",
+   "order": 2
+  },
+  {
+   "id": "franklin-roosevelt",
+   "name": "Franklin Delano Roosevelt",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Franklin Delano Roosevelt",
+   "order": 3
+  },
+  {
+   "id": "jamestown",
+   "name": "Jamestown",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Jamestown",
+   "order": 4
+  },
+  {
+   "id": "john-adams",
+   "name": "John Adams",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "John Adams",
+   "order": 5
+  },
+  {
+   "id": "prohibition",
+   "name": "Prohibition",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Prohibition",
+   "order": 6
+  },
+  {
+   "id": "abraham-lincoln",
+   "name": "Abraham Lincoln",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Abraham Lincoln",
+   "order": 7
+  },
+  {
+   "id": "andrew-johnson",
+   "name": "Andrew Johnson",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Andrew Johnson",
+   "order": 8
+  },
+  {
+   "id": "battle-of-gettysburg",
+   "name": "Battle of Gettysburg",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Battle of Gettysburg",
+   "order": 9
+  },
+  {
+   "id": "martin-luther-king-jr",
+   "name": "Martin Luther King Jr.",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Martin Luther King Jr.",
+   "order": 10
+  },
+  {
+   "id": "pocahontas",
+   "name": "Pocahontas",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Pocahontas",
+   "order": 11
+  },
+  {
+   "id": "theodore-roosevelt",
+   "name": "Theodore Roosevelt",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Theodore Roosevelt",
+   "order": 12
+  },
+  {
+   "id": "war-of-1812",
+   "name": "War of 1812",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "War of 1812",
+   "order": 13
+  },
+  {
+   "id": "william-jennings-bryan",
+   "name": "William Jennings Bryan",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "William Jennings Bryan",
+   "order": 14
+  },
+  {
+   "id": "womens-suffrage",
+   "name": "Women’s Suffrage",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Women's Suffrage",
+   "order": 15
+  },
+  {
+   "id": "thomas-jefferson",
+   "name": "Thomas Jefferson",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Thomas Jefferson",
+   "order": 16
+  },
+  {
+   "id": "trail-of-tears",
+   "name": "Trail of Tears",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Trail of Tears",
+   "order": 17
+  },
+  {
+   "id": "woodrow-wilson",
+   "name": "Woodrow Wilson",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Woodrow Wilson",
+   "order": 18
+  },
+  {
+   "id": "alexander-hamilton",
+   "name": "Alexander Hamilton",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Alexander Hamilton",
+   "order": 19
+  },
+  {
+   "id": "andrew-carnegie",
+   "name": "Andrew Carnegie",
+   "category": "American History",
+   "qbCategory": "History · American History",
+   "source": "Andrew Carnegie",
+   "order": 20
+  },
+  {
+   "id": "martin-luther",
+   "name": "Martin Luther",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Martin Luther",
+   "order": 21
+  },
+  {
+   "id": "world-war-i",
+   "name": "World War I",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "World War I",
+   "order": 22
+  },
+  {
+   "id": "charlemagne",
+   "name": "Charlemagne",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Charlemagne",
+   "order": 23
+  },
+  {
+   "id": "battle-of-hastings",
+   "name": "Battle of Hastings",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Battle of Hastings",
+   "order": 24
+  },
+  {
+   "id": "crusades",
+   "name": "Crusades",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Crusades",
+   "order": 25
+  },
+  {
+   "id": "henry-viii",
+   "name": "Henry VIII",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Henry VIII",
+   "order": 26
+  },
+  {
+   "id": "hundred-years-war",
+   "name": "Hundred Years’ War",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Hundred Years' War",
+   "order": 27
+  },
+  {
+   "id": "napoleon-bonaparte",
+   "name": "Napoleon Bonaparte",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Napoleon Bonaparte",
+   "order": 28
+  },
+  {
+   "id": "otto-von-bismarck",
+   "name": "Otto von Bismarck",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Otto von Bismarck",
+   "order": 29
+  },
+  {
+   "id": "battle-of-waterloo",
+   "name": "Battle of Waterloo",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Battle of Waterloo",
+   "order": 30
+  },
+  {
+   "id": "magna-carta",
+   "name": "Magna Carta",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Magna Carta Libertatum",
+   "order": 31
+  },
+  {
+   "id": "ottoman-empire",
+   "name": "Ottoman Empire",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Ottoman Empire",
+   "order": 32
+  },
+  {
+   "id": "adolf-hitler",
+   "name": "Adolf Hitler",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Adolf Hitler",
+   "order": 33
+  },
+  {
+   "id": "benito-mussolini",
+   "name": "Benito Mussolini",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Benito Mussolini",
+   "order": 34
+  },
+  {
+   "id": "louis-xiv",
+   "name": "Louis XIV",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Louis XIV",
+   "order": 35
+  },
+  {
+   "id": "margaret-thatcher",
+   "name": "Margaret Thatcher",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Margaret Thatcher",
+   "order": 36
+  },
+  {
+   "id": "archduke-franz-ferdinand",
+   "name": "Archduke Franz Ferdinand",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Archduke Franz Ferdinand",
+   "order": 37
+  },
+  {
+   "id": "queen-victoria",
+   "name": "Queen Victoria",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Queen Victoria",
+   "order": 38
+  },
+  {
+   "id": "vikings",
+   "name": "Vikings",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Vikings",
+   "order": 39
+  },
+  {
+   "id": "winston-churchill",
+   "name": "Winston Churchill",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Winston Churchill",
+   "order": 40
+  },
+  {
+   "id": "joseph-stalin",
+   "name": "Joseph Stalin",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Joseph Stalin",
+   "order": 41
+  },
+  {
+   "id": "thirty-years-war",
+   "name": "Thirty Years’ War",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Thirty Years' War",
+   "order": 42
+  },
+  {
+   "id": "battle-of-stalingrad",
+   "name": "Battle of Stalingrad",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Battle of Stalingrad",
+   "order": 43
+  },
+  {
+   "id": "berlin-wall",
+   "name": "Berlin Wall",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Berlin Wall",
+   "order": 44
+  },
+  {
+   "id": "elizabeth-i",
+   "name": "Elizabeth I",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Elizabeth I",
+   "order": 45
+  },
+  {
+   "id": "holy-roman-empire",
+   "name": "Holy Roman Empire",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Holy Roman Empire",
+   "order": 46
+  },
+  {
+   "id": "irish-potato-famine",
+   "name": "Irish Potato Famine",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Irish Potato Famine",
+   "order": 47
+  },
+  {
+   "id": "joan-of-arc",
+   "name": "Joan of Arc",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Saint Joan of Arc",
+   "order": 48
+  },
+  {
+   "id": "attila-the-hun",
+   "name": "Attila the Hun",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Attila the Hun",
+   "order": 49
+  },
+  {
+   "id": "catherine-the-great",
+   "name": "Catherine the Great",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Catherine the Great",
+   "order": 50
+  },
+  {
+   "id": "english-civil-war",
+   "name": "English Civil War",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "English Civil War",
+   "order": 51
+  },
+  {
+   "id": "marie-antoinette",
+   "name": "Marie Antoinette",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Marie Antoinette",
+   "order": 52
+  },
+  {
+   "id": "peter-the-great",
+   "name": "Peter the Great",
+   "category": "European History",
+   "qbCategory": "History · European History",
+   "source": "Peter the Great",
+   "order": 53
+  },
+  {
+   "id": "hamlet",
+   "name": "Hamlet",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Hamlet",
+   "order": 54
+  },
+  {
+   "id": "oedipus-rex",
+   "name": "Oedipus Rex",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Oedipus",
+   "order": 55
+  },
+  {
+   "id": "macbeth",
+   "name": "Macbeth",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Macbeth",
+   "order": 56
+  },
+  {
+   "id": "iliad",
+   "name": "Iliad",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Iliad",
+   "order": 57
+  },
+  {
+   "id": "moby-dick",
+   "name": "Moby-Dick",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Moby-Dick",
+   "order": 58
+  },
+  {
+   "id": "the-great-gatsby",
+   "name": "The Great Gatsby",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Great Gatsby",
+   "order": 59
+  },
+  {
+   "id": "don-quixote",
+   "name": "Don Quixote",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Don Quixote",
+   "order": 60
+  },
+  {
+   "id": "romeo-and-juliet",
+   "name": "Romeo and Juliet",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Romeo and Juliet",
+   "order": 61
+  },
+  {
+   "id": "the-canterbury-tales",
+   "name": "The Canterbury Tales",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Canterbury Tales",
+   "order": 62
+  },
+  {
+   "id": "odyssey",
+   "name": "Odyssey",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Odyssey",
+   "order": 63
+  },
+  {
+   "id": "paradise-lost",
+   "name": "Paradise Lost",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Paradise Lost",
+   "order": 64
+  },
+  {
+   "id": "nineteen-eighty-four",
+   "name": "Nineteen Eighty-Four",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Nineteen Eighty-Four",
+   "order": 65
+  },
+  {
+   "id": "othello",
+   "name": "Othello",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Othello",
+   "order": 66
+  },
+  {
+   "id": "the-scarlet-letter",
+   "name": "The Scarlet Letter",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Scarlet Letter",
+   "order": 67
+  },
+  {
+   "id": "the-tempest",
+   "name": "The Tempest",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Tempest",
+   "order": 68
+  },
+  {
+   "id": "pride-and-prejudice",
+   "name": "Pride and Prejudice",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Pride and Prejudice",
+   "order": 69
+  },
+  {
+   "id": "jane-eyre",
+   "name": "Jane Eyre",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Jane Eyre",
+   "order": 70
+  },
+  {
+   "id": "king-lear",
+   "name": "King Lear",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "King Lear",
+   "order": 71
+  },
+  {
+   "id": "aeneid",
+   "name": "Aeneid",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Aeneid",
+   "order": 72
+  },
+  {
+   "id": "to-kill-a-mockingbird",
+   "name": "To Kill a Mockingbird",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "To Kill a Mockingbird",
+   "order": 73
+  },
+  {
+   "id": "the-red-badge-of-courage",
+   "name": "The Red Badge of Courage",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Red Badge of Courage",
+   "order": 74
+  },
+  {
+   "id": "the-waste-land",
+   "name": "The Waste Land",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Waste Land",
+   "order": 75
+  },
+  {
+   "id": "the-adventures-of-tom-sawyer",
+   "name": "The Adventures of Tom Sawyer",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Adventures of Tom Sawyer",
+   "order": 76
+  },
+  {
+   "id": "the-divine-comedy",
+   "name": "The Divine Comedy",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Divine Comedy",
+   "order": 77
+  },
+  {
+   "id": "a-streetcar-named-desire",
+   "name": "A Streetcar Named Desire",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "A Streetcar Named Desire",
+   "order": 78
+  },
+  {
+   "id": "beowulf",
+   "name": "Beowulf",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Beowulf",
+   "order": 79
+  },
+  {
+   "id": "the-catcher-in-the-rye",
+   "name": "The Catcher in the Rye",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Catcher in The Rye",
+   "order": 80
+  },
+  {
+   "id": "les-miserables",
+   "name": "Les Misérables",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Les Miserables",
+   "order": 81
+  },
+  {
+   "id": "the-grapes-of-wrath",
+   "name": "The Grapes of Wrath",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "The Grapes of Wrath",
+   "order": 82
+  },
+  {
+   "id": "candide",
+   "name": "Candide",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Candide",
+   "order": 83
+  },
+  {
+   "id": "a-midsummer-nights-dream",
+   "name": "A Midsummer Night’s Dream",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "A Midsummer Night's Dream",
+   "order": 84
+  },
+  {
+   "id": "ulysses",
+   "name": "Ulysses",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Ulysses",
+   "order": 85
+  },
+  {
+   "id": "heart-of-darkness",
+   "name": "Heart of Darkness",
+   "category": "Literature",
+   "qbCategory": "Literature",
+   "source": "Heart of Darkness",
+   "order": 86
+  },
+  {
+   "id": "odin",
+   "name": "Odin",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Odin",
+   "order": 87
+  },
+  {
+   "id": "loki",
+   "name": "Loki",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Loki",
+   "order": 88
+  },
+  {
+   "id": "thor",
+   "name": "Thor",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Thor",
+   "order": 89
+  },
+  {
+   "id": "shiva",
+   "name": "Shiva",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Shiva",
+   "order": 90
+  },
+  {
+   "id": "heracles",
+   "name": "Heracles",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Heracles",
+   "order": 91
+  },
+  {
+   "id": "theseus",
+   "name": "Theseus",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Theseus",
+   "order": 92
+  },
+  {
+   "id": "gilgamesh",
+   "name": "Gilgamesh",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Gilgamesh",
+   "order": 93
+  },
+  {
+   "id": "quetzalcoatl",
+   "name": "Quetzalcoatl",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Quetzalcoatl",
+   "order": 94
+  },
+  {
+   "id": "horus",
+   "name": "Horus",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Horus",
+   "order": 95
+  },
+  {
+   "id": "osiris",
+   "name": "Osiris",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Osiris",
+   "order": 96
+  },
+  {
+   "id": "dionysus",
+   "name": "Dionysus",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Dionysus",
+   "order": 97
+  },
+  {
+   "id": "achilles",
+   "name": "Achilles",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Achilles",
+   "order": 98
+  },
+  {
+   "id": "poseidon",
+   "name": "Poseidon",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Poseidon",
+   "order": 99
+  },
+  {
+   "id": "artemis",
+   "name": "Artemis",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Artemis",
+   "order": 100
+  },
+  {
+   "id": "apollo",
+   "name": "Apollo",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Apollo",
+   "order": 101
+  },
+  {
+   "id": "cu-chulainn",
+   "name": "Cú Chulainn",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Cu Chulainn",
+   "order": 102
+  },
+  {
+   "id": "ireland",
+   "name": "Ireland",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Ireland",
+   "order": 103
+  },
+  {
+   "id": "perseus",
+   "name": "Perseus",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Perseus",
+   "order": 104
+  },
+  {
+   "id": "jason",
+   "name": "Jason",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Jason",
+   "order": 105
+  },
+  {
+   "id": "ra",
+   "name": "Ra",
+   "category": "Mythology",
+   "qbCategory": "Mythology",
+   "source": "Ra",
+   "order": 106
+  },
+  {
+   "id": "sikhism",
+   "name": "Sikhism",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Sikhism",
+   "order": 107
+  },
+  {
+   "id": "jainism",
+   "name": "Jainism",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Jainism",
+   "order": 108
+  },
+  {
+   "id": "zoroastrianism",
+   "name": "Zoroastrianism",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Zoroastrianism",
+   "order": 109
+  },
+  {
+   "id": "voodoo",
+   "name": "Voodoo",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Voodoo",
+   "order": 110
+  },
+  {
+   "id": "yom-kippur",
+   "name": "Yom Kippur",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Yom Kippur",
+   "order": 111
+  },
+  {
+   "id": "passover",
+   "name": "Passover",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Passover",
+   "order": 112
+  },
+  {
+   "id": "ramadan",
+   "name": "Ramadan",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Ramadan",
+   "order": 113
+  },
+  {
+   "id": "fasting",
+   "name": "Fasting",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Fasting",
+   "order": 114
+  },
+  {
+   "id": "zen-buddhism",
+   "name": "Zen Buddhism",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Zen Buddhism",
+   "order": 115
+  },
+  {
+   "id": "diwali",
+   "name": "Diwali",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Diwali",
+   "order": 116
+  },
+  {
+   "id": "hajj",
+   "name": "Hajj",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Hajj",
+   "order": 117
+  },
+  {
+   "id": "moses",
+   "name": "Moses",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Moses",
+   "order": 118
+  },
+  {
+   "id": "buddhism",
+   "name": "Buddhism",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Buddhism",
+   "order": 119
+  },
+  {
+   "id": "rastafarianism",
+   "name": "Rastafarianism",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Rastafarianism",
+   "order": 120
+  },
+  {
+   "id": "purim",
+   "name": "Purim",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Purim",
+   "order": 121
+  },
+  {
+   "id": "bahai-faith",
+   "name": "Bahá’í Faith",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Baha'i Faith",
+   "order": 122
+  },
+  {
+   "id": "santeria",
+   "name": "Santería",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Santeria",
+   "order": 123
+  },
+  {
+   "id": "muhammad",
+   "name": "Muhammad",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Muhammad",
+   "order": 124
+  },
+  {
+   "id": "book-of-revelation",
+   "name": "Book of Revelation",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Book of Revelation",
+   "order": 125
+  },
+  {
+   "id": "jerusalem",
+   "name": "Jerusalem",
+   "category": "Religion",
+   "qbCategory": "Religion",
+   "source": "Jerusalem",
+   "order": 126
+  },
+  {
+   "id": "plato",
+   "name": "Plato",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "Plato",
+   "order": 127
+  },
+  {
+   "id": "rene-descartes",
+   "name": "René Descartes",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "Rene Descartes",
+   "order": 128
+  },
+  {
+   "id": "john-locke",
+   "name": "John Locke",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "John Locke",
+   "order": 129
+  },
+  {
+   "id": "karl-marx",
+   "name": "Karl Marx",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "Karl Marx",
+   "order": 130
+  },
+  {
+   "id": "socrates",
+   "name": "Socrates",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "Socrates",
+   "order": 131
+  },
+  {
+   "id": "immanuel-kant",
+   "name": "Immanuel Kant",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "Immanuel Kant",
+   "order": 132
+  },
+  {
+   "id": "aristotle",
+   "name": "Aristotle",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "Aristotle",
+   "order": 133
+  },
+  {
+   "id": "confucius",
+   "name": "Confucius",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "Confucius",
+   "order": 134
+  },
+  {
+   "id": "existentialism",
+   "name": "Existentialism",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "Existentialism",
+   "order": 135
+  },
+  {
+   "id": "the-prince",
+   "name": "The Prince",
+   "category": "Philosophy",
+   "qbCategory": "Philosophy",
+   "source": "The Prince",
+   "order": 136
+  },
+  {
+   "id": "sigmund-freud",
+   "name": "Sigmund Freud",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "Sigmund Freud",
+   "order": 137
+  },
+  {
+   "id": "john-maynard-keynes",
+   "name": "John Maynard Keynes",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "John Maynard Keynes",
+   "order": 138
+  },
+  {
+   "id": "margaret-mead",
+   "name": "Margaret Mead",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "Margaret Mead",
+   "order": 139
+  },
+  {
+   "id": "adam-smith",
+   "name": "Adam Smith",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "Adam Smith",
+   "order": 140
+  },
+  {
+   "id": "stanford-prison-experiment",
+   "name": "Stanford Prison Experiment",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "Stanford Prison Experiment",
+   "order": 141
+  },
+  {
+   "id": "demand",
+   "name": "Demand",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "demand",
+   "order": 142
+  },
+  {
+   "id": "inflation",
+   "name": "Inflation",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "inflation",
+   "order": 143
+  },
+  {
+   "id": "unemployment",
+   "name": "Unemployment",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "unemployment",
+   "order": 144
+  },
+  {
+   "id": "anthropology",
+   "name": "Anthropology",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "anthropology",
+   "order": 145
+  },
+  {
+   "id": "monopoly",
+   "name": "Monopoly",
+   "category": "Social Science",
+   "qbCategory": "Social Science",
+   "source": "monopoly",
+   "order": 146
+  },
+  {
+   "id": "parthenon",
+   "name": "Parthenon",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Parthenon",
+   "order": 147
+  },
+  {
+   "id": "statue-of-liberty",
+   "name": "Statue of Liberty",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Statue of Liberty",
+   "order": 148
+  },
+  {
+   "id": "mona-lisa",
+   "name": "Mona Lisa",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Mona Lisa",
+   "order": 149
+  },
+  {
+   "id": "guernica",
+   "name": "Guernica",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Guernica",
+   "order": 150
+  },
+  {
+   "id": "mount-rushmore",
+   "name": "Mount Rushmore",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Mount Rushmore",
+   "order": 151
+  },
+  {
+   "id": "notre-dame-cathedral",
+   "name": "Notre Dame Cathedral",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Notre Dame Cathedral",
+   "order": 152
+  },
+  {
+   "id": "sistine-chapel",
+   "name": "Sistine Chapel",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Sistine Chapel",
+   "order": 153
+  },
+  {
+   "id": "nighthawks",
+   "name": "Nighthawks",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Nighthawks",
+   "order": 154
+  },
+  {
+   "id": "the-thinker",
+   "name": "The Thinker",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "The Thinker",
+   "order": 155
+  },
+  {
+   "id": "taj-mahal",
+   "name": "Taj Mahal",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Taj Mahal",
+   "order": 156
+  },
+  {
+   "id": "the-persistence-of-memory",
+   "name": "The Persistence of Memory",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "The Persistence of Memory",
+   "order": 157
+  },
+  {
+   "id": "american-gothic",
+   "name": "American Gothic",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "American Gothic",
+   "order": 158
+  },
+  {
+   "id": "united-states-capitol",
+   "name": "United States Capitol",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "United States Capitol",
+   "order": 159
+  },
+  {
+   "id": "the-night-watch",
+   "name": "The Night Watch",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "The Night Watch",
+   "order": 160
+  },
+  {
+   "id": "lincoln-memorial",
+   "name": "Lincoln Memorial",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Lincoln Memorial",
+   "order": 161
+  },
+  {
+   "id": "st-pauls-cathedral",
+   "name": "St. Paul’s Cathedral",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Saint Paul's Cathedral",
+   "order": 162
+  },
+  {
+   "id": "fallingwater",
+   "name": "Fallingwater",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "Fallingwater",
+   "order": 163
+  },
+  {
+   "id": "the-birth-of-venus",
+   "name": "The Birth of Venus",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "The Birth of Venus",
+   "order": 164
+  },
+  {
+   "id": "the-gates-of-hell",
+   "name": "The Gates of Hell",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "The Gates of Hell",
+   "order": 165
+  },
+  {
+   "id": "the-last-supper",
+   "name": "The Last Supper",
+   "category": "Fine Arts",
+   "qbCategory": "Fine Arts",
+   "source": "The Last Supper",
+   "order": 166
+  },
+  {
+   "id": "gravity",
+   "name": "Gravity",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Gravity",
+   "order": 167
+  },
+  {
+   "id": "albert-einstein",
+   "name": "Albert Einstein",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Albert Einstein",
+   "order": 168
+  },
+  {
+   "id": "friction",
+   "name": "Friction",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Friction",
+   "order": 169
+  },
+  {
+   "id": "mass",
+   "name": "Mass",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Mass",
+   "order": 170
+  },
+  {
+   "id": "acceleration",
+   "name": "Acceleration",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Acceleration",
+   "order": 171
+  },
+  {
+   "id": "frequency",
+   "name": "Frequency",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Frequency",
+   "order": 172
+  },
+  {
+   "id": "inertia",
+   "name": "Inertia",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Inertia",
+   "order": 173
+  },
+  {
+   "id": "kinetic-energy",
+   "name": "Kinetic Energy",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Kinetic Energy",
+   "order": 174
+  },
+  {
+   "id": "black-holes",
+   "name": "Black Holes",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Black Holes",
+   "order": 175
+  },
+  {
+   "id": "isaac-newton",
+   "name": "Isaac Newton",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Isaac Newton",
+   "order": 176
+  },
+  {
+   "id": "lasers",
+   "name": "Lasers",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Lasers",
+   "order": 177
+  },
+  {
+   "id": "quarks",
+   "name": "Quarks",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Quarks",
+   "order": 178
+  },
+  {
+   "id": "refraction",
+   "name": "Refraction",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Refraction",
+   "order": 179
+  },
+  {
+   "id": "electrons",
+   "name": "Electrons",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Electrons",
+   "order": 180
+  },
+  {
+   "id": "pressure",
+   "name": "Pressure",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Pressure",
+   "order": 181
+  },
+  {
+   "id": "stephen-hawking",
+   "name": "Stephen Hawking",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Stephen Hawking",
+   "order": 182
+  },
+  {
+   "id": "velocity",
+   "name": "Velocity",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Velocity",
+   "order": 183
+  },
+  {
+   "id": "waves",
+   "name": "Waves",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Waves",
+   "order": 184
+  },
+  {
+   "id": "energy",
+   "name": "Energy",
+   "category": "Physics",
+   "qbCategory": "Science · Physics",
+   "source": "Energy",
+   "order": 185
+  },
+  {
+   "id": "mitochondria",
+   "name": "Mitochondria",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "mitochondria",
+   "order": 186
+  },
+  {
+   "id": "photosynthesis",
+   "name": "Photosynthesis",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "photosynthesis",
+   "order": 187
+  },
+  {
+   "id": "liver",
+   "name": "Liver",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "liver",
+   "order": 188
+  },
+  {
+   "id": "endoplasmic-reticulum",
+   "name": "Endoplasmic reticulum",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "endoplasmic reticulum",
+   "order": 189
+  },
+  {
+   "id": "dna",
+   "name": "DNA",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "DNA",
+   "order": 190
+  },
+  {
+   "id": "heart",
+   "name": "Heart",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "heart",
+   "order": 191
+  },
+  {
+   "id": "kidneys",
+   "name": "Kidneys",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "kidneys",
+   "order": 192
+  },
+  {
+   "id": "brain",
+   "name": "Brain",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "brain",
+   "order": 193
+  },
+  {
+   "id": "cell-membrane",
+   "name": "Cell membrane",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "cell membrane",
+   "order": 194
+  },
+  {
+   "id": "meiosis",
+   "name": "Meiosis",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "meiosis",
+   "order": 195
+  },
+  {
+   "id": "stomach",
+   "name": "Stomach",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "stomach",
+   "order": 196
+  },
+  {
+   "id": "chromosomes",
+   "name": "Chromosomes",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "chromosomes",
+   "order": 197
+  },
+  {
+   "id": "fungi",
+   "name": "Fungi",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "Fungi",
+   "order": 198
+  },
+  {
+   "id": "glucose",
+   "name": "Glucose",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "glucose",
+   "order": 199
+  },
+  {
+   "id": "ribosomes",
+   "name": "Ribosomes",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "ribosomes",
+   "order": 200
+  },
+  {
+   "id": "cell-wall",
+   "name": "Cell wall",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "cell wall",
+   "order": 201
+  },
+  {
+   "id": "evolution",
+   "name": "Evolution",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "evolution",
+   "order": 202
+  },
+  {
+   "id": "lungs",
+   "name": "Lungs",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "lungs",
+   "order": 203
+  },
+  {
+   "id": "neurons",
+   "name": "Neurons",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "neurons",
+   "order": 204
+  },
+  {
+   "id": "nucleus",
+   "name": "Nucleus",
+   "category": "Biology",
+   "qbCategory": "Science · Biology",
+   "source": "nucleus",
+   "order": 205
+  },
+  {
+   "id": "glaciers",
+   "name": "Glaciers",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "glaciers",
+   "order": 206
+  },
+  {
+   "id": "quartz",
+   "name": "Quartz",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "quartz",
+   "order": 207
+  },
+  {
+   "id": "hurricanes",
+   "name": "Hurricanes",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "hurricanes",
+   "order": 208
+  },
+  {
+   "id": "tornadoes",
+   "name": "Tornadoes",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "tornadoes",
+   "order": 209
+  },
+  {
+   "id": "earthquakes",
+   "name": "Earthquakes",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "earthquakes",
+   "order": 210
+  },
+  {
+   "id": "mantle",
+   "name": "Mantle",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "mantle",
+   "order": 211
+  },
+  {
+   "id": "volcanoes",
+   "name": "Volcanoes",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "volcanoes",
+   "order": 212
+  },
+  {
+   "id": "pangaea",
+   "name": "Pangaea",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "Pangaea",
+   "order": 213
+  },
+  {
+   "id": "clouds",
+   "name": "Clouds",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "clouds",
+   "order": 214
+  },
+  {
+   "id": "limestone",
+   "name": "Limestone",
+   "category": "Earth Science",
+   "qbCategory": "Science · Other Science (Earth Science)",
+   "source": "limestone",
+   "order": 215
+  }
+ ],
+ "lists": [
+  {
+   "n": 1,
+   "label": "American History (20) + Religion (20)",
+   "ids": [
+    "george-washington",
+    "andrew-jackson",
+    "franklin-roosevelt",
+    "jamestown",
+    "john-adams",
+    "prohibition",
+    "abraham-lincoln",
+    "andrew-johnson",
+    "battle-of-gettysburg",
+    "martin-luther-king-jr",
+    "pocahontas",
+    "theodore-roosevelt",
+    "war-of-1812",
+    "william-jennings-bryan",
+    "womens-suffrage",
+    "thomas-jefferson",
+    "trail-of-tears",
+    "woodrow-wilson",
+    "alexander-hamilton",
+    "andrew-carnegie",
+    "sikhism",
+    "jainism",
+    "zoroastrianism",
+    "voodoo",
+    "yom-kippur",
+    "passover",
+    "ramadan",
+    "fasting",
+    "zen-buddhism",
+    "diwali",
+    "hajj",
+    "moses",
+    "buddhism",
+    "rastafarianism",
+    "purim",
+    "bahai-faith",
+    "santeria",
+    "muhammad",
+    "book-of-revelation",
+    "jerusalem"
+   ]
+  },
+  {
+   "n": 2,
+   "label": "Literature (33) + Mythology (20)",
+   "ids": [
+    "hamlet",
+    "oedipus-rex",
+    "macbeth",
+    "iliad",
+    "moby-dick",
+    "the-great-gatsby",
+    "don-quixote",
+    "romeo-and-juliet",
+    "the-canterbury-tales",
+    "odyssey",
+    "paradise-lost",
+    "nineteen-eighty-four",
+    "othello",
+    "the-scarlet-letter",
+    "the-tempest",
+    "pride-and-prejudice",
+    "jane-eyre",
+    "king-lear",
+    "aeneid",
+    "to-kill-a-mockingbird",
+    "the-red-badge-of-courage",
+    "the-waste-land",
+    "the-adventures-of-tom-sawyer",
+    "the-divine-comedy",
+    "a-streetcar-named-desire",
+    "beowulf",
+    "the-catcher-in-the-rye",
+    "les-miserables",
+    "the-grapes-of-wrath",
+    "candide",
+    "a-midsummer-nights-dream",
+    "ulysses",
+    "heart-of-darkness",
+    "odin",
+    "loki",
+    "thor",
+    "shiva",
+    "heracles",
+    "theseus",
+    "gilgamesh",
+    "quetzalcoatl",
+    "horus",
+    "osiris",
+    "dionysus",
+    "achilles",
+    "poseidon",
+    "artemis",
+    "apollo",
+    "cu-chulainn",
+    "ireland",
+    "perseus",
+    "jason",
+    "ra"
+   ]
+  },
+  {
+   "n": 3,
+   "label": "Physics (19) + Fine Arts (20)",
+   "ids": [
+    "gravity",
+    "albert-einstein",
+    "friction",
+    "mass",
+    "acceleration",
+    "frequency",
+    "inertia",
+    "kinetic-energy",
+    "black-holes",
+    "isaac-newton",
+    "lasers",
+    "quarks",
+    "refraction",
+    "electrons",
+    "pressure",
+    "stephen-hawking",
+    "velocity",
+    "waves",
+    "energy",
+    "parthenon",
+    "statue-of-liberty",
+    "mona-lisa",
+    "guernica",
+    "mount-rushmore",
+    "notre-dame-cathedral",
+    "sistine-chapel",
+    "nighthawks",
+    "the-thinker",
+    "taj-mahal",
+    "the-persistence-of-memory",
+    "american-gothic",
+    "united-states-capitol",
+    "the-night-watch",
+    "lincoln-memorial",
+    "st-pauls-cathedral",
+    "fallingwater",
+    "the-birth-of-venus",
+    "the-gates-of-hell",
+    "the-last-supper"
+   ]
+  },
+  {
+   "n": 4,
+   "label": "European History (33) + Social Science (10)",
+   "ids": [
+    "martin-luther",
+    "world-war-i",
+    "charlemagne",
+    "battle-of-hastings",
+    "crusades",
+    "henry-viii",
+    "hundred-years-war",
+    "napoleon-bonaparte",
+    "otto-von-bismarck",
+    "battle-of-waterloo",
+    "magna-carta",
+    "ottoman-empire",
+    "adolf-hitler",
+    "benito-mussolini",
+    "louis-xiv",
+    "margaret-thatcher",
+    "archduke-franz-ferdinand",
+    "queen-victoria",
+    "vikings",
+    "winston-churchill",
+    "joseph-stalin",
+    "thirty-years-war",
+    "battle-of-stalingrad",
+    "berlin-wall",
+    "elizabeth-i",
+    "holy-roman-empire",
+    "irish-potato-famine",
+    "joan-of-arc",
+    "attila-the-hun",
+    "catherine-the-great",
+    "english-civil-war",
+    "marie-antoinette",
+    "peter-the-great",
+    "sigmund-freud",
+    "john-maynard-keynes",
+    "margaret-mead",
+    "adam-smith",
+    "stanford-prison-experiment",
+    "demand",
+    "inflation",
+    "unemployment",
+    "anthropology",
+    "monopoly"
+   ]
+  },
+  {
+   "n": 5,
+   "label": "Fine Arts (20) + Social Science (10) + Philosophy (10)",
+   "ids": [
+    "parthenon",
+    "statue-of-liberty",
+    "mona-lisa",
+    "guernica",
+    "mount-rushmore",
+    "notre-dame-cathedral",
+    "sistine-chapel",
+    "nighthawks",
+    "the-thinker",
+    "taj-mahal",
+    "the-persistence-of-memory",
+    "american-gothic",
+    "united-states-capitol",
+    "the-night-watch",
+    "lincoln-memorial",
+    "st-pauls-cathedral",
+    "fallingwater",
+    "the-birth-of-venus",
+    "the-gates-of-hell",
+    "the-last-supper",
+    "sigmund-freud",
+    "john-maynard-keynes",
+    "margaret-mead",
+    "adam-smith",
+    "stanford-prison-experiment",
+    "demand",
+    "inflation",
+    "unemployment",
+    "anthropology",
+    "monopoly",
+    "plato",
+    "rene-descartes",
+    "john-locke",
+    "karl-marx",
+    "socrates",
+    "immanuel-kant",
+    "aristotle",
+    "confucius",
+    "existentialism",
+    "the-prince"
+   ]
+  },
+  {
+   "n": 6,
+   "label": "American History (20) + Fine Arts (20) + Philosophy (10)",
+   "ids": [
+    "george-washington",
+    "andrew-jackson",
+    "franklin-roosevelt",
+    "jamestown",
+    "john-adams",
+    "prohibition",
+    "abraham-lincoln",
+    "andrew-johnson",
+    "battle-of-gettysburg",
+    "martin-luther-king-jr",
+    "pocahontas",
+    "theodore-roosevelt",
+    "war-of-1812",
+    "william-jennings-bryan",
+    "womens-suffrage",
+    "thomas-jefferson",
+    "trail-of-tears",
+    "woodrow-wilson",
+    "alexander-hamilton",
+    "andrew-carnegie",
+    "parthenon",
+    "statue-of-liberty",
+    "mona-lisa",
+    "guernica",
+    "mount-rushmore",
+    "notre-dame-cathedral",
+    "sistine-chapel",
+    "nighthawks",
+    "the-thinker",
+    "taj-mahal",
+    "the-persistence-of-memory",
+    "american-gothic",
+    "united-states-capitol",
+    "the-night-watch",
+    "lincoln-memorial",
+    "st-pauls-cathedral",
+    "fallingwater",
+    "the-birth-of-venus",
+    "the-gates-of-hell",
+    "the-last-supper",
+    "plato",
+    "rene-descartes",
+    "john-locke",
+    "karl-marx",
+    "socrates",
+    "immanuel-kant",
+    "aristotle",
+    "confucius",
+    "existentialism",
+    "the-prince"
+   ]
+  },
+  {
+   "n": 7,
+   "label": "Literature (33) + Earth Science (10) + Religion (first 10)",
+   "ids": [
+    "hamlet",
+    "oedipus-rex",
+    "macbeth",
+    "iliad",
+    "moby-dick",
+    "the-great-gatsby",
+    "don-quixote",
+    "romeo-and-juliet",
+    "the-canterbury-tales",
+    "odyssey",
+    "paradise-lost",
+    "nineteen-eighty-four",
+    "othello",
+    "the-scarlet-letter",
+    "the-tempest",
+    "pride-and-prejudice",
+    "jane-eyre",
+    "king-lear",
+    "aeneid",
+    "to-kill-a-mockingbird",
+    "the-red-badge-of-courage",
+    "the-waste-land",
+    "the-adventures-of-tom-sawyer",
+    "the-divine-comedy",
+    "a-streetcar-named-desire",
+    "beowulf",
+    "the-catcher-in-the-rye",
+    "les-miserables",
+    "the-grapes-of-wrath",
+    "candide",
+    "a-midsummer-nights-dream",
+    "ulysses",
+    "heart-of-darkness",
+    "glaciers",
+    "quartz",
+    "hurricanes",
+    "tornadoes",
+    "earthquakes",
+    "mantle",
+    "volcanoes",
+    "pangaea",
+    "clouds",
+    "limestone",
+    "sikhism",
+    "jainism",
+    "zoroastrianism",
+    "voodoo",
+    "yom-kippur",
+    "passover",
+    "ramadan",
+    "fasting",
+    "zen-buddhism",
+    "diwali"
+   ]
+  },
+  {
+   "n": 8,
+   "label": "Physics (19)",
+   "ids": [
+    "gravity",
+    "albert-einstein",
+    "friction",
+    "mass",
+    "acceleration",
+    "frequency",
+    "inertia",
+    "kinetic-energy",
+    "black-holes",
+    "isaac-newton",
+    "lasers",
+    "quarks",
+    "refraction",
+    "electrons",
+    "pressure",
+    "stephen-hawking",
+    "velocity",
+    "waves",
+    "energy"
+   ]
+  },
+  {
+   "n": 9,
+   "label": "Physics (19) + Literature (first 20)",
+   "ids": [
+    "gravity",
+    "albert-einstein",
+    "friction",
+    "mass",
+    "acceleration",
+    "frequency",
+    "inertia",
+    "kinetic-energy",
+    "black-holes",
+    "isaac-newton",
+    "lasers",
+    "quarks",
+    "refraction",
+    "electrons",
+    "pressure",
+    "stephen-hawking",
+    "velocity",
+    "waves",
+    "energy",
+    "hamlet",
+    "oedipus-rex",
+    "macbeth",
+    "iliad",
+    "moby-dick",
+    "the-great-gatsby",
+    "don-quixote",
+    "romeo-and-juliet",
+    "the-canterbury-tales",
+    "odyssey",
+    "paradise-lost",
+    "nineteen-eighty-four",
+    "othello",
+    "the-scarlet-letter",
+    "the-tempest",
+    "pride-and-prejudice",
+    "jane-eyre",
+    "king-lear",
+    "aeneid",
+    "to-kill-a-mockingbird"
+   ]
+  },
+  {
+   "n": 10,
+   "label": "European History (33) + Biology (20) + Mythology (20)",
+   "ids": [
+    "martin-luther",
+    "world-war-i",
+    "charlemagne",
+    "battle-of-hastings",
+    "crusades",
+    "henry-viii",
+    "hundred-years-war",
+    "napoleon-bonaparte",
+    "otto-von-bismarck",
+    "battle-of-waterloo",
+    "magna-carta",
+    "ottoman-empire",
+    "adolf-hitler",
+    "benito-mussolini",
+    "louis-xiv",
+    "margaret-thatcher",
+    "archduke-franz-ferdinand",
+    "queen-victoria",
+    "vikings",
+    "winston-churchill",
+    "joseph-stalin",
+    "thirty-years-war",
+    "battle-of-stalingrad",
+    "berlin-wall",
+    "elizabeth-i",
+    "holy-roman-empire",
+    "irish-potato-famine",
+    "joan-of-arc",
+    "attila-the-hun",
+    "catherine-the-great",
+    "english-civil-war",
+    "marie-antoinette",
+    "peter-the-great",
+    "mitochondria",
+    "photosynthesis",
+    "liver",
+    "endoplasmic-reticulum",
+    "dna",
+    "heart",
+    "kidneys",
+    "brain",
+    "cell-membrane",
+    "meiosis",
+    "stomach",
+    "chromosomes",
+    "fungi",
+    "glucose",
+    "ribosomes",
+    "cell-wall",
+    "evolution",
+    "lungs",
+    "neurons",
+    "nucleus",
+    "odin",
+    "loki",
+    "thor",
+    "shiva",
+    "heracles",
+    "theseus",
+    "gilgamesh",
+    "quetzalcoatl",
+    "horus",
+    "osiris",
+    "dionysus",
+    "achilles",
+    "poseidon",
+    "artemis",
+    "apollo",
+    "cu-chulainn",
+    "ireland",
+    "perseus",
+    "jason",
+    "ra"
+   ]
+  },
+  {
+   "n": 11,
+   "label": "American History (20) + Mythology (20)",
+   "ids": [
+    "george-washington",
+    "andrew-jackson",
+    "franklin-roosevelt",
+    "jamestown",
+    "john-adams",
+    "prohibition",
+    "abraham-lincoln",
+    "andrew-johnson",
+    "battle-of-gettysburg",
+    "martin-luther-king-jr",
+    "pocahontas",
+    "theodore-roosevelt",
+    "war-of-1812",
+    "william-jennings-bryan",
+    "womens-suffrage",
+    "thomas-jefferson",
+    "trail-of-tears",
+    "woodrow-wilson",
+    "alexander-hamilton",
+    "andrew-carnegie",
+    "odin",
+    "loki",
+    "thor",
+    "shiva",
+    "heracles",
+    "theseus",
+    "gilgamesh",
+    "quetzalcoatl",
+    "horus",
+    "osiris",
+    "dionysus",
+    "achilles",
+    "poseidon",
+    "artemis",
+    "apollo",
+    "cu-chulainn",
+    "ireland",
+    "perseus",
+    "jason",
+    "ra"
+   ]
+  },
+  {
+   "n": 12,
+   "label": "European History (first 19) + Literature (first 19)",
+   "ids": [
+    "martin-luther",
+    "world-war-i",
+    "charlemagne",
+    "battle-of-hastings",
+    "crusades",
+    "henry-viii",
+    "hundred-years-war",
+    "napoleon-bonaparte",
+    "otto-von-bismarck",
+    "battle-of-waterloo",
+    "magna-carta",
+    "ottoman-empire",
+    "adolf-hitler",
+    "benito-mussolini",
+    "louis-xiv",
+    "margaret-thatcher",
+    "archduke-franz-ferdinand",
+    "queen-victoria",
+    "vikings",
+    "hamlet",
+    "oedipus-rex",
+    "macbeth",
+    "iliad",
+    "moby-dick",
+    "the-great-gatsby",
+    "don-quixote",
+    "romeo-and-juliet",
+    "the-canterbury-tales",
+    "odyssey",
+    "paradise-lost",
+    "nineteen-eighty-four",
+    "othello",
+    "the-scarlet-letter",
+    "the-tempest",
+    "pride-and-prejudice",
+    "jane-eyre",
+    "king-lear",
+    "aeneid"
+   ]
+  }
+ ]
+}
