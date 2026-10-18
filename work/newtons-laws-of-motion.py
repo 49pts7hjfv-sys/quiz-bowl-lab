@@ -1,0 +1,460 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "newtons-laws-of-motion",
+    "name": "Newton’s laws of motion",
+    "mono": "NLM",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Three rules of force and motion · Inertia, F = ma, and action–reaction",
+    "dates": "Published in the _Principia_, 1687",
+    "briefing": "Isaac Newton’s three laws of motion explain how forces change the way things move. The first says an object keeps doing what it is doing, staying still or moving in a straight line at a steady speed, unless a force acts on it; the second says force equals mass times acceleration; and the third says every action has an equal and opposite reaction. Newton published them in 1687 in the _Principia_, and they explain everything from seatbelts to rocket launches.",
+    "answerHtml": "<b><u>Newton’s laws</u></b> of motion (accept <u>laws of motion</u>; do not accept “Isaac Newton” or a single law, such as “inertia”)",
+    "accept": [
+        "newtons laws of motion",
+        "newtons laws",
+        "newton laws of motion",
+        "newton laws",
+        "laws of motion",
+        "three laws of motion",
+        "3 laws of motion",
+        "newtons three laws",
+        "newtons 3 laws",
+        "newtons three laws of motion",
+        "newtonian laws of motion"
+    ],
+    "prompt": [
+        "newtonian mechanics",
+        "newtonian physics",
+        "classical mechanics",
+        "mechanics"
+    ],
+    "reject": [
+        "isaac newton",
+        "sir isaac newton",
+        "inertia",
+        "law of inertia",
+        "acceleration",
+        "momentum",
+        "conservation of momentum",
+        "force",
+        "mass",
+        "gravity",
+        "universal gravitation",
+        "law of universal gravitation",
+        "newtons law of universal gravitation",
+        "newtons law of gravitation",
+        "newtons law of gravity",
+        "newtons law of cooling",
+        "newtons first law",
+        "newtons second law",
+        "newtons third law",
+        "newtons 1st law",
+        "newtons 2nd law",
+        "newtons 3rd law",
+        "first law of motion",
+        "second law of motion",
+        "third law of motion",
+        "f ma",
+        "f equals ma",
+        "action and reaction",
+        "keplers laws",
+        "keplers laws of planetary motion",
+        "laws of thermodynamics",
+        "newtons cradle",
+        "newtons rings",
+        "galileo",
+        "galileo galilei"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+    "qb": {
+        "q": "Newton’s laws",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1920, a newspaper editorial mocked Robert Goddard by claiming that a rocket could not work in empty space with nothing to push against, a mistake about the third of these laws. The paper took that claim back in 1969, as Apollo 11 flew to the Moon.",
+            "r": "Rockets fly by pushing exhaust backward. For 10 points, name these three laws published by Isaac Newton."
+        },
+        {
+            "p": "In a classic puzzle, a horse wonders how it can pull a cart if the cart pulls back just as hard; the answer is that the paired forces in the third of these laws act on different objects. A book’s weight and a table’s push on it are not such a pair.",
+            "r": "The second of these laws says force equals mass times acceleration. For 10 points, name these three laws stated by Isaac Newton."
+        },
+        {
+            "p": "The first of these laws overturned Aristotle’s idea that a moving object naturally slows down and stops unless something keeps pushing it. Galileo had paved the way by imagining a ball rolling forever on a perfectly smooth, level surface.",
+            "r": "For 10 points, name these three laws, which Isaac Newton published in 1687."
+        },
+        {
+            "p": "A skydiver falling at terminal velocity feels air resistance exactly balance her weight, so by the first of these laws she keeps falling at a steady speed. A free-body diagram shows every force acting on one object so that a student can apply these laws to it.",
+            "r": "The second of them says force equals mass times acceleration. For 10 points, name these three laws stated by Isaac Newton."
+        },
+        {
+            "p": "In a tug-of-war, the rope pulls just as hard on both teams, so the winners are the team that pushes harder against the ground, a lesson in the third of these laws. Walking works the same way: your foot pushes back on the ground, and the ground pushes you forward.",
+            "r": "For 10 points, name these three laws, the third of which says every action has an equal and opposite reaction."
+        },
+        {
+            "p": "Edmond Halley paid to print the book that first stated these rules, after the Royal Society said it could not afford to. These rules appear near the start of that book as three “axioms,” written in Latin.",
+            "r": "That book, the _Principia_, came out in 1687. For 10 points, name these three laws by Isaac Newton."
+        },
+        {
+            "p": "These laws stop giving correct answers for objects moving close to the speed of light, where Albert Einstein’s special relativity takes over, and for tiny particles like electrons, which need quantum mechanics.",
+            "r": "Still, they work well enough to send spacecraft to the Moon. For 10 points, name these three laws from Isaac Newton’s _Principia_."
+        },
+        {
+            "p": "Car seatbelts exist because of the first of these laws: in a sudden stop, a passenger’s body keeps moving forward until something stops it. Headrests protect necks in rear-end crashes, when the car lurches forward but the passenger’s head tends to stay behind.",
+            "r": "For 10 points, name these three laws stated by Isaac Newton, the first of which is called the law of inertia."
+        },
+        {
+            "p": "The SI unit of force is defined through the second of these laws as the push that makes a one-kilogram mass speed up by one meter per second every second. Doubling the net force on a cart doubles its acceleration, while doubling its mass cuts the acceleration in half.",
+            "r": "The unit of force is named for their author. For 10 points, name these three laws from the _Principia_."
+        },
+        {
+            "p": "A person standing on a bathroom scale in an elevator that is speeding up on its way upward reads heavier than normal, as the second of these laws predicts. An astronaut who throws a wrench in one direction drifts off in the other, as the third of them predicts.",
+            "r": "These laws include F equals m a. For 10 points, name these three laws published by Isaac Newton in 1687."
+        },
+        {
+            "p": "These laws hold exactly only in reference frames that are not accelerating; in a spinning frame, they seem to fail unless you add made-up “fictitious” forces such as the Coriolis force.",
+            "r": "The first of them is often called the law of inertia. For 10 points, name these three laws stated by Isaac Newton."
+        },
+        {
+            "p": "Joseph-Louis Lagrange [“luh-GRAHNJ”] and William Rowan Hamilton later rewrote the physics built on these laws using energy instead of forces. In its general form, the second of these laws says that net force equals the rate at which momentum changes.",
+            "r": "For 10 points, name these three laws of Isaac Newton, which include F equals m a."
+        },
+        {
+            "p": "A cannon rolls backward when it fires, and a squid jets forward by squirting water out behind it, both examples of the third of these laws. Because of that law, the total momentum of two objects that push only on each other stays the same.",
+            "r": "The third of them says every action has an equal and opposite reaction. For 10 points, name these three laws that Isaac Newton published in the _Principia_."
+        },
+        {
+            "p": "René Descartes [“day-KART”] and Galileo both argued that a moving body keeps moving unless something interferes, an idea that became the first of these laws. That law explains why dishes can stay put when a tablecloth is yanked out from under them.",
+            "r": "That first law is also called the law of inertia. For 10 points, name these three laws that Isaac Newton published in 1687."
+        },
+        {
+            "p": "Combined with a law of universal gravitation, these laws let their author explain Johannes Kepler’s three rules for planetary orbits and work out the paths of comets. Edmond Halley used those ideas to predict the return of the comet now named for him.",
+            "r": "For 10 points, name these three laws, which include the law of inertia and F equals m a."
+        }
+    ],
+    "clues": [
+        {
+            "id": "three-laws",
+            "tier": "giveaway",
+            "t": "Three rules, stated by Isaac Newton, that connect forces to the way objects move",
+            "k": [
+                "three rules",
+                "isaac newton",
+                "forces"
+            ],
+            "n": 0,
+            "rabbit": "Isaac Newton"
+        },
+        {
+            "id": "first-law",
+            "tier": "giveaway",
+            "t": "First: an object at rest stays at rest, and a moving object keeps moving in a straight line at a steady speed, unless a net force acts on it (the law of inertia)",
+            "k": [
+                "inertia",
+                "at rest",
+                "steady speed"
+            ],
+            "n": 0,
+            "rabbit": "Inertia"
+        },
+        {
+            "id": "second-law",
+            "tier": "giveaway",
+            "t": "Second: net force equals mass times acceleration (F = ma)",
+            "k": [
+                "f = ma",
+                "mass times acceleration"
+            ],
+            "n": 0,
+            "rabbit": "Acceleration"
+        },
+        {
+            "id": "third-law",
+            "tier": "giveaway",
+            "t": "Third: every action has an equal and opposite reaction, so forces come in pairs",
+            "k": [
+                "equal and opposite",
+                "reaction",
+                "pairs"
+            ],
+            "n": 0
+        },
+        {
+            "id": "principia",
+            "tier": "giveaway",
+            "t": "Published in Latin in 1687 in the _Principia_",
+            "k": [
+                "principia",
+                "1687",
+                "latin"
+            ],
+            "n": 0
+        },
+        {
+            "id": "different-objects",
+            "tier": "middle",
+            "t": "The two forces in a third-law pair act on different objects, so they never cancel each other out",
+            "k": [
+                "different objects",
+                "cancel"
+            ],
+            "n": 0
+        },
+        {
+            "id": "rockets-squids",
+            "tier": "middle",
+            "t": "Rockets, squids, and recoiling cannons move by pushing something the other way (third law)",
+            "k": [
+                "rockets",
+                "squids",
+                "cannons"
+            ],
+            "n": 0
+        },
+        {
+            "id": "walking",
+            "tier": "middle",
+            "t": "Walking: your foot pushes back on the ground, and the ground pushes you forward (third law)",
+            "k": [
+                "walking",
+                "ground"
+            ],
+            "n": 0
+        },
+        {
+            "id": "seatbelts",
+            "tier": "middle",
+            "t": "Seatbelts and headrests protect riders whose bodies keep moving, or stay behind, when a car suddenly changes speed (first law)",
+            "k": [
+                "seatbelts",
+                "headrests"
+            ],
+            "n": 0
+        },
+        {
+            "id": "unit-of-force",
+            "tier": "middle",
+            "t": "The SI unit of force, named for their author, is defined with the second law: it speeds up 1 kilogram by 1 meter per second every second",
+            "k": [
+                "unit of force",
+                "kilogram"
+            ],
+            "n": 0
+        },
+        {
+            "id": "doubling",
+            "tier": "middle",
+            "t": "Doubling the net force doubles the acceleration; doubling the mass cuts it in half (second law)",
+            "k": [
+                "doubling",
+                "in half"
+            ],
+            "n": 0
+        },
+        {
+            "id": "aristotle-galileo",
+            "tier": "middle",
+            "t": "The first law overturned Aristotle’s idea that moving things stop unless pushed; Galileo and Descartes paved the way",
+            "k": [
+                "aristotle",
+                "galileo",
+                "descartes"
+            ],
+            "n": 0,
+            "rabbit": "Galileo Galilei"
+        },
+        {
+            "id": "terminal-velocity",
+            "tier": "middle",
+            "t": "A skydiver at terminal velocity feels zero net force, so she falls at a steady speed (first law)",
+            "k": [
+                "terminal velocity",
+                "skydiver"
+            ],
+            "n": 0
+        },
+        {
+            "id": "momentum-form",
+            "tier": "middle",
+            "t": "The general form of the second law: net force equals the rate of change of momentum; the third law makes momentum conserved",
+            "k": [
+                "momentum",
+                "rate of change"
+            ],
+            "n": 0,
+            "rabbit": "Momentum"
+        },
+        {
+            "id": "goddard",
+            "tier": "power",
+            "t": "A 1920 newspaper editorial claimed Robert Goddard’s rockets couldn’t work in empty space; the paper took it back in 1969, during Apollo 11",
+            "k": [
+                "goddard",
+                "1920",
+                "apollo 11"
+            ],
+            "n": 0
+        },
+        {
+            "id": "horse-cart",
+            "tier": "power",
+            "t": "Horse-and-cart puzzle: the cart pulls back as hard as the horse pulls forward, but the paired forces act on different objects",
+            "k": [
+                "horse",
+                "cart"
+            ],
+            "n": 0
+        },
+        {
+            "id": "book-table",
+            "tier": "power",
+            "t": "A book’s weight and the table’s upward push are not a third-law pair, since both act on the book",
+            "k": [
+                "book",
+                "table"
+            ],
+            "n": 0
+        },
+        {
+            "id": "tug-of-war",
+            "tier": "power",
+            "t": "Tug-of-war: the rope pulls equally on both teams, so the winners are the team that pushes harder against the ground",
+            "k": [
+                "tug-of-war",
+                "rope"
+            ],
+            "n": 0
+        },
+        {
+            "id": "halley-axioms",
+            "tier": "power",
+            "t": "Edmond Halley paid to print the _Principia_ after the Royal Society couldn’t afford it; the laws appear there as three Latin “axioms”",
+            "k": [
+                "halley",
+                "royal society",
+                "axioms"
+            ],
+            "n": 0
+        },
+        {
+            "id": "free-body",
+            "tier": "power",
+            "t": "Free-body diagrams show every force on one object so the laws can be applied to it",
+            "k": [
+                "free-body diagrams"
+            ],
+            "n": 0
+        },
+        {
+            "id": "inertial-frames",
+            "tier": "power",
+            "t": "They hold exactly only in non-accelerating (inertial) frames; spinning frames need fictitious forces like the Coriolis force",
+            "k": [
+                "fictitious forces",
+                "coriolis",
+                "spinning"
+            ],
+            "n": 0,
+            "rabbit": "Coriolis effect"
+        },
+        {
+            "id": "limits",
+            "tier": "power",
+            "t": "They break down near the speed of light (special relativity) and for tiny particles like electrons (quantum mechanics)",
+            "k": [
+                "speed of light",
+                "special relativity",
+                "quantum mechanics"
+            ],
+            "n": 0,
+            "rabbit": "Theory of relativity"
+        },
+        {
+            "id": "lagrange-hamilton",
+            "tier": "power",
+            "t": "Joseph-Louis Lagrange and William Rowan Hamilton later rewrote this physics using energy instead of forces",
+            "k": [
+                "lagrange",
+                "hamilton",
+                "energy"
+            ],
+            "n": 0
+        },
+        {
+            "id": "elevator-wrench",
+            "tier": "power",
+            "t": "A scale in an elevator speeding up on its way upward reads heavier (second law); an astronaut who throws a wrench drifts the other way (third law)",
+            "k": [
+                "elevator",
+                "wrench",
+                "astronaut"
+            ],
+            "n": 0
+        },
+        {
+            "id": "kepler-comets",
+            "tier": "power",
+            "t": "With universal gravitation, they explained Kepler’s laws of planetary orbits; Halley used them to predict his comet’s return",
+            "k": [
+                "kepler",
+                "comet",
+                "universal gravitation"
+            ],
+            "n": 0,
+            "rabbit": "Johannes Kepler"
+        },
+        {
+            "id": "tablecloth",
+            "tier": "power",
+            "t": "The first law explains why dishes can stay put when a tablecloth is yanked out from under them",
+            "k": [
+                "tablecloth",
+                "dishes"
+            ],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "All three, not one",
+        "body": "These three laws come up as one answer line, but each law can also be its own answer: Newton’s first law (the law of inertia), Newton’s second law (F = ma), and Newton’s third law (action and reaction). If a question asks for “these laws” or “these three laws,” naming just one law, or just “Isaac Newton,” is wrong. Inertia, acceleration, and Newton’s law of universal gravitation are separate answer lines too.",
+        "fix": "Listen for the pronoun: “these laws” wants the whole set, so say “Newton’s laws of motion”; “this law” wants a single one, so give its number. If the question asks for “this scientist,” the answer is Isaac Newton.",
+        "line": "Real answer line: <b><u>Newton’s laws</u></b> of motion (accept <u>laws of motion</u>; do not accept “Isaac Newton” or a single law)"
+    },
+    "tests": {
+        "right": [
+            "Newton's laws of motion",
+            "Newton's laws",
+            "Laws of motion",
+            "Isaac Newton's laws of motion",
+            "Newtons laws of moton"
+        ],
+        "prompt": [
+            "Classical mechanics",
+            "Newtonian mechanics"
+        ],
+        "wrong": [
+            "Isaac Newton",
+            "Inertia",
+            "Acceleration",
+            "Newton's first law",
+            "Law of universal gravitation",
+            "Kepler's laws"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

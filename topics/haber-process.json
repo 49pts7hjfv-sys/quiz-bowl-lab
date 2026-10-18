@@ -1,0 +1,475 @@
+{
+  "id": "haber-process",
+  "name": "Haber process",
+  "mono": "HB",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Ammonia from nitrogen and hydrogen · The reaction that feeds billions",
+  "dates": "Demonstrated 1909; first factory 1913",
+  "briefing": "The Haber process turns nitrogen from the air and hydrogen into ammonia, using an iron catalyst, high pressure, and heat. Fritz Haber first made it work in a lab in 1909, and Carl Bosch of the company BASF scaled it up into giant factories. Fertilizer made from that ammonia grows food for billions of people, but the process also let Germany keep making explosives during World War I.",
+  "answerHtml": "<b><u>Haber process</u></b> (or <u>Haber–Bosch</u> process; prompt on <u>Haber</u> alone or on <u>ammonia synthesis</u>)",
+  "accept": [
+    "haber process",
+    "haber bosch process",
+    "haber bosch",
+    "haber bosch synthesis",
+    "haber synthesis",
+    "haber bosch method",
+    "haber method",
+    "haber bosch reaction",
+    "haber reaction",
+    "haber ammonia process",
+    "haber bosch ammonia process"
+  ],
+  "prompt": [
+    "haber",
+    "fritz haber",
+    "ammonia synthesis",
+    "ammonia production",
+    "synthesis of ammonia",
+    "production of ammonia",
+    "making ammonia",
+    "nitrogen fixation",
+    "industrial nitrogen fixation",
+    "artificial nitrogen fixation"
+  ],
+  "reject": [
+    "born haber cycle",
+    "born haber",
+    "haber cycle",
+    "carl bosch",
+    "bosch",
+    "bosch process",
+    "bosch reaction",
+    "ostwald process",
+    "contact process",
+    "solvay process",
+    "fischer tropsch process",
+    "bergius process",
+    "birkeland eyde process",
+    "frank caro process",
+    "claus process",
+    "hall heroult process",
+    "bessemer process",
+    "linde process",
+    "deacon process",
+    "leblanc process",
+    "chloralkali process",
+    "steam reforming",
+    "cracking",
+    "ammonium",
+    "ammonium nitrate",
+    "urea",
+    "nitric acid",
+    "nitrogen",
+    "hydrogen",
+    "nitrogen cycle",
+    "biological nitrogen fixation",
+    "fertilizer",
+    "fertilizers",
+    "le chateliers principle",
+    "le chatelier",
+    "catalysis",
+    "electrolysis",
+    "photosynthesis"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Haber_process",
+  "qb": {
+    "q": "Haber",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Gerhard Ertl won the 2007 Nobel Prize in Chemistry partly for showing, step by step, how nitrogen molecules break apart on the iron surface used in this process. The slowest step of this process is splitting nitrogen’s very strong triple bond.",
+      "r": "For 10 points, name this industrial process that combines nitrogen and hydrogen to make ammonia."
+    },
+    {
+      "p": "Alwin Mittasch [“MIT-ahsh”] ran thousands of tests to find a cheap catalyst for this process, settling on iron mixed with small amounts of potassium and aluminum oxides. That catalyst replaced the rare metal osmium, used in this process’s first working lab version in 1909.",
+      "r": "Most of the product of this process becomes fertilizer. For 10 points, name this process that makes ammonia from nitrogen in the air."
+    },
+    {
+      "p": "In 1909, the British chemist Robert Le Rossignol [“luh ROSS-in-yol”] helped build the tabletop, high-pressure apparatus that first showed this process working, as its liquid product dripped out drop by drop. That demonstration took place in a lab in Karlsruhe [“KARLS-roo-uh”], Germany.",
+      "r": "For 10 points, name this process that combines nitrogen and hydrogen into ammonia, using an iron catalyst."
+    },
+    {
+      "p": "Le Chatelier’s [“luh SHAH-tuh-lyayz”] principle explains why this process runs at about 200 atmospheres: four molecules of gas react to make only two, so high pressure pushes the equilibrium toward the product. Its temperature of about 450 °C is a compromise between yield and speed.",
+      "r": "For 10 points, name this process that turns nitrogen and hydrogen into ammonia over an iron catalyst."
+    },
+    {
+      "p": "This process answered an 1898 warning from William Crookes that the world would soon run short of the nitrogen compounds needed to grow enough wheat. Before it, farmers depended on seabird droppings called guano and on sodium nitrate, or saltpeter, mined in the deserts of Chile.",
+      "r": "This process solved that problem by turning nitrogen from the air into ammonia. For 10 points, name this industrial process that uses an iron catalyst."
+    },
+    {
+      "p": "During World War I, a British naval blockade cut Germany off from Chilean saltpeter, but this process let German factories keep making explosives. Its product was burned over platinum in the Ostwald [“OST-vahlt”] process to make nitric acid.",
+      "r": "Today, most of its product becomes fertilizer. For 10 points, name this process that makes ammonia from nitrogen and hydrogen."
+    },
+    {
+      "p": "This process soon outcompeted Norway’s Birkeland–Eyde process, which used giant electric arcs to make nitrogen and oxygen combine, because this process needed far less energy. Instead of making nitric oxide, this process makes a different compound using an iron catalyst.",
+      "r": "For 10 points, name this process that combines nitrogen with hydrogen to make ammonia, the key ingredient in most fertilizer."
+    },
+    {
+      "p": "A BASF engineer who scaled this process up shared the 1931 Nobel Prize in Chemistry with Friedrich Bergius [“BAIR-gee-us”] for high-pressure methods. That engineer found that hot hydrogen under pressure made ordinary steel brittle, so he designed double-walled reactors with a soft iron lining.",
+      "r": "For 10 points, name this process that makes ammonia from nitrogen and hydrogen at high pressure."
+    },
+    {
+      "p": "The first factory using this process opened in 1913 at Oppau [“OH-pow”], near Ludwigshafen, Germany, and a second, larger plant was built at Leuna [“LOY-nah”] during World War I. The chemical company BASF, which had bought the rights to this process, ran both plants.",
+      "r": "For 10 points, name this process that turns nitrogen from the air and hydrogen into ammonia, mostly for fertilizer."
+    },
+    {
+      "p": "Most of the hydrogen for this process comes from natural gas through steam reforming, which releases large amounts of carbon dioxide. So-called “green” versions of this process instead get hydrogen by splitting water with electricity from wind or solar power.",
+      "r": "For 10 points, name this process that combines that hydrogen with nitrogen from the air to make ammonia."
+    },
+    {
+      "p": "Only part of the gas mixture reacts each time it passes over the catalyst in this process, so the product is removed by cooling it into a liquid, and the unreacted gases are pumped back through again. The reaction is reversible and reaches an equilibrium.",
+      "r": "For 10 points, name this process that makes ammonia from nitrogen and hydrogen with an iron catalyst."
+    },
+    {
+      "p": "Scientists estimate that about half of the nitrogen atoms in a typical person’s body have passed through factories that use this process. It has been called the most important invention of the 20th century.",
+      "r": "Fertilizer made by this process grows food for billions of people. For 10 points, name this process that turns nitrogen from the air into ammonia."
+    },
+    {
+      "p": "The inventor of this process won the 1918 Nobel Prize in Chemistry, but some scientists objected, because he had also directed Germany’s use of chlorine gas as a weapon in World War I. He left Germany in 1933 after the Nazis came to power.",
+      "r": "His prize was “for the synthesis of ammonia from its elements.” For 10 points, name this process that makes ammonia from nitrogen and hydrogen."
+    },
+    {
+      "p": "Bacteria in the root nodules of legumes use the enzyme nitrogenase to do at ordinary temperatures what this process needs about 450 °C and 200 atmospheres to do. For that reason, this process is sometimes called industrial nitrogen fixation.",
+      "r": "For 10 points, name this process that makes ammonia from nitrogen and hydrogen over an iron catalyst."
+    },
+    {
+      "p": "Sulfur compounds and carbon monoxide must be carefully removed from the gases fed into this process, because they poison its iron catalyst. Catalysts like that iron do not change how much product forms at equilibrium; they only help the reaction get there faster.",
+      "r": "For 10 points, name this industrial process that combines nitrogen and hydrogen to make ammonia."
+    }
+  ],
+  "clues": [
+    {
+      "id": "reaction",
+      "tier": "giveaway",
+      "t": "Combines nitrogen gas from the air with hydrogen gas to make ammonia",
+      "k": [
+        "nitrogen",
+        "hydrogen",
+        "ammonia"
+      ],
+      "n": 0,
+      "rabbit": "Ammonia"
+    },
+    {
+      "id": "fertilizer",
+      "tier": "giveaway",
+      "t": "Most of its product becomes fertilizer, which helps grow food for billions of people",
+      "k": [
+        "fertilizer",
+        "billions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "industrial",
+      "tier": "giveaway",
+      "t": "The main industrial way to make ammonia, more than 100 million tons of it a year",
+      "k": [
+        "industrial",
+        "100 million tons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "air",
+      "tier": "giveaway",
+      "t": "Gets its nitrogen from the air, which is about 78 percent nitrogen",
+      "k": [
+        "air",
+        "78 percent"
+      ],
+      "n": 0,
+      "rabbit": "Nitrogen"
+    },
+    {
+      "id": "iron-catalyst",
+      "tier": "middle",
+      "t": "Uses an iron catalyst at high pressure and high temperature",
+      "k": [
+        "iron catalyst",
+        "high pressure"
+      ],
+      "n": 0,
+      "rabbit": "Catalysts"
+    },
+    {
+      "id": "conditions",
+      "tier": "middle",
+      "t": "Typical conditions: about 450 °C and about 200 atmospheres",
+      "k": [
+        "200 atmospheres",
+        "450"
+      ],
+      "n": 0
+    },
+    {
+      "id": "le-chatelier",
+      "tier": "middle",
+      "t": "Le Chatelier’s principle: high pressure favors the product, because 4 gas molecules react to make 2",
+      "k": [
+        "le chatelier",
+        "4 gas molecules"
+      ],
+      "n": 0,
+      "rabbit": "Chemical equilibrium"
+    },
+    {
+      "id": "compromise",
+      "tier": "middle",
+      "t": "Exothermic, so cooler temperatures give more product but react too slowly; about 450 °C is a compromise",
+      "k": [
+        "exothermic",
+        "compromise"
+      ],
+      "n": 0
+    },
+    {
+      "id": "recycle",
+      "tier": "middle",
+      "t": "Reversible: the product is removed by cooling it into a liquid, and unreacted gases are recycled",
+      "k": [
+        "reversible",
+        "recycled",
+        "cooling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inventor",
+      "tier": "middle",
+      "t": "First shown working by a German chemist in 1909, then scaled up into factories by the company BASF",
+      "k": [
+        "german",
+        "1909",
+        "basf"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-1918",
+      "tier": "middle",
+      "t": "Its inventor won the 1918 Nobel Prize in Chemistry “for the synthesis of ammonia from its elements”",
+      "k": [
+        "1918",
+        "nobel prize",
+        "synthesis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "steam-reforming",
+      "tier": "middle",
+      "t": "Its hydrogen usually comes from natural gas by steam reforming, which releases carbon dioxide; “green” versions split water with wind or solar power",
+      "k": [
+        "steam reforming",
+        "natural gas",
+        "green"
+      ],
+      "n": 0
+    },
+    {
+      "id": "world-war",
+      "tier": "middle",
+      "t": "Let Germany keep making explosives in World War I after a British blockade cut off Chilean saltpeter",
+      "k": [
+        "world war i",
+        "blockade",
+        "chilean saltpeter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ertl",
+      "tier": "power",
+      "t": "Gerhard Ertl won the 2007 Nobel Prize partly for showing how it works on the iron surface; the slowest step splits nitrogen’s triple bond",
+      "k": [
+        "ertl",
+        "2007",
+        "triple bond"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mittasch",
+      "tier": "power",
+      "t": "Alwin Mittasch ran thousands of tests to find its cheap iron catalyst, with potassium and aluminum oxides as promoters",
+      "k": [
+        "mittasch",
+        "promoters",
+        "thousands"
+      ],
+      "n": 0
+    },
+    {
+      "id": "osmium",
+      "tier": "power",
+      "t": "The first working lab version (1909) used the rare metal osmium as its catalyst",
+      "k": [
+        "osmium",
+        "rare metal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "le-rossignol",
+      "tier": "power",
+      "t": "British chemist Robert Le Rossignol helped build the 1909 tabletop apparatus in Karlsruhe",
+      "k": [
+        "le rossignol",
+        "karlsruhe",
+        "tabletop"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bergius",
+      "tier": "power",
+      "t": "The BASF engineer who scaled it up shared the 1931 Nobel Prize with Friedrich Bergius for high-pressure methods",
+      "k": [
+        "1931",
+        "bergius",
+        "high-pressure methods"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-walled",
+      "tier": "power",
+      "t": "Hot, high-pressure hydrogen made steel brittle, so engineers built double-walled reactors with soft iron linings",
+      "k": [
+        "double-walled",
+        "brittle",
+        "soft iron"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oppau",
+      "tier": "power",
+      "t": "The first factory opened at Oppau, Germany, in 1913; a bigger one was built at Leuna during World War I",
+      "k": [
+        "oppau",
+        "1913",
+        "leuna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crookes",
+      "tier": "power",
+      "t": "It answered William Crookes’s 1898 warning that the world would run short of nitrogen for wheat; farmers had relied on guano and Chilean saltpeter",
+      "k": [
+        "crookes",
+        "1898",
+        "guano"
+      ],
+      "n": 0
+    },
+    {
+      "id": "birkeland-eyde",
+      "tier": "power",
+      "t": "It outcompeted Norway’s Birkeland–Eyde process, which used giant electric arcs and far more energy",
+      "k": [
+        "birkeland",
+        "eyde",
+        "electric arcs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ostwald",
+      "tier": "power",
+      "t": "Its product is burned over platinum in the Ostwald process to make nitric acid",
+      "k": [
+        "ostwald",
+        "nitric acid",
+        "platinum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "half-nitrogen",
+      "tier": "power",
+      "t": "About half the nitrogen atoms in a typical human body have passed through it; it has been called the most important invention of the 20th century",
+      "k": [
+        "half",
+        "human body",
+        "20th century"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poison-gas",
+      "tier": "power",
+      "t": "Its inventor also directed Germany’s chlorine gas weapons in World War I, making his Nobel Prize controversial; he left Germany in 1933",
+      "k": [
+        "chlorine gas",
+        "controversial",
+        "1933"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nitrogenase",
+      "tier": "power",
+      "t": "Nitrogenase in legume root nodules does at ordinary temperatures what it needs about 450 °C and 200 atmospheres to do",
+      "k": [
+        "nitrogenase",
+        "root nodules",
+        "legume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "catalyst-poisons",
+      "tier": "power",
+      "t": "Sulfur compounds and carbon monoxide poison its iron catalyst, so they are removed from the gases fed in",
+      "k": [
+        "poison",
+        "sulfur compounds",
+        "carbon monoxide"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Process, not product",
+    "body": "Nearly every clue for this answer also fits ammonia, its product, and nitrogen, its raw material, so players blurt those. Others confuse it with the Ostwald process, which turns ammonia into nitric acid, or with the Born–Haber cycle, an energy calculation for salts like sodium chloride. Saying just “Haber” earns a prompt, so be ready to add “process.”",
+    "fix": "If the question asks for “this process” or “this reaction,” give the process name; if it asks for “this compound” or “this gas,” say ammonia. Platinum and nitric acid mean the Ostwald process; lattice energy and Hess’s law mean the Born–Haber cycle.",
+    "line": "Real answer line: <b><u>Haber process</u></b> (or <u>Haber–Bosch</u> process; prompt on <u>Haber</u> alone or on <u>ammonia synthesis</u>)"
+  },
+  "tests": {
+    "right": [
+      "Haber process",
+      "Haber-Bosch process",
+      "Haber–Bosch",
+      "Haber's process",
+      "Haber proces"
+    ],
+    "prompt": [
+      "Haber",
+      "Ammonia synthesis",
+      "Nitrogen fixation"
+    ],
+    "wrong": [
+      "Ammonia",
+      "Born-Haber cycle",
+      "Ostwald process",
+      "Contact process",
+      "Nitrogen",
+      "Solvay process",
+      "Carl Bosch",
+      "Le Chatelier's principle"
+    ]
+  }
+}

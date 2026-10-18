@@ -1,0 +1,427 @@
+{
+  "id": "olivine",
+  "name": "Olivine",
+  "mono": "OLV",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Olive-green magnesium iron silicate · Most common mineral of the upper mantle",
+  "dates": "Hardness 6.5–7 on the Mohs scale",
+  "briefing": "Olivine is a glassy, olive-green mineral made of magnesium, iron, silicon, and oxygen. It is one of the first minerals to crystallize when magma cools, and it is the most common mineral in Earth’s upper mantle. Its crystals turn Hawaii’s Papakōlea Beach green, its gem form, peridot, is August’s birthstone, and some of its crystals have even fallen to Earth inside meteorites.",
+  "answerHtml": "<b><u>Olivine</u></b> (prompt on <u>peridot</u>; do not accept “peridotite,” “forsterite,” or “fayalite”)",
+  "accept": [
+    "olivine",
+    "olivines",
+    "olivine group",
+    "olivine mineral",
+    "olivine minerals",
+    "olivine series"
+  ],
+  "prompt": [
+    "peridot",
+    "peridots",
+    "silicate",
+    "silicates",
+    "silicate mineral",
+    "silicate minerals",
+    "nesosilicate",
+    "nesosilicates",
+    "orthosilicate",
+    "orthosilicates",
+    "ferromagnesian mineral",
+    "ferromagnesian minerals"
+  ],
+  "reject": [
+    "peridotite",
+    "peridotites",
+    "forsterite",
+    "fayalite",
+    "dunite",
+    "serpentine",
+    "serpentinite",
+    "pyroxene",
+    "amphibole",
+    "biotite",
+    "quartz",
+    "feldspar",
+    "plagioclase",
+    "garnet",
+    "emerald",
+    "jade",
+    "spinel",
+    "wadsleyite",
+    "ringwoodite",
+    "bridgmanite",
+    "perovskite",
+    "basalt",
+    "gabbro",
+    "pallasite",
+    "magnetite",
+    "epidote",
+    "malachite",
+    "mantle"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Olivine",
+  "qb": {
+    "q": "olivine",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "About 410 kilometers below the surface, the crushing pressure of the mantle squeezes this mineral into a denser form called wadsleyite, which makes seismic waves suddenly speed up at that depth. Deeper still, it changes again into ringwoodite.",
+      "r": "For 10 points, name this green magnesium iron silicate, whose gem form is peridot."
+    },
+    {
+      "p": "In 2014, scientists described a tiny diamond from Brazil that had trapped a speck of ringwoodite, a high-pressure form of this mineral, and that speck held water. The find suggested that rock hundreds of kilometers down in the mantle may hold a lot of water.",
+      "r": "For 10 points, name this olive-green mineral, the most common mineral in Earth’s upper mantle."
+    },
+    {
+      "p": "Seawater reacting with this mineral in mantle rock exposed on the ocean floor makes serpentine and releases hydrogen gas, a process called serpentinization. That process helps power the Lost City, a field of tall white chimneys near the Mid-Atlantic Ridge.",
+      "r": "For 10 points, name this green mineral, a magnesium iron silicate whose gem variety is peridot."
+    },
+    {
+      "p": "Pallasites, stony-iron meteorites named for the German scientist Peter Simon Pallas, hold glassy green crystals of this mineral set in shiny iron-nickel metal. Thin, polished slices of those meteorites glow like stained glass when light shines through them.",
+      "r": "For 10 points, name this mineral whose gem form, peridot, is the birthstone for August."
+    },
+    {
+      "p": "NASA’s Stardust mission brought home dust from Comet Wild 2 [“VILT two”] that held crystals of this mineral, which must have formed at very high temperatures near the young Sun. That surprised scientists who expected comets to hold only icy, never-heated material.",
+      "r": "For 10 points, name this olive-green silicate mineral, the first to crystallize in Bowen’s reaction series."
+    },
+    {
+      "p": "Spacecraft have found this mineral spread widely across Mars, which suggests that much of that planet’s surface has stayed dry for a very long time, because water breaks this mineral down quickly. On Earth, this mineral is one of the first to weather away.",
+      "r": "For 10 points, name this green mineral whose gem variety is peridot."
+    },
+    {
+      "p": "Some scientists have proposed grinding up this mineral and spreading it on beaches or farm fields, because as it weathers, it pulls carbon dioxide out of the air. This mineral’s magnesium ends up in the carbonate compounds that form.",
+      "r": "For 10 points, name this green magnesium iron silicate, the most common mineral in the upper mantle."
+    },
+    {
+      "p": "Ancient Egyptians mined gems of this mineral on Zabargad, a small island in the Red Sea also called St. John’s Island. Much of the world’s supply of those gems later came from the San Carlos Apache Reservation in Arizona.",
+      "r": "For 10 points, name this mineral whose gem form, peridot, is the birthstone for August."
+    },
+    {
+      "p": "This mineral forms orthorhombic crystals with poor cleavage, breaking instead along curved, shell-like surfaces, and it rates about 6.5 to 7 on the Mohs scale. Its color darkens as more iron takes the place of magnesium in its crystals.",
+      "r": "For 10 points, name this glassy green silicate mineral, whose gem form is peridot."
+    },
+    {
+      "p": "Dunite, a rock made almost entirely of this mineral, is named for New Zealand’s Dun Mountain, whose rocks weather to a dull brown. Peridotite, the rock that makes up most of the upper mantle, is also made mostly of this mineral.",
+      "r": "For 10 points, name this green silicate mineral, the most common mineral in Earth’s upper mantle."
+    },
+    {
+      "p": "In this mineral, each silicon–oxygen tetrahedron stands alone, linked to the others only through magnesium and iron ions, so it is classified as a nesosilicate. That simple structure lets it crystallize first as a basalt magma cools.",
+      "r": "For 10 points, name this olive-green mineral whose gem form, peridot, is August’s birthstone."
+    },
+    {
+      "p": "This mineral forms a continuous series between magnesium-rich forsterite and iron-rich fayalite [“FAY-uh-lite”]. Its chemical formula is written with magnesium and iron sharing two places, alongside one silicon atom and four oxygen atoms.",
+      "r": "For 10 points, name this olive-green silicate, the most common mineral in Earth’s upper mantle."
+    },
+    {
+      "p": "This mineral sits at the top of the Goldich dissolution series, because it breaks down faster than any other common silicate at Earth’s surface. It is rarely found together with quartz, because the two react at high temperatures to make pyroxene.",
+      "r": "For 10 points, name this mineral, the first to crystallize from cooling magma in Bowen’s reaction series."
+    },
+    {
+      "p": "Papakōlea Beach, near the southern tip of Hawaii’s Big Island, gets its unusual green sand from crystals of this mineral that wore out of an old volcanic cinder cone. Because those crystals are heavy, waves carry lighter grains away and leave them behind.",
+      "r": "For 10 points, name this mineral whose gem form is peridot."
+    },
+    {
+      "p": "This mineral is common in dark, mafic igneous rocks like basalt and gabbro, but it is rare in granite. It is made of magnesium, iron, silicon, and oxygen, and its glassy grains are often green.",
+      "r": "Its gem form, peridot, is August’s birthstone. For 10 points, name this mineral named for its olive-green color."
+    }
+  ],
+  "clues": [
+    {
+      "id": "peridot-august",
+      "tier": "giveaway",
+      "t": "Its gem form, peridot, is the birthstone for August",
+      "k": [
+        "peridot",
+        "birthstone",
+        "august"
+      ],
+      "n": 0
+    },
+    {
+      "id": "olive-green",
+      "tier": "giveaway",
+      "t": "Named for its olive-green color",
+      "k": [
+        "olive-green",
+        "color"
+      ],
+      "n": 0
+    },
+    {
+      "id": "upper-mantle",
+      "tier": "giveaway",
+      "t": "The most common mineral in Earth’s upper mantle",
+      "k": [
+        "upper mantle",
+        "most common"
+      ],
+      "n": 0,
+      "rabbit": "Mantle"
+    },
+    {
+      "id": "bowen-first",
+      "tier": "giveaway",
+      "t": "First mineral on the discontinuous branch of Bowen’s reaction series, crystallizing at the highest temperatures",
+      "k": [
+        "bowen’s reaction series",
+        "bowens reaction series",
+        "highest temperatures"
+      ],
+      "n": 0,
+      "rabbit": "Bowen’s reaction series"
+    },
+    {
+      "id": "mg-fe-silicate",
+      "tier": "middle",
+      "t": "A silicate of magnesium and iron, with the formula (Mg,Fe)2SiO4",
+      "k": [
+        "magnesium",
+        "iron",
+        "silicate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forsterite-fayalite",
+      "tier": "middle",
+      "t": "Forms a continuous series from magnesium-rich forsterite to iron-rich fayalite",
+      "k": [
+        "forsterite",
+        "fayalite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "peridotite-dunite",
+      "tier": "middle",
+      "t": "Makes up most of peridotite, the rock of the upper mantle, and nearly all of dunite",
+      "k": [
+        "peridotite",
+        "dunite"
+      ],
+      "n": 0,
+      "rabbit": "Asthenosphere"
+    },
+    {
+      "id": "mafic-rocks",
+      "tier": "middle",
+      "t": "Common in dark, mafic rocks like basalt and gabbro, but rare in granite",
+      "k": [
+        "basalt",
+        "gabbro",
+        "mafic"
+      ],
+      "n": 0,
+      "rabbit": "Basalt"
+    },
+    {
+      "id": "goldich",
+      "tier": "middle",
+      "t": "Weathers faster than any other common silicate, so it tops the Goldich dissolution series",
+      "k": [
+        "goldich",
+        "weathers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nesosilicate",
+      "tier": "middle",
+      "t": "A nesosilicate: each silicon–oxygen tetrahedron stands alone, joined to the others only by magnesium and iron ions",
+      "k": [
+        "nesosilicate",
+        "tetrahedron",
+        "stands alone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hardness-fracture",
+      "tier": "middle",
+      "t": "Glassy and about 6.5–7 on the Mohs scale, with poor cleavage and a curved, shell-like (conchoidal) fracture",
+      "k": [
+        "conchoidal",
+        "mohs",
+        "glassy"
+      ],
+      "n": 0,
+      "rabbit": "Mohs hardness scale"
+    },
+    {
+      "id": "no-quartz",
+      "tier": "middle",
+      "t": "Rarely found with quartz, because the two react at high temperatures to make pyroxene",
+      "k": [
+        "quartz",
+        "pyroxene"
+      ],
+      "n": 0,
+      "rabbit": "Quartz"
+    },
+    {
+      "id": "wadsleyite",
+      "tier": "power",
+      "t": "About 410 km down, mantle pressure squeezes it into denser wadsleyite, so seismic waves speed up there",
+      "k": [
+        "wadsleyite",
+        "410 km",
+        "seismic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ringwoodite",
+      "tier": "power",
+      "t": "Deeper still it becomes ringwoodite; a diamond from Brazil described in 2014 held ringwoodite containing water",
+      "k": [
+        "ringwoodite",
+        "brazil",
+        "2014"
+      ],
+      "n": 0
+    },
+    {
+      "id": "serpentinization",
+      "tier": "power",
+      "t": "Serpentinization: seawater turns it into serpentine and releases hydrogen, helping power the Lost City vents",
+      "k": [
+        "serpentinization",
+        "serpentine",
+        "lost city"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pallasites",
+      "tier": "power",
+      "t": "Pallasite meteorites, named for Peter Simon Pallas, hold its crystals in iron-nickel metal",
+      "k": [
+        "pallasite",
+        "pallas",
+        "iron-nickel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stardust",
+      "tier": "power",
+      "t": "NASA’s Stardust mission found its crystals in dust from Comet Wild 2",
+      "k": [
+        "stardust",
+        "wild 2",
+        "comet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mars",
+      "tier": "power",
+      "t": "Found widely on Mars; because water breaks it down fast, its survival there suggests long dry periods",
+      "k": [
+        "mars",
+        "dry periods"
+      ],
+      "n": 0,
+      "rabbit": "Mars"
+    },
+    {
+      "id": "carbon-capture",
+      "tier": "power",
+      "t": "Grinding it up and spreading it on beaches or fields has been proposed, since it pulls carbon dioxide from the air as it weathers",
+      "k": [
+        "carbon dioxide",
+        "grinding",
+        "beaches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zabargad",
+      "tier": "power",
+      "t": "Ancient Egyptians mined its gems on Zabargad (St. John’s Island) in the Red Sea",
+      "k": [
+        "zabargad",
+        "red sea",
+        "egyptians"
+      ],
+      "n": 0
+    },
+    {
+      "id": "san-carlos",
+      "tier": "power",
+      "t": "Much of the world’s peridot has come from the San Carlos Apache Reservation in Arizona",
+      "k": [
+        "san carlos",
+        "apache",
+        "arizona"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dun-mountain",
+      "tier": "power",
+      "t": "Dunite, a rock made almost entirely of it, is named for New Zealand’s Dun Mountain",
+      "k": [
+        "dun mountain",
+        "new zealand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "papakolea",
+      "tier": "power",
+      "t": "Hawaii’s Papakōlea Beach gets its green sand from its crystals, worn out of an old cinder cone",
+      "k": [
+        "papakōlea",
+        "green sand",
+        "cinder cone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orthorhombic",
+      "tier": "power",
+      "t": "Forms orthorhombic crystals; its color darkens as more iron takes the place of magnesium",
+      "k": [
+        "orthorhombic",
+        "darkens"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Mineral, gem, or rock?",
+    "body": "Olivine, peridot, and peridotite sound alike and show up in the same tossups. Peridot is only the gem form of this mineral, so saying it earns a prompt, while peridotite is a whole rock, made mostly of olivine, that forms the upper mantle. Forsterite and fayalite are the two end members of the olivine series, so naming one of them is not the same as naming the mineral.",
+    "fix": "If the question asks for “this mineral,” say olivine. A rock that makes up the upper mantle is peridotite, and a birthstone or gem by itself is peridot. Green, glassy, first in Bowen’s reaction series, and weathering fastest all point to olivine.",
+    "line": "Real answer line: <b><u>Olivine</u></b> (prompt on peridot; do not accept “peridotite”)"
+  },
+  "tests": {
+    "right": [
+      "Olivine",
+      "olivines",
+      "Olivene",
+      "Olivine group"
+    ],
+    "prompt": [
+      "Peridot",
+      "Silicate"
+    ],
+    "wrong": [
+      "Peridotite",
+      "Forsterite",
+      "Fayalite",
+      "Pyroxene",
+      "Quartz",
+      "Serpentine"
+    ]
+  }
+}
