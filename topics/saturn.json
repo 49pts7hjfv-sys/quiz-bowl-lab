@@ -65,7 +65,7 @@
       "r": "For 10 points, name this sixth planet from the Sun, known for its spectacular rings."
     },
     {
-      "p": "In Voltaire’s story _Micromégas_, a giant from the star Sirius travels to Earth with a companion from this planet. In Gustav Holst’s _The Planets_, this planet is called “the Bringer of Old Age.”",
+      "p": "In Voltaire’s story _Micromégas_, a giant from a planet circling the star Sirius travels to Earth with a companion from this planet. In Gustav Holst’s _The Planets_, this planet is called “the Bringer of Old Age.”",
       "r": "For 10 points, name this planet, named for the Roman god who was the father of Jupiter."
     },
     {
@@ -73,7 +73,7 @@
       "r": "For 10 points, name this sixth planet from the Sun, famous for its bright rings."
     },
     {
-      "p": "In 2005, a European probe parachuted through the orange haze of this planet’s largest moon, making the most distant landing ever achieved. That moon has lakes and seas of liquid methane and ethane.",
+      "p": "In 2005, a European probe parachuted through the orange haze of this planet’s largest moon, making what was, as of 2025, the most distant landing ever achieved. That moon has lakes and seas of liquid methane and ethane.",
       "r": "The probe was named for Christiaan Huygens, who discovered that moon, Titan. For 10 points, name this planet."
     },
     {
@@ -85,7 +85,7 @@
       "r": "For 10 points, name this planet, the least dense in the solar system, whose rings are its most famous feature."
     },
     {
-      "p": "In 2025, astronomers announced 128 newly found moons of this planet, giving it more known moons than any other planet. Its biggest moon is the second-largest moon in the solar system and the only moon with a thick atmosphere.",
+      "p": "In 2025, astronomers announced 128 newly found moons of this planet, widening its lead as the planet with the most known moons. Its biggest moon is the second-largest moon in the solar system and the only moon with a thick atmosphere.",
       "r": "That moon is Titan. For 10 points, name this ringed planet, the sixth from the Sun."
     },
     {
@@ -237,7 +237,7 @@
     {
       "id": "huygens-probe",
       "tier": "middle",
-      "t": "Europe’s Huygens probe landed on Titan in 2005, the most distant landing ever made",
+      "t": "Europe’s Huygens probe landed on Titan in 2005, the most distant landing ever made as of 2025",
       "k": [
         "huygens probe",
         "2005",
@@ -310,7 +310,7 @@
     {
       "id": "iapetus",
       "tier": "power",
-      "t": "Its moon Iapetus is two-toned, one half dark and one half bright, as Giovanni Cassini figured out in the 1670s",
+      "t": "Its moon Iapetus is two-toned, one half dark and one half bright, as Giovanni Cassini, who discovered it in 1671, figured out",
       "k": [
         "iapetus",
         "two-toned"
@@ -364,7 +364,7 @@
     {
       "id": "micromegas",
       "tier": "power",
-      "t": "In Voltaire’s _Micromégas_, a giant from the star Sirius travels with a companion from this planet",
+      "t": "In Voltaire’s _Micromégas_, a giant from a planet circling the star Sirius travels with a companion from this planet",
       "k": [
         "voltaire",
         "sirius"
@@ -404,7 +404,7 @@
   ],
   "trap": {
     "title": "Not the only ringed planet",
-    "body": "All four giant planets have rings, so a ring clue alone does not prove the answer: Jupiter’s are faint and dusty, Uranus’s are thin and dark, and Neptune’s are clumped into arcs. Saturn and Jupiter also share many clues, such as their hydrogen-and-helium makeup and huge storms. And when a question describes Titan or Enceladus, players sometimes answer with the moon instead of the planet.",
+    "body": "All four giant planets have rings, so a ring clue alone does not prove the answer: Jupiter’s are faint and dusty, Uranus’s are thin and dark, and Neptune’s outermost ring is clumped into arcs. Saturn and Jupiter also share many clues, such as their hydrogen-and-helium makeup and huge storms. And when a question describes Titan or Enceladus, players sometimes answer with the moon instead of the planet.",
     "fix": "Bright, wide, icy rings, the Cassini Division, the hexagon, Titan, Enceladus, Huygens, the Cassini mission, and “less dense than water” all mean Saturn. The Great Red Spot, the four Galilean moons, and Juno mean Jupiter. If the question says “this planet,” name the planet.",
     "line": "Real answer line: <b><u>Saturn</u></b>"
   },

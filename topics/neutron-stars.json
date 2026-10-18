@@ -6,8 +6,8 @@
   "qbCategory": "Science · Other Science (Astronomy)",
   "kicker": "Collapsed cores of massive stars · More mass than the Sun in a city-sized ball",
   "dates": "Predicted 1933; first pulsar found 1967",
-  "briefing": "When a very massive star explodes as a supernova, its core can collapse into a neutron star: a ball only about 20 kilometers (12 miles) across that holds more mass than the Sun. A teaspoon of its material would weigh billions of tons. Some neutron stars spin hundreds of times a second and sweep beams of radio waves across space like a lighthouse; astronomers call those pulsars.",
-  "answerHtml": "<b><u>Neutron stars</u></b> (accept <u>neutron star</u>; prompt on <u>star</u>s)",
+  "briefing": "When a very massive star explodes as a supernova, its core can collapse into a neutron star: a ball only about 20 kilometers (12 miles) across that holds more mass than the Sun. A teaspoon of its material would weigh billions of tons. Some neutron stars spin rapidly, up to hundreds of times a second, and sweep beams of radio waves across space like a lighthouse; astronomers call those pulsars.",
+  "answerHtml": "<b><u>Neutron stars</u></b> (accept <u>neutron star</u>; prompt on <u>star</u>s; do not accept “pulsars” or “magnetars”)",
   "accept": [
     "neutron star",
     "neutron stars"
@@ -403,7 +403,7 @@
     "title": "Pulsar or the whole family?",
     "body": "Pulsars and magnetars are kinds of neutron stars, so their clues fill neutron star tossups, and “Pulsars” is also an answer line of its own. Once a question has said that pulsars are spinning examples of “these objects,” answering “pulsar” is wrong. White dwarfs and black holes, the other two kinds of dead-star leftovers, are the other common mix-ups.",
     "fix": "Think about how heavy the dead core is. A Sun-like star leaves an Earth-sized white dwarf, held up by electrons; a core above the Chandrasekhar limit makes a city-sized neutron star (Baade and Zwicky, Jocelyn Bell, the Crab pulsar); above the Tolman–Oppenheimer–Volkoff limit, it becomes a black hole. When in doubt, say “neutron star,” not “pulsar.”",
-    "line": "Real answer line: <b><u>Neutron stars</u></b> (accept <u>neutron star</u>; prompt on <u>star</u>s)"
+    "line": "Real answer line: <b><u>Neutron stars</u></b> (accept <u>neutron star</u>; prompt on <u>star</u>s; do not accept “pulsars” or “magnetars”)"
   },
   "tests": {
     "right": [

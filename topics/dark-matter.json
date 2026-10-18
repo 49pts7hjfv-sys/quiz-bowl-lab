@@ -6,7 +6,7 @@
   "qbCategory": "Science · Other Science (Astronomy)",
   "kicker": "Invisible mass that holds galaxies together · Detected only by its gravity",
   "dates": "Proposed by Fritz Zwicky, 1933",
-  "briefing": "Most of the matter in the universe is invisible dark matter: it gives off no light, yet its gravity holds galaxies and galaxy clusters together. In 1933 Fritz Zwicky noticed that galaxies in the Coma Cluster moved too fast to be held by their stars alone, and in the 1970s Vera Rubin showed that stars at the edges of galaxies orbit surprisingly fast. What it is actually made of remains one of science’s biggest mysteries.",
+  "briefing": "Most of the matter in the universe is invisible dark matter: it gives off no light, yet its gravity holds galaxies and galaxy clusters together. In 1933 Fritz Zwicky noticed that galaxies in the Coma Cluster moved too fast to be held by their stars alone, and in the 1970s Vera Rubin showed that stars at the edges of galaxies orbit surprisingly fast. As of 2025, what it is actually made of remained one of science’s biggest mysteries.",
   "answerHtml": "<b><u>Dark matter</u></b> (accept <u>cold dark matter</u>; do not accept “dark energy”)",
   "accept": [
     "dark matter",
@@ -248,8 +248,7 @@
         "euclid",
         "2023"
       ],
-      "n": 0,
-      "rabbit": "Euclid"
+      "n": 0
     },
     {
       "id": "hot-neutrinos",
@@ -275,7 +274,7 @@
     {
       "id": "andromeda",
       "tier": "power",
-      "t": "Rubin and Ford first measured the spin of the Andromeda Galaxy",
+      "t": "Rubin and Ford’s famous early study measured how fast stars and gas clouds orbit in the Andromeda Galaxy",
       "k": [
         "andromeda"
       ],

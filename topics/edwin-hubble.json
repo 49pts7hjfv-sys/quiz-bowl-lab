@@ -61,7 +61,7 @@
       "r": "For 10 points, name this American astronomer, the namesake of a space telescope launched in 1990."
     },
     {
-      "p": "In 2018, the International Astronomical Union voted to rename a law named for this man so that it also honors Georges Lemaître [“luh-MET-ruh”], who had described the same idea in 1927. That law says galaxies recede from us at speeds proportional to their distances.",
+      "p": "In 2018, the International Astronomical Union voted to recommend renaming a law named for this man so that it also honors Georges Lemaître [“luh-MET-ruh”], who had described the same idea in 1927. That law says galaxies recede from us at speeds proportional to their distances.",
       "r": "For 10 points, name this American astronomer whose 1929 discovery showed that the universe is expanding."
     },
     {
@@ -109,8 +109,8 @@
       "r": "That constant measures how fast the universe expands. For 10 points, name this American astronomer."
     },
     {
-      "p": "A space telescope named for this man was launched in 1990 with a main mirror ground to slightly the wrong shape, a flaw that astronauts corrected in 1993. Its 1995 Deep Field image showed thousands of galaxies in a tiny patch of sky.",
-      "r": "For 10 points, name this astronomer who proved that the Andromeda Galaxy lies far beyond the Milky Way."
+      "p": "In 1993, astronauts corrected a flaw in a space telescope whose main mirror had been ground to slightly the wrong shape. Two years later, that telescope’s Deep Field image showed thousands of galaxies in a tiny patch of sky.",
+      "r": "That telescope, launched in 1990, is named for this man. For 10 points, name this astronomer who proved that the Andromeda Galaxy lies far beyond the Milky Way."
     },
     {
       "p": "In 1926, this man published a scheme for classifying galaxies by shape, labeling elliptical galaxies with the letter E and spirals with the letter S. The scheme’s diagram is drawn like a tuning fork, with ordinary and barred spirals on its two prongs.",
@@ -286,7 +286,7 @@
     {
       "id": "iau-2018",
       "tier": "power",
-      "t": "In 2018, the International Astronomical Union voted to rename his law so it also honors Georges Lemaître, who described it in 1927",
+      "t": "In 2018, the International Astronomical Union voted to recommend renaming his law so it also honors Georges Lemaître, who described it in 1927",
       "k": [
         "international astronomical union",
         "2018",
@@ -413,7 +413,7 @@
   ],
   "trap": {
     "title": "The man, not the telescope",
-    "body": "Many things are named for Edwin Hubble: the Hubble Space Telescope, Hubble’s law, the Hubble constant, and the Hubble tuning fork. A question about the man may mention them as “named for this man,” and players who just heard about a telescope blurt out “Hubble Space Telescope,” which is wrong. Henrietta Leavitt (whose Cepheid rule he used), Georges Lemaître (who described the expansion law first), and Harlow Shapley (whose small-universe view he overturned) are the other wrong buzzes.",
+    "body": "Many things are named for Edwin Hubble: the Hubble Space Telescope, Hubble’s law, the Hubble constant, and the Hubble tuning fork. A question about the man may mention them as “named for this man,” and players who just heard about a telescope blurt out “Hubble Space Telescope,” which is wrong. Henrietta Leavitt (whose Cepheid rule he used), Georges Lemaître (who described the expansion law first), and Harlow Shapley (who argued that spiral nebulae lie inside the Milky Way) are the other wrong buzzes.",
     "fix": "If the question asks for “this man” or “this astronomer,” say “Hubble” or “Edwin Hubble” and nothing more. Clues about a telescope launched in 1990, its mirror, or its Deep Field image can appear, but the answer is still the person it was named for.",
     "line": "Real answer line: <b><u>Edwin Hubble</u></b> (accept <u>Hubble</u>)"
   },

@@ -71,7 +71,7 @@
       "r": "That volcano is Olympus Mons. For 10 points, name this fourth planet from the Sun."
     },
     {
-      "p": "A rover built to last 90 sols, or days on this planet, kept working for nearly 15 years, until a planet-wide dust storm blocked its solar power in 2018. That rover, Opportunity, landed in 2004, as did its twin, Spirit.",
+      "p": "A rover built to last 90 sols, or days on this planet, kept working for more than 14 years, until a planet-wide dust storm blocked its solar power in 2018. That rover, Opportunity, landed in 2004, as did its twin, Spirit.",
       "r": "For 10 points, name this planet nicknamed the Red Planet, the fourth from the Sun."
     },
     {
@@ -79,7 +79,7 @@
       "r": "That rover is Perseverance. For 10 points, name this planet, which NASA rovers have explored since 1997."
     },
     {
-      "p": "In 2012, a rocket-powered “sky crane” lowered the Curiosity rover on cables into this planet’s Gale Crater, where it began climbing a mountain called Mount Sharp. Curiosity found evidence that the crater once held a lake.",
+      "p": "In 2012, a rocket-powered “sky crane” lowered the Curiosity rover on cables into this planet’s Gale Crater, where it later began climbing a mountain called Mount Sharp. Curiosity found evidence that the crater once held a lake.",
       "r": "For 10 points, name this planet, whose polar ice caps contain frozen carbon dioxide, or dry ice."
     },
     {
@@ -372,7 +372,7 @@
     {
       "id": "opportunity",
       "tier": "power",
-      "t": "Opportunity, designed to last 90 sols, worked for nearly 15 years until a planet-wide dust storm in 2018",
+      "t": "Opportunity, designed to last 90 sols, worked for more than 14 years, until a planet-wide dust storm in 2018",
       "k": [
         "opportunity",
         "90 sols",
