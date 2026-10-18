@@ -1,0 +1,365 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "quasars",
+    "name": "Quasars",
+    "mono": "QSO",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Super-bright cores of distant galaxies · Powered by giant black holes",
+    "dates": "First recognized 1963; named 1964",
+    "briefing": "A quasar is the blazing center of a faraway galaxy, where a supermassive black hole is feeding on gas so fast that the swirling disk around it can outshine all the galaxy’s stars combined. Astronomers first noticed them as radio sources that looked like ordinary stars, which is how they got their name, short for “quasi-stellar” (star-like) radio sources. Most are billions of light-years away, so we see them as they were when the universe was young.",
+    "answerHtml": "<b><u>Quasars</u></b> (accept <u>quasar</u>, <u>quasi-stellar object</u>s, <u>QSO</u>s, or <u>quasi-stellar radio source</u>s; prompt on <u>active galactic nuclei</u> or <u>AGN</u>)",
+    "accept": [
+        "quasar",
+        "quasars",
+        "quasi stellar object",
+        "quasi stellar objects",
+        "quasistellar object",
+        "quasistellar objects",
+        "quasi stellar radio source",
+        "quasi stellar radio sources",
+        "quasi stellar source",
+        "quasi stellar sources",
+        "qso",
+        "qsos"
+    ],
+    "prompt": [
+        "active galactic nucleus",
+        "active galactic nuclei",
+        "agn",
+        "agns",
+        "active galaxy",
+        "active galaxies"
+    ],
+    "reject": [
+        "pulsar",
+        "pulsars",
+        "blazar",
+        "blazars",
+        "black hole",
+        "black holes",
+        "supermassive black hole",
+        "supermassive black holes",
+        "neutron star",
+        "neutron stars",
+        "magnetar",
+        "magnetars",
+        "seyfert galaxy",
+        "seyfert galaxies",
+        "radio galaxy",
+        "radio galaxies",
+        "galaxy",
+        "galaxies",
+        "gamma ray burst",
+        "gamma ray bursts",
+        "supernova",
+        "supernovae",
+        "accretion disk"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Quasar",
+    "qb": {
+        "q": "quasar",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1963, Maarten Schmidt realized that the strange lines in the spectrum of 3C 273 were ordinary hydrogen lines shifted toward the red by about 16 percent, showing that it lay far outside the Milky Way. Cyril Hazard had pinned down that radio source’s position by timing when the Moon passed in front of it.",
+            "r": "3C 273 was the first of these objects to have its redshift measured. For 10 points, name these super-bright cores of distant galaxies, powered by supermassive black holes."
+        },
+        {
+            "p": "The brightness of these objects can change in just days, which shows that the region giving off most of their light is only a few light-days across. In 1964, Hong-Yee Chiu coined the short name now used for these objects.",
+            "r": "Their name comes from the fact that they first looked like faint stars. For 10 points, name these super-bright cores of distant galaxies."
+        },
+        {
+            "p": "In 1979, Dennis Walsh and his colleagues found two nearly identical images of one of these objects side by side, the first gravitational lens ever identified. Another of these objects, split into four images around a foreground galaxy, is called the Einstein Cross.",
+            "r": "For 10 points, name these blazing cores of faraway galaxies, each powered by a supermassive black hole."
+        },
+        {
+            "p": "Clouds of hydrogen gas lying between Earth and these objects leave a thicket of dark absorption lines in their spectra called the Lyman-alpha forest. In the most distant of these objects, one stretch of the spectrum is almost completely dark, a feature called the Gunn–Peterson trough.",
+            "r": "These objects are so far away that we see them as they were billions of years ago. For 10 points, name these super-luminous centers of distant galaxies."
+        },
+        {
+            "p": "In 1960, Allan Sandage and Thomas Matthews matched the radio source 3C 48 with a faint point of light in a photograph, making it the first of these objects ever discovered. Its odd spectrum puzzled astronomers until a similar object’s lines were decoded three years later.",
+            "r": "That decoded object, 3C 273, is the brightest of these objects in our sky. For 10 points, name these distant, star-like objects powered by supermassive black holes."
+        },
+        {
+            "p": "Some jets shot out by these objects seem to move faster than light, an illusion called superluminal motion that happens because the jets race toward us at nearly light speed. When one of these objects points its jet almost straight at Earth, astronomers call it a blazar.",
+            "r": "These objects are powered by supermassive black holes. For 10 points, name these blazing centers of distant galaxies."
+        },
+        {
+            "p": "Because these objects are so far away that they never seem to move across the sky, the International Celestial Reference Frame uses many of them as fixed points for measuring positions. Radio astronomers who link telescopes on different continents also use them to measure the slow drift of those continents.",
+            "r": "Each is powered by a supermassive black hole. For 10 points, name these extremely distant, luminous cores of galaxies."
+        },
+        {
+            "p": "These objects were strong evidence against the Steady State theory, because they are common at great distances but rare nearby, which means the universe has changed over time. Their numbers peaked when the universe was only a few billion years old.",
+            "r": "Each one can outshine all the stars in its host galaxy. For 10 points, name these star-like objects powered by supermassive black holes."
+        },
+        {
+            "p": "The power of these objects comes from gas heated to enormous temperatures as it swirls in an accretion disk, a process that turns matter into energy far more efficiently than nuclear fusion does. The brightest of them shine hundreds of times brighter than the entire Milky Way.",
+            "r": "That disk surrounds a supermassive black hole at a galaxy’s center. For 10 points, name these extremely bright, distant objects."
+        },
+        {
+            "p": "In 2007, Dutch schoolteacher Hanny van Arkel spotted a strange green cloud in telescope images while volunteering for Galaxy Zoo. That cloud, nicknamed Hanny’s Voorwerp [“VOHR-vairp”], was lit up by one of these objects in a neighboring galaxy, which has since faded.",
+            "r": "For 10 points, name these super-bright objects powered by supermassive black holes, first found as star-like radio sources."
+        },
+        {
+            "p": "Donald Lynden-Bell suggested in 1969 that burned-out examples of these objects lurk at the centers of many nearby galaxies, including the Milky Way. Seyfert [“SEE-fert”] galaxies have bright centers that resemble these objects but give off far less energy.",
+            "r": "For 10 points, name these super-luminous cores of distant galaxies, each powered by a supermassive black hole."
+        },
+        {
+            "p": "Although the first of these objects were found by radio telescopes, only about one in ten of them turned out to be a strong radio source. The rest, called radio-quiet, were found by searching photographs for unusually blue points of light.",
+            "r": "For 10 points, name these super-bright cores of distant galaxies, whose name is short for “star-like radio source.”"
+        },
+        {
+            "p": "By 2020, the Sloan Digital Sky Survey had cataloged hundreds of thousands of these objects by measuring their large redshifts. Light from the most distant ones left them when the universe was less than a billion years old.",
+            "r": "Their huge redshifts show they are billions of light-years away. For 10 points, name these blazing centers of young galaxies, where supermassive black holes swallow gas."
+        },
+        {
+            "p": "Many of these objects shoot out narrow jets of particles at nearly the speed of light, feeding giant radio lobes far outside their galaxies. The brightest one in Earth’s sky, 3C 273, lies in the constellation Virgo, more than two billion light-years away.",
+            "r": "They look like stars through a telescope. For 10 points, name these super-bright cores of distant galaxies, powered by supermassive black holes."
+        },
+        {
+            "p": "Several famous examples of these objects have names starting with “3C,” after the Third Cambridge Catalogue of Radio Sources. In 1971, one of them, 3C 279, became one of the first objects seen with jets that seem to move faster than light.",
+            "r": "Through a telescope, they look like faint stars. For 10 points, name these super-bright objects powered by supermassive black holes."
+        }
+    ],
+    "clues": [
+        {
+            "id": "black-hole-engine",
+            "tier": "giveaway",
+            "t": "Powered by a supermassive black hole swallowing gas at the center of a galaxy",
+            "k": ["supermassive black hole", "center of a galaxy"],
+            "n": 0,
+            "rabbit": "Black Holes"
+        },
+        {
+            "id": "star-like",
+            "tier": "giveaway",
+            "t": "Their name means “star-like radio source,” because through a telescope they look like faint stars",
+            "k": ["star-like", "radio source", "faint stars"],
+            "n": 0
+        },
+        {
+            "id": "brightest",
+            "tier": "giveaway",
+            "t": "Among the brightest objects in the universe: one can outshine all the stars in its host galaxy",
+            "k": ["brightest", "outshine"],
+            "n": 0
+        },
+        {
+            "id": "distant",
+            "tier": "giveaway",
+            "t": "Extremely distant: most are billions of light-years away, so we see them as they were long ago",
+            "k": ["billions of light-years", "distant"],
+            "n": 0
+        },
+        {
+            "id": "schmidt",
+            "tier": "middle",
+            "t": "In 1963, Maarten Schmidt found that the spectrum of 3C 273 showed hydrogen lines redshifted by about 16 percent",
+            "k": ["maarten schmidt", "3c 273", "1963"],
+            "n": 0
+        },
+        {
+            "id": "accretion-disk",
+            "tier": "middle",
+            "t": "Their light comes from a super-hot accretion disk of gas, which turns matter into energy more efficiently than nuclear fusion",
+            "k": ["accretion disk", "nuclear fusion"],
+            "n": 0
+        },
+        {
+            "id": "redshift",
+            "tier": "middle",
+            "t": "Huge redshifts in their spectra show how far away they are; by 2020 the Sloan Digital Sky Survey had cataloged hundreds of thousands",
+            "k": ["redshifts", "sloan", "hundreds of thousands"],
+            "n": 0
+        },
+        {
+            "id": "agn",
+            "tier": "middle",
+            "t": "The brightest kind of active galactic nucleus (AGN)",
+            "k": ["active galactic nucleus", "agn"],
+            "n": 0,
+            "rabbit": "Galaxies"
+        },
+        {
+            "id": "jets",
+            "tier": "middle",
+            "t": "Many shoot out narrow jets of particles at nearly light speed, feeding giant radio lobes",
+            "k": ["jets", "radio lobes"],
+            "n": 0
+        },
+        {
+            "id": "blazar",
+            "tier": "middle",
+            "t": "A blazar is one whose jet points almost straight at Earth",
+            "k": ["blazar"],
+            "n": 0
+        },
+        {
+            "id": "steady-state",
+            "tier": "middle",
+            "t": "Common far away but rare nearby, they showed the universe changes over time, which was evidence against the Steady State theory",
+            "k": ["steady state", "rare nearby"],
+            "n": 0,
+            "rabbit": "Big Bang"
+        },
+        {
+            "id": "variability",
+            "tier": "middle",
+            "t": "Their brightness can change within days, so their light comes from a region only light-days across",
+            "k": ["light-days", "brightness"],
+            "n": 0
+        },
+        {
+            "id": "chiu",
+            "tier": "middle",
+            "t": "Hong-Yee Chiu coined their short name in 1964",
+            "k": ["hong-yee chiu", "chiu", "1964"],
+            "n": 0
+        },
+        {
+            "id": "hazard",
+            "tier": "power",
+            "t": "Cyril Hazard pinned down the position of 3C 273 by timing when the Moon passed in front of it",
+            "k": ["cyril hazard", "hazard", "moon"],
+            "n": 0
+        },
+        {
+            "id": "3c-48",
+            "tier": "power",
+            "t": "3C 48, matched to a faint point of light by Allan Sandage and Thomas Matthews in 1960, was the first one discovered",
+            "k": ["3c 48", "sandage", "matthews", "1960"],
+            "n": 0
+        },
+        {
+            "id": "virgo",
+            "tier": "power",
+            "t": "3C 273, in the constellation Virgo, is the brightest one in Earth’s sky, more than two billion light-years away",
+            "k": ["virgo", "3c 273"],
+            "n": 0
+        },
+        {
+            "id": "third-cambridge",
+            "tier": "power",
+            "t": "Famous examples are named “3C” for the Third Cambridge Catalogue of Radio Sources",
+            "k": ["third cambridge", "catalogue"],
+            "n": 0
+        },
+        {
+            "id": "first-lens",
+            "tier": "power",
+            "t": "In 1979, Dennis Walsh’s team found a double image of one, the first gravitational lens ever identified",
+            "k": ["gravitational lens", "walsh", "1979"],
+            "n": 0,
+            "rabbit": "Gravitational lensing"
+        },
+        {
+            "id": "einstein-cross",
+            "tier": "power",
+            "t": "The Einstein Cross is one split into four images by a foreground galaxy",
+            "k": ["einstein cross", "four images"],
+            "n": 0
+        },
+        {
+            "id": "lyman-forest",
+            "tier": "power",
+            "t": "Hydrogen clouds between us and them leave a thicket of absorption lines called the Lyman-alpha forest",
+            "k": ["lyman-alpha forest", "absorption lines"],
+            "n": 0
+        },
+        {
+            "id": "gunn-peterson",
+            "tier": "power",
+            "t": "The most distant ones show a nearly dark stretch in their spectra called the Gunn–Peterson trough",
+            "k": ["gunn", "trough"],
+            "n": 0
+        },
+        {
+            "id": "superluminal",
+            "tier": "power",
+            "t": "Some of their jets, like those of 3C 279, seem to move faster than light, an illusion called superluminal motion",
+            "k": ["superluminal motion", "faster than light"],
+            "n": 0
+        },
+        {
+            "id": "reference-frame",
+            "tier": "power",
+            "t": "So far away that they never seem to move, they are fixed points in the International Celestial Reference Frame",
+            "k": ["reference frame", "fixed points"],
+            "n": 0
+        },
+        {
+            "id": "lynden-bell",
+            "tier": "power",
+            "t": "Donald Lynden-Bell suggested in 1969 that burned-out ones lurk at the centers of nearby galaxies, including the Milky Way",
+            "k": ["lynden-bell", "1969", "burned-out"],
+            "n": 0
+        },
+        {
+            "id": "voorwerp",
+            "tier": "power",
+            "t": "Hanny’s Voorwerp, a green gas cloud spotted by a Galaxy Zoo volunteer in 2007, was lit up by one that has since faded",
+            "k": ["voorwerp", "galaxy zoo", "2007"],
+            "n": 0
+        },
+        {
+            "id": "radio-quiet",
+            "tier": "power",
+            "t": "Only about one in ten is a strong radio source; the rest are called radio-quiet",
+            "k": ["radio-quiet", "one in ten"],
+            "n": 0
+        },
+        {
+            "id": "seyfert",
+            "tier": "power",
+            "t": "Seyfert galaxies have bright centers like them but give off far less energy",
+            "k": ["seyfert"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Quasar, pulsar, or AGN?",
+        "body": "Quasars and pulsars sound alike, but a pulsar is a spinning neutron star inside our own galaxy, while a quasar is the brilliant core of a galaxy billions of light-years away. Blazars are close cousins of quasars whose jets point right at Earth, and “active galactic nucleus” (AGN) is the bigger family quasars belong to, so it earns only a prompt.",
+        "fix": "Listen for scale: steady radio pulses every second or so mean pulsar; huge redshifts, accretion disks, supermassive black holes, and 3C 273 mean quasar. If you get a prompt after saying “AGN,” narrow it down to “quasar.”",
+        "line": "Real answer line: <b><u>quasar</u></b>s (accept <u>quasi-stellar object</u>s or <u>QSO</u>s; prompt on <u>active galactic nuclei</u> or <u>AGN</u>)"
+    },
+    "tests": {
+        "right": [
+            "Quasars",
+            "quasar",
+            "Quasers",
+            "quasi-stellar objects",
+            "QSO"
+        ],
+        "prompt": [
+            "AGN",
+            "active galactic nuclei"
+        ],
+        "wrong": [
+            "Pulsars",
+            "Blazar",
+            "Black hole",
+            "Neutron star",
+            "Supermassive black hole"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

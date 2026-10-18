@@ -1,0 +1,444 @@
+{
+  "id": "pluto",
+  "name": "Pluto",
+  "mono": "PLU",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Dwarf planet beyond Neptune · Called the ninth planet until 2006",
+  "dates": "Discovered 1930; reclassified as a dwarf planet in 2006",
+  "briefing": "In 1930, a 24-year-old Kansas farm boy named Clyde Tombaugh found Pluto by flipping back and forth between photographs of the night sky, and an 11-year-old English girl suggested its name. For 76 years it was called the ninth planet, until astronomers reclassified it as a dwarf planet in 2006. When NASA’s New Horizons probe flew past in 2015, it found a giant heart-shaped region, half of it a plain of frozen nitrogen.",
+  "answerHtml": "<b><u>Pluto</u></b> (accept <u>134340 Pluto</u>; do not accept “Charon” or “Hades”)",
+  "accept": [
+    "pluto",
+    "134340 pluto",
+    "planet pluto",
+    "dwarf planet pluto"
+  ],
+  "prompt": [],
+  "reject": [
+    "charon",
+    "hades",
+    "plato",
+    "plutus",
+    "plutonium",
+    "eris",
+    "ceres",
+    "makemake",
+    "haumea",
+    "sedna",
+    "neptune",
+    "triton",
+    "uranus",
+    "kuiper belt",
+    "arrokoth",
+    "ultima thule",
+    "new horizons",
+    "nix",
+    "hydra",
+    "kerberos",
+    "styx",
+    "planet x",
+    "persephone",
+    "tombaugh",
+    "clyde tombaugh"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Pluto",
+  "qb": {
+    "q": "Pluto",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Venetia Burney, an 11-year-old schoolgirl in Oxford, England, suggested this world’s name to her grandfather, who passed it on to astronomers. Its name’s first two letters also honor Percival Lowell, who had searched for a “Planet X” beyond Neptune.",
+      "r": "For 10 points, name this dwarf planet, named for the Roman god of the underworld."
+    },
+    {
+      "p": "In February 1930, a young assistant at Lowell Observatory in Flagstaff, Arizona, found this object by using a blink comparator to flip back and forth between two photographs of the same patch of sky. Some of that discoverer’s ashes later flew past this world aboard a NASA probe.",
+      "r": "That discoverer was Clyde Tombaugh. For 10 points, name this world, called the ninth planet until 2006."
+    },
+    {
+      "p": "This world fails the test of having “cleared the neighborhood” around its orbit, because it shares its region of space with many other icy bodies. The 2005 discovery of the slightly more massive Eris pushed astronomers to write that rule at a meeting in Prague.",
+      "r": "In 2006, this world was reclassified as a dwarf planet. For 10 points, name this world, once called the ninth planet."
+    },
+    {
+      "p": "Sputnik Planitia, a vast basin of nitrogen ice on this world, slowly churns in giant cells, like a lava lamp. That basin forms the western half of a bright region named Tombaugh Regio for this world’s discoverer.",
+      "r": "That region is shaped like a heart. For 10 points, name this dwarf planet that New Horizons flew past in 2015."
+    },
+    {
+      "p": "This world and its largest moon always keep the same faces toward each other, and the point they orbit lies in the empty space between them, so some astronomers call them a double system. That moon, about half this world’s width, was discovered by James Christy in 1978.",
+      "r": "That moon is Charon. For 10 points, name this dwarf planet in the Kuiper Belt, once called the ninth planet."
+    },
+    {
+      "p": "This world circles the Sun twice for every three orbits of Neptune, a resonance that keeps the two from ever coming close to each other even though their orbits seem to cross. From 1979 to 1999, this world was closer to the Sun than Neptune was.",
+      "r": "For 10 points, name this dwarf planet, which takes about 248 years to orbit the Sun."
+    },
+    {
+      "p": "In 2005, the Hubble Space Telescope found two small moons of this world, Nix and Hydra, and later images revealed two more, Kerberos and Styx. Nix was spelled with an “i” so it would not be confused with an asteroid named Nyx.",
+      "r": "This world’s largest moon is Charon. For 10 points, name this dwarf planet, named for the Roman god of the underworld."
+    },
+    {
+      "p": "After passing this world on July 14, 2015, a NASA probe went on to fly past the small, snowman-shaped Kuiper Belt object Arrokoth on New Year’s Day 2019. That probe, launched in January 2006, took about nine and a half years to reach this world.",
+      "r": "That probe was New Horizons. For 10 points, name this dwarf planet whose largest moon is Charon."
+    },
+    {
+      "p": "Methane gas escaping from this world freezes onto the north pole of its largest moon, where ultraviolet light turns it into reddish chemicals called tholins, staining a region nicknamed Mordor Macula. New Horizons found that this world’s thin nitrogen atmosphere holds layers of blue haze.",
+      "r": "That moon is Charon. For 10 points, name this dwarf planet discovered by Clyde Tombaugh in 1930."
+    },
+    {
+      "p": "This world’s Tenzing Montes and Hillary Montes, mountain ranges named for the first two people to climb Mount Everest, are made of water ice that is as hard as rock in the extreme cold. Some scientists think an ocean of liquid water may lie deep beneath its icy surface.",
+      "r": "Its largest moon is Charon. For 10 points, name this dwarf planet, which was called the ninth planet for 76 years."
+    },
+    {
+      "p": "Glenn Seaborg’s team named element 94 for this world, just as the two elements before it had been named for Uranus and Neptune. Heat from that radioactive element powers the New Horizons spacecraft, which was sent to visit this world.",
+      "r": "It was discovered in 1930. For 10 points, name this dwarf planet, named for the Roman god of the underworld."
+    },
+    {
+      "p": "This world’s orbit is tilted about 17 degrees from the plane of the planets and is so stretched out that its distance from the Sun ranges from about 30 to 49 times Earth’s. It last passed its closest point to the Sun in 1989.",
+      "r": "It lies in the Kuiper Belt beyond Neptune. For 10 points, name this dwarf planet, once called the ninth planet."
+    },
+    {
+      "p": "This world is smaller than seven moons in the solar system, including Earth’s Moon and Neptune’s moon Triton, which may have formed in the same region of space. Its surface is mostly frozen nitrogen, with some methane and carbon monoxide ice.",
+      "r": "Its biggest moon is Charon. For 10 points, name this dwarf planet that Clyde Tombaugh discovered in 1930."
+    },
+    {
+      "p": "The discovery of this world was announced on March 13, 1930, which would have been Percival Lowell’s 75th birthday and was the anniversary of William Herschel’s discovery of Uranus. Lowell had spent his last years hunting for an unseen planet beyond Neptune.",
+      "r": "For 10 points, name this world found by Clyde Tombaugh, which was reclassified as a dwarf planet in 2006."
+    },
+    {
+      "p": "The American Dialect Society’s 2006 Word of the Year was a verb based on this world’s name, meaning “to demote or devalue someone or something.” This world’s thin atmosphere may partly freeze onto its surface as it moves farther from the Sun.",
+      "r": "In 2006, this world lost its planet status and became a dwarf planet. For 10 points, name this icy world beyond Neptune."
+    }
+  ],
+  "clues": [
+    {
+      "id": "dwarf-planet",
+      "tier": "giveaway",
+      "t": "Called the ninth planet until 2006, when it was reclassified as a dwarf planet",
+      "k": [
+        "dwarf planet",
+        "ninth planet",
+        "2006"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tombaugh",
+      "tier": "giveaway",
+      "t": "Discovered in 1930 by Clyde Tombaugh at Lowell Observatory in Flagstaff, Arizona",
+      "k": [
+        "clyde tombaugh",
+        "1930",
+        "flagstaff"
+      ],
+      "n": 0
+    },
+    {
+      "id": "underworld",
+      "tier": "giveaway",
+      "t": "Named for the Roman god of the underworld, the counterpart of the Greek Hades",
+      "k": [
+        "underworld",
+        "hades"
+      ],
+      "n": 0,
+      "rabbit": "Hades"
+    },
+    {
+      "id": "charon",
+      "tier": "giveaway",
+      "t": "Its largest moon, Charon, is about half its width",
+      "k": [
+        "charon",
+        "largest moon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "new-horizons",
+      "tier": "giveaway",
+      "t": "NASA’s New Horizons probe flew past it on July 14, 2015",
+      "k": [
+        "new horizons",
+        "2015"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kuiper-belt",
+      "tier": "middle",
+      "t": "Lies in the Kuiper Belt, the ring of icy bodies beyond Neptune",
+      "k": [
+        "kuiper belt",
+        "neptune"
+      ],
+      "n": 0,
+      "rabbit": "Kuiper Belt"
+    },
+    {
+      "id": "eris",
+      "tier": "middle",
+      "t": "The 2005 discovery of Eris, which is slightly more massive, helped lead to its reclassification",
+      "k": [
+        "eris",
+        "2005"
+      ],
+      "n": 0
+    },
+    {
+      "id": "neighborhood",
+      "tier": "middle",
+      "t": "Fails the rule, adopted at a 2006 meeting in Prague, that a planet must have “cleared the neighborhood” around its orbit",
+      "k": [
+        "cleared the neighborhood",
+        "prague"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heart",
+      "tier": "middle",
+      "t": "New Horizons photographed a bright heart-shaped region named Tombaugh Regio",
+      "k": [
+        "heart-shaped",
+        "tombaugh regio"
+      ],
+      "n": 0
+    },
+    {
+      "id": "venetia",
+      "tier": "middle",
+      "t": "Its name was suggested by Venetia Burney, an 11-year-old schoolgirl in Oxford, England",
+      "k": [
+        "venetia burney",
+        "oxford",
+        "11-year-old"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lowell",
+      "tier": "middle",
+      "t": "Percival Lowell had hunted for a “Planet X” beyond Neptune; the first two letters of its name are his initials",
+      "k": [
+        "percival lowell",
+        "planet x",
+        "initials"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blink",
+      "tier": "middle",
+      "t": "Found with a blink comparator, flipping back and forth between two photographs of the same patch of sky",
+      "k": [
+        "blink comparator",
+        "photographs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "resonance",
+      "tier": "middle",
+      "t": "Orbits the Sun once every 248 years, twice for every three orbits of Neptune (a 3:2 resonance)",
+      "k": [
+        "248 years",
+        "resonance",
+        "3:2"
+      ],
+      "n": 0,
+      "rabbit": "Neptune"
+    },
+    {
+      "id": "inside-neptune",
+      "tier": "middle",
+      "t": "From 1979 to 1999 it was closer to the Sun than Neptune was",
+      "k": [
+        "1979",
+        "1999",
+        "closer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-system",
+      "tier": "middle",
+      "t": "It and Charon are tidally locked to each other and orbit a point in the space between them, like a double system",
+      "k": [
+        "tidally locked",
+        "double system"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sputnik-planitia",
+      "tier": "power",
+      "t": "Sputnik Planitia, the heart’s western half, is a basin of nitrogen ice that slowly churns in giant cells",
+      "k": [
+        "sputnik planitia",
+        "nitrogen ice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "christy",
+      "tier": "power",
+      "t": "James Christy discovered Charon in 1978",
+      "k": [
+        "christy",
+        "1978"
+      ],
+      "n": 0
+    },
+    {
+      "id": "small-moons",
+      "tier": "power",
+      "t": "Its small moons are Nix and Hydra (found 2005), Kerberos, and Styx; Nix is spelled with an “i” to avoid confusion with an asteroid",
+      "k": [
+        "hydra",
+        "kerberos",
+        "styx",
+        "nix"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arrokoth",
+      "tier": "power",
+      "t": "New Horizons, carrying some of Tombaugh’s ashes, went on to fly past the snowman-shaped Arrokoth on January 1, 2019",
+      "k": [
+        "arrokoth",
+        "snowman",
+        "ashes",
+        "2019"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tholins",
+      "tier": "power",
+      "t": "Methane escaping from it freezes on Charon’s north pole and turns into reddish tholins, staining Mordor Macula",
+      "k": [
+        "tholins",
+        "mordor macula",
+        "methane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blue-haze",
+      "tier": "power",
+      "t": "Its thin nitrogen atmosphere holds layers of blue haze",
+      "k": [
+        "blue haze",
+        "nitrogen atmosphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mountains",
+      "tier": "power",
+      "t": "Tenzing Montes and Hillary Montes are ranges of rock-hard water ice named for the first two Everest climbers",
+      "k": [
+        "tenzing",
+        "hillary",
+        "water ice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ocean",
+      "tier": "power",
+      "t": "Some scientists think an ocean of liquid water may lie deep beneath its icy surface",
+      "k": [
+        "ocean",
+        "liquid water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "element-94",
+      "tier": "power",
+      "t": "Glenn Seaborg’s team named element 94 for it, after uranium and neptunium; that element’s heat powers New Horizons",
+      "k": [
+        "element 94",
+        "seaborg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tilted-orbit",
+      "tier": "power",
+      "t": "Its orbit is tilted about 17 degrees and swings from about 30 to 49 times Earth’s distance from the Sun; closest approach was in 1989",
+      "k": [
+        "17 degrees",
+        "tilted",
+        "1989"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seven-moons",
+      "tier": "power",
+      "t": "It is smaller than seven moons, including Earth’s Moon and Neptune’s moon Triton",
+      "k": [
+        "seven moons",
+        "triton"
+      ],
+      "n": 0,
+      "rabbit": "Triton"
+    },
+    {
+      "id": "march-13",
+      "tier": "power",
+      "t": "Its discovery was announced on March 13, 1930, Percival Lowell’s birthday and the anniversary of the discovery of Uranus",
+      "k": [
+        "march 13",
+        "birthday",
+        "uranus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "word-of-year",
+      "tier": "power",
+      "t": "A verb made from its name, meaning “to demote,” was the American Dialect Society’s 2006 Word of the Year",
+      "k": [
+        "word of the year",
+        "american dialect society",
+        "demote"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Pluto, Charon, or Hades?",
+    "body": "Many Pluto tossups lead with clues about its moon Charon or about Kuiper Belt neighbors like Eris and Arrokoth, and players who recognize those names blurt them out. Mythology fans sometimes say “Hades,” the Greek god, but the dwarf planet uses only the Roman name. Eris is a special trap: its discovery set off the 2006 vote, but when the question says “this world” was reclassified, it wants Pluto.",
+    "fix": "“This dwarf planet” plus Clyde Tombaugh, Venetia Burney, Charon, the heart-shaped Tombaugh Regio, or New Horizons in 2015 means Pluto. Eris was found in 2005 and has a moon named Dysnomia; Ceres is the dwarf planet in the asteroid belt.",
+    "line": "Real answer line: <b><u>Pluto</u></b>"
+  },
+  "tests": {
+    "right": [
+      "Pluto",
+      "pluto",
+      "Plutoe",
+      "the dwarf planet Pluto",
+      "Planet Pluto"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Charon",
+      "Hades",
+      "Plato",
+      "Eris",
+      "Neptune",
+      "Ceres"
+    ]
+  }
+}

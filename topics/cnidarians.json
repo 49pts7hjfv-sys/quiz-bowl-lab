@@ -1,0 +1,448 @@
+{
+  "id": "cnidarians",
+  "name": "Cnidarians",
+  "mono": "CNI",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Jellyfish, corals, and sea anemones · Animals with stinging cells",
+  "dates": "More than 10,000 species, mostly in the sea",
+  "briefing": "Cnidarians (the C is silent) are soft-bodied water animals, such as jellyfish, corals, sea anemones, and hydras, that catch food with stinging cells. Each stinging cell holds a tiny coiled harpoon that fires faster than almost anything else in nature. They have no brain, just a net of nerves, and many switch between two body shapes: an attached polyp, like a coral, and a swimming bell called a medusa.",
+  "answerHtml": "<b><u>Cnidarians</u></b> (accept <u>Cnidaria</u> or <u>coelenterates</u>; do not accept a single member such as “jellyfish”; do not accept “ctenophores”)",
+  "accept": [
+    "cnidarians",
+    "cnidarian",
+    "cnidaria",
+    "phylum cnidaria",
+    "coelenterates",
+    "coelenterate",
+    "coelenterata"
+  ],
+  "prompt": [],
+  "reject": [
+    "ctenophores",
+    "ctenophore",
+    "ctenophora",
+    "comb jellies",
+    "comb jelly",
+    "jellyfish",
+    "jelly fish",
+    "jellies",
+    "corals",
+    "coral",
+    "coral reefs",
+    "sea anemones",
+    "sea anemone",
+    "anemones",
+    "hydra",
+    "hydras",
+    "hydrozoa",
+    "hydrozoans",
+    "scyphozoa",
+    "anthozoa",
+    "cubozoa",
+    "box jellyfish",
+    "portuguese man o war",
+    "man o war",
+    "cnidocytes",
+    "cnidocyte",
+    "nematocysts",
+    "nematocyst",
+    "polyps",
+    "polyp",
+    "medusa",
+    "medusae",
+    "sponges",
+    "porifera",
+    "echinoderms",
+    "echinodermata",
+    "mollusks",
+    "mollusca",
+    "flatworms",
+    "platyhelminthes"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Cnidaria",
+  "qb": {
+    "q": "cnidaria",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1962, Osamu Shimomura [“oh-SAH-moo shee-moh-MOO-rah”] isolated green fluorescent protein from the crystal jelly _Aequorea victoria_ [“ee-KWOR-ee-uh vik-TOR-ee-uh”], a member of this phylum, and he later shared a Nobel Prize in Chemistry for that work. Members of this phylum have no brain, only a simple nerve net.",
+      "r": "For 10 points, name this phylum of animals with stinging cells called cnidocytes, including jellyfish and corals."
+    },
+    {
+      "p": "In “The Adventure of the Lion’s Mane,” Sherlock Holmes discovers that the culprit behind a seaside mystery is a giant member of this phylum. Members of this phylum have just two true tissue layers, separated by a jelly-like layer called the mesoglea [“mez-oh-GLEE-uh”].",
+      "r": "For 10 points, name this phylum of stinging animals that includes jellyfish, sea anemones, and corals."
+    },
+    {
+      "p": "_Turritopsis dohrnii_ [“tur-ih-TOP-sis DOR-nee-eye”], nicknamed the “immortal jellyfish,” is a member of this phylum that can turn back from an adult medusa into a young polyp. Many members of this phylum begin life as a free-swimming larva called a planula [“PLAN-yoo-luh”].",
+      "r": "For 10 points, name this phylum of radially symmetric animals with stinging cells, including corals and sea anemones."
+    },
+    {
+      "p": "In the 1740s, Abraham Trembley [“trahm-BLAY”] cut apart small freshwater members of this phylum and watched each piece regrow into a whole animal. Those animals, named for a many-headed monster from Greek myth, also reproduce by budding.",
+      "r": "Those animals are hydras. For 10 points, name this phylum that also includes jellyfish, corals, and sea anemones."
+    },
+    {
+      "p": "Members of one class in this phylum have 24 eyes, some with lenses, arranged in four clusters called rhopalia [“roh-PAY-lee-uh”]. That class, Cubozoa, includes the sea wasp, one of the most venomous animals on Earth.",
+      "r": "That class is the box jellyfish. For 10 points, name this phylum of stinging animals that also includes corals and sea anemones."
+    },
+    {
+      "p": "The Portuguese man o’ war belongs to this phylum, but it is actually a colony of many small, specialized animals called a siphonophore [“sy-FON-uh-for”], floating under a gas-filled sail. Most members of this phylum catch prey using harpoon-like threads called nematocysts.",
+      "r": "Those threads are found inside stinging cells. For 10 points, name this phylum that includes jellyfish and corals."
+    },
+    {
+      "p": "Reef-building members of this phylum get much of their food from algae called zooxanthellae [“zoh-uh-zan-THEL-ee”] living in their tissues. When the water gets too hot, those animals expel the algae and turn white, a process called bleaching.",
+      "r": "For 10 points, name this phylum of animals with stinging cells, whose members include the corals that build coral reefs."
+    },
+    {
+      "p": "In 2020, scientists found that _Henneguya salminicola_, a tiny parasite of salmon from this phylum, has no mitochondrial genome, so it cannot use oxygen to make energy the way other animals do. That parasite belongs to a group called myxozoans [“mik-suh-ZOH-unz”].",
+      "r": "For 10 points, name this phylum of stinging animals that includes jellyfish, corals, and sea anemones."
+    },
+    {
+      "p": "In 2017, scientists found that the upside-down jellyfish _Cassiopea_ [“kass-ee-OH-pee-uh”] slips into a sleep-like state at night, even though members of this phylum have no brain. Instead, members of this phylum have a simple nerve net spread through the body.",
+      "r": "For 10 points, name this phylum of radially symmetric animals with stinging cells, including corals and sea anemones."
+    },
+    {
+      "p": "In a process called strobilation [“stroh-bih-LAY-shun”], polyps of some members of this phylum split into a stack of tiny baby medusae called ephyrae [“EF-ih-ree”]. Many members of this phylum alternate between those two forms, with polyps reproducing asexually and medusae reproducing sexually.",
+      "r": "For 10 points, name this phylum of stinging animals that includes true jellyfish, hydras, and corals."
+    },
+    {
+      "p": "This phylum’s class Anthozoa includes sea anemones and corals, which live only as polyps, while its class Scyphozoa [“sy-foh-ZOH-uh”] contains the true jellyfish. Other classes in this phylum include Hydrozoa, home of the freshwater hydra, and Cubozoa, the box jellyfish.",
+      "r": "For 10 points, name this phylum of radially symmetric animals that catch prey with stinging cells."
+    },
+    {
+      "p": "Members of this phylum have only two true tissue layers, an outer epidermis and an inner gastrodermis, with a jelly-like layer called the mesoglea [“mez-oh-GLEE-uh”] between them. Their gastrovascular cavity has just one opening, which serves as both mouth and anus.",
+      "r": "For 10 points, name this phylum of stinging animals that includes jellyfish and sea anemones."
+    },
+    {
+      "p": "When a tiny trigger bristle is touched, a coiled thread shoots out of a capsule in one of the fastest movements in nature, injecting venom into prey. That capsule, called a nematocyst [“neh-MAT-oh-sist”], is the key weapon of this phylum.",
+      "r": "Nematocysts sit inside stinging cells called cnidocytes, which give this phylum its name. For 10 points, name this phylum that includes jellyfish and corals."
+    },
+    {
+      "p": "Clownfish live safely among the tentacles of some members of this phylum, protected by a special coat of mucus. Other members of this phylum built the Great Barrier Reef, the largest structure made by living things.",
+      "r": "For 10 points, name this phylum of stinging animals that includes sea anemones, corals, and jellyfish."
+    },
+    {
+      "p": "Stalked jellyfish, which belong to the class Staurozoa [“stor-oh-ZOH-uh”] in this phylum, attach themselves to seaweed with a stalk instead of swimming freely. Comb jellies look similar to members of this phylum, but they belong to a separate phylum and catch food with sticky cells instead.",
+      "r": "For 10 points, name this phylum of animals with stinging cells that includes sea anemones, corals, and true jellyfish."
+    }
+  ],
+  "clues": [
+    {
+      "id": "members",
+      "tier": "giveaway",
+      "t": "Phylum of jellyfish, corals, sea anemones, and hydras",
+      "k": [
+        "jellyfish",
+        "corals",
+        "sea anemones",
+        "hydras"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stinging-cells",
+      "tier": "giveaway",
+      "t": "Catch prey with stinging cells called cnidocytes, which give the group its name (from a Greek word for “nettle”)",
+      "k": [
+        "stinging cells",
+        "cnidocytes",
+        "nettle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radial-symmetry",
+      "tier": "giveaway",
+      "t": "Radial symmetry: body parts arranged in a circle around a central mouth",
+      "k": [
+        "radial symmetry",
+        "radial"
+      ],
+      "n": 0
+    },
+    {
+      "id": "polyp-medusa",
+      "tier": "giveaway",
+      "t": "Two body forms: an attached, tube-shaped polyp and a free-swimming, bell-shaped medusa",
+      "k": [
+        "polyp",
+        "medusa",
+        "bell-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "one-opening",
+      "tier": "middle",
+      "t": "A gastrovascular cavity with just one opening, which serves as both mouth and anus",
+      "k": [
+        "gastrovascular cavity",
+        "one opening"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nematocysts",
+      "tier": "middle",
+      "t": "Each stinging cell holds a coiled, harpoon-like thread called a nematocyst",
+      "k": [
+        "nematocyst",
+        "harpoon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nerve-net",
+      "tier": "middle",
+      "t": "No brain: a simple nerve net spreads through the body",
+      "k": [
+        "nerve net",
+        "no brain"
+      ],
+      "n": 0,
+      "rabbit": "Neurons"
+    },
+    {
+      "id": "two-layers",
+      "tier": "middle",
+      "t": "Only two true tissue layers, the epidermis and gastrodermis, with jelly-like mesoglea between them",
+      "k": [
+        "mesoglea",
+        "two true tissue layers",
+        "epidermis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zooxanthellae",
+      "tier": "middle",
+      "t": "Reef-building corals host algae called zooxanthellae; in water that is too hot, corals expel them and turn white (bleaching)",
+      "k": [
+        "zooxanthellae",
+        "bleaching",
+        "algae"
+      ],
+      "n": 0,
+      "rabbit": "Coral reefs"
+    },
+    {
+      "id": "hydra-budding",
+      "tier": "middle",
+      "t": "Small freshwater hydras reproduce by budding and can regrow from pieces",
+      "k": [
+        "budding",
+        "freshwater",
+        "regrow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clownfish",
+      "tier": "middle",
+      "t": "Clownfish live safely among sea anemone tentacles, protected by a coat of mucus",
+      "k": [
+        "clownfish",
+        "mucus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "classes",
+      "tier": "middle",
+      "t": "Classes include Anthozoa (corals and anemones), Scyphozoa (true jellyfish), Cubozoa (box jellyfish), and Hydrozoa",
+      "k": [
+        "anthozoa",
+        "scyphozoa",
+        "cubozoa",
+        "hydrozoa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "man-o-war",
+      "tier": "middle",
+      "t": "The Portuguese man o’ war is a floating colony called a siphonophore, not a single true jellyfish",
+      "k": [
+        "man o’ war",
+        "siphonophore",
+        "colony"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alternation",
+      "tier": "middle",
+      "t": "Many alternate forms: polyps reproduce asexually, while medusae reproduce sexually",
+      "k": [
+        "alternate",
+        "asexually",
+        "sexually"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gfp",
+      "tier": "power",
+      "t": "Osamu Shimomura found green fluorescent protein (GFP) in the crystal jelly _Aequorea victoria_ and shared the 2008 Nobel Prize in Chemistry",
+      "k": [
+        "green fluorescent protein",
+        "shimomura",
+        "aequorea",
+        "gfp"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lions-mane",
+      "tier": "power",
+      "t": "In the Sherlock Holmes story “The Adventure of the Lion’s Mane,” the culprit is a lion’s mane jellyfish, one of the largest known jellyfish",
+      "k": [
+        "lion’s mane",
+        "sherlock holmes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "turritopsis",
+      "tier": "power",
+      "t": "_Turritopsis dohrnii_, the “immortal jellyfish,” can turn back from an adult medusa into a young polyp",
+      "k": [
+        "turritopsis",
+        "immortal jellyfish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trembley",
+      "tier": "power",
+      "t": "In the 1740s, Abraham Trembley showed that cut-up hydras regrow; the hydra is named for the many-headed monster of Greek myth",
+      "k": [
+        "trembley",
+        "1740s",
+        "many-headed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "box-jellyfish",
+      "tier": "power",
+      "t": "Box jellyfish (Cubozoa) have 24 eyes, some with lenses, in four clusters called rhopalia; the sea wasp is among the most venomous animals",
+      "k": [
+        "rhopalia",
+        "24 eyes",
+        "sea wasp"
+      ],
+      "n": 0
+    },
+    {
+      "id": "planula",
+      "tier": "power",
+      "t": "Their free-swimming larva is a planula; in strobilation, some polyps split into tiny baby medusae called ephyrae",
+      "k": [
+        "planula",
+        "strobilation",
+        "ephyrae"
+      ],
+      "n": 0
+    },
+    {
+      "id": "henneguya",
+      "tier": "power",
+      "t": "The tiny salmon parasite _Henneguya salminicola_, a myxozoan, was found in 2020 to have no mitochondrial genome",
+      "k": [
+        "henneguya",
+        "myxozoan",
+        "mitochondrial genome"
+      ],
+      "n": 0,
+      "rabbit": "Mitochondria"
+    },
+    {
+      "id": "cassiopea",
+      "tier": "power",
+      "t": "The upside-down jellyfish _Cassiopea_ slips into a sleep-like state at night even without a brain",
+      "k": [
+        "cassiopea",
+        "upside-down jellyfish",
+        "sleep-like"
+      ],
+      "n": 0,
+      "rabbit": "Sleep"
+    },
+    {
+      "id": "fastest-sting",
+      "tier": "power",
+      "t": "Touching a tiny trigger bristle fires the nematocyst’s thread, one of the fastest movements in nature",
+      "k": [
+        "trigger bristle",
+        "fastest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-barrier-reef",
+      "tier": "power",
+      "t": "Coral polyps built the Great Barrier Reef, the largest structure made by living things",
+      "k": [
+        "great barrier reef",
+        "largest structure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "staurozoa",
+      "tier": "power",
+      "t": "Stalked jellyfish (Staurozoa) attach to seaweed with a stalk instead of swimming",
+      "k": [
+        "stalked jellyfish",
+        "staurozoa",
+        "stalk"
+      ],
+      "n": 0
+    },
+    {
+      "id": "comb-jellies",
+      "tier": "power",
+      "t": "Comb jellies (ctenophores) look similar but form a separate phylum and catch food with sticky cells instead of stinging cells",
+      "k": [
+        "comb jellies",
+        "ctenophores",
+        "sticky cells"
+      ],
+      "n": 0,
+      "rabbit": "Sponges"
+    }
+  ],
+  "trap": {
+    "title": "Phylum, not jellyfish",
+    "body": "Many clues describe one famous member, like a box jellyfish’s eyes or a hydra regrowing, so players blurt “jellyfish” or “hydra,” but the question wants the whole phylum. Comb jellies (ctenophores) are the sneakiest trap: they look like jellyfish but form their own phylum, swim with rows of beating cilia, and have no stinging cells.",
+    "fix": "Listen for “this phylum” or “these animals” and answer “cnidarians” (the C is silent). Stinging cells, nematocysts, polyps and medusae, and corals mean cnidarians; rows of shimmering cilia called combs mean ctenophores.",
+    "line": "Real answer line: <b><u>Cnidarians</u></b> (accept <u>Cnidaria</u>; do not accept a single member such as “jellyfish”)"
+  },
+  "tests": {
+    "right": [
+      "Cnidarians",
+      "cnidaria",
+      "Cnidarian",
+      "Nidarians",
+      "Phylum Cnidaria"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Jellyfish",
+      "Ctenophores",
+      "Comb jellies",
+      "Echinoderms",
+      "Sponges",
+      "Corals"
+    ]
+  }
+}

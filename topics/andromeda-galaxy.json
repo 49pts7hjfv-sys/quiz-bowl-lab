@@ -1,0 +1,460 @@
+{
+  "id": "andromeda-galaxy",
+  "name": "Andromeda Galaxy",
+  "mono": "M31",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Nearest large galaxy to the Milky Way · About 2.5 million light-years away",
+  "dates": "Described c. 964 CE; shown to be a separate galaxy 1924–25",
+  "briefing": "On a dark autumn night, the Andromeda Galaxy looks like a faint, fuzzy smudge, but it is a giant spiral of stars about 2.5 million light-years away, the nearest large galaxy to our own. In the 1920s, Edwin Hubble found pulsing stars inside it that proved it lies far outside the Milky Way. It is heading toward us, and the two galaxies may merge billions of years from now.",
+  "answerHtml": "<b><u>Andromeda</u></b> Galaxy (accept <u>M31</u>, <u>Messier 31</u>, <u>NGC 224</u>, or <u>Andromeda Nebula</u>; do not accept “Milky Way” or “Triangulum”)",
+  "accept": [
+    "andromeda galaxy",
+    "andromeda",
+    "m31",
+    "m 31",
+    "messier 31",
+    "andromeda nebula",
+    "great andromeda nebula",
+    "ngc 224"
+  ],
+  "prompt": [],
+  "reject": [
+    "milky way",
+    "milky way galaxy",
+    "triangulum",
+    "triangulum galaxy",
+    "m33",
+    "m32",
+    "m110",
+    "galaxies",
+    "spiral galaxy",
+    "spiral galaxies",
+    "whirlpool galaxy",
+    "sombrero galaxy",
+    "pinwheel galaxy",
+    "magellanic cloud",
+    "magellanic clouds",
+    "large magellanic cloud",
+    "small magellanic cloud",
+    "andromeda constellation",
+    "constellation andromeda",
+    "princess andromeda",
+    "andromeda princess",
+    "perseus",
+    "cassiopeia",
+    "pegasus",
+    "milkomeda",
+    "milkdromeda",
+    "local group"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+  "qb": {
+    "q": "Andromeda",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1612, Simon Marius became the first to describe this object through a telescope, comparing it to a candle flame seen through a sheet of horn. Around 964 CE, the Persian astronomer al-Sufi [“al-SOO-fee”] had described it as a “little cloud” in his _Book of Fixed Stars_.",
+      "r": "It lies about 2.5 million light-years away. For 10 points, name this spiral galaxy, the nearest large one to the Milky Way."
+    },
+    {
+      "p": "In October 1923, an astronomer at Mount Wilson crossed out the letter “N” on a photographic plate of this object and wrote “VAR!” because a star he had marked as a nova was really a Cepheid variable. That star showed that this object lies far outside the Milky Way.",
+      "r": "That astronomer was Edwin Hubble. For 10 points, name this spiral galaxy about 2.5 million light-years away."
+    },
+    {
+      "p": "In August 1885, a new star flared up near the center of this object, bright enough to spot with a small telescope. That event, the first supernova ever seen beyond the Milky Way, was not recognized as one at the time.",
+      "r": "This object is visible to the naked eye as a fuzzy patch. For 10 points, name this spiral galaxy, the nearest large galaxy to our own."
+    },
+    {
+      "p": "In 1912, Vesto Slipher found that the light of this object is shifted toward the blue, showing that it is rushing toward us at about 300 kilometers per second. Unlike most objects of its kind, this object is not moving away from us as the universe expands.",
+      "r": "It may merge with the Milky Way billions of years from now. For 10 points, name this nearest large spiral galaxy."
+    },
+    {
+      "p": "During wartime blackouts of Los Angeles in the 1940s, Walter Baade [“BAH-duh”] used the dark skies at Mount Wilson to pick out individual stars in the crowded center of this object. He used them to divide stars into two groups, Population I and Population II.",
+      "r": "This object’s companions include M32 and M110. For 10 points, name this spiral galaxy, the largest in the Local Group."
+    },
+    {
+      "p": "In 1993, the Hubble Space Telescope revealed that this object appears to have a double nucleus, now explained as a lopsided disk of stars circling its central black hole. A long stream of stars in its outskirts is the wreckage of a smaller neighbor that it pulled apart.",
+      "r": "It is about 2.5 million light-years away. For 10 points, name this spiral galaxy, the Milky Way’s nearest large neighbor."
+    },
+    {
+      "p": "In 1887, Isaac Roberts took photographs of this object that first revealed its spiral structure, though he thought it was a new solar system taking shape. Charles Messier had added it to his catalog of fuzzy objects in 1764.",
+      "r": "For 10 points, name this spiral galaxy that Edwin Hubble showed lies far beyond the Milky Way."
+    },
+    {
+      "p": "In 1970, Vera Rubin and Kent Ford measured how fast gas clouds orbit in this object and found that those far from its center move about as fast as those near it. That flat rotation curve became key evidence for dark matter.",
+      "r": "It lies in a constellation named for a princess rescued by Perseus. For 10 points, name this nearest large spiral galaxy."
+    },
+    {
+      "p": "In the 1920 Great Debate, Heber Curtis argued that this object’s faint novae showed that it lay far beyond our own star system, while Harlow Shapley disagreed. Edwin Hubble proved Curtis right a few years later.",
+      "r": "It is the largest member of the Local Group. For 10 points, name this spiral galaxy, which is about 2.5 million light-years away."
+    },
+    {
+      "p": "Edwin Hubble first estimated that this object was nearly a million light-years away. In 1952, Walter Baade showed that there are two kinds of Cepheid variable stars, which roughly doubled the distance to this object.",
+      "r": "Modern measurements put it about 2.5 million light-years away. For 10 points, name this spiral galaxy, the nearest large neighbor of the Milky Way."
+    },
+    {
+      "p": "Triangulum, a smaller spiral about 3 million light-years from Earth, may be a satellite of this object. Mayall II, the brightest globular cluster in the Local Group, orbits this object, which has far more globular clusters than the Milky Way does.",
+      "r": "Its possible future merger with the Milky Way has been nicknamed “Milkomeda.” For 10 points, name this spiral galaxy, the largest in the Local Group."
+    },
+    {
+      "p": "Skywatchers often find this object by hopping from the Great Square of Pegasus along a chain of stars, or by starting from the W shape of Cassiopeia. In long-exposure photos, it stretches across a patch of sky about six times as wide as the full Moon.",
+      "r": "It is one of the most distant objects visible without a telescope. For 10 points, name this spiral galaxy, about 2.5 million light-years away."
+    },
+    {
+      "p": "Infrared telescopes such as Spitzer show that much of this object’s dust and star formation lies in a giant ring about 30,000 light-years from its center. Because we see its disk tilted about 77 degrees from face-on, it looks like a long oval.",
+      "r": "It lies in a constellation named for a princess whom Perseus rescued from a sea monster. For 10 points, name this nearest large spiral galaxy."
+    },
+    {
+      "p": "In 2015, NASA released a huge Hubble Space Telescope mosaic of part of this object that showed more than 100 million of its stars. The supermassive black hole at its center is far heavier than the one at the center of the Milky Way.",
+      "r": "For 10 points, name this spiral galaxy, which is heading toward the Milky Way and may merge with it billions of years from now."
+    },
+    {
+      "p": "One of this object’s small companions, observed by Charles Messier in 1773, was not officially added to his catalog until 1967, becoming its 110th entry. Another companion, M32, is a compact elliptical that may be the leftover core of a bigger galaxy this object tore apart.",
+      "r": "This object can be seen without a telescope in autumn skies. For 10 points, name this spiral galaxy, the largest member of the Local Group."
+    }
+  ],
+  "clues": [
+    {
+      "id": "nearest-large",
+      "tier": "giveaway",
+      "t": "The nearest large galaxy to the Milky Way, a giant spiral",
+      "k": [
+        "nearest",
+        "giant spiral",
+        "large galaxy"
+      ],
+      "n": 0,
+      "rabbit": "Galaxies"
+    },
+    {
+      "id": "distance",
+      "tier": "giveaway",
+      "t": "About 2.5 million light-years away",
+      "k": [
+        "2.5 million",
+        "light-years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "naked-eye",
+      "tier": "giveaway",
+      "t": "One of the most distant objects visible without a telescope: a faint, fuzzy smudge on autumn nights",
+      "k": [
+        "without a telescope",
+        "smudge",
+        "autumn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "merger",
+      "tier": "giveaway",
+      "t": "Heading toward the Milky Way; the two may merge billions of years from now into a galaxy nicknamed “Milkomeda”",
+      "k": [
+        "merge",
+        "milkomeda"
+      ],
+      "n": 0
+    },
+    {
+      "id": "princess",
+      "tier": "giveaway",
+      "t": "Lies in the constellation named for the princess rescued by Perseus",
+      "k": [
+        "princess",
+        "perseus",
+        "constellation"
+      ],
+      "n": 0,
+      "rabbit": "Perseus"
+    },
+    {
+      "id": "hubble-cepheids",
+      "tier": "middle",
+      "t": "In the 1920s, Edwin Hubble found Cepheid variable stars in it, proving it lies far outside the Milky Way",
+      "k": [
+        "edwin hubble",
+        "cepheid",
+        "1920s"
+      ],
+      "n": 0,
+      "rabbit": "Edwin Hubble"
+    },
+    {
+      "id": "var",
+      "tier": "middle",
+      "t": "In October 1923, Hubble crossed out an “N” (for nova) on a photographic plate of it and wrote “VAR!”",
+      "k": [
+        "1923",
+        "nova",
+        "var"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-debate",
+      "tier": "middle",
+      "t": "In the 1920 Great Debate, Heber Curtis used its faint novae to argue that it lay far away; Harlow Shapley disagreed",
+      "k": [
+        "great debate",
+        "curtis",
+        "shapley"
+      ],
+      "n": 0
+    },
+    {
+      "id": "local-group",
+      "tier": "middle",
+      "t": "The largest member of the Local Group, which also includes the Milky Way and Triangulum",
+      "k": [
+        "local group",
+        "triangulum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "companions",
+      "tier": "middle",
+      "t": "Its small companions include the elliptical M32 and M110",
+      "k": [
+        "companions",
+        "m32",
+        "m110"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blueshift",
+      "tier": "middle",
+      "t": "In 1912, Vesto Slipher found that its light is blueshifted: it is rushing toward us at about 300 kilometers per second",
+      "k": [
+        "blueshifted",
+        "slipher",
+        "1912"
+      ],
+      "n": 0,
+      "rabbit": "Doppler effect"
+    },
+    {
+      "id": "al-sufi",
+      "tier": "middle",
+      "t": "Around 964 CE, the Persian astronomer al-Sufi called it a “little cloud” in his _Book of Fixed Stars_, the earliest known record of it",
+      "k": [
+        "al-sufi",
+        "little cloud",
+        "964"
+      ],
+      "n": 0
+    },
+    {
+      "id": "messier",
+      "tier": "middle",
+      "t": "Charles Messier added it to his catalog of fuzzy objects in 1764",
+      "k": [
+        "messier",
+        "1764"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rubin",
+      "tier": "middle",
+      "t": "In 1970, Vera Rubin and Kent Ford measured its flat rotation curve, key evidence for dark matter",
+      "k": [
+        "vera rubin",
+        "rotation curve",
+        "dark matter"
+      ],
+      "n": 0,
+      "rabbit": "Dark matter"
+    },
+    {
+      "id": "star-hopping",
+      "tier": "middle",
+      "t": "Found by star-hopping from the Great Square of Pegasus or the W of Cassiopeia; in photos it spans about six full Moons",
+      "k": [
+        "pegasus",
+        "cassiopeia",
+        "great square",
+        "six full moons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marius",
+      "tier": "power",
+      "t": "In 1612, Simon Marius first described it through a telescope, comparing it to a candle flame seen through horn",
+      "k": [
+        "simon marius",
+        "1612",
+        "candle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "supernova-1885",
+      "tier": "power",
+      "t": "In August 1885, a star flared up near its center: the first supernova ever seen beyond the Milky Way",
+      "k": [
+        "1885",
+        "supernova"
+      ],
+      "n": 0,
+      "rabbit": "Supernovae"
+    },
+    {
+      "id": "baade-populations",
+      "tier": "power",
+      "t": "During 1940s wartime blackouts, Walter Baade picked out stars in its center and divided stars into Populations I and II",
+      "k": [
+        "baade",
+        "blackouts",
+        "populations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "baade-1952",
+      "tier": "power",
+      "t": "In 1952, Baade found two kinds of Cepheids, roughly doubling its distance from Hubble’s estimate of nearly a million light-years",
+      "k": [
+        "1952",
+        "two kinds",
+        "doubling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-nucleus",
+      "tier": "power",
+      "t": "In 1993, the Hubble Space Telescope revealed its apparent double nucleus, a lopsided disk of stars around its central black hole",
+      "k": [
+        "double nucleus",
+        "1993"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stellar-stream",
+      "tier": "power",
+      "t": "A long stream of stars in its outskirts is the wreckage of a smaller neighbor it pulled apart; much of its star formation lies in a dusty ring",
+      "k": [
+        "stream",
+        "wreckage",
+        "dusty ring"
+      ],
+      "n": 0
+    },
+    {
+      "id": "isaac-roberts",
+      "tier": "power",
+      "t": "Isaac Roberts’s 1887 photographs first showed its spiral structure; he thought it was a new solar system forming",
+      "k": [
+        "isaac roberts",
+        "1887",
+        "solar system"
+      ],
+      "n": 0
+    },
+    {
+      "id": "neighbors",
+      "tier": "power",
+      "t": "Triangulum may be its satellite, and Mayall II, the brightest globular cluster in the Local Group, orbits it",
+      "k": [
+        "satellite",
+        "mayall",
+        "globular cluster"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mosaic",
+      "tier": "power",
+      "t": "In 2015, NASA released a Hubble mosaic of part of it showing more than 100 million of its stars",
+      "k": [
+        "mosaic",
+        "100 million",
+        "2015"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-hole",
+      "tier": "power",
+      "t": "The supermassive black hole at its center is far heavier than the one at the Milky Way’s center",
+      "k": [
+        "supermassive black hole",
+        "heavier"
+      ],
+      "n": 0,
+      "rabbit": "Black Holes"
+    },
+    {
+      "id": "m110",
+      "tier": "power",
+      "t": "Its companion M110, observed by Messier in 1773, was not officially added to his catalog until 1967",
+      "k": [
+        "m110",
+        "1967",
+        "1773"
+      ],
+      "n": 0
+    },
+    {
+      "id": "m32-core",
+      "tier": "power",
+      "t": "Its compact companion M32 may be the leftover core of a bigger galaxy that it tore apart",
+      "k": [
+        "leftover core",
+        "compact"
+      ],
+      "n": 0
+    },
+    {
+      "id": "odds-2025",
+      "tier": "power",
+      "t": "A 2025 study put the chance of a merger with the Milky Way within the next 10 billion years at only about 50 percent",
+      "k": [
+        "2025",
+        "50 percent",
+        "10 billion"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Galaxy, constellation, or princess?",
+    "body": "The word Andromeda names three different answer lines: this galaxy, the constellation it sits in, and the princess from Greek myth whom Perseus rescued. Players also mix it up with Triangulum, the smaller spiral nearby, and with the Milky Way, which it is heading toward. And a tossup about galaxies in general wants “galaxies,” not this one example.",
+    "fix": "“This galaxy” plus Hubble’s Cepheids, M32 and M110, al-Sufi’s “little cloud,” or a distance of 2.5 million light-years means the Andromeda Galaxy (M31). A tossup about a chained princess and a sea monster wants the myth; one about a pattern of stars beside Pegasus and Cassiopeia wants the constellation.",
+    "line": "Real answer line: <b><u>Andromeda</u></b> Galaxy (accept <u>M31</u> or <u>Messier 31</u>)"
+  },
+  "tests": {
+    "right": [
+      "Andromeda Galaxy",
+      "Andromeda",
+      "M31",
+      "Messier 31",
+      "Andromdea Galaxy",
+      "the Andromeda Nebula"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Milky Way",
+      "Triangulum Galaxy",
+      "Galaxies",
+      "M33",
+      "Andromeda constellation",
+      "Perseus"
+    ]
+  }
+}

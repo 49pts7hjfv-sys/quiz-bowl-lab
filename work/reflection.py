@@ -1,0 +1,365 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "reflection",
+    "name": "Reflection",
+    "mono": "RFL",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Waves bouncing off a surface · How mirrors and echoes work",
+    "dates": "Law known since ancient Greek times",
+    "briefing": "Reflection is what happens when a wave bounces off a surface instead of passing through it. A smooth mirror sends light away at the same angle it arrived, which keeps the image sharp, and sound bouncing off a canyon wall comes back as an echo. Even moonlight is just sunlight bouncing off the Moon’s surface.",
+    "answerHtml": "<b><u>reflection</u></b> (accept word forms like <u>reflect</u>ing; accept specific types such as <u>specular reflection</u>, <u>diffuse reflection</u>, or <u>total internal reflection</u>; do not accept “refraction” or “diffraction”)",
+    "accept": [
+        "reflection",
+        "reflections",
+        "reflect",
+        "reflects",
+        "reflecting",
+        "reflected",
+        "reflexion",
+        "law of reflection",
+        "angle of reflection",
+        "reflection of light",
+        "light reflection",
+        "sound reflection",
+        "wave reflection",
+        "specular reflection",
+        "diffuse reflection",
+        "regular reflection",
+        "mirror reflection",
+        "total internal reflection",
+        "internal reflection"
+    ],
+    "prompt": [],
+    "reject": [
+        "refraction",
+        "refractions",
+        "refracting",
+        "refract",
+        "diffraction",
+        "diffracting",
+        "deflection",
+        "inflection",
+        "reflex",
+        "reflexes",
+        "dispersion",
+        "scattering",
+        "absorption",
+        "transmission",
+        "interference",
+        "polarization",
+        "diffusion",
+        "rarefaction",
+        "mirror image",
+        "echolocation",
+        "albedo"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Reflection_(physics)",
+    "qb": {
+        "q": "reflection",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Apollo astronauts left panels of corner-cube prisms on the Moon that send laser light straight back toward Earth, letting scientists measure that the Moon drifts about 3.8 centimeters farther away each year. Bicycle and road-sign safety markers work the same way.",
+            "r": "For 10 points, name this bouncing of a wave off a surface, which lets you see yourself in a mirror."
+        },
+        {
+            "p": "Hero of Alexandria showed that light traveling from an object to a flat, polished surface and then to an eye takes the shortest possible route, an early version of Fermat’s principle. The incoming ray, the outgoing ray, and the line perpendicular to the surface, called the normal, all lie in one plane.",
+            "r": "For 10 points, name this effect described by a law stating that light leaves a mirror at the same angle at which it arrived."
+        },
+        {
+            "p": "At Brewster’s angle, light bouncing off a sheet of glass becomes completely polarized, and the bounced ray and the bent ray travel at right angles to each other. Polarized sunglasses cut glare because light bouncing off a flat road or lake is partly polarized.",
+            "r": "For 10 points, name this bouncing of light off a surface, which makes the image you see in a mirror."
+        },
+        {
+            "p": "The Fresnel [“fray-NEL”] equations give the fraction of light sent back at a boundary between two materials; for light hitting ordinary glass straight on, that fraction is only about 4 percent. That is why you can faintly see yourself in a shop window.",
+            "r": "A flat mirror uses this effect to make an upright image that seems to sit behind the glass. For 10 points, name this bouncing of a wave off a surface."
+        },
+        {
+            "p": "Coatings on eyeglasses and camera lenses are made about a quarter of a wavelength thick, so the light waves bouncing back from the top and bottom of each coating cancel out and glare is reduced. Stealth aircraft are shaped to send radar waves away from the receiver instead of back toward it.",
+            "r": "Smooth surfaces make a sharp “specular” kind of this effect. For 10 points, name this bouncing of light, which lets a mirror form an image."
+        },
+        {
+            "p": "A pulse sent along a rope tied to a wall comes back upside down, while a pulse on a rope with a loose end comes back right side up. Light picks up a similar half-wavelength flip when it bounces off a material in which it travels more slowly.",
+            "r": "Echoes are an example of this effect. For 10 points, name this bouncing of waves off a surface."
+        },
+        {
+            "p": "Past the critical angle, light inside glass cannot escape through the surface and all of it bounces back inside, which lets optical fibers carry signals over long distances. The same trick makes a cut diamond sparkle and lets prisms fold the light path inside binoculars.",
+            "r": "For 10 points, name this bouncing of light off a surface, which is how a mirror works."
+        },
+        {
+            "p": "A layer behind the retina called the tapetum lucidum [“tuh-PEE-tum LOO-sih-dum”] makes the eyes of cats and deer glow in headlights by sending light back through the eye. Road markers called “cat’s eyes” use glass beads or prisms to send headlight beams back toward drivers.",
+            "r": "For 10 points, name this effect, in which a wave bounces off a surface, as light does from a mirror."
+        },
+        {
+            "p": "In 1668, Isaac Newton built a telescope that gathered light with a curved metal dish instead of a glass lens, which avoided the colored fringes that lenses create. Large modern telescopes, like the James Webb Space Telescope, also collect light with curved, gold-coated surfaces.",
+            "r": "Those telescopes depend on this effect. For 10 points, name this bouncing of light off a surface, which lets a mirror form an image."
+        },
+        {
+            "p": "David Brewster patented the kaleidoscope in 1817; its endlessly repeating patterns come from light bouncing back and forth between two or three long, shiny strips set at an angle. Submarine crews use periscopes, which bounce light off two surfaces tilted at 45 degrees, to look above the water.",
+            "r": "Both devices rely on mirrors. For 10 points, name this effect in which light bounces off a surface."
+        },
+        {
+            "p": "A surface’s albedo is the fraction of sunlight it sends back; fresh snow has a very high albedo, and dark ocean water has a low one. Saturn’s icy moon Enceladus [“en-SEL-uh-dus”] sends back most of the sunlight that hits it.",
+            "r": "For 10 points, name this bouncing of light off a surface, which lets you see yourself in a mirror."
+        },
+        {
+            "p": "Leonardo da Vinci correctly explained the faint glow on the dark part of a crescent Moon, called earthshine, as sunlight bounced off Earth and then off the Moon. Ordinary moonlight is also just sunlight sent back by the Moon’s surface.",
+            "r": "Because of this effect, drivers can read the backward word “AMBULANCE” on an ambulance’s front in their rearview mirrors. For 10 points, name this bouncing of light off a surface."
+        },
+        {
+            "p": "Legends claim that Archimedes used polished bronze shields to focus sunlight and set Roman ships on fire during the siege of Syracuse. Solar power towers use fields of shiny panels to aim sunlight at one spot in the same way.",
+            "r": "For 10 points, name this effect in which light bounces off a shiny surface, such as a mirror."
+        },
+        {
+            "p": "A car headlight puts its bulb at the focus of a curved, bowl-shaped surface, so the light leaves in a parallel beam; a satellite dish works the same way in reverse. For a spherical curve, that focus lies halfway between the surface and its center of curvature.",
+            "r": "Concave and convex mirrors both rely on this effect. For 10 points, name this bouncing of light off a surface."
+        },
+        {
+            "p": "In the Whispering Gallery of St. Paul’s Cathedral in London, a whisper near the curved wall can be heard far across the dome because the sound keeps bouncing along the wall. Bats and dolphins find food by listening for sounds that come back to them.",
+            "r": "Those returning sounds are echoes. For 10 points, name this bouncing of a wave off a surface."
+        }
+    ],
+    "clues": [
+        {
+            "id": "bounce",
+            "tier": "giveaway",
+            "t": "A wave bouncing off a surface instead of passing through it",
+            "k": ["bouncing", "surface"],
+            "n": 0
+        },
+        {
+            "id": "equal-angles",
+            "tier": "giveaway",
+            "t": "Its law: a wave leaves at the same angle at which it arrives (the angle of incidence), both measured from the normal",
+            "k": ["angle of incidence", "same angle", "normal"],
+            "n": 0
+        },
+        {
+            "id": "mirrors",
+            "tier": "giveaway",
+            "t": "How mirrors form images, letting you see yourself",
+            "k": ["mirrors", "images"],
+            "n": 0
+        },
+        {
+            "id": "echoes",
+            "tier": "giveaway",
+            "t": "Sound bouncing back off a wall or a cliff is an echo",
+            "k": ["echo", "sound"],
+            "n": 0
+        },
+        {
+            "id": "moonlight",
+            "tier": "giveaway",
+            "t": "Moonlight is just sunlight sent back by the Moon’s surface",
+            "k": ["moonlight", "sunlight"],
+            "n": 0,
+            "rabbit": "The Moon"
+        },
+        {
+            "id": "specular-diffuse",
+            "tier": "middle",
+            "t": "Smooth surfaces give a sharp “specular” kind; rough surfaces give a “diffuse” kind that sends light off in every direction",
+            "k": ["specular", "diffuse", "rough surfaces"],
+            "n": 0
+        },
+        {
+            "id": "flat-mirror-image",
+            "tier": "middle",
+            "t": "A flat mirror makes an upright, virtual image that seems to sit as far behind the glass as the object is in front",
+            "k": ["virtual", "upright", "flat mirror"],
+            "n": 0
+        },
+        {
+            "id": "ambulance",
+            "tier": "middle",
+            "t": "“AMBULANCE” is printed backward on ambulances so drivers ahead can read it in their rearview mirrors",
+            "k": ["ambulance", "backward", "rearview"],
+            "n": 0
+        },
+        {
+            "id": "periscope",
+            "tier": "middle",
+            "t": "Periscopes bounce light off two surfaces tilted at 45 degrees so submarine crews can see above the water",
+            "k": ["periscopes", "45 degrees", "submarine"],
+            "n": 0
+        },
+        {
+            "id": "curved-mirrors",
+            "tier": "middle",
+            "t": "Concave mirrors focus light (headlights, satellite dishes); convex mirrors give a wide view, like car side mirrors",
+            "k": ["concave", "convex", "satellite dishes"],
+            "n": 0
+        },
+        {
+            "id": "echolocation",
+            "tier": "middle",
+            "t": "Bats and dolphins find food by echolocation; ships’ sonar times echoes to measure ocean depth",
+            "k": ["echolocation", "sonar", "bats"],
+            "n": 0
+        },
+        {
+            "id": "critical-angle",
+            "tier": "middle",
+            "t": "Past the critical angle, light inside glass bounces back completely, trapping it in optical fibers and making diamonds sparkle",
+            "k": ["critical angle", "optical fibers", "diamonds"],
+            "n": 0,
+            "rabbit": "Refraction"
+        },
+        {
+            "id": "sunglasses",
+            "tier": "middle",
+            "t": "Polarized sunglasses cut glare because light bouncing off flat roads or lakes is partly polarized",
+            "k": ["polarized sunglasses", "glare"],
+            "n": 0
+        },
+        {
+            "id": "newton-telescope",
+            "tier": "middle",
+            "t": "Isaac Newton’s 1668 telescope used a curved metal mirror instead of a lens, avoiding colored fringes",
+            "k": ["1668", "isaac newton", "telescope"],
+            "n": 0,
+            "rabbit": "Isaac Newton"
+        },
+        {
+            "id": "apollo",
+            "tier": "power",
+            "t": "Apollo astronauts left corner-cube prisms on the Moon; lasers bounced off them show the Moon drifts about 3.8 centimeters farther away each year",
+            "k": ["apollo", "corner-cube", "3.8 centimeters"],
+            "n": 0
+        },
+        {
+            "id": "hero",
+            "tier": "power",
+            "t": "Hero of Alexandria showed that light bouncing off a flat surface takes the shortest possible route, an early form of Fermat’s principle",
+            "k": ["hero of alexandria", "shortest", "fermat"],
+            "n": 0
+        },
+        {
+            "id": "one-plane",
+            "tier": "power",
+            "t": "The incoming ray, the outgoing ray, and the normal all lie in one plane",
+            "k": ["one plane", "incoming ray"],
+            "n": 0
+        },
+        {
+            "id": "brewster-angle",
+            "tier": "power",
+            "t": "At Brewster’s angle, light bouncing off glass is completely polarized, and the bounced and bent rays are at right angles",
+            "k": ["brewster’s angle", "completely polarized", "right angles"],
+            "n": 0
+        },
+        {
+            "id": "fresnel",
+            "tier": "power",
+            "t": "The Fresnel equations give how much light bounces back at a boundary; ordinary glass sends back about 4 percent head-on",
+            "k": ["fresnel equations", "4 percent"],
+            "n": 0
+        },
+        {
+            "id": "coatings",
+            "tier": "power",
+            "t": "Quarter-wavelength coatings on lenses make the waves bouncing off their top and bottom cancel, reducing glare",
+            "k": ["quarter-wavelength", "coatings", "cancel"],
+            "n": 0
+        },
+        {
+            "id": "rope-flip",
+            "tier": "power",
+            "t": "A pulse on a rope tied to a wall comes back upside down; light flips by half a wavelength off a material where it travels slower",
+            "k": ["upside down", "half a wavelength", "rope"],
+            "n": 0
+        },
+        {
+            "id": "tapetum",
+            "tier": "power",
+            "t": "The tapetum lucidum behind the retina makes cats’ eyes glow in headlights; road markers called “cat’s eyes” also send beams back",
+            "k": ["tapetum lucidum", "retina", "glow"],
+            "n": 0
+        },
+        {
+            "id": "albedo",
+            "tier": "power",
+            "t": "Albedo is the fraction of sunlight a surface sends back: high for fresh snow and for Saturn’s icy moon Enceladus, low for dark ocean water",
+            "k": ["albedo", "enceladus", "fresh snow"],
+            "n": 0
+        },
+        {
+            "id": "earthshine",
+            "tier": "power",
+            "t": "Leonardo da Vinci explained earthshine, the faint glow on a crescent Moon’s dark part, as sunlight bounced off Earth",
+            "k": ["earthshine", "leonardo da vinci", "crescent"],
+            "n": 0
+        },
+        {
+            "id": "archimedes",
+            "tier": "power",
+            "t": "Legends say Archimedes used polished bronze shields to set Roman ships on fire at Syracuse",
+            "k": ["archimedes", "syracuse", "bronze shields"],
+            "n": 0
+        },
+        {
+            "id": "whispering-gallery",
+            "tier": "power",
+            "t": "In the Whispering Gallery of St. Paul’s Cathedral, a whisper carries far across the dome by bouncing along the curved wall",
+            "k": ["whispering gallery", "st. paul’s"],
+            "n": 0
+        },
+        {
+            "id": "kaleidoscope",
+            "tier": "power",
+            "t": "David Brewster patented the kaleidoscope in 1817; its patterns come from two or three angled mirrors",
+            "k": ["kaleidoscope", "david brewster", "1817"],
+            "n": 0
+        },
+        {
+            "id": "focus-halfway",
+            "tier": "power",
+            "t": "A spherical mirror’s focus lies halfway between the mirror and its center of curvature",
+            "k": ["halfway", "center of curvature", "focus"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Bounce, bend, or spread?",
+        "body": "Reflection, refraction, and diffraction sound alike and all describe a wave meeting something, so real tossups are strict about which one they want. Reflection is a wave bouncing back off a surface and staying in the same material. Refraction is bending as the wave crosses into a new material and changes speed, and diffraction is spreading around an edge or through a narrow opening.",
+        "fix": "Mirrors, echoes, equal angles, albedo, or light sent back the way it came mean reflection. A bent straw, lenses, Snell’s law, or a prism means refraction; slits, gratings, Bragg’s law, or sound bending around corners means diffraction.",
+        "line": "Real answer line: <b><u>reflection</u></b> (accept word forms like <u>reflect</u>ing; accept specific types such as <u>specular reflection</u>, <u>diffuse reflection</u>, or <u>total internal reflection</u>; do not accept “refraction” or “diffraction”)"
+    },
+    "tests": {
+        "right": [
+            "Reflection",
+            "reflecting",
+            "Law of reflection",
+            "Total internal reflection",
+            "Diffuse reflection",
+            "Relfection"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Refraction",
+            "Diffraction",
+            "Deflection",
+            "Dispersion",
+            "Scattering"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

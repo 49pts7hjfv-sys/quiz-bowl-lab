@@ -1,0 +1,434 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "asteroids",
+    "name": "Asteroids",
+    "mono": "AST",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Rocky leftovers of the early solar system · Most orbit between Mars and Jupiter",
+    "dates": "First one found 1801 (Ceres)",
+    "briefing": "Asteroids are rocky, airless leftovers from the birth of the solar system, and most of them circle the Sun in the asteroid belt between Mars and Jupiter. They range from boulders to Ceres, which is about 940 kilometers across. One asteroid’s impact 66 million years ago helped wipe out the dinosaurs, so in 2022 NASA tested a defense: it crashed its DART spacecraft into a small asteroid and changed its orbit.",
+    "answerHtml": "<b><u>Asteroids</u></b> (accept <u>asteroid</u> belt or <u>minor planet</u>s; do not accept “comets” or “meteors”)",
+    "accept": [
+        "asteroid",
+        "asteroids",
+        "asteroid belt",
+        "minor planet",
+        "minor planets",
+        "planetoid",
+        "planetoids"
+    ],
+    "prompt": [],
+    "reject": [
+        "comet",
+        "comets",
+        "meteor",
+        "meteors",
+        "meteoroid",
+        "meteoroids",
+        "meteorite",
+        "meteorites",
+        "dwarf planet",
+        "dwarf planets",
+        "kuiper belt",
+        "oort cloud",
+        "ceres",
+        "centaurs"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Asteroid",
+    "qb": {
+        "q": "asteroid",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Carl Friedrich Gauss became famous for working out the orbit of the first of these objects after it vanished into the Sun’s glare, so that astronomers could find it again. Giuseppe Piazzi [“pee-AHT-see”] had spotted that object from Palermo, Sicily, on January 1, 1801, the first night of the 19th century.",
+            "r": "That object is Ceres. For 10 points, name these rocky bodies, most of which orbit the Sun between Mars and Jupiter."
+        },
+        {
+            "p": "Heinrich Olbers, who found two of the earliest of these objects, suggested that they were pieces of a planet that had broken apart. William Herschel named them from a Greek word meaning “star-like,” because even through a telescope they looked like tiny points of light.",
+            "r": "For 10 points, name these rocky bodies, which are found mostly in a belt between Mars and Jupiter."
+        },
+        {
+            "p": "Daniel Kirkwood noticed gaps in this region where an object’s orbit would match up evenly with Jupiter’s, such as circling the Sun exactly three times for every one orbit of Jupiter. Jupiter’s repeated tugs have cleared out those lanes.",
+            "r": "For 10 points, name this region of rocky bodies between the orbits of Mars and Jupiter."
+        },
+        {
+            "p": "One of these objects, Dinkinesh, turned out to have a tiny moon when a NASA probe named for a famous fossil skeleton flew past it in 2023. That probe, Lucy, launched in 2021 to visit groups of these objects that travel ahead of and behind Jupiter in its orbit.",
+            "r": "Most of these objects orbit between Mars and Jupiter, but the Trojans share Jupiter’s orbit. For 10 points, name these rocky bodies."
+        },
+        {
+            "p": "On September 26, 2022, NASA deliberately crashed its DART spacecraft into Dimorphos [“dye-MOR-fus”], the small moon of one of these objects, Didymos [“DID-ih-mos”]. The crash shortened Dimorphos’s orbit by about 32 minutes, the first test of a way to protect Earth from impacts.",
+            "r": "For 10 points, name these rocky bodies, one of which helped wipe out the dinosaurs."
+        },
+        {
+            "p": "Luis and Walter Alvarez found a thin clay layer rich in iridium, a metal that is rare in Earth’s crust but more common in these objects, and argued in 1980 that one of them had struck Earth. The crater it left, Chicxulub [“CHEEK-shoo-loob”], lies buried under Mexico’s Yucatán Peninsula.",
+            "r": "For 10 points, name these rocky bodies, one of which helped end the age of dinosaurs 66 million years ago."
+        },
+        {
+            "p": "Japan’s Hayabusa [“hah-yah-BOO-sah”] probe brought back the first sample from one of these objects, Itokawa, in 2010. In 2023, a capsule from NASA’s OSIRIS-REx parachuted into the Utah desert carrying rocks and dust from another one, Bennu.",
+            "r": "For 10 points, name these rocky bodies, most of which orbit the Sun between Mars and Jupiter."
+        },
+        {
+            "p": "One of these objects, Vesta, has a giant crater with one of the tallest mountains in the solar system at its center, and it is the brightest of these objects in our sky. NASA’s Dawn probe used ion engines to orbit Vesta and then Ceres.",
+            "r": "Dawn was the first spacecraft to orbit two different worlds beyond Earth. For 10 points, name these rocky bodies, whose largest member, Ceres, is also called a dwarf planet."
+        },
+        {
+            "p": "In 1991, the Galileo spacecraft made the first close flyby of one of these objects, Gaspra, on its way to Jupiter. Two years later, Galileo photographed another one, Ida, and revealed the first known moon of one of these objects, a little body later named Dactyl.",
+            "r": "For 10 points, name these rocky bodies, most of which lie in a belt between Mars and Jupiter."
+        },
+        {
+            "p": "In 2001, the NEAR Shoemaker probe became the first spacecraft to land on one of these objects, Eros, after orbiting it for a year. Eros, discovered in 1898, was the first of these objects found that comes close to Earth’s orbit.",
+            "r": "For 10 points, name these rocky bodies, some of which are called near-Earth objects."
+        },
+        {
+            "p": "In 2004, one of these objects named for an Egyptian serpent of chaos briefly reached level 4 on the Torino [“tuh-REE-noh”] scale of impact danger, the highest rating given to any object as of 2025. That object, Apophis [“uh-POF-iss”], will safely pass closer to Earth than some satellites on April 13, 2029.",
+            "r": "Many of these objects are watched closely because their orbits come near Earth’s. For 10 points, name these rocky bodies, most of which orbit between Mars and Jupiter."
+        },
+        {
+            "p": "Astronomers sort these objects by their colors and spectra into dark, carbon-rich C-types, which are the most common, stony S-types, and metal-rich M-types. In 2023, NASA launched a probe named Psyche toward a metal-rich one of these objects with the same name.",
+            "r": "For 10 points, name these rocky bodies, most of which orbit between Mars and Jupiter."
+        },
+        {
+            "p": "In February 2013, one of these objects about 20 meters wide exploded high above Chelyabinsk [“chel-YAH-binsk”], Russia, and its shock wave shattered windows across the city. A yearly awareness day about these objects is held on June 30, the anniversary of a bigger 1908 blast over Tunguska, Siberia.",
+            "r": "These objects are larger than meteoroids but smaller than planets. For 10 points, name these rocky bodies, most of which orbit the Sun between Mars and Jupiter."
+        },
+        {
+            "p": "A rule called the Titius–Bode law predicted a missing planet between Mars and Jupiter, so astronomers formed a search team nicknamed the “Celestial Police.” Members of that team found three of these objects, Pallas, Juno, and Vesta, between 1802 and 1807.",
+            "r": "Ceres, found in 1801, came first. For 10 points, name these rocky bodies of the inner solar system."
+        },
+        {
+            "p": "Pioneer 10 became the first spacecraft to cross this region, in 1972 and 1973, and many probes have flown through it since without hitting anything, because its objects are spread so far apart. All of them together have only a few percent of the mass of Earth’s Moon.",
+            "r": "Jupiter’s gravity kept its objects from ever forming a planet. For 10 points, name this region of rocky bodies between Mars and Jupiter."
+        }
+    ],
+    "clues": [
+        {
+            "id": "belt",
+            "tier": "giveaway",
+            "t": "Most orbit the Sun in a belt between Mars and Jupiter",
+            "k": [
+                "mars and jupiter",
+                "belt"
+            ],
+            "n": 0
+        },
+        {
+            "id": "leftovers",
+            "tier": "giveaway",
+            "t": "Rocky or metallic, airless leftovers from the formation of the solar system",
+            "k": [
+                "leftovers",
+                "rocky",
+                "airless"
+            ],
+            "n": 0
+        },
+        {
+            "id": "ceres-first",
+            "tier": "giveaway",
+            "t": "Ceres, the largest one and the first one found, is also called a dwarf planet",
+            "k": [
+                "ceres",
+                "dwarf planet",
+                "largest"
+            ],
+            "n": 0,
+            "rabbit": "Ceres"
+        },
+        {
+            "id": "dinosaurs",
+            "tier": "giveaway",
+            "t": "One that hit Earth 66 million years ago helped wipe out the dinosaurs",
+            "k": [
+                "dinosaurs",
+                "66 million"
+            ],
+            "n": 0,
+            "rabbit": "Cretaceous period"
+        },
+        {
+            "id": "not-comets",
+            "tier": "giveaway",
+            "t": "Unlike icy comets, they are rocky and usually have no tails; pieces smaller than about a meter are called meteoroids",
+            "k": [
+                "comets",
+                "meteoroids",
+                "no tails"
+            ],
+            "n": 0,
+            "rabbit": "Comets"
+        },
+        {
+            "id": "piazzi",
+            "tier": "middle",
+            "t": "Giuseppe Piazzi found Ceres from Palermo, Sicily, on January 1, 1801",
+            "k": [
+                "piazzi",
+                "palermo",
+                "january 1"
+            ],
+            "n": 0
+        },
+        {
+            "id": "gauss",
+            "tier": "middle",
+            "t": "Carl Friedrich Gauss calculated Ceres’s orbit so astronomers could find it again",
+            "k": [
+                "gauss",
+                "find it again"
+            ],
+            "n": 0,
+            "rabbit": "Carl Friedrich Gauss"
+        },
+        {
+            "id": "herschel-name",
+            "tier": "middle",
+            "t": "William Herschel named them from a Greek word for “star-like,” since they look like points of light",
+            "k": [
+                "herschel",
+                "star-like"
+            ],
+            "n": 0
+        },
+        {
+            "id": "kirkwood",
+            "tier": "middle",
+            "t": "Kirkwood gaps: empty lanes in the belt, cleared by Jupiter’s repeated tugs (orbital resonances)",
+            "k": [
+                "kirkwood gaps",
+                "kirkwood",
+                "resonances"
+            ],
+            "n": 0,
+            "rabbit": "Jupiter"
+        },
+        {
+            "id": "trojans-lucy",
+            "tier": "middle",
+            "t": "Trojans travel ahead of and behind Jupiter in its orbit; NASA’s Lucy probe (launched 2021) is visiting them",
+            "k": [
+                "trojans",
+                "lucy",
+                "2021"
+            ],
+            "n": 0
+        },
+        {
+            "id": "dart",
+            "tier": "middle",
+            "t": "NASA’s DART spacecraft crashed into Dimorphos, the moon of Didymos, in 2022, shortening its orbit by about 32 minutes",
+            "k": [
+                "dart",
+                "dimorphos",
+                "didymos",
+                "32 minutes"
+            ],
+            "n": 0
+        },
+        {
+            "id": "chicxulub-alvarez",
+            "tier": "middle",
+            "t": "Luis and Walter Alvarez (1980) used an iridium-rich clay layer to argue for an impact; its crater, Chicxulub, is under Mexico’s Yucatán",
+            "k": [
+                "alvarez",
+                "iridium",
+                "chicxulub",
+                "yucatán"
+            ],
+            "n": 0
+        },
+        {
+            "id": "sample-return",
+            "tier": "middle",
+            "t": "Samples brought to Earth: Japan’s Hayabusa (Itokawa, 2010) and Hayabusa2 (Ryugu, 2020), and NASA’s OSIRIS-REx (Bennu, 2023)",
+            "k": [
+                "hayabusa",
+                "osiris-rex",
+                "bennu",
+                "itokawa"
+            ],
+            "n": 0
+        },
+        {
+            "id": "dawn-vesta",
+            "tier": "middle",
+            "t": "NASA’s Dawn orbited Vesta (2011–2012), the brightest one in our sky, and then Ceres (2015–2018)",
+            "k": [
+                "dawn",
+                "vesta"
+            ],
+            "n": 0
+        },
+        {
+            "id": "olbers",
+            "tier": "power",
+            "t": "Heinrich Olbers found Pallas (1802) and Vesta (1807) and guessed they were pieces of a broken planet",
+            "k": [
+                "olbers",
+                "pallas",
+                "broken planet"
+            ],
+            "n": 0
+        },
+        {
+            "id": "celestial-police",
+            "tier": "power",
+            "t": "The Titius–Bode law predicted a planet between Mars and Jupiter, so the “Celestial Police” searched there; Juno was found in 1804",
+            "k": [
+                "titius–bode",
+                "celestial police",
+                "juno"
+            ],
+            "n": 0
+        },
+        {
+            "id": "gaspra-ida",
+            "tier": "power",
+            "t": "The Galileo probe made the first close flyby of one, Gaspra (1991), and found Dactyl, the first known moon of one, circling Ida (1993)",
+            "k": [
+                "gaspra",
+                "dactyl",
+                "ida"
+            ],
+            "n": 0
+        },
+        {
+            "id": "near-eros",
+            "tier": "power",
+            "t": "NEAR Shoemaker orbited Eros and landed on it in 2001; Eros (found 1898) was the first near-Earth one discovered",
+            "k": [
+                "near shoemaker",
+                "eros",
+                "1898"
+            ],
+            "n": 0
+        },
+        {
+            "id": "apophis",
+            "tier": "power",
+            "t": "Apophis, named for an Egyptian serpent of chaos, reached level 4 on the Torino scale in 2004; it will pass closer than some satellites on April 13, 2029",
+            "k": [
+                "apophis",
+                "torino scale",
+                "2029"
+            ],
+            "n": 0
+        },
+        {
+            "id": "types",
+            "tier": "power",
+            "t": "Sorted into C-types (dark and carbon-rich, the most common), S-types (stony), and M-types (metallic)",
+            "k": [
+                "c-types",
+                "s-types",
+                "m-types",
+                "carbon-rich"
+            ],
+            "n": 0
+        },
+        {
+            "id": "psyche",
+            "tier": "power",
+            "t": "NASA’s Psyche probe (launched 2023) is headed to a metal-rich one with the same name",
+            "k": [
+                "psyche",
+                "metal-rich"
+            ],
+            "n": 0
+        },
+        {
+            "id": "lucy-dinkinesh",
+            "tier": "power",
+            "t": "On its way to the Trojans, Lucy flew past Dinkinesh (2023) and found that it has a tiny moon",
+            "k": [
+                "dinkinesh",
+                "tiny moon"
+            ],
+            "n": 0
+        },
+        {
+            "id": "chelyabinsk",
+            "tier": "power",
+            "t": "One about 20 meters wide exploded over Chelyabinsk, Russia, in February 2013, shattering windows",
+            "k": [
+                "chelyabinsk",
+                "2013",
+                "windows"
+            ],
+            "n": 0
+        },
+        {
+            "id": "tunguska",
+            "tier": "power",
+            "t": "Their yearly awareness day, June 30, marks the 1908 Tunguska blast in Siberia, which flattened about 80 million trees",
+            "k": [
+                "tunguska",
+                "june 30",
+                "1908"
+            ],
+            "n": 0
+        },
+        {
+            "id": "pioneer-10",
+            "tier": "power",
+            "t": "Pioneer 10 was the first spacecraft to cross the belt (1972–1973); its objects are so spread out that probes fly through safely",
+            "k": [
+                "pioneer 10",
+                "spread out"
+            ],
+            "n": 0
+        },
+        {
+            "id": "belt-mass",
+            "tier": "power",
+            "t": "All of the belt’s objects together have only a few percent of the mass of Earth’s Moon",
+            "k": [
+                "few percent",
+                "mass"
+            ],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Asteroid, comet, or meteor?",
+        "body": "Asteroids get mixed up with icy comets and with meteors, the streaks of light made when small bits of space rock burn up in Earth’s air. A piece smaller than about a meter is a meteoroid, and one that reaches the ground is a meteorite. Ceres is another trap: it is the biggest object in the asteroid belt, but it is also a dwarf planet with an answer line of its own.",
+        "fix": "Rocky or metal bodies between Mars and Jupiter, the Trojans, Kirkwood gaps, DART, and sample-return missions like Hayabusa and OSIRIS-REx mean asteroids. A coma or a tail means comets; a streak of light in the sky means a meteor. If the question says “these objects,” give the whole group, not Ceres or Vesta.",
+        "line": "Real answer line: <b><u>Asteroids</u></b> (accept <u>asteroid</u> belt or <u>minor planet</u>s; do not accept “comets” or “meteors”)"
+    },
+    "tests": {
+        "right": [
+            "Asteroids",
+            "asteroid",
+            "Astroids",
+            "Asteroid belt",
+            "Minor planets",
+            "near-Earth asteroids"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Comets",
+            "Meteors",
+            "Meteorite",
+            "Meteroids",
+            "Ceres",
+            "Kuiper Belt"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

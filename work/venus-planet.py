@@ -1,0 +1,440 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "venus-planet",
+    "name": "Venus (planet)",
+    "mono": "VEN",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Hottest planet in the solar system · Earth’s cloudy, scorching twin",
+    "dates": "Known since ancient times; first visited by Mariner 2 in 1962",
+    "briefing": "Venus is almost the same size as Earth, but it is the hottest planet in the solar system, even hotter than Mercury, with a surface temperature of about 465°C (870°F). Its thick carbon dioxide air traps heat in a runaway greenhouse effect and presses down more than 90 times as hard as Earth’s air. It also spins backward, so slowly that one rotation takes longer than its year.",
+    "answerHtml": "<b><u>Venus</u></b>",
+    "accept": [
+        "venus",
+        "planet venus"
+    ],
+    "prompt": [],
+    "reject": [
+        "aphrodite",
+        "birth of venus",
+        "venus de milo",
+        "venus of willendorf",
+        "venus flytrap",
+        "venus fly trap",
+        "venera",
+        "mercury",
+        "mars",
+        "ishtar"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Venus",
+    "qb": {
+        "q": "Venus",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1982, the Soviet lander Venera 13 took the first color photos of this planet’s surface and lasted 127 minutes in the crushing heat. Twelve years earlier, Venera 7 had become the first spacecraft to send back data from the surface of another planet when it landed here.",
+            "r": "For 10 points, name this second planet from the Sun, the hottest planet in the solar system."
+        },
+        {
+            "p": "In 1610, Galileo saw this planet go through a full set of phases, from a thin crescent to nearly full, much like the Moon. Ptolemy’s Earth-centered model could not explain those phases, so they supported Copernicus’s idea that the planets orbit the Sun.",
+            "r": "It is often called the Morning Star or the Evening Star. For 10 points, name this planet, the brightest one in the night sky."
+        },
+        {
+            "p": "James Cook sailed to Tahiti in 1769 to time a rare event in which this planet crosses in front of the Sun, a measurement meant to reveal the Sun’s distance. The next pair of such events is due in 2117 and 2125.",
+            "r": "Those transits come in pairs eight years apart, such as 2004 and 2012. For 10 points, name this planet, the second from the Sun."
+        },
+        {
+            "p": "Jeremiah Horrocks was the first person known to watch this planet pass in front of the Sun, in 1639. During a later transit in 1761, Mikhail Lomonosov [“luh-muh-NOH-sof”] saw a glowing ring around this planet and concluded that it has an atmosphere.",
+            "r": "For 10 points, name this planet, sometimes called Earth’s twin because of its similar size."
+        },
+        {
+            "p": "Nearly every feature on this planet is named for a woman, real or mythical; one exception is its tallest mountain range, Maxwell Montes, named for physicist James Clerk Maxwell. NASA’s Magellan orbiter mapped nearly all of this planet with radar in the early 1990s.",
+            "r": "Magellan used radar because thick clouds hide this planet’s surface. For 10 points, name this planet, the second from the Sun."
+        },
+        {
+            "p": "Raised regions on this planet named Ishtar Terra and Aphrodite Terra honor goddesses of love from Babylonian and Greek myth. This planet also has ring-shaped features called coronae [“kuh-ROH-nee”] and flat-topped volcanic mounds nicknamed “pancake domes.”",
+            "r": "For 10 points, name this planet, whose surface is hidden by thick clouds of sulfuric acid."
+        },
+        {
+            "p": "This planet spins backward compared with most planets, so the Sun rises in the west there. It spins so slowly that one rotation takes about 243 Earth days, longer than the 225 days it takes to orbit the Sun.",
+            "r": "For 10 points, name this planet with no moons, the second from the Sun."
+        },
+        {
+            "p": "Winds at the cloud tops of this planet whip all the way around it in about four Earth days, far faster than the planet itself turns. At the surface, the air presses down about 92 times as hard as on Earth, like being nearly a kilometer deep in the ocean.",
+            "r": "For 10 points, name this planet, whose thick carbon dioxide atmosphere makes it the hottest in the solar system."
+        },
+        {
+            "p": "In 1962, NASA’s Mariner 2 made the first successful flyby of another planet when it passed this one and measured its scorching temperature. Japan’s Akatsuki orbiter missed its first try at entering orbit around this planet in 2010, but it succeeded in 2015.",
+            "r": "Its clouds reflect so much sunlight that it shines brighter than any other planet. For 10 points, name this planet, the hottest in the solar system."
+        },
+        {
+            "p": "Ancient Greeks once thought this planet was two different objects: Phosphorus, which rose before the Sun, and Hesperus, which appeared after sunset. It can shine so brightly that it casts faint shadows on very dark nights.",
+            "r": "It is named for the Roman goddess of love. For 10 points, name this planet, often called the Morning Star and the Evening Star."
+        },
+        {
+            "p": "Gustav Holst’s _The Planets_ calls this planet “the Bringer of Peace,” and the French word for Friday, “vendredi,” comes from this planet’s Latin name. Its astronomical symbol, a circle above a small cross, is also used as the symbol for female.",
+            "r": "For 10 points, name this planet, named for the Roman goddess of love and beauty."
+        },
+        {
+            "p": "Carl Sagan argued in the early 1960s that heat trapped by this planet’s thick atmosphere explained why radio telescopes measured it as so hot. Its surface is hot enough to melt lead, and as of 2025 no lander there had lasted much more than two hours.",
+            "r": "That runaway greenhouse effect, caused by carbon dioxide, makes it the hottest planet. For 10 points, name this planet, which is hotter than Mercury even though it is farther from the Sun."
+        },
+        {
+            "p": "In 2020, a team led by Jane Greaves announced that they had detected phosphine, a gas that might hint at life, high in this planet’s clouds, but other scientists have challenged the finding. Those clouds are made of droplets of sulfuric acid.",
+            "r": "Its thick carbon dioxide air makes it the hottest planet. For 10 points, name this second planet from the Sun."
+        },
+        {
+            "p": "The Maya tracked this planet’s 584-day cycle of appearances in careful tables preserved in the Dresden Codex, and Babylonian astronomers recorded its risings and settings on clay tablets. Like Mercury, it never strays far from the Sun in our sky.",
+            "r": "It is usually seen in the morning or evening sky. For 10 points, name this planet, the brightest object in the night sky after the Moon."
+        },
+        {
+            "p": "In 2023, scientists found a volcanic vent on this planet that had changed shape between radar images taken eight months apart in 1991, strong evidence of an active volcano. That vent lies on Maat Mons, this planet’s tallest volcano.",
+            "r": "This planet is close to Earth in size and mass. For 10 points, name this planet, often called Earth’s twin."
+        }
+    ],
+    "clues": [
+        {
+            "id": "hottest",
+            "tier": "giveaway",
+            "t": "The hottest planet, about 465°C (870°F) at the surface, even hotter than Mercury",
+            "k": [
+                "hottest planet",
+                "465",
+                "hotter than mercury"
+            ],
+            "n": 0
+        },
+        {
+            "id": "greenhouse",
+            "tier": "giveaway",
+            "t": "Its thick carbon dioxide atmosphere traps heat in a runaway greenhouse effect",
+            "k": [
+                "carbon dioxide",
+                "greenhouse effect",
+                "runaway"
+            ],
+            "n": 0
+        },
+        {
+            "id": "earths-twin",
+            "tier": "giveaway",
+            "t": "Second planet from the Sun; nearly the same size and mass as Earth, so it is called Earth’s twin",
+            "k": [
+                "second planet",
+                "twin",
+                "same size"
+            ],
+            "n": 0
+        },
+        {
+            "id": "morning-star",
+            "tier": "giveaway",
+            "t": "The brightest planet in the sky, called the Morning Star or the Evening Star",
+            "k": [
+                "morning star",
+                "evening star",
+                "brightest planet"
+            ],
+            "n": 0
+        },
+        {
+            "id": "goddess",
+            "tier": "giveaway",
+            "t": "Named for the Roman goddess of love and beauty, the counterpart of the Greek Aphrodite",
+            "k": [
+                "goddess of love",
+                "aphrodite"
+            ],
+            "n": 0,
+            "rabbit": "Aphrodite"
+        },
+        {
+            "id": "retrograde",
+            "tier": "middle",
+            "t": "Spins backward compared with most planets, so the Sun rises in the west there; it has no moons",
+            "k": [
+                "spins backward",
+                "west",
+                "no moons"
+            ],
+            "n": 0
+        },
+        {
+            "id": "long-day",
+            "tier": "middle",
+            "t": "One rotation takes about 243 Earth days, longer than its 225-day year",
+            "k": [
+                "243",
+                "225",
+                "longer than its"
+            ],
+            "n": 0
+        },
+        {
+            "id": "sulfuric-acid",
+            "tier": "middle",
+            "t": "Thick clouds of sulfuric acid hide its surface from view",
+            "k": [
+                "sulfuric acid",
+                "clouds"
+            ],
+            "n": 0
+        },
+        {
+            "id": "pressure",
+            "tier": "middle",
+            "t": "Surface air pressure is about 92 times Earth’s, like being nearly a kilometer deep in the ocean",
+            "k": [
+                "92 times",
+                "pressure",
+                "kilometer deep"
+            ],
+            "n": 0
+        },
+        {
+            "id": "galileo-phases",
+            "tier": "middle",
+            "t": "Galileo saw its full set of phases in 1610, which supported Copernicus’s Sun-centered model over Ptolemy’s",
+            "k": [
+                "phases",
+                "galileo",
+                "copernicus"
+            ],
+            "n": 0,
+            "rabbit": "Galileo Galilei"
+        },
+        {
+            "id": "transits",
+            "tier": "middle",
+            "t": "Its transits across the Sun come in pairs 8 years apart (2004 and 2012; the next pair is due in 2117 and 2125)",
+            "k": [
+                "transits",
+                "2004",
+                "2012"
+            ],
+            "n": 0
+        },
+        {
+            "id": "venera",
+            "tier": "middle",
+            "t": "The Soviet Venera landers: Venera 7 (1970) sent the first data from another planet’s surface",
+            "k": [
+                "venera",
+                "soviet",
+                "1970"
+            ],
+            "n": 0
+        },
+        {
+            "id": "magellan",
+            "tier": "middle",
+            "t": "NASA’s Magellan orbiter mapped nearly all of it with radar (1990–1994)",
+            "k": [
+                "magellan",
+                "radar"
+            ],
+            "n": 0
+        },
+        {
+            "id": "mariner-2",
+            "tier": "middle",
+            "t": "Mariner 2 (1962) made the first successful flyby of another planet",
+            "k": [
+                "mariner 2",
+                "1962",
+                "flyby"
+            ],
+            "n": 0
+        },
+        {
+            "id": "cook-1769",
+            "tier": "power",
+            "t": "James Cook sailed to Tahiti to time its 1769 transit, which helped measure the Sun’s distance",
+            "k": [
+                "james cook",
+                "tahiti",
+                "1769"
+            ],
+            "n": 0
+        },
+        {
+            "id": "horrocks-lomonosov",
+            "tier": "power",
+            "t": "Jeremiah Horrocks watched the first observed transit (1639); Mikhail Lomonosov saw a glowing ring in 1761 and concluded it has an atmosphere",
+            "k": [
+                "horrocks",
+                "lomonosov",
+                "1639",
+                "1761"
+            ],
+            "n": 0
+        },
+        {
+            "id": "venera-13",
+            "tier": "power",
+            "t": "Venera 13 (1982) took the first color photos of its surface and lasted 127 minutes",
+            "k": [
+                "venera 13",
+                "127 minutes",
+                "color photos"
+            ],
+            "n": 0
+        },
+        {
+            "id": "women-names",
+            "tier": "power",
+            "t": "Nearly all its features are named for women; Maxwell Montes, its tallest mountain range, is an exception",
+            "k": [
+                "named for women",
+                "maxwell montes"
+            ],
+            "n": 0
+        },
+        {
+            "id": "ishtar-aphrodite",
+            "tier": "power",
+            "t": "Its highland regions, Ishtar Terra and Aphrodite Terra, are named for goddesses of love",
+            "k": [
+                "ishtar terra",
+                "aphrodite terra"
+            ],
+            "n": 0
+        },
+        {
+            "id": "coronae-domes",
+            "tier": "power",
+            "t": "It has ring-shaped coronae and flat-topped volcanic “pancake domes”",
+            "k": [
+                "coronae",
+                "pancake domes"
+            ],
+            "n": 0
+        },
+        {
+            "id": "super-rotation",
+            "tier": "power",
+            "t": "Cloud-top winds circle the whole planet in about four Earth days (super-rotation)",
+            "k": [
+                "four earth days",
+                "super-rotation",
+                "cloud-top winds"
+            ],
+            "n": 0
+        },
+        {
+            "id": "phosphorus-hesperus",
+            "tier": "power",
+            "t": "Ancient Greeks thought it was two objects: Phosphorus (morning) and Hesperus (evening)",
+            "k": [
+                "phosphorus",
+                "hesperus"
+            ],
+            "n": 0
+        },
+        {
+            "id": "holst-symbol",
+            "tier": "power",
+            "t": "Holst calls it “the Bringer of Peace”; its symbol ♀ also means female; the French “vendredi” (Friday) comes from its Latin name",
+            "k": [
+                "bringer of peace",
+                "female",
+                "vendredi"
+            ],
+            "n": 0
+        },
+        {
+            "id": "sagan",
+            "tier": "power",
+            "t": "Carl Sagan argued in the early 1960s that a greenhouse effect explains why radio telescopes measured it as so hot",
+            "k": [
+                "carl sagan",
+                "early 1960s"
+            ],
+            "n": 0
+        },
+        {
+            "id": "phosphine",
+            "tier": "power",
+            "t": "Jane Greaves’s team claimed in 2020 to find phosphine, a possible hint of life, in its clouds; other scientists challenged it",
+            "k": [
+                "phosphine",
+                "2020",
+                "greaves"
+            ],
+            "n": 0
+        },
+        {
+            "id": "dresden",
+            "tier": "power",
+            "t": "The Maya tracked its 584-day cycle in the Dresden Codex; Babylonians recorded it on clay tablets",
+            "k": [
+                "dresden codex",
+                "maya",
+                "584"
+            ],
+            "n": 0
+        },
+        {
+            "id": "maat-mons",
+            "tier": "power",
+            "t": "In 2023, a vent on Maat Mons, its tallest volcano, was found changing shape in 1991 radar images: evidence of active volcanoes",
+            "k": [
+                "maat mons",
+                "active volcanoes",
+                "2023"
+            ],
+            "n": 0
+        },
+        {
+            "id": "akatsuki",
+            "tier": "power",
+            "t": "Japan’s Akatsuki orbiter missed entering orbit in 2010 but succeeded in 2015",
+            "k": [
+                "akatsuki",
+                "2015"
+            ],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Planet, goddess, or painting?",
+        "body": "Venus shares its name with the Roman goddess of love (the Greek Aphrodite) and with Botticelli’s painting _The Birth of Venus_, which are separate answer lines. In astronomy, Venus and Mercury are both inner planets that show phases and cross the Sun’s face in transits, and players who assume the closest planet must be the hottest sometimes say Mercury on “hottest planet” clues.",
+        "fix": "Thick sulfuric-acid clouds, a runaway greenhouse effect, the hottest surface, a backward spin, Venera, Magellan, and Maxwell Montes mean Venus. The 88-day year, the Caloris Basin, MESSENGER, and Einstein’s 43-arcsecond drift mean Mercury. If the question says “this planet,” name the planet, even when a clue mentions the goddess.",
+        "line": "Real answer line: <b><u>Venus</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Venus",
+            "venus",
+            "Venis",
+            "Planet Venus",
+            "the planet Venus"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Mercury",
+            "Aphrodite",
+            "The Birth of Venus",
+            "Mars",
+            "Venera",
+            "Venus flytrap"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

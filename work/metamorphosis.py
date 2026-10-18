@@ -1,0 +1,366 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "metamorphosis",
+    "name": "Metamorphosis",
+    "mono": "MET",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Change from larva to adult form · Caterpillar to butterfly, tadpole to frog",
+    "dates": "Seen in insects, amphibians, and many sea animals",
+    "briefing": "A caterpillar seals itself inside a chrysalis, breaks down much of its own body, and comes out days or weeks later as a butterfly. That dramatic change in body form is metamorphosis, from Greek words meaning “change of shape.” Frogs do it too: a tadpole grows legs and lungs and absorbs its tail, a switch set off by thyroid hormone, while insects rely on hormones called ecdysone and juvenile hormone.",
+    "answerHtml": "<b><u>Metamorphosis</u></b> (accept <u>complete</u> or <u>incomplete metamorphosis</u>; prompt on <u>development</u> or <u>life cycle</u>; do not accept “molting” or “ecdysis”)",
+    "accept": [
+        "metamorphosis",
+        "metamorphoses",
+        "complete metamorphosis",
+        "incomplete metamorphosis",
+        "partial metamorphosis",
+        "insect metamorphosis",
+        "amphibian metamorphosis",
+        "holometabolism",
+        "holometaboly",
+        "hemimetabolism",
+        "hemimetaboly"
+    ],
+    "prompt": [
+        "development",
+        "insect development",
+        "life cycle",
+        "life cycles",
+        "transformation"
+    ],
+    "reject": [
+        "the metamorphosis",
+        "kafka",
+        "kafkas metamorphosis",
+        "franz kafka",
+        "gregor samsa",
+        "ovid",
+        "metamorphism",
+        "metamorphic",
+        "metamorphic rock",
+        "molting",
+        "moulting",
+        "molt",
+        "ecdysis",
+        "pupation",
+        "pupa",
+        "chrysalis",
+        "cocoon",
+        "larva",
+        "larvae",
+        "neoteny",
+        "eclosion"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Metamorphosis",
+    "qb": {
+        "q": "metamorphosis",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Pockets of cells called imaginal discs sit inside a larva until this process, when they develop into wings, legs, and eyes. Much of the larva’s old body breaks down during this process, and the adult finally climbs out in a step called eclosion [“ih-KLOH-zhun”].",
+            "r": "For 10 points, name this process in which an animal changes body form, as when a caterpillar becomes a butterfly."
+        },
+        {
+            "p": "When an insect’s level of juvenile hormone drops, its next molt begins this process instead of producing a bigger larva. The steroid hormone ecdysone [“ek-DYE-sohn”] triggers each of those molts, which separate growth stages called instars.",
+            "r": "In butterflies, this process passes through a pupa called a chrysalis. For 10 points, name this change in body form from larva to adult."
+        },
+        {
+            "p": "During this process, an animal switches from getting rid of its waste as ammonia to making urea, and its long, coiled gut, built for digesting plants, gets much shorter. Thyroid hormone controls this process, which also makes the animal’s tail shrink away through programmed cell death.",
+            "r": "The animal’s hind legs appear first, then its front legs. For 10 points, name this process in which a tadpole becomes a frog."
+        },
+        {
+            "p": "The axolotl [“AK-suh-lot-ul”], a Mexican salamander, normally does not go through this process and keeps its feathery outside gills as an adult. Scientists can still push an axolotl through this process by giving it thyroid hormone.",
+            "r": "Frogs go through this process as they lose their gills and tails. For 10 points, name this dramatic change in body form, from larva to adult."
+        },
+        {
+            "p": "In 1705, the German-born artist Maria Sibylla Merian [“MAIR-ee-un”] published paintings of insects she had studied in Suriname, showing every stage of this process beside the plants the insects ate. In the 1600s, the Dutch scientist Jan Swammerdam dissected insects to show that all the stages of this process belong to one animal.",
+            "r": "In butterflies, its resting stage takes place inside a chrysalis. For 10 points, name this process in which a caterpillar becomes a butterfly."
+        },
+        {
+            "p": "Mayflies are the only insects that molt again after they already have working wings, passing through a winged stage called the subimago. Dragonflies follow a three-stage form of this process, in which underwater nymphs called naiads [“NYE-adz”] crawl out of the water for one last molt.",
+            "r": "For 10 points, name this process of changing body form, which butterflies complete in four stages."
+        },
+        {
+            "p": "A young flounder goes through this process when one of its eyes slowly moves across its head to join the other eye, so the fish can lie flat on the seafloor. Lampreys spend years as filter-feeding larvae called ammocoetes [“AM-uh-seets”] before this process gives them their adult form.",
+            "r": "For 10 points, name this change in body form that also turns a tadpole into a frog."
+        },
+        {
+            "p": "Puerto Rico’s coquí [“koh-KEE”] frogs skip the free-swimming larval stage that usually comes before this process: their eggs hatch straight into tiny froglets. In most frogs, the back legs appear during this process before the front legs.",
+            "r": "The tail and gills then disappear. For 10 points, name this process in which a tadpole changes into an adult frog."
+        },
+        {
+            "p": "Periodical cicadas spend 13 or 17 years underground as nymphs before climbing a tree for the final molt of their three-stage form of this process, leaving their empty shells behind. Grasshoppers and cockroaches also follow that “incomplete” form of this process, which has no pupa.",
+            "r": "For 10 points, name this process of changing body form, which a caterpillar finishes inside a chrysalis."
+        },
+        {
+            "p": "Silverfish never go through this process, since their young already look like small adults. In the “complete” form of this process, a larva molts several times, then rests as a pupa before emerging as an adult, or imago [“ih-MAY-goh”].",
+            "r": "Its name comes from Greek words for “change of shape.” For 10 points, name this process that turns caterpillars into butterflies."
+        },
+        {
+            "p": "In 1912, J. F. Gudernatsch [“GOO-der-nahch”] found that young amphibians fed thyroid tissue began this process early, evidence that the thyroid gland controls it. During this process, gills disappear as lungs take over, and the tail is absorbed through programmed cell death, or apoptosis.",
+            "r": "Back legs appear before front legs during this process. For 10 points, name this process that turns a tadpole into a frog."
+        },
+        {
+            "p": "Right after this process ends with eclosion, a newly emerged insect pumps fluid into the veins of its crumpled wings to stretch them out. Before that, a monarch spends the resting stage of this process inside a jade-green case dotted with gold.",
+            "r": "That case is a chrysalis. For 10 points, name this process in which a caterpillar becomes a butterfly."
+        },
+        {
+            "p": "Mosquito larvae, nicknamed “wrigglers,” and comma-shaped mosquito pupae, nicknamed “tumblers,” both live in water before this process ends with a flying adult. Fly larvae called maggots and beetle larvae called grubs also go through the four-stage form of this process.",
+            "r": "For 10 points, name this process that changes a caterpillar into a butterfly or a tadpole into a frog."
+        },
+        {
+            "p": "Sea squirts begin life as swimming larvae with a tail and a stiff rod called a notochord, then glue themselves to a rock and absorb that tail during this process. Sea star larvae have two matching halves until this process gives them five-part radial symmetry.",
+            "r": "For 10 points, name this process of dramatic body change, which also turns caterpillars into butterflies."
+        },
+        {
+            "p": "The silk used to weave fine cloth is unwound from the cases that silkworms spin around themselves during this process. Many other moths also spend the resting pupa stage of this process inside a silk cocoon.",
+            "r": "Butterflies instead form a hard case called a chrysalis. For 10 points, name this process that turns a caterpillar into a winged adult."
+        }
+    ],
+    "clues": [
+        {
+            "id": "caterpillar-butterfly",
+            "tier": "giveaway",
+            "t": "The classic example: a caterpillar turning into a butterfly",
+            "k": ["caterpillar", "butterfly"],
+            "n": 0
+        },
+        {
+            "id": "tadpole-frog",
+            "tier": "giveaway",
+            "t": "A tadpole changing into a frog, growing legs and lungs and losing its tail",
+            "k": ["tadpole", "frog"],
+            "n": 0
+        },
+        {
+            "id": "greek-name",
+            "tier": "giveaway",
+            "t": "Its name comes from Greek words meaning “change of shape”",
+            "k": ["change of shape", "greek"],
+            "n": 0
+        },
+        {
+            "id": "four-stages",
+            "tier": "giveaway",
+            "t": "The “complete” form has four stages: egg, larva, pupa, and adult, as in butterflies, beetles, and flies",
+            "k": ["four stages", "complete", "pupa"],
+            "n": 0
+        },
+        {
+            "id": "three-stages",
+            "tier": "giveaway",
+            "t": "The “incomplete” form has three stages, egg, nymph, and adult, with no pupa, as in grasshoppers",
+            "k": ["three stages", "incomplete", "nymph", "grasshoppers"],
+            "n": 0
+        },
+        {
+            "id": "chrysalis-cocoon",
+            "tier": "middle",
+            "t": "A butterfly pupa is a hard chrysalis; many moth pupae rest inside a silk cocoon, and silkworm cocoons give us silk",
+            "k": ["chrysalis", "cocoon", "silkworm"],
+            "n": 0
+        },
+        {
+            "id": "larva-names",
+            "tier": "middle",
+            "t": "Larvae with special names: caterpillars (butterflies and moths), maggots (flies), and grubs (beetles)",
+            "k": ["maggots", "grubs", "caterpillars"],
+            "n": 0
+        },
+        {
+            "id": "ecdysone",
+            "tier": "middle",
+            "t": "In insects, the steroid hormone ecdysone triggers each molt",
+            "k": ["ecdysone", "steroid", "molt"],
+            "n": 0
+        },
+        {
+            "id": "juvenile-hormone",
+            "tier": "middle",
+            "t": "Juvenile hormone keeps an insect a larva; when its level drops, the next molt makes a pupa or adult",
+            "k": ["juvenile hormone"],
+            "n": 0,
+            "rabbit": "Hormones"
+        },
+        {
+            "id": "thyroid",
+            "tier": "middle",
+            "t": "In frogs and other amphibians, thyroid hormone sets it off",
+            "k": ["thyroid", "amphibians"],
+            "n": 0,
+            "rabbit": "Thyroid gland"
+        },
+        {
+            "id": "tail-apoptosis",
+            "tier": "middle",
+            "t": "A tadpole’s tail is absorbed through apoptosis, or programmed cell death",
+            "k": ["apoptosis", "programmed cell death"],
+            "n": 0,
+            "rabbit": "Apoptosis"
+        },
+        {
+            "id": "gills-lungs",
+            "tier": "middle",
+            "t": "Tadpoles breathe with gills; adult frogs breathe with lungs and through their skin; back legs appear before front legs",
+            "k": ["gills", "lungs", "back legs"],
+            "n": 0
+        },
+        {
+            "id": "instars-imago",
+            "tier": "middle",
+            "t": "The stages between a larva’s molts are called instars; the final adult stage is the imago",
+            "k": ["instars", "imago"],
+            "n": 0
+        },
+        {
+            "id": "monarch",
+            "tier": "middle",
+            "t": "Monarch caterpillars eat milkweed and rest in a jade-green chrysalis dotted with gold",
+            "k": ["monarch", "milkweed", "gold"],
+            "n": 0
+        },
+        {
+            "id": "cicadas",
+            "tier": "middle",
+            "t": "Periodical cicadas live underground as nymphs for 13 or 17 years before their final molt",
+            "k": ["cicadas", "13 or 17", "underground"],
+            "n": 0
+        },
+        {
+            "id": "imaginal-discs",
+            "tier": "power",
+            "t": "Imaginal discs, pockets of cells in a larva, grow into adult wings, legs, and eyes during the pupa stage",
+            "k": ["imaginal discs"],
+            "n": 0
+        },
+        {
+            "id": "eclosion",
+            "tier": "power",
+            "t": "The adult’s emergence from the pupa is called eclosion; a butterfly then pumps fluid into its wing veins to spread its wings",
+            "k": ["eclosion", "wing veins"],
+            "n": 0
+        },
+        {
+            "id": "axolotl",
+            "tier": "power",
+            "t": "The axolotl, a Mexican salamander, normally skips it and keeps its gills as an adult, but thyroid hormone can force the change",
+            "k": ["axolotl", "salamander", "mexican"],
+            "n": 0
+        },
+        {
+            "id": "ammonia-urea",
+            "tier": "power",
+            "t": "Tadpoles get rid of waste as ammonia, but adult frogs make urea; the tadpole’s long, coiled, plant-digesting gut shortens",
+            "k": ["ammonia", "urea", "coiled"],
+            "n": 0
+        },
+        {
+            "id": "gudernatsch",
+            "tier": "power",
+            "t": "In 1912, J. F. Gudernatsch fed thyroid tissue to young amphibians, and they changed early",
+            "k": ["gudernatsch", "1912"],
+            "n": 0
+        },
+        {
+            "id": "merian",
+            "tier": "power",
+            "t": "Maria Sibylla Merian painted insect life cycles from Suriname, with the plants they ate, in a 1705 book",
+            "k": ["merian", "suriname", "1705"],
+            "n": 0
+        },
+        {
+            "id": "swammerdam",
+            "tier": "power",
+            "t": "In the 1600s, Dutch scientist Jan Swammerdam dissected insects to show that larva, pupa, and adult are one animal",
+            "k": ["swammerdam", "dissected"],
+            "n": 0
+        },
+        {
+            "id": "silverfish",
+            "tier": "power",
+            "t": "Silverfish never go through it: their young already look like small adults",
+            "k": ["silverfish", "small adults"],
+            "n": 0
+        },
+        {
+            "id": "mayflies-naiads",
+            "tier": "power",
+            "t": "Dragonfly and mayfly nymphs, called naiads, live underwater; mayflies alone molt again after getting working wings (the subimago)",
+            "k": ["naiads", "mayflies", "subimago"],
+            "n": 0
+        },
+        {
+            "id": "flounder",
+            "tier": "power",
+            "t": "In young flounders and other flatfish, one eye moves across the head to join the other",
+            "k": ["flounders", "flatfish", "eye"],
+            "n": 0
+        },
+        {
+            "id": "lamprey",
+            "tier": "power",
+            "t": "Lamprey larvae, called ammocoetes, filter-feed in stream beds for years before changing into adults",
+            "k": ["lamprey", "ammocoetes"],
+            "n": 0
+        },
+        {
+            "id": "coqui",
+            "tier": "power",
+            "t": "Puerto Rico’s coquí frogs skip the swimming larva: their eggs hatch straight into tiny froglets",
+            "k": ["coquí", "coqui", "froglets", "puerto rico"],
+            "n": 0
+        },
+        {
+            "id": "sea-animals",
+            "tier": "power",
+            "t": "Sea squirt larvae lose their tails and notochords after settling on rocks; sea star larvae change from two-sided to five-part symmetry",
+            "k": ["sea squirt", "notochords", "sea star"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Biology, not Kafka",
+        "body": "Literature has two answer lines with nearly the same name: Franz Kafka’s novella _The Metamorphosis_, in which Gregor Samsa wakes up turned into a giant insect, and Ovid’s Latin poem _Metamorphoses_, a collection of myths about transformations. In science, players also confuse this process with molting, the shedding of an exoskeleton, which happens many times as an insect grows.",
+        "fix": "“This novella” or Gregor Samsa means Kafka’s book; “this poem” or Ovid means _Metamorphoses_. “This process” with larvae, pupae, tadpoles, or hormones means the biology answer. Molting (ecdysis) is only one step along the way, so don’t say it when the question asks for the whole change in body form.",
+        "line": "Real answer line: <b><u>Metamorphosis</u></b> (accept <u>complete</u> or <u>incomplete metamorphosis</u>; do not accept “molting”)"
+    },
+    "tests": {
+        "right": [
+            "Metamorphosis",
+            "metamorphisis",
+            "Complete metamorphosis",
+            "Incomplete metamorphosis",
+            "metamorphoses"
+        ],
+        "prompt": [
+            "Development",
+            "Life cycle"
+        ],
+        "wrong": [
+            "The Metamorphosis",
+            "Molting",
+            "Ecdysis",
+            "Metamorphism",
+            "Pupation",
+            "Chrysalis"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

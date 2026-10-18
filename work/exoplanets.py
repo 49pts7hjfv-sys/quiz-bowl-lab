@@ -1,0 +1,426 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "exoplanets",
+    "name": "Exoplanets",
+    "mono": "EXO",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Planets that orbit other stars · More than 5,000 confirmed as of 2025",
+    "dates": "First confirmed 1992; first around a Sun-like star 1995",
+    "briefing": "Exoplanets are planets that orbit stars other than the Sun. The first ones were confirmed in 1992, circling the leftover core of an exploded star, and as of 2025 astronomers had confirmed more than 5,000. Most are found indirectly, by spotting a star that dims slightly when a planet passes in front of it, or that wobbles as a planet tugs on it. Some are scorching gas giants; a few might have liquid water.",
+    "answerHtml": "<b><u>Exoplanets</u></b> (accept <u>extrasolar planet</u>s; prompt on <u>planet</u>s)",
+    "accept": [
+        "exoplanet",
+        "exoplanets",
+        "extrasolar planet",
+        "extrasolar planets"
+    ],
+    "prompt": [
+        "planet",
+        "planets"
+    ],
+    "reject": [
+        "brown dwarf",
+        "brown dwarfs",
+        "exomoon",
+        "exomoons",
+        "dwarf planet",
+        "dwarf planets",
+        "minor planet",
+        "minor planets",
+        "protoplanet",
+        "protoplanets",
+        "planetesimal",
+        "planetesimals"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Exoplanet",
+    "qb": {
+        "q": "exoplanet",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 2015, a pulsar was officially named Lich, and the three of these objects circling it were named Draugr, Poltergeist, and Phobetor. In 1992, Aleksander Wolszczan [“VOHL-shchahn”] and Dale Frail had made the first confirmed discovery of these objects around that pulsar.",
+            "r": "Most of these objects circle ordinary stars instead. For 10 points, name these planets that orbit stars other than the Sun."
+        },
+        {
+            "p": "Michel Mayor and Didier Queloz [“keh-LOH”] shared the 2019 Nobel Prize in Physics for finding one of these objects in 1995 that circles the star 51 Pegasi every four days. That gas giant, the first of these objects found around a Sun-like star, orbits so close that it is called a hot Jupiter.",
+            "r": "Mayor and Queloz found it by the wobble it causes in its star. For 10 points, name these planets found beyond our solar system."
+        },
+        {
+            "p": "When a planet the size of Jupiter crosses in front of a star like the Sun, the star dims by about one percent; an Earth-sized planet dims it by less than one-hundredth of a percent. From 2009 to 2018, a space telescope stared at one patch of sky near the constellations Cygnus and Lyra to catch such dips.",
+            "r": "That telescope, Kepler, found thousands of these objects using the transit method. For 10 points, name these planets that orbit stars other than the Sun."
+        },
+        {
+            "p": "The radial velocity method finds these objects by watching a star’s light shift back and forth toward red and blue as the star wobbles, an example of the Doppler effect. That method gives only a minimum value for each object’s mass.",
+            "r": "That method found the first of these objects around a Sun-like star, in 1995. For 10 points, name these planets that orbit stars beyond the Sun."
+        },
+        {
+            "p": "In 2017, astronomers announced that a cool red dwarf star about 40 light-years away, TRAPPIST-1, has seven Earth-sized examples of these objects, all orbiting closer to their star than Mercury is to the Sun.",
+            "r": "Several of them lie in the star’s habitable zone, where liquid water could exist. For 10 points, name these planets that circle stars other than our Sun."
+        },
+        {
+            "p": "Kepler-186f, announced in 2014, was the first Earth-sized one of these objects found at just the right distance from its star for liquid water to exist on its surface. That object is slightly larger than Earth and orbits a red dwarf star.",
+            "r": "Astronomers call that just-right region the “Goldilocks zone,” or habitable zone. For 10 points, name these planets that orbit stars other than our Sun."
+        },
+        {
+            "p": "In 2016, the Pale Red Dot campaign found one of these objects, Proxima Centauri b, orbiting the closest star to the Sun, about 4.2 light-years away. That object is probably a little more massive than Earth.",
+            "r": "It lies in its star’s habitable zone, where liquid water could exist. For 10 points, name these planets that orbit stars other than the Sun."
+        },
+        {
+            "p": "Kepler-16b was nicknamed “Tatooine” after Luke Skywalker’s home world, because it circles a pair of stars that also orbit each other. That planet, announced in 2011, is a cold gas giant with about the mass of Saturn.",
+            "r": "NASA’s TESS satellite, launched in 2018, searches most of the sky for more of these objects. For 10 points, name these planets beyond our solar system."
+        },
+        {
+            "p": "In 1999, HD 209458 b became the first of these objects seen passing in front of its star. The Hubble Space Telescope later detected sodium in that object’s atmosphere, the first atmosphere found on one of these objects.",
+            "r": "For 10 points, name these planets that circle stars other than the Sun."
+        },
+        {
+            "p": "In 2022, the James Webb Space Telescope made the first clear detection of carbon dioxide in the atmosphere of one of these objects, a hot gas giant called WASP-39b. Webb reads such atmospheres from starlight that filters through them as the planets pass in front of their stars.",
+            "r": "Webb was launched on December 25, 2021. For 10 points, name these planets found outside our solar system."
+        },
+        {
+            "p": "Combining how much one of these objects dims its star with how much it makes the star wobble lets astronomers find its density, which shows whether it is rocky or gassy. Hot Jupiters, gas giants that orbit their stars in just a few days, were among the first of these objects found.",
+            "r": "Their tight orbits make them easy to spot by the wobble they cause. For 10 points, name these planets that orbit stars other than the Sun."
+        },
+        {
+            "p": "In 2008, astronomers released direct pictures of three giant examples of these objects circling the star HR 8799, and a fourth was spotted two years later. Most of these objects are far too faint to photograph next to their bright stars.",
+            "r": "Most others are found indirectly instead, by watching their stars dim or wobble. For 10 points, name these planets that orbit stars other than the Sun."
+        },
+        {
+            "p": "In gravitational microlensing, the gravity of a passing star bends and briefly brightens the light of a more distant star, and a tiny extra spike in that light can reveal one of these objects. Microlensing can even find rogue ones drifting through space with no star at all.",
+            "r": "That method relies on the bending of light that Albert Einstein predicted. For 10 points, name these planets beyond our solar system."
+        },
+        {
+            "p": "In 2015, the International Astronomical Union let the public help name some of these objects, and 51 Pegasi b became Dimidium [“dih-MID-ee-um”], Latin for “half,” because its mass is at least half of Jupiter’s. Such objects are labeled with lowercase letters, starting with “b.”",
+            "r": "Most have only catalog names, like Kepler-16b or TRAPPIST-1e. For 10 points, name these planets that orbit stars other than the Sun."
+        },
+        {
+            "p": "Super-Earths and mini-Neptunes, which are bigger than Earth but smaller than Neptune, are among the most common kinds of these objects that astronomers have found, yet our solar system has none. Studies suggest that most stars in our galaxy have planets of their own.",
+            "r": "As of 2025, more than 5,000 had been confirmed. For 10 points, name these planets that orbit stars other than the Sun."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "Planets that orbit stars other than the Sun",
+            "k": [
+                "orbit stars",
+                "other than the sun"
+            ],
+            "n": 0
+        },
+        {
+            "id": "count-2025",
+            "tier": "giveaway",
+            "t": "As of 2025, more than 5,000 had been confirmed",
+            "k": [
+                "5,000",
+                "confirmed"
+            ],
+            "n": 0
+        },
+        {
+            "id": "transit",
+            "tier": "giveaway",
+            "t": "The transit method spots the slight dimming when a planet passes in front of its star",
+            "k": [
+                "transit method",
+                "dimming"
+            ],
+            "n": 0
+        },
+        {
+            "id": "kepler-telescope",
+            "tier": "giveaway",
+            "t": "NASA’s Kepler Space Telescope (2009–2018) found thousands with the transit method",
+            "k": [
+                "kepler space telescope",
+                "thousands"
+            ],
+            "n": 0,
+            "rabbit": "Johannes Kepler"
+        },
+        {
+            "id": "habitable-zone",
+            "tier": "giveaway",
+            "t": "Astronomers look for ones in the habitable, or “Goldilocks,” zone, where liquid water could exist",
+            "k": [
+                "habitable",
+                "goldilocks",
+                "liquid water"
+            ],
+            "n": 0
+        },
+        {
+            "id": "51-pegasi",
+            "tier": "middle",
+            "t": "51 Pegasi b (1995): the first one found around a Sun-like star, by Michel Mayor and Didier Queloz",
+            "k": [
+                "51 pegasi",
+                "mayor",
+                "queloz",
+                "1995"
+            ],
+            "n": 0
+        },
+        {
+            "id": "nobel-2019",
+            "tier": "middle",
+            "t": "Mayor and Queloz shared the 2019 Nobel Prize in Physics",
+            "k": [
+                "nobel prize",
+                "2019"
+            ],
+            "n": 0
+        },
+        {
+            "id": "pulsar-1992",
+            "tier": "middle",
+            "t": "The first confirmed ones (1992) orbit a pulsar; Aleksander Wolszczan and Dale Frail found them",
+            "k": [
+                "pulsar",
+                "wolszczan",
+                "frail",
+                "1992"
+            ],
+            "n": 0,
+            "rabbit": "Pulsars"
+        },
+        {
+            "id": "radial-velocity",
+            "tier": "middle",
+            "t": "The radial velocity, or wobble, method uses the Doppler shift of the star’s light",
+            "k": [
+                "radial velocity",
+                "wobble",
+                "doppler shift"
+            ],
+            "n": 0,
+            "rabbit": "Doppler effect"
+        },
+        {
+            "id": "hot-jupiters",
+            "tier": "middle",
+            "t": "Hot Jupiters: gas giants that orbit their stars in just a few days",
+            "k": [
+                "hot jupiters",
+                "gas giants"
+            ],
+            "n": 0
+        },
+        {
+            "id": "trappist-1",
+            "tier": "middle",
+            "t": "TRAPPIST-1, a cool red dwarf about 40 light-years away, has seven Earth-sized ones (announced 2017)",
+            "k": [
+                "trappist-1",
+                "seven",
+                "red dwarf"
+            ],
+            "n": 0
+        },
+        {
+            "id": "proxima",
+            "tier": "middle",
+            "t": "Proxima Centauri b (found in 2016 by the Pale Red Dot campaign) orbits in the habitable zone of the closest star to the Sun",
+            "k": [
+                "proxima centauri",
+                "pale red dot",
+                "closest star"
+            ],
+            "n": 0
+        },
+        {
+            "id": "tess",
+            "tier": "middle",
+            "t": "NASA’s TESS satellite (launched 2018) searches most of the sky for transits",
+            "k": [
+                "tess",
+                "2018"
+            ],
+            "n": 0
+        },
+        {
+            "id": "jwst-co2",
+            "tier": "middle",
+            "t": "In 2022, the James Webb Space Telescope found carbon dioxide in the atmosphere of WASP-39b",
+            "k": [
+                "james webb",
+                "carbon dioxide",
+                "wasp-39b"
+            ],
+            "n": 0
+        },
+        {
+            "id": "lich",
+            "tier": "power",
+            "t": "The pulsar with the first ones was named Lich in 2015; its planets are Draugr, Poltergeist, and Phobetor",
+            "k": [
+                "lich",
+                "draugr",
+                "poltergeist",
+                "phobetor"
+            ],
+            "n": 0
+        },
+        {
+            "id": "dimidium",
+            "tier": "power",
+            "t": "51 Pegasi b was named Dimidium (Latin for “half”) in 2015, for its mass of at least half of Jupiter’s",
+            "k": [
+                "dimidium",
+                "half"
+            ],
+            "n": 0
+        },
+        {
+            "id": "hd-209458b",
+            "tier": "power",
+            "t": "HD 209458 b: the first seen transiting its star (1999) and the first with an atmosphere detected (sodium, by Hubble)",
+            "k": [
+                "hd 209458 b",
+                "sodium",
+                "1999"
+            ],
+            "n": 0
+        },
+        {
+            "id": "kepler-186f",
+            "tier": "power",
+            "t": "Kepler-186f (2014): the first Earth-sized one found in a habitable zone",
+            "k": [
+                "kepler-186f",
+                "2014",
+                "earth-sized"
+            ],
+            "n": 0
+        },
+        {
+            "id": "kepler-16b",
+            "tier": "power",
+            "t": "Kepler-16b, a cold gas giant with about Saturn’s mass, circles two stars and was nicknamed “Tatooine”",
+            "k": [
+                "tatooine",
+                "kepler-16b",
+                "two stars"
+            ],
+            "n": 0
+        },
+        {
+            "id": "one-percent",
+            "tier": "power",
+            "t": "A Jupiter-sized planet dims a Sun-like star by about 1 percent; an Earth-sized one dims it by less than one-hundredth of a percent",
+            "k": [
+                "1 percent",
+                "dims"
+            ],
+            "n": 0
+        },
+        {
+            "id": "minimum-mass",
+            "tier": "power",
+            "t": "The wobble method gives only a minimum mass; adding the size from a transit gives density (rocky or gassy?)",
+            "k": [
+                "minimum mass",
+                "density"
+            ],
+            "n": 0
+        },
+        {
+            "id": "direct-imaging",
+            "tier": "power",
+            "t": "HR 8799: three giant ones were photographed directly in 2008, and a fourth in 2010",
+            "k": [
+                "hr 8799",
+                "directly",
+                "2008"
+            ],
+            "n": 0
+        },
+        {
+            "id": "microlensing",
+            "tier": "power",
+            "t": "Gravitational microlensing can reveal them, even rogue ones drifting with no star",
+            "k": [
+                "microlensing",
+                "rogue"
+            ],
+            "n": 0
+        },
+        {
+            "id": "super-earths",
+            "tier": "power",
+            "t": "Super-Earths and mini-Neptunes are among the most common kinds, but our solar system has none",
+            "k": [
+                "super-earths",
+                "mini-neptunes"
+            ],
+            "n": 0
+        },
+        {
+            "id": "naming",
+            "tier": "power",
+            "t": "Labeled with lowercase letters, starting with “b,” in order of discovery",
+            "k": [
+                "lowercase",
+                "letters"
+            ],
+            "n": 0
+        },
+        {
+            "id": "webb-transmission",
+            "tier": "power",
+            "t": "Webb reads their atmospheres from starlight that filters through as they cross in front of their stars",
+            "k": [
+                "filters through",
+                "atmospheres"
+            ],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Exoplanet or a look-alike?",
+        "body": "Exoplanet tossups often lead with something else in the system. The first confirmed exoplanets orbit a pulsar, so players who hear “Wolszczan” may blurt out “pulsar.” Brown dwarfs are failed stars, too heavy to count as planets, and an exomoon would be a moon of an exoplanet. Saying just “planets” earns a prompt, so be ready to add “exo-.”",
+        "fix": "Listen for “these objects” or “these planets” plus the methods (transit, radial velocity, microlensing) and missions (Kepler, TESS, Webb). Those mean exoplanets, even when the first clue names the star they orbit, like a pulsar, 51 Pegasi, or TRAPPIST-1.",
+        "line": "Real answer line: <b><u>Exoplanets</u></b> (accept <u>extrasolar planet</u>s; prompt on <u>planet</u>s)"
+    },
+    "tests": {
+        "right": [
+            "Exoplanets",
+            "exoplanet",
+            "Extrasolar planets",
+            "Exoplantes",
+            "exo-planets"
+        ],
+        "prompt": [
+            "Planets",
+            "planet"
+        ],
+        "wrong": [
+            "Brown dwarfs",
+            "Hot Jupiter",
+            "Dwarf planets",
+            "Exomoons",
+            "Pulsars",
+            "Stars"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

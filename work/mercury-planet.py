@@ -1,0 +1,440 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "mercury-planet",
+    "name": "Mercury (planet)",
+    "mono": "MER",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Smallest planet and closest to the Sun · A year lasts only 88 days",
+    "dates": "Known since ancient times; first visited by Mariner 10 in 1974",
+    "briefing": "Mercury is the smallest planet and the closest to the Sun, racing around it in just 88 days. With almost no air to trap heat, its days reach about 430°C (800°F) and its nights drop to about −180°C (−290°F). Yet ice hides in craters near its poles, where sunlight never reaches. It also spins so slowly that one sunrise-to-sunrise day there lasts about 176 Earth days.",
+    "answerHtml": "<b><u>Mercury</u></b>",
+    "accept": [
+        "mercury",
+        "planet mercury"
+    ],
+    "prompt": [],
+    "reject": [
+        "hermes",
+        "venus",
+        "mars",
+        "vulcan",
+        "caloris basin",
+        "messenger",
+        "bepicolombo",
+        "project mercury",
+        "mercury program",
+        "mercury seven"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+    "qb": {
+        "q": "Mercury",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1965, Gordon Pettengill and Rolf Dyce bounced radar signals off this planet from the Arecibo [“air-uh-SEE-boh”] telescope and found that it spins three times for every two trips around the Sun. Until then, astronomers had thought it always kept the same face toward the Sun.",
+            "r": "It is named for the Roman messenger god. For 10 points, name this smallest planet, the closest one to the Sun."
+        },
+        {
+            "p": "Urbain Le Verrier [“luh-vair-YAY”] blamed a tiny extra drift in this planet’s orbit on an unseen inner planet he called Vulcan. In 1915, Albert Einstein’s general theory of relativity explained that drift, about 43 arcseconds per century, without any extra planet.",
+            "r": "This planet’s year lasts only about 88 Earth days. For 10 points, name this innermost planet of the solar system."
+        },
+        {
+            "p": "On the exact opposite side of this planet from its giant Caloris Basin lies jumbled “weird terrain,” which was probably shaken up by shock waves from the impact that made the basin. Caloris gets its name from the Latin word for heat, because it lies at one of this planet’s hottest spots.",
+            "r": "Mariner 10 saw only half of that basin. For 10 points, name this heavily cratered planet, the smallest and closest to the Sun."
+        },
+        {
+            "p": "Mariner 10 became the first spacecraft to use one planet’s gravity to swing toward another when it flew past Venus on its way to this planet in 1974. On three flybys, Mariner 10 mapped less than half of this planet’s surface.",
+            "r": "For 10 points, name this small, cratered planet, the closest to the Sun, which no spacecraft visited again until MESSENGER."
+        },
+        {
+            "p": "In 2015, a probe crashed into this planet after running out of fuel, ending four years in orbit. That probe, MESSENGER, the first spacecraft to orbit this planet, had confirmed in 2012 that water ice lies in craters near its poles where sunlight never reaches.",
+            "r": "For 10 points, name this planet, which has the shortest year in the solar system, about 88 Earth days."
+        },
+        {
+            "p": "A European and Japanese mission launched in 2018 is named for Giuseppe “Bepi” Colombo, who explained why this planet spins exactly three times for every two orbits. That mission, BepiColombo, flew past this planet six times between 2021 and 2025.",
+            "r": "This planet is named for the speedy Roman messenger god. For 10 points, name this innermost planet."
+        },
+        {
+            "p": "MESSENGER found bright, shallow pits called hollows on this planet, which may form as some material in its rocks turns to gas and escapes. With almost no atmosphere to hold in heat, its days reach about 430 degrees Celsius, while its nights plunge to about minus 180 degrees.",
+            "r": "Even so, Venus is hotter, because of its thick atmosphere. For 10 points, name this planet, the closest to the Sun."
+        },
+        {
+            "p": "From some spots on this planet, the Sun seems to rise, stop, back up, and then rise again. Because of the way its spin and orbit combine, one full day from sunrise to sunrise there lasts about 176 Earth days, twice as long as its year.",
+            "r": "It has no moons. For 10 points, name this smallest planet, whose year lasts about 88 Earth days."
+        },
+        {
+            "p": "Long, curving cliffs called lobate scarps cross this planet’s surface; they formed as the whole planet shrank while its huge iron core cooled. That core takes up about 85 percent of this planet’s radius.",
+            "r": "This planet is the second-densest after Earth. For 10 points, name this planet, the smallest in the solar system."
+        },
+        {
+            "p": "In 1631, Pierre Gassendi [“gah-sahn-DEE”] became the first person to watch this planet cross in front of the Sun, as Johannes Kepler had predicted. Those crossings, called transits, happen only in May or November, such as one on November 11, 2019.",
+            "r": "This planet never strays far from the Sun in our sky. For 10 points, name this innermost planet."
+        },
+        {
+            "p": "In Gustav Holst’s orchestral suite _The Planets_, the third movement calls this planet “the Winged Messenger.” The French word for Wednesday, “mercredi,” comes from the god for whom this planet is named.",
+            "r": "That god is the Roman counterpart of Hermes. For 10 points, name this planet, the closest to the Sun."
+        },
+        {
+            "p": "This planet has the most stretched-out orbit of any planet, swinging between about 46 million and 70 million kilometers from the Sun. It is also the fastest-moving planet, racing around the Sun at an average of about 47 kilometers per second.",
+            "r": "For 10 points, name this planet, whose year lasts only about 88 Earth days."
+        },
+        {
+            "p": "A 2019 calculation showed that, averaged over time, this planet, not Venus, is the closest planet to Earth, because it never wanders far from the Sun. On average, it is also the closest planet to every other planet.",
+            "r": "It is only slightly larger than Earth’s Moon. For 10 points, name this smallest planet, the innermost in the solar system."
+        },
+        {
+            "p": "Mariner 10 surprised scientists by finding that this planet has a magnetic field, about one percent as strong as Earth’s. Sunlight pushes sodium atoms out of this planet’s extremely thin atmosphere, called an exosphere, into a long tail like a comet’s.",
+            "r": "For 10 points, name this planet, which has no moons and is the closest to the Sun."
+        },
+        {
+            "p": "Craters on this planet are named for famous artists, writers, and composers, such as Beethoven and Rembrandt, while its long cliffs are named for ships of exploration, such as Discovery and Endeavour.",
+            "r": "For 10 points, name this heavily cratered planet, which looks a lot like Earth’s Moon and is the closest to the Sun."
+        }
+    ],
+    "clues": [
+        {
+            "id": "closest-smallest",
+            "tier": "giveaway",
+            "t": "The smallest planet and the closest to the Sun",
+            "k": [
+                "smallest planet",
+                "closest to the sun"
+            ],
+            "n": 0
+        },
+        {
+            "id": "88-days",
+            "tier": "giveaway",
+            "t": "The shortest year of any planet: one orbit takes about 88 Earth days",
+            "k": [
+                "88 earth days",
+                "shortest year"
+            ],
+            "n": 0
+        },
+        {
+            "id": "messenger-god",
+            "tier": "giveaway",
+            "t": "Named for the speedy Roman messenger god, the counterpart of the Greek Hermes",
+            "k": [
+                "messenger god",
+                "hermes",
+                "speedy"
+            ],
+            "n": 0,
+            "rabbit": "Hermes"
+        },
+        {
+            "id": "cratered",
+            "tier": "giveaway",
+            "t": "Heavily cratered, so it looks a lot like Earth’s Moon; it has no moons of its own",
+            "k": [
+                "heavily cratered",
+                "no moons"
+            ],
+            "n": 0,
+            "rabbit": "The Moon"
+        },
+        {
+            "id": "extremes",
+            "tier": "middle",
+            "t": "Almost no atmosphere, so its days reach about 430°C (800°F) and its nights drop to about −180°C (−290°F)",
+            "k": [
+                "no atmosphere",
+                "430",
+                "−180"
+            ],
+            "n": 0
+        },
+        {
+            "id": "venus-hotter",
+            "tier": "middle",
+            "t": "Venus is hotter, even though it is farther from the Sun, because of its thick greenhouse atmosphere",
+            "k": [
+                "venus",
+                "hotter",
+                "greenhouse"
+            ],
+            "n": 0,
+            "rabbit": "Venus (planet)"
+        },
+        {
+            "id": "caloris",
+            "tier": "middle",
+            "t": "The Caloris Basin is one of the solar system’s largest impact basins; “Caloris” comes from the Latin for heat",
+            "k": [
+                "caloris basin",
+                "latin for heat"
+            ],
+            "n": 0
+        },
+        {
+            "id": "mariner-10",
+            "tier": "middle",
+            "t": "Mariner 10 (1974–1975) was its first visitor, after the first-ever gravity assist, from Venus",
+            "k": [
+                "mariner 10",
+                "gravity assist",
+                "1974"
+            ],
+            "n": 0
+        },
+        {
+            "id": "messenger-ice",
+            "tier": "middle",
+            "t": "MESSENGER, the first spacecraft to orbit it (2011–2015), confirmed water ice in shadowed craters near its poles",
+            "k": [
+                "messenger",
+                "water ice",
+                "shadowed craters"
+            ],
+            "n": 0
+        },
+        {
+            "id": "resonance",
+            "tier": "middle",
+            "t": "Spins exactly three times for every two orbits around the Sun (a 3:2 resonance)",
+            "k": [
+                "three times",
+                "two orbits",
+                "3:2 resonance"
+            ],
+            "n": 0
+        },
+        {
+            "id": "precession",
+            "tier": "middle",
+            "t": "Einstein’s general relativity (1915) explained the extra drift, or precession, of its orbit: about 43 arcseconds per century",
+            "k": [
+                "precession",
+                "einstein",
+                "43 arcseconds"
+            ],
+            "n": 0,
+            "rabbit": "Albert Einstein"
+        },
+        {
+            "id": "iron-core",
+            "tier": "middle",
+            "t": "A huge iron core, about 85 percent of its radius, makes it the second-densest planet after Earth",
+            "k": [
+                "iron core",
+                "second-densest",
+                "85 percent"
+            ],
+            "n": 0
+        },
+        {
+            "id": "solar-day",
+            "tier": "middle",
+            "t": "One solar day, from sunrise to sunrise, lasts about 176 Earth days, as long as two of its years",
+            "k": [
+                "solar day",
+                "176 earth days",
+                "sunrise to sunrise"
+            ],
+            "n": 0
+        },
+        {
+            "id": "transits",
+            "tier": "middle",
+            "t": "It crosses the Sun’s face in transits, which happen only in May or November (one was on November 11, 2019)",
+            "k": [
+                "transits",
+                "may or november"
+            ],
+            "n": 0
+        },
+        {
+            "id": "pettengill-dyce",
+            "tier": "power",
+            "t": "Gordon Pettengill and Rolf Dyce found its true spin with Arecibo radar in 1965; before that, it was thought to keep one face to the Sun",
+            "k": [
+                "pettengill",
+                "dyce",
+                "arecibo",
+                "1965"
+            ],
+            "n": 0
+        },
+        {
+            "id": "vulcan",
+            "tier": "power",
+            "t": "Urbain Le Verrier blamed its orbit’s drift on an unseen inner planet he called Vulcan",
+            "k": [
+                "le verrier",
+                "vulcan"
+            ],
+            "n": 0
+        },
+        {
+            "id": "colombo",
+            "tier": "power",
+            "t": "Giuseppe “Bepi” Colombo explained its 3:2 spin; the European–Japanese BepiColombo mission (launched 2018) is named for him",
+            "k": [
+                "colombo",
+                "bepicolombo",
+                "2018"
+            ],
+            "n": 0
+        },
+        {
+            "id": "weird-terrain",
+            "tier": "power",
+            "t": "“Weird terrain” on the side opposite the Caloris Basin was probably jumbled by the impact’s shock waves",
+            "k": [
+                "weird terrain",
+                "shock waves"
+            ],
+            "n": 0
+        },
+        {
+            "id": "scarps",
+            "tier": "power",
+            "t": "Long cliffs called lobate scarps formed as the whole planet shrank while its core cooled",
+            "k": [
+                "lobate scarps",
+                "shrank"
+            ],
+            "n": 0
+        },
+        {
+            "id": "hollows",
+            "tier": "power",
+            "t": "MESSENGER found bright, shallow pits called hollows, which may form as material in the rocks turns to gas",
+            "k": [
+                "hollows",
+                "shallow pits"
+            ],
+            "n": 0
+        },
+        {
+            "id": "crater-names",
+            "tier": "power",
+            "t": "Its craters are named for artists, writers, and composers, such as Beethoven and Rembrandt",
+            "k": [
+                "beethoven",
+                "rembrandt",
+                "composers"
+            ],
+            "n": 0
+        },
+        {
+            "id": "ship-names",
+            "tier": "power",
+            "t": "Its long cliffs are named for ships of exploration, such as Discovery and Endeavour",
+            "k": [
+                "ships of exploration",
+                "discovery",
+                "endeavour"
+            ],
+            "n": 0
+        },
+        {
+            "id": "gassendi",
+            "tier": "power",
+            "t": "Pierre Gassendi watched the first observed transit, in 1631, as Johannes Kepler had predicted",
+            "k": [
+                "gassendi",
+                "1631",
+                "kepler"
+            ],
+            "n": 0
+        },
+        {
+            "id": "sun-backs-up",
+            "tier": "power",
+            "t": "From some spots on its surface, the Sun seems to rise, stop, back up, and then rise again",
+            "k": [
+                "back up",
+                "rise again"
+            ],
+            "n": 0
+        },
+        {
+            "id": "eccentric-fast",
+            "tier": "power",
+            "t": "The most stretched-out (eccentric) orbit of any planet, about 46 to 70 million km from the Sun, and the fastest planet, about 47 km per second",
+            "k": [
+                "eccentric",
+                "stretched-out",
+                "fastest"
+            ],
+            "n": 0
+        },
+        {
+            "id": "closest-average",
+            "tier": "power",
+            "t": "A 2019 calculation found that, on average, it is the closest planet to Earth, and to every other planet",
+            "k": [
+                "on average",
+                "2019"
+            ],
+            "n": 0
+        },
+        {
+            "id": "magnetic-sodium",
+            "tier": "power",
+            "t": "Mariner 10 found a weak magnetic field (about 1 percent of Earth’s); sunlight pushes sodium from its exosphere into a comet-like tail",
+            "k": [
+                "magnetic field",
+                "sodium",
+                "exosphere"
+            ],
+            "n": 0
+        },
+        {
+            "id": "holst-mercredi",
+            "tier": "power",
+            "t": "Holst’s _The Planets_ calls it “the Winged Messenger”; the French “mercredi” (Wednesday) comes from its god",
+            "k": [
+                "winged messenger",
+                "mercredi",
+                "wednesday"
+            ],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Planet, god, or Venus?",
+        "body": "Mercury is also the Roman messenger god (the Greek Hermes) and the name of a liquid metal, so cross-category clues about the god can pull players off the planet. In astronomy, Mercury and Venus are both inner planets with no moons that show phases and cross the Sun’s face in transits, so those clues alone do not settle which one is meant.",
+        "fix": "The 88-day year, the 3:2 spin, the Caloris Basin, Mariner 10, MESSENGER, BepiColombo, and Einstein’s 43-arcsecond drift mean Mercury. Acid clouds, a runaway greenhouse effect, a backward spin, Venera, and Magellan mean Venus. If the question says “this planet,” name the planet even when a clue mentions the messenger god.",
+        "line": "Real answer line: <b><u>Mercury</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Mercury",
+            "mercury",
+            "Mercurey",
+            "Planet Mercury",
+            "the planet Mercury"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Venus",
+            "Hermes",
+            "Mars",
+            "Vulcan",
+            "Project Mercury",
+            "Caloris Basin"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

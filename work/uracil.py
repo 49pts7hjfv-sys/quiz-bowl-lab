@@ -1,0 +1,342 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "uracil",
+    "name": "Uracil",
+    "mono": "U",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "RNA base that pairs with adenine · Takes thymine’s place in RNA",
+    "dates": "Found in the RNA of every living cell",
+    "briefing": "Uracil is one of the four chemical letters, or bases, in RNA, abbreviated U. It takes the place of thymine, the base DNA uses, so when a gene is copied into messenger RNA, every adenine in the DNA gets matched with uracil instead of thymine. The two bases are near twins: thymine is simply uracil with one extra methyl group attached.",
+    "answerHtml": "<b><u>Uracil</u></b> (accept <u>U</u>; prompt on <u>uridine</u> or <u>pyrimidine</u>; do not accept “thymine”)",
+    "accept": [
+        "uracil",
+        "uracils",
+        "u"
+    ],
+    "prompt": [
+        "uridine",
+        "pyrimidine",
+        "pyrimidines",
+        "pyrimidine base",
+        "nucleobase",
+        "nitrogenous base"
+    ],
+    "reject": [
+        "thymine",
+        "adenine",
+        "cytosine",
+        "guanine",
+        "uric acid",
+        "urea",
+        "uranium",
+        "ribose",
+        "rna",
+        "dna",
+        "thymidine",
+        "pseudouridine",
+        "dihydrouridine",
+        "uridine triphosphate",
+        "uridine monophosphate",
+        "utp",
+        "ump",
+        "udp",
+        "purine",
+        "purines",
+        "nucleotide",
+        "nucleotides",
+        "nucleoside",
+        "orotic acid"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Uracil",
+    "qb": {
+        "q": "uracil",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1961, Marshall Nirenberg and Heinrich Matthaei added a synthetic RNA made of nothing but this base to a cell-free system and got a protein chain made only of phenylalanine, cracking the first word of the genetic code.",
+            "r": "In RNA, it pairs with adenine. For 10 points, name this base that takes the place of thymine in RNA."
+        },
+        {
+            "p": "When cytosine loses an amino group, it turns into this base, so cells use a repair enzyme found by Nobel laureate Tomas Lindahl to snip this base out of DNA. That is one reason DNA uses a methylated look-alike of this base instead.",
+            "r": "That look-alike is thymine. For 10 points, name this RNA base that pairs with adenine."
+        },
+        {
+            "p": "Katalin Karikó [“KAH-tah-lin KAH-ree-koh”] and Drew Weissman shared the 2023 Nobel Prize in Physiology or Medicine for showing that messenger RNA made with pseudouridine in place of the nucleoside built from this base does not set off a strong immune reaction, work that helped make mRNA vaccines against COVID-19 possible.",
+            "r": "It pairs with adenine. For 10 points, name this pyrimidine base found in RNA in place of thymine."
+        },
+        {
+            "p": "In 2023, scientists reported finding this base in samples that Japan’s Hayabusa2 spacecraft brought back from the asteroid Ryugu. It had earlier been detected in the Murchison meteorite, which fell in Australia in 1969.",
+            "r": "In RNA, it pairs with adenine. For 10 points, name this base that replaces thymine in RNA."
+        },
+        {
+            "p": "Francis Crick’s 1966 wobble hypothesis explained how this base, at the first position of a transfer RNA’s anticodon, can pair with guanine as well as with its usual partner. That loose fit lets one transfer RNA read more than one codon.",
+            "r": "Its usual partner is adenine. For 10 points, name this base that RNA uses instead of thymine."
+        },
+        {
+            "p": "All three stop codons in the standard genetic code begin with this base, and the usual start codon has it as its middle letter. All six codons for the amino acid leucine also have it in the middle.",
+            "r": "For 10 points, name this base, found in messenger RNA, that pairs with adenine."
+        },
+        {
+            "p": "The enzyme thymidylate synthase makes the thymine nucleotides that DNA needs by adding a methyl group to a nucleotide carrying this base. Like cytosine, this base is a pyrimidine, built on a single six-membered ring with two nitrogen atoms.",
+            "r": "In RNA, it pairs with adenine. For 10 points, name this base that takes thymine’s place in RNA."
+        },
+        {
+            "p": "Before glucose can be added to a growing glycogen chain, it is first attached to a nucleotide carrying this base, forming an activated sugar. Plants use the same kind of activated sugar to build sucrose and cellulose.",
+            "r": "Its nucleoside is uridine. For 10 points, name this pyrimidine base that pairs with adenine in RNA."
+        },
+        {
+            "p": "Cells build pyrimidine nucleotides starting from orotic acid, and the first finished one, which carries this base, forms when carbon dioxide is removed from orotidine [“or-OH-tih-deen”] monophosphate. Cytosine nucleotides are then made by adding an amino group to triphosphate nucleotides of this base.",
+            "r": "It pairs with adenine. For 10 points, name this RNA base, which takes the place of thymine."
+        },
+        {
+            "p": "A few viruses that infect bacteria, such as the phage PBS2, carry this base in their DNA, and they make a protein that blocks the host enzyme that would cut it out. Most other DNA contains this base only by mistake or damage.",
+            "r": "In RNA, it pairs with adenine. For 10 points, name this base that RNA uses in place of thymine."
+        },
+        {
+            "p": "The D arm of transfer RNA is named for dihydrouridine [“dy-HY-droh-YOOR-ih-deen”], a modified version of the nucleoside built from this base. This base forms just two hydrogen bonds with its partner, one fewer than guanine and cytosine share.",
+            "r": "That partner is adenine. For 10 points, name this base that replaces thymine in RNA."
+        },
+        {
+            "p": "In a type of RNA editing, an enzyme converts one cytosine in the messenger RNA for apolipoprotein B into this base, creating a stop codon, so intestine cells make a shorter version of that protein than liver cells do.",
+            "r": "It pairs with adenine. For 10 points, name this pyrimidine base found in RNA but not normally in DNA."
+        },
+        {
+            "p": "Biologists who want to tag newly made RNA feed cells a radioactive nucleoside built from this base, while they tag newly made DNA with radioactive thymidine instead. Each RNA strand has this base wherever the DNA template it was copied from had an adenine.",
+            "r": "Its nucleoside is uridine. For 10 points, name this base, found in RNA instead of thymine."
+        },
+        {
+            "p": "Har Gobind Khorana built RNA strands that alternated this base with cytosine, and they produced protein chains that alternated the amino acids serine and leucine. Khorana shared the 1968 Nobel Prize with Marshall Nirenberg and Robert Holley.",
+            "r": "In RNA, it takes thymine’s place. For 10 points, name this base that pairs with adenine."
+        },
+        {
+            "p": "In 2025, scientists reported that samples NASA’s OSIRIS-REx spacecraft brought back from the asteroid Bennu contain all five bases found in DNA and RNA, including this one. This base’s chemical formula is C4H4N2O2.",
+            "r": "Life normally uses it only in RNA, where it pairs with adenine. For 10 points, name this base."
+        }
+    ],
+    "clues": [
+        {
+            "id": "rna-base",
+            "tier": "giveaway",
+            "t": "A base found in RNA but not normally in DNA",
+            "k": ["base", "rna"],
+            "n": 0,
+            "rabbit": "RNA"
+        },
+        {
+            "id": "replaces-thymine",
+            "tier": "giveaway",
+            "t": "Takes the place of thymine, the DNA base it most resembles",
+            "k": ["thymine", "place"],
+            "n": 0
+        },
+        {
+            "id": "pairs-adenine",
+            "tier": "giveaway",
+            "t": "Pairs with adenine, forming two hydrogen bonds",
+            "k": ["adenine", "hydrogen bonds"],
+            "n": 0,
+            "rabbit": "Hydrogen bonds"
+        },
+        {
+            "id": "pyrimidine",
+            "tier": "giveaway",
+            "t": "A pyrimidine, built on a single ring, like cytosine and thymine",
+            "k": ["pyrimidine", "single ring"],
+            "n": 0
+        },
+        {
+            "id": "four-bases",
+            "tier": "giveaway",
+            "t": "One of RNA’s four bases, with adenine, guanine, and cytosine",
+            "k": ["four bases", "guanine", "cytosine"],
+            "n": 0
+        },
+        {
+            "id": "methyl",
+            "tier": "middle",
+            "t": "Adding a methyl group to it makes thymine",
+            "k": ["methyl group", "methyl"],
+            "n": 0
+        },
+        {
+            "id": "uridine",
+            "tier": "middle",
+            "t": "Joined to the sugar ribose, it forms the nucleoside uridine",
+            "k": ["uridine", "ribose", "nucleoside"],
+            "n": 0,
+            "rabbit": "Nucleotides"
+        },
+        {
+            "id": "transcription",
+            "tier": "middle",
+            "t": "During transcription, RNA polymerase places it wherever the DNA template has an adenine",
+            "k": ["transcription", "rna polymerase", "template"],
+            "n": 0,
+            "rabbit": "Transcription"
+        },
+        {
+            "id": "cytosine-damage",
+            "tier": "middle",
+            "t": "Cytosine that loses an amino group becomes this base, so DNA uses thymine and repair enzymes cut this base out of DNA",
+            "k": ["amino group", "repair enzymes"],
+            "n": 0
+        },
+        {
+            "id": "codons",
+            "tier": "middle",
+            "t": "All three stop codons begin with it; the usual start codon and all six leucine codons have it in the middle",
+            "k": ["stop codons", "start codon", "leucine"],
+            "n": 0
+        },
+        {
+            "id": "nirenberg",
+            "tier": "middle",
+            "t": "Nirenberg and Matthaei (1961): RNA made only of this base coded for a chain of phenylalanine, cracking the first codon",
+            "k": ["nirenberg", "phenylalanine", "1961"],
+            "n": 0
+        },
+        {
+            "id": "lindahl",
+            "tier": "power",
+            "t": "Tomas Lindahl found the repair enzyme that removes it from DNA; he shared the 2015 Nobel Prize in Chemistry",
+            "k": ["lindahl", "2015"],
+            "n": 0
+        },
+        {
+            "id": "mrna-vaccines",
+            "tier": "power",
+            "t": "Karikó and Weissman (2023 Nobel) used pseudouridine in place of its nucleoside in mRNA, which helped make COVID-19 mRNA vaccines possible",
+            "k": ["pseudouridine", "karikó", "weissman"],
+            "n": 0
+        },
+        {
+            "id": "wobble",
+            "tier": "power",
+            "t": "Crick’s 1966 wobble hypothesis: at an anticodon’s first position it can pair with guanine as well as adenine",
+            "k": ["wobble", "anticodon", "guanine"],
+            "n": 0
+        },
+        {
+            "id": "thymidylate-synthase",
+            "tier": "power",
+            "t": "Thymidylate synthase adds a methyl group to a nucleotide of this base to make the thymine nucleotides DNA needs",
+            "k": ["thymidylate synthase"],
+            "n": 0
+        },
+        {
+            "id": "glycogen",
+            "tier": "power",
+            "t": "Glucose is attached to a nucleotide carrying it, forming an activated sugar, before being added to glycogen; plants use the same trick for sucrose and cellulose",
+            "k": ["glycogen", "activated sugar"],
+            "n": 0
+        },
+        {
+            "id": "pyrimidine-synthesis",
+            "tier": "power",
+            "t": "Pyrimidine nucleotides are built from orotic acid; the first finished one carries this base, and cytosine nucleotides are made from its triphosphate",
+            "k": ["orotic acid", "orotidine", "triphosphate"],
+            "n": 0
+        },
+        {
+            "id": "pbs2",
+            "tier": "power",
+            "t": "The phage PBS2 carries it in its DNA and blocks the host enzyme that would cut it out",
+            "k": ["pbs2", "phage"],
+            "n": 0,
+            "rabbit": "Bacteriophages"
+        },
+        {
+            "id": "d-arm",
+            "tier": "power",
+            "t": "The D arm of transfer RNA is named for dihydrouridine, a modified version of its nucleoside",
+            "k": ["dihydrouridine", "d arm"],
+            "n": 0
+        },
+        {
+            "id": "rna-editing",
+            "tier": "power",
+            "t": "RNA editing turns one cytosine in apolipoprotein B messenger RNA into this base, creating a stop codon in intestine cells",
+            "k": ["rna editing", "apolipoprotein b"],
+            "n": 0
+        },
+        {
+            "id": "radioactive-label",
+            "tier": "power",
+            "t": "Biologists tag new RNA with its radioactive nucleoside and new DNA with radioactive thymidine",
+            "k": ["radioactive", "thymidine"],
+            "n": 0
+        },
+        {
+            "id": "khorana",
+            "tier": "power",
+            "t": "Har Gobind Khorana’s RNA alternating it with cytosine made chains alternating serine and leucine; he shared the 1968 Nobel Prize",
+            "k": ["khorana", "serine", "1968"],
+            "n": 0
+        },
+        {
+            "id": "ryugu-murchison",
+            "tier": "power",
+            "t": "Found in asteroid Ryugu samples returned by Hayabusa2 (reported 2023) and in the Murchison meteorite, which fell in Australia in 1969",
+            "k": ["ryugu", "hayabusa2", "murchison"],
+            "n": 0
+        },
+        {
+            "id": "bennu",
+            "tier": "power",
+            "t": "Samples from the asteroid Bennu, returned by OSIRIS-REx, contain all five DNA and RNA bases, including this one (reported 2025)",
+            "k": ["bennu", "osiris-rex"],
+            "n": 0
+        },
+        {
+            "id": "formula",
+            "tier": "power",
+            "t": "Its chemical formula is C4H4N2O2: a six-membered ring with two nitrogen atoms",
+            "k": ["c4h4n2o2", "six-membered"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "RNA’s base, not DNA’s",
+        "body": "Uracil and thymine do the same job, since each pairs with adenine, and thymine is just uracil with an extra methyl group, so base-pairing clues can fit either one. Thymine is DNA’s version and uracil is RNA’s. Uridine is the nucleoside (uracil plus the sugar ribose), not the base itself, and uric acid and urea are unrelated waste products with similar-sounding names.",
+        "fix": "Listen for which nucleic acid the clues describe: RNA, messenger RNA, codons, or transcription point to uracil, while the double helix and DNA replication point to thymine. If you say “uridine,” expect a prompt for the base.",
+        "line": "Real answer line: <b><u>Uracil</u></b> (accept <u>U</u>; prompt on <u>uridine</u>; do not accept “thymine”)"
+    },
+    "tests": {
+        "right": [
+            "Uracil",
+            "U",
+            "uracyl",
+            "Urasil"
+        ],
+        "prompt": [
+            "Uridine",
+            "pyrimidine"
+        ],
+        "wrong": [
+            "Thymine",
+            "Adenine",
+            "Uric acid",
+            "Cytosine",
+            "Urea",
+            "Pseudouridine"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

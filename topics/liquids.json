@@ -1,0 +1,428 @@
+{
+  "id": "liquids",
+  "name": "Liquids",
+  "mono": "LIQ",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "State of matter that flows · Fixed volume, but takes its container’s shape",
+  "dates": "Archimedes studied floating in them, c. 250 BCE",
+  "briefing": "A liquid keeps its volume but not its shape: pour a cup of juice into a bowl and it spreads out to fit, without getting any bigger or smaller. Its particles stay close together but slide past one another, which is why liquids flow, drip, and splash. Only two elements, mercury and bromine, are liquid at room temperature, and one of the slowest-flowing liquids ever studied, a lump of tar-like pitch, dripped only nine times from 1927 to 2014.",
+  "answerHtml": "<b><u>Liquid</u></b>s (accept <u>liquid</u> state or <u>liquid</u> phase; prompt on <u>fluid</u>s; do not accept “solid,” “gas,” or “plasma”)",
+  "accept": [
+    "liquids",
+    "liquid",
+    "liquid state",
+    "liquid phase",
+    "liquid state of matter",
+    "liquid phase of matter",
+    "liquid form"
+  ],
+  "prompt": [
+    "fluid",
+    "fluids",
+    "fluid state"
+  ],
+  "reject": [
+    "solid",
+    "solids",
+    "solid state",
+    "gas",
+    "gases",
+    "gaseous",
+    "gas phase",
+    "vapor",
+    "vapour",
+    "plasma",
+    "plasmas",
+    "liquid crystal",
+    "liquid crystals",
+    "superfluid",
+    "superfluids",
+    "supercritical fluid",
+    "bose einstein condensate",
+    "melting",
+    "viscosity",
+    "surface tension"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Liquid",
+  "qb": {
+    "q": "liquid",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1927, Thomas Parnell set up an experiment to show his students that pitch, a tar-like substance that shatters under a hammer, is really this state of matter. Pitch in his funnel at the University of Queensland dripped only nine times between 1927 and 2014.",
+      "r": "Substances in this state keep a fixed volume but take the shape of their container. For 10 points, name this state of matter between solid and gas."
+    },
+    {
+      "p": "Seismic S waves, which shake rock at right angles to their direction of travel, cannot pass through this state of matter, so they leave a huge “shadow zone” on the far side of Earth from an earthquake. That shadow zone showed that Earth’s outer core is in this state.",
+      "r": "A solid turns into this state when it melts. For 10 points, name this state of matter."
+    },
+    {
+      "p": "Gallium, a metal used to make LEDs, changes into this state at about 30 degrees Celsius, so a piece of it held in a person’s hand soon becomes this state. Bromine, a reddish-brown halogen, is the only nonmetal element in this state at room temperature.",
+      "r": "The only metal in this state at room temperature is mercury. For 10 points, name this state of matter, which flows and takes the shape of its container."
+    },
+    {
+      "p": "To read the volume of one of these substances, lab students look at the curved top surface, called a meniscus, at eye level in a graduated cylinder. Dropping a rock into a cylinder of one of these substances and seeing how far the level rises gives the rock’s volume.",
+      "r": "Their volume is measured in liters and milliliters. For 10 points, name these substances, which have a definite volume but no definite shape."
+    },
+    {
+      "p": "Car brakes and hydraulic lifts work because these substances can barely be squeezed into a smaller volume, so a push on one end is passed through a sealed tube to the other. Blaise Pascal’s principle says that pressure applied to an enclosed fluid, like one of these, spreads equally throughout it.",
+      "r": "For 10 points, name these substances, such as water or oil, that have a definite volume but no definite shape."
+    },
+    {
+      "p": "Once the vapor pressure of one of these substances matches the pressure of the air above it, bubbles of vapor form all through it, which happens to water below 100 degrees Celsius high in the mountains. Evaporation, by contrast, turns this state into a gas only at its surface.",
+      "r": "For 10 points, name this state of matter, which freezes into a solid and boils into a gas."
+    },
+    {
+      "p": "Oobleck, a mix of cornstarch and water named for a Dr. Seuss book, flows like this state of matter when poured slowly but turns firm when punched. Ketchup is one of these substances that gets runnier after it is shaken, an example of a non-Newtonian fluid.",
+      "r": "Honey and syrup are thick examples of this state. For 10 points, name this state of matter, which has a definite volume but no definite shape."
+    },
+    {
+      "p": "Heike Kamerlingh Onnes [“KAH-mer-ling OH-nus”] first turned helium into this state in 1908. Below about 2.2 kelvins, helium in this state becomes a superfluid that flows with no viscosity at all and can even creep up the walls of its container.",
+      "r": "A gas condenses into this state when it cools. For 10 points, name this state of matter, which takes the shape of its container."
+    },
+    {
+      "p": "Above its critical point, a substance can no longer be separated into a gas and this state, so it becomes a supercritical fluid instead. At a substance’s triple point, its solid, its gas, and this state can all exist together, which happens for water at 0.01 degrees Celsius.",
+      "r": "Ice turns into this state when it melts. For 10 points, name this state of matter between solid and gas."
+    },
+    {
+      "p": "In 1827, the botanist Robert Brown watched tiny particles from pollen grains jiggle randomly while floating in one of these substances. Albert Einstein later explained that jiggling as the result of countless molecules of the surrounding substance bumping into the particles.",
+      "r": "Particles in this state are close together but can slide past one another. For 10 points, name this state of matter."
+    },
+    {
+      "p": "Two of these substances that will not mix, like the oil and vinegar in salad dressing, are called immiscible. A “density tower” stacks layers of honey, dish soap, water, and vegetable oil in one glass, with the densest layer at the bottom.",
+      "r": "Water and rubbing alcohol are two of these that mix completely. For 10 points, name this state of matter that pours and takes the shape of its container."
+    },
+    {
+      "p": "A hydrometer, a weighted glass float, measures the density of one of these substances by how deep it sinks into it. Archimedes found that an object placed in one of these substances is pushed upward by a force equal to the weight of the amount it pushes aside.",
+      "r": "For 10 points, name this state of matter, which, unlike a gas, keeps a fixed volume."
+    },
+    {
+      "p": "In the Leidenfrost [“LYE-den-frost”] effect, a drop of one of these substances skitters across a very hot pan on a thin cushion of its own vapor. Sweat cools your skin because the fastest molecules escape from this state as vapor, carrying heat away with them.",
+      "r": "For 10 points, name this state of matter, which turns into a gas when it boils."
+    },
+    {
+      "p": "A paper towel soaks up one of these substances through capillary action, in which it climbs a narrow space on its own. Surface tension gives these substances a stretchy skin that lets water striders walk on ponds, and viscosity measures how slowly one of them flows.",
+      "r": "Honey, milk, and water are examples of this state. For 10 points, name this state of matter."
+    },
+    {
+      "p": "The screens of many calculators and digital watches use special materials that flow like this state of matter while lining up their molecules like a crystal. In the kinetic theory of matter, particles in this state stay close together but have enough energy to slide past one another.",
+      "r": "A substance enters this state at its melting point and leaves it at its boiling point. For 10 points, name this state of matter."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definite-volume",
+      "tier": "giveaway",
+      "t": "Has a definite volume but no definite shape, so it takes the shape of its container",
+      "k": [
+        "definite volume",
+        "shape of its container"
+      ],
+      "n": 0
+    },
+    {
+      "id": "between-solid-gas",
+      "tier": "giveaway",
+      "t": "The state of matter between solid and gas: a solid melts into it, and it freezes back into a solid or boils into a gas",
+      "k": [
+        "solid",
+        "gas",
+        "melts",
+        "boils"
+      ],
+      "n": 0
+    },
+    {
+      "id": "particles-slide",
+      "tier": "giveaway",
+      "t": "Its particles stay close together but slide past one another, which lets it flow",
+      "k": [
+        "slide past",
+        "close together",
+        "flow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "examples",
+      "tier": "giveaway",
+      "t": "Water, milk, juice, oil, and honey are everyday examples",
+      "k": [
+        "water",
+        "honey",
+        "juice"
+      ],
+      "n": 0,
+      "rabbit": "Water"
+    },
+    {
+      "id": "mercury-bromine",
+      "tier": "middle",
+      "t": "Mercury (a metal) and bromine (a nonmetal) are the only elements in this state at room temperature",
+      "k": [
+        "mercury",
+        "bromine",
+        "room temperature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gallium",
+      "tier": "middle",
+      "t": "Gallium, a metal used in LEDs, melts at about 30 °C, so it melts in your hand",
+      "k": [
+        "gallium",
+        "your hand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meniscus",
+      "tier": "middle",
+      "t": "Measured in liters and milliliters; read its curved top surface, the meniscus, at eye level in a graduated cylinder",
+      "k": [
+        "meniscus",
+        "graduated cylinder",
+        "milliliters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "displacement",
+      "tier": "middle",
+      "t": "Water displacement: a rock dropped into a graduated cylinder raises the level by the rock’s volume",
+      "k": [
+        "displacement",
+        "rock’s volume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boiling-evaporation",
+      "tier": "middle",
+      "t": "Boils when its vapor pressure equals the air pressure above it (so water boils below 100 °C on mountains); evaporation happens only at the surface, at any temperature",
+      "k": [
+        "vapor pressure",
+        "evaporation",
+        "mountains"
+      ],
+      "n": 0,
+      "rabbit": "Vapor pressure"
+    },
+    {
+      "id": "properties",
+      "tier": "middle",
+      "t": "Has surface tension (a stretchy skin that holds up water striders), viscosity (resistance to flowing), and capillary action (climbing narrow spaces)",
+      "k": [
+        "surface tension",
+        "viscosity",
+        "capillary action"
+      ],
+      "n": 0,
+      "rabbit": "Surface tension"
+    },
+    {
+      "id": "hydraulics",
+      "tier": "middle",
+      "t": "Hardly squeezable, so car brakes and hydraulic lifts use it to pass a push along; Pascal’s principle says pressure spreads equally through an enclosed fluid",
+      "k": [
+        "hydraulic",
+        "pascal",
+        "brakes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "immiscible",
+      "tier": "middle",
+      "t": "Two that won’t mix, like oil and vinegar, are immiscible; two that mix completely, like water and rubbing alcohol, are miscible",
+      "k": [
+        "immiscible",
+        "miscible",
+        "oil and vinegar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archimedes",
+      "tier": "middle",
+      "t": "Archimedes: an object in it is pushed up by a force equal to the weight of the amount it pushes aside",
+      "k": [
+        "archimedes",
+        "pushed up",
+        "buoyant"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pitch-drop",
+      "tier": "power",
+      "t": "Thomas Parnell’s pitch drop experiment (1927, University of Queensland): pitch shatters under a hammer, yet it dripped nine times by 2014",
+      "k": [
+        "pitch drop",
+        "parnell",
+        "queensland"
+      ],
+      "n": 0
+    },
+    {
+      "id": "s-waves",
+      "tier": "power",
+      "t": "Seismic S waves can’t pass through it, leaving a shadow zone that showed Earth’s outer core is made of it",
+      "k": [
+        "s waves",
+        "shadow zone",
+        "outer core"
+      ],
+      "n": 0,
+      "rabbit": "Earth’s core"
+    },
+    {
+      "id": "kamerlingh-onnes",
+      "tier": "power",
+      "t": "Heike Kamerlingh Onnes first turned helium into this state in 1908",
+      "k": [
+        "kamerlingh onnes",
+        "1908",
+        "helium"
+      ],
+      "n": 0,
+      "rabbit": "Helium"
+    },
+    {
+      "id": "superfluid",
+      "tier": "power",
+      "t": "Below about 2.2 K, helium in this state becomes a superfluid that flows with no viscosity and creeps up container walls",
+      "k": [
+        "superfluid",
+        "2.2",
+        "creeps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "critical-triple",
+      "tier": "power",
+      "t": "Above the critical point it can’t be told apart from a gas (a supercritical fluid); at the triple point it coexists with solid and gas (water: 0.01 °C)",
+      "k": [
+        "critical point",
+        "supercritical fluid",
+        "triple point"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brown-1827",
+      "tier": "power",
+      "t": "Robert Brown (1827) saw tiny particles from pollen grains jiggle while floating in one; Einstein explained it as molecules bumping them",
+      "k": [
+        "robert brown",
+        "pollen",
+        "1827"
+      ],
+      "n": 0,
+      "rabbit": "Brownian motion"
+    },
+    {
+      "id": "oobleck",
+      "tier": "power",
+      "t": "Oobleck (cornstarch and water, named for a Dr. Seuss book) flows when poured slowly but turns firm when punched",
+      "k": [
+        "oobleck",
+        "cornstarch",
+        "dr seuss"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ketchup",
+      "tier": "power",
+      "t": "Ketchup is a non-Newtonian example that gets runnier after it is shaken",
+      "k": [
+        "ketchup",
+        "non-newtonian",
+        "runnier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leidenfrost",
+      "tier": "power",
+      "t": "Leidenfrost effect: a drop skitters across a very hot pan on a cushion of its own vapor; sweat cools you as its fastest molecules escape",
+      "k": [
+        "leidenfrost",
+        "cushion",
+        "sweat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydrometer",
+      "tier": "power",
+      "t": "A hydrometer, a weighted glass float, measures its density by how deep it sinks",
+      "k": [
+        "hydrometer",
+        "density"
+      ],
+      "n": 0,
+      "rabbit": "Density"
+    },
+    {
+      "id": "density-tower",
+      "tier": "power",
+      "t": "A density tower stacks honey, dish soap, water, and vegetable oil in one glass, densest at the bottom",
+      "k": [
+        "density tower",
+        "dish soap",
+        "vegetable oil"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crystal-screens",
+      "tier": "power",
+      "t": "Calculator and digital-watch screens use materials that flow like it but line up their molecules like a crystal (LCDs)",
+      "k": [
+        "crystal",
+        "calculator",
+        "lcd"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Liquid, not fluid",
+    "body": "Fluids include both liquids and gases, since both can flow, so “fluid” only earns a prompt. Players also blurt out “water” when the question asks for the state of matter, or confuse liquids with plasma, the glowing fourth state. Liquid crystals, superfluids, and supercritical fluids are related ideas with their own names.",
+    "fix": "A definite volume but no fixed shape, melting, boiling, a meniscus, mercury and bromine, or S waves blocked by Earth’s outer core all mean liquid. If the substance fills its whole container, it is a gas; if it keeps its own shape, it is a solid. If the question says “this state of matter,” name the state, not an example like water.",
+    "line": "Real answer line: <b><u>Liquid</u></b>s (accept <u>liquid</u> state or <u>liquid</u> phase; prompt on <u>fluid</u>s)"
+  },
+  "tests": {
+    "right": [
+      "Liquids",
+      "liquid",
+      "Liquid state",
+      "Liquds",
+      "liquid phase"
+    ],
+    "prompt": [
+      "Fluid",
+      "fluids"
+    ],
+    "wrong": [
+      "Solid",
+      "Gas",
+      "Plasma",
+      "Liquid crystal",
+      "Viscosity"
+    ]
+  }
+}

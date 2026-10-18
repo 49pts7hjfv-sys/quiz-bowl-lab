@@ -1,0 +1,337 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "hall-effect",
+    "name": "Hall effect",
+    "mono": "HAL",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Sideways voltage from a magnet · Used to sense magnetic fields",
+    "dates": "Discovered by Edwin Hall in 1879",
+    "briefing": "In 1879, a graduate student named Edwin Hall discovered that when an electric current flows through a thin metal strip inside a magnetic field, a small voltage appears across the strip, sideways to the current. The magnetic force pushes the moving charges toward one edge, and that pile-up creates the voltage. Tiny Hall effect sensors detect magnets in phones, cars, and electric motors.",
+    "answerHtml": "<b><u>Hall effect</u></b> (accept specific types such as the <u>quantum Hall effect</u>; prompt on <u>Hall voltage</u> or <u>Hall</u> alone)",
+    "accept": [
+        "hall effect",
+        "hall effects",
+        "hal effect",
+        "classical hall effect",
+        "ordinary hall effect",
+        "quantum hall effect",
+        "integer quantum hall effect",
+        "fractional quantum hall effect",
+        "anomalous hall effect",
+        "spin hall effect"
+    ],
+    "prompt": [
+        "hall",
+        "edwin hall",
+        "hall voltage",
+        "hall voltages",
+        "hall resistance"
+    ],
+    "reject": [
+        "halo effect",
+        "lorentz force",
+        "lorentz",
+        "magnetoresistance",
+        "giant magnetoresistance",
+        "zeeman effect",
+        "stark effect",
+        "faraday effect",
+        "seebeck effect",
+        "peltier effect",
+        "photoelectric effect",
+        "piezoelectric effect",
+        "meissner effect",
+        "josephson effect",
+        "doppler effect",
+        "electromagnetic induction",
+        "hall effect thruster",
+        "hall thruster",
+        "tammany hall"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Hall_effect",
+    "qb": {
+        "q": "Hall effect",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1980, Klaus von Klitzing found that in a very thin, very cold layer of electrons, the resistance tied to this effect comes only in values equal to Planck’s constant over the electron’s charge squared, divided by a whole number. He won the 1985 Nobel Prize in Physics.",
+            "r": "For 10 points, name this effect in which a magnetic field produces a voltage across a conductor, sideways to the current."
+        },
+        {
+            "p": "Daniel Tsui and Horst Störmer [“SHTUR-mer”] discovered a “fractional” version of this effect in 1982, which Robert Laughlin explained using strange quasiparticles that carry one-third of an electron’s charge. All three shared the 1998 Nobel Prize in Physics.",
+            "r": "For 10 points, name this effect, discovered in 1879, in which a sideways voltage appears across a current-carrying conductor in a magnetic field."
+        },
+        {
+            "p": "While a graduate student at Johns Hopkins under Henry Rowland, this effect’s discoverer tested a claim in James Clerk Maxwell’s _Treatise on Electricity and Magnetism_ that a magnet pushes on a wire carrying a current, not on the current itself.",
+            "r": "In 1879, he found a tiny voltage across a thin metal strip. For 10 points, name this effect named for that American physicist."
+        },
+        {
+            "p": "This effect’s namesake coefficient equals one divided by the number of charge carriers per unit volume times their charge, so measuring it tells scientists how many free electrons a metal has. The voltage it produces is larger in a thinner sample.",
+            "r": "For 10 points, name this effect in which a magnetic field pushes moving charges to one side of a conductor, creating a voltage."
+        },
+        {
+            "p": "In some semiconductors, the voltage from this effect points the opposite way from what electrons would produce, showing that the current is carried by positive “holes.” Scientists use this effect to tell n-type semiconductors from p-type ones, and it is much stronger in semiconductors than in metals.",
+            "r": "For 10 points, name this effect, discovered in 1879, in which a sideways voltage appears across a current-carrying strip in a magnetic field."
+        },
+        {
+            "p": "SpaceX’s Starlink satellites adjust their orbits with small electric engines named for this effect, which use a magnetic field to trap swirling electrons and an electric field to fire out charged gas. The European probe SMART-1 used one of those engines to reach the Moon in 2004.",
+            "r": "For 10 points, name this effect in which a magnetic field creates a sideways voltage in a conductor carrying a current."
+        },
+        {
+            "p": "Brushless electric motors use tiny sensors based on this effect to track the position of their spinning magnets, and cars use similar sensors to measure wheel speed for anti-lock brakes. Some phones and tablets use them to notice when a magnetic cover is closed.",
+            "r": "For 10 points, name this effect, the sideways voltage produced across a current-carrying conductor in a magnetic field."
+        },
+        {
+            "p": "National laboratories use a quantized version of this effect as their standard for electrical resistance, and since 2019 the constant h over e squared, about 25,813 ohms, has had an exact value. That constant is named for Klaus von Klitzing.",
+            "r": "For 10 points, name this effect in which charges pushed sideways by a magnetic field build up a voltage across a conductor."
+        },
+        {
+            "p": "In magnetic metals like iron and nickel, an “anomalous” version of this effect is much stronger than usual because it depends on the metal’s own magnetization. Reversing the magnetic field flips the sign of the voltage this effect produces.",
+            "r": "For 10 points, name this effect discovered by an American physicist in 1879, in which a magnetic field makes a sideways voltage across a current."
+        },
+        {
+            "p": "This effect was discovered in 1879, eighteen years before J. J. Thomson discovered the electron, so its discoverer did not yet know what was actually flowing in a wire. Its voltage is proportional to both the current and the strength of the magnetic field.",
+            "r": "For 10 points, name this effect in which a magnetic field pushes moving charges sideways, building up a voltage across a conductor."
+        },
+        {
+            "p": "When this effect reaches a steady state, the sideways electric force on each moving charge exactly cancels the magnetic part of the Lorentz force, so the charges’ drift speed equals the electric field divided by the magnetic field.",
+            "r": "The right-hand rule tells which edge of the conductor the charges pile up on. For 10 points, name this effect, in which a magnetic field creates a sideways voltage."
+        },
+        {
+            "p": "Teslameters, also called gaussmeters, usually measure the strength of a magnetic field with a small probe based on this effect. Clamp meters that measure direct current in a wire without touching it often rely on the same effect.",
+            "r": "For 10 points, name this effect, discovered in 1879, in which a voltage appears across a current-carrying strip placed in a magnetic field."
+        },
+        {
+            "p": "In a “spin” version of this effect, electrons with opposite spins collect on opposite edges of a material even when no magnetic field is applied. Measurements of this effect, together with resistance, tell chip makers how easily charges move through a semiconductor, a property called mobility.",
+            "r": "For 10 points, name this effect, in which a magnetic field produces a voltage across a conductor at right angles to the current."
+        },
+        {
+            "p": "Some gaming keyboards and joysticks use magnet sensors based on this effect, which have no touching parts to wear out. Many car engines use the same kind of sensor to track the position of the crankshaft.",
+            "r": "For 10 points, name this effect, the sideways voltage that appears across a current-carrying conductor in a magnetic field."
+        },
+        {
+            "p": "This effect’s American discoverer went on to teach physics at Harvard for many years. He had found this effect while working toward his doctorate at Johns Hopkins University. In this effect, the magnetic field, the current, and the voltage all point at right angles to one another.",
+            "r": "For 10 points, name this effect, discovered in 1879, that produces a sideways voltage in a conductor sitting in a magnetic field."
+        }
+    ],
+    "clues": [
+        {
+            "id": "sideways-voltage",
+            "tier": "giveaway",
+            "t": "A voltage appears across a current-carrying conductor in a magnetic field, at right angles to the current",
+            "k": ["voltage", "magnetic field", "right angles"],
+            "n": 0,
+            "rabbit": "Magnetic fields"
+        },
+        {
+            "id": "discovered-1879",
+            "tier": "giveaway",
+            "t": "Discovered in 1879 by its American namesake, a graduate student at Johns Hopkins University",
+            "k": ["1879", "johns hopkins", "american"],
+            "n": 0
+        },
+        {
+            "id": "sensors",
+            "tier": "giveaway",
+            "t": "Tiny sensors based on it detect magnets in phones, cars, and electric motors",
+            "k": ["sensors", "magnets", "phones"],
+            "n": 0
+        },
+        {
+            "id": "pile-up",
+            "tier": "giveaway",
+            "t": "The magnetic force pushes moving charges toward one edge, and the pile-up of charge makes the voltage",
+            "k": ["one edge", "pile-up", "moving charges"],
+            "n": 0
+        },
+        {
+            "id": "lorentz-balance",
+            "tier": "middle",
+            "t": "In steady state, the sideways electric force balances the magnetic part of the Lorentz force, so drift speed equals E divided by B",
+            "k": ["lorentz force", "drift speed", "balances"],
+            "n": 0
+        },
+        {
+            "id": "coefficient",
+            "tier": "middle",
+            "t": "Its namesake coefficient equals 1 divided by (carrier density times charge), revealing how many charge carriers a material has",
+            "k": ["coefficient", "carrier density", "charge carriers"],
+            "n": 0
+        },
+        {
+            "id": "holes",
+            "tier": "middle",
+            "t": "The direction of its voltage reveals the sign of the charge carriers, showing positive “holes” in p-type semiconductors",
+            "k": ["holes", "p-type", "sign"],
+            "n": 0,
+            "rabbit": "Semiconductors"
+        },
+        {
+            "id": "semiconductors",
+            "tier": "middle",
+            "t": "Much stronger in semiconductors than in metals, which have far more free electrons; thinner samples give bigger voltages",
+            "k": ["semiconductors", "thinner", "free electrons"],
+            "n": 0
+        },
+        {
+            "id": "proportional",
+            "tier": "middle",
+            "t": "Its voltage is proportional to both the current and the magnetic field strength; reversing the field flips the voltage",
+            "k": ["proportional", "reversing", "flips"],
+            "n": 0
+        },
+        {
+            "id": "teslameters",
+            "tier": "middle",
+            "t": "Probes based on it measure magnetic field strength in teslameters, also called gaussmeters",
+            "k": ["teslameters", "gaussmeters", "probes"],
+            "n": 0
+        },
+        {
+            "id": "motors-cars",
+            "tier": "middle",
+            "t": "Brushless motors use its sensors to track their magnets; cars use them for wheel speed and crankshaft position",
+            "k": ["brushless motors", "wheel speed", "crankshaft"],
+            "n": 0
+        },
+        {
+            "id": "right-hand-rule",
+            "tier": "middle",
+            "t": "The right-hand rule tells which edge of the conductor the charges pile up on",
+            "k": ["right-hand rule", "edge"],
+            "n": 0
+        },
+        {
+            "id": "von-klitzing",
+            "tier": "power",
+            "t": "Klaus von Klitzing found its “quantum” version in 1980: the resistance equals h over e squared divided by a whole number (1985 Nobel Prize)",
+            "k": ["von klitzing", "1980", "quantum", "1985"],
+            "n": 0
+        },
+        {
+            "id": "fractional",
+            "tier": "power",
+            "t": "Daniel Tsui and Horst Störmer found a “fractional” version (1982); Robert Laughlin explained it with one-third-charge quasiparticles (1998 Nobel Prize)",
+            "k": ["tsui", "störmer", "laughlin", "fractional"],
+            "n": 0
+        },
+        {
+            "id": "resistance-standard",
+            "tier": "power",
+            "t": "Labs use its quantized version as the standard for resistance; since 2019, the von Klitzing constant, about 25,813 ohms, is exact",
+            "k": ["25,813", "ohms", "2019"],
+            "n": 0,
+            "rabbit": "Electrical resistance"
+        },
+        {
+            "id": "maxwell-claim",
+            "tier": "power",
+            "t": "Working under Henry Rowland, its discoverer tested Maxwell’s claim in the _Treatise on Electricity and Magnetism_ that a magnet pushes on a wire, not on the current",
+            "k": ["maxwell", "treatise", "rowland"],
+            "n": 0
+        },
+        {
+            "id": "thrusters",
+            "tier": "power",
+            "t": "Electric spacecraft engines named for it move SpaceX’s Starlink satellites; one carried Europe’s SMART-1 probe to the Moon in 2004",
+            "k": ["starlink", "smart-1", "spacecraft engines"],
+            "n": 0
+        },
+        {
+            "id": "anomalous",
+            "tier": "power",
+            "t": "An “anomalous” version is much stronger in magnetic metals like iron and nickel",
+            "k": ["anomalous", "iron", "nickel"],
+            "n": 0
+        },
+        {
+            "id": "spin",
+            "tier": "power",
+            "t": "In a “spin” version, electrons with opposite spins collect on opposite edges, even with no magnetic field",
+            "k": ["spin", "opposite edges"],
+            "n": 0,
+            "rabbit": "Spin (physics)"
+        },
+        {
+            "id": "mobility",
+            "tier": "power",
+            "t": "Measured together with resistance, it tells chip makers the mobility of charges in a semiconductor",
+            "k": ["mobility", "chip makers"],
+            "n": 0
+        },
+        {
+            "id": "clamp-meters",
+            "tier": "power",
+            "t": "Clamp meters that measure direct current without touching a wire often rely on it",
+            "k": ["clamp meters", "direct current"],
+            "n": 0
+        },
+        {
+            "id": "gaming",
+            "tier": "power",
+            "t": "Some gaming keyboards and joysticks use sensors based on it, which have no touching parts to wear out",
+            "k": ["gaming keyboards", "joysticks"],
+            "n": 0
+        },
+        {
+            "id": "before-electron",
+            "tier": "power",
+            "t": "Discovered 18 years before J. J. Thomson discovered the electron in 1897",
+            "k": ["j. j. thomson", "1897", "18 years"],
+            "n": 0,
+            "rabbit": "Electrons"
+        },
+        {
+            "id": "harvard",
+            "tier": "power",
+            "t": "Its discoverer later taught physics at Harvard for many years",
+            "k": ["harvard", "taught physics"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The effect, not its parts",
+        "body": "Tossups on this effect are full of its ingredients, so players blurt the wrong piece. The Lorentz force is the magnetic push on moving charges that causes the effect, the “Hall voltage” is only its result, and saying just “Hall” names a person. Other magnetic effects, like the Zeeman effect (split spectral lines) or magnetoresistance (resistance changing in a magnetic field), have their own answer lines.",
+        "fix": "A current, a magnetic field, and a voltage across the conductor, all at right angles, mean this effect, so say the full name, “Hall effect.” Split spectral lines mean the Zeeman effect, and light knocking electrons out of a metal means the photoelectric effect.",
+        "line": "Real answer line: <b><u>Hall effect</u></b> (accept specific types such as the <u>quantum Hall effect</u>; prompt on <u>Hall voltage</u> or <u>Hall</u> alone)"
+    },
+    "tests": {
+        "right": [
+            "Hall effect",
+            "the Hall effect",
+            "Quantum Hall effect",
+            "Hal effect",
+            "fractional quantum Hall effect"
+        ],
+        "prompt": [
+            "Hall voltage",
+            "Edwin Hall",
+            "Hall"
+        ],
+        "wrong": [
+            "Lorentz force",
+            "Magnetoresistance",
+            "Halo effect",
+            "Zeeman effect",
+            "Photoelectric effect"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

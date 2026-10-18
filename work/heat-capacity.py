@@ -1,0 +1,440 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "heat-capacity",
+    "name": "Heat capacity",
+    "mono": "HC",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Heat needed to warm something one degree · Why water heats up so slowly",
+    "dates": "Studied by Joseph Black in the 1760s",
+    "briefing": "Heat capacity tells how much heat it takes to warm something up by one degree. Water’s value is unusually high, which is why a pot of water takes a while to boil, beach sand gets hot long before the ocean does, and coastal towns have milder weather than places far inland. Scientists often compare substances by their specific heat, the heat capacity of just one gram, and water’s is about 4.18 joules per gram per degree Celsius.",
+    "answerHtml": "<b><u>Heat capacity</u></b> (accept <u>specific heat</u> capacity, <u>molar heat capacity</u>, or <u>thermal capacity</u>; prompt on <u>C</u>; do not accept “latent heat”)",
+    "accept": [
+        "heat capacity",
+        "heat capacities",
+        "specific heat",
+        "specific heats",
+        "specific heat capacity",
+        "specific heat capacities",
+        "molar heat capacity",
+        "molar heat capacities",
+        "thermal capacity",
+        "volumetric heat capacity"
+    ],
+    "prompt": [
+        "c",
+        "cp",
+        "cv",
+        "capacity"
+    ],
+    "reject": [
+        "latent heat",
+        "latent heats",
+        "heat of fusion",
+        "heat of vaporization",
+        "enthalpy",
+        "entropy",
+        "temperature",
+        "thermal energy",
+        "internal energy",
+        "thermal conductivity",
+        "conductivity",
+        "heat capacity ratio",
+        "specific heat ratio",
+        "ratio of specific heats",
+        "adiabatic index",
+        "calorie",
+        "calories",
+        "calorimetry",
+        "calorimeter",
+        "heat transfer",
+        "specific gravity",
+        "specific volume",
+        "capacitance"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Heat_capacity",
+    "qb": {
+        "q": "heat capacity",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The “lambda point” of helium, near 2.2 kelvins, is named for the Greek-letter shape that a graph of this quantity makes as helium turns into a superfluid. A metal’s value of this quantity jumps suddenly at the temperature where the metal becomes a superconductor.",
+            "r": "For 10 points, name this quantity, the amount of heat needed to raise an object’s temperature by one degree."
+        },
+        {
+            "p": "In 1819, Pierre Louis Dulong [“doo-LONG”] and Alexis Petit [“puh-TEE”] found that many solid elements have nearly the same value of this quantity per mole of atoms, about 25 joules per kelvin. Diamond’s value is far lower than that rule predicts at room temperature.",
+            "r": "Water has an unusually high value of it. For 10 points, name this quantity measured in joules per kelvin, which tells how much heat it takes to warm something up."
+        },
+        {
+            "p": "Stars and black holes have negative values of this quantity, meaning they actually get hotter as they lose energy. Unlike its “specific” version, the ordinary version of this quantity depends on how much material an object contains.",
+            "r": "A full swimming pool has a far larger value of it than a cup of water. For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
+        },
+        {
+            "p": "Sea breezes blow onshore on sunny afternoons partly because land has a lower value of this quantity than the ocean, so the land warms up faster. Coastal towns have milder summers and winters than inland towns because of water’s high value of this quantity.",
+            "r": "For 10 points, name this quantity, the amount of heat needed to raise something’s temperature by one degree."
+        },
+        {
+            "p": "Students can find a metal’s value of this quantity per gram by dropping a hot sample into water inside a coffee-cup calorimeter and measuring how much the water warms. The formula Q equals m c delta T uses that per-gram value, symbolized lowercase c.",
+            "r": "For 10 points, name this quantity, which is unusually high for water and tells how much heat it takes to warm something up."
+        },
+        {
+            "p": "The original calorie was defined as the heat needed to warm one gram of water by one degree Celsius, which sets water’s value of this quantity per gram at one calorie per gram per degree. In joules, water’s value is about 4.18 per gram per degree Celsius.",
+            "r": "For 10 points, name this quantity, the amount of heat needed to raise an object’s temperature by one degree."
+        },
+        {
+            "p": "Car engines are cooled mostly with water because its high value of this quantity lets it soak up a lot of heat while warming only a little. Water’s high value of this quantity comes from the energy needed to break its hydrogen bonds.",
+            "r": "For 10 points, name this quantity, measured in joules per kelvin, that tells how much heat it takes to warm something by one degree."
+        },
+        {
+            "p": "The speed of sound in a gas depends on the ratio of this quantity measured at constant pressure to this quantity measured at constant volume, a ratio called gamma. For a gas, the constant-pressure value of this quantity is always the larger one, because some of the added heat goes into pushing the gas outward.",
+            "r": "For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
+        },
+        {
+            "p": "On a heating curve, the slanted sections are less steep when a substance has a larger value of this quantity, while the flat sections show latent heat being absorbed during melting and boiling. Metals like copper have low values of this quantity, so they heat up quickly.",
+            "r": "For 10 points, name this quantity, which is unusually high for water and is measured in joules per kelvin."
+        },
+        {
+            "p": "Before using a calorimeter to measure a reaction, chemists find the calorimeter’s own value of this quantity, often called its “calorimeter constant.” Multiplying an object’s value of this quantity by its temperature change gives the heat it gained or lost.",
+            "r": "For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
+        },
+        {
+            "p": "In the 1760s, the Scottish chemist Joseph Black studied this quantity, which he called a substance’s “capacity for heat,” and he also discovered latent heat. Black showed that equal masses of different substances need different amounts of heat to warm by the same number of degrees.",
+            "r": "For 10 points, name this quantity, which is especially high for water."
+        },
+        {
+            "p": "Nitrogen gas has a larger value of this quantity per mole than argon does, because nitrogen’s two-atom molecules can also store energy by spinning. Helium and argon, both made of single atoms, have the same value of this quantity per mole.",
+            "r": "For 10 points, name this quantity, the amount of heat needed to raise an object’s temperature by one degree."
+        },
+        {
+            "p": "Thick adobe or stone walls have a large value of this quantity, so they keep desert homes cool during the hot day and warm through the cold night. Oceans store huge amounts of heat because of water’s large value of this quantity.",
+            "r": "For 10 points, name this quantity, measured in joules per kelvin, which explains why beach sand heats up faster than the ocean."
+        },
+        {
+            "p": "Albert Einstein’s 1907 model of a solid treated its atoms as tiny vibrating springs to explain why this quantity shrinks at very low temperatures, and Peter Debye [“duh-BYE”] improved that model in 1912. Both models used the new quantum ideas of Max Planck.",
+            "r": "For 10 points, name this quantity, the amount of heat needed to warm an object by one degree."
+        },
+        {
+            "p": "Per gram, ice has only about half the value of this quantity that liquid water has, and steam also has about half of liquid water’s value. The per-gram form of this quantity is called “specific,” and the per-mole form is called “molar.”",
+            "r": "For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "The amount of heat needed to raise an object’s temperature by one degree",
+            "k": [
+                "one degree",
+                "raise",
+                "temperature"
+            ],
+            "n": 0
+        },
+        {
+            "id": "specific-version",
+            "tier": "giveaway",
+            "t": "Its “specific” version is per unit mass (per gram or kilogram); its “molar” version is per mole",
+            "k": [
+                "specific",
+                "per gram",
+                "molar"
+            ],
+            "n": 0
+        },
+        {
+            "id": "water-high",
+            "tier": "giveaway",
+            "t": "Water’s value is unusually high: about 4.18 joules (1 calorie) per gram per degree Celsius",
+            "k": [
+                "water",
+                "4.18",
+                "calorie"
+            ],
+            "n": 0,
+            "rabbit": "Water"
+        },
+        {
+            "id": "beach-sand",
+            "tier": "giveaway",
+            "t": "Explains why beach sand gets hot long before the ocean does",
+            "k": [
+                "beach sand",
+                "ocean"
+            ],
+            "n": 0
+        },
+        {
+            "id": "units",
+            "tier": "middle",
+            "t": "Measured in joules per kelvin; the per-mass version in joules per kilogram per kelvin (or joules per gram per degree Celsius)",
+            "k": [
+                "joules per kelvin",
+                "per kilogram"
+            ],
+            "n": 0
+        },
+        {
+            "id": "q-mc-delta-t",
+            "tier": "middle",
+            "t": "Q = m c ΔT: heat equals mass times the per-gram value (lowercase c) times the temperature change",
+            "k": [
+                "q = m c δt",
+                "mass",
+                "temperature change"
+            ],
+            "n": 0
+        },
+        {
+            "id": "calorimeter",
+            "tier": "middle",
+            "t": "Measured with a calorimeter, like a coffee-cup calorimeter; a calorimeter’s own value is its “calorimeter constant”",
+            "k": [
+                "calorimeter",
+                "coffee-cup",
+                "calorimeter constant"
+            ],
+            "n": 0
+        },
+        {
+            "id": "sea-breezes",
+            "tier": "middle",
+            "t": "Land’s lower value lets it warm faster than the sea, helping cause afternoon sea breezes and milder coastal climates",
+            "k": [
+                "sea breezes",
+                "coastal",
+                "milder"
+            ],
+            "n": 0
+        },
+        {
+            "id": "metals-low",
+            "tier": "middle",
+            "t": "Metals like copper and iron have low values (copper’s per gram is less than a tenth of water’s), so they heat up fast",
+            "k": [
+                "copper",
+                "metals",
+                "tenth"
+            ],
+            "n": 0
+        },
+        {
+            "id": "amount-matters",
+            "tier": "middle",
+            "t": "Depends on how much material there is: a swimming pool’s value is far larger than a cup of water’s",
+            "k": [
+                "swimming pool",
+                "how much material"
+            ],
+            "n": 0
+        },
+        {
+            "id": "heating-curve",
+            "tier": "middle",
+            "t": "On a heating curve, a larger value makes the slanted sections less steep; the flat sections show latent heat",
+            "k": [
+                "heating curve",
+                "slanted",
+                "latent heat"
+            ],
+            "n": 0
+        },
+        {
+            "id": "coolant-hydrogen-bonds",
+            "tier": "middle",
+            "t": "Water’s high value, from its hydrogen bonds, makes it a good coolant for car engines",
+            "k": [
+                "hydrogen bonds",
+                "coolant",
+                "car engines"
+            ],
+            "n": 0,
+            "rabbit": "Hydrogen bonds"
+        },
+        {
+            "id": "lambda-point",
+            "tier": "power",
+            "t": "Helium’s “lambda point,” near 2.2 K, is named for the λ shape its graph makes as helium becomes a superfluid",
+            "k": [
+                "lambda point",
+                "superfluid",
+                "helium"
+            ],
+            "n": 0,
+            "rabbit": "Helium"
+        },
+        {
+            "id": "dulong-petit",
+            "tier": "power",
+            "t": "Dulong and Petit (1819): many solid elements have about 25 joules per kelvin per mole of atoms",
+            "k": [
+                "dulong",
+                "petit",
+                "1819"
+            ],
+            "n": 0
+        },
+        {
+            "id": "einstein-debye",
+            "tier": "power",
+            "t": "Einstein’s 1907 model of vibrating atoms and Debye’s 1912 model explain why it drops toward zero for cold solids",
+            "k": [
+                "einstein",
+                "debye",
+                "1907"
+            ],
+            "n": 0,
+            "rabbit": "Albert Einstein"
+        },
+        {
+            "id": "diamond",
+            "tier": "power",
+            "t": "Diamond’s value at room temperature is far below what the Dulong–Petit rule predicts",
+            "k": [
+                "diamond",
+                "room temperature"
+            ],
+            "n": 0
+        },
+        {
+            "id": "negative",
+            "tier": "power",
+            "t": "Stars and black holes have negative values: they get hotter as they lose energy",
+            "k": [
+                "negative",
+                "black holes",
+                "stars"
+            ],
+            "n": 0,
+            "rabbit": "Black Holes"
+        },
+        {
+            "id": "joseph-black",
+            "tier": "power",
+            "t": "Joseph Black studied a substance’s “capacity for heat” in the 1760s and also discovered latent heat",
+            "k": [
+                "joseph black",
+                "1760s",
+                "capacity for heat"
+            ],
+            "n": 0
+        },
+        {
+            "id": "gamma-sound",
+            "tier": "power",
+            "t": "The constant-pressure value divided by the constant-volume value is gamma, which helps set the speed of sound in a gas",
+            "k": [
+                "gamma",
+                "speed of sound"
+            ],
+            "n": 0
+        },
+        {
+            "id": "pressure-vs-volume",
+            "tier": "power",
+            "t": "For a gas, the constant-pressure value is larger than the constant-volume value, since some heat goes into pushing the gas outward",
+            "k": [
+                "constant pressure",
+                "constant volume",
+                "pushing the gas"
+            ],
+            "n": 0
+        },
+        {
+            "id": "nitrogen-argon",
+            "tier": "power",
+            "t": "Nitrogen gas has a larger value per mole than argon, because its two-atom molecules can also store energy by spinning; single-atom helium and argon share the same value per mole",
+            "k": [
+                "nitrogen",
+                "argon",
+                "spinning"
+            ],
+            "n": 0
+        },
+        {
+            "id": "superconductor-jump",
+            "tier": "power",
+            "t": "A metal’s value jumps suddenly at the temperature where it becomes a superconductor",
+            "k": [
+                "superconductor",
+                "jumps"
+            ],
+            "n": 0,
+            "rabbit": "Superconductivity"
+        },
+        {
+            "id": "ice-steam",
+            "tier": "power",
+            "t": "Per gram, ice and steam each have only about half of liquid water’s value",
+            "k": [
+                "ice",
+                "steam",
+                "half"
+            ],
+            "n": 0
+        },
+        {
+            "id": "adobe",
+            "tier": "power",
+            "t": "Thick adobe or stone walls with large values keep desert homes cool by day and warm at night",
+            "k": [
+                "adobe",
+                "stone walls",
+                "desert"
+            ],
+            "n": 0
+        },
+        {
+            "id": "original-calorie",
+            "tier": "power",
+            "t": "The original calorie was the heat that warms 1 gram of water by 1 °C, so water’s per-gram value is 1 calorie per gram per degree",
+            "k": [
+                "original calorie",
+                "1 gram"
+            ],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not latent heat",
+        "body": "Heat capacity tells how much heat it takes to change an object’s temperature. Latent heat is the heat absorbed or released during a phase change, like melting or boiling, while the temperature does not change at all. Players also blurt out “temperature,” and some questions want only the “specific” version per gram, called specific heat, which is accepted here.",
+        "fix": "Warming by one degree, joules per kelvin, Q = m c ΔT, water’s 4.18, sea breezes, and calorimeters point to heat capacity or specific heat. Melting or boiling at a steady temperature, the flat parts of a heating curve, and heats of fusion or vaporization point to latent heat.",
+        "line": "Real answer line: <b><u>Heat capacity</u></b> (accept <u>specific heat</u> capacity or <u>molar heat capacity</u>; prompt on <u>C</u>; do not accept “latent heat”)"
+    },
+    "tests": {
+        "right": [
+            "Heat capacity",
+            "Specific heat",
+            "specific heat capacity",
+            "Heat capasity",
+            "Molar heat capacity"
+        ],
+        "prompt": [
+            "C",
+            "capacity"
+        ],
+        "wrong": [
+            "Latent heat",
+            "Temperature",
+            "Enthalpy",
+            "Thermal conductivity",
+            "Heat of fusion"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,368 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "thylakoids",
+    "name": "Thylakoids",
+    "mono": "THY",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Coin-shaped sacs inside chloroplasts · Where the light reactions happen",
+    "dates": "Name comes from Greek for “sack”",
+    "briefing": "Thylakoids are flattened, coin-shaped sacs inside chloroplasts, stacked into piles called grana like pancakes. Their membranes are packed with chlorophyll and the rest of the machinery for the light reactions: they capture sunlight, split water to release oxygen, and pump hydrogen ions into their hollow centers to power ATP synthase. The sugar-building Calvin cycle then runs in the fluid around them, the stroma.",
+    "answerHtml": "<b><u>Thylakoids</u></b> (accept <u>thylakoid membranes</u>; prompt on <u>grana</u> or <u>granum</u>; do not accept “stroma,” “lumen,” or “chloroplasts”)",
+    "accept": [
+        "thylakoids",
+        "thylakoid",
+        "thylakoid membrane",
+        "thylakoid membranes",
+        "thylakoid sac",
+        "thylakoid sacs",
+        "thylakoid disks",
+        "thylakoid discs"
+    ],
+    "prompt": [
+        "grana",
+        "granum",
+        "stroma lamellae",
+        "lamellae",
+        "photosynthetic membranes",
+        "photosynthetic membrane"
+    ],
+    "reject": [
+        "thylakoid lumen",
+        "thylakoid space",
+        "lumen",
+        "stroma",
+        "chloroplasts",
+        "chloroplast",
+        "plastids",
+        "plastid",
+        "chlorophyll",
+        "photosystems",
+        "photosystem",
+        "photosystem i",
+        "photosystem ii",
+        "atp synthase",
+        "cristae",
+        "crista",
+        "mitochondria",
+        "mitochondrion",
+        "light reactions",
+        "light dependent reactions",
+        "calvin cycle",
+        "etioplasts",
+        "prolamellar body"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Thylakoid",
+    "qb": {
+        "q": "thylakoid",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In a famous 1966 “acid bath” experiment, André Jagendorf and Ernest Uribe soaked these structures in an acidic solution and then moved them into a basic one with ADP and phosphate, and they made ATP in total darkness. That result strongly supported Peter Mitchell’s theory of chemiosmosis.",
+            "r": "For 10 points, name these coin-shaped sacs inside chloroplasts, stacked into grana, where the light reactions occur."
+        },
+        {
+            "p": "A cluster of four manganese atoms and one calcium atom in these structures splits water molecules, releasing oxygen gas and sending hydrogen ions into their inner space. That oxygen-evolving complex is part of photosystem II, which sits in their membranes.",
+            "r": "For 10 points, name these flattened sacs inside chloroplasts where the light-dependent reactions of photosynthesis happen."
+        },
+        {
+            "p": "Plastocyanin [“plass-toh-SY-uh-nin”], a small protein containing copper, carries electrons through the fluid inside these structures, while plastoquinone [“plass-toh-KWIN-ohn”] shuttles electrons within their membranes. Both carriers help pass electrons from photosystem II to photosystem I, and ferredoxin then carries electrons away from photosystem I on the outer side.",
+            "r": "For 10 points, name these membrane sacs inside chloroplasts, stacked into grana, where sunlight is captured."
+        },
+        {
+            "p": "The knob-shaped part of each ATP synthase in these structures’ membranes faces outward, so ATP is released into the surrounding stroma. In bright light, the inside of these structures becomes far more acidic than the stroma as hydrogen ions pile up there.",
+            "r": "That inner space is the lumen. For 10 points, name these stacked sacs inside chloroplasts."
+        },
+        {
+            "p": "Photosystem II gathers mostly in the tightly stacked regions of these structures, while photosystem I and ATP synthase sit mostly in the unstacked regions, where they can reach the stroma. The unstacked parts that link one stack to the next are called stroma lamellae [“luh-MEL-ee”].",
+            "r": "The stacks are called grana. For 10 points, name these flattened sacs inside chloroplasts."
+        },
+        {
+            "p": "Unlike most cell membranes, which are built mainly from phospholipids, the membranes of these structures are made mostly of galactolipids, lipids with the sugar galactose attached. The most common one, called MGDG, makes up about half of their lipids.",
+            "r": "Their membranes hold chlorophyll and capture light. For 10 points, name these sacs inside chloroplasts."
+        },
+        {
+            "p": "Cyanobacteria have these structures right in their cytoplasm, since they have no chloroplasts, but one unusual genus, Gloeobacter [“GLEE-oh-bak-ter”], has none of them at all and carries out photosynthesis on its cell membrane instead. Chloroplasts inherited these structures from the ancient cyanobacteria they descend from.",
+            "r": "For 10 points, name these membrane sacs, stacked into grana in plants, where the light reactions take place."
+        },
+        {
+            "p": "Seedlings grown in total darkness form a lattice of tubes called a prolamellar [“proh-luh-MEL-er”] body instead of these structures. Once light arrives, that lattice reorganizes into these structures as chlorophyll is made, turning pale etioplasts into green chloroplasts.",
+            "r": "For 10 points, name these coin-shaped sacs, stacked into grana, where chloroplasts capture light energy."
+        },
+        {
+            "p": "In 1941, Samuel Ruben and Martin Kamen used water labeled with the heavy isotope oxygen-18 to show that the oxygen plants release comes from water, which is split in these structures. That splitting, called photolysis, also supplies the electrons that flow through their membranes.",
+            "r": "They are stacked into grana. For 10 points, name these sacs inside chloroplasts where the light reactions occur."
+        },
+        {
+            "p": "In 1937, Robert Hill showed that isolated chloroplasts could release oxygen in light if given a chemical that accepts electrons. In classroom versions of that Hill reaction, the blue dye DCPIP turns colorless as it picks up electrons from these structures.",
+            "r": "For 10 points, name these stacked sacs where the light-dependent reactions of photosynthesis take place."
+        },
+        {
+            "p": "In 1954, Daniel Arnon showed that chloroplasts can make ATP using light, a process called photophosphorylation that happens on these structures. In cyclic electron flow, electrons from photosystem I loop back through these structures’ membranes, making extra ATP but no NADPH.",
+            "r": "These sacs are stacked into grana inside chloroplasts. For 10 points, name these structures where the light reactions happen."
+        },
+        {
+            "p": "The weed killers DCMU and atrazine block the flow of electrons out of photosystem II, which is embedded in the membranes of these structures. Without that electron flow, a plant cannot make the ATP and NADPH its Calvin cycle needs.",
+            "r": "For 10 points, name these coin-shaped sacs inside chloroplasts where the light reactions happen."
+        },
+        {
+            "p": "The name of these structures comes from a Greek word for a sack or pouch. The fluid-filled space inside each one is called the lumen, and the membrane around it is packed with chlorophyll and other pigments.",
+            "r": "Stacks of them, called grana, look like piles of coins inside chloroplasts. For 10 points, name these sacs."
+        },
+        {
+            "p": "The cytochrome b6f complex in these structures’ membranes pumps extra hydrogen ions inward as electrons pass through it. Electrons in these structures follow a zigzag path called the Z-scheme, from the reaction center P680 in photosystem II to P700 in photosystem I.",
+            "r": "For 10 points, name these stacked sacs inside chloroplasts where light energy is captured."
+        },
+        {
+            "p": "These structures are often compared to the cristae of mitochondria, since both are membranes that hold an electron transport chain and use a flow of hydrogen ions through ATP synthase to make ATP. Light-harvesting complexes in their membranes hold chlorophylls and orange carotenoids.",
+            "r": "For 10 points, name these sacs, stacked into grana, where the light reactions of photosynthesis happen."
+        }
+    ],
+    "clues": [
+        {
+            "id": "sacs-in-chloroplasts",
+            "tier": "giveaway",
+            "t": "Flattened, coin-shaped membrane sacs inside chloroplasts",
+            "k": ["coin-shaped", "sacs", "chloroplasts"],
+            "n": 0,
+            "rabbit": "Chloroplasts"
+        },
+        {
+            "id": "light-reactions",
+            "tier": "giveaway",
+            "t": "Where the light-dependent reactions of photosynthesis take place",
+            "k": ["light-dependent", "photosynthesis"],
+            "n": 0,
+            "rabbit": "Photosynthesis"
+        },
+        {
+            "id": "grana",
+            "tier": "giveaway",
+            "t": "Stacked into piles called grana (singular: granum) that look like stacks of coins",
+            "k": ["grana", "granum", "stacked"],
+            "n": 0
+        },
+        {
+            "id": "chlorophyll",
+            "tier": "giveaway",
+            "t": "Their membranes hold chlorophyll, which captures sunlight",
+            "k": ["chlorophyll", "sunlight"],
+            "n": 0
+        },
+        {
+            "id": "stroma",
+            "tier": "giveaway",
+            "t": "Surrounded by the stroma, the fluid where the Calvin cycle builds sugar",
+            "k": ["stroma", "calvin cycle"],
+            "n": 0,
+            "rabbit": "Calvin cycle"
+        },
+        {
+            "id": "lumen",
+            "tier": "middle",
+            "t": "The fluid-filled space inside each one is called the lumen",
+            "k": ["lumen"],
+            "n": 0
+        },
+        {
+            "id": "photolysis",
+            "tier": "middle",
+            "t": "Split water (photolysis), releasing the oxygen that plants give off and supplying electrons",
+            "k": ["photolysis", "water", "oxygen"],
+            "n": 0
+        },
+        {
+            "id": "photosystems",
+            "tier": "middle",
+            "t": "Hold photosystem II and photosystem I in their membranes",
+            "k": ["photosystem"],
+            "n": 0
+        },
+        {
+            "id": "proton-gradient",
+            "tier": "middle",
+            "t": "Electron flow pumps hydrogen ions into the lumen, which becomes far more acidic than the stroma in bright light",
+            "k": ["hydrogen ions", "acidic"],
+            "n": 0
+        },
+        {
+            "id": "atp-synthase",
+            "tier": "middle",
+            "t": "Hydrogen ions flow back out through ATP synthase, whose knob faces the stroma, so ATP is released there",
+            "k": ["atp synthase", "knob"],
+            "n": 0,
+            "rabbit": "ATP"
+        },
+        {
+            "id": "nadph",
+            "tier": "middle",
+            "t": "Their light reactions make the ATP and NADPH that the Calvin cycle needs",
+            "k": ["nadph"],
+            "n": 0
+        },
+        {
+            "id": "stroma-lamellae",
+            "tier": "middle",
+            "t": "Stacks are linked by unstacked bridges called stroma lamellae",
+            "k": ["stroma lamellae", "bridges"],
+            "n": 0
+        },
+        {
+            "id": "cyanobacteria",
+            "tier": "middle",
+            "t": "Cyanobacteria have them right in their cytoplasm; chloroplasts inherited them from ancient cyanobacteria",
+            "k": ["cyanobacteria", "cytoplasm"],
+            "n": 0
+        },
+        {
+            "id": "greek-sack",
+            "tier": "middle",
+            "t": "Their name comes from a Greek word for a sack or pouch",
+            "k": ["greek", "sack", "pouch"],
+            "n": 0
+        },
+        {
+            "id": "cristae",
+            "tier": "middle",
+            "t": "Often compared to mitochondrial cristae: both hold an electron transport chain and use ATP synthase",
+            "k": ["cristae", "electron transport chain"],
+            "n": 0,
+            "rabbit": "Mitochondria"
+        },
+        {
+            "id": "carotenoids",
+            "tier": "middle",
+            "t": "Light-harvesting complexes in their membranes hold chlorophylls and orange carotenoids",
+            "k": ["light-harvesting", "carotenoids"],
+            "n": 0
+        },
+        {
+            "id": "jagendorf",
+            "tier": "power",
+            "t": "Jagendorf and Uribe’s 1966 “acid bath”: moved from acid into a base with ADP, they made ATP in the dark, supporting Peter Mitchell’s chemiosmosis",
+            "k": ["jagendorf", "acid bath", "1966"],
+            "n": 0
+        },
+        {
+            "id": "oxygen-evolving-complex",
+            "tier": "power",
+            "t": "The oxygen-evolving complex of photosystem II, a cluster of four manganese atoms and one calcium atom, splits water",
+            "k": ["oxygen-evolving complex", "manganese", "calcium"],
+            "n": 0
+        },
+        {
+            "id": "carriers",
+            "tier": "power",
+            "t": "Plastoquinone carries electrons in the membrane, copper-containing plastocyanin carries them in the lumen, and ferredoxin takes them from photosystem I",
+            "k": ["plastocyanin", "plastoquinone", "ferredoxin"],
+            "n": 0
+        },
+        {
+            "id": "stacked-unstacked",
+            "tier": "power",
+            "t": "Photosystem II gathers in stacked regions; photosystem I and ATP synthase sit in unstacked regions that touch the stroma",
+            "k": ["unstacked", "stacked regions"],
+            "n": 0
+        },
+        {
+            "id": "galactolipids",
+            "tier": "power",
+            "t": "Their membranes are mostly galactolipids, not phospholipids; one called MGDG makes up about half",
+            "k": ["galactolipids", "mgdg"],
+            "n": 0
+        },
+        {
+            "id": "gloeobacter",
+            "tier": "power",
+            "t": "The cyanobacterium Gloeobacter has none and photosynthesizes on its cell membrane instead",
+            "k": ["gloeobacter"],
+            "n": 0
+        },
+        {
+            "id": "prolamellar-body",
+            "tier": "power",
+            "t": "Dark-grown seedlings form a prolamellar body instead; light reorganizes it as etioplasts turn into chloroplasts",
+            "k": ["prolamellar body", "etioplasts"],
+            "n": 0
+        },
+        {
+            "id": "ruben-kamen",
+            "tier": "power",
+            "t": "Ruben and Kamen (1941) used oxygen-18 to show that the oxygen plants release comes from split water",
+            "k": ["oxygen-18", "ruben", "kamen", "1941"],
+            "n": 0
+        },
+        {
+            "id": "hill-reaction",
+            "tier": "power",
+            "t": "Robert Hill (1937) showed isolated chloroplasts release oxygen in light when given an electron acceptor; in class versions, blue DCPIP turns colorless",
+            "k": ["robert hill", "dcpip", "1937"],
+            "n": 0
+        },
+        {
+            "id": "arnon-cyclic",
+            "tier": "power",
+            "t": "Daniel Arnon found photophosphorylation (1954); cyclic electron flow around photosystem I makes ATP but no NADPH",
+            "k": ["photophosphorylation", "arnon", "cyclic"],
+            "n": 0
+        },
+        {
+            "id": "herbicides",
+            "tier": "power",
+            "t": "The weed killers DCMU and atrazine block electron flow out of photosystem II",
+            "k": ["dcmu", "atrazine", "weed killers"],
+            "n": 0
+        },
+        {
+            "id": "b6f-z-scheme",
+            "tier": "power",
+            "t": "Cytochrome b6f pumps extra hydrogen ions; electrons follow the Z-scheme from P680 (photosystem II) to P700 (photosystem I)",
+            "k": ["cytochrome b6f", "z-scheme", "p680"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Sac, stack, or space?",
+        "body": "Thylakoids are the individual membrane sacs. A stack of them is a granum (plural grana), which earns only a prompt; the fluid around them is the stroma; and the space inside each one is the lumen. The chloroplast is the whole organelle, so none of those answers is the same as this one.",
+        "fix": "“These sacs” or “these membranes” where the light reactions happen means thylakoids. “These stacks” means grana, “this fluid” where the Calvin cycle runs means stroma, and “this inner space” where hydrogen ions pile up means lumen.",
+        "line": "Real answer line: <b><u>Thylakoids</u></b> (accept <u>thylakoid membranes</u>; prompt on <u>grana</u>; do not accept “stroma” or “chloroplasts”)"
+    },
+    "tests": {
+        "right": [
+            "Thylakoids",
+            "thylakoid",
+            "thylakoid membranes",
+            "Thylakiods",
+            "Thylakoid membrane"
+        ],
+        "prompt": [
+            "Grana",
+            "granum"
+        ],
+        "wrong": [
+            "Chloroplast",
+            "Stroma",
+            "Thylakoid lumen",
+            "Cristae",
+            "Chlorophyll",
+            "Lumen"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

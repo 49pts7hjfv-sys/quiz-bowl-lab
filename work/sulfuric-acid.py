@@ -1,0 +1,395 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "sulfuric-acid",
+    "name": "Sulfuric acid",
+    "mono": "SA",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "The “king of chemicals” · The most-made industrial chemical in the world",
+    "dates": "Contact process patented 1831",
+    "briefing": "Sulfuric acid is so important to industry that it is nicknamed the “king of chemicals,” and the world makes more of it than any other chemical, for uses from fertilizer to car batteries. Alchemists called it “oil of vitriol.” It grabs water so fiercely that it turns sugar into a steaming black column of carbon, and mixing it with water releases so much heat that chemists always add the acid to the water, never the reverse.",
+    "answerHtml": "<b><u>Sulfuric acid</u></b> (accept <u>sulphuric acid</u>, <u>H<sub>2</sub>SO<sub>4</sub></u>, or <u>oil of vitriol</u>; prompt on <u>vitriol</u>; do not accept “sulfurous acid”)",
+    "accept": [
+        "sulfuric acid",
+        "sulphuric acid",
+        "h2so4",
+        "oil of vitriol"
+    ],
+    "prompt": [
+        "vitriol",
+        "sulfuric",
+        "sulphuric",
+        "battery acid"
+    ],
+    "reject": [
+        "sulfurous acid",
+        "sulphurous acid",
+        "h2so3",
+        "hso4",
+        "h2s",
+        "hydrogen sulfide",
+        "sulfur",
+        "sulphur",
+        "sulfur dioxide",
+        "sulfur trioxide",
+        "so2",
+        "so3",
+        "oleum",
+        "sulfate",
+        "sulfates",
+        "bisulfate",
+        "hydrogen sulfate",
+        "sulfide",
+        "sulfonic acid",
+        "sulfinic acid",
+        "sulfamic acid",
+        "disulfuric acid",
+        "persulfuric acid",
+        "peroxysulfuric acid",
+        "thiosulfuric acid",
+        "green vitriol",
+        "blue vitriol",
+        "white vitriol",
+        "hydrochloric acid",
+        "nitric acid",
+        "phosphoric acid",
+        "acetic acid",
+        "carbonic acid",
+        "hydrofluoric acid"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Sulfuric_acid",
+    "qb": {
+        "q": "sulfuric acid",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1831, British vinegar merchant Peregrine Phillips patented a way to make this compound in which sulfur dioxide and oxygen react over a hot catalyst. Modern versions of that method, the contact process, use vanadium oxide as the catalyst to make sulfur trioxide.",
+            "r": "For 10 points, name this strong acid whose molecules contain two hydrogen atoms, one sulfur atom, and four oxygen atoms."
+        },
+        {
+            "p": "Johann Glauber [“GLOW-ber”] made hydrochloric acid by heating table salt with this acid, leaving behind sodium sulfate, later called Glauber’s salt. When this acid loses just one of its two hydrogen ions, it becomes the hydrogen sulfate ion, also called bisulfate.",
+            "r": "Its salts are called sulfates. For 10 points, name this strong acid, nicknamed the “king of chemicals.”"
+        },
+        {
+            "p": "Mixing this acid with hydrogen peroxide makes “piranha solution,” which chemists use to strip stubborn grime off glassware. This acid pulls water out of table sugar so strongly that the sugar swells into a steaming black column of carbon.",
+            "r": "For 10 points, name this acid used in car batteries, whose salts are called sulfates."
+        },
+        {
+            "p": "Mixed with nitric acid, this acid produces the nitronium ion, which chemists use to make explosives such as TNT. This acid soaks up water from the air so eagerly that chemists use it to dry gases.",
+            "r": "For 10 points, name this strong acid made by the contact process, the most-produced industrial chemical in the world."
+        },
+        {
+            "p": "Drops of this acid speed up Fischer esterification, which joins an alcohol and a carboxylic acid into a sweet-smelling ester. Reacting this acid with zinc metal releases hydrogen gas and leaves behind zinc sulfate.",
+            "r": "This acid is made by the contact process. For 10 points, name this strong acid, the electrolyte in lead–acid car batteries."
+        },
+        {
+            "p": "In 1746, John Roebuck began making this acid on a large scale inside huge chambers lined with lead, a metal it barely attacks. That lead chamber process used nitrogen oxides to help turn sulfur dioxide into this acid.",
+            "r": "A hydrometer measures the strength of this acid to check a car battery’s charge. For 10 points, name this strong acid."
+        },
+        {
+            "p": "Concentrated samples of this acid are colorless and oily, and about 1.8 times as dense as water. Mixing this acid with water gives off so much heat that chemists always add the acid to the water, never the other way around, to avoid dangerous splattering.",
+            "r": "Venus’s clouds are made of droplets of this acid. For 10 points, name this strong acid, whose salts are called sulfates."
+        },
+        {
+            "p": "After Mount Pinatubo [“pee-nuh-TOO-boh”] erupted in 1991, droplets of this acid formed in the stratosphere and cooled Earth slightly for the next couple of years. Venus is wrapped in thick clouds made of droplets of this acid.",
+            "r": "Sulfur dioxide from burning coal turns into this acid in the air, causing acid rain. For 10 points, name this strong acid, the electrolyte in car batteries."
+        },
+        {
+            "p": "This acid gives up its first hydrogen ion completely in water, but its second one comes off much less easily, so the hydrogen sulfate ion it forms is a weaker acid. More of this acid goes into making phosphate fertilizers than into any other product.",
+            "r": "For 10 points, name this acid made from sulfur, which is produced in greater amounts than any other industrial chemical."
+        },
+        {
+            "p": "Economists once judged a country’s industrial strength by how much of this chemical it produced. In the last step of making this acid, sulfur trioxide is dissolved in concentrated acid to form oleum, because adding it straight to water creates a hard-to-control mist.",
+            "r": "For 10 points, name this strong acid that makes up the electrolyte in car batteries."
+        },
+        {
+            "p": "In each molecule of this acid, a central sulfur atom sits at the middle of a tetrahedron of four oxygen atoms, two of which carry hydrogen atoms. This acid is a powerful dehydrating agent that can char wood, paper, and cloth.",
+            "r": "For 10 points, name this strong acid, the most-produced industrial chemical in the world."
+        },
+        {
+            "p": "Steelmakers often “pickle” steel in this acid to strip away rust and scale before coating it. Chemistry teachers warn students to add this acid to water, never water to the acid, because mixing them gives off so much heat.",
+            "r": "For 10 points, name this strong acid made by the contact process, nicknamed the “king of chemicals.”"
+        },
+        {
+            "p": "Alchemists made this acid by heating green crystals of iron sulfate, a mineral then known as green vitriol. This acid turns table sugar into a tall, steaming black column of carbon by pulling the water out of it.",
+            "r": "For 10 points, name this strong acid whose molecules contain two hydrogen atoms, one sulfur atom, and four oxygen atoms."
+        },
+        {
+            "p": "Treating phosphate rock with this acid produces a fertilizer called superphosphate. In the contact process used to make this acid, sulfur dioxide reacts with oxygen over a vanadium oxide catalyst.",
+            "r": "For 10 points, name this acid, which forms in polluted air from sulfur dioxide and falls to the ground in acid rain."
+        },
+        {
+            "p": "One mole of this acid has a mass of about 98 grams. Its salts include Epsom salt, which is magnesium sulfate, and gypsum, which is calcium sulfate, the mineral in plaster and drywall.",
+            "r": "Reacting this acid with zinc gives off bubbles of hydrogen gas. For 10 points, name this strong acid that fills car batteries."
+        }
+    ],
+    "clues": [
+        {
+            "id": "formula",
+            "tier": "giveaway",
+            "t": "Each molecule has two hydrogen atoms, one sulfur atom, and four oxygen atoms",
+            "k": ["two hydrogen", "four oxygen", "sulfur atom"],
+            "n": 0
+        },
+        {
+            "id": "king",
+            "tier": "giveaway",
+            "t": "Nicknamed the “king of chemicals”; more of it is made than any other industrial chemical",
+            "k": ["king of chemicals", "industrial chemical"],
+            "n": 0
+        },
+        {
+            "id": "strong",
+            "tier": "giveaway",
+            "t": "A strong acid that can give away two hydrogen ions; its salts are called sulfates",
+            "k": ["strong", "sulfates", "two hydrogen ions"],
+            "n": 0,
+            "rabbit": "Acids"
+        },
+        {
+            "id": "batteries",
+            "tier": "giveaway",
+            "t": "The electrolyte in lead–acid car batteries",
+            "k": ["car batteries", "electrolyte", "lead"],
+            "n": 0,
+            "rabbit": "Lead (element)"
+        },
+        {
+            "id": "rain",
+            "tier": "giveaway",
+            "t": "Sulfur dioxide from burning coal turns into it in the air, and it falls to the ground in acid rain",
+            "k": ["sulfur dioxide", "coal", "rain"],
+            "n": 0
+        },
+        {
+            "id": "contact",
+            "tier": "middle",
+            "t": "Made by the contact process: sulfur dioxide reacts with oxygen over a vanadium oxide catalyst to make sulfur trioxide",
+            "k": ["contact process", "vanadium", "sulfur trioxide"],
+            "n": 0
+        },
+        {
+            "id": "oleum",
+            "tier": "middle",
+            "t": "Sulfur trioxide is dissolved in the concentrated acid to make oleum, since adding it straight to water makes a mist",
+            "k": ["oleum", "mist"],
+            "n": 0
+        },
+        {
+            "id": "dehydrating",
+            "tier": "middle",
+            "t": "A powerful dehydrating agent: it pulls water out of sugar, leaving a steaming black column of carbon",
+            "k": ["dehydrating", "sugar", "black column"],
+            "n": 0
+        },
+        {
+            "id": "add-to-water",
+            "tier": "middle",
+            "t": "Always add it to water, never water to it, because mixing gives off so much heat that it can splatter",
+            "k": ["splatter", "heat", "never water"],
+            "n": 0
+        },
+        {
+            "id": "fertilizer",
+            "tier": "middle",
+            "t": "More of it goes into making phosphate fertilizers than into any other product",
+            "k": ["phosphate fertilizers", "fertilizers"],
+            "n": 0
+        },
+        {
+            "id": "venus",
+            "tier": "middle",
+            "t": "Venus is wrapped in thick clouds made of droplets of it",
+            "k": ["venus", "clouds", "droplets"],
+            "n": 0
+        },
+        {
+            "id": "drying",
+            "tier": "middle",
+            "t": "It soaks up water from the air so eagerly that chemists use it to dry gases",
+            "k": ["dry gases", "soaks up water"],
+            "n": 0
+        },
+        {
+            "id": "zinc",
+            "tier": "middle",
+            "t": "Reacting it with zinc releases hydrogen gas and leaves zinc sulfate",
+            "k": ["zinc", "hydrogen gas", "zinc sulfate"],
+            "n": 0
+        },
+        {
+            "id": "bisulfate",
+            "tier": "middle",
+            "t": "Losing one hydrogen ion makes hydrogen sulfate (bisulfate); losing both makes sulfate",
+            "k": ["bisulfate", "hydrogen sulfate"],
+            "n": 0
+        },
+        {
+            "id": "salts",
+            "tier": "middle",
+            "t": "Its salts include Epsom salt (magnesium sulfate) and gypsum (calcium sulfate)",
+            "k": ["epsom salt", "gypsum", "magnesium sulfate"],
+            "n": 0
+        },
+        {
+            "id": "hydrometer",
+            "tier": "middle",
+            "t": "A hydrometer measures its strength to check a car battery’s charge; it gets more dilute as the battery runs down",
+            "k": ["hydrometer", "dilute", "charge"],
+            "n": 0
+        },
+        {
+            "id": "phillips",
+            "tier": "power",
+            "t": "British vinegar merchant Peregrine Phillips patented the contact process for making it in 1831",
+            "k": ["peregrine phillips", "1831", "vinegar"],
+            "n": 0
+        },
+        {
+            "id": "glauber",
+            "tier": "power",
+            "t": "Johann Glauber heated table salt with it to make hydrochloric acid, leaving sodium sulfate (Glauber’s salt)",
+            "k": ["glauber", "hydrochloric", "sodium sulfate"],
+            "n": 0
+        },
+        {
+            "id": "piranha",
+            "tier": "power",
+            "t": "Mixed with hydrogen peroxide, it makes “piranha solution,” which strips grime off glassware",
+            "k": ["piranha solution", "hydrogen peroxide", "glassware"],
+            "n": 0
+        },
+        {
+            "id": "nitration",
+            "tier": "power",
+            "t": "Mixed with nitric acid, it produces the nitronium ion, used to make explosives such as TNT",
+            "k": ["nitronium", "nitric", "tnt"],
+            "n": 0
+        },
+        {
+            "id": "esterification",
+            "tier": "power",
+            "t": "It speeds up Fischer esterification, which joins an alcohol and a carboxylic acid into an ester",
+            "k": ["fischer esterification", "ester", "carboxylic"],
+            "n": 0,
+            "rabbit": "Esters"
+        },
+        {
+            "id": "lead-chamber",
+            "tier": "power",
+            "t": "In 1746, John Roebuck made it in huge lead-lined chambers; the lead chamber process used nitrogen oxides",
+            "k": ["roebuck", "1746", "lead chamber", "nitrogen oxides"],
+            "n": 0
+        },
+        {
+            "id": "density",
+            "tier": "power",
+            "t": "The concentrated liquid is colorless, oily, and about 1.8 times as dense as water",
+            "k": ["oily", "1.8", "dense"],
+            "n": 0
+        },
+        {
+            "id": "pinatubo",
+            "tier": "power",
+            "t": "After Mount Pinatubo erupted in 1991, droplets of it formed in the stratosphere and cooled Earth slightly",
+            "k": ["pinatubo", "1991", "stratosphere"],
+            "n": 0,
+            "rabbit": "Stratosphere"
+        },
+        {
+            "id": "second-hydrogen",
+            "tier": "power",
+            "t": "Its first hydrogen ion breaks off completely, but its second comes off much less easily, so hydrogen sulfate is a weaker acid",
+            "k": ["first hydrogen", "less easily", "weaker"],
+            "n": 0
+        },
+        {
+            "id": "industrial-strength",
+            "tier": "power",
+            "t": "Economists once judged a country’s industrial strength by how much of it the country produced",
+            "k": ["economists", "industrial strength"],
+            "n": 0
+        },
+        {
+            "id": "tetrahedron",
+            "tier": "power",
+            "t": "Its central sulfur atom sits in a tetrahedron of four oxygen atoms, two of which carry hydrogen atoms",
+            "k": ["tetrahedron", "central sulfur"],
+            "n": 0
+        },
+        {
+            "id": "pickling",
+            "tier": "power",
+            "t": "Steelmakers often “pickle” steel in it to strip away rust and scale",
+            "k": ["pickle", "steel", "scale"],
+            "n": 0
+        },
+        {
+            "id": "green-vitriol",
+            "tier": "power",
+            "t": "Alchemists made it by heating green crystals of iron sulfate, then called green vitriol",
+            "k": ["alchemists", "green vitriol", "iron sulfate"],
+            "n": 0
+        },
+        {
+            "id": "superphosphate",
+            "tier": "power",
+            "t": "Treating phosphate rock with it makes a fertilizer called superphosphate",
+            "k": ["superphosphate", "phosphate rock"],
+            "n": 0
+        },
+        {
+            "id": "molar-mass",
+            "tier": "power",
+            "t": "One mole of it has a mass of about 98 grams",
+            "k": ["98 grams", "mole"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Sulfuric, not sulfurous",
+        "body": "Sulfur makes several compounds with look-alike names. Sulfurous acid has one fewer oxygen atom and forms when sulfur dioxide dissolves in water, and hydrogen sulfide is a gas that smells like rotten eggs. Mixing up the endings “-ic” and “-ous” names a different acid, so it loses the tossup.",
+        "fix": "Count the oxygens. Four oxygen atoms, the contact process, oleum, car batteries, and the “king of chemicals” all mean this acid; three oxygen atoms means sulfurous acid. Say the whole name, ending in “-ic acid.”",
+        "line": "Real answer line: <b><u>Sulfuric acid</u></b> (accept <u>H<sub>2</sub>SO<sub>4</sub></u> or <u>oil of vitriol</u>; do not accept “sulfurous acid”)"
+    },
+    "tests": {
+        "right": [
+            "Sulfuric acid",
+            "sulphuric acid",
+            "H2SO4",
+            "oil of vitriol",
+            "sulfuric acd"
+        ],
+        "prompt": [
+            "Vitriol",
+            "sulfuric"
+        ],
+        "wrong": [
+            "Sulfurous acid",
+            "H2SO3",
+            "Hydrochloric acid",
+            "Sulfur",
+            "Sulfur trioxide",
+            "Hydrogen sulfide",
+            "Nitric acid",
+            "Oleum"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

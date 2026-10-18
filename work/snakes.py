@@ -1,0 +1,363 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "snakes",
+    "name": "Snakes",
+    "mono": "SNK",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Legless reptiles · Smell with forked tongues and swallow prey whole",
+    "dates": "More than 3,500 living species",
+    "briefing": "Snakes are legless reptiles found on every continent except Antarctica. They smell by flicking their forked tongues, have no eyelids or outer ears, and can stretch their jaws around prey wider than their own heads. Some, like cobras and vipers, use venom; others, like boas and pythons, squeeze their prey; and the reticulated python can grow more than 20 feet long.",
+    "answerHtml": "<b><u>Snakes</u></b> (accept <u>snake</u>, <u>Serpentes</u>, <u>serpents</u>, or <u>ophidians</u>; prompt on <u>reptiles</u> or <u>squamates</u>; do not accept “lizards”)",
+    "accept": [
+        "snakes",
+        "snake",
+        "serpentes",
+        "serpents",
+        "serpent",
+        "ophidians",
+        "ophidian",
+        "ophidia"
+    ],
+    "prompt": [
+        "reptiles",
+        "reptile",
+        "reptilia",
+        "squamates",
+        "squamate",
+        "squamata"
+    ],
+    "reject": [
+        "lizards",
+        "lizard",
+        "legless lizards",
+        "legless lizard",
+        "glass lizards",
+        "glass lizard",
+        "worm lizards",
+        "worm lizard",
+        "amphisbaenians",
+        "caecilians",
+        "caecilian",
+        "eels",
+        "eel",
+        "worms",
+        "worm",
+        "earthworms",
+        "amphibians",
+        "turtles",
+        "crocodiles",
+        "dinosaurs",
+        "mammals",
+        "obsidian"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Snake",
+    "qb": {
+        "q": "snake",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "These animals collect scent particles from the air and ground and deliver them to a sensing structure in the roof of the mouth called the vomeronasal [“voh-muh-roh-NAY-zul”], or Jacobson’s, organ. The two tips of the body part that does the collecting help them follow scent trails.",
+            "r": "That body part is a forked tongue. For 10 points, name these legless reptiles that include cobras, pythons, and vipers."
+        },
+        {
+            "p": "Some of these animals have heat-sensing holes between each eye and nostril, called loreal [“LOR-ee-ul”] pits, which let them detect the infrared glow of warm-blooded prey in total darkness. Others have smaller heat-sensing pits along their lips.",
+            "r": "Pit vipers such as copperheads have the first kind, while boas and pythons have the second. For 10 points, name these legless reptiles."
+        },
+        {
+            "p": "Najash [“NAH-hahsh”], a fossil from Argentina named for a legged creature in the Book of Genesis, shows that early members of this group still had hind legs. Some living members of this group keep tiny, claw-like spurs near the tail, the last traces of those legs.",
+            "r": "Boas and pythons have those spurs. For 10 points, name these legless reptiles that smell with forked tongues."
+        },
+        {
+            "p": "Instead of eyelids, these animals have a clear scale called the brille [“BRILL-uh”], or spectacle, over each eye, which clouds over shortly before they shed. They have no outer ear openings, so they mostly sense sound as vibrations traveling through their jawbones.",
+            "r": "They often shed their skin in one piece. For 10 points, name these legless reptiles, which include cobras and pythons."
+        },
+        {
+            "p": "The two halves of the lower jaw of one of these animals are not fused at the chin but joined by a stretchy ligament, so its mouth can open extremely wide. One African kind, the egg-eater, uses bony points on its neck vertebrae to crack eggs it has swallowed whole.",
+            "r": "Cobras and pythons are examples. For 10 points, name these legless reptiles, which can swallow prey wider than their own heads."
+        },
+        {
+            "p": "Scientists long believed that members of this group that coil around and squeeze their prey kill it by suffocation, but a 2015 study showed that the squeezing mainly stops the prey’s blood flow. The longest member of this group is a reticulated species from Southeast Asia.",
+            "r": "The heaviest is the green anaconda. For 10 points, name these legless reptiles, which also include cobras and vipers."
+        },
+        {
+            "p": "Members of this group in the family Elapidae [“ee-LAP-ih-dee”] have short front fangs fixed in place, while those in the family Viperidae [“vy-PAIR-ih-dee”] have long, hollow fangs that fold back when the mouth closes. The largest family in this group, Colubridae [“kuh-LOO-brih-dee”], includes many harmless species.",
+            "r": "Elapids include cobras and mambas. For 10 points, name these legless reptiles that smell with forked tongues."
+        },
+        {
+            "p": "Fossils of Titanoboa, a member of this group that lived a few million years after the dinosaurs died out, were found in a coal mine in Colombia. Scientists estimate it grew to about 40 feet long, making it the largest member of this group ever found.",
+            "r": "Its closest living relatives include boas and anacondas, which squeeze their prey. For 10 points, name these legless reptiles."
+        },
+        {
+            "p": "After World War II, a brown, tree-climbing member of this group reached the Pacific island of Guam, probably hidden in military cargo, and wiped out most of the island’s native forest birds, which had never faced such a predator.",
+            "r": "Burmese pythons have also invaded Florida’s Everglades. For 10 points, name these legless reptiles."
+        },
+        {
+            "p": "In tight tunnels, these animals bunch up and stretch out like an accordion, a method called concertina movement, while heavy members of this group creep in a straight line using their belly scales. The sidewinder moves sideways in loops that leave J-shaped tracks in the sand.",
+            "r": "Most of the time, they slither in S-shaped waves. For 10 points, name these legless reptiles."
+        },
+        {
+            "p": "Members of this group molt in a process called ecdysis [“EK-dih-sis”], rubbing their snouts on rough surfaces to start peeling off the old outer layer. Each time certain American pit vipers molt, a new hollow keratin segment is added to the tip of the tail, building up a warning rattle.",
+            "r": "They often shed their skin in one piece, and pythons and cobras belong to this group. For 10 points, name these legless reptiles."
+        },
+        {
+            "p": "In most members of this group, the left lung is tiny or missing, leaving one long right lung to do most of the breathing. Their skeletons can contain hundreds of vertebrae, and almost every vertebra in front of the tail carries a pair of ribs.",
+            "r": "Their long bodies have no legs at all. For 10 points, name these reptiles that include cobras, pythons, and vipers."
+        },
+        {
+            "p": "Harmless members of the genus Lampropeltis [“lamp-roh-PEL-tis”] copy the red, black, and yellow bands of venomous coral species in this group, an example of Batesian mimicry. The eastern hognose rolls onto its back and plays dead when threatened, sometimes letting its tongue hang out.",
+            "r": "These animals smell by flicking forked tongues. For 10 points, name these legless reptiles."
+        },
+        {
+            "p": "To make antivenom for bites from these animals, scientists often inject horses with small doses of venom and then collect the antibodies the horses make. The inland taipan of Australia has the most toxic venom of any land-dwelling member of this group.",
+            "r": "The king cobra is the longest venomous one. For 10 points, name these legless reptiles."
+        },
+        {
+            "p": "In Rudyard Kipling’s story “Rikki-Tikki-Tavi,” a mongoose battles two of these animals, Nag and Nagaina [“nah-GY-nuh”]. A staff with one of these animals wrapped around it, the Rod of Asclepius [“ass-KLEE-pee-us”], is a symbol of medicine.",
+            "r": "Medusa had them instead of hair, and the infant Heracles strangled two of them. For 10 points, name these legless reptiles."
+        }
+    ],
+    "clues": [
+        {
+            "id": "legless-reptiles",
+            "tier": "giveaway",
+            "t": "Long, legless reptiles covered in scales",
+            "k": ["legless", "reptiles", "scales"],
+            "n": 0
+        },
+        {
+            "id": "examples",
+            "tier": "giveaway",
+            "t": "Include cobras, pythons, boas, anacondas, vipers, and rattlers",
+            "k": ["cobras", "pythons", "vipers"],
+            "n": 0
+        },
+        {
+            "id": "forked-tongue",
+            "tier": "giveaway",
+            "t": "Smell by flicking their forked tongues",
+            "k": ["forked", "tongues"],
+            "n": 0
+        },
+        {
+            "id": "swallow-whole",
+            "tier": "giveaway",
+            "t": "Swallow prey whole, stretching their jaws around animals wider than their heads",
+            "k": ["swallow", "whole", "jaws"],
+            "n": 0
+        },
+        {
+            "id": "shed-skin",
+            "tier": "giveaway",
+            "t": "Shed their skin, often in one piece",
+            "k": ["shed", "skin"],
+            "n": 0
+        },
+        {
+            "id": "jacobsons-organ",
+            "tier": "middle",
+            "t": "The tongue carries scent particles to the vomeronasal, or Jacobson’s, organ in the roof of the mouth",
+            "k": ["jacobson", "vomeronasal", "roof"],
+            "n": 0
+        },
+        {
+            "id": "heat-pits",
+            "tier": "middle",
+            "t": "Pit vipers sense infrared heat from prey with loreal pits between eye and nostril; boas and pythons have heat pits on their lips",
+            "k": ["infrared", "pit vipers", "loreal pits"],
+            "n": 0
+        },
+        {
+            "id": "constrictors",
+            "tier": "middle",
+            "t": "Boas, pythons, and anacondas are constrictors: they coil around their prey and squeeze",
+            "k": ["constrictors", "squeeze", "coil"],
+            "n": 0
+        },
+        {
+            "id": "venom-fangs",
+            "tier": "middle",
+            "t": "Venomous kinds inject venom through fangs; their venom glands are modified salivary glands",
+            "k": ["venom", "fangs", "salivary"],
+            "n": 0
+        },
+        {
+            "id": "no-eyelids",
+            "tier": "middle",
+            "t": "No eyelids: a clear scale called the brille, or spectacle, covers each eye and clouds over before shedding",
+            "k": ["eyelids", "brille", "spectacle"],
+            "n": 0
+        },
+        {
+            "id": "no-ears",
+            "tier": "middle",
+            "t": "No outer ears; they sense sound mostly as vibrations traveling through the jaw",
+            "k": ["outer ears", "vibrations"],
+            "n": 0
+        },
+        {
+            "id": "longest-heaviest",
+            "tier": "middle",
+            "t": "The reticulated python of Southeast Asia is the longest; the green anaconda is the heaviest",
+            "k": ["reticulated python", "green anaconda"],
+            "n": 0
+        },
+        {
+            "id": "king-cobra",
+            "tier": "middle",
+            "t": "The king cobra is the longest venomous kind",
+            "k": ["king cobra", "venomous"],
+            "n": 0
+        },
+        {
+            "id": "everglades",
+            "tier": "middle",
+            "t": "Burmese pythons have invaded Florida’s Everglades",
+            "k": ["burmese pythons", "everglades"],
+            "n": 0
+        },
+        {
+            "id": "ireland",
+            "tier": "middle",
+            "t": "Legend says Saint Patrick drove them out of Ireland, which has no native ones",
+            "k": ["saint patrick", "ireland"],
+            "n": 0,
+            "rabbit": "Ireland"
+        },
+        {
+            "id": "medusa-heracles",
+            "tier": "middle",
+            "t": "Medusa had them instead of hair, and the infant Heracles strangled two that Hera sent",
+            "k": ["medusa", "heracles"],
+            "n": 0,
+            "rabbit": "Heracles"
+        },
+        {
+            "id": "najash-spurs",
+            "tier": "power",
+            "t": "The fossil Najash from Argentina had hind legs; boas and pythons keep tiny claw-like spurs, the last traces of hind legs",
+            "k": ["najash", "spurs", "hind legs"],
+            "n": 0
+        },
+        {
+            "id": "jaw-egg-eater",
+            "tier": "power",
+            "t": "Lower jaw halves are joined by a stretchy ligament, not fused at the chin; the African egg-eater cracks swallowed eggs with bony points on its neck vertebrae",
+            "k": ["ligament", "egg-eater", "chin"],
+            "n": 0
+        },
+        {
+            "id": "blood-flow",
+            "tier": "power",
+            "t": "A 2015 study showed that squeezing prey kills mainly by stopping its blood flow, not by suffocation",
+            "k": ["blood flow", "suffocation", "2015"],
+            "n": 0
+        },
+        {
+            "id": "families",
+            "tier": "power",
+            "t": "Elapidae (cobras, mambas) have short fixed front fangs; Viperidae have long hollow fangs that fold back; Colubridae is the largest family",
+            "k": ["elapidae", "viperidae", "colubridae"],
+            "n": 0
+        },
+        {
+            "id": "titanoboa",
+            "tier": "power",
+            "t": "Titanoboa, found in a Colombian coal mine, lived a few million years after the dinosaurs and grew to about 40 feet long",
+            "k": ["titanoboa", "coal mine", "colombian"],
+            "n": 0
+        },
+        {
+            "id": "guam",
+            "tier": "power",
+            "t": "A brown, tree-climbing kind reached Guam after World War II and wiped out most of its native forest birds",
+            "k": ["guam", "forest birds"],
+            "n": 0
+        },
+        {
+            "id": "locomotion",
+            "tier": "power",
+            "t": "Concertina movement in tunnels, straight-line creeping on belly scales, and sidewinding, which leaves J-shaped tracks",
+            "k": ["concertina", "sidewinding", "j-shaped"],
+            "n": 0
+        },
+        {
+            "id": "ecdysis-rattle",
+            "tier": "power",
+            "t": "Shedding is called ecdysis; each time rattlers shed, a hollow keratin segment is added to the rattle",
+            "k": ["ecdysis", "keratin", "rattle"],
+            "n": 0
+        },
+        {
+            "id": "lung-vertebrae",
+            "tier": "power",
+            "t": "Most have a tiny or missing left lung; their hundreds of vertebrae nearly all carry ribs in front of the tail",
+            "k": ["left lung", "vertebrae", "ribs"],
+            "n": 0
+        },
+        {
+            "id": "mimicry-hognose",
+            "tier": "power",
+            "t": "Harmless Lampropeltis kinds copy the red, black, and yellow bands of venomous coral species (Batesian mimicry); the eastern hognose plays dead",
+            "k": ["batesian mimicry", "lampropeltis", "hognose"],
+            "n": 0
+        },
+        {
+            "id": "antivenom-taipan",
+            "tier": "power",
+            "t": "Antivenom is often made by giving horses small doses of venom and collecting their antibodies; the inland taipan has the most toxic venom on land",
+            "k": ["antivenom", "horses", "inland taipan"],
+            "n": 0
+        },
+        {
+            "id": "asclepius-kipling",
+            "tier": "power",
+            "t": "The Rod of Asclepius, a staff with one wrapped around it, symbolizes medicine; in Kipling’s “Rikki-Tikki-Tavi,” a mongoose battles Nag and Nagaina",
+            "k": ["asclepius", "mongoose", "rikki-tikki-tavi"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not every legless reptile",
+        "body": "Glass lizards and other legless lizards look almost exactly like snakes, worm lizards (amphisbaenians) are a separate group of burrowing reptiles, and caecilians are legless amphibians. Reptiles and squamates are bigger groups that include snakes and lizards, so those answers only earn a prompt.",
+        "fix": "Legless lizards have eyelids and ear openings and can drop their tails; snakes have neither eyelids nor outer ears. Forked tongues, Jacobson’s organ, heat pits, fangs, and swallowing prey whole all point to snakes, and “Serpentes” works too.",
+        "line": "Real answer line: <b><u>Snakes</u></b> (accept <u>Serpentes</u>; prompt on <u>reptiles</u> or <u>squamates</u>; do not accept “lizards”)"
+    },
+    "tests": {
+        "right": [
+            "Snakes",
+            "snake",
+            "Serpentes",
+            "Snkes",
+            "serpents"
+        ],
+        "prompt": [
+            "Reptiles",
+            "squamates"
+        ],
+        "wrong": [
+            "Lizards",
+            "Legless lizards",
+            "Eels",
+            "Worms",
+            "Caecilians"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

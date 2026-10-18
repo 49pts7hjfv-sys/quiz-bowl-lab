@@ -1,0 +1,375 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "protons",
+    "name": "Protons",
+    "mono": "UUD",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Positive particles in every nucleus · Their count sets the element",
+    "dates": "Named by Ernest Rutherford in 1920",
+    "briefing": "Protons are the positively charged particles packed into the nucleus of every atom, and the number of them decides which element an atom is: one for hydrogen, six for carbon, 79 for gold. Each proton is about 1,836 times heavier than an electron and is built from three smaller particles called quarks. Ernest Rutherford named the particle in 1920, from the Greek word for “first.”",
+    "answerHtml": "<b><u>proton</u></b>s (accept <u>hydrogen nuclei</u> or <u>hydrogen ion</u>s; prompt on <u>nucleon</u>s, <u>baryon</u>s, or <u>hadron</u>s; do not accept “neutrons”)",
+    "accept": [
+        "protons",
+        "proton",
+        "hydrogen nucleus",
+        "hydrogen nuclei",
+        "hydrogen ion",
+        "hydrogen ions"
+    ],
+    "prompt": [
+        "nucleon",
+        "nucleons",
+        "baryon",
+        "baryons",
+        "hadron",
+        "hadrons"
+    ],
+    "reject": [
+        "neutron",
+        "neutrons",
+        "electron",
+        "electrons",
+        "photon",
+        "photons",
+        "positron",
+        "positrons",
+        "antiproton",
+        "antiprotons",
+        "quark",
+        "quarks",
+        "up quark",
+        "up quarks",
+        "down quark",
+        "gluon",
+        "gluons",
+        "neutrino",
+        "neutrinos",
+        "muon",
+        "muons",
+        "pion",
+        "pions",
+        "meson",
+        "mesons",
+        "alpha particle",
+        "alpha particles",
+        "deuteron",
+        "deuterons",
+        "prion",
+        "prions",
+        "hydrogen bond",
+        "hydrogen bonds",
+        "hydrogen bonding",
+        "hydrogen atom",
+        "hydrogen atoms"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Proton",
+    "qb": {
+        "q": "proton",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "A “radius puzzle” about this particle began in 2010, when experiments using hydrogen atoms with a muon in place of the electron found this particle smaller than expected. This particle is made of two up quarks and one down quark.",
+            "r": "The strong force holds these particles together in nuclei despite their electric repulsion. For 10 points, name this positively charged particle found in the nucleus of every atom."
+        },
+        {
+            "p": "In the late 1980s, the European Muon Collaboration found that the spins of this particle’s quarks add up to only a small part of its total spin, a surprise nicknamed the “spin crisis.” Only about one percent of this particle’s mass comes from the masses of its quarks.",
+            "r": "Gluons hold its three quarks together. For 10 points, name this positive particle found in atomic nuclei along with neutrons."
+        },
+        {
+            "p": "In the late 1960s, electrons fired at this particle at the Stanford Linear Accelerator bounced off as if it held tiny, hard bits inside, which Richard Feynman called “partons.” Jerome Friedman, Henry Kendall, and Richard Taylor shared the 1990 Nobel Prize for those experiments.",
+            "r": "Those bits turned out to be quarks. For 10 points, name this positively charged particle in the atomic nucleus."
+        },
+        {
+            "p": "In 1955, Emilio Segrè and Owen Chamberlain used the Bevatron at Berkeley to create the negatively charged antiparticle of this particle, winning the 1959 Nobel Prize in Physics. This particle is about 1,836 times as heavy as an electron.",
+            "r": "For 10 points, name this positively charged particle whose number in an atom’s nucleus gives the atomic number."
+        },
+        {
+            "p": "Some grand unified theories predict that this particle decays, but underground water tanks like Japan’s Super-Kamiokande have never seen it happen, showing that its lifetime is far longer than the age of the universe. A free neutron decays within minutes, but a free one of these particles is stable.",
+            "r": "The simplest atom, hydrogen, has just one of these particles in its nucleus. For 10 points, name these positively charged nuclear particles."
+        },
+        {
+            "p": "Around 1917, Ernest Rutherford fired alpha particles into nitrogen gas and detected these particles being knocked out, often called the first artificial change of one element into another. In 1920 he named these particles after the Greek word for “first.”",
+            "r": "Each one carries a charge equal and opposite to an electron’s. For 10 points, name these positive particles in every atomic nucleus."
+        },
+        {
+            "p": "In 1886, Eugen Goldstein found “canal rays” streaming backward through holes in the negative electrode of a gas-filled tube; in hydrogen gas, the lightest of those rays turned out to be these particles. Wilhelm Wien [“VEEN”] measured their charge-to-mass ratio.",
+            "r": "For 10 points, name these positively charged particles that join neutrons in the nucleus of an atom."
+        },
+        {
+            "p": "Cancer treatments using beams of this particle can target tumors deep in the body because the particles release most of their energy at one depth, called the Bragg peak, and then stop. MRI machines make pictures by tracking the magnetic spins of these particles in the body’s hydrogen atoms.",
+            "r": "Henry Moseley showed that the periodic table should be ordered by the number of these particles in each atom. For 10 points, name these positive nuclear particles."
+        },
+        {
+            "p": "In water, a lone one of these particles never stays free for long; it quickly attaches to a water molecule to form the hydronium ion. Johannes Brønsted and Thomas Lowry defined acids as substances that give away these particles.",
+            "r": "Bases accept them. For 10 points, name these positively charged particles found in atomic nuclei."
+        },
+        {
+            "p": "The Large Hadron Collider near Geneva smashes together beams of these particles in a ring about 27 kilometers around, and its collisions led to the 2012 discovery of the Higgs boson. These particles are baryons, made of three quarks each.",
+            "r": "Each has a charge of plus one. For 10 points, name these particles that, together with neutrons, make up atomic nuclei."
+        },
+        {
+            "p": "About nine out of ten cosmic-ray particles striking Earth’s atmosphere from space are these particles, which also make up much of the solar wind. In the Sun’s core, energy production begins when two of these particles fuse.",
+            "r": "For 10 points, name these positive particles whose number in a nucleus is an element’s atomic number."
+        },
+        {
+            "p": "In positron emission, one of these particles inside a nucleus changes into a neutron, giving off a positron and a neutrino. In electron capture, one of these particles absorbs an inner electron and also becomes a neutron.",
+            "r": "In beta-minus decay, a neutron turns into one of these. For 10 points, name these positive particles in atomic nuclei."
+        },
+        {
+            "p": "In 1932, John Cockcroft and Ernest Walton used a high-voltage machine to fire these particles at lithium, splitting lithium nuclei into pairs of alpha particles. That same year, James Chadwick discovered the neutral particle that shares the nucleus with these particles.",
+            "r": "For 10 points, name these positively charged nuclear particles, made of two up quarks and a down quark."
+        },
+        {
+            "p": "Peter Mitchell won the 1978 Nobel Prize in Chemistry for showing that cells make ATP by letting these particles flow back across a membrane through the enzyme ATP synthase. In photosynthesis, these particles pile up inside thylakoids before rushing out through that enzyme.",
+            "r": "Acids give them away. For 10 points, name these positive particles found in every atomic nucleus."
+        },
+        {
+            "p": "In 1933, Otto Stern measured this particle’s magnetic strength and found it much larger than expected, an early sign that this particle is more complicated than the electron. This particle is slightly lighter than the neutron.",
+            "r": "Isotopes of an element all have the same number of these particles but different numbers of neutrons. For 10 points, name these positive nuclear particles."
+        }
+    ],
+    "clues": [
+        {
+            "id": "positive-nucleus",
+            "tier": "giveaway",
+            "t": "Positively charged particles found in the nucleus of every atom",
+            "k": ["positively charged", "nucleus"],
+            "n": 0
+        },
+        {
+            "id": "atomic-number",
+            "tier": "giveaway",
+            "t": "Their number in a nucleus is the element’s atomic number: one for hydrogen, six for carbon, 79 for gold",
+            "k": ["atomic number", "hydrogen", "carbon"],
+            "n": 0
+        },
+        {
+            "id": "with-neutrons",
+            "tier": "giveaway",
+            "t": "Together with neutrons, they make up atomic nuclei; both kinds are called nucleons",
+            "k": ["neutrons", "nucleons"],
+            "n": 0,
+            "rabbit": "Neutrons"
+        },
+        {
+            "id": "plus-one",
+            "tier": "giveaway",
+            "t": "Each has a charge of plus one, equal and opposite to an electron’s charge",
+            "k": ["plus one", "opposite", "charge"],
+            "n": 0,
+            "rabbit": "Electrons"
+        },
+        {
+            "id": "uud",
+            "tier": "middle",
+            "t": "Made of two up quarks and one down quark, held together by gluons",
+            "k": ["two up quarks", "down quark", "gluons"],
+            "n": 0,
+            "rabbit": "Quarks"
+        },
+        {
+            "id": "mass",
+            "tier": "middle",
+            "t": "About 1,836 times as heavy as an electron, and slightly lighter than a neutron",
+            "k": ["1,836", "slightly lighter"],
+            "n": 0
+        },
+        {
+            "id": "rutherford",
+            "tier": "middle",
+            "t": "Ernest Rutherford knocked them out of nitrogen with alpha particles around 1917 and named them in 1920, from the Greek for “first”",
+            "k": ["ernest rutherford", "nitrogen", "1920"],
+            "n": 0
+        },
+        {
+            "id": "moseley",
+            "tier": "middle",
+            "t": "Henry Moseley showed that the periodic table should be ordered by their number in each atom, not by atomic mass",
+            "k": ["henry moseley", "periodic table", "atomic mass"],
+            "n": 0
+        },
+        {
+            "id": "isotopes",
+            "tier": "middle",
+            "t": "Isotopes of an element have the same number of them but different numbers of neutrons",
+            "k": ["isotopes", "different numbers"],
+            "n": 0
+        },
+        {
+            "id": "acids",
+            "tier": "middle",
+            "t": "Brønsted–Lowry acids give them away and bases accept them; in water, one joins a water molecule to form hydronium",
+            "k": ["brønsted–lowry", "acids", "hydronium"],
+            "n": 0,
+            "rabbit": "Acids"
+        },
+        {
+            "id": "strong-force",
+            "tier": "middle",
+            "t": "The strong force holds them together in nuclei despite their electric repulsion",
+            "k": ["strong force", "repulsion"],
+            "n": 0
+        },
+        {
+            "id": "lhc",
+            "tier": "middle",
+            "t": "The Large Hadron Collider smashes beams of them together; its collisions led to the Higgs boson’s discovery in 2012",
+            "k": ["large hadron collider", "higgs boson", "2012"],
+            "n": 0,
+            "rabbit": "Higgs boson"
+        },
+        {
+            "id": "mri",
+            "tier": "middle",
+            "t": "MRI machines make pictures of the body by tracking the magnetic spins of these in hydrogen atoms",
+            "k": ["mri", "magnetic spins", "hydrogen atoms"],
+            "n": 0
+        },
+        {
+            "id": "sun-fusion",
+            "tier": "middle",
+            "t": "In the Sun’s core, energy production begins when two of them fuse",
+            "k": ["sun’s core", "fuse"],
+            "n": 0,
+            "rabbit": "Nuclear fusion"
+        },
+        {
+            "id": "radius-puzzle",
+            "tier": "power",
+            "t": "A “radius puzzle” began in 2010, when hydrogen with a muon in place of the electron showed it smaller than expected",
+            "k": ["radius puzzle", "2010", "muon"],
+            "n": 0
+        },
+        {
+            "id": "spin-crisis",
+            "tier": "power",
+            "t": "The late-1980s “spin crisis”: the European Muon Collaboration found its quarks’ spins make up only a small part of its spin",
+            "k": ["spin crisis", "european muon collaboration"],
+            "n": 0
+        },
+        {
+            "id": "one-percent",
+            "tier": "power",
+            "t": "Only about one percent of its mass comes from the masses of its quarks",
+            "k": ["one percent", "quarks"],
+            "n": 0
+        },
+        {
+            "id": "partons",
+            "tier": "power",
+            "t": "Late-1960s experiments at the Stanford Linear Accelerator found hard bits inside it, Feynman’s “partons”; Friedman, Kendall, and Taylor won the 1990 Nobel",
+            "k": ["partons", "feynman", "1990", "stanford"],
+            "n": 0
+        },
+        {
+            "id": "antiparticle",
+            "tier": "power",
+            "t": "Emilio Segrè and Owen Chamberlain made its negatively charged antiparticle at Berkeley’s Bevatron in 1955 (Nobel Prize, 1959)",
+            "k": ["segrè", "chamberlain", "bevatron", "1955"],
+            "n": 0
+        },
+        {
+            "id": "decay",
+            "tier": "power",
+            "t": "Some grand unified theories predict it decays, but detectors like Super-Kamiokande have never seen it happen",
+            "k": ["super-kamiokande", "grand unified", "decays"],
+            "n": 0
+        },
+        {
+            "id": "canal-rays",
+            "tier": "power",
+            "t": "Eugen Goldstein’s 1886 “canal rays” in hydrogen gas turned out to be these; Wilhelm Wien measured their charge-to-mass ratio",
+            "k": ["canal rays", "goldstein", "1886", "wien"],
+            "n": 0
+        },
+        {
+            "id": "bragg-peak",
+            "tier": "power",
+            "t": "Beams of them treat cancer because they release most of their energy at one depth, the Bragg peak",
+            "k": ["bragg peak", "cancer", "beams"],
+            "n": 0
+        },
+        {
+            "id": "cockcroft-walton",
+            "tier": "power",
+            "t": "In 1932, John Cockcroft and Ernest Walton fired them at lithium, splitting it into alpha particles",
+            "k": ["cockcroft", "walton", "lithium", "1932"],
+            "n": 0
+        },
+        {
+            "id": "mitchell",
+            "tier": "power",
+            "t": "Peter Mitchell (1978 Nobel) showed cells make ATP as these flow through ATP synthase; in chloroplasts they pile up inside thylakoids",
+            "k": ["peter mitchell", "atp synthase", "thylakoids", "1978"],
+            "n": 0,
+            "rabbit": "ATP"
+        },
+        {
+            "id": "cosmic-rays",
+            "tier": "power",
+            "t": "About nine out of ten cosmic-ray particles are these, and they make up much of the solar wind",
+            "k": ["cosmic-ray", "solar wind", "nine out of ten"],
+            "n": 0
+        },
+        {
+            "id": "beta-plus",
+            "tier": "power",
+            "t": "In positron emission and in electron capture, one of these inside a nucleus turns into a neutron",
+            "k": ["positron emission", "electron capture"],
+            "n": 0
+        },
+        {
+            "id": "stern",
+            "tier": "power",
+            "t": "In 1933, Otto Stern found its magnetic strength much larger than expected",
+            "k": ["otto stern", "1933", "magnetic strength"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which nuclear particle?",
+        "body": "Tossups about the atom have several look-alike answers. Neutrons sit in the nucleus too but have no charge, electrons orbit outside it with a negative charge, and quarks are the smaller pieces that make up both protons and neutrons. A clue about atomic number, positive charge, or acids giving something away points to this particle, while a neutral particle that James Chadwick found in 1932 is the neutron.",
+        "fix": "Positive charge, atomic number, the simplest nucleus, or two up quarks and a down quark mean this particle. No charge, Chadwick, or chain reactions mean the neutron; negative charge, J. J. Thomson, or orbitals mean the electron; and saying “nucleon” or “baryon” only earns a prompt.",
+        "line": "Real answer line: <b><u>proton</u></b>s (accept <u>hydrogen nuclei</u> or <u>hydrogen ion</u>s; prompt on <u>nucleon</u>s, <u>baryon</u>s, or <u>hadron</u>s; do not accept “neutrons”)"
+    },
+    "tests": {
+        "right": [
+            "Protons",
+            "proton",
+            "Hydrogen nucleus",
+            "hydrogen ions",
+            "Protns"
+        ],
+        "prompt": [
+            "Nucleons",
+            "Baryon",
+            "Hadrons"
+        ],
+        "wrong": [
+            "Neutrons",
+            "Electrons",
+            "Photons",
+            "Quarks",
+            "Antiprotons",
+            "Positron"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

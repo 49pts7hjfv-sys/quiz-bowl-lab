@@ -1,0 +1,361 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "phloem",
+    "name": "Phloem",
+    "mono": "PHL",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Carries sugar from a plant’s leaves · Built from living sieve tubes",
+    "dates": "Named by Carl Nägeli in 1858",
+    "briefing": "Phloem is a plant’s food delivery system: living tubes that carry sugar made in the leaves to roots, fruits, flowers, and growing tips. Unlike xylem, which only moves water upward, phloem can carry its sugary sap up or down, wherever the plant needs food. Aphids tap into phloem to drink that sap, and peeling a ring of bark off a tree removes its phloem and can kill the tree by starving its roots.",
+    "answerHtml": "<b><u>Phloem</u></b> (prompt on <u>vascular tissue</u> or <u>inner bark</u>; do not accept “xylem”)",
+    "accept": [
+        "phloem",
+        "phloems",
+        "phloem tissue",
+        "primary phloem",
+        "secondary phloem",
+        "floem",
+        "phleom"
+    ],
+    "prompt": [
+        "vascular tissue",
+        "vascular tissues",
+        "vascular bundle",
+        "vascular bundles",
+        "inner bark",
+        "bark",
+        "bast",
+        "bast fibers"
+    ],
+    "reject": [
+        "xylem",
+        "xylems",
+        "cambium",
+        "vascular cambium",
+        "cork cambium",
+        "cork",
+        "pith",
+        "cortex",
+        "epidermis",
+        "endodermis",
+        "stomata",
+        "sieve tube",
+        "sieve tubes",
+        "sieve tube element",
+        "sieve tube elements",
+        "sieve tube members",
+        "sieve plate",
+        "sieve plates",
+        "sieve cells",
+        "companion cell",
+        "companion cells",
+        "tracheids",
+        "vessel elements",
+        "wood",
+        "sapwood",
+        "heartwood",
+        "lignin",
+        "callose",
+        "plasmodesmata",
+        "phlegm"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Phloem",
+    "qb": {
+        "q": "phloem",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Swiss botanist Carl Nägeli [“NAY-guh-lee”] named this tissue in 1858 from the Greek word for “bark,” and in trees it forms the inner bark. The vascular cambium adds new cells of this tissue toward the outside of a stem and new xylem toward the inside.",
+            "r": "For 10 points, name this vascular tissue that carries sugar from the leaves to the rest of a plant."
+        },
+        {
+            "p": "German botanist Ernst Münch proposed the pressure-flow hypothesis to explain how sap moves through this tissue. In that model, water drawn in by osmosis at a source, such as a leaf, builds up pressure that pushes the sap toward sinks.",
+            "r": "For 10 points, name this vascular tissue that carries sugar, unlike xylem, which carries water."
+        },
+        {
+            "p": "To collect pure samples of this tissue’s sap, scientists let an aphid feed, then cut its body away, leaving its needle-like stylet in place as a tiny tap. The sap in this tissue is under pressure, so it keeps flowing out of the cut stylet on its own.",
+            "r": "For 10 points, name this plant tissue that carries sugar both up and down, unlike xylem."
+        },
+        {
+            "p": "When this tissue is wounded, its sieve plates are quickly plugged by a carbohydrate called callose [“KAL-ohs”] and by a protein called P-protein, which keep sap from leaking out. Its sieve-tube elements are stacked end to end to form long tubes.",
+            "r": "For 10 points, name this living vascular tissue that carries sugar made in the leaves."
+        },
+        {
+            "p": "In conifers, this tissue carries sap through sieve cells, which are helped by neighbors called Strasburger [“SHTRAHS-boor-ger”] cells or albuminous cells. Flowering plants instead use sieve-tube elements, each supported by a companion cell.",
+            "r": "For 10 points, name this vascular tissue that carries sugar from leaves to the rest of the plant."
+        },
+        {
+            "p": "Mature sieve-tube elements in this tissue have no nucleus, so they depend on companion cells, which are linked to them by many tiny channels called plasmodesmata [“plaz-muh-dez-MAH-tuh”]. Each sieve-tube element is joined to the next by a perforated end wall called a sieve plate.",
+            "r": "Companion cells also load sucrose into it. For 10 points, name this vascular tissue that carries food made in the leaves."
+        },
+        {
+            "p": "Linen cloth is woven from the long, tough bast fibers of flax plants, which come from this tissue, and jute rope is made from similar fibers. In a tree, this tissue lies under the corky outer bark, forming the inner bark.",
+            "r": "For 10 points, name this vascular tissue that carries sugar, unlike the water-carrying xylem."
+        },
+        {
+            "p": "Citrus greening, a disease that has hurt orange groves in Florida, is caused by a bacterium that lives in this tissue and is spread by tiny insects called psyllids [“SIL-idz”]. Many plant viruses also spread through a plant by riding along in this tissue’s sap.",
+            "r": "For 10 points, name this living plant tissue that carries sugar both up and down."
+        },
+        {
+            "p": "Larvae of the emerald ash borer, an invasive beetle, kill ash trees by tunneling through this tissue and the cambium just under the bark. Girdling a tree, by cutting away a complete ring of bark, destroys this tissue all the way around the trunk.",
+            "r": "The tree’s roots then starve. For 10 points, name this vascular tissue that carries sugar from the leaves."
+        },
+        {
+            "p": "The flowering signal called florigen, which turned out to be a protein named FT, travels from the leaves to the tips of shoots through this tissue. In leaf veins, this tissue usually lies on the lower side, below the xylem.",
+            "r": "For 10 points, name this vascular tissue that carries sugar, made of sieve tubes and companion cells."
+        },
+        {
+            "p": "Movement through this tissue, called translocation, carries sap from sources, such as mature leaves, to sinks, such as roots, fruits, and growing tips. A growing potato tuber is a sink that stores what it receives as starch.",
+            "r": "Its sap can flow up or down. For 10 points, name this vascular tissue that carries sugar."
+        },
+        {
+            "p": "In many roots, strands of this tissue sit between the arms of an X-shaped core of xylem. In a typical stem, this tissue sits on the outer side of each vascular bundle, with xylem on the inner side.",
+            "r": "For 10 points, name this living vascular tissue that carries sugar from the leaves to the rest of a plant."
+        },
+        {
+            "p": "Some ants guard aphids like herds of cattle and stroke them to collect honeydew, a sticky waste the aphids make from this tissue’s sap. Mosses and liverworts lack both this tissue and xylem, which helps keep them small.",
+            "r": "For 10 points, name this tissue that carries sugar made in the leaves, unlike xylem, which carries water."
+        },
+        {
+            "p": "Cinnamon sticks are curls of the dried inner bark of certain tropical trees, a layer made mostly of this tissue. In a tree trunk, only a thin layer of this tissue next to the vascular cambium still carries sap; older layers are crushed outward into the bark.",
+            "r": "For 10 points, name this vascular tissue that carries sugar both up and down a plant."
+        },
+        {
+            "p": "Companion cells are packed with mitochondria, since they spend ATP pumping sucrose into this tissue, a step called loading. Unloading at the other end lets fruits, seeds, and roots store what this tissue brings them.",
+            "r": "Sugar beets and sugarcane store huge amounts of the sucrose it delivers. For 10 points, name this vascular tissue that carries sugar from the leaves."
+        }
+    ],
+    "clues": [
+        {
+            "id": "carries-sugar",
+            "tier": "giveaway",
+            "t": "Plant tissue that carries sugar (food) made in the leaves to the rest of the plant",
+            "k": ["sugar", "food", "leaves"],
+            "n": 0,
+            "rabbit": "Photosynthesis"
+        },
+        {
+            "id": "vascular",
+            "tier": "giveaway",
+            "t": "One of the two vascular tissues, along with xylem, which carries water; mosses lack both",
+            "k": ["vascular", "xylem", "mosses"],
+            "n": 0,
+            "rabbit": "Xylem"
+        },
+        {
+            "id": "up-and-down",
+            "tier": "giveaway",
+            "t": "Its sap can flow up and down, while water in xylem moves only upward",
+            "k": ["up and down", "upward"],
+            "n": 0
+        },
+        {
+            "id": "living-cells",
+            "tier": "giveaway",
+            "t": "Its conducting cells are alive when they work, unlike the dead, hollow cells of xylem",
+            "k": ["alive", "living"],
+            "n": 0
+        },
+        {
+            "id": "sieve-tubes",
+            "tier": "middle",
+            "t": "Sap flows through sieve-tube elements stacked end to end and joined by perforated walls called sieve plates",
+            "k": ["sieve-tube", "sieve plates"],
+            "n": 0
+        },
+        {
+            "id": "companion-cells",
+            "tier": "middle",
+            "t": "Mature sieve-tube elements have no nucleus, so neighboring companion cells keep them running",
+            "k": ["companion cells", "nucleus"],
+            "n": 0
+        },
+        {
+            "id": "translocation",
+            "tier": "middle",
+            "t": "Moving sap through it is called translocation",
+            "k": ["translocation"],
+            "n": 0
+        },
+        {
+            "id": "source-sink",
+            "tier": "middle",
+            "t": "Sap moves from sources, like mature leaves, to sinks, like roots, fruits, growing tips, and potato tubers",
+            "k": ["sources", "sinks", "potato"],
+            "n": 0
+        },
+        {
+            "id": "sucrose",
+            "tier": "middle",
+            "t": "Carries sugar mainly as sucrose dissolved in water; sugar beets and sugarcane store huge amounts of it",
+            "k": ["sucrose", "sugar beets", "sugarcane"],
+            "n": 0
+        },
+        {
+            "id": "aphids",
+            "tier": "middle",
+            "t": "Aphids drink its sap and release sticky honeydew, which some ants collect by guarding aphids like cattle",
+            "k": ["aphids", "honeydew", "ants"],
+            "n": 0
+        },
+        {
+            "id": "inner-bark",
+            "tier": "middle",
+            "t": "In trees it forms the inner bark; the vascular cambium adds it toward the outside and xylem toward the inside",
+            "k": ["inner bark", "vascular cambium"],
+            "n": 0
+        },
+        {
+            "id": "bundle-position",
+            "tier": "middle",
+            "t": "Lies on the outer side of each vascular bundle in a stem, and on the lower side of leaf veins, below the xylem",
+            "k": ["outer side", "lower side", "vascular bundle"],
+            "n": 0
+        },
+        {
+            "id": "girdling",
+            "tier": "middle",
+            "t": "Girdling, cutting away a ring of bark, destroys it all the way around and can kill a tree by starving its roots",
+            "k": ["girdling", "ring of bark", "starving"],
+            "n": 0
+        },
+        {
+            "id": "nageli",
+            "tier": "power",
+            "t": "Swiss botanist Carl Nägeli named it in 1858, from the Greek word for “bark”",
+            "k": ["nägeli", "1858", "greek"],
+            "n": 0
+        },
+        {
+            "id": "munch",
+            "tier": "power",
+            "t": "Ernst Münch’s pressure-flow hypothesis: water drawn in by osmosis at a source builds pressure that pushes sap toward sinks",
+            "k": ["münch", "pressure-flow", "osmosis"],
+            "n": 0
+        },
+        {
+            "id": "callose",
+            "tier": "power",
+            "t": "When it is wounded, sieve plates are plugged by a carbohydrate called callose and by P-protein",
+            "k": ["callose", "p-protein"],
+            "n": 0
+        },
+        {
+            "id": "aphid-stylet",
+            "tier": "power",
+            "t": "Scientists sample its sap by cutting away a feeding aphid and leaving its stylet in place; the sap flows out under pressure",
+            "k": ["stylet", "sample"],
+            "n": 0
+        },
+        {
+            "id": "plasmodesmata",
+            "tier": "power",
+            "t": "Companion cells connect to sieve-tube elements through many tiny channels called plasmodesmata",
+            "k": ["plasmodesmata", "channels"],
+            "n": 0
+        },
+        {
+            "id": "conifers",
+            "tier": "power",
+            "t": "Conifers use sieve cells helped by Strasburger (albuminous) cells instead of sieve tubes and companion cells",
+            "k": ["strasburger", "albuminous", "conifers"],
+            "n": 0,
+            "rabbit": "Gymnosperms"
+        },
+        {
+            "id": "bast",
+            "tier": "power",
+            "t": "Its tough bast fibers give linen (from flax) and jute rope",
+            "k": ["bast", "linen", "flax", "jute"],
+            "n": 0
+        },
+        {
+            "id": "citrus-greening",
+            "tier": "power",
+            "t": "Citrus greening, spread by tiny insects called psyllids, comes from a bacterium living in it; many plant viruses travel in its sap",
+            "k": ["citrus greening", "psyllids", "viruses"],
+            "n": 0
+        },
+        {
+            "id": "emerald-ash-borer",
+            "tier": "power",
+            "t": "Emerald ash borer larvae kill ash trees by tunneling through it and the cambium just under the bark",
+            "k": ["emerald ash borer", "ash trees"],
+            "n": 0
+        },
+        {
+            "id": "florigen",
+            "tier": "power",
+            "t": "The flowering signal florigen, a protein named FT, travels through it from the leaves to the shoot tips",
+            "k": ["florigen", "flowering"],
+            "n": 0
+        },
+        {
+            "id": "loading",
+            "tier": "power",
+            "t": "Companion cells, packed with mitochondria, spend ATP pumping sucrose into it, a step called loading",
+            "k": ["loading", "mitochondria", "atp"],
+            "n": 0
+        },
+        {
+            "id": "cinnamon",
+            "tier": "power",
+            "t": "Cinnamon is the dried inner bark of certain trees, a layer made mostly of it; only its thin newest layer still carries sap",
+            "k": ["cinnamon", "newest layer"],
+            "n": 0
+        },
+        {
+            "id": "root-strands",
+            "tier": "power",
+            "t": "In many roots, its strands sit between the arms of an X-shaped core of xylem",
+            "k": ["x-shaped", "strands"],
+            "n": 0,
+            "rabbit": "Roots"
+        }
+    ],
+    "trap": {
+        "title": "Phloem or xylem?",
+        "body": "Phloem and xylem are the two vascular tissues, and tossups often mention both. Phloem carries sugar from the leaves, in either direction, through living sieve-tube cells; xylem carries water and minerals up from the roots through dead, hollow cells. The vascular cambium, which makes new phloem and xylem, is a third answer players confuse with both.",
+        "fix": "Sugar, sucrose, sources and sinks, sieve tubes, companion cells, aphids, girdling, or the inner bark mean phloem. Water, minerals, transpiration, tracheids, vessel elements, wood, tree rings, or maple sap mean xylem. A memory trick: phloem carries food.",
+        "line": "Real answer line: <b><u>Phloem</u></b> (prompt on <u>vascular tissue</u>; do not accept “xylem”)"
+    },
+    "tests": {
+        "right": [
+            "Phloem",
+            "phloem",
+            "Phloem tissue",
+            "Floem",
+            "Secondary phloem",
+            "Phleom"
+        ],
+        "prompt": [
+            "Vascular tissue",
+            "Inner bark"
+        ],
+        "wrong": [
+            "Xylem",
+            "Sieve tubes",
+            "Companion cells",
+            "Vascular cambium",
+            "Cork",
+            "Xylem and phloem"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / "phloem.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote topics/phloem.json")

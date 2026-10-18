@@ -1,0 +1,359 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "marsupials",
+    "name": "Marsupials",
+    "mono": "MSP",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Pouched mammals like kangaroos and koalas · Most live in Australia",
+    "dates": "The Virginia opossum is the only one north of Mexico",
+    "briefing": "Marsupials are mammals that give birth to tiny, underdeveloped babies, which usually keep growing inside the mother’s pouch. A newborn red kangaroo is about the size of a jellybean, yet it crawls into the pouch on its own and stays there for months as a “joey.” Most marsupials, including kangaroos, koalas, wombats, and Tasmanian devils, live in Australia and New Guinea, but opossums live in the Americas.",
+    "answerHtml": "<b><u>Marsupials</u></b> (accept <u>Marsupialia</u>, <u>metatherians</u>, or <u>pouched mammals</u>; prompt on <u>mammals</u>; do not accept “monotremes” or “placental mammals”)",
+    "accept": [
+        "marsupials",
+        "marsupial",
+        "marsupialia",
+        "marsupial mammals",
+        "metatherians",
+        "metatherian",
+        "metatheria",
+        "pouched mammals",
+        "pouched mammal"
+    ],
+    "prompt": [
+        "mammals",
+        "mammal",
+        "mammalia"
+    ],
+    "reject": [
+        "monotremes",
+        "monotreme",
+        "monotremata",
+        "placental mammals",
+        "placental mammal",
+        "placentals",
+        "placental",
+        "eutherians",
+        "eutheria",
+        "kangaroos",
+        "kangaroo",
+        "koalas",
+        "koala",
+        "opossums",
+        "opossum",
+        "possums",
+        "wombats",
+        "macropods",
+        "rodents",
+        "marsupial mole",
+        "marsupial lion"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Marsupial",
+    "qb": {
+        "q": "marsupial",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The largest member of this group ever, _Diprotodon_ [“dye-PROH-tuh-don”], was a rhinoceros-sized plant-eater that died out tens of thousands of years ago. Fossils show that members of this group once lived in Antarctica, which linked South America to Australia.",
+            "r": "For 10 points, name this group of mammals, including kangaroos and koalas, whose young usually grow in a pouch."
+        },
+        {
+            "p": "In 1770, members of James Cook’s expedition wrote down the Guugu Yimithirr [“GOO-goo YIM-ih-theer”] word gangurru, which became the English name for some of these animals. Members of this group called macropods, a name meaning “big foot,” hop on long hind feet.",
+            "r": "Those animals are kangaroos. For 10 points, name this group of mammals whose babies, called joeys, usually grow in a pouch."
+        },
+        {
+            "p": "An island near Perth got the name Rottnest, meaning “rat’s nest,” after a Dutch explorer mistook its quokkas [“KWOK-uhz”], small members of this group, for giant rats. The numbat, another member of this group, eats almost nothing but termites.",
+            "r": "For 10 points, name this group of mammals, including kangaroos, koalas, and wombats, that usually carry their young in a pouch."
+        },
+        {
+            "p": "The monito del monte [“moh-NEE-toh del MON-tay”], a tiny member of this group from the forests of Chile and Argentina, is more closely related to members on another continent than to the opossums living around it. Shrew opossums form another South American branch of this group.",
+            "r": "For 10 points, name this group of mammals, including kangaroos and koalas, whose young usually grow in a pouch."
+        },
+        {
+            "p": "The last known thylacine [“THY-luh-seen”], a striped, dog-like meat-eater of this group nicknamed the Tasmanian tiger, died in a zoo in Hobart in 1936. Because thylacines looked so much like wolves without being closely related, they are a classic example of convergent evolution.",
+            "r": "For 10 points, name this group of mammals, including the Tasmanian devil and the koala, that usually raise their young in a pouch."
+        },
+        {
+            "p": "One member of this group has fingerprints so similar to human ones that they can be hard to tell apart under a microscope. That animal eats almost nothing but eucalyptus leaves and sleeps up to about 20 hours a day.",
+            "r": "That animal is the koala, which is not a bear. For 10 points, name this group of mammals whose young usually grow in a pouch."
+        },
+        {
+            "p": "At Easter, some stores sell chocolate bilbies instead of bunnies to help protect the bilby, a big-eared, burrowing member of this group. The sugar glider, another member of this group, glides between trees on flaps of skin stretched between its front and back legs.",
+            "r": "For 10 points, name this group of mammals, including wombats and kangaroos, whose young usually grow in a pouch."
+        },
+        {
+            "p": "The only member of this group native to the United States and Canada has 50 teeth, a prehensile tail, and thumb-like big toes on its hind feet. When threatened, that animal may “play possum,” going limp and pretending to be dead.",
+            "r": "That animal is the Virginia opossum. For 10 points, name this group of mammals whose young usually grow in a pouch."
+        },
+        {
+            "p": "Wild populations of the largest living meat-eating member of this group have shrunk because of devil facial tumor disease, a rare cancer that spreads between animals when they bite each other. The Looney Tunes cartoon character Taz is based on that animal.",
+            "r": "That animal is the Tasmanian devil. For 10 points, name this group of mammals, including kangaroos and koalas, whose newborns crawl into a pouch."
+        },
+        {
+            "p": "When grazing slowly, the biggest living members of this group lean on their thick, muscular tails as a fifth leg, a gait called pentapedal [“pen-tuh-PEE-dul”] locomotion. At higher speeds, springy tendons in their long hind legs store energy with each hop.",
+            "r": "Those animals are red kangaroos. For 10 points, name this group of mammals whose babies are called joeys."
+        },
+        {
+            "p": "One burrowing member of this group leaves cube-shaped droppings, which it piles on rocks and logs to mark its territory, and scientists who explained how it makes those cubes won a 2019 Ig Nobel Prize. Its teeth never stop growing, much like a rodent’s front teeth.",
+            "r": "That animal is the wombat, whose pouch faces backward. For 10 points, name this group of mammals, including kangaroos."
+        },
+        {
+            "p": "Crash, the hero of a video game series that began in 1996, is a bandicoot, a long-snouted member of this group. Kanga and her son Roo, characters in A. A. Milne’s stories about Winnie-the-Pooh, are also members of this group.",
+            "r": "For 10 points, name this group of mammals whose babies, called joeys, usually grow in a pouch."
+        },
+        {
+            "p": "The honey possum, a mouse-sized member of this group, is one of the few mammals that feed only on nectar and pollen, which it laps up with a long, brush-tipped tongue. The possums of Australia and the opossums of the Americas are different animals, but both belong to this group.",
+            "r": "For 10 points, name this group of mammals, including kangaroos and koalas, that usually raise their young in a pouch."
+        },
+        {
+            "p": "Members of this group have a pair of epipubic [“ep-ih-PYOO-bik”] bones that jut forward from the hips, a feature they share with the egg-laying monotremes. Unlike monotremes, members of this group give birth to live young after a very short pregnancy, often lasting only a few weeks.",
+            "r": "Their tiny newborns crawl into a pouch. For 10 points, name this group of mammals."
+        },
+        {
+            "p": "Many members of this group can put an early embryo on hold for months, a process called embryonic diapause [“DY-uh-pawz”], so that a new baby develops only when the timing is right. The newborn of the largest living member of this group is only about the size of a jellybean.",
+            "r": "Those newborns crawl into the mother’s pouch on their own. For 10 points, name this group of mammals, including kangaroos."
+        }
+    ],
+    "clues": [
+        {
+            "id": "pouch-newborns",
+            "tier": "giveaway",
+            "t": "Mammals whose tiny, underdeveloped newborns usually keep growing in the mother’s pouch",
+            "k": ["pouch", "newborns", "underdeveloped"],
+            "n": 0
+        },
+        {
+            "id": "examples",
+            "tier": "giveaway",
+            "t": "Kangaroos, koalas, and wombats are examples",
+            "k": ["kangaroos", "koalas", "wombats"],
+            "n": 0
+        },
+        {
+            "id": "australia",
+            "tier": "giveaway",
+            "t": "Most live in Australia and New Guinea",
+            "k": ["australia", "new guinea"],
+            "n": 0
+        },
+        {
+            "id": "joeys",
+            "tier": "giveaway",
+            "t": "Their babies are called joeys",
+            "k": ["joeys"],
+            "n": 0
+        },
+        {
+            "id": "three-groups",
+            "tier": "giveaway",
+            "t": "One of the three living groups of mammals, with the egg-laying monotremes and the placental mammals",
+            "k": ["three living groups", "monotremes", "placental"],
+            "n": 0
+        },
+        {
+            "id": "virginia-opossum",
+            "tier": "middle",
+            "t": "The Virginia opossum is the only one native to the U.S. and Canada; it may “play possum,” pretending to be dead",
+            "k": ["virginia opossum", "play possum"],
+            "n": 0
+        },
+        {
+            "id": "opossum-features",
+            "tier": "middle",
+            "t": "The Virginia opossum has 50 teeth, a prehensile tail, and thumb-like big toes on its hind feet",
+            "k": ["50 teeth", "prehensile", "big toes"],
+            "n": 0
+        },
+        {
+            "id": "koala",
+            "tier": "middle",
+            "t": "Koalas eat almost only eucalyptus leaves, sleep up to about 20 hours a day, and are not bears",
+            "k": ["eucalyptus", "not bears", "20 hours"],
+            "n": 0,
+            "rabbit": "Leaves"
+        },
+        {
+            "id": "tasmanian-devil",
+            "tier": "middle",
+            "t": "The Tasmanian devil, the largest living meat-eating one, survives in the wild mainly on Tasmania; Looney Tunes’ Taz is based on it",
+            "k": ["tasmanian devil", "taz", "meat-eating"],
+            "n": 0
+        },
+        {
+            "id": "red-kangaroo",
+            "tier": "middle",
+            "t": "The red kangaroo is the largest living one; its newborn is about the size of a jellybean after a pregnancy of only weeks",
+            "k": ["red kangaroo", "jellybean", "largest"],
+            "n": 0
+        },
+        {
+            "id": "wombat",
+            "tier": "middle",
+            "t": "Wombats dig burrows, have backward-facing pouches, and leave cube-shaped droppings",
+            "k": ["cube-shaped", "backward-facing", "burrows"],
+            "n": 0
+        },
+        {
+            "id": "sugar-glider",
+            "tier": "middle",
+            "t": "Sugar gliders glide on skin flaps between their front and back legs, like unrelated flying squirrels",
+            "k": ["sugar gliders", "flying squirrels"],
+            "n": 0
+        },
+        {
+            "id": "macropods",
+            "tier": "middle",
+            "t": "Kangaroos and wallabies are macropods, a name meaning “big foot”",
+            "k": ["macropods", "big foot", "wallabies"],
+            "n": 0
+        },
+        {
+            "id": "possums-opossums",
+            "tier": "middle",
+            "t": "The possums of Australia and the opossums of the Americas are different animals, but both are in this group",
+            "k": ["possums", "opossums", "americas"],
+            "n": 0
+        },
+        {
+            "id": "diprotodon",
+            "tier": "power",
+            "t": "_Diprotodon_, a rhinoceros-sized plant-eater that died out tens of thousands of years ago, was the largest one ever",
+            "k": ["diprotodon", "rhinoceros-sized"],
+            "n": 0
+        },
+        {
+            "id": "biogeography",
+            "tier": "power",
+            "t": "Fossils show they lived in Antarctica when it linked South America and Australia; Chile’s monito del monte is closer kin to Australian ones than to nearby opossums",
+            "k": ["antarctica", "monito del monte"],
+            "n": 0
+        },
+        {
+            "id": "gangurru",
+            "tier": "power",
+            "t": "“Kangaroo” comes from gangurru in the Guugu Yimithirr language, written down by James Cook’s expedition in 1770",
+            "k": ["gangurru", "guugu yimithirr", "1770"],
+            "n": 0
+        },
+        {
+            "id": "rottnest-numbat",
+            "tier": "power",
+            "t": "Rottnest Island (“rat’s nest”) near Perth was named when a Dutch explorer mistook its quokkas for rats; striped numbats eat termites",
+            "k": ["rottnest", "quokkas", "numbats"],
+            "n": 0
+        },
+        {
+            "id": "thylacine",
+            "tier": "power",
+            "t": "The thylacine (Tasmanian tiger) died out in 1936 in a Hobart zoo; it looked like a wolf without being related, a case of convergent evolution",
+            "k": ["thylacine", "tasmanian tiger", "convergent evolution"],
+            "n": 0
+        },
+        {
+            "id": "fingerprints",
+            "tier": "power",
+            "t": "Koala fingerprints are so similar to human ones that they can be hard to tell apart",
+            "k": ["fingerprints"],
+            "n": 0,
+            "rabbit": "Skin"
+        },
+        {
+            "id": "bilby",
+            "tier": "power",
+            "t": "Chocolate bilbies are sold at Easter instead of bunnies to help protect the big-eared bilby",
+            "k": ["bilbies", "easter"],
+            "n": 0
+        },
+        {
+            "id": "devil-disease",
+            "tier": "power",
+            "t": "Devil facial tumor disease, a rare cancer spread by bites, has shrunk wild Tasmanian devil populations",
+            "k": ["devil facial tumor", "bites"],
+            "n": 0
+        },
+        {
+            "id": "pentapedal",
+            "tier": "power",
+            "t": "Kangaroos lean on their tails as a fifth leg when moving slowly (pentapedal locomotion); springy tendons store energy when they hop",
+            "k": ["pentapedal", "fifth leg", "tendons"],
+            "n": 0
+        },
+        {
+            "id": "ig-nobel",
+            "tier": "power",
+            "t": "Scientists who explained wombats’ cube-shaped droppings won a 2019 Ig Nobel Prize; wombat teeth never stop growing",
+            "k": ["ig nobel", "2019", "teeth"],
+            "n": 0
+        },
+        {
+            "id": "crash-kanga",
+            "tier": "power",
+            "t": "Crash, a video game hero since 1996, is a bandicoot; Kanga and Roo from the Winnie-the-Pooh stories are kangaroos",
+            "k": ["bandicoot", "kanga", "winnie-the-pooh"],
+            "n": 0
+        },
+        {
+            "id": "honey-possum",
+            "tier": "power",
+            "t": "The mouse-sized honey possum feeds only on nectar and pollen, using a long, brush-tipped tongue",
+            "k": ["honey possum", "nectar", "pollen"],
+            "n": 0
+        },
+        {
+            "id": "epipubic",
+            "tier": "power",
+            "t": "They have epipubic bones jutting forward from the hips, a feature shared with monotremes",
+            "k": ["epipubic", "hips"],
+            "n": 0
+        },
+        {
+            "id": "diapause",
+            "tier": "power",
+            "t": "Many can put an early embryo on hold for months, a process called embryonic diapause",
+            "k": ["embryonic diapause", "diapause"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Pouches versus eggs",
+        "body": "Australia is also home to the platypus and the echidnas, which are monotremes: mammals that lay eggs instead of giving birth to tiny young. Some animals with similar-sounding names are actually placental mammals, such as kangaroo rats (rodents) and flying squirrels, and the koala “bear” is not a bear at all. Answering a single animal, like “kangaroos,” loses a tossup that asks for the whole group.",
+        "fix": "Pouches, joeys, opossums, epipubic bones, or tiny newborns that crawl to the pouch mean marsupials. Eggs, the platypus, or echidnas mean monotremes, and a long pregnancy fed by a long-lasting placenta means placental mammals. If the question says “this group” or “these mammals,” give the group name.",
+        "line": "Real answer line: <b><u>Marsupials</u></b> (accept <u>Marsupialia</u> or <u>metatherians</u>; prompt on <u>mammals</u>; do not accept “monotremes” or “placental mammals”)"
+    },
+    "tests": {
+        "right": [
+            "Marsupials",
+            "marsupial",
+            "Marsupialia",
+            "Marsupails",
+            "Pouched mammals"
+        ],
+        "prompt": [
+            "Mammals"
+        ],
+        "wrong": [
+            "Monotremes",
+            "Placental mammals",
+            "Kangaroos",
+            "Opossums",
+            "Rodents",
+            "Eutherians"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / "marsupials.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote topics/marsupials.json")

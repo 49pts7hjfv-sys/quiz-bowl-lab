@@ -1,0 +1,353 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "higgs-boson",
+    "name": "Higgs boson",
+    "mono": "H0",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "The particle of the mass-giving Higgs field · Found at CERN in 2012",
+    "dates": "Predicted 1964; discovery announced 2012",
+    "briefing": "The Higgs boson is a short-lived particle whose discovery at CERN’s Large Hadron Collider was announced on July 4, 2012, almost 50 years after Peter Higgs and others predicted it. It belongs to the Higgs field, an invisible field filling all of space that gives elementary particles such as electrons and quarks their mass. Without that field, electrons would have no mass, and atoms as we know them could not exist.",
+    "answerHtml": "<b><u>Higgs</u></b> boson (accept <u>Higgs</u> particle or <u>God particle</u>; prompt on <u>boson</u>; do not accept “Higgs field” or “Higgs mechanism”)",
+    "accept": [
+        "higgs boson",
+        "higgs bosons",
+        "higgs",
+        "higgs particle",
+        "higgs particles",
+        "god particle",
+        "h0"
+    ],
+    "prompt": [
+        "boson",
+        "bosons",
+        "scalar boson",
+        "scalar particle"
+    ],
+    "reject": [
+        "higgs field",
+        "higgs fields",
+        "higgs mechanism",
+        "higgs potential",
+        "peter higgs",
+        "w boson",
+        "w bosons",
+        "z boson",
+        "z bosons",
+        "w and z bosons",
+        "gluon",
+        "gluons",
+        "photon",
+        "photons",
+        "graviton",
+        "gravitons",
+        "goldstone boson",
+        "nambu goldstone boson",
+        "bose einstein condensate",
+        "fermion",
+        "fermions",
+        "top quark",
+        "quark",
+        "quarks",
+        "neutrino",
+        "neutrinos",
+        "electron",
+        "large hadron collider",
+        "lhc",
+        "cern",
+        "standard model",
+        "dark matter",
+        "antimatter",
+        "axion",
+        "tachyon"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Higgs_boson",
+    "qb": {
+        "q": "Higgs",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This particle is made most often when two gluons fuse, and it was first spotted through its decays into two photons or into four leptons. It breaks apart far less than a trillionth of a second after it forms.",
+            "r": "Its discovery at CERN was announced in 2012. For 10 points, name this particle linked to a field that gives other particles mass."
+        },
+        {
+            "p": "Finding this particle was a main goal of the Superconducting Super Collider, a giant accelerator in Texas that Congress canceled in 1993. Fermilab’s Tevatron searched for this particle until the Tevatron shut down in 2011.",
+            "r": "For 10 points, name this particle discovered at the Large Hadron Collider in 2012, which is connected to how other particles get mass."
+        },
+        {
+            "p": "After a journal turned down one of his 1964 papers, this particle’s namesake added a paragraph pointing out that his theory predicted a new particle. François Englert and Robert Brout independently proposed the same mass-giving mechanism that year.",
+            "r": "For 10 points, name this particle discovered at CERN in 2012 and named for a British physicist."
+        },
+        {
+            "p": "The energy of the field linked to this particle is often drawn as a “Mexican hat” or “wine bottle” shape with its lowest point off-center, so the field has a nonzero value even in completely empty space. That off-center low point “breaks” a symmetry of the laws of physics.",
+            "r": "Particles that interact with that field gain mass. For 10 points, name this particle discovered in 2012."
+        },
+        {
+            "p": "In 2012, both the ATLAS and CMS teams reached the “five sigma” level of confidence needed to claim the discovery of this particle, which has a mass of about 125 billion electron volts. The discovery was announced on July 4 of that year.",
+            "r": "For 10 points, name this particle found at the Large Hadron Collider, linked to the field that gives particles mass."
+        },
+        {
+            "p": "This particle got a famous nickname from the title of Leon Lederman’s 1993 book about it, a nickname that the physicist this particle is named for reportedly disliked. Lederman had shared a Nobel Prize for discovering the muon neutrino.",
+            "r": "For 10 points, name this particle discovered at CERN in 2012, which is linked to a field that gives other particles mass."
+        },
+        {
+            "p": "A famous 1993 explanation of this particle, written for a British science minister’s contest, compared its field to guests at a party who crowd around a celebrity crossing the room, slowing that person down the way the field gives particles mass. In that comparison, this particle is like a rumor that makes the guests bunch together.",
+            "r": "For 10 points, name this particle whose discovery was announced at CERN in 2012."
+        },
+        {
+            "p": "The top quark, the heaviest known elementary particle, interacts more strongly with this particle’s field than any other particle does. This particle has about 133 times the mass of a proton.",
+            "r": "For 10 points, name this particle, discovered at the Large Hadron Collider in 2012, that is tied to how elementary particles get mass."
+        },
+        {
+            "p": "This particle is the only known elementary particle with a spin of zero, which makes it the only known fundamental “scalar” particle. It has no electric charge and breaks apart almost instantly after it forms.",
+            "r": "For 10 points, name this particle discovered at CERN in 2012 and nicknamed for the title of a book by Leon Lederman."
+        },
+        {
+            "p": "Sheldon Glashow, Steven Weinberg, and Abdus Salam used the mass-giving idea behind this particle in their theory uniting electromagnetism and the weak force. Through electroweak symmetry breaking, the field linked to this particle gives mass to the W and Z bosons, which carry the weak force, while leaving the photon massless.",
+            "r": "For 10 points, name this particle linked to a field that gives elementary particles mass."
+        },
+        {
+            "p": "Only about one percent of a proton’s mass comes from the field linked to this particle, since most of it comes from the energy of the strong force that binds the proton’s quarks together.",
+            "r": "That field does give electrons their mass. For 10 points, name this particle discovered at CERN in 2012."
+        },
+        {
+            "p": "This particle most often decays into a pair of bottom quarks, though it was first found through rarer decays. It breaks apart in less than a billionth of a trillionth of a second, so detectors see only the particles it leaves behind.",
+            "r": "For 10 points, name this particle found at the Large Hadron Collider in 2012, linked to a field that gives particles mass."
+        },
+        {
+            "p": "Gerald Guralnik, Carl Hagen, and Tom Kibble wrote one of three 1964 papers describing how a field could give particles mass, an idea now tied to this particle. The author of a different one of those papers is this particle’s namesake.",
+            "r": "For 10 points, name this particle whose 2012 discovery at CERN confirmed that idea."
+        },
+        {
+            "p": "This particle belongs to a class named for Satyendra Nath Bose, made of particles with whole-number spin, but unlike photons and gluons, it is not a carrier of one of the four fundamental forces. It has no electric charge.",
+            "r": "For 10 points, name this particle discovered at CERN in 2012 and named for a British physicist."
+        },
+        {
+            "p": "The 2013 Nobel Prize in Physics went to François Englert and a British physicist for predicting the mechanism behind this particle; Englert’s partner, Robert Brout, had died in 2011. That prize came one year after this particle’s discovery was announced.",
+            "r": "For 10 points, name this particle found at the Large Hadron Collider, which is linked to a field that gives other particles mass."
+        }
+    ],
+    "clues": [
+        {
+            "id": "mass-field",
+            "tier": "giveaway",
+            "t": "Linked to an invisible field, filling all of space, that gives elementary particles their mass",
+            "k": ["invisible field", "mass"],
+            "n": 0,
+            "rabbit": "Mass"
+        },
+        {
+            "id": "lhc-2012",
+            "tier": "giveaway",
+            "t": "Discovered at CERN’s Large Hadron Collider; the discovery was announced on July 4, 2012",
+            "k": ["large hadron collider", "cern", "2012"],
+            "n": 0
+        },
+        {
+            "id": "nickname",
+            "tier": "giveaway",
+            "t": "Its famous nickname comes from the title of Leon Lederman’s 1993 book",
+            "k": ["leon lederman", "nickname", "1993"],
+            "n": 0
+        },
+        {
+            "id": "named-1964",
+            "tier": "giveaway",
+            "t": "Named for a British physicist who predicted it in 1964",
+            "k": ["british physicist", "1964"],
+            "n": 0
+        },
+        {
+            "id": "nobel-2013",
+            "tier": "middle",
+            "t": "François Englert and the physicist it is named for won the 2013 Nobel Prize in Physics",
+            "k": ["englert", "2013", "nobel prize"],
+            "n": 0
+        },
+        {
+            "id": "atlas-cms",
+            "tier": "middle",
+            "t": "Found by two LHC detector teams, ATLAS and CMS, which both reached “five sigma” confidence",
+            "k": ["atlas", "cms", "five sigma"],
+            "n": 0
+        },
+        {
+            "id": "mass-125",
+            "tier": "middle",
+            "t": "Its mass is about 125 billion electron volts, about 133 times the mass of a proton",
+            "k": ["133 times", "electron volts", "125"],
+            "n": 0
+        },
+        {
+            "id": "spin-zero",
+            "tier": "middle",
+            "t": "The only known elementary particle with spin zero (a “scalar” particle); it has no electric charge",
+            "k": ["spin zero", "scalar", "no electric charge"],
+            "n": 0,
+            "rabbit": "Spin (physics)"
+        },
+        {
+            "id": "w-and-z",
+            "tier": "middle",
+            "t": "Its field gives mass to the W and Z carriers of the weak force but leaves the photon massless",
+            "k": ["w and z", "photon", "weak force"],
+            "n": 0,
+            "rabbit": "Weak nuclear force"
+        },
+        {
+            "id": "short-lived",
+            "tier": "middle",
+            "t": "Breaks apart in far less than a trillionth of a second, so detectors see only the particles it leaves behind",
+            "k": ["trillionth", "leaves behind"],
+            "n": 0
+        },
+        {
+            "id": "two-photons",
+            "tier": "middle",
+            "t": "First spotted through its decays into two photons or into four leptons",
+            "k": ["two photons", "four leptons"],
+            "n": 0
+        },
+        {
+            "id": "englert-brout",
+            "tier": "middle",
+            "t": "François Englert and Robert Brout independently proposed the same mass-giving mechanism in 1964; Brout died in 2011",
+            "k": ["robert brout", "independently", "brout"],
+            "n": 0
+        },
+        {
+            "id": "bose",
+            "tier": "middle",
+            "t": "Belongs to a class of particles with whole-number spin named for Satyendra Nath Bose",
+            "k": ["satyendra nath bose", "whole-number spin"],
+            "n": 0,
+            "rabbit": "Bose–Einstein condensate"
+        },
+        {
+            "id": "gluon-fusion",
+            "tier": "power",
+            "t": "At the LHC it is made most often when two gluons fuse",
+            "k": ["gluons", "fuse"],
+            "n": 0
+        },
+        {
+            "id": "ssc",
+            "tier": "power",
+            "t": "Finding it was a main goal of the Superconducting Super Collider in Texas, which Congress canceled in 1993",
+            "k": ["superconducting super collider", "texas", "canceled"],
+            "n": 0
+        },
+        {
+            "id": "tevatron",
+            "tier": "power",
+            "t": "Fermilab’s Tevatron searched for it until shutting down in 2011",
+            "k": ["tevatron", "fermilab"],
+            "n": 0
+        },
+        {
+            "id": "turned-down",
+            "tier": "power",
+            "t": "After a journal turned down one of his 1964 papers, its namesake added a paragraph predicting a new particle",
+            "k": ["turned down", "paragraph"],
+            "n": 0
+        },
+        {
+            "id": "mexican-hat",
+            "tier": "power",
+            "t": "Its field’s energy is drawn as a “Mexican hat” or “wine bottle” shape, so the field is nonzero even in empty space",
+            "k": ["mexican hat", "wine bottle", "empty space"],
+            "n": 0
+        },
+        {
+            "id": "party",
+            "tier": "power",
+            "t": "A famous 1993 comparison: party guests crowding around a celebrity slow the person down, like the field giving mass",
+            "k": ["party", "celebrity", "crowding"],
+            "n": 0
+        },
+        {
+            "id": "top-quark",
+            "tier": "power",
+            "t": "The top quark, the heaviest known elementary particle, interacts most strongly with its field",
+            "k": ["top quark", "heaviest"],
+            "n": 0,
+            "rabbit": "Quarks"
+        },
+        {
+            "id": "electroweak",
+            "tier": "power",
+            "t": "Glashow, Weinberg, and Salam built its mass-giving idea into their electroweak theory uniting electromagnetism and the weak force",
+            "k": ["glashow", "weinberg", "salam", "electroweak"],
+            "n": 0
+        },
+        {
+            "id": "proton-mass",
+            "tier": "power",
+            "t": "Only about 1 percent of a proton’s mass comes from its field; the rest comes from the energy of the strong force",
+            "k": ["1 percent", "strong force", "proton"],
+            "n": 0
+        },
+        {
+            "id": "bottom-quarks",
+            "tier": "power",
+            "t": "Most often decays into a pair of bottom quarks",
+            "k": ["bottom quarks", "decays"],
+            "n": 0
+        },
+        {
+            "id": "guralnik",
+            "tier": "power",
+            "t": "Gerald Guralnik, Carl Hagen, and Tom Kibble wrote another of the three 1964 papers on the mass-giving mechanism",
+            "k": ["guralnik", "kibble", "hagen"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Particle, field, or person?",
+        "body": "This particle, the field it belongs to, the mass-giving “mechanism,” and the physicist Peter Higgs are all different answers, and real answer lines can refuse “Higgs field” on a particle question. Weak-force tossups also mention the Higgs mechanism, since it gives the W and Z bosons their mass, so do not buzz with this particle there.",
+        "fix": "If the question asks for “this particle,” found at the Large Hadron Collider in 2012, say “Higgs boson.” If it asks for “this field” or “this mechanism,” name the field or the mechanism; if it asks for “this physicist,” say Peter Higgs. Just “boson” earns only a prompt.",
+        "line": "Real answer line: <b><u>Higgs</u></b> boson (accept <u>Higgs</u> particle or <u>God particle</u>; prompt on <u>boson</u>; do not accept “Higgs field” or “Higgs mechanism”)"
+    },
+    "tests": {
+        "right": [
+            "Higgs boson",
+            "higgs boson",
+            "Higgs",
+            "Higgs particle",
+            "God particle",
+            "Higs boson"
+        ],
+        "prompt": [
+            "Boson"
+        ],
+        "wrong": [
+            "Higgs field",
+            "Higgs mechanism",
+            "Peter Higgs",
+            "W boson",
+            "Z boson",
+            "Graviton",
+            "Gluon",
+            "Photon"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

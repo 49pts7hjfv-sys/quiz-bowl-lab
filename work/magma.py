@@ -1,0 +1,365 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "magma",
+    "name": "Magma",
+    "mono": "MAG",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Molten rock beneath Earth’s surface · Called lava once it erupts",
+    "dates": "Usually about 700 to 1,200 °C",
+    "briefing": "Magma is melted rock: a hot, thick mixture of liquid, crystals, and dissolved gases that forms deep underground and collects in chambers beneath volcanoes. Once it pours or blasts out onto the surface, it is called lava. Runny, low-silica magma like Hawaii’s oozes out in glowing streams, but thick, silica-rich magma traps its gases until they explode, the way a shaken soda bursts when you open it.",
+    "answerHtml": "<b><u>Magma</u></b> (accept <u>lava</u>; prompt on <u>molten rock</u> or <u>melted rock</u>; do not accept “magma chamber,” “volcano,” or “igneous rock”)",
+    "accept": [
+        "magma",
+        "magmas",
+        "lava",
+        "lavas",
+        "molten magma",
+        "molten lava",
+        "basaltic magma",
+        "rhyolitic magma",
+        "andesitic magma",
+        "lava flow",
+        "lava flows"
+    ],
+    "prompt": [
+        "molten rock",
+        "melted rock",
+        "liquid rock",
+        "melt",
+        "rock melt",
+        "silicate melt"
+    ],
+    "reject": [
+        "magma chamber",
+        "magma chambers",
+        "magma ocean",
+        "lava rock",
+        "lava tube",
+        "lava tubes",
+        "lava dome",
+        "lava domes",
+        "lava lamp",
+        "volcano",
+        "volcanoes",
+        "volcanic eruption",
+        "eruption",
+        "mantle",
+        "asthenosphere",
+        "basalt",
+        "granite",
+        "obsidian",
+        "pumice",
+        "tephra",
+        "ash",
+        "volcanic ash",
+        "pyroclastic flow",
+        "pyroclastic flows",
+        "lahar",
+        "igneous rock",
+        "igneous rocks",
+        "plasma",
+        "geyser",
+        "geysers",
+        "steam"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Magma",
+    "qb": {
+        "q": "magma",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This substance’s name comes from a Greek word for a thick, kneaded paste. Wind can stretch flying droplets of it into golden threads of volcanic glass called Pele’s hair, named for the Hawaiian volcano goddess.",
+            "r": "It is a hot mixture of liquid rock, crystals, and dissolved gases. For 10 points, name this molten rock found beneath Earth’s surface."
+        },
+        {
+            "p": "In 2009, engineers drilling for geothermal energy at Krafla in Iceland accidentally struck a pocket of this substance about two kilometers down. That pocket turned out to be rich in silica, the ingredient that makes this substance thick and sticky.",
+            "r": "Thick, gas-rich kinds of this substance erupt explosively, like a shaken soda. For 10 points, name this molten rock that erupts from volcanoes."
+        },
+        {
+            "p": "Tanzania’s Ol Doinyo Lengai, whose name means “Mountain of God” in the Maasai language, erupts the coolest known kind of this substance, a carbonate-rich type that flows out black, turns white within days, and is far runnier than ordinary kinds.",
+            "r": "Most of this substance is roughly 700 to 1,200 degrees Celsius, with runny basaltic kinds the hottest. For 10 points, name this molten rock that erupts from volcanoes."
+        },
+        {
+            "p": "Kimberlite, a rare kind of this substance that races up from deep in the mantle, carries diamonds to the surface through carrot-shaped pipes. It rises so fast that the diamonds have no time to turn into graphite on the way up.",
+            "r": "When this substance cools underground instead of erupting, it forms plutons such as dikes and sills. For 10 points, name this molten rock found beneath Earth’s surface."
+        },
+        {
+            "p": "The young Moon was covered by an ocean of this substance hundreds of kilometers deep, and light crystals that floated to its top formed the bright lunar highlands. Early Earth was probably covered by a similar ocean after a giant impact.",
+            "r": "This substance cools into igneous rocks such as basalt and granite. For 10 points, name this molten rock, which gets a different name once it erupts onto the surface."
+        },
+        {
+            "p": "Jupiter’s moon Io erupts more of this substance than any other world in the solar system, because tides raised by Jupiter keep its interior hot. A giant pit on Io called Loki Patera seems to hold an enormous lake of it.",
+            "r": "On Earth, this substance collects in underground chambers beneath volcanoes. For 10 points, name this molten rock."
+        },
+        {
+            "p": "Beneath Yellowstone National Park lies a huge reservoir of this substance that is mostly a crystal-rich “mush,” with only a small fraction actually melted. Its heat powers the park’s geysers and hot springs, and the ground above it slowly rises and sinks over the years.",
+            "r": "When a chamber of this substance empties in a giant eruption, the ground above can collapse into a caldera. For 10 points, name this molten rock."
+        },
+        {
+            "p": "Early-forming crystals like olivine can sink to the floor of an underground body of this substance and pile up in layers, leaving the remaining liquid richer in silica. Norman Bowen’s reaction series describes the order in which those minerals crystallize.",
+            "r": "The more silica this substance holds, the thicker and stickier it is. For 10 points, name this molten rock found beneath Earth’s surface."
+        },
+        {
+            "p": "At subduction zones, water released from the sinking seafloor lowers the melting point of the hot mantle rock above it, a process called flux melting that produces this substance. That is why chains of volcanoes line deep-ocean trenches.",
+            "r": "Its dissolved gases, mostly water vapor and carbon dioxide, bubble out as it rises. For 10 points, name this molten rock found beneath Earth’s surface."
+        },
+        {
+            "p": "Beneath mid-ocean ridges and hotspots, hot mantle rock rising toward the surface melts into this substance as the pressure on it drops, a process called decompression melting. Iceland sits on both a mid-ocean ridge and a hotspot.",
+            "r": "Erupting underwater, this substance cools quickly into rounded pillows. For 10 points, name this molten rock that erupts from volcanoes."
+        },
+        {
+            "p": "Rising bodies of this substance can make room for themselves by stoping, in which blocks of the rock above break off and sink into them, and by assimilation, in which they melt and absorb the surrounding rock.",
+            "r": "When this substance cools underground, it forms intrusive bodies called plutons. For 10 points, name this molten rock that is the source of all igneous rocks."
+        },
+        {
+            "p": "Ethiopia’s Erta Ale and Nyiragongo [“neer-ah-GONG-goh”], in the Democratic Republic of the Congo, are famous for long-lasting lakes of this substance glowing inside their craters. A thin crust keeps forming on top of those lakes and cracking apart as the hot liquid below churns.",
+            "r": "Hawaiian words name its smooth, ropy pahoehoe [“pa-HOH-ay-HOH-ay”] flows and rough, jagged a‘a [“AH-ah”] flows. For 10 points, name this molten rock that erupts from volcanoes."
+        },
+        {
+            "p": "Droplets of this substance that harden in midair into tiny teardrop-shaped beads of glass are called Pele’s tears, after the Hawaiian volcano goddess. Thin golden threads of glass spun from it by the wind are called Pele’s hair.",
+            "r": "Runny, low-silica kinds of this substance erupt gently in Hawaii. For 10 points, name this molten rock that erupts from volcanoes."
+        },
+        {
+            "p": "In the spring of 1980, a body of this substance pushing up inside Mount St. Helens made the volcano’s north side bulge outward by more than a meter a day. That bulge collapsed in a giant landslide that set off the May 18 eruption.",
+            "r": "Thick, gas-rich kinds of this substance trap bubbles until they explode. For 10 points, name this molten rock that collects in chambers beneath volcanoes."
+        },
+        {
+            "p": "This substance’s viscosity, or thickness, depends mostly on how much silica it contains: silica-rich kinds are sticky and trap gas, while silica-poor kinds are runny and let gas escape. That difference decides whether a volcano explodes or oozes.",
+            "r": "This substance cools into igneous rocks like granite and basalt. For 10 points, name this molten rock found beneath Earth’s surface."
+        }
+    ],
+    "clues": [
+        {
+            "id": "molten-rock",
+            "tier": "giveaway",
+            "t": "Molten, or melted, rock found beneath Earth’s surface",
+            "k": ["molten", "melted rock", "beneath"],
+            "n": 0
+        },
+        {
+            "id": "erupts-new-name",
+            "tier": "giveaway",
+            "t": "Once it erupts from a volcano onto the surface, it gets a different, four-letter name",
+            "k": ["erupts", "four-letter", "volcano"],
+            "n": 0,
+            "rabbit": "Volcanoes"
+        },
+        {
+            "id": "chambers",
+            "tier": "giveaway",
+            "t": "Collects underground in chambers beneath volcanoes before an eruption",
+            "k": ["chambers", "underground"],
+            "n": 0
+        },
+        {
+            "id": "igneous",
+            "tier": "giveaway",
+            "t": "Cools and hardens into igneous rocks like granite and basalt",
+            "k": ["igneous rocks", "granite", "basalt", "hardens"],
+            "n": 0,
+            "rabbit": "Igneous rocks"
+        },
+        {
+            "id": "mixture",
+            "tier": "giveaway",
+            "t": "A hot mixture of liquid rock, crystals, and dissolved gases",
+            "k": ["mixture", "crystals", "dissolved gases"],
+            "n": 0
+        },
+        {
+            "id": "silica-viscosity",
+            "tier": "middle",
+            "t": "The more silica it holds, the thicker (more viscous) it is; silica-poor basaltic kinds are runny",
+            "k": ["silica", "viscous", "runny"],
+            "n": 0
+        },
+        {
+            "id": "explosive",
+            "tier": "middle",
+            "t": "Thick, gas-rich kinds trap bubbles and erupt explosively, like a shaken soda; runny kinds erupt gently",
+            "k": ["explosively", "shaken soda", "gently"],
+            "n": 0
+        },
+        {
+            "id": "gases",
+            "tier": "middle",
+            "t": "Its dissolved gases, mostly water vapor and carbon dioxide, bubble out as it rises and the pressure drops",
+            "k": ["water vapor", "carbon dioxide", "bubble"],
+            "n": 0
+        },
+        {
+            "id": "pahoehoe",
+            "tier": "middle",
+            "t": "Hawaiian words name its flows: smooth, ropy pahoehoe [“pa-HOH-ay-HOH-ay”] and rough, jagged a‘a [“AH-ah”]",
+            "k": ["pahoehoe", "ropy", "jagged"],
+            "n": 0
+        },
+        {
+            "id": "temperature",
+            "tier": "middle",
+            "t": "Usually roughly 700 to 1,200 degrees Celsius; runny basaltic kinds are the hottest",
+            "k": ["celsius", "basaltic", "hottest"],
+            "n": 0
+        },
+        {
+            "id": "caldera",
+            "tier": "middle",
+            "t": "When a chamber of it empties in a huge eruption, the ground above can collapse into a caldera",
+            "k": ["caldera", "collapse"],
+            "n": 0
+        },
+        {
+            "id": "plutons",
+            "tier": "middle",
+            "t": "Cooling underground instead of erupting, it forms intrusive bodies called plutons, like dikes and sills",
+            "k": ["plutons", "dikes", "sills"],
+            "n": 0
+        },
+        {
+            "id": "where-it-forms",
+            "tier": "middle",
+            "t": "Forms where rock melts beneath mid-ocean ridges, hotspots, and subduction zones",
+            "k": ["mid-ocean ridges", "hotspots", "subduction zones"],
+            "n": 0
+        },
+        {
+            "id": "pillows",
+            "tier": "middle",
+            "t": "Erupting underwater, it cools quickly into rounded pillows",
+            "k": ["pillows", "underwater"],
+            "n": 0,
+            "rabbit": "Basalt"
+        },
+        {
+            "id": "greek-paste",
+            "tier": "power",
+            "t": "Its name comes from a Greek word for a thick, kneaded paste",
+            "k": ["greek", "paste", "kneaded"],
+            "n": 0
+        },
+        {
+            "id": "krafla",
+            "tier": "power",
+            "t": "In 2009, geothermal drillers at Krafla, Iceland, accidentally struck a silica-rich pocket of it about two kilometers down",
+            "k": ["krafla", "2009", "geothermal"],
+            "n": 0
+        },
+        {
+            "id": "ol-doinyo-lengai",
+            "tier": "power",
+            "t": "Tanzania’s Ol Doinyo Lengai (“Mountain of God”) erupts the coolest known kind, a carbonate-rich type that comes out black and turns white",
+            "k": ["ol doinyo lengai", "carbonate", "tanzania"],
+            "n": 0
+        },
+        {
+            "id": "kimberlite",
+            "tier": "power",
+            "t": "Kimberlite, a kind that races up from deep in the mantle, carries diamonds up through carrot-shaped pipes",
+            "k": ["kimberlite", "diamonds", "carrot-shaped"],
+            "n": 0,
+            "rabbit": "Diamond"
+        },
+        {
+            "id": "lunar-ocean",
+            "tier": "power",
+            "t": "The young Moon was covered by an ocean of it; light crystals floating to the top formed the bright lunar highlands",
+            "k": ["lunar highlands", "moon", "ocean"],
+            "n": 0
+        },
+        {
+            "id": "io",
+            "tier": "power",
+            "t": "Jupiter’s moon Io erupts more of it than any other world, heated by Jupiter’s tides; its pit Loki Patera seems to hold a giant lake of it",
+            "k": ["loki patera", "jupiter", "io"],
+            "n": 0,
+            "rabbit": "Tides"
+        },
+        {
+            "id": "yellowstone",
+            "tier": "power",
+            "t": "Beneath Yellowstone lies a huge reservoir of it that is mostly crystal “mush,” with only a small fraction melted",
+            "k": ["yellowstone", "mush"],
+            "n": 0
+        },
+        {
+            "id": "fractional-crystallization",
+            "tier": "power",
+            "t": "Early crystals like olivine sink out of it and pile up in layers, leaving the leftover liquid richer in silica: fractional crystallization",
+            "k": ["fractional crystallization", "olivine", "layers"],
+            "n": 0,
+            "rabbit": "Bowen’s reaction series"
+        },
+        {
+            "id": "flux-melting",
+            "tier": "power",
+            "t": "At subduction zones, water from the sinking seafloor lowers the mantle’s melting point, making it by flux melting",
+            "k": ["flux melting", "melting point"],
+            "n": 0,
+            "rabbit": "Subduction"
+        },
+        {
+            "id": "decompression-melting",
+            "tier": "power",
+            "t": "Under mid-ocean ridges and hotspots, rising mantle rock melts into it as the pressure drops: decompression melting",
+            "k": ["decompression melting", "pressure drops"],
+            "n": 0
+        },
+        {
+            "id": "stoping",
+            "tier": "power",
+            "t": "It makes room by stoping (blocks of roof rock break off and sink into it) and by assimilation (melting and absorbing nearby rock)",
+            "k": ["stoping", "assimilation"],
+            "n": 0
+        },
+        {
+            "id": "crater-lakes",
+            "tier": "power",
+            "t": "Ethiopia’s Erta Ale and Nyiragongo, in the Democratic Republic of the Congo, hold long-lasting, glowing lakes of it in their craters",
+            "k": ["erta ale", "nyiragongo", "lakes"],
+            "n": 0
+        },
+        {
+            "id": "peles-hair",
+            "tier": "power",
+            "t": "Wind spins it into golden glass threads called Pele’s hair; droplets that harden in midair are Pele’s tears",
+            "k": ["pele’s hair", "peles hair", "pele’s tears"],
+            "n": 0
+        },
+        {
+            "id": "st-helens",
+            "tier": "power",
+            "t": "In 1980, a rising body of it made Mount St. Helens’s north side bulge outward more than a meter a day before the May 18 eruption",
+            "k": ["mount st. helens", "bulge", "1980"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Magma or lava?",
+        "body": "They are the same molten rock in two places: magma is underground, and lava is what it is called once it erupts onto the surface. This site accepts both, but some real answer lines want only one, so a question about magma chambers, plutons, or melting deep underground may reject or only prompt on lava, and a question about pahoehoe flows may want lava. The volcano itself, the magma chamber, and the igneous rock that it cools into are all different answers.",
+        "fix": "Underground clues (chambers, plutons, flux or decompression melting, Bowen’s reaction series) mean say “magma.” Surface clues (flows, pahoehoe and a‘a, Pele’s hair, lakes in craters) mean say “lava.” Saying only “molten rock” earns a prompt.",
+        "line": "Real answer line: <b><u>Magma</u></b> (accept lava; prompt on molten rock; do not accept “magma chamber,” “volcano,” or “igneous rock”)"
+    },
+    "tests": {
+        "right": ["Magma", "lava", "Magama", "basaltic magma", "Molten magma"],
+        "prompt": ["molten rock", "melted rock"],
+        "wrong": ["Magma chamber", "Volcano", "Basalt", "Obsidian", "Mantle", "Igneous rock"]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

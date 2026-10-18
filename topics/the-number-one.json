@@ -1,0 +1,475 @@
+{
+  "id": "the-number-one",
+  "name": "The number one",
+  "mono": "1",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "The multiplicative identity · Neither prime nor composite",
+  "dates": "Called the “unit” in Euclid’s _Elements_, c. 300 BCE",
+  "briefing": "One is where counting starts, and it has a superpower: multiply any number by 1 and nothing changes, so mathematicians call it the multiplicative identity. It is the only positive whole number that is neither prime nor composite, and any nonzero number raised to the zero power equals 1. It even stars in Euler’s famous identity, e^(iπ) + 1 = 0, alongside e, i, π, and 0.",
+  "answerHtml": "<b><u>one</u></b> (or <u>1</u>; accept <u>unity</u>; prompt on <u>multiplicative identity</u>)",
+  "accept": [
+    "one",
+    "1",
+    "the number one",
+    "number one",
+    "the number 1",
+    "number 1",
+    "unity"
+  ],
+  "prompt": [
+    "multiplicative identity",
+    "multiplicative identity element",
+    "identity element",
+    "identity",
+    "unit"
+  ],
+  "reject": [
+    "zero",
+    "0",
+    "the number zero",
+    "number zero",
+    "two",
+    "2",
+    "the number two",
+    "number two",
+    "three",
+    "3",
+    "four",
+    "4",
+    "the number four",
+    "number four",
+    "ten",
+    "10",
+    "eleven",
+    "11",
+    "negative one",
+    "minus one",
+    "negative 1",
+    "minus 1",
+    "i",
+    "imaginary unit",
+    "infinity",
+    "pi",
+    "e",
+    "eulers number",
+    "prime",
+    "prime number",
+    "prime numbers",
+    "composite",
+    "composite number",
+    "integer",
+    "integers",
+    "unit circle",
+    "roots of unity",
+    "root of unity",
+    "identity matrix",
+    "unit fraction",
+    "unit fractions",
+    "half",
+    "one half",
+    "a half"
+  ],
+  "tests": {
+    "right": [
+      "one",
+      "1",
+      "The number one",
+      "number one",
+      "Unity",
+      "the number 1"
+    ],
+    "prompt": [
+      "multiplicative identity",
+      "unit"
+    ],
+    "wrong": [
+      "zero",
+      "two",
+      "The number two",
+      "negative one",
+      "i",
+      "prime number",
+      "infinity"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/1",
+  "qb": {
+    "q": "one",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Carl Friedrich Gauss used the seventeen complex 17th roots of this number to prove that a regular 17-sided polygon can be built with only a compass and straightedge. The complex nth roots of this number are evenly spaced around a circle and form the corners of a regular polygon.",
+      "r": "For 10 points, name this multiplicative identity, which leaves any number unchanged when you multiply by it."
+    },
+    {
+      "p": "Guido Grandi studied the endless series that alternately adds and subtracts this number, which seems to total 0 if you group the terms in pairs but this number itself if you group them differently. Grandi argued that the sum of that series was a half.",
+      "r": "For 10 points, name this number, the only positive integer that is neither prime nor composite."
+    },
+    {
+      "p": "Alfred North Whitehead and Bertrand Russell’s _Principia Mathematica_ worked through hundreds of pages of logic before finally proving that this number added to itself equals 2. Euler’s [“OY-lerz”] identity says that e to the power i pi, plus this number, equals 0.",
+      "r": "Multiplying any number by it leaves that number unchanged. For 10 points, name this number, the multiplicative identity."
+    },
+    {
+      "p": "In 1881, Simon Newcomb noticed that the first pages of books of logarithm tables were more worn than the rest. Benford’s law explains why: in many real-life lists of data, such as populations or prices, about 30 percent of the numbers begin with this digit.",
+      "r": "This number is also the multiplicative identity. For 10 points, name this digit, the smallest positive integer."
+    },
+    {
+      "p": "About 1550 BCE, the scribe Ahmes [“AH-mess”] copied the Rhind [“RYND”] Papyrus, which writes fractions like two-fifths as sums of fractions with this number on top, such as a third plus a fifteenth. Ancient Egyptians wrote almost all of their fractions this way.",
+      "r": "For 10 points, name this number, the numerator of every unit fraction, which is neither prime nor composite."
+    },
+    {
+      "p": "A whole number is “happy” if repeatedly adding up the squares of its digits leads to this number, as 7 does: 49, 97, 130, 10, and then this number. In binary, every power of 2 is written as this digit followed by zeros.",
+      "r": "It is also the multiplicative identity. For 10 points, name this smallest positive integer, which is neither prime nor composite."
+    },
+    {
+      "p": "Lothar Collatz guessed that if you start from any positive whole number and keep halving even numbers, and tripling odd numbers and then adding this number, you will always eventually reach this number. In computer circuits and Boolean logic, this digit stands for “true” or “on,” while 0 stands for “false” or “off.”",
+      "r": "For 10 points, name this number, which equals 0 factorial and any nonzero number raised to the zeroth power."
+    },
+    {
+      "p": "Numbers called repunits, such as 11 and 111, are written using only this digit, and squaring the repunit 111,111,111 gives 12,345,678,987,654,321. This number fills the main diagonal of every identity matrix, which has zeros everywhere else.",
+      "r": "Every whole number has this number as a factor. For 10 points, name this smallest positive integer, which is neither prime nor composite."
+    },
+    {
+      "p": "Harry Nilsson wrote a song, made a hit by Three Dog Night in 1969, that calls this number “the loneliest number that you’ll ever do.” A hydrogen atom has exactly this many protons, so hydrogen is the element with this atomic number.",
+      "r": "Multiplying by this number leaves any number unchanged. For 10 points, name this number, which is neither prime nor composite."
+    },
+    {
+      "p": "Mathematicians define the empty product, the result of multiplying no numbers at all, to be this number, just as the empty sum is 0. Gottfried Leibniz [“LYBE-nits”] wrote an early explanation of binary, a number system that uses only 0 and this digit.",
+      "r": "That is why 0 factorial equals this number. For 10 points, name this number, the multiplicative identity."
+    },
+    {
+      "p": "A classic argument notes that a third equals 0.333 repeating, so three thirds must equal 0.999 repeating, which is therefore exactly this number. The total area under any probability density curve, such as the bell curve, equals this number.",
+      "r": "It is the probability of an event that is certain. For 10 points, name this number, the multiplicative identity."
+    },
+    {
+      "p": "Euclid’s _Elements_ defined a number as a “multitude composed of units,” so many ancient Greek thinkers did not count this quantity as a number at all. Some later mathematicians counted it as a prime, but it was eventually left out of the primes so that prime factorizations would be unique.",
+      "r": "Multiplying by it leaves any number unchanged. For 10 points, name this positive integer, which is neither prime nor composite."
+    },
+    {
+      "p": "The Pythagorean identity says that the square of the sine of any angle plus the square of its cosine always equals this number. The sine of 90 degrees, the tangent of 45 degrees, and the cosine of 0 degrees all equal this number.",
+      "r": "It is also the radius of the unit circle. For 10 points, name this number, the multiplicative identity."
+    },
+    {
+      "p": "The logarithm of this number is 0 in every base, and the natural logarithm of e equals this number. The Kronecker [“KROH-neck-er”] delta, a symbol from linear algebra, equals this number whenever its two inputs match and equals 0 otherwise.",
+      "r": "Any nonzero number raised to the zeroth power equals this number. For 10 points, name this number, the multiplicative identity."
+    },
+    {
+      "p": "Every row of Pascal’s triangle begins and ends with this number, and in the modern Fibonacci [“fib-uh-NAH-chee”] sequence, the two terms that come right after 0 are both this number. Multiplying any nonzero number by its reciprocal gives this number.",
+      "r": "In Roman numerals it is written as I. For 10 points, name this smallest positive integer, which is neither prime nor composite."
+    }
+  ],
+  "clues": [
+    {
+      "id": "multiplicative-identity",
+      "tier": "giveaway",
+      "t": "The multiplicative identity: multiplying any number by it leaves that number unchanged",
+      "k": [
+        "multiplicative identity",
+        "unchanged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "neither-prime",
+      "tier": "giveaway",
+      "t": "The only positive integer that is neither prime nor composite",
+      "k": [
+        "neither prime nor composite",
+        "composite"
+      ],
+      "n": 0,
+      "rabbit": "Prime numbers"
+    },
+    {
+      "id": "smallest",
+      "tier": "giveaway",
+      "t": "The smallest positive integer and the first counting number; a factor of every whole number; Roman numeral I",
+      "k": [
+        "smallest positive integer",
+        "first counting number",
+        "factor of every"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zeroth-power",
+      "tier": "giveaway",
+      "t": "Any nonzero number raised to the zeroth power equals it, and so does 0 factorial",
+      "k": [
+        "zeroth power",
+        "0 factorial",
+        "factorial"
+      ],
+      "n": 0,
+      "rabbit": "Factorial"
+    },
+    {
+      "id": "euler-identity",
+      "tier": "middle",
+      "t": "Euler’s identity links it with e, i, π, and 0: e to the power iπ, plus it, equals 0",
+      "k": [
+        "euler’s identity",
+        "euler",
+        "identity"
+      ],
+      "n": 0,
+      "rabbit": "Leonhard Euler"
+    },
+    {
+      "id": "reciprocal",
+      "tier": "middle",
+      "t": "A nonzero number times its reciprocal always equals it; it is its own square, its own cube, and its own square root",
+      "k": [
+        "reciprocal",
+        "own square",
+        "own cube"
+      ],
+      "n": 0
+    },
+    {
+      "id": "point-nine",
+      "tier": "middle",
+      "t": "Exactly equal to 0.999… repeating, since a third is 0.333… and three thirds make 0.999…",
+      "k": [
+        "0.999",
+        "repeating",
+        "three thirds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "probability",
+      "tier": "middle",
+      "t": "The probability of a certain event; the probabilities of all outcomes, and the area under any probability density curve, add up to it",
+      "k": [
+        "probability",
+        "certain event",
+        "area under"
+      ],
+      "n": 0,
+      "rabbit": "Normal distribution"
+    },
+    {
+      "id": "fibonacci-pascal",
+      "tier": "middle",
+      "t": "Every row of Pascal’s triangle starts and ends with it, and the two Fibonacci terms right after 0 are both it",
+      "k": [
+        "pascal",
+        "fibonacci"
+      ],
+      "n": 0,
+      "rabbit": "Fibonacci sequence"
+    },
+    {
+      "id": "binary",
+      "tier": "middle",
+      "t": "Binary (explained early by Gottfried Leibniz) uses only 0 and this digit; every power of 2 is this digit followed by zeros; in circuits it means “true” or “on”",
+      "k": [
+        "binary",
+        "leibniz",
+        "power of 2"
+      ],
+      "n": 0,
+      "rabbit": "Gottfried Wilhelm Leibniz"
+    },
+    {
+      "id": "hydrogen",
+      "tier": "middle",
+      "t": "Hydrogen’s atomic number, since a hydrogen atom has a single proton",
+      "k": [
+        "hydrogen",
+        "atomic number",
+        "proton"
+      ],
+      "n": 0,
+      "rabbit": "Hydrogen"
+    },
+    {
+      "id": "trig",
+      "tier": "middle",
+      "t": "The radius of the unit circle; sin 90°, cos 0°, tan 45°, and sin²x + cos²x (the Pythagorean identity) all equal it",
+      "k": [
+        "unit circle",
+        "radius",
+        "pythagorean identity"
+      ],
+      "n": 0,
+      "rabbit": "Trigonometric functions"
+    },
+    {
+      "id": "gauss-17",
+      "tier": "power",
+      "t": "Gauss used its complex 17th roots to show that a regular 17-sided polygon can be built with compass and straightedge; its nth roots form a regular polygon",
+      "k": [
+        "gauss",
+        "17-sided",
+        "regular polygon",
+        "roots"
+      ],
+      "n": 0,
+      "rabbit": "Carl Friedrich Gauss"
+    },
+    {
+      "id": "grandi",
+      "tier": "power",
+      "t": "Guido Grandi studied the endless series that alternately adds and subtracts it, and argued that its sum is a half",
+      "k": [
+        "grandi",
+        "series",
+        "alternately"
+      ],
+      "n": 0
+    },
+    {
+      "id": "principia",
+      "tier": "power",
+      "t": "Whitehead and Russell’s _Principia Mathematica_ took hundreds of pages to prove that it plus itself equals 2",
+      "k": [
+        "principia mathematica",
+        "whitehead",
+        "russell",
+        "hundreds of pages"
+      ],
+      "n": 0,
+      "rabbit": "Bertrand Russell"
+    },
+    {
+      "id": "benford",
+      "tier": "power",
+      "t": "Benford’s law: about 30% of numbers in many real-life data sets begin with it; Simon Newcomb noticed worn pages in logarithm tables in 1881",
+      "k": [
+        "benford",
+        "newcomb",
+        "1881",
+        "logarithm tables"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rhind",
+      "tier": "power",
+      "t": "Egyptians wrote fractions as sums of unit fractions with it on top; the Rhind Papyrus (c. 1550 BCE) writes two-fifths as a third plus a fifteenth",
+      "k": [
+        "unit fractions",
+        "rhind papyrus",
+        "egyptians"
+      ],
+      "n": 0
+    },
+    {
+      "id": "happy",
+      "tier": "power",
+      "t": "A “happy” number reaches it by repeatedly adding the squares of its digits: 7 → 49 → 97 → 130 → 10 → it",
+      "k": [
+        "happy",
+        "squares of its digits"
+      ],
+      "n": 0
+    },
+    {
+      "id": "collatz",
+      "tier": "power",
+      "t": "Collatz conjecture (1937): halve even numbers, triple odd numbers and add it, and every start seems to reach it; still unproven",
+      "k": [
+        "collatz",
+        "halve",
+        "triple"
+      ],
+      "n": 0
+    },
+    {
+      "id": "repunits",
+      "tier": "power",
+      "t": "Repunits like 11 and 111 use only this digit; 111,111,111 squared is 12,345,678,987,654,321",
+      "k": [
+        "repunits",
+        "111,111,111",
+        "only this digit"
+      ],
+      "n": 0
+    },
+    {
+      "id": "euclid",
+      "tier": "power",
+      "t": "Euclid defined a number as a “multitude composed of units,” so many ancient Greeks did not count it as a number",
+      "k": [
+        "euclid",
+        "multitude",
+        "ancient greeks"
+      ],
+      "n": 0,
+      "rabbit": "Euclid"
+    },
+    {
+      "id": "once-prime",
+      "tier": "power",
+      "t": "Some mathematicians once called it prime; it was left out of the primes so that prime factorizations are unique",
+      "k": [
+        "prime factorizations",
+        "unique",
+        "left out"
+      ],
+      "n": 0
+    },
+    {
+      "id": "empty-product",
+      "tier": "power",
+      "t": "The empty product (multiplying no numbers at all) is defined to be it, just as the empty sum is 0",
+      "k": [
+        "empty product",
+        "empty sum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "song",
+      "tier": "power",
+      "t": "Harry Nilsson wrote, and Three Dog Night made a 1969 hit of, a song calling it “the loneliest number”",
+      "k": [
+        "loneliest number",
+        "three dog night",
+        "nilsson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "matrix-delta",
+      "tier": "power",
+      "t": "The identity matrix has it all along its main diagonal; the Kronecker delta equals it when its two inputs match",
+      "k": [
+        "identity matrix",
+        "main diagonal",
+        "kronecker delta"
+      ],
+      "n": 0,
+      "rabbit": "Matrices"
+    },
+    {
+      "id": "logarithm",
+      "tier": "power",
+      "t": "Its logarithm is 0 in every base, and the natural logarithm of e equals it",
+      "k": [
+        "logarithm",
+        "every base",
+        "natural logarithm"
+      ],
+      "n": 0,
+      "rabbit": "Logarithms"
+    }
+  ],
+  "trap": {
+    "title": "Adding or multiplying identity?",
+    "body": "Zero and one are easy to mix up. Zero is the additive identity (adding it changes nothing), while one is the multiplicative identity (multiplying by it changes nothing). Clues like “0 factorial” or “any number to the zeroth power” say “0” out loud, but the answer is the value they equal, which is 1. And don’t confuse one with i, the “imaginary unit,” which is the square root of negative one.",
+    "fix": "Ask whether the clue is about adding or multiplying: “unchanged when added” means zero, and “unchanged when multiplied” means one. If you hear “0 factorial” or “to the zeroth power,” answer with the result, 1. Saying “multiplicative identity” only earns a prompt, so be ready to name the number.",
+    "line": "Real answer line: <b><u>one</u></b> (or <u>1</u>; accept <u>unity</u>; prompt on <u>multiplicative identity</u>)"
+  }
+}

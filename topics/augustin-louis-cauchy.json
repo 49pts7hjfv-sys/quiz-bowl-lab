@@ -1,0 +1,467 @@
+{
+  "id": "augustin-louis-cauchy",
+  "name": "Augustin-Louis Cauchy",
+  "mono": "ALC",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "French pioneer of rigorous calculus · Names sequences, inequalities, and more",
+  "dates": "1789–1857",
+  "briefing": "Augustin-Louis Cauchy [“koh-SHEE”] was born in Paris in 1789, just weeks after the French Revolution began, and grew into one of the most prolific mathematicians ever, writing about 800 research papers. He made calculus rigorous by carefully defining limits and continuity, and his name is attached to so many ideas, from Cauchy sequences to the Cauchy–Schwarz inequality, that students meet him all over math. His name is one of 72 engraved on the Eiffel Tower.",
+  "answerHtml": "<b><u>Augustin-Louis Cauchy</u></b> [“koh-SHEE”] (accept <u>Cauchy</u>)",
+  "accept": [
+    "augustin louis cauchy",
+    "augustin cauchy",
+    "cauchy"
+  ],
+  "prompt": [],
+  "reject": [
+    "cauchy sequence",
+    "cauchy sequences",
+    "cauchy schwarz inequality",
+    "cauchy schwarz",
+    "cauchy riemann equations",
+    "cauchy riemann",
+    "cauchy distribution",
+    "cauchys theorem",
+    "cauchy integral theorem",
+    "cauchys integral theorem",
+    "cauchy integral formula",
+    "cauchys integral formula",
+    "bernhard riemann",
+    "riemann",
+    "hermann schwarz",
+    "schwarz",
+    "karl weierstrass",
+    "weierstrass",
+    "bernard bolzano",
+    "bolzano",
+    "joseph louis lagrange",
+    "lagrange",
+    "pierre simon laplace",
+    "laplace",
+    "joseph fourier",
+    "fourier",
+    "simeon denis poisson",
+    "poisson",
+    "evariste galois",
+    "galois",
+    "niels henrik abel",
+    "abel",
+    "adrien marie legendre",
+    "legendre",
+    "gaspard monge",
+    "monge",
+    "sofia kovalevskaya",
+    "kovalevskaya",
+    "jacques hadamard",
+    "hadamard",
+    "carl friedrich gauss",
+    "gauss",
+    "leonhard euler",
+    "euler",
+    "pierre de fermat",
+    "fermat"
+  ],
+  "tests": {
+    "right": [
+      "Augustin-Louis Cauchy",
+      "Cauchy",
+      "Augustin Cauchy",
+      "Cauchey",
+      "Couchy"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Bernhard Riemann",
+      "Lagrange",
+      "Laplace",
+      "Cauchy sequence",
+      "Galois",
+      "Weierstrass"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy",
+  "qb": {
+    "q": "Cauchy",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1810, this man took a job as an engineer building port facilities at Cherbourg [“shair-BOOR”] for the fleet Napoleon planned to send against England. He later wrote _Cours d’analyse_ [“KOOR dah-nah-LEEZ”], a textbook that gave careful definitions of limits and continuity.",
+      "r": "For 10 points, name this French mathematician whose name is given to sequences whose terms get closer and closer to each other."
+    },
+    {
+      "p": "After the Bourbon kings returned to power, this man was appointed in 1816 to the Academy of Sciences seat taken from Gaspard Monge [“MOHNZH”], who had been expelled for political reasons. Around that time, this man also won the Academy’s grand prize for a study of waves on the surface of a liquid.",
+      "r": "For 10 points, name this French mathematician who names an inequality with Hermann Schwarz and a pair of equations with Bernhard Riemann."
+    },
+    {
+      "p": "After the July Revolution of 1830, this devout royalist refused to swear an oath to King Louis-Philippe and left France, eventually moving to Prague to tutor the grandson of the exiled King Charles X. He did not return to Paris until 1838.",
+      "r": "For 10 points, name this French mathematician who shares a pair of equations in complex analysis with Bernhard Riemann."
+    },
+    {
+      "p": "This man was asked to review a long paper that Niels Henrik Abel [“AH-bel”] submitted to the Paris Academy in 1826, but he set it aside and mislaid it, and it was not published until years after Abel’s death. This man wrote about 800 research papers.",
+      "r": "For 10 points, name this French mathematician whose name is given to an inequality with Hermann Schwarz."
+    },
+    {
+      "p": "A theorem about when partial differential equations have solutions is named for this man and Sofia Kovalevskaya [“koh-vuh-LYEF-skuh-yuh”], the first woman to earn a modern doctorate in mathematics. This man also developed the calculus of residues for computing difficult integrals in complex analysis.",
+      "r": "For 10 points, name this French mathematician whose name is given to sequences whose terms get closer and closer together."
+    },
+    {
+      "p": "In 1813, this man proved that a convex polyhedron whose faces are rigid plates cannot be flexed into a different shape. This man’s name is one of 72 engraved on the Eiffel Tower, along with those of Joseph-Louis Lagrange and Pierre-Simon Laplace.",
+      "r": "For 10 points, name this French mathematician who shares a pair of equations in complex analysis with Bernhard Riemann."
+    },
+    {
+      "p": "This man introduced the stress tensor, which describes the forces acting inside a solid or fluid, and helped found the mathematical theory of elasticity. His equation relating a material’s refractive index to the wavelength of light describes how glass spreads white light into colors.",
+      "r": "For 10 points, name this French mathematician whose name is given to an inequality with Hermann Schwarz and to sequences whose terms bunch closer and closer together."
+    },
+    {
+      "p": "This man’s extended mean value theorem, which compares the rates of change of two quantities at once, is the key step in the usual proof of L’Hôpital’s [“loh-pee-TAHLZ”] rule for limits. He taught at the École Polytechnique [“ay-KOHL po-leek-tek-NEEK”], where his 1821 textbook made calculus more rigorous.",
+      "r": "For 10 points, name this French mathematician whose name is given to sequences whose terms get closer and closer together."
+    },
+    {
+      "p": "This man’s root test and condensation test decide whether an infinite series converges, and he shares a formula for a power series’s radius of convergence with Jacques Hadamard [“ah-dah-MAR”]. A bell-shaped probability distribution named for him has such fat tails that it has no defined mean or variance.",
+      "r": "Born in Paris in 1789, he names an inequality with Hermann Schwarz. For 10 points, name this French mathematician."
+    },
+    {
+      "p": "As a boy, this man met Joseph-Louis Lagrange [“luh-GRAHNZH”], who reportedly advised his father to give him a strong education in languages before he studied serious mathematics. He went on to study at the École Polytechnique and then trained as a civil engineer.",
+      "r": "This man was born in Paris weeks after the storming of the Bastille in 1789. For 10 points, name this French mathematician who names sequences whose terms get closer and closer together."
+    },
+    {
+      "p": "This man names the functional equation f of x plus y equals f of x plus f of y, whose only continuous solutions are straight lines through the origin. His integral theorem says that integrating a complex-differentiable function around a closed loop with no holes inside gives zero.",
+      "r": "For 10 points, name this French mathematician who shares a pair of equations in complex analysis with Bernhard Riemann."
+    },
+    {
+      "p": "In 1813, this man proved Pierre de Fermat’s claim that every positive whole number is a sum of at most three triangular numbers, four squares, five pentagonal numbers, and so on. Earlier, Joseph-Louis Lagrange had proved the case of squares, and Carl Friedrich Gauss the case of triangular numbers.",
+      "r": "His name is one of 72 engraved on the Eiffel Tower. For 10 points, name this French mathematician who names an inequality with Hermann Schwarz."
+    },
+    {
+      "p": "Carl Friedrich Gauss used the word “determinant” in 1801 for a number tied to quadratic forms, but this man gave the word its modern meaning in 1812. This man also studied how permutations, or rearrangements, can be combined, work that helped launch group theory.",
+      "r": "For 10 points, name this French mathematician whose name is given to sequences whose terms get closer and closer together."
+    },
+    {
+      "p": "A theorem named for this man, proved in 1845, says that if a prime number p divides the number of elements in a finite group, then the group contains an element of order p. This man’s rigorous 1821 textbook was called _Cours d’analyse_ [“KOOR dah-nah-LEEZ”].",
+      "r": "For 10 points, name this French mathematician who shares a pair of equations in complex analysis with Bernhard Riemann."
+    },
+    {
+      "p": "This man’s integral formula shows that the values of a complex-differentiable function inside a circle are completely determined by its values on the circle itself. A devout royalist, he refused to swear loyalty to King Louis-Philippe after the revolution of 1830.",
+      "r": "For 10 points, name this French mathematician who names an inequality with Hermann Schwarz and sequences whose terms get closer and closer together."
+    }
+  ],
+  "clues": [
+    {
+      "id": "french",
+      "tier": "giveaway",
+      "t": "French mathematician (1789–1857), born in Paris weeks after the storming of the Bastille",
+      "k": [
+        "french mathematician",
+        "paris",
+        "bastille"
+      ],
+      "n": 0,
+      "rabbit": "French Revolution"
+    },
+    {
+      "id": "sequence",
+      "tier": "giveaway",
+      "t": "Sequences whose terms get closer and closer to each other are named for him",
+      "k": [
+        "sequences",
+        "closer and closer"
+      ],
+      "n": 0,
+      "rabbit": "Convergence (series)"
+    },
+    {
+      "id": "schwarz",
+      "tier": "giveaway",
+      "t": "Shares an inequality with Hermann Schwarz: a dot product is never bigger than the product of the two vectors’ lengths",
+      "k": [
+        "schwarz",
+        "inequality",
+        "dot product"
+      ],
+      "n": 0,
+      "rabbit": "Vectors"
+    },
+    {
+      "id": "riemann",
+      "tier": "giveaway",
+      "t": "Shares a pair of equations with Bernhard Riemann that tell when a function of complex numbers has a derivative",
+      "k": [
+        "bernhard riemann",
+        "pair of equations",
+        "complex numbers"
+      ],
+      "n": 0,
+      "rabbit": "Bernhard Riemann"
+    },
+    {
+      "id": "cours",
+      "tier": "middle",
+      "t": "His textbook _Cours d’analyse_ (1821), written for the École Polytechnique, made calculus rigorous with careful definitions of limits and continuity",
+      "k": [
+        "cours d’analyse",
+        "1821",
+        "limits",
+        "continuity"
+      ],
+      "n": 0,
+      "rabbit": "Continuity"
+    },
+    {
+      "id": "integral-theorem",
+      "tier": "middle",
+      "t": "His integral theorem: integrating a complex-differentiable function around a closed loop with no holes inside gives 0",
+      "k": [
+        "integral theorem",
+        "closed loop"
+      ],
+      "n": 0,
+      "rabbit": "Complex numbers"
+    },
+    {
+      "id": "integral-formula",
+      "tier": "middle",
+      "t": "His integral formula: a complex-differentiable function’s values inside a circle are fixed by its values on the circle",
+      "k": [
+        "integral formula",
+        "inside a circle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "residues",
+      "tier": "middle",
+      "t": "Developed the calculus of residues for computing hard integrals in complex analysis",
+      "k": [
+        "residues",
+        "complex analysis"
+      ],
+      "n": 0,
+      "rabbit": "Integrals"
+    },
+    {
+      "id": "eiffel",
+      "tier": "middle",
+      "t": "One of the 72 scientists whose names are engraved on the Eiffel Tower, with Lagrange and Laplace",
+      "k": [
+        "eiffel tower",
+        "engraved",
+        "72"
+      ],
+      "n": 0
+    },
+    {
+      "id": "royalist",
+      "tier": "middle",
+      "t": "A devout Catholic royalist, he refused an oath to King Louis-Philippe after the July Revolution of 1830 and lived in exile until 1838",
+      "k": [
+        "louis-philippe",
+        "royalist",
+        "exile",
+        "1830"
+      ],
+      "n": 0
+    },
+    {
+      "id": "distribution",
+      "tier": "middle",
+      "t": "A bell-shaped probability distribution named for him has such fat tails that it has no defined mean or variance",
+      "k": [
+        "distribution",
+        "fat tails",
+        "no defined mean"
+      ],
+      "n": 0,
+      "rabbit": "Standard deviation"
+    },
+    {
+      "id": "prolific",
+      "tier": "middle",
+      "t": "One of the most prolific mathematicians ever: about 800 research papers",
+      "k": [
+        "prolific",
+        "800",
+        "research papers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cherbourg",
+      "tier": "power",
+      "t": "In 1810 he worked as an engineer building port facilities at Cherbourg for Napoleon’s planned invasion of England",
+      "k": [
+        "cherbourg",
+        "napoleon",
+        "engineer",
+        "1810"
+      ],
+      "n": 0,
+      "rabbit": "Napoleon Bonaparte"
+    },
+    {
+      "id": "monge",
+      "tier": "power",
+      "t": "In 1816 he took the Academy seat of Gaspard Monge, who was expelled for political reasons; around then he also won its grand prize for a study of waves",
+      "k": [
+        "gaspard monge",
+        "monge",
+        "1816",
+        "waves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prague",
+      "tier": "power",
+      "t": "In exile he tutored the grandson of the deposed King Charles X in Prague",
+      "k": [
+        "prague",
+        "charles x",
+        "tutored",
+        "grandson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abel",
+      "tier": "power",
+      "t": "Mislaid a long paper that Niels Henrik Abel sent to the Paris Academy in 1826; it was published years after Abel’s death",
+      "k": [
+        "abel",
+        "mislaid",
+        "1826"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kovalevskaya",
+      "tier": "power",
+      "t": "A theorem on partial differential equations is named for him and Sofia Kovalevskaya",
+      "k": [
+        "kovalevskaya",
+        "partial differential equations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rigidity",
+      "tier": "power",
+      "t": "Rigidity theorem (1813): a convex polyhedron with rigid faces cannot be flexed into a new shape",
+      "k": [
+        "rigidity",
+        "convex polyhedron",
+        "1813",
+        "flexed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fermat-polygonal",
+      "tier": "power",
+      "t": "Proved Fermat’s claim (1813) that every positive whole number is a sum of at most 3 triangular numbers, 4 squares, 5 pentagonal numbers, and so on",
+      "k": [
+        "fermat",
+        "triangular numbers",
+        "pentagonal"
+      ],
+      "n": 0,
+      "rabbit": "Pierre de Fermat"
+    },
+    {
+      "id": "physics",
+      "tier": "power",
+      "t": "Introduced the stress tensor (a founder of elasticity theory); his equation links a material’s refractive index to the wavelength of light",
+      "k": [
+        "stress tensor",
+        "elasticity",
+        "refractive index",
+        "wavelength"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mean-value",
+      "tier": "power",
+      "t": "His extended mean value theorem is the key step in the usual proof of L’Hôpital’s rule for limits",
+      "k": [
+        "mean value theorem",
+        "l’hôpital"
+      ],
+      "n": 0,
+      "rabbit": "Derivatives"
+    },
+    {
+      "id": "series-tests",
+      "tier": "power",
+      "t": "His root test and condensation test check whether a series converges; he shares a radius-of-convergence formula with Jacques Hadamard",
+      "k": [
+        "root test",
+        "condensation test",
+        "hadamard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "functional-equation",
+      "tier": "power",
+      "t": "Names the functional equation f(x + y) = f(x) + f(y), whose only continuous solutions are straight lines through the origin",
+      "k": [
+        "functional equation",
+        "straight lines",
+        "origin"
+      ],
+      "n": 0,
+      "rabbit": "Functions (math)"
+    },
+    {
+      "id": "determinant",
+      "tier": "power",
+      "t": "Gave the word “determinant” its modern meaning (1812), after Gauss had used it in 1801",
+      "k": [
+        "determinant",
+        "1812",
+        "gauss"
+      ],
+      "n": 0,
+      "rabbit": "Determinant"
+    },
+    {
+      "id": "group-theorem",
+      "tier": "power",
+      "t": "His group theorem (1845): if a prime p divides the size of a finite group, the group has an element of order p; he also studied permutations",
+      "k": [
+        "finite group",
+        "element of order",
+        "permutations",
+        "1845"
+      ],
+      "n": 0,
+      "rabbit": "Group theory"
+    },
+    {
+      "id": "lagrange-advice",
+      "tier": "power",
+      "t": "As a boy he met Lagrange, who advised his father to give him a strong education in languages first; he later trained as a civil engineer",
+      "k": [
+        "lagrange",
+        "languages",
+        "civil engineer"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which name in the pair?",
+    "body": "Many of Cauchy’s results share a hyphen with someone else: the Cauchy–Schwarz inequality, the Cauchy–Riemann equations, the Cauchy–Kovalevskaya theorem, and the Cauchy–Hadamard formula. When a tossup says a result is named for “this man and Bernhard Riemann,” the answer is the other name, Cauchy. Other French mathematicians of his time, like Lagrange, Laplace, Fourier, and Galois, show up in the same clues, so a fast buzz on “French mathematician” alone is risky.",
+    "fix": "Cauchy clues: rigor in calculus (_Cours d’analyse_, 1821), sequences whose terms bunch together, complex integrals around closed loops, exile as a royalist after 1830, and the 72 names on the Eiffel Tower. Galois clues: a duel at age 20 and using groups to study polynomial equations. Fourier clues: heat flow and Fourier series.",
+    "line": "Real answer line: <b><u>Augustin-Louis Cauchy</u></b> [“koh-SHEE”] (accept <u>Cauchy</u>)"
+  }
+}

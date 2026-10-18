@@ -1,0 +1,481 @@
+{
+  "id": "chemical-equilibrium",
+  "name": "Chemical equilibrium",
+  "mono": "KEQ",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Forward and reverse reactions in balance · Le Chatelier predicts how it shifts",
+  "dates": "Law of mass action, 1864; Le Chatelier’s principle, 1884",
+  "briefing": "Inside a sealed tube of brown nitrogen dioxide gas, molecules keep pairing up into colorless dinitrogen tetroxide and splitting apart again at exactly the same rate, so the color never changes. That balance is chemical equilibrium: the forward and reverse reactions run at equal speeds, so the amounts of reactants and products stay steady even though both reactions keep going. Disturb it by heating, squeezing, or adding chemicals, and it shifts to undo the change, as Le Chatelier’s principle predicts.",
+  "answerHtml": "Chemical <b><u>equilibrium</u></b> (accept <u>dynamic equilibrium</u> or <u>equilibria</u>; do not accept “equilibrium constant” or “Le Chatelier’s principle”)",
+  "accept": [
+    "chemical equilibrium",
+    "chemical equilibria",
+    "equilibrium",
+    "equilibria",
+    "equilibrium state",
+    "state of equilibrium",
+    "dynamic equilibrium",
+    "dynamic equilibria"
+  ],
+  "prompt": [
+    "thermodynamic equilibrium"
+  ],
+  "reject": [
+    "equilibrium constant",
+    "equilibrium constants",
+    "equilibrium expression",
+    "equilibrium concentration",
+    "equilibrium concentrations",
+    "equilibrium position",
+    "position of equilibrium",
+    "equilibrium point",
+    "equilibrium price",
+    "market equilibrium",
+    "economic equilibrium",
+    "nash equilibrium",
+    "punctuated equilibrium",
+    "hardy weinberg equilibrium",
+    "hardy weinberg",
+    "thermal equilibrium",
+    "mechanical equilibrium",
+    "static equilibrium",
+    "phase equilibrium",
+    "vapor liquid equilibrium",
+    "radiative equilibrium",
+    "equilibrium vapor pressure",
+    "le chateliers principle",
+    "le chatelier principle",
+    "le chatelier",
+    "reaction quotient",
+    "law of mass action",
+    "mass action",
+    "keq",
+    "kc",
+    "kp",
+    "ksp",
+    "ka",
+    "kb",
+    "kw",
+    "k",
+    "solubility product",
+    "acid dissociation constant",
+    "dissociation constant",
+    "reversible reaction",
+    "reversible reactions",
+    "steady state",
+    "homeostasis",
+    "equivalence point",
+    "reaction rate",
+    "rate of reaction",
+    "chemical kinetics",
+    "kinetics",
+    "activation energy",
+    "catalyst",
+    "catalysts",
+    "haber process"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Chemical_equilibrium",
+  "qb": {
+    "q": "equilibrium",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "While traveling in Egypt with Napoleon’s expedition, Claude Louis Berthollet [“bair-toh-LAY”] noticed sodium carbonate forming around salt lakes, a sign that a reaction’s direction can depend on how much of each substance is present. That idea paved the way for the modern understanding of this state.",
+      "r": "At this state, the forward and reverse reactions run at the same rate. For 10 points, name this balanced state of a reversible reaction."
+    },
+    {
+      "p": "In 1864, the Norwegians Cato Guldberg and Peter Waage [“VAW-geh”] stated the law of mass action, which gives the constant K for this state as product concentrations over reactant concentrations, each raised to the power of its coefficient. Pure solids and liquids are left out of that ratio.",
+      "r": "Once a reaction reaches this state, its concentrations stop changing. For 10 points, name this state in which forward and reverse reaction rates are equal."
+    },
+    {
+      "p": "The van ’t Hoff [“vahnt HOFF”] equation shows how the constant for this state changes with temperature, depending on the reaction’s standard enthalpy change. Heating a reaction that gives off heat shifts this state back toward the reactants.",
+      "r": "Le Chatelier’s principle predicts how this state shifts when it is disturbed. For 10 points, name this state of a reversible reaction in which concentrations stay constant."
+    },
+    {
+      "p": "At this state, the Gibbs free energy change for a reaction is zero, and the standard Gibbs free energy change equals negative RT times the natural log of this state’s constant. A constant greater than 1 means that products are favored.",
+      "r": "For 10 points, name this state in which a reversible reaction’s forward and reverse rates are equal."
+    },
+    {
+      "p": "If a reaction’s quotient Q is smaller than its constant K, the reaction moves forward, making more products, until Q equals K. If Q is larger than K, the reaction runs backward instead, turning products back into reactants.",
+      "r": "ICE tables, whose E stands for this state, help solve problems about it. For 10 points, name this state in which the amounts of reactants and products stay constant."
+    },
+    {
+      "p": "Sealed tubes of brown nitrogen dioxide fade when chilled in ice water, as more of the gas pairs up into colorless dinitrogen tetroxide, and they turn darker brown when heated. That color change shows that the pairing-up reaction gives off heat.",
+      "r": "Such tubes show how this state shifts when it is disturbed. For 10 points, name this state in which a reaction’s forward and reverse rates are equal."
+    },
+    {
+      "p": "Paper soaked in cobalt(II) chloride turns pink in humid air and blue when dry, and heating a pink solution of cobalt chloride in hydrochloric acid turns it blue. Cooling that solution turns it pink again.",
+      "r": "Those color changes show this state shifting to undo a stress, as Le Chatelier’s principle predicts. For 10 points, name this state of a reversible reaction."
+    },
+    {
+      "p": "In the Haber process, high pressure pushes this state toward ammonia, because the product side has fewer moles of gas, while an iron catalyst helps the reaction reach this state faster without changing where it lies. A lower temperature would give more ammonia but make the reaction far too slow.",
+      "r": "For 10 points, name this balanced state of a reversible reaction, which is shown with a double arrow."
+    },
+    {
+      "p": "Adding helium to a sealed, rigid container of reacting gases at this state does not shift it, because the partial pressures of the reacting gases stay the same. Squeezing the container into a smaller volume, however, shifts this state toward the side with fewer gas molecules.",
+      "r": "Le Chatelier’s principle says this state shifts to relieve any stress. For 10 points, name this state in which forward and reverse reactions happen at equal rates."
+    },
+    {
+      "p": "Adding more thiocyanate [“thy-oh-SY-uh-nate”] ions to a pale solution of iron(III) ions turns it a deeper red, as this state shifts toward the red complex that the two ions form. Removing iron(III) ions would make the color fade instead.",
+      "r": "Adding a reactant shifts this state toward the products. For 10 points, name this state of a reversible reaction."
+    },
+    {
+      "p": "For reactions of gases, the constant for this state can be written with partial pressures as K-sub-p, which equals K-sub-c times RT raised to the change in moles of gas. Pure solids, such as the carbon in the reaction of carbon with steam, are left out of either constant.",
+      "r": "Only a change in temperature alters the value of this state’s constant. For 10 points, name this state in which the concentrations of reactants and products stop changing."
+    },
+    {
+      "p": "Pure water at 25 degrees Celsius reaches this state with its hydrogen and hydroxide ions, giving a constant, K-sub-w, of 1.0 times 10 to the minus 14. Weak acids reach this state in water with only a small fraction of their molecules split into ions.",
+      "r": "For 10 points, name this state of a reversible reaction in which the forward and reverse rates match."
+    },
+    {
+      "p": "The principle of detailed balance says that at this state, every individual step of a reaction’s mechanism runs forward and backward at equal rates. A catalyst speeds up the forward and reverse reactions equally, so it helps a system reach this state faster but doesn’t change where it lies.",
+      "r": "Both reactions keep running at this state, so it is called dynamic. For 10 points, name this state, shown with a double arrow, in which concentrations stay constant."
+    },
+    {
+      "p": "In the contact process for making sulfuric acid, sulfur dioxide and oxygen react over a vanadium(V) oxide catalyst to reach this state with sulfur trioxide. Because the forward reaction gives off heat, raising the temperature shifts this state back toward the reactants.",
+      "r": "For 10 points, name this state of a reversible reaction in which the forward and reverse rates are equal."
+    },
+    {
+      "p": "A saturated solution of silver chloride sits at this state with the undissolved solid at the bottom, as solid keeps dissolving exactly as fast as ions crystallize back out. The constant for that balance is called the solubility product, K-sub-s-p.",
+      "r": "This state can only be reached in a closed system. For 10 points, name this state in which a reversible process runs forward and backward at equal rates."
+    }
+  ],
+  "clues": [
+    {
+      "id": "equal-rates",
+      "tier": "giveaway",
+      "t": "The forward and reverse reactions happen at equal rates",
+      "k": [
+        "forward",
+        "reverse",
+        "equal rates"
+      ],
+      "n": 0
+    },
+    {
+      "id": "steady",
+      "tier": "giveaway",
+      "t": "Concentrations of reactants and products stop changing, though they are usually not equal to each other",
+      "k": [
+        "concentrations",
+        "stop changing",
+        "not equal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-arrow",
+      "tier": "giveaway",
+      "t": "Shown with a double arrow (⇌) for a reversible reaction",
+      "k": [
+        "double arrow",
+        "reversible"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dynamic",
+      "tier": "giveaway",
+      "t": "It is dynamic: both reactions keep going even though nothing seems to change",
+      "k": [
+        "dynamic",
+        "keep going"
+      ],
+      "n": 0
+    },
+    {
+      "id": "le-chatelier",
+      "tier": "giveaway",
+      "t": "Le Chatelier’s principle: when disturbed, it shifts to undo the stress",
+      "k": [
+        "le chatelier",
+        "stress",
+        "shifts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "k-ratio",
+      "tier": "middle",
+      "t": "Its constant K is the concentrations of products over those of reactants, each raised to its coefficient",
+      "k": [
+        "products",
+        "reactants",
+        "coefficient"
+      ],
+      "n": 0
+    },
+    {
+      "id": "k-size",
+      "tier": "middle",
+      "t": "K greater than 1 means products are favored; K less than 1 means reactants are favored",
+      "k": [
+        "greater than 1",
+        "favored"
+      ],
+      "n": 0
+    },
+    {
+      "id": "temperature-only",
+      "tier": "middle",
+      "t": "Only a change in temperature changes the value of K",
+      "k": [
+        "temperature",
+        "value of k"
+      ],
+      "n": 0
+    },
+    {
+      "id": "catalyst",
+      "tier": "middle",
+      "t": "A catalyst helps a reaction reach it faster but does not shift it",
+      "k": [
+        "catalyst",
+        "faster"
+      ],
+      "n": 0,
+      "rabbit": "Catalysts"
+    },
+    {
+      "id": "pressure",
+      "tier": "middle",
+      "t": "Squeezing a gas mixture into less space shifts it toward the side with fewer moles of gas",
+      "k": [
+        "fewer moles",
+        "squeezing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "q-vs-k",
+      "tier": "middle",
+      "t": "Reaction quotient Q: if Q is less than K, the reaction moves forward; if Q is greater than K, it moves backward",
+      "k": [
+        "reaction quotient",
+        "moves forward"
+      ],
+      "n": 0
+    },
+    {
+      "id": "haber",
+      "tier": "middle",
+      "t": "Haber process: high pressure and an iron catalyst help nitrogen and hydrogen make ammonia",
+      "k": [
+        "haber",
+        "ammonia",
+        "iron catalyst"
+      ],
+      "n": 0,
+      "rabbit": "Haber process"
+    },
+    {
+      "id": "nitrogen-dioxide",
+      "tier": "middle",
+      "t": "Brown nitrogen dioxide pairs up into colorless dinitrogen tetroxide: cold fades the brown, and heat darkens it",
+      "k": [
+        "nitrogen dioxide",
+        "brown",
+        "colorless"
+      ],
+      "n": 0
+    },
+    {
+      "id": "closed-system",
+      "tier": "middle",
+      "t": "Can only be reached in a closed system",
+      "k": [
+        "closed system"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ice-tables",
+      "tier": "middle",
+      "t": "ICE tables (Initial, Change, and this state) help solve its problems",
+      "k": [
+        "ice tables",
+        "initial",
+        "change"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mass-action",
+      "tier": "power",
+      "t": "Law of mass action: stated by Cato Guldberg and Peter Waage in 1864",
+      "k": [
+        "mass action",
+        "guldberg",
+        "waage",
+        "1864"
+      ],
+      "n": 0
+    },
+    {
+      "id": "berthollet",
+      "tier": "power",
+      "t": "Berthollet saw sodium carbonate forming around Egyptian salt lakes, suggesting a reaction’s direction depends on the amounts present",
+      "k": [
+        "berthollet",
+        "egyptian",
+        "sodium carbonate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vant-hoff",
+      "tier": "power",
+      "t": "The van ’t Hoff equation: how K changes with temperature depends on the reaction’s enthalpy change",
+      "k": [
+        "hoff",
+        "enthalpy"
+      ],
+      "n": 0,
+      "rabbit": "Enthalpy"
+    },
+    {
+      "id": "gibbs",
+      "tier": "power",
+      "t": "The standard Gibbs free energy change equals negative RT times the natural log of K; at this state the Gibbs free energy change is zero",
+      "k": [
+        "gibbs",
+        "natural log",
+        "zero"
+      ],
+      "n": 0,
+      "rabbit": "Gibbs free energy"
+    },
+    {
+      "id": "kp-kc",
+      "tier": "power",
+      "t": "K-sub-p uses partial pressures and equals K-sub-c times RT raised to the change in moles of gas",
+      "k": [
+        "partial pressures",
+        "k-sub-p"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pure-solids",
+      "tier": "power",
+      "t": "Pure solids and liquids are left out of its constant’s expression",
+      "k": [
+        "pure solids",
+        "liquids"
+      ],
+      "n": 0
+    },
+    {
+      "id": "water-kw",
+      "tier": "power",
+      "t": "Water’s constant K-sub-w is 1.0 × 10⁻¹⁴ at 25 °C",
+      "k": [
+        "water",
+        "k-sub-w"
+      ],
+      "n": 0,
+      "rabbit": "Water"
+    },
+    {
+      "id": "ka-ksp",
+      "tier": "power",
+      "t": "K-sub-a for weak acids and K-sub-s-p for salts that barely dissolve are versions of its constant",
+      "k": [
+        "weak acids",
+        "k-sub-s-p",
+        "salts"
+      ],
+      "n": 0,
+      "rabbit": "Solubility"
+    },
+    {
+      "id": "cobalt",
+      "tier": "power",
+      "t": "Cobalt(II) chloride paper is pink when wet and blue when dry; heating cobalt chloride in hydrochloric acid turns it blue",
+      "k": [
+        "cobalt",
+        "pink",
+        "blue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thiocyanate",
+      "tier": "power",
+      "t": "Adding thiocyanate to iron(III) ions deepens the red color as it shifts toward the red complex",
+      "k": [
+        "thiocyanate",
+        "red"
+      ],
+      "n": 0
+    },
+    {
+      "id": "detailed-balance",
+      "tier": "power",
+      "t": "Detailed balance: each step of a reaction mechanism runs forward and backward at equal rates",
+      "k": [
+        "detailed balance",
+        "mechanism"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inert-gas",
+      "tier": "power",
+      "t": "Adding an inert gas like helium at constant volume doesn’t shift it",
+      "k": [
+        "inert gas",
+        "helium",
+        "constant volume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "contact-process",
+      "tier": "power",
+      "t": "Contact process: sulfur dioxide and oxygen make sulfur trioxide over vanadium(V) oxide; heating shifts it back",
+      "k": [
+        "contact process",
+        "vanadium",
+        "sulfur trioxide"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "State, not its constant",
+    "body": "This answer line has close neighbors: the equilibrium constant K, a number calculated from concentrations; Le Chatelier’s principle, the rule for how this state shifts; and the reaction quotient Q, the same ratio measured at any moment. Tossups on the constant ask for “this constant” or “this quantity.” Answering “equilibrium constant” when the question wants the state is wrong, and answering only “equilibrium” when it wants the constant can lose the tossup too.",
+    "fix": "Listen to the noun. “This state” or “this condition” means the state itself; “this constant,” “this ratio,” or “this quantity symbolized K” means the equilibrium constant; “this principle” about shifting under stress means Le Chatelier’s principle.",
+    "line": "Real answer line: Chemical <b><u>equilibrium</u></b> (accept <u>dynamic equilibrium</u>; do not accept “equilibrium constant”)"
+  },
+  "tests": {
+    "right": [
+      "Chemical equilibrium",
+      "Equilibrium",
+      "dynamic equilibrium",
+      "chemical equilibrum",
+      "Equilibria"
+    ],
+    "prompt": [
+      "Thermodynamic equilibrium"
+    ],
+    "wrong": [
+      "Equilibrium constant",
+      "Le Chatelier’s principle",
+      "Reaction quotient",
+      "Thermal equilibrium",
+      "Steady state",
+      "Reversible reaction",
+      "Catalyst"
+    ]
+  }
+}

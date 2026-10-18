@@ -1,0 +1,358 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "food-chains",
+    "name": "Food chains",
+    "mono": "FC",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Who eats whom in nature · Shows how energy flows from producers to predators",
+    "dates": "Described in Charles Elton’s _Animal Ecology_ (1927)",
+    "briefing": "A food chain shows who eats whom: grass is eaten by a grasshopper, which is eaten by a frog, which is eaten by a snake, which is eaten by a hawk. Each link passes along only about a tenth of its energy, because most is used up or lost as heat, so food chains rarely have more than four or five links. Tangle many food chains together and you get a food web.",
+    "answerHtml": "<b><u>Food chains</u></b> (accept <u>food chain</u>; prompt on <u>food webs</u>; do not accept “trophic levels” or “energy pyramid”)",
+    "accept": [
+        "food chains",
+        "food chain",
+        "trophic chain",
+        "trophic chains",
+        "feeding chain",
+        "feeding chains"
+    ],
+    "prompt": [
+        "food webs",
+        "food web",
+        "food cycle",
+        "food cycles"
+    ],
+    "reject": [
+        "trophic levels",
+        "trophic level",
+        "energy pyramid",
+        "energy pyramids",
+        "pyramid of energy",
+        "ecological pyramid",
+        "ecological pyramids",
+        "pyramid of numbers",
+        "pyramid of biomass",
+        "biomass pyramid",
+        "food pyramid",
+        "trophic cascade",
+        "trophic cascades",
+        "ecosystem",
+        "ecosystems",
+        "predation",
+        "predators",
+        "producers",
+        "consumers",
+        "decomposers",
+        "biomagnification",
+        "bioaccumulation",
+        "supply chain",
+        "chain reaction",
+        "nitrogen cycle",
+        "carbon cycle"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Food_chain",
+    "qb": {
+        "q": "food chain",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Charles Elton described these sequences, along with pyramids of numbers, in his 1927 book _Animal Ecology_. He noted that the large animals near the end of these sequences are usually much rarer than the small ones near the start.",
+            "r": "Each one starts with a producer, such as a plant, and arrows show which organism eats which. For 10 points, name these diagrams of feeding relationships."
+        },
+        {
+            "p": "The 9th-century Arab writer al-Jahiz [“al-JAH-hiz”] described animals eating one another in an early version of these sequences in his _Book of Animals_. Each step in one of these sequences is called a trophic [“TROH-fik”] level.",
+            "r": "For 10 points, name these sequences that show who eats whom, starting with producers like plants and algae."
+        },
+        {
+            "p": "Raymond Lindeman’s 1942 study of Cedar Bog Lake in Minnesota measured how energy passes along these sequences, and it helped lead to the rule that only about 10 percent of the energy at one step reaches the next.",
+            "r": "Arrows in these sequences point from the eaten to the eater. For 10 points, name these diagrams that show how energy moves from producers to consumers."
+        },
+        {
+            "p": "Rachel Carson’s _Silent Spring_ warned that the pesticide DDT becomes more concentrated at each step up these sequences, a process called biomagnification. That buildup thinned the eggshells of bald eagles and brown pelicans.",
+            "r": "For 10 points, name these sequences of who eats whom, which start with producers and end with top predators."
+        },
+        {
+            "p": "At deep-sea hydrothermal vents discovered in 1977, these sequences begin not with plants but with bacteria that make food from hydrogen sulfide through chemosynthesis. Giant tube worms at those vents carry such bacteria inside their bodies.",
+            "r": "On land, these sequences usually begin with plants. For 10 points, name these diagrams that show which organisms eat which."
+        },
+        {
+            "p": "Sea otters eat sea urchins, which eat kelp, so when otters disappear, urchins can destroy whole kelp forests. That ripple effect from the top of one of these sequences down to its base is called a trophic cascade.",
+            "r": "For 10 points, name these sequences that show the order in which living things eat one another, from producers to top predators."
+        },
+        {
+            "p": "Robert Paine removed Pisaster [“pih-SAS-ter”] starfish from tide pools in Washington State and watched mussels crowd out other species, leading him to coin the term “keystone species.” Paine also named the trophic cascade, an effect that travels down these sequences.",
+            "r": "For 10 points, name these diagrams of feeding relationships, in which energy flows from producers to consumers."
+        },
+        {
+            "p": "After wolves returned to Yellowstone National Park in 1995, scientists studied how fear of them changed where elk grazed, a possible trophic cascade down one of these sequences. Wolves are apex predators, with no natural predators of their own.",
+            "r": "Plants form the first link of most of these sequences. For 10 points, name these diagrams that show who eats whom."
+        },
+        {
+            "p": "Detritus-based versions of these sequences begin with dead plant and animal matter eaten by detritivores [“dih-TRY-tuh-vorz”] such as earthworms, unlike grazing versions that begin with living plants. In many forests, more energy flows through the detritus-based versions than through the grazing ones.",
+            "r": "Decomposers such as bacteria and fungi recycle nutrients at every step. For 10 points, name these sequences showing how energy passes from organism to organism."
+        },
+        {
+            "p": "In the open ocean, a pyramid of biomass can be upside down, since fast-growing phytoplankton are eaten almost as quickly as they grow. Ocean versions of these sequences often run from phytoplankton to krill to fish to seals.",
+            "r": "For 10 points, name these diagrams that show which organisms eat which, starting with producers."
+        },
+        {
+            "p": "Net primary productivity measures the energy that the first organisms in these sequences store after using some for their own respiration. Because the second law of thermodynamics means energy is lost as heat at each step, these sequences rarely have more than four or five links.",
+            "r": "For 10 points, name these sequences that start with producers and show who eats whom."
+        },
+        {
+            "p": "A pyramid of numbers, sometimes called an Eltonian pyramid, counts the organisms at each step of these sequences. In _The Lion King_, Mufasa describes one of these sequences that loops back on itself: lions eat antelope, but when lions die, their bodies become the grass that antelope eat.",
+            "r": "Each one begins with a producer. For 10 points, name these sequences of feeding relationships that run from producers to consumers."
+        },
+        {
+            "p": "Mercury reaches high levels in big predatory fish such as swordfish and sharks, because those fish feed near the top of these sequences. Orcas, which have no natural predators, are apex predators at the top of ocean versions of these sequences.",
+            "r": "For 10 points, name these sequences that show who eats whom, beginning with producers such as algae."
+        },
+        {
+            "p": "Each step of these sequences is a trophic level, from a Greek word for “nourishment,” and only about a tenth of the energy at one step passes to the next. Most of the rest is lost as heat during cellular respiration.",
+            "r": "Plants and algae are producers in these sequences, and herbivores are primary consumers. For 10 points, name these diagrams of who eats whom."
+        },
+        {
+            "p": "Because toxins build up at each step of these sequences, an osprey can carry far more of a pesticide than the fish it eats, and the fish far more than the plankton it eats. Ecologists call that buildup biomagnification.",
+            "r": "Many of these sequences linked together form a food web. For 10 points, name these diagrams of who eats whom."
+        }
+    ],
+    "clues": [
+        {
+            "id": "who-eats-whom",
+            "tier": "giveaway",
+            "t": "Show who eats whom: the path food energy takes from one living thing to the next",
+            "k": ["who eats whom", "energy", "path"],
+            "n": 0
+        },
+        {
+            "id": "producers",
+            "tier": "giveaway",
+            "t": "Start with producers, such as plants and algae, that make their own food from sunlight",
+            "k": ["producers", "plants", "sunlight"],
+            "n": 0,
+            "rabbit": "Plants"
+        },
+        {
+            "id": "consumers",
+            "tier": "giveaway",
+            "t": "Herbivores are primary consumers; the animals that eat them are secondary consumers, and so on up",
+            "k": ["primary consumers", "secondary consumers", "herbivores"],
+            "n": 0
+        },
+        {
+            "id": "arrows",
+            "tier": "giveaway",
+            "t": "Arrows point from the eaten to the eater, showing which way energy flows",
+            "k": ["arrows", "eater"],
+            "n": 0
+        },
+        {
+            "id": "food-web",
+            "tier": "giveaway",
+            "t": "Many of them linked together make a food web",
+            "k": ["food web", "linked"],
+            "n": 0
+        },
+        {
+            "id": "trophic-levels",
+            "tier": "middle",
+            "t": "Each step is a trophic level, from a Greek word for “nourishment”",
+            "k": ["trophic level", "greek", "nourishment"],
+            "n": 0
+        },
+        {
+            "id": "ten-percent",
+            "tier": "middle",
+            "t": "Only about 10 percent of the energy at one level passes to the next; most of the rest is lost as heat",
+            "k": ["10 percent", "heat"],
+            "n": 0
+        },
+        {
+            "id": "short-length",
+            "tier": "middle",
+            "t": "Because so much energy is lost, they rarely have more than four or five links",
+            "k": ["four or five", "links"],
+            "n": 0
+        },
+        {
+            "id": "decomposers",
+            "tier": "middle",
+            "t": "Decomposers such as bacteria and fungi break down dead matter and return nutrients to the soil",
+            "k": ["decomposers", "bacteria", "fungi"],
+            "n": 0,
+            "rabbit": "Bacteria"
+        },
+        {
+            "id": "apex-predators",
+            "tier": "middle",
+            "t": "Apex predators, such as orcas and wolves, sit at the top with no natural predators",
+            "k": ["apex predators", "orcas", "wolves"],
+            "n": 0,
+            "rabbit": "Predation"
+        },
+        {
+            "id": "biomagnification",
+            "tier": "middle",
+            "t": "Poisons such as DDT and mercury become more concentrated at each higher level, a process called biomagnification",
+            "k": ["biomagnification", "ddt", "mercury"],
+            "n": 0
+        },
+        {
+            "id": "ocean-plankton",
+            "tier": "middle",
+            "t": "Ocean ones often start with phytoplankton, which are eaten by zooplankton such as krill",
+            "k": ["phytoplankton", "zooplankton", "krill"],
+            "n": 0
+        },
+        {
+            "id": "energy-pyramid",
+            "tier": "middle",
+            "t": "An energy pyramid shows how the available energy shrinks at each higher step",
+            "k": ["energy pyramid", "shrinks"],
+            "n": 0
+        },
+        {
+            "id": "lion-king",
+            "tier": "middle",
+            "t": "In _The Lion King_, Mufasa’s “circle of life” talk: lions eat antelope, then become the grass that antelope eat",
+            "k": ["lion king", "circle of life", "antelope"],
+            "n": 0
+        },
+        {
+            "id": "autotrophs",
+            "tier": "middle",
+            "t": "Producers are autotrophs; consumers are heterotrophs, which must eat other living things",
+            "k": ["autotrophs", "heterotrophs"],
+            "n": 0
+        },
+        {
+            "id": "elton",
+            "tier": "power",
+            "t": "Charles Elton described them and pyramids of numbers (Eltonian pyramids) in his 1927 book _Animal Ecology_",
+            "k": ["elton", "animal ecology", "1927"],
+            "n": 0
+        },
+        {
+            "id": "al-jahiz",
+            "tier": "power",
+            "t": "The 9th-century Arab writer al-Jahiz described an early version in his _Book of Animals_",
+            "k": ["al-jahiz", "book of animals"],
+            "n": 0
+        },
+        {
+            "id": "lindeman",
+            "tier": "power",
+            "t": "Raymond Lindeman’s 1942 study of Cedar Bog Lake in Minnesota measured how energy moves between levels",
+            "k": ["lindeman", "cedar bog lake", "1942"],
+            "n": 0
+        },
+        {
+            "id": "silent-spring",
+            "tier": "power",
+            "t": "Rachel Carson’s _Silent Spring_ (1962) warned about DDT moving up them; DDT thinned the eggshells of eagles and pelicans",
+            "k": ["silent spring", "rachel carson", "eggshells"],
+            "n": 0
+        },
+        {
+            "id": "vents",
+            "tier": "power",
+            "t": "At deep-sea hydrothermal vents, found in 1977, chemosynthetic bacteria that use hydrogen sulfide start them instead of plants",
+            "k": ["hydrothermal vents", "chemosynthetic", "hydrogen sulfide", "1977"],
+            "n": 0
+        },
+        {
+            "id": "sea-otters",
+            "tier": "power",
+            "t": "Sea otters eat sea urchins, which eat kelp, so losing the otters lets urchins wipe out kelp forests",
+            "k": ["sea otters", "sea urchins", "kelp"],
+            "n": 0
+        },
+        {
+            "id": "paine",
+            "tier": "power",
+            "t": "Robert Paine removed Pisaster starfish from tide pools, coined “keystone species,” and named the trophic cascade",
+            "k": ["robert paine", "keystone species", "pisaster"],
+            "n": 0
+        },
+        {
+            "id": "yellowstone-wolves",
+            "tier": "power",
+            "t": "Wolves returned to Yellowstone in 1995 changed where elk grazed, a possible trophic cascade",
+            "k": ["yellowstone", "1995", "trophic cascade"],
+            "n": 0
+        },
+        {
+            "id": "detritus",
+            "tier": "power",
+            "t": "Detritus-based ones start with dead matter eaten by detritivores like earthworms; grazing ones start with living plants",
+            "k": ["detritus", "detritivores", "earthworms", "grazing"],
+            "n": 0
+        },
+        {
+            "id": "inverted-pyramid",
+            "tier": "power",
+            "t": "In the open ocean, the pyramid of biomass can be upside down because fast-growing phytoplankton are eaten quickly",
+            "k": ["upside down", "biomass"],
+            "n": 0
+        },
+        {
+            "id": "npp",
+            "tier": "power",
+            "t": "Net primary productivity is the energy producers store after using some for their own respiration",
+            "k": ["net primary productivity", "respiration"],
+            "n": 0
+        },
+        {
+            "id": "thermodynamics",
+            "tier": "power",
+            "t": "The second law of thermodynamics explains why energy is lost as heat at each step",
+            "k": ["second law", "thermodynamics"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Chain or web?",
+        "body": "A food chain is one straight line of who eats whom; a food web is many food chains woven together, so a question about one simple sequence wants “food chains” and one about a whole ecosystem’s network wants “food webs.” Trophic levels (the steps), energy pyramids, and trophic cascades are related ideas but different answers.",
+        "fix": "Listen to the noun and the shape. “This sequence” or “this series” means food chain. “This network” or “these interconnected” feeding links means food web. “These steps” or “these levels” means trophic levels, and a diagram that narrows as energy shrinks is an energy pyramid.",
+        "line": "Real answer line: <b><u>Food chains</u></b> (accept <u>food chain</u>; prompt on <u>food webs</u>; do not accept “trophic levels”)"
+    },
+    "tests": {
+        "right": [
+            "Food chains",
+            "food chain",
+            "Food chian",
+            "the food chain",
+            "Fod chain"
+        ],
+        "prompt": [
+            "food web",
+            "food webs"
+        ],
+        "wrong": [
+            "Trophic levels",
+            "Energy pyramid",
+            "Predation",
+            "Ecosystem",
+            "Food pyramid",
+            "Trophic cascade"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

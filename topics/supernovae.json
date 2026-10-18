@@ -1,0 +1,473 @@
+{
+  "id": "supernovae",
+  "name": "Supernovae",
+  "mono": "SN",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Exploding stars · Forge heavy elements and outshine whole galaxies",
+  "dates": "Earliest recorded 185 CE; named in the 1930s",
+  "briefing": "A supernova is the explosion of a star, so bright that for a few weeks one dying star can outshine its entire galaxy. Some happen when a giant star runs out of fuel and its core collapses; others happen when a white dwarf steals too much gas from a partner star and blows apart. These blasts scatter elements like oxygen and iron into space, so some of the atoms in your body were spread by exploding stars.",
+  "answerHtml": "<b><u>Supernovae</u></b> (accept <u>supernova</u> or <u>supernova</u>s; accept specific types such as <u>Type Ia supernova</u>e; prompt on <u>stellar explosion</u>s; do not accept “nova”)",
+  "accept": [
+    "supernova",
+    "supernovae",
+    "supernovas",
+    "super nova",
+    "super novae",
+    "super novas",
+    "type ia supernova",
+    "type ia supernovae",
+    "type ii supernova",
+    "type ii supernovae",
+    "core collapse supernova",
+    "core collapse supernovae"
+  ],
+  "prompt": [
+    "stellar explosion",
+    "stellar explosions",
+    "exploding star",
+    "exploding stars",
+    "star explosion",
+    "star explosions"
+  ],
+  "reject": [
+    "nova",
+    "novae",
+    "novas",
+    "hypernova",
+    "hypernovae",
+    "kilonova",
+    "kilonovae",
+    "supernova remnant",
+    "supernova remnants",
+    "crab nebula",
+    "cassiopeia a",
+    "neutron star",
+    "neutron stars",
+    "white dwarf",
+    "white dwarfs",
+    "black hole",
+    "black holes",
+    "red giant",
+    "red giants",
+    "red supergiant",
+    "pulsar",
+    "pulsars",
+    "magnetar",
+    "quasar",
+    "gamma ray burst",
+    "gamma ray bursts",
+    "planetary nebula",
+    "nebula",
+    "big bang"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Supernova",
+  "qb": {
+    "q": "supernova",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "On February 23, 1987, detectors in Japan and the United States caught a burst of neutrinos a few hours before astronomers saw the light of one of these events in the Large Magellanic Cloud. Masatoshi Koshiba shared a Nobel Prize partly for detecting those neutrinos.",
+      "r": "That event, 1987A, was the closest of these explosions seen since 1604. For 10 points, name these explosions of stars, which can briefly outshine entire galaxies."
+    },
+    {
+      "p": "In 1998, two teams led by Saul Perlmutter and by Brian Schmidt and Adam Riess used distant examples of one type of these events to discover that the expansion of the universe is speeding up. That work won the 2011 Nobel Prize in Physics.",
+      "r": "That type, called Ia, works as a “standard candle” because each blast peaks at nearly the same brightness. For 10 points, name these explosions of stars."
+    },
+    {
+      "p": "In 1572, Tycho Brahe saw a brilliant “new star” in Cassiopeia. By showing that it did not shift against the background stars the way the Moon does, he proved it lay far beyond the Moon, so the heavens could change after all.",
+      "r": "He described it in his book _On the New Star_. For 10 points, name these powerful explosions of stars, which can briefly outshine a whole galaxy."
+    },
+    {
+      "p": "Chinese astronomers recorded a “guest star” in 1054 CE that was bright enough to see in daylight for 23 days. The wreckage of that event, which lies in Taurus, is the Crab Nebula, which has a spinning neutron star at its center.",
+      "r": "For 10 points, name these stellar explosions, which can leave behind neutron stars or black holes."
+    },
+    {
+      "p": "One kind of these events happens when a white dwarf pulls gas from a partner star until it nears about 1.4 times the Sun’s mass, a cap called the Chandrasekhar [“chun-druh-SAY-kar”] limit. The white dwarf then blows itself apart in a runaway burst of carbon fusion.",
+      "r": "That kind is called Type Ia. For 10 points, name these huge stellar explosions, which can briefly outshine a whole galaxy."
+    },
+    {
+      "p": "Inside very massive stars, fusion builds up a core of iron, which cannot release energy by fusing further. Once that core grows too heavy, it collapses in less than a second into a neutron star or a black hole.",
+      "r": "The rebound blasts the star’s outer layers into space in one of these events. For 10 points, name these stellar explosions."
+    },
+    {
+      "p": "Walter Baade [“BAH-duh”] and Fritz Zwicky [“TSVIK-ee”] coined the name for these events in the early 1930s and proposed that they turn ordinary stars into neutron stars. Zwicky later found more than a hundred of them by searching photographs of other galaxies.",
+      "r": "They can also leave behind black holes. For 10 points, name these explosions of stars, which can briefly outshine a whole galaxy."
+    },
+    {
+      "p": "A famous 1957 paper by Margaret and Geoffrey Burbidge, William Fowler, and Fred Hoyle explained how stars forge chemical elements, including in these events. Some elements heavier than iron may be built in these events by rapid neutron capture, called the r-process.",
+      "r": "Much of the iron in your blood was spread through space by these blasts. For 10 points, name these explosions of stars."
+    },
+    {
+      "p": "Astronomers in Egypt, China, and Japan recorded one of these events in 1006 CE in the constellation Lupus, the brightest star-like event in recorded history. The Egyptian astronomer Ali ibn Ridwan left one of the best descriptions of it.",
+      "r": "For 10 points, name these explosions of stars, which can briefly shine brighter than a whole galaxy."
+    },
+    {
+      "p": "Mark Phillips showed in 1993 that the brighter examples of one kind of these events fade more slowly, which lets astronomers correct their brightness and measure distances. Other examples of these events stay bright on a long “plateau” in their light curves for about a hundred days.",
+      "r": "For 10 points, name these stellar explosions, whose Type Ia kind helps measure distances across the universe."
+    },
+    {
+      "p": "Cassiopeia A, one of the brightest radio sources in the sky, is the expanding wreckage of one of these events whose light reached Earth around 1680, although almost no one noticed it. In 1999, the Chandra X-ray Observatory’s first image revealed a tiny hot object at its center.",
+      "r": "That object is a neutron star. For 10 points, name these stellar explosions, which also left behind the Crab Nebula."
+    },
+    {
+      "p": "The most massive stars may end in a rare “pair-instability” version of these events, in which gamma rays inside the star turn into pairs of electrons and positrons. Closer to home, the red supergiant Betelgeuse is expected to end its life in one of these events.",
+      "r": "Such explosions can leave behind neutron stars or black holes. For 10 points, name these blasts that end the lives of many massive stars."
+    },
+    {
+      "p": "The earliest written record of one of these events comes from Chinese astronomers in 185 CE, who described a “guest star” that stayed visible for months. Its leftover shell of gas is called RCW 86. Some historians think a rock painting at Chaco Canyon in New Mexico shows a later one, from 1054.",
+      "r": "Such blasts can briefly outshine a whole galaxy of stars. For 10 points, name these stellar explosions, some of which leave behind neutron stars."
+    },
+    {
+      "p": "The glow of many of these events fades slowly for months because it is powered by the radioactive decay of nickel-56 into cobalt-56 and then iron. Astronomers sort these events into types by whether their spectra show hydrogen.",
+      "r": "For 10 points, name these stellar explosions, whose Type Ia kind happens when a white dwarf blows apart."
+    },
+    {
+      "p": "Galileo gave public lectures in Padua about one of these events that appeared in 1604 in the constellation Ophiuchus, arguing that it lay far beyond the Moon. Johannes Kepler wrote a book about that same event, which is now named for him.",
+      "r": "It was the last of these blasts seen in the Milky Way without a telescope. For 10 points, name these stellar explosions."
+    }
+  ],
+  "clues": [
+    {
+      "id": "explosion",
+      "tier": "giveaway",
+      "t": "A gigantic explosion of a star that can briefly outshine its whole galaxy",
+      "k": [
+        "explosion",
+        "outshine",
+        "galaxy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "massive-stars",
+      "tier": "giveaway",
+      "t": "Ends the lives of many stars that are much more massive than the Sun",
+      "k": [
+        "massive",
+        "lives"
+      ],
+      "n": 0,
+      "rabbit": "Stars"
+    },
+    {
+      "id": "leftovers",
+      "tier": "giveaway",
+      "t": "Can leave behind a neutron star or a black hole",
+      "k": [
+        "neutron star",
+        "black hole"
+      ],
+      "n": 0,
+      "rabbit": "Neutron stars"
+    },
+    {
+      "id": "crab",
+      "tier": "giveaway",
+      "t": "The Crab Nebula is the wreckage of one that Chinese astronomers saw in 1054 CE",
+      "k": [
+        "crab nebula",
+        "1054"
+      ],
+      "n": 0,
+      "rabbit": "Crab Nebula"
+    },
+    {
+      "id": "betelgeuse",
+      "tier": "giveaway",
+      "t": "Betelgeuse, a red supergiant in Orion, is expected to explode as one someday",
+      "k": [
+        "betelgeuse",
+        "red supergiant"
+      ],
+      "n": 0,
+      "rabbit": "Orion"
+    },
+    {
+      "id": "type-ia",
+      "tier": "middle",
+      "t": "Type Ia: a white dwarf pulls gas from a partner star and blows itself apart",
+      "k": [
+        "type ia",
+        "white dwarf",
+        "partner star"
+      ],
+      "n": 0,
+      "rabbit": "White dwarfs"
+    },
+    {
+      "id": "chandrasekhar",
+      "tier": "middle",
+      "t": "The white dwarf explodes as it nears the Chandrasekhar limit, about 1.4 times the Sun’s mass",
+      "k": [
+        "chandrasekhar limit",
+        "1.4"
+      ],
+      "n": 0
+    },
+    {
+      "id": "standard-candles",
+      "tier": "middle",
+      "t": "Type Ia ones peak at nearly the same brightness, so they work as “standard candles” for measuring distances",
+      "k": [
+        "standard candles",
+        "distances"
+      ],
+      "n": 0
+    },
+    {
+      "id": "speeding-up",
+      "tier": "middle",
+      "t": "In 1998, Saul Perlmutter, Brian Schmidt, and Adam Riess used them to find that the universe’s expansion is speeding up (2011 Nobel Prize)",
+      "k": [
+        "perlmutter",
+        "riess",
+        "speeding up",
+        "1998"
+      ],
+      "n": 0,
+      "rabbit": "Big Bang"
+    },
+    {
+      "id": "core-collapse",
+      "tier": "middle",
+      "t": "Core-collapse ones happen when a massive star’s iron core, which can’t fuse any further, collapses in under a second",
+      "k": [
+        "core-collapse",
+        "iron core"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydrogen-lines",
+      "tier": "middle",
+      "t": "Type II spectra show hydrogen lines; Type I spectra do not",
+      "k": [
+        "hydrogen lines",
+        "type ii",
+        "spectra"
+      ],
+      "n": 0
+    },
+    {
+      "id": "1987a",
+      "tier": "middle",
+      "t": "1987A, in the Large Magellanic Cloud, was the closest seen since 1604; its neutrinos arrived hours before its light",
+      "k": [
+        "1987a",
+        "large magellanic cloud",
+        "neutrinos"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tycho",
+      "tier": "middle",
+      "t": "Tycho Brahe’s 1572 one in Cassiopeia proved the heavens can change; he wrote _On the New Star_",
+      "k": [
+        "tycho",
+        "1572",
+        "cassiopeia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kepler",
+      "tier": "middle",
+      "t": "Kepler’s 1604 one, in Ophiuchus, was the last one seen in the Milky Way without a telescope",
+      "k": [
+        "kepler",
+        "1604",
+        "ophiuchus"
+      ],
+      "n": 0,
+      "rabbit": "Johannes Kepler"
+    },
+    {
+      "id": "elements",
+      "tier": "middle",
+      "t": "They scatter elements like oxygen and iron into space, where they end up in new stars and planets",
+      "k": [
+        "elements",
+        "oxygen",
+        "iron"
+      ],
+      "n": 0
+    },
+    {
+      "id": "koshiba",
+      "tier": "power",
+      "t": "Masatoshi Koshiba shared the 2002 Nobel Prize in Physics partly for detecting the neutrinos from 1987A",
+      "k": [
+        "koshiba",
+        "2002"
+      ],
+      "n": 0
+    },
+    {
+      "id": "baade-zwicky",
+      "tier": "power",
+      "t": "Walter Baade and Fritz Zwicky named them in the early 1930s and said they make neutron stars; Zwicky later found more than a hundred",
+      "k": [
+        "baade",
+        "zwicky",
+        "1930s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "b2fh",
+      "tier": "power",
+      "t": "A 1957 paper by the Burbidges, William Fowler, and Fred Hoyle explained how stars and these blasts forge elements",
+      "k": [
+        "burbidge",
+        "fowler",
+        "hoyle",
+        "1957"
+      ],
+      "n": 0
+    },
+    {
+      "id": "r-process",
+      "tier": "power",
+      "t": "Some elements heavier than iron may be built in them by rapid neutron capture, the r-process",
+      "k": [
+        "r-process",
+        "neutron capture"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sn-1006",
+      "tier": "power",
+      "t": "The one seen in 1006 CE in Lupus was the brightest star-like event in recorded history; Ali ibn Ridwan described it",
+      "k": [
+        "1006",
+        "lupus",
+        "ridwan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sn-185",
+      "tier": "power",
+      "t": "The earliest recorded one was a Chinese “guest star” in 185 CE; its leftover shell is RCW 86",
+      "k": [
+        "guest star",
+        "185",
+        "rcw 86"
+      ],
+      "n": 0
+    },
+    {
+      "id": "daylight-1054",
+      "tier": "power",
+      "t": "The 1054 one was visible in daylight for 23 days; some historians think a Chaco Canyon rock painting shows it",
+      "k": [
+        "daylight",
+        "23 days",
+        "chaco canyon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phillips",
+      "tier": "power",
+      "t": "Mark Phillips (1993): brighter Type Ia ones fade more slowly, which lets astronomers correct their brightness",
+      "k": [
+        "phillips",
+        "1993",
+        "fade"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plateau",
+      "tier": "power",
+      "t": "Some core-collapse ones stay bright on a “plateau” in their light curves for about a hundred days",
+      "k": [
+        "plateau",
+        "light curves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nickel-56",
+      "tier": "power",
+      "t": "Their slowly fading glow is powered by radioactive nickel-56 decaying into cobalt-56 and then iron",
+      "k": [
+        "nickel-56",
+        "cobalt-56",
+        "radioactive"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cassiopeia-a",
+      "tier": "power",
+      "t": "Cassiopeia A, a bright radio source, is the wreckage of one seen around 1680; Chandra’s first image (1999) found a neutron star inside",
+      "k": [
+        "cassiopeia a",
+        "1680",
+        "chandra"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pair-instability",
+      "tier": "power",
+      "t": "The most massive stars may die in “pair-instability” blasts, where gamma rays turn into pairs of electrons and positrons",
+      "k": [
+        "pair-instability",
+        "positrons",
+        "gamma rays"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galileo-padua",
+      "tier": "power",
+      "t": "Galileo lectured in Padua on the 1604 one, arguing that it lay far beyond the Moon",
+      "k": [
+        "galileo",
+        "padua"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Nova, supernova, or remnant?",
+    "body": "A nova is a much smaller outburst on the surface of a white dwarf that survives, so “nova” is wrong for a star that blows apart. The Crab Nebula and Cassiopeia A are the wreckage left behind, and neutron stars and black holes are what a collapsed core becomes; each is a different answer line. Players who hear “white dwarf” in a Type Ia clue sometimes buzz with “white dwarf,” but the question wants the explosion.",
+    "fix": "Ask what the question’s noun is: “these explosions” or “these events” means supernovae; “this nebula” means a remnant like the Crab; “these objects” left behind means neutron stars or black holes. You can name the type (“Type Ia supernova”) when the clues focus on white dwarfs, but plain “supernova” is the safe answer for general questions.",
+    "line": "Real answer line: <b><u>supernova</u></b>e (accept <u>supernova</u>s; accept specific types)"
+  },
+  "tests": {
+    "right": [
+      "Supernovae",
+      "supernova",
+      "Supernovas",
+      "Supernove",
+      "Type Ia supernova"
+    ],
+    "prompt": [
+      "exploding star",
+      "stellar explosion"
+    ],
+    "wrong": [
+      "Nova",
+      "Hypernova",
+      "Crab Nebula",
+      "Neutron star",
+      "White dwarf",
+      "Supernova remnant"
+    ]
+  }
+}

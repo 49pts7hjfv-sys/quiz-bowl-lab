@@ -1,0 +1,455 @@
+{
+  "id": "hertzsprung-russell-diagram",
+  "name": "Hertzsprung–Russell diagram",
+  "mono": "HR",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Graph of star brightness vs. temperature · Maps how stars live and die",
+  "dates": "Created independently in 1911 and 1913",
+  "briefing": "The Hertzsprung–Russell diagram is a graph that plots stars by how bright they truly are against how hot they are, with the hottest stars on the left. Most stars, including the Sun, fall along a diagonal band called the main sequence, while red giants sit at the upper right and white dwarfs at the lower left. A Danish astronomer and an American astronomer created it independently in the early 1910s.",
+  "answerHtml": "<b><u>Hertzsprung–Russell diagram</u></b> (accept <u>H-R diagram</u> or <u>HR diagram</u>; accept <u>color–magnitude diagram</u>; prompt on <u>Hertzsprung</u> or <u>Russell</u> alone)",
+  "accept": [
+    "hertzsprung russell diagram",
+    "hertzsprung russell",
+    "hertzsprung russell plot",
+    "russell hertzsprung diagram",
+    "h r diagram",
+    "hr diagram",
+    "h r plot",
+    "hr plot",
+    "hrd",
+    "color magnitude diagram",
+    "colour magnitude diagram"
+  ],
+  "prompt": [
+    "hertzsprung",
+    "russell",
+    "hertzsprung diagram",
+    "russell diagram"
+  ],
+  "reject": [
+    "main sequence",
+    "hubble diagram",
+    "hubble sequence",
+    "hubble tuning fork",
+    "tuning fork diagram",
+    "tuning fork",
+    "phase diagram",
+    "feynman diagram",
+    "venn diagram",
+    "punnett square",
+    "periodic table",
+    "spectral classification",
+    "spectral class",
+    "harvard classification",
+    "hertzsprung gap",
+    "instability strip",
+    "light curve",
+    "rotation curve",
+    "bertrand russell"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Hertzsprung%E2%80%93Russell_diagram",
+  "qb": {
+    "q": "Hertzsprung",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Annie Jump Cannon’s letters O, B, A, F, G, K, and M can label one axis of this diagram, an axis that unusually runs from hottest on the left to coolest on the right. White dwarfs sit in this diagram’s lower left corner.",
+      "r": "For 10 points, name this graph that plots stars’ luminosity against their temperature, home to the main sequence."
+    },
+    {
+      "p": "A Danish astronomer made early versions of this diagram in 1911 using stars in the Pleiades and Hyades clusters, and an American astronomer at Princeton independently presented his own version in 1913. The two men’s last names are joined in this diagram’s name.",
+      "r": "For 10 points, name this plot of stars’ luminosity versus surface temperature, on which most stars fall along the main sequence."
+    },
+    {
+      "p": "Astronomers estimate a star cluster’s age from the point where its stars peel away from a band on this diagram, called the turnoff, because heavier stars leave that band first. Blue stragglers are odd stars that sit above that turnoff even though they should already have moved on.",
+      "r": "That band is the main sequence. For 10 points, name this graph that plots stars’ luminosity against temperature."
+    },
+    {
+      "p": "Young stars of low mass slide almost straight down this diagram along Hayashi tracks, and somewhat heavier ones then move left along Henyey tracks. Those paths end when hydrogen fusion begins in the stars’ cores.",
+      "r": "The stars have then reached the main sequence. For 10 points, name this graph of stars’ luminosity against temperature."
+    },
+    {
+      "p": "Stars that are fusing helium in their cores gather on this diagram’s horizontal branch, while stars near the end of their lives climb its asymptotic giant branch. RR Lyrae [“LY-ree”] variable stars are found where the horizontal branch crosses the instability strip.",
+      "r": "Red giants sit in this diagram’s upper right. For 10 points, name this graph of stars’ luminosity against temperature."
+    },
+    {
+      "p": "Cepheid [“SEF-ee-id”] variables and other pulsating stars lie in a narrow “instability strip” that cuts across this diagram. A nearly empty region on this diagram, which stars cross quickly as they swell into red giants, is called a “gap” and is named for one of this diagram’s two creators.",
+      "r": "For 10 points, name this graph of stars’ luminosity against surface temperature, whose diagonal main sequence includes the Sun."
+    },
+    {
+      "p": "In the Morgan–Keenan system, Roman numerals from I for supergiants to V for dwarfs describe which region of this diagram a star occupies. The Sun’s full label in that system is G2 V. Using such labels to estimate a star’s distance is called spectroscopic parallax.",
+      "r": "Class V stars lie on this diagram’s main sequence. For 10 points, name this graph of stars’ luminosity against temperature."
+    },
+    {
+      "p": "In 2018, the European Space Agency’s Gaia mission released a version of this diagram built from millions of nearby stars whose distances it had measured very precisely. Like earlier versions, it showed white dwarfs gathered in the lower left and supergiants across the top.",
+      "r": "For 10 points, name this graph of stars’ luminosity against temperature, which has a diagonal main sequence."
+    },
+    {
+      "p": "Astronomers draw “evolutionary tracks” to show how a star’s position on this diagram changes during its life. In about five billion years, the Sun’s track will carry it up and to the right as it swells into a red giant, before it ends in the lower left as a white dwarf.",
+      "r": "For 10 points, name this graph of stars’ luminosity versus temperature, which includes a diagonal band called the main sequence."
+    },
+    {
+      "p": "By sliding a star cluster’s version of this diagram up or down until it lines up with a standard version, astronomers can find the cluster’s distance, a method called main-sequence fitting. For clusters, astronomers often plot each star’s color instead of its temperature.",
+      "r": "For 10 points, name this graph of stars’ brightness against their temperature, created in the 1910s."
+    },
+    {
+      "p": "Stars spend about 90 percent of their lives on a diagonal band across this diagram while they fuse hydrogen into helium in their cores. Along that band, a star’s position depends mostly on its mass, with the heaviest stars at the upper left.",
+      "r": "That band is the main sequence. For 10 points, name this graph that plots stars’ luminosity against temperature."
+    },
+    {
+      "p": "Because of the Stefan–Boltzmann law, lines marking stars of equal size run diagonally across this diagram. That law also explains why the cool but very bright stars at its upper right must be enormous.",
+      "r": "Those huge stars are red giants and supergiants. For 10 points, name this graph of stars’ luminosity against temperature."
+    },
+    {
+      "p": "On this diagram, the red supergiant Betelgeuse [“BEE-tul-jooz”] sits near the upper right corner and the blue supergiant Rigel sits near the upper left. Proxima Centauri, the nearest star to the Sun, is a dim red dwarf near the lower right.",
+      "r": "For 10 points, name this graph that plots stars’ luminosity against temperature, with the main sequence running diagonally across it."
+    },
+    {
+      "p": "Sirius B, the faint companion of the brightest star in the night sky, sits in the lower left of this diagram because it is hot but only about the size of Earth. Stars that have used up the hydrogen in their cores climb this diagram’s red giant branch.",
+      "r": "Sirius B is a white dwarf. For 10 points, name this graph of stars’ luminosity against temperature."
+    },
+    {
+      "p": "To fit brown dwarfs, which are too small to keep fusing ordinary hydrogen, astronomers added the letters L, T, and Y to one axis of this diagram, past M. At the other end of that axis are type O stars, with surfaces hotter than 30,000 kelvins.",
+      "r": "For 10 points, name this graph of stars’ luminosity against temperature, created in the 1910s and named for two astronomers."
+    }
+  ],
+  "clues": [
+    {
+      "id": "axes",
+      "tier": "giveaway",
+      "t": "A graph of stars’ luminosity (or absolute magnitude) against their surface temperature (or spectral class)",
+      "k": [
+        "luminosity",
+        "temperature",
+        "absolute magnitude"
+      ],
+      "n": 0,
+      "rabbit": "Luminosity"
+    },
+    {
+      "id": "main-sequence",
+      "tier": "giveaway",
+      "t": "Most stars, including the Sun, lie on a diagonal band across it called the main sequence",
+      "k": [
+        "main sequence",
+        "diagonal"
+      ],
+      "n": 0,
+      "rabbit": "Main sequence"
+    },
+    {
+      "id": "corners",
+      "tier": "giveaway",
+      "t": "Red giants and supergiants sit at its upper right; white dwarfs sit at its lower left",
+      "k": [
+        "red giants",
+        "white dwarfs",
+        "upper right",
+        "lower left"
+      ],
+      "n": 0,
+      "rabbit": "White dwarfs"
+    },
+    {
+      "id": "creators",
+      "tier": "giveaway",
+      "t": "Created independently in the early 1910s by a Danish astronomer and an American astronomer, whose names it bears",
+      "k": [
+        "danish",
+        "american",
+        "1910s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "backward-axis",
+      "tier": "middle",
+      "t": "Its temperature axis runs backward: the hottest stars are on the left and the coolest on the right",
+      "k": [
+        "backward",
+        "hottest",
+        "coolest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "obafgkm",
+      "tier": "middle",
+      "t": "That axis can be labeled with the spectral classes O, B, A, F, G, K, and M from Annie Jump Cannon’s Harvard system",
+      "k": [
+        "spectral classes",
+        "annie jump cannon",
+        "harvard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sun",
+      "tier": "middle",
+      "t": "The Sun, a yellow G2 V star, sits near the middle of the main sequence",
+      "k": [
+        "g2",
+        "middle",
+        "yellow"
+      ],
+      "n": 0,
+      "rabbit": "The Sun"
+    },
+    {
+      "id": "hydrogen-fusion",
+      "tier": "middle",
+      "t": "Main-sequence stars fuse hydrogen into helium in their cores and spend about 90 percent of their lives there",
+      "k": [
+        "hydrogen",
+        "helium",
+        "90 percent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mass",
+      "tier": "middle",
+      "t": "Along the main sequence, a star’s position depends mostly on its mass, with the heaviest, hottest stars at the upper left",
+      "k": [
+        "mass",
+        "heaviest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "turnoff",
+      "tier": "middle",
+      "t": "A cluster’s age can be read from its turnoff, where stars peel away from the main sequence (heavier stars leave first)",
+      "k": [
+        "turnoff",
+        "age"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sun-future",
+      "tier": "middle",
+      "t": "In about five billion years, the Sun will move up and to the right as a red giant, then end at the lower left as a white dwarf",
+      "k": [
+        "five billion years",
+        "red giant"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pleiades-hyades",
+      "tier": "middle",
+      "t": "The Danish astronomer’s 1911 versions used stars in the Pleiades and Hyades clusters; the American, at Princeton, presented his in 1913",
+      "k": [
+        "pleiades",
+        "hyades",
+        "1911",
+        "1913",
+        "princeton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "color",
+      "tier": "middle",
+      "t": "For star clusters, astronomers often plot each star’s color instead of its temperature",
+      "k": [
+        "color",
+        "clusters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "supergiants",
+      "tier": "middle",
+      "t": "Supergiants such as Betelgeuse (red, upper right) and Rigel (blue, upper left) run across its top",
+      "k": [
+        "supergiants",
+        "betelgeuse",
+        "rigel"
+      ],
+      "n": 0,
+      "rabbit": "Orion"
+    },
+    {
+      "id": "blue-stragglers",
+      "tier": "power",
+      "t": "Blue stragglers sit above a cluster’s turnoff even though they should already have moved on",
+      "k": [
+        "blue stragglers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hayashi",
+      "tier": "power",
+      "t": "Newborn stars slide down Hayashi tracks (heavier ones then move left on Henyey tracks) until fusion starts at the zero-age main sequence",
+      "k": [
+        "hayashi",
+        "henyey",
+        "zero-age"
+      ],
+      "n": 0,
+      "rabbit": "Star formation"
+    },
+    {
+      "id": "horizontal-branch",
+      "tier": "power",
+      "t": "Stars fusing helium in their cores gather on the horizontal branch",
+      "k": [
+        "horizontal branch",
+        "helium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "giant-branches",
+      "tier": "power",
+      "t": "Stars that use up their core hydrogen climb the red giant branch; near the end of their lives, they climb the asymptotic giant branch",
+      "k": [
+        "red giant branch",
+        "asymptotic giant branch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "instability-strip",
+      "tier": "power",
+      "t": "Cepheids and RR Lyrae stars lie in the narrow instability strip, where stars pulsate",
+      "k": [
+        "instability strip",
+        "cepheids",
+        "rr lyrae"
+      ],
+      "n": 0,
+      "rabbit": "Cepheid variables"
+    },
+    {
+      "id": "gap",
+      "tier": "power",
+      "t": "A nearly empty “gap” between the main sequence and the red giants is named for one of its two creators",
+      "k": [
+        "gap",
+        "nearly empty"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morgan-keenan",
+      "tier": "power",
+      "t": "Morgan–Keenan luminosity classes run from I (supergiants) to V (main-sequence dwarfs); the Sun is G2 V",
+      "k": [
+        "morgan",
+        "keenan",
+        "luminosity classes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spectroscopic-parallax",
+      "tier": "power",
+      "t": "Using it to estimate a star’s distance from its spectrum is called spectroscopic parallax",
+      "k": [
+        "spectroscopic parallax"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gaia",
+      "tier": "power",
+      "t": "In 2018, the Gaia mission released one built from millions of nearby stars with precisely measured distances",
+      "k": [
+        "gaia",
+        "2018"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fitting",
+      "tier": "power",
+      "t": "Main-sequence fitting: sliding a cluster’s version up or down to match a standard one gives the cluster’s distance",
+      "k": [
+        "main-sequence fitting",
+        "distance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stefan-boltzmann",
+      "tier": "power",
+      "t": "Lines of equal radius run diagonally across it because of the Stefan–Boltzmann law",
+      "k": [
+        "stefan",
+        "boltzmann",
+        "equal radius"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sirius-b",
+      "tier": "power",
+      "t": "Sirius B, an Earth-sized white dwarf, sits in its lower left",
+      "k": [
+        "sirius b",
+        "earth-sized"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brown-dwarfs",
+      "tier": "power",
+      "t": "Spectral types L, T, and Y were added past M for brown dwarfs; type O stars at the other end are hotter than 30,000 kelvins",
+      "k": [
+        "brown dwarfs",
+        "30,000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "proxima",
+      "tier": "power",
+      "t": "Proxima Centauri, the nearest star to the Sun, is a dim red dwarf near its lower right",
+      "k": [
+        "proxima centauri",
+        "red dwarf"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Diagram, or what’s on it?",
+    "body": "Tossups on this diagram describe its regions in detail, so players buzz with “main sequence,” “white dwarfs,” or “red giants,” which are separate answer lines for things that appear on the diagram. Others confuse it with Edwin Hubble’s tuning-fork diagram, which sorts galaxies, not stars. Naming only one of the two astronomers may earn a prompt, so the full name is safer.",
+    "fix": "When the question says “this diagram,” “this graph,” or “this plot,” answer “Hertzsprung–Russell diagram” or just “H-R diagram.” If it asks for “this band of stars” or “these stars,” name the region instead: main sequence, white dwarfs, or giants.",
+    "line": "Real answer line: <b><u>Hertzsprung–Russell diagram</u></b> (accept <u>H-R diagram</u> or <u>HR diagram</u>; accept <u>color–magnitude diagram</u>)"
+  },
+  "tests": {
+    "right": [
+      "Hertzsprung–Russell diagram",
+      "HR diagram",
+      "H-R diagram",
+      "Hertzsprung Russel diagram",
+      "color-magnitude diagram",
+      "the H-R diagram"
+    ],
+    "prompt": [
+      "Hertzsprung",
+      "Russell"
+    ],
+    "wrong": [
+      "Main sequence",
+      "Hubble tuning fork",
+      "Phase diagram",
+      "Bertrand Russell",
+      "Hubble diagram"
+    ]
+  }
+}

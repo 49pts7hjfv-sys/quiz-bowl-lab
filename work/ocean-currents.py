@@ -1,0 +1,394 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "ocean-currents",
+    "name": "Ocean currents",
+    "mono": "OC",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Steady flows of seawater · Carry heat around the globe and shape climate",
+    "dates": "Gulf Stream noted by Ponce de León in 1513",
+    "briefing": "Ocean currents are like rivers inside the sea: huge, steady flows of water that can carry heat thousands of kilometers. The warm Gulf Stream carries tropical heat north along the U.S. East Coast and on toward Europe, while cold, deep currents creep along the seafloor in a slow loop nicknamed the “global conveyor belt.” Winds, Earth’s spin, and differences in temperature and saltiness keep them moving.",
+    "answerHtml": "<b><u>Ocean current</u></b>s (accept <u>current</u>s, <u>oceanic current</u>s, or <u>ocean circulation</u>; accept surface or deep <u>current</u>s; prompt on <u>thermohaline circulation</u>; do not accept “tides,” “waves,” “gyres,” “upwelling,” or one named current like the “Gulf Stream”)",
+    "accept": [
+        "ocean currents",
+        "ocean current",
+        "oceanic currents",
+        "oceanic current",
+        "currents",
+        "current",
+        "sea currents",
+        "sea current",
+        "marine currents",
+        "surface currents",
+        "surface current",
+        "deep currents",
+        "deep ocean currents",
+        "deep water currents",
+        "ocean circulation",
+        "oceanic circulation"
+    ],
+    "prompt": [
+        "thermohaline circulation",
+        "global conveyor belt",
+        "conveyor belt",
+        "great ocean conveyor",
+        "circulation"
+    ],
+    "reject": [
+        "tides",
+        "tide",
+        "tidal current",
+        "tidal currents",
+        "waves",
+        "wave",
+        "ocean waves",
+        "gyre",
+        "gyres",
+        "ocean gyre",
+        "ocean gyres",
+        "upwelling",
+        "downwelling",
+        "el nino",
+        "la nina",
+        "coriolis effect",
+        "coriolis force",
+        "ekman transport",
+        "ekman spiral",
+        "trade winds",
+        "wind",
+        "winds",
+        "jet stream",
+        "rip current",
+        "rip currents",
+        "rip tide",
+        "riptide",
+        "longshore current",
+        "longshore currents",
+        "convection current",
+        "convection currents",
+        "mantle convection",
+        "electric current",
+        "electric currents",
+        "electrical current",
+        "alternating current",
+        "direct current",
+        "turbidity current",
+        "turbidity currents",
+        "gulf stream",
+        "kuroshio",
+        "kuroshio current",
+        "humboldt current",
+        "peru current",
+        "california current",
+        "labrador current",
+        "agulhas current",
+        "antarctic circumpolar current",
+        "canary current",
+        "benguela current",
+        "brazil current",
+        "somali current",
+        "north atlantic drift",
+        "north atlantic current",
+        "salinity",
+        "thermocline",
+        "sargasso sea",
+        "river",
+        "rivers"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Ocean_current",
+    "qb": {
+        "q": "ocean currents",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The volume of water moved by these flows is measured in sverdrups, each equal to one million cubic meters per second, a unit named for Norwegian oceanographer Harald Sverdrup. The one that circles Antarctica moves more sverdrups than any other.",
+            "r": "Surface examples are pushed mainly by the wind. For 10 points, name these steady flows of seawater, such as the Gulf Stream."
+        },
+        {
+            "p": "Vagn Walfrid Ekman showed that wind-driven seawater turns more and more with depth in a spiral, so the overall movement of the water is 90 degrees to the right of the wind in the Northern Hemisphere.",
+            "r": "Earth’s spin also deflects these flows through the Coriolis effect. For 10 points, name these steady movements of seawater, like the Gulf Stream."
+        },
+        {
+            "p": "Fridtjof Nansen let his ship _Fram_ freeze into Arctic sea ice so that these flows would carry it across the polar sea, and he noticed the ice drifting to the right of the wind. That observation inspired Vagn Walfrid Ekman’s famous spiral.",
+            "r": "In the Northern Hemisphere, these flows form giant clockwise loops called gyres. For 10 points, name these steady flows of seawater."
+        },
+        {
+            "p": "In 1948, Henry Stommel explained why these flows run fastest and narrowest along the western edges of ocean basins, an effect called western intensification. Japan’s Kuroshio [“koo-roh-SHEE-oh”], whose name means “Black Tide,” is a classic example of that effect.",
+            "r": "Another example, the warm Gulf Stream, flows up the U.S. East Coast. For 10 points, name these steady flows of seawater."
+        },
+        {
+            "p": "In 1513, Juan Ponce de León’s ships off Florida were pushed backward by one of these flows even though the wind filled their sails. His pilot, Antón de Alaminos, later rode that same flow to speed a ship home to Spain.",
+            "r": "That flow, the Gulf Stream, later appeared on a chart printed by Benjamin Franklin. For 10 points, name these steady flows of seawater."
+        },
+        {
+            "p": "Geochemist Wallace Broecker popularized the image of a “great ocean conveyor,” a worldwide loop of these flows in which cold, salty water sinks in the North Atlantic and slowly returns to the surface elsewhere over many centuries.",
+            "r": "Deep examples are driven by differences in temperature and saltiness. For 10 points, name these flows of seawater, such as the Gulf Stream."
+        },
+        {
+            "p": "After a shipping container of bath toys, including rubber ducks, spilled into the North Pacific in 1992, oceanographer Curtis Ebbesmeyer tracked where the toys washed ashore to learn about these flows. He also tracked a spill of thousands of Nike sneakers.",
+            "r": "Plastic trash carried by these flows piles up in the Great Pacific Garbage Patch. For 10 points, name these steady flows of seawater."
+        },
+        {
+            "p": "In 1947, Thor Heyerdahl’s balsa raft _Kon-Tiki_ drifted from Peru to Polynesia, carried by the trade winds and by one of these flows. That cold flow, the Humboldt, feeds some of the world’s biggest anchovy fisheries.",
+            "r": "Cold examples like that one help make coastal deserts such as Chile’s Atacama extremely dry. For 10 points, name these steady flows of seawater."
+        },
+        {
+            "p": "Off the coast of East Africa, the Somali flow reverses direction twice a year as the monsoon winds switch, making it one of the few examples of these flows that change course with the seasons.",
+            "r": "Surface examples of these flows are pushed mainly by the wind. For 10 points, name these steady flows of seawater, such as the Gulf Stream."
+        },
+        {
+            "p": "Thousands of robotic Argo floats drift with these flows, sinking deep and then rising to the surface to radio back measurements of temperature and saltiness. Earlier scientists studied these flows by tossing sealed drift bottles into the sea.",
+            "r": "The largest example circles Antarctica from west to east. For 10 points, name these steady flows of seawater, such as the Gulf Stream."
+        },
+        {
+            "p": "Many large examples of these flows are geostrophic [“jee-oh-STROF-ik”], meaning the Coriolis effect balances the push from slight differences in the height of the sea surface. Satellites measure those bumps in the sea surface to map these flows from space.",
+            "r": "In the Northern Hemisphere, they form clockwise loops called gyres. For 10 points, name these steady flows of seawater."
+        },
+        {
+            "p": "As one of these flows meanders off the U.S. East Coast, some of its loops pinch off into giant swirling eddies called warm-core and cold-core rings. In the Northern Hemisphere, the warm-core rings spin clockwise and the cold-core rings spin counterclockwise.",
+            "r": "That flow, the warm Gulf Stream, helps carry tropical heat toward Europe. For 10 points, name these steady flows of seawater."
+        },
+        {
+            "p": "North Atlantic Deep Water forms where cold, salty water sinks near Greenland, while the densest water of all, Antarctic Bottom Water, sinks near Antarctica. Both feed slow, deep examples of these flows that creep along the seafloor.",
+            "r": "That deep worldwide loop is called the “global conveyor belt.” For 10 points, name these flows of seawater, which also include the Gulf Stream."
+        },
+        {
+            "p": "Where the cold Labrador flow meets warm water from the south off Newfoundland, the Grand Banks are famous for thick fog and rich fishing grounds. The Labrador flow also carries icebergs south from Greenland into busy shipping lanes.",
+            "r": "Another cold example, the Humboldt, flows north along South America’s west coast. For 10 points, name these steady flows of seawater."
+        },
+        {
+            "p": "Benjamin Franklin and his cousin Timothy Folger, a Nantucket whaling captain, printed an early chart of one of these flows to help mail ships cross the Atlantic faster. The Sargasso Sea is the only sea bordered entirely by these flows instead of land.",
+            "r": "Earth’s spin bends these flows through the Coriolis effect. For 10 points, name these steady flows of seawater, such as the Gulf Stream."
+        }
+    ],
+    "clues": [
+        {
+            "id": "steady-flows",
+            "tier": "giveaway",
+            "t": "Steady, continuous flows of seawater, like rivers within the ocean",
+            "k": ["seawater", "steady", "flows"],
+            "n": 0
+        },
+        {
+            "id": "gulf-stream",
+            "tier": "giveaway",
+            "t": "Example: the warm Gulf Stream, which flows from Florida up the U.S. East Coast and across the Atlantic",
+            "k": ["gulf stream", "florida", "east coast"],
+            "n": 0
+        },
+        {
+            "id": "drivers",
+            "tier": "giveaway",
+            "t": "Surface ones are driven mainly by wind; deep ones by differences in density caused by temperature and saltiness",
+            "k": ["wind", "density", "saltiness"],
+            "n": 0,
+            "rabbit": "Salinity"
+        },
+        {
+            "id": "heat-climate",
+            "tier": "giveaway",
+            "t": "They carry heat around the globe and shape climate: warm ones flow away from the equator and cold ones flow toward it",
+            "k": ["heat", "climate", "equator"],
+            "n": 0
+        },
+        {
+            "id": "coriolis",
+            "tier": "middle",
+            "t": "The Coriolis effect from Earth’s spin bends them to the right in the Northern Hemisphere and to the left in the Southern",
+            "k": ["coriolis effect", "earth’s spin", "coriolis"],
+            "n": 0,
+            "rabbit": "Coriolis effect"
+        },
+        {
+            "id": "gyres",
+            "tier": "middle",
+            "t": "Huge loops of them called gyres turn clockwise in the Northern Hemisphere and counterclockwise in the Southern",
+            "k": ["gyres", "clockwise"],
+            "n": 0
+        },
+        {
+            "id": "conveyor-belt",
+            "tier": "middle",
+            "t": "Cold, salty water sinking near Greenland and Antarctica drives thermohaline circulation, the slow, deep “global conveyor belt”",
+            "k": ["thermohaline", "global conveyor belt", "conveyor belt"],
+            "n": 0
+        },
+        {
+            "id": "franklin",
+            "tier": "middle",
+            "t": "Benjamin Franklin and his cousin Timothy Folger, a Nantucket whaling captain, printed an early chart of the Gulf Stream",
+            "k": ["benjamin franklin", "folger", "chart"],
+            "n": 0
+        },
+        {
+            "id": "humboldt",
+            "tier": "middle",
+            "t": "The cold Humboldt (or Peru) flow off western South America feeds rich anchovy fisheries with nutrient-rich water",
+            "k": ["humboldt", "peru", "anchovy"],
+            "n": 0,
+            "rabbit": "Upwelling"
+        },
+        {
+            "id": "kuroshio",
+            "tier": "middle",
+            "t": "Japan’s warm Kuroshio [“koo-roh-SHEE-oh”], meaning “Black Tide,” is the Pacific’s version of the Gulf Stream",
+            "k": ["kuroshio", "black tide", "japan"],
+            "n": 0
+        },
+        {
+            "id": "antarctic-circumpolar",
+            "tier": "middle",
+            "t": "The Antarctic Circumpolar flow circles Antarctica from west to east and moves more water than any other",
+            "k": ["antarctic circumpolar", "west to east", "antarctica"],
+            "n": 0
+        },
+        {
+            "id": "sargasso",
+            "tier": "middle",
+            "t": "The Sargasso Sea is the only sea bordered entirely by them instead of by land",
+            "k": ["sargasso sea", "sargasso"],
+            "n": 0
+        },
+        {
+            "id": "garbage-patch",
+            "tier": "middle",
+            "t": "Plastic trash they carry piles up in a North Pacific gyre, forming the Great Pacific Garbage Patch",
+            "k": ["garbage patch", "plastic"],
+            "n": 0
+        },
+        {
+            "id": "coastal-deserts",
+            "tier": "middle",
+            "t": "Cold ones flowing along coasts help make deserts like Chile’s Atacama and Africa’s Namib extremely dry",
+            "k": ["atacama", "namib", "deserts"],
+            "n": 0,
+            "rabbit": "Deserts"
+        },
+        {
+            "id": "sverdrup",
+            "tier": "power",
+            "t": "Their flow is measured in sverdrups, one million cubic meters of water per second, named for Harald Sverdrup",
+            "k": ["sverdrups", "harald sverdrup", "million cubic meters"],
+            "n": 0
+        },
+        {
+            "id": "ekman",
+            "tier": "power",
+            "t": "Vagn Walfrid Ekman showed that wind-driven water turns with depth in a spiral, moving overall 90 degrees to the right of the wind in the Northern Hemisphere",
+            "k": ["ekman", "spiral", "90 degrees"],
+            "n": 0
+        },
+        {
+            "id": "nansen",
+            "tier": "power",
+            "t": "Fridtjof Nansen froze his ship _Fram_ into Arctic ice to drift with them and saw the ice move to the right of the wind",
+            "k": ["nansen", "fram", "arctic"],
+            "n": 0
+        },
+        {
+            "id": "stommel",
+            "tier": "power",
+            "t": "In 1948, Henry Stommel explained western intensification: they run fastest and narrowest along the western sides of ocean basins",
+            "k": ["stommel", "western intensification", "1948"],
+            "n": 0
+        },
+        {
+            "id": "ponce-de-leon",
+            "tier": "power",
+            "t": "In 1513, Juan Ponce de León’s ships were pushed backward off Florida by the Gulf Stream; his pilot Antón de Alaminos later used it to sail to Spain",
+            "k": ["ponce de león", "1513", "alaminos"],
+            "n": 0
+        },
+        {
+            "id": "broecker",
+            "tier": "power",
+            "t": "Wallace Broecker popularized the “great ocean conveyor,” a deep worldwide loop that takes many centuries to complete",
+            "k": ["broecker", "great ocean conveyor", "centuries"],
+            "n": 0
+        },
+        {
+            "id": "rubber-ducks",
+            "tier": "power",
+            "t": "Curtis Ebbesmeyer tracked bath toys, including rubber ducks, spilled in the North Pacific in 1992, plus thousands of lost Nike sneakers",
+            "k": ["ebbesmeyer", "rubber ducks", "sneakers"],
+            "n": 0
+        },
+        {
+            "id": "kon-tiki",
+            "tier": "power",
+            "t": "In 1947, Thor Heyerdahl’s balsa raft _Kon-Tiki_ drifted from Peru to Polynesia with the Humboldt flow and the trade winds",
+            "k": ["kon-tiki", "heyerdahl", "balsa"],
+            "n": 0
+        },
+        {
+            "id": "somali",
+            "tier": "power",
+            "t": "The Somali flow off East Africa reverses direction twice a year as the monsoon winds switch",
+            "k": ["somali", "monsoon", "reverses"],
+            "n": 0
+        },
+        {
+            "id": "argo",
+            "tier": "power",
+            "t": "Thousands of robotic Argo floats drift with them, diving and surfacing to measure temperature and saltiness; earlier scientists used drift bottles",
+            "k": ["argo floats", "argo", "drift bottles"],
+            "n": 0
+        },
+        {
+            "id": "geostrophic",
+            "tier": "power",
+            "t": "Large ones are often geostrophic: the Coriolis effect balances small differences in sea-surface height, which satellites can measure",
+            "k": ["geostrophic", "sea-surface height", "satellites"],
+            "n": 0
+        },
+        {
+            "id": "rings",
+            "tier": "power",
+            "t": "The Gulf Stream sheds giant eddies called warm-core rings (spinning clockwise) and cold-core rings (spinning counterclockwise)",
+            "k": ["warm-core", "cold-core", "eddies", "rings"],
+            "n": 0
+        },
+        {
+            "id": "deep-water",
+            "tier": "power",
+            "t": "North Atlantic Deep Water sinks near Greenland; Antarctic Bottom Water, the densest of all, sinks near Antarctica",
+            "k": ["north atlantic deep water", "antarctic bottom water", "densest"],
+            "n": 0
+        },
+        {
+            "id": "labrador",
+            "tier": "power",
+            "t": "The cold Labrador flow carries icebergs south from Greenland and meets warm water off Newfoundland, making the foggy, fish-rich Grand Banks",
+            "k": ["labrador", "grand banks", "icebergs", "newfoundland"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not just the Gulf Stream",
+        "body": "Tossups on ocean currents in general love to name famous examples, like the Gulf Stream, the Kuroshio, or the Humboldt, so players blurt out one name, which is wrong. Neighboring answer lines are traps too: tides are the twice-daily rise and fall of the sea caused mostly by the Moon, waves are energy rippling across the surface, gyres are the giant loops that currents form, and upwelling is cold water rising along a coast.",
+        "fix": "Listen for “these flows” or “these movements of seawater,” and answer “ocean currents” or just “currents.” If a tossup asks for “this circulation” and describes only the slow, deep loop driven by temperature and saltiness, it wants thermohaline circulation; on a general currents tossup, that answer earns only a prompt here.",
+        "line": "Real answer line: <b><u>Ocean current</u></b>s (accept <u>current</u>s; prompt on thermohaline circulation; do not accept “tides,” “waves,” “gyres,” or one named current like the “Gulf Stream”)"
+    },
+    "tests": {
+        "right": ["Ocean currents", "currents", "ocean current", "Ocean curents", "surface currents"],
+        "prompt": ["thermohaline circulation", "global conveyor belt"],
+        "wrong": ["Gulf Stream", "Tides", "Waves", "Gyres", "Electric current", "Upwelling", "Humboldt Current"]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

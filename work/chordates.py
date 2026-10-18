@@ -1,0 +1,348 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "chordates",
+    "name": "Chordates",
+    "mono": "CHD",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Animal phylum with a notochord · Includes all vertebrates, even humans",
+    "dates": "Fossils date back more than 500 million years",
+    "briefing": "Chordates are the animal phylum you belong to. At some point in life, every chordate has a flexible rod called a notochord, a hollow nerve cord along its back, slits in its throat, and a tail that extends past the anus, even if, like humans, it has some of them only as an embryo. Besides all the vertebrates, the phylum includes odd ocean cousins: tube-shaped sea squirts and little fishlike lancelets.",
+    "answerHtml": "<b><u>Chordates</u></b> (accept <u>Chordata</u>; prompt on <u>deuterostomes</u>; do not accept “vertebrates” or “hemichordates”)",
+    "accept": [
+        "chordates",
+        "chordate",
+        "chordata",
+        "phylum chordata"
+    ],
+    "prompt": [
+        "deuterostomes",
+        "deuterostome",
+        "deuterostomia"
+    ],
+    "reject": [
+        "vertebrates",
+        "vertebrate",
+        "vertebrata",
+        "craniates",
+        "craniata",
+        "hemichordates",
+        "hemichordate",
+        "hemichordata",
+        "urochordates",
+        "urochordata",
+        "cephalochordates",
+        "cephalochordata",
+        "tunicates",
+        "tunicata",
+        "sea squirts",
+        "lancelets",
+        "amphioxus",
+        "echinoderms",
+        "echinodermata",
+        "invertebrates",
+        "notochord",
+        "notochords",
+        "nerve cord",
+        "mammals",
+        "fish",
+        "acorn worms",
+        "chords",
+        "chordophones"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Chordate",
+    "qb": {
+        "q": "Chordata",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Charles Walcott described Pikaia, a small, ribbon-shaped animal from the Burgess Shale, in 1911, and it was long considered one of the earliest known members of this phylum. Its fossils show V-shaped muscle blocks called myomeres [“MY-oh-meerz”].",
+            "r": "Members of this phylum have a notochord at some point in their lives. For 10 points, name this phylum that includes all vertebrates."
+        },
+        {
+            "p": "In 1928, Walter Garstang suggested that vertebrates evolved from tadpole-like sea squirt larvae that never changed into the adult form. Tunicates, the group that includes sea squirts, are thought to be the closest invertebrate relatives of vertebrates.",
+            "r": "Members of this phylum have pharyngeal slits and a post-anal tail at some stage. For 10 points, name this phylum that includes fish, birds, and humans."
+        },
+        {
+            "p": "Tunicates in this phylum are among the only animals that make cellulose, which stiffens their tough outer covering, or tunic. Some tunicates, called salps, are barrel-shaped and swim by jet propulsion, pumping water through their bodies.",
+            "r": "This phylum also includes lancelets and all vertebrates. For 10 points, name this phylum defined by a notochord and a dorsal hollow nerve cord."
+        },
+        {
+            "p": "A groove called the endostyle [“EN-doh-style”], which helps tunicates and lancelets trap food, is thought to match the thyroid gland of other members of this phylum. Larval lampreys, called ammocoetes [“AM-oh-seets”], also have an endostyle.",
+            "r": "For 10 points, name this phylum whose members have a notochord at some stage, including all vertebrates."
+        },
+        {
+            "p": "V-shaped muscle blocks called myomeres flex the bodies of lancelets, small fishlike filter feeders in this phylum that burrow in sand. Lancelets, also called amphioxus [“am-fee-OK-sus”], keep all of this phylum’s hallmark traits as adults.",
+            "r": "Those traits include a notochord and pharyngeal slits. For 10 points, name this animal phylum that includes all vertebrates."
+        },
+        {
+            "p": "Larvaceans [“lar-VAY-shunz”] are tiny tunicates in this phylum that keep their tadpole shape for life and build see-through mucus “houses” to filter food from seawater. Other tunicates, such as sea squirts, lose most of this phylum’s hallmark traits as adults.",
+            "r": "For 10 points, name this phylum defined by a notochord, a dorsal hollow nerve cord, pharyngeal slits, and a post-anal tail."
+        },
+        {
+            "p": "Acorn worms have pharyngeal slits but are placed in a separate phylum, next to the echinoderms. Like echinoderms, members of this phylum are deuterostomes [“DOO-tuh-roh-stohmz”], meaning an embryo’s first opening becomes the anus.",
+            "r": "This phylum also includes lancelets and tunicates. For 10 points, name this phylum of animals with a notochord, which includes fish, frogs, and humans."
+        },
+        {
+            "p": "Haikouichthys [“hy-koo-IK-theez”], found among China’s Chengjiang fossils, is one of the earliest known fishlike members of this phylum, from more than 500 million years ago. Hagfish and lampreys are living jawless members of this phylum.",
+            "r": "For 10 points, name this phylum of animals that have a notochord at some stage of life, including all vertebrates."
+        },
+        {
+            "p": "In humans, the jelly-like nucleus pulposus [“pul-POH-sus”] inside each spinal disc is a leftover of the flexible rod that defines this phylum. Lancelets keep that rod for their whole lives.",
+            "r": "That rod, the notochord, is replaced by a backbone in most vertebrates. For 10 points, name this phylum that includes all vertebrates."
+        },
+        {
+            "p": "In human embryos, structures called pharyngeal pouches help form parts of the ear and throat, while a short tail shrinks away to leave the tailbone, or coccyx [“KOK-siks”]. Those features show that humans belong to this phylum.",
+            "r": "In fish, the matching slits become gills. For 10 points, name this phylum defined by a notochord and a dorsal hollow nerve cord."
+        },
+        {
+            "p": "Sea squirts, also called ascidians [“uh-SID-ee-unz”], start life as swimming, tadpole-like larvae in this phylum before gluing themselves to rocks. Members of this phylum and echinoderms are deuterostomes, whose embryos form the anus before the mouth.",
+            "r": "This phylum’s name comes from a Latin word meaning “cord.” For 10 points, name this phylum of animals with a notochord."
+        },
+        {
+            "p": "A 2006 DNA study concluded that tunicates, not lancelets, are the closest living relatives of vertebrates. Hagfish and lampreys are jawless members of this phylum, and lamprey larvae filter-feed in riverbed mud much like lancelets do.",
+            "r": "For 10 points, name this phylum whose members, including sharks and humans, have a notochord at some stage."
+        },
+        {
+            "p": "Barrel-shaped salps in this phylum can link up into long chains and swim by squirting water out of their bodies. Like other tunicates, salps build their tough outer covering with cellulose.",
+            "r": "This phylum also includes lancelets and vertebrates. For 10 points, name this phylum defined by a notochord, a dorsal hollow nerve cord, and pharyngeal slits."
+        },
+        {
+            "p": "The tube-shaped heart of a tunicate in this phylum regularly reverses the direction in which it pumps blood. Many tunicates also pack their blood cells with unusually large amounts of the metal vanadium.",
+            "r": "In vertebrates, this phylum’s dorsal hollow nerve cord becomes the spinal cord. For 10 points, name this phylum that includes all vertebrates."
+        },
+        {
+            "p": "When the tadpole-like larva of a sea squirt settles on a rock, it absorbs its own tail and loses most of the hallmark traits of this phylum. Lancelets, by contrast, keep all of those traits for life.",
+            "r": "Those traits include a notochord and pharyngeal slits. For 10 points, name this animal phylum that includes fish, birds, and humans."
+        }
+    ],
+    "clues": [
+        {
+            "id": "includes-vertebrates",
+            "tier": "giveaway",
+            "t": "The phylum that includes all vertebrates: fish, amphibians, reptiles, birds, and mammals, including humans",
+            "k": ["vertebrates", "phylum", "humans"],
+            "n": 0
+        },
+        {
+            "id": "notochord",
+            "tier": "giveaway",
+            "t": "Every member has a notochord, a flexible rod along the back, at some stage of life",
+            "k": ["notochord", "flexible rod"],
+            "n": 0
+        },
+        {
+            "id": "four-traits",
+            "tier": "giveaway",
+            "t": "Hallmark traits: notochord, dorsal hollow nerve cord, pharyngeal slits, and a post-anal tail",
+            "k": ["dorsal hollow nerve cord", "pharyngeal slits", "post-anal tail"],
+            "n": 0
+        },
+        {
+            "id": "backbone",
+            "tier": "giveaway",
+            "t": "In most vertebrates, a backbone replaces the notochord",
+            "k": ["backbone", "replaces"],
+            "n": 0
+        },
+        {
+            "id": "subphyla",
+            "tier": "middle",
+            "t": "Three subphyla: vertebrates, tunicates (sea squirts), and lancelets",
+            "k": ["subphyla", "tunicates", "lancelets", "sea squirts"],
+            "n": 0
+        },
+        {
+            "id": "sea-squirt-larva",
+            "tier": "middle",
+            "t": "Sea squirt larvae look like tadpoles and show all four traits, but the adults lose most of them",
+            "k": ["tadpoles", "larvae", "sea squirt"],
+            "n": 0
+        },
+        {
+            "id": "lancelets",
+            "tier": "middle",
+            "t": "Lancelets (amphioxus) are small fishlike filter feeders that burrow in sand and keep all four traits as adults",
+            "k": ["amphioxus", "filter feeders", "lancelets"],
+            "n": 0
+        },
+        {
+            "id": "nerve-cord",
+            "tier": "middle",
+            "t": "The dorsal hollow nerve cord becomes the brain and spinal cord in vertebrates",
+            "k": ["spinal cord", "brain", "dorsal"],
+            "n": 0
+        },
+        {
+            "id": "slits-gills",
+            "tier": "middle",
+            "t": "Pharyngeal slits become gills in fish; in human embryos, the matching pouches help form parts of the ear and throat",
+            "k": ["gills", "pouches", "ear"],
+            "n": 0
+        },
+        {
+            "id": "deuterostomes",
+            "tier": "middle",
+            "t": "Deuterostomes, like echinoderms: the embryo’s first opening becomes the anus, not the mouth",
+            "k": ["deuterostomes", "echinoderms", "anus"],
+            "n": 0,
+            "rabbit": "Echinoderms"
+        },
+        {
+            "id": "human-tail",
+            "tier": "middle",
+            "t": "Human embryos have a tail that shrinks away, leaving the tailbone, or coccyx",
+            "k": ["coccyx", "tailbone", "embryos"],
+            "n": 0
+        },
+        {
+            "id": "latin-name",
+            "tier": "middle",
+            "t": "The name comes from a Latin word meaning “cord” or “string”",
+            "k": ["latin", "cord", "string"],
+            "n": 0
+        },
+        {
+            "id": "jawless",
+            "tier": "middle",
+            "t": "Hagfish and lampreys are its living jawless members",
+            "k": ["hagfish", "lampreys", "jawless"],
+            "n": 0
+        },
+        {
+            "id": "pikaia",
+            "tier": "power",
+            "t": "Pikaia, from the Burgess Shale, described by Charles Walcott in 1911, was long considered one of its earliest members",
+            "k": ["pikaia", "burgess shale", "walcott"],
+            "n": 0
+        },
+        {
+            "id": "haikouichthys",
+            "tier": "power",
+            "t": "Haikouichthys, from China’s Chengjiang fossils, is one of its earliest known fishlike members, over 500 million years old",
+            "k": ["haikouichthys", "chengjiang"],
+            "n": 0
+        },
+        {
+            "id": "garstang",
+            "tier": "power",
+            "t": "Walter Garstang (1928) proposed that vertebrates evolved from tadpole-like sea squirt larvae that never took the adult form",
+            "k": ["garstang", "1928"],
+            "n": 0
+        },
+        {
+            "id": "closest-relatives",
+            "tier": "power",
+            "t": "A 2006 DNA study found tunicates, not lancelets, to be the closest living relatives of vertebrates",
+            "k": ["closest", "relatives", "2006"],
+            "n": 0
+        },
+        {
+            "id": "cellulose-tunic",
+            "tier": "power",
+            "t": "Tunicates stiffen their tough outer tunic with cellulose, which almost no other animals make",
+            "k": ["tunic", "cellulose"],
+            "n": 0
+        },
+        {
+            "id": "endostyle",
+            "tier": "power",
+            "t": "The endostyle, a food-trapping groove in tunicates, lancelets, and larval lampreys (ammocoetes), matches the vertebrate thyroid gland",
+            "k": ["endostyle", "thyroid", "ammocoetes"],
+            "n": 0,
+            "rabbit": "Thyroid gland"
+        },
+        {
+            "id": "larvaceans",
+            "tier": "power",
+            "t": "Larvaceans are tunicates that keep their tadpole shape for life and build mucus “houses” to filter food",
+            "k": ["larvaceans", "mucus", "houses"],
+            "n": 0
+        },
+        {
+            "id": "salps",
+            "tier": "power",
+            "t": "Salps are barrel-shaped tunicates that link into chains and swim by jet propulsion",
+            "k": ["salps", "jet propulsion", "barrel-shaped"],
+            "n": 0
+        },
+        {
+            "id": "myomeres",
+            "tier": "power",
+            "t": "Segmented, V-shaped muscle blocks called myomeres flex the bodies of lancelets and fish",
+            "k": ["myomeres", "muscle blocks"],
+            "n": 0
+        },
+        {
+            "id": "nucleus-pulposus",
+            "tier": "power",
+            "t": "In humans, the notochord’s leftover is the jelly-like nucleus pulposus inside each spinal disc",
+            "k": ["nucleus pulposus", "spinal disc", "jelly-like"],
+            "n": 0
+        },
+        {
+            "id": "acorn-worms",
+            "tier": "power",
+            "t": "Acorn worms have pharyngeal slits but belong to a separate phylum, related to the echinoderms",
+            "k": ["acorn worms", "separate phylum"],
+            "n": 0
+        },
+        {
+            "id": "tunicate-oddities",
+            "tier": "power",
+            "t": "Tunicate hearts regularly reverse the direction they pump; many tunicates store the metal vanadium in their blood cells",
+            "k": ["vanadium", "reverse", "heart"],
+            "n": 0
+        },
+        {
+            "id": "settling-larva",
+            "tier": "power",
+            "t": "When a sea squirt larva settles on a rock, it absorbs its own tail and loses most hallmark traits",
+            "k": ["settles", "absorbs"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Phylum or subphylum?",
+        "body": "Vertebrates are only one subphylum of this phylum, alongside tunicates and lancelets, so answering “vertebrates” for a question about the whole phylum is wrong. Acorn worms (hemichordates) and echinoderms are close relatives in other phyla, and “deuterostomes” is a bigger group that only earns a prompt.",
+        "fix": "If the clues mention tunicates, sea squirts, lancelets, or traits found “at some stage of life,” answer chordates. If the clues are all about a backbone and the question says “this subphylum,” answer vertebrates. Acorn worms on their own mean hemichordates.",
+        "line": "Real answer line: <b><u>Chordates</u></b> (accept <u>Chordata</u>; do not accept “vertebrates”)"
+    },
+    "tests": {
+        "right": [
+            "Chordates",
+            "Chordata",
+            "chordate",
+            "phylum Chordata",
+            "Cordates"
+        ],
+        "prompt": [
+            "deuterostomes"
+        ],
+        "wrong": [
+            "Vertebrates",
+            "Hemichordates",
+            "Echinoderms",
+            "Tunicates",
+            "Urochordata",
+            "Notochord"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

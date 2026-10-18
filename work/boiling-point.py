@@ -1,0 +1,378 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "boiling-point",
+    "name": "Boiling point",
+    "mono": "BP",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "The temperature where a liquid turns to gas · For water at sea level, 100 °C",
+    "dates": "Fixed point of Celsius’s 1742 scale",
+    "briefing": "A liquid’s boiling point is the temperature where it turns into gas all the way through, sending bubbles of vapor rolling up from inside. For water at sea level that’s 100 °C (212 °F), but on top of Mount Everest the thin air lets water boil at only about 70 °C. Every pure substance has its own boiling point, which is how oil refineries separate crude oil into gasoline, kerosene, and other fuels.",
+    "answerHtml": "<b><u>Boiling point</u></b> (accept <u>boiling temperature</u> or <u>normal boiling point</u>; prompt on <u>boiling</u>; do not accept “vapor pressure”)",
+    "accept": [
+        "boiling point",
+        "boiling points",
+        "boiling temperature",
+        "normal boiling point",
+        "standard boiling point"
+    ],
+    "prompt": [
+        "boiling",
+        "boil",
+        "boils"
+    ],
+    "reject": [
+        "vapor pressure",
+        "vapour pressure",
+        "melting point",
+        "freezing point",
+        "dew point",
+        "critical point",
+        "triple point",
+        "flash point",
+        "smoke point",
+        "boiling point elevation",
+        "freezing point depression",
+        "evaporation",
+        "vaporization",
+        "condensation",
+        "sublimation",
+        "melting",
+        "steam",
+        "heat of vaporization",
+        "enthalpy of vaporization",
+        "distillation"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Boiling_point",
+    "qb": {
+        "q": "boiling point",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Trouton’s rule says that for many liquids, the enthalpy of vaporization divided by this temperature in kelvins is roughly the same number. Liquids with stronger intermolecular forces, like the hydrogen bonds in water, have higher values of this temperature.",
+            "r": "For 10 points, name this temperature at which a liquid turns into a gas throughout, which is 100 degrees Celsius for water at sea level."
+        },
+        {
+            "p": "Ebullioscopy [“ih-bull-ee-OSS-kuh-pee”] measures how much this temperature rises when a solute dissolves, in order to find the solute’s molar mass. Distillation separates the liquids in a mixture, such as the parts of crude oil, by differences in this temperature.",
+            "r": "For 10 points, name this temperature at which a liquid’s vapor pressure equals the pressure around it."
+        },
+        {
+            "p": "The rise in this temperature equals a constant called K-sub-b times the molality of the dissolved particles, and water’s value of that constant is about 0.512 degrees Celsius per molal. Dissolving salt or sugar raises this temperature, a colligative property.",
+            "r": "For 10 points, name this temperature, 100 degrees Celsius for pure water at sea level."
+        },
+        {
+            "p": "IUPAC [“EYE-yoo-pak”] defines a “standard” version of this temperature at a pressure of 1 bar, which puts water’s at about 99.6 degrees Celsius. On the Kelvin scale, water’s ordinary value of this temperature is 373.15.",
+            "r": "For 10 points, name this temperature, 212 degrees Fahrenheit for water at sea level, at which a liquid turns into a gas."
+        },
+        {
+            "p": "When Anders Celsius created his temperature scale in 1742, he put 0 degrees at this temperature for water and 100 degrees at water’s freezing point. On the summit of Mount Everest, water reaches this temperature at only about 70 degrees Celsius.",
+            "r": "For 10 points, name this temperature, which is lower on mountaintops because the air pressure is lower."
+        },
+        {
+            "p": "The old Réaumur [“RAY-oh-myoor”] temperature scale put water’s value of this temperature at 80 degrees. On a heating curve, this temperature shows up as a flat stretch, because the added heat turns liquid into gas instead of making it hotter.",
+            "r": "For 10 points, name this temperature at which a liquid’s vapor pressure equals the surrounding pressure."
+        },
+        {
+            "p": "In the Leidenfrost [“LYE-den-frost”] effect, drops of water skitter across a pan far hotter than this temperature, riding on a cushion of gas. Chemists add porous chips to flasks so that liquids heated past this temperature form bubbles smoothly instead of suddenly erupting, a problem called bumping.",
+            "r": "For 10 points, name this temperature, which is 100 degrees Celsius for water at sea level."
+        },
+        {
+            "p": "A hypsometer [“hip-SOM-uh-ter”] estimates how high up a mountain you are by measuring water’s value of this temperature, which drops as you climb. Evaporation happens at a liquid’s surface at any temperature, but at this temperature bubbles of gas form all through the liquid.",
+            "r": "For water at sea level, it is 212 degrees Fahrenheit. For 10 points, name this temperature, which is raised inside a pressure cooker."
+        },
+        {
+            "p": "Deep inside a geyser, the pressure of the water above raises this temperature, so the water there gets far hotter than it could at the surface before it suddenly flashes into steam. Liquid nitrogen’s value of this temperature is about minus 196 degrees Celsius.",
+            "r": "For 10 points, name this temperature at which a liquid turns into a gas throughout."
+        },
+        {
+            "p": "Branched molecules have lower values of this temperature than their straight-chain isomers, so neopentane’s is far below pentane’s. In the alkanes, this temperature climbs as the carbon chains get longer, so methane through butane are gases at room temperature but pentane is a liquid.",
+            "r": "Distillation separates liquids by differences in this temperature. For 10 points, name this temperature, 100 degrees Celsius for water at sea level."
+        },
+        {
+            "p": "The Clausius–Clapeyron [“klah-pay-RAWN”] equation can predict how this temperature changes when the outside pressure changes. Helium has the lowest value of this temperature of any element, about 4 kelvins, and liquid nitrogen’s is about minus 196 degrees Celsius.",
+            "r": "For 10 points, name this temperature at which a liquid’s vapor pressure equals the pressure of the surrounding air."
+        },
+        {
+            "p": "Carbon dioxide has no value of this temperature at ordinary air pressure, because dry ice turns straight into gas without melting. On a heating curve, this temperature appears as a flat stretch while liquid turns into gas.",
+            "r": "For 10 points, name this temperature, which water reaches at 212 degrees Fahrenheit at sea level."
+        },
+        {
+            "p": "An azeotrope [“ay-ZEE-uh-trohp”] is a mixture whose gas has the same makeup as its liquid at this temperature, so ordinary distillation cannot separate it. Oil refineries split crude oil into gasoline, kerosene, and other fuels using differences in this temperature.",
+            "r": "For 10 points, name this temperature, which is 100 degrees Celsius for pure water at sea level."
+        },
+        {
+            "p": "A spoonful of salt in a pot of pasta water raises this temperature by only a tiny fraction of a degree. Adding a nonvolatile solute always raises this temperature, an effect called a colligative property because it depends only on the number of dissolved particles.",
+            "r": "For 10 points, name this temperature, which is lower on mountaintops and higher inside a pressure cooker."
+        },
+        {
+            "p": "Hydrogen sulfide molecules are heavier than water molecules, yet hydrogen sulfide is a gas at room temperature, because water’s hydrogen bonds give it a much higher value of this temperature. Among similar compounds, bigger molecules usually have higher values of this temperature.",
+            "r": "For 10 points, name this temperature at which a liquid turns into a gas throughout, 100 degrees Celsius for water."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "The temperature at which a liquid turns into a gas throughout, forming bubbles of gas inside it",
+            "k": ["temperature", "bubbles", "throughout"],
+            "n": 0
+        },
+        {
+            "id": "water-100",
+            "tier": "giveaway",
+            "t": "For water at sea level it is 100 °C, or 212 °F",
+            "k": ["100 °c", "212", "sea level"],
+            "n": 0,
+            "rabbit": "Water"
+        },
+        {
+            "id": "vapor-pressure",
+            "tier": "giveaway",
+            "t": "Reached when a liquid’s vapor pressure equals the pressure of the air around it",
+            "k": ["vapor pressure", "equals"],
+            "n": 0,
+            "rabbit": "Vapor pressure"
+        },
+        {
+            "id": "altitude",
+            "tier": "giveaway",
+            "t": "Lower on mountaintops, where the air pressure is lower, and higher inside a pressure cooker",
+            "k": ["mountaintops", "pressure cooker", "air pressure"],
+            "n": 0
+        },
+        {
+            "id": "intermolecular",
+            "tier": "middle",
+            "t": "Stronger intermolecular forces, like water’s hydrogen bonds, mean a higher value",
+            "k": ["intermolecular forces", "hydrogen bonds", "higher"],
+            "n": 0,
+            "rabbit": "Hydrogen bonds"
+        },
+        {
+            "id": "elevation",
+            "tier": "middle",
+            "t": "Dissolving a solute like salt or sugar raises it, a colligative property that depends only on the number of dissolved particles",
+            "k": ["colligative", "solute", "dissolved particles"],
+            "n": 0
+        },
+        {
+            "id": "distillation",
+            "tier": "middle",
+            "t": "Distillation separates liquids, like the parts of crude oil, by differences in it",
+            "k": ["distillation", "crude oil"],
+            "n": 0,
+            "rabbit": "Distillation"
+        },
+        {
+            "id": "evaporation",
+            "tier": "middle",
+            "t": "Evaporation happens at a liquid’s surface at any temperature; at this temperature, bubbles form all through the liquid",
+            "k": ["evaporation", "surface", "all through"],
+            "n": 0
+        },
+        {
+            "id": "heating-curve",
+            "tier": "middle",
+            "t": "On a heating curve it is a flat stretch: added heat turns liquid into gas instead of raising the temperature",
+            "k": ["heating curve", "flat stretch"],
+            "n": 0
+        },
+        {
+            "id": "everest",
+            "tier": "middle",
+            "t": "On the summit of Mount Everest, water reaches it at only about 70 °C",
+            "k": ["everest", "70"],
+            "n": 0
+        },
+        {
+            "id": "scales",
+            "tier": "middle",
+            "t": "Water’s value is 212 °F on the Fahrenheit scale and 373.15 on the Kelvin scale",
+            "k": ["fahrenheit", "373.15", "kelvin"],
+            "n": 0,
+            "rabbit": "Temperature"
+        },
+        {
+            "id": "helium",
+            "tier": "middle",
+            "t": "Helium has the lowest value of any element, about 4 kelvins",
+            "k": ["helium", "lowest", "4 kelvins"],
+            "n": 0,
+            "rabbit": "Helium"
+        },
+        {
+            "id": "liquid-nitrogen",
+            "tier": "middle",
+            "t": "Liquid nitrogen’s value is about −196 °C (77 kelvins)",
+            "k": ["liquid nitrogen", "77 kelvins"],
+            "n": 0,
+            "rabbit": "Nitrogen"
+        },
+        {
+            "id": "alkanes",
+            "tier": "middle",
+            "t": "In the alkanes it climbs as carbon chains get longer: methane through butane are gases at room temperature, pentane is a liquid",
+            "k": ["alkanes", "carbon chains", "pentane"],
+            "n": 0
+        },
+        {
+            "id": "bumping",
+            "tier": "middle",
+            "t": "Porous chips added to a flask help liquids heated past it form bubbles smoothly instead of erupting (“bumping”)",
+            "k": ["porous chips", "bumping", "erupting"],
+            "n": 0
+        },
+        {
+            "id": "trouton",
+            "tier": "power",
+            "t": "Trouton’s rule: for many liquids, the enthalpy of vaporization divided by this temperature in kelvins is roughly the same",
+            "k": ["trouton", "enthalpy of vaporization"],
+            "n": 0,
+            "rabbit": "Enthalpy"
+        },
+        {
+            "id": "ebullioscopy",
+            "tier": "power",
+            "t": "Ebullioscopy measures how much it rises when a solute dissolves, to find the solute’s molar mass",
+            "k": ["ebullioscopy", "molar mass"],
+            "n": 0
+        },
+        {
+            "id": "kb",
+            "tier": "power",
+            "t": "Its rise equals the constant K-sub-b times the molality of dissolved particles; water’s constant is about 0.512 °C per molal",
+            "k": ["molality", "0.512", "k-sub-b"],
+            "n": 0
+        },
+        {
+            "id": "standard-bar",
+            "tier": "power",
+            "t": "IUPAC’s “standard” version uses 1 bar instead of 1 atmosphere, which puts water’s at about 99.6 °C",
+            "k": ["iupac", "1 bar", "99.6"],
+            "n": 0
+        },
+        {
+            "id": "celsius",
+            "tier": "power",
+            "t": "Anders Celsius’s 1742 scale put 0 at water’s value and 100 at its freezing point, the reverse of the modern scale",
+            "k": ["anders celsius", "1742", "reverse"],
+            "n": 0
+        },
+        {
+            "id": "reaumur",
+            "tier": "power",
+            "t": "The old Réaumur scale put water’s value at 80 degrees",
+            "k": ["réaumur", "80 degrees"],
+            "n": 0
+        },
+        {
+            "id": "leidenfrost",
+            "tier": "power",
+            "t": "Leidenfrost effect: water drops skitter across a pan far hotter than water’s value, riding on a cushion of gas",
+            "k": ["leidenfrost", "skitter", "cushion"],
+            "n": 0
+        },
+        {
+            "id": "hypsometer",
+            "tier": "power",
+            "t": "A hypsometer estimates altitude by measuring water’s value, which drops as you climb",
+            "k": ["hypsometer", "altitude"],
+            "n": 0
+        },
+        {
+            "id": "geysers",
+            "tier": "power",
+            "t": "Deep in a geyser, pressure raises it, so water gets far hotter than at the surface before it flashes into steam",
+            "k": ["geyser", "flashes into steam"],
+            "n": 0
+        },
+        {
+            "id": "branching",
+            "tier": "power",
+            "t": "Branched molecules have lower values than straight-chain isomers: neopentane’s is far below pentane’s",
+            "k": ["branched", "neopentane", "isomers"],
+            "n": 0
+        },
+        {
+            "id": "clausius-clapeyron",
+            "tier": "power",
+            "t": "The Clausius–Clapeyron equation predicts how it changes when the outside pressure changes",
+            "k": ["clausius", "clapeyron", "outside pressure"],
+            "n": 0
+        },
+        {
+            "id": "dry-ice",
+            "tier": "power",
+            "t": "Carbon dioxide has no value at ordinary air pressure, because dry ice turns straight into gas without melting",
+            "k": ["dry ice", "carbon dioxide", "without melting"],
+            "n": 0,
+            "rabbit": "Carbon dioxide"
+        },
+        {
+            "id": "azeotropes",
+            "tier": "power",
+            "t": "An azeotrope’s gas has the same makeup as its liquid at this temperature, so ordinary distillation cannot separate it",
+            "k": ["azeotrope", "same makeup"],
+            "n": 0
+        },
+        {
+            "id": "pasta",
+            "tier": "power",
+            "t": "A spoonful of salt in pasta water raises it by only a tiny fraction of a degree",
+            "k": ["pasta", "fraction of a degree"],
+            "n": 0
+        },
+        {
+            "id": "hydrogen-sulfide",
+            "tier": "power",
+            "t": "Hydrogen sulfide molecules are heavier than water’s, yet it is a gas at room temperature, because water has hydrogen bonds",
+            "k": ["hydrogen sulfide", "heavier"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Temperature, not pressure",
+        "body": "This temperature and vapor pressure are two halves of one idea: a liquid reaches this temperature when its vapor pressure climbs to match the outside pressure. So clues about Raoult’s law or pressure cookers tempt players to say “vapor pressure,” and others mix this temperature up with the melting point or freezing point. Saying just “boiling” only earns a prompt.",
+        "fix": "Listen for “this temperature”: 100 °C for water, lower on mountains, raised by dissolved salt, and used to separate liquids by distillation. “This quantity” or “this pressure” that rises as a liquid warms means vapor pressure; solid turning to liquid means the melting point.",
+        "line": "Real answer line: <b><u>Boiling point</u></b> (accept <u>boiling temperature</u>; prompt on <u>boiling</u>; do not accept “vapor pressure”)"
+    },
+    "tests": {
+        "right": [
+            "Boiling point",
+            "boiling temperature",
+            "normal boiling point",
+            "boiling piont",
+            "Boiling points"
+        ],
+        "prompt": [
+            "Boiling",
+            "boil"
+        ],
+        "wrong": [
+            "Vapor pressure",
+            "Melting point",
+            "Freezing point",
+            "Boiling point elevation",
+            "Dew point",
+            "Evaporation",
+            "Critical point"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

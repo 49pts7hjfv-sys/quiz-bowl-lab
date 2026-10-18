@@ -1,0 +1,370 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "flowers",
+    "name": "Flowers",
+    "mono": "FLW",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Reproductive structures of angiosperms · Ripen into fruits and seeds",
+    "dates": "Appear in fossils from the Cretaceous Period",
+    "briefing": "A flower is the part of a flowering plant that makes seeds. Bright petals, sweet scents, and sugary nectar lure bees, butterflies, hummingbirds, and bats, which carry pollen from one flower to the next. Once pollen reaches the sticky tip of the pistil, the flower’s ovary can swell into a fruit with seeds inside, which is why apples, cherries, and pea pods all start out as flowers.",
+    "answerHtml": "<b><u>Flowers</u></b> (accept <u>flower</u> or <u>blossoms</u>; prompt on <u>angiosperms</u> or <u>flowering plants</u>; do not accept “stamens” or “pistils”)",
+    "accept": [
+        "flowers",
+        "flower",
+        "blossoms",
+        "blossom",
+        "blooms",
+        "bloom"
+    ],
+    "prompt": [
+        "angiosperms",
+        "angiosperm",
+        "flowering plants",
+        "flowering plant"
+    ],
+    "reject": [
+        "stamen",
+        "stamens",
+        "pistil",
+        "pistils",
+        "carpel",
+        "carpels",
+        "petal",
+        "petals",
+        "sepal",
+        "sepals",
+        "anther",
+        "anthers",
+        "stigma",
+        "ovary",
+        "ovaries",
+        "pollen",
+        "pollination",
+        "nectar",
+        "fruit",
+        "fruits",
+        "seed",
+        "seeds",
+        "leaf",
+        "leaves",
+        "bud",
+        "buds",
+        "cones",
+        "gymnosperms",
+        "blood"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Flower",
+    "qb": {
+        "q": "flower",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Charles Darwin called the sudden appearance of plants with these structures in the fossil record an “abominable mystery.” Amborella [“am-buh-REL-uh”], a shrub that grows only on the Pacific island of New Caledonia, belongs to the oldest surviving branch of the plants that make them.",
+            "r": "For 10 points, name these reproductive structures of angiosperms, which are made of sepals, petals, stamens, and pistils."
+        },
+        {
+            "p": "In the ABC model, worked out by studying Arabidopsis [“uh-RAB-ih-DOP-sis”] and snapdragons, three classes of genes decide which part grows in each of the four rings, or whorls, of these structures. Mutant plants missing the C-class genes grow extra petals where their stamens should be.",
+            "r": "Bees visit them to drink sweet nectar. For 10 points, name these plant structures whose ovaries ripen into fruits."
+        },
+        {
+            "p": "Carl Linnaeus sorted plants into classes and orders by counting the male and female parts inside these structures. He also proposed planting a garden “clock” of different species whose versions of these structures open and close at different hours of the day.",
+            "r": "Green sepals protect these structures while they are still buds. For 10 points, name these colorful plant parts that attract bees."
+        },
+        {
+            "p": "A Madagascar orchid’s version of these structures has a nectar spur nearly a foot long, so Charles Darwin predicted that a moth with an equally long tongue must feed there. That hawk moth was finally described in 1903, after Darwin’s death.",
+            "r": "For 10 points, name these plant structures that attract pollinators with sweet nectar and colorful petals."
+        },
+        {
+            "p": "Bees, which cannot see red, follow ultraviolet patterns called nectar guides on these structures, which are invisible to human eyes. Hummingbirds usually visit red, tube-shaped kinds of these structures, while bats and moths visit white, strongly scented kinds that open at night.",
+            "r": "Their ovaries later become fruits. For 10 points, name these plant structures that use color and scent to attract pollinators."
+        },
+        {
+            "p": "When the outer and inner rings of these structures look alike, as in tulips and lilies, their parts are called tepals. In monocots such as lilies, the parts of these structures usually come in threes or multiples of three, while in eudicots they come in fours or fives.",
+            "r": "Their stamens hold up pollen-making anthers on thin filaments. For 10 points, name these reproductive structures of angiosperms."
+        },
+        {
+            "p": "The parasitic plant Rafflesia arnoldii [“ruh-FLEE-zee-uh ar-NOL-dee-eye”] makes the largest single one of these structures, which can be about a meter across and smells like rotting meat to attract flies. The titan arum makes the world’s largest unbranched cluster of tiny ones, which can grow taller than a person.",
+            "r": "For 10 points, name these plant structures, which usually attract pollinators with petals and sweet nectar."
+        },
+        {
+            "p": "Saffron, the world’s most expensive spice by weight, is made of dried stigmas picked by hand from the crocus’s version of these structures. Broccoli heads, artichokes, and the spice called cloves are all unopened buds of these structures.",
+            "r": "Many have bright petals that attract bees. For 10 points, name these plant structures whose ovaries ripen into fruits."
+        },
+        {
+            "p": "Inside these structures, one sperm cell joins an egg while a second sperm cell joins two polar nuclei, a process called double fertilization. The second fusion makes the endosperm, the food supply that feeds a young plant inside its seed.",
+            "r": "Afterward, the ovary of one of these structures ripens into a fruit. For 10 points, name these reproductive parts of angiosperms."
+        },
+        {
+            "p": "Botanists call these structures “imperfect” when each one is only male or only female, as in corn, which carries its male ones in the tassel at the top of the stalk. Holly trees have male and female ones on separate plants, so only the female trees grow berries.",
+            "r": "Ones that have both stamens and pistils are called “perfect.” For 10 points, name these reproductive structures of angiosperms."
+        },
+        {
+            "p": "In the 1630s, prices for tulip bulbs whose versions of these structures had rare, flame-like stripes soared and then crashed in the Dutch Republic, an episode called tulip mania. Those stripes were later traced to a virus spread by tiny insects called aphids.",
+            "r": "Florists sell these colorful plant parts in bouquets. For 10 points, name these structures made of sepals, petals, stamens, and pistils."
+        },
+        {
+            "p": "The calyx and corolla of one of these structures together make up its perianth [“PAIR-ee-anth”], which sits on a swollen stem tip called the receptacle. In a cluster of these structures, each one is held up by its own small stalk called a pedicel.",
+            "r": "The calyx is made of sepals, and the corolla is made of petals. For 10 points, name these plant structures."
+        },
+        {
+            "p": "Orchids and snapdragons have zygomorphic [“zy-goh-MOR-fik”] versions of these structures, which can be split into mirror-image halves in only one way, while roses and buttercups have radially symmetric, or actinomorphic, versions. Pea plants also have zygomorphic ones, with one large “banner” petal on top.",
+            "r": "Sweet nectar inside these structures attracts bees and butterflies. For 10 points, name these reproductive structures of angiosperms."
+        },
+        {
+            "p": "In the aster family, which includes daisies and dandelions, what looks like one of these structures is really a head of many tiny ones called florets. A daisy’s white “petals” are actually ray florets, while its yellow center is packed with disk florets.",
+            "r": "For 10 points, name these plant structures that make seeds and often attract bees with nectar."
+        },
+        {
+            "p": "Short-day plants such as poinsettias and chrysanthemums only start making these structures when nights grow long enough. Plants that rely on the wind, such as grasses and oaks, make small, plain versions of these structures with no bright colors or scent.",
+            "r": "Wind carries their pollen instead of bees. For 10 points, name these reproductive structures of angiosperms, whose petals often attract pollinators."
+        }
+    ],
+    "clues": [
+        {
+            "id": "angiosperm-reproduction",
+            "tier": "giveaway",
+            "t": "The reproductive structures of angiosperms, where seeds are made",
+            "k": ["reproductive", "angiosperms", "seeds"],
+            "n": 0
+        },
+        {
+            "id": "four-parts",
+            "tier": "giveaway",
+            "t": "Four main parts: sepals, petals, stamens (male), and pistils or carpels (female)",
+            "k": ["sepals", "petals", "stamens", "pistils"],
+            "n": 0
+        },
+        {
+            "id": "attract-pollinators",
+            "tier": "giveaway",
+            "t": "Bright petals, sweet scents, and sugary nectar attract pollinators such as bees, butterflies, and hummingbirds",
+            "k": ["nectar", "pollinators", "bees"],
+            "n": 0,
+            "rabbit": "Honey bees"
+        },
+        {
+            "id": "fruits-seeds",
+            "tier": "giveaway",
+            "t": "After fertilization, the ovary ripens into a fruit and the ovules inside become seeds",
+            "k": ["ovary", "fruit", "ovules"],
+            "n": 0
+        },
+        {
+            "id": "pollen-stigma",
+            "tier": "giveaway",
+            "t": "Pollen made by the stamens must reach the sticky stigma of a pistil",
+            "k": ["pollen", "stigma", "sticky"],
+            "n": 0,
+            "rabbit": "Pollen"
+        },
+        {
+            "id": "calyx",
+            "tier": "middle",
+            "t": "Green, leaf-like sepals protect the bud; all the sepals together form the calyx",
+            "k": ["calyx", "sepals", "bud"],
+            "n": 0
+        },
+        {
+            "id": "corolla-perianth",
+            "tier": "middle",
+            "t": "All the petals together form the corolla; calyx plus corolla is the perianth, which sits on a swollen stem tip called the receptacle",
+            "k": ["corolla", "perianth", "receptacle"],
+            "n": 0
+        },
+        {
+            "id": "parts-of-parts",
+            "tier": "middle",
+            "t": "A stamen is a pollen-making anther on a stalk called a filament; a pistil is a stigma, a style, and an ovary",
+            "k": ["anther", "filament", "style"],
+            "n": 0,
+            "rabbit": "Stamen"
+        },
+        {
+            "id": "monocots-eudicots",
+            "tier": "middle",
+            "t": "Monocots have parts in threes or multiples of three; eudicots usually have parts in fours or fives",
+            "k": ["monocots", "threes", "eudicots"],
+            "n": 0
+        },
+        {
+            "id": "perfect-imperfect",
+            "tier": "middle",
+            "t": "“Perfect” ones have both stamens and pistils; “imperfect” ones are only male or only female, like corn’s male ones in the tassel",
+            "k": ["perfect", "imperfect", "tassel"],
+            "n": 0,
+            "rabbit": "Corn (maize)"
+        },
+        {
+            "id": "pollinator-colors",
+            "tier": "middle",
+            "t": "Hummingbirds visit red, tube-shaped ones; bats and moths visit white, strongly scented ones that open at night",
+            "k": ["hummingbirds", "tube-shaped", "moths"],
+            "n": 0
+        },
+        {
+            "id": "nectar-guides",
+            "tier": "middle",
+            "t": "Bees cannot see red, but they follow ultraviolet patterns called nectar guides",
+            "k": ["ultraviolet", "nectar guides"],
+            "n": 0
+        },
+        {
+            "id": "double-fertilization",
+            "tier": "middle",
+            "t": "Double fertilization: one sperm joins the egg, and the other joins two polar nuclei to form the endosperm",
+            "k": ["double fertilization", "endosperm", "polar nuclei"],
+            "n": 0
+        },
+        {
+            "id": "inflorescence",
+            "tier": "middle",
+            "t": "A cluster of them on one stem is an inflorescence; each one in a cluster sits on a small stalk called a pedicel",
+            "k": ["inflorescence", "cluster", "pedicel"],
+            "n": 0
+        },
+        {
+            "id": "wind",
+            "tier": "middle",
+            "t": "Ones pollinated by the wind, as on grasses and oaks, are small and plain, with no bright colors or scent",
+            "k": ["wind", "grasses", "oaks"],
+            "n": 0
+        },
+        {
+            "id": "abominable-mystery",
+            "tier": "power",
+            "t": "Charles Darwin called the sudden appearance in the fossil record of plants that make them an “abominable mystery”",
+            "k": ["abominable mystery", "darwin"],
+            "n": 0,
+            "rabbit": "Charles Darwin"
+        },
+        {
+            "id": "amborella",
+            "tier": "power",
+            "t": "Amborella, a shrub found only on New Caledonia, is the oldest surviving branch of angiosperms",
+            "k": ["amborella", "new caledonia"],
+            "n": 0
+        },
+        {
+            "id": "abc-model",
+            "tier": "power",
+            "t": "ABC model: three classes of genes set which part grows in each of four whorls; plants missing C-class genes grow petals instead of stamens",
+            "k": ["abc model", "whorls", "c-class"],
+            "n": 0
+        },
+        {
+            "id": "linnaeus",
+            "tier": "power",
+            "t": "Carl Linnaeus sorted plants into classes and orders by counting their male and female parts; he proposed a garden “clock” of species opening at set hours",
+            "k": ["linnaeus", "clock", "counting"],
+            "n": 0
+        },
+        {
+            "id": "darwins-orchid",
+            "tier": "power",
+            "t": "A Madagascar orchid with a nectar spur nearly a foot long led Darwin to predict a long-tongued hawk moth, described in 1903",
+            "k": ["madagascar", "orchid", "hawk moth", "1903"],
+            "n": 0
+        },
+        {
+            "id": "tepals",
+            "tier": "power",
+            "t": "When sepals and petals look alike, as in tulips and lilies, they are called tepals",
+            "k": ["tepals", "tulips", "lilies"],
+            "n": 0
+        },
+        {
+            "id": "rafflesia",
+            "tier": "power",
+            "t": "Rafflesia arnoldii makes the largest single one (about a meter across, smelling of rotting meat); the titan arum makes the largest unbranched cluster",
+            "k": ["rafflesia", "rotting meat", "titan arum"],
+            "n": 0
+        },
+        {
+            "id": "edible-buds",
+            "tier": "power",
+            "t": "Broccoli heads, artichokes, and cloves are unopened buds; saffron is dried stigmas picked from crocuses",
+            "k": ["broccoli", "saffron", "cloves", "artichokes"],
+            "n": 0
+        },
+        {
+            "id": "zygomorphic",
+            "tier": "power",
+            "t": "Zygomorphic ones (orchids, snapdragons, peas) split into mirror halves only one way; actinomorphic ones (roses, buttercups) are radially symmetric",
+            "k": ["zygomorphic", "actinomorphic", "snapdragons"],
+            "n": 0
+        },
+        {
+            "id": "florets",
+            "tier": "power",
+            "t": "In the aster family, one head is really many tiny florets: a daisy’s white “petals” are ray florets, and its center holds disk florets",
+            "k": ["florets", "aster", "daisy"],
+            "n": 0
+        },
+        {
+            "id": "tulip-mania",
+            "tier": "power",
+            "t": "Tulip mania (1630s, Dutch Republic): bulbs of striped ones soared in price, then crashed; the stripes came from an aphid-spread virus",
+            "k": ["tulip mania", "dutch republic", "aphid"],
+            "n": 0
+        },
+        {
+            "id": "holly",
+            "tier": "power",
+            "t": "Holly has male and female ones on separate plants, so only female trees grow berries",
+            "k": ["holly", "berries", "separate plants"],
+            "n": 0
+        },
+        {
+            "id": "short-day",
+            "tier": "power",
+            "t": "Short-day plants such as poinsettias and chrysanthemums make them only when nights grow long enough",
+            "k": ["short-day", "poinsettias", "chrysanthemums"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The whole, not a part",
+        "body": "Many clues for this answer describe one of its parts, like the stamens, the pistil, the petals, or the ovary, so a quick buzz can come out as the part instead of the whole structure. Stamen and Pollen are separate answer lines, and “angiosperms” names the group of plants that makes flowers, not the structures themselves, so it only earns a prompt.",
+        "fix": "Listen for the noun. “These structures” with sepals, petals, stamens, and pistils means flowers. “This male part” with an anther and a filament means stamen, “this powder” means pollen, and “this group of plants” means angiosperms.",
+        "line": "Real answer line: <b><u>Flowers</u></b> (accept <u>flower</u> or <u>blossoms</u>; prompt on <u>angiosperms</u>; do not accept “stamens” or “pistils”)"
+    },
+    "tests": {
+        "right": [
+            "Flowers",
+            "flower",
+            "Blossoms",
+            "Flwers",
+            "the flowers"
+        ],
+        "prompt": [
+            "Angiosperms",
+            "flowering plants"
+        ],
+        "wrong": [
+            "Stamens",
+            "Pistil",
+            "Petals",
+            "Pollen",
+            "Fruit",
+            "Seeds"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,447 @@
+{
+  "id": "michael-faraday",
+  "name": "Michael Faraday",
+  "mono": "FAR",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Self-taught English experimenter · Discovered electromagnetic induction",
+  "dates": "1791–1867",
+  "briefing": "Michael Faraday was a blacksmith’s son with little schooling who taught himself science as a bookbinder’s apprentice, reading the books he bound. After Humphry Davy hired him at London’s Royal Institution, Faraday discovered electromagnetic induction in 1831, the idea behind electric generators. He also built an early electric motor, discovered benzene, and started the Royal Institution’s Christmas Lectures for young people.",
+  "answerHtml": "<b><u>Michael Faraday</u></b> (accept <u>Faraday</u>)",
+  "accept": [
+    "michael faraday",
+    "faraday"
+  ],
+  "prompt": [],
+  "reject": [
+    "humphry davy",
+    "humphrey davy",
+    "davy",
+    "james clerk maxwell",
+    "maxwell",
+    "joseph henry",
+    "hans christian orsted",
+    "orsted",
+    "oersted",
+    "andre marie ampere",
+    "ampere",
+    "faraday cage",
+    "faradays law",
+    "faradays law of induction",
+    "faraday law",
+    "faraday constant",
+    "faradays constant",
+    "faraday effect",
+    "faraday disk",
+    "faraday disc",
+    "farad"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Michael_Faraday",
+  "qb": {
+    "q": "Faraday",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1845, this scientist found that a magnet can rotate the direction in which light vibrates inside heavy glass, the first evidence that light and magnetism are linked. That year, he also showed that materials like bismuth are weakly pushed away by magnets, an effect he called diamagnetism.",
+      "r": "He is best known for discovering electromagnetic induction in 1831. For 10 points, name this English scientist."
+    },
+    {
+      "p": "In 1825, this scientist isolated a new compound from the oily leftovers of the gas used for lighting, calling it “bicarburet of hydrogen.” That compound was later named benzene. Two years earlier, he had squeezed chlorine gas into a liquid.",
+      "r": "His 1831 experiments showed that a moving magnet can create an electric current in a coil of wire. For 10 points, name this English scientist."
+    },
+    {
+      "p": "In 1821, soon after Hans Christian Ørsted found that electric currents make compass needles turn, this scientist made a hanging wire carrying a current spin around a magnet standing in a bowl of mercury. That device was an early electric motor.",
+      "r": "For 10 points, name this English scientist who later discovered electromagnetic induction and built an early generator."
+    },
+    {
+      "p": "In August 1831, this scientist wrapped two coils of wire around opposite sides of an iron ring and saw a galvanometer’s needle jump only when the current in one coil was switched on or off. Joseph Henry found the same effect on his own in the United States.",
+      "r": "That effect is called electromagnetic induction. For 10 points, name this English scientist who also built an early electric motor."
+    },
+    {
+      "p": "This scientist made an early generator out of a copper disk that spun between the poles of a horseshoe magnet, producing a steady current. His law of induction says a changing magnetic field through a loop of wire creates a voltage in the loop.",
+      "r": "Transformers and the generators in power plants rely on that law. For 10 points, name this English scientist."
+    },
+    {
+      "p": "With help from the scholar William Whewell [“HYOO-el”], this scientist introduced the words anode, cathode, and ion. His two laws of electrolysis say that the amount of a substance made at an electrode is proportional to the electric charge that flows.",
+      "r": "A constant of about 96,485 coulombs per mole is named for him. For 10 points, name this English scientist."
+    },
+    {
+      "p": "This scientist’s holiday talks about candles were published as _The Chemical History of a Candle_, which explains that a burning candle makes water and carbon dioxide. In 1825, he started the Royal Institution’s yearly Christmas Lectures for young people.",
+      "r": "He also built an early electric motor. For 10 points, name this English scientist who discovered electromagnetic induction."
+    },
+    {
+      "p": "As a teenage apprentice to a London bookbinder, this future scientist taught himself by reading the books he bound, including Jane Marcet’s _Conversations on Chemistry_. He later bound his own notes from Humphry Davy’s lectures into a book and sent it to Davy, hoping for a job.",
+      "r": "Davy hired him as an assistant in 1813. For 10 points, name this English scientist who discovered electromagnetic induction."
+    },
+    {
+      "p": "James Clerk Maxwell built on this scientist’s idea of invisible “lines of force” stretching around magnets and electric charges, writing an 1855 paper named for those lines. This scientist sprinkled iron filings around magnets to make the lines visible.",
+      "r": "The SI unit of capacitance is named for him. For 10 points, name this English discoverer of electromagnetic induction."
+    },
+    {
+      "p": "In 1857, this scientist made a ruby-red liquid that held specks of gold far too small to see, and he concluded that its color came from gold broken into extremely tiny particles. Earlier, he had discovered benzene and turned chlorine gas into a liquid.",
+      "r": "He spent his career at London’s Royal Institution. For 10 points, name this English scientist who discovered electromagnetic induction."
+    },
+    {
+      "p": "To show that electric charge stays on the outside of a conductor, this scientist built a room covered in metal foil and showed that sparks striking the outside left the inside uncharged. The metal mesh in a microwave oven’s door works the same way.",
+      "r": "For 10 points, name this English scientist, whose name is on cages that block outside electric fields."
+    },
+    {
+      "p": "This scientist, a member of a small Christian group called the Sandemanians, turned down a knighthood. Queen Victoria gave him a house at Hampton Court, where he died in 1867. He was the son of a blacksmith and had little formal schooling.",
+      "r": "He built an early electric motor in 1821. For 10 points, name this English scientist who discovered electromagnetic induction."
+    },
+    {
+      "p": "From 1813 to 1815, this young man traveled across Europe as the assistant of the chemist who first isolated sodium and potassium. It is often said that this man was the greatest discovery of that chemist, Humphry Davy.",
+      "r": "He also discovered benzene. For 10 points, name this English scientist who discovered electromagnetic induction."
+    },
+    {
+      "p": "Albert Einstein kept pictures of Isaac Newton, James Clerk Maxwell, and this scientist on the wall of his study. This scientist’s law of induction explains how transformers raise or lower the voltage of electric power.",
+      "r": "A constant equal to the charge on one mole of electrons is named for him. For 10 points, name this English scientist, the discoverer of electromagnetic induction."
+    },
+    {
+      "p": "In an 1855 letter to _The Times_, this scientist described dropping white cards into the River Thames from a boat to show how murky the water had become. This scientist also made an early generator from a copper disk spinning near a magnet.",
+      "r": "His law of induction explains how generators work. For 10 points, name this English scientist."
+    }
+  ],
+  "clues": [
+    {
+      "id": "induction",
+      "tier": "giveaway",
+      "t": "Discovered electromagnetic induction in 1831: a changing magnetic field can create an electric current",
+      "k": [
+        "electromagnetic induction",
+        "1831",
+        "changing magnetic field"
+      ],
+      "n": 0
+    },
+    {
+      "id": "english-scientist",
+      "tier": "giveaway",
+      "t": "English scientist (1791–1867) who worked at London’s Royal Institution",
+      "k": [
+        "royal institution",
+        "english",
+        "1791"
+      ],
+      "n": 0
+    },
+    {
+      "id": "motor-generator",
+      "tier": "giveaway",
+      "t": "Built an early electric motor (1821) and an early electric generator",
+      "k": [
+        "electric motor",
+        "generator",
+        "1821"
+      ],
+      "n": 0
+    },
+    {
+      "id": "capacitance-unit",
+      "tier": "giveaway",
+      "t": "The SI unit of capacitance is named for him",
+      "k": [
+        "capacitance",
+        "si unit"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cage",
+      "tier": "giveaway",
+      "t": "Metal cages named for him block outside electric fields; the mesh in a microwave oven’s door works the same way",
+      "k": [
+        "cages",
+        "electric fields",
+        "microwave"
+      ],
+      "n": 0,
+      "rabbit": "Electric field"
+    },
+    {
+      "id": "law-of-induction",
+      "tier": "middle",
+      "t": "His law of induction: a changing magnetic field through a loop of wire creates a voltage; transformers and generators rely on it",
+      "k": [
+        "law of induction",
+        "transformers",
+        "voltage"
+      ],
+      "n": 0,
+      "rabbit": "Magnetic fields"
+    },
+    {
+      "id": "davy",
+      "tier": "middle",
+      "t": "Sent Humphry Davy a book of notes from Davy’s lectures; Davy hired him as an assistant in 1813",
+      "k": [
+        "humphry davy",
+        "1813",
+        "assistant",
+        "notes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bookbinder",
+      "tier": "middle",
+      "t": "A blacksmith’s son with little schooling, he taught himself science as a bookbinder’s apprentice",
+      "k": [
+        "bookbinder",
+        "blacksmith",
+        "apprentice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "benzene",
+      "tier": "middle",
+      "t": "Discovered benzene in 1825, calling it “bicarburet of hydrogen”",
+      "k": [
+        "benzene",
+        "1825",
+        "bicarburet"
+      ],
+      "n": 0,
+      "rabbit": "Benzene"
+    },
+    {
+      "id": "iron-ring",
+      "tier": "middle",
+      "t": "In his iron ring experiment (1831), switching the current in one coil on or off briefly made a current in a second coil",
+      "k": [
+        "iron ring",
+        "second coil",
+        "switching"
+      ],
+      "n": 0
+    },
+    {
+      "id": "copper-disk",
+      "tier": "middle",
+      "t": "Made an early generator from a copper disk spinning between the poles of a horseshoe magnet",
+      "k": [
+        "copper disk",
+        "horseshoe magnet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "constant",
+      "tier": "middle",
+      "t": "A constant of about 96,485 coulombs per mole, the charge on one mole of electrons, is named for him",
+      "k": [
+        "96,485",
+        "coulombs per mole",
+        "mole of electrons"
+      ],
+      "n": 0,
+      "rabbit": "Avogadro’s number"
+    },
+    {
+      "id": "electrolysis",
+      "tier": "middle",
+      "t": "Stated two laws of electrolysis; with William Whewell’s help, introduced the words anode, cathode, and ion",
+      "k": [
+        "electrolysis",
+        "anode",
+        "cathode",
+        "whewell"
+      ],
+      "n": 0,
+      "rabbit": "Electrolysis"
+    },
+    {
+      "id": "lines-of-force",
+      "tier": "middle",
+      "t": "Pictured invisible “lines of force” around magnets, shown with iron filings; James Clerk Maxwell later turned his ideas into equations",
+      "k": [
+        "lines of force",
+        "iron filings",
+        "maxwell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "candle",
+      "tier": "middle",
+      "t": "Started the Royal Institution’s Christmas Lectures (1825); his talks became _The Chemical History of a Candle_",
+      "k": [
+        "christmas lectures",
+        "chemical history of a candle",
+        "candle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rotation-1845",
+      "tier": "power",
+      "t": "In 1845, showed that a magnet can rotate the direction light vibrates in heavy glass, the first evidence linking light and magnetism",
+      "k": [
+        "1845",
+        "heavy glass",
+        "light and magnetism"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diamagnetism",
+      "tier": "power",
+      "t": "Showed that materials like bismuth are weakly pushed away by magnets, an effect he called diamagnetism",
+      "k": [
+        "diamagnetism",
+        "bismuth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chlorine",
+      "tier": "power",
+      "t": "In 1823, squeezed chlorine gas into a liquid",
+      "k": [
+        "chlorine",
+        "1823",
+        "liquid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mercury-motor",
+      "tier": "power",
+      "t": "His 1821 motor, built soon after Ørsted’s discovery, made a current-carrying wire spin around a magnet in a bowl of mercury",
+      "k": [
+        "mercury",
+        "1821",
+        "spin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "joseph-henry",
+      "tier": "power",
+      "t": "The American Joseph Henry discovered induction independently at about the same time",
+      "k": [
+        "joseph henry",
+        "independently"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marcet",
+      "tier": "power",
+      "t": "Read Jane Marcet’s _Conversations on Chemistry_ while binding books",
+      "k": [
+        "marcet",
+        "conversations on chemistry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "europe-tour",
+      "tier": "power",
+      "t": "Traveled across Europe as Davy’s assistant from 1813 to 1815; often called Davy’s greatest discovery",
+      "k": [
+        "europe",
+        "greatest discovery",
+        "1815"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gold",
+      "tier": "power",
+      "t": "In 1857, made a ruby-red liquid holding specks of gold far too small to see",
+      "k": [
+        "ruby-red",
+        "gold",
+        "1857"
+      ],
+      "n": 0,
+      "rabbit": "Colloids"
+    },
+    {
+      "id": "foil-room",
+      "tier": "power",
+      "t": "Built a room covered in metal foil to show that sparks striking the outside left the inside uncharged",
+      "k": [
+        "metal foil",
+        "uncharged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sandemanian",
+      "tier": "power",
+      "t": "A member of a small Christian group called the Sandemanians; turned down a knighthood",
+      "k": [
+        "sandemanians",
+        "knighthood"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hampton-court",
+      "tier": "power",
+      "t": "Queen Victoria gave him a house at Hampton Court, where he died in 1867",
+      "k": [
+        "hampton court",
+        "queen victoria",
+        "1867"
+      ],
+      "n": 0
+    },
+    {
+      "id": "einstein-wall",
+      "tier": "power",
+      "t": "Albert Einstein kept his picture on his study wall, along with pictures of Isaac Newton and James Clerk Maxwell",
+      "k": [
+        "einstein",
+        "study wall"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    },
+    {
+      "id": "thames",
+      "tier": "power",
+      "t": "In an 1855 letter to _The Times_, described dropping white cards into the murky River Thames",
+      "k": [
+        "thames",
+        "white cards",
+        "1855"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not Davy or Maxwell",
+    "body": "Several scientists tangle together in tossups about electricity and magnetism. Humphry Davy was this man’s boss and mentor, famous for isolating sodium and potassium with electricity. James Clerk Maxwell later turned this man’s “lines of force” into equations, and the American Joseph Henry discovered induction on his own at about the same time. Separate tossups also ask for the law, the cage, or the constant named for this man.",
+    "fix": "Bookbinding, benzene, the iron ring, the copper disk, the candle lectures, or the Royal Institution mean this man. Sodium, potassium, and the miner’s safety lamp mean Davy; a set of four famous equations means Maxwell; and if a question asks for “this law” or “this effect,” name the law or effect instead of the man.",
+    "line": "Real answer line: <b><u>Michael Faraday</u></b> (accept <u>Faraday</u>)"
+  },
+  "tests": {
+    "right": [
+      "Michael Faraday",
+      "Faraday",
+      "Micheal Faraday",
+      "Michael Farraday",
+      "faraday"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Humphry Davy",
+      "James Clerk Maxwell",
+      "Joseph Henry",
+      "Faraday's law",
+      "Faraday cage"
+    ]
+  }
+}

@@ -1,0 +1,378 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "oxygen",
+    "name": "Oxygen",
+    "mono": "O",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Element 8 · The gas animals breathe and fires need to burn",
+    "dates": "Made by Scheele (c. 1772) and Priestley (1774)",
+    "briefing": "Oxygen makes up about a fifth of the air, and your body uses it to release energy from food. It is also the most common element in Earth’s crust, locked into rocks like quartz. Carl Wilhelm Scheele made it first, but Joseph Priestley, who made it in 1774, published first, and Antoine Lavoisier gave it a name meaning “acid-former.”",
+    "answerHtml": "<b><u>Oxygen</u></b> (accept <u>O</u> or <u>O<sub>2</sub></u>; do not accept “ozone”)",
+    "accept": [
+        "oxygen",
+        "o",
+        "o2",
+        "o 2",
+        "oxygen gas",
+        "dioxygen",
+        "molecular oxygen",
+        "liquid oxygen"
+    ],
+    "prompt": [],
+    "reject": [
+        "ozone",
+        "o3",
+        "o 3",
+        "trioxygen",
+        "ozone layer",
+        "oxide",
+        "oxides",
+        "oxidation",
+        "oxidizer",
+        "oxidizing agent",
+        "oxygen difluoride",
+        "hydrogen peroxide",
+        "peroxide",
+        "peroxides",
+        "superoxide",
+        "hydroxide",
+        "hydroxyl",
+        "water",
+        "carbon dioxide",
+        "carbon monoxide",
+        "nitrogen",
+        "hydrogen",
+        "carbon",
+        "helium",
+        "argon",
+        "neon",
+        "fluorine",
+        "chlorine",
+        "sulfur",
+        "selenium",
+        "chalcogen",
+        "chalcogens",
+        "air",
+        "hemoglobin"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Oxygen",
+    "qb": {
+        "q": "oxygen",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "When the pale blue liquid form of this element is poured between the poles of a strong magnet, it clings there, because each of its two-atom molecules has two unpaired electrons. Lewis structures fail to predict that magnetism, but molecular orbital theory explains it.",
+            "r": "For 10 points, name this element with atomic number 8, which makes up about 21 percent of Earth’s air."
+        },
+        {
+            "p": "On August 1, 1774, Joseph Priestley used a large lens to focus sunlight on a red compound of mercury and collected the gas it gave off. Priestley, a believer in the phlogiston theory, called that gas “dephlogisticated air.”",
+            "r": "A candle burned unusually brightly in it, and Antoine Lavoisier [“lah-vwah-zee-AY”] later gave it its modern name. For 10 points, name this gas that animals need to breathe."
+        },
+        {
+            "p": "Carl Wilhelm Scheele [“SHAY-luh”] produced this element by heating several different compounds before Joseph Priestley did, and he called it “fire air.” Scheele’s book describing the gas did not appear until 1777, so Priestley usually gets credit for announcing it first.",
+            "r": "Scheele chose that name because things burned so brightly in it. For 10 points, name this element, which makes up about one-fifth of Earth’s atmosphere."
+        },
+        {
+            "p": "Careful weighing by Antoine Lavoisier [“lah-vwah-zee-AY”] showed that phosphorus and sulfur gain mass when they burn because they combine with this part of the air, helping to overthrow the phlogiston theory. Lavoisier named this element from Greek words meaning “acid-former,” because he wrongly believed that every acid contained it.",
+            "r": "For 10 points, name this element that fires need, which makes up about 21 percent of the air."
+        },
+        {
+            "p": "Striped rocks called banded iron formations built up on the seafloor as this gas reacted with iron dissolved in ancient oceans. Cyanobacteria began filling Earth’s atmosphere with this gas about 2.4 billion years ago, in a change called the Great Oxidation Event.",
+            "r": "Plants also release this gas during photosynthesis. For 10 points, name this gas that animals breathe in."
+        },
+        {
+            "p": "Scientists estimate Earth’s past temperatures from the ratio of two of this element’s isotopes, with mass numbers 18 and 16, in ice cores and in the shells of tiny sea creatures called foraminifera [“fuh-ram-uh-NIF-er-uh”]. Its heavier isotope was also used as a tracer to show that photosynthesis splits water molecules apart.",
+            "r": "Its most common isotope has 8 protons and 8 neutrons. For 10 points, name this element, which makes up about 21 percent of the air."
+        },
+        {
+            "p": "This element has a positive oxidation number only in a few compounds with fluorine, such as its difluoride, because it is the second-most electronegative element. In peroxides, its oxidation number is −1, but in most other compounds it is −2.",
+            "r": "For 10 points, name this element with atomic number 8, which combines with metals to form oxides."
+        },
+        {
+            "p": "Myoglobin [“MY-uh-gloh-bin”] stores this substance inside muscle cells, and whales and seals have huge amounts of myoglobin, which helps them stay underwater for a long time. In cellular respiration, this substance is the final electron acceptor of the electron transport chain, where it becomes water.",
+            "r": "Hemoglobin in red blood cells carries it from the lungs to the rest of the body. For 10 points, name this gas that we breathe in."
+        },
+        {
+            "p": "In 1930, Sydney Chapman explained how ultraviolet light high in the stratosphere splits two-atom molecules of this element into single atoms, which then join other such molecules to make ozone. That three-atom form of this element absorbs most of the Sun’s harmful ultraviolet rays.",
+            "r": "For 10 points, name this element, whose ordinary two-atom form makes up about 21 percent of the air."
+        },
+        {
+            "p": "By mass, this element makes up nearly half of Earth’s crust, where it is bonded to silicon in minerals such as quartz and feldspar. It is also the most abundant element in the human body by mass, mostly because the body is so full of water.",
+            "r": "For 10 points, name this element, the gas that animals breathe in and fires need to burn."
+        },
+        {
+            "p": "In 1970, one of this element’s storage tanks exploded on the way to the Moon, forcing the Apollo 13 astronauts to use their lunar module as a lifeboat. Liquid forms of this element and hydrogen powered the main engines of NASA’s Space Shuttle.",
+            "r": "For 10 points, name this element, the gas that astronauts and everyone else need to breathe."
+        },
+        {
+            "p": "Adding a pinch of manganese dioxide to hydrogen peroxide makes this gas bubble out quickly, because the black powder acts as a catalyst. Heating potassium chlorate with that same catalyst is another classic way to make this gas in the lab.",
+            "r": "A glowing wooden splint bursts back into flame in a test tube of this gas. For 10 points, name this gas, which makes up about 21 percent of the air."
+        },
+        {
+            "p": "This element’s liquid form is pale blue and boils at about −183 °C, a little warmer than the boiling point of nitrogen. Factories separate the two by cooling air until it liquefies, then letting the nitrogen boil off first.",
+            "r": "Hospitals and welders buy this gas in pressurized tanks. For 10 points, name this element, the second most common gas in Earth’s air."
+        },
+        {
+            "p": "Most modern steel is made by blowing a jet of this pure gas into molten iron to burn away extra carbon. Welders burn acetylene in a stream of this gas to make a flame hot enough to cut through steel.",
+            "r": "Fire extinguishers that spray carbon dioxide work by pushing this gas away from flames. For 10 points, name this element with atomic number 8."
+        },
+        {
+            "p": "This element is the lightest member of the chalcogens [“KAL-kuh-junz”], the group that also includes sulfur, selenium, and polonium. Its atoms have six valence electrons, so they usually gain two more to form ions with a −2 charge.",
+            "r": "For 10 points, name this element with atomic number 8, which makes up about 21 percent of the air."
+        }
+    ],
+    "clues": [
+        {
+            "id": "element-8",
+            "tier": "giveaway",
+            "t": "Element number 8, in group 16 of the periodic table",
+            "k": ["element number 8", "group 16"],
+            "n": 0
+        },
+        {
+            "id": "air-21",
+            "tier": "giveaway",
+            "t": "Makes up about 21 percent of Earth’s air, second only to nitrogen",
+            "k": ["21 percent", "nitrogen", "air"],
+            "n": 0,
+            "rabbit": "Nitrogen"
+        },
+        {
+            "id": "breathing",
+            "tier": "giveaway",
+            "t": "Animals breathe it in, and plants release it during photosynthesis",
+            "k": ["breathe", "photosynthesis"],
+            "n": 0,
+            "rabbit": "Photosynthesis"
+        },
+        {
+            "id": "fire",
+            "tier": "giveaway",
+            "t": "Fire needs it: the “fire triangle” is heat, fuel, and this gas",
+            "k": ["fire triangle", "heat", "fuel"],
+            "n": 0
+        },
+        {
+            "id": "water",
+            "tier": "giveaway",
+            "t": "One of its atoms joins two hydrogen atoms in every water molecule",
+            "k": ["water", "hydrogen atoms"],
+            "n": 0,
+            "rabbit": "Water"
+        },
+        {
+            "id": "splint",
+            "tier": "middle",
+            "t": "A glowing wooden splint bursts back into flame in a test tube of it",
+            "k": ["glowing", "splint", "bursts back"],
+            "n": 0
+        },
+        {
+            "id": "priestley",
+            "tier": "middle",
+            "t": "Joseph Priestley made it on August 1, 1774, by focusing sunlight on a red mercury compound",
+            "k": ["priestley", "1774", "mercury"],
+            "n": 0
+        },
+        {
+            "id": "acid-former",
+            "tier": "middle",
+            "t": "Antoine Lavoisier named it from Greek words meaning “acid-former,” wrongly thinking all acids contain it",
+            "k": ["lavoisier", "acid-former"],
+            "n": 0,
+            "rabbit": "Acids"
+        },
+        {
+            "id": "hemoglobin",
+            "tier": "middle",
+            "t": "Hemoglobin in red blood cells carries it, four molecules at a time, bound to iron atoms",
+            "k": ["hemoglobin", "red blood cells", "iron"],
+            "n": 0,
+            "rabbit": "Hemoglobin"
+        },
+        {
+            "id": "respiration",
+            "tier": "middle",
+            "t": "The final electron acceptor of the electron transport chain in cellular respiration, where it becomes water",
+            "k": ["electron acceptor", "cellular respiration", "electron transport chain"],
+            "n": 0
+        },
+        {
+            "id": "abundance",
+            "tier": "middle",
+            "t": "The most abundant element in Earth’s crust and in the human body, by mass",
+            "k": ["most abundant", "crust", "human body"],
+            "n": 0
+        },
+        {
+            "id": "ozone",
+            "tier": "middle",
+            "t": "Its three-atom form, ozone, absorbs ultraviolet light in the stratosphere (explained by Sydney Chapman in 1930)",
+            "k": ["ozone", "ultraviolet", "stratosphere", "chapman"],
+            "n": 0,
+            "rabbit": "Ozone layer"
+        },
+        {
+            "id": "oxides",
+            "tier": "middle",
+            "t": "Its compounds with other elements are oxides; iron rusts when it reacts with this gas and water",
+            "k": ["oxides", "rusts"],
+            "n": 0,
+            "rabbit": "Iron"
+        },
+        {
+            "id": "valence",
+            "tier": "middle",
+            "t": "The lightest chalcogen: six valence electrons, so it usually forms ions with a −2 charge",
+            "k": ["chalcogen", "six valence", "valence electrons"],
+            "n": 0
+        },
+        {
+            "id": "scheele",
+            "tier": "power",
+            "t": "Carl Wilhelm Scheele made it before Priestley and called it “fire air,” but his book did not appear until 1777",
+            "k": ["scheele", "fire air", "1777"],
+            "n": 0
+        },
+        {
+            "id": "dephlogisticated",
+            "tier": "power",
+            "t": "Priestley, a believer in phlogiston, called it “dephlogisticated air”",
+            "k": ["dephlogisticated", "phlogiston"],
+            "n": 0
+        },
+        {
+            "id": "weighing",
+            "tier": "power",
+            "t": "Lavoisier showed that phosphorus and sulfur gain mass when they burn because they combine with it, helping overthrow phlogiston theory",
+            "k": ["gain mass", "phosphorus", "sulfur"],
+            "n": 0
+        },
+        {
+            "id": "paramagnetic",
+            "tier": "power",
+            "t": "Its pale blue liquid is paramagnetic: poured between a strong magnet’s poles, it clings there",
+            "k": ["paramagnetic", "pale blue", "magnet"],
+            "n": 0
+        },
+        {
+            "id": "mo-theory",
+            "tier": "power",
+            "t": "Molecular orbital theory explains that magnetism with two unpaired electrons in its two-atom molecule; Lewis structures miss them",
+            "k": ["molecular orbital", "unpaired electrons", "lewis structures"],
+            "n": 0
+        },
+        {
+            "id": "liquid-air",
+            "tier": "power",
+            "t": "Its liquid boils at about −183 °C; factories collect it by liquefying air and letting the nitrogen boil off first",
+            "k": ["liquefying air", "boil off", "−183"],
+            "n": 0
+        },
+        {
+            "id": "great-oxidation",
+            "tier": "power",
+            "t": "Cyanobacteria filled the air with it about 2.4 billion years ago (the Great Oxidation Event), leaving banded iron formations",
+            "k": ["cyanobacteria", "great oxidation event", "banded iron"],
+            "n": 0,
+            "rabbit": "Bacteria"
+        },
+        {
+            "id": "ice-cores",
+            "tier": "power",
+            "t": "The ratio of its isotopes with mass numbers 18 and 16 in ice cores and foraminifera shells reveals past temperatures",
+            "k": ["ice cores", "foraminifera", "isotopes"],
+            "n": 0
+        },
+        {
+            "id": "tracer",
+            "tier": "power",
+            "t": "Its heavy isotope, used as a tracer, showed that the gas photosynthesis releases comes from water, not carbon dioxide",
+            "k": ["tracer", "heavy isotope", "carbon dioxide"],
+            "n": 0
+        },
+        {
+            "id": "oxidation-numbers",
+            "tier": "power",
+            "t": "Second-most electronegative element: usually −2 in compounds, −1 in peroxides, and positive only with fluorine, as in its difluoride",
+            "k": ["electronegative", "peroxides", "difluoride"],
+            "n": 0,
+            "rabbit": "Electronegativity"
+        },
+        {
+            "id": "myoglobin",
+            "tier": "power",
+            "t": "Myoglobin stores it in muscle cells; whales and seals have huge amounts of myoglobin for long dives",
+            "k": ["myoglobin", "whales", "seals"],
+            "n": 0
+        },
+        {
+            "id": "apollo-13",
+            "tier": "power",
+            "t": "One of its tanks exploded on Apollo 13 in 1970; its liquid and liquid hydrogen powered the Space Shuttle’s main engines",
+            "k": ["apollo 13", "1970", "space shuttle"],
+            "n": 0
+        },
+        {
+            "id": "steelmaking",
+            "tier": "power",
+            "t": "Jets of the pure gas burn extra carbon out of molten iron in steelmaking; welders burn acetylene in it",
+            "k": ["steelmaking", "acetylene", "molten iron"],
+            "n": 0
+        },
+        {
+            "id": "lab-prep",
+            "tier": "power",
+            "t": "Manganese dioxide catalyzes its release from hydrogen peroxide or from heated potassium chlorate",
+            "k": ["manganese dioxide", "hydrogen peroxide", "potassium chlorate"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Element, not ozone",
+        "body": "Clues about the ozone layer, ultraviolet light, and three-atom molecules tempt players to say “ozone,” but ozone is just one form of this element, and a question asking for “this element” will not accept it. Nitrogen is the other trap: it is the most common gas in air, about 78 percent, while this element makes up about 21 percent.",
+        "fix": "If the question says “this element,” give the element, even when the clue is about ozone or one of its isotopes. Atomic number 8, about 21 percent of air, the glowing splint, hemoglobin, Priestley, and Lavoisier’s “acid-former” point here; atomic number 7, 78 percent of air, and a triple bond mean nitrogen.",
+        "line": "Real answer line: <b><u>Oxygen</u></b> (accept <u>O</u> or <u>O<sub>2</sub></u>; do not accept “ozone”)"
+    },
+    "tests": {
+        "right": [
+            "Oxygen",
+            "O",
+            "O2",
+            "Oxigen",
+            "oxygen gas",
+            "liquid oxygen"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Ozone",
+            "O3",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen peroxide",
+            "Water",
+            "Oxide",
+            "Air"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,459 @@
+{
+  "id": "recursion",
+  "name": "Recursion",
+  "mono": "REC",
+  "category": "Computer Science",
+  "qbCategory": "Science · Other Science (Computer Science)",
+  "kicker": "A function that calls itself · Breaks big problems into smaller copies",
+  "dates": "Built into Lisp (1958) and ALGOL 60 (1960)",
+  "briefing": "Recursion is a programming trick in which a function solves a big problem by calling itself on a smaller piece of the same problem, like a set of Russian nesting dolls. Every recursive function needs a base case, a simple answer that stops the chain; forget it, and the calls can pile up until the program crashes with a “stack overflow.” Programmers use recursion to compute factorials, sort lists, and solve the Tower of Hanoi puzzle.",
+  "answerHtml": "<b><u>recursion</u></b> (accept word forms like <u>recursive</u> functions; prompt on <u>self-reference</u>; do not accept “iteration” or “loops”)",
+  "accept": [
+    "recursion",
+    "recursions",
+    "recursive",
+    "recursive function",
+    "recursive functions",
+    "recursive call",
+    "recursive calls",
+    "recursive algorithm",
+    "recursive algorithms",
+    "recursive definition",
+    "recursive procedure",
+    "recursive programming",
+    "recursively",
+    "recurse",
+    "recursing"
+  ],
+  "prompt": [
+    "self reference",
+    "self referential",
+    "self referencing"
+  ],
+  "reject": [
+    "iteration",
+    "iterations",
+    "iterative",
+    "iterating",
+    "loop",
+    "loops",
+    "for loop",
+    "for loops",
+    "while loop",
+    "while loops",
+    "infinite loop",
+    "stack overflow",
+    "call stack",
+    "stack",
+    "base case",
+    "recurrence",
+    "recurrence relation",
+    "recurrence relations",
+    "mathematical induction",
+    "induction",
+    "factorial",
+    "factorials",
+    "fibonacci",
+    "fibonacci sequence",
+    "fibonacci numbers",
+    "fractal",
+    "fractals",
+    "tower of hanoi",
+    "towers of hanoi",
+    "divide and conquer",
+    "dynamic programming",
+    "memoization",
+    "droste effect"
+  ],
+  "tests": {
+    "right": [
+      "Recursion",
+      "recursive functions",
+      "Recursive",
+      "Recurssion",
+      "recursive algorithm"
+    ],
+    "prompt": [
+      "self-reference"
+    ],
+    "wrong": [
+      "Iteration",
+      "Loops",
+      "Stack overflow",
+      "Fractals",
+      "Recurrence relation",
+      "Factorial",
+      "Base case"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Recursion_(computer_science)",
+  "qb": {
+    "q": "recursion",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Douglas Hofstadter’s book _Gödel, Escher, Bach_ explores this idea through art, music, and math. His joking “law” uses it by saying that a task always takes longer than you expect, “even when you take into account Hofstadter’s Law.”",
+      "r": "In programming, this idea needs a base case to stop. For 10 points, name this technique in which a function calls itself."
+    },
+    {
+      "p": "Édouard Lucas [“ay-DWAR loo-KAH”] sold a puzzle in 1883 under the anagram pen name “N. Claus de Siam.” Its shortest solution uses this technique: move all but the biggest disk out of the way, move the biggest disk, then move the smaller stack back on top.",
+      "r": "For 10 points, name this technique, used to solve the Tower of Hanoi, in which a function calls itself."
+    },
+    {
+      "p": "Wilhelm Ackermann published a function in 1928 that is defined using this idea and grows unbelievably fast. A program can use this idea to explore tree-shaped data, such as folders stored inside other folders on a computer.",
+      "r": "For 10 points, name this technique, used to compute n factorial, in which a function calls itself."
+    },
+    {
+      "p": "Euclid’s method for the greatest common divisor can be written with this technique: the answer for a and b equals the answer for b and the remainder when a is divided by b, stopping when that remainder is 0. Merge sort and quicksort also use this technique to sort lists.",
+      "r": "For 10 points, name this technique in which a function solves a problem by calling itself on a smaller version of it."
+    },
+    {
+      "p": "The name GNU is a joke version of this idea, because it stands for “GNU’s Not Unix,” so the name appears inside its own meaning. The name of the program WINE works the same way, since it stands for “Wine Is Not an Emulator.”",
+      "r": "For 10 points, name this idea, which in programming describes a function that calls itself until it reaches a base case."
+    },
+    {
+      "p": "The Droste [“DROSS-tuh”] effect, named for a Dutch cocoa box showing a nurse carrying a cup of hot chocolate and a box with the same picture, is a visual example of this idea. Two mirrors facing each other create a similar picture inside a picture that seems to go on forever.",
+      "r": "A program that uses it must reach a base case, or it may crash. For 10 points, name this idea, which in programming means a function calls itself."
+    },
+    {
+      "p": "Many compilers perform an optimization named for the “tail” of a function, which lets certain uses of this technique run without using up extra memory. Without that trick, each step of this technique adds another frame to the call stack.",
+      "r": "If the calls never reach a base case, the program can crash with a stack overflow. For 10 points, name this technique in which a function calls itself."
+    },
+    {
+      "p": "Two of the first languages to allow this technique were John McCarthy’s Lisp, which relied heavily on it, and ALGOL 60. Each call made this way in a running program gets its own frame on the call stack.",
+      "r": "For 10 points, name this technique in which a function solves a problem by calling itself."
+    },
+    {
+      "p": "In the “mutual” form of this technique, two functions call each other back and forth, like an “is even” function and an “is odd” function. Any problem solved with this technique can also be solved using loops and a stack that the programmer manages.",
+      "r": "For 10 points, name this technique, used to solve the Tower of Hanoi puzzle, in which a function calls itself."
+    },
+    {
+      "p": "Without memoization [“MEM-oh-ih-ZAY-shun”], a trick that saves answers already found, a program that uses this technique can need billions of calls to find the 50th term of a famous sequence, because nearly every call makes two more.",
+      "r": "That sequence is the Fibonacci sequence. For 10 points, name this technique in which a function calls itself."
+    },
+    {
+      "p": "A proof by mathematical induction works much like this technique, proving a starting case and then showing that each case follows from the one before. Grammar uses a similar idea when a phrase holds a smaller phrase of the same kind, as in “the cat that chased the rat that ate the cheese.”",
+      "r": "In programming, it needs a base case so it eventually stops. For 10 points, name this idea in which a function calls itself."
+    },
+    {
+      "p": "John von Neumann described merge sort in 1945; it uses this technique to split a list in half, sort each half the same way, and then merge the two sorted halves. Binary search can also be written with this technique, checking the middle item and then searching only one half.",
+      "r": "For 10 points, name this technique in which a function calls itself on a smaller part of a problem."
+    },
+    {
+      "p": "Tony Hoare’s 1959 sorting method, quicksort, picks a “pivot” item, splits a list into smaller and larger items, and then sorts each part using this technique. Fractal shapes such as the Koch snowflake can be drawn the same way.",
+      "r": "Every use of this technique needs a base case. For 10 points, name this technique in which a function calls itself."
+    },
+    {
+      "p": "The Sierpiński [“sher-PEEN-skee”] triangle is made by removing the middle of a triangle to leave three smaller triangles and then doing the same thing to each of those, a picture of this idea. A Logo program can use this idea to draw a tree in which every branch splits into two smaller trees.",
+      "r": "For 10 points, name this idea, which programmers use when they write a function that calls itself on smaller inputs."
+    },
+    {
+      "p": "A popular question-and-answer website for programmers, founded in 2008, is named for an error that can happen when this technique goes too deep. As a joke, Google answered searches for this technique’s name by asking “Did you mean” the very same word.",
+      "r": "For 10 points, name this technique, used to compute factorials, in which a function calls itself."
+    }
+  ],
+  "clues": [
+    {
+      "id": "calls-itself",
+      "tier": "giveaway",
+      "t": "A function that solves a problem by calling itself on a smaller version of the same problem",
+      "k": [
+        "calling itself",
+        "smaller version"
+      ],
+      "n": 0
+    },
+    {
+      "id": "base-case",
+      "tier": "giveaway",
+      "t": "Every such function needs a base case, a simple case answered directly, so the chain of calls stops",
+      "k": [
+        "base case",
+        "chain of calls"
+      ],
+      "n": 0
+    },
+    {
+      "id": "factorial",
+      "tier": "giveaway",
+      "t": "Classic first example: n factorial = n times (n − 1) factorial, with 0 factorial = 1 as the base case",
+      "k": [
+        "factorial",
+        "n times"
+      ],
+      "n": 0,
+      "rabbit": "Factorial"
+    },
+    {
+      "id": "nesting-dolls",
+      "tier": "giveaway",
+      "t": "Often pictured as Russian nesting dolls, each doll holding a smaller copy of itself",
+      "k": [
+        "nesting dolls",
+        "russian"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stack-overflow",
+      "tier": "middle",
+      "t": "Each call adds a frame to the call stack; if the base case is never reached, a stack overflow can crash the program",
+      "k": [
+        "stack overflow",
+        "call stack",
+        "frame"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fibonacci",
+      "tier": "middle",
+      "t": "Fibonacci numbers: each term is found by calling the same function on the two terms before it",
+      "k": [
+        "fibonacci",
+        "two terms before"
+      ],
+      "n": 0,
+      "rabbit": "Fibonacci sequence"
+    },
+    {
+      "id": "tower-of-hanoi",
+      "tier": "middle",
+      "t": "Tower of Hanoi: move the smaller disks aside, move the biggest, then stack the smaller ones back on top; n disks take 2 to the n, minus 1 moves",
+      "k": [
+        "tower of hanoi",
+        "hanoi",
+        "disks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "divide-and-conquer",
+      "tier": "middle",
+      "t": "Divide-and-conquer methods use it: merge sort sorts each half of a list the same way, and binary search checks the middle, then searches one half",
+      "k": [
+        "merge sort",
+        "binary search",
+        "divide-and-conquer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quicksort",
+      "tier": "middle",
+      "t": "Quicksort picks a pivot, splits a list into smaller and larger items, and sorts each part the same way",
+      "k": [
+        "quicksort",
+        "pivot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "loops",
+      "tier": "middle",
+      "t": "Anything done this way can also be done with loops (iteration) plus a stack the programmer manages",
+      "k": [
+        "iteration",
+        "loops"
+      ],
+      "n": 0
+    },
+    {
+      "id": "folders",
+      "tier": "middle",
+      "t": "Used to explore tree-shaped data, such as folders stored inside other folders",
+      "k": [
+        "folders",
+        "tree-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fractals",
+      "tier": "middle",
+      "t": "Fractals such as the Koch snowflake and Sierpiński triangle are drawn by repeating one rule on smaller and smaller pieces",
+      "k": [
+        "fractals",
+        "koch snowflake",
+        "sierpinski"
+      ],
+      "n": 0,
+      "rabbit": "Fractals"
+    },
+    {
+      "id": "droste",
+      "tier": "middle",
+      "t": "The Droste effect, a picture that contains itself, is named for a Dutch cocoa box; two facing mirrors make a similar endless picture",
+      "k": [
+        "droste",
+        "cocoa",
+        "mirrors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lucas",
+      "tier": "power",
+      "t": "Édouard Lucas sold the Tower of Hanoi puzzle in 1883 under the anagram pen name “N. Claus de Siam”",
+      "k": [
+        "lucas",
+        "claus de siam",
+        "anagram",
+        "1883"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hofstadter",
+      "tier": "power",
+      "t": "Hofstadter’s Law: a task always takes longer than you expect, “even when you take into account Hofstadter’s Law”; Douglas Hofstadter also wrote _Gödel, Escher, Bach_",
+      "k": [
+        "hofstadter",
+        "takes longer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "acronyms",
+      "tier": "power",
+      "t": "Acronyms that contain themselves, like GNU (“GNU’s Not Unix”) and WINE (“Wine Is Not an Emulator”)",
+      "k": [
+        "acronyms",
+        "gnu",
+        "emulator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ackermann",
+      "tier": "power",
+      "t": "Wilhelm Ackermann’s function (1928), defined this way, grows unbelievably fast",
+      "k": [
+        "ackermann",
+        "1928"
+      ],
+      "n": 0
+    },
+    {
+      "id": "euclid",
+      "tier": "power",
+      "t": "Euclid’s algorithm: the greatest common divisor of a and b equals that of b and the remainder of a ÷ b, stopping when the remainder is 0",
+      "k": [
+        "euclid",
+        "greatest common divisor",
+        "remainder"
+      ],
+      "n": 0,
+      "rabbit": "Greatest common divisor"
+    },
+    {
+      "id": "memoization",
+      "tier": "power",
+      "t": "Memoization saves answers already found, so a slow Fibonacci program that makes billions of calls becomes fast",
+      "k": [
+        "memoization",
+        "saves answers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tail-call",
+      "tier": "power",
+      "t": "Tail-call optimization: when the self-call is a function’s last step, a compiler can turn it into a loop that uses no extra stack",
+      "k": [
+        "tail-call",
+        "compiler",
+        "last step"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mutual",
+      "tier": "power",
+      "t": "In the mutual form, two functions call each other, like an “is even” function and an “is odd” function",
+      "k": [
+        "mutual",
+        "call each other"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lisp-algol",
+      "tier": "power",
+      "t": "John McCarthy’s Lisp (1958), which relied heavily on it, and ALGOL 60 were two of the first languages to allow it",
+      "k": [
+        "lisp",
+        "mccarthy",
+        "algol"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sorting-inventors",
+      "tier": "power",
+      "t": "John von Neumann described merge sort in 1945; Tony Hoare invented quicksort in 1959",
+      "k": [
+        "von neumann",
+        "hoare",
+        "1945",
+        "1959"
+      ],
+      "n": 0
+    },
+    {
+      "id": "induction",
+      "tier": "power",
+      "t": "Proof by mathematical induction works like it: prove a starting case, then show each case follows from the one before",
+      "k": [
+        "mathematical induction",
+        "induction",
+        "starting case"
+      ],
+      "n": 0
+    },
+    {
+      "id": "grammar",
+      "tier": "power",
+      "t": "Grammar uses it when a phrase holds a smaller phrase of the same kind, as in “the cat that chased the rat that ate the cheese”",
+      "k": [
+        "grammar",
+        "phrase"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stack-overflow-site",
+      "tier": "power",
+      "t": "The programmers’ question-and-answer website Stack Overflow (founded 2008) is named for the error it can cause",
+      "k": [
+        "website",
+        "2008"
+      ],
+      "n": 0
+    },
+    {
+      "id": "google",
+      "tier": "power",
+      "t": "As a joke, Google answered searches for its name with “Did you mean” the very same word",
+      "k": [
+        "google",
+        "did you mean"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Self-call or loop?",
+    "body": "Recursion and iteration (loops) can solve the same problems, so a tossup about repeating steps may want either one. Other answer lines sit close by: the factorial function and the Fibonacci sequence are famous examples, “stack overflow” is the error recursion can cause, and a “recurrence relation” is a math rule that builds each term of a sequence from earlier terms.",
+    "fix": "Listen for “calls itself,” “defined in terms of itself,” or “base case”: that means recursion. “Repeats a block of code while a condition is true” or “for each item in a list” means a loop, or iteration. If every clue is about one example, like the pattern 1, 1, 2, 3, 5, 8, answer that example instead.",
+    "line": "Real answer line: <b><u>recursion</u></b> (accept word forms like <u>recursive</u> functions; prompt on <u>self-reference</u>; do not accept “iteration” or “loops”)"
+  }
+}

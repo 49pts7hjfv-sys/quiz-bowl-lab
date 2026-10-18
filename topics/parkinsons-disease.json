@@ -1,0 +1,448 @@
+{
+  "id": "parkinsons-disease",
+  "name": "Parkinson’s disease",
+  "mono": "PD",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Brain disease that affects movement · Linked to loss of dopamine-making cells",
+  "dates": "First described in 1817",
+  "briefing": "Parkinson’s disease is a brain disorder that slowly makes movement harder, often starting with a shaking hand, stiff muscles, or slow steps. It happens when nerve cells in a small, dark region of the brain, the substantia nigra, stop making enough dopamine, a chemical messenger that helps control movement. English surgeon James Parkinson described it in 1817, and a medicine called levodopa, which the brain turns into dopamine, helps many people with the disease.",
+  "answerHtml": "<b><u>Parkinson’s</u></b> disease (accept <u>Parkinson</u> disease or <u>paralysis agitans</u>; prompt on <u>parkinsonism</u> or <u>shaking palsy</u>; do not accept “Alzheimer’s disease” or “Huntington’s disease”)",
+  "accept": [
+    "parkinsons disease",
+    "parkinson disease",
+    "parkinsons",
+    "parkinson",
+    "paralysis agitans",
+    "pd"
+  ],
+  "prompt": [
+    "parkinsonism",
+    "shaking palsy",
+    "the shaking palsy",
+    "movement disorder",
+    "neurodegenerative disease"
+  ],
+  "reject": [
+    "james parkinson",
+    "parkinsons law",
+    "parkinson law",
+    "wolff parkinson white",
+    "wolff parkinson white syndrome",
+    "wpw",
+    "alzheimers",
+    "alzheimers disease",
+    "alzheimer",
+    "alzheimer disease",
+    "huntingtons",
+    "huntingtons disease",
+    "huntington",
+    "huntington disease",
+    "als",
+    "lou gehrigs disease",
+    "multiple sclerosis",
+    "dementia",
+    "lewy body dementia",
+    "dementia with lewy bodies",
+    "essential tremor",
+    "dopamine",
+    "levodopa",
+    "epilepsy"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Parkinson%27s_disease",
+  "qb": {
+    "q": "Parkinson’s",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1912, Friedrich Lewy described round clumps of protein inside the nerve cells of people with this disease, and those clumps are now called Lewy bodies. They are made largely of a protein called alpha-synuclein [“sih-NOO-klee-in”].",
+      "r": "This disease destroys dopamine-making cells in the brain. For 10 points, name this movement disorder that often causes a tremor in a resting hand."
+    },
+    {
+      "p": "Arvid Carlsson shared the 2000 Nobel Prize in medicine partly for showing that animals given the drug reserpine became slow and stiff, much like people with this disease, until they received L-DOPA. His work showed that dopamine is a brain messenger in its own right.",
+      "r": "For 10 points, name this disease in which dopamine-making brain cells are slowly lost, causing tremors and slow movement."
+    },
+    {
+      "p": "In the book _Awakenings_, Oliver Sacks described how the drug L-DOPA in 1969 briefly brought back movement to patients who had barely been able to move for decades because of a condition with this disease’s symptoms. Robin Williams starred in a 1990 film of that story.",
+      "r": "Doctors give L-DOPA for this disease because the brain turns it into dopamine. For 10 points, name this movement disorder."
+    },
+    {
+      "p": "In 1960, Oleh Hornykiewicz [“hor-nee-KEH-vitch”] found that the brains of people who had this disease contained far less dopamine than normal. Later that decade, George Cotzias [“KOT-see-us”] showed that large doses of levodopa taken by mouth could ease this disease’s symptoms.",
+      "r": "For 10 points, name this brain disease that causes tremors, stiff muscles, and slow movement."
+    },
+    {
+      "p": "People with this disease may develop micrographia [“my-kroh-GRAF-ee-uh”], handwriting that becomes smaller and more cramped, and their faces may show less expression. Losing the sense of smell can be one of this disease’s earliest signs, years before any movement problems.",
+      "r": "For 10 points, name this disease that causes a shaking tremor and slow movement, named for an English surgeon."
+    },
+    {
+      "p": "In deep brain stimulation, surgeons place thin wires in a region such as the subthalamic [“sub-thuh-LAM-ik”] nucleus to send gentle electrical pulses that calm this disease’s tremors. Many people with this disease take levodopa together with carbidopa, which stops the body from turning levodopa into dopamine before it reaches the brain.",
+      "r": "This disease is linked to the loss of dopamine-making cells in the substantia nigra. For 10 points, name this disease that causes tremors and slow movement."
+    },
+    {
+      "p": "A world awareness day for this disease is held on April 11, the birthday of the English surgeon who described it in _An Essay on the Shaking Palsy_ in 1817. Decades later, the French doctor Jean-Martin Charcot [“shar-KOH”] suggested renaming the disease after that surgeon.",
+      "r": "Muhammad Ali was diagnosed with it in 1984. For 10 points, name this disease of tremors and slow movement."
+    },
+    {
+      "p": "The pigment neuromelanin [“noor-oh-MEL-uh-nin”] darkens the brain region hit hardest by this disease, a region whose Latin name means “black substance.” That region of the midbrain normally sends dopamine to the basal ganglia, which help control movement.",
+      "r": "That region is the substantia nigra [“sub-STAN-shuh NYE-gruh”]. For 10 points, name this disease that causes tremors and stiffness."
+    },
+    {
+      "p": "The actor who starred in the _Back to the Future_ movies revealed in 1998 that he had this disease, and in 2000 he started a foundation that pays for research on it. Boxer Muhammad Ali, who was diagnosed with this disease in 1984, lit the Olympic flame at the 1996 Atlanta Games.",
+      "r": "It is linked to the loss of dopamine-making brain cells. For 10 points, name this disease that causes tremors, stiffness, and slow movement."
+    },
+    {
+      "p": "Doctors call the classic shaking of this disease a “pill-rolling” tremor, because the thumb and fingers rub together as if rolling a small pill between them. That tremor is usually strongest when the hand is resting and fades when the person reaches for something.",
+      "r": "For 10 points, name this disease caused by the loss of dopamine-making neurons in the brain."
+    },
+    {
+      "p": "Medical students remember this disease’s four main signs with the word TRAP: tremor, rigidity, akinesia [“ay-kih-NEE-zhuh”] or slowness, and postural instability, which means trouble with balance. Many people with this disease walk with short, shuffling steps.",
+      "r": "For 10 points, name this movement disorder linked to a loss of the brain chemical dopamine."
+    },
+    {
+      "p": "Doctors cannot treat this disease with dopamine itself, because dopamine cannot cross the blood-brain barrier. Instead they use levodopa, which crosses into the brain and is then converted into dopamine.",
+      "r": "This disease damages dopamine-making cells in the substantia nigra. For 10 points, name this disease that often begins with a tremor in one hand."
+    },
+    {
+      "p": "This disease is the second most common neurodegenerative disease after Alzheimer’s, and it usually begins after age 60. Unlike Huntington’s disease, which is caused by a single inherited gene, this disease usually has no single known cause.",
+      "r": "For 10 points, name this disease that slowly makes movement harder, often starting with a tremor in one hand."
+    },
+    {
+      "p": "In this disease, a shortage of dopamine reaching the striatum [“stry-AY-tum”], a part of the basal ganglia, makes it hard for the brain to start and smoothly control movements. Some people with this disease suddenly “freeze” in place when trying to walk through a doorway.",
+      "r": "For 10 points, name this disorder whose symptoms include a resting tremor and stiff muscles."
+    },
+    {
+      "p": "Pope John Paul II and Janet Reno, the U.S. attorney general from 1993 to 2001, both had this disease. Some people with this disease develop a softer, quieter voice, along with stiff muscles.",
+      "r": "For 10 points, name this brain disease that causes tremors and slow movement and is often treated with levodopa."
+    }
+  ],
+  "clues": [
+    {
+      "id": "movement-disorder",
+      "tier": "giveaway",
+      "t": "A brain disease that slowly makes movement harder, with tremors, stiffness, and slowness",
+      "k": [
+        "movement",
+        "tremors",
+        "stiffness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dopamine-loss",
+      "tier": "giveaway",
+      "t": "Linked to the loss of dopamine-making nerve cells in the brain",
+      "k": [
+        "dopamine",
+        "nerve cells"
+      ],
+      "n": 0,
+      "rabbit": "Dopamine"
+    },
+    {
+      "id": "english-surgeon",
+      "tier": "giveaway",
+      "t": "Named for the English surgeon who first described it in detail",
+      "k": [
+        "english surgeon",
+        "named"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fox-ali",
+      "tier": "giveaway",
+      "t": "Actor Michael J. Fox (in 1991) and boxer Muhammad Ali (in 1984) were diagnosed with it",
+      "k": [
+        "michael j. fox",
+        "fox",
+        "muhammad ali"
+      ],
+      "n": 0
+    },
+    {
+      "id": "levodopa",
+      "tier": "giveaway",
+      "t": "Treated with levodopa (L-DOPA), which the brain turns into dopamine",
+      "k": [
+        "levodopa",
+        "l-dopa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "substantia-nigra",
+      "tier": "middle",
+      "t": "Hits the substantia nigra (“black substance”), a dark region of the midbrain",
+      "k": [
+        "substantia nigra",
+        "black substance",
+        "midbrain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "resting-tremor",
+      "tier": "middle",
+      "t": "Its tremor is strongest at rest: a “pill-rolling” motion of the thumb and fingers",
+      "k": [
+        "pill-rolling",
+        "at rest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "essay-1817",
+      "tier": "middle",
+      "t": "First described in _An Essay on the Shaking Palsy_ (1817)",
+      "k": [
+        "shaking palsy",
+        "essay",
+        "1817"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lewy-bodies",
+      "tier": "middle",
+      "t": "Lewy bodies, clumps of the protein alpha-synuclein, build up inside nerve cells",
+      "k": [
+        "lewy bodies",
+        "alpha-synuclein"
+      ],
+      "n": 0,
+      "rabbit": "Neurons"
+    },
+    {
+      "id": "basal-ganglia",
+      "tier": "middle",
+      "t": "Too little dopamine reaches the basal ganglia, so it is hard to start and smoothly control movements",
+      "k": [
+        "basal ganglia",
+        "start"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trap-signs",
+      "tier": "middle",
+      "t": "Four main signs, remembered as TRAP: tremor, rigidity, akinesia (slowness), and postural instability",
+      "k": [
+        "trap",
+        "rigidity",
+        "postural instability"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shuffling",
+      "tier": "middle",
+      "t": "Many people with it walk with short, shuffling steps and may “freeze” in doorways",
+      "k": [
+        "shuffling",
+        "freeze",
+        "doorways"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carbidopa",
+      "tier": "middle",
+      "t": "Levodopa is often given with carbidopa so more of it reaches the brain",
+      "k": [
+        "carbidopa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blood-brain-barrier",
+      "tier": "middle",
+      "t": "Dopamine itself can’t cross the blood-brain barrier, which is why doctors give levodopa",
+      "k": [
+        "blood-brain barrier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "deep-brain",
+      "tier": "middle",
+      "t": "Deep brain stimulation sends gentle electrical pulses to areas like the subthalamic nucleus to calm tremors",
+      "k": [
+        "deep brain stimulation",
+        "subthalamic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lewy-1912",
+      "tier": "power",
+      "t": "Friedrich Lewy described the protein clumps now named for him in 1912",
+      "k": [
+        "friedrich lewy",
+        "1912"
+      ],
+      "n": 0
+    },
+    {
+      "id": "april-charcot",
+      "tier": "power",
+      "t": "Its awareness day, April 11, is the describer’s birthday; Jean-Martin Charcot suggested naming it after him",
+      "k": [
+        "april 11",
+        "charcot",
+        "birthday"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carlsson",
+      "tier": "power",
+      "t": "Arvid Carlsson (Nobel Prize, 2000) showed dopamine is a brain messenger; L-DOPA reversed slowness in animals given reserpine",
+      "k": [
+        "carlsson",
+        "reserpine",
+        "2000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hornykiewicz",
+      "tier": "power",
+      "t": "In 1960, Oleh Hornykiewicz found far less dopamine than normal in the brains of people who had it",
+      "k": [
+        "hornykiewicz",
+        "1960"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cotzias",
+      "tier": "power",
+      "t": "In the 1960s, George Cotzias showed that large doses of levodopa by mouth eased its symptoms",
+      "k": [
+        "cotzias",
+        "large doses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "awakenings",
+      "tier": "power",
+      "t": "Oliver Sacks’s _Awakenings_ tells how L-DOPA briefly restored movement to patients with similar symptoms in 1969; the 1990 film starred Robin Williams",
+      "k": [
+        "awakenings",
+        "oliver sacks",
+        "robin williams"
+      ],
+      "n": 0
+    },
+    {
+      "id": "neuromelanin",
+      "tier": "power",
+      "t": "The pigment neuromelanin gives the substantia nigra its dark color",
+      "k": [
+        "neuromelanin",
+        "pigment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "micrographia",
+      "tier": "power",
+      "t": "Micrographia: handwriting that becomes small and cramped; faces may also show less expression",
+      "k": [
+        "micrographia",
+        "handwriting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "smell",
+      "tier": "power",
+      "t": "Losing the sense of smell can be an early sign, years before movement problems",
+      "k": [
+        "sense of smell",
+        "early sign"
+      ],
+      "n": 0
+    },
+    {
+      "id": "second-most-common",
+      "tier": "power",
+      "t": "The second most common neurodegenerative disease after Alzheimer’s; it usually begins after age 60",
+      "k": [
+        "second most common",
+        "neurodegenerative",
+        "age 60"
+      ],
+      "n": 0,
+      "rabbit": "Alzheimer’s disease"
+    },
+    {
+      "id": "fox-foundation",
+      "tier": "power",
+      "t": "Michael J. Fox revealed his diagnosis in 1998 and started a research foundation in 2000",
+      "k": [
+        "foundation",
+        "1998",
+        "back to the future"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ali-1996",
+      "tier": "power",
+      "t": "Muhammad Ali, diagnosed in 1984, lit the Olympic flame at the 1996 Atlanta Games",
+      "k": [
+        "olympic flame",
+        "atlanta",
+        "1996"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pope-reno",
+      "tier": "power",
+      "t": "Pope John Paul II and Janet Reno, U.S. attorney general from 1993 to 2001, both had it",
+      "k": [
+        "john paul ii",
+        "janet reno"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which brain disease?",
+    "body": "Parkinson’s, Alzheimer’s, and Huntington’s diseases all slowly damage the brain, so their clues get mixed up. Alzheimer’s mainly affects memory and is marked by plaques and tangles; Huntington’s is caused by a single inherited gene and brings sudden, jerky movements. Don’t be fooled by Wolff-Parkinson-White syndrome either: it is a heart rhythm condition with no link to this disease.",
+    "fix": "Dopamine, the substantia nigra, Lewy bodies, levodopa, a resting “pill-rolling” tremor, or Michael J. Fox mean Parkinson’s disease. Memory loss with plaques and tangles means Alzheimer’s; one inherited gene with jerky movements means Huntington’s.",
+    "line": "Real answer line: <b><u>Parkinson’s</u></b> disease (accept <u>Parkinson</u> disease; prompt on <u>parkinsonism</u>; do not accept “Alzheimer’s disease”)"
+  },
+  "tests": {
+    "right": [
+      "Parkinson’s disease",
+      "Parkinson's",
+      "Parkinsons disease",
+      "Parkinsen's",
+      "Parkinson disease"
+    ],
+    "prompt": [
+      "Parkinsonism",
+      "Shaking palsy"
+    ],
+    "wrong": [
+      "Alzheimer's disease",
+      "Huntington's disease",
+      "Wolff-Parkinson-White syndrome",
+      "Dopamine",
+      "James Parkinson",
+      "Multiple sclerosis"
+    ]
+  }
+}

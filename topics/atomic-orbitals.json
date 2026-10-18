@@ -1,0 +1,489 @@
+{
+  "id": "atomic-orbitals",
+  "name": "Atomic orbitals",
+  "mono": "ORB",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Where an atom’s electrons are likely to be · Labeled s, p, d, and f",
+  "dates": "Named by Robert Mulliken, 1932",
+  "briefing": "Electrons don’t circle the nucleus like tiny planets. Instead, quantum mechanics says each electron lives in an atomic orbital, a fuzzy cloud-shaped region where it is most likely to be found, and each orbital can hold at most two electrons. Orbitals come in shapes labeled s (a sphere), p (a dumbbell), d (mostly four-leaf clovers), and f, and the order in which they fill gives the periodic table its shape.",
+  "answerHtml": "<b><u>Atomic orbital</u></b>s (accept <u>orbital</u>s or <u>electron orbital</u>s; accept specific types such as <u>s orbital</u>s or <u>p orbital</u>s; prompt on <u>electron cloud</u>s; do not accept “orbits,” “shells,” or “molecular orbitals”)",
+  "accept": [
+    "atomic orbital",
+    "atomic orbitals",
+    "orbital",
+    "orbitals",
+    "electron orbital",
+    "electron orbitals",
+    "s orbital",
+    "s orbitals",
+    "p orbital",
+    "p orbitals",
+    "d orbital",
+    "d orbitals",
+    "f orbital",
+    "f orbitals"
+  ],
+  "prompt": [
+    "electron cloud",
+    "electron clouds",
+    "electron cloud model",
+    "wave function",
+    "wave functions",
+    "wavefunction",
+    "wavefunctions"
+  ],
+  "reject": [
+    "orbit",
+    "orbits",
+    "bohr orbit",
+    "bohr orbits",
+    "bohr model",
+    "electron shell",
+    "electron shells",
+    "shell",
+    "shells",
+    "valence shell",
+    "subshell",
+    "subshells",
+    "sublevel",
+    "sublevels",
+    "energy level",
+    "energy levels",
+    "electron configuration",
+    "electron configurations",
+    "quantum number",
+    "quantum numbers",
+    "molecular orbital",
+    "molecular orbitals",
+    "molecular orbital theory",
+    "hybrid orbital",
+    "hybrid orbitals",
+    "hybridized orbital",
+    "hybridized orbitals",
+    "hybridization",
+    "sp orbital",
+    "sp orbitals",
+    "sp2 orbital",
+    "sp2 orbitals",
+    "sp3 orbital",
+    "sp3 orbitals",
+    "bonding orbital",
+    "bonding orbitals",
+    "antibonding orbital",
+    "antibonding orbitals",
+    "sigma orbital",
+    "sigma orbitals",
+    "pi orbital",
+    "pi orbitals",
+    "homo",
+    "lumo",
+    "orbital diagram",
+    "orbital diagrams",
+    "orbital notation",
+    "orbital period",
+    "orbital mechanics",
+    "orbital velocity",
+    "orbital resonance",
+    "aufbau principle",
+    "hunds rule",
+    "pauli exclusion principle",
+    "nucleus"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Atomic_orbital",
+  "qb": {
+    "q": "orbital",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Robert Mulliken coined the name for these regions in 1932. Linus Pauling showed that they can mix to form hybrids, such as the four sp³ hybrids that point to the corners of a tetrahedron around the carbon atom in methane.",
+      "r": "Each of these regions can hold at most two electrons. For 10 points, name these regions labeled s, p, d, and f."
+    },
+    {
+      "p": "The letters naming the first four kinds of these regions come from old descriptions of lines in atomic spectra: sharp, principal, diffuse, and fundamental. The second kind comes in sets of three that point along the x, y, and z axes.",
+      "r": "The first kind is shaped like a sphere. For 10 points, name these regions where an atom’s electrons are most likely to be found."
+    },
+    {
+      "p": "The number of radial nodes in one of these regions equals n minus l minus 1, so the 2s version has one spherical node where the electron is never found. The number of angular nodes in one of these regions equals its quantum number l.",
+      "r": "Each of these regions holds at most two electrons. For 10 points, name these regions around a nucleus, labeled s, p, d, and f."
+    },
+    {
+      "p": "The magnetic quantum number tells how one of these regions is oriented in space, and it can take any whole-number value from negative l to positive l. As a result, a subshell with quantum number l contains 2l plus 1 of these regions.",
+      "r": "That gives one s, three p, five d, and seven f of them. For 10 points, name these regions, each holding up to two electrons, where electrons are likely to be found."
+    },
+    {
+      "p": "Hund’s rule says that electrons spread out one at a time into these regions when the regions have equal energy, all with parallel spins, before any electrons pair up. The Aufbau [“OWF-bow”] principle says that these regions fill from lowest energy to highest.",
+      "r": "For 10 points, name these regions of an atom, labeled s, p, d, and f, that each hold up to two electrons."
+    },
+    {
+      "p": "Chromium and copper break the usual filling order by moving an electron out of the 4s one of these regions and into the 3d set, which then becomes exactly half full for chromium and completely full for copper.",
+      "r": "Diagrams of boxes and arrows show how electrons fill these regions. For 10 points, name these regions around a nucleus, labeled s, p, d, and f."
+    },
+    {
+      "p": "Four of the five 3d versions of these regions have four lobes, like a four-leaf clover, while the fifth, called d z-squared, has two lobes with a doughnut-shaped ring around its middle. The seven f versions have even more complicated shapes.",
+      "r": "The p versions are shaped like dumbbells, and the s versions are spheres. For 10 points, name these regions where electrons are most likely to be found."
+    },
+    {
+      "p": "Solving Erwin Schrödinger’s [“SHROH-ding-er”] equation for the hydrogen atom gives these regions as wave functions, and Max Born proposed that squaring a wave function gives the probability of finding an electron. Unlike the circular paths in Niels Bohr’s model, these regions do not give an electron’s exact path.",
+      "r": "For 10 points, name these regions of space, labeled s, p, d, and f, where electrons are most likely to be found."
+    },
+    {
+      "p": "For hydrogen’s lowest-energy one of these regions, the most likely distance between the electron and the nucleus equals the Bohr radius, about 53 picometers. That region, called 1s, is perfectly spherical.",
+      "r": "Each of these regions holds at most two electrons. For 10 points, name these regions where an electron is most likely to be found."
+    },
+    {
+      "p": "In atoms with many electrons, the 2s one of these regions has a lower energy than the 2p ones, because s electrons spend more time close to the nucleus and are shielded less. In the simple model of a hydrogen atom, though, the 2s and 2p ones have the same energy.",
+      "r": "For 10 points, name these regions, which come in s, p, d, and f types, where an atom’s electrons are found."
+    },
+    {
+      "p": "A g type of these regions, with an angular momentum quantum number of 4, is not filled in the ground state of any known element. Mathematical functions called spherical harmonics describe the angular shapes of these regions in a hydrogen atom.",
+      "r": "The periodic table’s s, p, d, and f blocks are named for them. For 10 points, name these regions where electrons are most likely to be found around a nucleus."
+    },
+    {
+      "p": "A sigma bond forms when two of these regions overlap head-on, while a pi bond forms when two p versions of these regions overlap side by side. A double bond contains one sigma bond and one pi bond.",
+      "r": "For 10 points, name these regions of an atom, labeled s, p, d, and f, that can each hold two electrons."
+    },
+    {
+      "p": "In an isolated atom, the three 2p versions of these regions have the same energy, so they are called degenerate. A magnetic field splits those energies apart, which divides a single spectral line into several lines in the Zeeman effect.",
+      "r": "Wolfgang Pauli’s exclusion principle limits each of these regions to two electrons with opposite spins. For 10 points, name these regions labeled s, p, d, and f."
+    },
+    {
+      "p": "The shell with principal quantum number n contains n squared of these regions, so it can hold up to 2n squared electrons. The third shell therefore has nine of these regions: one 3s, three 3p, and five 3d.",
+      "r": "For 10 points, name these regions around a nucleus where electrons are most likely to be found."
+    },
+    {
+      "p": "The two lobes of a p version of these regions have opposite phases, separated by a flat nodal plane through the nucleus where the electron is never found. Chemists often draw the lobes in two colors to show those phases, which matter when the regions overlap to form bonds.",
+      "r": "For 10 points, name these regions of an atom, labeled s, p, d, and f, that each hold up to two electrons."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Regions around a nucleus where an electron is most likely to be found",
+      "k": [
+        "nucleus",
+        "most likely",
+        "regions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-electrons",
+      "tier": "giveaway",
+      "t": "Each holds at most two electrons, which must have opposite spins (Pauli exclusion principle)",
+      "k": [
+        "two electrons",
+        "opposite spins",
+        "pauli"
+      ],
+      "n": 0,
+      "rabbit": "Pauli exclusion principle"
+    },
+    {
+      "id": "types",
+      "tier": "giveaway",
+      "t": "Labeled s, p, d, and f",
+      "k": [
+        "labeled",
+        "s, p, d, and f"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shapes",
+      "tier": "giveaway",
+      "t": "The s type is a sphere, and the p type is shaped like a dumbbell",
+      "k": [
+        "sphere",
+        "dumbbell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "counts",
+      "tier": "middle",
+      "t": "A subshell has one s, three p, five d, or seven f of them (2l + 1)",
+      "k": [
+        "three p",
+        "five d",
+        "seven f"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quantum-numbers",
+      "tier": "middle",
+      "t": "Quantum numbers: n sets size and energy, l sets shape, and the magnetic number sets orientation",
+      "k": [
+        "quantum numbers",
+        "shape",
+        "orientation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aufbau",
+      "tier": "middle",
+      "t": "Aufbau principle: they fill from lowest energy to highest, so 4s fills before 3d",
+      "k": [
+        "aufbau",
+        "lowest energy",
+        "4s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hund",
+      "tier": "middle",
+      "t": "Hund’s rule: electrons enter equal-energy ones singly, with parallel spins, before pairing up",
+      "k": [
+        "hund",
+        "singly",
+        "parallel spins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "not-orbits",
+      "tier": "middle",
+      "t": "Replaced the fixed circular paths of Niels Bohr’s model with clouds of probability",
+      "k": [
+        "bohr",
+        "circular paths",
+        "probability"
+      ],
+      "n": 0
+    },
+    {
+      "id": "d-shapes",
+      "tier": "middle",
+      "t": "Four of the five d ones look like four-leaf clovers; d z-squared has two lobes and a doughnut-shaped ring",
+      "k": [
+        "four-leaf",
+        "clovers",
+        "doughnut"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blocks",
+      "tier": "middle",
+      "t": "The periodic table’s s, p, d, and f blocks are named for them; the lanthanides and actinides fill the f type",
+      "k": [
+        "blocks",
+        "lanthanides",
+        "actinides"
+      ],
+      "n": 0,
+      "rabbit": "Lanthanides"
+    },
+    {
+      "id": "schrodinger",
+      "tier": "middle",
+      "t": "They are wave functions from Schrödinger’s equation; squaring one gives the probability of finding the electron (Max Born)",
+      "k": [
+        "schrödinger",
+        "wave functions",
+        "max born"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diagrams",
+      "tier": "middle",
+      "t": "Box-and-arrow diagrams show how electrons fill them",
+      "k": [
+        "box-and-arrow",
+        "diagrams"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spdf-names",
+      "tier": "power",
+      "t": "The letters come from old names for spectral lines: sharp, principal, diffuse, and fundamental",
+      "k": [
+        "sharp",
+        "principal",
+        "diffuse",
+        "fundamental"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mulliken",
+      "tier": "power",
+      "t": "Robert Mulliken coined their name in 1932",
+      "k": [
+        "mulliken",
+        "1932"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hybrids",
+      "tier": "power",
+      "t": "Linus Pauling showed they mix into hybrids: one s and three p make four sp³ hybrids, as in methane",
+      "k": [
+        "hybrids",
+        "pauling",
+        "methane"
+      ],
+      "n": 0,
+      "rabbit": "Linus Pauling"
+    },
+    {
+      "id": "nodes",
+      "tier": "power",
+      "t": "Radial nodes = n − l − 1 and angular nodes = l, so the 2s has one spherical node",
+      "k": [
+        "radial nodes",
+        "angular nodes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nodal-plane",
+      "tier": "power",
+      "t": "A p type’s two lobes have opposite phases, split by a nodal plane through the nucleus",
+      "k": [
+        "nodal plane",
+        "lobes",
+        "phases"
+      ],
+      "n": 0
+    },
+    {
+      "id": "magnetic",
+      "tier": "power",
+      "t": "The magnetic quantum number runs from −l to +l, giving 2l + 1 orientations",
+      "k": [
+        "magnetic quantum number",
+        "orientations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "n-squared",
+      "tier": "power",
+      "t": "Shell n contains n squared of them and up to 2n squared electrons, so the third shell has nine",
+      "k": [
+        "n squared",
+        "nine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chromium-copper",
+      "tier": "power",
+      "t": "Chromium and copper move an electron from 4s into 3d, making the 3d set half full or completely full",
+      "k": [
+        "chromium",
+        "copper",
+        "half full"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bohr-radius",
+      "tier": "power",
+      "t": "For hydrogen’s 1s, the most likely distance between electron and nucleus is the Bohr radius, about 53 picometers",
+      "k": [
+        "bohr radius",
+        "53 picometers",
+        "1s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "penetration",
+      "tier": "power",
+      "t": "In many-electron atoms, 2s is lower in energy than 2p because s electrons get closer to the nucleus and are shielded less; in simple hydrogen they are equal",
+      "k": [
+        "closer",
+        "shielded",
+        "hydrogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spherical-harmonics",
+      "tier": "power",
+      "t": "Spherical harmonics describe their angular shapes in a hydrogen atom",
+      "k": [
+        "spherical harmonics",
+        "angular"
+      ],
+      "n": 0
+    },
+    {
+      "id": "g-type",
+      "tier": "power",
+      "t": "The g type (l = 4) is not filled in the ground state of any known element",
+      "k": [
+        "g type",
+        "ground state"
+      ],
+      "n": 0
+    },
+    {
+      "id": "degenerate",
+      "tier": "power",
+      "t": "Ones with equal energy, like the three 2p, are degenerate; a magnetic field splits them (the Zeeman effect)",
+      "k": [
+        "degenerate",
+        "zeeman",
+        "magnetic field"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sigma-pi",
+      "tier": "power",
+      "t": "Head-on overlap makes a sigma bond; side-by-side overlap of two p types makes a pi bond",
+      "k": [
+        "sigma bond",
+        "pi bond",
+        "overlap"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not orbits, not shells",
+    "body": "Niels Bohr’s older model put electrons on circular orbits, so answering “orbits” for these modern probability regions is wrong. Shells (energy levels, numbered n) and subshells (sets like 2p) are different answers too: a shell holds many of these regions, and each region holds at most two electrons. Molecular orbitals, which spread across a whole molecule, and hybrid orbitals such as sp³ are separate answer lines.",
+    "fix": "If the clues say “at most two electrons,” spheres and dumbbells, nodes, or the magnetic quantum number, answer with this term. Circular paths and Bohr mean orbits; numbered energy levels mean shells; regions spread over several bonded atoms mean molecular orbitals.",
+    "line": "Real answer line: <b><u>Atomic orbital</u></b>s (accept <u>orbital</u>s; prompt on <u>electron cloud</u>; do not accept “orbits” or “shells”)"
+  },
+  "tests": {
+    "right": [
+      "Atomic orbitals",
+      "orbital",
+      "atomic orbitls",
+      "Electron orbitals",
+      "p orbitals"
+    ],
+    "prompt": [
+      "Electron cloud",
+      "Wave function"
+    ],
+    "wrong": [
+      "Orbits",
+      "Electron shells",
+      "Molecular orbitals",
+      "Energy levels",
+      "Hybrid orbitals",
+      "Subshells",
+      "Pi orbital"
+    ]
+  }
+}

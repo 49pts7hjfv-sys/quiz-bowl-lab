@@ -1,0 +1,448 @@
+{
+  "id": "chlorophyll",
+  "name": "Chlorophyll",
+  "mono": "CPH",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Green pigment that captures light · Has a magnesium ion at its center",
+  "dates": "Named 1817",
+  "briefing": "Chlorophyll is the green pigment that lets plants feed on sunlight. It soaks up mostly red and blue light and bounces green light back, which is why leaves look green, and each molecule holds a single magnesium ion at the center of a ring. In autumn, many trees break their chlorophyll down, uncovering the yellow and orange pigments that were hiding in the leaves all summer.",
+  "answerHtml": "<b><u>Chlorophyll</u></b> (accept <u>chlorophyll a</u> or <u>chlorophyll b</u>; prompt on <u>pigment</u>; do not accept “chloroplasts” or “carotenoids”)",
+  "accept": [
+    "chlorophyll",
+    "chlorophylls",
+    "chlorophyl",
+    "chlorophyll a",
+    "chlorophyll b",
+    "chlorophyll molecule",
+    "chlorophyll molecules"
+  ],
+  "prompt": [
+    "pigment",
+    "pigments",
+    "green pigment",
+    "plant pigment",
+    "photosynthetic pigment",
+    "photosynthetic pigments"
+  ],
+  "reject": [
+    "chloroplasts",
+    "chloroplast",
+    "chlorophyta",
+    "chlorophytes",
+    "chloroform",
+    "chlorine",
+    "carotenoids",
+    "carotenoid",
+    "carotene",
+    "beta carotene",
+    "xanthophyll",
+    "xanthophylls",
+    "anthocyanin",
+    "anthocyanins",
+    "fucoxanthin",
+    "phycocyanin",
+    "bacteriochlorophyll",
+    "heme",
+    "hemoglobin",
+    "porphyrin",
+    "thylakoids",
+    "thylakoid",
+    "photosynthesis",
+    "photosystem",
+    "photosystems",
+    "magnesium",
+    "rubisco",
+    "phytol"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Chlorophyll",
+  "qb": {
+    "q": "chlorophyll",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "French chemists Pierre Joseph Pelletier and Joseph Bienaimé Caventou isolated this substance in 1817 and gave it a name built from Greek words for “pale green” and “leaf.” A few years later, the same pair isolated quinine.",
+      "r": "This pigment absorbs mostly red and blue light. For 10 points, name this green pigment found in chloroplasts."
+    },
+    {
+      "p": "Richard Willstätter [“VIL-shtet-er”] won the 1915 Nobel Prize in Chemistry for studying this compound and other plant pigments. Each molecule of this compound holds a magnesium ion at the center of a flat ring.",
+      "r": "This compound reflects green light. For 10 points, name this pigment that captures light energy for photosynthesis."
+    },
+    {
+      "p": "In 1960, Robert Burns Woodward’s team built this complicated molecule from scratch in the lab, part of the work that earned Woodward a Nobel Prize five years later. Its structure includes a long tail made from a molecule called phytol [“FY-tawl”].",
+      "r": "This molecule reflects green light. For 10 points, name this pigment that plants use for photosynthesis."
+    },
+    {
+      "p": "A long hydrocarbon tail made from phytol anchors this molecule in the thylakoid membrane. Its head is a flat ring with a magnesium ion at the center, much like the iron-holding heme group in hemoglobin.",
+      "r": "Paper chromatography of spinach extract separates this pigment from orange carotene. For 10 points, name this green pigment that absorbs light inside chloroplasts."
+    },
+    {
+      "p": "One form of this molecule has a methyl group at a spot where a second form has an aldehyde group, so the two forms absorb slightly different colors. That second form is called an accessory pigment because it passes the energy it absorbs to the first form.",
+      "r": "Both forms hold a magnesium ion at the center of a ring. For 10 points, name this green pigment that captures sunlight for photosynthesis."
+    },
+    {
+      "p": "A form of this pigment labeled f, discovered in 2010 in stromatolites from Australia’s Shark Bay, can absorb far-red light. Cyanobacteria, algae, and plants all use the form of this pigment labeled a.",
+      "r": "This pigment reflects green light. For 10 points, name this pigment found in the chloroplasts of plant cells."
+    },
+    {
+      "p": "Brown algae such as kelp use a form of this pigment labeled c, along with an orange-brown pigment called fucoxanthin [“fyoo-koh-ZAN-thin”] that hides its usual color. Like plants, kelp also use the form of this pigment labeled a.",
+      "r": "In land plants, this pigment comes in forms a and b. For 10 points, name this green pigment that captures light for photosynthesis."
+    },
+    {
+      "p": "Botanist Mikhail Tsvet [“TSVET”] invented chromatography in the early 1900s by washing leaf extracts through a column of chalk powder, separating this pigment from others. In a classroom version, spinach extract on paper splits into this pigment, yellow xanthophylls, and orange carotene.",
+      "r": "This pigment absorbs red and blue light but reflects green. For 10 points, name this green pigment found in chloroplasts."
+    },
+    {
+      "p": "A solution of this pigment glows red under ultraviolet light, a property called fluorescence. In living leaves, electrons that light knocks loose from this pigment are replaced by electrons taken from water, which releases oxygen.",
+      "r": "For 10 points, name this green pigment that absorbs light in the thylakoids of chloroplasts."
+    },
+    {
+      "p": "Seedlings grown in darkness turn pale yellow, a condition called etiolation [“ee-tee-oh-LAY-shun”], because most flowering plants need light to finish making this pigment. A shortage of iron, magnesium, or nitrogen can also yellow leaves by lowering this pigment, a condition called chlorosis.",
+      "r": "Plants look green because this pigment reflects green light. For 10 points, name this pigment that captures sunlight for photosynthesis."
+    },
+    {
+      "p": "Theodor Engelmann spread a prism’s rainbow across a strand of algae and found that oxygen-loving bacteria crowded around the red and blue zones, matching the colors this pigment absorbs best. That 1882 experiment produced the first action spectrum.",
+      "r": "Because this pigment reflects green light, most leaves look green. For 10 points, name this pigment found in chloroplasts."
+    },
+    {
+      "p": "Special pairs of this molecule called P680 and P700 sit at the reaction centers of the two photosystems. Light-harvesting antenna complexes, packed with hundreds of molecules of this pigment, pass captured energy along to those centers.",
+      "r": "This pigment sits in the thylakoid membranes of chloroplasts. For 10 points, name this green pigment that absorbs light energy for photosynthesis."
+    },
+    {
+      "p": "Hans Fischer won the 1930 Nobel Prize in Chemistry for work on the structures of heme and this molecule, which are built around similar rings. Instead of heme’s iron, this molecule holds a magnesium ion.",
+      "r": "This pigment absorbs mostly red and blue light. For 10 points, name this green pigment that plants use to capture light."
+    },
+    {
+      "p": "The absorption spectrum of this pigment shows two tall peaks, one in the blue-violet range and one in the red, with a deep dip in the green. Each fall, many trees break this pigment down, letting yellow and orange carotenoids show through.",
+      "r": "This pigment is packed into chloroplasts. For 10 points, name this green pigment found in the leaves of plants."
+    },
+    {
+      "p": "Four nitrogen atoms in this molecule’s porphyrin [“POR-fuh-rin”] ring hold a central magnesium ion. This molecule’s name comes from Greek words meaning “pale green” and “leaf,” and Robert Burns Woodward first built it in the lab in 1960.",
+      "r": "For 10 points, name this pigment that absorbs red and blue light inside chloroplasts and gives plants their green color."
+    }
+  ],
+  "clues": [
+    {
+      "id": "green-pigment",
+      "tier": "giveaway",
+      "t": "The green pigment that captures light for photosynthesis",
+      "k": [
+        "green pigment",
+        "photosynthesis",
+        "captures light"
+      ],
+      "n": 0,
+      "rabbit": "Photosynthesis"
+    },
+    {
+      "id": "in-chloroplasts",
+      "tier": "giveaway",
+      "t": "Found inside chloroplasts, packed into the thylakoid membranes",
+      "k": [
+        "chloroplasts",
+        "thylakoid"
+      ],
+      "n": 0,
+      "rabbit": "Chloroplasts"
+    },
+    {
+      "id": "red-blue",
+      "tier": "giveaway",
+      "t": "Absorbs mostly red and blue light and reflects green, which is why leaves look green",
+      "k": [
+        "red and blue",
+        "reflects green"
+      ],
+      "n": 0
+    },
+    {
+      "id": "who-has-it",
+      "tier": "giveaway",
+      "t": "Found in plants, algae, and cyanobacteria, but not in animals or fungi",
+      "k": [
+        "algae",
+        "cyanobacteria",
+        "plants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "magnesium",
+      "tier": "middle",
+      "t": "Holds a magnesium ion at the center of a flat ring called a porphyrin",
+      "k": [
+        "magnesium",
+        "porphyrin",
+        "ring"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heme-cousin",
+      "tier": "middle",
+      "t": "Its ring looks much like heme in hemoglobin, which holds iron instead of magnesium",
+      "k": [
+        "heme",
+        "hemoglobin",
+        "iron"
+      ],
+      "n": 0,
+      "rabbit": "Hemoglobin"
+    },
+    {
+      "id": "forms-a-b",
+      "tier": "middle",
+      "t": "Plants have two main forms: a, the main one, and b, an accessory pigment that passes energy to a",
+      "k": [
+        "accessory pigment",
+        "two main forms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greek-name",
+      "tier": "middle",
+      "t": "Its name comes from Greek words for “pale green” and “leaf”",
+      "k": [
+        "greek",
+        "pale green",
+        "leaf"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fall-colors",
+      "tier": "middle",
+      "t": "Many trees break it down in autumn, letting yellow and orange carotenoids show in fall leaves",
+      "k": [
+        "autumn",
+        "carotenoids",
+        "fall leaves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "water-splitting",
+      "tier": "middle",
+      "t": "When light knocks an electron loose from it, splitting water replaces that electron and releases oxygen",
+      "k": [
+        "electron",
+        "splitting water",
+        "oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spinach-paper",
+      "tier": "middle",
+      "t": "Paper chromatography of spinach extract separates it from yellow xanthophylls and orange carotene",
+      "k": [
+        "spinach",
+        "xanthophylls",
+        "carotene"
+      ],
+      "n": 0,
+      "rabbit": "Chromatography"
+    },
+    {
+      "id": "chlorosis",
+      "tier": "middle",
+      "t": "Leaves that lack it turn yellow, a condition called chlorosis, often from too little iron, magnesium, or nitrogen",
+      "k": [
+        "chlorosis",
+        "yellow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pelletier-caventou",
+      "tier": "power",
+      "t": "Isolated and named in 1817 by French chemists Pierre Joseph Pelletier and Joseph Bienaimé Caventou, who later isolated quinine",
+      "k": [
+        "pelletier",
+        "caventou",
+        "1817",
+        "quinine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "willstatter",
+      "tier": "power",
+      "t": "Richard Willstätter won the 1915 Nobel Prize in Chemistry for studying it and other plant pigments",
+      "k": [
+        "willstätter",
+        "willstatter",
+        "1915"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hans-fischer",
+      "tier": "power",
+      "t": "Hans Fischer won the 1930 Chemistry Nobel for work on the structures of heme and this molecule",
+      "k": [
+        "hans fischer",
+        "fischer",
+        "1930"
+      ],
+      "n": 0
+    },
+    {
+      "id": "woodward",
+      "tier": "power",
+      "t": "Robert Burns Woodward’s team first built it from scratch in the lab in 1960",
+      "k": [
+        "woodward",
+        "1960",
+        "from scratch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phytol-tail",
+      "tier": "power",
+      "t": "A long hydrocarbon tail made from phytol anchors it in the thylakoid membrane",
+      "k": [
+        "phytol",
+        "tail",
+        "anchors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "methyl-aldehyde",
+      "tier": "power",
+      "t": "Form a has a methyl group where form b has an aldehyde group",
+      "k": [
+        "methyl",
+        "aldehyde"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reaction-centers",
+      "tier": "power",
+      "t": "Special pairs called P680 and P700 sit at the reaction centers of photosystems II and I; antenna complexes funnel energy to them",
+      "k": [
+        "p680",
+        "p700",
+        "reaction centers",
+        "antenna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fluorescence",
+      "tier": "power",
+      "t": "A solution of it glows red under ultraviolet light, a property called fluorescence",
+      "k": [
+        "fluorescence",
+        "glows red",
+        "ultraviolet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tsvet",
+      "tier": "power",
+      "t": "Mikhail Tsvet invented chromatography in the early 1900s by separating it and other leaf pigments on a column of chalk",
+      "k": [
+        "tsvet",
+        "chromatography",
+        "chalk"
+      ],
+      "n": 0
+    },
+    {
+      "id": "form-f",
+      "tier": "power",
+      "t": "A form labeled f, found in 2010 in stromatolites from Australia’s Shark Bay, absorbs far-red light",
+      "k": [
+        "far-red",
+        "stromatolites",
+        "shark bay",
+        "2010"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brown-algae",
+      "tier": "power",
+      "t": "Brown algae such as kelp use form c plus an orange-brown pigment called fucoxanthin",
+      "k": [
+        "fucoxanthin",
+        "kelp",
+        "brown algae"
+      ],
+      "n": 0
+    },
+    {
+      "id": "etiolation",
+      "tier": "power",
+      "t": "Seedlings grown in the dark turn pale yellow (etiolation) because most flowering plants need light to finish making it",
+      "k": [
+        "etiolation",
+        "darkness",
+        "dark"
+      ],
+      "n": 0
+    },
+    {
+      "id": "engelmann",
+      "tier": "power",
+      "t": "Theodor Engelmann used a prism, algae, and oxygen-loving bacteria to show that red and blue light work best",
+      "k": [
+        "engelmann",
+        "prism"
+      ],
+      "n": 0
+    },
+    {
+      "id": "absorption-spectrum",
+      "tier": "power",
+      "t": "Its absorption spectrum has two peaks, in the blue-violet and the red, with a dip in the green",
+      "k": [
+        "absorption spectrum",
+        "peaks",
+        "blue-violet"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Pigment or organelle?",
+    "body": "Chlorophyll is the green pigment molecule; chloroplasts are the organelles that hold it, and thylakoids are the membranes inside them where it sits. The names look almost alike, so a fast buzz can come out wrong. Yellow and orange carotenoids and red anthocyanins are other plant pigments, and they are wrong too.",
+    "fix": "Listen for the noun. “This pigment” or “this molecule,” especially with a magnesium ion at its center, means chlorophyll. “This organelle” with its own DNA means chloroplast. “These orange pigments” such as carotene mean carotenoids.",
+    "line": "Real answer line: <b><u>Chlorophyll</u></b> (accept <u>chlorophyll a</u> or <u>chlorophyll b</u>; prompt on <u>pigment</u>; do not accept “chloroplast”)"
+  },
+  "tests": {
+    "right": [
+      "Chlorophyll",
+      "chlorophyll a",
+      "Chlorophyl",
+      "Clorophyll",
+      "chlorophylls"
+    ],
+    "prompt": [
+      "pigment",
+      "green pigment"
+    ],
+    "wrong": [
+      "Chloroplast",
+      "Carotene",
+      "Chlorophyta",
+      "Xanthophyll",
+      "Anthocyanin",
+      "Thylakoid"
+    ]
+  }
+}

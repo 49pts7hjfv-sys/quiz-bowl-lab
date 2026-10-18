@@ -1,0 +1,444 @@
+{
+  "id": "standard-deviation",
+  "name": "Standard deviation",
+  "mono": "SD",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "How spread out data are · The square root of the variance",
+  "dates": "Named in print by Karl Pearson, 1894",
+  "briefing": "Standard deviation measures how spread out a set of numbers is: small when the data huddle close to the average, and large when they scatter far away. To find it, you average the squared distances from the mean (that average is called the variance) and then take the square root. On a bell curve, about 68% of the data lie within one standard deviation of the mean, and about 95% lie within two.",
+  "answerHtml": "<b><u>standard deviation</u></b> (accept <u>SD</u>; prompt on <u>sigma</u> or <u>deviation</u>; do not accept “variance”)",
+  "accept": [
+    "standard deviation",
+    "standard deviations",
+    "sd",
+    "population standard deviation",
+    "sample standard deviation",
+    "standard dev",
+    "std dev",
+    "stdev",
+    "std deviation"
+  ],
+  "prompt": [
+    "sigma",
+    "deviation",
+    "deviations",
+    "root mean square deviation",
+    "spread",
+    "dispersion"
+  ],
+  "reject": [
+    "variance",
+    "variances",
+    "mean",
+    "average",
+    "arithmetic mean",
+    "median",
+    "mode",
+    "range",
+    "interquartile range",
+    "iqr",
+    "mean absolute deviation",
+    "absolute deviation",
+    "average deviation",
+    "standard error",
+    "standard error of the mean",
+    "z score",
+    "z scores",
+    "standard score",
+    "covariance",
+    "correlation",
+    "correlation coefficient",
+    "coefficient of variation",
+    "normal distribution",
+    "bell curve",
+    "gaussian distribution",
+    "empirical rule",
+    "chebyshevs inequality",
+    "six sigma",
+    "margin of error"
+  ],
+  "tests": {
+    "right": [
+      "standard deviation",
+      "Standard Deviations",
+      "SD",
+      "standard deviaton",
+      "sample standard deviation"
+    ],
+    "prompt": [
+      "sigma",
+      "deviation"
+    ],
+    "wrong": [
+      "variance",
+      "mean",
+      "range",
+      "standard error",
+      "mean absolute deviation",
+      "z-score"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Standard_deviation",
+  "qb": {
+    "q": "standard deviation",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Pafnuty Chebyshev’s [“cheh-bih-SHOFFS”] inequality guarantees that, for any data set at all, at least three-quarters of the values lie within two of these quantities of the mean, and at least eight-ninths lie within three of them. This quantity is the root-mean-square distance of data values from their mean.",
+      "r": "For a bell curve, about 68 percent of values lie within one of these of the mean. For 10 points, name this measure of spread, the square root of the variance."
+    },
+    {
+      "p": "Bessel’s correction divides by n minus 1 instead of n when this quantity is estimated from a sample, because a sample’s values sit a little closer to their own average than to the true mean. That sample version of this statistic is usually written with the letter s.",
+      "r": "The population version is written with the lowercase Greek letter sigma. For 10 points, name this measure of how spread out data are."
+    },
+    {
+      "p": "The two inflection points of a bell curve, where it switches from curving downward to curving upward, lie exactly this far on either side of the center. The formula for that curve’s height has this quantity times the square root of 2 pi in its denominator.",
+      "r": "For 10 points, name this measure of spread, symbolized by sigma, whose square is the variance."
+    },
+    {
+      "p": "A quality-control method begun at Motorola in the 1980s aims for no more than 3.4 defects per million chances, and its name combines the number six with this quantity’s symbol. Most IQ tests are scaled so that the mean is 100 and this quantity is 15.",
+      "r": "For 10 points, name this measure of spread, the square root of the variance, written with a lowercase sigma."
+    },
+    {
+      "p": "Physicists at CERN announced the Higgs boson in 2012 after their signal reached five of these units away from what chance alone would produce. A z-score counts how many of these units a value lies above or below the mean.",
+      "r": "For 10 points, name this measure of how spread out a data set is, the square root of the variance."
+    },
+    {
+      "p": "The coefficient of variation divides this quantity by the mean, so that the spread of elephant weights and mouse weights can be compared fairly. Unlike the variance, which has squared units, this quantity has the same units as the data themselves.",
+      "r": "In a bell curve, about 68 percent of the data fall within one of these of the mean. For 10 points, name this measure of spread."
+    },
+    {
+      "p": "Pearson’s correlation coefficient divides the covariance of two variables by the product of their values of this quantity, which keeps the result between negative 1 and 1. Adding the same number to every value in a data set does not change this quantity.",
+      "r": "For 10 points, name this statistic, the square root of the variance, which measures how spread out data are."
+    },
+    {
+      "p": "Investors measure the volatility of a stock by finding this quantity for its returns, and Bollinger bands on stock charts are usually drawn two of these units above and below a moving average of the price. Error bars on graphs often reach this far above and below each average.",
+      "r": "For 10 points, name this measure of spread, symbolized by a lowercase sigma, whose square is the variance."
+    },
+    {
+      "p": "When independent measurements are added together, their variances add, but this quantity does not; instead, it combines like the sides of a right triangle, as the square root of a sum of squares. Independent errors of 3 and 4 units therefore combine to give 5.",
+      "r": "This quantity is symbolized by a lowercase sigma. For 10 points, name this measure of spread, the square root of the variance."
+    },
+    {
+      "p": "The Cauchy [“koh-SHEE”] distribution, which looks like a bell curve with fatter tails, has no defined mean or variance, so this quantity does not exist for it. A normal distribution, by contrast, is completely described by its mean and this quantity.",
+      "r": "About 95 percent of a bell curve lies within two of these of the mean. For 10 points, name this measure of spread."
+    },
+    {
+      "p": "For a single roll of a fair six-sided die, this quantity is about 1.71. For the number of heads in 100 fair coin flips, the average is 50 heads and this quantity is exactly 5. This quantity is 0 only when every value is the same.",
+      "r": "Squaring it gives the variance, which is 25 for those coin flips. For 10 points, name this measure of spread."
+    },
+    {
+      "p": "The eight values 2, 4, 4, 4, 5, 5, 7, and 9 have a mean of 5, and their squared distances from that mean average out to 4, which makes this statistic equal to 2. Unlike the range, which uses only the largest and smallest values, this statistic depends on every value.",
+      "r": "This statistic has the same units as the data. For 10 points, name this measure of spread, symbolized sigma, whose square is the variance."
+    },
+    {
+      "p": "Karl Pearson first used this statistic’s name in print in 1894, and in 1918 Ronald Fisher coined a name for the square of this statistic in a paper about how traits are inherited. A z-score divides a value’s distance from the mean by this statistic.",
+      "r": "Fisher’s name for its square, variance, also appears in his technique ANOVA. For 10 points, name this square root of the variance."
+    },
+    {
+      "p": "A shortcut formula finds the square of this statistic by taking the mean of the squares of the values and subtracting the square of the mean. For the data 1, 2, and 3, that gives 14 thirds minus 4, or two-thirds.",
+      "r": "Dividing this statistic by the square root of the sample size gives the standard error. For 10 points, name this square root of the variance, symbolized sigma."
+    },
+    {
+      "p": "Because it squares each distance from the mean, this statistic is never smaller than the average absolute distance from the mean, and it is pulled upward more strongly by outliers. Multiplying every value in a data set by 10 multiplies this statistic by 10 as well.",
+      "r": "On a bell curve, about 99.7 percent of the data lie within three of these of the mean. For 10 points, name this measure of spread."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Measures how spread out a data set is around its mean (average)",
+      "k": [
+        "spread out",
+        "around its mean"
+      ],
+      "n": 0
+    },
+    {
+      "id": "root-variance",
+      "tier": "giveaway",
+      "t": "The square root of the variance, so the variance is its square",
+      "k": [
+        "square root",
+        "variance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sigma",
+      "tier": "giveaway",
+      "t": "Written with the lowercase Greek letter sigma (σ) for a whole population, or the letter s for a sample",
+      "k": [
+        "sigma",
+        "greek letter",
+        "sample"
+      ],
+      "n": 0
+    },
+    {
+      "id": "empirical-rule",
+      "tier": "giveaway",
+      "t": "68–95–99.7 rule: on a bell curve, about 68%, 95%, and 99.7% of the data lie within 1, 2, and 3 of these of the mean",
+      "k": [
+        "68–95–99.7",
+        "bell curve",
+        "99.7"
+      ],
+      "n": 0,
+      "rabbit": "Normal distribution"
+    },
+    {
+      "id": "formula",
+      "tier": "middle",
+      "t": "Average the squared distances from the mean, then take the square root (a “root-mean-square”); unlike the range, it uses every value",
+      "k": [
+        "squared distances",
+        "root-mean-square",
+        "range"
+      ],
+      "n": 0,
+      "rabbit": "Mean"
+    },
+    {
+      "id": "example",
+      "tier": "middle",
+      "t": "The data 2, 4, 4, 4, 5, 5, 7, 9 have mean 5, squared distances that average 4, and a value of 2 for it",
+      "k": [
+        "mean 5",
+        "squared distances",
+        "average 4"
+      ],
+      "n": 0
+    },
+    {
+      "id": "units",
+      "tier": "middle",
+      "t": "Has the same units as the data, while the variance has squared units",
+      "k": [
+        "same units",
+        "squared units"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shift-scale",
+      "tier": "middle",
+      "t": "It is 0 only when every value is the same; adding a constant to every value leaves it unchanged; multiplying every value by 10 multiplies it by 10",
+      "k": [
+        "constant",
+        "unchanged",
+        "every value"
+      ],
+      "n": 0
+    },
+    {
+      "id": "z-score",
+      "tier": "middle",
+      "t": "A z-score counts how many of these a value lies above or below the mean (distance from the mean divided by it)",
+      "k": [
+        "z-score",
+        "above or below"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iq",
+      "tier": "middle",
+      "t": "Most IQ tests are scaled to a mean of 100 and a value of 15 for it",
+      "k": [
+        "iq tests",
+        "scaled",
+        "mean of 100"
+      ],
+      "n": 0
+    },
+    {
+      "id": "error-bars",
+      "tier": "middle",
+      "t": "Error bars on graphs often reach this far above and below each average",
+      "k": [
+        "error bars",
+        "graphs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "standard-error",
+      "tier": "middle",
+      "t": "Dividing it by the square root of the sample size gives the standard error of a sample mean",
+      "k": [
+        "sample size"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chebyshev",
+      "tier": "power",
+      "t": "Chebyshev’s inequality: for any data set, at least 3/4 of the values lie within 2 of these of the mean, and at least 8/9 within 3",
+      "k": [
+        "chebyshev",
+        "any data set",
+        "inequality"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bessel",
+      "tier": "power",
+      "t": "Bessel’s correction: for a sample, divide by n − 1 instead of n, because sample values sit closer to their own average than to the true mean",
+      "k": [
+        "bessel",
+        "correction",
+        "true mean"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inflection",
+      "tier": "power",
+      "t": "A bell curve’s two inflection points lie exactly this far from its center; its height formula has this times √(2π) in the denominator",
+      "k": [
+        "inflection points",
+        "denominator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "six-sigma",
+      "tier": "power",
+      "t": "Six Sigma, a quality-control method begun at Motorola in the 1980s, aims for 3.4 defects per million and is named for its symbol",
+      "k": [
+        "six sigma",
+        "motorola",
+        "3.4 defects",
+        "quality-control"
+      ],
+      "n": 0
+    },
+    {
+      "id": "five-sigma",
+      "tier": "power",
+      "t": "Physicists at CERN announced the Higgs boson in 2012 after their signal reached five of these (“five sigma”) from what chance alone would give",
+      "k": [
+        "five sigma",
+        "higgs boson",
+        "cern",
+        "2012"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cv",
+      "tier": "power",
+      "t": "The coefficient of variation divides it by the mean, so the spreads of very different things can be compared",
+      "k": [
+        "coefficient of variation",
+        "compared"
+      ],
+      "n": 0
+    },
+    {
+      "id": "correlation",
+      "tier": "power",
+      "t": "Pearson’s correlation coefficient divides the covariance by the product of two of these, keeping the result between −1 and 1",
+      "k": [
+        "correlation coefficient",
+        "covariance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "volatility",
+      "tier": "power",
+      "t": "Investors call it the volatility of a stock’s returns; Bollinger bands are drawn 2 of these above and below a moving average",
+      "k": [
+        "volatility",
+        "bollinger bands",
+        "moving average"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quadrature",
+      "tier": "power",
+      "t": "For independent quantities, variances add but these do not: errors of 3 and 4 combine to 5, like the sides of a right triangle",
+      "k": [
+        "independent",
+        "variances add",
+        "right triangle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cauchy",
+      "tier": "power",
+      "t": "The Cauchy distribution has no defined mean or variance, so it has none of this either; a normal curve is fixed by its mean and this",
+      "k": [
+        "cauchy distribution",
+        "normal curve"
+      ],
+      "n": 0,
+      "rabbit": "Augustin-Louis Cauchy"
+    },
+    {
+      "id": "dice-coins",
+      "tier": "power",
+      "t": "For a fair die roll it is about 1.71 (variance 35/12); for heads in 100 fair coin flips it is exactly 5 (variance 25)",
+      "k": [
+        "fair die",
+        "coin flips",
+        "1.71"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shortcut",
+      "tier": "power",
+      "t": "Shortcut formula: its square equals the mean of the squares minus the square of the mean (for 1, 2, 3: 14/3 − 4 = 2/3)",
+      "k": [
+        "shortcut formula",
+        "mean of the squares"
+      ],
+      "n": 0
+    },
+    {
+      "id": "names",
+      "tier": "power",
+      "t": "Karl Pearson first used its name in print in 1894; Ronald Fisher named its square the “variance” in 1918 and built ANOVA (analysis of variance)",
+      "k": [
+        "karl pearson",
+        "ronald fisher",
+        "1894",
+        "1918",
+        "anova"
+      ],
+      "n": 0
+    },
+    {
+      "id": "outliers",
+      "tier": "power",
+      "t": "Because it squares distances, it is never smaller than the average absolute distance from the mean and is pulled up more by outliers",
+      "k": [
+        "outliers",
+        "absolute distance"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Variance or its square root?",
+    "body": "Standard deviation and variance are separate answer lines. The variance is the average squared distance from the mean, and the standard deviation is its square root. A tossup that says “the square of this quantity is the variance” wants standard deviation, but one that says “the square root of this quantity is the standard deviation” wants variance, and real answer lines say “do not accept” the other one. Saying only “sigma” earns a prompt.",
+    "fix": "Listen for “square” versus “square root,” and for units: standard deviation has the same units as the data, while variance has squared units. If the clue says Ronald Fisher named this quantity itself in 1918, or calls it the thing analyzed in ANOVA, answer “variance.” Mean absolute deviation and standard error are different answer lines too.",
+    "line": "Real answer line: <b><u>standard deviation</u></b> (accept <u>SD</u>; prompt on <u>sigma</u> or <u>deviation</u>; do not accept “variance”)"
+  }
+}

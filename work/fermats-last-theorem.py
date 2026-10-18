@@ -1,0 +1,225 @@
+"""Build topics/fermats-last-theorem.json (Math). QBReader mode OFF: written from known stock clues."""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+STATEMENT = "a to the n plus b to the n equals c to the n has no positive whole-number solutions for n above 2"
+
+data = {
+    "id": "fermats-last-theorem",
+    "name": "Fermat’s Last Theorem",
+    "mono": "FLT",
+    "category": "Math",
+    "qbCategory": "Science · Other Science (Math)",
+    "kicker": "No positive whole numbers solve aⁿ + bⁿ = cⁿ when n > 2 · Proved by Andrew Wiles",
+    "dates": "Stated c. 1637; proved by Andrew Wiles, 1994",
+    "briefing": (
+        "Fermat’s Last Theorem says that no positive whole numbers a, b, and c can make aⁿ + bⁿ = cⁿ true when n "
+        "is bigger than 2, even though the n = 2 version, from the Pythagorean theorem, has endless solutions like "
+        "3, 4, and 5. Around 1637, Pierre de Fermat wrote in a book’s margin that he had a proof too big to fit. "
+        "Andrew Wiles finally proved it in 1994, more than 350 years later."
+    ),
+    "answerHtml": "<b><u>Fermat’s Last Theorem</u></b> (accept <u>FLT</u>; prompt on <u>Fermat’s theorem</u>; do not accept “Fermat’s little theorem”)",
+    "accept": [
+        "fermats last theorem",
+        "fermat last theorem",
+        "flt",
+        "fermat wiles theorem",
+        "last theorem of fermat",
+    ],
+    "prompt": [
+        "fermats theorem",
+        "fermat theorem",
+        "last theorem",
+        "wiless theorem",
+        "wiles theorem",
+    ],
+    "reject": [
+        "fermats little theorem",
+        "fermat little theorem",
+        "fermats theorem on sums of two squares",
+        "fermats principle",
+        "pierre de fermat",
+        "pierre fermat",
+        "pythagorean theorem",
+        "pythagorean triples",
+        "modularity theorem",
+        "taniyama shimura conjecture",
+        "taniyama shimura theorem",
+        "beal conjecture",
+        "andrew wiles",
+        "goldbach conjecture",
+        "goldbachs conjecture",
+        "riemann hypothesis",
+        "four color theorem",
+        "poincare conjecture",
+        "fermat point",
+        "fermat numbers",
+        "fermat primes",
+    ],
+    "tests": {
+        "right": ["Fermat’s Last Theorem", "Fermat's last theorem", "FLT", "Fermats Last Theorm",
+                  "Fermat last theorem"],
+        "prompt": ["Fermat’s theorem"],
+        "wrong": ["Pierre de Fermat", "Fermat’s little theorem", "Pythagorean theorem", "Andrew Wiles",
+                  "Beal conjecture"],
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem",
+    "qb": {
+        "q": "Fermat's Last Theorem",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it.",
+    },
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "Gerhard Frey suggested that a counterexample to this statement would produce a strange elliptic curve, and in 1986 Ken Ribet proved that such a curve could not be modular. That meant this statement would follow from the Taniyama–Shimura [“tah-nee-YAH-mah shih-MOO-rah”] conjecture.",
+            "r": "Andrew Wiles proved enough of that conjecture in the 1990s. For 10 points, name this theorem that Pierre de Fermat scribbled in a margin.",
+        },
+        {
+            "p": "Ernst Kummer [“KOOM-er”] proved this statement for every exponent that is a “regular” prime, a group that includes every prime below 100 except 37, 59, and 67. Kummer’s work on it introduced “ideal numbers,” an idea that became a key part of modern algebra.",
+            "r": "For 10 points, name this theorem, finally proved by Andrew Wiles, which Pierre de Fermat claimed to have proved in a book’s margin.",
+        },
+        {
+            "p": "Sophie Germain [“zhair-MAN”] proved a special case of this statement for prime exponents p for which 2p plus 1 is also prime. Adrien-Marie Legendre [“luh-ZHAHN-druh”] and Peter Gustav Lejeune Dirichlet [“deer-ih-KLAY”] each proved the case where the exponent is 5, around 1825.",
+            "r": "For 10 points, name this theorem about the equation a to the n plus b to the n equals c to the n, which went unproven for more than 350 years.",
+        },
+        {
+            "p": "In 1908, Paul Wolfskehl [“VOLF-skayl”] left 100,000 marks as a prize for a proof of this statement, and the prize was finally awarded in 1997. Edmund Landau had cards printed to tell the many people who mailed him wrong proofs where their first mistake was.",
+            "r": "That prize went to Andrew Wiles. For 10 points, name this theorem that Pierre de Fermat wrote in the margin of a book.",
+        },
+        {
+            "p": "Leonhard Euler proved the case of this statement for cubes in 1770, though his proof had a gap. The case for fourth powers follows from a proof by infinite descent that no right triangle with whole-number sides has a perfect square as its area.",
+            "r": "Its namesake, a 17th-century French lawyer, said his own proof would not fit in a margin. For 10 points, name this theorem proved by Andrew Wiles.",
+        },
+        {
+            "p": "This statement was written next to a problem about splitting a square number into two other squares, in Claude-Gaspard Bachet’s [“bah-SHAYZ”] Latin translation of an ancient Greek book. It was first printed in 1670, five years after its author died.",
+            "r": "That book was Diophantus’s [“dy-oh-FAN-tus-iz”] _Arithmetica_. For 10 points, name this theorem whose author claimed a “truly marvelous” proof, finally proved by Andrew Wiles.",
+        },
+        {
+            "p": "In June 1993, a mathematician announced a proof of this statement at the end of a series of lectures at the Isaac Newton Institute in Cambridge, England. A gap turned up in that proof, and he fixed it in 1994 with help from his former student Richard Taylor.",
+            "r": f"That mathematician was Andrew Wiles. For 10 points, name this theorem saying that {STATEMENT}.",
+        },
+        {
+            "p": "At age 10, a future mathematician found this statement in a library book by Eric Temple Bell and decided to prove it someday. He later worked on it in near secrecy for about seven years before announcing his proof.",
+            "r": "That mathematician, Andrew Wiles, completed the proof in 1994. For 10 points, name this theorem that Pierre de Fermat claimed to have proved.",
+        },
+        {
+            "p": "For proving this statement, a British mathematician received a special silver plaque in 1998 because, at 45, he was too old for a Fields Medal. He also won the 2016 Abel Prize and was knighted.",
+            "r": "That mathematician was Andrew Wiles. For 10 points, name this theorem, which Pierre de Fermat wrote in a margin around 1637.",
+        },
+        {
+            "p": "In a 1998 episode of _The Simpsons_, Homer writes an equation on a blackboard that seems to break this statement when it is checked on most calculators. A 1995 Halloween episode showed another near miss in a three-dimensional world.",
+            "r": "For 10 points, name this theorem about whole-number powers, which Andrew Wiles proved in the 1990s.",
+        },
+        {
+            "p": "In 2013, Andrew Beal raised his prize to $1 million for proving a more general version of this statement in which the three exponents may differ. With an exponent of 2, this statement’s equation has infinitely many solutions, such as 3, 4, and 5.",
+            "r": "For 10 points, name this theorem that Pierre de Fermat claimed he could prove in a margin.",
+        },
+        {
+            "p": "Simon Singh wrote a 1997 bestseller about this statement after making a BBC documentary on its proof. That proof depends on deep links between elliptic curves and objects called modular forms.",
+            "r": "For 10 points, name this theorem that Pierre de Fermat wrote in the margin of a book, which Andrew Wiles proved.",
+        },
+        {
+            "p": "Gabriel Lamé [“lah-MAY”] proved the case of this statement for seventh powers in 1839, but his 1847 attempt at a full proof failed because it assumed that certain numbers always factor in only one way. Joseph Liouville [“lyoo-VEEL”] pointed out that flaw.",
+            "r": "For 10 points, name this theorem about the equation a to the n plus b to the n equals c to the n, which Andrew Wiles proved.",
+        },
+        {
+            "p": "In a 1989 episode of _Star Trek: The Next Generation_, Captain Jean-Luc Picard spends his free time trying to prove this statement, which the show imagined would still be unsolved in the 24th century.",
+            "r": "Five years later, Andrew Wiles completed its real proof. For 10 points, name this theorem that Pierre de Fermat claimed to have proved.",
+        },
+        {
+            "p": "In Arthur Porges’s 1954 short story “The Devil and Simon Flagg,” a mathematician bets his soul that the Devil cannot prove or disprove this statement within 24 hours. The Devil fails but becomes obsessed with the problem.",
+            "r": "For 10 points, name this theorem about a to the n plus b to the n equaling c to the n, which Andrew Wiles proved in the 1990s.",
+        },
+    ],
+    "clues": [
+        {"id": "statement", "tier": "giveaway",
+         "t": "States that aⁿ + bⁿ = cⁿ has no solutions in positive whole numbers when n is greater than 2",
+         "k": ["greater than 2", "positive whole numbers", "aⁿ + bⁿ = cⁿ"], "n": 0},
+        {"id": "margin", "tier": "giveaway",
+         "t": "Pierre de Fermat wrote it around 1637 in the margin of Diophantus’s _Arithmetica_, claiming a “truly marvelous” proof too big for the margin",
+         "k": ["margin", "truly marvelous", "arithmetica", "1637"], "n": 0, "rabbit": "Pierre de Fermat"},
+        {"id": "wiles", "tier": "giveaway",
+         "t": "Proved by British mathematician Andrew Wiles: announced in 1993, fixed with Richard Taylor in 1994, published in 1995",
+         "k": ["andrew wiles", "richard taylor", "1994"], "n": 0},
+        {"id": "pythagorean", "tier": "giveaway",
+         "t": "With n = 2 it becomes the Pythagorean equation, which has infinitely many whole-number solutions like 3, 4, 5",
+         "k": ["pythagorean", "infinitely many", "3, 4, 5"], "n": 0, "rabbit": "Pythagorean theorem"},
+        {"id": "350-years", "tier": "middle",
+         "t": "Went unproven for more than 350 years; it got its name because it was the final one of its author’s claims to be settled",
+         "k": ["350 years", "settled"], "n": 0},
+        {"id": "descent-n4", "tier": "middle",
+         "t": "The case n = 4 follows from its author’s infinite descent proof that no whole-number right triangle has a perfect-square area",
+         "k": ["infinite descent", "right triangle", "n = 4"], "n": 0},
+        {"id": "euler-n3", "tier": "middle",
+         "t": "Leonhard Euler proved the case n = 3 (cubes) in 1770, though his proof had a gap",
+         "k": ["euler", "cubes", "1770"], "n": 0, "rabbit": "Leonhard Euler"},
+        {"id": "germain", "tier": "middle",
+         "t": "Sophie Germain proved a special case for prime exponents p where 2p + 1 is also prime",
+         "k": ["sophie germain", "2p + 1"], "n": 0, "rabbit": "Prime numbers"},
+        {"id": "newton-institute", "tier": "middle",
+         "t": "Wiles announced his proof in June 1993 at the Isaac Newton Institute in Cambridge, England; a gap was found and then fixed",
+         "k": ["isaac newton institute", "cambridge", "1993", "gap"], "n": 0},
+        {"id": "modularity", "tier": "middle",
+         "t": "Wiles proved enough of the Taniyama–Shimura conjecture, which links elliptic curves and modular forms",
+         "k": ["taniyama–shimura", "elliptic curves", "modular forms"], "n": 0},
+        {"id": "age-10", "tier": "middle",
+         "t": "Wiles first read about it at age 10 in a library book by Eric Temple Bell, then worked on it in near secrecy for about seven years",
+         "k": ["eric temple bell", "age 10", "seven years", "secrecy"], "n": 0},
+        {"id": "bachet", "tier": "middle",
+         "t": "Its author’s note sat beside a problem on splitting a square into two squares in Bachet’s Latin translation; his son printed it in 1670",
+         "k": ["bachet", "two squares", "1670"], "n": 0},
+        {"id": "frey-ribet", "tier": "power",
+         "t": "Gerhard Frey linked a counterexample to a strange elliptic curve; Ken Ribet proved in 1986 that the curve could not be modular",
+         "k": ["frey", "ribet", "1986"], "n": 0},
+        {"id": "kummer", "tier": "power",
+         "t": "Ernst Kummer proved it for all “regular” prime exponents; below 100, only 37, 59, and 67 are not regular",
+         "k": ["kummer", "regular", "37, 59, and 67"], "n": 0},
+        {"id": "lame", "tier": "power",
+         "t": "Gabriel Lamé proved n = 7 in 1839; his 1847 full proof failed by assuming unique factoring, as Joseph Liouville pointed out",
+         "k": ["lamé", "liouville", "1839", "1847"], "n": 0},
+        {"id": "legendre-dirichlet", "tier": "power",
+         "t": "Adrien-Marie Legendre and Peter Gustav Lejeune Dirichlet each proved the case n = 5 around 1825",
+         "k": ["legendre", "dirichlet", "1825"], "n": 0},
+        {"id": "wolfskehl", "tier": "power",
+         "t": "Paul Wolfskehl’s 1908 prize of 100,000 marks was finally awarded to Wiles in 1997",
+         "k": ["wolfskehl", "100,000 marks", "1908"], "n": 0},
+        {"id": "landau", "tier": "power",
+         "t": "Edmund Landau had cards printed telling senders of wrong proofs where their first mistake was",
+         "k": ["landau", "cards", "first mistake"], "n": 0},
+        {"id": "honors", "tier": "power",
+         "t": "Wiles got a special silver plaque in 1998 (at 45, too old for a Fields Medal), the 2016 Abel Prize, and a knighthood",
+         "k": ["silver plaque", "fields medal", "abel prize"], "n": 0},
+        {"id": "simpsons", "tier": "power",
+         "t": "Homer Simpson’s 1998 blackboard equation seems to break it on calculators; a 1995 Halloween episode had another near miss",
+         "k": ["simpsons", "homer", "blackboard"], "n": 0},
+        {"id": "porges", "tier": "power",
+         "t": "In Arthur Porges’s story “The Devil and Simon Flagg” (1954), the Devil fails to settle it in 24 hours",
+         "k": ["porges", "simon flagg", "devil", "24 hours"], "n": 0},
+        {"id": "beal", "tier": "power",
+         "t": "Andrew Beal’s $1 million prize (2013) is for the Beal conjecture, a version with three different exponents",
+         "k": ["beal", "$1 million", "different exponents"], "n": 0},
+        {"id": "singh", "tier": "power",
+         "t": "Simon Singh wrote a 1997 bestseller about it after making a BBC documentary on its proof",
+         "k": ["simon singh", "bbc", "1997"], "n": 0},
+        {"id": "star-trek", "tier": "power",
+         "t": "In a 1989 _Star Trek: The Next Generation_ episode, Captain Picard tries to prove it in his spare time",
+         "k": ["star trek", "picard", "1989"], "n": 0},
+    ],
+    "trap": {
+        "title": "Last, little, or the man?",
+        "body": "Pierre de Fermat has his own answer line, and tossups on him use the same margin, the same _Arithmetica_, and the same Andrew Wiles. Fermat’s little theorem (if p is prime, a^p − a is a multiple of p) is a completely different statement, and the Pythagorean theorem is the n = 2 case, which does have whole-number solutions.",
+        "fix": "“This theorem,” “this statement,” or “this conjecture,” with an equation like aⁿ + bⁿ = cⁿ, means Fermat’s Last Theorem; “this man” or “this lawyer” means Fermat himself. Saying only “Fermat’s theorem” earns a prompt, so add the word “Last.”",
+        "line": "Real answer line: <b><u>Fermat’s Last Theorem</u></b> (prompt on <u>Fermat’s theorem</u>; do not accept “Fermat’s little theorem”)",
+    },
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", out)

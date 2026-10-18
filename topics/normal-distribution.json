@@ -1,0 +1,428 @@
+{
+  "id": "normal-distribution",
+  "name": "Normal distribution",
+  "mono": "NRM",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Symmetric and bell-shaped · About 68% of values within one standard deviation",
+  "dates": "First found by Abraham de Moivre, 1733",
+  "briefing": "The normal distribution is the bell-shaped curve that appears whenever many small, random effects add up, from heights to test scores. It is symmetric around its mean, and about 68% of its values fall within one standard deviation of the middle. Abraham de Moivre first found it in 1733, and it is often named for Carl Friedrich Gauss, who used it to describe errors in measurements.",
+  "answerHtml": "<b><u>normal distribution</u></b> (or <u>Gaussian distribution</u>; accept <u>bell curve</u> or <u>normal curve</u>; prompt on <u>normal</u> or <u>Gaussian</u>)",
+  "accept": [
+    "normal distribution",
+    "normal distributions",
+    "gaussian distribution",
+    "gaussian distributions",
+    "gauss distribution",
+    "bell curve",
+    "bell curves",
+    "normal curve",
+    "gaussian curve",
+    "normal probability distribution",
+    "standard normal distribution",
+    "laplace gauss distribution",
+    "gaussian probability distribution"
+  ],
+  "prompt": [
+    "normal",
+    "gaussian",
+    "distribution",
+    "probability distribution",
+    "bell shaped"
+  ],
+  "reject": [
+    "standard deviation",
+    "standard deviations",
+    "variance",
+    "mean",
+    "median",
+    "mode",
+    "binomial distribution",
+    "poisson distribution",
+    "uniform distribution",
+    "exponential distribution",
+    "t distribution",
+    "students t distribution",
+    "student t distribution",
+    "chi squared distribution",
+    "chi square distribution",
+    "log normal distribution",
+    "lognormal distribution",
+    "central limit theorem",
+    "empirical rule",
+    "68 95 99 7 rule",
+    "z score",
+    "z scores",
+    "galton board",
+    "bean machine",
+    "skewed distribution",
+    "carl friedrich gauss",
+    "gausss law",
+    "the bell jar",
+    "bell jar",
+    "normal force"
+  ],
+  "tests": {
+    "right": [
+      "normal distribution",
+      "Gaussian distribution",
+      "bell curve",
+      "normal distrubution",
+      "Normal curve"
+    ],
+    "prompt": [
+      "normal",
+      "Gaussian"
+    ],
+    "wrong": [
+      "standard deviation",
+      "binomial distribution",
+      "mean",
+      "central limit theorem",
+      "Student’s t-distribution"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Normal_distribution",
+  "qb": {
+    "q": "normal distribution",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1733, Abraham de Moivre [“duh MWAHV”] found this distribution as an approximation for the number of heads in a very large number of coin tosses. Pierre-Simon Laplace [“luh-PLAHSS”] later proved an early version of the theorem that explains why this distribution appears so often.",
+      "r": "Its graph is a symmetric bell shape. For 10 points, name this distribution, often named for Carl Friedrich Gauss."
+    },
+    {
+      "p": "In Francis Galton’s “bean machine,” balls bounce left or right off rows of pegs and pile up in bins in the shape of this distribution. Adolphe Quetelet [“keh-tuh-LAY”] found that the chest measurements of Scottish soldiers fit this distribution.",
+      "r": "About 68 percent of its values fall within one standard deviation of the mean. For 10 points, name this symmetric distribution."
+    },
+    {
+      "p": "William Sealy Gosset [“GOSS-it”], who published as “Student” while working for the Guinness brewery, found a distribution that looks more and more like this one as samples grow larger. Squaring and adding independent variables with the standard form of this distribution gives a chi-squared distribution.",
+      "r": "Its graph is symmetric, and its mean, median, and mode are all equal. For 10 points, name this probability distribution."
+    },
+    {
+      "p": "Germany’s old 10-mark banknote showed a graph of this distribution beside a portrait of the mathematician it is often named for. That mathematician used it in 1809 to describe errors in measurements of the positions of heavenly bodies.",
+      "r": "For 10 points, name this distribution named for Carl Friedrich Gauss, whose graph is a symmetric bell shape."
+    },
+    {
+      "p": "This distribution’s graph switches from curving down to curving up one standard deviation from the mean on each side. Its formula raises e to the power negative one-half times a z-score squared and divides by sigma times the square root of 2 pi.",
+      "r": "For 10 points, name this distribution, whose standard form has mean 0 and standard deviation 1."
+    },
+    {
+      "p": "The Six Sigma quality program, developed at Motorola in the 1980s, is named for a distance of six standard deviations on this distribution. The error function, written erf, is used to find areas under this distribution’s graph.",
+      "r": "About 99.7 percent of its values lie within three standard deviations of the mean. For 10 points, name this probability distribution."
+    },
+    {
+      "p": "The central limit theorem says that the average of many independent random values tends to follow this distribution, even when the individual values do not. For a large number of trials, the binomial distribution can be approximated by this distribution.",
+      "r": "Its graph peaks at the mean and is symmetric on both sides. For 10 points, name this distribution often named for Gauss."
+    },
+    {
+      "p": "The Shapiro–Wilk test checks whether a set of data comes from this distribution, and a quantile-quantile plot of data that fit it forms a nearly straight line. Data that follow this distribution have a skewness of 0 and a kurtosis of 3.",
+      "r": "Its mean, median, and mode are all the same. For 10 points, name this distribution, often named for Carl Friedrich Gauss."
+    },
+    {
+      "p": "Modern IQ tests are scaled so that scores follow this distribution with a mean of 100 and a standard deviation of 15. Adult heights for men and for women each roughly follow this distribution.",
+      "r": "About 68 percent of its values lie within one standard deviation of the mean. For 10 points, name this symmetric distribution."
+    },
+    {
+      "p": "James Clerk Maxwell showed that in a gas, each component of the molecules’ velocities follows this distribution. Teachers who “grade on a curve” sometimes assign letter grades to fit this distribution.",
+      "r": "For 10 points, name this distribution in which about 68 percent of values fall within one standard deviation of the mean."
+    },
+    {
+      "p": "Photo-editing programs often blur an image by spreading each pixel’s color according to this distribution. A table of z-scores lists the area under the standard version of this distribution’s graph to the left of each value.",
+      "r": "For 10 points, name this distribution, whose standard form has a mean of 0 and a standard deviation of 1."
+    },
+    {
+      "p": "In Brownian motion, a particle’s change in position over a given time follows this distribution, with a variance that grows in proportion to the time. Many random measurement errors in science labs also follow this distribution.",
+      "r": "Its mean, median, and mode are equal. For 10 points, name this distribution, which is shaped like a bell."
+    },
+    {
+      "p": "The highest point of the standard version of this distribution’s graph has a height of 1 over the square root of 2 pi, or about 0.4. Like every probability density, its graph encloses a total area of exactly 1.",
+      "r": "Its graph never quite touches the horizontal axis. For 10 points, name this distribution named for Carl Friedrich Gauss."
+    },
+    {
+      "p": "If the logarithm of a quantity follows this distribution, the quantity follows a “log” version of it, which is often used to model stock prices. Adding up many small, independent random effects tends to produce this distribution.",
+      "r": "Its graph is symmetric about the mean. For 10 points, name this distribution often named for Gauss."
+    },
+    {
+      "p": "The Box–Muller method turns pairs of random numbers chosen evenly between 0 and 1 into values that follow this distribution. Taking the Fourier [“FOOR-ee-ay”] transform of this distribution’s density function gives another function with the same shape.",
+      "r": "About 95 percent of its values lie within two standard deviations of the mean. For 10 points, name this probability distribution."
+    }
+  ],
+  "clues": [
+    {
+      "id": "bell-shape",
+      "tier": "giveaway",
+      "t": "Its graph is a symmetric bell shape, centered on the mean",
+      "k": [
+        "bell shape",
+        "symmetric",
+        "centered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gauss",
+      "tier": "giveaway",
+      "t": "Often named for Carl Friedrich Gauss",
+      "k": [
+        "carl friedrich gauss",
+        "named"
+      ],
+      "n": 0,
+      "rabbit": "Carl Friedrich Gauss"
+    },
+    {
+      "id": "mean-median-mode",
+      "tier": "giveaway",
+      "t": "Its mean, median, and mode are all equal",
+      "k": [
+        "median",
+        "mode",
+        "equal"
+      ],
+      "n": 0,
+      "rabbit": "Mean"
+    },
+    {
+      "id": "empirical-rule",
+      "tier": "giveaway",
+      "t": "Empirical rule: about 68% of values lie within 1 standard deviation of the mean, 95% within 2, and 99.7% within 3",
+      "k": [
+        "empirical rule",
+        "standard deviation",
+        "68%"
+      ],
+      "n": 0
+    },
+    {
+      "id": "standard-form",
+      "tier": "middle",
+      "t": "Standard form: mean 0 and standard deviation 1; a z-score is (value − mean) ÷ standard deviation",
+      "k": [
+        "z-score",
+        "standard form"
+      ],
+      "n": 0,
+      "rabbit": "Standard deviation"
+    },
+    {
+      "id": "central-limit",
+      "tier": "middle",
+      "t": "Central limit theorem: averages of many independent random values tend toward it, even when the values themselves do not",
+      "k": [
+        "central limit theorem",
+        "averages"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galton",
+      "tier": "middle",
+      "t": "Francis Galton’s bean machine drops balls through rows of pegs into bins that pile up in its shape",
+      "k": [
+        "galton",
+        "bean machine",
+        "pegs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "de-moivre",
+      "tier": "middle",
+      "t": "Abraham de Moivre found it in 1733 as an approximation for coin-toss counts, which follow a binomial distribution",
+      "k": [
+        "de moivre",
+        "1733",
+        "binomial"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gauss-errors",
+      "tier": "middle",
+      "t": "Gauss used it in 1809 to describe errors in astronomical measurements, tied to his method of least squares",
+      "k": [
+        "errors",
+        "least squares",
+        "1809"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iq-heights",
+      "tier": "middle",
+      "t": "IQ scores are scaled to fit it with mean 100 and standard deviation 15; adult heights roughly fit it; grading “on a curve” uses it",
+      "k": [
+        "heights",
+        "on a curve",
+        "iq"
+      ],
+      "n": 0
+    },
+    {
+      "id": "area-one",
+      "tier": "middle",
+      "t": "The total area under its graph is 1, the graph never touches the horizontal axis, and the standard graph peaks at about 0.4",
+      "k": [
+        "total area",
+        "horizontal axis",
+        "0.4"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inflection",
+      "tier": "power",
+      "t": "Its graph switches from curving down to curving up (its inflection points) one standard deviation from the mean",
+      "k": [
+        "inflection points",
+        "curving"
+      ],
+      "n": 0
+    },
+    {
+      "id": "formula-pi",
+      "tier": "power",
+      "t": "Its formula has e^(−z²/2) divided by σ times the square root of 2π",
+      "k": [
+        "square root of 2π",
+        "formula"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "laplace",
+      "tier": "power",
+      "t": "Pierre-Simon Laplace proved an early version of the central limit theorem, which explains why it appears so often",
+      "k": [
+        "laplace",
+        "early version"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quetelet",
+      "tier": "power",
+      "t": "Adolphe Quetelet found that the chest measurements of Scottish soldiers fit it",
+      "k": [
+        "quetelet",
+        "scottish soldiers",
+        "chest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gosset",
+      "tier": "power",
+      "t": "Relatives: Gosset’s t-distribution (“Student,” Guinness brewery) approaches it as samples grow; squaring and adding standard ones gives chi-squared",
+      "k": [
+        "gosset",
+        "guinness",
+        "t-distribution",
+        "chi-squared"
+      ],
+      "n": 0
+    },
+    {
+      "id": "six-sigma",
+      "tier": "power",
+      "t": "Six Sigma (Motorola, 1980s) is named for six standard deviations on it; the error function, erf, finds areas under it",
+      "k": [
+        "six sigma",
+        "motorola",
+        "error function"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shapiro",
+      "tier": "power",
+      "t": "The Shapiro–Wilk test and quantile-quantile plots check whether data fit it; it has skewness 0 and kurtosis 3",
+      "k": [
+        "shapiro–wilk",
+        "quantile",
+        "kurtosis",
+        "skewness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maxwell",
+      "tier": "power",
+      "t": "James Clerk Maxwell showed that each velocity component of the molecules in a gas follows it",
+      "k": [
+        "maxwell",
+        "velocity",
+        "gas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "banknote",
+      "tier": "power",
+      "t": "Germany’s 10-mark banknote showed its graph beside Gauss’s portrait",
+      "k": [
+        "banknote",
+        "10-mark"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brownian",
+      "tier": "power",
+      "t": "A Brownian particle’s change in position follows it, with a variance that grows in proportion to time",
+      "k": [
+        "brownian",
+        "variance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blur",
+      "tier": "power",
+      "t": "Photo-editing programs blur images by spreading each pixel’s color according to it",
+      "k": [
+        "blur",
+        "pixel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "log-version",
+      "tier": "power",
+      "t": "If a quantity’s logarithm follows it, the quantity follows its “log” version, often used to model stock prices",
+      "k": [
+        "logarithm",
+        "stock prices"
+      ],
+      "n": 0,
+      "rabbit": "Logarithms"
+    },
+    {
+      "id": "box-muller",
+      "tier": "power",
+      "t": "The Box–Muller method makes values that follow it from uniform random numbers; its Fourier transform has the same shape",
+      "k": [
+        "box–muller",
+        "fourier transform",
+        "uniform"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Distribution or its measures?",
+    "body": "Many clues about this distribution, such as the 68–95–99.7 rule and z-scores, are really about the standard deviation, which is its own answer line, and so are the mean and the central limit theorem. Other distributions show up too: the binomial distribution counts successes in repeated trials, and Student’s t-distribution looks similar but has thicker tails.",
+    "fix": "Listen for the noun. “This distribution” or “this curve,” with a symmetric bell shape, Gauss, or de Moivre, means the normal distribution. “This measure of spread,” written with the Greek letter sigma, means standard deviation; “this theorem” about averages means the central limit theorem.",
+    "line": "Real answer line: <b><u>normal distribution</u></b> (or <u>Gaussian distribution</u>; accept <u>bell curve</u>)"
+  }
+}

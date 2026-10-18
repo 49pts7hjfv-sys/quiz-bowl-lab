@@ -1,0 +1,340 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "keratin",
+    "name": "Keratin",
+    "mono": "KRT",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Tough protein in hair, nails, and skin · Also builds horns, hooves, feathers",
+    "dates": "Named from the Greek word for “horn”",
+    "briefing": "Keratin is the tough, stringy protein that makes up your hair, your fingernails, and the outer layer of your skin. It also builds horns, hooves, claws, beaks, feathers, and even a rhinoceros’s horn, which has no bone inside. Its chains are linked by sulfur bridges between cysteine amino acids, which is why hair perms work by breaking and remaking those bonds.",
+    "answerHtml": "<b><u>Keratin</u></b> (accept <u>keratins</u>, <u>alpha-keratin</u>, or <u>beta-keratin</u>; prompt on <u>intermediate filaments</u>; do not accept “collagen” or “chitin”)",
+    "accept": [
+        "keratin",
+        "keratins",
+        "alpha keratin",
+        "beta keratin",
+        "a keratin",
+        "b keratin"
+    ],
+    "prompt": [
+        "intermediate filaments",
+        "intermediate filament",
+        "fibrous protein",
+        "fibrous proteins"
+    ],
+    "reject": [
+        "collagen",
+        "elastin",
+        "chitin",
+        "melanin",
+        "creatine",
+        "creatinine",
+        "keratinocytes",
+        "keratinocyte",
+        "keratosis",
+        "fibroin",
+        "actin",
+        "myosin",
+        "tubulin",
+        "cartilage",
+        "cysteine",
+        "lanolin",
+        "sebum"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Keratin",
+    "qb": {
+        "q": "keratin",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In the 1930s, William Astbury took X-ray photographs of wool and found that stretching the fibers changes this protein from an “alpha” form into a “beta” form. Mammals make mostly the alpha form, while birds and reptiles make a harder beta form.",
+            "r": "For 10 points, name this tough protein that makes up hair, fingernails, and the outer layer of skin."
+        },
+        {
+            "p": "This protein’s name comes from the same Greek word for “horn” that ends the name “rhinoceros,” and a rhinoceros’s horn is made almost entirely of it, with no bone inside. Cattle and goat horns instead have a bony core covered by a sheath of this protein.",
+            "r": "It also forms hooves and claws. For 10 points, name this protein that makes up hair and fingernails."
+        },
+        {
+            "p": "The millions of tiny bristles called setae [“SEE-tee”] on a gecko’s toes, which let it cling to walls, are made of the hard “beta” form of this protein. Reptile scales and bird beaks contain that same harder form, while mammals make a softer, coiled “alpha” form.",
+            "r": "Sheep’s wool is made of it too. For 10 points, name this protein found in hair, fingernails, horns, and feathers."
+        },
+        {
+            "p": "The pronghorn of North America sheds the outer sheaths of its horns every year, and those sheaths are made of this protein. Deer antlers, by contrast, are made of bone, not this protein.",
+            "r": "This protein is rich in the sulfur-containing amino acid cysteine. For 10 points, name this protein that makes up hair, fingernails, and hooves."
+        },
+        {
+            "p": "Button-like junctions called desmosomes [“DEZ-muh-sohmz”] hold neighboring skin cells together by anchoring filaments of this protein inside them. Those filaments are a kind of intermediate filament, the middle-sized fibers of the cytoskeleton.",
+            "r": "Skin cells fill with this protein as they die. For 10 points, name this fibrous protein that makes up hair and fingernails."
+        },
+        {
+            "p": "In a process called cornification, cells rising through the epidermis fill with this protein and die, forming the stratum corneum [“KOR-nee-um”]. The shell plates of hawksbill sea turtles, once carved into combs and jewelry called tortoiseshell, are also made of this protein.",
+            "r": "For 10 points, name this protein that makes up hair, nails, and the outer layer of skin."
+        },
+        {
+            "p": "Humpback and blue whales strain tiny animals out of seawater using comb-like plates of baleen [“buh-LEEN”], which are made of this protein. Whalers once sold baleen as “whalebone,” even though it contains no bone at all.",
+            "r": "Rhinoceros horns are made of it too. For 10 points, name this tough protein found in hair, fingernails, and hooves."
+        },
+        {
+            "p": "This protein contains unusually large amounts of the sulfur-containing amino acid cysteine [“SIS-tuh-een”], whose disulfide bridges link its chains together. Perms work by breaking and re-forming those bridges while the strands are wrapped around curlers.",
+            "r": "For 10 points, name this protein that makes up hair, fingernails, and the outer layer of skin."
+        },
+        {
+            "p": "Colonial children learned the alphabet from hornbooks, wooden paddles whose lesson sheets were protected by a thin, clear layer of animal horn made of this protein. Softened horn was also pressed into combs, spoons, and see-through lantern windows.",
+            "r": "For 10 points, name this protein that also makes up hair, fingernails, and hooves."
+        },
+        {
+            "p": "A toucan’s huge but lightweight bill is a foam of bone covered by thin, overlapping tiles of this protein. The sharp, barbed quills of North American porcupines are also made of this protein.",
+            "r": "Your fingernails are made of it too. For 10 points, name this protein that forms hooves, claws, horns, and hair."
+        },
+        {
+            "p": "Linus Pauling’s alpha helix, proposed in 1951, helped explain the X-ray pattern of the form of this protein found in mammals. Francis Crick then suggested that two or more of those helices wind around each other into a “coiled coil” in this protein’s fibers.",
+            "r": "Horses’ hooves are made of it. For 10 points, name this protein that makes up hair, fingernails, and horns."
+        },
+        {
+            "p": "A narwhal’s long, spiral “horn” is really a tooth, so unlike a rhinoceros horn, it is not made of this protein. A rhino horn has no bone inside and is instead a packed mass of this protein’s fibers.",
+            "r": "For 10 points, name this fibrous protein that makes up hair, fingernails, and the horns of cattle."
+        },
+        {
+            "p": "When a snake sheds in a process called ecdysis [“EK-dih-sis”], the papery outer layer it leaves behind, including the clear caps that covered its eyes, is made mostly of this protein. Calluses on human hands are thick pads of dead skin cells packed with this protein.",
+            "r": "For 10 points, name this protein that makes up hair, fingernails, and the outer layer of skin."
+        },
+        {
+            "p": "Cats scratch posts and trees partly to pull off worn outer sheaths of their claws, which are made of this protein. The overlapping scales on a bird’s legs and feet are made of a hard form of this protein.",
+            "r": "For 10 points, name this protein that also forms hair, fingernails, horns, and hooves."
+        },
+        {
+            "p": "A bird’s beak is a bony core covered by a sheath called the rhamphotheca [“ram-foh-THEE-kuh”], which is made of this protein and keeps growing as its tip wears down. Pangolins, the only mammals covered in scales, have scales made of this protein.",
+            "r": "It also forms feathers. For 10 points, name this protein found in hair, fingernails, horns, and hooves."
+        }
+    ],
+    "clues": [
+        {
+            "id": "hair-nails-skin",
+            "tier": "giveaway",
+            "t": "Tough protein that makes up hair, fingernails, and the outer layer of skin",
+            "k": ["hair", "fingernails", "outer layer"],
+            "n": 0,
+            "rabbit": "Skin"
+        },
+        {
+            "id": "horns-hooves-feathers",
+            "tier": "giveaway",
+            "t": "Also builds horns, hooves, and feathers",
+            "k": ["horns", "hooves", "feathers"],
+            "n": 0
+        },
+        {
+            "id": "fibrous",
+            "tier": "giveaway",
+            "t": "A fibrous structural protein: long, stringy, tough, and does not dissolve in water",
+            "k": ["fibrous", "structural", "stringy"],
+            "n": 0,
+            "rabbit": "Proteins"
+        },
+        {
+            "id": "cysteine",
+            "tier": "middle",
+            "t": "Rich in the sulfur-containing amino acid cysteine, whose disulfide bridges link its chains together",
+            "k": ["cysteine", "disulfide", "sulfur"],
+            "n": 0,
+            "rabbit": "Amino acids"
+        },
+        {
+            "id": "perms",
+            "tier": "middle",
+            "t": "Perms reshape hair by breaking and re-forming its disulfide bridges",
+            "k": ["perms", "reshape"],
+            "n": 0
+        },
+        {
+            "id": "stratum-corneum",
+            "tier": "middle",
+            "t": "Cells rising through the epidermis fill with it and die, forming the tough stratum corneum",
+            "k": ["stratum corneum", "epidermis"],
+            "n": 0
+        },
+        {
+            "id": "calluses",
+            "tier": "middle",
+            "t": "Calluses are thick pads of dead skin cells packed with it",
+            "k": ["calluses", "dead skin"],
+            "n": 0
+        },
+        {
+            "id": "alpha-beta",
+            "tier": "middle",
+            "t": "Mammals make a softer “alpha” type built from helices; birds and reptiles make a harder “beta” type for beaks and scales",
+            "k": ["alpha", "beta", "mammals", "reptiles"],
+            "n": 0
+        },
+        {
+            "id": "intermediate-filaments",
+            "tier": "middle",
+            "t": "Its fibers are intermediate filaments, the middle-sized fibers of the cytoskeleton in skin and other epithelial cells",
+            "k": ["intermediate filaments", "cytoskeleton"],
+            "n": 0
+        },
+        {
+            "id": "rhino-horn",
+            "tier": "middle",
+            "t": "A rhinoceros horn is made almost entirely of it, with no bone inside",
+            "k": ["rhinoceros", "no bone"],
+            "n": 0
+        },
+        {
+            "id": "horn-sheath",
+            "tier": "middle",
+            "t": "Cattle and goat horns have a bony core inside a sheath of it; deer antlers are bone instead",
+            "k": ["sheath", "antlers", "bony core"],
+            "n": 0
+        },
+        {
+            "id": "baleen",
+            "tier": "middle",
+            "t": "Whales’ baleen plates, once sold as “whalebone,” are made of it",
+            "k": ["baleen", "whalebone", "whales"],
+            "n": 0
+        },
+        {
+            "id": "quills-claws",
+            "tier": "middle",
+            "t": "Porcupine quills, pangolin scales, and cat claws are made of it",
+            "k": ["porcupine", "pangolin", "claws"],
+            "n": 0
+        },
+        {
+            "id": "greek-horn",
+            "tier": "power",
+            "t": "Its name comes from the Greek word for “horn,” the same root at the end of “rhinoceros”",
+            "k": ["greek", "horn"],
+            "n": 0
+        },
+        {
+            "id": "astbury",
+            "tier": "power",
+            "t": "William Astbury’s 1930s X-ray photos of wool showed that stretching turns its alpha form into a beta form",
+            "k": ["astbury", "x-ray", "wool"],
+            "n": 0
+        },
+        {
+            "id": "pauling-crick",
+            "tier": "power",
+            "t": "Linus Pauling’s alpha helix (1951) helped explain its structure; Francis Crick proposed that its helices twist into a “coiled coil”",
+            "k": ["pauling", "coiled coil", "crick"],
+            "n": 0
+        },
+        {
+            "id": "desmosomes",
+            "tier": "power",
+            "t": "Desmosomes, button-like junctions between skin cells, anchor its filaments",
+            "k": ["desmosomes", "junctions"],
+            "n": 0
+        },
+        {
+            "id": "cornification",
+            "tier": "power",
+            "t": "The process in which skin cells fill with it and die is called cornification",
+            "k": ["cornification"],
+            "n": 0
+        },
+        {
+            "id": "gecko",
+            "tier": "power",
+            "t": "The tiny bristles (setae) on a gecko’s toes that let it climb walls are made of its beta form",
+            "k": ["gecko", "setae"],
+            "n": 0
+        },
+        {
+            "id": "pronghorn",
+            "tier": "power",
+            "t": "The pronghorn of North America sheds the outer sheaths of its horns, made of it, every year",
+            "k": ["pronghorn", "sheds"],
+            "n": 0
+        },
+        {
+            "id": "tortoiseshell",
+            "tier": "power",
+            "t": "Tortoiseshell combs and jewelry came from the shell plates of hawksbill sea turtles, which are made of it",
+            "k": ["tortoiseshell", "hawksbill"],
+            "n": 0
+        },
+        {
+            "id": "toucan",
+            "tier": "power",
+            "t": "A toucan’s lightweight bill is a foam of bone covered with thin, overlapping tiles of it",
+            "k": ["toucan", "tiles"],
+            "n": 0
+        },
+        {
+            "id": "rhamphotheca",
+            "tier": "power",
+            "t": "A bird’s beak is a bony core inside a sheath of it called the rhamphotheca, which keeps growing as the tip wears down",
+            "k": ["rhamphotheca", "beak"],
+            "n": 0
+        },
+        {
+            "id": "hornbook",
+            "tier": "power",
+            "t": "Hornbooks protected children’s lesson sheets under a thin, clear layer of animal horn made of it",
+            "k": ["hornbooks", "lesson sheets"],
+            "n": 0
+        },
+        {
+            "id": "narwhal",
+            "tier": "power",
+            "t": "A narwhal’s spiral “horn” is really a tooth, so unlike a rhino horn, it is not made of it",
+            "k": ["narwhal", "tooth"],
+            "n": 0
+        },
+        {
+            "id": "snake-shed",
+            "tier": "power",
+            "t": "A snake’s shed outer layer (ecdysis), including the clear caps over its eyes, is made mostly of it",
+            "k": ["ecdysis", "snake", "eye caps"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Keratin or collagen?",
+        "body": "Keratin and collagen are both tough, fibrous structural proteins, so clues about strength and fibers can point either way. Collagen is the most abundant protein in the human body and fills tendons, ligaments, cartilage, bone, and the dermis, while keratin builds hair, nails, horns, feathers, and the outer layer of skin. Players also mix up keratin with chitin, the tough carbohydrate in insect and crab exoskeletons.",
+        "fix": "Hair, nails, horns, hooves, feathers, baleen, cysteine bridges, or perms mean keratin. Tendons, ligaments, a triple helix, or vitamin C mean collagen; insect exoskeletons or fungal cell walls mean chitin. Also check the noun: “this protein” is keratin, but “these cells” of the epidermis may want keratinocytes.",
+        "line": "Real answer line: <b><u>Keratin</u></b> (accept <u>alpha-keratin</u> or <u>beta-keratin</u>; prompt on <u>intermediate filaments</u>; do not accept “collagen” or “chitin”)"
+    },
+    "tests": {
+        "right": [
+            "Keratin",
+            "keratine",
+            "Alpha-keratin",
+            "Beta keratin",
+            "Keritin"
+        ],
+        "prompt": [
+            "Intermediate filaments"
+        ],
+        "wrong": [
+            "Collagen",
+            "Chitin",
+            "Melanin",
+            "Creatine",
+            "Keratinocytes",
+            "Elastin"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / "keratin.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote topics/keratin.json")

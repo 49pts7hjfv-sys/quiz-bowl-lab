@@ -1,0 +1,488 @@
+{
+  "id": "infrared-spectroscopy",
+  "name": "Infrared spectroscopy",
+  "mono": "IR",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Bonds vibrate in light just past red · Reveals a molecule’s functional groups",
+  "dates": "Infrared light discovered by William Herschel, 1800",
+  "briefing": "Shine infrared light, the invisible light just beyond red, through a sample, and its chemical bonds absorb certain wavelengths and start to stretch and bend like tiny springs. Infrared spectroscopy records which wavelengths get absorbed, producing a spectrum full of dips. Each kind of bond has its own signature, so chemists can quickly spot groups like an alcohol’s O–H or a carbonyl’s C=O, almost like reading a molecule’s barcode.",
+  "answerHtml": "<b><u>Infrared</u></b> spectroscopy (accept <u>IR</u> spectroscopy or <u>FTIR</u>; prompt on <u>spectroscopy</u> or <u>vibrational</u> spectroscopy)",
+  "accept": [
+    "infrared spectroscopy",
+    "infrared",
+    "ir",
+    "ir spectroscopy",
+    "ir spec",
+    "infrared spectrometry",
+    "ir spectrometry",
+    "infrared spectrum",
+    "infrared spectra",
+    "ir spectrum",
+    "ir spectra",
+    "ftir",
+    "ft ir",
+    "ftir spectroscopy",
+    "fourier transform infrared",
+    "fourier transform infrared spectroscopy",
+    "infrared absorption spectroscopy",
+    "ir absorption spectroscopy",
+    "infrared spectrophotometry",
+    "ir spectrophotometry"
+  ],
+  "prompt": [
+    "spectroscopy",
+    "spectrometry",
+    "vibrational spectroscopy",
+    "absorption spectroscopy",
+    "spectrophotometry",
+    "molecular spectroscopy"
+  ],
+  "reject": [
+    "raman spectroscopy",
+    "raman",
+    "nmr",
+    "nmr spectroscopy",
+    "nuclear magnetic resonance",
+    "nuclear magnetic resonance spectroscopy",
+    "mri",
+    "mass spectrometry",
+    "mass spectroscopy",
+    "mass spec",
+    "uv vis spectroscopy",
+    "uv vis",
+    "uv spectroscopy",
+    "ultraviolet spectroscopy",
+    "ultraviolet visible spectroscopy",
+    "visible spectroscopy",
+    "x ray crystallography",
+    "x ray spectroscopy",
+    "microwave spectroscopy",
+    "atomic absorption spectroscopy",
+    "atomic emission spectroscopy",
+    "emission spectroscopy",
+    "flame test",
+    "chromatography",
+    "gas chromatography",
+    "infrared radiation",
+    "infrared light",
+    "infrared waves",
+    "infrared rays",
+    "infrared astronomy",
+    "infrared thermography",
+    "infrared camera",
+    "thermal imaging",
+    "night vision",
+    "ultraviolet",
+    "microwaves",
+    "radio waves",
+    "x rays",
+    "visible light"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Infrared_spectroscopy",
+  "qb": {
+    "q": "infrared spectroscopy",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "A molecule’s vibration shows up in this technique only if it changes the molecule’s dipole moment, a selection rule that makes the stretch of a hydrogen molecule invisible to it. Raman spectroscopy, which detects light scattered by molecules, can pick up many of the vibrations that this technique misses.",
+      "r": "This technique’s spectra plot how much light passes through a sample against wavenumber. For 10 points, name this technique that identifies functional groups using light just past the red end of the visible spectrum."
+    },
+    {
+      "p": "For molecules with a center of symmetry, the rule of mutual exclusion says that no vibration can appear both in Raman spectra and in this technique’s spectra. Carbon dioxide’s symmetric stretch is invisible to this technique, but its asymmetric stretch and its bending motion both show up.",
+      "r": "In this technique, absorbed light makes chemical bonds stretch and bend. For 10 points, name this technique for identifying functional groups."
+    },
+    {
+      "p": "Modern instruments for this technique use a Michelson interferometer with a moving mirror and then apply a Fourier transform to turn the signal into a spectrum. Solid samples are often ground up with potassium bromide and pressed into a clear pellet, since that salt does not absorb this technique’s light.",
+      "r": "The complicated region of its spectra below about 1500 reciprocal centimeters is called the fingerprint region. For 10 points, name this technique used to find a molecule’s functional groups."
+    },
+    {
+      "p": "William Coblentz pioneered this technique in the early 1900s by carefully recording the spectra of many organic compounds. The light it uses was discovered in 1800 by William Herschel, who saw a thermometer warm up when he placed it just past the red end of the spectrum made by a prism.",
+      "r": "In this technique, a carbonyl group gives a strong, sharp peak near 1700 reciprocal centimeters. For 10 points, name this technique that measures how molecules absorb light just beyond red."
+    },
+    {
+      "p": "Treating each chemical bond as a spring that obeys Hooke’s law predicts where it will absorb in this technique: stiffer bonds and lighter atoms absorb at higher wavenumbers. That model explains why a carbon–carbon triple bond absorbs at a higher wavenumber than a carbon–carbon double bond.",
+      "r": "This technique’s spectra are usually plotted against wavenumber, in reciprocal centimeters. For 10 points, name this technique that makes molecular bonds vibrate using light just past red."
+    },
+    {
+      "p": "Replacing a hydrogen atom with heavier deuterium lowers the wavenumber at which a bond absorbs in this technique, because the heavier atom vibrates more slowly. For the same reason, bonds to light hydrogen atoms, such as C–H, N–H, and O–H, absorb at the high-wavenumber end of its spectra.",
+      "r": "Alcohols show a broad peak in this technique because of hydrogen bonding. For 10 points, name this technique that identifies functional groups."
+    },
+    {
+      "p": "Carboxylic acids show an extremely broad absorption stretching from about 2500 to 3300 reciprocal centimeters in this technique, along with a strong carbonyl peak near 1700. Esters lack that broad band but still show a carbonyl peak, usually near 1735.",
+      "r": "In this technique, an alcohol’s O–H group gives a broad peak near 3300. For 10 points, name this technique that uses light just past the red end of the visible spectrum."
+    },
+    {
+      "p": "A nonlinear molecule with N atoms can vibrate in 3N minus 6 ways, so water has three, a symmetric stretch, an asymmetric stretch, and a bend, and all three absorb in this technique. A linear molecule such as carbon dioxide has 3N minus 5 ways to vibrate instead.",
+      "r": "In this technique’s spectra, the dips show light that was absorbed. For 10 points, name this technique that makes chemical bonds vibrate."
+    },
+    {
+      "p": "The same physics behind this technique explains the greenhouse effect, since carbon dioxide, water vapor, and methane absorb the heat radiation given off by Earth’s surface. Nitrogen and oxygen gas absorb almost none of it, because stretching their two identical atoms doesn’t change their dipole moment.",
+      "r": "For 10 points, name this technique that identifies functional groups by measuring which light just past red makes their bonds stretch and bend."
+    },
+    {
+      "p": "In 2022, the James Webb Space Telescope used a version of this technique to detect carbon dioxide in the atmosphere of the exoplanet WASP-39b by studying starlight that filtered through the planet’s air. That gas showed up because its asymmetric stretch absorbs strongly.",
+      "r": "On Earth, chemists use this technique to find functional groups such as carbonyls. For 10 points, name this technique that uses light just past red."
+    },
+    {
+      "p": "Liquid samples for this technique are often squeezed between polished plates of sodium chloride, which, unlike glass, let this technique’s light pass through. In this technique, nitriles show a sharp peak near 2250 reciprocal centimeters from their carbon–nitrogen triple bond.",
+      "r": "Below about 1500, its spectra have a complex fingerprint region unique to each compound. For 10 points, name this technique that makes molecular bonds stretch and bend."
+    },
+    {
+      "p": "Chemists can follow the conversion of an alcohol into a ketone with this technique by watching a broad peak near 3300 reciprocal centimeters disappear while a sharp peak near 1715 appears. Those peaks come from the alcohol’s O–H group and the ketone’s C=O group.",
+      "r": "A strong peak near 1700 in this technique signals a carbonyl. For 10 points, name this technique that identifies functional groups using light just past red."
+    },
+    {
+      "p": "In this technique, primary amines show two N–H peaks, from a symmetric and an asymmetric stretch, while secondary amines show only one and tertiary amines show none. Terminal alkynes show a sharp C–H peak near 3300 reciprocal centimeters.",
+      "r": "This technique is a quick way to find a molecule’s functional groups. For 10 points, name this technique that makes chemical bonds vibrate."
+    },
+    {
+      "p": "The light used in this technique has too little energy to make electrons jump between energy levels, as ultraviolet and visible light can, but enough to change how molecules vibrate. Its spectra usually cover wavenumbers from 4000 down to 400 reciprocal centimeters.",
+      "r": "Its spectra are read with wavenumber decreasing from left to right. For 10 points, name this technique that uses light just past red to find functional groups."
+    },
+    {
+      "p": "Forensic labs use this technique to identify paint chips and fibers by matching their spectra to reference libraries. Unlike nuclear magnetic resonance, which maps a molecule’s carbon and hydrogen atoms, this technique mainly reveals which functional groups are present.",
+      "r": "Its spectra plot percent transmittance against wavenumber. For 10 points, name this technique that measures how molecules absorb light just beyond red."
+    }
+  ],
+  "clues": [
+    {
+      "id": "functional-groups",
+      "tier": "giveaway",
+      "t": "Identifies a molecule’s functional groups by measuring which light just past the red end of the visible spectrum it absorbs",
+      "k": [
+        "functional groups",
+        "red end"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vibrations",
+      "tier": "giveaway",
+      "t": "Absorbed light makes chemical bonds vibrate by stretching and bending",
+      "k": [
+        "vibrate",
+        "stretching",
+        "bending"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carbonyl",
+      "tier": "giveaway",
+      "t": "A strong, sharp peak near 1700 reciprocal centimeters means a carbonyl (C=O) group",
+      "k": [
+        "carbonyl",
+        "1700"
+      ],
+      "n": 0
+    },
+    {
+      "id": "broad-oh",
+      "tier": "giveaway",
+      "t": "An alcohol’s O–H group gives a broad peak near 3300, widened by hydrogen bonding",
+      "k": [
+        "broad",
+        "alcohol",
+        "hydrogen bonding"
+      ],
+      "n": 0,
+      "rabbit": "Hydrogen bonds"
+    },
+    {
+      "id": "transmittance",
+      "tier": "middle",
+      "t": "Spectra plot percent transmittance against wavenumber, with dips where light was absorbed",
+      "k": [
+        "transmittance",
+        "wavenumber",
+        "dips"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wavenumber",
+      "tier": "middle",
+      "t": "Wavenumber is one over the wavelength, in reciprocal centimeters; most spectra run from 4000 down to 400",
+      "k": [
+        "reciprocal centimeters",
+        "4000",
+        "400"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fingerprint",
+      "tier": "middle",
+      "t": "The fingerprint region, below about 1500 reciprocal centimeters, has a complex pattern unique to each compound",
+      "k": [
+        "fingerprint region",
+        "1500",
+        "unique"
+      ],
+      "n": 0
+    },
+    {
+      "id": "herschel",
+      "tier": "middle",
+      "t": "William Herschel discovered this kind of light in 1800 with a thermometer placed past the red end of a prism’s spectrum",
+      "k": [
+        "herschel",
+        "1800",
+        "thermometer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ch-nitrile",
+      "tier": "middle",
+      "t": "C–H stretches appear near 2850 to 3000; nitriles show a sharp C≡N peak near 2250",
+      "k": [
+        "nitriles",
+        "2250"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greenhouse",
+      "tier": "middle",
+      "t": "Greenhouse gases like carbon dioxide, water vapor, and methane absorb this kind of light; nitrogen and oxygen gas barely do",
+      "k": [
+        "greenhouse gases",
+        "methane",
+        "nitrogen"
+      ],
+      "n": 0,
+      "rabbit": "Carbon dioxide"
+    },
+    {
+      "id": "carboxylic",
+      "tier": "middle",
+      "t": "Carboxylic acids show a very broad O–H band from about 2500 to 3300 plus a carbonyl peak near 1700",
+      "k": [
+        "carboxylic acids",
+        "2500",
+        "very broad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "compare",
+      "tier": "middle",
+      "t": "NMR maps carbon and hydrogen atoms and mass spectrometry weighs fragments, but this mainly reveals functional groups",
+      "k": [
+        "nmr",
+        "mass spectrometry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vibrational-energy",
+      "tier": "middle",
+      "t": "Its light can’t make electrons jump between energy levels the way ultraviolet light can, but it changes how molecules vibrate",
+      "k": [
+        "ultraviolet",
+        "electrons",
+        "energy levels"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monitoring",
+      "tier": "middle",
+      "t": "Turning an alcohol into a ketone makes the broad O–H peak vanish and a C=O peak near 1715 appear",
+      "k": [
+        "ketone",
+        "1715",
+        "vanish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dipole-rule",
+      "tier": "power",
+      "t": "Selection rule: a vibration absorbs only if it changes the molecule’s dipole moment",
+      "k": [
+        "dipole moment",
+        "selection rule"
+      ],
+      "n": 0
+    },
+    {
+      "id": "co2-modes",
+      "tier": "power",
+      "t": "Carbon dioxide’s symmetric stretch doesn’t absorb, but its asymmetric stretch and bending do",
+      "k": [
+        "symmetric stretch",
+        "asymmetric stretch",
+        "bending"
+      ],
+      "n": 0
+    },
+    {
+      "id": "raman",
+      "tier": "power",
+      "t": "Raman spectroscopy, which measures scattered light, is its partner; the rule of mutual exclusion applies to molecules with a center of symmetry",
+      "k": [
+        "raman",
+        "mutual exclusion",
+        "center of symmetry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "interferometer",
+      "tier": "power",
+      "t": "Fourier-transform instruments use a Michelson interferometer with a moving mirror",
+      "k": [
+        "michelson interferometer",
+        "fourier",
+        "mirror"
+      ],
+      "n": 0
+    },
+    {
+      "id": "salt-plates",
+      "tier": "power",
+      "t": "Samples go between sodium chloride plates or into potassium bromide pellets, because those salts, unlike glass, let this light through",
+      "k": [
+        "sodium chloride",
+        "potassium bromide",
+        "pellets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coblentz",
+      "tier": "power",
+      "t": "William Coblentz pioneered it in the early 1900s by recording the spectra of many organic compounds",
+      "k": [
+        "coblentz",
+        "early 1900s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hookes-law",
+      "tier": "power",
+      "t": "Bonds act like springs obeying Hooke’s law: stiffer bonds and lighter atoms absorb at higher wavenumbers, so triple bonds absorb higher than double bonds",
+      "k": [
+        "hooke’s law",
+        "springs",
+        "triple bonds"
+      ],
+      "n": 0,
+      "rabbit": "Hooke’s law"
+    },
+    {
+      "id": "deuterium",
+      "tier": "power",
+      "t": "Replacing hydrogen with heavier deuterium lowers a bond’s absorption wavenumber",
+      "k": [
+        "deuterium",
+        "heavier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "modes",
+      "tier": "power",
+      "t": "A nonlinear molecule has 3N − 6 ways to vibrate (3N − 5 if linear); water has three",
+      "k": [
+        "nonlinear",
+        "3n",
+        "water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amines",
+      "tier": "power",
+      "t": "Primary amines show two N–H peaks, secondary amines one, and tertiary amines none",
+      "k": [
+        "primary amines",
+        "secondary",
+        "tertiary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alkynes",
+      "tier": "power",
+      "t": "Terminal alkynes show a sharp C–H peak near 3300",
+      "k": [
+        "terminal alkynes",
+        "3300"
+      ],
+      "n": 0
+    },
+    {
+      "id": "webb",
+      "tier": "power",
+      "t": "In 2022, the James Webb Space Telescope used it to find carbon dioxide in the atmosphere of the exoplanet WASP-39b",
+      "k": [
+        "james webb",
+        "wasp-39b",
+        "2022"
+      ],
+      "n": 0
+    },
+    {
+      "id": "esters",
+      "tier": "power",
+      "t": "Esters show a carbonyl peak usually near 1735 but no broad O–H band",
+      "k": [
+        "esters",
+        "1735"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forensics",
+      "tier": "power",
+      "t": "Forensic labs identify paint chips and fibers by matching their spectra to reference libraries",
+      "k": [
+        "forensic",
+        "paint chips",
+        "fibers"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Technique, not the light",
+    "body": "Physics tossups sometimes ask for infrared radiation itself, the light William Herschel discovered, while chemistry tossups ask for this technique that uses it. Other spectroscopy answer lines are close cousins: NMR maps a molecule’s carbon and hydrogen atoms, mass spectrometry weighs its fragments, and Raman spectroscopy also measures vibrations, but by scattering light instead of absorbing it.",
+    "fix": "Wavenumbers, functional groups, bond stretching, and peaks near 1700 or 3300 mean this technique. Chemical shifts and magnetic fields mean NMR; mass-to-charge ratios mean mass spectrometry; scattered light points to Raman.",
+    "line": "Real answer line: <b><u>Infrared</u></b> spectroscopy (accept <u>IR</u> spectroscopy or <u>FTIR</u>; prompt on <u>spectroscopy</u>)"
+  },
+  "tests": {
+    "right": [
+      "Infrared spectroscopy",
+      "IR spectroscopy",
+      "infared spectroscopy",
+      "FTIR",
+      "Infrared",
+      "IR"
+    ],
+    "prompt": [
+      "Spectroscopy",
+      "Vibrational spectroscopy"
+    ],
+    "wrong": [
+      "Raman spectroscopy",
+      "NMR",
+      "Mass spectrometry",
+      "UV-Vis spectroscopy",
+      "Infrared radiation",
+      "Chromatography"
+    ]
+  }
+}

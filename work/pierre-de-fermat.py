@@ -1,0 +1,220 @@
+"""Build topics/pierre-de-fermat.json (Math). QBReader mode OFF: written from known stock clues."""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+LT = "“Last Theorem”"
+
+data = {
+    "id": "pierre-de-fermat",
+    "name": "Pierre de Fermat",
+    "mono": "PF",
+    "category": "Math",
+    "qbCategory": "Science · Other Science (Math)",
+    "kicker": "French lawyer and amateur mathematician · Famous for a note in a margin",
+    "dates": "Early 1600s–1665",
+    "briefing": (
+        "Pierre de Fermat [“fair-MAH”] was a French lawyer who did mathematics in his spare time, yet he "
+        "helped invent probability, analytic geometry, and modern number theory. Around 1637, he wrote in the "
+        "margin of an ancient Greek math book that he had a “truly marvelous” proof that the margin was too "
+        "small to hold. That claim, his “Last Theorem,” stumped mathematicians for more than 350 years, until "
+        "Andrew Wiles proved it in the 1990s."
+    ),
+    "answerHtml": "<b><u>Pierre de Fermat</u></b> [“fair-MAH”] (accept <u>Fermat</u>)",
+    "accept": [
+        "pierre de fermat",
+        "fermat",
+        "pierre fermat",
+        "p de fermat",
+    ],
+    "prompt": [],
+    "reject": [
+        "fermats last theorem",
+        "fermat last theorem",
+        "fermats little theorem",
+        "fermat little theorem",
+        "fermats principle",
+        "fermat principle",
+        "fermat point",
+        "fermat points",
+        "fermat prime",
+        "fermat primes",
+        "fermat number",
+        "fermat numbers",
+        "fermat spiral",
+        "fermats spiral",
+        "enrico fermi",
+        "fermi",
+        "rene descartes",
+        "descartes",
+        "blaise pascal",
+        "pascal",
+        "marin mersenne",
+        "mersenne",
+        "andrew wiles",
+        "wiles",
+        "diophantus",
+        "evangelista torricelli",
+        "torricelli",
+        "pierre simon laplace",
+        "laplace",
+    ],
+    "tests": {
+        "right": ["Pierre de Fermat", "Fermat", "Pierre Fermat", "Fermet", "Fermat’s"],
+        "prompt": [],
+        "wrong": ["Fermat’s Last Theorem", "Enrico Fermi", "Descartes", "Blaise Pascal",
+                  "Fermat’s little theorem", "Andrew Wiles"],
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Pierre_de_Fermat",
+    "qb": {
+        "q": "Fermat",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it.",
+    },
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "In a letter dated Christmas Day, 1640, this man told Marin Mersenne [“mair-SEN”] that an odd prime is a sum of two squares exactly when it is 1 more than a multiple of 4, as 13 is 4 plus 9. Leonhard Euler later published the first proof.",
+            "r": f"This lawyer did mathematics in his spare time. For 10 points, name this French mathematician whose {LT} was finally proved by Andrew Wiles.",
+        },
+        {
+            "p": "This man developed the method of infinite descent and used it to prove that no right triangle with whole-number sides can have an area that is a perfect square. That proof settles the fourth-power case of his most famous claim.",
+            "r": f"He wrote that claim in the margin of a book by Diophantus [“dy-oh-FAN-tus”]. For 10 points, name this French mathematician whose {LT} went unproven for more than 350 years.",
+        },
+        {
+            "p": "In 1657, this man challenged English mathematicians such as John Wallis to find whole-number solutions to equations of the form x squared minus N y squared equals 1. Leonhard Euler later mistakenly named those equations after John Pell.",
+            "r": "For 10 points, name this French mathematician who wrote that a book’s margin was too narrow to hold his proof.",
+        },
+        {
+            "p": "This man’s method for factoring an odd number writes it as a difference of two squares, as when 91 equals 100 minus 9, which equals 13 times 7. He first stated his “little theorem” about primes in a 1640 letter to Bernard Frénicle de Bessy [“fray-NEE-kluh duh beh-SEE”].",
+            "r": f"For 10 points, name this French mathematician whose {LT} says that a to the n plus b to the n never equals c to the n in positive whole numbers for n above 2.",
+        },
+        {
+            "p": "This man served as a councillor in the parlement of Toulouse [“too-LOOZ”], a high court. He challenged Evangelista Torricelli [“tor-ih-CHEL-ee”] to find the point inside a triangle with the smallest total distance to its three corners, a point now named for this man.",
+            "r": "In 1654, he and Blaise Pascal [“pass-KAL”] exchanged letters that began probability theory. For 10 points, name this French mathematician.",
+        },
+        {
+            "p": "This man claimed that every positive whole number is the sum of at most three triangular numbers, at most four squares, and at most five pentagonal numbers. Augustin-Louis Cauchy [“koh-SHEE”] finally proved the full claim in 1813, long after this man died without leaving a proof.",
+            "r": "For 10 points, name this French mathematician who said he had a “truly marvelous” proof of his “Last Theorem.”",
+        },
+        {
+            "p": "Five years after this man died in Castres [“KAS-truh”], his son Clément-Samuel published a new edition of an ancient Greek book on number theory that included this man’s own comments on its problems.",
+            "r": f"One comment claimed a proof too big to fit in the margin. For 10 points, name this French mathematician whose {LT} Andrew Wiles proved.",
+        },
+        {
+            "p": "This man argued with René Descartes [“day-KART”] about optics and about how to find tangent lines. His principle of least time says that light travels between two points along the path that takes the shortest time, which explains why light bends when it passes from air into water.",
+            "r": f"For 10 points, name this French mathematician whose {LT} stumped mathematicians for more than three centuries.",
+        },
+        {
+            "p": "In a manuscript introducing “plane and solid loci,” this man used equations in two unknowns to describe lines, circles, and other curves. He developed that analytic geometry at about the same time as René Descartes [“day-KART”], but independently of him.",
+            "r": f"This man and Blaise Pascal founded probability theory in their letters. For 10 points, name this French mathematician whose {LT} Andrew Wiles proved in the 1990s.",
+        },
+        {
+            "p": "Decades before Isaac Newton and Gottfried Leibniz developed calculus, this man found the highest and lowest points of curves and drew their tangent lines with a method he called “adequality.” He did this mathematics only in his spare time, while working as a lawyer.",
+            "r": f"For 10 points, name this French “Prince of Amateurs,” whose {LT} was proved by Andrew Wiles.",
+        },
+        {
+            "p": "This man guessed that every number of the form 2 to the power 2 to the n, plus 1, is prime, which works for 3, 5, 17, 257, and 65,537. Leonhard Euler disproved that guess by showing that 2 to the 32nd power, plus 1, is divisible by 641.",
+            "r": f"For 10 points, name this French mathematician, whose {LT} is about a to the n plus b to the n equaling c to the n.",
+        },
+        {
+            "p": "This man rarely published, sharing his results in letters to friends such as Marin Mersenne [“mair-SEN”]. His “little theorem,” the basis of fast computer tests for prime numbers, says that if p is prime, then a to the p, minus a, is always a multiple of p.",
+            "r": f"For 10 points, name this French mathematician whose {LT} was proved by Andrew Wiles in the 1990s.",
+        },
+        {
+            "p": "After the Chevalier de Méré [“may-RAY”] asked how to split the money from a game of chance that ends early, this man and a fellow Frenchman solved the “problem of points” in a series of 1654 letters.",
+            "r": f"Those letters with Blaise Pascal [“pass-KAL”] helped found probability theory. For 10 points, name this French mathematician whose {LT} Andrew Wiles proved.",
+        },
+        {
+            "p": "Born in Beaumont-de-Lomagne [“boh-MOHN duh loh-MAHN-yuh”], this man spent his career as a lawyer and councillor in Toulouse [“too-LOOZ”] and died in Castres [“KAS-truh”] in 1665. He did mathematics only in his spare time and rarely published it.",
+            "r": f"He is often called the “Prince of Amateurs.” For 10 points, name this French mathematician whose {LT} Andrew Wiles proved.",
+        },
+        {
+            "p": "A spiral named for this man, with the polar equation r squared equals a squared times theta, is used to model the pattern of seeds in a sunflower head. He also found the areas under curves of the form y equals x to the n.",
+            "r": f"For 10 points, name this French mathematician whose {LT} about whole-number powers was proved by Andrew Wiles.",
+        },
+    ],
+    "clues": [
+                {"id": "last-theorem", "tier": "giveaway",
+         "t": "His “Last Theorem”: aⁿ + bⁿ = cⁿ has no positive whole-number solutions when n > 2; Andrew Wiles proved it in the 1990s",
+         "k": ["last theorem", "andrew wiles", "wiles"], "n": 0, "rabbit": "Fermat’s Last Theorem"},
+        {"id": "margin", "tier": "giveaway",
+         "t": "Wrote in the margin of Diophantus’s _Arithmetica_ that he had a “truly marvelous” proof that the margin was too narrow to hold",
+         "k": ["margin", "diophantus", "arithmetica", "truly marvelous"], "n": 0},
+        {"id": "probability", "tier": "giveaway",
+         "t": "His 1654 letters with Blaise Pascal about games of chance helped found probability theory",
+         "k": ["probability", "pascal", "1654"], "n": 0},
+        {"id": "lawyer", "tier": "middle",
+         "t": "Worked as a lawyer and did mathematics only in his spare time, so he is called the “Prince of Amateurs”",
+         "k": ["lawyer", "prince of amateurs", "spare time"], "n": 0},
+        {"id": "little-theorem", "tier": "middle",
+         "t": "“Little theorem”: if p is prime, a^p − a is a multiple of p (1640 letter to Frénicle de Bessy); it underlies fast computer tests for primes",
+         "k": ["little theorem", "frénicle", "1640"], "n": 0, "rabbit": "Prime numbers"},
+        {"id": "analytic-geometry", "tier": "middle",
+         "t": "Developed analytic geometry, using equations to describe lines and curves, independently of René Descartes",
+         "k": ["analytic geometry", "descartes", "equations"], "n": 0, "rabbit": "René Descartes"},
+        {"id": "least-time", "tier": "middle",
+         "t": "Principle of least time: light follows the quickest path, which explains refraction; he argued with Descartes about optics and tangent lines",
+         "k": ["least time", "refraction", "optics"], "n": 0, "rabbit": "Refraction"},
+        {"id": "adequality", "tier": "middle",
+         "t": "His method of “adequality” found maxima, minima, and tangent lines decades before Newton and Leibniz developed calculus",
+         "k": ["adequality", "maxima", "tangent lines", "calculus"], "n": 0},
+        {"id": "power-of-two-guess", "tier": "middle",
+         "t": "Guessed every number 2^(2ⁿ) + 1 is prime (3, 5, 17, 257, 65,537); Euler showed 2³² + 1 is divisible by 641",
+         "k": ["euler", "641", "65,537"], "n": 0, "rabbit": "Leonhard Euler"},
+        {"id": "problem-of-points", "tier": "middle",
+         "t": "The “problem of points,” raised by the Chevalier de Méré, asked how to split the stakes of a game that ends early",
+         "k": ["problem of points", "méré", "stakes"], "n": 0},
+        {"id": "letters", "tier": "middle",
+         "t": "Rarely published; he shared his results in letters to friends such as the friar Marin Mersenne",
+         "k": ["mersenne", "letters", "rarely published"], "n": 0},
+        {"id": "triangle-point", "tier": "middle",
+         "t": "Challenged Torricelli to find the point in a triangle with the smallest total distance to its three corners; that point is named for him",
+         "k": ["torricelli", "smallest total distance", "triangle"], "n": 0, "rabbit": "Triangles"},
+        {"id": "christmas", "tier": "power",
+         "t": "Christmas Day, 1640, letter to Mersenne: an odd prime is a sum of two squares exactly when it is 1 more than a multiple of 4",
+         "k": ["christmas", "sum of two squares", "multiple of 4"], "n": 0},
+        {"id": "descent", "tier": "power",
+         "t": "Developed proof by infinite descent and used it to show no right triangle with whole-number sides has a perfect-square area",
+         "k": ["infinite descent", "right triangle", "perfect-square"], "n": 0},
+        {"id": "pell", "tier": "power",
+         "t": "In 1657, challenged English mathematicians such as John Wallis to solve x² − Ny² = 1; Euler later misnamed it for John Pell",
+         "k": ["pell", "wallis", "1657"], "n": 0},
+        {"id": "factoring", "tier": "power",
+         "t": "His factoring method writes an odd number as a difference of two squares: 91 = 100 − 9 = 13 × 7",
+         "k": ["difference of two squares", "factoring", "91"], "n": 0},
+        {"id": "polygonal", "tier": "power",
+         "t": "Claimed every positive whole number is a sum of at most 3 triangular numbers, 4 squares, 5 pentagonal numbers, and so on; Cauchy proved it in 1813",
+         "k": ["triangular numbers", "pentagonal", "cauchy", "1813"], "n": 0, "rabbit": "Augustin-Louis Cauchy"},
+        {"id": "son", "tier": "power",
+         "t": "His son Clément-Samuel published Diophantus’s _Arithmetica_ with his margin notes in 1670, five years after he died in Castres",
+         "k": ["clément-samuel", "castres", "1670"], "n": 0},
+        {"id": "toulouse", "tier": "power",
+         "t": "Born in Beaumont-de-Lomagne; served as a councillor in the parlement (high court) of Toulouse; died in Castres in 1665",
+         "k": ["toulouse", "beaumont-de-lomagne", "parlement", "councillor"], "n": 0},
+        {"id": "loci", "tier": "power",
+         "t": "His manuscript introducing “plane and solid loci” described lines and curves with equations in two unknowns",
+         "k": ["plane and solid loci", "loci", "two unknowns"], "n": 0},
+        {"id": "spiral", "tier": "power",
+         "t": "A spiral named for him (r² = a²θ) models the pattern of seeds in a sunflower head",
+         "k": ["spiral", "sunflower"], "n": 0},
+        {"id": "areas", "tier": "power",
+         "t": "Found the areas under curves of the form y = xⁿ, an early step toward integral calculus",
+         "k": ["areas", "integral calculus"], "n": 0, "rabbit": "Integrals"},
+    ],
+    "trap": {
+        "title": "The man or his theorem?",
+        "body": "Pierre de Fermat and his “Last Theorem” are separate answer lines that share almost every clue: the margin of Diophantus’s _Arithmetica_, the “truly marvelous” proof, and Andrew Wiles. Other tossups want one of his namesakes, such as Fermat’s little theorem or Fermat’s principle of least time. Don’t confuse him with Enrico Fermi, a 20th-century physicist.",
+        "fix": "Listen for the noun: “this man,” “this lawyer,” or “this mathematician” means Pierre de Fermat; “this theorem,” “this statement,” or “this equation” means Fermat’s Last Theorem. Clues about his life, like Toulouse, Pascal, or Mersenne, point to the man.",
+        "line": "Real answer line: <b><u>Pierre de Fermat</u></b> [“fair-MAH”] (accept <u>Fermat</u>)",
+    },
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", out)

@@ -1,0 +1,435 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "titan-moon",
+    "name": "Titan (moon)",
+    "mono": "TTN",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Saturn’s largest moon · The only moon with a thick atmosphere",
+    "dates": "Discovered 1655; Huygens probe landed 2005",
+    "briefing": "Titan, Saturn’s largest moon, is bigger than the planet Mercury and is the only moon wrapped in a thick atmosphere. Under its orange haze, methane falls as rain and fills rivers, lakes, and seas, making it the only world besides Earth known to have liquid on its surface. In 2005, Europe’s Huygens probe parachuted down to its frozen ground, the most distant landing ever made as of 2025.",
+    "answerHtml": "<b><u>Titan</u></b>",
+    "accept": [
+        "titan",
+        "moon titan"
+    ],
+    "prompt": [],
+    "reject": [
+        "titans",
+        "titian",
+        "titania",
+        "triton",
+        "ganymede",
+        "enceladus",
+        "hyperion",
+        "titanium"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Titan_(moon)",
+    "qb": {
+        "q": "Titan",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1944, Gerard Kuiper [“KY-per”] found methane on this world, making it the first moon known to have an atmosphere. The air at its surface presses down about one and a half times as hard as Earth’s air does.",
+            "r": "That air is mostly nitrogen. For 10 points, name this largest moon of Saturn."
+        },
+        {
+            "p": "Pictures from the surface of this moon showed rounded pebbles, probably made of water ice, like stones on a riverbed. The lander that took them had parachuted down through this moon’s orange haze for more than two hours.",
+            "r": "That lander, Huygens, touched down on January 14, 2005. For 10 points, name this largest moon of Saturn."
+        },
+        {
+            "p": "Christiaan Huygens [“HOY-gunz”] discovered this moon in 1655, the first new moon found since Galileo spotted four around Jupiter in 1610. It was also the first moon ever found circling Saturn.",
+            "r": "In 1847, John Herschel named it for the generation of gods that included Cronus. For 10 points, name this largest moon of Saturn."
+        },
+        {
+            "p": "Kraken Mare, the largest sea on this moon, and its other seas are named for sea monsters, such as Ligeia [“lih-JEE-uh”] and Punga. Cassini’s radar first spotted lakes there in 2006, mostly near this moon’s north pole.",
+            "r": "Those seas hold liquid methane and ethane. For 10 points, name this moon, the only world besides Earth known to have stable liquid on its surface."
+        },
+        {
+            "p": "A bright region the size of Australia on this moon is named Xanadu, after the summer capital of Kublai Khan described in Samuel Taylor Coleridge’s poem “Kubla Khan.” The Hubble Space Telescope first spotted Xanadu through this moon’s haze in 1994, using infrared light.",
+            "r": "For 10 points, name this hazy moon of Saturn, the second-largest moon in the solar system."
+        },
+        {
+            "p": "To get a close look at this moon in 1980, Voyager 1 took a path that flung it up out of the plane of the planets, so it could not go on to visit Uranus or Neptune. Even so, Voyager 1’s cameras could not see through this moon’s thick orange haze.",
+            "r": "That haze surrounds the only moon with a thick atmosphere. For 10 points, name this largest moon of Saturn."
+        },
+        {
+            "p": "In 2019, NASA chose Dragonfly, a car-sized drone with eight rotors, to explore this moon by flying from place to place, which is easier there because of the thick air and weak gravity. Dragonfly is designed to study chemistry that might lead to life.",
+            "r": "For 10 points, name this moon of Saturn, where the Huygens probe landed in 2005."
+        },
+        {
+            "p": "On this moon, a cycle much like Earth’s water cycle runs on methane instead: clouds of methane drop rain that carves river channels and fills lakes. The surface is about minus 180 degrees Celsius, so cold that water ice is as hard as rock.",
+            "r": "It is the second-largest moon in the solar system. For 10 points, name this moon of Saturn, which has a thick nitrogen atmosphere."
+        },
+        {
+            "p": "This moon is wider than the planet Mercury but has less than half of Mercury’s mass, because it is about half ice. It circles its planet about once every 16 days, always keeping the same face toward it.",
+            "r": "Only Jupiter’s Ganymede [“GAN-ih-meed”] is a bigger moon. For 10 points, name this largest moon of Saturn."
+        },
+        {
+            "p": "Cassini found that this moon flexes as it orbits Saturn, which suggests that a salty ocean of liquid water lies deep beneath its icy crust. Dunes made of grains of organic material ripple across the region around its equator.",
+            "r": "For 10 points, name this moon with a thick nitrogen atmosphere, the largest of Saturn’s."
+        },
+        {
+            "p": "Sunlight breaks apart methane high in this moon’s air, and the pieces join into orange, smog-like particles called tholins [“THOH-linz”], a name coined by Carl Sagan. Those particles slowly drift down onto the ground below.",
+            "r": "This moon was discovered by Christiaan Huygens in 1655. For 10 points, name this hazy moon, the largest of Saturn’s."
+        },
+        {
+            "p": "Mountains on this moon are named for mountains in J. R. R. Tolkien’s Middle-earth, and its lakes are named for lakes on Earth. One of them, Ontario Lacus [“LAH-kus”], is about the size of Lake Ontario.",
+            "r": "Most of its seas lie near its north pole. For 10 points, name this moon of Saturn with lakes of liquid methane."
+        },
+        {
+            "p": "The Cassini spacecraft flew past this moon more than 100 times, using its gravity to change course, and a final “goodbye kiss” flyby in April 2017 sent Cassini on its last orbits before it plunged into Saturn.",
+            "r": "For 10 points, name this largest moon of Saturn, which has a thick atmosphere."
+        },
+        {
+            "p": "Saturn’s lumpy moon Hyperion is locked in a rhythm with this larger moon, circling three times for every four of its orbits. On Christmas Day 2004, the Cassini spacecraft released a probe that landed on this moon about three weeks later.",
+            "r": "For 10 points, name this moon, the only one in the solar system with a thick atmosphere."
+        },
+        {
+            "p": "Because Saturn takes about 29 and a half years to orbit the Sun, each season on this moon lasts more than seven Earth years, and Cassini watched spring arrive in its north. Scientists study its smoggy haze for clues to chemistry like that of the very early Earth.",
+            "r": "It is bigger than the planet Mercury. For 10 points, name this moon of Saturn, which has seas of liquid methane."
+        }
+    ],
+    "clues": [
+        {
+            "id": "saturn-largest",
+            "tier": "giveaway",
+            "t": "The largest moon of Saturn",
+            "k": [
+                "largest moon of saturn",
+                "saturn"
+            ],
+            "n": 0,
+            "rabbit": "Saturn"
+        },
+        {
+            "id": "thick-atmosphere",
+            "tier": "giveaway",
+            "t": "The only moon with a thick atmosphere, made mostly of nitrogen",
+            "k": [
+                "thick atmosphere",
+                "nitrogen"
+            ],
+            "n": 0
+        },
+        {
+            "id": "methane-lakes",
+            "tier": "giveaway",
+            "t": "Lakes and seas of liquid methane and ethane: the only world besides Earth known to have stable liquid on its surface",
+            "k": [
+                "methane",
+                "ethane",
+                "lakes and seas"
+            ],
+            "n": 0
+        },
+        {
+            "id": "huygens-landing",
+            "tier": "giveaway",
+            "t": "Europe’s Huygens probe landed there on January 14, 2005: the most distant landing ever made, as of 2025",
+            "k": [
+                "huygens probe",
+                "2005",
+                "most distant landing"
+            ],
+            "n": 0
+        },
+        {
+            "id": "huygens-1655",
+            "tier": "middle",
+            "t": "Christiaan Huygens discovered it in 1655: the first moon of Saturn found, and the first new moon since Galileo’s four in 1610",
+            "k": [
+                "christiaan huygens",
+                "1655",
+                "1610"
+            ],
+            "n": 0
+        },
+        {
+            "id": "second-largest",
+            "tier": "middle",
+            "t": "The second-largest moon in the solar system, after Jupiter’s Ganymede",
+            "k": [
+                "second-largest",
+                "ganymede"
+            ],
+            "n": 0
+        },
+        {
+            "id": "bigger-than-mercury",
+            "tier": "middle",
+            "t": "Wider than the planet Mercury but with less than half of Mercury’s mass, because it is about half ice",
+            "k": [
+                "mercury",
+                "less than half",
+                "half ice"
+            ],
+            "n": 0,
+            "rabbit": "Mercury (planet)"
+        },
+        {
+            "id": "orange-haze",
+            "tier": "middle",
+            "t": "Wrapped in a thick orange haze of smog that hides its surface",
+            "k": [
+                "orange haze",
+                "smog"
+            ],
+            "n": 0
+        },
+        {
+            "id": "methane-cycle",
+            "tier": "middle",
+            "t": "Its methane cycle works like Earth’s water cycle: methane clouds, rain, rivers, and lakes",
+            "k": [
+                "methane cycle",
+                "water cycle",
+                "rain"
+            ],
+            "n": 0
+        },
+        {
+            "id": "kraken",
+            "tier": "middle",
+            "t": "Kraken Mare is its largest sea; its seas are named for sea monsters, and most lie near its north pole",
+            "k": [
+                "kraken mare",
+                "sea monsters",
+                "north pole"
+            ],
+            "n": 0
+        },
+        {
+            "id": "cassini",
+            "tier": "middle",
+            "t": "NASA’s Cassini spacecraft flew past it more than 100 times between 2004 and 2017",
+            "k": [
+                "cassini",
+                "100 times"
+            ],
+            "n": 0
+        },
+        {
+            "id": "kuiper-1944",
+            "tier": "middle",
+            "t": "Gerard Kuiper found methane in its air in 1944, making it the first moon known to have an atmosphere",
+            "k": [
+                "gerard kuiper",
+                "1944"
+            ],
+            "n": 0
+        },
+        {
+            "id": "dragonfly",
+            "tier": "middle",
+            "t": "NASA chose Dragonfly, a car-sized drone with eight rotors, in 2019 to fly from place to place there",
+            "k": [
+                "dragonfly",
+                "eight rotors",
+                "2019"
+            ],
+            "n": 0
+        },
+        {
+            "id": "pressure-cold",
+            "tier": "middle",
+            "t": "Surface air pressure is about 1.5 times Earth’s, and the surface is about −180°C",
+            "k": [
+                "pressure",
+                "1.5 times",
+                "−180"
+            ],
+            "n": 0
+        },
+        {
+            "id": "herschel-name",
+            "tier": "power",
+            "t": "John Herschel named it in 1847 for the generation of gods that included Cronus",
+            "k": [
+                "john herschel",
+                "1847",
+                "cronus"
+            ],
+            "n": 0,
+            "rabbit": "Titans"
+        },
+        {
+            "id": "voyager-1",
+            "tier": "power",
+            "t": "Voyager 1’s close flyby in 1980 flung it out of the plane of the planets, so it never visited Uranus or Neptune",
+            "k": [
+                "voyager 1",
+                "1980"
+            ],
+            "n": 0
+        },
+        {
+            "id": "xanadu",
+            "tier": "power",
+            "t": "Xanadu, a bright region the size of Australia named for Kublai Khan’s capital in Coleridge’s “Kubla Khan,” was spotted by Hubble in 1994",
+            "k": [
+                "xanadu",
+                "coleridge",
+                "kubla khan"
+            ],
+            "n": 0,
+            "rabbit": "Samuel Taylor Coleridge"
+        },
+        {
+            "id": "tholins",
+            "tier": "power",
+            "t": "Its orange haze is made of smog-like particles called tholins, a name coined by Carl Sagan",
+            "k": [
+                "tholins",
+                "carl sagan"
+            ],
+            "n": 0
+        },
+        {
+            "id": "ice-pebbles",
+            "tier": "power",
+            "t": "Huygens photographed rounded pebbles, probably water ice, like stones on a riverbed",
+            "k": [
+                "pebbles",
+                "riverbed",
+                "water ice"
+            ],
+            "n": 0
+        },
+        {
+            "id": "ocean",
+            "tier": "power",
+            "t": "Cassini found that it flexes as it orbits, suggesting a salty ocean of liquid water under its icy crust",
+            "k": [
+                "salty ocean",
+                "icy crust",
+                "flexes"
+            ],
+            "n": 0
+        },
+        {
+            "id": "dunes",
+            "tier": "power",
+            "t": "Dunes made of grains of organic material ripple across the region around its equator",
+            "k": [
+                "dunes",
+                "equator",
+                "organic"
+            ],
+            "n": 0
+        },
+        {
+            "id": "tolkien",
+            "tier": "power",
+            "t": "Its mountains are named for Tolkien’s Middle-earth, and its lakes for Earth lakes, like Ontario Lacus",
+            "k": [
+                "tolkien",
+                "middle-earth",
+                "ontario lacus"
+            ],
+            "n": 0
+        },
+        {
+            "id": "hyperion",
+            "tier": "power",
+            "t": "Saturn’s moon Hyperion circles three times for every four of its orbits (an orbital resonance)",
+            "k": [
+                "hyperion",
+                "resonance"
+            ],
+            "n": 0
+        },
+        {
+            "id": "christmas",
+            "tier": "power",
+            "t": "Cassini released the Huygens probe on Christmas Day 2004",
+            "k": [
+                "christmas",
+                "2004"
+            ],
+            "n": 0
+        },
+        {
+            "id": "goodbye-kiss",
+            "tier": "power",
+            "t": "Cassini’s final flyby, a “goodbye kiss” in April 2017, sent it on its last orbits before it plunged into Saturn",
+            "k": [
+                "goodbye kiss",
+                "april 2017"
+            ],
+            "n": 0
+        },
+        {
+            "id": "seasons",
+            "tier": "power",
+            "t": "Each season lasts more than seven Earth years, because Saturn takes about 29.5 years to orbit the Sun",
+            "k": [
+                "seven earth years",
+                "29.5",
+                "seasons"
+            ],
+            "n": 0
+        },
+        {
+            "id": "tidally-locked",
+            "tier": "power",
+            "t": "Orbits Saturn about every 16 days, always keeping the same face toward it",
+            "k": [
+                "16 days",
+                "same face"
+            ],
+            "n": 0
+        },
+        {
+            "id": "early-earth",
+            "tier": "power",
+            "t": "Scientists study its smoggy haze for clues to chemistry like that of the very early Earth",
+            "k": [
+                "early earth",
+                "chemistry"
+            ],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Moon, Titans, or Triton?",
+        "body": "Titan is named for the Titans, the generation of Greek gods that included Cronus, and “Titans” is a separate mythology answer line. In astronomy, players mix up Titan with Triton, Neptune’s largest moon, and with Titania, Uranus’s largest moon. And when a Saturn question describes Titan, the answer is the planet, not the moon.",
+        "fix": "Saturn, Huygens, Cassini, Kraken Mare, methane lakes, a thick nitrogen atmosphere, and Dragonfly mean Titan. A backward orbit, nitrogen geysers, and Voyager 2 in 1989 mean Triton; Shakespeare’s fairy queen and Uranus mean Titania. If the question says “this moon,” answer “Titan,” not “Titans.”",
+        "line": "Real answer line: <b><u>Titan</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Titan",
+            "titan",
+            "Titen",
+            "Saturn's moon Titan",
+            "Titan (moon)"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Titans",
+            "Titania",
+            "Triton",
+            "Ganymede",
+            "Titian",
+            "Enceladus"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

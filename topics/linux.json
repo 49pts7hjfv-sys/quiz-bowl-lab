@@ -1,0 +1,470 @@
+{
+  "id": "linux",
+  "name": "Linux",
+  "mono": "LNX",
+  "category": "Computer Science",
+  "qbCategory": "Science · Other Science (Computer Science)",
+  "kicker": "Free, open-source operating system · Started by Linus Torvalds in 1991",
+  "dates": "First released by Linus Torvalds, 1991",
+  "briefing": "In 1991, a 21-year-old Finnish student named Linus Torvalds announced that he was building a free operating system, “just a hobby, won’t be big and professional.” That hobby became Linux, whose open-source code anyone can study, change, and share. Linux, whose mascot is a penguin named Tux, went on to run a huge share of the world’s web servers, all 500 of the fastest supercomputers by 2017, and, at its core, every Android phone.",
+  "answerHtml": "<b><u>Linux</u></b> (accept <u>GNU/Linux</u> or the <u>Linux</u> kernel; do not accept “Unix”)",
+  "accept": [
+    "linux",
+    "gnu linux",
+    "gnu slash linux",
+    "linux kernel",
+    "linux operating system",
+    "linux os",
+    "linux distribution",
+    "linux distro",
+    "linix",
+    "lunix"
+  ],
+  "prompt": [
+    "operating system",
+    "operating systems",
+    "os",
+    "kernel",
+    "open source",
+    "open source operating system",
+    "unix like",
+    "unix like operating system",
+    "ubuntu",
+    "debian",
+    "fedora",
+    "red hat",
+    "distribution",
+    "distro"
+  ],
+  "reject": [
+    "unix",
+    "minix",
+    "gnu",
+    "gnu project",
+    "hurd",
+    "gnu hurd",
+    "windows",
+    "microsoft windows",
+    "macos",
+    "mac os",
+    "os x",
+    "ios",
+    "android",
+    "chrome os",
+    "chromeos",
+    "steamos",
+    "bsd",
+    "freebsd",
+    "solaris",
+    "dos",
+    "ms dos",
+    "linus",
+    "linus torvalds",
+    "torvalds",
+    "linus pauling",
+    "richard stallman",
+    "stallman",
+    "andrew tanenbaum",
+    "tanenbaum",
+    "tux",
+    "penguin",
+    "git",
+    "github"
+  ],
+  "tests": {
+    "right": [
+      "Linux",
+      "GNU/Linux",
+      "Linux kernel",
+      "Linx",
+      "Ubuntu Linux"
+    ],
+    "prompt": [
+      "Ubuntu",
+      "operating system"
+    ],
+    "wrong": [
+      "Unix",
+      "Linus",
+      "Linus Torvalds",
+      "MINIX",
+      "Windows",
+      "Android",
+      "GNU"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Linux",
+  "qb": {
+    "q": "Linux",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This operating system’s creator wanted to call it “Freax,” combining “free,” “freak,” and the letter x, but Ari Lemmke gave its folder a different name on a university’s file server. Version 0.01 of its kernel came out in September 1991.",
+      "r": "For 10 points, name this free, open-source operating system created by Linus Torvalds, whose mascot is a penguin."
+    },
+    {
+      "p": "Andrew Tanenbaum, the creator of the teaching system MINIX, started a famous 1992 online argument by calling this operating system “obsolete” because of its “monolithic” kernel design. Tanenbaum preferred small “microkernels.”",
+      "r": "This system’s mascot is a penguin named Tux. For 10 points, name this open-source operating system started by Linus Torvalds."
+    },
+    {
+      "p": "In 2005, this operating system’s creator wrote the version-control system Git to manage its code, after a dispute ended the project’s free use of a tool called BitKeeper. Thousands of programmers around the world have contributed changes to its kernel.",
+      "r": "For 10 points, name this open-source operating system created by Linus Torvalds in 1991, whose mascot is Tux the penguin."
+    },
+    {
+      "p": "Larry Ewing drew this operating system’s mascot in 1996 using GIMP, a free image editor. In 2022, this system’s kernel began accepting code written in the language Rust, not just C and assembly.",
+      "r": "That mascot is the penguin Tux. For 10 points, name this open-source operating system created by Linus Torvalds."
+    },
+    {
+      "p": "Ian Murdock named Debian [“DEB-ee-un”], one of the oldest versions of this operating system, by combining his own first name with that of his girlfriend, Debra Lynn. Debian’s releases are code-named after characters from the _Toy Story_ movies.",
+      "r": "Ubuntu is built on Debian. For 10 points, name this open-source operating system created by Linus Torvalds."
+    },
+    {
+      "p": "In 2012, this operating system’s creator shared Finland’s Millennium Technology Prize with stem-cell researcher Shinya Yamanaka. Years earlier, he had written its first version for his own PC, which used an Intel 386 chip.",
+      "r": "For 10 points, name this open-source operating system that Linus Torvalds released as a student in 1991."
+    },
+    {
+      "p": "IBM bought Red Hat, a company that sells versions of this operating system to businesses, for about 34 billion dollars in 2019. Red Hat had started Fedora, a free version of this system, in 2003.",
+      "r": "For 10 points, name this open-source operating system created by Linus Torvalds, whose mascot is Tux the penguin."
+    },
+    {
+      "p": "This operating system’s creator announced it on Usenet in August 1991, writing that it was “just a hobby, won’t be big and professional like gnu.” He posted that message to a newsgroup about MINIX, the system that had inspired him.",
+      "r": "For 10 points, name this operating system written by Linus Torvalds, the basis of Android."
+    },
+    {
+      "p": "Richard Stallman has argued that this operating system should be called by a longer name, because much of it comes from the GNU Project he began in 1983. Stallman also founded the Free Software Foundation in 1985.",
+      "r": "That longer name puts “GNU” in front of its usual name. For 10 points, name this open-source system created by Linus Torvalds, whose mascot is Tux."
+    },
+    {
+      "p": "Valve’s Steam Deck handheld game console runs a version of this operating system called SteamOS, and Google’s ChromeOS for Chromebooks is also built on it. Raspberry Pi OS, made for the tiny Raspberry Pi computers, is another version of it.",
+      "r": "For 10 points, name this free operating system created by Linus Torvalds, whose kernel is also the core of Android."
+    },
+    {
+      "p": "Version 1.0 of this operating system’s kernel came out in 1994, about two and a half years after version 0.01. That kernel is released under version 2 of the GNU General Public License.",
+      "r": "For 10 points, name this open-source operating system started by Linus Torvalds, whose mascot is the penguin Tux."
+    },
+    {
+      "p": "Like the system Ken Thompson and Dennis Ritchie built at Bell Labs in 1969, this operating system lets users type commands such as ls, cd, and sudo into a terminal shell such as Bash.",
+      "r": "For 10 points, name this open-source, Unix-like operating system created by Linus Torvalds, whose mascot is the penguin Tux."
+    },
+    {
+      "p": "This operating system is written mostly in the C programming language, and its “monolithic” kernel runs device drivers and memory management together as one large program. Its kernel can load extra pieces of code called modules while it is running.",
+      "r": "For 10 points, name this open-source operating system that powers Android phones, created by Linus Torvalds."
+    },
+    {
+      "p": "The “L” in LAMP, a popular bundle of web-server software, stands for this operating system; the other letters stand for Apache, MySQL, and PHP. A huge share of the world’s web servers run this system.",
+      "r": "For 10 points, name this open-source operating system started by Linus Torvalds, whose mascot is a penguin."
+    },
+    {
+      "p": "NASA’s Ingenuity helicopter, which made the first powered flight on another planet in April 2021, ran this operating system. By November 2017, all 500 of the world’s fastest supercomputers ran it too.",
+      "r": "For 10 points, name this open-source operating system created by Linus Torvalds, whose mascot is the penguin Tux."
+    }
+  ],
+  "clues": [
+    {
+      "id": "torvalds",
+      "tier": "giveaway",
+      "t": "Created by Finnish programmer Linus Torvalds, who released it as a student in 1991",
+      "k": [
+        "linus torvalds",
+        "torvalds",
+        "finnish",
+        "1991"
+      ],
+      "n": 0
+    },
+    {
+      "id": "open-source",
+      "tier": "giveaway",
+      "t": "Free and open-source: anyone may read, change, and share its code",
+      "k": [
+        "open-source",
+        "free"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tux",
+      "tier": "giveaway",
+      "t": "Its mascot is Tux, a penguin",
+      "k": [
+        "tux",
+        "penguin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "android",
+      "tier": "giveaway",
+      "t": "Android phones run on a modified version of its kernel, the core of the system",
+      "k": [
+        "android",
+        "kernel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "distributions",
+      "tier": "giveaway",
+      "t": "Comes in many versions called “distributions,” such as Ubuntu",
+      "k": [
+        "distributions",
+        "ubuntu"
+      ],
+      "n": 0
+    },
+    {
+      "id": "usenet",
+      "tier": "middle",
+      "t": "Announced on Usenet in August 1991 as “just a hobby, won’t be big and professional like gnu”",
+      "k": [
+        "just a hobby",
+        "usenet",
+        "august 1991"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gnu",
+      "tier": "middle",
+      "t": "Much of a full system comes from Richard Stallman’s GNU Project (1983), so Stallman has asked people to call it “GNU/” plus its name",
+      "k": [
+        "gnu",
+        "richard stallman",
+        "stallman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gpl",
+      "tier": "middle",
+      "t": "Its kernel is released under version 2 of the GNU General Public License",
+      "k": [
+        "general public license",
+        "gpl",
+        "version 2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "unix-like",
+      "tier": "middle",
+      "t": "Unix-like: it works like the Unix system that Ken Thompson and Dennis Ritchie built at Bell Labs in 1969",
+      "k": [
+        "unix-like",
+        "bell labs",
+        "1969"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minix",
+      "tier": "middle",
+      "t": "Inspired by MINIX, Andrew Tanenbaum’s small teaching system",
+      "k": [
+        "minix",
+        "tanenbaum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "supercomputers",
+      "tier": "middle",
+      "t": "By November 2017, all 500 of the world’s fastest supercomputers ran it, and a huge share of web servers use it",
+      "k": [
+        "supercomputers",
+        "web servers",
+        "2017"
+      ],
+      "n": 0
+    },
+    {
+      "id": "built-on-it",
+      "tier": "middle",
+      "t": "ChromeOS, the Steam Deck’s SteamOS, and Raspberry Pi OS are all built on it",
+      "k": [
+        "chromeos",
+        "steam deck",
+        "raspberry pi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monolithic",
+      "tier": "middle",
+      "t": "Written mostly in C; its “monolithic” kernel runs drivers and memory management as one big program and can load modules while running",
+      "k": [
+        "monolithic",
+        "written mostly",
+        "modules"
+      ],
+      "n": 0
+    },
+    {
+      "id": "terminal",
+      "tier": "middle",
+      "t": "Users type commands like ls, cd, and sudo into a terminal shell such as Bash",
+      "k": [
+        "terminal",
+        "bash",
+        "sudo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lamp",
+      "tier": "middle",
+      "t": "The “L” in the LAMP web-server bundle, along with Apache, MySQL, and PHP",
+      "k": [
+        "lamp",
+        "apache",
+        "mysql"
+      ],
+      "n": 0
+    },
+    {
+      "id": "freax",
+      "tier": "power",
+      "t": "Torvalds wanted to call it “Freax” (free + freak + x); Ari Lemmke named its folder on a university server instead",
+      "k": [
+        "freax",
+        "lemmke"
+      ],
+      "n": 0
+    },
+    {
+      "id": "versions",
+      "tier": "power",
+      "t": "Version 0.01 came out in September 1991, and version 1.0 in 1994",
+      "k": [
+        "0.01",
+        "1.0",
+        "1994"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tanenbaum-debate",
+      "tier": "power",
+      "t": "Andrew Tanenbaum’s 1992 post calling it “obsolete” started a famous debate over monolithic kernels versus microkernels",
+      "k": [
+        "obsolete",
+        "microkernels",
+        "1992"
+      ],
+      "n": 0
+    },
+    {
+      "id": "git",
+      "tier": "power",
+      "t": "Torvalds wrote the Git version-control system in 2005 to manage its code, after a dispute over a tool called BitKeeper",
+      "k": [
+        "git",
+        "version-control",
+        "bitkeeper",
+        "2005"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ewing",
+      "tier": "power",
+      "t": "Larry Ewing drew Tux in 1996 using the free image editor GIMP",
+      "k": [
+        "larry ewing",
+        "gimp",
+        "1996"
+      ],
+      "n": 0
+    },
+    {
+      "id": "debian",
+      "tier": "power",
+      "t": "Ian Murdock named Debian (1993) for himself and Debra Lynn; its releases are code-named for _Toy Story_ characters",
+      "k": [
+        "debian",
+        "ian murdock",
+        "toy story"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ubuntu",
+      "tier": "power",
+      "t": "Ubuntu (2004), from Mark Shuttleworth’s company Canonical, is built on Debian; its name is a Southern African word about shared humanity",
+      "k": [
+        "shuttleworth",
+        "canonical",
+        "2004"
+      ],
+      "n": 0
+    },
+    {
+      "id": "millennium",
+      "tier": "power",
+      "t": "Torvalds shared Finland’s 2012 Millennium Technology Prize with stem-cell researcher Shinya Yamanaka",
+      "k": [
+        "millennium technology prize",
+        "yamanaka",
+        "2012"
+      ],
+      "n": 0
+    },
+    {
+      "id": "red-hat",
+      "tier": "power",
+      "t": "IBM bought Red Hat, which sells versions of it to businesses, for about $34 billion in 2019; Red Hat started Fedora in 2003",
+      "k": [
+        "red hat",
+        "ibm",
+        "fedora",
+        "2019"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rust",
+      "tier": "power",
+      "t": "In 2022, its kernel began accepting code written in the Rust language, not just C",
+      "k": [
+        "rust",
+        "2022"
+      ],
+      "n": 0
+    },
+    {
+      "id": "intel-386",
+      "tier": "power",
+      "t": "Torvalds first wrote it for his own PC, which had an Intel 386 chip",
+      "k": [
+        "intel",
+        "386"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ingenuity",
+      "tier": "power",
+      "t": "NASA’s Ingenuity helicopter, which made the first powered flight on another planet (Mars, 2021), ran it",
+      "k": [
+        "ingenuity",
+        "mars",
+        "2021"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Linux or Unix?",
+    "body": "Linux is “Unix-like,” but it is not Unix, which Ken Thompson and Dennis Ritchie built at Bell Labs in 1969. MINIX is Andrew Tanenbaum’s teaching system that inspired Linus Torvalds, and GNU is Richard Stallman’s project that supplies many of the tools in a full Linux system. And don’t answer “Linus”: that is the creator, not the system.",
+    "fix": "Linux clues: Linus Torvalds, 1991, Finland, Tux the penguin, open source, Android, and distributions like Ubuntu and Debian. Unix clues: Bell Labs, 1969, Ken Thompson, and Dennis Ritchie. Saying “GNU/Linux” is fine, but “GNU” alone is a different answer line.",
+    "line": "Real answer line: <b><u>Linux</u></b> (accept <u>GNU/Linux</u> or the <u>Linux</u> kernel; do not accept “Unix”)"
+  }
+}

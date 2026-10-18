@@ -1,0 +1,472 @@
+{
+  "id": "vapor-pressure",
+  "name": "Vapor pressure",
+  "mono": "VP",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Push of a liquid’s own gas · When it matches the air’s, the liquid boils",
+  "dates": "Clapeyron’s equation for it, 1834",
+  "briefing": "When you put a liquid in a closed jar, some of its molecules escape into the space above and push on the walls as a gas, and that push is the liquid’s vapor pressure. It climbs as the liquid warms, and when it matches the pressure of the air around it, the liquid boils, which is why water boils at a lower temperature on a mountaintop. Liquids with high vapor pressures, like nail polish remover, evaporate fast and fill a room with their smell.",
+  "answerHtml": "<b><u>Vapor pressure</u></b> (accept <u>vapour pressure</u>, <u>equilibrium vapor pressure</u>, or <u>saturation vapor pressure</u>; prompt on <u>pressure</u> or <u>partial pressure</u>; do not accept “boiling point”)",
+  "accept": [
+    "vapor pressure",
+    "vapour pressure",
+    "vapor pressures",
+    "vapour pressures",
+    "equilibrium vapor pressure",
+    "saturation vapor pressure",
+    "saturated vapor pressure"
+  ],
+  "prompt": [
+    "pressure",
+    "partial pressure",
+    "vapor",
+    "vapour",
+    "vapor pressure lowering",
+    "vapor pressure depression"
+  ],
+  "reject": [
+    "boiling point",
+    "boiling points",
+    "normal boiling point",
+    "boiling temperature",
+    "boiling",
+    "melting point",
+    "freezing point",
+    "dew point",
+    "critical point",
+    "triple point",
+    "atmospheric pressure",
+    "air pressure",
+    "barometric pressure",
+    "osmotic pressure",
+    "osmosis",
+    "evaporation",
+    "vaporization",
+    "enthalpy of vaporization",
+    "heat of vaporization",
+    "humidity",
+    "relative humidity",
+    "volatility",
+    "raoults law",
+    "henrys law",
+    "daltons law",
+    "boiling point elevation",
+    "surface tension"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Vapor_pressure",
+  "qb": {
+    "q": "vapor pressure",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The Clausius–Clapeyron [“klah-pay-RAWN”] equation uses a liquid’s enthalpy of vaporization to predict how this quantity changes with temperature. Liquids with strong intermolecular forces, such as water with its hydrogen bonds, have relatively low values of this quantity.",
+      "r": "A liquid boils when this quantity equals the pressure of the surrounding air. For 10 points, name this quantity, the pressure of the gas above a liquid."
+    },
+    {
+      "p": "The Antoine [“an-TWAHN”] equation, which uses three constants named A, B, and C, is a formula for how this quantity rises with temperature. For a pure liquid, this quantity depends only on the temperature, not on how much liquid is present or how big its container is.",
+      "r": "For 10 points, name this quantity, which equals one atmosphere at a liquid’s normal boiling point."
+    },
+    {
+      "p": "An isoteniscope is a lab device built to measure this quantity. At 100 degrees Celsius, water’s value of this quantity reaches 760 millimeters of mercury, or one atmosphere, but at room temperature it is only a small fraction of that.",
+      "r": "For 10 points, name this quantity, the pressure of the gas that escapes from a liquid in a closed container once escaping and returning molecules balance."
+    },
+    {
+      "p": "According to the Kelvin equation, this quantity is higher above a tiny, curved droplet than above a flat surface of the same liquid. Relative humidity compares the amount of water in the air to water’s value of this quantity at that temperature.",
+      "r": "For 10 points, name this quantity that rises with temperature and equals the outside pressure when a liquid boils."
+    },
+    {
+      "p": "In the Bergeron process, ice crystals in a cloud grow while supercooled water droplets shrink, because ice has a lower value of this quantity than liquid water at the same temperature.",
+      "r": "Mothballs and dry ice have high values of it. For 10 points, name this quantity, which is high for volatile liquids like acetone."
+    },
+    {
+      "p": "Gasoline sold in the summer is blended to have a lower “Reid” value of this quantity, so that less of the fuel evaporates and helps form smog. Volatile liquids, like the acetone in nail polish remover, have high values of this quantity.",
+      "r": "For 10 points, name this quantity that equals atmospheric pressure when a liquid boils."
+    },
+    {
+      "p": "Mixtures that stray far from Raoult’s [“rah-OOLZ”] law can form azeotropes [“ay-ZEE-uh-trohps”], which boil without changing composition. Raoult’s law itself says that a solvent’s value of this quantity equals its mole fraction times the value for the pure solvent.",
+      "r": "For 10 points, name this quantity which rises with temperature until it equals the outside pressure and the liquid boils."
+    },
+    {
+      "p": "Fractional distillation works because the liquid with the higher value of this quantity makes up more of the gas rising from a boiling mixture. Dissolving salt or sugar in water lowers this quantity, a colligative property that also raises water’s boiling point.",
+      "r": "For 10 points, name this quantity exerted by the gas above a liquid in a closed container."
+    },
+    {
+      "p": "The nearly empty space at the top of a mercury barometer actually holds a tiny amount of mercury gas, set by mercury’s very low value of this quantity. When chemists collect a gas over water, they subtract water’s value of this quantity from the total pressure.",
+      "r": "For 10 points, name this quantity, which equals atmospheric pressure at a liquid’s boiling point."
+    },
+    {
+      "p": "Freeze-drying lowers the surrounding pressure below the value of this quantity for ice, so the frozen water in food turns straight into a gas. On a phase diagram, the curve separating liquid from gas traces this quantity and ends at the critical point.",
+      "r": "For 10 points, name this quantity, which rises with temperature and is high for liquids that evaporate quickly."
+    },
+    {
+      "p": "When the pressure in a fast-moving liquid drops below this quantity, bubbles suddenly form and collapse, a process called cavitation that can damage ship propellers. Liquids that evaporate quickly, such as gasoline, are called volatile because this quantity is high for them.",
+      "r": "For 10 points, name this quantity, which equals the air pressure when a liquid boils."
+    },
+    {
+      "p": "Room-temperature water in a sealed jar begins to boil when a pump removes enough air that the pressure inside drops to this quantity. In the same way, water boils below 100 degrees Celsius on a high mountain, where the air presses down less.",
+      "r": "For 10 points, name this quantity, the pressure of the gas above a liquid at equilibrium."
+    },
+    {
+      "p": "Air that cools to its dew point becomes saturated: the pressure from the water it holds has reached water’s value of this quantity at that temperature, so dew or fog begins to form. At that point the relative humidity reaches 100 percent.",
+      "r": "For 10 points, name this quantity that rises as a liquid warms, until the liquid boils."
+    },
+    {
+      "p": "Inside a pressure cooker, water stays liquid until this quantity climbs to about twice normal air pressure, at roughly 120 degrees Celsius, so food cooks faster. This quantity is the same for a teaspoon of water or a whole lake at the same temperature.",
+      "r": "For 10 points, name this quantity, which rises with temperature and equals atmospheric pressure at a liquid’s boiling point."
+    },
+    {
+      "p": "A spray can with a liquefied propellant keeps nearly the same pressure until it is almost empty, because the liquid keeps refilling the space above it with gas at a steady value of this quantity. Adding a nonvolatile solute like sugar to water lowers this quantity.",
+      "r": "For 10 points, name this quantity that equals the outside pressure when a liquid boils."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The pressure of the gas above a liquid in a closed container, once escaping and returning molecules balance",
+      "k": [
+        "closed container",
+        "escaping",
+        "balance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boiling",
+      "tier": "giveaway",
+      "t": "A liquid boils when it equals the surrounding atmospheric pressure",
+      "k": [
+        "boils",
+        "atmospheric",
+        "surrounding"
+      ],
+      "n": 0,
+      "rabbit": "Boiling point"
+    },
+    {
+      "id": "temperature",
+      "tier": "giveaway",
+      "t": "Rises as temperature rises, because more molecules have enough energy to escape the liquid",
+      "k": [
+        "temperature",
+        "rises",
+        "energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "volatile",
+      "tier": "middle",
+      "t": "Volatile liquids like acetone (in nail polish remover) and gasoline have high values and evaporate quickly",
+      "k": [
+        "volatile",
+        "acetone",
+        "gasoline"
+      ],
+      "n": 0
+    },
+    {
+      "id": "intermolecular",
+      "tier": "middle",
+      "t": "Stronger intermolecular forces, like water’s hydrogen bonds, mean a lower value",
+      "k": [
+        "intermolecular forces",
+        "hydrogen bonds"
+      ],
+      "n": 0,
+      "rabbit": "Hydrogen bonds"
+    },
+    {
+      "id": "normal-boiling-point",
+      "tier": "middle",
+      "t": "At a liquid’s normal boiling point it equals 1 atmosphere (760 millimeters of mercury); water reaches that at 100 °C",
+      "k": [
+        "normal boiling point",
+        "760",
+        "1 atmosphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "raoult",
+      "tier": "middle",
+      "t": "Raoult’s law: a solvent’s value equals its mole fraction times the value for the pure solvent",
+      "k": [
+        "raoult",
+        "mole fraction",
+        "pure solvent"
+      ],
+      "n": 0,
+      "rabbit": "Raoult’s law"
+    },
+    {
+      "id": "lowering",
+      "tier": "middle",
+      "t": "Dissolving a nonvolatile solute like salt or sugar lowers it, a colligative property that also raises the boiling point",
+      "k": [
+        "colligative",
+        "solute",
+        "nonvolatile"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mountain",
+      "tier": "middle",
+      "t": "On a high mountain the air presses down less, so water boils below 100 °C",
+      "k": [
+        "high mountain",
+        "below 100"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amount",
+      "tier": "middle",
+      "t": "It depends only on the liquid and its temperature, not on how much liquid there is or the size of the container",
+      "k": [
+        "how much liquid",
+        "container"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gas-over-water",
+      "tier": "middle",
+      "t": "When a gas is collected over water, water’s value must be subtracted from the total pressure",
+      "k": [
+        "collected over water",
+        "subtracted"
+      ],
+      "n": 0,
+      "rabbit": "Dalton’s law"
+    },
+    {
+      "id": "humidity",
+      "tier": "middle",
+      "t": "Relative humidity compares the water in the air to water’s value at that temperature; at 100%, the air is saturated",
+      "k": [
+        "relative humidity",
+        "saturated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "solids",
+      "tier": "middle",
+      "t": "Solids have one too: mothballs and dry ice have high values and turn straight into gas",
+      "k": [
+        "mothballs",
+        "dry ice",
+        "solids"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phase-diagram",
+      "tier": "middle",
+      "t": "On a phase diagram, the curve between liquid and gas traces it and ends at the critical point",
+      "k": [
+        "phase diagram",
+        "critical point",
+        "curve"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clausius-clapeyron",
+      "tier": "power",
+      "t": "The Clausius–Clapeyron equation uses the enthalpy of vaporization to predict how it changes with temperature",
+      "k": [
+        "clausius",
+        "clapeyron",
+        "enthalpy"
+      ],
+      "n": 0,
+      "rabbit": "Enthalpy"
+    },
+    {
+      "id": "antoine",
+      "tier": "power",
+      "t": "The Antoine equation, with three constants A, B, and C, fits how it rises with temperature",
+      "k": [
+        "antoine equation",
+        "three constants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "isoteniscope",
+      "tier": "power",
+      "t": "An isoteniscope is a lab device built to measure it",
+      "k": [
+        "isoteniscope",
+        "lab device"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kelvin-equation",
+      "tier": "power",
+      "t": "The Kelvin equation: it is higher above a tiny curved droplet than above a flat surface",
+      "k": [
+        "kelvin equation",
+        "droplet",
+        "curved"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bergeron",
+      "tier": "power",
+      "t": "Bergeron process: ice has a lower value than supercooled water, so ice crystals in clouds grow as droplets shrink",
+      "k": [
+        "bergeron",
+        "supercooled",
+        "ice crystals"
+      ],
+      "n": 0,
+      "rabbit": "Clouds"
+    },
+    {
+      "id": "reid",
+      "tier": "power",
+      "t": "Summer gasoline is blended for a lower “Reid” value, so less fuel evaporates and helps form smog",
+      "k": [
+        "reid",
+        "summer",
+        "smog"
+      ],
+      "n": 0
+    },
+    {
+      "id": "azeotropes",
+      "tier": "power",
+      "t": "Mixtures that stray far from Raoult’s law can form azeotropes, which boil without changing composition",
+      "k": [
+        "azeotropes",
+        "composition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "distillation",
+      "tier": "power",
+      "t": "Fractional distillation works because the liquid with the higher value makes up more of the rising gas",
+      "k": [
+        "fractional distillation",
+        "rising gas"
+      ],
+      "n": 0,
+      "rabbit": "Distillation"
+    },
+    {
+      "id": "barometer",
+      "tier": "power",
+      "t": "The nearly empty space atop a mercury barometer holds a little mercury gas, set by mercury’s very low value",
+      "k": [
+        "barometer",
+        "mercury"
+      ],
+      "n": 0
+    },
+    {
+      "id": "freeze-drying",
+      "tier": "power",
+      "t": "Freeze-drying lowers the surrounding pressure below ice’s value, so frozen water in food turns straight into gas",
+      "k": [
+        "freeze-drying",
+        "frozen water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cavitation",
+      "tier": "power",
+      "t": "Cavitation: when the pressure in a fast-moving liquid drops below it, bubbles form and collapse, damaging ship propellers",
+      "k": [
+        "cavitation",
+        "propellers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vacuum-jar",
+      "tier": "power",
+      "t": "Room-temperature water boils in a sealed jar when a pump lowers the pressure inside to this value",
+      "k": [
+        "room-temperature",
+        "pump",
+        "sealed jar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dew-point",
+      "tier": "power",
+      "t": "At the dew point, the pressure from the water in the air equals water’s value at that temperature, so dew or fog forms",
+      "k": [
+        "dew point",
+        "fog"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pressure-cooker",
+      "tier": "power",
+      "t": "In a pressure cooker, water stays liquid until it reaches about twice normal air pressure, near 120 °C",
+      "k": [
+        "cooker",
+        "120"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spray-can",
+      "tier": "power",
+      "t": "A spray can with a liquefied propellant keeps nearly the same pressure until almost empty, as the liquid refills the space with gas",
+      "k": [
+        "spray can",
+        "propellant"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not the boiling point",
+    "body": "This quantity and the boiling point are tied together, so tossups on one are full of clues about the other. A liquid boils at the temperature where this quantity equals the outside pressure, so a clue like “reaches 760 millimeters of mercury at 100 °C” tempts players to say “boiling point.” But the boiling point is a temperature, and this answer is a pressure.",
+    "fix": "Check what the question asks for. “This temperature” means the boiling point. “This quantity” that rises with temperature, follows Raoult’s law, or drops when a solute dissolves means this answer. Say both words: plain “pressure” only earns a prompt.",
+    "line": "Real answer line: <b><u>Vapor pressure</u></b> (accept <u>vapour pressure</u>; prompt on <u>pressure</u>; do not accept “boiling point”)"
+  },
+  "tests": {
+    "right": [
+      "Vapor pressure",
+      "vapour pressure",
+      "vapor presure",
+      "equilibrium vapor pressure",
+      "Saturation vapor pressure"
+    ],
+    "prompt": [
+      "Pressure",
+      "vapor",
+      "partial pressure"
+    ],
+    "wrong": [
+      "Boiling point",
+      "Atmospheric pressure",
+      "Osmotic pressure",
+      "Evaporation",
+      "Humidity",
+      "Raoult's law"
+    ]
+  }
+}

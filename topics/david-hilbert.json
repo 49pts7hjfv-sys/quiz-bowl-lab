@@ -1,0 +1,455 @@
+{
+  "id": "david-hilbert",
+  "name": "David Hilbert",
+  "mono": "DH",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "German master of modern math · Posed 23 famous problems in 1900",
+  "dates": "1862–1943",
+  "briefing": "In 1900, at a big math conference in Paris, David Hilbert laid out 23 unsolved problems that kept mathematicians busy for the whole 20th century, and a few are still unsolved. From the German university town of Göttingen, he rebuilt geometry on careful axioms, dreamed up a hotel with infinitely many rooms, and worked on the equations of general relativity at the same time as Albert Einstein. His tombstone reads “We must know. We will know.”",
+  "answerHtml": "<b><u>David Hilbert</u></b> (accept <u>Hilbert</u>)",
+  "accept": [
+    "david hilbert",
+    "hilbert"
+  ],
+  "prompt": [],
+  "reject": [
+    "hilbert space",
+    "hilbert spaces",
+    "hilbert curve",
+    "hilberts hotel",
+    "hilbert hotel",
+    "hilberts grand hotel",
+    "hilberts paradox",
+    "hilberts problems",
+    "hilbert problems",
+    "hilberts program",
+    "hilbert program",
+    "einstein hilbert action",
+    "gilbert",
+    "william gilbert",
+    "albert einstein",
+    "einstein",
+    "kurt godel",
+    "godel",
+    "georg cantor",
+    "cantor",
+    "emmy noether",
+    "noether",
+    "felix klein",
+    "hermann minkowski",
+    "minkowski",
+    "hermann weyl",
+    "richard courant",
+    "henri poincare",
+    "poincare",
+    "bernhard riemann",
+    "riemann",
+    "carl friedrich gauss",
+    "gauss"
+  ],
+  "tests": {
+    "right": [
+      "David Hilbert",
+      "Hilbert",
+      "Hilburt",
+      "david hilbrt",
+      "Dr. David Hilbert"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Hilbert space",
+      "Albert Einstein",
+      "Kurt Gödel",
+      "Georg Cantor",
+      "Emmy Noether",
+      "Gilbert"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/David_Hilbert",
+  "qb": {
+    "q": "Hilbert",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Paul Gordan grumbled that one of this man’s proofs was “not mathematics” but “theology,” because it showed that a finite basis must exist without actually building one. This man later proved the Nullstellensatz [“NOOL-shtel-en-zahts”], a theorem about the zeros of polynomials that underlies algebraic geometry.",
+      "r": "For 10 points, name this German mathematician who presented a list of 23 unsolved problems in Paris in 1900."
+    },
+    {
+      "p": "This mathematician said that one must always be able to replace the words “points, lines, and planes” with “tables, chairs, and beer mugs,” since only the rules connecting them matter. His 1899 book _Foundations of Geometry_ rebuilt Euclid’s geometry on a complete, careful list of axioms.",
+      "r": "For 10 points, name this German mathematician who imagined a fully booked hotel with infinitely many rooms."
+    },
+    {
+      "p": "In 1970, Yuri Matiyasevich [“mah-tee-yah-SEH-vich”] completed a proof that no general method can decide whether a polynomial equation has integer solutions, answering the tenth of this man’s famous problems. The first of those problems was Georg Cantor’s continuum hypothesis, about sizes of infinity.",
+      "r": "For 10 points, name this German mathematician who posed 23 problems at a 1900 conference in Paris."
+    },
+    {
+      "p": "Rejecting the motto “ignoramus et ignorabimus,” meaning “we do not know and will not know,” this man ended a 1930 radio speech in his hometown of Königsberg with a famous six-word reply. Around the same time, Kurt Gödel [“GUR-dul”] announced a result in that city that undercut this man’s hope that every true statement in math could be proved.",
+      "r": "That reply is carved on his tombstone. For 10 points, name this German mathematician of the 23 problems, who declared, “We must know. We will know.”"
+    },
+    {
+      "p": "In November 1915, this man presented his own work on gravity just five days before Albert Einstein presented the final field equations of general relativity, and an “action” that leads to those equations is named for both men. This man had invited Emmy Noether [“NUR-tuh”] to help with questions about energy in that theory.",
+      "r": "Infinite-dimensional spaces used in quantum mechanics are named for him. For 10 points, name this German mathematician who posed 23 famous problems in 1900."
+    },
+    {
+      "p": "In 1891, this man described a curve, built from smaller and smaller U-shaped paths, that in the limit passes through every point of a square. That space-filling curve, a variation on one by Giuseppe Peano [“pay-AH-noh”], also helps computers organize data about locations.",
+      "r": "For 10 points, name this German mathematician who imagined a fully booked hotel with infinitely many rooms that can always fit one more guest."
+    },
+    {
+      "p": "This man’s student Max Dehn [“DAYN”] became the first person to solve one of this man’s famous problems, showing that two solids with the same volume cannot always be cut into flat-sided pieces and rearranged into each other. Polygons with equal areas, by contrast, always can be.",
+      "r": "Dehn’s answer settled the third of the 23 problems this man posed in Paris in 1900. For 10 points, name this German mathematician."
+    },
+    {
+      "p": "This man declared that “no one shall expel us from the paradise that Cantor has created,” defending Georg Cantor’s work on different sizes of infinity against critics. The first item on this man’s famous list of problems asked whether any size of infinity lies between those of the counting numbers and the real numbers.",
+      "r": "Infinite-dimensional spaces used in quantum mechanics are named for him. For 10 points, name this German mathematician who posed 23 problems in 1900."
+    },
+    {
+      "p": "In 1895, Felix Klein hired this man at the university where Klein taught, and together they made it the world’s leading center for mathematics. This man’s doctoral students there included Hermann Weyl [“VILE”], Richard Courant [“koo-RAHNT”], and Max Dehn [“DAYN”].",
+      "r": "He also invited Emmy Noether to teach at that university. For 10 points, name this German mathematician who posed 23 problems in 1900."
+    },
+    {
+      "p": "This man’s program aimed to show that all of mathematics could be built on axioms that would never lead to a contradiction, checked with simple, step-by-step reasoning. Kurt Gödel’s [“GUR-dulz”] incompleteness theorems of 1931 showed that this program could not fully succeed.",
+      "r": "For 10 points, name this German mathematician whose name is given to the infinite-dimensional spaces of quantum mechanics."
+    },
+    {
+      "p": "Generations of physicists studied _Methods of Mathematical Physics_, a 1924 textbook this man wrote with his former student Richard Courant [“koo-RAHNT”]. That book turned out to contain many of the tools that the new quantum mechanics of Werner Heisenberg and Erwin Schrödinger [“SHROH-ding-er”] needed.",
+      "r": "For 10 points, name this German mathematician, the namesake of the infinite-dimensional spaces of quantum mechanics."
+    },
+    {
+      "p": "The sixth of this man’s challenges asked mathematicians to build physics on axioms, the way Euclid built geometry, and the eighth includes the still-unproven Riemann hypothesis. When this man first presented those challenges in a famous speech, he read aloud only ten of them.",
+      "r": "The full list of 23 appeared in print. For 10 points, name this German mathematician who gave that speech in Paris in 1900."
+    },
+    {
+      "p": "George Gamow’s [“GAM-off”] 1947 book _One Two Three... Infinity_ popularized a thought experiment that this man had used in a 1924 lecture to show how strange infinite collections can be. This man also described a curve that winds through every point of a square.",
+      "r": "In his thought experiment, a hotel with infinitely many rooms, all full, still has room for a new guest. For 10 points, name this German mathematician."
+    },
+    {
+      "p": "When other professors objected to letting a woman teach, this man fought for Emmy Noether [“NUR-tuh”], and for several years her courses were listed under his name. She had come at the invitation of this man and Felix Klein in 1915 and soon proved a theorem linking symmetries to conservation laws.",
+      "r": "For 10 points, name this German mathematician who made Göttingen a world center of mathematics and posed 23 problems in 1900."
+    },
+    {
+      "p": "This man earned his doctorate in 1885 under Ferdinand von Lindemann, who had proved that pi is transcendental. As a student in his hometown of Königsberg, this man began a lifelong friendship with Hermann Minkowski [“min-KOFF-skee”], whom he later helped bring to his own university in 1902.",
+      "r": "In 2000, seven Millennium Prize Problems were announced in Paris, a century after his list of 23 was presented there. For 10 points, name this German mathematician."
+    }
+  ],
+  "clues": [
+    {
+      "id": "twenty-three-problems",
+      "tier": "giveaway",
+      "t": "Presented a list of 23 unsolved problems at the International Congress of Mathematicians in Paris in 1900",
+      "k": [
+        "23 unsolved problems",
+        "paris",
+        "1900",
+        "international congress"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gottingen",
+      "tier": "giveaway",
+      "t": "German mathematician (1862–1943) who helped make the University of Göttingen a world center of mathematics",
+      "k": [
+        "göttingen",
+        "german mathematician",
+        "world center"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hotel",
+      "tier": "giveaway",
+      "t": "His imaginary Grand Hotel has infinitely many rooms; even when every room is full, a new guest fits if each guest moves from room n to room n + 1",
+      "k": [
+        "grand hotel",
+        "hotel",
+        "infinitely many rooms",
+        "new guest"
+      ],
+      "n": 0,
+      "rabbit": "Infinity"
+    },
+    {
+      "id": "spaces",
+      "tier": "giveaway",
+      "t": "Spaces named for him stretch ordinary geometry to infinitely many dimensions; quantum mechanics is written in their language",
+      "k": [
+        "quantum mechanics",
+        "infinitely many dimensions",
+        "spaces"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tombstone",
+      "tier": "middle",
+      "t": "“We must know. We will know.”: his 1930 radio reply, in Königsberg, to the motto “we do not know and will not know”; it is carved on his tombstone",
+      "k": [
+        "we must know",
+        "tombstone",
+        "radio",
+        "1930"
+      ],
+      "n": 0
+    },
+    {
+      "id": "konigsberg",
+      "tier": "middle",
+      "t": "Grew up and studied in Königsberg, Prussia (now Kaliningrad, Russia), the city of the Seven Bridges puzzle",
+      "k": [
+        "königsberg",
+        "kaliningrad",
+        "prussia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "foundations",
+      "tier": "middle",
+      "t": "His 1899 book _Foundations of Geometry_ rebuilt Euclid’s geometry on a complete, careful list of axioms",
+      "k": [
+        "foundations of geometry",
+        "axioms",
+        "1899"
+      ],
+      "n": 0,
+      "rabbit": "Euclid"
+    },
+    {
+      "id": "program",
+      "tier": "middle",
+      "t": "His program tried to prove that math can never contradict itself; Kurt Gödel’s incompleteness theorems (1931) showed it could not fully succeed",
+      "k": [
+        "program",
+        "gödel",
+        "incompleteness",
+        "contradict"
+      ],
+      "n": 0,
+      "rabbit": "Logic"
+    },
+    {
+      "id": "cantor-paradise",
+      "tier": "middle",
+      "t": "Defended Georg Cantor’s sizes of infinity: “No one shall expel us from the paradise that Cantor has created”",
+      "k": [
+        "paradise",
+        "cantor",
+        "expel"
+      ],
+      "n": 0,
+      "rabbit": "Georg Cantor"
+    },
+    {
+      "id": "einstein",
+      "tier": "middle",
+      "t": "Presented work on gravity five days before Albert Einstein’s final field equations of general relativity (November 1915); an “action” for them is named for both men",
+      "k": [
+        "einstein",
+        "general relativity",
+        "1915",
+        "action"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    },
+    {
+      "id": "noether",
+      "tier": "middle",
+      "t": "Brought Emmy Noether to Göttingen in 1915 and fought for her right to teach; her courses were listed under his name for years",
+      "k": [
+        "emmy noether",
+        "noether",
+        "1915"
+      ],
+      "n": 0
+    },
+    {
+      "id": "millennium",
+      "tier": "middle",
+      "t": "The seven Millennium Prize Problems were announced in Paris in 2000, a century after his famous list",
+      "k": [
+        "millennium prize",
+        "2000",
+        "century"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beer-mugs",
+      "tier": "power",
+      "t": "Said one must be able to swap “points, lines, and planes” for “tables, chairs, and beer mugs,” since only the rules connecting them matter",
+      "k": [
+        "beer mugs",
+        "tables",
+        "chairs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gordan",
+      "tier": "power",
+      "t": "Paul Gordan called his basis theorem proof “not mathematics” but “theology,” because it proved a finite basis exists without building one",
+      "k": [
+        "gordan",
+        "theology",
+        "basis theorem"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nullstellensatz",
+      "tier": "power",
+      "t": "His Nullstellensatz (German for “theorem of zeros”), about the zeros of polynomials, is a foundation of algebraic geometry",
+      "k": [
+        "nullstellensatz",
+        "algebraic geometry",
+        "theorem of zeros"
+      ],
+      "n": 0,
+      "rabbit": "Polynomials"
+    },
+    {
+      "id": "curve",
+      "tier": "power",
+      "t": "In 1891 he described a space-filling curve, a variation on Giuseppe Peano’s, that passes through every point of a square",
+      "k": [
+        "space-filling curve",
+        "peano",
+        "1891"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tenth-problem",
+      "tier": "power",
+      "t": "His tenth problem asked for a method to tell whether any polynomial equation has integer solutions; Yuri Matiyasevich completed the proof that none exists in 1970",
+      "k": [
+        "tenth problem",
+        "matiyasevich",
+        "1970",
+        "integer solutions"
+      ],
+      "n": 0,
+      "rabbit": "Integers"
+    },
+    {
+      "id": "first-problem",
+      "tier": "power",
+      "t": "His first problem was Cantor’s continuum hypothesis; Kurt Gödel (1940) and Paul Cohen (1963) showed the usual axioms can neither prove nor disprove it",
+      "k": [
+        "first problem",
+        "continuum hypothesis",
+        "paul cohen"
+      ],
+      "n": 0,
+      "rabbit": "Set theory"
+    },
+    {
+      "id": "dehn",
+      "tier": "power",
+      "t": "His student Max Dehn solved the third problem, the first one solved: two solids of equal volume can’t always be cut up and rearranged into each other",
+      "k": [
+        "max dehn",
+        "third problem",
+        "equal volume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sixth-eighth",
+      "tier": "power",
+      "t": "His sixth problem asked for physics built on axioms; his eighth includes the still-unproven Riemann hypothesis about prime numbers",
+      "k": [
+        "sixth problem",
+        "eighth",
+        "riemann hypothesis"
+      ],
+      "n": 0,
+      "rabbit": "Bernhard Riemann"
+    },
+    {
+      "id": "read-aloud",
+      "tier": "power",
+      "t": "In his 1900 speech he read aloud only 10 of the problems; the full list of 23 appeared in print",
+      "k": [
+        "read aloud",
+        "only 10",
+        "in print"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lindemann",
+      "tier": "power",
+      "t": "Earned his doctorate at Königsberg (1885) under Ferdinand von Lindemann, who had proved that pi is transcendental",
+      "k": [
+        "lindemann",
+        "1885",
+        "doctorate",
+        "transcendental"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "klein",
+      "tier": "power",
+      "t": "Felix Klein brought him to Göttingen in 1895; his doctoral students there included Hermann Weyl, Richard Courant, and Max Dehn",
+      "k": [
+        "felix klein",
+        "1895",
+        "hermann weyl",
+        "students"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minkowski",
+      "tier": "power",
+      "t": "His lifelong friend Hermann Minkowski, a fellow student in Königsberg, joined him at Göttingen in 1902",
+      "k": [
+        "minkowski",
+        "lifelong friend",
+        "1902"
+      ],
+      "n": 0
+    },
+    {
+      "id": "courant",
+      "tier": "power",
+      "t": "Wrote _Methods of Mathematical Physics_ (1924) with Richard Courant; it held many of the tools the new quantum mechanics needed",
+      "k": [
+        "courant",
+        "methods of mathematical physics",
+        "1924"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gamow",
+      "tier": "power",
+      "t": "He used the infinite hotel in a 1924 lecture; George Gamow’s book _One Two Three... Infinity_ (1947) made it famous",
+      "k": [
+        "gamow",
+        "1924 lecture",
+        "one two three"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Hilbert, Cantor, or Gödel?",
+    "body": "Clues about infinity and logic can point to three different people. Georg Cantor created the math of different sizes of infinity, Kurt Gödel proved the incompleteness theorems, and David Hilbert defended Cantor and launched the program that Gödel’s theorems undercut. A clue about an “action” named for “this man and Albert Einstein” can also tempt you to say Einstein, but the answer is the mathematician.",
+    "fix": "Hilbert clues: the 23 problems of 1900, Göttingen, the infinite hotel, Hilbert spaces, axioms for geometry, and “We must know. We will know.” Cantor clues: the diagonal argument and aleph numbers. Gödel clues: the incompleteness theorems (1931) and his friendship with Einstein at Princeton.",
+    "line": "Real answer line: <b><u>David Hilbert</u></b> (accept <u>Hilbert</u>)"
+  }
+}

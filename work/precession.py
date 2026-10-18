@@ -1,0 +1,384 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "precession",
+    "name": "Precession",
+    "mono": "PRC",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "A spinning axis that sweeps out a cone · Why the North Star changes",
+    "dates": "Discovered for Earth by Hipparchus, second century BCE",
+    "briefing": "Set a top spinning at a tilt and its axis doesn’t just fall over: it slowly sweeps around in a circle. That motion is precession, and Earth does it too. Tugged by the Sun and Moon, Earth’s axis traces a full circle about every 26,000 years, so the North Star changes: Thuban was the pole star when the pyramids were built, and Vega will be close to the pole in about 12,000 years.",
+    "answerHtml": "<b><u>precession</u></b> (accept word forms like <u>precess</u>ing; prompt on <u>wobble</u>; do not accept “nutation”)",
+    "accept": [
+        "precession",
+        "precessions",
+        "precesion",
+        "presession",
+        "precess",
+        "precesses",
+        "precessing",
+        "precessional motion",
+        "precession of the equinoxes",
+        "axial precession",
+        "gyroscopic precession",
+        "larmor precession",
+        "apsidal precession",
+        "nodal precession",
+        "perihelion precession",
+        "lunisolar precession"
+    ],
+    "prompt": [
+        "wobble",
+        "wobbles",
+        "wobbling",
+        "axial wobble",
+        "earths wobble"
+    ],
+    "reject": [
+        "nutation",
+        "nutations",
+        "rotation",
+        "revolution",
+        "spin",
+        "spinning",
+        "angular momentum",
+        "torque",
+        "gyroscope",
+        "gyroscopes",
+        "obliquity",
+        "axial tilt",
+        "tilt",
+        "eccentricity",
+        "milankovitch cycle",
+        "milankovitch cycles",
+        "precision",
+        "recession",
+        "pendulum",
+        "foucault pendulum",
+        "chandler wobble",
+        "libration",
+        "aberration",
+        "parallax",
+        "frame dragging",
+        "geodetic effect"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Precession",
+    "qb": {
+        "q": "precession",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Of the three Euler [“OY-ler”] angles that describe how a rigid body is turned in space, one is named for spin, one for a nodding motion called nutation, and one for this motion. During this motion, a torque changes the direction of a spinning object’s angular momentum but not its size.",
+            "r": "For 10 points, name this motion in which a spinning object’s axis slowly sweeps out a cone."
+        },
+        {
+            "p": "In the second century BCE, the Greek astronomer Hipparchus [“hih-PAR-kus”] discovered this motion of Earth by noticing that the bright star Spica sat in a different spot than older records showed. This motion slides the equinox points westward around the sky by about one degree every 72 years.",
+            "r": "For 10 points, name this slow wobble of Earth’s axis, which completes a full circle about every 26,000 years."
+        },
+        {
+            "p": "Because of this motion, the star Thuban [“THOO-bahn”] in the constellation Draco was the pole star when the Egyptian pyramids were built. The pull of the Sun’s and Moon’s gravity on Earth’s bulging equator causes this motion.",
+            "r": "In about 12,000 years, it will make Vega the North Star. For 10 points, name this slow wobble of Earth’s axis."
+        },
+        {
+            "p": "In 1859, Urbain Le Verrier [“ur-BAN luh vair-YAY”] found that Newton’s laws could not fully explain this motion of Mercury’s orbit, so he suggested an unseen planet, later named Vulcan. In 1915, Albert Einstein used general relativity to explain the extra 43 arcseconds per century of this motion.",
+            "r": "For 10 points, name this motion, which also makes a tilted spinning top’s axis slowly circle around."
+        },
+        {
+            "p": "NASA’s Gravity Probe B carried four gyroscopes with rotors made of nearly perfect balls of fused quartz to measure tiny amounts of this motion predicted by general relativity. A spinning bicycle wheel hung from a rope by one end of its axle shows this motion.",
+            "r": "Its axle swings slowly around the rope instead of falling. For 10 points, name this motion of a spinning object’s axis."
+        },
+        {
+            "p": "In an MRI scanner, the magnetic moments of protons in the body’s water molecules undergo this motion around a strong magnetic field at a rate called the Larmor [“LAR-mor”] frequency. That rate rises as the magnetic field gets stronger.",
+            "r": "For 10 points, name this motion, also seen when the axis of a tilted spinning top slowly circles around."
+        },
+        {
+            "p": "This motion makes the tropical year, measured from one March equinox to the next, about 20 minutes shorter than the sidereal year, measured against the stars. Along with changes in Earth’s tilt and the shape of its orbit, it is one of the three Milankovitch [“mih-LAHN-koh-vitch”] cycles that help pace the ice ages.",
+            "r": "For 10 points, name this slow wobble that makes Earth’s axis trace a circle about every 26,000 years."
+        },
+        {
+            "p": "In his _Principia_, Isaac Newton explained this motion of Earth as the result of the Sun’s and Moon’s gravity tugging on Earth’s equatorial bulge. That tug is a torque, and it changes the direction Earth’s axis points without changing how much the axis is tilted.",
+            "r": "It slowly changes which star is the North Star. For 10 points, name this slow wobble of Earth’s spin axis."
+        },
+        {
+            "p": "Because of this motion, the point where the Sun crosses the celestial equator in March, still called the First Point of Aries, has drifted into the constellation Pisces. For the same reason, the Sun no longer sits in Cancer at the June solstice, though the Tropic of Cancer kept its name.",
+            "r": "For 10 points, name this slow motion of Earth’s axis, which takes about 26,000 years to complete."
+        },
+        {
+            "p": "James Bradley discovered that Earth’s axis also nods slightly back and forth in an 18.6-year cycle, a smaller motion called nutation that rides on top of this larger motion. Both motions are caused mainly by the gravity of the Moon and the Sun.",
+            "r": "For 10 points, name this slow wobble that makes Earth’s axis trace out a cone, taking about 26,000 years for each circle."
+        },
+        {
+            "p": "Spinning a toy gyroscope faster makes this motion slower, because the rate of this motion equals the torque from gravity divided by the gyroscope’s angular momentum. Pushing down on one end of a spinning gyroscope’s axle makes the axle move sideways, at right angles to the push.",
+            "r": "For 10 points, name this motion in which a tilted spinning top’s axis slowly circles around instead of falling over."
+        },
+        {
+            "p": "One full cycle of this motion of Earth is sometimes called a “Great Year” or a “Platonic year.” If Earth were a perfect sphere, the Sun and Moon could not twist it, and Earth would not undergo this motion.",
+            "r": "For 10 points, name this slow wobble of Earth’s axis, which takes about 26,000 years to complete one circle."
+        },
+        {
+            "p": "Earth’s equatorial bulge makes the planes of satellite orbits slowly turn in a form of this motion, which sun-synchronous satellites use so that they always cross the equator at the same local time of day. The tilted plane of the Moon’s orbit also turns this way, once every 18.6 years.",
+            "r": "For 10 points, name this motion, which also makes Earth’s spin axis trace a slow circle in the sky."
+        },
+        {
+            "p": "The swing of a Foucault [“foo-KOH”] pendulum slowly turns in a form of this motion, making a full circle in about a day at the North Pole but not turning at all at the equator. In 1852, Léon Foucault named the gyroscope, which he used to show that Earth rotates.",
+            "r": "For 10 points, name this motion in which a spinning top’s tilted axis slowly sweeps around in a cone."
+        },
+        {
+            "p": "Star catalogs give positions for a fixed date, such as the start of the year 2000, because this motion slowly shifts the sky coordinates of every star. In astrology, the “Age of Aquarius” refers to the time when this motion carries the March equinox point into Aquarius.",
+            "r": "For 10 points, name this slow wobble of Earth’s axis, which takes about 26,000 years per cycle."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "The slow turning of a spinning object’s axis, so that the axis sweeps out a cone",
+            "k": ["spinning object", "sweeps out a cone", "axis"],
+            "n": 0
+        },
+        {
+            "id": "top-gyroscope",
+            "tier": "giveaway",
+            "t": "Seen when a tilted spinning top or gyroscope circles around instead of falling over",
+            "k": ["spinning top", "gyroscope", "falling over"],
+            "n": 0,
+            "rabbit": "Angular momentum"
+        },
+        {
+            "id": "earth-cycle",
+            "tier": "giveaway",
+            "t": "Earth’s axis wobbles through one full circle about every 26,000 years",
+            "k": ["26,000 years", "wobbles"],
+            "n": 0
+        },
+        {
+            "id": "north-star",
+            "tier": "giveaway",
+            "t": "Slowly changes which star is the North Star; Vega will be close to the pole in about 12,000 years",
+            "k": ["north star", "vega", "12,000 years"],
+            "n": 0
+        },
+        {
+            "id": "torque",
+            "tier": "giveaway",
+            "t": "Caused by a torque, such as gravity pulling on a tilted top or on Earth’s bulging equator",
+            "k": ["torque", "bulging equator"],
+            "n": 0,
+            "rabbit": "Torque"
+        },
+        {
+            "id": "equinoxes",
+            "tier": "middle",
+            "t": "Earth’s version slides the equinox points westward around the sky, about 1 degree every 72 years",
+            "k": ["equinox", "westward", "72 years"],
+            "n": 0
+        },
+        {
+            "id": "hipparchus",
+            "tier": "middle",
+            "t": "Hipparchus discovered Earth’s version in the second century BCE by comparing Spica’s position with older records",
+            "k": ["hipparchus", "spica", "second century bce"],
+            "n": 0
+        },
+        {
+            "id": "thuban",
+            "tier": "middle",
+            "t": "Thuban, in Draco, was the pole star when the Egyptian pyramids were built",
+            "k": ["thuban", "draco", "pyramids"],
+            "n": 0
+        },
+        {
+            "id": "newton-bulge",
+            "tier": "middle",
+            "t": "Isaac Newton’s _Principia_ explained Earth’s version: the Sun’s and Moon’s gravity tugs on Earth’s equatorial bulge",
+            "k": ["equatorial bulge", "newton", "principia"],
+            "n": 0,
+            "rabbit": "Isaac Newton"
+        },
+        {
+            "id": "rate",
+            "tier": "middle",
+            "t": "For a gyroscope, its rate equals the torque divided by the angular momentum, so spinning faster makes it slower",
+            "k": ["angular momentum", "spinning faster", "rate"],
+            "n": 0
+        },
+        {
+            "id": "sideways",
+            "tier": "middle",
+            "t": "The torque changes the direction of the angular momentum, not its size, so a pushed axle moves sideways, at right angles to the push",
+            "k": ["sideways", "right angles", "direction"],
+            "n": 0
+        },
+        {
+            "id": "nutation",
+            "tier": "middle",
+            "t": "A smaller nodding motion called nutation rides on top of it; James Bradley discovered Earth’s 18.6-year nutation",
+            "k": ["nutation", "nodding", "james bradley"],
+            "n": 0
+        },
+        {
+            "id": "milankovitch",
+            "tier": "middle",
+            "t": "One of the three Milankovitch cycles, with changes in Earth’s tilt and orbit shape, that help pace the ice ages",
+            "k": ["milankovitch", "ice ages"],
+            "n": 0
+        },
+        {
+            "id": "bicycle-wheel",
+            "tier": "middle",
+            "t": "A spinning bicycle wheel hung from a rope by one end of its axle circles the rope instead of falling",
+            "k": ["bicycle wheel", "rope", "axle"],
+            "n": 0
+        },
+        {
+            "id": "mercury",
+            "tier": "power",
+            "t": "Mercury’s orbit shifts this way; Einstein’s general relativity (1915) explained the extra 43 arcseconds per century",
+            "k": ["mercury", "43 arcseconds", "general relativity"],
+            "n": 0,
+            "rabbit": "Albert Einstein"
+        },
+        {
+            "id": "le-verrier",
+            "tier": "power",
+            "t": "Urbain Le Verrier (1859) suggested an unseen planet, later named Vulcan, to explain Mercury’s extra amount",
+            "k": ["le verrier", "vulcan", "1859"],
+            "n": 0
+        },
+        {
+            "id": "euler-angles",
+            "tier": "power",
+            "t": "One of the three Euler angles is named for it; the other two are named for nutation and spin",
+            "k": ["euler angles", "euler"],
+            "n": 0,
+            "rabbit": "Leonhard Euler"
+        },
+        {
+            "id": "larmor",
+            "tier": "power",
+            "t": "In MRI scanners, protons’ magnetic moments circle the magnetic field at the Larmor frequency, which rises with field strength",
+            "k": ["larmor frequency", "larmor", "mri"],
+            "n": 0
+        },
+        {
+            "id": "tropical-year",
+            "tier": "power",
+            "t": "Makes the tropical year (March equinox to March equinox) about 20 minutes shorter than the sidereal year",
+            "k": ["tropical year", "sidereal year", "20 minutes"],
+            "n": 0
+        },
+        {
+            "id": "first-point-of-aries",
+            "tier": "power",
+            "t": "The March equinox point, still called the First Point of Aries, has drifted into Pisces",
+            "k": ["first point of aries", "pisces"],
+            "n": 0
+        },
+        {
+            "id": "tropic-of-cancer",
+            "tier": "power",
+            "t": "The Sun is no longer in Cancer at the June solstice, though the Tropic of Cancer kept its name",
+            "k": ["tropic of cancer", "june solstice"],
+            "n": 0
+        },
+        {
+            "id": "gravity-probe-b",
+            "tier": "power",
+            "t": "NASA’s Gravity Probe B used fused-quartz gyroscopes to measure tiny amounts of it predicted by general relativity",
+            "k": ["gravity probe b", "fused-quartz", "quartz"],
+            "n": 0
+        },
+        {
+            "id": "great-year",
+            "tier": "power",
+            "t": "One full Earth cycle is sometimes called a “Great Year” or “Platonic year”",
+            "k": ["great year", "platonic year"],
+            "n": 0
+        },
+        {
+            "id": "perfect-sphere",
+            "tier": "power",
+            "t": "A perfect sphere would feel no twist from the Sun and Moon, so it is Earth’s bulge that lets them cause it",
+            "k": ["perfect sphere", "twist"],
+            "n": 0
+        },
+        {
+            "id": "sun-synchronous",
+            "tier": "power",
+            "t": "Earth’s bulge slowly turns satellite orbit planes; sun-synchronous satellites use this to cross the equator at the same local time daily",
+            "k": ["sun-synchronous", "satellite"],
+            "n": 0
+        },
+        {
+            "id": "foucault",
+            "tier": "power",
+            "t": "A Foucault pendulum’s swing turns this way, a full circle in about a day at the North Pole; Léon Foucault named the gyroscope (1852)",
+            "k": ["foucault pendulum", "foucault", "1852"],
+            "n": 0,
+            "rabbit": "Pendulums"
+        },
+        {
+            "id": "star-catalogs",
+            "tier": "power",
+            "t": "Star catalogs give positions for a fixed date, like the year 2000, because it shifts every star’s sky coordinates",
+            "k": ["star catalogs", "coordinates"],
+            "n": 0
+        },
+        {
+            "id": "age-of-aquarius",
+            "tier": "power",
+            "t": "Astrology’s “Age of Aquarius” refers to the March equinox point moving into Aquarius",
+            "k": ["age of aquarius", "aquarius"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Precession or nutation?",
+        "body": "Precession is the big, slow circling of a spinning axis; nutation is the smaller nodding wobble that rides on top of it, and one Euler angle is named for each, so tossups mention both. Earth questions add more traps: rotation is the daily spin, revolution is the yearly orbit, and the slow change in how far Earth tilts (obliquity) is a separate Milankovitch cycle.",
+        "fix": "A cone traced by a spinning axis, a 26,000-year cycle, Hipparchus, drifting equinoxes, or a changing North Star means precession. A small nod with an 18.6-year period means nutation. If the question asks for the quantity the torque changes, say angular momentum.",
+        "line": "Real answer line: <b><u>precession</u></b> (accept word forms like <u>precess</u>ing; prompt on <u>wobble</u>; do not accept “nutation”)"
+    },
+    "tests": {
+        "right": [
+            "Precession",
+            "precession",
+            "Precesion",
+            "Precession of the equinoxes",
+            "Axial precession",
+            "precessing"
+        ],
+        "prompt": [
+            "Wobble",
+            "Wobbling"
+        ],
+        "wrong": [
+            "Nutation",
+            "Angular momentum",
+            "Torque",
+            "Rotation",
+            "Revolution",
+            "Obliquity",
+            "Precision",
+            "Spin"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,368 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "leaves",
+    "name": "Leaves",
+    "mono": "LVS",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Plant organs that catch sunlight · Where most photosynthesis happens",
+    "dates": "Many change color in autumn as chlorophyll breaks down",
+    "briefing": "Leaves are a plant’s food factories: flat, green organs packed with chloroplasts that turn sunlight, water, and carbon dioxide into sugar. Tiny pores called stomata on their surfaces let gases in and out, and veins bring in water and carry sugar away. In autumn, many trees break down the green chlorophyll in their leaves, revealing yellow and orange pigments that were hidden there all summer.",
+    "answerHtml": "<b><u>Leaves</u></b> (accept <u>leaf</u> or <u>foliage</u>; do not accept “chloroplasts” or “stomata”)",
+    "accept": [
+        "leaves",
+        "leaf",
+        "leafs",
+        "leaf blade",
+        "leaf blades",
+        "foliage"
+    ],
+    "prompt": [],
+    "reject": [
+        "leaves of grass",
+        "leaflet",
+        "leaflets",
+        "leaf cells",
+        "stems",
+        "stem",
+        "roots",
+        "root",
+        "petals",
+        "petal",
+        "sepals",
+        "sepal",
+        "flowers",
+        "flower",
+        "chloroplasts",
+        "chloroplast",
+        "chlorophyll",
+        "stomata",
+        "stoma",
+        "guard cells",
+        "mesophyll",
+        "petiole",
+        "petioles",
+        "veins",
+        "buds",
+        "branches",
+        "bark",
+        "thorns",
+        "spines",
+        "bracts",
+        "tendrils",
+        "cotyledons",
+        "cotyledon",
+        "photosynthesis"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Leaf",
+    "qb": {
+        "q": "leaf",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The arrangement of these structures on a stem, called phyllotaxis [“fil-uh-TAK-sis”], often forms spirals in which each new one sits about 137.5 degrees around the stem from the last, an angle linked to the Fibonacci numbers. Pairs of guard cells on these structures open and close tiny pores called stomata.",
+            "r": "Their veins carry water and sugar. For 10 points, name these flat, green plant organs where most photosynthesis happens."
+        },
+        {
+            "p": "In the Namib Desert, _Welwitschia_ [“wel-WITCH-ee-uh”] grows only two of these structures during its entire life, and they keep lengthening from their bases for centuries, splitting into ribbons. A waxy layer called the cuticle helps these structures avoid drying out.",
+            "r": "Most are attached to stems by stalks called petioles. For 10 points, name these plant organs that carry out most photosynthesis."
+        },
+        {
+            "p": "In corn and other C4 plants, these structures have Kranz anatomy, named for the German word for “wreath,” because a ring of bundle-sheath cells surrounds each vein. In most plants, these structures have a middle layer called the mesophyll [“MEZ-uh-fil”].",
+            "r": "Stomata on their surfaces let carbon dioxide in. For 10 points, name these plant organs where most photosynthesis takes place."
+        },
+        {
+            "p": "As days grow shorter, many trees make red and purple pigments called anthocyanins [“an-thoh-SY-uh-ninz”] in these structures. A tree then seals off each of these structures with an abscission [“ab-SIZH-un”] layer at the base of its stalk so that it can drop off.",
+            "r": "Their yellow and orange fall colors come from carotenoids that chlorophyll had hidden. For 10 points, name these plant organs that turn colors in autumn."
+        },
+        {
+            "p": "The bright red “petals” of a poinsettia [“poyn-SET-ee-uh”] are really bracts, colorful modified versions of these structures. Other modified versions of these structures include the spines of a cactus and the tendrils that pea plants use to climb.",
+            "r": "For 10 points, name these plant organs, usually flat and green, that are often attached to stems by stalks called petioles."
+        },
+        {
+            "p": "The sensitive plant, _Mimosa pudica_ [“mih-MOH-suh PYOO-dih-kuh”], folds up these structures within seconds of being touched, as water rushes out of cells at their bases. Venus flytraps catch insects with traps that are modified versions of these structures.",
+            "r": "For 10 points, name these plant organs whose stomata let carbon dioxide in for photosynthesis."
+        },
+        {
+            "p": "On cool, humid mornings, droplets of water can bead up along the edges of these structures after pushing out of pores called hydathodes [“HY-duh-thohdz”], a process called guttation. During the day, water evaporates from these structures in a process called transpiration.",
+            "r": "For 10 points, name these plant organs that are usually flat, green, and full of chloroplasts."
+        },
+        {
+            "p": "The crunchy stalks of celery are really the petioles [“PET-ee-ohlz”] of these structures, and rhubarb’s stalks are eaten too, even though the broad blades they hold contain poisonous oxalic acid. Tea is brewed from dried ones picked from a shrub called _Camellia sinensis_.",
+            "r": "Their stomata let in carbon dioxide. For 10 points, name these plant organs where most photosynthesis happens."
+        },
+        {
+            "p": "The word “chlorophyll” combines a Greek word for “pale green” with the Greek word for these structures. Inside these structures, tall, tightly packed palisade cells lie above loosely packed spongy cells with air spaces between them.",
+            "r": "Many of them turn yellow and orange in autumn. For 10 points, name these plant organs where most photosynthesis happens."
+        },
+        {
+            "p": "Silkworms feed on these structures from mulberry trees, monarch caterpillars eat those of milkweed plants, and koalas eat almost nothing but those of eucalyptus trees. Clover has compound ones, each divided into three smaller blades.",
+            "r": "They are green because of chlorophyll. For 10 points, name these plant organs where most photosynthesis takes place."
+        },
+        {
+            "p": "The layers of an onion bulb are thick, fleshy versions of these structures that store food underground. Pitcher plants trap insects in deep, slippery tubes that are also modified versions of these structures.",
+            "r": "Most photosynthesis happens in them. For 10 points, name these plant organs whose stomata let gases in and out."
+        },
+        {
+            "p": "In many plants, most of the stomata on these structures are on their lower surface, which helps cut down on water loss. Each stoma is opened and closed by a pair of bean-shaped guard cells.",
+            "r": "Water evaporating from these organs pulls more water up through the xylem. For 10 points, name these plant organs where most photosynthesis happens."
+        },
+        {
+            "p": "Grasses, corn, and other monocots usually have long, narrow versions of these structures with parallel veins, while eudicots such as oaks and maples have branching, net-like veins in them. Each vein is a vascular bundle with xylem on its upper side and phloem below.",
+            "r": "Most photosynthesis happens inside them. For 10 points, name these plant organs that are green because of chlorophyll."
+        },
+        {
+            "p": "Horse chestnut trees have palmately compound versions of these structures, with blades spreading from one point like fingers, while ash trees have pinnately compound ones, with blades lined up along a central stalk like a feather. Poison ivy has compound ones with three blades.",
+            "r": "A red one from a maple tree appears on Canada’s flag. For 10 points, name these plant organs where most photosynthesis happens."
+        },
+        {
+            "p": "In 1779, Jan Ingenhousz [“IN-gun-howss”] showed that plants give off oxygen only in sunlight, and only from their green parts, mainly these structures. The giant Amazon water lily has floating, round ones that can grow more than 2 meters across.",
+            "r": "Deciduous trees drop theirs each fall. For 10 points, name these plant organs where most photosynthesis takes place."
+        }
+    ],
+    "clues": [
+        {
+            "id": "photosynthesis-site",
+            "tier": "giveaway",
+            "t": "Flat, green plant organs where most photosynthesis happens, turning sunlight into sugar",
+            "k": ["photosynthesis", "sunlight", "organs"],
+            "n": 0,
+            "rabbit": "Photosynthesis"
+        },
+        {
+            "id": "green-chlorophyll",
+            "tier": "giveaway",
+            "t": "Green because their cells are packed with chloroplasts full of chlorophyll",
+            "k": ["chloroplasts", "chlorophyll", "green"],
+            "n": 0,
+            "rabbit": "Chloroplasts"
+        },
+        {
+            "id": "autumn-colors",
+            "tier": "giveaway",
+            "t": "In autumn, many trees break down their chlorophyll, revealing yellow and orange carotenoids",
+            "k": ["autumn", "carotenoids", "yellow and orange"],
+            "n": 0
+        },
+        {
+            "id": "deciduous",
+            "tier": "giveaway",
+            "t": "Deciduous trees drop all of theirs each year; evergreens keep theirs year-round",
+            "k": ["deciduous", "evergreens"],
+            "n": 0,
+            "rabbit": "Trees"
+        },
+        {
+            "id": "maple-flag",
+            "tier": "giveaway",
+            "t": "A red one from a maple tree is on the flag of Canada",
+            "k": ["maple", "canada", "flag"],
+            "n": 0
+        },
+        {
+            "id": "stomata-guard-cells",
+            "tier": "middle",
+            "t": "Tiny pores called stomata, opened and closed by pairs of guard cells, let carbon dioxide in and oxygen and water vapor out; most are on the lower surface",
+            "k": ["stomata", "guard cells", "lower surface"],
+            "n": 0
+        },
+        {
+            "id": "transpiration",
+            "tier": "middle",
+            "t": "Water evaporating from them (transpiration) pulls more water up through the xylem",
+            "k": ["transpiration", "evaporating", "xylem"],
+            "n": 0,
+            "rabbit": "Xylem"
+        },
+        {
+            "id": "mesophyll",
+            "tier": "middle",
+            "t": "Their middle layer, the mesophyll: tightly packed palisade cells on top, loosely packed spongy cells with air spaces below",
+            "k": ["mesophyll", "palisade", "spongy"],
+            "n": 0
+        },
+        {
+            "id": "cuticle",
+            "tier": "middle",
+            "t": "A waxy cuticle on their outer surface helps keep them from drying out",
+            "k": ["cuticle", "waxy"],
+            "n": 0
+        },
+        {
+            "id": "veins",
+            "tier": "middle",
+            "t": "Their veins are vascular bundles: xylem brings water in on the upper side, and phloem carries sugar out below",
+            "k": ["veins", "vascular bundles", "phloem"],
+            "n": 0,
+            "rabbit": "Phloem"
+        },
+        {
+            "id": "venation",
+            "tier": "middle",
+            "t": "Monocots like grasses and corn have parallel veins; eudicots like oaks and maples have branching, net-like veins",
+            "k": ["parallel veins", "monocots", "net-like"],
+            "n": 0
+        },
+        {
+            "id": "petiole-blade",
+            "tier": "middle",
+            "t": "Made of a flat blade and a stalk, called the petiole, that attaches it to the stem",
+            "k": ["petiole", "blade", "stalk"],
+            "n": 0
+        },
+        {
+            "id": "compound",
+            "tier": "middle",
+            "t": "Simple ones have a single blade; compound ones, like clover’s and poison ivy’s, are divided into several smaller blades",
+            "k": ["compound", "clover", "poison ivy"],
+            "n": 0
+        },
+        {
+            "id": "modified",
+            "tier": "middle",
+            "t": "Cactus spines, pea tendrils, and the layers of an onion bulb are all modified versions",
+            "k": ["cactus spines", "tendrils", "onion"],
+            "n": 0
+        },
+        {
+            "id": "animal-food",
+            "tier": "middle",
+            "t": "Silkworms eat mulberry ones, monarch caterpillars eat milkweed ones, and koalas eat eucalyptus ones",
+            "k": ["mulberry", "milkweed", "eucalyptus", "koalas"],
+            "n": 0,
+            "rabbit": "Marsupials"
+        },
+        {
+            "id": "phyllotaxis",
+            "tier": "power",
+            "t": "Their arrangement on a stem is called phyllotaxis; spirals often turn about 137.5 degrees (the golden angle) and follow Fibonacci numbers",
+            "k": ["phyllotaxis", "golden angle", "fibonacci"],
+            "n": 0
+        },
+        {
+            "id": "welwitschia",
+            "tier": "power",
+            "t": "_Welwitschia_ of the Namib Desert grows only two in its whole life; they keep growing from their bases for centuries",
+            "k": ["welwitschia", "namib"],
+            "n": 0
+        },
+        {
+            "id": "kranz",
+            "tier": "power",
+            "t": "C4 plants like corn have Kranz (“wreath”) anatomy: a ring of bundle-sheath cells around each vein",
+            "k": ["kranz", "bundle-sheath", "wreath"],
+            "n": 0,
+            "rabbit": "Calvin cycle"
+        },
+        {
+            "id": "fall-chemistry",
+            "tier": "power",
+            "t": "In fall, many trees make red and purple anthocyanins in them, then seal each one off with an abscission layer at the base of its stalk",
+            "k": ["anthocyanins", "abscission"],
+            "n": 0
+        },
+        {
+            "id": "poinsettia",
+            "tier": "power",
+            "t": "A poinsettia’s red “petals” are really bracts, a kind of modified one",
+            "k": ["poinsettia", "bracts"],
+            "n": 0
+        },
+        {
+            "id": "mimosa",
+            "tier": "power",
+            "t": "The sensitive plant, _Mimosa pudica_, folds them up within seconds of being touched, as water rushes out of cells at their bases",
+            "k": ["mimosa", "sensitive plant"],
+            "n": 0
+        },
+        {
+            "id": "carnivorous",
+            "tier": "power",
+            "t": "The traps of Venus flytraps and the slippery tubes of pitcher plants are modified versions that catch insects",
+            "k": ["venus flytraps", "pitcher plants"],
+            "n": 0
+        },
+        {
+            "id": "guttation",
+            "tier": "power",
+            "t": "Water droplets pushed out of pores called hydathodes along their edges, often on humid mornings, is called guttation",
+            "k": ["guttation", "hydathodes"],
+            "n": 0
+        },
+        {
+            "id": "foods",
+            "tier": "power",
+            "t": "Celery stalks are their petioles; rhubarb stalks are eaten but its blades hold poisonous oxalic acid; tea is brewed from dried ones",
+            "k": ["celery", "rhubarb", "oxalic acid", "tea"],
+            "n": 0
+        },
+        {
+            "id": "phyll-greek",
+            "tier": "power",
+            "t": "“Chlorophyll” joins Greek words for “pale green” and for this organ; the same root gives “phyllotaxis”",
+            "k": ["greek", "pale green"],
+            "n": 0
+        },
+        {
+            "id": "compound-types",
+            "tier": "power",
+            "t": "Horse chestnuts have palmately compound ones (blades spread like fingers); ash trees have pinnately compound ones (blades along a central stalk)",
+            "k": ["palmately", "pinnately", "horse chestnuts"],
+            "n": 0
+        },
+        {
+            "id": "ingenhousz",
+            "tier": "power",
+            "t": "Jan Ingenhousz (1779) showed that plants give off oxygen only in sunlight and only from their green parts, mainly these organs",
+            "k": ["ingenhousz", "1779", "oxygen"],
+            "n": 0
+        },
+        {
+            "id": "water-lily",
+            "tier": "power",
+            "t": "The giant Amazon water lily has floating, round ones that can grow more than 2 meters across",
+            "k": ["water lily", "amazon"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Organ, not organelle",
+        "body": "Leaf tossups are full of photosynthesis clues, so players blurt the organelle (chloroplasts), the pigment (chlorophyll), the pores (stomata), or the process (photosynthesis) instead of the whole organ. Others answer “stems” for clues about modified leaves, like cactus spines, onion layers, or celery stalks, which don’t look like leaves at all.",
+        "fix": "Listen for the noun: “these organs” or “these structures” attached to stems by petioles means leaves. “This organelle” means chloroplasts, “these pores” means stomata, and “this pigment” means chlorophyll.",
+        "line": "Real answer line: <b><u>Leaves</u></b> (accept <u>leaf</u>)"
+    },
+    "tests": {
+        "right": [
+            "Leaves",
+            "leaf",
+            "Leafs",
+            "leavs",
+            "Leaf blades"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Stems",
+            "Chloroplasts",
+            "Stomata",
+            "Petals",
+            "Leaves of Grass",
+            "Roots"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / "leaves.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote topics/leaves.json")

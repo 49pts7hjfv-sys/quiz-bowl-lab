@@ -1,0 +1,433 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "uranus",
+    "name": "Uranus",
+    "mono": "URA",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Seventh planet, tipped on its side · First planet found with a telescope",
+    "dates": "Discovered 1781",
+    "briefing": "Uranus is the planet that rolls around the Sun on its side: its axis is tipped about 98 degrees, so each pole gets about 42 years of sunlight followed by 42 years of darkness. William Herschel spotted it from his garden in Bath, England, in 1781, making it the first planet found with a telescope. This icy, blue-green giant has thin, dark rings and moons named mostly for characters from Shakespeare.",
+    "answerHtml": "<b><u>Uranus</u></b>",
+    "accept": [
+        "uranus",
+        "planet uranus"
+    ],
+    "prompt": [],
+    "reject": [
+        "ouranos",
+        "caelus",
+        "neptune",
+        "saturn",
+        "jupiter",
+        "uranium",
+        "miranda",
+        "titania",
+        "oberon",
+        "ariel",
+        "umbriel"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Uranus",
+    "qb": {
+        "q": "Uranus",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "John Flamsteed recorded this planet in 1690 but mistook it for a star, which he labeled 34 Tauri. When this planet’s true discoverer first saw it, he reported it as a comet.",
+            "r": "William Herschel found it from his garden in Bath, England, in 1781. For 10 points, name this seventh planet from the Sun."
+        },
+        {
+            "p": "This planet’s discoverer wanted to name it Georgium Sidus, or “George’s Star,” to honor King George III, who rewarded him with a yearly salary. Johann Bode [“BOH-duh”] instead suggested the name we use for it, which finally caught on everywhere around 1850.",
+            "r": "For 10 points, name this planet discovered by William Herschel, the seventh from the Sun."
+        },
+        {
+            "p": "In 1789, Martin Klaproth named a newly found element after this planet, which had been discovered just eight years earlier. The next element on the periodic table is named for the next planet farther from the Sun.",
+            "r": "This planet is named for the Greek god of the sky, the father of Cronus. For 10 points, name this seventh planet from the Sun."
+        },
+        {
+            "p": "In 1977, astronomers on a flying observatory watched a star blink off and on several times before and after this planet passed in front of it, revealing a set of thin, dark rings.",
+            "r": "James Elliot’s team had found the second ring system known in the solar system. For 10 points, name this seventh planet, which is tipped on its side."
+        },
+        {
+            "p": "Each pole of this planet gets about 42 years of nonstop sunlight followed by about 42 years of darkness. A giant collision long ago may explain why this planet is tipped so far over.",
+            "r": "Its axis is tilted about 98 degrees, so it spins on its side. For 10 points, name this seventh planet from the Sun."
+        },
+        {
+            "p": "In January 1986, Voyager 2 made the only spacecraft visit to this planet as of 2025, finding several new moons and measuring its day at about 17 hours. During that flyby, this planet’s south pole pointed almost straight at the Sun.",
+            "r": "That spacecraft flew on to Neptune in 1989. For 10 points, name this blue-green ice giant, the seventh planet from the Sun."
+        },
+        {
+            "p": "Verona Rupes, a cliff on this planet’s moon Miranda, is about 20 kilometers tall, probably the tallest cliff in the solar system. Miranda’s patchwork surface looks as if the moon had been broken apart and stuck back together.",
+            "r": "Miranda was discovered by Gerard Kuiper in 1948. For 10 points, name this planet, whose moons are named for characters from Shakespeare and Alexander Pope."
+        },
+        {
+            "p": "In 1787, this planet’s discoverer found its two largest moons, Titania and Oberon, which are named for the queen and king of the fairies in _A Midsummer Night’s Dream_. William Lassell found two more, Ariel and Umbriel, in 1851.",
+            "r": "Voyager 2 found several more of its moons in 1986. For 10 points, name this seventh planet, discovered by William Herschel."
+        },
+        {
+            "p": "This planet has the coldest atmosphere of any planet, dipping to about minus 224 degrees Celsius, partly because, unlike its outer neighbor, it gives off almost no extra heat from inside.",
+            "r": "Methane in its air gives it a blue-green color. For 10 points, name this ice giant, the seventh planet from the Sun."
+        },
+        {
+            "p": "Alexis Bouvard [“boo-VAR”] published tables of this planet’s motion in 1821, but it kept drifting off course, so he suspected that an unseen planet was tugging on it. That hidden planet, Neptune, was found in 1846.",
+            "r": "Its discoverer was William Herschel. For 10 points, name this planet, the seventh from the Sun."
+        },
+        {
+            "p": "Voyager 2 found that this planet’s magnetic field is tipped nearly 60 degrees from its spin axis and is centered far from the middle of the planet. Its moons and rings circle around its sharply tilted equator.",
+            "r": "Like Neptune, this planet is called an ice giant. For 10 points, name this planet that spins on its side."
+        },
+        {
+            "p": "This planet’s discoverer earned his living as a musician and church organist in Bath, England, and he ground the mirrors for his own telescopes. He composed symphonies before he turned to astronomy.",
+            "r": "In 1781, he made this planet the first one ever found with a telescope. For 10 points, name this seventh planet from the Sun."
+        },
+        {
+            "p": "Gustav Holst’s _The Planets_ calls this planet “the Magician.” It takes about 84 Earth years to circle the Sun, so each of its seasons lasts about 21 years, and as of 2025 it had not yet completed three orbits since its discovery.",
+            "r": "This tipped-over planet is named for the Greek god of the sky. For 10 points, name this seventh planet from the Sun."
+        },
+        {
+            "p": "In 2022, a major report by American planetary scientists named a big orbiter and probe for this planet as NASA’s top priority for its next flagship planetary mission. Such reports are called decadal surveys.",
+            "r": "As of 2025, only one spacecraft had visited this planet, in 1986. For 10 points, name this ice giant, the seventh planet from the Sun."
+        },
+        {
+            "p": "Two small moons named Cordelia and Ophelia herd this planet’s brightest ring, the Epsilon ring, keeping it narrow. Most of this planet’s moons are named for characters from Shakespeare’s plays, but Umbriel and Belinda come from a poem by Alexander Pope.",
+            "r": "Its largest moon is Titania. For 10 points, name this seventh planet, which is tipped on its side."
+        }
+    ],
+    "clues": [
+        {
+            "id": "seventh",
+            "tier": "giveaway",
+            "t": "Seventh planet from the Sun: a blue-green ice giant colored by methane",
+            "k": [
+                "seventh planet",
+                "ice giant",
+                "blue-green"
+            ],
+            "n": 0
+        },
+        {
+            "id": "side",
+            "tier": "giveaway",
+            "t": "Spins on its side: its axis is tilted about 98 degrees",
+            "k": [
+                "on its side",
+                "98 degrees",
+                "tilted"
+            ],
+            "n": 0
+        },
+        {
+            "id": "herschel",
+            "tier": "giveaway",
+            "t": "William Herschel discovered it in 1781, the first planet found with a telescope",
+            "k": [
+                "william herschel",
+                "1781",
+                "telescope"
+            ],
+            "n": 0
+        },
+        {
+            "id": "greek-god",
+            "tier": "giveaway",
+            "t": "Named for the Greek god of the sky, the father of Cronus; the only planet named for a Greek god",
+            "k": [
+                "greek god",
+                "sky",
+                "cronus"
+            ],
+            "n": 0
+        },
+        {
+            "id": "voyager-2",
+            "tier": "middle",
+            "t": "As of 2025, Voyager 2 (January 1986) was the only spacecraft to have visited it",
+            "k": [
+                "voyager 2",
+                "1986",
+                "only spacecraft"
+            ],
+            "n": 0
+        },
+        {
+            "id": "bath-comet",
+            "tier": "middle",
+            "t": "Herschel spotted it from his garden in Bath, England, and first reported it as a comet",
+            "k": [
+                "bath",
+                "comet",
+                "garden"
+            ],
+            "n": 0
+        },
+        {
+            "id": "georgium",
+            "tier": "middle",
+            "t": "Herschel wanted to name it Georgium Sidus (“George’s Star”) for King George III; Johann Bode suggested its name",
+            "k": [
+                "georgium sidus",
+                "george iii",
+                "bode"
+            ],
+            "n": 0,
+            "rabbit": "George III"
+        },
+        {
+            "id": "uranium",
+            "tier": "middle",
+            "t": "The element uranium (Martin Klaproth, 1789) is named for it; neptunium is named for the next planet out",
+            "k": [
+                "uranium",
+                "klaproth",
+                "1789",
+                "neptunium"
+            ],
+            "n": 0
+        },
+        {
+            "id": "rings-1977",
+            "tier": "middle",
+            "t": "Its thin, dark rings were found in 1977 when it passed in front of a star; they were the second ring system known",
+            "k": [
+                "rings",
+                "1977",
+                "second ring system"
+            ],
+            "n": 0
+        },
+        {
+            "id": "shakespeare-moons",
+            "tier": "middle",
+            "t": "Its moons are named for characters from Shakespeare and from Alexander Pope (Umbriel and Belinda)",
+            "k": [
+                "shakespeare",
+                "alexander pope",
+                "umbriel"
+            ],
+            "n": 0,
+            "rabbit": "William Shakespeare"
+        },
+        {
+            "id": "titania-oberon",
+            "tier": "middle",
+            "t": "Its largest moons, Titania and Oberon (found by Herschel in 1787), are the fairy queen and king in _A Midsummer Night’s Dream_",
+            "k": [
+                "titania",
+                "oberon",
+                "midsummer"
+            ],
+            "n": 0,
+            "rabbit": "A Midsummer Night’s Dream"
+        },
+        {
+            "id": "miranda",
+            "tier": "middle",
+            "t": "Its moon Miranda has a patchwork surface and Verona Rupes, a cliff about 20 km tall",
+            "k": [
+                "miranda",
+                "verona rupes",
+                "20 km"
+            ],
+            "n": 0
+        },
+        {
+            "id": "42-years",
+            "tier": "middle",
+            "t": "Each pole gets about 42 years of sunlight, then about 42 years of darkness",
+            "k": [
+                "42 years",
+                "darkness"
+            ],
+            "n": 0
+        },
+        {
+            "id": "coldest",
+            "tier": "middle",
+            "t": "It has the coldest atmosphere of any planet, about −224°C, partly because it gives off little heat from inside",
+            "k": [
+                "coldest",
+                "−224",
+                "little heat"
+            ],
+            "n": 0
+        },
+        {
+            "id": "84-years",
+            "tier": "power",
+            "t": "One orbit takes about 84 Earth years, so each season lasts about 21 years",
+            "k": [
+                "84 earth years",
+                "21 years"
+            ],
+            "n": 0
+        },
+        {
+            "id": "bouvard",
+            "tier": "power",
+            "t": "Alexis Bouvard’s tables (1821) showed it drifting off course, which led to the discovery of Neptune in 1846",
+            "k": [
+                "bouvard",
+                "1821",
+                "neptune"
+            ],
+            "n": 0,
+            "rabbit": "Neptune"
+        },
+        {
+            "id": "flamsteed",
+            "tier": "power",
+            "t": "John Flamsteed recorded it in 1690 but thought it was a star, which he labeled 34 Tauri",
+            "k": [
+                "flamsteed",
+                "34 tauri",
+                "1690"
+            ],
+            "n": 0
+        },
+        {
+            "id": "elliot",
+            "tier": "power",
+            "t": "James Elliot’s team found the rings in 1977 from a flying observatory, by watching a star blink",
+            "k": [
+                "james elliot",
+                "flying observatory"
+            ],
+            "n": 0
+        },
+        {
+            "id": "lassell",
+            "tier": "power",
+            "t": "William Lassell found its moons Ariel and Umbriel in 1851",
+            "k": [
+                "lassell",
+                "ariel",
+                "1851"
+            ],
+            "n": 0
+        },
+        {
+            "id": "kuiper-miranda",
+            "tier": "power",
+            "t": "Gerard Kuiper found its moon Miranda in 1948",
+            "k": [
+                "kuiper",
+                "1948"
+            ],
+            "n": 0
+        },
+        {
+            "id": "magnetic-field",
+            "tier": "power",
+            "t": "Its magnetic field is tipped nearly 60 degrees from its spin axis and centered far from the planet’s middle",
+            "k": [
+                "magnetic field",
+                "60 degrees"
+            ],
+            "n": 0
+        },
+        {
+            "id": "south-pole-1986",
+            "tier": "power",
+            "t": "During the 1986 flyby, its south pole pointed almost straight at the Sun; a day there lasts about 17 hours",
+            "k": [
+                "south pole",
+                "17 hours"
+            ],
+            "n": 0
+        },
+        {
+            "id": "collision",
+            "tier": "power",
+            "t": "A giant collision long ago may have knocked it over",
+            "k": [
+                "giant collision",
+                "knocked"
+            ],
+            "n": 0
+        },
+        {
+            "id": "holst-magician",
+            "tier": "power",
+            "t": "Gustav Holst’s _The Planets_ calls it “the Magician”",
+            "k": [
+                "magician",
+                "holst"
+            ],
+            "n": 0
+        },
+        {
+            "id": "decadal",
+            "tier": "power",
+            "t": "The 2022 decadal survey made an orbiter and probe to it NASA’s top priority for its next flagship planetary mission",
+            "k": [
+                "decadal survey",
+                "2022",
+                "orbiter and probe"
+            ],
+            "n": 0
+        },
+        {
+            "id": "musician",
+            "tier": "power",
+            "t": "Herschel was a musician and church organist in Bath who composed symphonies and ground his own telescope mirrors",
+            "k": [
+                "musician",
+                "organist",
+                "symphonies"
+            ],
+            "n": 0
+        },
+        {
+            "id": "epsilon",
+            "tier": "power",
+            "t": "Small moons Cordelia and Ophelia herd its brightest ring, the Epsilon ring",
+            "k": [
+                "epsilon ring",
+                "cordelia",
+                "ophelia"
+            ],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Uranus or Neptune?",
+        "body": "Uranus and Neptune are look-alike blue ice giants, and their clues get mixed up, especially because tugs on Uranus’s orbit led to Neptune’s discovery. Players also blurt out the name of a moon, like Miranda, Titania, or Oberon, when the question wants the planet. The sky god Uranus, the father of Cronus, belongs to mythology questions.",
+        "fix": "William Herschel, 1781, Bath, Georgium Sidus, a 98-degree tilt, moons named for Shakespeare and Pope characters, and rings found in 1977 mean Uranus. Le Verrier, Adams, Galle, 1846, Triton, the Great Dark Spot, and the fastest winds mean Neptune. If the question says “this planet,” name the planet, not its moon.",
+        "line": "Real answer line: <b><u>Uranus</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Uranus",
+            "uranus",
+            "Uranis",
+            "Planet Uranus",
+            "the planet Uranus"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Neptune",
+            "Saturn",
+            "Uranium",
+            "Ouranos",
+            "Miranda",
+            "Titania"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

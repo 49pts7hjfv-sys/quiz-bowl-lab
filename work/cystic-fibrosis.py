@@ -1,0 +1,337 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "cystic-fibrosis",
+    "name": "Cystic fibrosis",
+    "mono": "CYF",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Inherited disease of thick, sticky mucus · Caused by the CFTR gene",
+    "dates": "Described in 1938; gene found in 1989",
+    "briefing": "Cystic fibrosis is a genetic disease that makes the body’s mucus thick and sticky, which can clog the lungs and the pancreas. It comes from changes in one gene, CFTR, which normally builds a channel that lets chloride, part of salt, out of cells; that is why people with it have extra-salty sweat. A child has it only after inheriting a changed copy from each parent, and new medicines have greatly helped many people with it.",
+    "answerHtml": "<b><u>Cystic fibrosis</u></b> (accept <u>CF</u> or <u>mucoviscidosis</u>; do not accept “pulmonary fibrosis”)",
+    "accept": [
+        "cystic fibrosis",
+        "cf",
+        "mucoviscidosis",
+        "cystic fibrosis of the pancreas"
+    ],
+    "prompt": [
+        "fibrosis"
+    ],
+    "reject": [
+        "pulmonary fibrosis",
+        "idiopathic pulmonary fibrosis",
+        "cftr",
+        "cftr gene",
+        "chloride channel",
+        "sickle cell anemia",
+        "sickle cell disease",
+        "sickle cell",
+        "tay sachs",
+        "tay sachs disease",
+        "huntingtons disease",
+        "hemophilia",
+        "muscular dystrophy",
+        "asthma",
+        "tuberculosis",
+        "pneumonia",
+        "bronchitis",
+        "emphysema",
+        "copd",
+        "cystitis",
+        "fibromyalgia",
+        "polycystic kidney disease"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Cystic_fibrosis",
+    "qb": {
+        "q": "cystic fibrosis",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1938, pathologist Dorothy Hansine Andersen named this disease after the fluid-filled sacs and scar tissue she found in the pancreas of young children. Mucus can block the pancreas in this disease, so many people with it take enzyme capsules with meals to help digest their food.",
+            "r": "For 10 points, name this inherited disease, caused by mutations in the CFTR gene, that makes mucus thick and sticky."
+        },
+        {
+            "p": "In 1989, Lap-Chee Tsui [“LAP-chee CHOY”], Francis Collins, and John Riordan identified the gene behind this disease on chromosome 7. That gene codes for a channel protein that moves chloride ions out of the cells lining the lungs and gut.",
+            "r": "That gene is CFTR. For 10 points, name this genetic disease that causes thick, sticky mucus and very salty sweat."
+        },
+        {
+            "p": "The most common mutation behind this disease, called F508del or delta F508, deletes three DNA bases and removes a single phenylalanine from a protein. Without that amino acid, the protein folds the wrong way, so the cell destroys it before it can reach the cell membrane.",
+            "r": "For 10 points, name this inherited disease, caused by changes in the CFTR gene, that clogs the lungs with thick mucus."
+        },
+        {
+            "p": "In 2019, the U.S. Food and Drug Administration approved Trikafta, a combination of elexacaftor, tezacaftor, and ivacaftor that helps a faulty channel protein fold correctly and stay open in people with this disease. That channel normally carries chloride ions out of cells.",
+            "r": "For 10 points, name this genetic disease that makes the mucus in the lungs thick and sticky."
+        },
+        {
+            "p": "Ivacaftor, sold as Kalydeco, became the first drug aimed at the root cause of this disease when it was approved in 2012 for people with a mutation called G551D. Before such drugs, care for this disease focused on clearing mucus and fighting lung infections.",
+            "r": "For 10 points, name this inherited disease that people get by receiving two faulty copies of the CFTR gene."
+        },
+        {
+            "p": "During a 1948 New York heat wave, Paul di Sant’Agnese [“dee sahnt-ah-NYAY-zay”] noticed that children with this disease were especially likely to get sick from the heat, which led him to discover that their sweat holds extra salt. That discovery led to the sweat test used to diagnose this disease.",
+            "r": "For 10 points, name this genetic disease, caused by mutations in the CFTR gene, that leaves thick, sticky mucus in the lungs."
+        },
+        {
+            "p": "In 1959, Lewis Gibson and Robert Cooke developed a standard test for this disease that uses the drug pilocarpine [“py-loh-KAR-peen”] and a weak electric current to make a small patch of skin sweat. That test measures how much chloride is in the sweat.",
+            "r": "People with this disease have unusually salty sweat. For 10 points, name this genetic disease that makes mucus thick and sticky."
+        },
+        {
+            "p": "In 1965, a four-year-old boy named Richard Weiss told his mother he knew she was working to help children with “sixty-five roses,” his way of saying this disease’s name. Roses then became a symbol of a foundation that raises money for research on this disease.",
+            "r": "For 10 points, name this inherited disease, caused by the CFTR gene, that makes mucus thick and sticky."
+        },
+        {
+            "p": "The 2019 film _Five Feet Apart_ takes its title from a rule that people with this disease should stay about six feet away from each other, so that they do not pass harmful bacteria back and forth. One such germ, _Pseudomonas aeruginosa_ [“soo-doh-MOH-nuss air-oo-jih-NOH-suh”], often infects the lungs of people with this disease.",
+            "r": "For 10 points, name this genetic disease, caused by mutations in the CFTR gene, that clogs the lungs with thick, sticky mucus."
+        },
+        {
+            "p": "Many people with this disease breathe in dornase alfa, an enzyme that thins mucus by cutting apart DNA left behind by white blood cells. They also loosen mucus every day with airway-clearance routines, such as wearing a vest that shakes the chest.",
+            "r": "For 10 points, name this inherited disease, caused by mutations in the CFTR gene, that makes mucus thick and sticky."
+        },
+        {
+            "p": "Some scientists have proposed that carriers of this disease’s gene were better protected against cholera, because cholera’s toxin makes that gene’s chloride channels pour salt and water into the gut. Carriers have one changed copy of the gene and usually have no symptoms.",
+            "r": "For 10 points, name this recessive genetic disease, in which two faulty copies of the CFTR gene cause thick, sticky mucus."
+        },
+        {
+            "p": "Former NFL quarterback Boomer Esiason started a foundation to fight this disease in 1993, after his son Gunnar was diagnosed with it. Newborn babies in the United States are screened for this disease using a few drops of blood from a heel prick.",
+            "r": "For 10 points, name this genetic disease that makes mucus thick and sticky and leaves sweat very salty."
+        },
+        {
+            "p": "The protein at the center of this disease belongs to the ABC transporter family, but instead of pumping molecules, it works as a channel that opens when it binds ATP. That channel lets chloride ions flow out of the cells lining the lungs.",
+            "r": "That channel protein is CFTR. For 10 points, name this inherited disease that causes thick, sticky mucus."
+        },
+        {
+            "p": "Newborn screening for this disease measures immunoreactive trypsinogen [“trip-SIN-uh-jen”], a protein from the pancreas that is often high in babies with this disease. This disease is most common among people of Northern European descent.",
+            "r": "For 10 points, name this genetic disease, caused by mutations in the CFTR gene, that clogs the lungs with mucus."
+        },
+        {
+            "p": "Old European folklore warned about babies whose foreheads tasted salty when kissed, a sign now linked to this disease. The gene behind this disease sits on chromosome 7, and its most common mutation is called F508del.",
+            "r": "Two carrier parents have a one-in-four chance of having a child with it. For 10 points, name this inherited disease of thick, sticky mucus."
+        }
+    ],
+    "clues": [
+        {
+            "id": "sticky-mucus",
+            "tier": "giveaway",
+            "t": "Makes mucus thick and sticky, clogging the lungs and the digestive system",
+            "k": ["mucus", "sticky", "lungs"],
+            "n": 0,
+            "rabbit": "Lungs"
+        },
+        {
+            "id": "recessive",
+            "tier": "giveaway",
+            "t": "Recessive: a child must inherit a changed gene from both parents; people with one copy are carriers",
+            "k": ["recessive", "carriers", "both parents"],
+            "n": 0,
+            "rabbit": "Punnett squares"
+        },
+        {
+            "id": "cftr-gene",
+            "tier": "giveaway",
+            "t": "Caused by mutations in the CFTR gene",
+            "k": ["cftr", "mutations"],
+            "n": 0
+        },
+        {
+            "id": "inherited",
+            "tier": "giveaway",
+            "t": "A genetic disease that people are born with; it is inherited, not contagious",
+            "k": ["inherited", "contagious", "born with"],
+            "n": 0
+        },
+        {
+            "id": "salty-sweat",
+            "tier": "middle",
+            "t": "People with it have very salty sweat, so doctors use a sweat test to diagnose it",
+            "k": ["salty sweat", "sweat test"],
+            "n": 0
+        },
+        {
+            "id": "chloride-channel",
+            "tier": "middle",
+            "t": "The CFTR protein is a channel that lets chloride ions out of cells; when it fails, mucus dries out and thickens",
+            "k": ["chloride", "channel", "ions"],
+            "n": 0
+        },
+        {
+            "id": "chromosome-7",
+            "tier": "middle",
+            "t": "The CFTR gene is on chromosome 7",
+            "k": ["chromosome 7"],
+            "n": 0,
+            "rabbit": "Chromosomes"
+        },
+        {
+            "id": "f508del",
+            "tier": "middle",
+            "t": "The most common mutation, F508del (ΔF508), deletes three DNA bases and removes one amino acid, phenylalanine",
+            "k": ["f508del", "phenylalanine", "δf508"],
+            "n": 0,
+            "rabbit": "Mutations"
+        },
+        {
+            "id": "pancreas",
+            "tier": "middle",
+            "t": "Mucus can block the pancreas, so many people with it take enzyme capsules with meals to digest food",
+            "k": ["pancreas", "enzyme capsules"],
+            "n": 0,
+            "rabbit": "Pancreas"
+        },
+        {
+            "id": "infections",
+            "tier": "middle",
+            "t": "Sticky mucus traps bacteria such as _Pseudomonas aeruginosa_, causing lung infections",
+            "k": ["pseudomonas", "infections"],
+            "n": 0
+        },
+        {
+            "id": "northern-european",
+            "tier": "middle",
+            "t": "Most common among people of Northern European descent",
+            "k": ["northern european"],
+            "n": 0
+        },
+        {
+            "id": "newborn-screening",
+            "tier": "middle",
+            "t": "Newborns are screened with a heel-prick blood test that measures immunoreactive trypsinogen (IRT), a pancreas protein",
+            "k": ["heel-prick", "trypsinogen", "newborns"],
+            "n": 0
+        },
+        {
+            "id": "andersen-1938",
+            "tier": "power",
+            "t": "Pathologist Dorothy Hansine Andersen named it in 1938 for the fluid-filled sacs (cysts) and scar tissue she saw in the pancreas",
+            "k": ["dorothy hansine andersen", "andersen", "1938", "scar tissue"],
+            "n": 0
+        },
+        {
+            "id": "gene-1989",
+            "tier": "power",
+            "t": "Lap-Chee Tsui, Francis Collins, and John Riordan identified its gene in 1989",
+            "k": ["lap-chee tsui", "francis collins", "riordan", "1989"],
+            "n": 0
+        },
+        {
+            "id": "trikafta",
+            "tier": "power",
+            "t": "Trikafta (elexacaftor, tezacaftor, and ivacaftor), approved in 2019, helps the faulty channel fold correctly and stay open",
+            "k": ["trikafta", "elexacaftor", "2019"],
+            "n": 0
+        },
+        {
+            "id": "ivacaftor",
+            "tier": "power",
+            "t": "Ivacaftor (Kalydeco), approved in 2012 for the G551D mutation, was the first drug aimed at its root cause",
+            "k": ["ivacaftor", "kalydeco", "g551d"],
+            "n": 0
+        },
+        {
+            "id": "di-sant-agnese",
+            "tier": "power",
+            "t": "During a 1948 New York heat wave, Paul di Sant’Agnese noticed these children got sick from heat, which led him to find their salty sweat",
+            "k": ["di sant’agnese", "heat wave", "1948"],
+            "n": 0
+        },
+        {
+            "id": "gibson-cooke",
+            "tier": "power",
+            "t": "In 1959, Lewis Gibson and Robert Cooke made the standard sweat test, using the drug pilocarpine to make skin sweat",
+            "k": ["pilocarpine", "gibson", "cooke", "1959"],
+            "n": 0
+        },
+        {
+            "id": "sixty-five-roses",
+            "tier": "power",
+            "t": "In 1965, four-year-old Richard Weiss called it “sixty-five roses”; roses became a symbol of the foundation that fights it",
+            "k": ["sixty-five roses", "richard weiss", "roses"],
+            "n": 0
+        },
+        {
+            "id": "five-feet-apart",
+            "tier": "power",
+            "t": "The 2019 film _Five Feet Apart_ is named for the rule that people with it keep about six feet apart to avoid sharing germs",
+            "k": ["five feet apart", "six feet"],
+            "n": 0
+        },
+        {
+            "id": "dornase",
+            "tier": "power",
+            "t": "Inhaled dornase alfa thins mucus by cutting up DNA left by white blood cells; vibrating vests help clear the airways",
+            "k": ["dornase alfa", "vests", "white blood cells"],
+            "n": 0
+        },
+        {
+            "id": "cholera-carriers",
+            "tier": "power",
+            "t": "One idea: carriers were protected from cholera, whose toxin forces CFTR channels to pour salt and water into the gut",
+            "k": ["cholera", "carriers", "toxin"],
+            "n": 0,
+            "rabbit": "Cholera"
+        },
+        {
+            "id": "esiason",
+            "tier": "power",
+            "t": "NFL quarterback Boomer Esiason started a foundation to fight it in 1993, after his son Gunnar was diagnosed",
+            "k": ["boomer esiason", "esiason", "gunnar"],
+            "n": 0
+        },
+        {
+            "id": "abc-transporter",
+            "tier": "power",
+            "t": "CFTR belongs to the ABC transporter family but works as a channel that opens when it binds ATP",
+            "k": ["abc transporter", "atp"],
+            "n": 0,
+            "rabbit": "ATP"
+        },
+        {
+            "id": "salty-kiss",
+            "tier": "power",
+            "t": "Old European folklore warned about babies whose foreheads tasted salty when kissed",
+            "k": ["folklore", "tasted salty", "kissed"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The disease, not the gene",
+        "body": "Many clues describe the CFTR gene or its chloride channel, and some real questions ask for CFTR itself, so players mix up the gene and the disease. Two other famous recessive diseases are traps too: sickle-cell disease, which bends red blood cells, and Tay-Sachs disease, which harms nerve cells. “Fibrosis” alone is not enough, and pulmonary fibrosis is a different lung condition.",
+        "fix": "Listen for “this disease” versus “this gene” or “this protein.” Thick mucus, salty sweat, the pancreas, chromosome 7, and F508del mean cystic fibrosis. Red blood cells, hemoglobin, and malaria mean sickle-cell disease.",
+        "line": "Real answer line: <b><u>Cystic fibrosis</u></b> (accept <u>CF</u>; do not accept “CFTR”)"
+    },
+    "tests": {
+        "right": [
+            "Cystic fibrosis",
+            "cystic fibrosis",
+            "CF",
+            "Cystic fibrossis",
+            "Mucoviscidosis"
+        ],
+        "prompt": [
+            "Fibrosis"
+        ],
+        "wrong": [
+            "Pulmonary fibrosis",
+            "Sickle-cell disease",
+            "CFTR",
+            "Asthma",
+            "Tay-Sachs disease"
+        ]
+    }
+}
+
+out = ROOT / "topics" / "cystic-fibrosis.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", out)

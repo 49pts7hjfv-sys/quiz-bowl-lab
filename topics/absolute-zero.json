@@ -1,0 +1,484 @@
+{
+  "id": "absolute-zero",
+  "name": "Absolute zero",
+  "mono": "0K",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "The coldest possible temperature · Zero on the Kelvin scale",
+  "dates": "Estimated by Amontons, c. 1702; Kelvin’s scale, 1848",
+  "briefing": "Absolute zero is the coldest anything can ever get: 0 kelvins, or about −273 °C (−459.67 °F). There, particles have the least energy they possibly can, though quantum physics says they never sit perfectly still. The third law of thermodynamics says no one can ever quite reach it, but scientists using lasers and magnets have chilled atoms to within a billionth of a degree, close enough to make strange new states of matter.",
+  "answerHtml": "<b><u>absolute zero</u></b> (accept <u>0 kelvins</u> or <u>0 K</u>; accept −273.15 °C or −459.67 °F; prompt on <u>zero</u>; do not accept “0 degrees Celsius”)",
+  "accept": [
+    "absolute zero",
+    "absolute 0",
+    "absolute zero temperature",
+    "zero kelvin",
+    "zero kelvins",
+    "zero degrees kelvin",
+    "0 kelvin",
+    "0 kelvins",
+    "0 degrees kelvin",
+    "0 degree kelvin",
+    "0 k",
+    "0k",
+    "273 15 degrees celsius",
+    "273 15 c",
+    "273 15 celsius",
+    "negative 273 15 degrees celsius",
+    "minus 273 15 degrees celsius",
+    "273 degrees celsius",
+    "273 c",
+    "273 celsius",
+    "negative 273 degrees celsius",
+    "minus 273 degrees celsius",
+    "459 67 degrees fahrenheit",
+    "459 67 f",
+    "459 67 fahrenheit",
+    "negative 459 67 degrees fahrenheit",
+    "minus 459 67 degrees fahrenheit",
+    "460 degrees fahrenheit",
+    "460 f",
+    "0 degrees rankine",
+    "0 rankine",
+    "zero rankine"
+  ],
+  "prompt": [
+    "zero",
+    "0",
+    "zero degrees",
+    "0 degrees",
+    "absolute",
+    "kelvin",
+    "kelvins"
+  ],
+  "reject": [
+    "0 degrees celsius",
+    "zero degrees celsius",
+    "0 celsius",
+    "zero celsius",
+    "0 c",
+    "0 degrees fahrenheit",
+    "zero degrees fahrenheit",
+    "0 fahrenheit",
+    "zero fahrenheit",
+    "0 f",
+    "273 k",
+    "273 kelvin",
+    "273 kelvins",
+    "273 degrees kelvin",
+    "273 15 k",
+    "273 15 kelvin",
+    "273 16 k",
+    "273 16 kelvin",
+    "373 k",
+    "373 c",
+    "1 kelvin",
+    "2 kelvin",
+    "3 kelvin",
+    "4 kelvin",
+    "10 kelvin",
+    "100 kelvin",
+    "2 7 kelvin",
+    "2 7 k",
+    "freezing point",
+    "freezing point of water",
+    "freezing",
+    "triple point",
+    "triple point of water",
+    "lord kelvin",
+    "kelvin scale",
+    "absolute scale",
+    "absolute temperature",
+    "absolute value",
+    "third law of thermodynamics",
+    "third law",
+    "nernst heat theorem",
+    "bose einstein condensate",
+    "superconductivity",
+    "superfluidity",
+    "superfluid",
+    "zero point energy",
+    "cosmic microwave background",
+    "boomerang nebula",
+    "liquid helium",
+    "liquid nitrogen",
+    "dry ice",
+    "entropy",
+    "heat death"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Absolute_zero",
+  "qb": {
+    "q": "absolute zero",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Around 1702, Guillaume Amontons [“ah-mohn-TOHN”] reasoned that the pressure of air would drop to nothing if the air were cooled enough, an early estimate of this temperature. Extending graphs of a gas’s volume against its temperature down to zero volume, following Charles’s law, also points to this temperature.",
+      "r": "For 10 points, name this lowest possible temperature, the zero point of the Kelvin scale."
+    },
+    {
+      "p": "Walther Nernst’s heat theorem grew into a law stating that no process can reach this temperature in a finite number of steps. That same law says that the entropy of a perfect crystal is zero at this temperature.",
+      "r": "For 10 points, name this coldest possible temperature, about 273 degrees below zero on the Celsius scale."
+    },
+    {
+      "p": "In 1908, Heike Kamerlingh Onnes [“HAY-kuh KAH-mer-ling OH-nus”] became the first person to liquefy helium, and three years later he used that liquid to cool mercury to about 4 kelvins above this temperature, discovering superconductivity. He won the 1913 Nobel Prize in Physics for his work near this temperature.",
+      "r": "For 10 points, name this lowest possible temperature, the zero point of the Kelvin scale."
+    },
+    {
+      "p": "Steven Chu’s “optical molasses” used crossed laser beams to slow atoms as if they were moving through syrup, chilling them close to this temperature. Chu shared the 1997 Nobel Prize in Physics with Claude Cohen-Tannoudji [“koh-EN tah-noo-JEE”] and William Phillips for such laser cooling.",
+      "r": "For 10 points, name this coldest possible temperature, 0 on the Kelvin scale."
+    },
+    {
+      "p": "In 1995, Eric Cornell and Carl Wieman cooled rubidium atoms to less than a millionth of a degree above this temperature, making the first Bose–Einstein condensate. Wolfgang Ketterle shared the 2001 Nobel Prize in Physics with them for such work.",
+      "r": "For 10 points, name this coldest possible temperature, about 273 degrees below zero on the Celsius scale."
+    },
+    {
+      "p": "Because of zero-point energy, helium would stay liquid even at this temperature unless it were squeezed to about 25 times normal air pressure. Quantum physics says particles keep that small, unavoidable energy even here, so their motion never stops completely.",
+      "r": "For 10 points, name this lowest possible temperature, the zero point of the Kelvin scale."
+    },
+    {
+      "p": "In a metal at this temperature, electrons fill every energy level up to one named for Enrico Fermi, because the Pauli exclusion principle keeps them from all crowding into the lowest level. Even so, those electrons keep moving quickly at this temperature.",
+      "r": "On the Fahrenheit scale, it is exactly −459.67 degrees. For 10 points, name this lowest possible temperature."
+    },
+    {
+      "p": "In 1848, William Thomson proposed a temperature scale that does not depend on the properties of any particular substance, with this temperature as its zero point. The Rankine [“RANG-kin”] scale also starts at this temperature but uses degrees the same size as Fahrenheit degrees.",
+      "r": "Thomson was later called Lord Kelvin. For 10 points, name this lowest possible temperature."
+    },
+    {
+      "p": "The Boomerang Nebula, at about 1 kelvin, is the coldest known natural place in the universe, even colder than the 2.7-kelvin glow of the cosmic microwave background left over from the Big Bang. Both are only slightly warmer than this temperature.",
+      "r": "The third law of thermodynamics says it can never actually be reached. For 10 points, name this coldest possible temperature."
+    },
+    {
+      "p": "In 1933, William Giauque [“jee-OHK”] used adiabatic demagnetization, which cools a magnetic salt by slowly switching off a strong magnet, to come within a fraction of a degree of this temperature. Giauque won the 1949 Nobel Prize in Chemistry for studying substances near this temperature.",
+      "r": "For 10 points, name this lowest possible temperature, the zero point of the Kelvin scale."
+    },
+    {
+      "p": "Dilution refrigerators come within a few thousandths of a degree of this temperature by mixing two isotopes of helium, helium-3 and helium-4. Quantum computers built from superconducting circuits are often kept cold inside such refrigerators.",
+      "r": "For 10 points, name this coldest possible temperature, about 273 degrees below zero on the Celsius scale."
+    },
+    {
+      "p": "In 1937, Pyotr Kapitsa [“kuh-PEET-suh”] helped discover that liquid helium cooled below about 2.2 kelvins flows with no viscosity at all, becoming a superfluid. Kapitsa won the 1978 Nobel Prize in Physics for his research on matter at temperatures close to this one.",
+      "r": "For 10 points, name this lowest possible temperature, which the Kelvin scale calls zero."
+    },
+    {
+      "p": "NASA’s Cold Atom Laboratory, aboard the International Space Station, chills clouds of atoms to within a tiny fraction of a degree of this temperature, and floating in orbit lets scientists study them longer than on Earth. An ideal gas held at constant volume would exert no pressure at this temperature.",
+      "r": "For 10 points, name this coldest possible temperature, 0 on the Kelvin scale."
+    },
+    {
+      "p": "A perfect Carnot [“kar-NOH”] heat engine could turn all of its heat into work only if its cold side were at this temperature, which is impossible. In the classical picture of gases, molecules would have no kinetic energy at all at this temperature.",
+      "r": "For 10 points, name this lowest possible temperature, the zero point of the Kelvin scale."
+    },
+    {
+      "p": "The superconducting magnets of the Large Hadron Collider are cooled with superfluid helium to 1.9 kelvins, less than two degrees above this temperature. Hospital MRI machines also use magnets chilled by liquid helium to about 4 kelvins above it.",
+      "r": "For 10 points, name this coldest possible temperature, about 460 degrees below zero on the Fahrenheit scale."
+    }
+  ],
+  "clues": [
+    {
+      "id": "coldest",
+      "tier": "giveaway",
+      "t": "The coldest possible temperature, where particles have the least energy they can have",
+      "k": [
+        "coldest possible",
+        "least energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kelvin-zero",
+      "tier": "giveaway",
+      "t": "The zero point of the Kelvin scale, which Lord Kelvin proposed in 1848",
+      "k": [
+        "kelvin scale",
+        "lord kelvin",
+        "1848"
+      ],
+      "n": 0,
+      "rabbit": "Temperature"
+    },
+    {
+      "id": "celsius-fahrenheit",
+      "tier": "giveaway",
+      "t": "About 273 degrees below zero on the Celsius scale (exactly −273.15) and −459.67 on the Fahrenheit scale",
+      "k": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "n": 0
+    },
+    {
+      "id": "never-reached",
+      "tier": "giveaway",
+      "t": "The third law of thermodynamics says it can never actually be reached",
+      "k": [
+        "third law",
+        "never actually be reached"
+      ],
+      "n": 0
+    },
+    {
+      "id": "charles",
+      "tier": "middle",
+      "t": "Extending graphs of a gas’s volume against temperature down to zero volume (Charles’s law) points to it",
+      "k": [
+        "charles’s law",
+        "zero volume"
+      ],
+      "n": 0,
+      "rabbit": "Ideal gas law"
+    },
+    {
+      "id": "no-pressure",
+      "tier": "middle",
+      "t": "An ideal gas held at constant volume would have no pressure there; classically, its molecules would have no kinetic energy",
+      "k": [
+        "constant volume",
+        "no pressure",
+        "kinetic energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "perfect-crystal",
+      "tier": "middle",
+      "t": "A perfect crystal there has zero entropy",
+      "k": [
+        "perfect crystal",
+        "entropy"
+      ],
+      "n": 0,
+      "rabbit": "Entropy"
+    },
+    {
+      "id": "zero-point",
+      "tier": "middle",
+      "t": "Particles keep a little zero-point energy even there, so helium would stay liquid unless squeezed to about 25 atmospheres",
+      "k": [
+        "zero-point energy",
+        "25 atmospheres",
+        "helium"
+      ],
+      "n": 0,
+      "rabbit": "Uncertainty principle"
+    },
+    {
+      "id": "rankine",
+      "tier": "middle",
+      "t": "The Rankine scale also starts there, with Fahrenheit-sized degrees",
+      "k": [
+        "rankine",
+        "fahrenheit-sized"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bec",
+      "tier": "middle",
+      "t": "In 1995, Eric Cornell and Carl Wieman cooled rubidium atoms close to it to make the first Bose–Einstein condensate",
+      "k": [
+        "bose–einstein condensate",
+        "rubidium",
+        "1995"
+      ],
+      "n": 0,
+      "rabbit": "Bose–Einstein condensate"
+    },
+    {
+      "id": "onnes",
+      "tier": "middle",
+      "t": "Heike Kamerlingh Onnes liquefied helium (1908) and found superconductivity in mercury at about 4 K (1911); Nobel Prize 1913",
+      "k": [
+        "kamerlingh onnes",
+        "superconductivity",
+        "1911"
+      ],
+      "n": 0,
+      "rabbit": "Superconductivity"
+    },
+    {
+      "id": "laser-cooling",
+      "tier": "middle",
+      "t": "Laser cooling chills atoms close to it; Chu, Cohen-Tannoudji, and Phillips shared the 1997 Nobel Prize for it",
+      "k": [
+        "laser cooling",
+        "1997"
+      ],
+      "n": 0,
+      "rabbit": "Lasers"
+    },
+    {
+      "id": "carnot",
+      "tier": "middle",
+      "t": "A Carnot engine could turn all its heat into work only if its cold side were at this temperature",
+      "k": [
+        "carnot",
+        "all its heat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amontons",
+      "tier": "power",
+      "t": "Guillaume Amontons (around 1702) reasoned that air’s pressure would fall to nothing if it were cooled enough",
+      "k": [
+        "amontons",
+        "1702"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nernst",
+      "tier": "power",
+      "t": "Walther Nernst’s heat theorem grew into the third law: it cannot be reached in a finite number of steps",
+      "k": [
+        "nernst",
+        "heat theorem",
+        "finite number of steps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thomson-1848",
+      "tier": "power",
+      "t": "William Thomson’s 1848 scale did not depend on the properties of any particular substance",
+      "k": [
+        "william thomson",
+        "particular substance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kapitsa",
+      "tier": "power",
+      "t": "Pyotr Kapitsa helped discover superfluid helium below about 2.2 K (1937); he won the 1978 Nobel Prize",
+      "k": [
+        "kapitsa",
+        "superfluid",
+        "1937"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fermi-energy",
+      "tier": "power",
+      "t": "In a metal there, electrons fill levels up to the Fermi energy, because the Pauli exclusion principle keeps them from all crowding into the lowest level",
+      "k": [
+        "fermi energy",
+        "pauli exclusion principle"
+      ],
+      "n": 0,
+      "rabbit": "Pauli exclusion principle"
+    },
+    {
+      "id": "giauque",
+      "tier": "power",
+      "t": "William Giauque’s adiabatic demagnetization (1933) cooled a magnetic salt within a fraction of a degree; Nobel Prize in Chemistry, 1949",
+      "k": [
+        "giauque",
+        "adiabatic demagnetization",
+        "1949"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dilution",
+      "tier": "power",
+      "t": "Dilution refrigerators mix helium-3 and helium-4 to get within thousandths of a degree; superconducting quantum computers run inside them",
+      "k": [
+        "dilution refrigerators",
+        "helium-3",
+        "quantum computers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boomerang",
+      "tier": "power",
+      "t": "The Boomerang Nebula (about 1 K) is the coldest known natural place; the cosmic microwave background is about 2.7 K",
+      "k": [
+        "boomerang nebula",
+        "cosmic microwave background"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cold-atom-lab",
+      "tier": "power",
+      "t": "NASA’s Cold Atom Laboratory on the International Space Station chills atoms within a tiny fraction of a degree of it",
+      "k": [
+        "cold atom laboratory",
+        "space station"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ketterle",
+      "tier": "power",
+      "t": "Wolfgang Ketterle shared the 2001 Nobel Prize in Physics with Cornell and Wieman",
+      "k": [
+        "ketterle",
+        "2001"
+      ],
+      "n": 0
+    },
+    {
+      "id": "optical-molasses",
+      "tier": "power",
+      "t": "Steven Chu’s “optical molasses” of crossed laser beams slowed atoms as if they were moving through syrup",
+      "k": [
+        "optical molasses",
+        "steven chu",
+        "syrup"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lhc-magnets",
+      "tier": "power",
+      "t": "The Large Hadron Collider’s superconducting magnets run at 1.9 K, cooled by superfluid helium",
+      "k": [
+        "large hadron collider",
+        "1.9"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Kelvin zero, not Celsius",
+    "body": "Zero degrees Celsius is just the freezing point of water, and 0 °F is an ordinary cold winter day; only zero on the Kelvin (or Rankine) scale is absolute zero. Players also blurt “temperature,” “third law of thermodynamics,” or “Bose–Einstein condensate,” which are separate answer lines whose tossups mention this one.",
+    "fix": "If the question asks for “this temperature,” the coldest possible, where the Kelvin scale starts, say absolute zero (or 0 K, about −273 °C). If it asks for “this law,” the answer is the third law of thermodynamics; if it asks for “this state of matter,” it is a Bose–Einstein condensate.",
+    "line": "Real answer line: <b><u>absolute zero</u></b> (accept <u>0 kelvins</u> or <u>0 K</u>; accept −273.15 °C or −459.67 °F; prompt on <u>zero</u>; do not accept “0 degrees Celsius”)"
+  },
+  "tests": {
+    "right": [
+      "Absolute zero",
+      "absolute zero",
+      "Absolute zerro",
+      "0 K",
+      "Zero kelvin",
+      "-273.15 °C",
+      "-459.67 °F"
+    ],
+    "prompt": [
+      "Zero",
+      "Kelvin"
+    ],
+    "wrong": [
+      "0 degrees Celsius",
+      "Freezing point",
+      "Triple point",
+      "273 K",
+      "Third law of thermodynamics",
+      "Bose-Einstein condensate",
+      "Absolute temperature",
+      "Lord Kelvin"
+    ]
+  }
+}

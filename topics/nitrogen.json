@@ -1,0 +1,481 @@
+{
+  "id": "nitrogen",
+  "name": "Nitrogen",
+  "mono": "N",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 7 · The gas that makes up about 78% of the air",
+  "dates": "Discovered by Daniel Rutherford, 1772",
+  "briefing": "Nitrogen is the invisible gas that makes up about 78 percent of every breath you take, yet your body can’t use it straight from the air. Its two-atom molecules are held by a powerful triple bond, so only lightning, bacteria in plant roots, and factories using the Haber process can break them apart to make plant food. Every protein and strand of DNA in your body contains nitrogen, and liquid nitrogen is cold enough to freeze a flower solid in seconds.",
+  "answerHtml": "<b><u>Nitrogen</u></b> (accept <u>N</u> or <u>N<sub>2</sub></u>)",
+  "accept": [
+    "nitrogen",
+    "n",
+    "n2",
+    "nitrogen gas"
+  ],
+  "prompt": [],
+  "reject": [
+    "nitrogen dioxide",
+    "nitrogen oxide",
+    "nitrogen oxides",
+    "nitrogen trichloride",
+    "nitric oxide",
+    "nitrous oxide",
+    "nitric acid",
+    "nitrate",
+    "nitrates",
+    "nitrite",
+    "nitrites",
+    "ammonia",
+    "ammonium",
+    "nitrogen cycle",
+    "nitrogen fixation",
+    "nitrogen narcosis",
+    "nitroglycerin",
+    "nitrogenase",
+    "estrogen",
+    "mitogen",
+    "oxygen",
+    "hydrogen",
+    "phosphorus",
+    "carbon",
+    "argon",
+    "neon",
+    "helium",
+    "fluorine"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Nitrogen",
+  "qb": {
+    "q": "nitrogen",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Scottish chemist Daniel Rutherford, an uncle of the novelist Sir Walter Scott, isolated this element in 1772 and called it “noxious air.” In liquid form, this element boils at about minus 196 degrees Celsius and is used to flash-freeze foods and lab samples.",
+      "r": "For 10 points, name this element with atomic number 7, the main gas in Earth’s atmosphere."
+    },
+    {
+      "p": "In 1790, Jean-Antoine Chaptal [“shap-TAHL”] named this element with words meaning “niter-former,” because it is found in the mineral niter, also called saltpeter. Its two-atom molecules are held together by a triple bond, one of the strongest bonds in chemistry.",
+      "r": "For 10 points, name this gas that makes up about 78 percent of Earth’s atmosphere."
+    },
+    {
+      "p": "The pnictogens [“NIK-tuh-jenz”], the group this element tops, take their name from a Greek word meaning “to choke,” because this element’s gas cannot be breathed in place of air. This element sits directly above phosphorus on the periodic table.",
+      "r": "For 10 points, name this element with atomic number 7, which is found in every amino acid and in the bases of DNA."
+    },
+    {
+      "p": "Nitrogenase, an enzyme containing iron and molybdenum [“muh-LIB-duh-num”], lets certain bacteria break apart the very stable molecules of this element. Bacteria in the root nodules of legumes such as peas, beans, and clover “fix” this element from the air so that plants can use it.",
+      "r": "Fertilizers are packed with this element. For 10 points, name this gas that makes up most of Earth’s air."
+    },
+    {
+      "p": "In the Ostwald process, ammonia reacts with oxygen over a platinum catalyst, the first step in making an acid that contains this element. That ammonia comes from the Haber process, which combines hydrogen with this element taken from the air.",
+      "r": "Plants need this element to grow. For 10 points, name this element with atomic number 7."
+    },
+    {
+      "p": "Lord Rayleigh noticed that this element taken from the air was slightly denser than this element made from chemicals, a puzzle that led to the discovery of argon. Bags of potato chips are filled with this gas to keep the chips fresh.",
+      "r": "For 10 points, name this colorless gas that makes up about 78 percent of Earth’s atmosphere."
+    },
+    {
+      "p": "High in the atmosphere, neutrons from cosmic rays strike atoms of this element’s most common isotope, which has a mass number of 14, and turn them into carbon-14. Lightning splits molecules of this element so that its atoms can combine with oxygen and fall to the ground in rain.",
+      "r": "For 10 points, name this element found in every protein and in the bases of DNA."
+    },
+    {
+      "p": "Ernest Rutherford carried out the first artificial transmutation of one element into another by hitting atoms of this element with alpha particles, turning some of them into oxygen. Many car airbags inflate with this gas, which a reaction of sodium azide releases in a split second.",
+      "r": "For 10 points, name this element with atomic number 7, which makes up most of Earth’s air."
+    },
+    {
+      "p": "This element makes up most of the thick, hazy atmosphere of Titan, Saturn’s largest moon. Some soil bacteria return this element to the air as a gas, completing a cycle named for this element.",
+      "r": "Other soil bacteria turn ammonia into nitrites and nitrates. For 10 points, name this gas that makes up about 78 percent of Earth’s atmosphere."
+    },
+    {
+      "p": "Chile fought Peru and Bolivia in the War of the Pacific from 1879 to 1884 over desert deposits of saltpeter, a compound of this element used in fertilizer and explosives. Explosives such as TNT and gunpowder get their power from compounds of this element.",
+      "r": "For 10 points, name this element with atomic number 7, the main gas in the air."
+    },
+    {
+      "p": "Deep-sea divers breathing compressed air can feel dizzy and confused from narcosis, nicknamed “rapture of the deep,” caused by the high pressure of this gas. If those divers rise too quickly, bubbles of this gas form in their blood.",
+      "r": "That condition is called the bends. For 10 points, name this element, the main gas in air."
+    },
+    {
+      "p": "Ice made mostly of this element fills Sputnik Planitia, the left half of the bright heart-shaped region on Pluto, and Voyager 2 saw geysers of this element’s gas on Neptune’s moon Triton. A brown oxide of this element, released by car engines, helps form smog.",
+      "r": "Plants get this element from fertilizers. For 10 points, name this element with atomic number 7."
+    },
+    {
+      "p": "Antoine Lavoisier [“lah-vwah-zee-AY”] named this element “azote,” from Greek words meaning “without life,” because it cannot keep an animal alive. Its two-atom molecules are held by a triple bond so strong that the gas is very unreactive.",
+      "r": "For 10 points, name this element with atomic number 7, which makes up about 78 percent of the air."
+    },
+    {
+      "p": "A 1998 Nobel Prize honored the discovery that a small gas molecule made of one atom of this element and one atom of oxygen signals blood vessels to relax. In liquid form, this element is cold enough to freeze a flower solid in seconds.",
+      "r": "For 10 points, name this gas that makes up about 78 percent of Earth’s air."
+    },
+    {
+      "p": "Fertilizer runoff rich in this element feeds algal blooms that can leave “dead zones,” areas of lakes and coastal waters with too little oxygen for fish. Bacteria living in the root nodules of peas and beans turn this element from the air into a form plants can use.",
+      "r": "Its gas makes up about 78 percent of the air. For 10 points, name this element with atomic number 7."
+    }
+  ],
+  "clues": [
+    {
+      "id": "element-7",
+      "tier": "giveaway",
+      "t": "Element with atomic number 7, at the top of group 15",
+      "k": [
+        "atomic number 7",
+        "group 15"
+      ],
+      "n": 0
+    },
+    {
+      "id": "air-78",
+      "tier": "giveaway",
+      "t": "Makes up about 78% of Earth’s atmosphere, more than any other gas",
+      "k": [
+        "78%",
+        "atmosphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fertilizer",
+      "tier": "giveaway",
+      "t": "Plants need it to grow, so fertilizers are packed with it",
+      "k": [
+        "fertilizers",
+        "plants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "proteins-dna",
+      "tier": "giveaway",
+      "t": "Found in every amino acid and protein, and in the bases of DNA",
+      "k": [
+        "amino acid",
+        "protein",
+        "dna"
+      ],
+      "n": 0,
+      "rabbit": "Amino acids"
+    },
+    {
+      "id": "triple-bond",
+      "tier": "middle",
+      "t": "Its two-atom molecules are held by a very strong triple bond, which makes the gas unreactive",
+      "k": [
+        "triple bond",
+        "unreactive",
+        "two-atom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "liquid",
+      "tier": "middle",
+      "t": "Its liquid form boils at about −196 °C (77 kelvins) and is used to flash-freeze foods and lab samples",
+      "k": [
+        "77 kelvins",
+        "flash-freeze",
+        "liquid form"
+      ],
+      "n": 0
+    },
+    {
+      "id": "root-nodules",
+      "tier": "middle",
+      "t": "Bacteria in the root nodules of legumes like peas, beans, and clover “fix” it from the air for plants",
+      "k": [
+        "root nodules",
+        "legumes",
+        "fix"
+      ],
+      "n": 0,
+      "rabbit": "Roots"
+    },
+    {
+      "id": "haber",
+      "tier": "middle",
+      "t": "The Haber process combines it with hydrogen to make ammonia for fertilizer",
+      "k": [
+        "haber process",
+        "ammonia",
+        "hydrogen"
+      ],
+      "n": 0,
+      "rabbit": "Haber process"
+    },
+    {
+      "id": "lightning",
+      "tier": "middle",
+      "t": "Lightning splits its molecules, letting the atoms combine with oxygen and fall to the ground in rain",
+      "k": [
+        "lightning",
+        "rain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cycle",
+      "tier": "middle",
+      "t": "In its cycle, soil bacteria turn ammonia into nitrites and nitrates, and other bacteria return it to the air",
+      "k": [
+        "nitrates",
+        "nitrites",
+        "soil bacteria",
+        "cycle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "explosives",
+      "tier": "middle",
+      "t": "Explosives such as TNT and gunpowder (made with saltpeter) get their power from its compounds",
+      "k": [
+        "tnt",
+        "gunpowder",
+        "saltpeter",
+        "explosives"
+      ],
+      "n": 0
+    },
+    {
+      "id": "airbags",
+      "tier": "middle",
+      "t": "Many car airbags inflate with this gas, released in a split second by a reaction of sodium azide",
+      "k": [
+        "airbags",
+        "sodium azide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bends",
+      "tier": "middle",
+      "t": "Divers who rise too quickly get the bends when bubbles of it form in their blood",
+      "k": [
+        "bends",
+        "divers",
+        "bubbles"
+      ],
+      "n": 0,
+      "rabbit": "Henry’s law"
+    },
+    {
+      "id": "chips",
+      "tier": "middle",
+      "t": "Bags of potato chips are filled with it to keep the chips fresh",
+      "k": [
+        "potato chips",
+        "fresh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "smog",
+      "tier": "middle",
+      "t": "Its brown dioxide, released by car engines, helps form smog",
+      "k": [
+        "smog",
+        "brown",
+        "car engines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "daniel-rutherford",
+      "tier": "power",
+      "t": "Scottish chemist Daniel Rutherford, an uncle of Sir Walter Scott, isolated it in 1772 and called it “noxious air”",
+      "k": [
+        "daniel rutherford",
+        "1772",
+        "noxious air",
+        "walter scott"
+      ],
+      "n": 0
+    },
+    {
+      "id": "azote",
+      "tier": "power",
+      "t": "Antoine Lavoisier named it “azote,” Greek for “without life,” because it cannot keep an animal alive",
+      "k": [
+        "azote",
+        "lavoisier",
+        "without life"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chaptal",
+      "tier": "power",
+      "t": "Jean-Antoine Chaptal gave it its modern name in 1790, meaning “niter-former,” after the mineral niter (saltpeter)",
+      "k": [
+        "chaptal",
+        "niter-former",
+        "1790"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pnictogens",
+      "tier": "power",
+      "t": "Its group 15 family, the pnictogens, is named from a Greek word meaning “to choke”",
+      "k": [
+        "pnictogens",
+        "to choke"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nitrogenase",
+      "tier": "power",
+      "t": "Nitrogenase, the enzyme bacteria use to break apart its molecules, contains iron and molybdenum",
+      "k": [
+        "nitrogenase",
+        "molybdenum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ostwald",
+      "tier": "power",
+      "t": "The Ostwald process reacts ammonia with oxygen over a platinum catalyst to start making nitric acid",
+      "k": [
+        "ostwald",
+        "platinum",
+        "nitric acid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rayleigh",
+      "tier": "power",
+      "t": "Lord Rayleigh found it slightly denser when taken from air than when made from chemicals, which led to the discovery of argon",
+      "k": [
+        "rayleigh",
+        "denser",
+        "argon"
+      ],
+      "n": 0,
+      "rabbit": "Noble gases"
+    },
+    {
+      "id": "carbon-14",
+      "tier": "power",
+      "t": "Cosmic-ray neutrons hitting its common isotope, mass number 14, make carbon-14 high in the atmosphere",
+      "k": [
+        "carbon-14",
+        "cosmic",
+        "mass number 14"
+      ],
+      "n": 0,
+      "rabbit": "Carbon"
+    },
+    {
+      "id": "ernest-rutherford",
+      "tier": "power",
+      "t": "Ernest Rutherford made the first artificial transmutation by hitting it with alpha particles, turning some of it into oxygen",
+      "k": [
+        "ernest rutherford",
+        "transmutation",
+        "alpha particles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "titan",
+      "tier": "power",
+      "t": "It makes up most of the thick, hazy atmosphere of Titan, Saturn’s largest moon",
+      "k": [
+        "titan",
+        "saturn"
+      ],
+      "n": 0,
+      "rabbit": "Saturn"
+    },
+    {
+      "id": "pluto-triton",
+      "tier": "power",
+      "t": "Ice made mostly of it fills Sputnik Planitia in Pluto’s heart; Voyager 2 saw geysers of its gas on Triton",
+      "k": [
+        "sputnik planitia",
+        "pluto",
+        "triton",
+        "geysers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "war-of-the-pacific",
+      "tier": "power",
+      "t": "Chile fought Peru and Bolivia in the War of the Pacific (1879–1884) over desert deposits of saltpeter",
+      "k": [
+        "war of the pacific",
+        "chile",
+        "1879"
+      ],
+      "n": 0
+    },
+    {
+      "id": "narcosis",
+      "tier": "power",
+      "t": "Breathing it under high pressure deep underwater causes narcosis, nicknamed “rapture of the deep”",
+      "k": [
+        "narcosis",
+        "rapture of the deep"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-1998",
+      "tier": "power",
+      "t": "A 1998 Nobel Prize honored the discovery that its small oxide with one oxygen atom signals blood vessels to relax",
+      "k": [
+        "1998",
+        "blood vessels",
+        "relax"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dead-zones",
+      "tier": "power",
+      "t": "Fertilizer runoff rich in it feeds algal blooms that leave oxygen-poor “dead zones” in lakes and coastal waters",
+      "k": [
+        "dead zones",
+        "algal blooms",
+        "runoff"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Element, not compound",
+    "body": "Nitrogen tossups are full of its famous compounds, like ammonia from the Haber process, nitrates in fertilizer, and nitroglycerin in dynamite, and players blurt the compound instead of the element. Oxygen is the other trap: it is the second most common gas in air, about 21 percent, and it sits right next door on the periodic table.",
+    "fix": "If the question asks for “this element” or “this gas,” name the element itself. Atomic number 7, about 78 percent of the air, a triple bond, root nodules, azote, and Daniel Rutherford all point here; oxygen is element 8, the gas we need to breathe, and the one that makes fires burn.",
+    "line": "Real answer line: <b><u>Nitrogen</u></b> (accept <u>N</u> or <u>N<sub>2</sub></u>)"
+  },
+  "tests": {
+    "right": [
+      "Nitrogen",
+      "N",
+      "N2",
+      "nitrogin",
+      "nitrogen gas",
+      "liquid nitrogen"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Ammonia",
+      "Nitrogen dioxide",
+      "Oxygen",
+      "Nitric acid",
+      "Phosphorus",
+      "Estrogen",
+      "Nitrous oxide"
+    ]
+  }
+}

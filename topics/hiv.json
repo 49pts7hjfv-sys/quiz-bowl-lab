@@ -1,0 +1,474 @@
+{
+  "id": "hiv",
+  "name": "HIV",
+  "mono": "HIV",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Retrovirus that attacks helper T cells · Can lead to AIDS without treatment",
+  "dates": "Identified 1983",
+  "briefing": "HIV is a tiny virus with a sneaky strategy: it attacks helper T cells, the very immune cells that organize the body’s defenses. Scientists at France’s Pasteur Institute identified it in 1983, two years after doctors first reported the illness it can cause, AIDS. As of 2025, no vaccine had been approved, but since 1996, combinations of medicines have let people living with HIV keep the virus in check and live long, healthy lives.",
+  "answerHtml": "<b><u>HIV</u></b> (accept <u>human immunodeficiency virus</u>; accept <u>HIV-1</u> or <u>HIV-2</u>; prompt on <u>AIDS</u> or <u>acquired immunodeficiency syndrome</u> by asking for the virus; do not accept “SIV” or “HPV”)",
+  "accept": [
+    "hiv",
+    "human immunodeficiency virus",
+    "human immunodeficiency viruses",
+    "hiv 1",
+    "hiv 2",
+    "hiv1",
+    "hiv2",
+    "hiv virus",
+    "hiv aids",
+    "hiv and aids",
+    "aids virus"
+  ],
+  "prompt": [
+    "aids",
+    "acquired immunodeficiency syndrome",
+    "acquired immune deficiency syndrome",
+    "retrovirus",
+    "retroviruses",
+    "lentivirus",
+    "lentiviruses"
+  ],
+  "reject": [
+    "siv",
+    "simian immunodeficiency virus",
+    "fiv",
+    "feline immunodeficiency virus",
+    "hpv",
+    "human papillomavirus",
+    "hsv",
+    "herpes",
+    "htlv",
+    "hepatitis",
+    "hepatitis b",
+    "influenza",
+    "flu",
+    "ebola",
+    "smallpox",
+    "t cells",
+    "t cell",
+    "helper t cells",
+    "helper t cell",
+    "cd4",
+    "reverse transcriptase",
+    "azt"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/HIV",
+  "qb": {
+    "q": "HIV",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Luc Montagnier and Françoise Barré-Sinoussi [“bah-RAY see-noo-SEE”] shared the 2008 Nobel Prize in Physiology or Medicine for identifying this agent at the Pasteur Institute in Paris. Their team reported it in 1983, two years after American doctors first described the illness it causes.",
+      "r": "This virus copies its RNA into DNA using reverse transcriptase. For 10 points, name this virus that attacks helper T cells and causes AIDS."
+    },
+    {
+      "p": "In 1970, Howard Temin and David Baltimore separately discovered the type of enzyme this agent uses to copy its genes from RNA into DNA, years before this agent itself was known. That error-prone enzyme helps this agent mutate quickly, one reason that, as of 2025, no vaccine against it had been approved.",
+      "r": "That enzyme, reverse transcriptase, is blocked by the drug AZT. For 10 points, name this retrovirus that attacks helper T cells and causes AIDS."
+    },
+    {
+      "p": "Timothy Ray Brown, nicknamed the “Berlin patient,” became the first person known to be cured of this infection after stem cell transplants given to treat his leukemia. His donor carried two copies of a mutation called delta 32 in the gene for CCR5, a coreceptor that most strains of this virus use to enter cells.",
+      "r": "This virus’s surface protein gp120 attaches to the CD4 receptor. For 10 points, name this virus that destroys helper T cells and can lead to AIDS."
+    },
+    {
+      "p": "This virus’s cone-shaped capsid is built from a protein called p24 and holds two copies of its RNA genome. Spikes on this virus’s outer envelope are made of the proteins gp120 and gp41, which grab a receptor called CD4 and help the virus fuse with a cell.",
+      "r": "Researchers at the Pasteur Institute identified it in 1983. For 10 points, name this retrovirus that infects helper T cells and causes AIDS."
+    },
+    {
+      "p": "Cleve Jones started a giant memorial quilt in San Francisco in 1987 to honor people who had died of the illness this virus causes, and its panels were laid out on the National Mall in Washington that October.",
+      "r": "Every December 1, World AIDS Day raises awareness of this virus, whose symbol is a looped red ribbon. For 10 points, name this virus that weakens the immune system."
+    },
+    {
+      "p": "Jerome Horwitz first made the drug zidovudine in 1964 as a possible cancer treatment, but in 1987, under the name AZT, it became the first approved medicine against this virus. AZT works by jamming the enzyme this virus uses to turn its RNA into DNA.",
+      "r": "For 10 points, name this virus that weakens the immune system by destroying helper T cells."
+    },
+    {
+      "p": "Scientist David Ho was named _Time_ magazine’s 1996 Man of the Year for helping develop combination therapy against this virus. That “cocktail” approach, which mixes protease inhibitors with other medicines, let many people living with this virus keep it under control for decades.",
+      "r": "For 10 points, name this virus that is treated with antiretroviral drugs and can cause AIDS."
+    },
+    {
+      "p": "In 1985, Indiana teenager Ryan White was barred from his middle school after his diagnosis, and he fought in court to return to class. A 1990 law named for him, the Ryan White CARE Act, helps pay for medical care for people living with this virus.",
+      "r": "For 10 points, name this virus that attacks helper T cells and can lead to AIDS."
+    },
+    {
+      "p": "In 2003, President George W. Bush announced PEPFAR, an emergency relief plan that went on to pay for treatment for millions of people with this virus, especially in Africa. In 1991, basketball star Magic Johnson announced that he had this virus and retired from the Los Angeles Lakers.",
+      "r": "This virus uses reverse transcriptase to copy its RNA into DNA. For 10 points, name this virus that attacks helper T cells and can cause AIDS."
+    },
+    {
+      "p": "Genetic studies suggest that this virus crossed into humans from chimpanzees in central Africa in the early 1900s, and that its main strain began spreading from the city of Kinshasa. It belongs to the lentiviruses, or “slow viruses,” which can take years to cause symptoms.",
+      "r": "This virus infects and destroys helper T cells. For 10 points, name this virus that causes AIDS."
+    },
+    {
+      "p": "On June 5, 1981, a report from the Centers for Disease Control described five previously healthy young men in Los Angeles with a rare kind of pneumonia. That report was the first official account of the illness caused by this virus.",
+      "r": "That illness was soon named AIDS. For 10 points, name this virus that weakens the body’s immune system by attacking helper T cells."
+    },
+    {
+      "p": "Drugs called integrase inhibitors stop this virus from splicing a DNA copy of its genes into a host cell’s chromosomes. A person with this virus is diagnosed with the syndrome it causes if the number of CD4 cells in a cubic millimeter of blood falls below 200.",
+      "r": "For 10 points, name this virus that destroys helper T cells, which is kept in check with antiretroviral therapy."
+    },
+    {
+      "p": "American scientist Robert Gallo announced in 1984 that he had found the cause of a new illness, a virus he called HTLV-III, setting off a long dispute with French researchers over credit.",
+      "r": "This virus’s surface protein gp120 locks onto the CD4 receptor of the cells it attacks. For 10 points, name this virus that causes AIDS."
+    },
+    {
+      "p": "The musical _Rent_ and Tony Kushner’s play _Angels in America_ both include characters living with the illness this virus causes. In 1991, basketball star Magic Johnson announced that he had tested positive for this virus, and he retired from the Los Angeles Lakers.",
+      "r": "For 10 points, name this virus that is kept in check with antiretroviral therapy."
+    },
+    {
+      "p": "This member of the lentiviruses can hide inside the DNA of resting cells for years, one reason it is so hard to cure. Its copying enzyme makes so many mistakes that it mutates quickly, which helps it resist any single drug used against it.",
+      "r": "That enzyme is reverse transcriptase. The illness this virus causes was first reported in 1981. For 10 points, name this virus that attacks helper T cells and causes AIDS."
+    }
+  ],
+  "clues": [
+    {
+      "id": "causes-aids",
+      "tier": "giveaway",
+      "t": "Causes AIDS (acquired immunodeficiency syndrome) if it is not treated",
+      "k": [
+        "aids",
+        "acquired immunodeficiency syndrome"
+      ],
+      "n": 0
+    },
+    {
+      "id": "helper-t-cells",
+      "tier": "giveaway",
+      "t": "Attacks helper T cells, the white blood cells that organize the body’s immune defenses",
+      "k": [
+        "helper t cells",
+        "white blood cells",
+        "immune"
+      ],
+      "n": 0,
+      "rabbit": "White blood cells"
+    },
+    {
+      "id": "weakens-immune",
+      "tier": "giveaway",
+      "t": "Weakens the immune system, so the body has trouble fighting off other infections",
+      "k": [
+        "immune system",
+        "infections",
+        "weakens"
+      ],
+      "n": 0
+    },
+    {
+      "id": "antiretroviral",
+      "tier": "giveaway",
+      "t": "Kept in check (but not cured) by antiretroviral therapy, a combination of medicines",
+      "k": [
+        "antiretroviral",
+        "combination",
+        "medicines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "red-ribbon",
+      "tier": "giveaway",
+      "t": "Its awareness symbol is the red ribbon; World AIDS Day is held every December 1",
+      "k": [
+        "red ribbon",
+        "world aids day",
+        "december 1"
+      ],
+      "n": 0
+    },
+    {
+      "id": "retrovirus",
+      "tier": "middle",
+      "t": "A retrovirus: its genes are stored as RNA, which it copies into DNA inside the cells it infects",
+      "k": [
+        "retrovirus",
+        "rna",
+        "dna"
+      ],
+      "n": 0,
+      "rabbit": "Viruses"
+    },
+    {
+      "id": "reverse-transcriptase",
+      "tier": "middle",
+      "t": "Uses the enzyme reverse transcriptase to copy its RNA into DNA",
+      "k": [
+        "reverse transcriptase",
+        "enzyme"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gp120-cd4",
+      "tier": "middle",
+      "t": "Its surface protein gp120 latches onto the CD4 receptor on helper T cells",
+      "k": [
+        "gp120",
+        "cd4",
+        "receptor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "discovery-1983",
+      "tier": "middle",
+      "t": "Identified in 1983 by Luc Montagnier and Françoise Barré-Sinoussi at the Pasteur Institute in Paris",
+      "k": [
+        "montagnier",
+        "barré-sinoussi",
+        "pasteur institute",
+        "1983"
+      ],
+      "n": 0,
+      "rabbit": "Louis Pasteur"
+    },
+    {
+      "id": "first-reports-1981",
+      "tier": "middle",
+      "t": "First officially reported on June 5, 1981, when the CDC described five young men in Los Angeles with a rare pneumonia",
+      "k": [
+        "1981",
+        "pneumonia",
+        "los angeles",
+        "cdc"
+      ],
+      "n": 0
+    },
+    {
+      "id": "azt",
+      "tier": "middle",
+      "t": "AZT (zidovudine), first made in 1964 as a possible cancer drug, became the first approved medicine against it in 1987",
+      "k": [
+        "zidovudine",
+        "azt",
+        "1987"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cocktails-1996",
+      "tier": "middle",
+      "t": "Drug “cocktails” used from 1996 kept it under control; David Ho was _Time_’s 1996 Man of the Year for this work",
+      "k": [
+        "cocktails",
+        "david ho",
+        "1996"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chimp-origin",
+      "tier": "middle",
+      "t": "Crossed into humans from chimpanzees in central Africa in the early 1900s; a related chimpanzee virus is called SIV",
+      "k": [
+        "chimpanzees",
+        "central africa",
+        "siv"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ryan-white",
+      "tier": "middle",
+      "t": "Indiana teen Ryan White fought to return to school after his diagnosis; the 1990 Ryan White CARE Act is named for him",
+      "k": [
+        "ryan white",
+        "care act",
+        "indiana"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-2008",
+      "tier": "power",
+      "t": "Montagnier and Barré-Sinoussi shared the 2008 Nobel Prize in Physiology or Medicine for discovering it",
+      "k": [
+        "nobel prize",
+        "2008"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gallo",
+      "tier": "power",
+      "t": "American Robert Gallo reported it in 1984 under the name HTLV-III, starting a long dispute over credit",
+      "k": [
+        "robert gallo",
+        "gallo",
+        "htlv-iii",
+        "1984"
+      ],
+      "n": 0
+    },
+    {
+      "id": "temin-baltimore",
+      "tier": "power",
+      "t": "Howard Temin and David Baltimore discovered reverse transcriptase in 1970 and shared a 1975 Nobel Prize",
+      "k": [
+        "temin",
+        "baltimore",
+        "1970"
+      ],
+      "n": 0
+    },
+    {
+      "id": "capsid-p24",
+      "tier": "power",
+      "t": "Its cone-shaped capsid of the protein p24 holds two copies of its RNA; envelope spikes of gp120 and gp41 help it enter cells",
+      "k": [
+        "capsid",
+        "p24",
+        "gp41",
+        "cone-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ccr5",
+      "tier": "power",
+      "t": "Also uses a coreceptor called CCR5; people with two copies of the CCR5 delta 32 mutation resist the most common strains",
+      "k": [
+        "ccr5",
+        "coreceptor",
+        "delta 32"
+      ],
+      "n": 0
+    },
+    {
+      "id": "berlin-patient",
+      "tier": "power",
+      "t": "Timothy Ray Brown, the “Berlin patient,” was the first person known to be cured, after stem cell transplants from a donor with that mutation",
+      "k": [
+        "berlin patient",
+        "timothy ray brown",
+        "stem cell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "integrase",
+      "tier": "power",
+      "t": "Its enzyme integrase splices its DNA copy into the host cell’s chromosomes; integrase inhibitors and protease inhibitors block its enzymes",
+      "k": [
+        "integrase",
+        "protease inhibitors",
+        "splices"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lentivirus",
+      "tier": "power",
+      "t": "A lentivirus (“slow virus”) that can hide inside the DNA of resting cells for years, which makes it hard to cure",
+      "k": [
+        "lentivirus",
+        "slow virus",
+        "resting cells"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mutates",
+      "tier": "power",
+      "t": "Its error-prone copying makes it mutate fast, so it resists single drugs; as of 2025, no vaccine against it had been approved",
+      "k": [
+        "mutate",
+        "error-prone",
+        "vaccine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cd4-200",
+      "tier": "power",
+      "t": "AIDS is diagnosed when CD4 cells fall below 200 per cubic millimeter of blood, or when opportunistic infections appear",
+      "k": [
+        "opportunistic",
+        "cubic millimeter",
+        "200"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pepfar",
+      "tier": "power",
+      "t": "PEPFAR, an emergency relief plan announced by President George W. Bush in 2003, paid for treatment for millions of people abroad",
+      "k": [
+        "pepfar",
+        "bush",
+        "2003"
+      ],
+      "n": 0
+    },
+    {
+      "id": "magic-johnson",
+      "tier": "power",
+      "t": "In 1991, Lakers star Magic Johnson announced he had tested positive for it and retired from basketball",
+      "k": [
+        "magic johnson",
+        "lakers",
+        "1991"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quilt",
+      "tier": "power",
+      "t": "Cleve Jones began the AIDS Memorial Quilt in San Francisco in 1987; its panels were laid out on the National Mall that October",
+      "k": [
+        "quilt",
+        "cleve jones",
+        "national mall"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rent-angels",
+      "tier": "power",
+      "t": "The musical _Rent_ and Tony Kushner’s play _Angels in America_ include characters living with AIDS",
+      "k": [
+        "angels in america",
+        "kushner",
+        "musical"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Virus or syndrome?",
+    "body": "HIV is the virus; AIDS (acquired immunodeficiency syndrome) is the late stage of illness it can cause when it is not treated. Answer lines that want the virus may only prompt on AIDS, and a question that asks for the syndrome may not accept the virus. Other three-letter viruses, like HPV (human papillomavirus) and SIV (the related virus in chimpanzees and monkeys), are wrong.",
+    "fix": "Listen for the noun at the end. “This virus” or “this retrovirus” means HIV; “this syndrome” or “this condition” means AIDS. If you get a prompt after saying AIDS, answer “HIV” or “human immunodeficiency virus.”",
+    "line": "Real answer line: <b><u>HIV</u></b> (accept <u>human immunodeficiency virus</u>; prompt on <u>AIDS</u> or <u>acquired immunodeficiency syndrome</u>)"
+  },
+  "tests": {
+    "right": [
+      "HIV",
+      "human immunodeficiency virus",
+      "Human Immunodefficiency Virus",
+      "HIV-1",
+      "the HIV virus",
+      "HIV/AIDS"
+    ],
+    "prompt": [
+      "AIDS",
+      "acquired immunodeficiency syndrome",
+      "retrovirus"
+    ],
+    "wrong": [
+      "SIV",
+      "simian immunodeficiency virus",
+      "HPV",
+      "helper T cells",
+      "Ebola",
+      "influenza"
+    ]
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "id": "blood-types",
+  "name": "Blood types",
+  "mono": "ABO",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Categories like A, B, AB, and O · Must match for a safe transfusion",
+  "dates": "Discovered 1901",
+  "briefing": "Every person’s red blood cells carry tiny markers called antigens that sort blood into types like A, B, AB, and O, each either Rh-positive or Rh-negative. Karl Landsteiner discovered the first three types in 1901 and explained why some early transfusions saved lives while others failed: mismatched blood clumps together. That is why type O-negative donors, whose red cells lack the A, B, and Rh antigens, are called “universal donors.”",
+  "answerHtml": "<b><u>Blood types</u></b> (accept <u>blood groups</u> or the <u>ABO</u> system; prompt on <u>blood</u> or <u>Rh factor</u>; do not accept “red blood cells” or “antigens”)",
+  "accept": [
+    "blood types",
+    "blood type",
+    "blood groups",
+    "blood group",
+    "abo",
+    "abo types",
+    "abo blood types",
+    "abo blood type",
+    "abo blood groups",
+    "abo blood group",
+    "abo system",
+    "abo blood group system",
+    "blood group system",
+    "blood group systems",
+    "blood typing"
+  ],
+  "prompt": [
+    "blood",
+    "rh factor",
+    "rh",
+    "rhesus factor",
+    "rh system",
+    "rh blood group",
+    "rh blood groups",
+    "rh positive",
+    "rh negative"
+  ],
+  "reject": [
+    "blood cells",
+    "blood cell",
+    "red blood cells",
+    "red blood cell",
+    "white blood cells",
+    "white blood cell",
+    "plasma",
+    "platelets",
+    "antibodies",
+    "antibody",
+    "antigens",
+    "antigen",
+    "hemoglobin",
+    "blood clotting",
+    "blood vessels",
+    "blood pressure",
+    "blood sugar",
+    "agglutination",
+    "transfusion",
+    "transfusions",
+    "blood transfusion",
+    "blood transfusions",
+    "blood donation",
+    "blood bank",
+    "universal donor",
+    "universal donors",
+    "bombay phenotype",
+    "duffy",
+    "kell"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Blood_type",
+  "qb": {
+    "q": "blood type",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Karl Landsteiner noticed in 1901 that red cells from some people clumped when mixed with serum from others, so he sorted human blood into three groups. His third group, which he first called C, was later renamed.",
+      "r": "That group became type O, whose negative form belongs to universal donors. For 10 points, name these categories of blood, which also include A, B, and AB."
+    },
+    {
+      "p": "In 1902, Alfred von Decastello and Adriano Sturli, two colleagues of Karl Landsteiner, found a rare fourth group whose red cells carry two different antigens at once. Their discovery completed the system Landsteiner had begun the year before.",
+      "r": "People in that group who are also Rh-positive are universal recipients. For 10 points, name these categories of blood, such as A, B, AB, and O."
+    },
+    {
+      "p": "Czech doctor Jan Janský [“YAHN-skee”] sorted human blood into four groups in 1907, numbering them with Roman numerals from I to IV. Karl Landsteiner had described three of those groups six years earlier.",
+      "r": "Mismatched categories make red cells clump during a transfusion. For 10 points, name these categories of blood, such as A, B, AB, and O."
+    },
+    {
+      "p": "World Blood Donor Day is held every June 14, the birthday of the scientist who discovered these categories. That scientist, Karl Landsteiner, won the 1930 Nobel Prize in Physiology or Medicine for the discovery.",
+      "r": "Donors and patients must be matched, or red cells clump in a reaction called agglutination. For 10 points, name these categories of blood, such as A-positive and O-negative."
+    },
+    {
+      "p": "People with the rare Bombay phenotype, first described in 1952 in the Indian city now called Mumbai, lack a sugar marker called the H antigen, so they can safely receive blood only from other people with the same rare trait.",
+      "r": "Their blood can be mistaken for type O. For 10 points, name these categories of blood, which are set by antigens on red blood cells."
+    },
+    {
+      "p": "In 1940, Karl Landsteiner and Alexander Wiener described a factor named for the rhesus monkeys used in their research. Shots of a medicine called RhoGAM keep a mother who lacks that factor from making antibodies that could harm a later baby who has it.",
+      "r": "That factor makes these categories positive or negative. For 10 points, name these categories of blood, such as A-positive and O-negative."
+    },
+    {
+      "p": "The gene behind these categories, found on chromosome 9, makes an enzyme that adds one of two particular sugars to the surface of red blood cells. One version of that gene makes a broken enzyme that adds neither sugar.",
+      "r": "That version is the recessive O allele. For 10 points, name these inherited categories of blood, which also include A, B, and AB."
+    },
+    {
+      "p": "Systems for sorting these classifications include Kell, Kidd, and Duffy, as well as the MN system found by Karl Landsteiner and Philip Levine in 1927. People who lack the Duffy antigen, which is common in parts of Africa, resist one kind of malaria.",
+      "r": "For 10 points, name these classifications of blood, the best known of which include A, B, AB, and O."
+    },
+    {
+      "p": "In Japan, many people believe these categories predict a person’s personality, though scientists have found no good evidence for it. Mixing samples from two mismatched categories makes red cells clump together, a reaction called agglutination [“uh-gloo-tih-NAY-shun”].",
+      "r": "For 10 points, name these categories of blood, such as A, B, AB, and O, which are checked before a transfusion."
+    },
+    {
+      "p": "In 1907, Reuben Ottenberg performed the first transfusion in which the donor’s and patient’s blood were tested and cross-matched beforehand. Many earlier transfusions had failed because no one checked whether the blood matched. Hospitals cross-match blood because the patient’s antibodies can destroy mismatched red cells.",
+      "r": "For 10 points, name these categories of blood, including O-negative, whose donors are called universal donors."
+    },
+    {
+      "p": "A person’s plasma carries antibodies against whichever of the two main red-cell antigens that person lacks, so someone whose red cells have neither antigen makes both kinds of antibody. These antibodies form early in life, even without a transfusion.",
+      "r": "That person has type O, while a person with both antigens has type AB. For 10 points, name these categories of blood that must be matched for a transfusion."
+    },
+    {
+      "p": "Hemolytic [“hee-moh-LIT-ik”] disease of the newborn can occur when a mother’s antibodies attack her baby’s red cells because of a mismatch in the Rh system. Red cells that carry the most important Rh antigen, called D, are labeled positive.",
+      "r": "Red cells without it are labeled negative. For 10 points, name these categories of blood, such as AB-positive and O-negative."
+    },
+    {
+      "p": "The scientist who discovered these categories also showed, with Erwin Popper in 1908, that a virus causes polio. That Austrian scientist later moved to New York to work at the Rockefeller Institute.",
+      "r": "That scientist was Karl Landsteiner. For 10 points, name these categories of blood, such as A, B, AB, and O."
+    },
+    {
+      "p": "Biology classes use these categories as a classic example of codominance, since a person who inherits two different dominant alleles shows both of their antigens. These categories are also an example of multiple alleles, since one gene has three common versions.",
+      "r": "For 10 points, name these inherited categories of blood, such as A, B, AB, and O."
+    },
+    {
+      "p": "Sugar chains attached to proteins and fats in red blood cell membranes act as the antigens that set these categories, and the two main antigens differ by just one sugar at the end of the chain. Two parents with different categories can have a child whose category matches neither parent’s.",
+      "r": "A quick test checks these categories by mixing blood with anti-A and anti-B serums. For 10 points, name these categories of blood, such as A, B, AB, and O."
+    }
+  ],
+  "clues": [
+    {
+      "id": "four-main",
+      "tier": "giveaway",
+      "t": "The four main ones are A, B, AB, and O",
+      "k": [
+        "four main"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rh-positive-negative",
+      "tier": "giveaway",
+      "t": "Each is also positive or negative, depending on whether the red cells carry the Rh factor",
+      "k": [
+        "positive",
+        "negative",
+        "rh factor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "transfusions",
+      "tier": "giveaway",
+      "t": "Must be matched before a transfusion, or the patient’s antibodies attack the donor’s red cells",
+      "k": [
+        "transfusion",
+        "matched"
+      ],
+      "n": 0
+    },
+    {
+      "id": "universal",
+      "tier": "giveaway",
+      "t": "Type O-negative donors are “universal donors”; type AB-positive patients are “universal recipients”",
+      "k": [
+        "universal donors",
+        "universal recipients",
+        "o-negative",
+        "ab-positive"
+      ],
+      "n": 0
+    },
+    {
+      "id": "antigens",
+      "tier": "giveaway",
+      "t": "Set by antigens, marker molecules on the surface of red blood cells",
+      "k": [
+        "antigens",
+        "red blood cells",
+        "marker"
+      ],
+      "n": 0,
+      "rabbit": "Red blood cells"
+    },
+    {
+      "id": "landsteiner-1901",
+      "tier": "middle",
+      "t": "Karl Landsteiner discovered the first three groups in 1901; his group “C” was later renamed O",
+      "k": [
+        "landsteiner",
+        "1901"
+      ],
+      "n": 0,
+      "rabbit": "Blood"
+    },
+    {
+      "id": "rhesus",
+      "tier": "middle",
+      "t": "The Rh factor is named for rhesus monkeys; Landsteiner and Alexander Wiener described it in 1940",
+      "k": [
+        "rhesus",
+        "wiener",
+        "1940"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plasma-antibodies",
+      "tier": "middle",
+      "t": "Plasma carries antibodies against the antigens a person lacks: type A blood has anti-B antibodies, and type O has both",
+      "k": [
+        "antibodies",
+        "anti-b",
+        "plasma"
+      ],
+      "n": 0,
+      "rabbit": "Antibodies"
+    },
+    {
+      "id": "agglutination",
+      "tier": "middle",
+      "t": "Mismatched blood clumps together, a reaction called agglutination",
+      "k": [
+        "agglutination",
+        "clumps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "codominance",
+      "tier": "middle",
+      "t": "The A and B alleles are codominant, so a person who inherits both has type AB",
+      "k": [
+        "codominant",
+        "alleles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "o-recessive",
+      "tier": "middle",
+      "t": "The O allele is recessive; with three common alleles, the system is a classic case of multiple alleles",
+      "k": [
+        "recessive",
+        "multiple alleles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parents-child",
+      "tier": "middle",
+      "t": "Parents with types A and B can have a child of any of the four types if each carries a hidden O allele",
+      "k": [
+        "hidden",
+        "parents",
+        "child"
+      ],
+      "n": 0,
+      "rabbit": "Punnett squares"
+    },
+    {
+      "id": "quick-test",
+      "tier": "middle",
+      "t": "A quick test mixes drops of blood with anti-A and anti-B serums and checks which drops clump",
+      "k": [
+        "serums",
+        "anti-a",
+        "drops"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-polio",
+      "tier": "power",
+      "t": "Landsteiner won the 1930 Nobel Prize in Physiology or Medicine; with Erwin Popper (1908) he also showed that a virus causes polio",
+      "k": [
+        "nobel prize",
+        "1930",
+        "popper",
+        "polio"
+      ],
+      "n": 0,
+      "rabbit": "Polio"
+    },
+    {
+      "id": "decastello-sturli",
+      "tier": "power",
+      "t": "Alfred von Decastello and Adriano Sturli found the rare fourth group, AB, in 1902",
+      "k": [
+        "decastello",
+        "sturli",
+        "1902"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jansky",
+      "tier": "power",
+      "t": "Czech doctor Jan Janský sorted blood into four groups numbered I to IV in 1907",
+      "k": [
+        "janský",
+        "jansky",
+        "1907"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ottenberg",
+      "tier": "power",
+      "t": "Reuben Ottenberg performed the first transfusion with tested, cross-matched blood in 1907",
+      "k": [
+        "ottenberg",
+        "cross-matched"
+      ],
+      "n": 0
+    },
+    {
+      "id": "donor-day",
+      "tier": "power",
+      "t": "World Blood Donor Day is June 14, Landsteiner’s birthday",
+      "k": [
+        "donor day",
+        "june 14"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chromosome-9",
+      "tier": "power",
+      "t": "Their gene, on chromosome 9, makes an enzyme that adds sugars to red cells; the O version makes a broken enzyme",
+      "k": [
+        "chromosome 9",
+        "enzyme",
+        "sugars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sugar-chains",
+      "tier": "power",
+      "t": "The A and B antigens are sugar chains on red cell membranes, built on top of a base marker called the H antigen",
+      "k": [
+        "sugar chains",
+        "h antigen"
+      ],
+      "n": 0,
+      "rabbit": "Cell membrane"
+    },
+    {
+      "id": "bombay",
+      "tier": "power",
+      "t": "The rare Bombay phenotype (described 1952) lacks the H antigen, looks like type O, and can receive only Bombay blood",
+      "k": [
+        "bombay",
+        "1952",
+        "phenotype"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rhogam",
+      "tier": "power",
+      "t": "Rh mismatch can cause hemolytic disease of the newborn; RhoGAM shots keep an Rh-negative mother from making the harmful antibodies",
+      "k": [
+        "rhogam",
+        "hemolytic disease",
+        "newborn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "d-antigen",
+      "tier": "power",
+      "t": "Rh-positive red cells carry the D antigen, the most important Rh antigen",
+      "k": [
+        "d antigen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "other-systems",
+      "tier": "power",
+      "t": "Other systems include MN (Landsteiner and Philip Levine, 1927), Kell, Kidd, and Duffy; Duffy-negative people resist one kind of malaria",
+      "k": [
+        "levine",
+        "kell",
+        "duffy",
+        "malaria"
+      ],
+      "n": 0,
+      "rabbit": "Malaria"
+    },
+    {
+      "id": "japan-personality",
+      "tier": "power",
+      "t": "In Japan, a popular belief with no good scientific support links them to personality",
+      "k": [
+        "japan",
+        "personality"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Types, cells, or factor?",
+    "body": "Tossups on this topic are full of red blood cells, antigens, antibodies, plasma, and the Rh factor, and several of those are their own answer lines on this site (Blood, Red blood cells, Antibodies). Buzzing with one of those parts is wrong. “Rh factor” names only one piece of the system and “blood” is too general, so each earns just a prompt.",
+    "fix": "If the question asks for “these categories,” “these classifications,” or “these groups,” and the giveaway lists A, B, AB, and O, say “blood types.” If it asks for “this factor” named for monkeys, say “Rh factor.” If it asks for “these proteins in plasma,” say “antibodies.”",
+    "line": "Real answer line: <b><u>Blood types</u></b> (accept <u>blood groups</u> or <u>ABO</u> system; prompt on <u>Rh factor</u>; do not accept “red blood cells”)"
+  },
+  "tests": {
+    "right": [
+      "Blood types",
+      "blood type",
+      "Blood groups",
+      "ABO",
+      "Blod types",
+      "ABO blood group system"
+    ],
+    "prompt": [
+      "Rh factor",
+      "blood"
+    ],
+    "wrong": [
+      "Red blood cells",
+      "Antibodies",
+      "Antigens",
+      "Plasma",
+      "Blood clotting",
+      "Hemoglobin"
+    ]
+  }
+}

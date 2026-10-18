@@ -1,0 +1,362 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "tundra",
+    "name": "Tundra",
+    "mono": "TUN",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Cold, treeless biome of the far north · Frozen permafrost underneath",
+    "dates": "Growing season of only about two months",
+    "briefing": "The tundra is the coldest biome on Earth: a treeless land in the far north, and on high mountaintops, where winters are long and dark and summer lasts only a couple of months. Just under the surface lies permafrost, ground that stays frozen all year, so trees cannot put down deep roots. Instead, mosses, lichens, and low shrubs feed caribou, musk oxen, and lemmings, while arctic foxes and snowy owls hunt.",
+    "answerHtml": "<b><u>Tundra</u></b> (accept <u>Arctic tundra</u> or <u>alpine tundra</u>; prompt on <u>Arctic</u>; do not accept “taiga” or “permafrost”)",
+    "accept": [
+        "tundra",
+        "tundras",
+        "arctic tundra",
+        "alpine tundra",
+        "antarctic tundra",
+        "tundra biome",
+        "tundra climate"
+    ],
+    "prompt": [
+        "arctic",
+        "alpine"
+    ],
+    "reject": [
+        "taiga",
+        "boreal forest",
+        "boreal forests",
+        "coniferous forest",
+        "permafrost",
+        "desert",
+        "deserts",
+        "polar desert",
+        "ice cap",
+        "ice caps",
+        "ice sheet",
+        "glacier",
+        "glaciers",
+        "steppe",
+        "grassland",
+        "grasslands",
+        "prairie",
+        "savanna",
+        "chaparral",
+        "alpine meadow",
+        "arctic circle",
+        "arctic ocean",
+        "antarctica",
+        "siberia"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Tundra",
+    "qb": {
+        "q": "tundra",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In the Köppen climate system, this biome’s climate is labeled ET, which means its warmest month averages between 0 and 10 degrees Celsius. Each summer, only a thin top layer of soil in this biome, called the active layer, thaws out.",
+            "r": "Below that layer lies permafrost. For 10 points, name this cold, treeless biome found north of the taiga."
+        },
+        {
+            "p": "Antarctic hair grass and Antarctic pearlwort, the only native flowering plants in Antarctica, grow in a southern version of this biome. A mountain version of this biome is found above the tree line, where pikas and marmots live.",
+            "r": "For 10 points, name this cold, treeless biome whose Arctic version has permanently frozen ground called permafrost and is home to caribou."
+        },
+        {
+            "p": "Musk oxen in this biome grow a soft underwool called qiviut [“KIV-ee-ut”], and when wolves attack, the adults form a circle around their calves. Caribou in this biome dig through the snow to eat “reindeer moss,” which is actually a lichen.",
+            "r": "For 10 points, name this treeless Arctic biome where the ground below the surface, called permafrost, stays frozen all year."
+        },
+        {
+            "p": "Hills called pingos [“PING-gohz”] form in this biome when a growing core of ice pushes the ground upward. Freezing and thawing also crack the ground in this biome into polygon-shaped patterns that can be seen from the air.",
+            "r": "Those features form in its permafrost. For 10 points, name this cold, treeless biome found across northern Alaska, Canada, and Siberia."
+        },
+        {
+            "p": "The cup-shaped flowers of this biome’s Arctic poppy turn to follow the sun, warming the insects that crawl inside them. Plants in this biome grow low to the ground and bloom quickly, because its growing season lasts only about two months.",
+            "r": "Mosses, lichens, and dwarf shrubs grow in this biome, which has no trees. For 10 points, name this cold biome of the far north."
+        },
+        {
+            "p": "Arctic ground squirrels in this biome survive the winter by hibernating with body temperatures that drop below freezing. Under the snow, lemmings in this biome stay busy all winter in tunnels in a layer called the subnivean [“sub-NIV-ee-un”] zone.",
+            "r": "Snowy owls and arctic foxes hunt those lemmings. For 10 points, name this treeless biome of the far north, where the ground stays frozen as permafrost."
+        },
+        {
+            "p": "The Porcupine caribou herd migrates each spring to give birth on the coastal plain of Alaska’s Arctic National Wildlife Refuge, which lies in this biome. Swarms of mosquitoes fill this biome in summer, when melted snow collects in bogs and ponds.",
+            "r": "Caribou, musk oxen, and lemmings live in this biome. For 10 points, name this cold, treeless biome found north of the taiga."
+        },
+        {
+            "p": "Nenets [“NEN-ets”] herders in Siberia lead their reindeer across this biome on long yearly migrations, and Sami people in northern Scandinavia also herd reindeer here. In summer, the sun here can stay up all night, but the growing season lasts only about two months.",
+            "r": "For 10 points, name this cold, treeless biome, home to musk oxen and lemmings, that lies north of the boreal forest."
+        },
+        {
+            "p": "The willow ptarmigan [“TAR-mih-gun”], Alaska’s state bird, lives in this biome and grows feathers on its feet that work like snowshoes. Arctic foxes in this biome turn white in winter and have small ears that lose less body heat.",
+            "r": "For 10 points, name this cold, treeless biome of the far north, where caribou graze on lichens above frozen permafrost."
+        },
+        {
+            "p": "Populations of lemmings in this biome boom and crash every few years, and the numbers of snowy owls and arctic foxes that eat them rise and fall along with them. Food webs in this biome are simple because few species can survive its long, dark winters.",
+            "r": "For 10 points, name this cold, treeless biome found north of the taiga, where permafrost lies under the soil."
+        },
+        {
+            "p": "Norway built its Global Seed Vault inside a mountain on Svalbard, an Arctic island chain where this biome is found, partly because the frozen rock would keep the seeds cold even without power. This biome gets so little rain and snow that it is sometimes compared to a desert.",
+            "r": "For 10 points, name this treeless biome of the far north, where the frozen ground is called permafrost."
+        },
+        {
+            "p": "American pikas living in a mountain version of this biome gather grasses and flowers into “haypiles” to eat during the winter, since they do not hibernate. That mountain version is found above the tree line, the elevation where trees stop growing.",
+            "r": "For 10 points, name this cold, treeless biome whose Arctic version covers much of northern Canada and Siberia."
+        },
+        {
+            "p": "The Arctic willow, one of the northernmost woody plants on Earth, creeps flat along the ground in this biome instead of growing tall. Cushion plants such as moss campion also grow in this biome in low, rounded mounds that stay out of the drying wind.",
+            "r": "Lichens and mosses cover much of this biome, which has no trees. For 10 points, name this cold biome of the far north, underlain by permafrost."
+        },
+        {
+            "p": "Lemmings in this biome stay active all winter in tunnels beneath the snow, in a layer called the subnivean [“sub-NIV-ee-un”] zone, where the snow traps warmth like a blanket. Arctic foxes in this biome can hear those lemmings moving under the snow and pounce down on them.",
+            "r": "For 10 points, name this cold, treeless biome where permafrost lies beneath the soil and caribou graze on lichens."
+        },
+        {
+            "p": "Lakes and pits called thermokarst form in this biome when its ice-rich ground melts and the land slumps. Scientists worry that as this biome warms, microbes will break down the carbon stored in its soils and release carbon dioxide and methane.",
+            "r": "That ice-rich ground is called permafrost. For 10 points, name this treeless biome of the far north, home to caribou and arctic foxes."
+        }
+    ],
+    "clues": [
+        {
+            "id": "treeless-cold",
+            "tier": "giveaway",
+            "t": "A cold, treeless biome of the far north; it is the coldest biome on Earth",
+            "k": ["treeless", "coldest biome", "far north"],
+            "n": 0
+        },
+        {
+            "id": "permafrost",
+            "tier": "giveaway",
+            "t": "Underlain by permafrost, a layer of ground that stays frozen all year",
+            "k": ["permafrost", "frozen"],
+            "n": 0
+        },
+        {
+            "id": "low-plants",
+            "tier": "giveaway",
+            "t": "Its plants are short: mosses, lichens, sedges, grasses, and dwarf shrubs",
+            "k": ["lichens", "mosses", "dwarf shrubs"],
+            "n": 0
+        },
+        {
+            "id": "animals",
+            "tier": "giveaway",
+            "t": "Home to caribou (reindeer), musk oxen, arctic foxes, lemmings, and snowy owls",
+            "k": ["caribou", "musk oxen", "lemmings", "snowy owls"],
+            "n": 0
+        },
+        {
+            "id": "north-of-taiga",
+            "tier": "giveaway",
+            "t": "Lies north of the taiga (boreal forest), beyond the tree line where trees stop growing",
+            "k": ["taiga", "boreal forest", "tree line"],
+            "n": 0
+        },
+        {
+            "id": "alpine",
+            "tier": "middle",
+            "t": "An alpine version lies above the tree line on high mountains, where pikas gather “haypiles” of plants for winter and marmots hibernate",
+            "k": ["alpine", "pikas", "haypiles", "marmots"],
+            "n": 0
+        },
+        {
+            "id": "short-summer",
+            "tier": "middle",
+            "t": "Growing season of only about two months; under the summer “midnight sun,” it can stay light all night",
+            "k": ["growing season", "midnight sun"],
+            "n": 0
+        },
+        {
+            "id": "low-precipitation",
+            "tier": "middle",
+            "t": "Gets very little precipitation, often less than 25 centimeters (10 inches) a year, so it is compared to a desert",
+            "k": ["precipitation", "desert", "25 centimeters"],
+            "n": 0,
+            "rabbit": "Deserts"
+        },
+        {
+            "id": "active-layer",
+            "tier": "middle",
+            "t": "Only the top layer of soil, called the active layer, thaws each summer",
+            "k": ["active layer", "thaws"],
+            "n": 0
+        },
+        {
+            "id": "bogs",
+            "tier": "middle",
+            "t": "Meltwater cannot soak into the frozen ground, so summer brings bogs, ponds, and swarms of mosquitoes",
+            "k": ["bogs", "mosquitoes", "meltwater"],
+            "n": 0
+        },
+        {
+            "id": "reindeer-moss",
+            "tier": "middle",
+            "t": "Caribou dig through snow to eat “reindeer moss,” which is really a lichen",
+            "k": ["reindeer moss", "lichen"],
+            "n": 0
+        },
+        {
+            "id": "arctic-fox",
+            "tier": "middle",
+            "t": "Arctic foxes turn white in winter and have small ears that lose less heat; they pounce on lemmings they hear under the snow",
+            "k": ["arctic foxes", "small ears", "white"],
+            "n": 0
+        },
+        {
+            "id": "carbon-thaw",
+            "tier": "middle",
+            "t": "Its frozen soils store huge amounts of carbon; as they thaw, microbes release carbon dioxide and methane, adding to climate change",
+            "k": ["methane", "carbon dioxide", "climate change"],
+            "n": 0,
+            "rabbit": "Carbon dioxide"
+        },
+        {
+            "id": "food-webs",
+            "tier": "middle",
+            "t": "Low biodiversity and simple food webs, since few species survive its long, dark winters",
+            "k": ["biodiversity", "food webs"],
+            "n": 0,
+            "rabbit": "Food chains"
+        },
+        {
+            "id": "koppen-et",
+            "tier": "power",
+            "t": "Köppen climate code ET: the warmest month averages between 0 °C and 10 °C",
+            "k": ["köppen", "koppen", "warmest month"],
+            "n": 0
+        },
+        {
+            "id": "antarctic-plants",
+            "tier": "power",
+            "t": "Antarctica’s only two native flowering plants, Antarctic hair grass and Antarctic pearlwort, grow in its Antarctic version",
+            "k": ["hair grass", "pearlwort"],
+            "n": 0
+        },
+        {
+            "id": "qiviut",
+            "tier": "power",
+            "t": "Musk oxen grow a soft underwool called qiviut and form a defensive circle around their calves when wolves attack",
+            "k": ["qiviut", "defensive circle", "musk oxen"],
+            "n": 0
+        },
+        {
+            "id": "pingos",
+            "tier": "power",
+            "t": "Pingos are hills pushed up by a growing core of ice; freezing and thawing crack the ground into polygon patterns",
+            "k": ["pingos", "polygon", "core of ice"],
+            "n": 0
+        },
+        {
+            "id": "thermokarst",
+            "tier": "power",
+            "t": "Thermokarst lakes and pits form where ice-rich frozen ground melts and the land slumps",
+            "k": ["thermokarst", "slumps"],
+            "n": 0
+        },
+        {
+            "id": "arctic-poppy",
+            "tier": "power",
+            "t": "Arctic poppy flowers turn to follow the sun, warming the insects that crawl inside them",
+            "k": ["arctic poppy", "follow the sun"],
+            "n": 0
+        },
+        {
+            "id": "willow-cushion",
+            "tier": "power",
+            "t": "Plants hug the ground: the Arctic willow creeps along the soil, and cushion plants like moss campion grow in low mounds",
+            "k": ["arctic willow", "cushion plants", "moss campion"],
+            "n": 0
+        },
+        {
+            "id": "ground-squirrels",
+            "tier": "power",
+            "t": "Arctic ground squirrels hibernate with body temperatures that drop below freezing",
+            "k": ["ground squirrels", "hibernate", "below freezing"],
+            "n": 0
+        },
+        {
+            "id": "subnivean",
+            "tier": "power",
+            "t": "Lemmings stay active all winter in tunnels under the snow, in the subnivean zone",
+            "k": ["subnivean", "tunnels"],
+            "n": 0
+        },
+        {
+            "id": "lemming-cycles",
+            "tier": "power",
+            "t": "Lemming populations boom and crash every few years, and snowy owl and arctic fox numbers rise and fall with them",
+            "k": ["boom", "crash", "every few years"],
+            "n": 0,
+            "rabbit": "Predation"
+        },
+        {
+            "id": "ptarmigan",
+            "tier": "power",
+            "t": "The willow ptarmigan, Alaska’s state bird, has feathered feet that work like snowshoes",
+            "k": ["ptarmigan", "feathered feet", "snowshoes"],
+            "n": 0,
+            "rabbit": "Birds"
+        },
+        {
+            "id": "porcupine-herd",
+            "tier": "power",
+            "t": "The Porcupine caribou herd gives birth on the coastal plain of Alaska’s Arctic National Wildlife Refuge",
+            "k": ["porcupine", "arctic national wildlife refuge", "coastal plain"],
+            "n": 0
+        },
+        {
+            "id": "sami-nenets",
+            "tier": "power",
+            "t": "Sami people in northern Scandinavia and Nenets people in Siberia herd reindeer across it",
+            "k": ["sami", "nenets", "herd reindeer"],
+            "n": 0
+        },
+        {
+            "id": "svalbard",
+            "tier": "power",
+            "t": "Norway’s Global Seed Vault was dug into a mountain on Arctic Svalbard, where frozen rock keeps the seeds cold even without power",
+            "k": ["svalbard", "seed vault"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Tundra, not taiga",
+        "body": "The tundra and the taiga sit side by side across Alaska, Canada, Scandinavia, and Siberia, and both have long, cold winters, so players mix them up. The taiga (boreal forest) is the huge belt of evergreen forest to the south; the tundra begins where those trees stop, at the tree line. Permafrost is a second trap: it is the frozen ground under the tundra, not the biome itself.",
+        "fix": "Spruce, fir, pine, moose, or lynx point to the taiga. No trees, lichens, musk oxen, lemmings, or pingos point to the tundra. A mountaintop above the tree line is still the tundra (alpine tundra).",
+        "line": "Real answer line: <b><u>Tundra</u></b> (accept <u>Arctic tundra</u> or <u>alpine tundra</u>; do not accept “taiga” or “permafrost”)"
+    },
+    "tests": {
+        "right": [
+            "Tundra",
+            "tundra",
+            "Arctic tundra",
+            "Alpine tundra",
+            "Tundrah"
+        ],
+        "prompt": [
+            "Arctic"
+        ],
+        "wrong": [
+            "Taiga",
+            "Permafrost",
+            "Boreal forest",
+            "Desert",
+            "Glacier"
+        ]
+    }
+}
+
+out = ROOT / "topics" / "tundra.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", out)

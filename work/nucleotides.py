@@ -1,0 +1,378 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "nucleotides",
+    "name": "Nucleotides",
+    "mono": "NT",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Building blocks of DNA and RNA · A sugar, a phosphate, and a base",
+    "dates": "About 3 billion pairs in one copy of the human genome",
+    "briefing": "Every strand of DNA and RNA is a chain of nucleotides, small units that each join a five-carbon sugar and a phosphate group to a nitrogen-containing base. DNA’s four bases, adenine, thymine, guanine, and cytosine, are the four “letters” of the genetic code, and RNA swaps thymine for uracil. Nucleotides have other jobs too: ATP, the molecule cells spend for energy, is one of them.",
+    "answerHtml": "<b><u>Nucleotides</u></b> (accept <u>nucleotide</u>, <u>deoxyribonucleotides</u>, or <u>ribonucleotides</u>; prompt on <u>bases</u> or <u>nitrogenous bases</u>; do not accept “nucleosides” or “nucleic acids”)",
+    "accept": [
+        "nucleotides",
+        "nucleotide",
+        "deoxyribonucleotides",
+        "deoxyribonucleotide",
+        "ribonucleotides",
+        "ribonucleotide",
+        "deoxynucleotides",
+        "deoxynucleotide",
+        "dntps",
+        "dntp"
+    ],
+    "prompt": [
+        "bases",
+        "base",
+        "nitrogenous bases",
+        "nitrogenous base",
+        "nucleobases",
+        "nucleobase",
+        "base pairs",
+        "base pair",
+        "monomers",
+        "monomer"
+    ],
+    "reject": [
+        "nucleosides",
+        "nucleoside",
+        "nucleosomes",
+        "nucleosome",
+        "nucleic acids",
+        "nucleic acid",
+        "nucleus",
+        "nuclei",
+        "nucleolus",
+        "nucleons",
+        "nucleon",
+        "amino acids",
+        "amino acid",
+        "dna",
+        "rna",
+        "atp",
+        "genes",
+        "gene",
+        "codons",
+        "codon",
+        "purines",
+        "purine",
+        "pyrimidines",
+        "pyrimidine",
+        "chromosomes",
+        "chromosome"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Nucleotide",
+    "qb": {
+        "q": "nucleotides",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Albrecht Kossel won the 1910 Nobel Prize in medicine for work on cell chemistry that included identifying the bases in these molecules. Each of these molecules has a nitrogen-containing base attached to the first carbon of a five-carbon sugar.",
+            "r": "For 10 points, name these building blocks of DNA and RNA, each made of a sugar, a phosphate group, and a base."
+        },
+        {
+            "p": "Phoebus Levene [“luh-VEEN”] wrongly proposed that DNA was a dull chain of the same four of these units repeated over and over, which made it seem too simple to carry genes. Erwin Chargaff helped disprove that idea by showing that DNA from different species contains these units in different amounts.",
+            "r": "For 10 points, name these units, each containing a base like adenine or guanine, that link up to form nucleic acids."
+        },
+        {
+            "p": "Frederick Sanger’s method for reading DNA used special versions of these molecules that lack the hydroxyl group on the sugar’s three-prime carbon, so a growing strand stops wherever one is added. Normally, the enzyme DNA polymerase adds each new one of these molecules to the three-prime end of a strand.",
+            "r": "For 10 points, name these molecules that join to form DNA and RNA, each made of a sugar, a phosphate, and a base."
+        },
+        {
+            "p": "Phosphodiester [“FOSS-foh-dye-ESS-ter”] bonds link these molecules, joining the three-prime carbon of one sugar to the phosphate on the five-prime carbon of the next. A chain of these molecules therefore has a “backbone” of alternating sugars and phosphates, with bases sticking out to the side.",
+            "r": "For 10 points, name these monomers that link up to form nucleic acids such as DNA."
+        },
+        {
+            "p": "These molecules are sorted by whether their bases are double-ringed purines [“PYOOR-eenz”] or single-ringed pyrimidines [“pih-RIM-ih-deenz”]. In the double helix, one of these molecules containing guanine pairs with one containing cytosine through three hydrogen bonds, while adenine and thymine share two.",
+            "r": "For 10 points, name these building blocks of DNA, each made of a sugar, a phosphate group, and a nitrogenous base."
+        },
+        {
+            "p": "Earl Sutherland won a Nobel Prize for his work on cyclic AMP, a ring-shaped one of these molecules that relays hormone signals inside cells. The electron carrier NAD+ is made of two of these molecules joined through their phosphate groups.",
+            "r": "The energy carrier ATP is another one of them. For 10 points, name these molecules that are also the building blocks of DNA and RNA."
+        },
+        {
+            "p": "When DNA is copied, the lagging strand is built in short runs of these units called Okazaki [“oh-kah-ZAH-kee”] fragments, which DNA ligase then seals together. A new strand grows only at its three-prime end, where the next one of these units attaches to a free hydroxyl group on the last sugar.",
+            "r": "For 10 points, name these building blocks of DNA, which come in four kinds labeled A, C, G, and T."
+        },
+        {
+            "p": "Human telomeres, the protective caps at the ends of chromosomes, repeat the same six of these units, TTAGGG, over and over. Genetic differences called SNPs [“snips”] are spots where people’s DNA differs at just one of these units.",
+            "r": "A point mutation changes just one of them. For 10 points, name these building blocks of DNA and RNA."
+        },
+        {
+            "p": "When the body breaks down the purine bases from these molecules, it makes uric acid, which can build up into the crystals that cause gout. Without its phosphate group, one of these molecules is called a nucleoside [“NOO-klee-oh-side”].",
+            "r": "For 10 points, name these units, each with a sugar, a phosphate, and a base, that are linked together to make DNA."
+        },
+        {
+            "p": "Arthur Kornberg shared the 1959 Nobel Prize for finding a bacterial enzyme that links these units into DNA, while Severo Ochoa [“oh-CHOH-uh”] shared it for an enzyme that links them into RNA. The raw materials DNA polymerase uses carry three phosphate groups, two of which break off as each unit joins the chain.",
+            "r": "Phosphodiester bonds then hold the units together in a sugar-phosphate backbone. For 10 points, name these building blocks of nucleic acids."
+        },
+        {
+            "p": "The sugar in the DNA version of these molecules is missing one oxygen atom on its second carbon, which is why it is called deoxyribose. In the RNA version of these molecules, the sugar is ribose, and the base uracil takes the place of thymine.",
+            "r": "For 10 points, name these units, each made of a sugar, a phosphate group, and a nitrogenous base, that form DNA and RNA."
+        },
+        {
+            "p": "Cells can switch genes off by attaching methyl groups to the cytosine-containing versions of these molecules in DNA. A frameshift mutation happens when one or two of these units are added or removed, which throws off how a gene is read in groups of three.",
+            "r": "For 10 points, name these building blocks of DNA, each made of a sugar, a phosphate, and a base."
+        },
+        {
+            "p": "In these molecules, the base is joined to the sugar’s one-prime carbon by a glycosidic [“gly-koh-SID-ik”] bond, while the phosphate hangs off the five-prime carbon. The sugar’s carbons are numbered with prime marks to tell them apart from the atoms in the base.",
+            "r": "For 10 points, name these units whose bases pair up to form the rungs of the DNA ladder."
+        },
+        {
+            "p": "A polymerase chain reaction tube holds short primers, a heat-resistant enzyme called Taq polymerase, and a supply of these molecules, which the enzyme strings together to make many copies of a stretch of DNA. One copy of the human genome contains about three billion pairs of these units.",
+            "r": "For 10 points, name these building blocks of DNA, each with a sugar, a phosphate, and a base."
+        },
+        {
+            "p": "Chargaff’s rules say that in DNA, the number of these units containing adenine equals the number containing thymine. Messenger RNA is read three of these units at a time, and most of those triplets, called codons, stand for one amino acid.",
+            "r": "For 10 points, name these molecules, each made of a sugar, a phosphate, and a base, that link up to form DNA and RNA."
+        }
+    ],
+    "clues": [
+        {
+            "id": "building-blocks",
+            "tier": "giveaway",
+            "t": "The building blocks, or monomers, of the nucleic acids DNA and RNA",
+            "k": ["building blocks", "monomers", "nucleic acids"],
+            "n": 0
+        },
+        {
+            "id": "three-parts",
+            "tier": "giveaway",
+            "t": "Each has three parts: a five-carbon sugar, a phosphate group, and a nitrogenous base",
+            "k": ["three parts", "sugar", "phosphate", "nitrogenous base"],
+            "n": 0
+        },
+        {
+            "id": "four-kinds",
+            "tier": "giveaway",
+            "t": "DNA uses four kinds, named for their bases: adenine, cytosine, guanine, and thymine (A, C, G, T)",
+            "k": ["four kinds", "adenine", "guanine"],
+            "n": 0,
+            "rabbit": "DNA"
+        },
+        {
+            "id": "base-pairs",
+            "tier": "giveaway",
+            "t": "In DNA, A pairs with T and G pairs with C, forming the rungs of the double helix",
+            "k": ["rungs", "pairs", "double helix"],
+            "n": 0
+        },
+        {
+            "id": "codon",
+            "tier": "giveaway",
+            "t": "Three in a row make a codon, which usually stands for one amino acid",
+            "k": ["codon", "amino acid"],
+            "n": 0
+        },
+        {
+            "id": "purines-pyrimidines",
+            "tier": "middle",
+            "t": "Bases are double-ringed purines (adenine, guanine) or single-ringed pyrimidines (cytosine, thymine, uracil)",
+            "k": ["purines", "pyrimidines", "double-ringed"],
+            "n": 0
+        },
+        {
+            "id": "phosphodiester",
+            "tier": "middle",
+            "t": "Joined by phosphodiester bonds into a backbone of alternating sugars and phosphates",
+            "k": ["phosphodiester", "backbone"],
+            "n": 0
+        },
+        {
+            "id": "strand-direction",
+            "tier": "middle",
+            "t": "A strand has direction: a five-prime end with a free phosphate and a three-prime end with a free hydroxyl group",
+            "k": ["five-prime end", "three-prime end", "direction"],
+            "n": 0
+        },
+        {
+            "id": "deoxyribose",
+            "tier": "middle",
+            "t": "DNA’s sugar, deoxyribose, is missing one oxygen at its second carbon; RNA’s sugar is ribose",
+            "k": ["deoxyribose", "ribose", "second carbon"],
+            "n": 0
+        },
+        {
+            "id": "uracil",
+            "tier": "middle",
+            "t": "RNA versions use the base uracil in place of thymine",
+            "k": ["uracil", "thymine"],
+            "n": 0,
+            "rabbit": "Uracil"
+        },
+        {
+            "id": "hydrogen-bonds",
+            "tier": "middle",
+            "t": "G–C pairs are held by three hydrogen bonds; A–T pairs by two",
+            "k": ["hydrogen bonds", "three", "two"],
+            "n": 0,
+            "rabbit": "Hydrogen bonds"
+        },
+        {
+            "id": "atp",
+            "tier": "middle",
+            "t": "ATP, the cell’s main energy carrier, is one, with three phosphate groups",
+            "k": ["energy carrier", "atp", "three phosphate"],
+            "n": 0,
+            "rabbit": "ATP"
+        },
+        {
+            "id": "nucleoside",
+            "tier": "middle",
+            "t": "Without its phosphate, the sugar-plus-base unit is called a nucleoside",
+            "k": ["nucleoside", "sugar-plus-base"],
+            "n": 0
+        },
+        {
+            "id": "chargaff",
+            "tier": "middle",
+            "t": "Chargaff’s rules: in DNA, the amount with adenine equals the amount with thymine, and guanine equals cytosine",
+            "k": ["chargaff", "rules"],
+            "n": 0
+        },
+        {
+            "id": "three-prime",
+            "tier": "middle",
+            "t": "DNA polymerase adds each new one to the three-prime end of a growing strand",
+            "k": ["dna polymerase", "three-prime"],
+            "n": 0
+        },
+        {
+            "id": "kossel",
+            "tier": "power",
+            "t": "Albrecht Kossel, who identified the bases found in them, won the 1910 Nobel Prize in medicine",
+            "k": ["kossel", "1910"],
+            "n": 0
+        },
+        {
+            "id": "levene",
+            "tier": "power",
+            "t": "Phoebus Levene wrongly thought DNA was a dull repeat of the same four of them; Chargaff helped disprove it",
+            "k": ["levene", "dull repeat"],
+            "n": 0
+        },
+        {
+            "id": "sanger",
+            "tier": "power",
+            "t": "Frederick Sanger’s DNA-reading method used versions missing the three-prime hydroxyl group, which stop a growing strand",
+            "k": ["sanger", "hydroxyl", "stop"],
+            "n": 0,
+            "rabbit": "DNA sequencing"
+        },
+        {
+            "id": "kornberg-ochoa",
+            "tier": "power",
+            "t": "Arthur Kornberg and Severo Ochoa shared the 1959 Nobel Prize for enzymes that link them into DNA and RNA",
+            "k": ["kornberg", "ochoa", "1959"],
+            "n": 0
+        },
+        {
+            "id": "triphosphates",
+            "tier": "power",
+            "t": "They join a chain as triphosphates, and two of the three phosphates break off as each one is added",
+            "k": ["triphosphates", "three phosphates"],
+            "n": 0
+        },
+        {
+            "id": "camp-nad",
+            "tier": "power",
+            "t": "Cyclic AMP, a ring-shaped one, relays hormone signals (Earl Sutherland, Nobel Prize); NAD+ is two of them joined together",
+            "k": ["cyclic amp", "sutherland", "nad+"],
+            "n": 0
+        },
+        {
+            "id": "okazaki",
+            "tier": "power",
+            "t": "The lagging strand is built in short runs called Okazaki fragments, sealed together by DNA ligase",
+            "k": ["okazaki", "ligase", "lagging strand"],
+            "n": 0
+        },
+        {
+            "id": "glycosidic",
+            "tier": "power",
+            "t": "The base joins the sugar’s one-prime carbon by a glycosidic bond; the phosphate sits on the five-prime carbon",
+            "k": ["glycosidic", "one-prime", "five-prime"],
+            "n": 0
+        },
+        {
+            "id": "uric-acid",
+            "tier": "power",
+            "t": "Breaking down their purine bases makes uric acid, which can build up and cause gout",
+            "k": ["uric acid", "gout"],
+            "n": 0
+        },
+        {
+            "id": "telomeres",
+            "tier": "power",
+            "t": "Human telomeres repeat the six-unit sequence TTAGGG over and over",
+            "k": ["telomeres", "ttaggg"],
+            "n": 0
+        },
+        {
+            "id": "snps",
+            "tier": "power",
+            "t": "SNPs (“snips”) are spots where people’s DNA differs at just one of them; a point mutation changes one",
+            "k": ["snps", "snips", "point mutation"],
+            "n": 0,
+            "rabbit": "Mutations"
+        },
+        {
+            "id": "methyl-frameshift",
+            "tier": "power",
+            "t": "Methyl groups on cytosine can switch genes off; adding or removing one or two causes a frameshift mutation",
+            "k": ["methyl", "frameshift"],
+            "n": 0
+        },
+        {
+            "id": "pcr",
+            "tier": "power",
+            "t": "PCR mixes primers, heat-resistant Taq polymerase, and a supply of them to copy a stretch of DNA many times",
+            "k": ["pcr", "taq polymerase", "primers"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Nucleotide, nucleoside, or base?",
+        "body": "Four answer lines sound alike. A nucleotide has three parts: sugar, phosphate, and base. A nucleoside is only the sugar and base, with no phosphate, and nucleic acids (DNA and RNA) are the long chains that nucleotides build. The bases (adenine, guanine, cytosine, thymine, uracil) are just one part, and some tossups ask for one of them, like uracil, by name.",
+        "fix": "Count the parts. A sugar, a phosphate, and a base, or “these monomers,” means nucleotides; no phosphate means nucleoside; “this polymer” or a double helix means a nucleic acid. Saying only “bases” earns a prompt, so be ready to say “nucleotides.” Don’t mix them up with amino acids, the building blocks of proteins.",
+        "line": "Real answer line: <b><u>Nucleotides</u></b> (prompt on <u>bases</u>; do not accept “nucleosides” or “nucleic acids”)"
+    },
+    "tests": {
+        "right": [
+            "Nucleotides",
+            "nucleotide",
+            "Nucleotids",
+            "Deoxyribonucleotides",
+            "ribonucleotides"
+        ],
+        "prompt": [
+            "Bases",
+            "Nitrogenous bases"
+        ],
+        "wrong": [
+            "Nucleosides",
+            "Nucleic acids",
+            "Amino acids",
+            "Nucleus",
+            "Purines",
+            "DNA"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

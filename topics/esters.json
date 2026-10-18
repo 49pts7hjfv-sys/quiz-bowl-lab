@@ -1,0 +1,471 @@
+{
+  "id": "esters",
+  "name": "Esters",
+  "mono": "COO",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Fruity-smelling organic compounds · Made from an acid and an alcohol",
+  "dates": "Fischer esterification described 1895",
+  "briefing": "Esters are the molecules behind many of nature’s best smells: one gives bananas their scent, and others flavor pineapples and wintergreen candy. Chemists make them by heating a carboxylic acid with an alcohol and a little acid catalyst, a reaction called Fischer esterification. Esters also matter on a bigger scale: the fats in your food are esters of glycerol, and polyester clothing is a giant chain of ester links.",
+  "answerHtml": "<b><u>Esters</u></b> (accept <u>ester</u>; do not accept “ethers”)",
+  "accept": [
+    "esters",
+    "ester",
+    "carboxylic ester",
+    "carboxylic esters",
+    "carboxylate ester",
+    "carboxylate esters",
+    "carboxylic acid ester",
+    "carboxylic acid esters",
+    "organic ester",
+    "organic esters"
+  ],
+  "prompt": [
+    "carboxylic acid derivative",
+    "carboxylic acid derivatives",
+    "acid derivative",
+    "acid derivatives"
+  ],
+  "reject": [
+    "ether",
+    "ethers",
+    "easter",
+    "esther",
+    "polyester",
+    "polyesters",
+    "esterification",
+    "fischer esterification",
+    "transesterification",
+    "esterase",
+    "esterases",
+    "carboxylic acid",
+    "carboxylic acids",
+    "alcohol",
+    "alcohols",
+    "aldehyde",
+    "aldehydes",
+    "ketone",
+    "ketones",
+    "amide",
+    "amides",
+    "anhydride",
+    "anhydrides",
+    "acid anhydride",
+    "acid anhydrides",
+    "acyl chloride",
+    "acyl chlorides",
+    "lactone",
+    "lactones",
+    "lipid",
+    "lipids",
+    "fat",
+    "fats",
+    "triglyceride",
+    "triglycerides",
+    "wax",
+    "waxes",
+    "soap",
+    "soaps",
+    "acetate",
+    "acetates",
+    "carboxylate",
+    "carboxylates",
+    "ethyl acetate",
+    "isoamyl acetate",
+    "methyl salicylate",
+    "aspirin",
+    "acetylcholine"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Ester",
+  "qb": {
+    "q": "ester",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "One member of this class, isoamyl acetate [“eye-soh-AM-il ASS-uh-tate”], is a main part of the alarm signal that honeybees release when they sting. Another, methyl salicylate [“suh-LISS-uh-late”], is oil of wintergreen, which flavors some mints and muscle-pain creams.",
+      "r": "Isoamyl acetate also gives bananas their smell. For 10 points, name this class of fruity-smelling organic compounds made from a carboxylic acid and an alcohol."
+    },
+    {
+      "p": "Chemists often attach a Dean–Stark trap to collect the water formed by a reaction that makes these compounds, because removing water pushes that equilibrium forward, as Le Chatelier’s [“luh SHAH-tuh-lyayz”] principle predicts. Adding an excess of one starting material helps for the same reason.",
+      "r": "For 10 points, name these compounds, which form when a carboxylic acid reacts with an alcohol and often smell like fruit."
+    },
+    {
+      "p": "In 1895, Emil Fischer and Arthur Speier [“SHPY-er”] described a reaction in which a few drops of sulfuric acid help two starting materials combine into one of these compounds plus water. That reaction is reversible, so these compounds can be split apart again by hydrolysis.",
+      "r": "For 10 points, name this class of compounds, which form from a carboxylic acid and an alcohol and often smell fruity."
+    },
+    {
+      "p": "In saponification [“suh-pon-uh-fuh-KAY-shun”], a strong base such as lye breaks these compounds apart in a reaction that, unlike acid hydrolysis, does not run backward. Soapmakers have used that reaction for centuries, boiling animal fats, which are made of these compounds, with lye made from wood ashes.",
+      "r": "For 10 points, name this class of organic compounds, many of which smell like fruit, made from acids and alcohols."
+    },
+    {
+      "p": "Biodiesel is made by reacting vegetable oil with methanol, swapping the glycerol in the oil’s molecules for methanol to make methyl versions of these compounds. Each molecule of vegetable oil, a triglyceride, contains three of these functional groups linking fatty acids to glycerol.",
+      "r": "For 10 points, name this class of compounds made from a carboxylic acid and an alcohol, many of which smell fruity."
+    },
+    {
+      "p": "In 1941, two British chemists, John Rex Whinfield and James Dickson, patented a plastic whose repeating units are joined by these functional groups. That plastic, polyethylene terephthalate [“tair-uh-THAL-ate”], is used to make soda bottles and fabrics such as Dacron.",
+      "r": "For 10 points, name this class of compounds that form when an alcohol reacts with a carboxylic acid."
+    },
+    {
+      "p": "In 1897, Felix Hoffmann of the company Bayer made a gentler pain reliever by using acetic anhydride to turn the –OH group of salicylic acid into one of these functional groups. That drug, aspirin, still contains a carboxylic acid group as well.",
+      "r": "For 10 points, name this functional group, which also gives many fruits their smells and forms when an acid reacts with an alcohol."
+    },
+    {
+      "p": "The neurotransmitter acetylcholine [“uh-SEE-tul-KOH-leen”], which carries signals from nerves to muscles, is one of these compounds, since its structure joins choline to acetic acid. An enzyme at the synapse quickly breaks it apart to end each signal.",
+      "r": "For 10 points, name this class of compounds, which often have fruity smells and form from an alcohol and a carboxylic acid."
+    },
+    {
+      "p": "In the Claisen [“KLY-zen”] condensation, two molecules of one of these compounds join together with the help of a strong base such as sodium ethoxide. Unlike carboxylic acids, these compounds cannot form hydrogen bonds with one another, so they boil at lower temperatures.",
+      "r": "For 10 points, name this class of compounds, which give many fruits and perfumes their pleasant smells."
+    },
+    {
+      "p": "Ring-shaped members of this class are called lactones, and some of them help give peaches and coconuts their flavors. Chemists name non-ring members of this class with two words, as in ethyl ethanoate [“eth-uh-NOH-ate”], whose more common name is ethyl acetate.",
+      "r": "For 10 points, name this class of compounds formed when a carboxylic acid reacts with an alcohol."
+    },
+    {
+      "p": "In infrared spectra, members of this class show a strong peak near 1,735 inverse centimeters from their carbon–oxygen double bond, but no broad O–H band. One member, ethyl acetate, is used to remove caffeine from coffee beans and in some nail polish removers.",
+      "r": "For 10 points, name this class of compounds, made from an alcohol and a carboxylic acid."
+    },
+    {
+      "p": "Beeswax and the carnauba [“kar-NOW-buh”] wax used to polish cars are mostly made of these compounds, which have long carbon chains on both sides. The fats and oils in food are also members of this class, with three fatty acids attached to glycerol.",
+      "r": "For 10 points, name this class of compounds, many of which smell fruity, made from carboxylic acids and alcohols."
+    },
+    {
+      "p": "Lithium aluminum hydride reduces these compounds all the way to two alcohols, but the milder reagent DIBAL [“DYE-bal”] can stop at an aldehyde if the reaction is kept very cold. Water and acid can also break these compounds back into their two starting materials.",
+      "r": "For 10 points, name this class of compounds, made from a carboxylic acid and an alcohol, many of which smell like fruit."
+    },
+    {
+      "p": "The Baeyer–Villiger oxidation turns a ketone into one of these compounds by slipping an oxygen atom in next to the carbonyl group. In these compounds, a carbonyl carbon is bonded to a second oxygen atom that links to another carbon group.",
+      "r": "For 10 points, name this class of compounds, often fruity-smelling, that form when an alcohol reacts with a carboxylic acid."
+    },
+    {
+      "p": "Polylactic acid, a biodegradable plastic made from corn and used in many 3D printers, is a chain of lactic acid units joined by these functional groups. Mylar, the shiny film used in party balloons, is a polymer linked the same way.",
+      "r": "For 10 points, name this class of compounds, which form when an alcohol reacts with a carboxylic acid."
+    }
+  ],
+  "clues": [
+    {
+      "id": "acid-alcohol",
+      "tier": "giveaway",
+      "t": "Formed when a carboxylic acid reacts with an alcohol, giving off water",
+      "k": [
+        "carboxylic acid",
+        "alcohol",
+        "water"
+      ],
+      "n": 0,
+      "rabbit": "Alcohols (chemistry)"
+    },
+    {
+      "id": "fruity",
+      "tier": "giveaway",
+      "t": "Many have fruity smells and flavors; one gives bananas their scent",
+      "k": [
+        "fruity",
+        "bananas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "perfumes",
+      "tier": "giveaway",
+      "t": "Used in perfumes and in artificial fruit flavorings",
+      "k": [
+        "perfumes",
+        "flavorings"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fats",
+      "tier": "middle",
+      "t": "Fats and oils (triglycerides) are made of them: three fatty acids attached to glycerol",
+      "k": [
+        "triglycerides",
+        "glycerol",
+        "fats"
+      ],
+      "n": 0,
+      "rabbit": "Lipids"
+    },
+    {
+      "id": "functional-group",
+      "tier": "middle",
+      "t": "Their functional group (–COO–) is a carbonyl carbon bonded to a second oxygen that links to another carbon group",
+      "k": [
+        "carbonyl",
+        "second oxygen",
+        "–coo–"
+      ],
+      "n": 0
+    },
+    {
+      "id": "naming",
+      "tier": "middle",
+      "t": "Named with two words ending in “-ate” or “-oate,” as in ethyl acetate (ethyl ethanoate)",
+      "k": [
+        "ethyl acetate",
+        "ethyl ethanoate",
+        "-oate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fischer-speier",
+      "tier": "middle",
+      "t": "Emil Fischer and Arthur Speier (1895) made them from an acid and an alcohol with a few drops of sulfuric acid",
+      "k": [
+        "fischer",
+        "speier",
+        "1895",
+        "sulfuric acid"
+      ],
+      "n": 0,
+      "rabbit": "Sulfuric acid"
+    },
+    {
+      "id": "hydrolysis",
+      "tier": "middle",
+      "t": "Their formation is reversible: hydrolysis with water splits them back into an acid and an alcohol",
+      "k": [
+        "hydrolysis",
+        "reversible"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saponification",
+      "tier": "middle",
+      "t": "Saponification: a strong base like lye splits them into an alcohol and a carboxylic acid salt, which is how soap is made from fat",
+      "k": [
+        "saponification",
+        "soap",
+        "lye"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wintergreen",
+      "tier": "middle",
+      "t": "Methyl salicylate is oil of wintergreen, used in some mints and muscle-pain creams",
+      "k": [
+        "methyl salicylate",
+        "wintergreen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boiling",
+      "tier": "middle",
+      "t": "They cannot hydrogen-bond with each other, so they boil lower than carboxylic acids of similar size",
+      "k": [
+        "hydrogen-bond",
+        "boil lower"
+      ],
+      "n": 0,
+      "rabbit": "Hydrogen bonds"
+    },
+    {
+      "id": "pet",
+      "tier": "middle",
+      "t": "PET (polyethylene terephthalate), used for soda bottles and Dacron fabric, is a chain linked by them",
+      "k": [
+        "polyethylene terephthalate",
+        "soda bottles",
+        "dacron"
+      ],
+      "n": 0,
+      "rabbit": "Polymers"
+    },
+    {
+      "id": "aspirin",
+      "tier": "middle",
+      "t": "Aspirin, made in 1897 by Felix Hoffmann at Bayer from salicylic acid and acetic anhydride, contains one",
+      "k": [
+        "aspirin",
+        "felix hoffmann",
+        "salicylic acid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ethyl-acetate",
+      "tier": "power",
+      "t": "Ethyl acetate removes caffeine from coffee beans and is used in some nail polish removers",
+      "k": [
+        "caffeine",
+        "nail polish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "honeybee",
+      "tier": "power",
+      "t": "Isoamyl acetate, the one that smells like bananas, is a main part of the honeybee alarm signal released with a sting",
+      "k": [
+        "isoamyl acetate",
+        "honeybee",
+        "alarm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dean-stark",
+      "tier": "power",
+      "t": "A Dean–Stark trap removes the water made along with them, pushing the equilibrium forward (Le Chatelier’s principle)",
+      "k": [
+        "dean–stark",
+        "le chatelier",
+        "equilibrium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "claisen",
+      "tier": "power",
+      "t": "The Claisen condensation joins two of them using a strong base such as sodium ethoxide",
+      "k": [
+        "claisen",
+        "sodium ethoxide",
+        "condensation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lactones",
+      "tier": "power",
+      "t": "Ring-shaped ones are called lactones; some help flavor peaches and coconuts",
+      "k": [
+        "lactones",
+        "ring-shaped",
+        "peaches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reduction",
+      "tier": "power",
+      "t": "Lithium aluminum hydride reduces them to two alcohols; very cold DIBAL can stop at an aldehyde",
+      "k": [
+        "lithium aluminum hydride",
+        "dibal",
+        "aldehyde"
+      ],
+      "n": 0
+    },
+    {
+      "id": "baeyer-villiger",
+      "tier": "power",
+      "t": "The Baeyer–Villiger oxidation turns ketones into them by inserting an oxygen atom next to the carbonyl",
+      "k": [
+        "baeyer–villiger",
+        "ketones",
+        "inserting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "whinfield",
+      "tier": "power",
+      "t": "John Rex Whinfield and James Dickson patented PET in 1941",
+      "k": [
+        "whinfield",
+        "dickson",
+        "1941"
+      ],
+      "n": 0
+    },
+    {
+      "id": "acetylcholine",
+      "tier": "power",
+      "t": "The neurotransmitter acetylcholine is one, joining choline to acetic acid; an enzyme breaks it apart at synapses",
+      "k": [
+        "acetylcholine",
+        "neurotransmitter",
+        "choline"
+      ],
+      "n": 0
+    },
+    {
+      "id": "biodiesel",
+      "tier": "power",
+      "t": "Biodiesel: vegetable oil reacts with methanol, which swaps out glycerol to make methyl ones",
+      "k": [
+        "biodiesel",
+        "methanol",
+        "vegetable oil"
+      ],
+      "n": 0
+    },
+    {
+      "id": "waxes",
+      "tier": "power",
+      "t": "Beeswax and carnauba wax are mostly made of them, with long carbon chains on both sides",
+      "k": [
+        "beeswax",
+        "carnauba",
+        "long carbon chains"
+      ],
+      "n": 0
+    },
+    {
+      "id": "infrared",
+      "tier": "power",
+      "t": "Infrared spectra show a strong carbonyl peak near 1,735 inverse centimeters but no broad O–H band",
+      "k": [
+        "infrared",
+        "carbonyl peak",
+        "1,735"
+      ],
+      "n": 0,
+      "rabbit": "Infrared spectroscopy"
+    },
+    {
+      "id": "pla",
+      "tier": "power",
+      "t": "Polylactic acid (PLA), a biodegradable 3D-printing plastic, and shiny Mylar film are polymers linked by them",
+      "k": [
+        "polylactic acid",
+        "mylar",
+        "biodegradable"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Ester or ether?",
+    "body": "Esters and ethers differ by one letter, and both have an oxygen atom linking two carbon groups. But an ether, like the diethyl ether once used to put surgery patients to sleep, has no carbon–oxygen double bond, while every ester has a C=O right next to that linking oxygen. Players also blurt “carboxylic acid” or “alcohol,” the two starting materials, or one example, like “ethyl acetate.”",
+    "fix": "Fruity smells, fats and oils, soap-making, aspirin, and a –COO– group mean esters; a plain C–O–C with no C=O means ethers. If the question asks for “this class” or “these compounds,” give the class name, not one example or one ingredient.",
+    "line": "Real answer line: <b><u>Esters</u></b> (accept <u>ester</u>; do not accept “ethers”)"
+  },
+  "tests": {
+    "right": [
+      "Esters",
+      "Ester",
+      "Estors",
+      "Carboxylic acid esters",
+      "fruity esters"
+    ],
+    "prompt": [
+      "Carboxylic acid derivatives"
+    ],
+    "wrong": [
+      "Ethers",
+      "Ether",
+      "Carboxylic acids",
+      "Alcohols",
+      "Polyester",
+      "Triglycerides",
+      "Ethyl acetate",
+      "Lactones",
+      "Easter"
+    ]
+  }
+}

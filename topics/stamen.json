@@ -1,0 +1,459 @@
+{
+  "id": "stamen",
+  "name": "Stamen",
+  "mono": "STA",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Male part of a flower · An anther on a stalk called a filament",
+  "dates": "Its name is Latin for “thread”",
+  "briefing": "A stamen is the male part of a flower: a slender stalk called a filament, topped by an anther that makes pollen. When a bee brushes past, the anthers dust its hairy body with pollen, which it carries to the sticky pistil of the next flower it visits. In the 1700s, the botanist Carl Linnaeus sorted plants into groups mostly by counting their stamens.",
+  "answerHtml": "<b><u>Stamen</u></b> (accept <u>stamens</u> or <u>stamina</u>; prompt on <u>androecium</u> or <u>male part</u>; do not accept “anther,” “filament,” or “pistil”)",
+  "accept": [
+    "stamen",
+    "stamens",
+    "stamina"
+  ],
+  "prompt": [
+    "androecium",
+    "androecia",
+    "male part",
+    "male parts",
+    "male organ",
+    "male organs",
+    "male reproductive organ",
+    "male reproductive organs",
+    "male reproductive part",
+    "male reproductive parts"
+  ],
+  "reject": [
+    "anther",
+    "anthers",
+    "filament",
+    "filaments",
+    "pistil",
+    "pistils",
+    "carpel",
+    "carpels",
+    "stigma",
+    "stigmas",
+    "style",
+    "styles",
+    "ovary",
+    "ovaries",
+    "petal",
+    "petals",
+    "sepal",
+    "sepals",
+    "pollen",
+    "pollen sac",
+    "pollen sacs",
+    "flower",
+    "flowers",
+    "tapetum",
+    "staminode",
+    "staminodes",
+    "gynoecium",
+    "female part",
+    "female parts",
+    "stem",
+    "stems"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Stamen",
+  "qb": {
+    "q": "stamen",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Carl Linnaeus’s “sexual system” sorted plants into 24 classes based mainly on the number of these structures in each flower, with names such as Monandria for plants that have only one. His orders within those classes were based on counting pistils.",
+      "r": "Each of these structures has a pollen-making anther. For 10 points, name these male parts of a flower."
+    },
+    {
+      "p": "In the ABC model of plant development, B-class and C-class genes working together make these structures form in the third whorl of a flower. Agamous [“AG-uh-mus”] mutants of Arabidopsis [“uh-RAB-ih-DOP-sis”] grow petals in place of these structures.",
+      "r": "Each of these structures is made of a filament topped by an anther. For 10 points, name these male reproductive organs of flowers."
+    },
+    {
+      "p": "In hibiscus, hollyhocks, and other mallows, these structures are fused into a single tube that surrounds the style. Pea flowers usually have ten of them, with nine joined together and one left free.",
+      "r": "Together they make up the androecium, and each one ends in a pollen-making anther. For 10 points, name these male parts of a flower."
+    },
+    {
+      "p": "Plants in the mint family usually have four of these structures, two long and two short, while plants in the mustard family usually have six, four long and two short. Lilies and many other monocots usually have six of them, arranged in two rings of three.",
+      "r": "For 10 points, name these male organs of a flower, each of which holds up an anther on a filament."
+    },
+    {
+      "p": "Touching the base of these structures in a barberry makes them snap inward toward the center of the flower, dusting the visiting insect. In mountain laurel, these structures are bent back into little pockets in the petals and spring up to fling pollen when a bee lands.",
+      "r": "For 10 points, name these male parts of a flower, each made of an anther and a filament."
+    },
+    {
+      "p": "A nourishing layer of cells called the tapetum [“tuh-PEE-tum”] feeds the young pollen developing inside these structures. When the pollen is ripe, the pollen sacs at the top of each of these structures split open, a process called dehiscence [“dih-HISS-ens”].",
+      "r": "Those sacs sit in the anther. For 10 points, name these male flower parts, whose thin stalks are called filaments."
+    },
+    {
+      "p": "Blueberry versions of these structures release pollen only through tiny holes at their tips, so bumblebees shake the pollen loose by rapidly vibrating their flight muscles, a behavior called sonication or buzz pollination. Honey bees do not perform this trick.",
+      "r": "For 10 points, name these pollen-making male parts of a flower, each topped with an anther."
+    },
+    {
+      "p": "Florists often snip the pollen-covered tips off these structures in lilies so their pollen will not stain petals or clothing. Plant breeders, including Gregor Mendel with his peas, remove these structures from a flower before they ripen so the flower cannot pollinate itself.",
+      "r": "Their pollen must reach a pistil to make seeds. For 10 points, name these male flower parts, each tipped with an anther."
+    },
+    {
+      "p": "Many double-petaled roses and camellias get their extra petals when some of these structures develop as petals instead. Sterile versions of these structures, which make no pollen, can look like small scales or petals.",
+      "r": "For 10 points, name these male reproductive structures of flowers, which usually make pollen in anthers on top of filaments."
+    },
+    {
+      "p": "Inside these structures, cells called microsporocytes [“my-kroh-SPOR-uh-sytes”] undergo meiosis, and each one makes four microspores. Each microspore then divides by mitosis to form a pollen grain with a tube cell and a generative cell.",
+      "r": "This all happens in the anther at the tip of each of these structures. For 10 points, name these male parts of a flower."
+    },
+    {
+      "p": "In corn, the small flowers in the tassel have only these structures, while the flowers on the ear have only pistils, whose long styles form the silks. A flower that has both these structures and pistils is called “perfect.”",
+      "r": "For 10 points, name these male parts of flowers, each made of an anther and a filament."
+    },
+    {
+      "p": "Grasses and other wind-pollinated plants often hang these structures outside their small, plain flowers on long, thin stalks, so the breeze can shake pollen out of them. Ragweed plants release huge clouds of pollen from these structures in late summer.",
+      "r": "For 10 points, name these male parts of a flower, each made of an anther on a filament."
+    },
+    {
+      "p": "The name of these structures comes from the Latin word for a thread on a loom. All of them in a single flower make up a whorl whose name means “man’s house” in Greek, the androecium [“an-DREE-see-um”].",
+      "r": "They usually stand in a ring around the pistil. For 10 points, name these male flower parts that make pollen in their anthers."
+    },
+    {
+      "p": "In most orchids, a single one of these structures is fused with the style and stigma into a part called the column, and its pollen is packed into sticky bundles called pollinia [“puh-LIN-ee-uh”] that cling to visiting insects.",
+      "r": "For 10 points, name these male parts of a flower, each made of an anther on a filament."
+    },
+    {
+      "p": "The red “bristles” of bottlebrush plants and the fluffy pink puffs of the silk tree are made mostly of these structures, which in those plants are unusually long and brightly colored. Each one is tipped with a tiny, pollen-filled knob.",
+      "r": "For 10 points, name these male flower parts, each made of an anther on top of a filament."
+    }
+  ],
+  "clues": [
+    {
+      "id": "male-part",
+      "tier": "giveaway",
+      "t": "The male reproductive part of a flower",
+      "k": [
+        "male",
+        "reproductive"
+      ],
+      "n": 0,
+      "rabbit": "Flowers"
+    },
+    {
+      "id": "anther-filament",
+      "tier": "giveaway",
+      "t": "An anther, which makes pollen, held up on a thin stalk called a filament",
+      "k": [
+        "anther",
+        "filament",
+        "pollen"
+      ],
+      "n": 0,
+      "rabbit": "Pollen"
+    },
+    {
+      "id": "pistil",
+      "tier": "giveaway",
+      "t": "Its pollen must reach the sticky stigma of a pistil, the flower’s female part",
+      "k": [
+        "pistil",
+        "stigma",
+        "female"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ring",
+      "tier": "giveaway",
+      "t": "Usually stands in a ring around the pistil, just inside the petals",
+      "k": [
+        "ring",
+        "petals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bees",
+      "tier": "giveaway",
+      "t": "Bees brushing against it pick up pollen and carry it to the next flower",
+      "k": [
+        "bees",
+        "brushing"
+      ],
+      "n": 0,
+      "rabbit": "Honey bees"
+    },
+    {
+      "id": "androecium",
+      "tier": "middle",
+      "t": "All of them in one flower together form the androecium, Greek for “man’s house”",
+      "k": [
+        "androecium",
+        "greek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "perfect",
+      "tier": "middle",
+      "t": "A flower with both these and pistils is called “perfect”",
+      "k": [
+        "perfect"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corn-tassel",
+      "tier": "middle",
+      "t": "In corn, the flowers in the tassel have only these; the flowers on the ear have pistils whose styles form the silks",
+      "k": [
+        "tassel",
+        "corn",
+        "silks"
+      ],
+      "n": 0,
+      "rabbit": "Corn (maize)"
+    },
+    {
+      "id": "lilies-six",
+      "tier": "middle",
+      "t": "Lilies and many other monocots usually have six, in two rings of three",
+      "k": [
+        "lilies",
+        "monocots",
+        "six"
+      ],
+      "n": 0
+    },
+    {
+      "id": "breeders",
+      "tier": "middle",
+      "t": "Plant breeders remove them before they ripen so a flower cannot pollinate itself; Gregor Mendel did this with his peas",
+      "k": [
+        "breeders",
+        "gregor mendel",
+        "peas"
+      ],
+      "n": 0,
+      "rabbit": "Gregor Mendel"
+    },
+    {
+      "id": "florists",
+      "tier": "middle",
+      "t": "Florists snip their pollen-covered tips off lilies so the pollen won’t stain petals or clothing",
+      "k": [
+        "florists",
+        "stain",
+        "lilies"
+      ],
+      "n": 0
+    },
+    {
+      "id": "linnaeus",
+      "tier": "middle",
+      "t": "Carl Linnaeus sorted plants into classes mainly by counting these in each flower",
+      "k": [
+        "linnaeus",
+        "classes",
+        "counting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wind",
+      "tier": "middle",
+      "t": "Wind-pollinated plants such as grasses and ragweed hang them outside their plain flowers so the breeze shakes pollen loose",
+      "k": [
+        "wind-pollinated",
+        "grasses",
+        "ragweed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "latin-thread",
+      "tier": "power",
+      "t": "Its name comes from the Latin word for a thread on a loom",
+      "k": [
+        "latin",
+        "thread",
+        "loom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monandria",
+      "tier": "power",
+      "t": "Linnaeus’s “sexual system” had 24 classes, such as Monandria for plants with just one; his orders counted pistils",
+      "k": [
+        "sexual system",
+        "monandria",
+        "24 classes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abc-agamous",
+      "tier": "power",
+      "t": "ABC model: B-class and C-class genes together make them form in the third whorl; agamous mutants of Arabidopsis grow petals instead",
+      "k": [
+        "abc model",
+        "third whorl",
+        "agamous",
+        "arabidopsis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "double-petals",
+      "tier": "power",
+      "t": "Many double-petaled roses and camellias get extra petals when some of these develop as petals instead",
+      "k": [
+        "double-petaled",
+        "camellias",
+        "roses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sterile",
+      "tier": "power",
+      "t": "Sterile ones that make no pollen can look like small scales or petals",
+      "k": [
+        "sterile",
+        "scales"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mallows-peas",
+      "tier": "power",
+      "t": "Fused into one tube around the style in hibiscus, hollyhocks, and other mallows; pea flowers usually have ten, nine joined and one free",
+      "k": [
+        "hibiscus",
+        "mallows",
+        "tube",
+        "nine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mint-mustard",
+      "tier": "power",
+      "t": "Mint-family flowers usually have four (two long, two short); mustard-family flowers usually have six (four long, two short)",
+      "k": [
+        "mint",
+        "mustard",
+        "two long"
+      ],
+      "n": 0
+    },
+    {
+      "id": "barberry-laurel",
+      "tier": "power",
+      "t": "Barberry’s snap inward when touched; mountain laurel’s spring up from pockets in the petals to fling pollen",
+      "k": [
+        "barberry",
+        "mountain laurel",
+        "fling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tapetum",
+      "tier": "power",
+      "t": "A nourishing layer of cells called the tapetum feeds the young pollen inside",
+      "k": [
+        "tapetum",
+        "nourishing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dehiscence",
+      "tier": "power",
+      "t": "When the pollen is ripe, the pollen sacs split open, a process called dehiscence",
+      "k": [
+        "dehiscence",
+        "pollen sacs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blueberry-sonication",
+      "tier": "power",
+      "t": "Blueberry ones release pollen only through tiny holes at their tips, so bumblebees buzz it loose (sonication); honey bees do not",
+      "k": [
+        "blueberry",
+        "sonication",
+        "bumblebees"
+      ],
+      "n": 0
+    },
+    {
+      "id": "microsporocytes",
+      "tier": "power",
+      "t": "Inside, microsporocytes undergo meiosis to make four microspores each; each microspore becomes a pollen grain with a tube cell and a generative cell",
+      "k": [
+        "microsporocytes",
+        "meiosis",
+        "microspores"
+      ],
+      "n": 0,
+      "rabbit": "Meiosis"
+    },
+    {
+      "id": "orchid-column",
+      "tier": "power",
+      "t": "In most orchids, a single one is fused with the style and stigma into the column; its pollen is packed into sticky pollinia",
+      "k": [
+        "orchids",
+        "column",
+        "pollinia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bottlebrush",
+      "tier": "power",
+      "t": "The red “bristles” of bottlebrush plants and the pink puffs of the silk tree are mostly long, brightly colored ones",
+      "k": [
+        "bottlebrush",
+        "silk tree",
+        "bristles"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Whole stamen or anther?",
+    "body": "The anther is only the pollen-making tip of this structure, and the filament is only its stalk, so neither one earns credit when the question asks for the whole male organ. The pistil, or carpel, is the female part, and Pollen and Flowers are separate answer lines. All the stamens of one flower together are called the androecium, which only earns a prompt.",
+    "fix": "“This pollen-making sac” or “this tip” wants anther, and “this thin stalk” wants filament. “These male structures,” or anything built from both an anther and a filament, means stamen. Say “stamens” when the question says “these.”",
+    "line": "Real answer line: <b><u>Stamen</u></b> (accept <u>stamens</u>; prompt on <u>androecium</u>; do not accept “anther” or “filament”)"
+  },
+  "tests": {
+    "right": [
+      "Stamen",
+      "stamens",
+      "Stamin",
+      "the stamens"
+    ],
+    "prompt": [
+      "Androecium",
+      "male part"
+    ],
+    "wrong": [
+      "Anther",
+      "Filament",
+      "Pistil",
+      "Pollen",
+      "Stigma",
+      "Carpel"
+    ]
+  }
+}

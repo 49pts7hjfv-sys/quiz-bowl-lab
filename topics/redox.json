@@ -1,0 +1,484 @@
+{
+  "id": "redox",
+  "name": "Redox",
+  "mono": "RDX",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Electron-transfer reactions · Oxidation is loss, reduction is gain",
+  "dates": "Lavoisier’s oxygen theory of burning, 1770s; Nernst equation, 1889",
+  "briefing": "When iron rusts, a battery powers your phone, or a campfire burns, electrons are moving from one substance to another. Chemists call these redox reactions, short for reduction–oxidation: the substance that loses electrons is oxidized, and the one that gains them is reduced. Students remember the pair with “OIL RIG”: Oxidation Is Loss, Reduction Is Gain.",
+  "answerHtml": "<b><u>Redox</u></b> reactions (accept <u>oxidation–reduction</u> or <u>reduction–oxidation</u> reactions; prompt on <u>oxidation</u> or <u>reduction</u> alone)",
+  "accept": [
+    "redox",
+    "redox reaction",
+    "redox reactions",
+    "redox chemistry",
+    "oxidation reduction",
+    "oxidation reduction reaction",
+    "oxidation reduction reactions",
+    "reduction oxidation",
+    "reduction oxidation reaction",
+    "reduction oxidation reactions",
+    "oxidation and reduction",
+    "reduction and oxidation"
+  ],
+  "prompt": [
+    "oxidation",
+    "reduction",
+    "oxidation reaction",
+    "oxidation reactions",
+    "reduction reaction",
+    "reduction reactions",
+    "electron transfer",
+    "electron transfer reaction",
+    "electron transfer reactions"
+  ],
+  "reject": [
+    "oxidation number",
+    "oxidation numbers",
+    "oxidation state",
+    "oxidation states",
+    "reducing agent",
+    "reducing agents",
+    "oxidizing agent",
+    "oxidizing agents",
+    "oxidant",
+    "oxidants",
+    "reductant",
+    "reductants",
+    "half reaction",
+    "half reactions",
+    "redox titration",
+    "redox potential",
+    "redox potentials",
+    "reduction potential",
+    "standard reduction potential",
+    "electrode potential",
+    "disproportionation",
+    "combustion",
+    "rusting",
+    "rust",
+    "corrosion",
+    "electrolysis",
+    "electrochemistry",
+    "electrochemical cell",
+    "galvanic cell",
+    "voltaic cell",
+    "electrolytic cell",
+    "battery",
+    "batteries",
+    "acid base reaction",
+    "acid base reactions",
+    "neutralization",
+    "precipitation reaction",
+    "synthesis reaction",
+    "decomposition reaction",
+    "single replacement",
+    "single displacement",
+    "double replacement",
+    "photosynthesis",
+    "cellular respiration"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Redox",
+  "qb": {
+    "q": "redox",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Walther Nernst’s equation relates the voltage of a cell running one of these reactions to the concentrations of its reactants and products. Under standard conditions, that voltage equals the potential of the cathode’s half-reaction minus the potential of the anode’s half-reaction.",
+      "r": "Batteries use these reactions to push electrons through a circuit. For 10 points, name these reactions that pair an oxidation with a reduction."
+    },
+    {
+      "p": "Chemists assign exactly zero volts to the standard hydrogen electrode, the reference point for ranking the half-reactions of these reactions. In that ranking, fluorine gas has the most positive standard electrode potential, while lithium has the most negative.",
+      "r": "In these reactions, the substance that takes electrons is called the oxidizing agent. For 10 points, name these electron-transfer reactions."
+    },
+    {
+      "p": "In the thermite reaction, powdered aluminum pulls oxygen away from iron(III) oxide, releasing so much heat that the iron comes out molten and can weld railroad tracks together. In that reaction, aluminum gives up electrons while the iron ions take them.",
+      "r": "Rusting is a much slower example of these reactions. For 10 points, name these reactions, remembered with the phrase “LEO the lion says GER.”"
+    },
+    {
+      "p": "When hydrogen peroxide breaks down into water and oxygen gas, some of its oxygen atoms gain electrons while others lose them, a special case called disproportionation. Chemists track such changes by giving each atom a charge-like number that rises when the atom loses electrons.",
+      "r": "That number is called an oxidation state. For 10 points, name these reactions, summed up by the phrase “OIL RIG.”"
+    },
+    {
+      "p": "To balance one of these reactions in acidic solution by the half-reaction method, chemists add water molecules to balance oxygen atoms and hydrogen ions to balance hydrogen atoms. The two halves are then multiplied so that the number of electrons given up equals the number taken in.",
+      "r": "One half-reaction shows electrons being lost, and the other shows them being gained. For 10 points, name these electron-transfer reactions."
+    },
+    {
+      "p": "Purple permanganate ions turn nearly colorless when they take in electrons in acidic solution, so they act as their own indicator in titrations based on these reactions. Orange dichromate ions turn green when they are converted to chromium(III) ions in the same kind of reaction.",
+      "r": "A substance that takes electrons from another is called an oxidizing agent. For 10 points, name these reactions that combine an oxidation with a reduction."
+    },
+    {
+      "p": "Blocks of zinc or magnesium are bolted to steel ship hulls so that they corrode in place of the steel, a method called cathodic protection. Galvanized nails are coated with zinc for the same reason.",
+      "r": "Rusting, in which iron gives up electrons to oxygen, is an example of these reactions. For 10 points, name these electron-transfer reactions."
+    },
+    {
+      "p": "One half of these reactions takes its name from metalworking, where heating an ore with charcoal to free the metal left the ore lighter. The other half originally meant combining with oxygen, as when something burns.",
+      "r": "Modern chemists define these reactions by the movement of electrons. For 10 points, name these reactions, remembered with the phrase “OIL RIG.”"
+    },
+    {
+      "p": "When a strip of zinc is dipped into blue copper(II) sulfate solution, a reddish-brown coating of copper forms and the blue color fades, because zinc atoms hand electrons to the copper ions. The activity series ranks metals by how easily they give up electrons in reactions like this one.",
+      "r": "In that reaction, zinc is the reducing agent. For 10 points, name these reactions in which electrons are transferred."
+    },
+    {
+      "p": "Tarnished silver can be cleaned by setting it on aluminum foil in hot water with baking soda, because the aluminum gives up electrons that turn black silver sulfide back into shiny silver. That black tarnish formed when the silver reacted with sulfur compounds in the air.",
+      "r": "In these reactions, the substance that loses electrons is said to be oxidized. For 10 points, name these electron-transfer reactions."
+    },
+    {
+      "p": "In cellular respiration, the carrier molecule NAD⁺ picks up two electrons and a hydrogen ion to become NADH, and the electron transport chain finally hands electrons to oxygen. In photosynthesis, water gives up electrons and becomes oxygen gas.",
+      "r": "Both processes are chains of these reactions, which pair a loss of electrons with a gain. For 10 points, name these reactions."
+    },
+    {
+      "p": "For one of these reactions, multiplying the number of electrons moved by Faraday’s constant and by the standard cell voltage gives the negative of the standard Gibbs free energy change. So a positive standard cell voltage means that the reaction happens on its own.",
+      "r": "Galvanic cells, also called voltaic cells, use spontaneous examples of these reactions to make electricity. For 10 points, name these reactions."
+    },
+    {
+      "p": "The Hall–Héroult [“ay-ROO”] process makes aluminum by passing electricity through aluminum oxide dissolved in a molten mineral called cryolite, forcing one of these reactions that would never run on its own. Cells that need an outside power source like that are called electrolytic cells.",
+      "r": "In every electrochemical cell, electrons are lost at the anode and gained at the cathode. For 10 points, name these reactions."
+    },
+    {
+      "p": "Under the bookkeeping rules for these reactions, an uncombined element such as solid copper is assigned zero, and fluorine in a compound is always assigned negative one. Oxygen is usually given negative two, though it is negative one in peroxides.",
+      "r": "An atom’s oxidation number goes up when it loses electrons and down when it gains them. For 10 points, name these reactions."
+    },
+    {
+      "p": "Inside an alkaline battery, powdered zinc gives up electrons while manganese dioxide takes them in. A car’s lead-acid battery instead uses plates of lead and lead dioxide sitting in sulfuric acid.",
+      "r": "Batteries turn the energy of these reactions into electricity. For 10 points, name these reactions in which electrons pass from one substance to another."
+    }
+  ],
+  "clues": [
+    {
+      "id": "electron-transfer",
+      "tier": "giveaway",
+      "t": "Reactions in which electrons move from one substance to another",
+      "k": [
+        "electrons",
+        "move",
+        "substance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oil-rig",
+      "tier": "giveaway",
+      "t": "“OIL RIG”: Oxidation Is Loss of electrons, Reduction Is Gain",
+      "k": [
+        "oil rig",
+        "loss",
+        "gain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leo-ger",
+      "tier": "giveaway",
+      "t": "“LEO the lion says GER”: Lose Electrons, Oxidation; Gain Electrons, Reduction",
+      "k": [
+        "lion",
+        "leo",
+        "ger"
+      ],
+      "n": 0
+    },
+    {
+      "id": "everyday",
+      "tier": "giveaway",
+      "t": "Everyday examples: rusting, burning, and the reactions inside batteries",
+      "k": [
+        "rusting",
+        "burning",
+        "batteries"
+      ],
+      "n": 0
+    },
+    {
+      "id": "agents",
+      "tier": "middle",
+      "t": "The oxidizing agent takes electrons and is reduced; the reducing agent gives up electrons and is oxidized",
+      "k": [
+        "oxidizing agent",
+        "reducing agent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anode-cathode",
+      "tier": "middle",
+      "t": "In electrochemical cells, oxidation happens at the anode and reduction at the cathode (“An Ox, Red Cat”)",
+      "k": [
+        "anode",
+        "cathode",
+        "red cat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galvanic-electrolytic",
+      "tier": "middle",
+      "t": "Galvanic (voltaic) cells use spontaneous ones to make electricity; electrolytic cells use electricity to force them",
+      "k": [
+        "galvanic",
+        "voltaic",
+        "electrolytic"
+      ],
+      "n": 0,
+      "rabbit": "Electrolysis"
+    },
+    {
+      "id": "oxidation-numbers",
+      "tier": "middle",
+      "t": "An atom’s oxidation number rises when it loses electrons and falls when it gains them",
+      "k": [
+        "oxidation number",
+        "rises",
+        "falls"
+      ],
+      "n": 0
+    },
+    {
+      "id": "half-reactions",
+      "tier": "middle",
+      "t": "Written as two half-reactions, balanced so the electrons lost equal the electrons gained",
+      "k": [
+        "half-reactions",
+        "balanced"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rusting",
+      "tier": "middle",
+      "t": "Rusting: iron gives up electrons to oxygen; galvanizing steel with a zinc coating protects it",
+      "k": [
+        "rusting",
+        "galvanizing",
+        "zinc"
+      ],
+      "n": 0,
+      "rabbit": "Iron"
+    },
+    {
+      "id": "activity-series",
+      "tier": "middle",
+      "t": "Zinc dipped in blue copper(II) sulfate gets coated with copper as the blue fades; the activity series ranks metals by how easily they give up electrons",
+      "k": [
+        "activity series",
+        "copper",
+        "zinc"
+      ],
+      "n": 0
+    },
+    {
+      "id": "biology",
+      "tier": "middle",
+      "t": "Cellular respiration and photosynthesis run on them; NAD⁺ picks up electrons to become NADH",
+      "k": [
+        "respiration",
+        "photosynthesis",
+        "nadh"
+      ],
+      "n": 0,
+      "rabbit": "Photosynthesis"
+    },
+    {
+      "id": "old-meanings",
+      "tier": "middle",
+      "t": "Oxidation first meant combining with oxygen; reduction meant getting a metal out of its ore, which left the ore lighter",
+      "k": [
+        "combining with oxygen",
+        "ore",
+        "lighter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nernst",
+      "tier": "power",
+      "t": "The Nernst equation relates a cell’s voltage to the concentrations of its reactants and products",
+      "k": [
+        "nernst",
+        "voltage",
+        "concentrations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydrogen-electrode",
+      "tier": "power",
+      "t": "Electrode potentials are measured against the standard hydrogen electrode, set at exactly 0 volts",
+      "k": [
+        "standard hydrogen electrode",
+        "0 volts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fluorine-lithium",
+      "tier": "power",
+      "t": "Fluorine has the most positive standard electrode potential; lithium has the most negative",
+      "k": [
+        "fluorine",
+        "lithium",
+        "most positive"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faraday",
+      "tier": "power",
+      "t": "ΔG° = −nFE°: Faraday’s constant links cell voltage to Gibbs free energy, so a positive voltage means the reaction is spontaneous",
+      "k": [
+        "faraday",
+        "gibbs",
+        "spontaneous"
+      ],
+      "n": 0,
+      "rabbit": "Gibbs free energy"
+    },
+    {
+      "id": "thermite",
+      "tier": "power",
+      "t": "Thermite: aluminum takes oxygen from iron(III) oxide, making molten iron that can weld railroad tracks",
+      "k": [
+        "thermite",
+        "aluminum",
+        "railroad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "disproportionation",
+      "tier": "power",
+      "t": "Disproportionation: one element is both oxidized and reduced, as when hydrogen peroxide breaks down into water and oxygen",
+      "k": [
+        "disproportionation",
+        "hydrogen peroxide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "balancing-acid",
+      "tier": "power",
+      "t": "Balancing in acid: add water to balance oxygen, H⁺ ions to balance hydrogen, then electrons to balance charge",
+      "k": [
+        "balancing",
+        "acid",
+        "charge"
+      ],
+      "n": 0
+    },
+    {
+      "id": "permanganate",
+      "tier": "power",
+      "t": "Purple permanganate turns nearly colorless as it takes in electrons, so it is its own indicator in titrations",
+      "k": [
+        "permanganate",
+        "purple",
+        "indicator"
+      ],
+      "n": 0,
+      "rabbit": "Titration"
+    },
+    {
+      "id": "dichromate",
+      "tier": "power",
+      "t": "Orange dichromate turns green when it is converted to chromium(III) ions",
+      "k": [
+        "dichromate",
+        "orange",
+        "green"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sacrificial",
+      "tier": "power",
+      "t": "Sacrificial blocks of zinc or magnesium on ship hulls corrode in place of the steel (cathodic protection)",
+      "k": [
+        "sacrificial",
+        "ship hulls",
+        "cathodic protection"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hall-heroult",
+      "tier": "power",
+      "t": "The Hall–Héroult process makes aluminum by passing electricity through aluminum oxide dissolved in molten cryolite",
+      "k": [
+        "hall",
+        "héroult",
+        "cryolite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "silver-tarnish",
+      "tier": "power",
+      "t": "Tarnished silver on aluminum foil in hot water with baking soda turns shiny again as the aluminum gives up electrons",
+      "k": [
+        "tarnished silver",
+        "aluminum foil",
+        "baking soda"
+      ],
+      "n": 0
+    },
+    {
+      "id": "batteries",
+      "tier": "power",
+      "t": "Alkaline batteries: zinc gives up electrons and manganese dioxide takes them; car batteries use lead and lead dioxide",
+      "k": [
+        "alkaline",
+        "manganese dioxide",
+        "lead dioxide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "number-rules",
+      "tier": "power",
+      "t": "Bookkeeping rules: an uncombined element is assigned 0, fluorine in a compound is always −1, and oxygen is usually −2 (−1 in peroxides)",
+      "k": [
+        "uncombined",
+        "fluorine",
+        "peroxides"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Whole pair or one half?",
+    "body": "These reactions always pair two halves: oxidation, the loss of electrons, and reduction, the gain of electrons. Some tossups ask for just one half, so their answer is “reduction” or “oxidation” alone, not the whole pair. On a tossup about the whole pair, saying only one half earns a prompt, so be ready to say “redox” or “oxidation–reduction.”",
+    "fix": "Listen for what the question describes. “These reactions,” the Nernst equation, batteries, or “OIL RIG” mean the whole pair; a process of gaining electrons, happening at the cathode, or lowering an oxidation number means reduction, while losing electrons at the anode means oxidation.",
+    "line": "Real answer line: <b><u>Redox</u></b> reactions (accept <u>oxidation–reduction</u> reactions; prompt on <u>oxidation</u> or <u>reduction</u> alone)"
+  },
+  "tests": {
+    "right": [
+      "Redox",
+      "redox reactions",
+      "Oxidation-reduction",
+      "Reduction–oxidation reaction",
+      "oxidation-reducton"
+    ],
+    "prompt": [
+      "Oxidation",
+      "Reduction"
+    ],
+    "wrong": [
+      "Oxidation number",
+      "Electrolysis",
+      "Reducing agent",
+      "Combustion",
+      "Half-reaction",
+      "Acid-base reaction",
+      "Rusting"
+    ]
+  }
+}

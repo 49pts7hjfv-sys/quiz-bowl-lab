@@ -1,0 +1,448 @@
+{
+  "id": "titanium",
+  "name": "Titanium",
+  "mono": "TI",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 22, strong as steel but far lighter · Named for the Titans",
+  "dates": "Discovered 1791; named 1795",
+  "briefing": "Titanium is a silvery metal as strong as many steels but only a little more than half as dense, which makes it perfect for jet engines, spacecraft, and racing bikes. A thin coat of oxide keeps it from corroding, and the body tolerates it well, so it is a top choice for artificial hips and dental implants. Its white dioxide brightens paint, toothpaste, and sunscreen, and the element itself is named for the Titans of Greek myth.",
+  "answerHtml": "<b><u>Titanium</u></b> (accept <u>Ti</u>; do not accept “titanium dioxide”)",
+  "accept": [
+    "titanium",
+    "ti",
+    "element 22",
+    "element twenty two",
+    "titanium metal"
+  ],
+  "prompt": [],
+  "reject": [
+    "titanium dioxide",
+    "titanium oxide",
+    "titanium iv oxide",
+    "titania",
+    "tio2",
+    "titanium tetrachloride",
+    "titanium chloride",
+    "ticl4",
+    "titanium nitride",
+    "titanium white",
+    "titanium alloy",
+    "titanium alloys",
+    "nitinol",
+    "rutile",
+    "ilmenite",
+    "titanite",
+    "titan",
+    "titans",
+    "titan moon",
+    "titanic",
+    "zirconium",
+    "hafnium",
+    "vanadium",
+    "scandium",
+    "chromium",
+    "aluminum",
+    "aluminium",
+    "magnesium",
+    "tungsten",
+    "tantalum",
+    "thallium",
+    "uranium",
+    "tin",
+    "iron",
+    "steel",
+    "nickel"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Titanium",
+  "qb": {
+    "q": "titanium",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "William Gregor, a clergyman in Cornwall, England, found this element in 1791 in a black sand that also contained iron. Martin Heinrich Klaproth [“KLAHP-roht”] found it again in the mineral rutile and gave it its name in 1795.",
+      "r": "Klaproth named it for the Titans of Greek mythology. For 10 points, name this transition metal with atomic number 22."
+    },
+    {
+      "p": "In the Kroll process, this element’s tetrachloride is heated with molten magnesium, producing a porous form of the metal called “sponge.” That process, developed by William Kroll around 1940, became the main way to make this metal.",
+      "r": "Strong, light alloys of this metal are used in jet engines and airplane frames. For 10 points, name this element with atomic number 22."
+    },
+    {
+      "p": "A colorless liquid compound of this element, nicknamed “tickle,” fumes in moist air to form thick white clouds, so it has been used to make smoke screens and skywriting. That compound, a tetrachloride, is also the starting material for making the pure metal.",
+      "r": "This element’s white dioxide is used in paint and sunscreen. For 10 points, name this metal named for the Titans."
+    },
+    {
+      "p": "Karl Ziegler and Giulio Natta shared the 1963 Nobel Prize in Chemistry for catalysts made from chlorides of this element and aluminum compounds, which link small molecules into plastics such as polypropylene. This metal’s most common alloy contains 6 percent aluminum and 4 percent vanadium.",
+      "r": "It sits just above zirconium on the periodic table. For 10 points, name this group 4 transition metal with atomic number 22."
+    },
+    {
+      "p": "The Lockheed SR-71 Blackbird spy plane was built mostly from this metal, some of it secretly bought from the Soviet Union, because aluminum would have weakened in the heat of flying more than three times the speed of sound.",
+      "r": "Golf clubs and bicycle frames are also made of this light, strong metal. For 10 points, name this element with atomic number 22."
+    },
+    {
+      "p": "Per-Ingvar Brånemark [“BROH-neh-mark”] discovered that living bone grows tightly onto this metal, a process he named osseointegration [“OSS-ee-oh-in-teh-GRAY-shun”], which led to modern dental implants. A thin layer of oxide keeps this metal from corroding inside the body.",
+      "r": "Artificial hips and knees are often made of it. For 10 points, name this strong, light element with atomic number 22."
+    },
+    {
+      "p": "In 1972, Akira Fujishima and Kenichi Honda shone ultraviolet light on an electrode made of this element’s dioxide to split water, launching research into the kind of photocatalysts used in self-cleaning windows.",
+      "r": "That white dioxide also blocks ultraviolet light in many sunscreens. For 10 points, name this metal named for the Titans of Greek myth."
+    },
+    {
+      "p": "Nitinol, a “shape-memory” alloy that springs back to its original shape when warmed, combines nickel with this element, and its name comes from the Naval Ordnance Laboratory where it was developed. Thin, springy nitinol wires are used in dental braces and medical stents.",
+      "r": "For 10 points, name this element with atomic number 22, a light, strong transition metal named for the Titans."
+    },
+    {
+      "p": "This element is mined mainly from the minerals ilmenite [“ILL-meh-nite”], which also contains iron, and rutile [“ROO-teel”], which is this element’s dioxide. It is the ninth most abundant element in Earth’s crust.",
+      "r": "A thin oxide layer protects this metal from corrosion. For 10 points, name this transition metal with atomic number 22."
+    },
+    {
+      "p": "A hard, gold-colored nitride of this element coats drill bits and other cutting tools so they last longer. This element’s most stable compounds have it in the +4 oxidation state, as in its dioxide.",
+      "r": "This metal sits between scandium and vanadium on the periodic table. For 10 points, name this element with atomic number 22."
+    },
+    {
+      "p": "Matthew Hunter of Rensselaer Polytechnic Institute first made this metal in a nearly pure form in 1910 by heating its tetrachloride with sodium. Pure samples of this metal are hard to make because, when hot, it reacts with both the oxygen and the nitrogen in air.",
+      "r": "This metal’s alloys are as strong as many steels but much less dense. For 10 points, name this element named for the Titans."
+    },
+    {
+      "p": "The Soviet Union built its fast, deep-diving Alfa-class submarines with hulls made of this metal’s alloys, which are strong, light, and resist corrosion by seawater. This element sits above zirconium and hafnium in group 4 of the periodic table.",
+      "r": "For 10 points, name this light, strong metal with atomic number 22, named for the Titans of Greek myth."
+    },
+    {
+      "p": "Frank Gehry’s Guggenheim Museum Bilbao [“bil-BAH-oh”] in Spain is covered with thousands of thin, shiny panels of this metal. This metal is also used for eyeglass frames and watches because it is light and does not corrode easily.",
+      "r": "Its white dioxide is the pigment in many paints. For 10 points, name this element with atomic number 22."
+    },
+    {
+      "p": "In the 1900s, artists began replacing poisonous lead white with a white paint made from this element’s dioxide. That dioxide became the most widely used white pigment, found in house paint, paper, and toothpaste.",
+      "r": "It also blocks ultraviolet light in mineral sunscreens. For 10 points, name this metal named for the Titans."
+    },
+    {
+      "p": "This metal has a density of about 4.5 grams per cubic centimeter, only a little more than half that of steel, yet its alloys can be just as strong. Its melting point, about 1,670 degrees Celsius, is higher than iron’s.",
+      "r": "Jet engines, spacecraft, and racing bikes use this light, strong metal. For 10 points, name this element with atomic number 22."
+    }
+  ],
+  "clues": [
+    {
+      "id": "atomic-22",
+      "tier": "giveaway",
+      "t": "Element with atomic number 22, a transition metal",
+      "k": [
+        "atomic number 22",
+        "transition metal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "titans",
+      "tier": "giveaway",
+      "t": "Named for the Titans of Greek mythology",
+      "k": [
+        "titans",
+        "greek mythology"
+      ],
+      "n": 0,
+      "rabbit": "Titans"
+    },
+    {
+      "id": "strong-light",
+      "tier": "giveaway",
+      "t": "As strong as many steels but much less dense, so it is used in aircraft, jet engines, and spacecraft",
+      "k": [
+        "aircraft",
+        "jet engines",
+        "less dense"
+      ],
+      "n": 0
+    },
+    {
+      "id": "implants",
+      "tier": "giveaway",
+      "t": "Used for artificial hips, knees, and dental implants because it resists corrosion and the body tolerates it",
+      "k": [
+        "hips",
+        "dental implants",
+        "corrosion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dioxide",
+      "tier": "middle",
+      "t": "Its dioxide is the most widely used white pigment (paint, paper, toothpaste) and blocks ultraviolet light in sunscreen",
+      "k": [
+        "dioxide",
+        "white pigment",
+        "sunscreen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oxide-layer",
+      "tier": "middle",
+      "t": "A thin oxide layer on its surface protects it from corrosion",
+      "k": [
+        "oxide layer",
+        "corrosion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "group-4",
+      "tier": "middle",
+      "t": "In group 4 with zirconium and hafnium, between scandium and vanadium; its most stable oxidation state is +4",
+      "k": [
+        "group 4",
+        "zirconium",
+        "hafnium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ores",
+      "tier": "middle",
+      "t": "Its main ores are rutile (its dioxide) and ilmenite (which also contains iron)",
+      "k": [
+        "rutile",
+        "ilmenite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abundance",
+      "tier": "middle",
+      "t": "The ninth most abundant element in Earth’s crust",
+      "k": [
+        "ninth",
+        "crust"
+      ],
+      "n": 0
+    },
+    {
+      "id": "everyday",
+      "tier": "middle",
+      "t": "Used in golf clubs, bicycle frames, eyeglass frames, and watches",
+      "k": [
+        "golf clubs",
+        "bicycle frames",
+        "eyeglass"
+      ],
+      "n": 0
+    },
+    {
+      "id": "density",
+      "tier": "middle",
+      "t": "Density about 4.5 grams per cubic centimeter, a little more than half that of steel; melts near 1,670 °C",
+      "k": [
+        "half",
+        "4.5",
+        "1,670"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lead-white",
+      "tier": "middle",
+      "t": "Paint made from its white dioxide replaced poisonous lead white in the 1900s",
+      "k": [
+        "lead white",
+        "paint"
+      ],
+      "n": 0,
+      "rabbit": "Lead (element)"
+    },
+    {
+      "id": "nitride",
+      "tier": "middle",
+      "t": "Its hard, gold-colored nitride coats drill bits and other cutting tools",
+      "k": [
+        "nitride",
+        "gold-colored",
+        "drill bits"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gregor",
+      "tier": "power",
+      "t": "William Gregor found it in 1791 in black sand from Cornwall, England",
+      "k": [
+        "gregor",
+        "1791",
+        "cornwall"
+      ],
+      "n": 0
+    },
+    {
+      "id": "klaproth",
+      "tier": "power",
+      "t": "Martin Heinrich Klaproth found it in rutile and named it in 1795",
+      "k": [
+        "klaproth",
+        "1795"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hunter",
+      "tier": "power",
+      "t": "Matthew Hunter first made it nearly pure in 1910 by heating its tetrachloride with sodium",
+      "k": [
+        "hunter",
+        "1910",
+        "sodium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kroll",
+      "tier": "power",
+      "t": "Kroll process: its tetrachloride is heated with molten magnesium, making a porous metal called “sponge”",
+      "k": [
+        "kroll",
+        "magnesium",
+        "sponge"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tickle",
+      "tier": "power",
+      "t": "Its tetrachloride, nicknamed “tickle,” fumes in moist air and has been used for smoke screens and skywriting",
+      "k": [
+        "tickle",
+        "smoke screens",
+        "skywriting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ziegler-natta",
+      "tier": "power",
+      "t": "Ziegler–Natta catalysts, honored with the 1963 Nobel Prize, use its chlorides to make plastics like polypropylene",
+      "k": [
+        "ziegler",
+        "natta",
+        "polypropylene"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fujishima",
+      "tier": "power",
+      "t": "In 1972, Fujishima and Honda split water with light shining on its dioxide, leading to self-cleaning windows",
+      "k": [
+        "fujishima",
+        "honda",
+        "self-cleaning"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sr-71",
+      "tier": "power",
+      "t": "The SR-71 Blackbird spy plane was built mostly of it, some of it secretly bought from the Soviet Union",
+      "k": [
+        "sr-71",
+        "blackbird",
+        "soviet union"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bilbao",
+      "tier": "power",
+      "t": "Thin panels of it cover Frank Gehry’s Guggenheim Museum Bilbao in Spain",
+      "k": [
+        "gehry",
+        "guggenheim",
+        "bilbao"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alfa",
+      "tier": "power",
+      "t": "Soviet Alfa-class submarines had hulls made of its alloys",
+      "k": [
+        "alfa-class",
+        "submarines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "branemark",
+      "tier": "power",
+      "t": "Per-Ingvar Brånemark discovered osseointegration, in which living bone grows tightly onto it",
+      "k": [
+        "brånemark",
+        "osseointegration"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nitinol",
+      "tier": "power",
+      "t": "Nitinol, a shape-memory alloy of nickel named for the Naval Ordnance Laboratory, is used in braces and stents",
+      "k": [
+        "nitinol",
+        "shape-memory",
+        "naval ordnance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alloy-6-4",
+      "tier": "power",
+      "t": "Its most common alloy contains 6 percent aluminum and 4 percent vanadium",
+      "k": [
+        "aluminum",
+        "vanadium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reactive-hot",
+      "tier": "power",
+      "t": "When hot, it reacts with both oxygen and nitrogen in air, so the pure metal is hard to make",
+      "k": [
+        "oxygen",
+        "nitrogen",
+        "hard to make"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Element, not its compound",
+    "body": "Many clues for this element are really about its compounds: the white dioxide in paint and sunscreen, the fuming tetrachloride nicknamed “tickle,” and the gold-colored nitride on drill bits. Answering with a compound, such as “titanium dioxide,” is wrong when the question asks for the element. The element’s name comes from the Titans, but Saturn’s moon Titan and the mythological Titans are separate answer lines.",
+    "fix": "Listen for “this element” or “this metal” and give just the element’s name. Only answer with a compound if the question says “this compound” or “this pigment.”",
+    "line": "Real answer line: <b><u>Titanium</u></b> (accept <u>Ti</u>; do not accept “titanium dioxide”)"
+  },
+  "tests": {
+    "right": [
+      "Titanium",
+      "Ti",
+      "titainum",
+      "Element 22",
+      "titanium metal"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Titanium dioxide",
+      "Zirconium",
+      "Titan",
+      "Titanic",
+      "Vanadium",
+      "Aluminum",
+      "Rutile",
+      "Nitinol"
+    ]
+  }
+}

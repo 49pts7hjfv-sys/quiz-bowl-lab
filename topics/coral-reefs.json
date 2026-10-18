@@ -1,0 +1,456 @@
+{
+  "id": "coral-reefs",
+  "name": "Coral reefs",
+  "mono": "CR",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Ocean structures built by coral polyps · The “rainforests of the sea”",
+  "dates": "Found in warm, shallow tropical seas",
+  "briefing": "Coral reefs look like rocky gardens, but they are built by animals: tiny coral polyps, cousins of jellyfish, that stack up limestone skeletons over thousands of years. Algae living inside the polyps feed them and give them color, so reefs grow best in warm, shallow, sunny water. Reefs cover less than 1 percent of the ocean floor, yet about a quarter of all ocean species live on or around them.",
+  "answerHtml": "<b><u>Coral reefs</u></b> (accept <u>coral reef</u> ecosystems; prompt on <u>reefs</u> or <u>corals</u>; do not accept “atolls” or “Great Barrier Reef”)",
+  "accept": [
+    "coral reefs",
+    "coral reef",
+    "coral reef ecosystem",
+    "coral reef ecosystems",
+    "reefs of coral"
+  ],
+  "prompt": [
+    "reefs",
+    "reef",
+    "corals",
+    "coral",
+    "reef ecosystem",
+    "reef ecosystems"
+  ],
+  "reject": [
+    "atolls",
+    "atoll",
+    "great barrier reef",
+    "coral bleaching",
+    "bleaching",
+    "coral polyps",
+    "coral polyp",
+    "polyps",
+    "polyp",
+    "cnidarians",
+    "cnidaria",
+    "anthozoa",
+    "anthozoans",
+    "zooxanthellae",
+    "sea anemones",
+    "jellyfish",
+    "kelp forests",
+    "kelp forest",
+    "kelp",
+    "seagrass",
+    "mangroves",
+    "mangrove",
+    "lagoon",
+    "lagoons",
+    "estuary",
+    "sponges",
+    "oyster reef",
+    "oyster reefs",
+    "limestone",
+    "calcium carbonate"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Coral_reef",
+  "qb": {
+    "q": "coral reef",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Drilling at Enewetak [“EN-ih-WEE-tok”] Atoll in 1952 hit volcanic rock more than a kilometer down, confirming Charles Darwin’s idea that ring-shaped versions of these structures grow upward around slowly sinking volcanic islands.",
+      "r": "Tiny polyps build these structures out of calcium carbonate. For 10 points, name these ocean ecosystems, the largest of which is the Great Barrier Reef."
+    },
+    {
+      "p": "Charles Darwin studied ring-shaped examples of these structures at the Cocos, or Keeling, Islands in 1836 during the voyage of the _Beagle_. His 1842 book sorted these structures into fringing, barrier, and atoll types.",
+      "r": "These structures are built by colonies of coral polyps. For 10 points, name these underwater ecosystems found in warm, shallow tropical seas."
+    },
+    {
+      "p": "Many of the animals that build these structures release their eggs and sperm all at once on a few nights after a full moon, a mass spawning that clouds the water like an underwater snowstorm. The timing is set partly by water temperature and moonlight.",
+      "r": "Those animals are coral polyps, which get most of their food from algae living in their tissues. For 10 points, name these underwater structures, such as the Great Barrier Reef."
+    },
+    {
+      "p": "Red algae that lay down their own limestone help cement these structures together. Parrotfish bite off and grind up chunks of these structures, turning them into much of the white sand on nearby beaches.",
+      "r": "For 10 points, name these underwater structures built by tiny coral polyps, nicknamed the “rainforests of the sea.”"
+    },
+    {
+      "p": "A few animals that build these structures live in cold, dark water off Norway, but most depend on sunlight because they host dinoflagellates [“dy-noh-FLAJ-uh-lits”] called zooxanthellae [“zoh-uh-zan-THEL-ee”] inside their tissues. Without those partners, the builders slowly starve.",
+      "r": "Hot water can make the builders expel those partners and turn white, called bleaching. For 10 points, name these tropical ocean structures built by coral polyps."
+    },
+    {
+      "p": "The Mesoamerican system of these structures, which runs along the coast of Belize, is the largest in the Western Hemisphere. Divers explore a giant underwater sinkhole called the Great Blue Hole inside it.",
+      "r": "For 10 points, name these ocean ecosystems, including the Great Barrier Reef, that are built by tiny animals called coral polyps."
+    },
+    {
+      "p": "Elkhorn and staghorn kinds of the animals that build these structures were listed as threatened in 2006, after disease wiped out most of them in the Caribbean. Their antler-shaped colonies grow in shallow water, where they help break up storm waves.",
+      "r": "Ocean acidification makes it harder for those animals to build their calcium carbonate skeletons. For 10 points, name these underwater structures built by coral polyps."
+    },
+    {
+      "p": "Whale sharks gather each year at Ningaloo, a fringing example of these structures that lies close to the shore of Western Australia. Along the Florida Keys lies the only living barrier-type example of these structures in the continental United States.",
+      "r": "In 1981, the largest of these structures, the Great Barrier Reef, became a UNESCO World Heritage Site. For 10 points, name these ecosystems built by coral polyps."
+    },
+    {
+      "p": "The tiny animals that build these structures often stretch out tentacles at night to catch plankton, stinging their prey with cells called nematocysts [“nih-MAT-uh-sists”]. Those builders are cnidarians, related to jellyfish and sea anemones.",
+      "r": "For 10 points, name these underwater structures, such as the Great Barrier Reef, built from calcium carbonate."
+    },
+    {
+      "p": "These ecosystems cover less than 1 percent of the ocean floor but shelter about a quarter of all ocean species. A region around Indonesia, the Philippines, and Papua New Guinea holds more kinds of their builders than anywhere else.",
+      "r": "For 10 points, name these underwater ecosystems built by coral polyps and nicknamed the “rainforests of the sea.”"
+    },
+    {
+      "p": "Crown-of-thorns starfish have destroyed large areas of these structures by climbing onto their builders and digesting them. Carbon dioxide dissolving in seawater also makes it harder for those builders to make their skeletons.",
+      "r": "Clownfish in the film _Finding Nemo_ live in one of these structures. For 10 points, name these underwater ecosystems built by coral polyps."
+    },
+    {
+      "p": "Dinoflagellates long grouped in the genus Symbiodinium [“sim-bee-oh-DIN-ee-um”] live inside the animals that build these structures and give them most of their food and color, a partnership called mutualism. Those partners pass along sugars made by photosynthesis in exchange for shelter and nutrients.",
+      "r": "Hot water can make the builders expel those partners and turn white. For 10 points, name these ocean structures, the largest of which lies off Australia."
+    },
+    {
+      "p": "Fringing examples of these structures grow right along a shore, while barrier examples are separated from land by a lagoon. A third type, the atoll, forms a ring around a lagoon after the island in the middle sinks away.",
+      "r": "For 10 points, name these underwater structures built by colonies of coral polyps in warm, shallow seas."
+    },
+    {
+      "p": "Each tiny animal that builds these structures pulls calcium and carbonate from seawater to make a cup-shaped limestone skeleton, and new ones grow on top of old ones. Many ancient layers of limestone rock began as these structures.",
+      "r": "For 10 points, name these ocean structures, such as the Great Barrier Reef, that grow in warm, shallow, sunlit water."
+    },
+    {
+      "p": "Sea fans, sea whips, and brain-shaped colonies grow on these structures, which also shelter sea turtles, moray eels, and giant clams. Those giant clams, like the builders of these structures, keep algae in their tissues.",
+      "r": "Polyps build these structures in warm, shallow, sunlit water. For 10 points, name these ecosystems, the largest of which is the Great Barrier Reef."
+    }
+  ],
+  "clues": [
+    {
+      "id": "polyps-build",
+      "tier": "giveaway",
+      "t": "Built by colonies of tiny coral polyps that make hard calcium carbonate (limestone) skeletons",
+      "k": [
+        "polyps",
+        "calcium carbonate",
+        "colonies"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-barrier",
+      "tier": "giveaway",
+      "t": "The largest is the Great Barrier Reef off Queensland, Australia",
+      "k": [
+        "great barrier",
+        "queensland",
+        "australia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rainforests-of-sea",
+      "tier": "giveaway",
+      "t": "Nicknamed the “rainforests of the sea” for their huge variety of life",
+      "k": [
+        "rainforests of the sea",
+        "variety"
+      ],
+      "n": 0
+    },
+    {
+      "id": "warm-shallow",
+      "tier": "giveaway",
+      "t": "Grow best in warm, shallow, clear, sunlit tropical seas",
+      "k": [
+        "tropical",
+        "shallow",
+        "warm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bleaching",
+      "tier": "giveaway",
+      "t": "Threatened by bleaching: stressed by hot water, the polyps expel their algae and turn white",
+      "k": [
+        "bleaching",
+        "white",
+        "hot water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zooxanthellae",
+      "tier": "middle",
+      "t": "The polyps get most of their food and color from algae called zooxanthellae living in their tissues, a mutualism",
+      "k": [
+        "zooxanthellae",
+        "algae",
+        "mutualism"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-types",
+      "tier": "middle",
+      "t": "Three main types: fringing (along the shore), barrier (behind a lagoon), and ring-shaped atolls",
+      "k": [
+        "fringing",
+        "barrier",
+        "atolls",
+        "lagoon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "darwin",
+      "tier": "middle",
+      "t": "Charles Darwin’s 1842 book explained that atolls form as they grow upward around slowly sinking volcanic islands",
+      "k": [
+        "darwin",
+        "1842",
+        "sinking"
+      ],
+      "n": 0,
+      "rabbit": "Charles Darwin"
+    },
+    {
+      "id": "cnidarians",
+      "tier": "middle",
+      "t": "The builders are cnidarians, related to jellyfish and sea anemones, and sting prey with cells called nematocysts",
+      "k": [
+        "cnidarians",
+        "jellyfish",
+        "nematocysts"
+      ],
+      "n": 0,
+      "rabbit": "Cnidarians"
+    },
+    {
+      "id": "acidification",
+      "tier": "middle",
+      "t": "Ocean acidification from dissolved carbon dioxide makes it harder for polyps to build skeletons",
+      "k": [
+        "acidification",
+        "carbon dioxide"
+      ],
+      "n": 0,
+      "rabbit": "Carbon dioxide"
+    },
+    {
+      "id": "crown-of-thorns",
+      "tier": "middle",
+      "t": "The crown-of-thorns starfish eats the polyps and has destroyed large areas of them",
+      "k": [
+        "crown-of-thorns",
+        "starfish"
+      ],
+      "n": 0,
+      "rabbit": "Echinoderms"
+    },
+    {
+      "id": "quarter-of-species",
+      "tier": "middle",
+      "t": "Cover less than 1 percent of the ocean floor but shelter about a quarter of all ocean species",
+      "k": [
+        "quarter",
+        "ocean floor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parrotfish",
+      "tier": "middle",
+      "t": "Parrotfish grind up their hard parts and turn them into much of the white sand on nearby beaches",
+      "k": [
+        "parrotfish",
+        "sand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "finding-nemo",
+      "tier": "middle",
+      "t": "Clownfish shelter in sea anemones there; _Finding Nemo_ is set partly on the Great Barrier Reef",
+      "k": [
+        "clownfish",
+        "finding nemo",
+        "sea anemones"
+      ],
+      "n": 0
+    },
+    {
+      "id": "enewetak",
+      "tier": "power",
+      "t": "Drilling at Enewetak Atoll in 1952 hit volcanic rock more than a kilometer down, confirming Darwin’s idea",
+      "k": [
+        "enewetak",
+        "1952",
+        "drilling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cocos-keeling",
+      "tier": "power",
+      "t": "Darwin studied atolls at the Cocos (Keeling) Islands in 1836 during the voyage of the _Beagle_",
+      "k": [
+        "cocos",
+        "keeling",
+        "beagle",
+        "1836"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mass-spawning",
+      "tier": "power",
+      "t": "Many polyps release eggs and sperm all at once on a few nights after a full moon, a mass spawning",
+      "k": [
+        "mass spawning",
+        "full moon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "red-algae-cement",
+      "tier": "power",
+      "t": "Red coralline algae, which make their own limestone, help cement them together",
+      "k": [
+        "coralline algae",
+        "cement",
+        "red"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cold-water",
+      "tier": "power",
+      "t": "A few reef-building corals live in cold, dark water, as off Norway, without algae partners",
+      "k": [
+        "norway",
+        "cold"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coral-triangle",
+      "tier": "power",
+      "t": "The Coral Triangle, around Indonesia, the Philippines, and Papua New Guinea, holds the most kinds of corals",
+      "k": [
+        "coral triangle",
+        "indonesia",
+        "philippines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mesoamerican",
+      "tier": "power",
+      "t": "The Mesoamerican Barrier Reef along Belize is the largest in the Western Hemisphere; the Great Blue Hole lies inside it",
+      "k": [
+        "mesoamerican",
+        "belize",
+        "great blue hole"
+      ],
+      "n": 0
+    },
+    {
+      "id": "florida-ningaloo",
+      "tier": "power",
+      "t": "The Florida Keys hold the only living coral barrier reef in the continental U.S.; Ningaloo in Western Australia draws whale sharks",
+      "k": [
+        "florida keys",
+        "ningaloo",
+        "whale sharks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "unesco-1981",
+      "tier": "power",
+      "t": "The Great Barrier Reef, about 2,300 kilometers long, became a UNESCO World Heritage Site in 1981",
+      "k": [
+        "unesco",
+        "1981",
+        "world heritage"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elkhorn-staghorn",
+      "tier": "power",
+      "t": "Elkhorn and staghorn corals, key Caribbean builders, were listed as threatened in 2006 after disease killed most of them",
+      "k": [
+        "elkhorn",
+        "staghorn",
+        "caribbean"
+      ],
+      "n": 0
+    },
+    {
+      "id": "symbiodinium",
+      "tier": "power",
+      "t": "Their algae partners are dinoflagellates, long grouped in the genus Symbiodinium",
+      "k": [
+        "dinoflagellates",
+        "symbiodinium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "night-feeding",
+      "tier": "power",
+      "t": "Polyps often stretch out their tentacles at night to catch plankton",
+      "k": [
+        "tentacles",
+        "plankton",
+        "night"
+      ],
+      "n": 0
+    },
+    {
+      "id": "limestone-rock",
+      "tier": "power",
+      "t": "Each polyp builds a cup-shaped limestone skeleton on top of older ones; many ancient limestone layers began this way",
+      "k": [
+        "limestone",
+        "cup-shaped"
+      ],
+      "n": 0,
+      "rabbit": "Limestone"
+    }
+  ],
+  "trap": {
+    "title": "Reef, coral, or atoll?",
+    "body": "Saying just “coral” names the animals, not the structure they build, and “reef” alone is too general; both earn only a prompt. An atoll is one ring-shaped kind of coral reef, and the Great Barrier Reef is one famous example, so neither is the general answer.",
+    "fix": "When the question says “these structures” or “these ecosystems,” answer “coral reefs.” Answer “corals” only if it asks for “these animals” or “these cnidarians,” and “atolls” only if it asks for the ring-shaped islands that circle a lagoon.",
+    "line": "Real answer line: <b><u>Coral reefs</u></b> (prompt on <u>reefs</u> or <u>corals</u>; do not accept “atolls”)"
+  },
+  "tests": {
+    "right": [
+      "Coral reefs",
+      "coral reef",
+      "Coral reaf",
+      "coral reef ecosystems",
+      "Corel reefs"
+    ],
+    "prompt": [
+      "reef",
+      "corals"
+    ],
+    "wrong": [
+      "Atolls",
+      "Great Barrier Reef",
+      "Kelp forest",
+      "Cnidarians",
+      "Coral bleaching",
+      "Zooxanthellae"
+    ]
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "id": "alzheimers-disease",
+  "name": "Alzheimer’s disease",
+  "mono": "ALZ",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Most common cause of dementia · Plaques and tangles in the brain",
+  "dates": "First described in 1906",
+  "briefing": "Alzheimer’s disease is a brain disease that slowly harms memory and thinking, and it is the most common cause of dementia in older adults. It is named for Alois Alzheimer, a German doctor who in 1906 described two kinds of damage in a patient’s brain: clumps of protein called amyloid plaques and twisted fibers called tangles. There is no cure yet, but scientists keep testing new medicines, including ones that clear away the plaques.",
+  "answerHtml": "<b><u>Alzheimer’s</u></b> disease (accept <u>AD</u>; prompt on <u>dementia</u>; do not accept “Parkinson’s disease”)",
+  "accept": [
+    "alzheimers",
+    "alzheimers disease",
+    "alzheimer disease",
+    "alzheimers dementia",
+    "dementia of the alzheimers type",
+    "ad"
+  ],
+  "prompt": [
+    "dementia",
+    "senile dementia",
+    "memory loss",
+    "neurodegenerative disease",
+    "neurodegeneration",
+    "brain disease"
+  ],
+  "reject": [
+    "parkinsons",
+    "parkinsons disease",
+    "parkinson disease",
+    "huntingtons",
+    "huntingtons disease",
+    "huntington disease",
+    "als",
+    "amyotrophic lateral sclerosis",
+    "lou gehrigs disease",
+    "multiple sclerosis",
+    "stroke",
+    "creutzfeldt jakob disease",
+    "mad cow disease",
+    "prion disease",
+    "lewy body dementia",
+    "lewy body disease",
+    "frontotemporal dementia",
+    "vascular dementia",
+    "amnesia",
+    "down syndrome",
+    "alois alzheimer",
+    "epilepsy",
+    "concussion"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Alzheimer%27s_disease",
+  "qb": {
+    "q": "Alzheimer",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Emil Kraepelin gave this disease its name in a 1910 psychiatry textbook, honoring a colleague who had described it four years earlier. That colleague had found clumps of protein called plaques and twisted fibers called tangles while studying a patient’s brain under a microscope.",
+      "r": "For 10 points, name this disease named for a German doctor, the most common cause of dementia."
+    },
+    {
+      "p": "This disease was first described in Auguste Deter [“ow-GOOS-tuh DAY-ter”], a woman in her fifties who was treated at a hospital in Frankfurt, Germany. After her death in 1906, her doctor studied her brain under a microscope and found unusual clumps and tangles.",
+      "r": "That doctor gave his name to this disease. For 10 points, name this brain disease that causes memory loss and is the most common cause of dementia."
+    },
+    {
+      "p": "This disease’s namesake used a silver stain developed by Max Bielschowsky [“beel-SHOV-skee”] to see the twisted fibers inside neurons that mark this disease. Those fibers, called neurofibrillary tangles, are made of a protein called tau [“TOW”].",
+      "r": "Clumps of beta-amyloid also build up between neurons in this disease. For 10 points, name this brain disease, the most common cause of dementia."
+    },
+    {
+      "p": "People who inherit two copies of the APOE4 version of a gene on chromosome 19 have a much higher risk of the common, late-onset form of this disease. The protein made by that gene helps carry fats such as cholesterol through the blood and brain.",
+      "r": "In this disease, plaques of beta-amyloid protein build up in the brain. For 10 points, name this most common cause of dementia in older adults."
+    },
+    {
+      "p": "Rare inherited forms of this disease, which can begin when people are in their 30s to 50s, are often caused by mutations in the presenilin genes. Enzymes called secretases cut a larger protein into the beta-amyloid pieces that build up in this disease.",
+      "r": "For 10 points, name this brain disease marked by amyloid plaques and tau tangles, the most common cause of dementia."
+    },
+    {
+      "p": "John Hardy and Gerald Higgins named the amyloid cascade hypothesis, which says that a buildup of one protein fragment sets off the other damage seen in this disease. Clumps of that fragment, beta-amyloid, form sticky plaques between neurons in people with this disease.",
+      "r": "For 10 points, name this disease that slowly destroys memory, the most common cause of dementia in older adults."
+    },
+    {
+      "p": "In healthy neurons, the protein tau helps hold microtubules steady, like ties on a railroad track, but in this disease tau twists into tangles inside the cells. The damage in this disease usually begins in and around the hippocampus.",
+      "r": "That brain region helps form new memories. For 10 points, name this brain disease, the most common cause of dementia, that is also marked by amyloid plaques."
+    },
+    {
+      "p": "In 2023, the U.S. Food and Drug Administration gave full approval to lecanemab [“leh-KAN-eh-mab”], an antibody drug that removes beta-amyloid from the brain and modestly slows the early stages of this disease. Older drugs for this disease, such as donepezil [“doh-NEP-eh-zil”], keep more of the chemical messenger acetylcholine available in the brain.",
+      "r": "This disease leaves amyloid plaques and tau tangles in the brain. For 10 points, name this disease, the most common cause of dementia."
+    },
+    {
+      "p": "A dye called Pittsburgh compound B lets PET scans show beta-amyloid plaques in the living brains of people with this disease. Before such scans existed, doctors could confirm this disease for certain only by studying brain tissue after a person had died.",
+      "r": "For 10 points, name this brain disease that destroys memory, the most common cause of dementia in older adults."
+    },
+    {
+      "p": "David Snowdon’s Nun Study followed School Sisters of Notre Dame for years and found that nuns whose early-life writing was packed with ideas were less likely to develop this disease. Some of those nuns stayed sharp even though their brains showed this disease’s plaques and tangles.",
+      "r": "For 10 points, name this most common cause of dementia, a disease that slowly destroys memory."
+    },
+    {
+      "p": "In Lisa Genova’s novel _Still Alice_, a Harvard professor learns that she has an early-onset form of this disease. Julianne Moore won the Academy Award for Best Actress for playing that professor in the 2014 film version.",
+      "r": "For 10 points, name this brain disease that causes memory loss and is the most common cause of dementia."
+    },
+    {
+      "p": "Tennessee basketball coach Pat Summitt and country singer Glen Campbell both spoke publicly about living with this disease after their diagnoses in 2011. Campbell’s song “I’m Not Gonna Miss You,” about his illness, won a Grammy Award.",
+      "r": "For 10 points, name this disease that slowly destroys memory, the most common cause of dementia."
+    },
+    {
+      "p": "Because the gene for amyloid precursor protein sits on chromosome 21, people with Down syndrome, who have an extra copy of that chromosome, have a higher risk of this disease. In this disease, pieces of that protein, called beta-amyloid, clump into plaques.",
+      "r": "For 10 points, name this brain disease that causes memory loss, the most common cause of dementia."
+    },
+    {
+      "p": "The drug memantine [“MEM-an-teen”] treats this disease by blocking a receptor for the chemical messenger glutamate. Neurons that make another messenger, acetylcholine, die early in this disease, so drugs such as donepezil slow acetylcholine’s breakdown.",
+      "r": "People with this disease develop amyloid plaques and tau tangles in the brain. For 10 points, name this most common cause of dementia."
+    },
+    {
+      "p": "In 1983, a U.S. president named November a national awareness month for this disease. Eleven years later, in a handwritten letter, that same president announced that he had this disease and wrote that he was beginning “the journey that will lead me into the sunset of my life.”",
+      "r": "That president was Ronald Reagan. For 10 points, name this brain disease that causes memory loss, the most common cause of dementia."
+    }
+  ],
+  "clues": [
+    {
+      "id": "most-common-dementia",
+      "tier": "giveaway",
+      "t": "The most common cause of dementia, a loss of memory and thinking skills serious enough to affect daily life",
+      "k": [
+        "dementia",
+        "most common cause"
+      ],
+      "n": 0
+    },
+    {
+      "id": "memory",
+      "tier": "giveaway",
+      "t": "A brain illness that gets worse over time, first harming memory of recent events and later other thinking skills",
+      "k": [
+        "memory",
+        "recent events",
+        "worse over time"
+      ],
+      "n": 0
+    },
+    {
+      "id": "namesake",
+      "tier": "giveaway",
+      "t": "Named for a German psychiatrist and brain scientist who described it in 1906",
+      "k": [
+        "german psychiatrist",
+        "1906"
+      ],
+      "n": 0
+    },
+    {
+      "id": "older-adults",
+      "tier": "giveaway",
+      "t": "Most people who have it are over 65, and there is no cure yet",
+      "k": [
+        "over 65",
+        "no cure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amyloid-plaques",
+      "tier": "middle",
+      "t": "Clumps of a protein fragment called beta-amyloid form amyloid plaques between neurons",
+      "k": [
+        "amyloid plaques",
+        "beta-amyloid",
+        "plaques"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tau-tangles",
+      "tier": "middle",
+      "t": "Twisted fibers of a protein called tau form neurofibrillary tangles inside neurons",
+      "k": [
+        "neurofibrillary tangles",
+        "tangles",
+        "tau"
+      ],
+      "n": 0
+    },
+    {
+      "id": "neurodegenerative",
+      "tier": "middle",
+      "t": "Neurodegenerative: neurons stop working and die, and the brain shrinks over time",
+      "k": [
+        "neurodegenerative",
+        "shrinks",
+        "neurons"
+      ],
+      "n": 0,
+      "rabbit": "Neurons"
+    },
+    {
+      "id": "hippocampus",
+      "tier": "middle",
+      "t": "Damage usually starts in and around the hippocampus, the brain region that helps form new memories",
+      "k": [
+        "hippocampus",
+        "new memories"
+      ],
+      "n": 0,
+      "rabbit": "Brain"
+    },
+    {
+      "id": "reagan",
+      "tier": "middle",
+      "t": "Ronald Reagan announced his diagnosis in a handwritten 1994 letter to the American people",
+      "k": [
+        "reagan",
+        "1994",
+        "handwritten letter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "acetylcholine",
+      "tier": "middle",
+      "t": "Neurons that make acetylcholine die early; drugs like donepezil slow acetylcholine’s breakdown",
+      "k": [
+        "acetylcholine",
+        "donepezil"
+      ],
+      "n": 0
+    },
+    {
+      "id": "early-onset",
+      "tier": "middle",
+      "t": "Most cases begin after age 65; early-onset cases start younger, and some rare forms are inherited",
+      "k": [
+        "early-onset",
+        "inherited"
+      ],
+      "n": 0
+    },
+    {
+      "id": "down-syndrome",
+      "tier": "middle",
+      "t": "People with Down syndrome have a higher risk, because chromosome 21 carries the gene for amyloid precursor protein",
+      "k": [
+        "down syndrome",
+        "chromosome 21",
+        "amyloid precursor protein"
+      ],
+      "n": 0,
+      "rabbit": "Down syndrome"
+    },
+    {
+      "id": "kraepelin",
+      "tier": "power",
+      "t": "Emil Kraepelin gave it its name in a 1910 psychiatry textbook, honoring his colleague",
+      "k": [
+        "kraepelin",
+        "1910"
+      ],
+      "n": 0
+    },
+    {
+      "id": "auguste-deter",
+      "tier": "power",
+      "t": "First described in Auguste Deter, a woman in her fifties treated in Frankfurt; her brain was studied after her death in 1906",
+      "k": [
+        "auguste deter",
+        "frankfurt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "silver-stain",
+      "tier": "power",
+      "t": "Its namesake first saw the tangles using Max Bielschowsky’s silver stain",
+      "k": [
+        "silver stain",
+        "bielschowsky"
+      ],
+      "n": 0
+    },
+    {
+      "id": "apoe4",
+      "tier": "power",
+      "t": "Two copies of APOE4, a version of a gene on chromosome 19 whose protein carries cholesterol, greatly raise the risk of the late-onset form",
+      "k": [
+        "apoe4",
+        "chromosome 19",
+        "late-onset"
+      ],
+      "n": 0,
+      "rabbit": "Cholesterol"
+    },
+    {
+      "id": "presenilin",
+      "tier": "power",
+      "t": "Mutations in the presenilin genes cause rare inherited early-onset forms; secretase enzymes cut a larger protein into beta-amyloid",
+      "k": [
+        "presenilin",
+        "secretase"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amyloid-hypothesis",
+      "tier": "power",
+      "t": "John Hardy and Gerald Higgins’s amyloid cascade hypothesis (1992) says beta-amyloid buildup sets off the rest of the damage",
+      "k": [
+        "amyloid cascade hypothesis",
+        "hardy",
+        "higgins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tau-microtubules",
+      "tier": "power",
+      "t": "Tau normally holds microtubules steady inside neurons, like ties on a railroad track",
+      "k": [
+        "microtubules",
+        "railroad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lecanemab",
+      "tier": "power",
+      "t": "In 2023, the FDA gave full approval to lecanemab, an antibody drug that clears beta-amyloid and modestly slows the early stages",
+      "k": [
+        "lecanemab",
+        "antibody",
+        "2023"
+      ],
+      "n": 0,
+      "rabbit": "Antibodies"
+    },
+    {
+      "id": "pittsburgh-compound-b",
+      "tier": "power",
+      "t": "Pittsburgh compound B lets PET scans show amyloid plaques in a living brain; before that, it was confirmed only after death",
+      "k": [
+        "pittsburgh compound b",
+        "pet scans"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nun-study",
+      "tier": "power",
+      "t": "David Snowdon’s Nun Study of the School Sisters of Notre Dame linked idea-packed early writing to a lower risk",
+      "k": [
+        "nun study",
+        "snowdon",
+        "notre dame"
+      ],
+      "n": 0
+    },
+    {
+      "id": "still-alice",
+      "tier": "power",
+      "t": "Lisa Genova’s novel _Still Alice_ follows a Harvard professor with an early-onset form; Julianne Moore won an Oscar in the 2014 film",
+      "k": [
+        "still alice",
+        "genova",
+        "julianne moore"
+      ],
+      "n": 0
+    },
+    {
+      "id": "summitt-campbell",
+      "tier": "power",
+      "t": "Coach Pat Summitt and singer Glen Campbell spoke publicly about their 2011 diagnoses; Campbell’s “I’m Not Gonna Miss You” won a Grammy",
+      "k": [
+        "pat summitt",
+        "glen campbell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "memantine",
+      "tier": "power",
+      "t": "The drug memantine blocks a receptor for the chemical messenger glutamate",
+      "k": [
+        "memantine",
+        "glutamate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "awareness-month",
+      "tier": "power",
+      "t": "In 1983, Ronald Reagan named November its national awareness month",
+      "k": [
+        "november",
+        "1983",
+        "awareness month"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not just “dementia”",
+    "body": "Dementia is a general word for a decline in memory and thinking, and Alzheimer’s disease is only its most common cause, so saying “dementia” earns a prompt, not points. Parkinson’s disease is the other trap: it is also a brain disease that is more common in older adults, but it mainly affects movement and involves the loss of neurons that make dopamine.",
+    "fix": "Amyloid plaques, tau tangles, the hippocampus, acetylcholine drugs, and a German doctor in 1906 mean Alzheimer’s. Tremors, dopamine, Lewy bodies, and the substantia nigra mean Parkinson’s. If the question itself says “dementia,” the answer is the disease that causes it.",
+    "line": "Real answer line: <b><u>Alzheimer’s</u></b> disease (accept <u>AD</u>; prompt on <u>dementia</u>)"
+  },
+  "tests": {
+    "right": [
+      "Alzheimer’s disease",
+      "Alzheimers",
+      "alzheimer's",
+      "Alzhiemers disease",
+      "AD"
+    ],
+    "prompt": [
+      "Dementia"
+    ],
+    "wrong": [
+      "Parkinson’s disease",
+      "Huntington’s disease",
+      "Amnesia",
+      "Stroke",
+      "Vascular dementia"
+    ]
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "id": "lattice-energy",
+  "name": "Lattice energy",
+  "mono": "LAT",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "The grip that holds an ionic crystal together · Why table salt melts at 801 °C",
+  "dates": "Born–Haber cycle devised in 1919",
+  "briefing": "A grain of table salt is a tightly packed crystal of sodium and chloride ions, held together by the pull between opposite charges. Lattice energy measures that grip: the energy released when separated ions in a gas snap together into one mole of an ionic solid. Ions with bigger charges and smaller sizes grip harder, which is why magnesium oxide melts at over 2,800 °C while table salt melts at 801 °C.",
+  "answerHtml": "<b><u>Lattice energy</u></b> (accept <u>lattice enthalpy</u>; prompt on <u>energy</u> or <u>enthalpy</u> alone)",
+  "accept": [
+    "lattice energy",
+    "lattice energies",
+    "lattice enthalpy",
+    "lattice enthalpies",
+    "lattice formation enthalpy",
+    "lattice dissociation enthalpy",
+    "lattice formation energy",
+    "lattice dissociation energy",
+    "enthalpy of lattice formation",
+    "enthalpy of lattice dissociation"
+  ],
+  "prompt": [
+    "energy",
+    "enthalpy",
+    "lattice",
+    "ionic bond energy",
+    "ionic bond strength",
+    "electrostatic energy",
+    "electrostatic potential energy"
+  ],
+  "reject": [
+    "ionization energy",
+    "ionisation energy",
+    "first ionization energy",
+    "second ionization energy",
+    "electron affinity",
+    "bond energy",
+    "bond enthalpy",
+    "bond dissociation energy",
+    "bond dissociation enthalpy",
+    "enthalpy of formation",
+    "heat of formation",
+    "enthalpy of solution",
+    "heat of solution",
+    "hydration energy",
+    "hydration enthalpy",
+    "enthalpy of hydration",
+    "solvation energy",
+    "enthalpy of atomization",
+    "atomization energy",
+    "enthalpy of sublimation",
+    "sublimation energy",
+    "born haber cycle",
+    "born haber",
+    "born lande equation",
+    "kapustinskii equation",
+    "madelung constant",
+    "coulombs law",
+    "activation energy",
+    "gibbs free energy",
+    "free energy",
+    "kinetic energy",
+    "potential energy",
+    "crystal lattice",
+    "lattice constant",
+    "lattice parameter",
+    "unit cell",
+    "ionic bond",
+    "ionic bonding",
+    "electronegativity",
+    "melting point"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Lattice_energy",
+  "qb": {
+    "q": "lattice energy",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The Kapustinskii [“kah-poo-STIN-skee”] equation estimates this quantity for a salt without knowing its crystal structure, using only the number of ions in its formula, their charges, and their radii. That shortcut is handy because this quantity cannot be measured directly in a laboratory.",
+      "r": "The Born–Haber cycle uses Hess’s law to calculate it indirectly. For 10 points, name this energy released when gaseous ions come together to form one mole of an ionic solid."
+    },
+    {
+      "p": "The Madelung [“MAH-deh-loong”] constant, which is about 1.75 for the sodium chloride crystal structure, appears in the Born–Landé [“lahn-DAY”] equation for this quantity. That equation also includes a Born exponent, which accounts for the repulsion between ions that get too close together.",
+      "r": "This quantity is larger for ions with bigger charges and smaller radii. For 10 points, name this measure of how strongly the ions in an ionic crystal are held together."
+    },
+    {
+      "p": "Magnesium oxide melts at over 2,800 degrees Celsius and is used to line furnaces, largely because this quantity is so large for magnesium oxide. Aluminum oxide, made of ions with charges of +3 and −2, has an even larger value of this quantity.",
+      "r": "Because magnesium oxide’s ions carry double charges, its value is several times larger than table salt’s. For 10 points, name this energy that holds ionic crystals together."
+    },
+    {
+      "p": "To calculate this quantity for sodium chloride, chemists add up the energies of steps such as turning solid sodium into a gas, removing an electron from each sodium atom, splitting chlorine molecules into atoms, and adding an electron to each chlorine atom. Those steps form a cycle that also includes the compound’s enthalpy of formation.",
+      "r": "That cycle, named for Max Born and Fritz Haber, relies on Hess’s law. For 10 points, name this energy released when gaseous ions form an ionic solid."
+    },
+    {
+      "p": "For silver iodide, the value of this quantity found from experiments is noticeably larger than the value predicted by a purely ionic model, a sign that its bonds have some covalent character. Kasimir Fajans [“FAH-yahns”] wrote rules predicting when ionic bonds take on such covalent character.",
+      "r": "This quantity grows as ions get smaller and pack closer together. For 10 points, name this energy that holds an ionic solid together."
+    },
+    {
+      "p": "Among the alkali metal halides, lithium fluoride has the largest value of this quantity, while cesium iodide has the smallest. A fluoride has a larger value of this quantity than an iodide of the same metal, because fluoride ions are much smaller than iodide ions.",
+      "r": "Smaller ions sit closer together, so they attract each other more strongly. For 10 points, name this energy released when gaseous ions form one mole of an ionic crystal."
+    },
+    {
+      "p": "Magnesium chloride is made of Mg²⁺ ions rather than Mg⁺ ions, because the much larger value of this quantity for doubly charged ions more than pays for removing magnesium’s second electron. Sodium does not form Na²⁺ ions, since removing a second electron from sodium would cost far more energy than this quantity could repay.",
+      "r": "This quantity grows with the product of the ions’ charges. For 10 points, name this energy that holds ionic compounds together."
+    },
+    {
+      "p": "Instant cold packs get cold when ammonium nitrate dissolves in water, because the energy needed to overcome this quantity for that salt is larger than the energy released when water molecules surround its ions. Whether dissolving a salt takes in or gives off heat depends on a contest between this quantity and that hydration energy.",
+      "r": "Ionic compounds with large values of this quantity tend to have high melting points. For 10 points, name this energy released when gaseous ions form an ionic solid."
+    },
+    {
+      "p": "In a sodium chloride crystal, each ion is surrounded by six ions of the opposite charge, while in cesium chloride each ion has eight such neighbors, which changes the geometric factor used to calculate this quantity. This quantity adds up the attractions and repulsions among all the ions in a crystal, not just neighboring pairs.",
+      "r": "Like Coulomb’s law, this quantity grows with the ions’ charges and shrinks as they get farther apart. For 10 points, name this energy that holds an ionic crystal together."
+    },
+    {
+      "p": "British textbooks often split this quantity into a negative “formation” version, for gaseous ions coming together, and a positive “dissociation” version, for a crystal being pulled apart into gaseous ions. Both versions have the same size, usually given in kilojoules per mole.",
+      "r": "Forming an ionic solid from gaseous ions releases energy. For 10 points, name this quantity, the energy released when gaseous ions form one mole of an ionic solid."
+    },
+    {
+      "p": "Melting points fall from sodium fluoride to sodium chloride to sodium bromide to sodium iodide, because this quantity shrinks as the halide ion gets bigger. Sodium chloride itself must be heated to 801 degrees Celsius before it melts.",
+      "r": "This quantity is greater for smaller ions with larger charges. For 10 points, name this energy that holds the ions of a salt crystal together."
+    },
+    {
+      "p": "Removing an electron from a sodium atom takes more energy than a chlorine atom gives off when it gains one, so making separate sodium and chloride ions costs energy overall. Sodium chloride still forms readily, because this quantity releases far more energy when those ions pack into a crystal.",
+      "r": "This quantity is one step in the Born–Haber cycle. For 10 points, name this energy released when gaseous ions form an ionic solid."
+    },
+    {
+      "p": "Max Born, who later won the 1954 Nobel Prize in Physics, and Fritz Haber, who won the 1918 Nobel Prize in Chemistry for making ammonia, devised a 1919 cycle for calculating this quantity. Their cycle is needed because this quantity cannot be measured directly.",
+      "r": "This quantity is much larger for magnesium oxide than for sodium chloride. For 10 points, name this energy that holds ionic crystals together."
+    },
+    {
+      "p": "Potassium chloride has a smaller value of this quantity than sodium chloride, because potassium ions are larger and sit farther from the chloride ions. Moving down group 1, the chlorides’ values of this quantity fall from lithium chloride to cesium chloride.",
+      "r": "This quantity is greater when ions have larger charges. For 10 points, name this energy released when gaseous ions form one mole of an ionic solid."
+    },
+    {
+      "p": "Adding a second electron to an oxygen atom takes energy instead of releasing it, yet magnesium oxide still forms readily, because this quantity is so large for its doubly charged ions. This quantity for magnesium oxide is nearly five times the value for sodium chloride.",
+      "r": "This quantity depends on the charges and sizes of the ions. For 10 points, name this energy that holds an ionic crystal together."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The energy released when gaseous ions come together to form one mole of an ionic solid",
+      "k": [
+        "gaseous ions",
+        "ionic solid",
+        "one mole"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reverse",
+      "tier": "giveaway",
+      "t": "Equivalently, the energy needed to pull one mole of an ionic solid apart into gaseous ions",
+      "k": [
+        "pull",
+        "apart"
+      ],
+      "n": 0
+    },
+    {
+      "id": "charge-size",
+      "tier": "giveaway",
+      "t": "Larger for ions with bigger charges and smaller sizes",
+      "k": [
+        "bigger charges",
+        "smaller sizes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mgo-nacl",
+      "tier": "giveaway",
+      "t": "Magnesium oxide (+2 and −2 ions) has a value nearly five times that of sodium chloride (+1 and −1 ions)",
+      "k": [
+        "magnesium oxide",
+        "sodium chloride",
+        "five times"
+      ],
+      "n": 0
+    },
+    {
+      "id": "born-haber",
+      "tier": "middle",
+      "t": "Can’t be measured directly, so it is found indirectly with the Born–Haber cycle, which uses Hess’s law",
+      "k": [
+        "born",
+        "haber",
+        "hess",
+        "indirectly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coulomb",
+      "tier": "middle",
+      "t": "Follows Coulomb’s law: grows with the product of the ions’ charges and shrinks as the ions get farther apart",
+      "k": [
+        "coulomb",
+        "product",
+        "farther apart"
+      ],
+      "n": 0,
+      "rabbit": "Coulomb’s law"
+    },
+    {
+      "id": "melting",
+      "tier": "middle",
+      "t": "Higher values mean higher melting points; melting points fall from sodium fluoride to sodium iodide",
+      "k": [
+        "melting points",
+        "sodium fluoride",
+        "sodium iodide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lif-csi",
+      "tier": "middle",
+      "t": "Among the alkali metal halides, lithium fluoride has the largest value and cesium iodide the smallest",
+      "k": [
+        "lithium fluoride",
+        "cesium iodide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydration",
+      "tier": "middle",
+      "t": "Dissolving a salt means overcoming this energy; the hydration energy released as water surrounds the ions helps pay for it",
+      "k": [
+        "hydration energy",
+        "dissolving",
+        "overcoming"
+      ],
+      "n": 0,
+      "rabbit": "Solubility"
+    },
+    {
+      "id": "cold-packs",
+      "tier": "middle",
+      "t": "Ammonium nitrate cold packs get cold because pulling the crystal apart takes more energy than hydration gives back",
+      "k": [
+        "ammonium nitrate",
+        "cold packs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cycle-steps",
+      "tier": "middle",
+      "t": "Born–Haber steps for sodium chloride: vaporize sodium, remove its electron, split chlorine molecules, add electrons to chlorine, then form the solid",
+      "k": [
+        "vaporize",
+        "split",
+        "steps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pays-back",
+      "tier": "middle",
+      "t": "Making separate Na⁺ and Cl⁻ ions costs energy overall, but forming the crystal releases far more, so sodium chloride forms readily",
+      "k": [
+        "costs energy",
+        "releases",
+        "readily"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kcl",
+      "tier": "middle",
+      "t": "Potassium chloride’s value is smaller than sodium chloride’s because potassium ions are larger",
+      "k": [
+        "potassium chloride",
+        "larger"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kapustinskii",
+      "tier": "power",
+      "t": "The Kapustinskii equation estimates it without knowing the crystal structure",
+      "k": [
+        "kapustinskii",
+        "crystal structure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "born-lande",
+      "tier": "power",
+      "t": "The Born–Landé equation calculates it from the ions’ charges, their distance, a Born exponent for repulsion, and the Madelung constant",
+      "k": [
+        "landé",
+        "born exponent",
+        "repulsion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "madelung",
+      "tier": "power",
+      "t": "The Madelung constant depends on the crystal’s geometry; it is about 1.75 for the sodium chloride structure",
+      "k": [
+        "madelung constant",
+        "1.75",
+        "geometry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coordination",
+      "tier": "power",
+      "t": "In sodium chloride each ion has six neighbors of opposite charge; in cesium chloride each has eight",
+      "k": [
+        "cesium chloride",
+        "six",
+        "eight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "second-electron",
+      "tier": "power",
+      "t": "Magnesium forms Mg²⁺ because the bigger value for doubly charged ions pays for its second electron; sodium doesn’t form Na²⁺ because its second electron costs far too much",
+      "k": [
+        "second electron",
+        "doubly charged",
+        "magnesium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oxide-ion",
+      "tier": "power",
+      "t": "Adding a second electron to oxygen takes energy, yet magnesium oxide forms readily because this energy is so large",
+      "k": [
+        "oxygen",
+        "takes energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fajans",
+      "tier": "power",
+      "t": "When measured values beat the ionic-model prediction, as in silver iodide, the bonds have covalent character (Fajans’s rules)",
+      "k": [
+        "silver iodide",
+        "covalent character",
+        "fajans"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel",
+      "tier": "power",
+      "t": "Max Born (1954 Nobel Prize in Physics) and Fritz Haber (1918 Nobel Prize in Chemistry) devised their cycle in 1919",
+      "k": [
+        "max born",
+        "fritz haber",
+        "1919"
+      ],
+      "n": 0,
+      "rabbit": "Haber process"
+    },
+    {
+      "id": "sign",
+      "tier": "power",
+      "t": "British textbooks use a negative “formation” version and a positive “dissociation” version, both in kilojoules per mole",
+      "k": [
+        "formation",
+        "dissociation",
+        "kilojoules per mole"
+      ],
+      "n": 0
+    },
+    {
+      "id": "refractory",
+      "tier": "power",
+      "t": "Magnesium oxide melts at over 2,800 °C and lines furnaces; aluminum oxide’s +3 ions give an even larger value",
+      "k": [
+        "furnaces",
+        "aluminum oxide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "all-ions",
+      "tier": "power",
+      "t": "It adds up the attractions and repulsions among all the ions in a crystal, not just neighboring pairs",
+      "k": [
+        "attractions",
+        "repulsions",
+        "all the ions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "group-1",
+      "tier": "power",
+      "t": "Down group 1, the chlorides’ values fall from lithium chloride to cesium chloride",
+      "k": [
+        "group 1",
+        "lithium chloride"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which energy is it?",
+    "body": "Tossups on this quantity are crowded with other energies: the metal’s ionization energy, the nonmetal’s electron affinity, the bond energy of molecules like Cl₂, and the hydration energy of dissolving ions. Each of those is only one step in the Born–Haber cycle or one side of a comparison, and naming one of them loses the tossup. Saying just “energy” or “enthalpy” earns a prompt.",
+    "fix": "If the clues describe gaseous ions coming together into a crystal, Madelung constants, or the charges and melting points of salts, answer with this quantity. The energy to pull an electron off a single gaseous atom is ionization energy instead.",
+    "line": "Real answer line: <b><u>Lattice energy</u></b> (accept <u>lattice enthalpy</u>; prompt on <u>energy</u> or <u>enthalpy</u>)"
+  },
+  "tests": {
+    "right": [
+      "Lattice energy",
+      "lattice enthalpy",
+      "Latice energy",
+      "Lattice energies",
+      "lattice dissociation enthalpy"
+    ],
+    "prompt": [
+      "Energy",
+      "Enthalpy"
+    ],
+    "wrong": [
+      "Ionization energy",
+      "Electron affinity",
+      "Bond energy",
+      "Born-Haber cycle",
+      "Hydration energy",
+      "Enthalpy of formation",
+      "Activation energy"
+    ]
+  }
+}

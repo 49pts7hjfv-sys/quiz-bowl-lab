@@ -1,0 +1,362 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "transcription",
+    "name": "Transcription",
+    "mono": "TXN",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Copying a gene’s DNA into RNA · Step one of making a protein",
+    "dates": "First step of gene expression: DNA → RNA → protein",
+    "briefing": "Transcription is how a cell copies a gene: an enzyme called RNA polymerase unzips a stretch of DNA and builds a matching strand of messenger RNA, using uracil wherever DNA would use thymine. In cells with a nucleus, like ours, it happens inside the nucleus, and the message gets edited before it leaves for a ribosome. It is the first arrow of Francis Crick’s “central dogma”: DNA makes RNA, and RNA makes protein.",
+    "answerHtml": "<b><u>Transcription</u></b> (accept <u>RNA synthesis</u>; prompt on <u>gene expression</u>; do not accept “translation” or “reverse transcription”)",
+    "accept": [
+        "transcription",
+        "transcribing",
+        "dna transcription",
+        "gene transcription",
+        "rna transcription",
+        "mrna transcription",
+        "rna synthesis",
+        "mrna synthesis"
+    ],
+    "prompt": [
+        "gene expression",
+        "expression"
+    ],
+    "reject": [
+        "translation",
+        "dna replication",
+        "replication",
+        "reverse transcription",
+        "reverse transcriptase",
+        "transcriptase",
+        "transcription factor",
+        "transcription factors",
+        "rna polymerase",
+        "rna polymerases",
+        "rna polymerase ii",
+        "dna polymerase",
+        "protein synthesis",
+        "splicing",
+        "rna splicing",
+        "rna processing",
+        "mrna processing",
+        "transformation",
+        "transduction",
+        "translocation",
+        "mutation"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Transcription_(biology)",
+    "qb": {
+        "q": "transcription",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Roger Kornberg won the 2006 Nobel Prize in Chemistry for revealing how this process works in eukaryotes, 47 years after his father, Arthur, shared a Nobel Prize for work on how cells build DNA. In many eukaryotic genes, a short sequence called the TATA box helps mark where this process begins.",
+            "r": "In this process, the enzyme RNA polymerase reads a gene and builds messenger RNA. For 10 points, name this first step of gene expression, in which DNA is copied into RNA."
+        },
+        {
+            "p": "In bacteria, a protein subunit called the sigma factor helps the enzyme that performs this process find a promoter sequence called the Pribnow box. Unlike DNA polymerase, that enzyme does not need a primer to start building its new strand.",
+            "r": "That enzyme is RNA polymerase. For 10 points, name this process in which a cell copies a gene’s DNA into messenger RNA."
+        },
+        {
+            "p": "Alpha-amanitin, the poison in the death cap mushroom, works by blocking one of the enzymes that perform this process in eukaryotes. Those cells use three main versions of that enzyme, numbered I, II, and III, and version II handles the genes that code for proteins.",
+            "r": "In this process, RNA polymerase builds a strand of messenger RNA. For 10 points, name this process in which a gene’s DNA is copied into RNA."
+        },
+        {
+            "p": "Phillip Sharp and Richard Roberts shared a Nobel Prize for discovering that many genes copied in this process are “split” into pieces. In eukaryotes, the first product of this process is edited by a spliceosome, which cuts out introns and joins the exons together.",
+            "r": "That product also gets a cap and a poly-A tail before it leaves the nucleus. For 10 points, name this process in which RNA polymerase copies DNA into messenger RNA."
+        },
+        {
+            "p": "Howard Temin and David Baltimore discovered an enzyme that lets retroviruses, such as HIV, run this process in reverse, building DNA from RNA. In the normal direction of this process, an enzyme reads only one DNA strand, called the template strand, and builds a matching strand.",
+            "r": "Wherever the template has adenine, the new strand gets uracil. For 10 points, name this process that makes messenger RNA from DNA, the first step of gene expression."
+        },
+        {
+            "p": "In a bacterium’s lac operon, a repressor protein sits on a stretch of DNA called the operator, blocking this process until lactose is present. François Jacob and Jacques Monod [“moh-NOH”] proposed that model of gene control, which helped earn them a Nobel Prize.",
+            "r": "This process starts when RNA polymerase binds to a promoter. For 10 points, name this process in which DNA is copied into messenger RNA."
+        },
+        {
+            "p": "In bacteria, this process can end when a protein called Rho catches up with the working enzyme, or when the new strand folds into a hairpin loop followed by a run of uracils. Those endings make up this process’s termination stage, which follows initiation and elongation.",
+            "r": "In eukaryotes, it takes place in the nucleus. For 10 points, name this process in which RNA polymerase copies a gene’s DNA into RNA."
+        },
+        {
+            "p": "A protein complex called TFIID [“T-F-two-D”] grips a DNA sequence called the TATA box to help start this process in eukaryotes. Sequences called enhancers, which can sit thousands of base pairs away from a gene, can boost how often that gene undergoes this process.",
+            "r": "This process begins when RNA polymerase binds to a gene’s promoter. For 10 points, name this process that produces messenger RNA from a DNA template."
+        },
+        {
+            "p": "Bacteria use only one kind of enzyme to perform this process, pairing it with different sigma factors to read different sets of genes. Because bacteria lack a nucleus, their ribosomes can start translating a message while this process is still making it.",
+            "r": "In eukaryotes, this process happens in the nucleus. For 10 points, name this first step of gene expression, in which RNA polymerase copies DNA into RNA."
+        },
+        {
+            "p": "Alternative splicing lets one gene produce several different proteins by joining the exons made in this process in different combinations. In eukaryotes, the product of this process is protected by a cap of modified guanine on one end and a long poly-A tail on the other.",
+            "r": "This process uses uracil in place of thymine. For 10 points, name this process in which RNA polymerase copies DNA into messenger RNA."
+        },
+        {
+            "p": "Unlike DNA replication, which copies both strands of all of a cell’s DNA, this process copies only one strand of a gene, and its enzyme needs no primer to begin. The strand that gets read is called the template strand, while the other strand, the coding strand, matches the product except that it has thymine where the product has uracil.",
+            "r": "This process is carried out by RNA polymerase. For 10 points, name this process that makes messenger RNA from DNA."
+        },
+        {
+            "p": "The antibiotic rifampin, used against tuberculosis, works by blocking the enzyme that performs this process in bacteria. In bacteria, that enzyme stops when its new strand folds into a hairpin loop or when a protein called Rho pulls it off the DNA.",
+            "r": "In eukaryotic cells, this process happens in the nucleus. For 10 points, name this process in which RNA polymerase copies DNA into messenger RNA."
+        },
+        {
+            "p": "In bacteria, two short sequences found about 10 and 35 base pairs before a gene’s starting point, including one called the Pribnow box, signal where this process should begin. Those sequences are part of a region called the promoter.",
+            "r": "In this process, RNA polymerase builds a strand of RNA that matches a gene. For 10 points, name this process that comes right before translation."
+        },
+        {
+            "p": "Walter Gilbert coined the terms “intron” and “exon” for the parts of a message that get cut out or kept after this process. Particles called snRNPs [“snurps”] combine into a spliceosome that does that cutting inside the nucleus.",
+            "r": "Before that editing, RNA polymerase reads a DNA template to make the message. For 10 points, name this process in which a gene is copied into RNA."
+        },
+        {
+            "p": "In the nucleolus, an enzyme numbered I carries out this process to make most of the RNA found in ribosomes, while a related enzyme numbered III makes transfer RNA. In every version of this process, the new strand grows in the five-prime to three-prime direction.",
+            "r": "In eukaryotes, this process occurs in the nucleus, where RNA polymerase reads a gene. For 10 points, name this first step of gene expression, which copies DNA into RNA."
+        }
+    ],
+    "clues": [
+        {
+            "id": "dna-into-rna",
+            "tier": "giveaway",
+            "t": "A cell copies a gene’s DNA into a matching strand of RNA, usually messenger RNA (mRNA)",
+            "k": ["messenger rna", "mrna", "copies"],
+            "n": 0
+        },
+        {
+            "id": "gene-expression",
+            "tier": "giveaway",
+            "t": "First step of gene expression; the next step, translation, reads the mRNA at a ribosome to build a protein",
+            "k": ["gene expression", "translation", "ribosome"],
+            "n": 0,
+            "rabbit": "Ribosomes"
+        },
+        {
+            "id": "nucleus",
+            "tier": "giveaway",
+            "t": "In eukaryotes (cells with a nucleus), it happens inside the nucleus",
+            "k": ["nucleus", "eukaryotes"],
+            "n": 0
+        },
+        {
+            "id": "central-dogma",
+            "tier": "giveaway",
+            "t": "The first arrow of Francis Crick’s “central dogma”: DNA → RNA → protein",
+            "k": ["central dogma", "crick"],
+            "n": 0,
+            "rabbit": "DNA"
+        },
+        {
+            "id": "rna-polymerase",
+            "tier": "middle",
+            "t": "Carried out by the enzyme RNA polymerase, which reads one strand of DNA",
+            "k": ["rna polymerase", "polymerase"],
+            "n": 0
+        },
+        {
+            "id": "promoter",
+            "tier": "middle",
+            "t": "RNA polymerase starts at a DNA region called the promoter, just before a gene",
+            "k": ["promoter"],
+            "n": 0
+        },
+        {
+            "id": "tata-box",
+            "tier": "middle",
+            "t": "Many eukaryotic promoters contain the TATA box, a short sequence rich in thymine and adenine",
+            "k": ["tata box"],
+            "n": 0
+        },
+        {
+            "id": "uracil",
+            "tier": "middle",
+            "t": "The new RNA gets uracil (U) wherever DNA would have thymine (T), so adenine pairs with uracil",
+            "k": ["uracil", "thymine"],
+            "n": 0,
+            "rabbit": "Uracil"
+        },
+        {
+            "id": "template-strand",
+            "tier": "middle",
+            "t": "Only the template (antisense) strand is read; the other, coding (sense) strand matches the mRNA, but with T instead of U",
+            "k": ["template", "antisense", "coding strand"],
+            "n": 0
+        },
+        {
+            "id": "three-stages",
+            "tier": "middle",
+            "t": "Three stages: initiation, elongation, and termination",
+            "k": ["initiation", "elongation", "termination"],
+            "n": 0
+        },
+        {
+            "id": "direction",
+            "tier": "middle",
+            "t": "The template is read 3′ to 5′, so the new RNA grows in the 5′ to 3′ direction",
+            "k": ["direction", "5′ to 3′"],
+            "n": 0
+        },
+        {
+            "id": "splicing",
+            "tier": "middle",
+            "t": "In eukaryotes the pre-mRNA is spliced: noncoding introns are cut out and the exons are joined",
+            "k": ["introns", "exons", "spliced", "pre-mrna"],
+            "n": 0
+        },
+        {
+            "id": "cap-tail",
+            "tier": "middle",
+            "t": "Eukaryotic mRNA also gets a 5′ cap and a poly-A tail before leaving the nucleus",
+            "k": ["poly-a tail", "cap"],
+            "n": 0
+        },
+        {
+            "id": "bacteria-cytoplasm",
+            "tier": "middle",
+            "t": "Bacteria have no nucleus, so it happens in the cytoplasm, and ribosomes can start translating before it ends",
+            "k": ["cytoplasm", "no nucleus", "bacteria"],
+            "n": 0,
+            "rabbit": "Bacteria"
+        },
+        {
+            "id": "sigma-factor",
+            "tier": "power",
+            "t": "In bacteria, a sigma factor helps RNA polymerase recognize the promoter; bacteria have just one kind of RNA polymerase",
+            "k": ["sigma factor", "sigma"],
+            "n": 0
+        },
+        {
+            "id": "pribnow-box",
+            "tier": "power",
+            "t": "Bacterial promoters have a −10 sequence (the Pribnow box, TATAAT) and a −35 sequence",
+            "k": ["pribnow box", "pribnow", "tataat"],
+            "n": 0
+        },
+        {
+            "id": "rho-hairpin",
+            "tier": "power",
+            "t": "Bacteria end it with the Rho protein or with a hairpin loop in the RNA followed by a run of U’s",
+            "k": ["rho", "hairpin loop", "hairpin"],
+            "n": 0
+        },
+        {
+            "id": "no-primer",
+            "tier": "power",
+            "t": "Unlike DNA polymerase, RNA polymerase needs no primer to start a new strand",
+            "k": ["primer", "dna polymerase"],
+            "n": 0
+        },
+        {
+            "id": "three-polymerases",
+            "tier": "power",
+            "t": "Eukaryotes use three main RNA polymerases: I makes most ribosomal RNA (in the nucleolus), II makes mRNA, and III makes transfer RNA",
+            "k": ["three main", "nucleolus", "ribosomal rna"],
+            "n": 0
+        },
+        {
+            "id": "tfiid",
+            "tier": "power",
+            "t": "Helper proteins such as TFIID, which binds the TATA box, help RNA polymerase II get started",
+            "k": ["tfiid", "helper proteins"],
+            "n": 0
+        },
+        {
+            "id": "enhancers",
+            "tier": "power",
+            "t": "Enhancers, DNA sequences that can sit thousands of base pairs away, can boost how often a gene is copied",
+            "k": ["enhancers"],
+            "n": 0
+        },
+        {
+            "id": "spliceosome",
+            "tier": "power",
+            "t": "Introns are cut out by the spliceosome, built from snRNPs (“snurps”); alternative splicing lets one gene make several proteins",
+            "k": ["spliceosome", "snrnps", "alternative splicing"],
+            "n": 0
+        },
+        {
+            "id": "split-genes",
+            "tier": "power",
+            "t": "Phillip Sharp and Richard Roberts discovered “split genes” and shared the 1993 Nobel Prize; Walter Gilbert named introns and exons",
+            "k": ["split genes", "sharp", "roberts", "walter gilbert"],
+            "n": 0
+        },
+        {
+            "id": "amanitin",
+            "tier": "power",
+            "t": "Alpha-amanitin, the toxin of the death cap mushroom, blocks RNA polymerase II",
+            "k": ["alpha-amanitin", "amanitin", "death cap"],
+            "n": 0
+        },
+        {
+            "id": "rifampin",
+            "tier": "power",
+            "t": "The tuberculosis antibiotic rifampin blocks bacterial RNA polymerase",
+            "k": ["rifampin", "tuberculosis"],
+            "n": 0
+        },
+        {
+            "id": "kornberg",
+            "tier": "power",
+            "t": "Roger Kornberg won the 2006 Nobel Prize in Chemistry for studying it in eukaryotes; his father, Arthur, shared the 1959 Nobel for work on making DNA",
+            "k": ["kornberg", "2006"],
+            "n": 0
+        },
+        {
+            "id": "retroviruses",
+            "tier": "power",
+            "t": "Retroviruses like HIV run it backward, copying RNA into DNA; Howard Temin and David Baltimore found the enzyme that does this (1970)",
+            "k": ["retroviruses", "backward", "temin", "baltimore"],
+            "n": 0,
+            "rabbit": "HIV"
+        },
+        {
+            "id": "lac-operon",
+            "tier": "power",
+            "t": "In the lac operon, a repressor sits on the operator and blocks it until lactose is present (Jacob and Monod’s model)",
+            "k": ["lac operon", "repressor", "operator", "monod"],
+            "n": 0,
+            "rabbit": "Lac operon"
+        }
+    ],
+    "trap": {
+        "title": "Transcription or translation?",
+        "body": "The two steps of gene expression sound alike and happen one right after the other. Transcription copies DNA into messenger RNA, inside the nucleus; translation then reads that messenger RNA at a ribosome to build a protein. Players also confuse it with DNA replication, which copies all of a cell’s DNA before the cell divides, and with reverse transcription, which HIV uses to turn RNA into DNA.",
+        "fix": "Listen for the product. RNA polymerase, promoters, the TATA box, uracil replacing thymine, or introns being spliced out mean transcription. Ribosomes, codons, tRNA, or amino acids being linked mean translation. Helicase, primers, Okazaki fragments, or DNA polymerase mean replication.",
+        "line": "Real answer line: <b><u>Transcription</u></b> (prompt on <u>gene expression</u>; do not accept “translation” or “reverse transcription”)"
+    },
+    "tests": {
+        "right": [
+            "Transcription",
+            "transcription",
+            "Transcripion",
+            "DNA transcription",
+            "RNA synthesis"
+        ],
+        "prompt": [
+            "Gene expression"
+        ],
+        "wrong": [
+            "Translation",
+            "DNA replication",
+            "Reverse transcription",
+            "RNA polymerase",
+            "Transcription factor",
+            "Protein synthesis"
+        ]
+    }
+}
+
+out = ROOT / "topics" / "transcription.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", out)

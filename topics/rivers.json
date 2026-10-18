@@ -1,0 +1,504 @@
+{
+  "id": "rivers",
+  "name": "Rivers",
+  "mono": "RIV",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Natural channels of flowing fresh water · Carve valleys and build deltas",
+  "dates": "Carry rain and snowmelt downhill to the sea",
+  "briefing": "Rivers are Earth’s great movers: they carry rain and melted snow downhill toward the sea, carving valleys and canyons as they go. The Colorado River cut the Grand Canyon, the Mississippi drains parts of more than 30 states, and the Amazon pours more water into the ocean than any other river. Where a river finally slows down at its mouth, it drops its mud and sand to build a delta.",
+  "answerHtml": "<b><u>River</u></b>s (accept <u>stream</u>s; prompt on <u>creek</u>s or <u>running water</u>; do not accept “lakes,” “deltas,” “tributaries,” or the name of one specific river)",
+  "accept": [
+    "rivers",
+    "river",
+    "streams",
+    "stream",
+    "river system",
+    "river systems",
+    "rivers and streams",
+    "streams and rivers"
+  ],
+  "prompt": [
+    "running water",
+    "flowing water",
+    "channel",
+    "channels",
+    "waterway",
+    "waterways",
+    "creek",
+    "creeks",
+    "brook",
+    "brooks"
+  ],
+  "reject": [
+    "lake",
+    "lakes",
+    "ocean",
+    "oceans",
+    "sea",
+    "seas",
+    "glacier",
+    "glaciers",
+    "aquifer",
+    "aquifers",
+    "groundwater",
+    "delta",
+    "deltas",
+    "river delta",
+    "river deltas",
+    "estuary",
+    "estuaries",
+    "tributary",
+    "tributaries",
+    "floodplain",
+    "floodplains",
+    "flood plain",
+    "flood plains",
+    "meander",
+    "meanders",
+    "oxbow lake",
+    "oxbow lakes",
+    "canyon",
+    "canyons",
+    "valley",
+    "valleys",
+    "river valley",
+    "river valleys",
+    "river basin",
+    "drainage basin",
+    "watershed",
+    "waterfall",
+    "waterfalls",
+    "canal",
+    "canals",
+    "current",
+    "currents",
+    "ocean currents",
+    "tides",
+    "waves",
+    "gulf stream",
+    "jet stream",
+    "mississippi river",
+    "potomac river",
+    "spoon river anthology",
+    "hudson river school",
+    "nile river",
+    "river nile",
+    "amazon river",
+    "colorado river",
+    "yangtze river",
+    "rio grande",
+    "river styx",
+    "diego rivera",
+    "liver",
+    "livers"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/River",
+  "qb": {
+    "q": "rivers",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "One of these in western Turkey, known to the ancient Greeks as the Maeander [“mee-AN-der”], wound back and forth so much that its name became the English word for such loops. In Australia, a loop that has been cut off from one of these is called a billabong.",
+      "r": "Fast water on the outside of each bend carves a steep cut bank. For 10 points, name these flowing bodies of fresh water, such as the Nile and the Amazon."
+    },
+    {
+      "p": "The scientific study of these features is called potamology, from a Greek word that also forms part of the name of the hippopotamus. Processes caused by these features are called fluvial, from the Latin word for them.",
+      "r": "Smaller ones called tributaries join to form bigger ones. For 10 points, name these bodies of flowing fresh water that carve valleys as they run downhill to the sea."
+    },
+    {
+      "p": "Mesopotamia’s name comes from Greek words meaning the land “between” two of these features. Farmers there dug canals to spread the water of those two, which flood in spring with melted snow from the mountains of what is now Turkey.",
+      "r": "Those two, the Tigris and the Euphrates, spread fertile mud across their floodplains. For 10 points, name these flowing bodies of fresh water, like the Nile."
+    },
+    {
+      "p": "The Hjulström [“YOOL-strum”] curve shows how fast the water in one of these must flow to pick up, carry, or drop grains of each size. Oddly, it takes faster water to lift tiny clay particles than sand, because clay grains stick together.",
+      "r": "These features carry sediment as dissolved load, suspended load, and bed load. For 10 points, name these flowing bodies of fresh water that carve valleys and canyons."
+    },
+    {
+      "p": "Arthur Strahler’s ordering system, which built on earlier work by Robert Horton, ranks the smallest of these, with nothing flowing into them, as “first-order.” When two first-order ones meet, they form a “second-order” one, and so on up the scale.",
+      "r": "The land that drains into one of these is its drainage basin, or watershed. For 10 points, name these bodies of flowing water, such as the Mississippi."
+    },
+    {
+      "p": "Treaties often set borders along the thalweg [“TAHL-veg”] of one of these, the line that follows its deepest channel, from German words meaning “valley way.” A change of course by one of these near El Paso led to the Chamizal [“chah-mee-ZAHL”] border dispute between the United States and Mexico.",
+      "r": "These features drop sand and mud where they meet the sea, building deltas. For 10 points, name these flowing bodies of fresh water, like the Nile and the Amazon."
+    },
+    {
+      "p": "After leading the first known boat trip through the Grand Canyon in 1869, John Wesley Powell named the idea of base level, the lowest point to which one of these can wear down its bed. For most of these features, base level is sea level.",
+      "r": "Young, steep ones carve V-shaped valleys, unlike the U-shaped valleys made by glaciers. For 10 points, name these flowing bodies of water, such as the Colorado."
+    },
+    {
+      "p": "In a process called capture or “piracy,” one of these wears its way back into the land beyond its source until it steals the water of a neighbor. That headward erosion lets the thief grow longer at its upper end.",
+      "r": "Where one of these meets the sea, fresh and salt water mix in a brackish estuary. For 10 points, name these flowing bodies of fresh water."
+    },
+    {
+      "p": "Tributaries called Yazoo [“YAZ-oo”] types, named for one in the state of Mississippi, run alongside a bigger one of these for miles because natural levees block them from joining it. Those levees build up when floodwater drops its heaviest sediment right beside the banks.",
+      "r": "Floods also spread fine mud across flat floodplains. For 10 points, name these flowing bodies of water, such as the Mississippi."
+    },
+    {
+      "p": "A swagman camps beside a billabong in the song “Waltzing Matilda,” using an Australian word for a loop that has been cut off from one of these. Such cut-off loops form when the narrow neck of land between two bends wears through, often during a flood.",
+      "r": "Elsewhere those cut-off loops are called oxbow lakes. For 10 points, name these flowing bodies of fresh water whose winding loops are called meanders."
+    },
+    {
+      "p": "Arizona’s Horseshoe Bend and Utah’s Goosenecks are deep, looping canyons called incised meanders, carved as the land slowly rose while these features kept cutting downward. Trapped between rock walls, such loops can no longer shift sideways.",
+      "r": "The Colorado and the San Juan carved those two canyons. For 10 points, name these flowing bodies of fresh water that carve valleys and canyons."
+    },
+    {
+      "p": "Ecologists call the strip of land and plants along the banks of one of these its riparian [“rih-PAIR-ee-un”] zone, from a Latin word for “bank.” Sediment these features leave behind is called alluvium, and fans of it spread out where they leave the mountains.",
+      "r": "Their discharge, the volume of water flowing past a point each second, is greatest for the Amazon. For 10 points, name these flowing bodies of fresh water."
+    },
+    {
+      "p": "Niagara Falls is a knickpoint, a sudden step in the slope of one of these, and it has slowly worn its way miles back toward Lake Erie as water undercuts its hard top layer of rock, which then breaks off. Many such waterfalls form where water crosses from hard rock onto softer rock.",
+      "r": "These features’ winding loops are called meanders. For 10 points, name these flowing bodies of fresh water, such as the Nile and the Amazon."
+    },
+    {
+      "p": "A hydrograph plots how much water one of these carries over time, and its lag time is the delay between the heaviest rain and the highest flow. Paving over land shortens that lag, because rain rushes off instead of soaking into the ground.",
+      "r": "The volume of water flowing past a point each second is called discharge. For 10 points, name these flowing bodies of water that carry rain and snowmelt to the sea."
+    },
+    {
+      "p": "Braided examples of these features split into many shallow channels around bars of sand and gravel, especially below melting glaciers. Other examples wind back and forth in loops called meanders, which can be cut off to form oxbow lakes.",
+      "r": "Where they slow down at the sea, they drop sediment to build deltas. For 10 points, name these flowing bodies of fresh water, like the Nile, the Amazon, and the Mississippi."
+    }
+  ],
+  "clues": [
+    {
+      "id": "flowing-water",
+      "tier": "giveaway",
+      "t": "Natural channels of flowing fresh water that run downhill from a source, or headwaters, to a mouth, usually at the sea",
+      "k": [
+        "flowing",
+        "fresh water",
+        "headwaters",
+        "mouth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "examples",
+      "tier": "giveaway",
+      "t": "Famous examples include the Nile, the Amazon, the Mississippi, and the Yangtze",
+      "k": [
+        "nile",
+        "amazon",
+        "mississippi",
+        "yangtze"
+      ],
+      "n": 0,
+      "rabbit": "Mississippi River"
+    },
+    {
+      "id": "erosion",
+      "tier": "giveaway",
+      "t": "Running water is the leading cause of erosion on land, carving valleys and canyons like the Grand Canyon",
+      "k": [
+        "erosion",
+        "grand canyon",
+        "valleys",
+        "canyons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tributaries",
+      "tier": "giveaway",
+      "t": "Smaller ones that flow into a bigger one are called tributaries",
+      "k": [
+        "tributaries",
+        "tributary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meanders-oxbows",
+      "tier": "middle",
+      "t": "Their winding loops are called meanders; a loop that gets cut off becomes a curved oxbow lake",
+      "k": [
+        "meanders",
+        "oxbow lake",
+        "oxbow"
+      ],
+      "n": 0,
+      "rabbit": "Lakes"
+    },
+    {
+      "id": "cut-bank",
+      "tier": "middle",
+      "t": "On a bend, fast water erodes the outer bank into a cut bank, while slow water builds a point bar on the inner bank",
+      "k": [
+        "cut bank",
+        "point bar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "deltas",
+      "tier": "middle",
+      "t": "Sediment dropped at the mouth builds a delta, named for the triangle-shaped Greek letter; the Mississippi’s is a bird’s-foot delta",
+      "k": [
+        "delta",
+        "greek letter",
+        "bird’s-foot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "drainage-basin",
+      "tier": "middle",
+      "t": "The land that drains into one is its drainage basin, or watershed; divides like the Continental Divide separate basins",
+      "k": [
+        "drainage basin",
+        "watershed",
+        "continental divide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "floodplains-levees",
+      "tier": "middle",
+      "t": "Floods spread fertile mud across flat floodplains and pile up natural levees along the banks",
+      "k": [
+        "floodplains",
+        "floodplain",
+        "levees"
+      ],
+      "n": 0
+    },
+    {
+      "id": "estuary",
+      "tier": "middle",
+      "t": "Where one meets the sea, fresh and salt water mix in a brackish estuary",
+      "k": [
+        "estuary",
+        "brackish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "v-shaped",
+      "tier": "middle",
+      "t": "Young, steep ones carve V-shaped valleys, unlike the U-shaped valleys carved by glaciers",
+      "k": [
+        "v-shaped",
+        "u-shaped"
+      ],
+      "n": 0,
+      "rabbit": "Glaciers"
+    },
+    {
+      "id": "discharge",
+      "tier": "middle",
+      "t": "Discharge is the volume of water flowing past a point each second; the Amazon’s is by far the greatest",
+      "k": [
+        "discharge",
+        "volume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "load",
+      "tier": "middle",
+      "t": "They carry sediment as dissolved load, suspended load, and bed load, which rolls and bounces along the bottom",
+      "k": [
+        "bed load",
+        "suspended load",
+        "dissolved load"
+      ],
+      "n": 0
+    },
+    {
+      "id": "braided",
+      "tier": "middle",
+      "t": "Braided kinds split into many shallow channels around bars of sand and gravel, often below glaciers",
+      "k": [
+        "braided",
+        "gravel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maeander",
+      "tier": "power",
+      "t": "The word for their loops comes from the Maeander [“mee-AN-der”] in western Turkey, now called the Büyük Menderes",
+      "k": [
+        "maeander",
+        "büyük menderes",
+        "turkey"
+      ],
+      "n": 0
+    },
+    {
+      "id": "potamology",
+      "tier": "power",
+      "t": "Their scientific study is potamology, from a Greek word that also forms part of the name “hippopotamus”",
+      "k": [
+        "potamology",
+        "hippopotamus",
+        "greek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mesopotamia",
+      "tier": "power",
+      "t": "Mesopotamia’s name means the land “between” two of them, the Tigris and the Euphrates",
+      "k": [
+        "mesopotamia",
+        "tigris",
+        "euphrates"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hjulstrom",
+      "tier": "power",
+      "t": "The Hjulström [“YOOL-strum”] curve shows how fast water must flow to erode, carry, or drop grains of each size; sticky clay needs faster water than sand",
+      "k": [
+        "hjulström",
+        "curve",
+        "clay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "strahler",
+      "tier": "power",
+      "t": "In Arthur Strahler’s ordering, which built on Robert Horton’s work, two “first-order” ones (with nothing flowing in) join to make a “second-order” one",
+      "k": [
+        "strahler",
+        "first-order",
+        "second-order"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thalweg",
+      "tier": "power",
+      "t": "The thalweg [“TAHL-veg”], the line along the deepest channel (German for “valley way”), often marks borders; the Rio Grande’s shift caused the Chamizal dispute",
+      "k": [
+        "thalweg",
+        "chamizal",
+        "deepest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "powell-base-level",
+      "tier": "power",
+      "t": "John Wesley Powell, who led the first known boat trip through the Grand Canyon in 1869, named base level, the lowest point one can erode to",
+      "k": [
+        "john wesley powell",
+        "powell",
+        "base level"
+      ],
+      "n": 0
+    },
+    {
+      "id": "piracy",
+      "tier": "power",
+      "t": "In capture or “piracy,” one erodes headward into the land beyond its source and steals a neighbor’s water",
+      "k": [
+        "piracy",
+        "capture",
+        "headward"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yazoo",
+      "tier": "power",
+      "t": "Yazoo-type tributaries, named for one in Mississippi, run alongside the main channel because natural levees block them",
+      "k": [
+        "yazoo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "billabong",
+      "tier": "power",
+      "t": "Australians call a cut-off loop a billabong, a word sung in “Waltzing Matilda”",
+      "k": [
+        "billabong",
+        "waltzing matilda"
+      ],
+      "n": 0
+    },
+    {
+      "id": "incised-meanders",
+      "tier": "power",
+      "t": "Incised meanders like Arizona’s Horseshoe Bend (the Colorado) and Utah’s Goosenecks (the San Juan) were cut as the land rose",
+      "k": [
+        "incised meanders",
+        "horseshoe bend",
+        "goosenecks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "riparian-alluvium",
+      "tier": "power",
+      "t": "Land along their banks is the riparian zone (Latin for “bank”); their landforms are fluvial, and the sediment they leave is alluvium",
+      "k": [
+        "riparian",
+        "fluvial",
+        "alluvium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "niagara-knickpoint",
+      "tier": "power",
+      "t": "Niagara Falls is a knickpoint, a sudden step in the slope, and has worn miles back toward Lake Erie",
+      "k": [
+        "knickpoint",
+        "niagara falls",
+        "lake erie"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydrograph",
+      "tier": "power",
+      "t": "A hydrograph plots flow over time; lag time is the delay between peak rain and peak flow, and paving land shortens it",
+      "k": [
+        "hydrograph",
+        "lag time"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not one famous river",
+    "body": "Tossups on rivers in general love to name famous examples, like the Nile, the Amazon, the Mississippi, and the Colorado, so players blurt out one name. The question wants the whole category, so naming one river is wrong. Players also answer with a river’s parts or landforms, like deltas, meanders, oxbow lakes, or tributaries, which are separate answer lines.",
+    "fix": "Listen for “these bodies of water” or “these features.” If the tossup says “this river” and gives clues about one place, it wants a specific river, like the Mississippi River topic. Saying “streams” is fine, but lakes, deltas, and estuaries are different answers.",
+    "line": "Real answer line: <b><u>River</u></b>s (accept streams; do not accept “lakes,” “deltas,” or the name of a specific river)"
+  },
+  "tests": {
+    "right": [
+      "Rivers",
+      "river",
+      "streams",
+      "Rivrs",
+      "rivers and streams"
+    ],
+    "prompt": [
+      "running water",
+      "creeks"
+    ],
+    "wrong": [
+      "Lakes",
+      "Delta",
+      "Mississippi River",
+      "Glaciers",
+      "Tributaries",
+      "Oceans",
+      "Liver"
+    ]
+  }
+}

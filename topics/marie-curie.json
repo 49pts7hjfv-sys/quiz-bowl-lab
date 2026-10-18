@@ -1,0 +1,490 @@
+{
+  "id": "marie-curie",
+  "name": "Marie Curie",
+  "mono": "MC",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Pioneer of radioactivity · First person to win two Nobel Prizes",
+  "dates": "1867–1934",
+  "briefing": "Marie Curie grew up in Warsaw, Poland, where women were not allowed to attend university, so she moved to Paris and became one of the greatest scientists in history. With her husband, Pierre, she discovered two new elements, polonium and radium, and she coined the word “radioactivity.” She was the first woman to win a Nobel Prize and the first person to win two, in physics in 1903 and in chemistry in 1911.",
+  "answerHtml": "<b><u>Marie Curie</u></b> (accept <u>Maria Skłodowska</u>, <u>Marie Skłodowska-Curie</u>, or <u>Madame Curie</u>; prompt on <u>Curie</u>; do not accept “Pierre Curie” or “Irène Joliot-Curie”)",
+  "accept": [
+    "marie curie",
+    "maria curie",
+    "marie sklodowska curie",
+    "maria sklodowska curie",
+    "marie sklodowska",
+    "maria sklodowska",
+    "sklodowska",
+    "sklodowska curie",
+    "madame curie",
+    "madam curie"
+  ],
+  "prompt": [
+    "curie",
+    "curies",
+    "the curies",
+    "pierre and marie curie",
+    "marie and pierre curie"
+  ],
+  "reject": [
+    "pierre curie",
+    "pierre",
+    "irene curie",
+    "irene joliot curie",
+    "joliot curie",
+    "frederic joliot curie",
+    "frederic joliot",
+    "eve curie",
+    "jacques curie",
+    "bronislawa sklodowska",
+    "bronislawa dluska",
+    "sklodowski",
+    "wladyslaw sklodowski",
+    "curium",
+    "curie temperature",
+    "curie point",
+    "curies law",
+    "henri becquerel",
+    "becquerel",
+    "marie antoinette",
+    "lise meitner",
+    "rosalind franklin",
+    "ernest rutherford"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Marie_Curie",
+  "qb": {
+    "q": "Marie Curie",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "As a young woman, this scientist attended a secret “Flying University,” because the official university in her city did not admit women. She later named one of the elements she discovered after her homeland, which was then divided among three empires.",
+      "r": "For 10 points, name this Polish-born scientist who discovered radium and won Nobel Prizes in both physics and chemistry."
+    },
+    {
+      "p": "This scientist measured the tiny electric currents that uranium’s rays produce in air, using an electrometer built by her husband and his brother Jacques, who had discovered the piezoelectric effect. She was following up on Henri Becquerel’s 1896 discovery that uranium gives off mysterious rays.",
+      "r": "She went on to discover polonium and radium. For 10 points, name this scientist who coined the word “radioactivity.”"
+    },
+    {
+      "p": "In 1898, this scientist found that thorium also gives off radiation, independently of the German physicist Gerhard Schmidt. She noticed that the uranium ore pitchblende was far more radioactive than its uranium alone could explain.",
+      "r": "That led her to discover polonium and radium. For 10 points, name this first woman to win a Nobel Prize."
+    },
+    {
+      "p": "This scientist’s 1903 doctoral thesis was titled _Research on Radioactive Substances_. She did much of the work behind it with her husband in a drafty, leaky shed, where they processed tons of ore.",
+      "r": "For 10 points, name this scientist who won the 1903 Nobel Prize in Physics with her husband and the 1911 Nobel Prize in Chemistry on her own."
+    },
+    {
+      "p": "In 1921, U.S. President Warren Harding presented this scientist with one gram of radium, bought with money raised by American women. She founded the Radium Institute in Paris, and a sister institute later opened in her hometown.",
+      "r": "For 10 points, name this scientist, the first person to win two Nobel Prizes."
+    },
+    {
+      "p": "In 1995, this scientist’s remains were moved to the Panthéon [“pahn-tay-OHN”] in Paris, making her the first woman buried there for her own achievements. After her husband died in a street accident in 1906, she became the first woman to be a professor at the University of Paris.",
+      "r": "She won Nobel Prizes in both physics and chemistry. For 10 points, name this discoverer of polonium and radium."
+    },
+    {
+      "p": "This scientist was nearly left out of the 1903 Nobel Prize in Physics until her husband insisted that her work be honored too. The couple processed tons of ore in a drafty, leaky shed to collect tiny amounts of a new, faintly glowing element.",
+      "r": "That element was radium. For 10 points, name this Polish-born scientist who coined the word “radioactivity.”"
+    },
+    {
+      "p": "This scientist died in 1934 of aplastic anemia, a blood disease probably caused by years of handling radioactive materials. Her daughter Irène and Irène’s husband, Frédéric Joliot [“zhoh-LYOH”], shared the 1935 Nobel Prize in Chemistry.",
+      "r": "For 10 points, name this scientist who discovered radium and polonium with her own husband, Pierre."
+    },
+    {
+      "p": "In 1910, this scientist and André-Louis Debierne isolated radium as a pure metal. She named radium after the Latin word for “ray,” and its compounds glow faintly in the dark.",
+      "r": "Element 96, curium, is named for her and her husband. For 10 points, name this scientist who won two Nobel Prizes."
+    },
+    {
+      "p": "This scientist realized that radiation must come from inside atoms, because a sample’s radiation depended only on how much uranium it held, not on its chemical form. She built on Henri Becquerel’s discovery of the rays given off by uranium.",
+      "r": "For 10 points, name this scientist, the first woman to win a Nobel Prize."
+    },
+    {
+      "p": "In 1911, the French Academy of Sciences narrowly voted not to admit this scientist as a member. During World War I, she set up mobile X-ray units in cars to help army doctors treat wounded soldiers.",
+      "r": "For 10 points, name this two-time Nobel Prize winner who discovered polonium and radium."
+    },
+    {
+      "p": "This scientist’s first research project in Paris studied the magnetic properties of different steels, and while looking for lab space for it, she met the French physicist she married in 1895.",
+      "r": "With him, she later discovered polonium and radium. For 10 points, name this scientist who coined the word “radioactivity.”"
+    },
+    {
+      "p": "This scientist and her husband chose not to patent their method for purifying radium, so that other scientists could use it freely. She founded the Radium Institute in Paris, which became a leading center for research on radiation.",
+      "r": "For 10 points, name this Polish-born scientist, the first person to win two Nobel Prizes."
+    },
+    {
+      "p": "In 1902, after processing tons of pitchblende, this scientist finally isolated about a tenth of a gram of radium chloride. That ore was far more radioactive than its uranium could explain, which convinced her that it held new elements.",
+      "r": "For 10 points, name this scientist who discovered polonium and radium and won Nobel Prizes in physics and chemistry."
+    },
+    {
+      "p": "This scientist worked for years as a governess to help pay for her older sister Bronisława’s medical studies in Paris, before following her there to study physics. She named one of the elements she discovered after her homeland.",
+      "r": "For 10 points, name this Polish-born scientist, the first woman to win a Nobel Prize."
+    }
+  ],
+  "clues": [
+    {
+      "id": "two-nobels",
+      "tier": "giveaway",
+      "t": "First person to win two Nobel Prizes: Physics in 1903 and Chemistry in 1911, the only person to win in two different sciences",
+      "k": [
+        "two nobel prizes",
+        "1903",
+        "1911"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-woman",
+      "tier": "giveaway",
+      "t": "The first woman to win a Nobel Prize",
+      "k": [
+        "first woman",
+        "nobel prize"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elements",
+      "tier": "giveaway",
+      "t": "Discovered the elements polonium and radium with her husband in 1898",
+      "k": [
+        "polonium",
+        "radium",
+        "1898"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radioactivity",
+      "tier": "giveaway",
+      "t": "Coined the word “radioactivity” and pioneered its study",
+      "k": [
+        "radioactivity",
+        "coined"
+      ],
+      "n": 0
+    },
+    {
+      "id": "warsaw",
+      "tier": "giveaway",
+      "t": "Born in Warsaw, Poland, in 1867, she moved to Paris to study at the Sorbonne",
+      "k": [
+        "warsaw",
+        "poland",
+        "sorbonne",
+        "1867"
+      ],
+      "n": 0,
+      "rabbit": "Poland"
+    },
+    {
+      "id": "pierre",
+      "tier": "middle",
+      "t": "Married the French physicist Pierre in 1895; he died in a street accident in 1906",
+      "k": [
+        "pierre",
+        "1895",
+        "1906"
+      ],
+      "n": 0
+    },
+    {
+      "id": "polonium-name",
+      "tier": "middle",
+      "t": "Named polonium after her homeland, Poland, which was then divided among three empires",
+      "k": [
+        "polonium",
+        "homeland",
+        "three empires"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radium-name",
+      "tier": "middle",
+      "t": "Named radium after the Latin word for “ray”; its compounds glow faintly in the dark",
+      "k": [
+        "latin",
+        "ray",
+        "glow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "becquerel",
+      "tier": "middle",
+      "t": "Built on Henri Becquerel’s 1896 discovery of uranium’s rays, and shared the 1903 Physics prize with him and her husband",
+      "k": [
+        "becquerel",
+        "uranium",
+        "1896"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pitchblende",
+      "tier": "middle",
+      "t": "Noticed that pitchblende, a uranium ore, gave off far more radiation than its uranium could explain, so it must hold new elements",
+      "k": [
+        "pitchblende",
+        "uranium ore",
+        "new elements"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shed",
+      "tier": "middle",
+      "t": "She and her husband processed tons of ore in a drafty, leaky shed",
+      "k": [
+        "shed",
+        "tons of ore",
+        "leaky"
+      ],
+      "n": 0
+    },
+    {
+      "id": "family-prizes",
+      "tier": "middle",
+      "t": "Her daughter Irène shared the 1935 Chemistry prize with Frédéric Joliot; her daughter Ève wrote her biography in 1937",
+      "k": [
+        "irène",
+        "frédéric joliot",
+        "1935",
+        "ève"
+      ],
+      "n": 0
+    },
+    {
+      "id": "x-ray-cars",
+      "tier": "middle",
+      "t": "In World War I, she set up mobile X-ray units in cars to help army doctors treat wounded soldiers",
+      "k": [
+        "world war i",
+        "x-ray",
+        "mobile"
+      ],
+      "n": 0,
+      "rabbit": "X-rays"
+    },
+    {
+      "id": "curium",
+      "tier": "middle",
+      "t": "Element 96, curium, is named for her and her husband",
+      "k": [
+        "element 96",
+        "curium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "professor",
+      "tier": "middle",
+      "t": "After her husband’s death in 1906, she became the first woman to be a professor at the University of Paris",
+      "k": [
+        "university of paris",
+        "professor",
+        "1906"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radium-institute",
+      "tier": "middle",
+      "t": "Founded the Radium Institute in Paris; a sister institute later opened in Warsaw",
+      "k": [
+        "radium institute",
+        "warsaw"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flying-university",
+      "tier": "power",
+      "t": "Attended a secret “Flying University” in Warsaw, because the city’s official university did not admit women",
+      "k": [
+        "flying university",
+        "secret"
+      ],
+      "n": 0
+    },
+    {
+      "id": "governess",
+      "tier": "power",
+      "t": "Worked as a governess to help pay for her older sister Bronisława’s medical studies in Paris",
+      "k": [
+        "governess",
+        "bronisława",
+        "sister"
+      ],
+      "n": 0
+    },
+    {
+      "id": "electrometer",
+      "tier": "power",
+      "t": "Measured the tiny currents uranium’s rays make in air with an electrometer built by her husband and his brother Jacques, discoverers of the piezoelectric effect",
+      "k": [
+        "electrometer",
+        "piezoelectric",
+        "jacques"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thorium",
+      "tier": "power",
+      "t": "Found in 1898 that thorium is also radioactive, independently of the German physicist Gerhard Schmidt",
+      "k": [
+        "thorium",
+        "gerhard schmidt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inside-atoms",
+      "tier": "power",
+      "t": "Realized radiation comes from inside atoms: a sample’s radiation depended only on how much uranium it held, not its chemical form",
+      "k": [
+        "inside atoms",
+        "chemical form"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thesis",
+      "tier": "power",
+      "t": "Her 1903 doctoral thesis was titled _Research on Radioactive Substances_",
+      "k": [
+        "doctoral thesis",
+        "radioactive substances"
+      ],
+      "n": 0
+    },
+    {
+      "id": "harding",
+      "tier": "power",
+      "t": "In 1921, President Warren Harding gave her one gram of radium, bought with money raised by American women",
+      "k": [
+        "warren harding",
+        "1921",
+        "one gram"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pantheon",
+      "tier": "power",
+      "t": "In 1995 her remains were moved to the Panthéon in Paris; she was the first woman buried there for her own achievements",
+      "k": [
+        "panthéon",
+        "1995"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nomination",
+      "tier": "power",
+      "t": "She was nearly left out of the 1903 Nobel Prize in Physics until her husband insisted her work be honored too",
+      "k": [
+        "left out",
+        "insisted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "death",
+      "tier": "power",
+      "t": "Died in 1934 of aplastic anemia, a blood disease probably caused by years of handling radioactive materials",
+      "k": [
+        "1934",
+        "aplastic anemia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "debierne",
+      "tier": "power",
+      "t": "In 1910, she and André-Louis Debierne isolated radium as a pure metal",
+      "k": [
+        "debierne",
+        "1910",
+        "pure metal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "academy",
+      "tier": "power",
+      "t": "In 1911, the French Academy of Sciences narrowly voted not to admit her as a member",
+      "k": [
+        "academy of sciences",
+        "narrowly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "steel",
+      "tier": "power",
+      "t": "Her first research project in Paris studied the magnetic properties of steels; looking for lab space, she met her future husband",
+      "k": [
+        "magnetic properties",
+        "steels",
+        "lab space"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-patent",
+      "tier": "power",
+      "t": "She and her husband chose not to patent their method for purifying radium",
+      "k": [
+        "patent",
+        "purifying"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radium-chloride",
+      "tier": "power",
+      "t": "In 1902, after processing tons of pitchblende, she isolated about a tenth of a gram of radium chloride",
+      "k": [
+        "radium chloride",
+        "1902",
+        "tenth of a gram"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Curie?",
+    "body": "Three Curies won Nobel Prizes: this scientist, her husband Pierre (who shared the 1903 Physics prize), and their daughter Irène Joliot-Curie (the 1935 Chemistry prize, with her husband Frédéric Joliot). Saying just “Curie” earns only a prompt, and naming the wrong family member loses the tossup.",
+    "fix": "Growing up in Warsaw, the Flying University, a second Nobel Prize in 1911, and naming polonium all mean this scientist. Pierre clues: piezoelectricity with his brother Jacques and the Curie temperature of magnets. Irène clues: making new radioactive elements and the 1935 prize. Always include her first name.",
+    "line": "Real answer line: <b><u>Marie Curie</u></b> (accept <u>Maria Skłodowska</u>; prompt on <u>Curie</u>; do not accept “Pierre Curie” or “Irène Joliot-Curie”)"
+  },
+  "tests": {
+    "right": [
+      "Marie Curie",
+      "Madame Curie",
+      "Maria Skłodowska",
+      "Marie Sklodowska-Curie",
+      "Marie Currie"
+    ],
+    "prompt": [
+      "Curie",
+      "Pierre and Marie Curie"
+    ],
+    "wrong": [
+      "Pierre Curie",
+      "Irène Joliot-Curie",
+      "Henri Becquerel",
+      "Marie Antoinette",
+      "Curium",
+      "Lise Meitner"
+    ]
+  }
+}

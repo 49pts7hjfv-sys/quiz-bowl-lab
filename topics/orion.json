@@ -1,0 +1,447 @@
+{
+  "id": "orion",
+  "name": "Orion",
+  "mono": "ORI",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Constellation of the Hunter · Home of Betelgeuse, Rigel, and a famous belt",
+  "dates": "Known since ancient times; best seen on winter evenings",
+  "briefing": "Orion is the giant hunter of Greek myth, drawn in the sky with a belt of three bright stars in a row that almost anyone can find on a winter night. One shoulder holds Betelgeuse, a red supergiant so big that, in the Sun’s place, it would reach past the orbit of Mars. The fuzzy “star” in his sword is really the Orion Nebula, a cloud where new stars are being born.",
+  "answerHtml": "<b><u>Orion</u></b> (the constellation; do not accept “Orion Nebula” or “Orion’s Belt”)",
+  "accept": [
+    "orion",
+    "orion constellation",
+    "constellation orion",
+    "orion the hunter"
+  ],
+  "prompt": [],
+  "reject": [
+    "orion nebula",
+    "great orion nebula",
+    "orion belt",
+    "orions belt",
+    "belt of orion",
+    "orion arm",
+    "orion spur",
+    "orion molecular cloud",
+    "orion spacecraft",
+    "orion capsule",
+    "orionids",
+    "betelgeuse",
+    "rigel",
+    "bellatrix",
+    "taurus",
+    "scorpius",
+    "scorpio",
+    "canis major",
+    "canis minor",
+    "gemini",
+    "sirius",
+    "pleiades",
+    "artemis",
+    "perseus",
+    "hercules"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Orion_(constellation)",
+  "qb": {
+    "q": "Orion",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1920, Albert Michelson and Francis Pease used an interferometer at Mount Wilson to measure the angular size of a star in this constellation, the first star besides the Sun ever measured that way. That red supergiant would reach past the orbit of Mars if it replaced the Sun.",
+      "r": "That star, Betelgeuse [“BEE-tul-jooz”], marks one of this figure’s shoulders. For 10 points, name this constellation of the hunter, which also contains Rigel."
+    },
+    {
+      "p": "In late 2019 and early 2020, the red supergiant at one shoulder of this constellation faded so much that skywatchers noticed, an event called the “Great Dimming.” Astronomers concluded that a cloud of dust thrown off by that star had blocked part of its light.",
+      "r": "That star, Betelgeuse, may one day explode as a supernova. For 10 points, name this constellation whose belt is made of three bright stars in a row."
+    },
+    {
+      "p": "In 1880, Henry Draper took the first photograph ever made of a nebula, a glowing cloud in this constellation where new stars are forming. Four bright young stars called the Trapezium light up that cloud.",
+      "r": "That cloud looks like the fuzzy middle “star” of this constellation’s sword. For 10 points, name this constellation that includes Betelgeuse and Rigel."
+    },
+    {
+      "p": "One star in this constellation, Mintaka, lies almost exactly on the celestial equator, so it rises due east and sets due west for people almost everywhere on Earth. Mintaka’s two nearest bright neighbors in the sky are Alnitak and Alnilam, also in this constellation.",
+      "r": "Those three stars form its famous belt. For 10 points, name this constellation of a hunter from Greek myth."
+    },
+    {
+      "p": "In one myth, the earth goddess Gaia sent a giant scorpion to kill this constellation’s namesake after he boasted that he would slay every animal on Earth. Zeus is said to have placed the two enemies on opposite sides of the sky.",
+      "r": "This constellation’s namesake was a great hunter. For 10 points, name this constellation whose brightest stars include Rigel and Betelgeuse."
+    },
+    {
+      "p": "After this constellation’s namesake was blinded by King Oenopion [“ee-NOH-pee-on”] of Chios, he regained his sight by traveling east to face the rising Sun. In Book 11 of the _Odyssey_, Odysseus sees his ghost in the underworld, still driving wild beasts with a bronze club.",
+      "r": "This constellation’s brightest stars are Rigel and Betelgeuse. For 10 points, name this constellation of a great hunter from Greek myth."
+    },
+    {
+      "p": "The dark Horsehead Nebula is silhouetted against glowing gas just south of Alnitak, a star in this constellation. A huge, faint arc of glowing hydrogen called Barnard’s Loop curves around much of this constellation.",
+      "r": "Its brightest stars are a blue supergiant called Rigel [“RYE-jul”] and a red supergiant called Betelgeuse. For 10 points, name this constellation shaped like a hunter."
+    },
+    {
+      "p": "Each October, Earth plows through dust left behind by Halley’s Comet, causing a meteor shower named for this constellation because its meteors seem to streak out of it. This constellation’s star Bellatrix, whose name is Latin for “female warrior,” marks one of its figure’s shoulders.",
+      "r": "Its belt is three bright stars in a row. For 10 points, name this constellation of a hunter, home to Betelgeuse and Rigel."
+    },
+    {
+      "p": "Hubble Space Telescope images of a cloud in this constellation revealed many dusty disks around newborn stars, nicknamed “proplyds,” where planets may be forming. That cloud, about 1,300 light-years away, is the closest region to Earth where many massive stars are being born.",
+      "r": "That cloud hangs from this constellation’s belt as part of its sword. For 10 points, name this constellation whose brightest stars are Rigel and Betelgeuse."
+    },
+    {
+      "p": "The Sun lies in a minor spiral arm of the Milky Way named for this constellation, since many of this constellation’s brightest stars lie in that arm too. In Spanish-speaking countries, three of this constellation’s stars are known as “Las Tres Marías,” or “the Three Marys.”",
+      "r": "Its blue supergiant Rigel marks one of the figure’s feet. For 10 points, name this constellation of a hunter, which also contains Betelgeuse."
+    },
+    {
+      "p": "In one Greek myth, this constellation’s namesake chased the seven daughters of Atlas until Zeus placed them in the sky as the star cluster called the Pleiades [“PLEE-uh-deez”]. Ancient Egyptians linked this constellation to Sah, a god connected with Osiris.",
+      "r": "This constellation faces Taurus, the bull. For 10 points, name this constellation of a mighty hunter, which includes Betelgeuse."
+    },
+    {
+      "p": "This constellation’s fairly faint star Meissa marks the head of its figure, which is often drawn holding a club and a shield. Canis Major and Canis Minor are said to be the dogs that follow this figure across the sky.",
+      "r": "The three stars of its belt point toward Sirius, the brightest star at night. For 10 points, name this constellation of the hunter."
+    },
+    {
+      "p": "Skywatchers in Australia and New Zealand call part of this constellation “the Saucepan,” since from the Southern Hemisphere it appears upside down and its sword looks like the pan’s handle. Its stars Alnitak, Alnilam, and Mintaka form the bottom of the pan.",
+      "r": "Those three stars make up this constellation’s famous belt. For 10 points, name this constellation that contains Rigel and Betelgeuse."
+    },
+    {
+      "p": "Charles Messier gave the numbers 42 and 43 to two parts of a single glowing cloud in this constellation. On a Hertzsprung–Russell diagram, this constellation’s two brightest stars sit near the top on opposite sides, one hot and blue and the other cool and red.",
+      "r": "Those two supergiants are Rigel and Betelgeuse. For 10 points, name this constellation of a Greek hunter."
+    },
+    {
+      "p": "Some myths call this constellation’s namesake a son of Poseidon who could walk across the sea. In one story, Apollo tricked his sister Artemis into shooting at a far-off speck in the waves, which turned out to be this figure swimming.",
+      "r": "The grieving goddess then placed him among the stars. For 10 points, name this constellation of a hunter, whose belt has three bright stars."
+    }
+  ],
+  "clues": [
+    {
+      "id": "hunter",
+      "tier": "giveaway",
+      "t": "Constellation named for a giant hunter in Greek mythology",
+      "k": [
+        "hunter",
+        "greek mythology"
+      ],
+      "n": 0
+    },
+    {
+      "id": "belt",
+      "tier": "giveaway",
+      "t": "Its famous belt is a short, straight row of three bright stars",
+      "k": [
+        "belt",
+        "three bright stars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-bright-stars",
+      "tier": "giveaway",
+      "t": "Contains the bright stars Betelgeuse and Rigel",
+      "k": [
+        "betelgeuse",
+        "rigel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "winter",
+      "tier": "giveaway",
+      "t": "Easy to spot on winter evenings in the Northern Hemisphere",
+      "k": [
+        "winter",
+        "northern hemisphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sword-nebula",
+      "tier": "middle",
+      "t": "The fuzzy middle “star” of its sword is a star-forming nebula (Messier 42), about 1,300 light-years away",
+      "k": [
+        "sword",
+        "messier 42",
+        "star-forming"
+      ],
+      "n": 0,
+      "rabbit": "Nebulae"
+    },
+    {
+      "id": "betelgeuse-red",
+      "tier": "middle",
+      "t": "Betelgeuse, at one shoulder, is a red supergiant that may explode as a supernova someday",
+      "k": [
+        "red supergiant",
+        "shoulder",
+        "supernova"
+      ],
+      "n": 0,
+      "rabbit": "Supernovae"
+    },
+    {
+      "id": "rigel-blue",
+      "tier": "middle",
+      "t": "Rigel, at one foot, is a blue supergiant and usually its brightest star",
+      "k": [
+        "blue supergiant",
+        "foot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scorpion",
+      "tier": "middle",
+      "t": "In one myth, Gaia sent a giant scorpion to kill him, so he and Scorpius were placed on opposite sides of the sky",
+      "k": [
+        "scorpion",
+        "scorpius",
+        "gaia",
+        "opposite sides"
+      ],
+      "n": 0
+    },
+    {
+      "id": "artemis",
+      "tier": "middle",
+      "t": "Some myths make him a son of Poseidon who could walk on the sea; Apollo tricked Artemis into shooting him by mistake",
+      "k": [
+        "artemis",
+        "apollo",
+        "poseidon"
+      ],
+      "n": 0,
+      "rabbit": "Artemis"
+    },
+    {
+      "id": "dogs",
+      "tier": "middle",
+      "t": "Canis Major and Canis Minor are said to be his hunting dogs",
+      "k": [
+        "canis major",
+        "canis minor",
+        "dogs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "belt-pointer",
+      "tier": "middle",
+      "t": "Its belt points one way to Sirius, the brightest star at night, and the other way to Aldebaran, the eye of Taurus the bull",
+      "k": [
+        "sirius",
+        "aldebaran",
+        "taurus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "celestial-equator",
+      "tier": "middle",
+      "t": "Lies on the celestial equator, so it can be seen from almost everywhere on Earth",
+      "k": [
+        "celestial equator",
+        "everywhere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pleiades",
+      "tier": "middle",
+      "t": "In myth he chased the seven daughters of Atlas until Zeus put them in the sky as the Pleiades",
+      "k": [
+        "pleiades",
+        "atlas",
+        "seven daughters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "horsehead",
+      "tier": "middle",
+      "t": "The dark Horsehead Nebula sits just south of its belt star Alnitak",
+      "k": [
+        "horsehead",
+        "alnitak"
+      ],
+      "n": 0
+    },
+    {
+      "id": "michelson-pease",
+      "tier": "power",
+      "t": "In 1920, Michelson and Pease used an interferometer to measure Betelgeuse’s size, the first star besides the Sun measured that way",
+      "k": [
+        "michelson",
+        "pease",
+        "interferometer",
+        "1920"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-dimming",
+      "tier": "power",
+      "t": "Betelgeuse’s “Great Dimming” (late 2019 to early 2020) was most likely caused by a cloud of dust it threw off",
+      "k": [
+        "great dimming",
+        "dust",
+        "2019"
+      ],
+      "n": 0
+    },
+    {
+      "id": "draper",
+      "tier": "power",
+      "t": "Henry Draper took the first photograph ever made of a nebula, the cloud in its sword, in 1880",
+      "k": [
+        "draper",
+        "photograph",
+        "1880"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trapezium",
+      "tier": "power",
+      "t": "Four bright young stars called the Trapezium light up the nebula in its sword",
+      "k": [
+        "trapezium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "proplyds",
+      "tier": "power",
+      "t": "Hubble images of its great nebula revealed “proplyds,” dusty disks around newborn stars where planets may form",
+      "k": [
+        "proplyds",
+        "dusty disks"
+      ],
+      "n": 0,
+      "rabbit": "Star formation"
+    },
+    {
+      "id": "belt-stars",
+      "tier": "power",
+      "t": "The belt stars are Alnitak, Alnilam, and Mintaka; Mintaka lies almost exactly on the celestial equator",
+      "k": [
+        "mintaka",
+        "alnilam",
+        "alnitak"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bellatrix",
+      "tier": "power",
+      "t": "Bellatrix, Latin for “female warrior,” marks his other shoulder",
+      "k": [
+        "bellatrix",
+        "female warrior"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meissa",
+      "tier": "power",
+      "t": "The fairly faint star Meissa marks his head; he is often drawn with a club and a shield",
+      "k": [
+        "meissa",
+        "club",
+        "shield"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meteor-shower",
+      "tier": "power",
+      "t": "An October meteor shower made of dust from Halley’s Comet is named for it",
+      "k": [
+        "meteor shower",
+        "october",
+        "halley"
+      ],
+      "n": 0,
+      "rabbit": "Comets"
+    },
+    {
+      "id": "barnards-loop",
+      "tier": "power",
+      "t": "Barnard’s Loop, a huge faint arc of glowing hydrogen, curves around much of it",
+      "k": [
+        "barnard",
+        "loop",
+        "hydrogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spiral-arm",
+      "tier": "power",
+      "t": "The Sun lies in a minor spiral arm of the Milky Way named for it",
+      "k": [
+        "spiral arm",
+        "milky way"
+      ],
+      "n": 0,
+      "rabbit": "Galaxies"
+    },
+    {
+      "id": "saucepan",
+      "tier": "power",
+      "t": "Australians call its upside-down belt and sword “the Saucepan”; in Spanish its belt stars are “the Three Marys”",
+      "k": [
+        "saucepan",
+        "three marys"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oenopion",
+      "tier": "power",
+      "t": "Blinded by King Oenopion of Chios, he healed by facing the rising Sun; in the _Odyssey_ his ghost hunts in the underworld",
+      "k": [
+        "oenopion",
+        "odyssey",
+        "rising sun"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sah",
+      "tier": "power",
+      "t": "Ancient Egyptians linked it to Sah, a god connected with Osiris",
+      "k": [
+        "osiris",
+        "egyptians"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Star, nebula, or constellation?",
+    "body": "Orion tossups are full of famous pieces of the constellation, and Betelgeuse, Rigel, and the Orion Nebula are all answer lines of their own. A player who recognizes the Great Dimming may blurt “Betelgeuse,” and one who hears about the Trapezium may say “Orion Nebula,” but when the question asks for “this constellation,” both are wrong.",
+    "fix": "Listen for the noun: “this star” wants Betelgeuse or Rigel, “this nebula” wants the Orion Nebula, and “this constellation” wants Orion. Don’t mix Orion up with Scorpius, the scorpion that killed him, or Canis Major, the dog that holds Sirius.",
+    "line": "Real answer line: <b><u>Orion</u></b>"
+  },
+  "tests": {
+    "right": [
+      "Orion",
+      "orion",
+      "Orian",
+      "the constellation Orion",
+      "Orion the Hunter"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Orion Nebula",
+      "Orion's Belt",
+      "Betelgeuse",
+      "Taurus",
+      "Scorpius",
+      "Canis Major"
+    ]
+  }
+}

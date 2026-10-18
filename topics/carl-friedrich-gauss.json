@@ -1,0 +1,463 @@
+{
+  "id": "carl-friedrich-gauss",
+  "name": "Carl Friedrich Gauss",
+  "mono": "CFG",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "German “Prince of Mathematicians” · Number theory, Ceres, and the bell curve",
+  "dates": "1777–1855",
+  "briefing": "Carl Friedrich Gauss was a German mathematician so brilliant that he is called the “Prince of Mathematicians.” A famous story says that as a schoolboy he added up the numbers from 1 to 100 in moments by pairing them into fifty sums of 101. He went on to show how to draw a regular 17-sided polygon with just a compass and straightedge, help astronomers find the lost dwarf planet Ceres, and lend his name to the bell curve.",
+  "answerHtml": "<b><u>Carl Friedrich Gauss</u></b> (accept <u>Gauss</u>)",
+  "accept": [
+    "carl friedrich gauss",
+    "gauss",
+    "karl friedrich gauss",
+    "carl gauss",
+    "karl gauss",
+    "friedrich gauss",
+    "johann carl friedrich gauss",
+    "c f gauss"
+  ],
+  "prompt": [],
+  "reject": [
+    "gausss law",
+    "gauss law",
+    "gauss s law",
+    "gaussian",
+    "gaussian distribution",
+    "gaussian curve",
+    "gaussian elimination",
+    "gauss jordan elimination",
+    "gaussian integers",
+    "gaussian integer",
+    "gauss bonnet theorem",
+    "degauss",
+    "leonhard euler",
+    "euler",
+    "bernhard riemann",
+    "riemann",
+    "adrien marie legendre",
+    "legendre",
+    "pierre de fermat",
+    "fermat",
+    "wilhelm weber",
+    "weber",
+    "sophie germain",
+    "janos bolyai",
+    "bolyai",
+    "richard dedekind",
+    "dedekind",
+    "carl jung"
+  ],
+  "tests": {
+    "right": [
+      "Carl Friedrich Gauss",
+      "Gauss",
+      "Karl Friedrich Gauss",
+      "Carl Gauss",
+      "Gaus",
+      "Carl Fredrich Gauss"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Gauss’s law",
+      "Euler",
+      "Riemann",
+      "Gaussian elimination",
+      "Legendre",
+      "Fermat",
+      "normal distribution"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+  "qb": {
+    "q": "Gauss",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Daniel Kehlmann’s [“KAYL-mahnz”] novel _Measuring the World_ follows this man and the explorer Alexander von Humboldt. This man’s motto, “Pauca sed matura” [“POW-kuh sed mah-TOO-ruh”], meaning “few, but ripe,” explains why he published only work he had polished.",
+      "r": "As a schoolboy, he reportedly added up the numbers from 1 to 100 in moments. For 10 points, name this German “Prince of Mathematicians.”"
+    },
+    {
+      "p": "A unit of magnetic flux density equal to one ten-thousandth of a tesla is named for this man. In 1833, he and the physicist Wilhelm Weber [“VAY-ber”] built one of the first electromagnetic telegraphs, sending signals across the town of Göttingen [“GUHT-ing-un”].",
+      "r": "The normal distribution, or bell curve, is often named for him. For 10 points, name this German mathematician."
+    },
+    {
+      "p": "This man’s Theorema Egregium [“ih-GREE-jee-um”], or “Remarkable Theorem,” shows that the curvature of a surface can be measured without leaving the surface. One result is that no flat map of the round Earth can show every distance correctly.",
+      "r": "He directed the observatory at Göttingen [“GUHT-ing-un”] for nearly fifty years. For 10 points, name this German mathematician who proved the fundamental theorem of algebra in his 1799 doctoral thesis."
+    },
+    {
+      "p": "When the newly found dwarf planet Ceres disappeared into the Sun’s glare in 1801, this man calculated its orbit so well that astronomers found it again close to where he predicted. His 1809 book on the motion of heavenly bodies explained his method of least squares.",
+      "r": "As a boy, he supposedly summed the numbers from 1 to 100 almost instantly. For 10 points, name this “Prince of Mathematicians.”"
+    },
+    {
+      "p": "The first entry in this man’s math diary records his 1796 discovery that a regular 17-sided polygon can be drawn with just a compass and straightedge. In a famous story, he wanted that shape on his tombstone, but the stonecutter refused, saying it would look like a circle.",
+      "r": "As a boy, he quickly added the numbers from 1 to 100 by pairing them. For 10 points, name this German “Prince of Mathematicians.”"
+    },
+    {
+      "p": "In 1796, this man wrote “Eureka” in Greek letters in his diary after proving that every positive whole number is the sum of at most three triangular numbers. His 1801 book _Disquisitiones Arithmeticae_ [“dis-kwiz-ih-tee-OH-nays ar-ith-MET-ih-kye”] introduced the three-line symbol for congruence in modular arithmetic.",
+      "r": "For 10 points, name this German mathematician who, as a schoolboy, famously added the numbers from 1 to 100."
+    },
+    {
+      "p": "Sophie Germain [“zhair-MAN”] sent this man her discoveries in number theory under the false name “Monsieur LeBlanc.” When French troops occupied his hometown of Brunswick in 1806, she asked a French general to make sure he was safe.",
+      "r": "He later used a bell-shaped curve to describe errors in measurements. For 10 points, name this German mathematician."
+    },
+    {
+      "p": "When his old friend Farkas Bolyai [“BOH-yoy”] sent him the new geometry of his son János, which rejects Euclid’s parallel postulate, this man replied that praising it would mean praising himself, since he had reached the same ideas years earlier without publishing them.",
+      "r": "The bell curve is often named for him. For 10 points, name this German mathematician who found the sum of the numbers from 1 to 100 as a boy."
+    },
+    {
+      "p": "While surveying the Kingdom of Hanover, this man invented the heliotrope, a device that uses a mirror to flash sunlight toward faraway survey stations. That survey’s careful measurements of huge triangles led him to study the curvature of surfaces.",
+      "r": "For 10 points, name this German mathematician and astronomer at Göttingen [“GUHT-ing-un”], who is called the “Prince of Mathematicians.”"
+    },
+    {
+      "p": "Before Germany switched to the euro, its 10-mark banknote showed this man’s portrait. In his 1799 doctoral thesis, he gave a proof that every polynomial that is not constant has at least one complex root, a result called the fundamental theorem of algebra.",
+      "r": "The normal distribution’s bell curve is often named for him. For 10 points, name this German mathematician."
+    },
+    {
+      "p": "Adrien-Marie Legendre [“luh-ZHAHN-druh”] published the method of least squares in 1805, but this man claimed that he had used it since 1795, starting a bitter dispute. A method of solving systems of linear equations by row reduction is also named for this man.",
+      "r": "For 10 points, name this mathematician from Brunswick, Germany, who is called the “Prince of Mathematicians.”"
+    },
+    {
+      "p": "This man supervised Bernhard Riemann’s [“REE-mahnz”] doctoral thesis and chose geometry, the last of three topics Riemann offered, for Riemann’s famous 1854 lecture. Richard Dedekind [“DAY-duh-kint”] was also one of this man’s students at Göttingen [“GUHT-ing-un”].",
+      "r": "As a teenager, he showed how to construct a regular 17-sided polygon. For 10 points, name this German mathematician."
+    },
+    {
+      "p": "Numbers of the form a plus b i, in which a and b are both integers, are named for this man, who also popularized the term “complex number.” He gave several different proofs of the law of quadratic reciprocity, which he called the “golden theorem.”",
+      "r": "His 1801 book _Disquisitiones Arithmeticae_ [“dis-kwiz-ih-tee-OH-nays ar-ith-MET-ih-kye”] helped found modern number theory. For 10 points, name this German “Prince of Mathematicians.”"
+    },
+    {
+      "p": "This man showed that a regular polygon can be drawn with compass and straightedge whenever its number of sides is a Fermat prime, such as 17, 257, or 65,537. Pierre Wantzel later proved that no other prime numbers of sides work.",
+      "r": "He also proved the fundamental theorem of algebra. For 10 points, name this German mathematician who, as a boy, quickly summed the numbers from 1 to 100."
+    },
+    {
+      "p": "As a teenager, this man guessed how thinly the prime numbers are spread out among larger and larger numbers, a guess proved in 1896. He is often quoted as calling mathematics “the queen of the sciences” and number theory “the queen of mathematics.”",
+      "r": "The Duke of Brunswick paid for his education. For 10 points, name this German known as the “Prince of Mathematicians.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "prince",
+      "tier": "giveaway",
+      "t": "German mathematician (1777–1855) nicknamed the “Prince of Mathematicians”",
+      "k": [
+        "prince of mathematicians",
+        "german",
+        "1777"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sum-to-100",
+      "tier": "giveaway",
+      "t": "As a schoolboy, reportedly added 1 to 100 in moments by pairing the numbers into 50 sums of 101, for a total of 5,050",
+      "k": [
+        "1 to 100",
+        "5,050",
+        "pairing",
+        "101"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bell-curve",
+      "tier": "giveaway",
+      "t": "The normal distribution, or bell curve, is often named for him",
+      "k": [
+        "normal distribution",
+        "bell curve"
+      ],
+      "n": 0,
+      "rabbit": "Normal distribution"
+    },
+    {
+      "id": "brunswick",
+      "tier": "giveaway",
+      "t": "Born to a poor family in Brunswick, Germany; the Duke of Brunswick paid for his education",
+      "k": [
+        "brunswick",
+        "duke"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heptadecagon",
+      "tier": "middle",
+      "t": "Showed in 1796 that a regular 17-sided polygon can be drawn with only a compass and straightedge; it is the first entry in his math diary",
+      "k": [
+        "17-sided",
+        "compass",
+        "straightedge",
+        "1796"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fundamental-theorem",
+      "tier": "middle",
+      "t": "His 1799 doctoral thesis proved the fundamental theorem of algebra: every polynomial that is not constant has at least one complex root",
+      "k": [
+        "fundamental theorem of algebra",
+        "1799",
+        "thesis"
+      ],
+      "n": 0,
+      "rabbit": "Polynomials"
+    },
+    {
+      "id": "disquisitiones",
+      "tier": "middle",
+      "t": "His 1801 book _Disquisitiones Arithmeticae_ helped found modern number theory and introduced the ≡ sign for congruence in modular arithmetic",
+      "k": [
+        "disquisitiones arithmeticae",
+        "congruence",
+        "modular arithmetic",
+        "1801"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ceres",
+      "tier": "middle",
+      "t": "In 1801, calculated the orbit of the lost dwarf planet Ceres so well that astronomers found it again where he predicted",
+      "k": [
+        "ceres",
+        "dwarf planet",
+        "orbit"
+      ],
+      "n": 0
+    },
+    {
+      "id": "least-squares",
+      "tier": "middle",
+      "t": "Method of least squares: Legendre published it first (1805), but he said he had used it since 1795; he explained it in his 1809 book on heavenly bodies",
+      "k": [
+        "least squares",
+        "legendre",
+        "1805"
+      ],
+      "n": 0
+    },
+    {
+      "id": "observatory",
+      "tier": "middle",
+      "t": "Directed the observatory at the University of Göttingen from 1807 until his death in 1855",
+      "k": [
+        "göttingen",
+        "observatory",
+        "1807"
+      ],
+      "n": 0
+    },
+    {
+      "id": "magnetism",
+      "tier": "middle",
+      "t": "A unit of magnetic flux density (one ten-thousandth of a tesla) is named for him, and so is a law about electric flux",
+      "k": [
+        "magnetic flux density",
+        "tesla",
+        "electric flux"
+      ],
+      "n": 0,
+      "rabbit": "Gauss’s law"
+    },
+    {
+      "id": "telegraph",
+      "tier": "middle",
+      "t": "Built one of the first electromagnetic telegraphs in Göttingen in 1833 with the physicist Wilhelm Weber",
+      "k": [
+        "telegraph",
+        "wilhelm weber",
+        "1833"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prime-guess",
+      "tier": "middle",
+      "t": "As a teenager, guessed how thinly the primes are spread out among large numbers; Hadamard and de la Vallée Poussin proved it in 1896",
+      "k": [
+        "teenager",
+        "primes",
+        "1896",
+        "hadamard"
+      ],
+      "n": 0,
+      "rabbit": "Prime numbers"
+    },
+    {
+      "id": "egregium",
+      "tier": "power",
+      "t": "Theorema Egregium (“Remarkable Theorem”): a surface’s curvature can be measured from within the surface, so no flat map of Earth shows every distance correctly",
+      "k": [
+        "theorema egregium",
+        "remarkable theorem",
+        "curvature",
+        "flat map"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heliotrope",
+      "tier": "power",
+      "t": "Invented the heliotrope, a mirror device that flashes sunlight to faraway stations, while surveying the Kingdom of Hanover",
+      "k": [
+        "heliotrope",
+        "hanover",
+        "survey",
+        "mirror"
+      ],
+      "n": 0
+    },
+    {
+      "id": "motto",
+      "tier": "power",
+      "t": "His motto “Pauca sed matura” means “few, but ripe”: he published only polished work",
+      "k": [
+        "pauca sed matura",
+        "few, but ripe",
+        "motto"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bolyai",
+      "tier": "power",
+      "t": "Told Farkas Bolyai that praising his son János’s non-Euclidean geometry would mean praising himself, since he had the same ideas earlier",
+      "k": [
+        "bolyai",
+        "non-euclidean",
+        "praising himself"
+      ],
+      "n": 0,
+      "rabbit": "Parallel postulate"
+    },
+    {
+      "id": "germain",
+      "tier": "power",
+      "t": "Sophie Germain wrote to him as “Monsieur LeBlanc”; in 1806 she asked a French general to keep him safe in occupied Brunswick",
+      "k": [
+        "sophie germain",
+        "leblanc",
+        "1806"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eureka",
+      "tier": "power",
+      "t": "Wrote “Eureka” in his diary (1796) after proving every positive whole number is a sum of at most three triangular numbers",
+      "k": [
+        "eureka",
+        "triangular numbers",
+        "diary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reciprocity",
+      "tier": "power",
+      "t": "Called the law of quadratic reciprocity the “golden theorem” and proved it in several different ways",
+      "k": [
+        "quadratic reciprocity",
+        "golden theorem"
+      ],
+      "n": 0
+    },
+    {
+      "id": "integers",
+      "tier": "power",
+      "t": "Numbers a + bi with a and b both integers are named for him; he also popularized the term “complex number”",
+      "k": [
+        "integers",
+        "complex number",
+        "a + bi"
+      ],
+      "n": 0,
+      "rabbit": "Complex numbers"
+    },
+    {
+      "id": "riemann",
+      "tier": "power",
+      "t": "Supervised Bernhard Riemann’s thesis and chose the topic of Riemann’s 1854 geometry lecture; Richard Dedekind was also his student",
+      "k": [
+        "riemann",
+        "dedekind",
+        "1854"
+      ],
+      "n": 0,
+      "rabbit": "Bernhard Riemann"
+    },
+    {
+      "id": "fermat-primes",
+      "tier": "power",
+      "t": "Regular polygons with a Fermat prime number of sides (3, 5, 17, 257, 65,537) can be constructed; Pierre Wantzel showed no other primes work",
+      "k": [
+        "fermat prime",
+        "wantzel",
+        "65,537"
+      ],
+      "n": 0,
+      "rabbit": "Pierre de Fermat"
+    },
+    {
+      "id": "elimination",
+      "tier": "power",
+      "t": "A row-reduction method for solving systems of linear equations is named for him",
+      "k": [
+        "row-reduction",
+        "linear equations",
+        "systems"
+      ],
+      "n": 0,
+      "rabbit": "Matrices"
+    },
+    {
+      "id": "kehlmann",
+      "tier": "power",
+      "t": "Daniel Kehlmann’s novel _Measuring the World_ follows him and the explorer Alexander von Humboldt",
+      "k": [
+        "kehlmann",
+        "measuring the world",
+        "humboldt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "banknote",
+      "tier": "power",
+      "t": "His portrait appeared on Germany’s 10-mark banknote before the euro",
+      "k": [
+        "10-mark",
+        "banknote",
+        "euro"
+      ],
+      "n": 0
+    },
+    {
+      "id": "queen",
+      "tier": "power",
+      "t": "Often quoted as calling mathematics “the queen of the sciences” and number theory “the queen of mathematics”",
+      "k": [
+        "queen of the sciences",
+        "queen of mathematics",
+        "queen"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Gauss or Euler?",
+    "body": "Leonhard Euler and Gauss both have dozens of ideas named after them, and both did deep work in number theory, so early clues can fit either one. Other tossups want one of his namesakes instead of the man: Gauss’s law in physics, the normal (“Gaussian”) distribution in statistics, or Gaussian elimination in algebra.",
+    "fix": "Use the life clues. Gauss was German (Brunswick and Göttingen), summed 1 to 100 as a boy, built the 17-sided polygon, and found Ceres; Euler was Swiss, went blind, and solved the Seven Bridges of Königsberg. If the question asks for “this law,” “this distribution,” or “this method,” name the thing, not the man.",
+    "line": "Real answer line: <b><u>Carl Friedrich Gauss</u></b> (accept <u>Gauss</u>)"
+  }
+}
