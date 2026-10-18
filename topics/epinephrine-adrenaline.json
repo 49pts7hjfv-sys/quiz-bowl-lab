@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "The “fight-or-flight” hormone · Made by the adrenal glands above the kidneys",
   "dates": "Isolated by Jokichi Takamine in 1901",
-  "briefing": "When something scares you, your adrenal glands, perched on top of your kidneys, flood your blood with epinephrine, better known as adrenaline. Within seconds your heart pounds, your airways and pupils widen, and your liver pours sugar into your blood, getting you ready for “fight or flight.” Doctors use the very same chemical in EpiPens to stop dangerous allergic reactions.",
+  "briefing": "When something scares you, your adrenal glands, perched on top of your kidneys, flood your blood with epinephrine, better known as adrenaline. Within seconds your heart pounds, your airways and pupils widen, and your liver pours sugar into your blood, getting you ready for “fight or flight.” Doctors use the very same chemical in EpiPens to treat dangerous allergic reactions.",
   "answerHtml": "<b><u>Epinephrine</u></b> (accept <u>adrenaline</u> or <u>adrenalin</u>; prompt on <u>catecholamine</u>; do not accept “norepinephrine” or “noradrenaline”)",
   "accept": [
     "epinephrine",
@@ -394,7 +394,7 @@
     "title": "Epinephrine or norepinephrine?",
     "body": "Norepinephrine (also called noradrenaline) is this hormone’s near-twin: both are catecholamines, both come from the adrenal medulla, and both power the “fight-or-flight” response. Answering the wrong twin loses the tossup. Players also blurt “adrenal glands,” which names the organ rather than the chemical, or “cortisol,” the stress hormone from the gland’s outer layer.",
     "fix": "Norepinephrine is mainly the messenger released by sympathetic nerve endings and by brain cells in the locus coeruleus, so listen for those. EpiPens, anaphylaxis, PNMT, and Takamine mean epinephrine (or adrenaline). If the question asks for “this gland,” say adrenal glands.",
-    "line": "Real answer line: <b><u>Epinephrine</u></b> (accept <u>adrenaline</u>; do not accept “norepinephrine” or “noradrenaline”)"
+    "line": "Real answer line: <b><u>Epinephrine</u></b> (accept <u>adrenaline</u> or <u>adrenalin</u>; prompt on <u>catecholamine</u>; do not accept “norepinephrine” or “noradrenaline”)"
   },
   "tests": {
     "right": [

@@ -433,7 +433,7 @@
     "title": "Whole law, not a piece",
     "body": "This law is built from simpler gas laws, so its clues often mention Boyle’s law (pressure and volume), Charles’s law (volume and temperature), or Avogadro’s law (volume and moles). Those are separate answer lines, and so is the gas constant, R, which is only one part of this equation. The combined gas law is a trap too: it links pressure, volume, and temperature but leaves out the number of moles.",
     "fix": "If the clues include all four quantities, the constant R, real-gas corrections like van der Waals’s, or the kinetic molecular theory’s assumptions, answer with the full law. A few tossups ask for the imaginary gas itself, the “ideal gas,” which is also accepted.",
-    "line": "Real answer line: <b><u>Ideal gas</u></b> law (accept <u>PV = nRT</u>; prompt on <u>gas law</u>)"
+    "line": "Real answer line: <b><u>Ideal gas</u></b> law (accept <u>PV = nRT</u> or <u>ideal gas</u> equation; prompt on <u>gas law</u>)"
   },
   "tests": {
     "right": [

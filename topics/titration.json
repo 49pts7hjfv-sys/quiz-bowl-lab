@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "Lab technique · Finding a solution’s concentration drop by drop",
   "dates": "Developed in France in the late 1700s",
-  "briefing": "In a titration, a chemist slowly drips a base of known strength from a long glass tube called a buret into a flask holding an acid of unknown strength. The moment the acid is used up, a few drops of an indicator called phenolphthalein suddenly turn the liquid pink. By reading how much liquid was added, the chemist can calculate exactly how concentrated the mystery solution was.",
+  "briefing": "In a titration, a chemist slowly drips a base of known concentration from a long glass tube called a buret into a flask holding an acid of unknown concentration. The moment the acid is used up, a few drops of an indicator called phenolphthalein suddenly turn the liquid pink. By reading how much liquid was added, the chemist can calculate exactly how concentrated the mystery solution was.",
   "answerHtml": "<b><u>Titration</u></b> (accept <u>titrimetry</u> or <u>volumetric analysis</u>; accept specific types such as acid-base <u>titration</u>)",
   "accept": [
     "titration",
@@ -76,7 +76,7 @@
       "r": "For 10 points, name this technique in which a solution of known concentration is added drop by drop until a reaction is complete."
     },
     {
-      "p": "The Kjeldahl [“KYEL-dahl”] method estimates the protein in food by turning its nitrogen into ammonia, which is then measured using this technique. The Winkler test uses an iodine-based form of this technique to measure the oxygen dissolved in a water sample.",
+      "p": "The Kjeldahl [“KEL-dahl”] method estimates the protein in food by turning its nitrogen into ammonia, which is then measured using this technique. The Winkler test uses an iodine-based form of this technique to measure the oxygen dissolved in a water sample.",
       "r": "For 10 points, name this lab method that uses a buret and an indicator to find an unknown concentration."
     },
     {
@@ -422,7 +422,7 @@
     "title": "The procedure, not a part",
     "body": "Tossups on this technique are packed with its parts and steps: the buret, the indicator, phenolphthalein, the equivalence point, and the neutralization reaction itself. Players who blurt one of those names lose the points, because the question wants the whole procedure. Filtration is the other trap: it sounds similar, but it separates solids from liquids by pouring a mixture through filter paper.",
     "fix": "Listen for “this technique” or “this procedure.” Burets, indicators, endpoints, and finding an unknown concentration mean titration; filter paper and a funnel mean filtration.",
-    "line": "Real answer line: <b><u>Titration</u></b> (accept <u>titrimetry</u> or <u>volumetric analysis</u>)"
+    "line": "Real answer line: <b><u>Titration</u></b> (accept <u>titrimetry</u> or <u>volumetric analysis</u>; accept specific types such as acid-base <u>titration</u>)"
   },
   "tests": {
     "right": [

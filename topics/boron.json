@@ -109,7 +109,7 @@
       "r": "Slime recipes often use borax, a mineral of this element. For 10 points, name this metalloid, the first element in group 13."
     },
     {
-      "p": "Otto Schott developed a heat-resistant glass containing this element in the 1890s, and that kind of glass is used for lab beakers because it barely expands when heated. Strong, light fibers of this element are used to stiffen aircraft parts and some sports gear.",
+      "p": "Otto Schott developed a heat-resistant glass containing this element in the late 1800s, and that kind of glass is used for lab beakers because it barely expands when heated. Strong, light fibers of this element are used to stiffen aircraft parts and some sports gear.",
       "r": "This element is never found pure in nature. For 10 points, name this metalloid with atomic number 5, found in borax."
     },
     {
@@ -379,10 +379,10 @@
     {
       "id": "schott",
       "tier": "power",
-      "t": "Otto Schott developed the heat-resistant glass in the 1890s; its fibers stiffen aircraft parts and sports gear",
+      "t": "Otto Schott developed the heat-resistant glass in the late 1800s; its fibers stiffen aircraft parts and sports gear",
       "k": [
         "otto schott",
-        "1890s",
+        "late 1800s",
         "fibers"
       ],
       "n": 0

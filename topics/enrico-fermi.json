@@ -82,7 +82,7 @@
       "r": "For 10 points, name this Italian physicist who won the 1938 Nobel Prize and later worked on the Manhattan Project."
     },
     {
-      "p": "During a 1950 lunchtime talk at Los Alamos about flying saucers, this physicist famously asked, “Where is everybody?” A paradox named for him asks why, if the galaxy is so old and so large, no signs of alien civilizations have been found.",
+      "p": "During a 1950 lunchtime conversation at Los Alamos about flying saucers, this physicist asked a question usually quoted as “Where is everybody?” A paradox named for him asks why, if the galaxy is so old and so large, no signs of alien civilizations have been found.",
       "r": "He won the 1938 Nobel Prize in Physics. For 10 points, name this Italian-born physicist whose team achieved the first controlled nuclear chain reaction."
     },
     {
@@ -118,7 +118,7 @@
       "r": "For 10 points, name this Italian physicist whose team built Chicago Pile-1, the first nuclear reactor, in 1942."
     },
     {
-      "p": "The Thomas model of the atom, which treats an atom’s electrons as a kind of gas, also bears this physicist’s name. He studied at the Scuola Normale Superiore [“SKWOH-lah nor-MAH-leh soo-peh-RYOH-reh”] in Pisa before becoming a professor in Rome.",
+      "p": "This physicist studied at the Scuola Normale Superiore [“SKWOH-lah nor-MAH-leh soo-peh-RYOH-reh”] in Pisa before becoming a professor in Rome. Soon after he moved to Columbia University in 1939, his group helped show that uranium nuclei give off extra neutrons when they split, which made a chain reaction seem possible.",
       "r": "For 10 points, name this Italian physicist who won the 1938 Nobel Prize for work with slow neutrons."
     },
     {
@@ -126,7 +126,7 @@
       "r": "For 10 points, name this Italian-American physicist who was born in Rome and won the 1938 Nobel Prize in Physics."
     },
     {
-      "p": "This physicist and Leo Szilard [“SEE-lard”] shared a patent for a “neutronic reactor.” An early computer experiment on a chain of masses joined by springs is named for this man, John Pasta, Stanislaw Ulam, and Mary Tsingou.",
+      "p": "This physicist and Leo Szilard [“SEE-lard”] shared a patent for a “neutronic reactor.” Years earlier in Rome, this man had found that neutrons slowed down by water or paraffin wax were much better at making elements radioactive.",
       "r": "He gave the neutrino its name. For 10 points, name this Italian-born physicist who achieved the first self-sustaining nuclear chain reaction in Chicago."
     }
   ],
@@ -178,7 +178,7 @@
     {
       "id": "slow-neutrons",
       "tier": "middle",
-      "t": "Found that neutrons slowed by paraffin wax are far better at making elements radioactive",
+      "t": "Found that neutrons slowed by paraffin wax or water are far better at making elements radioactive",
       "k": [
         "paraffin",
         "radioactive",
@@ -221,7 +221,7 @@
     {
       "id": "paradox",
       "tier": "middle",
-      "t": "A paradox named for him asks why there are no signs of alien civilizations: “Where is everybody?” (1950)",
+      "t": "A paradox named for him asks why we see no signs of alien civilizations; his 1950 lunchtime question is usually quoted as “Where is everybody?”",
       "k": [
         "where is everybody",
         "alien civilizations",
@@ -388,13 +388,13 @@
       "n": 0
     },
     {
-      "id": "thomas-model",
+      "id": "columbia-neutrons",
       "tier": "power",
-      "t": "The Thomas model of the atom, treating electrons as a gas, also bears his name; he studied at the Scuola Normale Superiore in Pisa",
+      "t": "Studied at the Scuola Normale Superiore in Pisa; at Columbia in 1939, his group helped show that splitting uranium gives off extra neutrons",
       "k": [
-        "thomas",
         "scuola normale",
-        "pisa"
+        "columbia",
+        "extra neutrons"
       ],
       "n": 0
     },
@@ -412,11 +412,10 @@
     {
       "id": "szilard-patent",
       "tier": "power",
-      "t": "Shared a “neutronic reactor” patent with Leo Szilard; an early computer experiment is named for him, Pasta, Ulam, and Tsingou",
+      "t": "Shared a patent for a “neutronic reactor” with Leo Szilard",
       "k": [
         "szilard",
-        "pasta",
-        "ulam"
+        "neutronic reactor"
       ],
       "n": 0
     }

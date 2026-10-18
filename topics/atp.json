@@ -6,8 +6,8 @@
   "qbCategory": "Science · Biology",
   "kicker": "Adenosine triphosphate · The energy currency of every living cell",
   "dates": "Discovered in 1929",
-  "briefing": "ATP, short for adenosine triphosphate, is the energy “money” that every living cell spends. Its three phosphate groups are crammed tightly together, and snapping off the last one releases energy that powers muscles, pumps, and nearly every other job in the cell. Cells never run out because their mitochondria keep rebuilding it from the leftover ADP.",
-  "answerHtml": "<b><u>ATP</u></b> (accept <u>adenosine triphosphate</u>; do not accept “ADP” or “AMP”)",
+  "briefing": "ATP, short for adenosine triphosphate, is the energy “money” that every living cell spends. Its three phosphate groups are crammed tightly together, and snapping off the last one releases energy that powers muscles, pumps, and nearly every other job in the cell. Your cells keep rebuilding it from the leftover ADP, mostly inside their mitochondria.",
+  "answerHtml": "<b><u>ATP</u></b> (accept <u>adenosine triphosphate</u>; do not accept “ADP,” “AMP,” or “ATP synthase”)",
   "accept": [
     "atp",
     "a t p",
@@ -411,7 +411,7 @@
     "title": "ATP, ADP, or the enzyme?",
     "body": "ADP (adenosine diphosphate) is what is left after ATP spends a phosphate, and AMP has only one phosphate, so naming the wrong one loses the tossup. Many questions also describe the spinning enzyme that builds ATP. If the question asks for “this enzyme,” the answer is ATP synthase, not the molecule, and “this organelle” means mitochondria.",
     "fix": "Count the phosphates: “tri” means three, “di” means two. Listen to the noun: “this molecule” or “this nucleotide” that carries energy means ATP; “this enzyme” or “this rotary motor” means ATP synthase.",
-    "line": "Real answer line: <b><u>ATP</u></b> (accept <u>adenosine triphosphate</u>; do not accept “ADP” or “ATP synthase”)"
+    "line": "Real answer line: <b><u>ATP</u></b> (accept <u>adenosine triphosphate</u>; do not accept “ADP,” “AMP,” or “ATP synthase”)"
   },
   "tests": {
     "right": [

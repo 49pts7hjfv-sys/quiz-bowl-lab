@@ -418,7 +418,7 @@
     "title": "Whole process, not one step",
     "body": "Tossups on this technique are full of its steps, like boiling, vaporizing, and condensing, so players blurt “evaporation” or “condensation.” Those are only parts of the process, and evaporation alone lets the vapor escape instead of collecting it. Other separation methods are traps too: filtration pours a mixture through filter paper, and chromatography separates substances as a solvent carries them along paper or through a column.",
     "fix": "If the clues involve boiling points, condensers, fractions of crude oil, or azeotropes, answer distillation; specific types such as “fractional” or “steam” distillation are also accepted. Filter paper means filtration, and spots moving up paper means chromatography.",
-    "line": "Real answer line: <b><u>Distillation</u></b> (accept <u>fractional distillation</u> and other specific types; prompt on <u>fractionation</u>)"
+    "line": "Real answer line: <b><u>Distillation</u></b> (accept <u>distilling</u>; accept specific types such as <u>fractional distillation</u> or <u>steam distillation</u>; prompt on <u>fractionation</u>)"
   },
   "tests": {
     "right": [

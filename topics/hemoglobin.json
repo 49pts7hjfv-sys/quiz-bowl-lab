@@ -66,7 +66,7 @@
       "r": "Its four heme groups each hold an iron ion. For 10 points, name this protein that carries oxygen in red blood cells."
     },
     {
-      "p": "In 1904, Christian Bohr, the father of physicist Niels Bohr, found that carbon dioxide and acid make this protein let go of oxygen more easily, so it unloads extra oxygen in hard-working muscles.",
+      "p": "In 1904, Christian Bohr, the father of physicist Niels Bohr, found that carbon dioxide makes this protein let go of oxygen more easily. Acid has the same effect, so this protein unloads extra oxygen in hard-working muscles.",
       "r": "Each molecule of this protein holds four iron-containing heme groups. For 10 points, name this protein that carries oxygen in red blood cells."
     },
     {
@@ -414,9 +414,9 @@
   ],
   "trap": {
     "title": "Hemoglobin, heme, or myoglobin?",
-    "body": "Heme is only the iron-holding ring inside this protein, and myoglobin is its one-chain cousin that stores oxygen in muscles. They show up together in the same clues: Max Perutz’s Nobel was for hemoglobin, while John Kendrew’s was for myoglobin. Players also blurt “red blood cells” or “iron” as soon as they hear “carries oxygen.”",
+    "body": "Heme is only the iron-holding ring inside this protein, and myoglobin is its one-chain cousin that stores oxygen in muscles. They show up together in the same clues: Max Perutz and John Kendrew shared a Nobel Prize, but Perutz solved hemoglobin while Kendrew solved myoglobin. Players also blurt “red blood cells” or “iron” as soon as they hear “carries oxygen.”",
     "fix": "“This protein” with four chains, cooperative binding, the Bohr effect, or sickle-cell disease means hemoglobin. “Stores oxygen in muscle” or “a single chain” means myoglobin; “these cells” means red blood cells; “this element” means iron.",
-    "line": "Real answer line: <b><u>Hemoglobin</u></b> (accept <u>haemoglobin</u> or <u>Hb</u>; do not accept “myoglobin” or “heme”)"
+    "line": "Real answer line: <b><u>Hemoglobin</u></b> (accept <u>haemoglobin</u>, <u>Hb</u>, or <u>Hgb</u>; do not accept “myoglobin” or “heme”)"
   },
   "tests": {
     "right": [

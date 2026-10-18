@@ -7,12 +7,10 @@
   "kicker": "Charge-storing circuit parts · Their key quantity is measured in farads",
   "dates": "Leyden jar invented 1745–1746",
   "briefing": "A capacitor is a circuit part that stores electric charge on two metal plates kept apart by an insulator. How much charge it holds for each volt is its capacitance, measured in farads after Michael Faraday. Capacitors can dump their energy in a split second, which is why camera flashes use them, and the first one, the Leyden jar, was invented in the 1740s.",
-  "answerHtml": "<b><u>Capacitor</u></b>s (accept <u>condenser</u>s; accept <u>capacitance</u> when the question asks for the quantity; do not accept “resistors,” “inductors,” or “batteries”)",
+  "answerHtml": "<b><u>Capacitor</u></b>s (accept <u>condenser</u>s; prompt on <u>capacitance</u>; do not accept “resistors,” “inductors,” or “batteries”)",
   "accept": [
     "capacitor",
     "capacitors",
-    "capacitance",
-    "capacitances",
     "condenser",
     "condensers",
     "supercapacitor",
@@ -22,7 +20,9 @@
   ],
   "prompt": [
     "leyden jar",
-    "leyden jars"
+    "leyden jars",
+    "capacitance",
+    "capacitances"
   ],
   "reject": [
     "resistor",
@@ -68,7 +68,7 @@
       "r": "For 10 points, name these devices that store electric charge on two plates separated by an insulator, whose key property is measured in farads."
     },
     {
-      "p": "James Clerk Maxwell added a “displacement current” to Ampère’s law to explain the magnetic field in the gap of one of these devices while it charges. The electric field between the plates of an empty one of these devices equals the charge per area divided by the permittivity of free space.",
+      "p": "The “displacement current” that James Clerk Maxwell added to Ampère’s law accounts for the magnetic field in the gap of one of these devices while it charges. The electric field between the plates of an empty one of these devices equals the charge per area divided by the permittivity of free space.",
       "r": "For 10 points, name these circuit elements that store energy in an electric field, often between two parallel plates."
     },
     {
@@ -104,12 +104,12 @@
       "r": "For 10 points, name these devices that store energy in an electric field, often between two parallel plates."
     },
     {
-      "p": "An isolated metal sphere has this quantity equal to four pi times the permittivity of free space times the sphere’s radius. For two parallel plates, this quantity equals the permittivity times the plate area divided by the gap between the plates.",
-      "r": "Inserting a dielectric raises it. For 10 points, name this quantity, the charge stored per volt, which is measured in farads."
+      "p": "Even a lone metal sphere acts as one of these devices, storing an amount of charge per volt equal to four pi times the permittivity of free space times its radius. For one of these devices made of two parallel plates, the charge stored per volt equals the permittivity times the plate area divided by the gap.",
+      "r": "Sliding a dielectric between the plates lets one hold more charge at the same voltage. For 10 points, name these devices rated in farads."
     },
     {
-      "p": "Most smartphone touchscreens find your finger by sensing how it changes this quantity at points on a grid of electrodes. This quantity equals the charge stored on a pair of conductors divided by the voltage between them.",
-      "r": "Its unit is named for Michael Faraday. For 10 points, name this quantity, symbolized C and measured in farads."
+      "p": "Most smartphone touchscreens find your finger by sensing how it disturbs a grid of tiny ones of these devices formed by crisscrossing electrodes under the glass. Dividing the charge on one of these devices by the voltage across it gives a value measured in farads.",
+      "r": "That unit is named for Michael Faraday. For 10 points, name these devices that store charge on two plates separated by an insulator."
     },
     {
       "p": "If the voltage across one of these devices gets too high, its insulating layer can suffer dielectric breakdown and let a spark jump between the plates. A thundercloud and the ground below it act like a giant one of these devices, with air as the insulator.",
@@ -348,9 +348,9 @@
     {
       "id": "sphere",
       "tier": "power",
-      "t": "An isolated sphere’s value equals four pi times the permittivity of free space times its radius",
+      "t": "Even a lone metal sphere acts as one, storing four pi times the permittivity of free space times its radius in charge per volt",
       "k": [
-        "isolated sphere",
+        "lone metal sphere",
         "four pi",
         "radius"
       ],
@@ -359,10 +359,10 @@
     {
       "id": "touchscreen",
       "tier": "power",
-      "t": "Most smartphone touchscreens sense a finger by how it changes this quantity on a grid of electrodes",
+      "t": "Most smartphone touchscreens sense a finger by how it disturbs a grid of tiny ones formed by crisscrossing electrodes",
       "k": [
         "touchscreens",
-        "grid of electrodes"
+        "crisscrossing electrodes"
       ],
       "n": 0
     },
@@ -399,21 +399,21 @@
   ],
   "trap": {
     "title": "Device or quantity?",
-    "body": "This page covers the device and its key quantity together, so the site accepts “capacitor” or “capacitance.” In a real match, listen for the noun: “these devices” or “these circuit elements” wants capacitors, but “this quantity, measured in farads” wants capacitance, and naming the wrong one can be ruled incorrect. Players also mix them up with resistors, inductors, and batteries, which show up in the same circuit questions.",
-    "fix": "Plates, dielectrics, Leyden jars, and stored charge mean capacitor; “this quantity” or “charge per volt” means capacitance. Coils and henries mean inductors, ohms mean resistors, and chemical reactions that push current mean batteries.",
-    "line": "Real answer line: <b><u>Capacitor</u></b>s (accept <u>condenser</u>s); for the quantity measured in farads, <b><u>capacitance</u></b>"
+    "body": "Every tossup on this page asks for the device, so naming its key quantity, capacitance, earns only a prompt here. In a real match, listen for the noun: “these devices” or “these circuit elements” wants capacitors, but “this quantity, measured in farads” wants capacitance, and naming the wrong one can be ruled incorrect. Players also mix them up with resistors, inductors, and batteries, which show up in the same circuit questions.",
+    "fix": "Plates, dielectrics, Leyden jars, and stored charge mean capacitor; a giveaway that asks for “this quantity,” the charge stored per volt, wants capacitance. Coils and henries mean inductors, ohms mean resistors, and chemical reactions that push current mean batteries.",
+    "line": "Real answer line: <b><u>Capacitor</u></b>s (accept <u>condenser</u>s; prompt on <u>capacitance</u>)"
   },
   "tests": {
     "right": [
       "Capacitors",
       "capacitor",
-      "Capacitance",
       "capaciter",
       "Condenser",
       "parallel-plate capacitor"
     ],
     "prompt": [
-      "Leyden jar"
+      "Leyden jar",
+      "Capacitance"
     ],
     "wrong": [
       "Resistor",

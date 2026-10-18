@@ -52,7 +52,7 @@
   },
   "tossups": [
     {
-      "p": "Agnes Pockels measured this property using a homemade trough in her kitchen, and Lord Rayleigh helped get her results published in _Nature_ in 1891. The Eötvös [“UHT-vuhsh”] rule says this property falls roughly in a straight line as temperature rises, reaching zero near a liquid’s critical temperature.",
+      "p": "Agnes Pockels measured this property using a homemade trough in her kitchen, and Lord Rayleigh helped get her results published in _Nature_ in 1891. In a classic classroom experiment, students count how many drops of water they can pile onto a penny, where this property holds the water in a bulging dome until it spills.",
       "r": "For 10 points, name this property that lets water striders walk on a pond, caused by the cohesion of water molecules."
     },
     {
@@ -69,7 +69,7 @@
     },
     {
       "p": "A du Noüy [“doo noo-EE”] ring can be pulled up out of a liquid to measure this property, which has units of newtons per meter. Mercury has a much higher value of this property than water, which is why spilled mercury breaks into shiny beads.",
-      "r": "For 10 points, name this property, usually symbolized gamma, that lets insects called water striders stand on ponds."
+      "r": "For 10 points, name this property, often symbolized gamma, that lets insects called water striders stand on ponds."
     },
     {
       "p": "Joseph Plateau [“plah-TOH”] found that stable soap films meet in threes at angles of 120 degrees, because this property pulls each film into the smallest possible area. The same property makes a thin falling stream of water break up into droplets.",
@@ -80,7 +80,7 @@
       "r": "For 10 points, name this property caused by cohesion, which lets a needle rest on top of water."
     },
     {
-      "p": "Water ripples with wavelengths under about two centimeters are called capillary waves because this property, rather than gravity, mainly pulls them flat again. The Weber number compares a moving fluid’s inertia to this property, and it predicts when a flying drop will shatter.",
+      "p": "Water ripples with wavelengths under about two centimeters are called capillary waves because this property, rather than gravity, mainly pulls them flat again. This property also pulls a soap bubble into a sphere, the shape that encloses its air with the least possible area of film.",
       "r": "For 10 points, name this property, measured in newtons per meter, that makes water bead up into round drops."
     },
     {
@@ -92,11 +92,11 @@
       "r": "For 10 points, name this property that makes a liquid behave as if it had a stretchy skin."
     },
     {
-      "p": "The Bond number compares the pull of gravity on a drop to this property, and drops with a small Bond number stay nearly round. A glass can be filled slightly above its rim, forming a dome of water, because of this property.",
-      "r": "It lets water striders skate across ponds. For 10 points, name this property of liquids that soaps and detergents lower."
+      "p": "Soap and detergent molecules have a water-loving head and an oil-loving tail, so they crowd onto the top of water and lower this property. A glass can be filled slightly above its rim, forming a dome of water, because of this property.",
+      "r": "It lets water striders skate across ponds. For 10 points, name this property that makes a liquid act as if it had a stretchy skin."
     },
     {
-      "p": "Tate’s law says the weight of a drop that falls from a thin tube is proportional to the tube’s radius times this property, so counting drops can measure it. This property is lowered by raising a liquid’s temperature.",
+      "p": "A drop hanging from a faucet or an eyedropper falls only when its weight grows larger than the pull of this property holding it on. This property is lowered by raising a liquid’s temperature.",
       "r": "For 10 points, name this property of liquids that makes a drop pull itself into a sphere and lets small insects stand on water."
     },
     {
@@ -180,7 +180,7 @@
     {
       "id": "units",
       "tier": "middle",
-      "t": "Measured in newtons per meter (the same as joules per square meter) and usually symbolized by the Greek letter gamma",
+      "t": "Measured in newtons per meter (the same as joules per square meter) and often symbolized by the Greek letter gamma",
       "k": [
         "newtons per meter",
         "joules per square meter",
@@ -313,12 +313,12 @@
       "n": 0
     },
     {
-      "id": "eotvos",
+      "id": "penny-drops",
       "tier": "power",
-      "t": "Eötvös rule: it falls roughly linearly with temperature, reaching zero near the liquid’s critical temperature",
+      "t": "In a classic classroom experiment, students count how many drops of water fit on a penny before the bulging dome of water spills",
       "k": [
-        "eötvös",
-        "critical temperature"
+        "penny",
+        "drops"
       ],
       "n": 0
     },
@@ -356,32 +356,33 @@
       "n": 0
     },
     {
-      "id": "weber-number",
+      "id": "soap-bubble",
       "tier": "power",
-      "t": "The Weber number compares a moving fluid’s inertia to it and predicts when a flying drop will shatter",
+      "t": "Pulls a soap bubble into a sphere, the shape that encloses its air with the least area of film",
       "k": [
-        "weber number",
-        "inertia"
+        "soap bubble",
+        "sphere"
       ],
       "n": 0
     },
     {
-      "id": "bond-number",
+      "id": "detergent-molecules",
       "tier": "power",
-      "t": "The Bond number compares gravity’s pull on a drop to it; drops with a small Bond number stay nearly round",
+      "t": "Soap and detergent molecules have a water-loving head and an oil-loving tail, so they crowd onto the top of water and lower it",
       "k": [
-        "bond number",
-        "gravity"
+        "water-loving head",
+        "oil-loving tail"
       ],
       "n": 0
     },
     {
-      "id": "tate",
+      "id": "hanging-drop",
       "tier": "power",
-      "t": "Tate’s law: a falling drop’s weight is proportional to the tube’s radius times this, so counting drops can measure it",
+      "t": "Holds a hanging drop onto a faucet or eyedropper until the drop’s weight grows too large",
       "k": [
-        "tate",
-        "counting drops"
+        "eyedropper",
+        "faucet",
+        "weight"
       ],
       "n": 0
     },

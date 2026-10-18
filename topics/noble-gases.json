@@ -129,7 +129,7 @@
       "r": "For 10 points, name this unreactive group of elements on the far right side of the periodic table."
     },
     {
-      "p": "The heaviest member of this group was named for Yuri Oganessian [“oh-gah-NESS-ee-un”] in 2016, making him only the second person to have an element named for him during his lifetime. Like the names of neon, argon, krypton, and xenon, that element’s name ends in “-on.”",
+      "p": "The heaviest member of this group was named for Yuri Oganessian [“oh-gah-ness-YAHN”] in 2016, making him only the second person to have an element named for him during his lifetime. Like the names of neon, argon, krypton, and xenon, that element’s name ends in “-on.”",
       "r": "Most of these elements are colorless, odorless gases. For 10 points, name this group of elements whose atoms have full outer electron shells."
     },
     {
@@ -161,7 +161,7 @@
       "r": "That gas is radon. For 10 points, name this group of elements, which also includes xenon and neon."
     },
     {
-      "p": "In 2000, chemists in Finland made the first compound of argon, a molecule with hydrogen and fluorine that survives only at extremely low temperatures. Unlike most gases, the members of this group exist as single atoms rather than as molecules.",
+      "p": "In 2000, chemists in Finland made the first neutral compound of argon, a molecule with hydrogen and fluorine that survives only at extremely low temperatures. Unlike most gases, the members of this group exist as single atoms rather than as molecules.",
       "r": "They are found in the rightmost column of the periodic table. For 10 points, name this group of elements, which includes argon and krypton."
     },
     {
@@ -264,7 +264,7 @@
     {
       "id": "ionization",
       "tier": "middle",
-      "t": "Highest first ionization energy in each row; helium’s is the highest of all",
+      "t": "Highest first ionization energy in each of the first six rows; helium’s is the highest of all",
       "k": [
         "ionization energy",
         "highest"
@@ -351,17 +351,17 @@
     {
       "id": "xenon-oxygen",
       "tier": "power",
-      "t": "Bartlett tried xenon because it loses an electron almost as easily as an oxygen molecule; helium and neon form no stable compounds",
+      "t": "Bartlett tried xenon because it loses an electron almost as easily as an oxygen molecule; helium and neon form no known stable compounds under ordinary conditions",
       "k": [
         "oxygen molecule",
-        "no stable compounds"
+        "stable compounds"
       ],
       "n": 0
     },
     {
       "id": "cavendish",
       "tier": "power",
-      "t": "In 1785, Henry Cavendish was left with a tiny bubble of air that would not react, later shown to be argon",
+      "t": "In 1785, Henry Cavendish was left with a tiny bubble of gas that would not react, later shown to be argon",
       "k": [
         "cavendish",
         "1785",
@@ -372,7 +372,7 @@
     {
       "id": "oganesson",
       "tier": "power",
-      "t": "Oganesson, element 118, was named in 2016 for Yuri Oganessian, the second living person honored this way; members’ names end in “-on”",
+      "t": "Oganesson, element 118, was named in 2016 for Yuri Oganessian, the second living person honored this way; like neon and argon, its name ends in “-on”",
       "k": [
         "oganesson",
         "oganessian",
@@ -436,7 +436,7 @@
     {
       "id": "harf",
       "tier": "power",
-      "t": "Chemists in Finland made the first argon compound in 2000; it contains hydrogen and fluorine",
+      "t": "Chemists in Finland made the first neutral argon compound in 2000; it contains hydrogen and fluorine",
       "k": [
         "finland",
         "2000",
@@ -471,7 +471,7 @@
     "title": "The family, not one member",
     "body": "Tossups on this group are full of single-member clues, like neon signs, helium balloons, argon in light bulbs, and radon in basements, which tempt players to blurt one element’s name. But the question wants the whole family. The halogens, one column to the left, are the other trap: they are among the most reactive elements, while this group almost never reacts.",
     "fix": "Listen for “these elements” or “this group,” and answer with the family name. Full outer shells, single atoms, Bartlett’s xenon compound, and Ramsay’s discoveries mean this group; seven valence electrons, salts, and −1 ions mean the halogens.",
-    "line": "Real answer line: <b><u>Noble gases</u></b> (accept <u>group 18</u> or <u>inert gases</u>; prompt on group <u>8</u>)"
+    "line": "Real answer line: <b><u>Noble gases</u></b> (accept <u>group 18</u>, group <u>VIIIA</u>, or group <u>0</u> elements, or <u>inert gases</u>; prompt on group <u>8</u>)"
   },
   "tests": {
     "right": [

@@ -428,7 +428,7 @@
     "title": "Metal, not its minerals",
     "body": "Most clues about this element are really about its compounds: limestone, chalk, marble, gypsum, quicklime, and limewater. Players who answer “limestone” or “calcium carbonate” lose the points when the question wants the element. Its neighbors are traps too: magnesium sits right above it and also makes water hard, and potassium sits just before it on the periodic table.",
     "fix": "If the question asks for “this element” or “this metal,” say calcium (symbol Ca), even when the clue is about a rock or a compound. Atomic number 20, bones and teeth, muscle contraction, and Humphry Davy in 1808 point here; magnesium is element 12, and potassium is element 19.",
-    "line": "Real answer line: <b><u>Calcium</u></b> (accept <u>Ca</u>)"
+    "line": "Real answer line: <b><u>Calcium</u></b> (accept <u>Ca</u>; accept <u>calcium ions</u> or <u>Ca<sup>2+</sup></u>)"
   },
   "tests": {
     "right": [

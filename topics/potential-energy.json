@@ -34,9 +34,7 @@
     "power",
     "momentum",
     "voltage",
-    "electric potential",
     "potential difference",
-    "chemical potential",
     "potential well",
     "lagrangian",
     "hamiltonian"
@@ -59,11 +57,11 @@
       "r": "For a raised object, this quantity equals mass times g times height. For 10 points, name this energy an object stores because of its position."
     },
     {
-      "p": "The virial theorem says that for a stable star cluster, twice the average kinetic energy plus the average of this quantity equals zero. For gravity, this quantity is usually defined as zero at infinite separation, so it is negative at every finite distance.",
+      "p": "For gravity, this quantity is usually defined as zero at infinite separation, so it is negative at every finite distance. Carrying a box up a long ramp or straight up a ladder to the same height adds the same amount of this quantity, because only the change in height matters, not the path taken.",
       "r": "A stretched spring stores one-half k x squared of it. For 10 points, name this stored energy of position, the partner of kinetic energy."
     },
     {
-      "p": "The Lennard-Jones model describes this quantity for a pair of neutral atoms with a repulsive term that depends on the inverse twelfth power of distance and an attractive term that depends on the inverse sixth power. A system rests in stable equilibrium wherever this quantity is at a minimum.",
+      "p": "A system rests in stable equilibrium wherever this quantity is at a minimum. In the pole vault, an athlete’s kinetic energy is stored in the bending pole as the elastic form of this quantity, then turned into the gravitational form as the vaulter rises over the bar.",
       "r": "A boulder perched on a cliff has a lot of it. For 10 points, name this energy stored because of an object’s position."
     },
     {
@@ -87,7 +85,7 @@
       "r": "Adding it to kinetic energy gives mechanical energy. For 10 points, name this energy of position, which turns into motion when an object drops."
     },
     {
-      "p": "Chemists map how this quantity changes as atoms rearrange during a reaction, and the transition state sits at a saddle point on that map. A model named for physicist Philip Morse describes this quantity for the two atoms of a diatomic molecule as their bond stretches.",
+      "p": "Chemists graph how this quantity changes during a reaction, and the height of the hump that rises above the reactants on that graph is the activation energy. In an exothermic reaction, the products end up with less of this quantity than the reactants had.",
       "r": "A drawn bow stores this kind of energy until the arrow is released. For 10 points, name this energy stored because of position or shape."
     },
     {
@@ -352,43 +350,45 @@
       "rabbit": "Voltage"
     },
     {
-      "id": "virial",
+      "id": "path-independent",
       "tier": "power",
-      "t": "Virial theorem: in a stable star cluster, twice the average kinetic energy plus the average of this equals zero",
+      "t": "Carrying a box up a ramp or straight up a ladder to the same height adds the same amount: only the height change matters, not the path",
       "k": [
-        "virial",
-        "star cluster"
+        "ramp",
+        "ladder",
+        "path"
       ],
       "n": 0
     },
     {
-      "id": "lennard-jones",
+      "id": "pole-vault",
       "tier": "power",
-      "t": "The Lennard-Jones model for two neutral atoms has an inverse twelfth-power repulsion and an inverse sixth-power attraction",
+      "t": "In the pole vault, kinetic energy is stored in the bending pole as its elastic form, then turned into its gravitational form",
       "k": [
-        "lennard-jones",
-        "twelfth",
-        "sixth"
+        "pole vault",
+        "bending pole"
       ],
       "n": 0
     },
     {
-      "id": "saddle-point",
+      "id": "reaction-diagram",
       "tier": "power",
-      "t": "Chemists map it as atoms rearrange in a reaction; the transition state sits at a saddle point",
+      "t": "On a graph of it during a chemical reaction, the hump rising above the reactants is the activation energy",
       "k": [
-        "saddle point",
-        "transition state"
+        "activation",
+        "hump",
+        "reaction"
       ],
       "n": 0
     },
     {
-      "id": "morse",
+      "id": "exothermic",
       "tier": "power",
-      "t": "A model named for Philip Morse describes it for the two atoms of a diatomic molecule",
+      "t": "In an exothermic reaction, the products end up with less of it than the reactants had",
       "k": [
-        "morse",
-        "diatomic"
+        "exothermic",
+        "products",
+        "reactants"
       ],
       "n": 0
     },

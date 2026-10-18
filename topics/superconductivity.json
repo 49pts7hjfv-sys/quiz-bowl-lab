@@ -54,7 +54,7 @@
   },
   "tossups": [
     {
-      "p": "Heike Kamerlingh Onnes [“HAY-kuh KAH-mer-ling OH-nus”] discovered this phenomenon in 1911 while cooling mercury with liquid helium to about 4 kelvins. Three years before, Onnes had become the first person to liquefy helium, and he won the 1913 Nobel Prize in Physics for his low-temperature research.",
+      "p": "Heike Kamerlingh Onnes [“HAY-kuh KAH-mer-ling OH-nus”] discovered this phenomenon in 1911 while cooling mercury with liquid helium to about 4 kelvins. Three years before, he had become the first person to liquefy helium, and he won the 1913 Nobel Prize in Physics for his low-temperature research.",
       "r": "For 10 points, name this state in which a material cooled below a critical temperature carries electric current with zero resistance."
     },
     {
@@ -78,7 +78,7 @@
       "r": "Materials in this state can levitate magnets. For 10 points, name this state of zero electrical resistance and perfect diamagnetism."
     },
     {
-      "p": "Fritz and Heinz London wrote equations explaining how a magnetic field dies away within a thin layer, the penetration depth, at the edge of a material in this state. The Ginzburg–Landau theory later described this state using an order parameter.",
+      "p": "A giant particle accelerator being built in Texas, named for this phenomenon because its magnets would rely on it, was canceled by Congress in 1993. Lead shows this phenomenon below about 7 kelvins, but copper, silver, and gold are not known to show it at all.",
       "r": "In the Meissner effect, materials in this state push out magnetic fields. For 10 points, name this state in which electrical resistance drops to zero."
     },
     {
@@ -106,11 +106,11 @@
       "r": "For 10 points, name this state of zero electrical resistance, reached by cooling certain materials below a critical temperature."
     },
     {
-      "p": "In 2015, researchers found that hydrogen sulfide squeezed to enormous pressures reaches this state at about 203 kelvins, a record at the time. Physicists hope to find a material that shows this phenomenon at room temperature and ordinary pressure.",
+      "p": "In 2015, researchers reported that hydrogen sulfide squeezed to enormous pressures reaches this state at about 203 kelvins, a record at the time. Physicists hope to find a material that shows this phenomenon at room temperature and ordinary pressure.",
       "r": "For 10 points, name this state in which electric current flows through a material with zero resistance."
     },
     {
-      "p": "Iron-based materials called pnictides [“NIK-tydz”] joined the list of materials showing this phenomenon in 2008. Classroom demonstrations often cool a ceramic disk with liquid nitrogen until a magnet floats above it, showing the Meissner effect.",
+      "p": "A packed 1987 meeting in New York City, where physicists rushed to report new copper-oxide materials showing this phenomenon, was nicknamed the “Woodstock of physics.” Classroom demonstrations often cool a ceramic disk with liquid nitrogen until a magnet floats above it, showing the Meissner effect.",
       "r": "Bardeen, Cooper, and Schrieffer explained it for ordinary metals in 1957. For 10 points, name this state in which a material loses all electrical resistance."
     }
   ],
@@ -266,23 +266,25 @@
       "n": 0
     },
     {
-      "id": "london",
+      "id": "super-collider",
       "tier": "power",
-      "t": "Fritz and Heinz London’s equations give the penetration depth of a magnetic field at the edge",
+      "t": "A giant particle accelerator being built in Texas, named for it because of its magnets, was canceled by Congress in 1993",
       "k": [
-        "london",
-        "penetration depth"
+        "particle accelerator",
+        "texas",
+        "1993"
       ],
       "n": 0
     },
     {
-      "id": "ginzburg-landau",
+      "id": "lead-not-copper",
       "tier": "power",
-      "t": "The Ginzburg–Landau theory describes it using an order parameter",
+      "t": "Lead shows it below about 7 K, but copper, silver, and gold, the best ordinary conductors, are not known to show it",
       "k": [
-        "ginzburg",
-        "landau",
-        "order parameter"
+        "lead",
+        "copper",
+        "silver",
+        "gold"
       ],
       "n": 0
     },
@@ -374,13 +376,12 @@
       "n": 0
     },
     {
-      "id": "pnictides",
+      "id": "woodstock",
       "tier": "power",
-      "t": "Iron-based pnictides joined the list of materials showing it in 2008",
+      "t": "A packed 1987 New York meeting on new copper-oxide versions of it was nicknamed the “Woodstock of physics”",
       "k": [
-        "pnictides",
-        "iron-based",
-        "2008"
+        "woodstock",
+        "1987"
       ],
       "n": 0
     }

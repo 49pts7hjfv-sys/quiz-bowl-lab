@@ -116,7 +116,7 @@
       "r": "For 10 points, name this organ where most of the nutrients from food are absorbed."
     },
     {
-      "p": "Bile salts break fats in this organ into tiny droplets, then form micelles [“MY-sellz”] that ferry digested fats to its lining. Pancreatic lipase and amylase do most of their work inside this organ.",
+      "p": "Bile salts break fats in this organ into tiny droplets, then form micelles [“my-SELZ”] that ferry digested fats to its lining. Pancreatic lipase and amylase do most of their work inside this organ.",
       "r": "For 10 points, name this organ that lies between the stomach and the large intestine and is lined with villi."
     },
     {
@@ -427,7 +427,7 @@
     "title": "Small or large intestine?",
     "body": "Both are tubes that come after the stomach and both absorb water, so players mix them up; the large intestine is wider but much shorter and holds most of the gut’s bacteria. Saying just “intestine” or “bowel” earns a prompt, so be ready to add “small.” Some tossups ask for one section, especially the duodenum, the C-shaped first part that receives bile and pancreatic juice; the jejunum is the middle and the ileum is the end.",
     "fix": "Villi, chyme from the stomach, bile and pancreatic juice, Peyer’s patches, or vitamin B12 mean the small intestine. The appendix, the cecum, the colon, or squeezing the last water out of waste mean the large intestine. When unsure, say “small intestine,” since not every answer line accepts a single section.",
-    "line": "Real answer line: <b><u>Small intestine</u></b> (prompt on <u>intestine</u> or <u>bowel</u>; do not accept “large intestine”)"
+    "line": "Real answer line: <b><u>Small intestine</u></b> (accept <u>small bowel</u>, <u>duodenum</u>, <u>jejunum</u>, or <u>ileum</u>; prompt on <u>intestine</u>, <u>bowel</u>, or <u>gut</u>; do not accept “large intestine” or “colon”)"
   },
   "tests": {
     "right": [

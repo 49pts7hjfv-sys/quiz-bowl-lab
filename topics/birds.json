@@ -75,7 +75,7 @@
       "r": "Many of their bones are hollow and filled with air. For 10 points, name these feathered, egg-laying animals, which include robins and eagles."
     },
     {
-      "p": "Flightless ratites [“RAT-ites”] such as emus and kiwis lack the keel, a ridge on the breastbone that anchors the big flight muscles of most of these animals. Their fused collarbones form a springy furcula [“FUR-kyoo-luh”], better known as the wishbone.",
+      "p": "Flightless ratites [“RAT-ites”] such as emus and kiwis lack the keel, a ridge on the breastbone that anchors the big flight muscles of most of these animals. Most other members have fused collarbones forming a springy furcula [“FUR-kyoo-luh”], better known as the wishbone.",
       "r": "For 10 points, name this class of feathered animals that includes ostriches, penguins, and eagles."
     },
     {
@@ -83,7 +83,7 @@
       "r": "For 10 points, name these animals with feathers and beaks, often called the only living dinosaurs."
     },
     {
-      "p": "John James Audubon painted 435 life-size plates for a giant book about these animals, published in parts from 1827 to 1838. The branch of science that studies these animals is called ornithology.",
+      "p": "John James Audubon’s giant book about these animals, published in parts from 1827 to 1838, reproduced his paintings in 435 life-size, hand-colored plates. The branch of science that studies these animals is called ornithology.",
       "r": "Examples include robins, eagles, owls, and penguins. For 10 points, name this class of feathered, egg-laying animals that descended from dinosaurs."
     },
     {
@@ -103,7 +103,7 @@
       "r": "For 10 points, name these animals, the only living creatures covered in feathers, which include eagles and owls."
     },
     {
-      "p": "The last few tail vertebrae of these animals are fused into a pygostyle [“PYE-guh-style”], which supports their tail feathers, and many of their hip bones are fused into a synsacrum [“sin-SAY-krum”]. Their bones are often hollow, with thin inner struts for strength.",
+      "p": "The last few tail vertebrae of these animals are fused into a pygostyle [“PYE-guh-style”], which supports their tail feathers, and many of their lower-back vertebrae are fused into a synsacrum [“sin-SAY-krum”] that is joined to the hips. Their bones are often hollow, with thin inner struts for strength.",
       "r": "Most of them can fly. For 10 points, name this class of feathered vertebrates that lay hard-shelled eggs."
     },
     {
@@ -123,7 +123,7 @@
       "r": "They lay hard-shelled eggs and have toothless beaks. For 10 points, name these feathered animals, which include eagles and penguins."
     },
     {
-      "p": "More than half of all species in this class are passerines [“PASS-uh-reenz”], a group with feet built for perching, and many passerines learn their songs from adults. Many members of this class store food in a pouch called a crop before it reaches the gizzard.",
+      "p": "More than half of all species in this class are passerines [“PASS-uh-rynz”], a group with feet built for perching, and many passerines learn their songs from adults. Many members of this class store food in a pouch called a crop before it reaches the gizzard.",
       "r": "The largest living member is the ostrich. For 10 points, name this class of feathered animals."
     }
   ],
@@ -322,7 +322,7 @@
     {
       "id": "pygostyle",
       "tier": "power",
-      "t": "Fused tail bones form a pygostyle that holds the tail feathers; fused hip bones form a synsacrum",
+      "t": "Fused tail bones form a pygostyle that holds the tail feathers; fused lower-back vertebrae form a synsacrum",
       "k": [
         "pygostyle",
         "synsacrum"
@@ -343,7 +343,7 @@
     {
       "id": "audubon",
       "tier": "power",
-      "t": "John James Audubon painted 435 life-size plates of them, published from 1827 to 1838",
+      "t": "John James Audubon’s paintings of them filled 435 life-size, hand-colored plates, published from 1827 to 1838",
       "k": [
         "audubon",
         "life-size",
@@ -431,7 +431,7 @@
     "title": "Dinosaurs, reptiles, or birds?",
     "body": "Many tossups on this answer lead with dinosaur clues such as Archaeopteryx, Microraptor, and theropods, so players blurt “dinosaurs,” which is too general and earns only a prompt at best. Others hear “lay eggs,” “cloaca,” or “crocodiles” and say “reptiles.” Pterosaurs were flying reptiles, not birds and not dinosaurs.",
     "fix": "Hold on for feathers, beaks, the syrinx, the gizzard, or the keel, and if a prompt comes, say birds (or Aves). Aristophanes’s comedy _The Birds_ is a separate literature answer, so listen for “this play” before answering it.",
-    "line": "Real answer line: <b><u>Birds</u></b> (accept <u>Aves</u>; prompt on <u>dinosaurs</u>)"
+    "line": "Real answer line: <b><u>Birds</u></b> (accept <u>Aves</u> or <u>avians</u>; prompt on <u>dinosaurs</u>)"
   },
   "tests": {
     "right": [

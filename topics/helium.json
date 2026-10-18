@@ -5,7 +5,7 @@
   "category": "Chemistry",
   "qbCategory": "Science · Chemistry",
   "kicker": "Element 2 · The noble gas discovered in the Sun before Earth",
-  "dates": "Seen in the Sun, 1868; found on Earth, 1895",
+  "dates": "Seen in the Sun, 1868; isolated on Earth, 1895",
   "briefing": "Helium was discovered in the Sun before anyone found it on Earth: in 1868, astronomers spotted a mysterious yellow line in sunlight and named the new element after the Greek word for “Sun.” It is the second-lightest element and a noble gas that almost never reacts, which makes it a safe gas for party balloons and blimps. Chilled close to absolute zero, liquid helium becomes a strange “superfluid” that can creep up the walls of its container.",
   "answerHtml": "<b><u>Helium</u></b> (accept <u>He</u>)",
   "accept": [
@@ -58,11 +58,11 @@
       "r": "This element is the second-lightest of all. For 10 points, name this light, unreactive gas used to fill party balloons."
     },
     {
-      "p": "Heike Kamerlingh Onnes [“KAH-mer-ling OH-nes”] first turned this element into a liquid in 1908, then used that liquid to discover superconductivity in mercury. This element has the lowest boiling point of any element, about 4 kelvins.",
+      "p": "Heike Kamerlingh Onnes [“KAH-mer-ling ON-us”] first turned this element into a liquid in 1908, then used that liquid to discover superconductivity in mercury. This element has the lowest boiling point of any element, about 4 kelvins.",
       "r": "Balloons filled with this gas float because it is much less dense than air. For 10 points, name this noble gas, element number 2."
     },
     {
-      "p": "In 1937, Pyotr Kapitsa [“KAH-pit-sah”] helped discover that below about 2.2 kelvins, the liquid form of this element flows with no viscosity at all, a state called superfluidity. Such a superfluid can even creep up and over the walls of its container.",
+      "p": "In 1937, Pyotr Kapitsa [“kuh-PEET-suh”] helped discover that below about 2.2 kelvins, the liquid form of this element flows with no viscosity at all, a state called superfluidity. Such a superfluid can even creep up and over the walls of its container.",
       "r": "This noble gas is the second-lightest element. For 10 points, name this element, which fills party balloons."
     },
     {
@@ -74,7 +74,7 @@
       "r": "This gas is used to fill party balloons. For 10 points, name this unreactive gas, the second element on the periodic table."
     },
     {
-      "p": "In 1895, William Ramsay became the first to identify this element on Earth, in gas released when the uranium mineral cleveite was treated with acid. Its spectrum matched a yellow line that astronomers had seen in sunlight 27 years earlier.",
+      "p": "In 1895, William Ramsay isolated this element on Earth from gas released when the uranium mineral cleveite was treated with acid. Its spectrum matched a yellow line that astronomers had seen in sunlight 27 years earlier.",
       "r": "This noble gas is much lighter than air. For 10 points, name this element, the second most abundant in the universe."
     },
     {
@@ -204,7 +204,7 @@
     {
       "id": "ramsay",
       "tier": "middle",
-      "t": "William Ramsay first identified it on Earth in 1895, in gas from the uranium mineral cleveite",
+      "t": "William Ramsay isolated it on Earth in 1895, from gas given off by the uranium mineral cleveite",
       "k": [
         "ramsay",
         "cleveite",

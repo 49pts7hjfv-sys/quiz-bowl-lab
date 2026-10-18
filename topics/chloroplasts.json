@@ -420,7 +420,7 @@
     "title": "Chloroplast or chlorophyll?",
     "body": "Chlorophyll is the green pigment; chloroplasts are the organelles that hold it. The two words look almost alike, so a fast buzz on “green” or “captures light” can come out wrong. Thylakoids and the stroma are parts of the organelle, and mitochondria are its look-alike cousin, since both have two membranes and their own DNA.",
     "fix": "Listen for the noun. “This organelle” or “this plastid” means chloroplast; “this pigment” or “this molecule” with a magnesium ion at its center means chlorophyll; “these stacked sacs” means thylakoids. Breaking down sugar for energy means mitochondria instead.",
-    "line": "Real answer line: <b><u>Chloroplasts</u></b> (accept <u>chloroplast</u>; prompt on <u>plastids</u>; do not accept “chlorophyll”)"
+    "line": "Real answer line: <b><u>Chloroplasts</u></b> (accept <u>chloroplast</u>; prompt on <u>plastids</u>; do not accept “chlorophyll” or “chromoplasts”)"
   },
   "tests": {
     "right": [
