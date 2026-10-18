@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "Separating a mixture by how fast its parts travel · From ink to crime labs",
   "dates": "Named by Mikhail Tsvet, 1906",
-  "briefing": "Chromatography separates a mixture by letting its parts race through a material at different speeds. Put a dot of black marker on paper, dip the edge in water, and the dot splits into bands of blue, pink, and yellow as the water climbs. Russian-Italian botanist Mikhail Tsvet used a tube packed with chalk to separate the colored pigments in leaves, and he named the method “color writing.” Crime labs use it to identify inks, drugs, and other evidence.",
+  "briefing": "Chromatography separates a mixture by letting its parts race through a material at different speeds: put a dot of black marker on paper, dip the edge in water, and the dot can split into bands of blue, pink, and yellow as the water climbs. Russian-Italian botanist Mikhail Tsvet used a tube packed with chalk to separate the colored pigments in leaves, and he named the method “color writing.” Crime labs use it to identify inks, drugs, and other evidence.",
   "answerHtml": "<b><u>Chromatography</u></b> (accept specific types like <u>paper chromatography</u>, <u>gas chromatography</u>, or <u>thin-layer chromatography</u>; do not accept “electrophoresis”)",
   "accept": [
     "chromatography",
@@ -73,7 +73,7 @@
       "r": "For 10 points, name this lab technique that separates a mixture as a mobile phase carries it past a stationary phase."
     },
     {
-      "p": "The van Deemter [“DEEM-ter”] equation describes how the efficiency of a column used in this technique depends on the speed of the flowing liquid or gas. That efficiency is often measured by counting “theoretical plates,” an idea borrowed from distillation.",
+      "p": "The efficiency of a column used in this technique is often measured by counting “theoretical plates,” an idea borrowed from distillation. In the classic leaf-pigment version of this technique, orange carotene usually travels farthest, while chlorophyll b lags behind the other pigments.",
       "r": "For 10 points, name this separation technique, whose paper version can split black ink into several colors."
     },
     {
@@ -121,7 +121,7 @@
       "r": "For 10 points, name this technique, used to split marker ink into separate colors on a strip of paper."
     },
     {
-      "p": "In the paper form of this technique, the true stationary phase is a thin layer of water held by the paper’s cellulose fibers. Mikhail Tsvet [“TSVET”] invented this technique in the early 1900s while studying plant pigments.",
+      "p": "In the paper form of this technique, chemists often describe the stationary phase as a thin layer of water held by the paper’s cellulose fibers. Mikhail Tsvet [“TSVET”] invented this technique in the early 1900s while studying plant pigments.",
       "r": "For 10 points, name this technique that separates a mixture as a mobile phase carries its parts along at different speeds."
     }
   ],
@@ -288,15 +288,16 @@
       "n": 0
     },
     {
-      "id": "van-deemter",
+      "id": "carotene-order",
       "tier": "power",
-      "t": "The van Deemter equation relates a column’s efficiency to the flow speed of the mobile phase",
+      "t": "In the classic leaf-pigment lab, orange carotene usually travels farthest, while chlorophyll b lags behind the other pigments",
       "k": [
-        "van deemter",
-        "efficiency",
-        "flow speed"
+        "carotene",
+        "farthest",
+        "chlorophyll b"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Chlorophyll"
     },
     {
       "id": "plates",
@@ -422,7 +423,7 @@
     {
       "id": "cellulose",
       "tier": "power",
-      "t": "In the paper form, the true stationary phase is water held by the paper’s cellulose fibers",
+      "t": "In the paper form, the stationary phase is often described as water held by the paper’s cellulose fibers",
       "k": [
         "cellulose",
         "water"

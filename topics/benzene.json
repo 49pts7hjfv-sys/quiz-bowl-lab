@@ -73,11 +73,11 @@
   },
   "tossups": [
     {
-      "p": "In 1929, Kathleen Lonsdale used X-ray crystallography to show that this compound’s ring is flat, by studying a version with six methyl groups attached. August Kekulé [“KAY-kuh-lay”] had proposed its six-sided ring in 1865.",
+      "p": "Vanillin, which gives vanilla its flavor, and cinnamaldehyde [“sin-uh-MAL-duh-hyde”], which flavors cinnamon, are built on this compound’s ring; pleasant smells like theirs are why chemists first called its family of compounds “aromatic.” August Kekulé [“KAY-kuh-lay”] proposed its six-sided ring in 1865.",
       "r": "For 10 points, name this flat, ring-shaped hydrocarbon made of six carbon atoms and six hydrogen atoms, the simplest aromatic compound."
     },
     {
-      "p": "Michael Faraday discovered this compound in 1825 in the oily residue left over from making gas for lamps, and he called it “bicarburet of hydrogen.” Eilhard Mitscherlich [“MIT-sher-likh”] made it in 1833 by heating an acid from a tree resin with lime.",
+      "p": "Eilhard Mitscherlich [“MIT-sher-likh”] made this compound in 1833 by heating an acid from a tree resin with lime. Eight years earlier, Michael Faraday had found it in the oily residue left over from making gas for lamps and called it “bicarburet of hydrogen.”",
       "r": "For 10 points, name this six-carbon ring compound, the simplest aromatic hydrocarbon, whose ring August Kekulé proposed."
     },
     {
@@ -121,7 +121,7 @@
       "r": "For 10 points, name this aromatic hydrocarbon, whose molecule is a hexagon of six carbon atoms, each bonded to one hydrogen."
     },
     {
-      "p": "In NMR spectra, the hydrogen atoms of this compound show up near 7 parts per million, partly because its circulating electrons create a ring current. Naphthalene, the chemical in old-fashioned mothballs, is two of this compound’s rings fused together.",
+      "p": "Naphthalene, the chemical in old-fashioned mothballs, is two of this compound’s rings fused together. Aspirin and acetaminophen, two common pain relievers, each contain one of this compound’s rings with other groups attached.",
       "r": "For 10 points, name this simplest aromatic hydrocarbon, a flat ring of six carbon atoms discovered by Michael Faraday."
     },
     {
@@ -296,13 +296,13 @@
       "n": 0
     },
     {
-      "id": "lonsdale",
+      "id": "aromatic-smells",
       "tier": "power",
-      "t": "Kathleen Lonsdale’s 1929 X-ray study of a version with six methyl groups showed the ring is flat",
+      "t": "Vanillin (vanilla) and cinnamaldehyde (cinnamon) are built on its ring; pleasant smells like theirs are why chemists first called its family “aromatic”",
       "k": [
-        "lonsdale",
-        "1929",
-        "x-ray"
+        "vanillin",
+        "cinnamaldehyde",
+        "pleasant smells"
       ],
       "n": 0
     },
@@ -385,13 +385,13 @@
       "rabbit": "Polymers"
     },
     {
-      "id": "ring-current",
+      "id": "medicines",
       "tier": "power",
-      "t": "In NMR spectra, its hydrogens show up near 7 parts per million, partly because of a ring current",
+      "t": "Aspirin and acetaminophen, two common pain relievers, each contain one of its rings with other groups attached",
       "k": [
-        "ring current",
-        "parts per million",
-        "nmr"
+        "aspirin",
+        "acetaminophen",
+        "pain relievers"
       ],
       "n": 0
     },

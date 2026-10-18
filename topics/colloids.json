@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "Tiny particles spread through another substance · Milk, fog, and gelatin",
   "dates": "Named by Thomas Graham, 1861",
-  "briefing": "A colloid is a mixture whose particles are much bigger than most molecules but still too small to see or to settle out, so they stay spread through another substance. Milk, fog, whipped cream, and gelatin are all colloids. Shine a flashlight through one and the beam lights up, because the particles scatter light, a trick called the Tyndall effect. Scottish chemist Thomas Graham named them in 1861 from the Greek word for “glue.”",
+  "briefing": "A colloid is a mixture whose particles are much bigger than most molecules but still too small to see or to settle out, so they stay spread through another substance, as in milk, fog, whipped cream, and gelatin. Shine a flashlight through one and the beam lights up, because the particles scatter light, a trick called the Tyndall effect. Scottish chemist Thomas Graham named them in 1861 from the Greek word for “glue.”",
   "answerHtml": "<b><u>Colloids</u></b> (accept <u>colloid</u>al dispersions or <u>colloid</u>al suspensions; prompt on heterogeneous <u>mixture</u>s or <u>dispersion</u>s; do not accept “suspension” or “solution” alone)",
   "accept": [
     "colloids",
@@ -83,7 +83,7 @@
       "r": "For 10 points, name these mixtures, such as mayonnaise and whipped cream, which fall between solutions and suspensions in particle size."
     },
     {
-      "p": "DLVO theory explains how stable these mixtures are by weighing van der Waals attraction between their particles against repulsion from the charged layers around them. Adding salt can make their particles clump together, a process called flocculation or coagulation.",
+      "p": "Butter and milk are both emulsions, a kind of these mixtures, but butter holds water droplets in fat, while milk holds fat droplets in water. Adding salt can make the particles in many of these mixtures clump together, a process called flocculation or coagulation.",
       "r": "For 10 points, name these mixtures, like fog and gelatin, whose particles scatter a beam of light in the Tyndall effect."
     },
     {
@@ -91,11 +91,11 @@
       "r": "For 10 points, name these mixtures whose particles are too small to settle out, such as milk and fog."
     },
     {
-      "p": "The Schulze–Hardy rule says that ions with a higher charge, opposite to that of the particles, are far better at making these mixtures clump together. River deltas form partly because fine clay particles spread through river water clump together when they meet salty seawater.",
+      "p": "River deltas form partly because fine clay particles spread through river water clump together when they meet salty seawater. Electrostatic precipitators clean smoke, one of these mixtures, out of factory chimneys by giving its tiny particles an electric charge and then collecting them on metal plates.",
       "r": "For 10 points, name these mixtures whose particles, between about 1 and 1,000 nanometers across, scatter light in the Tyndall effect."
     },
     {
-      "p": "The zeta potential measures the electric potential near the surface of the particles in these mixtures, and a large value keeps the particles from sticking together. Because those particles carry charge, they drift toward an electrode in an electric field, a process called electrophoresis.",
+      "p": "Because the particles in many of these mixtures carry electric charge, they drift toward an electrode in an electric field, a process called electrophoresis. Those particles usually all carry the same kind of charge, so they repel each other instead of clumping together.",
       "r": "For 10 points, name these mixtures, which include emulsions, foams, and gels, whose particles never settle out."
     },
     {
@@ -199,7 +199,7 @@
     {
       "id": "emulsions",
       "tier": "middle",
-      "t": "Emulsions are liquid in liquid, like milk and mayonnaise, where egg yolk keeps oil drops spread through water",
+      "t": "Emulsions are liquid in liquid, like milk and mayonnaise; in mayonnaise, egg yolk keeps oil drops spread through water",
       "k": [
         "emulsions",
         "mayonnaise",
@@ -256,7 +256,7 @@
     {
       "id": "brownian",
       "tier": "middle",
-      "t": "Their particles jiggle randomly in Brownian motion, first seen by Robert Brown in 1827",
+      "t": "Their particles jiggle randomly in Brownian motion, named for Robert Brown, who saw it in 1827",
       "k": [
         "brownian motion",
         "robert brown",
@@ -311,7 +311,7 @@
     {
       "id": "svedberg-perrin",
       "tier": "power",
-      "t": "1926: The Svedberg (Chemistry Nobel; invented the ultracentrifuge) and Jean Perrin (Physics Nobel) were honored for studying them",
+      "t": "1926 Nobels: The Svedberg (Chemistry; invented the ultracentrifuge) for studying them, and Jean Perrin (Physics) partly for experiments on how their particles settle",
       "k": [
         "svedberg",
         "ultracentrifuge",
@@ -333,16 +333,15 @@
       "rabbit": "Albert Einstein"
     },
     {
-      "id": "dlvo",
+      "id": "butter-milk",
       "tier": "power",
-      "t": "DLVO theory weighs van der Waals attraction against electric repulsion to explain how stable they are",
+      "t": "Butter holds water droplets in fat, while milk holds fat droplets in water; both are emulsions",
       "k": [
-        "dlvo",
-        "van der waals",
-        "repulsion"
+        "butter",
+        "water droplets",
+        "fat droplets"
       ],
-      "n": 0,
-      "rabbit": "Van der Waals forces"
+      "n": 0
     },
     {
       "id": "flocculation",
@@ -356,12 +355,13 @@
       "n": 0
     },
     {
-      "id": "schulze-hardy",
+      "id": "precipitators",
       "tier": "power",
-      "t": "Schulze–Hardy rule: oppositely charged ions with higher charges clump the particles far more effectively",
+      "t": "Electrostatic precipitators clean smoke from factory chimneys by charging its tiny particles and collecting them on metal plates",
       "k": [
-        "schulze–hardy",
-        "higher charges"
+        "electrostatic precipitators",
+        "smoke",
+        "metal plates"
       ],
       "n": 0
     },
@@ -377,13 +377,13 @@
       "n": 0
     },
     {
-      "id": "zeta-electrophoresis",
+      "id": "charge-electrophoresis",
       "tier": "power",
-      "t": "Zeta potential measures the electric potential near their charged particles, which drift toward an electrode in electrophoresis",
+      "t": "Their particles usually carry the same kind of charge, so they repel each other; in an electric field they drift toward an electrode (electrophoresis)",
       "k": [
-        "zeta potential",
         "electrophoresis",
-        "electrode"
+        "electrode",
+        "same kind of charge"
       ],
       "n": 0
     },

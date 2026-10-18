@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "Element 16 · The yellow “brimstone” of volcanoes and gunpowder",
   "dates": "Known since ancient times; Lavoisier argued it was an element, 1777",
-  "briefing": "Sulfur is the bright yellow element that crusts the rocks around volcanoes and hot springs. Its old name, “brimstone,” means “burning stone,” and it really does burn, with an eerie blue flame. The rotten-egg smell people blame on it comes from hydrogen sulfide; pure sulfur has almost no smell. It goes into gunpowder, toughens rubber in Charles Goodyear’s vulcanization process, and is the key ingredient in sulfuric acid, a workhorse of the chemical industry.",
+  "briefing": "Sulfur is the bright yellow element that crusts the rocks around volcanoes and hot springs; its old name, “brimstone,” means “burning stone,” and it really does burn, with an eerie blue flame. The rotten-egg smell people blame on it comes from hydrogen sulfide; pure sulfur has almost no smell. It goes into gunpowder, toughens rubber in Charles Goodyear’s vulcanization process, and is the key ingredient in sulfuric acid, a workhorse of the chemical industry.",
   "answerHtml": "<b><u>Sulfur</u></b> (or <u>sulphur</u> or <u>S</u>; accept <u>brimstone</u>)",
   "accept": [
     "sulfur",
@@ -53,7 +53,9 @@
     "pyrite",
     "gypsum",
     "chalcogen",
-    "chalcogens"
+    "chalcogens",
+    "sulphur trioxide",
+    "sulphur hexafluoride"
   ],
   "media": [],
   "mediaPending": true,
@@ -368,7 +370,7 @@
     {
       "id": "van-niel",
       "tier": "power",
-      "t": "Purple bacteria use its hydrogen compound instead of water in photosynthesis; Cornelis van Niel used them to show plants’ oxygen comes from water",
+      "t": "Purple bacteria use its hydrogen compound instead of water in photosynthesis; Cornelis van Niel used them to argue that plants’ oxygen comes from water",
       "k": [
         "van niel",
         "purple bacteria",
@@ -466,7 +468,8 @@
       "Selenium",
       "Oxygen",
       "Phosphorus",
-      "Sulfate"
+      "Sulfate",
+      "Sulphur trioxide"
     ]
   }
 }

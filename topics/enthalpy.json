@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "A system’s heat content · Its change shows if a reaction gives off heat",
   "dates": "Hess’s law published 1840",
-  "briefing": "Enthalpy, written H, is a system’s heat content. Chemists can’t measure a substance’s total enthalpy, so they measure its change, ΔH: the heat a reaction gives off or soaks up at constant pressure. A campfire has a negative ΔH because it releases heat (exothermic), while an instant cold pack has a positive ΔH because it absorbs heat (endothermic). In 1840, Germain Hess showed that the total change is the same no matter how many steps a reaction takes.",
+  "briefing": "Enthalpy, written H, is a system’s heat content; chemists can’t measure its total amount, so they measure its change, ΔH: the heat a reaction gives off or soaks up at constant pressure. A campfire has a negative ΔH because it releases heat (exothermic), while an instant cold pack has a positive ΔH because it absorbs heat (endothermic). In 1840, Germain Hess showed that the total change is the same no matter how many steps a reaction takes.",
   "answerHtml": "<b><u>Enthalpy</u></b> (or <u>H</u>; accept change in <u>enthalpy</u> or delta <u>H</u>; prompt on <u>heat</u> or heat content)",
   "accept": [
     "enthalpy",
@@ -68,7 +68,7 @@
   },
   "tossups": [
     {
-      "p": "Heike Kamerlingh Onnes [“KAH-mer-ling ON-us”], better known for discovering superconductivity, coined the name of this quantity. Chemists can measure only changes in this quantity, never its total amount, so data tables list its standard changes of formation instead.",
+      "p": "Heike Kamerlingh Onnes [“KAH-mer-ling ON-us”], better known for discovering superconductivity, is credited with coining the name of this quantity. Chemists can measure only changes in this quantity, never its total amount, so data tables list its standard changes of formation instead.",
       "r": "For 10 points, name this thermodynamic quantity, a system’s heat content, whose change is negative in exothermic reactions."
     },
     {
@@ -76,15 +76,15 @@
       "r": "At constant pressure, its change equals the heat that flows in or out. For 10 points, name this quantity used to classify reactions as exothermic or endothermic."
     },
     {
-      "p": "Gustav Kirchhoff showed that a reaction’s change in this quantity shifts with temperature according to the difference between the heat capacities of its products and reactants. Heat capacity at constant pressure is defined as the rate at which this quantity changes with temperature.",
+      "p": "Heat capacity at constant pressure is defined as the rate at which this quantity changes with temperature. Citrus farmers spray their trees with water on freezing nights because water gives off heat as it freezes, a process with a negative change in this quantity.",
       "r": "For 10 points, name this state function whose change is negative when a reaction gives off heat."
     },
     {
-      "p": "Steam engineers use Mollier diagrams, which plot this quantity against entropy. In the equation for Gibbs free energy, temperature times the change in entropy is subtracted from the change in this quantity.",
+      "p": "The thermite reaction between aluminum powder and iron oxide, used to weld railroad tracks, has such a large negative change in this quantity that it produces glowing, melted iron. In the equation for Gibbs free energy, temperature times the change in entropy is subtracted from the change in this quantity.",
       "r": "For 10 points, name this quantity, whose change is positive for endothermic reactions that absorb heat from their surroundings."
     },
     {
-      "p": "The Clausius–Clapeyron [“klah-pay-RAWN”] equation uses a liquid’s change in this quantity on vaporizing to predict how its vapor pressure rises with temperature. Trouton’s rule says that for many liquids, that change divided by the boiling point in kelvins is roughly the same number.",
+      "p": "The Clausius–Clapeyron [“klah-pay-RAWN”] equation uses a liquid’s change in this quantity on vaporizing to predict how its vapor pressure rises with temperature. Water has an unusually large change in this quantity for vaporizing, which is why evaporating sweat cools the skin.",
       "r": "For 10 points, name this thermodynamic quantity, a system’s heat content, whose changes of fusion and vaporization are absorbed when solids melt and liquids boil."
     },
     {
@@ -112,7 +112,7 @@
       "r": "For 10 points, name this quantity, whose change is positive for endothermic processes and negative for exothermic ones."
     },
     {
-      "p": "The Gibbs–Helmholtz equation relates the way Gibbs free energy changes with temperature to this quantity. A reaction that has a negative change in this quantity and a positive change in entropy is spontaneous at every temperature.",
+      "p": "Any strong acid mixed with any strong base releases about the same heat per mole of water formed, so those reactions share nearly the same negative change in this quantity. A reaction that has a negative change in this quantity and a positive change in entropy is spontaneous at every temperature.",
       "r": "For 10 points, name this quantity, whose change is negative for heat-releasing reactions like burning wood."
     },
     {
@@ -292,11 +292,11 @@
     {
       "id": "kamerlingh-onnes",
       "tier": "power",
-      "t": "Heike Kamerlingh Onnes, who discovered superconductivity, coined its name",
+      "t": "Heike Kamerlingh Onnes, who discovered superconductivity, is credited with coining its name",
       "k": [
         "kamerlingh onnes",
         "onnes",
-        "coined"
+        "coining"
       ],
       "n": 0,
       "rabbit": "Superconductivity"
@@ -335,23 +335,24 @@
       "rabbit": "Heat capacity"
     },
     {
-      "id": "kirchhoff",
+      "id": "freezing-crops",
       "tier": "power",
-      "t": "Kirchhoff’s law of thermochemistry: a reaction’s change shifts with temperature by the difference in heat capacities",
+      "t": "Citrus farmers spray their trees with water on freezing nights, because water gives off heat as it freezes (a negative change)",
       "k": [
-        "kirchhoff",
-        "heat capacities"
+        "citrus",
+        "freezes",
+        "spray"
       ],
-      "n": 0,
-      "rabbit": "Gustav Kirchhoff"
+      "n": 0
     },
     {
-      "id": "mollier",
+      "id": "thermite",
       "tier": "power",
-      "t": "Mollier diagrams, used by steam engineers, plot it against entropy",
+      "t": "The thermite reaction of aluminum and iron oxide, used to weld railroad tracks, has such a large negative change that it melts the iron it makes",
       "k": [
-        "mollier",
-        "steam"
+        "thermite",
+        "railroad tracks",
+        "aluminum"
       ],
       "n": 0
     },
@@ -367,14 +368,16 @@
       "rabbit": "Vapor pressure"
     },
     {
-      "id": "trouton",
+      "id": "sweat",
       "tier": "power",
-      "t": "Trouton’s rule: its change of vaporization divided by the boiling point is roughly the same for many liquids",
+      "t": "Water’s unusually large change for vaporizing is why evaporating sweat cools the skin",
       "k": [
-        "trouton",
-        "boiling point"
+        "sweat",
+        "evaporating",
+        "vaporizing"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Water"
     },
     {
       "id": "van-t-hoff",
@@ -410,14 +413,16 @@
       "rabbit": "Lattice energy"
     },
     {
-      "id": "gibbs-helmholtz",
+      "id": "neutralization",
       "tier": "power",
-      "t": "The Gibbs–Helmholtz equation links how Gibbs free energy changes with temperature to it",
+      "t": "Any strong acid neutralizing any strong base releases about the same heat per mole of water formed, so all have nearly the same negative change",
       "k": [
-        "gibbs–helmholtz",
-        "helmholtz"
+        "strong acid",
+        "strong base",
+        "neutralizing"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Acids"
     },
     {
       "id": "spontaneous",

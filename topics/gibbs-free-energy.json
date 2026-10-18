@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "ΔG = ΔH − TΔS · Its sign tells whether a reaction can happen on its own",
   "dates": "Introduced by J. Willard Gibbs in the 1870s",
-  "briefing": "Gibbs free energy, written G, tells chemists whether a reaction can happen on its own. Its change, ΔG, combines two things nature favors, giving off heat (a negative ΔH) and spreading out energy and matter (a positive ΔS), in the equation ΔG = ΔH − TΔS. When ΔG is negative, the reaction is spontaneous, though it may still be very slow. It is named for Josiah Willard Gibbs, who earned the first American doctorate in engineering, at Yale.",
+  "briefing": "Gibbs free energy, written G, tells chemists whether a reaction can happen on its own. Its change, ΔG, combines two things nature favors, giving off heat (a negative ΔH) and spreading out energy and matter (a positive ΔS), in the equation ΔG = ΔH − TΔS; when ΔG is negative, the reaction is spontaneous, though it may still be very slow. It is named for Josiah Willard Gibbs, who earned the first American doctorate in engineering, at Yale.",
   "answerHtml": "<b><u>Gibbs free energy</u></b> (or <u>Gibbs energy</u> or <u>G</u>; accept delta <u>G</u>; prompt on <u>free energy</u> or <u>Gibbs</u>; do not accept “Helmholtz free energy”)",
   "accept": [
     "gibbs free energy",
@@ -69,11 +69,11 @@
   },
   "tossups": [
     {
-      "p": "This quantity was introduced in “On the Equilibrium of Heterogeneous Substances,” a long paper published in parts in the 1870s by a Yale professor. That paper also defined the chemical potential, the change in this quantity for each mole of a substance added to a mixture.",
+      "p": "This quantity was described in “On the Equilibrium of Heterogeneous Substances,” a long paper published in parts in the 1870s by a Yale professor. That paper also defined the chemical potential, the change in this quantity for each mole of a substance added to a mixture.",
       "r": "For 10 points, name this quantity, equal to enthalpy minus temperature times entropy, whose change is negative for spontaneous reactions."
     },
     {
-      "p": "Ellingham diagrams plot the standard change in this quantity for forming metal oxides against temperature, showing when carbon can pull the oxygen out of an ore. The standard change in this quantity equals negative RT times the natural log of the equilibrium constant.",
+      "p": "The standard change in this quantity equals negative RT times the natural log of the equilibrium constant, so a negative value means products are favored at equilibrium. Photosynthesis has a large positive change in this quantity, so plants can carry it out only by capturing energy from sunlight.",
       "r": "For 10 points, name this quantity whose change is negative for any spontaneous process at constant temperature and pressure."
     },
     {
@@ -113,7 +113,7 @@
       "r": "For 10 points, name this quantity, whose negative change marks a spontaneous process."
     },
     {
-      "p": "This quantity is named for the first American to earn a doctorate in engineering, a scientist who also wrote the phase rule, F = C − P + 2, which counts how many variables in a system can change freely.",
+      "p": "This quantity is named for the scientist who earned the first doctorate in engineering granted in the United States and who also wrote the phase rule, F = C − P + 2, which counts how many variables in a system can change freely.",
       "r": "For 10 points, name this quantity, named for that Yale scientist, whose negative change marks a spontaneous reaction at constant temperature and pressure."
     },
     {
@@ -346,7 +346,7 @@
     {
       "id": "paper",
       "tier": "power",
-      "t": "Introduced in “On the Equilibrium of Heterogeneous Substances,” published in parts in the 1870s",
+      "t": "Described in “On the Equilibrium of Heterogeneous Substances,” published in parts in the 1870s",
       "k": [
         "heterogeneous substances",
         "1870s"
@@ -373,14 +373,16 @@
       "n": 0
     },
     {
-      "id": "ellingham",
+      "id": "photosynthesis",
       "tier": "power",
-      "t": "Ellingham diagrams plot its standard change for forming metal oxides against temperature",
+      "t": "Photosynthesis has a large positive change, so plants can carry it out only by capturing energy from sunlight",
       "k": [
-        "ellingham",
-        "metal oxides"
+        "photosynthesis",
+        "sunlight",
+        "positive"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Photosynthesis"
     },
     {
       "id": "boiling-point",
