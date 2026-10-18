@@ -19,8 +19,6 @@
     "ionization energy",
     "first ionization energy",
     "electropositivity",
-    "electron",
-    "electrons",
     "polarity",
     "bond polarity",
     "dipole moment",
@@ -52,8 +50,8 @@
       "r": "Fluorine has the highest value of this quantity. For 10 points, name this measure of how strongly an atom attracts the electrons it shares in a bond."
     },
     {
-      "p": "In 1932, a chemist built the first scale for this property by comparing bond dissociation energies, measuring how much stronger a bond between two different atoms is than expected. Values on that scale, named for Linus Pauling, have no units, and the highest is nearly 4.",
-      "r": "This property increases from left to right across the periodic table. For 10 points, name this tendency of an atom to pull bonding electrons toward itself."
+      "p": "In 1932, a chemist built the first scale for this property by comparing bond dissociation energies, measuring how much stronger a bond between two different atoms is than expected. Values on that scale have no units, and the highest is nearly 4.",
+      "r": "Linus Pauling created that scale. This property increases from left to right across the periodic table. For 10 points, name this tendency of an atom to pull bonding electrons toward itself."
     },
     {
       "p": "Trifluoroacetic acid is a far stronger acid than acetic acid because of an inductive effect caused by fluorine’s high value of this property. Differences in this property put partial positive and partial negative charges on the two ends of a polar bond.",
@@ -64,11 +62,11 @@
       "r": "For 10 points, name this property, which is highest for fluorine, that measures an atom’s pull on shared electrons."
     },
     {
-      "p": "Leland Allen proposed a scale for this property based on the average energy of an atom’s valence electrons. R. T. Sanderson argued that when atoms join into a molecule, their values of this property even out to a single value, a principle called equalization.",
+      "p": "Leland Allen proposed a scale for this property based on the average energy of an atom’s valence electrons. Two atoms of the same element, as in a chlorine molecule, have equal values of this property, so they share their electrons equally in a nonpolar bond.",
       "r": "Fluorine’s value of this property on Pauling’s scale is nearly 4. For 10 points, name this measure of how strongly an atom attracts bonding electrons."
     },
     {
-      "p": "In the compound cesium auride, gold forms a negative ion, partly because gold has an unusually high value of this property for a metal. When chemists assign oxidation numbers, all of the shared electrons in a bond are counted for the atom with the higher value of this property.",
+      "p": "Cesium fluoride has the largest difference in this property of any compound made of two nonradioactive elements, so its bonding is strongly ionic. When chemists assign oxidation numbers, all of the shared electrons in a bond are counted for the atom with the higher value of this property.",
       "r": "For 10 points, name this property, symbolized by the Greek letter chi [“KYE”], that measures an atom’s attraction for the electrons in a bond."
     },
     {
@@ -329,12 +327,13 @@
       "n": 0
     },
     {
-      "id": "sanderson",
+      "id": "same-element",
       "tier": "power",
-      "t": "R. T. Sanderson’s principle of equalization: atoms’ values even out when they join into a molecule",
+      "t": "Two atoms of the same element, as in a chlorine molecule, have equal values, so they share electrons equally in a nonpolar bond",
       "k": [
-        "sanderson",
-        "equalization"
+        "same element",
+        "nonpolar bond",
+        "share electrons equally"
       ],
       "n": 0
     },
@@ -361,13 +360,13 @@
       "n": 0
     },
     {
-      "id": "auride",
+      "id": "cesium-fluoride",
       "tier": "power",
-      "t": "Gold’s unusually high value for a metal lets it form negative auride ions in cesium auride",
+      "t": "Cesium fluoride has the largest difference of any compound made of two nonradioactive elements, so its bonding is strongly ionic",
       "k": [
-        "cesium auride",
-        "auride",
-        "gold"
+        "cesium fluoride",
+        "largest difference",
+        "strongly ionic"
       ],
       "n": 0
     },
@@ -425,7 +424,8 @@
       "electronegativty",
       "Electronegativities",
       "Pauling electronegativity",
-      "electro-negativity"
+      "electro-negativity",
+      "electron negativity"
     ],
     "prompt": [],
     "wrong": [

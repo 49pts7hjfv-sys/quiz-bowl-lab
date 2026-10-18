@@ -13,7 +13,8 @@
     "avogadro number",
     "avogadros constant",
     "avogadro constant",
-    "n a"
+    "n a",
+    "n sub a"
   ],
   "prompt": [
     "avogadro",
@@ -96,7 +97,7 @@
       "r": "For 10 points, name this number, about 6.02 times 10 to the 23rd, of particles in a mole."
     },
     {
-      "p": "This quantity is written as N with a subscript A when it is treated as a constant with units of “per mole.” Multiplying the number of moles in a sample by this quantity gives the number of atoms or molecules in the sample.",
+      "p": "When this quantity is treated as a constant rather than a pure number, it has units of “per mole.” Multiplying the number of moles in a sample by this quantity gives the number of atoms or molecules in the sample.",
       "r": "Mole Day is celebrated on October 23 in its honor. For 10 points, name this number, about 6.02 times 10 to the 23rd."
     },
     {
@@ -194,10 +195,10 @@
     {
       "id": "units",
       "tier": "middle",
-      "t": "As a constant it is written N sub A (N with a subscript A) and has units of “per mole”",
+      "t": "Treated as a constant rather than a pure number, it has units of “per mole”",
       "k": [
         "per mole",
-        "subscript"
+        "pure number"
       ],
       "n": 0
     },
@@ -380,7 +381,7 @@
     "title": "Number, law, or mole?",
     "body": "This number’s namesake also names a separate answer line, Avogadro’s law: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. The mole is the other trap: the mole is the unit (like “a dozen”), while this is the count of particles in one mole. Saying just “Avogadro” only earns a prompt.",
     "fix": "A value (6.02 × 10²³), Mole Day, Perrin, the Faraday constant, or silicon spheres means the number, also called the constant. “Equal volumes of gases” means Avogadro’s law, and “this unit” means the mole. Always finish with “number” or “constant.”",
-    "line": "Real answer line: <b><u>Avogadro’s number</u></b> (or <u>Avogadro’s constant</u>; accept N<sub>A</sub>; prompt on <u>Avogadro</u>)"
+    "line": "Real answer line: <b><u>Avogadro’s number</u></b> (accept <u>Avogadro’s constant</u> or <u>N<sub>A</sub></u>; prompt on <u>Avogadro</u> alone or on the value 6.02 × 10<sup>23</sup>)"
   },
   "tests": {
     "right": [
@@ -388,7 +389,8 @@
       "Avogadro's constant",
       "Avagadros number",
       "avogadro number",
-      "N_A"
+      "N_A",
+      "N sub A"
     ],
     "prompt": [
       "Avogadro",

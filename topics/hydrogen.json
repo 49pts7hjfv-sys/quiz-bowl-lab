@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "Element 1 · The lightest and most common element in the universe",
   "dates": "Identified by Henry Cavendish, 1766",
-  "briefing": "Hydrogen is element number one: the lightest, simplest atom, usually just one proton and one electron. It makes up about three-quarters of the normal matter in the universe, and stars like the Sun shine by fusing it into helium. In 1937 the hydrogen-filled airship _Hindenburg_ burst into flames in New Jersey, but today engineers hope to use hydrogen as a clean fuel whose only exhaust is water.",
+  "briefing": "Hydrogen is element number one: the lightest, simplest atom, usually just one proton and one electron. It makes up about three-quarters of the normal matter in the universe, and stars like the Sun shine by fusing it into helium. In 1937 the hydrogen-filled airship _Hindenburg_ burst into flames in New Jersey, but in a fuel cell, hydrogen makes a clean fuel whose only exhaust is water.",
   "answerHtml": "<b><u>Hydrogen</u></b> (accept <u>H</u> or <u>H<sub>2</sub></u>)",
   "accept": [
     "hydrogen",
@@ -431,7 +431,7 @@
     "title": "Element, not isotope",
     "body": "Many clues name this element’s isotopes, deuterium and tritium, or things named after it, like hydrogen bonds and the hydrogen bomb, and players blurt those instead. Helium is the other trap: it is the second element, the product of the Sun’s fusion, and the gas in modern party balloons and blimps.",
     "fix": "If the question asks for “this element,” name the element itself, even when the clue is about one of its isotopes. Atomic number 1, “water-former,” Cavendish, the Balmer series, and the _Hindenburg_ all point here; “second-lightest,” “noble gas,” or the product of the Sun’s fusion means helium.",
-    "line": "Real answer line: <b><u>Hydrogen</u></b> (accept <u>H</u>)"
+    "line": "Real answer line: <b><u>Hydrogen</u></b> (accept <u>H</u> or <u>H<sub>2</sub></u>)"
   },
   "tests": {
     "right": [
