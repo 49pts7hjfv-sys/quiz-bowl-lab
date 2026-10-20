@@ -79,7 +79,7 @@ data = {
             "r": "That law was the Tea Act. For 10 points, name this protest in which colonists dumped 342 chests of tea into Boston Harbor."
         },
         {
-            "p": "Decades after this event, the shoemaker George Robert Twelves Hewes became famous for telling his memories of taking part in it. The famous name of this event did not appear in print until the 1820s, about fifty years after it happened.",
+            "p": "Decades after this event, the shoemaker George Robert Twelves Hewes became well known for telling his memories of taking part in it. The famous name of this event did not appear in print until the 1820s, about fifty years after it happened.",
             "r": "Its participants threw tea from three ships into the harbor. For 10 points, name this December 16, 1773, protest in Massachusetts."
         },
         {
@@ -251,7 +251,7 @@ data = {
         {
             "id": "hewes",
             "tier": "power",
-            "t": "Shoemaker George Robert Twelves Hewes later became famous for his memories of the night",
+            "t": "Shoemaker George Robert Twelves Hewes later became well known for his memories of the night",
             "k": ["hewes", "shoemaker"],
             "n": 0
         },

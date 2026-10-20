@@ -1,0 +1,341 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>Judaism</u></b> (accept <u>Jew</u>s or <u>Jewish</u> faith; do not accept “Hebrew” or “Torah”)"
+
+data = {
+    "id": "judaism",
+    "name": "Judaism",
+    "mono": "JU",
+    "category": "Religion",
+    "qbCategory": "Religion",
+    "kicker": "Monotheistic faith of the Torah · Synagogues, Sabbath, and Talmud",
+    "dates": "Roots more than 3,000 years old",
+    "briefing": "Judaism is the oldest of the three Abrahamic religions, which all worship one God. Jews trace their faith to God’s covenant with Abraham and to the Torah, which tradition says Moses received on Mount Sinai. Every week, many Jewish families welcome the Sabbath on Friday evening with candles, blessings over wine and braided challah bread, and a day of rest that lasts until Saturday night.",
+    "answerHtml": LINE,
+    "accept": [
+        "judaism",
+        "jewish",
+        "jews",
+        "jew",
+        "jewish faith",
+        "jewish religion",
+        "jewish people",
+        "judaic religion"
+    ],
+    "prompt": [],
+    "reject": [
+        "hebrew",
+        "hebrews",
+        "torah",
+        "talmud",
+        "tanakh",
+        "hebrew bible",
+        "israel",
+        "israelites",
+        "israelite",
+        "zionism",
+        "christianity",
+        "islam",
+        "samaritans",
+        "samaritanism",
+        "kabbalah",
+        "hasidism",
+        "messianic judaism",
+        "jews for jesus",
+        "yiddish",
+        "judea",
+        "judah"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Judaism",
+    "qb": {"q": "Judaism", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "In a Talmud story, a man asked the sage Hillel to teach him this religion’s entire law while standing on one foot. Hillel replied, “What is hateful to you, do not do to your neighbor,” and said that everything else was commentary.",
+            "r": "Its followers celebrate Passover and Hanukkah. For 10 points, name this religion whose followers worship in synagogues."
+        },
+        {
+            "p": "The medieval philosopher Maimonides [“my-MON-ih-deez”] listed this religion’s core beliefs as Thirteen Principles of Faith and wrote the _Guide for the Perplexed_, which tries to bring its teachings into harmony with the philosophy of Aristotle. He also wrote a law code called the _Mishneh Torah_.",
+            "r": "This religion’s holiest day is Yom Kippur. For 10 points, name this religion whose holy book is the Torah."
+        },
+        {
+            "p": "Around 200 CE, Rabbi Judah ha-Nasi [“hah-NAH-see”] gathered this religion’s oral laws into the Mishnah [“MISH-nuh”], which is divided into six orders. Later discussions of the Mishnah by rabbis, called the Gemara [“guh-MAR-uh”], were joined to it to form the Talmud.",
+            "r": "For 10 points, name this religion whose followers celebrate Rosh Hashanah and Yom Kippur."
+        },
+        {
+            "p": "A small case called a mezuzah [“meh-ZOO-zuh”], fixed to the doorposts of many homes in this religion, holds a tiny parchment scroll with the Shema [“shuh-MAH”], a prayer that begins “Hear, O Israel: the Lord our God, the Lord is one.”",
+            "r": "Its houses of worship are called synagogues. For 10 points, name this religion whose holidays include Passover and Rosh Hashanah."
+        },
+        {
+            "p": "In the 1700s, Israel ben Eliezer, known as the Baal Shem Tov [“BAHL shem TOHV”], founded the Hasidic [“huh-SID-ik”] movement in this religion in Eastern Europe, teaching that joyful prayer, song, and sincere devotion matter as much as scholarship.",
+            "r": "Other branches of this religion include Orthodox, Conservative, and Reform. For 10 points, name this religion of the Torah."
+        },
+        {
+            "p": "This religion’s Bible is called the Tanakh [“tah-NAHK”], a name formed from the Hebrew first letters of its three parts: the Law, the Prophets (Nevi’im), and the Writings (Ketuvim). Its books are traditionally counted as 24.",
+            "r": "The first part, the Torah, is traditionally said to have been given to Moses on Mount Sinai. For 10 points, name this religion."
+        },
+        {
+            "p": "Under this religion’s dietary laws, called kashrut [“kahsh-ROOT”], land animals must both chew their cud and have split hooves, and seafood must have both fins and scales, so pork and shellfish are forbidden, and so are many birds of prey.",
+            "r": "Followers who keep these laws also separate meat from dairy, and food that follows them is called kosher. For 10 points, name this religion."
+        },
+        {
+            "p": "The _Zohar_, the central book of this religion’s mystical tradition, Kabbalah [“kuh-BAH-luh”], was long credited to the second-century rabbi Simeon bar Yochai [“bar YOH-khye”], but most scholars think Moses de León [“day lay-OHN”] wrote it in 13th-century Spain.",
+            "r": "This religion’s teachers are called rabbis. For 10 points, name this religion whose holy texts include the Torah and Talmud."
+        },
+        {
+            "p": "During the Second Temple period, this religion’s groups included the Sadducees [“SAD-joo-seez”], who accepted only the written law, and the Pharisees [“FAIR-ih-seez”], whose belief in an oral law shaped the rabbis who came after them. A third group, the Essenes, may have written the Dead Sea Scrolls.",
+            "r": "Its scripture is the Hebrew Bible. For 10 points, name this religion that grew from the faith of the ancient Israelites."
+        },
+        {
+            "p": "Karaite [“KAIR-uh-ite”] followers of this religion reject the Talmud and follow only the written Bible. Its Ashkenazi [“ahsh-kuh-NAH-zee”] communities come from Central and Eastern Europe, while its Sephardi [“seh-FAR-dee”] communities trace their roots to Spain and Portugal.",
+            "r": "Its followers rest on a weekly day called Shabbat and worship in synagogues. For 10 points, name this religion."
+        },
+        {
+            "p": "Public prayer in this religion traditionally requires a minyan [“MIN-yun”], a quorum of ten. When its sacred scroll is read aloud, the reader follows the text with a pointer called a yad [“YAHD”], meaning “hand,” so that the parchment is not touched.",
+            "r": "That scroll holds the Torah, the first five books of the Hebrew Bible. For 10 points, name this religion."
+        },
+        {
+            "p": "The philosopher Moses Mendelssohn, a leader of the Haskalah [“hahs-kah-LAH”], or Enlightenment, within this religion, translated the Torah into German in the 1780s. In the early 1800s, its Reform movement began in Germany, holding some services in German instead of Hebrew.",
+            "r": "Its other branches include Orthodox and Conservative. For 10 points, name this religion that celebrates Passover and Yom Kippur."
+        },
+        {
+            "p": "Observant followers of this religion avoid 39 categories of work on their weekly day of rest, and some neighborhoods are surrounded by an eruv [“AIR-uv”], a boundary line that lets people carry things outdoors on that day.",
+            "r": "That day of rest, the Sabbath, or Shabbat, lasts from Friday sunset to Saturday night. For 10 points, name this religion."
+        },
+        {
+            "p": "The scholar Rashi [“RAH-shee”], who lived in Troyes [“TRWAH”], France, in the 1000s, wrote line-by-line commentaries on this religion’s Bible and Talmud. Those commentaries are still printed beside the texts in a special typeface named for him.",
+            "r": "Its followers celebrate the Sabbath each week and holidays such as Purim and Passover. For 10 points, name this religion."
+        },
+        {
+            "p": "Joseph Karo’s 16th-century law code, the _Shulchan Aruch_ [“SHOOL-khahn AH-rookh”], or “Set Table,” became a standard guide to this religion’s practice. At age 13, boys in this religion become a bar mitzvah [“bar MITS-vuh”], or “son of the commandment.”",
+            "r": "Many girls celebrate a bat mitzvah at 12 or 13. For 10 points, name this religion whose holy book is the Torah."
+        }
+    ],
+    "clues": [
+        {
+            "id": "abrahamic",
+            "tier": "giveaway",
+            "t": "The oldest of the three major Abrahamic faiths; followers believe God made a covenant with Abraham",
+            "k": ["abrahamic", "covenant", "abraham"],
+            "n": 0,
+            "rabbit": "Abraham"
+        },
+        {
+            "id": "torah",
+            "tier": "giveaway",
+            "t": "Holiest text: the Torah, the five books of Moses, from Genesis to Deuteronomy",
+            "k": ["torah", "five books of moses"],
+            "n": 0,
+            "rabbit": "Torah"
+        },
+        {
+            "id": "synagogue",
+            "tier": "giveaway",
+            "t": "Followers worship in synagogues and learn from teachers called rabbis",
+            "k": ["synagogues", "rabbis"],
+            "n": 0
+        },
+        {
+            "id": "holidays",
+            "tier": "giveaway",
+            "t": "Holidays include Passover, Rosh Hashanah, Yom Kippur, Hanukkah, and Purim",
+            "k": ["passover", "yom kippur", "hanukkah", "rosh hashanah"],
+            "n": 0,
+            "rabbit": "Passover"
+        },
+        {
+            "id": "sabbath",
+            "tier": "giveaway",
+            "t": "The Sabbath (Shabbat) lasts from Friday sunset to Saturday night",
+            "k": ["sabbath", "shabbat", "friday"],
+            "n": 0,
+            "rabbit": "Shabbat"
+        },
+        {
+            "id": "star-of-david",
+            "tier": "giveaway",
+            "t": "Symbols include the six-pointed Star of David and the menorah",
+            "k": ["star of david", "menorah", "six-pointed"],
+            "n": 0
+        },
+        {
+            "id": "tanakh",
+            "tier": "middle",
+            "t": "Its Bible, the Tanakh (24 books), has three parts: Torah (Law), Nevi’im (Prophets), and Ketuvim (Writings)",
+            "k": ["tanakh", "prophets", "writings"],
+            "n": 0
+        },
+        {
+            "id": "talmud",
+            "tier": "middle",
+            "t": "The Talmud combines the Mishnah (oral law, written down around 200 CE) and the Gemara (later rabbis’ discussions)",
+            "k": ["talmud", "mishnah", "gemara"],
+            "n": 0
+        },
+        {
+            "id": "shema",
+            "tier": "middle",
+            "t": "The Shema prayer, “Hear, O Israel: the Lord our God, the Lord is one,” is written inside each mezuzah",
+            "k": ["shema", "mezuzah", "hear o israel"],
+            "n": 0
+        },
+        {
+            "id": "kosher",
+            "tier": "middle",
+            "t": "Kosher dietary laws (kashrut) forbid pork and shellfish and keep meat and dairy apart",
+            "k": ["kosher", "kashrut", "pork"],
+            "n": 0
+        },
+        {
+            "id": "bar-mitzvah",
+            "tier": "middle",
+            "t": "At 13, a boy becomes a bar mitzvah (“son of the commandment”); many girls have a bat mitzvah at 12 or 13",
+            "k": ["bar mitzvah", "bat mitzvah", "13"],
+            "n": 0
+        },
+        {
+            "id": "branches",
+            "tier": "middle",
+            "t": "Main branches: Orthodox, Conservative, and Reform",
+            "k": ["orthodox", "conservative", "reform"],
+            "n": 0
+        },
+        {
+            "id": "sinai-613",
+            "tier": "middle",
+            "t": "Followers believe God gave the Torah to Moses on Mount Sinai; tradition counts 613 commandments (mitzvot) in it",
+            "k": ["sinai", "613", "mitzvot"],
+            "n": 0,
+            "rabbit": "Moses"
+        },
+        {
+            "id": "ashkenazi-sephardi",
+            "tier": "middle",
+            "t": "Ashkenazi communities come from Central and Eastern Europe (Yiddish); Sephardi communities from Spain and Portugal (Ladino)",
+            "k": ["ashkenazi", "sephardi", "yiddish", "ladino"],
+            "n": 0
+        },
+        {
+            "id": "maimonides",
+            "tier": "middle",
+            "t": "Maimonides wrote the Thirteen Principles of Faith, the _Mishneh Torah_, and the _Guide for the Perplexed_",
+            "k": ["maimonides", "thirteen principles", "guide for the perplexed"],
+            "n": 0
+        },
+        {
+            "id": "hillel",
+            "tier": "power",
+            "t": "Hillel, asked to teach the whole law on one foot: “What is hateful to you, do not do to your neighbor”; the rest is commentary",
+            "k": ["hillel", "one foot", "hateful"],
+            "n": 0
+        },
+        {
+            "id": "judah-ha-nasi",
+            "tier": "power",
+            "t": "Rabbi Judah ha-Nasi compiled the Mishnah, in six orders, around 200 CE",
+            "k": ["judah ha-nasi", "six orders"],
+            "n": 0
+        },
+        {
+            "id": "baal-shem-tov",
+            "tier": "power",
+            "t": "The Baal Shem Tov founded Hasidism in 1700s Eastern Europe, stressing joyful prayer and devotion",
+            "k": ["baal shem tov", "hasidism", "hasidic"],
+            "n": 0
+        },
+        {
+            "id": "zohar",
+            "tier": "power",
+            "t": "Kabbalah, its mystical tradition, centers on the _Zohar_, probably written by Moses de León in 13th-century Spain",
+            "k": ["kabbalah", "zohar", "moses de leon"],
+            "n": 0
+        },
+        {
+            "id": "sects",
+            "tier": "power",
+            "t": "Second Temple groups: Sadducees (written law only), Pharisees (oral law), and Essenes (possibly the Dead Sea Scrolls)",
+            "k": ["sadducees", "pharisees", "essenes", "dead sea scrolls"],
+            "n": 0
+        },
+        {
+            "id": "karaites",
+            "tier": "power",
+            "t": "Karaites reject the Talmud and follow only the written Bible",
+            "k": ["karaites", "written bible"],
+            "n": 0
+        },
+        {
+            "id": "rashi",
+            "tier": "power",
+            "t": "Rashi of Troyes, France, wrote famous commentaries on the Bible and Talmud, printed in “Rashi script”",
+            "k": ["rashi", "troyes", "commentaries"],
+            "n": 0
+        },
+        {
+            "id": "shulchan-aruch",
+            "tier": "power",
+            "t": "Joseph Karo’s 16th-century law code, the _Shulchan Aruch_ (“Set Table”)",
+            "k": ["shulchan aruch", "joseph karo", "set table"],
+            "n": 0
+        },
+        {
+            "id": "mendelssohn",
+            "tier": "power",
+            "t": "Moses Mendelssohn led the Haskalah (Enlightenment); the Reform movement began in Germany in the early 1800s",
+            "k": ["mendelssohn", "haskalah", "reform movement"],
+            "n": 0
+        },
+        {
+            "id": "eruv",
+            "tier": "power",
+            "t": "Observant followers avoid 39 categories of work on the Sabbath; an eruv boundary lets people carry things outdoors",
+            "k": ["eruv", "39 categories"],
+            "n": 0
+        },
+        {
+            "id": "minyan",
+            "tier": "power",
+            "t": "Public prayer needs a minyan (a quorum of ten); the Torah scroll is read with a pointer called a yad (“hand”)",
+            "k": ["minyan", "yad", "quorum"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Religion, book, or language?",
+        "body": "Several near-miss answers circle this one: the Torah is its holiest text, Hebrew is its sacred language, and Israel is both the ancient people’s name and a modern country. None of those is the religion itself. Christianity and Islam also honor Abraham and Moses, so a patriarch or prophet clue alone is not enough.",
+        "fix": "If the question asks for “this religion” or “this faith,” say Judaism (“Jews” or “Jewish” also works). Say Torah only for “this text,” Hebrew only for “this language,” and Talmud only for “this collection” of rabbinic writings. Rabbis, synagogues, kosher laws, and the Shema point to Judaism.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Judaism",
+            "Jewish",
+            "Jews",
+            "the Jewish faith",
+            "Judism",
+            "Orthodox Judaism"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Hebrew",
+            "Torah",
+            "Israel",
+            "Christianity",
+            "Islam",
+            "Kabbalah",
+            "Talmud"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,443 @@
+{
+  "id": "battle-of-the-alamo",
+  "name": "Battle of the Alamo",
+  "mono": "ALM",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Texian defenders fall in San Antonio, 1836 · A rallying cry for Texas",
+  "dates": "Fought February 23–March 6, 1836",
+  "briefing": "For 13 days in 1836, about 200 Texian defenders held an old Spanish mission in San Antonio against the much larger Mexican army of General Antonio López de Santa Anna. Before dawn on March 6, the Mexican army stormed the walls, and nearly all the defenders died, including William Travis, Jim Bowie, and the frontier hero Davy Crockett. About six weeks later, Sam Houston’s soldiers shouted “Remember the Alamo!” as they defeated Santa Anna at San Jacinto and won independence for Texas.",
+  "answerHtml": "Battle of the <b><u>Alamo</u></b> (or Siege of the <b><u>Alamo</u></b>; prompt on <u>Texas Revolution</u> or Mission <u>San Antonio de Valero</u>)",
+  "accept": [
+    "alamo",
+    "the alamo",
+    "battle of the alamo",
+    "battle of alamo",
+    "siege of the alamo",
+    "fall of the alamo",
+    "alamo mission",
+    "the alamo mission"
+  ],
+  "prompt": [
+    "texas revolution",
+    "the texas revolution",
+    "texan revolution",
+    "texas war of independence",
+    "texas revolutionary war",
+    "mission san antonio de valero",
+    "san antonio de valero"
+  ],
+  "reject": [
+    "san jacinto",
+    "battle of san jacinto",
+    "goliad",
+    "battle of goliad",
+    "goliad massacre",
+    "remember goliad",
+    "gonzales",
+    "battle of gonzales",
+    "siege of bexar",
+    "bexar",
+    "davy crockett",
+    "david crockett",
+    "crockett",
+    "antonio lopez de santa anna",
+    "santa anna",
+    "jim bowie",
+    "james bowie",
+    "bowie",
+    "william travis",
+    "william barret travis",
+    "travis",
+    "sam houston",
+    "republic of texas",
+    "mexican american war",
+    "los alamos"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Battle_of_the_Alamo",
+  "qb": {
+    "q": "Alamo",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "On February 24, 1836, a commander in this battle wrote a letter addressed “To the People of Texas & All Americans in the World,” vowing “I shall never surrender or retreat.” He signed that letter “Victory or Death” and sent it out with a messenger who slipped past the enemy army.",
+      "r": "That commander was William Barret Travis. For 10 points, name this 1836 battle in San Antonio, where Jim Bowie and Davy Crockett died."
+    },
+    {
+      "p": "On March 1, 1836, thirty-two men from the town of Gonzales slipped through enemy lines to join the defenders in this battle, the only help that ever arrived. The next day, while this battle’s siege went on, delegates at Washington-on-the-Brazos signed the Texas Declaration of Independence.",
+      "r": "For 10 points, name this 13-day siege that ended on March 6, 1836, with the deaths of nearly all of its Texian defenders."
+    },
+    {
+      "p": "The Tejano captain Juan Seguín [“seh-GEEN”] rode out of this battle’s fort as a messenger to seek help, so he survived to fight at San Jacinto weeks later. Help from James Fannin’s soldiers at Goliad [“GOH-lee-ad”] never arrived.",
+      "r": "Davy Crockett and Jim Bowie were among this battle’s defenders. For 10 points, name this 1836 siege of a former Spanish mission in San Antonio, Texas."
+    },
+    {
+      "p": "After this battle, the winning general sent Susanna Dickinson, who had survived it with her baby daughter, Angelina, to carry news of the defeat to the Texian army at Gonzales. Joe, an enslaved man owned by one of this battle’s commanders, also survived.",
+      "r": "Weeks later, Texans shouted this battle’s name as they attacked at San Jacinto. For 10 points, name this battle that ended on March 6, 1836."
+    },
+    {
+      "p": "According to a story first published decades later, a commander in this battle drew a line on the ground with his sword and asked every man willing to stay and fight to cross it. In that story, only Louis “Moses” Rose refused, and he escaped.",
+      "r": "That commander was William Travis. For 10 points, name this 1836 battle in which Santa Anna’s army overran a fort in San Antonio."
+    },
+    {
+      "p": "Before the final attack in this battle, the attacking army raised a red flag and its buglers played the “Degüello” [“day-GWAY-yoh”], signals that the defenders would be shown no mercy. That attack came before dawn on March 6, after a siege of 13 days.",
+      "r": "For 10 points, name this 1836 battle in which General Antonio López de Santa Anna’s Mexican army defeated Texian defenders in San Antonio."
+    },
+    {
+      "p": "This battle was fought at a former Spanish mission called San Antonio de Valero, whose church later got its famous curved top from the U.S. Army in 1850. In December 1835, Texians had captured that mission and the town around it from General Martín Perfecto de Cos [“KOHSS”].",
+      "r": "For 10 points, name this battle of 1836, a Texian defeat that Sam Houston’s army avenged weeks later at San Jacinto."
+    },
+    {
+      "p": "Sam Houston suggested removing the cannons from this battle’s fort and abandoning it, but the officers there, including James Neill, decided to defend it instead. When Neill left on leave in February 1836, two men agreed to share command: a 26-year-old lawyer and a frontiersman famous for a large knife.",
+      "r": "Those men were William Travis and Jim Bowie. For 10 points, name this 1836 battle where they died alongside Davy Crockett."
+    },
+    {
+      "p": "In the early 1900s, Clara Driscoll paid most of the cost of saving part of this battle’s site from being torn down, earning fame as its “Savior.” The Daughters of the Republic of Texas then managed that site for more than a hundred years.",
+      "r": "For 10 points, name this San Antonio landmark and 1836 battle where William Travis, Jim Bowie, and Davy Crockett died."
+    },
+    {
+      "p": "The winning general in this battle, who called himself the “Napoleon of the West,” reached San Antonio on February 23 after marching his army north across the Rio Grande in winter. The outnumbered Texians in town rushed into an old mission when his troops appeared.",
+      "r": "That general, Santa Anna, later lost at San Jacinto. For 10 points, name this 1836 battle where Davy Crockett died."
+    },
+    {
+      "p": "John Wayne directed and starred in a 1960 film about this battle, playing a frontiersman who had once represented Tennessee in Congress. Fess Parker played that same frontiersman in a 1955 Disney movie that ends with this battle.",
+      "r": "That frontiersman was Davy Crockett. For 10 points, name this 1836 battle in which Santa Anna’s army defeated Texian defenders in San Antonio."
+    },
+    {
+      "p": "In 2014, the English rock musician Phil Collins gave the State of Texas his huge collection of objects related to this battle. In 2015, this battle’s site became part of a World Heritage Site that includes five Spanish missions in San Antonio.",
+      "r": "For 10 points, name this battle that ended on March 6, 1836, when Santa Anna’s army defeated a small Texian force."
+    },
+    {
+      "p": "A former congressman reached this battle’s fort in February 1836 with a small group of volunteers from Tennessee, months after he lost his race for reelection. Years earlier, he had broken with Andrew Jackson by voting against the Indian Removal Act.",
+      "r": "That man was Davy Crockett. For 10 points, name this 1836 battle in San Antonio, Texas, where Crockett died."
+    },
+    {
+      "p": "The war that included this battle began in October 1835 at Gonzales, where Texians refused to hand over a small cannon and flew a flag reading “Come and Take It.” The defenders in this battle held out from February 23 until March 6, 1836.",
+      "r": "For 10 points, name this battle in San Antonio whose name became a battle cry when Texas won its independence at San Jacinto."
+    },
+    {
+      "p": "One commander in this battle gave his name to a large hunting knife, but he became so sick during the siege that he could not get out of bed. Years earlier, he had married into a leading Tejano family of San Antonio.",
+      "r": "That man, Jim Bowie, died in this battle along with Davy Crockett. For 10 points, name this 1836 battle in San Antonio, Texas."
+    }
+  ],
+  "clues": [
+    {
+      "id": "texas-revolution",
+      "tier": "giveaway",
+      "t": "A 13-day siege in San Antonio during the Texas Revolution (February 23–March 6, 1836)",
+      "k": [
+        "san antonio",
+        "texas revolution",
+        "13-day",
+        "1836"
+      ],
+      "n": 0
+    },
+    {
+      "id": "santa-anna",
+      "tier": "giveaway",
+      "t": "General Antonio López de Santa Anna’s much larger Mexican army defeated the Texian defenders",
+      "k": [
+        "santa anna",
+        "mexican army"
+      ],
+      "n": 0,
+      "rabbit": "Antonio López de Santa Anna"
+    },
+    {
+      "id": "crockett-bowie",
+      "tier": "giveaway",
+      "t": "Davy Crockett and Jim Bowie died defending the fort",
+      "k": [
+        "davy crockett",
+        "crockett",
+        "jim bowie",
+        "bowie"
+      ],
+      "n": 0,
+      "rabbit": "Davy Crockett"
+    },
+    {
+      "id": "battle-cry",
+      "tier": "giveaway",
+      "t": "Its name became a battle cry (“Remember the …!”) when Sam Houston’s army beat Santa Anna at San Jacinto on April 21, 1836",
+      "k": [
+        "battle cry",
+        "san jacinto",
+        "remember",
+        "april 21"
+      ],
+      "n": 0,
+      "rabbit": "Battle of San Jacinto"
+    },
+    {
+      "id": "travis-letter",
+      "tier": "middle",
+      "t": "Commander William Barret Travis wrote a letter “To the People of Texas & All Americans in the World” and signed it “Victory or Death” (February 24, 1836)",
+      "k": [
+        "travis",
+        "victory or death",
+        "all americans"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dawn-attack",
+      "tier": "middle",
+      "t": "About 200 Texian defenders; nearly all were killed when the fort fell before dawn on March 6",
+      "k": [
+        "texian",
+        "march 6",
+        "dawn",
+        "200"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mission",
+      "tier": "middle",
+      "t": "The fort was a former Spanish mission, San Antonio de Valero",
+      "k": [
+        "spanish mission",
+        "mission",
+        "valero"
+      ],
+      "n": 0
+    },
+    {
+      "id": "line-in-sand",
+      "tier": "middle",
+      "t": "Legend: Travis drew a line in the sand with his sword and asked those who would stay to cross it; only Moses Rose refused",
+      "k": [
+        "line in the sand",
+        "sword",
+        "moses rose"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dickinson",
+      "tier": "middle",
+      "t": "Survivors: Susanna Dickinson and her baby Angelina, sent by Santa Anna to warn the Texian army at Gonzales, and Joe, Travis’s enslaved servant",
+      "k": [
+        "susanna dickinson",
+        "dickinson",
+        "angelina",
+        "joe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "declaration",
+      "tier": "middle",
+      "t": "Texas declared independence at Washington-on-the-Brazos on March 2, 1836, during the siege",
+      "k": [
+        "washington-on-the-brazos",
+        "declared independence",
+        "march 2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gonzales-32",
+      "tier": "middle",
+      "t": "The only reinforcements: 32 men from Gonzales, who slipped in on March 1",
+      "k": [
+        "gonzales",
+        "32 men",
+        "march 1"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bowie-knife",
+      "tier": "middle",
+      "t": "Jim Bowie, namesake of the Bowie knife, had married into a leading Tejano family; he was too sick to leave his bed",
+      "k": [
+        "knife",
+        "sick",
+        "tejano family"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seguin",
+      "tier": "power",
+      "t": "Tejano captain Juan Seguín left as a messenger, survived, and later fought at San Jacinto",
+      "k": [
+        "seguín",
+        "seguin",
+        "messenger"
+      ],
+      "n": 0
+    },
+    {
+      "id": "deguello",
+      "tier": "power",
+      "t": "Before the final attack: a red flag and the bugle call “Degüello,” signals of no mercy",
+      "k": [
+        "degüello",
+        "deguello",
+        "red flag",
+        "bugle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fannin",
+      "tier": "power",
+      "t": "James Fannin’s troops at Goliad never came to help",
+      "k": [
+        "fannin",
+        "goliad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "houston-neill",
+      "tier": "power",
+      "t": "Sam Houston suggested abandoning the fort; officers including James Neill chose to defend it instead",
+      "k": [
+        "neill",
+        "abandoning",
+        "sam houston"
+      ],
+      "n": 0
+    },
+    {
+      "id": "travis-lawyer",
+      "tier": "power",
+      "t": "Travis, a 26-year-old lawyer, shared command with Bowie after Neill left on leave",
+      "k": [
+        "26-year-old",
+        "lawyer",
+        "on leave"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cos",
+      "tier": "power",
+      "t": "Texians had taken San Antonio from General Martín Perfecto de Cos in December 1835",
+      "k": [
+        "perfecto de cos",
+        "cos",
+        "december 1835"
+      ],
+      "n": 0
+    },
+    {
+      "id": "curved-top",
+      "tier": "power",
+      "t": "The U.S. Army gave the old mission church its famous curved top in 1850",
+      "k": [
+        "curved top",
+        "u.s. army",
+        "1850"
+      ],
+      "n": 0
+    },
+    {
+      "id": "driscoll",
+      "tier": "power",
+      "t": "Clara Driscoll (its “Savior”) helped save the site; the Daughters of the Republic of Texas managed it for over 100 years",
+      "k": [
+        "clara driscoll",
+        "driscoll",
+        "daughters of the republic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "napoleon-west",
+      "tier": "power",
+      "t": "Santa Anna called himself the “Napoleon of the West”; his army reached San Antonio on February 23 after crossing the Rio Grande",
+      "k": [
+        "napoleon of the west",
+        "rio grande",
+        "february 23"
+      ],
+      "n": 0
+    },
+    {
+      "id": "films",
+      "tier": "power",
+      "t": "John Wayne directed a 1960 film about it and played Crockett; Fess Parker played Crockett in a 1955 Disney movie",
+      "k": [
+        "john wayne",
+        "fess parker",
+        "disney"
+      ],
+      "n": 0
+    },
+    {
+      "id": "collins-unesco",
+      "tier": "power",
+      "t": "Phil Collins donated his collection of its artifacts (2014); part of the San Antonio Missions World Heritage Site (2015)",
+      "k": [
+        "phil collins",
+        "world heritage",
+        "2014"
+      ],
+      "n": 0
+    },
+    {
+      "id": "come-and-take-it",
+      "tier": "power",
+      "t": "The war began at Gonzales in October 1835 under a “Come and Take It” flag",
+      "k": [
+        "come and take it",
+        "october 1835"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crockett-congress",
+      "tier": "power",
+      "t": "Crockett, a former Tennessee congressman who had voted against the Indian Removal Act, arrived with Tennessee volunteers",
+      "k": [
+        "tennessee",
+        "congressman",
+        "indian removal act"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Alamo or San Jacinto?",
+    "body": "The Texas Revolution had two famous battles in 1836. The Alamo (February 23–March 6, San Antonio) was a Texian defeat; San Jacinto (April 21) was the Texian victory in which Sam Houston’s army shouted “Remember the Alamo!” and captured Santa Anna. Davy Crockett and Santa Anna are separate answer lines, so naming the man instead of the battle is wrong.",
+    "fix": "Travis, Bowie, Crockett, a 13-day siege, the Gonzales 32, and “Victory or Death” mean the Alamo. Sam Houston’s surprise attack, a battle of about 18 minutes, and Santa Anna’s capture mean San Jacinto. Hearing “Remember the Alamo!” as a battle cry usually means the question is about San Jacinto.",
+    "line": "Real answer line: Battle of the <b><u>Alamo</u></b> (or Siege of the <b><u>Alamo</u></b>; prompt on <u>Texas Revolution</u>)"
+  },
+  "tests": {
+    "right": [
+      "Alamo",
+      "The Alamo",
+      "Battle of the Alamo",
+      "Siege of the Alamo",
+      "Battle of the Almo",
+      "Fall of the Alamo"
+    ],
+    "prompt": [
+      "Texas Revolution",
+      "Mission San Antonio de Valero"
+    ],
+    "wrong": [
+      "San Jacinto",
+      "Battle of San Jacinto",
+      "Davy Crockett",
+      "Santa Anna",
+      "Antonio López de Santa Anna",
+      "Goliad",
+      "Jim Bowie"
+    ]
+  }
+}

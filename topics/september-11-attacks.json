@@ -1,0 +1,495 @@
+{
+  "id": "september-11-attacks",
+  "name": "September 11 attacks",
+  "mono": "911",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "2001 al-Qaeda attacks on the U.S. · Deadliest terrorist attack in history",
+  "dates": "September 11, 2001",
+  "briefing": "On the morning of September 11, 2001, 19 al-Qaeda terrorists hijacked four airliners. Two struck the Twin Towers of New York City’s World Trade Center, which both collapsed; one hit the Pentagon, near Washington, D.C.; and the fourth crashed in a Pennsylvania field after its passengers fought back. The attacks killed 2,977 people, making them the deadliest terrorist attack in history. Two memorial pools, opened in 2011, mark where the towers stood.",
+  "answerHtml": "<b><u>September 11</u></b> attacks (or <b><u>9/11</u></b>; prompt on descriptions like an attack on the <u>World Trade Center</u> or the <u>Twin Towers</u>; do not accept “1993 World Trade Center bombing”)",
+  "accept": [
+    "september 11 attacks",
+    "september 11",
+    "september 11th",
+    "september 11th attacks",
+    "september eleventh",
+    "sept 11",
+    "sept 11th",
+    "9 11",
+    "9 11 attacks",
+    "911",
+    "nine eleven",
+    "attacks of september 11",
+    "september 11 2001",
+    "11 september",
+    "11th of september"
+  ],
+  "prompt": [
+    "world trade center",
+    "world trade center attack",
+    "world trade center attacks",
+    "attack on the world trade center",
+    "attacks on the world trade center",
+    "twin towers",
+    "twin towers attack",
+    "attack on the twin towers",
+    "pentagon attack",
+    "attack on the pentagon",
+    "terrorist attack",
+    "terrorist attacks",
+    "hijackings"
+  ],
+  "reject": [
+    "1993 world trade center bombing",
+    "world trade center bombing",
+    "1993 bombing",
+    "oklahoma city bombing",
+    "attack on pearl harbor",
+    "pearl harbor",
+    "boston marathon bombing",
+    "anthrax attacks",
+    "war on terror",
+    "war in afghanistan",
+    "afghanistan war",
+    "iraq war",
+    "osama bin laden",
+    "bin laden",
+    "al qaeda",
+    "taliban",
+    "9 11 commission",
+    "september 11 commission",
+    "national september 11 memorial",
+    "september 11 memorial",
+    "9 11 memorial",
+    "patriot act",
+    "usa patriot act",
+    "department of homeland security",
+    "flight 93",
+    "united flight 93"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/September_11_attacks",
+  "qb": {
+    "q": "September 11",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The New York Philharmonic asked composer John Adams to write _On the Transmigration of Souls_ in memory of the people killed in this event. That piece premiered about a year after this event and won the 2003 Pulitzer Prize for Music.",
+      "r": "In this event, hijacked planes destroyed the Twin Towers in New York City. For 10 points, name these 2001 terrorist attacks."
+    },
+    {
+      "p": "The musical _Come From Away_ tells how the small town of Gander, Newfoundland, welcomed thousands of stranded airline passengers whose flights were diverted to Canada during this event. That day, every civilian plane flying over the United States was ordered to land at the nearest airport.",
+      "r": "For 10 points, name these attacks in which al-Qaeda hijackers crashed planes into the World Trade Center and the Pentagon."
+    },
+    {
+      "p": "A 2004 report on this event blamed a “failure of imagination” and recommended creating a Director of National Intelligence to oversee the nation’s intelligence agencies. Former New Jersey governor Thomas Kean chaired the commission that wrote that report, and Lee Hamilton was its vice chair.",
+      "r": "For 10 points, name these 2001 terrorist attacks that destroyed the Twin Towers in New York City."
+    },
+    {
+      "p": "An official report called Khalid Sheikh Mohammed the “principal architect” of this event; he was captured in Pakistan in 2003 and held at the U.S. prison at Guantánamo [“gwahn-TAH-nuh-moh”] Bay, Cuba. His nephew, Ramzi Yousef, had planned a 1993 truck bombing of one of this event’s targets.",
+      "r": "Mohamed Atta led the 19 hijackers in this event. For 10 points, name these al-Qaeda attacks on the World Trade Center and the Pentagon."
+    },
+    {
+      "p": "During this event, President George W. Bush was listening to a class of second-graders read a story called “The Pet Goat” at Emma E. Booker Elementary School in Sarasota, Florida. His chief of staff, Andrew Card, leaned over and whispered that “America is under attack.”",
+      "r": "For 10 points, name these 2001 attacks in which hijackers flew planes into the World Trade Center."
+    },
+    {
+      "p": "Three days after this event, President George W. Bush climbed onto a pile of rubble beside retired firefighter Bob Beckwith and answered rescue workers through a bullhorn: “I can hear you!” That year, _Time_ named New York mayor Rudy Giuliani its Person of the Year for leading the city’s response.",
+      "r": "For 10 points, name these 2001 terrorist attacks in which hijacked airliners struck the World Trade Center and the Pentagon."
+    },
+    {
+      "p": "The Tower of Voices, a memorial near Shanksville, Pennsylvania, holds 40 wind chimes, one for each passenger and crew member killed when their plane crashed in a nearby field during this event. Those passengers had learned through phone calls about the other attacks and decided to fight back against the hijackers.",
+      "r": "That plane was United Flight 93. For 10 points, name these 2001 attacks that also struck the Pentagon."
+    },
+    {
+      "p": "A Callery pear tree nicknamed the “Survivor Tree” was pulled from the wreckage after this event, nursed back to health, and replanted at a memorial designed by Michael Arad. That memorial, called _Reflecting Absence_, has two square pools that sit in the footprints of two destroyed skyscrapers.",
+      "r": "Hijacked planes had struck those towers. For 10 points, name these 2001 attacks on the World Trade Center and the Pentagon."
+    },
+    {
+      "p": "Bronze panels around a memorial’s pools list 2,983 names, including six people killed in a 1993 bombing at the same site. That memorial opened on the tenth anniversary of this event, in 2011, and a museum beneath it opened three years later.",
+      "r": "For 10 points, name these 2001 attacks, which killed 2,977 people in New York, Virginia, and Pennsylvania."
+    },
+    {
+      "p": "A memorial in Arlington, Virginia, opened in 2008 with 184 benches, one for each person killed at a nearby military headquarters during this event. Most of those victims worked inside that building, and the rest were aboard American Airlines Flight 77.",
+      "r": "That building was the Pentagon. For 10 points, name these 2001 terrorist attacks, which also destroyed the World Trade Center."
+    },
+    {
+      "p": "Once nicknamed the “Freedom Tower,” a skyscraper built after this event rises exactly 1,776 feet to honor the year the Declaration of Independence was signed. When it opened in 2014, it was the tallest building in the Western Hemisphere.",
+      "r": "It stands at the rebuilt World Trade Center. For 10 points, name these 2001 attacks that destroyed the original Twin Towers."
+    },
+    {
+      "p": "For the first time in its history, NATO invoked Article 5, which says that an attack on one member is an attack on all, the day after this event. Less than a month later, the United States and its allies began a war to drive the Taliban from power in Afghanistan.",
+      "r": "Osama bin Laden, who planned this event, was killed in Pakistan in 2011. For 10 points, name these al-Qaeda attacks on the United States."
+    },
+    {
+      "p": "About six weeks after this event, President George W. Bush signed the USA PATRIOT Act, which expanded the government’s power to watch and investigate suspected terrorists. In 2002, Congress combined 22 agencies into a new Department of Homeland Security, first led by Tom Ridge.",
+      "r": "For 10 points, name these 2001 attacks on the World Trade Center and the Pentagon."
+    },
+    {
+      "p": "In Jonathan Safran Foer’s novel _Extremely Loud & Incredibly Close_, nine-year-old Oskar Schell searches New York City for the lock that fits a key left by his father, who died in this event. Paul Greengrass directed _United 93_, a 2006 film about one of the planes in this event.",
+      "r": "For 10 points, name these 2001 attacks in which hijacked airliners hit the World Trade Center and the Pentagon."
+    },
+    {
+      "p": "The New York City Fire Department lost 343 firefighters in this event, including its chaplain, Father Mychal Judge, who was officially listed as its first victim. For months afterward, workers searched and cleared the site, which became known as Ground Zero.",
+      "r": "For 10 points, name these 2001 attacks in which two hijacked planes destroyed the Twin Towers."
+    }
+  ],
+  "clues": [
+    {
+      "id": "hijacked-planes",
+      "tier": "giveaway",
+      "t": "Nineteen al-Qaeda terrorists hijacked four airliners on a Tuesday morning in 2001",
+      "k": [
+        "hijacked",
+        "four airliners",
+        "nineteen",
+        "al-qaeda"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twin-towers",
+      "tier": "giveaway",
+      "t": "Two planes struck the Twin Towers of New York City’s World Trade Center, and both towers collapsed",
+      "k": [
+        "twin towers",
+        "world trade center",
+        "new york"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pentagon",
+      "tier": "giveaway",
+      "t": "A third plane hit the Pentagon, the Defense Department’s headquarters in Arlington, Virginia, near Washington, D.C.",
+      "k": [
+        "pentagon",
+        "defense department",
+        "arlington"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flight-93",
+      "tier": "giveaway",
+      "t": "On the fourth plane, United Flight 93, passengers fought back; it crashed in a field near Shanksville, Pennsylvania",
+      "k": [
+        "flight 93",
+        "shanksville",
+        "fought back",
+        "pennsylvania"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bin-laden",
+      "tier": "giveaway",
+      "t": "Planned by al-Qaeda, the terrorist group led by Osama bin Laden",
+      "k": [
+        "osama bin laden",
+        "bin laden",
+        "al-qaeda"
+      ],
+      "n": 0
+    },
+    {
+      "id": "victims",
+      "tier": "middle",
+      "t": "Killed 2,977 people, the deadliest terrorist attack in history; 343 of them were New York City firefighters",
+      "k": [
+        "2,977",
+        "deadliest",
+        "343",
+        "firefighters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "commission",
+      "tier": "middle",
+      "t": "Investigated by the National Commission on Terrorist Attacks Upon the United States, chaired by Thomas Kean, whose report came out in 2004",
+      "k": [
+        "thomas kean",
+        "kean",
+        "commission",
+        "2004"
+      ],
+      "n": 0
+    },
+    {
+      "id": "memorial",
+      "tier": "middle",
+      "t": "Its national memorial opened in 2011: two pools in the towers’ footprints, designed by Michael Arad and called _Reflecting Absence_",
+      "k": [
+        "memorial",
+        "pools",
+        "footprints",
+        "michael arad",
+        "reflecting absence"
+      ],
+      "n": 0
+    },
+    {
+      "id": "one-wtc",
+      "tier": "middle",
+      "t": "One World Trade Center, once called the “Freedom Tower,” rises 1,776 feet; it opened in 2014",
+      "k": [
+        "one world trade center",
+        "freedom tower",
+        "1,776"
+      ],
+      "n": 0
+    },
+    {
+      "id": "afghanistan",
+      "tier": "middle",
+      "t": "In October 2001, the U.S. and its allies went to war in Afghanistan to drive out the Taliban, who had sheltered al-Qaeda",
+      "k": [
+        "afghanistan",
+        "taliban",
+        "october 2001"
+      ],
+      "n": 0
+    },
+    {
+      "id": "homeland",
+      "tier": "middle",
+      "t": "Led to the USA PATRIOT Act (2001), the Transportation Security Administration (2001), and the Department of Homeland Security (2002)",
+      "k": [
+        "patriot act",
+        "homeland security",
+        "transportation security"
+      ],
+      "n": 0,
+      "rabbit": "Department of Homeland Security"
+    },
+    {
+      "id": "bush-classroom",
+      "tier": "middle",
+      "t": "President George W. Bush was visiting a classroom in Sarasota, Florida, when he learned what was happening",
+      "k": [
+        "george w. bush",
+        "bush",
+        "sarasota",
+        "classroom"
+      ],
+      "n": 0,
+      "rabbit": "George W. Bush"
+    },
+    {
+      "id": "bin-laden-raid",
+      "tier": "middle",
+      "t": "In 2011, U.S. Navy SEALs killed Osama bin Laden in Pakistan",
+      "k": [
+        "navy seals",
+        "2011",
+        "pakistan"
+      ],
+      "n": 0,
+      "rabbit": "Barack Obama"
+    },
+    {
+      "id": "ground-zero",
+      "tier": "middle",
+      "t": "The destroyed site was called Ground Zero; three days later, Bush told rescue workers through a bullhorn, “I can hear you!”",
+      "k": [
+        "ground zero",
+        "bullhorn",
+        "i can hear you"
+      ],
+      "n": 0
+    },
+    {
+      "id": "transmigration",
+      "tier": "power",
+      "t": "Composer John Adams’s _On the Transmigration of Souls_, written in memory of the victims, won the 2003 Pulitzer Prize for Music",
+      "k": [
+        "transmigration",
+        "john adams",
+        "pulitzer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "come-from-away",
+      "tier": "power",
+      "t": "The musical _Come From Away_: the town of Gander, Newfoundland, took in thousands of passengers whose flights were diverted to Canada",
+      "k": [
+        "come from away",
+        "gander",
+        "newfoundland"
+      ],
+      "n": 0
+    },
+    {
+      "id": "failure-of-imagination",
+      "tier": "power",
+      "t": "The commission’s report blamed a “failure of imagination” and urged creating a Director of National Intelligence; Lee Hamilton was vice chair",
+      "k": [
+        "failure of imagination",
+        "director of national intelligence",
+        "lee hamilton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ksm",
+      "tier": "power",
+      "t": "Khalid Sheikh Mohammed, called the plot’s “principal architect,” was captured in Pakistan in 2003 and held at Guantánamo Bay",
+      "k": [
+        "khalid sheikh mohammed",
+        "principal architect",
+        "guantánamo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atta",
+      "tier": "power",
+      "t": "Mohamed Atta led the hijackers and flew the first plane to strike, American Airlines Flight 11",
+      "k": [
+        "mohamed atta",
+        "atta",
+        "flight 11"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pet-goat",
+      "tier": "power",
+      "t": "Bush was at Emma E. Booker Elementary while second-graders read “The Pet Goat”; Andrew Card whispered, “America is under attack”",
+      "k": [
+        "pet goat",
+        "andrew card",
+        "booker elementary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "giuliani",
+      "tier": "power",
+      "t": "_Time_ named New York mayor Rudy Giuliani its 2001 Person of the Year for leading the city’s response",
+      "k": [
+        "giuliani",
+        "person of the year",
+        "rudy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "survivor-tree",
+      "tier": "power",
+      "t": "The “Survivor Tree,” a Callery pear pulled from the wreckage, was nursed back to health and replanted at the memorial",
+      "k": [
+        "survivor tree",
+        "callery pear",
+        "pear"
+      ],
+      "n": 0
+    },
+    {
+      "id": "names-2983",
+      "tier": "power",
+      "t": "The memorial lists 2,983 names, including the six people killed in the 1993 World Trade Center bombing",
+      "k": [
+        "2,983",
+        "1993",
+        "bombing",
+        "six people"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tower-of-voices",
+      "tier": "power",
+      "t": "At the Flight 93 National Memorial, the Tower of Voices holds 40 wind chimes, one for each passenger and crew member",
+      "k": [
+        "tower of voices",
+        "wind chimes",
+        "40"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pentagon-memorial",
+      "tier": "power",
+      "t": "The Pentagon Memorial (2008) has 184 benches, one for each victim there; 59 of them were aboard American Airlines Flight 77",
+      "k": [
+        "184",
+        "benches",
+        "pentagon memorial",
+        "flight 77"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nato",
+      "tier": "power",
+      "t": "NATO invoked Article 5 (an attack on one member is an attack on all) for the first time, the next day",
+      "k": [
+        "article 5",
+        "nato",
+        "attack on one"
+      ],
+      "n": 0
+    },
+    {
+      "id": "extremely-loud",
+      "tier": "power",
+      "t": "Jonathan Safran Foer’s novel _Extremely Loud & Incredibly Close_: Oskar Schell hunts for the lock that fits his late father’s key; also the film _United 93_",
+      "k": [
+        "extremely loud",
+        "oskar schell",
+        "safran foer",
+        "united 93"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mychal-judge",
+      "tier": "power",
+      "t": "Fire Department chaplain Father Mychal Judge was officially listed as the first victim",
+      "k": [
+        "mychal judge",
+        "chaplain"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "1993 or 2001?",
+    "body": "The World Trade Center was attacked twice. On February 26, 1993, a truck bomb exploded in a parking garage beneath the North Tower, killing six people; that bombing is a different answer line, even though its victims’ names are also on the memorial. Many questions also mention Osama bin Laden or al-Qaeda early, and a player who blurts out the man or the group instead of the event loses the tossup.",
+    "fix": "Hijacked airliners, the Pentagon, Flight 93, Shanksville, and 2,977 victims mean 2001; a truck bomb, an underground garage, and Ramzi Yousef mean 1993. Listen for the noun: “this event” or “these attacks” wants the attacks, “this man” wants Osama bin Laden, and “this group” wants al-Qaeda.",
+    "line": "Real answer line: <b><u>September 11</u></b> attacks (or <b><u>9/11</u></b>; do not accept “1993 World Trade Center bombing”)"
+  },
+  "tests": {
+    "right": [
+      "September 11 attacks",
+      "9/11",
+      "September 11th",
+      "the 9/11 attacks",
+      "Septmber 11",
+      "nine eleven"
+    ],
+    "prompt": [
+      "World Trade Center attack",
+      "Twin Towers"
+    ],
+    "wrong": [
+      "1993 World Trade Center bombing",
+      "Attack on Pearl Harbor",
+      "Oklahoma City bombing",
+      "Osama bin Laden",
+      "War on Terror",
+      "9/11 Commission"
+    ]
+  }
+}

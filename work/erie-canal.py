@@ -1,0 +1,346 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "erie-canal",
+    "name": "Erie Canal",
+    "mono": "ERC",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Waterway from the Hudson River to Lake Erie · Opened the West to trade",
+    "dates": "Built 1817–1825",
+    "briefing": "Critics laughed at Governor DeWitt Clinton’s plan to dig a 363-mile ditch across New York from the Hudson River to Lake Erie, calling it “Clinton’s Ditch.” Workers dug it largely by hand, and when the Erie Canal opened in 1825, it cut the cost of shipping goods by about 90 percent. Farm goods from the Midwest poured east, and New York City became the busiest port in the country.",
+    "answerHtml": "<b><u>Erie Canal</u></b> (accept “Clinton’s Ditch”; prompt on “Erie” or “canal” alone; do not accept “Lake Erie”)",
+    "accept": [
+        "erie canal",
+        "the erie canal",
+        "clintons ditch",
+        "clintons big ditch",
+        "clintons folly"
+    ],
+    "prompt": [
+        "canal",
+        "the canal",
+        "erie",
+        "big ditch",
+        "the big ditch",
+        "barge canal",
+        "new york state barge canal",
+        "new york state canal system"
+    ],
+    "reject": [
+        "lake erie",
+        "battle of lake erie",
+        "erie railroad",
+        "erie railway",
+        "erie war",
+        "erie pennsylvania",
+        "ohio and erie canal",
+        "miami and erie canal",
+        "wabash and erie canal",
+        "panama canal",
+        "suez canal",
+        "champlain canal",
+        "welland canal",
+        "chesapeake and ohio canal",
+        "c and o canal",
+        "illinois and michigan canal",
+        "saint lawrence seaway",
+        "st lawrence seaway",
+        "dewitt clinton",
+        "hudson river",
+        "mohawk river",
+        "great lakes",
+        "national road",
+        "cumberland road"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Erie_Canal",
+    "qb": {
+        "q": "Erie Canal",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Digging on this project began at Rome, New York, on July 4, 1817, and its middle section, between Rome and Utica, was the first part to open. When the whole project was finished eight years later, its 83 locks could raise boats more than 500 feet.",
+            "r": "For 10 points, name this canal championed by Governor DeWitt Clinton, which linked the Hudson River to the Great Lakes."
+        },
+        {
+            "p": "Thomas Jefferson reportedly called the idea for this project “little short of madness,” and James Madison vetoed the Bonus Bill, which could have helped pay for projects like it. Without federal money, New York State spent about seven million dollars to build it.",
+            "r": "Governor DeWitt Clinton championed it. For 10 points, name this canal that opened in 1825, linking Albany and Buffalo."
+        },
+        {
+            "p": "When this project opened, cannons placed along its route fired one after another to relay the news to New York City. A governor then rode the boat _Seneca Chief_ across the state and poured a keg of lake water into the Atlantic Ocean.",
+            "r": "That ceremony, led by DeWitt Clinton, was called the “Wedding of the Waters.” For 10 points, name this New York canal."
+        },
+        {
+            "p": "At Lockport, two side-by-side sets of five locks called the “Flight of Five” lifted boats up the Niagara Escarpment along this waterway. Farther east, stone aqueducts carried it over rivers, including the Genesee [“jen-uh-SEE”] River at Rochester.",
+            "r": "For 10 points, name this canal that connected the Hudson River at Albany with Lake Erie at Buffalo."
+        },
+        {
+            "p": "A 1905 song by Thomas S. Allen describes a mule named Sal towing a boat on this waterway and warns, “Low bridge, everybody down.” Mules and horses walking along its towpath pulled the boats.",
+            "r": "For 10 points, name this New York canal, which opened in 1825 and was championed by DeWitt Clinton."
+        },
+        {
+            "p": "This waterway cut the cost of shipping goods across New York by about 90 percent, and its tolls soon paid back the cost of building it. It helped New York City become the busiest port in the United States.",
+            "r": "For 10 points, name this canal built by New York State between 1817 and 1825."
+        },
+        {
+            "p": "This waterway followed the valley of the Mohawk River, a low gap through the Appalachian Mountains that gave it an advantage over routes farther south. Its success set off a wave of canal building in Ohio, Pennsylvania, and other states.",
+            "r": "For 10 points, name this canal that linked the Great Lakes to New York City by way of the Hudson River."
+        },
+        {
+            "p": "This project’s greatest supporter, a former mayor of New York City, had lost the 1812 presidential election to James Madison before becoming governor of New York. Critics mocked the project as “the Big Ditch” and named it after him.",
+            "r": "That governor was DeWitt Clinton. For 10 points, name this canal, which opened in 1825."
+        },
+        {
+            "p": "Canvass White found a way to make cement from local limestone that hardened underwater, and it was used to build this waterway’s locks. Many of the men who dug it were local farmers and Irish immigrants working with shovels, picks, and horses.",
+            "r": "It opened in 1825. For 10 points, name this canal across New York, championed by DeWitt Clinton."
+        },
+        {
+            "p": "Religious revivals swept the towns along this waterway so often that the region was called the “burned-over district.” In 1830, Joseph Smith published the _Book of Mormon_ in Palmyra, a town on its route.",
+            "r": "For 10 points, name this canal, opened in 1825, that made Rochester and Buffalo into boomtowns."
+        },
+        {
+            "p": "This waterway was widened in the mid-1800s and later replaced by the larger New York State Barge Canal, which was completed in 1918. Its original channel was 40 feet wide and only 4 feet deep.",
+            "r": "For 10 points, name this 363-mile canal between Albany and Buffalo, which opened in 1825."
+        },
+        {
+            "p": "This waterway let farmers in Ohio, Indiana, and Michigan ship wheat and flour east cheaply, and it carried thousands of settlers west. Rochester shipped so much flour on it that the city was nicknamed the “Flour City.”",
+            "r": "Governor DeWitt Clinton had pushed for it. For 10 points, name this New York canal that opened in 1825."
+        },
+        {
+            "p": "Because few Americans had formal engineering training, chief engineer Benjamin Wright and his assistants learned on the job while building this project, which became known as America’s first school of engineering. Wright is often called the “Father of American Civil Engineering.”",
+            "r": "For 10 points, name this canal that opened in 1825, linking the Hudson River to Lake Erie."
+        },
+        {
+            "p": "Boats on this waterway were weighed at special locks to set their tolls, and the last surviving weighlock building, in Syracuse, later became a museum about it. Barrels of salt from Syracuse were among the many goods it carried east.",
+            "r": "DeWitt Clinton championed it. For 10 points, name this canal that linked Albany and Buffalo, opening in 1825."
+        },
+        {
+            "p": "Gouverneur Morris led a state commission that began planning this waterway in 1810, years before New York’s legislature approved building it in 1817. Its builders had to dig through the Montezuma Marsh, where many workers fell ill with malaria.",
+            "r": "For 10 points, name this canal, championed by DeWitt Clinton, that linked the Hudson River to the Great Lakes."
+        }
+    ],
+    "clues": [
+        {
+            "id": "route",
+            "tier": "giveaway",
+            "t": "Linked the Hudson River at Albany with Lake Erie at Buffalo, across upstate New York",
+            "k": ["hudson river", "albany", "buffalo"],
+            "n": 0
+        },
+        {
+            "id": "clinton",
+            "tier": "giveaway",
+            "t": "Championed by Governor DeWitt Clinton; critics called it his “Ditch” or his “Folly”",
+            "k": ["dewitt clinton", "clinton", "folly", "ditch"],
+            "n": 0
+        },
+        {
+            "id": "opened-1825",
+            "tier": "giveaway",
+            "t": "Opened in 1825 after about eight years of digging (begun 1817)",
+            "k": ["1825", "1817", "digging"],
+            "n": 0
+        },
+        {
+            "id": "great-lakes",
+            "tier": "giveaway",
+            "t": "Gave the Great Lakes and the Midwest a water route to New York City and the Atlantic Ocean",
+            "k": ["great lakes", "midwest", "atlantic"],
+            "n": 0
+        },
+        {
+            "id": "busiest-port",
+            "tier": "giveaway",
+            "t": "Helped make New York City the nation’s busiest port and New York the “Empire State”",
+            "k": ["busiest port", "empire state", "new york city"],
+            "n": 0,
+            "rabbit": "New York"
+        },
+        {
+            "id": "wedding",
+            "tier": "middle",
+            "t": "“Wedding of the Waters” (1825): Clinton poured a keg of Lake Erie water into the Atlantic after riding the _Seneca Chief_",
+            "k": ["wedding of the waters", "keg", "seneca chief"],
+            "n": 0
+        },
+        {
+            "id": "size",
+            "tier": "middle",
+            "t": "Originally 363 miles long, 40 feet wide, and 4 feet deep, with 83 locks",
+            "k": ["363 miles", "83 locks", "4 feet deep", "locks"],
+            "n": 0
+        },
+        {
+            "id": "mules",
+            "tier": "middle",
+            "t": "Mules and horses on a towpath pulled the boats; the song “Low Bridge, Everybody Down” is about a mule named Sal",
+            "k": ["towpath", "mules", "low bridge", "sal"],
+            "n": 0
+        },
+        {
+            "id": "cost",
+            "tier": "middle",
+            "t": "Cut shipping costs by about 90 percent; New York State paid about $7 million to build it",
+            "k": ["90 percent", "7 million", "shipping costs"],
+            "n": 0
+        },
+        {
+            "id": "boomtowns",
+            "tier": "middle",
+            "t": "Boomtowns along it included Rochester (the “Flour City”), Syracuse, Utica, Lockport, and Buffalo",
+            "k": ["rochester", "flour city", "syracuse", "boomtowns"],
+            "n": 0
+        },
+        {
+            "id": "mohawk",
+            "tier": "middle",
+            "t": "Followed the Mohawk River valley, a low gap through the Appalachian Mountains",
+            "k": ["mohawk", "appalachian", "gap"],
+            "n": 0
+        },
+        {
+            "id": "canal-boom",
+            "tier": "middle",
+            "t": "Its success set off a canal-building boom in Ohio, Pennsylvania, and other states",
+            "k": ["canal-building boom", "ohio", "pennsylvania"],
+            "n": 0
+        },
+        {
+            "id": "rome",
+            "tier": "power",
+            "t": "Digging began at Rome, New York, on July 4, 1817; the first section opened between Rome and Utica",
+            "k": ["rome", "july 4", "utica"],
+            "n": 0
+        },
+        {
+            "id": "lockport",
+            "tier": "power",
+            "t": "Lockport’s “Flight of Five” locks lifted boats up the Niagara Escarpment",
+            "k": ["flight of five", "lockport", "niagara escarpment"],
+            "n": 0
+        },
+        {
+            "id": "jefferson",
+            "tier": "power",
+            "t": "Thomas Jefferson reportedly called the idea “little short of madness”",
+            "k": ["madness", "jefferson"],
+            "n": 0
+        },
+        {
+            "id": "bonus-bill",
+            "tier": "power",
+            "t": "James Madison vetoed the Bonus Bill (1817), so New York built it without federal money",
+            "k": ["bonus bill", "madison", "federal money"],
+            "n": 0,
+            "rabbit": "James Madison"
+        },
+        {
+            "id": "engineers",
+            "tier": "power",
+            "t": "Chief engineer Benjamin Wright (“Father of American Civil Engineering”); Canvass White made a cement that hardens underwater",
+            "k": ["benjamin wright", "canvass white", "cement"],
+            "n": 0
+        },
+        {
+            "id": "barge-canal",
+            "tier": "power",
+            "t": "Widened in the 1800s and replaced by the New York State Barge Canal (1918)",
+            "k": ["barge canal", "1918", "widened"],
+            "n": 0
+        },
+        {
+            "id": "diggers",
+            "tier": "power",
+            "t": "Local farmers and Irish immigrants did much of the digging; many workers fell ill with malaria in the Montezuma Marsh",
+            "k": ["irish", "montezuma", "malaria"],
+            "n": 0
+        },
+        {
+            "id": "burned-over",
+            "tier": "power",
+            "t": "Ran through the “burned-over district” of religious revivals; Joseph Smith published the _Book of Mormon_ in Palmyra (1830)",
+            "k": ["burned-over district", "palmyra", "book of mormon"],
+            "n": 0
+        },
+        {
+            "id": "aqueducts",
+            "tier": "power",
+            "t": "Stone aqueducts carried it over rivers, such as the Genesee River at Rochester",
+            "k": ["aqueducts", "genesee"],
+            "n": 0
+        },
+        {
+            "id": "clinton-1812",
+            "tier": "power",
+            "t": "DeWitt Clinton, a former New York City mayor, had lost the 1812 presidential election to James Madison",
+            "k": ["1812", "presidential election", "mayor"],
+            "n": 0
+        },
+        {
+            "id": "morris",
+            "tier": "power",
+            "t": "Gouverneur Morris led the state commission that began planning it in 1810",
+            "k": ["gouverneur morris", "morris", "1810"],
+            "n": 0
+        },
+        {
+            "id": "cannon-relay",
+            "tier": "power",
+            "t": "When it opened, cannons fired one after another along its route to relay the news to New York City",
+            "k": ["cannons", "relay"],
+            "n": 0
+        },
+        {
+            "id": "weighlock",
+            "tier": "power",
+            "t": "Boats were weighed at weighlocks to set tolls; Syracuse’s weighlock building became a museum",
+            "k": ["weighlock", "tolls", "syracuse"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Canal, lake, or railroad?",
+        "body": "The word “Erie” leads to three different answers. The Erie Canal is the 1825 waterway across New York, Lake Erie is where Oliver Hazard Perry won his 1813 battle, and the Erie Railroad was fought over in the 1868 Erie War. Erie Canal clues like “Clinton’s Ditch” and the “Wedding of the Waters” also show up in tossups whose answer is New York State or Governor DeWitt Clinton.",
+        "fix": "Listen for the noun: “this canal” or “this waterway” wants the Erie Canal, “this governor” wants DeWitt Clinton, and “this state” wants New York. Say the whole name, “Erie Canal,” because “Erie” alone may only earn a prompt. “Clinton’s Ditch” is also accepted.",
+        "line": "Real answer line: <b><u>Erie Canal</u></b> (accept “Clinton’s Ditch”; prompt on “Erie” or “canal” alone; do not accept “Lake Erie”)"
+    },
+    "tests": {
+        "right": [
+            "Erie Canal",
+            "the Erie Canal",
+            "Clinton's Ditch",
+            "Eire Canal",
+            "Erie Canel"
+        ],
+        "prompt": [
+            "canal",
+            "Erie"
+        ],
+        "wrong": [
+            "Lake Erie",
+            "Panama Canal",
+            "Ohio and Erie Canal",
+            "DeWitt Clinton",
+            "Erie Railroad",
+            "Champlain Canal"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

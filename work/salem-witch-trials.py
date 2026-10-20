@@ -1,0 +1,355 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "salem-witch-trials",
+    "name": "Salem witch trials",
+    "mono": "SWT",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Witchcraft panic in colonial Massachusetts · Twenty people executed in 1692",
+    "dates": "1692–1693",
+    "briefing": "In 1692, two girls in the home of Reverend Samuel Parris in Salem Village, Massachusetts, began having strange fits, and the adults around them decided that witches were to blame. Accusations spread fast: more than 200 people were accused, and twenty were executed before Governor William Phips shut down the special court. Years later, one of the judges publicly apologized, and Arthur Miller retold the story in his play _The Crucible_.",
+    "answerHtml": "<b><u>Salem witch trials</u></b> (accept <u>Salem witch hunt</u> or <u>Salem witchcraft</u> trials; prompt on <u>witch trials</u>, <u>witch hunt</u>, or <u>Salem</u>; do not accept “The Crucible”)",
+    "accept": [
+        "salem witch trials",
+        "salem witch trial",
+        "salem witchcraft trials",
+        "salem witchcraft trial",
+        "salem witchcraft",
+        "salem witch hunt",
+        "salem witch hunts",
+        "salem witch crisis",
+        "salem trials"
+    ],
+    "prompt": [
+        "witch trials",
+        "witch trial",
+        "witchcraft trials",
+        "witchcraft trial",
+        "witch hunt",
+        "witch hunts",
+        "witchcraft",
+        "salem",
+        "salem village",
+        "salem massachusetts"
+    ],
+    "reject": [
+        "the crucible",
+        "crucible",
+        "mccarthyism",
+        "red scare",
+        "joseph mccarthy",
+        "arthur miller",
+        "tituba",
+        "cotton mather",
+        "increase mather",
+        "samuel parris",
+        "spectral evidence",
+        "court of oyer and terminer",
+        "the scarlet letter",
+        "scopes trial"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Salem_witch_trials",
+    "qb": {
+        "q": "Salem witch trials",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 2022, Massachusetts officially cleared Elizabeth Johnson Jr., the last person convicted in this event whose name had never been cleared, after a campaign by an eighth-grade civics class. In 1711, the colony had reversed many of this event’s convictions and paid money to the victims’ families.",
+            "r": "Spectral evidence was used against many of the accused. For 10 points, name this 1692 panic in Massachusetts in which twenty people were executed for witchcraft."
+        },
+        {
+            "p": "A Boston minister warned in _Cases of Conscience_ that “it were better that ten suspected witches should escape than that one innocent person should be condemned.” His son, Cotton Mather, defended the judges of this event in _The Wonders of the Invisible World_.",
+            "r": "That father was Increase Mather. For 10 points, name these 1692 trials in which spectral evidence was used to convict accused witches."
+        },
+        {
+            "p": "Lieutenant Governor William Stoughton served as chief judge of the Court of Oyer and Terminer [“OY-er and TUR-mih-ner”], which was created to handle this event. In October 1692, the governor who had set up that court shut it down, and the court that replaced it gave little weight to spectral evidence.",
+            "r": "That governor was William Phips. For 10 points, name these 1692 witchcraft trials held in Massachusetts."
+        },
+        {
+            "p": "In 1697, Judge Samuel Sewall stood in Boston’s Old South Church while the minister read aloud Sewall’s apology for his part in this event. Sewall later wrote _The Selling of Joseph_, an early pamphlet against slavery.",
+            "r": "Arthur Miller’s play _The Crucible_ retells this event. For 10 points, name these 1692 trials in which twenty people were executed for witchcraft."
+        },
+        {
+            "p": "A neighbor named Mary Sibley asked an enslaved couple to bake a “witch cake” and feed it to a dog, hoping to learn who had bewitched two girls at the start of this event. The minister of the household where that couple lived scolded Sibley from the pulpit.",
+            "r": "The woman who baked it, Tituba, later confessed and claimed the Devil had asked her to sign his book. For 10 points, name this 1692 witchcraft panic in Massachusetts."
+        },
+        {
+            "p": "A jury first found the elderly church member Rebecca Nurse not guilty in this event, but after her accusers cried out in protest, the judges asked the jurors to reconsider, and they changed their verdict. Her sister Mary Eastey [“EES-tee”] later begged the judges to make sure that no more innocent blood was shed.",
+            "r": "For 10 points, name this 1692 panic in which twenty people were executed after being accused of witchcraft."
+        },
+        {
+            "p": "George Burroughs, who had once been the minister of the village where this event began, was arrested in Maine, where he was then preaching. Accusers called him the leader of the witches, and he became the only minister executed during this event.",
+            "r": "More than 200 people in the Puritan colony were accused. For 10 points, name this 1692 witchcraft panic in Massachusetts."
+        },
+        {
+            "p": "Nathaniel Hawthorne’s great-great-grandfather John Hathorne questioned the first three accused women in this event in March 1692, alongside fellow magistrate Jonathan Corwin. Hawthorne’s novel _The House of the Seven Gables_ begins with a curse laid by a man executed as a wizard during this event.",
+            "r": "The first three accused were Sarah Good, Sarah Osborne, and Tituba. For 10 points, name these 1692 trials in Massachusetts."
+        },
+        {
+            "p": "In this event, the elderly farmer Giles Corey refused to enter a plea, so he was never tried, yet he was still put to death. His wife, Martha, had been accused after she said she doubted the afflicted girls. She was executed three days after him, in September 1692.",
+            "r": "Arthur Miller later wrote a play about this event. For 10 points, name this witchcraft panic in Massachusetts, in which twenty people were executed."
+        },
+        {
+            "p": "In 1706, accuser Ann Putnam Jr. stood in church while her apology was read aloud, saying she had been deceived into accusing innocent people during this event. Historians Paul Boyer and Stephen Nissenbaum linked this event to a feud between her family and the Porter family.",
+            "r": "For 10 points, name this 1692 panic in which more than 200 people were accused of witchcraft."
+        },
+        {
+            "p": "In 1976, Linnda Caporael suggested that ergot, a fungus that grows on rye, caused the fits that set off this event. Historian Mary Beth Norton instead tied this event to fears stirred up by frontier wars against the French and their Native allies in Maine.",
+            "r": "Spectral evidence was used to convict many people in this event. For 10 points, name these 1692 witchcraft trials in Massachusetts."
+        },
+        {
+            "p": "This event began in a farming village that later became the town of Danvers, where nine-year-old Betty Parris and her eleven-year-old cousin Abigail Williams started having fits. A doctor named William Griggs suggested that the girls were under an “evil hand.”",
+            "r": "Betty’s father, Reverend Samuel Parris, was the village minister. For 10 points, name this 1692 panic retold in _The Crucible_."
+        },
+        {
+            "p": "In 1992, Holocaust survivor Elie Wiesel dedicated a memorial to the victims of this event, made up of stone benches carved with the victims’ names. In 2016, researchers confirmed that a rocky spot called Proctor’s Ledge was where most of this event’s victims had been executed.",
+            "r": "For 10 points, name these 1692 trials in which twenty people were executed for witchcraft."
+        },
+        {
+            "p": "Reverend John Hale, who had supported the prosecutions in this event, later admitted that mistakes had been made in his book _A Modest Enquiry into the Nature of Witchcraft_. A character based on Hale appears in a 1953 play about this event, alongside its hero, John Proctor.",
+            "r": "That play, Arthur Miller’s _The Crucible_, used this event to comment on the 1950s hunt for suspected Communists. For 10 points, name these 1692 trials."
+        },
+        {
+            "p": "Judge Nathaniel Saltonstall quit the court that handled this event soon after its first execution, that of Bridget Bishop in June 1692. Bishop had been accused of witchcraft years earlier, and accusers in this event claimed that her specter had attacked them.",
+            "r": "That kind of testimony was called spectral evidence. For 10 points, name these 1692 trials in which twenty people were executed."
+        }
+    ],
+    "clues": [
+        {
+            "id": "salem-village-1692",
+            "tier": "giveaway",
+            "t": "Began in 1692 in Salem Village (now Danvers), Massachusetts, when girls had fits that adults blamed on witchcraft",
+            "k": ["1692", "salem village", "danvers", "fits"],
+            "n": 0
+        },
+        {
+            "id": "twenty-executed",
+            "tier": "giveaway",
+            "t": "More than 200 people were accused, and twenty were executed",
+            "k": ["twenty", "executed", "accused", "200"],
+            "n": 0
+        },
+        {
+            "id": "crucible",
+            "tier": "giveaway",
+            "t": "Retold in Arthur Miller’s 1953 play _The Crucible_, which compared it to the hunt for Communists in the 1950s",
+            "k": ["crucible", "arthur miller", "1953"],
+            "n": 0,
+            "rabbit": "The Crucible"
+        },
+        {
+            "id": "puritan-devil",
+            "tier": "giveaway",
+            "t": "Happened in the Puritan Massachusetts Bay Colony; the accused were said to serve the Devil",
+            "k": ["puritan", "devil", "massachusetts bay"],
+            "n": 0,
+            "rabbit": "Puritans"
+        },
+        {
+            "id": "tituba",
+            "tier": "middle",
+            "t": "Tituba, an enslaved woman in the Parris household, was among the first accused; her confession fed the panic",
+            "k": ["tituba", "confession", "enslaved"],
+            "n": 0
+        },
+        {
+            "id": "parris",
+            "tier": "middle",
+            "t": "Began in the home of Reverend Samuel Parris, whose daughter Betty and niece Abigail Williams had fits",
+            "k": ["samuel parris", "parris", "abigail williams", "betty"],
+            "n": 0
+        },
+        {
+            "id": "spectral",
+            "tier": "middle",
+            "t": "Spectral evidence: claims that an accused person’s spirit, or specter, attacked victims in dreams or visions",
+            "k": ["spectral evidence", "spectral", "specter"],
+            "n": 0
+        },
+        {
+            "id": "mathers",
+            "tier": "middle",
+            "t": "Cotton Mather defended the judges in _The Wonders of the Invisible World_; his father, Increase Mather, warned against spectral evidence",
+            "k": ["cotton mather", "increase mather", "wonders of the invisible world"],
+            "n": 0
+        },
+        {
+            "id": "phips",
+            "tier": "middle",
+            "t": "Governor William Phips created the special Court of Oyer and Terminer and shut it down in October 1692",
+            "k": ["phips", "oyer and terminer", "october"],
+            "n": 0
+        },
+        {
+            "id": "sewall",
+            "tier": "middle",
+            "t": "Judge Samuel Sewall publicly apologized for his role in 1697",
+            "k": ["sewall", "apologized", "1697"],
+            "n": 0
+        },
+        {
+            "id": "proctor",
+            "tier": "middle",
+            "t": "John Proctor, the hero of _The Crucible_, was a real victim, executed in August 1692",
+            "k": ["john proctor", "proctor", "august"],
+            "n": 0
+        },
+        {
+            "id": "giles-corey",
+            "tier": "middle",
+            "t": "Giles Corey refused to enter a plea and was put to death without a trial; his wife, Martha, was executed three days later",
+            "k": ["giles corey", "corey", "plea"],
+            "n": 0
+        },
+        {
+            "id": "rebecca-nurse",
+            "tier": "middle",
+            "t": "Rebecca Nurse, a respected elderly church member, was found not guilty until the jury was asked to reconsider",
+            "k": ["rebecca nurse", "nurse", "not guilty"],
+            "n": 0
+        },
+        {
+            "id": "hathorne",
+            "tier": "power",
+            "t": "Magistrates John Hathorne (Nathaniel Hawthorne’s great-great-grandfather) and Jonathan Corwin questioned the accused",
+            "k": ["hathorne", "hawthorne", "corwin", "magistrates"],
+            "n": 0
+        },
+        {
+            "id": "first-three",
+            "tier": "power",
+            "t": "The first three accused were Tituba, Sarah Good, and Sarah Osborne, who died in jail",
+            "k": ["sarah good", "sarah osborne", "osborne", "first three"],
+            "n": 0
+        },
+        {
+            "id": "bishop",
+            "tier": "power",
+            "t": "Bridget Bishop was the first person executed (June 1692); Judge Nathaniel Saltonstall soon quit the court",
+            "k": ["bridget bishop", "bishop", "saltonstall"],
+            "n": 0
+        },
+        {
+            "id": "stoughton",
+            "tier": "power",
+            "t": "Lieutenant Governor William Stoughton was the chief judge of the Court of Oyer and Terminer",
+            "k": ["stoughton", "chief judge"],
+            "n": 0
+        },
+        {
+            "id": "ten-witches",
+            "tier": "power",
+            "t": "Increase Mather’s _Cases of Conscience_: better that ten suspected witches escape than that one innocent person be condemned",
+            "k": ["cases of conscience", "ten suspected", "innocent"],
+            "n": 0
+        },
+        {
+            "id": "witch-cake",
+            "tier": "power",
+            "t": "Neighbor Mary Sibley had Tituba and her husband bake a “witch cake” to find the witch; Parris scolded her",
+            "k": ["witch cake", "sibley", "cake"],
+            "n": 0
+        },
+        {
+            "id": "burroughs",
+            "tier": "power",
+            "t": "George Burroughs, a former Salem Village minister arrested in Maine, was the only minister executed",
+            "k": ["burroughs", "maine", "only minister"],
+            "n": 0
+        },
+        {
+            "id": "eastey",
+            "tier": "power",
+            "t": "Mary Eastey, Rebecca Nurse’s sister, begged the judges to make sure no more innocent blood was shed",
+            "k": ["eastey", "innocent blood", "sister"],
+            "n": 0
+        },
+        {
+            "id": "putnam",
+            "tier": "power",
+            "t": "Accuser Ann Putnam Jr. apologized in 1706; historians Boyer and Nissenbaum tied the panic to a Putnam–Porter family feud",
+            "k": ["ann putnam", "putnam", "1706", "porter"],
+            "n": 0
+        },
+        {
+            "id": "theories",
+            "tier": "power",
+            "t": "Theories: Linnda Caporael blamed ergot, a fungus on rye (1976); Mary Beth Norton pointed to fear of frontier wars in Maine",
+            "k": ["ergot", "caporael", "mary beth norton", "frontier"],
+            "n": 0
+        },
+        {
+            "id": "selling-joseph",
+            "tier": "power",
+            "t": "Judge Sewall later wrote _The Selling of Joseph_ (1700), an early pamphlet against slavery",
+            "k": ["selling of joseph", "slavery"],
+            "n": 0
+        },
+        {
+            "id": "hale",
+            "tier": "power",
+            "t": "Reverend John Hale admitted mistakes in _A Modest Enquiry into the Nature of Witchcraft_; a character in _The Crucible_ is based on him",
+            "k": ["john hale", "hale", "modest enquiry"],
+            "n": 0
+        },
+        {
+            "id": "cleared",
+            "tier": "power",
+            "t": "Massachusetts reversed many convictions in 1711; in 2022 it cleared Elizabeth Johnson Jr., after an eighth-grade civics class campaigned",
+            "k": ["1711", "elizabeth johnson", "2022", "civics"],
+            "n": 0
+        },
+        {
+            "id": "memorial",
+            "tier": "power",
+            "t": "Elie Wiesel dedicated a memorial in 1992; in 2016, Proctor’s Ledge was confirmed as the execution site",
+            "k": ["elie wiesel", "memorial", "ledge"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The trials or the play?",
+        "body": "Salem tossups are full of names that are answers of their own. Arthur Miller’s 1953 play _The Crucible_ retells this event to comment on McCarthyism, the 1950s hunt for suspected Communists, so a question that asks for “this play” wants _The Crucible_, and one about “this senator” wants Joseph McCarthy. People like Tituba, Cotton Mather, and John Proctor can be answers too.",
+        "fix": "Listen for the noun: “this event,” “these trials,” or “this panic” wants the Salem witch trials; “this play” wants _The Crucible_; “this woman” or “this minister” wants a person. Saying only “witch trials” or “Salem” will get a prompt, so say the whole thing.",
+        "line": "Real answer line: <b><u>Salem witch trials</u></b> (accept <u>Salem witch hunt</u>; prompt on <u>witch trials</u> or <u>witch hunt</u>)"
+    },
+    "tests": {
+        "right": [
+            "Salem witch trials",
+            "Salem Witch Trial",
+            "the Salem witchcraft trials",
+            "Salem witch hunt",
+            "salem wich trials"
+        ],
+        "prompt": [
+            "witch trials",
+            "Salem",
+            "witch hunt"
+        ],
+        "wrong": [
+            "The Crucible",
+            "McCarthyism",
+            "Red Scare",
+            "Tituba",
+            "Cotton Mather",
+            "Scopes Trial"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
