@@ -100,8 +100,8 @@
       "r": "Its first president was Abraham Lincoln. For 10 points, name this political party whose symbol is the elephant."
     },
     {
-      "p": "This party’s 1860 platform called for free western land for settlers, a railroad to the Pacific Ocean, and a protective tariff. It also opposed letting slavery spread into the territories, and its candidate won that year without carrying a single slave state.",
-      "r": "That candidate was Abraham Lincoln, this party’s first president. For 10 points, name this political party founded in 1854."
+      "p": "This party’s 1860 platform called for free western land for settlers, a railroad to the Pacific Ocean, and a protective tariff. During the Civil War, its lawmakers passed the Homestead Act and the Pacific Railway Act, both in 1862.",
+      "r": "That platform also opposed spreading slavery into the territories, and its candidate, Abraham Lincoln, won. For 10 points, name this party."
     },
     {
       "p": "Led by Newt Gingrich, this party campaigned on a “Contract with America” in 1994 and won control of the House of Representatives for the first time in 40 years. In 1980, this party’s candidate, Ronald Reagan, defeated President Jimmy Carter.",
@@ -116,7 +116,7 @@
       "r": "McKinley beat William Jennings Bryan. For 10 points, name this party whose earlier presidents included Abraham Lincoln."
     },
     {
-      "p": "Historian Eric Foner’s book _Free Soil, Free Labor, Free Men_ studies the ideas of this party before the Civil War. This party rose as the Whig Party collapsed, drawing in former Whigs, Free Soilers, and Democrats who opposed slavery’s spread.",
+      "p": "Historian Eric Foner’s book _Free Soil, Free Labor, Free Men_ studies the ideas of this party before the Civil War. This party rose as the Whig Party collapsed, drawing in former Whigs, Free Soilers, and antislavery Democrats.",
       "r": "It was founded in 1854 to fight the Kansas–Nebraska Act. For 10 points, name this party of Abraham Lincoln."
     },
     {
@@ -329,10 +329,10 @@
     {
       "id": "platform",
       "tier": "power",
-      "t": "1860 platform: free western land for settlers (a homestead law), a Pacific railroad, and a protective tariff",
+      "t": "1860 platform: free western land for settlers, a Pacific railroad, and a protective tariff; the Homestead and Pacific Railway Acts passed in 1862",
       "k": [
         "homestead",
-        "pacific railroad",
+        "pacific railway",
         "tariff",
         "platform"
       ],

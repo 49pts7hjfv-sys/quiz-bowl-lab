@@ -84,7 +84,7 @@ data = {
             "r": "That meeting was the Hartford Convention, held during a war this party mocked as “Mr. Madison’s War.” For 10 points, name this party, which soon collapsed."
         },
         {
-            "p": "Weeks before losing power, this party’s Congress passed the Judiciary Act of 1801, which created sixteen new federal judgeships that its outgoing president filled with “midnight judges.” The next year, Congress, now run by the rival party, repealed that law.",
+            "p": "Weeks before losing power, this party’s Congress passed the Judiciary Act of 1801, which created sixteen new federal judgeships that its outgoing president filled with “midnight judges.” The next year, a Congress run by the rival party repealed that law.",
             "r": "That outgoing president, John Adams, also named John Marshall Chief Justice. For 10 points, name this party that lost power to Thomas Jefferson’s Democratic-Republicans in 1801."
         },
         {
@@ -96,7 +96,7 @@ data = {
             "r": "Democratic-Republicans called this party too friendly to Britain. For 10 points, name this party that supported Jay’s Treaty and Alexander Hamilton."
         },
         {
-            "p": "Members of this party cheered the slogan “Millions for defense, but not one cent for tribute” after French agents demanded a bribe from American diplomats. That XYZ Affair helped this party gain seats in the 1798 elections and build up the navy for an undeclared war with France.",
+            "p": "The slogan “Millions for defense, but not one cent for tribute” rallied this party after French agents demanded a bribe from American diplomats. That XYZ Affair helped this party gain seats in the 1798 elections and build up the navy for an undeclared war with France.",
             "r": "That war came under this party’s only president, John Adams. For 10 points, name this party of Alexander Hamilton."
         },
         {

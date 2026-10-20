@@ -83,7 +83,7 @@ data = {
         },
         {
             "p": "William Johnson, a British official who worked closely with the Mohawk, defeated and captured the French general Baron Dieskau [“DEES-kow”] at the Battle of Lake George in 1755 during this war. The Mohawk leader Hendrick Theyanoguin [“thay-uh-NOH-gwin”] was killed fighting on the British side in that campaign.",
-            "r": "Johnson’s Mohawk allies belonged to the Iroquois Confederacy. For 10 points, name this war fought between Britain and France in North America from 1754 to 1763."
+            "r": "Johnson’s Mohawk allies belonged to the Iroquois Confederacy. For 10 points, name this war, the North American part of the Seven Years’ War."
         },
         {
             "p": "During this war, British authorities forced thousands of French-speaking Acadians [“uh-KAY-dee-unz”] out of Nova Scotia, and many of them later settled in Louisiana, where their descendants are called Cajuns. Henry Wadsworth Longfellow’s poem _Evangeline_ tells of a young woman separated from her love during that expulsion.",
@@ -102,7 +102,7 @@ data = {
             "r": "The British built Fort Pitt nearby, and the city of Pittsburgh grew around it. For 10 points, name this war fought over the Ohio River Valley."
         },
         {
-            "p": "In 1758, during this war, Jeffery Amherst and James Wolfe captured the French fortress of Louisbourg [“LOO-iss-burg”] on Cape Breton Island. New England soldiers had already taken Louisbourg once in an earlier war, but Britain gave it back to France in a 1748 treaty.",
+            "p": "Jeffery Amherst and James Wolfe captured the French fortress of Louisbourg [“LOO-iss-burg”] on Cape Breton Island in 1758, during this war. New England soldiers had already taken Louisbourg once in an earlier war, but Britain gave it back to France in a 1748 treaty.",
             "r": "The next year, Wolfe won the Battle of Quebec. For 10 points, name this war that ended French rule in Canada."
         },
         {

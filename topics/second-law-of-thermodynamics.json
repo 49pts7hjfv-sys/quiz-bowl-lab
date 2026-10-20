@@ -81,7 +81,7 @@
       "r": "For 10 points, name this law of thermodynamics, which says that no heat engine can be 100 percent efficient."
     },
     {
-      "p": "James Clerk Maxwell imagined a tiny “demon” that sorts fast and slow gas molecules between two boxes, which would seem to break this law by making one box hot and the other cold without doing any work. Physicists later showed that the demon’s own information-gathering would save this law.",
+      "p": "James Clerk Maxwell imagined a tiny “demon” that sorts fast and slow gas molecules between two boxes, which would seem to break this law by making one box hot and the other cold without doing any work. Physicists later showed that the demon’s need to record and erase information about the molecules would save this law.",
       "r": "For 10 points, name this law of thermodynamics, which says that the entropy of an isolated system never decreases."
     },
     {
@@ -89,7 +89,7 @@
       "r": "It explains why ice melts in a warm room. For 10 points, name this law of thermodynamics, which says that entropy tends to increase."
     },
     {
-      "p": "In Isaac Asimov’s 1956 story “The Last Question,” people keep asking a giant computer whether the effects of this law on the whole universe can ever be undone. Applied to the universe, this law suggests a far-future “heat death,” with no temperature differences left to power anything.",
+      "p": "In Isaac Asimov’s 1956 story “The Last Question,” people keep asking ever more powerful computers whether the effects of this law on the whole universe can ever be undone. Applied to the universe, this law suggests a far-future “heat death,” with no temperature differences left to power anything.",
       "r": "For 10 points, name this law of thermodynamics, which explains why heat flows from hot objects to cold ones."
     },
     {
@@ -259,7 +259,7 @@
     {
       "id": "maxwells-demon",
       "tier": "middle",
-      "t": "Maxwell’s demon, an imaginary molecule-sorter, seemed to break it; the demon’s own information-gathering saves it",
+      "t": "Maxwell’s demon, an imaginary molecule-sorter, seemed to break it; the cost of recording and erasing the demon’s information saves it",
       "k": [
         "maxwell",
         "demon",
@@ -371,7 +371,7 @@
     {
       "id": "asimov",
       "tier": "power",
-      "t": "In Isaac Asimov’s 1956 story “The Last Question,” people keep asking a giant computer whether its effects on the universe can be undone",
+      "t": "In Isaac Asimov’s 1956 story “The Last Question,” people keep asking ever more powerful computers whether its effects on the universe can be undone",
       "k": [
         "asimov",
         "last question",
@@ -405,7 +405,7 @@
     "title": "The law, not entropy",
     "body": "Entropy is a quantity (disorder, symbolized S), and the second law of thermodynamics is the rule that entropy never decreases in an isolated system. If a question asks for “this law,” saying only “entropy” is wrong; if it asks for “this quantity,” the answer is entropy. Players also mix up which numbered law is which, and saying just “second law” earns only a prompt, since Newton and Kepler have second laws too.",
     "fix": "Energy being conserved is the first law; absolute zero and perfect crystals are the third law; thermometers and thermal equilibrium are the zeroth law. Heat flowing hot to cold, engines that can’t be 100 percent efficient, Carnot, Clausius, Kelvin, and Maxwell’s demon point to the second law. Say the whole name: “second law of thermodynamics.”",
-    "line": "Real answer line: <b><u>Second law of thermodynamics</u></b> (prompt on <u>second law</u>; do not accept “entropy” or another law of thermodynamics)"
+    "line": "Real answer line: <b><u>Second law of thermodynamics</u></b> (accept <u>2nd law of thermodynamics</u>; prompt on <u>second law</u> or <u>thermodynamics</u>; do not accept “entropy” or another law)"
   },
   "tests": {
     "right": [

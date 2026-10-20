@@ -1,0 +1,445 @@
+{
+  "id": "reconstruction",
+  "name": "Reconstruction",
+  "mono": "RC",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Rebuilding the Union after the Civil War · New rights for freed people",
+  "dates": "1865–1877",
+  "briefing": "After the Civil War, the United States faced two huge questions: how to bring the Southern states back into the Union, and what freedom would mean for about four million people who had been enslaved. During Reconstruction, three amendments ended slavery, made formerly enslaved people citizens, and protected Black men’s right to vote, and Black Americans were elected to Congress for the first time. Violence by groups like the Ku Klux Klan and the Compromise of 1877 brought it to an end.",
+  "answerHtml": "<b><u>Reconstruction</u></b> (accept <u>Reconstruction Era</u>; prompt on <u>Reconstruction Acts</u> or <u>Reconstruction Amendments</u>)",
+  "accept": [
+    "reconstruction",
+    "reconstruction era",
+    "the reconstruction",
+    "era of reconstruction",
+    "radical reconstruction",
+    "congressional reconstruction",
+    "presidential reconstruction",
+    "reconstruction of the south"
+  ],
+  "prompt": [
+    "reconstruction acts",
+    "reconstruction act",
+    "reconstruction act of 1867",
+    "reconstruction acts of 1867",
+    "reconstruction amendments",
+    "reconstruction amendment"
+  ],
+  "reject": [
+    "reconstruction finance corporation",
+    "civil war",
+    "american civil war",
+    "redemption",
+    "redeemers",
+    "jim crow",
+    "jim crow laws",
+    "gilded age",
+    "emancipation proclamation",
+    "compromise of 1877",
+    "freedmens bureau",
+    "black codes",
+    "ku klux klan",
+    "andrew johnson",
+    "carpetbaggers",
+    "radical republicans",
+    "era of good feelings",
+    "progressive era",
+    "new deal"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Reconstruction_era",
+  "qb": {
+    "q": "Reconstruction",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "During this period, Hiram Revels, a minister from Mississippi, became the first Black member of Congress when he took a seat in the U.S. Senate in 1870. Blanche K. Bruce, also from Mississippi, later became the first Black senator to serve a full six-year term.",
+      "r": "For 10 points, name this period from 1865 to 1877, when the former Confederate states were brought back into the Union."
+    },
+    {
+      "p": "Robert Smalls, who had escaped slavery by steering a Confederate ship to the Union navy, was elected to Congress during this period. P. B. S. Pinchback briefly served as governor of Louisiana in this era, becoming the first Black governor of a U.S. state.",
+      "r": "Joseph Rainey became the first Black member of the House in 1870. For 10 points, name this period from 1865 to 1877."
+    },
+    {
+      "p": "General Oliver O. Howard led an agency during this period that set up schools, handed out food, and tried to make sure that formerly enslaved people got fair work contracts. A university in Washington, D.C., is named for Howard, who helped found it in 1867.",
+      "r": "That agency, the Freedmen’s Bureau, was created in 1865. For 10 points, name this era when the federal government tried to rebuild the South after the Civil War."
+    },
+    {
+      "p": "In late 1865, Mississippi and South Carolina passed laws that forced freed people to sign yearly work contracts and let them be arrested for being unemployed. Those laws, which other Southern states copied, helped turn Northern voters against President Andrew Johnson’s lenient plan for this period.",
+      "r": "Those laws were called the Black Codes. For 10 points, name this era after the Civil War, which ended in 1877."
+    },
+    {
+      "p": "William T. Sherman’s Special Field Order No. 15 set aside land along the coasts of South Carolina, Georgia, and Florida for freed families, in plots of up to 40 acres. That promise, remembered as “forty acres and a mule,” was mostly undone when President Andrew Johnson returned the land to its former owners.",
+      "r": "For 10 points, name this era after the Civil War, when the nation debated what freedom would mean for nearly four million people."
+    },
+    {
+      "p": "Senator Charles Sumner argued that the Confederate states had committed “state suicide” by leaving the Union, while Congressman Thaddeus Stevens said they should be treated as conquered provinces. Those two men led the Radical Republicans, who wanted a tougher plan for this period than the president did.",
+      "r": "That president, Andrew Johnson, was impeached in 1868. For 10 points, name this period when the South rejoined the Union after the Civil War."
+    },
+    {
+      "p": "Abraham Lincoln pocket-vetoed the Wade-Davis Bill, which would have required a majority of a Southern state’s white men to take a loyalty oath before it could rejoin the Union. Lincoln’s own Ten Percent Plan for this process needed only ten percent of a state’s 1860 voters to swear loyalty.",
+      "r": "Lincoln was assassinated before he could carry out his plan. For 10 points, name this process of rebuilding the Union after the Civil War."
+    },
+    {
+      "p": "Laws passed in 1867 over the president’s veto divided ten former Confederate states into five military districts, each run by a Union general. To be readmitted, each state had to write a new constitution that let Black men vote and ratify the Fourteenth Amendment.",
+      "r": "Tennessee had already been readmitted in 1866. For 10 points, name this era, when Congress took control of rebuilding the South."
+    },
+    {
+      "p": "During this period, the House impeached President Andrew Johnson after he tried to fire Secretary of War Edwin Stanton, which Congress said violated the Tenure of Office Act. The Senate fell one vote short of removing Johnson, who had fought Congress over how to treat the defeated South.",
+      "r": "Congress had earlier overridden Johnson’s veto of the Civil Rights Act of 1866. For 10 points, name this era from 1865 to 1877."
+    },
+    {
+      "p": "In the 1873 Slaughterhouse Cases, the Supreme Court gave a narrow reading to an amendment passed during this period, limiting the federal protection it offered. That amendment, ratified in 1868, made everyone born in the United States a citizen and promised “equal protection of the laws.”",
+      "r": "That was the Fourteenth Amendment, one of three amendments added in this era. For 10 points, name this era, which followed the Civil War."
+    },
+    {
+      "p": "Elizabeth Cady Stanton and Susan B. Anthony opposed an amendment of this period because it protected voting rights regardless of “race, color, or previous condition of servitude” but not sex. The fight over that 1870 amendment split the women’s suffrage movement into two rival groups.",
+      "r": "That was the Fifteenth Amendment, the last of three amendments added in this period. For 10 points, name this era after the Civil War."
+    },
+    {
+      "p": "During this period, Congress passed the Enforcement Acts, including an 1871 law that let President Ulysses S. Grant use federal troops against a secret group that used violence and threats to keep Black people from voting. That group had been founded by Confederate veterans in Pulaski, Tennessee.",
+      "r": "That group was the Ku Klux Klan. For 10 points, name this era when the federal government tried to protect freed people in the South."
+    },
+    {
+      "p": "During this era, the Supreme Court ruled in _Texas v. White_ that a state could not legally leave the Union. Opponents of this era’s new Southern governments mocked Northern newcomers as “carpetbaggers,” after the cheap bags some carried, and called white Southerners who worked with them “scalawags.”",
+      "r": "Southern Democrats who took back their state governments called themselves “Redeemers.” For 10 points, name this era that ended in 1877."
+    },
+    {
+      "p": "After this period began, many freed families became sharecroppers, farming land owned by someone else in exchange for a share of the crop. Under the crop-lien system, store owners lent supplies against the next harvest, which trapped many of those farmers in debt.",
+      "r": "The Thirteenth Amendment, ratified in 1865, had abolished slavery. For 10 points, name this era that followed the Civil War."
+    },
+    {
+      "p": "A fifteen-member Electoral Commission gave 20 disputed electoral votes from Florida, Louisiana, South Carolina, and Oregon to Rutherford B. Hayes, who beat Samuel Tilden by one electoral vote. In the deal that followed, Democrats accepted Hayes as president, and he pulled federal troops out of Southern statehouses.",
+      "r": "That deal after the 1876 election, the Compromise of 1877, ended this era. For 10 points, name this period after the Civil War."
+    }
+  ],
+  "clues": [
+    {
+      "id": "after-civil-war",
+      "tier": "giveaway",
+      "t": "The era after the Civil War (1865–1877), when the former Confederate states were brought back into the Union",
+      "k": [
+        "civil war",
+        "1865",
+        "1877",
+        "confederate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amendments",
+      "tier": "giveaway",
+      "t": "Three amendments: the 13th (ended slavery), 14th (citizenship and equal protection), and 15th (voting rights regardless of race)",
+      "k": [
+        "13th",
+        "14th",
+        "15th",
+        "amendments"
+      ],
+      "n": 0
+    },
+    {
+      "id": "freedmens-bureau",
+      "tier": "giveaway",
+      "t": "The Freedmen’s Bureau (1865) set up schools, gave out food, and oversaw work contracts for formerly enslaved people",
+      "k": [
+        "freedmen’s bureau",
+        "schools"
+      ],
+      "n": 0
+    },
+    {
+      "id": "compromise-1877",
+      "tier": "giveaway",
+      "t": "Ended with the Compromise of 1877, which made Rutherford B. Hayes president and pulled federal troops out of the South",
+      "k": [
+        "compromise of 1877",
+        "hayes",
+        "federal troops"
+      ],
+      "n": 0,
+      "rabbit": "Rutherford B. Hayes"
+    },
+    {
+      "id": "andrew-johnson",
+      "tier": "middle",
+      "t": "President Andrew Johnson’s lenient plan clashed with Congress, which overrode his veto of the Civil Rights Act of 1866; he was impeached in 1868",
+      "k": [
+        "andrew johnson",
+        "impeached",
+        "civil rights act"
+      ],
+      "n": 0,
+      "rabbit": "Andrew Johnson"
+    },
+    {
+      "id": "radicals",
+      "tier": "middle",
+      "t": "Radical Republicans like Thaddeus Stevens and Charles Sumner wanted a tougher plan and stronger protection for freed people",
+      "k": [
+        "radical republicans",
+        "thaddeus stevens",
+        "charles sumner"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-codes",
+      "tier": "middle",
+      "t": "Southern states passed Black Codes (1865–1866) to limit the freedom of formerly enslaved people",
+      "k": [
+        "black codes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "military-districts",
+      "tier": "middle",
+      "t": "1867 laws split ten former Confederate states into five military districts and required them to let Black men vote",
+      "k": [
+        "five military districts",
+        "military districts",
+        "1867"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ten-percent",
+      "tier": "middle",
+      "t": "Lincoln’s Ten Percent Plan; he pocket-vetoed the stricter Wade-Davis Bill (1864)",
+      "k": [
+        "ten percent",
+        "wade-davis",
+        "pocket-vetoed"
+      ],
+      "n": 0,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "kkk",
+      "tier": "middle",
+      "t": "The Ku Klux Klan used violence and threats against Black Americans; the Enforcement Acts (1870–1871) let Grant fight back",
+      "k": [
+        "ku klux klan",
+        "klan",
+        "enforcement acts"
+      ],
+      "n": 0,
+      "rabbit": "Ku Klux Klan"
+    },
+    {
+      "id": "carpetbaggers",
+      "tier": "middle",
+      "t": "Opponents insulted Northern newcomers as “carpetbaggers” and white Southern Republicans as “scalawags”",
+      "k": [
+        "carpetbaggers",
+        "scalawags"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sharecropping",
+      "tier": "middle",
+      "t": "Many freed families became sharecroppers, often trapped in debt by the crop-lien system",
+      "k": [
+        "sharecroppers",
+        "crop-lien"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forty-acres",
+      "tier": "middle",
+      "t": "“Forty acres and a mule”: Sherman’s Field Order No. 15 set aside coastal land, but Andrew Johnson gave it back to former owners",
+      "k": [
+        "forty acres",
+        "mule",
+        "field order"
+      ],
+      "n": 0
+    },
+    {
+      "id": "revels-bruce",
+      "tier": "power",
+      "t": "Hiram Revels of Mississippi became the first Black member of Congress (Senate, 1870); Blanche K. Bruce was the first Black senator to serve a full term",
+      "k": [
+        "hiram revels",
+        "revels",
+        "blanche k. bruce",
+        "full term"
+      ],
+      "n": 0
+    },
+    {
+      "id": "smalls-pinchback",
+      "tier": "power",
+      "t": "Robert Smalls steered a Confederate ship to freedom and later served in Congress; P. B. S. Pinchback of Louisiana was the first Black governor of a state",
+      "k": [
+        "robert smalls",
+        "smalls",
+        "pinchback"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rainey",
+      "tier": "power",
+      "t": "Joseph Rainey of South Carolina: first Black member of the House (1870)",
+      "k": [
+        "joseph rainey",
+        "rainey"
+      ],
+      "n": 0
+    },
+    {
+      "id": "howard",
+      "tier": "power",
+      "t": "General Oliver O. Howard led the Freedmen’s Bureau; Howard University (1867) is named for him",
+      "k": [
+        "oliver o. howard",
+        "howard university",
+        "howard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mississippi-codes",
+      "tier": "power",
+      "t": "Mississippi and South Carolina passed the first Black Codes (late 1865), with yearly work contracts and vagrancy laws",
+      "k": [
+        "mississippi",
+        "vagrancy",
+        "work contracts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "state-suicide",
+      "tier": "power",
+      "t": "Sumner said the Confederate states had committed “state suicide”; Stevens called them “conquered provinces”",
+      "k": [
+        "state suicide",
+        "conquered provinces"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wade-davis-oath",
+      "tier": "power",
+      "t": "The Wade-Davis Bill would have required a majority of a state’s white men to take a loyalty oath",
+      "k": [
+        "majority",
+        "loyalty oath"
+      ],
+      "n": 0
+    },
+    {
+      "id": "slaughterhouse",
+      "tier": "power",
+      "t": "_Slaughterhouse Cases_ (1873): the Supreme Court read the 14th Amendment narrowly",
+      "k": [
+        "slaughterhouse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "suffrage-split",
+      "tier": "power",
+      "t": "Elizabeth Cady Stanton and Susan B. Anthony opposed the 15th Amendment because it left out women; the suffrage movement split",
+      "k": [
+        "stanton",
+        "anthony",
+        "left out women"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pulaski",
+      "tier": "power",
+      "t": "The Klan was founded by Confederate veterans in Pulaski, Tennessee; an 1871 law let Grant use troops against it",
+      "k": [
+        "pulaski",
+        "1871",
+        "grant"
+      ],
+      "n": 0
+    },
+    {
+      "id": "texas-white",
+      "tier": "power",
+      "t": "_Texas v. White_ (1869): the Supreme Court ruled that a state could not legally leave the Union",
+      "k": [
+        "texas v. white",
+        "leave the union"
+      ],
+      "n": 0
+    },
+    {
+      "id": "redeemers",
+      "tier": "power",
+      "t": "Southern Democrats who took back their state governments called themselves “Redeemers”",
+      "k": [
+        "redeemers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "electoral-commission",
+      "tier": "power",
+      "t": "1876 election: a 15-member Electoral Commission gave all 20 disputed votes to Hayes, who beat Samuel Tilden by one electoral vote",
+      "k": [
+        "electoral commission",
+        "samuel tilden",
+        "tilden",
+        "20 disputed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tennessee",
+      "tier": "power",
+      "t": "Tennessee was readmitted first (1866), so it was left out of the military districts",
+      "k": [
+        "tennessee",
+        "1866"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Era or something inside it?",
+    "body": "Many answer lines live inside this era: the Freedmen’s Bureau, the Black Codes, the Fourteenth Amendment, Andrew Johnson’s impeachment, carpetbaggers, and the Compromise of 1877 all get their own tossups, and they share the same clues. If the question asks for “this era” or “this period,” say “Reconstruction,” but if it asks for “this agency,” “these laws,” or “this deal,” name that thing instead. The Reconstruction Finance Corporation, a 1932 Great Depression agency, is a different answer altogether.",
+    "fix": "Listen for the noun before you buzz. “This period” or “this era” after the Civil War means Reconstruction; “this agency” led by Oliver O. Howard means the Freedmen’s Bureau; “this deal” after the election of 1876 means the Compromise of 1877.",
+    "line": "Real answer line: <b><u>Reconstruction</u></b> (accept <u>Reconstruction Era</u>)"
+  },
+  "tests": {
+    "right": [
+      "Reconstruction",
+      "Reconstruction Era",
+      "the Reconstruction",
+      "Radical Reconstruction",
+      "Reconstuction",
+      "Reconstruction of the South"
+    ],
+    "prompt": [
+      "Reconstruction Acts",
+      "Reconstruction Amendments"
+    ],
+    "wrong": [
+      "Reconstruction Finance Corporation",
+      "Civil War",
+      "Jim Crow",
+      "Freedmen’s Bureau",
+      "Compromise of 1877",
+      "Gilded Age"
+    ]
+  }
+}

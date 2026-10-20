@@ -4,9 +4,9 @@
   "mono": "XR",
   "category": "Physics",
   "qbCategory": "Science · Physics",
-  "kicker": "Invisible high-energy rays that see through skin · Found by Röntgen, 1895",
+  "kicker": "Invisible high-energy rays that pass through skin · Found by Röntgen, 1895",
   "dates": "Discovered by Wilhelm Röntgen, 1895",
-  "briefing": "In November 1895, the German physicist Wilhelm Röntgen noticed a screen glowing across his darkened lab while he ran electricity through a glass tube wrapped in black cardboard. The invisible rays causing the glow could pass through skin and paper but not bone or metal, so he named them X-rays, with the X standing for “unknown.” Doctors use X-rays to find broken bones, dentists use them to find cavities, and space telescopes use them to study black holes and exploding stars.",
+  "briefing": "In November 1895, the German physicist Wilhelm Röntgen noticed a screen glowing across his darkened lab while he ran electricity through a glass tube wrapped in black cardboard. The invisible rays causing the glow could pass through skin and paper but not bone or metal, and he named them X-rays, with the X standing for “unknown.” Doctors use X-rays to find broken bones, dentists use them to find cavities, and space telescopes use them to study black holes and exploding stars.",
   "answerHtml": "<b><u>X-ray</u></b>s (accept <u>X-radiation</u> or <u>Röntgen rays</u>; prompt on <u>electromagnetic radiation</u>; do not accept “gamma rays”)",
   "accept": [
     "x rays",

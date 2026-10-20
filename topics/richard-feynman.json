@@ -4,7 +4,7 @@
   "mono": "RPF",
   "category": "Physics",
   "qbCategory": "Science · Physics",
-  "kicker": "Quantum electrodynamics pioneer · Diagrams, bongos, and the Challenger probe",
+  "kicker": "Quantum electrodynamics pioneer · Diagrams, bongos, and the _Challenger_ probe",
   "dates": "1918–1988",
   "briefing": "Richard Feynman was an American physicist who loved puzzles, practical jokes, and playing the bongo drums. He shared the 1965 Nobel Prize for quantum electrodynamics, the theory of how light and electrons interact, and he invented simple sketches, now called Feynman diagrams, to keep track of what particles do when they meet. In 1986, at a televised hearing, he showed how cold had stiffened the rubber O-rings that failed on the space shuttle _Challenger_.",
   "answerHtml": "<b><u>Richard Feynman</u></b> (accept <u>Feynman</u>)",
@@ -78,7 +78,7 @@
       "r": "Those sketches became known as diagrams named for him. For 10 points, name this American physicist who shared the 1965 Nobel Prize."
     },
     {
-      "p": "While working on the Manhattan Project at Los Alamos, this young physicist amused himself by cracking open his colleagues’ safes and filing cabinets. Stories like that one fill a best-selling 1985 book that he told to his drumming partner, Ralph Leighton.",
+      "p": "While working on the Manhattan Project at Los Alamos, this young physicist amused himself by cracking open his colleagues’ safes and filing cabinets. Stories like that one fill a best-selling 1985 book whose title begins _Surely You’re Joking_, which he told to his drumming partner, Ralph Leighton.",
       "r": "For 10 points, name this bongo-playing physicist who won the 1965 Nobel Prize for quantum electrodynamics."
     },
     {
@@ -86,7 +86,7 @@
       "r": "This man also invented diagrams for drawing particle interactions. For 10 points, name this physicist who explained the _Challenger_ shuttle’s O-ring failure."
     },
     {
-      "p": "This physicist gave the name “partons” to the tiny, pointlike pieces that fast electrons seemed to hit inside protons in late-1960s experiments at the Stanford Linear Accelerator. Those pieces turned out to be quarks and gluons.",
+      "p": "This physicist gave the name “partons” to tiny, pointlike pieces inside protons that explained late-1960s experiments at the Stanford Linear Accelerator, in which fast electrons bounced off protons. Partons were later identified as quarks and gluons.",
       "r": "For 10 points, name this Caltech physicist who shared the 1965 Nobel Prize and invented diagrams of particle interactions."
     },
     {
@@ -110,7 +110,7 @@
       "r": "For 10 points, name this American physicist who shared the 1965 Nobel Prize for that theory and drew famous particle diagrams."
     },
     {
-      "p": "A 1981 BBC television interview with this physicist, later turned into a book, was titled _The Pleasure of Finding Things Out_. In it, he described how his father taught him that knowing the name of a bird tells you nothing about how the bird actually behaves.",
+      "p": "A 1981 BBC television interview with this physicist was titled _The Pleasure of Finding Things Out_, a name later given to a book of his short works. In it, he described how his father taught him that knowing the name of a bird tells you nothing about how the bird actually behaves.",
       "r": "For 10 points, name this American physicist, a Nobel winner, who played the bongos and invented diagrams of particle interactions."
     },
     {
@@ -118,7 +118,7 @@
       "r": "For 10 points, name this physicist who won the 1965 Nobel Prize and is known for his namesake diagrams."
     },
     {
-      "p": "In _The Character of Physical Law_, based on lectures he gave at Cornell, this physicist said, “I think I can safely say that nobody understands quantum mechanics.” Born in Queens, New York, in 1918, he became one of the most popular science teachers of his time.",
+      "p": "In _The Character of Physical Law_, based on lectures he gave at Cornell, this physicist said, “I think I can safely say that nobody understands quantum mechanics.” Born in New York City in 1918 and raised in Queens, he became one of the most popular science teachers of his time.",
       "r": "For 10 points, name this physicist who shared the 1965 Nobel Prize and helped investigate the _Challenger_ disaster."
     }
   ],
@@ -213,9 +213,10 @@
     {
       "id": "memoirs",
       "tier": "middle",
-      "t": "Told his funny life stories in a 1985 best seller with drumming partner Ralph Leighton, and in _What Do You Care What Other People Think?_",
+      "t": "Told his funny life stories to drumming partner Ralph Leighton for two books: the 1985 best seller whose title begins _Surely You’re Joking_ and _What Do You Care What Other People Think?_",
       "k": [
         "ralph leighton",
+        "surely you’re joking",
         "what do you care"
       ],
       "n": 0
@@ -286,7 +287,7 @@
     {
       "id": "partons",
       "tier": "power",
-      "t": "Named “partons,” the pointlike pieces inside protons seen in late-1960s Stanford experiments (they were quarks and gluons)",
+      "t": "Named “partons,” the pointlike pieces inside protons that explained late-1960s electron experiments at Stanford; partons were later identified as quarks and gluons",
       "k": [
         "partons",
         "stanford"
@@ -353,7 +354,7 @@
     {
       "id": "pleasure",
       "tier": "power",
-      "t": "A 1981 BBC interview became _The Pleasure of Finding Things Out_; his father taught him that a bird’s name tells you nothing about the bird",
+      "t": "His 1981 BBC interview _The Pleasure of Finding Things Out_ (later a book title) tells how his father taught him that a bird’s name tells you nothing about the bird",
       "k": [
         "pleasure of finding things out",
         "bbc",

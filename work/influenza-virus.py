@@ -103,8 +103,8 @@ data = {
             "r": "Their strain names use an H number and an N number. For 10 points, name these viruses behind a yearly respiratory illness."
         },
         {
-            "p": "A pandemic caused by one of these agents in 1918 and 1919 killed tens of millions of people worldwide, including many healthy young adults. Though often called the “Spanish” one, that outbreak probably did not begin in Spain, which simply reported on it freely as a neutral country during World War I.",
-            "r": "Its strain is identified as H1N1. For 10 points, name these viruses that cause a respiratory illness each winter."
+            "p": "Though it probably did not begin in Spain, the strain of these agents behind one pandemic became known as the “Spanish” one, because neutral Spain reported on that outbreak freely during World War I. Scientists classify that strain as an H1N1.",
+            "r": "The pandemic it caused in 1918 and 1919 killed tens of millions of people worldwide. For 10 points, name these viruses that cause a respiratory illness each winter."
         },
         {
             "p": "Wild aquatic birds, especially ducks and shorebirds, are the natural reservoir of type A of these agents, and pigs can catch both bird and human strains, which lets segments mix. A strain called H5N1 has spread widely in birds since the 1990s.",
@@ -329,7 +329,7 @@ data = {
     ],
     "trap": {
         "title": "Virus, illness, or bacterium?",
-        "body": "Some answer lines want the virus and some want the disease, so saying just “influenza” or “the flu” may only earn a prompt when the question asks for “this virus.” The common cold is a different illness, usually caused by rhinoviruses, and a stomach bug is not the flu at all. The bacterium _Haemophilus influenzae_ has a misleading name left over from 1918, when scientists wrongly thought a bacterium caused the pandemic.",
+        "body": "Some answer lines want the virus and some want the disease, so saying just “influenza” or “the flu” may only earn a prompt when the question asks for “this virus.” The common cold is a different illness, usually caused by rhinoviruses, and a stomach bug is not the flu at all. One bacterium also carries a misleading name left over from 1918, when scientists wrongly believed a bacterium caused the pandemic.",
         "fix": "“This virus” or “these viruses” with eight RNA segments, hemagglutinin and neuraminidase spikes, or antigenic drift means the influenza virus. If a question asks for “this disease,” answer influenza, and be ready to add “virus” if you get a prompt.",
         "line": "Real answer line: <b><u>Influenza virus</u></b> (accept <u>flu virus</u> or <u>Orthomyxoviridae</u>; prompt on <u>influenza</u> or <u>the flu</u> by asking for the virus; do not accept “coronavirus” or “common cold”)"
     },
@@ -340,11 +340,12 @@ data = {
             "Orthomyxoviridae",
             "Influensa virus",
             "influenza A virus",
-            "H1N1"
+            "orthomyxovirus"
         ],
         "prompt": [
             "Influenza",
             "the flu",
+            "H1N1",
             "Virus"
         ],
         "wrong": [

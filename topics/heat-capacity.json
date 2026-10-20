@@ -105,7 +105,7 @@
       "r": "For 10 points, name this quantity, the heat needed to raise an object’s temperature by one degree."
     },
     {
-      "p": "In the 1760s, the Scottish chemist Joseph Black studied this quantity, which he called a substance’s “capacity for heat,” and he also discovered latent heat. Black showed that equal masses of different substances need different amounts of heat to warm by the same number of degrees.",
+      "p": "In the 1760s, the Scottish chemist Joseph Black studied this quantity, and he also discovered latent heat. Black showed that equal masses of different substances need different amounts of heat to warm by the same number of degrees.",
       "r": "Water’s per-gram value of it is about 4.18 joules per degree Celsius. For 10 points, name this quantity, which is especially high for water."
     },
     {
@@ -317,11 +317,11 @@
     {
       "id": "joseph-black",
       "tier": "power",
-      "t": "Joseph Black studied a substance’s “capacity for heat” in the 1760s and also discovered latent heat",
+      "t": "Scottish chemist Joseph Black studied it in the 1760s, showing that equal masses of different substances need different amounts of heat to warm equally; he also discovered latent heat",
       "k": [
         "joseph black",
         "1760s",
-        "capacity for heat"
+        "equal masses"
       ],
       "n": 0
     },
@@ -405,7 +405,7 @@
     "title": "Not latent heat",
     "body": "Heat capacity tells how much heat it takes to change an object’s temperature. Latent heat is the heat absorbed or released during a phase change, like melting or boiling, while the temperature does not change at all. Players also blurt out “temperature,” and some questions want only the “specific” version per gram, called specific heat, which is accepted here.",
     "fix": "Warming by one degree, joules per kelvin, Q = m c ΔT, water’s 4.18, sea breezes, and calorimeters point to heat capacity or specific heat. Melting or boiling at a steady temperature, the flat parts of a heating curve, and heats of fusion or vaporization point to latent heat.",
-    "line": "Real answer line: <b><u>Heat capacity</u></b> (accept <u>specific heat</u> capacity or <u>molar heat capacity</u>; prompt on <u>C</u>; do not accept “latent heat”)"
+    "line": "Real answer line: <b><u>Heat capacity</u></b> (accept <u>specific heat</u> capacity, <u>molar heat capacity</u>, or <u>thermal capacity</u>; prompt on <u>C</u>; do not accept “latent heat”)"
   },
   "tests": {
     "right": [

@@ -100,7 +100,7 @@
       "r": "The letter R in MRI stands for a magnetic form of this effect. For 10 points, name this effect, in which a system vibrates strongly at its natural frequency."
     },
     {
-      "p": "Quartz watches keep time with a tiny crystal that vibrates 32,768 times per second, the rate at which this effect makes the crystal ring most strongly when an electric circuit pushes on it. That number is two multiplied by itself fifteen times.",
+      "p": "Quartz watches keep time with a tiny crystal that vibrates 32,768 times per second, the rate at which this effect makes the crystal ring most strongly when an electric circuit pushes on it. That number is two to the fifteenth power.",
       "r": "For 10 points, name this effect, in which pushing an object at its natural frequency makes it vibrate strongly, as when a swing is pushed in rhythm."
     },
     {
@@ -116,7 +116,7 @@
       "r": "For 10 points, name this effect in which a system shakes harder and harder when pushed at its natural frequency."
     },
     {
-      "p": "A sitar has extra strings that the player never plucks; they ring by this effect when the played strings sound their notes. Holding down a piano’s sustain pedal and singing loudly into the piano makes its strings answer back by the same effect.",
+      "p": "A sitar has extra strings that the player usually leaves unplucked; they ring by this effect when the played strings sound their notes. Holding down a piano’s sustain pedal and singing loudly into the piano makes its strings answer back by the same effect.",
       "r": "For 10 points, name this effect, in which vibrations at an object’s natural frequency make it vibrate strongly."
     },
     {
@@ -324,7 +324,7 @@
     {
       "id": "quartz",
       "tier": "power",
-      "t": "Quartz watch crystals vibrate 32,768 times per second (2 multiplied by itself 15 times)",
+      "t": "Quartz watch crystals vibrate 32,768 times per second (2 to the 15th power)",
       "k": [
         "quartz",
         "32,768"
@@ -345,7 +345,7 @@
     {
       "id": "sitar-piano",
       "tier": "power",
-      "t": "A sitar’s unplucked extra strings ring through it, and so do a piano’s strings when you sing into it with the sustain pedal down",
+      "t": "A sitar’s extra strings, usually left unplucked, ring through it, and so do a piano’s strings when you sing into it with the sustain pedal down",
       "k": [
         "sitar",
         "sustain pedal",
@@ -389,7 +389,7 @@
     "title": "Effect, not frequency",
     "body": "Resonance is the effect; the natural (or resonant) frequency is just the special frequency at which it happens, so “natural frequency” earns only a prompt and plain “frequency” is wrong. Clues about strings, organ pipes, and tuning forks can also tempt players into “harmonics” or “standing waves,” and a siren’s changing pitch is the Doppler effect, not this.",
     "fix": "Vibrations that grow from well-timed pushes, shattered wine glasses, swings, swaying bridges, dampers, and tuned radios mean resonance. The special frequency itself is the natural frequency; patterns of nodes on a string are standing waves; and a moving source’s pitch shift is the Doppler effect.",
-    "line": "Real answer line: <b><u>Resonance</u></b> (accept word forms like <u>resonant</u>; prompt on <u>natural frequency</u>)"
+    "line": "Real answer line: <b><u>Resonance</u></b> (accept word forms like <u>resonant</u> or <u>resonating</u>; prompt on <u>natural frequency</u> or <u>sympathetic vibration</u>)"
   },
   "tests": {
     "right": [

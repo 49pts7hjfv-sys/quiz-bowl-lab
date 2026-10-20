@@ -1,0 +1,424 @@
+{
+  "id": "battle-of-antietam",
+  "name": "Battle of Antietam",
+  "mono": "AN",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Bloodiest single day in U.S. history · Led to the Emancipation Proclamation",
+  "dates": "Fought September 17, 1862",
+  "briefing": "On September 17, 1862, Union and Confederate armies fought along Antietam Creek in western Maryland, and by nightfall about 23,000 soldiers had been killed, wounded, or gone missing. It is still the bloodiest single day in American history. Robert E. Lee’s first invasion of the North ended, and five days later Abraham Lincoln announced the Emancipation Proclamation.",
+  "answerHtml": "Battle of <b><u>Antietam</u></b> (or Battle of <b><u>Sharpsburg</u></b>; prompt on <u>Maryland Campaign</u>)",
+  "accept": [
+    "antietam",
+    "battle of antietam",
+    "sharpsburg",
+    "battle of sharpsburg",
+    "antietam creek"
+  ],
+  "prompt": [
+    "maryland campaign"
+  ],
+  "reject": [
+    "gettysburg",
+    "battle of gettysburg",
+    "fredericksburg",
+    "battle of fredericksburg",
+    "chancellorsville",
+    "bull run",
+    "second bull run",
+    "first battle of bull run",
+    "manassas",
+    "second manassas",
+    "south mountain",
+    "battle of south mountain",
+    "harpers ferry",
+    "shiloh",
+    "vicksburg",
+    "petersburg",
+    "monocacy",
+    "shepherdstown",
+    "emancipation proclamation"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Battle_of_Antietam",
+  "qb": {
+    "q": "Antietam",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Days before this battle, Corporal Barton Mitchell of the 27th Indiana found a copy of Special Order 191 wrapped around three cigars in a field near Frederick, Maryland. That “Lost Order” revealed that Robert E. Lee had divided his army.",
+      "r": "For 10 points, name this September 1862 battle in Maryland, the bloodiest single day in American history."
+    },
+    {
+      "p": "Two days before this battle, Stonewall Jackson captured about 12,000 Union soldiers at Harpers Ferry, the largest surrender of U.S. troops during the Civil War. Jackson then hurried most of his men north to rejoin Robert E. Lee’s army along a Maryland creek.",
+      "r": "For 10 points, name this battle of September 17, 1862, which led to the Emancipation Proclamation."
+    },
+    {
+      "p": "Three days before this battle, Union troops pushed through Turner’s, Fox’s, and Crampton’s Gaps in the Battle of South Mountain. Robert E. Lee then gathered his army behind a creek in western Maryland, where this battle began at dawn.",
+      "r": "For 10 points, name this 1862 battle, the bloodiest single day in American history."
+    },
+    {
+      "p": "At dawn during this battle, Joseph Hooker’s corps attacked south through a farmer’s cornfield toward the Dunker Church, and John Bell Hood’s Texans launched a fierce counterattack. That field changed hands again and again during the morning.",
+      "r": "For 10 points, name this September 1862 battle in Maryland between George McClellan and Robert E. Lee."
+    },
+    {
+      "p": "During this battle, John Sedgwick’s Union division suffered heavy losses in the West Woods near the Dunker Church, a small white meetinghouse of German Baptist Brethren. Photographs taken near that church after the fighting became some of the war’s best-known images.",
+      "r": "For 10 points, name this battle that ended Robert E. Lee’s first invasion of the North in 1862."
+    },
+    {
+      "p": "Thomas Meagher’s [“MAR”] Irish Brigade charged toward Confederates defending a sunken farm road during this battle, and that road was later nicknamed “Bloody Lane.” The Confederates there finally fell back after one of their officers misunderstood an order.",
+      "r": "For 10 points, name this one-day battle fought in Maryland on September 17, 1862."
+    },
+    {
+      "p": "A few hundred Georgians under Robert Toombs held off Union attackers for hours at a stone bridge during this battle. The Union general whose troops finally captured that bridge gave it his name.",
+      "r": "That general was Ambrose Burnside. For 10 points, name this battle where George McClellan fought Robert E. Lee in 1862."
+    },
+    {
+      "p": "Late in the afternoon of this battle, A. P. Hill’s division arrived after a hard march of about 17 miles from Harpers Ferry and struck the Union flank, saving Robert E. Lee’s army from defeat.",
+      "r": "For 10 points, name this battle along a Maryland creek, the bloodiest single day of the Civil War."
+    },
+    {
+      "p": "During this battle, the Union commander kept thousands of soldiers in reserve, including Fitz John Porter’s corps, instead of sending them into the fight. Afterward, he let the enemy army retreat across the Potomac River into Virginia without chasing it.",
+      "r": "That commander, George McClellan, was removed weeks later. For 10 points, name this September 1862 battle."
+    },
+    {
+      "p": "Clara Barton brought a wagon of medical supplies onto this battlefield and cared for wounded soldiers close to the fighting, and a surgeon there called her the “Angel of the Battlefield.” She later founded the American Red Cross.",
+      "r": "For 10 points, name this 1862 battle that gave Abraham Lincoln the victory he needed to announce the Emancipation Proclamation."
+    },
+    {
+      "p": "Future president William McKinley, then a young commissary sergeant in an Ohio regiment, brought hot coffee and food to soldiers under fire during this battle, and a monument on the battlefield honors him. Another future president, Rutherford B. Hayes, had been wounded leading that regiment three days earlier.",
+      "r": "For 10 points, name this battle of September 17, 1862, the bloodiest day in American history."
+    },
+    {
+      "p": "Alexander Gardner photographed soldiers who had died on this battlefield, and Mathew Brady displayed the pictures in his New York gallery that October. A newspaper wrote that Brady had brought home the “terrible reality” of war.",
+      "r": "For 10 points, name this 1862 battle where George McClellan faced Robert E. Lee."
+    },
+    {
+      "p": "In October 1862, Abraham Lincoln visited the army camped near this battlefield, and Alexander Gardner photographed him meeting the army’s commander inside a tent. Frustrated that the commander would not chase the enemy, Lincoln removed him from command a month later.",
+      "r": "That general was George McClellan. For 10 points, name this battle fought in Maryland in September 1862."
+    },
+    {
+      "p": "Britain and France had been considering whether to step in and help negotiate an end to the Civil War, but this battle’s outcome convinced them to wait. Neither country ever recognized the Confederacy.",
+      "r": "Five days after this battle, Abraham Lincoln announced the Emancipation Proclamation. For 10 points, name this 1862 battle in Maryland."
+    },
+    {
+      "p": "Robert E. Lee’s army slipped away from this battlefield at night and crossed the Potomac River at Boteler’s Ford near Shepherdstown. Union troops who followed were pushed back in a small fight there.",
+      "r": "That retreat ended Lee’s first invasion of the North. For 10 points, name this bloodiest one-day battle in American history."
+    }
+  ],
+  "clues": [
+    {
+      "id": "bloodiest-day",
+      "tier": "giveaway",
+      "t": "The bloodiest single day in American history: about 23,000 soldiers killed, wounded, or missing",
+      "k": [
+        "bloodiest",
+        "single day",
+        "23,000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "september-1862",
+      "tier": "giveaway",
+      "t": "Fought on September 17, 1862, along a creek in western Maryland",
+      "k": [
+        "september 17",
+        "1862",
+        "maryland",
+        "creek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "emancipation",
+      "tier": "giveaway",
+      "t": "Treated as a Union victory, it let Abraham Lincoln announce the Emancipation Proclamation five days later (September 22, 1862)",
+      "k": [
+        "emancipation proclamation",
+        "emancipation",
+        "september 22"
+      ],
+      "n": 0,
+      "rabbit": "Emancipation Proclamation"
+    },
+    {
+      "id": "mcclellan-lee",
+      "tier": "giveaway",
+      "t": "Union general George McClellan fought Confederate general Robert E. Lee",
+      "k": [
+        "george mcclellan",
+        "mcclellan",
+        "robert e. lee"
+      ],
+      "n": 0,
+      "rabbit": "George McClellan"
+    },
+    {
+      "id": "first-invasion",
+      "tier": "giveaway",
+      "t": "Ended Lee’s first invasion of the North, the Maryland Campaign",
+      "k": [
+        "first invasion",
+        "maryland campaign",
+        "invasion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lost-order",
+      "tier": "middle",
+      "t": "Union soldiers found a copy of Lee’s battle plans, Special Order 191 (the “Lost Order”), wrapped around three cigars",
+      "k": [
+        "lost order",
+        "special order 191",
+        "cigars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cornfield",
+      "tier": "middle",
+      "t": "Morning: the armies fought back and forth through the Cornfield",
+      "k": [
+        "cornfield",
+        "morning"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bloody-lane",
+      "tier": "middle",
+      "t": "Midday: Confederates defended the Sunken Road, later nicknamed “Bloody Lane”",
+      "k": [
+        "sunken road",
+        "bloody lane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "burnsides-bridge",
+      "tier": "middle",
+      "t": "Afternoon: Ambrose Burnside’s troops spent hours trying to cross a stone bridge, later called Burnside’s Bridge",
+      "k": [
+        "burnside’s bridge",
+        "ambrose burnside",
+        "burnside",
+        "stone bridge"
+      ],
+      "n": 0
+    },
+    {
+      "id": "draw",
+      "tier": "middle",
+      "t": "A tactical draw, but Lee retreated across the Potomac River into Virginia",
+      "k": [
+        "draw",
+        "retreated",
+        "potomac"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mcclellan-removed",
+      "tier": "middle",
+      "t": "McClellan didn’t chase Lee, so Lincoln removed him from command in November 1862",
+      "k": [
+        "removed",
+        "november 1862",
+        "chase"
+      ],
+      "n": 0
+    },
+    {
+      "id": "britain-france",
+      "tier": "middle",
+      "t": "The result discouraged Britain and France from recognizing the Confederacy",
+      "k": [
+        "britain",
+        "france",
+        "recognizing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "other-name",
+      "tier": "middle",
+      "t": "Confederates named it after the nearby Maryland town; the Union usually named battles after creeks and rivers",
+      "k": [
+        "confederates",
+        "nearby",
+        "creeks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "harpers-ferry",
+      "tier": "power",
+      "t": "Two days before, Stonewall Jackson captured about 12,000 Union troops at Harpers Ferry, the largest U.S. surrender of the war",
+      "k": [
+        "harpers ferry",
+        "stonewall jackson",
+        "12,000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ap-hill",
+      "tier": "power",
+      "t": "A. P. Hill’s division arrived from Harpers Ferry late in the day and saved Lee’s right flank",
+      "k": [
+        "a. p. hill",
+        "right flank",
+        "late in the day"
+      ],
+      "n": 0
+    },
+    {
+      "id": "south-mountain",
+      "tier": "power",
+      "t": "Three days earlier, Union troops pushed through the gaps of South Mountain (September 14, 1862)",
+      "k": [
+        "south mountain",
+        "gaps",
+        "september 14"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dunker-church",
+      "tier": "power",
+      "t": "Fighting swirled around the Dunker Church, a small white church, and the nearby West Woods",
+      "k": [
+        "dunker church",
+        "west woods",
+        "dunker"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hooker-hood",
+      "tier": "power",
+      "t": "Joseph Hooker’s corps opened the battle at dawn; John Bell Hood’s Texans counterattacked in the Cornfield",
+      "k": [
+        "joseph hooker",
+        "hooker",
+        "john bell hood",
+        "hood",
+        "dawn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "irish-brigade",
+      "tier": "power",
+      "t": "Thomas Meagher’s Irish Brigade charged the Sunken Road",
+      "k": [
+        "irish brigade",
+        "meagher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "toombs",
+      "tier": "power",
+      "t": "A few hundred Georgians under Robert Toombs held the stone bridge for hours",
+      "k": [
+        "robert toombs",
+        "toombs",
+        "georgians"
+      ],
+      "n": 0
+    },
+    {
+      "id": "porter-reserve",
+      "tier": "power",
+      "t": "McClellan held back thousands of reserve troops, including Fitz John Porter’s corps",
+      "k": [
+        "fitz john porter",
+        "porter",
+        "reserve"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clara-barton",
+      "tier": "power",
+      "t": "Clara Barton brought supplies and nursed the wounded; she was called the “Angel of the Battlefield”",
+      "k": [
+        "clara barton",
+        "angel of the battlefield"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gardner-photos",
+      "tier": "power",
+      "t": "Alexander Gardner’s photographs of the battlefield, shown at Mathew Brady’s New York gallery, showed Americans the war’s human cost",
+      "k": [
+        "alexander gardner",
+        "mathew brady",
+        "photographs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lincoln-visit",
+      "tier": "power",
+      "t": "Lincoln visited McClellan near the battlefield in October 1862; Gardner photographed them in a tent",
+      "k": [
+        "tent",
+        "october 1862",
+        "visited"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mckinley-coffee",
+      "tier": "power",
+      "t": "Future president William McKinley, a commissary sergeant, brought coffee and food to Ohio soldiers under fire",
+      "k": [
+        "william mckinley",
+        "coffee",
+        "commissary"
+      ],
+      "n": 0,
+      "rabbit": "William McKinley"
+    }
+  ],
+  "trap": {
+    "title": "Antietam or Gettysburg?",
+    "body": "Both battles ended a Confederate invasion of the North led by Robert E. Lee, and both had enormous losses, so players mix them up. Antietam (September 1862, Maryland) was the bloodiest single day, ended Lee’s first invasion, and led to the Emancipation Proclamation. Gettysburg (July 1863, Pennsylvania) lasted three days, ended Lee’s second invasion, and led to the Gettysburg Address.",
+    "fix": "McClellan, the Lost Order, the Cornfield, Bloody Lane, Burnside’s Bridge, and September 1862 mean Antietam. “Sharpsburg” is also correct, because Confederates often named battles after nearby towns.",
+    "line": "Real answer line: Battle of <b><u>Antietam</u></b> (or Battle of <b><u>Sharpsburg</u></b>)"
+  },
+  "tests": {
+    "right": [
+      "Antietam",
+      "Battle of Antietam",
+      "Sharpsburg",
+      "Battle of Sharpsburg",
+      "Antitam",
+      "Antietem"
+    ],
+    "prompt": [
+      "Maryland Campaign"
+    ],
+    "wrong": [
+      "Gettysburg",
+      "Fredericksburg",
+      "Bull Run",
+      "Harpers Ferry",
+      "South Mountain",
+      "Emancipation Proclamation",
+      "Shiloh"
+    ]
+  }
+}
