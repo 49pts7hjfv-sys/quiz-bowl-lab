@@ -326,7 +326,7 @@ data = {
         }
     ],
     "trap": {
-        "title": "Goal, not the path",
+        "title": "Nirvana, moksha, or satori?",
         "body": "Nirvana tossups are packed with words that sound like answers. Enlightenment (bodhi, or “awakening”) is the insight the Buddha gained under the Bodhi tree, and it earns only a prompt here. Moksha is the Hindu and Jain word for liberation, samsara is the cycle of rebirth that nirvana ends, and satori is a Zen word for a moment of awakening; none of those is accepted.",
         "fix": "If the question describes a “blowing out,” the end of the three fires, the third Noble Truth, or what arhats and bodhisattvas reach, say nirvana. If you are prompted after saying “enlightenment,” add “nirvana”; save moksha for Hindu questions about Brahman and the atman.",
         "line": "Real answer line: <b><u>nirvana</u></b> (or <u>nibbana</u>; prompt on <u>enlightenment</u> or <u>bodhi</u>; do not accept “moksha” or “samsara”)"
