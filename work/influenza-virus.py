@@ -24,11 +24,12 @@ data = {
         "influenza a",
         "influenza a virus",
         "influenza b",
-        "influenzavirus",
-        "h1n1",
-        "h5n1"
+        "influenzavirus"
     ],
     "prompt": [
+        "h1n1",
+        "h5n1",
+        "h3n2",
         "influenza",
         "flu",
         "the flu",
@@ -138,7 +139,7 @@ data = {
             "r": "Each strain of these agents is named with an H number and an N number. For 10 points, name these viruses behind a winter respiratory illness."
         },
         {
-            "p": "The 1918 strain of these agents was long thought to be bacterial, and the bacterium _Haemophilus influenzae_ still carries a misleading name from that era. Scientists in the 1930s showed instead that an agent small enough to pass through fine filters causes the illness.",
+            "p": "During the 1918 pandemic, many scientists wrongly believed that a bacterium caused the illness, and one bacterium found in patients’ lungs still carries a misleading name from that era. Researchers in the 1930s showed instead that an agent small enough to slip through fine filters causes it.",
             "r": "Their strains have names like H1N1 and H3N2. For 10 points, name these viruses behind a seasonal respiratory illness."
         },
         {
@@ -257,7 +258,7 @@ data = {
         {
             "id": "family-name",
             "tier": "power",
-            "t": "Their family, Orthomyxoviridae, is named from Greek words for “straight” and “mucus”",
+            "t": "Their virus family’s name is built from Greek words for “straight” and “mucus”",
             "k": ["straight", "mucus", "family"],
             "n": 0
         },
