@@ -305,7 +305,8 @@
       "tier": "power",
       "t": "The process in which skin cells fill with it and die is called cornification",
       "k": [
-        "cornification"
+        "cornification",
+        "skin cells"
       ],
       "n": 0
     },
@@ -395,7 +396,7 @@
     "title": "Keratin or collagen?",
     "body": "Keratin and collagen are both tough, fibrous structural proteins, so clues about strength and fibers can point either way. Collagen is the most abundant protein in the human body and fills tendons, ligaments, cartilage, bone, and the dermis, while keratin builds hair, nails, horns, feathers, and the outer layer of skin. Players also mix up keratin with chitin, the tough carbohydrate in insect and crab exoskeletons.",
     "fix": "Hair, nails, horns, hooves, feathers, baleen, cysteine bridges, or perms mean keratin. Tendons, ligaments, a triple helix, or vitamin C mean collagen; insect exoskeletons or fungal cell walls mean chitin. Also check the noun: “this protein” is keratin, but “these cells” of the epidermis may want keratinocytes.",
-    "line": "Real answer line: <b><u>Keratin</u></b> (accept <u>alpha-keratin</u> or <u>beta-keratin</u>; prompt on <u>intermediate filaments</u>; do not accept “collagen” or “chitin”)"
+    "line": "Real answer line: <b><u>Keratin</u></b> (accept <u>keratins</u>, <u>alpha-keratin</u>, or <u>beta-keratin</u>; prompt on <u>intermediate filaments</u>; do not accept “collagen” or “chitin”)"
   },
   "tests": {
     "right": [

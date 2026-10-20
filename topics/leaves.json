@@ -188,7 +188,7 @@
     {
       "id": "stomata-guard-cells",
       "tier": "middle",
-      "t": "Tiny pores called stomata, opened and closed by pairs of guard cells, let carbon dioxide in and oxygen and water vapor out; most are on the lower surface",
+      "t": "Pores called stomata, opened and closed by pairs of guard cells, let carbon dioxide in and oxygen and water vapor out; in many plants, most are on the lower surface",
       "k": [
         "stomata",
         "guard cells",
@@ -374,7 +374,7 @@
     {
       "id": "guttation",
       "tier": "power",
-      "t": "Water droplets pushed out of pores called hydathodes along their edges, often on humid mornings, is called guttation",
+      "t": "Guttation is the pushing of water droplets out of pores called hydathodes along their edges, often on humid mornings",
       "k": [
         "guttation",
         "hydathodes"
@@ -440,7 +440,7 @@
     "title": "Organ, not organelle",
     "body": "Leaf tossups are full of photosynthesis clues, so players blurt the organelle (chloroplasts), the pigment (chlorophyll), the pores (stomata), or the process (photosynthesis) instead of the whole organ. Others answer “stems” for clues about modified leaves, like cactus spines, onion layers, or celery stalks, which don’t look like leaves at all.",
     "fix": "Listen for the noun: “these organs” or “these structures” attached to stems by petioles means leaves. “This organelle” means chloroplasts, “these pores” means stomata, and “this pigment” means chlorophyll.",
-    "line": "Real answer line: <b><u>Leaves</u></b> (accept <u>leaf</u>)"
+    "line": "Real answer line: <b><u>Leaves</u></b> (accept <u>leaf</u> or <u>foliage</u>; do not accept “chloroplasts” or “stomata”)"
   },
   "tests": {
     "right": [

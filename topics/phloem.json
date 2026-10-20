@@ -203,7 +203,8 @@
       "tier": "middle",
       "t": "Moving sap through it is called translocation",
       "k": [
-        "translocation"
+        "translocation",
+        "moving sap"
       ],
       "n": 0
     },
@@ -416,7 +417,7 @@
     "title": "Phloem or xylem?",
     "body": "Phloem and xylem are the two vascular tissues, and tossups often mention both. Phloem carries sugar from the leaves, in either direction, through living sieve-tube cells; xylem carries water and minerals up from the roots through dead, hollow cells. The vascular cambium, which makes new phloem and xylem, is a third answer players confuse with both.",
     "fix": "Sugar, sucrose, sources and sinks, sieve tubes, companion cells, aphids, girdling, or the inner bark mean phloem. Water, minerals, transpiration, tracheids, vessel elements, wood, tree rings, or maple sap mean xylem. A memory trick: phloem carries food.",
-    "line": "Real answer line: <b><u>Phloem</u></b> (prompt on <u>vascular tissue</u>; do not accept “xylem”)"
+    "line": "Real answer line: <b><u>Phloem</u></b> (prompt on <u>vascular tissue</u> or <u>inner bark</u>; do not accept “xylem”)"
   },
   "tests": {
     "right": [

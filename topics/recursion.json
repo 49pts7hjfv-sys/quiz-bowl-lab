@@ -104,7 +104,7 @@
       "r": "In programming, this idea needs a base case to stop. For 10 points, name this technique in which a function calls itself."
     },
     {
-      "p": "Édouard Lucas [“ay-DWAR loo-KAH”] sold a puzzle in 1883 under the anagram pen name “N. Claus de Siam.” Its shortest solution uses this technique: move all but the biggest disk out of the way, move the biggest disk, then move the smaller stack back on top.",
+      "p": "Édouard Lucas [“ay-DWAR loo-KAH”] introduced a puzzle in 1883 under the anagram pen name “N. Claus de Siam.” Its shortest solution uses this technique: move all but the biggest disk out of the way, move the biggest disk, then move the smaller stack back on top.",
       "r": "For 10 points, name this technique, used to solve the Tower of Hanoi, in which a function calls itself."
     },
     {
@@ -302,7 +302,7 @@
     {
       "id": "lucas",
       "tier": "power",
-      "t": "Édouard Lucas sold the Tower of Hanoi puzzle in 1883 under the anagram pen name “N. Claus de Siam”",
+      "t": "Édouard Lucas introduced the Tower of Hanoi puzzle in 1883 under the anagram pen name “N. Claus de Siam”",
       "k": [
         "lucas",
         "claus de siam",

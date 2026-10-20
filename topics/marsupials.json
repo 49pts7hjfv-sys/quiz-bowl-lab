@@ -93,7 +93,7 @@
       "r": "That animal is the Virginia opossum. For 10 points, name this group of mammals whose young usually grow in a pouch."
     },
     {
-      "p": "Wild populations of the largest living meat-eating member of this group have shrunk because of devil facial tumor disease, a rare cancer that spreads between animals when they bite each other. The Looney Tunes cartoon character Taz is based on that animal.",
+      "p": "Wild populations of the largest living meat-eating member of this group have shrunk because of devil facial tumor disease, a contagious cancer that spreads between animals when they bite each other. The Looney Tunes cartoon character Taz is based on that animal.",
       "r": "That animal is the Tasmanian devil. For 10 points, name this group of mammals, including kangaroos and koalas, whose newborns crawl into a pouch."
     },
     {
@@ -101,7 +101,7 @@
       "r": "Those animals are red kangaroos. For 10 points, name this group of mammals whose babies are called joeys."
     },
     {
-      "p": "One burrowing member of this group leaves cube-shaped droppings, which it piles on rocks and logs to mark its territory, and scientists who explained how it makes those cubes won a 2019 Ig Nobel Prize. Its teeth never stop growing, much like a rodent’s front teeth.",
+      "p": "One burrowing member of this group leaves cube-shaped droppings, which it piles on rocks and logs to mark its territory, and scientists who studied how it makes those cubes won a 2019 Ig Nobel Prize. Its teeth never stop growing, much like a rodent’s front teeth.",
       "r": "That animal is the wombat, whose pouch faces backward. For 10 points, name this group of mammals, including kangaroos."
     },
     {
@@ -159,7 +159,8 @@
       "tier": "giveaway",
       "t": "Their babies are called joeys",
       "k": [
-        "joeys"
+        "joeys",
+        "babies"
       ],
       "n": 0
     },
@@ -317,7 +318,7 @@
     {
       "id": "thylacine",
       "tier": "power",
-      "t": "The thylacine (Tasmanian tiger) died out in 1936 in a Hobart zoo; it looked like a wolf without being related, a case of convergent evolution",
+      "t": "The last known thylacine (Tasmanian tiger) died in a Hobart zoo in 1936; it looked like a wolf without being related, a case of convergent evolution",
       "k": [
         "thylacine",
         "tasmanian tiger",
@@ -330,7 +331,8 @@
       "tier": "power",
       "t": "Koala fingerprints are so similar to human ones that they can be hard to tell apart",
       "k": [
-        "fingerprints"
+        "fingerprints",
+        "koala"
       ],
       "n": 0,
       "rabbit": "Skin"
@@ -348,7 +350,7 @@
     {
       "id": "devil-disease",
       "tier": "power",
-      "t": "Devil facial tumor disease, a rare cancer spread by bites, has shrunk wild Tasmanian devil populations",
+      "t": "Devil facial tumor disease, a contagious cancer spread by bites, has shrunk wild Tasmanian devil populations",
       "k": [
         "devil facial tumor",
         "bites"
@@ -369,7 +371,7 @@
     {
       "id": "ig-nobel",
       "tier": "power",
-      "t": "Scientists who explained wombats’ cube-shaped droppings won a 2019 Ig Nobel Prize; wombat teeth never stop growing",
+      "t": "Scientists who studied how wombats make cube-shaped droppings won a 2019 Ig Nobel Prize; wombat teeth never stop growing",
       "k": [
         "ig nobel",
         "2019",
@@ -422,9 +424,9 @@
   ],
   "trap": {
     "title": "Pouches versus eggs",
-    "body": "Australia is also home to the platypus and the echidnas, which are monotremes: mammals that lay eggs instead of giving birth to tiny young. Some animals with similar-sounding names are actually placental mammals, such as kangaroo rats (rodents) and flying squirrels, and the koala “bear” is not a bear at all. Answering a single animal, like “kangaroos,” loses a tossup that asks for the whole group.",
+    "body": "Australia is also home to the platypus and the echidnas, which are monotremes: mammals that lay eggs instead of giving birth to tiny young. Some look-alikes and sound-alikes are actually placental mammals, such as kangaroo rats (rodents) and flying squirrels, and the koala “bear” is not a bear at all. Answering a single animal, like “kangaroos,” loses a tossup that asks for the whole group.",
     "fix": "Pouches, joeys, opossums, epipubic bones, or tiny newborns that crawl to the pouch mean marsupials. Eggs, the platypus, or echidnas mean monotremes, and a long pregnancy fed by a long-lasting placenta means placental mammals. If the question says “this group” or “these mammals,” give the group name.",
-    "line": "Real answer line: <b><u>Marsupials</u></b> (accept <u>Marsupialia</u> or <u>metatherians</u>; prompt on <u>mammals</u>; do not accept “monotremes” or “placental mammals”)"
+    "line": "Real answer line: <b><u>Marsupials</u></b> (accept <u>Marsupialia</u>, <u>metatherians</u>, or <u>pouched mammals</u>; prompt on <u>mammals</u>; do not accept “monotremes” or “placental mammals”)"
   },
   "tests": {
     "right": [

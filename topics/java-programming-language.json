@@ -103,7 +103,7 @@
       "r": "This language’s lead designer was James Gosling. For 10 points, name this language, named after a type of coffee."
     },
     {
-      "p": "Lambda expressions were added to this language in version 8, released in 2014. Every program in this language starts at a method declared “public static void main,” and programs print text with System.out.println [“print-LINE”].",
+      "p": "Lambda expressions were added to this language in version 8, released in 2014. A program in this language traditionally starts at a method declared “public static void main,” and prints text with System.out.println [“print-LINE”].",
       "r": "For 10 points, name this language, whose code is compiled into bytecode for a virtual machine named after it."
     },
     {
@@ -127,7 +127,7 @@
       "r": "For 10 points, name this language, created by James Gosling at Sun Microsystems, whose slogan was “write once, run anywhere.”"
     },
     {
-      "p": "Interactive menus on Blu-ray discs run on a system based on this language, and a tiny version of it runs on the chips in many SIM cards and bank cards. Its compiled programs can run on any device that has its virtual machine.",
+      "p": "Interactive menus on many Blu-ray discs run on a system based on this language, and a tiny version of it runs on the chips in many SIM cards and bank cards. Its compiled programs can run on any device that has its virtual machine.",
       "r": "For 10 points, name this language created by James Gosling, whose slogan was “write once, run anywhere.”"
     },
     {
@@ -243,7 +243,7 @@
     {
       "id": "objects",
       "tier": "middle",
-      "t": "Object-oriented: all code sits inside classes, and every program starts at “public static void main”",
+      "t": "Object-oriented: all code sits inside classes, and programs traditionally start at “public static void main”",
       "k": [
         "object-oriented",
         "classes",
@@ -264,7 +264,7 @@
     {
       "id": "ap-cs",
       "tier": "middle",
-      "t": "The language of the College Board’s AP Computer Science A exam",
+      "t": "The language of the College Board’s AP Computer Science A exam since the 2000s",
       "k": [
         "ap computer science",
         "college board"
@@ -392,7 +392,7 @@
     {
       "id": "blu-ray",
       "tier": "power",
-      "t": "Blu-ray disc menus run on a system based on it, and a tiny version runs on SIM cards and bank cards",
+      "t": "Many Blu-ray disc menus run on a system based on it, and a tiny version runs on SIM cards and bank cards",
       "k": [
         "blu-ray",
         "sim cards",

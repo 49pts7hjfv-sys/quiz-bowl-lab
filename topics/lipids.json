@@ -436,7 +436,7 @@
     "title": "The family, not one member",
     "body": "Lipid tossups name many family members, such as triglycerides, phospholipids, cholesterol, and waxes, and many parts, such as fatty acids and glycerol, so players blurt one of those instead of the whole class. “Triglycerides” or “oils” earns only a prompt, and “fatty acids” is wrong because fatty acids are just building blocks. Players also confuse lipids with carbohydrates, since both store energy and are made mostly of carbon, hydrogen, and oxygen.",
     "fix": "If the question asks for the whole class, including steroids, waxes, or membrane molecules, say “lipids” (or “fats”). Water-fearing, nonpolar, 9 Calories per gram, Sudan III, or bile mean lipids; sugars, starch, 4 Calories per gram, or Benedict’s and iodine tests mean carbohydrates.",
-    "line": "Real answer line: <b><u>Lipids</u></b> (accept <u>fats</u>; prompt on <u>triglycerides</u> or <u>oils</u>; do not accept “fatty acids”)"
+    "line": "Real answer line: <b><u>Lipids</u></b> (accept <u>fats</u> or <u>lipid</u>; prompt on <u>triglycerides</u> or <u>oils</u>; do not accept “fatty acids” or “carbohydrates”)"
   },
   "tests": {
     "right": [

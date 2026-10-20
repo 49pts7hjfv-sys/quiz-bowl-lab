@@ -98,7 +98,7 @@
       "r": "For 10 points, name this property of functions with no jumps or holes, which can be graphed without lifting a pencil."
     },
     {
-      "p": "The Heine–Cantor [“HY-nuh KAN-tor”] theorem says that a function with this property on a closed, bounded interval has the stronger “uniform” version of it. A different strengthened version, named for Rudolf Lipschitz [“LIP-shits”], limits how steep the function’s graph can get.",
+      "p": "The Heaviside [“HEV-ee-side”] step function, which jumps from 0 to 1 at x equals 0, lacks this property there. A function with this property on a closed interval must be bounded there, never shooting off toward infinity.",
       "r": "Polynomials have this property everywhere. For 10 points, name this property of functions whose graphs have no breaks."
     },
     {
@@ -317,13 +317,13 @@
       "n": 0
     },
     {
-      "id": "stronger-versions",
+      "id": "heaviside-bounded",
       "tier": "power",
-      "t": "Stronger versions: the “uniform” kind (Heine–Cantor theorem, on closed bounded intervals) and the Lipschitz kind, which limits steepness",
+      "t": "The Heaviside step function, which jumps from 0 to 1 at x = 0, lacks it there; on a closed interval, a function with it must be bounded",
       "k": [
-        "heine–cantor",
-        "uniform",
-        "lipschitz"
+        "heaviside",
+        "step function",
+        "bounded"
       ],
       "n": 0
     },
@@ -408,6 +408,6 @@
     "title": "Unbroken, not smooth",
     "body": "Continuity and differentiability are easy to mix up. A function with a sharp corner, like the absolute value function at 0, is still continuous there but has no derivative there. Tossups also ask for tools built on this idea, such as limits, the intermediate value theorem, or the extreme value theorem, and each of those is its own answer line.",
     "fix": "“No breaks, holes, or jumps” or “draw it without lifting your pencil” means continuity. “Has a tangent line,” “smooth,” or “has a derivative” means differentiability. If the question asks for “this theorem,” name the theorem instead.",
-    "line": "Real answer line: <b><u>continuity</u></b> (accept word forms like <u>continuous</u>; do not accept “differentiability”)"
+    "line": "Real answer line: <b><u>continuity</u></b> (accept word forms like <u>continuous</u> functions; do not accept “differentiability”)"
   }
 }

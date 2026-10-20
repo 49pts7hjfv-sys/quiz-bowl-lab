@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Chemical messengers carried by the blood · Signals of the endocrine system",
   "dates": "Named by Ernest Starling in 1905",
-  "briefing": "Hormones are chemical messengers: glands release them into the blood, and they travel through the body until they reach cells with the right receptors. Insulin from the pancreas lowers blood sugar, adrenaline from the adrenal glands gets you ready for “fight or flight,” and growth hormone from the pituitary helps you grow. The first one discovered, secretin, was found in 1902, and in 1905 Ernest Starling named the whole group from a Greek word meaning “to set in motion.”",
+  "briefing": "Hormones are chemical messengers: glands release them into the blood, and they travel through the body until they reach cells with the right receptors. Insulin from the pancreas lowers blood sugar, adrenaline from the adrenal glands gets you ready for “fight or flight,” and growth hormone from the pituitary helps you grow. Secretin, often called the first one discovered, was found in 1902, and in 1905 Ernest Starling named the whole group from a Greek word meaning “to set in motion.”",
   "answerHtml": "<b><u>Hormones</u></b> (accept <u>hormone</u>; prompt on <u>chemical messengers</u> or <u>signaling molecules</u>; do not accept “neurotransmitters,” “pheromones,” or the name of a single hormone)",
   "accept": [
     "hormones",
@@ -75,7 +75,7 @@
   },
   "tossups": [
     {
-      "p": "Ernest Starling introduced the name for these substances in a 1905 lecture, borrowing a Greek word meaning “to set in motion.” Three years earlier, Starling and William Bayliss had discovered the first known one, secretin, which tells the pancreas to release its juices.",
+      "p": "Ernest Starling introduced the name for these substances in a 1905 lecture, borrowing a Greek word meaning “to set in motion.” Three years earlier, Starling and William Bayliss had discovered secretin, often called the first one ever found, which tells the pancreas to release its juices.",
       "r": "Insulin and adrenaline are examples. For 10 points, name these chemical messengers that endocrine glands release into the blood."
     },
     {
@@ -306,7 +306,7 @@
     {
       "id": "secretin",
       "tier": "power",
-      "t": "Secretin, found by William Bayliss and Ernest Starling in 1902, was the first one discovered",
+      "t": "Secretin, found by William Bayliss and Ernest Starling in 1902, is often called the first one discovered",
       "k": [
         "secretin",
         "bayliss",
@@ -449,7 +449,7 @@
     "title": "Messenger mix-ups",
     "body": "Hormones, neurotransmitters, and pheromones are all chemical messengers, so clues about signals can pull players toward the wrong one. Hormones travel through the blood from endocrine glands; neurotransmitters cross the tiny gap between nerve cells; pheromones travel through the air or water to other animals. Many clues also name one example, like insulin or adrenaline, tempting players to answer that single substance instead of the whole group.",
     "fix": "Blood, glands, target cells, the pituitary, or the endocrine system mean hormones. Synapses mean neurotransmitters, and signals between different animals, like an ant’s scent trail, mean pheromones. If the question says “these substances” or “these chemical messengers,” give the group name, not one example.",
-    "line": "Real answer line: <b><u>Hormones</u></b> (prompt on <u>chemical messengers</u>; do not accept “neurotransmitters,” “pheromones,” or the name of a single hormone)"
+    "line": "Real answer line: <b><u>Hormones</u></b> (accept <u>hormone</u>; prompt on <u>chemical messengers</u> or <u>signaling molecules</u>; do not accept “neurotransmitters,” “pheromones,” or the name of a single hormone)"
   },
   "tests": {
     "right": [

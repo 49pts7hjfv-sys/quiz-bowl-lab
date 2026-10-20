@@ -90,7 +90,7 @@
       "r": "For 10 points, name these unspecialized cells that can become many different kinds of body cells."
     },
     {
-      "p": "Hans Clevers’s lab grew tiny “mini-guts” called organoids from single cells of this kind marked by a protein named Lgr5. In the small intestine, cells of this kind tucked into pits called crypts replace the organ’s inner lining every few days.",
+      "p": "Hans Clevers’s lab grew tiny “mini-guts” called organoids from single cells of this kind taken from the intestine. In the small intestine, cells of this kind tucked into pits called crypts replace the organ’s inner lining every few days.",
       "r": "For 10 points, name these unspecialized cells that divide to renew tissues and can become specialized cells."
     },
     {
@@ -332,11 +332,10 @@
     {
       "id": "crypts-organoids",
       "tier": "power",
-      "t": "Intestinal ones in pits called crypts renew the gut lining every few days; Hans Clevers grew “mini-gut” organoids from single Lgr5 cells",
+      "t": "Intestinal ones in pits called crypts renew the gut lining every few days; Hans Clevers’s lab grew “mini-gut” organoids from single ones",
       "k": [
         "crypts",
         "organoids",
-        "lgr5",
         "clevers"
       ],
       "n": 0,
@@ -410,7 +409,7 @@
     "title": "The cells, not the place",
     "body": "Many clues describe where these cells live or come from, such as bone marrow, umbilical cord blood, a blastocyst, or a plant’s meristems, so players blurt the place instead of the cells. Others hear “totipotent” and answer “zygote,” or hear John Gurdon’s frogs and answer “cloning.” Words like pluripotent and multipotent only describe how many cell types these cells can make, so they earn a prompt at best.",
     "fix": "If the question asks for “these cells” that can copy themselves and turn into other cell types, say “stem cells.” Specific kinds, like embryonic stem cells or induced pluripotent stem cells, are fine as long as the words “stem cells” are in your answer.",
-    "line": "Real answer line: <b><u>Stem cells</u></b> (accept specific kinds, such as <u>embryonic stem cells</u> or <u>induced pluripotent stem cells</u>; prompt on <u>pluripotent cells</u>)"
+    "line": "Real answer line: <b><u>Stem cells</u></b> (accept <u>stem cell</u> or specific kinds, such as <u>embryonic stem cells</u> or <u>induced pluripotent stem cells</u>; prompt on <u>pluripotent cells</u> or <u>undifferentiated cells</u>)"
   },
   "tests": {
     "right": [

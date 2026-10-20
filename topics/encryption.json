@@ -139,7 +139,7 @@
       "r": "For 10 points, name this process, reversed by decryption, that scrambles messages so only someone with the key can read them."
     },
     {
-      "p": "British codebreakers in Room 40 read the Zimmermann Telegram in 1917 even though Germany had protected it with this process. Polish mathematicians led by Marian Rejewski [“reh-YEF-skee”] later attacked the Enigma machines that Germany used for this process.",
+      "p": "At Bletchley Park, Tommy Flowers’s Colossus computers helped read top-level German army messages that had been scrambled with this process on Lorenz machines. Before that, Polish mathematicians including Marian Rejewski [“reh-YEF-skee”] had broken the Enigma machines that Germany also used for this process.",
       "r": "For 10 points, name this process of scrambling messages with a secret key, which is reversed by decryption."
     },
     {
@@ -279,7 +279,7 @@
     {
       "id": "enigma",
       "tier": "middle",
-      "t": "Germany’s Enigma machines did it in World War II; Polish codebreakers led by Marian Rejewski, then Bletchley Park, broke them",
+      "t": "Germany’s Enigma machines did it in World War II; Polish codebreakers including Marian Rejewski, then Bletchley Park, broke them",
       "k": [
         "enigma",
         "rejewski",
@@ -390,13 +390,13 @@
       "n": 0
     },
     {
-      "id": "zimmermann-telegram",
+      "id": "colossus",
       "tier": "power",
-      "t": "Britain’s Room 40 read the Zimmermann Telegram (1917) even though Germany had protected it",
+      "t": "Tommy Flowers’s Colossus computers at Bletchley Park helped read top-level German army messages scrambled on Lorenz machines",
       "k": [
-        "zimmermann telegram",
-        "room 40",
-        "1917"
+        "colossus",
+        "tommy flowers",
+        "lorenz"
       ],
       "n": 0
     },

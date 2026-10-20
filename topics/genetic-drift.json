@@ -112,7 +112,7 @@
       "r": "That crash is called a bottleneck. For 10 points, name this mechanism of evolution in which allele frequencies change by random chance."
     },
     {
-      "p": "In a model of this process named for Patrick Moran, at each step one randomly chosen individual reproduces and one randomly chosen individual dies. That model lets generations overlap instead of replacing one another all at once.",
+      "p": "By the early 1990s, only about 20 to 30 Florida panthers survived, and many had kinked tails and heart defects after this process stripped much of the genetic variety from their tiny population. In 1995, eight female pumas from Texas were released in Florida to restore some of it.",
       "r": "This process includes the founder effect. For 10 points, name this random change in allele frequencies that is strongest in small populations."
     },
     {
@@ -265,10 +265,10 @@
     {
       "id": "models",
       "tier": "power",
-      "t": "Described by the Wright-Fisher model (each generation is a random sample of the last) and the Moran model (generations overlap)",
+      "t": "Described mathematically by the Wright-Fisher model, which treats each generation as a random sample of the alleles in the last",
       "k": [
         "wright-fisher",
-        "moran"
+        "random sample"
       ],
       "n": 0
     },
@@ -369,6 +369,17 @@
       "n": 0
     },
     {
+      "id": "florida-panthers",
+      "tier": "power",
+      "t": "Only about 20 to 30 Florida panthers were left by the early 1990s, with little genetic variety; in 1995, eight female Texas pumas were released to restore it",
+      "k": [
+        "florida panthers",
+        "texas pumas",
+        "1995"
+      ],
+      "n": 0
+    },
+    {
       "id": "cheetahs-seals",
       "tier": "power",
       "t": "Bottleneck examples: cheetahs (a crash near the end of the last ice age) and northern elephant seals (hunted almost to extinction by the 1890s)",
@@ -384,7 +395,7 @@
     "title": "Chance or fitness?",
     "body": "Genetic drift is one of the four main mechanisms of evolution, and tossups about it often mention the others, especially natural selection, so players blurt the wrong one. Drift changes allele frequencies by luck, while natural selection changes them because some traits help survival. The founder effect and the bottleneck effect are special cases of drift, but naming just one of them on a general question is wrong.",
     "fix": "Chance, luck, sampling error, small or isolated populations, founders, disaster survivors, Sewall Wright, or Kimura’s neutral theory mean genetic drift. Adaptation, “survival of the fittest,” or peppered moths mean natural selection, and migration between populations means gene flow. Don’t mix it up with antigenic drift (flu viruses) or continental drift (geology).",
-    "line": "Real answer line: <b><u>Genetic drift</u></b> (accept <u>allelic drift</u> or <u>Sewall Wright effect</u>; prompt on <u>drift</u>; do not accept “natural selection,” “gene flow,” “founder effect,” or “bottleneck effect”)"
+    "line": "Real answer line: <b><u>Genetic drift</u></b> (accept <u>allelic drift</u> or <u>Sewall Wright effect</u>; prompt on <u>drift</u> or <u>evolution</u>; do not accept “natural selection,” “gene flow,” “founder effect,” or “bottleneck effect”)"
   },
   "tests": {
     "right": [

@@ -82,7 +82,7 @@
       "r": "Andrew Wiles proved enough of that conjecture in the 1990s. For 10 points, name this theorem that Pierre de Fermat scribbled in a margin."
     },
     {
-      "p": "Ernst Kummer [“KOOM-er”] proved this statement for every exponent that is a “regular” prime, a group that includes every prime below 100 except 37, 59, and 67. Kummer’s work on it introduced “ideal numbers,” an idea that became a key part of modern algebra.",
+      "p": "Ernst Kummer [“KOOM-er”] proved this statement for every odd exponent that is a “regular” prime, a group that includes every odd prime below 100 except 37, 59, and 67. Kummer’s work on it introduced “ideal numbers,” an idea that became a key part of modern algebra.",
       "r": "For 10 points, name this theorem, finally proved by Andrew Wiles, which Pierre de Fermat claimed to have proved in a book’s margin."
     },
     {
@@ -90,7 +90,7 @@
       "r": "For 10 points, name this theorem about the equation a to the n plus b to the n equals c to the n, which went unproven for more than 350 years."
     },
     {
-      "p": "In 1908, Paul Wolfskehl [“VOLF-skayl”] left 100,000 marks as a prize for a proof of this statement, and the prize was finally awarded in 1997. Edmund Landau had cards printed to tell the many people who mailed him wrong proofs where their first mistake was.",
+      "p": "A prize of 100,000 marks for a proof of this statement, left by Paul Wolfskehl [“VOLF-skayl”] and announced in 1908, was finally awarded in 1997. According to a well-known story, Edmund Landau had cards printed to tell the many people who mailed him wrong proofs where their first mistake was.",
       "r": "That prize went to Andrew Wiles. For 10 points, name this theorem that Pierre de Fermat wrote in the margin of a book."
     },
     {
@@ -118,7 +118,7 @@
       "r": "For 10 points, name this theorem about whole-number powers, which Andrew Wiles proved in the 1990s."
     },
     {
-      "p": "In 2013, Andrew Beal raised his prize to $1 million for proving a more general version of this statement in which the three exponents may differ. With an exponent of 2, this statement’s equation has infinitely many solutions, such as 3, 4, and 5.",
+      "p": "In 2013, Andrew Beal raised his prize to $1 million for settling a more general version of this statement in which the three exponents may differ. With an exponent of 2, this statement’s equation has infinitely many solutions, such as 3, 4, and 5.",
       "r": "For 10 points, name this theorem that Pierre de Fermat claimed he could prove in a margin."
     },
     {
@@ -290,7 +290,7 @@
     {
       "id": "kummer",
       "tier": "power",
-      "t": "Ernst Kummer proved it for all “regular” prime exponents; below 100, only 37, 59, and 67 are not regular",
+      "t": "Ernst Kummer proved it for all odd “regular” prime exponents; below 100, only 37, 59, and 67 are not regular",
       "k": [
         "kummer",
         "regular",
@@ -324,7 +324,7 @@
     {
       "id": "wolfskehl",
       "tier": "power",
-      "t": "Paul Wolfskehl’s 1908 prize of 100,000 marks was finally awarded to Wiles in 1997",
+      "t": "Paul Wolfskehl’s prize of 100,000 marks, announced in 1908, was finally awarded to Wiles in 1997",
       "k": [
         "wolfskehl",
         "100,000 marks",
@@ -335,7 +335,7 @@
     {
       "id": "landau",
       "tier": "power",
-      "t": "Edmund Landau had cards printed telling senders of wrong proofs where their first mistake was",
+      "t": "Edmund Landau reportedly had cards printed telling senders of wrong proofs where their first mistake was",
       "k": [
         "landau",
         "cards",
@@ -380,11 +380,11 @@
     {
       "id": "beal",
       "tier": "power",
-      "t": "Andrew Beal’s $1 million prize (2013) is for the Beal conjecture, a version with three different exponents",
+      "t": "Andrew Beal’s $1 million prize (2013) is for settling the Beal conjecture, a version in which the three exponents may differ",
       "k": [
         "beal",
         "$1 million",
-        "different exponents"
+        "exponents may differ"
       ],
       "n": 0
     },
@@ -415,6 +415,6 @@
     "title": "Last, little, or the man?",
     "body": "Pierre de Fermat has his own answer line, and tossups on him use the same margin, the same _Arithmetica_, and the same Andrew Wiles. Fermat’s little theorem (if p is prime, a^p − a is a multiple of p) is a completely different statement, and the Pythagorean theorem is the n = 2 case, which does have whole-number solutions.",
     "fix": "“This theorem,” “this statement,” or “this conjecture,” with an equation like aⁿ + bⁿ = cⁿ, means Fermat’s Last Theorem; “this man” or “this lawyer” means Fermat himself. Saying only “Fermat’s theorem” earns a prompt, so add the word “Last.”",
-    "line": "Real answer line: <b><u>Fermat’s Last Theorem</u></b> (prompt on <u>Fermat’s theorem</u>; do not accept “Fermat’s little theorem”)"
+    "line": "Real answer line: <b><u>Fermat’s Last Theorem</u></b> (accept <u>FLT</u>; prompt on <u>Fermat’s theorem</u>; do not accept “Fermat’s little theorem”)"
   }
 }
