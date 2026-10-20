@@ -44,8 +44,6 @@
     "menisci",
     "intervertebral discs",
     "synovial fluid",
-    "joint",
-    "joints",
     "bone marrow",
     "marrow",
     "muscle",
@@ -78,7 +76,7 @@
       "r": "C-shaped rings of this tissue hold the windpipe open. For 10 points, name this flexible connective tissue."
     },
     {
-      "p": "The elastic type of this tissue, which gets its springiness from a protein called elastin, stiffens the epiglottis [“ep-ih-GLOT-iss”], the flap that covers the windpipe when a person swallows. That type is also found in the tube that connects the middle ear to the throat.",
+      "p": "The elastic type of this tissue, which gets its springiness from a protein called elastin, supports the epiglottis [“ep-ih-GLOT-iss”], the flap that covers the windpipe when a person swallows. That type is also found in the tube that connects the middle ear to the throat.",
       "r": "It also gives shape to the outer ear. For 10 points, name this flexible connective tissue."
     },
     {
@@ -274,7 +272,7 @@
     {
       "id": "ribs",
       "tier": "middle",
-      "t": "Flexible bars of it connect the upper ten pairs of ribs to the breastbone",
+      "t": "Flexible bars of it connect the upper ten pairs of ribs, directly or indirectly, to the breastbone",
       "k": [
         "ribs",
         "breastbone"
@@ -314,7 +312,7 @@
     {
       "id": "elastic-epiglottis",
       "tier": "power",
-      "t": "The elastic type gets its spring from elastin and stiffens the epiglottis, the outer ear, and the tube from the middle ear to the throat",
+      "t": "The elastic type gets its spring from elastin and supports the epiglottis, the outer ear, and the tube from the middle ear to the throat",
       "k": [
         "elastin",
         "epiglottis"
@@ -441,7 +439,8 @@
       "Fibrocartilage",
       "Cartiledge",
       "Gristle",
-      "elastic cartilage"
+      "elastic cartilage",
+      "Joint cartilage"
     ],
     "prompt": [
       "Connective tissue"
@@ -453,7 +452,8 @@
       "Collagen",
       "Chondrocytes",
       "Meniscus",
-      "Cartilaginous fish"
+      "Cartilaginous fish",
+      "Joints"
     ]
   }
 }

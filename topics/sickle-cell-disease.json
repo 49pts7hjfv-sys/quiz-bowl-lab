@@ -5,7 +5,7 @@
   "category": "Biology",
   "qbCategory": "Science · Biology",
   "kicker": "Inherited hemoglobin disorder · Red blood cells can bend into crescents",
-  "dates": "First described by James Herrick in 1910",
+  "dates": "First described in Western medicine in 1910",
   "briefing": "Sickle-cell disease is an inherited blood disorder caused by a tiny change in the gene for hemoglobin, the oxygen-carrying protein in red blood cells. In people with the disease, red blood cells can stiffen into crescent, or sickle, shapes that get stuck in small blood vessels and wear out quickly. Carrying just one copy of the gene gives some protection against malaria, which is why it is most common in families with roots in sub-Saharan Africa, India, the Mediterranean, and the Middle East.",
   "answerHtml": "<b><u>Sickle-cell</u></b> disease (accept <u>sickle-cell anemia</u> or <u>SCD</u>; prompt on <u>anemia</u>; do not accept “sickle-cell trait,” “malaria,” or “hemoglobin”)",
   "accept": [
@@ -69,7 +69,7 @@
       "r": "In this disorder, red blood cells can bend into crescent shapes. For 10 points, name this inherited blood disorder."
     },
     {
-      "p": "In 1949, Linus Pauling’s team, including Harvey Itano [“ih-TAH-noh”], used electrophoresis, which separates molecules in an electric field, to show that the hemoglobin of people with this condition carries a different electric charge than normal hemoglobin. Pauling called this condition the first “molecular disease.”",
+      "p": "In 1949, Linus Pauling’s team, including Harvey Itano [“ih-TAH-noh”], used electrophoresis, which separates molecules in an electric field, to show that the hemoglobin of people with this condition carries a different electric charge than normal hemoglobin. Their paper called this condition a “molecular disease,” the first ever identified.",
       "r": "It is caused by an altered form of hemoglobin. For 10 points, name this inherited blood disorder."
     },
     {
@@ -275,7 +275,7 @@
     {
       "id": "pauling",
       "tier": "power",
-      "t": "Linus Pauling’s team, including Harvey Itano, used electrophoresis in 1949 and called it the first “molecular disease”",
+      "t": "Linus Pauling’s team, including Harvey Itano, used electrophoresis in 1949 and called it a “molecular disease,” the first ever identified",
       "k": [
         "pauling",
         "itano",

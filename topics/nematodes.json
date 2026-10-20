@@ -96,7 +96,7 @@
       "r": "Other members of this phylum, spread by mosquitoes, cause elephantiasis. For 10 points, name this phylum of worms that includes hookworms and heartworms."
     },
     {
-      "p": "The Carter Center, founded by former president Jimmy Carter, has led a campaign that cut cases of a disease caused by one of these worms from about 3.5 million in 1986 to only a handful a year by the 2020s. People catch that disease, Guinea worm disease, by drinking water containing tiny water fleas that carry its larvae.",
+      "p": "The Carter Center, founded by former president Jimmy Carter, has led a campaign that cut cases of a disease caused by one of these worms from about 3.5 million in 1986 to fewer than 30 a year in the 2020s. People catch that disease, Guinea worm disease, by drinking water containing tiny water fleas that carry its larvae.",
       "r": "Hookworms and pinworms also belong to this phylum. For 10 points, name this phylum of unsegmented worms with a tough outer cuticle."
     },
     {
@@ -105,7 +105,7 @@
     },
     {
       "p": "Eating undercooked pork or wild game can cause trichinosis [“trik-ih-NOH-sis”], a disease caused by members of this phylum whose larvae curl up inside tiny cysts in muscle. Those parasites belong to the genus _Trichinella_ [“trik-ih-NEL-uh”], whose name refers to their hair-like thinness.",
-      "r": "Another member of this phylum, _Ascaris_ [“ASS-kuh-riss”], can grow longer than a foot. For 10 points, name this phylum of unsegmented worms that also includes hookworms."
+      "r": "Another member of this phylum, _Ascaris_ [“AS-kuh-riss”], can grow longer than a foot. For 10 points, name this phylum of unsegmented worms that also includes hookworms."
     },
     {
       "p": "Along with arthropods, these animals are placed in a group called Ecdysozoa [“ek-dih-soh-ZOH-uh”] because they molt their outer covering as they grow. Biologists call them pseudocoelomates [“soo-doh-SEE-loh-mayts”], since their fluid-filled body cavity is only partly lined by tissue from the embryo’s middle layer, the mesoderm.",
@@ -257,7 +257,7 @@
     {
       "id": "elephantiasis",
       "tier": "middle",
-      "t": "Mosquito-borne filarial worms cause elephantiasis (lymphatic filariasis), severe swelling of the legs",
+      "t": "Mosquito-borne filarial worms cause elephantiasis (lymphatic filariasis), severe swelling, often of the legs",
       "k": [
         "elephantiasis",
         "filarial",
@@ -376,7 +376,7 @@
     {
       "id": "guinea-worm",
       "tier": "power",
-      "t": "The Carter Center’s campaign cut Guinea worm disease from about 3.5 million cases (1986) to a handful a year; people catch it from water fleas in drinking water",
+      "t": "The Carter Center’s campaign cut Guinea worm disease from about 3.5 million cases (1986) to fewer than 30 a year in the 2020s; people catch it from water fleas in drinking water",
       "k": [
         "guinea worm",
         "carter center",
@@ -433,7 +433,7 @@
   ],
   "trap": {
     "title": "Roundworms, flatworms, or annelids?",
-    "body": "Three phyla of worms show up in quiz bowl, and tossups on nematodes often name one of the others to rule it out. Flatworms (Platyhelminthes), like tapeworms and planarians, are flat and have a gut with only one opening, while annelids, like earthworms and leeches, are built from ring-shaped segments. Players also mix up nematodes with nematocysts, the stinging cells of jellyfish, and with ringworm, which is a fungus.",
+    "body": "Three phyla of worms show up in quiz bowl, and tossups on nematodes often name one of the others to rule it out. Flatworms (Platyhelminthes), like tapeworms and planarians, are flat and lack a gut with two openings, while annelids, like earthworms and leeches, are built from ring-shaped segments. Players also mix up nematodes with nematocysts, the stinging cells of jellyfish, and with ringworm, which is a fungus.",
     "fix": "Unsegmented, cylindrical bodies, a pseudocoelom, a gut with two openings, molting, hookworms, or _C. elegans_ mean nematodes (roundworms). Flat bodies or tapeworms mean flatworms; ring-shaped segments, earthworms, or leeches mean annelids.",
     "line": "Real answer line: <b><u>Nematodes</u></b> (accept <u>roundworms</u> or <u>Nematoda</u>; prompt on <u>worms</u>; do not accept “flatworms” or “annelids”)"
   },

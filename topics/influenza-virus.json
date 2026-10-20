@@ -7,7 +7,7 @@
   "kicker": "RNA virus family behind the flu · Strains named H and N, as in H1N1",
   "dates": "First human one isolated in 1933",
   "briefing": "The influenza virus causes the flu, a respiratory illness that comes back every winter. Its strains are named for two proteins on its surface, hemagglutinin and neuraminidase, which is why one is called H1N1. Because the virus stores its genes in eight pieces of RNA that change constantly, the vaccine has to be updated every year. A 1918 pandemic caused by one of these viruses killed tens of millions of people worldwide.",
-  "answerHtml": "<b><u>Influenza virus</u></b> (accept <u>flu virus</u>, <u>Orthomyxoviridae</u>, or <u>influenza A</u>; prompt on <u>influenza</u> or <u>the flu</u> by asking for the virus; do not accept “coronavirus” or “common cold”)",
+  "answerHtml": "<b><u>Influenza virus</u></b> (accept <u>flu virus</u>, <u>Orthomyxoviridae</u>, or <u>influenza A</u>; prompt on <u>influenza</u>, <u>the flu</u>, or a specific strain such as <u>H1N1</u> by asking for the virus; do not accept “coronavirus” or “common cold”)",
   "accept": [
     "influenza virus",
     "influenza viruses",
@@ -32,7 +32,14 @@
     "rna virus",
     "rna viruses",
     "virus",
-    "viruses"
+    "viruses",
+    "spanish flu",
+    "swine flu",
+    "bird flu",
+    "avian flu",
+    "h1n1 virus",
+    "h5n1 virus",
+    "h3n2 virus"
   ],
   "reject": [
     "coronavirus",
@@ -62,11 +69,7 @@
     "tamiflu",
     "oseltamivir",
     "flu vaccine",
-    "influenza vaccine",
-    "spanish flu",
-    "swine flu",
-    "bird flu",
-    "avian flu"
+    "influenza vaccine"
   ],
   "media": [],
   "mediaPending": true,
@@ -86,7 +89,7 @@
       "r": "Their strains are labeled with an H number and an N number. For 10 points, name these viruses that cause a respiratory illness every winter."
     },
     {
-      "p": "The genome of these viruses is split into eight separate pieces of RNA, which lets two different strains swap whole segments inside one host in a process called reassortment. That shuffling can produce a sudden big change, known as antigenic shift.",
+      "p": "The genome of types A and B of these viruses is split into eight separate pieces of RNA, which lets two different strains swap whole segments inside one host in a process called reassortment. That shuffling can produce a sudden big change, known as antigenic shift.",
       "r": "Smaller changes, called antigenic drift, are why their vaccine is updated yearly. For 10 points, name these viruses behind a respiratory illness that returns each winter."
     },
     {
@@ -94,7 +97,7 @@
       "r": "Strains are therefore labeled like H1N1. For 10 points, name these viruses that cause a respiratory illness each winter."
     },
     {
-      "p": "The drug oseltamivir [“oh-sel-TAM-ih-veer”], sold as Tamiflu, works against these agents by blocking the enzyme that lets new copies escape from a cell. Because these agents carry their genes as RNA and copy them sloppily, they change quickly and can become resistant to such drugs.",
+      "p": "The drug oseltamivir [“oh-sel-TAM-ih-veer”] works against these agents by blocking the enzyme that lets new copies escape from a cell. Because these agents carry their genes as RNA and copy them sloppily, they change quickly and can become resistant to such drugs.",
       "r": "Their strain names use an H number and an N number. For 10 points, name these viruses behind a yearly respiratory illness."
     },
     {
@@ -106,7 +109,7 @@
       "r": "Their strains are named for two surface proteins. For 10 points, name these viruses that cause a respiratory illness in people each winter."
     },
     {
-      "p": "Jeffery Taubenberger’s [“TAW-ben-ber-gur’s”] team rebuilt the genes of the 1918 strain of these agents partly from lung tissue preserved in Alaskan permafrost. They published the full sequence of that strain in 2005.",
+      "p": "Jeffery Taubenberger’s team pieced together the genes of the 1918 strain of these agents partly from lung tissue preserved in Alaskan permafrost. They published the full sequence of that strain in 2005.",
       "r": "The 1918 pandemic strain is classified as H1N1. For 10 points, name these viruses behind a respiratory illness that returns each winter."
     },
     {
@@ -114,7 +117,7 @@
       "r": "One such subtype is H3N2. For 10 points, name these viruses that cause a respiratory illness every winter."
     },
     {
-      "p": "Thomas Francis Jr. isolated type B of these agents in 1940, several years after type A was found, and he also helped make the first vaccines against them for American soldiers. The World Health Organization’s global surveillance network for these agents began in 1952.",
+      "p": "Thomas Francis Jr. isolated type B of these agents in 1940, several years after type A was found, and he also helped make the first vaccines against them for American soldiers. Jonas Salk, who later created a polio vaccine, worked in Francis’s lab on those vaccines.",
       "r": "Their vaccine is updated every year. For 10 points, name these viruses behind a seasonal respiratory illness."
     },
     {
@@ -122,7 +125,7 @@
       "r": "Those proteins give strains names like H1N1. For 10 points, name these viruses that cause a respiratory illness each winter."
     },
     {
-      "p": "The 1957 and 1968 pandemics caused by these agents are named for Asia and Hong Kong, and both arose when a bird strain swapped gene segments with a human strain. A 2009 pandemic strain of these agents, nicknamed “swine flu,” was also an H1N1.",
+      "p": "The 1957 and 1968 pandemics caused by these agents are named for Asia and Hong Kong, and both arose when a bird strain swapped gene segments with a human strain. A 2009 pandemic strain of these agents that came from pigs was an H1N1, like the 1918 strain.",
       "r": "They store their genes in eight pieces of RNA. For 10 points, name these viruses behind a seasonal respiratory illness."
     },
     {
@@ -134,7 +137,7 @@
       "r": "Each strain of these agents is named with an H number and an N number. For 10 points, name these viruses behind a winter respiratory illness."
     },
     {
-      "p": "During the 1918 pandemic, many scientists wrongly believed that a bacterium caused the illness, and one bacterium found in patients’ lungs still carries a misleading name from that era. Researchers in the 1930s showed instead that an agent small enough to slip through fine filters causes it.",
+      "p": "During the 1918 pandemic, many scientists wrongly believed that a bacterium caused the illness, and one bacterium found in patients’ lungs still carries a misleading name based on that belief. Researchers in the 1930s showed instead that an agent small enough to slip through fine filters causes it.",
       "r": "Their strains have names like H1N1 and H3N2. For 10 points, name these viruses behind a seasonal respiratory illness."
     },
     {
@@ -168,7 +171,7 @@
     {
       "id": "rna-virus",
       "tier": "giveaway",
-      "t": "RNA viruses, so antibiotics do not work against them",
+      "t": "RNA viruses; like all viruses, they are not affected by antibiotics",
       "k": [
         "rna",
         "antibiotics"
@@ -200,7 +203,7 @@
     {
       "id": "eight-segments",
       "tier": "middle",
-      "t": "Their genome is split into eight separate pieces of RNA",
+      "t": "In types A and B, the genome is split into eight separate pieces of RNA",
       "k": [
         "eight",
         "pieces"
@@ -264,10 +267,9 @@
     {
       "id": "tamiflu",
       "tier": "middle",
-      "t": "Oseltamivir (Tamiflu) blocks the enzyme that lets new copies escape a cell",
+      "t": "The drug oseltamivir blocks the enzyme that lets new copies escape a cell",
       "k": [
-        "oseltamivir",
-        "tamiflu"
+        "oseltamivir"
       ],
       "n": 0
     },
@@ -319,18 +321,19 @@
     {
       "id": "francis",
       "tier": "power",
-      "t": "Thomas Francis Jr. isolated type B in 1940 and helped develop the first vaccines; the WHO’s global surveillance network began in 1952",
+      "t": "Thomas Francis Jr. isolated type B in 1940 and, with Jonas Salk in his lab, helped develop the first vaccines against them",
       "k": [
         "thomas francis",
         "type b",
-        "1952"
+        "jonas salk"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Polio"
     },
     {
       "id": "taubenberger",
       "tier": "power",
-      "t": "Jeffery Taubenberger’s team sequenced the 1918 strain, published in 2005, using lung tissue preserved in Alaskan permafrost",
+      "t": "Jeffery Taubenberger’s team sequenced the 1918 strain, published in 2005, partly using lung tissue preserved in Alaskan permafrost",
       "k": [
         "taubenberger",
         "2005",
@@ -352,7 +355,7 @@
     {
       "id": "later-pandemics",
       "tier": "power",
-      "t": "Later pandemics: 1957 (named for Asia), 1968 (named for Hong Kong), and 2009 (an H1N1 nicknamed “swine flu”)",
+      "t": "Later pandemics: 1957 (named for Asia), 1968 (named for Hong Kong), and 2009 (an H1N1 strain that came from pigs)",
       "k": [
         "1957",
         "1968",
@@ -385,7 +388,7 @@
     {
       "id": "haemophilus",
       "tier": "power",
-      "t": "The 1918 outbreak was long thought to be bacterial, and one bacterium found in patients’ lungs still carries a misleading name from that era",
+      "t": "The 1918 outbreak was long thought to be bacterial, and one bacterium found in patients’ lungs still carries a misleading name based on that belief",
       "k": [
         "bacterium",
         "bacterial",
@@ -419,9 +422,9 @@
   ],
   "trap": {
     "title": "Virus, illness, or bacterium?",
-    "body": "Some answer lines want the virus and some want the disease, so saying just “influenza” or “the flu” may only earn a prompt when the question asks for “this virus.” The common cold is a different illness, usually caused by rhinoviruses, and a stomach bug is not the flu at all. One bacterium also carries a misleading name left over from 1918, when scientists wrongly believed a bacterium caused the pandemic.",
+    "body": "Some answer lines want the virus and some want the disease, so saying just “influenza” or “the flu” may only earn a prompt when the question asks for “this virus.” The common cold is a different illness, usually caused by rhinoviruses, and a stomach bug is not the flu at all. One bacterium also carries a misleading name left over from the days when many scientists wrongly believed a bacterium caused the flu.",
     "fix": "“This virus” or “these viruses” with eight RNA segments, hemagglutinin and neuraminidase spikes, or antigenic drift means the influenza virus. If a question asks for “this disease,” answer influenza, and be ready to add “virus” if you get a prompt.",
-    "line": "Real answer line: <b><u>Influenza virus</u></b> (accept <u>flu virus</u> or <u>Orthomyxoviridae</u>; prompt on <u>influenza</u> or <u>the flu</u> by asking for the virus; do not accept “coronavirus” or “common cold”)"
+    "line": "Real answer line: <b><u>Influenza virus</u></b> (accept <u>flu virus</u> or <u>Orthomyxoviridae</u>; prompt on <u>influenza</u>, <u>the flu</u>, or a specific strain such as <u>H1N1</u> by asking for the virus; do not accept “coronavirus” or “common cold”)"
   },
   "tests": {
     "right": [
@@ -436,7 +439,9 @@
       "Influenza",
       "the flu",
       "H1N1",
-      "Virus"
+      "Virus",
+      "Bird flu",
+      "H1N1 virus"
     ],
     "wrong": [
       "Coronavirus",

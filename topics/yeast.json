@@ -52,8 +52,7 @@
     "fermentation",
     "ethanol",
     "baking soda",
-    "baking powder",
-    "sourdough"
+    "baking powder"
   ],
   "media": [],
   "mediaPending": true,
@@ -101,7 +100,7 @@
       "r": "This kind of reproduction is called budding. For 10 points, name these single-celled fungi that release carbon dioxide to make bread rise."
     },
     {
-      "p": "Under stress, cells of the baker’s species of these organisms can undergo meiosis and form four spores inside a sac called an ascus [“ASS-kus”], so that species is classified as a sac fungus. Their cell walls are built mostly from sugar chains called glucans, with a smaller amount of chitin.",
+      "p": "Under stress, cells of the baker’s species of these organisms can undergo meiosis and form four spores inside a sac called an ascus [“AS-kus”], so that species is classified as a sac fungus. Their cell walls are built mostly from sugar chains called glucans, with a smaller amount of chitin.",
       "r": "Bakers often buy them as dry granules in small packets. For 10 points, name these single-celled fungi that make bread dough rise."
     },
     {
@@ -109,7 +108,7 @@
       "r": "Like human cells, they are eukaryotes with a nucleus. For 10 points, name these single-celled fungi used in baking."
     },
     {
-      "p": "Marmite, first made in 1902 in the English brewing town of Burton upon Trent, and Australia’s Vegemite are salty spreads made from extracts of these organisms left over from brewing. A flaky, deactivated form of these organisms is sold as a cheese-flavored topping.",
+      "p": "Marmite, first made in 1902 in the English brewing town of Burton upon Trent, and Australia’s Vegemite are salty spreads made from extracts of these organisms left over from brewing. A flaky, deactivated form of these organisms is sold as a cheesy-tasting topping.",
       "r": "They give off carbon dioxide gas. For 10 points, name these single-celled fungi that bakers use to make bread dough rise."
     },
     {
@@ -429,7 +428,8 @@
       "Saccharomyces cerevisiae",
       "Baker's yeast",
       "Yeest",
-      "Brewer’s yeast"
+      "Brewer’s yeast",
+      "Sourdough yeast"
     ],
     "prompt": [
       "Fungi",
