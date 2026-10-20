@@ -1,0 +1,332 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "bernie-sanders",
+    "name": "Bernie Sanders",
+    "mono": "BRS",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Independent senator from Vermont · Ran for president in 2016 and 2020",
+    "dates": "Born 1941; elected to the Senate in 2006",
+    "briefing": "Bernie Sanders grew up in Brooklyn, protested segregation as a college student in Chicago, and moved to Vermont, where he was elected mayor of Burlington in 1981 by just ten votes. He served in the U.S. House from 1991 to 2007 and was elected to the Senate in 2006, becoming the longest-serving independent in the history of Congress. A self-described democratic socialist, he ran for the Democratic presidential nomination in 2016 and 2020.",
+    "answerHtml": "Bernie <b><u>Sanders</u></b> (accept Bernard <b><u>Sanders</u></b>; prompt on <u>Bernie</u>)",
+    "accept": [
+        "bernie sanders",
+        "sanders",
+        "bernard sanders",
+        "senator sanders",
+        "senator bernie sanders",
+        "bernard bernie sanders"
+    ],
+    "prompt": [
+        "bernie",
+        "bernard"
+    ],
+    "reject": [
+        "colonel sanders",
+        "harland sanders",
+        "barry sanders",
+        "deion sanders",
+        "sarah sanders",
+        "sarah huckabee sanders",
+        "huckabee sanders",
+        "jane sanders",
+        "larry sanders",
+        "bernie madoff",
+        "elizabeth warren",
+        "warren",
+        "hillary clinton",
+        "joe biden",
+        "alexandria ocasio cortez",
+        "patrick leahy",
+        "jim jeffords",
+        "larry david"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Bernie_Sanders",
+    "qb": {
+        "q": "Bernie Sanders",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This politician was elected mayor of Burlington by just ten votes in 1981, and he later recorded a folk album called _We Shall Overcome_ while serving in that job. He then won Vermont’s only seat in the U.S. House of Representatives in 1990.",
+            "r": "For 10 points, name this independent senator from Vermont who ran for president in 2016 and 2020."
+        },
+        {
+            "p": "As a student at the University of Chicago, this future politician joined the Congress of Racial Equality and was arrested in 1963 at a protest against school segregation. That summer, he also attended the March on Washington.",
+            "r": "Decades later, he represented Vermont in Congress. For 10 points, name this self-described democratic socialist who ran for president in 2016."
+        },
+        {
+            "p": "In the 1970s, this politician ran unsuccessfully for governor and for U.S. senator as a candidate of the Liberty Union Party, a small third party in Vermont. In 1991, he helped found the Congressional Progressive Caucus.",
+            "r": "He later became the longest-serving independent in the history of Congress. For 10 points, name this senator from Vermont."
+        },
+        {
+            "p": "In December 2010, this senator spoke on the Senate floor for more than eight hours against a deal to extend tax cuts first passed under George W. Bush, and the speech was later published as a book. He had won his Senate seat in 2006, replacing the retiring Jim Jeffords.",
+            "r": "For 10 points, name this independent from Vermont who ran for the Democratic presidential nomination in 2016."
+        },
+        {
+            "p": "As chair of the Senate Veterans’ Affairs Committee, this senator worked with John McCain on a 2014 law that let some veterans see private doctors when Veterans Affairs hospitals had long waits. From 2023 to 2025, he chaired the Senate committee on health, education, labor, and pensions.",
+            "r": "For 10 points, name this Vermont senator who sought the Democratic nomination for president in 2016 and 2020."
+        },
+        {
+            "p": "In February 2016, this son of a Jewish immigrant from Poland became the first Jewish candidate to win a U.S. presidential primary, beating his main rival in New Hampshire by more than twenty percentage points.",
+            "r": "His supporters used the slogan “Feel the Bern.” For 10 points, name this Vermont senator who lost the 2016 Democratic nomination to Hillary Clinton."
+        },
+        {
+            "p": "The comedian Larry David played this politician on _Saturday Night Live_, and the PBS show _Finding Your Roots_ later revealed that the two men are distant cousins. Both men grew up in Brooklyn, New York.",
+            "r": "For 10 points, name this independent senator from Vermont who ran for president in 2016 and 2020."
+        },
+        {
+            "p": "At Joe Biden’s inauguration in 2021, a photo of this senator sitting with his arms and legs crossed in hand-knit mittens, made by a Vermont teacher, became a popular internet meme. He used the image to sell sweatshirts that raised money for charities in his state.",
+            "r": "For 10 points, name this Vermont senator who lost the 2020 Democratic nomination to Biden."
+        },
+        {
+            "p": "After his first presidential campaign, this politician wrote the book _Our Revolution_, which shares its name with a political group founded by his supporters. His second presidential campaign used the slogan “Not me. Us.”",
+            "r": "For 10 points, name this Vermont senator who sought the Democratic nomination in 2016 and 2020."
+        },
+        {
+            "p": "At the 2016 Democratic National Convention, this candidate asked that Hillary Clinton be nominated by acclamation, ending a primary race in which he had won more than twenty states. He then campaigned for her against Donald Trump.",
+            "r": "For 10 points, name this Vermont senator who also ran for president in 2020."
+        },
+        {
+            "p": "In 2020, this candidate won the most votes in the New Hampshire primary and won the Nevada caucuses, but he ended his campaign that April as his main rival built a large lead in delegates.",
+            "r": "He then endorsed that rival, Joe Biden. For 10 points, name this independent senator from Vermont."
+        },
+        {
+            "p": "This politician wrote about serving as an independent in Congress in the 1997 book _Outsider in the House_. When he won his first House race in 1990, he became the first independent elected to the House in about forty years.",
+            "r": "For 10 points, name this Vermont politician who later sought the Democratic presidential nomination twice."
+        },
+        {
+            "p": "As chair of the Senate Budget Committee from 2021 to 2023, this senator helped pass the American Rescue Plan, a COVID-19 relief law, through a process called budget reconciliation. Although he was elected as an independent, he has caucused with the Senate Democrats.",
+            "r": "For 10 points, name this Vermont senator who ran for president in 2016 and 2020."
+        },
+        {
+            "p": "This politician grew up in Brooklyn, New York, the son of a paint salesman who had immigrated from Poland, and he studied at Brooklyn College before transferring to the University of Chicago. In the late 1960s, he moved to Vermont.",
+            "r": "For 10 points, name this Vermont senator who called for “Medicare for All” in two runs for president."
+        },
+        {
+            "p": "During his 2016 campaign, this candidate often said that his average campaign donation was $27, and he relied on small donors instead of a super PAC. He called for overturning the _Citizens United_ decision, which allowed unlimited independent political spending by corporations.",
+            "r": "For 10 points, name this Vermont senator who lost the 2016 Democratic nomination to Hillary Clinton."
+        }
+    ],
+    "clues": [
+        {
+            "id": "vermont-senator",
+            "tier": "giveaway",
+            "t": "Independent U.S. senator from Vermont, first elected in 2006",
+            "k": ["vermont", "independent", "senator", "2006"],
+            "n": 0
+        },
+        {
+            "id": "presidential-runs",
+            "tier": "giveaway",
+            "t": "Sought the Democratic presidential nomination in 2016 (lost to Hillary Clinton) and 2020 (lost to Joe Biden)",
+            "k": ["hillary clinton", "joe biden", "2016", "2020"],
+            "n": 0,
+            "rabbit": "Hillary Clinton"
+        },
+        {
+            "id": "democratic-socialist",
+            "tier": "giveaway",
+            "t": "A self-described democratic socialist",
+            "k": ["democratic socialist", "socialist"],
+            "n": 0,
+            "rabbit": "Socialism"
+        },
+        {
+            "id": "medicare-for-all",
+            "tier": "giveaway",
+            "t": "His campaigns called for “Medicare for All” (one government health plan for everyone) and tuition-free public college",
+            "k": ["medicare for all", "tuition-free", "college"],
+            "n": 0
+        },
+        {
+            "id": "burlington",
+            "tier": "middle",
+            "t": "Mayor of Burlington, Vermont (1981–1989); won his first mayoral race by just ten votes",
+            "k": ["burlington", "mayor", "ten votes"],
+            "n": 0
+        },
+        {
+            "id": "house",
+            "tier": "middle",
+            "t": "Represented Vermont in the U.S. House (1991–2007); the longest-serving independent in the history of Congress",
+            "k": ["longest-serving independent", "house", "1991"],
+            "n": 0
+        },
+        {
+            "id": "brooklyn",
+            "tier": "middle",
+            "t": "Born in Brooklyn, New York (1941), the son of a Jewish immigrant from Poland",
+            "k": ["brooklyn", "poland", "1941"],
+            "n": 0
+        },
+        {
+            "id": "new-hampshire",
+            "tier": "middle",
+            "t": "Won the 2016 New Hampshire primary, becoming the first Jewish candidate to win a presidential primary",
+            "k": ["new hampshire", "jewish", "primary"],
+            "n": 0
+        },
+        {
+            "id": "slogans",
+            "tier": "middle",
+            "t": "Campaign slogans: “Feel the Bern” (2016) and “Not me. Us.” (2020)",
+            "k": ["feel the bern", "not me"],
+            "n": 0
+        },
+        {
+            "id": "mittens",
+            "tier": "middle",
+            "t": "A photo of him in hand-knit mittens at Joe Biden’s 2021 inauguration became a meme",
+            "k": ["mittens", "inauguration", "meme"],
+            "n": 0
+        },
+        {
+            "id": "civil-rights",
+            "tier": "middle",
+            "t": "At the University of Chicago, joined the Congress of Racial Equality, was arrested at a 1963 protest against school segregation, and attended the March on Washington",
+            "k": ["university of chicago", "congress of racial equality", "march on washington", "1963"],
+            "n": 0
+        },
+        {
+            "id": "liberty-union",
+            "tier": "power",
+            "t": "Lost races for governor and senator in the 1970s as a Liberty Union Party candidate",
+            "k": ["liberty union"],
+            "n": 0
+        },
+        {
+            "id": "progressive-caucus",
+            "tier": "power",
+            "t": "Helped found the Congressional Progressive Caucus (1991)",
+            "k": ["progressive caucus"],
+            "n": 0
+        },
+        {
+            "id": "the-speech",
+            "tier": "power",
+            "t": "Spoke for more than eight hours against a 2010 tax-cut deal; the speech became a book",
+            "k": ["eight hours", "tax-cut", "2010"],
+            "n": 0
+        },
+        {
+            "id": "jeffords",
+            "tier": "power",
+            "t": "Won the Senate seat of the retiring Jim Jeffords in 2006",
+            "k": ["jim jeffords", "jeffords"],
+            "n": 0
+        },
+        {
+            "id": "veterans",
+            "tier": "power",
+            "t": "As Veterans’ Affairs chair, worked with John McCain on a 2014 law on veterans’ health care",
+            "k": ["veterans", "john mccain", "2014"],
+            "n": 0
+        },
+        {
+            "id": "committees",
+            "tier": "power",
+            "t": "Chaired the Senate Budget Committee (2021–2023), helping pass the American Rescue Plan, then the HELP Committee (2023–2025)",
+            "k": ["budget committee", "american rescue plan", "help committee"],
+            "n": 0
+        },
+        {
+            "id": "album",
+            "tier": "power",
+            "t": "Recorded the folk album _We Shall Overcome_ (1987) while mayor",
+            "k": ["we shall overcome", "folk album"],
+            "n": 0
+        },
+        {
+            "id": "larry-david",
+            "tier": "power",
+            "t": "Larry David played him on _Saturday Night Live_; _Finding Your Roots_ showed that they are distant cousins",
+            "k": ["larry david", "saturday night live", "cousins"],
+            "n": 0
+        },
+        {
+            "id": "books",
+            "tier": "power",
+            "t": "Wrote _Outsider in the House_ (1997) and _Our Revolution_ (2016), also the name of a group his supporters founded",
+            "k": ["outsider in the house", "our revolution"],
+            "n": 0
+        },
+        {
+            "id": "first-independent",
+            "tier": "power",
+            "t": "In 1990, became the first independent elected to the U.S. House in about forty years",
+            "k": ["first independent", "forty years"],
+            "n": 0
+        },
+        {
+            "id": "small-donors",
+            "tier": "power",
+            "t": "Said his average 2016 donation was $27; relied on small donors instead of a super PAC and called for overturning _Citizens United_",
+            "k": ["$27", "small donors", "super pac", "citizens united"],
+            "n": 0
+        },
+        {
+            "id": "race-2020",
+            "tier": "power",
+            "t": "In 2020, won New Hampshire and Nevada, then ended his campaign in April and endorsed Joe Biden",
+            "k": ["nevada", "endorsed", "april"],
+            "n": 0
+        },
+        {
+            "id": "paint-salesman",
+            "tier": "power",
+            "t": "His father was a paint salesman; he went to Brooklyn College before the University of Chicago and moved to Vermont in the late 1960s",
+            "k": ["paint salesman", "brooklyn college"],
+            "n": 0
+        },
+        {
+            "id": "acclamation",
+            "tier": "power",
+            "t": "At the 2016 Democratic convention, asked that Hillary Clinton be nominated by acclamation, then campaigned for her",
+            "k": ["acclamation", "convention"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which progressive senator?",
+        "body": "Bernie Sanders and Elizabeth Warren were both senators who ran for the 2020 Democratic nomination and both supported “Medicare for All,” so policy clues can fit either one. Sanders is an independent from Vermont; Warren is a Democrat from Massachusetts and a former Harvard law professor who first proposed the Consumer Financial Protection Bureau. A different Sanders, Sarah Huckabee Sanders, was White House press secretary under Donald Trump and was elected governor of Arkansas in 2022.",
+        "fix": "Vermont, Burlington, the Liberty Union Party, or “democratic socialist” means Bernie Sanders. Massachusetts, Harvard Law, or the Consumer Financial Protection Bureau means Warren. Give the last name, because “Bernie” alone only earns a prompt.",
+        "line": "Real answer line: Bernie <b><u>Sanders</u></b> (accept Bernard <b><u>Sanders</u></b>)"
+    },
+    "tests": {
+        "right": [
+            "Bernie Sanders",
+            "Sanders",
+            "Bernard Sanders",
+            "Senator Bernie Sanders",
+            "Bernie Sander"
+        ],
+        "prompt": [
+            "Bernie"
+        ],
+        "wrong": [
+            "Colonel Sanders",
+            "Elizabeth Warren",
+            "Sarah Huckabee Sanders",
+            "Barry Sanders",
+            "Bernie Madoff",
+            "Hillary Clinton"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

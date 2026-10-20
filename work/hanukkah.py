@@ -1,0 +1,353 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>Hanukkah</u></b> (or <u>Chanukah</u>; accept <u>Feast of Dedication</u>; prompt on <u>Festival of Lights</u>)"
+
+data = {
+    "id": "hanukkah",
+    "name": "Hanukkah",
+    "mono": "HK",
+    "category": "Religion",
+    "qbCategory": "Religion",
+    "kicker": "Jewish Festival of Lights · Eight nights for the Temple’s rededication",
+    "dates": "Winter · begins the 25th of Kislev",
+    "briefing": "For eight nights each winter, Jewish families light one more candle on a nine-branched menorah until the whole lamp glows. Hanukkah remembers how the Maccabees, a band of Jewish rebels, won back the Temple in Jerusalem from the Seleucid Greeks in the 160s BCE and rededicated it. The Talmud tells of a single day’s oil that burned for eight days, so families eat foods fried in oil, like latkes and jelly doughnuts.",
+    "answerHtml": LINE,
+    "accept": [
+        "hanukkah",
+        "chanukah",
+        "hanukah",
+        "chanukkah",
+        "hannukah",
+        "hanukka",
+        "chanuka",
+        "feast of dedication",
+        "festival of dedication"
+    ],
+    "prompt": [
+        "festival of lights",
+        "jewish festival of lights"
+    ],
+    "reject": [
+        "purim",
+        "passover",
+        "pesach",
+        "sukkot",
+        "shavuot",
+        "yom kippur",
+        "rosh hashanah",
+        "simchat torah",
+        "tu bishvat",
+        "diwali",
+        "deepavali",
+        "christmas",
+        "kwanzaa",
+        "menorah",
+        "hanukkiah",
+        "hanukiah",
+        "chanukiah",
+        "chanukkiah",
+        "chanukiyah",
+        "hanukkiyah",
+        "dreidel",
+        "maccabees",
+        "maccabee",
+        "judah maccabee",
+        "hasmoneans",
+        "latkes",
+        "shamash",
+        "sabbath",
+        "shabbat"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Hanukkah",
+    "qb": {"q": "Hanukkah", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "The Talmud records that the school of Shammai [“SHAH-my”] wanted this holiday’s lights to start at eight and drop by one each night, while the school of Hillel wanted them to start at one and grow by one each night. Hillel’s view became the custom.",
+            "r": "Families add one candle to the menorah each night. For 10 points, name this eight-night Jewish Festival of Lights."
+        },
+        {
+            "p": "According to the Second Book of Maccabees, the first celebration of this holiday lasted eight days like the festival of Sukkot [“soo-KOHT”], because the rebels had been unable to celebrate Sukkot while hiding in the mountains and caves.",
+            "r": "The Talmud instead explains its length with a small jar of oil that burned for eight days. For 10 points, name this holiday."
+        },
+        {
+            "p": "George Frideric Handel wrote an oratorio about this holiday’s hero that includes the famous chorus “See, the Conquering Hero Comes.” That hero, whose nickname may mean “the Hammer,” led a revolt against the Seleucid [“sih-LOO-sid”] Empire.",
+            "r": "That hero was Judah Maccabee. For 10 points, name this holiday that celebrates the rededication of the Temple in Jerusalem."
+        },
+        {
+            "p": "The Seleucid king Antiochus IV [“an-TY-uh-kus”], who called himself Epiphanes [“ih-PIF-uh-neez”], or “God made manifest,” banned the Sabbath and set up an altar to Zeus in the Temple in Jerusalem, sparking the revolt that this holiday remembers.",
+            "r": "That revolt was led by the Maccabees. For 10 points, name this eight-day holiday, when families light a menorah."
+        },
+        {
+            "p": "In the village of Modiin [“moh-dee-EEN”], an elderly priest named Mattathias [“mat-uh-THY-us”] refused a royal order to offer a sacrifice to Greek gods and fled to the hills with his five sons, starting the revolt that this holiday celebrates.",
+            "r": "His son Judah Maccabee led the rebels to victory. For 10 points, name this Jewish Festival of Lights."
+        },
+        {
+            "p": "The four Hebrew letters on a toy used during this holiday, nun, gimel, hei [“HAY”], and shin, stand for the words “A great miracle happened there.” In Israel, the shin is replaced with pe [“PAY”], so the phrase means “A great miracle happened here.”",
+            "r": "That spinning top is called a dreidel. For 10 points, name this holiday when children often play for chocolate coins called gelt."
+        },
+        {
+            "p": "The Gospel of John says that Jesus walked in Solomon’s Porch at the Temple in Jerusalem during this festival, in winter, and people there asked him to tell them plainly whether he was the Messiah. This festival’s Hebrew name means “dedication.”",
+            "r": "It remembers how the Maccabees rededicated that Temple. For 10 points, name this holiday when families light candles for eight nights."
+        },
+        {
+            "p": "After lighting candles on this holiday, many families sing the hymn “Ma’oz Tzur” [“mah-OHZ TSOOR”], or “Rock of Ages,” and a prayer called “Al HaNissim” [“ahl hah-nee-SEEM”], meaning “For the Miracles,” is added to the daily prayers and to the blessing after meals.",
+            "r": "Many families also eat potato pancakes called latkes, fried in oil. For 10 points, name this eight-night Jewish holiday."
+        },
+        {
+            "p": "The Talmud teaches that this holiday’s lamp should be placed by a doorway or window facing the street to publicize the miracle. It says that when the Temple was retaken, only one small jar of oil was found that still had the high priest’s seal.",
+            "r": "That oil burned for eight days instead of one. For 10 points, name this holiday when Jews light a menorah."
+        },
+        {
+            "p": "On each night of this holiday, a helper candle called the shamash [“SHAH-mahsh”] is used to light the others. New candles are added from right to left, but they are lit from left to right, so the newest candle is always lit first.",
+            "r": "On the last night, all nine branches of the menorah glow. For 10 points, name this holiday."
+        },
+        {
+            "p": "The family that led the revolt remembered on this holiday founded the Hasmonean [“haz-moh-NEE-un”] dynasty, which ruled Judea until the Romans took control. That family’s most famous son defeated several Seleucid armies and then marched on Jerusalem.",
+            "r": "That son was Judah Maccabee. For 10 points, name this holiday that celebrates the Temple’s rededication with eight nights of candles."
+        },
+        {
+            "p": "The story behind this holiday is told in the First and Second Books of Maccabees, which appear in Catholic and Orthodox Bibles but are not part of the Hebrew Bible. Like Purim, this holiday is not commanded in the Torah, so work is allowed on it.",
+            "r": "For 10 points, name this holiday that celebrates the rededication of the Second Temple and the miracle of the oil."
+        },
+        {
+            "p": "This holiday begins on the 25th day of the Hebrew month of Kislev [“KISS-lev”] and ends in the month of Tevet [“TAY-vet”]. Its date on the regular calendar changes each year because Hebrew months follow the moon. Many people eat jelly doughnuts called sufganiyot [“soof-gahn-ee-YOHT”] during this holiday.",
+            "r": "Those doughnuts are fried in oil to recall a miracle in the Temple. For 10 points, name this Jewish holiday that usually falls in December."
+        },
+        {
+            "p": "Rome’s Arch of Titus shows soldiers carrying off the seven-branched lampstand from the ancient Temple, and a similar lampstand appears on the emblem of the State of Israel. The lamp lit during this holiday, however, has nine branches.",
+            "r": "That lamp, a menorah, holds eight candles plus a helper. For 10 points, name this holiday that remembers the Maccabees."
+        },
+        {
+            "p": "Each morning of this holiday, the Hallel [“hah-LAYL”] psalms of praise are recited in full, and the Torah reading describes the gifts that the tribal leaders brought to dedicate the Tabernacle in the wilderness, from the Book of Numbers.",
+            "r": "This holiday itself remembers the rededication of the Temple in Jerusalem. For 10 points, name this eight-day Jewish holiday."
+        }
+    ],
+    "clues": [
+        {
+            "id": "festival-of-lights",
+            "tier": "giveaway",
+            "t": "Jewish “Festival of Lights,” celebrated for eight nights, usually in December",
+            "k": ["festival of lights", "eight nights", "december"],
+            "n": 0
+        },
+        {
+            "id": "menorah",
+            "tier": "giveaway",
+            "t": "Families light a nine-branched menorah, adding one candle each night",
+            "k": ["menorah", "nine-branched", "candle"],
+            "n": 0
+        },
+        {
+            "id": "temple",
+            "tier": "giveaway",
+            "t": "Remembers the rededication of the Second Temple in Jerusalem after the Maccabees’ revolt, in the 160s BCE",
+            "k": ["rededication", "second temple", "maccabees"],
+            "n": 0,
+            "rabbit": "Jerusalem"
+        },
+        {
+            "id": "oil-miracle",
+            "tier": "giveaway",
+            "t": "The Talmud tells of one day’s worth of oil that burned for eight days",
+            "k": ["oil", "eight days", "miracle"],
+            "n": 0
+        },
+        {
+            "id": "dreidel",
+            "tier": "giveaway",
+            "t": "Children spin a four-sided top called a dreidel and win gelt (coins)",
+            "k": ["dreidel", "gelt", "top"],
+            "n": 0
+        },
+        {
+            "id": "judah-maccabee",
+            "tier": "middle",
+            "t": "Judah Maccabee, whose nickname may mean “the Hammer,” led the revolt; his family is called the Maccabees or Hasmoneans",
+            "k": ["judah maccabee", "hammer", "hasmoneans"],
+            "n": 0
+        },
+        {
+            "id": "antiochus",
+            "tier": "middle",
+            "t": "The Seleucid king Antiochus IV Epiphanes banned the Sabbath and set up an altar to Zeus in the Temple",
+            "k": ["antiochus", "seleucid", "zeus", "epiphanes"],
+            "n": 0
+        },
+        {
+            "id": "shamash",
+            "tier": "middle",
+            "t": "The shamash (“helper”) candle lights the other eight",
+            "k": ["shamash", "helper"],
+            "n": 0
+        },
+        {
+            "id": "dedication",
+            "tier": "middle",
+            "t": "Its Hebrew name means “dedication,” for the Temple’s rededication",
+            "k": ["dedication", "hebrew name"],
+            "n": 0
+        },
+        {
+            "id": "kislev",
+            "tier": "middle",
+            "t": "Begins on the 25th of Kislev and ends in Tevet; its date moves because Hebrew months follow the moon",
+            "k": ["kislev", "25th", "tevet"],
+            "n": 0
+        },
+        {
+            "id": "fried-foods",
+            "tier": "middle",
+            "t": "People eat foods fried in oil: latkes (potato pancakes) and sufganiyot (jelly doughnuts)",
+            "k": ["latkes", "sufganiyot", "fried", "doughnuts"],
+            "n": 0
+        },
+        {
+            "id": "dreidel-letters",
+            "tier": "middle",
+            "t": "Dreidel letters nun, gimel, hei, shin mean “A great miracle happened there”; Israel uses pe, for “here”",
+            "k": ["nun", "gimel", "great miracle happened"],
+            "n": 0
+        },
+        {
+            "id": "mattathias",
+            "tier": "middle",
+            "t": "The priest Mattathias of Modiin refused to sacrifice to Greek gods and began the revolt with his five sons",
+            "k": ["mattathias", "modiin", "five sons"],
+            "n": 0
+        },
+        {
+            "id": "minor-holiday",
+            "tier": "middle",
+            "t": "Like Purim, it is not commanded in the Torah, so work is allowed on it",
+            "k": ["not commanded", "purim", "work"],
+            "n": 0,
+            "rabbit": "Purim"
+        },
+        {
+            "id": "maccabees-books",
+            "tier": "power",
+            "t": "Its story is told in 1 and 2 Maccabees, found in Catholic and Orthodox Bibles but not in the Hebrew Bible",
+            "k": ["1 and 2 maccabees", "catholic", "orthodox"],
+            "n": 0
+        },
+        {
+            "id": "hillel-shammai",
+            "tier": "power",
+            "t": "Talmud: Shammai’s school said start with eight lights and go down; Hillel’s school said start with one and add one, which became the custom",
+            "k": ["hillel", "shammai"],
+            "n": 0
+        },
+        {
+            "id": "sukkot",
+            "tier": "power",
+            "t": "2 Maccabees says the first celebration lasted eight days, like Sukkot, which the rebels had missed while hiding in caves",
+            "k": ["sukkot", "caves", "2 maccabees"],
+            "n": 0
+        },
+        {
+            "id": "handel",
+            "tier": "power",
+            "t": "Handel’s oratorio _Judas Maccabaeus_ includes the chorus “See, the Conquering Hero Comes”",
+            "k": ["handel", "judas maccabaeus", "conquering hero", "oratorio"],
+            "n": 0
+        },
+        {
+            "id": "john-gospel",
+            "tier": "power",
+            "t": "John’s Gospel says Jesus walked in Solomon’s Porch at the Temple in winter during this festival",
+            "k": ["john", "solomons porch", "winter"],
+            "n": 0
+        },
+        {
+            "id": "maoz-tzur",
+            "tier": "power",
+            "t": "Families sing “Ma’oz Tzur” (“Rock of Ages”); “Al HaNissim” (“For the Miracles”) is added to prayers",
+            "k": ["maoz tzur", "rock of ages", "al hanissim"],
+            "n": 0
+        },
+        {
+            "id": "window",
+            "tier": "power",
+            "t": "The lamp is placed by a door or window facing the street to “publicize the miracle”",
+            "k": ["window", "publicize the miracle", "pirsumei nisa"],
+            "n": 0
+        },
+        {
+            "id": "seal",
+            "tier": "power",
+            "t": "According to the Talmud, only one jar of oil still had the high priest’s seal",
+            "k": ["high priest", "seal", "jar"],
+            "n": 0
+        },
+        {
+            "id": "right-to-left",
+            "tier": "power",
+            "t": "Candles are added from right to left but lit from left to right, newest first",
+            "k": ["right to left", "left to right", "newest"],
+            "n": 0
+        },
+        {
+            "id": "hasmonean",
+            "tier": "power",
+            "t": "The Maccabees founded the Hasmonean dynasty, which ruled Judea until the Romans took control",
+            "k": ["hasmonean", "dynasty", "romans"],
+            "n": 0
+        },
+        {
+            "id": "arch-of-titus",
+            "tier": "power",
+            "t": "Rome’s Arch of Titus and Israel’s emblem show the Temple’s seven-branched lampstand; the holiday lamp has nine branches",
+            "k": ["arch of titus", "seven-branched", "emblem"],
+            "n": 0
+        },
+        {
+            "id": "hallel",
+            "tier": "power",
+            "t": "Hallel psalms are said each morning; the Torah reading (Numbers 7) tells of gifts to dedicate the Tabernacle",
+            "k": ["hallel", "numbers 7", "tabernacle"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Two Festivals of Lights",
+        "body": "Hanukkah and the Hindu holiday Diwali are both nicknamed the “Festival of Lights,” so that nickname earns only a prompt. Players also blurt “Maccabees” or “menorah,” which name the heroes and the lamp, not the holiday. Purim is the other trap: it is also a minor holiday about Jews surviving a foreign kingdom’s threat, but its story comes from the Book of Esther.",
+        "fix": "Say “Hanukkah” (or “Chanukah”). The Maccabees, Antiochus, the Temple’s rededication, the shamash, and dreidels mean Hanukkah; Esther, Haman, and the Megillah mean Purim; diyas, Lakshmi, and Rama mean Diwali.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Hanukkah",
+            "Chanukah",
+            "Hanukah",
+            "Chanukkah",
+            "Hanuka",
+            "Feast of Dedication"
+        ],
+        "prompt": [
+            "Festival of Lights",
+            "the Jewish Festival of Lights"
+        ],
+        "wrong": [
+            "Purim",
+            "Passover",
+            "Diwali",
+            "Menorah",
+            "Maccabees",
+            "Hanukkiah",
+            "Sukkot"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

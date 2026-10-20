@@ -1,0 +1,450 @@
+{
+  "id": "grover-cleveland",
+  "name": "Grover Cleveland",
+  "mono": "GC",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "22nd and 24th U.S. President · First to serve two non-consecutive terms",
+  "dates": "1837–1908",
+  "briefing": "Grover Cleveland is counted twice in the list of presidents: he was the 22nd president, lost the 1888 election, and then won again to become the 24th, the first president to serve two non-consecutive terms. A stubborn New York Democrat who vetoed hundreds of bills, he married 21-year-old Frances Folsom in the White House and once had secret surgery on a yacht so the country would not panic.",
+  "answerHtml": "Grover <b><u>Cleveland</u></b> (or Stephen Grover <b><u>Cleveland</u></b>)",
+  "accept": [
+    "grover cleveland",
+    "cleveland",
+    "stephen grover cleveland",
+    "s grover cleveland",
+    "president cleveland",
+    "president grover cleveland"
+  ],
+  "prompt": [],
+  "reject": [
+    "benjamin harrison",
+    "william henry harrison",
+    "harrison",
+    "james g blaine",
+    "james blaine",
+    "blaine",
+    "frances cleveland",
+    "frances folsom",
+    "frances folsom cleveland",
+    "ruth cleveland",
+    "esther cleveland",
+    "baby ruth",
+    "cleveland ohio",
+    "chester arthur",
+    "chester a arthur",
+    "william mckinley",
+    "mckinley",
+    "donald trump",
+    "trump",
+    "adlai stevenson",
+    "thomas hendricks",
+    "john peter altgeld",
+    "altgeld",
+    "eugene debs",
+    "tammany hall"
+  ],
+  "tests": {
+    "right": [
+      "Grover Cleveland",
+      "Cleveland",
+      "Stephen Grover Cleveland",
+      "President Cleveland",
+      "Grover Clevland"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Benjamin Harrison",
+      "William Henry Harrison",
+      "James G. Blaine",
+      "Frances Folsom",
+      "Chester A. Arthur",
+      "William McKinley",
+      "Donald Trump"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Grover_Cleveland",
+  "qb": {
+    "q": "Grover Cleveland",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This president vetoed a bill to spend ten thousand dollars on seed for drought-stricken farmers in Texas, writing that “though the people support the Government, the Government should not support the people.” He also vetoed hundreds of private pension bills for Civil War veterans.",
+      "r": "For 10 points, name this Democrat from New York who served as both the 22nd and 24th president."
+    },
+    {
+      "p": "In 1893, this president secretly had a tumor removed from the roof of his mouth during an operation aboard the yacht _Oneida_, and the public did not learn the truth until 1917. He kept it quiet because the country was already in a financial panic.",
+      "r": "That Panic of 1893 hurt his second term, which began four years after his first ended. For 10 points, name this president who served two non-consecutive terms."
+    },
+    {
+      "p": "A California Republican pretending to be a British-born voter named Charles Murchison tricked the British minister, Lionel Sackville-West, into writing a letter that favored this man in the 1888 election. Newspapers printed the letter, which hurt this man with Irish American voters.",
+      "r": "He lost that election to Benjamin Harrison but beat Harrison four years later. For 10 points, name this 22nd and 24th president."
+    },
+    {
+      "p": "Illinois Governor John Peter Altgeld protested when this president sent federal troops into Chicago in 1894, saying they were needed to keep the U.S. mail moving. That action helped break a nationwide railroad boycott led by Eugene Debs’s American Railway Union.",
+      "r": "That conflict was the Pullman Strike. For 10 points, name this president, the first to serve two non-consecutive terms."
+    },
+    {
+      "p": "After a group led by American businessmen and planters overthrew Queen Liliuokalani [“lih-lee-oo-oh-kuh-LAH-nee”], this president sent James Blount to investigate, withdrew a treaty to annex Hawaii, and called for the queen to be restored. Hawaii was not annexed until William McKinley’s presidency.",
+      "r": "For 10 points, name this Democrat who was president from 1885 to 1889 and again from 1893 to 1897."
+    },
+    {
+      "p": "During a boundary dispute between Venezuela and British Guiana, this president’s Secretary of State, Richard Olney, claimed that under the Monroe Doctrine the United States was “practically sovereign” on its continent. Britain finally agreed to settle the dispute through arbitration.",
+      "r": "For 10 points, name this president who served two non-consecutive terms, from 1885 to 1889 and from 1893 to 1897."
+    },
+    {
+      "p": "In 1887, this president signed the Interstate Commerce Act, which set up the first federal agency to regulate railroads, and the Dawes Act, which divided reservation land into plots for individual Native American families. That same year, he vetoed the Dependent Pension Bill.",
+      "r": "He later became the first president to serve two non-consecutive terms. For 10 points, name this Democrat from New York."
+    },
+    {
+      "p": "At a meeting of ministers supporting this man’s opponent, Samuel Burchard called the Democrats the party of “Rum, Romanism, and Rebellion,” angering Irish Catholic voters in New York. Reform-minded Republicans nicknamed Mugwumps also crossed party lines to back this man.",
+      "r": "He narrowly beat James G. Blaine in the election of 1884. For 10 points, name this Democrat who later lost to Benjamin Harrison and then beat him."
+    },
+    {
+      "p": "To stop gold from draining out of the Treasury, this president called Congress into a special session that repealed the Sherman Silver Purchase Act, and he later made a deal in which J. P. Morgan’s bankers supplied the government with gold. Those moves angered silver supporters in his own party.",
+      "r": "In 1896, that party turned to William Jennings Bryan and “free silver.” For 10 points, name this president during the Panic of 1893."
+    },
+    {
+      "p": "At a ceremony in New York Harbor in October 1886, this president accepted a gift from France, promising that “we will not forget that Liberty has here made her home.” Earlier that year, he had married Frances Folsom in the Blue Room of the White House.",
+      "r": "He served as the 22nd president and, after a four-year break, as the 24th. For 10 points, name this Democrat."
+    },
+    {
+      "p": "This president devoted his entire 1887 annual message to Congress to one issue, calling for lower tariffs, which made tariffs the main issue of the next election. In that election, he won more popular votes than his opponent but lost in the Electoral College.",
+      "r": "Four years later, he beat that opponent, Benjamin Harrison. For 10 points, name this 22nd and 24th president."
+    },
+    {
+      "p": "This man’s motto was “A public office is a public trust,” and he earned the nickname “the veto mayor” for blocking wasteful spending in Buffalo. As governor of New York, he angered the Tammany Hall political machine. His first vice president, Thomas Hendricks, died after less than a year in office.",
+      "r": "For 10 points, name this New York Democrat who was elected president in 1884 and again in 1892."
+    },
+    {
+      "p": "During this president’s second term, Jacob Coxey led an “army” of unemployed workers on a march to Washington, D.C., and a tariff law that included an income tax became law without his signature. The Supreme Court struck down that income tax in 1895.",
+      "r": "For 10 points, name this president during the Panic of 1893, who had first held the office from 1885 to 1889."
+    },
+    {
+      "p": "The company that made the Baby Ruth candy bar claimed it was named for this president’s daughter Ruth, who was born in 1891. His wife, Frances Folsom, was just 21 when they married, making her the youngest First Lady.",
+      "r": "For 10 points, name this president who married in the White House and served as the 22nd and 24th president."
+    },
+    {
+      "p": "Born in Caldwell, New Jersey, this man spent his last years in Princeton, where he served as a trustee of the university, and his last words were reportedly “I have tried so hard to do right.” His portrait appeared on the $1,000 bill.",
+      "r": "For 10 points, name this Democrat who lost the 1888 election to Benjamin Harrison but returned to the White House four years later."
+    }
+  ],
+  "clues": [
+    {
+      "id": "twenty-second",
+      "tier": "giveaway",
+      "t": "Both the 22nd and the 24th President of the United States, a Democrat",
+      "k": [
+        "22nd",
+        "24th"
+      ],
+      "n": 0
+    },
+    {
+      "id": "non-consecutive",
+      "tier": "giveaway",
+      "t": "First president to serve two non-consecutive terms (1885–1889 and 1893–1897)",
+      "k": [
+        "non-consecutive",
+        "two terms",
+        "1885"
+      ],
+      "n": 0
+    },
+    {
+      "id": "harrison",
+      "tier": "giveaway",
+      "t": "Lost the 1888 election to Benjamin Harrison, then beat him in 1892",
+      "k": [
+        "benjamin harrison",
+        "harrison",
+        "1888",
+        "1892"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wedding",
+      "tier": "middle",
+      "t": "Married Frances Folsom in the White House’s Blue Room (1886); at 21, she was the youngest First Lady",
+      "k": [
+        "frances folsom",
+        "folsom",
+        "blue room",
+        "youngest first lady"
+      ],
+      "n": 0
+    },
+    {
+      "id": "new-york",
+      "tier": "middle",
+      "t": "A Democrat who was mayor of Buffalo and then governor of New York before becoming president",
+      "k": [
+        "buffalo",
+        "governor of new york",
+        "mayor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "election-1884",
+      "tier": "middle",
+      "t": "Beat James G. Blaine in 1884, becoming the first Democrat elected president after the Civil War",
+      "k": [
+        "james g. blaine",
+        "blaine",
+        "1884",
+        "first democrat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vetoes",
+      "tier": "middle",
+      "t": "Vetoed hundreds of bills, including many private pension bills for Civil War veterans and the Dependent Pension Bill (1887)",
+      "k": [
+        "vetoed",
+        "pension",
+        "veto"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pullman",
+      "tier": "middle",
+      "t": "Sent federal troops to break the Pullman Strike (1894), over the protests of Illinois Governor John Peter Altgeld",
+      "k": [
+        "pullman",
+        "altgeld",
+        "federal troops"
+      ],
+      "n": 0,
+      "rabbit": "Pullman Strike"
+    },
+    {
+      "id": "panic-1893",
+      "tier": "middle",
+      "t": "His second term began with the Panic of 1893, a severe economic depression",
+      "k": [
+        "panic of 1893",
+        "depression"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gold",
+      "tier": "middle",
+      "t": "Defended the gold standard and got the Sherman Silver Purchase Act repealed; in 1896 his party turned to William Jennings Bryan",
+      "k": [
+        "gold standard",
+        "sherman silver purchase",
+        "bryan"
+      ],
+      "n": 0,
+      "rabbit": "William Jennings Bryan"
+    },
+    {
+      "id": "hawaii",
+      "tier": "middle",
+      "t": "Withdrew a treaty to annex Hawaii and called for Queen Liliuokalani to be restored to her throne",
+      "k": [
+        "hawaii",
+        "liliuokalani",
+        "annex"
+      ],
+      "n": 0
+    },
+    {
+      "id": "statue",
+      "tier": "middle",
+      "t": "Accepted the Statue of Liberty at its dedication in October 1886",
+      "k": [
+        "statue of liberty",
+        "1886"
+      ],
+      "n": 0,
+      "rabbit": "Statue of Liberty"
+    },
+    {
+      "id": "tariff",
+      "tier": "middle",
+      "t": "Devoted his whole 1887 annual message to Congress to lowering the tariff, the main issue of the 1888 election",
+      "k": [
+        "tariff",
+        "annual message",
+        "1887"
+      ],
+      "n": 0
+    },
+    {
+      "id": "texas-seed",
+      "tier": "power",
+      "t": "Vetoed the Texas Seed Bill (1887): “though the people support the Government, the Government should not support the people”",
+      "k": [
+        "texas seed",
+        "seed bill",
+        "support the people"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oneida",
+      "tier": "power",
+      "t": "Had a tumor secretly removed from his mouth aboard the yacht _Oneida_ (1893); the public learned about it in 1917",
+      "k": [
+        "oneida",
+        "yacht",
+        "tumor",
+        "secretly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "icc-dawes",
+      "tier": "power",
+      "t": "Signed the Interstate Commerce Act, which regulated railroads, and the Dawes Act, which split up reservation land (both 1887)",
+      "k": [
+        "interstate commerce",
+        "dawes act",
+        "dawes",
+        "railroads"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mugwumps",
+      "tier": "power",
+      "t": "Reform Republicans called Mugwumps backed him in 1884; Samuel Burchard’s “Rum, Romanism, and Rebellion” remark hurt Blaine",
+      "k": [
+        "mugwumps",
+        "mugwump",
+        "romanism",
+        "burchard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "murchison",
+      "tier": "power",
+      "t": "Murchison letter (1888): a trick got British minister Lionel Sackville-West to favor him in writing, costing him Irish American votes",
+      "k": [
+        "murchison",
+        "sackville-west"
+      ],
+      "n": 0
+    },
+    {
+      "id": "olney",
+      "tier": "power",
+      "t": "Venezuela boundary crisis (1895): Secretary of State Richard Olney said the U.S. was “practically sovereign” on its continent",
+      "k": [
+        "olney",
+        "venezuela",
+        "practically sovereign"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morgan",
+      "tier": "power",
+      "t": "J. P. Morgan’s bankers helped refill the Treasury’s gold reserve (1895)",
+      "k": [
+        "j. p. morgan",
+        "morgan",
+        "gold reserve"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coxey",
+      "tier": "power",
+      "t": "Coxey’s Army of unemployed workers marched on Washington, D.C., in 1894",
+      "k": [
+        "coxey",
+        "unemployed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wilson-gorman",
+      "tier": "power",
+      "t": "The Wilson–Gorman Tariff (1894), which included an income tax, became law without his signature",
+      "k": [
+        "wilson–gorman",
+        "wilson-gorman",
+        "income tax",
+        "without his signature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "public-trust",
+      "tier": "power",
+      "t": "Motto: “A public office is a public trust”; known as “the veto mayor” of Buffalo; clashed with Tammany Hall",
+      "k": [
+        "public trust",
+        "veto mayor",
+        "tammany"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hendricks",
+      "tier": "power",
+      "t": "First vice president, Thomas Hendricks, died in 1885; Adlai Stevenson was his vice president in the second term",
+      "k": [
+        "hendricks",
+        "adlai stevenson",
+        "stevenson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "baby-ruth",
+      "tier": "power",
+      "t": "The maker of the Baby Ruth candy bar claimed it was named for his daughter Ruth, born in 1891",
+      "k": [
+        "baby ruth",
+        "candy bar",
+        "ruth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "princeton",
+      "tier": "power",
+      "t": "Born in Caldwell, New Jersey; retired to Princeton; last words reportedly “I have tried so hard to do right”",
+      "k": [
+        "caldwell",
+        "princeton",
+        "tried so hard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thousand",
+      "tier": "power",
+      "t": "His portrait appeared on the $1,000 bill",
+      "k": [
+        "$1,000",
+        "1,000 bill",
+        "thousand"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Two terms, two numbers",
+    "body": "Grover Cleveland was both the 22nd and the 24th president, so a question can call him either number. Benjamin Harrison, the 23rd president, served between Cleveland’s two terms, beating him in 1888 and losing to him in 1892, so their clues get tangled. Since January 2025, Donald Trump, the 45th and 47th president, has also held the office for two non-consecutive terms, so that fact alone no longer points to just one man.",
+    "fix": "Cleveland clues: Buffalo, the Texas Seed Bill veto, the White House wedding, the Pullman Strike, the Panic of 1893, and Queen Liliuokalani. Harrison clues: the McKinley Tariff, the Sherman Antitrust Act, and the Sherman Silver Purchase Act, which Cleveland got repealed. Don’t confuse Benjamin Harrison with his grandfather, William Henry Harrison.",
+    "line": "Real answer line: Grover <b><u>Cleveland</u></b> (or Stephen Grover <b><u>Cleveland</u></b>)"
+  }
+}

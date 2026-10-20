@@ -1,0 +1,457 @@
+{
+  "id": "james-madison",
+  "name": "James Madison",
+  "mono": "JM",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "4th U.S. President · Father of the Constitution and the Bill of Rights",
+  "dates": "1751–1836",
+  "briefing": "James Madison was the shortest president, about 5 feet 4 inches tall, but few Americans did more to shape the country. Called the “Father of the Constitution,” he drew up the Virginia Plan, wrote 29 of _The Federalist Papers_ to defend the new Constitution, and wrote the amendments that became the Bill of Rights. As the 4th president, he led the nation through the War of 1812, when the British burned Washington, D.C.",
+  "answerHtml": "James <b><u>Madison</u></b>",
+  "accept": [
+    "james madison",
+    "madison",
+    "president madison",
+    "president james madison",
+    "james madison jr"
+  ],
+  "prompt": [],
+  "reject": [
+    "dolley madison",
+    "dolly madison",
+    "dolley payne madison",
+    "dolley payne todd",
+    "marbury v madison",
+    "marbury versus madison",
+    "marbury",
+    "james monroe",
+    "monroe",
+    "thomas jefferson",
+    "jefferson",
+    "alexander hamilton",
+    "hamilton",
+    "john jay",
+    "elbridge gerry",
+    "george clinton",
+    "edmund randolph",
+    "madison square garden",
+    "madison wisconsin",
+    "james madison university"
+  ],
+  "tests": {
+    "right": [
+      "James Madison",
+      "Madison",
+      "President Madison",
+      "James Madisen",
+      "James Madison Jr."
+    ],
+    "prompt": [],
+    "wrong": [
+      "James Monroe",
+      "Thomas Jefferson",
+      "Dolley Madison",
+      "Marbury v. Madison",
+      "Alexander Hamilton",
+      "John Jay",
+      "Elbridge Gerry"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/James_Madison",
+  "qb": {
+    "q": "James Madison",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "An amendment this man proposed in 1789, saying that a law changing Congress’s pay cannot take effect until after the next election, was finally ratified in 1992 as the 27th Amendment. It was one of twelve amendments that Congress sent to the states in 1789.",
+      "r": "For 10 points, name this “Father of the Constitution” who later served as the fourth president of the United States."
+    },
+    {
+      "p": "In 1789, this man beat future president James Monroe in a race for a seat in the first House of Representatives after he promised voters he would support amendments to the new Constitution. Earlier, he had doubted such amendments would help, calling lists of rights “parchment barriers.”",
+      "r": "He then drafted the amendments that became the Bill of Rights. For 10 points, name this Virginian who became the fourth president."
+    },
+    {
+      "p": "In one essay, this author argued that a large republic is the best cure for “the mischiefs of faction.” In another, he wrote that “if men were angels, no government would be necessary” and that “ambition must be made to counteract ambition.”",
+      "r": "Those essays were _Federalist_ No. 10 and No. 51. For 10 points, name this co-author of _The Federalist Papers_ who became the fourth president."
+    },
+    {
+      "p": "This delegate’s careful notes are the most complete record of the debates at the Constitutional Convention, but they were not published until 1840, after his death. At that convention, Edmund Randolph presented a plan this man had largely drafted, which based representation in Congress on population.",
+      "r": "That plan was the Virginia Plan. For 10 points, name this Virginian known as the “Father of the Constitution.”"
+    },
+    {
+      "p": "Both of this president’s vice presidents died in office: George Clinton in 1812, and Elbridge Gerry, whose name lives on in the word “gerrymander,” in 1814. This president lived and is buried at Montpelier, his family’s plantation in Virginia.",
+      "r": "For 10 points, name this fourth president, who led the country during the War of 1812."
+    },
+    {
+      "p": "Just before leaving office in 1817, this president vetoed John C. Calhoun’s Bonus Bill, which would have paid for roads and canals, because he believed the Constitution did not allow it. A year earlier, he had signed a charter for the Second Bank of the United States.",
+      "r": "For 10 points, name this president who had earlier drafted the amendments that became the Bill of Rights."
+    },
+    {
+      "p": "In February 1815, this president signed a peace treaty into effect at the Octagon House, a Washington mansion where he and his wife lived while the White House was being rebuilt. That treaty had been signed on Christmas Eve, 1814, by negotiators including Henry Clay and John Quincy Adams.",
+      "r": "Federalists had nicknamed the war that treaty ended after this president. For 10 points, name this president during the War of 1812."
+    },
+    {
+      "p": "Paul Jennings, a man this president enslaved who served him in the White House, later wrote a short book about him that is often called the first White House memoir. Jennings later gained his freedom with help from Senator Daniel Webster.",
+      "r": "This president’s wife, Dolley, had a portrait of George Washington rescued when the British burned the White House. For 10 points, name this fourth president."
+    },
+    {
+      "p": "In 1785, this man’s “Memorial and Remonstrance” argued against a Virginia tax to support teachers of the Christian religion. He then got the Virginia Statute for Religious Freedom passed in 1786 while its author, Thomas Jefferson, was in France.",
+      "r": "For 10 points, name this Virginian who later wrote the Bill of Rights, including the First Amendment."
+    },
+    {
+      "p": "This man secretly wrote resolutions passed by Virginia’s legislature in 1798 to protest the Alien and Sedition Acts, while his partner Thomas Jefferson wrote a similar set for Kentucky. The two men had founded the Democratic-Republican Party together.",
+      "r": "This man later served as Jefferson’s Secretary of State. For 10 points, name this man who succeeded Jefferson as president."
+    },
+    {
+      "p": "At a 1790 dinner hosted by Thomas Jefferson, this congressman agreed to let Alexander Hamilton’s debt plan pass in exchange for placing the national capital on the Potomac River. The next year, he argued in Congress that Hamilton’s national bank was unconstitutional.",
+      "r": "For 10 points, name this Virginia congressman who drafted the Bill of Rights and later became the fourth president."
+    },
+    {
+      "p": "This man, who graduated from the College of New Jersey, now Princeton, was the shortest president, at about five feet four inches tall. At college, he studied under John Witherspoon, a future signer of the Declaration of Independence. His portrait appeared on the $5,000 bill.",
+      "r": "For 10 points, name this fourth president, the husband of Dolley and the main author of the Bill of Rights."
+    },
+    {
+      "p": "In 1809, this man reopened trade with Britain after its minister David Erskine promised that British limits on American shipping would end, but the British government rejected Erskine’s deal. Three years later, this president’s war message to Congress listed the impressment of American sailors among his complaints.",
+      "r": "For 10 points, name this fourth president, who led the United States in the War of 1812."
+    },
+    {
+      "p": "This man was the last surviving signer of the Constitution when he died in 1836. Years earlier, he had joined Alexander Hamilton at the Annapolis Convention, which called for a larger meeting in Philadelphia to fix the Articles of Confederation.",
+      "r": "For 10 points, name this Virginian known as the “Father of the Constitution,” who became the fourth president."
+    },
+    {
+      "p": "In 1810, Congress passed Macon’s Bill No. 2, and Napoleon then fooled this president into cutting off trade with Britain by pretending to drop France’s own limits on American ships. Later, New England Federalists who opposed this president’s war met at the Hartford Convention.",
+      "r": "For 10 points, name this president who asked Congress to declare war on Britain in 1812."
+    }
+  ],
+  "clues": [
+    {
+      "id": "fourth-president",
+      "tier": "giveaway",
+      "t": "4th President (1809–1817), after Thomas Jefferson and before James Monroe",
+      "k": [
+        "4th president",
+        "fourth",
+        "1809"
+      ],
+      "n": 0
+    },
+    {
+      "id": "father-constitution",
+      "tier": "giveaway",
+      "t": "Known as the “Father of the Constitution”",
+      "k": [
+        "father of the constitution",
+        "constitution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bill-of-rights",
+      "tier": "giveaway",
+      "t": "Drafted the amendments that became the Bill of Rights and steered them through the First Congress (1789)",
+      "k": [
+        "bill of rights",
+        "first congress",
+        "amendments"
+      ],
+      "n": 0,
+      "rabbit": "Bill of Rights"
+    },
+    {
+      "id": "war-of-1812",
+      "tier": "giveaway",
+      "t": "President during the War of 1812, when the British burned Washington, D.C. (1814)",
+      "k": [
+        "war of 1812",
+        "burned",
+        "1814"
+      ],
+      "n": 0,
+      "rabbit": "War of 1812"
+    },
+    {
+      "id": "dolley",
+      "tier": "giveaway",
+      "t": "Husband of Dolley, a famous hostess who had George Washington’s portrait saved from the burning White House",
+      "k": [
+        "dolley",
+        "portrait",
+        "hostess"
+      ],
+      "n": 0
+    },
+    {
+      "id": "federalist-papers",
+      "tier": "middle",
+      "t": "Wrote 29 of the 85 essays in _The Federalist Papers_, with Alexander Hamilton and John Jay, all signed “Publius”",
+      "k": [
+        "federalist papers",
+        "publius",
+        "29"
+      ],
+      "n": 0,
+      "rabbit": "The Federalist Papers"
+    },
+    {
+      "id": "virginia-plan",
+      "tier": "middle",
+      "t": "Drafted the Virginia Plan (1787): three branches and a Congress based on population",
+      "k": [
+        "virginia plan",
+        "population",
+        "three branches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "federalist-10",
+      "tier": "middle",
+      "t": "_Federalist_ No. 10: a large republic can control the dangers of “faction”",
+      "k": [
+        "federalist no. 10",
+        "faction",
+        "large republic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "federalist-51",
+      "tier": "middle",
+      "t": "_Federalist_ No. 51: “If men were angels, no government would be necessary”; “ambition must be made to counteract ambition”",
+      "k": [
+        "if men were angels",
+        "angels",
+        "ambition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "democratic-republicans",
+      "tier": "middle",
+      "t": "Founded the Democratic-Republican Party with Thomas Jefferson to oppose Alexander Hamilton’s Federalists",
+      "k": [
+        "democratic-republican",
+        "jefferson",
+        "hamilton"
+      ],
+      "n": 0,
+      "rabbit": "Thomas Jefferson"
+    },
+    {
+      "id": "virginia-resolutions",
+      "tier": "middle",
+      "t": "Secretly wrote the Virginia Resolutions (1798) against the Alien and Sedition Acts; Jefferson wrote Kentucky’s",
+      "k": [
+        "virginia resolutions",
+        "alien and sedition",
+        "kentucky"
+      ],
+      "n": 0
+    },
+    {
+      "id": "secretary-of-state",
+      "tier": "middle",
+      "t": "Jefferson’s Secretary of State (1801–1809); William Marbury sued him over an undelivered commission",
+      "k": [
+        "secretary of state",
+        "marbury",
+        "commission"
+      ],
+      "n": 0,
+      "rabbit": "Marbury v. Madison"
+    },
+    {
+      "id": "war-message",
+      "tier": "middle",
+      "t": "Asked Congress to declare war on Britain in 1812, citing impressment of American sailors; New England Federalists protested at the Hartford Convention",
+      "k": [
+        "impressment",
+        "declare war",
+        "hartford"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shortest",
+      "tier": "middle",
+      "t": "The shortest president, about 5 feet 4 inches tall",
+      "k": [
+        "shortest",
+        "5 feet 4"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twenty-seventh",
+      "tier": "power",
+      "t": "Proposed an amendment on congressional pay in 1789; it was finally ratified in 1992 as the 27th Amendment",
+      "k": [
+        "27th amendment",
+        "1992",
+        "pay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monroe-1789",
+      "tier": "power",
+      "t": "Beat James Monroe in a 1789 House race after promising amendments, though he had once called lists of rights “parchment barriers”",
+      "k": [
+        "james monroe",
+        "parchment barriers",
+        "monroe",
+        "1789"
+      ],
+      "n": 0,
+      "rabbit": "James Monroe"
+    },
+    {
+      "id": "notes",
+      "tier": "power",
+      "t": "His notes are the fullest record of the Constitutional Convention; they were published in 1840, after his death",
+      "k": [
+        "notes",
+        "1840",
+        "convention"
+      ],
+      "n": 0
+    },
+    {
+      "id": "last-signer",
+      "tier": "power",
+      "t": "The last surviving signer of the Constitution; died in 1836 and is buried at Montpelier, his Virginia home",
+      "k": [
+        "last surviving",
+        "montpelier",
+        "1836"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clinton-gerry",
+      "tier": "power",
+      "t": "Both vice presidents died in office: George Clinton (1812) and Elbridge Gerry (1814), the namesake of “gerrymander”",
+      "k": [
+        "elbridge gerry",
+        "gerry",
+        "gerrymander",
+        "george clinton",
+        "clinton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bonus-bill",
+      "tier": "power",
+      "t": "Just before leaving office (1817), vetoed John C. Calhoun’s Bonus Bill for roads and canals as unconstitutional",
+      "k": [
+        "bonus bill",
+        "calhoun",
+        "roads and canals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "second-bank",
+      "tier": "power",
+      "t": "Opposed Hamilton’s national bank in 1791 but signed the charter of the Second Bank of the United States in 1816",
+      "k": [
+        "second bank",
+        "national bank",
+        "1816"
+      ],
+      "n": 0
+    },
+    {
+      "id": "compromise-1790",
+      "tier": "power",
+      "t": "Compromise of 1790: at Jefferson’s dinner, he let Hamilton’s debt plan pass in exchange for a capital on the Potomac",
+      "k": [
+        "compromise of 1790",
+        "potomac",
+        "debt plan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "octagon",
+      "tier": "power",
+      "t": "Lived in the Octagon House while the White House was rebuilt; signed the Treaty of Ghent into effect there (1815)",
+      "k": [
+        "octagon house",
+        "octagon",
+        "treaty of ghent",
+        "ghent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jennings",
+      "tier": "power",
+      "t": "Paul Jennings, a man he enslaved, wrote what is often called the first White House memoir (1865)",
+      "k": [
+        "paul jennings",
+        "jennings",
+        "memoir"
+      ],
+      "n": 0
+    },
+    {
+      "id": "remonstrance",
+      "tier": "power",
+      "t": "Wrote the “Memorial and Remonstrance” (1785) against a tax for religious teachers; passed Jefferson’s Virginia Statute for Religious Freedom (1786)",
+      "k": [
+        "memorial and remonstrance",
+        "remonstrance",
+        "religious freedom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "annapolis",
+      "tier": "power",
+      "t": "Attended the Annapolis Convention (1786) with Alexander Hamilton, which called for the Philadelphia convention",
+      "k": [
+        "annapolis",
+        "philadelphia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "erskine-macon",
+      "tier": "power",
+      "t": "The Erskine Agreement with Britain fell through (1809); after Macon’s Bill No. 2 (1810), Napoleon tricked him into cutting off British trade",
+      "k": [
+        "erskine",
+        "macon",
+        "napoleon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "witherspoon",
+      "tier": "power",
+      "t": "Graduated from the College of New Jersey (Princeton), where he studied under John Witherspoon; pictured on the $5,000 bill",
+      "k": [
+        "princeton",
+        "witherspoon",
+        "$5,000"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Madison, Jefferson, or Monroe?",
+    "body": "James Madison and Thomas Jefferson were close partners for about 50 years: they founded the Democratic-Republican Party, wrote the Virginia and Kentucky Resolutions, and Madison served as Jefferson’s Secretary of State before succeeding him. James Monroe, the next president, was a Virginia ally of both, so clues about one often name the others. _Marbury v. Madison_ is a trap too: it is a court case, so it is wrong when a question wants the man.",
+    "fix": "Madison clues: the Virginia Plan, _The Federalist Papers_ (Nos. 10 and 51), the Bill of Rights, the War of 1812, Dolley, and Montpelier. Jefferson clues: the Declaration, the Louisiana Purchase, and Monticello. Monroe clues: the Monroe Doctrine and the Era of Good Feelings. “Madison” alone is enough.",
+    "line": "Real answer line: James <b><u>Madison</u></b>"
+  }
+}

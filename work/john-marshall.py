@@ -1,0 +1,335 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "john-marshall",
+    "name": "John Marshall",
+    "mono": "JM",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Longest-serving Chief Justice · Established judicial review in 1803",
+    "dates": "1755–1835",
+    "briefing": "John Marshall fought at Valley Forge, served as John Adams’s secretary of state, and then led the Supreme Court for more than 34 years, longer than any other Chief Justice. In _Marbury v. Madison_ (1803), his Court claimed the power of judicial review, the right to strike down laws that break the Constitution. Rulings like _McCulloch v. Maryland_ and _Gibbons v. Ogden_ made the national government, and the Court itself, far stronger.",
+    "answerHtml": "John <b><u>Marshall</u></b> (do not accept “Thurgood Marshall” or “George Marshall”)",
+    "accept": [
+        "john marshall",
+        "marshall",
+        "chief justice john marshall",
+        "chief justice marshall"
+    ],
+    "prompt": [],
+    "reject": [
+        "thurgood marshall",
+        "george marshall",
+        "george c marshall",
+        "george catlett marshall",
+        "marshall plan",
+        "john marshall harlan",
+        "harlan",
+        "james marshall",
+        "james w marshall",
+        "william marbury",
+        "marbury",
+        "marbury v madison",
+        "james madison",
+        "roger taney",
+        "john jay",
+        "joseph story"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/John_Marshall",
+    "qb": {
+        "q": "John Marshall",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "According to legend, the Liberty Bell cracked while ringing for this man’s funeral in 1835. His death ended a record term of more than 34 years in his job, and Andrew Jackson chose Roger Taney [“TAW-nee”] to replace him.",
+            "r": "He had been appointed by John Adams in 1801. For 10 points, name this Chief Justice who wrote the opinion in _Marbury v. Madison_."
+        },
+        {
+            "p": "This man, Charles Cotesworth Pinckney, and Elbridge Gerry were the three American diplomats who refused to pay a bribe to French agents in the XYZ Affair. He returned home a hero, won a seat in Congress, and became John Adams’s secretary of state.",
+            "r": "Adams then appointed him Chief Justice. For 10 points, name this man who led the Supreme Court from 1801 to 1835."
+        },
+        {
+            "p": "In 1807, this judge presided over Aaron Burr’s treason trial in Richmond. Burr was found not guilty because this judge ruled that treason required proof, from two witnesses, of an actual act of war against the United States.",
+            "r": "He also wrote the Court’s opinion in _McCulloch v. Maryland_. For 10 points, name this Chief Justice who established judicial review."
+        },
+        {
+            "p": "This judge wrote that “the power to tax involves the power to destroy” in a case that stopped Maryland from taxing the Second Bank of the United States. In that same 1819 opinion, he upheld Congress’s implied powers under the Necessary and Proper Clause.",
+            "r": "For 10 points, name this Chief Justice who wrote both _McCulloch v. Maryland_ and _Marbury v. Madison_."
+        },
+        {
+            "p": "This judge’s opinion in _Fletcher v. Peck_ was one of the first times the Supreme Court struck down a state law, after Georgia’s legislature tried to cancel land sales tied to the Yazoo land scandal. He ruled that those sales were contracts Georgia could not break.",
+            "r": "For 10 points, name this Chief Justice from 1801 to 1835, whose Court also decided _Marbury v. Madison_."
+        },
+        {
+            "p": "During the American Revolution, this future judge spent the winter at Valley Forge and fought at the battles of Brandywine, Germantown, and Monmouth. Later, he wrote a five-volume biography of his former commander, George Washington.",
+            "r": "His opinion in _Marbury v. Madison_ established judicial review. For 10 points, name this Virginian who became the fourth Chief Justice of the United States."
+        },
+        {
+            "p": "This judge struck down a steamboat monopoly that New York had granted to Robert Fulton and Robert Livingston, ruling in _Gibbons v. Ogden_ that Congress has the power to regulate commerce between the states. Daniel Webster argued for the winning side in that 1824 case.",
+            "r": "He served on the Court from 1801 until 1835. For 10 points, name this Chief Justice who also wrote _Marbury v. Madison_."
+        },
+        {
+            "p": "In _Cherokee Nation v. Georgia_, this judge called the Cherokee a “domestic dependent nation.” A year later, this judge ruled that Georgia’s laws had no force inside the Cherokee Nation, and Andrew Jackson supposedly replied that this man “has made his decision; now let him enforce it.”",
+            "r": "That 1832 case was _Worcester v. Georgia_. For 10 points, name this Chief Justice, who also wrote _Marbury v. Madison_."
+        },
+        {
+            "p": "This judge declared that “it is emphatically the province and duty of the judicial department to say what the law is.” In that same opinion, he struck down part of the Judiciary Act of 1789, the first time the Supreme Court overturned an act of Congress.",
+            "r": "That 1803 case, _Marbury v. Madison_, established the power of judicial review. For 10 points, name this Chief Justice."
+        },
+        {
+            "p": "This man served briefly in the House of Representatives before becoming John Adams’s secretary of state. While still in that cabinet job in early 1801, he was confirmed to a new position, and he left several commissions for the “midnight judges” undelivered when Adams’s term ended.",
+            "r": "One of those commissions belonged to William Marbury. For 10 points, name this man who became Chief Justice in 1801."
+        },
+        {
+            "p": "In one of his last major rulings, this judge held in _Barron v. Baltimore_ that the Bill of Rights limited only the national government, not the states. Earlier, in _Cohens v. Virginia_, he ruled that the Supreme Court could review state court decisions.",
+            "r": "He was appointed by John Adams. For 10 points, name this Chief Justice who served from 1801 until his death in 1835."
+        },
+        {
+            "p": "This man briefly studied law under George Wythe [“WITH”] at the College of William & Mary, and he later argued for the Constitution at Virginia’s ratifying convention in 1788. Thomas Jefferson, his distant cousin, became one of his fiercest political enemies.",
+            "r": "As Chief Justice, he wrote _Marbury v. Madison_. For 10 points, name this Federalist whom John Adams appointed Chief Justice in 1801."
+        },
+        {
+            "p": "This judge ended the practice of each justice writing a separate opinion and had the Supreme Court speak with one voice in an “opinion of the Court,” which he often wrote himself. He was appointed in the final weeks of John Adams’s presidency.",
+            "r": "For 10 points, name this fourth Chief Justice of the United States, who wrote _Marbury v. Madison_."
+        },
+        {
+            "p": "Born in a log cabin on the Virginia frontier in 1755, this man was the oldest of fifteen children. He became a leading lawyer in Richmond, served in Virginia’s House of Delegates, and was elected to the U.S. House of Representatives in 1799.",
+            "r": "For 10 points, name this Virginian who served as Chief Justice for more than 34 years."
+        },
+        {
+            "p": "During the case _Dartmouth College v. Woodward_, Daniel Webster told this judge’s Court, “It is, sir, as I have said, a small college. And yet there are those who love it!” This judge’s opinion ruled that the college’s charter was a contract that New Hampshire could not break.",
+            "r": "That case was decided in 1819, the same year as _McCulloch v. Maryland_. For 10 points, name this Chief Justice, whose Court also decided _Marbury v. Madison_."
+        }
+    ],
+    "clues": [
+        {
+            "id": "chief-justice",
+            "tier": "giveaway",
+            "t": "4th Chief Justice of the United States (1801–1835), the longest-serving Chief Justice",
+            "k": ["chief justice", "longest-serving", "1801"],
+            "n": 0
+        },
+        {
+            "id": "marbury",
+            "tier": "giveaway",
+            "t": "Wrote _Marbury v. Madison_ (1803), which established judicial review",
+            "k": ["marbury", "judicial review", "1803"],
+            "n": 0,
+            "rabbit": "Marbury v. Madison"
+        },
+        {
+            "id": "adams-appointed",
+            "tier": "giveaway",
+            "t": "Appointed by John Adams in 1801, near the end of Adams’s presidency",
+            "k": ["john adams", "appointed", "adams"],
+            "n": 0,
+            "rabbit": "John Adams"
+        },
+        {
+            "id": "federalist",
+            "tier": "giveaway",
+            "t": "A Federalist from Virginia whose rulings made the national government and the Supreme Court stronger",
+            "k": ["federalist", "virginia", "national government"],
+            "n": 0,
+            "rabbit": "Federalist Party"
+        },
+        {
+            "id": "mcculloch",
+            "tier": "middle",
+            "t": "_McCulloch v. Maryland_ (1819): states can’t tax the national bank; “the power to tax involves the power to destroy”",
+            "k": ["mcculloch", "power to destroy", "national bank"],
+            "n": 0,
+            "rabbit": "McCulloch v. Maryland"
+        },
+        {
+            "id": "gibbons",
+            "tier": "middle",
+            "t": "_Gibbons v. Ogden_ (1824): Congress regulates commerce between states; struck down New York’s steamboat monopoly",
+            "k": ["gibbons", "ogden", "commerce", "steamboat"],
+            "n": 0,
+            "rabbit": "Gibbons v. Ogden"
+        },
+        {
+            "id": "worcester",
+            "tier": "middle",
+            "t": "_Worcester v. Georgia_ (1832) sided with the Cherokee; Jackson supposedly said he “has made his decision; now let him enforce it”",
+            "k": ["worcester", "cherokee", "enforce"],
+            "n": 0,
+            "rabbit": "Trail of Tears"
+        },
+        {
+            "id": "xyz",
+            "tier": "middle",
+            "t": "One of the three U.S. diplomats in the XYZ Affair (1797–1798), with Charles Cotesworth Pinckney and Elbridge Gerry",
+            "k": ["xyz affair", "xyz", "pinckney", "gerry"],
+            "n": 0
+        },
+        {
+            "id": "secretary-of-state",
+            "tier": "middle",
+            "t": "John Adams’s secretary of state (1800–1801); left some “midnight judges” commissions undelivered, including Marbury’s",
+            "k": ["secretary of state", "midnight judges", "commissions"],
+            "n": 0
+        },
+        {
+            "id": "dartmouth",
+            "tier": "middle",
+            "t": "_Dartmouth College v. Woodward_ (1819): a college charter is a contract that a state can’t break",
+            "k": ["dartmouth", "charter", "contract"],
+            "n": 0
+        },
+        {
+            "id": "burr",
+            "tier": "middle",
+            "t": "Presided over Aaron Burr’s treason trial (1807); Burr was found not guilty",
+            "k": ["aaron burr", "burr", "treason"],
+            "n": 0
+        },
+        {
+            "id": "taney",
+            "tier": "middle",
+            "t": "Died in 1835; Andrew Jackson chose Roger Taney to replace him",
+            "k": ["roger taney", "taney", "1835"],
+            "n": 0
+        },
+        {
+            "id": "liberty-bell",
+            "tier": "power",
+            "t": "Legend says the Liberty Bell cracked while ringing for his funeral (1835)",
+            "k": ["liberty bell", "funeral"],
+            "n": 0
+        },
+        {
+            "id": "province-duty",
+            "tier": "power",
+            "t": "Wrote that “it is emphatically the province and duty of the judicial department to say what the law is”",
+            "k": ["province and duty", "say what the law is"],
+            "n": 0
+        },
+        {
+            "id": "judiciary-act",
+            "tier": "power",
+            "t": "_Marbury_ struck down part of the Judiciary Act of 1789, the first time the Court overturned an act of Congress",
+            "k": ["judiciary act", "1789", "act of congress"],
+            "n": 0
+        },
+        {
+            "id": "fletcher",
+            "tier": "power",
+            "t": "_Fletcher v. Peck_ (1810): one of the first times the Court struck down a state law (Georgia’s Yazoo land scandal)",
+            "k": ["fletcher v. peck", "fletcher", "yazoo"],
+            "n": 0
+        },
+        {
+            "id": "cherokee-nation",
+            "tier": "power",
+            "t": "_Cherokee Nation v. Georgia_ (1831): called the Cherokee a “domestic dependent nation”",
+            "k": ["domestic dependent", "cherokee nation v. georgia"],
+            "n": 0
+        },
+        {
+            "id": "barron",
+            "tier": "power",
+            "t": "_Barron v. Baltimore_ (1833): the Bill of Rights limited only the federal government, not the states",
+            "k": ["barron", "bill of rights", "baltimore"],
+            "n": 0
+        },
+        {
+            "id": "cohens",
+            "tier": "power",
+            "t": "_Cohens v. Virginia_ (1821): the Supreme Court can review state court decisions",
+            "k": ["cohens", "state court"],
+            "n": 0
+        },
+        {
+            "id": "valley-forge",
+            "tier": "power",
+            "t": "Continental Army officer at Valley Forge; fought at Brandywine, Germantown, and Monmouth",
+            "k": ["valley forge", "brandywine", "monmouth"],
+            "n": 0
+        },
+        {
+            "id": "washington-bio",
+            "tier": "power",
+            "t": "Wrote a five-volume biography, _The Life of George Washington_",
+            "k": ["life of george washington", "five-volume", "biography"],
+            "n": 0
+        },
+        {
+            "id": "opinion-of-court",
+            "tier": "power",
+            "t": "Replaced separate opinions by each justice with a single “opinion of the Court”",
+            "k": ["opinion of the court", "separate opinions"],
+            "n": 0
+        },
+        {
+            "id": "jefferson-cousin",
+            "tier": "power",
+            "t": "A distant cousin and bitter political rival of Thomas Jefferson",
+            "k": ["jefferson", "cousin", "rival"],
+            "n": 0
+        },
+        {
+            "id": "wythe",
+            "tier": "power",
+            "t": "Studied law under George Wythe at William & Mary; backed the Constitution at Virginia’s ratifying convention (1788)",
+            "k": ["george wythe", "wythe", "ratifying convention"],
+            "n": 0
+        },
+        {
+            "id": "webster",
+            "tier": "power",
+            "t": "In the Dartmouth case, Daniel Webster argued, “It is... a small college. And yet there are those who love it!”",
+            "k": ["daniel webster", "small college"],
+            "n": 0
+        },
+        {
+            "id": "log-cabin",
+            "tier": "power",
+            "t": "Born in a log cabin in Virginia (1755), the oldest of fifteen children",
+            "k": ["log cabin", "fifteen children", "1755"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Marshall?",
+        "body": "Several famous Marshalls show up in American history. John Marshall was the fourth Chief Justice (1801–1835). Thurgood Marshall argued _Brown v. Board of Education_ and became the first African American Supreme Court justice in 1967. George C. Marshall was the World War II general behind the Marshall Plan to rebuild Europe. And John Marshall Harlan, a different justice, wrote the lone dissent in _Plessy v. Ferguson_. Saying the wrong first name loses the tossup.",
+        "fix": "John Marshall clues: _Marbury v. Madison_ and judicial review, _McCulloch v. Maryland_, _Gibbons v. Ogden_, the XYZ Affair, Aaron Burr’s treason trial, and the Liberty Bell legend. _Brown v. Board_ or the NAACP means Thurgood; rebuilding postwar Europe means George. “Marshall” alone is fine, but say “John” if you have time.",
+        "line": "Real answer line: John <b><u>Marshall</u></b> (do not accept “Thurgood Marshall” or “George Marshall”)"
+    },
+    "tests": {
+        "right": [
+            "John Marshall",
+            "Marshall",
+            "Chief Justice John Marshall",
+            "Jon Marshall",
+            "John Marshal"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Thurgood Marshall",
+            "George Marshall",
+            "Marshall Plan",
+            "John Marshall Harlan",
+            "Roger Taney",
+            "John Jay",
+            "William Marbury"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,426 @@
+{
+  "id": "battle-of-midway",
+  "name": "Battle of Midway",
+  "mono": "MID",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "1942 U.S. naval victory over Japan · Turning point of the Pacific War",
+  "dates": "Fought June 4–7, 1942",
+  "briefing": "Six months after Pearl Harbor, American codebreakers figured out that Japan’s next target was Midway, a tiny atoll in the middle of the Pacific Ocean. Admiral Chester Nimitz set a trap, and on June 4, 1942, American dive bombers set three Japanese aircraft carriers on fire within minutes and wrecked a fourth that afternoon. After the battle, the United States went on the attack in the Pacific, which is why Midway is called the war’s turning point there.",
+  "answerHtml": "Battle of <b><u>Midway</u></b>",
+  "accept": [
+    "midway",
+    "battle of midway",
+    "midway atoll",
+    "midway island",
+    "midway islands",
+    "battle of midway island",
+    "battle of midway atoll"
+  ],
+  "prompt": [],
+  "reject": [
+    "pearl harbor",
+    "attack on pearl harbor",
+    "coral sea",
+    "battle of the coral sea",
+    "guadalcanal",
+    "battle of guadalcanal",
+    "guadalcanal campaign",
+    "leyte gulf",
+    "battle of leyte gulf",
+    "philippine sea",
+    "battle of the philippine sea",
+    "iwo jima",
+    "battle of iwo jima",
+    "okinawa",
+    "battle of okinawa",
+    "doolittle raid",
+    "wake island",
+    "battle of wake island",
+    "aleutian islands",
+    "aleutian islands campaign",
+    "dutch harbor",
+    "uss yorktown",
+    "yamamoto",
+    "nimitz",
+    "spruance"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Battle_of_Midway",
+  "qb": {
+    "q": "Midway",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Before this battle, codebreakers under Joseph Rochefort confirmed the enemy’s target, called “AF” in coded messages, by having the base there radio a false, uncoded report that its fresh-water plant had broken down. Soon an intercepted Japanese message reported that “AF” was short of water.",
+      "r": "For 10 points, name this June 1942 naval battle, a turning point of World War II in the Pacific."
+    },
+    {
+      "p": "Workers at Pearl Harbor repaired the damaged carrier USS _Yorktown_ in about three days so it could fight in this battle, weeks after it was hit at the Battle of the Coral Sea. During this battle, planes from the carrier _Hiryu_ [“HEE-ryoo”] crippled the _Yorktown_, and a Japanese submarine later sank it.",
+      "r": "For 10 points, name this 1942 battle in which the United States sank four Japanese aircraft carriers."
+    },
+    {
+      "p": "Ensign George Gay was the only survivor of Torpedo Squadron 8, all 15 of whose planes were shot down attacking enemy carriers in this battle. Soon after torpedo planes like his drew the enemy’s fighters down low, American dive bombers wrecked three carriers in a few minutes.",
+      "r": "For 10 points, name this battle of June 1942, fought near an atoll northwest of Hawaii."
+    },
+    {
+      "p": "Lieutenant Commander Wade McClusky followed a lone Japanese destroyer that was racing to rejoin its fleet, and it led his dive bombers to the enemy carriers in this battle. His planes from the USS _Enterprise_ then set the carriers _Akagi_ [“ah-KAH-gee”] and _Kaga_ on fire.",
+      "r": "For 10 points, name this June 1942 battle that turned the tide of World War II in the Pacific."
+    },
+    {
+      "p": "At the same time as this battle, Japanese forces bombed Dutch Harbor and seized the islands of Attu and Kiska in Alaska’s Aleutian chain. Admiral Isoroku Yamamoto [“ee-soh-ROH-koo yah-mah-MOH-toh”] planned this battle to lure out and destroy America’s remaining aircraft carriers.",
+      "r": "For 10 points, name this June 1942 battle, named for an atoll about halfway between North America and Asia."
+    },
+    {
+      "p": "Henderson Field on Guadalcanal was named for Major Lofton Henderson, a Marine pilot who was killed leading an attack in this battle. Planes flying from the small atoll where this battle took place made several attacks that failed to damage the Japanese carriers.",
+      "r": "For 10 points, name this June 1942 battle in which the U.S. Navy defeated Japan, six months after Pearl Harbor."
+    },
+    {
+      "p": "Vice Admiral Chuichi Nagumo [“CHOO-ee-chee nah-GOO-moh”] ordered his reserve planes rearmed with bombs for a second strike on an island in this battle, then changed his orders when a scout plane reported American ships nearby. His carriers were packed with fueled planes and loose bombs when American dive bombers struck.",
+      "r": "Within minutes, three of those carriers were burning. For 10 points, name this June 1942 battle in which Japan lost four aircraft carriers."
+    },
+    {
+      "p": "All four Japanese carriers sunk in this battle, including the flagship _Akagi_ and the _Soryu_ [“SOH-ryoo”], had also taken part in the attack on Pearl Harbor. Two other carriers from that attack missed this battle because of damage and losses they suffered at the Battle of the Coral Sea.",
+      "r": "For 10 points, name this June 1942 naval battle, a major American victory in the Pacific."
+    },
+    {
+      "p": "Admiral William “Bull” Halsey had to miss this battle because of a painful skin illness, so he recommended Raymond Spruance to command the carriers _Enterprise_ and _Hornet_ in his place. Frank Jack Fletcher, aboard the _Yorktown_, was the senior American commander at sea.",
+      "r": "For 10 points, name this June 1942 battle that Admiral Chester Nimitz’s fleet won near an atoll northwest of Hawaii."
+    },
+    {
+      "p": "The Hollywood director John Ford filmed the Japanese air attack on an island during this battle, and his short documentary about it won an Academy Award. Movies about this battle came out in 1976, starring Charlton Heston and Henry Fonda, and in 2019.",
+      "r": "For 10 points, name this June 1942 battle in which American dive bombers sank four Japanese carriers."
+    },
+    {
+      "p": "Partly to prevent more attacks like the Doolittle Raid on Tokyo, Japan’s leaders approved a plan to capture a small atoll, which led to this battle. On June 3, an American PBY Catalina flying boat spotted part of the approaching Japanese fleet.",
+      "r": "For 10 points, name this June 1942 battle in which the United States sank four Japanese aircraft carriers."
+    },
+    {
+      "p": "Japan called its plan for this battle Operation MI, and Admiral Chester Nimitz sent three carriers to wait northeast of the target at a spot nicknamed “Point Luck.” American dive bombers then set three Japanese carriers on fire within minutes.",
+      "r": "That attack came on the morning of June 4, 1942. For 10 points, name this battle, often called the turning point of the Pacific War."
+    },
+    {
+      "p": "The only Japanese carrier to escape the first American strike in this battle, the _Hiryu_, launched two attacks that crippled the USS _Yorktown_. Late that afternoon, American dive bombers found the _Hiryu_ and set it on fire, and it sank the next morning.",
+      "r": "For 10 points, name this battle in which Japan lost all four carriers of its main strike force, near an atoll northwest of Hawaii."
+    },
+    {
+      "p": "At the start of this battle, Japanese planes bombed the airfield on Eastern Island and other targets on Sand Island, the two main islands of a small atoll. Japan had planned to invade and occupy that atoll after destroying the American fleet.",
+      "r": "Instead, the United States sank four Japanese carriers. For 10 points, name this June 1942 battle."
+    },
+    {
+      "p": "Raymond Spruance launched his planes early and at long range in this battle, hoping to catch the enemy carriers while their own planes were returning from bombing an island. That night, he turned his ships away to avoid running into stronger Japanese battleships.",
+      "r": "For 10 points, name this June 1942 battle in which the U.S. Navy sank four Japanese aircraft carriers."
+    }
+  ],
+  "clues": [
+    {
+      "id": "june-1942",
+      "tier": "giveaway",
+      "t": "Fought in June 1942 in the Pacific, six months after the attack on Pearl Harbor",
+      "k": [
+        "june 1942",
+        "pearl harbor",
+        "six months"
+      ],
+      "n": 0,
+      "rabbit": "Attack on Pearl Harbor"
+    },
+    {
+      "id": "four-carriers",
+      "tier": "giveaway",
+      "t": "The United States sank four Japanese aircraft carriers and lost the USS _Yorktown_",
+      "k": [
+        "four",
+        "aircraft carriers",
+        "yorktown"
+      ],
+      "n": 0
+    },
+    {
+      "id": "turning-point",
+      "tier": "giveaway",
+      "t": "Called the turning point of World War II in the Pacific",
+      "k": [
+        "turning point",
+        "world war ii"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atoll",
+      "tier": "giveaway",
+      "t": "Named for a tiny atoll about halfway between North America and Asia, northwest of Hawaii",
+      "k": [
+        "atoll",
+        "halfway",
+        "hawaii"
+      ],
+      "n": 0
+    },
+    {
+      "id": "codebreakers",
+      "tier": "middle",
+      "t": "U.S. codebreakers confirmed the target “AF” by tricking Japan into reporting that “AF” was short of water",
+      "k": [
+        "codebreakers",
+        "short of water",
+        "af"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nimitz",
+      "tier": "middle",
+      "t": "Admiral Chester Nimitz commanded the U.S. Pacific Fleet",
+      "k": [
+        "chester nimitz",
+        "nimitz",
+        "pacific fleet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yamamoto",
+      "tier": "middle",
+      "t": "Japan’s Admiral Isoroku Yamamoto planned it to lure out and destroy the U.S. carriers",
+      "k": [
+        "yamamoto",
+        "isoroku",
+        "lure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dive-bombers",
+      "tier": "middle",
+      "t": "American dive bombers set three Japanese carriers on fire within minutes on June 4",
+      "k": [
+        "dive bombers",
+        "june 4"
+      ],
+      "n": 0
+    },
+    {
+      "id": "commanders",
+      "tier": "middle",
+      "t": "Raymond Spruance (_Enterprise_ and _Hornet_) and Frank Jack Fletcher (_Yorktown_) led the U.S. carriers",
+      "k": [
+        "spruance",
+        "fletcher",
+        "enterprise",
+        "hornet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carrier-names",
+      "tier": "middle",
+      "t": "Japan lost the _Akagi_, _Kaga_, _Soryu_, and _Hiryu_, all veterans of Pearl Harbor",
+      "k": [
+        "akagi",
+        "kaga",
+        "soryu",
+        "hiryu"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coral-sea",
+      "tier": "middle",
+      "t": "Came a month after the Battle of the Coral Sea, where the _Yorktown_ was damaged and two other Pearl Harbor carriers were knocked out",
+      "k": [
+        "coral sea",
+        "month"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rochefort",
+      "tier": "power",
+      "t": "Joseph Rochefort’s codebreaking unit at Pearl Harbor read parts of the Japanese navy’s code",
+      "k": [
+        "rochefort",
+        "joseph rochefort",
+        "codebreaking"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yorktown-repair",
+      "tier": "power",
+      "t": "Pearl Harbor workers repaired the _Yorktown_ in about three days",
+      "k": [
+        "repaired",
+        "three days"
+      ],
+      "n": 0
+    },
+    {
+      "id": "torpedo-8",
+      "tier": "power",
+      "t": "Torpedo Squadron 8 lost all 15 planes; Ensign George Gay was its only survivor",
+      "k": [
+        "torpedo squadron 8",
+        "george gay",
+        "torpedo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mcclusky",
+      "tier": "power",
+      "t": "Wade McClusky followed a Japanese destroyer to find the enemy carriers",
+      "k": [
+        "mcclusky",
+        "wade mcclusky",
+        "destroyer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aleutians",
+      "tier": "power",
+      "t": "Japan also bombed Dutch Harbor and seized Attu and Kiska in Alaska’s Aleutian Islands",
+      "k": [
+        "aleutian",
+        "attu",
+        "kiska",
+        "dutch harbor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nagumo",
+      "tier": "power",
+      "t": "Vice Admiral Chuichi Nagumo led Japan’s carriers; switching his planes’ weapons cost him time",
+      "k": [
+        "nagumo",
+        "chuichi nagumo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "henderson",
+      "tier": "power",
+      "t": "Marine pilot Lofton Henderson was killed leading an attack; Henderson Field on Guadalcanal was named for him",
+      "k": [
+        "lofton henderson",
+        "henderson field",
+        "guadalcanal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "halsey",
+      "tier": "power",
+      "t": "William “Bull” Halsey missed it because of a skin illness and recommended Spruance",
+      "k": [
+        "halsey",
+        "bull",
+        "skin illness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hiryu-counter",
+      "tier": "power",
+      "t": "The _Hiryu_ escaped the first strike and crippled the _Yorktown_; a Japanese submarine finished off the _Yorktown_",
+      "k": [
+        "submarine",
+        "crippled",
+        "escaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "john-ford",
+      "tier": "power",
+      "t": "John Ford filmed an Oscar-winning documentary there; movies about it came out in 1976 and 2019",
+      "k": [
+        "john ford",
+        "documentary",
+        "1976",
+        "2019"
+      ],
+      "n": 0
+    },
+    {
+      "id": "operation-mi",
+      "tier": "power",
+      "t": "Japan’s plan, Operation MI, began by bombing the atoll’s Eastern and Sand Islands; U.S. carriers waited at “Point Luck”",
+      "k": [
+        "operation mi",
+        "point luck",
+        "eastern",
+        "sand island"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doolittle",
+      "tier": "power",
+      "t": "The Doolittle Raid on Tokyo (April 1942) pushed Japan’s leaders to approve the attack plan",
+      "k": [
+        "doolittle raid",
+        "doolittle",
+        "tokyo"
+      ],
+      "n": 0,
+      "rabbit": "Doolittle raid"
+    },
+    {
+      "id": "catalina",
+      "tier": "power",
+      "t": "A PBY Catalina flying boat spotted part of the Japanese fleet on June 3",
+      "k": [
+        "catalina",
+        "pby",
+        "flying boat",
+        "june 3"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spruance-night",
+      "tier": "power",
+      "t": "Spruance launched his planes early, at long range, then turned away that night to avoid Japanese battleships",
+      "k": [
+        "long range",
+        "battleships",
+        "early"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Coral Sea, Midway, or Pearl Harbor?",
+    "body": "Three early Pacific War battles share clues: Pearl Harbor (December 7, 1941), the Coral Sea (May 1942), and Midway (June 1942). All four Japanese carriers sunk at Midway had attacked Pearl Harbor, and the _Yorktown_ fought at both the Coral Sea and Midway, so an early buzz on a ship’s name can go wrong. The Coral Sea was the first battle fought entirely between aircraft carriers; Midway was the turning point.",
+    "fix": "Midway clues: “AF is short of water,” Spruance, McClusky, Torpedo Squadron 8, the Aleutians, and four sunken carriers. Coral Sea clues: Port Moresby and the sinking of the carrier _Lexington_. Pearl Harbor clues: a Sunday-morning surprise attack, the USS _Arizona_, and “a date which will live in infamy.”",
+    "line": "Real answer line: Battle of <b><u>Midway</u></b>"
+  },
+  "tests": {
+    "right": [
+      "Midway",
+      "Battle of Midway",
+      "Midway Atoll",
+      "battle of midwey",
+      "the Battle of Midway"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Pearl Harbor",
+      "Coral Sea",
+      "Guadalcanal",
+      "Doolittle Raid",
+      "Leyte Gulf",
+      "Iwo Jima"
+    ]
+  }
+}

@@ -1,0 +1,337 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "battle-of-saratoga",
+    "name": "Battle of Saratoga",
+    "mono": "SAR",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1777 American victory in New York · Brought France into the Revolution",
+    "dates": "Fought September 19 and October 7, 1777",
+    "briefing": "In 1777, British General John Burgoyne marched south from Canada, planning to cut New England off from the other colonies. Near Saratoga, New York, American troops under Horatio Gates, helped by Benedict Arnold and Daniel Morgan’s riflemen, beat him in two battles, and on October 17 Burgoyne surrendered his whole army. The victory convinced France to sign an alliance with the United States, which is why Saratoga is called the turning point of the Revolution.",
+    "answerHtml": "Battles of <b><u>Saratoga</u></b> (accept Battle of <b><u>Saratoga</u></b>; prompt on <u>Freeman’s Farm</u> or <u>Bemis Heights</u>)",
+    "accept": [
+        "saratoga",
+        "battle of saratoga",
+        "battles of saratoga",
+        "saratoga campaign"
+    ],
+    "prompt": [
+        "freemans farm",
+        "battle of freemans farm",
+        "bemis heights",
+        "battle of bemis heights"
+    ],
+    "reject": [
+        "yorktown",
+        "battle of yorktown",
+        "trenton",
+        "battle of trenton",
+        "princeton",
+        "battle of princeton",
+        "brandywine",
+        "battle of brandywine",
+        "germantown",
+        "battle of germantown",
+        "monmouth",
+        "battle of monmouth",
+        "bunker hill",
+        "battle of bunker hill",
+        "lexington and concord",
+        "battles of lexington and concord",
+        "fort ticonderoga",
+        "ticonderoga",
+        "bennington",
+        "battle of bennington",
+        "oriskany",
+        "fort stanwix",
+        "camden",
+        "battle of camden",
+        "valley forge",
+        "john burgoyne",
+        "horatio gates",
+        "benedict arnold"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Battles_of_Saratoga",
+    "qb": {
+        "q": "Saratoga",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "A monument at the site of this battle shows only a boot, honoring “the most brilliant soldier of the Continental Army” without naming him, because he later became a traitor. That officer was shot in the leg while leading an attack on a redoubt defended by German troops.",
+            "r": "For 10 points, name this 1777 American victory in New York that convinced France to join the Revolution."
+        },
+        {
+            "p": "After this battle, Congress refused to honor a “convention” that would have sent the defeated army home to Britain, so those prisoners, called the “Convention Army,” were held in Massachusetts and later Virginia. The losing general had insisted on calling his surrender a convention instead of a capitulation.",
+            "r": "That general was John Burgoyne. For 10 points, name this 1777 battle, the turning point of the American Revolution."
+        },
+        {
+            "p": "The Polish engineer Thaddeus Kosciuszko [“kosh-CHOOSH-koh”] chose and fortified the high ground at Bemis Heights for the American army in this battle. Daniel Morgan’s riflemen fought in this battle’s first clash, at John Freeman’s farm, in September.",
+            "r": "For 10 points, name this pair of 1777 battles in New York that ended with John Burgoyne’s surrender."
+        },
+        {
+            "p": "This battle wrecked a British plan in which Barry St. Leger [“saint LEJ-er”] would march east through the Mohawk Valley while William Howe was expected to come north up the Hudson River. Instead, Howe sailed off to capture Philadelphia, leaving the main army from Canada on its own.",
+            "r": "That army’s general, John Burgoyne, surrendered after this 1777 battle. For 10 points, name this turning point of the Revolution."
+        },
+        {
+            "p": "Before this battle, John Stark’s militia crushed a German raiding party under Friedrich Baum near Bennington, costing the British army hundreds of men and the horses and food it had hoped to seize. Weeks earlier, that army had easily captured Fort Ticonderoga.",
+            "r": "For 10 points, name this 1777 battle in New York where Horatio Gates forced John Burgoyne to surrender."
+        },
+        {
+            "p": "A tall obelisk honoring this battle has statues of American commanders, including Philip Schuyler [“SKY-ler”] and Daniel Morgan, in three of its four niches, while the fourth niche stands empty. The empty niche stands for an officer who was a hero of this battle but later betrayed his country.",
+            "r": "That officer was Benedict Arnold. For 10 points, name this 1777 American victory that brought France into the war."
+        },
+        {
+            "p": "After this battle, Lord North’s government sent the Carlisle Commission to offer the Americans control of their own affairs inside the British Empire, but Congress would accept nothing less than independence. The defeated British general, who was also a member of Parliament, went back to London to defend his conduct.",
+            "r": "News of this victory helped bring France into the war in 1778. For 10 points, name this 1777 American victory in New York."
+        },
+        {
+            "p": "During the second clash of this battle, the British general Simon Fraser was mortally wounded, reportedly by a rifleman named Timothy Murphy. Fraser had commanded the British advance troops at John Freeman’s farm weeks earlier.",
+            "r": "For 10 points, name this American victory in New York in October 1777 that ended with John Burgoyne’s surrender."
+        },
+        {
+            "p": "Baroness Frederika von Riedesel [“REE-duh-zul”], who traveled with her husband’s German troops, described this battle’s aftermath in her journal, including hiding with her children in a cellar during the siege that followed. Her husband commanded soldiers from Brunswick who had been hired by the British.",
+            "r": "For 10 points, name this 1777 battle that ended with John Burgoyne’s surrender to Horatio Gates."
+        },
+        {
+            "p": "Congress removed Philip Schuyler [“SKY-ler”] from command of the army that won this battle after the loss of Fort Ticonderoga. Schuyler’s men had slowed the British advance by cutting down trees and wrecking bridges along the route south from Lake Champlain.",
+            "r": "His replacement, Horatio Gates, accepted John Burgoyne’s surrender. For 10 points, name this 1777 battle in New York."
+        },
+        {
+            "p": "After a bitter quarrel with his commander, one American general rode onto the battlefield without orders during this battle’s second clash, at Bemis Heights, and led a charge until he was shot in the leg.",
+            "r": "That general, Benedict Arnold, later tried to hand West Point to the British. For 10 points, name this 1777 battle in which John Burgoyne surrendered."
+        },
+        {
+            "p": "In this battle’s first clash, on September 19, the British held the field at a farm owned by John Freeman, but they lost about twice as many men as the Americans did. On October 7, the Americans won again at Bemis Heights.",
+            "r": "Ten days later, the whole British army surrendered. For 10 points, name this 1777 American victory in New York."
+        },
+        {
+            "p": "The British general defeated in this battle was nicknamed “Gentleman Johnny,” and years later he wrote a popular comedy called _The Heiress_. His campaign began in Canada and moved south along Lake Champlain toward Albany.",
+            "r": "That general, John Burgoyne, surrendered to Horatio Gates. For 10 points, name this 1777 turning point of the American Revolution."
+        },
+        {
+            "p": "John Trumbull’s painting of the end of this battle hangs in the Rotunda of the U.S. Capitol. It shows a defeated general offering his sword to an American commander, who refused to take it and invited him into his tent instead.",
+            "r": "For 10 points, name this 1777 battle in New York, which convinced France to sign an alliance with the United States."
+        },
+        {
+            "p": "Some officers and members of Congress hoped the winner of this battle would replace George Washington, whose army lost at Brandywine and Germantown that same fall, in a scheme called the Conway Cabal. Unlike Washington, that winner had forced an entire British army to surrender.",
+            "r": "That general was Horatio Gates. For 10 points, name this 1777 battle where John Burgoyne surrendered."
+        }
+    ],
+    "clues": [
+        {
+            "id": "turning-point",
+            "tier": "giveaway",
+            "t": "1777 American victory in New York, called the turning point of the American Revolution",
+            "k": ["turning point", "1777", "new york"],
+            "n": 0
+        },
+        {
+            "id": "france",
+            "tier": "giveaway",
+            "t": "Convinced France to sign an alliance with the United States (February 1778), negotiated by Benjamin Franklin",
+            "k": ["france", "alliance", "1778", "benjamin franklin"],
+            "n": 0,
+            "rabbit": "Benjamin Franklin"
+        },
+        {
+            "id": "burgoyne",
+            "tier": "giveaway",
+            "t": "British general John Burgoyne surrendered his entire army on October 17, 1777",
+            "k": ["john burgoyne", "burgoyne", "surrendered", "october 17"],
+            "n": 0
+        },
+        {
+            "id": "gates",
+            "tier": "giveaway",
+            "t": "The American commander was General Horatio Gates",
+            "k": ["horatio gates", "gates"],
+            "n": 0
+        },
+        {
+            "id": "arnold",
+            "tier": "middle",
+            "t": "Benedict Arnold rode into the fight without orders and was shot in the leg; he later became a traitor",
+            "k": ["benedict arnold", "arnold", "leg", "traitor"],
+            "n": 0,
+            "rabbit": "Benedict Arnold"
+        },
+        {
+            "id": "two-battles",
+            "tier": "middle",
+            "t": "Two clashes: Freeman’s Farm (September 19) and Bemis Heights (October 7)",
+            "k": ["freeman’s farm", "freemans farm", "bemis heights", "september 19"],
+            "n": 0
+        },
+        {
+            "id": "plan",
+            "tier": "middle",
+            "t": "Burgoyne marched south from Canada along Lake Champlain toward Albany to cut off New England",
+            "k": ["canada", "lake champlain", "albany", "new england"],
+            "n": 0
+        },
+        {
+            "id": "howe",
+            "tier": "middle",
+            "t": "William Howe went to capture Philadelphia instead of coming north to help Burgoyne",
+            "k": ["william howe", "howe", "philadelphia"],
+            "n": 0
+        },
+        {
+            "id": "morgan",
+            "tier": "middle",
+            "t": "Daniel Morgan’s riflemen fought on the American side",
+            "k": ["daniel morgan", "morgan", "riflemen"],
+            "n": 0
+        },
+        {
+            "id": "ticonderoga",
+            "tier": "middle",
+            "t": "Earlier that summer, Burgoyne captured Fort Ticonderoga",
+            "k": ["fort ticonderoga", "ticonderoga"],
+            "n": 0,
+            "rabbit": "Fort Ticonderoga"
+        },
+        {
+            "id": "boot",
+            "tier": "power",
+            "t": "The Boot Monument honors Arnold’s wounded leg without naming him",
+            "k": ["boot monument", "boot"],
+            "n": 0
+        },
+        {
+            "id": "niche",
+            "tier": "power",
+            "t": "A monument obelisk with statues of Schuyler, Gates, and Morgan leaves its fourth niche empty for Arnold",
+            "k": ["empty", "niche", "obelisk"],
+            "n": 0
+        },
+        {
+            "id": "convention",
+            "tier": "power",
+            "t": "Burgoyne called his surrender a “convention”; Congress refused to honor it and held the “Convention Army” as prisoners",
+            "k": ["convention army", "convention"],
+            "n": 0
+        },
+        {
+            "id": "kosciuszko",
+            "tier": "power",
+            "t": "The Polish engineer Thaddeus Kosciuszko fortified Bemis Heights",
+            "k": ["kosciuszko", "polish", "engineer"],
+            "n": 0
+        },
+        {
+            "id": "st-leger",
+            "tier": "power",
+            "t": "Barry St. Leger’s march east through the Mohawk Valley turned back at Fort Stanwix",
+            "k": ["leger", "mohawk valley", "fort stanwix"],
+            "n": 0
+        },
+        {
+            "id": "bennington",
+            "tier": "power",
+            "t": "John Stark’s militia beat a German raiding party under Friedrich Baum near Bennington (August 1777)",
+            "k": ["bennington", "john stark", "baum"],
+            "n": 0
+        },
+        {
+            "id": "fraser",
+            "tier": "power",
+            "t": "British general Simon Fraser was mortally wounded, reportedly by the rifleman Timothy Murphy",
+            "k": ["simon fraser", "fraser", "timothy murphy"],
+            "n": 0
+        },
+        {
+            "id": "schuyler",
+            "tier": "power",
+            "t": "Philip Schuyler, replaced by Gates, slowed the British by cutting down trees and wrecking bridges",
+            "k": ["philip schuyler", "schuyler", "cutting down trees"],
+            "n": 0
+        },
+        {
+            "id": "vergennes",
+            "tier": "power",
+            "t": "French foreign minister Vergennes waited for an American victory; news of this one reached Paris in December 1777",
+            "k": ["vergennes", "paris", "december 1777"],
+            "n": 0
+        },
+        {
+            "id": "riedesel",
+            "tier": "power",
+            "t": "Baroness von Riedesel’s journal described the siege; her husband commanded soldiers from Brunswick",
+            "k": ["riedesel", "brunswick", "journal"],
+            "n": 0
+        },
+        {
+            "id": "carlisle",
+            "tier": "power",
+            "t": "Afterward, Britain’s Carlisle Commission offered self-government, but Congress demanded independence",
+            "k": ["carlisle commission", "carlisle"],
+            "n": 0
+        },
+        {
+            "id": "trumbull",
+            "tier": "power",
+            "t": "John Trumbull’s painting of the surrender hangs in the U.S. Capitol Rotunda",
+            "k": ["john trumbull", "trumbull", "rotunda"],
+            "n": 0
+        },
+        {
+            "id": "gentleman-johnny",
+            "tier": "power",
+            "t": "Burgoyne was nicknamed “Gentleman Johnny” and later wrote the comedy _The Heiress_",
+            "k": ["gentleman johnny", "heiress"],
+            "n": 0
+        },
+        {
+            "id": "conway",
+            "tier": "power",
+            "t": "The Conway Cabal hoped to replace George Washington with Gates after this victory",
+            "k": ["conway cabal", "conway", "washington"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Saratoga or Yorktown?",
+        "body": "Saratoga (1777) and Yorktown (1781) are the two most famous American victories of the Revolution, and both end with a whole British army surrendering. Saratoga was the turning point that brought France into the war; at Yorktown, French troops and ships helped trap Lord Cornwallis, and that surrender effectively ended the fighting. George Washington was not at Saratoga, so clues about him point elsewhere.",
+        "fix": "Saratoga clues: Burgoyne, Horatio Gates, Benedict Arnold’s leg, Freeman’s Farm, Bemis Heights, and the French alliance. Yorktown clues: Cornwallis, Rochambeau, de Grasse, and Washington. Say “Saratoga,” since naming only one of its two fights gets a prompt.",
+        "line": "Real answer line: Battles of <b><u>Saratoga</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Saratoga",
+            "Battle of Saratoga",
+            "Battles of Saratoga",
+            "Saratoga campaign",
+            "battle of saratogo"
+        ],
+        "prompt": [
+            "Bemis Heights",
+            "Freeman's Farm"
+        ],
+        "wrong": [
+            "Yorktown",
+            "Battle of Trenton",
+            "Fort Ticonderoga",
+            "Bennington",
+            "Benedict Arnold",
+            "John Burgoyne"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

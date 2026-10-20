@@ -1,0 +1,422 @@
+{
+  "id": "connecticut",
+  "name": "Connecticut",
+  "mono": "CON",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "New England colony and state · The Fundamental Orders and the Charter Oak",
+  "dates": "Statehood 1788 (5th state)",
+  "briefing": "This small New England state calls itself the “Constitution State” because in 1639 its first towns adopted the Fundamental Orders, often called the first written constitution in the Western world. According to legend, its colonists hid their royal charter in an oak tree to keep it from a royal governor. The state also gave America Nathan Hale, Noah Webster’s dictionary, and the nation’s oldest continuously published newspaper, the _Hartford Courant_.",
+  "answerHtml": "<b><u>Connecticut</u></b> (accept <u>Connecticut Colony</u> or Colony of <u>Connecticut</u>)",
+  "accept": [
+    "connecticut",
+    "state of connecticut",
+    "connecticut colony",
+    "colony of connecticut",
+    "connecticut river colony"
+  ],
+  "prompt": [
+    "constitution state",
+    "the constitution state",
+    "nutmeg state",
+    "the nutmeg state",
+    "provisions state"
+  ],
+  "reject": [
+    "massachusetts",
+    "massachusetts bay",
+    "massachusetts bay colony",
+    "rhode island",
+    "providence",
+    "new york",
+    "new hampshire",
+    "new jersey",
+    "vermont",
+    "maine",
+    "delaware",
+    "pennsylvania",
+    "new england",
+    "new haven",
+    "new haven colony",
+    "saybrook colony",
+    "plymouth",
+    "plymouth colony",
+    "hartford",
+    "bridgeport",
+    "long island sound",
+    "connecticut river",
+    "connecticut compromise",
+    "connecticut yankee",
+    "connecticut wits"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Connecticut",
+  "qb": {
+    "q": "Connecticut",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In a 1638 sermon, a Puritan minister argued that “the foundation of authority is laid” in “the free consent of the people.” Two years earlier, that minister had led his congregation from Massachusetts Bay to found a new town on a river in this colony.",
+      "r": "That minister, Thomas Hooker, inspired the Fundamental Orders of 1639. For 10 points, name this colony, later the “Constitution State.”"
+    },
+    {
+      "p": "According to legend, the candles at a 1687 meeting were suddenly blown out, and this colony’s royal charter disappeared before Sir Edmund Andros could take it away. The charter was said to be hidden in a hollow oak tree, which appears on this state’s 1999 quarter.",
+      "r": "That tree was the Charter Oak. For 10 points, name this New England state whose capital is Hartford."
+    },
+    {
+      "p": "In 1637, English soldiers led by John Mason attacked and burned a fortified Pequot [“PEE-kwot”] village near the Mystic River, killing hundreds of people. A treaty signed the next year ended that war and opened the Pequot homeland in this colony to English settlers.",
+      "r": "That conflict was the Pequot War. For 10 points, name this colony where Thomas Hooker founded Hartford."
+    },
+    {
+      "p": "Roger Sherman of this state is the only person who signed the Continental Association, the Declaration of Independence, the Articles of Confederation, and the Constitution. With Oliver Ellsworth, Sherman proposed a plan for a two-house Congress that is named after this state.",
+      "r": "That plan is also called the Great Compromise. For 10 points, name this state, the fifth to ratify the Constitution."
+    },
+    {
+      "p": "This state’s official hero was a young schoolteacher who volunteered to spy on the British in New York in 1776. After he was captured and executed, he was remembered for supposedly saying, “I only regret that I have but one life to lose for my country.”",
+      "r": "That hero was Nathan Hale. For 10 points, name this state, home to Yale University in New Haven."
+    },
+    {
+      "p": "In 1781, a traitor born in this state’s town of Norwich led British troops in a raid that burned much of New London. During that raid, the British also captured Fort Griswold, across the Thames [“THAYMZ”] River in Groton.",
+      "r": "That traitor was Benedict Arnold. For 10 points, name this state on Long Island Sound, whose capital is Hartford."
+    },
+    {
+      "p": "In 1839, Africans who had been illegally enslaved took over the Spanish schooner _La Amistad_ and were captured off Long Island and jailed in this state. Their leader, Sengbe Pieh, also called Cinqué [“sin-KAY”], and the others were freed after John Quincy Adams argued their case before the Supreme Court.",
+      "r": "That ship’s name is Spanish for “friendship.” For 10 points, name this state, home to Yale University in New Haven."
+    },
+    {
+      "p": "Prudence Crandall, this state’s official heroine, opened a school for African American girls in the town of Canterbury in 1833. Lawmakers responded by passing a “Black Law” to shut it down, and Crandall was arrested and put on trial.",
+      "r": "For 10 points, name this New England state, whose capital, Hartford, stands on a river that shares its name."
+    },
+    {
+      "p": "Moses Cleaveland led a surveying party for a land company from this state and founded a settlement on Lake Erie in 1796 that grew into a city named for him. That city lies in northeastern Ohio, on land this state had kept as its “Western Reserve.”",
+      "r": "For 10 points, name this New England state, whose river towns adopted the Fundamental Orders in 1639."
+    },
+    {
+      "p": "Mark Twain lived in this state’s capital during the years he wrote _Adventures of Huckleberry Finn_, and the hero of another of his novels is a factory worker from that city who wakes up in King Arthur’s court.",
+      "r": "Twain’s neighbor there was Harriet Beecher Stowe. For 10 points, name this New England state, whose capital is Hartford."
+    },
+    {
+      "p": "In 1814, New England Federalists who opposed the War of 1812 met in secret in this state’s capital, where some delegates talked about leaving the Union. Their demands reached Washington just as news arrived of the Treaty of Ghent and Andrew Jackson’s victory at New Orleans.",
+      "r": "That meeting was the Hartford Convention. For 10 points, name this New England state that hosted it, the fifth to ratify the Constitution."
+    },
+    {
+      "p": "This state’s name comes from an Algonquian word meaning “long tidal river.” The Dutch explorer Adriaen Block [“AH-dree-ahn”] sailed up that river in 1614, and in 1633 the Dutch built a trading post called the House of Hope on the site of this state’s future capital.",
+      "r": "That river is the longest in New England. For 10 points, name this state, which shares its name with that river."
+    },
+    {
+      "p": "This state’s highest point is on the slope of Mount Frissell [“FRIZ-ul”], whose summit lies across the border in Massachusetts. Only Rhode Island and Delaware are smaller than this state, where the first nuclear-powered submarine, the USS _Nautilus_, was built in Groton.",
+      "r": "The U.S. Coast Guard Academy is in its city of New London. For 10 points, name this state on Long Island Sound, whose capital is Hartford."
+    },
+    {
+      "p": "During the Great Awakening, Jonathan Edwards preached “Sinners in the Hands of an Angry God” in this colony’s town of Enfield in 1741. Later, Noah Webster, a native of this state, published his _American Dictionary of the English Language_ in 1828.",
+      "r": "This colony’s college, founded in 1701, became Yale University. For 10 points, name this New England state."
+    },
+    {
+      "p": "Jonathan Trumbull, this colony’s governor when the Revolution began, was the only colonial governor to side with the Patriots. His colony sent so much food and other supplies to the Continental Army that it was nicknamed the “Provisions State.”",
+      "r": "Trumbull’s son John painted _Declaration of Independence_. For 10 points, name this state, whose capital is Hartford."
+    }
+  ],
+  "clues": [
+    {
+      "id": "constitution-state",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Constitution State” for the Fundamental Orders; also called the “Nutmeg State”",
+      "k": [
+        "constitution state",
+        "nutmeg state",
+        "nutmeg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hartford-yale",
+      "tier": "giveaway",
+      "t": "Capital: Hartford; its city of New Haven is home to Yale University (founded 1701)",
+      "k": [
+        "hartford",
+        "new haven",
+        "yale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fifth-state",
+      "tier": "giveaway",
+      "t": "One of the 13 colonies; became the 5th state to ratify the Constitution (January 1788)",
+      "k": [
+        "13 colonies",
+        "5th state",
+        "1788"
+      ],
+      "n": 0
+    },
+    {
+      "id": "geography",
+      "tier": "giveaway",
+      "t": "New England state on Long Island Sound, between New York and Rhode Island, with Massachusetts to the north",
+      "k": [
+        "long island sound",
+        "new england",
+        "rhode island"
+      ],
+      "n": 0
+    },
+    {
+      "id": "river",
+      "tier": "giveaway",
+      "t": "Shares its name with its great river, the longest river in New England",
+      "k": [
+        "longest",
+        "river"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hooker",
+      "tier": "middle",
+      "t": "Puritan minister Thomas Hooker led his congregation from Massachusetts Bay to found Hartford (1636)",
+      "k": [
+        "thomas hooker",
+        "hooker",
+        "1636"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fundamental-orders",
+      "tier": "middle",
+      "t": "Fundamental Orders (1639): Hartford, Windsor, and Wethersfield set up a government, often called the first written constitution",
+      "k": [
+        "fundamental orders",
+        "windsor",
+        "wethersfield"
+      ],
+      "n": 0
+    },
+    {
+      "id": "charter-oak",
+      "tier": "middle",
+      "t": "Charter Oak: legend says colonists hid their 1662 royal charter in an oak to keep it from Sir Edmund Andros (1687)",
+      "k": [
+        "charter oak",
+        "andros",
+        "1662"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nathan-hale",
+      "tier": "middle",
+      "t": "Nathan Hale, the official state hero, was executed as a spy in 1776 (“I only regret that I have but one life to lose for my country”)",
+      "k": [
+        "nathan hale",
+        "spy",
+        "one life"
+      ],
+      "n": 0,
+      "rabbit": "Nathan Hale"
+    },
+    {
+      "id": "great-compromise",
+      "tier": "middle",
+      "t": "Roger Sherman and Oliver Ellsworth proposed the Great Compromise (1787), which is also named for this state",
+      "k": [
+        "roger sherman",
+        "great compromise",
+        "ellsworth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "benedict-arnold",
+      "tier": "middle",
+      "t": "Benedict Arnold was born in Norwich; in 1781 he led the British raid that burned New London",
+      "k": [
+        "benedict arnold",
+        "norwich",
+        "new london"
+      ],
+      "n": 0,
+      "rabbit": "Benedict Arnold"
+    },
+    {
+      "id": "pequot-war",
+      "tier": "middle",
+      "t": "Pequot War (1636–1638): English soldiers attacked a Pequot fort near the Mystic River in 1637, killing hundreds",
+      "k": [
+        "pequot",
+        "mystic",
+        "1637"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twain-stowe",
+      "tier": "middle",
+      "t": "Mark Twain lived in Hartford next door to Harriet Beecher Stowe, who was born in Litchfield",
+      "k": [
+        "mark twain",
+        "harriet beecher stowe",
+        "litchfield"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hooker-sermon",
+      "tier": "power",
+      "t": "Hooker’s 1638 sermon: “the foundation of authority is laid” in “the free consent of the people”",
+      "k": [
+        "free consent",
+        "sermon",
+        "1638"
+      ],
+      "n": 0
+    },
+    {
+      "id": "block-name",
+      "tier": "power",
+      "t": "Name from an Algonquian word for “long tidal river”; Adriaen Block explored the river (1614); the Dutch built the House of Hope at Hartford (1633)",
+      "k": [
+        "long tidal river",
+        "adriaen block",
+        "house of hope"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sherman-four",
+      "tier": "power",
+      "t": "Roger Sherman was the only person to sign the Continental Association, the Declaration, the Articles of Confederation, and the Constitution",
+      "k": [
+        "continental association",
+        "articles of confederation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trumbull",
+      "tier": "power",
+      "t": "Governor Jonathan Trumbull was the only colonial governor to side with the Patriots; the colony was called the “Provisions State”",
+      "k": [
+        "trumbull",
+        "provisions state"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amistad",
+      "tier": "power",
+      "t": "_Amistad_ (1839): Africans led by Sengbe Pieh (Cinqué) were jailed there before the Supreme Court freed them (1841)",
+      "k": [
+        "amistad",
+        "sengbe pieh",
+        "cinqué"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crandall",
+      "tier": "power",
+      "t": "Prudence Crandall, the state heroine, opened a school for African American girls in Canterbury (1833)",
+      "k": [
+        "prudence crandall",
+        "crandall",
+        "canterbury"
+      ],
+      "n": 0
+    },
+    {
+      "id": "western-reserve",
+      "tier": "power",
+      "t": "Its “Western Reserve” in Ohio: Moses Cleaveland of its land company founded Cleveland (1796)",
+      "k": [
+        "western reserve",
+        "moses cleaveland",
+        "cleveland"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hartford-convention",
+      "tier": "power",
+      "t": "Hartford Convention (1814–1815): New England Federalists met in secret to protest the War of 1812",
+      "k": [
+        "hartford convention",
+        "federalists",
+        "war of 1812"
+      ],
+      "n": 0,
+      "rabbit": "War of 1812"
+    },
+    {
+      "id": "frissell-nautilus",
+      "tier": "power",
+      "t": "Third-smallest state; highest point on Mount Frissell’s slope; the USS _Nautilus_ was built at Groton; the Coast Guard Academy is in New London",
+      "k": [
+        "mount frissell",
+        "nautilus",
+        "groton",
+        "coast guard academy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "edwards-webster",
+      "tier": "power",
+      "t": "Jonathan Edwards preached “Sinners in the Hands of an Angry God” at Enfield (1741); native Noah Webster published his dictionary (1828)",
+      "k": [
+        "jonathan edwards",
+        "noah webster",
+        "enfield",
+        "dictionary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "courant",
+      "tier": "power",
+      "t": "The _Hartford Courant_ (1764) is the nation’s oldest continuously published newspaper",
+      "k": [
+        "hartford courant",
+        "courant",
+        "1764"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which runaway Puritan?",
+    "body": "Three famous Puritans left Massachusetts Bay in the 1630s, and each started somewhere different. Thomas Hooker led his congregation to Hartford, in Connecticut, while Roger Williams founded Providence and Anne Hutchinson settled nearby, both in what became Rhode Island. Players who hear “left Massachusetts” often buzz with Rhode Island too early, and “first written constitution” clues can tempt you toward the Mayflower Compact.",
+    "fix": "Hooker, Hartford, the Fundamental Orders, the Charter Oak, and the Pequot War mean Connecticut. Williams, Providence, religious freedom, and Hutchinson mean Rhode Island. The Mayflower Compact (1620) belongs to Plymouth, which later joined Massachusetts.",
+    "line": "Real answer line: <b><u>Connecticut</u></b> (accept <u>Connecticut Colony</u> or Colony of <u>Connecticut</u>)"
+  },
+  "tests": {
+    "right": [
+      "Connecticut",
+      "Conneticut",
+      "State of Connecticut",
+      "Connecticut Colony",
+      "Colony of Connecticut"
+    ],
+    "prompt": [
+      "Constitution State",
+      "Nutmeg State"
+    ],
+    "wrong": [
+      "Massachusetts",
+      "Rhode Island",
+      "New Haven",
+      "Connecticut River",
+      "A Connecticut Yankee in King Arthur's Court",
+      "Hartford",
+      "Connecticut Compromise"
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "mississippi-river",
+    "name": "Mississippi River",
+    "mono": "MSR",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Great river of the American heartland · Route of explorers and steamboats",
+    "dates": "Reached by de Soto in 1541",
+    "briefing": "The Mississippi River starts as a stream so small that visitors can cross it on stepping stones at Lake Itasca in Minnesota, then flows more than 2,300 miles south to the Gulf of Mexico. Explorers like Marquette, Jolliet, and La Salle paddled it, steamboats and Mark Twain made it famous, and in the Civil War the Union fought to control it so it could split the Confederacy in two.",
+    "answerHtml": "<b><u>Mississippi</u></b> River (do not accept “Missouri River”)",
+    "accept": [
+        "mississippi",
+        "mississippi river",
+        "the mississippi",
+        "the mississippi river"
+    ],
+    "prompt": [
+        "father of waters",
+        "the father of waters",
+        "old man river",
+        "ol man river"
+    ],
+    "reject": [
+        "missouri river",
+        "missouri",
+        "ohio river",
+        "ohio",
+        "arkansas river",
+        "illinois river",
+        "red river",
+        "tennessee river",
+        "atchafalaya river",
+        "atchafalaya",
+        "colorado river",
+        "rio grande",
+        "hudson river",
+        "potomac river",
+        "st lawrence river",
+        "saint lawrence river",
+        "mississippian",
+        "mississippian culture",
+        "state of mississippi",
+        "anaconda plan",
+        "siege of vicksburg",
+        "vicksburg",
+        "gulf of mexico",
+        "gulf of america",
+        "new orleans",
+        "louisiana purchase",
+        "lake itasca",
+        "itasca",
+        "cahokia"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Mississippi_River",
+    "qb": {
+        "q": "Mississippi River",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Henry Schoolcraft named this river’s source lake Itasca [“eye-TASS-kuh”] by joining pieces of the Latin words for “true head.” Where this river flows out of that lake in northern Minnesota, visitors can walk across it on a line of stepping stones.",
+            "r": "It later flows past St. Louis and Memphis. For 10 points, name this river that empties into the Gulf of Mexico below New Orleans."
+        },
+        {
+            "p": "In 1673, the Jesuit priest Jacques Marquette and the explorer Louis Jolliet paddled down the Wisconsin River into this river, then followed it south as far as the mouth of the Arkansas River. They turned back because they feared meeting the Spanish farther south.",
+            "r": "For 10 points, name this river that flows past Memphis and New Orleans on its way to the Gulf of Mexico."
+        },
+        {
+            "p": "In 1682, René-Robert Cavelier, Sieur de La Salle [“luh SAL”], traveled by canoe to the mouth of this river and claimed all the land it drained for France. He named that huge region Louisiana in honor of King Louis XIV.",
+            "r": "About a century later, the Treaty of Paris made this river the western border of the United States. For 10 points, name this river that flows past New Orleans."
+        },
+        {
+            "p": "In 1541, the Spanish explorer Hernando de Soto led the first European expedition known to cross this river. When de Soto died of a fever the next year, his men sank his body in this river so that the Native peoples nearby would not learn he was dead.",
+            "r": "For 10 points, name this river that flows past Memphis on its way to the Gulf of Mexico."
+        },
+        {
+            "p": "Pinckney’s Treaty of 1795 gave Americans the right to ship goods down this river and store them at a port near its mouth without paying duties. When Spanish officials took away that “right of deposit” in 1802, Thomas Jefferson sent James Monroe to France to try to buy that port.",
+            "r": "The Louisiana Purchase soon gave the United States a huge area of land west of this river. For 10 points, name this river that flows past New Orleans."
+        },
+        {
+            "p": "The New Madrid [“MAD-rid”] earthquakes of 1811 and 1812 were so strong that witnesses said they made this river flow backward for a short time, and they created Reelfoot Lake in Tennessee. That winter, the _New Orleans_ became the first steamboat to travel down this river.",
+            "r": "Mark Twain later worked as a steamboat pilot on this river. For 10 points, name this river that flows past St. Louis and Memphis."
+        },
+        {
+            "p": "In the late 1850s, a river pilot named Horace Bixby taught one young man to steer steamboats on this river. That man took his pen name from a crew member’s call meaning the water was two fathoms, or twelve feet, deep.",
+            "r": "That writer described his piloting days in a memoir about “life on” this river. For 10 points, name this river that flows past Mark Twain’s boyhood home of Hannibal, Missouri."
+        },
+        {
+            "p": "In one novel, a boy and a man who has escaped slavery plan to reach Cairo [“KAY-roh”], Illinois, so they can travel up the Ohio River into the free states, but they drift past it in a thick fog. Earlier, the two had met while hiding on Jackson’s Island.",
+            "r": "For 10 points, name this river that Huckleberry Finn and Jim travel down on a raft in a Mark Twain novel."
+        },
+        {
+            "p": "After Union victories at Vicksburg and Port Hudson in 1863, Abraham Lincoln wrote that “the Father of Waters again goes unvexed to the sea.” Winfield Scott’s Anaconda Plan had called for the Union to blockade Southern ports and take control of this river, cutting the Confederacy in two.",
+            "r": "For 10 points, name this river that the Union took control of to split the Confederacy, which flows past Memphis and New Orleans."
+        },
+        {
+            "p": "Secretary of Commerce Herbert Hoover won national fame for directing relief efforts during this river’s Great Flood of 1927, which drove hundreds of thousands of people from their homes. The next year, Congress put the Army Corps of Engineers in charge of controlling floods along this river.",
+            "r": "For 10 points, name this river that flows from Minnesota past St. Louis and Memphis to the Gulf of Mexico."
+        },
+        {
+            "p": "James Eads designed a steel arch bridge across this river at St. Louis that opened in 1874, and Andrew Carnegie’s Keystone Bridge Company built it. Nearly a century later, Eero Saarinen’s [“AIR-oh SAR-uh-nen”] Gateway Arch was completed on this river’s bank in the same city.",
+            "r": "The Missouri River joins this river just north of that city. For 10 points, name this river that flows south to New Orleans."
+        },
+        {
+            "p": "Monks Mound, the largest earthwork built by ancient people in the Americas, stands at Cahokia [“kuh-HOH-kee-uh”], a city that flourished about a thousand years ago near this river, across from present-day St. Louis. This river’s name comes from an Ojibwe [“oh-JIB-way”] word meaning “great river.”",
+            "r": "For 10 points, name this river that flows from Minnesota to the Gulf of Mexico."
+        },
+        {
+            "p": "The Army Corps of Engineers built the Old River Control Structure to stop this river from shifting most of its flow into the shorter Atchafalaya [“uh-CHAF-uh-LY-uh”] River. Mud carried by this river has built a “bird’s-foot” delta that sticks out into the sea southeast of New Orleans.",
+            "r": "For 10 points, name this river that carries barges past Baton Rouge and New Orleans."
+        },
+        {
+            "p": "In April 1865, the overcrowded steamboat _Sultana_ exploded on this river near Memphis in the deadliest ship disaster in U.S. history; most of the people who died were Union soldiers going home from Confederate prison camps at the end of the Civil War.",
+            "r": "In the musical _Show Boat_, the song “Ol’ Man River” is about this river. For 10 points, name this river where Mark Twain once piloted steamboats."
+        },
+        {
+            "p": "Father Louis Hennepin named the only major natural waterfall on this river after Saint Anthony of Padua, and that waterfall later powered the flour mills of Minneapolis. Far downstream, the Ohio River joins this river at Cairo [“KAY-roh”], Illinois.",
+            "r": "For 10 points, name this river that begins at Lake Itasca and ends at the Gulf of Mexico."
+        }
+    ],
+    "clues": [
+        {
+            "id": "gulf",
+            "tier": "giveaway",
+            "t": "Flows south from Minnesota into the Gulf of Mexico, which a 2025 executive order renamed the “Gulf of America” for U.S. government use",
+            "k": ["gulf of mexico", "gulf of america", "minnesota"],
+            "n": 0
+        },
+        {
+            "id": "cities",
+            "tier": "giveaway",
+            "t": "Flows past Minneapolis, St. Louis, Memphis, Baton Rouge, and New Orleans",
+            "k": ["new orleans", "memphis", "baton rouge", "minneapolis"],
+            "n": 0,
+            "rabbit": "New Orleans"
+        },
+        {
+            "id": "huck-finn",
+            "tier": "giveaway",
+            "t": "Huckleberry Finn and Jim float down it on a raft in Mark Twain’s novel",
+            "k": ["huckleberry finn", "raft", "jim"],
+            "n": 0,
+            "rabbit": "Adventures of Huckleberry Finn"
+        },
+        {
+            "id": "twain",
+            "tier": "giveaway",
+            "t": "Mark Twain grew up beside it in Hannibal, Missouri, and later piloted steamboats on it",
+            "k": ["mark twain", "steamboats", "hannibal"],
+            "n": 0,
+            "rabbit": "Mark Twain"
+        },
+        {
+            "id": "itasca",
+            "tier": "middle",
+            "t": "Begins at Lake Itasca in northern Minnesota, where visitors can cross it on stepping stones",
+            "k": ["lake itasca", "itasca", "stepping stones"],
+            "n": 0
+        },
+        {
+            "id": "tributaries",
+            "tier": "middle",
+            "t": "The Missouri River joins it just north of St. Louis, and the Ohio River joins it at Cairo, Illinois",
+            "k": ["missouri river", "ohio river", "cairo"],
+            "n": 0
+        },
+        {
+            "id": "marquette-jolliet",
+            "tier": "middle",
+            "t": "Jacques Marquette and Louis Jolliet paddled down it in 1673, turning back at the mouth of the Arkansas River",
+            "k": ["marquette", "jolliet", "1673", "arkansas river"],
+            "n": 0
+        },
+        {
+            "id": "la-salle",
+            "tier": "middle",
+            "t": "La Salle reached its mouth in 1682 and claimed all the land it drained for France, naming it Louisiana after Louis XIV",
+            "k": ["la salle", "1682", "louisiana", "louis xiv"],
+            "n": 0,
+            "rabbit": "Louisiana"
+        },
+        {
+            "id": "de-soto",
+            "tier": "middle",
+            "t": "Hernando de Soto’s Spanish expedition crossed it in 1541; when he died the next year, his men sank his body in it",
+            "k": ["de soto", "hernando", "1541"],
+            "n": 0
+        },
+        {
+            "id": "vicksburg",
+            "tier": "middle",
+            "t": "The Anaconda Plan aimed to control it; Ulysses S. Grant’s capture of Vicksburg (July 4, 1863) split the Confederacy in two",
+            "k": ["anaconda plan", "anaconda", "vicksburg", "grant"],
+            "n": 0,
+            "rabbit": "Siege of Vicksburg"
+        },
+        {
+            "id": "louisiana-purchase",
+            "tier": "middle",
+            "t": "The Louisiana Purchase (1803) gave the United States New Orleans and a huge area of land west of it",
+            "k": ["louisiana purchase", "1803", "new orleans"],
+            "n": 0,
+            "rabbit": "Louisiana Purchase"
+        },
+        {
+            "id": "treaty-of-paris",
+            "tier": "middle",
+            "t": "The Treaty of Paris (1783) made it the western border of the United States",
+            "k": ["treaty of paris", "1783", "western border"],
+            "n": 0
+        },
+        {
+            "id": "ojibwe",
+            "tier": "middle",
+            "t": "Its name comes from an Ojibwe word meaning “great river”",
+            "k": ["ojibwe", "great river"],
+            "n": 0
+        },
+        {
+            "id": "schoolcraft",
+            "tier": "power",
+            "t": "Henry Schoolcraft identified its source in 1832 and made up the name Itasca from the Latin words “veritas caput” (“true head”)",
+            "k": ["schoolcraft", "veritas caput", "true head", "1832"],
+            "n": 0
+        },
+        {
+            "id": "pinckney",
+            "tier": "power",
+            "t": "Pinckney’s Treaty (1795) let Americans ship goods down it and store them at New Orleans (the “right of deposit”)",
+            "k": ["pinckney", "right of deposit", "1795"],
+            "n": 0
+        },
+        {
+            "id": "new-madrid",
+            "tier": "power",
+            "t": "The New Madrid earthquakes (1811–1812) reportedly made it flow backward for a short time and created Reelfoot Lake in Tennessee",
+            "k": ["new madrid", "reelfoot", "backward", "earthquakes"],
+            "n": 0
+        },
+        {
+            "id": "first-steamboat",
+            "tier": "power",
+            "t": "The _New Orleans_, captained by Nicholas Roosevelt, became the first steamboat to travel down it (1811–1812)",
+            "k": ["nicholas roosevelt", "first steamboat", "steamboat"],
+            "n": 0
+        },
+        {
+            "id": "bixby",
+            "tier": "power",
+            "t": "Twain learned piloting from Horace Bixby and wrote an 1883 memoir about his “life on” it; his pen name was a call meaning two fathoms (12 feet) deep",
+            "k": ["horace bixby", "bixby", "two fathoms", "fathoms"],
+            "n": 0
+        },
+        {
+            "id": "huck-cairo",
+            "tier": "power",
+            "t": "Huck and Jim meet on Jackson’s Island and plan to head up the Ohio River from Cairo, Illinois, but miss Cairo in a fog",
+            "k": ["jackson’s island", "jacksons island", "fog"],
+            "n": 0
+        },
+        {
+            "id": "father-of-waters",
+            "tier": "power",
+            "t": "After Vicksburg and Port Hudson fell (1863), Lincoln wrote: “The Father of Waters again goes unvexed to the sea”",
+            "k": ["father of waters", "unvexed", "port hudson"],
+            "n": 0
+        },
+        {
+            "id": "sultana",
+            "tier": "power",
+            "t": "The steamboat _Sultana_ exploded on it near Memphis in April 1865, the deadliest ship disaster in U.S. history",
+            "k": ["sultana", "1865"],
+            "n": 0
+        },
+        {
+            "id": "eads-bridge",
+            "tier": "power",
+            "t": "James Eads’s steel arch bridge at St. Louis opened in 1874; Eero Saarinen’s Gateway Arch was finished on its bank in 1965",
+            "k": ["eads", "gateway arch", "saarinen", "1874"],
+            "n": 0
+        },
+        {
+            "id": "flood-1927",
+            "tier": "power",
+            "t": "Great Flood of 1927: Herbert Hoover led the relief effort, and the Flood Control Act of 1928 put the Army Corps of Engineers in charge of its levees",
+            "k": ["1927", "herbert hoover", "hoover", "flood control act", "levees"],
+            "n": 0
+        },
+        {
+            "id": "old-river",
+            "tier": "power",
+            "t": "The Old River Control Structure keeps it from shifting into the Atchafalaya River; its mouth is a “bird’s-foot” delta",
+            "k": ["old river", "atchafalaya", "bird’s-foot", "delta"],
+            "n": 0
+        },
+        {
+            "id": "cahokia",
+            "tier": "power",
+            "t": "Mound builders built the city of Cahokia near it, across from St. Louis; Monks Mound there is the largest ancient earthwork in the Americas",
+            "k": ["cahokia", "monks mound", "mound builders"],
+            "n": 0
+        },
+        {
+            "id": "show-boat",
+            "tier": "power",
+            "t": "The song “Ol’ Man River,” from Jerome Kern and Oscar Hammerstein II’s musical _Show Boat_ (1927), is about it",
+            "k": ["show boat", "ol’ man river", "hammerstein", "jerome kern"],
+            "n": 0
+        },
+        {
+            "id": "hennepin",
+            "tier": "power",
+            "t": "Father Louis Hennepin named Saint Anthony Falls (1680), its only major natural waterfall, which later powered the flour mills of Minneapolis",
+            "k": ["hennepin", "saint anthony", "flour mills", "1680"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Mississippi or Missouri?",
+        "body": "The Missouri River is the Mississippi’s longest tributary, and the two meet just north of St. Louis, so river clues from that area can fit either one. Civil War clues are another trap: the Anaconda Plan and the Siege of Vicksburg have their own answer lines, so if a question asks for “this plan” or “this siege,” naming the river is wrong. A question about “this state” wants the state of Mississippi instead.",
+        "fix": "Lake Itasca, de Soto, Marquette and Jolliet, La Salle, Mark Twain, New Orleans, and the Gulf of Mexico mean the Mississippi; Lewis and Clark, the Great Plains, and Montana mean the Missouri. Listen for the noun before you buzz, then just say “Mississippi.”",
+        "line": "Real answer line: <b><u>Mississippi</u></b> River (do not accept “Missouri River”)"
+    },
+    "tests": {
+        "right": [
+            "Mississippi River",
+            "Mississippi",
+            "the Mississippi",
+            "Missisippi River",
+            "Mississipi"
+        ],
+        "prompt": [
+            "Father of Waters",
+            "Old Man River"
+        ],
+        "wrong": [
+            "Missouri River",
+            "Ohio River",
+            "Anaconda Plan",
+            "Siege of Vicksburg",
+            "Gulf of Mexico",
+            "Mississippian culture"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
