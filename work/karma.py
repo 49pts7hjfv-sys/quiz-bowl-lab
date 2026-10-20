@@ -106,7 +106,7 @@ data = {
             "r": "Its name means “action” in Sanskrit. For 10 points, name this law of moral cause and effect."
         },
         {
-            "p": "In 1896, Swami Vivekananda [“vih-VAY-kah-NUN-duh”] published lectures he had given in New York about a yoga named for this concept, teaching that work done without selfish motives frees the soul. He drew that teaching from the _Bhagavad Gita_.",
+            "p": "Swami Vivekananda [“vih-VAY-kah-NUN-duh”] turned lectures he had given in New York into a book about a yoga named for this concept, teaching that work done without selfish motives frees the soul. He drew that teaching from the _Bhagavad Gita_.",
             "r": "For 10 points, name this concept, which teaches that every action has consequences in this life and the next."
         },
         {
@@ -281,7 +281,7 @@ data = {
         {
             "id": "vivekananda",
             "tier": "power",
-            "t": "Swami Vivekananda’s 1896 book of New York lectures explained the yoga of selfless work",
+            "t": "Swami Vivekananda’s book of New York lectures explained the yoga of selfless work",
             "k": ["vivekananda", "new york", "lectures"],
             "n": 0
         },

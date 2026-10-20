@@ -55,7 +55,7 @@
   },
   "tossups": [
     {
-      "p": "During this battle, an Army Signal Corps observation balloon was towed along a jungle trail above the advancing soldiers. The balloon showed Spanish riflemen exactly where the Americans were, and many soldiers were hit while crowded together at a river crossing below it.",
+      "p": "During this battle, an Army Signal Corps observation balloon was towed along a jungle trail above the advancing soldiers. The balloon gave away the Americans’ position to Spanish riflemen, and many soldiers were hit while crowded together at a river crossing below it.",
       "r": "Theodore Roosevelt’s Rough Riders also fought in this battle. For 10 points, name this July 1, 1898, battle outside Santiago, Cuba."
     },
     {
@@ -103,7 +103,7 @@
       "r": "The father had led the Rough Riders. For 10 points, name this 1898 battle in which Theodore Roosevelt charged up Kettle Hill."
     },
     {
-      "p": "Glowing newspaper reports by the correspondent Richard Harding Davis made one volunteer officer the best-known American hero of this battle. That officer was elected governor of New York about four months later.",
+      "p": "Glowing newspaper reports by the correspondent Richard Harding Davis helped make one volunteer officer the best-known American hero of this battle. That officer was elected governor of New York about four months later.",
       "r": "He had led the Rough Riders up Kettle Hill. For 10 points, name this 1898 battle in Cuba that made Theodore Roosevelt a national hero."
     },
     {
@@ -259,7 +259,7 @@
     {
       "id": "balloon",
       "tier": "power",
-      "t": "An Army Signal Corps observation balloon above the troops showed Spanish riflemen where to aim",
+      "t": "An Army Signal Corps observation balloon above the troops gave away their position to Spanish riflemen",
       "k": [
         "balloon",
         "signal corps",
@@ -383,7 +383,7 @@
     {
       "id": "round-robin",
       "tier": "power",
-      "t": "Roosevelt was turned down for the medal in 1898, possibly for angering the War Department with a letter urging that sick troops be sent home",
+      "t": "Roosevelt was turned down for the medal at the time, possibly for angering the War Department with a letter urging that sick troops be sent home",
       "k": [
         "war department",
         "sick troops",
@@ -395,7 +395,7 @@
     {
       "id": "davis",
       "tier": "power",
-      "t": "Correspondent Richard Harding Davis’s glowing reports made Roosevelt the battle’s best-known hero",
+      "t": "Correspondent Richard Harding Davis’s glowing reports helped make Roosevelt the battle’s best-known hero",
       "k": [
         "richard harding davis",
         "davis",

@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "polymers",
     "name": "Polymers",
-    "mono": "PLY",
+    "mono": "PMR",
     "category": "Chemistry",
     "qbCategory": "Science · Chemistry",
     "kicker": "Giant molecules built from repeating units · Plastics, nylon, and DNA",

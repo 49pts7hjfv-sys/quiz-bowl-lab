@@ -110,7 +110,7 @@ data = {
             "r": "He had predicted that famine by explaining Pharaoh’s dream of seven fat cows and seven thin cows. For 10 points, name this son of Jacob."
         },
         {
-            "p": "After naming this man his second-in-command, Pharaoh put his own signet ring on this man’s hand, dressed him in fine linen with a gold chain, and had him ride in a chariot while people cried, “Bow the knee!” This man was thirty years old.",
+            "p": "After naming this man his second-in-command, Pharaoh put his own signet ring on this man’s hand, dressed him in fine linen with a gold chain, and had him ride in a chariot while people cried, “Bow the knee!” This man was thirty years old at the time.",
             "r": "He had won that post by explaining Pharaoh’s dreams. For 10 points, name this son of Jacob."
         },
         {

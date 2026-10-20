@@ -89,7 +89,7 @@ data = {
             "r": "Those archangels are Michael and Raphael. For 10 points, name this archangel who announced the birth of Jesus."
         },
         {
-            "p": "A hadith says this figure had six hundred wings when Muhammad once saw him in his true form. After this figure’s first visit, Muhammad’s wife Khadija [“kah-DEE-jah”] took him to her Christian cousin Waraqa [“WAH-ruh-kuh”], who said the visitor was the same messenger once sent to Moses.",
+            "p": "A hadith says this figure had six hundred wings when Muhammad once saw him in his true form. After this figure’s first visit, Khadija [“kah-DEE-jah”] took her husband, Muhammad, to her Christian cousin Waraqa [“WAH-ruh-kuh”], who said the visitor was the same messenger once sent to Moses.",
             "r": "Muslims believe this figure had commanded “Read!” in a cave on Mount Hira [“hih-RAH”]. For 10 points, name this angel who, Muslims believe, revealed the Quran."
         },
         {

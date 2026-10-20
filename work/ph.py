@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "ph",
     "name": "pH",
-    "mono": "PH",
+    "mono": "PH7",
     "category": "Chemistry",
     "qbCategory": "Science · Chemistry",
     "kicker": "How acidic or basic a solution is · Neutral is 7, like pure water",
@@ -82,7 +82,7 @@ data = {
             "r": "For 10 points, name this number that tells how acidic or basic a solution is, on a scale where 7 is neutral."
         },
         {
-            "p": "Søren Sørensen [“SUR-en-sen”] introduced this measure in 1909 while studying proteins and enzymes at the Carlsberg Laboratory in Copenhagen, which was founded by a brewery. He defined it using the negative logarithm of a concentration.",
+            "p": "Søren Sørensen [“SUR-en-sen”] introduced this measure in 1909 while studying proteins and enzymes at the Carlsberg Laboratory, a research lab in Copenhagen founded by a brewer. He defined it using the negative logarithm of a concentration.",
             "r": "Pure water has a value of 7 on this measure. For 10 points, name this scale that tells how acidic or basic a solution is."
         },
         {

@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "activation-energy",
     "name": "Activation energy",
-    "mono": "EA",
+    "mono": "ACE",
     "category": "Chemistry",
     "qbCategory": "Science · Chemistry",
     "kicker": "The energy hill a reaction must climb · Why a match needs a strike",

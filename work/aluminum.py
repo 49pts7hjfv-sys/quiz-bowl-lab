@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "aluminum",
     "name": "Aluminum",
-    "mono": "AL",
+    "mono": "ALU",
     "category": "Chemistry",
     "qbCategory": "Science · Chemistry",
     "kicker": "Element 13 · The light, corrosion-resistant metal in cans and airplanes",
