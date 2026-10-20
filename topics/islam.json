@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "Faith of the Quran and the Prophet Muhammad · World’s second-largest religion",
   "dates": "Began in Arabia in the 600s CE",
-  "briefing": "Five times a day, a call to prayer rings out from the towers of mosques, and Muslims around the world turn toward the Kaaba in Mecca to pray. Islam, whose name means “submission” to God, teaches that there is one God (Allah in Arabic) and that Muhammad was God’s final prophet. With nearly two billion followers, it is the world’s second-largest religion, and its believers follow the Five Pillars, from daily prayer to the pilgrimage called the Hajj.",
+  "briefing": "Five times a day, a call to prayer rings out from the towers of mosques, and Muslims around the world turn toward the Kaaba in Mecca to pray. Islam, whose name means “submission” to God, teaches that there is one God (Allah in Arabic) and that Muhammad was God’s final prophet. With about two billion followers, it is the world’s second-largest religion, and its believers follow the Five Pillars, from daily prayer to the pilgrimage called the Hajj.",
   "answerHtml": "<b><u>Islam</u></b> (accept word forms like <u>Muslim</u>s or the <u>Islamic</u> faith; do not accept a single branch such as “Sunni” or “Shia”; do not accept “Nation of Islam”)",
   "accept": [
     "islam",
@@ -146,7 +146,7 @@
       "r": "Its declaration of faith, the Shahada, says there is no god but God and that Muhammad is God’s messenger. For 10 points, name this religion."
     },
     {
-      "p": "Followers of this religion eat food that is halal [“hah-LAHL”], meaning “permitted,” and avoid foods and drinks that are haram [“hah-RAHM”], or “forbidden,” such as pork and alcohol. For meat to be halal, God’s name must be spoken when the animal is killed for food.",
+      "p": "Followers of this religion eat food that is halal [“hah-LAHL”], meaning “permitted,” and avoid foods and drinks that are haram [“hah-RAHM”], or “forbidden,” such as pork and alcohol. When an animal is killed for halal meat, God’s name is traditionally spoken.",
       "r": "For 10 points, name this religion whose followers fast from dawn to sunset during the month of Ramadan."
     },
     {
@@ -186,7 +186,7 @@
     {
       "id": "one-god",
       "tier": "giveaway",
-      "t": "Strictly monotheistic: there is one God, called Allah in Arabic",
+      "t": "Strictly monotheistic: teaches that there is one God, called Allah in Arabic",
       "k": [
         "allah",
         "one god",
@@ -209,7 +209,7 @@
     {
       "id": "second-largest",
       "tier": "giveaway",
-      "t": "The world’s second-largest religion, with nearly two billion followers; Indonesia has more of them than any other country",
+      "t": "The world’s second-largest religion, with about two billion followers; Indonesia has more of them than any other country",
       "k": [
         "second-largest",
         "two billion",
@@ -442,7 +442,7 @@
     {
       "id": "tours-cordoba",
       "tier": "power",
-      "t": "Charles Martel halted its rulers’ advance into France at the Battle of Tours (732); in Spain they built the Great Mosque of Córdoba",
+      "t": "Charles Martel’s Franks halted an Umayyad army from Spain at the Battle of Tours (732); in Spain, Umayyad rulers built the Great Mosque of Córdoba",
       "k": [
         "tours",
         "charles martel",

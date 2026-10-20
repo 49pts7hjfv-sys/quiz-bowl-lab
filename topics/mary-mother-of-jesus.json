@@ -7,7 +7,7 @@
   "kicker": "Mother of Jesus in the Gospels · Honored in Christianity and Islam",
   "dates": "1st century BCE–1st century CE",
   "briefing": "In the Gospel of Luke, the angel Gabriel visits a young woman in Nazareth and tells her she will give birth to a son named Jesus, and she answers, “Let it be to me according to your word.” Christians honor Mary as the mother of Jesus, and Catholics and Orthodox Christians call her by titles like “Mother of God” and “Our Lady.” The Quran honors her too: one whole chapter is named Maryam, her Arabic name.",
-  "answerHtml": "<b><u>Mary</u></b> (or the Virgin <u>Mary</u> or <u>Mary</u>, mother of Jesus; accept <u>Maryam</u>, <u>Madonna</u>, or <u>Our Lady</u>; prompt on “mother of Jesus” or “Theotokos”; do not accept “Mary Magdalene”)",
+  "answerHtml": "<b><u>Mary</u></b> (or the Virgin <u>Mary</u> or <u>Mary</u>, mother of Jesus; accept <u>Maryam</u>, <u>Madonna</u>, or <u>Our Lady</u>; prompt on “mother of Jesus,” “Mother of God,” or “Theotokos”; do not accept “Mary Magdalene”)",
   "accept": [
     "mary",
     "virgin mary",
@@ -37,6 +37,8 @@
     "mother of god",
     "theotokos",
     "the virgin",
+    "virgin",
+    "virgin of guadalupe",
     "blessed mother",
     "queen of heaven"
   ],
@@ -86,7 +88,9 @@
     "prompt": [
       "Theotokos",
       "Mother of God",
-      "the mother of Jesus"
+      "the mother of Jesus",
+      "Virgin",
+      "Virgin of Guadalupe"
     ],
     "wrong": [
       "Mary Magdalene",
@@ -122,7 +126,7 @@
     },
     {
       "p": "In 1950, Pope Pius XII declared that at the end of her earthly life, this woman was taken up body and soul into heaven. Eastern Orthodox Christians celebrate a related feast called the Dormition [“dor-MISH-un”], or “falling asleep,” and Titian [“TISH-un”] painted her rising into the sky in a huge altarpiece in Venice.",
-      "r": "Catholics celebrate that event, the Assumption, on August 15. For 10 points, name this mother of Jesus."
+      "r": "Catholics celebrate the Feast of the Assumption on August 15. For 10 points, name this mother of Jesus."
     },
     {
       "p": "In December 1531, an Indigenous man named Juan Diego reported seeing this woman on Tepeyac [“teh-peh-YAHK”] Hill near Mexico City. According to the story, when he opened his cloak to show roses to Bishop Juan de Zumárraga [“soo-MAR-rah-gah”], her image appeared on the cloth.",
@@ -161,11 +165,11 @@
       "r": "For 10 points, name this woman, who stood by the cross of her son, Jesus."
     },
     {
-      "p": "When this woman and her husband presented their baby at the Temple in Jerusalem, an old man named Simeon told her that “a sword will pierce your own soul too.” In the Gospel of Matthew, an angel warns her husband in a dream to take the family to Egypt to escape King Herod.",
+      "p": "When this woman and her husband presented their baby at the Temple in Jerusalem, a devout man named Simeon told her that “a sword will pierce your own soul too.” In the Gospel of Matthew, an angel warns her husband in a dream to take the family to Egypt to escape King Herod.",
       "r": "Her husband was Joseph, a carpenter from Nazareth. For 10 points, name this woman, the mother of Jesus."
     },
     {
-      "p": "According to a second-century text called the Protoevangelium [“PROH-toh-ee-van-JEL-ee-um”] of James, this woman’s parents were named Joachim [“JOH-uh-kim”] and Anne, and she was raised in the Temple in Jerusalem. A huge basilica in Washington, D.C., honors her as the patron saint of the United States.",
+      "p": "According to a second-century text called the Protoevangelium [“PROH-toh-ee-van-JEL-ee-um”] of James, this woman’s parents were named Joachim [“JOH-uh-kim”] and Anne, and she was raised in the Temple in Jerusalem. A huge Catholic basilica in Washington, D.C., honors her as patron saint of the United States.",
       "r": "That basilica is named for her Immaculate Conception. For 10 points, name this woman, the wife of Joseph and the mother of Jesus."
     },
     {
@@ -267,7 +271,7 @@
     {
       "id": "guadalupe",
       "tier": "middle",
-      "t": "Virgin of Guadalupe (1531): her image appeared on Juan Diego’s cloak after a vision on Tepeyac Hill near Mexico City",
+      "t": "Virgin of Guadalupe (1531): Juan Diego reported a vision on Tepeyac Hill near Mexico City; tradition says her image appeared on his cloak",
       "k": [
         "guadalupe",
         "juan diego",
@@ -279,7 +283,7 @@
     {
       "id": "lourdes",
       "tier": "middle",
-      "t": "Lourdes, France (1858): Bernadette Soubirous saw a lady who said, “I am the Immaculate Conception”",
+      "t": "Lourdes, France (1858): Bernadette Soubirous reported seeing a lady who said, “I am the Immaculate Conception”",
       "k": [
         "lourdes",
         "bernadette",
@@ -392,7 +396,7 @@
     {
       "id": "patron-saint",
       "tier": "power",
-      "t": "Under the title of the Immaculate Conception, she is the patron saint of the United States; a huge basilica in Washington, D.C., honors her",
+      "t": "Catholics honor her, under the title of the Immaculate Conception, as patron saint of the United States; a huge basilica in Washington, D.C., is named for that title",
       "k": [
         "patron saint",
         "united states",

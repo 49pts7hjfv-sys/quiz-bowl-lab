@@ -115,7 +115,7 @@
       "r": "For 10 points, name this state in which craving and suffering end, the ultimate goal of Buddhism."
     },
     {
-      "p": "Verses of the _Dhammapada_ [“DAH-muh-PAH-duh”] call this state “the highest happiness,” and another early text calls it “unborn, unmade, and unconditioned.” Unlike heaven in many religions, it is usually described not as a place but as a state of perfect peace that words cannot fully capture.",
+      "p": "Verses of the _Dhammapada_ [“DAH-muh-PAH-duh”] call this state “the highest happiness,” and another early text describes it as unborn and unconditioned. Unlike heaven in many religions, it is usually described not as a place but as a state of perfect peace that words cannot fully capture.",
       "r": "Buddhists believe it brings an end to rebirth. For 10 points, name this goal of Buddhism, whose name means “blowing out.”"
     },
     {
@@ -139,7 +139,7 @@
       "r": "That path is the Noble Eightfold Path. For 10 points, name this Buddhist goal, an end to suffering and rebirth."
     },
     {
-      "p": "After the god Brahma Sahampati [“suh-HUM-puh-tee”] begged the newly awakened Buddha to teach, the Buddha agreed and declared that “the doors to the deathless” were open. “The deathless,” or amata [“uh-MUH-tuh”], is a name for this state, because one who reaches it will never be born or die again.",
+      "p": "According to tradition, the demon Mara [“MAH-ruh”] sent armies and temptations to stop Siddhartha Gautama as he meditated at Bodh Gaya, but Siddhartha touched the earth to call it as his witness and then reached this state. He later taught a “Middle Way” between luxury and harsh self-denial that leads to this state.",
       "r": "For 10 points, name this goal of Buddhism, whose name comes from a Sanskrit word for “blowing out.”"
     },
     {
@@ -262,6 +262,17 @@
       "n": 0
     },
     {
+      "id": "mara-middle-way",
+      "tier": "power",
+      "t": "Tradition says Siddhartha resisted the demon Mara at Bodh Gaya before reaching it; he later taught a “Middle Way” between luxury and self-denial that leads to it",
+      "k": [
+        "mara",
+        "bodh gaya",
+        "middle way"
+      ],
+      "n": 0
+    },
+    {
       "id": "fire-sermon",
       "tier": "power",
       "t": "The Fire Sermon says the senses are “burning”; T. S. Eliot named part of _The Waste Land_ after it",
@@ -322,7 +333,7 @@
     {
       "id": "dhammapada",
       "tier": "power",
-      "t": "The _Dhammapada_ calls it “the highest happiness”; another early text calls it “unborn, unmade, and unconditioned”",
+      "t": "The _Dhammapada_ calls it “the highest happiness”; another early text describes it as unborn and unconditioned",
       "k": [
         "dhammapada",
         "highest happiness",
@@ -385,17 +396,6 @@
         "vipassana",
         "insight",
         "mindfulness"
-      ],
-      "n": 0
-    },
-    {
-      "id": "deathless",
-      "tier": "power",
-      "t": "Called amata, “the deathless”; after Brahma Sahampati begged him to teach, the Buddha said “the doors to the deathless” were open",
-      "k": [
-        "deathless",
-        "amata",
-        "sahampati"
       ],
       "n": 0
     },
