@@ -1,0 +1,508 @@
+{
+  "id": "john-f-kennedy",
+  "name": "John F. Kennedy",
+  "mono": "JFK",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "35th U.S. President · Led the nation through the Cuban Missile Crisis",
+  "dates": "1917–1963",
+  "briefing": "John F. Kennedy survived the sinking of his torpedo boat, _PT-109_, in World War II and, at 43, became the youngest person ever elected president and the first Catholic president. In just under three years in office, he started the Peace Corps, set the goal of landing an American on the Moon, and steered the country through the Cuban Missile Crisis. He was assassinated in Dallas on November 22, 1963.",
+  "answerHtml": "<b><u>John F</u></b>itzgerald <b><u>Kennedy</u></b> (or <u>JFK</u>; accept <u>Jack Kennedy</u>; prompt on <u>Kennedy</u>; do not accept “Robert F. Kennedy,” “Ted Kennedy,” or “John F. Kennedy Jr.”)",
+  "accept": [
+    "john f kennedy",
+    "john fitzgerald kennedy",
+    "jfk",
+    "j f k",
+    "john kennedy",
+    "jack kennedy",
+    "president kennedy",
+    "president john f kennedy"
+  ],
+  "prompt": [
+    "kennedy",
+    "the kennedys",
+    "kennedys",
+    "kennedy family",
+    "the kennedy family",
+    "john f",
+    "john fitzgerald"
+  ],
+  "reject": [
+    "robert f kennedy",
+    "robert francis kennedy",
+    "robert kennedy",
+    "bobby kennedy",
+    "bob kennedy",
+    "rfk",
+    "robert f kennedy jr",
+    "ted kennedy",
+    "teddy kennedy",
+    "edward kennedy",
+    "edward m kennedy",
+    "edward moore kennedy",
+    "john f kennedy jr",
+    "john kennedy jr",
+    "john f kennedy junior",
+    "john kennedy junior",
+    "jfk jr",
+    "jfk junior",
+    "kennedy jr",
+    "kennedy junior",
+    "junior",
+    "joseph kennedy",
+    "joseph p kennedy",
+    "joe kennedy",
+    "joseph kennedy jr",
+    "joseph p kennedy jr",
+    "rose kennedy",
+    "rose fitzgerald kennedy",
+    "jacqueline kennedy",
+    "jackie kennedy",
+    "jacqueline kennedy onassis",
+    "jackie onassis",
+    "jackie o",
+    "caroline kennedy",
+    "eunice kennedy",
+    "eunice kennedy shriver",
+    "anthony kennedy",
+    "john kennedy toole",
+    "kennedy space center",
+    "kennedy center",
+    "jfk airport",
+    "honey fitz",
+    "lee harvey oswald",
+    "oswald",
+    "assassination",
+    "lyndon b johnson",
+    "lyndon johnson",
+    "lbj",
+    "richard nixon",
+    "nixon",
+    "john kerry"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+  "qb": {
+    "q": "Kennedy",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "After the Japanese destroyer _Amagiri_ rammed and sank this man’s patrol torpedo boat in 1943, he towed an injured crewman to an island by clenching the strap of the man’s life jacket in his teeth. He later kept a coconut shell, on which he had carved a rescue message, on his desk in the Oval Office.",
+      "r": "That boat was _PT-109_. For 10 points, name this World War II hero who became the 35th president."
+    },
+    {
+      "p": "As a Harvard student, this man wrote a thesis about Britain’s slow preparation for World War II that became the book _Why England Slept_. He later won a Pulitzer Prize for a book about eight senators who risked their careers for their beliefs, including Sam Houston and Edmund Ross.",
+      "r": "That book was _Profiles in Courage_. For 10 points, name this author who became the first Catholic president."
+    },
+    {
+      "p": "In 1960, this candidate won the West Virginia primary over Hubert Humphrey, and he told a group of Protestant ministers in Houston that he believed in an America “where the separation of church and state is absolute.”",
+      "r": "That fall, he faced Richard Nixon in the first televised presidential debates. For 10 points, name this man who became the first Roman Catholic president."
+    },
+    {
+      "p": "During a 2 a.m. campaign stop at the University of Michigan in 1960, this man challenged students to serve their country by working overseas. As president, he created that program by executive order and named his brother-in-law Sargent Shriver its first director.",
+      "r": "That program was the Peace Corps. For 10 points, name this president who said, “Ask not what your country can do for you.”"
+    },
+    {
+      "p": "A plan drawn up under Dwight Eisenhower ended in failure less than three months into this president’s term, when about 1,400 CIA-trained Cuban exiles of Brigade 2506 were defeated within days of landing in Cuba.",
+      "r": "That invasion landed at the Bay of Pigs. For 10 points, name this president who later faced the Cuban Missile Crisis."
+    },
+    {
+      "p": "During thirteen tense days in October 1962, this president met with an advisory group called ExComm, whose members included his brother Robert. He rejected an air strike and instead ordered a naval “quarantine,” and the crisis ended when Nikita Khrushchev [“KROOSH-chef”] agreed to remove the weapons.",
+      "r": "That standoff was the Cuban Missile Crisis. For 10 points, name this president who faced it."
+    },
+    {
+      "p": "In a June 1963 speech at American University, this president called for easing tensions with the Soviet Union. That summer, the United States signed the Limited Test Ban Treaty, which banned nuclear tests in the air, in space, and underwater.",
+      "r": "Weeks after that speech, he told a crowd in West Berlin, “Ich bin ein Berliner.” For 10 points, name this president who was assassinated later that year."
+    },
+    {
+      "p": "Three weeks after Alan Shepard became the first American in space, this president asked Congress to land a man on the Moon before the decade was out. In a 1962 speech at Rice University, he declared, “We choose to go to the Moon.”",
+      "r": "His goal was met in 1969, when Apollo 11 landed. For 10 points, name this president who started the Peace Corps."
+    },
+    {
+      "p": "At this president’s 1961 inauguration, sunlight glare kept Robert Frost from reading a new poem he had written for the day, so he recited “The Gift Outright” from memory instead. This president called his domestic program the “New Frontier.”",
+      "r": "In his inaugural address, he urged, “Ask not what your country can do for you.” For 10 points, name this 35th president."
+    },
+    {
+      "p": "This president sent federal marshals and troops to the University of Mississippi in 1962 so that James Meredith could enroll as its first Black student. In a June 1963 television address, he called civil rights “a moral issue” and proposed a major civil rights bill.",
+      "r": "That bill became the Civil Rights Act of 1964, signed by his successor, Lyndon B. Johnson. For 10 points, name this 35th president."
+    },
+    {
+      "p": "This man’s maternal grandfather, nicknamed “Honey Fitz,” served as mayor of Boston, and his father was the American ambassador to Britain when World War II began. His older brother Joseph Jr. was killed in that war while flying a dangerous mission as a Navy pilot.",
+      "r": "For 10 points, name this president whose younger brothers Robert and Ted also became U.S. senators."
+    },
+    {
+      "p": "In 1952, this congressman won a Senate seat in Massachusetts by defeating Henry Cabot Lodge Jr., who later ran for vice president against him. In 1956, he narrowly lost the Democratic nomination for vice president to Estes Kefauver [“KEE-faw-ver”].",
+      "r": "For 10 points, name this Massachusetts senator who defeated Richard Nixon to win the presidency in 1960."
+    },
+    {
+      "p": "This president signed the Equal Pay Act of 1963 and created a commission on the status of women led by Eleanor Roosevelt. He also launched the Alliance for Progress, an aid program for Latin America.",
+      "r": "He was assassinated in 1963. For 10 points, name this president who created the Peace Corps."
+    },
+    {
+      "p": "After this man’s death, his widow compared his time in the White House to “Camelot,” King Arthur’s court in a popular Broadway musical. New York’s Idlewild Airport and NASA’s launch center in Florida were renamed in his honor.",
+      "r": "His face has appeared on the half-dollar coin since 1964. For 10 points, name this president who was assassinated in Dallas in 1963."
+    },
+    {
+      "p": "Federal judge Sarah T. Hughes swore in this man’s successor aboard Air Force One at Love Field, hours after this man was shot while riding in a motorcade through Dealey Plaza. This man is buried at Arlington National Cemetery, where an eternal flame marks his grave.",
+      "r": "For 10 points, name this president who was killed in Dallas on November 22, 1963."
+    }
+  ],
+  "clues": [
+    {
+      "id": "35th-president",
+      "tier": "giveaway",
+      "t": "35th President (1961–1963), a Democrat from Massachusetts",
+      "k": [
+        "35th president",
+        "35th",
+        "massachusetts",
+        "democrat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dallas",
+      "tier": "giveaway",
+      "t": "Assassinated in Dallas on November 22, 1963; Vice President Lyndon B. Johnson became president",
+      "k": [
+        "dallas",
+        "november 22",
+        "1963",
+        "lyndon"
+      ],
+      "n": 0,
+      "rabbit": "Lee Harvey Oswald"
+    },
+    {
+      "id": "first-catholic",
+      "tier": "giveaway",
+      "t": "First Catholic president and the youngest person ever elected president (age 43)",
+      "k": [
+        "catholic",
+        "youngest",
+        "43"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ask-not",
+      "tier": "giveaway",
+      "t": "Inaugural address (1961): “Ask not what your country can do for you; ask what you can do for your country”",
+      "k": [
+        "ask not",
+        "inaugural",
+        "your country"
+      ],
+      "n": 0
+    },
+    {
+      "id": "missile-crisis",
+      "tier": "middle",
+      "t": "Cuban Missile Crisis (October 1962): a standoff with the Soviet Union over nuclear missiles in Cuba",
+      "k": [
+        "cuban missile crisis",
+        "missiles",
+        "soviet union",
+        "cuba"
+      ],
+      "n": 0,
+      "rabbit": "Cuba"
+    },
+    {
+      "id": "bay-of-pigs",
+      "tier": "middle",
+      "t": "Bay of Pigs invasion (1961): CIA-trained Cuban exiles failed to overthrow Fidel Castro",
+      "k": [
+        "bay of pigs",
+        "castro",
+        "exiles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "peace-corps",
+      "tier": "middle",
+      "t": "Created the Peace Corps (1961), which sends American volunteers to help other countries",
+      "k": [
+        "peace corps",
+        "volunteers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nixon-debates",
+      "tier": "middle",
+      "t": "Beat Richard Nixon in 1960 after the first televised presidential debates",
+      "k": [
+        "richard nixon",
+        "nixon",
+        "televised",
+        "debates"
+      ],
+      "n": 0,
+      "rabbit": "Richard Nixon"
+    },
+    {
+      "id": "berliner",
+      "tier": "middle",
+      "t": "“Ich bin ein Berliner” (1963): backed West Berlin two years after the Berlin Wall went up",
+      "k": [
+        "ich bin ein berliner",
+        "berliner",
+        "west berlin"
+      ],
+      "n": 0,
+      "rabbit": "Berlin Wall"
+    },
+    {
+      "id": "moon",
+      "tier": "middle",
+      "t": "Set the goal of landing a man on the Moon by the end of the 1960s; “We choose to go to the Moon” (Rice University, 1962)",
+      "k": [
+        "moon",
+        "rice university",
+        "we choose"
+      ],
+      "n": 0,
+      "rabbit": "Apollo Program"
+    },
+    {
+      "id": "pt-109",
+      "tier": "middle",
+      "t": "_PT-109_: his torpedo boat was sunk in World War II, and he helped save his crew",
+      "k": [
+        "pt-109",
+        "torpedo boat",
+        "crew"
+      ],
+      "n": 0
+    },
+    {
+      "id": "profiles",
+      "tier": "middle",
+      "t": "Won the Pulitzer Prize for _Profiles in Courage_, about brave senators; the only president to win a Pulitzer",
+      "k": [
+        "profiles in courage",
+        "pulitzer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "new-frontier",
+      "tier": "middle",
+      "t": "“New Frontier”: his name for his domestic program",
+      "k": [
+        "new frontier",
+        "frontier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "family",
+      "tier": "middle",
+      "t": "Wife Jacqueline (“Jackie”); brothers Robert (his attorney general) and Ted (a senator for almost 47 years)",
+      "k": [
+        "jacqueline",
+        "jackie",
+        "attorney general",
+        "robert",
+        "ted"
+      ],
+      "n": 0,
+      "rabbit": "Robert F. Kennedy"
+    },
+    {
+      "id": "coconut",
+      "tier": "power",
+      "t": "After the destroyer _Amagiri_ rammed his boat, islanders carried his rescue message carved on a coconut",
+      "k": [
+        "coconut",
+        "amagiri"
+      ],
+      "n": 0
+    },
+    {
+      "id": "why-england-slept",
+      "tier": "power",
+      "t": "_Why England Slept_ (1940): his Harvard thesis turned into a book",
+      "k": [
+        "why england slept",
+        "harvard",
+        "thesis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "houston-ministers",
+      "tier": "power",
+      "t": "Told Houston ministers (1960) he believed in “separation of church and state”; beat Hubert Humphrey in the West Virginia primary",
+      "k": [
+        "houston",
+        "separation of church and state",
+        "west virginia",
+        "humphrey"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lodge-kefauver",
+      "tier": "power",
+      "t": "Won his Senate seat (1952) over Henry Cabot Lodge Jr.; lost the 1956 vice presidential nomination to Estes Kefauver",
+      "k": [
+        "lodge",
+        "kefauver",
+        "1952"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shriver",
+      "tier": "power",
+      "t": "Sargent Shriver, his brother-in-law, first led the Peace Corps; the idea began at a 2 a.m. speech at the University of Michigan",
+      "k": [
+        "sargent shriver",
+        "shriver",
+        "university of michigan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "excomm",
+      "tier": "power",
+      "t": "ExComm advised him during the missile crisis; he chose a naval “quarantine” instead of an air strike",
+      "k": [
+        "excomm",
+        "quarantine",
+        "air strike"
+      ],
+      "n": 0
+    },
+    {
+      "id": "test-ban",
+      "tier": "power",
+      "t": "American University peace speech (June 1963), the Limited Test Ban Treaty (1963), and the Washington–Moscow “hotline”",
+      "k": [
+        "test ban",
+        "american university",
+        "hotline"
+      ],
+      "n": 0
+    },
+    {
+      "id": "frost",
+      "tier": "power",
+      "t": "Robert Frost recited “The Gift Outright” at his inauguration",
+      "k": [
+        "robert frost",
+        "frost",
+        "gift outright"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meredith",
+      "tier": "power",
+      "t": "Sent marshals and troops so James Meredith could enroll at the University of Mississippi (1962); called civil rights “a moral issue” (1963)",
+      "k": [
+        "james meredith",
+        "meredith",
+        "moral issue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "equal-pay",
+      "tier": "power",
+      "t": "Signed the Equal Pay Act (1963); Eleanor Roosevelt led his commission on the status of women; the Alliance for Progress aided Latin America",
+      "k": [
+        "equal pay",
+        "eleanor roosevelt",
+        "alliance for progress"
+      ],
+      "n": 0
+    },
+    {
+      "id": "honey-fitz",
+      "tier": "power",
+      "t": "Grandfather “Honey Fitz” was mayor of Boston; father Joseph was ambassador to Britain; brother Joseph Jr. died in World War II",
+      "k": [
+        "honey fitz",
+        "ambassador",
+        "joseph"
+      ],
+      "n": 0
+    },
+    {
+      "id": "camelot",
+      "tier": "power",
+      "t": "Jacqueline compared his presidency to “Camelot”; his face has been on the half-dollar since 1964",
+      "k": [
+        "camelot",
+        "half-dollar",
+        "1964"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hughes-arlington",
+      "tier": "power",
+      "t": "Judge Sarah T. Hughes swore in Lyndon Johnson on Air Force One; he is buried at Arlington under an eternal flame",
+      "k": [
+        "air force one",
+        "hughes",
+        "arlington",
+        "eternal flame"
+      ],
+      "n": 0,
+      "rabbit": "Arlington National Cemetery"
+    },
+    {
+      "id": "shepard",
+      "tier": "power",
+      "t": "Asked Congress for the Moon goal three weeks after Alan Shepard became the first American in space (1961)",
+      "k": [
+        "alan shepard",
+        "shepard",
+        "first american in space"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Kennedy?",
+    "body": "Real answer lines for this president prompt on just “Kennedy,” because several Kennedys show up in quiz bowl. His brother Robert F. Kennedy was his attorney general and later a senator from New York who ran for president in 1968, and his youngest brother, Ted Kennedy, served in the Senate for almost 47 years. Some questions ask for the whole Kennedy family, and questions about the 1963 assassination may want Lee Harvey Oswald or the event itself.",
+    "fix": "Only one Kennedy was president, so “this president” means John F. Kennedy; say the full name. RFK clues: attorney general, the 1968 campaign, and announcing Martin Luther King Jr.’s death in Indianapolis. Ted Kennedy clues: senator from Massachusetts from 1962 to 2009, a 1980 run against Jimmy Carter, and working with George W. Bush on No Child Left Behind.",
+    "line": "Real answer line: <b><u>John F</u></b>itzgerald <b><u>Kennedy</u></b> (or <u>JFK</u>; prompt on <u>Kennedy</u>; do not accept “Robert F. Kennedy” or “Ted Kennedy”)"
+  },
+  "tests": {
+    "right": [
+      "John F. Kennedy",
+      "John Fitzgerald Kennedy",
+      "JFK",
+      "Jack Kennedy",
+      "John F. Kenedy",
+      "President Kennedy"
+    ],
+    "prompt": [
+      "Kennedy",
+      "the Kennedys"
+    ],
+    "wrong": [
+      "Robert F. Kennedy",
+      "Ted Kennedy",
+      "John F. Kennedy Jr.",
+      "Joseph Kennedy",
+      "Jacqueline Kennedy",
+      "Lee Harvey Oswald",
+      "Assassination of John F. Kennedy",
+      "Lyndon B. Johnson"
+    ]
+  }
+}

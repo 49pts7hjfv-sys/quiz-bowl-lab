@@ -1,0 +1,463 @@
+{
+  "id": "lyndon-b-johnson",
+  "name": "Lyndon B. Johnson",
+  "mono": "LBJ",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "36th U.S. President · The Great Society, civil rights laws, and Vietnam",
+  "dates": "1908–1973",
+  "briefing": "Lyndon B. Johnson grew up in the Texas Hill Country, taught Mexican American children in a small Texas town, and rose to become Senate Majority Leader. When John F. Kennedy was assassinated in 1963, Johnson was sworn in as president aboard Air Force One. As the 36th president, he signed the Civil Rights Act of 1964 and the Voting Rights Act and launched the Great Society, while the number of U.S. troops in the Vietnam War grew to more than 500,000.",
+  "answerHtml": "<b><u>Lyndon</u></b> Baines <b><u>Johnson</u></b> (or <b><u>LBJ</u></b>; prompt on <u>Johnson</u>; do not accept “Andrew Johnson”)",
+  "accept": [
+    "lyndon b johnson",
+    "lyndon baines johnson",
+    "lyndon johnson",
+    "lbj",
+    "l b j",
+    "president lyndon johnson",
+    "president lyndon b johnson"
+  ],
+  "prompt": [
+    "johnson",
+    "president johnson",
+    "lyndon"
+  ],
+  "reject": [
+    "andrew johnson",
+    "andy johnson",
+    "president andrew johnson",
+    "lady bird johnson",
+    "lady bird",
+    "claudia johnson",
+    "lynda bird johnson",
+    "lynda johnson",
+    "luci baines johnson",
+    "luci johnson",
+    "samuel johnson",
+    "john f kennedy",
+    "jfk",
+    "kennedy",
+    "robert f kennedy",
+    "lee harvey oswald",
+    "hubert humphrey",
+    "humphrey",
+    "barry goldwater",
+    "goldwater",
+    "richard nixon",
+    "nixon",
+    "robert mcnamara",
+    "mcnamara",
+    "earl warren",
+    "harry truman",
+    "harry s truman",
+    "andrew jackson"
+  ],
+  "tests": {
+    "right": [
+      "Lyndon B. Johnson",
+      "Lyndon Johnson",
+      "LBJ",
+      "Lyndon Baines Johnson",
+      "Lyndon Jonson",
+      "President Lyndon Johnson"
+    ],
+    "prompt": [
+      "Johnson",
+      "President Johnson"
+    ],
+    "wrong": [
+      "Andrew Johnson",
+      "John F. Kennedy",
+      "Lady Bird Johnson",
+      "Richard Nixon",
+      "Hubert Humphrey",
+      "JFK",
+      "Samuel Johnson"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson",
+  "qb": {
+    "q": "Lyndon",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "As a young man, this future president taught Mexican American children at a poor school in Cotulla, Texas, and decades later he described those students in a speech to Congress asking for a voting rights law. That 1965 speech included the words “we shall overcome.”",
+      "r": "For 10 points, name this president who signed the Voting Rights Act of 1965 and the Civil Rights Act of 1964."
+    },
+    {
+      "p": "This man beat former Texas governor Coke Stevenson by just 87 votes in a disputed 1948 runoff for a Senate nomination, earning a joking nickname that called his win a “landslide.” He later became Senate Majority Leader.",
+      "r": "NASA’s space center in Houston, home of Mission Control, is named for him. For 10 points, name this Texan who became president after John F. Kennedy was assassinated."
+    },
+    {
+      "p": "A week after taking office, this president created a commission led by Chief Justice Earl Warren to investigate the killing of the man he had replaced. He had been sworn in aboard Air Force One by Judge Sarah T. Hughes.",
+      "r": "For 10 points, name this vice president who became president when John F. Kennedy was assassinated in Dallas."
+    },
+    {
+      "p": "After reports that North Vietnamese boats had attacked American destroyers in August 1964, Congress passed a resolution giving this president broad power to use military force in Southeast Asia. He then began Operation Rolling Thunder, a long bombing campaign against North Vietnam.",
+      "r": "For 10 points, name this president who greatly expanded U.S. involvement in the Vietnam War."
+    },
+    {
+      "p": "A 1964 campaign ad for this candidate showed a little girl counting as she picked petals off a daisy before the screen filled with a nuclear explosion; it aired only once as a paid ad. He won that election in a landslide over Barry Goldwater.",
+      "r": "For 10 points, name this Democrat who had taken office the year before, after John F. Kennedy’s assassination."
+    },
+    {
+      "p": "On March 31, 1968, this president surprised the nation in a televised speech by saying, “I shall not seek, and I will not accept, the nomination of my party for another term.” Weeks earlier, Eugene McCarthy had done surprisingly well against him in the New Hampshire primary.",
+      "r": "His vice president, Hubert Humphrey, won the Democratic nomination but lost to Richard Nixon. For 10 points, name this president."
+    },
+    {
+      "p": "This president signed a 1965 health insurance law at the Truman Library in Independence, Missouri, and handed former president Harry Truman the first card issued under the new program. That law created Medicare and Medicaid.",
+      "r": "His wife, Lady Bird, led a campaign to beautify America’s highways. For 10 points, name this president whose programs were called the Great Society."
+    },
+    {
+      "p": "After riots broke out in Detroit, Newark, and other cities in 1967, this president created the Kerner Commission, which warned that the nation was “moving toward two societies, one black, one white—separate and unequal.” Its official name was the National Advisory Commission on Civil Disorders.",
+      "r": "He had earlier signed the Civil Rights Act of 1964. For 10 points, name this 36th president."
+    },
+    {
+      "p": "This president named Robert Weaver to lead the new Department of Housing and Urban Development, making him the first African American cabinet secretary. A year later, this president appointed Thurgood Marshall as the first African American Supreme Court justice.",
+      "r": "For 10 points, name this Texan who launched the Great Society after succeeding John F. Kennedy."
+    },
+    {
+      "p": "At the foot of the Statue of Liberty in 1965, this president signed the Hart–Celler Act, which ended immigration quotas based on national origin that had favored immigrants from northern and western Europe. That same year, he signed a law creating the National Endowment for the Arts.",
+      "r": "For 10 points, name this Texan who signed both the Voting Rights Act and the Civil Rights Act of 1964."
+    },
+    {
+      "p": "In his first State of the Union address, in January 1964, this president declared “unconditional war on poverty in America.” Programs that followed included Head Start for preschoolers and the Job Corps for young workers.",
+      "r": "Months later, at the University of Michigan, he described his goals as the “Great Society.” For 10 points, name this president."
+    },
+    {
+      "p": "In 1967, this president met Soviet Premier Alexei Kosygin [“kuh-SEE-gin”] for a summit at a small college in Glassboro, New Jersey. Two years earlier, he had sent U.S. Marines to the Dominican Republic during a civil war there.",
+      "r": "For 10 points, name this president who expanded American involvement in the Vietnam War."
+    },
+    {
+      "p": "Robert Caro won a Pulitzer Prize for _Master of the Senate_, one volume of his giant biography of this man. Bryan Cranston won a Tony Award for playing this man in _All the Way_, a play about his first year as president.",
+      "r": "For 10 points, name this president who signed the Civil Rights Act of 1964 after succeeding John F. Kennedy."
+    },
+    {
+      "p": "As Senate Majority Leader, this man pushed through the Civil Rights Act of 1957, and senators described being cornered by his famous “Treatment,” in which he leaned in close and argued until they agreed. In 1953, he had become the youngest floor leader the Senate had ever had.",
+      "r": "For 10 points, name this Texan who served as John F. Kennedy’s vice president and then as president."
+    },
+    {
+      "p": "This president signed the Elementary and Secondary Education Act in front of the one-room schoolhouse he had attended as a boy, with his first teacher at his side. He died at his ranch on the Pedernales [“pur-dn-AL-iss”] River in January 1973, days before a peace agreement on Vietnam was signed.",
+      "r": "For 10 points, name this 36th president, a Texas Democrat whose wife was known as Lady Bird."
+    }
+  ],
+  "clues": [
+    {
+      "id": "thirty-sixth",
+      "tier": "giveaway",
+      "t": "36th President (1963–1969), a Democrat from Texas",
+      "k": [
+        "36th president",
+        "texas",
+        "democrat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jfk",
+      "tier": "giveaway",
+      "t": "Became president when John F. Kennedy was assassinated in Dallas (November 22, 1963); he had been Kennedy’s vice president",
+      "k": [
+        "john f. kennedy",
+        "kennedy",
+        "dallas",
+        "vice president"
+      ],
+      "n": 0,
+      "rabbit": "John F. Kennedy"
+    },
+    {
+      "id": "great-society",
+      "tier": "giveaway",
+      "t": "Called his domestic programs the “Great Society”",
+      "k": [
+        "great society"
+      ],
+      "n": 0
+    },
+    {
+      "id": "civil-rights",
+      "tier": "giveaway",
+      "t": "Signed the Civil Rights Act of 1964 and the Voting Rights Act of 1965",
+      "k": [
+        "civil rights act",
+        "voting rights act",
+        "1964",
+        "1965"
+      ],
+      "n": 0,
+      "rabbit": "Martin Luther King Jr."
+    },
+    {
+      "id": "vietnam",
+      "tier": "giveaway",
+      "t": "Greatly expanded U.S. involvement in the Vietnam War; American troops there grew to more than 500,000",
+      "k": [
+        "vietnam",
+        "500,000",
+        "troops"
+      ],
+      "n": 0,
+      "rabbit": "Vietnam War"
+    },
+    {
+      "id": "air-force-one",
+      "tier": "middle",
+      "t": "Sworn in aboard Air Force One by Judge Sarah T. Hughes, with Jacqueline Kennedy beside him",
+      "k": [
+        "air force one",
+        "sarah t. hughes",
+        "hughes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tonkin",
+      "tier": "middle",
+      "t": "The Gulf of Tonkin Resolution (1964) gave him broad war powers; Operation Rolling Thunder bombed North Vietnam (1965–1968)",
+      "k": [
+        "gulf of tonkin",
+        "tonkin",
+        "rolling thunder"
+      ],
+      "n": 0
+    },
+    {
+      "id": "war-on-poverty",
+      "tier": "middle",
+      "t": "Declared an “unconditional war on poverty” (1964); programs included Head Start and the Job Corps",
+      "k": [
+        "war on poverty",
+        "head start",
+        "job corps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "medicare",
+      "tier": "middle",
+      "t": "Signed Medicare and Medicaid (1965) at Harry Truman’s library and gave Truman the first Medicare card",
+      "k": [
+        "medicare",
+        "medicaid",
+        "truman"
+      ],
+      "n": 0,
+      "rabbit": "Medicare"
+    },
+    {
+      "id": "goldwater",
+      "tier": "middle",
+      "t": "Beat Barry Goldwater in a 1964 landslide; his campaign’s “Daisy” ad warned of nuclear war",
+      "k": [
+        "goldwater",
+        "daisy",
+        "landslide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "not-seek",
+      "tier": "middle",
+      "t": "On March 31, 1968, announced, “I shall not seek, and I will not accept” his party’s nomination for another term",
+      "k": [
+        "shall not seek",
+        "will not accept",
+        "march 31"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thurgood",
+      "tier": "middle",
+      "t": "Appointed Thurgood Marshall, the first African American Supreme Court justice (1967)",
+      "k": [
+        "thurgood marshall",
+        "marshall",
+        "supreme court"
+      ],
+      "n": 0,
+      "rabbit": "Thurgood Marshall"
+    },
+    {
+      "id": "lady-bird",
+      "tier": "middle",
+      "t": "His wife, Lady Bird, led a campaign to beautify America’s highways",
+      "k": [
+        "lady bird",
+        "beautify",
+        "highways"
+      ],
+      "n": 0
+    },
+    {
+      "id": "warren-commission",
+      "tier": "middle",
+      "t": "Created the Warren Commission, led by Chief Justice Earl Warren, to investigate Kennedy’s assassination",
+      "k": [
+        "warren commission",
+        "earl warren",
+        "warren"
+      ],
+      "n": 0
+    },
+    {
+      "id": "majority-leader",
+      "tier": "middle",
+      "t": "Senate Majority Leader in the 1950s, famous for “the Treatment”; pushed through the Civil Rights Act of 1957",
+      "k": [
+        "majority leader",
+        "the treatment",
+        "1957"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cotulla",
+      "tier": "power",
+      "t": "Taught Mexican American children in Cotulla, Texas, and recalled them in his 1965 voting rights speech",
+      "k": [
+        "cotulla",
+        "mexican american"
+      ],
+      "n": 0
+    },
+    {
+      "id": "landslide",
+      "tier": "power",
+      "t": "Won a disputed 1948 Senate runoff over Coke Stevenson by just 87 votes, earning a joking nickname about his “landslide”",
+      "k": [
+        "87 votes",
+        "coke stevenson",
+        "landslide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "overcome",
+      "tier": "power",
+      "t": "His 1965 voting rights speech to Congress included the civil rights anthem’s words “we shall overcome”",
+      "k": [
+        "we shall overcome",
+        "overcome"
+      ],
+      "n": 0
+    },
+    {
+      "id": "immigration",
+      "tier": "power",
+      "t": "Signed the Hart–Celler Act (1965) at the Statue of Liberty, ending immigration quotas based on national origin",
+      "k": [
+        "hart–celler",
+        "hart-celler",
+        "statue of liberty",
+        "quotas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kerner",
+      "tier": "power",
+      "t": "His Kerner Commission (1968) warned the nation was “moving toward two societies, one black, one white—separate and unequal”",
+      "k": [
+        "kerner",
+        "two societies",
+        "separate and unequal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glassboro",
+      "tier": "power",
+      "t": "Met Soviet Premier Alexei Kosygin at Glassboro, New Jersey (1967); sent Marines to the Dominican Republic (1965)",
+      "k": [
+        "glassboro",
+        "kosygin",
+        "dominican republic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "caro-cranston",
+      "tier": "power",
+      "t": "Robert Caro’s biography volume _Master of the Senate_ won a Pulitzer; Bryan Cranston played him in the play _All the Way_",
+      "k": [
+        "robert caro",
+        "master of the senate",
+        "bryan cranston",
+        "all the way"
+      ],
+      "n": 0
+    },
+    {
+      "id": "weaver-hud",
+      "tier": "power",
+      "t": "Created the Department of Housing and Urban Development (1965); Robert Weaver became the first African American cabinet secretary",
+      "k": [
+        "robert weaver",
+        "weaver",
+        "housing and urban development"
+      ],
+      "n": 0
+    },
+    {
+      "id": "education-act",
+      "tier": "power",
+      "t": "Signed the Elementary and Secondary Education Act (1965) outside his boyhood one-room school, beside his first teacher",
+      "k": [
+        "elementary and secondary education",
+        "one-room school",
+        "first teacher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pedernales",
+      "tier": "power",
+      "t": "Died at his ranch on the Pedernales River in January 1973, days before the Vietnam peace agreement was signed",
+      "k": [
+        "pedernales",
+        "ranch",
+        "1973"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mccarthy-humphrey",
+      "tier": "power",
+      "t": "Eugene McCarthy did well against him in New Hampshire (1968); his vice president, Hubert Humphrey, then lost to Richard Nixon",
+      "k": [
+        "eugene mccarthy",
+        "hubert humphrey",
+        "humphrey",
+        "new hampshire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "space-center",
+      "tier": "power",
+      "t": "NASA’s space center in Houston, home of Mission Control, is named for him",
+      "k": [
+        "nasa",
+        "houston",
+        "mission control"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which President Johnson?",
+    "body": "Two presidents named Johnson took office after an assassination: Andrew Johnson replaced Abraham Lincoln in 1865, and Lyndon B. Johnson replaced John F. Kennedy in 1963. Real LBJ answer lines say “do not accept or prompt on Andrew Johnson,” and saying just “Johnson” earns only a prompt. Vietnam clues are another trap: Johnson escalated the war after the Gulf of Tonkin Resolution, while Richard Nixon slowly brought troops home through “Vietnamization.”",
+    "fix": "Civil rights laws, the Great Society, Medicare, Air Force One, and the Gulf of Tonkin mean Lyndon Johnson; Reconstruction, the Tenure of Office Act, and impeachment in 1868 mean Andrew Johnson. When the moderator prompts, say “Lyndon Johnson” or “LBJ.”",
+    "line": "Real answer line: <b><u>Lyndon</u></b> Baines <b><u>Johnson</u></b> (or <b><u>LBJ</u></b>; prompt on <u>Johnson</u>; do not accept or prompt on “Andrew Johnson”)"
+  }
+}
