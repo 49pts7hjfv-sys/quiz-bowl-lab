@@ -66,7 +66,7 @@
       "r": "For 10 points, name this bacterium that lives in the human gut and whose harmful strains can cause food poisoning."
     },
     {
-      "p": "Since 1988, Richard Lenski’s lab has grown twelve populations of this organism for tens of thousands of generations, and in one of them the cells evolved the ability to feed on citrate when oxygen is present. Samples frozen every 500 generations serve as that experiment’s “fossil record.”",
+      "p": "In 1988, Richard Lenski began growing twelve populations of this organism in a long-term experiment, and after tens of thousands of generations, cells in one of them evolved the ability to feed on citrate when oxygen is present. Samples frozen every 500 generations serve as that experiment’s “fossil record.”",
       "r": "This organism can divide about every 20 minutes. For 10 points, name this rod-shaped gut bacterium."
     },
     {
@@ -114,8 +114,8 @@
       "r": "For 10 points, name this rod-shaped bacterium that lives in human intestines and is a favorite lab organism."
     },
     {
-      "p": "In the IMViC [“IM-vik”] series of lab tests, this organism is positive for indole and methyl red but negative for citrate. This organism is Gram-negative, with a thin cell wall wrapped in an outer membrane.",
-      "r": "For 10 points, name this rod-shaped bacterium that lives in the guts of warm-blooded animals and is a favorite of biology labs."
+      "p": "This organism is a facultative anaerobe, meaning it can grow with or without oxygen, so it can live in the oxygen-poor large intestine. This organism is Gram-negative, with a thin cell wall wrapped in an outer membrane.",
+      "r": "Its species name refers to the colon. For 10 points, name this rod-shaped bacterium that lives in the guts of warm-blooded animals and is a favorite of biology labs."
     },
     {
       "p": "Arthur Kornberg discovered DNA polymerase I, the first known enzyme that builds DNA, by studying extracts of this organism in 1956. Genetically engineered strains of this organism were later used to produce human insulin.",
@@ -138,7 +138,7 @@
     {
       "id": "food-poisoning",
       "tier": "giveaway",
-      "t": "Most strains are harmless, but some cause food poisoning, often from undercooked ground beef or unwashed produce",
+      "t": "Most strains are harmless, but some cause food poisoning, often from undercooked ground beef or contaminated raw produce",
       "k": [
         "food poisoning",
         "undercooked",
@@ -267,7 +267,7 @@
     {
       "id": "lenski",
       "tier": "power",
-      "t": "Richard Lenski has grown 12 populations since 1988; one evolved the ability to feed on citrate when oxygen is present",
+      "t": "Richard Lenski began growing 12 populations in 1988; after tens of thousands of generations, one evolved the ability to feed on citrate when oxygen is present",
       "k": [
         "lenski",
         "citrate",
@@ -389,13 +389,13 @@
       "n": 0
     },
     {
-      "id": "imvic",
+      "id": "facultative-anaerobe",
       "tier": "power",
-      "t": "In the IMViC tests, it is positive for indole and methyl red but negative for citrate",
+      "t": "A facultative anaerobe that can grow with or without oxygen; its species name refers to the colon, where it lives",
       "k": [
-        "imvic",
-        "indole",
-        "methyl red"
+        "facultative anaerobe",
+        "colon",
+        "oxygen"
       ],
       "n": 0
     },

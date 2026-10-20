@@ -7,17 +7,18 @@
   "kicker": "Jellyfish, corals, and sea anemones · Animals with stinging cells",
   "dates": "More than 10,000 species, mostly in the sea",
   "briefing": "Cnidarians (the C is silent) are soft-bodied water animals, such as jellyfish, corals, sea anemones, and hydras, that catch food with stinging cells. Each stinging cell holds a tiny coiled harpoon that fires faster than almost anything else in nature. They have no brain, just a net of nerves, and many switch between two body shapes: an attached polyp, like a coral, and a swimming bell called a medusa.",
-  "answerHtml": "<b><u>Cnidarians</u></b> (accept <u>Cnidaria</u> or <u>coelenterates</u>; do not accept a single member such as “jellyfish”; do not accept “ctenophores”)",
+  "answerHtml": "<b><u>Cnidarians</u></b> (accept <u>Cnidaria</u>; prompt on <u>coelenterates</u>; do not accept a single member such as “jellyfish”; do not accept “ctenophores”)",
   "accept": [
     "cnidarians",
     "cnidarian",
     "cnidaria",
-    "phylum cnidaria",
+    "phylum cnidaria"
+  ],
+  "prompt": [
     "coelenterates",
     "coelenterate",
     "coelenterata"
   ],
-  "prompt": [],
   "reject": [
     "ctenophores",
     "ctenophore",
@@ -94,8 +95,8 @@
       "r": "That class is the box jellyfish. For 10 points, name this phylum of stinging animals that also includes corals and sea anemones."
     },
     {
-      "p": "The Portuguese man o’ war belongs to this phylum, but it is actually a colony of many small, specialized animals called a siphonophore [“sy-FON-uh-for”], floating under a gas-filled sail. Most members of this phylum catch prey using harpoon-like threads called nematocysts.",
-      "r": "Those threads are found inside stinging cells. For 10 points, name this phylum that includes jellyfish and corals."
+      "p": "The Portuguese man o’ war belongs to this phylum, but it is actually a colony of many small, specialized animals called a siphonophore [“sy-FON-uh-for”], floating under a gas-filled sail. Most members of this phylum catch prey using stinging capsules called nematocysts, which fire harpoon-like threads.",
+      "r": "Those capsules are found inside stinging cells. For 10 points, name this phylum that includes jellyfish and corals."
     },
     {
       "p": "Reef-building members of this phylum get much of their food from algae called zooxanthellae [“zoh-uh-zan-THEL-ee”] living in their tissues. When the water gets too hot, those animals expel the algae and turn white, a process called bleaching.",
@@ -192,7 +193,7 @@
     {
       "id": "nematocysts",
       "tier": "middle",
-      "t": "Each stinging cell holds a coiled, harpoon-like thread called a nematocyst",
+      "t": "Each stinging cell holds a capsule called a nematocyst, which fires a coiled, harpoon-like thread",
       "k": [
         "nematocyst",
         "harpoon"
@@ -423,9 +424,9 @@
   ],
   "trap": {
     "title": "Phylum, not jellyfish",
-    "body": "Many clues describe one famous member, like a box jellyfish’s eyes or a hydra regrowing, so players blurt “jellyfish” or “hydra,” but the question wants the whole phylum. Comb jellies (ctenophores) are the sneakiest trap: they look like jellyfish but form their own phylum, swim with rows of beating cilia, and have no stinging cells.",
+    "body": "Many clues describe one famous member, like a box jellyfish’s eyes or a hydra regrowing, so players blurt “jellyfish” or “hydra,” but the question wants the whole phylum. Comb jellies (ctenophores) are the sneakiest trap: they look like jellyfish but form their own phylum, swim with rows of beating cilia, and have no stinging cells. “Coelenterates” is an older name for a group that also included comb jellies, so it earns only a prompt.",
     "fix": "Listen for “this phylum” or “these animals” and answer “cnidarians” (the C is silent). Stinging cells, nematocysts, polyps and medusae, and corals mean cnidarians; rows of shimmering cilia called combs mean ctenophores.",
-    "line": "Real answer line: <b><u>Cnidarians</u></b> (accept <u>Cnidaria</u>; do not accept a single member such as “jellyfish”)"
+    "line": "Real answer line: <b><u>Cnidarians</u></b> (accept <u>Cnidaria</u>; prompt on <u>coelenterates</u>; do not accept a single member such as “jellyfish”)"
   },
   "tests": {
     "right": [
@@ -435,7 +436,9 @@
       "Nidarians",
       "Phylum Cnidaria"
     ],
-    "prompt": [],
+    "prompt": [
+      "Coelenterates"
+    ],
     "wrong": [
       "Jellyfish",
       "Ctenophores",
