@@ -119,7 +119,7 @@
       "r": "For 10 points, name these vast systems of stars, gas, and dust, such as the Milky Way."
     },
     {
-      "p": "The Antennae are a pair of these objects that are colliding, flinging out long streams of stars that look like an insect’s feelers. Collisions between these objects can trigger “starbursts,” bursts of rapid star formation like the one in M82, the Cigar.",
+      "p": "The Antennae are a pair of these objects that are colliding, flinging out long streams of stars that look like an insect’s feelers. Collisions and close encounters between these objects can trigger “starbursts,” bursts of rapid star formation like the one in M82, the Cigar.",
       "r": "In billions of years, the Milky Way may merge with Andromeda. For 10 points, name these huge systems of stars."
     },
     {
@@ -131,7 +131,7 @@
       "r": "For 10 points, name these huge systems of stars, gas, and dust, such as the Milky Way."
     },
     {
-      "p": "In 1929, Edwin Hubble showed that the farther away one of these objects is, the faster it is moving away from us, as shown by the redshift of its light. That pattern, now called the Hubble–Lemaître [“luh-MET-ruh”] law, revealed that the universe is expanding.",
+      "p": "In 1929, Edwin Hubble showed that the farther away one of these objects is, the faster it is moving away from us, as shown by the redshift of its light. That pattern, known as Hubble’s law or the Hubble–Lemaître [“luh-MET-ruh”] law, revealed that the universe is expanding.",
       "r": "For 10 points, name these huge systems of stars, such as the Milky Way and Andromeda."
     },
     {
@@ -390,7 +390,7 @@
     {
       "id": "collisions",
       "tier": "power",
-      "t": "Collisions, like the Antennae pair with its insect-feeler streams of stars, can trigger starbursts like the one in M82, the Cigar",
+      "t": "Collisions like the Antennae pair (with insect-feeler streams of stars) and close encounters can trigger starbursts, as in M82, the Cigar",
       "k": [
         "antennae",
         "starbursts",
@@ -454,7 +454,7 @@
     }
   ],
   "trap": {
-    "title": "All of them, or just one?",
+    "title": "All galaxies, or just one?",
     "body": "Galaxy tossups are full of famous individual galaxies, like Andromeda, the Whirlpool, M87, and the Magellanic Clouds, and a player who recognizes one may blurt its name. But “Andromeda Galaxy” is its own answer line, and when the question asks for “these objects,” naming one example is wrong. The reverse trap happens too: a tossup that wants one specific kind, such as elliptical galaxies, may give only a prompt for plain “galaxies.”",
     "fix": "Plural wording (“these objects,” “these systems”) with clues about many examples means “galaxies.” If every clue describes one shape (E0 to E7, smooth and egg-shaped), add the type: “elliptical galaxies.” If the clues describe one object with its own distance, neighbors, or Messier number, name that galaxy.",
     "line": "Real answer line: <b><u>galaxies</u></b> (accept <u>galaxy</u>; accept specific types such as spiral or elliptical galaxies)"

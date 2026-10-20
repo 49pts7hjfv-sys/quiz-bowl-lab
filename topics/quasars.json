@@ -101,7 +101,7 @@
       "r": "Each one can outshine all the stars in its host galaxy. For 10 points, name these star-like objects powered by supermassive black holes."
     },
     {
-      "p": "The power of these objects comes from gas heated to enormous temperatures as it swirls in an accretion disk, a process that turns matter into energy far more efficiently than nuclear fusion does. The brightest of them shine hundreds of times brighter than the entire Milky Way.",
+      "p": "The power of these objects comes from gas heated to enormous temperatures as it swirls in an accretion disk, a process that turns matter into energy far more efficiently than nuclear fusion does. Many of them shine hundreds of times brighter than the entire Milky Way.",
       "r": "That disk surrounds a supermassive black hole at a galaxy’s center. For 10 points, name these extremely bright, distant objects."
     },
     {
@@ -113,7 +113,7 @@
       "r": "For 10 points, name these super-luminous cores of distant galaxies, each powered by a supermassive black hole."
     },
     {
-      "p": "Although the first of these objects were found by radio telescopes, only about one in ten of them turned out to be a strong radio source. The rest, called radio-quiet, were found by searching photographs for unusually blue points of light.",
+      "p": "Although the first of these objects were found by radio telescopes, only about one in ten of them turned out to be a strong radio source. Many of the rest, called radio-quiet, were found by searching photographs for unusually blue points of light.",
       "r": "For 10 points, name these super-bright cores of distant galaxies, whose name is short for “star-like radio source.”"
     },
     {
@@ -415,7 +415,7 @@
   ],
   "trap": {
     "title": "Quasar, pulsar, or AGN?",
-    "body": "Quasars and pulsars sound alike, but a pulsar is a spinning neutron star inside our own galaxy, while a quasar is the brilliant core of a galaxy billions of light-years away. Blazars are close cousins of quasars whose jets point right at Earth, and “active galactic nucleus” (AGN) is the bigger family quasars belong to, so it earns only a prompt.",
+    "body": "Quasars and pulsars sound alike, but a pulsar is a spinning neutron star, usually inside our own galaxy, while a quasar is the brilliant core of a galaxy billions of light-years away. Blazars are close cousins of quasars whose jets point right at Earth, and “active galactic nucleus” (AGN) is the bigger family quasars belong to, so it earns only a prompt.",
     "fix": "Listen for scale: steady radio pulses every second or so mean pulsar; huge redshifts, accretion disks, supermassive black holes, and 3C 273 mean quasar. If you get a prompt after saying “AGN,” narrow it down to “quasar.”",
     "line": "Real answer line: <b><u>quasar</u></b>s (accept <u>quasi-stellar object</u>s or <u>QSO</u>s; prompt on <u>active galactic nuclei</u> or <u>AGN</u>)"
   },

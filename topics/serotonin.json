@@ -7,7 +7,7 @@
   "kicker": "Chemical messenger made from tryptophan · Helps regulate mood and sleep",
   "dates": "Named in 1948",
   "briefing": "Serotonin is a chemical messenger that nerve cells use to pass signals to one another, and it helps regulate mood, sleep, appetite, and digestion. The body builds it from tryptophan, an amino acid found in foods like eggs, cheese, and turkey. Surprisingly, most of the body’s serotonin is made in the gut rather than the brain, and at night a small gland in the brain turns some of it into melatonin, a hormone that helps control sleep.",
-  "answerHtml": "<b><u>Serotonin</u></b> (accept <u>5-hydroxytryptamine</u> or <u>5-HT</u>; prompt on <u>monoamine</u>; do not accept “melatonin,” “tryptophan,” or “dopamine”)",
+  "answerHtml": "<b><u>Serotonin</u></b> (accept <u>5-hydroxytryptamine</u> or <u>5-HT</u>; prompt on <u>monoamine</u> or <u>indoleamine</u>; do not accept “melatonin,” “tryptophan,” or “dopamine”)",
   "accept": [
     "serotonin",
     "5 hydroxytryptamine",
@@ -70,7 +70,7 @@
       "r": "For 10 points, name this neurotransmitter, made from the amino acid tryptophan, that helps regulate mood, sleep, and appetite."
     },
     {
-      "p": "In the 1930s, Italian scientist Vittorio Erspamer [“er-SPAH-mer”] found a chemical in cells lining the gut that made smooth muscle contract, and he named it enteramine. In 1952, enteramine was shown to be the same chemical as this one, which had been found in blood.",
+      "p": "In the 1930s, Italian scientist Vittorio Erspamer found a chemical in cells lining the gut that made smooth muscle contract, and he named it enteramine. In 1952, enteramine was shown to be the same chemical as this one, which had been found in blood.",
       "r": "Most of the body’s supply of it is made in the gut. For 10 points, name this neurotransmitter that helps control mood, sleep, and digestion."
     },
     {
@@ -412,7 +412,7 @@
     "title": "Not its chemical relatives",
     "body": "Several separate answer lines share clues with serotonin. Tryptophan is the amino acid it is made from, and melatonin is the sleep hormone the pineal gland makes from it. Dopamine and norepinephrine are fellow monoamine messengers, but they are catecholamines made from a different amino acid, tyrosine, so naming any of these loses the tossup.",
     "fix": "An indole ring, the raphe nuclei, platelets, the gut, enteramine, or SSRIs such as Prozac all point to serotonin. If the question asks what the pineal gland releases into the blood at night, say melatonin; reward, motivation, and L-dopa point to dopamine.",
-    "line": "Real answer line: <b><u>Serotonin</u></b> (accept <u>5-hydroxytryptamine</u> or <u>5-HT</u>; do not accept “melatonin” or “tryptophan”)"
+    "line": "Real answer line: <b><u>Serotonin</u></b> (accept <u>5-hydroxytryptamine</u> or <u>5-HT</u>; prompt on <u>monoamine</u> or <u>indoleamine</u>; do not accept “melatonin,” “tryptophan,” or “dopamine”)"
   },
   "tests": {
     "right": [

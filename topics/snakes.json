@@ -72,7 +72,7 @@
       "r": "Pit vipers such as copperheads have the first kind, while boas and pythons have the second. For 10 points, name these legless reptiles."
     },
     {
-      "p": "Najash [“NAH-hahsh”], a fossil from Argentina named for a legged creature in the Book of Genesis, shows that early members of this group still had hind legs. Some living members of this group keep tiny, claw-like spurs near the tail, the last traces of those legs.",
+      "p": "Najash [“NAH-hahsh”], a fossil from Argentina named after the creature that tempted Eve in the Book of Genesis, shows that early members of this group still had hind legs. Some living members of this group keep tiny, claw-like spurs near the tail, the last traces of those legs.",
       "r": "Boas and pythons have those spurs. For 10 points, name these legless reptiles that smell with forked tongues."
     },
     {
@@ -92,7 +92,7 @@
       "r": "Elapids include cobras and mambas. For 10 points, name these legless reptiles that smell with forked tongues."
     },
     {
-      "p": "Fossils of Titanoboa, a member of this group that lived a few million years after the dinosaurs died out, were found in a coal mine in Colombia. Scientists estimate it grew to about 40 feet long, making it the largest member of this group ever found.",
+      "p": "Fossils of Titanoboa, a member of this group that lived about 60 million years ago, not long after the dinosaurs died out, were found in a coal mine in Colombia. Scientists estimate it grew to about 40 feet long, making it one of the largest members of this group ever found.",
       "r": "Its closest living relatives include boas and anacondas, which squeeze their prey. For 10 points, name these legless reptiles."
     },
     {
@@ -104,7 +104,7 @@
       "r": "Most of the time, they slither in S-shaped waves. For 10 points, name these legless reptiles."
     },
     {
-      "p": "Members of this group molt in a process called ecdysis [“EK-dih-sis”], rubbing their snouts on rough surfaces to start peeling off the old outer layer. Each time certain American pit vipers molt, a new hollow keratin segment is added to the tip of the tail, building up a warning rattle.",
+      "p": "Members of this group molt in a process called ecdysis [“EK-dih-sis”], rubbing their snouts on rough surfaces to start peeling off the old outer layer. Each time certain American pit vipers molt, a new hollow keratin segment forms at the base of the warning rattle on the tail.",
       "r": "They often shed their skin in one piece, and pythons and cobras belong to this group. For 10 points, name these legless reptiles."
     },
     {
@@ -342,7 +342,7 @@
     {
       "id": "titanoboa",
       "tier": "power",
-      "t": "Titanoboa, found in a Colombian coal mine, lived a few million years after the dinosaurs and grew to about 40 feet long",
+      "t": "Titanoboa, found in a Colombian coal mine, lived about 60 million years ago and grew to about 40 feet long, one of the largest ever found",
       "k": [
         "titanoboa",
         "coal mine",
@@ -431,7 +431,7 @@
     "title": "Not every legless reptile",
     "body": "Glass lizards and other legless lizards look almost exactly like snakes, worm lizards (amphisbaenians) are a separate group of burrowing reptiles, and caecilians are legless amphibians. Reptiles and squamates are bigger groups that include snakes and lizards, so those answers only earn a prompt.",
     "fix": "Legless lizards have eyelids and ear openings and can drop their tails; snakes have neither eyelids nor outer ears. Forked tongues, Jacobson’s organ, heat pits, fangs, and swallowing prey whole all point to snakes, and “Serpentes” works too.",
-    "line": "Real answer line: <b><u>Snakes</u></b> (accept <u>Serpentes</u>; prompt on <u>reptiles</u> or <u>squamates</u>; do not accept “lizards”)"
+    "line": "Real answer line: <b><u>Snakes</u></b> (accept <u>snake</u>, <u>Serpentes</u>, <u>serpents</u>, or <u>ophidians</u>; prompt on <u>reptiles</u> or <u>squamates</u>; do not accept “lizards”)"
   },
   "tests": {
     "right": [

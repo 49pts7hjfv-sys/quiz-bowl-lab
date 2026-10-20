@@ -418,7 +418,7 @@
     "title": "Not its reverse",
     "body": "Gluconeogenesis runs this pathway roughly backward to build new glucose, and glycogenolysis breaks stored glycogen down into glucose, so the long sugar-names can blur together. Fermentation is a separate step that follows this pathway when oxygen is missing, and the Krebs cycle follows it when oxygen is present.",
     "fix": "Splitting glucose into two pyruvates in the cytoplasm, hexokinase, phosphofructokinase, aldolase, or a net of two ATP all mean glycolysis. Making new glucose means gluconeogenesis, breaking down glycogen means glycogenolysis, and turning pyruvate into lactic acid or ethanol means fermentation.",
-    "line": "Real answer line: <b><u>Glycolysis</u></b> (accept <u>Embden–Meyerhof–Parnas pathway</u>; prompt on <u>cellular respiration</u>; do not accept “gluconeogenesis”)"
+    "line": "Real answer line: <b><u>Glycolysis</u></b> (accept <u>Embden–Meyerhof–Parnas pathway</u> or <u>EMP pathway</u>; prompt on <u>cellular respiration</u>; do not accept “gluconeogenesis” or “fermentation”)"
   },
   "tests": {
     "right": [

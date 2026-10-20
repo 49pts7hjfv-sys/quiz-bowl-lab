@@ -6,7 +6,7 @@
   "qbCategory": "Science · Other Science (Astronomy)",
   "kicker": "Dwarf planet beyond Neptune · Called the ninth planet until 2006",
   "dates": "Discovered 1930; reclassified as a dwarf planet in 2006",
-  "briefing": "In 1930, a 24-year-old Kansas farm boy named Clyde Tombaugh found Pluto by flipping back and forth between photographs of the night sky, and an 11-year-old English girl suggested its name. For 76 years it was called the ninth planet, until astronomers reclassified it as a dwarf planet in 2006. When NASA’s New Horizons probe flew past in 2015, it found a giant heart-shaped region, half of it a plain of frozen nitrogen.",
+  "briefing": "In 1930, Clyde Tombaugh, a 24-year-old who had grown up on a Kansas farm, found Pluto by flipping back and forth between photographs of the night sky, and an 11-year-old English girl suggested its name. For 76 years it was called the ninth planet, until astronomers reclassified it as a dwarf planet in 2006. When NASA’s New Horizons probe flew past in 2015, it found a giant heart-shaped region, half of it a plain of frozen nitrogen.",
   "answerHtml": "<b><u>Pluto</u></b> (accept <u>134340 Pluto</u>; do not accept “Charon” or “Hades”)",
   "accept": [
     "pluto",
@@ -64,7 +64,7 @@
       "r": "That discoverer, Clyde Tombaugh, found it at Lowell Observatory in 1930. For 10 points, name this world, called the ninth planet until 2006."
     },
     {
-      "p": "This world fails the test of having “cleared the neighborhood” around its orbit, because it shares its region of space with many other icy bodies. The 2005 discovery of the slightly more massive Eris pushed astronomers to write that rule at a meeting in Prague.",
+      "p": "This world fails the test of having “cleared the neighborhood” around its orbit, because it shares its region of space with many other icy bodies. The 2005 discovery of the more massive Eris pushed astronomers to write that rule at a meeting in Prague.",
       "r": "In 2006, this world was reclassified as a dwarf planet. For 10 points, name this world, once called the ninth planet."
     },
     {
@@ -184,7 +184,7 @@
     {
       "id": "eris",
       "tier": "middle",
-      "t": "The 2005 discovery of Eris, which is slightly more massive, helped lead to its reclassification",
+      "t": "The 2005 discovery of Eris, which is more massive, helped lead to its reclassification",
       "k": [
         "eris",
         "2005"

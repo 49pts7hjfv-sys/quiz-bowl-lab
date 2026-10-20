@@ -31,9 +31,6 @@
     "star explosions"
   ],
   "reject": [
-    "nova",
-    "novae",
-    "novas",
     "hypernova",
     "hypernovae",
     "kilonova",
@@ -107,7 +104,7 @@
       "r": "Much of the iron in your blood was spread through space by these blasts. For 10 points, name these explosions of stars."
     },
     {
-      "p": "Astronomers in Egypt, China, and Japan recorded one of these events in 1006 CE in the constellation Lupus, the brightest star-like event in recorded history. The Egyptian astronomer Ali ibn Ridwan left one of the best descriptions of it.",
+      "p": "Astronomers in Egypt, China, and Japan recorded one of these events in 1006 CE in the constellation Lupus, the brightest stellar event in recorded history. The Egyptian astronomer Ali ibn Ridwan left one of the best descriptions of it.",
       "r": "For 10 points, name these explosions of stars, which can briefly shine brighter than a whole galaxy."
     },
     {
@@ -119,11 +116,11 @@
       "r": "That object is a neutron star. For 10 points, name these stellar explosions, which also left behind the Crab Nebula."
     },
     {
-      "p": "The most massive stars may end in a rare “pair-instability” version of these events, in which gamma rays inside the star turn into pairs of electrons and positrons. Such a blast would leave no neutron star or black hole behind.",
+      "p": "Some extremely massive stars may end in a rare “pair-instability” version of these events, in which gamma rays inside the star turn into pairs of electrons and positrons. Such a blast would leave no neutron star or black hole behind.",
       "r": "The red supergiant Betelgeuse is expected to end its life in one of these events. For 10 points, name these blasts that end the lives of many massive stars."
     },
     {
-      "p": "The earliest written record of one of these events comes from Chinese astronomers in 185 CE, who described a “guest star” that stayed visible for months. Its leftover shell of gas is called RCW 86.",
+      "p": "The earliest written record of one of these events comes from Chinese astronomers in 185 CE, who described a “guest star” that stayed visible for months. Its leftover shell of gas is thought to be RCW 86.",
       "r": "Such blasts can briefly outshine a whole galaxy of stars. For 10 points, name these stellar explosions, some of which leave behind neutron stars."
     },
     {
@@ -348,7 +345,7 @@
     {
       "id": "sn-1006",
       "tier": "power",
-      "t": "The one seen in 1006 CE in Lupus was the brightest star-like event in recorded history; Ali ibn Ridwan described it",
+      "t": "The one seen in 1006 CE in Lupus was the brightest stellar event in recorded history; Ali ibn Ridwan described it",
       "k": [
         "1006",
         "lupus",
@@ -359,7 +356,7 @@
     {
       "id": "sn-185",
       "tier": "power",
-      "t": "The earliest recorded one was a Chinese “guest star” in 185 CE; its leftover shell is RCW 86",
+      "t": "The earliest recorded one was a Chinese “guest star” in 185 CE; its leftover shell is thought to be RCW 86",
       "k": [
         "guest star",
         "185",
@@ -413,7 +410,7 @@
     {
       "id": "cassiopeia-a",
       "tier": "power",
-      "t": "Cassiopeia A, a bright radio source, is the wreckage of one seen around 1680; Chandra’s first image (1999) found a neutron star inside",
+      "t": "Cassiopeia A, a bright radio source, is the wreckage of one whose light reached Earth around 1680; Chandra’s first image (1999) found a neutron star inside",
       "k": [
         "cassiopeia a",
         "1680",
@@ -424,7 +421,7 @@
     {
       "id": "pair-instability",
       "tier": "power",
-      "t": "The most massive stars may die in “pair-instability” blasts, where gamma rays turn into electron–positron pairs, leaving nothing behind",
+      "t": "Some extremely massive stars may die in “pair-instability” blasts, where gamma rays turn into electron–positron pairs, leaving nothing behind",
       "k": [
         "pair-instability",
         "positrons",

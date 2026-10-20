@@ -56,7 +56,7 @@
   },
   "tossups": [
     {
-      "p": "In 1920, Albert Michelson and Francis Pease used an interferometer at Mount Wilson to measure the angular size of a star in this constellation, the first star besides the Sun ever measured that way. That red supergiant would reach past the orbit of Mars if it replaced the Sun.",
+      "p": "In 1920, Albert Michelson and Francis Pease used an interferometer at Mount Wilson to measure the angular size of a star in this constellation, the first star besides the Sun to have its size measured. That red supergiant would reach past the orbit of Mars if it replaced the Sun.",
       "r": "That star, Betelgeuse [“BEE-tul-jooz”], marks one of this figure’s shoulders. For 10 points, name this constellation of the hunter, which also contains Rigel."
     },
     {
@@ -68,7 +68,7 @@
       "r": "That cloud looks like the fuzzy middle “star” of this constellation’s sword. For 10 points, name this constellation that includes Betelgeuse and Rigel."
     },
     {
-      "p": "One star in this constellation, Mintaka, lies almost exactly on the celestial equator, so it rises due east and sets due west for people almost everywhere on Earth. Mintaka’s two nearest bright neighbors in the sky are Alnitak and Alnilam, also in this constellation.",
+      "p": "One star in this constellation, Mintaka, lies almost exactly on the celestial equator, so it rises due east and sets due west for people almost everywhere on Earth. Two other stars of this constellation, Alnilam and Alnitak, lie close to Mintaka in the sky.",
       "r": "Those three stars form its famous belt. For 10 points, name this constellation of a hunter from Greek myth."
     },
     {
@@ -271,7 +271,7 @@
     {
       "id": "michelson-pease",
       "tier": "power",
-      "t": "In 1920, Michelson and Pease used an interferometer to measure Betelgeuse’s size, the first star besides the Sun measured that way",
+      "t": "In 1920, Michelson and Pease used an interferometer to measure Betelgeuse’s angular size, the first star besides the Sun to have its size measured",
       "k": [
         "michelson",
         "pease",

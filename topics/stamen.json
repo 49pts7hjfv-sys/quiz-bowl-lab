@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Male part of a flower · An anther on a stalk called a filament",
   "dates": "Its name is Latin for “thread”",
-  "briefing": "A stamen is the male part of a flower: a slender stalk called a filament, topped by an anther that makes pollen. When a bee brushes past, the anthers dust its hairy body with pollen, which it carries to the sticky pistil of the next flower it visits. In the 1700s, the botanist Carl Linnaeus sorted plants into groups mostly by counting their stamens.",
+  "briefing": "A stamen is the male part of a flower: a slender stalk called a filament, topped by an anther that makes pollen. When a bee brushes past, the anthers dust its hairy body with pollen, which it carries to the sticky stigma of the next flower it visits. In the 1700s, the botanist Carl Linnaeus sorted plants into groups mostly by counting their stamens.",
   "answerHtml": "<b><u>Stamen</u></b> (accept <u>stamens</u> or <u>stamina</u>; prompt on <u>androecium</u> or <u>male part</u>; do not accept “anther,” “filament,” or “pistil”)",
   "accept": [
     "stamen",
@@ -116,7 +116,7 @@
       "r": "For 10 points, name these male parts of flowers, each made of an anther and a filament."
     },
     {
-      "p": "Grasses and other wind-pollinated plants often hang these structures outside their small, plain flowers on long, thin stalks, so the breeze can shake pollen out of them. Ragweed plants release huge clouds of pollen from these structures in late summer.",
+      "p": "Grasses and other wind-pollinated plants often have long, dangling versions of these structures that hang outside their small, plain flowers, so the breeze can shake pollen out of them. Ragweed plants release huge clouds of pollen from these structures in late summer.",
       "r": "For 10 points, name these male parts of a flower, each made of an anther on a filament."
     },
     {
@@ -434,7 +434,7 @@
     "title": "Whole stamen or anther?",
     "body": "The anther is only the pollen-making tip of this structure, and the filament is only its stalk, so neither one earns credit when the question asks for the whole male organ. The pistil, or carpel, is the female part, and Pollen and Flowers are separate answer lines. All the stamens of one flower together are called the androecium, which only earns a prompt.",
     "fix": "“This pollen-making sac” or “this tip” wants anther, and “this thin stalk” wants filament. “These male structures,” or anything built from both an anther and a filament, means stamen. Say “stamens” when the question says “these.”",
-    "line": "Real answer line: <b><u>Stamen</u></b> (accept <u>stamens</u>; prompt on <u>androecium</u>; do not accept “anther” or “filament”)"
+    "line": "Real answer line: <b><u>Stamen</u></b> (accept <u>stamens</u> or <u>stamina</u>; prompt on <u>androecium</u> or <u>male part</u>; do not accept “anther,” “filament,” or “pistil”)"
   },
   "tests": {
     "right": [

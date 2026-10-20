@@ -107,7 +107,7 @@
       "r": "A lack of it causes scurvy, which once killed many sailors. For 10 points, name this vitamin."
     },
     {
-      "p": "Although its chemical name calls it an acid, this compound has no carboxyl group; its acidity comes instead from hydroxyl groups on a five-membered lactone ring. Its formula is C6H8O6, and most mammals make it from glucose.",
+      "p": "Although its chemical name calls it an acid, this compound has no carboxyl group; instead, a hydroxyl group on its five-membered lactone ring gives up a hydrogen ion. Its formula is C6H8O6, and most mammals make it from glucose.",
       "r": "Humans must get it from foods like oranges and broccoli. For 10 points, name this vitamin that prevents scurvy."
     },
     {
@@ -366,7 +366,7 @@
     {
       "id": "lactone",
       "tier": "power",
-      "t": "Formula C6H8O6; despite being called an acid, it has no carboxyl group, and its acidity comes from hydroxyl groups on a five-membered lactone ring",
+      "t": "Formula C6H8O6; despite being called an acid, it has no carboxyl group: a hydroxyl group on its five-membered lactone ring gives up a hydrogen ion instead",
       "k": [
         "lactone",
         "c6h8o6",
@@ -421,7 +421,7 @@
     "title": "Which vitamin?",
     "body": "Several vitamins come with a famous deficiency disease, and a fast buzz can grab the wrong letter. A lack of vitamin C causes scurvy, a lack of vitamin D causes rickets, a lack of thiamine (vitamin B1) causes beriberi, and a lack of niacin (vitamin B3) causes pellagra. Vitamin K helps blood clot, and vitamin A helps with night vision.",
     "fix": "Sailors, citrus fruits, limeys, collagen, James Lind, Szent-Györgyi, and paprika all mean vitamin C. Sunshine and rickets mean vitamin D. Saying just “vitamin” earns a prompt, so be ready to add the letter.",
-    "line": "Real answer line: <b><u>Vitamin C</u></b> (accept <u>ascorbic acid</u> or <u>ascorbate</u>; do not accept other vitamins)"
+    "line": "Real answer line: <b><u>Vitamin C</u></b> (accept <u>ascorbic acid</u> or <u>ascorbate</u>; accept <u>C</u> after “this vitamin”; prompt on <u>vitamin</u>; do not accept other vitamins)"
   },
   "tests": {
     "right": [

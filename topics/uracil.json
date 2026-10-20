@@ -69,8 +69,8 @@
       "r": "That look-alike is thymine. For 10 points, name this RNA base that pairs with adenine."
     },
     {
-      "p": "Katalin Karikó [“KAH-tah-lin KAH-ree-koh”] and Drew Weissman shared the 2023 Nobel Prize in Physiology or Medicine for showing that messenger RNA made with pseudouridine in place of the nucleoside built from this base does not set off a strong immune reaction, work that helped make mRNA vaccines against COVID-19 possible.",
-      "r": "It pairs with adenine. For 10 points, name this pyrimidine base found in RNA in place of thymine."
+      "p": "Katalin Karikó [“KAH-tah-lin KAH-ree-koh”] and Drew Weissman shared the 2023 Nobel Prize in Physiology or Medicine for showing that messenger RNA made with a modified form of this base’s nucleoside does not set off a strong immune reaction, work that helped make mRNA vaccines against COVID-19 possible.",
+      "r": "That modified nucleoside is pseudouridine. For 10 points, name this pyrimidine base found in RNA in place of thymine."
     },
     {
       "p": "In 2023, scientists reported finding this base in samples that Japan’s Hayabusa2 spacecraft brought back from the asteroid Ryugu. It had earlier been detected in the Murchison meteorite, which fell in Australia in 1969.",
@@ -93,19 +93,19 @@
       "r": "Its nucleoside is uridine. For 10 points, name this pyrimidine base that pairs with adenine in RNA."
     },
     {
-      "p": "Cells build pyrimidine nucleotides starting from orotic acid, and the first finished one, which carries this base, forms when carbon dioxide is removed from orotidine [“or-OH-tih-deen”] monophosphate. Cytosine nucleotides are then made by adding an amino group to triphosphate nucleotides of this base.",
+      "p": "When cells build pyrimidine nucleotides from scratch, the first finished one carries this base, and the other pyrimidine nucleotides are made from it. For example, cells make cytosine nucleotides by adding an amino group to triphosphate nucleotides of this base.",
       "r": "It pairs with adenine. For 10 points, name this RNA base, which takes the place of thymine."
     },
     {
-      "p": "A few viruses that infect bacteria, such as the phage PBS2, carry this base in their DNA, and they make a protein that blocks the host enzyme that would cut it out. Most other DNA contains this base only by mistake or damage.",
+      "p": "Replacing one hydrogen atom of this base with fluorine makes a common chemotherapy drug, which blocks the enzyme cells use to make the thymine nucleotides that DNA needs. Most DNA contains this base only by mistake or as a result of damage.",
       "r": "In RNA, it pairs with adenine. For 10 points, name this base that RNA uses in place of thymine."
     },
     {
-      "p": "The D arm of transfer RNA is named for dihydrouridine [“dy-HY-droh-YOOR-ih-deen”], a modified version of the nucleoside built from this base. This base forms just two hydrogen bonds with its partner, one fewer than guanine and cytosine share.",
-      "r": "That partner is adenine. For 10 points, name this base that replaces thymine in RNA."
+      "p": "The D arm of a transfer RNA molecule is named for a modified form of this base’s nucleoside that it often contains. This base forms just two hydrogen bonds with its partner, one fewer than guanine and cytosine share.",
+      "r": "That modified nucleoside is dihydrouridine [“dy-HY-droh-YOOR-ih-deen”], and the partner is adenine. For 10 points, name this base that replaces thymine in RNA."
     },
     {
-      "p": "In a type of RNA editing, an enzyme converts one cytosine in the messenger RNA for apolipoprotein B into this base, creating a stop codon, so intestine cells make a shorter version of that protein than liver cells do.",
+      "p": "Viruses that store their genes as RNA, such as flu viruses and coronaviruses, carry this base in their genetic material instead of thymine. When a DNA template strand reading A-A-A is copied into messenger RNA, the resulting codon has this base in all three positions.",
       "r": "It pairs with adenine. For 10 points, name this pyrimidine base found in RNA but not normally in DNA."
     },
     {
@@ -295,24 +295,24 @@
     {
       "id": "pyrimidine-synthesis",
       "tier": "power",
-      "t": "Pyrimidine nucleotides are built from orotic acid; the first finished one carries this base, and cytosine nucleotides are made from its triphosphate",
+      "t": "The first pyrimidine nucleotide cells build from scratch carries it; adding an amino group to its triphosphate makes cytosine nucleotides",
       "k": [
-        "orotic acid",
-        "orotidine",
+        "pyrimidine nucleotide",
+        "from scratch",
         "triphosphate"
       ],
       "n": 0
     },
     {
-      "id": "pbs2",
+      "id": "fluorine-drug",
       "tier": "power",
-      "t": "The phage PBS2 carries it in its DNA and blocks the host enzyme that would cut it out",
+      "t": "Swapping one of its hydrogen atoms for fluorine makes a chemotherapy drug that blocks the enzyme that makes thymine nucleotides",
       "k": [
-        "pbs2",
-        "phage"
+        "fluorine",
+        "chemotherapy"
       ],
       "n": 0,
-      "rabbit": "Bacteriophages"
+      "rabbit": "Cancer"
     },
     {
       "id": "d-arm",
@@ -325,14 +325,15 @@
       "n": 0
     },
     {
-      "id": "rna-editing",
+      "id": "rna-viruses",
       "tier": "power",
-      "t": "RNA editing turns one cytosine in apolipoprotein B messenger RNA into this base, creating a stop codon in intestine cells",
+      "t": "Viruses that store their genes as RNA, such as flu viruses and coronaviruses, carry it instead of thymine",
       "k": [
-        "rna editing",
-        "apolipoprotein b"
+        "viruses",
+        "coronaviruses"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Viruses"
     },
     {
       "id": "radioactive-label",
@@ -391,7 +392,7 @@
     "title": "RNA’s base, not DNA’s",
     "body": "Uracil and thymine do the same job, since each pairs with adenine, and thymine is just uracil with an extra methyl group, so base-pairing clues can fit either one. Thymine is DNA’s version and uracil is RNA’s. Uridine is the nucleoside (uracil plus the sugar ribose), not the base itself, and uric acid and urea are unrelated waste products with similar-sounding names.",
     "fix": "Listen for which nucleic acid the clues describe: RNA, messenger RNA, codons, or transcription point to uracil, while the double helix and DNA replication point to thymine. If you say “uridine,” expect a prompt for the base.",
-    "line": "Real answer line: <b><u>Uracil</u></b> (accept <u>U</u>; prompt on <u>uridine</u>; do not accept “thymine”)"
+    "line": "Real answer line: <b><u>Uracil</u></b> (accept <u>U</u>; prompt on <u>uridine</u> or <u>pyrimidine</u>; do not accept “thymine”)"
   },
   "tests": {
     "right": [

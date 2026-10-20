@@ -85,11 +85,11 @@
       "r": "The stacks are called grana. For 10 points, name these flattened sacs inside chloroplasts."
     },
     {
-      "p": "Unlike most cell membranes, which are built mainly from phospholipids, the membranes of these structures are made mostly of galactolipids, lipids with the sugar galactose attached. The most common one, called MGDG, makes up about half of their lipids.",
+      "p": "Photosystem I and photosystem II, two protein complexes in the membranes of these structures, are numbered in the order they were discovered, even though electrons pass through photosystem II first. Each photosystem has an antenna of pigment molecules that funnels light energy to a reaction center.",
       "r": "Their membranes hold chlorophyll and capture light. For 10 points, name these sacs inside chloroplasts."
     },
     {
-      "p": "Cyanobacteria have these structures right in their cytoplasm, since they have no chloroplasts, but one unusual genus, Gloeobacter [“GLEE-oh-bak-ter”], has none of them at all and carries out photosynthesis on its cell membrane instead. Chloroplasts inherited these structures from the ancient cyanobacteria they descend from.",
+      "p": "Lynn Margulis championed the idea that chloroplasts inherited these structures from cyanobacteria that were swallowed by an ancient cell and never digested. Cyanobacteria still have these structures right in their cytoplasm, since they have no chloroplasts.",
       "r": "For 10 points, name these membrane sacs, stacked into grana in plants, where the light reactions take place."
     },
     {
@@ -101,7 +101,7 @@
       "r": "They are stacked into grana. For 10 points, name these sacs inside chloroplasts where the light reactions occur."
     },
     {
-      "p": "In 1937, Robert Hill showed that isolated chloroplasts could release oxygen in light if given a chemical that accepts electrons. In classroom versions of that Hill reaction, the blue dye DCPIP turns colorless as it picks up electrons from these structures.",
+      "p": "In 1937, Robin Hill showed that isolated chloroplasts could release oxygen in light if given a chemical that accepts electrons. In classroom versions of that Hill reaction, the blue dye DCPIP turns colorless as it picks up electrons from these structures.",
       "r": "For 10 points, name these stacked sacs where the light-dependent reactions of photosynthesis take place."
     },
     {
@@ -253,7 +253,7 @@
     {
       "id": "cyanobacteria",
       "tier": "middle",
-      "t": "Cyanobacteria have them right in their cytoplasm; chloroplasts inherited them from ancient cyanobacteria",
+      "t": "Cyanobacteria, which have no chloroplasts, have them right in their cytoplasm",
       "k": [
         "cyanobacteria",
         "cytoplasm"
@@ -336,21 +336,24 @@
       "n": 0
     },
     {
-      "id": "galactolipids",
+      "id": "photosystem-order",
       "tier": "power",
-      "t": "Their membranes are mostly galactolipids, not phospholipids; one called MGDG makes up about half",
+      "t": "Photosystems I and II are numbered in the order they were discovered, though electrons pass through photosystem II first; each has a pigment antenna feeding a reaction center",
       "k": [
-        "galactolipids",
-        "mgdg"
+        "discovered",
+        "antenna",
+        "reaction center"
       ],
       "n": 0
     },
     {
-      "id": "gloeobacter",
+      "id": "margulis",
       "tier": "power",
-      "t": "The cyanobacterium Gloeobacter has none and photosynthesizes on its cell membrane instead",
+      "t": "Lynn Margulis championed the idea (endosymbiosis) that chloroplasts got them from cyanobacteria swallowed by an ancient cell and never digested",
       "k": [
-        "gloeobacter"
+        "margulis",
+        "endosymbiosis",
+        "swallowed"
       ],
       "n": 0
     },
@@ -379,9 +382,9 @@
     {
       "id": "hill-reaction",
       "tier": "power",
-      "t": "Robert Hill (1937) showed isolated chloroplasts release oxygen in light when given an electron acceptor; in class versions, blue DCPIP turns colorless",
+      "t": "Robin Hill (1937) showed isolated chloroplasts release oxygen in light when given an electron acceptor; in class versions, blue DCPIP turns colorless",
       "k": [
-        "robert hill",
+        "robin hill",
         "dcpip",
         "1937"
       ],
@@ -425,7 +428,7 @@
     "title": "Sac, stack, or space?",
     "body": "Thylakoids are the individual membrane sacs. A stack of them is a granum (plural grana), which earns only a prompt; the fluid around them is the stroma; and the space inside each one is the lumen. The chloroplast is the whole organelle, so none of those answers is the same as this one.",
     "fix": "“These sacs” or “these membranes” where the light reactions happen means thylakoids. “These stacks” means grana, “this fluid” where the Calvin cycle runs means stroma, and “this inner space” where hydrogen ions pile up means lumen.",
-    "line": "Real answer line: <b><u>Thylakoids</u></b> (accept <u>thylakoid membranes</u>; prompt on <u>grana</u>; do not accept “stroma” or “chloroplasts”)"
+    "line": "Real answer line: <b><u>Thylakoids</u></b> (accept <u>thylakoid membranes</u>; prompt on <u>grana</u> or <u>granum</u>; do not accept “stroma,” “lumen,” or “chloroplasts”)"
   },
   "tests": {
     "right": [

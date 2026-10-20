@@ -1,12 +1,12 @@
 {
   "id": "cosmic-microwave-background",
   "name": "Cosmic microwave background",
-  "mono": "CMB",
+  "mono": "CBR",
   "category": "Astronomy",
   "qbCategory": "Science · Other Science (Astronomy)",
   "kicker": "Leftover glow of the Big Bang · Fills the whole sky at about 2.7 kelvins",
   "dates": "Predicted 1948; discovered 1964",
-  "briefing": "The cosmic microwave background is the faint afterglow of the Big Bang: light released about 380,000 years after the universe began, since stretched into microwaves as the universe expanded. It fills the entire sky with a chill of about 2.7 degrees above absolute zero. Two Bell Labs scientists found it by accident in 1964 while trying to get rid of a mysterious hiss in their antenna, and at first they blamed pigeon droppings.",
+  "briefing": "The cosmic microwave background is the faint afterglow of the Big Bang: light released about 380,000 years after the universe began, since stretched into microwaves as the universe expanded. It fills the entire sky with a chill of about 2.7 degrees above absolute zero. Two Bell Labs scientists found it by accident in 1964 while trying to get rid of a mysterious hiss in their antenna, and at first they suspected pigeon droppings.",
   "answerHtml": "<b><u>Cosmic microwave background</u></b> radiation (accept <u>CMB</u> or <u>CMBR</u>; accept <u>cosmic background radiation</u>; prompt on <u>background radiation</u> or <u>microwave</u>s; do not accept “Big Bang” or “cosmic rays”)",
   "accept": [
     "cosmic microwave background",
@@ -122,7 +122,7 @@
     },
     {
       "p": "When this radiation was released, it glowed at about 3,000 kelvins, like the surface of a cool star, but the universe’s expansion has since stretched its waves more than a thousand times longer. Its photons outnumber all the protons and neutrons in the universe by more than a billion to one.",
-      "r": "Today it is only about 2.7 kelvins. For 10 points, name this faint radiation left over from the Big Bang."
+      "r": "It has since cooled to only about 2.7 kelvins. For 10 points, name this faint radiation left over from the Big Bang."
     }
   ],
   "clues": [
@@ -195,7 +195,7 @@
     {
       "id": "dicke",
       "tier": "middle",
-      "t": "Robert Dicke’s Princeton team was about to search for it when he learned it had been found: “Boys, we’ve been scooped”",
+      "t": "Robert Dicke’s Princeton team was about to search for it; when he learned it had been found, he reportedly said, “Boys, we’ve been scooped”",
       "k": [
         "dicke",
         "princeton",
@@ -322,7 +322,7 @@
     {
       "id": "bicep2",
       "tier": "power",
-      "t": "In 2014, BICEP2 claimed signs of early gravitational waves in its polarization, but dust in the Milky Way explained the signal",
+      "t": "In 2014, BICEP2 claimed signs of early gravitational waves in its polarization, but dust in the Milky Way could explain the signal",
       "k": [
         "bicep2",
         "polarization",

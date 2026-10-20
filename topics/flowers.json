@@ -7,7 +7,7 @@
   "kicker": "Reproductive structures of angiosperms · Ripen into fruits and seeds",
   "dates": "Appear in fossils from the Cretaceous Period",
   "briefing": "A flower is the part of a flowering plant that makes seeds. Bright petals, sweet scents, and sugary nectar lure bees, butterflies, hummingbirds, and bats, which carry pollen from one flower to the next. Once pollen reaches the sticky tip of the pistil, the flower’s ovary can swell into a fruit with seeds inside, which is why apples, cherries, and pea pods all start out as flowers.",
-  "answerHtml": "<b><u>Flowers</u></b> (accept <u>flower</u> or <u>blossoms</u>; prompt on <u>angiosperms</u> or <u>flowering plants</u>; do not accept “stamens” or “pistils”)",
+  "answerHtml": "<b><u>Flowers</u></b> (accept <u>flower</u>, <u>blossoms</u>, or <u>blooms</u>; prompt on <u>angiosperms</u> or <u>flowering plants</u>; do not accept “stamens” or “pistils”)",
   "accept": [
     "flowers",
     "flower",
@@ -83,7 +83,7 @@
       "r": "For 10 points, name these plant structures that attract pollinators with sweet nectar and colorful petals."
     },
     {
-      "p": "Bees, which cannot see red, follow ultraviolet patterns called nectar guides on these structures, which are invisible to human eyes. Hummingbirds usually visit red, tube-shaped kinds of these structures, while bats and moths visit white, strongly scented kinds that open at night.",
+      "p": "Bees, which cannot see red, follow nectar guides, ultraviolet patterns on these structures that human eyes cannot see. Hummingbirds usually visit red, tube-shaped kinds of these structures, while bats and moths visit white, strongly scented kinds that open at night.",
       "r": "Their ovaries later become fruits. For 10 points, name these plant structures that use color and scent to attract pollinators."
     },
     {
@@ -91,7 +91,7 @@
       "r": "Their stamens hold up pollen-making anthers on thin filaments. For 10 points, name these reproductive structures of angiosperms."
     },
     {
-      "p": "The parasitic plant Rafflesia arnoldii [“ruh-FLEE-zee-uh ar-NOL-dee-eye”] makes the largest single one of these structures, which can be about a meter across and smells like rotting meat to attract flies. The titan arum makes the world’s largest unbranched cluster of tiny ones, which can grow taller than a person.",
+      "p": "The parasitic plant Rafflesia arnoldii [“ruh-FLEE-zhuh ar-NOLD-ee-eye”] makes the largest single one of these structures, which can be about a meter across and smells like rotting meat to attract flies. The titan arum makes the world’s largest unbranched cluster of tiny ones, which can grow taller than a person.",
       "r": "For 10 points, name these plant structures, which usually attract pollinators with petals and sweet nectar."
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "p": "Short-day plants such as poinsettias and chrysanthemums only start making these structures when nights grow long enough. Plants that rely on the wind, such as grasses and oaks, make small, plain versions of these structures with no bright colors or scent.",
-      "r": "Wind carries their pollen instead of bees. For 10 points, name these reproductive structures of angiosperms, whose petals often attract pollinators."
+      "r": "In those plants, the wind carries pollen instead of bees. For 10 points, name these reproductive structures of angiosperms, whose petals often attract pollinators."
     }
   ],
   "clues": [
@@ -311,7 +311,7 @@
     {
       "id": "amborella",
       "tier": "power",
-      "t": "Amborella, a shrub found only on New Caledonia, is the oldest surviving branch of angiosperms",
+      "t": "Amborella, a shrub found only on New Caledonia, belongs to the oldest surviving branch of angiosperms",
       "k": [
         "amborella",
         "new caledonia"
@@ -446,7 +446,7 @@
     "title": "The whole, not a part",
     "body": "Many clues for this answer describe one of its parts, like the stamens, the pistil, the petals, or the ovary, so a quick buzz can come out as the part instead of the whole structure. Stamen and Pollen are separate answer lines, and “angiosperms” names the group of plants that makes flowers, not the structures themselves, so it only earns a prompt.",
     "fix": "Listen for the noun. “These structures” with sepals, petals, stamens, and pistils means flowers. “This male part” with an anther and a filament means stamen, “this powder” means pollen, and “this group of plants” means angiosperms.",
-    "line": "Real answer line: <b><u>Flowers</u></b> (accept <u>flower</u> or <u>blossoms</u>; prompt on <u>angiosperms</u>; do not accept “stamens” or “pistils”)"
+    "line": "Real answer line: <b><u>Flowers</u></b> (accept <u>flower</u>, <u>blossoms</u>, or <u>blooms</u>; prompt on <u>angiosperms</u> or <u>flowering plants</u>; do not accept “stamens” or “pistils”)"
   },
   "tests": {
     "right": [
@@ -454,7 +454,8 @@
       "flower",
       "Blossoms",
       "Flwers",
-      "the flowers"
+      "the flowers",
+      "blooms"
     ],
     "prompt": [
       "Angiosperms",

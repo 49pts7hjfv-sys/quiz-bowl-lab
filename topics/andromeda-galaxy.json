@@ -82,11 +82,11 @@
       "r": "This object’s companions include M32 and M110. For 10 points, name this spiral galaxy, the largest in the Local Group."
     },
     {
-      "p": "In 1993, the Hubble Space Telescope revealed that this object appears to have a double nucleus, now explained as a lopsided disk of stars circling its central black hole. A long stream of stars in its outskirts is the wreckage of a smaller neighbor that it pulled apart.",
+      "p": "In 1993, the Hubble Space Telescope revealed that this object appears to have a double nucleus, which is thought to be a lopsided disk of stars circling its central black hole. A long stream of stars in its outskirts is the wreckage of a smaller neighbor that it pulled apart.",
       "r": "It is about 2.5 million light-years away. For 10 points, name this spiral galaxy, the Milky Way’s nearest large neighbor."
     },
     {
-      "p": "In 1887, Isaac Roberts took photographs of this object that first revealed its spiral structure, though he thought it was a new solar system taking shape. Charles Messier had added it to his catalog of fuzzy objects in 1764.",
+      "p": "In the late 1880s, Isaac Roberts took photographs of this object that first revealed its spiral structure, though he thought it was a new solar system taking shape. Charles Messier had added it to his catalog of fuzzy objects in 1764.",
       "r": "For 10 points, name this spiral galaxy that Edwin Hubble showed lies far beyond the Milky Way."
     },
     {
@@ -103,7 +103,7 @@
     },
     {
       "p": "Triangulum, a smaller spiral about 3 million light-years from Earth, may be a satellite of this object. Mayall II, the brightest globular cluster in the Local Group, orbits this object, which has far more globular clusters than the Milky Way does.",
-      "r": "Its possible future merger with the Milky Way has been nicknamed “Milkomeda.” For 10 points, name this spiral galaxy, the largest in the Local Group."
+      "r": "The galaxy that may form if it merges with the Milky Way has been nicknamed “Milkomeda.” For 10 points, name this spiral galaxy, the largest in the Local Group."
     },
     {
       "p": "Skywatchers often find this object by hopping from the Great Square of Pegasus along a chain of stars, or by starting from the W shape of Cassiopeia. In long-exposure photos, it stretches across a patch of sky about six times as wide as the full Moon.",
@@ -358,10 +358,10 @@
     {
       "id": "isaac-roberts",
       "tier": "power",
-      "t": "Isaac Roberts’s 1887 photographs first showed its spiral structure; he thought it was a new solar system forming",
+      "t": "Isaac Roberts’s photographs from the late 1880s first showed its spiral structure; he thought it was a new solar system forming",
       "k": [
         "isaac roberts",
-        "1887",
+        "1880s",
         "solar system"
       ],
       "n": 0
