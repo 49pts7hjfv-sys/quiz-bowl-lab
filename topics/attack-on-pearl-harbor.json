@@ -6,8 +6,8 @@
   "qbCategory": "History · American History",
   "kicker": "Japan’s surprise attack on Hawaii · Brought the U.S. into World War II",
   "dates": "December 7, 1941",
-  "briefing": "Early on Sunday morning, December 7, 1941, more than 350 Japanese planes from six aircraft carriers struck the U.S. Navy base at Pearl Harbor, Hawaii. In less than two hours they sank or damaged eight battleships, and more than 2,400 Americans were killed, including 1,177 crew members of the USS _Arizona_. The next day, President Franklin Roosevelt called it “a date which will live in infamy,” and the United States entered World War II.",
-  "answerHtml": "attack on <b><u>Pearl Harbor</u></b> (accept <u>Hawaii Operation</u> or <u>Operation Z</u>; prompt on <u>Hawaii</u> or <u>Oahu</u>)",
+  "briefing": "Early on Sunday morning, December 7, 1941, more than 350 Japanese planes from six aircraft carriers struck the U.S. Navy base at Pearl Harbor, Hawaii. In less than two hours they sank or damaged eight battleships, and more than 2,400 Americans were killed, including 1,177 crew members of the USS _Arizona_. The next day, President Franklin Roosevelt called December 7 “a date which will live in infamy,” and the United States entered World War II.",
+  "answerHtml": "attack on <b><u>Pearl Harbor</u></b> (accept <u>Hawaii Operation</u> or <u>Operation Z</u>; prompt on <u>Hawaii</u>, <u>Oahu</u>, or <u>Honolulu</u>)",
   "accept": [
     "attack on pearl harbor",
     "the attack on pearl harbor",
@@ -416,7 +416,7 @@
     {
       "id": "reciprocity-1887",
       "tier": "power",
-      "t": "An 1887 treaty with the Kingdom of Hawaii gave the U.S. the harbor; FDR kept the Pacific Fleet there from 1940",
+      "t": "An 1887 treaty with the Kingdom of Hawaii gave the U.S. the right to use the harbor; FDR kept the Pacific Fleet there from 1940",
       "k": [
         "1887",
         "kingdom of hawaii",
@@ -440,7 +440,7 @@
     "title": "Attack, harbor, or ship?",
     "body": "Most tossups ask for the attack, and saying “Pearl Harbor” is enough. But some questions want a related answer: the USS _Arizona_ (“this battleship”), Hawaii or Oahu (“this island” or “this territory”), the Battle of Midway (the June 1942 battle where the U.S. sank four of the attacking carriers), or the Doolittle Raid (the April 1942 bombing of Tokyo). Answering “USS Arizona” when the question wants the attack is wrong.",
     "fix": "Listen for the noun: “this attack,” “this event,” “this harbor,” or “this naval base” means Pearl Harbor; “this ship” or “this battleship” means the USS _Arizona_ (or another ship); “this battle” in June 1942 means Midway. If you say only “Hawaii,” expect a prompt, so be ready to add “Pearl Harbor.”",
-    "line": "Real answer line: attack on <b><u>Pearl Harbor</u></b> (accept <u>Hawaii Operation</u> or <u>Operation Z</u>; prompt on <u>Hawaii</u> or <u>Oahu</u>)"
+    "line": "Real answer line: attack on <b><u>Pearl Harbor</u></b> (accept <u>Hawaii Operation</u> or <u>Operation Z</u>; prompt on <u>Hawaii</u>, <u>Oahu</u>, or <u>Honolulu</u>)"
   },
   "tests": {
     "right": [

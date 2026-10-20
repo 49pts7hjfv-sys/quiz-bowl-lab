@@ -7,7 +7,7 @@
   "kicker": "Abolitionist who escaped slavery · Author, editor, and great orator",
   "dates": "c. 1818–1895",
   "briefing": "Frederick Douglass was born into slavery in Maryland and kept teaching himself to read after his lessons were forbidden. In 1838 he escaped by train and steamboat, disguised as a sailor, and soon became one of the most powerful speakers in America. His 1845 autobiography became a bestseller, and his Rochester newspaper, _The North Star_, demanded freedom for enslaved people and equal rights for women.",
-  "answerHtml": "Frederick <b><u>Douglass</u></b> (accept Frederick Augustus Washington <u>Bailey</u>; do not accept “Stephen Douglas”)",
+  "answerHtml": "Frederick <b><u>Douglass</u></b> (accept <u>Frederick</u> Augustus Washington <u>Bailey</u>; do not accept “Stephen Douglas”)",
   "accept": [
     "frederick douglass",
     "douglass",
@@ -418,7 +418,7 @@
     "title": "Douglass, not Douglas",
     "body": "Two famous figures of the 1850s share almost the same name. Frederick Douglass (two s’s) was the abolitionist editor, while Stephen A. Douglas (one s) was the Illinois senator who debated Abraham Lincoln and wrote the Kansas-Nebraska Act. Players also buzz too early with other abolitionists: William Lloyd Garrison published _The Liberator_, and Harriet Tubman led people north on the Underground Railroad.",
     "fix": "_The North Star_, the 1845 _Narrative_, the sailor disguise, Edward Covey, and “What to the Slave Is the Fourth of July?” mean Frederick Douglass. The Lincoln-Douglas debates, popular sovereignty, and the “Little Giant” mean Stephen Douglas. Say “Frederick Douglass” in full if you have any doubt.",
-    "line": "Real answer line: Frederick <b><u>Douglass</u></b> (accept Frederick Augustus Washington <u>Bailey</u>; do not accept “Stephen Douglas”)"
+    "line": "Real answer line: Frederick <b><u>Douglass</u></b> (accept <u>Frederick</u> Augustus Washington <u>Bailey</u>; do not accept “Stephen Douglas”)"
   },
   "tests": {
     "right": [

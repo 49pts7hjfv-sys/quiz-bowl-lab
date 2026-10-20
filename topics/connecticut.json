@@ -7,13 +7,12 @@
   "kicker": "New England colony and state · The Fundamental Orders and the Charter Oak",
   "dates": "Statehood 1788 (5th state)",
   "briefing": "This small New England state calls itself the “Constitution State” because in 1639 its first towns adopted the Fundamental Orders, often called the first written constitution in the Western world. According to legend, its colonists hid their royal charter in an oak tree to keep it from a royal governor. The state also gave America Nathan Hale, Noah Webster’s dictionary, and the nation’s oldest continuously published newspaper, the _Hartford Courant_.",
-  "answerHtml": "<b><u>Connecticut</u></b> (accept <u>Connecticut Colony</u> or Colony of <u>Connecticut</u>)",
+  "answerHtml": "<b><u>Connecticut</u></b> (accept <u>Connecticut Colony</u> or Colony of <u>Connecticut</u>; prompt on “Constitution State” or “Nutmeg State”)",
   "accept": [
     "connecticut",
     "state of connecticut",
     "connecticut colony",
-    "colony of connecticut",
-    "connecticut river colony"
+    "colony of connecticut"
   ],
   "prompt": [
     "constitution state",
@@ -99,7 +98,7 @@
       "r": "For 10 points, name this New England state, whose river towns adopted the Fundamental Orders in 1639."
     },
     {
-      "p": "Mark Twain lived in this state’s capital during the years he wrote _Adventures of Huckleberry Finn_, and the hero of another of his novels is a factory worker from that city who wakes up in King Arthur’s court.",
+      "p": "Mark Twain lived in this state’s capital during the years he wrote _Adventures of Huckleberry Finn_, and the hero of another of his novels is a factory superintendent from that city who wakes up in King Arthur’s court.",
       "r": "Twain’s neighbor there was Harriet Beecher Stowe. For 10 points, name this New England state, whose capital is Hartford."
     },
     {
@@ -115,11 +114,11 @@
       "r": "The U.S. Coast Guard Academy is in its city of New London. For 10 points, name this state on Long Island Sound, whose capital is Hartford."
     },
     {
-      "p": "During the Great Awakening, Jonathan Edwards preached “Sinners in the Hands of an Angry God” in this colony’s town of Enfield in 1741. Later, Noah Webster, a native of this state, published his _American Dictionary of the English Language_ in 1828.",
+      "p": "During the Great Awakening, Jonathan Edwards preached “Sinners in the Hands of an Angry God” in 1741 at Enfield, a town that is now part of this state. Later, Noah Webster, a native of this state, published his _American Dictionary of the English Language_ in 1828.",
       "r": "This colony’s college, founded in 1701, became Yale University. For 10 points, name this New England state."
     },
     {
-      "p": "Jonathan Trumbull, this colony’s governor when the Revolution began, was the only colonial governor to side with the Patriots. His colony sent so much food and other supplies to the Continental Army that it was nicknamed the “Provisions State.”",
+      "p": "Jonathan Trumbull, this colony’s governor when the Revolution began, was the only colonial governor then in office to side with the Patriots. His colony sent so much food and other supplies to the Continental Army that it was nicknamed the “Provisions State.”",
       "r": "Trumbull’s son John painted _Declaration of Independence_. For 10 points, name this state, whose capital is Hartford."
     }
   ],
@@ -303,7 +302,7 @@
     {
       "id": "trumbull",
       "tier": "power",
-      "t": "Governor Jonathan Trumbull was the only colonial governor to side with the Patriots; the colony was called the “Provisions State”",
+      "t": "Governor Jonathan Trumbull was the only colonial governor in office when the war began to side with the Patriots; the colony was called the “Provisions State”",
       "k": [
         "trumbull",
         "provisions state"
@@ -395,7 +394,7 @@
     "title": "Which runaway Puritan?",
     "body": "Three famous Puritans left Massachusetts Bay in the 1630s, and each started somewhere different. Thomas Hooker led his congregation to Hartford, in Connecticut, while Roger Williams founded Providence and Anne Hutchinson settled nearby, both in what became Rhode Island. Players who hear “left Massachusetts” often buzz with Rhode Island too early, and “first written constitution” clues can tempt you toward the Mayflower Compact.",
     "fix": "Hooker, Hartford, the Fundamental Orders, the Charter Oak, and the Pequot War mean Connecticut. Williams, Providence, religious freedom, and Hutchinson mean Rhode Island. The Mayflower Compact (1620) belongs to Plymouth, which later joined Massachusetts.",
-    "line": "Real answer line: <b><u>Connecticut</u></b> (accept <u>Connecticut Colony</u> or Colony of <u>Connecticut</u>)"
+    "line": "Real answer line: <b><u>Connecticut</u></b> (accept <u>Connecticut Colony</u> or Colony of <u>Connecticut</u>; prompt on “Constitution State” or “Nutmeg State”)"
   },
   "tests": {
     "right": [

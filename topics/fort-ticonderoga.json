@@ -7,7 +7,7 @@
   "kicker": "Fort on Lake Champlain · Captured by Ethan Allen and the Green Mountain Boys",
   "dates": "Built 1755–1757 (as Fort Carillon)",
   "briefing": "Built by the French in the 1750s where Lake George drains into Lake Champlain, Fort Ticonderoga guarded the water highway between Canada and the Hudson River. In 1758, a small French army defended it against a British force several times larger. In May 1775, Ethan Allen, Benedict Arnold, and the Green Mountain Boys seized it in a surprise dawn raid, and that winter Henry Knox hauled its cannons all the way to Boston.",
-  "answerHtml": "Fort <b><u>Ticonderoga</u></b> (accept Fort <u>Carillon</u>)",
+  "answerHtml": "Fort <b><u>Ticonderoga</u></b> (accept <u>Fort Carillon</u>; prompt on <u>Carillon</u> alone)",
   "accept": [
     "fort ticonderoga",
     "ticonderoga",
@@ -107,8 +107,8 @@
       "r": "For 10 points, name this fort near the southern end of Lake Champlain, which Ethan Allen captured in 1775."
     },
     {
-      "p": "U.S. Navy ships, including a World War II aircraft carrier and a class of guided-missile cruisers, share this fort’s name, as does a well-known brand of yellow pencils. The fort guarded the narrow passage between Lake George and a much longer lake to the north.",
-      "r": "Ethan Allen captured it in 1775. For 10 points, name this fort on Lake Champlain, whose cannons Henry Knox took to Boston."
+      "p": "U.S. Navy ships, including a World War II aircraft carrier and a class of guided-missile cruisers, share this fort’s name. The fort guarded the narrow passage between Lake George and a much longer lake to the north.",
+      "r": "A well-known brand of yellow pencils shares its name too. For 10 points, name this fort on Lake Champlain, which Ethan Allen captured in 1775."
     },
     {
       "p": "Within days after this fort fell, Seth Warner led men who captured nearby Crown Point, and Benedict Arnold sailed north to raid Fort St. Johns in Canada. Those moves briefly gave the Americans control of the lake route to Canada.",
@@ -404,7 +404,7 @@
     "title": "Which lake fort?",
     "body": "Several forts and battle sites along Lake Champlain and Lake George turn up in the same tossups. Fort William Henry was Montcalm’s 1757 target in _The Last of the Mohicans_, Crown Point was taken by Seth Warner days after Ticonderoga fell, and Saratoga is where Burgoyne surrendered after capturing Ticonderoga in 1777. Early clues from the French and Indian War may also call this fort Carillon.",
     "fix": "Ethan Allen and the Green Mountain Boys, Henry Knox’s cannons, Montcalm’s 1758 win over Abercromby, and Mount Defiance all mean Fort Ticonderoga. If you know only the French name, say “Fort Carillon,” which is accepted. Fort Necessity (Washington, 1754) and Fort Duquesne (Pittsburgh) are different forts, far to the south and west.",
-    "line": "Real answer line: Fort <b><u>Ticonderoga</u></b> (accept Fort <u>Carillon</u>)"
+    "line": "Real answer line: Fort <b><u>Ticonderoga</u></b> (accept <u>Fort Carillon</u>; prompt on <u>Carillon</u> alone)"
   },
   "tests": {
     "right": [

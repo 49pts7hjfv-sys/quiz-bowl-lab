@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Cash crop that saved Jamestown · Grown with enslaved labor in the Chesapeake",
   "dates": "Grown at Jamestown from 1612",
-  "briefing": "Jamestown nearly failed until John Rolfe planted a sweeter kind of tobacco around 1612 and shipped it to England, where it sold for high prices. Soon Virginians were growing it everywhere, even in the streets, and the crop spread across the Chesapeake on the labor of indentured servants and, later, enslaved Africans. Centuries later, in 1964, a report by the U.S. Surgeon General concluded that cigarette smoking causes lung cancer.",
+  "briefing": "Jamestown nearly failed until John Rolfe planted a sweeter kind of tobacco around 1612 and shipped it to England, where it sold for high prices. Soon Virginians were growing it everywhere, even in the streets, and the crop spread across the Chesapeake on the labor of indentured servants and, later, enslaved Africans. The leaf was so valuable that colonists used it as money, paying taxes, fines, and even ministers’ salaries in pounds of tobacco.",
   "answerHtml": "<b><u>tobacco</u></b> (accept <u>Nicotiana</u> tabacum)",
   "accept": [
     "tobacco",
@@ -68,8 +68,8 @@
       "r": "Taxes and fines there were often counted in pounds of it. For 10 points, name this cash crop that John Rolfe made Virginia’s first big export."
     },
     {
-      "p": "In January 1964, a report by Surgeon General Luther Terry concluded that smoking cigarettes made from this plant causes lung cancer. The next year, Congress required health warnings on cigarette packages, and in 1971 cigarette ads were banned from television and radio.",
-      "r": "Centuries earlier, this crop had been colonial Virginia’s main export. For 10 points, name this plant first grown for export at Jamestown by John Rolfe."
+      "p": "Like neighboring Virginia, Lord Baltimore’s colony of Maryland, founded in 1634, came to depend on this crop, and its colonists often paid taxes and debts in pounds of it. Many Chesapeake planters loaded this crop onto ships at their own riverside wharves.",
+      "r": "It was the leading export of the Chesapeake colonies. For 10 points, name this crop that John Rolfe first grew for export at Jamestown."
     },
     {
       "p": "James Buchanan Duke used the Bonsack machine to mass-produce cigarettes and in 1890 formed a giant company that controlled most of the American market for this crop’s products. The Supreme Court broke up that trust in 1911, the same month it broke up Standard Oil.",
@@ -100,8 +100,8 @@
       "r": "Its grower later married Pocahontas. For 10 points, name this crop that John Rolfe planted to save Jamestown."
     },
     {
-      "p": "In the 1998 Master Settlement Agreement, 46 states settled lawsuits against the largest companies selling cigarettes made from this plant, which agreed to pay more than 200 billion dollars over 25 years and to limit their advertising.",
-      "r": "Decades earlier, a 1964 Surgeon General’s report had linked smoking to lung cancer. For 10 points, name this crop, the main cash crop of colonial Virginia."
+      "p": "Growers of this crop broke off each plant’s flowers in a step called “topping,” so that the plant would grow bigger leaves. After the harvest, workers hung the cut plants in barns to dry, or cure, before packing the leaves into barrels for shipping.",
+      "r": "In the 1700s, enslaved people did most of this hard work on Chesapeake plantations. For 10 points, name this cash crop that John Rolfe first grew for export at Jamestown."
     },
     {
       "p": "In 1839, an enslaved blacksmith named Stephen is credited with discovering a way to cure this crop over charcoal fires that turned its leaves bright yellow. That “bright leaf” variety helped make Durham, North Carolina, a center of the industry built on this crop.",
@@ -175,23 +175,11 @@
     {
       "id": "money",
       "tier": "middle",
-      "t": "Used as money in colonial Virginia; taxes, fines, and ministers’ salaries were counted in pounds of it",
+      "t": "Used as money in colonial Virginia and Maryland; taxes, fines, and ministers’ salaries were counted in pounds of it",
       "k": [
         "money",
         "salaries",
         "pounds"
-      ],
-      "n": 0
-    },
-    {
-      "id": "surgeon-general",
-      "tier": "middle",
-      "t": "Surgeon General Luther Terry’s 1964 report concluded that cigarette smoking causes lung cancer",
-      "k": [
-        "surgeon general",
-        "luther terry",
-        "1964",
-        "lung cancer"
       ],
       "n": 0
     },
@@ -288,6 +276,29 @@
       "n": 0
     },
     {
+      "id": "topping",
+      "tier": "power",
+      "t": "Growers “topped” each plant, breaking off its flowers so the leaves grew bigger, then hung the cut plants in barns to cure",
+      "k": [
+        "topped",
+        "flowers",
+        "barns",
+        "cure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wharves",
+      "tier": "power",
+      "t": "Many Chesapeake planters loaded it onto ships at their own riverside wharves",
+      "k": [
+        "wharves",
+        "riverside",
+        "ships"
+      ],
+      "n": 0
+    },
+    {
       "id": "inspection",
       "tier": "power",
       "t": "A 1730 Virginia law required inspection at public warehouses; warehouse receipts circulated as money",
@@ -372,34 +383,12 @@
         "kentucky"
       ],
       "n": 0
-    },
-    {
-      "id": "msa",
-      "tier": "power",
-      "t": "1998 Master Settlement Agreement: 46 states settled with the biggest cigarette companies for over $200 billion",
-      "k": [
-        "master settlement agreement",
-        "1998",
-        "46 states"
-      ],
-      "n": 0
-    },
-    {
-      "id": "warning-labels",
-      "tier": "power",
-      "t": "Congress required warning labels on cigarette packs (1965) and banned cigarette ads on TV and radio (1971)",
-      "k": [
-        "warning labels",
-        "1965",
-        "1971"
-      ],
-      "n": 0
     }
   ],
   "trap": {
     "title": "Which cash crop?",
     "body": "Colonial-economy questions often ask for a crop, and four answers get mixed up. Tobacco was the cash crop of Virginia and Maryland, starting with John Rolfe at Jamestown. Rice and indigo were the big crops of colonial South Carolina, where Eliza Lucas Pinckney grew indigo in the 1740s. Cotton took over the Deep South only after Eli Whitney’s cotton gin (1793), and sugar was king in the Caribbean.",
-    "fix": "Rolfe, Jamestown, the Chesapeake, hogsheads, King James’s “Counterblaste,” the Parson’s Cause, the Dukes of Durham, and the 1964 Surgeon General’s report mean tobacco. Eliza Lucas means indigo, the cotton gin and “King Cotton” mean cotton, and Caribbean plantations usually mean sugar.",
+    "fix": "Rolfe, Jamestown, the Chesapeake, hogsheads, King James’s “Counterblaste,” the Parson’s Cause, the Dukes of Durham, and “bright leaf” curing mean tobacco. Eliza Lucas means indigo, the cotton gin and “King Cotton” mean cotton, and Caribbean plantations usually mean sugar.",
     "line": "Real answer line: <b><u>tobacco</u></b> (accept <u>Nicotiana</u> tabacum)"
   },
   "tests": {
