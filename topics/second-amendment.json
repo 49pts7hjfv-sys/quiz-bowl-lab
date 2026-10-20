@@ -512,7 +512,7 @@
     {
       "id": "militia-act",
       "tier": "power",
-      "t": "Militia Act of 1792: able-bodied white male citizens aged 18 to 45 had to enroll in the militia and bring a musket or rifle",
+      "t": "Militia Act of 1792: able-bodied white male citizens between 18 and 45 had to enroll in the militia and supply their own musket or rifle",
       "k": [
         "militia act",
         "1792",
@@ -544,9 +544,9 @@
   ],
   "trap": {
     "title": "Amendment, right, or weapons?",
-    "body": "This amendment is one part of the Bill of Rights, so “Bill of Rights” is wrong when a question asks for one amendment. Some real tossups ask for the weapons themselves, with answer lines like “guns” or “firearms”; a question about how weapons were invented or made, such as Samuel Colt’s revolver or the Springfield Armory, wants that kind of answer instead. On either side of this amendment sit the First (speech, religion, and the press) and the Third (no quartering of soldiers in private homes).",
+    "body": "This amendment is one part of the Bill of Rights, so “Bill of Rights” is wrong when a question asks for one amendment. Some tossups ask for the weapons themselves, with answer lines like “guns” or “firearms”; a question about how weapons were invented or made, such as Samuel Colt’s revolver or the Springfield Armory, wants that kind of answer instead. On either side of this amendment sit the First (speech, religion, and the press) and the Third (no quartering of soldiers in private homes).",
     "fix": "Listen for the noun. “This amendment” wants “Second Amendment”; “these weapons” or “these objects” wants guns or firearms; “this document” wants the Bill of Rights. If you hear “keep and bear Arms,” “well regulated Militia,” _Heller_, or _McDonald_, say “Second Amendment.”",
-    "line": "Real answer line: <b><u>Second Amendment</u></b> (or <u>Amendment II</u>; prompt on <u>right to bear arms</u>; do not accept “Bill of Rights”)"
+    "line": "Real answer line: <b><u>Second Amendment</u></b> (or <u>Amendment II</u>; prompt on <u>right to bear arms</u>; do not accept “Bill of Rights,” “First Amendment,” or “guns”)"
   },
   "tests": {
     "right": [

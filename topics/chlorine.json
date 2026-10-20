@@ -1,0 +1,450 @@
+{
+  "id": "chlorine",
+  "name": "Chlorine",
+  "mono": "CL",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 17 · The yellow-green halogen that keeps drinking water safe",
+  "dates": "Discovered by Carl Wilhelm Scheele, 1774",
+  "briefing": "Chlorine is a yellow-green, choking gas, yet it protects millions of people by killing germs in drinking water and swimming pools. Carl Wilhelm Scheele first made it in 1774, and Humphry Davy later proved it was an element and named it after the Greek word for “pale green.” It is a halogen that joins sodium to make table salt, and it is the key ingredient in household bleach.",
+  "answerHtml": "<b><u>Chlorine</u></b> (accept <u>Cl</u> or <u>Cl<sub>2</sub></u>; do not accept “chloride”)",
+  "accept": [
+    "chlorine",
+    "cl",
+    "cl2",
+    "cl 2",
+    "chlorine gas",
+    "dichlorine"
+  ],
+  "prompt": [],
+  "reject": [
+    "chloride",
+    "chlorides",
+    "chloride ion",
+    "chloride ions",
+    "chlorite",
+    "chlorate",
+    "perchlorate",
+    "hypochlorite",
+    "sodium hypochlorite",
+    "chlorine dioxide",
+    "chloroform",
+    "chlorophyll",
+    "chloroplast",
+    "chloroplasts",
+    "chlorination",
+    "chloramine",
+    "chloramines",
+    "fluorine",
+    "bromine",
+    "iodine",
+    "astatine",
+    "halogen",
+    "halogens",
+    "sodium chloride",
+    "salt",
+    "table salt",
+    "hydrochloric acid",
+    "hydrogen chloride",
+    "bleach",
+    "cfc",
+    "cfcs",
+    "chlorofluorocarbons",
+    "ozone",
+    "mustard gas",
+    "phosgene",
+    "argon",
+    "sulfur",
+    "oxygen",
+    "neon"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Chlorine",
+  "qb": {
+    "q": "chlorine",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1774, Carl Wilhelm Scheele [“SHAY-luh”] made this element by pouring muriatic acid onto the black mineral pyrolusite [“py-roh-LOO-site”], or manganese dioxide. Scheele noticed that the choking, yellowish-green gas he produced could bleach colored materials.",
+      "r": "For 10 points, name this yellow-green halogen, element 17, which combines with sodium to make table salt."
+    },
+    {
+      "p": "Followers of Antoine Lavoisier [“lah-vwah-zee-AY”] believed this substance was a compound containing oxygen and called it “oxymuriatic acid,” until Humphry Davy showed in 1810 that it was an element. Davy named it after a Greek word meaning “pale green.”",
+      "r": "For 10 points, name this halogen with atomic number 17, used to disinfect swimming pools."
+    },
+    {
+      "p": "In 1847, Ignaz Semmelweis [“SEM-ul-vyce”] sharply cut deaths from childbed fever at a hospital in Vienna by having doctors wash their hands in a bleaching solution made from lime and this element. This element has the highest electron affinity of any element.",
+      "r": "For 10 points, name this yellow-green gas, a halogen with atomic number 17 that is used in bleach."
+    },
+    {
+      "p": "In 1908, Jersey City, New Jersey, became the first U.S. city to disinfect its public water supply with this element on a regular basis, a step soon copied across the country. Deaths from typhoid fever dropped sharply in cities that adopted that treatment.",
+      "r": "For 10 points, name this element, a halogen used to keep drinking water and swimming pools clean."
+    },
+    {
+      "p": "Claude Louis Berthollet [“bair-toh-LAY”] showed in the 1780s that this element could whiten cloth, and a whitening solution made with it at a factory in Javel, near Paris, became famous. French speakers still call that kind of liquid eau de Javel [“oh duh zhah-VEL”].",
+      "r": "Household bleach contains sodium hypochlorite, a compound of this element. For 10 points, name this halogen, element 17."
+    },
+    {
+      "p": "In 1823, Michael Faraday squeezed this element into a liquid by heating crystals of one of its hydrates in a sealed, bent glass tube. This gas is about two and a half times as dense as air, so it sinks and collects in low places.",
+      "r": "For 10 points, name this yellow-green gas, a halogen that combines with sodium to make table salt."
+    },
+    {
+      "p": "In 1974, Mario Molina and F. Sherwood Rowland warned that atoms of this element, freed by sunlight from CFCs high in the stratosphere, could destroy the ozone layer. One atom of this element can break down as many as 100,000 ozone molecules.",
+      "r": "For 10 points, name this element, a yellow-green halogen used to disinfect swimming pools and drinking water."
+    },
+    {
+      "p": "The strong “pool smell” comes not from this element itself but from irritating compounds that form when it reacts with sweat and urine. Similar compounds form when bleach is mixed with ammonia, which is why those two cleaners should never be combined.",
+      "r": "For 10 points, name this element added to swimming pools and drinking water to kill germs."
+    },
+    {
+      "p": "About three-quarters of this element’s atoms have a mass number of 35, and about one-quarter have a mass number of 37, so its average atomic mass is about 35.5. Its mass spectrum shows two peaks in a 3-to-1 ratio.",
+      "r": "For 10 points, name this halogen with atomic number 17, which joins sodium to make table salt."
+    },
+    {
+      "p": "Surprisingly, this element has the highest electron affinity of any element, releasing more energy than fluorine does when it gains an electron. Its ion, which has a charge of negative one, is the most abundant ion dissolved in seawater.",
+      "r": "For 10 points, name this element, a yellow-green halogen used to disinfect drinking water and swimming pools."
+    },
+    {
+      "p": "When electricity is passed through brine, or salt water, this element bubbles off at one electrode while hydrogen gas and sodium hydroxide form at the other. A large share of the element made this way goes into producing PVC plastic for pipes.",
+      "r": "For 10 points, name this halogen with atomic number 17, which is used to make bleach."
+    },
+    {
+      "p": "A mixture of hydrogen and this element can sit safely in the dark but explodes in bright sunlight, and Robert Bunsen and Henry Roscoe used that reaction to measure light. The product of that reaction dissolves in water to make the acid found in your stomach.",
+      "r": "For 10 points, name this element, a yellow-green halogen used to disinfect drinking water and swimming pools."
+    },
+    {
+      "p": "During World War I, German forces released clouds of this heavy, choking gas at the Second Battle of Ypres [“EE-pruh”] in 1915, the first large-scale poison gas attack of the war. Fritz Haber, who later won a Nobel Prize for making ammonia, directed that program.",
+      "r": "For 10 points, name this yellow-green halogen, element 17, which is used to make drinking water safe."
+    },
+    {
+      "p": "Each molecule of DDT, the pesticide that Rachel Carson wrote about in _Silent Spring_, contains five atoms of this element. The sweetener sucralose is made by replacing three hydroxyl groups in table sugar with atoms of this element.",
+      "r": "For 10 points, name this element, a yellow-green halogen used in bleach and to purify water."
+    },
+    {
+      "p": "When this element is bubbled through a colorless solution of potassium bromide, the liquid turns orange-brown, because this more reactive halogen pushes bromine out of its compound. Its compound with hydrogen is a gas that makes thick white smoke when it meets ammonia gas.",
+      "r": "For 10 points, name this element with atomic number 17, which forms table salt when it combines with sodium."
+    }
+  ],
+  "clues": [
+    {
+      "id": "element-17",
+      "tier": "giveaway",
+      "t": "Element 17, a halogen between fluorine and bromine",
+      "k": [
+        "element 17",
+        "halogen",
+        "fluorine",
+        "bromine"
+      ],
+      "n": 0,
+      "rabbit": "Halogens"
+    },
+    {
+      "id": "yellow-green",
+      "tier": "giveaway",
+      "t": "A yellow-green, choking, poisonous gas made of two-atom molecules",
+      "k": [
+        "yellow-green",
+        "poisonous",
+        "two-atom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "table-salt",
+      "tier": "giveaway",
+      "t": "Joins sodium to make table salt, sodium chloride",
+      "k": [
+        "table salt",
+        "sodium chloride",
+        "sodium"
+      ],
+      "n": 0,
+      "rabbit": "Sodium"
+    },
+    {
+      "id": "disinfect",
+      "tier": "giveaway",
+      "t": "Used to disinfect drinking water and swimming pools",
+      "k": [
+        "disinfect",
+        "drinking water",
+        "swimming pools"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bleach",
+      "tier": "giveaway",
+      "t": "Household bleach is a solution of sodium hypochlorite, a compound of it",
+      "k": [
+        "bleach",
+        "sodium hypochlorite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scheele",
+      "tier": "middle",
+      "t": "Carl Wilhelm Scheele first made it in 1774 from muriatic (hydrochloric) acid and manganese dioxide",
+      "k": [
+        "scheele",
+        "1774",
+        "manganese dioxide",
+        "muriatic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "davy",
+      "tier": "middle",
+      "t": "Humphry Davy proved it was an element in 1810 and named it for the Greek word for “pale green”",
+      "k": [
+        "humphry davy",
+        "1810",
+        "pale green"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ypres",
+      "tier": "middle",
+      "t": "German forces released it as a poison gas at the Second Battle of Ypres in 1915, the first large-scale gas attack of World War I",
+      "k": [
+        "ypres",
+        "1915",
+        "world war i",
+        "poison gas"
+      ],
+      "n": 0,
+      "rabbit": "World War I"
+    },
+    {
+      "id": "stomach-acid",
+      "tier": "middle",
+      "t": "Its compound with hydrogen dissolves in water to make hydrochloric acid, the acid in your stomach",
+      "k": [
+        "hydrochloric acid",
+        "stomach"
+      ],
+      "n": 0,
+      "rabbit": "Stomach"
+    },
+    {
+      "id": "electron-affinity",
+      "tier": "middle",
+      "t": "It has the highest electron affinity of any element, even higher than fluorine’s",
+      "k": [
+        "electron affinity",
+        "highest"
+      ],
+      "n": 0,
+      "rabbit": "Electronegativity"
+    },
+    {
+      "id": "brine",
+      "tier": "middle",
+      "t": "Made by passing electricity through brine (salt water) in the chloralkali process, which also makes hydrogen and sodium hydroxide",
+      "k": [
+        "brine",
+        "chloralkali",
+        "sodium hydroxide"
+      ],
+      "n": 0,
+      "rabbit": "Electrolysis"
+    },
+    {
+      "id": "pvc",
+      "tier": "middle",
+      "t": "A large share of it goes into PVC plastic for pipes",
+      "k": [
+        "pvc",
+        "plastic",
+        "pipes"
+      ],
+      "n": 0,
+      "rabbit": "Polymers"
+    },
+    {
+      "id": "isotopes",
+      "tier": "middle",
+      "t": "Its two main isotopes, mass 35 (about 3/4) and mass 37 (about 1/4), give an average atomic mass of about 35.5",
+      "k": [
+        "isotopes",
+        "35.5"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seawater",
+      "tier": "middle",
+      "t": "Its −1 ion, chloride, is the most abundant ion dissolved in seawater",
+      "k": [
+        "chloride",
+        "seawater"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oxymuriatic",
+      "tier": "power",
+      "t": "Lavoisier’s followers thought it was an oxygen compound and called it “oxymuriatic acid”",
+      "k": [
+        "oxymuriatic",
+        "lavoisier",
+        "oxygen compound"
+      ],
+      "n": 0
+    },
+    {
+      "id": "semmelweis",
+      "tier": "power",
+      "t": "Ignaz Semmelweis (1847) cut childbed fever deaths in Vienna by having doctors wash their hands in a bleaching solution made with it",
+      "k": [
+        "semmelweis",
+        "1847",
+        "childbed fever",
+        "vienna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jersey-city",
+      "tier": "power",
+      "t": "In 1908, Jersey City, New Jersey, became the first U.S. city to treat its water supply with it on a regular basis",
+      "k": [
+        "jersey city",
+        "1908"
+      ],
+      "n": 0
+    },
+    {
+      "id": "berthollet",
+      "tier": "power",
+      "t": "Claude Louis Berthollet used it to whiten cloth in the 1780s; the French still call bleach eau de Javel",
+      "k": [
+        "berthollet",
+        "javel",
+        "whiten"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faraday",
+      "tier": "power",
+      "t": "Michael Faraday turned it into a liquid in 1823; the gas is about 2.5 times as dense as air",
+      "k": [
+        "faraday",
+        "1823",
+        "liquid",
+        "dense"
+      ],
+      "n": 0,
+      "rabbit": "Michael Faraday"
+    },
+    {
+      "id": "haber",
+      "tier": "power",
+      "t": "Fritz Haber directed Germany’s use of it as a weapon in World War I",
+      "k": [
+        "fritz haber",
+        "weapon"
+      ],
+      "n": 0,
+      "rabbit": "Haber process"
+    },
+    {
+      "id": "ozone",
+      "tier": "power",
+      "t": "Freed from CFCs by sunlight, its atoms destroy ozone; Mario Molina and F. Sherwood Rowland warned of this in 1974",
+      "k": [
+        "cfcs",
+        "ozone",
+        "molina",
+        "rowland",
+        "1974"
+      ],
+      "n": 0,
+      "rabbit": "Ozone layer"
+    },
+    {
+      "id": "pool-smell",
+      "tier": "power",
+      "t": "The “pool smell” comes from irritating compounds made when it reacts with sweat and urine; similar compounds form if bleach meets ammonia",
+      "k": [
+        "pool smell",
+        "sweat",
+        "ammonia"
+      ],
+      "n": 0,
+      "rabbit": "Ammonia"
+    },
+    {
+      "id": "bunsen-roscoe",
+      "tier": "power",
+      "t": "A mixture of it and hydrogen explodes in bright light; Robert Bunsen and Henry Roscoe used that reaction to measure light",
+      "k": [
+        "bright light",
+        "bunsen",
+        "roscoe",
+        "hydrogen"
+      ],
+      "n": 0,
+      "rabbit": "Robert Bunsen"
+    },
+    {
+      "id": "ddt-sucralose",
+      "tier": "power",
+      "t": "DDT contains five atoms of it, and the sweetener sucralose swaps three hydroxyl groups in table sugar for atoms of it",
+      "k": [
+        "sucralose",
+        "ddt",
+        "hydroxyl"
+      ],
+      "n": 0
+    },
+    {
+      "id": "potassium-bromide",
+      "tier": "power",
+      "t": "It pushes bromine out of potassium bromide solution, turning the liquid orange-brown",
+      "k": [
+        "potassium bromide",
+        "orange-brown"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Chlorine or chloride?",
+    "body": "Chloride is the ion (Cl⁻) that chlorine becomes in table salt and seawater, and the two names differ by only two letters, so “chloride” is wrong for an element tossup. Chlorine’s Greek root also shows up in chlorophyll, which contains magnesium and no chlorine at all, and its fellow halogens fluorine and bromine share many of its clues.",
+    "fix": "If the question asks for “this element” or “this gas,” say chlorine; say chloride only for “this ion.” Atomic number 17, a yellow-green gas, Scheele, Davy, bleach, and pools mean chlorine; atomic number 9 and Teflon mean fluorine; a reddish-brown liquid means bromine.",
+    "line": "Real answer line: <b><u>Chlorine</u></b> (accept <u>Cl</u> or <u>Cl<sub>2</sub></u>; do not accept “chloride”)"
+  },
+  "tests": {
+    "right": [
+      "Chlorine",
+      "Cl",
+      "Cl2",
+      "Clorine",
+      "Chlorine gas"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Chloride",
+      "Fluorine",
+      "Bromine",
+      "Bleach",
+      "Sodium chloride",
+      "Chlorophyll",
+      "Chlorate",
+      "Halogens"
+    ]
+  }
+}

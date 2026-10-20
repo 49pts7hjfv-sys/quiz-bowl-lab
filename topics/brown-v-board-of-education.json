@@ -65,7 +65,8 @@
     "jim crow",
     "southern manifesto",
     "montgomery bus boycott",
-    "ruby bridges"
+    "ruby bridges",
+    "segregation"
   ],
   "media": [],
   "mediaPending": true,
@@ -85,7 +86,7 @@
       "r": "Chief Justice Earl Warren wrote it. For 10 points, name this 1954 Supreme Court case that struck down segregation in public schools."
     },
     {
-      "p": "In 1951, sixteen-year-old Barbara Johns led a student strike against crowded, run-down conditions at Robert Russa Moton High School in Farmville, Virginia. The lawsuit that grew out of that strike became one of five school cases the Supreme Court heard together under this case’s name.",
+      "p": "In 1951, sixteen-year-old Barbara Johns led a student strike against crowded, run-down conditions at Robert Russa Moton High School in Farmville, Virginia. The lawsuit that grew out of that strike was one of the cases the Supreme Court combined under this case’s name.",
       "r": "For 10 points, name this 1954 case in which NAACP lawyer Thurgood Marshall persuaded the Court to end school segregation."
     },
     {
@@ -101,7 +102,7 @@
       "r": "That man, Earl Warren, read this ruling aloud in May 1954. For 10 points, name this case that struck down school segregation."
     },
     {
-      "p": "A year after this decision, a follow-up ruling ordered schools to desegregate “with all deliberate speed,” a vague phrase that many Southern districts used to delay for years. In 1956, about 100 Southern members of Congress signed the Southern Manifesto attacking this decision.",
+      "p": "A year after this decision, a follow-up ruling ordered schools to desegregate “with all deliberate speed,” a vague phrase that many Southern districts used to delay for years. In 1956, about 100 Southern members of Congress signed the Southern Manifesto opposing this decision.",
       "r": "For 10 points, name this 1954 Supreme Court case that overturned _Plessy v. Ferguson_ in public education."
     },
     {
@@ -114,7 +115,7 @@
     },
     {
       "p": "A third grader was turned away from the all-white Sumner Elementary School, which was much closer to her home, and had to attend the all-Black Monroe Elementary School instead. The Monroe school building later became a national park site honoring this case.",
-      "r": "Her father, Oliver Brown of Topeka, Kansas, gave his name to the lawsuit. For 10 points, name this 1954 Supreme Court case."
+      "r": "The lawsuit was named for her father, who lived in Topeka, Kansas. For 10 points, name this 1954 Supreme Court case that struck down school segregation."
     },
     {
       "p": "This decision called education “perhaps the most important function of state and local governments” and concluded that separate schools are “inherently unequal.” It rejected the reasoning of an 1896 case that had upheld segregated railroad cars in Louisiana.",
@@ -138,7 +139,7 @@
     },
     {
       "p": "Many people saw this decision as proof that Justice John Marshall Harlan had been right when he wrote, as the lone dissenter in an 1896 case, that “Our Constitution is color-blind.” This decision came 58 years after that case.",
-      "r": "For 10 points, name this 1954 case brought for Linda Brown and other Black students that overturned “separate but equal.”"
+      "r": "For 10 points, name this 1954 case, argued by Thurgood Marshall, that overturned “separate but equal” in public schools."
     }
   ],
   "clues": [
@@ -169,12 +170,12 @@
     {
       "id": "topeka",
       "tier": "giveaway",
-      "t": "Named for Oliver Brown of Topeka, Kansas, whose daughter Linda had to attend a distant all-Black school",
+      "t": "Named for the father of Linda, a Topeka, Kansas, third grader who had to attend a distant all-Black school",
       "k": [
         "topeka",
         "kansas",
         "linda",
-        "oliver"
+        "third grader"
       ],
       "n": 0
     },
@@ -338,7 +339,7 @@
     {
       "id": "vinson",
       "tier": "power",
-      "t": "Reargued in 1953 after Chief Justice Fred Vinson died and Eisenhower named Earl Warren to replace him",
+      "t": "Reargued in December 1953 before Earl Warren, whom Eisenhower named chief justice after Fred Vinson died",
       "k": [
         "fred vinson",
         "vinson",
@@ -434,9 +435,9 @@
   ],
   "trap": {
     "title": "Plessy or Brown?",
-    "body": "Both cases are about “separate but equal,” so they show up together in many tossups. _Plessy v. Ferguson_ (1896) upheld segregated railroad cars in Louisiana and created that rule; _Brown v. Board_ (1954) struck it down for public schools. Some real tossups ask for school desegregation itself, with clues like the Little Rock Nine and Ruby Bridges, and a 1955 follow-up ruling, often called “Brown II,” ordered desegregation “with all deliberate speed.”",
+    "body": "Both cases are about “separate but equal,” so they show up together in many tossups. _Plessy v. Ferguson_ (1896) upheld segregated railroad cars in Louisiana and created that rule; _Brown v. Board_ (1954) struck it down for public schools. Some tossups ask for school desegregation itself, with clues like the Little Rock Nine and Ruby Bridges, and a 1955 follow-up ruling, often called “Brown II,” ordered desegregation “with all deliberate speed.”",
     "fix": "Listen for the date and the verb: 1896, Homer Plessy, railroad cars, and “upheld” mean _Plessy_; 1954, Topeka, Earl Warren, and “struck down” or “overturned” mean Brown. If the question asks for “this process,” answer school desegregation; for “this case,” say the full name, because “Brown” alone only earns a prompt.",
-    "line": "Real answer line: <b><u>Brown</u></b> v. <b><u>Board</u></b> of Education of Topeka (prompt on <u>Brown</u> alone; prompt on <u>school desegregation</u>)"
+    "line": "Real answer line: <b><u>Brown</u></b> v. <b><u>Board</u></b> of Education of Topeka (prompt on <u>Brown</u> alone or on <u>school desegregation</u>; do not accept “Plessy v. Ferguson”)"
   },
   "tests": {
     "right": [
@@ -457,7 +458,8 @@
       "Bolling v. Sharpe",
       "Cooper v. Aaron",
       "John Brown",
-      "Earl Warren"
+      "Earl Warren",
+      "Segregation"
     ]
   }
 }

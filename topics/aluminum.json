@@ -1,0 +1,448 @@
+{
+  "id": "aluminum",
+  "name": "Aluminum",
+  "mono": "AL",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 13 · The light, corrosion-resistant metal in cans and airplanes",
+  "dates": "First made in 1825; cheap after the Hall–Héroult process, 1886",
+  "briefing": "Aluminum is the most common metal in Earth’s crust, yet it was once so hard to purify that it cost about as much as silver, and in 1884 a small aluminum pyramid was set on top of the Washington Monument. Two years later, Charles Martin Hall and Paul Héroult each found a cheap way to make it using electricity. It is used in soda cans, foil, and airplanes, and recycling it saves about 95 percent of the energy needed to make new metal.",
+  "answerHtml": "<b><u>Aluminum</u></b> (or <u>aluminium</u>; accept <u>Al</u>; do not accept “alumina” or “aluminum oxide”)",
+  "accept": [
+    "aluminum",
+    "aluminium",
+    "al"
+  ],
+  "prompt": [],
+  "reject": [
+    "alumina",
+    "aluminum oxide",
+    "aluminium oxide",
+    "aluminum hydroxide",
+    "aluminium hydroxide",
+    "alum",
+    "bauxite",
+    "cryolite",
+    "corundum",
+    "boron",
+    "gallium",
+    "indium",
+    "magnesium",
+    "silicon",
+    "titanium",
+    "tin",
+    "iron",
+    "zinc",
+    "copper",
+    "sodium",
+    "lithium",
+    "beryllium",
+    "steel",
+    "duralumin",
+    "thermite",
+    "hall heroult process",
+    "bayer process"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Aluminium",
+  "qb": {
+    "q": "aluminum",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The American and French chemists who invented this element’s main production method were both born in 1863, both died in 1914, and made their discovery independently in 1886. Their method passes electricity through this element’s oxide dissolved in a molten mineral called cryolite.",
+      "r": "For 10 points, name this light metal with atomic number 13, which is used to make soda cans."
+    },
+    {
+      "p": "In 1884, a 100-ounce pyramid of this metal, which was then about as costly as silver, was set on top of the Washington Monument. Just two years later, inventors found a cheap way to make this metal using electricity.",
+      "r": "For 10 points, name this element with atomic number 13, whose main ore is bauxite."
+    },
+    {
+      "p": "According to a popular story, the French emperor Napoleon III served his most honored guests with cutlery made of this metal, while the other guests had to make do with gold. Napoleon III supported Henri Sainte-Claire Deville’s [“sant-CLAIR duh-VEEL”] research into making this metal more cheaply.",
+      "r": "For 10 points, name this element, number 13, that became cheap after the Hall–Héroult [“ay-ROO”] process was invented in 1886."
+    },
+    {
+      "p": "Hans Christian Ørsted [“UR-sted”] made an impure sample of this metal in 1825, and Friedrich Wöhler [“VUR-ler”] made a purer sample two years later by heating its chloride with potassium. Humphry Davy had named this element after alum, a salt used in dyeing cloth.",
+      "r": "For 10 points, name this light metal with atomic number 13, which a thin oxide layer protects from corrosion."
+    },
+    {
+      "p": "Dmitri Mendeleev [“men-duh-LAY-ef”] predicted the properties of gallium before it was found, naming the missing element by adding the prefix “eka-” to the name of this element, which sits directly above it. This element’s oxide is amphoteric, meaning it reacts with both acids and bases.",
+      "r": "For 10 points, name this element with atomic number 13, used in soda cans and kitchen foil."
+    },
+    {
+      "p": "In the Bayer process, hot sodium hydroxide dissolves this element’s oxide out of crushed ore, leaving impurities such as iron oxide behind as “red mud.” The purified oxide, called alumina, is then dissolved in molten cryolite so that electricity can pull out this element.",
+      "r": "That ore is bauxite. For 10 points, name this light metal with atomic number 13, used in airplanes."
+    },
+    {
+      "p": "This element’s main ore is named for Les Baux-de-Provence [“lay BOH duh proh-VAHNSS”], a village in southern France where Pierre Berthier first described it in 1821. That ore is mined in large amounts in Australia, Guinea, and China.",
+      "r": "That ore is bauxite. For 10 points, name this metal, the most abundant metal in Earth’s crust."
+    },
+    {
+      "p": "Cryolite, a mineral of sodium, fluorine, and this element, was once mined in Greenland, because melted cryolite dissolves this element’s oxide so that electricity can split it. Charles Martin Hall worked out that method in a woodshed lab soon after graduating from Oberlin College.",
+      "r": "Hall helped found the company that became Alcoa. For 10 points, name this metal with atomic number 13."
+    },
+    {
+      "p": "Unlike iron, this metal does not keep crumbling away as it corrodes, because a thin, tough layer of its oxide quickly forms on its surface and seals it off from the air. Anodizing thickens that protective layer using electricity and lets it be dyed bright colors.",
+      "r": "For 10 points, name this lightweight metal used to make soda cans, kitchen foil, and airplane bodies."
+    },
+    {
+      "p": "Rubies and sapphires are colored varieties of corundum [“kuh-RUN-dum”], a mineral made of this element’s oxide that ranks 9 on the Mohs hardness scale. Because it is so hard, ground-up corundum is used as an abrasive in sandpaper and grinding wheels.",
+      "r": "For 10 points, name this metal with atomic number 13, which British English spells with an extra “i.”"
+    },
+    {
+      "p": "In the thermite reaction, powder of this metal pulls oxygen away from iron(III) oxide, releasing so much heat that molten iron forms and can be used to weld railroad tracks together. This metal also reacts with hydrochloric acid to give off hydrogen gas.",
+      "r": "For 10 points, name this element, the most abundant metal in Earth’s crust, used to make foil and cans."
+    },
+    {
+      "p": "Because of a “diagonal relationship” on the periodic table, beryllium behaves much like this element, partly because the two have nearly equal electronegativities. Gallium, indium, and thallium sit below this element in its group. Like boron, this element has three valence electrons.",
+      "r": "For 10 points, name this element with atomic number 13, a light metal used to build airplanes."
+    },
+    {
+      "p": "This element’s hydroxide, which reacts with both acids and bases, is used in some antacid tablets to neutralize stomach acid. A sulfate of this element called alum helps clear cloudy water by making tiny particles clump together so they settle out.",
+      "r": "For 10 points, name this metal with atomic number 13, which is used in soda cans and foil."
+    },
+    {
+      "p": "Smelters that make this metal use so much electricity that many are built where power is cheap, such as Iceland, which runs them on hydroelectric and geothermal energy. Recycling this metal saves about 95 percent of the energy needed to make it from ore.",
+      "r": "For 10 points, name this element with atomic number 13, which is recycled from used soda cans and foil."
+    },
+    {
+      "p": "Tarnished silver turns shiny again when it touches a sheet of this metal in hot water with baking soda, because this metal gives up electrons that turn black silver sulfide back into silver. Alnico magnets are named for this metal, nickel, and cobalt.",
+      "r": "For 10 points, name this metal, the most abundant metal in Earth’s crust, which is refined from bauxite."
+    }
+  ],
+  "clues": [
+    {
+      "id": "element-13",
+      "tier": "giveaway",
+      "t": "Element 13, a light, silvery metal just below boron on the periodic table",
+      "k": [
+        "element 13",
+        "boron",
+        "silvery"
+      ],
+      "n": 0,
+      "rabbit": "Boron"
+    },
+    {
+      "id": "cans-foil",
+      "tier": "giveaway",
+      "t": "Used in soda cans, kitchen foil, and airplane bodies",
+      "k": [
+        "soda cans",
+        "foil",
+        "airplane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abundant",
+      "tier": "giveaway",
+      "t": "The most abundant metal in Earth’s crust, and the third most abundant element there after oxygen and silicon",
+      "k": [
+        "most abundant metal",
+        "crust",
+        "silicon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bauxite",
+      "tier": "giveaway",
+      "t": "Its main ore is bauxite",
+      "k": [
+        "bauxite",
+        "ore"
+      ],
+      "n": 0
+    },
+    {
+      "id": "british",
+      "tier": "giveaway",
+      "t": "British English spells its name with an extra “i”",
+      "k": [
+        "british",
+        "extra"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hall-heroult",
+      "tier": "middle",
+      "t": "Hall–Héroult process (1886): electricity splits its oxide dissolved in molten cryolite",
+      "k": [
+        "hall–héroult",
+        "1886",
+        "cryolite",
+        "electricity"
+      ],
+      "n": 0,
+      "rabbit": "Electrolysis"
+    },
+    {
+      "id": "oxide-layer",
+      "tier": "middle",
+      "t": "A thin, tough layer of its oxide keeps it from corroding; anodizing makes that layer thicker",
+      "k": [
+        "oxide",
+        "corroding",
+        "anodizing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "washington",
+      "tier": "middle",
+      "t": "A 100-ounce pyramid of it was set atop the Washington Monument in 1884, when it cost about as much as silver",
+      "k": [
+        "washington monument",
+        "1884",
+        "pyramid",
+        "silver"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thermite",
+      "tier": "middle",
+      "t": "Thermite: its powder plus iron(III) oxide makes molten iron, used to weld railroad tracks",
+      "k": [
+        "thermite",
+        "iron(iii) oxide",
+        "railroad tracks"
+      ],
+      "n": 0,
+      "rabbit": "Redox"
+    },
+    {
+      "id": "recycling",
+      "tier": "middle",
+      "t": "Recycling it saves about 95 percent of the energy needed to make new metal from ore",
+      "k": [
+        "recycling",
+        "95 percent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lightweight",
+      "tier": "middle",
+      "t": "About one-third as dense as steel",
+      "k": [
+        "one-third",
+        "dense",
+        "steel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "davy-alum",
+      "tier": "middle",
+      "t": "Humphry Davy named it after alum, a salt used in dyeing",
+      "k": [
+        "humphry davy",
+        "alum",
+        "dyeing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reactive",
+      "tier": "middle",
+      "t": "Too reactive to be found as a pure metal in nature",
+      "k": [
+        "reactive",
+        "pure metal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corundum",
+      "tier": "middle",
+      "t": "Corundum, its crystallized oxide, ranks 9 on the Mohs scale; rubies and sapphires are colored corundum",
+      "k": [
+        "corundum",
+        "rubies",
+        "sapphires",
+        "mohs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "born-1863",
+      "tier": "power",
+      "t": "Charles Martin Hall and Paul Héroult were both born in 1863 and both died in 1914",
+      "k": [
+        "charles martin hall",
+        "paul héroult",
+        "1863",
+        "1914"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hall-oberlin",
+      "tier": "power",
+      "t": "Hall worked out his method in a woodshed lab after graduating from Oberlin College, then helped found the company that became Alcoa",
+      "k": [
+        "woodshed",
+        "oberlin",
+        "alcoa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oersted-wohler",
+      "tier": "power",
+      "t": "Hans Christian Ørsted made an impure sample in 1825; Friedrich Wöhler made a purer one in 1827",
+      "k": [
+        "ørsted",
+        "wöhler",
+        "1825",
+        "1827"
+      ],
+      "n": 0
+    },
+    {
+      "id": "napoleon",
+      "tier": "power",
+      "t": "A popular story says Napoleon III gave his most honored guests cutlery made of it; he backed Henri Sainte-Claire Deville’s cheaper method",
+      "k": [
+        "napoleon iii",
+        "cutlery",
+        "deville"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bayer",
+      "tier": "power",
+      "t": "The Bayer process dissolves its oxide (alumina) out of bauxite with hot sodium hydroxide, leaving “red mud”",
+      "k": [
+        "bayer process",
+        "sodium hydroxide",
+        "red mud",
+        "alumina"
+      ],
+      "n": 0
+    },
+    {
+      "id": "les-baux",
+      "tier": "power",
+      "t": "Bauxite is named for Les Baux-de-Provence, France, where Pierre Berthier described it in 1821",
+      "k": [
+        "les baux",
+        "berthier",
+        "1821"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cryolite",
+      "tier": "power",
+      "t": "Cryolite, a mineral of sodium, fluorine, and this metal, was once mined in Greenland",
+      "k": [
+        "cryolite",
+        "greenland"
+      ],
+      "n": 0,
+      "rabbit": "Fluorine"
+    },
+    {
+      "id": "eka",
+      "tier": "power",
+      "t": "Mendeleev predicted gallium, the element below it, and named it with the prefix “eka-” plus this element’s name",
+      "k": [
+        "mendeleev",
+        "gallium",
+        "eka"
+      ],
+      "n": 0
+    },
+    {
+      "id": "amphoteric",
+      "tier": "power",
+      "t": "Its oxide and hydroxide are amphoteric, reacting with both acids and bases; the hydroxide is used in antacids",
+      "k": [
+        "amphoteric",
+        "antacids"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alum-water",
+      "tier": "power",
+      "t": "Alum, a sulfate containing it, makes tiny particles clump together to clear cloudy water",
+      "k": [
+        "alum",
+        "cloudy water",
+        "clump"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diagonal",
+      "tier": "power",
+      "t": "It and beryllium share a diagonal relationship, with nearly equal electronegativities",
+      "k": [
+        "beryllium",
+        "diagonal relationship"
+      ],
+      "n": 0,
+      "rabbit": "Electronegativity"
+    },
+    {
+      "id": "iceland",
+      "tier": "power",
+      "t": "Its smelters use huge amounts of electricity, so many are built where power is cheap, such as Iceland",
+      "k": [
+        "smelters",
+        "iceland"
+      ],
+      "n": 0
+    },
+    {
+      "id": "silver-tarnish",
+      "tier": "power",
+      "t": "It cleans tarnished silver in hot water with baking soda by giving up electrons; alnico magnets contain it, nickel, and cobalt",
+      "k": [
+        "tarnished silver",
+        "baking soda",
+        "alnico"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The metal, not its oxide",
+    "body": "Many clues describe aluminum’s oxide (alumina, corundum, rubies, and sapphires) or its ore (bauxite), and players blurt those names instead of the element. “Aluminium,” the British spelling, is fine, but “alumina” sounds almost the same and is wrong: it means aluminum oxide. Boron, directly above it, and gallium, directly below it, share some of its clues.",
+    "fix": "If the question asks for “this element” or “this metal,” say aluminum (or aluminium). Bauxite is “this ore,” alumina is “this oxide,” and Hall–Héroult is “this process.” Element 5 is boron; element 31 is gallium.",
+    "line": "Real answer line: <b><u>Aluminum</u></b> (or <u>aluminium</u>; accept <u>Al</u>; do not accept “alumina” or “aluminum oxide”)"
+  },
+  "tests": {
+    "right": [
+      "Aluminum",
+      "Aluminium",
+      "Al",
+      "Aluminim",
+      "Aluminum metal"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Alumina",
+      "Aluminum oxide",
+      "Bauxite",
+      "Boron",
+      "Gallium",
+      "Titanium",
+      "Tin",
+      "Magnesium"
+    ]
+  }
+}

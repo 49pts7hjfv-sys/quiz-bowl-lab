@@ -7,7 +7,7 @@
   "kicker": "Founded by the Mayflower Pilgrims in 1620 · Site of the 1621 harvest feast",
   "dates": "Founded 1620; joined Massachusetts 1691",
   "briefing": "In December 1620, about 100 passengers from the _Mayflower_ began building a settlement on the coast of present-day Massachusetts. About half of them died that first winter, but with help from Squanto and a peace treaty with the Wampanoag leader Massasoit, Plymouth Colony survived and held a famous harvest feast in 1621. Governed for decades by William Bradford, it became part of Massachusetts in 1691.",
-  "answerHtml": "<b><u>Plymouth</u></b> Colony (or <u>Plimoth</u> or New <u>Plymouth</u>; prompt on <u>Pilgrims</u>; do not accept “Massachusetts Bay Colony,” “Jamestown,” or “Mayflower”)",
+  "answerHtml": "<b><u>Plymouth</u></b> Colony (or <u>Plimoth</u> or New <u>Plymouth</u>; prompt on <u>Pilgrims</u>; do not accept “Massachusetts Bay Colony,” “Jamestown,” “Mayflower,” or “Plymouth Rock”)",
   "accept": [
     "plymouth colony",
     "plymouth",
@@ -424,7 +424,7 @@
     "title": "Colony, Ship, or Rock?",
     "body": "Plymouth Colony shares clues with several other answer lines. The _Mayflower_ was the ship, and the Mayflower Compact was the agreement signed aboard it; Massachusetts Bay Colony was a separate, larger Puritan colony founded around Boston in 1630 that absorbed Plymouth in 1691; and Jamestown (1607, Virginia) was England’s first permanent colony in North America. Saying “Plymouth Rock” when the question wants the colony is wrong too.",
     "fix": "Listen for the noun. “This colony” with the Pilgrims, Bradford, Squanto, Massasoit, or the 1621 harvest feast means Plymouth; “this ship” means the _Mayflower_; “this document” means the Mayflower Compact; John Winthrop, Boston, and the “city upon a hill” mean Massachusetts Bay. John Smith, Pocahontas, and tobacco mean Jamestown.",
-    "line": "Real answer line: <b><u>Plymouth</u></b> Colony (or <u>Plimoth</u>; do not accept “Massachusetts Bay Colony”)"
+    "line": "Real answer line: <b><u>Plymouth</u></b> Colony (or <u>Plimoth</u>; prompt on <u>Pilgrims</u>; do not accept “Massachusetts Bay Colony” or “Plymouth Rock”)"
   },
   "tests": {
     "right": [

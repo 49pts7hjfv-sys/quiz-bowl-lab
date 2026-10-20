@@ -9,7 +9,7 @@ data = {
     "mono": "EC",
     "category": "American History",
     "qbCategory": "History · American History",
-    "kicker": "How Americans choose a president · 538 electors, 270 votes to win",
+    "kicker": "How Americans choose a president · Takes 270 of 538 electoral votes",
     "dates": "Created 1787 (Article II)",
     "briefing": "When Americans vote for president, they are really choosing electors, who cast the official votes weeks later. The framers of the Constitution created this system in 1787 as a compromise between letting Congress pick the president and letting the people vote directly. Since 1964, there have been 538 electors, and a candidate needs 270 of their votes to win, so a candidate can win the most votes nationwide and still lose.",
     "answerHtml": "<b><u>Electoral College</u></b> (prompt on <u>electors</u> or <u>electoral votes</u>; do not accept “popular vote”)",

@@ -1,0 +1,370 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "catalysts",
+    "name": "Catalysts",
+    "mono": "CAT",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Speed up reactions without being used up · From enzymes to car exhaust",
+    "dates": "Named by Jöns Jacob Berzelius, 1835",
+    "briefing": "A catalyst speeds up a chemical reaction without being used up, so a tiny amount can work again and again. It gives the reaction an easier path with a lower activation energy, like a tunnel through a mountain instead of a climb over it. Your body runs on biological catalysts called enzymes, iron catalysts help make the world’s fertilizer, and the platinum, palladium, and rhodium in a car’s catalytic converter clean up its exhaust.",
+    "answerHtml": "<b><u>Catalyst</u></b>s (or <u>catalysis</u>; accept word forms like <u>catalyze</u>; do not accept “enzymes,” “inhibitors,” or “activation energy”)",
+    "accept": [
+        "catalysts",
+        "catalyst",
+        "catalysis",
+        "catalyze",
+        "catalyzes",
+        "catalyzed",
+        "catalyse",
+        "catalysed",
+        "catalyzer",
+        "catalyzers"
+    ],
+    "prompt": [],
+    "reject": [
+        "enzymes",
+        "enzyme",
+        "biological catalyst",
+        "biological catalysts",
+        "inhibitors",
+        "inhibitor",
+        "negative catalyst",
+        "negative catalysts",
+        "activation energy",
+        "activation energies",
+        "reaction rate",
+        "reaction rates",
+        "rate of reaction",
+        "reactants",
+        "reactant",
+        "products",
+        "intermediates",
+        "intermediate",
+        "reaction intermediate",
+        "substrate",
+        "substrates",
+        "catalytic converter",
+        "catalytic converters",
+        "platinum",
+        "palladium",
+        "rhodium",
+        "nickel",
+        "iron",
+        "vanadium",
+        "zeolites",
+        "zeolite",
+        "promoters",
+        "promoter",
+        "cofactors",
+        "coenzymes",
+        "reagents",
+        "reagent",
+        "solvent",
+        "solvents",
+        "transition state",
+        "activated complex",
+        "chemical equilibrium",
+        "equilibrium",
+        "haber process",
+        "le chateliers principle"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Catalysis",
+    "qb": {
+        "q": "catalyst",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Jöns Jacob Berzelius [“ber-ZEE-lee-us”] coined the name for the action of these substances in 1835, from a Greek word meaning “loosening” or “dissolving.” In the contact process for making sulfuric acid, vanadium(V) oxide acts as one of these substances, helping sulfur dioxide combine with oxygen.",
+            "r": "For 10 points, name these substances that speed up a chemical reaction without being used up."
+        },
+        {
+            "p": "Wilhelm Ostwald [“OST-vahlt”] won the 1909 Nobel Prize in Chemistry for work on reaction rates, equilibrium, and these substances. His namesake process for making nitric acid passes ammonia and air over one of them, a gauze made of platinum.",
+            "r": "For 10 points, name these substances, such as enzymes in living things, that speed up reactions without being consumed."
+        },
+        {
+            "p": "In 1823, Johann Döbereiner [“DUR-buh-ry-ner”] built a lighter in which a jet of hydrogen burst into flame when it hit spongy platinum, which acted as one of these substances. These substances do not change how much product a reversible reaction makes; they only help it reach equilibrium faster.",
+            "r": "For 10 points, name these substances, like the metals in a car’s exhaust system, that speed up reactions."
+        },
+        {
+            "p": "Paul Sabatier [“sah-bah-TYAY”] shared the 1912 Nobel Prize in Chemistry for showing that finely powdered nickel acts as one of these substances when hydrogen is added to carbon compounds. That reaction is used to turn liquid vegetable oils into solid margarine.",
+            "r": "For 10 points, name these substances that speed up a reaction by lowering its activation energy, without being used up."
+        },
+        {
+            "p": "Karl Ziegler and Giulio Natta [“JOO-lee-oh NAH-tah”] won the 1963 Nobel Prize in Chemistry for substances of this kind, made from titanium and aluminum compounds, that link small molecules into plastics such as polypropylene. Likewise, iron helps nitrogen and hydrogen combine in the Haber process.",
+            "r": "For 10 points, name these substances, including enzymes, that speed up chemical reactions without being consumed."
+        },
+        {
+            "p": "Gerhard Ertl [“AIR-tul”] won the 2007 Nobel Prize for showing how reactions happen on the surfaces of solid substances of this kind, such as the iron used to make ammonia. Solid ones that work on gases are called heterogeneous, because they are in a different phase from the reactants.",
+            "r": "For 10 points, name these substances that speed up reactions but come out unchanged at the end."
+        },
+        {
+            "p": "Richard Heck, Ei-ichi Negishi [“neh-GEE-shee”], and Akira Suzuki shared the 2010 Nobel Prize in Chemistry for reactions that use palladium as one of these substances to join carbon atoms together. Chemists call these substances homogeneous when they are dissolved in the same phase as the reactants.",
+            "r": "For 10 points, name these substances, including enzymes, that speed up reactions without being used up."
+        },
+        {
+            "p": "Benjamin List and David MacMillan won the 2021 Nobel Prize in Chemistry for showing that small carbon-based molecules, not just metals, can act as these substances. Their methods help chemists make only one mirror-image form of a molecule, which matters for many medicines.",
+            "r": "Enzymes are biological examples of these substances. For 10 points, name these substances that speed up reactions without being consumed."
+        },
+        {
+            "p": "Porous aluminum silicate minerals called zeolites [“ZEE-oh-lites”] act as these substances in oil refineries, helping crack large petroleum molecules into gasoline. In a reaction mechanism, one of these substances is used up in an early step and given back in a later step.",
+            "r": "For 10 points, name these substances, which speed up reactions by lowering their activation energy."
+        },
+        {
+            "p": "A single chlorine atom from CFCs can destroy as many as 100,000 ozone molecules, because it acts as one of these substances and is freed again after each cycle. Unlike a reaction intermediate, one of these substances is present both before and after a reaction.",
+            "r": "For 10 points, name these substances that speed up a reaction without being used up, such as enzymes."
+        },
+        {
+            "p": "In stars more massive than the Sun, carbon, nitrogen, and oxygen nuclei act as these substances in a cycle that fuses hydrogen into helium, as Hans Bethe [“BAY-tuh”] explained. That CNO cycle and the proton–proton chain are the two main ways stars fuse hydrogen.",
+            "r": "On Earth, enzymes are biological examples of these substances. For 10 points, name these substances that speed up reactions without being consumed."
+        },
+        {
+            "p": "The Monsanto process makes acetic acid from methanol and carbon monoxide using rhodium as one of these substances, while BP’s newer Cativa [“kuh-TEE-vuh”] process uses iridium instead. Aluminum chloride plays a similar role in Friedel–Crafts [“free-DEL CRAFTS”] reactions, which attach carbon groups to benzene rings.",
+            "r": "For 10 points, name these substances that speed up chemical reactions and can be used over and over."
+        },
+        {
+            "p": "These substances do not change a reaction’s overall enthalpy change or its equilibrium constant, because they speed up the forward and reverse reactions by the same factor. As a result, they help a reversible reaction reach equilibrium sooner without changing where that equilibrium lies.",
+            "r": "For 10 points, name these substances that speed up reactions by lowering the activation energy, without being used up."
+        },
+        {
+            "p": "Lead and sulfur compounds can “poison” these substances by sticking to their surfaces and blocking them. For example, carbon monoxide and sulfur compounds must be removed from the gases fed over the iron one used in the Haber process.",
+            "r": "Cars with platinum and rhodium exhaust devices must burn unleaded gasoline. For 10 points, name these substances that speed up reactions without being used up."
+        },
+        {
+            "p": "In the “elephant toothpaste” demonstration, potassium iodide acts as one of these substances, making hydrogen peroxide break down so fast that a column of soapy foam shoots out of a flask. Black manganese dioxide powder plays the same role when chemists make oxygen gas from hydrogen peroxide.",
+            "r": "The enzyme catalase does this job in living cells. For 10 points, name these substances that speed up reactions without being used up."
+        }
+    ],
+    "clues": [
+        {
+            "id": "speed-up",
+            "tier": "giveaway",
+            "t": "Substances that speed up a chemical reaction without being used up",
+            "k": ["speed up", "used up", "substances"],
+            "n": 0
+        },
+        {
+            "id": "lower-ea",
+            "tier": "giveaway",
+            "t": "They work by providing a different pathway with a lower activation energy",
+            "k": ["activation energy", "pathway"],
+            "n": 0,
+            "rabbit": "Activation energy"
+        },
+        {
+            "id": "enzymes",
+            "tier": "giveaway",
+            "t": "Enzymes are biological examples, usually proteins",
+            "k": ["enzymes", "biological"],
+            "n": 0,
+            "rabbit": "Enzymes"
+        },
+        {
+            "id": "car-exhaust",
+            "tier": "giveaway",
+            "t": "Platinum, palladium, and rhodium in car exhaust systems turn carbon monoxide into carbon dioxide",
+            "k": ["platinum", "palladium", "rhodium", "car exhaust"],
+            "n": 0
+        },
+        {
+            "id": "equilibrium",
+            "tier": "middle",
+            "t": "They speed up the forward and reverse reactions equally, so they don’t change where an equilibrium lies",
+            "k": ["forward and reverse", "equilibrium"],
+            "n": 0,
+            "rabbit": "Chemical equilibrium"
+        },
+        {
+            "id": "enthalpy",
+            "tier": "middle",
+            "t": "They don’t change a reaction’s overall enthalpy change",
+            "k": ["enthalpy", "overall"],
+            "n": 0,
+            "rabbit": "Enthalpy"
+        },
+        {
+            "id": "haber-iron",
+            "tier": "middle",
+            "t": "Iron speeds up the Haber process, which makes ammonia from nitrogen and hydrogen",
+            "k": ["iron", "haber process", "ammonia"],
+            "n": 0,
+            "rabbit": "Haber process"
+        },
+        {
+            "id": "contact-ostwald",
+            "tier": "middle",
+            "t": "Vanadium(V) oxide works in the contact process for sulfuric acid; platinum works in the Ostwald process for nitric acid",
+            "k": ["vanadium", "contact process", "ostwald process", "nitric acid"],
+            "n": 0,
+            "rabbit": "Sulfuric acid"
+        },
+        {
+            "id": "hetero-homo",
+            "tier": "middle",
+            "t": "Heterogeneous ones are in a different phase from the reactants, like a solid metal with gases; homogeneous ones are in the same phase",
+            "k": ["heterogeneous", "homogeneous", "phase"],
+            "n": 0
+        },
+        {
+            "id": "peroxide",
+            "tier": "middle",
+            "t": "Potassium iodide (in “elephant toothpaste”), manganese dioxide, and the enzyme catalase make hydrogen peroxide break down fast",
+            "k": ["elephant toothpaste", "manganese dioxide", "hydrogen peroxide", "catalase"],
+            "n": 0,
+            "rabbit": "Oxygen"
+        },
+        {
+            "id": "mechanism",
+            "tier": "middle",
+            "t": "In a mechanism, one is used up in an early step and given back later; an intermediate is made and then used up",
+            "k": ["mechanism", "intermediate", "given back"],
+            "n": 0
+        },
+        {
+            "id": "inhibitors",
+            "tier": "middle",
+            "t": "Inhibitors do the opposite job, slowing reactions down",
+            "k": ["inhibitors", "slowing"],
+            "n": 0
+        },
+        {
+            "id": "poisons",
+            "tier": "middle",
+            "t": "Lead and sulfur compounds can poison them by blocking their surfaces, so cars with exhaust converters need unleaded gasoline",
+            "k": ["poison", "lead", "unleaded"],
+            "n": 0
+        },
+        {
+            "id": "berzelius",
+            "tier": "power",
+            "t": "Jöns Jacob Berzelius coined the name in 1835 from a Greek word meaning “loosening” or “dissolving”",
+            "k": ["berzelius", "1835", "loosening"],
+            "n": 0
+        },
+        {
+            "id": "ostwald-nobel",
+            "tier": "power",
+            "t": "Wilhelm Ostwald won the 1909 Nobel Prize in Chemistry for work on them, reaction rates, and equilibrium",
+            "k": ["ostwald", "1909", "nobel prize"],
+            "n": 0
+        },
+        {
+            "id": "dobereiner",
+            "tier": "power",
+            "t": "Johann Döbereiner’s 1823 lighter lit a jet of hydrogen with spongy platinum",
+            "k": ["döbereiner", "dobereiner", "1823", "lighter", "spongy platinum"],
+            "n": 0
+        },
+        {
+            "id": "sabatier",
+            "tier": "power",
+            "t": "Paul Sabatier (1912 Nobel) used powdered nickel to add hydrogen to carbon compounds, as in making margarine",
+            "k": ["sabatier", "nickel", "margarine", "1912"],
+            "n": 0,
+            "rabbit": "Alkenes"
+        },
+        {
+            "id": "ziegler-natta",
+            "tier": "power",
+            "t": "Karl Ziegler and Giulio Natta (1963 Nobel) used titanium and aluminum compounds to make plastics like polypropylene",
+            "k": ["ziegler", "natta", "1963", "polypropylene"],
+            "n": 0,
+            "rabbit": "Polymers"
+        },
+        {
+            "id": "ertl",
+            "tier": "power",
+            "t": "Gerhard Ertl won the 2007 Nobel Prize for showing how reactions happen on solid surfaces, such as iron in the Haber process",
+            "k": ["ertl", "2007", "surfaces"],
+            "n": 0
+        },
+        {
+            "id": "cross-coupling",
+            "tier": "power",
+            "t": "Richard Heck, Ei-ichi Negishi, and Akira Suzuki shared the 2010 Nobel Prize for palladium reactions that join carbon atoms",
+            "k": ["heck", "negishi", "suzuki", "2010"],
+            "n": 0
+        },
+        {
+            "id": "list-macmillan",
+            "tier": "power",
+            "t": "Benjamin List and David MacMillan won the 2021 Nobel Prize for small carbon-based molecules that do this job",
+            "k": ["benjamin list", "macmillan", "2021"],
+            "n": 0
+        },
+        {
+            "id": "zeolites",
+            "tier": "power",
+            "t": "Zeolites, porous aluminum silicate minerals, help crack petroleum into gasoline",
+            "k": ["zeolites", "crack", "petroleum"],
+            "n": 0
+        },
+        {
+            "id": "chlorine-ozone",
+            "tier": "power",
+            "t": "Chlorine atoms from CFCs act as one, so a single atom can destroy as many as 100,000 ozone molecules",
+            "k": ["chlorine atoms", "cfcs", "ozone", "100,000"],
+            "n": 0,
+            "rabbit": "Ozone layer"
+        },
+        {
+            "id": "cno",
+            "tier": "power",
+            "t": "Carbon, nitrogen, and oxygen nuclei act as them in the CNO cycle that powers stars heavier than the Sun, as Hans Bethe explained",
+            "k": ["cno cycle", "bethe", "stars"],
+            "n": 0,
+            "rabbit": "Nuclear fusion"
+        },
+        {
+            "id": "monsanto",
+            "tier": "power",
+            "t": "Rhodium (Monsanto process) and iridium (Cativa process) help make acetic acid",
+            "k": ["rhodium", "monsanto", "iridium", "cativa"],
+            "n": 0,
+            "rabbit": "Acetic acid"
+        }
+    ],
+    "trap": {
+        "title": "The helper, not its effect",
+        "body": "Catalysts work by lowering activation energy, so tossups on one are full of clues about the other. Enzymes are biological catalysts, but they are a separate, more specific answer line, and inhibitors do the opposite job. The catalytic converter in a car is a device that holds catalysts, not the answer itself.",
+        "fix": "If the question asks for “these substances” that speed up reactions and come out unchanged, say catalysts. If it asks for “this quantity” or “this energy barrier,” say activation energy. Name enzymes only when the question asks specifically for biological molecules or proteins.",
+        "line": "Real answer line: <b><u>Catalyst</u></b>s (or <u>catalysis</u>; accept word forms like <u>catalyze</u>; do not accept “enzymes,” “inhibitors,” or “activation energy”)"
+    },
+    "tests": {
+        "right": [
+            "Catalysts",
+            "catalyst",
+            "Catalysis",
+            "Catalists",
+            "Heterogeneous catalysts"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Enzymes",
+            "Inhibitors",
+            "Activation energy",
+            "Reaction rate",
+            "Catalytic converter",
+            "Platinum",
+            "Intermediates",
+            "Activated complex"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

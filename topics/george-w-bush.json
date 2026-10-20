@@ -86,7 +86,7 @@
       "r": "For 10 points, name this Republican who defeated Al Gore in the 2000 presidential election."
     },
     {
-      "p": "This president was reading with second graders at an elementary school in Sarasota, Florida, when his chief of staff, Andrew Card, whispered to him that “America is under attack.” Three days later, he spoke to rescue workers at Ground Zero through a bullhorn.",
+      "p": "This president was listening to second graders read at an elementary school in Sarasota, Florida, when his chief of staff, Andrew Card, whispered to him that “America is under attack.” Three days later, he spoke to rescue workers at Ground Zero through a bullhorn.",
       "r": "For 10 points, name this president who led the country after the September 11 attacks."
     },
     {
@@ -94,7 +94,7 @@
       "r": "That department was the Department of Homeland Security. For 10 points, name this president who also signed the USA PATRIOT Act."
     },
     {
-      "p": "Senator Ted Kennedy worked with this Republican president to pass a 2002 education law that required yearly reading and math tests in grades 3 through 8. Schools that did not make “adequate yearly progress” under that law faced consequences.",
+      "p": "Senator Ted Kennedy worked with this Republican president to pass an education law, signed in January 2002, that required yearly reading and math tests in grades 3 through 8. Schools that did not make “adequate yearly progress” under that law faced consequences.",
       "r": "That law was called No Child Left Behind. For 10 points, name this president, whose wife, Laura, had been a school librarian."
     },
     {
@@ -234,7 +234,7 @@
     {
       "id": "nclb",
       "tier": "middle",
-      "t": "No Child Left Behind (2002) required yearly reading and math tests in grades 3 through 8",
+      "t": "No Child Left Behind (signed in 2002) required yearly reading and math tests in grades 3 through 8",
       "k": [
         "no child left behind",
         "reading and math",
@@ -305,7 +305,7 @@
     {
       "id": "sarasota",
       "tier": "power",
-      "t": "Was reading with second graders in Sarasota, Florida, when Andrew Card whispered “America is under attack”",
+      "t": "Was listening to second graders read in Sarasota, Florida, when Andrew Card whispered “America is under attack”",
       "k": [
         "sarasota",
         "andrew card",
@@ -472,7 +472,7 @@
     "title": "Which George Bush?",
     "body": "Two presidents named George Bush appear in quiz bowl. George H. W. Bush, the father, was the 41st president (1989–1993) and led the 1991 Gulf War against Iraq; his son George W. Bush was the 43rd president (2001–2009) and ordered the invasion of Iraq in 2003. Real answer lines prompt on just “Bush” and do not accept the wrong George, so an early buzz on an Iraq clue can go wrong. A third Bush, Jeb, was governor of Florida during the 2000 recount.",
     "fix": "H. W. clues: Ronald Reagan’s vice president, the CIA, “Read my lips: no new taxes,” Operation Desert Storm, and the end of the Cold War. W. clues: Al Gore and the Florida recount, September 11, Dick Cheney, No Child Left Behind, Hurricane Katrina, and the 2003 Iraq War. If you hear “43rd,” “Texas governor,” or “Laura,” say “George W. Bush.”",
-    "line": "Real answer line: George <b><u>W</u></b>alker <b><u>Bush</u></b> (accept <u>Bush 43</u> or <u>Dubya</u>; prompt on <u>Bush</u> or <u>George Bush</u>; do not accept or prompt on “George H. W. Bush”)"
+    "line": "Real answer line: George <b><u>W</u></b>alker <b><u>Bush</u></b> (accept <u>Bush 43</u> or <u>Dubya</u>; prompt on <u>Bush</u> or <u>George Bush</u>; do not accept or prompt on “George H. W. Bush” or “Jeb Bush”)"
   },
   "tests": {
     "right": [

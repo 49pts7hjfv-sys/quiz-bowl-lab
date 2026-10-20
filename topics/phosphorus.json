@@ -1,0 +1,463 @@
+{
+  "id": "phosphorus",
+  "name": "Phosphorus",
+  "mono": "P",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Element 15 · The glowing element in matches, bones, and DNA",
+  "dates": "Discovered by Hennig Brand, 1669",
+  "briefing": "In 1669, the German alchemist Hennig Brand boiled down huge amounts of urine, hoping to find the secret of making gold, and instead got a waxy substance that glowed in the dark. He had found phosphorus, whose name means “light-bearer” in Greek. Its red form coats the striking strip on a matchbox, and phosphate groups containing it hold together your DNA and help ATP power your cells.",
+  "answerHtml": "<b><u>Phosphorus</u></b> (accept <u>P</u>; accept <u>white phosphorus</u> or <u>red phosphorus</u>; do not accept “phosphate”)",
+  "accept": [
+    "phosphorus",
+    "p",
+    "phosphorous",
+    "white phosphorus",
+    "red phosphorus",
+    "black phosphorus",
+    "violet phosphorus",
+    "p4"
+  ],
+  "prompt": [],
+  "reject": [
+    "phosphate",
+    "phosphates",
+    "phosphate group",
+    "phosphate groups",
+    "phosphor",
+    "phosphoric",
+    "phosphoric acid",
+    "phosphorous acid",
+    "phosphine",
+    "phosphide",
+    "phosphorescence",
+    "phosphorylation",
+    "phospholipid",
+    "phospholipids",
+    "superphosphate",
+    "nitrogen",
+    "arsenic",
+    "antimony",
+    "sulfur",
+    "potassium",
+    "calcium",
+    "magnesium",
+    "silicon",
+    "fluorine",
+    "venus",
+    "hesperus",
+    "atp",
+    "dna",
+    "apatite",
+    "hydroxyapatite",
+    "guano"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Phosphorus",
+  "qb": {
+    "q": "phosphorus",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Joseph Wright of Derby painted a kneeling alchemist gazing at a glowing flask as he discovers this element. In real life, Hennig Brand first made it in 1669 by boiling down large amounts of urine while searching for the philosopher’s stone.",
+      "r": "For 10 points, name this element with atomic number 15, whose red form is used on the strips for striking matches."
+    },
+    {
+      "p": "Despite this element’s name, the faint green glow of its white form is not phosphorescence but chemiluminescence, caused by a slow reaction with oxygen in the air. That white form can burst into flame on its own, so it is stored under water.",
+      "r": "For 10 points, name this element with atomic number 15, found in the phosphate groups of DNA."
+    },
+    {
+      "p": "The 1906 Berne Convention banned this element’s white form from matches, because factory workers who handled it could develop a bone disease of the jaw nicknamed “phossy jaw.” Strike-anywhere match heads later used a safer compound of this element and sulfur instead.",
+      "r": "Safety matches use its red form on the striking strip. For 10 points, name this element with atomic number 15."
+    },
+    {
+      "p": "In 1952, Alfred Hershey and Martha Chase labeled viral DNA with a radioactive isotope of this element and viral protein with radioactive sulfur, helping show that DNA is the genetic material. Hennig Brand had first isolated this element from urine in 1669.",
+      "r": "For 10 points, name this element found in the phosphate groups of DNA and ATP, number 15 on the periodic table."
+    },
+    {
+      "p": "Antoine Lavoisier [“lah-vwah-zee-AY”] showed that this element and sulfur gain mass when they burn, because they combine with part of the air, helping overthrow the phlogiston theory. Burning this element makes a white smoke of its oxide, which soaks up water so strongly that chemists use it as a drying agent.",
+      "r": "For 10 points, name this element with atomic number 15, whose red form is used on the striking strips of matchboxes."
+    },
+    {
+      "p": "This element shares its name with the ancient Greek name for the planet Venus seen as the morning star, since both names mean “light-bearer.” This element’s white form glows faintly in the dark as it slowly reacts with oxygen.",
+      "r": "For 10 points, name this element, number 15 on the periodic table, used in matches and fertilizers."
+    },
+    {
+      "p": "In 1842, John Bennet Lawes patented a fertilizer called superphosphate, made by treating rock rich in this element with sulfuric acid. Seabird droppings called guano, dug from islands off Peru, were another important early source of this plant nutrient.",
+      "r": "Fertilizers supply it along with nitrogen and potassium. For 10 points, name this element with atomic number 15."
+    },
+    {
+      "p": "Unlike the carbon and nitrogen cycles, the cycle of this element has no major stage as a gas in the atmosphere, so it moves mainly through rocks, soil, water, and living things. Weathering rocks slowly release this element as ions that plants absorb through their roots.",
+      "r": "For 10 points, name this element, a key nutrient in fertilizer along with nitrogen and potassium."
+    },
+    {
+      "p": "Many U.S. states limited this element’s compounds in laundry and dishwasher detergents, because wastewater carrying them fed huge algal blooms in lakes, a process called eutrophication [“yoo-troh-fih-KAY-shun”]. Runoff from fertilized farm fields carries this element into rivers and lakes too.",
+      "r": "For 10 points, name this element with atomic number 15, which fertilizers supply along with nitrogen and potassium."
+    },
+    {
+      "p": "Black, the most stable form of this element, has stacked, puckered layers like graphite, and sheets one atom thick can be peeled off it much like graphene. Heating this element’s white form without air turns it into a red form that is far less dangerous to handle.",
+      "r": "For 10 points, name this element, number 15, whose red form coats the strips used to strike safety matches."
+    },
+    {
+      "p": "In the late 1700s, chemists learned to make this element from bone ash, a far richer source than the urine it was first found in. Bones and teeth get their hardness from a calcium mineral called hydroxyapatite [“hy-DROK-see-AP-uh-tite”], which contains this element.",
+      "r": "Phosphate groups containing it link the sugars in DNA. For 10 points, name this element with atomic number 15."
+    },
+    {
+      "p": "Cell membranes are built from two layers of molecules whose water-loving heads contain this element and whose tails are fatty acids. Inside cells, enzymes called kinases switch many proteins on or off by attaching groups containing this element to them.",
+      "r": "For 10 points, name this element found in ATP and in the sugar-phosphate backbone of DNA."
+    },
+    {
+      "p": "Morocco holds most of the world’s known reserves of a rock that is mined for this element, and large deposits are also mined in Florida. Many plants team up with root fungi called mycorrhizae [“my-koh-RYE-zee”] to help gather this nutrient from the soil.",
+      "r": "Fertilizer labels list its amount second, after nitrogen and before potassium. For 10 points, name this element with atomic number 15."
+    },
+    {
+      "p": "Each molecule of this element’s white form has four atoms at the corners of a tetrahedron, and the strain in their tightly bent bonds makes that form very reactive. That white form must be kept under water, because it can catch fire on its own in air.",
+      "r": "Its safer red form is used on the strips for striking matches. For 10 points, name this element with atomic number 15."
+    },
+    {
+      "p": "An acid containing this element gives cola drinks their tangy taste and is used in rust removers that turn rust into a protective coating. Many insecticides, such as malathion [“MAL-uh-thy-on”], are organic compounds of this element.",
+      "r": "Its phosphate groups are in ATP and DNA. For 10 points, name this element, whose red form is used to strike matches."
+    }
+  ],
+  "clues": [
+    {
+      "id": "element-15",
+      "tier": "giveaway",
+      "t": "Element 15, sitting just below nitrogen in group 15 of the periodic table",
+      "k": [
+        "element 15",
+        "nitrogen",
+        "group 15"
+      ],
+      "n": 0,
+      "rabbit": "Nitrogen"
+    },
+    {
+      "id": "matches",
+      "tier": "giveaway",
+      "t": "Its red form coats the striking strip on safety-match boxes",
+      "k": [
+        "red form",
+        "striking strip",
+        "matches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dna-atp",
+      "tier": "giveaway",
+      "t": "Found in the phosphate groups of DNA, RNA, and ATP",
+      "k": [
+        "phosphate groups",
+        "dna",
+        "atp"
+      ],
+      "n": 0,
+      "rabbit": "ATP"
+    },
+    {
+      "id": "fertilizer",
+      "tier": "giveaway",
+      "t": "One of the three main nutrients in fertilizer, with nitrogen and potassium",
+      "k": [
+        "fertilizer",
+        "nutrients",
+        "potassium"
+      ],
+      "n": 0,
+      "rabbit": "Potassium"
+    },
+    {
+      "id": "hennig-brand",
+      "tier": "middle",
+      "t": "Hennig Brand discovered it in 1669 by boiling down urine while searching for the philosopher’s stone",
+      "k": [
+        "hennig brand",
+        "1669",
+        "urine",
+        "philosopher’s stone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "light-bearer",
+      "tier": "middle",
+      "t": "Its name means “light-bearer” in Greek, because its white form glows in the dark",
+      "k": [
+        "light-bearer",
+        "glows",
+        "greek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "white-form",
+      "tier": "middle",
+      "t": "White form: toxic, waxy, made of four-atom tetrahedral molecules, and so reactive that it is stored under water",
+      "k": [
+        "white form",
+        "tetrahedral",
+        "stored under water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "red-form",
+      "tier": "middle",
+      "t": "Heating the white form without air makes the much safer red form",
+      "k": [
+        "red form",
+        "without air",
+        "heating"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bones",
+      "tier": "middle",
+      "t": "Bones and teeth are hardened by hydroxyapatite, a calcium mineral containing it",
+      "k": [
+        "bones",
+        "teeth",
+        "hydroxyapatite"
+      ],
+      "n": 0,
+      "rabbit": "Bones"
+    },
+    {
+      "id": "algal-blooms",
+      "tier": "middle",
+      "t": "Runoff of its compounds from detergents and farms feeds algal blooms in lakes (eutrophication)",
+      "k": [
+        "algal blooms",
+        "eutrophication",
+        "detergents"
+      ],
+      "n": 0
+    },
+    {
+      "id": "membranes",
+      "tier": "middle",
+      "t": "The heads of phospholipids, the molecules that form cell membranes, contain it",
+      "k": [
+        "phospholipids",
+        "cell membranes",
+        "heads"
+      ],
+      "n": 0,
+      "rabbit": "Cell membrane"
+    },
+    {
+      "id": "cycle",
+      "tier": "middle",
+      "t": "Its cycle, unlike the carbon and nitrogen cycles, has no major gas stage in the atmosphere",
+      "k": [
+        "cycle",
+        "no major gas",
+        "atmosphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chemiluminescence",
+      "tier": "power",
+      "t": "The white form’s glow is chemiluminescence from a slow reaction with oxygen, not phosphorescence",
+      "k": [
+        "chemiluminescence",
+        "phosphorescence",
+        "oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wright",
+      "tier": "power",
+      "t": "Joseph Wright of Derby painted an alchemist kneeling before a glowing flask as he discovers it",
+      "k": [
+        "joseph wright",
+        "derby",
+        "alchemist"
+      ],
+      "n": 0
+    },
+    {
+      "id": "berne",
+      "tier": "power",
+      "t": "The 1906 Berne Convention banned its white form from matches because of “phossy jaw,” a bone disease of match workers",
+      "k": [
+        "berne convention",
+        "1906",
+        "phossy jaw"
+      ],
+      "n": 0
+    },
+    {
+      "id": "strike-anywhere",
+      "tier": "power",
+      "t": "Strike-anywhere match heads contain a compound of it and sulfur; safety match heads hold potassium chlorate instead",
+      "k": [
+        "strike-anywhere",
+        "sulfur",
+        "potassium chlorate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hershey-chase",
+      "tier": "power",
+      "t": "Hershey and Chase (1952) labeled viral DNA with a radioactive isotope of it and viral protein with radioactive sulfur",
+      "k": [
+        "hershey",
+        "chase",
+        "1952",
+        "radioactive"
+      ],
+      "n": 0,
+      "rabbit": "DNA"
+    },
+    {
+      "id": "lavoisier",
+      "tier": "power",
+      "t": "Lavoisier showed that it and sulfur gain mass when burned, helping overthrow the phlogiston theory",
+      "k": [
+        "lavoisier",
+        "gain mass",
+        "phlogiston"
+      ],
+      "n": 0,
+      "rabbit": "Oxygen"
+    },
+    {
+      "id": "drying-agent",
+      "tier": "power",
+      "t": "Its oxide, the white smoke made when it burns, soaks up water so well that it is used as a drying agent",
+      "k": [
+        "drying agent",
+        "white smoke",
+        "oxide"
+      ],
+      "n": 0
+    },
+    {
+      "id": "venus",
+      "tier": "power",
+      "t": "Its name was also the ancient Greek name for Venus as the morning star",
+      "k": [
+        "venus",
+        "morning star"
+      ],
+      "n": 0,
+      "rabbit": "Venus (planet)"
+    },
+    {
+      "id": "black-form",
+      "tier": "power",
+      "t": "Black, its most stable form, has layers like graphite that can be peeled into sheets one atom thick",
+      "k": [
+        "black",
+        "graphite",
+        "one atom thick"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bone-ash",
+      "tier": "power",
+      "t": "In the late 1700s, chemists learned to make it from bone ash instead of urine",
+      "k": [
+        "bone ash",
+        "late 1700s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "superphosphate",
+      "tier": "power",
+      "t": "John Bennet Lawes patented superphosphate fertilizer (1842), made from rock rich in it plus sulfuric acid; seabird guano was another source",
+      "k": [
+        "lawes",
+        "superphosphate",
+        "1842",
+        "guano"
+      ],
+      "n": 0,
+      "rabbit": "Sulfuric acid"
+    },
+    {
+      "id": "morocco",
+      "tier": "power",
+      "t": "Morocco holds most of the world’s known reserves of the rock mined for it; Florida has large deposits too",
+      "k": [
+        "morocco",
+        "florida",
+        "reserves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cola-malathion",
+      "tier": "power",
+      "t": "Its acid gives cola its tang and turns rust into a protective coating; insecticides like malathion contain it",
+      "k": [
+        "cola",
+        "rust",
+        "malathion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kinases",
+      "tier": "power",
+      "t": "Enzymes called kinases switch proteins on or off by attaching groups containing it",
+      "k": [
+        "kinases",
+        "switch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mycorrhizae",
+      "tier": "power",
+      "t": "Root fungi called mycorrhizae help plants gather it from the soil",
+      "k": [
+        "mycorrhizae",
+        "fungi"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Element, not phosphate",
+    "body": "Many clues about DNA, ATP, bones, and fertilizer mention “phosphate,” a group made of this element bonded to oxygen, so players blurt “phosphate” when the question wants the element. “Phosphor” and “phosphorescence” are traps too: despite the name, white phosphorus glows because of a slow reaction with oxygen (chemiluminescence), not phosphorescence.",
+    "fix": "If the question says “this element” or gives the atomic number 15, say phosphorus. Phosphate is the answer only for “this ion” or “this group.” Nitrogen, directly above it, is element 7 and makes up 78 percent of the air.",
+    "line": "Real answer line: <b><u>Phosphorus</u></b> (accept <u>P</u>; accept <u>white phosphorus</u> or <u>red phosphorus</u>; do not accept “phosphate”)"
+  },
+  "tests": {
+    "right": [
+      "Phosphorus",
+      "P",
+      "Phosphorous",
+      "Phosporus",
+      "White phosphorus",
+      "Red phosphorus"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Phosphate",
+      "Phosphor",
+      "Phosphoric acid",
+      "Nitrogen",
+      "Arsenic",
+      "Phosphine",
+      "Sulfur",
+      "Venus"
+    ]
+  }
+}

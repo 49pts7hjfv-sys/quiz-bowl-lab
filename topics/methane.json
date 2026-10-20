@@ -1,0 +1,471 @@
+{
+  "id": "methane",
+  "name": "Methane",
+  "mono": "CH4",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "CH₄, the simplest hydrocarbon · The main ingredient of natural gas",
+  "dates": "Identified by Alessandro Volta, 1776",
+  "briefing": "Methane is the simplest hydrocarbon: one carbon atom bonded to four hydrogen atoms. It is the main ingredient of the natural gas that heats homes and fuels stoves, and it bubbles up from swamps, which is why it was once called “marsh gas.” Cows burp it out as microbes in their stomachs digest grass, and on Saturn’s moon Titan it falls as rain and fills lakes.",
+  "answerHtml": "<b><u>Methane</u></b> (accept <u>CH<sub>4</sub></u> or <u>marsh gas</u>; prompt on <u>natural gas</u>; do not accept “ethane” or “methanol”)",
+  "accept": [
+    "methane",
+    "ch4",
+    "ch 4",
+    "marsh gas",
+    "swamp gas"
+  ],
+  "prompt": [
+    "natural gas",
+    "firedamp",
+    "fire damp"
+  ],
+  "reject": [
+    "ethane",
+    "propane",
+    "butane",
+    "pentane",
+    "octane",
+    "methanol",
+    "methyl alcohol",
+    "methyl",
+    "ethylene",
+    "ethyne",
+    "acetylene",
+    "carbon dioxide",
+    "co2",
+    "carbon monoxide",
+    "ammonia",
+    "hydrogen",
+    "hydrogen sulfide",
+    "nitrous oxide",
+    "ozone",
+    "water vapor",
+    "chloroform",
+    "carbon tetrachloride",
+    "formaldehyde",
+    "methanogens",
+    "methanogen",
+    "alkane",
+    "alkanes",
+    "benzene",
+    "propane gas",
+    "liquefied petroleum gas"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Methane",
+  "qb": {
+    "q": "methane",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1776, Alessandro Volta collected bubbles of this gas by stirring the mud along the shores of Lake Maggiore [“mah-JOR-ay”], and he showed that it could burn. Coal miners feared pockets of this gas, which they called “firedamp,” because it could explode underground.",
+      "r": "For 10 points, name this gas, the simplest hydrocarbon and the main ingredient in natural gas."
+    },
+    {
+      "p": "Humphry Davy’s 1815 safety lamp surrounded its flame with fine wire gauze so that the flame could not ignite this gas, which often caused explosions in coal mines. With plenty of air, this gas burns with a hot blue flame in laboratory Bunsen burners.",
+      "r": "Cows burp it out as they digest grass. For 10 points, name this gas made of one carbon atom and four hydrogen atoms."
+    },
+    {
+      "p": "In 1944, Gerard Kuiper [“KY-per”] detected this gas in the atmosphere of a moon, the first evidence that any moon has an atmosphere. Sunlight breaks this gas apart high in that moon’s air, and the pieces join into an orange haze of particles called tholins [“THOH-linz”].",
+      "r": "That moon, Titan, has lakes of liquid ethane and this compound. For 10 points, name this simplest hydrocarbon."
+    },
+    {
+      "p": "On the seafloor and in permafrost, molecules of this gas are trapped inside cages of frozen water, forming a substance nicknamed “fire ice” because a lump of it can burn. Thawing permafrost can also release this gas as microbes break down ancient plant remains.",
+      "r": "For 10 points, name this greenhouse gas, the main component of the natural gas used for heating homes."
+    },
+    {
+      "p": "In steam reforming, this compound reacts with steam over a nickel catalyst to make most of the hydrogen used in the Haber process. Burning one mole of this compound releases about 890 kilojoules of heat and makes carbon dioxide and water.",
+      "r": "For 10 points, name this gas, the main ingredient of the natural gas burned in stoves and furnaces."
+    },
+    {
+      "p": "In ultraviolet light, chlorine atoms can replace this compound’s hydrogen atoms one at a time, eventually producing chloroform and then carbon tetrachloride. Its molecule is a perfect tetrahedron, with bond angles of about 109.5 degrees.",
+      "r": "For 10 points, name this simplest alkane, a gas with one carbon atom that makes up most of natural gas."
+    },
+    {
+      "p": "In a famous experiment in the 1950s, Stanley Miller and Harold Urey [“YOOR-ee”] sent electric sparks through a flask of water vapor, hydrogen, ammonia, and this gas, producing several amino acids. Archaea [“ar-KEE-uh”] that live without oxygen make this gas as a waste product.",
+      "r": "For 10 points, name this simplest hydrocarbon, the main ingredient in the natural gas burned in kitchen stoves."
+    },
+    {
+      "p": "This gas absorbs red light, which helps give Uranus and Neptune their blue colors. Water, ammonia, and this compound make up much of the hot, slushy “ices” deep inside those two planets, which are called ice giants.",
+      "r": "On Earth, it is the main ingredient of natural gas. For 10 points, name this simplest hydrocarbon."
+    },
+    {
+      "p": "Microbes living in the rumen [“ROO-men”], the first stomach chamber of cattle, sheep, and goats, produce this gas as they help break down grass, a process called enteric fermentation. Scientists have tested adding certain seaweeds to cattle feed to cut down on this gas.",
+      "r": "For 10 points, name this greenhouse gas that cows burp out, the main ingredient of natural gas."
+    },
+    {
+      "p": "Because this gas has no smell of its own, gas companies add sulfur compounds called thiols, or mercaptans [“mer-CAP-tanz”], so that people can notice leaks. This gas is lighter than air, so it rises when it escapes.",
+      "r": "For 10 points, name this main ingredient of the natural gas piped into homes, the simplest hydrocarbon."
+    },
+    {
+      "p": "Linus Pauling explained the shape of this molecule by mixing one s orbital and three p orbitals on its central atom into four sp³ hybrid orbitals. Those orbitals point to the corners of a tetrahedron, giving bond angles of about 109.5 degrees.",
+      "r": "For 10 points, name this compound of one carbon atom and four hydrogen atoms, the main part of natural gas."
+    },
+    {
+      "p": "Wetlands are the largest natural source of this gas, and rice paddies, landfills, and termites also give it off as microbes break down plant matter and garbage without oxygen. The amount of this gas in Earth’s air has more than doubled since the Industrial Revolution began.",
+      "r": "For 10 points, name this greenhouse gas, the main ingredient of natural gas, which cows burp out."
+    },
+    {
+      "p": "Cooled to about minus 162 degrees Celsius, this compound turns into a liquid, so special tanker ships can carry it across oceans. Its tiny molecules attract one another so weakly that it is a gas at room temperature, unlike larger hydrocarbons such as octane.",
+      "r": "For 10 points, name this simplest alkane, the main component of the natural gas used to heat many homes."
+    },
+    {
+      "p": "NASA’s Curiosity rover has measured changing amounts of this gas in the air of Mars’s Gale Crater, which interests scientists because living things on Earth make much of it. On Earth, this gas also forms underground as heat and pressure act on the buried remains of ancient organisms.",
+      "r": "For 10 points, name this gas, the simplest hydrocarbon, which makes up most of the natural gas burned in stoves."
+    },
+    {
+      "p": "This gas lasts only about a decade in the air before it breaks down, mostly by reacting with hydroxyl radicals, while carbon dioxide lingers for centuries. Leaks from wells, pipelines, and coal mines release large amounts of this gas.",
+      "r": "Ton for ton, this greenhouse gas traps far more heat than carbon dioxide. For 10 points, name this simplest hydrocarbon."
+    }
+  ],
+  "clues": [
+    {
+      "id": "simplest",
+      "tier": "giveaway",
+      "t": "The simplest hydrocarbon and simplest alkane: one carbon atom bonded to four hydrogen atoms",
+      "k": [
+        "simplest",
+        "hydrocarbon",
+        "alkane",
+        "four hydrogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "natural-gas",
+      "tier": "giveaway",
+      "t": "The main ingredient of natural gas, burned for heating and cooking",
+      "k": [
+        "natural gas",
+        "heating",
+        "cooking"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greenhouse",
+      "tier": "giveaway",
+      "t": "A greenhouse gas that, ton for ton, traps far more heat than carbon dioxide",
+      "k": [
+        "greenhouse gas",
+        "carbon dioxide",
+        "heat"
+      ],
+      "n": 0,
+      "rabbit": "Carbon dioxide"
+    },
+    {
+      "id": "cows",
+      "tier": "giveaway",
+      "t": "Cows burp it out as microbes in their stomachs break down grass",
+      "k": [
+        "cows",
+        "burp",
+        "grass"
+      ],
+      "n": 0
+    },
+    {
+      "id": "titan",
+      "tier": "giveaway",
+      "t": "Saturn’s moon Titan has lakes and seas of it and ethane",
+      "k": [
+        "titan",
+        "saturn",
+        "ethane",
+        "lakes"
+      ],
+      "n": 0,
+      "rabbit": "Titan (moon)"
+    },
+    {
+      "id": "volta",
+      "tier": "middle",
+      "t": "Alessandro Volta collected it from bubbles in the marshy mud of Lake Maggiore in 1776",
+      "k": [
+        "volta",
+        "1776",
+        "lake maggiore",
+        "marshy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tetrahedron",
+      "tier": "middle",
+      "t": "Its molecule is a tetrahedron with bond angles of about 109.5°",
+      "k": [
+        "tetrahedron",
+        "109.5"
+      ],
+      "n": 0,
+      "rabbit": "Carbon"
+    },
+    {
+      "id": "combustion",
+      "tier": "middle",
+      "t": "Burns in oxygen to make carbon dioxide and water, releasing about 890 kilojoules per mole",
+      "k": [
+        "carbon dioxide and water",
+        "890",
+        "kilojoules"
+      ],
+      "n": 0,
+      "rabbit": "Enthalpy"
+    },
+    {
+      "id": "wetlands",
+      "tier": "middle",
+      "t": "Wetlands are its largest natural source; rice paddies, landfills, and termites also give it off",
+      "k": [
+        "wetlands",
+        "rice paddies",
+        "landfills",
+        "termites"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archaea",
+      "tier": "middle",
+      "t": "Made by single-celled archaea that live where there is no oxygen, such as swamp mud and cow stomachs",
+      "k": [
+        "archaea",
+        "no oxygen",
+        "swamp mud"
+      ],
+      "n": 0
+    },
+    {
+      "id": "odorless",
+      "tier": "middle",
+      "t": "Has no smell, so gas companies add sulfur compounds called thiols (mercaptans) to reveal leaks",
+      "k": [
+        "no smell",
+        "thiols",
+        "mercaptans",
+        "leaks"
+      ],
+      "n": 0,
+      "rabbit": "Sulfur"
+    },
+    {
+      "id": "uranus-neptune",
+      "tier": "middle",
+      "t": "Absorbs red light, helping give Uranus and Neptune their blue color; with water and ammonia it forms the “ices” inside them",
+      "k": [
+        "uranus",
+        "neptune",
+        "red light"
+      ],
+      "n": 0,
+      "rabbit": "Neptune"
+    },
+    {
+      "id": "firedamp",
+      "tier": "middle",
+      "t": "Coal miners called it firedamp because it can explode in mines",
+      "k": [
+        "firedamp",
+        "coal miners",
+        "explode"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lighter",
+      "tier": "middle",
+      "t": "Lighter than air, so it rises when it leaks",
+      "k": [
+        "lighter than air",
+        "rises"
+      ],
+      "n": 0
+    },
+    {
+      "id": "davy-lamp",
+      "tier": "power",
+      "t": "Humphry Davy’s 1815 safety lamp used wire gauze to keep its flame from igniting it in coal mines",
+      "k": [
+        "davy",
+        "1815",
+        "safety lamp",
+        "gauze"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kuiper",
+      "tier": "power",
+      "t": "Gerard Kuiper found it in Titan’s air in 1944, the first evidence of a moon with an atmosphere",
+      "k": [
+        "kuiper",
+        "1944",
+        "atmosphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tholins",
+      "tier": "power",
+      "t": "Sunlight breaks it apart high in Titan’s air, making an orange haze of particles called tholins",
+      "k": [
+        "tholins",
+        "orange haze",
+        "sunlight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fire-ice",
+      "tier": "power",
+      "t": "Its hydrate, “fire ice,” traps its molecules in cages of frozen water on the seafloor and in permafrost",
+      "k": [
+        "fire ice",
+        "hydrate",
+        "permafrost",
+        "seafloor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "steam-reforming",
+      "tier": "power",
+      "t": "Steam reforming over a nickel catalyst turns it and steam into most of the hydrogen used in the Haber process",
+      "k": [
+        "steam reforming",
+        "nickel",
+        "haber process"
+      ],
+      "n": 0,
+      "rabbit": "Haber process"
+    },
+    {
+      "id": "chlorination",
+      "tier": "power",
+      "t": "In ultraviolet light, chlorine replaces its hydrogens one by one, ending with chloroform and then carbon tetrachloride",
+      "k": [
+        "ultraviolet",
+        "chloroform",
+        "carbon tetrachloride"
+      ],
+      "n": 0,
+      "rabbit": "Chlorine"
+    },
+    {
+      "id": "miller-urey",
+      "tier": "power",
+      "t": "Sparked with water vapor, hydrogen, and ammonia in the 1950s Miller–Urey experiment, which made amino acids",
+      "k": [
+        "miller",
+        "urey",
+        "sparked",
+        "amino acids"
+      ],
+      "n": 0,
+      "rabbit": "Amino acids"
+    },
+    {
+      "id": "pauling",
+      "tier": "power",
+      "t": "Linus Pauling explained its shape with four sp³ hybrid orbitals on the carbon atom",
+      "k": [
+        "pauling",
+        "hybrid orbitals"
+      ],
+      "n": 0,
+      "rabbit": "Atomic orbitals"
+    },
+    {
+      "id": "lng",
+      "tier": "power",
+      "t": "Becomes a liquid at about −162 °C; natural gas is shipped across oceans this way as LNG",
+      "k": [
+        "liquid",
+        "shipped",
+        "lng"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rumen",
+      "tier": "power",
+      "t": "Microbes in the rumen of cattle, sheep, and goats make it during enteric fermentation",
+      "k": [
+        "rumen",
+        "enteric fermentation",
+        "cattle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "curiosity",
+      "tier": "power",
+      "t": "NASA’s Curiosity rover has measured changing amounts of it in the air of Mars’s Gale Crater",
+      "k": [
+        "curiosity",
+        "gale crater",
+        "mars"
+      ],
+      "n": 0,
+      "rabbit": "Mars"
+    },
+    {
+      "id": "lifetime",
+      "tier": "power",
+      "t": "Lasts only about a decade in the air, broken down mostly by hydroxyl radicals",
+      "k": [
+        "decade",
+        "hydroxyl radicals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doubled",
+      "tier": "power",
+      "t": "Its level in the air has more than doubled since the Industrial Revolution",
+      "k": [
+        "doubled",
+        "industrial revolution"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not natural gas or methanol",
+    "body": "Natural gas is a mixture that is mostly methane, so “natural gas” earns only a prompt. Methane also has close cousins with similar names: ethane (two carbons), propane (three carbons, the fuel in many grills), and methanol (an alcohol with an –OH group, also called wood alcohol). Naming one of those loses the tossup.",
+    "fix": "“Simplest hydrocarbon,” “one carbon and four hydrogens,” cows, Titan, firedamp, and Volta all mean methane, so say methane instead of natural gas. Two carbons mean ethane, grill tanks mean propane, and an –OH group means methanol.",
+    "line": "Real answer line: <b><u>Methane</u></b> (accept <u>CH<sub>4</sub></u> or <u>marsh gas</u>; prompt on <u>natural gas</u>; do not accept “ethane” or “methanol”)"
+  },
+  "tests": {
+    "right": [
+      "Methane",
+      "CH4",
+      "Methane gas",
+      "Metane",
+      "Marsh gas"
+    ],
+    "prompt": [
+      "Natural gas",
+      "Firedamp"
+    ],
+    "wrong": [
+      "Ethane",
+      "Methanol",
+      "Propane",
+      "Carbon dioxide",
+      "Ammonia",
+      "Butane",
+      "Ethylene",
+      "Carbon monoxide"
+    ]
+  }
+}

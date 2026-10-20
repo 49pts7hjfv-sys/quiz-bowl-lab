@@ -1,0 +1,341 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "ethan-allen",
+    "name": "Ethan Allen",
+    "mono": "EA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Leader of the Green Mountain Boys · Seized Fort Ticonderoga in 1775",
+    "dates": "1738–1789",
+    "briefing": "Ethan Allen led the Green Mountain Boys, a frontier militia that fought New York’s claims to the land that became Vermont. In May 1775, just weeks after the Revolution began, he and Benedict Arnold surprised the British at Fort Ticonderoga in a dawn raid, and Allen later wrote that he demanded its surrender “in the name of the Great Jehovah and the Continental Congress.” Captured near Montreal that fall, he spent nearly three years as a prisoner.",
+    "answerHtml": "<b><u>Ethan Allen</u></b> (prompt on <u>Allen</u>; do not accept “Ira Allen” or “Benedict Arnold”)",
+    "accept": [
+        "ethan allen",
+        "colonel ethan allen",
+        "general ethan allen"
+    ],
+    "prompt": [
+        "allen",
+        "ethan",
+        "colonel allen"
+    ],
+    "reject": [
+        "ira allen",
+        "heman allen",
+        "ethan allen hitchcock",
+        "benedict arnold",
+        "seth warner",
+        "henry knox",
+        "fort ticonderoga",
+        "ethan frome",
+        "allen ginsberg",
+        "van allen",
+        "woody allen",
+        "paul allen",
+        "richard allen",
+        "john allen"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Ethan_Allen",
+    "qb": {
+        "q": "Ethan Allen",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "At dawn on May 10, 1775, this man’s small force rushed into a lightly guarded fort, and Captain William Delaplace surrendered without a battle. This man later wrote that he had demanded the surrender “in the name of the Great Jehovah and the Continental Congress.”",
+            "r": "For 10 points, name this leader of the Green Mountain Boys who captured Fort Ticonderoga with Benedict Arnold."
+        },
+        {
+            "p": "This man was shipped across the Atlantic in chains and held at Pendennis Castle in England. He had been captured in September 1775 during a failed attempt to seize Montreal, and he was finally freed in a prisoner exchange in 1778.",
+            "r": "In May 1775, he had captured Fort Ticonderoga. For 10 points, name this leader of the Green Mountain Boys."
+        },
+        {
+            "p": "This man was exchanged for the British officer Archibald Campbell in 1778 after nearly three years as a prisoner of war. The next year, he published a popular _Narrative_ describing his harsh treatment on British ships and in British jails.",
+            "r": "For 10 points, name this patriot who had led the Green Mountain Boys in capturing Fort Ticonderoga."
+        },
+        {
+            "p": "This man’s 1784 book _Reason, the Only Oracle of Man_ argued for deism, the belief that people should understand God through reason and nature rather than scripture. It is often called one of the first deist books published in America.",
+            "r": "For 10 points, name this author, better known as the leader of the Green Mountain Boys."
+        },
+        {
+            "p": "In 1770, after a New York court ruled against settlers who held land grants from New Hampshire governor Benning Wentworth, this man reportedly said, “The gods of the valleys are not the gods of the hills.” He then organized a militia to resist New York’s officials.",
+            "r": "That militia, the Green Mountain Boys, later captured Fort Ticonderoga. For 10 points, name this founding father of Vermont."
+        },
+        {
+            "p": "New York officials called this man’s followers the “Bennington Mob,” and New York’s governor, William Tryon, offered a reward for his capture. His militia met at the Catamount Tavern in Bennington and drove out settlers who held land titles from New York.",
+            "r": "For 10 points, name this leader of the Green Mountain Boys who later captured Fort Ticonderoga."
+        },
+        {
+            "p": "During the Revolution, this man and his brothers secretly negotiated with Frederick Haldimand, the British governor of Quebec, about their region possibly rejoining the British Empire. Critics accused him of treason, while supporters said he was only pressuring Congress to recognize that region.",
+            "r": "That region, Vermont, became the 14th state in 1791. For 10 points, name this leader of the Green Mountain Boys."
+        },
+        {
+            "p": "This man and his youngest brother, Ira, bought up land along the Onion River through a family company, and Ira later founded the University of Vermont. Both brothers helped create the independent republic that became the state of Vermont.",
+            "r": "For 10 points, name this older brother, the leader of the Green Mountain Boys."
+        },
+        {
+            "p": "In July 1775, a meeting of local leaders chose Seth Warner instead of this man to command a new Continental regiment raised in the New Hampshire Grants. This man then joined the invasion of Canada as a volunteer and was captured outside Montreal that September.",
+            "r": "Two months before that vote, he had captured Fort Ticonderoga. For 10 points, name this leader of the Green Mountain Boys."
+        },
+        {
+            "p": "Benedict Arnold arrived with a commission from Massachusetts and argued with this man over who should command their joint attack, but this man’s soldiers refused to follow anyone else. Afterward, Arnold sailed north and raided Fort St. Johns in Canada.",
+            "r": "The two men had captured Fort Ticonderoga together. For 10 points, name this leader of the Green Mountain Boys."
+        },
+        {
+            "p": "Days after this man’s most famous victory, men under Seth Warner captured the nearby British post at Crown Point. The next winter, Henry Knox hauled cannons from the fort this man had taken all the way to Boston.",
+            "r": "For 10 points, name this leader of the Green Mountain Boys who captured Fort Ticonderoga."
+        },
+        {
+            "p": "An Amtrak train between New York City and Vermont and a well-known furniture company are both named for this man. He died in Burlington in 1789, two years before the state he helped create joined the Union.",
+            "r": "For 10 points, name this Vermont hero who led the Green Mountain Boys in capturing Fort Ticonderoga."
+        },
+        {
+            "p": "Before moving north, this man was a part owner of an iron furnace in Salisbury, Connecticut, not far from his birthplace of Litchfield. In the land between New York and New Hampshire, he then led a militia that fought New York’s claim to that land.",
+            "r": "That militia was the Green Mountain Boys. For 10 points, name this man who captured Fort Ticonderoga in 1775."
+        },
+        {
+            "p": "The fort this man captured in 1775 had been built by the French as Fort Carillon [“kah-ree-YOHN”]. Before dawn, he gathered his men at Hand’s Cove in what is now Vermont and crossed Lake Champlain in the few boats they could find.",
+            "r": "For 10 points, name this leader of the Green Mountain Boys who took Fort Ticonderoga."
+        },
+        {
+            "p": "A statue of this man stands at the entrance to the Vermont State House in Montpelier, and Vermont chose him as one of the two people it honors in the U.S. Capitol’s National Statuary Hall. A Navy submarine was also named for him.",
+            "r": "For 10 points, name this leader of the Green Mountain Boys who seized Fort Ticonderoga in 1775."
+        }
+    ],
+    "clues": [
+        {
+            "id": "green-mountain-boys",
+            "tier": "giveaway",
+            "t": "Led the Green Mountain Boys, a frontier militia in the land that became Vermont",
+            "k": ["green mountain boys", "militia", "vermont"],
+            "n": 0
+        },
+        {
+            "id": "ticonderoga",
+            "tier": "giveaway",
+            "t": "Captured Fort Ticonderoga with Benedict Arnold on May 10, 1775",
+            "k": ["fort ticonderoga", "ticonderoga", "benedict arnold", "may 10"],
+            "n": 0,
+            "rabbit": "Fort Ticonderoga"
+        },
+        {
+            "id": "vermont-hero",
+            "tier": "giveaway",
+            "t": "A founding hero of Vermont, which became the 14th state in 1791, two years after he died",
+            "k": ["14th state", "1791", "founding"],
+            "n": 0
+        },
+        {
+            "id": "great-jehovah",
+            "tier": "middle",
+            "t": "Wrote that he demanded the fort’s surrender “in the name of the Great Jehovah and the Continental Congress”",
+            "k": ["great jehovah", "jehovah", "continental congress"],
+            "n": 0
+        },
+        {
+            "id": "nh-grants",
+            "tier": "middle",
+            "t": "Fought New York’s claims to the New Hampshire Grants, land west of the Connecticut River that New Hampshire’s governor had granted to settlers",
+            "k": ["new hampshire grants", "new york", "connecticut river"],
+            "n": 0
+        },
+        {
+            "id": "montreal",
+            "tier": "middle",
+            "t": "Captured during a failed attempt to seize Montreal (September 1775)",
+            "k": ["montreal", "september 1775", "captured"],
+            "n": 0
+        },
+        {
+            "id": "prisoner",
+            "tier": "middle",
+            "t": "Held as a prisoner of war for nearly three years, partly in England, until he was exchanged in 1778",
+            "k": ["prisoner", "england", "1778", "exchanged"],
+            "n": 0
+        },
+        {
+            "id": "narrative",
+            "tier": "middle",
+            "t": "Wrote a popular _Narrative_ of his captivity (1779)",
+            "k": ["narrative", "captivity", "1779"],
+            "n": 0
+        },
+        {
+            "id": "ira",
+            "tier": "middle",
+            "t": "His youngest brother, Ira, founded the University of Vermont",
+            "k": ["university of vermont", "ira", "brother"],
+            "n": 0
+        },
+        {
+            "id": "vermont-republic",
+            "tier": "middle",
+            "t": "Helped create the independent Vermont Republic, declared in 1777",
+            "k": ["vermont republic", "1777", "independent"],
+            "n": 0
+        },
+        {
+            "id": "arnold-dispute",
+            "tier": "middle",
+            "t": "Argued over command with Benedict Arnold, who carried a commission from Massachusetts; his own men refused to follow Arnold",
+            "k": ["massachusetts", "commission", "command"],
+            "n": 0,
+            "rabbit": "Benedict Arnold"
+        },
+        {
+            "id": "crown-point-knox",
+            "tier": "middle",
+            "t": "Seth Warner’s men soon took Crown Point; Henry Knox later hauled Ticonderoga’s cannons to Boston",
+            "k": ["crown point", "seth warner", "henry knox"],
+            "n": 0,
+            "rabbit": "Henry Knox"
+        },
+        {
+            "id": "litchfield-burlington",
+            "tier": "middle",
+            "t": "Born in Litchfield, Connecticut (1738); died in Burlington, Vermont (1789)",
+            "k": ["litchfield", "burlington", "connecticut"],
+            "n": 0
+        },
+        {
+            "id": "delaplace",
+            "tier": "power",
+            "t": "British captain William Delaplace surrendered the fort at dawn without a battle",
+            "k": ["delaplace", "dawn"],
+            "n": 0
+        },
+        {
+            "id": "hands-cove",
+            "tier": "power",
+            "t": "His men crossed Lake Champlain from Hand’s Cove before dawn in the few boats they could find",
+            "k": ["hand’s cove", "lake champlain", "boats"],
+            "n": 0
+        },
+        {
+            "id": "pendennis",
+            "tier": "power",
+            "t": "Shipped to England in chains and held at Pendennis Castle",
+            "k": ["pendennis castle", "pendennis", "chains"],
+            "n": 0
+        },
+        {
+            "id": "archibald-campbell",
+            "tier": "power",
+            "t": "Exchanged for the British officer Archibald Campbell (1778)",
+            "k": ["archibald campbell", "campbell"],
+            "n": 0
+        },
+        {
+            "id": "reason",
+            "tier": "power",
+            "t": "Wrote _Reason, the Only Oracle of Man_ (1784), an early American book arguing for deism",
+            "k": ["reason, the only oracle of man", "oracle", "deism", "1784"],
+            "n": 0
+        },
+        {
+            "id": "gods-of-the-valleys",
+            "tier": "power",
+            "t": "After a 1770 New York court ruling against the settlers, he reportedly said, “The gods of the valleys are not the gods of the hills”",
+            "k": ["gods of the valleys", "gods of the hills", "1770"],
+            "n": 0
+        },
+        {
+            "id": "wentworth",
+            "tier": "power",
+            "t": "The settlers’ land grants came from New Hampshire governor Benning Wentworth",
+            "k": ["benning wentworth", "wentworth"],
+            "n": 0
+        },
+        {
+            "id": "catamount",
+            "tier": "power",
+            "t": "His militia met at the Catamount Tavern in Bennington; New York called it the “Bennington Mob,” and Governor William Tryon offered a reward for him",
+            "k": ["catamount tavern", "catamount", "bennington mob", "tryon"],
+            "n": 0
+        },
+        {
+            "id": "haldimand",
+            "tier": "power",
+            "t": "Secretly negotiated with Quebec’s British governor, Frederick Haldimand, about Vermont rejoining the British Empire; critics called it treason",
+            "k": ["haldimand", "quebec", "treason"],
+            "n": 0
+        },
+        {
+            "id": "onion-river",
+            "tier": "power",
+            "t": "He and his brothers bought land along the Onion River through a family land company",
+            "k": ["onion river", "land company"],
+            "n": 0
+        },
+        {
+            "id": "seth-warner-vote",
+            "tier": "power",
+            "t": "In July 1775, local leaders chose Seth Warner over him to command a new Continental regiment",
+            "k": ["july 1775", "regiment", "local leaders"],
+            "n": 0
+        },
+        {
+            "id": "salisbury",
+            "tier": "power",
+            "t": "Was part owner of an iron furnace in Salisbury, Connecticut",
+            "k": ["iron furnace", "salisbury", "furnace"],
+            "n": 0
+        },
+        {
+            "id": "namesakes",
+            "tier": "power",
+            "t": "Honored with statues in the U.S. Capitol’s National Statuary Hall and at the Vermont State House; an Amtrak train, a Navy submarine, and a furniture company bear his name",
+            "k": ["statuary hall", "amtrak", "submarine", "furniture"],
+            "n": 0
+        },
+        {
+            "id": "fort-carillon",
+            "tier": "power",
+            "t": "The fort he captured had been built by the French as Fort Carillon",
+            "k": ["fort carillon", "carillon"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Allen, Arnold, or Warner?",
+        "body": "Three patriots appear in Fort Ticonderoga clues: Ethan Allen led the Green Mountain Boys, Benedict Arnold shared command with a commission from Massachusetts, and Seth Warner captured nearby Crown Point and later commanded the Green Mountain Boys’ Continental regiment. Ethan’s youngest brother, Ira Allen, was a founder of Vermont too, so “Allen” alone earns only a prompt. Some tossups also want the fort itself, not the man.",
+        "fix": "“Great Jehovah,” the capture near Montreal, the _Narrative_ of his captivity, and _Reason, the Only Oracle of Man_ mean Ethan Allen. The West Point treason plot means Arnold, and the University of Vermont means Ira. If the question asks for “this fort,” say “Fort Ticonderoga.”",
+        "line": "Real answer line: <b><u>Ethan Allen</u></b> (prompt on <u>Allen</u>; do not accept “Ira Allen”)"
+    },
+    "tests": {
+        "right": [
+            "Ethan Allen",
+            "Ethan Allan",
+            "Colonel Ethan Allen",
+            "General Ethan Allen",
+            "ethen allen"
+        ],
+        "prompt": [
+            "Allen",
+            "Ethan"
+        ],
+        "wrong": [
+            "Ira Allen",
+            "Benedict Arnold",
+            "Seth Warner",
+            "Ethan Frome",
+            "Fort Ticonderoga",
+            "Henry Knox"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")

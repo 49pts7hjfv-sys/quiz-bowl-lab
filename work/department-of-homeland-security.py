@@ -90,8 +90,8 @@ data = {
             "r": "Congress created it later that year, after the September 11 attacks. For 10 points, name this department that oversees the TSA and FEMA."
         },
         {
-            "p": "A Vietnam War veteran who had been governor of Pennsylvania first led a White House office created in October 2001 to coordinate the fight against terrorism. In January 2003, that man, Tom Ridge, became the first secretary of this new executive department.",
-            "r": "For 10 points, name this cabinet department that includes the Secret Service and the Coast Guard."
+            "p": "A Vietnam War veteran who had been governor of Pennsylvania first led a White House office created in October 2001 to coordinate the fight against terrorism. In January 2003, he became the first head of this new executive department.",
+            "r": "That man was Tom Ridge. For 10 points, name this cabinet department that includes the Secret Service and the Coast Guard."
         },
         {
             "p": "The law creating this department was described as the biggest reorganization of the federal government since the National Security Act of 1947 created what became the Department of Defense. That 2002 law combined 22 federal agencies into this department.",
@@ -142,8 +142,8 @@ data = {
             "r": "Its Transportation Security Administration screens passengers at those checkpoints. For 10 points, name this cabinet department created after the September 11 attacks."
         },
         {
-            "p": "In February 2003, this department launched Ready.gov, a campaign urging families to build emergency supply kits and make plans for natural disasters and attacks. Every September, it promotes National Preparedness Month through FEMA, one of its agencies.",
-            "r": "For 10 points, name this department created by a 2002 law and first led by Tom Ridge."
+            "p": "In February 2003, this department launched Ready.gov, a campaign urging families to build emergency supply kits and make plans for natural disasters and attacks. It also promotes National Preparedness Month every September.",
+            "r": "Its agencies include FEMA. For 10 points, name this department created by a 2002 law and first led by Tom Ridge."
         }
     ],
     "clues": [

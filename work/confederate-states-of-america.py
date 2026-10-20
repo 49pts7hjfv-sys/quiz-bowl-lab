@@ -81,7 +81,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "In a March 1861 speech in Savannah, Georgia, this nation’s vice president declared that its “cornerstone” rested on slavery and on the belief that Black people were not equal to white people. That speaker, Alexander Stephens, had been a congressman from Georgia before his state left the Union.",
+            "p": "In a March 1861 speech in Savannah, Georgia, this nation’s vice president declared that its “cornerstone” rested on slavery and on the belief that Black people were not equal to white people. That speaker, Alexander Stephens, had served in the U.S. House of Representatives from 1843 to 1859.",
             "r": "For 10 points, name this nation formed by Southern states that seceded from the Union, led by Jefferson Davis."
         },
         {
@@ -89,7 +89,7 @@ data = {
             "r": "Its capital later moved to Richmond, Virginia. For 10 points, name this nation led by Jefferson Davis."
         },
         {
-            "p": "Four states of the Upper South, starting with Virginia, left the Union and joined this nation after Abraham Lincoln called for 75,000 volunteers to put down the rebellion in April 1861. Western counties of Virginia rejected that choice and later formed a new state loyal to the Union.",
+            "p": "Four states of the Upper South, starting with Virginia, joined this nation after Abraham Lincoln called for 75,000 volunteers to put down the rebellion in April 1861. Western counties of Virginia rejected that choice and later formed a new state loyal to the Union.",
             "r": "For 10 points, name this nation of eleven states that fought the Civil War under President Jefferson Davis."
         },
         {

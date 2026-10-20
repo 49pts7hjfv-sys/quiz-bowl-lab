@@ -1,0 +1,461 @@
+{
+  "id": "reincarnation",
+  "name": "Reincarnation",
+  "mono": "REI",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "The soul’s return in a new body after death · From India to ancient Greece",
+  "dates": "Taught since ancient times in India and Greece",
+  "briefing": "Imagine being two years old and hearing that you are a great teacher who has returned in a new body. In 1937, Tibetan Buddhists believed exactly that about a little boy whom they recognized as the fourteenth Dalai Lama. Reincarnation, the belief that after death a soul is born again in a new body, is central to Hinduism, and Buddhists, Jains, Sikhs, the Druze, and Greek thinkers like Pythagoras and Plato have taught versions of it.",
+  "answerHtml": "<b><u>reincarnation</u></b> (accept <u>rebirth</u>, <u>transmigration</u> of souls, or <u>metempsychosis</u>; do not accept “samsara,” “karma,” “resurrection,” or “nirvana”)",
+  "accept": [
+    "reincarnation",
+    "reincarnated",
+    "reincarnate",
+    "rebirth",
+    "transmigration",
+    "metempsychosis",
+    "punarjanma"
+  ],
+  "prompt": [],
+  "reject": [
+    "karma",
+    "kamma",
+    "samsara",
+    "resurrection",
+    "ressurection",
+    "resurrected",
+    "nirvana",
+    "moksha",
+    "incarnation",
+    "incarnate",
+    "avatar",
+    "transmutation",
+    "heaven",
+    "afterlife",
+    "immortality",
+    "atman",
+    "soul",
+    "bardo",
+    "tulku",
+    "dalai lama",
+    "purgatory",
+    "ascension",
+    "transfiguration",
+    "transpiration",
+    "transformation",
+    "transportation",
+    "transplantation",
+    "transliteration"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Reincarnation",
+  "qb": {
+    "q": "reincarnation",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In the _Bhagavad Gita_, Krishna tells Arjuna that death is certain for those who are born, and birth is certain for those who die. He compares this process to a person throwing away worn-out clothes and putting on new ones.",
+      "r": "For 10 points, name this belief that the soul is born again into a new body after death."
+    },
+    {
+      "p": "The _Brihadaranyaka Upanishad_ [“brih-hud-AR-un-yuh-kuh oo-PAN-ih-shud”] compares the self at death to a caterpillar that reaches the end of one blade of grass and draws itself onto the next. Hindus call the endless cycle that this idea describes samsara [“sum-SAH-ruh”], and escape from that cycle moksha.",
+      "r": "For 10 points, name this belief that the eternal self, or atman, passes into a new body after death."
+    },
+    {
+      "p": "In the _Questions of King Milinda_, the monk Nagasena [“NAH-guh-SAY-nuh”] compares this process to lighting one lamp from another, since Buddhists teach that no permanent self passes from one life to the next. Buddhists picture six realms where beings may enter a new life, from gods to hungry ghosts.",
+      "r": "For 10 points, name this belief that, after death, a being returns to life in a new body."
+    },
+    {
+      "p": "Tibetan Buddhists read the _Bardo Thodol_ [“BAR-doh TOH-dul”] aloud to guide a person who has died through the in-between state, lasting up to 49 days, that comes before this event. That text, often called the _Tibetan Book of the Dead_, aims to help the person reach liberation or a better new life.",
+      "r": "For 10 points, name this process in which, Buddhists believe, a being is born into a new life after death."
+    },
+    {
+      "p": "In 1937, a search party guided by a regent’s vision in a sacred lake found a two-year-old boy in northeastern Tibet who is said to have picked out belongings of the thirteenth Dalai Lama. Tibetan Buddhists believe that boy, the fourteenth Dalai Lama, was his predecessor returned through this process.",
+      "r": "Lamas recognized this way are called tulkus. For 10 points, name this belief that a being returns in a new body after death."
+    },
+    {
+      "p": "According to the poet Xenophanes [“zeh-NOF-uh-neez”], one Greek thinker who taught this idea stopped a man from hitting a puppy because he recognized the voice of a dead friend in its cries. That thinker’s followers, the Pythagoreans [“puh-thag-uh-REE-unz”], were also famous for refusing to eat beans.",
+      "r": "That thinker, Pythagoras, is also known for a theorem about right triangles. For 10 points, name this belief that souls move into new bodies after death."
+    },
+    {
+      "p": "The Greek philosopher Empedocles [“em-PED-uh-kleez”] claimed that, through this process, he had once been a boy, a girl, a bush, a bird, and a fish. That thinker is better known for teaching that everything is made of four elements: earth, water, air, and fire.",
+      "r": "Orphic and Pythagorean teachers held this belief too. For 10 points, name this idea that the soul passes into a new body after death."
+    },
+    {
+      "p": "In a myth that ends Plato’s _Republic_, a soldier named Er [“AIR”] revives on his funeral pyre and describes souls choosing new lives before undergoing this process, as Odysseus picks the quiet life of an ordinary man. The souls then drink from a river that makes them forget their past.",
+      "r": "For 10 points, name this belief that the soul is born into a new body after death."
+    },
+    {
+      "p": "In Book Six of Virgil’s _Aeneid_ [“uh-NEE-id”], Anchises [“an-KY-seez”] shows his son crowds of souls drinking from the river Lethe [“LEE-thee”] to forget their past before this process begins. Among those waiting souls are great Romans of the future, such as Romulus and Julius Caesar.",
+      "r": "Plato’s Myth of Er also describes souls drinking from such a river. For 10 points, name this belief that souls pass into new bodies after death."
+    },
+    {
+      "p": "Members of the Druze [“DROOZ”] faith believe in an immediate form of this process, in which a soul passes into a newborn human body at the very moment of death. The Druze community lives mainly in Lebanon, Syria, Israel, and Jordan.",
+      "r": "For 10 points, name this belief, central to Hinduism and Buddhism, that a being returns in a new body after death."
+    },
+    {
+      "p": "Followers of the mystic Isaac Luria [“LOOR-ee-uh”] described in detail a form of this idea called gilgul [“GIL-gool”], meaning “cycle” or “rolling,” in which a soul may return to finish its work in the world. Gilgul is part of Kabbalah [“kuh-BAH-luh”], Judaism’s mystical tradition.",
+      "r": "For 10 points, name this belief, also found in Hinduism and Buddhism, that a soul is born into a new body after death."
+    },
+    {
+      "p": "Julius Caesar wrote that the druids of Gaul taught this idea, which he believed made Gallic warriors fearless in battle. Among the Yoruba [“YOR-uh-buh”] of West Africa, names like Babatunde [“bah-bah-TOON-day”], meaning “father has returned,” reflect a form of this belief.",
+      "r": "For 10 points, name this belief that a person’s soul comes back in a new body after death."
+    },
+    {
+      "p": "Sikh and Hindu tradition says that a soul may pass through 8.4 million kinds of life before it gains the rare chance of a human birth. Jains teach that through this process a soul can enter four destinies: heavenly beings, humans, animals and plants, or beings in hell.",
+      "r": "For 10 points, name this belief, driven by karma, that the soul returns in a new body after death."
+    },
+    {
+      "p": "In James Joyce’s _Ulysses_, Molly Bloom asks her husband what a long Greek word for this idea means, and he later recalls that she called it “met him pike hoses.” That Greek word is often used for the teachings of Pythagoras.",
+      "r": "For 10 points, name this belief that souls are born into new bodies after death."
+    },
+    {
+      "p": "On the night of his enlightenment, the Buddha is said to have remembered many of his own past lives, and the Jataka [“JAH-tuh-kuh”] tales tell of those earlier lives as animals and people. Buddhists believe a person who reaches nirvana escapes this process forever.",
+      "r": "For 10 points, name this idea that after death a being comes back to life in a new body."
+    }
+  ],
+  "clues": [
+    {
+      "id": "new-body",
+      "tier": "giveaway",
+      "t": "The belief that after death a soul or self is born again into a new body",
+      "k": [
+        "new body",
+        "after death",
+        "soul"
+      ],
+      "n": 0
+    },
+    {
+      "id": "samsara",
+      "tier": "giveaway",
+      "t": "Hindus call the endless cycle of birth, death, and new birth samsara; karma drives it",
+      "k": [
+        "samsara",
+        "cycle",
+        "karma"
+      ],
+      "n": 0,
+      "rabbit": "Karma"
+    },
+    {
+      "id": "escape",
+      "tier": "giveaway",
+      "t": "Escaping the cycle is moksha (in Hinduism and Jainism) or nirvana (in Buddhism)",
+      "k": [
+        "moksha",
+        "nirvana",
+        "escaping"
+      ],
+      "n": 0,
+      "rabbit": "Nirvana"
+    },
+    {
+      "id": "dalai-lama",
+      "tier": "giveaway",
+      "t": "Tibetan Buddhists believe each Dalai Lama returns in a new body after death",
+      "k": [
+        "dalai lama",
+        "tibetan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gita-clothes",
+      "tier": "middle",
+      "t": "In the _Bhagavad Gita_, Krishna compares it to throwing away worn-out clothes and putting on new ones",
+      "k": [
+        "worn-out clothes",
+        "clothes",
+        "bhagavad gita",
+        "krishna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atman",
+      "tier": "middle",
+      "t": "In Hinduism, the eternal self, or atman, moves from body to body",
+      "k": [
+        "atman",
+        "eternal self"
+      ],
+      "n": 0,
+      "rabbit": "Hinduism"
+    },
+    {
+      "id": "no-self",
+      "tier": "middle",
+      "t": "Buddhism teaches it without a permanent, unchanging self (anatta)",
+      "k": [
+        "anatta",
+        "unchanging self",
+        "permanent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "six-realms",
+      "tier": "middle",
+      "t": "Buddhism’s six realms: gods, demigods, humans, animals, hungry ghosts, and hell beings",
+      "k": [
+        "six realms",
+        "hungry ghosts",
+        "demigods"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pythagoras",
+      "tier": "middle",
+      "t": "Pythagoras taught it; Xenophanes said he recognized a dead friend’s voice in a puppy’s cries",
+      "k": [
+        "pythagoras",
+        "puppy",
+        "xenophanes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "myth-of-er",
+      "tier": "middle",
+      "t": "Plato’s Myth of Er, at the end of the _Republic_: souls choose new lives and drink from a river of forgetting",
+      "k": [
+        "myth of er",
+        "republic",
+        "forgetting"
+      ],
+      "n": 0,
+      "rabbit": "The Republic"
+    },
+    {
+      "id": "druze",
+      "tier": "middle",
+      "t": "The Druze believe a soul passes at once into a newborn human body",
+      "k": [
+        "druze",
+        "newborn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dalai-1937",
+      "tier": "middle",
+      "t": "The fourteenth Dalai Lama was found and recognized in 1937, at age two",
+      "k": [
+        "1937",
+        "fourteenth",
+        "age two"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jataka",
+      "tier": "middle",
+      "t": "The Buddha is said to have remembered his past lives on the night of his enlightenment; Jataka tales tell of them",
+      "k": [
+        "jataka",
+        "past lives"
+      ],
+      "n": 0,
+      "rabbit": "Gautama Buddha"
+    },
+    {
+      "id": "certain",
+      "tier": "power",
+      "t": "Krishna: death is certain for those who are born, and birth is certain for those who die",
+      "k": [
+        "certain",
+        "born"
+      ],
+      "n": 0
+    },
+    {
+      "id": "caterpillar",
+      "tier": "power",
+      "t": "_Brihadaranyaka Upanishad_: the self at death is like a caterpillar crossing to the next blade of grass",
+      "k": [
+        "caterpillar",
+        "blade of grass",
+        "brihadaranyaka"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nagasena",
+      "tier": "power",
+      "t": "In the _Questions of King Milinda_, the monk Nagasena compares it to lighting one lamp from another",
+      "k": [
+        "nagasena",
+        "milinda",
+        "lamp"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bardo",
+      "tier": "power",
+      "t": "The _Bardo Thodol_ (_Tibetan Book of the Dead_) guides the dead through the in-between state, up to 49 days",
+      "k": [
+        "bardo thodol",
+        "49 days",
+        "tibetan book of the dead"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tulku",
+      "tier": "power",
+      "t": "Tulkus are lamas recognized as returned teachers; the 1937 search followed a regent’s vision in a sacred lake",
+      "k": [
+        "tulkus",
+        "vision",
+        "sacred lake"
+      ],
+      "n": 0
+    },
+    {
+      "id": "empedocles",
+      "tier": "power",
+      "t": "Empedocles claimed he had once been a boy, a girl, a bush, a bird, and a fish",
+      "k": [
+        "empedocles",
+        "bush",
+        "fish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beans",
+      "tier": "power",
+      "t": "Pythagoras’s followers were famous for refusing to eat beans; Orphic teachers held this belief too",
+      "k": [
+        "beans",
+        "orphic",
+        "followers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lethe",
+      "tier": "power",
+      "t": "In Book 6 of Virgil’s _Aeneid_, souls drink from the river Lethe before new lives, and Anchises shows Aeneas future Romans",
+      "k": [
+        "lethe",
+        "aeneid",
+        "anchises"
+      ],
+      "n": 0
+    },
+    {
+      "id": "odysseus",
+      "tier": "power",
+      "t": "In the Myth of Er, Er revives on his funeral pyre; Odysseus chooses the quiet life of an ordinary man",
+      "k": [
+        "funeral pyre",
+        "odysseus",
+        "ordinary man"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gilgul",
+      "tier": "power",
+      "t": "Gilgul (“cycle”): a form taught in Kabbalah and described in detail by followers of Isaac Luria",
+      "k": [
+        "gilgul",
+        "kabbalah",
+        "luria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "druids",
+      "tier": "power",
+      "t": "Julius Caesar wrote that the druids of Gaul taught it, which he believed made warriors fearless",
+      "k": [
+        "druids",
+        "caesar",
+        "gaul"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yoruba",
+      "tier": "power",
+      "t": "Yoruba names like Babatunde (“father has returned”) reflect a belief that ancestors can come back",
+      "k": [
+        "babatunde",
+        "yoruba",
+        "father has returned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "million",
+      "tier": "power",
+      "t": "Sikh and Hindu tradition: a soul may pass through 8.4 million kinds of life before the rare gift of a human birth",
+      "k": [
+        "8.4 million",
+        "human birth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gatis",
+      "tier": "power",
+      "t": "Jainism’s four destinies (gatis): heavenly beings, humans, animals and plants, and hell beings",
+      "k": [
+        "gatis",
+        "four destinies"
+      ],
+      "n": 0
+    },
+    {
+      "id": "joyce",
+      "tier": "power",
+      "t": "In Joyce’s _Ulysses_, Leopold Bloom recalls that Molly called the Greek word for it “met him pike hoses”",
+      "k": [
+        "met him pike hoses",
+        "molly",
+        "ulysses"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not karma, not resurrection",
+    "body": "Reincarnation tossups are full of neighboring ideas. Karma is the force of a person’s actions that shapes the next life, samsara is the whole cycle of birth and death, and moksha or nirvana is the escape from it. Resurrection, the raising of the dead taught in Christianity, Islam, and Judaism, is a different idea, and so is incarnation, a god taking bodily form, as with Vishnu’s avatars.",
+    "fix": "If the question describes a soul or self returning in a new body, say reincarnation; rebirth, transmigration of souls, and metempsychosis are accepted. “This force of actions” means karma, “this cycle” means samsara, and “this liberation” means moksha or nirvana.",
+    "line": "Real answer line: <b><u>reincarnation</u></b> (accept <u>rebirth</u>, <u>transmigration</u> of souls, or <u>metempsychosis</u>; do not accept “samsara,” “karma,” “resurrection,” or “nirvana”)"
+  },
+  "tests": {
+    "right": [
+      "reincarnation",
+      "Reincarnation",
+      "rebirth",
+      "transmigration of souls",
+      "metempsychosis",
+      "reincarnaton",
+      "being reincarnated"
+    ],
+    "prompt": [],
+    "wrong": [
+      "karma",
+      "samsara",
+      "resurrection",
+      "nirvana",
+      "incarnation",
+      "moksha",
+      "transmutation"
+    ]
+  }
+}

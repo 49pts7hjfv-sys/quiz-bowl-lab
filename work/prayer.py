@@ -1,0 +1,384 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>prayer</u></b> (accept word forms like <u>praying</u>; prompt on <u>worship</u>; do not accept “meditation” or a specific prayer such as the “Lord’s Prayer”)"
+
+data = {
+    "id": "prayer",
+    "name": "Prayer",
+    "mono": "PR",
+    "category": "Religion",
+    "qbCategory": "Religion",
+    "kicker": "Speaking to God or the divine · Practiced in nearly every religion",
+    "dates": "Found in religions around the world",
+    "briefing": "Five times a day, Muslims face Mecca for salat; three times a day, many Jews recite the Amidah facing Jerusalem; and Christians around the world say the prayer Jesus taught, beginning “Our Father.” Prayer, the act of speaking to God or another divine power, takes many forms: Tibetan Buddhists spin prayer wheels, Hindus chant mantras at dawn, and many Sikhs begin each morning with Guru Nanak’s Japji.",
+    "answerHtml": LINE,
+    "accept": [
+        "prayer",
+        "prayers",
+        "praying",
+        "pray",
+        "prayed"
+    ],
+    "prompt": [
+        "worship"
+    ],
+    "reject": [
+        "meditation",
+        "meditating",
+        "player",
+        "players",
+        "playing",
+        "payer",
+        "spraying",
+        "braying",
+        "prayer beads",
+        "prayer bead",
+        "prayer wheel",
+        "prayer wheels",
+        "prayer flag",
+        "prayer flags",
+        "prayer rug",
+        "prayer mat",
+        "prayer shawl",
+        "prayer book",
+        "prayer rope",
+        "lords prayer",
+        "jesus prayer",
+        "serenity prayer",
+        "call to prayer",
+        "book of common prayer",
+        "hail mary",
+        "our father",
+        "rosary",
+        "shema",
+        "amidah",
+        "mantra",
+        "hymn",
+        "psalm",
+        "psalms",
+        "sermon",
+        "fasting",
+        "pilgrimage",
+        "sacrifice",
+        "dhikr",
+        "warship",
+        "prying",
+        "sprayers",
+        "tefillin",
+        "megillah",
+        "sprayed",
+        "frayed",
+        "brayed"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Prayer",
+    "qb": {"q": "prayer", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "The most important example of this act in Jewish services is the Amidah [“ah-mee-DAH”], or “standing,” which worshippers recite three times a day while facing Jerusalem. The Amidah’s other name, Shemoneh Esrei [“sh’MOH-neh ESS-ray”], means “eighteen,” for the number of blessings it originally had.",
+            "r": "For 10 points, name this act of speaking to God, which Muslims perform five times a day as salat."
+        },
+        {
+            "p": "Small leather boxes called tefillin [“t’FIL-in”], which many Jewish men wear on the arm and head during this act on weekday mornings, hold handwritten passages that include the Shema [“shuh-MAH”]. The Shema begins, “Hear, O Israel: the Lord our God, the Lord is one.”",
+            "r": "Public forms of this act in Judaism traditionally require a minyan [“MIN-yun”] of ten. For 10 points, name this act of speaking to God."
+        },
+        {
+            "p": "Before performing this act, Muslims wash their hands, face, arms, and feet in a ritual called wudu [“woo-DOO”]. Each performance is made up of units called rak’ahs [“RAK-ahz”], which include bowing and touching the forehead to the ground, and a muezzin [“moo-EZ-in”] calls believers to it from a minaret.",
+            "r": "Muslims perform it five times a day, facing Mecca. For 10 points, name this act of worship, called salat in Arabic."
+        },
+        {
+            "p": "Muslim tradition says that during the Night Journey, God first required fifty of these acts each day, but Moses urged Muhammad to go back again and again to ask for fewer. Muslims also gather at mosques at midday on Fridays for a group form of this act called Jumu’ah [“JOO-moo-ah”].",
+            "r": "The number finally fell to five a day. For 10 points, name this act, called salat in Arabic, that Muslims perform facing Mecca."
+        },
+        {
+            "p": "Protestant churches often end one famous example of this act with “For thine is the kingdom, and the power, and the glory, for ever,” words missing from the oldest Gospel manuscripts. Jesus taught that example in the Sermon on the Mount, and it asks God to “give us this day our daily bread.”",
+            "r": "It begins “Our Father, who art in heaven.” For 10 points, name this act of speaking to God."
+        },
+        {
+            "p": "Catholics count the steps of one devotion of this kind on a loop of beads divided into five groups of ten, called decades, while reflecting on the Joyful, Sorrowful, Glorious, or Luminous Mysteries. Each bead in a decade stands for one Hail Mary.",
+            "r": "That devotion is the rosary. For 10 points, name this act of speaking to God or to holy figures."
+        },
+        {
+            "p": "Tibetan Buddhists spin metal wheels named for this act, which are filled with scrolls printed with the mantra “Om mani padme hum” [“ohm MAH-nee PAHD-may HOOM”], believing each turn spreads the same blessing as reciting it. They also hang colorful flags named for this act so the wind can carry the blessings away.",
+            "r": "For 10 points, name this act of addressing God or holy beings, which Muslims perform five times a day."
+        },
+        {
+            "p": "Hindus and Buddhists count repetitions of a mantra on a mala [“MAH-luh”] of 108 beads, and many Muslims use 33 or 99 beads to repeat praises of God. Eastern Orthodox Christians use a knotted rope during a form of this act that repeats “Lord Jesus Christ, Son of God, have mercy on me.”",
+            "r": "Strings of beads used this way are named for this act. For 10 points, name this act of addressing God."
+        },
+        {
+            "p": "Many Sikhs begin each morning by reciting Guru Nanak’s Japji Sahib [“JUP-jee SAH-hib”], the first composition in their holy book, and they end services with the Ardas [“ur-DAHS”], a form of this act said while standing with folded hands. Those daily recitations are called Nitnem [“NIT-nem”], or “daily rule.”",
+            "r": "For 10 points, name this act of addressing God, which Sikhs, Jews, Christians, and Muslims all practice."
+        },
+        {
+            "p": "Zoroastrians divide each day into five periods called gahs [“GAHZ”] for this act, and they untie and retie a sacred cord called the kusti [“KUSH-tee”] around the waist while doing it. They usually face a fire or another source of light.",
+            "r": "For 10 points, name this act of worship, which Muslims also perform five times a day."
+        },
+        {
+            "p": "At many Shinto shrines, worshippers ring a bell, bow twice, clap twice, and bow once more as they perform this act before the kami [“KAH-mee”]. Visitors may also write their wishes on small wooden plaques called ema [“EH-mah”] and hang them at the shrine.",
+            "r": "For 10 points, name this act of addressing gods or spirits, also practiced in churches, mosques, and synagogues."
+        },
+        {
+            "p": "Albrecht Dürer’s [“DOO-rer’z”] 1508 ink drawing of a pair of folded hands became a famous symbol of this act. In the Gospels, Jesus does this in the Garden of Gethsemane [“geth-SEM-uh-nee”] on the night before his death, asking that “this cup” pass from him.",
+            "r": "For 10 points, name this act of speaking to God, often done with bowed head and folded hands."
+        },
+        {
+            "p": "Many Hindus recite the Gayatri [“GAH-yuh-tree”] Mantra, a verse from the Rig Veda addressed to the sun god Savitr [“SAH-vih-tur”], at dawn as an act of this kind. During aarti [“AR-tee”], worshippers wave small lamps before a sacred image while singing.",
+            "r": "Hindus also offer flowers and food in worship called puja. For 10 points, name this act of addressing a god, which Muslims perform as salat."
+        },
+        {
+            "p": "The Liturgy of the Hours sets times for this act throughout the day, from Lauds at dawn to Vespers in the evening and Compline before sleep. Benedictine monks are known for a Latin motto that pairs this act with work.",
+            "r": "That motto is “ora et labora.” For 10 points, name this act of speaking to God, a central part of Christian worship."
+        },
+        {
+            "p": "In the First Book of Samuel, a woman named Hannah moved her lips without making a sound while doing this at the shrine at Shiloh, and the priest Eli thought she was drunk. Visitors to Jerusalem’s Western Wall tuck written notes of this kind into its cracks.",
+            "r": "Hannah later gave birth to the prophet Samuel. For 10 points, name this act of speaking to God."
+        }
+    ],
+    "clues": [
+        {
+            "id": "speaking-to-god",
+            "tier": "giveaway",
+            "t": "An act of speaking to God or another divine power, to praise, give thanks, or ask for help",
+            "k": ["speaking to god", "praise", "give thanks"],
+            "n": 0
+        },
+        {
+            "id": "salat",
+            "tier": "giveaway",
+            "t": "Muslims perform salat five times a day, facing the Kaaba in Mecca",
+            "k": ["salat", "five times", "mecca"],
+            "n": 0,
+            "rabbit": "Islam"
+        },
+        {
+            "id": "our-father",
+            "tier": "giveaway",
+            "t": "Jesus taught the “Our Father,” which begins “Our Father, who art in heaven,” in the Sermon on the Mount",
+            "k": ["our father", "sermon on the mount"],
+            "n": 0
+        },
+        {
+            "id": "beads",
+            "tier": "giveaway",
+            "t": "Many faiths count repetitions on strings of beads, such as the Catholic rosary and the Hindu and Buddhist mala",
+            "k": ["beads", "rosary", "mala"],
+            "n": 0
+        },
+        {
+            "id": "postures",
+            "tier": "giveaway",
+            "t": "Believers may kneel, bow, stand, or fold their hands while doing it",
+            "k": ["kneel", "fold", "stand"],
+            "n": 0
+        },
+        {
+            "id": "wudu",
+            "tier": "middle",
+            "t": "Before salat, Muslims wash in a ritual called wudu; each salat is made of units called rak’ahs, with bowing and prostration",
+            "k": ["wudu", "rak’ahs", "wash"],
+            "n": 0
+        },
+        {
+            "id": "muezzin",
+            "tier": "middle",
+            "t": "A muezzin calls believers from a minaret; Muslims gather at midday on Fridays for Jumu’ah",
+            "k": ["muezzin", "minaret", "jumu’ah", "fridays"],
+            "n": 0
+        },
+        {
+            "id": "amidah",
+            "tier": "middle",
+            "t": "Judaism’s Amidah (“standing”) is recited three times a day, facing Jerusalem",
+            "k": ["amidah", "standing", "three times"],
+            "n": 0,
+            "rabbit": "Judaism"
+        },
+        {
+            "id": "shema",
+            "tier": "middle",
+            "t": "The Shema: “Hear, O Israel: the Lord our God, the Lord is one”",
+            "k": ["shema", "hear, o israel"],
+            "n": 0
+        },
+        {
+            "id": "rosary",
+            "tier": "middle",
+            "t": "The rosary: five decades of Hail Marys while reflecting on the Joyful, Sorrowful, Glorious, or Luminous Mysteries",
+            "k": ["decades", "hail marys", "mysteries"],
+            "n": 0,
+            "rabbit": "Mary, mother of Jesus"
+        },
+        {
+            "id": "tibetan",
+            "tier": "middle",
+            "t": "Tibetan Buddhists spin wheels and hang flags carrying mantras such as “Om mani padme hum”",
+            "k": ["wheels", "flags", "om mani padme hum"],
+            "n": 0
+        },
+        {
+            "id": "japji",
+            "tier": "middle",
+            "t": "Many Sikhs recite Guru Nanak’s Japji Sahib each morning and say the Ardas, standing, at the end of services",
+            "k": ["japji", "ardas", "standing"],
+            "n": 0,
+            "rabbit": "Sikhism"
+        },
+        {
+            "id": "gayatri",
+            "tier": "middle",
+            "t": "Many Hindus recite the Gayatri Mantra at dawn; in aarti, they wave lamps before a sacred image",
+            "k": ["gayatri", "aarti", "lamps"],
+            "n": 0,
+            "rabbit": "Hinduism"
+        },
+        {
+            "id": "minyan",
+            "tier": "middle",
+            "t": "Public worship in Judaism traditionally requires a minyan, a group of ten",
+            "k": ["minyan", "ten"],
+            "n": 0
+        },
+        {
+            "id": "shemoneh",
+            "tier": "power",
+            "t": "The Amidah’s other name, Shemoneh Esrei (“eighteen”), counts its original blessings",
+            "k": ["shemoneh esrei", "eighteen", "blessings"],
+            "n": 0
+        },
+        {
+            "id": "tefillin",
+            "tier": "power",
+            "t": "Tefillin, leather boxes worn on the arm and head on weekday mornings, hold passages that include the Shema",
+            "k": ["tefillin", "leather boxes", "weekday mornings"],
+            "n": 0
+        },
+        {
+            "id": "night-journey",
+            "tier": "power",
+            "t": "Muslim tradition: on the Night Journey, the daily number fell from fifty to five after Moses urged Muhammad to ask for fewer",
+            "k": ["night journey", "fifty", "moses"],
+            "n": 0,
+            "rabbit": "Muhammad"
+        },
+        {
+            "id": "doxology",
+            "tier": "power",
+            "t": "The ending “For thine is the kingdom, and the power, and the glory” is missing from the oldest Gospel manuscripts",
+            "k": ["kingdom", "glory", "manuscripts"],
+            "n": 0
+        },
+        {
+            "id": "orthodox-rope",
+            "tier": "power",
+            "t": "Orthodox Christians use a knotted rope while repeating “Lord Jesus Christ, Son of God, have mercy on me”",
+            "k": ["knotted rope", "have mercy", "orthodox"],
+            "n": 0
+        },
+        {
+            "id": "muslim-beads",
+            "tier": "power",
+            "t": "Many Muslims use strings of 33 or 99 beads to repeat praises of God",
+            "k": ["praises", "99", "33"],
+            "n": 0
+        },
+        {
+            "id": "kusti",
+            "tier": "power",
+            "t": "Zoroastrians use five daily periods (gahs) and retie the sacred kusti cord, facing fire or light",
+            "k": ["kusti", "gahs", "cord"],
+            "n": 0,
+            "rabbit": "Zoroastrianism"
+        },
+        {
+            "id": "shinto",
+            "tier": "power",
+            "t": "At Shinto shrines: ring a bell, bow twice, clap twice, bow once; wishes go on wooden ema plaques",
+            "k": ["clap twice", "ema", "shinto"],
+            "n": 0
+        },
+        {
+            "id": "durer",
+            "tier": "power",
+            "t": "Albrecht Dürer’s 1508 ink drawing of folded hands became a famous symbol of it",
+            "k": ["dürer", "folded hands", "1508"],
+            "n": 0
+        },
+        {
+            "id": "gethsemane",
+            "tier": "power",
+            "t": "In the Garden of Gethsemane, Jesus asked that “this cup” pass from him",
+            "k": ["gethsemane", "this cup"],
+            "n": 0
+        },
+        {
+            "id": "hours",
+            "tier": "power",
+            "t": "The Liturgy of the Hours runs from Lauds at dawn to Vespers and Compline; Benedictines pair it with work in “ora et labora”",
+            "k": ["liturgy of the hours", "vespers", "compline", "ora et labora"],
+            "n": 0
+        },
+        {
+            "id": "hannah",
+            "tier": "power",
+            "t": "In 1 Samuel, Hannah moved her lips silently at Shiloh, and the priest Eli thought she was drunk",
+            "k": ["hannah", "eli", "shiloh"],
+            "n": 0
+        },
+        {
+            "id": "western-wall",
+            "tier": "power",
+            "t": "Visitors tuck written notes into the cracks of Jerusalem’s Western Wall",
+            "k": ["western wall", "notes", "cracks"],
+            "n": 0,
+            "rabbit": "Jerusalem"
+        },
+        {
+            "id": "savitr",
+            "tier": "power",
+            "t": "The Gayatri Mantra, a verse of the Rig Veda, is addressed to the sun god Savitr",
+            "k": ["savitr", "rig veda", "sun god"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Prayer or meditation?",
+        "body": "Prayer and meditation often show up in the same religion tossups. Prayer means addressing God or another divine power, often in words, as in salat, the Amidah, or the Lord’s Prayer; meditation trains calm and attention, often in silence. Specific prayers like the Lord’s Prayer, the Shema, or the Hail Mary, and objects like prayer beads or prayer wheels, are answers of their own, so they are wrong when the question wants the act itself.",
+        "fix": "Listen for the noun: “this act” or “this practice” of speaking to God means prayer. “This prayer” means one particular text, so name it (the Lord’s Prayer, the Shema, the Amidah). Breathing, mantras for calm, and zazen point to meditation.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "prayer",
+            "Prayer",
+            "praying",
+            "prayers",
+            "prayr",
+            "pray"
+        ],
+        "prompt": [
+            "worship"
+        ],
+        "wrong": [
+            "meditation",
+            "player",
+            "the Lord’s Prayer",
+            "prayer beads",
+            "rosary",
+            "Shema",
+            "fasting"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

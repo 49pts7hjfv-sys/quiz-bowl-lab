@@ -64,12 +64,12 @@ data = {
             "r": "That December ruling, in _Bush v. Gore_, ended the recount. For 10 points, name this presidential election."
         },
         {
-            "p": "Theresa LePore, the elections supervisor of Palm Beach County, designed a two-page “butterfly ballot” for this election that some voters said led them to vote for Pat Buchanan by mistake. Recount workers in Florida later examined punch-card ballots for “hanging” or “dimpled” chads.",
-            "r": "Florida’s result decided the winner. For 10 points, name this election in which George W. Bush defeated Al Gore."
+            "p": "Theresa LePore, the elections supervisor of Palm Beach County, designed a “butterfly ballot” for this election that listed candidates on two facing pages, with one column of punch holes down the middle. Some voters said that ballot led them to vote for Pat Buchanan by mistake.",
+            "r": "Recount workers later examined punch-card ballots for “hanging” chads. For 10 points, name this election in which George W. Bush defeated Al Gore."
         },
         {
-            "p": "Florida’s secretary of state, Katherine Harris, certified one candidate as the winner of her state in this election by just 537 votes. That candidate had led by fewer than 2,000 votes after the first count on election night, which set off an automatic recount under Florida law.",
-            "r": "That candidate, George W. Bush, became president. For 10 points, name this election in which he defeated Al Gore."
+            "p": "Florida’s secretary of state, Katherine Harris, certified one candidate as the winner of her state in this election by just 537 votes. That candidate’s lead after the first count on election night had been fewer than 2,000 votes.",
+            "r": "Weeks of recounts and lawsuits followed. For 10 points, name this election in which George W. Bush defeated Al Gore."
         },
         {
             "p": "Ralph Nader won more than 97,000 votes in Florida as the Green Party’s candidate in this election, while Pat Buchanan ran on the Reform Party ticket. Nationwide, Nader won almost 3 percent of the popular vote.",
@@ -80,8 +80,8 @@ data = {
             "r": "For 10 points, name this election in which Lieberman’s running mate, Al Gore, lost to George W. Bush."
         },
         {
-            "p": "One elector from Washington, D.C., left her ballot blank in protest after this election, so the winner’s final margin in the Electoral College was 271 votes to 266. The loser won the national popular vote by more than half a million votes.",
-            "r": "For 10 points, name this election in which Al Gore won more votes nationwide but lost to George W. Bush."
+            "p": "One elector from Washington, D.C., left her ballot blank after this election to protest the city’s lack of voting representation in Congress, so the winner’s final margin in the Electoral College was 271 votes to 266.",
+            "r": "The loser won the national popular vote by more than half a million votes. For 10 points, name this election in which Al Gore lost to George W. Bush."
         },
         {
             "p": "On election night, TV networks projected that one candidate had won Florida, took it back, and later declared that his opponent had won the state. The first candidate then phoned his opponent to concede, only to call back later that night and take back his concession.",
@@ -112,8 +112,8 @@ data = {
             "r": "For 10 points, name this election in which a recount in Florida decided whether George W. Bush or Al Gore won."
         },
         {
-            "p": "One candidate in this election conceded in a televised speech on December 13, the day after a Supreme Court ruling ended the Florida recount. That candidate had served eight years as vice president under Bill Clinton.",
-            "r": "For 10 points, name this election in which Al Gore lost to George W. Bush."
+            "p": "One candidate in this election conceded in a televised speech on December 13, saying that he strongly disagreed with the Supreme Court’s decision but accepted it. That candidate had served eight years as vice president under Bill Clinton.",
+            "r": "The day before, the Court’s ruling had ended the Florida recount. For 10 points, name this election in which Al Gore lost to George W. Bush."
         },
         {
             "p": "This was the first election since 1888 in which the winner of the national popular vote lost the presidency. Florida’s 25 electoral votes decided it, and the winning candidate’s younger brother Jeb was governor of Florida at the time.",
@@ -132,8 +132,8 @@ data = {
         {
             "id": "florida-recount",
             "tier": "giveaway",
-            "t": "Decided by a disputed recount in Florida, which Bush won by 537 votes",
-            "k": ["florida", "recount", "537"],
+            "t": "Decided by a disputed vote count and recount in Florida",
+            "k": ["florida", "recount", "disputed"],
             "n": 0
         },
         {
@@ -146,8 +146,8 @@ data = {
         {
             "id": "popular-vote",
             "tier": "giveaway",
-            "t": "Gore won the national popular vote but lost the Electoral College, 271 to 266",
-            "k": ["popular vote", "electoral college", "271", "266"],
+            "t": "Gore won the national popular vote but lost in the Electoral College",
+            "k": ["popular vote", "electoral college"],
             "n": 0,
             "rabbit": "Electoral College"
         },
@@ -183,8 +183,8 @@ data = {
         {
             "id": "katherine-harris",
             "tier": "middle",
-            "t": "Florida’s secretary of state, Katherine Harris, certified Bush as the winner of the state",
-            "k": ["katherine harris", "harris", "certified"],
+            "t": "Florida’s secretary of state, Katherine Harris, certified Bush as the winner of the state by 537 votes",
+            "k": ["katherine harris", "harris", "certified", "537"],
             "n": 0
         },
         {
@@ -239,8 +239,8 @@ data = {
         {
             "id": "dc-elector",
             "tier": "power",
-            "t": "A Washington, D.C., elector left her ballot blank in protest, so Gore finished with 266 electoral votes instead of 267",
-            "k": ["washington, d.c.", "blank", "protest"],
+            "t": "Final count: 271 to 266, because a Washington, D.C., elector left her ballot blank in protest; Gore would otherwise have had 267",
+            "k": ["washington, d.c.", "blank", "protest", "271"],
             "n": 0
         },
         {

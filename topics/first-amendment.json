@@ -215,7 +215,7 @@
     },
     {
       "p": "In 1965, Iowa students Mary Beth Tinker, her brother John, and Christopher Eckhardt were suspended for wearing black armbands to school to protest the Vietnam War. In 1969, the Supreme Court ruled that their armbands were protected symbolic speech under this amendment.",
-      "r": "For 10 points, name this amendment, which the Court said students do not lose “at the schoolhouse gate.”"
+      "r": "For 10 points, name this amendment, whose rights the Court said students do not shed “at the schoolhouse gate.”"
     },
     {
       "p": "A Montgomery, Alabama, city commissioner sued _The New York Times_ over an advertisement supporting Martin Luther King Jr., leading to a 1964 ruling that public officials must prove “actual malice” to win a libel case.",
@@ -258,7 +258,7 @@
       "r": "This amendment begins “Congress shall make no law respecting an establishment of religion.” For 10 points, name it."
     },
     {
-      "p": "For decades, courts used a three-part test from _Lemon v. Kurtzman_ (1971) to decide cases under this amendment’s establishment clause. In 2022, in a case about a high school football coach who prayed on the field after games, the Supreme Court said it had abandoned that test.",
+      "p": "For decades, courts used a three-part test from _Lemon v. Kurtzman_ (1971) to decide cases under this amendment’s establishment clause. In 2022, the Supreme Court ruled 6–3 for a high school football coach who prayed on the field after games and said it had abandoned that test.",
       "r": "That 2022 case was _Kennedy v. Bremerton School District_. For 10 points, name this amendment that protects freedom of religion."
     }
   ],
@@ -485,7 +485,7 @@
     {
       "id": "lemon",
       "tier": "power",
-      "t": "_Lemon v. Kurtzman_ (1971) created a three-part test; in _Kennedy v. Bremerton_ (2022) the Court said it had abandoned that test",
+      "t": "_Lemon v. Kurtzman_ (1971) created a three-part test; in _Kennedy v. Bremerton_ (2022), the Court ruled 6–3 for a coach who prayed after games and said it had abandoned that test",
       "k": [
         "lemon",
         "kurtzman",
@@ -540,9 +540,9 @@
   ],
   "trap": {
     "title": "Amendment or freedom?",
-    "body": "This amendment is one part of the Bill of Rights, so “Bill of Rights” is wrong when a question asks for one amendment. Some real tossups ask for just one of its freedoms, such as “freedom of the press,” and want that exact answer instead. Its neighbors are easy to mix up too: the Second Amendment protects the right to keep and bear arms, and the Fifth lets people refuse to testify against themselves (“pleading the Fifth”).",
+    "body": "This amendment is one part of the Bill of Rights, so “Bill of Rights” is wrong when a question asks for one amendment. Some tossups ask for just one of its freedoms, such as “freedom of the press,” and want that exact answer instead. Its neighbors are easy to mix up too: the Second Amendment protects the right to keep and bear arms, and the Fifth lets people refuse to testify against themselves (“pleading the Fifth”).",
     "fix": "Listen for the noun. “This amendment” wants “First Amendment”; “this right” or “this freedom” wants the specific freedom. School prayer, the wall of separation, black armbands, flag burning, and the Pentagon Papers are all First Amendment clues.",
-    "line": "Real answer line: <b><u>First Amendment</u></b> (or <u>Amendment I</u>; prompt on <u>freedom of speech</u>, <u>religion</u>, or <u>the press</u>; do not accept “Bill of Rights”)"
+    "line": "Real answer line: <b><u>First Amendment</u></b> (or <u>Amendment I</u>; prompt on <u>freedom of speech</u>, <u>freedom of religion</u>, or <u>freedom of the press</u>; do not accept “Bill of Rights” or “Second Amendment”)"
   },
   "tests": {
     "right": [

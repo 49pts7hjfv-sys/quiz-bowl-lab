@@ -122,7 +122,7 @@
       "r": "Weeks after that speech, he told a crowd in West Berlin, “Ich bin ein Berliner.” For 10 points, name this president who was assassinated later that year."
     },
     {
-      "p": "Three weeks after Alan Shepard became the first American in space, this president asked Congress to land a man on the Moon before the decade was out. In a 1962 speech at Rice University, he declared, “We choose to go to the Moon.”",
+      "p": "Less than three weeks after Alan Shepard became the first American in space, this president asked Congress to land a man on the Moon before the decade was out. In a 1962 speech at Rice University, he declared, “We choose to go to the Moon.”",
       "r": "His goal was met in 1969, when Apollo 11 landed. For 10 points, name this president who started the Peace Corps."
     },
     {
@@ -365,7 +365,7 @@
     {
       "id": "shriver",
       "tier": "power",
-      "t": "Sargent Shriver, his brother-in-law, first led the Peace Corps; the idea began at a 2 a.m. speech at the University of Michigan",
+      "t": "Challenged students to serve abroad at a 2 a.m. stop at the University of Michigan (1960); brother-in-law Sargent Shriver became the first Peace Corps director",
       "k": [
         "sargent shriver",
         "shriver",
@@ -466,7 +466,7 @@
     {
       "id": "shepard",
       "tier": "power",
-      "t": "Asked Congress for the Moon goal three weeks after Alan Shepard became the first American in space (1961)",
+      "t": "Asked Congress for the Moon goal less than three weeks after Alan Shepard became the first American in space (1961)",
       "k": [
         "alan shepard",
         "shepard",
@@ -479,7 +479,7 @@
     "title": "Which Kennedy?",
     "body": "Real answer lines for this president prompt on just “Kennedy,” because several Kennedys show up in quiz bowl. His brother Robert F. Kennedy was his attorney general and later a senator from New York who ran for president in 1968, and his youngest brother, Ted Kennedy, served in the Senate for almost 47 years. Some questions ask for the whole Kennedy family, and questions about the 1963 assassination may want Lee Harvey Oswald or the event itself.",
     "fix": "Only one Kennedy was president, so “this president” means John F. Kennedy; say the full name. RFK clues: attorney general, the 1968 campaign, and announcing Martin Luther King Jr.’s death in Indianapolis. Ted Kennedy clues: senator from Massachusetts from 1962 to 2009, a 1980 run against Jimmy Carter, and working with George W. Bush on No Child Left Behind.",
-    "line": "Real answer line: <b><u>John F</u></b>itzgerald <b><u>Kennedy</u></b> (or <u>JFK</u>; prompt on <u>Kennedy</u>; do not accept “Robert F. Kennedy” or “Ted Kennedy”)"
+    "line": "Real answer line: <b><u>John F</u></b>itzgerald <b><u>Kennedy</u></b> (or <u>JFK</u>; accept <u>Jack Kennedy</u>; prompt on <u>Kennedy</u>; do not accept “Robert F. Kennedy,” “Ted Kennedy,” or “John F. Kennedy Jr.”)"
   },
   "tests": {
     "right": [
@@ -492,7 +492,8 @@
     ],
     "prompt": [
       "Kennedy",
-      "the Kennedys"
+      "the Kennedys",
+      "the Kennedy family"
     ],
     "wrong": [
       "Robert F. Kennedy",

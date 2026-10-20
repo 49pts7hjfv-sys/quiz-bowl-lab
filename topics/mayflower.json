@@ -391,7 +391,7 @@
     "title": "Ship, compact, or colony?",
     "body": "Three answer lines share the same clues. The _Mayflower_ is the ship; the Mayflower Compact is the agreement 41 men signed aboard it in November 1620; and Plymouth Colony is the settlement they founded. Jamestown (1607, Virginia) was the earlier English colony, and its colonists came on three different ships: the _Susan Constant_, the _Godspeed_, and the _Discovery_.",
     "fix": "Listen for the noun: “this ship” or “this vessel” wants the Mayflower; “this document” or “this agreement” wants the Mayflower Compact; “this colony” or “this settlement” wants Plymouth Colony. Answer with exactly what the question asks for.",
-    "line": "Real answer line: <b><u>Mayflower</u></b> (do not accept “Mayflower Compact” or “Speedwell”)"
+    "line": "Real answer line: <b><u>Mayflower</u></b> (do not accept “Mayflower Compact,” “Plymouth Colony,” or “Speedwell”)"
   },
   "tests": {
     "right": [

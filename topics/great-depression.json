@@ -62,7 +62,7 @@
   },
   "tossups": [
     {
-      "p": "Milton Friedman and Anna Schwartz blamed this crisis on the Federal Reserve, arguing in _A Monetary History of the United States_ that the Fed let the money supply shrink by about a third. In 2002, Ben Bernanke admitted the Fed’s role in this crisis, telling Friedman, “We did it. We’re very sorry.”",
+      "p": "Milton Friedman and Anna Schwartz blamed this crisis on the Federal Reserve, arguing in _A Monetary History of the United States_ that the Fed let the money supply shrink by about a third. In 2002, Ben Bernanke admitted the Fed’s role in this crisis, telling Friedman and Schwartz, “We did it. We’re very sorry.”",
       "r": "For 10 points, name this economic disaster of the 1930s that followed the stock market crash of 1929."
     },
     {
@@ -74,7 +74,7 @@
       "r": "For 10 points, name this economic crisis of the 1930s, when millions of Americans lost their jobs."
     },
     {
-      "p": "During this period, people called old newspapers used as bedding “Hoover blankets” and turned their empty pockets inside out as “Hoover flags.” Cars pulled by mules because their owners could not afford gasoline were mocked as “Hoover wagons.”",
+      "p": "During this period, people called old newspapers used as bedding “Hoover blankets” and turned their empty pockets inside out as “Hoover flags.” Cars pulled by horses or mules because their owners could not afford gasoline were mocked as “Hoover wagons.”",
       "r": "Shantytowns of the homeless were called Hoovervilles. For 10 points, name this economic crisis that followed the 1929 stock market crash."
     },
     {
@@ -118,7 +118,7 @@
       "r": "For 10 points, name this time of economic hardship in the 1930s, when about a quarter of American workers had no job."
     },
     {
-      "p": "During this period, Midwestern farmers organized “penny auctions,” bidding only pennies for farms being sold to pay debts and then handing the land back to its owners. Milo Reno’s Farmers’ Holiday Association urged farmers to stop sending crops to market until prices rose.",
+      "p": "During this period, Midwestern farmers organized “penny auctions,” bidding only pennies when a neighbor’s farm property was auctioned off to pay debts, then handing it back to its owner. Milo Reno’s Farmers’ Holiday Association urged farmers to stop sending crops to market until prices rose.",
       "r": "For 10 points, name this economic crisis of the 1930s, which began with the 1929 stock market crash."
     }
   ],
@@ -282,7 +282,7 @@
     {
       "id": "hoover-blankets",
       "tier": "power",
-      "t": "“Hoover blankets” (old newspapers), “Hoover flags” (empty pockets), and “Hoover wagons” (cars pulled by mules)",
+      "t": "“Hoover blankets” (old newspapers), “Hoover flags” (empty pockets), and “Hoover wagons” (cars pulled by horses or mules)",
       "k": [
         "hoover blankets",
         "hoover flags",
@@ -431,7 +431,7 @@
     "title": "Depression, Recession, or Deal?",
     "body": "Several answer lines sit right next to this one. The New Deal was Franklin Roosevelt’s set of programs to fight this crisis, the Dust Bowl was the drought and dust storms that hit the Great Plains at the same time, and the Great Recession was a different downturn that began in 2007. “Hoovervilles,” the shantytowns, can also be an answer of their own. Saying only “Depression” usually earns a prompt, so be ready to add “Great.”",
     "fix": "Listen for the noun. “This crisis” or “this period” wants the Great Depression; “this program” or “these agencies” wants the New Deal; “this environmental disaster” or “these dust storms” wants the Dust Bowl; “these shantytowns” wants Hoovervilles. Clues about 2008, home mortgages, or TARP point to the Great Recession.",
-    "line": "Real answer line: <b><u>Great Depression</u></b> (prompt on <u>Depression</u>; do not accept “Great Recession”)"
+    "line": "Real answer line: <b><u>Great Depression</u></b> (prompt on <u>Depression</u>; do not accept “Great Recession” or “New Deal”)"
   },
   "tests": {
     "right": [
