@@ -69,7 +69,7 @@
       "r": "Its hormones control metabolism. For 10 points, name this butterfly-shaped gland in the neck that makes thyroxine."
     },
     {
-      "p": "In 1912, J. F. Gudernatsch [“GOO-der-nahch”] fed tadpoles bits of this gland taken from horses and found that they turned into tiny frogs much earlier than normal. A hormone from this gland triggers that metamorphosis in amphibians.",
+      "p": "In 1912, J. F. Gudernatsch [“GOO-der-nahch”] fed tadpoles bits of this gland and found that they turned into tiny frogs much earlier than normal. A hormone from this gland triggers that metamorphosis in amphibians.",
       "r": "In humans, this gland sits in the front of the neck. For 10 points, name this gland whose hormones control metabolism."
     },
     {
@@ -300,10 +300,10 @@
     {
       "id": "gudernatsch",
       "tier": "power",
-      "t": "In 1912, J. F. Gudernatsch fed tadpoles tissue from it, taken from horses, and they became frogs early",
+      "t": "In 1912, J. F. Gudernatsch fed tadpoles tissue from it, and they became frogs early",
       "k": [
         "gudernatsch",
-        "horses",
+        "tadpoles",
         "1912"
       ],
       "n": 0

@@ -1,0 +1,456 @@
+{
+  "id": "mary-mother-of-jesus",
+  "name": "Mary, mother of Jesus",
+  "mono": "VM",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Mother of Jesus in the Gospels · Honored in Christianity and Islam",
+  "dates": "1st century BCE–1st century CE",
+  "briefing": "In the Gospel of Luke, the angel Gabriel visits a young woman in Nazareth and tells her she will give birth to a son named Jesus, and she answers, “Let it be to me according to your word.” Christians honor Mary as the mother of Jesus, and Catholics and Orthodox Christians call her by titles like “Mother of God” and “Our Lady.” The Quran honors her too: one whole chapter is named Maryam, her Arabic name.",
+  "answerHtml": "<b><u>Mary</u></b> (or the Virgin <u>Mary</u> or <u>Mary</u>, mother of Jesus; accept <u>Maryam</u>, <u>Madonna</u>, or <u>Our Lady</u>; prompt on “mother of Jesus” or “Theotokos”; do not accept “Mary Magdalene”)",
+  "accept": [
+    "mary",
+    "virgin mary",
+    "the virgin mary",
+    "blessed virgin mary",
+    "blessed virgin",
+    "mary mother of jesus",
+    "mary the mother of jesus",
+    "mary mother of god",
+    "mary mother of christ",
+    "mother mary",
+    "saint mary",
+    "st mary",
+    "holy mary",
+    "mary of nazareth",
+    "maryam",
+    "mariam",
+    "madonna",
+    "the madonna",
+    "our lady"
+  ],
+  "prompt": [
+    "mother of jesus",
+    "mother of christ",
+    "jesus mother",
+    "jesuss mother",
+    "mother of god",
+    "theotokos",
+    "the virgin",
+    "blessed mother",
+    "queen of heaven"
+  ],
+  "reject": [
+    "mary magdalene",
+    "magdalene",
+    "mary of magdala",
+    "mary of bethany",
+    "martha",
+    "lazarus",
+    "elizabeth",
+    "anne",
+    "joachim",
+    "joseph",
+    "gabriel",
+    "jibril",
+    "eve",
+    "miriam",
+    "salome",
+    "john the baptist",
+    "hail mary",
+    "mary queen of scots",
+    "mary stuart",
+    "mary tudor",
+    "mary i",
+    "bloody mary",
+    "mary ii",
+    "mary shelley",
+    "mary baker eddy",
+    "mary cassatt",
+    "mary dyer",
+    "mary todd lincoln",
+    "typhoid mary",
+    "mary poppins",
+    "isis"
+  ],
+  "tests": {
+    "right": [
+      "Mary",
+      "Virgin Mary",
+      "Saint Mary",
+      "Maryam",
+      "Maryum",
+      "Our Lady of Guadalupe",
+      "the Madonna"
+    ],
+    "prompt": [
+      "Theotokos",
+      "Mother of God",
+      "the mother of Jesus"
+    ],
+    "wrong": [
+      "Mary Magdalene",
+      "Elizabeth",
+      "Gabriel",
+      "Miriam",
+      "Saint Anne",
+      "Mary, Queen of Scots",
+      "Jesus",
+      "Joseph"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Mary,_mother_of_Jesus",
+  "qb": {
+    "q": "Mary",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "At the Council of Ephesus [“EF-uh-sus”] in 431 CE, church leaders approved calling this woman Theotokos [“thee-oh-TOH-kohs”], or “God-bearer,” rejecting the view of Nestorius [“neh-STOR-ee-us”], who preferred the title “Christ-bearer.” Cyril of Alexandria led the bishops who defended her title.",
+      "r": "Catholic and Orthodox Christians often call her the Mother of God. For 10 points, name this woman whom Christians honor as the mother of Jesus."
+    },
+    {
+      "p": "In the 1854 document _Ineffabilis Deus_ [“in-eh-FAH-bih-lees DAY-oos”], Pope Pius IX declared that this woman had been kept free from original sin from the moment she was conceived in her own mother’s womb. Catholics celebrate that teaching every year on December 8.",
+      "r": "That teaching, the Immaculate Conception, is often confused with the virgin birth of her son. For 10 points, name this mother of Jesus."
+    },
+    {
+      "p": "In 1950, Pope Pius XII declared that at the end of her earthly life, this woman was taken up body and soul into heaven. Eastern Orthodox Christians celebrate a related feast called the Dormition [“dor-MISH-un”], or “falling asleep,” and Titian [“TISH-un”] painted her rising into the sky in a huge altarpiece in Venice.",
+      "r": "Catholics celebrate that event, the Assumption, on August 15. For 10 points, name this mother of Jesus."
+    },
+    {
+      "p": "In December 1531, an Indigenous man named Juan Diego reported seeing this woman on Tepeyac [“teh-peh-YAHK”] Hill near Mexico City. According to the story, when he opened his cloak to show roses to Bishop Juan de Zumárraga [“soo-MAR-rah-gah”], her image appeared on the cloth.",
+      "r": "That image is honored as the Virgin of Guadalupe. For 10 points, name this woman, the mother of Jesus."
+    },
+    {
+      "p": "In 1858, fourteen-year-old Bernadette Soubirous [“soo-bee-ROO”] said that a lady appeared to her eighteen times in a grotto near a town in southern France and told her, “I am the Immaculate Conception.” Millions of pilgrims visit that grotto, where many hope to be healed by water from its spring.",
+      "r": "That town is Lourdes [“LOORD”]. For 10 points, name this mother of Jesus, whom many Catholics believe Bernadette saw."
+    },
+    {
+      "p": "Three shepherd children, Lúcia [“LOO-see-ah”] dos Santos and her cousins Francisco and Jacinta Marto, said this woman appeared to them several times in 1917 near a village in Portugal. Tens of thousands of people gathered there on October 13 of that year, and many reported seeing the “Miracle of the Sun.”",
+      "r": "That village is Fátima [“FAH-tee-mah”]. For 10 points, name this mother of Jesus."
+    },
+    {
+      "p": "At a wedding in Cana [“KAY-nuh”], this woman told her son that the hosts had run out of wine, and then told the servants, “Do whatever he tells you.” Her son then turned water in six stone jars into wine, which the Gospel of John calls the first of his signs.",
+      "r": "For 10 points, name this woman, the mother of Jesus."
+    },
+    {
+      "p": "After her relative Elizabeth greeted her as “blessed among women,” this woman sang a hymn of praise that begins, “My soul magnifies the Lord.” Johann Sebastian Bach and Claudio Monteverdi [“mon-teh-VAIR-dee”] both set that hymn, the Magnificat [“mag-NIF-ih-kaht”], to music.",
+      "r": "Elizabeth was the mother of John the Baptist. For 10 points, name this woman who gave birth to Jesus."
+    },
+    {
+      "p": "Fra Angelico [“an-JEL-ih-koh”] and Leonardo da Vinci both painted an angel visiting this woman in Nazareth, where, according to the Gospel of Luke, she answered, “Let it be to me according to your word.” In older Catholic translations, the angel greets her with “Hail, full of grace,” words that begin a famous prayer.",
+      "r": "Christians celebrate that visit by the angel Gabriel, the Annunciation, on March 25. For 10 points, name this mother of Jesus."
+    },
+    {
+      "p": "One chapter of the Quran, the only one named for a woman, says this woman gave birth beneath a palm tree and was told to shake its trunk so that ripe dates would fall for her. In that chapter, her newborn son speaks from the cradle to defend her when people accuse her of wrongdoing.",
+      "r": "The Quran calls her son Isa. For 10 points, name this woman, the mother of Jesus."
+    },
+    {
+      "p": "The only work Michelangelo ever signed shows this woman with his name carved on a sash across her chest. In that marble sculpture in St. Peter’s Basilica, she sits holding the body of her son across her lap after the Crucifixion.",
+      "r": "That sculpture is the _Pietà_ [“pee-ay-TAH”]. For 10 points, name this woman, the mother of Jesus."
+    },
+    {
+      "p": "A medieval hymn that begins “Stabat Mater” [“STAH-baht MAH-ter”] describes this woman standing in sorrow at the foot of the cross. In the Gospel of John, her dying son tells her, “Woman, behold your son,” and tells his beloved disciple, “Behold your mother.”",
+      "r": "For 10 points, name this woman, who stood by the cross of her son, Jesus."
+    },
+    {
+      "p": "When this woman and her husband presented their baby at the Temple in Jerusalem, an old man named Simeon told her that “a sword will pierce your own soul too.” In the Gospel of Matthew, an angel warns her husband in a dream to take the family to Egypt to escape King Herod.",
+      "r": "Her husband was Joseph, a carpenter. For 10 points, name this mother of Jesus."
+    },
+    {
+      "p": "According to a second-century text called the Protoevangelium [“PROH-toh-ee-van-JEL-ee-um”] of James, this woman’s parents were named Joachim [“JOH-uh-kim”] and Anne. Under the title of her Immaculate Conception, she is honored as the patron saint of the United States, and a huge basilica in Washington, D.C., is dedicated to her.",
+      "r": "For 10 points, name this woman, the wife of Joseph and the mother of Jesus."
+    },
+    {
+      "p": "In 2002, Pope John Paul II added the Luminous Mysteries to a string of prayer beads used to honor this woman, which already had Joyful, Sorrowful, and Glorious Mysteries. On that string, each group of ten beads, called a decade, is used to count prayers that begin with the angel’s greeting to her.",
+      "r": "That string of beads is the rosary. For 10 points, name this woman, the mother of Jesus."
+    }
+  ],
+  "clues": [
+    {
+      "id": "mother-of-jesus",
+      "tier": "giveaway",
+      "t": "Mother of Jesus; the Gospels of Matthew and Luke say she conceived him while still a virgin",
+      "k": [
+        "mother of jesus",
+        "virgin",
+        "gospels"
+      ],
+      "n": 0
+    },
+    {
+      "id": "joseph",
+      "tier": "giveaway",
+      "t": "Wife of Joseph, a carpenter from Nazareth",
+      "k": [
+        "joseph",
+        "carpenter",
+        "nazareth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bethlehem",
+      "tier": "giveaway",
+      "t": "Gave birth to Jesus in Bethlehem and laid him in a manger, because there was no room at the inn",
+      "k": [
+        "bethlehem",
+        "manger",
+        "no room"
+      ],
+      "n": 0
+    },
+    {
+      "id": "annunciation",
+      "tier": "giveaway",
+      "t": "The Annunciation: in Luke, the angel Gabriel tells her she will bear a son named Jesus",
+      "k": [
+        "annunciation",
+        "gabriel"
+      ],
+      "n": 0,
+      "rabbit": "Gabriel (archangel)"
+    },
+    {
+      "id": "immaculate-conception",
+      "tier": "middle",
+      "t": "Immaculate Conception (declared by Pius IX in 1854): she herself was conceived free of original sin; feast on December 8",
+      "k": [
+        "immaculate conception",
+        "1854",
+        "pius ix",
+        "original sin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "assumption",
+      "tier": "middle",
+      "t": "Assumption (declared by Pius XII in 1950): taken body and soul into heaven; feast on August 15 (the Orthodox Dormition)",
+      "k": [
+        "assumption",
+        "1950",
+        "pius xii",
+        "dormition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cana",
+      "tier": "middle",
+      "t": "At the wedding at Cana, she said “Do whatever he tells you,” and Jesus turned water into wine, his first sign in John",
+      "k": [
+        "cana",
+        "water into wine",
+        "wedding"
+      ],
+      "n": 0
+    },
+    {
+      "id": "magnificat",
+      "tier": "middle",
+      "t": "Sang the Magnificat (“My soul magnifies the Lord”) while visiting her relative Elizabeth; Bach and Monteverdi set it to music",
+      "k": [
+        "magnificat",
+        "elizabeth",
+        "visiting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "guadalupe",
+      "tier": "middle",
+      "t": "Virgin of Guadalupe (1531): her image appeared on Juan Diego’s cloak after a vision on Tepeyac Hill near Mexico City",
+      "k": [
+        "guadalupe",
+        "juan diego",
+        "tepeyac",
+        "1531"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lourdes",
+      "tier": "middle",
+      "t": "Lourdes, France (1858): Bernadette Soubirous saw a lady who said, “I am the Immaculate Conception”",
+      "k": [
+        "lourdes",
+        "bernadette",
+        "1858"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fatima",
+      "tier": "middle",
+      "t": "Fátima, Portugal (1917): three shepherd children reported visions; crowds reported the “Miracle of the Sun” on October 13",
+      "k": [
+        "fátima",
+        "shepherd children",
+        "miracle of the sun",
+        "1917"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quran",
+      "tier": "middle",
+      "t": "The only woman named in the Quran; its 19th chapter (surah) bears her Arabic name",
+      "k": [
+        "quran",
+        "19th chapter",
+        "surah"
+      ],
+      "n": 0,
+      "rabbit": "Quran"
+    },
+    {
+      "id": "hail",
+      "tier": "middle",
+      "t": "A famous Catholic prayer, said on rosary beads, begins with the angel’s greeting “Hail, full of grace”",
+      "k": [
+        "rosary",
+        "full of grace",
+        "hail"
+      ],
+      "n": 0
+    },
+    {
+      "id": "theotokos",
+      "tier": "power",
+      "t": "The Council of Ephesus (431) called her Theotokos (“God-bearer”), rejecting Nestorius’s title “Christ-bearer”",
+      "k": [
+        "theotokos",
+        "ephesus",
+        "431",
+        "nestorius"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pieta",
+      "tier": "power",
+      "t": "Michelangelo’s _Pietà_ in St. Peter’s Basilica shows her holding her dead son; it is the only work he signed (on her sash)",
+      "k": [
+        "pietà",
+        "michelangelo",
+        "sash"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stabat-mater",
+      "tier": "power",
+      "t": "The hymn “Stabat Mater” shows her grieving at the cross; in John, Jesus entrusts her to his beloved disciple (“Behold your mother”)",
+      "k": [
+        "stabat mater",
+        "beloved disciple",
+        "behold"
+      ],
+      "n": 0
+    },
+    {
+      "id": "simeon",
+      "tier": "power",
+      "t": "At the Presentation in the Temple, Simeon told her that “a sword will pierce your own soul too”",
+      "k": [
+        "simeon",
+        "sword",
+        "presentation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "egypt",
+      "tier": "power",
+      "t": "In Matthew, an angel warns Joseph in a dream, and the family flees to Egypt to escape King Herod",
+      "k": [
+        "egypt",
+        "herod",
+        "dream"
+      ],
+      "n": 0
+    },
+    {
+      "id": "joachim-anne",
+      "tier": "power",
+      "t": "The second-century Protoevangelium of James names her parents Joachim and Anne",
+      "k": [
+        "joachim",
+        "anne",
+        "protoevangelium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "patron-saint",
+      "tier": "power",
+      "t": "Under the title of the Immaculate Conception, she is the patron saint of the United States; a huge basilica in Washington, D.C., honors her",
+      "k": [
+        "patron saint",
+        "united states",
+        "basilica",
+        "washington"
+      ],
+      "n": 0
+    },
+    {
+      "id": "palm-tree",
+      "tier": "power",
+      "t": "The Quran says she gave birth under a palm tree and shook it for dates; her newborn son spoke from the cradle to defend her",
+      "k": [
+        "palm tree",
+        "dates",
+        "cradle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "titian",
+      "tier": "power",
+      "t": "Titian painted her rising into heaven in a huge altarpiece in Venice",
+      "k": [
+        "titian",
+        "venice",
+        "altarpiece"
+      ],
+      "n": 0
+    },
+    {
+      "id": "annunciation-art",
+      "tier": "power",
+      "t": "Fra Angelico and Leonardo da Vinci painted the Annunciation; in Luke she replies, “Let it be to me according to your word”",
+      "k": [
+        "fra angelico",
+        "leonardo",
+        "let it be"
+      ],
+      "n": 0
+    },
+    {
+      "id": "luminous",
+      "tier": "power",
+      "t": "Rosary prayers are counted in decades; John Paul II added the Luminous Mysteries (2002) to the Joyful, Sorrowful, and Glorious",
+      "k": [
+        "luminous",
+        "decades",
+        "john paul ii",
+        "mysteries"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Mary?",
+    "body": "The New Testament has several Marys. Mary Magdalene, a follower of Jesus, is the first to see him after his Resurrection in the Gospel of John, and Mary of Bethany is the sister of Martha and Lazarus; answering either one loses this tossup. Clues about her family also tempt early buzzes on Elizabeth, her relative; Anne, her mother in tradition; or Gabriel, the angel of the Annunciation.",
+    "fix": "Motherhood clues (the Annunciation, Bethlehem, Cana, the Pietà, the Magnificat) and apparitions such as Guadalupe, Lourdes, and Fátima mean the mother of Jesus. Remember that the Immaculate Conception (1854) is about her own conception without original sin, not about the birth of Jesus.",
+    "line": "Real answer line: <b><u>Mary</u></b> (or the Virgin <u>Mary</u>; accept <u>Maryam</u>; do not accept “Mary Magdalene”)"
+  }
+}

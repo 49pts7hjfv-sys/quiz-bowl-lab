@@ -92,7 +92,7 @@
       "r": "For 10 points, name this hormone, made mainly in the testes, that helps build muscle and bone."
     },
     {
-      "p": "In deer, rising levels of this hormone each fall make antlers harden and shed their velvet, and falling levels in late winter make the antlers drop off. In lions, the hormone helps males grow their manes.",
+      "p": "In deer, rising levels of this hormone in late summer make antlers harden and shed their velvet, and falling levels in winter make the antlers drop off. In lions, the hormone helps males grow their manes.",
       "r": "In humans, it is made mainly in the testes and builds muscle and bone. For 10 points, name this hormone."
     },
     {
@@ -104,7 +104,7 @@
       "r": "Those changes deepen the voice and can cause acne during puberty. For 10 points, name this hormone made mainly in the testes."
     },
     {
-      "p": "This hormone raises the number of red blood cells, partly by boosting the kidneys’ release of erythropoietin [“ih-RITH-roh-POY-ih-tin”]. Because of that effect, men usually have more red blood cells than women. It also increases bone density.",
+      "p": "This hormone raises the number of red blood cells, partly by boosting the kidneys’ release of erythropoietin [“ih-RITH-roh-POY-ih-tin”]. Partly because of that effect, men usually have more red blood cells than women. It also increases bone density.",
       "r": "For 10 points, name this hormone that builds muscle and is made mainly in the testes."
     },
     {
@@ -328,7 +328,7 @@
     {
       "id": "erythropoietin",
       "tier": "power",
-      "t": "It boosts the kidneys’ release of erythropoietin, so men usually have more red blood cells than women",
+      "t": "It boosts the kidneys’ release of erythropoietin, one reason men usually have more red blood cells than women",
       "k": [
         "erythropoietin"
       ],
@@ -400,7 +400,7 @@
     "title": "Which steroid hormone?",
     "body": "Tossups on this hormone mention its close chemical relatives: estradiol, which aromatase makes from it; DHT, a stronger androgen made from it; DHEA from the adrenal glands; and cholesterol, the starting material for every steroid hormone. Buzzing with a relative loses the tossup, and so does naming the organ instead of the hormone.",
     "fix": "Leydig cells, LH, Butenandt and Ružička, C19H28O2, or “the main androgen” mean testosterone. If a clue says a hormone is made from this one (estradiol by aromatase, DHT by 5-alpha reductase), the answer is still the starting hormone. Saying just “androgen” or “steroid” earns a prompt, so be ready to name it.",
-    "line": "Real answer line: <b><u>Testosterone</u></b> (prompt on <u>androgen</u> or <u>steroid</u>; do not accept “estrogen” or “dihydrotestosterone”)"
+    "line": "Real answer line: <b><u>Testosterone</u></b> (prompt on <u>androgen</u> or <u>steroid</u> hormone; do not accept “estrogen,” “estradiol,” or “dihydrotestosterone”)"
   },
   "tests": {
     "right": [

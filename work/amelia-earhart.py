@@ -55,7 +55,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "After crossing the Atlantic as a passenger on the plane _Friendship_ in 1928, this woman joked that she had been carried along “like a sack of potatoes” while Wilmer Stultz did all the flying. She described that trip in her book _20 Hrs. 40 Min._, named for how long the flight took.",
+            "p": "After crossing the Atlantic as a passenger on the plane _Friendship_ in 1928, this woman said she had been “just baggage, like a sack of potatoes,” because Wilmer Stultz did all the flying. She described that trip in her book _20 Hrs. 40 Min._, named for how long the flight took.",
             "r": "Four years later, she made the crossing alone. For 10 points, name this aviator who later vanished over the Pacific Ocean."
         },
         {
@@ -67,8 +67,8 @@ data = {
             "r": "For 10 points, name this aviator who disappeared with navigator Fred Noonan in 1937."
         },
         {
-            "p": "In January 1935, this pilot became the first person to fly solo from Hawaii to the U.S. mainland, landing in Oakland, California. Later that year, she made the first solo nonstop flight from Mexico City to Newark, New Jersey.",
-            "r": "Three years earlier, she had become the first woman to fly solo across the Atlantic. For 10 points, name this aviator nicknamed “Lady Lindy.”"
+            "p": "In May 1935, this pilot made the first solo nonstop flight from Mexico City to Newark, New Jersey. Earlier that year, she had become the first person to fly solo from Hawaii to the U.S. mainland, landing in Oakland, California.",
+            "r": "In 1932, she had become the first woman to fly solo across the Atlantic. For 10 points, name this aviator nicknamed “Lady Lindy.”"
         },
         {
             "p": "With about 7,000 miles left in a trip around the world, this pilot took off from Lae, New Guinea, in a twin-engine Lockheed Electra on July 2, 1937. She was headed for Howland Island, a tiny speck in the Pacific where a runway had been built for her.",
@@ -84,7 +84,7 @@ data = {
         },
         {
             "p": "Purdue University hired this pilot to advise women students about careers, and a fund set up through the university helped buy the plane she called her “Flying Laboratory.” Her first try at an around-the-world flight ended in March 1937, when that plane crashed while taking off in Hawaii.",
-            "r": "On her second try, she vanished near Howland Island. For 10 points, name this aviator."
+            "r": "On her second try, she vanished near Howland Island with her navigator, Fred Noonan. For 10 points, name this aviator."
         },
         {
             "p": "This woman was working as a social worker at Denison House, a settlement house in Boston, when she was invited to join a 1928 flight across the Atlantic. The publisher George Putnam helped choose her for that trip, and the two married in 1931.",

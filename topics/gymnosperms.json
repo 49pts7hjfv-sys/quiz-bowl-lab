@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "“Naked seed” plants · Conifers, cycads, ginkgos, and gnetophytes",
   "dates": "First appeared more than 300 million years ago",
-  "briefing": "Gymnosperms are seed plants whose seeds sit out in the open, usually on the scales of a cone, instead of being wrapped inside a fruit; their name means “naked seed” in Greek. The group includes pines, spruces, and other conifers, plus palm-like cycads, the fan-leaved ginkgo, and unusual gnetophytes such as the two-leaved desert plant _Welwitschia_. They ruled forests in the age of the dinosaurs, and the tallest known tree and the biggest single tree are both conifers.",
+  "briefing": "Gymnosperms are seed plants whose seeds sit out in the open, usually on the scales of a cone, instead of being wrapped inside a fruit; their name means “naked seed” in Greek. The group includes pines, spruces, and other conifers, plus palm-like cycads, the fan-leaved ginkgo, and unusual gnetophytes such as the two-leaved desert plant _Welwitschia_. They ruled forests in the age of the dinosaurs, and the tallest known living tree and the biggest known single tree are both conifers.",
   "answerHtml": "<b><u>Gymnosperms</u></b> (accept <u>gymnosperm</u> or <u>Gymnospermae</u>; prompt on <u>seed plants</u>; do not accept “conifers” or “angiosperms”)",
   "accept": [
     "gymnosperms",
@@ -92,7 +92,7 @@
       "r": "For 10 points, name this group of “naked seed” plants that includes pines, firs, and spruces."
     },
     {
-      "p": "A coast redwood named Hyperion, the tallest known living tree, belongs to this group, as does a Great Basin bristlecone pine called Methuselah, one of the oldest known living trees. So does General Sherman, a giant sequoia in California that is the biggest known single tree by volume.",
+      "p": "A coast redwood named Hyperion, the tallest known living tree, belongs to this group, as does a Great Basin bristlecone pine called Methuselah, one of the oldest known living trees. So does General Sherman, a giant sequoia in California that is the biggest known living single tree by volume.",
       "r": "For 10 points, name this group of seed plants, including conifers, whose seeds are not enclosed in an ovary."
     },
     {
@@ -108,7 +108,7 @@
       "r": "Members of this group dominate the taiga across Canada and Russia. For 10 points, name this group of seed plants, which includes pines, spruces, and firs."
     },
     {
-      "p": "The wood of most members of this group, called softwood, is made almost entirely of water-carrying tracheids [“TRAY-kee-idz”] rather than the wide vessels of hardwoods. Their phloem uses sieve cells helped by Strasburger [“SHTRAHS-boor-ger”] cells instead of companion cells.",
+      "p": "The wood of most members of this group, called softwood, is made almost entirely of water-carrying tracheids [“TRAY-kee-idz”] rather than the wide vessels of hardwoods. Conifer phloem uses sieve cells helped by Strasburger [“SHTRAHS-boor-ger”] cells instead of companion cells.",
       "r": "Pine resin from this group can be made into turpentine. For 10 points, name this group of plants whose seeds develop on the scales of cones."
     },
     {
@@ -352,7 +352,7 @@
     {
       "id": "record-trees",
       "tier": "power",
-      "t": "Record trees: Hyperion, a coast redwood (tallest known); General Sherman, a giant sequoia (biggest by volume); Methuselah, a bristlecone pine (among the oldest)",
+      "t": "Record trees: Hyperion, a coast redwood (tallest known); General Sherman, a giant sequoia (biggest living single tree by volume); Methuselah, a bristlecone pine (among the oldest)",
       "k": [
         "hyperion",
         "general sherman",
@@ -399,7 +399,7 @@
     {
       "id": "strasburger-cells",
       "tier": "power",
-      "t": "Their phloem uses sieve cells helped by Strasburger cells instead of companion cells",
+      "t": "Conifer phloem uses sieve cells helped by Strasburger cells instead of companion cells",
       "k": [
         "strasburger",
         "sieve cells"
@@ -423,7 +423,7 @@
     "title": "Not just conifers",
     "body": "Most tossups on this group mention pines, spruces, and cones, so players blurt “conifers.” But conifers are only one of four living divisions: cycads, the ginkgo, and gnetophytes like _Welwitschia_ belong to this group too, so the narrower answer is wrong when the question asks for the whole group. The opposite trap is “angiosperms,” the flowering plants that enclose their seeds in fruit.",
     "fix": "“This group of seed plants,” “naked seeds,” or a mix of cycads, ginkgos, and pines means gymnosperms. Say conifers only for “these cone-bearing trees” when every clue stays on pines and their relatives. Fruit, flowers, or double fertilization mean angiosperms.",
-    "line": "Real answer line: <b><u>Gymnosperms</u></b> (accept <u>Gymnospermae</u>; prompt on <u>seed plants</u>; do not accept “conifers” or “angiosperms”)"
+    "line": "Real answer line: <b><u>Gymnosperms</u></b> (accept <u>gymnosperm</u> or <u>Gymnospermae</u>; prompt on <u>seed plants</u>; do not accept “conifers” or “angiosperms”)"
   },
   "tests": {
     "right": [

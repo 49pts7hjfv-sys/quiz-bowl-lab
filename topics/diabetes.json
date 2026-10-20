@@ -69,7 +69,7 @@
   },
   "tossups": [
     {
-      "p": "In 1675, English doctor Thomas Willis added a Latin word meaning “honey-sweet” to this disease’s name, because the urine of people with it was sweet with sugar. The Greek-based first word of that name means “to pass through,” because people with it urinate often.",
+      "p": "In the 1670s, English doctor Thomas Willis noted that the urine of people with this disease was sweet, and a Latin word meaning “honey-sweet” became part of the disease’s full name. The Greek-based first word of that name means “to pass through,” because people with it urinate often.",
       "r": "People with this disease check their blood sugar and may take insulin. For 10 points, name this disease in which blood sugar runs too high."
     },
     {
@@ -283,10 +283,10 @@
     {
       "id": "willis",
       "tier": "power",
-      "t": "English doctor Thomas Willis added the Latin “honey-sweet” part of its name in 1675",
+      "t": "English doctor Thomas Willis noted in the 1670s that patients’ urine was sweet; a Latin word meaning “honey-sweet” became part of its full name",
       "k": [
         "thomas willis",
-        "1675"
+        "1670s"
       ],
       "n": 0
     },
@@ -412,7 +412,7 @@
     "title": "Mellitus or insipidus?",
     "body": "Two different conditions share the word “diabetes,” from the Greek for “to pass through,” because both make people urinate a lot. Diabetes mellitus (“honey-sweet”) is about blood sugar and insulin. Diabetes insipidus (“tasteless”) is a rare water-balance problem involving the hormone ADH, and a question about the sugar disease won’t accept it. Others buzz with “insulin” or “pancreas,” the hormone or the organ, instead of the disease.",
     "fix": "Insulin, beta cells, glucose, the A1C test, or Banting and Best mean diabetes mellitus (plain “diabetes” is fine). ADH, vasopressin, or urine with no sugar mean diabetes insipidus. If the question asks for “this hormone” or “this organ,” answer insulin or pancreas instead.",
-    "line": "Real answer line: <b><u>Diabetes</u></b> mellitus (accept <u>type 1</u> or <u>type 2 diabetes</u>; do not accept “diabetes insipidus”)"
+    "line": "Real answer line: <b><u>Diabetes</u></b> mellitus (accept <u>type 1</u> or <u>type 2 diabetes</u>; prompt on <u>hyperglycemia</u> or <u>high blood sugar</u>; do not accept “diabetes insipidus”)"
   },
   "tests": {
     "right": [

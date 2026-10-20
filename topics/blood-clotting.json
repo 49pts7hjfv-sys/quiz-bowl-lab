@@ -135,7 +135,7 @@
       "r": "For 10 points, name this process that turns liquid blood into a gel at a wound."
     },
     {
-      "p": "Factor V Leiden [“LY-den”], an inherited gene variant that is especially common in people of European ancestry, makes this process harder to switch off. When this process happens inside a vein where it shouldn’t, doctors call it thrombosis.",
+      "p": "Factor V Leiden [“LY-den”], an inherited gene variant that is especially common in people of European ancestry, makes this process harder to switch off. When this process happens inside a blood vessel where it shouldn’t, doctors call it thrombosis.",
       "r": "For 10 points, name this process, which needs platelets and fibrin, that normally stops bleeding."
     }
   ],
@@ -280,7 +280,7 @@
     {
       "id": "hemophilia-types",
       "tier": "middle",
-      "t": "Hemophilia A means missing factor VIII; hemophilia B means missing factor IX",
+      "t": "Hemophilia A means too little factor VIII; hemophilia B means too little factor IX",
       "k": [
         "factor viii",
         "factor ix",
@@ -423,7 +423,7 @@
     {
       "id": "factor-v-leiden",
       "tier": "power",
-      "t": "Factor V Leiden, an inherited variant common in people of European ancestry, makes it harder to switch off; when it happens inside a vein where it shouldn’t, that is thrombosis",
+      "t": "Factor V Leiden, an inherited variant common in people of European ancestry, makes it harder to switch off; when it happens inside a blood vessel by mistake, that is thrombosis",
       "k": [
         "factor v leiden",
         "thrombosis",
@@ -436,7 +436,7 @@
     "title": "Clotting or clumping?",
     "body": "When mismatched blood types are mixed, red cells stick together, but that is agglutination, an antibody reaction, not this process. Players also name a single part of the process, such as platelets, fibrin, or thrombin, or the disorder hemophilia, instead of the process itself.",
     "fix": "If the question asks for “this process” that seals wounds or runs as a cascade of numbered factors, say blood clotting or coagulation. Mismatched transfusions and anti-A or anti-B antibodies mean agglutination. Give a part only when the question asks for “these cell fragments,” “this protein,” or “this enzyme.”",
-    "line": "Real answer line: <b><u>Coagulation</u></b> (accept blood <u>clotting</u>; prompt on <u>hemostasis</u>; do not accept “agglutination”)"
+    "line": "Real answer line: Blood <b><u>clotting</u></b> (accept <u>coagulation</u>; prompt on <u>hemostasis</u> or <u>blood clots</u>; do not accept “agglutination”)"
   },
   "tests": {
     "right": [

@@ -1,0 +1,348 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "barack-obama",
+    "name": "Barack Obama",
+    "mono": "BHO",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "44th U.S. President · First African American president",
+    "dates": "Born 1961; president 2009–2017",
+    "briefing": "Barack Obama was born in Hawaii, spent part of his childhood in Indonesia, and worked as a community organizer in Chicago before becoming a lawyer and politician. A speech at the 2004 Democratic National Convention made him known across the country, and four years later he was elected the 44th president, the first African American to hold the office. He served two terms, from 2009 to 2017, and signed the Affordable Care Act, the health-care law often called “Obamacare.”",
+    "answerHtml": "Barack <b><u>Obama</u></b> (accept Barack Hussein <b><u>Obama</u></b> II; prompt on <u>Barack</u>)",
+    "accept": [
+        "barack obama",
+        "obama",
+        "barack hussein obama",
+        "barack hussein obama ii",
+        "barack obama ii",
+        "barack h obama",
+        "president obama"
+    ],
+    "prompt": [
+        "barack"
+    ],
+    "reject": [
+        "michelle obama",
+        "michelle",
+        "michelle robinson",
+        "malia obama",
+        "sasha obama",
+        "barack obama sr",
+        "barack obama senior",
+        "obama sr",
+        "obamacare",
+        "affordable care act",
+        "osama",
+        "osama bin laden",
+        "bin laden",
+        "joe biden",
+        "biden",
+        "hillary clinton",
+        "bill clinton",
+        "john mccain",
+        "mitt romney"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Barack_Obama",
+    "qb": {
+        "q": "Obama",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This man became the first Black president of the _Harvard Law Review_ in 1990, and he later taught constitutional law at the University of Chicago. Before law school, he worked as a community organizer on Chicago’s South Side.",
+            "r": "In 2008, he was elected president with Joe Biden as his running mate. For 10 points, name this 44th U.S. president."
+        },
+        {
+            "p": "While running for the U.S. Senate, this politician gave the keynote address at the 2004 Democratic National Convention, saying there is not “a liberal America and a conservative America” but “the United States of America.” He won that Senate race in Illinois against Alan Keyes.",
+            "r": "Four years later, he won the presidency. For 10 points, name this first African American president."
+        },
+        {
+            "p": "This author’s first memoir, _Dreams from My Father_, describes his search for identity as the son of a white mother from Kansas and a Black father from Kenya. Its audiobook won him a Grammy Award, as did the audiobook of his later book _The Audacity of Hope_.",
+            "r": "For 10 points, name this Illinois senator who became the 44th president of the United States."
+        },
+        {
+            "p": "The first bill this president signed was the Lilly Ledbetter Fair Pay Act, which gave workers more time to sue over unequal pay. Weeks later, he signed the American Recovery and Reinvestment Act, a package of government spending and tax cuts passed during the Great Recession.",
+            "r": "For 10 points, name this president who took office in January 2009."
+        },
+        {
+            "p": "In _NFIB v. Sebelius_ [“suh-BEE-lee-us”], Chief Justice John Roberts wrote that a requirement for most Americans to have health insurance, part of a law this president signed, was allowed under Congress’s power to tax. That 2010 law also let young adults stay on a parent’s insurance plan until age 26.",
+            "r": "That law was the Affordable Care Act. For 10 points, name this president who signed it."
+        },
+        {
+            "p": "This president named Sonia Sotomayor, the first Hispanic justice, and Elena Kagan to the Supreme Court. In 2016, he nominated Merrick Garland to fill the seat of Antonin Scalia, but the Senate never held a vote on that nomination.",
+            "r": "For 10 points, name this president whose vice president was Joe Biden."
+        },
+        {
+            "p": "In 2016, this president became the first sitting president since Calvin Coolidge to visit Cuba, after his administration restored diplomatic relations with that country. His administration also negotiated the 2015 Iran nuclear deal, which limited Iran’s nuclear program in exchange for easing economic sanctions.",
+            "r": "For 10 points, name this president from Illinois who served from 2009 to 2017."
+        },
+        {
+            "p": "In a 2009 speech at West Point, this president announced that he would send about 30,000 more U.S. troops to Afghanistan. The next year, he announced the end of the U.S. combat mission in Iraq.",
+            "r": "In 2011, he ordered the raid in Pakistan in which Navy SEALs killed Osama bin Laden. For 10 points, name this 44th president."
+        },
+        {
+            "p": "This man spent four years of his childhood in Indonesia before returning to Honolulu, where he lived with his grandparents and graduated from the Punahou [“POO-nuh-hoh”] School. He later transferred from Occidental College to Columbia University.",
+            "r": "He was born in Hawaii in 1961. For 10 points, name this 44th president of the United States."
+        },
+        {
+            "p": "In 2012, this president announced a policy called Deferred Action for Childhood Arrivals, or DACA, which let some immigrants who had been brought to the U.S. as children without legal permission apply for protection from deportation and for work permits.",
+            "r": "Months later, he defeated Mitt Romney to win a second term. For 10 points, name this 44th president."
+        },
+        {
+            "p": "Less than a year into his first term, this president was awarded the 2009 Nobel Peace Prize for his efforts to strengthen international diplomacy. In his acceptance speech in Oslo, he discussed when war can be justified, because the United States was fighting two wars at the time.",
+            "r": "He was the fourth U.S. president to win that prize. For 10 points, name this 44th president."
+        },
+        {
+            "p": "In 2010, this president signed the Dodd-Frank Act, which created the Consumer Financial Protection Bureau, and in 2015 he signed the Every Student Succeeds Act, which replaced No Child Left Behind. In 2016, he formally entered the United States into the Paris Agreement on climate change.",
+            "r": "For 10 points, name this president who served two terms with Vice President Joe Biden."
+        },
+        {
+            "p": "During a long primary race against Hillary Clinton, this candidate gave a speech on race in Philadelphia titled “A More Perfect Union.” His 2008 campaign used the slogan “Yes We Can,” and the artist Shepard Fairey made a red, beige, and blue poster of him labeled “Hope.”",
+            "r": "For 10 points, name this Illinois senator who defeated John McCain in 2008."
+        },
+        {
+            "p": "This man met his future wife at the Chicago law firm Sidley Austin, where she was assigned to be his adviser during his summer job there in 1989. Before winning a seat in the U.S. Senate, he served in the Illinois State Senate from 1997 to 2004.",
+            "r": "His wife, Michelle, became First Lady in 2009. For 10 points, name this president."
+        },
+        {
+            "p": "In 2000, this politician lost a Democratic primary for a U.S. House seat to Representative Bobby Rush. As president, he signed the New START treaty with Russia, which limited the number of long-range nuclear warheads each country could deploy.",
+            "r": "For 10 points, name this president whose two terms ran from 2009 to 2017."
+        }
+    ],
+    "clues": [
+        {
+            "id": "forty-fourth",
+            "tier": "giveaway",
+            "t": "44th President of the United States (2009–2017) and the first African American president",
+            "k": ["44th president", "first african american", "2009"],
+            "n": 0
+        },
+        {
+            "id": "illinois",
+            "tier": "giveaway",
+            "t": "Represented Illinois in the U.S. Senate (2005–2008) before becoming president",
+            "k": ["illinois", "senate"],
+            "n": 0
+        },
+        {
+            "id": "biden",
+            "tier": "giveaway",
+            "t": "His vice president for both terms was Joe Biden",
+            "k": ["joe biden", "biden", "vice president"],
+            "n": 0
+        },
+        {
+            "id": "elections",
+            "tier": "giveaway",
+            "t": "Defeated John McCain in 2008 and Mitt Romney in 2012",
+            "k": ["john mccain", "mccain", "mitt romney", "romney"],
+            "n": 0,
+            "rabbit": "John McCain"
+        },
+        {
+            "id": "aca",
+            "tier": "giveaway",
+            "t": "Signed the Affordable Care Act (2010), the health-care law nicknamed after him",
+            "k": ["affordable care act", "health-care", "2010"],
+            "n": 0,
+            "rabbit": "Affordable Care Act"
+        },
+        {
+            "id": "hawaii",
+            "tier": "middle",
+            "t": "Born in Honolulu, Hawaii (1961); lived in Indonesia for four years as a boy",
+            "k": ["hawaii", "honolulu", "indonesia"],
+            "n": 0
+        },
+        {
+            "id": "family",
+            "tier": "middle",
+            "t": "Wife: Michelle, whom he met at a Chicago law firm; daughters: Malia and Sasha",
+            "k": ["michelle", "malia", "sasha"],
+            "n": 0
+        },
+        {
+            "id": "keynote",
+            "tier": "middle",
+            "t": "His keynote speech at the 2004 Democratic National Convention made him known nationwide",
+            "k": ["keynote", "2004", "democratic national convention"],
+            "n": 0
+        },
+        {
+            "id": "bin-laden",
+            "tier": "middle",
+            "t": "Ordered the 2011 raid in Pakistan in which Navy SEALs killed Osama bin Laden",
+            "k": ["bin laden", "pakistan", "navy seals"],
+            "n": 0
+        },
+        {
+            "id": "nobel",
+            "tier": "middle",
+            "t": "Won the 2009 Nobel Peace Prize in his first year as president",
+            "k": ["nobel peace prize", "nobel"],
+            "n": 0
+        },
+        {
+            "id": "organizer",
+            "tier": "middle",
+            "t": "Worked as a community organizer on Chicago’s South Side in the 1980s",
+            "k": ["community organizer", "south side", "chicago"],
+            "n": 0
+        },
+        {
+            "id": "yes-we-can",
+            "tier": "middle",
+            "t": "2008 campaign slogan: “Yes We Can”; Shepard Fairey’s “Hope” poster",
+            "k": ["yes we can", "shepard fairey", "hope"],
+            "n": 0
+        },
+        {
+            "id": "memoirs",
+            "tier": "middle",
+            "t": "Wrote _Dreams from My Father_ and _The Audacity of Hope_ (both audiobooks won Grammys) and later _A Promised Land_",
+            "k": ["dreams from my father", "audacity of hope", "promised land", "grammys"],
+            "n": 0
+        },
+        {
+            "id": "law-review",
+            "tier": "power",
+            "t": "First Black president of the _Harvard Law Review_ (1990); later taught constitutional law at the University of Chicago",
+            "k": ["harvard law review", "constitutional law", "university of chicago"],
+            "n": 0
+        },
+        {
+            "id": "ledbetter",
+            "tier": "power",
+            "t": "The first bill he signed was the Lilly Ledbetter Fair Pay Act (2009)",
+            "k": ["lilly ledbetter", "ledbetter", "fair pay"],
+            "n": 0
+        },
+        {
+            "id": "recovery-act",
+            "tier": "power",
+            "t": "Signed the American Recovery and Reinvestment Act (2009), a stimulus passed during the Great Recession",
+            "k": ["recovery and reinvestment", "stimulus", "great recession"],
+            "n": 0
+        },
+        {
+            "id": "sebelius",
+            "tier": "power",
+            "t": "_NFIB v. Sebelius_ (2012): Chief Justice John Roberts upheld the health law’s insurance requirement under the power to tax",
+            "k": ["sebelius", "john roberts", "power to tax"],
+            "n": 0
+        },
+        {
+            "id": "justices",
+            "tier": "power",
+            "t": "Appointed Sonia Sotomayor (the first Hispanic justice) and Elena Kagan; the Senate held no vote on Merrick Garland (2016)",
+            "k": ["sotomayor", "kagan", "merrick garland", "garland"],
+            "n": 0
+        },
+        {
+            "id": "cuba",
+            "tier": "power",
+            "t": "Restored diplomatic relations with Cuba; in 2016 became the first sitting president to visit since Calvin Coolidge",
+            "k": ["cuba", "havana", "coolidge"],
+            "n": 0
+        },
+        {
+            "id": "treaties",
+            "tier": "power",
+            "t": "Signed the New START nuclear treaty with Russia (2010); his administration negotiated the 2015 Iran nuclear deal",
+            "k": ["new start", "iran", "nuclear deal", "russia"],
+            "n": 0
+        },
+        {
+            "id": "daca",
+            "tier": "power",
+            "t": "DACA (2012): protection from deportation for some immigrants brought to the U.S. as children",
+            "k": ["daca", "deferred action", "deportation"],
+            "n": 0
+        },
+        {
+            "id": "dodd-frank",
+            "tier": "power",
+            "t": "Signed the Dodd-Frank Act (2010), which created the Consumer Financial Protection Bureau",
+            "k": ["dodd-frank", "consumer financial protection bureau"],
+            "n": 0
+        },
+        {
+            "id": "punahou",
+            "tier": "power",
+            "t": "Graduated from Honolulu’s Punahou School; went to Occidental College, then Columbia University",
+            "k": ["punahou", "occidental", "columbia"],
+            "n": 0
+        },
+        {
+            "id": "perfect-union",
+            "tier": "power",
+            "t": "Gave the “A More Perfect Union” speech on race in Philadelphia (2008)",
+            "k": ["more perfect union", "philadelphia"],
+            "n": 0
+        },
+        {
+            "id": "paris-essa",
+            "tier": "power",
+            "t": "Joined the Paris Agreement on climate change (2016); signed the Every Student Succeeds Act (2015)",
+            "k": ["paris agreement", "every student succeeds", "climate"],
+            "n": 0
+        },
+        {
+            "id": "state-senate",
+            "tier": "power",
+            "t": "Illinois State Senate (1997–2004); lost a 2000 primary for the U.S. House to Bobby Rush",
+            "k": ["state senate", "bobby rush"],
+            "n": 0
+        },
+        {
+            "id": "wars",
+            "tier": "power",
+            "t": "Sent about 30,000 more troops to Afghanistan (2009); ended the U.S. combat mission in Iraq (2010)",
+            "k": ["afghanistan", "30,000", "iraq"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "President, law, or running mate?",
+        "body": "Many of his clues also turn up in tossups that want something else. A question about “this law,” with clues like _NFIB v. Sebelius_, the requirement to have health insurance, or staying on a parent’s plan until 26, wants the Affordable Care Act. Joe Biden was his vice president for both terms and was elected president himself in 2020, so clues about the 2008 and 2012 tickets fit both men.",
+        "fix": "Listen for the noun: “this law” wants the Affordable Care Act, and “this president” wants Obama. Biden clues: Delaware, a long Senate career, and the 2020 election. Obama clues: Hawaii, Illinois, the _Harvard Law Review_, and the 2004 convention keynote.",
+        "line": "Real answer line: Barack <b><u>Obama</u></b> (accept Barack Hussein <b><u>Obama</u></b> II)"
+    },
+    "tests": {
+        "right": [
+            "Barack Obama",
+            "Obama",
+            "Barack Hussein Obama II",
+            "Barak Obama",
+            "President Obama",
+            "Obamma"
+        ],
+        "prompt": [
+            "Barack"
+        ],
+        "wrong": [
+            "Michelle Obama",
+            "Joe Biden",
+            "Osama",
+            "Bill Clinton",
+            "Barack Obama Sr.",
+            "Obamacare"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

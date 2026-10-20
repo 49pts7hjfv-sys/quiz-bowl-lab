@@ -71,7 +71,7 @@
       "r": "Each kind fits one antigen like a key in a lock. For 10 points, name these Y-shaped proteins made by B cells."
     },
     {
-      "p": "In 1975, Georges Köhler and César Milstein fused B cells with cancer cells to create hybridomas, cell lines that pump out endless identical copies of one of these molecules. Medicines made by that method have names ending in “-mab.” Köhler and Milstein shared the 1984 Nobel Prize with Niels Jerne.",
+      "p": "In 1975, Georges Köhler and César Milstein fused B cells with cancer cells to create hybridomas, cell lines that pump out endless identical copies of one of these molecules. Medicines built from such identical copies have names ending in “-mab.” Köhler and Milstein shared the 1984 Nobel Prize with Niels Jerne.",
       "r": "For 10 points, name these Y-shaped proteins of the immune system, which B cells make to bind antigens."
     },
     {
@@ -99,7 +99,7 @@
       "r": "For 10 points, name these Y-shaped proteins, made by plasma cells, that each recognize one specific antigen."
     },
     {
-      "p": "Camels and llamas make unusually small versions of these molecules that have no light chains, and scientists trim those versions into even smaller “nanobodies.” Sharks also make a version of these molecules built only from heavy chains.",
+      "p": "The branch of the immune system that depends on these molecules is called humoral immunity, from an old word for the body’s fluids. When these molecules coat a bacterium, they can switch on the complement system, a group of blood proteins that can punch holes in the germ’s membrane.",
       "r": "Human versions have two heavy and two light chains in a Y shape. For 10 points, name these immune proteins that bind antigens."
     },
     {
@@ -107,7 +107,7 @@
       "r": "Normally, B cells make them to fight germs. For 10 points, name these Y-shaped proteins that bind to antigens."
     },
     {
-      "p": "To make antivenom, scientists inject horses or sheep with small doses of snake venom and later collect these molecules from the animals’ blood. Giving a patient these molecules ready-made is called passive immunity, because the patient’s own body did not make them.",
+      "p": "To make antivenom, scientists often inject horses or sheep with small doses of snake venom and later collect these molecules from the animals’ blood. Giving a patient these molecules ready-made is called passive immunity, because the patient’s own body did not make them.",
       "r": "Vaccines, by contrast, train the body to make its own. For 10 points, name these proteins that plasma cells release to bind antigens."
     },
     {
@@ -346,7 +346,7 @@
     {
       "id": "ehrlich",
       "tier": "power",
-      "t": "Paul Ehrlich’s “side-chain theory” explained how cells make them; he shared the 1908 Nobel Prize with Élie Metchnikoff",
+      "t": "Paul Ehrlich’s “side-chain theory” tried to explain how cells make them; he shared the 1908 Nobel Prize with Élie Metchnikoff",
       "k": [
         "ehrlich",
         "side-chain theory",
@@ -366,13 +366,13 @@
       "n": 0
     },
     {
-      "id": "camels-llamas",
+      "id": "humoral-complement",
       "tier": "power",
-      "t": "Camels, llamas, and sharks make kinds with no light chains; tiny pieces of the camel kind are called nanobodies",
+      "t": "Their branch of defense is called humoral immunity, from an old word for body fluids; they can also switch on complement proteins that punch holes in germs",
       "k": [
-        "nanobodies",
-        "llamas",
-        "sharks"
+        "humoral immunity",
+        "complement",
+        "body fluids"
       ],
       "n": 0
     },
@@ -401,7 +401,7 @@
     {
       "id": "antivenom",
       "tier": "power",
-      "t": "Antivenom is made by giving horses or sheep small doses of venom and collecting these proteins from their blood",
+      "t": "Antivenom is often made by giving horses or sheep small doses of venom and collecting these proteins from their blood",
       "k": [
         "antivenom",
         "horses",
@@ -415,7 +415,7 @@
     "title": "Antibody or antigen?",
     "body": "The two words sound alike and show up in the same sentences. An antigen is the marker on a germ, a pollen grain, or a red blood cell that gets recognized; an antibody is the Y-shaped protein the body makes to grab it. Players also blurt “B cells,” the cells that make antibodies, or “antibiotics,” the germ-killing medicines.",
     "fix": "If the question asks for “these proteins” or “these Y-shaped molecules,” or mentions heavy and light chains, say antibodies (or immunoglobulins). Say antigen only for “this substance” that the immune system recognizes, and B cells only for “these cells” that make them.",
-    "line": "Real answer line: <b><u>Antibodies</u></b> (accept <u>antibody</u> or <u>immunoglobulins</u>; do not accept “antigens”)"
+    "line": "Real answer line: <b><u>Antibodies</u></b> (accept <u>antibody</u> or <u>immunoglobulins</u>; do not accept “antigens” or “antibiotics”)"
   },
   "tests": {
     "right": [

@@ -21,7 +21,11 @@
   "prompt": [
     "adrenal cortex",
     "adrenal medulla",
-    "adrenal cortices"
+    "adrenal cortices",
+    "adrenal medullae",
+    "adrenal medullas",
+    "the adrenal cortex",
+    "the adrenal medulla"
   ],
   "reject": [
     "kidney",
@@ -102,7 +106,7 @@
       "r": "Those cells then release epinephrine. For 10 points, name these glands located on top of the kidneys."
     },
     {
-      "p": "The right one of these glands is shaped like a pyramid, while the left one is shaped more like a crescent. Each is wrapped in fat and fed by three separate arteries.",
+      "p": "The right one of these glands is shaped like a pyramid, while the left one is shaped more like a crescent. Each is wrapped in fat, and their name comes from Latin words meaning “near the kidneys.”",
       "r": "For 10 points, name these glands, which sit on the kidneys, whose medulla makes adrenaline and whose cortex makes cortisol."
     },
     {
@@ -305,7 +309,7 @@
     {
       "id": "eustachi",
       "tier": "power",
-      "t": "Bartolomeo Eustachi, namesake of the ear’s eustachian tube, first described them in the 1500s",
+      "t": "Bartolomeo Eustachi, namesake of the ear’s Eustachian tube, first described them in the 1500s",
       "k": [
         "eustachi",
         "eustachian",
@@ -358,11 +362,10 @@
     {
       "id": "shapes",
       "tier": "power",
-      "t": "The right one is shaped like a pyramid and the left like a crescent; each is fed by three arteries",
+      "t": "The right one is shaped like a pyramid and the left one like a crescent",
       "k": [
         "pyramid",
-        "crescent",
-        "three arteries"
+        "crescent"
       ],
       "n": 0
     },
@@ -414,7 +417,7 @@
     "title": "Gland, not hormone",
     "body": "Tossups on these glands are packed with their hormones (epinephrine, norepinephrine, cortisol, and aldosterone), and players buzz with a hormone instead of the gland. Others answer “kidneys,” the organs underneath them, or name just one layer, the cortex or the medulla.",
     "fix": "If the question asks for “these glands” or “these organs,” say adrenal glands. Name a hormone only for “this hormone” or “this compound.” The kidneys filter blood and make urine; the glands on top of them make hormones.",
-    "line": "Real answer line: <b><u>Adrenal</u></b> glands (accept <u>suprarenal</u> glands; prompt on <u>adrenal cortex</u> or <u>adrenal medulla</u>; do not accept “kidneys” or “adrenaline”)"
+    "line": "Real answer line: <b><u>Adrenal</u></b> glands (accept <u>adrenals</u> or <u>suprarenal</u> glands; prompt on <u>adrenal cortex</u> or <u>adrenal medulla</u>; do not accept “kidneys” or “adrenaline”)"
   },
   "tests": {
     "right": [
@@ -422,11 +425,13 @@
       "adrenal gland",
       "Adrenals",
       "Adrenal glads",
-      "Suprarenal glands"
+      "Suprarenal glands",
+      "Adrenal"
     ],
     "prompt": [
       "Adrenal cortex",
-      "Adrenal medulla"
+      "Adrenal medulla",
+      "the adrenal medulla"
     ],
     "wrong": [
       "Kidneys",

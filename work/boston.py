@@ -1,0 +1,334 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "boston",
+    "name": "Boston",
+    "mono": "BOS",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Capital of Massachusetts · Cradle of the American Revolution",
+    "dates": "Founded 1630",
+    "briefing": "Boston was founded in 1630 by Puritans led by John Winthrop, who hoped their colony would be “a city upon a hill” for the whole world to watch. More than a century later, its streets and harbor saw the Boston Massacre, the Boston Tea Party, and the start of Paul Revere’s midnight ride. Visitors can walk the 2.5-mile Freedom Trail past its historic sites, and the city claims American firsts like the oldest public park and the first subway.",
+    "answerHtml": "<b><u>Boston</u></b>, Massachusetts",
+    "accept": [
+        "boston",
+        "boston massachusetts",
+        "boston mass",
+        "boston ma",
+        "city of boston",
+        "city of boston massachusetts",
+        "boston massachusetts usa"
+    ],
+    "prompt": [],
+    "reject": [
+        "boston massacre",
+        "boston tea party",
+        "siege of boston",
+        "boston harbor",
+        "boston common",
+        "boston marathon",
+        "boston latin school",
+        "massachusetts",
+        "massachusetts bay colony",
+        "cambridge",
+        "salem",
+        "plymouth",
+        "philadelphia"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Boston",
+    "qb": {
+        "q": "Boston",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This city was named for a port town in Lincolnshire, England, where the Puritan minister John Cotton preached before he sailed to New England in 1633. Its settlers first called its hilly peninsula Trimountaine, and the Native name for that peninsula was Shawmut.",
+            "r": "For 10 points, name this city founded by John Winthrop’s Puritans in 1630, the capital of Massachusetts."
+        },
+        {
+            "p": "William Blaxton, an English clergyman who already lived alone on this city’s peninsula, invited a group of Puritans to move there from Charlestown because it had fresh springs of water. The leader of those Puritans had preached that their colony would be “as a city upon a hill.”",
+            "r": "That leader was John Winthrop. For 10 points, name this city founded in 1630, which became the capital of Massachusetts."
+        },
+        {
+            "p": "During a 1721 smallpox epidemic in this city, Cotton Mather urged people to try inoculation, a practice he had learned about from an enslaved African man named Onesimus. Doctor Zabdiel Boylston then inoculated his own young son and more than two hundred other people.",
+            "r": "For 10 points, name this New England city, where Puritans led by John Winthrop had settled in 1630."
+        },
+        {
+            "p": "In 1846, William Morton gave the first public demonstration of ether as a surgical anesthetic in an operating room in this city, later nicknamed the Ether Dome. Thirty years later, Alexander Graham Bell made the first telephone call here, calling out to his assistant, Thomas Watson.",
+            "r": "Both happened in the city where Paul Revere began his midnight ride. For 10 points, name this capital of Massachusetts."
+        },
+        {
+            "p": "Governor Calvin Coolidge became nationally famous in 1919 when he declared that there is “no right to strike against the public safety” during a walkout by this city’s police. Earlier that year, a giant tank burst in this city’s North End, flooding the streets with molasses and killing 21 people.",
+            "r": "Both events happened in the city where the Sons of Liberty dumped tea into the harbor in 1773. For 10 points, name this Massachusetts capital."
+        },
+        {
+            "p": "Patriots met so often in this city’s Faneuil [“FAN-yul”] Hall, a marketplace and meeting hall donated by a merchant, that it was nicknamed the “Cradle of Liberty.” In July 1776, the Declaration of Independence was read aloud from the balcony of this city’s Old State House.",
+            "r": "For 10 points, name this city where Samuel Adams and the Sons of Liberty organized protests against British taxes."
+        },
+        {
+            "p": "Parliament’s Port Act closed this city’s harbor in 1774 until the East India Company was repaid for property destroyed there, and General Thomas Gage arrived to govern the colony. Other colonies sent food and supplies to help its people.",
+            "r": "The destroyed property was 342 chests of tea. For 10 points, name this city where the Sons of Liberty held a famous Tea Party in 1773."
+        },
+        {
+            "p": "Every March 17, this city’s county celebrates Evacuation Day, marking the day in 1776 when General William Howe’s British army sailed away. Howe left after George Washington placed cannons hauled from Fort Ticonderoga by Henry Knox on Dorchester Heights, overlooking the harbor.",
+            "r": "The Battle of Bunker Hill had been fought nearby the year before. For 10 points, name this Massachusetts city that British troops had occupied since 1768."
+        },
+        {
+            "p": "Sexton Robert Newman hung two lanterns in the steeple of this city’s Old North Church to signal that British troops were crossing the water by boat. That signal was arranged by a silversmith from this city, who then rode to Lexington to warn Samuel Adams and John Hancock.",
+            "r": "That silversmith, Paul Revere, also made a famous engraving of a 1770 massacre in this city. For 10 points, name this capital of Massachusetts."
+        },
+        {
+            "p": "Augustus Saint-Gaudens made a bronze memorial on this city’s Common to Robert Gould Shaw and the Black regiment he led in the Civil War, the unit shown in the film _Glory_. Decades earlier, William Lloyd Garrison began publishing his abolitionist newspaper _The Liberator_ here in 1831.",
+            "r": "The memorial faces the gold-domed State House on Beacon Hill. For 10 points, name this capital of Massachusetts, the largest city in New England."
+        },
+        {
+            "p": "This city opened the first subway in the United States in 1897, under Tremont Street. Its Latin School, founded in 1635, is the oldest public school in the country, and its Common, set aside in 1634, is often called the oldest public park.",
+            "r": "Its Puritan founders arrived with John Winthrop in 1630. For 10 points, name this New England city where the Freedom Trail begins."
+        },
+        {
+            "p": "_Publick Occurrences Both Forreign and Domestick_, often called the first newspaper printed in the American colonies, appeared in this city in 1690 but was shut down after one issue. Benjamin Franklin was born here in 1706 and wrote the Silence Dogood letters for his brother’s newspaper.",
+            "r": "Franklin then ran away to Philadelphia. For 10 points, name this city where Paul Revere and Samuel Adams were also born."
+        },
+        {
+            "p": "Phillis Wheatley, who was enslaved by a merchant family in this city, became the first African American woman to publish a book of poems in 1773. Three years earlier, Crispus Attucks was one of five colonists killed when British soldiers fired into a crowd on this city’s King Street.",
+            "r": "This city’s harbor was the scene of a Tea Party in 1773. For 10 points, name this Massachusetts city, where that 1770 massacre took place."
+        },
+        {
+            "p": "Frederick Law Olmsted designed this city’s Emerald Necklace, a chain of parks, and its Back Bay neighborhood was built on filled-in tidal marshland. A huge highway project nicknamed the “Big Dig” moved this city’s Central Artery into tunnels and was finished in 2007.",
+            "r": "For 10 points, name this city on the Charles River, home of Faneuil Hall and Fenway Park."
+        },
+        {
+            "p": "The USS _Constitution_, nicknamed “Old Ironsides,” is docked at the Charlestown Navy Yard in this city as the oldest commissioned warship still afloat. Also in Charlestown, a granite obelisk marks a 1775 battle that was fought mostly on Breed’s Hill.",
+            "r": "That battle is called Bunker Hill. For 10 points, name this capital of Massachusetts, where Paul Revere’s ride began."
+        }
+    ],
+    "clues": [
+        {
+            "id": "capital",
+            "tier": "giveaway",
+            "t": "Capital and largest city of Massachusetts, and the biggest city in New England",
+            "k": ["capital", "massachusetts", "new england"],
+            "n": 0
+        },
+        {
+            "id": "winthrop",
+            "tier": "giveaway",
+            "t": "Founded in 1630 by Puritans of the Massachusetts Bay Colony, led by John Winthrop",
+            "k": ["john winthrop", "winthrop", "puritans", "1630"],
+            "n": 0,
+            "rabbit": "Puritans"
+        },
+        {
+            "id": "revolution",
+            "tier": "giveaway",
+            "t": "Site of the Massacre (1770) and the Tea Party (1773) that helped spark the American Revolution",
+            "k": ["massacre", "tea party", "1773", "revolution"],
+            "n": 0,
+            "rabbit": "Boston Tea Party"
+        },
+        {
+            "id": "revere",
+            "tier": "giveaway",
+            "t": "Paul Revere began his midnight ride here (1775) after two lanterns were hung in the Old North Church",
+            "k": ["paul revere", "old north church", "lanterns"],
+            "n": 0,
+            "rabbit": "Paul Revere"
+        },
+        {
+            "id": "freedom-trail",
+            "tier": "giveaway",
+            "t": "The Freedom Trail, a 2.5-mile red-brick path, links 16 historic sites",
+            "k": ["freedom trail", "red-brick", "16 historic sites"],
+            "n": 0
+        },
+        {
+            "id": "city-upon-a-hill",
+            "tier": "middle",
+            "t": "Winthrop hoped the colony would be “a city upon a hill” (his sermon “A Model of Christian Charity”)",
+            "k": ["city upon a hill", "model of christian charity"],
+            "n": 0
+        },
+        {
+            "id": "port-act",
+            "tier": "middle",
+            "t": "Parliament’s Port Act (1774), one of the Intolerable Acts, closed its harbor until the tea was paid for",
+            "k": ["port act", "intolerable acts", "harbor"],
+            "n": 0
+        },
+        {
+            "id": "evacuation-day",
+            "tier": "middle",
+            "t": "The British left on March 17, 1776, after Washington put Henry Knox’s cannons on Dorchester Heights; celebrated as Evacuation Day",
+            "k": ["dorchester heights", "evacuation day", "henry knox", "march 17"],
+            "n": 0
+        },
+        {
+            "id": "faneuil",
+            "tier": "middle",
+            "t": "Faneuil Hall, the “Cradle of Liberty”; the Declaration of Independence was read from the Old State House balcony (July 1776)",
+            "k": ["faneuil hall", "cradle of liberty", "old state house"],
+            "n": 0
+        },
+        {
+            "id": "bunker-hill",
+            "tier": "middle",
+            "t": "The Battle of Bunker Hill (1775) was fought mostly on Breed’s Hill in Charlestown, which later became part of the city",
+            "k": ["bunker hill", "breed’s hill", "charlestown"],
+            "n": 0,
+            "rabbit": "Battle of Bunker Hill"
+        },
+        {
+            "id": "firsts",
+            "tier": "middle",
+            "t": "American firsts: its Common (1634, oldest public park), Latin School (1635, oldest public school), and the first U.S. subway (1897)",
+            "k": ["latin school", "common", "subway", "1897"],
+            "n": 0
+        },
+        {
+            "id": "old-ironsides",
+            "tier": "middle",
+            "t": "The USS _Constitution_ (“Old Ironsides”), the oldest commissioned warship afloat, is docked at the Charlestown Navy Yard",
+            "k": ["old ironsides", "constitution", "navy yard"],
+            "n": 0
+        },
+        {
+            "id": "franklin",
+            "tier": "middle",
+            "t": "Benjamin Franklin was born here (1706) and wrote the Silence Dogood letters before moving to Philadelphia",
+            "k": ["benjamin franklin", "franklin", "silence dogood"],
+            "n": 0,
+            "rabbit": "Benjamin Franklin"
+        },
+        {
+            "id": "liberator",
+            "tier": "middle",
+            "t": "William Lloyd Garrison published the abolitionist newspaper _The Liberator_ here, starting in 1831",
+            "k": ["garrison", "the liberator", "liberator", "1831"],
+            "n": 0
+        },
+        {
+            "id": "lincolnshire",
+            "tier": "power",
+            "t": "Named for a town in Lincolnshire, England, where the Puritan minister John Cotton had preached",
+            "k": ["lincolnshire", "john cotton"],
+            "n": 0
+        },
+        {
+            "id": "shawmut",
+            "tier": "power",
+            "t": "Built on the Shawmut Peninsula, first called Trimountaine; William Blaxton invited the Puritans to settle there",
+            "k": ["shawmut", "trimountaine", "blaxton"],
+            "n": 0
+        },
+        {
+            "id": "onesimus",
+            "tier": "power",
+            "t": "1721 smallpox epidemic: Cotton Mather pushed inoculation after learning of it from Onesimus, an enslaved African man",
+            "k": ["onesimus", "cotton mather", "inoculation", "smallpox"],
+            "n": 0
+        },
+        {
+            "id": "ether-bell",
+            "tier": "power",
+            "t": "First public demonstration of ether anesthesia (1846, the Ether Dome); Alexander Graham Bell’s first telephone call (1876)",
+            "k": ["ether dome", "ether", "telephone", "alexander graham bell"],
+            "n": 0
+        },
+        {
+            "id": "coolidge",
+            "tier": "power",
+            "t": "1919 police strike: Governor Calvin Coolidge said there is “no right to strike against the public safety”",
+            "k": ["calvin coolidge", "coolidge", "police strike"],
+            "n": 0
+        },
+        {
+            "id": "molasses",
+            "tier": "power",
+            "t": "Great Molasses Flood (1919): a burst tank flooded the North End, killing 21 people",
+            "k": ["molasses", "north end"],
+            "n": 0
+        },
+        {
+            "id": "shaw-memorial",
+            "tier": "power",
+            "t": "Saint-Gaudens’s memorial on the Common honors Robert Gould Shaw and his Black regiment, the 54th Massachusetts (the film _Glory_)",
+            "k": ["saint-gaudens", "robert gould shaw", "54th", "glory"],
+            "n": 0
+        },
+        {
+            "id": "publick-occurrences",
+            "tier": "power",
+            "t": "_Publick Occurrences_ (1690), often called the first colonial newspaper, was printed here and shut down after one issue",
+            "k": ["publick occurrences", "1690", "newspaper"],
+            "n": 0
+        },
+        {
+            "id": "wheatley",
+            "tier": "power",
+            "t": "Phillis Wheatley, enslaved here, became the first African American woman to publish a book of poems (1773)",
+            "k": ["phillis wheatley", "wheatley", "poems"],
+            "n": 0
+        },
+        {
+            "id": "king-street",
+            "tier": "power",
+            "t": "Crispus Attucks was among five colonists killed on King Street in 1770",
+            "k": ["crispus attucks", "attucks", "king street"],
+            "n": 0,
+            "rabbit": "Crispus Attucks"
+        },
+        {
+            "id": "newman",
+            "tier": "power",
+            "t": "Sexton Robert Newman hung the two lanterns (“two if by sea”) in the Old North Church steeple",
+            "k": ["robert newman", "newman", "two if by sea"],
+            "n": 0
+        },
+        {
+            "id": "big-dig",
+            "tier": "power",
+            "t": "Olmsted’s Emerald Necklace parks; the “Big Dig” moved the Central Artery highway into tunnels (finished 2007)",
+            "k": ["emerald necklace", "big dig", "olmsted", "central artery"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "City, colony, or event?",
+        "body": "Many Boston clues are really about events and places that have their own answer lines. If a question asks for “this event,” it may want the Boston Massacre or the Boston Tea Party; if it asks for “this colony” or “this state,” it wants Massachusetts. Saying “Massachusetts” when the question asks for “this city” is wrong, and so is naming the city when the question wants the event.",
+        "fix": "Listen for the noun: “this city” or “this town” means Boston, “this event” means the Massacre or the Tea Party, and “this colony” or “this state” means Massachusetts. Don’t mix Boston up with Philadelphia (Independence Hall, the Liberty Bell) or with Cambridge, home of Harvard, just across the Charles River.",
+        "line": "Real answer line: <b><u>Boston</u></b>, Massachusetts"
+    },
+    "tests": {
+        "right": [
+            "Boston",
+            "Boston, Massachusetts",
+            "Boston, MA",
+            "the city of Boston",
+            "Bostn"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Boston Massacre",
+            "Boston Tea Party",
+            "Massachusetts",
+            "Philadelphia",
+            "Cambridge",
+            "Plymouth"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
