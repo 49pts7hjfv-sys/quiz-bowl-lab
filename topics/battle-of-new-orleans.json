@@ -92,7 +92,7 @@
       "r": "This battle came about two weeks after diplomats signed the Treaty of Ghent. For 10 points, name this battle that made Andrew Jackson a national hero."
     },
     {
-      "p": "Dominique You [“doh-mee-NEEK YOO”] and Renato Beluche [“beh-LOOSH”] commanded cannons in this battle, and their leader had turned down a British offer of money and a navy commission. Their side defended a mud wall stretching from the Mississippi River to a swamp.",
+      "p": "Messengers from the Hartford Convention reached Washington with New England’s demands just as news of this battle and of peace arrived, embarrassing the Federalist Party. In this battle, the defenders fought from behind a mud wall stretching from the Mississippi River to a swamp.",
       "r": "For 10 points, name this battle in which Andrew Jackson’s army defeated the British in January 1815."
     },
     {
@@ -334,15 +334,16 @@
       "n": 0
     },
     {
-      "id": "you-beluche",
+      "id": "hartford",
       "tier": "power",
-      "t": "Lafitte’s men Dominique You and Renato Beluche commanded cannons",
+      "t": "Hartford Convention messengers reached Washington just as news of this victory and of peace arrived, embarrassing the Federalists",
       "k": [
-        "dominique you",
-        "beluche",
-        "cannons"
+        "hartford convention",
+        "hartford",
+        "federalists"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Federalist Party"
     },
     {
       "id": "ratified",
@@ -378,7 +379,7 @@
   ],
   "trap": {
     "title": "Battle, war, or general?",
-    "body": "Andrew Jackson and Jean Lafitte clues show up in three kinds of tossups: ones that want this battle, ones that want the War of 1812, and ones that want Jackson himself. The same city was captured again in 1862, during the Civil War, by David Farragut’s fleet, which is a different event. Jackson’s other famous fight in the War of 1812 was the Battle of Horseshoe Bend (1814) against the Red Stick Creeks.",
+    "body": "Andrew Jackson and Jean Lafitte clues show up in three kinds of tossups: ones that want this battle, ones that want the War of 1812, and ones that want Jackson himself. The same city was captured in 1862, during the Civil War, by David Farragut’s fleet, which is a different event. Jackson’s other famous fight in the War of 1812 was the Battle of Horseshoe Bend (1814) against the Red Stick Creeks.",
     "fix": "Listen for the noun: “this battle” wants New Orleans, “this war” wants the War of 1812, and “this general” or “this president” wants Jackson. Farragut or 1862 means the Civil War capture of the city, and Red Sticks mean Horseshoe Bend.",
     "line": "Real answer line: Battle of <b><u>New Orleans</u></b>"
   },

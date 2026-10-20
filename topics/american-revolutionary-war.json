@@ -1,0 +1,467 @@
+{
+  "id": "american-revolutionary-war",
+  "name": "American Revolutionary War",
+  "mono": "ARW",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Thirteen colonies vs. Great Britain, 1775–1783 · Won U.S. independence",
+  "dates": "Fought 1775–1783",
+  "briefing": "In April 1775, colonial militiamen traded shots with British soldiers at Lexington and Concord, and the thirteen colonies were soon at war with Great Britain, one of the world’s strongest powers. George Washington’s Continental Army lost many battles and survived a hungry winter at Valley Forge, but it won key victories at Saratoga and Yorktown with help from France. In the Treaty of Paris of 1783, Britain recognized the United States as an independent nation.",
+  "answerHtml": "<b><u>American Revolution</u></b>ary War (or <b><u>Revolutionary War</u></b>; accept <u>American War of Independence</u>; prompt on <u>Revolution</u> or <u>War of Independence</u>)",
+  "accept": [
+    "american revolutionary war",
+    "the american revolutionary war",
+    "american revolution",
+    "the american revolution",
+    "revolutionary war",
+    "the revolutionary war",
+    "american war of independence",
+    "the american war of independence",
+    "war of american independence",
+    "american war for independence",
+    "us war of independence",
+    "united states war of independence",
+    "american independence war",
+    "us revolutionary war",
+    "american revolutionary"
+  ],
+  "prompt": [
+    "revolution",
+    "the revolution",
+    "war of independence",
+    "the war of independence",
+    "war for independence",
+    "independence war"
+  ],
+  "reject": [
+    "battle of bunker hill",
+    "bunker hill",
+    "battle of saratoga",
+    "saratoga",
+    "french and indian war",
+    "seven years war",
+    "war of 1812",
+    "french revolution",
+    "french revolutionary war",
+    "french revolutionary wars",
+    "texas revolution",
+    "texas revolutionary war",
+    "texas war of independence",
+    "mexican war of independence",
+    "american civil war",
+    "civil war",
+    "glorious revolution",
+    "haitian revolution",
+    "russian revolution",
+    "industrial revolution",
+    "mexican revolution",
+    "battle of yorktown",
+    "yorktown",
+    "battles of lexington and concord",
+    "lexington and concord",
+    "battle of trenton",
+    "quasi war",
+    "king philips war",
+    "daughters of the american revolution",
+    "sons of the american revolution",
+    "boston tea party",
+    "declaration of independence",
+    "treaty of paris",
+    "shays rebellion",
+    "whiskey rebellion"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+  "qb": {
+    "q": "American Revolution",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Deborah Sampson disguised herself as a man named Robert Shurtleff to fight as a soldier in this war, and the legend of “Molly Pitcher,” who carried water to soldiers at the Battle of Monmouth in this war, may have been inspired by Mary Ludwig Hays.",
+      "r": "For 10 points, name this war that began at Lexington and Concord in 1775 and won the United States its independence."
+    },
+    {
+      "p": "In 1775, Virginia’s royal governor, Lord Dunmore, promised freedom to enslaved people owned by Patriots if they escaped and joined the British army in this war. Thousands of Black Loyalists left with the British when this war ended, and many of them settled in Nova Scotia.",
+      "r": "For 10 points, name this war between Great Britain and its thirteen American colonies, which ended in 1783."
+    },
+    {
+      "p": "Bernardo de Gálvez [“GAHL-vess”], the Spanish governor of Louisiana, captured Pensacola from the British in 1781 during this war, after earlier taking Baton Rouge and Mobile. Spain had joined this war in 1779 as an ally of France.",
+      "r": "For 10 points, name this war in which George Washington led the Continental Army against Great Britain."
+    },
+    {
+      "p": "King George III refused to receive the Olive Branch Petition, a last attempt at peace that John Dickinson wrote during the first months of this war, and instead declared that the colonies were in open rebellion.",
+      "r": "That same year, the Second Continental Congress made George Washington commander of its army. For 10 points, name this war fought from 1775 to 1783."
+    },
+    {
+      "p": "During a 1779 sea battle in this war, John Paul Jones supposedly answered a demand to surrender by shouting, “I have not yet begun to fight!” His ship, the _Bonhomme Richard_, later sank, but he captured the British warship _Serapis_.",
+      "r": "For 10 points, name this war in which the young Continental Navy fought Great Britain from 1775 to 1783."
+    },
+    {
+      "p": "Francis Marion, nicknamed the “Swamp Fox,” led raids on British troops in South Carolina during this war, often striking from hiding places in the swamps. Daniel Morgan defeated Banastre Tarleton [“TAR-ul-tun”] at the Battle of Cowpens in this war.",
+      "r": "Nathanael Greene commanded American forces in the South during this war. For 10 points, name this war that won American independence."
+    },
+    {
+      "p": "In 1780, Major John André [“AN-dree”] was captured carrying plans showing how an American general meant to hand over the fort at West Point to the British in this war. André was executed as a spy.",
+      "r": "That general was Benedict Arnold. For 10 points, name this war in which Arnold became a traitor."
+    },
+    {
+      "p": "Casimir Pulaski [“puh-LASS-kee”], called the “father of the American cavalry,” died after being wounded at the Siege of Savannah in this war, and the Polish engineer Thaddeus Kościuszko [“kosh-CHOOSH-koh”] designed fortifications at West Point.",
+      "r": "The Marquis de Lafayette was a French volunteer in this war. For 10 points, name this war, fought from 1775 to 1783."
+    },
+    {
+      "p": "In the winter of this war’s first year, Henry Knox hauled cannons on sleds from Fort Ticonderoga to Boston. The British, who had won a costly victory at Bunker Hill months earlier, left the city in March 1776 after those guns appeared on Dorchester Heights.",
+      "r": "For 10 points, name this war that had begun at Lexington and Concord, in which George Washington led the Continental Army."
+    },
+    {
+      "p": "Thomas Paine opened the first essay in his series _The American Crisis_ with the words “These are the times that try men’s souls,” written during a dark moment of this war. Earlier, his pamphlet _Common Sense_ had urged Americans to break away from Britain.",
+      "r": "For 10 points, name this war in which George Washington crossed the Delaware to win at Trenton."
+    },
+    {
+      "p": "George Rogers Clark led a winter march through flooded country to capture Fort Sackville at Vincennes [“vin-SENZ”] in 1779, during this war, strengthening American claims to the land northwest of the Ohio River.",
+      "r": "For 10 points, name this war that ended in 1783, when Great Britain recognized the independence of the United States."
+    },
+    {
+      "p": "The Mohawk leader Joseph Brant led warriors on the British side in this war, while the Oneida [“oh-NY-duh”] Nation mostly fought for the Americans, splitting the Iroquois Confederacy. Raids on New York’s frontier led George Washington to send the Sullivan Expedition against the Iroquois in 1779.",
+      "r": "For 10 points, name this war in which Washington’s Continental Army fought Great Britain from 1775 to 1783."
+    },
+    {
+      "p": "John Burgoyne’s plan to cut off New England by marching south from Canada failed in this war when Horatio Gates’s army stopped him, and he surrendered his entire army in New York in October 1777.",
+      "r": "That American victory at Saratoga brought France into this war as an ally. For 10 points, name this war fought from 1775 to 1783."
+    },
+    {
+      "p": "Baron von Steuben [“STOO-ben”] drilled soldiers during a hard winter in this war, and they used his training at the Battle of Monmouth, after which General Charles Lee was court-martialed for ordering a retreat.",
+      "r": "That winter camp was at Valley Forge. For 10 points, name this war in which George Washington commanded the Continental Army."
+    },
+    {
+      "p": "Henry Laurens, who had been held in the Tower of London after the British captured him at sea, joined the American team that negotiated the treaty ending this war. That treaty set the western border of the new nation at the Mississippi River.",
+      "r": "Benjamin Franklin, John Adams, and John Jay also negotiated that 1783 Treaty of Paris. For 10 points, name this war."
+    }
+  ],
+  "clues": [
+    {
+      "id": "colonies-vs-britain",
+      "tier": "giveaway",
+      "t": "Fought 1775–1783 between Great Britain and its thirteen American colonies, which won their independence",
+      "k": [
+        "great britain",
+        "thirteen",
+        "1775",
+        "1783"
+      ],
+      "n": 0
+    },
+    {
+      "id": "washington",
+      "tier": "giveaway",
+      "t": "George Washington commanded the Continental Army",
+      "k": [
+        "george washington",
+        "continental army"
+      ],
+      "n": 0,
+      "rabbit": "George Washington"
+    },
+    {
+      "id": "lexington-concord",
+      "tier": "giveaway",
+      "t": "Began with the Battles of Lexington and Concord (April 19, 1775), “the shot heard round the world”",
+      "k": [
+        "lexington",
+        "concord",
+        "shot heard"
+      ],
+      "n": 0,
+      "rabbit": "Battles of Lexington and Concord"
+    },
+    {
+      "id": "yorktown",
+      "tier": "giveaway",
+      "t": "Lord Cornwallis’s surrender at Yorktown (1781) effectively ended the fighting",
+      "k": [
+        "yorktown",
+        "cornwallis",
+        "1781"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Yorktown"
+    },
+    {
+      "id": "treaty-of-paris",
+      "tier": "giveaway",
+      "t": "Ended by the Treaty of Paris (1783), negotiated by Benjamin Franklin, John Adams, and John Jay",
+      "k": [
+        "treaty of paris",
+        "1783",
+        "franklin"
+      ],
+      "n": 0,
+      "rabbit": "Treaty of Paris"
+    },
+    {
+      "id": "declaration",
+      "tier": "middle",
+      "t": "The Declaration of Independence (July 4, 1776) came about a year into the fighting",
+      "k": [
+        "declaration of independence",
+        "july 4",
+        "1776"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saratoga",
+      "tier": "middle",
+      "t": "Turning point: John Burgoyne surrendered to Horatio Gates at Saratoga (1777), and France joined the war in 1778",
+      "k": [
+        "saratoga",
+        "burgoyne",
+        "horatio gates",
+        "france"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Saratoga"
+    },
+    {
+      "id": "bunker-hill",
+      "tier": "middle",
+      "t": "Bunker Hill (June 1775) was a costly British victory near Boston",
+      "k": [
+        "bunker hill",
+        "costly"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Bunker Hill"
+    },
+    {
+      "id": "trenton",
+      "tier": "middle",
+      "t": "Washington crossed the icy Delaware River and surprised the Hessians at Trenton (December 26, 1776)",
+      "k": [
+        "delaware",
+        "trenton",
+        "hessians"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Trenton"
+    },
+    {
+      "id": "valley-forge",
+      "tier": "middle",
+      "t": "Winter camp at Valley Forge (1777–78), where Baron von Steuben drilled the troops",
+      "k": [
+        "valley forge",
+        "von steuben",
+        "steuben"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arnold",
+      "tier": "middle",
+      "t": "Benedict Arnold plotted to hand West Point to the British (1780); Major John André was caught and executed as a spy",
+      "k": [
+        "benedict arnold",
+        "west point",
+        "andré"
+      ],
+      "n": 0,
+      "rabbit": "Benedict Arnold"
+    },
+    {
+      "id": "paine",
+      "tier": "middle",
+      "t": "Thomas Paine’s _Common Sense_ (1776) and _The American Crisis_ (“These are the times that try men’s souls”)",
+      "k": [
+        "thomas paine",
+        "common sense",
+        "american crisis"
+      ],
+      "n": 0,
+      "rabbit": "Common Sense"
+    },
+    {
+      "id": "lafayette",
+      "tier": "middle",
+      "t": "The Marquis de Lafayette, a young French noble, served as a general under Washington",
+      "k": [
+        "lafayette",
+        "french noble"
+      ],
+      "n": 0,
+      "rabbit": "Marquis de Lafayette"
+    },
+    {
+      "id": "knox",
+      "tier": "middle",
+      "t": "Henry Knox hauled cannons from Fort Ticonderoga to Dorchester Heights, and the British left Boston (March 1776)",
+      "k": [
+        "henry knox",
+        "knox",
+        "ticonderoga",
+        "dorchester heights"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sampson",
+      "tier": "power",
+      "t": "Deborah Sampson fought disguised as “Robert Shurtleff”; Mary Ludwig Hays may have inspired the “Molly Pitcher” legend at Monmouth",
+      "k": [
+        "deborah sampson",
+        "shurtleff",
+        "molly pitcher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dunmore",
+      "tier": "power",
+      "t": "Lord Dunmore’s Proclamation (1775) promised freedom to enslaved people of Patriots who joined the British; many Black Loyalists later settled in Nova Scotia",
+      "k": [
+        "dunmore",
+        "black loyalists",
+        "nova scotia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galvez",
+      "tier": "power",
+      "t": "Spain joined in 1779; Bernardo de Gálvez took Baton Rouge, Mobile, and Pensacola (1781)",
+      "k": [
+        "gálvez",
+        "galvez",
+        "pensacola",
+        "spain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "olive-branch",
+      "tier": "power",
+      "t": "George III refused the Olive Branch Petition (1775), written by John Dickinson, and declared the colonies in rebellion",
+      "k": [
+        "olive branch",
+        "george iii",
+        "dickinson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "john-paul-jones",
+      "tier": "power",
+      "t": "John Paul Jones (_Bonhomme Richard_ vs. _Serapis_, 1779): “I have not yet begun to fight!”",
+      "k": [
+        "john paul jones",
+        "bonhomme richard",
+        "serapis",
+        "begun to fight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "southern",
+      "tier": "power",
+      "t": "In the South: Francis Marion (the “Swamp Fox”), Daniel Morgan’s win over Banastre Tarleton at Cowpens, and Nathanael Greene",
+      "k": [
+        "swamp fox",
+        "cowpens",
+        "tarleton",
+        "nathanael greene"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clark",
+      "tier": "power",
+      "t": "George Rogers Clark captured Fort Sackville at Vincennes (1779), in the West",
+      "k": [
+        "george rogers clark",
+        "vincennes",
+        "sackville"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brant",
+      "tier": "power",
+      "t": "Mohawk leader Joseph Brant sided with Britain; the Oneida mostly helped the Americans; the Sullivan Expedition struck the Iroquois (1779)",
+      "k": [
+        "joseph brant",
+        "oneida",
+        "sullivan expedition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "charles-lee",
+      "tier": "power",
+      "t": "General Charles Lee was court-martialed for retreating at Monmouth (1778)",
+      "k": [
+        "charles lee",
+        "monmouth",
+        "court-martialed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poles",
+      "tier": "power",
+      "t": "From Poland: Casimir Pulaski (“father of the American cavalry”) died after the Siege of Savannah; Thaddeus Kościuszko designed West Point’s fortifications",
+      "k": [
+        "pulaski",
+        "kościuszko",
+        "savannah",
+        "cavalry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laurens",
+      "tier": "power",
+      "t": "Henry Laurens, once held in the Tower of London, joined the peace talks; the treaty set the western border at the Mississippi River",
+      "k": [
+        "henry laurens",
+        "tower of london",
+        "mississippi"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "War or battle? Which war?",
+    "body": "This war’s battles are separate answer lines: Lexington and Concord, Bunker Hill, Trenton, Saratoga, and Yorktown, so a question asking for “this battle” wants the battle, not the war. It is also easy to mix up with the French and Indian War (1754–1763), when George Washington fought for Britain, and the War of 1812, the second U.S. war against Britain.",
+    "fix": "Listen for “this war” versus “this battle.” Clues about 1775–1783, the Continental Army, Valley Forge, Saratoga, Yorktown, and the 1783 Treaty of Paris mean this war. Fort Necessity, Braddock, and Quebec in 1759 mean the French and Indian War; impressment and the burning of Washington mean the War of 1812.",
+    "line": "Real answer line: <b><u>American Revolution</u></b>ary War (or <b><u>Revolutionary War</u></b>; accept <u>American War of Independence</u>; prompt on <u>Revolution</u>)"
+  },
+  "tests": {
+    "right": [
+      "American Revolutionary War",
+      "Revolutionary War",
+      "American Revolution",
+      "the American Revolution",
+      "American War of Independence",
+      "Revolutionery War"
+    ],
+    "prompt": [
+      "Revolution",
+      "War of Independence"
+    ],
+    "wrong": [
+      "French and Indian War",
+      "War of 1812",
+      "Battle of Bunker Hill",
+      "Battle of Saratoga",
+      "French Revolution",
+      "Civil War",
+      "Texas Revolution"
+    ]
+  }
+}

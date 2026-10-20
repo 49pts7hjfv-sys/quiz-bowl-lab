@@ -1,0 +1,346 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "federal-bureau-of-investigation",
+    "name": "Federal Bureau of Investigation",
+    "mono": "FBI",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Federal crime-fighting agency founded in 1908 · J. Edgar Hoover’s G-men",
+    "dates": "Founded 1908; named FBI in 1935",
+    "briefing": "In 1908, Attorney General Charles Bonaparte, a grandnephew of Napoleon, created a small force of special agents to investigate federal crimes. Under J. Edgar Hoover, who ran it for 48 years, it became the FBI, famous for its “G-men,” its crime lab, and its Ten Most Wanted list. It also hunts spies and works to stop terrorism, and its new agents train at Quantico, Virginia.",
+    "answerHtml": "<b><u>Federal Bureau of Investigation</u></b> (accept <u>FBI</u>; accept <u>Bureau of Investigation</u> for the years before 1935)",
+    "accept": [
+        "federal bureau of investigation",
+        "the federal bureau of investigation",
+        "fbi",
+        "the fbi",
+        "f b i",
+        "bureau of investigation",
+        "us bureau of investigation",
+        "united states bureau of investigation",
+        "division of investigation"
+    ],
+    "prompt": [],
+    "reject": [
+        "central intelligence agency",
+        "cia",
+        "secret service",
+        "united states secret service",
+        "us secret service",
+        "department of justice",
+        "justice department",
+        "us department of justice",
+        "doj",
+        "national security agency",
+        "nsa",
+        "department of homeland security",
+        "homeland security",
+        "dhs",
+        "atf",
+        "bureau of alcohol tobacco firearms and explosives",
+        "drug enforcement administration",
+        "dea",
+        "us marshals",
+        "us marshals service",
+        "united states marshals service",
+        "marshals service",
+        "bureau of prohibition",
+        "prohibition bureau",
+        "untouchables",
+        "the untouchables",
+        "internal revenue service",
+        "irs",
+        "interpol",
+        "scotland yard",
+        "kgb",
+        "mi5",
+        "mi6",
+        "pinkerton",
+        "pinkertons",
+        "pinkerton national detective agency",
+        "texas rangers",
+        "j edgar hoover",
+        "hoover",
+        "general intelligence division",
+        "office of strategic services",
+        "oss"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation",
+    "qb": {
+        "q": "FBI",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This agency was founded in 1908 by Attorney General Charles Bonaparte, a grandnephew of the French emperor Napoleon. Bonaparte created his own force of special agents after Congress barred the Justice Department from borrowing detectives from the Secret Service.",
+            "r": "For 10 points, name this federal law enforcement agency later led for 48 years by J. Edgar Hoover."
+        },
+        {
+            "p": "Congress gave this agency’s special agents general power to carry guns and make arrests only in 1934, during a wave of gangster crimes. Two years earlier, the kidnapping of aviator Charles Lindbergh’s baby son led to a law that let this agency pursue kidnappers across state lines.",
+            "r": "Its agents were nicknamed “G-men,” short for “government men.” For 10 points, name this agency of the Justice Department."
+        },
+        {
+            "p": "In 1924, this agency began building a national collection of fingerprint records, and in 1932 it opened a crime laboratory to study evidence such as bullets and handwriting. Starting in 1935, it trained local police leaders in such methods at its National Academy.",
+            "r": "For 10 points, name this Justice Department agency led from 1924 until 1972 by J. Edgar Hoover."
+        },
+        {
+            "p": "Since 1930, this agency has gathered crime statistics from police departments across the country in its Uniform Crime Reports. Its motto, “Fidelity, Bravery, Integrity,” was chosen in part because its words begin with the same letters as this agency’s initials.",
+            "r": "This agency publishes a Ten Most Wanted Fugitives list. For 10 points, name this federal law enforcement agency."
+        },
+        {
+            "p": "As head of the Justice Department’s General Intelligence Division, a young lawyer helped organize the Palmer Raids against suspected radicals in 1919 and 1920. In 1924, that lawyer took charge of this agency.",
+            "r": "He led it until his death in 1972. For 10 points, name this agency run for decades by J. Edgar Hoover."
+        },
+        {
+            "p": "Agent Melvin Purvis led a team from this agency that tracked down the bank robber John Dillinger outside Chicago’s Biograph Theater in 1934, where Dillinger was killed. Dillinger had been named “Public Enemy Number One.”",
+            "r": "This agency’s agents were nicknamed “G-men.” For 10 points, name this federal agency led by J. Edgar Hoover."
+        },
+        {
+            "p": "In 1971, activists broke into this agency’s field office in Media, Pennsylvania, and leaked files that exposed COINTELPRO, a secret program that spied on and tried to disrupt political groups. That program had targeted Martin Luther King Jr.",
+            "r": "For 10 points, name this agency led from 1924 to 1972 by J. Edgar Hoover."
+        },
+        {
+            "p": "In 2005, Mark Felt, who had been the second-ranking official of this agency, revealed that he was “Deep Throat,” the secret source who helped two _Washington Post_ reporters uncover the Watergate scandal.",
+            "r": "For 10 points, name this agency that J. Edgar Hoover had led until his death in 1972."
+        },
+        {
+            "p": "After a senator criticized him for never having arrested anyone himself, this agency’s director personally led the arrest of the gangster Alvin Karpis in New Orleans in 1936. Karpis had been a leader of the Barker gang.",
+            "r": "That director was J. Edgar Hoover. For 10 points, name this federal law enforcement agency."
+        },
+        {
+            "p": "After its longtime director died in office in 1972, Congress limited later directors of this agency to a single ten-year term. That longtime director’s name was given to this agency’s headquarters building on Pennsylvania Avenue in Washington, D.C.",
+            "r": "For 10 points, name this agency led for 48 years by J. Edgar Hoover."
+        },
+        {
+            "p": "New special agents of this agency train at an academy on a Marine Corps base in Quantico, Virginia. According to a popular story, its agents got a famous nickname in 1933 when George “Machine Gun” Kelly shouted, “Don’t shoot, G-men!”",
+            "r": "For 10 points, name this federal agency that publishes a Ten Most Wanted Fugitives list."
+        },
+        {
+            "p": "In 1942, this agency arrested eight German saboteurs who had landed from submarines on Long Island and in Florida, after one of them turned himself in. In 1950, it arrested Julius Rosenberg on charges of spying for the Soviet Union.",
+            "r": "For 10 points, name this federal agency whose longtime director was J. Edgar Hoover."
+        },
+        {
+            "p": "After the September 11 attacks in 2001, this agency made preventing terrorism its top priority, working with local police through Joint Terrorism Task Forces. Earlier, during the Cold War, it hunted Soviet spies inside the United States.",
+            "r": "For 10 points, name this federal law enforcement agency in the Department of Justice, once led by J. Edgar Hoover."
+        },
+        {
+            "p": "A 1949 news story about the “toughest guys” this agency wanted to catch inspired a list that it began publishing in March 1950. Many fugitives on that list have been caught after members of the public recognized their photos.",
+            "r": "That list is called the “Ten Most Wanted Fugitives.” For 10 points, name this agency."
+        },
+        {
+            "p": "In 1908, some members of Congress opposed creating this agency because they feared it would become a federal secret police. President Theodore Roosevelt supported his attorney general, who set it up anyway while Congress was out of session.",
+            "r": "For 10 points, name this agency, which took its full modern name in 1935."
+        }
+    ],
+    "clues": [
+        {
+            "id": "justice-agency",
+            "tier": "giveaway",
+            "t": "Law enforcement agency of the U.S. Department of Justice that investigates federal crimes",
+            "k": ["department of justice", "law enforcement", "justice"],
+            "n": 0
+        },
+        {
+            "id": "hoover",
+            "tier": "giveaway",
+            "t": "Led by J. Edgar Hoover for 48 years (1924–1972)",
+            "k": ["j. edgar hoover", "hoover", "48 years"],
+            "n": 0,
+            "rabbit": "J. Edgar Hoover"
+        },
+        {
+            "id": "most-wanted",
+            "tier": "giveaway",
+            "t": "Publishes the “Ten Most Wanted Fugitives” list, begun in 1950",
+            "k": ["ten most wanted", "most wanted", "1950"],
+            "n": 0
+        },
+        {
+            "id": "g-men",
+            "tier": "middle",
+            "t": "Its agents were nicknamed “G-men” (“government men”)",
+            "k": ["g-men", "government men"],
+            "n": 0
+        },
+        {
+            "id": "founded-1908",
+            "tier": "middle",
+            "t": "Founded in 1908, while Theodore Roosevelt was president",
+            "k": ["1908", "theodore roosevelt", "roosevelt"],
+            "n": 0,
+            "rabbit": "Theodore Roosevelt"
+        },
+        {
+            "id": "name-1935",
+            "tier": "middle",
+            "t": "Took its full modern name in 1935",
+            "k": ["1935", "modern name"],
+            "n": 0
+        },
+        {
+            "id": "motto",
+            "tier": "middle",
+            "t": "Motto: “Fidelity, Bravery, Integrity,” which matches its initials",
+            "k": ["fidelity", "bravery", "integrity", "motto"],
+            "n": 0
+        },
+        {
+            "id": "dillinger",
+            "tier": "middle",
+            "t": "In 1934, agents led by Melvin Purvis tracked down bank robber John Dillinger, “Public Enemy Number One,” at Chicago’s Biograph Theater",
+            "k": ["dillinger", "purvis", "biograph", "public enemy"],
+            "n": 0,
+            "rabbit": "John Dillinger"
+        },
+        {
+            "id": "quantico",
+            "tier": "middle",
+            "t": "Trains new special agents at its academy in Quantico, Virginia",
+            "k": ["quantico", "special agents", "academy"],
+            "n": 0
+        },
+        {
+            "id": "counterterrorism",
+            "tier": "middle",
+            "t": "After the September 11 attacks (2001), preventing terrorism became its top priority",
+            "k": ["september 11", "terrorism", "2001"],
+            "n": 0
+        },
+        {
+            "id": "bonaparte",
+            "tier": "power",
+            "t": "Created by Attorney General Charles Bonaparte, a grandnephew of Napoleon",
+            "k": ["charles bonaparte", "bonaparte", "napoleon", "attorney general"],
+            "n": 0
+        },
+        {
+            "id": "secret-service",
+            "tier": "power",
+            "t": "Congress had barred the Justice Department from borrowing Secret Service detectives; some members feared a federal “secret police”",
+            "k": ["secret service", "secret police", "borrowing"],
+            "n": 0
+        },
+        {
+            "id": "palmer-raids",
+            "tier": "power",
+            "t": "Hoover helped organize the Palmer Raids (1919–1920) as head of the General Intelligence Division",
+            "k": ["palmer raids", "palmer", "general intelligence division"],
+            "n": 0
+        },
+        {
+            "id": "powers-1934",
+            "tier": "power",
+            "t": "Agents gained general power to carry guns and make arrests in 1934",
+            "k": ["carry guns", "arrests", "1934"],
+            "n": 0
+        },
+        {
+            "id": "lindbergh",
+            "tier": "power",
+            "t": "The 1932 kidnapping of Charles Lindbergh’s son led to a federal kidnapping law it enforces",
+            "k": ["lindbergh", "kidnapping"],
+            "n": 0
+        },
+        {
+            "id": "lab",
+            "tier": "power",
+            "t": "Built national fingerprint files (1924), a crime laboratory (1932), and a National Academy for police (1935)",
+            "k": ["fingerprint", "laboratory", "national academy"],
+            "n": 0
+        },
+        {
+            "id": "ucr",
+            "tier": "power",
+            "t": "Has collected national crime statistics in its Uniform Crime Reports since 1930",
+            "k": ["uniform crime reports", "statistics", "1930"],
+            "n": 0
+        },
+        {
+            "id": "karpis",
+            "tier": "power",
+            "t": "Hoover personally led the 1936 arrest of gangster Alvin Karpis after a senator mocked him for never making an arrest",
+            "k": ["karpis", "alvin karpis", "1936"],
+            "n": 0
+        },
+        {
+            "id": "pastorius",
+            "tier": "power",
+            "t": "Caught eight German saboteurs landed by submarine (1942); arrested Julius Rosenberg as a Soviet spy (1950)",
+            "k": ["saboteurs", "submarine", "rosenberg"],
+            "n": 0
+        },
+        {
+            "id": "cointelpro",
+            "tier": "power",
+            "t": "COINTELPRO (1956–1971) spied on and disrupted political groups; exposed by a 1971 break-in at its office in Media, Pennsylvania",
+            "k": ["cointelpro", "media, pennsylvania", "break-in"],
+            "n": 0
+        },
+        {
+            "id": "deep-throat",
+            "tier": "power",
+            "t": "Associate Director Mark Felt was “Deep Throat,” the secret Watergate source (revealed in 2005)",
+            "k": ["mark felt", "felt", "deep throat", "watergate"],
+            "n": 0,
+            "rabbit": "Watergate scandal"
+        },
+        {
+            "id": "term-limit",
+            "tier": "power",
+            "t": "Since 1976, its directors have been limited to one ten-year term; its Washington headquarters building was named for Hoover",
+            "k": ["ten-year term", "1976", "headquarters"],
+            "n": 0
+        },
+        {
+            "id": "toughest-guys",
+            "tier": "power",
+            "t": "A 1949 news story about the “toughest guys” it wanted to catch inspired the Ten Most Wanted list",
+            "k": ["toughest guys", "1949", "news story"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which federal agency?",
+        "body": "Several agencies get mixed up. This one investigates federal crimes inside the United States and is part of the Justice Department. The Central Intelligence Agency (1947) gathers intelligence overseas, and the Secret Service, created in 1865 to fight counterfeit money, protects the president. Eliot Ness’s “Untouchables,” who went after Al Capone, worked for the Prohibition Bureau, not this agency.",
+        "fix": "Federal crimes and spies inside the U.S., J. Edgar Hoover, G-men, and the Ten Most Wanted list mean the FBI. Spying overseas means the CIA; guarding the president or fighting counterfeiters means the Secret Service. If the question says “this man,” the answer is J. Edgar Hoover.",
+        "line": "Real answer line: <b><u>Federal Bureau of Investigation</u></b> (accept <u>FBI</u>; accept <u>Bureau of Investigation</u> for the years before 1935)"
+    },
+    "tests": {
+        "right": [
+            "Federal Bureau of Investigation",
+            "FBI",
+            "F.B.I.",
+            "the FBI",
+            "Federal Bureau of Investigaton",
+            "Bureau of Investigation"
+        ],
+        "prompt": [],
+        "wrong": [
+            "CIA",
+            "Central Intelligence Agency",
+            "Secret Service",
+            "J. Edgar Hoover",
+            "Department of Justice",
+            "Untouchables",
+            "NSA"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

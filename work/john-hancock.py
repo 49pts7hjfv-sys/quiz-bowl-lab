@@ -1,0 +1,351 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "john-hancock",
+    "name": "John Hancock",
+    "mono": "JH",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "President of the Continental Congress · Signed the Declaration in big letters",
+    "dates": "1737–1793",
+    "briefing": "John Hancock was one of the richest merchants in Boston, and in 1775 a British general offered to pardon every rebel who put down his weapons except him and Samuel Adams. As president of the Second Continental Congress, he was the first to sign the Declaration of Independence, writing his name so large that “John Hancock” became slang for a signature. He later served as the first governor of the state of Massachusetts.",
+    "answerHtml": "John <b><u>Hancock</u></b> (do not accept “Winfield Scott Hancock”)",
+    "accept": [
+        "john hancock",
+        "hancock",
+        "governor hancock",
+        "president hancock",
+        "j hancock"
+    ],
+    "prompt": [],
+    "reject": [
+        "winfield scott hancock",
+        "winfield hancock",
+        "winfield",
+        "w s hancock",
+        "general hancock",
+        "thomas hancock",
+        "lydia hancock",
+        "dorothy hancock",
+        "dorothy quincy",
+        "herbie hancock",
+        "herbie",
+        "john hancock tower",
+        "hancock tower",
+        "john hancock center",
+        "hancock center",
+        "tower",
+        "center",
+        "insurance",
+        "samuel adams",
+        "sam adams",
+        "john adams",
+        "paul revere",
+        "william dawes",
+        "charles thomson",
+        "peyton randolph",
+        "henry laurens",
+        "james bowdoin",
+        "john jay",
+        "benjamin franklin",
+        "thomas jefferson",
+        "george washington"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/John_Hancock",
+    "qb": {
+        "q": "John Hancock",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1768, customs officials seized this merchant’s sloop _Liberty_, claiming he had unloaded Madeira wine without paying the tax on it, and a riot broke out in Boston. John Adams defended this man in court, and the charges were later dropped.",
+            "r": "For 10 points, name this Boston merchant who signed the Declaration of Independence with a very large signature."
+        },
+        {
+            "p": "In June 1775, British general Thomas Gage offered a pardon to every rebel who laid down his arms except Samuel Adams and this man, whose offenses Gage called too serious to forgive.",
+            "r": "For 10 points, name this patriot who was president of the Continental Congress when it adopted the Declaration of Independence."
+        },
+        {
+            "p": "When the Declaration of Independence was first printed in July 1776, only two names appeared on it: this man’s, and that of Charles Thomson, the Congress’s secretary. This man was serving as president of the Second Continental Congress at the time.",
+            "r": "For 10 points, name this Massachusetts patriot famous for his huge signature on the Declaration."
+        },
+        {
+            "p": "This man presided over the 1788 Massachusetts convention that debated the U.S. Constitution, and his proposal to recommend amendments helped win enough votes to ratify it. As governor, he also pardoned many of the farmers who had joined Shays’ Rebellion.",
+            "r": "For 10 points, name this first governor of the state of Massachusetts, who had signed the Declaration of Independence first."
+        },
+        {
+            "p": "After his father died, this boy was raised in Boston by his wealthy uncle Thomas, and in 1764 he inherited his uncle’s trading business, which made him one of the richest men in the colonies. He had graduated from Harvard in 1754.",
+            "r": "For 10 points, name this merchant who later became president of the Continental Congress and signed the Declaration of Independence first."
+        },
+        {
+            "p": "This man reportedly hoped to be named commander of the Continental Army, but John Adams nominated George Washington instead. A few weeks earlier, Congress had chosen this man to replace Peyton Randolph as its president.",
+            "r": "For 10 points, name this Massachusetts delegate who later signed the Declaration of Independence in large letters."
+        },
+        {
+            "p": "In 1774, this man gave the yearly speech marking the anniversary of the Boston Massacre. Later that year, he was chosen president of the Massachusetts Provincial Congress, a Patriot government that met in defiance of the royal governor.",
+            "r": "He later presided over the Second Continental Congress. For 10 points, name this patriot with a famously large signature."
+        },
+        {
+            "p": "On the night before the fighting at Lexington and Concord, this man and Samuel Adams were staying at the Lexington home of the minister Jonas Clarke. Paul Revere and William Dawes rode out from Boston to warn them that British regulars were on the march.",
+            "r": "For 10 points, name this patriot who later signed the Declaration of Independence with a huge signature."
+        },
+        {
+            "p": "This man stepped down as governor in 1785, and James Bowdoin [“BOH-din”] was governor during Shays’ Rebellion before this man won the office back in 1787. He then held it until he died in 1793.",
+            "r": "In 1780, he had become the first governor of the state of Massachusetts. For 10 points, name this Founding Father whose name became slang for a signature."
+        },
+        {
+            "p": "As president of Congress, this man signed George Washington’s commission as commander in chief of the Continental Army in June 1775. Three years later, he also signed the Articles of Confederation.",
+            "r": "His bold signature stands out in the center of the Declaration of Independence. For 10 points, name this Massachusetts patriot and merchant."
+        },
+        {
+            "p": "After customs officials seized one of this merchant’s ships, the British turned it into a patrol ship, which angry colonists burned in Newport, Rhode Island, in 1769. That ship, the sloop _Liberty_, had been at the center of a riot in Boston the year before.",
+            "r": "For 10 points, name this merchant who later became the first signer of the Declaration of Independence."
+        },
+        {
+            "p": "This man is buried in Boston’s Granary Burying Ground, near Samuel Adams, Paul Revere, and the victims of the Boston Massacre. In 1775, he married Dorothy Quincy. The Massachusetts State House was later built on land that had been this man’s cow pasture on Beacon Hill.",
+            "r": "For 10 points, name this first governor of Massachusetts, whose large signature appears on the Declaration of Independence."
+        },
+        {
+            "p": "Samuel Adams helped this young merchant win a seat in the Massachusetts legislature in 1766, just after Boston traders boycotted British goods to protest the Stamp Act. The two men became leaders of the town’s resistance to British taxes.",
+            "r": "In 1776, he signed the Declaration of Independence with a very large signature. For 10 points, name this president of the Continental Congress."
+        },
+        {
+            "p": "A Boston life insurance company founded in 1862 was named for this man, and skyscrapers in Boston and Chicago long carried his name. During his lifetime, his ships and his wharf in Boston made him one of the wealthiest men in New England.",
+            "r": "His name became slang for a person’s signature. For 10 points, name this patriot who signed the Declaration of Independence first."
+        },
+        {
+            "p": "In 1785, Congress elected this man its president for a second time, but poor health kept him from serving. His first term as president had ended in 1777, when Henry Laurens [“LOR-unz”] of South Carolina replaced him.",
+            "r": "A popular legend says he signed the Declaration of Independence in huge letters so that King George III could read it without spectacles. For 10 points, name this patriot."
+        }
+    ],
+    "clues": [
+        {
+            "id": "big-signature",
+            "tier": "giveaway",
+            "t": "Signed the Declaration of Independence first, with the biggest signature on it",
+            "k": ["declaration of independence", "signature", "biggest", "first"],
+            "n": 0
+        },
+        {
+            "id": "slang",
+            "tier": "giveaway",
+            "t": "His name became American slang for a person’s signature",
+            "k": ["slang", "signature"],
+            "n": 0
+        },
+        {
+            "id": "congress-president",
+            "tier": "giveaway",
+            "t": "President of the Second Continental Congress (1775–1777)",
+            "k": ["second continental congress", "continental congress", "president"],
+            "n": 0
+        },
+        {
+            "id": "first-governor",
+            "tier": "giveaway",
+            "t": "First governor of the state of Massachusetts (elected 1780)",
+            "k": ["first governor", "governor", "1780"],
+            "n": 0,
+            "rabbit": "Massachusetts"
+        },
+        {
+            "id": "merchant",
+            "tier": "giveaway",
+            "t": "One of the richest merchants in Boston and a leading Patriot",
+            "k": ["merchant", "boston", "richest", "patriot"],
+            "n": 0
+        },
+        {
+            "id": "liberty",
+            "tier": "middle",
+            "t": "_Liberty_ affair (1768): customs officials seized his sloop _Liberty_ for smuggling, and a riot broke out",
+            "k": ["liberty", "sloop", "smuggling", "1768"],
+            "n": 0
+        },
+        {
+            "id": "revere-warning",
+            "tier": "middle",
+            "t": "Paul Revere and William Dawes rode to Lexington to warn him and Samuel Adams (April 1775)",
+            "k": ["paul revere", "revere", "william dawes", "lexington"],
+            "n": 0,
+            "rabbit": "Paul Revere"
+        },
+        {
+            "id": "spectacles",
+            "tier": "middle",
+            "t": "Legend says he signed big so King George III could read it without spectacles",
+            "k": ["spectacles", "king george", "legend"],
+            "n": 0
+        },
+        {
+            "id": "adams-lawyer",
+            "tier": "middle",
+            "t": "John Adams was his lawyer in the _Liberty_ smuggling case, and the charges were dropped",
+            "k": ["john adams", "lawyer", "dropped"],
+            "n": 0,
+            "rabbit": "John Adams"
+        },
+        {
+            "id": "gage-pardon",
+            "tier": "middle",
+            "t": "General Thomas Gage’s 1775 pardon offer left out only him and Samuel Adams",
+            "k": ["samuel adams", "gage", "pardon"],
+            "n": 0
+        },
+        {
+            "id": "thomson",
+            "tier": "middle",
+            "t": "Only he and secretary Charles Thomson signed the first printed Declaration (July 1776)",
+            "k": ["charles thomson", "thomson", "first printed"],
+            "n": 0
+        },
+        {
+            "id": "randolph",
+            "tier": "middle",
+            "t": "Took over as president of Congress from Peyton Randolph (May 1775)",
+            "k": ["peyton randolph", "randolph"],
+            "n": 0
+        },
+        {
+            "id": "shays",
+            "tier": "middle",
+            "t": "As governor, pardoned many of the farmers who had joined Shays’ Rebellion",
+            "k": ["shays", "pardoned", "farmers"],
+            "n": 0,
+            "rabbit": "Shays’ Rebellion"
+        },
+        {
+            "id": "uncle-thomas",
+            "tier": "power",
+            "t": "Raised by his rich uncle Thomas, whose trading business he inherited in 1764; graduated from Harvard in 1754",
+            "k": ["uncle", "inherited", "1764", "harvard"],
+            "n": 0
+        },
+        {
+            "id": "commander-hopes",
+            "tier": "power",
+            "t": "Hoped to command the Continental Army, but John Adams nominated George Washington",
+            "k": ["george washington", "commander", "nominated"],
+            "n": 0
+        },
+        {
+            "id": "commission-articles",
+            "tier": "power",
+            "t": "Signed Washington’s commission as commander in chief (1775) and the Articles of Confederation (1778)",
+            "k": ["articles of confederation", "commission"],
+            "n": 0,
+            "rabbit": "Articles of Confederation"
+        },
+        {
+            "id": "oration-1774",
+            "tier": "power",
+            "t": "Gave the 1774 Boston Massacre anniversary speech; president of the Massachusetts Provincial Congress",
+            "k": ["boston massacre", "provincial congress", "1774"],
+            "n": 0,
+            "rabbit": "Boston Massacre"
+        },
+        {
+            "id": "jonas-clarke",
+            "tier": "power",
+            "t": "Stayed at minister Jonas Clarke’s house in Lexington on the night of Revere’s ride",
+            "k": ["jonas clarke", "clarke"],
+            "n": 0
+        },
+        {
+            "id": "ratification",
+            "tier": "power",
+            "t": "Presided over the 1788 Massachusetts ratifying convention; his recommended amendments helped it approve the Constitution",
+            "k": ["ratifying convention", "amendments", "1788"],
+            "n": 0
+        },
+        {
+            "id": "newport",
+            "tier": "power",
+            "t": "The British made the _Liberty_ a patrol ship; colonists burned it in Newport, Rhode Island (1769)",
+            "k": ["newport", "rhode island", "1769"],
+            "n": 0
+        },
+        {
+            "id": "granary",
+            "tier": "power",
+            "t": "Married Dorothy Quincy (1775); buried in Boston’s Granary Burying Ground",
+            "k": ["dorothy quincy", "granary", "quincy"],
+            "n": 0
+        },
+        {
+            "id": "state-house",
+            "tier": "power",
+            "t": "The Massachusetts State House was built on his former cow pasture on Beacon Hill",
+            "k": ["state house", "cow pasture", "beacon hill"],
+            "n": 0
+        },
+        {
+            "id": "legislature-1766",
+            "tier": "power",
+            "t": "Won a seat in the Massachusetts legislature in 1766 with Samuel Adams’s help, after the Stamp Act boycotts",
+            "k": ["legislature", "stamp act", "1766"],
+            "n": 0
+        },
+        {
+            "id": "bowdoin",
+            "tier": "power",
+            "t": "Stepped down as governor in 1785; James Bowdoin governed during Shays’ Rebellion; he won the job back in 1787 and died in office in 1793",
+            "k": ["bowdoin", "1787", "1793"],
+            "n": 0
+        },
+        {
+            "id": "laurens",
+            "tier": "power",
+            "t": "Henry Laurens replaced him as president of Congress (1777); elected president again in 1785, but poor health kept him from serving",
+            "k": ["henry laurens", "laurens", "1785"],
+            "n": 0
+        },
+        {
+            "id": "insurance",
+            "tier": "power",
+            "t": "A Boston life insurance company (1862) and skyscrapers in Boston and Chicago were named for him",
+            "k": ["insurance", "skyscrapers", "chicago"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Two Hancocks, Two Adamses",
+        "body": "Winfield Scott Hancock was a different man: a Union general who held Cemetery Ridge at Gettysburg in 1863 and lost the 1880 presidential election to James Garfield. Clues about the night of Paul Revere’s ride name both this man and Samuel Adams, so players sometimes blurt out “Samuel Adams” instead, and John Adams, his lawyer in the _Liberty_ case, can be a trap too.",
+        "fix": "Revolution-era clues (the _Liberty_, the Continental Congress, the Declaration, the Massachusetts governorship) mean John Hancock; Civil War clues mean Winfield Scott Hancock. When a clue names two Patriot leaders, listen for which one the question wants: the rich merchant with the big signature is Hancock, and the organizer of the Sons of Liberty is Samuel Adams.",
+        "line": "Real answer line: John <b><u>Hancock</u></b>"
+    },
+    "tests": {
+        "right": [
+            "John Hancock",
+            "Hancock",
+            "Jon Hancock",
+            "Governor Hancock",
+            "John Hancok"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Winfield Scott Hancock",
+            "Samuel Adams",
+            "John Adams",
+            "Paul Revere",
+            "Herbie Hancock",
+            "Charles Thomson",
+            "Thomas Hancock"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
