@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "42nd U.S. President · Governor of Arkansas before the White House",
   "dates": "Born 1946; president 1993–2001",
-  "briefing": "Bill Clinton was born in Hope, Arkansas, shook hands with President John F. Kennedy as a teenager, and became the nation’s youngest governor at 32. In 1992 he defeated President George H. W. Bush and independent Ross Perot to become the 42nd president, the first born after World War II. His two terms brought NAFTA, welfare reform, and a balanced federal budget; the House impeached him in 1998, and the Senate acquitted him in 1999.",
+  "briefing": "Bill Clinton was born in Hope, Arkansas, shook hands with President John F. Kennedy as a teenager, and became the nation’s youngest governor at 32. In 1992 he defeated President George H. W. Bush and independent Ross Perot to become the 42nd president, the first born after World War II. During his two terms he signed NAFTA and welfare reform, and the federal budget was balanced; the House impeached him in 1998, and the Senate acquitted him in 1999.",
   "answerHtml": "<b><u>Bill Clinton</u></b> (accept <u>William</u> Jefferson <u>Clinton</u>; prompt on “Clinton” alone; do not accept “Hillary Clinton”)",
   "accept": [
     "bill clinton",
@@ -87,7 +87,7 @@
       "r": "His vice president was Al Gore. For 10 points, name this Democratic president who served from 1993 to 2001."
     },
     {
-      "p": "Vice President Al Gore broke a tie in the Senate to pass this president’s 1993 budget plan, which raised taxes on the highest earners. A health care plan drawn up by a task force led by this president’s wife never came to a vote in Congress and was dropped in 1994.",
+      "p": "Vice President Al Gore broke a tie in the Senate to pass this president’s 1993 budget plan, which raised taxes on the highest earners. A health care plan drawn up by a task force led by this president’s wife failed to pass Congress and was dropped in 1994.",
       "r": "For 10 points, name this Democratic president, a former governor of Arkansas and the husband of Hillary Rodham."
     },
     {
@@ -103,7 +103,7 @@
       "r": "For 10 points, name this president, the first Democrat since Franklin Roosevelt to win two full terms."
     },
     {
-      "p": "On the White House lawn in September 1993, this president stood between Israeli prime minister Yitzhak Rabin and PLO leader Yasser Arafat as they shook hands after signing the Oslo Accords. Two years later, his envoy Richard Holbrooke helped negotiate the Dayton Accords, which ended the war in Bosnia.",
+      "p": "On the White House lawn in September 1993, this president stood between Israeli prime minister Yitzhak Rabin and PLO leader Yasser Arafat as they shook hands at a signing ceremony for the Oslo Accords. Two years later, his envoy Richard Holbrooke helped negotiate the Dayton Accords, which ended the war in Bosnia.",
       "r": "For 10 points, name this former Arkansas governor who served as president from 1993 to 2001."
     },
     {
@@ -111,8 +111,8 @@
       "r": "For 10 points, name this 42nd president, whose vice president was Al Gore."
     },
     {
-      "p": "In early 1999, Chief Justice William Rehnquist presided over this president’s trial in the Senate, the first trial of its kind since Andrew Johnson’s in 1868. The Senate voted to acquit this president on both charges against him.",
-      "r": "The House had impeached him in December 1998 on charges of perjury and obstruction of justice. For 10 points, name this 42nd president."
+      "p": "Chief Justice William Rehnquist presided over this president’s trial in the Senate, the first trial of its kind since Andrew Johnson’s in 1868. In February 1999, the Senate voted to acquit this president.",
+      "r": "The House had impeached him in December 1998. For 10 points, name this 42nd president, a Democrat from Arkansas."
     },
     {
       "p": "This man won a Grammy Award for the audiobook of his 2004 memoir, _My Life_, and later served as the United Nations special envoy to Haiti. With George H. W. Bush, he raised money for victims of the 2004 Indian Ocean tsunami.",
@@ -158,12 +158,12 @@
     {
       "id": "impeached",
       "tier": "giveaway",
-      "t": "Impeached by the House in 1998 on charges of perjury and obstruction of justice; acquitted by the Senate in 1999",
+      "t": "Impeached by the House in December 1998 and acquitted by the Senate in February 1999",
       "k": [
         "impeached",
-        "perjury",
-        "obstruction of justice",
-        "acquitted"
+        "acquitted",
+        "house",
+        "senate"
       ],
       "n": 0,
       "rabbit": "Impeachment"

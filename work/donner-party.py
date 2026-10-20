@@ -112,7 +112,7 @@ data = {
           "That party was the Forlorn Hope. For 10 points, name this group of pioneers trapped in the Sierra Nevada."),
         T("In April 1847, the fourth and last relief party found Lewis Keseberg alone at this group’s lake camp, the final survivor to be rescued. Months earlier, the Mexican-American War had pulled many men away from California’s settlements, slowing rescue efforts.",
           "For 10 points, name this group of emigrants trapped in the Sierra Nevada in the winter of 1846 to 1847."),
-        T("In January 1847, William Eddy staggered into Johnson’s Ranch, the first of only seven snowshoers who made it out of the mountains to call for help. His group had left the lake camp a month earlier.",
+        T("In January 1847, William Eddy staggered into Johnson’s Ranch to call for help, the first to arrive of the only seven snowshoers who survived the trek out of the mountains. His group had left the lake camp a month earlier.",
           "That group was called the Forlorn Hope. For 10 points, name this group of pioneers trapped by snow in the Sierra Nevada."),
         T("In a May 1847 letter to her cousin, 13-year-old Virginia Reed wrote that she had not told half of their troubles, and she gave this advice: “Never take no cutoffs and hurry along as fast as you can.”",
           "For 10 points, name this group of pioneers whose disastrous shortcut left them trapped in the Sierra Nevada."),

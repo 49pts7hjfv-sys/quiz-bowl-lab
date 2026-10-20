@@ -193,7 +193,7 @@
     {
       "id": "henry-brown",
       "tier": "middle",
-      "t": "Justice Henry Billings Brown wrote the majority opinion: separating the races did not mean one race was inferior",
+      "t": "Justice Henry Billings Brown wrote the majority opinion, arguing that separating the races did not mark one race as inferior",
       "k": [
         "henry billings brown",
         "majority opinion",
@@ -364,7 +364,7 @@
     }
   ],
   "trap": {
-    "title": "Plessy or Brown?",
+    "title": "Upheld or struck down?",
     "body": "Tossups on _Brown v. Board of Education_ almost always mention Plessy v. Ferguson as the case it overturned, and Plessy tossups mention Brown, so it is easy to name the wrong one. It gets trickier: the justice who wrote the Plessy majority opinion was named Henry Billings Brown, and Plessy was about train cars, not schools. Answering “separate but equal” names the doctrine, not the case, and does not earn credit.",
     "fix": "1896, Louisiana trains, New Orleans, Albion Tourgée, John Marshall Harlan’s lone dissent, and segregation upheld mean Plessy v. Ferguson. 1954, schools in Topeka, Earl Warren, Thurgood Marshall, a unanimous Court, and segregation struck down mean _Brown v. Board of Education_.",
     "line": "Real answer line: <b><u>Plessy</u></b> v. Ferguson (prompt on “Homer Plessy”; do not accept “Brown v. Board of Education”)"
