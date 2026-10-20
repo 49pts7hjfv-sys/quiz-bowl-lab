@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "First U.S. women’s rights convention · Launched the fight for the vote",
   "dates": "Held July 19–20, 1848",
-  "briefing": "In July 1848, about 300 people crowded into a small chapel in upstate New York for the first women’s rights convention in the United States. Elizabeth Cady Stanton and Lucretia Mott led it, and Stanton’s Declaration of Sentiments boldly declared that “all men and women are created equal.” Its demand that women get the right to vote was so controversial that it barely passed, but it launched a 72-year fight that ended with the 19th Amendment in 1920.",
+  "briefing": "In July 1848, about 300 people crowded into a small chapel in upstate New York for the first women’s rights convention in the United States. Elizabeth Cady Stanton and Lucretia Mott led it, and Stanton’s Declaration of Sentiments boldly declared that “all men and women are created equal.” Its demand that women get the right to vote was so controversial that it was the only resolution that did not pass unanimously, but it launched a 72-year fight that ended with the 19th Amendment in 1920.",
   "answerHtml": "<b><u>Seneca Falls</u></b> Convention (accept <b><u>Seneca Falls</u></b> Women’s Rights Convention; prompt on <u>women’s rights convention</u>)",
   "accept": [
     "seneca falls convention",
@@ -39,7 +39,8 @@
     "niagara movement",
     "susan b anthony",
     "elizabeth cady stanton",
-    "lucretia mott"
+    "lucretia mott",
+    "seneca falls declaration"
   ],
   "mediaPending": true,
   "media": [],
@@ -79,7 +80,7 @@
       "r": "They were Lucretia Mott and Elizabeth Cady Stanton. For 10 points, name this first women’s rights convention in the United States."
     },
     {
-      "p": "Days after this event, Frederick Douglass praised it in his Rochester newspaper, _The North Star_. At this event, Douglass had argued that women deserved the vote just as much as men, helping one controversial resolution narrowly pass.",
+      "p": "Days after this event, Frederick Douglass praised it in his Rochester newspaper, _The North Star_. At this event, Douglass had argued that women deserved the vote just as much as men, helping one controversial resolution pass.",
       "r": "For 10 points, name this 1848 convention led by Elizabeth Cady Stanton and Lucretia Mott."
     },
     {
@@ -165,7 +166,7 @@
     {
       "id": "douglass",
       "tier": "middle",
-      "t": "Frederick Douglass spoke up for the voting resolution, which barely passed",
+      "t": "Frederick Douglass spoke up for the voting resolution and helped it pass",
       "k": [
         "frederick douglass",
         "douglass",
@@ -400,7 +401,8 @@
       "Constitutional Convention",
       "19th Amendment",
       "Women's suffrage",
-      "Akron convention"
+      "Akron convention",
+      "Seneca Falls Declaration"
     ]
   }
 }

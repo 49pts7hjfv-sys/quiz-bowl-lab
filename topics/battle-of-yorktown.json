@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Cornwallis’s 1781 surrender · Effectively ended the American Revolution",
   "dates": "Fought September 28–October 19, 1781",
-  "briefing": "In the fall of 1781, British general Lord Cornwallis dug in at Yorktown, a tobacco port on Virginia’s York River, expecting the Royal Navy to rescue him. Instead, a French fleet blocked the Chesapeake Bay, while George Washington’s Americans and the Comte de Rochambeau’s French soldiers surrounded the town and pounded it with cannons. On October 19, Cornwallis surrendered his whole army, which effectively ended the American Revolution.",
+  "briefing": "In August 1781, British general Lord Cornwallis dug in at Yorktown, a tobacco port on Virginia’s York River, expecting help from the Royal Navy. Instead, a French fleet blocked the Chesapeake Bay, while George Washington’s Americans and the Comte de Rochambeau’s French soldiers surrounded the town and pounded it with cannons. On October 19, Cornwallis surrendered his whole army, which effectively ended the American Revolution.",
   "answerHtml": "Battle of <b><u>Yorktown</u></b> (or Siege of <b><u>Yorktown</u></b>; prompt on descriptions of Cornwallis’s surrender)",
   "accept": [
     "yorktown",
@@ -424,7 +424,7 @@
     "title": "Yorktown or Saratoga?",
     "body": "Two big Revolutionary War surrenders get mixed up. At Saratoga (1777, New York), John Burgoyne surrendered to Horatio Gates, and that victory convinced France to join the war; at Yorktown (1781, Virginia), Charles Cornwallis surrendered to Washington and the French, which effectively ended the war. Players also blurt out the Battle of the Chesapeake, the French naval victory that trapped Cornwallis, or Jamestown, Yorktown’s neighbor in Virginia’s Historic Triangle.",
     "fix": "Burgoyne, Gates, Benedict Arnold, and 1777 mean Saratoga; Cornwallis, Rochambeau, de Grasse, Redoubt No. 10, and 1781 mean Yorktown. If the question asks for “this naval battle,” the answer is the Battle of the Chesapeake (also called the Battle of the Virginia Capes).",
-    "line": "Real answer line: Battle of <b><u>Yorktown</u></b> (or Siege of <b><u>Yorktown</u></b>)"
+    "line": "Real answer line: Battle of <b><u>Yorktown</u></b> (or Siege of <b><u>Yorktown</u></b>; prompt on descriptions of Cornwallis’s surrender)"
   },
   "tests": {
     "right": [

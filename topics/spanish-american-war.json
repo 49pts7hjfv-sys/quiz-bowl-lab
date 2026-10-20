@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "1898 war between the U.S. and Spain · Made America an overseas power",
   "dates": "Fought April–August 1898",
-  "briefing": "In February 1898, the American warship _Maine_ exploded in the harbor of Havana, Cuba, and many newspapers blamed Spain. Within two months the United States was at war, winning at sea in the Philippines and on land in Cuba, where Theodore Roosevelt’s Rough Riders charged up Kettle Hill and San Juan Hill. The war lasted less than four months, and in the peace treaty Spain gave the United States Puerto Rico, Guam, and the Philippines.",
+  "briefing": "In February 1898, the American warship _Maine_ exploded in the harbor of Havana, Cuba, and many newspapers blamed Spain. About two months later, the United States was at war, winning at sea in the Philippines and on land in Cuba, where Theodore Roosevelt’s Rough Riders charged up Kettle Hill and San Juan Hill. The war lasted less than four months, and in the peace treaty Spain gave the United States Puerto Rico, Guam, and the Philippines.",
   "answerHtml": "<b><u>Spanish-American</u></b> War (or <b><u>War of 1898</u></b>; accept Spanish–Cuban–American War; prompt on <u>Cuban War of Independence</u>)",
   "accept": [
     "spanish american war",
@@ -37,7 +37,8 @@
     "cuban revolution",
     "ten years war",
     "battle of san juan hill",
-    "san juan hill"
+    "san juan hill",
+    "spanish american war of independence"
   ],
   "mediaPending": true,
   "media": [],
@@ -53,7 +54,7 @@
   },
   "tossups": [
     {
-      "p": "A 1976 investigation led by Admiral Hyman Rickover concluded that a fire in a coal bunker, not an enemy mine, most likely caused the explosion that helped start this war. A U.S. Navy court of inquiry at the time had instead blamed a mine for that blast.",
+      "p": "A 1976 investigation led by Admiral Hyman Rickover concluded that a fire in a coal bunker, not a mine, most likely caused the explosion that helped start this war. A U.S. Navy court of inquiry at the time had instead blamed a mine for that blast.",
       "r": "That blast sank the USS _Maine_, inspiring the slogan “Remember the _Maine_!” For 10 points, name this 1898 war between the United States and Spain."
     },
     {
@@ -97,7 +98,7 @@
       "r": "In that Treaty of Paris, Spain gave the United States Puerto Rico, Guam, and the Philippines. For 10 points, name this 1898 war."
     },
     {
-      "p": "Rudyard Kipling’s 1899 poem “The White Man’s Burden” urged Americans to take control of lands won in this war. The Filipino leader Emilio Aguinaldo [“ah-ghee-NAHL-doh”], who had fought against his islands’ old colonial rulers during this war, then led a rebellion against the United States.",
+      "p": "Rudyard Kipling’s 1899 poem “The White Man’s Burden” urged Americans to take control of lands won in this war. The Filipino leader Emilio Aguinaldo [“ah-ghee-NAHL-doh”], who had fought against his islands’ old colonial rulers during this war, then led Filipino forces against the United States.",
       "r": "For 10 points, name this 1898 war after which the U.S. paid Spain $20 million for the Philippines."
     },
     {
@@ -105,7 +106,7 @@
       "r": "For 10 points, name this 1898 war in which Theodore Roosevelt led the Rough Riders."
     },
     {
-      "p": "Writers known as the Generation of ’98, such as Miguel de Unamuno [“oo-nah-MOO-noh”], reflected on their country’s crushing defeat in this war, which they called “the Disaster.” That defeat ended their country’s empire in the Americas.",
+      "p": "Writers known as the Generation of ’98, such as Miguel de Unamuno [“oo-nah-MOO-noh”], reflected on their country’s crushing defeat in this war, which Spaniards called “the Disaster.” That defeat ended their country’s empire in the Americas.",
       "r": "For 10 points, name this 1898 war in which Spain lost Cuba, Puerto Rico, Guam, and the Philippines to the United States."
     },
     {
@@ -426,7 +427,7 @@
     "title": "Not Mexico, not the Philippines",
     "body": "Three American wars sound alike. The Mexican-American War (1846–1848) won California and the Southwest, the Spanish-American War (1898) ended Spanish rule in Cuba, and the Philippine-American War (1899–1902) began when Filipinos led by Emilio Aguinaldo fought U.S. rule. The Spanish Civil War (1936–1939) was a different war, fought among Spaniards inside Spain.",
     "fix": "Listen for 1898, Cuba, the _Maine_, Manila Bay, San Juan Hill, the Rough Riders, and yellow journalism. Zachary Taylor, Santa Anna, and the Mexican Cession mean the Mexican-American War; Aguinaldo fighting U.S. troops after 1899 means the Philippine-American War.",
-    "line": "Real answer line: <b><u>Spanish-American</u></b> War (or <b><u>War of 1898</u></b>; accept Spanish–Cuban–American War)"
+    "line": "Real answer line: <b><u>Spanish-American</u></b> War (or <b><u>War of 1898</u></b>; accept Spanish–Cuban–American War; prompt on <u>Cuban War of Independence</u>)"
   },
   "tests": {
     "right": [
@@ -447,7 +448,8 @@
       "War of 1812",
       "Cuban Revolution",
       "Spanish Armada",
-      "American Revolution"
+      "American Revolution",
+      "Spanish-American War of Independence"
     ]
   }
 }

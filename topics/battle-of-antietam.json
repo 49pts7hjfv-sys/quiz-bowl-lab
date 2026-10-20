@@ -397,7 +397,7 @@
     "title": "Antietam or Gettysburg?",
     "body": "Both battles ended a Confederate invasion of the North led by Robert E. Lee, and both had enormous losses, so players mix them up. Antietam (September 1862, Maryland) was the bloodiest single day, ended Lee’s first invasion, and led to the Emancipation Proclamation. Gettysburg (July 1863, Pennsylvania) lasted three days, ended Lee’s second invasion, and led to the Gettysburg Address.",
     "fix": "McClellan, the Lost Order, the Cornfield, Bloody Lane, Burnside’s Bridge, and September 1862 mean Antietam. “Sharpsburg” is also correct, because Confederates often named battles after nearby towns.",
-    "line": "Real answer line: Battle of <b><u>Antietam</u></b> (or Battle of <b><u>Sharpsburg</u></b>)"
+    "line": "Real answer line: Battle of <b><u>Antietam</u></b> (or Battle of <b><u>Sharpsburg</u></b>; prompt on <u>Maryland Campaign</u>)"
   },
   "tests": {
     "right": [
