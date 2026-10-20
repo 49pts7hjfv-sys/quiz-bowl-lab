@@ -175,7 +175,7 @@ data = {
         },
         {
             "p": "In 2002, Pope John Paul II added the Luminous Mysteries to a string of prayer beads used to honor this woman, which already had Joyful, Sorrowful, and Glorious Mysteries. On that string, each group of ten beads, called a decade, is used to count prayers that begin with the angel’s greeting to her.",
-            "r": "That string of beads is the rosary. For 10 points, name this woman, the mother of Jesus."
+            "r": "That string of beads is called the rosary. For 10 points, name this woman whom Catholics honor as the mother of Jesus."
         }
     ],
     "clues": [
