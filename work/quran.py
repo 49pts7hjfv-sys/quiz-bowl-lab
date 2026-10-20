@@ -1,0 +1,332 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "quran",
+    "name": "Quran",
+    "mono": "QR",
+    "category": "Religion",
+    "qbCategory": "Religion",
+    "kicker": "Holy book of Islam · Muslims believe it was revealed to Muhammad",
+    "dates": "Revealed 610–632 CE, according to Muslim belief",
+    "briefing": "Muslims believe the Quran is the word of God, revealed in Arabic to the Prophet Muhammad by the angel Gabriel over about 23 years, starting in a mountain cave around 610. Its 114 chapters, called surahs, run roughly from longest to shortest, and its name means “the recitation.” Many Muslims memorize the entire book, earning the title hafiz, and printed copies are handled with great respect.",
+    "answerHtml": "<b><u>Quran</u></b> (or <u>Koran</u> or <u>Qur’an</u>; accept <u>al-Quran</u> or the Holy <u>Quran</u>; do not accept “Hadith” or “Sunnah”)",
+    "accept": [
+        "quran",
+        "koran",
+        "quraan",
+        "al quran",
+        "the quran",
+        "holy quran",
+        "the holy quran",
+        "noble quran",
+        "the noble quran",
+        "quran karim",
+        "al quran al karim"
+    ],
+    "prompt": [],
+    "reject": [
+        "hadith",
+        "hadiths",
+        "sunnah",
+        "sunna",
+        "islam",
+        "sharia",
+        "tafsir",
+        "surah",
+        "sura",
+        "fatiha",
+        "al fatiha",
+        "torah",
+        "tawrat",
+        "bible",
+        "injil",
+        "gospel",
+        "zabur",
+        "psalms",
+        "talmud",
+        "guru granth sahib",
+        "kitab i aqdas",
+        "book of mormon",
+        "avesta",
+        "vedas",
+        "muhammad",
+        "bukhari",
+        "sahih al bukhari"
+    ],
+    "tests": {
+        "right": [
+            "Quran",
+            "Koran",
+            "Qur'an",
+            "the Holy Quran",
+            "Quaran",
+            "Al-Quran"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Hadith",
+            "Torah",
+            "Bible",
+            "Islam",
+            "Sunnah",
+            "Al-Fatiha",
+            "Surah",
+            "Muhammad"
+        ]
+    },
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Quran",
+    "qb": {
+        "q": "Quran",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The seven verses of this book’s opening chapter, “The Opening,” are recited in every unit of the daily prayers, and they ask God to “guide us to the straight path.” This book’s last two chapters, “The Daybreak” and “The People,” are often recited for protection.",
+            "r": "That opening chapter is called al-Fatiha [“al-FAH-tee-hah”]. For 10 points, name this holy book of Islam."
+        },
+        {
+            "p": "Except for its short opening chapter, this book’s chapters are arranged roughly from longest to shortest, not in the order in which believers say they were revealed. The longest, “The Cow,” has 286 verses, while “Abundance,” or al-Kawthar [“al-KOW-thar”], has only three.",
+            "r": "This book has 114 chapters, called surahs. For 10 points, name this holy book of Islam."
+        },
+        {
+            "p": "After many people who had memorized this book died at the Battle of Yamama [“yah-MAH-mah”], Abu Bakr asked Zayd ibn Thabit [“ZAYD ib-un THAH-bit”] to gather its verses from written pieces and from memory. Under the third caliph, Uthman [“ooth-MAHN”], an official standard text was copied and sent to major cities.",
+            "r": "For 10 points, name this holy book of Islam, which Muslims believe was revealed to Muhammad."
+        },
+        {
+            "p": "A person who has memorized all of this book is honored with the title hafiz [“HAH-fiz”], and skilled reciters, called qaris [“KAH-reez”], follow detailed rules of pronunciation and rhythm called tajwid [“taj-WEED”] when they chant it aloud.",
+            "r": "During Ramadan, many mosques recite one-thirtieth of it each night. For 10 points, name this scripture of Islam."
+        },
+        {
+            "p": "According to tradition, the first words of this book to be revealed open the chapter called “The Clot,” with the command “Read!” or “Recite!” in the name of God, who created humans from a clinging clot. Believers say those words came in a cave on Mount Hira [“hih-RAH”] around 610.",
+            "r": "Muslims believe the angel Gabriel brought this book to Muhammad over about 23 years. For 10 points, name this scripture."
+        },
+        {
+            "p": "This book’s name comes from an Arabic word meaning “the recitation.” Because believers hold that its exact Arabic words came from God, translations into other languages are usually treated as interpretations of its meaning rather than as the book itself.",
+            "r": "For 10 points, name this holy book of Islam, divided into 114 surahs."
+        },
+        {
+            "p": "A short chapter of this book says that the night on which it was first sent down is “better than a thousand months.” Believers mark that night, Laylat al-Qadr [“LAY-lat al-KAH-der”], or the Night of Power, during the last ten nights of a holy month.",
+            "r": "That month is Ramadan, when many Muslims try to read all of it. For 10 points, name this holy book of Islam."
+        },
+        {
+            "p": "The Throne Verse, the 255th verse of this book’s longest chapter, describes a God who is never overtaken by sleep, with a throne that “extends over the heavens and the earth.” Many believers recite that verse, Ayat al-Kursi [“AH-yat al-KOOR-see”], for protection before going to sleep.",
+            "r": "For 10 points, name this holy book of Islam, whose longest chapter is called “The Cow.”"
+        },
+        {
+            "p": "Every chapter of this book except the ninth begins with the words “In the name of God, the Most Gracious, the Most Merciful.” That phrase, the basmala [“BAHS-muh-lah”], is also said by many believers before meals and other everyday actions.",
+            "r": "For 10 points, name this holy book that Muslims believe God revealed to Muhammad, made up of chapters called surahs."
+        },
+        {
+            "p": "The only chapter of this book named for a woman tells of the birth of Jesus, and another chapter calls the life of Joseph “the most beautiful of stories.” Moses is named in this book more often than any other person.",
+            "r": "For 10 points, name this holy book that Muslims believe the angel Gabriel revealed to Muhammad."
+        },
+        {
+            "p": "Scholars divide this book’s chapters into earlier “Meccan” ones, which are usually short and focus on faith in one God and the coming judgment, and later “Medinan” ones, which are longer and give rules for family life and the community.",
+            "r": "Each of those chapters is called a surah. For 10 points, name this holy book of Islam, whose verses are called ayat [“ah-YAHT”]."
+        },
+        {
+            "p": "In 2015, scientists at the University of Birmingham radiocarbon-dated two pages of this book’s text, written on animal skin, to between 568 and 645 CE, making them among the oldest copies known. Other early pages were found in 1972, hidden in a space under the roof of the Great Mosque of Sanaa [“sah-NAH”] in Yemen.",
+            "r": "For 10 points, name this holy book of Islam, whose standard text was compiled under the caliph Uthman."
+        },
+        {
+            "p": "In 1143, Robert of Ketton made the first Latin translation of this book for Peter the Venerable, the abbot of Cluny [“KLOO-nee”]. Centuries later, Thomas Jefferson owned a copy of George Sale’s English translation of this book, first published in 1734.",
+            "r": "In 2007, Keith Ellison, the first Muslim elected to Congress, used Jefferson’s copy at his ceremonial swearing-in. For 10 points, name this scripture of Islam."
+        },
+        {
+            "p": "Twenty-nine chapters of this book open with mysterious separate letters, such as “Alif, Lam, Mim” [“AH-lif, LAHM, MEEM”], whose meaning scholars have long debated. Commentaries that explain this book’s meaning, such as a famous one by al-Tabari [“al-tah-BAH-ree”], are called tafsir [“taf-SEER”].",
+            "r": "For 10 points, name this holy book of Islam, made up of 114 surahs."
+        },
+        {
+            "p": "This book challenges anyone who doubts it to produce even one chapter like it, and many believers regard its language as impossible to imitate. Out of respect, many believers wash before touching a printed copy of it and keep it on a high shelf, never on the floor.",
+            "r": "Its 114 chapters are called surahs. For 10 points, name this holy book of Islam, whose name means “the recitation.”"
+        }
+    ],
+    "clues": [
+        {
+            "id": "holy-book",
+            "tier": "giveaway",
+            "t": "The holy book of Islam, which Muslims believe is the word of God",
+            "k": ["holy book", "islam", "word of god"],
+            "n": 0,
+            "rabbit": "Islam"
+        },
+        {
+            "id": "gabriel",
+            "tier": "giveaway",
+            "t": "Muslims believe the angel Gabriel revealed it to Muhammad over about 23 years, beginning around 610",
+            "k": ["gabriel", "muhammad", "23 years", "610"],
+            "n": 0,
+            "rabbit": "Muhammad"
+        },
+        {
+            "id": "surahs",
+            "tier": "giveaway",
+            "t": "Divided into 114 chapters called surahs, made up of verses called ayat",
+            "k": ["114", "surahs", "ayat"],
+            "n": 0
+        },
+        {
+            "id": "arabic",
+            "tier": "giveaway",
+            "t": "Written in Arabic; its name means “the recitation”",
+            "k": ["arabic", "recitation"],
+            "n": 0
+        },
+        {
+            "id": "fatiha",
+            "tier": "middle",
+            "t": "Opens with al-Fatiha (“The Opening”), seven verses recited in every unit of daily prayer",
+            "k": ["al-fatiha", "the opening", "seven verses"],
+            "n": 0
+        },
+        {
+            "id": "the-cow",
+            "tier": "middle",
+            "t": "Chapters run roughly from longest to shortest; “The Cow” (al-Baqarah, 286 verses) is the longest",
+            "k": ["the cow", "al-baqarah", "286", "longest"],
+            "n": 0
+        },
+        {
+            "id": "hafiz",
+            "tier": "middle",
+            "t": "A hafiz has memorized the whole book; skilled reciters (qaris) follow rules called tajwid",
+            "k": ["hafiz", "qaris", "tajwid", "memorized"],
+            "n": 0
+        },
+        {
+            "id": "night-of-power",
+            "tier": "middle",
+            "t": "First sent down on Laylat al-Qadr, the Night of Power, in Ramadan; a short chapter calls it “better than a thousand months”",
+            "k": ["laylat al-qadr", "night of power", "ramadan", "thousand months"],
+            "n": 0,
+            "rabbit": "Ramadan"
+        },
+        {
+            "id": "uthman",
+            "tier": "middle",
+            "t": "Collected by Zayd ibn Thabit under Abu Bakr; a standard text was made under the third caliph, Uthman",
+            "k": ["uthman", "zayd ibn thabit", "abu bakr", "third caliph"],
+            "n": 0
+        },
+        {
+            "id": "read",
+            "tier": "middle",
+            "t": "First revealed words: “Read!” opening the chapter “The Clot,” in a cave on Mount Hira",
+            "k": ["the clot", "mount hira", "read"],
+            "n": 0
+        },
+        {
+            "id": "kawthar",
+            "tier": "power",
+            "t": "Shortest chapter: al-Kawthar (“Abundance”), three verses; the last two chapters, “The Daybreak” and “The People,” are said for protection",
+            "k": ["al-kawthar", "abundance", "daybreak"],
+            "n": 0
+        },
+        {
+            "id": "yamama",
+            "tier": "power",
+            "t": "Many memorizers died at the Battle of Yamama, which led to the first written collection",
+            "k": ["yamama", "memorizers"],
+            "n": 0
+        },
+        {
+            "id": "translations",
+            "tier": "power",
+            "t": "Translations are treated as interpretations, not the book itself, since believers hold that its Arabic words came from God",
+            "k": ["translations", "interpretations"],
+            "n": 0
+        },
+        {
+            "id": "throne-verse",
+            "tier": "power",
+            "t": "The Throne Verse (Ayat al-Kursi), verse 255 of “The Cow,” describes God’s throne over the heavens and the earth",
+            "k": ["throne verse", "ayat al-kursi", "255"],
+            "n": 0
+        },
+        {
+            "id": "basmala",
+            "tier": "power",
+            "t": "Every chapter except the ninth begins with the basmala: “In the name of God, the Most Gracious, the Most Merciful”",
+            "k": ["basmala", "ninth", "most merciful"],
+            "n": 0
+        },
+        {
+            "id": "maryam-joseph",
+            "tier": "power",
+            "t": "Only chapter named for a woman: Maryam (Surah 19); Joseph’s story is “the most beautiful of stories”; Moses is named most often",
+            "k": ["maryam", "joseph", "most beautiful", "moses"],
+            "n": 0,
+            "rabbit": "Mary, mother of Jesus"
+        },
+        {
+            "id": "meccan-medinan",
+            "tier": "power",
+            "t": "Earlier Meccan chapters are short and about faith; later Medinan chapters are longer, with rules for the community",
+            "k": ["meccan", "medinan"],
+            "n": 0
+        },
+        {
+            "id": "birmingham",
+            "tier": "power",
+            "t": "Birmingham pages radiocarbon-dated to 568–645 CE; early pages were also found in the Great Mosque of Sanaa, Yemen (1972)",
+            "k": ["birmingham", "radiocarbon", "sanaa"],
+            "n": 0
+        },
+        {
+            "id": "ketton",
+            "tier": "power",
+            "t": "First Latin translation by Robert of Ketton (1143); Jefferson owned George Sale’s English translation, which Keith Ellison used at his 2007 swearing-in",
+            "k": ["robert of ketton", "1143", "george sale", "keith ellison", "jefferson"],
+            "n": 0
+        },
+        {
+            "id": "mysterious-letters",
+            "tier": "power",
+            "t": "Twenty-nine chapters open with mysterious separate letters, like “Alif, Lam, Mim”",
+            "k": ["mysterious", "letters", "alif"],
+            "n": 0
+        },
+        {
+            "id": "tafsir",
+            "tier": "power",
+            "t": "Tafsir: commentary explaining its meaning, such as al-Tabari’s",
+            "k": ["tafsir", "tabari", "commentary"],
+            "n": 0
+        },
+        {
+            "id": "inimitable",
+            "tier": "power",
+            "t": "Challenges doubters to produce one chapter like it; believers wash before touching a copy and keep it on a high shelf",
+            "k": ["challenges", "high shelf", "wash"],
+            "n": 0
+        },
+        {
+            "id": "juz",
+            "tier": "power",
+            "t": "Divided into 30 parts, each called a juz’, so it can be recited over the nights of Ramadan",
+            "k": ["juz", "30 parts"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Book, not sayings",
+        "body": "The Quran and the hadith are both central to Islam, but they are different answer lines. Muslims regard the Quran as God’s own words, revealed through Gabriel, while the hadith are reports of Muhammad’s sayings and actions, gathered later by scholars such as al-Bukhari. A question about a single chapter, like al-Fatiha or “The Cow,” may also want that chapter’s name instead of the whole book.",
+        "fix": "Surahs, ayat, a hafiz, Uthman’s standard text, or the first command “Read!” mean the Quran. Chains of narrators (isnad) or collections by al-Bukhari mean hadith; if the question says “this chapter,” give the surah’s name.",
+        "line": "Real answer line: <b><u>Quran</u></b> (or <u>Koran</u> or <u>Qur’an</u>; do not accept “Hadith”)"
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

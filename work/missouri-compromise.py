@@ -1,0 +1,340 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "missouri-compromise",
+    "name": "Missouri Compromise",
+    "mono": "MOC",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1820 deal on where slavery could spread · Drew the 36°30′ line",
+    "dates": "Passed 1820; repealed 1854",
+    "briefing": "Thomas Jefferson said the fight over Missouri woke him “like a fire bell in the night.” By late 1819 the Union had 11 free states and 11 slave states, so Missouri’s request to join as a slave state threatened the balance in the Senate. The 1820 deal let Missouri in with slavery, added Maine as a free state, and banned slavery in the rest of the Louisiana Purchase north of the 36°30′ line, a rule that lasted until the Kansas–Nebraska Act of 1854.",
+    "answerHtml": "<b><u>Missouri Compromise</u></b> (accept <u>Compromise of 1820</u>; prompt on “Missouri” or “compromise” alone; do not accept “Compromise of 1850”)",
+    "accept": [
+        "missouri compromise",
+        "the missouri compromise",
+        "compromise of 1820",
+        "the compromise of 1820",
+        "1820 compromise",
+        "missouri compromise of 1820"
+    ],
+    "prompt": [
+        "missouri",
+        "compromise",
+        "the compromise"
+    ],
+    "reject": [
+        "compromise of 1850",
+        "1850 compromise",
+        "compromise of 1877",
+        "compromise of 1833",
+        "compromise tariff",
+        "compromise tariff of 1833",
+        "great compromise",
+        "connecticut compromise",
+        "three fifths compromise",
+        "3 5 compromise",
+        "crittenden compromise",
+        "kansas nebraska act",
+        "kansas nebraska",
+        "dred scott v sandford",
+        "dred scott",
+        "dred scott decision",
+        "fugitive slave act",
+        "fugitive slave act of 1850",
+        "wilmot proviso",
+        "tallmadge amendment",
+        "northwest ordinance",
+        "louisiana purchase",
+        "henry clay",
+        "missouri river"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Missouri_Compromise",
+    "qb": {
+        "q": "Missouri Compromise",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Senator Jesse Thomas of Illinois added a provision to this agreement that banned slavery in the rest of the Louisiana Purchase north of 36 degrees, 30 minutes north latitude. Speaker of the House Henry Clay helped push this deal through Congress.",
+            "r": "It admitted Maine to the Union as a free state. For 10 points, name this 1820 agreement over the spread of slavery."
+        },
+        {
+            "p": "New York congressman James Tallmadge set off the fight that led to this agreement by proposing that slavery be ended gradually in a territory that wanted to become a state. His amendment passed the House, where free states had more members, but it failed in the Senate.",
+            "r": "For 10 points, name this 1820 deal that admitted Maine as a free state and drew a line across the Louisiana Purchase."
+        },
+        {
+            "p": "In an 1820 letter about the fight over this agreement, Thomas Jefferson compared slavery to holding “the wolf by the ear.” In the same letter, he said that fight had woken him “like a fire bell in the night.”",
+            "r": "For 10 points, name this 1820 agreement that banned slavery north of a line at 36 degrees, 30 minutes north latitude in the Louisiana Purchase."
+        },
+        {
+            "p": "John Quincy Adams wrote in his diary that the debate over this agreement was “a title-page to a great tragic volume.” During that debate, Senator Rufus King of New York was a leading opponent of admitting another slave state.",
+            "r": "This deal also let Maine become a state separate from Massachusetts. For 10 points, name this 1820 agreement."
+        },
+        {
+            "p": "Kentucky senator John Crittenden tried to prevent the Civil War by proposing to bring back this agreement’s dividing line and extend it west to the Pacific Ocean. That line ran along 36 degrees, 30 minutes north latitude.",
+            "r": "For 10 points, name this 1820 agreement, pushed through Congress with help from Henry Clay, that admitted Maine as a free state."
+        },
+        {
+            "p": "A year after this agreement passed, Henry Clay worked out a second deal because the constitution written for a new slave state tried to keep free Black people from moving there. That state finally entered the Union in 1821 as the 24th state.",
+            "r": "For 10 points, name this 1820 agreement that paired the admission of that slave state with the admission of Maine as a free state."
+        },
+        {
+            "p": "Dred Scott argued that he had become free while living at Fort Snelling, in a territory where this agreement banned slavery. In 1857, Chief Justice Roger Taney [“TAW-nee”] ruled that Congress had never had the power to ban slavery in the territories, so this agreement’s ban was unconstitutional.",
+            "r": "For 10 points, name this 1820 agreement that drew a line at 36 degrees, 30 minutes north latitude."
+        },
+        {
+            "p": "The Republican Party was founded in 1854 by people angry about a bill that would end this agreement. That bill, Stephen Douglas’s Kansas–Nebraska Act, let settlers vote on slavery instead, an idea called popular sovereignty.",
+            "r": "This agreement had admitted Maine as a free state in 1820. For 10 points, name this agreement associated with Henry Clay."
+        },
+        {
+            "p": "In an 1854 speech at Peoria, Illinois, Abraham Lincoln attacked the law that had just repealed this agreement. This agreement had banned slavery in the lands of the Louisiana Purchase north of a certain line, except in one new state.",
+            "r": "For 10 points, name this 1820 agreement that also admitted Maine as a free state."
+        },
+        {
+            "p": "William King led the movement that finally separated a northern district from Massachusetts as part of this agreement, and King became the first governor of the new state. This agreement balanced that free state with a new slave state west of the Mississippi River.",
+            "r": "For 10 points, name this 1820 agreement, pushed through by Henry Clay, that admitted Maine as the 23rd state."
+        },
+        {
+            "p": "President James Monroe asked his cabinet whether Congress had the power to ban slavery in the territories before he signed this agreement in March 1820. At the time, the Union had 11 free states and 11 slave states.",
+            "r": "For 10 points, name this agreement that kept that balance by admitting Maine as a free state along with a new slave state."
+        },
+        {
+            "p": "The dividing line drawn by this agreement follows most of the border between Arkansas and the state to its north, except for that state’s “Bootheel.” North of that line, this agreement banned slavery in the lands of the Louisiana Purchase.",
+            "r": "For 10 points, name this 1820 agreement that paired Maine’s admission as a free state with a new slave state."
+        },
+        {
+            "p": "John Randolph of Virginia mocked the Northern congressmen who voted with the South during the debate over this agreement as “doughfaces.” After this agreement fully took effect, the Union had 12 free states and 12 slave states.",
+            "r": "This agreement admitted Maine as the 23rd state. For 10 points, name this deal that Henry Clay helped pass in 1820."
+        },
+        {
+            "p": "This was the first of three deals, along with a tariff bargain in 1833 and a group of laws in 1850, that earned Henry Clay his reputation for settling fights between the North and the South. This deal divided the Louisiana Purchase lands into slave and free areas.",
+            "r": "For 10 points, name this 1820 agreement that admitted Maine as a free state and drew a line at 36 degrees, 30 minutes."
+        },
+        {
+            "p": "The northern border of the Texas Panhandle runs along the same line of latitude that this agreement used to divide slave and free land. Violence broke out in “Bleeding Kansas” after Congress repealed this agreement in 1854.",
+            "r": "For 10 points, name this 1820 deal that let Maine join the Union as a free state."
+        }
+    ],
+    "clues": [
+        {
+            "id": "maine-missouri",
+            "tier": "giveaway",
+            "t": "Admitted Missouri as a slave state and Maine as a free state, keeping the Senate balanced",
+            "k": ["maine", "slave state", "free state", "senate"],
+            "n": 0
+        },
+        {
+            "id": "year-1820",
+            "tier": "giveaway",
+            "t": "Passed by Congress in 1820 and signed by President James Monroe",
+            "k": ["1820", "james monroe", "monroe"],
+            "n": 0,
+            "rabbit": "James Monroe"
+        },
+        {
+            "id": "line-36-30",
+            "tier": "giveaway",
+            "t": "Banned slavery in the rest of the Louisiana Purchase north of 36°30′ north latitude",
+            "k": ["36°30′", "louisiana purchase", "latitude"],
+            "n": 0,
+            "rabbit": "Louisiana Purchase"
+        },
+        {
+            "id": "henry-clay",
+            "tier": "giveaway",
+            "t": "Henry Clay, “the Great Compromiser,” helped push it through Congress as Speaker of the House",
+            "k": ["henry clay", "great compromiser", "speaker"],
+            "n": 0,
+            "rabbit": "Henry Clay"
+        },
+        {
+            "id": "kansas-nebraska",
+            "tier": "middle",
+            "t": "Repealed by Stephen Douglas’s Kansas–Nebraska Act (1854), which let settlers vote on slavery (popular sovereignty) and led to “Bleeding Kansas”",
+            "k": ["kansas–nebraska", "1854", "popular sovereignty", "bleeding kansas", "douglas"],
+            "n": 0,
+            "rabbit": "Kansas–Nebraska Act"
+        },
+        {
+            "id": "dred-scott",
+            "tier": "middle",
+            "t": "Ruled unconstitutional in _Dred Scott v. Sandford_ (1857) by Chief Justice Roger Taney",
+            "k": ["dred scott", "taney", "1857", "unconstitutional"],
+            "n": 0,
+            "rabbit": "Dred Scott v. Sandford"
+        },
+        {
+            "id": "fire-bell",
+            "tier": "middle",
+            "t": "Thomas Jefferson said the crisis over it woke him “like a fire bell in the night”",
+            "k": ["fire bell", "jefferson"],
+            "n": 0
+        },
+        {
+            "id": "massachusetts",
+            "tier": "middle",
+            "t": "Maine had been part of Massachusetts until it became the 23rd state in 1820",
+            "k": ["massachusetts", "23rd state"],
+            "n": 0,
+            "rabbit": "Massachusetts"
+        },
+        {
+            "id": "tallmadge",
+            "tier": "middle",
+            "t": "The Tallmadge Amendment (1819), which would have ended slavery in Missouri gradually, set off the crisis; it passed the House but failed in the Senate",
+            "k": ["tallmadge", "gradually", "1819"],
+            "n": 0
+        },
+        {
+            "id": "balance",
+            "tier": "middle",
+            "t": "Kept the balance: 11 free and 11 slave states before it, and 12 of each after both new states joined",
+            "k": ["balance", "12 of each", "11 free"],
+            "n": 0
+        },
+        {
+            "id": "republican-party",
+            "tier": "middle",
+            "t": "The Republican Party was founded in 1854 by opponents of the bill that repealed it",
+            "k": ["republican party", "republican", "1854"],
+            "n": 0,
+            "rabbit": "Republican Party"
+        },
+        {
+            "id": "second-deal",
+            "tier": "middle",
+            "t": "A second deal (1821), also worked out by Clay, settled a fight over Missouri’s constitution, which tried to bar free Black people; Missouri became the 24th state",
+            "k": ["1821", "24th state", "second deal", "free black"],
+            "n": 0
+        },
+        {
+            "id": "thomas-proviso",
+            "tier": "power",
+            "t": "Senator Jesse Thomas of Illinois proposed the amendment that drew the 36°30′ line",
+            "k": ["jesse thomas", "thomas", "illinois"],
+            "n": 0
+        },
+        {
+            "id": "wolf-by-the-ear",
+            "tier": "power",
+            "t": "In the same 1820 letter, to John Holmes, Jefferson said that with slavery “we have the wolf by the ear”",
+            "k": ["wolf by the ear", "john holmes", "holmes"],
+            "n": 0
+        },
+        {
+            "id": "title-page",
+            "tier": "power",
+            "t": "John Quincy Adams called the debate over it “a title-page to a great tragic volume”",
+            "k": ["title-page", "tragic volume", "john quincy adams"],
+            "n": 0
+        },
+        {
+            "id": "rufus-king",
+            "tier": "power",
+            "t": "Senator Rufus King of New York was a leading opponent of admitting another slave state",
+            "k": ["rufus king", "new york"],
+            "n": 0
+        },
+        {
+            "id": "doughfaces",
+            "tier": "power",
+            "t": "John Randolph of Virginia mocked Northern congressmen who voted with the South as “doughfaces”",
+            "k": ["doughfaces", "doughface", "john randolph", "randolph"],
+            "n": 0
+        },
+        {
+            "id": "monroe-cabinet",
+            "tier": "power",
+            "t": "Monroe asked his cabinet whether Congress could ban slavery in the territories before signing it in March 1820",
+            "k": ["cabinet", "march 1820"],
+            "n": 0
+        },
+        {
+            "id": "william-king",
+            "tier": "power",
+            "t": "William King led Maine’s statehood movement and became Maine’s first governor",
+            "k": ["william king", "first governor"],
+            "n": 0
+        },
+        {
+            "id": "fort-snelling",
+            "tier": "power",
+            "t": "Dred Scott claimed freedom partly because he had lived at Fort Snelling, in territory where it banned slavery",
+            "k": ["fort snelling", "snelling"],
+            "n": 0
+        },
+        {
+            "id": "peoria",
+            "tier": "power",
+            "t": "Abraham Lincoln attacked its repeal in his 1854 Peoria speech",
+            "k": ["peoria", "lincoln"],
+            "n": 0,
+            "rabbit": "Abraham Lincoln"
+        },
+        {
+            "id": "crittenden",
+            "tier": "power",
+            "t": "The Crittenden Compromise (1860) tried to avoid war by bringing back its line and extending it west to the Pacific",
+            "k": ["crittenden", "pacific", "1860"],
+            "n": 0
+        },
+        {
+            "id": "bootheel",
+            "tier": "power",
+            "t": "Its line follows most of Missouri’s southern border with Arkansas (all but the Bootheel) and the Texas Panhandle’s northern border",
+            "k": ["bootheel", "arkansas", "texas panhandle", "panhandle"],
+            "n": 0
+        },
+        {
+            "id": "clay-three-deals",
+            "tier": "power",
+            "t": "The first of three sectional deals that Henry Clay helped make, followed by the Compromise Tariff of 1833 and the Compromise of 1850",
+            "k": ["three", "tariff", "1833"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "1820 or 1850?",
+        "body": "Henry Clay helped pass both the Missouri Compromise (1820) and the Compromise of 1850, and both dealt with slavery in new lands, so an early buzz can go wrong. The Compromise of 1850 admitted California as a free state and added a tougher Fugitive Slave Act, while the Missouri Compromise admitted Maine and Missouri and drew the 36°30′ line. The Kansas–Nebraska Act (1854) is a third answer line: it repealed the Missouri Compromise.",
+        "fix": "Maine, 36°30′, Jefferson’s “fire bell,” Tallmadge, and James Monroe mean 1820. California, the Fugitive Slave Act, Daniel Webster’s “Seventh of March” speech, Millard Fillmore, and Utah and New Mexico mean 1850. “Compromise of 1820” is fine, but never say “Compromise of 1850” for this answer.",
+        "line": "Real answer line: <b><u>Missouri Compromise</u></b> (accept <u>Compromise of 1820</u>; do not accept “Compromise of 1850”)"
+    },
+    "tests": {
+        "right": [
+            "Missouri Compromise",
+            "the Missouri Compromise",
+            "Compromise of 1820",
+            "Misouri Compromise",
+            "Missouri Compromise of 1820"
+        ],
+        "prompt": [
+            "Missouri",
+            "compromise"
+        ],
+        "wrong": [
+            "Compromise of 1850",
+            "Kansas-Nebraska Act",
+            "Great Compromise",
+            "Three-Fifths Compromise",
+            "Dred Scott v. Sandford",
+            "Henry Clay",
+            "Missouri River"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

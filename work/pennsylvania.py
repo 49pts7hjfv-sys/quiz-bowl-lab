@@ -1,0 +1,336 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "pennsylvania",
+    "name": "Pennsylvania",
+    "mono": "PA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "The Keystone State · William Penn’s Quaker colony",
+    "dates": "Founded 1681; 2nd state (1787)",
+    "briefing": "In 1681, King Charles II paid off a debt he had owed to a late admiral by giving the admiral’s son, William Penn, a huge American colony, named “Penn’s Woods” in the father’s honor. Penn, a Quaker, made it a “Holy Experiment” where people of many faiths could live in peace. Later, the Declaration of Independence and the Constitution were written in its largest city, the Battle of Gettysburg was fought on its farmland, and its coal, oil, and steel helped power the nation.",
+    "answerHtml": "<b><u>Pennsylvania</u></b> (accept Commonwealth of <u>Pennsylvania</u> or Province of <u>Pennsylvania</u>; do not accept “Philadelphia”)",
+    "accept": [
+        "pennsylvania",
+        "commonwealth of pennsylvania",
+        "state of pennsylvania",
+        "province of pennsylvania",
+        "pennsylvania colony",
+        "colony of pennsylvania"
+    ],
+    "prompt": [],
+    "reject": [
+        "philadelphia",
+        "pittsburgh",
+        "harrisburg",
+        "william penn",
+        "penn",
+        "penn state",
+        "pennsylvania dutch",
+        "university of pennsylvania",
+        "new jersey",
+        "delaware",
+        "maryland",
+        "new york",
+        "ohio",
+        "west virginia",
+        "virginia",
+        "massachusetts",
+        "connecticut",
+        "transylvania",
+        "gettysburg",
+        "valley forge",
+        "quakers"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Pennsylvania",
+    "qb": {
+        "q": "Pennsylvania",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1737, the sons of this colony’s founder used a disputed old deed to claim Lenape [“leh-NAH-pay”] land as far as a man could walk in a day and a half, then hired fast runners to cover as much ground as possible. That deal is known as the Walking Purchase.",
+            "r": "This colony’s Quaker founder called it a “Holy Experiment.” For 10 points, name this colony founded by William Penn."
+        },
+        {
+            "p": "Benjamin West painted this colony’s founder making a treaty of friendship with Lenape leaders beneath an elm tree at Shackamaxon [“shack-uh-MAK-sun”]. King Charles II had given that founder this colony in 1681 to pay off a large debt that the king owed to the founder’s father, an admiral.",
+            "r": "The colony’s name means “Penn’s Woods.” For 10 points, name this colony founded by the Quaker William Penn."
+        },
+        {
+            "p": "In 1688, Francis Daniel Pastorius and other Quakers in Germantown signed one of the earliest protests against slavery in the English colonies. Almost a century later, in 1780, this state passed a law to gradually abolish slavery, one of the first such laws in the new nation.",
+            "r": "Its largest city, Philadelphia, later became a key stop on the Underground Railroad. For 10 points, name this state founded by William Penn."
+        },
+        {
+            "p": "Every fifth mile along one boundary, surveyors set “crownstones” carved with the coat of arms of this colony’s proprietors on one side and that of Maryland’s Calvert family on the other. Charles Mason and Jeremiah Dixon surveyed that line from 1763 to 1767 to end a long border dispute.",
+            "r": "That line later came to divide the free North from the slaveholding South. For 10 points, name this state north of the Mason–Dixon Line."
+        },
+        {
+            "p": "In 1754, a young George Washington surrendered Fort Necessity, in what is now this state, to French troops. Four years later, as British forces under John Forbes approached, the French destroyed their Fort Duquesne [“doo-KANE”] at the forks of the Ohio River, and the British built Fort Pitt there.",
+            "r": "Fort Pitt grew into the city of Pittsburgh. For 10 points, name this state whose capital is Harrisburg."
+        },
+        {
+            "p": "After beating George Washington at Brandywine Creek in September 1777, William Howe’s army captured this state’s largest city. Washington’s surprise attack at Germantown failed weeks later, and his army then spent a hard winter at Valley Forge, where Baron von Steuben drilled the troops.",
+            "r": "For 10 points, name this state where the Declaration of Independence was signed, in Philadelphia."
+        },
+        {
+            "p": "While British troops held the American capital in 1777, the Continental Congress met for one day in Lancaster and then moved to York, where it approved the Articles of Confederation. Lancaster later served as this state’s capital from 1799 to 1812.",
+            "r": "Then the capital moved to Harrisburg. For 10 points, name this state, the second to ratify the U.S. Constitution."
+        },
+        {
+            "p": "John Adams pardoned John Fries [“FREEZ”], who had led farmers in this state’s southeast in a 1799 revolt against a federal tax on houses and land. Five years earlier, President George Washington had led militia troops into this state to end a revolt in its western counties against a tax on liquor.",
+            "r": "That 1794 revolt was the Whiskey Rebellion. For 10 points, name this state, home to the cities of Pittsburgh and Philadelphia."
+        },
+        {
+            "p": "In 1864, Confederate cavalry burned much of Chambersburg in this state after the town failed to pay a ransom. A year earlier, Joshua Chamberlain’s 20th Maine had held Little Round Top in this state during a three-day battle that ended with the failure of Pickett’s Charge.",
+            "r": "Abraham Lincoln later gave a famous address at that battlefield. For 10 points, name this state, where Gettysburg is located."
+        },
+        {
+            "p": "Ida Tarbell grew up in this state’s oil region, where Standard Oil’s tactics hurt small businesses like her father’s, before writing a famous 1904 exposé of that company. That oil boom began in 1859, when Edwin Drake drilled the first commercial oil well in the United States near Titusville.",
+            "r": "For 10 points, name this state, whose other industries included coal mining and steelmaking around Pittsburgh."
+        },
+        {
+            "p": "In the late 1870s, about twenty Irish-American coal miners accused of belonging to a secret society called the Molly Maguires were executed in this state. In 1902, Theodore Roosevelt threatened to have the army run this state’s anthracite [“AN-thruh-site”] coal mines unless the owners agreed to settle a long strike.",
+            "r": "Its capital is Harrisburg. For 10 points, name this coal-rich state, whose largest city is Philadelphia."
+        },
+        {
+            "p": "Henry Clay Frick hired Pinkerton guards during the 1892 Homestead Strike at one of Andrew Carnegie’s steel mills in this state. Those mills grew up near the point where the Allegheny [“al-uh-GAY-nee”] and Monongahela [“muh-non-guh-HEE-luh”] Rivers join to form the Ohio River.",
+            "r": "That point is in the “Steel City,” Pittsburgh. For 10 points, name this state, whose capital is Harrisburg."
+        },
+        {
+            "p": "In 1889, the South Fork Dam above Johnstown in this state failed after heavy rains, and the flood that followed killed more than 2,000 people. Ninety years later, a partial meltdown at the Three Mile Island nuclear plant became the most serious accident in the history of U.S. commercial nuclear power.",
+            "r": "That plant lies on the Susquehanna River near this state’s capital, Harrisburg. For 10 points, name this “Keystone State.”"
+        },
+        {
+            "p": "In 1792, this state bought a small triangle of land from the federal government to gain a port on Lake Erie. During the War of 1812, Oliver Hazard Perry’s fleet was built at that port before Perry won the Battle of Lake Erie.",
+            "r": "For 10 points, name this state, whose eastern border with New Jersey is formed by the Delaware River."
+        },
+        {
+            "p": "Every February 2, crowds gather at Gobbler’s Knob in this state’s town of Punxsutawney [“punk-suh-TAW-nee”] to see whether a groundhog named Phil sees his shadow. Milton Hershey built a chocolate factory and a whole town for its workers in this state, where many Amish families farm in Lancaster County.",
+            "r": "It is one of four states officially called a commonwealth. For 10 points, name this “Keystone State,” whose capital is Harrisburg."
+        }
+    ],
+    "clues": [
+        {
+            "id": "william-penn",
+            "tier": "giveaway",
+            "t": "Founded by the Quaker William Penn (charter 1681) as a “Holy Experiment” in religious freedom",
+            "k": ["william penn", "quaker", "holy experiment", "1681"],
+            "n": 0,
+            "rabbit": "Quakers"
+        },
+        {
+            "id": "keystone",
+            "tier": "giveaway",
+            "t": "Nicknamed the “Keystone State”; officially one of four U.S. commonwealths",
+            "k": ["keystone", "commonwealth", "commonwealths"],
+            "n": 0
+        },
+        {
+            "id": "cities",
+            "tier": "giveaway",
+            "t": "Capital: Harrisburg; largest city: Philadelphia; Pittsburgh lies in the west",
+            "k": ["harrisburg", "philadelphia", "pittsburgh"],
+            "n": 0,
+            "rabbit": "Philadelphia"
+        },
+        {
+            "id": "gettysburg",
+            "tier": "giveaway",
+            "t": "Site of the Battle of Gettysburg (July 1–3, 1863) and Lincoln’s Gettysburg Address",
+            "k": ["gettysburg", "1863"],
+            "n": 0,
+            "rabbit": "Battle of Gettysburg"
+        },
+        {
+            "id": "penns-woods",
+            "tier": "middle",
+            "t": "Its name means “Penn’s Woods,” honoring William Penn’s father, an admiral to whom King Charles II owed money",
+            "k": ["penn’s woods", "penns woods", "admiral", "charles ii"],
+            "n": 0
+        },
+        {
+            "id": "mason-dixon",
+            "tier": "middle",
+            "t": "The Mason–Dixon Line (1763–1767), marked with “crownstones,” settled its border with Maryland and later came to divide North from South",
+            "k": ["mason–dixon", "mason-dixon", "mason dixon", "maryland", "crownstones"],
+            "n": 0
+        },
+        {
+            "id": "valley-forge",
+            "tier": "middle",
+            "t": "Revolution: Washington lost at Brandywine and Germantown (1777), then spent the winter at Valley Forge (1777–1778)",
+            "k": ["valley forge", "brandywine", "germantown", "von steuben"],
+            "n": 0
+        },
+        {
+            "id": "whiskey",
+            "tier": "middle",
+            "t": "Whiskey Rebellion (1794): farmers in its western counties revolted against a federal tax on whiskey",
+            "k": ["whiskey rebellion", "whiskey", "1794"],
+            "n": 0,
+            "rabbit": "Whiskey Rebellion"
+        },
+        {
+            "id": "second-state",
+            "tier": "middle",
+            "t": "Second state to ratify the Constitution (December 12, 1787), after Delaware",
+            "k": ["second state", "1787", "ratify"],
+            "n": 0
+        },
+        {
+            "id": "drake-oil",
+            "tier": "middle",
+            "t": "Edwin Drake drilled the first commercial oil well in the U.S. near Titusville (1859)",
+            "k": ["edwin drake", "drake", "titusville", "1859", "oil well"],
+            "n": 0
+        },
+        {
+            "id": "steel",
+            "tier": "middle",
+            "t": "Pittsburgh became the “Steel City”; the Allegheny and Monongahela Rivers meet there to form the Ohio",
+            "k": ["steel city", "allegheny", "monongahela", "ohio"],
+            "n": 0,
+            "rabbit": "Andrew Carnegie"
+        },
+        {
+            "id": "three-mile-island",
+            "tier": "middle",
+            "t": "Three Mile Island (1979), near Harrisburg, was the worst accident in U.S. commercial nuclear power",
+            "k": ["three mile island", "1979", "nuclear"],
+            "n": 0
+        },
+        {
+            "id": "walking-purchase",
+            "tier": "power",
+            "t": "Walking Purchase (1737): Penn’s sons claimed Lenape land as far as a man could walk in a day and a half",
+            "k": ["walking purchase", "lenape", "1737", "day and a half"],
+            "n": 0
+        },
+        {
+            "id": "shackamaxon",
+            "tier": "power",
+            "t": "Benjamin West painted Penn’s treaty of friendship with the Lenape under an elm at Shackamaxon",
+            "k": ["shackamaxon", "benjamin west", "elm", "treaty"],
+            "n": 0
+        },
+        {
+            "id": "germantown-petition",
+            "tier": "power",
+            "t": "Germantown Quakers signed an early protest against slavery (1688); a 1780 law began gradually abolishing slavery",
+            "k": ["germantown", "1688", "1780", "pastorius"],
+            "n": 0
+        },
+        {
+            "id": "fort-pitt",
+            "tier": "power",
+            "t": "Washington surrendered Fort Necessity (1754); Fort Duquesne at the forks of the Ohio became Fort Pitt (1758)",
+            "k": ["fort necessity", "fort duquesne", "fort pitt", "duquesne"],
+            "n": 0
+        },
+        {
+            "id": "york",
+            "tier": "power",
+            "t": "Congress met for a day in Lancaster, then in York, where it approved the Articles of Confederation (1777); Lancaster was the state capital 1799–1812",
+            "k": ["york", "lancaster", "articles of confederation"],
+            "n": 0
+        },
+        {
+            "id": "chambersburg",
+            "tier": "power",
+            "t": "Confederate cavalry burned much of Chambersburg (1864) after the town failed to pay a ransom",
+            "k": ["chambersburg", "ransom", "1864"],
+            "n": 0
+        },
+        {
+            "id": "fries",
+            "tier": "power",
+            "t": "Fries’s Rebellion (1799): John Adams pardoned John Fries, who led a revolt against a tax on houses and land",
+            "k": ["fries", "1799", "houses and land"],
+            "n": 0,
+            "rabbit": "John Adams"
+        },
+        {
+            "id": "tarbell",
+            "tier": "power",
+            "t": "Ida Tarbell grew up in its oil region and exposed Standard Oil in 1904",
+            "k": ["ida tarbell", "tarbell", "standard oil", "1904"],
+            "n": 0
+        },
+        {
+            "id": "molly-maguires",
+            "tier": "power",
+            "t": "Molly Maguires: accused Irish-American coal miners executed in the 1870s; Theodore Roosevelt stepped into the 1902 anthracite coal strike",
+            "k": ["molly maguires", "anthracite", "1902"],
+            "n": 0
+        },
+        {
+            "id": "homestead",
+            "tier": "power",
+            "t": "Henry Clay Frick hired Pinkerton guards in the 1892 Homestead Strike at a Carnegie steel mill",
+            "k": ["homestead", "frick", "pinkerton", "1892"],
+            "n": 0
+        },
+        {
+            "id": "johnstown",
+            "tier": "power",
+            "t": "Johnstown Flood (1889): the South Fork Dam failed, and more than 2,000 people died",
+            "k": ["johnstown", "south fork", "1889"],
+            "n": 0
+        },
+        {
+            "id": "erie",
+            "tier": "power",
+            "t": "Bought the Erie Triangle (1792) for a port on Lake Erie; Oliver Hazard Perry’s fleet was built there (1813)",
+            "k": ["erie triangle", "lake erie", "perry", "1792"],
+            "n": 0
+        },
+        {
+            "id": "punxsutawney",
+            "tier": "power",
+            "t": "Groundhog Day at Punxsutawney; Milton Hershey’s chocolate town; Amish farms in Lancaster County",
+            "k": ["punxsutawney", "groundhog", "hershey", "amish"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "State or city?",
+        "body": "Philadelphia was Penn’s capital and the home of the Continental Congress, so it is tempting to blurt out the city on a state question. In quiz bowl, Philadelphia is its own answer line: Liberty Bell, Independence Hall, and Constitutional Convention clues usually point to the city. Neighbors are another trap: Maryland (the Calverts and the Mason–Dixon Line), Delaware (once part of Penn’s lands), and New Jersey (across the Delaware River) all show up in Pennsylvania tossups.",
+        "fix": "Listen for “this state” or “this colony” versus “this city.” William Penn’s charter, Harrisburg, Gettysburg, Valley Forge, Pittsburgh, coal, oil, and steel all mean Pennsylvania; answer “Philadelphia” only when the question asks for a city.",
+        "line": "Real answer line: <b><u>Pennsylvania</u></b> (accept Commonwealth of <u>Pennsylvania</u> or Province of <u>Pennsylvania</u>; do not accept “Philadelphia”)"
+    },
+    "tests": {
+        "right": [
+            "Pennsylvania",
+            "Pensylvania",
+            "Commonwealth of Pennsylvania",
+            "Province of Pennsylvania",
+            "pennsylvaina"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Philadelphia",
+            "Pittsburgh",
+            "William Penn",
+            "New Jersey",
+            "Transylvania",
+            "Maryland",
+            "Pennsylvania Dutch"
+        ]
+    }
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", out)

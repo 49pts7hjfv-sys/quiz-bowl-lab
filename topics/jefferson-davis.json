@@ -1,0 +1,434 @@
+{
+  "id": "jefferson-davis",
+  "name": "Jefferson Davis",
+  "mono": "JD",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "President of the Confederacy · Former U.S. senator and Secretary of War",
+  "dates": "1808–1889",
+  "briefing": "Jefferson Davis was born in Kentucky in 1808, about eight months before Abraham Lincoln was born in the same state. He became a war hero in Mexico, a U.S. senator from Mississippi, and Secretary of War, and in 1861 the seceded Southern states chose him as president of the Confederate States of America. After the South lost the Civil War, Union cavalry captured him in Georgia, and he spent two years in prison.",
+  "answerHtml": "Jefferson <b><u>Davis</u></b> (or Jefferson Finis <b><u>Davis</u></b>)",
+  "accept": [
+    "jefferson davis",
+    "davis",
+    "jeff davis",
+    "jefferson finis davis",
+    "jefferson f davis",
+    "president davis",
+    "president jefferson davis"
+  ],
+  "prompt": [],
+  "reject": [
+    "thomas jefferson",
+    "varina davis",
+    "varina howell davis",
+    "varina howell",
+    "joseph davis",
+    "miles davis",
+    "angela davis",
+    "king david",
+    "david",
+    "abraham lincoln",
+    "lincoln",
+    "robert e lee",
+    "alexander stephens",
+    "alexander h stephens",
+    "stephens",
+    "judah benjamin",
+    "judah p benjamin",
+    "zachary taylor",
+    "p g t beauregard",
+    "beauregard",
+    "joseph e johnston",
+    "joseph johnston",
+    "franklin pierce"
+  ],
+  "tests": {
+    "right": [
+      "Jefferson Davis",
+      "Davis",
+      "Jeff Davis",
+      "President Jefferson Davis",
+      "Jefferson Davies"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "Robert E. Lee",
+      "Alexander Stephens",
+      "Miles Davis",
+      "Varina Davis",
+      "Zachary Taylor",
+      "King David"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Jefferson_Davis",
+  "qb": {
+    "q": "Jefferson Davis",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "As Secretary of War, this man persuaded Congress to pay for importing camels so the army could test them for carrying supplies across the deserts of the Southwest. He also pushed for the Gadsden Purchase so a railroad to the Pacific could run through the South.",
+      "r": "For 10 points, name this man who served in Franklin Pierce’s cabinet before becoming president of the Confederacy."
+    },
+    {
+      "p": "This man’s first wife, Sarah Knox Taylor, died of malaria three months after their wedding, and her father, Zachary Taylor, had opposed the marriage. Years later, this man led the Mississippi Rifles under Taylor at the Battle of Buena Vista [“BWAY-nuh VEE-stuh”].",
+      "r": "For 10 points, name this Mississippian who became president of the Confederate States of America."
+    },
+    {
+      "p": "After two years as a prisoner at Fort Monroe in Virginia, this man was released on bail in 1867, with the newspaper editor Horace Greeley among those who signed his bond. He was charged with treason, but the government dropped the case without ever bringing him to trial.",
+      "r": "For 10 points, name this man who had served as the only president of the Confederate States of America."
+    },
+    {
+      "p": "Northern cartoonists mocked this man by drawing him escaping in a woman’s dress, an exaggeration of the fact that he had his wife Varina’s coat and shawl around him when soldiers of the 4th Michigan Cavalry caught him.",
+      "r": "He was captured near Irwinville, Georgia, in May 1865. For 10 points, name this president of the Confederacy."
+    },
+    {
+      "p": "At Beauvoir [“bohv-WAHR”], his home on the Gulf Coast in Biloxi, Mississippi, this man wrote _The Rise and Fall of the Confederate Government_. He died in New Orleans in 1889 and was later reburied in Richmond, Virginia.",
+      "r": "For 10 points, name this man who had been the president of the Confederacy during the Civil War."
+    },
+    {
+      "p": "In 1978, President Jimmy Carter signed a law restoring this man’s U.S. citizenship, almost 90 years after his death. Three years earlier, Congress had done the same for Robert E. Lee, the general this man had put in command of the Army of Northern Virginia.",
+      "r": "For 10 points, name this man who led the Confederate States of America as its president from 1861 to 1865."
+    },
+    {
+      "p": "This leader often clashed with his own vice president, Alexander Stephens, who spent long stretches at home in Georgia criticizing policies such as the military draft. The two men had been chosen by delegates meeting in Montgomery, Alabama, in February 1861.",
+      "r": "For 10 points, name this man who served as president of the Confederate States of America."
+    },
+    {
+      "p": "When Joseph E. Johnston was wounded at the Battle of Seven Pines in 1862, this leader gave command of the army defending Richmond to his military adviser, Robert E. Lee. This leader also feuded with the general P. G. T. Beauregard [“BOH-ruh-gard”].",
+      "r": "Lee began calling that army the Army of Northern Virginia. For 10 points, name this president of the Confederacy."
+    },
+    {
+      "p": "On a Sunday in April 1865, this man was handed a message from Robert E. Lee during services at St. Paul’s Church, warning that Richmond had to be abandoned. He and his cabinet fled south by train that night.",
+      "r": "For 10 points, name this president of the Confederacy, who was captured in Georgia the next month."
+    },
+    {
+      "p": "As a young army lieutenant, this man escorted the captured Sauk leader Black Hawk to prison in 1832. He was born in Kentucky in 1808, less than a year before his later rival, Abraham Lincoln, was born in the same state.",
+      "r": "For 10 points, name this man who led the Confederate States of America during the Civil War."
+    },
+    {
+      "p": "In January 1861, this senator gave a farewell speech to the U.S. Senate, less than two weeks after his home state became the second to secede from the Union. He had earlier served as Secretary of War under Franklin Pierce.",
+      "r": "For 10 points, name this Mississippian who became president of the Confederate States of America."
+    },
+    {
+      "p": "Judah P. Benjamin, one of this man’s closest advisers, served in his cabinet as attorney general, secretary of war, and secretary of state. Benjamin escaped to England after this man’s government collapsed in 1865.",
+      "r": "This man’s government had moved its capital to Richmond, Virginia, in 1861. For 10 points, name this president of the Confederacy."
+    },
+    {
+      "p": "This leader’s cabinet decided to fire on a fort in Charleston Harbor in April 1861, after Abraham Lincoln announced that he would send food to the soldiers there. General P. G. T. Beauregard [“BOH-ruh-gard”] carried out the attack.",
+      "r": "That attack on Fort Sumter began the Civil War. For 10 points, name this president of the Confederacy."
+    },
+    {
+      "p": "This man’s older brother Joseph helped him set up Brierfield, a cotton plantation on the Mississippi River that was worked by enslaved people. He had graduated from West Point in 1828 and served at army posts in what is now Wisconsin.",
+      "r": "He later represented Mississippi in the U.S. Senate. For 10 points, name this man who became president of the Confederacy."
+    },
+    {
+      "p": "At the Battle of Buena Vista [“BWAY-nuh VEE-stuh”], this colonel’s Mississippi Rifles formed a V-shaped line to help turn back a Mexican cavalry charge, and he stayed in the fight even after being wounded. He had given up a seat in Congress to command that volunteer regiment.",
+      "r": "For 10 points, name this Mississippian who later became president of the Confederate States of America."
+    }
+  ],
+  "clues": [
+    {
+      "id": "confederate-president",
+      "tier": "giveaway",
+      "t": "President of the Confederate States of America (1861–1865), formed by Southern states that seceded mainly to protect slavery",
+      "k": [
+        "confederate states",
+        "seceded",
+        "slavery"
+      ],
+      "n": 0,
+      "rabbit": "Confederate States of America"
+    },
+    {
+      "id": "mississippi",
+      "tier": "giveaway",
+      "t": "U.S. senator from Mississippi who resigned when his state seceded in January 1861",
+      "k": [
+        "mississippi",
+        "senator",
+        "resigned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "richmond",
+      "tier": "giveaway",
+      "t": "His government’s capital moved from Montgomery, Alabama, to Richmond, Virginia, in 1861",
+      "k": [
+        "richmond",
+        "montgomery"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kentucky",
+      "tier": "middle",
+      "t": "Born in Kentucky in 1808, about eight months before Abraham Lincoln was born in the same state",
+      "k": [
+        "kentucky",
+        "1808",
+        "lincoln"
+      ],
+      "n": 0,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "secretary-of-war",
+      "tier": "middle",
+      "t": "Secretary of War under President Franklin Pierce (1853–1857)",
+      "k": [
+        "secretary of war",
+        "franklin pierce",
+        "pierce"
+      ],
+      "n": 0
+    },
+    {
+      "id": "buena-vista",
+      "tier": "middle",
+      "t": "Gave up a seat in Congress to lead the Mississippi Rifles in the Mexican-American War; wounded at Buena Vista (1847)",
+      "k": [
+        "buena vista",
+        "mississippi rifles",
+        "mexican-american war"
+      ],
+      "n": 0,
+      "rabbit": "Mexican-American War"
+    },
+    {
+      "id": "stephens",
+      "tier": "middle",
+      "t": "His vice president was Alexander Stephens of Georgia, with whom he often clashed",
+      "k": [
+        "alexander stephens",
+        "stephens",
+        "vice president"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lee",
+      "tier": "middle",
+      "t": "Gave Robert E. Lee command of the army defending Richmond, the Army of Northern Virginia (1862)",
+      "k": [
+        "robert e. lee",
+        "army of northern virginia",
+        "lee"
+      ],
+      "n": 0,
+      "rabbit": "Robert E. Lee"
+    },
+    {
+      "id": "sumter",
+      "tier": "middle",
+      "t": "His government ordered the attack on Fort Sumter that began the Civil War (April 1861)",
+      "k": [
+        "fort sumter",
+        "sumter"
+      ],
+      "n": 0,
+      "rabbit": "Fort Sumter"
+    },
+    {
+      "id": "capture",
+      "tier": "middle",
+      "t": "Fled Richmond in April 1865 and was captured by Union cavalry near Irwinville, Georgia, that May",
+      "k": [
+        "irwinville",
+        "captured",
+        "georgia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fort-monroe",
+      "tier": "middle",
+      "t": "Held prisoner at Fort Monroe, Virginia, for two years; charged with treason but never tried",
+      "k": [
+        "fort monroe",
+        "treason",
+        "never tried"
+      ],
+      "n": 0
+    },
+    {
+      "id": "west-point",
+      "tier": "middle",
+      "t": "Graduated from West Point (1828) and served at army posts on the frontier",
+      "k": [
+        "west point",
+        "1828",
+        "frontier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "camels",
+      "tier": "power",
+      "t": "As Secretary of War, brought camels to the U.S. Army to test them for carrying supplies in the Southwest",
+      "k": [
+        "camels",
+        "camel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gadsden",
+      "tier": "power",
+      "t": "Pushed for the Gadsden Purchase (1853) so a southern railroad route could reach the Pacific",
+      "k": [
+        "gadsden",
+        "railroad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "knox-taylor",
+      "tier": "power",
+      "t": "First wife, Sarah Knox Taylor, daughter of Zachary Taylor, died of malaria three months after their 1835 wedding",
+      "k": [
+        "sarah knox taylor",
+        "zachary taylor",
+        "knox",
+        "malaria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "varina",
+      "tier": "power",
+      "t": "Northern cartoons showed him fleeing in a woman’s dress, an exaggeration: he had his wife Varina’s coat and shawl",
+      "k": [
+        "varina",
+        "dress",
+        "shawl"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greeley",
+      "tier": "power",
+      "t": "Released on bail in 1867; newspaper editor Horace Greeley helped sign his bail bond",
+      "k": [
+        "horace greeley",
+        "greeley",
+        "bail bond"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rise-and-fall",
+      "tier": "power",
+      "t": "Wrote _The Rise and Fall of the Confederate Government_ (1881) at Beauvoir, his home in Biloxi, Mississippi",
+      "k": [
+        "rise and fall",
+        "beauvoir",
+        "biloxi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "citizenship",
+      "tier": "power",
+      "t": "His U.S. citizenship was restored in 1978 by a law signed by President Jimmy Carter",
+      "k": [
+        "citizenship",
+        "1978",
+        "jimmy carter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "benjamin",
+      "tier": "power",
+      "t": "Judah P. Benjamin served in his cabinet as attorney general, secretary of war, and secretary of state, then escaped to England",
+      "k": [
+        "judah",
+        "benjamin",
+        "cabinet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-hawk",
+      "tier": "power",
+      "t": "As a young lieutenant, escorted the captured Sauk leader Black Hawk to prison (1832)",
+      "k": [
+        "black hawk",
+        "sauk"
+      ],
+      "n": 0
+    },
+    {
+      "id": "st-pauls",
+      "tier": "power",
+      "t": "Got Lee’s message that Richmond must be abandoned during Sunday services at St. Paul’s Church (April 1865)",
+      "k": [
+        "st. paul’s",
+        "st. paul",
+        "abandoned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brierfield",
+      "tier": "power",
+      "t": "Owned Brierfield, a Mississippi cotton plantation worked by enslaved people, set up with help from his brother Joseph",
+      "k": [
+        "brierfield",
+        "plantation",
+        "joseph"
+      ],
+      "n": 0
+    },
+    {
+      "id": "johnston-beauregard",
+      "tier": "power",
+      "t": "Feuded with generals Joseph E. Johnston and P. G. T. Beauregard; Johnston’s wound at Seven Pines (1862) opened the way for Lee",
+      "k": [
+        "johnston",
+        "beauregard",
+        "seven pines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "farewell",
+      "tier": "power",
+      "t": "Gave a farewell speech to the Senate in January 1861, after Mississippi became the second state to secede",
+      "k": [
+        "farewell",
+        "second state"
+      ],
+      "n": 0
+    },
+    {
+      "id": "died-1889",
+      "tier": "power",
+      "t": "Died in New Orleans in 1889; reburied in Hollywood Cemetery in Richmond",
+      "k": [
+        "new orleans",
+        "1889",
+        "hollywood cemetery"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Jefferson, but not Thomas",
+    "body": "Jefferson Davis was named for Thomas Jefferson, so hearing “Jefferson” can tempt players to blurt out the third president, even though the two men lived generations apart. Players also mix up the two Civil War presidents: Davis led the Confederacy from Richmond, while Abraham Lincoln led the Union from Washington. Robert E. Lee, Alexander Stephens, and Zachary Taylor show up in Davis clues as well.",
+    "fix": "Listen for the side and the era: “Confederate,” Richmond, Montgomery, Fort Monroe, Buena Vista, or camels in the army mean Davis. Thomas Jefferson clues come from the late 1700s and early 1800s: the Declaration, Monticello, and the Louisiana Purchase. “Davis” alone is enough.",
+    "line": "Real answer line: Jefferson <b><u>Davis</u></b> (or Jefferson Finis <b><u>Davis</u></b>)"
+  }
+}

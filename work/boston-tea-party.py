@@ -1,0 +1,341 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "boston-tea-party",
+    "name": "Boston Tea Party",
+    "mono": "BTP",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1773 Patriot protest against the Tea Act · Led to the Intolerable Acts",
+    "dates": "December 16, 1773",
+    "briefing": "On the cold night of December 16, 1773, dozens of men, many disguised as Mohawk Indians, boarded three ships at Griffin’s Wharf in Boston and smashed open 342 chests of tea. They dumped all of it into the harbor to protest the Tea Act and a tax they had no say in. Parliament struck back by closing Boston’s port, and colonists called those punishments the Intolerable Acts.",
+    "answerHtml": "<b><u>Boston Tea Party</u></b> (accept <u>Destruction of the Tea</u>; prompt on <u>Tea Party</u>; do not accept “Boston Massacre” or “Tea Act”)",
+    "accept": [
+        "boston tea party",
+        "the boston tea party",
+        "destruction of the tea",
+        "the destruction of the tea",
+        "destruction of tea"
+    ],
+    "prompt": [
+        "tea party",
+        "the tea party"
+    ],
+    "reject": [
+        "boston massacre",
+        "tea act",
+        "tea act of 1773",
+        "intolerable acts",
+        "coercive acts",
+        "boston port act",
+        "stamp act",
+        "townshend acts",
+        "townshend duties",
+        "sons of liberty",
+        "samuel adams",
+        "sam adams",
+        "siege of boston",
+        "tea party movement",
+        "edenton tea party",
+        "griffins wharf",
+        "peggy stewart",
+        "first continental congress",
+        "paul revere"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Boston_Tea_Party",
+    "qb": {
+        "q": "Boston Tea Party",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Shipowner Francis Rotch rode to Milton to ask the royal governor for a pass that would let his ship leave port without unloading its cargo, but the governor refused, and this event began that evening. That governor, Thomas Hutchinson, had two sons among the merchants chosen to sell the cargo.",
+            "r": "Men disguised as Mohawk Indians then boarded the tea ships. For 10 points, name this December 1773 protest in which colonists dumped tea into a harbor."
+        },
+        {
+            "p": "Under customs law, a ship’s cargo had to be unloaded and its taxes paid within twenty days of arrival, or officials could seize it, so Patriots carried out this event the night before that deadline ran out for the ship _Dartmouth_. The _Eleanor_ and the _Beaver_ were also boarded.",
+            "r": "Patriots dumped 342 chests of tea from those ships. For 10 points, name this protest at Griffin’s Wharf on December 16, 1773."
+        },
+        {
+            "p": "Thousands of people crowded into the Old South Meeting House on the day of this event, and Samuel Adams reportedly told them, “This meeting can do nothing more to save the country,” which some took as a signal to act.",
+            "r": "Soon after, men dressed as Mohawk Indians headed for the harbor. For 10 points, name this 1773 protest against a British tax on tea."
+        },
+        {
+            "p": "The day after this event, John Adams wrote in his diary that it was “the most magnificent Movement of all.” He called it “so bold, so daring, so firm” that he considered it “an Epocha in History.”",
+            "r": "For 10 points, name this December 1773 protest in which Patriots threw British tea into Boston Harbor."
+        },
+        {
+            "p": "Most of the tea destroyed in this event was a black tea called Bohea [“boh-HEE”], grown in China and shipped by the British East India Company. Parliament had passed a 1773 law letting that company sell tea directly to the colonies, hoping to save it from going broke.",
+            "r": "That law was the Tea Act. For 10 points, name this protest in which colonists dumped 342 chests of tea into Boston Harbor."
+        },
+        {
+            "p": "Decades after this event, the shoemaker George Robert Twelves Hewes became famous for telling his memories of taking part in it. The famous name of this event did not appear in print until the 1820s, about fifty years after it happened.",
+            "r": "Its participants threw tea from three ships into the harbor. For 10 points, name this December 16, 1773, protest in Massachusetts."
+        },
+        {
+            "p": "Parliament responded to this event by passing the Boston Port Act, which closed the city’s harbor until the destroyed cargo was paid for, along with the Massachusetts Government Act. General Thomas Gage was sent to govern Massachusetts.",
+            "r": "Colonists called those punishments the Intolerable Acts. For 10 points, name this 1773 protest against the Tea Act."
+        },
+        {
+            "p": "In a later protest inspired by this event, the owner of the ship _Peggy Stewart_ was forced to set fire to his own ship in Annapolis, Maryland, in 1774. In New York and Philadelphia, colonists simply made tea ships turn back.",
+            "r": "For 10 points, name this December 1773 protest in which colonists threw tea into a Massachusetts harbor."
+        },
+        {
+            "p": "The tea dumped in this event would actually have been cheaper than smuggled Dutch tea, but it still carried a tax of three pence per pound left over from the Townshend Acts. Colonists argued that paying it would accept Parliament’s right to tax them without representation.",
+            "r": "For 10 points, name this protest in which the Sons of Liberty destroyed tea on December 16, 1773."
+        },
+        {
+            "p": "A fourth tea ship, the _William_, ran aground off Cape Cod and so escaped this event. The three ships that did reach the city, including the _Beaver_, were tied up at Griffin’s Wharf, where the Patriots struck.",
+            "r": "For 10 points, name this 1773 protest in which colonists disguised as Mohawk Indians dumped tea into a harbor."
+        },
+        {
+            "p": "Before this event, the merchants chosen to sell the tea fled to Castle William, a fort in the harbor, to escape angry crowds. Samuel Adams’s Committee of Correspondence helped organize the resistance that led to this event.",
+            "r": "For 10 points, name this protest in which 342 chests of tea were thrown into the water on December 16, 1773."
+        },
+        {
+            "p": "Anger over Britain’s punishment of a city for this event led twelve colonies to send delegates to the First Continental Congress in Philadelphia in 1774. Other colonies sent food and supplies to help that city while its port was closed.",
+            "r": "For 10 points, name this December 1773 protest in which colonists dumped British tea into Boston Harbor."
+        },
+        {
+            "p": "In October 1774, fifty-one women in Edenton, North Carolina, signed a pledge to stop drinking British tea, in a protest later named after this event. A British cartoon made fun of those women.",
+            "r": "For 10 points, name this 1773 protest in which the Sons of Liberty dumped tea into Boston Harbor."
+        },
+        {
+            "p": "Right after this event, Paul Revere rode from his city to New York and Philadelphia to spread the news. Revere is thought to have taken part himself, and many of the participants smeared soot or coal dust on their faces as a disguise.",
+            "r": "For 10 points, name this December 1773 protest in which Patriots dressed as Mohawks dumped British tea."
+        },
+        {
+            "p": "Benjamin Franklin, who was living in London, thought the city responsible for this event should repay the East India Company for the property destroyed. When news of this event reached London in January 1774, Lord North’s government decided to punish the city.",
+            "r": "For 10 points, name this protest in which colonists dumped 342 chests of tea into Boston Harbor on December 16, 1773."
+        }
+    ],
+    "clues": [
+        {
+            "id": "dumped-tea",
+            "tier": "giveaway",
+            "t": "On December 16, 1773, colonists dumped British tea into Boston Harbor",
+            "k": ["december 16", "1773", "harbor", "dumped"],
+            "n": 0
+        },
+        {
+            "id": "mohawk",
+            "tier": "giveaway",
+            "t": "Many of the protesters disguised themselves as Mohawk Indians",
+            "k": ["mohawk", "disguised"],
+            "n": 0
+        },
+        {
+            "id": "sons-of-liberty",
+            "tier": "giveaway",
+            "t": "Carried out by the Sons of Liberty; Samuel Adams helped organize the resistance",
+            "k": ["sons of liberty", "samuel adams"],
+            "n": 0,
+            "rabbit": "Sons of Liberty"
+        },
+        {
+            "id": "tea-act",
+            "tier": "giveaway",
+            "t": "A protest against the Tea Act and “taxation without representation”",
+            "k": ["tea act", "taxation without representation"],
+            "n": 0
+        },
+        {
+            "id": "chests",
+            "tier": "middle",
+            "t": "342 chests of East India Company tea were destroyed",
+            "k": ["342", "chests", "east india company"],
+            "n": 0
+        },
+        {
+            "id": "ships",
+            "tier": "middle",
+            "t": "Three ships, the _Dartmouth_, _Eleanor_, and _Beaver_, were boarded at Griffin’s Wharf",
+            "k": ["dartmouth", "eleanor", "beaver", "griffin’s wharf"],
+            "n": 0
+        },
+        {
+            "id": "hutchinson",
+            "tier": "middle",
+            "t": "Royal governor Thomas Hutchinson refused to let the tea ships leave without unloading",
+            "k": ["thomas hutchinson", "hutchinson"],
+            "n": 0
+        },
+        {
+            "id": "intolerable",
+            "tier": "middle",
+            "t": "Parliament struck back with the Coercive (Intolerable) Acts of 1774, including the Boston Port Act, and sent General Thomas Gage to govern",
+            "k": ["intolerable acts", "coercive", "port act", "thomas gage"],
+            "n": 0
+        },
+        {
+            "id": "old-south",
+            "tier": "middle",
+            "t": "Began after a huge meeting at the Old South Meeting House",
+            "k": ["old south meeting house", "old south"],
+            "n": 0
+        },
+        {
+            "id": "company",
+            "tier": "middle",
+            "t": "The Tea Act (1773) let the struggling British East India Company sell tea directly to the colonies",
+            "k": ["directly", "struggling", "east india"],
+            "n": 0
+        },
+        {
+            "id": "townshend",
+            "tier": "middle",
+            "t": "The tea still carried a Townshend tax of three pence per pound, though it was cheaper than smuggled Dutch tea",
+            "k": ["townshend", "three pence", "smuggled"],
+            "n": 0
+        },
+        {
+            "id": "first-congress",
+            "tier": "middle",
+            "t": "Anger over the punishments led twelve colonies to send delegates to the First Continental Congress (1774)",
+            "k": ["first continental congress", "twelve colonies"],
+            "n": 0
+        },
+        {
+            "id": "rotch",
+            "tier": "power",
+            "t": "Shipowner Francis Rotch asked Governor Hutchinson for a pass to leave port; he refused",
+            "k": ["francis rotch", "rotch", "pass"],
+            "n": 0
+        },
+        {
+            "id": "twenty-days",
+            "tier": "power",
+            "t": "Customs law gave ships twenty days to unload and pay the tax; the _Dartmouth_’s deadline was the next day",
+            "k": ["twenty days", "deadline", "customs"],
+            "n": 0
+        },
+        {
+            "id": "consignees",
+            "tier": "power",
+            "t": "Hutchinson’s sons were among the tea agents, who fled to Castle William in the harbor",
+            "k": ["castle william", "tea agents"],
+            "n": 0
+        },
+        {
+            "id": "nothing-more",
+            "tier": "power",
+            "t": "Samuel Adams reportedly said, “This meeting can do nothing more to save the country”",
+            "k": ["nothing more", "save the country"],
+            "n": 0
+        },
+        {
+            "id": "john-adams-diary",
+            "tier": "power",
+            "t": "John Adams called it “the most magnificent Movement of all” and “an Epocha in History”",
+            "k": ["magnificent", "epocha", "john adams"],
+            "n": 0,
+            "rabbit": "John Adams"
+        },
+        {
+            "id": "bohea",
+            "tier": "power",
+            "t": "Most of the tea was Bohea, a black tea from China",
+            "k": ["bohea", "china"],
+            "n": 0
+        },
+        {
+            "id": "hewes",
+            "tier": "power",
+            "t": "Shoemaker George Robert Twelves Hewes later became famous for his memories of the night",
+            "k": ["hewes", "shoemaker"],
+            "n": 0
+        },
+        {
+            "id": "name-1820s",
+            "tier": "power",
+            "t": "Its famous name did not appear in print until the 1820s",
+            "k": ["1820s", "in print"],
+            "n": 0
+        },
+        {
+            "id": "william",
+            "tier": "power",
+            "t": "A fourth tea ship, the _William_, ran aground off Cape Cod",
+            "k": ["cape cod", "aground"],
+            "n": 0
+        },
+        {
+            "id": "peggy-stewart",
+            "tier": "power",
+            "t": "Later tea protests: the burning of the _Peggy Stewart_ in Annapolis (1774); tea ships turned back from New York and Philadelphia",
+            "k": ["peggy stewart", "annapolis"],
+            "n": 0
+        },
+        {
+            "id": "edenton",
+            "tier": "power",
+            "t": "Fifty-one women in Edenton, North Carolina, pledged to give up British tea (1774)",
+            "k": ["edenton", "fifty-one", "north carolina"],
+            "n": 0
+        },
+        {
+            "id": "revere",
+            "tier": "power",
+            "t": "Paul Revere rode to New York and Philadelphia with the news; disguises included soot and coal dust",
+            "k": ["paul revere", "revere", "soot"],
+            "n": 0,
+            "rabbit": "Paul Revere"
+        },
+        {
+            "id": "franklin",
+            "tier": "power",
+            "t": "Benjamin Franklin, in London, thought the city should repay the East India Company",
+            "k": ["benjamin franklin", "franklin", "repay"],
+            "n": 0,
+            "rabbit": "Benjamin Franklin"
+        },
+        {
+            "id": "committee",
+            "tier": "power",
+            "t": "Samuel Adams’s Committee of Correspondence helped organize the resistance",
+            "k": ["committee of correspondence"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Event, law, or punishment?",
+        "body": "Three answers travel together: the Tea Act (May 1773), the law that let the East India Company sell tea directly to the colonies; the Boston Tea Party (December 1773), the protest; and the Coercive or Intolerable Acts (1774), Parliament’s punishment. Clues like Lord North, the East India Company, and the Boston Port Act can show up in all three kinds of tossups. The Boston Massacre (1770), from the same city, is a fourth trap.",
+        "fix": "Listen for the noun: “this law” or “these acts” wants the Tea Act or the Intolerable Acts, and “this event” or “this protest” wants the Boston Tea Party. Mohawk disguises, Griffin’s Wharf, and the _Dartmouth_ mean the Tea Party; King Street and Crispus Attucks mean the Massacre.",
+        "line": "Real answer line: <b><u>Boston Tea Party</u></b> (do not accept “Boston Massacre”)"
+    },
+    "tests": {
+        "right": [
+            "Boston Tea Party",
+            "the Boston Tea Party",
+            "Boston Tea Pary",
+            "Destruction of the Tea",
+            "boston tea-party"
+        ],
+        "prompt": [
+            "Tea Party"
+        ],
+        "wrong": [
+            "Boston Massacre",
+            "Boston",
+            "Tea Act",
+            "Intolerable Acts",
+            "Sons of Liberty",
+            "Stamp Act"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
