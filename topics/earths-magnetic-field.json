@@ -34,7 +34,10 @@
   "prompt": [
     "planetary magnetic field",
     "magnetic field",
-    "magnetic fields"
+    "magnetic fields",
+    "the magnetic field",
+    "the magnetic fields",
+    "a magnetic field"
   ],
   "reject": [
     "b field",
@@ -495,7 +498,8 @@
     "prompt": [
       "Planetary magnetic field",
       "Magnetic field",
-      "Magnetic fields"
+      "Magnetic fields",
+      "The magnetic field"
     ],
     "wrong": [
       "Magnetosphere",

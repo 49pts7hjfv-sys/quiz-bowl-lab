@@ -1,0 +1,316 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "benedict-arnold",
+    "name": "Benedict Arnold",
+    "mono": "BA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Patriot general turned traitor · Plotted to give West Point to the British",
+    "dates": "1741–1801",
+    "briefing": "Benedict Arnold was one of the boldest generals in the Continental Army: he helped capture Fort Ticonderoga, led a grueling march through the Maine wilderness to attack Quebec, and was shot in the leg helping win the Battles of Saratoga. Then, bitter about being passed over and deep in debt, he secretly plotted in 1780 to hand the fort at West Point to the British. His name has meant “traitor” ever since.",
+    "answerHtml": "Benedict <b><u>Arnold</u></b>",
+    "accept": [
+        "benedict arnold",
+        "arnold",
+        "general benedict arnold"
+    ],
+    "prompt": [],
+    "reject": [
+        "ethan allen",
+        "john andre",
+        "major andre",
+        "major john andre",
+        "andre",
+        "john anderson",
+        "horatio gates",
+        "gates",
+        "peggy shippen",
+        "margaret shippen",
+        "shippen",
+        "daniel morgan",
+        "richard montgomery",
+        "john paulding",
+        "arnold schoenberg",
+        "matthew arnold"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Benedict_Arnold",
+    "qb": {
+        "q": "Benedict Arnold",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "A monument at Saratoga National Historical Park honors this man’s wounded leg with a carved boot but leaves out his name. He was shot in that leg, which had also been wounded at Quebec in 1775, while attacking a redoubt held by German troops in October 1777.",
+            "r": "Earlier, he had helped Ethan Allen capture Fort Ticonderoga. For 10 points, name this American general who later tried to hand West Point to the British."
+        },
+        {
+            "p": "At the U.S. Military Academy, a plaque honoring this general in the Old Cadet Chapel shows only his rank and a birth year, not his name. In 1780, this man wrote a pass for a British officer who was traveling under the name “John Anderson.”",
+            "r": "That officer, John André [“AHN-dray”], was caught carrying plans of West Point. For 10 points, name this American general who turned traitor."
+        },
+        {
+            "p": "In October 1776, this man’s small fleet of hastily built gunboats and galleys fought a much stronger British fleet near Valcour Island on Lake Champlain. Although he lost most of his ships, the fight delayed a British invasion from Canada until the next year.",
+            "r": "Four years later, he plotted to surrender West Point. For 10 points, name this general who became America’s most famous traitor."
+        },
+        {
+            "p": "In the fall of 1775, this man led more than a thousand soldiers up the Kennebec River through the Maine wilderness, where cold and hunger forced many to turn back. On the last day of that year, he and Richard Montgomery attacked Quebec City in a snowstorm, and he was wounded in the leg.",
+            "r": "Montgomery was killed in the failed attack. For 10 points, name this general who later plotted to give West Point to the British."
+        },
+        {
+            "p": "This officer held a commission from Massachusetts but had to share command with Ethan Allen and the Green Mountain Boys when they captured Fort Ticonderoga [“ty-kon-der-OH-guh”] in May 1775. Days later, he sailed north on Lake Champlain and raided Fort St. Johns in Canada.",
+            "r": "Henry Knox later hauled that fort’s cannons to Boston. For 10 points, name this patriot who later became a traitor by plotting to surrender West Point."
+        },
+        {
+            "p": "While serving as military commander of Philadelphia, this man married Peggy Shippen, a young woman from a wealthy family who had been friendly with British officers during the city’s occupation. Pennsylvania officials accused him of misusing his post, and his court-martial ended with a reprimand from George Washington.",
+            "r": "Peggy later helped him plot treason. For 10 points, name this general who tried to surrender West Point to the British in 1780."
+        },
+        {
+            "p": "In secret letters, this man used the code name “Gustavus,” while his British contact signed as “John Anderson.” When he learned that his contact had been captured near Tarrytown, this man fled from his headquarters and escaped down the Hudson River to the British warship _Vulture_.",
+            "r": "For 10 points, name this general whose plot to hand West Point to the British fell apart in 1780."
+        },
+        {
+            "p": "As a brigadier general in the British army, this man led a raid on Richmond, Virginia, in January 1781. Later that year, he led an attack on New London, Connecticut, not far from his hometown of Norwich, and much of New London was burned.",
+            "r": "For 10 points, name this former American general who had switched sides after his plot to surrender West Point failed."
+        },
+        {
+            "p": "Congress angered this man in 1777 by promoting five officers with less seniority over him. After his horse was shot out from under him at the Battle of Ridgefield, Connecticut, he was finally made a major general, but at first Congress did not give back his seniority.",
+            "r": "Such slights helped push him toward treason. For 10 points, name this general who plotted to give West Point to the British."
+        },
+        {
+            "p": "Three militiamen, including John Paulding, stopped a traveler near Tarrytown, New York, and found papers hidden in his stocking that described the defenses of a fort this man commanded. That traveler was tried and executed as a spy at Tappan in October 1780.",
+            "r": "The fort was West Point. For 10 points, name this American general whose plot was exposed when John André was captured."
+        },
+        {
+            "p": "After the Battle of Freeman’s Farm, this general argued so bitterly with his commander that he was relieved of his duties, though he stayed in camp. Weeks later, he rode into the fighting anyway and rallied American troops at Bemis Heights, where Daniel Morgan’s riflemen also fought.",
+            "r": "His commander was Horatio Gates. For 10 points, name this hero of the Saratoga campaign who later turned traitor."
+        },
+        {
+            "p": "In August 1777, this general helped end the British siege of Fort Stanwix in New York by sending a captured Loyalist to spread rumors that a huge American army was coming. Barry St. Leger’s Native allies left, and St. Leger retreated.",
+            "r": "Weeks later, he was wounded at Saratoga. For 10 points, name this American general who later betrayed his country at West Point."
+        },
+        {
+            "p": "When George Washington arrived at this man’s headquarters in September 1780, this man’s wife acted so upset and confused that Washington and Alexander Hamilton believed she knew nothing of her husband’s plans. Historians later found that she had helped pass his secret messages.",
+            "r": "She was Peggy Shippen. For 10 points, name this American general who had just fled after trying to betray West Point."
+        },
+        {
+            "p": "Before the Revolution, this man ran an apothecary shop and bookstore in New Haven and sailed his own trading ships to the West Indies and Canada. When news of Lexington and Concord arrived in 1775, he led his militia company to demand the keys to New Haven’s powder house.",
+            "r": "He later plotted to hand West Point to the British. For 10 points, name this Connecticut patriot who became a traitor."
+        },
+        {
+            "p": "After the Revolution, this man lived for several years as a merchant in Saint John, New Brunswick, before settling in London, where he died in 1801. The British had paid him and made him a brigadier general for switching sides, but many British officers refused to trust him.",
+            "r": "He had plotted to surrender West Point. For 10 points, name this American general whose name became another word for “traitor.”"
+        }
+    ],
+    "clues": [
+        {
+            "id": "west-point",
+            "tier": "giveaway",
+            "t": "Plotted in 1780 to hand the American fort at West Point, New York, over to the British",
+            "k": ["west point", "1780", "fort"],
+            "n": 0
+        },
+        {
+            "id": "traitor",
+            "tier": "giveaway",
+            "t": "His name became another word for “traitor”; he escaped and joined the British army",
+            "k": ["traitor", "british army", "another word"],
+            "n": 0
+        },
+        {
+            "id": "andre",
+            "tier": "giveaway",
+            "t": "His British contact, Major John André, was caught with the fort’s plans and executed as a spy",
+            "k": ["john andré", "andré", "spy"],
+            "n": 0,
+            "rabbit": "John André"
+        },
+        {
+            "id": "saratoga",
+            "tier": "giveaway",
+            "t": "A hero of the Saratoga campaign (1777), where he was shot in the leg",
+            "k": ["saratoga", "leg", "1777"],
+            "n": 0,
+            "rabbit": "Battle of Saratoga"
+        },
+        {
+            "id": "ticonderoga",
+            "tier": "middle",
+            "t": "Captured Fort Ticonderoga with Ethan Allen and the Green Mountain Boys (May 1775)",
+            "k": ["ticonderoga", "ethan allen", "green mountain boys"],
+            "n": 0,
+            "rabbit": "Fort Ticonderoga"
+        },
+        {
+            "id": "quebec",
+            "tier": "middle",
+            "t": "Led a march through the Maine wilderness and attacked Quebec with Richard Montgomery (1775); wounded in the leg",
+            "k": ["quebec", "maine", "richard montgomery", "montgomery"],
+            "n": 0
+        },
+        {
+            "id": "valcour",
+            "tier": "middle",
+            "t": "His makeshift fleet fought the Battle of Valcour Island on Lake Champlain (1776), delaying a British invasion",
+            "k": ["valcour island", "valcour", "lake champlain"],
+            "n": 0
+        },
+        {
+            "id": "gates",
+            "tier": "middle",
+            "t": "Quarreled with Horatio Gates, who took away his command, but fought anyway at Bemis Heights",
+            "k": ["horatio gates", "gates", "bemis heights"],
+            "n": 0
+        },
+        {
+            "id": "shippen",
+            "tier": "middle",
+            "t": "Married Peggy Shippen of Philadelphia, who helped him plot treason",
+            "k": ["peggy shippen", "shippen", "treason"],
+            "n": 0
+        },
+        {
+            "id": "philadelphia",
+            "tier": "middle",
+            "t": "Military commander of Philadelphia (1778); his court-martial ended with a reprimand from Washington",
+            "k": ["philadelphia", "court-martial", "reprimand"],
+            "n": 0
+        },
+        {
+            "id": "raids",
+            "tier": "middle",
+            "t": "As a British brigadier general, raided Richmond, Virginia, and New London, Connecticut (1781)",
+            "k": ["brigadier general", "richmond", "new london"],
+            "n": 0
+        },
+        {
+            "id": "passed-over",
+            "tier": "middle",
+            "t": "Bitter after Congress promoted five officers with less seniority over him (1777); also deep in debt",
+            "k": ["seniority", "five officers", "debt"],
+            "n": 0
+        },
+        {
+            "id": "boot-monument",
+            "tier": "power",
+            "t": "Saratoga’s Boot Monument honors his wounded leg without naming him",
+            "k": ["boot monument", "boot"],
+            "n": 0
+        },
+        {
+            "id": "plaque",
+            "tier": "power",
+            "t": "His plaque in West Point’s Old Cadet Chapel shows only his rank and a birth year, not his name",
+            "k": ["old cadet chapel", "plaque", "rank"],
+            "n": 0
+        },
+        {
+            "id": "gustavus",
+            "tier": "power",
+            "t": "Wrote secret letters under the code name “Gustavus”; André used the name “John Anderson”",
+            "k": ["gustavus", "john anderson", "code name"],
+            "n": 0
+        },
+        {
+            "id": "vulture",
+            "tier": "power",
+            "t": "Escaped down the Hudson River to the British warship _Vulture_",
+            "k": ["vulture", "hudson"],
+            "n": 0
+        },
+        {
+            "id": "tarrytown",
+            "tier": "power",
+            "t": "André was caught near Tarrytown by three militiamen, including John Paulding, with papers in his stocking; executed at Tappan",
+            "k": ["tarrytown", "paulding", "stocking", "tappan"],
+            "n": 0
+        },
+        {
+            "id": "ridgefield",
+            "tier": "power",
+            "t": "His horse was shot from under him at the Battle of Ridgefield, Connecticut (1777); then made a major general",
+            "k": ["ridgefield", "major general", "horse"],
+            "n": 0
+        },
+        {
+            "id": "stanwix",
+            "tier": "power",
+            "t": "Helped end Barry St. Leger’s siege of Fort Stanwix (1777) by having a captured Loyalist spread rumors of a huge army",
+            "k": ["fort stanwix", "stanwix", "st. leger", "rumors"],
+            "n": 0
+        },
+        {
+            "id": "peggy-act",
+            "tier": "power",
+            "t": "His wife convinced Washington and Alexander Hamilton that she knew nothing of the plot",
+            "k": ["alexander hamilton", "hamilton", "knew nothing"],
+            "n": 0
+        },
+        {
+            "id": "new-haven",
+            "tier": "power",
+            "t": "Ran an apothecary shop and bookstore in New Haven; demanded the keys to the town’s powder house (1775)",
+            "k": ["new haven", "apothecary", "powder house"],
+            "n": 0
+        },
+        {
+            "id": "saint-john",
+            "tier": "power",
+            "t": "Lived as a merchant in Saint John, New Brunswick, then died in London (1801)",
+            "k": ["saint john", "new brunswick", "london"],
+            "n": 0
+        },
+        {
+            "id": "commission",
+            "tier": "power",
+            "t": "Held a Massachusetts commission at Ticonderoga, so he argued with Ethan Allen over who was in charge; then raided Fort St. Johns",
+            "k": ["massachusetts", "commission", "st. johns"],
+            "n": 0
+        },
+        {
+            "id": "kennebec",
+            "tier": "power",
+            "t": "Marched up the Kennebec River to Quebec; Daniel Morgan fought beside him at Quebec and at Saratoga",
+            "k": ["kennebec", "daniel morgan", "morgan"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Hero first, traitor later",
+        "body": "Early clues describe Benedict Arnold as an American hero, so players often buzz with a different patriot named in the question: Ethan Allen (Fort Ticonderoga), Horatio Gates (who got the credit for Saratoga), Daniel Morgan, or Richard Montgomery. Late clues about the West Point plot tempt players to say John André, the British officer who was caught, instead of the American general who plotted.",
+        "fix": "Arnold clues: a leg wounded at both Quebec and Saratoga, the fleet at Valcour Island, the quarrel with Gates, Peggy Shippen, the code name “Gustavus,” and the _Vulture_. If the question asks for “this British officer” or “this spy,” say André; “this American general” means Arnold.",
+        "line": "Real answer line: Benedict <b><u>Arnold</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Benedict Arnold",
+            "Arnold",
+            "General Benedict Arnold",
+            "Bendict Arnold",
+            "benedict arnld"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Ethan Allen",
+            "John André",
+            "Horatio Gates",
+            "Peggy Shippen",
+            "Arnold Schoenberg",
+            "Daniel Morgan"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
