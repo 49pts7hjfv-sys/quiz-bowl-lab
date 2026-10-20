@@ -1,0 +1,377 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "polymers",
+    "name": "Polymers",
+    "mono": "PLY",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Giant molecules built from repeating units · Plastics, nylon, and DNA",
+    "dates": "Chain idea proposed by Hermann Staudinger, 1920",
+    "briefing": "A polymer is a giant molecule made of thousands of small units, called monomers, linked like beads on a necklace. Nature builds polymers such as starch, silk, rubber, and DNA, while chemists build plastics like polyethylene. In 1935 Wallace Carothers of DuPont invented nylon, which soon replaced silk in stockings, and in 1965 Stephanie Kwolek invented Kevlar, a fiber used in bulletproof vests.",
+    "answerHtml": "<b><u>Polymer</u></b>s (accept <u>polymerization</u>; prompt on <u>plastic</u>s or <u>macromolecule</u>s; do not accept “monomers”)",
+    "accept": [
+        "polymers",
+        "polymer",
+        "polymerization",
+        "polymerisation",
+        "polymeric"
+    ],
+    "prompt": [
+        "plastics",
+        "plastic",
+        "macromolecules",
+        "macromolecule",
+        "giant molecules",
+        "giant molecule"
+    ],
+    "reject": [
+        "monomers",
+        "monomer",
+        "polymerase",
+        "polymerases",
+        "polymerase chain reaction",
+        "dimer",
+        "dimers",
+        "isomers",
+        "isomer",
+        "proteins",
+        "protein",
+        "nucleic acids",
+        "polysaccharides",
+        "polysaccharide",
+        "carbohydrates",
+        "starch",
+        "cellulose",
+        "chitin",
+        "nylon",
+        "polyethylene",
+        "polypropylene",
+        "polyester",
+        "polyesters",
+        "polystyrene",
+        "polyvinyl chloride",
+        "pvc",
+        "rubber",
+        "kevlar",
+        "bakelite",
+        "teflon",
+        "neoprene",
+        "celluloid",
+        "silicone",
+        "alkenes",
+        "esters",
+        "amino acids",
+        "polynomials",
+        "polyamides"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Polymer",
+    "qb": {
+        "q": "polymer",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Hermann Staudinger [“SHTOW-ding-er”] won the 1953 Nobel Prize in Chemistry for arguing that these substances are enormous molecules held together by ordinary covalent bonds, not loose clumps of small molecules. Many chemists rejected his idea when he proposed it in 1920.",
+            "r": "Nylon and Kevlar are synthetic examples. For 10 points, name these giant molecules built from many small repeating units called monomers."
+        },
+        {
+            "p": "Jöns Jacob Berzelius [“ber-ZEE-lee-us”] coined the name for these substances in 1833, though he meant something different from its modern meaning. John Wesley Hyatt made celluloid from one of them, partly as a substitute for the ivory in billiard balls.",
+            "r": "Their name comes from Greek words meaning “many parts.” For 10 points, name these giant chain molecules that make up plastics."
+        },
+        {
+            "p": "One of these substances, nylon 6,6, is named for the six carbon atoms in each of its two starting materials, one of which is adipic acid. Wallace Carothers led the DuPont team that first made nylon in 1935, and it soon replaced silk in women’s stockings.",
+            "r": "For 10 points, name these giant molecules, which also include Teflon and polyethylene, made of many repeating units."
+        },
+        {
+            "p": "In Kevlar, hydrogen bonds join neighboring chains of this kind of molecule into strong, flat sheets. Stephanie Kwolek [“KWOH-lek”] invented that fiber at DuPont in 1965, and it is used in bulletproof vests.",
+            "r": "For 10 points, name these giant molecules, such as nylon and polyethylene, that are made of many repeating units called monomers."
+        },
+        {
+            "p": "Leo Baekeland [“BAY-kuh-land”] made his first fortune selling his Velox photographic paper to George Eastman, then in 1907 invented Bakelite, the first fully synthetic plastic, from phenol and formaldehyde. Bakelite is a thermoset, so once it hardens it cannot be melted and reshaped.",
+            "r": "For 10 points, name these giant molecules made of repeating units, the main ingredients of all plastics."
+        },
+        {
+            "p": "Charles Goodyear discovered in 1839 that heating natural rubber with sulfur made it tough instead of sticky, because sulfur atoms form cross-links between these long molecules. Natural rubber is one of these substances, built from units of isoprene [“EYE-soh-preen”].",
+            "r": "PVC and polystyrene are synthetic examples. For 10 points, name these giant chain molecules made of monomers."
+        },
+        {
+            "p": "Roy Plunkett discovered Teflon in 1938 when a cylinder of tetrafluoroethylene [“tet-ruh-floor-oh-ETH-uh-leen”] gas seemed empty but held a slippery white powder. Teflon, polyethylene, and PVC are all addition types of these substances, which form when small molecules with double bonds link up without giving off anything.",
+            "r": "For 10 points, name these huge molecules made by linking many small units called monomers into chains."
+        },
+        {
+            "p": "Both nylon and the proteins in your body are polyamides, a class of these substances whose units are joined by amide bonds. Those bonds form in condensation reactions, which give off a small molecule such as water each time two units link.",
+            "r": "Polyester is another example. For 10 points, name these giant molecules made of many repeating units called monomers."
+        },
+        {
+            "p": "Karl Ziegler and Giulio Natta [“JOO-lee-oh NAH-tah”] shared the 1963 Nobel Prize in Chemistry for catalysts, made from titanium and aluminum compounds, that link small molecules into long, orderly chains. Those catalysts made it practical to produce two of these substances: polypropylene and the high-density polyethylene used in milk jugs.",
+            "r": "For 10 points, name these huge molecules, which include all plastics, made of repeating units called monomers."
+        },
+        {
+            "p": "In 1933, Eric Fawcett and Reginald Gibson at the British company ICI accidentally made a waxy white solid while heating ethylene at very high pressure. That solid, polyethylene, became the world’s most common plastic and a classic example of these substances.",
+            "r": "For 10 points, name these giant chain molecules, which also include nylon, starch, and DNA."
+        },
+        {
+            "p": "In 1941, John Rex Whinfield and James Dickson patented one of these substances, PET, which is used for soda bottles and Dacron fabric. Plastics are sorted by recycling codes from 1 to 7, and PET is code 1.",
+            "r": "For 10 points, name these giant molecules, such as nylon and polyethylene, made of many repeating units."
+        },
+        {
+            "p": "In the “nylon rope trick,” a continuous strand is pulled from the boundary between two liquids that don’t mix, as new material keeps forming where they meet. Silk and wool are natural materials made of these substances.",
+            "r": "For 10 points, name these long-chain molecules, such as nylon, made from repeating units called monomers."
+        },
+        {
+            "p": "Below a temperature called the glass transition, many of these materials are hard and brittle, but above it they turn soft and rubbery. Thermoplastic types can be melted and reshaped again and again, while thermosets, like Bakelite, stay hard once they set.",
+            "r": "For 10 points, name these giant molecules built from repeating units, which make up plastics."
+        },
+        {
+            "p": "Chitin [“KY-tin”], which makes up the hard outer skeletons of insects and crabs, is one of these substances. Cellulose and starch are both chains of glucose, but their glucose units are linked in slightly different ways, so people can digest starch but not cellulose.",
+            "r": "Proteins and DNA are other natural examples. For 10 points, name these giant molecules built from small units called monomers."
+        },
+        {
+            "p": "Neoprene, a synthetic rubber used in wetsuits, came out of Wallace Carothers’s research group at DuPont in 1930, five years before that group first made nylon. Both neoprene and nylon are synthetic examples of these substances.",
+            "r": "Polystyrene is another. For 10 points, name these giant molecules made of repeating units called monomers."
+        }
+    ],
+    "clues": [
+        {
+            "id": "giant-chains",
+            "tier": "giveaway",
+            "t": "Giant molecules made of many small repeating units, called monomers, linked into long chains",
+            "k": ["monomers", "repeating units", "long chains"],
+            "n": 0
+        },
+        {
+            "id": "plastics",
+            "tier": "giveaway",
+            "t": "All plastics are made of them, such as polyethylene, PVC, and polystyrene",
+            "k": ["plastics", "polyethylene", "pvc", "polystyrene"],
+            "n": 0
+        },
+        {
+            "id": "natural",
+            "tier": "giveaway",
+            "t": "Natural examples include proteins, DNA, silk, and natural rubber",
+            "k": ["proteins", "dna", "silk", "natural rubber"],
+            "n": 0,
+            "rabbit": "Proteins"
+        },
+        {
+            "id": "many-parts",
+            "tier": "giveaway",
+            "t": "Their name comes from Greek words meaning “many parts”",
+            "k": ["many parts", "greek"],
+            "n": 0
+        },
+        {
+            "id": "nylon",
+            "tier": "middle",
+            "t": "Wallace Carothers’s team at DuPont made nylon in 1935; it soon replaced silk in stockings",
+            "k": ["carothers", "nylon", "dupont", "1935"],
+            "n": 0
+        },
+        {
+            "id": "kevlar",
+            "tier": "middle",
+            "t": "Stephanie Kwolek invented Kevlar, used in bulletproof vests, at DuPont in 1965",
+            "k": ["kwolek", "kevlar", "bulletproof", "1965"],
+            "n": 0
+        },
+        {
+            "id": "bakelite",
+            "tier": "middle",
+            "t": "Leo Baekeland’s Bakelite (1907), made from phenol and formaldehyde, was the first fully synthetic plastic",
+            "k": ["baekeland", "bakelite", "phenol", "formaldehyde"],
+            "n": 0
+        },
+        {
+            "id": "addition",
+            "tier": "middle",
+            "t": "Addition types, like polyethylene, PVC, and Teflon, form from small molecules with double bonds and give off nothing else",
+            "k": ["addition", "double bonds", "teflon"],
+            "n": 0,
+            "rabbit": "Alkenes"
+        },
+        {
+            "id": "condensation",
+            "tier": "middle",
+            "t": "Condensation types, like nylon, polyester, and proteins, give off a small molecule such as water each time two units join",
+            "k": ["condensation", "polyester", "water"],
+            "n": 0
+        },
+        {
+            "id": "vulcanization",
+            "tier": "middle",
+            "t": "Charles Goodyear’s vulcanization (1839): heating natural rubber with sulfur makes cross-links that keep it tough, not sticky",
+            "k": ["goodyear", "vulcanization", "sulfur", "cross-links"],
+            "n": 0,
+            "rabbit": "Sulfur"
+        },
+        {
+            "id": "thermoplastics",
+            "tier": "middle",
+            "t": "Thermoplastics melt and can be reshaped; thermosets, like Bakelite, stay hard once they set",
+            "k": ["thermoplastics", "thermosets", "reshaped"],
+            "n": 0
+        },
+        {
+            "id": "starch-cellulose",
+            "tier": "middle",
+            "t": "Starch and cellulose are both chains of glucose, linked differently, so people can digest starch but not cellulose",
+            "k": ["starch", "cellulose", "glucose"],
+            "n": 0,
+            "rabbit": "Cellulose"
+        },
+        {
+            "id": "teflon",
+            "tier": "middle",
+            "t": "Roy Plunkett discovered Teflon by accident at DuPont in 1938",
+            "k": ["plunkett", "teflon", "1938"],
+            "n": 0
+        },
+        {
+            "id": "staudinger",
+            "tier": "power",
+            "t": "Hermann Staudinger won the 1953 Nobel Prize for showing they are huge molecules held together by ordinary covalent bonds",
+            "k": ["staudinger", "1953", "covalent bonds"],
+            "n": 0
+        },
+        {
+            "id": "berzelius",
+            "tier": "power",
+            "t": "Jöns Jacob Berzelius coined their name in 1833, with a different meaning from the modern one",
+            "k": ["berzelius", "1833", "coined"],
+            "n": 0
+        },
+        {
+            "id": "nylon-66",
+            "tier": "power",
+            "t": "Nylon 6,6 is named for the six carbon atoms in each of its two starting materials, such as adipic acid",
+            "k": ["nylon 6,6", "six carbon", "adipic acid"],
+            "n": 0
+        },
+        {
+            "id": "polyamides",
+            "tier": "power",
+            "t": "Nylon and proteins are polyamides, whose units are joined by amide bonds",
+            "k": ["polyamides", "amide bonds"],
+            "n": 0
+        },
+        {
+            "id": "kevlar-sheets",
+            "tier": "power",
+            "t": "Hydrogen bonds join Kevlar’s neighboring chains into strong, flat sheets",
+            "k": ["hydrogen bonds", "flat sheets"],
+            "n": 0,
+            "rabbit": "Hydrogen bonds"
+        },
+        {
+            "id": "velox",
+            "tier": "power",
+            "t": "Leo Baekeland first got rich selling his Velox photographic paper to George Eastman",
+            "k": ["velox", "george eastman", "photographic paper"],
+            "n": 0
+        },
+        {
+            "id": "ziegler-natta",
+            "tier": "power",
+            "t": "Ziegler–Natta catalysts (1963 Nobel), made from titanium and aluminum compounds, make polypropylene and high-density polyethylene",
+            "k": ["ziegler", "natta", "1963", "polypropylene"],
+            "n": 0,
+            "rabbit": "Catalysts"
+        },
+        {
+            "id": "ici-1933",
+            "tier": "power",
+            "t": "Eric Fawcett and Reginald Gibson made polyethylene by accident at ICI in 1933",
+            "k": ["fawcett", "gibson", "ici", "1933"],
+            "n": 0
+        },
+        {
+            "id": "pet",
+            "tier": "power",
+            "t": "John Rex Whinfield and James Dickson patented PET (soda bottles, Dacron) in 1941; it is recycling code 1",
+            "k": ["whinfield", "dickson", "dacron", "recycling code"],
+            "n": 0,
+            "rabbit": "Esters"
+        },
+        {
+            "id": "rope-trick",
+            "tier": "power",
+            "t": "In the “nylon rope trick,” a strand is pulled from the boundary between two liquids that don’t mix",
+            "k": ["nylon rope trick", "boundary", "two liquids"],
+            "n": 0
+        },
+        {
+            "id": "glass-transition",
+            "tier": "power",
+            "t": "Below the glass transition temperature many are hard and brittle; above it they turn soft and rubbery",
+            "k": ["glass transition", "brittle", "rubbery"],
+            "n": 0
+        },
+        {
+            "id": "celluloid",
+            "tier": "power",
+            "t": "John Wesley Hyatt’s celluloid was partly meant to replace ivory in billiard balls",
+            "k": ["hyatt", "celluloid", "ivory", "billiard balls"],
+            "n": 0
+        },
+        {
+            "id": "chitin",
+            "tier": "power",
+            "t": "Chitin, in the outer skeletons of insects and crabs, is a natural one",
+            "k": ["chitin", "insects", "crabs"],
+            "n": 0
+        },
+        {
+            "id": "neoprene-isoprene",
+            "tier": "power",
+            "t": "Natural rubber is built from isoprene units; neoprene, a synthetic rubber used in wetsuits, came from Carothers’s group in 1930",
+            "k": ["isoprene", "neoprene", "wetsuits"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The chain, not one link",
+        "body": "Polymer tossups are full of single examples, like nylon, Kevlar, Teflon, and polyethylene, and of the small units they are built from, so players blurt one example or say “monomers.” Others hear about DNA and mix up the molecules with polymerase, the enzyme that builds DNA chains. Saying “plastics” earns only a prompt, because plastics are just one kind of polymer.",
+        "fix": "If the question asks for “these substances” or “these giant molecules” and the clues jump between nylon, rubber, starch, and plastics, give the class name. Say “monomers” only for the small repeating units themselves, and name one example only for “this plastic” or “this fiber.”",
+        "line": "Real answer line: <b><u>Polymer</u></b>s (accept <u>polymerization</u>; prompt on <u>plastic</u>s or <u>macromolecule</u>s; do not accept “monomers”)"
+    },
+    "tests": {
+        "right": [
+            "Polymers",
+            "polymer",
+            "Polimers",
+            "Polymerization",
+            "Synthetic polymers"
+        ],
+        "prompt": [
+            "Plastics",
+            "Macromolecules"
+        ],
+        "wrong": [
+            "Monomers",
+            "Polymerase",
+            "Proteins",
+            "Nylon",
+            "Polyethylene",
+            "Isomers",
+            "Polynomials",
+            "Alkenes"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

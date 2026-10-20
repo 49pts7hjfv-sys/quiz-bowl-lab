@@ -33,6 +33,8 @@ data = {
         "george washington",
         "washington irving",
         "booker t washington",
+        "booker washington",
+        "denzel washington",
         "martha washington",
         "washington state",
         "state of washington",

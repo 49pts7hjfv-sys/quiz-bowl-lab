@@ -20,11 +20,7 @@ data = {
     "accept": [
         "karma",
         "kamma",
-        "karman",
-        "karam",
-        "karmic",
-        "law of karma",
-        "karmic law"
+        "karmic"
     ],
     "prompt": [],
     "reject": [
@@ -48,7 +44,12 @@ data = {
         "punya",
         "merit",
         "fate",
-        "destiny"
+        "destiny",
+        "gamma",
+        "kurma",
+        "parma",
+        "arma",
+        "karl marx"
     ],
     "media": [],
     "mediaPending": True,

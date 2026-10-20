@@ -19,14 +19,6 @@ data = {
     "answerHtml": LINE,
     "accept": [
         "gabriel",
-        "archangel gabriel",
-        "the archangel gabriel",
-        "angel gabriel",
-        "the angel gabriel",
-        "saint gabriel",
-        "st gabriel",
-        "gabriel the archangel",
-        "gabriel archangel",
         "jibril",
         "jibreel",
         "jibrail",
@@ -59,7 +51,8 @@ data = {
         "peter gabriel",
         "gabriel faure",
         "dante gabriel rossetti",
-        "rossetti"
+        "rossetti",
+        "abdiel"
     ],
     "media": [],
     "mediaPending": True,

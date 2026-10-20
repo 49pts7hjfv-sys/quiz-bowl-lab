@@ -19,20 +19,12 @@ data = {
     "answerHtml": LINE,
     "accept": [
         "buddha",
-        "the buddha",
         "gautama",
-        "gautama buddha",
         "siddhartha",
-        "siddhartha gautama",
-        "siddhattha gotama",
+        "siddhattha",
         "gotama",
-        "gotama buddha",
         "shakyamuni",
-        "sakyamuni",
-        "shakyamuni buddha",
-        "sakyamuni buddha",
-        "buddha shakyamuni",
-        "prince siddhartha"
+        "sakyamuni"
     ],
     "prompt": [],
     "reject": [

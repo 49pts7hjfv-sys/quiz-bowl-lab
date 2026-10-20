@@ -77,16 +77,16 @@ data = {
             "r": "Every other state gives all of its electors to the statewide winner. For 10 points, name this body that formally chooses the president."
         },
         {
-            "p": "The Twenty-third Amendment, ratified in 1961, gave Washington, D.C., members in this body, but no more than the least populous state has. As a result, residents of D.C. first voted for president in 1964.",
-            "r": "Each state gets as many electors as it has senators and representatives combined. For 10 points, name this body that elects the president."
+            "p": "Residents of Washington, D.C., could not vote for president until 1964. The Twenty-third Amendment, ratified in 1961, gave the city members in this body, but no more than the least populous state has.",
+            "r": "Each state has as many members in it as it has senators and representatives combined. For 10 points, name this body that elects the president."
         },
         {
             "p": "In 1837, the Senate picked the vice president for the only time, after no candidate for that office won a majority in this institution. The House of Representatives picks the president in that situation, as it did in 1824, when it chose John Quincy Adams.",
             "r": "For 10 points, name this institution in which a candidate needs 270 of 538 votes to become president."
         },
         {
-            "p": "Samuel Tilden in 1876, Grover Cleveland in 1888, Al Gore in 2000, and Hillary Clinton in 2016 all won the most popular votes but lost the presidency because of this institution. In each case, the winner received a majority of this body’s votes.",
-            "r": "For 10 points, name this group of 538 electors, created by the Constitution, that formally elects the president."
+            "p": "Samuel Tilden in 1876 and Grover Cleveland in 1888 both won the most popular votes but lost the presidency because of this institution; in 1888, Benjamin Harrison won a majority of its votes instead.",
+            "r": "The same thing happened to Al Gore in 2000 and Hillary Clinton in 2016. For 10 points, name this group of 538 electors that elects the president."
         },
         {
             "p": "In 1820, James Monroe won every vote in this body except one, which William Plumer of New Hampshire cast for John Quincy Adams. The only president ever to win all of its votes did so in both 1789 and 1792.",
@@ -101,8 +101,8 @@ data = {
             "r": "A majority of its 538 votes elects the president. For 10 points, name this body."
         },
         {
-            "p": "The number of votes each state has in this institution can change after every census, because it equals the state’s number of senators plus its number of representatives. No state has fewer than three.",
-            "r": "California has the most. For 10 points, name this institution, in which a candidate needs 270 votes to win the presidency."
+            "p": "After the 2020 census, Texas gained two votes in this institution and California lost one, because each state’s share changes as its population shifts. Even the least populous states have three votes in it.",
+            "r": "A state’s number equals its senators plus its representatives. For 10 points, name this institution, in which a candidate needs 270 votes to win the presidency."
         },
         {
             "p": "George Wallace won 46 votes in this body in 1968, and Strom Thurmond won 39 in 1948, both running outside the two major parties. Ross Perot won almost 19 percent of the popular vote in 1992 but none of this body’s votes.",

@@ -10,20 +10,12 @@
   "answerHtml": "the <b><u>Buddha</u></b> (or <b><u>Siddhartha</u></b> <b><u>Gautama</u></b>, accepting either name; or Gautama <u>Buddha</u>; accept <u>Shakyamuni</u>; do not accept “Buddhism”)",
   "accept": [
     "buddha",
-    "the buddha",
     "gautama",
-    "gautama buddha",
     "siddhartha",
-    "siddhartha gautama",
-    "siddhattha gotama",
+    "siddhattha",
     "gotama",
-    "gotama buddha",
     "shakyamuni",
-    "sakyamuni",
-    "shakyamuni buddha",
-    "sakyamuni buddha",
-    "buddha shakyamuni",
-    "prince siddhartha"
+    "sakyamuni"
   ],
   "prompt": [],
   "reject": [

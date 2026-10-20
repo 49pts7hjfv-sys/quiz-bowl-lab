@@ -10,15 +10,12 @@
   "answerHtml": "<b><u>David</u></b> (accept King <u>David</u> or <u>Dawud</u>; do not accept “Goliath,” “Saul,” or “Solomon”; do not accept Michelangelo’s statue)",
   "accept": [
     "david",
-    "king david",
     "dawud",
     "daud",
     "dawood",
     "dovid",
     "david son of jesse",
-    "david king of israel",
-    "prophet david",
-    "prophet dawud"
+    "king david son of jesse"
   ],
   "prompt": [],
   "reject": [
@@ -72,7 +69,9 @@
     "house of david",
     "tower of david",
     "davy crockett",
-    "ovid"
+    "ovid",
+    "davis",
+    "covid"
   ],
   "media": [],
   "mediaPending": true,

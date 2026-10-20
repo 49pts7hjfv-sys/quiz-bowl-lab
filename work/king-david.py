@@ -19,15 +19,12 @@ data = {
     "answerHtml": LINE,
     "accept": [
         "david",
-        "king david",
         "dawud",
         "daud",
         "dawood",
         "dovid",
         "david son of jesse",
-        "david king of israel",
-        "prophet david",
-        "prophet dawud"
+        "king david son of jesse"
     ],
     "prompt": [],
     "reject": [
@@ -81,7 +78,9 @@ data = {
         "house of david",
         "tower of david",
         "davy crockett",
-        "ovid"
+        "ovid",
+        "davis",
+        "covid"
     ],
     "media": [],
     "mediaPending": True,

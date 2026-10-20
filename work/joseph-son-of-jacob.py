@@ -19,15 +19,14 @@ data = {
     "answerHtml": LINE,
     "accept": [
         "joseph",
-        "joseph son of jacob",
         "yosef",
         "yusuf",
         "yousef",
         "yusef",
-        "joseph the patriarch",
-        "joseph of egypt",
-        "joseph the dreamer",
-        "joseph son of rachel"
+        "joseph son of jacob",
+        "joseph son of rachel",
+        "joseph son of israel",
+        "yusuf son of yaqub"
     ],
     "prompt": [],
     "reject": [
@@ -72,7 +71,9 @@ data = {
         "joseph priestley",
         "josephus",
         "jesus",
-        "mary"
+        "mary",
+        "ramzi yousef",
+        "josepha"
     ],
     "media": [],
     "mediaPending": True,
