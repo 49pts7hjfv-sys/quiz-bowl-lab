@@ -132,7 +132,7 @@ data = {
             "r": "In his final life, he was born a prince in Lumbini. For 10 points, name this founder of Buddhism."
         },
         {
-            "p": "This teacher’s last words urged his followers to strive on with diligence, because all things that come into being must pass away. He had fallen ill after eating a meal offered by Cunda [“CHOON-duh”] the smith, and he died at about age 80 at Kushinagar [“koo-shee-NUH-gur”], lying between two sal trees.",
+            "p": "This teacher’s last words urged his followers to strive on with diligence, because all things that come into being must pass away. He had fallen ill after eating a meal offered by Cunda [“CHOON-dah”] the smith, and he died at about age 80 at Kushinagar [“koo-shee-NAH-gar”], lying between two sal trees.",
             "r": "Reclining statues show him at that moment of final nirvana. For 10 points, name this founder of Buddhism."
         },
         {

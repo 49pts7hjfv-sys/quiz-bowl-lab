@@ -1,0 +1,388 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+# Every other amendment, in the forms a kid might type, goes in "reject": the answer checker
+# forgives typos, so "22nd amendment" or "amendment iii" would otherwise count as right.
+ORD = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth",
+       "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth",
+       "eighteenth", "nineteenth", "twentieth", "twenty first", "twenty second", "twenty third",
+       "twenty fourth", "twenty fifth", "twenty sixth", "twenty seventh"]
+CARD = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+        "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen",
+        "twenty", "twenty one", "twenty two", "twenty three", "twenty four", "twenty five",
+        "twenty six", "twenty seven"]
+ROMAN = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x", "xi", "xii", "xiii", "xiv",
+         "xv", "xvi", "xvii", "xviii", "xix", "xx", "xxi", "xxii", "xxiii", "xxiv", "xxv", "xxvi",
+         "xxvii"]
+
+
+def numeric(n):
+    if n % 100 in (11, 12, 13):
+        return f"{n}th"
+    return f"{n}" + {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+
+
+def other_amendments(keep):
+    out = []
+    for n in range(1, 28):
+        if n == keep:
+            continue
+        i = n - 1
+        out += [f"{ORD[i]} amendment", f"{numeric(n)} amendment", f"amendment {ROMAN[i]}",
+                f"amendment {n}", f"amendment {CARD[i]}"]
+    return out
+
+
+data = {
+    "id": "second-amendment",
+    "name": "Second Amendment",
+    "mono": "2A",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Protects the right to keep and bear arms · Ratified 1791",
+    "dates": "Ratified December 15, 1791",
+    "briefing": "The Second Amendment is a single 27-word sentence: “A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.” Ratified in 1791 as part of the Bill of Rights, it has been read in different ways, and in 2008 the Supreme Court ruled in _District of Columbia v. Heller_ that it protects an individual’s right to keep a handgun at home for self-defense.",
+    "answerHtml": "<b><u>Second Amendment</u></b> (or <u>Amendment II</u>; prompt on <u>right to bear arms</u>; do not accept “Bill of Rights,” “First Amendment,” or “guns”)",
+    "accept": [
+        "second amendment",
+        "the second amendment",
+        "2nd amendment",
+        "amendment ii",
+        "amendment 2",
+        "amendment two",
+        "second amendment to the united states constitution",
+        "second amendment to the us constitution",
+        "second amendment to the constitution",
+        "second amendment of the bill of rights",
+        "second amendment in the bill of rights",
+        "second amendment to the bill of rights"
+    ],
+    "prompt": [
+        "right to bear arms",
+        "right to keep and bear arms",
+        "keep and bear arms",
+        "bear arms",
+        "right to bear arms amendment",
+        "right to own guns",
+        "second",
+        "2nd"
+    ],
+    "reject": other_amendments(2) + [
+        "bill of rights",
+        "english bill of rights",
+        "guns",
+        "gun",
+        "firearms",
+        "firearm",
+        "gun control",
+        "rifle",
+        "rifles",
+        "muskets",
+        "national rifle association",
+        "nra",
+        "militia",
+        "militias",
+        "militia act",
+        "militia act of 1792",
+        "national firearms act",
+        "brady act",
+        "gun control act",
+        "district of columbia v heller",
+        "heller",
+        "mcdonald v chicago",
+        "mcdonald v city of chicago",
+        "virginia declaration of rights",
+        "declaration of independence",
+        "articles of confederation",
+        "equal rights amendment"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Second_Amendment_to_the_United_States_Constitution",
+    "qb": {
+        "q": "Second Amendment",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "George Mason’s Virginia Declaration of Rights of 1776 called “a well regulated militia, composed of the body of the people” the “proper, natural, and safe defence of a free state.” This amendment also drew on the English Bill of Rights of 1689, which let Protestant subjects have arms for their defense.",
+            "r": "For 10 points, name this amendment that protects “the right of the people to keep and bear Arms.”"
+        },
+        {
+            "p": "James Madison’s 1789 draft of this amendment would have excused anyone “religiously scrupulous of bearing arms” from being forced to serve in the military, but the Senate cut that clause. Many supporters of this amendment feared that a permanent national army could threaten liberty.",
+            "r": "This amendment comes right after the one protecting free speech. For 10 points, name this amendment protecting the right to keep and bear arms."
+        },
+        {
+            "p": "The year after this amendment was ratified, the Militia Act of 1792 required able-bodied white male citizens between the ages of 18 and 45 to enroll in their state’s militia and supply their own musket or rifle. Anti-Federalists had worried that the Constitution gave Congress too much power over the state militias.",
+            "r": "For 10 points, name this amendment that begins “A well regulated Militia, being necessary to the security of a free State.”"
+        },
+        {
+            "p": "In _United States v. Cruikshank_ (1876) and _Presser v. Illinois_ (1886), the Supreme Court said this amendment limited only the federal government, not the states. That changed in 2010, when the Court applied it to state and local governments.",
+            "r": "For 10 points, name this amendment that protects the right to keep and bear arms."
+        },
+        {
+            "p": "In _United States v. Miller_ (1939), the Supreme Court upheld a federal tax and registration law covering short-barreled shotguns, saying there was no evidence that such a weapon was connected to a “well regulated Militia.” That law, the National Firearms Act of 1934, also regulated machine guns.",
+            "r": "For 10 points, name this amendment, which protects “the right of the people to keep and bear Arms.”"
+        },
+        {
+            "p": "Dick Heller, a special police officer who carried a handgun while guarding a federal building, sued after Washington, D.C., refused to let him keep a handgun in his home. In 2008, the Supreme Court ruled 5–4 that the city’s handgun ban violated this amendment.",
+            "r": "For 10 points, name this amendment that protects the right to keep and bear arms."
+        },
+        {
+            "p": "Justice Antonin Scalia’s majority opinion in a 2008 case divided this amendment into a “prefatory clause” about the militia and an “operative clause” that protects an individual right. Justice John Paul Stevens’s dissent argued that the right was tied to service in a state militia.",
+            "r": "That case was _District of Columbia v. Heller_. For 10 points, name this amendment about the right to keep and bear arms."
+        },
+        {
+            "p": "A 2008 ruling on this amendment called the handgun “the quintessential self-defense weapon” but said long-standing limits, like bans on carrying guns in schools and government buildings, could remain. In 2016, in a case about a stun gun, the Court said this amendment’s protection is not limited to weapons that existed in the 1700s.",
+            "r": "For 10 points, name this amendment, which protects “the right of the people to keep and bear Arms.”"
+        },
+        {
+            "p": "Justice Samuel Alito wrote the main opinion in a 2010 case that applied this amendment to state and local governments through the Fourteenth Amendment. Justice Clarence Thomas agreed with the result but relied instead on the Fourteenth Amendment’s Privileges or Immunities Clause.",
+            "r": "That case was _McDonald v. City of Chicago_. For 10 points, name this amendment protecting the right to keep and bear arms."
+        },
+        {
+            "p": "In a 2022 case, Justice Clarence Thomas wrote that gun laws must be consistent with “this Nation’s historical tradition of firearm regulation.” That case struck down New York’s rule that people show “proper cause” to get a license to carry a handgun in public.",
+            "r": "That case was _New York State Rifle & Pistol Association v. Bruen_. For 10 points, name this amendment."
+        },
+        {
+            "p": "In _United States v. Rahimi_ (2024), the Supreme Court voted 8–1 to uphold a federal law that bars people under certain court protective orders from having guns. Chief Justice John Roberts’s opinion clarified a historical test that the Court had announced two years earlier.",
+            "r": "For 10 points, name this amendment that protects the right to keep and bear arms."
+        },
+        {
+            "p": "For many years, legal scholars debated whether this amendment protects a “collective right” connected to service in state militias or an “individual right” of each person to own guns. A 2008 Supreme Court decision adopted the individual-right reading.",
+            "r": "For 10 points, name this amendment, whose text begins by mentioning “A well regulated Militia.”"
+        },
+        {
+            "p": "Colonial militias, such as the Massachusetts minutemen who turned out when British troops marched toward Concord in 1775, are often cited as background for this amendment. Its first clause says that a militia is “necessary to the security of a free State.”",
+            "r": "For 10 points, name this amendment that also protects “the right of the people to keep and bear Arms.”"
+        },
+        {
+            "p": "This amendment is a single sentence of just 27 words, ending with the phrase “shall not be infringed.” Its unusual commas and its opening clause about the militia have been debated by courts and scholars for many years.",
+            "r": "For 10 points, name this amendment, ratified in 1791, that protects the right to keep and bear arms."
+        },
+        {
+            "p": "In _Federalist_ No. 46, James Madison wrote of “the advantage of being armed, which the Americans possess over the people of almost every other nation.” The next year, Madison proposed this amendment to the First Congress.",
+            "r": "For 10 points, name this amendment that protects the right to keep and bear arms."
+        }
+    ],
+    "clues": [
+        {
+            "id": "keep-and-bear-arms",
+            "tier": "giveaway",
+            "t": "Protects “the right of the people to keep and bear Arms”",
+            "k": ["keep and bear arms", "bear arms", "right of the people"],
+            "n": 0
+        },
+        {
+            "id": "bill-of-rights",
+            "tier": "giveaway",
+            "t": "Part of the Bill of Rights, ratified in 1791; James Madison drafted it",
+            "k": ["bill of rights", "1791", "madison"],
+            "n": 0,
+            "rabbit": "Bill of Rights"
+        },
+        {
+            "id": "shall-not-be-infringed",
+            "tier": "giveaway",
+            "t": "Ends with the words “shall not be infringed”",
+            "k": ["shall not be infringed", "infringed"],
+            "n": 0
+        },
+        {
+            "id": "militia-clause",
+            "tier": "middle",
+            "t": "Begins “A well regulated Militia, being necessary to the security of a free State”",
+            "k": ["well regulated militia", "militia", "free state"],
+            "n": 0
+        },
+        {
+            "id": "heller",
+            "tier": "middle",
+            "t": "_District of Columbia v. Heller_ (2008), 5–4: it protects an individual right to keep a handgun at home for self-defense; struck down D.C.’s handgun ban",
+            "k": ["heller", "2008", "self-defense", "handgun"],
+            "n": 0
+        },
+        {
+            "id": "mcdonald",
+            "tier": "middle",
+            "t": "_McDonald v. City of Chicago_ (2010): it applies to state and local governments through the 14th Amendment",
+            "k": ["mcdonald", "2010", "14th amendment"],
+            "n": 0
+        },
+        {
+            "id": "bruen",
+            "tier": "middle",
+            "t": "_New York State Rifle & Pistol Association v. Bruen_ (2022): gun laws must fit the nation’s “historical tradition of firearm regulation”",
+            "k": ["bruen", "historical tradition", "2022"],
+            "n": 0
+        },
+        {
+            "id": "collective-individual",
+            "tier": "middle",
+            "t": "Long debate: a “collective right” tied to militia service vs. an “individual right” to own guns; _Heller_ chose the individual-right reading",
+            "k": ["collective right", "individual right", "collective"],
+            "n": 0
+        },
+        {
+            "id": "english-bill",
+            "tier": "middle",
+            "t": "Roots: the English Bill of Rights (1689) let Protestant subjects have arms for their defense",
+            "k": ["english bill of rights", "1689", "protestant"],
+            "n": 0
+        },
+        {
+            "id": "standing-army",
+            "tier": "middle",
+            "t": "Supporters feared a standing (permanent) national army; colonial militias like the minutemen were part of its background",
+            "k": ["standing", "minutemen", "colonial militias"],
+            "n": 0
+        },
+        {
+            "id": "miller",
+            "tier": "middle",
+            "t": "_United States v. Miller_ (1939): upheld the National Firearms Act’s rules for short-barreled shotguns",
+            "k": ["miller", "1939", "national firearms act", "shotguns"],
+            "n": 0
+        },
+        {
+            "id": "prefatory-operative",
+            "tier": "power",
+            "t": "Antonin Scalia’s _Heller_ opinion split it into a “prefatory clause” (the militia) and an “operative clause” (the right)",
+            "k": ["prefatory clause", "operative clause", "scalia"],
+            "n": 0
+        },
+        {
+            "id": "stevens",
+            "tier": "power",
+            "t": "Justice John Paul Stevens’s _Heller_ dissent argued the right is tied to service in a state militia",
+            "k": ["john paul stevens", "stevens", "dissent"],
+            "n": 0
+        },
+        {
+            "id": "quintessential",
+            "tier": "power",
+            "t": "_Heller_ called the handgun “the quintessential self-defense weapon” but allowed long-standing limits, like bans in schools and government buildings",
+            "k": ["quintessential", "schools", "government buildings"],
+            "n": 0
+        },
+        {
+            "id": "dick-heller",
+            "tier": "power",
+            "t": "Dick Heller, a special police officer, was refused permission to keep a handgun in his Washington, D.C., home",
+            "k": ["dick heller", "special police officer"],
+            "n": 0
+        },
+        {
+            "id": "cruikshank-presser",
+            "tier": "power",
+            "t": "_United States v. Cruikshank_ (1876) and _Presser v. Illinois_ (1886): it limited only the federal government",
+            "k": ["cruikshank", "presser", "1876"],
+            "n": 0
+        },
+        {
+            "id": "alito-thomas",
+            "tier": "power",
+            "t": "In _McDonald_, Samuel Alito wrote the main opinion; Clarence Thomas relied on the Privileges or Immunities Clause instead",
+            "k": ["privileges or immunities", "alito", "thomas"],
+            "n": 0
+        },
+        {
+            "id": "proper-cause",
+            "tier": "power",
+            "t": "_Bruen_ struck down New York’s “proper cause” rule for licenses to carry a handgun in public",
+            "k": ["proper cause", "license", "new york"],
+            "n": 0
+        },
+        {
+            "id": "rahimi",
+            "tier": "power",
+            "t": "_United States v. Rahimi_ (2024), 8–1: upheld a federal law barring people under certain court protective orders from having guns",
+            "k": ["rahimi", "2024", "protective orders"],
+            "n": 0
+        },
+        {
+            "id": "caetano",
+            "tier": "power",
+            "t": "_Caetano v. Massachusetts_ (2016), a stun-gun case: its protection is not limited to weapons that existed in the 1700s",
+            "k": ["caetano", "stun-gun", "2016"],
+            "n": 0
+        },
+        {
+            "id": "mason",
+            "tier": "power",
+            "t": "George Mason’s Virginia Declaration of Rights (1776) praised “a well regulated militia, composed of the body of the people”",
+            "k": ["george mason", "virginia declaration of rights", "body of the people"],
+            "n": 0
+        },
+        {
+            "id": "religiously-scrupulous",
+            "tier": "power",
+            "t": "Madison’s 1789 draft excused people “religiously scrupulous of bearing arms” from military service; the Senate cut that clause",
+            "k": ["religiously scrupulous", "1789", "senate"],
+            "n": 0
+        },
+        {
+            "id": "militia-act",
+            "tier": "power",
+            "t": "Militia Act of 1792: able-bodied white male citizens aged 18 to 45 had to enroll in the militia and bring a musket or rifle",
+            "k": ["militia act", "1792", "musket"],
+            "n": 0
+        },
+        {
+            "id": "twenty-seven-words",
+            "tier": "power",
+            "t": "A single sentence of just 27 words; its commas and opening clause have long been debated",
+            "k": ["27 words", "single sentence", "commas"],
+            "n": 0
+        },
+        {
+            "id": "federalist-46",
+            "tier": "power",
+            "t": "In _Federalist_ No. 46, Madison praised “the advantage of being armed” that Americans enjoyed",
+            "k": ["federalist", "advantage of being armed"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Amendment, right, or weapons?",
+        "body": "This amendment is one part of the Bill of Rights, so “Bill of Rights” is wrong when a question asks for one amendment. Some real tossups ask for the weapons themselves, with answer lines like “guns” or “firearms”; a question about how weapons were invented or made, such as Samuel Colt’s revolver or the Springfield Armory, wants that kind of answer instead. On either side of this amendment sit the First (speech, religion, and the press) and the Third (no quartering of soldiers in private homes).",
+        "fix": "Listen for the noun. “This amendment” wants “Second Amendment”; “these weapons” or “these objects” wants guns or firearms; “this document” wants the Bill of Rights. If you hear “keep and bear Arms,” “well regulated Militia,” _Heller_, or _McDonald_, say “Second Amendment.”",
+        "line": "Real answer line: <b><u>Second Amendment</u></b> (or <u>Amendment II</u>; prompt on <u>right to bear arms</u>; do not accept “Bill of Rights”)"
+    },
+    "tests": {
+        "right": [
+            "Second Amendment",
+            "2nd Amendment",
+            "Amendment II",
+            "the Second Amendment",
+            "Secnd Amendment"
+        ],
+        "prompt": [
+            "right to bear arms",
+            "right to keep and bear arms"
+        ],
+        "wrong": [
+            "First Amendment",
+            "Bill of Rights",
+            "Guns",
+            "Third Amendment",
+            "Twenty-second Amendment",
+            "Amendment III",
+            "22nd Amendment"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

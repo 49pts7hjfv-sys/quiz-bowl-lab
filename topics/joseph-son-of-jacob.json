@@ -1,0 +1,481 @@
+{
+  "id": "joseph-son-of-jacob",
+  "name": "Joseph (son of Jacob)",
+  "mono": "JOS",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Dreamer sold into slavery by his brothers · Rose to power in Egypt",
+  "dates": "Story told in Genesis 37–50",
+  "briefing": "Joseph was his father Jacob’s favorite son, and his jealous older brothers hated him for it, especially after Jacob gave him a special coat and Joseph dreamed that they would all bow down to him. In the Book of Genesis, the brothers sell him to traders headed for Egypt, where he rises from slave and prisoner to Pharaoh’s top official by explaining dreams. In the Quran, his story fills the twelfth surah, named Yusuf.",
+  "answerHtml": "<b><u>Joseph</u></b> (accept <u>Yosef</u> or <u>Yusuf</u>; do not accept “Jacob” or Joseph the husband of Mary)",
+  "accept": [
+    "joseph",
+    "joseph son of jacob",
+    "yosef",
+    "yusuf",
+    "yousef",
+    "yusef",
+    "joseph the patriarch",
+    "joseph of egypt",
+    "joseph the dreamer",
+    "joseph son of rachel"
+  ],
+  "prompt": [],
+  "reject": [
+    "jacob",
+    "israel",
+    "benjamin",
+    "reuben",
+    "judah",
+    "simeon",
+    "levi",
+    "rachel",
+    "leah",
+    "esau",
+    "isaac",
+    "abraham",
+    "potiphar",
+    "pharaoh",
+    "manasseh",
+    "ephraim",
+    "asenath",
+    "zulaikha",
+    "moses",
+    "aaron",
+    "daniel",
+    "joshua",
+    "josiah",
+    "saint joseph",
+    "st joseph",
+    "joseph of nazareth",
+    "joseph husband of mary",
+    "joseph the carpenter",
+    "joseph of arimathea",
+    "joseph smith",
+    "joseph stalin",
+    "joseph mccarthy",
+    "joseph conrad",
+    "franz joseph",
+    "joseph haydn",
+    "chief joseph",
+    "joseph pulitzer",
+    "joseph lister",
+    "joseph priestley",
+    "josephus",
+    "jesus",
+    "mary"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Joseph_(Genesis)",
+  "qb": {
+    "q": "Joseph",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Pharaoh gave this man the Egyptian name Zaphenath-paneah [“ZAF-uh-nath puh-NEE-uh”] and arranged his marriage to Asenath [“AS-uh-nath”], the daughter of a priest of On. This man named his firstborn son Manasseh [“muh-NASS-uh”], saying that God had made him forget all his hardship.",
+      "r": "His father, Jacob, had once given him a coat of many colors. For 10 points, name this son of Jacob who rose to power in Egypt."
+    },
+    {
+      "p": "This young man was sent to check on his brothers near Shechem [“SHEK-um”] but found them at Dothan [“DOH-thun”], where they plotted to kill him. They mocked him as “this dreamer” because he had dreamed that their sheaves of grain bowed down to his sheaf.",
+      "r": "Instead, they sold him to traders bound for Egypt. For 10 points, name this son of Jacob who wore a coat of many colors."
+    },
+    {
+      "p": "This man’s oldest brother, Reuben, talked the others out of killing him and secretly planned to rescue him from the dry pit they threw him into. Another brother, Judah, then suggested a way to profit from him instead.",
+      "r": "The brothers sold him for twenty pieces of silver to traders headed for Egypt. For 10 points, name this son of Jacob and Rachel."
+    },
+    {
+      "p": "In the Quran’s telling, this man’s brothers claimed that a wolf ate him while they were off racing one another. In the Bible, they dipped his robe in a goat’s blood so that their father would believe a wild animal had killed him.",
+      "r": "That robe was a coat of many colors. For 10 points, name this son of Jacob whose brothers sold him into slavery."
+    },
+    {
+      "p": "After buying this man as a slave, an Egyptian officer named Potiphar [“POT-ih-fur”] put him in charge of his entire household. When Potiphar’s wife falsely accused him, this man was thrown into prison, where the jailer soon put him in charge of the other prisoners.",
+      "r": "In prison, he explained the dreams of two of Pharaoh’s servants. For 10 points, name this son of Jacob who later explained Pharaoh’s dreams."
+    },
+    {
+      "p": "Two years after this man correctly predicted that a royal cupbearer would be freed, that cupbearer finally remembered him and told Pharaoh about him. In prison, this man had also said that a baker’s dream of three baskets of bread meant the baker would be put to death.",
+      "r": "Pharaoh then sent for him to explain Pharaoh’s own dreams. For 10 points, name this son of Jacob who rose to power in Egypt."
+    },
+    {
+      "p": "During a long famine, this man bought up nearly all the land of Egypt for its ruler, except the land of the priests. Earlier, he had advised that ruler to store one-fifth of every harvest in the good years before the famine.",
+      "r": "He had predicted that famine by explaining Pharaoh’s dream of seven fat cows and seven thin cows. For 10 points, name this son of Jacob."
+    },
+    {
+      "p": "After naming this man his second-in-command, Pharaoh put his own signet ring on this man’s hand, dressed him in fine linen with a gold chain, and had him ride in a chariot while people cried, “Bow the knee!” This man was thirty years old.",
+      "r": "He had won that post by explaining Pharaoh’s dreams. For 10 points, name this son of Jacob."
+    },
+    {
+      "p": "This man accused his visiting brothers of being spies and kept Simeon as a hostage until they returned with their youngest brother. He also secretly had their silver put back into their sacks of grain before sending them home.",
+      "r": "His brothers had come to Egypt to buy food during a famine, not knowing who he was. For 10 points, name this governor of Egypt, a son of Jacob."
+    },
+    {
+      "p": "This man had his silver cup hidden in his youngest brother’s sack of grain, then sent his steward to accuse the brothers of theft. When Judah offered to stay behind as a slave in that brother’s place, this man wept and revealed who he was.",
+      "r": "That youngest brother was Benjamin. For 10 points, name this son of Jacob and Rachel who forgave the brothers who had sold him."
+    },
+    {
+      "p": "After their father died, this man’s brothers feared his revenge, but he told them, “You meant evil against me, but God meant it for good.” Earlier, he had settled his father’s whole family in the land of Goshen [“GOH-shen”].",
+      "r": "Those brothers had once sold him into slavery. For 10 points, name this son of Jacob who became a ruler in Egypt."
+    },
+    {
+      "p": "When this man brought his two sons to their dying grandfather, the old man crossed his arms to place his right hand on the head of the younger boy, Ephraim [“EE-free-um”]. Those two sons, Ephraim and Manasseh, each became the ancestor of a tribe of Israel.",
+      "r": "For 10 points, name this son of Jacob who was sold into Egypt by his jealous brothers."
+    },
+    {
+      "p": "Before he died at age 110, this man made the Israelites promise to carry his bones out of Egypt, and Moses took those bones with him during the Exodus. Jewish tradition calls this man “the Righteous,” or HaTzaddik [“hah-tsah-DEEK”].",
+      "r": "His brothers had once sold him into slavery. For 10 points, name this son of Jacob who wore a coat of many colors."
+    },
+    {
+      "p": "One chapter of the Quran tells this prophet’s story from beginning to end and calls it “the most beautiful of stories.” In that version, his grieving father loses his sight from weeping and regains it when this man’s shirt is laid across his face.",
+      "r": "For 10 points, name this son of Jacob, the subject of the Quran’s twelfth surah."
+    },
+    {
+      "p": "The Persian poet Jami [“JAH-mee”] wrote a famous poem about this man and Zulaikha [“zoo-LY-khuh”], the name Islamic tradition gives to his master’s wife. Thomas Mann retold this man’s life in a series of four novels written between 1933 and 1943.",
+      "r": "Andrew Lloyd Webber and Tim Rice’s musical about him features the song “Any Dream Will Do.” For 10 points, name this biblical dreamer with an “Amazing Technicolor Dreamcoat.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "coat",
+      "tier": "giveaway",
+      "t": "His father gave him a “coat of many colors” (in some translations, a long robe with sleeves)",
+      "k": [
+        "coat of many colors",
+        "robe",
+        "coat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sold",
+      "tier": "giveaway",
+      "t": "His jealous brothers sold him into slavery, and traders carried him off to Egypt",
+      "k": [
+        "sold",
+        "slavery",
+        "brothers",
+        "egypt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pharaohs-dreams",
+      "tier": "giveaway",
+      "t": "Explained Pharaoh’s dreams of seven fat and seven thin cows: seven years of plenty, then seven years of famine",
+      "k": [
+        "seven fat",
+        "thin cows",
+        "famine",
+        "pharaoh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "favorite",
+      "tier": "giveaway",
+      "t": "The favorite son of Jacob and the first son of Rachel; Benjamin was his only full brother",
+      "k": [
+        "favorite son",
+        "rachel",
+        "benjamin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dreamcoat",
+      "tier": "giveaway",
+      "t": "Hero of Andrew Lloyd Webber and Tim Rice’s musical about his “Amazing Technicolor Dreamcoat”",
+      "k": [
+        "lloyd webber",
+        "technicolor",
+        "dreamcoat",
+        "tim rice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dreams",
+      "tier": "middle",
+      "t": "Dreamed that his brothers’ sheaves of grain, and later the sun, the moon, and eleven stars, bowed down to him",
+      "k": [
+        "sheaves",
+        "eleven stars",
+        "bowed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pit",
+      "tier": "middle",
+      "t": "Reuben saved his life, so the brothers threw him into a dry pit; Judah suggested selling him for 20 pieces of silver",
+      "k": [
+        "reuben",
+        "pit",
+        "judah",
+        "20 pieces of silver"
+      ],
+      "n": 0
+    },
+    {
+      "id": "goat-blood",
+      "tier": "middle",
+      "t": "The brothers dipped his robe in goat’s blood so their father would think a wild animal had killed him",
+      "k": [
+        "goat",
+        "blood",
+        "wild animal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "potiphar",
+      "tier": "middle",
+      "t": "Sold to Potiphar, an Egyptian officer; jailed after Potiphar’s wife falsely accused him",
+      "k": [
+        "potiphar",
+        "prison",
+        "falsely accused"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cupbearer-baker",
+      "tier": "middle",
+      "t": "In prison, explained the dreams of Pharaoh’s cupbearer (freed in three days) and baker (put to death)",
+      "k": [
+        "cupbearer",
+        "baker",
+        "three days"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vizier",
+      "tier": "middle",
+      "t": "Became Pharaoh’s second-in-command at age 30 and stored grain to prepare Egypt for the famine",
+      "k": [
+        "second-in-command",
+        "vizier",
+        "grain",
+        "30"
+      ],
+      "n": 0
+    },
+    {
+      "id": "benjamin-cup",
+      "tier": "middle",
+      "t": "Hid his silver cup in Benjamin’s sack to test his brothers; Judah offered to become a slave in Benjamin’s place",
+      "k": [
+        "silver cup",
+        "benjamin",
+        "judah"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ephraim-manasseh",
+      "tier": "middle",
+      "t": "His sons Ephraim and Manasseh each became the ancestor of a tribe of Israel; their grandfather blessed the younger, Ephraim, with his right hand",
+      "k": [
+        "ephraim",
+        "manasseh",
+        "tribe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quran",
+      "tier": "middle",
+      "t": "Surah 12 of the Quran, named for him, tells his whole story and calls it “the most beautiful” (or “the best”) of stories",
+      "k": [
+        "surah 12",
+        "most beautiful",
+        "quran"
+      ],
+      "n": 0,
+      "rabbit": "Quran"
+    },
+    {
+      "id": "goshen",
+      "tier": "middle",
+      "t": "Brought his father’s whole family to settle in the land of Goshen in Egypt",
+      "k": [
+        "goshen",
+        "settle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zaphenath",
+      "tier": "power",
+      "t": "Pharaoh named him Zaphenath-paneah and gave him Asenath, daughter of a priest of On, as his wife",
+      "k": [
+        "zaphenath-paneah",
+        "asenath",
+        "priest of on"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dothan",
+      "tier": "power",
+      "t": "His brothers mocked him as “this dreamer” and plotted against him at Dothan, near Shechem",
+      "k": [
+        "dothan",
+        "this dreamer",
+        "shechem"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-years",
+      "tier": "power",
+      "t": "The freed cupbearer forgot about him for two years before telling Pharaoh about him",
+      "k": [
+        "two years",
+        "forgot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "signet",
+      "tier": "power",
+      "t": "Pharaoh gave him a signet ring, fine linen, a gold chain, and a chariot; people cried “Bow the knee!”",
+      "k": [
+        "signet ring",
+        "bow the knee",
+        "gold chain",
+        "chariot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "one-fifth",
+      "tier": "power",
+      "t": "Advised storing one-fifth of each harvest; during the famine, he bought Egypt’s land for Pharaoh, except the priests’ land",
+      "k": [
+        "one-fifth",
+        "harvest",
+        "priests"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spies",
+      "tier": "power",
+      "t": "Accused his brothers of being spies, kept Simeon as a hostage, and secretly put their silver back in their sacks",
+      "k": [
+        "spies",
+        "simeon",
+        "hostage"
+      ],
+      "n": 0
+    },
+    {
+      "id": "meant-for-good",
+      "tier": "power",
+      "t": "Forgave his brothers: “You meant evil against me, but God meant it for good”",
+      "k": [
+        "meant it for good",
+        "forgave",
+        "evil"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bones",
+      "tier": "power",
+      "t": "Died at age 110; Moses carried his bones out of Egypt during the Exodus",
+      "k": [
+        "110",
+        "bones",
+        "exodus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tzaddik",
+      "tier": "power",
+      "t": "Jewish tradition calls him “the Righteous” (HaTzaddik)",
+      "k": [
+        "righteous",
+        "hatzaddik"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wolf-shirt",
+      "tier": "power",
+      "t": "In the Quran, the brothers blame a wolf, and his father’s lost sight returns when his shirt is laid on his face",
+      "k": [
+        "wolf",
+        "shirt",
+        "sight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jami",
+      "tier": "power",
+      "t": "The Persian poet Jami wrote a famous poem about him and Zulaikha, his master’s wife in Islamic tradition",
+      "k": [
+        "jami",
+        "zulaikha",
+        "persian"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thomas-mann",
+      "tier": "power",
+      "t": "Thomas Mann retold his story in a series of four novels (1933–1943)",
+      "k": [
+        "thomas mann",
+        "four novels"
+      ],
+      "n": 0
+    },
+    {
+      "id": "songs",
+      "tier": "power",
+      "t": "Songs in the Lloyd Webber–Rice musical include “Any Dream Will Do” and “Close Every Door”",
+      "k": [
+        "any dream will do",
+        "close every door"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Joseph? Which dreamer?",
+    "body": "Two Bible figures named Joseph both receive messages in dreams and both end up in Egypt. Joseph the son of Jacob wears the coat of many colors and explains Pharaoh’s dreams in the Book of Genesis; Joseph the husband of Mary is warned by an angel in dreams in the Gospel of Matthew and flees to Egypt with Mary and the baby Jesus. Jacob, his father, and Daniel, who explains King Nebuchadnezzar’s dreams in Babylon, are wrong answers too.",
+    "fix": "Genesis clues (Jacob, the brothers, the coat, Potiphar, Pharaoh, the famine, Benjamin) mean Joseph son of Jacob, called Yusuf in the Quran. Clues about Mary, Bethlehem, King Herod, or a carpenter mean the other Joseph, and a Babylonian king’s dream of a giant statue means Daniel.",
+    "line": "Real answer line: <b><u>Joseph</u></b> (accept <u>Yosef</u> or <u>Yusuf</u>; do not accept “Jacob” or Joseph the husband of Mary)"
+  },
+  "tests": {
+    "right": [
+      "Joseph",
+      "Yusuf",
+      "Yosef",
+      "Josef",
+      "Josep",
+      "Joseph son of Jacob",
+      "Prophet Yusuf"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Jacob",
+      "Benjamin",
+      "Saint Joseph",
+      "Joseph of Nazareth",
+      "Daniel",
+      "Potiphar",
+      "Judah"
+    ]
+  }
+}

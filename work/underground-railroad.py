@@ -1,0 +1,326 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "underground-railroad",
+    "name": "Underground Railroad",
+    "mono": "UGR",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Secret network that helped enslaved people escape · Routes north to freedom",
+    "dates": "Most active 1830–1865",
+    "briefing": "The Underground Railroad was not underground and not a railroad: it was a secret network of people who helped enslaved people escape to the free states and Canada before the Civil War. Free Black people, white abolitionists, and many Quakers used railroad code words, calling guides “conductors” and safe houses “stations.” Harriet Tubman became its most famous conductor, and William Still of Philadelphia recorded the stories of hundreds of freedom seekers.",
+    "answerHtml": "<b><u>Underground Railroad</u></b> (prompt on <u>Railroad</u>; do not accept “Harriet Tubman”)",
+    "accept": [
+        "underground railroad",
+        "underground railroads",
+        "underground rail road",
+        "underground railway"
+    ],
+    "prompt": [
+        "railroad",
+        "underground",
+        "the railroad"
+    ],
+    "reject": [
+        "harriet tubman",
+        "tubman",
+        "fugitive slave act",
+        "fugitive slave act of 1850",
+        "fugitive slave law",
+        "transcontinental railroad",
+        "first transcontinental railroad",
+        "abolitionism",
+        "abolition",
+        "abolitionists",
+        "william still",
+        "levi coffin",
+        "quakers",
+        "middle passage",
+        "great migration",
+        "trail of tears"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Underground_Railroad",
+    "qb": {
+        "q": "Underground Railroad",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1849, a man in Richmond, Virginia, had himself shipped in a wooden crate to abolitionists in Philadelphia, a trip that took more than a day. When the crate was opened, he climbed out and sang a hymn, and he became famous by the nickname “Box.”",
+            "r": "Henry “Box” Brown escaped with help from this network. For 10 points, name this secret system of routes and safe houses that helped enslaved people reach freedom."
+        },
+        {
+            "p": "While interviewing a formerly enslaved man in 1850, a Philadelphia clerk discovered that the man, Peter, was his own long-lost older brother. That clerk kept careful records of hundreds of people who passed through Philadelphia and published them in an 1872 book.",
+            "r": "That man, William Still, is called the “Father” of this network. For 10 points, name this secret system that helped enslaved people escape to the North and Canada."
+        },
+        {
+            "p": "In Cincinnati, a Quaker merchant ran a store that sold only goods made without the labor of enslaved people. Earlier, he and his wife, Catharine, had sheltered so many freedom seekers at their home in Newport, Indiana, that he was nicknamed this network’s “President.”",
+            "r": "That man was Levi Coffin. For 10 points, name this secret network that led enslaved people to freedom before the Civil War."
+        },
+        {
+            "p": "Under a law passed as part of the Compromise of 1850, federal commissioners earned ten dollars for sending an accused person back to slavery but only five dollars for setting the person free. After that law passed, many people helped by this network kept going all the way to Canada.",
+            "r": "That law was the Fugitive Slave Act. For 10 points, name this secret network of routes and safe houses, whose most famous conductor was Harriet Tubman."
+        },
+        {
+            "p": "In 1848, Ellen Craft disguised herself as a sickly young white man with her arm in a sling, so no one would ask her to write, while her husband, William, pretended to be her servant. The couple traveled openly by train and steamboat from Macon, Georgia, to Philadelphia.",
+            "r": "Abolitionists there and in Boston helped them through this network. For 10 points, name this secret system of routes and safe houses that helped enslaved people escape."
+        },
+        {
+            "p": "A Presbyterian minister named John Rankin kept a lantern burning in his hilltop house in Ripley, Ohio, as a signal to people crossing the Ohio River to freedom. A story Harriet Beecher Stowe heard about a woman crossing that river on the ice inspired the character Eliza in _Uncle Tom’s Cabin_.",
+            "r": "Rankin’s home was a “station” on this network. For 10 points, name this secret system that helped enslaved people escape to the North."
+        },
+        {
+            "p": "In 1858, students and teachers from Oberlin, Ohio, rescued a man named John Price from slave catchers in the nearby town of Wellington and hid him until he could reach Canada. Oberlin College, one of the first colleges to admit Black students, was a busy center of this network.",
+            "r": "For 10 points, name this secret network of routes and safe houses that helped people escape slavery."
+        },
+        {
+            "p": "A Quaker in Wilmington, Delaware, who helped thousands of people escape slavery, was fined so heavily by a federal court in 1848 that he lost almost everything. He reportedly told the courtroom that anyone who knew a freedom seeker needing shelter should send that person to him.",
+            "r": "That man, Thomas Garrett, often sheltered Harriet Tubman. For 10 points, name this secret network of “conductors” and “stations.”"
+        },
+        {
+            "p": "Josiah Henson, who had escaped from slavery in Kentucky, helped found the Dawn Settlement in what is now Ontario, a community for people who reached Canada through this network. Henson’s life story is often said to have inspired the title character of _Uncle Tom’s Cabin_.",
+            "r": "For 10 points, name this secret network that helped enslaved people escape to the North and Canada."
+        },
+        {
+            "p": "The National Park Service runs a “Network to Freedom” program that recognizes historic sites of this network, and a national museum about it opened in 2004 on the banks of the Ohio River in Cincinnati. Crossing that river meant leaving the slave state of Kentucky for the free state of Ohio.",
+            "r": "For 10 points, name this secret system of routes and safe houses whose “conductors” guided people to freedom."
+        },
+        {
+            "p": "Because Britain had ended slavery throughout its empire in 1834, many people helped by this network settled in Canadian towns such as St. Catharines and Chatham. People who hid freedom seekers along the way were called “stationmasters,” and those who donated money were called “stockholders.”",
+            "r": "Guides like Harriet Tubman were called “conductors.” For 10 points, name this secret network that helped enslaved people escape before the Civil War."
+        },
+        {
+            "p": "After escaping slavery in 1838, a famous abolitionist hid freedom seekers at his home in Rochester, New York, as part of this network, helping them cross Lake Ontario to Canada. He named his newspaper _The North Star_ after the star that guided many people escaping north.",
+            "r": "That man was Frederick Douglass. For 10 points, name this network of secret routes whose “stations” were safe houses."
+        },
+        {
+            "p": "Some guides on this network started escapes on Saturday nights, because reward notices for runaways could not appear in the newspapers until Monday. Freedom seekers often traveled at night, following the North Star, which the Big Dipper, sometimes called the “drinking gourd,” points toward.",
+            "r": "Its most famous conductor, Harriet Tubman, said she “never lost a passenger.” For 10 points, name this secret network that helped enslaved people escape."
+        },
+        {
+            "p": "According to one story, a man named Tice Davids swam across the Ohio River from Kentucky in 1831 and vanished so completely that his enslaver gave this network its name. Ripley, Ohio, where Davids landed, became one of the busiest crossing points on the river.",
+            "r": "The enslaver said Davids must have escaped on an “underground road.” For 10 points, name this secret network of routes and safe houses."
+        },
+        {
+            "p": "In _Prigg v. Pennsylvania_, the Supreme Court ruled in 1842 that states did not have to help enforce the federal law on escaped enslaved people. Many Northern states then passed “personal liberty laws” that made it harder to capture people who escaped through this network.",
+            "r": "For 10 points, name this secret network of routes, safe houses, and “conductors” that helped enslaved people reach freedom."
+        }
+    ],
+    "clues": [
+        {
+            "id": "secret-network",
+            "tier": "giveaway",
+            "t": "A secret network of people, routes, and safe houses that helped enslaved people escape to the free states and Canada before the Civil War",
+            "k": ["secret network", "safe houses", "free states", "canada"],
+            "n": 0
+        },
+        {
+            "id": "tubman",
+            "tier": "giveaway",
+            "t": "Harriet Tubman was its most famous “conductor”; she said she “never lost a passenger”",
+            "k": ["harriet tubman", "tubman", "never lost a passenger"],
+            "n": 0,
+            "rabbit": "Harriet Tubman"
+        },
+        {
+            "id": "code-words",
+            "tier": "giveaway",
+            "t": "Used railroad code words: guides were “conductors” and safe houses were “stations”",
+            "k": ["conductors", "stations", "code words"],
+            "n": 0
+        },
+        {
+            "id": "north-star",
+            "tier": "giveaway",
+            "t": "Freedom seekers often traveled at night, following the North Star",
+            "k": ["north star", "night"],
+            "n": 0
+        },
+        {
+            "id": "quakers",
+            "tier": "middle",
+            "t": "Helpers included free Black people, white abolitionists, and many Quakers",
+            "k": ["quakers", "abolitionists", "free black"],
+            "n": 0,
+            "rabbit": "Quakers"
+        },
+        {
+            "id": "still",
+            "tier": "middle",
+            "t": "William Still of Philadelphia, its “Father,” recorded hundreds of escapes and found his long-lost brother Peter in 1850",
+            "k": ["william still", "philadelphia", "peter"],
+            "n": 0
+        },
+        {
+            "id": "coffin",
+            "tier": "middle",
+            "t": "Quaker Levi Coffin, its “President,” sheltered freedom seekers in Newport, Indiana, and later in Cincinnati",
+            "k": ["levi coffin", "coffin", "newport"],
+            "n": 0
+        },
+        {
+            "id": "fugitive-slave-act",
+            "tier": "middle",
+            "t": "The Fugitive Slave Act of 1850 made Northerners help catch people who escaped, so many freedom seekers went on to Canada",
+            "k": ["fugitive slave act", "1850"],
+            "n": 0,
+            "rabbit": "Fugitive Slave Act of 1850"
+        },
+        {
+            "id": "box-brown",
+            "tier": "middle",
+            "t": "Henry “Box” Brown had himself shipped in a wooden crate from Richmond to Philadelphia (1849)",
+            "k": ["crate", "richmond", "brown"],
+            "n": 0
+        },
+        {
+            "id": "crafts",
+            "tier": "middle",
+            "t": "William and Ellen Craft escaped in 1848, with Ellen disguised as a sickly young white man and William as her servant",
+            "k": ["ellen craft", "craft", "disguised"],
+            "n": 0
+        },
+        {
+            "id": "rankin",
+            "tier": "middle",
+            "t": "John Rankin’s hilltop house in Ripley, Ohio, signaled people crossing the Ohio River; a story of a crossing on the ice inspired Eliza in _Uncle Tom’s Cabin_",
+            "k": ["john rankin", "ripley", "ohio river", "eliza"],
+            "n": 0,
+            "rabbit": "Uncle Tom’s Cabin"
+        },
+        {
+            "id": "garrett",
+            "tier": "power",
+            "t": "Quaker Thomas Garrett of Wilmington, Delaware, kept helping after a huge federal fine in 1848; he often sheltered Harriet Tubman",
+            "k": ["thomas garrett", "wilmington", "1848"],
+            "n": 0
+        },
+        {
+            "id": "coffin-store",
+            "tier": "power",
+            "t": "Levi Coffin ran a Cincinnati store that sold only goods made without enslaved labor",
+            "k": ["cincinnati", "enslaved labor", "store"],
+            "n": 0
+        },
+        {
+            "id": "commissioners",
+            "tier": "power",
+            "t": "Under the 1850 law, commissioners got $10 for returning a person to slavery but only $5 for setting the person free",
+            "k": ["commissioners", "$10", "$5"],
+            "n": 0
+        },
+        {
+            "id": "oberlin",
+            "tier": "power",
+            "t": "Oberlin–Wellington Rescue (1858): people from Oberlin, Ohio, freed John Price; Oberlin College was one of the first to admit Black students",
+            "k": ["oberlin", "wellington", "john price"],
+            "n": 0
+        },
+        {
+            "id": "henson",
+            "tier": "power",
+            "t": "Josiah Henson helped found the Dawn Settlement in Ontario; his life story is often linked to _Uncle Tom’s Cabin_",
+            "k": ["josiah henson", "henson", "dawn settlement"],
+            "n": 0
+        },
+        {
+            "id": "freedom-center",
+            "tier": "power",
+            "t": "A national museum about it opened in Cincinnati in 2004; the National Park Service runs a “Network to Freedom” program",
+            "k": ["network to freedom", "2004", "museum"],
+            "n": 0
+        },
+        {
+            "id": "canada-1834",
+            "tier": "power",
+            "t": "Britain ended slavery in its empire in 1834, so Canadian towns like St. Catharines and Chatham became new homes",
+            "k": ["1834", "chatham", "catharines"],
+            "n": 0
+        },
+        {
+            "id": "stockholders",
+            "tier": "power",
+            "t": "Donors were “stockholders,” hosts were “stationmasters,” and the people helped were “passengers” or “cargo”",
+            "k": ["stockholders", "stationmasters", "passengers"],
+            "n": 0
+        },
+        {
+            "id": "douglass",
+            "tier": "power",
+            "t": "Frederick Douglass hid freedom seekers at his home in Rochester, New York, near the Lake Ontario crossing to Canada",
+            "k": ["frederick douglass", "rochester", "lake ontario"],
+            "n": 0,
+            "rabbit": "Frederick Douglass"
+        },
+        {
+            "id": "saturday",
+            "tier": "power",
+            "t": "Some guides began escapes on Saturday nights, since reward notices could not run in newspapers until Monday",
+            "k": ["saturday", "monday", "reward notices"],
+            "n": 0
+        },
+        {
+            "id": "drinking-gourd",
+            "tier": "power",
+            "t": "The Big Dipper, sometimes called the “drinking gourd,” points toward the North Star",
+            "k": ["drinking gourd", "big dipper"],
+            "n": 0
+        },
+        {
+            "id": "tice-davids",
+            "tier": "power",
+            "t": "One story says it got its name after Tice Davids crossed the Ohio River to Ripley in 1831 and seemed to vanish",
+            "k": ["tice davids", "1831", "vanish"],
+            "n": 0
+        },
+        {
+            "id": "prigg",
+            "tier": "power",
+            "t": "_Prigg v. Pennsylvania_ (1842) and Northern “personal liberty laws” made capturing escapees harder, until the stricter 1850 law",
+            "k": ["prigg", "personal liberty laws", "1842"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Network, conductor, or law?",
+        "body": "Underground Railroad tossups are full of people and laws that are answers of their own. Harriet Tubman was its most famous conductor, William Still and Levi Coffin were leaders, and the Fugitive Slave Act of 1850 made the work far more dangerous, so a question asking for “this woman,” “this man,” or “this law” wants one of those instead.",
+        "fix": "Listen for the noun: “this network,” “this system,” or “this organization” wants the Underground Railroad; “this woman” or “this conductor” wants Harriet Tubman; “this law” wants the Fugitive Slave Act. Saying only “railroad” earns a prompt, and the First Transcontinental Railroad is a completely different answer.",
+        "line": "Real answer line: <b><u>Underground Railroad</u></b> (prompt on <u>Railroad</u>; do not accept “Harriet Tubman”)"
+    },
+    "tests": {
+        "right": [
+            "Underground Railroad",
+            "the Underground Railroad",
+            "Underground Rail Road",
+            "undergound railroad",
+            "Underground Railway"
+        ],
+        "prompt": [
+            "railroad",
+            "underground"
+        ],
+        "wrong": [
+            "Harriet Tubman",
+            "Fugitive Slave Act",
+            "Transcontinental Railroad",
+            "Abolitionism",
+            "William Still",
+            "Quakers"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

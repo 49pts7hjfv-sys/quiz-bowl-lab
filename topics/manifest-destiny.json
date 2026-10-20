@@ -1,0 +1,414 @@
+{
+  "id": "manifest-destiny",
+  "name": "Manifest Destiny",
+  "mono": "MD",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Belief that the U.S. was meant to span the continent · Named in 1845",
+  "dates": "Phrase coined 1845",
+  "briefing": "In 1845, the editor John L. O’Sullivan wrote that it was America’s “manifest destiny” to spread across the whole continent. In the same decade, the United States annexed Texas, split the Oregon Country with Britain, and took California and the Southwest after the Mexican-American War. That growth came at a heavy cost to Native American nations and to Mexico, and it sharpened the fight over slavery.",
+  "answerHtml": "<b><u>Manifest Destiny</u></b> (do not accept “Monroe Doctrine”)",
+  "accept": [
+    "manifest destiny"
+  ],
+  "prompt": [],
+  "reject": [
+    "monroe doctrine",
+    "roosevelt corollary",
+    "truman doctrine",
+    "open door policy",
+    "big stick",
+    "westward expansion",
+    "frontier thesis",
+    "turner thesis",
+    "american exceptionalism",
+    "imperialism",
+    "louisiana purchase",
+    "gadsden purchase",
+    "mexican cession",
+    "oregon trail",
+    "oregon treaty",
+    "american progress",
+    "fifty four forty or fight",
+    "54 40 or fight",
+    "mexican american war",
+    "treaty of guadalupe hidalgo",
+    "annexation of texas",
+    "james k polk",
+    "polk",
+    "john l osullivan",
+    "osullivan",
+    "communist manifesto"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Manifest_destiny",
+  "qb": {
+    "q": "Manifest Destiny",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "An 1845 magazine essay supporting the annexation of Texas spoke of America’s mission “to overspread the continent allotted by Providence for the free development of our yearly multiplying millions.” That essay appeared in the _Democratic Review_, edited by John L. O’Sullivan.",
+      "r": "For 10 points, name this phrase for the belief that the United States should expand from coast to coast."
+    },
+    {
+      "p": "In an 1872 painting by John Gast, a giant floating woman named Columbia carries a schoolbook and strings telegraph wire as she leads settlers west, while Native Americans and buffalo flee ahead of her. That painting, _American Progress_, is often used to illustrate this idea.",
+      "r": "For 10 points, name this belief that Americans were meant to spread across North America."
+    },
+    {
+      "p": "Expansionists demanded all of the Oregon Country, up to latitude 54 degrees 40 minutes north, with the cry “Fifty-four forty or fight!,” but the 1846 Oregon Treaty divided the region with Britain along the 49th parallel.",
+      "r": "For 10 points, name this belief, championed by President James K. Polk, that the United States should stretch from coast to coast."
+    },
+    {
+      "p": "James Gadsden negotiated an 1853 deal that paid Mexico 10 million dollars for land in present-day southern Arizona and New Mexico, which was wanted for a railroad route. That purchase was the last big piece of land added to the lower 48 states in the era of this idea.",
+      "r": "For 10 points, name this belief, popularized by John L. O’Sullivan in 1845, that the United States should spread across North America."
+    },
+    {
+      "p": "In 1861, Emanuel Leutze [“LOYT-suh”], better known for painting Washington crossing the Delaware, completed a U.S. Capitol mural celebrating this idea, titled _Westward the Course of Empire Takes Its Way_, in which pioneers cross the Rocky Mountains toward the Pacific.",
+      "r": "For 10 points, name this belief, named in 1845, that the United States should expand to the Pacific Ocean."
+    },
+    {
+      "p": "The adventurer William Walker carried this idea south when he made himself president of Nicaragua in 1856. Private soldiers like Walker, who tried to seize land in Latin America without government approval, were called filibusters.",
+      "r": "For 10 points, name this idea, named by John L. O’Sullivan in 1845, that the United States was meant to expand."
+    },
+    {
+      "p": "During the Mexican-American War, some believers in this idea backed an “All Mexico” movement to annex the entire defeated country. Instead, the Treaty of Guadalupe Hidalgo gave the United States California and most of the Southwest.",
+      "r": "For 10 points, name this belief, championed by President James K. Polk, that the U.S. should span North America."
+    },
+    {
+      "p": "In the last days of his presidency, John Tyler signed a joint resolution of Congress to annex Texas, a move cheered by expansionists who held this belief. Months later, the phrase naming this idea appeared in an essay about Texas.",
+      "r": "For 10 points, name this 1840s belief that the United States had a mission to expand to the Pacific."
+    },
+    {
+      "p": "A president who embraced this idea set four goals for his single term, including settling the Oregon question and acquiring California, and he achieved all of them. That president had won the 1844 election over the Whig Henry Clay.",
+      "r": "That president was James K. Polk. For 10 points, name this belief that Americans had a God-given mission to spread across North America."
+    },
+    {
+      "p": "Many supporters of this idea claimed that American settlers would make better use of Western land than the Native American nations and Mexican citizens who already lived there. Westward expansion pushed many Native nations off their homelands.",
+      "r": "For 10 points, name this belief, pictured in John Gast’s _American Progress_, that the U.S. should stretch from coast to coast."
+    },
+    {
+      "p": "After the 1890 census reported that the frontier line had disappeared, some Americans revived this idea to argue for expansion overseas. In 1898, the United States annexed Hawaii and gained the Philippines from Spain.",
+      "r": "For 10 points, name this belief, first named in 1845, that the United States was meant to expand."
+    },
+    {
+      "p": "Whigs such as Henry Clay distrusted this idea, partly because they feared that new territory in the Southwest would spread slavery. The fight over the Wilmot Proviso, which tried to ban slavery in land won from Mexico, split Congress along sectional lines.",
+      "r": "For 10 points, name this belief, championed by Democrats like James K. Polk, that the United States should expand to the Pacific."
+    },
+    {
+      "p": "Thousands of families caught “Oregon fever” in the 1840s and set out from Independence, Missouri, on a trail of about 2,000 miles to the Pacific Northwest, a migration encouraged by this idea.",
+      "r": "For 10 points, name this belief, named in 1845, that Americans were meant to settle the continent from coast to coast."
+    },
+    {
+      "p": "In a December 1845 newspaper article about the Oregon dispute with Britain, an editor claimed the right “to overspread and to possess the whole of the continent which Providence has given us.” That editor, John L. O’Sullivan, ran the _New York Morning News_.",
+      "r": "For 10 points, name this phrase he used for the belief that the United States should stretch from sea to sea."
+    },
+    {
+      "p": "In 1846, American settlers in Sonoma raised a flag showing a grizzly bear and declared California independent from Mexico, and the explorer John C. Frémont [“FREE-mont”] soon took charge of their revolt. Believers in this idea hoped to add California to the United States.",
+      "r": "For 10 points, name this belief that the United States should expand all the way to the Pacific Ocean."
+    }
+  ],
+  "clues": [
+    {
+      "id": "coast-to-coast",
+      "tier": "giveaway",
+      "t": "The 1840s belief that the United States was meant to expand across North America, from the Atlantic to the Pacific",
+      "k": [
+        "north america",
+        "atlantic",
+        "pacific",
+        "expand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "osullivan",
+      "tier": "giveaway",
+      "t": "A phrase made famous by the editor John L. O’Sullivan in 1845",
+      "k": [
+        "o’sullivan",
+        "osullivan",
+        "1845",
+        "editor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "polk",
+      "tier": "giveaway",
+      "t": "President James K. Polk (1845–1849) was its great champion",
+      "k": [
+        "polk",
+        "james k polk"
+      ],
+      "n": 0,
+      "rabbit": "James K. Polk"
+    },
+    {
+      "id": "mexican-war",
+      "tier": "giveaway",
+      "t": "Used to justify the Mexican-American War (1846–1848)",
+      "k": [
+        "mexican-american war",
+        "mexican",
+        "justify"
+      ],
+      "n": 0,
+      "rabbit": "Mexican-American War"
+    },
+    {
+      "id": "american-progress",
+      "tier": "middle",
+      "t": "John Gast’s painting _American Progress_ (1872): Columbia floats west, stringing telegraph wire",
+      "k": [
+        "american progress",
+        "gast",
+        "columbia",
+        "telegraph"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fifty-four-forty",
+      "tier": "middle",
+      "t": "“Fifty-four forty or fight!”: expansionists demanded all of the Oregon Country, up to latitude 54°40′ north",
+      "k": [
+        "fifty-four forty",
+        "oregon",
+        "fight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oregon-treaty",
+      "tier": "middle",
+      "t": "Oregon Treaty (1846): split the Oregon Country with Britain at the 49th parallel",
+      "k": [
+        "oregon treaty",
+        "49th parallel",
+        "britain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "texas",
+      "tier": "middle",
+      "t": "The annexation of Texas (1845)",
+      "k": [
+        "annexation",
+        "texas"
+      ],
+      "n": 0,
+      "rabbit": "Republic of Texas"
+    },
+    {
+      "id": "guadalupe-hidalgo",
+      "tier": "middle",
+      "t": "Treaty of Guadalupe Hidalgo (1848): the Mexican Cession added California and most of the Southwest",
+      "k": [
+        "guadalupe hidalgo",
+        "mexican cession",
+        "california"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gadsden",
+      "tier": "middle",
+      "t": "Gadsden Purchase (1853): $10 million for southern Arizona and New Mexico, for a railroad route",
+      "k": [
+        "gadsden",
+        "railroad",
+        "1853"
+      ],
+      "n": 0,
+      "rabbit": "Gadsden Purchase"
+    },
+    {
+      "id": "native-nations",
+      "tier": "middle",
+      "t": "Westward expansion pushed many Native American nations off their homelands",
+      "k": [
+        "native american",
+        "homelands",
+        "westward"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oregon-fever",
+      "tier": "middle",
+      "t": "“Oregon fever”: families took the Oregon Trail west from Independence, Missouri",
+      "k": [
+        "oregon fever",
+        "oregon trail",
+        "independence"
+      ],
+      "n": 0,
+      "rabbit": "Oregon Trail"
+    },
+    {
+      "id": "overspread",
+      "tier": "power",
+      "t": "The 1845 essay spoke of a mission “to overspread the continent allotted by Providence”; it ran in the _Democratic Review_",
+      "k": [
+        "overspread",
+        "providence",
+        "democratic review"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morning-news",
+      "tier": "power",
+      "t": "O’Sullivan’s December 1845 _New York Morning News_ article used the phrase in the Oregon dispute",
+      "k": [
+        "morning news",
+        "december 1845"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-goals",
+      "tier": "power",
+      "t": "Polk’s four goals: lower tariffs, an independent treasury, Oregon, and California; he met them all in one term",
+      "k": [
+        "four goals",
+        "independent treasury",
+        "one term"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tyler",
+      "tier": "power",
+      "t": "John Tyler signed the joint resolution to annex Texas just before leaving office (March 1845)",
+      "k": [
+        "joint resolution",
+        "tyler"
+      ],
+      "n": 0
+    },
+    {
+      "id": "all-mexico",
+      "tier": "power",
+      "t": "The “All Mexico” movement wanted to annex the whole country after the war",
+      "k": [
+        "all mexico"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leutze",
+      "tier": "power",
+      "t": "Emanuel Leutze’s Capitol mural _Westward the Course of Empire Takes Its Way_ (1861)",
+      "k": [
+        "westward the course of empire",
+        "leutze",
+        "capitol"
+      ],
+      "n": 0
+    },
+    {
+      "id": "schoolbook",
+      "tier": "power",
+      "t": "In Gast’s painting, Columbia carries a schoolbook while Native Americans and buffalo flee ahead of her",
+      "k": [
+        "schoolbook",
+        "buffalo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "walker",
+      "tier": "power",
+      "t": "The filibuster William Walker made himself president of Nicaragua (1856)",
+      "k": [
+        "william walker",
+        "nicaragua",
+        "filibuster"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bear-flag",
+      "tier": "power",
+      "t": "Bear Flag Revolt (1846): American settlers in Sonoma declared California independent; John C. Frémont took charge",
+      "k": [
+        "bear flag",
+        "sonoma",
+        "frémont",
+        "fremont"
+      ],
+      "n": 0,
+      "rabbit": "California"
+    },
+    {
+      "id": "whigs",
+      "tier": "power",
+      "t": "Whigs such as Henry Clay distrusted it, fearing war and the spread of slavery; the Wilmot Proviso fight followed",
+      "k": [
+        "wilmot proviso",
+        "henry clay",
+        "whigs",
+        "slavery"
+      ],
+      "n": 0
+    },
+    {
+      "id": "better-use",
+      "tier": "power",
+      "t": "Supporters claimed American settlers would make better use of the land than the Native nations and Mexicans living there",
+      "k": [
+        "better use",
+        "claimed",
+        "settlers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "overseas",
+      "tier": "power",
+      "t": "After the 1890 census said the frontier line was gone, the idea was revived for overseas expansion, such as annexing Hawaii (1898)",
+      "k": [
+        "1890 census",
+        "overseas",
+        "hawaii",
+        "1898"
+      ],
+      "n": 0,
+      "rabbit": "Hawaii"
+    }
+  ],
+  "trap": {
+    "title": "Destiny or Doctrine?",
+    "body": "Manifest Destiny and the Monroe Doctrine both describe American power in the Western Hemisphere, so players swap them. The Monroe Doctrine (1823) was President James Monroe’s warning that Europe should not set up new colonies in the Americas; Manifest Destiny (1845) was the belief that the United States itself should spread across North America. Frederick Jackson Turner’s 1893 “Frontier Thesis” is a third, later idea about what the frontier meant for American democracy.",
+    "fix": "Dates and names sort them out: 1823, Monroe, John Quincy Adams, and keeping Europe out mean the Monroe Doctrine; 1845, O’Sullivan, Polk, Texas, Oregon, and coast-to-coast expansion mean Manifest Destiny; 1893, Turner, and the closing of the frontier mean the Frontier Thesis.",
+    "line": "Real answer line: <b><u>Manifest Destiny</u></b> (do not accept “Monroe Doctrine”)"
+  },
+  "tests": {
+    "right": [
+      "Manifest Destiny",
+      "manifest destiney",
+      "Manefest Destiny",
+      "the Manifest Destiny",
+      "Doctrine of Manifest Destiny"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Monroe Doctrine",
+      "Westward expansion",
+      "Frontier Thesis",
+      "Gadsden Purchase",
+      "Louisiana Purchase",
+      "Mexican-American War",
+      "American Progress"
+    ]
+  }
+}

@@ -182,7 +182,7 @@ data = {
           "Montgomery Blair, later Lincoln’s postmaster general, argued the plaintiff’s side; the case was argued twice in 1856",
           ["montgomery blair", "blair", "postmaster general"]),
         C("sanford", "power",
-          "The defendant, John Sanford of New York, was Mrs. Emerson’s brother; a clerk misspelled his name as “Sandford”",
+          "The defendant, John Sanford of New York, was Mrs. Emerson’s brother; a court clerk misspelled his name in the case’s official title",
           ["john sanford", "misspelled", "clerk"]),
         C("house-divided", "power",
           "Lincoln’s “House Divided” speech suggested that “Stephen, Franklin, Roger, and James” had plotted to spread slavery",

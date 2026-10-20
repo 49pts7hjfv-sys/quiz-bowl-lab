@@ -1,0 +1,432 @@
+{
+  "id": "hookes-law",
+  "name": "Hooke’s law",
+  "mono": "HK",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "A spring’s stretch grows with the force · F = −kx",
+  "dates": "Published as an anagram, 1676; solved, 1678",
+  "briefing": "Hooke’s law says that the force needed to stretch or squeeze a spring is proportional to how far you stretch or squeeze it: pull twice as hard and it stretches twice as far. Robert Hooke first hid the idea in a scrambled Latin anagram in 1676, then revealed it two years later as “ut tensio, sic vis,” meaning “as the extension, so the force.” The rule works only up to a spring’s elastic limit.",
+  "answerHtml": "<b><u>Hooke’s law</u></b> (prompt on <u>Hooke</u> or <u>elasticity</u>)",
+  "accept": [
+    "hookes law",
+    "hooke law",
+    "hooks law",
+    "hookes law of elasticity"
+  ],
+  "prompt": [
+    "hooke",
+    "robert hooke",
+    "elasticity",
+    "spring force",
+    "restoring force"
+  ],
+  "reject": [
+    "spring constant",
+    "youngs modulus",
+    "young modulus",
+    "elastic potential energy",
+    "potential energy",
+    "simple harmonic motion",
+    "harmonic motion",
+    "boyles law",
+    "hubbles law",
+    "ohms law",
+    "coulombs law",
+    "charles law",
+    "henrys law",
+    "newtons law",
+    "newtons laws",
+    "newtons laws of motion",
+    "newtons second law",
+    "newtons third law",
+    "hookes joint",
+    "universal joint",
+    "tension",
+    "stress",
+    "strain",
+    "elastic limit",
+    "plasticity",
+    "torsion"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Hooke%27s_law",
+  "qb": {
+    "q": "Hooke",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This law was first published in 1676 as the scrambled Latin anagram “ceiiinosssttuv.” Two years later, its discoverer revealed the answer: “ut tensio, sic vis” [“oot TEN-see-oh, sik VEES”], meaning “as the extension, so the force.”",
+      "r": "For 10 points, name this law stating that the force on a spring is proportional to how far it is stretched."
+    },
+    {
+      "p": "Isaac Newton’s line about “standing on the shoulders of giants” appeared in a letter to this law’s namesake, who later claimed that Newton had taken his idea that gravity follows an inverse-square law. This law can be written with a spring constant measured in newtons per meter.",
+      "r": "For 10 points, name this law, written F equals negative k x, that describes how springs stretch."
+    },
+    {
+      "p": "A quantity named for Thomas Young extends this law to solid materials by stating that stress is proportional to strain. Beyond a point called the elastic limit, a material stops obeying this law and is permanently stretched out of shape.",
+      "r": "For 10 points, name this law about springs, written F equals negative k x, where k is the spring constant."
+    },
+    {
+      "p": "Chemists predict where a chemical bond will absorb infrared light by treating the bond as a spring that obeys this law, so stiffer bonds vibrate at higher frequencies. A mass hanging from a spring that obeys this law bobs up and down in simple harmonic motion.",
+      "r": "For 10 points, name this law stating that a spring’s restoring force is proportional to its stretch."
+    },
+    {
+      "p": "This law’s namesake was the Royal Society’s first Curator of Experiments and helped survey London after the Great Fire of 1666. In his 1665 book _Micrographia_, he coined the word “cell” after looking at thin slices of cork through a microscope.",
+      "r": "For 10 points, name this law, written F equals negative k x, that describes springs."
+    },
+    {
+      "p": "On a graph of force against stretch, this law appears as a straight line through the origin, and the slope of that line is the spring constant. The minus sign in this law shows that a spring pulls back opposite to its stretch.",
+      "r": "For 10 points, name this law, written F equals negative k x, that describes springs."
+    },
+    {
+      "p": "Because the force in this law grows steadily with the stretch, a spring stretched a distance x stores elastic potential energy equal to one-half k x squared. So stretching such a spring twice as far stores four times as much energy.",
+      "r": "Spring scales work because of it. For 10 points, name this law, written F equals negative k x."
+    },
+    {
+      "p": "According to this law, two identical springs hung side by side act like one spring that is twice as stiff, while the same two springs joined end to end are only half as stiff. A larger spring constant in this law means a stiffer spring.",
+      "r": "For 10 points, name this law stating that the force needed to stretch a spring is proportional to the stretch."
+    },
+    {
+      "p": "Any system whose restoring force obeys this law is called a harmonic oscillator, because it vibrates in simple harmonic motion. A real spring obeys this law only until it reaches its elastic limit, past which it stays permanently stretched.",
+      "r": "Spring scales use it to measure weight. For 10 points, name this law, written F equals negative k x."
+    },
+    {
+      "p": "This law’s namesake quarreled with Christiaan Huygens [“HY-gunz”] over who first invented the balance spring, the tiny coiled spring that keeps time in a watch. In this law, a stiffer spring has a larger spring constant, measured in newtons per meter.",
+      "r": "For 10 points, name this law stating that the force on a spring is proportional to its stretch."
+    },
+    {
+      "p": "For a mass on a spring that obeys this law, the period of each bounce equals two pi times the square root of the mass divided by the spring constant, so a heavier mass bobs more slowly.",
+      "r": "That bouncing is called simple harmonic motion. For 10 points, name this law, written F equals negative k x."
+    },
+    {
+      "p": "A twisting version of this law, in which the twist of a thin wire is proportional to the turning force on it, made possible the torsion balances of Charles-Augustin de Coulomb [“KOO-lohm”] and Henry Cavendish. Its minus sign shows that the force points back toward the resting position.",
+      "r": "For 10 points, name this law stating that the force on a spring is proportional to how far it is stretched."
+    },
+    {
+      "p": "This law was explained in its discoverer’s 1678 lecture _De Potentia Restitutiva_ [“day poh-TEN-tee-ah res-tih-too-TEE-vah”], or _Of Spring_, which revealed the meaning of an anagram he had published two years earlier. That anagram’s Latin solution means “as the extension, so the force.”",
+      "r": "For 10 points, name this law stating that a spring’s stretch is proportional to the force on it."
+    },
+    {
+      "p": "Under this law, a spring with a constant of 200 newtons per meter stretches 10 centimeters when pulled with a force of 20 newtons. A graph of force against stretch for that spring is a straight line with a slope of 200 newtons per meter.",
+      "r": "For 10 points, name this law relating a spring’s stretch to the force on it, written F equals negative k x."
+    },
+    {
+      "p": "This law’s namesake also gives his name to a universal joint that lets a rotating shaft drive another shaft set at an angle, as in a car’s driveshaft. Earlier, he worked as Robert Boyle’s assistant and built the air pump that Boyle used to study gases.",
+      "r": "For 10 points, name this law, written F equals negative k x, that describes springs."
+    }
+  ],
+  "clues": [
+    {
+      "id": "proportional",
+      "tier": "giveaway",
+      "t": "The force needed to stretch or compress a spring is proportional to how far it is stretched or compressed",
+      "k": [
+        "proportional",
+        "stretched",
+        "compressed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "formula",
+      "tier": "giveaway",
+      "t": "Written F = −kx, where k is the spring constant and x is the stretch",
+      "k": [
+        "spring constant",
+        "f = −kx"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spring-scales",
+      "tier": "giveaway",
+      "t": "Explains spring scales (newton meters), which measure weight by how far a spring stretches",
+      "k": [
+        "spring scales",
+        "newton meters",
+        "weight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doubling",
+      "tier": "giveaway",
+      "t": "Doubling the force on a spring doubles its stretch",
+      "k": [
+        "doubling",
+        "doubles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elastic-limit",
+      "tier": "middle",
+      "t": "Works only up to the elastic limit; stretched past it, a spring is permanently bent out of shape",
+      "k": [
+        "elastic limit",
+        "permanently"
+      ],
+      "n": 0
+    },
+    {
+      "id": "units",
+      "tier": "middle",
+      "t": "The spring constant is measured in newtons per meter; a stiffer spring has a larger one",
+      "k": [
+        "newtons per meter",
+        "stiffer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "graph",
+      "tier": "middle",
+      "t": "A graph of force against stretch is a straight line through the origin, with the spring constant as its slope",
+      "k": [
+        "straight line",
+        "slope"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minus-sign",
+      "tier": "middle",
+      "t": "The minus sign shows that the restoring force points back toward the resting position, opposite to the stretch",
+      "k": [
+        "minus sign",
+        "restoring force"
+      ],
+      "n": 0
+    },
+    {
+      "id": "energy",
+      "tier": "middle",
+      "t": "A stretched spring stores elastic potential energy equal to one-half k x squared",
+      "k": [
+        "elastic potential energy",
+        "one-half"
+      ],
+      "n": 0,
+      "rabbit": "Potential energy"
+    },
+    {
+      "id": "shm",
+      "tier": "middle",
+      "t": "A mass on such a spring moves in simple harmonic motion; its period is 2π times the square root of m divided by k",
+      "k": [
+        "simple harmonic motion",
+        "period"
+      ],
+      "n": 0,
+      "rabbit": "Pendulums"
+    },
+    {
+      "id": "micrographia",
+      "tier": "middle",
+      "t": "Its namesake coined the word “cell” after viewing slices of cork in his book _Micrographia_ (1665)",
+      "k": [
+        "micrographia",
+        "cork",
+        "cell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anagram",
+      "tier": "power",
+      "t": "First published in 1676 as the Latin anagram “ceiiinosssttuv”",
+      "k": [
+        "anagram",
+        "ceiiinosssttuv",
+        "1676"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ut-tensio",
+      "tier": "power",
+      "t": "Solved in 1678 as “ut tensio, sic vis”: “as the extension, so the force”",
+      "k": [
+        "ut tensio",
+        "sic vis",
+        "1678"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lecture",
+      "tier": "power",
+      "t": "Explained in the 1678 lecture _De Potentia Restitutiva_, or _Of Spring_",
+      "k": [
+        "de potentia restitutiva",
+        "of spring"
+      ],
+      "n": 0
+    },
+    {
+      "id": "young",
+      "tier": "power",
+      "t": "Young’s modulus extends it to solid materials: stress is proportional to strain",
+      "k": [
+        "young’s modulus",
+        "stress",
+        "strain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "infrared",
+      "tier": "power",
+      "t": "Treating chemical bonds as springs that obey it predicts where they absorb infrared light; stiffer bonds vibrate faster",
+      "k": [
+        "infrared",
+        "chemical bonds"
+      ],
+      "n": 0,
+      "rabbit": "Infrared spectroscopy"
+    },
+    {
+      "id": "series-parallel",
+      "tier": "power",
+      "t": "Two identical springs side by side are twice as stiff as one; joined end to end, they are half as stiff",
+      "k": [
+        "side by side",
+        "end to end",
+        "twice as stiff"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oscillator",
+      "tier": "power",
+      "t": "Any system whose restoring force obeys it is called a harmonic oscillator",
+      "k": [
+        "harmonic oscillator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "torsion",
+      "tier": "power",
+      "t": "A twisting version, with the twist of a thin wire proportional to the turning force, made the torsion balances of Coulomb and Cavendish work",
+      "k": [
+        "torsion balances",
+        "cavendish",
+        "coulomb"
+      ],
+      "n": 0,
+      "rabbit": "Torque"
+    },
+    {
+      "id": "newton-letter",
+      "tier": "power",
+      "t": "Isaac Newton’s line about “standing on the shoulders of giants” appeared in a letter to its namesake",
+      "k": [
+        "shoulders of giants",
+        "letter"
+      ],
+      "n": 0,
+      "rabbit": "Isaac Newton"
+    },
+    {
+      "id": "inverse-square",
+      "tier": "power",
+      "t": "Its namesake claimed that Newton had taken his idea that gravity follows an inverse-square law",
+      "k": [
+        "inverse-square",
+        "gravity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "curator",
+      "tier": "power",
+      "t": "Its namesake was the Royal Society’s first Curator of Experiments",
+      "k": [
+        "curator of experiments",
+        "royal society"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-fire",
+      "tier": "power",
+      "t": "Its namesake helped survey London after the Great Fire of 1666",
+      "k": [
+        "great fire",
+        "1666",
+        "survey"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huygens",
+      "tier": "power",
+      "t": "Its namesake quarreled with Christiaan Huygens over who first invented the balance spring for watches",
+      "k": [
+        "huygens",
+        "balance spring",
+        "watch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boyle",
+      "tier": "power",
+      "t": "Its namesake worked as Robert Boyle’s assistant and built the air pump Boyle used to study gases",
+      "k": [
+        "boyle",
+        "air pump"
+      ],
+      "n": 0,
+      "rabbit": "Boyle’s law"
+    },
+    {
+      "id": "joint",
+      "tier": "power",
+      "t": "Its namesake’s name is also on a universal joint used in car driveshafts",
+      "k": [
+        "universal joint",
+        "driveshafts"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Law, constant, or motion?",
+    "body": "Spring tossups have several look-alike answers. This law is the rule F = −kx; the spring constant k is just one number in it, simple harmonic motion is the bouncing that results, and Young’s modulus is the version for solid materials. Clues about Robert Boyle’s air pump can also lure a wrong buzz of “Boyle’s law,” since this law’s namesake built that pump, and answering just “Hooke” earns only a prompt.",
+    "fix": "Proportional stretch, F = −kx, the 1676 anagram, and “ut tensio, sic vis” mean this law. If the giveaway asks for “this quantity” measured in newtons per meter, say spring constant; for the back-and-forth motion, say simple harmonic motion; for the pressure and volume of a gas, say Boyle’s law.",
+    "line": "Real answer line: <b><u>Hooke’s law</u></b> (prompt on <u>Hooke</u> or <u>elasticity</u>)"
+  },
+  "tests": {
+    "right": [
+      "Hooke's law",
+      "Hookes law",
+      "Hooke law",
+      "Hooks law",
+      "Hooke’s Law",
+      "Hooke's law of elasticity"
+    ],
+    "prompt": [
+      "Hooke",
+      "Robert Hooke",
+      "Elasticity"
+    ],
+    "wrong": [
+      "Spring constant",
+      "Boyle's law",
+      "Young's modulus",
+      "Simple harmonic motion",
+      "Newton's third law",
+      "Hubble's law"
+    ]
+  }
+}

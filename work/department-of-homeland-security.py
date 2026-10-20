@@ -1,0 +1,375 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "department-of-homeland-security",
+    "name": "Department of Homeland Security",
+    "mono": "DHS",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Cabinet department created after 9/11 · Runs the TSA, FEMA, and Coast Guard",
+    "dates": "Created 2002; opened 2003",
+    "briefing": "After the September 11 attacks in 2001, Congress decided the country needed one department focused on protecting Americans at home from terrorism and disasters. The Homeland Security Act of 2002 combined 22 federal agencies, including the Coast Guard, the Secret Service, and the brand-new Transportation Security Administration, into the Department of Homeland Security, which opened in 2003 with former Pennsylvania governor Tom Ridge as its first secretary.",
+    "answerHtml": "<b><u>Department of Homeland Security</u></b> (or <b><u>DHS</u></b>; accept <u>Homeland Security</u>; do not accept “Office of Homeland Security”)",
+    "accept": [
+        "department of homeland security",
+        "the department of homeland security",
+        "homeland security",
+        "homeland security department",
+        "us department of homeland security",
+        "united states department of homeland security",
+        "dhs",
+        "d h s"
+    ],
+    "prompt": [
+        "homeland",
+        "department of homeland"
+    ],
+    "reject": [
+        "office of homeland security",
+        "white house office of homeland security",
+        "homeland security council",
+        "homeland security act",
+        "homeland security advisory system",
+        "secretary of homeland security",
+        "department of defense",
+        "defense department",
+        "department of justice",
+        "justice department",
+        "department of state",
+        "state department",
+        "department of the treasury",
+        "treasury department",
+        "department of transportation",
+        "department of energy",
+        "department of the interior",
+        "federal bureau of investigation",
+        "fbi",
+        "central intelligence agency",
+        "cia",
+        "national security agency",
+        "nsa",
+        "national security council",
+        "director of national intelligence",
+        "transportation security administration",
+        "tsa",
+        "federal emergency management agency",
+        "fema",
+        "coast guard",
+        "secret service",
+        "customs and border protection",
+        "border patrol",
+        "immigration and customs enforcement",
+        "ice",
+        "citizenship and immigration services",
+        "immigration and naturalization service",
+        "ins",
+        "cybersecurity and infrastructure security agency",
+        "cisa",
+        "patriot act",
+        "usa patriot act",
+        "september 11 attacks"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security",
+    "qb": {
+        "q": "Homeland Security",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Early in 2001, the Hart-Rudman Commission recommended creating a new national agency to protect Americans from attacks on U.S. soil. Senator Joe Lieberman later pushed for a new cabinet department, and in June 2002, President George W. Bush proposed his own plan for one.",
+            "r": "Congress created it later that year, after the September 11 attacks. For 10 points, name this department that oversees the TSA and FEMA."
+        },
+        {
+            "p": "A Vietnam War veteran who had been governor of Pennsylvania first led a White House office created in October 2001 to coordinate the fight against terrorism. In January 2003, that man, Tom Ridge, became the first secretary of this new executive department.",
+            "r": "For 10 points, name this cabinet department that includes the Secret Service and the Coast Guard."
+        },
+        {
+            "p": "The law creating this department was described as the biggest reorganization of the federal government since the National Security Act of 1947 created what became the Department of Defense. That 2002 law combined 22 federal agencies into this department.",
+            "r": "Its first secretary was Tom Ridge. For 10 points, name this department formed after the September 11 attacks."
+        },
+        {
+            "p": "This department ran a five-color terrorism warning system that ranged from green for “low” to red for “severe.” In 2011, that system was replaced by the National Terrorism Advisory System, which issues bulletins and alerts instead of colors.",
+            "r": "For 10 points, name this cabinet department created after the September 11 attacks and first led by Tom Ridge."
+        },
+        {
+            "p": "After a 2006 plot to bomb airliners using liquid explosives, an agency in this department adopted its “3-1-1” rule, which limits the liquids passengers can carry onto planes. That agency had been created in November 2001 by the Aviation and Transportation Security Act.",
+            "r": "That agency is the TSA. For 10 points, name this department that also includes FEMA and the Coast Guard."
+        },
+        {
+            "p": "Jimmy Carter created an agency in 1979 to lead the federal response to disasters, and it became part of this department in 2003. That agency, which also runs the National Flood Insurance Program, was widely criticized for its slow response to Hurricane Katrina in 2005.",
+            "r": "That agency is FEMA. For 10 points, name this cabinet department, created in 2002, that was first led by Tom Ridge."
+        },
+        {
+            "p": "The only branch of the U.S. armed forces in this department traces its history to the Revenue Cutter Service, which Alexander Hamilton created in 1790 to stop smugglers. That branch moved into this department from the Department of Transportation in 2003.",
+            "r": "That branch is the Coast Guard. For 10 points, name this department created after the September 11 attacks."
+        },
+        {
+            "p": "An agency founded in 1865 to fight counterfeit money moved from the Treasury Department into this department in 2003. That agency began protecting presidents full-time after the assassination of William McKinley, and it leads security at events such as presidential inaugurations.",
+            "r": "That agency is the Secret Service. For 10 points, name this cabinet department created in 2002."
+        },
+        {
+            "p": "In 2003, the Immigration and Naturalization Service was abolished, and its jobs were split among three agencies in this department. One of those agencies, U.S. Citizenship and Immigration Services, gives the civics test that most applicants must pass to become citizens.",
+            "r": "Another, ICE, enforces immigration laws inside the country. For 10 points, name this department first led by Tom Ridge."
+        },
+        {
+            "p": "The U.S. Customs Service, created by one of the first laws passed by Congress in 1789, was combined with the Border Patrol in 2003 to form an agency of this department. That agency inspects travelers and goods arriving at airports, seaports, and border crossings.",
+            "r": "That agency is Customs and Border Protection. For 10 points, name this department that also oversees the TSA."
+        },
+        {
+            "p": "In 2010, this department adopted a slogan first used by New York City’s transit system, “If You See Something, Say Something,” for a national campaign. In 2018, Congress created an agency within this department to defend government computer networks and vital systems such as power grids from cyberattacks.",
+            "r": "That agency is CISA. For 10 points, name this department, created in 2002, that also runs the TSA."
+        },
+        {
+            "p": "Michael Chertoff, a former federal appeals court judge, was this department’s second leader. Janet Napolitano, a former governor of Arizona, became the first woman to lead it in 2009, and Jeh Johnson became its first African American leader in 2013.",
+            "r": "Its first leader was Tom Ridge. For 10 points, name this department that includes FEMA and the TSA."
+        },
+        {
+            "p": "On November 25, 2002, President George W. Bush signed a law making this the 15th executive department of the federal government. It officially opened in January 2003, and most of its agencies moved into it that March.",
+            "r": "For 10 points, name this department formed in response to the September 11 attacks and first led by Tom Ridge."
+        },
+        {
+            "p": "Under the REAL ID Act of 2005, this department set security standards for state driver’s licenses and ID cards, and after years of delays, it began enforcing those standards at airport security checkpoints in May 2025.",
+            "r": "Its Transportation Security Administration screens passengers at those checkpoints. For 10 points, name this cabinet department created after the September 11 attacks."
+        },
+        {
+            "p": "In February 2003, this department launched Ready.gov, a campaign urging families to build emergency supply kits and make plans for natural disasters and attacks. Every September, it promotes National Preparedness Month through FEMA, one of its agencies.",
+            "r": "For 10 points, name this department created by a 2002 law and first led by Tom Ridge."
+        }
+    ],
+    "clues": [
+        {
+            "id": "after-9-11",
+            "tier": "giveaway",
+            "t": "Cabinet department created by a 2002 law in response to the September 11 attacks",
+            "k": ["september 11", "2002", "cabinet"],
+            "n": 0,
+            "rabbit": "September 11 attacks"
+        },
+        {
+            "id": "tom-ridge",
+            "tier": "giveaway",
+            "t": "First secretary: Tom Ridge (2003–2005), a former governor of Pennsylvania",
+            "k": ["tom ridge", "ridge", "pennsylvania"],
+            "n": 0
+        },
+        {
+            "id": "tsa",
+            "tier": "giveaway",
+            "t": "Includes the Transportation Security Administration (TSA), which screens airline passengers",
+            "k": ["transportation security administration", "tsa", "airline passengers"],
+            "n": 0
+        },
+        {
+            "id": "fema",
+            "tier": "giveaway",
+            "t": "Includes FEMA, the Federal Emergency Management Agency, which leads the federal response to disasters",
+            "k": ["federal emergency management agency", "fema", "disasters"],
+            "n": 0
+        },
+        {
+            "id": "coast-guard-secret-service",
+            "tier": "giveaway",
+            "t": "Also includes the Coast Guard and the Secret Service",
+            "k": ["coast guard", "secret service"],
+            "n": 0
+        },
+        {
+            "id": "twenty-two-agencies",
+            "tier": "middle",
+            "t": "Combined 22 federal agencies, the biggest reorganization of the government since the National Security Act of 1947",
+            "k": ["22 federal agencies", "reorganization", "1947"],
+            "n": 0
+        },
+        {
+            "id": "bush-signs",
+            "tier": "middle",
+            "t": "Signed into law by George W. Bush on November 25, 2002, as the 15th executive department",
+            "k": ["george w. bush", "november 25", "15th"],
+            "n": 0,
+            "rabbit": "George W. Bush"
+        },
+        {
+            "id": "opened-2003",
+            "tier": "middle",
+            "t": "Officially opened in January 2003; most of its agencies moved in on March 1, 2003",
+            "k": ["january 2003", "march 1"],
+            "n": 0
+        },
+        {
+            "id": "white-house-office",
+            "tier": "middle",
+            "t": "Grew out of a White House office on fighting terrorism that Tom Ridge led starting in October 2001",
+            "k": ["white house office", "october 2001"],
+            "n": 0
+        },
+        {
+            "id": "coast-guard",
+            "tier": "middle",
+            "t": "The Coast Guard, the only branch of the armed forces in it, moved over from the Department of Transportation",
+            "k": ["armed forces", "department of transportation"],
+            "n": 0
+        },
+        {
+            "id": "secret-service",
+            "tier": "middle",
+            "t": "The Secret Service, founded in 1865 to fight counterfeit money, moved over from the Treasury Department",
+            "k": ["counterfeit", "treasury", "1865"],
+            "n": 0
+        },
+        {
+            "id": "ins-split",
+            "tier": "middle",
+            "t": "The Immigration and Naturalization Service was abolished in 2003; its jobs went to USCIS, ICE, and Customs and Border Protection",
+            "k": ["immigration and naturalization service", "uscis", "customs and border protection"],
+            "n": 0
+        },
+        {
+            "id": "color-code",
+            "tier": "middle",
+            "t": "Ran a five-color terrorism alert system (green “low” to red “severe”), replaced in 2011 by the National Terrorism Advisory System",
+            "k": ["five-color", "national terrorism advisory system", "2011"],
+            "n": 0
+        },
+        {
+            "id": "hart-rudman",
+            "tier": "power",
+            "t": "Early in 2001, the Hart-Rudman Commission recommended a new national agency to protect against attacks on U.S. soil",
+            "k": ["hart-rudman", "commission"],
+            "n": 0
+        },
+        {
+            "id": "lieberman",
+            "tier": "power",
+            "t": "Senator Joe Lieberman pushed for the new department before George W. Bush proposed his own plan (June 2002)",
+            "k": ["joe lieberman", "lieberman", "june 2002"],
+            "n": 0
+        },
+        {
+            "id": "revenue-cutter",
+            "tier": "power",
+            "t": "The Coast Guard traces its history to Alexander Hamilton’s Revenue Cutter Service (1790)",
+            "k": ["revenue cutter", "hamilton", "1790"],
+            "n": 0,
+            "rabbit": "Alexander Hamilton"
+        },
+        {
+            "id": "mckinley",
+            "tier": "power",
+            "t": "The Secret Service began protecting presidents full-time after William McKinley’s assassination and leads security at events like inaugurations",
+            "k": ["mckinley", "inaugurations"],
+            "n": 0
+        },
+        {
+            "id": "fema-1979",
+            "tier": "power",
+            "t": "FEMA was created by Jimmy Carter in 1979, runs the National Flood Insurance Program, and was widely criticized after Hurricane Katrina (2005)",
+            "k": ["jimmy carter", "1979", "flood insurance", "katrina"],
+            "n": 0,
+            "rabbit": "Hurricane Katrina"
+        },
+        {
+            "id": "liquids-rule",
+            "tier": "power",
+            "t": "The TSA, created in November 2001, limits carry-on liquids with its “3-1-1” rule, adopted after a 2006 plot against airliners",
+            "k": ["3-1-1", "liquids", "november 2001"],
+            "n": 0
+        },
+        {
+            "id": "customs-1789",
+            "tier": "power",
+            "t": "The U.S. Customs Service, created in 1789, was combined with the Border Patrol into Customs and Border Protection (2003)",
+            "k": ["customs service", "1789", "border patrol"],
+            "n": 0
+        },
+        {
+            "id": "civics-test",
+            "tier": "power",
+            "t": "U.S. Citizenship and Immigration Services gives the civics test for people becoming naturalized citizens",
+            "k": ["civics test", "naturalized", "citizenship"],
+            "n": 0
+        },
+        {
+            "id": "cisa",
+            "tier": "power",
+            "t": "Congress created CISA in 2018 to defend government networks and systems like power grids from cyberattacks",
+            "k": ["cisa", "cyberattacks", "2018"],
+            "n": 0
+        },
+        {
+            "id": "see-something",
+            "tier": "power",
+            "t": "In 2010, it adopted the New York City transit slogan “If You See Something, Say Something” for a national campaign",
+            "k": ["see something", "say something", "2010"],
+            "n": 0
+        },
+        {
+            "id": "secretaries",
+            "tier": "power",
+            "t": "Later secretaries: Michael Chertoff (a former federal judge), Janet Napolitano (first woman, 2009), and Jeh Johnson (first African American, 2013)",
+            "k": ["chertoff", "janet napolitano", "napolitano", "jeh johnson"],
+            "n": 0
+        },
+        {
+            "id": "ridge-vietnam",
+            "tier": "power",
+            "t": "Tom Ridge was a Vietnam War veteran and a congressman before serving as governor of Pennsylvania (1995–2001)",
+            "k": ["vietnam", "congressman", "1995"],
+            "n": 0
+        },
+        {
+            "id": "real-id",
+            "tier": "power",
+            "t": "Under the REAL ID Act (2005), it set standards for state driver’s licenses; enforcement at airport checkpoints began in May 2025",
+            "k": ["real id", "driver’s licenses", "may 2025"],
+            "n": 0
+        },
+        {
+            "id": "ready-gov",
+            "tier": "power",
+            "t": "Launched Ready.gov (2003) to help families prepare for emergencies; promotes National Preparedness Month every September",
+            "k": ["ready.gov", "national preparedness month", "preparedness"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Department, office, or agency?",
+        "body": "This department is a big umbrella, and many of its parts have their own answer lines: the TSA, FEMA, the Coast Guard, and the Secret Service. A clue about airport screening or disaster relief might want that agency, not the whole department. It is also easy to mix it up with the FBI (part of the Justice Department), the CIA (an independent agency), or the White House office Tom Ridge led before the department existed.",
+        "fix": "Listen for the noun: “this department” or “this cabinet department” wants Homeland Security, while “this agency” or “this branch” wants the part being described. Clues about a 2002 law, 22 agencies combined, or the first secretary, Tom Ridge, point to the department.",
+        "line": "Real answer line: <b><u>Department of Homeland Security</u></b> (or <b><u>DHS</u></b>; accept <u>Homeland Security</u>)"
+    },
+    "tests": {
+        "right": [
+            "Department of Homeland Security",
+            "Homeland Security",
+            "DHS",
+            "Department of Homland Security",
+            "U.S. Department of Homeland Security"
+        ],
+        "prompt": [
+            "Homeland"
+        ],
+        "wrong": [
+            "Office of Homeland Security",
+            "Department of Defense",
+            "FEMA",
+            "TSA",
+            "FBI",
+            "Homeland Security Act",
+            "Secret Service"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")

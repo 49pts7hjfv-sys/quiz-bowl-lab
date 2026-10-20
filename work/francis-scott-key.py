@@ -1,0 +1,227 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def T(p, r):
+    return {"p": p, "r": r}
+
+
+def C(cid, tier, t, k, rabbit=None):
+    c = {"id": cid, "tier": tier, "t": t, "k": k, "n": 0}
+    if rabbit:
+        c["rabbit"] = rabbit
+    return c
+
+
+data = {
+    "id": "francis-scott-key",
+    "name": "Francis Scott Key",
+    "mono": "FSK",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Lawyer and poet · Wrote the words of “The Star-Spangled Banner”",
+    "dates": "1779–1843",
+    "briefing": "In September 1814, a Maryland lawyer named Francis Scott Key was stuck on a boat behind a British fleet as it bombarded Fort McHenry in Baltimore through a rainy night. In the morning he saw a huge American flag still flying over the fort and wrote a poem about it. Set to a popular British tune, the poem became “The Star-Spangled Banner,” which Congress made the national anthem in 1931.",
+    "answerHtml": "Francis Scott <b><u>Key</u></b> (do not accept “The Star-Spangled Banner”)",
+    "accept": [
+        "francis scott key",
+        "key",
+        "francis key",
+        "francis s key",
+        "f s key",
+        "scott key"
+    ],
+    "prompt": [
+        "francis",
+        "francis scott"
+    ],
+    "reject": [
+        "star spangled banner",
+        "the star spangled banner",
+        "defence of fort mchenry",
+        "defense of fort mchenry",
+        "defence of fort mhenry",
+        "defense of fort mhenry",
+        "fort mchenry",
+        "battle of baltimore",
+        "to anacreon in heaven",
+        "anacreon",
+        "john stafford smith",
+        "mary pickersgill",
+        "pickersgill",
+        "george armistead",
+        "armistead",
+        "roger taney",
+        "taney",
+        "william beanes",
+        "john stuart skinner",
+        "f scott fitzgerald",
+        "scott fitzgerald",
+        "francis scott key fitzgerald",
+        "fitzgerald",
+        "francis scott key bridge",
+        "key bridge",
+        "francis hopkinson",
+        "samuel francis smith",
+        "katharine lee bates",
+        "america the beautiful",
+        "betsy ross"
+    ],
+    "tests": {
+        "right": [
+            "Francis Scott Key",
+            "Key",
+            "Francis Scot Key",
+            "Francis Key"
+        ],
+        "prompt": [
+            "Francis",
+            "Francis Scott"
+        ],
+        "wrong": [
+            "The Star-Spangled Banner",
+            "F. Scott Fitzgerald",
+            "Fort McHenry",
+            "Mary Pickersgill",
+            "Roger Taney",
+            "Francis Scott Key Bridge"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Francis_Scott_Key",
+    "qb": {
+        "q": "Francis Scott Key",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        T("In 1805, this man wrote a song honoring the naval hero Stephen Decatur, set to the same British tune he later used for his most famous poem. That tune, “To Anacreon [“uh-NAK-ree-un”] in Heaven,” was written for a London gentlemen’s club.",
+          "For 10 points, name this lawyer who wrote the words to “The Star-Spangled Banner.”"),
+        T("With the prisoner-exchange agent John Stuart Skinner, this lawyer boarded a British warship to win the release of Dr. William Beanes, an elderly doctor from Maryland. The British let Beanes go but held all three men until they had finished a planned attack.",
+          "For 10 points, name this man who watched the bombardment of Fort McHenry and wrote “The Star-Spangled Banner.”"),
+        T("As U.S. attorney for Washington, D.C., this man prosecuted Richard Lawrence, who had tried to shoot President Andrew Jackson in 1835. Lawrence was found not guilty by reason of insanity.",
+          "Two decades earlier, this lawyer wrote a poem during the War of 1812. For 10 points, name this author of “The Star-Spangled Banner.”"),
+        T("This man helped found the American Colonization Society in 1816, a group that urged free Black Americans to move to Africa and later founded Liberia. He enslaved people himself, though as a lawyer he also represented some enslaved people suing for their freedom.",
+          "For 10 points, name this Maryland lawyer who wrote “Defence of Fort M’Henry,” the poem that became the national anthem."),
+        T("This man’s sister Anne married Roger Taney [“TAW-nee”], making this man the brother-in-law of the Chief Justice who later wrote the _Dred Scott_ decision. Taney later wrote an account of how this man came to write his most famous poem.",
+          "For 10 points, name this lawyer who watched the British attack Fort McHenry in 1814 and wrote a poem about it."),
+        T("This man was born in 1779 at Terra Rubra, his family’s estate in Maryland, and he is buried at Mount Olivet Cemetery in Frederick, where a U.S. flag flies over his grave day and night.",
+          "For 10 points, name this lawyer who wrote the words to the U.S. national anthem."),
+        T("The Baltimore music seller Thomas Carr published this man’s best-known poem as sheet music in 1814, giving it a new title. The poem had first been printed on handbills under the title “Defence of Fort M’Henry.”",
+          "Carr’s title was “The Star-Spangled Banner.” For 10 points, name this lawyer who wrote it."),
+        T("The U.S. Navy adopted this man’s best-known work for official use in 1889, and in 1916 Woodrow Wilson ordered it played at military and other official events. Its words come from this man’s four-stanza poem, though usually only the first stanza is sung.",
+          "Congress made it the national anthem in 1931. For 10 points, name this lawyer who wrote “The Star-Spangled Banner.”"),
+        T("Major George Armistead [“AR-mih-sted”] asked for a flag so large that the British would have no trouble seeing it from a distance, and Mary Pickersgill and her helpers sewed one with fifteen stars and fifteen stripes. That flag is displayed at the Smithsonian.",
+          "Seeing it still flying over Fort McHenry inspired this man’s famous poem. For 10 points, name this author of “The Star-Spangled Banner.”"),
+        T("The novelist F. Scott Fitzgerald, author of _The Great Gatsby_, was named after this distant relative. A bridge across the Potomac River in Washington, D.C., also honors this man, who once lived in nearby Georgetown.",
+          "For 10 points, name this Maryland lawyer who wrote the words of “The Star-Spangled Banner.”"),
+        T("In March 2024, a cargo ship lost power and struck a support of a Baltimore bridge named for this man, and the bridge collapsed into the Patapsco [“puh-TAP-skoh”] River. Six road workers on the bridge died.",
+          "That bridge crossed the river near where this man watched a British attack in 1814. For 10 points, name this author of “The Star-Spangled Banner.”"),
+        T("During the attack this man witnessed, British ships, including the rocket ship HMS _Erebus_, fired Congreve rockets and huge bombs at a fort for about twenty-five hours. _Erebus_ was later lost on John Franklin’s expedition to the Arctic.",
+          "This man later described “the rockets’ red glare” in a poem. For 10 points, name this author of “The Star-Spangled Banner.”"),
+        T("While a British fleet bombarded a fort through a rainy night, this man waited on a small American boat held behind the British warships, unable to tell which side was winning. He is said to have begun his most famous poem on the back of a letter.",
+          "In the morning, he saw the flag still flying over Fort McHenry. For 10 points, name this man who wrote the words of “The Star-Spangled Banner.”"),
+        T("A day before the bombardment this man watched, British general Robert Ross was killed at the Battle of North Point as his army marched toward a major port. Weeks earlier, Ross’s troops had burned Washington, D.C.",
+          "For 10 points, name this lawyer who wrote “Defence of Fort M’Henry,” better known as “The Star-Spangled Banner.”"),
+        T("The fourth stanza of this man’s most famous poem includes the line “And this be our motto: ‘In God is our trust.’” Most people know only the first of the poem’s four stanzas.",
+          "That first stanza begins “O say can you see.” For 10 points, name this lawyer whose poem became “The Star-Spangled Banner.”")
+    ],
+    "clues": [
+        C("anthem", "giveaway",
+          "Wrote the poem that became “The Star-Spangled Banner,” the U.S. national anthem",
+          ["star-spangled banner", "national anthem", "anthem"]),
+        C("fort-mchenry", "giveaway",
+          "Watched the British bombard Fort McHenry in Baltimore in September 1814, during the War of 1812",
+          ["fort mchenry", "baltimore", "1814", "war of 1812"], "War of 1812"),
+        C("flag", "giveaway",
+          "Was inspired by seeing the huge American flag still flying over the fort the next morning",
+          ["flag", "still flying", "morning"]),
+        C("lawyer", "giveaway",
+          "A Maryland lawyer and amateur poet",
+          ["lawyer", "maryland", "poet"]),
+        C("defence", "middle",
+          "The poem was first printed on handbills as “Defence of Fort M’Henry”",
+          ["defence of fort m’henry", "handbills", "defence"]),
+        C("anacreon", "middle",
+          "Set to the tune of “To Anacreon in Heaven,” by British composer John Stafford Smith",
+          ["anacreon", "john stafford smith", "tune"]),
+        C("anthem-1931", "middle",
+          "Congress made the song the national anthem in 1931; President Herbert Hoover signed the law",
+          ["1931", "herbert hoover", "hoover"]),
+        C("beanes", "middle",
+          "Went to the British fleet to win the release of Dr. William Beanes, an elderly Maryland doctor",
+          ["william beanes", "beanes", "release"]),
+        C("pickersgill", "middle",
+          "The fort’s giant flag, with 15 stars and 15 stripes, was sewn by Mary Pickersgill and is displayed at the Smithsonian",
+          ["mary pickersgill", "pickersgill", "smithsonian"]),
+        C("truce-boat", "middle",
+          "Was held on a small American boat behind the British fleet during the rainy, all-night attack",
+          ["boat", "british fleet", "rainy"]),
+        C("stanzas", "middle",
+          "The poem has four stanzas; usually only the first, beginning “O say can you see,” is sung",
+          ["four stanzas", "o say can you see", "stanzas"]),
+        C("key-bridge", "middle",
+          "A Baltimore bridge named for him collapsed in March 2024 after a cargo ship struck it; six workers died",
+          ["bridge", "march 2024", "cargo ship"]),
+        C("skinner", "power",
+          "Went to the British with prisoner-exchange agent John Stuart Skinner",
+          ["john stuart skinner", "skinner", "prisoner-exchange"]),
+        C("armistead", "power",
+          "Major George Armistead, the fort’s commander, wanted a flag big enough for the British to see from a distance",
+          ["george armistead", "armistead"]),
+        C("taney", "power",
+          "Brother-in-law of Chief Justice Roger Taney, who later wrote the _Dred Scott_ decision",
+          ["roger taney", "taney", "brother-in-law"], "Dred Scott v. Sandford"),
+        C("lawrence", "power",
+          "As U.S. attorney for Washington, D.C., prosecuted Richard Lawrence, who tried to shoot Andrew Jackson (1835)",
+          ["richard lawrence", "u.s. attorney", "andrew jackson"]),
+        C("colonization", "power",
+          "Helped found the American Colonization Society (1816); he enslaved people but also argued some freedom suits",
+          ["american colonization society", "colonization", "1816"]),
+        C("decatur", "power",
+          "In 1805 he wrote a song for naval hero Stephen Decatur, set to the same tune",
+          ["stephen decatur", "decatur", "1805"]),
+        C("navy-wilson", "power",
+          "The Navy adopted the song in 1889; Woodrow Wilson ordered it played at official events in 1916",
+          ["1889", "woodrow wilson", "1916"]),
+        C("terra-rubra", "power",
+          "Born in 1779 at Terra Rubra, Maryland; buried at Mount Olivet Cemetery in Frederick, where a flag flies day and night",
+          ["terra rubra", "1779", "mount olivet", "frederick"]),
+        C("carr", "power",
+          "Baltimore music seller Thomas Carr first published it as sheet music under the title “The Star-Spangled Banner”",
+          ["thomas carr", "carr", "sheet music"]),
+        C("fitzgerald", "power",
+          "Novelist F. Scott Fitzgerald was named after him, a distant relative",
+          ["fitzgerald", "named after", "relative"]),
+        C("georgetown", "power",
+          "Lived in Georgetown; a bridge across the Potomac River in Washington, D.C., is also named for him",
+          ["georgetown", "potomac"]),
+        C("erebus", "power",
+          "British ships, including the rocket ship HMS _Erebus_, fired Congreve rockets during the attack (“the rockets’ red glare”)",
+          ["erebus", "congreve rockets", "rockets’ red glare"]),
+        C("ross", "power",
+          "General Robert Ross, who had burned Washington, was killed at North Point the day before the bombardment",
+          ["robert ross", "north point"]),
+        C("motto", "power",
+          "The fourth stanza says, “And this be our motto: ‘In God is our trust’”",
+          ["in god is our trust", "fourth stanza", "motto"])
+    ],
+    "trap": {
+        "title": "Poet, poem, or fort?",
+        "body": "Francis Scott Key wrote the words, but many tossups ask for the song itself, “The Star-Spangled Banner” (first printed as “Defence of Fort M’Henry”), or for the fort, Fort McHenry, or the war, the War of 1812. On this answer line, naming the song is wrong, the same way naming the fort or the war would be. Don’t confuse him with F. Scott Fitzgerald, the novelist who was named after him, or with Mary Pickersgill, who sewed the flag.",
+        "fix": "Listen for the noun: “this man,” “this lawyer,” or “this poet” wants Key; “this song” or “this poem” wants “The Star-Spangled Banner”; “this fort” wants Fort McHenry. The tune was composed by John Stafford Smith, not Key.",
+        "line": "Real answer line: Francis Scott <b><u>Key</u></b> (do not accept “The Star-Spangled Banner”)"
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

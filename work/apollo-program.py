@@ -123,7 +123,7 @@ data = {
             "r": "For 10 points, name this NASA program whose missions included the first crewed Moon landing in 1969."
         },
         {
-            "p": "Geologist Harrison Schmitt became the only professional scientist to walk on the Moon during this program’s final mission, whose crew also took the famous “Blue Marble” photo of the whole Earth.",
+            "p": "Geologist Harrison Schmitt became the only professional scientist to walk on the Moon during this program’s final mission, whose crew also took the famous photo of the whole Earth called _The Blue Marble_.",
             "r": "His crewmate Gene Cernan was the last astronaut of this program to leave the Moon, in December 1972. For 10 points, name this NASA program."
         },
         {
@@ -296,7 +296,7 @@ data = {
         {
             "id": "blue-marble",
             "tier": "power",
-            "t": "The final crew took the “Blue Marble” photo; Harrison Schmitt was the only scientist to walk on the Moon",
+            "t": "The final crew took the photo _The Blue Marble_; Harrison Schmitt was the only scientist to walk on the Moon",
             "k": ["blue marble", "scientist"],
             "n": 0
         },

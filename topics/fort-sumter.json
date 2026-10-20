@@ -1,0 +1,404 @@
+{
+  "id": "fort-sumter",
+  "name": "Fort Sumter",
+  "mono": "FTS",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Charleston Harbor fort · Where the Civil War began in April 1861",
+  "dates": "Attacked April 12–13, 1861",
+  "briefing": "Fort Sumter stood on a man-made island guarding the harbor of Charleston, South Carolina. After South Carolina left the Union, Major Robert Anderson and fewer than a hundred U.S. soldiers held the unfinished fort. At 4:30 a.m. on April 12, 1861, Confederate cannons opened fire, and after 34 hours Anderson surrendered. Nobody was killed by the bombardment itself, but it started the Civil War.",
+  "answerHtml": "Fort <b><u>Sumter</u></b> (accept Battle of Fort <u>Sumter</u>; prompt on <u>Charleston</u> Harbor)",
+  "accept": [
+    "fort sumter",
+    "sumter",
+    "battle of fort sumter",
+    "fort sumpter",
+    "ft sumter"
+  ],
+  "prompt": [
+    "charleston",
+    "charleston harbor",
+    "charleston south carolina"
+  ],
+  "reject": [
+    "fort moultrie",
+    "moultrie",
+    "fort mchenry",
+    "fort pickens",
+    "fort wagner",
+    "battery wagner",
+    "fort pulaski",
+    "fort monroe",
+    "fort ticonderoga",
+    "fort necessity",
+    "fort sumner",
+    "sumner",
+    "charles sumner",
+    "thomas sumter",
+    "fort johnson",
+    "castle pinckney",
+    "fort donelson",
+    "fort henry",
+    "fort fisher",
+    "first battle of bull run",
+    "bull run",
+    "the citadel",
+    "star of the west",
+    "sumer",
+    "sumerians",
+    "summer"
+  ],
+  "tests": {
+    "right": [
+      "Fort Sumter",
+      "Sumter",
+      "Fort Sumpter",
+      "Battle of Fort Sumter",
+      "Ft. Sumter"
+    ],
+    "prompt": [
+      "Charleston",
+      "Charleston Harbor"
+    ],
+    "wrong": [
+      "Fort Moultrie",
+      "Fort McHenry",
+      "Fort Sumner",
+      "Fort Pickens",
+      "Charles Sumner",
+      "Fort Wagner"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Fort_Sumter",
+  "qb": {
+    "q": "Sumter",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Construction of this fort began in 1829 on a man-made island built from tons of granite and other rock, and it was still unfinished more than thirty years later. Its walls were designed to hold more than a hundred cannons.",
+      "r": "Robert Anderson commanded this fort in 1861. For 10 points, name this fort in Charleston Harbor where the Civil War began."
+    },
+    {
+      "p": "This fort was named for a South Carolina general of the Revolutionary War nicknamed “the Carolina Gamecock.” It was built after the War of 1812 to guard the entrance to an important Southern harbor.",
+      "r": "Confederate guns attacked it on April 12, 1861. For 10 points, name this fort in Charleston Harbor."
+    },
+    {
+      "p": "Six days after South Carolina seceded, the commander of the U.S. Army post there secretly moved his men to this fort from Fort Moultrie [“MOOL-tree”], which could easily be attacked from land. He moved them at night, on December 26, 1860.",
+      "r": "That commander was Major Robert Anderson. For 10 points, name this fort where the Civil War began."
+    },
+    {
+      "p": "In January 1861, cadets from The Citadel fired on the _Star of the West_, an unarmed merchant ship carrying soldiers and supplies to this fort, and the ship turned back. President James Buchanan had sent that ship.",
+      "r": "Three months later, Confederate cannons fired on this fort. For 10 points, name this fort in Charleston Harbor."
+    },
+    {
+      "p": "In April 1861, President Lincoln informed South Carolina governor Francis Pickens that he would send only food, not soldiers or weapons, to this fort’s hungry garrison. Confederate leaders decided to attack before the supplies arrived.",
+      "r": "General P. G. T. Beauregard [“BOH-ruh-gard”] then ordered the bombardment. For 10 points, name this fort where the Civil War began."
+    },
+    {
+      "p": "Gustavus Fox led a relief fleet that arrived outside the harbor during the attack on this fort, but it could not reach the fort in time to help. Fox later became assistant secretary of the navy.",
+      "r": "For 10 points, name this fort in Charleston Harbor where the Civil War began in April 1861."
+    },
+    {
+      "p": "The Confederate general who ordered the attack on this fort had once studied artillery at West Point under the Union officer defending it, and later served as his assistant there. That Union officer was a Kentucky native.",
+      "r": "Those men were P. G. T. Beauregard [“BOH-ruh-gard”] and Robert Anderson. For 10 points, name this fort where the Civil War began."
+    },
+    {
+      "p": "At 4:30 a.m., a signal shell fired from Fort Johnson burst over this fort, starting a bombardment. The Virginia secessionist Edmund Ruffin is often said to have fired one of the first shots that followed.",
+      "r": "For 10 points, name this fort attacked on April 12, 1861, at the start of the Civil War."
+    },
+    {
+      "p": "Mary Chesnut wrote in her diary that she knelt and prayed when the guns began firing at this fort, then watched from a rooftop in the nearby city. Her husband, James, was one of the aides who carried the demand that the fort surrender.",
+      "r": "For 10 points, name this fort in Charleston Harbor whose bombardment began the Civil War."
+    },
+    {
+      "p": "Captain Abner Doubleday, who was later wrongly credited with inventing baseball, aimed the first shot fired back by the defenders of this fort. The garrison was running out of food and could use only some of its cannons.",
+      "r": "For 10 points, name this fort that surrendered after a 34-hour bombardment in April 1861."
+    },
+    {
+      "p": "During a salute to the U.S. flag after this fort surrendered, a pile of cartridges blew up by accident, killing Private Daniel Hough. Not one person had died during the 34-hour bombardment before the surrender.",
+      "r": "Hough is often called the first soldier to die in the Civil War. For 10 points, name this fort in Charleston Harbor."
+    },
+    {
+      "p": "Three days after the attack on this fort began, Abraham Lincoln called for 75,000 volunteers to put down the rebellion. That call led Virginia, Arkansas, North Carolina, and Tennessee to leave the Union.",
+      "r": "For 10 points, name this fort in Charleston Harbor that Confederates captured at the start of the Civil War."
+    },
+    {
+      "p": "In April 1863, Union ironclads under Samuel Du Pont failed to capture this fort, and later Union guns pounded it into rubble. Confederates held it until February 1865, when they abandoned the nearby city as William Tecumseh Sherman’s army marched through South Carolina.",
+      "r": "For 10 points, name this fort where the Civil War had begun almost four years earlier."
+    },
+    {
+      "p": "On April 14, 1865, Henry Ward Beecher gave a speech as this fort’s former commander raised over it the same flag he had lowered exactly four years earlier. That night, Abraham Lincoln was shot at Ford’s Theatre.",
+      "r": "That commander was Robert Anderson. For 10 points, name this fort in Charleston Harbor."
+    },
+    {
+      "p": "The day after U.S. troops secretly moved into this fort, South Carolina militia seized Castle Pinckney and the abandoned Fort Moultrie [“MOOL-tree”] nearby. Over the next months, Southern troops built gun batteries around the harbor aimed at this fort.",
+      "r": "For 10 points, name this fort in Charleston Harbor where the first shots of the Civil War were fired."
+    }
+  ],
+  "clues": [
+    {
+      "id": "first-shots",
+      "tier": "giveaway",
+      "t": "Where the first shots of the Civil War were fired, on April 12, 1861",
+      "k": [
+        "first shots",
+        "civil war",
+        "april 12, 1861"
+      ],
+      "n": 0,
+      "rabbit": "American Civil War"
+    },
+    {
+      "id": "charleston",
+      "tier": "giveaway",
+      "t": "A fort on a man-made island in the harbor of Charleston, South Carolina",
+      "k": [
+        "charleston",
+        "south carolina",
+        "harbor",
+        "island"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anderson",
+      "tier": "giveaway",
+      "t": "Major Robert Anderson commanded its U.S. garrison and surrendered on April 13, 1861",
+      "k": [
+        "robert anderson",
+        "anderson",
+        "surrendered",
+        "april 13"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beauregard",
+      "tier": "giveaway",
+      "t": "Confederate General P. G. T. Beauregard ordered the bombardment",
+      "k": [
+        "beauregard",
+        "bombardment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "moultrie",
+      "tier": "middle",
+      "t": "On December 26, 1860, six days after South Carolina seceded, Anderson secretly moved his men there from Fort Moultrie",
+      "k": [
+        "fort moultrie",
+        "moultrie",
+        "december 26"
+      ],
+      "n": 0
+    },
+    {
+      "id": "star-of-the-west",
+      "tier": "middle",
+      "t": "In January 1861, cadets from The Citadel fired on the _Star of the West_, a supply ship sent by President James Buchanan",
+      "k": [
+        "star of the west",
+        "citadel",
+        "buchanan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "34-hours",
+      "tier": "middle",
+      "t": "The bombardment lasted 34 hours, and no one was killed by enemy fire",
+      "k": [
+        "34 hours",
+        "enemy fire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "volunteers",
+      "tier": "middle",
+      "t": "Three days after the attack began, Lincoln called for 75,000 volunteers, and four more states seceded",
+      "k": [
+        "75,000",
+        "volunteers",
+        "four more states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gamecock",
+      "tier": "middle",
+      "t": "Named for a Revolutionary War general nicknamed “the Carolina Gamecock”",
+      "k": [
+        "carolina gamecock",
+        "gamecock",
+        "revolutionary war"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pickens",
+      "tier": "middle",
+      "t": "Lincoln told South Carolina governor Francis Pickens he would send only food; Confederate leaders chose to attack first",
+      "k": [
+        "francis pickens",
+        "pickens",
+        "food"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flag-1865",
+      "tier": "middle",
+      "t": "Anderson raised the same flag over it on April 14, 1865, the day Lincoln was shot",
+      "k": [
+        "same flag",
+        "april 14, 1865",
+        "flag"
+      ],
+      "n": 0
+    },
+    {
+      "id": "construction",
+      "tier": "power",
+      "t": "Construction began in 1829 on a man-made island of granite and other rock; it was still unfinished in 1861",
+      "k": [
+        "1829",
+        "granite",
+        "unfinished"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fox",
+      "tier": "power",
+      "t": "Gustavus Fox’s relief fleet arrived during the attack but could not reach the fort",
+      "k": [
+        "gustavus fox",
+        "fox",
+        "relief fleet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "west-point",
+      "tier": "power",
+      "t": "Beauregard had studied artillery under Anderson at West Point and later served as his assistant",
+      "k": [
+        "west point",
+        "artillery",
+        "assistant"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fort-johnson",
+      "tier": "power",
+      "t": "The attack began at 4:30 a.m. with a signal shell fired from Fort Johnson",
+      "k": [
+        "fort johnson",
+        "signal shell",
+        "4:30"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ruffin",
+      "tier": "power",
+      "t": "Virginia secessionist Edmund Ruffin is often said to have fired one of the first shots",
+      "k": [
+        "edmund ruffin",
+        "ruffin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chesnut",
+      "tier": "power",
+      "t": "Mary Chesnut described the bombardment in her diary; her husband, James, helped carry the surrender demand",
+      "k": [
+        "mary chesnut",
+        "chesnut",
+        "diary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doubleday",
+      "tier": "power",
+      "t": "Captain Abner Doubleday, wrongly credited with inventing baseball, aimed the first shot fired back",
+      "k": [
+        "abner doubleday",
+        "doubleday",
+        "baseball"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hough",
+      "tier": "power",
+      "t": "Private Daniel Hough died in an accidental explosion during a salute after the surrender",
+      "k": [
+        "daniel hough",
+        "hough",
+        "salute"
+      ],
+      "n": 0
+    },
+    {
+      "id": "du-pont",
+      "tier": "power",
+      "t": "Union ironclads under Samuel Du Pont failed to retake it in April 1863",
+      "k": [
+        "du pont",
+        "ironclads",
+        "april 1863"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rubble",
+      "tier": "power",
+      "t": "Union guns pounded it into rubble, but Confederates held it until February 1865",
+      "k": [
+        "rubble",
+        "february 1865"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beecher",
+      "tier": "power",
+      "t": "Henry Ward Beecher gave the speech at the April 1865 flag-raising ceremony",
+      "k": [
+        "henry ward beecher",
+        "beecher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "castle-pinckney",
+      "tier": "power",
+      "t": "The day after Anderson moved in, South Carolina militia seized Castle Pinckney and Fort Moultrie",
+      "k": [
+        "castle pinckney",
+        "militia"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Sumter, not Moultrie or McHenry",
+    "body": "Charleston Harbor had several forts. Robert Anderson’s men started out at Fort Moultrie and moved to Fort Sumter in December 1860, and Confederate guns at Moultrie and Fort Johnson later fired on Sumter. Players also mix up Fort Sumter (1861, the Civil War) with Fort McHenry (1814, the War of 1812 and “The Star-Spangled Banner”) and with Fort Sumner in New Mexico, where Navajo people were held after the Long Walk.",
+    "fix": "The Civil War, April 1861, Anderson, and Beauregard mean Sumter. The War of 1812 and the national anthem mean McHenry. If a clue says troops moved out of a fort in December 1860, that fort was Moultrie; the fort they moved into is Sumter.",
+    "line": "Real answer line: Fort <b><u>Sumter</u></b> (accept Battle of Fort <u>Sumter</u>; prompt on <u>Charleston</u> Harbor)"
+  }
+}

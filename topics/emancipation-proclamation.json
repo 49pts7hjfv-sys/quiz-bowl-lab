@@ -1,0 +1,422 @@
+{
+  "id": "emancipation-proclamation",
+  "name": "Emancipation Proclamation",
+  "mono": "EP",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Lincoln’s order freeing enslaved people · Took effect January 1, 1863",
+  "dates": "Took effect January 1, 1863",
+  "briefing": "On New Year’s Day 1863, Abraham Lincoln signed an order declaring that enslaved people in the states rebelling against the Union “are, and henceforward shall be free.” Because it applied only to areas the Confederacy controlled, freedom often arrived only when Union soldiers did. The order also let Black men join the Union Army and Navy, and nearly 200,000 served before the war ended.",
+  "answerHtml": "<b><u>Emancipation Proclamation</u></b> (prompt on <u>emancipation</u> or <u>proclamation</u>; do not accept “Thirteenth Amendment”)",
+  "accept": [
+    "emancipation proclamation",
+    "the emancipation proclamation",
+    "preliminary emancipation proclamation",
+    "final emancipation proclamation"
+  ],
+  "prompt": [
+    "emancipation",
+    "proclamation",
+    "the proclamation",
+    "emancipation order",
+    "lincolns proclamation"
+  ],
+  "reject": [
+    "thirteenth amendment",
+    "13th amendment",
+    "fourteenth amendment",
+    "14th amendment",
+    "gettysburg address",
+    "juneteenth",
+    "general order no 3",
+    "general order number 3",
+    "general order 3",
+    "confiscation act",
+    "confiscation acts",
+    "second confiscation act",
+    "emancipation manifesto",
+    "emancipation edict",
+    "emancipation reform",
+    "emancipation of the serfs",
+    "emancipation act",
+    "slavery abolition act",
+    "compensated emancipation act",
+    "proclamation of 1763",
+    "proclamation of neutrality",
+    "neutrality proclamation",
+    "proclamation of amnesty and reconstruction",
+    "ten percent plan",
+    "wade davis bill",
+    "declaration of independence",
+    "freedmens bureau",
+    "civil rights act of 1866"
+  ],
+  "tests": {
+    "right": [
+      "Emancipation Proclamation",
+      "the Emancipation Proclamation",
+      "Emancipation Proclomation",
+      "Preliminary Emancipation Proclamation"
+    ],
+    "prompt": [
+      "Emancipation",
+      "Proclamation"
+    ],
+    "wrong": [
+      "Thirteenth Amendment",
+      "13th Amendment",
+      "Gettysburg Address",
+      "Juneteenth",
+      "Emancipation Manifesto",
+      "Confiscation Act"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Emancipation_Proclamation",
+  "qb": {
+    "q": "Emancipation Proclamation",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "On July 22, 1862, the President read a draft of this document to his cabinet, and Secretary of State William Seward advised waiting to issue it until the Union won a major victory. That victory came two months later in Maryland.",
+      "r": "Five days after the Battle of Antietam, Abraham Lincoln announced this order. For 10 points, name this document that took effect on January 1, 1863."
+    },
+    {
+      "p": "A month before announcing this order, its author replied to Horace Greeley’s editorial “The Prayer of Twenty Millions” by writing, “If I could save the Union without freeing any slave I would do it.” He had already drafted this order by then.",
+      "r": "For 10 points, name this order by Abraham Lincoln that declared enslaved people in the rebelling states to be free."
+    },
+    {
+      "p": "Francis Bicknell Carpenter spent six months at the White House painting the President and his cabinet at the first reading of this document. That 1864 painting hangs in the U.S. Capitol, and Carpenter later wrote a book about his stay.",
+      "r": "For 10 points, name this order, issued by Abraham Lincoln, that took effect on January 1, 1863."
+    },
+    {
+      "p": "On December 31, 1862, many Black churches held “Watch Night” services, staying up past midnight in prayer and celebration. In Boston, Frederick Douglass waited with a crowd at Tremont Temple for word from Washington.",
+      "r": "They were waiting for this order to take effect. For 10 points, name this order by Abraham Lincoln that freed enslaved people in the rebelling states."
+    },
+    {
+      "p": "In 1861 and 1862, the President overruled generals John C. Frémont [“FREE-mont”] and David Hunter, who had each declared enslaved people free in areas under their command. He later issued his own order as a war measure, using his powers as commander in chief.",
+      "r": "For 10 points, name this order that Abraham Lincoln issued after the Battle of Antietam."
+    },
+    {
+      "p": "In April 1862, Congress freed enslaved people in Washington, D.C., and paid their owners, months before the President issued this broader order. That summer, the Second Confiscation Act declared free any enslaved people of rebel owners who escaped to Union lines.",
+      "r": "For 10 points, name this order, announced in September 1862, that took effect on January 1, 1863."
+    },
+    {
+      "p": "After shaking hands for hours at a White House reception, the President worried that his tired hand would make his signature on this document look shaky. As he signed, he reportedly said, “If my name ever goes into history it will be for this act.”",
+      "r": "It applied only to areas in rebellion. For 10 points, name this order that Abraham Lincoln signed on January 1, 1863."
+    },
+    {
+      "p": "The original of this document, five pages long, is kept at the National Archives in Washington, D.C. Because light can damage it, it is shown to the public for only a few days each year.",
+      "r": "For 10 points, name this 1863 order by Abraham Lincoln that freed enslaved people in Confederate-held areas."
+    },
+    {
+      "p": "This order exempted Tennessee, the 48 counties that became West Virginia, and Union-held parts of Louisiana and Virginia, including New Orleans and Norfolk. Its preliminary version had given the rebelling states about 100 days to rejoin the Union.",
+      "r": "It also did not apply in the border states. For 10 points, name this 1863 order by Abraham Lincoln."
+    },
+    {
+      "p": "This order ends by calling itself “an act of justice, warranted by the Constitution, upon military necessity,” and asks for “the considerate judgment of mankind, and the gracious favor of Almighty God.”",
+      "r": "Abraham Lincoln issued it as a war measure. For 10 points, name this order that took effect on January 1, 1863."
+    },
+    {
+      "p": "After this order took effect, Frederick Douglass published the call “Men of Color, To Arms!” and helped recruit soldiers for the 54th Massachusetts, in which two of his sons served.",
+      "r": "This order let Black men join the Union Army and Navy. For 10 points, name this order issued by Abraham Lincoln."
+    },
+    {
+      "p": "On June 19, 1865, Union general Gordon Granger arrived in Galveston, Texas, and issued General Order No. 3, announcing that all enslaved people in Texas were free under this earlier order. That day is remembered as Juneteenth.",
+      "r": "Juneteenth became a federal holiday in 2021. For 10 points, name this order by Abraham Lincoln that took effect on January 1, 1863."
+    },
+    {
+      "p": "Cotton workers in Manchester, England, sent the President a letter praising this order even though a cotton shortage caused by the war had left many of them out of work. He wrote back to thank them.",
+      "r": "This order made Britain and France less likely to back the Confederacy. For 10 points, name this order announced after the Battle of Antietam."
+    },
+    {
+      "p": "The preliminary version of this order warned that enslaved people in any state still rebelling on a set date “shall be then, thenceforward, and forever free.” It also repeated the President’s offer of money to loyal states that chose to end slavery themselves.",
+      "r": "That version came five days after the Battle of Antietam. For 10 points, name this order by Abraham Lincoln."
+    },
+    {
+      "p": "The final version of this order declared that enslaved people in the listed areas “are, and henceforward shall be free,” and that freed men would be received into the armed service of the United States to garrison forts and to man ships.",
+      "r": "Nearly 200,000 Black men served in the Union Army and Navy by the war’s end. For 10 points, name this order signed by Abraham Lincoln on January 1, 1863."
+    }
+  ],
+  "clues": [
+    {
+      "id": "lincoln-order",
+      "tier": "giveaway",
+      "t": "Abraham Lincoln’s order declaring enslaved people in the rebelling Confederate states free",
+      "k": [
+        "abraham lincoln",
+        "lincoln",
+        "rebelling",
+        "free"
+      ],
+      "n": 0,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "jan-1-1863",
+      "tier": "giveaway",
+      "t": "Took effect on January 1, 1863",
+      "k": [
+        "january 1, 1863",
+        "january 1",
+        "1863"
+      ],
+      "n": 0
+    },
+    {
+      "id": "antietam",
+      "tier": "giveaway",
+      "t": "Announced in preliminary form on September 22, 1862, five days after the Battle of Antietam",
+      "k": [
+        "antietam",
+        "september 22",
+        "preliminary"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Antietam"
+    },
+    {
+      "id": "confederate-only",
+      "tier": "giveaway",
+      "t": "Applied only to areas in rebellion, not to the loyal border states such as Kentucky and Maryland",
+      "k": [
+        "border states",
+        "rebellion",
+        "kentucky",
+        "maryland"
+      ],
+      "n": 0
+    },
+    {
+      "id": "war-measure",
+      "tier": "middle",
+      "t": "Issued as a “war measure” under Lincoln’s power as commander in chief",
+      "k": [
+        "war measure",
+        "commander in chief"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-soldiers",
+      "tier": "middle",
+      "t": "Let Black men join the Union Army and Navy; nearly 200,000 served by the war’s end",
+      "k": [
+        "black men",
+        "army and navy",
+        "200,000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thirteenth",
+      "tier": "middle",
+      "t": "Did not end slavery everywhere; the 13th Amendment (ratified December 1865) did",
+      "k": [
+        "13th amendment",
+        "thirteenth",
+        "december 1865"
+      ],
+      "n": 0
+    },
+    {
+      "id": "juneteenth",
+      "tier": "middle",
+      "t": "Juneteenth: on June 19, 1865, General Gordon Granger announced in Galveston that all enslaved people in Texas were free",
+      "k": [
+        "juneteenth",
+        "gordon granger",
+        "galveston",
+        "june 19"
+      ],
+      "n": 0
+    },
+    {
+      "id": "britain-france",
+      "tier": "middle",
+      "t": "Made the war a fight against slavery, so Britain and France were less likely to back the Confederacy",
+      "k": [
+        "britain",
+        "france",
+        "against slavery"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seward",
+      "tier": "middle",
+      "t": "Secretary of State William Seward advised waiting for a Union victory before announcing it",
+      "k": [
+        "william seward",
+        "seward",
+        "victory"
+      ],
+      "n": 0
+    },
+    {
+      "id": "july-22",
+      "tier": "power",
+      "t": "Lincoln first read a draft to his cabinet on July 22, 1862",
+      "k": [
+        "july 22",
+        "cabinet",
+        "draft"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greeley",
+      "tier": "power",
+      "t": "Lincoln answered Horace Greeley’s “The Prayer of Twenty Millions”: “If I could save the Union without freeing any slave I would do it”",
+      "k": [
+        "horace greeley",
+        "greeley",
+        "prayer of twenty millions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carpenter",
+      "tier": "power",
+      "t": "Francis Bicknell Carpenter’s 1864 painting of the first reading hangs in the U.S. Capitol",
+      "k": [
+        "carpenter",
+        "painting",
+        "capitol"
+      ],
+      "n": 0
+    },
+    {
+      "id": "watch-night",
+      "tier": "power",
+      "t": "Black churches held “Watch Night” services on December 31, 1862; Frederick Douglass waited at Boston’s Tremont Temple",
+      "k": [
+        "watch night",
+        "tremont temple",
+        "december 31"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fremont-hunter",
+      "tier": "power",
+      "t": "Lincoln had overruled freedom orders by generals John C. Frémont (1861) and David Hunter (1862)",
+      "k": [
+        "frémont",
+        "david hunter",
+        "hunter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dc-confiscation",
+      "tier": "power",
+      "t": "Came after Congress freed enslaved people in Washington, D.C. (April 1862) and passed the Second Confiscation Act (July 1862)",
+      "k": [
+        "confiscation act",
+        "washington, d.c.",
+        "april 1862"
+      ],
+      "n": 0
+    },
+    {
+      "id": "history-quote",
+      "tier": "power",
+      "t": "As Lincoln signed it, he reportedly said, “If my name ever goes into history it will be for this act”",
+      "k": [
+        "goes into history",
+        "signed",
+        "history"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archives",
+      "tier": "power",
+      "t": "The five-page original is kept at the National Archives and shown only a few days a year",
+      "k": [
+        "national archives",
+        "five-page"
+      ],
+      "n": 0
+    },
+    {
+      "id": "considerate",
+      "tier": "power",
+      "t": "Ends: “I invoke the considerate judgment of mankind, and the gracious favor of Almighty God”",
+      "k": [
+        "considerate judgment",
+        "almighty god"
+      ],
+      "n": 0
+    },
+    {
+      "id": "henceforward",
+      "tier": "power",
+      "t": "Declared enslaved people in the listed areas “are, and henceforward shall be free”; the preliminary said “thenceforward, and forever free”",
+      "k": [
+        "henceforward",
+        "thenceforward",
+        "forever free"
+      ],
+      "n": 0
+    },
+    {
+      "id": "exemptions",
+      "tier": "power",
+      "t": "Exempted Tennessee, the counties that became West Virginia, and Union-held parts of Louisiana and Virginia",
+      "k": [
+        "tennessee",
+        "west virginia",
+        "exempted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hundred-days",
+      "tier": "power",
+      "t": "The preliminary version gave the rebelling states about 100 days to rejoin the Union",
+      "k": [
+        "100 days",
+        "rejoin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "manchester",
+      "tier": "power",
+      "t": "Lincoln thanked the cotton workers of Manchester, England, who supported it even though the cotton shortage cost many their jobs",
+      "k": [
+        "manchester",
+        "cotton workers",
+        "cotton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "douglass",
+      "tier": "power",
+      "t": "Frederick Douglass urged “Men of Color, To Arms!” and recruited for the 54th Massachusetts, where two of his sons served",
+      "k": [
+        "men of color",
+        "54th massachusetts",
+        "frederick douglass"
+      ],
+      "n": 0,
+      "rabbit": "Frederick Douglass"
+    }
+  ],
+  "trap": {
+    "title": "Proclamation or amendment?",
+    "body": "The Emancipation Proclamation (1863) was a wartime order by Lincoln that freed enslaved people only in areas still in rebellion. The Thirteenth Amendment (ratified 1865) abolished slavery everywhere in the United States, so naming one for the other loses the tossup. Juneteenth, the Gettysburg Address, and the Confiscation Acts share clues with it too, and Russia’s 1861 Emancipation Manifesto freed serfs, not enslaved Americans.",
+    "fix": "Listen for the type of thing: “this order,” “this proclamation,” or “this document” issued by Lincoln in 1862 or 1863 means the Emancipation Proclamation; “this amendment” ratified in 1865 means the Thirteenth Amendment. A date of June 19, 1865, means Juneteenth.",
+    "line": "Real answer line: <b><u>Emancipation Proclamation</u></b> (prompt on <u>emancipation</u> or <u>proclamation</u>; do not accept “Thirteenth Amendment”)"
+  }
+}
