@@ -1,0 +1,480 @@
+{
+  "id": "manhattan-project",
+  "name": "Manhattan Project",
+  "mono": "MP",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Secret U.S. program in World War II · Built the first atomic bombs",
+  "dates": "1942–1947",
+  "briefing": "In 1942, the U.S. Army launched a top-secret program to build an atomic bomb before Nazi Germany could. General Leslie Groves ran it, J. Robert Oppenheimer directed its hidden laboratory at Los Alamos, New Mexico, and huge secret plants rose at Oak Ridge, Tennessee, and Hanford, Washington. Its first bomb was tested in the New Mexico desert on July 16, 1945, and weeks later the United States dropped atomic bombs on Hiroshima and Nagasaki, Japan.",
+  "answerHtml": "<b><u>Manhattan Project</u></b> (accept <u>Manhattan Engineer District</u>; prompt on descriptions like “building the atomic bomb”)",
+  "accept": [
+    "manhattan project",
+    "the manhattan project",
+    "manhattan engineer district",
+    "manhattan engineering district",
+    "manhattan district"
+  ],
+  "prompt": [
+    "atomic bomb",
+    "atomic bombs",
+    "atom bomb",
+    "nuclear bomb",
+    "nuclear bombs",
+    "nuclear weapon",
+    "nuclear weapons",
+    "a bomb",
+    "building the atomic bomb",
+    "making the atomic bomb",
+    "development of the atomic bomb",
+    "manhattan"
+  ],
+  "reject": [
+    "trinity",
+    "trinity test",
+    "los alamos",
+    "los alamos laboratory",
+    "oak ridge",
+    "hanford",
+    "hanford site",
+    "enola gay",
+    "little boy",
+    "fat man",
+    "hiroshima",
+    "nagasaki",
+    "j robert oppenheimer",
+    "robert oppenheimer",
+    "oppenheimer",
+    "leslie groves",
+    "groves",
+    "enrico fermi",
+    "fermi",
+    "albert einstein",
+    "einstein",
+    "leo szilard",
+    "szilard",
+    "chicago pile 1",
+    "chicago pile",
+    "tube alloys",
+    "hydrogen bomb",
+    "h bomb",
+    "atomic energy commission",
+    "apollo program",
+    "operation overlord",
+    "operation paperclip",
+    "manhattan transfer"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Manhattan_Project",
+  "qb": {
+    "q": "Manhattan Project",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Economist Alexander Sachs personally handed the president a letter in October 1939 warning that “extremely powerful bombs of a new type” might be built using uranium. Leo Szilard [“SIL-ard”] drafted that letter and Albert Einstein signed it, leading to a small Advisory Committee on Uranium that was the first step toward this program.",
+      "r": "J. Robert Oppenheimer later directed its laboratory at Los Alamos. For 10 points, name this secret World War II program that built the first atomic bombs."
+    },
+    {
+      "p": "After a test beneath the stands of Stagg Field at the University of Chicago, Arthur Compton told James Conant in a coded phone call that “the Italian navigator has landed in the New World.” That December 2, 1942, test, run by Enrico Fermi’s team in a reactor called Chicago Pile-1, achieved the first self-sustaining nuclear chain reaction.",
+      "r": "For 10 points, name this secret wartime program, led by General Leslie Groves, that built the first atomic bombs."
+    },
+    {
+      "p": "Before taking charge of this program in September 1942, Army engineer Leslie Groves had overseen construction of the Pentagon. Within days, Groves approved buying land for secret plants in Tennessee, and he later chose a Berkeley physicist who had never run a large project to lead its weapons laboratory in New Mexico.",
+      "r": "That physicist was J. Robert Oppenheimer. For 10 points, name this World War II program that built the first atomic bombs."
+    },
+    {
+      "p": "At the K-25 plant in this program’s “secret city” in Tennessee, uranium hexafluoride gas was pumped through thousands of porous barriers to separate uranium-235. Nearby, at the Y-12 plant, Ernest Lawrence’s calutrons [“KAL-yoo-trons”] did the same job with giant magnets wound with silver borrowed from the U.S. Treasury.",
+      "r": "That city was Oak Ridge. For 10 points, name this World War II project, whose uranium bomb was dropped on Hiroshima."
+    },
+    {
+      "p": "This program built the B Reactor beside the Columbia River, where workers began producing plutonium in late 1944. That remote site in Washington state was chosen partly because the river could supply huge amounts of cold water to cool the reactors.",
+      "r": "That site was Hanford. Its plutonium went into the bomb dropped on Nagasaki. For 10 points, name this secret project that built the first atomic weapons."
+    },
+    {
+      "p": "Enrico Fermi estimated the strength of a blast by dropping scraps of paper and watching how far they moved during this program’s test of a device nicknamed “the Gadget.” That July 16, 1945, explosion in the Jornada del Muerto [“hor-NAH-dah del MWAIR-toh”] desert of New Mexico melted sand into a green glass later called trinitite.",
+      "r": "That test was code-named Trinity. For 10 points, name this secret program that built the first atomic bombs."
+    },
+    {
+      "p": "After watching this program’s first test, its laboratory director remembered a line from the Hindu scripture the _Bhagavad Gita_ [“BAH-guh-vahd GEE-tah”]: “Now I am become Death, the destroyer of worlds.” That director later linked the test’s code name, Trinity, to poems by John Donne.",
+      "r": "That director, J. Robert Oppenheimer, led the lab at Los Alamos. For 10 points, name this World War II program that built the first atomic bombs."
+    },
+    {
+      "p": "Scientists in this program abandoned a simple “gun-type” design for plutonium and instead built an implosion weapon, which squeezed a plutonium core with carefully shaped explosives. Its uranium bomb, nicknamed “Little Boy,” used the simpler gun-type design and was never tested before it was used.",
+      "r": "The plutonium bomb was called “Fat Man.” For 10 points, name this program whose bombs were dropped on Hiroshima and Nagasaki in August 1945."
+    },
+    {
+      "p": "Colonel Paul Tibbets named his B-29 bomber after his mother before flying a mission from the island of Tinian. Three days later, Major Charles Sweeney’s plane, _Bockscar_, turned away from its first target, Kokura, because clouds and smoke hid the city.",
+      "r": "Those planes, including the _Enola Gay_, dropped this program’s bombs on Hiroshima and Nagasaki. For 10 points, name this secret U.S. project of World War II."
+    },
+    {
+      "p": "German-born physicist Klaus Fuchs [“FOOKS”] secretly passed details of this program’s work to the Soviet Union, and so did David Greenglass, an Army machinist at its New Mexico laboratory. Greenglass later testified against his sister and her husband, Ethel and Julius Rosenberg, who were convicted of spying and executed in 1953.",
+      "r": "For 10 points, name this World War II program that built atomic bombs at Los Alamos with materials from Oak Ridge and Hanford."
+    },
+    {
+      "p": "Mail for scientists at this program’s most secret laboratory went to a single address, P.O. Box 1663 in Santa Fe. The Army built that laboratory on a New Mexico mesa after buying out a private ranch school for boys.",
+      "r": "This program’s name came from an Army Corps of Engineers district first based in New York City. For 10 points, name this project that built the first atomic bombs."
+    },
+    {
+      "p": "Secretary of War Henry Stimson briefed a new president about this program only after Franklin Roosevelt died in April 1945, because that man had not been told about it as vice president. That July, the new president learned of this program’s successful test while he was at the Potsdam Conference.",
+      "r": "That president, Harry Truman, approved using its bombs against Japan. For 10 points, name this secret World War II program."
+    },
+    {
+      "p": "In July 1945, dozens of this program’s scientists signed a petition written by Leo Szilard [“SIL-ard”] asking the president not to use its new weapon against Japan without first giving Japan a chance to surrender. A month earlier, a report led by James Franck had suggested first showing the weapon’s power in an uninhabited area.",
+      "r": "Its first test was code-named Trinity. For 10 points, name this secret program that built the atomic bombs dropped on Hiroshima and Nagasaki."
+    },
+    {
+      "p": "The Danish physicist Niels Bohr visited this program’s main laboratory under the false name “Nicholas Baker,” and a young Richard Feynman amused himself there by cracking open his co-workers’ safes. Edward Teller spent much of his time at that laboratory working on ideas for a far more powerful weapon nicknamed “the Super.”",
+      "r": "That laboratory was at Los Alamos. For 10 points, name this World War II program whose scientists built the first atomic bombs."
+    },
+    {
+      "p": "Under the Atomic Energy Act of 1946, a civilian commission took over this program’s work on January 1, 1947. A national historical park created in 2015 connects its three main sites in New Mexico, Tennessee, and Washington state, and a 2023 film about the director of its weapons laboratory won Best Picture.",
+      "r": "That film is Christopher Nolan’s _Oppenheimer_. For 10 points, name this secret World War II program that built the first atomic bombs."
+    }
+  ],
+  "clues": [
+    {
+      "id": "atomic-bombs",
+      "tier": "giveaway",
+      "t": "Secret U.S. program in World War II (1942–1947) that built the first atomic bombs",
+      "k": [
+        "atomic bombs",
+        "atomic bomb",
+        "world war ii",
+        "secret"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oppenheimer",
+      "tier": "giveaway",
+      "t": "J. Robert Oppenheimer directed its weapons laboratory and is called the “father of the atomic bomb”",
+      "k": [
+        "oppenheimer",
+        "father of the atomic bomb",
+        "weapons laboratory"
+      ],
+      "n": 0,
+      "rabbit": "J. Robert Oppenheimer"
+    },
+    {
+      "id": "hiroshima-nagasaki",
+      "tier": "giveaway",
+      "t": "Its bombs were dropped on Hiroshima (August 6, 1945) and Nagasaki (August 9, 1945), the only nuclear weapons ever used in war",
+      "k": [
+        "hiroshima",
+        "nagasaki",
+        "august 6",
+        "august 9"
+      ],
+      "n": 0
+    },
+    {
+      "id": "los-alamos",
+      "tier": "middle",
+      "t": "Its bombs were designed at a secret laboratory at Los Alamos, New Mexico, which opened in 1943",
+      "k": [
+        "los alamos",
+        "new mexico",
+        "1943"
+      ],
+      "n": 0
+    },
+    {
+      "id": "groves",
+      "tier": "middle",
+      "t": "Army engineer General Leslie Groves ran it from September 1942; he had overseen building the Pentagon",
+      "k": [
+        "leslie groves",
+        "groves",
+        "pentagon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "einstein-letter",
+      "tier": "middle",
+      "t": "A 1939 letter drafted by Leo Szilard and signed by Albert Einstein warned Franklin Roosevelt that Germany might build a uranium bomb",
+      "k": [
+        "einstein",
+        "szilard",
+        "1939",
+        "letter"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    },
+    {
+      "id": "trinity",
+      "tier": "middle",
+      "t": "The Trinity test (July 16, 1945) in the New Mexico desert was the first nuclear explosion",
+      "k": [
+        "trinity",
+        "july 16",
+        "first nuclear explosion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chicago-pile",
+      "tier": "middle",
+      "t": "Enrico Fermi’s team built Chicago Pile-1, the first nuclear reactor, and ran the first self-sustaining chain reaction on December 2, 1942",
+      "k": [
+        "chicago pile-1",
+        "chicago pile",
+        "fermi",
+        "december 2",
+        "chain reaction"
+      ],
+      "n": 0,
+      "rabbit": "Enrico Fermi"
+    },
+    {
+      "id": "oak-ridge",
+      "tier": "middle",
+      "t": "Oak Ridge, Tennessee, a “secret city,” enriched uranium-235 at plants like K-25 and Y-12",
+      "k": [
+        "oak ridge",
+        "tennessee",
+        "uranium-235",
+        "secret city"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hanford",
+      "tier": "middle",
+      "t": "Hanford, Washington, on the Columbia River, made plutonium in reactors like the B Reactor",
+      "k": [
+        "hanford",
+        "columbia river",
+        "plutonium",
+        "b reactor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bomb-names",
+      "tier": "middle",
+      "t": "“Little Boy” (uranium, gun-type, never tested first) hit Hiroshima; “Fat Man” (plutonium, implosion) hit Nagasaki",
+      "k": [
+        "little boy",
+        "fat man",
+        "implosion",
+        "gun-type"
+      ],
+      "n": 0
+    },
+    {
+      "id": "truman",
+      "tier": "middle",
+      "t": "Harry Truman, told about it only after Franklin Roosevelt died in April 1945, approved using its bombs on Japan",
+      "k": [
+        "truman",
+        "april 1945",
+        "approved"
+      ],
+      "n": 0
+    },
+    {
+      "id": "new-york-name",
+      "tier": "middle",
+      "t": "Named for an Army Corps of Engineers district whose first offices were in New York City",
+      "k": [
+        "army corps of engineers",
+        "new york city",
+        "district"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sachs",
+      "tier": "power",
+      "t": "Economist Alexander Sachs delivered the Einstein–Szilard letter in October 1939; it led to the Advisory Committee on Uranium",
+      "k": [
+        "alexander sachs",
+        "sachs",
+        "advisory committee on uranium",
+        "october 1939"
+      ],
+      "n": 0
+    },
+    {
+      "id": "italian-navigator",
+      "tier": "power",
+      "t": "Arthur Compton’s coded message: “The Italian navigator has landed in the New World”; the reactor sat under Stagg Field’s stands",
+      "k": [
+        "italian navigator",
+        "compton",
+        "stagg field"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calutrons",
+      "tier": "power",
+      "t": "K-25 used gaseous diffusion; Y-12 used Ernest Lawrence’s calutrons, built with silver borrowed from the Treasury",
+      "k": [
+        "gaseous diffusion",
+        "calutrons",
+        "ernest lawrence",
+        "silver"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gadget",
+      "tier": "power",
+      "t": "The Trinity device was nicknamed “the Gadget”; the blast in the Jornada del Muerto made green trinitite, and Fermi measured it with paper scraps",
+      "k": [
+        "the gadget",
+        "gadget",
+        "jornada del muerto",
+        "trinitite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gita",
+      "tier": "power",
+      "t": "Oppenheimer recalled the _Bhagavad Gita_: “Now I am become Death, the destroyer of worlds”; he linked “Trinity” to John Donne’s poems",
+      "k": [
+        "bhagavad gita",
+        "destroyer of worlds",
+        "john donne",
+        "donne"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tibbets",
+      "tier": "power",
+      "t": "The B-29 _Enola Gay_, named for pilot Paul Tibbets’s mother, flew from Tinian; _Bockscar_ (Charles Sweeney) turned away from cloudy Kokura",
+      "k": [
+        "enola gay",
+        "tibbets",
+        "tinian",
+        "bockscar",
+        "kokura"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spies",
+      "tier": "power",
+      "t": "Klaus Fuchs and David Greenglass passed its secrets to the Soviet Union; Julius and Ethel Rosenberg were executed in 1953",
+      "k": [
+        "klaus fuchs",
+        "fuchs",
+        "greenglass",
+        "rosenberg",
+        "soviet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "box-1663",
+      "tier": "power",
+      "t": "Mail to the Los Alamos lab went to P.O. Box 1663 in Santa Fe; the Army had bought out a boys’ ranch school there",
+      "k": [
+        "box 1663",
+        "1663",
+        "santa fe",
+        "ranch school"
+      ],
+      "n": 0
+    },
+    {
+      "id": "potsdam",
+      "tier": "power",
+      "t": "Secretary of War Henry Stimson briefed Truman, who heard of the successful test at the Potsdam Conference (July 1945)",
+      "k": [
+        "stimson",
+        "potsdam"
+      ],
+      "n": 0
+    },
+    {
+      "id": "petition",
+      "tier": "power",
+      "t": "The Franck Report (June 1945) and Leo Szilard’s petition (July 1945) urged warning Japan or showing the bomb’s power before using it",
+      "k": [
+        "franck report",
+        "franck",
+        "szilard petition",
+        "petition"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nicholas-baker",
+      "tier": "power",
+      "t": "Niels Bohr visited Los Alamos as “Nicholas Baker”; Richard Feynman cracked safes there; Edward Teller worked on “the Super”",
+      "k": [
+        "nicholas baker",
+        "bohr",
+        "feynman",
+        "teller",
+        "the super"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aftermath",
+      "tier": "power",
+      "t": "The Atomic Energy Commission took over its work on January 1, 1947; a 2015 national historical park links its three main sites",
+      "k": [
+        "atomic energy commission",
+        "january 1, 1947",
+        "national historical park",
+        "2015"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nolan",
+      "tier": "power",
+      "t": "Christopher Nolan’s film _Oppenheimer_ (2023), about its laboratory director, won Best Picture",
+      "k": [
+        "christopher nolan",
+        "nolan",
+        "best picture"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Program, place, or person?",
+    "body": "Many clues for this answer name a place (Los Alamos, Oak Ridge, Hanford), a test (Trinity), a bomb (Little Boy or Fat Man), or a person (Oppenheimer, Groves, Fermi, Einstein). Each of those can be an answer line of its own, and Oppenheimer and Fermi are separate topics on this site. If the question asks for “this program” or “this project,” none of them is right: the answer is the whole effort.",
+    "fix": "Listen for the noun: “this program” or “this project” means the Manhattan Project; “this test” means Trinity; “this laboratory” or “this town” means Los Alamos; “this physicist” or “this general” means a person. Saying only “the atomic bomb” earns a prompt, so be ready to say “Manhattan Project.”",
+    "line": "Real answer line: <b><u>Manhattan Project</u></b> (accept <u>Manhattan Engineer District</u>; prompt on descriptions like “building the atomic bomb”)"
+  },
+  "tests": {
+    "right": [
+      "Manhattan Project",
+      "the Manhattan Project",
+      "Manhatten Project",
+      "Manhattan Engineer District",
+      "manhattan projet"
+    ],
+    "prompt": [
+      "atomic bomb",
+      "Manhattan"
+    ],
+    "wrong": [
+      "Trinity test",
+      "Los Alamos",
+      "Oppenheimer",
+      "Hiroshima",
+      "Oak Ridge",
+      "Apollo Program",
+      "Enola Gay"
+    ]
+  }
+}
