@@ -58,7 +58,12 @@
     "dark matter",
     "antimatter",
     "axion",
-    "tachyon"
+    "tachyon",
+    "field",
+    "fields",
+    "mechanism",
+    "mechanisms",
+    "peter"
   ],
   "media": [],
   "mediaPending": true,
@@ -90,8 +95,8 @@
       "r": "Particles that interact with that field gain mass. For 10 points, name this particle discovered in 2012."
     },
     {
-      "p": "In 2012, both the ATLAS and CMS teams reached the “five sigma” level of confidence needed to claim the discovery of this particle, which has a mass of about 125 billion electron volts. The discovery was announced on July 4 of that year.",
-      "r": "For 10 points, name this particle found at the Large Hadron Collider, linked to the field that gives particles mass."
+      "p": "In papers published in 2012, the ATLAS and CMS teams each reached the “five sigma” level of confidence needed to claim the discovery of this particle, which has a mass of about 125 billion electron volts.",
+      "r": "Its discovery was announced on July 4, 2012. For 10 points, name this particle found at the Large Hadron Collider, linked to the field that gives particles mass."
     },
     {
       "p": "This particle got a famous nickname from the title of Leon Lederman’s 1993 book about it, a nickname that the physicist this particle is named for reportedly disliked. Lederman had shared a Nobel Prize for discovering the muon neutrino.",
@@ -110,7 +115,7 @@
       "r": "For 10 points, name this particle discovered at CERN in 2012 and nicknamed for the title of a book by Leon Lederman."
     },
     {
-      "p": "Sheldon Glashow, Steven Weinberg, and Abdus Salam used the mass-giving idea behind this particle in their theory uniting electromagnetism and the weak force. Through electroweak symmetry breaking, the field linked to this particle gives mass to the W and Z bosons, which carry the weak force, while leaving the photon massless.",
+      "p": "Steven Weinberg and Abdus Salam built the mass-giving idea behind this particle into Sheldon Glashow’s theory uniting electromagnetism and the weak force. Through electroweak symmetry breaking, the field linked to this particle gives mass to the W and Z bosons, which carry the weak force, while leaving the photon massless.",
       "r": "For 10 points, name this particle found at the Large Hadron Collider, linked to a field that gives elementary particles mass."
     },
     {
@@ -192,7 +197,7 @@
     {
       "id": "atlas-cms",
       "tier": "middle",
-      "t": "Found by two LHC detector teams, ATLAS and CMS, which both reached “five sigma” confidence",
+      "t": "Found by two LHC detector teams, ATLAS and CMS, which each reached “five sigma” confidence in papers published in 2012",
       "k": [
         "atlas",
         "cms",
@@ -354,7 +359,7 @@
     {
       "id": "electroweak",
       "tier": "power",
-      "t": "Glashow, Weinberg, and Salam built its mass-giving idea into their electroweak theory uniting electromagnetism and the weak force",
+      "t": "Weinberg and Salam built its mass-giving idea into Glashow’s electroweak theory uniting electromagnetism and the weak force",
       "k": [
         "glashow",
         "weinberg",
@@ -422,7 +427,8 @@
       "Z boson",
       "Graviton",
       "Gluon",
-      "Photon"
+      "Photon",
+      "Higgs-Kibble mechanism"
     ]
   }
 }

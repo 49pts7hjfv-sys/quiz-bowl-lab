@@ -15,7 +15,9 @@
     "moment of force",
     "moment of a force",
     "moments of force",
-    "the moment of force"
+    "the moment of force",
+    "tork",
+    "torq"
   ],
   "prompt": [
     "moment",
@@ -97,7 +99,7 @@
       "r": "For 10 points, name this rotational effect of a force, measured in newton-meters and symbolized tau."
     },
     {
-      "p": "Alexander Calder’s hanging mobiles stay level because, at every pivot, this quantity from the pieces on one side balances this quantity from the pieces on the other side. An object is in static equilibrium only when both the net force and the net amount of this quantity on it are zero.",
+      "p": "Alexander Calder’s hanging mobiles stay balanced because, at every pivot, this quantity from the pieces on one side balances this quantity from the pieces on the other side. An object is in static equilibrium only when both the net force and the net amount of this quantity on it are zero.",
       "r": "For 10 points, name this twisting effect of a force, equal to force times lever arm."
     },
     {
@@ -250,7 +252,7 @@
     {
       "id": "engine-power",
       "tier": "middle",
-      "t": "An engine’s power equals it times how fast the engine spins (angular velocity); engines are rated in pound-feet",
+      "t": "An engine’s power equals it times how fast the engine spins (angular velocity); car specs often give it in pound-feet",
       "k": [
         "pound-feet",
         "angular velocity",
@@ -317,7 +319,7 @@
     {
       "id": "calder",
       "tier": "power",
-      "t": "Alexander Calder’s mobiles stay level because the amounts on both sides of each pivot balance",
+      "t": "Alexander Calder’s mobiles hang in balance because the amounts on both sides of each pivot are equal",
       "k": [
         "calder",
         "mobiles"
@@ -428,7 +430,8 @@
       "torque",
       "Torqe",
       "Moment of force",
-      "Net torque"
+      "Net torque",
+      "Tork"
     ],
     "prompt": [
       "Moment",
