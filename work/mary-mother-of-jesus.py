@@ -170,8 +170,8 @@ data = {
             "r": "Her husband was Joseph, a carpenter from Nazareth. For 10 points, name this woman, the mother of Jesus."
         },
         {
-            "p": "According to a second-century text called the Protoevangelium [“PROH-toh-ee-van-JEL-ee-um”] of James, this woman’s parents were named Joachim [“JOH-uh-kim”] and Anne. Under the title of her Immaculate Conception, she is honored as the patron saint of the United States, and a huge basilica in Washington, D.C., is dedicated to her.",
-            "r": "For 10 points, name this woman, the wife of Joseph and the mother of Jesus."
+            "p": "According to a second-century text called the Protoevangelium [“PROH-toh-ee-van-JEL-ee-um”] of James, this woman’s parents were named Joachim [“JOH-uh-kim”] and Anne, and she was raised in the Temple in Jerusalem. A huge basilica in Washington, D.C., honors her as the patron saint of the United States.",
+            "r": "That basilica is named for her Immaculate Conception. For 10 points, name this woman, the wife of Joseph and the mother of Jesus."
         },
         {
             "p": "In 2002, Pope John Paul II added the Luminous Mysteries to a string of prayer beads used to honor this woman, which already had Joyful, Sorrowful, and Glorious Mysteries. On that string, each group of ten beads, called a decade, is used to count prayers that begin with the angel’s greeting to her.",
