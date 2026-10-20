@@ -41,12 +41,7 @@
     "apollo eleven",
     "apollo thirteen",
     "apollo mission",
-    "an apollo mission",
-    "nasa",
-    "space race",
-    "moon landing",
-    "moon landings",
-    "the moon landing"
+    "an apollo mission"
   ],
   "reject": [
     "gemini",
@@ -86,7 +81,7 @@
   },
   "tossups": [
     {
-      "p": "NASA official Abe Silverstein named this program in 1960 after a Greek god whom he pictured riding a chariot across the sun. This program’s Moon missions were launched by the Saturn V, the tallest and most powerful rocket of its time.",
+      "p": "NASA official Abe Silverstein named this program in 1960 after a Greek god whom he pictured riding a chariot across the sun. This program’s Moon missions were launched by the Saturn V, the tallest rocket of its time.",
       "r": "For 10 points, name this NASA program that landed astronauts on the Moon between 1969 and 1972."
     },
     {
@@ -131,7 +126,7 @@
     },
     {
       "p": "John Houbolt argued that this program should use lunar orbit rendezvous, in which a small lander would leave the main spacecraft in orbit around the Moon and later rejoin it. The company Grumman built that lander.",
-      "r": "For 10 points, name this NASA program, which followed Projects Mercury and Gemini and reached the Moon in 1969."
+      "r": "For 10 points, name this NASA program, which followed Projects Mercury and Gemini and first landed astronauts on the Moon in 1969."
     },
     {
       "p": "The aircraft carrier USS _Hornet_ picked up one crew of this program after splashdown, and President Richard Nixon greeted the astronauts aboard the ship. They then spent weeks in quarantine in case they had carried germs back from the Moon.",
@@ -458,7 +453,7 @@
     "title": "Program, mission, or god?",
     "body": "Saying just “Apollo” is risky: this answer line wants the whole program, and Apollo is also a Greek god with his own answer line. Some tossups ask for a single mission instead, such as Apollo 11 (the first landing) or Apollo 13 (the explosion). The program came after Projects Mercury and Gemini, and NASA’s later Moon program is named Artemis, after Apollo’s twin sister.",
     "fix": "If the question says “this program” or “this project,” say “Apollo program.” If it says “this mission,” give the number: 8 for the first trip around the Moon, 11 for Armstrong and Aldrin, 13 for “Houston, we’ve had a problem,” and 17 for the final landing.",
-    "line": "Real answer line: <b><u>Apollo program</u></b> (or Project <b><u>Apollo</u></b>; prompt on <u>Apollo</u> alone)"
+    "line": "Real answer line: <b><u>Apollo program</u></b> (or Project <b><u>Apollo</u></b>; accept <u>Apollo missions</u>; prompt on <u>Apollo</u> alone or on a specific mission such as <u>Apollo 11</u>)"
   },
   "tests": {
     "right": [
@@ -471,10 +466,11 @@
     "prompt": [
       "Apollo",
       "Apollo 11",
-      "NASA",
-      "Space Race"
+      "Apollo 13"
     ],
     "wrong": [
+      "NASA",
+      "Space Race",
       "Gemini",
       "Project Mercury",
       "Artemis program",

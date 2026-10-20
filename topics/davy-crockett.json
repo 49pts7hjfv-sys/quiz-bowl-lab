@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Tennessee frontiersman and congressman · Died defending the Alamo",
   "dates": "1786–1836",
-  "briefing": "Davy Crockett was a real Tennessee frontiersman who became a legend while he was still alive. He scouted in the Creek War, served three terms in Congress, and broke with President Andrew Jackson by voting against the Indian Removal Act. After losing his seat, he went to Texas and died at the Alamo in 1836. A 1950s Disney TV show called him the “King of the Wild Frontier” and set off a craze for coonskin caps.",
+  "briefing": "Davy Crockett was a real Tennessee frontiersman who became a legend while he was still alive. After scouting in the Creek War and serving three terms in Congress, where he broke with President Andrew Jackson by voting against the Indian Removal Act, he lost his seat, went to Texas, and died at the Alamo in 1836. A 1950s Disney TV show called him the “King of the Wild Frontier” and set off a craze for coonskin caps.",
   "answerHtml": "David “Davy” <b><u>Crockett</u></b>",
   "accept": [
     "davy crockett",
@@ -129,7 +129,7 @@
       "r": "For 10 points, name this frontiersman, known as the “King of the Wild Frontier,” who died weeks later at the Alamo."
     },
     {
-      "p": "This man married Polly Finley in 1806, and after her death he married Elizabeth Patton, a widow. He moved his family several times, finally settling in western Tennessee, where he hunted bears.",
+      "p": "An account attributed to the Mexican officer José Enrique de la Peña [“deh lah PEN-yah”] claims that this man was captured alive at the end of a battle and then executed on Santa Anna’s orders. Historians still argue over how he died.",
       "r": "After leaving Congress, he went to Texas. For 10 points, name this frontiersman who died at the Alamo."
     },
     {
@@ -393,12 +393,14 @@
       "n": 0
     },
     {
-      "id": "marriages",
+      "id": "de-la-pena",
       "tier": "power",
-      "t": "Married Polly Finley in 1806 and later the widow Elizabeth Patton",
+      "t": "An account attributed to Mexican officer José Enrique de la Peña says he was captured and then executed after the battle",
       "k": [
-        "polly finley",
-        "elizabeth patton"
+        "de la peña",
+        "peña",
+        "captured",
+        "executed"
       ],
       "n": 0
     }

@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Thirteen colonies vs. Great Britain, 1775–1783 · Won U.S. independence",
   "dates": "Fought 1775–1783",
-  "briefing": "In April 1775, colonial militiamen traded shots with British soldiers at Lexington and Concord, and the thirteen colonies were soon at war with Great Britain, one of the world’s strongest powers. George Washington’s Continental Army lost many battles and survived a hungry winter at Valley Forge, but it won key victories at Saratoga and Yorktown with help from France. In the Treaty of Paris of 1783, Britain recognized the United States as an independent nation.",
+  "briefing": "In April 1775, colonial militiamen traded shots with British soldiers at Lexington and Concord, and the thirteen colonies were soon at war with Great Britain, one of the world’s strongest powers. George Washington’s Continental Army lost many battles and survived a hungry winter at Valley Forge, but the Americans won a key victory at Saratoga and, with help from France, trapped a British army at Yorktown. In the Treaty of Paris of 1783, Britain recognized the United States as an independent nation.",
   "answerHtml": "<b><u>American Revolution</u></b>ary War (or <b><u>Revolutionary War</u></b>; accept <u>American War of Independence</u>; prompt on <u>Revolution</u> or <u>War of Independence</u>)",
   "accept": [
     "american revolutionary war",
@@ -357,7 +357,7 @@
     {
       "id": "john-paul-jones",
       "tier": "power",
-      "t": "John Paul Jones (_Bonhomme Richard_ vs. _Serapis_, 1779): “I have not yet begun to fight!”",
+      "t": "John Paul Jones (_Bonhomme Richard_ vs. _Serapis_, 1779) is said to have shouted “I have not yet begun to fight!”",
       "k": [
         "john paul jones",
         "bonhomme richard",
@@ -439,7 +439,7 @@
     "title": "War or battle? Which war?",
     "body": "This war’s battles are separate answer lines: Lexington and Concord, Bunker Hill, Trenton, Saratoga, and Yorktown, so a question asking for “this battle” wants the battle, not the war. It is also easy to mix up with the French and Indian War (1754–1763), when George Washington fought for Britain, and the War of 1812, the second U.S. war against Britain.",
     "fix": "Listen for “this war” versus “this battle.” Clues about 1775–1783, the Continental Army, Valley Forge, Saratoga, Yorktown, and the 1783 Treaty of Paris mean this war. Fort Necessity, Braddock, and Quebec in 1759 mean the French and Indian War; impressment and the burning of Washington mean the War of 1812.",
-    "line": "Real answer line: <b><u>American Revolution</u></b>ary War (or <b><u>Revolutionary War</u></b>; accept <u>American War of Independence</u>; prompt on <u>Revolution</u>)"
+    "line": "Real answer line: <b><u>American Revolution</u></b>ary War (or <b><u>Revolutionary War</u></b>; accept <u>American War of Independence</u>; prompt on <u>Revolution</u> or <u>War of Independence</u>)"
   },
   "tests": {
     "right": [

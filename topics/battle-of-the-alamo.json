@@ -72,7 +72,7 @@
       "r": "That commander was William Barret Travis. For 10 points, name this 1836 battle in San Antonio, where Jim Bowie and Davy Crockett died."
     },
     {
-      "p": "On March 1, 1836, thirty-two men from the town of Gonzales slipped through enemy lines to join the defenders in this battle, the only help that ever arrived. The next day, while this battle’s siege went on, delegates at Washington-on-the-Brazos signed the Texas Declaration of Independence.",
+      "p": "On March 1, 1836, thirty-two men from the town of Gonzales slipped through enemy lines to join the defenders in this battle, the only help that ever arrived. The next day, while this battle’s siege went on, delegates at Washington-on-the-Brazos adopted the Texas Declaration of Independence.",
       "r": "For 10 points, name this 13-day siege that ended on March 6, 1836, with the deaths of nearly all of its Texian defenders."
     },
     {
@@ -88,7 +88,7 @@
       "r": "That commander was William Travis. For 10 points, name this 1836 battle in which Santa Anna’s army overran a fort in San Antonio."
     },
     {
-      "p": "Before the final attack in this battle, the attacking army raised a red flag and its buglers played the “Degüello” [“day-GWAY-yoh”], signals that the defenders would be shown no mercy. Soldiers carrying ladders then rushed the walls in the dark before dawn.",
+      "p": "When this battle’s siege began, the attacking army flew a red flag from a church tower, and during the final assault, its buglers played the “Degüello” [“day-GWAY-yoh”]. Both were signals that the defenders would be shown no mercy. Soldiers carrying ladders rushed the walls in the dark before dawn.",
       "r": "For 10 points, name this battle that ended on March 6, 1836, when General Antonio López de Santa Anna’s Mexican army overwhelmed the Texian defenders of a San Antonio fort."
     },
     {
@@ -100,7 +100,7 @@
       "r": "Those men were William Travis and Jim Bowie. For 10 points, name this 1836 battle where they died alongside Davy Crockett."
     },
     {
-      "p": "In the early 1900s, Clara Driscoll paid most of the cost of saving part of this battle’s site from being torn down, earning fame as its “Savior.” The Daughters of the Republic of Texas then managed that site for more than a hundred years.",
+      "p": "In the early 1900s, Clara Driscoll used her own money to help save part of this battle’s site from being torn down, earning fame as its “Savior.” The Daughters of the Republic of Texas then managed that site for more than a hundred years.",
       "r": "For 10 points, name this San Antonio landmark and 1836 battle where William Travis, Jim Bowie, and Davy Crockett died."
     },
     {
@@ -283,7 +283,7 @@
     {
       "id": "deguello",
       "tier": "power",
-      "t": "Before the final attack: a red flag and the bugle call “Degüello,” signals of no mercy; attackers rushed the walls with ladders",
+      "t": "A red flag raised when the siege began and the bugle call “Degüello” in the final assault meant no mercy; attackers rushed the walls with ladders",
       "k": [
         "degüello",
         "deguello",
@@ -416,7 +416,7 @@
     "title": "Alamo or San Jacinto?",
     "body": "The Texas Revolution had two famous battles in 1836. The Alamo (February 23–March 6, San Antonio) was a Texian defeat; San Jacinto (April 21) was the Texian victory in which Sam Houston’s army shouted “Remember the Alamo!” and captured Santa Anna. Davy Crockett and Santa Anna are separate answer lines, so naming the man instead of the battle is wrong.",
     "fix": "Travis, Bowie, Crockett, a 13-day siege, the Gonzales 32, and “Victory or Death” mean the Alamo. Sam Houston’s surprise attack, a battle of about 18 minutes, and Santa Anna’s capture mean San Jacinto. Hearing “Remember the Alamo!” as a battle cry usually means the question is about San Jacinto.",
-    "line": "Real answer line: Battle of the <b><u>Alamo</u></b> (or Siege of the <b><u>Alamo</u></b>; prompt on <u>Texas Revolution</u>)"
+    "line": "Real answer line: Battle of the <b><u>Alamo</u></b> (or Siege of the <b><u>Alamo</u></b>; prompt on <u>Texas Revolution</u> or Mission <u>San Antonio de Valero</u>)"
   },
   "tests": {
     "right": [

@@ -7,7 +7,7 @@
   "kicker": "Costly British win near Boston, 1775 · Famous for “the whites of their eyes”",
   "dates": "Fought June 17, 1775",
   "briefing": "On the night of June 16, 1775, colonial militiamen secretly dug earthworks on Breed’s Hill, overlooking Boston from the Charlestown peninsula; the battle is named for nearby Bunker Hill. The next day, British troops under General William Howe charged up the hill three times. The colonists drove back the first two attacks and retreated only when their gunpowder ran low, and the British won the hill at a cost of more than 1,000 casualties.",
-  "answerHtml": "Battle of <b><u>Bunker Hill</u></b> (or Battle of <b><u>Breed’s Hill</u></b>; prompt on Siege of <u>Boston</u>)",
+  "answerHtml": "Battle of <b><u>Bunker Hill</u></b> (or Battle of <b><u>Breed’s Hill</u></b>; prompt on <u>Siege of Boston</u> or <u>Charlestown</u>)",
   "accept": [
     "bunker hill",
     "battle of bunker hill",
@@ -407,7 +407,7 @@
     "title": "Bunker or Breed’s?",
     "body": "This battle is named for Bunker Hill, but most of the fighting happened on Breed’s Hill, a lower hill closer to Boston, so this answer line accepts either name. Players also mix it up with Lexington and Concord (April 1775, the war’s first shots) and with Dorchester Heights (March 1776), where Henry Knox’s cannons forced the British out of Boston.",
     "fix": "June 1775, Charlestown, Prescott, Howe, Joseph Warren, and “the whites of their eyes” mean this battle. Paul Revere’s ride and “the shot heard round the world” mean Lexington and Concord; cannons from Fort Ticonderoga mean Dorchester Heights.",
-    "line": "Real answer line: Battle of <b><u>Bunker Hill</u></b> (or Battle of <b><u>Breed’s Hill</u></b>)"
+    "line": "Real answer line: Battle of <b><u>Bunker Hill</u></b> (or Battle of <b><u>Breed’s Hill</u></b>; prompt on <u>Siege of Boston</u> or <u>Charlestown</u>)"
   },
   "tests": {
     "right": [

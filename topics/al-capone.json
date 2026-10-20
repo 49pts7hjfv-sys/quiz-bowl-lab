@@ -413,7 +413,7 @@
     "title": "Gangster, not G-man",
     "body": "Capone questions are packed with names that are answer lines of their own: Eliot Ness (the agent who chased him), Johnny Torrio (the boss who brought him to Chicago), and John Dillinger (a 1930s bank robber who was also called “Public Enemy Number One”). Capone’s big conviction was not for bootlegging or violence but for income tax evasion, which surprises many players.",
     "fix": "The agent who led the Untouchables is Ness; the gang boss they chased is Capone. If you hear “tax evasion,” “Alcatraz,” “Scarface,” or the Lexington Hotel, say Capone.",
-    "line": "Real answer line: Al <b><u>Capone</u></b> (or Alphonse Gabriel <b><u>Capone</u></b>; prompt on “Scarface”)"
+    "line": "Real answer line: Al <b><u>Capone</u></b> (or Alphonse Gabriel <b><u>Capone</u></b>; prompt on <u>Scarface</u>)"
   },
   "tests": {
     "right": [

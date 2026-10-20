@@ -4,7 +4,7 @@
   "mono": "WK",
   "category": "American History",
   "qbCategory": "History · American History",
-  "kicker": "Soldiers kill hundreds of Lakota, 1890 · Last major event of the Indian Wars",
+  "kicker": "Soldiers kill hundreds of Lakota, 1890 · Often called the end of the Indian Wars",
   "dates": "December 29, 1890",
   "briefing": "On December 29, 1890, soldiers of the U.S. 7th Cavalry surrounded a band of Lakota people led by Spotted Elk (also called Big Foot) at Wounded Knee Creek in South Dakota. As the soldiers were taking away the Lakota’s weapons, a shot rang out and the soldiers opened fire, killing hundreds of men, women, and children. The massacre followed government fears of the Ghost Dance and the killing of Sitting Bull two weeks earlier.",
   "answerHtml": "<b><u>Wounded Knee</u></b> Massacre (accept Battle of <u>Wounded Knee</u>; prompt on <u>Ghost Dance War</u> or <u>Pine Ridge Campaign</u>)",
@@ -20,10 +20,9 @@
   "prompt": [
     "ghost dance war",
     "the ghost dance war",
+    "ghost dance wars",
     "pine ridge campaign",
-    "the pine ridge campaign",
-    "sioux wars",
-    "the sioux wars"
+    "the pine ridge campaign"
   ],
   "reject": [
     "ghost dance",
@@ -87,7 +86,7 @@
       "r": "That leader was Sitting Bull. For 10 points, name this December 1890 massacre of Lakota people by the 7th Cavalry."
     },
     {
-      "p": "The Miniconjou [“min-ee-KON-joo”] chief Spotted Elk, also called Big Foot, was sick with pneumonia when soldiers stopped his band and led it to the camp where this event happened. His band had been traveling to Pine Ridge after Red Cloud invited him to help make peace.",
+      "p": "The Miniconjou [“min-ee-KON-joo”] chief Spotted Elk, also called Big Foot, was sick with pneumonia when soldiers stopped his band and led it to the camp where this event happened. His band had been traveling to Pine Ridge after Red Cloud and other Oglala leaders invited him to help make peace.",
       "r": "For 10 points, name this massacre of December 29, 1890, in which U.S. soldiers killed hundreds of Lakota."
     },
     {
@@ -115,11 +114,11 @@
       "r": "For 10 points, name this massacre of Lakota people by the 7th Cavalry at a creek in South Dakota in December 1890."
     },
     {
-      "p": "Each December, Lakota riders on horseback retrace the route of Spotted Elk’s band to the place where this event happened, finishing on its anniversary. In 1990, on the 100th anniversary of this event, Congress passed a resolution expressing “deep regret” for it.",
+      "p": "Lakota riders on horseback have made December memorial rides that follow the route of Spotted Elk’s band to the place where this event happened, arriving on its anniversary. In 1990, a century after this event, Congress passed a resolution expressing “deep regret” for it.",
       "r": "For 10 points, name this massacre of hundreds of Lakota people at a South Dakota creek on December 29, 1890."
     },
     {
-      "p": "In 1889, the Great Sioux Reservation was broken into smaller reservations, and cuts to food rations the next year added to the hunger and anger that came before this event. Many Lakota then turned to a new religious movement for hope.",
+      "p": "An 1889 law broke the Great Sioux Reservation into smaller reservations, and cuts to food rations added to the hunger and anger that came before this event. Many Lakota then turned to a new religious movement for hope.",
       "r": "That movement, the Ghost Dance, spread before this event. For 10 points, name this 1890 massacre in South Dakota."
     },
     {
@@ -308,7 +307,7 @@
     {
       "id": "red-cloud",
       "tier": "power",
-      "t": "Spotted Elk’s band was heading to Pine Ridge after Red Cloud invited him to help make peace",
+      "t": "Spotted Elk’s band was heading to Pine Ridge after Red Cloud and other Oglala leaders invited him to help make peace",
       "k": [
         "red cloud",
         "make peace"
@@ -371,10 +370,11 @@
     {
       "id": "remembrance",
       "tier": "power",
-      "t": "In 1990, Congress expressed “deep regret” on the 100th anniversary; Lakota riders retrace the band’s route every December",
+      "t": "In 1990, a century later, Congress expressed “deep regret”; Lakota riders have retraced the band’s route in December memorial rides",
       "k": [
         "deep regret",
-        "100th anniversary",
+        "century",
+        "memorial rides",
         "riders"
       ],
       "n": 0
@@ -382,7 +382,7 @@
     {
       "id": "reservation-split",
       "tier": "power",
-      "t": "In 1889, the Great Sioux Reservation was split into smaller reservations; cuts to food rations followed",
+      "t": "An 1889 law split the Great Sioux Reservation into smaller reservations; cuts to food rations followed",
       "k": [
         "great sioux reservation",
         "rations",
@@ -427,7 +427,7 @@
     "title": "Which massacre? Which battle?",
     "body": "Several answer lines orbit this event. The Ghost Dance was the religious movement that alarmed officials, and Sitting Bull was killed two weeks earlier. The Battle of the Little Bighorn (1876) was the 7th Cavalry’s famous defeat under Custer, and the Sand Creek Massacre (1864) was a different attack, on Cheyenne and Arapaho people in Colorado.",
     "fix": "December 1890, Spotted Elk (Big Foot), Pine Ridge, and the 1973 American Indian Movement standoff mean Wounded Knee. Custer’s Last Stand and 1876 mean the Little Bighorn; Colorado, John Chivington, and 1864 mean Sand Creek. If the question asks for “this religious movement,” say the Ghost Dance.",
-    "line": "Real answer line: <b><u>Wounded Knee</u></b> Massacre (accept Battle of <u>Wounded Knee</u>; prompt on <u>Ghost Dance War</u>)"
+    "line": "Real answer line: <b><u>Wounded Knee</u></b> Massacre (accept Battle of <u>Wounded Knee</u>; prompt on <u>Ghost Dance War</u> or <u>Pine Ridge Campaign</u>)"
   },
   "tests": {
     "right": [
@@ -449,7 +449,8 @@
       "Sitting Bull",
       "Big Foot",
       "American Indian Movement",
-      "Custer's Last Stand"
+      "Custer's Last Stand",
+      "Sioux Wars"
     ]
   }
 }

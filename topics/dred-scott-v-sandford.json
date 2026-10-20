@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "1857 Supreme Court slavery case · Struck down the Missouri Compromise",
   "dates": "Decided March 6, 1857",
-  "briefing": "Dred Scott was an enslaved man whose owner had taken him to live in places where slavery was banned, so he and his wife, Harriet, sued for their freedom. In 1857, the Supreme Court ruled 7–2 against him. Chief Justice Roger Taney wrote that Black Americans could not be citizens and that Congress could not ban slavery in the territories, so the Missouri Compromise was unconstitutional. The ruling deepened the split between North and South.",
+  "briefing": "Dred Scott was an enslaved man whose owner had taken him to live in places where slavery was banned, so he and his wife, Harriet, sued for their freedom. In 1857, the Supreme Court ruled 7–2 against him: Chief Justice Roger Taney wrote that Black Americans could not be citizens and that Congress could not ban slavery in the territories, so the Missouri Compromise was unconstitutional. The ruling deepened the split between North and South.",
   "answerHtml": "<b><u>Dred Scott</u></b> v. Sandford (accept <u>Scott v. Sandford</u> or the spelling “Sanford”; prompt on <u>Scott</u>)",
   "accept": [
     "dred scott v sandford",
@@ -85,7 +85,7 @@
   },
   "tossups": [
     {
-      "p": "About two months after this case was decided, Taylor Blow, the son of the plaintiff’s first owner, freed the plaintiff and his family. The plaintiff died of tuberculosis in St. Louis the following year.",
+      "p": "Less than three months after this case was decided, Taylor Blow, the son of the plaintiff’s first owner, freed the plaintiff and his family. The plaintiff died of tuberculosis in St. Louis the following year.",
       "r": "For 10 points, name this 1857 Supreme Court case in which Roger Taney [“TAW-nee”] ruled that Black Americans could not be citizens."
     },
     {
@@ -105,7 +105,7 @@
       "r": "For 10 points, name this 1857 case in which the Court ruled against an enslaved man who sued for his freedom."
     },
     {
-      "p": "A court clerk misspelled the name of this case’s defendant, John Sanford, the brother of army surgeon John Emerson’s widow. The plaintiff sued Sanford in federal court because Sanford lived in another state, New York.",
+      "p": "The official name of this case misspells the name of its defendant, John Sanford, the brother of army surgeon John Emerson’s widow. The plaintiff sued Sanford in federal court because Sanford lived in another state, New York.",
       "r": "For 10 points, name this 1857 case in which Chief Justice Roger Taney [“TAW-nee”] ruled against the enslaved plaintiff."
     },
     {
@@ -331,11 +331,11 @@
     {
       "id": "sanford",
       "tier": "power",
-      "t": "The defendant, John Sanford of New York, was Mrs. Emerson’s brother; a court clerk misspelled his name in the case’s official title",
+      "t": "The defendant, John Sanford of New York, was Mrs. Emerson’s brother; his name is misspelled in the case’s official title",
       "k": [
         "john sanford",
         "misspelled",
-        "clerk"
+        "official title"
       ],
       "n": 0
     },

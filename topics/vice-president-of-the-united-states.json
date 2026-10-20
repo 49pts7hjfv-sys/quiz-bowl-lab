@@ -32,8 +32,7 @@
     "the president of the senate"
   ],
   "reject": [
-    "president of the united states",
-    "president of the us",
+    "the president",
     "us president",
     "united states president",
     "potus",
@@ -447,7 +446,7 @@
     "title": "Office, not officeholder",
     "body": "Questions about this office are full of famous people who held it, such as John Adams, John Tyler, Gerald Ford, and Kamala Harris, so it is tempting to buzz with a name. Players also mix it up with the next people in the line of succession: the Speaker of the House is second, the President pro tempore of the Senate is third, and the Secretary of State is fourth. Saying just “President” is wrong.",
     "fix": "If the question says “this office” or “this position,” answer “vice president.” Presiding over the Senate and breaking ties means the vice president; leading the House means the Speaker; the President pro tempore runs the Senate when the vice president is away.",
-    "line": "Real answer line: <b><u>Vice President</u></b> of the United States (accept <u>VP</u> or <u>vice presidency</u>; do not accept “President”)"
+    "line": "Real answer line: <b><u>Vice President</u></b> of the United States (accept <u>VP</u> or <u>vice presidency</u>; prompt on <u>President of the Senate</u>; do not accept “President”)"
   },
   "tests": {
     "right": [
@@ -456,13 +455,15 @@
       "VP",
       "Vice Presidency",
       "the Vice President of the United States",
-      "Vice Presidnet"
+      "Vice Presidnet",
+      "Vise President of the United States"
     ],
     "prompt": [
       "President of the Senate"
     ],
     "wrong": [
       "President",
+      "the President",
       "President of the United States",
       "Speaker of the House",
       "Secretary of State",

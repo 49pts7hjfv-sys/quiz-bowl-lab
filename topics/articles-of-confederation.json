@@ -5,9 +5,9 @@
   "category": "American History",
   "qbCategory": "History · American History",
   "kicker": "First U.S. plan of government, 1781–1789 · Replaced by the Constitution",
-  "dates": "Drafted 1777; in effect 1781–1789",
-  "briefing": "Before the Constitution, the United States ran on the Articles of Confederation, drafted in 1777 and finally approved by all thirteen states in 1781. Each state kept most of its power and had one vote in a weak Congress that could not collect taxes, regulate trade, or enforce its own laws. After indebted farmers in Massachusetts rose up in Shays’ Rebellion, leaders met in Philadelphia in 1787 to fix the Articles and ended up replacing them with the Constitution.",
-  "answerHtml": "<b><u>Articles of Confederation</u></b> (accept <u>Articles of Confederation and Perpetual Union</u>; prompt on <u>Articles</u>; do not accept “Constitution”)",
+  "dates": "Adopted 1777; in effect 1781–1789",
+  "briefing": "Before the Constitution, the United States ran on the Articles of Confederation, approved by Congress in 1777 and finally ratified by all thirteen states in 1781. Each state kept most of its power and had one vote in a weak Congress that could not collect taxes, regulate trade, or enforce its own laws. After indebted farmers in Massachusetts rose up in Shays’ Rebellion, leaders met in Philadelphia in 1787 to fix the Articles and ended up replacing them with the Constitution.",
+  "answerHtml": "<b><u>Articles of Confederation</u></b> (accept <u>Articles of Confederation and Perpetual Union</u>; prompt on <u>Articles</u> or <u>Confederation</u>; do not accept “Constitution”)",
   "accept": [
     "articles of confederation",
     "the articles of confederation",
@@ -119,7 +119,7 @@
       "r": "For 10 points, name this document whose weak central government struggled to pay its own army, the first constitution of the United States."
     },
     {
-      "p": "In an 1888 book, the historian John Fiske called the years when this document was in force “the critical period” of American history. During those years, several states printed their own money and taxed goods from other states.",
+      "p": "In an 1888 book, the historian John Fiske called the years from 1783 to 1789, while this document was in force, “the critical period” of American history. During those years, several states printed their own money and taxed goods from other states.",
       "r": "For 10 points, name this first U.S. constitution, which was replaced after the Constitutional Convention of 1787."
     },
     {
@@ -145,7 +145,7 @@
     {
       "id": "dates",
       "tier": "giveaway",
-      "t": "Drafted in 1777, in effect from 1781, and replaced by the U.S. Constitution in 1789",
+      "t": "Adopted by Congress in 1777, in effect from 1781, and replaced by the U.S. Constitution in 1789",
       "k": [
         "1777",
         "1781",
@@ -253,7 +253,7 @@
     {
       "id": "springfield",
       "tier": "power",
-      "t": "Daniel Shays’s farmers tried to seize the Springfield arsenal; Benjamin Lincoln’s militia, paid for by Boston merchants, stopped them (1787)",
+      "t": "Daniel Shays’s farmers tried to seize the Springfield arsenal (1787); Benjamin Lincoln’s militia, paid for by Boston merchants, broke up the rebellion",
       "k": [
         "springfield",
         "daniel shays",
@@ -391,7 +391,7 @@
     "title": "First constitution, not the second",
     "body": "Questions about this document often mention the Constitution, the Constitutional Convention, the Northwest Ordinance, or Shays’ Rebellion, which are all separate answer lines. The Articles were the first plan of government (1781–1789); the U.S. Constitution replaced them in 1789. Don’t confuse the Confederation (the United States of the 1780s) with the Confederacy, the Southern states of the Civil War.",
     "fix": "Listen for weakness clues: one vote per state, no power to tax, no executive branch, and changes that needed all thirteen states. Those mean the Articles of Confederation. Say the full name, because “Articles” alone only earns a prompt.",
-    "line": "Real answer line: <b><u>Articles of Confederation</u></b> (or <u>Articles of Confederation and Perpetual Union</u>; prompt on <u>Articles</u>)"
+    "line": "Real answer line: <b><u>Articles of Confederation</u></b> (accept <u>Articles of Confederation and Perpetual Union</u>; prompt on <u>Articles</u> or <u>Confederation</u>; do not accept “Constitution”)"
   },
   "tests": {
     "right": [
