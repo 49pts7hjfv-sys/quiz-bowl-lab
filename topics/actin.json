@@ -1,0 +1,420 @@
+{
+  "id": "actin",
+  "name": "Actin",
+  "mono": "ACN",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Protein of thin filaments and microfilaments · Myosin pulls on it",
+  "dates": "Discovered 1942",
+  "briefing": "Actin is a protein that links up into thin, twisted filaments, the finest fibers of a cell’s internal skeleton. In your muscles, motor proteins called myosin grab these filaments and pull, sliding them past one another so each muscle fiber shortens. Outside muscle, actin filaments help white blood cells crawl, hold up the tiny fingerlike microvilli in your intestines, and pinch dividing animal cells in two.",
+  "answerHtml": "<b><u>Actin</u></b> (accept <u>F-actin</u> or <u>G-actin</u>; prompt on <u>microfilaments</u> or <u>thin filaments</u>; do not accept “myosin”)",
+  "accept": [
+    "actin",
+    "actins",
+    "f actin",
+    "g actin",
+    "actin filament",
+    "actin filaments",
+    "filamentous actin",
+    "globular actin"
+  ],
+  "prompt": [
+    "microfilaments",
+    "microfilament",
+    "thin filaments",
+    "thin filament",
+    "actomyosin"
+  ],
+  "reject": [
+    "myosin",
+    "myosins",
+    "myosin ii",
+    "tropomyosin",
+    "troponin",
+    "titin",
+    "nebulin",
+    "tubulin",
+    "microtubules",
+    "microtubule",
+    "intermediate filaments",
+    "intermediate filament",
+    "thick filaments",
+    "thick filament",
+    "keratin",
+    "collagen",
+    "elastin",
+    "fibrin",
+    "dystrophin",
+    "spectrin",
+    "kinesin",
+    "dynein",
+    "actinium",
+    "muscles",
+    "muscle",
+    "muscle fibers",
+    "sarcomere",
+    "sarcomeres",
+    "myofibrils",
+    "myofibril",
+    "cytoskeleton"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Actin",
+  "qb": {
+    "q": "actin",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Brunó Straub isolated this protein in 1942 in the Hungarian lab of Albert Szent-Györgyi [“SENT-JUR-jee”], which showed that threads of muscle proteins shrink when ATP is added. Single globular units of this protein link up into long, twisted filaments.",
+      "r": "Myosin pulls on this protein to make muscles contract. For 10 points, name this protein that forms microfilaments and the thin filaments of muscle."
+    },
+    {
+      "p": "In 1954, Andrew Huxley and Rolf Niedergerke [“NEE-der-gair-kuh”], and separately Hugh Huxley and Jean Hanson, proposed that filaments of this protein slide past thicker filaments as a muscle contracts. In each sarcomere, filaments of this protein are anchored at the Z-discs.",
+      "r": "Their idea is called the sliding filament theory. For 10 points, name this protein of the thin filaments, which myosin pulls during muscle contraction."
+    },
+    {
+      "p": "Phalloidin [“fuh-LOY-din”], a poison from the death cap mushroom, binds tightly to filaments of this protein and keeps them from coming apart, so glowing versions of phalloidin are used to stain those filaments for microscopes. Drugs called cytochalasins [“sy-toh-kuh-LAY-sinz”] instead block those filaments from growing.",
+      "r": "For 10 points, name this protein that forms microfilaments and is pulled by myosin in muscle cells."
+    },
+    {
+      "p": "A group of proteins called the Arp2/3 complex makes new filaments of this protein sprout as side branches from old ones. _Listeria_ bacteria hijack this protein inside host cells, building “comet tails” of it that push the bacteria through the cytoplasm and into neighboring cells.",
+      "r": "Its filaments are the thinnest fibers of the cytoskeleton. For 10 points, name this protein that myosin pulls on in muscles."
+    },
+    {
+      "p": "In a resting muscle, the long protein tropomyosin [“troh-poh-MY-uh-sin”] lies along filaments of this protein and blocks the spots where myosin heads would attach. When calcium binds to troponin [“TROH-poh-nin”], tropomyosin shifts aside, letting the myosin heads grab this protein and pull.",
+      "r": "It also forms microfilaments in other cells. For 10 points, name this protein that makes up the thin filaments of a muscle fiber."
+    },
+    {
+      "p": "Near the end of cell division in an animal cell, a contractile ring made of this protein and myosin tightens around the middle of the cell, forming a cleavage furrow that pinches the cell in two. Plant cells instead build a cell plate down the middle.",
+      "r": "That pinching process is called cytokinesis. For 10 points, name this protein that forms microfilaments and, in muscle, thin filaments."
+    },
+    {
+      "p": "When a myosin head binds a fresh molecule of ATP, it lets go of this protein, so after death, when ATP runs out, myosin stays locked onto this protein and causes the stiffness called rigor mortis. Splitting ATP re-cocks each myosin head for its next power stroke.",
+      "r": "It also forms the microfilaments of the cytoskeleton. For 10 points, name this protein that makes up the thin filaments in muscle."
+    },
+    {
+      "p": "In red blood cells, short filaments of this protein join a mesh of spectrin just under the membrane, and in many other cells, a network of this protein called the cortex supports the membrane. Bundles of this protein hold up microvilli, the fingerlike projections on cells lining the small intestine.",
+      "r": "In muscle, myosin pulls on it. For 10 points, name this protein that forms microfilaments, the thinnest fibers of the cytoskeleton."
+    },
+    {
+      "p": "In the giant cells of _Chara_ algae, myosin motors moving along cables of this protein stir the cytoplasm around and around, a process called cytoplasmic streaming. Amoebas crawl by building filaments of this protein that push out bulges called pseudopods [“SOO-doh-podz”].",
+      "r": "It forms the microfilaments of the cytoskeleton. For 10 points, name this protein that myosin pulls on in muscle cells."
+    },
+    {
+      "p": "Units of this protein carrying ATP add on faster at the barbed, or plus, end of its filaments than at the pointed, or minus, end, so a filament can grow at one end while shrinking at the other in a process called treadmilling.",
+      "r": "Myosin pulls on it in muscle cells. For 10 points, name this protein that forms microfilaments and the thin filaments of muscle."
+    },
+    {
+      "p": "Dystrophin [“dis-TROH-fin”], the protein that is missing in Duchenne muscular dystrophy, links filaments of this protein inside muscle fibers to the cell membrane. In smooth muscle, filaments of this protein are anchored to structures called dense bodies instead of to Z-discs.",
+      "r": "It also builds microfilaments. For 10 points, name this protein whose thin filaments slide past myosin when a muscle contracts."
+    },
+    {
+      "p": "Stiff bundles of this protein support the stereocilia [“steer-ee-oh-SIL-ee-uh”] on hair cells of the inner ear. Filaments of this protein look like two strands of beads twisted around each other, and at about 7 nanometers wide, they are thinner than both microtubules and intermediate filaments.",
+      "r": "For 10 points, name this protein that forms microfilaments and works with myosin in muscle contraction."
+    },
+    {
+      "p": "Under a microscope, the light I bands of skeletal muscle contain only filaments of this protein. When a muscle contracts, those I bands and the central H zone shrink, but the dark A bands, whose length is set by the thick filaments, stay the same.",
+      "r": "For 10 points, name this protein that myosin heads grab and pull to shorten a sarcomere."
+    },
+    {
+      "p": "Each globular unit of this protein holds a molecule of ATP or ADP, and many units link into a long, twisted filament in a process called polymerization. This protein is one of the most abundant proteins in many eukaryotic cells.",
+      "r": "For 10 points, name this protein that builds microfilaments and is the partner of myosin in muscles."
+    },
+    {
+      "p": "Sheetlike lamellipodia [“lam-uh-lih-POH-dee-uh”] and thin, fingerlike filopodia [“fy-loh-POH-dee-uh”] at the edge of a moving cell are pushed outward as filaments of this protein grow. The growth cones at the tips of developing nerve cells use those same structures to find their way.",
+      "r": "White blood cells crawl this way too. For 10 points, name this protein that forms microfilaments and slides past myosin in muscle."
+    }
+  ],
+  "clues": [
+    {
+      "id": "thin-filaments",
+      "tier": "giveaway",
+      "t": "Makes up the thin filaments that myosin grabs and pulls to make muscles contract",
+      "k": [
+        "thin filaments",
+        "myosin",
+        "contract"
+      ],
+      "n": 0
+    },
+    {
+      "id": "microfilaments",
+      "tier": "giveaway",
+      "t": "Forms microfilaments, the thinnest fibers of the cytoskeleton",
+      "k": [
+        "microfilaments",
+        "cytoskeleton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abundant-protein",
+      "tier": "giveaway",
+      "t": "A protein found in nearly all eukaryotic cells, and one of the most abundant proteins in many of them",
+      "k": [
+        "eukaryotic",
+        "abundant"
+      ],
+      "n": 0,
+      "rabbit": "Proteins"
+    },
+    {
+      "id": "sliding-filament",
+      "tier": "giveaway",
+      "t": "In the sliding filament theory, its filaments slide past thicker myosin filaments, shortening each sarcomere",
+      "k": [
+        "sliding filament",
+        "sarcomere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "globular-units",
+      "tier": "giveaway",
+      "t": "Single globular units (the “G” form), each holding ATP or ADP, link up into long, twisted filaments (the “F” form)",
+      "k": [
+        "globular",
+        "twisted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tropomyosin-troponin",
+      "tier": "middle",
+      "t": "In resting muscle, tropomyosin blocks myosin’s binding spots on it; calcium binding to troponin moves tropomyosin aside",
+      "k": [
+        "tropomyosin",
+        "troponin",
+        "calcium"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rigor-mortis",
+      "tier": "middle",
+      "t": "Myosin heads use ATP to grab it, pull (the power stroke), and let go; without ATP they stay stuck, causing rigor mortis",
+      "k": [
+        "power stroke",
+        "rigor mortis"
+      ],
+      "n": 0,
+      "rabbit": "ATP"
+    },
+    {
+      "id": "z-discs",
+      "tier": "middle",
+      "t": "Its filaments are anchored at the Z-discs of each sarcomere, and the light I bands hold only these thin filaments",
+      "k": [
+        "z-discs",
+        "i bands"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cytokinesis",
+      "tier": "middle",
+      "t": "A contractile ring of it and myosin pinches an animal cell in two during cytokinesis, forming a cleavage furrow",
+      "k": [
+        "contractile ring",
+        "cleavage furrow",
+        "cytokinesis"
+      ],
+      "n": 0,
+      "rabbit": "Mitosis"
+    },
+    {
+      "id": "microvilli",
+      "tier": "middle",
+      "t": "Bundles of it hold up microvilli, the fingerlike projections on cells lining the small intestine",
+      "k": [
+        "microvilli"
+      ],
+      "n": 0,
+      "rabbit": "Small intestine"
+    },
+    {
+      "id": "pseudopods",
+      "tier": "middle",
+      "t": "Growing filaments of it push out pseudopods, letting amoebas and white blood cells crawl",
+      "k": [
+        "pseudopods",
+        "amoebas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cytoplasmic-streaming",
+      "tier": "middle",
+      "t": "Myosin motors moving along its cables drive cytoplasmic streaming in _Chara_ algae and many plant cells",
+      "k": [
+        "cytoplasmic streaming",
+        "chara"
+      ],
+      "n": 0
+    },
+    {
+      "id": "width",
+      "tier": "middle",
+      "t": "Its filaments are about 7 nanometers wide, thinner than microtubules and intermediate filaments",
+      "k": [
+        "7 nanometers",
+        "microtubules"
+      ],
+      "n": 0
+    },
+    {
+      "id": "straub",
+      "tier": "power",
+      "t": "Brunó Straub isolated it in 1942 in Albert Szent-Györgyi’s lab in Szeged, Hungary",
+      "k": [
+        "straub",
+        "szent-györgyi",
+        "szeged",
+        "1942"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huxleys",
+      "tier": "power",
+      "t": "Sliding filament theory: proposed in 1954 by Andrew Huxley and Rolf Niedergerke, and separately by Hugh Huxley and Jean Hanson",
+      "k": [
+        "huxley",
+        "hanson",
+        "niedergerke",
+        "1954"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phalloidin",
+      "tier": "power",
+      "t": "Phalloidin, a poison from the death cap mushroom, locks its filaments in place (glowing versions stain them); cytochalasins block their growth",
+      "k": [
+        "phalloidin",
+        "death cap",
+        "cytochalasins"
+      ],
+      "n": 0,
+      "rabbit": "Fungi"
+    },
+    {
+      "id": "listeria",
+      "tier": "power",
+      "t": "_Listeria_ bacteria hijack it to build “comet tails” that push them through and between host cells",
+      "k": [
+        "listeria",
+        "comet tails"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arp23",
+      "tier": "power",
+      "t": "The Arp2/3 complex makes new filaments sprout as side branches from old ones",
+      "k": [
+        "arp2/3",
+        "side branches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "treadmilling",
+      "tier": "power",
+      "t": "Units join faster at the barbed (plus) end than the pointed (minus) end, allowing treadmilling: growth at one end, loss at the other",
+      "k": [
+        "treadmilling",
+        "barbed",
+        "pointed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dystrophin",
+      "tier": "power",
+      "t": "Dystrophin, the protein missing in Duchenne muscular dystrophy, links its filaments to the muscle cell membrane",
+      "k": [
+        "dystrophin",
+        "duchenne"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dense-bodies",
+      "tier": "power",
+      "t": "In smooth muscle, its filaments attach to dense bodies instead of Z-discs",
+      "k": [
+        "dense bodies",
+        "smooth muscle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spectrin-cortex",
+      "tier": "power",
+      "t": "Just under the membrane it forms the cell cortex; in red blood cells it joins a mesh of spectrin",
+      "k": [
+        "cortex",
+        "spectrin"
+      ],
+      "n": 0,
+      "rabbit": "Red blood cells"
+    },
+    {
+      "id": "stereocilia",
+      "tier": "power",
+      "t": "Stiff bundles of it support the stereocilia on hair cells in the inner ear",
+      "k": [
+        "stereocilia",
+        "inner ear"
+      ],
+      "n": 0,
+      "rabbit": "Cochlea"
+    },
+    {
+      "id": "lamellipodia",
+      "tier": "power",
+      "t": "Its growth pushes out sheetlike lamellipodia and fingerlike filopodia at the edges of moving cells and nerve growth cones",
+      "k": [
+        "lamellipodia",
+        "filopodia",
+        "growth cones"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Actin or myosin?",
+    "body": "Actin and myosin work as a team in every muscle, so their clues overlap. Myosin is the motor: its heads use ATP to grab and pull. Actin is the rope being pulled, the protein of the thin filaments, so naming myosin is wrong. Microtubules, made of tubulin, are a different part of the cytoskeleton.",
+    "fix": "“Heads,” “cross-bridges,” “thick filaments,” or a motor protein that “walks” means myosin. “Thin filaments,” “tropomyosin and troponin lie along it,” “microfilaments,” “phalloidin,” or _Listeria_ “comet tails” mean actin. Spindle fibers, cilia, and kinesin mean microtubules.",
+    "line": "Real answer line: <b><u>Actin</u></b> (accept F-actin or G-actin; prompt on <u>microfilaments</u>; do not accept “myosin”)"
+  },
+  "tests": {
+    "right": [
+      "Actin",
+      "F-actin",
+      "G-actin",
+      "actin filaments",
+      "Actine"
+    ],
+    "prompt": [
+      "Microfilaments",
+      "Thin filaments"
+    ],
+    "wrong": [
+      "Myosin",
+      "Tubulin",
+      "Tropomyosin",
+      "Troponin",
+      "Actinium",
+      "Keratin"
+    ]
+  }
+}

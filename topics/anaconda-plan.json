@@ -6,8 +6,8 @@
   "qbCategory": "History · American History",
   "kicker": "Winfield Scott’s 1861 Union strategy · Blockade the coast, seize the Mississippi",
   "dates": "Proposed 1861",
-  "briefing": "In 1861, the 74-year-old Union general Winfield Scott proposed a slow squeeze: blockade the Confederacy’s coastline and send gunboats and troops down the Mississippi River to split the South in two. Impatient Northerners wanted a quick march on Richmond instead, and critics mocked his idea by naming it after a giant snake that crushes its prey. The war took four years, and the Union ended up doing much of what Scott had planned.",
-  "answerHtml": "<b><u>Anaconda</u></b> Plan (prompt on the Union <u>blockade</u> of the South or <u>Scott’s Great Snake</u>)",
+  "briefing": "In 1861, the 74-year-old Union general Winfield Scott proposed a slow squeeze: blockade the Confederacy’s coastline and send gunboats and troops down the Mississippi River to split the South in two. Impatient Northerners wanted a quick march on Richmond instead, and critics mocked his idea by naming it after a giant snake that squeezes its prey. The war took four years, and the Union ended up doing much of what Scott had planned.",
+  "answerHtml": "<b><u>Anaconda</u></b> Plan (prompt on the Union <u>blockade</u> of the South, <u>Scott’s plan</u>, or <u>Scott’s Great Snake</u>)",
   "accept": [
     "anaconda plan",
     "anaconda",
@@ -47,8 +47,7 @@
     "king cotton",
     "cotton diplomacy",
     "monroe doctrine",
-    "containment",
-    "snakes"
+    "containment"
   ],
   "mediaPending": true,
   "media": [],
@@ -108,7 +107,7 @@
       "r": "For 10 points, name this Union strategy to blockade the Confederacy and seize the Mississippi River, named for a snake."
     },
     {
-      "p": "On March 8, 1862, the ironclad CSS _Virginia_ tried to break one part of this plan at Hampton Roads by sinking the USS _Cumberland_ and destroying the USS _Congress_. The next day, the USS _Monitor_ arrived and fought the _Virginia_ to a draw.",
+      "p": "On March 8, 1862, the ironclad CSS _Virginia_ tried to break one part of this plan at Hampton Roads by sinking the USS _Cumberland_ and destroying the USS _Congress_. The next day, the newly arrived USS _Monitor_ fought the _Virginia_ to a draw.",
       "r": "That part of this plan was the Union’s naval blockade of the South. For 10 points, name this strategy proposed by Winfield Scott."
     },
     {
@@ -437,8 +436,8 @@
   "trap": {
     "title": "Plan, river, or siege?",
     "body": "This plan’s two halves lead to other answer lines: the Mississippi River, and battles on it like the Siege of Vicksburg. If a question asks for “this river,” “this siege,” or “this war,” naming the plan is wrong, and naming the river when it asks for “this plan” or “this strategy” is wrong too. Players also mix it up with the Marshall Plan, a different “plan” answer, or with Sherman’s “total war” March to the Sea.",
-    "fix": "Listen for the noun: “this plan” or “this strategy” wants the Anaconda Plan. Winfield Scott, a blockade, a snake, or squeezing the South means the plan; Grant, John Pemberton, and a six-week siege mean Vicksburg. If you just say “the blockade,” expect a prompt, so add the plan’s name.",
-    "line": "Real answer line: <b><u>Anaconda</u></b> Plan (prompt on the Union <u>blockade</u> of the South)"
+    "fix": "Listen for the noun: “this plan” or “this strategy” wants the Anaconda Plan. Winfield Scott, a blockade, a snake, or squeezing the South means the plan; Grant, John Pemberton, and a siege of more than six weeks mean Vicksburg. If you just say “the blockade,” expect a prompt, so add the plan’s name.",
+    "line": "Real answer line: <b><u>Anaconda</u></b> Plan (prompt on the Union <u>blockade</u> of the South, <u>Scott’s plan</u>, or <u>Scott’s Great Snake</u>)"
   },
   "tests": {
     "right": [
@@ -451,7 +450,8 @@
     "prompt": [
       "blockade",
       "Union blockade",
-      "Scott's Great Snake"
+      "Scott's Great Snake",
+      "Scott's plan"
     ],
     "wrong": [
       "Mississippi River",
