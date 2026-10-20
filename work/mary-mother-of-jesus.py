@@ -139,7 +139,7 @@ data = {
         },
         {
             "p": "Three shepherd children, Lúcia [“LOO-see-ah”] dos Santos and her cousins Francisco and Jacinta Marto, said this woman appeared to them several times in 1917 near a village in Portugal. Tens of thousands of people gathered there on October 13 of that year, and many reported seeing the “Miracle of the Sun.”",
-            "r": "That village is Fátima [“FAH-tee-mah”]. For 10 points, name this mother of Jesus."
+            "r": "That village, Fátima [“FAH-tee-mah”], became one of the world’s great pilgrimage sites. For 10 points, name this mother of Jesus."
         },
         {
             "p": "At a wedding in Cana [“KAY-nuh”], this woman told her son that the hosts had run out of wine, and then told the servants, “Do whatever he tells you.” Her son then turned water in six stone jars into wine, which the Gospel of John calls the first of his signs.",
