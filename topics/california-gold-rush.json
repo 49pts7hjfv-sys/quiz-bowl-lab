@@ -96,7 +96,7 @@
       "r": "Those pants became blue jeans. For 10 points, name this event that brought thousands of miners to California after 1848."
     },
     {
-      "p": "In 2019, California’s governor formally apologized to Native Californians for the violence that came with this event, calling it a genocide. An 1850 state law let settlers force Native people, including children, into unpaid labor, and the Native population fell from an estimated 150,000 to about 30,000 by 1870.",
+      "p": "In 2019, California’s governor, Gavin Newsom, formally apologized to Native Californians for the state’s violence against them during and after this event, calling it a genocide. An 1850 state law let settlers force Native people, including children, into unpaid labor, and the Native population fell from an estimated 150,000 to about 30,000 by 1870.",
       "r": "For 10 points, name this event that began when James Marshall found gold at Sutter’s Mill in 1848."
     },
     {
@@ -112,7 +112,7 @@
       "r": "For 10 points, name this event that began when James Marshall found gold at Sutter’s Mill in 1848."
     },
     {
-      "p": "Henry Wells and William Fargo founded a company in 1852 to provide banking and to ship gold, money, and mail during this event. San Francisco grew from a village of under 1,000 people into a booming city during this event, and abandoned ships crowded its harbor.",
+      "p": "Henry Wells and William Fargo founded a company in 1852 to provide banking and to ship gold, money, and mail during this event. San Francisco grew from a village of about 1,000 people into a booming city during this event, and abandoned ships crowded its harbor.",
       "r": "That company was Wells Fargo. For 10 points, name this event that brought the “forty-niners” west after 1848."
     },
     {
@@ -120,7 +120,7 @@
       "r": "The song “Oh My Darling, Clementine” is about a “miner, forty-niner.” For 10 points, name this event that began in 1848."
     },
     {
-      "p": "A statue of one man stands over his grave at Coloma, pointing toward the spot where he made the discovery that started this event. That man’s employer, the Swiss-born John Sutter, lost his workers and most of his land to the fortune seekers who swarmed in.",
+      "p": "A statue of one man stands over his grave at Coloma, pointing toward the spot where he made the discovery that started this event. That man’s employer, the Swiss immigrant John Sutter, lost his workers and most of his land to the fortune seekers who swarmed in.",
       "r": "For 10 points, name this event, which began when James Marshall found gold at Sutter’s Mill in 1848."
     },
     {
@@ -180,7 +180,7 @@
     {
       "id": "sutter",
       "tier": "middle",
-      "t": "John Sutter, a Swiss-born settler, owned the mill; fortune seekers overran his land and he went broke",
+      "t": "John Sutter, a Swiss immigrant, owned the mill; fortune seekers overran his land and he went broke",
       "k": [
         "john sutter",
         "sutter",
@@ -240,7 +240,7 @@
     {
       "id": "native-californians",
       "tier": "middle",
-      "t": "Disease, starvation, and attacks by miners and state-backed militias cut California’s Native population from about 150,000 to about 30,000 by 1870",
+      "t": "Disease, starvation, and attacks by miners and state-backed militias cut California’s Native population from an estimated 150,000 to about 30,000 by 1870",
       "k": [
         "native",
         "150,000",
@@ -252,7 +252,7 @@
     {
       "id": "san-francisco",
       "tier": "middle",
-      "t": "San Francisco boomed from a village of under 1,000 people into a city; abandoned ships crowded its harbor",
+      "t": "San Francisco boomed from a village of about 1,000 people into a city; abandoned ships crowded its harbor",
       "k": [
         "san francisco",
         "abandoned ships",
@@ -436,7 +436,7 @@
     {
       "id": "marshall-statue",
       "tier": "power",
-      "t": "A statue of Marshall at Coloma stands over his grave, pointing toward the discovery spot; Sutter’s Fort grew into Sacramento",
+      "t": "A statue of Marshall at Coloma stands over his grave, pointing toward the discovery spot; Sacramento grew up around Sutter’s Fort",
       "k": [
         "statue",
         "grave",
