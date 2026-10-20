@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "baptism",
     "name": "Baptism",
-    "mono": "BP",
+    "mono": "BAP",
     "category": "Religion",
     "qbCategory": "Religion",
     "kicker": "Christian rite of initiation with water · Jesus was baptized in the Jordan",

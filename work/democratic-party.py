@@ -1,0 +1,380 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "democratic-party",
+    "name": "Democratic Party",
+    "mono": "DEM",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Oldest active U.S. political party · Party of Jackson, FDR, and the donkey",
+    "dates": "Formed in the late 1820s around Andrew Jackson",
+    "briefing": "The Democratic Party grew out of the supporters of Andrew Jackson in the late 1820s, which makes it one of the oldest political parties in the world that is still active. Its donkey symbol began as an insult to Jackson, and cartoonist Thomas Nast made it famous. Its presidents have ranged from Jackson and Grover Cleveland to Franklin Roosevelt, John F. Kennedy, and Barack Obama.",
+    "answerHtml": "<b><u>Democratic</u></b> Party (accept <u>Democrats</u>; do not accept “Democratic-Republican Party” or “Republican Party”)",
+    "accept": [
+        "democratic party",
+        "the democratic party",
+        "democrats",
+        "the democrats",
+        "democrat",
+        "democratic",
+        "democratic party of the united states",
+        "us democratic party"
+    ],
+    "prompt": [],
+    "reject": [
+        "democratic republican party",
+        "democratic republicans",
+        "democratic republican",
+        "democratic republic",
+        "jeffersonian republicans",
+        "republican party",
+        "republicans",
+        "republican",
+        "gop",
+        "grand old party",
+        "national republican party",
+        "national republicans",
+        "whig party",
+        "whigs",
+        "whig",
+        "federalist party",
+        "federalists",
+        "federalist",
+        "states rights democratic party",
+        "dixiecrats",
+        "dixiecrat",
+        "dixiecrat party",
+        "national democratic party",
+        "gold democrats",
+        "mississippi freedom democratic party",
+        "freedom democratic party",
+        "social democratic party",
+        "social democrats",
+        "christian democratic union",
+        "christian democrats",
+        "liberal democrats",
+        "liberal democratic party",
+        "free democratic party",
+        "democratic socialists of america",
+        "democratic socialists",
+        "democratic socialism",
+        "democracy",
+        "populist party",
+        "peoples party",
+        "progressive party",
+        "bull moose party",
+        "green party",
+        "free soil party",
+        "know nothing party",
+        "know nothings",
+        "american party",
+        "libertarian party",
+        "reform party",
+        "socialist party",
+        "constitutional union party",
+        "liberty party",
+        "anti masonic party",
+        "tammany hall",
+        "tammany"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Democratic_Party_(United_States)",
+    "qb": {
+        "q": "Democratic Party",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1835, a radical New York faction of this party got the nickname “Locofocos” after its members lit candles with friction matches when their opponents turned off the gas lights at a meeting. That faction opposed monopolies and the paper money issued by state banks.",
+            "r": "This party grew out of Andrew Jackson’s supporters. For 10 points, name this party whose symbol is a donkey."
+        },
+        {
+            "p": "From 1832 until 1936, this party required its presidential nominees to win the votes of two-thirds of its convention delegates, a rule that forced a record 103 ballots at its 1924 convention in Madison Square Garden.",
+            "r": "That convention finally chose John W. Davis. For 10 points, name this party that later nominated Franklin Roosevelt four times."
+        },
+        {
+            "p": "Antislavery members of this party in New York, nicknamed “Barnburners,” left it in 1848 to support Martin Van Buren as the Free Soil Party’s candidate for president. Their rivals within this party were called “Hunkers.”",
+            "r": "Van Buren had won the presidency in 1836 as this party’s nominee. For 10 points, name this party founded by supporters of Andrew Jackson."
+        },
+        {
+            "p": "This party created its national committee in 1848. In June 1972, burglars were arrested inside that committee’s headquarters in Washington’s Watergate office complex, beginning a scandal that led Richard Nixon to resign.",
+            "r": "For 10 points, name this political party whose symbol, the donkey, was popularized by the cartoonist Thomas Nast."
+        },
+        {
+            "p": "At its 1860 convention in Charleston, South Carolina, this party split over slavery, and its Northern and Southern wings later nominated two different candidates, Stephen Douglas and John C. Breckinridge. That split helped Abraham Lincoln win the presidency.",
+            "r": "Its first president had been Andrew Jackson. For 10 points, name this party, the main rival of Lincoln’s Republicans."
+        },
+        {
+            "p": "During the Civil War, opponents nicknamed members of this party who wanted an immediate peace with the Confederacy “Copperheads,” after a poisonous snake. In 1864, this party nominated George McClellan, a general whom Abraham Lincoln had removed from command.",
+            "r": "For 10 points, name this party that opposed Lincoln’s Republicans and whose symbol is a donkey."
+        },
+        {
+            "p": "Thomas Nast’s cartoons in _Harper’s Weekly_ helped make animals the symbols of both this party and its main rival in the 1870s. Nast also attacked William “Boss” Tweed, whose Tammany Hall political machine controlled this party in New York City.",
+            "r": "This party’s donkey symbol dates back to opponents calling Andrew Jackson a “jackass.” For 10 points, name this party."
+        },
+        {
+            "p": "Al Smith, a governor of New York who rose through the Tammany Hall political machine, became this party’s first Catholic nominee for president in 1928. He lost that election in a landslide to Herbert Hoover.",
+            "r": "Thirty-two years later, this party’s nominee, John F. Kennedy, became the first Catholic president. For 10 points, name this party."
+        },
+        {
+            "p": "In 1932, Franklin Roosevelt flew to this party’s convention in Chicago and became the first major-party nominee to accept in person, promising “a new deal for the American people.”",
+            "r": "His New Deal coalition kept this party in the White House until 1953. For 10 points, name this party."
+        },
+        {
+            "p": "In 1948, some Southern delegates walked out of this party’s convention after it adopted a civil rights plank backed by Minneapolis mayor Hubert Humphrey. Those Southerners then formed a States’ Rights party, nicknamed the “Dixiecrats,” behind Strom Thurmond.",
+            "r": "This party’s nominee, Harry Truman, won the election anyway. For 10 points, name this party."
+        },
+        {
+            "p": "At this party’s 1964 convention in Atlantic City, Fannie Lou Hamer told a televised committee hearing about the dangers Black Mississippians faced when they tried to register to vote. Her group was challenging Mississippi’s all-white delegation.",
+            "r": "That year, this party’s president, Lyndon Johnson, won a landslide victory. For 10 points, name this party."
+        },
+        {
+            "p": "After this party’s 1968 convention in Chicago, the McGovern–Fraser Commission changed its rules so that voters in primaries and caucuses, not party leaders, chose most delegates. In 1982, it added “superdelegates,” party officials free to support any candidate.",
+            "r": "For 10 points, name this party whose presidential nominees have included Jimmy Carter and Barack Obama."
+        },
+        {
+            "p": "At this party’s 1844 convention, James K. Polk became the first “dark horse” presidential nominee after former president Martin Van Buren, who opposed annexing Texas, failed to win two-thirds of the delegates.",
+            "r": "Polk then won the election. For 10 points, name this party founded by supporters of Andrew Jackson."
+        },
+        {
+            "p": "Grover Cleveland was the first member of this party elected president after the Civil War, winning in 1884 and again in 1892. Four years later, this party nominated William Jennings Bryan, who called for the free coinage of silver.",
+            "r": "For 10 points, name this party that later nominated Woodrow Wilson and Franklin Roosevelt."
+        },
+        {
+            "p": "Since about the 2000 election, television networks have colored states won by this party blue. In 1984, it nominated Geraldine Ferraro, the first woman to run for vice president on a major party’s ticket.",
+            "r": "In 2008, this party nominated Barack Obama, who became the first African American president. For 10 points, name this party whose symbol is a donkey."
+        }
+    ],
+    "clues": [
+        {
+            "id": "donkey",
+            "tier": "giveaway",
+            "t": "Its symbol is the donkey, from opponents calling Andrew Jackson a “jackass” in 1828",
+            "k": ["donkey", "jackass"],
+            "n": 0
+        },
+        {
+            "id": "jackson-founder",
+            "tier": "giveaway",
+            "t": "Formed around Andrew Jackson and Martin Van Buren in the late 1820s; often called the world’s oldest active political party",
+            "k": ["andrew jackson", "van buren", "oldest"],
+            "n": 0,
+            "rabbit": "Andrew Jackson"
+        },
+        {
+            "id": "presidents",
+            "tier": "giveaway",
+            "t": "Party of presidents Franklin Roosevelt, John F. Kennedy, Lyndon Johnson, and Barack Obama",
+            "k": ["franklin roosevelt", "kennedy", "obama"],
+            "n": 0,
+            "rabbit": "Franklin Delano Roosevelt"
+        },
+        {
+            "id": "rival",
+            "tier": "giveaway",
+            "t": "Main rival of the Republican Party since the 1850s",
+            "k": ["republican", "rival", "1850s"],
+            "n": 0,
+            "rabbit": "Republican Party"
+        },
+        {
+            "id": "jefferson-roots",
+            "tier": "middle",
+            "t": "Traces its roots to the party that Thomas Jefferson and James Madison founded in the 1790s",
+            "k": ["jefferson", "madison", "1790s"],
+            "n": 0,
+            "rabbit": "Democratic-Republican Party"
+        },
+        {
+            "id": "nast",
+            "tier": "middle",
+            "t": "Thomas Nast’s cartoons popularized its donkey (1870); he also drew the Republican elephant (1874)",
+            "k": ["thomas nast", "nast", "elephant"],
+            "n": 0
+        },
+        {
+            "id": "split-1860",
+            "tier": "middle",
+            "t": "Split in 1860: its Northern wing nominated Stephen Douglas and its Southern wing John C. Breckinridge",
+            "k": ["1860", "douglas", "breckinridge"],
+            "n": 0,
+            "rabbit": "Stephen A. Douglas"
+        },
+        {
+            "id": "copperheads",
+            "tier": "middle",
+            "t": "Civil War: members who wanted immediate peace were called “Copperheads”; nominated George McClellan in 1864",
+            "k": ["copperheads", "mcclellan", "1864"],
+            "n": 0
+        },
+        {
+            "id": "solid-south",
+            "tier": "middle",
+            "t": "After Reconstruction, the “Solid South” voted for it for decades",
+            "k": ["solid south"],
+            "n": 0
+        },
+        {
+            "id": "tammany",
+            "tier": "middle",
+            "t": "Tammany Hall, the New York City political machine of Boss Tweed, ran it in that city",
+            "k": ["tammany", "boss tweed", "tweed"],
+            "n": 0,
+            "rabbit": "Tammany Hall"
+        },
+        {
+            "id": "bryan",
+            "tier": "middle",
+            "t": "William Jennings Bryan won its 1896 nomination with the “Cross of Gold” speech",
+            "k": ["bryan", "cross of gold", "1896"],
+            "n": 0,
+            "rabbit": "William Jennings Bryan"
+        },
+        {
+            "id": "new-deal-coalition",
+            "tier": "middle",
+            "t": "FDR’s New Deal coalition: labor unions, city voters, white Southerners, and many African Americans",
+            "k": ["new deal", "coalition", "labor unions"],
+            "n": 0,
+            "rabbit": "New Deal"
+        },
+        {
+            "id": "cleveland",
+            "tier": "middle",
+            "t": "Grover Cleveland was the first of its members elected president after the Civil War (1884)",
+            "k": ["grover cleveland", "cleveland", "1884"],
+            "n": 0,
+            "rabbit": "Grover Cleveland"
+        },
+        {
+            "id": "blue",
+            "tier": "middle",
+            "t": "Shown in blue on TV election maps since about 2000",
+            "k": ["blue", "2000"],
+            "n": 0
+        },
+        {
+            "id": "locofocos",
+            "tier": "power",
+            "t": "Locofocos: a radical New York faction (1835) named for the friction matches they lit when the gas lights went out",
+            "k": ["locofocos", "locofoco", "friction matches"],
+            "n": 0
+        },
+        {
+            "id": "two-thirds",
+            "tier": "power",
+            "t": "Its two-thirds rule (1832–1936) forced a record 103 ballots at the 1924 convention, won by John W. Davis",
+            "k": ["two-thirds", "103 ballots", "1924"],
+            "n": 0
+        },
+        {
+            "id": "national-committee",
+            "tier": "power",
+            "t": "Its national committee was created in 1848; burglars broke into the committee’s Watergate headquarters in 1972",
+            "k": ["national committee", "1848", "watergate"],
+            "n": 0,
+            "rabbit": "Watergate scandal"
+        },
+        {
+            "id": "barnburners",
+            "tier": "power",
+            "t": "Barnburners (antislavery) vs. Hunkers: New York factions; the Barnburners backed Van Buren’s Free Soil run in 1848",
+            "k": ["barnburners", "hunkers", "free soil"],
+            "n": 0,
+            "rabbit": "Free Soil Party"
+        },
+        {
+            "id": "polk",
+            "tier": "power",
+            "t": "James K. Polk became the first “dark horse” nominee (1844) when Van Buren fell short of two-thirds",
+            "k": ["dark horse", "polk", "1844"],
+            "n": 0,
+            "rabbit": "James K. Polk"
+        },
+        {
+            "id": "al-smith",
+            "tier": "power",
+            "t": "Al Smith (1928) was its first Catholic presidential nominee; John F. Kennedy (1960) became the first Catholic president",
+            "k": ["al smith", "catholic", "1928"],
+            "n": 0
+        },
+        {
+            "id": "fdr-1932",
+            "tier": "power",
+            "t": "FDR flew to the 1932 convention in Chicago and was the first nominee to accept in person: “a new deal for the American people”",
+            "k": ["1932", "flew", "in person"],
+            "n": 0
+        },
+        {
+            "id": "dixiecrats",
+            "tier": "power",
+            "t": "1948: some Southern delegates walked out over Hubert Humphrey’s civil rights plank; the “Dixiecrats” ran Strom Thurmond",
+            "k": ["dixiecrats", "humphrey", "thurmond", "1948"],
+            "n": 0,
+            "rabbit": "Strom Thurmond"
+        },
+        {
+            "id": "hamer",
+            "tier": "power",
+            "t": "1964: Fannie Lou Hamer’s Mississippi Freedom delegation challenged the state’s all-white delegation in Atlantic City",
+            "k": ["fannie lou hamer", "hamer", "atlantic city", "1964"],
+            "n": 0
+        },
+        {
+            "id": "mcgovern-fraser",
+            "tier": "power",
+            "t": "After 1968, the McGovern–Fraser Commission shifted delegate choice to primaries and caucuses; “superdelegates” were added in 1982",
+            "k": ["mcgovern", "fraser", "superdelegates", "primaries"],
+            "n": 0
+        },
+        {
+            "id": "ferraro",
+            "tier": "power",
+            "t": "Geraldine Ferraro (1984) was the first woman on a major-party ticket; Hillary Clinton (2016) was the first woman nominated for president by a major party",
+            "k": ["ferraro", "1984", "hillary clinton", "2016"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Three parties, one word",
+        "body": "Thomas Jefferson and James Madison’s party of the 1790s is usually called the Democratic-Republican Party. The modern Democrats grew out of one wing of it in the 1820s, but it is a separate answer line. The modern Republican Party is a different party, founded in 1854 by opponents of the spread of slavery, so answering “Republicans” is wrong too.",
+        "fix": "Use the date. Clues from the 1790s to the 1820s (Jefferson, Madison, James Monroe, rivalry with the Federalists) want the Democratic-Republicans. Clues from Jackson onward (the donkey, Van Buren, Bryan, FDR, blue states) want the Democratic Party. Lincoln, the elephant, and 1854 want the Republicans.",
+        "line": "Real answer line: <b><u>Democratic</u></b> Party (accept <u>Democrats</u>; do not accept “Democratic-Republican Party” or “Republican Party”)"
+    },
+    "tests": {
+        "right": [
+            "Democratic Party",
+            "Democrats",
+            "the Democrats",
+            "Democratic",
+            "Democratic Pary"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Democratic-Republican Party",
+            "Republican Party",
+            "Republicans",
+            "Whig Party",
+            "Dixiecrats",
+            "Democracy",
+            "Federalist Party",
+            "Free Soil Party"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

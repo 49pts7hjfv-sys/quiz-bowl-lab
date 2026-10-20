@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Major U.S. political party · Founded in 1854 to oppose slavery’s spread",
   "dates": "Founded 1854",
-  "briefing": "In 1854, people who wanted to stop slavery from spreading west met in a schoolhouse in Ripon, Wisconsin, and under a grove of oak trees in Jackson, Michigan, to start a new political party. Just six years later, its candidate, Abraham Lincoln, won the presidency. Nicknamed the “Grand Old Party,” or GOP, it got its elephant symbol from the cartoonist Thomas Nast, and it has been one of America’s two major parties ever since.",
+  "briefing": "In 1854, people who wanted to stop slavery from spreading west met in a schoolhouse in Ripon, Wisconsin, and under a grove of oak trees in Jackson, Michigan, to start a new political party. Just six years later, its candidate, Abraham Lincoln, won the presidency. Nicknamed the “Grand Old Party,” or GOP, it is symbolized by an elephant that the cartoonist Thomas Nast made famous, and it has been one of America’s two major parties ever since.",
   "answerHtml": "<b><u>Republican</u></b> Party (accept <u>GOP</u> or <u>Grand Old Party</u>; do not accept “Democratic-Republican Party”)",
   "accept": [
     "republican party",
@@ -18,7 +18,10 @@
     "g o p",
     "the gop"
   ],
-  "prompt": [],
+  "prompt": [
+    "republic",
+    "republics"
+  ],
   "reject": [
     "democratic republican party",
     "democratic republican",
@@ -35,8 +38,6 @@
     "radical republican",
     "republican motherhood",
     "republicanism",
-    "republic",
-    "republics",
     "democratic party",
     "democrats",
     "democrat",
@@ -116,7 +117,7 @@
       "r": "McKinley beat William Jennings Bryan. For 10 points, name this party whose earlier presidents included Abraham Lincoln."
     },
     {
-      "p": "Historian Eric Foner’s book _Free Soil, Free Labor, Free Men_ studies the ideas of this party before the Civil War. This party rose as the Whig Party collapsed, drawing in former Whigs, Free Soilers, and antislavery Democrats.",
+      "p": "This party held its first presidential nominating convention in Philadelphia in 1856. It rose in the mid-1850s as the Whig Party collapsed, drawing in former Whigs, Free Soilers, and antislavery Democrats.",
       "r": "It was founded in 1854 to fight the Kansas–Nebraska Act. For 10 points, name this party of Abraham Lincoln."
     },
     {
@@ -419,13 +420,13 @@
       "n": 0
     },
     {
-      "id": "foner",
+      "id": "philadelphia-1856",
       "tier": "power",
-      "t": "Historian Eric Foner’s book _Free Soil, Free Labor, Free Men_ studies its early ideas",
+      "t": "Held its first presidential nominating convention in Philadelphia in 1856",
       "k": [
-        "foner",
-        "free labor",
-        "free men"
+        "philadelphia",
+        "nominating convention",
+        "1856"
       ],
       "n": 0
     }
@@ -444,17 +445,19 @@
       "G.O.P.",
       "Grand Old Party",
       "the Republican Party",
-      "Repubican Party"
+      "Repubican Party",
+      "Republicn"
     ],
-    "prompt": [],
+    "prompt": [
+      "Republic"
+    ],
     "wrong": [
       "Democratic-Republican Party",
       "Democratic Party",
       "Whig Party",
       "Radical Republicans",
       "Bull Moose Party",
-      "Free Soil Party",
-      "Republic"
+      "Free Soil Party"
     ]
   }
 }

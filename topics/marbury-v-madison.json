@@ -376,7 +376,7 @@
   ],
   "trap": {
     "title": "Which Marshall Court case?",
-    "body": "John Marshall’s Supreme Court decided several famous cases, and players mix them up. This case (1803) created judicial review; _McCulloch v. Maryland_ (1819) upheld the national bank and said “the power to tax involves the power to destroy”; and _Gibbons v. Ogden_ (1824) gave Congress power over steamboats crossing state lines. Some players also answer “judicial review,” which is the idea this case created, not the case itself.",
+    "body": "John Marshall’s Supreme Court decided several famous cases, and players mix them up. This case (1803) established judicial review; _McCulloch v. Maryland_ (1819) upheld the national bank and said “the power to tax involves the power to destroy”; and _Gibbons v. Ogden_ (1824) gave Congress power over steamboats crossing state lines. Some players also answer “judicial review,” which is the power this case established, not the case itself.",
     "fix": "Midnight judges, an undelivered commission, a writ of mandamus, and Section 13 of the Judiciary Act of 1789 mean this case. A bank and a state tax mean _McCulloch_; steamboats and interstate commerce mean _Gibbons_. If the question says “this case,” name the case; “this power” or “this principle” wants judicial review.",
     "line": "Real answer line: <b><u>Marbury</u></b> v. Madison"
   },

@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Cold War conflict in Southeast Asia · Ended with the fall of Saigon in 1975",
   "dates": "Fought 1955–1975",
-  "briefing": "From the 1950s to 1975, Communist North Vietnam and its Viet Cong allies fought to unite the country under their rule, while South Vietnam and the United States tried to stop them. More than 58,000 Americans and over a million Vietnamese died, and protests against the war spread across American college campuses. The war ended in 1975, when North Vietnamese tanks rolled into Saigon, the South’s capital.",
+  "briefing": "From the 1950s to 1975, Communist North Vietnam and its Viet Cong allies fought to unite the country under their rule, while South Vietnam and the United States tried to stop them. More than 58,000 Americans and, by most estimates, more than a million Vietnamese died, and protests against the war spread across American college campuses. The war ended in 1975, when North Vietnamese tanks rolled into Saigon, the South’s capital.",
   "answerHtml": "<b><u>Vietnam</u></b> War (accept <u>Second Indochina War</u> or <u>American War</u>; prompt on <u>Indochina War</u>; do not accept “First Indochina War” or “Korean War”)",
   "accept": [
     "vietnam war",
@@ -448,7 +448,7 @@
   ],
   "trap": {
     "title": "Which Indochina war?",
-    "body": "Vietnam saw two big wars in a row. In the First Indochina War (1946–1954), Ho Chi Minh’s Viet Minh defeated France, ending with the French surrender at Dien Bien Phu; this war came next, which is why it is also called the Second Indochina War. Players also mix it up with the Korean War (1950–1953), another Cold War fight between a Communist north and a U.S.-backed south.",
+    "body": "Vietnam saw two big wars in a row. In the First Indochina War (1946–1954), Ho Chi Minh’s Viet Minh defeated France, winning the decisive Battle of Dien Bien Phu; this war came next, which is why it is also called the Second Indochina War. Players also mix it up with the Korean War (1950–1953), another Cold War fight between a Communist north and a U.S.-backed south.",
     "fix": "French generals, Dien Bien Phu, and dates before 1955 mean the First Indochina War. The Gulf of Tonkin, Tet, the Viet Cong, Nixon’s “Vietnamization” plan, Kent State, and the fall of Saigon mean this war. The 38th parallel, Inchon, and Truman firing MacArthur mean Korea; the 17th parallel means this war.",
     "line": "Real answer line: <b><u>Vietnam</u></b> War (accept <u>Second Indochina War</u> or <u>American War</u>; prompt on <u>Indochina War</u>)"
   },
