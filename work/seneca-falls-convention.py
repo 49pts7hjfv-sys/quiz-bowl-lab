@@ -68,7 +68,7 @@ data = {
             "r": "She was Lucretia Mott, and the other was Elizabeth Cady Stanton. For 10 points, name this first U.S. women’s rights convention, held in 1848."
         },
         {
-            "p": "This event was planned in July 1848 over tea at the home of Jane Hunt in Waterloo, New York, by five women, including Mary Ann M’Clintock and Martha Coffin Wright. Wright’s sister, a well-known Quaker minister, helped lead it.",
+            "p": "This event was planned over tea at the home of Jane Hunt in Waterloo, New York, by five women, including Mary Ann M’Clintock and Martha Coffin Wright. Wright’s sister, a well-known Quaker minister, helped lead it.",
             "r": "That minister was Lucretia Mott. For 10 points, name this 1848 women’s rights convention, also organized by Elizabeth Cady Stanton."
         },
         {
@@ -88,7 +88,7 @@ data = {
             "r": "For 10 points, name this 1848 convention led by Elizabeth Cady Stanton and Lucretia Mott."
         },
         {
-            "p": "About 300 people, including dozens of men, gathered at the Wesleyan Chapel, a Methodist church that welcomed antislavery speakers, for this two-day event in July 1848. Most of its organizers were Quakers who were also active in the fight against slavery.",
+            "p": "About 300 people, including dozens of men, gathered at the Wesleyan Chapel, a Methodist church that welcomed antislavery speakers, for this two-day event. Most of its organizers were Quakers who were also active in the fight against slavery.",
             "r": "For 10 points, name this first women’s rights convention, organized by Elizabeth Cady Stanton and Lucretia Mott."
         },
         {
@@ -96,7 +96,7 @@ data = {
             "r": "That document said “all men and women are created equal.” For 10 points, name this 1848 meeting led by Elizabeth Cady Stanton."
         },
         {
-            "p": "Two weeks after this event, many of its supporters held another women’s rights convention in Rochester, New York, and this time a woman, Abigail Bush, presided. Both meetings took place in the summer of 1848.",
+            "p": "Two weeks after this event, many of its supporters held another women’s rights convention in Rochester, New York, and this time a woman, Abigail Bush, was chosen to preside. This event, by contrast, had been chaired by a man on its second day.",
             "r": "The first one was organized by Elizabeth Cady Stanton and Lucretia Mott. For 10 points, name this first women’s rights convention in the United States."
         },
         {

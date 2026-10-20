@@ -58,15 +58,15 @@ data = {
     },
     "tossups": [
         {
-            "p": "A 1976 investigation led by Admiral Hyman Rickover concluded that a fire in a coal bunker, not an enemy mine, most likely caused the explosion that helped start this war. A U.S. Navy court of inquiry in 1898 had instead blamed a mine for that blast.",
+            "p": "A 1976 investigation led by Admiral Hyman Rickover concluded that a fire in a coal bunker, not an enemy mine, most likely caused the explosion that helped start this war. A U.S. Navy court of inquiry at the time had instead blamed a mine for that blast.",
             "r": "That blast sank the USS _Maine_, inspiring the slogan “Remember the _Maine_!” For 10 points, name this 1898 war between the United States and Spain."
         },
         {
-            "p": "In February 1898, William Randolph Hearst’s _New York Journal_ published a stolen private letter in which the diplomat Enrique Dupuy de Lôme called President William McKinley weak. Days later, an explosion destroyed an American warship, pushing the nation closer to this war.",
+            "p": "William Randolph Hearst’s _New York Journal_ published a stolen private letter in which the diplomat Enrique Dupuy de Lôme called President William McKinley weak. Days later, an explosion destroyed an American warship, pushing the nation closer to this war.",
             "r": "For 10 points, name this 1898 war in which the United States fought Spain over Cuba."
         },
         {
-            "p": "To crush a rebellion, General Valeriano Weyler forced hundreds of thousands of rural Cubans into crowded “reconcentration” camps, and American newspapers nicknamed him “the Butcher.” Reports about those camps helped build American support for this war.",
+            "p": "To crush a rebellion, General Valeriano Weyler forced hundreds of thousands of rural people into crowded “reconcentration” camps, and American newspapers nicknamed him “the Butcher.” Reports about those camps helped build American support for this war.",
             "r": "For 10 points, name this 1898 war that ended Spanish rule in Cuba and Puerto Rico."
         },
         {
@@ -74,23 +74,23 @@ data = {
             "r": "For 10 points, name this 1898 war in which the United States fought Spain over Cuba."
         },
         {
-            "p": "Elbert Hubbard’s 1899 essay “A Message to Garcia” praised Lieutenant Andrew Rowan, who carried a message from the U.S. government to a Cuban rebel general at the start of this war. Hubbard used Rowan’s journey to celebrate people who get a job done without asking a lot of questions.",
+            "p": "Elbert Hubbard’s 1899 essay “A Message to Garcia” praised Lieutenant Andrew Rowan, who carried a message from the U.S. government to a rebel general at the start of this war. Hubbard used Rowan’s journey to celebrate people who get a job done without asking a lot of questions.",
             "r": "For 10 points, name this 1898 war that began soon after the sinking of the USS _Maine_ in Havana Harbor."
         },
         {
-            "p": "“You may fire when you are ready, Gridley,” said the commodore aboard the cruiser _Olympia_ during this war’s first major battle, fought on May 1, 1898. His squadron destroyed an enemy fleet without losing a single American ship.",
-            "r": "That battle, won by George Dewey, took place at Manila Bay in the Philippines. For 10 points, name this 1898 war fought against Spain."
+            "p": "“You may fire when you are ready, Gridley,” said the commodore aboard the cruiser _Olympia_ during this war’s first major battle. His squadron destroyed an enemy fleet without losing a single American ship.",
+            "r": "That battle, won by George Dewey on May 1, 1898, took place at Manila Bay in the Philippines. For 10 points, name this 1898 war fought against Spain."
         },
         {
-            "p": "Richmond Hobson tried to trap an enemy fleet during this war by sinking the coal ship _Merrimac_ in the narrow entrance to Santiago Harbor. When Admiral Pascual Cervera’s ships finally tried to escape that harbor on July 3, 1898, American warships destroyed them.",
+            "p": "Richmond Hobson tried to trap an enemy fleet during this war by sinking the coal ship _Merrimac_ in the narrow entrance to Santiago Harbor. When Admiral Pascual Cervera’s ships finally tried to escape that harbor on July 3, American warships destroyed them.",
             "r": "John Hay, soon to be Secretary of State, called this conflict “a splendid little war.” For 10 points, name this 1898 war against Spain."
         },
         {
-            "p": "The 9th and 10th Cavalry, Black regiments nicknamed Buffalo Soldiers, helped capture Kettle Hill outside Santiago during this war. On that same day, July 1, 1898, other American troops attacked the nearby town of El Caney.",
-            "r": "Theodore Roosevelt’s Rough Riders also charged up Kettle Hill and nearby San Juan Hill. For 10 points, name this 1898 war against Spain."
+            "p": "The 9th and 10th Cavalry, Black regiments nicknamed Buffalo Soldiers, helped capture Kettle Hill outside Santiago during this war. On that same day, other American troops attacked the nearby town of El Caney.",
+            "r": "Theodore Roosevelt’s Rough Riders also charged up Kettle Hill and nearby San Juan Hill on July 1, 1898. For 10 points, name this 1898 war against Spain."
         },
         {
-            "p": "According to a famous but doubtful story, William Randolph Hearst told the artist Frederic Remington, “You furnish the pictures and I’ll furnish the war,” after Remington reported that all was quiet in Cuba. Hearst’s _New York Journal_ battled Joseph Pulitzer’s _New York World_ for readers.",
+            "p": "According to a famous but doubtful story, William Randolph Hearst told the artist Frederic Remington, “You furnish the pictures and I’ll furnish the war,” after Remington reported that all was quiet. Hearst’s _New York Journal_ battled Joseph Pulitzer’s _New York World_ for readers.",
             "r": "Their sensational “yellow journalism” helped stir up this war. For 10 points, name this 1898 conflict fought mainly over Cuba."
         },
         {
