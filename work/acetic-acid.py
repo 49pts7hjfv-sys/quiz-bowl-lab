@@ -1,0 +1,385 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>Acetic acid</u></b> (or <u>ethanoic acid</u>; accept <u>CH<sub>3</sub>COOH</u>; prompt on <u>vinegar</u>; do not accept “acid” alone or “acetone”)"
+
+data = {
+    "id": "acetic-acid",
+    "name": "Acetic acid",
+    "mono": "HAC",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "The sour acid in vinegar · A two-carbon carboxylic acid",
+    "dates": "First made from non-living materials by Hermann Kolbe, 1845",
+    "briefing": "Acetic acid is the compound that makes vinegar sour and sharp-smelling; household vinegar is mostly water with about 5 percent acetic acid. Bacteria make it when they turn the ethanol in apple cider or wine into vinegar. Pure acetic acid freezes into icy-looking crystals at about 17 °C, so chemists call it “glacial,” and factories make millions of tons of it every year for glue, paint, and plastics.",
+    "answerHtml": LINE,
+    "accept": [
+        "acetic acid",
+        "ethanoic acid",
+        "glacial acetic acid",
+        "acetic acids",
+        "ch3cooh",
+        "ch3co2h",
+        "ch cooh",
+        "hc2h3o2",
+        "acoh",
+        "hoac",
+        "methanecarboxylic acid"
+    ],
+    "prompt": [
+        "vinegar",
+        "acetic",
+        "ethanoic"
+    ],
+    "reject": [
+        "acids",
+        "acetone",
+        "acetate",
+        "acetates",
+        "acetate ion",
+        "sodium acetate",
+        "acetyl",
+        "acetyl group",
+        "acetylene",
+        "acetaldehyde",
+        "acetic anhydride",
+        "acetyl coa",
+        "acetyl coenzyme a",
+        "acetylcholine",
+        "acetylsalicylic acid",
+        "aspirin",
+        "peracetic acid",
+        "chloroacetic acid",
+        "trichloroacetic acid",
+        "trifluoroacetic acid",
+        "ethyl acetate",
+        "vinyl acetate",
+        "polyvinyl acetate",
+        "cellulose acetate",
+        "lactic acid",
+        "citric acid",
+        "formic acid",
+        "methanoic acid",
+        "propanoic acid",
+        "propionic acid",
+        "butyric acid",
+        "butanoic acid",
+        "ascorbic acid",
+        "malic acid",
+        "oxalic acid",
+        "carbonic acid",
+        "nitric acid",
+        "sulfuric acid",
+        "hydrochloric acid",
+        "phosphoric acid",
+        "benzoic acid",
+        "amino acid",
+        "amino acids",
+        "fatty acid",
+        "fatty acids",
+        "carboxylic acid",
+        "carboxylic acids",
+        "ethanol",
+        "methanol",
+        "ethanal",
+        "baking soda",
+        "sodium bicarbonate"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Acetic_acid",
+    "qb": {
+        "q": "acetic acid",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The Monsanto process, introduced around 1970, made this compound by joining methanol with carbon monoxide over a rhodium catalyst, and BP’s newer Cativa process does the same job with iridium. Both processes need an iodide promoter.",
+            "r": "For 10 points, name this carboxylic acid, the active ingredient in vinegar, which gives it a sour taste and sharp smell."
+        },
+        {
+            "p": "In 1845, Hermann Kolbe [“KOHL-buh”] made this compound from carbon disulfide in several steps, using only starting materials that did not come from living things. Along with Friedrich Wöhler’s [“VUR-lerz”] urea synthesis, that work helped disprove vitalism.",
+            "r": "For 10 points, name this two-carbon carboxylic acid, the sour compound that makes up about 5 percent of vinegar."
+        },
+        {
+            "p": "In the vapor and in nonpolar solvents, molecules of this compound pair up into ring-shaped dimers held together by two hydrogen bonds, so measuring the density of its vapor gives a molar mass nearly double its true value of 60.",
+            "r": "For 10 points, name this carboxylic acid, whose dilute solution in water is vinegar."
+        },
+        {
+            "p": "Pure, water-free samples of this compound freeze into icy-looking crystals at about 17 °C, a little below room temperature, so chemists call them “glacial.” Even a small amount of water lowers that freezing point, and the liquid mixes with water in any amount.",
+            "r": "Vinegar is mostly water with a small amount of this compound mixed in. For 10 points, name this weak acid."
+        },
+        {
+            "p": "This compound has a pKa of about 4.76, so mixing it with its sodium salt makes a classic buffer that holds a solution near that pH. It ionizes only slightly in water, so its solution barely lights a conductivity tester’s bulb.",
+            "r": "For 10 points, name this two-carbon carboxylic acid, the active ingredient in vinegar, which gives it a sharp smell."
+        },
+        {
+            "p": "Reusable hand warmers hold a supersaturated solution of this compound’s sodium salt, which suddenly crystallizes and gives off heat when a small metal disc inside is clicked. That salt is also used to make “hot ice,” which hardens into a tower of crystals as it is poured onto a seed crystal.",
+            "r": "That salt is called sodium acetate. For 10 points, name this weak acid, the active ingredient in vinegar."
+        },
+        {
+            "p": "Bacteria of the genus Acetobacter [“uh-SEE-toh-bak-ter”] make this compound by oxidizing ethanol, and they can form a slimy, jelly-like mat called a “mother” on top of the liquid. Making this compound this way is an aerobic process, so the bacteria need oxygen.",
+            "r": "Apple cider is turned into a sour liquid this way. For 10 points, name this acid, the active ingredient in vinegar."
+        },
+        {
+            "p": "Movie studios replaced flammable nitrate film with “safety film” made from cellulose and this compound. Much of this compound also goes into polyvinyl products such as the white glue used in schools, and its anhydride turns salicylic acid into aspirin.",
+            "r": "For 10 points, name this carboxylic acid with two carbon atoms, the sour ingredient in vinegar."
+        },
+        {
+            "p": "In cells, coenzyme A carries the two-carbon group of this acid into the Krebs cycle, where it joins a four-carbon molecule to form citrate. That two-carbon group, called acetyl, also appears in aspirin and in the neurotransmitter acetylcholine.",
+            "r": "For 10 points, name this weak acid that makes vinegar sour and gives it a sharp smell."
+        },
+        {
+            "p": "Medieval and Renaissance painters used the green pigment verdigris [“VUR-dih-grees”], which was made by letting fumes of this compound attack copper plates. This compound’s lead salt, called “sugar of lead” because it tastes sweet, is poisonous.",
+            "r": "For 10 points, name this two-carbon carboxylic acid, which gives vinegar its sour taste and sharp smell."
+        },
+        {
+            "p": "Photographers dip film into a dilute solution of this compound, called a “stop bath,” to halt developing. Before modern factories, much of this compound came from pyroligneous [“pye-roh-LIG-nee-us”] acid, a dark liquid given off when wood is heated without air, which also yielded methanol.",
+            "r": "For 10 points, name this two-carbon acid that is the active ingredient in vinegar and gives it a sour taste."
+        },
+        {
+            "p": "Soaking an egg in this compound’s dilute solution for a day or two dissolves the calcium carbonate shell, leaving a rubbery “naked egg” held together by its membrane. The bubbles that form on the shell are carbon dioxide.",
+            "r": "Mixing baking soda with the same solution makes a fizzy “volcano.” For 10 points, name this acid, the active ingredient in vinegar."
+        },
+        {
+            "p": "Students often find the concentration of this compound in a store-bought sample by titrating it with sodium hydroxide until the phenolphthalein indicator turns the mixture faint pink. At the endpoint, this compound has been converted into its sodium salt and water.",
+            "r": "For 10 points, name this acid, about 5 percent of a typical bottle of vinegar."
+        },
+        {
+            "p": "Heating this compound with isoamyl alcohol and a little sulfuric acid makes “banana oil,” an ester that smells like bananas. Reacting it with ethanol makes a different ester used as a solvent in glues and some nail polish removers.",
+            "r": "For 10 points, name this carboxylic acid whose salts are called acetates and whose dilute solution is vinegar."
+        },
+        {
+            "p": "This compound’s common name comes from acetum, the Latin word for its best-known source, and it is the second-simplest carboxylic acid after formic acid. Its molecule has a methyl group attached to a –COOH group.",
+            "r": "Its conjugate base is the acetate ion. For 10 points, name this weak acid, the sour active ingredient in household vinegar."
+        }
+    ],
+    "clues": [
+        {
+            "id": "vinegar",
+            "tier": "giveaway",
+            "t": "The active ingredient in vinegar, which is mostly water with about 4 to 8 percent of this acid",
+            "k": ["vinegar", "active ingredient"],
+            "n": 0
+        },
+        {
+            "id": "sour",
+            "tier": "giveaway",
+            "t": "Gives vinegar its sour taste and sharp smell",
+            "k": ["sour", "sharp smell"],
+            "n": 0
+        },
+        {
+            "id": "two-carbon",
+            "tier": "giveaway",
+            "t": "A carboxylic acid with two carbon atoms",
+            "k": ["carboxylic acid", "two carbon"],
+            "n": 0
+        },
+        {
+            "id": "weak-acid",
+            "tier": "middle",
+            "t": "A weak acid: only a small fraction of its molecules ionize in water",
+            "k": ["weak acid", "ionize"],
+            "n": 0,
+            "rabbit": "Acids"
+        },
+        {
+            "id": "acetate",
+            "tier": "middle",
+            "t": "Loses a proton to form the acetate ion; its salts and esters are called acetates",
+            "k": ["acetate ion", "acetates", "proton"],
+            "n": 0
+        },
+        {
+            "id": "glacial",
+            "tier": "middle",
+            "t": "Pure, water-free samples freeze into icy-looking crystals at about 17 °C, so they are called “glacial”",
+            "k": ["glacial", "icy-looking", "17 °c"],
+            "n": 0
+        },
+        {
+            "id": "acetum",
+            "tier": "middle",
+            "t": "Its name comes from acetum, the Latin word for vinegar; it is the second-simplest carboxylic acid after formic acid",
+            "k": ["acetum", "latin", "formic acid"],
+            "n": 0
+        },
+        {
+            "id": "bacteria",
+            "tier": "middle",
+            "t": "Acetobacter bacteria make it by oxidizing ethanol, sometimes forming a slimy mat called “mother of vinegar”",
+            "k": ["acetobacter", "ethanol", "mother of vinegar"],
+            "n": 0,
+            "rabbit": "Bacteria"
+        },
+        {
+            "id": "buffer",
+            "tier": "middle",
+            "t": "Mixed with its sodium salt, it makes a classic buffer; its pKa is about 4.76",
+            "k": ["buffer", "pka", "4.76"],
+            "n": 0
+        },
+        {
+            "id": "titration",
+            "tier": "middle",
+            "t": "Titrating vinegar with sodium hydroxide until phenolphthalein turns pink measures how much of it there is",
+            "k": ["titrating", "sodium hydroxide", "phenolphthalein"],
+            "n": 0,
+            "rabbit": "Titration"
+        },
+        {
+            "id": "eggshell",
+            "tier": "middle",
+            "t": "It dissolves the calcium carbonate of an eggshell (a “naked egg”) and fizzes with baking soda, making carbon dioxide",
+            "k": ["eggshell", "calcium carbonate", "baking soda"],
+            "n": 0,
+            "rabbit": "Carbon dioxide"
+        },
+        {
+            "id": "esters",
+            "tier": "middle",
+            "t": "With alcohols it forms esters, such as banana-scented isoamyl acetate (“banana oil”) and ethyl acetate",
+            "k": ["esters", "banana oil", "ethyl acetate"],
+            "n": 0,
+            "rabbit": "Esters"
+        },
+        {
+            "id": "weak-electrolyte",
+            "tier": "middle",
+            "t": "A weak electrolyte: its solution makes a conductivity tester’s bulb glow only dimly",
+            "k": ["weak electrolyte", "dimly"],
+            "n": 0,
+            "rabbit": "Electrolytes"
+        },
+        {
+            "id": "monsanto-cativa",
+            "tier": "power",
+            "t": "Made from methanol and carbon monoxide: the Monsanto process uses rhodium, and BP’s Cativa process uses iridium",
+            "k": ["monsanto", "cativa", "rhodium", "iridium"],
+            "n": 0
+        },
+        {
+            "id": "kolbe",
+            "tier": "power",
+            "t": "Hermann Kolbe made it from non-living starting materials in 1845, helping to disprove vitalism",
+            "k": ["kolbe", "1845", "vitalism"],
+            "n": 0
+        },
+        {
+            "id": "dimers",
+            "tier": "power",
+            "t": "In its vapor, pairs of molecules link through two hydrogen bonds into dimers, so the vapor seems to weigh about double",
+            "k": ["dimers", "vapor", "hydrogen bonds"],
+            "n": 0,
+            "rabbit": "Hydrogen bonds"
+        },
+        {
+            "id": "hand-warmers",
+            "tier": "power",
+            "t": "Reusable hand warmers and “hot ice” use a supersaturated solution of its sodium salt, which crystallizes and releases heat",
+            "k": ["hand warmers", "hot ice", "supersaturated"],
+            "n": 0
+        },
+        {
+            "id": "safety-film",
+            "tier": "power",
+            "t": "Cellulose acetate “safety film” replaced flammable nitrate film for movies",
+            "k": ["safety film", "cellulose acetate"],
+            "n": 0
+        },
+        {
+            "id": "white-glue",
+            "tier": "power",
+            "t": "Much of it is made into vinyl acetate, used in paints and in polyvinyl acetate white glue",
+            "k": ["vinyl acetate", "white glue", "paints"],
+            "n": 0
+        },
+        {
+            "id": "aspirin",
+            "tier": "power",
+            "t": "Its anhydride turns salicylic acid into aspirin",
+            "k": ["anhydride", "aspirin", "salicylic acid"],
+            "n": 0
+        },
+        {
+            "id": "acetyl-coa",
+            "tier": "power",
+            "t": "Coenzyme A carries its two-carbon acetyl group into the Krebs cycle, where it joins oxaloacetate to make citrate",
+            "k": ["acetyl", "krebs cycle", "coenzyme a"],
+            "n": 0
+        },
+        {
+            "id": "verdigris",
+            "tier": "power",
+            "t": "Medieval and Renaissance painters used verdigris, a green pigment made by letting its fumes attack copper",
+            "k": ["verdigris", "copper", "green pigment"],
+            "n": 0,
+            "rabbit": "Copper"
+        },
+        {
+            "id": "sugar-of-lead",
+            "tier": "power",
+            "t": "Its poisonous lead salt was called “sugar of lead” because it tastes sweet",
+            "k": ["sugar of lead", "lead salt"],
+            "n": 0
+        },
+        {
+            "id": "pyroligneous",
+            "tier": "power",
+            "t": "Pyroligneous acid, given off when wood is heated without air, was once a major source of it and of methanol",
+            "k": ["pyroligneous", "heated without air", "methanol"],
+            "n": 0
+        },
+        {
+            "id": "stop-bath",
+            "tier": "power",
+            "t": "Photographers use a dilute solution of it as a “stop bath” to halt film developing",
+            "k": ["stop bath", "film"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not just vinegar or acid",
+        "body": "Vinegar is a mixture, mostly water, that contains this compound, so answering “vinegar” earns only a prompt, and answering “acid” alone is wrong because the question wants one specific compound. Players also confuse it with acetone, the sharp-smelling solvent in many nail polish removers, and with other acids from foods, such as lactic, citric, and formic acid.",
+        "fix": "Say the full name, “acetic acid” (or “ethanoic acid”). Formic acid has one carbon and comes from ants; citric acid is in lemons; lactic acid is in sour milk and tired muscles; acetone is a ketone with no –COOH group.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Acetic acid",
+            "Ethanoic acid",
+            "CH3COOH",
+            "Acetik acid",
+            "glacial acetic acid"
+        ],
+        "prompt": [
+            "Vinegar",
+            "acetic"
+        ],
+        "wrong": [
+            "Acid",
+            "Acids",
+            "Acetone",
+            "Lactic acid",
+            "Citric acid",
+            "Formic acid",
+            "Sodium acetate",
+            "Acetylene"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

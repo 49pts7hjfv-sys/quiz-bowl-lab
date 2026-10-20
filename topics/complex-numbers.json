@@ -427,6 +427,6 @@
     "title": "Complex, real, or imaginary?",
     "body": "These numbers contain two smaller families that are separate answer lines: the real numbers (no imaginary part) and the imaginary numbers (multiples of i, with no real part). Other tossups want just the number i, the imaginary unit, or a tool built from these numbers, such as the Argand diagram, the conjugate, or the quaternions.",
     "fix": "If the clues mention both a real part and an imaginary part, a + bi, or the Argand diagram, say “complex numbers.” Saying only “imaginary numbers” earns a prompt, so be ready to say “complex.” If the giveaway asks for “this number” whose square is −1, answer i.",
-    "line": "Real answer line: <b><u>complex number</u></b>s (prompt on <u>imaginary</u> numbers; do not accept “real numbers”)"
+    "line": "Real answer line: <b><u>complex number</u></b>s (accept <u>complex</u>; prompt on <u>imaginary</u> numbers; do not accept “real numbers”)"
   }
 }

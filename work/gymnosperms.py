@@ -125,11 +125,11 @@ data = {
             "r": "Most other members of this group, such as pines, stay green all year. For 10 points, name this group of plants whose seeds are not enclosed in fruit."
         },
         {
-            "p": "This group of plants appeared more than 300 million years ago, long before flowering plants, and it dominated the world’s forests during the Mesozoic Era. Its living members fall into four divisions, including the cycads, the gnetophytes, and Ginkgophyta [“gink-GOFF-ih-tuh”], which has just one living species.",
+            "p": "Ginkgophyta [“gink-GOFF-ih-tuh”], which has just one living species, is one of this group’s four living divisions, along with the cycads and the gnetophytes. This group appeared more than 300 million years ago, long before flowering plants, and dominated the world’s forests during the Mesozoic Era.",
             "r": "The fourth division is the conifers. For 10 points, name this group of seed plants whose name means “naked seed.”"
         },
         {
-            "p": "The “berries” of junipers are really tiny cones whose scales have turned fleshy and fused together, and the edible “nuts” of piñon [“PIN-yohn”] pines are actually seeds. _Gnetum_, a tropical member of this group, has broad leaves that look like those of flowering plants.",
+            "p": "_Gnetum_, a tropical member of this group, has broad leaves that look like those of flowering plants. In the same group, the “berries” of junipers are really tiny cones whose scales have turned fleshy and fused together, and the edible “nuts” of piñon [“PIN-yohn”] pines are actually seeds.",
             "r": "This group also includes the spruces and firs often used as Christmas trees. For 10 points, name this group of seed plants that carry seeds on cones rather than in fruit."
         }
     ],

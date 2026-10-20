@@ -1,0 +1,336 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "sickle-cell-disease",
+    "name": "Sickle-cell disease",
+    "mono": "SCD",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Inherited hemoglobin disorder · Red blood cells can bend into crescents",
+    "dates": "First described by James Herrick in 1910",
+    "briefing": "Sickle-cell disease is an inherited blood disorder caused by a tiny change in the gene for hemoglobin, the oxygen-carrying protein in red blood cells. In people with the disease, red blood cells can stiffen into crescent, or sickle, shapes that get stuck in small blood vessels and wear out quickly. Carrying just one copy of the gene gives some protection against malaria, which is why it is most common in families with roots in sub-Saharan Africa, India, the Mediterranean, and the Middle East.",
+    "answerHtml": "<b><u>Sickle-cell</u></b> disease (accept <u>sickle-cell anemia</u> or <u>SCD</u>; prompt on <u>anemia</u>; do not accept “sickle-cell trait,” “malaria,” or “hemoglobin”)",
+    "accept": [
+        "sickle cell disease",
+        "sickle cell",
+        "sickle cell anemia",
+        "sickle cell anaemia",
+        "sickle cell disorder",
+        "scd",
+        "drepanocytosis",
+        "hbss",
+        "hb ss"
+    ],
+    "prompt": [
+        "anemia",
+        "anaemia",
+        "hemolytic anemia",
+        "hemoglobinopathy",
+        "hemoglobinopathies",
+        "sickle",
+        "blood disorder"
+    ],
+    "reject": [
+        "sickle cell trait",
+        "sickle cell carrier",
+        "malaria",
+        "hemoglobin",
+        "hemoglobin s",
+        "hemoglobin a",
+        "red blood cells",
+        "red blood cell",
+        "thalassemia",
+        "beta thalassemia",
+        "alpha thalassemia",
+        "hemophilia",
+        "cystic fibrosis",
+        "iron deficiency anemia",
+        "pernicious anemia",
+        "aplastic anemia",
+        "leukemia",
+        "hereditary spherocytosis",
+        "spherocytosis",
+        "tay sachs disease",
+        "down syndrome"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+    "qb": {
+        "q": "sickle cell",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1910, Chicago doctor James Herrick published the first Western medical description of this condition, after his intern Ernest Irons saw strangely elongated red blood cells in a blood sample from a dental student from Grenada named Walter Clement Noel.",
+            "r": "In this disorder, red blood cells can bend into crescent shapes. For 10 points, name this inherited blood disorder."
+        },
+        {
+            "p": "In 1949, Linus Pauling’s team, including Harvey Itano [“ih-TAH-noh”], used electrophoresis, which separates molecules in an electric field, to show that the hemoglobin of people with this condition carries a different electric charge than normal hemoglobin. Pauling called this condition the first “molecular disease.”",
+            "r": "It is caused by an altered form of hemoglobin. For 10 points, name this inherited blood disorder."
+        },
+        {
+            "p": "In the 1950s, Vernon Ingram chopped normal and abnormal hemoglobin into pieces and compared their “fingerprints,” finding that the hemoglobin in this condition differs by just one amino acid in each beta chain: valine replaces glutamic acid.",
+            "r": "That change can make red blood cells bend into stiff crescent shapes. For 10 points, name this inherited blood disorder."
+        },
+        {
+            "p": "In 1954, Anthony Allison showed that children in East Africa who carried one copy of the gene for this condition had fewer heavy malaria infections, and he noted that the gene was most common where malaria was widespread.",
+            "r": "That protection is a classic example of heterozygote advantage. For 10 points, name this inherited blood disorder caused by a change in hemoglobin."
+        },
+        {
+            "p": "In 2019, Victoria Gray of Mississippi became the first person in the United States treated for this condition with CRISPR gene editing. In 2023, that therapy, Casgevy, became the first approved medicine based on CRISPR; it edits a patient’s blood stem cells so that their red blood cells make fetal hemoglobin.",
+            "r": "This condition is caused by a change in hemoglobin. For 10 points, name this inherited disorder in which red blood cells can bend into crescent shapes."
+        },
+        {
+            "p": "The mutation behind this condition changes a single DNA letter, turning the codon GAG into GTG, a classic example of a missense point mutation. The changed gene, HBB, sits on chromosome 11 and codes for the beta chain of an oxygen-carrying protein.",
+            "r": "That change puts valine in place of glutamic acid. For 10 points, name this inherited blood disorder in which red blood cells can become crescent-shaped."
+        },
+        {
+            "p": "When oxygen levels drop, the hemoglobin molecules in this condition stick together into long, stiff fibers, because the nonpolar amino acid valine fits into a water-fearing pocket on a neighboring molecule. Those fibers distort the red blood cells that hold them.",
+            "r": "The stiff cells can then get stuck in small blood vessels. For 10 points, name this inherited blood disorder caused by hemoglobin S."
+        },
+        {
+            "p": "Babies with this condition usually show no signs of it for their first several months, because their red blood cells are still full of fetal hemoglobin. The drug hydroxyurea [“hy-DROK-see-yoo-REE-uh”] is used to treat this condition because it raises fetal hemoglobin levels.",
+            "r": "For 10 points, name this inherited blood disorder in which red blood cells can become stiff and crescent-shaped."
+        },
+        {
+            "p": "People who inherit hemoglobin S from one parent and hemoglobin C from the other have a usually milder form of this condition called HbSC disease. This condition is inherited in an autosomal recessive pattern, so two carrier parents have a one-in-four chance of passing it to each child.",
+            "r": "Carriers usually have no symptoms. For 10 points, name this inherited blood disorder caused by a change in hemoglobin."
+        },
+        {
+            "p": "The United Nations recognized this condition as a public health problem in 2008, and June 19 has since been marked as a world awareness day for it. In the United States, September is national awareness month for this condition, which affects about 100,000 Americans.",
+            "r": "For 10 points, name this inherited blood disorder in which red blood cells can take on a crescent shape."
+        },
+        {
+            "p": "In 1972, President Richard Nixon signed a national act to fund screening, research, and treatment programs for this condition. All U.S. states test newborn babies for it, often with a blood test that separates different forms of hemoglobin.",
+            "r": "For 10 points, name this inherited blood disorder in which hemoglobin S can make red blood cells stiff and crescent-shaped."
+        },
+        {
+            "p": "Red blood cells in this condition may last only 10 to 20 days instead of the usual 120, which leads to a shortage of red blood cells called anemia. Stiff cells can also block small blood vessels, causing sudden episodes of pain called crises.",
+            "r": "For 10 points, name this inherited blood disorder in which red blood cells can bend into crescent shapes."
+        },
+        {
+            "p": "This condition is most common among people whose ancestors came from sub-Saharan Africa, India, the Mediterranean, and the Middle East, regions where malaria has long been common. It is the most common inherited blood disorder in the United States.",
+            "r": "For 10 points, name this disorder in which red blood cells can bend into crescent shapes."
+        },
+        {
+            "p": "Biologists write the protein change behind this condition as E6V, since the amino acid valine, abbreviated V, replaces glutamic acid, abbreviated E, at the sixth position of hemoglobin’s beta chain. Because valine is nonpolar and glutamic acid is charged, the change makes the protein less soluble when it lacks oxygen.",
+            "r": "This condition is named for the curved farm tool that affected red blood cells can resemble. For 10 points, name this inherited blood disorder."
+        },
+        {
+            "p": "Biology textbooks use this condition as a classic example of balancing selection, since the gene that causes it stays common even though people who inherit two copies have serious health problems. One copy helps protect against severe malaria caused by _Plasmodium falciparum_ [“fal-SIP-uh-rum”].",
+            "r": "For 10 points, name this inherited disorder in which red blood cells can become crescent-shaped."
+        }
+    ],
+    "clues": [
+        {
+            "id": "crescent-cells",
+            "tier": "giveaway",
+            "t": "Red blood cells can stiffen and bend into crescent shapes, like the curved farm tool the condition is named for",
+            "k": ["crescent", "farm tool", "stiffen"],
+            "n": 0,
+            "rabbit": "Red blood cells"
+        },
+        {
+            "id": "inherited",
+            "tier": "giveaway",
+            "t": "An inherited blood disorder caused by a change in the gene for hemoglobin",
+            "k": ["inherited", "hemoglobin"],
+            "n": 0,
+            "rabbit": "Hemoglobin"
+        },
+        {
+            "id": "hemoglobin-s",
+            "tier": "giveaway",
+            "t": "Caused by an altered form of hemoglobin called hemoglobin S",
+            "k": ["hemoglobin s", "altered"],
+            "n": 0
+        },
+        {
+            "id": "malaria-protection",
+            "tier": "giveaway",
+            "t": "Carriers with one copy of the gene are partly protected from malaria",
+            "k": ["malaria", "one copy", "carriers"],
+            "n": 0,
+            "rabbit": "Malaria"
+        },
+        {
+            "id": "valine",
+            "tier": "middle",
+            "t": "A single amino acid change: valine replaces glutamic acid in hemoglobin’s beta chains",
+            "k": ["valine", "glutamic acid", "beta chains"],
+            "n": 0,
+            "rabbit": "Amino acids"
+        },
+        {
+            "id": "recessive",
+            "tier": "middle",
+            "t": "Autosomal recessive: two carrier parents have a one-in-four chance with each child of passing on two copies",
+            "k": ["autosomal recessive", "one-in-four", "carrier"],
+            "n": 0,
+            "rabbit": "Punnett squares"
+        },
+        {
+            "id": "heterozygote-advantage",
+            "tier": "middle",
+            "t": "A classic case of heterozygote advantage (balancing selection), which keeps the gene common where malaria is widespread",
+            "k": ["heterozygote advantage", "balancing selection"],
+            "n": 0
+        },
+        {
+            "id": "point-mutation",
+            "tier": "middle",
+            "t": "Caused by a missense point mutation: one DNA letter changes, turning the codon GAG into GTG",
+            "k": ["point mutation", "missense", "gag", "gtg"],
+            "n": 0,
+            "rabbit": "Mutations"
+        },
+        {
+            "id": "anemia-crises",
+            "tier": "middle",
+            "t": "The cells last only 10 to 20 days instead of 120, causing anemia; stiff cells can block small vessels and cause pain episodes called crises",
+            "k": ["anemia", "10 to 20 days", "crises"],
+            "n": 0
+        },
+        {
+            "id": "fibers",
+            "tier": "middle",
+            "t": "When oxygen runs low, hemoglobin S molecules link into long, stiff fibers that distort the cells",
+            "k": ["fibers", "oxygen"],
+            "n": 0
+        },
+        {
+            "id": "fetal-hemoglobin",
+            "tier": "middle",
+            "t": "Fetal hemoglobin protects babies for their first several months; the drug hydroxyurea raises fetal hemoglobin levels",
+            "k": ["fetal hemoglobin", "hydroxyurea"],
+            "n": 0
+        },
+        {
+            "id": "geography",
+            "tier": "middle",
+            "t": "Most common in people with ancestors from sub-Saharan Africa, India, the Mediterranean, and the Middle East; the most common inherited blood disorder in the U.S.",
+            "k": ["sub-saharan africa", "mediterranean", "middle east"],
+            "n": 0
+        },
+        {
+            "id": "herrick",
+            "tier": "power",
+            "t": "James Herrick described it in 1910 after his intern Ernest Irons saw elongated red blood cells from Walter Clement Noel, a dental student from Grenada",
+            "k": ["herrick", "1910", "grenada", "noel"],
+            "n": 0
+        },
+        {
+            "id": "pauling",
+            "tier": "power",
+            "t": "Linus Pauling’s team, including Harvey Itano, used electrophoresis in 1949 and called it the first “molecular disease”",
+            "k": ["pauling", "itano", "electrophoresis", "molecular disease"],
+            "n": 0
+        },
+        {
+            "id": "ingram",
+            "tier": "power",
+            "t": "Vernon Ingram compared protein “fingerprints” in the 1950s to find the single amino acid change",
+            "k": ["ingram", "fingerprints"],
+            "n": 0
+        },
+        {
+            "id": "allison",
+            "tier": "power",
+            "t": "Anthony Allison showed in 1954 that East African children with one copy of the gene had fewer heavy malaria infections",
+            "k": ["allison", "1954", "east african"],
+            "n": 0
+        },
+        {
+            "id": "casgevy",
+            "tier": "power",
+            "t": "Victoria Gray was the first American treated for it with CRISPR (2019); Casgevy became the first approved CRISPR medicine in 2023",
+            "k": ["victoria gray", "casgevy", "crispr", "2023"],
+            "n": 0
+        },
+        {
+            "id": "hbb",
+            "tier": "power",
+            "t": "The altered gene, HBB, is on chromosome 11 and codes for hemoglobin’s beta chain",
+            "k": ["hbb", "chromosome 11", "beta chain"],
+            "n": 0
+        },
+        {
+            "id": "hbsc",
+            "tier": "power",
+            "t": "People with one hemoglobin S gene and one hemoglobin C gene have a usually milder form, HbSC disease",
+            "k": ["hemoglobin c", "hbsc", "milder"],
+            "n": 0
+        },
+        {
+            "id": "e6v",
+            "tier": "power",
+            "t": "Written E6V: valine (V) replaces glutamic acid (E) at the sixth position of the beta chain, making the protein less soluble without oxygen",
+            "k": ["e6v", "sixth position", "soluble"],
+            "n": 0
+        },
+        {
+            "id": "nonpolar-pocket",
+            "tier": "power",
+            "t": "Nonpolar valine fits into a water-fearing pocket on a neighboring hemoglobin molecule",
+            "k": ["nonpolar", "water-fearing", "pocket"],
+            "n": 0
+        },
+        {
+            "id": "awareness",
+            "tier": "power",
+            "t": "The UN recognized it as a public health problem in 2008; June 19 is a world awareness day, and it affects about 100,000 Americans",
+            "k": ["june 19", "united nations", "100,000"],
+            "n": 0
+        },
+        {
+            "id": "nixon-screening",
+            "tier": "power",
+            "t": "Richard Nixon signed a 1972 national act funding screening and research; all U.S. states test newborns for it",
+            "k": ["nixon", "1972", "newborns"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Disease, trait, or malaria?",
+        "body": "These tossups are full of clues about hemoglobin, red blood cells, and malaria, and each of those is its own answer line, so blurting the protein, the cells, or the mosquito-borne disease loses the question. Another trap is sickle-cell trait, the carrier condition: people with only one copy of the gene usually have no symptoms, so the trait is not the same thing as the disease.",
+        "fix": "If the question asks for “this disease” or “this disorder” in which red blood cells bend into crescents, say sickle-cell disease (sickle-cell anemia is also fine). Say hemoglobin only for “this protein,” red blood cells for “these cells,” and malaria for a disease spread by mosquitoes.",
+        "line": "Real answer line: <b><u>Sickle-cell</u></b> disease (accept <u>sickle-cell anemia</u> or <u>SCD</u>; prompt on <u>anemia</u>; do not accept “sickle-cell trait,” “malaria,” or “hemoglobin”)"
+    },
+    "tests": {
+        "right": [
+            "Sickle-cell disease",
+            "sickle cell anemia",
+            "Sickle cell",
+            "SCD",
+            "Sickel cell disease",
+            "Drepanocytosis"
+        ],
+        "prompt": [
+            "Anemia",
+            "Hemolytic anemia"
+        ],
+        "wrong": [
+            "Sickle-cell trait",
+            "Malaria",
+            "Hemoglobin",
+            "Thalassemia",
+            "Hemophilia",
+            "Red blood cells",
+            "Cystic fibrosis"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

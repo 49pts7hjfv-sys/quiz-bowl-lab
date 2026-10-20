@@ -1,0 +1,471 @@
+{
+  "id": "x-rays",
+  "name": "X-rays",
+  "mono": "XR",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Invisible high-energy rays that see through skin · Found by Röntgen, 1895",
+  "dates": "Discovered by Wilhelm Röntgen, 1895",
+  "briefing": "In November 1895, the German physicist Wilhelm Röntgen noticed a screen glowing across his darkened lab while he ran electricity through a glass tube wrapped in black cardboard. The invisible rays causing the glow could pass through skin and paper but not bone or metal, so he named them X-rays, with the X standing for “unknown.” Doctors use X-rays to find broken bones, dentists use them to find cavities, and space telescopes use them to study black holes and exploding stars.",
+  "answerHtml": "<b><u>X-ray</u></b>s (accept <u>X-radiation</u> or <u>Röntgen rays</u>; prompt on <u>electromagnetic radiation</u>; do not accept “gamma rays”)",
+  "accept": [
+    "x rays",
+    "x ray",
+    "xrays",
+    "xray",
+    "x radiation",
+    "x ray radiation",
+    "rontgen rays",
+    "roentgen rays",
+    "rontgen ray",
+    "roentgen ray",
+    "rontgen radiation",
+    "roentgen radiation"
+  ],
+  "prompt": [
+    "electromagnetic radiation",
+    "electromagnetic waves",
+    "electromagnetic wave",
+    "em radiation",
+    "em waves",
+    "radiation",
+    "light",
+    "photons",
+    "high energy photons",
+    "ionizing radiation"
+  ],
+  "reject": [
+    "gamma rays",
+    "gamma ray",
+    "gamma radiation",
+    "ultraviolet",
+    "ultraviolet light",
+    "ultraviolet rays",
+    "ultraviolet radiation",
+    "uv",
+    "uv rays",
+    "uv light",
+    "cathode rays",
+    "cathode ray",
+    "cosmic rays",
+    "cosmic ray",
+    "alpha rays",
+    "beta rays",
+    "alpha particles",
+    "beta particles",
+    "infrared",
+    "microwaves",
+    "radio waves",
+    "visible light",
+    "x ray crystallography",
+    "x ray diffraction",
+    "x ray astronomy",
+    "x ray telescope",
+    "wilhelm rontgen",
+    "wilhelm roentgen",
+    "wilhelm conrad rontgen",
+    "wilhelm conrad roentgen",
+    "roentgenium",
+    "rontgenium",
+    "ct scan",
+    "cat scan",
+    "computed tomography",
+    "mri",
+    "magnetic resonance imaging",
+    "ultrasound",
+    "radioactivity",
+    "x chromosome",
+    "x chromosomes"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/X-ray",
+  "qb": {
+    "q": "X-ray",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Hospital tubes make these rays when fast electrons slam into a metal target such as tungsten and give off “braking radiation,” or Bremsstrahlung [“BREMS-shtrah-lung”], as they slow down. In 1913, William Coolidge improved those tubes by using a heated filament to supply the electrons.",
+      "r": "For 10 points, name these rays, discovered by Wilhelm Röntgen, that doctors use to see broken bones."
+    },
+    {
+      "p": "William Henry Bragg and his son Lawrence shared the 1915 Nobel Prize in Physics for bouncing these rays off crystals to work out where the atoms sit; Lawrence was only 25 years old. Max von Laue [“LOW-uh”] had shown in 1912 that crystals diffract these rays.",
+      "r": "For 10 points, name these rays, which lie between ultraviolet light and gamma rays on the electromagnetic spectrum."
+    },
+    {
+      "p": "In 1913, Henry Moseley [“MOHZ-lee”] measured these rays given off by different elements and showed that the periodic table should be ordered by atomic number. His method worked because each element gives off these rays at its own set of wavelengths.",
+      "r": "For 10 points, name these rays that pass through skin but are blocked by bone."
+    },
+    {
+      "p": "Arthur Compton won a Nobel Prize after showing in 1923 that these rays bounce off electrons like billiard balls, coming out with longer wavelengths. That result helped convince physicists that light is made of particles called photons.",
+      "r": "For 10 points, name these high-energy rays, which Wilhelm Röntgen discovered in 1895."
+    },
+    {
+      "p": "NASA’s Chandra observatory, carried into orbit in 1999 on the first space shuttle mission commanded by a woman, Eileen Collins, studies these rays from space, since Earth’s atmosphere blocks them. Chandra’s mirrors are nearly parallel to the incoming rays, because these rays reflect only at very shallow angles.",
+      "r": "For 10 points, name this kind of high-energy radiation that dentists use to look for cavities."
+    },
+    {
+      "p": "Godfrey Hounsfield and Allan Cormack shared the 1979 Nobel Prize in Physiology or Medicine for computed tomography, or CT, which combines many images made with these rays into slices of the body.",
+      "r": "On ordinary images made with these rays, bones show up white. For 10 points, name these rays, which doctors use to check for broken bones."
+    },
+    {
+      "p": "One of the first images ever made with these rays showed the hand of the discoverer’s wife, wedding ring and all. Their discoverer won the first Nobel Prize in Physics, in 1901.",
+      "r": "He named them with an X because they were unknown. For 10 points, name these rays found by Wilhelm Röntgen in 1895."
+    },
+    {
+      "p": "Before some scans with these rays, patients swallow a chalky drink of barium sulfate, which blocks the rays and makes the stomach and intestines show up clearly. Technicians cover other parts of the body with aprons containing lead, which also blocks them.",
+      "r": "Bones look white on images made with these rays. For 10 points, name these rays discovered by Wilhelm Röntgen."
+    },
+    {
+      "p": "Riccardo Giacconi [“jah-KOH-nee”] won the 2002 Nobel Prize in Physics for founding the astronomy of these rays, which took off when his team’s rocket found the source Scorpius X-1 in 1962. That source turned out to be a neutron star pulling gas off a companion star.",
+      "r": "Hot gas around black holes and neutron stars gives off these rays. For 10 points, name this type of radiation that can pass through skin and muscle."
+    },
+    {
+      "p": "From the 1920s to the 1950s, many shoe stores used “shoe-fitting fluoroscopes,” machines that used these rays to let customers look right through new shoes to see how their feet fit. Worries about radiation ended that practice.",
+      "r": "Large doses of these rays can damage DNA. For 10 points, name these rays that doctors use to look at bones."
+    },
+    {
+      "p": "Higher-energy “hard” types of these rays pass through more material than lower-energy “soft” ones. These rays have shorter wavelengths than ultraviolet light, about the size of the gaps between atoms, which is why they are useful for studying crystals.",
+      "r": "Element 111, roentgenium, honors their discoverer. For 10 points, name these rays used to photograph bones."
+    },
+    {
+      "p": "Rosalind Franklin’s “Photo 51,” made by sending these rays through fibers of DNA, showed an X-shaped pattern that revealed the molecule’s helix shape. Dorothy Hodgkin used these rays to work out the structures of penicillin and vitamin B12.",
+      "r": "For 10 points, name these rays, used in crystallography, that Wilhelm Röntgen discovered in 1895."
+    },
+    {
+      "p": "While running a glass tube wrapped in black cardboard in Würzburg [“VURTS-burg”], a physicist noticed a screen coated with barium platinocyanide glowing across the room one day in November, the first sign of these rays.",
+      "r": "His paper “On a New Kind of Rays” announced them at the end of 1895. For 10 points, name these rays discovered by Wilhelm Röntgen."
+    },
+    {
+      "p": "Mammograms, which help doctors find breast cancer early, use low doses of these rays. Like gamma rays, these rays are “ionizing,” meaning they carry enough energy to knock electrons off atoms, so patients are exposed to them only when needed.",
+      "r": "Dentists use them to find cavities. For 10 points, name these rays that pass through skin but not bone."
+    },
+    {
+      "p": "Thomas Edison built devices called fluoroscopes that used these rays in 1896, but he gave up the work after his assistant Clarence Dally became seriously ill from exposure to them.",
+      "r": "The comic-book hero Superman has a kind of vision named for these rays. For 10 points, name these rays discovered by Wilhelm Röntgen."
+    }
+  ],
+  "clues": [
+    {
+      "id": "rontgen-1895",
+      "tier": "giveaway",
+      "t": "Discovered by the German physicist Wilhelm Röntgen in 1895",
+      "k": [
+        "wilhelm röntgen",
+        "1895",
+        "german"
+      ],
+      "n": 0
+    },
+    {
+      "id": "unknown",
+      "tier": "giveaway",
+      "t": "Named with an X because Röntgen did not know what they were: X stands for “unknown”",
+      "k": [
+        "unknown"
+      ],
+      "n": 0
+    },
+    {
+      "id": "broken-bones",
+      "tier": "giveaway",
+      "t": "Pass through skin and muscle but are blocked by bone and metal, so doctors use them to see broken bones; bones look white on the images",
+      "k": [
+        "broken bones",
+        "skin",
+        "white"
+      ],
+      "n": 0,
+      "rabbit": "Bones"
+    },
+    {
+      "id": "spectrum",
+      "tier": "giveaway",
+      "t": "Electromagnetic waves with shorter wavelengths than ultraviolet light; gamma rays lie beyond them",
+      "k": [
+        "electromagnetic",
+        "ultraviolet",
+        "gamma rays"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dentists",
+      "tier": "giveaway",
+      "t": "Dentists use them to find cavities, and mammograms use low doses of them",
+      "k": [
+        "dentists",
+        "cavities",
+        "mammograms"
+      ],
+      "n": 0,
+      "rabbit": "Teeth"
+    },
+    {
+      "id": "first-nobel",
+      "tier": "middle",
+      "t": "Their discoverer won the first Nobel Prize in Physics, in 1901",
+      "k": [
+        "first nobel prize",
+        "1901"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wife-hand",
+      "tier": "middle",
+      "t": "One of the first images showed the hand of Röntgen’s wife, wedding ring and all",
+      "k": [
+        "wedding ring",
+        "wife",
+        "hand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lead-barium",
+      "tier": "middle",
+      "t": "Lead aprons block them; a chalky barium sulfate drink makes the stomach and intestines show up",
+      "k": [
+        "lead",
+        "barium sulfate",
+        "aprons"
+      ],
+      "n": 0,
+      "rabbit": "Lead (element)"
+    },
+    {
+      "id": "ct-scan",
+      "tier": "middle",
+      "t": "CT (computed tomography) scans combine many images into slices; Hounsfield and Cormack won the 1979 Nobel Prize in Physiology or Medicine",
+      "k": [
+        "computed tomography",
+        "hounsfield",
+        "1979"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ionizing",
+      "tier": "middle",
+      "t": "Ionizing: they carry enough energy to knock electrons off atoms, and large doses can damage DNA",
+      "k": [
+        "ionizing",
+        "dna",
+        "knock electrons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atmosphere",
+      "tier": "middle",
+      "t": "Earth’s atmosphere blocks them, so telescopes that study them must be in space",
+      "k": [
+        "atmosphere",
+        "telescopes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "von-laue",
+      "tier": "middle",
+      "t": "Max von Laue (1912) showed that crystals diffract them; crystallography uses them to find where atoms sit",
+      "k": [
+        "von laue",
+        "crystals",
+        "1912"
+      ],
+      "n": 0,
+      "rabbit": "Diffraction"
+    },
+    {
+      "id": "superman",
+      "tier": "middle",
+      "t": "Superman has a kind of vision named for them",
+      "k": [
+        "superman",
+        "vision"
+      ],
+      "n": 0
+    },
+    {
+      "id": "braggs",
+      "tier": "power",
+      "t": "William Henry Bragg and his son Lawrence shared the 1915 Nobel Prize for studying crystals with them; Lawrence was 25",
+      "k": [
+        "bragg",
+        "1915",
+        "lawrence"
+      ],
+      "n": 0
+    },
+    {
+      "id": "moseley",
+      "tier": "power",
+      "t": "Henry Moseley (1913) used the ones given off by different elements to order the periodic table by atomic number",
+      "k": [
+        "moseley",
+        "atomic number",
+        "periodic table"
+      ],
+      "n": 0
+    },
+    {
+      "id": "compton",
+      "tier": "power",
+      "t": "Arthur Compton (1923): they bounce off electrons like billiard balls and come out with longer wavelengths",
+      "k": [
+        "compton",
+        "1923",
+        "billiard balls"
+      ],
+      "n": 0,
+      "rabbit": "Scattering"
+    },
+    {
+      "id": "chandra",
+      "tier": "power",
+      "t": "NASA’s Chandra observatory (1999) was launched on Eileen Collins’s shuttle mission; its mirrors reflect them only at very shallow angles",
+      "k": [
+        "chandra",
+        "eileen collins",
+        "shallow angles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "giacconi",
+      "tier": "power",
+      "t": "Riccardo Giacconi founded their astronomy; his team’s rocket found Scorpius X-1 in 1962, and he won the 2002 Nobel Prize",
+      "k": [
+        "giacconi",
+        "scorpius x-1",
+        "1962"
+      ],
+      "n": 0,
+      "rabbit": "Neutron stars"
+    },
+    {
+      "id": "bremsstrahlung",
+      "tier": "power",
+      "t": "Made when fast electrons slam into a metal target like tungsten and give off “braking radiation” (Bremsstrahlung)",
+      "k": [
+        "bremsstrahlung",
+        "tungsten",
+        "braking radiation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coolidge",
+      "tier": "power",
+      "t": "William Coolidge’s 1913 tube used a heated filament to supply the electrons",
+      "k": [
+        "coolidge",
+        "filament",
+        "1913"
+      ],
+      "n": 0
+    },
+    {
+      "id": "photo-51",
+      "tier": "power",
+      "t": "Rosalind Franklin’s “Photo 51” revealed DNA’s helix shape; Dorothy Hodgkin used them to solve penicillin and vitamin B12",
+      "k": [
+        "photo 51",
+        "rosalind franklin",
+        "hodgkin"
+      ],
+      "n": 0,
+      "rabbit": "DNA"
+    },
+    {
+      "id": "edison-dally",
+      "tier": "power",
+      "t": "Thomas Edison built fluoroscopes using them in 1896, but quit after his assistant Clarence Dally became seriously ill from exposure",
+      "k": [
+        "edison",
+        "clarence dally",
+        "fluoroscopes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shoe-fluoroscopes",
+      "tier": "power",
+      "t": "From the 1920s to the 1950s, shoe stores used shoe-fitting fluoroscopes that let customers see through new shoes to check the fit",
+      "k": [
+        "shoe-fitting",
+        "shoe stores"
+      ],
+      "n": 0
+    },
+    {
+      "id": "roentgenium",
+      "tier": "power",
+      "t": "Element 111, roentgenium, honors their discoverer",
+      "k": [
+        "roentgenium",
+        "111"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hard-soft",
+      "tier": "power",
+      "t": "“Hard” (higher-energy) ones pass through more material than “soft” ones; their wavelengths are about the size of the gaps between atoms",
+      "k": [
+        "hard",
+        "soft",
+        "gaps between atoms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-paper",
+      "tier": "power",
+      "t": "Röntgen saw a barium platinocyanide screen glow in Würzburg and announced the rays in “On a New Kind of Rays” (end of 1895)",
+      "k": [
+        "würzburg",
+        "barium platinocyanide",
+        "new kind of rays"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not gamma or cathode rays",
+    "body": "X-rays and gamma rays are both invisible, high-energy light that can pass through matter, and their energies overlap. Gamma rays usually come from atomic nuclei, as in radioactive decay, while X-rays usually come from electrons, like those slamming into a metal target in a hospital tube. Cathode rays, which Röntgen was studying when he found X-rays, are streams of electrons, not light at all.",
+    "fix": "Broken bones, dentists, Röntgen, crystals, the Braggs, Moseley, CT scans, and the Chandra telescope point to X-rays. Radioactive nuclei and Paul Villard (who found them in 1900) point to gamma rays, and a beam of electrons inside a glass tube is cathode rays.",
+    "line": "Real answer line: <b><u>X-ray</u></b>s (accept <u>X-radiation</u> or <u>Röntgen rays</u>; prompt on <u>electromagnetic radiation</u>; do not accept “gamma rays”)"
+  },
+  "tests": {
+    "right": [
+      "X-rays",
+      "x-ray",
+      "Xrays",
+      "Röntgen rays",
+      "X radiation",
+      "X-rayz"
+    ],
+    "prompt": [
+      "Electromagnetic radiation",
+      "Radiation",
+      "Light"
+    ],
+    "wrong": [
+      "Gamma rays",
+      "Ultraviolet",
+      "Cathode rays",
+      "Wilhelm Röntgen",
+      "X-ray crystallography",
+      "UV"
+    ]
+  }
+}

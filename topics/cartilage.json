@@ -1,0 +1,459 @@
+{
+  "id": "cartilage",
+  "name": "Cartilage",
+  "mono": "CRT",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Flexible connective tissue · Shapes ears and noses and cushions joints",
+  "dates": "Forms most of an embryo’s early skeleton",
+  "briefing": "Cartilage is the firm but bendable tissue that gives shape to your outer ears and the tip of your nose and keeps your windpipe open. A smooth layer of it covers the ends of bones in joints, so they glide instead of grinding. Cartilage has no blood vessels, so it heals slowly, and sharks and rays have skeletons made almost entirely of it.",
+  "answerHtml": "<b><u>Cartilage</u></b> (accept specific types such as <u>hyaline cartilage</u>, <u>elastic cartilage</u>, or <u>fibrocartilage</u>; accept <u>gristle</u>; prompt on <u>connective tissue</u>; do not accept “bone,” “ligaments,” or “collagen”)",
+  "accept": [
+    "cartilage",
+    "cartilages",
+    "hyaline cartilage",
+    "elastic cartilage",
+    "fibrocartilage",
+    "fibrous cartilage",
+    "articular cartilage",
+    "costal cartilage",
+    "cartilage tissue",
+    "cartilaginous tissue",
+    "gristle"
+  ],
+  "prompt": [
+    "connective tissue",
+    "connective tissues"
+  ],
+  "reject": [
+    "bone",
+    "bones",
+    "osseous tissue",
+    "ligament",
+    "ligaments",
+    "tendon",
+    "tendons",
+    "collagen",
+    "elastin",
+    "keratin",
+    "chondrocytes",
+    "chondrocyte",
+    "chondroblasts",
+    "perichondrium",
+    "meniscus",
+    "menisci",
+    "intervertebral discs",
+    "synovial fluid",
+    "joint",
+    "joints",
+    "bone marrow",
+    "marrow",
+    "muscle",
+    "muscles",
+    "skin",
+    "enamel",
+    "cartilaginous fish",
+    "notochord",
+    "hyaluronic acid"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Cartilage",
+  "qb": {
+    "q": "cartilage",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Tiny mineral tiles called tesserae [“TESS-uh-ree”] reinforce this tissue in the skeletons of one class of fish. That class, Chondrichthyes [“kon-DRIK-thee-eez”], is named from Greek words for this tissue and “fish,” since its members have skeletons made of this tissue instead of bone.",
+      "r": "That class includes sharks and rays. For 10 points, name this flexible connective tissue that also shapes the human nose and ears."
+    },
+    {
+      "p": "The largest piece of this tissue in the voice box, whose Greek-based name means “shield-shaped,” forms the bump called the Adam’s apple. A ring of this tissue called the cricoid [“KRY-koyd”] sits just below it, at the top of the windpipe.",
+      "r": "C-shaped rings of this tissue hold the windpipe open. For 10 points, name this flexible connective tissue."
+    },
+    {
+      "p": "The elastic type of this tissue, which gets its springiness from a protein called elastin, stiffens the epiglottis [“ep-ih-GLOT-iss”], the flap that covers the windpipe when a person swallows. That type is also found in the tube that connects the middle ear to the throat.",
+      "r": "It also gives shape to the outer ear. For 10 points, name this flexible connective tissue."
+    },
+    {
+      "p": "The most common type of this tissue is called hyaline [“HY-uh-lin”], from a Greek word for “glass,” because it looks smooth and glassy, and its matrix is rich in type II collagen. Most of an embryo’s skeleton first forms as models made of that type, which are later replaced by bone.",
+      "r": "A smooth layer of it covers the ends of bones in joints. For 10 points, name this flexible connective tissue."
+    },
+    {
+      "p": "The toughest type of this tissue contains thick bundles of type I collagen and forms the outer rings of the discs between vertebrae. That fibrous type also makes up the crescent-shaped pads called menisci [“meh-NISS-kye”] that cushion each knee.",
+      "r": "Tearing one of those pads is a common sports injury. For 10 points, name this flexible connective tissue that also shapes the nose and outer ear."
+    },
+    {
+      "p": "Most of this tissue is wrapped in a dense layer called the perichondrium [“pair-ih-KON-dree-um”], which supplies it with nutrients and new cells. This tissue has no blood vessels or nerves, so nutrients must diffuse through it, which is one reason injuries to it heal slowly.",
+      "r": "For 10 points, name this flexible connective tissue that covers the ends of bones in joints."
+    },
+    {
+      "p": "Cells called chondrocytes [“KON-droh-sites”] live in small spaces called lacunae [“luh-KOO-nee”] inside this tissue, surrounded by a matrix they make. That matrix is packed with water-holding molecules such as aggrecan [“AG-ruh-kan”] and chondroitin [“kon-DROY-tin”] sulfate, which help this tissue resist being squeezed.",
+      "r": "For 10 points, name this flexible connective tissue that shapes the outer ear and the tip of the nose."
+    },
+    {
+      "p": "In endochondral [“en-doh-KON-drul”] ossification, a model made of this tissue is gradually replaced by bone. Long bones grow longer at growth plates, also called epiphyseal [“ep-ih-FIZ-ee-ul”] plates, which are made of this tissue and turn into bone after puberty.",
+      "r": "This tissue also shapes the nose and outer ear. For 10 points, name this flexible connective tissue that cushions joints."
+    },
+    {
+      "p": "Achondroplasia [“ay-kon-droh-PLAY-zhuh”], the most common cause of dwarfism, results from a change in the gene FGFR3 that slows the growth of this tissue in the growth plates of long bones. The condition’s name comes from Greek words meaning “without formation” of this tissue.",
+      "r": "For 10 points, name this flexible connective tissue that covers the ends of bones in joints."
+    },
+    {
+      "p": "In synovial [“sih-NOH-vee-ul”] joints, a slippery fluid containing hyaluronic [“hy-uh-loo-RON-ik”] acid and a protein called lubricin keeps the smooth articular type of this tissue gliding with very little friction. Because this tissue lacks blood vessels, damage to it in a knee or hip heals poorly.",
+      "r": "Its gradual wearing away causes osteoarthritis. For 10 points, name this flexible connective tissue that also shapes the ear and nose."
+    },
+    {
+      "p": "This tissue can grow in two ways: interstitial growth, in which cells inside it divide and add matrix from within, and appositional growth, in which cells called chondroblasts in its outer covering add new layers to its surface.",
+      "r": "Unlike bone, it has no blood vessels. For 10 points, name this flexible tissue that forms C-shaped rings in the windpipe."
+    },
+    {
+      "p": "Flexible bars of this tissue connect the upper ten pairs of ribs, directly or indirectly, to the breastbone, letting the chest expand during breathing. About 16 to 20 C-shaped rings of this tissue keep the trachea from collapsing.",
+      "r": "For 10 points, name this flexible connective tissue that shapes the outer ear and the tip of the nose."
+    },
+    {
+      "p": "Lampreys and hagfish, which are jawless fish, have skeletons made mostly of this tissue rather than bone. Medical words that begin with “chondro-,” such as chondrocyte and chondroitin, come from the Greek word for this tissue.",
+      "r": "Sharks also have skeletons made of it. For 10 points, name this flexible tissue found in the human nose and outer ear."
+    },
+    {
+      "p": "The rings of this tissue in the trachea are open at the back, where the trachealis [“tray-kee-AL-iss”] muscle lets the esophagus bulge forward as food is swallowed. Smaller plates of this tissue support the bronchi, but the narrower bronchioles lack it.",
+      "r": "This tissue is firm but bendable, like the tip of your nose. For 10 points, name this connective tissue that cushions the ends of bones in joints."
+    },
+    {
+      "p": "In 1743, Scottish anatomist William Hunter observed that once this tissue in a joint is destroyed, it does not grow back. Unlike bone, its matrix is normally not hardened by calcium phosphate crystals, so it stays firm but bendable.",
+      "r": "For 10 points, name this connective tissue that shapes the nose and outer ear and makes up a shark’s skeleton."
+    }
+  ],
+  "clues": [
+    {
+      "id": "firm-flexible",
+      "tier": "giveaway",
+      "t": "A firm but flexible connective tissue, softer and bendier than bone",
+      "k": [
+        "connective tissue",
+        "flexible",
+        "bendier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ears-nose",
+      "tier": "giveaway",
+      "t": "Gives shape to the outer ear and the tip of the nose",
+      "k": [
+        "outer ear",
+        "nose"
+      ],
+      "n": 0
+    },
+    {
+      "id": "joints",
+      "tier": "giveaway",
+      "t": "A smooth layer of it covers the ends of bones in joints",
+      "k": [
+        "ends of bones",
+        "joints"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sharks",
+      "tier": "giveaway",
+      "t": "Sharks and rays have skeletons made of it instead of bone",
+      "k": [
+        "sharks",
+        "rays",
+        "skeletons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "windpipe-rings",
+      "tier": "middle",
+      "t": "About 16 to 20 C-shaped rings of it hold the windpipe (trachea) open",
+      "k": [
+        "c-shaped rings",
+        "windpipe",
+        "trachea"
+      ],
+      "n": 0,
+      "rabbit": "Lungs"
+    },
+    {
+      "id": "no-blood-vessels",
+      "tier": "middle",
+      "t": "Has no blood vessels or nerves, so nutrients must diffuse in and injuries heal slowly",
+      "k": [
+        "blood vessels",
+        "heal slowly",
+        "nerves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chondrocytes",
+      "tier": "middle",
+      "t": "Its cells, chondrocytes, sit in small spaces called lacunae inside a matrix they make",
+      "k": [
+        "chondrocytes",
+        "lacunae",
+        "matrix"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-types",
+      "tier": "middle",
+      "t": "Comes in three types: hyaline (the most common), elastic, and fibrous",
+      "k": [
+        "hyaline",
+        "elastic",
+        "fibrous"
+      ],
+      "n": 0
+    },
+    {
+      "id": "adams-apple",
+      "tier": "middle",
+      "t": "A shield-shaped piece of it in the voice box forms the Adam’s apple",
+      "k": [
+        "adam’s apple",
+        "voice box",
+        "shield-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "growth-plates",
+      "tier": "middle",
+      "t": "Growth plates made of it let long bones lengthen until they turn to bone after puberty",
+      "k": [
+        "growth plates",
+        "puberty"
+      ],
+      "n": 0,
+      "rabbit": "Bones"
+    },
+    {
+      "id": "embryo-skeleton",
+      "tier": "middle",
+      "t": "Most of an embryo’s skeleton forms first as models of it that are later replaced by bone (endochondral ossification)",
+      "k": [
+        "embryo",
+        "endochondral ossification"
+      ],
+      "n": 0
+    },
+    {
+      "id": "discs-menisci",
+      "tier": "middle",
+      "t": "The tough fibrous type forms the outer rings of the discs between vertebrae and the menisci that cushion the knees",
+      "k": [
+        "vertebrae",
+        "menisci",
+        "discs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "osteoarthritis",
+      "tier": "middle",
+      "t": "Its gradual wearing away in joints causes osteoarthritis, the most common form of arthritis",
+      "k": [
+        "osteoarthritis",
+        "arthritis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ribs",
+      "tier": "middle",
+      "t": "Flexible bars of it connect the upper ten pairs of ribs to the breastbone",
+      "k": [
+        "ribs",
+        "breastbone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tesserae",
+      "tier": "power",
+      "t": "In shark skeletons it is strengthened by tiny mineral tiles called tesserae",
+      "k": [
+        "tesserae",
+        "mineral tiles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chondrichthyes",
+      "tier": "power",
+      "t": "The class Chondrichthyes (sharks, skates, and rays) is named from Greek words for it and “fish”; words starting with “chondro-” refer to it",
+      "k": [
+        "chondrichthyes",
+        "chondro-"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cricoid",
+      "tier": "power",
+      "t": "The ring-shaped cricoid sits just below the Adam’s apple, at the top of the windpipe",
+      "k": [
+        "cricoid",
+        "ring-shaped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elastic-epiglottis",
+      "tier": "power",
+      "t": "The elastic type gets its spring from elastin and stiffens the epiglottis, the outer ear, and the tube from the middle ear to the throat",
+      "k": [
+        "elastin",
+        "epiglottis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hyaline-glass",
+      "tier": "power",
+      "t": "Hyaline comes from a Greek word for “glass”; the hyaline type’s matrix is rich in type II collagen",
+      "k": [
+        "glass",
+        "type ii collagen"
+      ],
+      "n": 0,
+      "rabbit": "Collagen"
+    },
+    {
+      "id": "type-i",
+      "tier": "power",
+      "t": "The fibrous type contains thick bundles of type I collagen, which makes it the toughest type",
+      "k": [
+        "type i collagen",
+        "toughest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "perichondrium",
+      "tier": "power",
+      "t": "Most of it is wrapped in a dense layer called the perichondrium, which supplies nutrients and new cells",
+      "k": [
+        "perichondrium",
+        "dense layer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aggrecan",
+      "tier": "power",
+      "t": "Its matrix holds water-loving aggrecan and chondroitin sulfate, which help it resist being squeezed",
+      "k": [
+        "aggrecan",
+        "chondroitin sulfate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "growth-modes",
+      "tier": "power",
+      "t": "Grows in two ways: interstitial (cells divide from within) and appositional (chondroblasts add layers at the surface)",
+      "k": [
+        "interstitial",
+        "appositional",
+        "chondroblasts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "achondroplasia",
+      "tier": "power",
+      "t": "Achondroplasia, the most common cause of dwarfism, comes from an FGFR3 gene change that slows its growth in growth plates",
+      "k": [
+        "achondroplasia",
+        "fgfr3"
+      ],
+      "n": 0
+    },
+    {
+      "id": "synovial-fluid",
+      "tier": "power",
+      "t": "Synovial fluid with hyaluronic acid and lubricin keeps the smooth articular type gliding with very little friction",
+      "k": [
+        "synovial fluid",
+        "hyaluronic acid",
+        "lubricin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jawless-fish",
+      "tier": "power",
+      "t": "Lampreys and hagfish, both jawless fish, also have skeletons made mostly of it",
+      "k": [
+        "lampreys",
+        "hagfish",
+        "jawless"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trachealis",
+      "tier": "power",
+      "t": "The windpipe’s rings are open at the back, where the trachealis muscle lets the esophagus expand; bronchioles have none of it",
+      "k": [
+        "trachealis",
+        "esophagus",
+        "bronchioles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hunter",
+      "tier": "power",
+      "t": "William Hunter observed in 1743 that once it is destroyed in a joint, it does not grow back; unlike bone, it is not hardened by calcium phosphate",
+      "k": [
+        "william hunter",
+        "1743",
+        "calcium phosphate"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not bone, not ligament",
+    "body": "Cartilage tossups describe joints, ribs, and skeletons, so players often blurt “bone,” or they name ligaments and tendons, the tough cords that connect bone to bone and muscle to bone. Others hear “collagen” or “chondrocytes” and name one ingredient of the tissue instead of the tissue itself, or say “joint” when the question asks what covers the ends of the bones.",
+    "fix": "Flexible, no blood vessels, chondrocytes in lacunae, the epiglottis, the Adam’s apple, shark skeletons, or growth plates mean cartilage. Cords that connect bones mean ligaments, cords from muscle to bone mean tendons, and a hard, mineral-filled tissue with marrow means bone.",
+    "line": "Real answer line: <b><u>Cartilage</u></b> (accept <u>hyaline cartilage</u>, <u>elastic cartilage</u>, or <u>fibrocartilage</u>; prompt on <u>connective tissue</u>; do not accept “bone,” “ligaments,” or “collagen”)"
+  },
+  "tests": {
+    "right": [
+      "Cartilage",
+      "hyaline cartilage",
+      "Fibrocartilage",
+      "Cartiledge",
+      "Gristle",
+      "elastic cartilage"
+    ],
+    "prompt": [
+      "Connective tissue"
+    ],
+    "wrong": [
+      "Bone",
+      "Ligaments",
+      "Tendons",
+      "Collagen",
+      "Chondrocytes",
+      "Meniscus",
+      "Cartilaginous fish"
+    ]
+  }
+}

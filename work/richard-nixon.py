@@ -1,0 +1,365 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "richard-nixon",
+    "name": "Richard Nixon",
+    "mono": "RN",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "37th U.S. President · The only president to resign",
+    "dates": "1913–1994",
+    "briefing": "Richard Nixon grew up in a small California town, made his name as an anti-communist congressman, and became Dwight Eisenhower’s vice president at age 40. As the 37th president, he became the first president to visit Communist China, signed arms-control deals with the Soviet Union, and created the Environmental Protection Agency. The Watergate scandal then made him, in August 1974, the only U.S. president ever to resign.",
+    "answerHtml": "Richard <b><u>Nixon</u></b> (or Richard Milhous <b><u>Nixon</u></b>)",
+    "accept": [
+        "richard nixon",
+        "nixon",
+        "richard m nixon",
+        "richard milhous nixon",
+        "dick nixon",
+        "president nixon"
+    ],
+    "prompt": [],
+    "reject": [
+        "pat nixon",
+        "patricia nixon",
+        "thelma nixon",
+        "tricia nixon",
+        "julie nixon",
+        "julie nixon eisenhower",
+        "nixon in china",
+        "frost nixon",
+        "united states v nixon",
+        "us v nixon",
+        "u s v nixon",
+        "nixon doctrine",
+        "nixon shock",
+        "kennedy nixon debates",
+        "nixon kennedy debates",
+        "watergate",
+        "watergate scandal",
+        "gerald ford",
+        "spiro agnew",
+        "agnew",
+        "eisenhower",
+        "dwight eisenhower",
+        "dwight d eisenhower",
+        "henry kissinger",
+        "kissinger",
+        "dixon"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Richard_Nixon",
+    "qb": {
+        "q": "Nixon",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "As a member of the House Un-American Activities Committee, this congressman pursued Alger Hiss, a former State Department official whom Whittaker Chambers accused of spying for the Soviet Union. During that case, Chambers led investigators to microfilm hidden inside a hollowed-out pumpkin on his Maryland farm.",
+            "r": "This man later served as Dwight Eisenhower’s vice president. For 10 points, name this president who resigned in 1974."
+        },
+        {
+            "p": "In a 1952 television speech, this candidate answered charges about a fund raised by his supporters and noted that his wife wore a “respectable Republican cloth coat.” He also said his family would keep one gift: a cocker spaniel named Checkers that a supporter in Texas had sent to his young daughters.",
+            "r": "He stayed on Dwight Eisenhower’s ticket as the candidate for vice president. For 10 points, name this man who later became the 37th president."
+        },
+        {
+            "p": "In 1959, this American leader argued with Nikita Khrushchev [“KROOSH-chef”] about capitalism and communism while standing in the kitchen of a model house at an exhibition in Moscow. That exchange became known as the Kitchen Debate.",
+            "r": "The next year, he lost a close election to John F. Kennedy. For 10 points, name this vice president who later became the 37th president."
+        },
+        {
+            "p": "In a bitter 1950 Senate race, this California congressman defeated Helen Gahagan Douglas, a former Broadway actress and opera singer, after his campaign accused her of being soft on communism. Two years earlier, he had made his name in the Alger Hiss case.",
+            "r": "He went on to serve eight years as vice president. For 10 points, name this man who resigned the presidency in 1974."
+        },
+        {
+            "p": "After losing the 1962 race for governor of California to Pat Brown, this man told reporters that they would not have him “to kick around anymore” because this was his “last press conference.” Six years later, he won the presidency.",
+            "r": "For 10 points, name this Republican who defeated Hubert Humphrey in 1968 and later resigned over the Watergate scandal."
+        },
+        {
+            "p": "In a November 1969 television address, this president asked the “great silent majority” of Americans to support his plan for ending a war in Southeast Asia. Under that plan, American troops came home slowly while South Vietnam’s army took over more of the fighting.",
+            "r": "That policy was called Vietnamization. For 10 points, name this president who resigned during the Watergate scandal."
+        },
+        {
+            "p": "Composer John Adams’s first opera, which premiered in Houston in 1987, opens as this man’s plane lands in a foreign capital and later shows him trading toasts with Premier Zhou Enlai [“JOH en-LYE”] at a banquet. Table tennis matches between American and Chinese players had helped prepare the way for the real trip.",
+            "r": "For 10 points, name this U.S. president who met Mao Zedong [“MOW dzuh-DONG”] in Beijing in 1972 and later resigned over Watergate."
+        },
+        {
+            "p": "On August 15, 1971, this president announced that foreign governments could no longer trade U.S. dollars for gold, effectively ending the Bretton Woods system. In the same televised speech, he ordered a 90-day freeze on wages and prices to fight inflation.",
+            "r": "His first vice president, Spiro Agnew, resigned in 1973. For 10 points, name this president who resigned in 1974 during the Watergate scandal."
+        },
+        {
+            "p": "This president signed the National Environmental Policy Act on New Year’s Day 1970 and the Endangered Species Act in 1973. In December 1970, a new federal agency he had proposed began enforcing national rules against air and water pollution.",
+            "r": "That agency is the EPA. For 10 points, name this 37th president, who resigned during the Watergate scandal."
+        },
+        {
+            "p": "At a May 1972 summit in Moscow, this president and Leonid Brezhnev [“BREZH-nef”] signed the SALT I agreement and the Anti-Ballistic Missile Treaty, high points of an easing of Cold War tensions called détente [“day-TAHNT”]. His adviser Henry Kissinger helped negotiate those deals.",
+            "r": "Months earlier, he had become the first U.S. president to visit Communist China. For 10 points, name this Republican, the 37th president."
+        },
+        {
+            "p": "In July 1969, this president spoke by radio-telephone from the Oval Office with Neil Armstrong and Buzz Aldrin while they stood on the Moon. Days later, he greeted the returning Apollo 11 crew aboard the aircraft carrier _Hornet_.",
+            "r": "For 10 points, name this president who had lost the 1960 election to John F. Kennedy and resigned in 1974."
+        },
+        {
+            "p": "This president signed Title IX, a 1972 law that bans discrimination based on sex in schools that receive federal money and later helped girls’ sports grow enormously. In 1970, he had signed the law that created OSHA to make workplaces safer.",
+            "r": "In 1974, the Supreme Court ordered him to turn over his secret White House tapes. For 10 points, name this president, who resigned over the Watergate scandal about two weeks later."
+        },
+        {
+            "p": "This man was born in 1913 in a house his father built in Yorba Linda, California, where his presidential library stands. Raised as a Quaker, he graduated from Whittier College and Duke University’s law school, then served in the Navy during World War II.",
+            "r": "He won reelection in 1972 over George McGovern. For 10 points, name this Californian, the 37th president."
+        },
+        {
+            "p": "In 1977 television interviews with British host David Frost, this former president said, “When the president does it, that means that it is not illegal.” Peter Morgan turned those interviews into a play that became a 2008 film starring Frank Langella.",
+            "r": "In 1973, he had insisted, “I am not a crook.” For 10 points, name this president who was pardoned by Gerald Ford."
+        },
+        {
+            "p": "In April 1970, this president announced that American troops were moving into Cambodia to attack enemy bases. Protests broke out on college campuses, and at Kent State University in Ohio, National Guard soldiers shot and killed four students.",
+            "r": "The Paris Peace Accords of 1973 ended U.S. combat in Vietnam. For 10 points, name this president, who resigned during the Watergate scandal."
+        }
+    ],
+    "clues": [
+        {
+            "id": "37th-president",
+            "tier": "giveaway",
+            "t": "37th President of the United States (1969–1974), a Republican from California",
+            "k": ["37th president", "thirty-seventh", "republican", "california"],
+            "n": 0
+        },
+        {
+            "id": "resigned",
+            "tier": "giveaway",
+            "t": "The only U.S. president ever to resign, on August 9, 1974",
+            "k": ["resign", "august 9", "1974"],
+            "n": 0
+        },
+        {
+            "id": "watergate",
+            "tier": "giveaway",
+            "t": "Resigned because of the Watergate scandal, which began with a break-in at Democratic Party offices in June 1972",
+            "k": ["watergate", "break-in", "june 1972"],
+            "n": 0,
+            "rabbit": "Watergate scandal"
+        },
+        {
+            "id": "china-1972",
+            "tier": "giveaway",
+            "t": "First U.S. president to visit Communist China (February 1972), where he met Mao Zedong",
+            "k": ["china", "mao zedong", "mao", "1972"],
+            "n": 0
+        },
+        {
+            "id": "eisenhower-vp",
+            "tier": "middle",
+            "t": "Vice President for eight years under Dwight D. Eisenhower (1953–1961)",
+            "k": ["vice president", "eisenhower", "eight years"],
+            "n": 0,
+            "rabbit": "Dwight D. Eisenhower"
+        },
+        {
+            "id": "jfk-1960",
+            "tier": "middle",
+            "t": "Lost the close 1960 election to John F. Kennedy after the first televised presidential debates",
+            "k": ["kennedy", "1960", "televised", "debates"],
+            "n": 0,
+            "rabbit": "John F. Kennedy"
+        },
+        {
+            "id": "elections",
+            "tier": "middle",
+            "t": "Won the presidency in 1968 over Hubert Humphrey and George Wallace, then won 49 states against George McGovern in 1972",
+            "k": ["humphrey", "mcgovern", "49 states", "1968"],
+            "n": 0
+        },
+        {
+            "id": "vietnamization",
+            "tier": "middle",
+            "t": "Vietnamization: brought U.S. troops home slowly while South Vietnam took over the fighting; the Paris Peace Accords (1973) ended U.S. combat",
+            "k": ["vietnamization", "paris peace accords", "vietnam"],
+            "n": 0,
+            "rabbit": "Vietnam War"
+        },
+        {
+            "id": "epa",
+            "tier": "middle",
+            "t": "Created the Environmental Protection Agency (1970); signed the Clean Air Act (1970) and the Endangered Species Act (1973)",
+            "k": ["environmental protection agency", "epa", "clean air act", "endangered species act"],
+            "n": 0,
+            "rabbit": "Environmental Protection Agency"
+        },
+        {
+            "id": "detente",
+            "tier": "middle",
+            "t": "Détente with the Soviet Union: signed the SALT I arms agreement with Leonid Brezhnev in Moscow (1972)",
+            "k": ["détente", "detente", "salt i", "brezhnev"],
+            "n": 0
+        },
+        {
+            "id": "agnew",
+            "tier": "middle",
+            "t": "Vice President Spiro Agnew resigned in 1973; Gerald Ford replaced him, the first vice president chosen under the 25th Amendment",
+            "k": ["spiro agnew", "agnew", "25th amendment"],
+            "n": 0
+        },
+        {
+            "id": "ford-pardon",
+            "tier": "middle",
+            "t": "Gerald Ford took over as president and pardoned him in September 1974",
+            "k": ["gerald ford", "pardoned", "september 1974"],
+            "n": 0,
+            "rabbit": "Gerald Ford"
+        },
+        {
+            "id": "tapes",
+            "tier": "middle",
+            "t": "In July 1974, the Supreme Court ruled 8–0 that he had to turn over his secret White House tapes",
+            "k": ["supreme court", "white house tapes", "tapes"],
+            "n": 0
+        },
+        {
+            "id": "not-a-crook",
+            "tier": "middle",
+            "t": "Told reporters in November 1973, “I am not a crook”",
+            "k": ["not a crook", "crook", "november 1973"],
+            "n": 0
+        },
+        {
+            "id": "hiss",
+            "tier": "power",
+            "t": "As a HUAC congressman, pursued Alger Hiss, accused by Whittaker Chambers of spying for the Soviets; Chambers hid microfilm in a pumpkin (the “Pumpkin Papers”)",
+            "k": ["alger hiss", "hiss", "whittaker chambers", "pumpkin papers", "huac"],
+            "n": 0
+        },
+        {
+            "id": "checkers",
+            "tier": "power",
+            "t": "“Checkers speech” (1952): on TV he defended a political fund and said his family would keep a gift dog, the cocker spaniel Checkers",
+            "k": ["checkers", "cocker spaniel", "fund"],
+            "n": 0
+        },
+        {
+            "id": "kitchen-debate",
+            "tier": "power",
+            "t": "Kitchen Debate (1959): argued with Nikita Khrushchev about capitalism and communism in a model American kitchen in Moscow",
+            "k": ["kitchen debate", "khrushchev", "moscow"],
+            "n": 0
+        },
+        {
+            "id": "helen-douglas",
+            "tier": "power",
+            "t": "Won a bitter 1950 Senate race in California over Helen Gahagan Douglas, whom he accused of being soft on communism",
+            "k": ["helen gahagan douglas", "gahagan", "1950", "senate"],
+            "n": 0
+        },
+        {
+            "id": "kick-around",
+            "tier": "power",
+            "t": "After losing the 1962 race for governor of California, told reporters they wouldn’t have him “to kick around anymore”",
+            "k": ["kick around", "1962", "governor"],
+            "n": 0
+        },
+        {
+            "id": "silent-majority",
+            "tier": "power",
+            "t": "1969 “Silent Majority” speech asked ordinary Americans who weren’t protesting to support his Vietnam policy",
+            "k": ["silent majority", "silent"],
+            "n": 0
+        },
+        {
+            "id": "kent-state",
+            "tier": "power",
+            "t": "Sent U.S. troops into Cambodia (1970); during the protests that followed, Ohio National Guard soldiers killed four students at Kent State",
+            "k": ["cambodia", "kent state"],
+            "n": 0,
+            "rabbit": "Kent State shootings"
+        },
+        {
+            "id": "gold",
+            "tier": "power",
+            "t": "Ended the dollar’s link to gold (1971), effectively ending the Bretton Woods system, and froze wages and prices for 90 days",
+            "k": ["gold", "bretton woods", "wages and prices"],
+            "n": 0
+        },
+        {
+            "id": "kissinger",
+            "tier": "power",
+            "t": "Henry Kissinger, his National Security Adviser, secretly visited China in 1971, after “ping-pong diplomacy,” to plan the trip",
+            "k": ["henry kissinger", "kissinger", "ping-pong"],
+            "n": 0
+        },
+        {
+            "id": "opera",
+            "tier": "power",
+            "t": "Subject of composer John Adams’s first opera (1987), about his trip to China",
+            "k": ["opera", "john adams", "composer"],
+            "n": 0
+        },
+        {
+            "id": "frost",
+            "tier": "power",
+            "t": "1977 TV interviews with David Frost: “When the president does it, that means that it is not illegal”",
+            "k": ["david frost", "frost", "not illegal"],
+            "n": 0
+        },
+        {
+            "id": "yorba-linda",
+            "tier": "power",
+            "t": "Born in Yorba Linda, California (1913); a Quaker who went to Whittier College and Duke’s law school",
+            "k": ["yorba linda", "quaker", "whittier", "duke"],
+            "n": 0
+        },
+        {
+            "id": "apollo-call",
+            "tier": "power",
+            "t": "Spoke by radio-telephone with Neil Armstrong and Buzz Aldrin on the Moon during Apollo 11 (1969)",
+            "k": ["apollo 11", "armstrong", "aldrin", "moon"],
+            "n": 0
+        },
+        {
+            "id": "title-ix",
+            "tier": "power",
+            "t": "Signed Title IX (1972), which bans sex discrimination in schools that receive federal money",
+            "k": ["title ix", "discrimination"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "President or scandal?",
+        "body": "Clues about the tapes, the break-in, and the Saturday Night Massacre show up in two different answer lines: Richard Nixon and the Watergate scandal. If the question asks for “this president,” Watergate is wrong, and if it asks for “this scandal,” Nixon is wrong. Vietnam clues are another trap: Lyndon Johnson sent in huge numbers of troops after the Gulf of Tonkin Resolution, while Nixon slowly brought them home through “Vietnamization.”",
+        "fix": "Listen for the noun before you buzz. “This man” or “this president” means Nixon; “this scandal” or “this affair” means Watergate. Gerald Ford is the man who replaced Nixon and pardoned him, so don’t blurt out Ford on a Nixon question.",
+        "line": "Real answer line: Richard <b><u>Nixon</u></b> (or Richard Milhous <b><u>Nixon</u></b>)"
+    },
+    "tests": {
+        "right": [
+            "Richard Nixon",
+            "Nixon",
+            "Richard M. Nixon",
+            "Richard Milhous Nixon",
+            "President Nixon",
+            "Nixen"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Gerald Ford",
+            "Watergate scandal",
+            "Spiro Agnew",
+            "Pat Nixon",
+            "Nixon in China",
+            "Dwight Eisenhower",
+            "John F. Kennedy",
+            "Henry Kissinger",
+            "Dixon"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

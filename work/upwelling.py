@@ -1,0 +1,358 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "upwelling",
+    "name": "Upwelling",
+    "mono": "UPW",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Cold, nutrient-rich deep water rising to the surface · Feeds great fisheries",
+    "dates": "Peaks off California in spring and summer",
+    "briefing": "Upwelling happens when wind pushes the ocean’s warm surface water away from a coast and cold, deep water rises to take its place. That deep water is full of nutrients, so tiny plankton bloom and feed huge schools of fish, which is why upwelling zones off Peru and California are some of the richest fishing grounds on Earth. It even helps make San Francisco’s famous summer fog.",
+    "answerHtml": "<b><u>Upwelling</u></b> (accept <u>coastal upwelling</u> or <u>equatorial upwelling</u>; do not accept “downwelling,” “Ekman transport,” or “El Niño”)",
+    "accept": [
+        "upwelling",
+        "upwellings",
+        "coastal upwelling",
+        "equatorial upwelling",
+        "ocean upwelling",
+        "oceanic upwelling",
+        "wind driven upwelling",
+        "upwelling zone",
+        "upwelling zones",
+        "upwelling system",
+        "upwelling systems",
+        "up welling"
+    ],
+    "prompt": [
+        "rising water",
+        "vertical current",
+        "vertical currents"
+    ],
+    "reject": [
+        "downwelling",
+        "downwellings",
+        "ekman transport",
+        "ekman spiral",
+        "ekman pumping",
+        "el nino",
+        "la nina",
+        "enso",
+        "el nino southern oscillation",
+        "thermohaline circulation",
+        "thermocline",
+        "convection",
+        "ocean currents",
+        "ocean current",
+        "currents",
+        "tides",
+        "tide",
+        "rip current",
+        "rip currents",
+        "gyre",
+        "gyres",
+        "humboldt current",
+        "peru current",
+        "california current",
+        "benguela current",
+        "canary current",
+        "coriolis effect",
+        "trade winds",
+        "overturning circulation",
+        "red tide",
+        "algal bloom",
+        "eutrophication"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Upwelling",
+    "qb": {
+        "q": "upwelling",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1802, Alexander von Humboldt measured the surprisingly cold sea along the west coast of South America, where this process keeps the water chilly, and the cold current there now bears his name. Seabirds feeding in those rich waters left huge piles of droppings on offshore islands.",
+            "r": "For 10 points, name this rising of cold, nutrient-rich deep water to the ocean’s surface, which makes the coasts of Peru and California so rich in fish."
+        },
+        {
+            "p": "In the 1800s, workers mined mountains of seabird droppings called guano on the Chincha Islands, left by birds that ate fish made plentiful by this process. That guano was shipped around the world as fertilizer.",
+            "r": "For 10 points, name this process in which wind-driven currents bring cold, nutrient-rich water up from the deep ocean."
+        },
+        {
+            "p": "Cold water carried by the Cromwell Current rises to the surface west of the Galápagos Islands in this process, letting Galápagos penguins live farther north than any other wild penguins.",
+            "r": "For 10 points, name this process that brings cold, nutrient-rich deep water up to the ocean’s surface, feeding rich fisheries."
+        },
+        {
+            "p": "Every summer, strong monsoon winds blowing along the coasts of Somalia and Oman drive this process in the Arabian Sea, cooling the surface water and feeding huge blooms of plankton. The same summer winds carry heavy rains to India.",
+            "r": "For 10 points, name this process, the opposite of downwelling, in which cold, deep water rises to the surface."
+        },
+        {
+            "p": "A hurricane’s winds can churn up cold water behind the storm through this process, leaving a cool trail called a cold wake that can weaken a second storm following the same path.",
+            "r": "For 10 points, name this process in which cold, deep water rises to the sea surface, often along coasts where wind pushes surface water away."
+        },
+        {
+            "p": "Cold water brought up by this process in the Benguela Current helps keep Namibia’s coast dry and foggy, and some beetles in the Namib Desert survive by drinking fog droplets that collect on their backs. Chile’s Atacama Desert has the same kind of cold coast.",
+            "r": "For 10 points, name this rising of cold, nutrient-rich water from the deep ocean, which also feeds rich fisheries off southwestern Africa."
+        },
+        {
+            "p": "Fast-growing diatoms, algae with glassy shells, usually dominate the plankton blooms fed by this process, because it brings up plenty of nitrates, phosphates, and silica from below. Those blooms feed small fish, like sardines and anchovies, that bigger fish and seabirds eat.",
+            "r": "For 10 points, name this process that supports some of the world’s richest fisheries by lifting cold, deep water to the surface."
+        },
+        {
+            "p": "In 1972, the anchoveta fishery, then the largest fishery in the world, collapsed when a strong El Niño shut off this process, on top of years of heavy fishing. Before the crash, boats had been landing millions of tons of the small fish each year, mostly to grind into fishmeal.",
+            "r": "During El Niño, weak trade winds let warm water cover the coast of Peru. For 10 points, name this rising of cold, nutrient-rich water to the surface."
+        },
+        {
+            "p": "On the Great Lakes, a strong offshore wind can trigger this process, so the water at a Lake Michigan beach can turn several degrees colder in a single day. Along ocean coasts, this process can keep beach water surprisingly cold even in summer.",
+            "r": "For 10 points, name this process in which deep, cold water rises to replace surface water pushed away by wind."
+        },
+        {
+            "p": "Satellites that measure sea-surface temperature and the green color of chlorophyll spot this process as cold, plankton-rich patches of water along the western coasts of continents, such as off northwest Africa in the Canary Current.",
+            "r": "For 10 points, name this process that brings nutrient-rich deep water up to the ocean’s surface."
+        },
+        {
+            "p": "Around Antarctica, strong winds that circle the continent drive this process, lifting deep water that has been away from the surface for centuries and feeding the krill that whales eat.",
+            "r": "For 10 points, name this process in which cold, nutrient-rich water rises from the deep ocean, the opposite of downwelling."
+        },
+        {
+            "p": "Cold water brought up by this process along the California coast chills the air above it, helping create San Francisco’s famous summer fog. This process there is strongest in spring and summer, when winds blow south along the coast.",
+            "r": "For 10 points, name this process that brings cold, nutrient-rich water up from the deep ocean."
+        },
+        {
+            "p": "Along the equator in the eastern Pacific, the trade winds push surface water away to the north and south, so cold water rises in this process and forms a cool tongue of water stretching west from South America.",
+            "r": "For 10 points, name this rising of deep ocean water, which El Niño weakens."
+        },
+        {
+            "p": "Because of the Coriolis effect, wind blowing along a coast moves the surface water at a right angle to the wind, a motion called Ekman transport. When that motion carries surface water away from the shore, this process replaces it from below.",
+            "r": "For 10 points, name this process that brings cold, nutrient-rich water to the surface off places like Peru and California."
+        },
+        {
+            "p": "This process is strongest in four big ocean currents along the western edges of continents: the California, Humboldt, Canary, and Benguela currents. Zones where it happens cover only a small part of the ocean but provide a large share of the world’s fish catch.",
+            "r": "For 10 points, name this process in which cold, nutrient-rich deep water rises to the ocean’s surface."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "Cold, nutrient-rich water rising from the deep ocean to the surface",
+            "k": ["nutrient-rich", "rising", "deep"],
+            "n": 0
+        },
+        {
+            "id": "wind",
+            "tier": "giveaway",
+            "t": "Happens when wind pushes surface water away and deep water rises to replace it",
+            "k": ["wind", "replace"],
+            "n": 0,
+            "rabbit": "Wind"
+        },
+        {
+            "id": "fisheries",
+            "tier": "giveaway",
+            "t": "Feeds the plankton that support some of the world’s richest fishing grounds",
+            "k": ["fishing grounds", "plankton"],
+            "n": 0
+        },
+        {
+            "id": "peru",
+            "tier": "giveaway",
+            "t": "Off Peru, it supports a huge fishery for a small fish called the anchoveta",
+            "k": ["peru", "anchoveta"],
+            "n": 0
+        },
+        {
+            "id": "downwelling",
+            "tier": "giveaway",
+            "t": "Its opposite, where surface water sinks, is called downwelling",
+            "k": ["downwelling", "sinks"],
+            "n": 0
+        },
+        {
+            "id": "ekman",
+            "tier": "middle",
+            "t": "The Coriolis effect turns wind-driven surface water at a right angle to the wind (Ekman transport), moving it offshore",
+            "k": ["ekman transport", "coriolis", "offshore"],
+            "n": 0,
+            "rabbit": "Coriolis effect"
+        },
+        {
+            "id": "boundary-currents",
+            "tier": "middle",
+            "t": "Strongest along the western edges of continents, in the California, Humboldt, Canary, and Benguela currents",
+            "k": ["california", "humboldt", "canary", "benguela"],
+            "n": 0,
+            "rabbit": "Ocean currents"
+        },
+        {
+            "id": "el-nino",
+            "tier": "middle",
+            "t": "During El Niño, weak trade winds shut it off near Peru, hurting the anchoveta catch",
+            "k": ["el niño", "trade winds"],
+            "n": 0,
+            "rabbit": "El Niño"
+        },
+        {
+            "id": "equatorial",
+            "tier": "middle",
+            "t": "Trade winds along the equator push surface water apart, so cold water rises in the eastern Pacific",
+            "k": ["equator", "eastern pacific"],
+            "n": 0
+        },
+        {
+            "id": "fog",
+            "tier": "middle",
+            "t": "The cold water it brings up chills the air, helping make San Francisco’s summer fog",
+            "k": ["san francisco", "fog"],
+            "n": 0
+        },
+        {
+            "id": "nutrients",
+            "tier": "middle",
+            "t": "Brings up nitrates and phosphates from decaying matter in deep water",
+            "k": ["nitrates", "phosphates"],
+            "n": 0
+        },
+        {
+            "id": "antarctica",
+            "tier": "middle",
+            "t": "Winds circling Antarctica drive it, lifting centuries-old deep water and feeding the krill that whales eat",
+            "k": ["antarctica", "krill"],
+            "n": 0
+        },
+        {
+            "id": "deserts",
+            "tier": "middle",
+            "t": "The cold coasts it creates help keep the Namib and Atacama deserts dry and foggy",
+            "k": ["namib", "atacama"],
+            "n": 0,
+            "rabbit": "Deserts"
+        },
+        {
+            "id": "small-area",
+            "tier": "middle",
+            "t": "Its zones cover only a small part of the ocean but provide a large share of the world’s fish catch",
+            "k": ["small part", "fish catch"],
+            "n": 0
+        },
+        {
+            "id": "humboldt-1802",
+            "tier": "power",
+            "t": "Alexander von Humboldt measured the cold current off western South America in 1802",
+            "k": ["alexander von humboldt", "1802"],
+            "n": 0
+        },
+        {
+            "id": "guano",
+            "tier": "power",
+            "t": "Seabirds that ate the fish it fed left guano on the Chincha Islands, mined as fertilizer in the 1800s",
+            "k": ["guano", "chincha islands"],
+            "n": 0
+        },
+        {
+            "id": "galapagos",
+            "tier": "power",
+            "t": "The Cromwell Current rises west of the Galápagos, letting Galápagos penguins live farther north than any other wild penguins",
+            "k": ["galápagos", "cromwell current", "penguins"],
+            "n": 0
+        },
+        {
+            "id": "somalia",
+            "tier": "power",
+            "t": "Summer monsoon winds drive it off Somalia and Oman in the Arabian Sea",
+            "k": ["somalia", "oman", "monsoon"],
+            "n": 0
+        },
+        {
+            "id": "cold-wake",
+            "tier": "power",
+            "t": "A hurricane can cause it, leaving a cold wake that can weaken a storm that follows",
+            "k": ["cold wake", "hurricane"],
+            "n": 0,
+            "rabbit": "Hurricanes"
+        },
+        {
+            "id": "beetles",
+            "tier": "power",
+            "t": "Some Namib Desert beetles drink fog droplets that collect on their backs",
+            "k": ["beetles", "namib desert"],
+            "n": 0
+        },
+        {
+            "id": "diatoms",
+            "tier": "power",
+            "t": "Fast-growing diatoms, algae with glassy silica shells, dominate its plankton blooms",
+            "k": ["diatoms", "silica"],
+            "n": 0
+        },
+        {
+            "id": "collapse-1972",
+            "tier": "power",
+            "t": "In 1972 the anchoveta fishery, then the world’s largest, collapsed during a strong El Niño and years of heavy fishing",
+            "k": ["1972", "collapsed"],
+            "n": 0
+        },
+        {
+            "id": "great-lakes",
+            "tier": "power",
+            "t": "Offshore winds can trigger it on the Great Lakes, chilling Lake Michigan beach water within a day",
+            "k": ["lake michigan", "great lakes"],
+            "n": 0,
+            "rabbit": "Great Lakes"
+        },
+        {
+            "id": "satellites",
+            "tier": "power",
+            "t": "Satellites spot it as cold, chlorophyll-rich patches along western coasts, like the Canary Current off northwest Africa",
+            "k": ["satellites", "chlorophyll"],
+            "n": 0
+        },
+        {
+            "id": "seasons",
+            "tier": "power",
+            "t": "Off California it is strongest in spring and summer, when winds blow south along the coast",
+            "k": ["spring and summer", "blow south"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Upwelling, El Niño, or Ekman?",
+        "body": "El Niño tossups also mention Peru, anchovies, and the trade winds, but El Niño is the warm event that shuts this process off. Ekman transport is the sideways push of surface water that causes this process, and downwelling is its opposite, where surface water sinks. Naming any of them loses the tossup.",
+        "fix": "Cold, nutrient-rich water rising to the surface, rich fisheries, and coastal fog mean upwelling. Warm water spreading east and the Southern Oscillation mean El Niño; water moving at a right angle to the wind means Ekman transport; and sinking surface water means downwelling.",
+        "line": "Real answer line: <b><u>Upwelling</u></b> (accept coastal upwelling; do not accept “downwelling” or “El Niño”)"
+    },
+    "tests": {
+        "right": [
+            "Upwelling",
+            "Coastal upwelling",
+            "Equatorial upwelling",
+            "Upweling",
+            "upwellings"
+        ],
+        "prompt": [
+            "Rising water"
+        ],
+        "wrong": [
+            "Downwelling",
+            "Ekman transport",
+            "El Nino",
+            "Ocean currents",
+            "Thermohaline circulation",
+            "Tides"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

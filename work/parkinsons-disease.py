@@ -69,7 +69,7 @@ data = {
     "tossups": [
         {
             "p": "In 1912, Friedrich Lewy described round clumps of protein inside the nerve cells of people with this disease, and those clumps are now called Lewy bodies. They are made largely of a protein called alpha-synuclein [“sih-NOO-klee-in”].",
-            "r": "This disease destroys dopamine-making cells in the brain. For 10 points, name this movement disorder that often causes a tremor in a resting hand."
+            "r": "In this disease, dopamine-making cells in the brain are lost. For 10 points, name this movement disorder that often causes a tremor in a resting hand."
         },
         {
             "p": "Arvid Carlsson shared the 2000 Nobel Prize in medicine partly for showing that animals given the drug reserpine became slow and stiff, much like people with this disease, until they received L-DOPA. His work showed that dopamine is a brain messenger in its own right.",
@@ -105,7 +105,7 @@ data = {
         },
         {
             "p": "Doctors call the classic shaking of this disease a “pill-rolling” tremor, because the thumb and fingers rub together as if rolling a small pill between them. That tremor is usually strongest when the hand is resting and fades when the person reaches for something.",
-            "r": "For 10 points, name this disease caused by the loss of dopamine-making neurons in the brain."
+            "r": "For 10 points, name this disease linked to the loss of dopamine-making neurons in the brain."
         },
         {
             "p": "Medical students remember this disease’s four main signs with the word TRAP: tremor, rigidity, akinesia [“ay-kih-NEE-zhuh”] or slowness, and postural instability, which means trouble with balance. Many people with this disease walk with short, shuffling steps.",
@@ -116,7 +116,7 @@ data = {
             "r": "This disease damages dopamine-making cells in the substantia nigra. For 10 points, name this disease that often begins with a tremor in one hand."
         },
         {
-            "p": "This disease is the second most common neurodegenerative disease after Alzheimer’s, and it usually begins after age 60. Unlike Huntington’s disease, which is caused by a single inherited gene, this disease usually has no single known cause.",
+            "p": "This disease is the second most common neurodegenerative disease after Alzheimer’s, and it usually begins after age 60. Unlike Huntington’s disease, which is caused by a change in a single inherited gene, this disease usually has no single known cause.",
             "r": "For 10 points, name this disease that slowly makes movement harder, often starting with a tremor in one hand."
         },
         {

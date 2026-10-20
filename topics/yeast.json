@@ -1,0 +1,449 @@
+{
+  "id": "yeast",
+  "name": "Yeast",
+  "mono": "YST",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Single-celled fungi · Make bread rise by fermenting sugar",
+  "dates": "First eukaryote genome sequenced, 1996",
+  "briefing": "Yeasts are single-celled fungi, and one species, baker’s yeast, has helped people make bread for thousands of years. When yeast cells ferment sugar without oxygen, they release carbon dioxide gas, which puffs up bread dough, along with ethanol. Because they are simple, fast-growing cells with a nucleus like ours, yeasts are also favorite lab organisms, and research on them has won several Nobel Prizes.",
+  "answerHtml": "<b><u>Yeast</u></b> (accept <u>yeasts</u>, <u>Saccharomyces</u>, or <u>Saccharomyces cerevisiae</u>; accept <u>baker’s yeast</u> or <u>brewer’s yeast</u>; prompt on <u>fungi</u> or <u>fungus</u>; do not accept “mold” or “bacteria”)",
+  "accept": [
+    "yeast",
+    "yeasts",
+    "saccharomyces",
+    "saccharomyces cerevisiae",
+    "s cerevisiae",
+    "bakers yeast",
+    "brewers yeast",
+    "budding yeast",
+    "fission yeast",
+    "yeast cells",
+    "yeast cell"
+  ],
+  "prompt": [
+    "fungi",
+    "fungus",
+    "single celled fungi",
+    "single celled fungus",
+    "unicellular fungi",
+    "unicellular fungus",
+    "sac fungi",
+    "ascomycetes",
+    "microbes",
+    "microorganisms"
+  ],
+  "reject": [
+    "mold",
+    "molds",
+    "mould",
+    "moulds",
+    "mushroom",
+    "mushrooms",
+    "bacteria",
+    "bacterium",
+    "lactobacillus",
+    "e coli",
+    "penicillium",
+    "algae",
+    "protists",
+    "lichen",
+    "lichens",
+    "fermentation",
+    "ethanol",
+    "baking soda",
+    "baking powder",
+    "sourdough"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Yeast",
+  "qb": {
+    "q": "yeast",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Yoshinori Ohsumi won the 2016 Nobel Prize in Physiology or Medicine for using these organisms to work out how autophagy [“aw-TOFF-uh-jee”] works, the process by which cells break down and recycle their own parts. Roger Kornberg won a 2006 Nobel Prize for showing, with an enzyme from these organisms, how cells copy DNA into RNA.",
+      "r": "In 1996, the baker’s species became the first eukaryote with a fully sequenced genome. For 10 points, name these single-celled fungi."
+    },
+    {
+      "p": "Paul Nurse shared the 2001 Nobel Prize in Physiology or Medicine for finding the gene cdc2, which controls cell division, in a species of these organisms that divides by splitting in two. That species’ name, pombe, comes from a Swahili word for beer.",
+      "r": "A more common species of these organisms reproduces by budding and is used to make bread. For 10 points, name these single-celled fungi."
+    },
+    {
+      "p": "Randy Schekman shared a 2013 Nobel Prize for studying mutant cells of these organisms that could not ship proteins out properly, revealing genes that control how tiny bubbles called vesicles move cargo. Leland Hartwell shared a 2001 Nobel Prize for finding “cell division cycle” genes in the same kind of organism.",
+      "r": "Many of these organisms reproduce by budding. For 10 points, name these single-celled fungi that make bread rise."
+    },
+    {
+      "p": "Eduard Buchner won the 1907 Nobel Prize in Chemistry for showing that juice squeezed from ground-up cells of these organisms could still ferment sugar, even though the cells were dead. Wilhelm Kühne [“KOO-nuh”] coined the word “enzyme” from Greek words meaning “in leaven,” referring to these organisms.",
+      "r": "During fermentation, these organisms turn sugar into ethanol and carbon dioxide. For 10 points, name these single-celled fungi."
+    },
+    {
+      "p": "Justus von Liebig [“LEE-big”] argued that fermentation was a purely chemical process, but Louis Pasteur showed that it is carried out by these living organisms. An effect named for Pasteur describes how oxygen slows down fermentation by these organisms, which can switch to aerobic respiration when oxygen is present.",
+      "r": "Without oxygen, they turn sugar into ethanol and carbon dioxide. For 10 points, name these single-celled fungi used in baking and brewing."
+    },
+    {
+      "p": "In 1883, Emil Christian Hansen of the Carlsberg Laboratory in Copenhagen grew a pure culture from a single cell of these organisms, so brewers could stop wild strains from spoiling their batches. A species he studied was long named for that Danish brewery.",
+      "r": "Louis Pasteur showed that these living organisms cause fermentation. For 10 points, name these single-celled fungi that reproduce by budding."
+    },
+    {
+      "p": "Cells of these organisms come in two mating types, called a and alpha, which signal each other with pheromones. When a cell senses the opposite type, it grows a projection nicknamed a “shmoo,” after a cartoon creature from the comic strip _Li’l Abner_.",
+      "r": "These organisms usually reproduce by budding. For 10 points, name these single-celled fungi that make bread rise."
+    },
+    {
+      "p": "Each time a mother cell of these organisms produces a daughter, it is left with a ring-shaped scar rich in chitin [“KYE-tin”], so counting those scars shows how many daughters it has made. Each daughter grows as a small bulge on the mother cell before pinching off.",
+      "r": "This kind of reproduction is called budding. For 10 points, name these single-celled fungi that release carbon dioxide to make bread rise."
+    },
+    {
+      "p": "Under stress, cells of the baker’s species of these organisms can undergo meiosis and form four spores inside a sac called an ascus [“ASS-kus”], so that species is classified as a sac fungus. Their cell walls are built mostly from sugar chains called glucans, with a smaller amount of chitin.",
+      "r": "Bakers often buy them as dry granules in small packets. For 10 points, name these single-celled fungi that make bread dough rise."
+    },
+    {
+      "p": "In 1986, a vaccine against hepatitis B became the first vaccine made with recombinant DNA, after scientists inserted a viral gene into these organisms so they would produce a harmless viral protein. Some insulin for people with diabetes is also made by genetically engineered cells of these organisms.",
+      "r": "Like human cells, they are eukaryotes with a nucleus. For 10 points, name these single-celled fungi used in baking."
+    },
+    {
+      "p": "Marmite, first made in 1902 in the English brewing town of Burton upon Trent, and Australia’s Vegemite are salty spreads made from extracts of these organisms left over from brewing. A flaky, deactivated form of these organisms is sold as a cheese-flavored topping.",
+      "r": "They give off carbon dioxide gas. For 10 points, name these single-celled fungi that bakers use to make bread dough rise."
+    },
+    {
+      "p": "The scientific name of the most familiar species of these organisms comes from Greek and Latin words meaning “sugar fungus” and “of beer.” Ancient Egyptians used these organisms to make bread thousands of years ago.",
+      "r": "Jewish families eat matzah, a flat bread made without them or any other leavening, during Passover. For 10 points, name these single-celled fungi."
+    },
+    {
+      "p": "Most of the ethanol blended into American gasoline is made when these organisms ferment sugars from corn. In a kitchen, the gas they release gets trapped in a stretchy protein network called gluten, while the ethanol they make mostly evaporates in the oven.",
+      "r": "That gas, carbon dioxide, makes bread dough rise. For 10 points, name these single-celled fungi used in baking."
+    },
+    {
+      "p": "Arthur Harden and Hans von Euler-Chelpin shared the 1929 Nobel Prize in Chemistry for studying how extracts of these organisms ferment sugar. In 1965, Robert Holley worked out the full sequence of a transfer RNA molecule taken from these organisms.",
+      "r": "These organisms are fungi that usually reproduce by budding. For 10 points, name these single-celled organisms that make bread rise."
+    },
+    {
+      "p": "In a two-hybrid screen, invented by Stanley Fields in 1989, scientists test whether two proteins stick together by checking whether they switch on a reporter gene inside cells of these organisms. The baker’s species of these organisms has 16 chromosomes and about 6,000 genes.",
+      "r": "Wild ones in a sourdough starter work alongside lactic acid bacteria. For 10 points, name these single-celled fungi that make bread rise."
+    }
+  ],
+  "clues": [
+    {
+      "id": "single-celled-fungi",
+      "tier": "giveaway",
+      "t": "Single-celled members of the kingdom Fungi",
+      "k": [
+        "single-celled",
+        "kingdom fungi"
+      ],
+      "n": 0,
+      "rabbit": "Fungi"
+    },
+    {
+      "id": "bread-rise",
+      "tier": "giveaway",
+      "t": "Release carbon dioxide gas that makes bread dough rise",
+      "k": [
+        "carbon dioxide",
+        "bread",
+        "rise"
+      ],
+      "n": 0,
+      "rabbit": "Carbon dioxide"
+    },
+    {
+      "id": "baking-brewing",
+      "tier": "giveaway",
+      "t": "Used for thousands of years in baking and brewing",
+      "k": [
+        "baking",
+        "brewing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "budding",
+      "tier": "giveaway",
+      "t": "Most reproduce by budding: a small daughter cell bulges out of the mother cell and pinches off",
+      "k": [
+        "budding",
+        "daughter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fermentation",
+      "tier": "middle",
+      "t": "Without oxygen, they ferment sugar into ethanol and carbon dioxide",
+      "k": [
+        "ferment",
+        "ethanol",
+        "without oxygen"
+      ],
+      "n": 0,
+      "rabbit": "Glycolysis"
+    },
+    {
+      "id": "pasteur",
+      "tier": "middle",
+      "t": "Louis Pasteur showed that living cells of them cause fermentation, against Justus von Liebig; oxygen slows their fermentation (the Pasteur effect)",
+      "k": [
+        "pasteur",
+        "liebig",
+        "pasteur effect"
+      ],
+      "n": 0,
+      "rabbit": "Louis Pasteur"
+    },
+    {
+      "id": "facultative",
+      "tier": "middle",
+      "t": "When oxygen is present, they can switch to aerobic respiration instead of fermenting",
+      "k": [
+        "aerobic respiration",
+        "oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eukaryote",
+      "tier": "middle",
+      "t": "Eukaryotes with a nucleus, like human cells and unlike bacteria",
+      "k": [
+        "eukaryotes",
+        "nucleus",
+        "bacteria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "genome-1996",
+      "tier": "middle",
+      "t": "The baker’s species was the first eukaryote with a fully sequenced genome (1996): 16 chromosomes and about 6,000 genes",
+      "k": [
+        "first eukaryote",
+        "1996",
+        "16 chromosomes",
+        "6,000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "matzah",
+      "tier": "middle",
+      "t": "Matzah, eaten at Passover, is a flat bread made without them or any other leavening",
+      "k": [
+        "matzah",
+        "passover",
+        "leavening"
+      ],
+      "n": 0,
+      "rabbit": "Passover"
+    },
+    {
+      "id": "sourdough",
+      "tier": "middle",
+      "t": "Wild ones in a sourdough starter work alongside lactic acid bacteria",
+      "k": [
+        "sourdough",
+        "lactic acid bacteria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ohsumi-kornberg",
+      "tier": "power",
+      "t": "Yoshinori Ohsumi used them to work out autophagy (2016 Nobel Prize); Roger Kornberg used their enzyme to show how cells copy DNA into RNA (2006)",
+      "k": [
+        "ohsumi",
+        "autophagy",
+        "kornberg"
+      ],
+      "n": 0,
+      "rabbit": "Transcription"
+    },
+    {
+      "id": "hartwell-nurse",
+      "tier": "power",
+      "t": "Leland Hartwell found “cell division cycle” genes in the budding species and Paul Nurse found cdc2 in the fission species pombe (Swahili for “beer”); both shared the 2001 Nobel Prize",
+      "k": [
+        "hartwell",
+        "paul nurse",
+        "cdc2",
+        "pombe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "schekman",
+      "tier": "power",
+      "t": "Randy Schekman used mutant cells that couldn’t ship proteins out to find genes for vesicle traffic (2013 Nobel Prize)",
+      "k": [
+        "schekman",
+        "vesicle",
+        "2013"
+      ],
+      "n": 0,
+      "rabbit": "Golgi apparatus"
+    },
+    {
+      "id": "buchner-kuhne",
+      "tier": "power",
+      "t": "Eduard Buchner showed in 1897 that juice from their ground-up cells still ferments sugar (1907 Nobel Prize); Wilhelm Kühne coined “enzyme” from Greek for “in leaven”",
+      "k": [
+        "buchner",
+        "kühne",
+        "1897",
+        "in leaven"
+      ],
+      "n": 0,
+      "rabbit": "Enzymes"
+    },
+    {
+      "id": "hansen",
+      "tier": "power",
+      "t": "Emil Christian Hansen grew a pure culture from a single cell at the Carlsberg Laboratory in Copenhagen (1883)",
+      "k": [
+        "hansen",
+        "carlsberg",
+        "pure culture",
+        "1883"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mating-shmoo",
+      "tier": "power",
+      "t": "Cells come in mating types a and alpha; a cell sensing the other type grows a “shmoo,” named for a cartoon creature from _Li’l Abner_",
+      "k": [
+        "mating types",
+        "shmoo",
+        "alpha"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bud-scars",
+      "tier": "power",
+      "t": "Budding leaves chitin-rich bud scars on the mother cell, so counting them shows how many daughters it has made",
+      "k": [
+        "bud scars",
+        "chitin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ascus",
+      "tier": "power",
+      "t": "Under stress, the baker’s species forms four spores in a sac called an ascus, so it is a sac fungus; their cell walls are mostly glucans",
+      "k": [
+        "ascus",
+        "four spores",
+        "sac fungus",
+        "glucans"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hepatitis-b",
+      "tier": "power",
+      "t": "The first recombinant DNA vaccine, against hepatitis B (1986), is made in them, and so is some insulin",
+      "k": [
+        "hepatitis b",
+        "recombinant",
+        "1986",
+        "insulin"
+      ],
+      "n": 0,
+      "rabbit": "Insulin"
+    },
+    {
+      "id": "marmite",
+      "tier": "power",
+      "t": "Marmite (first made in 1902 in Burton upon Trent, England) and Vegemite are spreads made from their extract",
+      "k": [
+        "marmite",
+        "vegemite",
+        "burton upon trent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sugar-fungus",
+      "tier": "power",
+      "t": "The baker’s species’ scientific name means “sugar fungus of beer”; ancient Egyptians used them to make bread",
+      "k": [
+        "sugar fungus",
+        "egyptians"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gluten-fuel",
+      "tier": "power",
+      "t": "Their carbon dioxide gets trapped in stretchy gluten; most U.S. fuel ethanol comes from their fermenting corn sugars",
+      "k": [
+        "gluten",
+        "fuel ethanol",
+        "corn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "harden-holley",
+      "tier": "power",
+      "t": "Arthur Harden and Hans von Euler-Chelpin won the 1929 Nobel Prize for studying their fermentation; Robert Holley sequenced a transfer RNA from them in 1965",
+      "k": [
+        "harden",
+        "euler-chelpin",
+        "holley",
+        "1929"
+      ],
+      "n": 0,
+      "rabbit": "RNA"
+    },
+    {
+      "id": "two-hybrid",
+      "tier": "power",
+      "t": "In Stanley Fields’s two-hybrid screen (1989), proteins that stick together switch on a reporter gene inside their cells",
+      "k": [
+        "two-hybrid",
+        "stanley fields",
+        "reporter gene"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Organism, kingdom, or process?",
+    "body": "Tossups on yeast keep mentioning fermentation, bread, and the kingdom Fungi, so players buzz with “fermentation” (the process), “fungi” (the whole kingdom, which only earns a prompt), or “mold.” Others confuse yeast with the bacteria used to make yogurt, or with baking soda, a chemical that also makes baked goods rise.",
+    "fix": "If the question asks for “these organisms” or “these single-celled fungi” that bud, make bread rise, or turn sugar into ethanol, say yeast. Say fermentation only for “this process,” and say fungi only if the question asks for the whole kingdom.",
+    "line": "Real answer line: <b><u>Yeast</u></b> (accept <u>Saccharomyces</u>; accept <u>baker’s yeast</u> or <u>brewer’s yeast</u>; prompt on <u>fungi</u>; do not accept “mold” or “bacteria”)"
+  },
+  "tests": {
+    "right": [
+      "Yeast",
+      "yeasts",
+      "Saccharomyces cerevisiae",
+      "Baker's yeast",
+      "Yeest",
+      "Brewer’s yeast"
+    ],
+    "prompt": [
+      "Fungi",
+      "Fungus",
+      "single-celled fungi"
+    ],
+    "wrong": [
+      "Mold",
+      "Bacteria",
+      "Mushrooms",
+      "Penicillium",
+      "Fermentation",
+      "Algae",
+      "Baking soda"
+    ]
+  }
+}

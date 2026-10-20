@@ -1,0 +1,446 @@
+{
+  "id": "thyroid-gland",
+  "name": "Thyroid gland",
+  "mono": "THY",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Butterfly-shaped gland in the neck · Uses iodine to set metabolism",
+  "dates": "Main hormone isolated in 1914",
+  "briefing": "Your thyroid gland is shaped like a butterfly and wraps around the front of your windpipe, just below your Adam’s apple. It uses iodine from your food to make hormones called T3 and T4, which set how fast your body burns energy, and it also makes calcitonin, which helps control calcium. Without enough iodine, the gland can swell into a lump called a goiter, which is why table salt is often “iodized.”",
+  "answerHtml": "<b><u>Thyroid</u></b> gland (do not accept “parathyroid glands” or “thymus”)",
+  "accept": [
+    "thyroid",
+    "thyroid gland",
+    "thyroid glands",
+    "thyriod"
+  ],
+  "prompt": [],
+  "reject": [
+    "parathyroid",
+    "parathyroids",
+    "parathyroid gland",
+    "parathyroid glands",
+    "para thyroid",
+    "thymus",
+    "thymus gland",
+    "pituitary gland",
+    "pituitary",
+    "hypothalamus",
+    "adrenal glands",
+    "adrenal gland",
+    "pancreas",
+    "pineal gland",
+    "larynx",
+    "trachea",
+    "thyroid cartilage",
+    "adams apple",
+    "thyroxine",
+    "triiodothyronine",
+    "thyroid hormone",
+    "thyroid hormones",
+    "thyroid stimulating hormone",
+    "tsh",
+    "calcitonin",
+    "iodine",
+    "goiter",
+    "goitre",
+    "hyperthyroidism",
+    "hypothyroidism",
+    "thyroglobulin",
+    "tonsils",
+    "salivary glands",
+    "lymph nodes"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Thyroid",
+  "qb": {
+    "q": "thyroid",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Swiss surgeon Theodor Kocher [“KOKH-er”] won the 1909 Nobel Prize for his work on the surgery and diseases of this gland. Some of his patients who had all of this gland removed developed serious health problems, a clue that it makes essential hormones.",
+      "r": "Its hormones control metabolism. For 10 points, name this butterfly-shaped gland in the neck that makes thyroxine."
+    },
+    {
+      "p": "In 1912, J. F. Gudernatsch [“GOO-der-nahch”] fed tadpoles bits of this gland taken from horses and found that they turned into tiny frogs much earlier than normal. A hormone from this gland triggers that metamorphosis in amphibians.",
+      "r": "In humans, this gland sits in the front of the neck. For 10 points, name this gland whose hormones control metabolism."
+    },
+    {
+      "p": "Parafollicular [“pair-uh-fuh-LIK-yoo-ler”] cells, or C cells, in this gland make calcitonin, a hormone that lowers the calcium level in the blood. Usually four tiny glands that do the opposite job, raising blood calcium, sit on this gland’s back surface.",
+      "r": "For 10 points, name this butterfly-shaped gland in the neck that uses iodine to make hormones."
+    },
+    {
+      "p": "Called Basedow’s [“BAH-zuh-dohz”] disease in much of Europe, Graves’ disease is an autoimmune disorder in which antibodies switch on this gland so that it makes too much hormone. President George H. W. Bush and First Lady Barbara Bush both had it.",
+      "r": "For 10 points, name this gland, found in the neck, whose hormones control metabolism."
+    },
+    {
+      "p": "In 1912, Japanese doctor Hakaru Hashimoto described a condition in which the immune system slowly damages this gland, a common cause of its underactive form. Many people with that condition take levothyroxine [“lee-voh-thy-ROK-seen”], a lab-made copy of this gland’s main hormone.",
+      "r": "For 10 points, name this gland in the neck that makes the hormones T3 and T4."
+    },
+    {
+      "p": "Starting in 1917, David Marine and O. P. Kimball gave small doses of a supplement to schoolgirls in Akron, Ohio, and showed that it prevented a swelling of this gland that was common around the Great Lakes.",
+      "r": "The supplement was iodine, and the swelling is called a goiter. For 10 points, name this gland in the neck."
+    },
+    {
+      "p": "This gland is built from tiny hollow balls called follicles, each lined with cells and filled with a protein-rich gel called colloid, which stores this gland’s hormones until the body needs them. The cells build those hormones from the amino acid tyrosine.",
+      "r": "Those hormones carry four or three iodine atoms each, giving them the names T4 and T3. For 10 points, name this butterfly-shaped gland in the neck."
+    },
+    {
+      "p": "Edward Kendall, who later shared a Nobel Prize for work on cortisone, isolated this gland’s main hormone in 1914. Charles Harington later worked out that hormone’s structure and made it in a lab.",
+      "r": "That hormone, thyroxine, is also called T4. For 10 points, name this gland that wraps around the front of the windpipe."
+    },
+    {
+      "p": "This gland’s two lobes are joined by a narrow bridge of tissue called the isthmus, and many people also have a small third part called the pyramidal lobe. Its name comes from a Greek word for a shield.",
+      "r": "It sits just below the Adam’s apple. For 10 points, name this butterfly-shaped gland in the front of the neck."
+    },
+    {
+      "p": "The hypothalamus starts a chain of signals by releasing TRH, and high levels of this gland’s hormones later shut that chain down by negative feedback. Doctors often test how well this gland is working by measuring the chain’s middle signal in the blood.",
+      "r": "That signal, TSH, comes from the pituitary gland. For 10 points, name this gland that makes thyroxine."
+    },
+    {
+      "p": "In 1941, Saul Hertz began treating overactive versions of this gland with a radioactive form of an element that this gland collects. After nuclear accidents, people nearby may take potassium iodide pills to keep the radioactive form out of this gland.",
+      "r": "That element is iodine, which this gland uses to make its hormones. For 10 points, name this gland in the neck."
+    },
+    {
+      "p": "Unlike most hormones built from amino acids, this gland’s main hormones enter cells and bind receptors inside the nucleus, where they switch genes on and off. Enzymes in organs such as the liver turn its main product into a more active form by removing one atom.",
+      "r": "That atom is iodine, which changes T4 into T3. For 10 points, name this gland whose hormones set the body’s metabolic rate."
+    },
+    {
+      "p": "Newborn babies in many countries get a heel-prick blood test that checks, among other things, whether this gland is working, since too little of its hormones can slow a baby’s growth and brain development. Early treatment with its hormone helps those babies grow and develop normally.",
+      "r": "Those hormones contain iodine. For 10 points, name this gland in the neck that controls metabolism."
+    },
+    {
+      "p": "The endostyle [“EN-doh-style”], a food-trapping groove in sea squirts and lancelets, is thought to be the ancient version of this gland, and in lampreys the endostyle turns into this gland as the larva grows up.",
+      "r": "In humans, this gland makes thyroxine, which helps control metabolism. For 10 points, name this butterfly-shaped gland in the neck."
+    },
+    {
+      "p": "The axolotl [“AK-suh-lot-ul”], a Mexican salamander that normally keeps its feathery gills for life, can be pushed into changing into an adult form by giving it this gland’s main hormone. Tadpoles whose bodies lack that hormone never turn into frogs.",
+      "r": "Its hormones also control human metabolism. For 10 points, name this butterfly-shaped gland in the neck."
+    }
+  ],
+  "clues": [
+    {
+      "id": "butterfly-neck",
+      "tier": "giveaway",
+      "t": "A butterfly-shaped gland in the front of the neck",
+      "k": [
+        "butterfly-shaped",
+        "neck"
+      ],
+      "n": 0
+    },
+    {
+      "id": "metabolism",
+      "tier": "giveaway",
+      "t": "Its hormones control metabolism, how fast the body uses energy",
+      "k": [
+        "metabolism",
+        "energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thyroxine",
+      "tier": "giveaway",
+      "t": "Makes the hormones thyroxine (T4) and triiodothyronine (T3)",
+      "k": [
+        "triiodothyronine",
+        "thyroxine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iodine",
+      "tier": "giveaway",
+      "t": "Needs iodine to make its hormones, which is why table salt is often “iodized”",
+      "k": [
+        "iodine",
+        "iodized"
+      ],
+      "n": 0,
+      "rabbit": "Halogens"
+    },
+    {
+      "id": "goiter",
+      "tier": "giveaway",
+      "t": "A swollen version of it is called a goiter, often caused by too little iodine",
+      "k": [
+        "goiter",
+        "swollen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tsh",
+      "tier": "middle",
+      "t": "The pituitary gland’s TSH tells it to release hormones, and high hormone levels shut TSH off by negative feedback",
+      "k": [
+        "negative feedback",
+        "pituitary",
+        "tsh"
+      ],
+      "n": 0,
+      "rabbit": "Pituitary gland"
+    },
+    {
+      "id": "calcitonin",
+      "tier": "middle",
+      "t": "Its C cells (parafollicular cells) make calcitonin, which lowers blood calcium",
+      "k": [
+        "calcitonin",
+        "c cells",
+        "calcium"
+      ],
+      "n": 0,
+      "rabbit": "Calcium"
+    },
+    {
+      "id": "four-tiny-glands",
+      "tier": "middle",
+      "t": "Usually four tiny glands on its back surface make a hormone that raises blood calcium",
+      "k": [
+        "four tiny glands",
+        "back surface"
+      ],
+      "n": 0
+    },
+    {
+      "id": "graves",
+      "tier": "middle",
+      "t": "Graves’ disease, the most common cause of an overactive one, is autoimmune: antibodies switch it on",
+      "k": [
+        "graves",
+        "autoimmune",
+        "overactive"
+      ],
+      "n": 0,
+      "rabbit": "Antibodies"
+    },
+    {
+      "id": "hashimoto",
+      "tier": "middle",
+      "t": "Hashimoto’s disease (described in 1912) is an autoimmune cause of an underactive one, often treated with levothyroxine",
+      "k": [
+        "levothyroxine",
+        "hashimoto",
+        "underactive"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tyrosine-iodine",
+      "tier": "middle",
+      "t": "Its hormones are built from the amino acid tyrosine plus iodine atoms: four in T4, three in T3",
+      "k": [
+        "tyrosine",
+        "iodine atoms"
+      ],
+      "n": 0,
+      "rabbit": "Amino acids"
+    },
+    {
+      "id": "metamorphosis",
+      "tier": "middle",
+      "t": "Its main hormone triggers metamorphosis in tadpoles and other amphibians",
+      "k": [
+        "metamorphosis",
+        "tadpoles"
+      ],
+      "n": 0,
+      "rabbit": "Metamorphosis"
+    },
+    {
+      "id": "shield-name",
+      "tier": "middle",
+      "t": "Its name comes from a Greek word for a shield",
+      "k": [
+        "shield",
+        "greek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "adams-apple",
+      "tier": "middle",
+      "t": "It sits just below the Adam’s apple and wraps around the front of the windpipe",
+      "k": [
+        "adam’s apple",
+        "windpipe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kocher",
+      "tier": "power",
+      "t": "Swiss surgeon Theodor Kocher won the 1909 Nobel Prize for his work on its surgery and diseases",
+      "k": [
+        "kocher",
+        "1909"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kendall-harington",
+      "tier": "power",
+      "t": "Edward Kendall isolated its main hormone, thyroxine, in 1914; Charles Harington later worked out its structure",
+      "k": [
+        "harington",
+        "kendall",
+        "1914"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gudernatsch",
+      "tier": "power",
+      "t": "In 1912, J. F. Gudernatsch fed tadpoles tissue from it, taken from horses, and they became frogs early",
+      "k": [
+        "gudernatsch",
+        "horses",
+        "1912"
+      ],
+      "n": 0
+    },
+    {
+      "id": "axolotl",
+      "tier": "power",
+      "t": "Its hormone can push an axolotl, a salamander that keeps its gills, into an adult form; tadpoles lacking that hormone never become frogs",
+      "k": [
+        "axolotl",
+        "salamander"
+      ],
+      "n": 0
+    },
+    {
+      "id": "follicles",
+      "tier": "power",
+      "t": "Built of hollow follicles filled with colloid, a gel made mostly of the protein thyroglobulin",
+      "k": [
+        "thyroglobulin",
+        "follicles",
+        "colloid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "isthmus",
+      "tier": "power",
+      "t": "Its two lobes are joined by a bridge called the isthmus; many people also have a small pyramidal lobe",
+      "k": [
+        "isthmus",
+        "pyramidal lobe",
+        "lobes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trh-feedback",
+      "tier": "power",
+      "t": "TRH from the hypothalamus starts its control chain, and doctors check how well it works by measuring TSH in the blood",
+      "k": [
+        "hypothalamus",
+        "trh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radioactive-iodine",
+      "tier": "power",
+      "t": "Saul Hertz began treating overactive ones with radioactive iodine in 1941; potassium iodide pills after nuclear accidents keep radioactive iodine out of it",
+      "k": [
+        "potassium iodide",
+        "saul hertz",
+        "1941"
+      ],
+      "n": 0,
+      "rabbit": "Potassium"
+    },
+    {
+      "id": "marine-kimball",
+      "tier": "power",
+      "t": "David Marine and O. P. Kimball’s study of Akron, Ohio, schoolgirls (from 1917) showed that iodine prevents goiters, once common around the Great Lakes",
+      "k": [
+        "great lakes",
+        "kimball",
+        "akron",
+        "marine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "basedow-bushes",
+      "tier": "power",
+      "t": "Graves’ disease is called Basedow’s disease in much of Europe; George H. W. Bush and Barbara Bush both had it",
+      "k": [
+        "basedow",
+        "barbara bush"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nuclear-receptors",
+      "tier": "power",
+      "t": "Its hormones bind receptors inside the nucleus; organs such as the liver turn T4 into the more active T3 by removing one iodine atom",
+      "k": [
+        "more active",
+        "receptors",
+        "nucleus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "newborn-screening",
+      "tier": "power",
+      "t": "Newborns get a heel-prick test that checks whether it works, since too little of its hormone can slow growth and brain development",
+      "k": [
+        "heel-prick",
+        "newborns"
+      ],
+      "n": 0
+    },
+    {
+      "id": "endostyle",
+      "tier": "power",
+      "t": "The endostyle, a food-trapping groove in sea squirts, lancelets, and larval lampreys, is thought to be its ancient version",
+      "k": [
+        "endostyle",
+        "lancelets",
+        "lampreys"
+      ],
+      "n": 0,
+      "rabbit": "Chordates"
+    }
+  ],
+  "trap": {
+    "title": "Thyroid, parathyroid, or thymus?",
+    "body": "Three glands sound alike. The parathyroid glands, usually four tiny glands on the back of this one, raise blood calcium, while this gland’s calcitonin lowers it. The thymus, in the chest behind the breastbone, trains T cells. Players also answer a hormone (thyroxine or TSH) or the swelling (goiter) instead of the gland.",
+    "fix": "A butterfly shape, iodine, thyroxine, T3 and T4, calcitonin, goiters, or metabolism mean the thyroid. Parathyroid hormone or “four tiny glands” mean the parathyroids, and T cells maturing means the thymus. If the question asks for “this gland,” don’t answer a hormone.",
+    "line": "Real answer line: <b><u>Thyroid</u></b> gland (do not accept “parathyroid glands” or “thymus”)"
+  },
+  "tests": {
+    "right": [
+      "Thyroid",
+      "Thyroid gland",
+      "the thyroid",
+      "Thyriod",
+      "thyroid glands"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Parathyroid glands",
+      "Thymus",
+      "Pituitary gland",
+      "Thyroxine",
+      "Thyroid hormone",
+      "Goiter",
+      "Thyroid cartilage"
+    ]
+  }
+}

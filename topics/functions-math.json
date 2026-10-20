@@ -1,0 +1,483 @@
+{
+  "id": "functions-math",
+  "name": "Functions (math)",
+  "mono": "FX",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Rules that turn each input into exactly one output · Written f(x)",
+  "dates": "Named by Gottfried Leibniz in 1673",
+  "briefing": "A function is a rule that takes each input and gives back exactly one output, like a machine that doubles any number you feed it. We write f(x) = 2x, so f(3) = 6, a notation first written by Leonhard Euler. Functions can be drawn as graphs, and a graph shows a function only if no vertical line crosses it more than once. Almost every formula in science, from a ball’s height over time to a pizza’s price by size, is a function.",
+  "answerHtml": "<b><u>function</u></b>s (accept <u>map</u>s or <u>mapping</u>s; prompt on <u>relation</u>s; do not accept a specific kind like “trigonometric functions”)",
+  "accept": [
+    "functions",
+    "function",
+    "mathematical function",
+    "mathematical functions",
+    "math function",
+    "math functions",
+    "functions math",
+    "function math",
+    "mapping",
+    "mappings",
+    "map",
+    "maps"
+  ],
+  "prompt": [
+    "relation",
+    "relations",
+    "binary relation",
+    "f x",
+    "f of x"
+  ],
+  "reject": [
+    "trigonometric functions",
+    "trigonometric function",
+    "trig functions",
+    "trig function",
+    "exponential function",
+    "exponential functions",
+    "logarithmic function",
+    "logarithmic functions",
+    "polynomial function",
+    "polynomial functions",
+    "rational function",
+    "rational functions",
+    "linear function",
+    "linear functions",
+    "quadratic function",
+    "quadratic functions",
+    "inverse function",
+    "inverse functions",
+    "composite function",
+    "function composition",
+    "composition",
+    "even function",
+    "odd function",
+    "step function",
+    "logistic function",
+    "gamma function",
+    "zeta function",
+    "wave function",
+    "wavefunction",
+    "busy beaver function",
+    "domain",
+    "range",
+    "codomain",
+    "equation",
+    "equations",
+    "graph",
+    "graphs",
+    "derivative",
+    "integral",
+    "taylor series",
+    "fourier series",
+    "lambda calculus",
+    "fraction",
+    "fractions",
+    "fiction",
+    "junction",
+    "functional",
+    "functionalism",
+    "functor"
+  ],
+  "tests": {
+    "right": [
+      "function",
+      "Functions",
+      "functons",
+      "mapping",
+      "mathematical function",
+      "Functions (math)"
+    ],
+    "prompt": [
+      "relation",
+      "f(x)"
+    ],
+    "wrong": [
+      "trigonometric functions",
+      "fraction",
+      "fiction",
+      "linear function",
+      "domain",
+      "equation"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Function_(mathematics)",
+  "qb": {
+    "q": "function",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Peter Gustav Lejeune Dirichlet [“deer-ih-KLAY”], often credited with the modern definition of these objects, described an example that equals 1 at every rational number and 0 at every irrational number. That example is not continuous at any point, since every interval contains both kinds of numbers.",
+      "r": "For 10 points, name these mathematical rules, written f of x, that assign each input exactly one output."
+    },
+    {
+      "p": "In 1872, Karl Weierstrass [“VY-er-shtrahss”] surprised mathematicians with an example of these objects that is continuous everywhere but has a slope, or derivative, nowhere; its graph is jagged at every scale, like a fractal. Its formula adds up infinitely many cosine waves.",
+      "r": "For 10 points, name these rules that give exactly one output for each input, which pass the vertical line test."
+    },
+    {
+      "p": "In the 1930s, Alonzo Church built his lambda calculus, a system that expresses all computation using only these objects, which can even take other examples of these objects as inputs. Programming languages such as Lisp and Haskell grew out of that idea.",
+      "r": "For 10 points, name these rules, written with notation like f of x, whose allowed inputs form a domain and whose outputs form a range."
+    },
+    {
+      "p": "Luitzen Brouwer’s [“BROW-erz”] fixed-point theorem says that any continuous example of these objects that sends a disk into itself must leave at least one point exactly where it started, which is why gently stirring a cup of coffee always leaves some point of the surface where it began.",
+      "r": "For 10 points, name these mathematical rules, often written f of x, that assign exactly one output to every input."
+    },
+    {
+      "p": "Tibor Radó [“RAH-doh”] defined the “busy beaver” example of these objects in 1962, and no computer program can calculate all of its values, because it grows faster than any computable example. Alan Turing’s 1936 paper on computable numbers introduced the machines used to decide which of these can be computed.",
+      "r": "For 10 points, name these rules that give each input exactly one output, which are tested on graphs with a vertical line."
+    },
+    {
+      "p": "In 1718, Johann Bernoulli [“ber-NOO-lee”] defined one of these as a quantity built in any way from a variable and constants. Gottfried Leibniz [“LYBE-nits”] had first used their name in 1673, for quantities connected to points on a curve, such as its slope.",
+      "r": "Leonhard Euler was the first to write them as f of x. For 10 points, name these rules that assign each input exactly one output."
+    },
+    {
+      "p": "Brook Taylor’s 1715 book showed how to write a smooth example of these objects as an infinite sum of powers of x, built from its derivatives at a single point. Colin Maclaurin later popularized the special case centered at 0.",
+      "r": "For 10 points, name these rules that assign exactly one output to each input, whose graphs pass the vertical line test."
+    },
+    {
+      "p": "Joseph Fourier’s [“FOOR-ee-ay’s”] 1822 book on the flow of heat claimed that these objects could be written as infinite sums of sine and cosine waves, an idea at the heart of modern signal processing. A continuous example of these objects can be graphed without lifting your pencil.",
+      "r": "For 10 points, name these rules, written f of x, that give exactly one output for each input."
+    },
+    {
+      "p": "Leonhard Euler’s gamma example of these objects extends the factorial to fractions, so that its value at one-half equals the square root of pi. Unlike the factorial, which only accepts whole numbers, gamma accepts any positive real number as an input.",
+      "r": "Its allowed inputs are called its domain. For 10 points, name these rules that assign each input exactly one output."
+    },
+    {
+      "p": "One of these objects is called a bijection if it is both one-to-one and onto, pairing up the members of two collections perfectly; Georg Cantor used such pairings to compare sizes of infinity. One of these passes the horizontal line test exactly when it is one-to-one.",
+      "r": "For 10 points, name these rules, often written f of x, whose graphs pass the vertical line test."
+    },
+    {
+      "p": "In 1890, Giuseppe Peano [“pay-AH-noh”] described a continuous example of these objects whose outputs fill an entire square, even though its inputs come from a single line segment. David Hilbert described a similar space-filling curve in 1891. Peano’s curve must pass through some points of the square more than once.",
+      "r": "In set theory, one of these is a collection of ordered pairs in which no first coordinate repeats. For 10 points, name these rules that give each input exactly one output."
+    },
+    {
+      "p": "Augustin-Louis Cauchy [“koh-SHEE”] studied the equation saying that the output for the sum of two inputs always equals the sum of their two outputs; its only continuous solutions are straight lines through the origin. The linear examples of these objects, such as y equals 3x plus 2, graph as straight lines.",
+      "r": "For 10 points, name these rules, often written f of x, that assign exactly one output to each input."
+    },
+    {
+      "p": "Oliver Heaviside names a step-shaped example of these objects that outputs 0 for every negative input and 1 for every positive input. Pierre-François Verhulst [“vair-HULST”] used an S-shaped “logistic” example to model how a population grows quickly at first and then levels off.",
+      "r": "For 10 points, name these rules, written f of x, whose inputs form a domain and whose outputs form a range."
+    },
+    {
+      "p": "Leonhard Euler’s 1748 textbook _Introductio in analysin infinitorum_ made these objects the central idea of calculus. Composing two of these means feeding the output of the first into the second, and an inverse undoes the original, so its graph is the original graph reflected over the line y equals x.",
+      "r": "Euler was the first to write them as f of x. For 10 points, name these rules that assign each input exactly one output."
+    },
+    {
+      "p": "Even examples of these objects, such as x squared, have graphs that are mirror images across the y-axis, while odd examples, such as x cubed, look the same after a half-turn around the origin. Only one-to-one examples, which pass the horizontal line test, have inverses.",
+      "r": "For 10 points, name these rules, written f of x, that give exactly one output for each input."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "A rule that assigns each input exactly one output",
+      "k": [
+        "each input",
+        "exactly one output",
+        "rule"
+      ],
+      "n": 0
+    },
+    {
+      "id": "notation",
+      "tier": "giveaway",
+      "t": "Written f(x), read “f of x”: if f(x) = 2x, then f(3) = 6",
+      "k": [
+        "f of x",
+        "f(x)"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vertical-line",
+      "tier": "giveaway",
+      "t": "Vertical line test: a graph shows one of these only if no vertical line crosses it more than once",
+      "k": [
+        "vertical line test",
+        "vertical line"
+      ],
+      "n": 0
+    },
+    {
+      "id": "domain-range",
+      "tier": "giveaway",
+      "t": "Its allowed inputs make up the domain, and its outputs make up the range",
+      "k": [
+        "domain",
+        "range",
+        "inputs",
+        "outputs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "euler",
+      "tier": "middle",
+      "t": "Leonhard Euler was the first to write f(x), and his 1748 _Introductio in analysin infinitorum_ made them the central idea of calculus",
+      "k": [
+        "leonhard euler",
+        "1748",
+        "introductio"
+      ],
+      "n": 0,
+      "rabbit": "Leonhard Euler"
+    },
+    {
+      "id": "leibniz",
+      "tier": "middle",
+      "t": "Gottfried Leibniz first used their name in 1673, for quantities tied to points on a curve, such as its slope",
+      "k": [
+        "leibniz",
+        "1673",
+        "curve"
+      ],
+      "n": 0,
+      "rabbit": "Gottfried Wilhelm Leibniz"
+    },
+    {
+      "id": "composition",
+      "tier": "middle",
+      "t": "Composition, written f(g(x)), feeds the output of g into f",
+      "k": [
+        "composition",
+        "f(g(x))",
+        "output of g"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inverse",
+      "tier": "middle",
+      "t": "An inverse undoes the original; its graph is the original’s reflection across the line y = x",
+      "k": [
+        "inverse",
+        "reflection",
+        "undoes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "horizontal-line",
+      "tier": "middle",
+      "t": "Horizontal line test: it is one-to-one, and so has an inverse, if no horizontal line crosses its graph twice",
+      "k": [
+        "horizontal line test",
+        "one-to-one"
+      ],
+      "n": 0
+    },
+    {
+      "id": "even-odd",
+      "tier": "middle",
+      "t": "Even ones (like x²) mirror across the y-axis; odd ones (like x³) look the same after a half-turn around the origin",
+      "k": [
+        "even",
+        "odd",
+        "y-axis",
+        "half-turn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "linear",
+      "tier": "middle",
+      "t": "Linear ones, y = mx + b, graph as straight lines with slope m",
+      "k": [
+        "linear",
+        "straight lines",
+        "slope"
+      ],
+      "n": 0
+    },
+    {
+      "id": "continuous",
+      "tier": "middle",
+      "t": "A continuous one can be graphed without lifting your pencil",
+      "k": [
+        "continuous",
+        "without lifting"
+      ],
+      "n": 0,
+      "rabbit": "Continuity"
+    },
+    {
+      "id": "ordered-pairs",
+      "tier": "middle",
+      "t": "In set theory, one is a collection of ordered pairs in which no first coordinate repeats",
+      "k": [
+        "ordered pairs",
+        "first coordinate"
+      ],
+      "n": 0,
+      "rabbit": "Set theory"
+    },
+    {
+      "id": "dirichlet",
+      "tier": "power",
+      "t": "Dirichlet, often credited with the modern definition, described one equal to 1 at rationals and 0 at irrationals, continuous nowhere",
+      "k": [
+        "dirichlet",
+        "rationals",
+        "irrationals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "weierstrass",
+      "tier": "power",
+      "t": "Karl Weierstrass (1872) found one that is continuous everywhere but has a slope nowhere, built from infinitely many cosine waves",
+      "k": [
+        "weierstrass",
+        "1872",
+        "nowhere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "church",
+      "tier": "power",
+      "t": "Alonzo Church’s lambda calculus (1930s) expresses all computation using only these; Lisp and Haskell grew from it",
+      "k": [
+        "alonzo church",
+        "lambda calculus",
+        "lisp",
+        "haskell"
+      ],
+      "n": 0,
+      "rabbit": "Alan Turing"
+    },
+    {
+      "id": "brouwer",
+      "tier": "power",
+      "t": "Brouwer’s fixed-point theorem: a continuous one sending a disk into itself leaves some point in place, like gently stirred coffee",
+      "k": [
+        "brouwer",
+        "fixed-point",
+        "coffee"
+      ],
+      "n": 0
+    },
+    {
+      "id": "busy-beaver",
+      "tier": "power",
+      "t": "Tibor Radó’s busy beaver (1962) grows faster than any computable one, so no program can find all its values",
+      "k": [
+        "busy beaver",
+        "radó",
+        "1962",
+        "computable"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bernoulli",
+      "tier": "power",
+      "t": "Johann Bernoulli (1718) defined one as a quantity built in any way from a variable and constants",
+      "k": [
+        "bernoulli",
+        "1718",
+        "variable and constants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "taylor",
+      "tier": "power",
+      "t": "Brook Taylor’s 1715 book wrote smooth ones as infinite sums of powers of x; Colin Maclaurin popularized the case centered at 0",
+      "k": [
+        "brook taylor",
+        "1715",
+        "maclaurin"
+      ],
+      "n": 0,
+      "rabbit": "Taylor series"
+    },
+    {
+      "id": "fourier",
+      "tier": "power",
+      "t": "Joseph Fourier’s 1822 book on heat wrote them as infinite sums of sine and cosine waves",
+      "k": [
+        "fourier",
+        "1822",
+        "heat"
+      ],
+      "n": 0,
+      "rabbit": "Trigonometric functions"
+    },
+    {
+      "id": "gamma",
+      "tier": "power",
+      "t": "Euler’s gamma extends the factorial to fractions; its value at 1/2 is √π",
+      "k": [
+        "gamma",
+        "factorial",
+        "fractions"
+      ],
+      "n": 0,
+      "rabbit": "Factorial"
+    },
+    {
+      "id": "bijection",
+      "tier": "power",
+      "t": "A bijection is both one-to-one and onto, pairing two collections perfectly; Georg Cantor used such pairings to compare infinities",
+      "k": [
+        "bijection",
+        "onto",
+        "cantor"
+      ],
+      "n": 0,
+      "rabbit": "Georg Cantor"
+    },
+    {
+      "id": "peano",
+      "tier": "power",
+      "t": "Giuseppe Peano’s 1890 space-filling curve is a continuous one whose outputs fill a whole square; David Hilbert gave another in 1891",
+      "k": [
+        "peano",
+        "1890",
+        "space-filling"
+      ],
+      "n": 0,
+      "rabbit": "David Hilbert"
+    },
+    {
+      "id": "cauchy-equation",
+      "tier": "power",
+      "t": "Cauchy’s equation: the output for a sum of inputs equals the sum of their outputs; its continuous solutions are lines through the origin",
+      "k": [
+        "cauchy",
+        "sum of inputs",
+        "origin"
+      ],
+      "n": 0,
+      "rabbit": "Augustin-Louis Cauchy"
+    },
+    {
+      "id": "heaviside-logistic",
+      "tier": "power",
+      "t": "Oliver Heaviside’s step one is 0 for negative inputs and 1 for positive ones; Verhulst’s S-shaped logistic one models population growth",
+      "k": [
+        "heaviside",
+        "logistic",
+        "verhulst"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "General idea or one kind?",
+    "body": "Tossups on this answer line describe the general idea: a rule that gives each input exactly one output. Other tossups want one kind, like trigonometric functions, polynomials, or logarithms, and giving a specific kind here, or the general word there, loses the tossup. Saying “relation” earns only a prompt (every function is a relation, but not every relation is a function), and “domain” or “range” names just one part.",
+    "fix": "If the clues jump between many kinds (Dirichlet’s and Weierstrass’s strange examples, the vertical line test, f(x), domain and range), say “functions.” If every clue is about sine and cosine, or about one formula family, name that family instead.",
+    "line": "Real answer line: <b><u>function</u></b>s (accept <u>map</u>s or <u>mapping</u>s; prompt on <u>relation</u>s; do not accept a specific kind like “trigonometric functions”)"
+  }
+}

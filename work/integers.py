@@ -145,7 +145,7 @@ data = {
             "r": "For 10 points, name these numbers, such as negative 8, 0, and 3, which can be positive, negative, or zero.",
         },
         {
-            "p": "The name of these numbers comes from a Latin word meaning “whole” or “untouched.” Leopold Kronecker [“KROH-neck-er”] reportedly said that God made these numbers and that “all else is the work of man,” and Stephen Hawking edited a 2005 collection of math classics whose title quotes that remark.",
+            "p": "The name of these numbers comes from a Latin word meaning “whole” or “untouched.” Leopold Kronecker [“KROH-neck-er”] reportedly said that God made these numbers and that “all else is the work of man,” and Stephen Hawking edited a 2005 collection of math classics whose title comes from that remark.",
             "r": "They have no fractional parts. For 10 points, name these numbers, which include zero, the counting numbers, and their negatives.",
         },
         {

@@ -1,0 +1,463 @@
+{
+  "id": "blood-clotting",
+  "name": "Blood clotting",
+  "mono": "CLT",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "How blood seals a wound · Platelets plus a cascade that builds fibrin",
+  "dates": "Starts within moments of an injury",
+  "briefing": "Blood clotting, also called coagulation, is how your body plugs a leak. When you cut yourself, tiny cell pieces called platelets pile up at the wound, then a chain reaction of proteins turns a dissolved protein called fibrinogen into sticky threads of fibrin that trap blood cells in a gel-like mesh. The process needs calcium and vitamin K, and people with the inherited disorder hemophilia have trouble completing it.",
+  "answerHtml": "Blood <b><u>clotting</u></b> (accept <u>coagulation</u>; prompt on <u>hemostasis</u> or <u>blood clots</u>; do not accept “agglutination”)",
+  "accept": [
+    "blood clotting",
+    "clotting",
+    "coagulation",
+    "blood coagulation",
+    "clotting cascade",
+    "coagulation cascade",
+    "clot formation",
+    "blood clot formation",
+    "clotting of blood",
+    "coagulation of blood"
+  ],
+  "prompt": [
+    "hemostasis",
+    "haemostasis",
+    "blood clot",
+    "blood clots",
+    "clot",
+    "clots"
+  ],
+  "reject": [
+    "agglutination",
+    "platelets",
+    "platelet",
+    "platelet plug",
+    "fibrin",
+    "fibrinogen",
+    "thrombin",
+    "prothrombin",
+    "vitamin k",
+    "hemophilia",
+    "haemophilia",
+    "von willebrand disease",
+    "clotting factors",
+    "clotting factor",
+    "coagulation factors",
+    "coagulation factor",
+    "clotting disorders",
+    "clotting disorder",
+    "anti clotting",
+    "anticoagulation",
+    "anticoagulants",
+    "anticoagulant",
+    "fibrinolysis",
+    "thrombosis",
+    "embolism",
+    "plasma",
+    "serum",
+    "heparin",
+    "warfarin",
+    "aspirin",
+    "homeostasis",
+    "scab",
+    "scabs",
+    "blood types",
+    "blood type"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Coagulation",
+  "qb": {
+    "q": "coagulation",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Henrik Dam named a vitamin with the letter K after the Danish and German spelling of this process, because chicks fed a diet lacking that vitamin bled easily. Dam shared the 1943 Nobel Prize with Edward Doisy for work on that vitamin.",
+      "r": "Platelets and threads of fibrin help this process seal wounds. For 10 points, name this process in which blood thickens into a gel to stop bleeding."
+    },
+    {
+      "p": "The factors that drive this process are numbered with Roman numerals from I to XIII, though none is still called factor VI, and factor IV is simply calcium. Factor XIII finishes the job by cross-linking threads of fibrin into a sturdy mesh.",
+      "r": "For 10 points, name this process, which uses platelets and fibrin to seal a cut so it stops bleeding."
+    },
+    {
+      "p": "A 2009 DNA study of Russia’s last royal family showed that Queen Victoria’s descendants carried a gene variant for “Christmas disease,” a disorder of this process. That nickname honors Stephen Christmas, the first patient described with it, in 1952.",
+      "r": "That disorder is a form of hemophilia. For 10 points, name this process in which platelets and fibrin seal a wound."
+    },
+    {
+      "p": "In 1926, Finnish doctor Erik von Willebrand studied families on the Åland [“OH-land”] Islands and described the most common inherited disorder of this process. The protein named for him helps platelets stick to collagen in a damaged blood vessel wall.",
+      "r": "For 10 points, name this process in which blood thickens into a gel-like plug to seal a wound."
+    },
+    {
+      "p": "In the 1920s, cattle that ate spoiled sweet clover suffered deadly bleeding, a mystery that Karl Paul Link’s lab later solved by finding dicoumarol [“dy-KOO-muh-rawl”], a compound that blocks this process. Link’s team then developed warfarin, named for the Wisconsin Alumni Research Foundation.",
+      "r": "Warfarin interferes with vitamin K, which the liver needs to make several proteins for this process. For 10 points, name this process that seals wounds with fibrin."
+    },
+    {
+      "p": "In 1916, medical student Jay McLean found a substance in dog liver that slows this process; it was later named heparin, from the Greek word for “liver.” Heparin works by boosting antithrombin, a protein that switches off key enzymes of this process.",
+      "r": "For 10 points, name this process in which platelets and fibrin plug a leaking blood vessel."
+    },
+    {
+      "p": "Thrombin speeds up its own production during this process, a classic example of positive feedback. This process also needs calcium ions, so blood-collection tubes often contain citrate, which grabs calcium and keeps the sample liquid.",
+      "r": "For 10 points, name this process in which blood forms a gel-like plug to stop bleeding."
+    },
+    {
+      "p": "The enzyme plasmin undoes the work of this process by chopping up fibrin, leaving fragments called D-dimers that doctors can measure. A drug called tPA turns plasminogen into plasmin and can dissolve blockages that cause some strokes.",
+      "r": "For 10 points, name this process, which uses platelets and fibrin to seal damaged blood vessels."
+    },
+    {
+      "p": "Tissue factor, exposed when a blood vessel is damaged, starts the extrinsic pathway of this process, while the intrinsic pathway begins with factors already in the blood. Both pathways meet at factor X, which helps turn prothrombin into thrombin.",
+      "r": "Thrombin then converts fibrinogen into fibrin. For 10 points, name this process that seals cuts and stops bleeding."
+    },
+    {
+      "p": "Vampire bat saliva contains draculin, a protein that blocks this process so blood keeps flowing while the bat feeds. Leeches use a different blocker of this process, called hirudin [“hih-ROO-din”], and mosquitoes and ticks also inject chemicals that block it.",
+      "r": "For 10 points, name this process, involving platelets and fibrin, that stops bleeding at a wound."
+    },
+    {
+      "p": "An extract of horseshoe crab blood cells turns into a gel when it meets bacterial toxins, a version of this process that drug companies use to test medicines for contamination. In humans, this process turns the dissolved protein fibrinogen into solid threads.",
+      "r": "Those threads are made of fibrin. For 10 points, name this process that stops bleeding from a wound."
+    },
+    {
+      "p": "Aspirin slows one part of this process by stopping platelets from making thromboxane A2, a chemical signal that calls more platelets to a wound. Platelets first stick to collagen exposed in a torn blood vessel.",
+      "r": "For 10 points, name this process that seals a wound with platelets and threads of fibrin."
+    },
+    {
+      "p": "Serum is the yellowish liquid left over after this process, because this process uses up fibrinogen; plasma, by contrast, still contains fibrinogen. The liver makes most of the proteins this process needs, including prothrombin and fibrinogen.",
+      "r": "A scab is the dried result of this process on skin. For 10 points, name this process in which blood thickens into a gel to stop bleeding."
+    },
+    {
+      "p": "Newborn babies in many countries get a shot of vitamin K, because they are born with very little of it and the liver needs it to finish making factors II, VII, IX, and X. Bacteria in the gut later help make vitamin K.",
+      "r": "For 10 points, name this process that turns liquid blood into a gel at a wound."
+    },
+    {
+      "p": "Factor V Leiden [“LY-den”], an inherited gene variant that is especially common in people of European ancestry, makes this process harder to switch off. When this process happens inside a vein where it shouldn’t, doctors call it thrombosis.",
+      "r": "For 10 points, name this process, which needs platelets and fibrin, that normally stops bleeding."
+    }
+  ],
+  "clues": [
+    {
+      "id": "stops-bleeding",
+      "tier": "giveaway",
+      "t": "The process that turns liquid blood into a gel-like plug to stop bleeding from a wound",
+      "k": [
+        "stop bleeding",
+        "gel-like plug",
+        "wound"
+      ],
+      "n": 0
+    },
+    {
+      "id": "platelets",
+      "tier": "giveaway",
+      "t": "Platelets, tiny cell fragments, stick at a cut and form the first plug",
+      "k": [
+        "platelets",
+        "cell fragments"
+      ],
+      "n": 0,
+      "rabbit": "Platelets"
+    },
+    {
+      "id": "fibrin",
+      "tier": "giveaway",
+      "t": "The enzyme thrombin turns the dissolved protein fibrinogen into sticky threads of fibrin",
+      "k": [
+        "fibrinogen",
+        "fibrin",
+        "thrombin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hemophilia",
+      "tier": "giveaway",
+      "t": "People with hemophilia, an inherited X-linked disorder, have trouble completing it",
+      "k": [
+        "hemophilia",
+        "x-linked"
+      ],
+      "n": 0,
+      "rabbit": "X chromosome"
+    },
+    {
+      "id": "vitamin-k",
+      "tier": "giveaway",
+      "t": "Needs vitamin K, which the liver uses to make several of the proteins involved",
+      "k": [
+        "vitamin k",
+        "liver"
+      ],
+      "n": 0,
+      "rabbit": "Liver"
+    },
+    {
+      "id": "scab",
+      "tier": "middle",
+      "t": "A scab is the dried result of it on the skin",
+      "k": [
+        "scab"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hemostasis",
+      "tier": "middle",
+      "t": "Part of hemostasis: vascular spasm narrows the vessel, platelets form a plug, then fibrin threads strengthen it",
+      "k": [
+        "hemostasis",
+        "vascular spasm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cascade",
+      "tier": "middle",
+      "t": "Works as a cascade: each activated factor switches on the next, and the factors are numbered with Roman numerals",
+      "k": [
+        "cascade",
+        "roman numerals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "positive-feedback",
+      "tier": "middle",
+      "t": "A classic example of positive feedback, because thrombin speeds up its own production",
+      "k": [
+        "positive feedback"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calcium",
+      "tier": "middle",
+      "t": "Needs calcium ions, so blood tubes containing citrate, which grabs calcium, keep samples liquid",
+      "k": [
+        "calcium",
+        "citrate"
+      ],
+      "n": 0,
+      "rabbit": "Calcium"
+    },
+    {
+      "id": "serum",
+      "tier": "middle",
+      "t": "Serum is the liquid left afterward: plasma with its fibrinogen used up",
+      "k": [
+        "serum",
+        "plasma"
+      ],
+      "n": 0,
+      "rabbit": "Blood"
+    },
+    {
+      "id": "blood-thinners",
+      "tier": "middle",
+      "t": "Blood thinners such as heparin and warfarin slow it, and aspirin keeps platelets from clumping",
+      "k": [
+        "blood thinners",
+        "heparin",
+        "warfarin",
+        "aspirin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prothrombin",
+      "tier": "middle",
+      "t": "Prothrombin (factor II), made in the liver, becomes thrombin, the enzyme that makes fibrin",
+      "k": [
+        "prothrombin",
+        "factor ii"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hemophilia-types",
+      "tier": "middle",
+      "t": "Hemophilia A means missing factor VIII; hemophilia B means missing factor IX",
+      "k": [
+        "factor viii",
+        "factor ix",
+        "hemophilia a"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dam-doisy",
+      "tier": "power",
+      "t": "Henrik Dam named vitamin K for this process’s name in Danish and German; he shared the 1943 Nobel Prize with Edward Doisy",
+      "k": [
+        "henrik dam",
+        "doisy",
+        "1943"
+      ],
+      "n": 0
+    },
+    {
+      "id": "factor-numbers",
+      "tier": "power",
+      "t": "No factor is still called factor VI, factor IV is simply calcium, and factor XIII cross-links fibrin into a sturdy mesh",
+      "k": [
+        "factor xiii",
+        "factor vi",
+        "cross-links"
+      ],
+      "n": 0
+    },
+    {
+      "id": "christmas-disease",
+      "tier": "power",
+      "t": "Hemophilia B is nicknamed Christmas disease after patient Stephen Christmas (1952); a 2009 study found it in Queen Victoria’s descendants",
+      "k": [
+        "christmas disease",
+        "stephen christmas",
+        "2009"
+      ],
+      "n": 0
+    },
+    {
+      "id": "von-willebrand",
+      "tier": "power",
+      "t": "Von Willebrand disease, the most common inherited bleeding disorder, was described in 1926 in Finland’s Åland Islands; its protein glues platelets to collagen",
+      "k": [
+        "von willebrand",
+        "1926",
+        "collagen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sweet-clover",
+      "tier": "power",
+      "t": "Cattle that ate spoiled sweet clover bled; Karl Paul Link’s lab found dicoumarol and then made warfarin, named for WARF",
+      "k": [
+        "sweet clover",
+        "dicoumarol",
+        "karl paul link",
+        "warf"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heparin",
+      "tier": "power",
+      "t": "Jay McLean found heparin in dog liver in 1916; it works by boosting antithrombin",
+      "k": [
+        "jay mclean",
+        "antithrombin",
+        "1916"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pathways",
+      "tier": "power",
+      "t": "Tissue factor starts the extrinsic pathway; the intrinsic and extrinsic pathways meet at factor X",
+      "k": [
+        "tissue factor",
+        "extrinsic",
+        "intrinsic",
+        "factor x"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plasmin",
+      "tier": "power",
+      "t": "Plasmin breaks down fibrin, leaving D-dimers; the drug tPA turns plasminogen into plasmin to dissolve blockages",
+      "k": [
+        "plasminogen",
+        "plasmin",
+        "d-dimers",
+        "tpa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "draculin",
+      "tier": "power",
+      "t": "Vampire bat saliva has draculin and leeches make hirudin, both of which block it while the animals feed",
+      "k": [
+        "draculin",
+        "vampire bat",
+        "hirudin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "horseshoe-crab",
+      "tier": "power",
+      "t": "An extract of horseshoe crab blood cells turns into a gel around bacterial toxins, a test used on medicines",
+      "k": [
+        "horseshoe crab",
+        "bacterial toxins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thromboxane",
+      "tier": "power",
+      "t": "Aspirin stops platelets from making thromboxane A2, a signal that calls more platelets to a wound",
+      "k": [
+        "thromboxane",
+        "aspirin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "newborn-vitamin-k",
+      "tier": "power",
+      "t": "Newborns in many countries get a vitamin K shot, since they are born with very little; the liver needs it for factors II, VII, IX, and X",
+      "k": [
+        "newborns",
+        "shot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "factor-v-leiden",
+      "tier": "power",
+      "t": "Factor V Leiden, an inherited variant common in people of European ancestry, makes it harder to switch off; when it happens inside a vein where it shouldn’t, that is thrombosis",
+      "k": [
+        "factor v leiden",
+        "thrombosis",
+        "leiden"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Clotting or clumping?",
+    "body": "When mismatched blood types are mixed, red cells stick together, but that is agglutination, an antibody reaction, not this process. Players also name a single part of the process, such as platelets, fibrin, or thrombin, or the disorder hemophilia, instead of the process itself.",
+    "fix": "If the question asks for “this process” that seals wounds or runs as a cascade of numbered factors, say blood clotting or coagulation. Mismatched transfusions and anti-A or anti-B antibodies mean agglutination. Give a part only when the question asks for “these cell fragments,” “this protein,” or “this enzyme.”",
+    "line": "Real answer line: <b><u>Coagulation</u></b> (accept blood <u>clotting</u>; prompt on <u>hemostasis</u>; do not accept “agglutination”)"
+  },
+  "tests": {
+    "right": [
+      "Blood clotting",
+      "Coagulation",
+      "clotting",
+      "Blood cloting",
+      "Coagulation cascade"
+    ],
+    "prompt": [
+      "Hemostasis",
+      "Blood clot"
+    ],
+    "wrong": [
+      "Agglutination",
+      "Platelets",
+      "Fibrin",
+      "Hemophilia",
+      "Clotting factors",
+      "Thrombin",
+      "Homeostasis"
+    ]
+  }
+}

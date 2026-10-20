@@ -74,12 +74,12 @@ data = {
     },
     "tossups": [
         {
-            "p": "In the 1960s, Tikvah Alper found that the agent of scrapie survived doses of radiation strong enough to destroy DNA or RNA, a hint that these agents carry no genes at all. These agents are proteins that have refolded so that much of their shape becomes flat beta sheets.",
-            "r": "Stanley Prusiner won a Nobel Prize for discovering them. For 10 points, name these misfolded proteins that cause mad cow disease."
+            "p": "In the 1960s, Tikvah Alper found that the agent of scrapie survived doses of radiation strong enough to destroy DNA or RNA, a hint that these agents carry no genes at all. The abnormal shape of these agents is rich in flat, folded beta sheets.",
+            "r": "They are misfolded proteins, and Stanley Prusiner won a Nobel Prize for discovering them. For 10 points, name these agents that cause mad cow disease."
         },
         {
-            "p": "The human gene for the normal form of the protein in these agents sits on chromosome 20, and inherited changes in that gene can cause fatal familial insomnia. Under the “protein-only hypothesis,” these agents spread by pressing normal copies of that protein into their own misfolded shape.",
-            "r": "For 10 points, name these infectious proteins, named by Stanley Prusiner, that cause mad cow disease."
+            "p": "The human gene for the normal form of the protein in these agents sits on chromosome 20, and inherited changes in that gene can cause fatal familial insomnia. Stanley Prusiner’s “protein-only hypothesis” said that these agents need no genes to spread.",
+            "r": "They spread by forcing normal copies of a protein to misfold. For 10 points, name these infectious agents that cause mad cow disease."
         },
         {
             "p": "D. Carleton Gajdusek [“GUY-duh-shek”] shared the 1976 Nobel Prize for showing that kuru, a disease of the Fore [“FOR-ay”] people of Papua New Guinea, could be passed to chimpanzees. Kuru, whose name means “trembling,” spread through traditional funeral customs and is now known to be caused by these agents.",
@@ -90,8 +90,8 @@ data = {
             "r": "For 10 points, name these infectious misfolded proteins that also cause mad cow disease in cattle."
         },
         {
-            "p": "Some yeast cells carry harmless versions of these agents that pass traits on to their daughter cells without any change to their DNA. Like the disease-causing kind, those versions copy themselves by making other molecules of the same protein fold the same wrong way.",
-            "r": "In cattle, these agents cause mad cow disease. For 10 points, name these misfolded proteins that can spread without any genes."
+            "p": "Some yeast cells carry harmless versions of these agents that pass traits on to their daughter cells without any change to their DNA. One of those yeast versions is formed by a protein called Sup35.",
+            "r": "Like the disease-causing kind, they copy themselves by making normal proteins misfold. For 10 points, name these agents, which cause mad cow disease in cattle."
         },
         {
             "p": "In 1982, Stanley Prusiner coined the name of these agents by shortening the phrase “proteinaceous infectious particle,” and in 1997 he won the Nobel Prize in medicine for discovering them. Many scientists at first doubted his claim that these agents spread disease without any genes.",
@@ -114,12 +114,12 @@ data = {
             "r": "They are misfolded proteins with no DNA or RNA. For 10 points, name these agents that cause mad cow disease."
         },
         {
-            "p": "One of these agents acts as a template: when it meets a normally folded copy of the same protein, it makes that copy refold into its own abnormal shape, starting a chain reaction. Because only the shape changes, the misfolded and normal proteins have the same sequence of amino acids.",
-            "r": "Unlike viruses, these agents have no genes. For 10 points, name these infectious agents made only of protein, which cause mad cow disease."
+            "p": "The abnormal form of the protein in these agents partly resists being cut apart by the enzyme proteinase K, which completely digests the normal form, even though both forms have the same sequence of amino acids. Researchers use that resistance to detect these agents in brain samples.",
+            "r": "One of these agents acts as a template that makes normal copies of its protein refold into its own abnormal shape. For 10 points, name these agents that cause mad cow disease."
         },
         {
-            "p": "Viroids [“VYE-roydz”] are infectious agents made of nothing but a small loop of RNA, while these agents have no RNA or DNA at all and are made entirely of protein. Antibiotics and antiviral drugs do not work against these agents.",
-            "r": "These agents cause scrapie in sheep and mad cow disease in cattle. For 10 points, name these misfolded proteins."
+            "p": "Viroids [“VYE-roydz”] are infectious agents made of nothing but a small loop of RNA, and they infect plants such as potatoes. These agents are even simpler, with no RNA or DNA at all, and antibiotics and antiviral drugs do not work against them.",
+            "r": "These misfolded proteins cause scrapie in sheep. For 10 points, name these agents that cause mad cow disease."
         },
         {
             "p": "The misfolded form of the protein in these agents is labeled with the letters “Sc,” short for scrapie, while the healthy form is labeled with a “C,” for cellular. Scrapie, a disease of sheep and goats caused by these agents, has been known in Europe for centuries.",
@@ -294,22 +294,22 @@ data = {
         {
             "id": "yeast",
             "tier": "power",
-            "t": "Harmless versions in yeast pass traits to daughter cells without changing their DNA",
-            "k": ["yeast", "daughter cells"],
+            "t": "Harmless versions in yeast, such as one formed by the protein Sup35, pass traits to daughter cells without changing their DNA",
+            "k": ["yeast", "sup35", "daughter cells"],
             "n": 0
         },
         {
             "id": "same-sequence",
             "tier": "power",
-            "t": "Acts as a template: the misfolded and normal forms have the same amino acid sequence, and only the shape differs",
-            "k": ["template", "amino acid sequence", "shape"],
+            "t": "The misfolded and normal forms have the same amino acid sequence, but only the misfolded form partly resists the enzyme proteinase K",
+            "k": ["proteinase k", "amino acid sequence"],
             "n": 0
         },
         {
             "id": "viroids",
             "tier": "power",
-            "t": "Viroids, by contrast, are bare loops of RNA with no protein at all",
-            "k": ["viroids", "loops of rna"],
+            "t": "Viroids, by contrast, are bare loops of RNA with no protein at all; they infect plants such as potatoes",
+            "k": ["viroids", "loops of rna", "potatoes"],
             "n": 0
         },
         {

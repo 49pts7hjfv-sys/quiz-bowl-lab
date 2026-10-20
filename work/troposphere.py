@@ -1,0 +1,352 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "troposphere",
+    "name": "Troposphere",
+    "mono": "TRO",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Lowest layer of the atmosphere · Where nearly all weather happens",
+    "dates": "From the ground to roughly 10 km up (higher over the equator)",
+    "briefing": "The troposphere is the bottom layer of Earth’s atmosphere, the one we live and breathe in. It holds about three-quarters of all the air and nearly all of the water vapor, so almost every cloud, raindrop, and storm happens here. Its air usually gets colder the higher you climb, which is why snow can sit on mountaintops all summer.",
+    "answerHtml": "<b><u>Troposphere</u></b> (prompt on <u>atmosphere</u> or <u>lower atmosphere</u>; do not accept “tropopause” or “stratosphere”)",
+    "accept": [
+        "troposphere",
+        "the troposphere",
+        "earths troposphere",
+        "lower troposphere",
+        "upper troposphere"
+    ],
+    "prompt": [
+        "atmosphere",
+        "the atmosphere",
+        "earths atmosphere",
+        "lower atmosphere",
+        "atmospheric layer",
+        "layer of the atmosphere",
+        "boundary layer",
+        "planetary boundary layer",
+        "atmospheric boundary layer"
+    ],
+    "reject": [
+        "stratosphere",
+        "mesosphere",
+        "thermosphere",
+        "exosphere",
+        "ionosphere",
+        "tropopause",
+        "stratopause",
+        "mesopause",
+        "ozone layer",
+        "ozone",
+        "homosphere",
+        "heterosphere",
+        "magnetosphere",
+        "lithosphere",
+        "asthenosphere",
+        "hydrosphere",
+        "biosphere",
+        "upper atmosphere",
+        "tropics",
+        "jet stream",
+        "jet streams",
+        "hadley cell",
+        "hadley cells",
+        "temperature inversion",
+        "inversion layer",
+        "lapse rate",
+        "weather",
+        "clouds"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Troposphere",
+    "qb": {
+        "q": "troposphere",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This layer’s name comes from a Greek word meaning “turning,” because its air is always churning and mixing. Around 1902, Léon Teisserenc de Bort’s instrument-carrying balloons showed that the air stops getting colder at the top of this layer.",
+            "r": "For 10 points, name this lowest layer of Earth’s atmosphere, where nearly all weather happens."
+        },
+        {
+            "p": "In the International Standard Atmosphere, this layer ends at a height of 11 kilometers, where the air has cooled to −56.5 °C. Its real top ranges from less than 10 kilometers up over the poles to more than 15 kilometers over the equator.",
+            "r": "Its temperature usually falls about 6.5 °C per kilometer. For 10 points, name this lowest layer of the atmosphere."
+        },
+        {
+            "p": "Over the equator, this layer reaches its greatest height, and the air at its top can be colder than −70 °C, even colder than the air at its top over the poles. Over the poles, this layer is much thinner.",
+            "r": "Its top boundary is the tropopause. For 10 points, name this lowest layer of the atmosphere, where weather happens."
+        },
+        {
+            "p": "A bubble of rising, unsaturated air in this layer cools by about 10 °C for every kilometer it climbs, a value called the dry adiabatic lapse rate, while saturated air cools more slowly because condensing water vapor releases heat.",
+            "r": "For 10 points, name this layer of the atmosphere closest to the ground, home to nearly all clouds and storms."
+        },
+        {
+            "p": "Giant meanders in the high winds of this layer, called Rossby waves after Carl-Gustaf Rossby, steer storms and can stall into blocking patterns that cause long heat waves. Jet streams blow near the top of this layer.",
+            "r": "For 10 points, name this lowest layer of Earth’s atmosphere, where temperature usually drops with height."
+        },
+        {
+            "p": "As greenhouse gases have built up, scientists have measured this layer warming while the layer above it cools, a pattern that points to those gases rather than the Sun as the cause. This layer holds nearly all of the atmosphere’s water vapor, the greenhouse gas that traps the most heat.",
+            "r": "For 10 points, name this lowest layer of the atmosphere, found just below the stratosphere, where nearly all weather happens."
+        },
+        {
+            "p": "In December 1952, a temperature inversion trapped coal smoke near the ground in this layer over London, creating the Great Smog and leading to Britain’s Clean Air Act of 1956. In an inversion, warm air sits on top of cooler air instead of below it.",
+            "r": "For 10 points, name this layer we live in, the lowest layer of Earth’s atmosphere."
+        },
+        {
+            "p": "Rising air in this layer cools until it reaches its dew point at the lifting condensation level, which marks the flat bottoms of puffy cumulus clouds. Towering thunderheads in this layer can grow all the way to its top, where they spread out into anvil shapes.",
+            "r": "For 10 points, name this weather layer, the lowest layer of the atmosphere, which holds most of the air’s mass."
+        },
+        {
+            "p": "Air pressure falls to about half of its sea-level value roughly 5.5 kilometers up in this layer, at the 500-millibar level that forecasters watch on weather maps. Climbers on Mount Everest, whose summit lies inside this layer, breathe air at about one-third of sea-level pressure.",
+            "r": "For 10 points, name this lowest layer of Earth’s atmosphere, where temperature usually drops as you climb."
+        },
+        {
+            "p": "In 1735, George Hadley explained the steady trade winds with a giant loop of air rising near the equator, all within this layer. In the loops now named Hadley cells, the air sinks back down at around 30 degrees latitude.",
+            "r": "For 10 points, name this lowest layer of the atmosphere, which holds nearly all of its water vapor."
+        },
+        {
+            "p": "The lowest part of this layer, called the boundary layer, feels friction from the ground, which slows the wind and makes it gusty near the surface. On sunny days the boundary layer grows thicker as the warmed ground stirs up the air above it.",
+            "r": "For 10 points, name this lowest layer of Earth’s atmosphere, where nearly all weather happens."
+        },
+        {
+            "p": "Only about 10 percent of Earth’s ozone is found in this layer, where near the ground it is a harmful pollutant in smog, formed when sunlight acts on car exhaust and factory fumes.",
+            "r": "This layer lies just below the stratosphere. For 10 points, name this lowest layer of the atmosphere, where clouds and storms form."
+        },
+        {
+            "p": "Long-distance jet airliners usually cruise near the top of this layer, where the air is thin and fast winds called jet streams can speed them along or slow them down. The summit of Mount Everest sits inside this layer.",
+            "r": "For 10 points, name this lowest layer of the atmosphere, where temperature drops with height."
+        },
+        {
+            "p": "This layer holds about three-quarters of the mass of the whole atmosphere and nearly all of its water vapor. It is warmed mostly from below, by sunlight that heats the ground, so warm air near the surface rises and stirs it.",
+            "r": "For 10 points, name this lowest layer of Earth’s atmosphere, where nearly all weather happens."
+        },
+        {
+            "p": "Twice a day, weather stations around the world release balloons carrying radiosondes, which radio back temperature, humidity, and wind as they rise through this layer and beyond. Its name comes from a Greek word for “turning,” since its air is always mixing.",
+            "r": "For 10 points, name this lowest layer of the atmosphere, where nearly all weather and clouds occur."
+        }
+    ],
+    "clues": [
+        {
+            "id": "lowest-layer",
+            "tier": "giveaway",
+            "t": "The lowest layer of Earth’s atmosphere, where we live, directly below the stratosphere",
+            "k": ["lowest layer", "stratosphere"],
+            "n": 0,
+            "rabbit": "Stratosphere"
+        },
+        {
+            "id": "weather",
+            "tier": "giveaway",
+            "t": "Where nearly all weather happens and most clouds form",
+            "k": ["weather", "clouds"],
+            "n": 0,
+            "rabbit": "Clouds"
+        },
+        {
+            "id": "lapse-rate",
+            "tier": "giveaway",
+            "t": "Temperature usually drops as you go up, by about 6.5 °C per kilometer (the lapse rate)",
+            "k": ["lapse rate", "drops"],
+            "n": 0,
+            "rabbit": "Temperature"
+        },
+        {
+            "id": "tropopause",
+            "tier": "giveaway",
+            "t": "Its top boundary is called the tropopause",
+            "k": ["tropopause", "boundary"],
+            "n": 0
+        },
+        {
+            "id": "mass-water",
+            "tier": "middle",
+            "t": "Holds about three-quarters of the atmosphere’s mass and nearly all of its water vapor",
+            "k": ["three-quarters", "water vapor"],
+            "n": 0
+        },
+        {
+            "id": "greek-turning",
+            "tier": "middle",
+            "t": "Its name comes from a Greek word for “turning,” because its air is always churning and mixing",
+            "k": ["turning", "greek", "mixing"],
+            "n": 0
+        },
+        {
+            "id": "thickness",
+            "tier": "middle",
+            "t": "Thickest over the equator (more than 15 km) and thinnest over the poles (less than 10 km)",
+            "k": ["thickest", "equator", "poles"],
+            "n": 0
+        },
+        {
+            "id": "heated-below",
+            "tier": "middle",
+            "t": "Warmed mostly from below by sun-heated ground, so warm air near the surface rises and stirs it",
+            "k": ["from below", "rises"],
+            "n": 0
+        },
+        {
+            "id": "jet-streams",
+            "tier": "middle",
+            "t": "Jet streams blow near its top, where long-distance airliners usually cruise",
+            "k": ["jet streams", "airliners"],
+            "n": 0
+        },
+        {
+            "id": "inversion",
+            "tier": "middle",
+            "t": "A temperature inversion, warm air on top of cooler air, can trap smog near the ground",
+            "k": ["inversion", "smog"],
+            "n": 0
+        },
+        {
+            "id": "everest",
+            "tier": "middle",
+            "t": "Mount Everest’s summit lies inside it, where air pressure is about one-third of sea level’s",
+            "k": ["everest", "one-third"],
+            "n": 0
+        },
+        {
+            "id": "teisserenc",
+            "tier": "power",
+            "t": "Léon Teisserenc de Bort’s instrument-carrying balloons found where it ends, around 1902",
+            "k": ["teisserenc de bort", "balloons"],
+            "n": 0
+        },
+        {
+            "id": "standard-atmosphere",
+            "tier": "power",
+            "t": "In the International Standard Atmosphere, it ends 11 km up, where the air is −56.5 °C",
+            "k": ["standard atmosphere", "11 km"],
+            "n": 0
+        },
+        {
+            "id": "cold-top",
+            "tier": "power",
+            "t": "Over the equator its top is highest and can be colder than −70 °C, colder than its top over the poles",
+            "k": ["colder than", "highest"],
+            "n": 0
+        },
+        {
+            "id": "dry-adiabatic",
+            "tier": "power",
+            "t": "Rising unsaturated air cools about 10 °C per km (the dry adiabatic lapse rate); saturated air cools more slowly",
+            "k": ["dry adiabatic", "saturated"],
+            "n": 0
+        },
+        {
+            "id": "rossby",
+            "tier": "power",
+            "t": "Rossby waves, named for Carl-Gustaf Rossby, are giant meanders in its high winds that steer storms",
+            "k": ["rossby waves", "meanders"],
+            "n": 0
+        },
+        {
+            "id": "fingerprint",
+            "tier": "power",
+            "t": "As greenhouse gases build up, it warms while the stratosphere above it cools",
+            "k": ["greenhouse gases", "cools"],
+            "n": 0
+        },
+        {
+            "id": "great-smog",
+            "tier": "power",
+            "t": "An inversion caused London’s Great Smog (1952), which led to Britain’s Clean Air Act of 1956",
+            "k": ["great smog", "1952", "clean air act"],
+            "n": 0
+        },
+        {
+            "id": "lcl",
+            "tier": "power",
+            "t": "Rising air reaches its dew point at the lifting condensation level, which marks the flat bases of cumulus clouds",
+            "k": ["lifting condensation level", "dew point"],
+            "n": 0
+        },
+        {
+            "id": "pressure-half",
+            "tier": "power",
+            "t": "Air pressure is about half of sea level’s roughly 5.5 km up, at the 500-millibar level",
+            "k": ["5.5 km", "500-millibar", "half"],
+            "n": 0
+        },
+        {
+            "id": "hadley",
+            "tier": "power",
+            "t": "George Hadley (1735) explained the trade winds with a loop of rising air; in Hadley cells, air sinks near 30° latitude",
+            "k": ["george hadley", "1735", "trade winds"],
+            "n": 0,
+            "rabbit": "Wind"
+        },
+        {
+            "id": "boundary-layer",
+            "tier": "power",
+            "t": "Its lowest part, the boundary layer, feels friction from the ground and grows thicker on sunny days",
+            "k": ["boundary layer", "friction"],
+            "n": 0
+        },
+        {
+            "id": "ground-ozone",
+            "tier": "power",
+            "t": "Holds only about 10 percent of Earth’s ozone; near the ground, ozone is a harmful pollutant in smog",
+            "k": ["10 percent", "pollutant", "ozone"],
+            "n": 0,
+            "rabbit": "Ozone layer"
+        },
+        {
+            "id": "radiosondes",
+            "tier": "power",
+            "t": "Radiosondes carried by weather balloons, launched twice a day, measure its temperature, humidity, and wind",
+            "k": ["radiosondes", "twice a day"],
+            "n": 0
+        },
+        {
+            "id": "anvils",
+            "tier": "power",
+            "t": "Thunderheads can grow all the way to its top and spread into anvil shapes",
+            "k": ["anvil", "thunderheads"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Layer, not its lid",
+        "body": "The tropopause is only the boundary at the top of this layer, and the stratosphere is the next layer up, home of the ozone layer. Both are different answers, and their look-alike names make a fast buzz risky. Saying only “atmosphere” earns a prompt, so be ready to name the layer.",
+        "fix": "Remember the order going up: troposphere, stratosphere, mesosphere, thermosphere, exosphere. Weather, clouds, water vapor, and temperature falling with height mean the troposphere; ozone and temperature rising with height mean the stratosphere. A boundary where the temperature stops falling is the tropopause.",
+        "line": "Real answer line: <b><u>Troposphere</u></b> (prompt on atmosphere; do not accept “tropopause” or “stratosphere”)"
+    },
+    "tests": {
+        "right": [
+            "Troposphere",
+            "the troposphere",
+            "Tropospher",
+            "Troposhere",
+            "Lower troposphere"
+        ],
+        "prompt": [
+            "Atmosphere",
+            "Lower atmosphere"
+        ],
+        "wrong": [
+            "Stratosphere",
+            "Tropopause",
+            "Mesosphere",
+            "Ozone layer",
+            "Ionosphere",
+            "Upper atmosphere"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

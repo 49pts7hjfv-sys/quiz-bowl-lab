@@ -1,0 +1,380 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "ozone-layer",
+    "name": "Ozone layer",
+    "mono": "O3",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Shield of three-atom oxygen in the stratosphere · Blocks most UV light",
+    "dates": "Discovered 1913 by Charles Fabry and Henri Buisson",
+    "briefing": "About 15 to 35 kilometers above your head floats an invisible sunscreen: the ozone layer. Ozone is a form of oxygen with three atoms per molecule instead of two, and it soaks up most of the Sun’s harmful ultraviolet light. In 1985, scientists reported a giant “hole” in the layer over Antarctica caused by CFC chemicals, and the 1987 Montreal Protocol phased those chemicals out.",
+    "answerHtml": "<b><u>Ozone</u></b> layer (accept <u>ozone</u> or <u>ozonosphere</u>; accept O3 or trioxygen; prompt on <u>ozone hole</u>; do not accept “stratosphere” or “oxygen”)",
+    "accept": [
+        "ozone layer",
+        "the ozone layer",
+        "ozone layers",
+        "earths ozone layer",
+        "ozone",
+        "ozonosphere",
+        "ozone shield",
+        "stratospheric ozone",
+        "ozone gas",
+        "ozone molecule",
+        "ozone molecules",
+        "o3",
+        "trioxygen"
+    ],
+    "prompt": [
+        "ozone hole",
+        "the ozone hole",
+        "ozone holes",
+        "antarctic ozone hole",
+        "hole in the ozone layer",
+        "hole in the ozone",
+        "ozone depletion",
+        "ozone layer depletion"
+    ],
+    "reject": [
+        "stratosphere",
+        "troposphere",
+        "mesosphere",
+        "thermosphere",
+        "ionosphere",
+        "exosphere",
+        "magnetosphere",
+        "atmosphere",
+        "oxygen",
+        "dioxygen",
+        "o2",
+        "cfcs",
+        "cfc",
+        "chlorofluorocarbons",
+        "chlorofluorocarbon",
+        "freon",
+        "chlorine",
+        "ultraviolet",
+        "ultraviolet light",
+        "ultraviolet radiation",
+        "uv",
+        "uv rays",
+        "uv radiation",
+        "montreal protocol",
+        "greenhouse effect",
+        "greenhouse gas",
+        "greenhouse gases",
+        "smog",
+        "ground level ozone",
+        "tropospheric ozone",
+        "polar vortex",
+        "polar stratospheric clouds",
+        "nacreous clouds",
+        "van allen belts"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Ozone_layer",
+    "qb": {
+        "q": "ozone",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1881, Walter Noel Hartley measured how the gas in this layer absorbs light, and he proposed that it explains why sunlight reaching the ground has almost no light with wavelengths shorter than about 300 nanometers.",
+            "r": "For 10 points, name this layer of the stratosphere that shields life from most of the Sun’s ultraviolet rays."
+        },
+        {
+            "p": "In 1913, the French physicists Charles Fabry and Henri Buisson discovered this layer high in the atmosphere by measuring how strongly sunlight was dimmed at certain wavelengths. Fabry is also known for the Fabry–Pérot interferometer, a tool for measuring light.",
+            "r": "For 10 points, name this layer, made of a three-atom form of oxygen, that blocks most of the Sun’s ultraviolet light."
+        },
+        {
+            "p": "Gordon Dobson built a spectrophotometer in the 1920s to measure this layer, and the unit used for its thickness is named for him. If all of this layer were squeezed down to sea-level pressure, it would be only about 3 millimeters thick.",
+            "r": "For 10 points, name this protective layer in the stratosphere that absorbs most of the Sun’s ultraviolet light."
+        },
+        {
+            "p": "In 1930, Sydney Chapman explained how this layer forms: ultraviolet light splits oxygen molecules into single atoms, which then join with other oxygen molecules. Ultraviolet light also breaks the resulting molecules apart again, in a never-ending cycle.",
+            "r": "For 10 points, name this layer of the stratosphere that blocks most of the Sun’s harmful UV rays."
+        },
+        {
+            "p": "Although most of the gas in this layer is made high above the tropics, the slow Brewer–Dobson circulation carries it toward the poles, so this layer is usually thicker at high latitudes than over the equator.",
+            "r": "For 10 points, name this layer, about 15 to 35 kilometers up, that shields Earth from ultraviolet light."
+        },
+        {
+            "p": "Christian Friedrich Schönbein [“SHURN-bine”] named the gas that makes up this layer in 1840, from a Greek word meaning “to smell,” because of the sharp odor it gives off near electric sparks. The same smell can hang in the air after a lightning storm.",
+            "r": "For 10 points, name this layer, made of a three-atom form of oxygen, that absorbs most of the Sun’s ultraviolet rays."
+        },
+        {
+            "p": "In 1928, Thomas Midgley Jr. helped invent refrigerant gases that seemed perfectly safe, and he once breathed one in and blew out a candle with it to prove the point. Decades later, scientists learned that those gases drift high into the sky and destroy this layer.",
+            "r": "Those gases are called CFCs. For 10 points, name this layer that shields Earth from ultraviolet light."
+        },
+        {
+            "p": "James Lovelock’s electron capture detector found the gases that harm this layer in air samples from all over the world, including on a ship voyage to Antarctica in the early 1970s. Those gases, invented as refrigerants, last for decades in the air.",
+            "r": "For 10 points, name this layer of the stratosphere, thinned by CFCs, that blocks most ultraviolet light."
+        },
+        {
+            "p": "In 1974, Mario Molina and F. Sherwood Rowland warned that chlorine from refrigerator and spray-can gases could destroy this layer, work that won them the 1995 Nobel Prize in Chemistry along with Paul Crutzen. One chlorine atom can break down as many as 100,000 of this layer’s molecules.",
+            "r": "For 10 points, name this layer, about 15 to 35 kilometers up, that shields Earth from ultraviolet rays."
+        },
+        {
+            "p": "In 1985, Joseph Farman, Brian Gardiner, and Jonathan Shanklin of the British Antarctic Survey reported a startling springtime drop in this layer, using decades of measurements from their Halley research station.",
+            "r": "That “hole” appears over Antarctica every year. For 10 points, name this layer that blocks most of the Sun’s ultraviolet light."
+        },
+        {
+            "p": "In 1986, Susan Solomon led an expedition to McMurdo Station and helped show that icy polar stratospheric clouds speed up the chemical reactions that destroy this layer each spring. Those clouds form only in the bitter cold of the polar winter.",
+            "r": "For 10 points, name this layer, thinned by CFCs, that shields life on Earth from ultraviolet light."
+        },
+        {
+            "p": "The 1985 Vienna Convention set up a framework to protect this layer, and in 2009 that convention and the treaty that followed it became the first United Nations treaties ratified by every member country. The UN marks September 16, that treaty’s signing date, as an international day for this layer.",
+            "r": "For 10 points, name this layer, protected by the 1987 Montreal Protocol, that absorbs most of the Sun’s ultraviolet light."
+        },
+        {
+            "p": "The 2016 Kigali Amendment added HFCs to a treaty first written to protect this layer, because those replacement gases, though harmless to this layer, trap heat as powerful greenhouse gases.",
+            "r": "For 10 points, name this layer of the stratosphere, damaged by CFCs, that absorbs most of the Sun’s ultraviolet light."
+        },
+        {
+            "p": "Halons, gases once widely used in fire extinguishers, contain bromine, which destroys this layer even faster than chlorine does, so they were phased out along with the pesticide methyl bromide. Like chlorine, bromine is set free when sunlight breaks those gases apart far above the ground.",
+            "r": "For 10 points, name this layer, found mostly in the stratosphere, that absorbs most of the Sun’s ultraviolet rays."
+        },
+        {
+            "p": "This layer blocks nearly all of the Sun’s UV-C light and most of its UV-B light, but it lets most UV-A light through. Near the ground, the same gas that forms this layer is a harmful pollutant in smog.",
+            "r": "This layer sits in the stratosphere. For 10 points, name this layer that protects living things from sunburn-causing ultraviolet rays."
+        }
+    ],
+    "clues": [
+        {
+            "id": "uv-shield",
+            "tier": "giveaway",
+            "t": "Absorbs most of the Sun’s harmful ultraviolet light, protecting living things from sunburn and skin cancer",
+            "k": ["ultraviolet", "sunburn"],
+            "n": 0
+        },
+        {
+            "id": "stratosphere",
+            "tier": "giveaway",
+            "t": "Found mostly in the stratosphere, about 15 to 35 kilometers up",
+            "k": ["stratosphere", "15 to 35"],
+            "n": 0,
+            "rabbit": "Stratosphere"
+        },
+        {
+            "id": "cfcs",
+            "tier": "giveaway",
+            "t": "Thinned by CFCs (chlorofluorocarbons) from old refrigerators and spray cans",
+            "k": ["cfcs", "chlorofluorocarbons", "spray cans"],
+            "n": 0
+        },
+        {
+            "id": "hole",
+            "tier": "giveaway",
+            "t": "A “hole” in it opens over Antarctica every spring",
+            "k": ["antarctica", "hole", "spring"],
+            "n": 0
+        },
+        {
+            "id": "montreal",
+            "tier": "giveaway",
+            "t": "The 1987 Montreal Protocol phased out the chemicals that harm it",
+            "k": ["montreal protocol", "1987"],
+            "n": 0
+        },
+        {
+            "id": "three-oxygen",
+            "tier": "giveaway",
+            "t": "Made of a pale blue gas whose molecules have three oxygen atoms instead of two",
+            "k": ["three oxygen atoms", "pale blue"],
+            "n": 0,
+            "rabbit": "Oxygen"
+        },
+        {
+            "id": "chapman",
+            "tier": "middle",
+            "t": "Sydney Chapman (1930): UV splits oxygen molecules, and the single atoms join other oxygen molecules to form its gas",
+            "k": ["chapman", "1930"],
+            "n": 0
+        },
+        {
+            "id": "molina-rowland",
+            "tier": "middle",
+            "t": "Mario Molina and F. Sherwood Rowland (1974) warned that chlorine from CFCs destroys it; they shared the 1995 Nobel Prize with Paul Crutzen",
+            "k": ["molina", "rowland", "crutzen", "1995"],
+            "n": 0
+        },
+        {
+            "id": "farman",
+            "tier": "middle",
+            "t": "Joseph Farman’s British Antarctic Survey team reported the springtime hole in 1985, using data from Halley station",
+            "k": ["farman", "british antarctic survey", "1985", "halley"],
+            "n": 0
+        },
+        {
+            "id": "dobson-units",
+            "tier": "middle",
+            "t": "Measured in Dobson units; all of it squeezed to sea-level pressure would be only about 3 millimeters thick",
+            "k": ["dobson units", "3 millimeters"],
+            "n": 0
+        },
+        {
+            "id": "chlorine",
+            "tier": "middle",
+            "t": "One chlorine atom can destroy as many as 100,000 of its molecules",
+            "k": ["chlorine", "100,000"],
+            "n": 0
+        },
+        {
+            "id": "ground-level",
+            "tier": "middle",
+            "t": "About 90 percent of its gas is in the stratosphere; near the ground, the same gas is a harmful pollutant in smog",
+            "k": ["90 percent", "smog", "pollutant"],
+            "n": 0,
+            "rabbit": "Troposphere"
+        },
+        {
+            "id": "polar-clouds",
+            "tier": "middle",
+            "t": "Icy polar stratospheric clouds and the polar vortex help chlorine destroy it over Antarctica",
+            "k": ["polar stratospheric clouds", "polar vortex"],
+            "n": 0,
+            "rabbit": "Clouds"
+        },
+        {
+            "id": "uv-types",
+            "tier": "middle",
+            "t": "Blocks nearly all UV-C and most UV-B light, but lets most UV-A through",
+            "k": ["uv-c", "uv-b", "uv-a"],
+            "n": 0
+        },
+        {
+            "id": "fabry-buisson",
+            "tier": "power",
+            "t": "Discovered in 1913 by the French physicists Charles Fabry and Henri Buisson",
+            "k": ["fabry", "buisson", "1913"],
+            "n": 0
+        },
+        {
+            "id": "hartley",
+            "tier": "power",
+            "t": "Walter Noel Hartley (1881) found that its gas absorbs UV, explaining why sunlight at the ground lacks the shortest UV wavelengths",
+            "k": ["hartley", "1881"],
+            "n": 0
+        },
+        {
+            "id": "gordon-dobson",
+            "tier": "power",
+            "t": "Gordon Dobson built a spectrophotometer to measure it in the 1920s",
+            "k": ["gordon dobson", "spectrophotometer"],
+            "n": 0
+        },
+        {
+            "id": "brewer-dobson",
+            "tier": "power",
+            "t": "Mostly made over the tropics, but the Brewer–Dobson circulation carries it poleward, so it is thicker at high latitudes",
+            "k": ["brewer–dobson", "tropics"],
+            "n": 0
+        },
+        {
+            "id": "schonbein",
+            "tier": "power",
+            "t": "Christian Schönbein named its gas in 1840 from a Greek word meaning “to smell”",
+            "k": ["schönbein", "to smell", "1840"],
+            "n": 0
+        },
+        {
+            "id": "midgley",
+            "tier": "power",
+            "t": "Thomas Midgley Jr. helped invent CFC refrigerants in 1928 and once breathed one in to blow out a candle",
+            "k": ["midgley", "1928", "candle"],
+            "n": 0,
+            "rabbit": "Fluorine"
+        },
+        {
+            "id": "lovelock",
+            "tier": "power",
+            "t": "James Lovelock’s electron capture detector found CFCs in air samples all over the world",
+            "k": ["lovelock", "electron capture detector"],
+            "n": 0
+        },
+        {
+            "id": "solomon",
+            "tier": "power",
+            "t": "Susan Solomon’s 1986 expedition to McMurdo Station helped show how polar clouds speed up its destruction",
+            "k": ["susan solomon", "mcmurdo", "1986"],
+            "n": 0
+        },
+        {
+            "id": "threshold",
+            "tier": "power",
+            "t": "Areas with less than 220 Dobson units count as part of the “hole”",
+            "k": ["less than 220", "dobson"],
+            "n": 0
+        },
+        {
+            "id": "vienna-universal",
+            "tier": "power",
+            "t": "The 1985 Vienna Convention came first; in 2009 it and the Montreal Protocol became the first UN treaties ratified by every member country",
+            "k": ["vienna convention", "2009", "every member"],
+            "n": 0
+        },
+        {
+            "id": "september-16",
+            "tier": "power",
+            "t": "September 16, the Montreal Protocol’s signing date, is the UN’s international day for it",
+            "k": ["september 16"],
+            "n": 0
+        },
+        {
+            "id": "kigali",
+            "tier": "power",
+            "t": "The 2016 Kigali Amendment added HFCs, replacement gases that are harmless to it but trap heat",
+            "k": ["kigali", "hfcs", "2016"],
+            "n": 0
+        },
+        {
+            "id": "halons",
+            "tier": "power",
+            "t": "Halons in fire extinguishers contain bromine, which destroys it even faster than chlorine",
+            "k": ["halons", "bromine", "fire extinguishers"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not the whole stratosphere",
+        "body": "This layer is only part of the stratosphere, the second layer of the atmosphere, and the stratosphere is a separate answer here. Clues about chlorofluorocarbons, the Montreal Protocol, and the Antarctic “hole” tempt players to answer with those instead, and plain “oxygen” is wrong too, since this gas has three atoms per molecule, not two.",
+        "fix": "If the question asks for the thin band of gas that absorbs ultraviolet light, say ozone layer (plain “ozone” is fine too). If it asks for the whole layer between the troposphere and the mesosphere, say stratosphere. Saying “ozone hole” earns only a prompt.",
+        "line": "Real answer line: <b><u>Ozone</u></b> layer (accept ozone; prompt on ozone hole; do not accept “stratosphere”)"
+    },
+    "tests": {
+        "right": [
+            "Ozone layer",
+            "Ozone",
+            "the ozone layer",
+            "Ozonosphere",
+            "Ozone layr",
+            "O3"
+        ],
+        "prompt": [
+            "Ozone hole",
+            "Ozone depletion"
+        ],
+        "wrong": [
+            "Stratosphere",
+            "Oxygen",
+            "CFCs",
+            "Ultraviolet",
+            "Troposphere",
+            "Ground-level ozone"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

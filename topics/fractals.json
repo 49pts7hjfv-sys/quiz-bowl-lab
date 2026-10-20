@@ -406,6 +406,6 @@
     "title": "The family or one member?",
     "body": "Many tossups ask for one famous example instead of the whole family: the Mandelbrot set, a Julia set, the Koch snowflake, the Sierpiński triangle, or the Cantor set. Others want chaos theory, the field that studies systems like the weather, or Benoit Mandelbrot himself.",
     "fix": "Listen to the giveaway: “these shapes” or “these patterns,” plus self-similarity or dimensions that are not whole numbers, means fractals. “This set,” with z² + c, means the Mandelbrot set; “this snowflake” means the Koch snowflake. Saying only “self-similar shapes” earns a prompt.",
-    "line": "Real answer line: <b><u>fractal</u></b>s (accept <u>fractal geometry</u>; prompt on <u>self-similar</u> shapes)"
+    "line": "Real answer line: <b><u>fractal</u></b>s (accept <u>fractal geometry</u>; prompt on <u>self-similar</u> shapes; do not accept a single example such as “Mandelbrot set”)"
   }
 }

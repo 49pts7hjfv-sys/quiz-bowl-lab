@@ -1,0 +1,349 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "spanish-american-war",
+    "name": "Spanish-American War",
+    "mono": "SAW",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1898 war between the U.S. and Spain · Made America an overseas power",
+    "dates": "Fought April–August 1898",
+    "briefing": "In February 1898, the American warship _Maine_ exploded in the harbor of Havana, Cuba, and many newspapers blamed Spain. Within two months the United States was at war, winning at sea in the Philippines and on land in Cuba, where Theodore Roosevelt’s Rough Riders charged up Kettle Hill and San Juan Hill. The war lasted less than four months, and in the peace treaty Spain gave the United States Puerto Rico, Guam, and the Philippines.",
+    "answerHtml": "<b><u>Spanish-American</u></b> War (or <b><u>War of 1898</u></b>; accept Spanish–Cuban–American War; prompt on <u>Cuban War of Independence</u>)",
+    "accept": [
+        "spanish american war",
+        "spanish american",
+        "the spanish american war",
+        "war of 1898",
+        "spanish cuban american war"
+    ],
+    "prompt": [
+        "cuban war of independence",
+        "war of cuban independence"
+    ],
+    "reject": [
+        "mexican american war",
+        "mexican war",
+        "philippine american war",
+        "philippine war",
+        "philippine insurrection",
+        "philippine revolution",
+        "spanish civil war",
+        "war of the spanish succession",
+        "spanish armada",
+        "spanish american wars of independence",
+        "spanish american independence",
+        "war of 1812",
+        "american revolution",
+        "american revolutionary war",
+        "cuban revolution",
+        "ten years war",
+        "battle of san juan hill",
+        "san juan hill"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+    "qb": {
+        "q": "Spanish-American War",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "A 1976 investigation led by Admiral Hyman Rickover concluded that a fire in a coal bunker, not an enemy mine, most likely caused the explosion that helped start this war. A U.S. Navy court of inquiry in 1898 had instead blamed a mine for that blast.",
+            "r": "That blast sank the USS _Maine_, inspiring the slogan “Remember the _Maine_!” For 10 points, name this 1898 war between the United States and Spain."
+        },
+        {
+            "p": "In February 1898, William Randolph Hearst’s _New York Journal_ published a stolen private letter in which the diplomat Enrique Dupuy de Lôme called President William McKinley weak. Days later, an explosion destroyed an American warship, pushing the nation closer to this war.",
+            "r": "For 10 points, name this 1898 war in which the United States fought Spain over Cuba."
+        },
+        {
+            "p": "To crush a rebellion, General Valeriano Weyler forced hundreds of thousands of rural Cubans into crowded “reconcentration” camps, and American newspapers nicknamed him “the Butcher.” Reports about those camps helped build American support for this war.",
+            "r": "For 10 points, name this 1898 war that ended Spanish rule in Cuba and Puerto Rico."
+        },
+        {
+            "p": "The poet José Martí [“mar-TEE”] was killed in 1895, soon after returning home to lead a revolt that eventually led to this war. That revolt’s fighters, led by generals such as Máximo Gómez, battled for their island’s independence for three years before the United States joined in.",
+            "r": "For 10 points, name this 1898 war in which the United States fought Spain over Cuba."
+        },
+        {
+            "p": "Elbert Hubbard’s 1899 essay “A Message to Garcia” praised Lieutenant Andrew Rowan, who carried a message from the U.S. government to a Cuban rebel general at the start of this war. Hubbard used Rowan’s journey to celebrate people who get a job done without asking a lot of questions.",
+            "r": "For 10 points, name this 1898 war that began soon after the sinking of the USS _Maine_ in Havana Harbor."
+        },
+        {
+            "p": "“You may fire when you are ready, Gridley,” said the commodore aboard the cruiser _Olympia_ during this war’s first major battle, fought on May 1, 1898. His squadron destroyed an enemy fleet without losing a single American ship.",
+            "r": "That battle, won by George Dewey, took place at Manila Bay in the Philippines. For 10 points, name this 1898 war fought against Spain."
+        },
+        {
+            "p": "Richmond Hobson tried to trap an enemy fleet during this war by sinking the coal ship _Merrimac_ in the narrow entrance to Santiago Harbor. When Admiral Pascual Cervera’s ships finally tried to escape that harbor on July 3, 1898, American warships destroyed them.",
+            "r": "John Hay, soon to be Secretary of State, called this conflict “a splendid little war.” For 10 points, name this 1898 war against Spain."
+        },
+        {
+            "p": "The 9th and 10th Cavalry, Black regiments nicknamed Buffalo Soldiers, helped capture Kettle Hill outside Santiago during this war. On that same day, July 1, 1898, other American troops attacked the nearby town of El Caney.",
+            "r": "Theodore Roosevelt’s Rough Riders also charged up Kettle Hill and nearby San Juan Hill. For 10 points, name this 1898 war against Spain."
+        },
+        {
+            "p": "According to a famous but doubtful story, William Randolph Hearst told the artist Frederic Remington, “You furnish the pictures and I’ll furnish the war,” after Remington reported that all was quiet in Cuba. Hearst’s _New York Journal_ battled Joseph Pulitzer’s _New York World_ for readers.",
+            "r": "Their sensational “yellow journalism” helped stir up this war. For 10 points, name this 1898 conflict fought mainly over Cuba."
+        },
+        {
+            "p": "Senator Henry Teller of Colorado added an amendment promising that the United States would not annex one island after this war. A later amendment named for Orville Platt let the U.S. step in on that island and lease a naval base at Guantánamo [“gwahn-TAH-nuh-moh”] Bay.",
+            "r": "That island was Cuba. For 10 points, name this 1898 war in which the United States defeated Spain."
+        },
+        {
+            "p": "Mark Twain and Andrew Carnegie joined the Anti-Imperialist League to oppose taking over the Philippines after this war. In 1899, the Senate barely approved the treaty that ended this war.",
+            "r": "In that Treaty of Paris, Spain gave the United States Puerto Rico, Guam, and the Philippines. For 10 points, name this 1898 war."
+        },
+        {
+            "p": "Rudyard Kipling’s 1899 poem “The White Man’s Burden” urged Americans to take control of lands won in this war. The Filipino leader Emilio Aguinaldo [“ah-ghee-NAHL-doh”], who had fought against his islands’ old colonial rulers during this war, then led a rebellion against the United States.",
+            "r": "For 10 points, name this 1898 war after which the U.S. paid Spain $20 million for the Philippines."
+        },
+        {
+            "p": "Far more American soldiers died of diseases such as typhoid and yellow fever than in combat during this war, and some troops complained about spoiled canned “embalmed beef.” Afterward, Walter Reed’s team in Cuba confirmed that mosquitoes spread yellow fever.",
+            "r": "For 10 points, name this 1898 war in which Theodore Roosevelt led the Rough Riders."
+        },
+        {
+            "p": "Writers known as the Generation of ’98, such as Miguel de Unamuno [“oo-nah-MOO-noh”], reflected on their country’s crushing defeat in this war, which they called “the Disaster.” That defeat ended their country’s empire in the Americas.",
+            "r": "For 10 points, name this 1898 war in which Spain lost Cuba, Puerto Rico, Guam, and the Philippines to the United States."
+        },
+        {
+            "p": "When the cruiser _Charleston_ fired at an old fort on Guam during this war, officials on the island thought it was a salute because they had not heard that the war had begun. A few weeks later, the United States annexed Hawaii through the Newlands Resolution.",
+            "r": "For 10 points, name this 1898 war in which the United States also won the Philippines and Puerto Rico."
+        }
+    ],
+    "clues": [
+        {
+            "id": "1898-spain",
+            "tier": "giveaway",
+            "t": "Fought in 1898 between the United States and Spain; it lasted less than four months",
+            "k": ["1898", "spain", "four months"],
+            "n": 0
+        },
+        {
+            "id": "maine",
+            "tier": "giveaway",
+            "t": "Sparked by the explosion of the USS _Maine_ in Havana Harbor, Cuba (February 15, 1898): “Remember the _Maine_!”",
+            "k": ["remember the maine", "maine", "havana"],
+            "n": 0
+        },
+        {
+            "id": "cuba",
+            "tier": "giveaway",
+            "t": "Fought mainly over Cuba, where rebels had been fighting for independence since 1895",
+            "k": ["cuba", "independence", "rebels"],
+            "n": 0,
+            "rabbit": "Cuba"
+        },
+        {
+            "id": "rough-riders",
+            "tier": "giveaway",
+            "t": "Theodore Roosevelt’s Rough Riders charged up Kettle Hill and San Juan Hill near Santiago, Cuba (July 1, 1898)",
+            "k": ["rough riders", "theodore roosevelt", "san juan hill", "kettle hill"],
+            "n": 0,
+            "rabbit": "Battle of San Juan Hill"
+        },
+        {
+            "id": "treaty-paris",
+            "tier": "middle",
+            "t": "Treaty of Paris (1898): Spain gave up Cuba and gave the U.S. Puerto Rico, Guam, and the Philippines (for $20 million)",
+            "k": ["treaty of paris", "puerto rico", "guam", "philippines"],
+            "n": 0
+        },
+        {
+            "id": "yellow-journalism",
+            "tier": "middle",
+            "t": "“Yellow journalism” in William Randolph Hearst’s _New York Journal_ and Joseph Pulitzer’s _New York World_ stirred up war fever",
+            "k": ["yellow journalism", "hearst", "pulitzer"],
+            "n": 0
+        },
+        {
+            "id": "dewey",
+            "tier": "middle",
+            "t": "Commodore George Dewey destroyed Spain’s Pacific fleet at Manila Bay in the Philippines (May 1, 1898)",
+            "k": ["george dewey", "dewey", "manila bay"],
+            "n": 0
+        },
+        {
+            "id": "mckinley",
+            "tier": "middle",
+            "t": "President William McKinley asked Congress to declare war in April 1898",
+            "k": ["william mckinley", "mckinley", "april 1898"],
+            "n": 0,
+            "rabbit": "William McKinley"
+        },
+        {
+            "id": "splendid",
+            "tier": "middle",
+            "t": "Diplomat John Hay, soon to be Secretary of State, called it “a splendid little war”",
+            "k": ["splendid little war", "splendid", "john hay"],
+            "n": 0
+        },
+        {
+            "id": "teller",
+            "tier": "middle",
+            "t": "The Teller Amendment (1898) promised that the U.S. would not annex Cuba",
+            "k": ["teller amendment", "teller", "annex"],
+            "n": 0
+        },
+        {
+            "id": "platt",
+            "tier": "middle",
+            "t": "The Platt Amendment (1901) let the U.S. intervene in Cuba and lease a naval base at Guantánamo Bay",
+            "k": ["platt amendment", "platt", "guantánamo bay", "guantanamo"],
+            "n": 0
+        },
+        {
+            "id": "disease",
+            "tier": "middle",
+            "t": "Far more U.S. soldiers died of diseases like typhoid and yellow fever than in battle",
+            "k": ["disease", "yellow fever", "typhoid"],
+            "n": 0
+        },
+        {
+            "id": "anti-imperialist",
+            "tier": "middle",
+            "t": "The Anti-Imperialist League, including Mark Twain and Andrew Carnegie, opposed taking over the Philippines",
+            "k": ["anti-imperialist league", "anti-imperialist", "mark twain", "andrew carnegie"],
+            "n": 0
+        },
+        {
+            "id": "weyler",
+            "tier": "power",
+            "t": "General Valeriano Weyler (“the Butcher”) forced rural Cubans into crowded “reconcentration” camps",
+            "k": ["weyler", "reconcentration", "butcher"],
+            "n": 0
+        },
+        {
+            "id": "de-lome",
+            "tier": "power",
+            "t": "The de Lôme letter (February 1898): a Spanish diplomat privately called McKinley weak, and Hearst’s paper printed it",
+            "k": ["de lôme", "de lome", "letter"],
+            "n": 0
+        },
+        {
+            "id": "remington",
+            "tier": "power",
+            "t": "Hearst supposedly told artist Frederic Remington, “You furnish the pictures and I’ll furnish the war”",
+            "k": ["frederic remington", "remington", "furnish"],
+            "n": 0
+        },
+        {
+            "id": "rickover",
+            "tier": "power",
+            "t": "A 1976 study by Admiral Hyman Rickover found that a coal-bunker fire, not a mine, most likely sank the _Maine_",
+            "k": ["hyman rickover", "rickover", "coal"],
+            "n": 0
+        },
+        {
+            "id": "gridley",
+            "tier": "power",
+            "t": "At Manila Bay, Dewey told the captain of his flagship _Olympia_, “You may fire when you are ready, Gridley”",
+            "k": ["gridley", "olympia", "fire when you are ready"],
+            "n": 0
+        },
+        {
+            "id": "santiago",
+            "tier": "power",
+            "t": "U.S. warships destroyed Admiral Pascual Cervera’s fleet as it fled Santiago Harbor (July 3, 1898); Richmond Hobson had tried to trap it by sinking the _Merrimac_",
+            "k": ["cervera", "santiago", "hobson", "merrimac"],
+            "n": 0
+        },
+        {
+            "id": "buffalo-soldiers",
+            "tier": "power",
+            "t": "The 9th and 10th Cavalry, Black regiments called Buffalo Soldiers, fought at Kettle Hill and San Juan Hill",
+            "k": ["buffalo soldiers", "10th cavalry", "black regiments"],
+            "n": 0
+        },
+        {
+            "id": "aguinaldo",
+            "tier": "power",
+            "t": "Filipino leader Emilio Aguinaldo fought Spain, then fought the U.S. in the Philippine-American War (1899–1902)",
+            "k": ["emilio aguinaldo", "aguinaldo", "philippine-american war"],
+            "n": 0
+        },
+        {
+            "id": "kipling",
+            "tier": "power",
+            "t": "Rudyard Kipling’s 1899 poem “The White Man’s Burden” urged the U.S. to rule the Philippines",
+            "k": ["rudyard kipling", "kipling", "white man’s burden"],
+            "n": 0
+        },
+        {
+            "id": "garcia",
+            "tier": "power",
+            "t": "Elbert Hubbard’s essay “A Message to Garcia” (1899) praised Andrew Rowan for carrying a message to a Cuban rebel general",
+            "k": ["message to garcia", "andrew rowan", "rowan", "elbert hubbard"],
+            "n": 0
+        },
+        {
+            "id": "generation-98",
+            "tier": "power",
+            "t": "Spaniards called the defeat “the Disaster”; writers such as Miguel de Unamuno became known as the Generation of ’98",
+            "k": ["generation of ’98", "the disaster", "unamuno"],
+            "n": 0
+        },
+        {
+            "id": "marti",
+            "tier": "power",
+            "t": "Poet José Martí, a hero of Cuban independence, was killed in 1895, soon after the revolt against Spain began",
+            "k": ["josé martí", "jose marti", "martí", "1895"],
+            "n": 0
+        },
+        {
+            "id": "walter-reed",
+            "tier": "power",
+            "t": "Afterward, Walter Reed’s team in Cuba confirmed that mosquitoes spread yellow fever (1900)",
+            "k": ["walter reed", "mosquitoes"],
+            "n": 0
+        },
+        {
+            "id": "guam-hawaii",
+            "tier": "power",
+            "t": "The cruiser _Charleston_ took Guam, where officials hadn’t heard that war had begun; the U.S. also annexed Hawaii (Newlands Resolution, July 1898)",
+            "k": ["charleston", "newlands resolution", "hawaii"],
+            "n": 0,
+            "rabbit": "Hawaii"
+        }
+    ],
+    "trap": {
+        "title": "Not Mexico, not the Philippines",
+        "body": "Three American wars sound alike. The Mexican-American War (1846–1848) won California and the Southwest, the Spanish-American War (1898) ended Spanish rule in Cuba, and the Philippine-American War (1899–1902) began when Filipinos led by Emilio Aguinaldo fought U.S. rule. The Spanish Civil War (1936–1939) was a different war, fought among Spaniards inside Spain.",
+        "fix": "Listen for 1898, Cuba, the _Maine_, Manila Bay, San Juan Hill, the Rough Riders, and yellow journalism. Zachary Taylor, Santa Anna, and the Mexican Cession mean the Mexican-American War; Aguinaldo fighting U.S. troops after 1899 means the Philippine-American War.",
+        "line": "Real answer line: <b><u>Spanish-American</u></b> War (or <b><u>War of 1898</u></b>; accept Spanish–Cuban–American War)"
+    },
+    "tests": {
+        "right": [
+            "Spanish-American War",
+            "Spanish American War",
+            "War of 1898",
+            "Spanish-American",
+            "Spanish-Amercian War",
+            "Spanish-Cuban-American War"
+        ],
+        "prompt": [
+            "Cuban War of Independence"
+        ],
+        "wrong": [
+            "Mexican-American War",
+            "Philippine-American War",
+            "Spanish Civil War",
+            "War of 1812",
+            "Cuban Revolution",
+            "Spanish Armada",
+            "American Revolution"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

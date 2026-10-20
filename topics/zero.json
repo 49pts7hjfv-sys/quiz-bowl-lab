@@ -7,7 +7,7 @@
   "kicker": "Neither positive nor negative · The digit that holds an empty place",
   "dates": "First rules for arithmetic with it: Brahmagupta, 628 CE",
   "briefing": "Zero stands for “nothing,” but treating nothing as an actual number was a big idea that took centuries to catch on. The Babylonians and the Maya used symbols to mark empty places, and in 628 CE the Indian mathematician Brahmagupta gave rules for adding, subtracting, and multiplying with zero. It is neither positive nor negative, adding it to a number changes nothing, and dividing by it is undefined.",
-  "answerHtml": "<b><u>zero</u></b> (or <u>0</u>; accept <u>nought</u> or <u>naught</u>; prompt on <u>nothing</u>)",
+  "answerHtml": "<b><u>zero</u></b> (or <u>0</u>; accept <u>nought</u> or <u>naught</u>; prompt on <u>nothing</u> or <u>none</u>)",
   "accept": [
     "zero",
     "0",
@@ -431,6 +431,6 @@
     "title": "Not one, not infinity",
     "body": "Several clues about this number mention the number 1 (its factorial is 1, and any other number raised to its power is 1), so players who buzz on the last number they heard say “one.” Clues about dividing by it can pull players toward “infinity.” Some tossups want a related answer line instead, such as absolute zero (the coldest temperature), the empty set, or the zeros of a function.",
     "fix": "Ask which number the clue is about, not which number it mentions. “Neither positive nor negative,” “additive identity,” “placeholder,” Brahmagupta, or shunya means zero. If the giveaway asks for a temperature or a set, answer absolute zero or the empty set instead.",
-    "line": "Real answer line: <b><u>zero</u></b> (or <u>0</u>; accept <u>nought</u> or <u>naught</u>)"
+    "line": "Real answer line: <b><u>zero</u></b> (or <u>0</u>; accept <u>nought</u> or <u>naught</u>; prompt on <u>nothing</u> or <u>none</u>)"
   }
 }

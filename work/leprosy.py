@@ -94,8 +94,8 @@ data = {
             "r": "For 10 points, name this disease caused by a bacterium related to the tuberculosis germ."
         },
         {
-            "p": "Like the tuberculosis germ, the bacterium behind this disease has a waxy cell wall that holds on to red dye in an “acid-fast” stain. In 1873, Norwegian doctor Gerhard Armauer Hansen identified that bacterium, one of the first germs ever shown to cause a human disease.",
-            "r": "It can cause numb patches on the skin. For 10 points, name this disease of the skin and nerves, now curable with antibiotics."
+            "p": "Like the tuberculosis germ, the bacterium behind this disease has a waxy cell wall that holds on to red dye in an “acid-fast” stain. That bacterium divides only about once every two weeks, far more slowly than most bacteria.",
+            "r": "In 1873, Norwegian doctor Gerhard Armauer Hansen identified it, one of the first germs shown to cause a human disease. For 10 points, name this disease of the skin and nerves."
         },
         {
             "p": "In the southern United States, nine-banded armadillos carry the bacterium that causes this disease and have passed it to some people. Most people who are exposed to that bacterium never get sick, because their immune systems fight it off.",

@@ -11,7 +11,7 @@ data = {
     "qbCategory": "Science · Physics",
     "kicker": "Invisible high-energy rays that see through skin · Found by Röntgen, 1895",
     "dates": "Discovered by Wilhelm Röntgen, 1895",
-    "briefing": "In November 1895, the German physicist Wilhelm Röntgen noticed a screen glowing across his darkened lab while he ran electricity through a glass tube wrapped in black cardboard. The invisible rays causing the glow could pass through skin and paper but not bone or metal, so he named them X-rays, with the X standing for “unknown.” Today doctors use X-rays to find broken bones, dentists use them to find cavities, and space telescopes use them to study black holes and exploding stars.",
+    "briefing": "In November 1895, the German physicist Wilhelm Röntgen noticed a screen glowing across his darkened lab while he ran electricity through a glass tube wrapped in black cardboard. The invisible rays causing the glow could pass through skin and paper but not bone or metal, so he named them X-rays, with the X standing for “unknown.” Doctors use X-rays to find broken bones, dentists use them to find cavities, and space telescopes use them to study black holes and exploding stars.",
     "answerHtml": "<b><u>X-ray</u></b>s (accept <u>X-radiation</u> or <u>Röntgen rays</u>; prompt on <u>electromagnetic radiation</u>; do not accept “gamma rays”)",
     "accept": [
         "x rays",
@@ -120,7 +120,7 @@ data = {
             "r": "On ordinary images made with these rays, bones show up white. For 10 points, name these rays, which doctors use to check for broken bones."
         },
         {
-            "p": "One of the first images ever made with these rays showed the bones of the discoverer’s wife’s hand, along with her wedding ring. Their discoverer won the first Nobel Prize in Physics, in 1901.",
+            "p": "One of the first images ever made with these rays showed the hand of the discoverer’s wife, wedding ring and all. Their discoverer won the first Nobel Prize in Physics, in 1901.",
             "r": "He named them with an X because they were unknown. For 10 points, name these rays found by Wilhelm Röntgen in 1895."
         },
         {
@@ -128,11 +128,11 @@ data = {
             "r": "Bones look white on images made with these rays. For 10 points, name these rays discovered by Wilhelm Röntgen."
         },
         {
-            "p": "Riccardo Giacconi [“jah-KOH-nee”] won the 2002 Nobel Prize in Physics for founding the astronomy of these rays, which took off when his team’s rocket found the source Scorpius X-1 in 1962.",
+            "p": "Riccardo Giacconi [“jah-KOH-nee”] won the 2002 Nobel Prize in Physics for founding the astronomy of these rays, which took off when his team’s rocket found the source Scorpius X-1 in 1962. That source turned out to be a neutron star pulling gas off a companion star.",
             "r": "Hot gas around black holes and neutron stars gives off these rays. For 10 points, name this type of radiation that can pass through skin and muscle."
         },
         {
-            "p": "From the 1920s to the 1950s, many shoe stores used “shoe-fitting fluoroscopes,” machines that let customers see the bones of their feet inside new shoes using these rays. Worries about radiation ended that practice.",
+            "p": "From the 1920s to the 1950s, many shoe stores used “shoe-fitting fluoroscopes,” machines that used these rays to let customers look right through new shoes to see how their feet fit. Worries about radiation ended that practice.",
             "r": "Large doses of these rays can damage DNA. For 10 points, name these rays that doctors use to look at bones."
         },
         {
@@ -144,8 +144,8 @@ data = {
             "r": "For 10 points, name these rays, used in crystallography, that Wilhelm Röntgen discovered in 1895."
         },
         {
-            "p": "While running a glass tube wrapped in black cardboard in Würzburg [“VURTS-burg”], a physicist noticed a screen coated with barium platinocyanide glowing across the room, the first sign of these rays. His paper “On a New Kind of Rays” announced them at the end of 1895.",
-            "r": "For 10 points, name these rays discovered by Wilhelm Röntgen."
+            "p": "While running a glass tube wrapped in black cardboard in Würzburg [“VURTS-burg”], a physicist noticed a screen coated with barium platinocyanide glowing across the room one day in November, the first sign of these rays.",
+            "r": "His paper “On a New Kind of Rays” announced them at the end of 1895. For 10 points, name these rays discovered by Wilhelm Röntgen."
         },
         {
             "p": "Mammograms, which help doctors find breast cancer early, use low doses of these rays. Like gamma rays, these rays are “ionizing,” meaning they carry enough energy to knock electrons off atoms, so patients are exposed to them only when needed.",
@@ -225,7 +225,7 @@ data = {
         {
             "id": "wife-hand",
             "tier": "middle",
-            "t": "One of the first images showed the bones of Röntgen’s wife’s hand, with her wedding ring",
+            "t": "One of the first images showed the hand of Röntgen’s wife, wedding ring and all",
             "k": [
                 "wedding ring",
                 "wife",
@@ -404,7 +404,7 @@ data = {
         {
             "id": "shoe-fluoroscopes",
             "tier": "power",
-            "t": "From the 1920s to the 1950s, shoe stores used shoe-fitting fluoroscopes to show customers the bones of their feet",
+            "t": "From the 1920s to the 1950s, shoe stores used shoe-fitting fluoroscopes that let customers see through new shoes to check the fit",
             "k": [
                 "shoe-fitting",
                 "shoe stores"

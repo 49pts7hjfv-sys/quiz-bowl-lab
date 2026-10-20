@@ -1,0 +1,389 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>Sodium</u></b> (accept <u>Na</u>)"
+
+data = {
+    "id": "sodium",
+    "name": "Sodium",
+    "mono": "NA",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Element 11 · The soft, reactive metal in table salt",
+    "dates": "Isolated 1807",
+    "briefing": "Sodium is a silvery metal so soft you can cut it with a butter knife, and it reacts so violently with water that a small piece zips across the surface, fizzing out hydrogen. Humphry Davy first isolated it in 1807 by running electricity through melted caustic soda. You eat it every day in table salt, sodium chloride, and its bright yellow-orange glow has lit many streetlights.",
+    "answerHtml": LINE,
+    "accept": [
+        "sodium",
+        "na",
+        "sodium metal",
+        "sodium ion",
+        "sodium ions"
+    ],
+    "prompt": [],
+    "reject": [
+        "potassium",
+        "lithium",
+        "rubidium",
+        "cesium",
+        "caesium",
+        "francium",
+        "magnesium",
+        "calcium",
+        "neon",
+        "aluminum",
+        "aluminium",
+        "chlorine",
+        "chloride",
+        "salt",
+        "salts",
+        "table salt",
+        "rock salt",
+        "sodium chloride",
+        "sodium hydroxide",
+        "sodium bicarbonate",
+        "sodium carbonate",
+        "sodium nitrate",
+        "sodium hypochlorite",
+        "sodium azide",
+        "sodium acetate",
+        "sodium fluoride",
+        "sodium sulfate",
+        "sodium silicate",
+        "sodium benzoate",
+        "sodium borohydride",
+        "sodium ethoxide",
+        "sodium vapor",
+        "sodium vapor lamp",
+        "sodium lamp",
+        "sodium potassium pump",
+        "sodium potassium",
+        "sodium channel",
+        "sodium channels",
+        "monosodium glutamate",
+        "msg",
+        "nak",
+        "nacl",
+        "naoh",
+        "natron",
+        "soda",
+        "caustic soda",
+        "soda ash",
+        "baking soda",
+        "washing soda",
+        "lye",
+        "halite",
+        "trona",
+        "alkali metal",
+        "alkali metals",
+        "electrolyte",
+        "electrolytes"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Sodium",
+    "qb": {
+        "q": "sodium",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Alan Hodgkin and Andrew Huxley used the giant nerve fiber of a squid to show that ions of this element rush into a neuron at the start of each nerve impulse. A protein pump pushes three ions of this element out of a cell for every two potassium ions it brings in.",
+            "r": "For 10 points, name this alkali metal with atomic number 11, which combines with chlorine to make table salt."
+        },
+        {
+            "p": "Joseph von Fraunhofer [“FROWN-hoh-fer”] labeled a pair of dark lines in the Sun’s spectrum with the letter D, and in 1859 Gustav Kirchhoff and Robert Bunsen showed that vapor of this element causes them. This element’s D lines are near 589 nanometers.",
+            "r": "This element gives a bright yellow-orange color in a flame test. For 10 points, name this element with atomic number 11."
+        },
+        {
+            "p": "Large telescopes shine powerful lasers at a layer of this element’s atoms about 90 kilometers up, making them glow as artificial “guide stars” that help cancel the blur caused by Earth’s atmosphere. Those atoms come from meteors that burn up high in the sky.",
+            "r": "For 10 points, name this element with atomic number 11, which is part of table salt."
+        },
+        {
+            "p": "Ancient Egyptians used natron, a mineral mixture rich in this element’s carbonate and bicarbonate, to dry out bodies before wrapping them as mummies, and as a flux for making glass. Natron also gave this element its chemical symbol.",
+            "r": "That symbol comes from the Latin natrium. For 10 points, name this alkali metal with atomic number 11."
+        },
+        {
+            "p": "In a Downs cell, factories make this element by electrolysis of a molten mixture to which calcium chloride is added to lower the melting point. The liquid metal floats to the top of the cell, where it is collected without touching air.",
+            "r": "Chlorine gas is made at the same time. For 10 points, name this alkali metal, which combines with chlorine to make table salt."
+        },
+        {
+            "p": "In 1807, just days after isolating potassium, Humphry Davy isolated this element by passing electric current through its molten hydroxide, which is commonly called caustic soda or lye. He used a huge battery at the Royal Institution in London.",
+            "r": "For 10 points, name this alkali metal, element 11, whose English name comes from “soda.”"
+        },
+        {
+            "p": "This element melts at about 98 °C, so its liquid form has been used to carry heat away from the cores of fast breeder nuclear reactors. It is soft enough to cut with a butter knife, and freshly cut surfaces quickly tarnish in air.",
+            "r": "It is stored under oil to keep water away. For 10 points, name this alkali metal with atomic number 11."
+        },
+        {
+            "p": "This element dissolves in liquid ammonia to make a deep blue solution full of loose electrons. When a small piece of it is dropped into water, it floats, melts into a shiny ball, and skates around as it fizzes out hydrogen gas.",
+            "r": "That reaction also makes a strong base. For 10 points, name this alkali metal with atomic number 11."
+        },
+        {
+            "p": "Tetrodotoxin [“teh-TROH-doh-tok-sin”], a poison found in pufferfish, works by blocking the channels that let ions of this element into nerve cells, so nerve signals cannot fire. Doctors call too little of this element in the blood hyponatremia [“hy-poh-nuh-TREE-mee-uh”].",
+            "r": "For 10 points, name this element with atomic number 11, which joins chlorine in table salt."
+        },
+        {
+            "p": "Many car airbags were once inflated by heating this element’s azide, which breaks down in a split second to release nitrogen gas. Low-pressure streetlights filled with this element’s vapor give off a single, almost pure color of light that astronomers can easily filter out.",
+            "r": "Those lamps glow yellow-orange. For 10 points, name this alkali metal with atomic number 11, found in table salt."
+        },
+        {
+            "p": "Nicolas Leblanc’s [“luh-BLAHN’s”] process, patented in 1791, made soda ash, a carbonate of this element, using sulfuric acid, coal, and limestone among its ingredients, until Ernest Solvay’s cleaner process, which recycles ammonia, replaced it. Soda ash is a key ingredient in ordinary window glass, called soda-lime glass.",
+            "r": "For 10 points, name this alkali metal, element 11, that sits just above potassium in group 1."
+        },
+        {
+            "p": "Glassblowers wear goggles made with didymium [“dye-DIM-ee-um”] glass to block the intense glare this element gives off in hot glass. A tiny trace of this element can hide other flame-test colors, so chemists look through blue cobalt glass when testing for potassium.",
+            "r": "This element gives a bright yellow-orange flame. For 10 points, name this element with atomic number 11."
+        },
+        {
+            "p": "In 1908, Kikunae Ikeda [“kee-koo-NAH-eh ee-KEH-dah”] identified glutamate as the source of the savory taste he called umami and patented a compound of glutamic acid and this element. He had found glutamate in kombu, a seaweed used in Japanese soup stock. That flavor enhancer is abbreviated MSG.",
+            "r": "For 10 points, name this element with atomic number 11, whose chloride is ordinary table salt."
+        },
+        {
+            "p": "The Hubble Space Telescope detected this element in the atmosphere of the planet HD 209458 b, the first atmosphere found on a planet outside the solar system. Sunlight also pushes atoms of this element out of Mercury’s thin atmosphere into a long, comet-like tail.",
+            "r": "For 10 points, name this element with atomic number 11, which gives a yellow-orange flame test."
+        },
+        {
+            "p": "This element’s electron configuration is written [Ne] 3s¹, because its atoms have a single electron in the third shell. Removing that electron takes little energy, but removing a second one would take nearly ten times as much, so this element forms only +1 ions.",
+            "r": "For 10 points, name this alkali metal with atomic number 11, which sits between lithium and potassium in group 1."
+        }
+    ],
+    "clues": [
+        {
+            "id": "element-11",
+            "tier": "giveaway",
+            "t": "Element with atomic number 11; its symbol comes from the Latin natrium",
+            "k": ["natrium", "latin", "11"],
+            "n": 0
+        },
+        {
+            "id": "alkali-metal",
+            "tier": "giveaway",
+            "t": "An alkali metal in group 1, between lithium and potassium",
+            "k": ["alkali metal", "group 1", "lithium", "potassium"],
+            "n": 0,
+            "rabbit": "Potassium"
+        },
+        {
+            "id": "table-salt",
+            "tier": "giveaway",
+            "t": "Joins chlorine to make table salt",
+            "k": ["table salt", "chlorine"],
+            "n": 0,
+            "rabbit": "Chlorine"
+        },
+        {
+            "id": "flame-test",
+            "tier": "giveaway",
+            "t": "Gives a bright yellow-orange color in a flame test",
+            "k": ["yellow-orange", "flame test"],
+            "n": 0,
+            "rabbit": "Flame test"
+        },
+        {
+            "id": "soda-name",
+            "tier": "giveaway",
+            "t": "Its English name comes from “soda”",
+            "k": ["soda", "english name"],
+            "n": 0
+        },
+        {
+            "id": "davy",
+            "tier": "middle",
+            "t": "Humphry Davy isolated it in 1807, days after potassium, by electrolysis of molten caustic soda",
+            "k": ["humphry davy", "1807", "caustic soda"],
+            "n": 0
+        },
+        {
+            "id": "water",
+            "tier": "middle",
+            "t": "Floats on water, melts into a ball, and fizzes out hydrogen, leaving a strong base; it is stored under oil",
+            "k": ["floats", "hydrogen", "stored under oil"],
+            "n": 0
+        },
+        {
+            "id": "soft",
+            "tier": "middle",
+            "t": "Soft enough to cut with a butter knife; fresh surfaces tarnish quickly in air",
+            "k": ["butter knife", "tarnish"],
+            "n": 0
+        },
+        {
+            "id": "one-electron",
+            "tier": "middle",
+            "t": "Has one valence electron ([Ne] 3s¹), which it easily loses to form a +1 ion",
+            "k": ["valence electron", "3s¹", "+1 ion"],
+            "n": 0
+        },
+        {
+            "id": "nerves",
+            "tier": "middle",
+            "t": "Its ions rush into neurons to start nerve impulses; a pump moves 3 of them out for every 2 potassium ions in",
+            "k": ["nerve impulses", "pump", "neurons"],
+            "n": 0
+        },
+        {
+            "id": "streetlights",
+            "tier": "middle",
+            "t": "Its vapor lamps have given many streetlights a yellow-orange glow",
+            "k": ["streetlights", "vapor lamps"],
+            "n": 0
+        },
+        {
+            "id": "compounds",
+            "tier": "middle",
+            "t": "Its compounds include baking soda (bicarbonate), lye or caustic soda (hydroxide), and bleach (hypochlorite)",
+            "k": ["baking soda", "lye", "bleach"],
+            "n": 0
+        },
+        {
+            "id": "glass",
+            "tier": "middle",
+            "t": "Ordinary soda-lime glass is made with soda ash, its carbonate",
+            "k": ["soda-lime glass", "soda ash"],
+            "n": 0
+        },
+        {
+            "id": "liquid-ammonia",
+            "tier": "middle",
+            "t": "Dissolves in liquid ammonia to make a deep blue solution of loose electrons",
+            "k": ["liquid ammonia", "deep blue"],
+            "n": 0,
+            "rabbit": "Ammonia"
+        },
+        {
+            "id": "natron",
+            "tier": "power",
+            "t": "Ancient Egyptians dried mummies with natron, a mineral rich in its carbonate; natron gave it its symbol",
+            "k": ["natron", "mummies", "egyptians"],
+            "n": 0
+        },
+        {
+            "id": "d-lines",
+            "tier": "power",
+            "t": "Its D lines are near 589 nanometers; Kirchhoff and Bunsen showed in 1859 that the Sun’s dark D lines (named by Fraunhofer) come from it",
+            "k": ["d lines", "589", "fraunhofer"],
+            "n": 0,
+            "rabbit": "Robert Bunsen"
+        },
+        {
+            "id": "guide-stars",
+            "tier": "power",
+            "t": "Telescopes shine lasers at a layer of its atoms about 90 km up to make artificial guide stars; the atoms come from meteors",
+            "k": ["guide stars", "lasers", "meteors"],
+            "n": 0
+        },
+        {
+            "id": "downs-cell",
+            "tier": "power",
+            "t": "The Downs cell makes it by electrolysis of a molten mixture with calcium chloride added to lower the melting point",
+            "k": ["downs cell", "calcium chloride", "molten"],
+            "n": 0,
+            "rabbit": "Electrolysis"
+        },
+        {
+            "id": "coolant",
+            "tier": "power",
+            "t": "It melts at about 98 °C, and its liquid has cooled some fast breeder nuclear reactors",
+            "k": ["fast breeder", "98"],
+            "n": 0
+        },
+        {
+            "id": "hodgkin-huxley",
+            "tier": "power",
+            "t": "Alan Hodgkin and Andrew Huxley’s experiments on the squid giant axon showed its ions rushing in during nerve impulses",
+            "k": ["hodgkin", "huxley", "squid"],
+            "n": 0
+        },
+        {
+            "id": "tetrodotoxin",
+            "tier": "power",
+            "t": "Tetrodotoxin from pufferfish blocks the channels its ions use; too little of it in the blood is called hyponatremia",
+            "k": ["tetrodotoxin", "pufferfish", "hyponatremia"],
+            "n": 0
+        },
+        {
+            "id": "azide",
+            "tier": "power",
+            "t": "Its azide, which releases nitrogen gas in a split second, inflated many car airbags",
+            "k": ["azide", "airbags", "nitrogen gas"],
+            "n": 0
+        },
+        {
+            "id": "low-pressure-lamps",
+            "tier": "power",
+            "t": "Low-pressure lamps filled with its vapor give off nearly one pure color, which astronomers can filter out",
+            "k": ["low-pressure", "astronomers", "filter"],
+            "n": 0
+        },
+        {
+            "id": "leblanc-solvay",
+            "tier": "power",
+            "t": "The Leblanc process (patented 1791) and later the Solvay process, which recycles ammonia, made soda ash, its carbonate",
+            "k": ["leblanc", "solvay", "1791"],
+            "n": 0
+        },
+        {
+            "id": "didymium",
+            "tier": "power",
+            "t": "Glassblowers wear didymium goggles to block its glare; chemists use blue cobalt glass to hide it when testing for potassium",
+            "k": ["didymium", "cobalt glass", "glassblowers"],
+            "n": 0,
+            "rabbit": "Lanthanides"
+        },
+        {
+            "id": "msg",
+            "tier": "power",
+            "t": "Kikunae Ikeda (1908) traced the umami taste of kombu to glutamate and patented MSG, its salt of glutamic acid",
+            "k": ["ikeda", "umami", "glutamate", "msg"],
+            "n": 0
+        },
+        {
+            "id": "exoplanet",
+            "tier": "power",
+            "t": "Hubble found it in the atmosphere of HD 209458 b, the first exoplanet atmosphere detected; sunlight pushes it off Mercury in a comet-like tail",
+            "k": ["hd 209458 b", "hubble", "mercury"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Element, not table salt",
+        "body": "Many clues for this element are really about its compounds, like table salt, baking soda, lye, and soda ash, so players blurt “salt” or “sodium chloride,” which are wrong when the question asks for the element. Potassium, just below it in group 1, is the other trap: both are soft, both react with water, Humphry Davy isolated both in 1807, and the same pump moves both across cell membranes.",
+        "fix": "Answer with the element whenever the question says “this element,” even if the clue names one of its compounds. A yellow-orange flame, element 11, natron, the D lines, and streetlights point here; a lilac flame, element 19, potash, and bananas point to potassium.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Sodium",
+            "Na",
+            "Sodum",
+            "sodium metal",
+            "Sodium ions"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Potassium",
+            "Sodium chloride",
+            "Salt",
+            "Lithium",
+            "Chlorine",
+            "Baking soda",
+            "Magnesium",
+            "Caustic soda"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,427 @@
+{
+  "id": "testosterone",
+  "name": "Testosterone",
+  "mono": "TST",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Steroid hormone made mainly in the testes · Builds muscle and bone",
+  "dates": "Isolated and first made in a lab in 1935",
+  "briefing": "Testosterone is a steroid hormone made mainly in the testes, with smaller amounts made by the ovaries and adrenal glands. During puberty it fuels a growth spurt, builds muscle and bone, and lengthens the vocal cords so the voice deepens. In 1935, scientists in Amsterdam isolated it, and teams led by Adolf Butenandt and Leopold Ružička made it in the lab; the two chemists shared the 1939 Nobel Prize in Chemistry.",
+  "answerHtml": "<b><u>Testosterone</u></b> (prompt on <u>androgen</u> or <u>steroid</u> hormone; do not accept “estrogen,” “estradiol,” or “dihydrotestosterone”)",
+  "accept": [
+    "testosterone"
+  ],
+  "prompt": [
+    "androgen",
+    "androgens",
+    "steroid",
+    "steroids",
+    "steroid hormone",
+    "steroid hormones",
+    "anabolic steroid",
+    "anabolic steroids"
+  ],
+  "reject": [
+    "estrogen",
+    "estrogens",
+    "oestrogen",
+    "estradiol",
+    "estrone",
+    "progesterone",
+    "dihydrotestosterone",
+    "dht",
+    "epitestosterone",
+    "androstenedione",
+    "androsterone",
+    "dhea",
+    "cortisol",
+    "cortisone",
+    "aldosterone",
+    "cholesterol",
+    "pregnenolone",
+    "luteinizing hormone",
+    "lh",
+    "fsh",
+    "follicle stimulating hormone",
+    "gnrh",
+    "growth hormone",
+    "insulin",
+    "epinephrine",
+    "adrenaline",
+    "thyroxine",
+    "oxytocin",
+    "testes",
+    "testis",
+    "leydig cells"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Testosterone",
+  "qb": {
+    "q": "testosterone",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Adolf Butenandt and Leopold Ružička [“ROO-zhich-kah”] each found a way to make this hormone in the lab in 1935, and they shared the 1939 Nobel Prize in Chemistry. The Nazi government forced Butenandt to turn the prize down, but he accepted it after World War II.",
+      "r": "For 10 points, name this hormone, made mainly in the testes, that helps build muscle and bone."
+    },
+    {
+      "p": "In 1935, Ernst Laqueur’s team in Amsterdam isolated crystals of this hormone from bull tissue and gave it its name, which blends a word for the organ that makes most of it with “sterol” and the chemical ending “-one.”",
+      "r": "For 10 points, name this hormone that causes a growth spurt and a deeper voice during puberty."
+    },
+    {
+      "p": "An enzyme called aromatase converts this hormone into estradiol, a form of estrogen, by turning one of its carbon rings into a benzene-like ring. Fat tissue and the brain both contain that enzyme.",
+      "r": "For 10 points, name this steroid hormone, made mainly in the testes, that builds muscle and bone."
+    },
+    {
+      "p": "Leydig [“LY-dig”] cells, named for German scientist Franz Leydig, make most of this hormone after receiving a signal called luteinizing [“LOO-tee-uh-nye-zing”] hormone, or LH, from the pituitary gland. Leydig first described those cells in 1850.",
+      "r": "It is made mainly in the testes. For 10 points, name this hormone that builds muscle and bone mass during puberty."
+    },
+    {
+      "p": "This hormone has the chemical formula C19H28O2, and like all steroids it has four fused rings of carbon atoms. Cells build it from cholesterol, passing through pregnenolone [“preg-NEE-nuh-lohn”] along the way.",
+      "r": "It also deepens the voice during puberty. For 10 points, name this hormone, made mainly in the testes, that increases muscle and bone growth."
+    },
+    {
+      "p": "In 1849, Arnold Berthold showed that a rooster’s comb and crowing depended on a substance that certain glands sent through the blood, an early experiment in endocrinology. That substance was later identified as this hormone.",
+      "r": "For 10 points, name this hormone, made mainly in the testes, that helps build muscle and bone."
+    },
+    {
+      "p": "In deer, rising levels of this hormone each fall make antlers harden and shed their velvet, and falling levels in late winter make the antlers drop off. In lions, the hormone helps males grow their manes.",
+      "r": "In humans, it is made mainly in the testes and builds muscle and bone. For 10 points, name this hormone."
+    },
+    {
+      "p": "Lab-made relatives of this hormone, called anabolic steroids, are banned in sports by the World Anti-Doping Agency. The word “anabolic” refers to building up the body’s tissues, such as muscle.",
+      "r": "It is the main androgen. For 10 points, name this hormone, made mainly in the testes, that drives muscle and bone growth during puberty."
+    },
+    {
+      "p": "Like other steroid hormones, this hormone travels through the blood mostly attached to carrier proteins such as albumin. It enlarges the larynx, thickens the vocal folds, and makes the skin’s sebaceous [“sih-BAY-shus”] glands release more oil.",
+      "r": "Those changes deepen the voice and can cause acne during puberty. For 10 points, name this hormone made mainly in the testes."
+    },
+    {
+      "p": "This hormone raises the number of red blood cells, partly by boosting the kidneys’ release of erythropoietin [“ih-RITH-roh-POY-ih-tin”]. Because of that effect, men usually have more red blood cells than women. It also increases bone density.",
+      "r": "For 10 points, name this hormone that builds muscle and is made mainly in the testes."
+    },
+    {
+      "p": "Being a steroid, this hormone passes through cell membranes and binds a protein called the androgen receptor inside cells, which then switches on certain genes in the nucleus. DHT, a stronger hormone made from this one, binds that receptor even more tightly.",
+      "r": "It helps build muscle and bone. For 10 points, name this hormone made mainly in the testes."
+    },
+    {
+      "p": "The outer layer of the adrenal glands makes DHEA, which the body can turn into this hormone, and the ovaries also make small amounts of it. Its level in the blood is usually highest in the morning.",
+      "r": "For 10 points, name this androgen, made mainly in the testes, that helps build muscle and bone."
+    },
+    {
+      "p": "Estradiol made from this hormone eventually signals the growth plates of long bones to close, which is why people eventually stop growing taller. Those plates are disks of cartilage near the ends of the bones.",
+      "r": "Before that, this hormone fuels the teenage growth spurt. For 10 points, name this hormone made mainly in the testes."
+    },
+    {
+      "p": "The enzyme 5-alpha reductase turns this hormone into DHT, a stronger androgen that is linked to hair loss on the top of the scalp. That enzyme is especially active in the skin and hair follicles.",
+      "r": "This hormone and DHT both help facial hair grow during puberty. For 10 points, name this hormone made mainly in the testes."
+    },
+    {
+      "p": "The hypothalamus releases GnRH, which tells the pituitary to release LH, which in turn tells the body to make more of this hormone. High levels of this hormone then slow that chain down by negative feedback.",
+      "r": "For 10 points, name this hormone, made mainly in the testes, that builds muscle and bone."
+    }
+  ],
+  "clues": [
+    {
+      "id": "testes",
+      "tier": "giveaway",
+      "t": "A hormone made mainly in the testes",
+      "k": [
+        "testes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "muscle-bone",
+      "tier": "giveaway",
+      "t": "Builds muscle and bone, especially during puberty",
+      "k": [
+        "muscle",
+        "bone",
+        "puberty"
+      ],
+      "n": 0,
+      "rabbit": "Muscles"
+    },
+    {
+      "id": "androgen",
+      "tier": "giveaway",
+      "t": "The main androgen, a type of steroid hormone",
+      "k": [
+        "androgen",
+        "steroid hormone"
+      ],
+      "n": 0,
+      "rabbit": "Hormones"
+    },
+    {
+      "id": "puberty-changes",
+      "tier": "giveaway",
+      "t": "During puberty it drives a growth spurt, a deeper voice, and facial hair",
+      "k": [
+        "growth spurt",
+        "deeper voice",
+        "facial hair"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cholesterol",
+      "tier": "middle",
+      "t": "Made from cholesterol, like other steroid hormones, and has four fused carbon rings",
+      "k": [
+        "cholesterol",
+        "four fused"
+      ],
+      "n": 0,
+      "rabbit": "Cholesterol"
+    },
+    {
+      "id": "leydig",
+      "tier": "middle",
+      "t": "Leydig cells in the testes make most of it",
+      "k": [
+        "leydig"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lh",
+      "tier": "middle",
+      "t": "Luteinizing hormone (LH) from the pituitary gland tells Leydig cells to make it",
+      "k": [
+        "luteinizing hormone",
+        "pituitary"
+      ],
+      "n": 0,
+      "rabbit": "Pituitary gland"
+    },
+    {
+      "id": "ovaries-adrenals",
+      "tier": "middle",
+      "t": "Everyone makes some: the ovaries and adrenal glands make smaller amounts, and the adrenals’ DHEA can be turned into it",
+      "k": [
+        "adrenal glands",
+        "ovaries",
+        "dhea"
+      ],
+      "n": 0,
+      "rabbit": "Adrenal glands"
+    },
+    {
+      "id": "estradiol",
+      "tier": "middle",
+      "t": "The enzyme aromatase turns it into estradiol, a form of estrogen",
+      "k": [
+        "aromatase",
+        "estradiol",
+        "estrogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dht",
+      "tier": "middle",
+      "t": "The enzyme 5-alpha reductase turns it into DHT, a stronger androgen",
+      "k": [
+        "5-alpha reductase",
+        "dht"
+      ],
+      "n": 0
+    },
+    {
+      "id": "red-blood-cells",
+      "tier": "middle",
+      "t": "It raises red blood cell production and bone density",
+      "k": [
+        "red blood cell",
+        "bone density"
+      ],
+      "n": 0,
+      "rabbit": "Red blood cells"
+    },
+    {
+      "id": "anabolic",
+      "tier": "middle",
+      "t": "Lab-made relatives called anabolic steroids are banned in sports",
+      "k": [
+        "anabolic steroids",
+        "banned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "voice-acne",
+      "tier": "middle",
+      "t": "It enlarges the larynx, deepening the voice, and makes skin oil glands more active, one cause of teenage acne",
+      "k": [
+        "larynx",
+        "oil glands",
+        "acne"
+      ],
+      "n": 0
+    },
+    {
+      "id": "butenandt-ruzicka",
+      "tier": "power",
+      "t": "Adolf Butenandt and Leopold Ružička each made it in the lab in 1935 and shared the 1939 Chemistry Nobel; the Nazi government made Butenandt wait until after World War II to accept",
+      "k": [
+        "butenandt",
+        "ružička",
+        "1939",
+        "nazi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laqueur",
+      "tier": "power",
+      "t": "Ernst Laqueur’s team in Amsterdam isolated and named it in 1935; the name blends the organ’s name with “sterol” and the ending “-one”",
+      "k": [
+        "amsterdam",
+        "laqueur",
+        "sterol",
+        "1935"
+      ],
+      "n": 0
+    },
+    {
+      "id": "formula",
+      "tier": "power",
+      "t": "Its formula is C19H28O2, and cells make it from cholesterol by way of pregnenolone",
+      "k": [
+        "pregnenolone",
+        "c19h28o2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "berthold",
+      "tier": "power",
+      "t": "Arnold Berthold’s 1849 rooster experiments showed that a substance carried in the blood made combs grow, an early experiment in endocrinology",
+      "k": [
+        "berthold",
+        "roosters",
+        "1849",
+        "combs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "antlers",
+      "tier": "power",
+      "t": "In deer, rising levels make antlers harden and shed velvet, and falling levels make antlers drop; it also helps male lions grow manes",
+      "k": [
+        "antlers",
+        "velvet",
+        "manes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "erythropoietin",
+      "tier": "power",
+      "t": "It boosts the kidneys’ release of erythropoietin, so men usually have more red blood cells than women",
+      "k": [
+        "erythropoietin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "androgen-receptor",
+      "tier": "power",
+      "t": "It passes through cell membranes and binds the androgen receptor inside cells; DHT binds that receptor even more tightly",
+      "k": [
+        "androgen receptor",
+        "membranes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carrier-proteins",
+      "tier": "power",
+      "t": "It travels in the blood mostly attached to carrier proteins such as albumin",
+      "k": [
+        "carrier proteins",
+        "albumin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morning-peak",
+      "tier": "power",
+      "t": "Its level in the blood is usually highest in the morning",
+      "k": [
+        "morning"
+      ],
+      "n": 0
+    },
+    {
+      "id": "growth-plates",
+      "tier": "power",
+      "t": "Estradiol made from it eventually closes the growth plates of long bones, so growth in height stops",
+      "k": [
+        "growth plates",
+        "height"
+      ],
+      "n": 0,
+      "rabbit": "Bones"
+    },
+    {
+      "id": "hair-loss",
+      "tier": "power",
+      "t": "DHT made from it is linked to hair loss on the top of the scalp",
+      "k": [
+        "hair loss",
+        "scalp"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gnrh",
+      "tier": "power",
+      "t": "GnRH from the hypothalamus starts its control chain, and high levels of it shut the chain down by negative feedback",
+      "k": [
+        "negative feedback",
+        "hypothalamus",
+        "gnrh"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which steroid hormone?",
+    "body": "Tossups on this hormone mention its close chemical relatives: estradiol, which aromatase makes from it; DHT, a stronger androgen made from it; DHEA from the adrenal glands; and cholesterol, the starting material for every steroid hormone. Buzzing with a relative loses the tossup, and so does naming the organ instead of the hormone.",
+    "fix": "Leydig cells, LH, Butenandt and Ružička, C19H28O2, or “the main androgen” mean testosterone. If a clue says a hormone is made from this one (estradiol by aromatase, DHT by 5-alpha reductase), the answer is still the starting hormone. Saying just “androgen” or “steroid” earns a prompt, so be ready to name it.",
+    "line": "Real answer line: <b><u>Testosterone</u></b> (prompt on <u>androgen</u> or <u>steroid</u>; do not accept “estrogen” or “dihydrotestosterone”)"
+  },
+  "tests": {
+    "right": [
+      "Testosterone",
+      "testosterone",
+      "Testosteron",
+      "Testostrone",
+      "Testosterone hormone"
+    ],
+    "prompt": [
+      "Androgen",
+      "Steroid"
+    ],
+    "wrong": [
+      "Estrogen",
+      "Estradiol",
+      "DHT",
+      "Progesterone",
+      "Cortisol",
+      "Cholesterol",
+      "Dihydrotestosterone"
+    ]
+  }
+}

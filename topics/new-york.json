@@ -1,0 +1,440 @@
+{
+  "id": "new-york",
+  "name": "New York",
+  "mono": "NY",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "The Empire State · From New Netherland to the Erie Canal",
+  "dates": "Statehood 1788 (11th state)",
+  "briefing": "New York began as New Netherland, a Dutch colony, until the English took over in 1664 and renamed it for the Duke of York. The Battles of Saratoga were fought there during the Revolution, and its biggest city became the nation’s first capital under the Constitution. When the Erie Canal opened in 1825, linking the Hudson River to the Great Lakes, that city grew into a booming port.",
+  "answerHtml": "<b><u>New York</u></b> (the state; accept <u>New York State</u>; do not accept “New York City”)",
+  "accept": [
+    "new york",
+    "new york state",
+    "state of new york",
+    "province of new york"
+  ],
+  "prompt": [],
+  "reject": [
+    "new york city",
+    "nyc",
+    "new york times",
+    "new jersey",
+    "new amsterdam",
+    "new netherland",
+    "manhattan",
+    "brooklyn",
+    "albany",
+    "pennsylvania",
+    "connecticut",
+    "new england",
+    "new hampshire"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/New_York_(state)",
+  "qb": {
+    "q": "New York",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Giovanni da Verrazzano [“vair-uh-ZAH-noh”] sailed into this region’s great harbor in 1524, and a bridge across the harbor’s entrance is named for him. In 1609, Henry Hudson sailed the _Half Moon_ up a river here while exploring for the Dutch East India Company.",
+      "r": "That river is named for Hudson. For 10 points, name this state whose capital, Albany, sits on the Hudson River."
+    },
+    {
+      "p": "Peter Minuit [“MIN-yoo-it”] bought Manhattan Island from the Lenape [“leh-NAH-pay”] people in 1626 for trade goods worth 60 guilders. Decades later, the director-general Peter Stuyvesant [“STY-vuh-sunt”], who had a wooden leg, surrendered the Dutch colony here to an English fleet without a fight.",
+      "r": "The English renamed the colony in 1664 for the Duke of York. For 10 points, name this state, whose largest city began as New Amsterdam."
+    },
+    {
+      "p": "According to tradition, the Peacemaker and Hiawatha [“hy-uh-WAH-thuh”] united the Mohawk, Oneida [“oh-NY-duh”], Onondaga [“on-un-DAW-guh”], Cayuga [“kay-YOO-guh”], and Seneca nations in this region under the Great Law of Peace, with the Onondaga keeping the central council fire. The Tuscarora [“tus-kuh-ROR-uh”] later joined them.",
+      "r": "Those nations formed the Iroquois, or Haudenosaunee [“hoh-dee-noh-SHOH-nee”], Confederacy. For 10 points, name this state, whose largest city’s harbor holds Ellis Island and the Statue of Liberty."
+    },
+    {
+      "p": "Royal governor William Cosby had a printer arrested in this colony for newspaper articles attacking him. In 1735, the printer’s lawyer, Andrew Hamilton, argued that printing the truth could not be a crime, and a jury found the printer, John Peter Zenger, not guilty.",
+      "r": "That case became a landmark for freedom of the press. For 10 points, name this colony, later the state whose capital is Albany."
+    },
+    {
+      "p": "Daniel Morgan’s riflemen fought at Freeman’s Farm and Bemis Heights in this state during a 1777 British campaign meant to cut New England off from the other colonies. At the end of that campaign, General John Burgoyne surrendered his whole army to Horatio Gates.",
+      "r": "That victory at Saratoga helped convince France to join the war. For 10 points, name this state, whose capital, Albany, was Burgoyne’s goal."
+    },
+    {
+      "p": "In 1780, the American general commanding a fort on the Hudson River in this state secretly plotted to hand it over to the British. That plot was uncovered when Major John André [“AHN-dray”] was captured near Tarrytown with the fort’s plans hidden in his stockings.",
+      "r": "The traitor, Benedict Arnold, escaped to the British. For 10 points, name this state, where West Point became home to the U.S. Military Academy in 1802."
+    },
+    {
+      "p": "At a 1788 convention in Poughkeepsie [“puh-KIP-see”], Melancton Smith switched sides and helped this state ratify the Constitution over the objections of its longtime governor, George Clinton. _The Federalist Papers_ had first been printed in this state’s newspapers to win over its voters.",
+      "r": "It became the 11th state to ratify. For 10 points, name this state, whose largest city was the first capital under the Constitution."
+    },
+    {
+      "p": "In 1807, Robert Fulton’s steamboat, later called the _Clermont_, carried passengers up a river in this state in about 32 hours. In _Gibbons v. Ogden_, the Supreme Court later struck down a steamboat monopoly that this state had granted to Fulton and Robert Livingston.",
+      "r": "Fulton’s boat steamed from Manhattan to Albany. For 10 points, name this state, whose largest city lies at the mouth of the Hudson River."
+    },
+    {
+      "p": "In 1825, Governor DeWitt Clinton held a “Wedding of the Waters” by pouring a keg of Lake Erie water into the Atlantic Ocean. Critics had mocked his project as “Clinton’s Ditch,” but it made shipping goods across this state far cheaper and faster.",
+      "r": "That project, the Erie Canal, linked Buffalo to the Hudson River at Albany. For 10 points, name this “Empire State.”"
+    },
+    {
+      "p": "Revivals led by preachers like Charles Grandison Finney swept this state’s western and central counties so often that the region was called the “burned-over district.” During that religious revival, Joseph Smith published the _Book of Mormon_ in the town of Palmyra here in 1830.",
+      "r": "Rochester and Buffalo boomed along the Erie Canal in that region. For 10 points, name this state whose capital is Albany."
+    },
+    {
+      "p": "Susan B. Anthony was arrested for voting in Rochester in the 1872 presidential election and was fined 100 dollars, which she refused to pay. Earlier, Elizabeth Cady Stanton read her Declaration of Sentiments at a women’s rights convention in this state.",
+      "r": "That 1848 convention met at Seneca Falls. For 10 points, name this state, where Stanton and Lucretia Mott organized the first women’s rights convention."
+    },
+    {
+      "p": "Frederick Douglass published his antislavery newspaper, _The North Star_, in Rochester in this state. In 1859, Senator William Seward sold Harriet Tubman a home in Auburn here, where she later opened a home for elderly African Americans in need.",
+      "r": "Many freedom seekers on the Underground Railroad crossed this state to reach Canada near Niagara Falls. For 10 points, name this state, home to the Statue of Liberty."
+    },
+    {
+      "p": "Martin Van Buren, the first president born a citizen of the United States, grew up in this state’s village of Kinderhook and briefly served as its governor. Grover Cleveland, Theodore Roosevelt, and Franklin D. Roosevelt also governed this state before becoming president.",
+      "r": "Franklin Roosevelt’s home at Hyde Park overlooks the Hudson River. For 10 points, name this state whose capital is Albany."
+    },
+    {
+      "p": "After the 1911 Triangle Shirtwaist Factory fire killed 146 garment workers, this state created a commission whose work led to dozens of new workplace safety laws. Frances Perkins, who saw that fire, later became the first woman in a U.S. cabinet, under a former governor of this state.",
+      "r": "That fire happened in Manhattan, near Washington Square. For 10 points, name this state, home to Long Island and the Adirondack Mountains."
+    },
+    {
+      "p": "Washington Irving gave this state’s largest city the nickname “Gotham,” set “Rip Van Winkle” in its Catskill Mountains, and set “The Legend of Sleepy Hollow” near Tarrytown. Painters of the Hudson River School, led by Thomas Cole, also captured this state’s mountain scenery.",
+      "r": "This state’s highest peak, Mount Marcy, rises in the Adirondack Mountains. For 10 points, name this state, which shares Niagara Falls with Canada."
+    }
+  ],
+  "clues": [
+    {
+      "id": "capital",
+      "tier": "giveaway",
+      "t": "Capital: Albany, on the Hudson River; its largest city shares the state’s name",
+      "k": [
+        "albany",
+        "hudson river"
+      ],
+      "n": 0
+    },
+    {
+      "id": "empire",
+      "tier": "giveaway",
+      "t": "Nicknamed the Empire State; its motto is “Excelsior” (“ever upward”)",
+      "k": [
+        "empire state",
+        "excelsior"
+      ],
+      "n": 0
+    },
+    {
+      "id": "erie-canal",
+      "tier": "giveaway",
+      "t": "The Erie Canal (1825) linked the Hudson River at Albany to Lake Erie at Buffalo",
+      "k": [
+        "erie canal",
+        "buffalo",
+        "1825"
+      ],
+      "n": 0,
+      "rabbit": "Erie Canal"
+    },
+    {
+      "id": "dutch",
+      "tier": "giveaway",
+      "t": "Began as the Dutch colony of New Netherland; the English took over in 1664 and renamed it for the Duke of York",
+      "k": [
+        "new netherland",
+        "dutch",
+        "duke of york",
+        "1664"
+      ],
+      "n": 0
+    },
+    {
+      "id": "immigrants",
+      "tier": "giveaway",
+      "t": "Ellis Island and the Statue of Liberty stand in its largest city’s harbor",
+      "k": [
+        "ellis island",
+        "statue of liberty"
+      ],
+      "n": 0,
+      "rabbit": "Ellis Island"
+    },
+    {
+      "id": "hudson",
+      "tier": "middle",
+      "t": "Henry Hudson sailed the _Half Moon_ up its great river in 1609 for the Dutch East India Company",
+      "k": [
+        "henry hudson",
+        "half moon",
+        "1609"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minuit",
+      "tier": "middle",
+      "t": "Peter Minuit bought Manhattan from the Lenape (1626); Peter Stuyvesant surrendered New Amsterdam to the English (1664)",
+      "k": [
+        "minuit",
+        "stuyvesant",
+        "manhattan",
+        "new amsterdam"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iroquois",
+      "tier": "middle",
+      "t": "Homeland of the Iroquois (Haudenosaunee) Confederacy: Mohawk, Oneida, Onondaga, Cayuga, Seneca, and later Tuscarora",
+      "k": [
+        "iroquois",
+        "haudenosaunee",
+        "mohawk",
+        "tuscarora"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saratoga",
+      "tier": "middle",
+      "t": "Battles of Saratoga (1777): John Burgoyne surrendered to Horatio Gates, and France joined the American side",
+      "k": [
+        "saratoga",
+        "burgoyne",
+        "horatio gates"
+      ],
+      "n": 0
+    },
+    {
+      "id": "west-point",
+      "tier": "middle",
+      "t": "Benedict Arnold plotted to hand West Point to the British (1780); it became the U.S. Military Academy (1802)",
+      "k": [
+        "west point",
+        "benedict arnold",
+        "military academy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-capital",
+      "tier": "middle",
+      "t": "Its largest city was the first capital under the Constitution; it was the 11th state to ratify (1788)",
+      "k": [
+        "first capital",
+        "11th state",
+        "1788"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seneca-falls",
+      "tier": "middle",
+      "t": "Seneca Falls Convention (1848): Elizabeth Cady Stanton read the Declaration of Sentiments",
+      "k": [
+        "seneca falls",
+        "stanton",
+        "declaration of sentiments"
+      ],
+      "n": 0
+    },
+    {
+      "id": "governors",
+      "tier": "middle",
+      "t": "Governors who became president: Martin Van Buren, Grover Cleveland, Theodore Roosevelt, and Franklin D. Roosevelt",
+      "k": [
+        "van buren",
+        "grover cleveland",
+        "roosevelt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "geography",
+      "tier": "middle",
+      "t": "Geography: the Adirondack Mountains (highest point, Mount Marcy), the Catskills, Long Island, and Niagara Falls",
+      "k": [
+        "adirondack",
+        "mount marcy",
+        "niagara falls",
+        "long island"
+      ],
+      "n": 0
+    },
+    {
+      "id": "verrazzano",
+      "tier": "power",
+      "t": "Giovanni da Verrazzano sailed into its harbor in 1524; the Verrazzano-Narrows Bridge is named for him",
+      "k": [
+        "verrazzano",
+        "1524"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-law",
+      "tier": "power",
+      "t": "The Peacemaker and Hiawatha united the nations under the Great Law of Peace; the Onondaga keep the council fire",
+      "k": [
+        "great law of peace",
+        "peacemaker",
+        "hiawatha",
+        "onondaga"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zenger",
+      "tier": "power",
+      "t": "Zenger trial (1735): Andrew Hamilton won freedom for printer John Peter Zenger, who had criticized Governor William Cosby",
+      "k": [
+        "zenger",
+        "andrew hamilton",
+        "cosby"
+      ],
+      "n": 0
+    },
+    {
+      "id": "andre",
+      "tier": "power",
+      "t": "Major John André was captured near Tarrytown with West Point’s plans hidden in his stockings",
+      "k": [
+        "john andré",
+        "andré",
+        "tarrytown"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poughkeepsie",
+      "tier": "power",
+      "t": "Ratified at Poughkeepsie (1788) after Melancton Smith switched sides, over Governor George Clinton’s objections; _The Federalist Papers_ first ran in its newspapers",
+      "k": [
+        "poughkeepsie",
+        "melancton smith",
+        "george clinton",
+        "federalist papers"
+      ],
+      "n": 0,
+      "rabbit": "The Federalist Papers"
+    },
+    {
+      "id": "fulton",
+      "tier": "power",
+      "t": "Robert Fulton’s steamboat (the _Clermont_) went up the Hudson in 1807; _Gibbons v. Ogden_ struck down the state’s steamboat monopoly",
+      "k": [
+        "fulton",
+        "clermont",
+        "gibbons v. ogden",
+        "monopoly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wedding",
+      "tier": "power",
+      "t": "DeWitt Clinton’s “Wedding of the Waters” (1825); critics had called the canal “Clinton’s Ditch”",
+      "k": [
+        "dewitt clinton",
+        "wedding of the waters",
+        "clinton’s ditch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "burned-over",
+      "tier": "power",
+      "t": "The “burned-over district”: revivals by preachers like Charles Finney; Joseph Smith published the _Book of Mormon_ in Palmyra (1830)",
+      "k": [
+        "burned-over",
+        "finney",
+        "palmyra",
+        "book of mormon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anthony",
+      "tier": "power",
+      "t": "Susan B. Anthony was arrested for voting in Rochester (1872) and refused to pay her $100 fine",
+      "k": [
+        "susan b. anthony",
+        "anthony",
+        "rochester"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abolition",
+      "tier": "power",
+      "t": "Frederick Douglass printed _The North Star_ in Rochester; Harriet Tubman bought a home in Auburn from William Seward; freedom seekers crossed to Canada near Niagara Falls",
+      "k": [
+        "north star",
+        "douglass",
+        "tubman",
+        "auburn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kinderhook",
+      "tier": "power",
+      "t": "Martin Van Buren of Kinderhook was the first president born a U.S. citizen",
+      "k": [
+        "kinderhook",
+        "first president born"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triangle",
+      "tier": "power",
+      "t": "Triangle Shirtwaist Factory fire (1911): 146 workers died, leading to new safety laws; Frances Perkins saw it",
+      "k": [
+        "triangle shirtwaist",
+        "frances perkins",
+        "146"
+      ],
+      "n": 0
+    },
+    {
+      "id": "irving",
+      "tier": "power",
+      "t": "Washington Irving named its largest city “Gotham” and set “Rip Van Winkle” in the Catskills; Thomas Cole led the Hudson River School",
+      "k": [
+        "washington irving",
+        "gotham",
+        "rip van winkle",
+        "thomas cole"
+      ],
+      "n": 0,
+      "rabbit": "Washington Irving"
+    }
+  ],
+  "trap": {
+    "title": "State or city?",
+    "body": "New York is the name of both a state and its biggest city, and real tossups treat them as separate answer lines. A city tossup (Broadway, Central Park, the five boroughs) wants the city, and answer lines for the city usually take plain “New York.” A state tossup (Albany, the Erie Canal, Saratoga, the Adirondacks) wants the state, so saying “New York City” there can be ruled wrong.",
+    "fix": "Listen for “this state” or “this colony” versus “this city.” For a state question, say just “New York” and stop. Upstate clues like Albany, Buffalo, Niagara Falls, and the Iroquois always mean the state.",
+    "line": "Real answer line: <b><u>New York</u></b> (the state; do not accept “New York City”)"
+  },
+  "tests": {
+    "right": [
+      "New York",
+      "New York State",
+      "State of New York",
+      "new yrok",
+      "Province of New York"
+    ],
+    "prompt": [],
+    "wrong": [
+      "New York City",
+      "NYC",
+      "New Jersey",
+      "New Amsterdam",
+      "The New York Times",
+      "Albany",
+      "Pennsylvania"
+    ]
+  }
+}

@@ -1,0 +1,359 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "adrenal-glands",
+    "name": "Adrenal glands",
+    "mono": "ADR",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Paired glands on top of the kidneys · Make cortisol and adrenaline",
+    "dates": "First described in the 1500s",
+    "briefing": "Your two adrenal glands sit on top of your kidneys like little caps, and each one is really two glands in one. The outer cortex makes steroid hormones such as cortisol, which helps you handle stress, and aldosterone, which balances salt and water. The inner medulla, wired to your nervous system, floods your blood with adrenaline when something startles you.",
+    "answerHtml": "<b><u>Adrenal</u></b> glands (accept <u>adrenals</u> or <u>suprarenal</u> glands; prompt on <u>adrenal cortex</u> or <u>adrenal medulla</u>; do not accept “kidneys” or “adrenaline”)",
+    "accept": [
+        "adrenal glands",
+        "adrenal gland",
+        "adrenals",
+        "adrenal",
+        "suprarenal glands",
+        "suprarenal gland",
+        "suprarenals",
+        "suprarenal"
+    ],
+    "prompt": [
+        "adrenal cortex",
+        "adrenal medulla",
+        "adrenal cortices"
+    ],
+    "reject": [
+        "kidney",
+        "kidneys",
+        "renal cortex",
+        "renal medulla",
+        "adrenaline",
+        "adrenalin",
+        "epinephrine",
+        "norepinephrine",
+        "noradrenaline",
+        "cortisol",
+        "cortisone",
+        "aldosterone",
+        "adrenal hormone",
+        "adrenal hormones",
+        "pituitary gland",
+        "pituitary",
+        "thyroid gland",
+        "thyroid",
+        "hypothalamus",
+        "pancreas",
+        "thymus",
+        "pineal gland",
+        "parathyroid glands",
+        "parathyroid gland",
+        "gonads",
+        "nephrons",
+        "nephron",
+        "acth",
+        "medulla oblongata",
+        "liver",
+        "spleen"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Adrenal_gland",
+    "qb": {
+        "q": "adrenal glands",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The outer layer of these glands has three zones: the zona glomerulosa [“gloh-mair-yoo-LOH-suh”] makes aldosterone, the zona fasciculata [“fuh-sik-yoo-LAH-tuh”] makes cortisol, and the zona reticularis [“reh-tik-yoo-LAIR-iss”] makes androgens such as DHEA. Their order, from the outside in, can be remembered with the letters “GFR.”",
+            "r": "The inner part of these glands makes adrenaline. For 10 points, name these glands that sit on top of the kidneys."
+        },
+        {
+            "p": "Edward Kendall, Philip Hench, and Tadeus Reichstein [“RYKE-shtine”] shared the 1950 Nobel Prize for studying hormones from the outer layer of these glands. Hench used one of those hormones, cortisone, to treat people with rheumatoid arthritis.",
+            "r": "For 10 points, name these glands, perched on top of the kidneys, that make cortisol and adrenaline."
+        },
+        {
+            "p": "In 1855, Thomas Addison described a disease in which these glands make too little cortisol and aldosterone, often causing tiredness, weakness, and darkened skin. President John F. Kennedy had that disease.",
+            "r": "Their inner medulla makes epinephrine. For 10 points, name these glands, located on top of the kidneys, that make the stress hormone cortisol."
+        },
+        {
+            "p": "In 1856, Charles-Édouard Brown-Séquard [“brown-say-KAR”] showed that animals could not survive after both of these glands were removed. About three centuries earlier, Bartolomeo Eustachi [“ay-oo-STAH-kee”], the namesake of the tube linking the middle ear to the throat, had first described them.",
+            "r": "For 10 points, name these small glands that sit on top of the kidneys and release epinephrine."
+        },
+        {
+            "p": "When blood pressure drops, the hormone angiotensin II [“an-jee-oh-TEN-sin two”] tells the outer layer of these glands to release aldosterone, which makes the body keep more sodium and water. A tumor in one of these glands that makes too much aldosterone causes Conn’s syndrome.",
+            "r": "For 10 points, name these glands perched on top of the kidneys, whose inner part makes adrenaline."
+        },
+        {
+            "p": "The hypothalamus releases CRH, which tells the pituitary gland to send out ACTH, which in turn tells these glands to release cortisol. Doctors call that chain of command the HPA axis.",
+            "r": "The inner medulla of these glands releases epinephrine during stress. For 10 points, name these glands found on top of the kidneys."
+        },
+        {
+            "p": "Harvey Cushing, a pioneering brain surgeon, described a condition in which the body has too much of a hormone made by these glands. That hormone normally rises each morning and helps the body handle stress by raising blood sugar.",
+            "r": "That hormone is cortisol. For 10 points, name these glands that sit on top of the kidneys."
+        },
+        {
+            "p": "The inner part of each of these glands is packed with chromaffin [“KROH-muh-fin”] cells, which develop from the same neural crest tissue as many nerve cells. Nerve fibers of the sympathetic nervous system signal those cells with acetylcholine.",
+            "r": "Those cells then release epinephrine. For 10 points, name these glands located on top of the kidneys."
+        },
+        {
+            "p": "The right one of these glands is shaped like a pyramid, while the left one is shaped more like a crescent. Each is wrapped in fat and fed by three separate arteries.",
+            "r": "For 10 points, name these glands, which sit on the kidneys, whose medulla makes adrenaline and whose cortex makes cortisol."
+        },
+        {
+            "p": "A rare tumor called pheochromocytoma [“fee-oh-kroh-moh-sye-TOH-muh”] grows in the inner part of one of these glands and releases bursts of extra epinephrine and norepinephrine, causing headaches, sweating, and a pounding heartbeat.",
+            "r": "Normally, these glands release large amounts of those hormones only in “fight-or-flight” moments. For 10 points, name these glands on top of the kidneys."
+        },
+        {
+            "p": "Cells in the outer layer of these glands store droplets of cholesterol, which enzymes in their mitochondria convert into pregnenolone [“preg-NEE-nuh-lohn”], the first step in making steroid hormones. Those fatty droplets give the outer layer its yellow color.",
+            "r": "Those hormones include cortisol and aldosterone. For 10 points, name these glands located on top of the kidneys."
+        },
+        {
+            "p": "Hans Selye [“SEL-yay”] found that rats under constant stress developed enlarged versions of these glands, along with shrunken thymus glands and stomach ulcers. That discovery led him to describe the “general adaptation syndrome.”",
+            "r": "These glands release cortisol and adrenaline during stress. For 10 points, name these glands that sit on top of the kidneys."
+        },
+        {
+            "p": "Hydrocortisone creams and drugs such as prednisone copy a hormone from the outer layer of these glands, which calms swelling and slows the immune system. That hormone also helps the liver make new glucose between meals.",
+            "r": "For 10 points, name these glands, found atop the kidneys, that make cortisol and adrenaline."
+        },
+        {
+            "p": "Two groups of steroid hormones made by these glands are the mineralocorticoids, which control salt balance, and the glucocorticoids, which help control blood sugar. The main hormone of the first group is aldosterone.",
+            "r": "The inner medulla of these glands makes epinephrine. For 10 points, name these glands located on top of each kidney."
+        },
+        {
+            "p": "In 1901, Japanese chemist Jokichi Takamine [“tah-kah-MEE-nay”] isolated a hormone from these glands of animals, a few years after John Jacob Abel had studied extracts of them. Takamine later helped arrange Japan’s 1912 gift of cherry trees to Washington, D.C.",
+            "r": "The hormone he isolated is better known as adrenaline. For 10 points, name these glands that sit on top of the kidneys."
+        }
+    ],
+    "clues": [
+        {
+            "id": "on-kidneys",
+            "tier": "giveaway",
+            "t": "A pair of small glands, one sitting on top of each kidney",
+            "k": ["top of each kidney", "kidney"],
+            "n": 0,
+            "rabbit": "Kidneys"
+        },
+        {
+            "id": "epinephrine",
+            "tier": "giveaway",
+            "t": "Release epinephrine (adrenaline), the “fight-or-flight” hormone",
+            "k": ["epinephrine", "fight-or-flight"],
+            "n": 0,
+            "rabbit": "Epinephrine (adrenaline)"
+        },
+        {
+            "id": "cortisol",
+            "tier": "giveaway",
+            "t": "Release cortisol, the body’s main stress hormone",
+            "k": ["cortisol", "stress hormone"],
+            "n": 0
+        },
+        {
+            "id": "cortex-medulla",
+            "tier": "giveaway",
+            "t": "Each has an outer cortex and an inner medulla",
+            "k": ["cortex", "medulla"],
+            "n": 0
+        },
+        {
+            "id": "medulla-hormones",
+            "tier": "middle",
+            "t": "The medulla releases epinephrine and norepinephrine when nerves of the sympathetic nervous system signal it",
+            "k": ["norepinephrine", "sympathetic"],
+            "n": 0
+        },
+        {
+            "id": "cortex-steroids",
+            "tier": "middle",
+            "t": "The cortex makes steroid hormones, such as cortisol and aldosterone, from cholesterol",
+            "k": ["steroid", "cholesterol"],
+            "n": 0,
+            "rabbit": "Cholesterol"
+        },
+        {
+            "id": "aldosterone",
+            "tier": "middle",
+            "t": "Aldosterone makes the kidneys keep sodium and water and get rid of potassium",
+            "k": ["aldosterone", "sodium", "potassium"],
+            "n": 0
+        },
+        {
+            "id": "acth",
+            "tier": "middle",
+            "t": "ACTH from the pituitary gland tells the cortex to release cortisol",
+            "k": ["acth", "pituitary"],
+            "n": 0,
+            "rabbit": "Pituitary gland"
+        },
+        {
+            "id": "cortisol-effects",
+            "tier": "middle",
+            "t": "Cortisol raises blood sugar, calms inflammation, and slows the immune system; its level peaks in the morning",
+            "k": ["blood sugar", "inflammation", "morning"],
+            "n": 0
+        },
+        {
+            "id": "addisons",
+            "tier": "middle",
+            "t": "Addison’s disease (described by Thomas Addison in 1855): too little cortisol and aldosterone; John F. Kennedy had it",
+            "k": ["addison", "1855", "kennedy"],
+            "n": 0
+        },
+        {
+            "id": "cushings",
+            "tier": "middle",
+            "t": "Cushing’s syndrome, named for brain surgeon Harvey Cushing: the body has too much cortisol",
+            "k": ["harvey cushing", "cushing"],
+            "n": 0
+        },
+        {
+            "id": "two-steroid-groups",
+            "tier": "middle",
+            "t": "Cortex hormones include mineralocorticoids (salt balance, like aldosterone) and glucocorticoids (blood sugar, like cortisol)",
+            "k": ["mineralocorticoids", "glucocorticoids"],
+            "n": 0
+        },
+        {
+            "id": "latin-name",
+            "tier": "middle",
+            "t": "Their name comes from Latin words meaning “near the kidneys”",
+            "k": ["near the kidneys", "latin"],
+            "n": 0
+        },
+        {
+            "id": "three-zones",
+            "tier": "power",
+            "t": "The cortex has three zones, outside in: glomerulosa (aldosterone), fasciculata (cortisol), and reticularis (androgens such as DHEA), or “GFR”",
+            "k": ["glomerulosa", "fasciculata", "reticularis"],
+            "n": 0
+        },
+        {
+            "id": "kendall-hench",
+            "tier": "power",
+            "t": "Edward Kendall, Philip Hench, and Tadeus Reichstein shared the 1950 Nobel Prize for cortex hormones; Hench treated rheumatoid arthritis with cortisone",
+            "k": ["reichstein", "kendall", "hench", "cortisone", "1950"],
+            "n": 0
+        },
+        {
+            "id": "brown-sequard",
+            "tier": "power",
+            "t": "Charles-Édouard Brown-Séquard showed in 1856 that animals cannot survive without them",
+            "k": ["brown-séquard", "1856"],
+            "n": 0
+        },
+        {
+            "id": "eustachi",
+            "tier": "power",
+            "t": "Bartolomeo Eustachi, namesake of the ear’s eustachian tube, first described them in the 1500s",
+            "k": ["eustachi", "eustachian", "1500s"],
+            "n": 0
+        },
+        {
+            "id": "chromaffin",
+            "tier": "power",
+            "t": "The medulla’s chromaffin cells come from the neural crest, like nerve cells, and respond to the nerve signal acetylcholine",
+            "k": ["chromaffin", "neural crest", "acetylcholine"],
+            "n": 0
+        },
+        {
+            "id": "hpa-axis",
+            "tier": "power",
+            "t": "The HPA axis: CRH from the hypothalamus tells the pituitary to send ACTH, which tells these glands to release cortisol",
+            "k": ["hpa axis", "hypothalamus", "crh"],
+            "n": 0
+        },
+        {
+            "id": "angiotensin-conn",
+            "tier": "power",
+            "t": "Angiotensin II triggers aldosterone release when blood pressure drops; a tumor making too much aldosterone causes Conn’s syndrome",
+            "k": ["angiotensin", "conn"],
+            "n": 0
+        },
+        {
+            "id": "pheochromocytoma",
+            "tier": "power",
+            "t": "Pheochromocytoma, a rare tumor of the medulla, releases bursts of epinephrine and norepinephrine",
+            "k": ["pheochromocytoma", "tumor"],
+            "n": 0
+        },
+        {
+            "id": "shapes",
+            "tier": "power",
+            "t": "The right one is shaped like a pyramid and the left like a crescent; each is fed by three arteries",
+            "k": ["pyramid", "crescent", "three arteries"],
+            "n": 0
+        },
+        {
+            "id": "pregnenolone",
+            "tier": "power",
+            "t": "Cortex cells store cholesterol droplets, which make the cortex yellow, and turn cholesterol into pregnenolone in their mitochondria",
+            "k": ["pregnenolone", "droplets", "yellow"],
+            "n": 0
+        },
+        {
+            "id": "selye",
+            "tier": "power",
+            "t": "Hans Selye found enlarged ones in stressed rats, along with shrunken thymus glands and ulcers, and described the “general adaptation syndrome”",
+            "k": ["general adaptation syndrome", "selye"],
+            "n": 0
+        },
+        {
+            "id": "steroid-drugs",
+            "tier": "power",
+            "t": "Hydrocortisone creams and drugs like prednisone copy their cortisol to calm swelling",
+            "k": ["hydrocortisone", "prednisone"],
+            "n": 0
+        },
+        {
+            "id": "takamine",
+            "tier": "power",
+            "t": "Jokichi Takamine isolated epinephrine from them in 1901, after work by John Jacob Abel; he later helped arrange Japan’s 1912 cherry-tree gift",
+            "k": ["takamine", "1901", "abel", "cherry-tree"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Gland, not hormone",
+        "body": "Tossups on these glands are packed with their hormones (epinephrine, norepinephrine, cortisol, and aldosterone), and players buzz with a hormone instead of the gland. Others answer “kidneys,” the organs underneath them, or name just one layer, the cortex or the medulla.",
+        "fix": "If the question asks for “these glands” or “these organs,” say adrenal glands. Name a hormone only for “this hormone” or “this compound.” The kidneys filter blood and make urine; the glands on top of them make hormones.",
+        "line": "Real answer line: <b><u>Adrenal</u></b> glands (accept <u>suprarenal</u> glands; prompt on <u>adrenal cortex</u> or <u>adrenal medulla</u>; do not accept “kidneys” or “adrenaline”)"
+    },
+    "tests": {
+        "right": [
+            "Adrenal glands",
+            "adrenal gland",
+            "Adrenals",
+            "Adrenal glads",
+            "Suprarenal glands"
+        ],
+        "prompt": [
+            "Adrenal cortex",
+            "Adrenal medulla"
+        ],
+        "wrong": [
+            "Kidneys",
+            "Adrenaline",
+            "Epinephrine",
+            "Pituitary gland",
+            "Cortisol",
+            "Thyroid gland",
+            "Renal cortex"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

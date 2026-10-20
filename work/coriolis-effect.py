@@ -1,0 +1,368 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "coriolis-effect",
+    "name": "Coriolis effect",
+    "mono": "COR",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Apparent sideways push caused by Earth’s spin · Makes hurricanes rotate",
+    "dates": "Described by Gaspard-Gustave de Coriolis, 1835",
+    "briefing": "Because Earth spins, anything moving a long way across its surface, like wind, an ocean current, or a long-range artillery shell, seems to curve: to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. French engineer Gaspard-Gustave de Coriolis worked out the math of this effect in 1835, and it is why hurricanes spin. It is far too weak to decide which way a toilet flushes, though.",
+    "answerHtml": "<b><u>Coriolis</u></b> effect (accept <u>Coriolis</u> force or <u>Coriolis</u> acceleration; prompt on <u>fictitious force</u> or <u>inertial force</u>; do not accept “centrifugal force”)",
+    "accept": [
+        "coriolis",
+        "coriolis effect",
+        "coriolis effects",
+        "coriolis force",
+        "coriolis forces",
+        "coriolis acceleration",
+        "coriolis deflection"
+    ],
+    "prompt": [
+        "fictitious force",
+        "fictitious forces",
+        "inertial force",
+        "inertial forces",
+        "pseudoforce",
+        "pseudo force",
+        "apparent force",
+        "deflection"
+    ],
+    "reject": [
+        "centrifugal force",
+        "centrifugal effect",
+        "centrifugal",
+        "centripetal force",
+        "centripetal",
+        "eotvos effect",
+        "ekman transport",
+        "ekman spiral",
+        "foucault pendulum",
+        "geostrophic wind",
+        "geostrophic balance",
+        "pressure gradient force",
+        "buys ballots law",
+        "gyroscopic effect",
+        "precession",
+        "magnus effect",
+        "doppler effect",
+        "coanda effect",
+        "venturi effect",
+        "earths rotation",
+        "rotation",
+        "rossby waves",
+        "trade winds",
+        "jet stream",
+        "inertia",
+        "gravity",
+        "ferrel cell",
+        "hadley cell"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Coriolis_force",
+    "qb": {
+        "q": "Coriolis",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1651, the Italian astronomers Giovanni Battista Riccioli and Francesco Grimaldi argued that if Earth spun, this effect would push cannonballs sideways, and because they saw no such push, they concluded that Earth stands still.",
+            "r": "For 10 points, name this apparent force that deflects moving objects to the right in the Northern Hemisphere."
+        },
+        {
+            "p": "Pierre-Simon Laplace [“luh-PLAHS”] included a term for this effect in his tidal equations of 1778, more than 50 years before the French engineer it is named for wrote about it. For horizontal motion, this effect is zero at the equator and greatest at the poles.",
+            "r": "For 10 points, name this effect of Earth’s rotation that makes hurricanes spin and bends the trade winds."
+        },
+        {
+            "p": "In 1835, a French engineer studying the energy of rotating machines, such as waterwheels, worked out the math of this effect, which appears only to observers in a spinning frame of reference. It is called a fictitious force because nothing actually pushes the moving object.",
+            "r": "For 10 points, name this effect that deflects winds to the right in the Northern Hemisphere."
+        },
+        {
+            "p": "In 1856, the American meteorologist William Ferrel used this effect to explain how Earth’s spin bends the great wind belts, and a middle-latitude circulation cell is named for him. This effect turns the trade winds so that they blow from the northeast and southeast.",
+            "r": "For 10 points, name this apparent force caused by Earth’s rotation, which deflects moving objects to the right in the Northern Hemisphere."
+        },
+        {
+            "p": "Buys Ballot’s law says that if you stand with your back to the wind in the Northern Hemisphere, low pressure is on your left, a rule that works because this effect turns winds sideways. Christophorus Buys Ballot published that rule in 1857.",
+            "r": "For 10 points, name this effect that makes storms spin counterclockwise in the Northern Hemisphere."
+        },
+        {
+            "p": "During the voyage of the _Fram_, Fridtjof Nansen noticed that sea ice drifted at an angle to the right of the wind, and in 1905 Vagn Walfrid Ekman explained that drift using this effect. Ekman showed that ocean currents twist into a spiral with depth.",
+            "r": "For 10 points, name this effect of Earth’s spin that deflects moving water and air."
+        },
+        {
+            "p": "In 1962, Ascher Shapiro of MIT let a large, carefully settled tank of water sit undisturbed before draining it, and the resulting whirlpool turned counterclockwise because of this effect. In ordinary sinks and toilets, this effect is far too weak to decide which way the water swirls.",
+            "r": "For 10 points, name this effect, caused by Earth’s rotation, that makes hurricanes spin counterclockwise in the Northern Hemisphere."
+        },
+        {
+            "p": "When the Rossby number of a moving system is small, as in large storms or ocean currents, this effect is important, but in small systems like a bathtub drain it can be ignored. Its strength depends on how fast an object moves and on the sine of its latitude.",
+            "r": "For 10 points, name this apparent force, named for a French engineer, that is caused by Earth’s rotation."
+        },
+        {
+            "p": "The Eötvös effect, which makes an object moving east weigh slightly less and one moving west weigh slightly more, is the vertical part of this effect. It is named for the Hungarian physicist Loránd Eötvös.",
+            "r": "For 10 points, name this apparent force caused by Earth’s spin, which deflects winds to the right in the Northern Hemisphere."
+        },
+        {
+            "p": "Mass flow meters named for this effect measure how much fluid passes through a vibrating tube by detecting the tiny twist the moving fluid causes. Flies sense this effect with knob-like organs called halteres [“hal-TEER-eez”], which help them balance in flight.",
+            "r": "For 10 points, name this effect, which on Earth deflects moving air to the right in the Northern Hemisphere."
+        },
+        {
+            "p": "Pilots can feel a dizzying illusion named for this effect if they tilt their heads while their plane is turning, because the motion confuses the balance organs in their inner ears. Spinning chairs used to train pilots can trigger the same illusion.",
+            "r": "For 10 points, name this apparent force that bends winds and ocean currents on the rotating Earth."
+        },
+        {
+            "p": "High above the ground, geostrophic winds blow parallel to the lines of equal pressure on a weather map, because the pull toward low pressure is balanced by this effect. Near the ground, friction slows the wind and weakens this effect, so winds cut across those lines toward low pressure.",
+            "r": "For 10 points, name this effect of Earth’s spin that makes storms turn counterclockwise north of the equator and clockwise south of it."
+        },
+        {
+            "p": "This effect is too weak within about 5 degrees of the equator to start a storm spinning, so hurricanes almost never form there. Ocean gyres turn clockwise in the Northern Hemisphere partly because of this effect.",
+            "r": "For 10 points, name this effect that deflects moving objects to the left in the Southern Hemisphere."
+        },
+        {
+            "p": "At the equator, tour guides sometimes stage a trick in which water seems to drain clockwise on one side of a painted line and counterclockwise on the other, falsely blaming this effect. Long-range artillery and snipers really do have to correct for this effect.",
+            "r": "For 10 points, name this apparent force caused by Earth’s rotation, which makes hurricanes spin."
+        },
+        {
+            "p": "A ball rolled straight across a spinning merry-go-round seems to curve to the riders, a classic way to show this effect. On Earth, this effect bends the trade winds and the ocean’s great currents.",
+            "r": "For 10 points, name this apparent force that deflects moving objects to the right in the Northern Hemisphere and to the left in the Southern Hemisphere."
+        }
+    ],
+    "clues": [
+        {
+            "id": "right-left",
+            "tier": "giveaway",
+            "t": "Deflects moving air and water to the right in the Northern Hemisphere and to the left in the Southern Hemisphere",
+            "k": ["right", "left", "northern hemisphere"],
+            "n": 0
+        },
+        {
+            "id": "earth-rotation",
+            "tier": "giveaway",
+            "t": "Caused by Earth’s rotation; it appears only when motion is viewed from a spinning frame",
+            "k": ["rotation", "spinning frame"],
+            "n": 0
+        },
+        {
+            "id": "hurricanes",
+            "tier": "giveaway",
+            "t": "Makes hurricanes spin counterclockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere",
+            "k": ["counterclockwise", "hurricanes"],
+            "n": 0,
+            "rabbit": "Hurricanes"
+        },
+        {
+            "id": "french-engineer",
+            "tier": "giveaway",
+            "t": "Named for a French engineer who worked out its math in 1835",
+            "k": ["french engineer", "1835"],
+            "n": 0
+        },
+        {
+            "id": "equator-poles",
+            "tier": "giveaway",
+            "t": "For horizontal motion, it is zero at the equator and strongest at the poles",
+            "k": ["equator", "poles"],
+            "n": 0
+        },
+        {
+            "id": "fictitious",
+            "tier": "middle",
+            "t": "A “fictitious” or inertial force: nothing actually pushes the object, but its path seems to curve",
+            "k": ["fictitious", "inertial"],
+            "n": 0,
+            "rabbit": "Inertia"
+        },
+        {
+            "id": "trade-winds",
+            "tier": "middle",
+            "t": "Turns the trade winds so they blow from the northeast and southeast",
+            "k": ["trade winds", "northeast"],
+            "n": 0,
+            "rabbit": "Wind"
+        },
+        {
+            "id": "gyres",
+            "tier": "middle",
+            "t": "Helps turn ocean gyres clockwise in the Northern Hemisphere",
+            "k": ["gyres", "clockwise"],
+            "n": 0,
+            "rabbit": "Ocean currents"
+        },
+        {
+            "id": "toilet-myth",
+            "tier": "middle",
+            "t": "Far too weak to decide which way sinks and toilets drain; equator “demonstrations” of opposite swirls are tricks",
+            "k": ["toilets", "sinks", "too weak"],
+            "n": 0
+        },
+        {
+            "id": "five-degrees",
+            "tier": "middle",
+            "t": "Too weak within about 5 degrees of the equator to start storms spinning, so hurricanes almost never form there",
+            "k": ["5 degrees", "spinning"],
+            "n": 0
+        },
+        {
+            "id": "geostrophic",
+            "tier": "middle",
+            "t": "Balances the pull toward low pressure in geostrophic winds, which blow parallel to isobars",
+            "k": ["geostrophic", "isobars"],
+            "n": 0
+        },
+        {
+            "id": "ekman",
+            "tier": "middle",
+            "t": "Ekman transport: it turns wind-driven surface water to the right of the wind in the Northern Hemisphere",
+            "k": ["ekman", "surface water"],
+            "n": 0,
+            "rabbit": "Upwelling"
+        },
+        {
+            "id": "merry-go-round",
+            "tier": "middle",
+            "t": "A ball rolled across a spinning merry-go-round seems to curve to the riders",
+            "k": ["merry-go-round", "curve"],
+            "n": 0
+        },
+        {
+            "id": "artillery",
+            "tier": "middle",
+            "t": "Long-range artillery and snipers must correct for it",
+            "k": ["artillery", "snipers"],
+            "n": 0
+        },
+        {
+            "id": "riccioli",
+            "tier": "power",
+            "t": "Riccioli and Grimaldi (1651) argued that a spinning Earth would push cannonballs sideways; seeing no push, they said Earth stands still",
+            "k": ["riccioli", "grimaldi", "1651", "cannonballs"],
+            "n": 0
+        },
+        {
+            "id": "laplace",
+            "tier": "power",
+            "t": "Pierre-Simon Laplace’s tidal equations (1778) already included a term for it",
+            "k": ["laplace", "tidal equations", "1778"],
+            "n": 0,
+            "rabbit": "Tides"
+        },
+        {
+            "id": "waterwheels",
+            "tier": "power",
+            "t": "Its namesake worked out its math while studying the energy of rotating machines like waterwheels",
+            "k": ["waterwheels", "rotating machines"],
+            "n": 0
+        },
+        {
+            "id": "ferrel",
+            "tier": "power",
+            "t": "William Ferrel (1856) used it to explain the great wind belts; the Ferrel cell is named for him",
+            "k": ["ferrel", "1856"],
+            "n": 0
+        },
+        {
+            "id": "buys-ballot",
+            "tier": "power",
+            "t": "Buys Ballot’s law (1857): with your back to the wind in the Northern Hemisphere, low pressure is on your left",
+            "k": ["buys ballot", "back to the wind", "1857"],
+            "n": 0
+        },
+        {
+            "id": "nansen-ekman",
+            "tier": "power",
+            "t": "Fridtjof Nansen saw sea ice drift to the right of the wind on the _Fram_; Vagn Walfrid Ekman explained it in 1905",
+            "k": ["nansen", "fram", "1905"],
+            "n": 0
+        },
+        {
+            "id": "shapiro",
+            "tier": "power",
+            "t": "Ascher Shapiro (MIT, 1962) showed that a carefully settled tank in the Northern Hemisphere drains counterclockwise",
+            "k": ["ascher shapiro", "1962", "mit"],
+            "n": 0
+        },
+        {
+            "id": "rossby-number",
+            "tier": "power",
+            "t": "It matters when the Rossby number is small, as in big storms and ocean currents",
+            "k": ["rossby number", "small"],
+            "n": 0
+        },
+        {
+            "id": "formula",
+            "tier": "power",
+            "t": "Its acceleration is twice Earth’s spin rate times the velocity (a cross product); its strength depends on the sine of latitude",
+            "k": ["sine of latitude", "cross product", "twice"],
+            "n": 0
+        },
+        {
+            "id": "eotvos",
+            "tier": "power",
+            "t": "The Eötvös effect, its vertical part, makes objects moving east weigh slightly less",
+            "k": ["eötvös", "moving east"],
+            "n": 0
+        },
+        {
+            "id": "flow-meters",
+            "tier": "power",
+            "t": "Mass flow meters named for it detect the twist that moving fluid gives a vibrating tube",
+            "k": ["flow meters", "vibrating tube"],
+            "n": 0
+        },
+        {
+            "id": "halteres",
+            "tier": "power",
+            "t": "Flies sense it with knob-like balance organs called halteres",
+            "k": ["halteres", "flies"],
+            "n": 0
+        },
+        {
+            "id": "pilots-illusion",
+            "tier": "power",
+            "t": "Pilots who tilt their heads during a turn can feel a dizzying illusion named for it",
+            "k": ["illusion", "pilots", "tilt"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Coriolis or centrifugal?",
+        "body": "Both are “fictitious” forces that show up in spinning frames, so tossups about rotation can mean either one. Centrifugal force pushes things outward, away from the axis, even when they sit still, while this effect pushes only on things that are moving, sideways to their motion. Ekman transport and geostrophic winds are results of this effect, not the effect itself.",
+        "fix": "Moving air or water bending right in the Northern Hemisphere, hurricanes spinning, the trade winds, or a French engineer from 1835 means the Coriolis effect. Riders pressed against the wall of a spinning ride, or anything flung outward, means centrifugal force. Saying only “fictitious force” earns a prompt.",
+        "line": "Real answer line: <b><u>Coriolis</u></b> effect (accept Coriolis force; prompt on fictitious force; do not accept “centrifugal force”)"
+    },
+    "tests": {
+        "right": [
+            "Coriolis effect",
+            "Coriolis force",
+            "Coriolis",
+            "Coriolis acceleration",
+            "Corriolis effect"
+        ],
+        "prompt": [
+            "Fictitious force",
+            "Inertial force"
+        ],
+        "wrong": [
+            "Centrifugal force",
+            "Centripetal force",
+            "Ekman transport",
+            "Eotvos effect",
+            "Doppler effect",
+            "Inertia"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

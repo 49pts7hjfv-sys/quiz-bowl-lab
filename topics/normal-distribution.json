@@ -124,7 +124,7 @@
       "r": "Its graph peaks at the mean and is symmetric on both sides. For 10 points, name this distribution often named for Gauss."
     },
     {
-      "p": "The Shapiro–Wilk test checks whether a set of data comes from this distribution, and a quantile-quantile plot of data that fit it forms a nearly straight line. Data that follow this distribution have a skewness of 0 and a kurtosis of 3.",
+      "p": "Karl Pearson popularized this distribution’s usual name around 1900, though earlier writers had called it names like the “law of error.” Its skewness is 0, since its left and right halves are mirror images of each other.",
       "r": "Its mean, median, and mode are all the same. For 10 points, name this distribution, often named for Carl Friedrich Gauss."
     },
     {
@@ -152,7 +152,7 @@
       "r": "Its graph is symmetric about the mean. For 10 points, name this distribution often named for Gauss."
     },
     {
-      "p": "The Box–Muller method turns pairs of random numbers chosen evenly between 0 and 1 into values that follow this distribution. Taking the Fourier [“FOOR-ee-ay”] transform of this distribution’s density function gives another function with the same shape.",
+      "p": "The curve y equals e to the negative x squared has the shape of this distribution’s graph, and the total area under that curve is exactly the square root of pi. In this distribution, only about 3 out of every 1,000 values lie more than three standard deviations from the mean.",
       "r": "About 95 percent of its values lie within two standard deviations of the mean. For 10 points, name this probability distribution."
     }
   ],
@@ -344,13 +344,12 @@
       "n": 0
     },
     {
-      "id": "shapiro",
+      "id": "pearson",
       "tier": "power",
-      "t": "The Shapiro–Wilk test and quantile-quantile plots check whether data fit it; it has skewness 0 and kurtosis 3",
+      "t": "Karl Pearson popularized its usual name around 1900; earlier writers called it the “law of error.” Its skewness is 0 because its halves are mirror images",
       "k": [
-        "shapiro–wilk",
-        "quantile",
-        "kurtosis",
+        "karl pearson",
+        "law of error",
         "skewness"
       ],
       "n": 0
@@ -408,13 +407,12 @@
       "rabbit": "Logarithms"
     },
     {
-      "id": "box-muller",
+      "id": "area-root-pi",
       "tier": "power",
-      "t": "The Box–Muller method makes values that follow it from uniform random numbers; its Fourier transform has the same shape",
+      "t": "The curve y = e^(−x²) has its bell shape, and the total area under that curve is exactly the square root of π",
       "k": [
-        "box–muller",
-        "fourier transform",
-        "uniform"
+        "square root of π",
+        "e^(−x²)"
       ],
       "n": 0
     }
@@ -423,6 +421,6 @@
     "title": "Distribution or its measures?",
     "body": "Many clues about this distribution, such as the 68–95–99.7 rule and z-scores, are really about the standard deviation, which is its own answer line, and so are the mean and the central limit theorem. Other distributions show up too: the binomial distribution counts successes in repeated trials, and Student’s t-distribution looks similar but has thicker tails.",
     "fix": "Listen for the noun. “This distribution” or “this curve,” with a symmetric bell shape, Gauss, or de Moivre, means the normal distribution. “This measure of spread,” written with the Greek letter sigma, means standard deviation; “this theorem” about averages means the central limit theorem.",
-    "line": "Real answer line: <b><u>normal distribution</u></b> (or <u>Gaussian distribution</u>; accept <u>bell curve</u>)"
+    "line": "Real answer line: <b><u>normal distribution</u></b> (or <u>Gaussian distribution</u>; accept <u>bell curve</u> or <u>normal curve</u>; prompt on <u>normal</u> or <u>Gaussian</u>)"
   }
 }
