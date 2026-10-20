@@ -142,8 +142,8 @@ data = {
             "r": "That village, Fátima [“FAH-tee-mah”], became one of the world’s great pilgrimage sites. For 10 points, name this mother of Jesus."
         },
         {
-            "p": "At a wedding in Cana [“KAY-nuh”], this woman told her son that the hosts had run out of wine, and then told the servants, “Do whatever he tells you.” Her son then turned water in six stone jars into wine, which the Gospel of John calls the first of his signs.",
-            "r": "For 10 points, name this woman, the mother of Jesus."
+            "p": "This woman told the servants, “Do whatever he tells you,” after she noticed that the hosts of a wedding feast had run out of wine. Her son then had the servants fill six stone jars with water, which became wine, and the Gospel of John calls this the first of his signs.",
+            "r": "That wedding took place at Cana [“KAY-nuh”], in Galilee. For 10 points, name this woman, the mother of Jesus."
         },
         {
             "p": "After her relative Elizabeth greeted her as “blessed among women,” this woman sang a hymn of praise that begins, “My soul magnifies the Lord.” Johann Sebastian Bach and Claudio Monteverdi [“mon-teh-VAIR-dee”] both set that hymn, the Magnificat [“mag-NIF-ih-kaht”], to music.",
@@ -155,7 +155,7 @@ data = {
         },
         {
             "p": "One chapter of the Quran, the only one named for a woman, says this woman gave birth beneath a palm tree and was told to shake its trunk so that ripe dates would fall for her. In that chapter, her newborn son speaks from the cradle to defend her when people accuse her of wrongdoing.",
-            "r": "The Quran calls her son Isa. For 10 points, name this woman, the mother of Jesus."
+            "r": "The Quran calls her son Isa and honors him as a prophet. For 10 points, name this woman, the mother of Jesus."
         },
         {
             "p": "The only work Michelangelo ever signed shows this woman with his name carved on a sash across her chest. In that marble sculpture in St. Peter’s Basilica, she sits holding the body of her son across her lap after the Crucifixion.",
