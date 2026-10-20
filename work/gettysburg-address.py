@@ -150,7 +150,7 @@ data = {
             "r": "It was given on November 19, 1863. For 10 points, name this speech that Abraham Lincoln gave to dedicate a cemetery in Pennsylvania.",
         },
         {
-            "p": "In Ken Burns’s 2014 documentary _The Address_, students at a small school in Vermont work for weeks to memorize and recite this speech. Generations of American schoolchildren have also learned its call for “a new birth of freedom.”",
+            "p": "In a 2014 documentary by Ken Burns, students at a small school in Vermont work for weeks to memorize and recite this speech. Generations of American schoolchildren have also learned its call for “a new birth of freedom.”",
             "r": "For 10 points, name this speech by Abraham Lincoln that begins “Four score and seven years ago.”",
         },
     ],
@@ -273,7 +273,7 @@ data = {
         {
             "id": "garry-wills",
             "tier": "power",
-            "t": "Garry Wills won a Pulitzer Prize for _Lincoln at Gettysburg: The Words That Remade America_",
+            "t": "Garry Wills won a Pulitzer Prize for a book about it subtitled _The Words That Remade America_",
             "k": ["garry wills", "pulitzer", "words that remade america"],
             "n": 0,
         },
@@ -351,7 +351,7 @@ data = {
         {
             "id": "ken-burns",
             "tier": "power",
-            "t": "Ken Burns’s 2014 documentary _The Address_ follows students at a Vermont school memorizing it",
+            "t": "A 2014 Ken Burns documentary follows students at a Vermont school as they memorize it",
             "k": ["ken burns", "documentary", "vermont"],
             "n": 0,
         },
