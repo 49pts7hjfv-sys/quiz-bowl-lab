@@ -120,7 +120,7 @@ data = {
             "r": "Houston’s former student Thurgood Marshall argued this case. For 10 points, name this 1954 case that struck down school segregation."
         },
         {
-            "p": "A third grader was turned away from the all-white Sumner Elementary School, which was much closer to her home, and had to attend the all-Black Monroe Elementary School instead. The Monroe school building is now a national historical park honoring this case.",
+            "p": "A third grader was turned away from the all-white Sumner Elementary School, which was much closer to her home, and had to attend the all-Black Monroe Elementary School instead. The Monroe school building later became a national park site honoring this case.",
             "r": "Her father, Oliver Brown of Topeka, Kansas, gave his name to the lawsuit. For 10 points, name this 1954 Supreme Court case."
         },
         {
@@ -296,8 +296,8 @@ data = {
         {
             "id": "sumner-monroe",
             "tier": "power",
-            "t": "Linda was refused at the nearby white Sumner Elementary and went to all-Black Monroe Elementary, now a national historical park",
-            "k": ["sumner", "monroe elementary", "national historical park"],
+            "t": "Linda was refused at the nearby white Sumner Elementary and went to all-Black Monroe Elementary, later made a national park site",
+            "k": ["sumner", "monroe elementary", "national park site"],
             "n": 0
         },
         {

@@ -1,0 +1,463 @@
+{
+  "id": "atlanta",
+  "name": "Atlanta",
+  "mono": "ATL",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Capital and largest city of Georgia · Birthplace of Martin Luther King Jr.",
+  "dates": "Founded 1837 (as Terminus)",
+  "briefing": "Atlanta began in 1837 as Terminus, the spot chosen as the end of a new railroad line in the Georgia woods. It grew into the South’s great rail hub, which is why William Tecumseh Sherman’s Union army captured it and burned much of it in 1864. The city rebuilt itself, chose a phoenix rising from the ashes as its symbol, and became the birthplace of Coca-Cola and Martin Luther King Jr. and the host of the 1996 Olympics.",
+  "answerHtml": "<b><u>Atlanta</u></b>, Georgia (prompt on its earlier names, <u>Terminus</u> or <u>Marthasville</u>; do not accept “Georgia”)",
+  "accept": [
+    "atlanta",
+    "atlanta georgia",
+    "atlanta ga",
+    "city of atlanta",
+    "atlanta georgia usa"
+  ],
+  "prompt": [
+    "terminus",
+    "marthasville"
+  ],
+  "reject": [
+    "georgia",
+    "state of georgia",
+    "savannah",
+    "savannah georgia",
+    "augusta",
+    "macon",
+    "columbus",
+    "athens",
+    "marietta",
+    "milledgeville",
+    "birmingham",
+    "montgomery",
+    "memphis",
+    "charlotte",
+    "nashville",
+    "chattanooga",
+    "richmond",
+    "atlantic city",
+    "atlantis",
+    "atlantic ocean",
+    "battle of atlanta",
+    "atlanta campaign",
+    "atlanta compromise",
+    "atlanta braves",
+    "stone mountain",
+    "atalanta"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Atlanta",
+  "qb": {
+    "q": "Atlanta",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This city began in 1837 as Terminus, the spot chosen as the end of the Western and Atlantic Railroad, and in 1843 it was renamed Marthasville in honor of a former governor’s daughter. A stone Zero Mile Post marked the original end of that railroad line.",
+      "r": "In 1845 it took its present name, based on the word “Atlantic.” For 10 points, name this capital of Georgia."
+    },
+    {
+      "p": "In September 1864, an army commander ordered civilians to leave this city and told its mayor, James Calhoun, that “war is cruelty, and you cannot refine it.” Earlier that summer, Jefferson Davis had replaced Joseph E. Johnston with John Bell Hood as the general defending this city.",
+      "r": "William Tecumseh Sherman’s troops burned much of this city before the March to the Sea. For 10 points, name this capital of Georgia."
+    },
+    {
+      "p": "A huge circular painting displayed at this city’s history center shows a July 1864 battle in which Union general James McPherson was killed. Visitors view that cyclorama from a platform in the middle of the room, surrounded by the scene.",
+      "r": "Weeks after that battle, William Tecumseh Sherman’s army captured this city. For 10 points, name this capital of Georgia."
+    },
+    {
+      "p": "In 1886, pharmacist John Pemberton created a soft drink in this city, and his bookkeeper, Frank Robinson, gave it its name and wrote that name in the flowing script that became its famous logo. Asa Candler, who bought the company and built it into a giant, later served as this city’s mayor.",
+      "r": "That drink was Coca-Cola. For 10 points, name this Georgia city, which also hosted the 1996 Summer Olympics."
+    },
+    {
+      "p": "A national historical park in this city includes the house at 501 Auburn Avenue and Ebenezer Baptist Church, where a famous father and son both served as pastors. The son entered this city’s Morehouse College when he was only 15.",
+      "r": "That son, Martin Luther King Jr., was born here in 1929. For 10 points, name this capital of Georgia."
+    },
+    {
+      "p": "In 1996, security guard Richard Jewell spotted a suspicious backpack in this city’s Centennial Olympic Park and helped move people away before the bomb inside it exploded. Jewell was wrongly suspected of the crime and later cleared, a story told in a 2019 Clint Eastwood film.",
+      "r": "That park was built for the 1996 Summer Olympics, which Muhammad Ali opened by lighting the cauldron. For 10 points, name this Georgia city."
+    },
+    {
+      "p": "At the Cotton States and International Exposition held in this city in 1895, Booker T. Washington told his audience to “cast down your bucket where you are.” W. E. B. Du Bois, who taught for years at a university in this city, later attacked that speech as a “compromise.”",
+      "r": "That speech is often named for this city. For 10 points, name this capital of Georgia, the birthplace of Martin Luther King Jr."
+    },
+    {
+      "p": "A federal agency that grew out of a World War II office fighting malaria in the South was founded in this city in 1946 as the Communicable Disease Center. That agency, the CDC, has kept its headquarters here, next to Emory University.",
+      "r": "For 10 points, name this capital of Georgia, which hosted the 1996 Summer Olympics."
+    },
+    {
+      "p": "Scarlett O’Hara flees this city as it burns in Margaret Mitchell’s 1936 novel _Gone with the Wind_, and the 1939 film of that novel had its world premiere here. Hattie McDaniel, who won an Oscar for that film, could not attend the premiere because of segregation.",
+      "r": "Mitchell herself lived in this city. For 10 points, name this capital of Georgia, which Union troops burned in 1864."
+    },
+    {
+      "p": "On April 8, 1974, Hank Aaron hit his 715th career home run in this city, breaking Babe Ruth’s record. As he neared that record, Aaron had received thousands of hateful letters, many of them racist.",
+      "r": "His team, the Braves, had moved to this city from Milwaukee in 1966. For 10 points, name this capital of Georgia."
+    },
+    {
+      "p": "Maynard Jackson became the first Black mayor of this city in 1974, and its airport is named for him and for William Hartsfield, a mayor who called it “the city too busy to hate.” That airport has often been ranked the busiest in the world.",
+      "r": "For 10 points, name this capital of Georgia, which hosted the 1996 Summer Olympics and is the home of Coca-Cola."
+    },
+    {
+      "p": "This city’s seal shows a phoenix rising from flames above the Latin motto “Resurgens,” meaning “rising again.” In the 1880s, Henry Grady, editor of this city’s _Constitution_ newspaper, became famous for promoting an industrial “New South.”",
+      "r": "The phoenix recalls how this city rebuilt after Union troops burned much of it in 1864. For 10 points, name this capital of Georgia."
+    },
+    {
+      "p": "Socialist Eugene V. Debs ran for president in 1920 from a federal prison in this city, where he was serving a sentence for a speech against World War I, and he won nearly a million votes. In 1934, Al Capone was moved from that same prison to Alcatraz.",
+      "r": "For 10 points, name this Georgia city, the home of Coca-Cola and the birthplace of Martin Luther King Jr."
+    },
+    {
+      "p": "Ted Turner launched CNN, the first 24-hour cable news channel, from this city in 1980, and he also owned this city’s baseball team. Delta Air Lines has long had its headquarters here, near the city’s giant airport.",
+      "r": "For 10 points, name this capital of Georgia, where Coca-Cola was invented in 1886."
+    },
+    {
+      "p": "The Carter Center and Jimmy Carter’s presidential library stand in this city, and the civil rights leader John Lewis represented much of it in Congress from 1987 to 2020. Andrew Young, a former U.S. ambassador to the United Nations, served as its mayor in the 1980s.",
+      "r": "For 10 points, name this capital of Georgia, the birthplace of Martin Luther King Jr. and the home of Coca-Cola."
+    }
+  ],
+  "clues": [
+    {
+      "id": "capital",
+      "tier": "giveaway",
+      "t": "Capital (since 1868) and largest city of Georgia",
+      "k": [
+        "capital",
+        "georgia",
+        "largest city"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mlk",
+      "tier": "giveaway",
+      "t": "Birthplace of Martin Luther King Jr. (1929), who later became co-pastor of its Ebenezer Baptist Church",
+      "k": [
+        "martin luther king",
+        "ebenezer",
+        "1929"
+      ],
+      "n": 0,
+      "rabbit": "Martin Luther King Jr."
+    },
+    {
+      "id": "sherman",
+      "tier": "giveaway",
+      "t": "Captured by William Tecumseh Sherman in September 1864; his troops burned much of it before the March to the Sea",
+      "k": [
+        "sherman",
+        "burned",
+        "1864",
+        "march to the sea"
+      ],
+      "n": 0,
+      "rabbit": "William Tecumseh Sherman"
+    },
+    {
+      "id": "coca-cola",
+      "tier": "giveaway",
+      "t": "Coca-Cola was invented here in 1886",
+      "k": [
+        "coca-cola",
+        "1886"
+      ],
+      "n": 0
+    },
+    {
+      "id": "olympics",
+      "tier": "giveaway",
+      "t": "Hosted the 1996 Summer Olympics, the Centennial Games, which Muhammad Ali opened by lighting the cauldron",
+      "k": [
+        "olympics",
+        "1996",
+        "muhammad ali",
+        "centennial"
+      ],
+      "n": 0,
+      "rabbit": "Olympic Games"
+    },
+    {
+      "id": "terminus",
+      "tier": "middle",
+      "t": "Founded in 1837 as Terminus, the end point of the Western and Atlantic Railroad",
+      "k": [
+        "terminus",
+        "western and atlantic",
+        "1837",
+        "railroad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marthasville",
+      "tier": "middle",
+      "t": "Renamed Marthasville (1843) for a former governor’s daughter, then given its present name (1845), based on “Atlantic”",
+      "k": [
+        "marthasville",
+        "1843",
+        "1845"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cdc",
+      "tier": "middle",
+      "t": "Home of the Centers for Disease Control and Prevention (CDC), founded here in 1946 as the Communicable Disease Center",
+      "k": [
+        "centers for disease control",
+        "cdc",
+        "1946"
+      ],
+      "n": 0,
+      "rabbit": "Malaria"
+    },
+    {
+      "id": "booker-t",
+      "tier": "middle",
+      "t": "Booker T. Washington’s 1895 speech at its Cotton States Exposition: “Cast down your bucket where you are”; Du Bois called it a compromise",
+      "k": [
+        "booker t. washington",
+        "cotton states",
+        "cast down your bucket",
+        "1895"
+      ],
+      "n": 0
+    },
+    {
+      "id": "battle-1864",
+      "tier": "middle",
+      "t": "A July 1864 battle named for the city killed Union general James McPherson; John Bell Hood had replaced Joseph E. Johnston as its defender",
+      "k": [
+        "mcpherson",
+        "john bell hood",
+        "july 1864"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gone-with-the-wind",
+      "tier": "middle",
+      "t": "Scarlett O’Hara flees the burning city in Margaret Mitchell’s _Gone with the Wind_; the 1939 film premiered here",
+      "k": [
+        "gone with the wind",
+        "scarlett",
+        "margaret mitchell",
+        "premiered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hank-aaron",
+      "tier": "middle",
+      "t": "Hank Aaron hit his 715th home run here (April 8, 1974), breaking Babe Ruth’s record; the Braves had arrived from Milwaukee in 1966",
+      "k": [
+        "hank aaron",
+        "715th",
+        "babe ruth",
+        "braves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "colleges",
+      "tier": "middle",
+      "t": "Home of historically Black colleges such as Morehouse, where King enrolled at 15, and Spelman",
+      "k": [
+        "morehouse",
+        "spelman",
+        "historically black"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calhoun",
+      "tier": "middle",
+      "t": "Sherman ordered civilians out and told its mayor, James Calhoun, that “war is cruelty, and you cannot refine it”",
+      "k": [
+        "james calhoun",
+        "calhoun",
+        "war is cruelty"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zero-mile",
+      "tier": "power",
+      "t": "A stone Zero Mile Post marked the original end of the railroad line",
+      "k": [
+        "zero mile post",
+        "zero mile"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cyclorama",
+      "tier": "power",
+      "t": "A giant circular cyclorama painting of the July 1864 battle is displayed at its history center",
+      "k": [
+        "cyclorama",
+        "circular",
+        "painting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pemberton-candler",
+      "tier": "power",
+      "t": "Pharmacist John Pemberton created the drink; Frank Robinson named it and wrote its script logo; Asa Candler built the company and became mayor",
+      "k": [
+        "john pemberton",
+        "pemberton",
+        "frank robinson",
+        "asa candler"
+      ],
+      "n": 0
+    },
+    {
+      "id": "auburn-avenue",
+      "tier": "power",
+      "t": "King’s birth home at 501 Auburn Avenue, in the “Sweet Auburn” neighborhood, is part of a national historical park",
+      "k": [
+        "auburn avenue",
+        "sweet auburn",
+        "501"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jewell",
+      "tier": "power",
+      "t": "Security guard Richard Jewell found a bomb in Centennial Olympic Park (1996), was wrongly suspected, and was cleared",
+      "k": [
+        "richard jewell",
+        "jewell",
+        "centennial olympic park"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hattie-mcdaniel",
+      "tier": "power",
+      "t": "Oscar winner Hattie McDaniel could not attend the 1939 premiere of _Gone with the Wind_ here because of segregation",
+      "k": [
+        "hattie mcdaniel",
+        "segregation",
+        "oscar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maynard-jackson",
+      "tier": "power",
+      "t": "Maynard Jackson became its first Black mayor (1974); its Hartsfield–Jackson airport has often ranked as the world’s busiest",
+      "k": [
+        "maynard jackson",
+        "hartsfield",
+        "busiest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "too-busy",
+      "tier": "power",
+      "t": "Mayor William Hartsfield called it “the city too busy to hate”",
+      "k": [
+        "too busy to hate",
+        "william hartsfield"
+      ],
+      "n": 0
+    },
+    {
+      "id": "phoenix",
+      "tier": "power",
+      "t": "Its seal shows a phoenix and the Latin motto “Resurgens” (“rising again”)",
+      "k": [
+        "phoenix",
+        "resurgens",
+        "rising again"
+      ],
+      "n": 0
+    },
+    {
+      "id": "grady",
+      "tier": "power",
+      "t": "Henry Grady, editor of its _Constitution_ newspaper, promoted the “New South” in the 1880s",
+      "k": [
+        "henry grady",
+        "grady",
+        "new south"
+      ],
+      "n": 0
+    },
+    {
+      "id": "debs-capone",
+      "tier": "power",
+      "t": "Eugene V. Debs ran for president from its federal prison (1920); Al Capone was moved from that prison to Alcatraz (1934)",
+      "k": [
+        "eugene v. debs",
+        "debs",
+        "al capone",
+        "federal prison"
+      ],
+      "n": 0,
+      "rabbit": "Al Capone"
+    },
+    {
+      "id": "cnn",
+      "tier": "power",
+      "t": "Ted Turner launched CNN here in 1980; Delta Air Lines has its headquarters here",
+      "k": [
+        "ted turner",
+        "cnn",
+        "delta"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carter-lewis",
+      "tier": "power",
+      "t": "Home of the Carter Center and Jimmy Carter’s presidential library; John Lewis represented it in Congress (1987–2020); Andrew Young was mayor",
+      "k": [
+        "carter center",
+        "jimmy carter",
+        "john lewis",
+        "andrew young"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "City, state, or Savannah?",
+    "body": "Many Atlanta clues are also Georgia clues, and some Civil War clues point to a different Georgia city. Sherman’s March to the Sea started in Atlanta but ended in Savannah, the city he offered Lincoln as a “Christmas gift.” Saying “Georgia” when a question asks for “this city” is wrong, and so is naming the Battle of Atlanta or the Atlanta Compromise when the question wants the city itself.",
+    "fix": "Listen for the noun: “this city” wants Atlanta, and “this state” wants Georgia. Hood, McPherson, the cyclorama, and Sherman’s letter to Mayor Calhoun mean Atlanta; the end of the march and the “Christmas gift” mean Savannah. Coca-Cola, the CDC, Martin Luther King Jr.’s birthplace, and the 1996 Olympics all mean Atlanta.",
+    "line": "Real answer line: <b><u>Atlanta</u></b>, Georgia"
+  },
+  "tests": {
+    "right": [
+      "Atlanta",
+      "Atlanta, Georgia",
+      "Atlanta, GA",
+      "Atlnta",
+      "the city of Atlanta"
+    ],
+    "prompt": [
+      "Terminus",
+      "Marthasville"
+    ],
+    "wrong": [
+      "Georgia",
+      "Savannah",
+      "Savannah, Georgia",
+      "Birmingham",
+      "Atlantic City",
+      "Atlantis",
+      "Battle of Atlanta",
+      "Atalanta"
+    ]
+  }
+}

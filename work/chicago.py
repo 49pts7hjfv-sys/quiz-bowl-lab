@@ -200,7 +200,7 @@ data = {
         {
             "id": "pullman",
             "tier": "middle",
-            "t": "The Pullman Strike (1894) began in George Pullman’s company town, now part of the city",
+            "t": "The Pullman Strike (1894) began in George Pullman’s company town on the city’s South Side",
             "k": ["pullman", "1894", "company town"],
             "n": 0,
             "rabbit": "Pullman Strike"

@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "President of the Confederacy · Former U.S. senator and Secretary of War",
   "dates": "1808–1889",
-  "briefing": "Jefferson Davis was born in Kentucky in 1808, about eight months before Abraham Lincoln was born in the same state. He became a war hero in Mexico, a U.S. senator from Mississippi, and Secretary of War, and in 1861 the seceded Southern states chose him as president of the Confederate States of America. After the South lost the Civil War, Union cavalry captured him in Georgia, and he spent two years in prison.",
+  "briefing": "Jefferson Davis was born in Kentucky in 1808, about eight months before Abraham Lincoln was born in the same state. He fought in the Mexican-American War, served as a U.S. senator from Mississippi and as Secretary of War, and in 1861 the seceded Southern states chose him as president of the Confederate States of America. After the South lost the Civil War, Union cavalry captured him in Georgia, and he spent two years in prison.",
   "answerHtml": "Jefferson <b><u>Davis</u></b> (or Jefferson Finis <b><u>Davis</u></b>)",
   "accept": [
     "jefferson davis",
@@ -15,7 +15,8 @@
     "jefferson finis davis",
     "jefferson f davis",
     "president davis",
-    "president jefferson davis"
+    "president jefferson davis",
+    "jefferson david"
   ],
   "prompt": [],
   "reject": [
@@ -49,7 +50,8 @@
       "Davis",
       "Jeff Davis",
       "President Jefferson Davis",
-      "Jefferson Davies"
+      "Jefferson Davies",
+      "Jefferson David"
     ],
     "prompt": [],
     "wrong": [
@@ -106,7 +108,7 @@
     },
     {
       "p": "When Joseph E. Johnston was wounded at the Battle of Seven Pines in 1862, this leader gave command of the army defending Richmond to his military adviser, Robert E. Lee. This leader also feuded with the general P. G. T. Beauregard [“BOH-ruh-gard”].",
-      "r": "Lee began calling that army the Army of Northern Virginia. For 10 points, name this president of the Confederacy."
+      "r": "Lee led that army, the Army of Northern Virginia, for the rest of the war. For 10 points, name this president of the Confederacy."
     },
     {
       "p": "On a Sunday in April 1865, this man was handed a message from Robert E. Lee during services at St. Paul’s Church, warning that Richmond had to be abandoned. He and his cabinet fled south by train that night.",
@@ -427,7 +429,7 @@
   ],
   "trap": {
     "title": "Jefferson, but not Thomas",
-    "body": "Jefferson Davis was named for Thomas Jefferson, so hearing “Jefferson” can tempt players to blurt out the third president, even though the two men lived generations apart. Players also mix up the two Civil War presidents: Davis led the Confederacy from Richmond, while Abraham Lincoln led the Union from Washington. Robert E. Lee, Alexander Stephens, and Zachary Taylor show up in Davis clues as well.",
+    "body": "Jefferson Davis was named for Thomas Jefferson, so hearing “Jefferson” can tempt players to blurt out the third president, even though the two men came from different generations. Players also mix up the two Civil War presidents: Davis led the Confederacy from Richmond, while Abraham Lincoln led the Union from Washington. Robert E. Lee, Alexander Stephens, and Zachary Taylor show up in Davis clues as well.",
     "fix": "Listen for the side and the era: “Confederate,” Richmond, Montgomery, Fort Monroe, Buena Vista, or camels in the army mean Davis. Thomas Jefferson clues come from the late 1700s and early 1800s: the Declaration, Monticello, and the Louisiana Purchase. “Davis” alone is enough.",
     "line": "Real answer line: Jefferson <b><u>Davis</u></b> (or Jefferson Finis <b><u>Davis</u></b>)"
   }

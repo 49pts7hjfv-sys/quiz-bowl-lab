@@ -81,7 +81,7 @@
       "r": "For 10 points, name this Democrat from New York who served as both the 22nd and 24th president."
     },
     {
-      "p": "In 1893, this president secretly had a tumor removed from the roof of his mouth during an operation aboard the yacht _Oneida_, and the public did not learn the truth until 1917. He kept it quiet because the country was already in a financial panic.",
+      "p": "In 1893, this president secretly had a tumor removed from the roof of his mouth during an operation aboard the yacht _Oneida_, and the operation was not publicly confirmed until 1917. He kept it quiet because the country was already in a financial panic.",
       "r": "That Panic of 1893 hurt his second term, which began four years after his first ended. For 10 points, name this president who served two non-consecutive terms."
     },
     {
@@ -298,7 +298,7 @@
     {
       "id": "oneida",
       "tier": "power",
-      "t": "Had a tumor secretly removed from his mouth aboard the yacht _Oneida_ (1893); the public learned about it in 1917",
+      "t": "Had a tumor secretly removed from his mouth aboard the yacht _Oneida_ (1893); the operation was not publicly confirmed until 1917",
       "k": [
         "oneida",
         "yacht",
@@ -443,7 +443,7 @@
   ],
   "trap": {
     "title": "Two terms, two numbers",
-    "body": "Grover Cleveland was both the 22nd and the 24th president, so a question can call him either number. Benjamin Harrison, the 23rd president, served between Cleveland’s two terms, beating him in 1888 and losing to him in 1892, so their clues get tangled. Since January 2025, Donald Trump, the 45th and 47th president, has also held the office for two non-consecutive terms, so that fact alone no longer points to just one man.",
+    "body": "Grover Cleveland was both the 22nd and the 24th president, so a question can call him either number. Benjamin Harrison, the 23rd president, served between Cleveland’s two terms, beating him in 1888 and losing to him in 1892, so their clues get tangled. In January 2025, Donald Trump, the 45th president, began a second, non-consecutive term as the 47th president, so that fact alone no longer points to just one man.",
     "fix": "Cleveland clues: Buffalo, the Texas Seed Bill veto, the White House wedding, the Pullman Strike, the Panic of 1893, and Queen Liliuokalani. Harrison clues: the McKinley Tariff, the Sherman Antitrust Act, and the Sherman Silver Purchase Act, which Cleveland got repealed. Don’t confuse Benjamin Harrison with his grandfather, William Henry Harrison.",
     "line": "Real answer line: Grover <b><u>Cleveland</u></b> (or Stephen Grover <b><u>Cleveland</u></b>)"
   }

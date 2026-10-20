@@ -1,0 +1,463 @@
+{
+  "id": "simple-machines",
+  "name": "Simple machines",
+  "mono": "SM",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Six basic devices that multiply force · Levers, pulleys, ramps, and more",
+  "dates": "Five listed by Hero of Alexandria, 1st century CE",
+  "briefing": "Simple machines are the six basic devices that make work easier: the lever, wheel and axle, pulley, inclined plane, wedge, and screw. None of them gives you free energy; instead, they trade force for distance, letting you lift a heavy load with a small push over a longer path. The Greek scientist Archimedes studied levers and pulleys and is said to have boasted, “Give me a place to stand, and I will move the Earth.”",
+  "answerHtml": "<b><u>simple machines</u></b> (accept <u>simple machine</u>; prompt on <u>machines</u>; do not accept a single machine such as “lever” or “pulley”)",
+  "accept": [
+    "simple machines",
+    "simple machine",
+    "six simple machines",
+    "classical simple machines",
+    "classical simple machine",
+    "the simple machines"
+  ],
+  "prompt": [
+    "machines",
+    "machine",
+    "basic machines",
+    "mechanical devices"
+  ],
+  "reject": [
+    "lever",
+    "levers",
+    "pulley",
+    "pulleys",
+    "inclined plane",
+    "inclined planes",
+    "ramp",
+    "ramps",
+    "wedge",
+    "wedges",
+    "screw",
+    "screws",
+    "wheel and axle",
+    "wheels and axles",
+    "compound machine",
+    "compound machines",
+    "complex machine",
+    "complex machines",
+    "mechanical advantage",
+    "fulcrum",
+    "torque",
+    "work",
+    "gear",
+    "gears",
+    "block and tackle",
+    "archimedes screw",
+    "turing machine",
+    "perpetual motion machine",
+    "rube goldberg machine"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Simple_machine",
+  "qb": {
+    "q": "simple machines",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Hero of Alexandria listed five of these devices in his _Mechanics_, and Renaissance scientists later added a sixth to make the classic set. Archimedes [“ar-kih-MEE-deez”] is said to have boasted about one of them, “Give me a place to stand, and I will move the Earth.”",
+      "r": "For 10 points, name these basic devices, such as the lever and the pulley, that change the size or direction of a force."
+    },
+    {
+      "p": "Simon Stevin [“STAY-vin”] explained one of these devices by imagining a loop of beads draped over a triangular block, a picture called the “wreath of spheres.” Another of these devices is just a sloping surface wrapped around a cylinder, and a third is two sloping surfaces placed back to back.",
+      "r": "For 10 points, name these six devices, which include the screw, the wedge, and the inclined plane."
+    },
+    {
+      "p": "According to Plutarch, Archimedes used a combination of one kind of these devices to move a fully loaded ship all by himself. A block and tackle, built from several of that same kind of device, has an ideal mechanical advantage equal to the number of rope segments holding up the load.",
+      "r": "For 10 points, name these devices, including the lever and the pulley, that make work easier."
+    },
+    {
+      "p": "The shaduf [“shah-DOOF”], used to lift irrigation water in ancient Egypt, is a pole with a counterweight that acts as one of these devices. That device comes in three classes, depending on whether the fulcrum, the load, or the effort sits in the middle.",
+      "r": "For 10 points, name these basic devices, which also include the wheel and axle and the inclined plane."
+    },
+    {
+      "p": "The ideal mechanical advantage of one of these devices equals the radius of its wheel divided by the radius of its axle, and for another, it equals the length of a ramp divided by its height. In both cases, that ratio tells how many times the device multiplies the force you apply.",
+      "r": "For 10 points, name these six devices, such as levers and pulleys, that trade force for distance."
+    },
+    {
+      "p": "A spiral inside a tube, named for Archimedes, raises water when it is turned, and Archimedes also worked out a law describing how one of these devices balances. Mechanical advantage, the output force divided by the input force, measures how much one of these devices multiplies a force.",
+      "r": "For 10 points, name these basic devices, including the wedge, the screw, and the lever."
+    },
+    {
+      "p": "The distance between neighboring threads on one of these devices is called its pitch, and finer threads give that device a greater mechanical advantage. Another of these devices splits wood or holds a door open and is really two ramps placed back to back.",
+      "r": "For 10 points, name these six devices, which also include the pulley and the lever."
+    },
+    {
+      "p": "A single fixed version of one of these devices changes only the direction of a force, while a single movable version of it cuts the force needed to lift a load in half. Flagpoles use the fixed version to raise a flag by pulling down on a rope.",
+      "r": "For 10 points, name these devices, such as the pulley, the lever, and the inclined plane."
+    },
+    {
+      "p": "Your forearm acts as a third-class version of one of these devices, with the elbow as the pivot and the biceps pulling in between. Seesaws, wheelbarrows, and tweezers are examples of that same device, each of a different class.",
+      "r": "For 10 points, name these six basic devices, which include the lever and the screw."
+    },
+    {
+      "p": "A hand-held can opener combines several of these devices, using a turning handle and a sharp cutting wheel. Scissors are two of one kind of these devices joined at a pivot, with blades that act as another kind.",
+      "r": "For 10 points, name these basic devices, such as the lever and the wedge, that make work easier."
+    },
+    {
+      "p": "The ideal mechanical advantage of any of these devices equals the distance the effort moves divided by the distance the load moves. The efficiency of one of these devices is its useful work output divided by its work input, and friction keeps every real one below 100 percent.",
+      "r": "For 10 points, name these six devices, including the pulley and the wheel and axle."
+    },
+    {
+      "p": "A windlass, which winds up a rope to raise a bucket from a well, is one of these devices, as are a doorknob and a screwdriver handle. In that device, a large turning part multiplies the force on a smaller rod at its center.",
+      "r": "For 10 points, name these six basic devices, which include the wheel and axle and the pulley."
+    },
+    {
+      "p": "The ancient Egyptians are thought to have used long ramps, one of these devices, to drag heavy stone blocks up the pyramids. A longer, gentler ramp needs less force to push a load up, but the load must travel farther.",
+      "r": "For 10 points, name these six devices, including the inclined plane, the lever, and the screw."
+    },
+    {
+      "p": "For one of these devices, the ideal mechanical advantage equals the length of the effort arm divided by the length of the load arm, a rule worked out by Archimedes. Moving the pivot of that device closer to the load makes the load easier to lift.",
+      "r": "For 10 points, name these basic devices, such as the lever, that make work easier."
+    },
+    {
+      "p": "A zipper’s slider uses small versions of one of these devices to push its teeth together and pry them apart. Axes, knives, and chisels are also examples of that device, which has two sloping sides that meet at a sharp edge.",
+      "r": "For 10 points, name these six devices, including the wedge and the pulley, that change the size or direction of a force."
+    }
+  ],
+  "clues": [
+    {
+      "id": "six",
+      "tier": "giveaway",
+      "t": "The six classic ones: lever, wheel and axle, pulley, inclined plane, wedge, and screw",
+      "k": [
+        "lever",
+        "pulley",
+        "inclined plane",
+        "wedge",
+        "screw"
+      ],
+      "n": 0
+    },
+    {
+      "id": "force",
+      "tier": "giveaway",
+      "t": "Make work easier by changing the size or direction of a force",
+      "k": [
+        "size or direction",
+        "force"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trade",
+      "tier": "giveaway",
+      "t": "They trade force for distance; they never reduce the total work needed for a job",
+      "k": [
+        "force for distance",
+        "total work"
+      ],
+      "n": 0,
+      "rabbit": "Work (physics)"
+    },
+    {
+      "id": "compound",
+      "tier": "giveaway",
+      "t": "Two or more working together form a compound machine, such as a bicycle, scissors, or a can opener",
+      "k": [
+        "compound machine",
+        "bicycle",
+        "scissors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ma",
+      "tier": "middle",
+      "t": "Mechanical advantage = output force ÷ input force: how many times a device multiplies your force",
+      "k": [
+        "mechanical advantage",
+        "output force"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lever-classes",
+      "tier": "middle",
+      "t": "Levers come in three classes, depending on whether the fulcrum, the load, or the effort is in the middle",
+      "k": [
+        "three classes",
+        "fulcrum"
+      ],
+      "n": 0,
+      "rabbit": "Torque"
+    },
+    {
+      "id": "lever-examples",
+      "tier": "middle",
+      "t": "First class: a seesaw; second class: a wheelbarrow; third class: tweezers or your forearm (the biceps pulls between elbow and hand)",
+      "k": [
+        "seesaw",
+        "wheelbarrow",
+        "tweezers",
+        "forearm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "screw-wedge",
+      "tier": "middle",
+      "t": "A screw is an inclined plane wrapped around a cylinder; a wedge is two inclined planes placed back to back",
+      "k": [
+        "wrapped around",
+        "back to back"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pulleys",
+      "tier": "middle",
+      "t": "A single fixed pulley only changes a force’s direction (as on a flagpole); a single movable pulley cuts the force needed in half",
+      "k": [
+        "fixed pulley",
+        "movable pulley",
+        "flagpole"
+      ],
+      "n": 0
+    },
+    {
+      "id": "efficiency",
+      "tier": "middle",
+      "t": "Efficiency = work output ÷ work input; friction keeps every real one below 100 percent",
+      "k": [
+        "efficiency",
+        "friction",
+        "100 percent"
+      ],
+      "n": 0,
+      "rabbit": "Friction"
+    },
+    {
+      "id": "archimedes-quote",
+      "tier": "middle",
+      "t": "Archimedes is said to have boasted, “Give me a place to stand, and I will move the Earth”",
+      "k": [
+        "archimedes",
+        "place to stand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wheel-axle",
+      "tier": "middle",
+      "t": "A doorknob, a screwdriver handle, a steering wheel, and a windlass are all wheels and axles",
+      "k": [
+        "doorknob",
+        "windlass",
+        "steering wheel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wedge-examples",
+      "tier": "middle",
+      "t": "Axes, knives, chisels, and doorstops are all wedges",
+      "k": [
+        "axes",
+        "chisels",
+        "doorstops"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ramp",
+      "tier": "middle",
+      "t": "A longer, gentler ramp needs less force to push a load up, but the load travels farther",
+      "k": [
+        "gentler ramp",
+        "farther"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hero",
+      "tier": "power",
+      "t": "Hero (or Heron) of Alexandria listed five in his _Mechanics_: the lever, windlass, pulley, wedge, and screw",
+      "k": [
+        "hero of alexandria",
+        "heron",
+        "windlass"
+      ],
+      "n": 0
+    },
+    {
+      "id": "renaissance",
+      "tier": "power",
+      "t": "Renaissance scientists added the inclined plane to Hero’s five, making the classic six",
+      "k": [
+        "renaissance",
+        "classic six"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plutarch",
+      "tier": "power",
+      "t": "According to Plutarch, Archimedes used linked pulleys to move a fully loaded ship by himself",
+      "k": [
+        "plutarch",
+        "ship"
+      ],
+      "n": 0
+    },
+    {
+      "id": "block-tackle",
+      "tier": "power",
+      "t": "A block and tackle’s ideal mechanical advantage equals the number of rope segments holding up the load",
+      "k": [
+        "block and tackle",
+        "rope segments"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stevin",
+      "tier": "power",
+      "t": "Simon Stevin explained the inclined plane with a loop of beads draped over a triangular block, the “wreath of spheres”",
+      "k": [
+        "stevin",
+        "wreath of spheres"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shaduf",
+      "tier": "power",
+      "t": "The shaduf, a pole with a counterweight that works as a lever, lifted irrigation water in ancient Egypt",
+      "k": [
+        "shaduf",
+        "shadoof",
+        "irrigation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ima-wheel",
+      "tier": "power",
+      "t": "Ideal mechanical advantage of a wheel and axle = the wheel’s radius ÷ the axle’s radius",
+      "k": [
+        "radius",
+        "wheel and axle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ima-ramp",
+      "tier": "power",
+      "t": "Ideal mechanical advantage of an inclined plane = the ramp’s length ÷ its height",
+      "k": [
+        "length",
+        "height"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ima-distance",
+      "tier": "power",
+      "t": "Ideal mechanical advantage of any of them = the distance the effort moves ÷ the distance the load moves",
+      "k": [
+        "effort moves",
+        "load moves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ima-lever",
+      "tier": "power",
+      "t": "For a lever, ideal mechanical advantage = effort arm ÷ load arm, so moving the pivot closer to the load makes lifting easier",
+      "k": [
+        "effort arm",
+        "load arm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pitch",
+      "tier": "power",
+      "t": "The distance between a screw’s threads is its pitch; finer threads give a greater mechanical advantage",
+      "k": [
+        "pitch",
+        "threads"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archimedes-screw",
+      "tier": "power",
+      "t": "The Archimedes screw, a spiral inside a tube, raises water when it is turned",
+      "k": [
+        "archimedes screw",
+        "spiral"
+      ],
+      "n": 0
+    },
+    {
+      "id": "law-of-lever",
+      "tier": "power",
+      "t": "Archimedes worked out the law of the lever, which tells how a lever balances",
+      "k": [
+        "law of the lever",
+        "balances"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pyramids",
+      "tier": "power",
+      "t": "The ancient Egyptians are thought to have used long ramps to drag stone blocks up the pyramids",
+      "k": [
+        "pyramids",
+        "egyptians"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zipper",
+      "tier": "power",
+      "t": "A zipper’s slider uses small wedges to push its teeth together and pry them apart",
+      "k": [
+        "zipper",
+        "slider"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The group, not one",
+    "body": "These tossups ask for the whole group, so naming one member, like “lever” or “pulley,” is wrong even if the clue you buzzed on was about that one device. Real quiz bowl also writes separate tossups on single machines (the lever, the pulley, the screw, the inclined plane), so the giveaway decides: “these six devices” means the group, while “this device” wants just one. Torque and mechanical advantage are related answers too.",
+    "fix": "If the question says “these devices” or lists several (lever, pulley, wedge…), say “simple machines.” If it says “this device” with a fulcrum or three classes, say “lever”; a rope over a grooved wheel, “pulley”; a ramp, “inclined plane”; threads and pitch, “screw.” For “output force divided by input force,” say “mechanical advantage.”",
+    "line": "Real answer line: <b><u>simple machines</u></b> (accept <u>simple machine</u>; prompt on <u>machines</u>; do not accept a single machine such as “lever” or “pulley”)"
+  },
+  "tests": {
+    "right": [
+      "Simple machines",
+      "simple machine",
+      "Simpel machines",
+      "The six simple machines"
+    ],
+    "prompt": [
+      "Machines",
+      "machine"
+    ],
+    "wrong": [
+      "Lever",
+      "Pulley",
+      "Inclined plane",
+      "Compound machine",
+      "Mechanical advantage",
+      "Torque"
+    ]
+  }
+}

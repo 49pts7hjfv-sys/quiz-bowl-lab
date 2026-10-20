@@ -1,0 +1,360 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "washington-dc",
+    "name": "Washington, D.C.",
+    "mono": "DC",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Capital of the United States since 1800 · Federal district on the Potomac",
+    "dates": "Capital since 1800",
+    "briefing": "Washington, D.C., is the capital of the United States, but it is not part of any state. The Residence Act of 1790 put the capital on the Potomac River, George Washington picked the exact spot, and Pierre L’Enfant designed a city of wide avenues, while Benjamin Banneker helped survey its borders. The government moved there in 1800, and British troops burned the Capitol and the White House during the War of 1812.",
+    "answerHtml": "<b><u>Washington</u></b>, D.C. (accept <u>District of Columbia</u> or <u>D.C.</u>; do not accept “Washington State” or “George Washington”)",
+    "accept": [
+        "washington",
+        "washington dc",
+        "washington d c",
+        "district of columbia",
+        "washington district of columbia",
+        "dc",
+        "d c",
+        "washington city",
+        "city of washington"
+    ],
+    "prompt": [
+        "district",
+        "columbia",
+        "federal city"
+    ],
+    "reject": [
+        "george washington",
+        "washington irving",
+        "booker t washington",
+        "martha washington",
+        "washington state",
+        "state of washington",
+        "washington territory",
+        "washington monument",
+        "mount washington",
+        "seattle",
+        "olympia",
+        "philadelphia",
+        "baltimore",
+        "new york city",
+        "arlington",
+        "alexandria",
+        "georgetown",
+        "maryland",
+        "virginia",
+        "potomac river",
+        "united states capitol",
+        "white house",
+        "smithsonian institution",
+        "pentagon"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Washington,_D.C.",
+    "qb": {
+        "q": "Washington, D.C.",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The Residence Act of 1790 called for building this city along the Potomac River. Its location came out of a deal made at a dinner hosted by Thomas Jefferson, in which Alexander Hamilton won Southern votes for his plan to take over the states’ war debts.",
+            "r": "Philadelphia served as the temporary capital until the government moved here in 1800. For 10 points, name this capital city of the United States."
+        },
+        {
+            "p": "A French-born engineer who had fought in the Continental Army drew this city’s plan of wide avenues cutting diagonally across a grid, but he was fired in 1792 after clashing with officials. In 1909, his remains were reburied at Arlington National Cemetery on a hill overlooking this city.",
+            "r": "That engineer was Pierre L’Enfant [“lahn-FAHN”]. For 10 points, name this capital city on the Potomac River."
+        },
+        {
+            "p": "A self-taught astronomer who later sent Thomas Jefferson a copy of his almanac, along with a letter challenging Jefferson’s views on race, helped Andrew Ellicott survey this city’s borders in 1791. Many of the boundary stones from that survey, set about a mile apart, still stand.",
+            "r": "That man was Benjamin Banneker. For 10 points, name this federal city laid out on land from Maryland and Virginia."
+        },
+        {
+            "p": "A day after enemy troops set fire to this city, a violent storm that included a tornado swept through it and helped put out the flames. Those troops had marched in after routing American militia at Bladensburg, Maryland, in August 1814.",
+            "r": "Dolley Madison had a famous portrait of the first president saved before the White House burned. For 10 points, name this city that British troops burned during the War of 1812."
+        },
+        {
+            "p": "Residents of this city first voted for president in 1964. A 1961 amendment gave this city electoral votes, but no more than the least populous state has, so it has three. Its delegate in the House cannot vote on final passage of bills.",
+            "r": "That amendment was the 23rd. For 10 points, name this federal district, the capital of the United States."
+        },
+        {
+            "p": "A British scientist who never visited the United States left his fortune to found an institution of learning in this city, and in 1904 Alexander Graham Bell brought that scientist’s remains here from Italy. That institution’s red sandstone “Castle” stands on the National Mall.",
+            "r": "That institution is the Smithsonian. For 10 points, name this capital city, home to the National Air and Space Museum."
+        },
+        {
+            "p": "In 1846, Congress gave back to Virginia the part of this capital’s original ten-mile square that lay across the Potomac, including the port of Alexandria. That land includes Arlington, where the Pentagon and Arlington National Cemetery were later built.",
+            "r": "For 10 points, name this federal district that originally took land from both Virginia and Maryland."
+        },
+        {
+            "p": "Every April 16, this city celebrates Emancipation Day, marking an 1862 law that freed enslaved people here about nine months before the Emancipation Proclamation. That law paid slaveholders who were loyal to the Union for each person freed.",
+            "r": "The Compromise of 1850 had already banned the slave trade, but not slavery, here. For 10 points, name this capital city."
+        },
+        {
+            "p": "Many license plates in this city carry a protest slogan about “taxation without representation,” because its residents pay federal taxes but have no voting member of Congress. The Home Rule Act of 1973 allowed its residents to elect a mayor and a council.",
+            "r": "For 10 points, name this federal district, the capital of the United States, which is not part of any state."
+        },
+        {
+            "p": "In 1912, the mayor of Tokyo, Yukio Ozaki, sent about three thousand cherry trees to this city, and First Lady Helen Taft planted one of the first two near the Tidal Basin. Each spring, a festival celebrates the blooming of those trees.",
+            "r": "Many of those trees stand near the Jefferson Memorial. For 10 points, name this U.S. capital, also home to the Lincoln Memorial."
+        },
+        {
+            "p": "Construction of an obelisk honoring the first president stopped for more than twenty years, so its marble changes color partway up. When it was finished in 1884, that obelisk in this city was the tallest structure in the world.",
+            "r": "It stands on the National Mall between the Capitol and the Lincoln Memorial. For 10 points, name this capital city."
+        },
+        {
+            "p": "Article One of the Constitution lets Congress rule a district “not exceeding ten miles square” as the seat of government. Thomas Jefferson’s 1801 inauguration was the first held in this city, and John Adams was the first president to live here.",
+            "r": "For 10 points, name this capital city of the United States, which is not part of any state."
+        },
+        {
+            "p": "An 1871 law merged this city with Georgetown into a single territorial government, and Alexander “Boss” Shepherd then paved streets and built sewers so quickly that the government ran up huge debts. Congress ended that territorial government in 1874.",
+            "r": "For 10 points, name this capital city on the Potomac River, whose government Congress controls."
+        },
+        {
+            "p": "Frederick Douglass spent his last years at Cedar Hill, a house in this city’s Anacostia neighborhood. Bills to make most of this city a state named partly for Douglass passed the House of Representatives in 2020 and 2021 but did not pass the Senate.",
+            "r": "For 10 points, name this federal district, which has three electoral votes under the 23rd Amendment."
+        },
+        {
+            "p": "After the Library of Congress burned in 1814, Thomas Jefferson sold his collection of more than six thousand books to restart it. The library’s oldest building, which is named for Jefferson, stands across the street from the Capitol in this city.",
+            "r": "For 10 points, name this city where Pennsylvania Avenue links the Capitol and the White House."
+        }
+    ],
+    "clues": [
+        {
+            "id": "us-capital",
+            "tier": "giveaway",
+            "t": "Capital of the United States since 1800; a federal district that is not part of any state",
+            "k": ["capital", "federal district", "1800"],
+            "n": 0
+        },
+        {
+            "id": "potomac",
+            "tier": "giveaway",
+            "t": "Built on the Potomac River, on land that came from Maryland and Virginia",
+            "k": ["potomac", "maryland", "virginia"],
+            "n": 0,
+            "rabbit": "Potomac River"
+        },
+        {
+            "id": "landmarks",
+            "tier": "giveaway",
+            "t": "Home of the White House, the Capitol, the Lincoln Memorial, and the National Mall",
+            "k": ["white house", "capitol", "national mall", "lincoln memorial"],
+            "n": 0,
+            "rabbit": "United States Capitol"
+        },
+        {
+            "id": "first-president",
+            "tier": "giveaway",
+            "t": "Named for the first president, who chose its exact site",
+            "k": ["first president", "named"],
+            "n": 0,
+            "rabbit": "George Washington"
+        },
+        {
+            "id": "burned-1814",
+            "tier": "giveaway",
+            "t": "British troops burned the Capitol and the White House here in August 1814, during the War of 1812",
+            "k": ["1814", "burned", "war of 1812"],
+            "n": 0,
+            "rabbit": "War of 1812"
+        },
+        {
+            "id": "residence-act",
+            "tier": "middle",
+            "t": "The Residence Act of 1790 put the capital on the Potomac; Philadelphia was the temporary capital until 1800",
+            "k": ["residence act", "1790", "philadelphia"],
+            "n": 0
+        },
+        {
+            "id": "lenfant",
+            "tier": "middle",
+            "t": "French-born engineer Pierre L’Enfant designed its plan of wide diagonal avenues across a grid (1791)",
+            "k": ["l’enfant", "lenfant", "diagonal avenues", "grid"],
+            "n": 0
+        },
+        {
+            "id": "banneker",
+            "tier": "middle",
+            "t": "Benjamin Banneker, a free Black astronomer, helped Andrew Ellicott survey its boundaries (1791)",
+            "k": ["banneker", "ellicott", "survey"],
+            "n": 0
+        },
+        {
+            "id": "23rd-amendment",
+            "tier": "middle",
+            "t": "The 23rd Amendment (1961) gave it three electoral votes; residents first voted for president in 1964",
+            "k": ["23rd amendment", "1961", "1964", "electoral votes"],
+            "n": 0
+        },
+        {
+            "id": "smithsonian",
+            "tier": "middle",
+            "t": "Home of the Smithsonian Institution, founded in 1846 with money left by British scientist James Smithson",
+            "k": ["smithsonian", "james smithson", "1846"],
+            "n": 0,
+            "rabbit": "Smithsonian Institution"
+        },
+        {
+            "id": "compromise-1790",
+            "tier": "middle",
+            "t": "Its location came from a dinner deal among Hamilton, Jefferson, and Madison: Southern votes for Hamilton’s debt plan (Compromise of 1790)",
+            "k": ["compromise of 1790", "hamilton", "dinner"],
+            "n": 0
+        },
+        {
+            "id": "no-vote",
+            "tier": "middle",
+            "t": "Its residents have no voting member of Congress, only a House delegate who cannot vote on final passage of bills",
+            "k": ["delegate", "voting member", "congress"],
+            "n": 0
+        },
+        {
+            "id": "first-inauguration",
+            "tier": "middle",
+            "t": "Thomas Jefferson’s 1801 inauguration was the first held here; John Adams was the first president to live here",
+            "k": ["1801", "inauguration", "john adams"],
+            "n": 0
+        },
+        {
+            "id": "bladensburg",
+            "tier": "power",
+            "t": "British troops marched in after routing militia at Bladensburg, Maryland; a storm with a tornado struck the next day",
+            "k": ["bladensburg", "tornado", "storm"],
+            "n": 0
+        },
+        {
+            "id": "lenfant-fired",
+            "tier": "power",
+            "t": "L’Enfant was fired in 1792 and reburied at Arlington National Cemetery in 1909",
+            "k": ["1792", "arlington", "1909"],
+            "n": 0
+        },
+        {
+            "id": "boundary-stones",
+            "tier": "power",
+            "t": "Banneker later sent Jefferson his almanac with a letter challenging Jefferson’s views on race; many boundary stones from the survey survive",
+            "k": ["almanac", "boundary stones", "letter"],
+            "n": 0
+        },
+        {
+            "id": "retrocession",
+            "tier": "power",
+            "t": "In 1846, Congress gave the land across the Potomac, including Alexandria and Arlington, back to Virginia (retrocession)",
+            "k": ["retrocession", "alexandria", "1846"],
+            "n": 0
+        },
+        {
+            "id": "emancipation-day",
+            "tier": "power",
+            "t": "Emancipation Day (April 16) marks an 1862 law that freed enslaved people here about nine months before the Emancipation Proclamation",
+            "k": ["emancipation day", "april 16", "1862"],
+            "n": 0
+        },
+        {
+            "id": "slave-trade-1850",
+            "tier": "power",
+            "t": "The Compromise of 1850 banned the slave trade, but not slavery, in the capital",
+            "k": ["compromise of 1850", "slave trade"],
+            "n": 0
+        },
+        {
+            "id": "home-rule",
+            "tier": "power",
+            "t": "The Home Rule Act of 1973 lets residents elect a mayor and council; license plates protest “taxation without representation”",
+            "k": ["home rule", "1973", "taxation without representation"],
+            "n": 0
+        },
+        {
+            "id": "smithson-bell",
+            "tier": "power",
+            "t": "Alexander Graham Bell brought James Smithson’s remains from Italy in 1904; the Smithsonian “Castle” is red sandstone",
+            "k": ["alexander graham bell", "1904", "castle"],
+            "n": 0
+        },
+        {
+            "id": "cherry-trees",
+            "tier": "power",
+            "t": "Tokyo mayor Yukio Ozaki sent about 3,000 cherry trees in 1912; Helen Taft planted one of the first near the Tidal Basin",
+            "k": ["cherry trees", "ozaki", "tidal basin", "helen taft"],
+            "n": 0
+        },
+        {
+            "id": "obelisk",
+            "tier": "power",
+            "t": "Its obelisk to the first president changes color partway up because building stopped for over 20 years; finished in 1884, it was the world’s tallest structure",
+            "k": ["obelisk", "1884", "tallest"],
+            "n": 0
+        },
+        {
+            "id": "ten-miles-square",
+            "tier": "power",
+            "t": "Article One of the Constitution lets Congress govern a district “not exceeding ten miles square”",
+            "k": ["article one", "ten miles square"],
+            "n": 0
+        },
+        {
+            "id": "shepherd",
+            "tier": "power",
+            "t": "An 1871 law merged it with Georgetown; Alexander “Boss” Shepherd’s spending led Congress to end the territorial government in 1874",
+            "k": ["georgetown", "shepherd", "1871", "1874"],
+            "n": 0
+        },
+        {
+            "id": "statehood",
+            "tier": "power",
+            "t": "Frederick Douglass lived at Cedar Hill in Anacostia; statehood bills naming a state partly for him passed the House in 2020 and 2021",
+            "k": ["cedar hill", "anacostia", "statehood"],
+            "n": 0
+        },
+        {
+            "id": "library",
+            "tier": "power",
+            "t": "Thomas Jefferson sold his books to restart the Library of Congress after the 1814 fire",
+            "k": ["library of congress", "jefferson", "books"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "City, state, or president?",
+        "body": "Three different answer lines share this name: George Washington, Washington, D.C., and Washington State. Clues about the Potomac River, L’Enfant’s street plan, the Smithsonian, or the 23rd Amendment want the city; Seattle, Mount Rainier, or Olympia mean the state; and clues about the first president’s life mean George Washington. Arlington National Cemetery and the Pentagon are across the river in Virginia, not in the city.",
+        "fix": "Listen for “this city,” “this district,” or “this capital.” For the city, “Washington” alone is fine, but if you add anything, make it “D.C.” or “District of Columbia,” never “State.”",
+        "line": "Real answer line: <b><u>Washington</u></b>, D.C. (accept <u>District of Columbia</u>; do not accept “Washington State” or “George Washington”)"
+    },
+    "tests": {
+        "right": [
+            "Washington, D.C.",
+            "Washington",
+            "District of Columbia",
+            "DC",
+            "Washingtn DC"
+        ],
+        "prompt": [
+            "District",
+            "Columbia"
+        ],
+        "wrong": [
+            "George Washington",
+            "Washington State",
+            "Philadelphia",
+            "Arlington",
+            "Washington Monument",
+            "Baltimore"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -44,7 +44,8 @@
     "mount arafat",
     "mina",
     "muzdalifah",
-    "hira"
+    "hira",
+    "pilgrimage"
   ],
   "media": [],
   "mediaPending": true,
@@ -65,7 +66,7 @@
     },
     {
       "p": "A short chapter of the Quran called “The Elephant” is traditionally linked to an army led by Abraha [“uh-BRAH-hah”], a ruler of Yemen, that marched on this city with at least one elephant but was turned back, according to Muslim tradition, by flocks of birds.",
-      "r": "Muhammad was born in this city in that “Year of the Elephant.” For 10 points, name this city, home of the Kaaba."
+      "r": "Tradition says Muhammad was born in this city in that “Year of the Elephant.” For 10 points, name this city, home of the Kaaba."
     },
     {
       "p": "The Abraj Al Bait [“AHB-rahj al-BAYT”] towers rise over this city, and their central clock tower, finished in 2012, is one of the tallest buildings in the world and has the world’s largest clock faces. Those towers overlook the Masjid al-Haram [“MAS-jid al-hah-RAHM”], the largest mosque on Earth.",
@@ -84,7 +85,7 @@
       "r": "A niche called a mihrab in each mosque points toward this city. For 10 points, name this city, the destination of the Hajj."
     },
     {
-      "p": "Muslims believe the first verses of the Quran were revealed to Muhammad in the cave of Hira [“hih-RAH”], on the Mountain of Light, or Jabal al-Nour [“JAH-bal an-NOOR”], which rises on the edge of this city. That revelation came around the year 610.",
+      "p": "Muslims believe the first verses of the Quran were revealed to Muhammad in the cave of Hira [“hih-RAH”], on the Mountain of Light, or Jabal al-Nour [“JAH-bal an-NOOR”], which rises on the edge of this city. Tradition dates that revelation to around the year 610.",
       "r": "Muhammad was born in this city around 570 and later left it for Medina. For 10 points, name this city."
     },
     {
@@ -104,12 +105,12 @@
       "r": "Islam asks every Muslim who is able to make a pilgrimage here once in a lifetime. For 10 points, name this holiest city of Islam."
     },
     {
-      "p": "This city lies in a narrow valley among rocky hills in the Hejaz [“heh-JAHZ”] region. Most pilgrims reach it through Jeddah, a Red Sea port about 70 kilometers to the west, and highway signs direct non-Muslims away from it.",
+      "p": "This city lies in a narrow valley among rocky hills in the Hejaz [“heh-JAHZ”] region. Many pilgrims reach it through Jeddah, a Red Sea port about 70 kilometers to the west, and highway signs direct non-Muslims away from it.",
       "r": "Huge crowds come here each year for the Hajj. For 10 points, name this city where Muhammad was born."
     },
     {
-      "p": "A chapter of the Quran called “The Night Journey” opens by praising God, who carried His servant by night from the Sacred Mosque in this city to the Farthest Mosque, which Muslims identify with Jerusalem.",
-      "r": "Muhammad, that servant, was born in this city. For 10 points, name this city where the Kaaba stands."
+      "p": "A chapter of the Quran called “The Night Journey” opens by praising God, who carried his servant by night from the Sacred Mosque in this city to the Farthest Mosque, which Muslims identify with Jerusalem.",
+      "r": "That servant, understood to be Muhammad, was born in this city. For 10 points, name this city where the Kaaba stands."
     },
     {
       "p": "According to tradition, Muhammad’s grandfather Abd al-Muttalib [“AHB-dul moo-TAH-lib”], a leader of this city’s Quraysh [“koo-RAYSH”] tribe, dug out a long-lost well there. Muslims believe that well, Zamzam [“ZAHM-zahm”], first appeared in the desert to save Hagar and her baby, Ishmael.",
@@ -213,7 +214,7 @@
     {
       "id": "quraysh",
       "tier": "middle",
-      "t": "The Quraysh tribe controlled its trade and opposed Muhammad’s early preaching",
+      "t": "The Quraysh tribe controlled its trade, and its leaders opposed Muhammad’s early preaching",
       "k": [
         "quraysh",
         "trade"
@@ -298,7 +299,7 @@
     {
       "id": "elephant",
       "tier": "power",
-      "t": "Year of the Elephant: Abraha of Yemen marched on it with an elephant, remembered in the Quran’s chapter “The Elephant”",
+      "t": "Year of the Elephant: Abraha of Yemen marched on it with an elephant, an event tradition links to the Quran’s chapter “The Elephant”",
       "k": [
         "abraha",
         "year of the elephant",
@@ -362,7 +363,7 @@
     {
       "id": "night-journey",
       "tier": "power",
-      "t": "Quran chapter 17, “The Night Journey”: God carried Muhammad by night from its Sacred Mosque to the Farthest Mosque (Jerusalem)",
+      "t": "Quran chapter 17, “The Night Journey,” tells how God carried his servant (Muhammad) by night from its Sacred Mosque to the Farthest Mosque, identified with Jerusalem",
       "k": [
         "night journey",
         "sacred mosque",
@@ -417,7 +418,7 @@
     {
       "id": "jeddah-hejaz",
       "tier": "power",
-      "t": "It lies in a narrow valley in the Hejaz region; pilgrims arrive through Jeddah, a Red Sea port about 70 km west",
+      "t": "It lies in a narrow valley in the Hejaz region; many pilgrims arrive through Jeddah, a Red Sea port about 70 km west",
       "k": [
         "hejaz",
         "jeddah",
@@ -449,7 +450,8 @@
       "Masjid al-Haram",
       "Jerusalem",
       "Jeddah",
-      "Great Mosque of Mecca"
+      "Great Mosque of Mecca",
+      "Pilgrimage to Mecca"
     ]
   }
 }

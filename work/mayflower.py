@@ -82,7 +82,7 @@ data = {
             "r": "For 10 points, name this ship that brought the Pilgrims to the New World, where they founded Plymouth Colony."
         },
         {
-            "p": "Peregrine White, the first English child born in New England, was born aboard this ship in November 1620 while it lay at anchor in what is now Provincetown Harbor. His mother, Susanna, was widowed that winter and then married Edward Winslow in the colony’s first wedding.",
+            "p": "Peregrine White, the first English child born in New England, was born aboard this ship in November 1620 while it lay at anchor off present-day Provincetown. His mother, Susanna, was widowed that winter and then married Edward Winslow in the colony’s first wedding.",
             "r": "For 10 points, name this ship whose passengers went on to found Plymouth Colony in Massachusetts."
         },
         {
@@ -264,7 +264,7 @@ data = {
         {
             "id": "provincetown",
             "tier": "power",
-            "t": "First anchored in what is now Provincetown Harbor; a granite tower, the Pilgrim Monument (1910), honors the spot",
+            "t": "First anchored off present-day Provincetown; a granite tower, the Pilgrim Monument (1910), honors the spot",
             "k": ["provincetown", "pilgrim monument", "1910"],
             "n": 0
         },

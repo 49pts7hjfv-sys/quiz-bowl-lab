@@ -105,7 +105,7 @@ data = {
             "r": "He led it until his death in 1972. For 10 points, name this agency run for decades by J. Edgar Hoover."
         },
         {
-            "p": "Agent Melvin Purvis led a team from this agency that tracked down the bank robber John Dillinger outside Chicago’s Biograph Theater in 1934, where Dillinger was killed. Dillinger had been named “Public Enemy Number One.”",
+            "p": "Agent Melvin Purvis led a team from this agency that tracked down the bank robber John Dillinger outside Chicago’s Biograph Theater in 1934, where Dillinger was killed. The Justice Department had called Dillinger “Public Enemy Number One.”",
             "r": "This agency’s agents were nicknamed “G-men.” For 10 points, name this federal agency led by J. Edgar Hoover."
         },
         {
@@ -200,7 +200,7 @@ data = {
         {
             "id": "dillinger",
             "tier": "middle",
-            "t": "In 1934, agents led by Melvin Purvis tracked down bank robber John Dillinger, “Public Enemy Number One,” at Chicago’s Biograph Theater",
+            "t": "In 1934, agents led by Melvin Purvis tracked down bank robber John Dillinger, whom the Justice Department called “Public Enemy Number One,” at Chicago’s Biograph Theater",
             "k": ["dillinger", "purvis", "biograph", "public enemy"],
             "n": 0,
             "rabbit": "John Dillinger"

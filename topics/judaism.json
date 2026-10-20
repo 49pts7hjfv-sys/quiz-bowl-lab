@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "Monotheistic faith of the Torah · Synagogues, Sabbath, and Talmud",
   "dates": "Roots more than 3,000 years old",
-  "briefing": "Judaism is the oldest of the three Abrahamic religions, which all worship one God. Jews trace their faith to God’s covenant with Abraham and to the Torah, which tradition says Moses received on Mount Sinai. Every week, many Jewish families welcome the Sabbath on Friday evening with candles, blessings over wine and braided challah bread, and a day of rest that lasts until Saturday night.",
+  "briefing": "Judaism is the oldest of the three major Abrahamic religions, which all worship one God. Jews trace their faith to God’s covenant with Abraham and to the Torah, which tradition says Moses received on Mount Sinai. Every week, many Jewish families welcome the Sabbath on Friday evening with candles, blessings over wine and braided challah bread, and a day of rest that lasts until Saturday night.",
   "answerHtml": "<b><u>Judaism</u></b> (accept <u>Jew</u>s or <u>Jewish</u> faith; do not accept “Hebrew” or “Torah”)",
   "accept": [
     "judaism",
@@ -40,7 +40,12 @@
     "jews for jesus",
     "yiddish",
     "judea",
-    "judah"
+    "judah",
+    "jewish new year",
+    "festival of lights",
+    "passover",
+    "jain",
+    "jainism"
   ],
   "media": [],
   "mediaPending": true,
@@ -73,7 +78,7 @@
     },
     {
       "p": "In the 1700s, Israel ben Eliezer, known as the Baal Shem Tov [“BAHL shem TOHV”], founded the Hasidic [“huh-SID-ik”] movement in this religion in Eastern Europe, teaching that joyful prayer, song, and sincere devotion matter as much as scholarship.",
-      "r": "Other branches of this religion include Orthodox, Conservative, and Reform. For 10 points, name this religion of the Torah."
+      "r": "Its major branches include Orthodox, Conservative, and Reform. For 10 points, name this religion of the Torah."
     },
     {
       "p": "This religion’s Bible is called the Tanakh [“tah-NAHK”], a name formed from the Hebrew first letters of its three parts: the Law, the Prophets (Nevi’im), and the Writings (Ketuvim). Its books are traditionally counted as 24.",
@@ -430,7 +435,9 @@
       "Christianity",
       "Islam",
       "Kabbalah",
-      "Talmud"
+      "Talmud",
+      "Jewish New Year",
+      "Jain religion"
     ]
   }
 }

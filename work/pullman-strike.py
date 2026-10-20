@@ -1,0 +1,351 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "pullman-strike",
+    "name": "Pullman Strike",
+    "mono": "PUL",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1894 railroad strike led by Eugene V. Debs · Ended by federal troops",
+    "dates": "1894",
+    "briefing": "During an economic depression in 1893 and 1894, the Pullman Palace Car Company, which built fancy railroad sleeping cars, cut its workers’ wages but refused to lower the rents they paid to live in the company town it had built on Chicago’s South Side. When the workers walked out, Eugene V. Debs’s American Railway Union refused to handle trains carrying Pullman cars, and rail traffic stalled across much of the country. President Grover Cleveland sent federal troops, and the strike collapsed.",
+    "answerHtml": "<b><u>Pullman</u></b> Strike (or <u>Pullman</u> Boycott; prompt on <u>railroad strike</u>; do not accept “Haymarket Affair” or “Homestead Strike”)",
+    "accept": [
+        "pullman strike",
+        "pullman",
+        "pullman boycott",
+        "great pullman strike",
+        "pullman railroad strike",
+        "pullman rail strike",
+        "pullman strike of 1894",
+        "1894 pullman strike"
+    ],
+    "prompt": [
+        "railroad strike",
+        "railway strike",
+        "rail strike",
+        "railroad strike of 1894",
+        "1894 railroad strike"
+    ],
+    "reject": [
+        "haymarket affair",
+        "haymarket",
+        "haymarket riot",
+        "haymarket square riot",
+        "homestead strike",
+        "homestead",
+        "great railroad strike",
+        "great railroad strike of 1877",
+        "railroad strike of 1877",
+        "anthracite coal strike",
+        "coal strike of 1902",
+        "lawrence textile strike",
+        "bread and roses strike",
+        "ludlow massacre",
+        "triangle shirtwaist fire",
+        "eugene v debs",
+        "eugene debs",
+        "debs",
+        "american railway union",
+        "in re debs",
+        "coxeys army",
+        "panic of 1893",
+        "george pullman",
+        "george m pullman",
+        "pullman company",
+        "pullman palace car company",
+        "pullman car",
+        "pullman cars",
+        "pullman porter",
+        "pullman porters",
+        "brotherhood of sleeping car porters",
+        "sherman antitrust act",
+        "grover cleveland",
+        "labor day"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Pullman_Strike",
+    "qb": {
+        "q": "Pullman",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Jane Addams compared the businessman at the center of this event to Shakespeare’s King Lear in her essay “A Modern Lear.” She had tried to help settle this dispute, which began after that man’s company cut its workers’ wages without lowering their rents.",
+            "r": "For 10 points, name this 1894 railroad strike led by Eugene V. Debs and his American Railway Union."
+        },
+        {
+            "p": "In the 1895 case _In re Debs_, the Supreme Court unanimously upheld the use of a federal court order to end this strike. Clarence Darrow defended the union leader who was jailed for ignoring that order.",
+            "r": "For 10 points, name this 1894 strike against a company that built railroad sleeping cars."
+        },
+        {
+            "p": "Illinois governor John Peter Altgeld, who had pardoned three men convicted after the Haymarket affair, protested when the president sent federal troops to Chicago during this strike. The president said the troops were needed to keep the U.S. mail moving.",
+            "r": "That president was Grover Cleveland. For 10 points, name this 1894 strike against a railroad car company."
+        },
+        {
+            "p": "Attorney General Richard Olney, a former railroad lawyer, won a court order against the leaders of this strike, arguing that they were blocking the mail and interstate commerce. That order relied partly on the Sherman Antitrust Act.",
+            "r": "Federal troops arrived in Chicago soon after. For 10 points, name this 1894 railroad strike led by Eugene V. Debs."
+        },
+        {
+            "p": "The town at the center of this event had its own church, library, and a hotel named for the company founder’s daughter, Florence, but workers could only rent their homes from the company. When business slowed in 1893, the company cut wages but did not lower rents.",
+            "r": "For 10 points, name this 1894 strike that began among workers who built railroad sleeping cars."
+        },
+        {
+            "p": "Over the objections of its president, the union that led this strike voted in 1894 to keep Black workers out of its membership. Earlier that year, the same union had won a strike against James J. Hill’s Great Northern Railway.",
+            "r": "That union was the American Railway Union. For 10 points, name this strike led by Eugene V. Debs."
+        },
+        {
+            "p": "While serving six months in a jail in Woodstock, Illinois, for his role in this strike, a union leader read socialist writings. He later ran for president five times as a socialist, once while he was in prison.",
+            "r": "That leader was Eugene V. Debs. For 10 points, name this 1894 strike against a railroad car company."
+        },
+        {
+            "p": "A federal commission led by Carroll Wright investigated this strike and criticized the company at its center for refusing to settle the dispute through arbitration. That same year, Congress made Labor Day a national holiday.",
+            "r": "President Grover Cleveland sent federal troops to Chicago to end this strike. For 10 points, name this 1894 railroad strike."
+        },
+        {
+            "p": "During the hard times that followed the Panic of 1893, a company that built luxurious railroad sleeping cars cut its workers’ pay but kept charging the same rent for the company-owned houses they lived in.",
+            "r": "Its workers walked out in May 1894. For 10 points, name this strike, which spread across the nation’s railroads when Eugene V. Debs’s union joined it."
+        },
+        {
+            "p": "During this strike, a group of railroad executives called the General Managers’ Association had mail cars attached to trains carrying sleeping cars, so that stopping those trains would interfere with the U.S. mail.",
+            "r": "For 10 points, name this 1894 strike that began among workers who built sleeping cars in Chicago."
+        },
+        {
+            "p": "Meeting in Chicago in July 1894, Samuel Gompers and other leaders of the American Federation of Labor refused to call a general strike in support of this strike, which collapsed after its leaders were arrested.",
+            "r": "Its leader, Eugene V. Debs, headed the American Railway Union. For 10 points, name this 1894 strike against a maker of railroad sleeping cars."
+        },
+        {
+            "p": "In 1898, four years after this strike, the Illinois Supreme Court ruled that running a town was beyond the powers of the company at the strike’s center and ordered it to sell the homes it owned. That company’s founder had died the year before.",
+            "r": "For 10 points, name this 1894 strike that Grover Cleveland sent federal troops to break."
+        },
+        {
+            "p": "In 2015, Barack Obama made part of the neighborhood where this strike began into a national monument. That neighborhood on Chicago’s South Side had been a company town, where workers had to rent their homes from their employer.",
+            "r": "For 10 points, name this 1894 strike led by Eugene V. Debs’s American Railway Union."
+        },
+        {
+            "p": "The same spring that Jacob Coxey led a march of unemployed men to Washington, D.C., workers at a sleeping-car factory in Chicago began this strike. It spread nationwide that summer when their new union refused to handle the company’s cars.",
+            "r": "For 10 points, name this 1894 strike led by Eugene V. Debs and broken by federal troops."
+        },
+        {
+            "p": "Starting on June 26, 1894, after the company refused to arbitrate, a union ordered its members not to handle any train that pulled the company’s sleeping cars, and the boycott soon stopped traffic on many rail lines west of Chicago.",
+            "r": "For 10 points, name this 1894 strike, which President Grover Cleveland ended by sending federal troops."
+        }
+    ],
+    "clues": [
+        {
+            "id": "railroad-1894",
+            "tier": "giveaway",
+            "t": "Nationwide railroad strike and boycott of 1894",
+            "k": ["railroad", "1894", "boycott"],
+            "n": 0
+        },
+        {
+            "id": "debs-aru",
+            "tier": "giveaway",
+            "t": "Led by Eugene V. Debs and his American Railway Union",
+            "k": ["american railway union", "debs", "eugene v debs"],
+            "n": 0
+        },
+        {
+            "id": "cleveland-troops",
+            "tier": "giveaway",
+            "t": "President Grover Cleveland sent federal troops to Chicago to end it",
+            "k": ["grover cleveland", "cleveland", "federal troops", "chicago"],
+            "n": 0,
+            "rabbit": "Grover Cleveland"
+        },
+        {
+            "id": "sleeping-cars",
+            "tier": "giveaway",
+            "t": "Began among workers who built railroad sleeping cars in a company town on Chicago’s South Side",
+            "k": ["sleeping cars", "company town", "south side"],
+            "n": 0,
+            "rabbit": "Chicago"
+        },
+        {
+            "id": "wages-rents",
+            "tier": "middle",
+            "t": "Cause: in the hard times after the Panic of 1893, the company cut wages but did not lower rents",
+            "k": ["panic of 1893", "wages", "rents"],
+            "n": 0
+        },
+        {
+            "id": "in-re-debs",
+            "tier": "middle",
+            "t": "_In re Debs_ (1895): the Supreme Court unanimously upheld the court order used to end the strike",
+            "k": ["in re debs", "supreme court", "unanimously"],
+            "n": 0
+        },
+        {
+            "id": "injunction-jail",
+            "tier": "middle",
+            "t": "Debs went to jail for ignoring the court order (an injunction) and became a socialist",
+            "k": ["injunction", "jail", "socialist"],
+            "n": 0
+        },
+        {
+            "id": "mail",
+            "tier": "middle",
+            "t": "Cleveland said troops were needed to keep the U.S. mail and interstate commerce moving",
+            "k": ["interstate commerce", "mail"],
+            "n": 0
+        },
+        {
+            "id": "labor-day",
+            "tier": "middle",
+            "t": "That same year (1894), Congress made Labor Day a national holiday, and Cleveland signed the law",
+            "k": ["labor day", "holiday"],
+            "n": 0
+        },
+        {
+            "id": "altgeld",
+            "tier": "middle",
+            "t": "Illinois governor John Peter Altgeld protested the use of federal troops",
+            "k": ["john peter altgeld", "altgeld", "governor"],
+            "n": 0
+        },
+        {
+            "id": "olney",
+            "tier": "middle",
+            "t": "Attorney General Richard Olney got the court order, partly under the Sherman Antitrust Act",
+            "k": ["richard olney", "olney", "sherman antitrust"],
+            "n": 0,
+            "rabbit": "Sherman Antitrust Act"
+        },
+        {
+            "id": "boycott",
+            "tier": "middle",
+            "t": "The union refused to handle any train pulling the company’s cars, stopping traffic on many lines west of Chicago",
+            "k": ["refused to handle", "west of chicago"],
+            "n": 0
+        },
+        {
+            "id": "addams",
+            "tier": "power",
+            "t": "Jane Addams compared the company’s founder to King Lear in her essay “A Modern Lear”",
+            "k": ["jane addams", "addams", "modern lear", "king lear"],
+            "n": 0,
+            "rabbit": "King Lear"
+        },
+        {
+            "id": "darrow",
+            "tier": "power",
+            "t": "Clarence Darrow defended Debs",
+            "k": ["clarence darrow", "darrow"],
+            "n": 0,
+            "rabbit": "Scopes Trial"
+        },
+        {
+            "id": "woodstock",
+            "tier": "power",
+            "t": "Debs read socialist writings during six months in jail in Woodstock, Illinois, and later ran for president five times",
+            "k": ["woodstock", "six months", "five times"],
+            "n": 0
+        },
+        {
+            "id": "great-northern",
+            "tier": "power",
+            "t": "The American Railway Union had won a strike against James J. Hill’s Great Northern Railway earlier in 1894",
+            "k": ["great northern", "james j hill"],
+            "n": 0
+        },
+        {
+            "id": "excluded",
+            "tier": "power",
+            "t": "The American Railway Union voted to keep out Black workers, over Debs’s objection",
+            "k": ["black workers", "objection"],
+            "n": 0
+        },
+        {
+            "id": "gma",
+            "tier": "power",
+            "t": "The railroads’ General Managers’ Association had mail cars attached to trains carrying sleeping cars",
+            "k": ["general managers", "mail cars"],
+            "n": 0
+        },
+        {
+            "id": "gompers",
+            "tier": "power",
+            "t": "Samuel Gompers and the American Federation of Labor refused to call a general strike to support it",
+            "k": ["samuel gompers", "gompers", "general strike"],
+            "n": 0
+        },
+        {
+            "id": "haymarket-pardon",
+            "tier": "power",
+            "t": "Altgeld had pardoned three men convicted after the Haymarket affair (1893)",
+            "k": ["haymarket", "pardoned"],
+            "n": 0,
+            "rabbit": "Haymarket Affair"
+        },
+        {
+            "id": "wright-commission",
+            "tier": "power",
+            "t": "A federal commission led by Carroll Wright investigated and criticized the company for refusing to arbitrate",
+            "k": ["carroll wright", "arbitrate", "commission"],
+            "n": 0
+        },
+        {
+            "id": "court-1898",
+            "tier": "power",
+            "t": "In 1898, the Illinois Supreme Court ordered the company to sell the homes in its town; the founder had died in 1897",
+            "k": ["illinois supreme court", "1898", "1897"],
+            "n": 0
+        },
+        {
+            "id": "florence",
+            "tier": "power",
+            "t": "The company town had a hotel named for the founder’s daughter, Florence; part of it became a national monument in 2015",
+            "k": ["florence", "national monument", "2015"],
+            "n": 0
+        },
+        {
+            "id": "coxey",
+            "tier": "power",
+            "t": "Coxey’s Army of unemployed men marched to Washington the same spring",
+            "k": ["coxey", "unemployed", "washington"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Pullman, Haymarket, or Homestead?",
+        "body": "Three famous labor clashes of the late 1800s get mixed up. The Haymarket affair (1886, Chicago) began when a bomb exploded at a labor rally; the Homestead Strike (1892, Pennsylvania) was a fight at one of Andrew Carnegie’s steel mills, where Henry Clay Frick hired Pinkerton guards; and the Pullman Strike (1894) was a nationwide railroad boycott. The Great Railroad Strike of 1877 was an earlier rail strike.",
+        "fix": "Listen for the year and the names: Debs, the American Railway Union, sleeping cars, Grover Cleveland’s troops, and _In re Debs_ mean Pullman; Haymarket Square and anarchists mean Haymarket; Carnegie, Frick, and the Pinkertons mean Homestead; Rutherford B. Hayes and 1877 mean the Great Railroad Strike.",
+        "line": "Real answer line: <b><u>Pullman</u></b> Strike (or <u>Pullman</u> Boycott; do not accept “Haymarket Affair” or “Homestead Strike”)"
+    },
+    "tests": {
+        "right": [
+            "Pullman Strike",
+            "Pullman",
+            "Pullman Boycott",
+            "Pulman Strike",
+            "the Great Pullman Strike"
+        ],
+        "prompt": [
+            "railroad strike"
+        ],
+        "wrong": [
+            "Haymarket Affair",
+            "Homestead Strike",
+            "Great Railroad Strike of 1877",
+            "Eugene Debs",
+            "George Pullman",
+            "In re Debs",
+            "American Railway Union"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

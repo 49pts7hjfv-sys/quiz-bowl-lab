@@ -5,7 +5,7 @@
   "category": "Religion",
   "qbCategory": "Religion",
   "kicker": "New Testament history of the early Church · Pentecost and Paul’s journeys",
-  "dates": "Written late 1st century CE",
+  "dates": "Usually dated to the late 1st century CE",
   "briefing": "In the Acts of the Apostles, the fifth book of the New Testament, a rushing wind fills a room in Jerusalem and tongues of fire rest on Jesus’s followers, who begin speaking in languages they never learned. That scene, called Pentecost, launches the book’s story of the early Church spreading from Jerusalem toward Rome. Its second half follows Paul through riots, prison, and a shipwreck on Malta.",
   "answerHtml": "<b><u>Acts</u></b> of the Apostles (or Book of <u>Acts</u>; prompt on <u>Luke-Acts</u>)",
   "accept": [
@@ -51,7 +51,8 @@
     "gospel of matthew",
     "gospels",
     "epistles",
-    "hebrews"
+    "hebrews",
+    "reconstruction acts"
   ],
   "media": [],
   "mediaPending": true,
@@ -420,7 +421,7 @@
   "trap": {
     "title": "The book, not its heroes",
     "body": "Most clues follow Peter or Paul, so early buzzers name a person instead of the book. Others hear “by the author of Luke” or “addressed to Theophilus” and answer the Gospel of Luke, the first half of the same two-part work. Paul’s own letters, such as Romans and Galatians, are separate books.",
-    "fix": "If the question says “this book,” answer “Acts” (or “Acts of the Apostles”). Theophilus plus Jesus’s birth or parables means the Gospel of Luke; Theophilus plus the Ascension, Pentecost, Stephen, or Paul’s journeys means Acts.",
+    "fix": "If the question says “this book,” answer “Acts” (or “Acts of the Apostles”). Theophilus plus Jesus’s birth or parables means the Gospel of Luke; Theophilus plus Pentecost, Stephen, or Paul’s journeys means Acts.",
     "line": "Real answer line: <b><u>Acts</u></b> of the Apostles (or Book of <u>Acts</u>; prompt on <u>Luke-Acts</u>)"
   },
   "tests": {
@@ -442,7 +443,8 @@
       "Pentecost",
       "Romans",
       "Acts of Paul",
-      "Apostles"
+      "Apostles",
+      "Reconstruction Acts"
     ]
   }
 }

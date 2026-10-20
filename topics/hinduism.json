@@ -37,7 +37,11 @@
     "shiva",
     "brahma",
     "brahman",
-    "krishna"
+    "krishna",
+    "shinto",
+    "shintoism",
+    "festival of lights",
+    "new year"
   ],
   "media": [],
   "mediaPending": true,
@@ -69,7 +73,7 @@
       "r": "That text is the Katha Upanishad. For 10 points, name this religion whose gods include Brahma, Vishnu, and Shiva."
     },
     {
-      "p": "In a 700-verse poem sacred to this religion, the warrior Arjuna loses his nerve before a battle at Kurukshetra [“koo-roo-KSHAY-truh”], and his charioteer urges him to do his duty without worrying about the results. That charioteer reveals himself to be the god Krishna.",
+      "p": "In a 700-verse poem sacred to this religion, the warrior Arjuna loses his nerve before a battle at Kurukshetra [“koo-roo-KSHAY-truh”], and his charioteer urges him to do his duty without worrying about the results. That charioteer is the god Krishna, who later shows Arjuna his cosmic form.",
       "r": "That poem, the _Bhagavad Gita_, is part of the epic _Mahabharata_. For 10 points, name this religion of India."
     },
     {
@@ -77,7 +81,7 @@
       "r": "Rama and Krishna are also avatars of that god, Vishnu. For 10 points, name this religion whose holy river is the Ganges."
     },
     {
-      "p": "Tens of millions of followers of this religion gather for the Kumbh Mela [“KOOMB MAY-luh”], a festival of ritual bathing held in turn at four Indian cities. Its biggest gatherings are at Prayagraj [“pruh-YAHG-rahj”], where the Yamuna [“YUH-muh-nuh”] River joins a larger sacred river.",
+      "p": "Tens of millions of followers of this religion gather for the Kumbh Mela [“KOOMB MAY-luh”], a festival of ritual bathing held in turn at four Indian cities. Its biggest gatherings are at Prayagraj [“pruh-YAHG-rahj”], where the Yamuna [“YUH-muh-nuh”] River meets another sacred river.",
       "r": "That river, the Ganges, also flows past the holy city of Varanasi. For 10 points, name this religion of India."
     },
     {
@@ -85,7 +89,7 @@
       "r": "That god was Vishnu. For 10 points, name this religion followed by most people in India and Nepal."
     },
     {
-      "p": "Swami Vivekananda [“vih-VAY-kah-nun-duh”] introduced this religion to many Americans at the 1893 Parliament of the World’s Religions in Chicago, opening his first speech with “Sisters and brothers of America.” He later founded a mission named for his teacher, the mystic Ramakrishna.",
+      "p": "Swami Vivekananda [“vih-VAY-kah-nun-duh”] introduced this religion to many Americans at the 1893 World’s Parliament of Religions in Chicago, opening his first speech with “Sisters and brothers of America.” He later founded a mission named for his teacher, the mystic Ramakrishna.",
       "r": "This religion’s goddesses include Lakshmi and Durga. For 10 points, name this religion whose holy texts include the Vedas."
     },
     {
@@ -97,7 +101,7 @@
       "r": "That scripture is the Rig Veda. For 10 points, name this religion whose epics include the _Ramayana_."
     },
     {
-      "p": "This religion names four goals of human life: dharma, or duty; artha, or wealth; kama, or enjoyment; and moksha, or liberation. The last of those goals means escaping samsara [“sum-SAH-ruh”], the cycle of death and rebirth that is driven by karma.",
+      "p": "This religion names four goals of human life: dharma, or duty; artha, or wealth; kama, or enjoyment; and moksha, or liberation. The last of those goals means escaping samsara [“sum-SAH-ruh”], the cycle of death and rebirth that its followers believe is driven by karma.",
       "r": "Its followers worship at temples called mandirs. For 10 points, name this religion in which Brahma, Vishnu, and Shiva form the Trimurti."
     },
     {
@@ -224,7 +228,7 @@
     {
       "id": "avatars",
       "tier": "middle",
-      "t": "Vishnu’s ten avatars include Matsya the fish, Narasimha the man-lion, Rama, Krishna, and Kalki, who is yet to come",
+      "t": "Vishnu’s ten avatars include Matsya the fish, Narasimha the man-lion, Rama, Krishna, and Kalki, who believers say is yet to come",
       "k": [
         "avatars",
         "matsya",
@@ -341,7 +345,7 @@
     {
       "id": "shankara",
       "tier": "power",
-      "t": "Adi Shankara founded Advaita (“non-dual”) Vedanta, teaching that atman and Brahman are the same",
+      "t": "Adi Shankara, the most famous teacher of Advaita (“non-dual”) Vedanta, taught that atman and Brahman are the same",
       "k": [
         "shankara",
         "advaita",
@@ -409,7 +413,7 @@
     {
       "id": "vivekananda",
       "tier": "power",
-      "t": "Swami Vivekananda, a disciple of Ramakrishna, spoke at Chicago’s 1893 Parliament of the World’s Religions: “Sisters and brothers of America”",
+      "t": "Swami Vivekananda, a disciple of Ramakrishna, spoke at Chicago’s 1893 World’s Parliament of Religions: “Sisters and brothers of America”",
       "k": [
         "vivekananda",
         "ramakrishna",
@@ -463,7 +467,9 @@
       "Jainism",
       "Sikhism",
       "Vedanta",
-      "Vishnu"
+      "Vishnu",
+      "Shinto religion",
+      "Hindu festival of lights"
     ]
   }
 }
