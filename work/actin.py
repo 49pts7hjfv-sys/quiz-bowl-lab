@@ -129,8 +129,8 @@ data = {
             "r": "For 10 points, name this protein that myosin heads grab and pull to shorten a sarcomere."
         },
         {
-            "p": "Each globular unit of this protein holds a molecule of ATP or ADP, and many units link into a long, twisted filament in a process called polymerization. This protein is one of the most abundant proteins in many eukaryotic cells.",
-            "r": "For 10 points, name this protein that builds microfilaments and is the partner of myosin in muscles."
+            "p": "Each globular unit of this protein holds a molecule of ATP or ADP, and many units link into a long, twisted filament in a process called polymerization. The single-unit and filament forms of this protein are labeled with the letters G and F.",
+            "r": "It is one of the most abundant proteins in many eukaryotic cells. For 10 points, name this protein that builds microfilaments and is the partner of myosin in muscles."
         },
         {
             "p": "Sheetlike lamellipodia [“lam-uh-lih-POH-dee-uh”] and thin, fingerlike filopodia [“fy-loh-POH-dee-uh”] at the edge of a moving cell are pushed outward as filaments of this protein grow. The growth cones at the tips of developing nerve cells use those same structures to find their way.",
@@ -169,7 +169,7 @@ data = {
         },
         {
             "id": "globular-units",
-            "tier": "giveaway",
+            "tier": "middle",
             "t": "Single globular units (the “G” form), each holding ATP or ADP, link up into long, twisted filaments (the “F” form)",
             "k": ["globular", "twisted"],
             "n": 0

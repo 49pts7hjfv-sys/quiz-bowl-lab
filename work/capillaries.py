@@ -1,0 +1,371 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "capillaries",
+    "name": "Capillaries",
+    "mono": "CPL",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Smallest blood vessels · Walls one cell thick for exchange",
+    "dates": "First seen in 1661",
+    "briefing": "Capillaries are the body’s tiniest blood vessels, so narrow that red blood cells must squeeze through them in single file. Their walls are just one cell thick, which lets oxygen and nutrients slip out to body cells while carbon dioxide and wastes slip in. In 1661, Marcello Malpighi spotted them in a frog’s lung, finally showing how blood gets from arteries into veins.",
+    "answerHtml": "<b><u>Capillaries</u></b> (accept <u>capillary</u> or <u>capillary beds</u>; prompt on <u>blood vessels</u>; do not accept “arterioles,” “venules,” or “capillary action”)",
+    "accept": [
+        "capillaries",
+        "capillary",
+        "capillary bed",
+        "capillary beds",
+        "blood capillaries",
+        "blood capillary",
+        "capillary network",
+        "capillary networks"
+    ],
+    "prompt": [
+        "blood vessels",
+        "blood vessel",
+        "vessels",
+        "microvasculature",
+        "microvessels"
+    ],
+    "reject": [
+        "arteries",
+        "artery",
+        "arterioles",
+        "arteriole",
+        "veins",
+        "vein",
+        "venules",
+        "venule",
+        "aorta",
+        "vena cava",
+        "lymph vessels",
+        "lymphatic vessels",
+        "lymphatics",
+        "lymph capillaries",
+        "lymphatic capillaries",
+        "lacteals",
+        "lacteal",
+        "capillary action",
+        "capillarity",
+        "alveoli",
+        "villi",
+        "glomerulus",
+        "sinusoids",
+        "red blood cells"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Capillary",
+    "qb": {
+        "q": "capillaries",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Using an early microscope in 1661, Marcello Malpighi [“mal-PEE-ghee”] found these structures in the lungs of a frog, solving the mystery of how blood gets from arteries into veins. That discovery completed the theory of circulation that William Harvey had published in 1628 without ever seeing these structures.",
+            "r": "They link arterioles to venules. For 10 points, name these smallest blood vessels, whose walls are just one cell thick."
+        },
+        {
+            "p": "August Krogh won the 1920 Nobel Prize for showing that a resting muscle keeps many of these vessels closed but opens far more of them during exercise. Rings of smooth muscle called sphincters can shut off blood flow into a bed of these vessels.",
+            "r": "Their walls are only one cell thick. For 10 points, name these tiny vessels that link arterioles to venules."
+        },
+        {
+            "p": "Ernest Starling described in 1896 how blood pressure pushes fluid out through the walls of these vessels, while proteins in the plasma, such as albumin, draw much of that fluid back in by osmosis. Fluid left behind in the tissues is picked up by lymphatic vessels, and a buildup of it causes swelling called edema.",
+            "r": "Oxygen and nutrients leave the blood through their thin walls. For 10 points, name these smallest blood vessels, where blood trades materials with body cells."
+        },
+        {
+            "p": "The leakiest kind of these vessels, called sinusoids, has wide gaps that let large molecules and even blood cells pass through in the liver, spleen, and bone marrow, while a “fenestrated” kind has tiny pores for fast filtering. The most common, “continuous” kind has an unbroken wall of endothelial cells.",
+            "r": "They connect arterioles to venules. For 10 points, name these smallest blood vessels, whose walls are only one cell thick."
+        },
+        {
+            "p": "Cells called pericytes [“PAIR-ih-sites”] wrap around the outsides of these vessels and help keep them stable. In the brain, the cells that form the walls of these vessels are sealed together by tight junctions and wrapped by the “feet” of star-shaped astrocytes, creating the blood-brain barrier.",
+            "r": "Oxygen and nutrients pass through their thin walls. For 10 points, name these tiny blood vessels that connect arterioles to venules."
+        },
+        {
+            "p": "Blood leaving one tangled ball of these vessels in the kidney enters a second arteriole instead of a venule, and then flows into another network of these vessels that wraps around the nephron’s tubules to take back water and nutrients. That first ball, the glomerulus [“gloh-MAIR-yoo-lus”], filters blood into Bowman’s capsule.",
+            "r": "Their walls are one cell thick. For 10 points, name these smallest blood vessels, where blood exchanges materials with tissues."
+        },
+        {
+            "p": "Sugars and amino acids absorbed by these vessels in the small intestine travel straight to the liver through the hepatic portal vein. Inside each fingerlike villus, a network of these vessels surrounds a central lymph vessel called a lacteal [“LAK-tee-ul”], which absorbs fats instead.",
+            "r": "In the lungs, these vessels surround the alveoli. For 10 points, name these tiniest blood vessels."
+        },
+        {
+            "p": "Judah Folkman proposed in 1971 that tumors could be starved by blocking the growth of new examples of these vessels, a process called angiogenesis [“an-jee-oh-JEN-uh-sis”]. A signaling protein called VEGF causes new examples of these vessels to sprout toward tissues that need more oxygen.",
+            "r": "For 10 points, name these smallest blood vessels, whose thin walls let oxygen and nutrients pass into tissues."
+        },
+        {
+            "p": "Tiny red or purple dots on the skin called petechiae [“puh-TEE-kee-ee”] are spots of bleeding from these vessels. A bruise forms when a bump breaks some of these vessels and blood leaks into the surrounding tissue, slowly turning from purple to green to yellow as it heals.",
+            "r": "Their walls are only one cell thick. For 10 points, name these tiny blood vessels that connect arterioles and venules."
+        },
+        {
+            "p": "In a quick bedside check, a doctor or nurse presses on a fingernail until it turns pale and then counts how long the pink color takes to return, which normally happens within about two seconds. That test shows how well blood is flowing through these tiny vessels.",
+            "r": "They connect arterioles to venules. For 10 points, name these smallest blood vessels, whose walls are one cell thick."
+        },
+        {
+            "p": "Although each of these vessels is tiny, together they have a greater total cross-sectional area than any other kind of blood vessel, so blood moves through them more slowly than anywhere else in the circulatory system. That slow flow gives time for oxygen and nutrients to leave the blood.",
+            "r": "Red blood cells pass through these vessels in single file. For 10 points, name these smallest blood vessels."
+        },
+        {
+            "p": "These structures take their name from a Latin word meaning “hairlike,” the same root behind the name of the effect that lets water climb up thin glass tubes. Most of them are only about 5 to 10 micrometers wide, about as wide as a red blood cell.",
+            "r": "Their walls are just one cell thick. For 10 points, name these tiny blood vessels that link arterioles to venules."
+        },
+        {
+            "p": "The networks of these vessels in the lungs hold much of the body’s angiotensin-converting enzyme, which turns angiotensin I into angiotensin II. In the lungs, each tiny air sac is wrapped in a mesh of these vessels, where carbon dioxide leaves the blood and oxygen enters it.",
+            "r": "Their walls are one cell thick. For 10 points, name these smallest blood vessels, which connect arterioles to venules."
+        },
+        {
+            "p": "Oxygen and carbon dioxide diffuse straight through the cells lining these vessels, while water and small dissolved molecules slip through narrow clefts between those cells. Some larger molecules are carried across inside tiny bubbles called vesicles, a process called transcytosis [“tranz-sy-TOH-sis”].",
+            "r": "Their walls are a single layer of flat endothelial cells. For 10 points, name these tiny vessels where blood exchanges materials with body tissues."
+        },
+        {
+            "p": "High blood sugar over many years can damage these tiny vessels in the retina, causing diabetic retinopathy [“ret-in-OP-uh-thee”], and in the kidneys’ filtering units. Endurance training makes muscles grow more of these vessels around each fiber, so more oxygen can reach the muscle.",
+            "r": "They link arterioles to venules. For 10 points, name these smallest blood vessels, whose walls are one cell thick."
+        }
+    ],
+    "clues": [
+        {
+            "id": "smallest",
+            "tier": "giveaway",
+            "t": "The smallest and most numerous blood vessels in the body",
+            "k": ["smallest", "most numerous"],
+            "n": 0
+        },
+        {
+            "id": "one-cell-thick",
+            "tier": "giveaway",
+            "t": "Their walls are only one cell thick, a single layer of flat endothelial cells",
+            "k": ["one cell thick", "endothelial"],
+            "n": 0
+        },
+        {
+            "id": "connect",
+            "tier": "giveaway",
+            "t": "Connect the smallest arteries (arterioles) to the smallest veins (venules)",
+            "k": ["arterioles", "venules"],
+            "n": 0
+        },
+        {
+            "id": "exchange",
+            "tier": "giveaway",
+            "t": "Where oxygen and nutrients leave the blood and carbon dioxide and wastes enter it",
+            "k": ["oxygen", "nutrients", "wastes"],
+            "n": 0
+        },
+        {
+            "id": "single-file",
+            "tier": "giveaway",
+            "t": "So narrow, about 5 to 10 micrometers wide, that red blood cells pass through in single file",
+            "k": ["single file", "micrometers"],
+            "n": 0,
+            "rabbit": "Red blood cells"
+        },
+        {
+            "id": "malpighi",
+            "tier": "middle",
+            "t": "Marcello Malpighi first saw them in a frog’s lung in 1661, completing William Harvey’s picture of circulation",
+            "k": ["malpighi", "1661", "harvey", "frog"],
+            "n": 0,
+            "rabbit": "Blood"
+        },
+        {
+            "id": "alveoli",
+            "tier": "middle",
+            "t": "Networks of them wrap around the alveoli in the lungs, where gas exchange happens",
+            "k": ["alveoli", "lungs"],
+            "n": 0,
+            "rabbit": "Alveoli"
+        },
+        {
+            "id": "glomerulus",
+            "tier": "middle",
+            "t": "A tangled ball of them, the glomerulus, filters blood into Bowman’s capsule in each nephron",
+            "k": ["glomerulus", "bowman’s capsule", "nephron"],
+            "n": 0,
+            "rabbit": "Kidneys"
+        },
+        {
+            "id": "villi",
+            "tier": "middle",
+            "t": "In each villus of the small intestine, a network of them absorbs sugars and amino acids around a fat-absorbing lacteal",
+            "k": ["villus", "lacteal"],
+            "n": 0,
+            "rabbit": "Small intestine"
+        },
+        {
+            "id": "slow-flow",
+            "tier": "middle",
+            "t": "Blood flows slowest through them, because together they have the greatest total cross-sectional area",
+            "k": ["slowest", "cross-sectional area"],
+            "n": 0
+        },
+        {
+            "id": "starling",
+            "tier": "middle",
+            "t": "Ernest Starling (1896): blood pressure pushes fluid out of them, and plasma proteins like albumin pull fluid back in by osmosis",
+            "k": ["starling", "1896", "albumin"],
+            "n": 0
+        },
+        {
+            "id": "lymph-edema",
+            "tier": "middle",
+            "t": "Leftover fluid in the tissues is collected by lymphatic vessels; a buildup of it causes swelling called edema",
+            "k": ["lymphatic", "edema"],
+            "n": 0
+        },
+        {
+            "id": "three-types",
+            "tier": "middle",
+            "t": "Three types: continuous (most common), fenestrated (with pores), and sinusoidal (leakiest, in the liver, spleen, and bone marrow)",
+            "k": ["continuous", "fenestrated", "sinusoidal"],
+            "n": 0
+        },
+        {
+            "id": "bruise",
+            "tier": "middle",
+            "t": "A bruise forms when some of them break and leak blood into the tissue around them",
+            "k": ["bruise"],
+            "n": 0
+        },
+        {
+            "id": "refill-test",
+            "tier": "middle",
+            "t": "Nurses press a fingernail and count how fast the pink color returns, normally within about two seconds",
+            "k": ["fingernail", "two seconds"],
+            "n": 0
+        },
+        {
+            "id": "krogh",
+            "tier": "power",
+            "t": "August Krogh won the 1920 Nobel Prize for showing that resting muscles keep many of them closed and open more during exercise",
+            "k": ["krogh", "1920"],
+            "n": 0
+        },
+        {
+            "id": "sphincters",
+            "tier": "power",
+            "t": "Rings of smooth muscle called sphincters can shut off blood flow into a bed of them",
+            "k": ["sphincters", "smooth muscle"],
+            "n": 0
+        },
+        {
+            "id": "blood-brain-barrier",
+            "tier": "power",
+            "t": "In the brain, tight junctions and astrocyte “feet” seal them, forming the blood-brain barrier",
+            "k": ["blood-brain barrier", "tight junctions", "astrocyte"],
+            "n": 0,
+            "rabbit": "Brain"
+        },
+        {
+            "id": "pericytes",
+            "tier": "power",
+            "t": "Cells called pericytes wrap around their outsides and help keep them stable",
+            "k": ["pericytes"],
+            "n": 0
+        },
+        {
+            "id": "peritubular",
+            "tier": "power",
+            "t": "Blood leaving the glomerulus enters a second arteriole, then peritubular ones that wrap the nephron’s tubules and take back water",
+            "k": ["peritubular", "second arteriole"],
+            "n": 0
+        },
+        {
+            "id": "hepatic-portal",
+            "tier": "power",
+            "t": "Sugars and amino acids absorbed by the intestinal ones go straight to the liver through the hepatic portal vein",
+            "k": ["hepatic portal vein"],
+            "n": 0,
+            "rabbit": "Liver"
+        },
+        {
+            "id": "angiogenesis",
+            "tier": "power",
+            "t": "Angiogenesis, the sprouting of new ones, is triggered by VEGF; Judah Folkman (1971) proposed starving tumors by blocking it",
+            "k": ["angiogenesis", "vegf", "folkman"],
+            "n": 0
+        },
+        {
+            "id": "petechiae",
+            "tier": "power",
+            "t": "Tiny red or purple dots on the skin called petechiae are spots of bleeding from them",
+            "k": ["petechiae"],
+            "n": 0
+        },
+        {
+            "id": "hairlike",
+            "tier": "power",
+            "t": "Their name comes from the Latin for “hairlike,” the same root as the effect that pulls water up thin tubes",
+            "k": ["hairlike", "latin"],
+            "n": 0
+        },
+        {
+            "id": "ace",
+            "tier": "power",
+            "t": "The ones in the lungs hold much of the body’s angiotensin-converting enzyme (ACE)",
+            "k": ["angiotensin-converting enzyme"],
+            "n": 0,
+            "rabbit": "Lungs"
+        },
+        {
+            "id": "transcytosis",
+            "tier": "power",
+            "t": "Gases diffuse through their cells, small molecules slip through clefts between cells, and some large molecules cross in vesicles (transcytosis)",
+            "k": ["transcytosis", "clefts"],
+            "n": 0
+        },
+        {
+            "id": "retinopathy",
+            "tier": "power",
+            "t": "Years of high blood sugar can damage the ones in the retina (diabetic retinopathy) and in the kidneys’ filters",
+            "k": ["diabetic retinopathy", "retina"],
+            "n": 0,
+            "rabbit": "Diabetes"
+        },
+        {
+            "id": "endurance-training",
+            "tier": "power",
+            "t": "Endurance training adds more of them around each muscle fiber, so more oxygen reaches the muscle",
+            "k": ["endurance training", "muscle fiber"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which vessel is it?",
+        "body": "Blood flows from arteries to arterioles, then capillaries, then venules, and finally veins, and a circulation tossup can mention all five. Only capillaries have walls one cell thick, where blood actually trades materials with tissues. Saying just “blood vessels” earns a prompt, and “capillary action” is a physics answer about water climbing thin tubes.",
+        "fix": "“One cell thick,” “single file,” “exchange,” “Malpighi,” “glomerulus,” “beds,” or “sinusoids” mean capillaries. Smooth muscle that adjusts blood pressure means arterioles, valves and low pressure mean veins, and the body’s largest artery is the aorta.",
+        "line": "Real answer line: <b><u>Capillaries</u></b> (accept capillary; prompt on <u>blood vessels</u>; do not accept “arterioles” or “venules”)"
+    },
+    "tests": {
+        "right": [
+            "Capillaries",
+            "capillary",
+            "capillary beds",
+            "Capilaries",
+            "Blood capillaries"
+        ],
+        "prompt": [
+            "Blood vessels"
+        ],
+        "wrong": [
+            "Arterioles",
+            "Venules",
+            "Veins",
+            "Arteries",
+            "Capillary action",
+            "Lymphatic vessels"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

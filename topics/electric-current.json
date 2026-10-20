@@ -24,7 +24,8 @@
     "flow of electrons",
     "electron flow",
     "flow of charge",
-    "charge flow"
+    "charge flow",
+    "flow of electric charge"
   ],
   "reject": [
     "voltage",
@@ -33,9 +34,6 @@
     "resistance",
     "electrical resistance",
     "electric charge",
-    "charge",
-    "electrons",
-    "electron",
     "ampere",
     "amperes",
     "amp",
@@ -63,7 +61,6 @@
     "ocean current",
     "ocean currents",
     "current density",
-    "electricity",
     "static electricity",
     "lightning"
   ],
@@ -97,7 +94,7 @@
       "r": "An ammeter measures it. For 10 points, name this flow of electric charge, measured in amperes."
     },
     {
-      "p": "A galvanometer, named for the Italian scientist Luigi Galvani, detects small amounts of this quantity by how far its needle turns. Alessandro Volta’s pile of zinc and copper disks, built in 1800, was the first battery to produce a steady flow of this quantity.",
+      "p": "A galvanometer, named for the Italian scientist Luigi Galvani, detects small amounts of this quantity by how far its needle turns. Alessandro Volta’s pile of zinc and copper disks, announced in 1800, was the first battery to produce a steady flow of this quantity.",
       "r": "Batteries supply its direct form. For 10 points, name this quantity, measured with an ammeter in amperes."
     },
     {
@@ -121,7 +118,7 @@
       "r": "For 10 points, name this flow of charge, measured with an ammeter in amperes."
     },
     {
-      "p": "Michael Faraday found that the amount of metal plated out during electrolysis is proportional to this quantity multiplied by the time it flows. An ideal meter for measuring this quantity has almost no resistance and is connected in series with the part being tested.",
+      "p": "Michael Faraday found that the amount of metal plated out during electrolysis is proportional to this quantity multiplied by the time it flows. A good meter for measuring this quantity has almost no resistance and is connected in series with the part being tested.",
       "r": "That meter is an ammeter. For 10 points, name this flow of charge, measured in amperes."
     },
     {
@@ -221,7 +218,7 @@
     {
       "id": "orsted",
       "tier": "middle",
-      "t": "Hans Christian Ørsted (1820) saw it swing a nearby compass needle, the first link between electricity and magnetism",
+      "t": "Hans Christian Ørsted (1820) saw it swing a nearby compass needle, showing that electricity and magnetism are connected",
       "k": [
         "ørsted",
         "oersted",
@@ -244,7 +241,7 @@
     {
       "id": "volta",
       "tier": "middle",
-      "t": "Alessandro Volta’s pile (1800), the first battery, gave the first steady flow of it",
+      "t": "Alessandro Volta’s pile (1800) was the first battery to give a steady flow of it",
       "k": [
         "volta",
         "pile",
@@ -433,11 +430,11 @@
       "rabbit": "Michael Faraday"
     },
     {
-      "id": "ideal-ammeter",
+      "id": "ammeter-resistance",
       "tier": "power",
-      "t": "An ideal ammeter has almost no resistance, so it does not change what it measures",
+      "t": "A good ammeter has almost no resistance, so it barely changes what it measures",
       "k": [
-        "ideal ammeter",
+        "good ammeter",
         "almost no resistance"
       ],
       "n": 0
@@ -479,7 +476,8 @@
     ],
     "prompt": [
       "I",
-      "Flow of electrons"
+      "Flow of electrons",
+      "Flow of electric charge"
     ],
     "wrong": [
       "Voltage",
@@ -488,7 +486,8 @@
       "Resistance",
       "Alternating current",
       "Ocean currents",
-      "Electricity"
+      "Electricity",
+      "Electrons"
     ]
   }
 }

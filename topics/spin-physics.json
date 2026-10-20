@@ -6,7 +6,7 @@
   "qbCategory": "Science · Physics",
   "kicker": "A particle’s built-in angular momentum · Up or down for electrons",
   "dates": "Proposed by Uhlenbeck and Goudsmit, 1925",
-  "briefing": "Spin is a built-in amount of angular momentum that electrons, protons, and many other particles carry, as if they were tiny spinning tops, though nothing is actually turning. An electron’s spin can point only “up” or “down,” which makes every electron a tiny magnet, the secret behind permanent magnets and MRI scans. Particles whose spin is a half (like 1/2 or 3/2) are called fermions, and those with whole-number spin are called bosons.",
+  "briefing": "Spin is a built-in amount of angular momentum that electrons, protons, and many other particles carry, as if they were tiny spinning tops, though nothing is actually turning. An electron’s spin can point only “up” or “down,” and spin makes electrons and protons act like tiny magnets: lined-up electron spins make permanent magnets, and MRI scanners flip the spins of hydrogen nuclei. Particles with half-integer spin (like 1/2 or 3/2) are called fermions, and those with whole-number spin are called bosons.",
   "answerHtml": "<b><u>spin</u></b> (accept <u>spin angular momentum</u>, <u>intrinsic angular momentum</u>, or <u>spin quantum number</u>; prompt on <u>angular momentum</u>)",
   "accept": [
     "spin",
@@ -113,7 +113,7 @@
       "r": "For 10 points, name this property, a particle’s built-in angular momentum, which makes each electron act like a tiny magnet."
     },
     {
-      "p": "Wolfgang Pauli described this property for electrons using three two-by-two matrices now named for him. The Pauli exclusion principle says that two electrons sharing an orbital must have opposite values of this property.",
+      "p": "Before this property was named, Wolfgang Pauli described a mysterious “two-valuedness” of the electron that classical physics could not explain. The Pauli exclusion principle says that two electrons sharing an orbital must have opposite values of this property.",
       "r": "For 10 points, name this quantum property, which can be “up” or “down” for an electron."
     },
     {
@@ -344,12 +344,12 @@
       "n": 0
     },
     {
-      "id": "pauli-matrices",
+      "id": "two-valuedness",
       "tier": "power",
-      "t": "Wolfgang Pauli described it for electrons using three two-by-two matrices, now called the Pauli matrices",
+      "t": "Before it was named, Wolfgang Pauli described a mysterious “two-valuedness” of the electron that classical physics could not explain",
       "k": [
-        "pauli matrices",
-        "two-by-two"
+        "two-valuedness",
+        "classical physics"
       ],
       "n": 0
     },

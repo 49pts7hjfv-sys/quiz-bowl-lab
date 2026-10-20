@@ -71,7 +71,7 @@
       "r": "For 10 points, name this law, written F equals negative k x, that describes how springs stretch."
     },
     {
-      "p": "A quantity named for Thomas Young extends this law to solid materials by stating that stress is proportional to strain. Beyond a point called the elastic limit, a material stops obeying this law and is permanently stretched out of shape.",
+      "p": "For solid materials, this law says that stress is proportional to strain, and the constant that links them is named for Thomas Young. Beyond a point called the elastic limit, a material stops obeying this law and is permanently stretched out of shape.",
       "r": "For 10 points, name this law about springs, written F equals negative k x, where k is the spring constant."
     },
     {
@@ -148,10 +148,10 @@
     {
       "id": "spring-scales",
       "tier": "giveaway",
-      "t": "Explains spring scales (newton meters), which measure weight by how far a spring stretches",
+      "t": "Explains spring scales (force meters), which measure weight by how far a spring stretches",
       "k": [
         "spring scales",
-        "newton meters",
+        "force meters",
         "weight"
       ],
       "n": 0
@@ -245,8 +245,8 @@
       "t": "First published in 1676 as the Latin anagram “ceiiinosssttuv”",
       "k": [
         "anagram",
-        "ceiiinosssttuv",
-        "1676"
+        "1676",
+        "latin"
       ],
       "n": 0
     },
@@ -274,7 +274,7 @@
     {
       "id": "young",
       "tier": "power",
-      "t": "Young’s modulus extends it to solid materials: stress is proportional to strain",
+      "t": "For solid materials it says stress is proportional to strain; the constant linking them is Young’s modulus",
       "k": [
         "young’s modulus",
         "stress",
@@ -402,7 +402,7 @@
   ],
   "trap": {
     "title": "Law, constant, or motion?",
-    "body": "Spring tossups have several look-alike answers. This law is the rule F = −kx; the spring constant k is just one number in it, simple harmonic motion is the bouncing that results, and Young’s modulus is the version for solid materials. Clues about Robert Boyle’s air pump can also lure a wrong buzz of “Boyle’s law,” since this law’s namesake built that pump, and answering just “Hooke” earns only a prompt.",
+    "body": "Spring tossups have several look-alike answers. This law is the rule F = −kx; the spring constant k is just one number in it, simple harmonic motion is the bouncing that results, and Young’s modulus is the stiffness constant in its version for solid materials. Clues about Robert Boyle’s air pump can also lure a wrong buzz of “Boyle’s law,” since this law’s namesake built that pump, and answering just “Hooke” earns only a prompt.",
     "fix": "Proportional stretch, F = −kx, the 1676 anagram, and “ut tensio, sic vis” mean this law. If the giveaway asks for “this quantity” measured in newtons per meter, say spring constant; for the back-and-forth motion, say simple harmonic motion; for the pressure and volume of a gas, say Boyle’s law.",
     "line": "Real answer line: <b><u>Hooke’s law</u></b> (prompt on <u>Hooke</u> or <u>elasticity</u>)"
   },

@@ -17,7 +17,8 @@
     "amperes maxwell law",
     "maxwell ampere law",
     "ampere maxwell equation",
-    "law of ampere"
+    "law of ampere",
+    "maxwell ampere equation"
   ],
   "prompt": [
     "ampere",
@@ -75,8 +76,8 @@
       "r": "For 10 points, name this law relating the magnetic field around a closed loop to the electric current passing through the loop."
     },
     {
-      "p": "Using this law with a circular path around a long, straight wire shows that the wire’s magnetic field weakens in proportion to one over the distance from the wire. This law plays the same role for magnetism that Gauss’s law plays for electricity, making problems with lots of symmetry easy.",
-      "r": "It is applied using closed paths called Amperian loops. For 10 points, name this law, one of Maxwell’s equations."
+      "p": "Using this law with a circular path around a long, straight wire shows that the wire’s magnetic field falls off as one over the distance from the wire. This law plays the same role for magnetism that Gauss’s law plays for electricity, making problems with lots of symmetry easy.",
+      "r": "It is applied by drawing an imaginary closed loop around a current. For 10 points, name this law, one of Maxwell’s equations."
     },
     {
       "p": "Inside a doughnut-shaped coil called a toroid, this law shows that the magnetic field weakens with distance from the doughnut’s center, while outside the coil the field is zero. This law also gives the nearly uniform field inside a long, straight coil called a solenoid.",
@@ -168,7 +169,7 @@
     {
       "id": "wire-field",
       "tier": "giveaway",
-      "t": "Used to show that the magnetic field around a long, straight wire weakens in proportion to one over the distance",
+      "t": "Used to show that the magnetic field around a long, straight wire falls off as one over the distance",
       "k": [
         "straight wire",
         "one over the distance"
@@ -272,7 +273,7 @@
     {
       "id": "biot-savart",
       "tier": "power",
-      "t": "The Biot–Savart law gives the same fields but is much harder to use when a problem has lots of symmetry",
+      "t": "Gives the same fields as the Biot–Savart law but is much easier to use when a problem has lots of symmetry",
       "k": [
         "biot–savart",
         "symmetry"
@@ -411,7 +412,8 @@
       "Amperes law",
       "Ampere's circuital law",
       "Ampere-Maxwell law",
-      "Amperes lw"
+      "Amperes lw",
+      "Maxwell-Ampère equation"
     ],
     "prompt": [
       "Ampère",
