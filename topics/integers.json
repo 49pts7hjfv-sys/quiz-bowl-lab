@@ -6,16 +6,16 @@
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "Whole numbers, their negatives, and zero · Symbol ℤ, for German _Zahlen_",
   "dates": "Rules for negatives and zero: Brahmagupta, 628 CE",
-  "briefing": "The integers are the whole numbers together with their negatives: …, −3, −2, −1, 0, 1, 2, 3, …, stretching forever in both directions along the number line. They have no fractions or decimals, so 7 and −12 are integers but ½ is not. Mathematicians write the integers as ℤ, from the German word _Zahlen_, meaning “numbers.” Adding, subtracting, or multiplying two integers always gives another integer, but dividing them often doesn’t.",
-  "answerHtml": "<b><u>integer</u></b>s (accept <u>Z</u>; prompt on <u>whole numbers</u>; do not accept “natural numbers”)",
+  "briefing": "The integers are the whole numbers together with their negatives: …, −3, −2, −1, 0, 1, 2, 3, …, stretching forever in both directions along the number line. They have no fractions or decimals, so 7 and −12 are integers but ½ is not; mathematicians write the integers as ℤ, from the German word _Zahlen_, meaning “numbers.” Adding, subtracting, or multiplying two integers always gives another integer, but dividing them often doesn’t.",
+  "answerHtml": "<b><u>integer</u></b>s (prompt on <u>Z</u> or <u>whole numbers</u>; do not accept “natural numbers”)",
   "accept": [
     "integers",
-    "integer",
-    "z"
+    "integer"
   ],
   "prompt": [
     "whole numbers",
-    "whole number"
+    "whole number",
+    "z"
   ],
   "reject": [
     "natural numbers",
@@ -55,11 +55,11 @@
       "integers",
       "Integer",
       "the integers",
-      "intgers",
-      "Z"
+      "intgers"
     ],
     "prompt": [
-      "whole numbers"
+      "whole numbers",
+      "Z"
     ],
     "wrong": [
       "natural numbers",
@@ -92,7 +92,7 @@
       "r": "For 10 points, name these numbers, which have no fractional or decimal part and can be positive, negative, or zero."
     },
     {
-      "p": "Equations named for Diophantus [“dy-uh-FAN-tus”] of Alexandria ask only for solutions that are these numbers. Hilbert’s tenth problem asked for a method to decide whether any such equation has solutions, and in 1970 Yuri Matiyasevich [“mah-tee-yah-SEH-vich”] completed a proof that no such method exists.",
+      "p": "Equations named for Diophantus [“dy-oh-FAN-tus”] of Alexandria ask only for solutions that are these numbers. Hilbert’s tenth problem asked for a method to decide whether any such equation has solutions, and in 1970 Yuri Matiyasevich [“mah-tee-yah-SEH-vich”] completed a proof that no such method exists.",
       "r": "For 10 points, name these numbers, symbolized by a double-struck capital Z from the German word _Zahlen_, which include negative 5, 0, and 12."
     },
     {
@@ -120,7 +120,7 @@
       "r": "Such points are called lattice points. For 10 points, name these numbers, which label the evenly spaced marks on a number line in both directions from 0."
     },
     {
-      "p": "Srinivasa Ramanujan [“rah-MAH-noo-jun”] studied partitions, the ways to write a positive number of this type as a sum of positive ones, such as 2 plus 2 and 3 plus 1 for 4. He noticed that the numbers of partitions of 4, 9, 14, 19, and so on are always multiples of 5.",
+      "p": "Srinivasa Ramanujan [“rah-MAH-nuh-jun”] studied partitions, the ways to write a positive number of this type as a sum of positive ones, such as 2 plus 2 and 3 plus 1 for 4. He noticed that the numbers of partitions of 4, 9, 14, 19, and so on are always multiples of 5.",
       "r": "No fractions are allowed among them. For 10 points, name these numbers, which include all the whole numbers and their negatives."
     },
     {
@@ -128,7 +128,7 @@
       "r": "In 628 CE, Brahmagupta [“brah-muh-GOOP-tuh”] wrote rules for arithmetic with positives, negatives, and zero. For 10 points, name these numbers, which include negative 2, 0, and 5 but not one-half."
     },
     {
-      "p": "In his 1801 book _Disquisitiones Arithmeticae_ [“dis-kwih-zih-tee-OH-nays ar-ith-MET-ih-kay”], Carl Friedrich Gauss introduced the triple-bar symbol for congruence, writing that two of these numbers are congruent if they leave the same remainder when divided by some number. That idea is often called clock arithmetic.",
+      "p": "In his 1801 book _Disquisitiones Arithmeticae_ [“dis-kwiz-ih-tee-OH-nays ar-ith-MET-ih-kye”], Carl Friedrich Gauss introduced the triple-bar symbol for congruence, writing that two of these numbers are congruent if they leave the same remainder when divided by some number. That idea is often called clock arithmetic.",
       "r": "For 10 points, name these numbers, such as negative 8, 0, and 3, which can be positive, negative, or zero."
     },
     {
@@ -368,7 +368,7 @@
     {
       "id": "division-algorithm",
       "tier": "power",
-      "t": "Division algorithm: dividing by a positive one leaves a unique remainder from 0 up to the divisor: 17 ÷ 5 is 3 R 2, and −17 ÷ 5 is −4 R 3",
+      "t": "Division algorithm: dividing by a positive one leaves a unique remainder that is at least 0 and less than the divisor: 17 ÷ 5 is 3 R 2, and −17 ÷ 5 is −4 R 3",
       "k": [
         "division algorithm",
         "remainder",
@@ -402,7 +402,7 @@
     {
       "id": "partitions",
       "tier": "power",
-      "t": "Ramanujan studied partitions (ways to write a number as a sum of positive ones) and saw that those of 4, 9, 14, 19, … always come in multiples of 5",
+      "t": "Ramanujan studied partitions (ways to write a number as a sum of positive ones) and saw that the counts for 4, 9, 14, 19, … are always multiples of 5",
       "k": [
         "ramanujan",
         "partitions",
@@ -448,8 +448,8 @@
   ],
   "trap": {
     "title": "Integers or whole numbers?",
-    "body": "In many U.S. classrooms, “whole numbers” means 0, 1, 2, 3, … with no negatives, while the integers also include −1, −2, −3, …. The natural numbers or counting numbers (1, 2, 3, …) are a smaller collection still, and the rational numbers are a bigger one that adds fractions. Saying “whole numbers” only earns a prompt, “natural numbers” is wrong, and so is the calculus sound-alike “integrals.”",
+    "body": "In many U.S. classrooms, “whole numbers” means 0, 1, 2, 3, … with no negatives, while the integers also include −1, −2, −3, …. The natural numbers or counting numbers (1, 2, 3, …) are a smaller collection still, and the rational numbers are a bigger one that adds fractions. Saying “whole numbers” or just the letter “Z” only earns a prompt, “natural numbers” is wrong, and so is the calculus sound-alike “integrals.”",
     "fix": "If the clues mention negatives, zero, opposites, or the symbol ℤ, say “integers.” If they add fractions or ratios, the answer may be rational numbers; if only 1, 2, 3, …, it may be natural numbers. Integrals are areas under curves, a different answer line.",
-    "line": "Real answer line: <b><u>integer</u></b>s (accept <u>Z</u>; prompt on <u>whole numbers</u>; do not accept “natural numbers”)"
+    "line": "Real answer line: <b><u>integer</u></b>s (prompt on <u>Z</u> or <u>whole numbers</u>; do not accept “natural numbers”)"
   }
 }

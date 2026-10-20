@@ -6,7 +6,7 @@
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "Rules that turn each input into exactly one output · Written f(x)",
   "dates": "Named by Gottfried Leibniz in 1673",
-  "briefing": "A function is a rule that takes each input and gives back exactly one output, like a machine that doubles any number you feed it. We write f(x) = 2x, so f(3) = 6, a notation first written by Leonhard Euler. Functions can be drawn as graphs, and a graph shows a function only if no vertical line crosses it more than once. Almost every formula in science, from a ball’s height over time to a pizza’s price by size, is a function.",
+  "briefing": "A function is a rule that takes each input and gives back exactly one output, like a machine that doubles any number you feed it. We write f(x) = 2x, so f(3) = 6, a notation first written by Leonhard Euler. Functions can be drawn as graphs, and a graph shows a function only if no vertical line crosses it more than once; almost every formula in science, from a ball’s height over time to a pizza’s price by size, is a function.",
   "answerHtml": "<b><u>function</u></b>s (accept <u>map</u>s or <u>mapping</u>s; prompt on <u>relation</u>s; do not accept a specific kind like “trigonometric functions”)",
   "accept": [
     "functions",
@@ -124,7 +124,7 @@
       "r": "For 10 points, name these rules that give exactly one output for each input, which pass the vertical line test."
     },
     {
-      "p": "In the 1930s, Alonzo Church built his lambda calculus, a system that expresses all computation using only these objects, which can even take other examples of these objects as inputs. Programming languages such as Lisp and Haskell grew out of that idea.",
+      "p": "In the 1930s, Alonzo Church built his lambda calculus, a system that expresses all computation using only these objects, which can even take other examples of these objects as inputs. Programming languages such as Lisp and Haskell borrowed ideas from that system.",
       "r": "For 10 points, name these rules, written with notation like f of x, whose allowed inputs form a domain and whose outputs form a range."
     },
     {
@@ -144,7 +144,7 @@
       "r": "For 10 points, name these rules that assign exactly one output to each input, whose graphs pass the vertical line test."
     },
     {
-      "p": "Joseph Fourier’s [“FOOR-ee-ay’s”] 1822 book on the flow of heat claimed that these objects could be written as infinite sums of sine and cosine waves, an idea at the heart of modern signal processing. A continuous example of these objects can be graphed without lifting your pencil.",
+      "p": "Joseph Fourier’s [“FOOR-ee-ayz”] 1822 book on the flow of heat claimed that these objects could be written as infinite sums of sine and cosine waves, an idea at the heart of modern signal processing. A continuous example of these objects can be graphed without lifting your pencil.",
       "r": "For 10 points, name these rules, written f of x, that give exactly one output for each input."
     },
     {
@@ -346,7 +346,7 @@
     {
       "id": "church",
       "tier": "power",
-      "t": "Alonzo Church’s lambda calculus (1930s) expresses all computation using only these; Lisp and Haskell grew from it",
+      "t": "Alonzo Church’s lambda calculus (1930s) expresses all computation using only these; Lisp and Haskell borrowed ideas from it",
       "k": [
         "alonzo church",
         "lambda calculus",

@@ -21,10 +21,7 @@
     "earths atmosphere",
     "lower atmosphere",
     "atmospheric layer",
-    "layer of the atmosphere",
-    "boundary layer",
-    "planetary boundary layer",
-    "atmospheric boundary layer"
+    "layer of the atmosphere"
   ],
   "reject": [
     "stratosphere",
@@ -54,7 +51,10 @@
     "inversion layer",
     "lapse rate",
     "weather",
-    "clouds"
+    "clouds",
+    "boundary layer",
+    "planetary boundary layer",
+    "atmospheric boundary layer"
   ],
   "media": [],
   "mediaPending": true,
@@ -417,7 +417,8 @@
       "Mesosphere",
       "Ozone layer",
       "Ionosphere",
-      "Upper atmosphere"
+      "Upper atmosphere",
+      "Boundary layer"
     ]
   }
 }

@@ -96,7 +96,7 @@
       "r": "That reply is carved on his tombstone. For 10 points, name this German mathematician of the 23 problems, who declared, “We must know. We will know.”"
     },
     {
-      "p": "In November 1915, this man presented his own work on gravity just five days before Albert Einstein presented the final field equations of general relativity, and an “action” that leads to those equations is named for both men. This man had invited Emmy Noether [“NUR-tuh”] to help with questions about energy in that theory.",
+      "p": "In November 1915, this man presented his own work on gravity five days before Albert Einstein presented the final field equations of general relativity, and an “action” that leads to those equations is named for both men. This man had invited Emmy Noether [“NUR-tuh”] to help with questions about energy in that theory.",
       "r": "Infinite-dimensional spaces used in quantum mechanics are named for him. For 10 points, name this German mathematician who posed 23 famous problems in 1900."
     },
     {
@@ -128,7 +128,7 @@
       "r": "The full list of 23 appeared in print. For 10 points, name this German mathematician who gave that speech in Paris in 1900."
     },
     {
-      "p": "George Gamow’s [“GAM-off”] 1947 book _One Two Three... Infinity_ popularized a thought experiment that this man had used in a 1924 lecture to show how strange infinite collections can be. This man also described a curve that winds through every point of a square.",
+      "p": "George Gamow’s [“GAM-off”] 1947 book _One Two Three... Infinity_ popularized a thought experiment that this man had used in a lecture in the 1920s to show how strange infinite collections can be. This man also described a curve that winds through every point of a square.",
       "r": "In his thought experiment, a hotel with infinitely many rooms, all full, still has room for a new guest. For 10 points, name this German mathematician."
     },
     {
@@ -251,7 +251,7 @@
     {
       "id": "einstein",
       "tier": "middle",
-      "t": "Presented work on gravity five days before Albert Einstein’s final field equations of general relativity (November 1915); an “action” for them is named for both men",
+      "t": "Presented work on gravity five days before Albert Einstein presented the final field equations of general relativity (November 1915); an “action” for them is named for both men",
       "k": [
         "einstein",
         "general relativity",
@@ -437,10 +437,10 @@
     {
       "id": "gamow",
       "tier": "power",
-      "t": "He used the infinite hotel in a 1924 lecture; George Gamow’s book _One Two Three... Infinity_ (1947) made it famous",
+      "t": "He used the infinite hotel in a lecture in the 1920s; George Gamow’s book _One Two Three... Infinity_ (1947) made it famous",
       "k": [
         "gamow",
-        "1924 lecture",
+        "1947",
         "one two three"
       ],
       "n": 0

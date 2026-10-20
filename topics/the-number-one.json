@@ -159,7 +159,7 @@
       "r": "It is also the radius of the unit circle. For 10 points, name this number, the multiplicative identity."
     },
     {
-      "p": "The logarithm of this number is 0 in every base, and the natural logarithm of e equals this number. The Kronecker [“KROH-neck-er”] delta, a symbol from linear algebra, equals this number whenever its two inputs match and equals 0 otherwise.",
+      "p": "The logarithm of this number is 0 in every base, and the natural logarithm of e equals this number. Adding a half, a fourth, an eighth, a sixteenth, and so on forever gives a total of exactly this number.",
       "r": "Any nonzero number raised to the zeroth power equals this number. For 10 points, name this number, the multiplicative identity."
     },
     {
@@ -444,14 +444,24 @@
     {
       "id": "matrix-delta",
       "tier": "power",
-      "t": "The identity matrix has it all along its main diagonal; the Kronecker delta equals it when its two inputs match",
+      "t": "The identity matrix has it all along its main diagonal and 0 everywhere else",
       "k": [
         "identity matrix",
-        "main diagonal",
-        "kronecker delta"
+        "main diagonal"
       ],
       "n": 0,
       "rabbit": "Matrices"
+    },
+    {
+      "id": "halves",
+      "tier": "power",
+      "t": "Adding a half, a fourth, an eighth, a sixteenth, and so on forever gives exactly it",
+      "k": [
+        "sixteenth",
+        "an eighth",
+        "forever"
+      ],
+      "n": 0
     },
     {
       "id": "logarithm",

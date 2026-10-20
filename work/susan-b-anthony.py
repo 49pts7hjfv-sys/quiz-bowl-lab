@@ -56,7 +56,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "As head of the girls’ department at Canajoharie [“kan-uh-juh-HAIR-ee”] Academy in New York in the 1840s, this woman objected that male teachers were paid far more than women. Raised as a Quaker, she later left teaching to work full-time for reform causes.",
+            "p": "As a young teacher, this woman learned that men were paid far more than women for the same work, and in the 1840s she headed the girls’ department at Canajoharie [“kan-uh-juh-HAIR-ee”] Academy in New York. Raised as a Quaker, she later left teaching to work full-time for reform causes.",
             "r": "For 10 points, name this woman who was arrested for voting in 1872 and later appeared on a dollar coin."
         },
         {
@@ -214,7 +214,7 @@ data = {
         {
             "id": "canajoharie",
             "tier": "power",
-            "t": "Taught at Canajoharie Academy in the 1840s and objected that women teachers were paid far less than men",
+            "t": "A teacher in her youth, she saw that women teachers were paid far less than men; in the 1840s she headed the girls’ department at Canajoharie Academy",
             "k": ["canajoharie", "teachers", "paid"],
             "n": 0
         },

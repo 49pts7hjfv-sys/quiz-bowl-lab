@@ -1,0 +1,469 @@
+{
+  "id": "harry-s-truman",
+  "name": "Harry S. Truman",
+  "mono": "HST",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "33rd U.S. President · Led the nation from World War II into the Cold War",
+  "dates": "1884–1972",
+  "briefing": "Harry Truman was a Missouri farmer, a World War I artillery captain, and the co-owner of a men’s clothing store that failed in 1922. He had been vice president for only 82 days when Franklin Roosevelt died in April 1945, making him president in the last months of World War II. He decided to use atomic bombs against Japan, led the country into the Cold War, and kept a sign on his desk that read “The buck stops here.”",
+  "answerHtml": "Harry S. <b><u>Truman</u></b>",
+  "accept": [
+    "harry s truman",
+    "harry truman",
+    "truman",
+    "president truman",
+    "president harry truman"
+  ],
+  "prompt": [
+    "harry",
+    "harry s"
+  ],
+  "reject": [
+    "truman capote",
+    "capote",
+    "truman doctrine",
+    "the truman show",
+    "truman show",
+    "bess truman",
+    "margaret truman",
+    "harry reid",
+    "harry hopkins",
+    "dwight eisenhower",
+    "dwight d eisenhower",
+    "eisenhower",
+    "franklin roosevelt",
+    "franklin d roosevelt",
+    "franklin delano roosevelt",
+    "fdr",
+    "thomas dewey",
+    "dewey",
+    "george marshall",
+    "marshall plan",
+    "douglas macarthur",
+    "macarthur",
+    "henry wallace",
+    "alben barkley",
+    "dean acheson",
+    "strom thurmond",
+    "lyndon johnson",
+    "lucius clay"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Harry_S._Truman",
+  "qb": {
+    "q": "Truman",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Kansas City political boss Tom Pendergast helped launch this man’s career, and he won a U.S. Senate seat from Missouri in 1934. During World War II, this senator led a committee that saved billions of dollars by investigating waste in defense spending.",
+      "r": "For 10 points, name this man who became president when Franklin Roosevelt died in April 1945."
+    },
+    {
+      "p": "This man’s running mate in 1948 was Kentucky senator Alben Barkley, who became known as “the Veep.” That year, this man crossed the country on a “whistle-stop” train tour, giving short speeches from the back of his train.",
+      "r": "He later held up a newspaper wrongly saying Thomas Dewey had beaten him. For 10 points, name this president who won the 1948 election in an upset."
+    },
+    {
+      "p": "This president’s Executive Order 9981 ordered an end to segregation in the U.S. armed forces in 1948. That year, some Southern delegates walked out of his party’s convention, and the breakaway States’ Rights Democrats, or Dixiecrats, nominated Strom Thurmond.",
+      "r": "For 10 points, name this Democrat who won the 1948 election anyway, beating Thomas Dewey."
+    },
+    {
+      "p": "This president agreed with a reporter who called the fighting that began in June 1950 a “police action” under the United Nations. In 1951, he fired General Douglas MacArthur for publicly calling for a wider war against China.",
+      "r": "MacArthur had led UN forces in the Korean War. For 10 points, name this president who succeeded Franklin Roosevelt."
+    },
+    {
+      "p": "Partway through one 1945 conference, British election results replaced Winston Churchill with Clement Attlee, who then sat across the table from this president. At that Potsdam Conference, this president casually told Joseph Stalin that the United States had a powerful new weapon.",
+      "r": "Soon afterward, this president’s orders led to the atomic bombings of Hiroshima and Nagasaki. For 10 points, name this 33rd president."
+    },
+    {
+      "p": "This man, whose middle initial does not stand for any name, commanded an artillery unit called Battery D in France during World War I. He then opened a men’s clothing store in Kansas City with his army friend Eddie Jacobson, but it failed in 1922.",
+      "r": "He later became Franklin Roosevelt’s last vice president. For 10 points, name this Missouri politician who became the 33rd president."
+    },
+    {
+      "p": "This man’s 61st birthday was V-E Day, May 8, 1945, less than a month after he unexpectedly became president. He told reporters he felt “like the moon, the stars, and all the planets had fallen on me” when he took office.",
+      "r": "He had been vice president for only 82 days. For 10 points, name this man who succeeded Franklin Roosevelt."
+    },
+    {
+      "p": "In _Youngstown Sheet & Tube Co. v. Sawyer_, the Supreme Court ruled that this president had no power to take over the nation’s steel mills to head off a strike. Justice Robert Jackson’s concurring opinion in that 1952 case became a famous guide to presidential power.",
+      "r": "The seizure came during the Korean War. For 10 points, name this president who succeeded Franklin Roosevelt."
+    },
+    {
+      "p": "While the White House was being rebuilt, this president lived across the street at Blair House, where two Puerto Rican nationalists tried to kill him in 1950. White House police officer Leslie Coffelt died stopping the attack.",
+      "r": "Two years earlier, this president had beaten Thomas Dewey in a surprise victory. For 10 points, name this president."
+    },
+    {
+      "p": "In 1948, this president’s old army friend and business partner Eddie Jacobson persuaded him to meet a Zionist leader who later became Israel’s first president. That May, this president recognized the new state of Israel just 11 minutes after it declared independence.",
+      "r": "He also signed the Marshall Plan that year. For 10 points, name this president who took office after Franklin Roosevelt died."
+    },
+    {
+      "p": "During this president’s term, General Lucius Clay helped launch Operation Vittles, in which American planes flew food and coal into a city cut off by a Soviet blockade. That airlift lasted from 1948 to 1949, the same year the United States helped create NATO.",
+      "r": "That city was West Berlin. For 10 points, name this president whose namesake doctrine promised to help nations resist communism."
+    },
+    {
+      "p": "Congress passed the Taft–Hartley Act over this president’s veto in 1947, limiting labor unions and banning the “closed shop,” where only union members could be hired. In his 1948 campaign, he attacked that Republican-led Congress as the “Do-Nothing Congress.”",
+      "r": "His domestic program was called the Fair Deal. For 10 points, name this president who followed Franklin Roosevelt."
+    },
+    {
+      "p": "This president signed the National Security Act of 1947, which created the CIA and the National Security Council and made the Air Force a separate branch. That year, he chose George Marshall as his Secretary of State.",
+      "r": "Also in 1947, his namesake doctrine promised aid to Greece and Turkey to contain communism. For 10 points, name this president."
+    },
+    {
+      "p": "In 1965, Lyndon Johnson signed the Medicare bill at this former president’s library in Independence, Missouri, and handed him the first Medicare card. Years earlier, this man had asked Congress for national health insurance as part of his Fair Deal.",
+      "r": "He kept a sign on his desk reading “The buck stops here.” For 10 points, name this 33rd president."
+    },
+    {
+      "p": "This president was on stage in his home state when Winston Churchill gave his “Iron Curtain” speech at a small college in Fulton, Missouri, in 1946. Two years later, this president signed the European Recovery Program, which sent billions of dollars to rebuild Western Europe.",
+      "r": "That program is better known as the Marshall Plan. For 10 points, name this president who succeeded FDR."
+    }
+  ],
+  "clues": [
+    {
+      "id": "33rd",
+      "tier": "giveaway",
+      "t": "33rd President (1945–1953); took office when Franklin Roosevelt died in April 1945",
+      "k": [
+        "33rd",
+        "franklin roosevelt",
+        "april 1945"
+      ],
+      "n": 0,
+      "rabbit": "Franklin Delano Roosevelt"
+    },
+    {
+      "id": "atomic",
+      "tier": "giveaway",
+      "t": "Ordered the atomic bombings of Hiroshima and Nagasaki (August 1945), and Japan surrendered",
+      "k": [
+        "atomic",
+        "hiroshima",
+        "nagasaki"
+      ],
+      "n": 0,
+      "rabbit": "Manhattan Project"
+    },
+    {
+      "id": "buck",
+      "tier": "giveaway",
+      "t": "Kept a sign on his desk that said “The buck stops here”",
+      "k": [
+        "buck stops here",
+        "buck",
+        "desk"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dewey",
+      "tier": "giveaway",
+      "t": "Beat Thomas Dewey in the 1948 upset, then held up a newspaper that wrongly said Dewey had won",
+      "k": [
+        "dewey",
+        "1948",
+        "newspaper",
+        "upset"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doctrine",
+      "tier": "giveaway",
+      "t": "His doctrine (1947) promised aid to Greece and Turkey to contain communism",
+      "k": [
+        "greece",
+        "turkey",
+        "contain",
+        "doctrine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marshall-plan",
+      "tier": "middle",
+      "t": "Signed the Marshall Plan (1948): billions of dollars to rebuild Western Europe, named for Secretary of State George Marshall",
+      "k": [
+        "marshall plan",
+        "george marshall",
+        "europe"
+      ],
+      "n": 0,
+      "rabbit": "Marshall Plan"
+    },
+    {
+      "id": "berlin-airlift",
+      "tier": "middle",
+      "t": "Berlin Airlift (1948–1949): planes flew food and coal into West Berlin during a Soviet blockade",
+      "k": [
+        "berlin airlift",
+        "west berlin",
+        "blockade"
+      ],
+      "n": 0
+    },
+    {
+      "id": "korea-macarthur",
+      "tier": "middle",
+      "t": "Sent U.S. troops into the Korean War (1950) and fired General Douglas MacArthur (1951)",
+      "k": [
+        "korean war",
+        "macarthur",
+        "1951"
+      ],
+      "n": 0,
+      "rabbit": "Korean War"
+    },
+    {
+      "id": "eo-9981",
+      "tier": "middle",
+      "t": "Executive Order 9981 (1948) ordered an end to segregation in the armed forces; Southern “Dixiecrats” ran Strom Thurmond against him",
+      "k": [
+        "9981",
+        "segregation",
+        "dixiecrats",
+        "thurmond"
+      ],
+      "n": 0
+    },
+    {
+      "id": "potsdam",
+      "tier": "middle",
+      "t": "Met Joseph Stalin and Winston Churchill (then Clement Attlee) at the Potsdam Conference (1945)",
+      "k": [
+        "potsdam",
+        "stalin",
+        "attlee"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fair-deal",
+      "tier": "middle",
+      "t": "Called his domestic program the Fair Deal, which included a plan for national health insurance",
+      "k": [
+        "fair deal",
+        "health insurance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nato",
+      "tier": "middle",
+      "t": "The United States helped create NATO in 1949, while he was president",
+      "k": [
+        "nato",
+        "1949"
+      ],
+      "n": 0,
+      "rabbit": "NATO"
+    },
+    {
+      "id": "whistle-stop",
+      "tier": "middle",
+      "t": "1948 “whistle-stop” train tour; his running mate, Alben Barkley, was nicknamed “the Veep”",
+      "k": [
+        "whistle-stop",
+        "barkley",
+        "veep"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pendergast",
+      "tier": "power",
+      "t": "Kansas City boss Tom Pendergast’s political machine helped launch his career; elected senator from Missouri (1934)",
+      "k": [
+        "pendergast",
+        "kansas city",
+        "machine",
+        "1934"
+      ],
+      "n": 0
+    },
+    {
+      "id": "committee",
+      "tier": "power",
+      "t": "As a senator, led a committee that investigated waste in World War II defense spending",
+      "k": [
+        "committee",
+        "waste",
+        "defense"
+      ],
+      "n": 0
+    },
+    {
+      "id": "haberdashery",
+      "tier": "power",
+      "t": "Ran a Kansas City men’s clothing store (a haberdashery) with Eddie Jacobson; it failed in 1922",
+      "k": [
+        "haberdashery",
+        "clothing store",
+        "jacobson",
+        "1922"
+      ],
+      "n": 0
+    },
+    {
+      "id": "battery-d",
+      "tier": "power",
+      "t": "Commanded Battery D, an artillery unit, in France during World War I",
+      "k": [
+        "battery d",
+        "artillery",
+        "france"
+      ],
+      "n": 0
+    },
+    {
+      "id": "s-initial",
+      "tier": "power",
+      "t": "His middle initial, “S,” does not stand for any name",
+      "k": [
+        "middle initial",
+        "initial"
+      ],
+      "n": 0
+    },
+    {
+      "id": "82-days",
+      "tier": "power",
+      "t": "Vice president for only 82 days; said he felt “like the moon, the stars, and all the planets had fallen on me”",
+      "k": [
+        "82 days",
+        "moon",
+        "planets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "v-e-day",
+      "tier": "power",
+      "t": "V-E Day (May 8, 1945), when Germany surrendered, was his 61st birthday",
+      "k": [
+        "v-e day",
+        "birthday",
+        "may 8"
+      ],
+      "n": 0
+    },
+    {
+      "id": "israel",
+      "tier": "power",
+      "t": "Recognized Israel 11 minutes after it declared independence (May 1948)",
+      "k": [
+        "israel",
+        "11 minutes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "youngstown",
+      "tier": "power",
+      "t": "_Youngstown Sheet & Tube Co. v. Sawyer_ (1952): the Supreme Court said he could not seize the steel mills",
+      "k": [
+        "youngstown",
+        "steel mills",
+        "sawyer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blair-house",
+      "tier": "power",
+      "t": "Survived a 1950 attack by two Puerto Rican nationalists at Blair House; officer Leslie Coffelt died stopping it",
+      "k": [
+        "blair house",
+        "puerto rican",
+        "coffelt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "taft-hartley",
+      "tier": "power",
+      "t": "Congress passed the Taft–Hartley Act (1947) over his veto; he blasted the “Do-Nothing Congress”",
+      "k": [
+        "taft",
+        "hartley",
+        "do-nothing",
+        "veto"
+      ],
+      "n": 0
+    },
+    {
+      "id": "national-security",
+      "tier": "power",
+      "t": "Signed the National Security Act (1947), which created the CIA and the National Security Council",
+      "k": [
+        "national security act",
+        "national security council",
+        "cia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "medicare",
+      "tier": "power",
+      "t": "Got the first Medicare card from Lyndon Johnson at his library in Independence, Missouri (1965)",
+      "k": [
+        "medicare",
+        "independence",
+        "1965"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iron-curtain",
+      "tier": "power",
+      "t": "Was on stage when Winston Churchill gave his 1946 “Iron Curtain” speech in Fulton, Missouri",
+      "k": [
+        "iron curtain",
+        "fulton",
+        "churchill"
+      ],
+      "n": 0
+    },
+    {
+      "id": "police-action",
+      "tier": "power",
+      "t": "Agreed with a reporter who called the Korean fighting a “police action” under the United Nations",
+      "k": [
+        "police action",
+        "united nations",
+        "reporter"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Truman, FDR, or Ike?",
+    "body": "Truman’s presidency sits between two giants. Franklin Roosevelt led most of World War II and went to Yalta, but he died in April 1945, so the Potsdam Conference, V-E Day, and the atomic bombs belong to Truman. Dwight Eisenhower signed the Korean War armistice in 1953, but it was Truman who sent troops to Korea in 1950 and fired MacArthur.",
+    "fix": "Pearl Harbor, the New Deal, and Yalta mean FDR. Potsdam, the atomic bombs, the Marshall Plan, the Berlin Airlift, and firing MacArthur mean Truman. The Korean War armistice and the interstate highways mean Eisenhower. If a question asks for a policy (“this doctrine”), answer “Truman Doctrine,” not just his name.",
+    "line": "Real answer line: Harry S. <b><u>Truman</u></b>"
+  },
+  "tests": {
+    "right": [
+      "Harry S. Truman",
+      "Harry Truman",
+      "Truman",
+      "President Truman",
+      "Harry Trueman"
+    ],
+    "prompt": [
+      "Harry"
+    ],
+    "wrong": [
+      "Truman Capote",
+      "Truman Doctrine",
+      "Dwight Eisenhower",
+      "Franklin Roosevelt",
+      "Thomas Dewey",
+      "Bess Truman"
+    ]
+  }
+}

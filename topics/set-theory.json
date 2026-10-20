@@ -6,7 +6,7 @@
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "The math of collections · Venn diagrams and sizes of infinity",
   "dates": "Founded by Georg Cantor, 1874",
-  "briefing": "Set theory is the math of collections, called sets: the counting numbers, the letters of the alphabet, or the players on a Quiz Bowl team. Venn diagrams use overlapping circles to show which members two sets share. In the 1870s, Georg Cantor used sets to make a startling discovery: some infinities are bigger than others, so there are more real numbers than counting numbers. Set theory became the foundation on which almost all of modern math is built.",
+  "briefing": "Set theory is the math of collections, called sets, such as the counting numbers, the letters of the alphabet, or the players on a Quiz Bowl team; Venn diagrams use overlapping circles to show which members two sets share. In the 1870s, Georg Cantor used sets to make a startling discovery: some infinities are bigger than others, so there are more real numbers than counting numbers. Set theory became the foundation on which almost all of modern math is built.",
   "answerHtml": "<b><u>set</u></b> theory (accept <u>set</u>s; prompt on <u>logic</u> or <u>mathematical logic</u>)",
   "accept": [
     "set theory",
@@ -127,7 +127,7 @@
       "r": "That founder was Georg Cantor. For 10 points, name this branch of math whose Venn diagrams show unions and intersections of collections."
     },
     {
-      "p": "John von Neumann [“NOY-mahn”] built the counting numbers out of nothing: 0 is the empty collection, 1 is the collection containing 0, 2 is the collection containing 0 and 1, and so on. In this field, the size of a collection is called its cardinality.",
+      "p": "John von Neumann [“NOY-mahn”] built the whole numbers out of nothing: 0 is the empty collection, 1 is the collection containing 0, 2 is the collection containing 0 and 1, and so on. In this field, the size of a collection is called its cardinality.",
       "r": "For 10 points, name this branch of math, founded by Georg Cantor, that studies collections such as {1, 2, 3}, which has 8 sub-collections."
     },
     {
@@ -404,10 +404,10 @@
     {
       "id": "von-neumann",
       "tier": "power",
-      "t": "John von Neumann built the counting numbers from the empty collection: 0 = {}, 1 = {0}, 2 = {0, 1}, and so on",
+      "t": "John von Neumann built the whole numbers from the empty collection: 0 = {}, 1 = {0}, 2 = {0, 1}, and so on",
       "k": [
         "von neumann",
-        "counting numbers",
+        "whole numbers",
         "empty collection"
       ],
       "n": 0
