@@ -7,7 +7,7 @@
   "kicker": "Mexican general and president · Took the Alamo, lost Texas at San Jacinto",
   "dates": "1794–1876",
   "briefing": "Antonio López de Santa Anna called himself the “Napoleon of the West” and served as Mexico’s president many times between 1833 and 1855. In 1836, his army stormed the Alamo, but weeks later Sam Houston’s Texans routed him at San Jacinto in about 18 minutes and captured him the next day. He lost his left leg fighting the French in 1838, and he later had it buried with full military honors.",
-  "answerHtml": "Antonio López de <b><u>Santa Anna</u></b> (prompt on <u>López</u>)",
+  "answerHtml": "Antonio López de <b><u>Santa Anna</u></b> (prompt on <u>López</u> or the <u>Napoleon of the West</u>)",
   "accept": [
     "santa anna",
     "antonio lopez de santa anna",
@@ -57,7 +57,6 @@
     "anastasio bustamante",
     "vicente guerrero",
     "guadalupe victoria",
-    "napoleon",
     "napoleon bonaparte",
     "santa fe",
     "san antonio",
@@ -113,7 +112,7 @@
       "r": "That charge came at San Jacinto, where he was defeated and captured. For 10 points, name this Mexican general who had won at the Alamo."
     },
     {
-      "p": "Before this general’s final attack on an old mission in San Antonio, his army raised a red flag and played the bugle call “Degüello” [“day-GWAY-yoh”] to signal that no mercy would be shown. William Travis, Jim Bowie, and Davy Crockett died in that attack.",
+      "p": "When this general’s army began its siege of an old mission in San Antonio, it raised a red flag, and during the final attack its buglers played the “Degüello” [“day-GWAY-yoh”]; both signaled that no mercy would be shown. William Travis, Jim Bowie, and Davy Crockett died in that attack.",
       "r": "For 10 points, name this Mexican general who won the Battle of the Alamo in 1836."
     },
     {
@@ -287,7 +286,7 @@
     {
       "id": "deguello",
       "tier": "middle",
-      "t": "At the Alamo, his army raised a red flag and played the “Degüello” bugle call, meaning no mercy",
+      "t": "At the Alamo, his army raised a red flag when the siege began and played the “Degüello” bugle call in the final attack, both meaning no mercy",
       "k": [
         "degüello",
         "red flag",
@@ -410,8 +409,8 @@
   "trap": {
     "title": "Which side, which war?",
     "body": "Santa Anna shows up in two wars a decade apart: the Texas Revolution (the Alamo, Goliad, and San Jacinto in 1836) and the Mexican-American War (Buena Vista and Cerro Gordo in 1847). Players who buzz early on “San Jacinto” sometimes blurt out Sam Houston, the Texian general who beat him, and questions about the Alamo or the Gadsden Purchase may want the event rather than the man.",
-    "fix": "Listen for “this man” or “this general,” then ask which side he was on. The Mexican leader who called himself the “Napoleon of the West,” lost a leg in the Pastry War, and served as president many times is Santa Anna. Sam Houston commanded the Texian army and became the first president of the Republic of Texas.",
-    "line": "Real answer line: Antonio López de <b><u>Santa Anna</u></b> (prompt on <u>López</u>)"
+    "fix": "Listen for “this man” or “this general,” then ask which side he was on. The Mexican leader who called himself the “Napoleon of the West,” lost a leg in the Pastry War, and served as president many times is Santa Anna. Sam Houston commanded the Texian army and became the first elected president of the Republic of Texas.",
+    "line": "Real answer line: Antonio López de <b><u>Santa Anna</u></b> (prompt on <u>López</u> or the <u>Napoleon of the West</u>)"
   },
   "tests": {
     "right": [
@@ -423,7 +422,8 @@
     ],
     "prompt": [
       "Lopez",
-      "Napoleon of the West"
+      "Napoleon of the West",
+      "the Napoleon of the West"
     ],
     "wrong": [
       "Sam Houston",

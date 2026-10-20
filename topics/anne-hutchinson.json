@@ -7,7 +7,7 @@
   "kicker": "Puritan dissenter banished from Massachusetts Bay · Co-founded Portsmouth, R.I.",
   "dates": "1591–1643",
   "briefing": "In the 1630s, Anne Hutchinson, a midwife and mother of 15, packed her Boston home with neighbors eager to hear her discuss the week’s sermons, and she told them that most of the colony’s ministers were teaching salvation the wrong way. In 1637, Massachusetts Bay’s leaders put her on trial, and Governor John Winthrop’s court banished her as “a woman not fit for our society.” She helped found Portsmouth, in what became Rhode Island.",
-  "answerHtml": "Anne <b><u>Hutchinson</u></b> (or Anne <u>Marbury</u>; do not accept “Thomas Hutchinson”)",
+  "answerHtml": "Anne <b><u>Hutchinson</u></b> (or <u>Anne Marbury</u>; do not accept “Thomas Hutchinson”)",
   "accept": [
     "anne hutchinson",
     "hutchinson",
@@ -43,7 +43,6 @@
     "thomas hooker",
     "hooker",
     "hester prynne",
-    "marbury",
     "francis marbury",
     "william marbury",
     "marbury v madison"
@@ -423,7 +422,7 @@
     "title": "Which banished Puritan?",
     "body": "Massachusetts Bay banished two famous dissenters in the 1630s, and both ended up in what became Rhode Island. Roger Williams was banished in 1635 and founded Providence; Anne Hutchinson was banished after her 1637 trial and helped found Portsmouth. Saying “Williams” on a Hutchinson question loses the tossup, and so does “Thomas Hutchinson,” her great-great-grandson, who was royal governor during the Boston Tea Party.",
     "fix": "Hutchinson clues: a woman, a midwife, meetings in her home, the covenant of grace, the Antinomian Controversy, and John Winthrop’s trial. Williams clues: separation of church and state, the Narragansett, _The Bloudy Tenent of Persecution_, and Providence. If you hear tea ships or the Boston Massacre, the Hutchinson they want is Thomas.",
-    "line": "Real answer line: Anne <b><u>Hutchinson</u></b> (or Anne <u>Marbury</u>; do not accept “Thomas Hutchinson”)"
+    "line": "Real answer line: Anne <b><u>Hutchinson</u></b> (or <u>Anne Marbury</u>; do not accept “Thomas Hutchinson”)"
   },
   "tests": {
     "right": [
@@ -431,7 +430,8 @@
       "Hutchinson",
       "Ann Hutchinson",
       "Anne Hutchison",
-      "Mistress Hutchinson"
+      "Mistress Hutchinson",
+      "Ann Marbury Hutchinson"
     ],
     "prompt": [],
     "wrong": [

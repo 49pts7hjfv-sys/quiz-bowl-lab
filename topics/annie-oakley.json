@@ -7,7 +7,7 @@
   "kicker": "Sharpshooting star of Buffalo Bill’s Wild West · Nicknamed “Little Sure Shot”",
   "dates": "1860–1926",
   "briefing": "Annie Oakley grew up poor in rural Ohio and began hunting as a girl to help feed her family. She became the most famous sharpshooter in the world as a star of Buffalo Bill’s Wild West, splitting playing cards held edge-on and hitting targets behind her by aiming with a mirror. Sitting Bull nicknamed her “Little Sure Shot,” and the musical _Annie Get Your Gun_ tells a made-up version of her love story with the marksman Frank Butler.",
-  "answerHtml": "Annie <b><u>Oakley</u></b> (or Phoebe Ann <u>Mosey</u>; prompt on <u>Annie</u> or <u>Little Sure Shot</u>)",
+  "answerHtml": "Annie <b><u>Oakley</u></b> (or <u>Phoebe</u> Ann <u>Mosey</u>; prompt on <u>Annie</u>, <u>Phoebe</u>, or <u>Little Sure Shot</u>)",
   "accept": [
     "annie oakley",
     "oakley",
@@ -40,7 +40,6 @@
     "betty hutton",
     "bernadette peters",
     "gail davis",
-    "moses",
     "wild bill hickok",
     "billy the kid"
   ],
@@ -58,7 +57,7 @@
   },
   "tossups": [
     {
-      "p": "This woman’s parents named her Phoebe Ann, and her family’s last name was Mosey. She began trapping and hunting as a young girl in Darke County, Ohio, and the game she sold helped pay off the mortgage on her mother’s farm.",
+      "p": "This woman was born with the last name Mosey. She began trapping and hunting as a young girl in Darke County, Ohio, and the game she sold helped pay off the mortgage on her mother’s farm.",
       "r": "Sitting Bull later nicknamed her “Little Sure Shot.” For 10 points, name this sharpshooter who starred in Buffalo Bill’s Wild West."
     },
     {
@@ -78,7 +77,7 @@
       "r": "That show was Buffalo Bill’s Wild West. For 10 points, name this sharpshooter known as “Little Sure Shot.”"
     },
     {
-      "p": "During Queen Victoria’s Golden Jubilee year of 1887, this performer amazed crowds in London, including the queen herself, while touring England with an American show. She had joined that show two years earlier and stayed with it until 1901.",
+      "p": "During Queen Victoria’s Golden Jubilee year of 1887, this performer amazed crowds in London, including the queen herself, while touring England with an American show. She had joined that show two years earlier, and her final season with it came in 1901.",
       "r": "That show was Buffalo Bill’s Wild West. For 10 points, name this American sharpshooter nicknamed “Little Sure Shot.”"
     },
     {
@@ -370,7 +369,7 @@
     {
       "id": "sixteen-years",
       "tier": "power",
-      "t": "Spent about sixteen years with Buffalo Bill’s Wild West and toured Europe with it more than once",
+      "t": "Starred in Buffalo Bill’s Wild West for most of the sixteen years from 1885 to 1901 and toured Europe with it more than once",
       "k": [
         "sixteen years",
         "europe"
@@ -382,7 +381,7 @@
     "title": "Not Calamity Jane!",
     "body": "Two famous women of the Wild West get mixed up. Annie Oakley was a sharpshooter from Ohio who performed in Buffalo Bill’s Wild West; Calamity Jane was a frontierswoman linked to Deadwood, in the Dakota Territory, and to Wild Bill Hickok. A question about the musical _Annie Get Your Gun_ may also ask for the show itself, and early clues about Buffalo Bill or Frank Butler can tempt you to name the wrong person.",
     "fix": "Oakley clues: Ohio, Frank Butler, Sitting Bull’s nickname “Little Sure Shot,” trick shots with playing cards and mirrors, and Queen Victoria. Calamity Jane clues: Deadwood and Wild Bill Hickok. Listen for “this woman” versus “this musical,” and if you only say “Annie,” expect a prompt.",
-    "line": "Real answer line: Annie <b><u>Oakley</u></b> (or Phoebe Ann <u>Mosey</u>)"
+    "line": "Real answer line: Annie <b><u>Oakley</u></b> (or <u>Phoebe</u> Ann <u>Mosey</u>)"
   },
   "tests": {
     "right": [
@@ -390,7 +389,8 @@
       "Oakley",
       "Annie Okley",
       "Phoebe Ann Mosey",
-      "annie oakly"
+      "annie oakly",
+      "Phoebe Anne Moses"
     ],
     "prompt": [
       "Annie",

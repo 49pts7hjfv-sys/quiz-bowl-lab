@@ -20,7 +20,6 @@
     "marthasville"
   ],
   "reject": [
-    "georgia",
     "state of georgia",
     "savannah",
     "savannah georgia",
@@ -82,7 +81,7 @@
     },
     {
       "p": "In 1996, security guard Richard Jewell spotted a suspicious backpack in this city’s Centennial Olympic Park and helped move people away before the bomb inside it exploded. Jewell was wrongly suspected of the crime and later cleared, a story told in a 2019 Clint Eastwood film.",
-      "r": "That park was built for the 1996 Summer Olympics, which Muhammad Ali opened by lighting the cauldron. For 10 points, name this Georgia city."
+      "r": "That park was built for the 1996 Summer Olympics, where Muhammad Ali lit the cauldron at the opening ceremony. For 10 points, name this Georgia city."
     },
     {
       "p": "At the Cotton States and International Exposition held in this city in 1895, Booker T. Washington told his audience to “cast down your bucket where you are.” W. E. B. Du Bois, who taught for years at a university in this city, later attacked that speech as a “compromise.”",
@@ -171,7 +170,7 @@
     {
       "id": "olympics",
       "tier": "giveaway",
-      "t": "Hosted the 1996 Summer Olympics, the Centennial Games, which Muhammad Ali opened by lighting the cauldron",
+      "t": "Hosted the 1996 Summer Olympics, the Centennial Games, where Muhammad Ali lit the cauldron at the opening ceremony",
       "k": [
         "olympics",
         "1996",
@@ -435,7 +434,7 @@
     "title": "City, state, or Savannah?",
     "body": "Many Atlanta clues are also Georgia clues, and some Civil War clues point to a different Georgia city. Sherman’s March to the Sea started in Atlanta but ended in Savannah, the city he offered Lincoln as a “Christmas gift.” Saying “Georgia” when a question asks for “this city” is wrong, and so is naming the Battle of Atlanta or the Atlanta Compromise when the question wants the city itself.",
     "fix": "Listen for the noun: “this city” wants Atlanta, and “this state” wants Georgia. Hood, McPherson, the cyclorama, and Sherman’s letter to Mayor Calhoun mean Atlanta; the end of the march and the “Christmas gift” mean Savannah. Coca-Cola, the CDC, Martin Luther King Jr.’s birthplace, and the 1996 Olympics all mean Atlanta.",
-    "line": "Real answer line: <b><u>Atlanta</u></b>, Georgia"
+    "line": "Real answer line: <b><u>Atlanta</u></b>, Georgia (prompt on <u>Terminus</u> or <u>Marthasville</u>; do not accept “Georgia”)"
   },
   "tests": {
     "right": [
@@ -443,7 +442,8 @@
       "Atlanta, Georgia",
       "Atlanta, GA",
       "Atlnta",
-      "the city of Atlanta"
+      "the city of Atlanta",
+      "the city of Atlanta, Georgia"
     ],
     "prompt": [
       "Terminus",
