@@ -1,0 +1,337 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "pituitary-gland",
+    "name": "Pituitary gland",
+    "mono": "PIT",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Pea-sized gland under the brain · Nicknamed the “master gland”",
+    "dates": "Weighs only about half a gram",
+    "briefing": "The pituitary gland is a pea-sized gland that hangs from the underside of the brain, tucked into a bony pocket in the skull. It is nicknamed the “master gland” because its hormones tell other glands, like the thyroid and adrenal glands, what to do, and it also makes growth hormone. But the pituitary has a boss of its own: the hypothalamus, the brain region just above it.",
+    "answerHtml": "<b><u>Pituitary</u></b> gland (accept <u>hypophysis</u>; prompt on <u>master gland</u>; do not accept “hypothalamus” or “pineal gland”)",
+    "accept": [
+        "pituitary gland",
+        "pituitary",
+        "pituitary body",
+        "hypophysis"
+    ],
+    "prompt": [
+        "master gland",
+        "endocrine gland",
+        "gland"
+    ],
+    "reject": [
+        "hypothalamus",
+        "thalamus",
+        "pineal gland",
+        "pineal body",
+        "pineal",
+        "thyroid gland",
+        "thyroid",
+        "parathyroid glands",
+        "parathyroid gland",
+        "parathyroid",
+        "adrenal glands",
+        "adrenal gland",
+        "adrenals",
+        "thymus",
+        "pancreas",
+        "pons",
+        "medulla oblongata",
+        "medulla",
+        "cerebellum",
+        "amygdala",
+        "hippocampus",
+        "optic chiasm",
+        "sella turcica",
+        "growth hormone",
+        "hormones"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Pituitary_gland",
+    "qb": {
+        "q": "pituitary",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This gland’s name comes from the Latin word for “phlegm” or “slime,” because ancient physicians such as Galen believed that it drained mucus from the brain into the nose. It sits in a saddle-shaped hollow of the sphenoid [“SFEE-noyd”] bone called the sella turcica [“SEL-uh TUR-sih-kuh”], or “Turkish saddle.”",
+            "r": "It hangs from the hypothalamus by a thin stalk. For 10 points, name this pea-sized “master gland” at the base of the brain."
+        },
+        {
+            "p": "Harvey Cushing, often called the father of modern neurosurgery, described a disease in which a tumor in this gland releases too much ACTH, causing the adrenal glands to make too much cortisol. His 1912 book was devoted to this gland and its disorders.",
+            "r": "For 10 points, name this gland at the base of the brain that is controlled by the hypothalamus."
+        },
+        {
+            "p": "Robert Wadlow, the tallest person in recorded history at 8 feet 11 inches, grew so tall because this gland of his released far too much of a growth-promoting hormone. In adults, too much of that hormone causes acromegaly [“ak-roh-MEG-uh-lee”], in which the hands, feet, and jaw slowly enlarge.",
+            "r": "That hormone is growth hormone. For 10 points, name this pea-sized gland at the base of the brain."
+        },
+        {
+            "p": "Argentine scientist Bernardo Houssay [“oo-SY”] shared the 1947 Nobel Prize for showing that hormones from the front lobe of this gland affect how the body handles sugar. He was the first Latin American to win a Nobel Prize in a science.",
+            "r": "For 10 points, name this gland at the base of the brain, nicknamed the “master gland.”"
+        },
+        {
+            "p": "Roger Guillemin [“gee-yuh-MAN”] and Andrew Schally shared a 1977 Nobel Prize for identifying “releasing” hormones, such as TRH, that the hypothalamus sends to this gland through a tiny system of portal blood vessels. Geoffrey Harris had earlier shown that those vessels link the hypothalamus to this gland’s front lobe.",
+            "r": "It makes growth hormone. For 10 points, name this pea-sized gland, nicknamed the “master gland,” that hangs below the brain."
+        },
+        {
+            "p": "This gland sits just below the optic chiasm [“KY-az-um”], where the optic nerves cross, so a tumor growing upward from it can cause loss of side vision in both eyes. A thin stalk called the infundibulum [“in-fun-DIB-yoo-lum”] connects this gland to the brain.",
+            "r": "It releases growth hormone. For 10 points, name this pea-sized “master gland” that hangs below the hypothalamus."
+        },
+        {
+            "p": "The back lobe of this gland is made of nerve tissue and does not make its own hormones; instead, it stores and releases oxytocin [“ok-sih-TOH-sin”] and vasopressin [“vay-zoh-PRESS-in”], which are made in the hypothalamus. Too little vasopressin from it causes diabetes insipidus, in which the kidneys release too much water.",
+            "r": "It is nicknamed the “master gland.” For 10 points, name this pea-sized gland whose front lobe makes growth hormone."
+        },
+        {
+            "p": "This gland’s front lobe releases two gonadotropins [“go-nad-oh-TROH-pinz”], FSH and LH, which act on the ovaries and testes, as well as prolactin, which tells the body to make milk. Students remember that lobe’s six main hormones with the mnemonic “FLAT PeG.”",
+            "r": "The G in that mnemonic stands for growth hormone. For 10 points, name this pea-sized gland below the hypothalamus."
+        },
+        {
+            "p": "Cells called thyrotropes [“THY-roh-trohps”] in this gland make thyroid-stimulating hormone, and they release less of it when thyroxine levels in the blood rise, a classic example of negative feedback. Other cells in this gland, called lactotropes, make prolactin.",
+            "r": "For 10 points, name this gland at the base of the brain, nicknamed the “master gland.”"
+        },
+        {
+            "p": "A large protein called POMC is cut up inside this gland to make several smaller signals, including ACTH, beta-endorphin, and melanocyte-stimulating hormone. In many animals, a middle section of this gland called the intermediate lobe releases that last hormone, which darkens skin.",
+            "r": "It hangs just below the hypothalamus. For 10 points, name this pea-sized gland that also releases growth hormone."
+        },
+        {
+            "p": "When a person is stressed, the hypothalamus releases corticotropin-releasing hormone, which travels a short distance to this gland and makes it release ACTH. ACTH then travels to the adrenal glands, which respond by releasing cortisol.",
+            "r": "That chain of signals is called the HPA axis. For 10 points, name this gland, nicknamed the “master gland.”"
+        },
+        {
+            "p": "This gland releases much of its somatotropin [“soh-muh-toh-TROH-pin”] during the deepest stage of sleep, when slow delta waves appear on an EEG. Somatotropin tells the liver to make a growth factor called IGF-1, which helps bones and muscles grow.",
+            "r": "Somatotropin is better known as growth hormone. For 10 points, name this pea-sized gland at the base of the brain."
+        },
+        {
+            "p": "French neurologist Pierre Marie named acromegaly in 1886, from Greek words meaning “large extremities,” and doctors later traced that condition to tumors of this gland. The wrestler André the Giant had acromegaly.",
+            "r": "Those tumors release too much growth hormone. For 10 points, name this pea-sized gland at the base of the brain."
+        },
+        {
+            "p": "The front lobe of this gland develops in the embryo from an upward pouch of tissue from the roof of the mouth called Rathke’s [“RAHT-kuhz”] pouch, while its back lobe grows down from the brain. That is why the two lobes are made of very different kinds of tissue.",
+            "r": "For 10 points, name this two-lobed gland at the base of the brain, nicknamed the “master gland.”"
+        },
+        {
+            "p": "Vincent du Vigneaud [“doo VEEN-yoh”] won the 1955 Nobel Prize in Chemistry for making a hormone released by this gland’s back lobe in the lab. That hormone, oxytocin, is a rare example of positive feedback, since the contractions it triggers during childbirth cause even more of it to be released.",
+            "r": "This gland weighs only about half a gram. For 10 points, name this pea-sized gland that hangs below the hypothalamus."
+        }
+    ],
+    "clues": [
+        {
+            "id": "master-gland",
+            "tier": "giveaway",
+            "t": "Nicknamed the “master gland” because its hormones control other glands",
+            "k": ["master", "other glands"],
+            "n": 0
+        },
+        {
+            "id": "pea-sized",
+            "tier": "giveaway",
+            "t": "A pea-sized gland, weighing about half a gram, that hangs from the underside of the brain",
+            "k": ["pea-sized", "underside of the brain", "half a gram"],
+            "n": 0,
+            "rabbit": "Brain"
+        },
+        {
+            "id": "growth-hormone",
+            "tier": "giveaway",
+            "t": "Makes growth hormone (somatotropin), which helps children grow",
+            "k": ["growth hormone", "somatotropin"],
+            "n": 0
+        },
+        {
+            "id": "hypothalamus",
+            "tier": "giveaway",
+            "t": "Hangs by a thin stalk from the hypothalamus, which controls it",
+            "k": ["hypothalamus", "stalk"],
+            "n": 0
+        },
+        {
+            "id": "two-lobes",
+            "tier": "middle",
+            "t": "Has a front (anterior) lobe made of gland tissue and a back (posterior) lobe made of nerve tissue",
+            "k": ["anterior", "posterior", "lobe"],
+            "n": 0
+        },
+        {
+            "id": "posterior-hormones",
+            "tier": "middle",
+            "t": "The back lobe stores and releases oxytocin and vasopressin (ADH), which are made in the hypothalamus",
+            "k": ["oxytocin", "vasopressin", "adh"],
+            "n": 0,
+            "rabbit": "Hormones"
+        },
+        {
+            "id": "anterior-hormones",
+            "tier": "middle",
+            "t": "The front lobe makes TSH, ACTH, FSH, LH, prolactin, and growth hormone (remembered as “FLAT PeG”)",
+            "k": ["prolactin", "flat peg", "tsh", "acth"],
+            "n": 0
+        },
+        {
+            "id": "negative-feedback",
+            "tier": "middle",
+            "t": "Rising thyroxine makes it release less thyroid-stimulating hormone (TSH), a classic case of negative feedback",
+            "k": ["negative feedback", "thyroxine", "thyroid-stimulating"],
+            "n": 0,
+            "rabbit": "Thyroid gland"
+        },
+        {
+            "id": "acth-cortisol",
+            "tier": "middle",
+            "t": "Its ACTH tells the adrenal glands to make cortisol, part of the stress response called the HPA axis",
+            "k": ["cortisol", "adrenal", "hpa axis"],
+            "n": 0,
+            "rabbit": "Adrenal glands"
+        },
+        {
+            "id": "gigantism",
+            "tier": "middle",
+            "t": "Too much growth hormone causes gigantism in children (as with Robert Wadlow) and acromegaly in adults",
+            "k": ["gigantism", "acromegaly", "robert wadlow"],
+            "n": 0
+        },
+        {
+            "id": "sleep",
+            "tier": "middle",
+            "t": "Releases much of its growth hormone during deep, slow-wave sleep; growth hormone tells the liver to make IGF-1",
+            "k": ["slow-wave", "igf-1", "liver"],
+            "n": 0,
+            "rabbit": "Sleep"
+        },
+        {
+            "id": "diabetes-insipidus",
+            "tier": "middle",
+            "t": "Too little vasopressin from it causes diabetes insipidus, in which the kidneys release too much water",
+            "k": ["diabetes insipidus", "kidneys"],
+            "n": 0
+        },
+        {
+            "id": "phlegm",
+            "tier": "power",
+            "t": "Its name comes from the Latin word for “phlegm,” since Galen thought it drained mucus from the brain to the nose",
+            "k": ["phlegm", "galen", "mucus"],
+            "n": 0
+        },
+        {
+            "id": "sella-turcica",
+            "tier": "power",
+            "t": "Sits in the sella turcica (“Turkish saddle”), a hollow in the sphenoid bone",
+            "k": ["sella turcica", "turkish saddle", "sphenoid"],
+            "n": 0
+        },
+        {
+            "id": "cushing",
+            "tier": "power",
+            "t": "Harvey Cushing, the father of modern neurosurgery, described a disease in which a tumor here makes too much ACTH, raising cortisol",
+            "k": ["harvey cushing", "neurosurgery"],
+            "n": 0
+        },
+        {
+            "id": "houssay",
+            "tier": "power",
+            "t": "Bernardo Houssay won the 1947 Nobel Prize for showing that its front-lobe hormones affect sugar use; he was the first Latin American science Nobel winner",
+            "k": ["houssay", "1947", "latin american"],
+            "n": 0
+        },
+        {
+            "id": "guillemin-schally",
+            "tier": "power",
+            "t": "Roger Guillemin and Andrew Schally (1977 Nobel Prize) found the hypothalamus’s “releasing” hormones; Geoffrey Harris showed the portal vessels that carry them",
+            "k": ["guillemin", "schally", "geoffrey harris", "portal"],
+            "n": 0
+        },
+        {
+            "id": "optic-chiasm",
+            "tier": "power",
+            "t": "Sits just below the optic chiasm, so a tumor here can cause loss of side vision; a stalk called the infundibulum connects it to the brain",
+            "k": ["optic chiasm", "infundibulum", "side vision"],
+            "n": 0
+        },
+        {
+            "id": "gonadotropins",
+            "tier": "power",
+            "t": "Its gonadotropins, FSH and LH, act on the ovaries and testes; its prolactin tells the body to make milk",
+            "k": ["gonadotropins", "fsh", "lh"],
+            "n": 0
+        },
+        {
+            "id": "thyrotropes",
+            "tier": "power",
+            "t": "Its cell types are named for what they make: thyrotropes make TSH and lactotropes make prolactin",
+            "k": ["thyrotropes", "lactotropes"],
+            "n": 0
+        },
+        {
+            "id": "pomc",
+            "tier": "power",
+            "t": "POMC is cut up inside it into ACTH, beta-endorphin, and melanocyte-stimulating hormone; in many animals an intermediate lobe releases that last one",
+            "k": ["pomc", "beta-endorphin", "intermediate lobe"],
+            "n": 0
+        },
+        {
+            "id": "pierre-marie",
+            "tier": "power",
+            "t": "Pierre Marie named acromegaly (“large extremities”) in 1886; the wrestler André the Giant had it",
+            "k": ["pierre marie", "1886", "andré the giant"],
+            "n": 0
+        },
+        {
+            "id": "rathke",
+            "tier": "power",
+            "t": "Its front lobe develops from Rathke’s pouch in the roof of the embryo’s mouth, while its back lobe grows down from the brain",
+            "k": ["rathke’s pouch", "roof of the embryo’s mouth"],
+            "n": 0
+        },
+        {
+            "id": "du-vigneaud",
+            "tier": "power",
+            "t": "Vincent du Vigneaud won the 1955 Nobel Prize in Chemistry for making oxytocin in the lab; oxytocin shows positive feedback during childbirth",
+            "k": ["du vigneaud", "1955", "positive feedback"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Pituitary or hypothalamus?",
+        "body": "The pituitary and the hypothalamus work as a team, so tossups describe both: the hypothalamus sends “releasing” hormones down to the pituitary and makes the oxytocin and vasopressin that the pituitary’s back lobe stores. Players also confuse the pituitary with the pineal gland, a different small gland in the brain that makes melatonin, and with the thyroid, which the pituitary controls.",
+        "fix": "“This gland” that is pea-sized, sits in the sella turcica, makes growth hormone, TSH, or ACTH, or is called the “master gland” means the pituitary. “This brain region” that sends releasing hormones means the hypothalamus, and melatonin or sleep cycles mean the pineal gland.",
+        "line": "Real answer line: <b><u>Pituitary</u></b> gland (accept <u>hypophysis</u>; prompt on <u>master gland</u>; do not accept “hypothalamus” or “pineal gland”)"
+    },
+    "tests": {
+        "right": [
+            "Pituitary gland",
+            "pituitary",
+            "Hypophysis",
+            "Pituatary",
+            "anterior pituitary",
+            "the pituitary gland"
+        ],
+        "prompt": [
+            "Master gland",
+            "Gland"
+        ],
+        "wrong": [
+            "Hypothalamus",
+            "Pineal gland",
+            "Thyroid",
+            "Adrenal glands",
+            "Thalamus",
+            "Pancreas",
+            "Growth hormone"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

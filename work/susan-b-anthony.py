@@ -1,0 +1,318 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "susan-b-anthony",
+    "name": "Susan B. Anthony",
+    "mono": "SBA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Leader of the fight for women’s suffrage · Arrested for voting in 1872",
+    "dates": "1820–1906",
+    "briefing": "In November 1872, Susan B. Anthony walked into a polling place in Rochester, New York, and cast a ballot for president, even though women were not allowed to vote. She was arrested, put on trial, and fined $100, which she refused to pay. With her partner Elizabeth Cady Stanton, she fought for women’s right to vote for more than 50 years, and the 19th Amendment that finally won it in 1920 was nicknamed for her.",
+    "answerHtml": "Susan B. <b><u>Anthony</u></b> (or Susan Brownell <b><u>Anthony</u></b>)",
+    "accept": [
+        "susan b anthony",
+        "anthony",
+        "susan anthony",
+        "susan brownell anthony"
+    ],
+    "prompt": [
+        "susan",
+        "susan b"
+    ],
+    "reject": [
+        "elizabeth cady stanton",
+        "cady stanton",
+        "stanton",
+        "lucy stone",
+        "lucretia mott",
+        "alice paul",
+        "carrie chapman catt",
+        "sojourner truth",
+        "amelia bloomer",
+        "anthony burgess",
+        "mark antony",
+        "marc antony",
+        "anthony wayne",
+        "saint anthony",
+        "st anthony",
+        "anthony kennedy",
+        "anthony comstock"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Susan_B._Anthony",
+    "qb": {
+        "q": "Susan B. Anthony",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "As head of the girls’ department at Canajoharie [“kan-uh-juh-HAIR-ee”] Academy in New York in the 1840s, this woman objected that male teachers were paid far more than women. Raised as a Quaker, she later left teaching to work full-time for reform causes.",
+            "r": "For 10 points, name this woman who was arrested for voting in 1872 and later appeared on a dollar coin."
+        },
+        {
+            "p": "In 1852, men at a Sons of Temperance meeting in Albany would not let women speak, so this woman and her closest ally started a women’s temperance society. She later worked as a New York agent for the American Anti-Slavery Society.",
+            "r": "That ally was Elizabeth Cady Stanton. For 10 points, name this suffragist who was arrested for voting in Rochester in 1872."
+        },
+        {
+            "p": "During the Civil War, this woman and a close friend founded the Women’s Loyal National League, which gathered about 400,000 signatures on petitions asking Congress to end slavery with a constitutional amendment. That amendment became the 13th Amendment in 1865.",
+            "r": "For 10 points, name this reformer who was fined $100 after voting in the 1872 presidential election."
+        },
+        {
+            "p": "In 1868, this woman began publishing a weekly newspaper called _The Revolution_, paid for at first by the businessman George Francis Train, with her longtime partner as its editor. The paper ran up large debts, which this woman spent years paying off.",
+            "r": "That partner was Elizabeth Cady Stanton. For 10 points, name this suffragist who was honored on a dollar coin in 1979."
+        },
+        {
+            "p": "Her longtime partner described their teamwork by saying, “I forged the thunderbolts, she fired them,” because this woman delivered many of the speeches her partner wrote. This woman never married and spent decades traveling to give lectures.",
+            "r": "Her partner was Elizabeth Cady Stanton. For 10 points, name this leader of the women’s suffrage movement."
+        },
+        {
+            "p": "At a June 1873 trial in Canandaigua [“kan-un-DAY-gwuh”], New York, Judge Ward Hunt did not let this defendant testify and ordered the jury to find her guilty. She told the judge she would never pay a dollar of his “unjust penalty.”",
+            "r": "She had been arrested for voting in the 1872 election. For 10 points, name this suffragist."
+        },
+        {
+            "p": "Before her trial, this woman toured her home county giving a speech titled “Is It a Crime for a Citizen of the United States to Vote?” In it, she argued that the Constitution’s “we, the people” meant “the whole people,” women as well as men.",
+            "r": "For 10 points, name this woman who was arrested for voting in Rochester in 1872."
+        },
+        {
+            "p": "This woman worked with Matilda Joslyn Gage and her best-known partner to write the first volumes of the _History of Woman Suffrage_, which began appearing in 1881. In 1869, she and that same partner had founded the National Woman Suffrage Association.",
+            "r": "For 10 points, name this suffragist whose face appeared on a dollar coin first minted in 1979."
+        },
+        {
+            "p": "This woman was born in 1820 in Adams, Massachusetts, to a Quaker family that opposed slavery and believed in educating girls. Her family later moved to a farm near Rochester, New York, the city that became her home.",
+            "r": "For 10 points, name this woman who was arrested in Rochester for voting in 1872 and became the most famous leader of the fight for women’s suffrage."
+        },
+        {
+            "p": "In 1851, Amelia Bloomer introduced this woman on a street to the main organizer of a famous convention held in the same New York town three years earlier. This woman had not attended that 1848 convention.",
+            "r": "Her new friend was Elizabeth Cady Stanton. For 10 points, name this suffragist, who was arrested for voting in 1872."
+        },
+        {
+            "p": "In 1869, this woman co-founded the National Woman Suffrage Association after she opposed the 15th Amendment for leaving out women. Lucy Stone and others formed a rival group, the American Woman Suffrage Association, and the two groups did not merge until 1890.",
+            "r": "For 10 points, name this suffragist who worked for decades with Elizabeth Cady Stanton."
+        },
+        {
+            "p": "From 1892 to 1900, this woman served as president of the National American Woman Suffrage Association, and then she handed that job to Carrie Chapman Catt. She had taken over the group from her longtime friend, its first president.",
+            "r": "For 10 points, name this suffragist who died 14 years before the 19th Amendment was ratified."
+        },
+        {
+            "p": "At her 86th birthday celebration in Washington in February 1906, this woman ended her last public speech with the words “Failure is impossible.” She died about a month later at her home in Rochester, New York.",
+            "r": "The 19th Amendment was later nicknamed for her. For 10 points, name this suffragist."
+        },
+        {
+            "p": "In 1878, California senator Aaron Sargent introduced a constitutional amendment drafted by this woman and her partner, which said the right to vote could not be denied “on account of sex.” It took more than 40 years for Congress to pass it.",
+            "r": "Ratified in 1920 as the 19th Amendment, it was nicknamed for her. For 10 points, name this suffragist."
+        },
+        {
+            "p": "On Election Day, many voters in Rochester, New York, place “I Voted” stickers on this woman’s gravestone in Mount Hope Cemetery. Her house in that city, where she died in 1906, is a museum.",
+            "r": "A dollar coin honoring her was first minted in 1979. For 10 points, name this suffragist who was arrested for voting in 1872."
+        }
+    ],
+    "clues": [
+        {
+            "id": "suffrage-leader",
+            "tier": "giveaway",
+            "t": "Leader of the 1800s fight for women’s suffrage (the right to vote)",
+            "k": ["women’s suffrage", "suffrage", "right to vote"],
+            "n": 0,
+            "rabbit": "Women’s Suffrage"
+        },
+        {
+            "id": "arrested-1872",
+            "tier": "giveaway",
+            "t": "Arrested for voting in the 1872 presidential election in Rochester, New York",
+            "k": ["arrested", "1872", "rochester"],
+            "n": 0
+        },
+        {
+            "id": "stanton-partner",
+            "tier": "giveaway",
+            "t": "Worked side by side with Elizabeth Cady Stanton for about 50 years",
+            "k": ["elizabeth cady stanton", "stanton", "50 years"],
+            "n": 0,
+            "rabbit": "Elizabeth Cady Stanton"
+        },
+        {
+            "id": "dollar-coin",
+            "tier": "giveaway",
+            "t": "Honored on a dollar coin first minted in 1979, the first circulating U.S. coin to show a real woman",
+            "k": ["dollar coin", "1979", "coin"],
+            "n": 0
+        },
+        {
+            "id": "nineteenth",
+            "tier": "giveaway",
+            "t": "The 19th Amendment (1920) was nicknamed for her; she died 14 years before it was ratified",
+            "k": ["19th amendment", "1920", "nicknamed"],
+            "n": 0
+        },
+        {
+            "id": "trial-fine",
+            "tier": "middle",
+            "t": "At her 1873 trial, Judge Ward Hunt ordered the jury to find her guilty; she never paid her $100 fine",
+            "k": ["ward hunt", "$100", "fine", "1873"],
+            "n": 0
+        },
+        {
+            "id": "failure-impossible",
+            "tier": "middle",
+            "t": "Ended her last public speech, at her 86th birthday celebration in 1906, with “Failure is impossible”",
+            "k": ["failure is impossible", "86th birthday", "1906"],
+            "n": 0
+        },
+        {
+            "id": "nwsa",
+            "tier": "middle",
+            "t": "Co-founded the National Woman Suffrage Association with Stanton in 1869",
+            "k": ["national woman suffrage association", "nwsa", "1869"],
+            "n": 0
+        },
+        {
+            "id": "split-15th",
+            "tier": "middle",
+            "t": "Opposed the 15th Amendment because it left out women, splitting the movement from Lucy Stone’s rival group",
+            "k": ["15th amendment", "lucy stone", "rival"],
+            "n": 0
+        },
+        {
+            "id": "nawsa",
+            "tier": "middle",
+            "t": "President of NAWSA (1892–1900), formed when the rival groups merged in 1890; Carrie Chapman Catt followed her",
+            "k": ["nawsa", "carrie chapman catt", "catt", "1890"],
+            "n": 0
+        },
+        {
+            "id": "temperance",
+            "tier": "middle",
+            "t": "Began in the temperance movement; when men wouldn’t let her speak at an 1852 meeting, she and Stanton started a women’s temperance society",
+            "k": ["temperance", "1852"],
+            "n": 0
+        },
+        {
+            "id": "abolitionist",
+            "tier": "middle",
+            "t": "Worked as a New York agent for the American Anti-Slavery Society",
+            "k": ["american anti-slavery society", "anti-slavery", "agent"],
+            "n": 0
+        },
+        {
+            "id": "seneca-falls",
+            "tier": "middle",
+            "t": "Was not at the 1848 Seneca Falls Convention; Amelia Bloomer introduced her to Stanton in 1851",
+            "k": ["seneca falls", "amelia bloomer", "1851"],
+            "n": 0,
+            "rabbit": "Seneca Falls Convention"
+        },
+        {
+            "id": "canajoharie",
+            "tier": "power",
+            "t": "Taught at Canajoharie Academy in the 1840s and objected that women teachers were paid far less than men",
+            "k": ["canajoharie", "teachers", "paid"],
+            "n": 0
+        },
+        {
+            "id": "loyal-league",
+            "tier": "power",
+            "t": "During the Civil War, her Women’s Loyal National League gathered about 400,000 signatures for an amendment to end slavery",
+            "k": ["loyal national league", "400,000", "signatures"],
+            "n": 0
+        },
+        {
+            "id": "revolution",
+            "tier": "power",
+            "t": "Published the newspaper _The Revolution_ (starting in 1868), first funded by George Francis Train, with Stanton as editor",
+            "k": ["the revolution", "george francis train", "newspaper"],
+            "n": 0
+        },
+        {
+            "id": "thunderbolts",
+            "tier": "power",
+            "t": "Stanton said of their teamwork: “I forged the thunderbolts, she fired them”",
+            "k": ["thunderbolts", "forged"],
+            "n": 0
+        },
+        {
+            "id": "canandaigua",
+            "tier": "power",
+            "t": "Her trial was held in Canandaigua, New York, and the judge did not let her testify",
+            "k": ["canandaigua", "testify"],
+            "n": 0
+        },
+        {
+            "id": "crime-to-vote",
+            "tier": "power",
+            "t": "Before her trial, gave the speech “Is It a Crime for a Citizen of the United States to Vote?” arguing that “we, the people” meant “the whole people”",
+            "k": ["is it a crime", "whole people", "we, the people"],
+            "n": 0
+        },
+        {
+            "id": "history-of-suffrage",
+            "tier": "power",
+            "t": "Co-wrote the _History of Woman Suffrage_ (from 1881) with Stanton and Matilda Joslyn Gage",
+            "k": ["history of woman suffrage", "matilda joslyn gage", "gage"],
+            "n": 0
+        },
+        {
+            "id": "adams-quaker",
+            "tier": "power",
+            "t": "Born in 1820 in Adams, Massachusetts, and raised as a Quaker",
+            "k": ["adams", "massachusetts", "quaker", "1820"],
+            "n": 0
+        },
+        {
+            "id": "sargent",
+            "tier": "power",
+            "t": "Senator Aaron Sargent introduced her “on account of sex” amendment in 1878; the same words became the 19th Amendment",
+            "k": ["aaron sargent", "sargent", "1878", "on account of sex"],
+            "n": 0
+        },
+        {
+            "id": "i-voted",
+            "tier": "power",
+            "t": "On Election Day, voters put “I Voted” stickers on her grave in Rochester’s Mount Hope Cemetery",
+            "k": ["i voted", "mount hope", "stickers"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Anthony or Stanton?",
+        "body": "Susan B. Anthony and Elizabeth Cady Stanton worked side by side for about 50 years, so their clues often appear in the same tossups. Stanton organized the 1848 Seneca Falls Convention and wrote the Declaration of Sentiments, but Anthony was not there; she met Stanton in 1851. Players also mix Anthony up with Lucy Stone, who led a rival suffrage group starting in 1869, and with Alice Paul, who led protests in the 1910s.",
+        "fix": "Anthony clues: voting in Rochester in 1872, her trial and unpaid $100 fine, “Failure is impossible,” the 1979 dollar coin, and the amendment nicknamed for her. Stanton clues: Seneca Falls, the Declaration of Sentiments, seven children, and _The Woman’s Bible_.",
+        "line": "Real answer line: Susan B. <b><u>Anthony</u></b> (or Susan Brownell <b><u>Anthony</u></b>)"
+    },
+    "tests": {
+        "right": [
+            "Susan B. Anthony",
+            "Anthony",
+            "Susan Anthony",
+            "Susan B. Antony",
+            "Susan Brownell Anthony"
+        ],
+        "prompt": [
+            "Susan",
+            "Susan B."
+        ],
+        "wrong": [
+            "Elizabeth Cady Stanton",
+            "Lucy Stone",
+            "Lucretia Mott",
+            "Anthony Burgess",
+            "Mark Antony",
+            "Alice Paul",
+            "Carrie Chapman Catt"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

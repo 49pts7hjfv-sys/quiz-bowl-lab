@@ -1,0 +1,369 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "Robert <b><u>Bunsen</u></b>"
+
+data = {
+    "id": "robert-bunsen",
+    "name": "Robert Bunsen",
+    "mono": "RB",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "German chemist · Spectroscopy pioneer who found cesium and rubidium",
+    "dates": "1811–1899",
+    "briefing": "Robert Bunsen was a German chemist whose name is on the gas burner in almost every school lab, though his university’s mechanic, Peter Desaga, actually built it in 1855. With physicist Gustav Kirchhoff, Bunsen showed that every element glows with its own pattern of colored lines, and the pair used that method to discover two new elements, cesium and rubidium. Earlier, an exploding arsenic compound had cost him the sight of one eye.",
+    "answerHtml": LINE,
+    "accept": [
+        "robert bunsen",
+        "bunsen",
+        "robert wilhelm bunsen",
+        "robert wilhelm eberhard bunsen",
+        "robert w bunsen",
+        "r w bunsen"
+    ],
+    "prompt": [],
+    "reject": [
+        "bunsen burner",
+        "bunsen burners",
+        "bunsen cell",
+        "bunsen cells",
+        "bunsen battery",
+        "bunsen roscoe law",
+        "bunsen photometer",
+        "bunsen ice calorimeter",
+        "bunsen coefficient",
+        "bunsen valve",
+        "bunsen society",
+        "gustav kirchhoff",
+        "kirchhoff",
+        "henry roscoe",
+        "roscoe",
+        "peter desaga",
+        "desaga",
+        "joseph von fraunhofer",
+        "fraunhofer",
+        "lothar meyer",
+        "dmitri mendeleev",
+        "mendeleev",
+        "humphry davy",
+        "davy",
+        "michael faraday",
+        "faraday",
+        "robert boyle",
+        "boyle",
+        "robert koch",
+        "koch",
+        "robert burns",
+        "justus von liebig",
+        "liebig",
+        "friedrich wohler",
+        "wohler",
+        "emil erlenmeyer",
+        "erlenmeyer",
+        "william crookes",
+        "crookes",
+        "lyon playfair",
+        "playfair",
+        "augustus matthiessen",
+        "arnold berthold",
+        "cesium",
+        "caesium",
+        "rubidium"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Robert_Bunsen",
+    "qb": {
+        "q": "Bunsen",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This chemist lost the sight of one eye when a cacodyl [“KAK-oh-dil”] compound exploded in his laboratory. Cacodyl compounds contain arsenic and get their name from the Greek word for “stinking,” and studying them gave this chemist a dangerous case of arsenic poisoning.",
+            "r": "For 10 points, name this German chemist who, with Gustav Kirchhoff, discovered cesium and rubidium and has a common lab burner named for him."
+        },
+        {
+            "p": "In 1841, this scientist invented a cheaper battery cell by replacing the expensive platinum electrode of William Grove’s cell with carbon. He later used banks of those cells to make magnesium by electrolysis, and with Augustus Matthiessen he made lithium metal in larger amounts.",
+            "r": "For 10 points, name this German chemist whose name is on a gas burner found in school science labs."
+        },
+        {
+            "p": "Working with his student Henry Roscoe, this chemist showed that the amount of chemical change light causes depends on its brightness multiplied by how long it shines, a rule called the reciprocity law. They measured light by how fast it made hydrogen and chlorine combine.",
+            "r": "For 10 points, name this German chemist who taught for decades at Heidelberg and names a lab burner."
+        },
+        {
+            "p": "In 1846, this scientist traveled to Iceland, where he measured temperatures deep inside the Great Geysir [“GAY-seer”] and explained that a geyser erupts when water deep in its tube, heated above 100 °C under pressure, suddenly flashes into steam.",
+            "r": "For 10 points, name this German chemist who discovered cesium and rubidium with Gustav Kirchhoff."
+        },
+        {
+            "p": "In 1870, this chemist invented an ice calorimeter that measures small amounts of heat by tracking how much the volume of an ice-and-water mixture shrinks as the ice melts. He used it to measure the specific heats of rare metals available only in tiny samples.",
+            "r": "For 10 points, name this German chemist who, with Gustav Kirchhoff, founded the use of spectroscopy to identify elements."
+        },
+        {
+            "p": "In 1860, this chemist and a physicist partner boiled down huge amounts of mineral water from Dürkheim and found a new element by its two bright blue spectral lines. They named it from the Latin for “sky blue.”",
+            "r": "That element is cesium. For 10 points, name this German chemist who worked with Gustav Kirchhoff and names a lab burner."
+        },
+        {
+            "p": "In 1861, this chemist and his partner found a new element in the mineral lepidolite [“lep-ID-uh-lite”] by spotting two dark red lines in its spectrum, so they named it from the Latin for “deep red.” It was the second element they discovered together.",
+            "r": "That element is rubidium. For 10 points, name this German chemist who worked with Gustav Kirchhoff."
+        },
+        {
+            "p": "This chemist and a physicist partner showed in 1859 that the dark Fraunhofer [“FROWN-hoh-fer”] lines in sunlight match the bright lines given off by heated elements, revealing, for example, that the Sun contains sodium. That work made it possible to learn what stars are made of.",
+            "r": "His partner was Gustav Kirchhoff. For 10 points, name this German chemist who has a lab burner named for him."
+        },
+        {
+            "p": "This chemist taught at the University of Heidelberg from 1852 until he retired in 1889, and one of his students there, Lothar Meyer, later drew up an early version of the periodic table. Before Heidelberg, he taught at Marburg and Breslau.",
+            "r": "The university mechanic Peter Desaga [“deh-ZAH-gah”] built the gas burner named for him. For 10 points, name this German chemist."
+        },
+        {
+            "p": "In 1877, this chemist and his longtime partner became the first two winners of the Royal Society’s Davy Medal, honoring their work in spectrum analysis. That partner is also known for laws of electric circuits.",
+            "r": "For 10 points, name this German chemist who discovered cesium and rubidium and names a common lab burner."
+        },
+        {
+            "p": "This chemist analyzed the gases escaping from iron blast furnaces in Germany and, with Lyon Playfair, in England, showing that much of the heat from the fuel was being wasted. He also invented a grease-spot photometer for comparing the brightness of two lights.",
+            "r": "For 10 points, name this German chemist, the namesake of a common lab gas burner."
+        },
+        {
+            "p": "In 1859, this chemist and a physicist partner built one of the first spectroscopes for chemical analysis, using a prism to spread the light from a flame into bright lines. They showed that each element always gives off the same lines, no matter which compound it is in.",
+            "r": "That partner was Gustav Kirchhoff. For 10 points, name this German chemist, the namesake of a gas burner used in school labs."
+        },
+        {
+            "p": "The method of spectrum analysis that this chemist helped develop quickly led others to new elements: William Crookes found thallium by its green line in 1861, and Ferdinand Reich and Theodor Richter found indium by its indigo line in 1863.",
+            "r": "For 10 points, name this German chemist who used that method with Gustav Kirchhoff to discover cesium and rubidium."
+        },
+        {
+            "p": "In 1834, this chemist and the doctor Arnold Berthold showed that freshly made hydrated iron oxide works as an antidote for arsenic poisoning, because it binds the arsenic into a compound that does not dissolve.",
+            "r": "For 10 points, name this German chemist who discovered cesium and rubidium with Gustav Kirchhoff and names a lab burner."
+        },
+        {
+            "p": "Germany’s main society for physical chemistry is named for this chemist, who was born in Göttingen [“GUR-ting-en”] in 1811 and earned his doctorate at the university there, where his father was a professor. He died in Heidelberg in 1899.",
+            "r": "For 10 points, name this German chemist who discovered cesium and rubidium with Gustav Kirchhoff and has a lab burner named for him."
+        }
+    ],
+    "clues": [
+        {
+            "id": "burner",
+            "tier": "giveaway",
+            "t": "A common gas burner in school science labs is named for him",
+            "k": ["gas burner", "school science labs"],
+            "n": 0
+        },
+        {
+            "id": "cesium-rubidium",
+            "tier": "giveaway",
+            "t": "With Gustav Kirchhoff, discovered cesium (1860) and rubidium (1861)",
+            "k": ["cesium", "rubidium", "kirchhoff"],
+            "n": 0
+        },
+        {
+            "id": "german",
+            "tier": "giveaway",
+            "t": "German chemist (1811–1899) who taught for decades at the University of Heidelberg",
+            "k": ["german", "heidelberg"],
+            "n": 0
+        },
+        {
+            "id": "spectroscopy",
+            "tier": "giveaway",
+            "t": "Pioneered spectroscopy with Kirchhoff: each element gives off its own pattern of bright lines",
+            "k": ["spectroscopy", "bright lines"],
+            "n": 0
+        },
+        {
+            "id": "desaga",
+            "tier": "middle",
+            "t": "The university mechanic Peter Desaga built the burner named for him in 1855",
+            "k": ["desaga", "1855", "mechanic"],
+            "n": 0
+        },
+        {
+            "id": "air-mix",
+            "tier": "middle",
+            "t": "That burner mixes air with the gas before burning, giving a hot, nearly invisible blue flame for flame tests",
+            "k": ["mixes air", "blue flame", "flame tests"],
+            "n": 0,
+            "rabbit": "Flame test"
+        },
+        {
+            "id": "sky-blue",
+            "tier": "middle",
+            "t": "Cesium, found in mineral water from Dürkheim, is named from the Latin for “sky blue” for its two blue lines",
+            "k": ["sky blue", "mineral water", "dürkheim"],
+            "n": 0
+        },
+        {
+            "id": "deep-red",
+            "tier": "middle",
+            "t": "Rubidium, found in the mineral lepidolite, is named from the Latin for “deep red”",
+            "k": ["deep red", "lepidolite"],
+            "n": 0
+        },
+        {
+            "id": "fraunhofer",
+            "tier": "middle",
+            "t": "With Kirchhoff, showed in 1859 that the Sun’s dark Fraunhofer lines reveal its elements, such as sodium",
+            "k": ["fraunhofer", "sodium", "1859"],
+            "n": 0,
+            "rabbit": "Sodium"
+        },
+        {
+            "id": "spectroscope",
+            "tier": "middle",
+            "t": "Built one of the first spectroscopes for chemical analysis with Kirchhoff; each element always gives the same lines",
+            "k": ["spectroscope", "same lines"],
+            "n": 0
+        },
+        {
+            "id": "one-eye",
+            "tier": "middle",
+            "t": "Lost the sight of one eye when an arsenic compound called cacodyl exploded; studying it also poisoned him",
+            "k": ["one eye", "cacodyl", "arsenic"],
+            "n": 0
+        },
+        {
+            "id": "battery",
+            "tier": "middle",
+            "t": "Invented a cheaper battery cell (1841) by replacing the platinum in William Grove’s cell with carbon",
+            "k": ["battery", "platinum", "carbon", "1841"],
+            "n": 0
+        },
+        {
+            "id": "roscoe",
+            "tier": "middle",
+            "t": "With his student Henry Roscoe, found that light’s chemical effect depends on brightness times time (the reciprocity law)",
+            "k": ["henry roscoe", "reciprocity law"],
+            "n": 0
+        },
+        {
+            "id": "stinking",
+            "tier": "power",
+            "t": "Cacodyl compounds get their name from the Greek word for “stinking”",
+            "k": ["stinking", "greek"],
+            "n": 0
+        },
+        {
+            "id": "antidote",
+            "tier": "power",
+            "t": "In 1834, he and Arnold Berthold found that freshly made hydrated iron oxide is an antidote for arsenic poisoning",
+            "k": ["antidote", "berthold", "1834"],
+            "n": 0
+        },
+        {
+            "id": "electrolysis",
+            "tier": "power",
+            "t": "Used his batteries to make magnesium and, with Augustus Matthiessen, lithium by electrolysis",
+            "k": ["magnesium", "matthiessen", "electrolysis"],
+            "n": 0,
+            "rabbit": "Electrolysis"
+        },
+        {
+            "id": "hydrogen-chlorine",
+            "tier": "power",
+            "t": "He and Roscoe measured light by how fast it made hydrogen and chlorine combine",
+            "k": ["hydrogen and chlorine", "measured light"],
+            "n": 0
+        },
+        {
+            "id": "geysers",
+            "tier": "power",
+            "t": "Visited Iceland in 1846 and explained how geysers like the Great Geysir erupt",
+            "k": ["iceland", "geysir", "1846"],
+            "n": 0
+        },
+        {
+            "id": "ice-calorimeter",
+            "tier": "power",
+            "t": "Invented an ice calorimeter (1870) that measures heat by how much an ice–water mixture shrinks as the ice melts",
+            "k": ["ice calorimeter", "1870", "shrinks"],
+            "n": 0
+        },
+        {
+            "id": "davy-medal",
+            "tier": "power",
+            "t": "He and Kirchhoff were the first winners of the Royal Society’s Davy Medal (1877)",
+            "k": ["davy medal", "1877"],
+            "n": 0
+        },
+        {
+            "id": "blast-furnaces",
+            "tier": "power",
+            "t": "Analyzed gases from iron blast furnaces, with Lyon Playfair in England, showing much of the fuel’s heat was wasted",
+            "k": ["blast furnaces", "playfair"],
+            "n": 0
+        },
+        {
+            "id": "photometer",
+            "tier": "power",
+            "t": "Invented a grease-spot photometer for comparing the brightness of two lights",
+            "k": ["grease-spot", "photometer"],
+            "n": 0
+        },
+        {
+            "id": "lothar-meyer",
+            "tier": "power",
+            "t": "His Heidelberg student Lothar Meyer later drew up an early periodic table; before Heidelberg he taught at Marburg and Breslau",
+            "k": ["lothar meyer", "marburg", "breslau"],
+            "n": 0
+        },
+        {
+            "id": "new-elements",
+            "tier": "power",
+            "t": "His spectrum analysis led William Crookes to thallium (1861) and Reich and Richter to indium (1863)",
+            "k": ["thallium", "indium", "crookes"],
+            "n": 0
+        },
+        {
+            "id": "society",
+            "tier": "power",
+            "t": "Germany’s main society for physical chemistry is named for him",
+            "k": ["physical chemistry", "society"],
+            "n": 0
+        },
+        {
+            "id": "gottingen",
+            "tier": "power",
+            "t": "Born in Göttingen in 1811, where he earned his doctorate and his father was a professor",
+            "k": ["göttingen", "1811", "doctorate"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The man, not his burner",
+        "body": "Robert Bunsen and the physicist Gustav Kirchhoff worked as a team, so spectroscopy clues, the Sun’s dark lines, and the discovery of cesium and rubidium fit both men. Kirchhoff also has his own laws of electric circuits and of radiation, which are not Bunsen’s. And answering “Bunsen burner” when a question asks for a person is wrong.",
+        "fix": "Chemistry-lab clues, like arsenic compounds, batteries, the ice calorimeter, geysers, and the burner, mean Bunsen; circuit laws and laws of radiation mean Kirchhoff. If a question asks for “this man” or “this chemist,” give just the person’s name.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Robert Bunsen",
+            "Bunsen",
+            "Robert Bunson",
+            "Robert Wilhelm Bunsen",
+            "R. W. Bunsen"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Bunsen burner",
+            "Gustav Kirchhoff",
+            "Peter Desaga",
+            "Henry Roscoe",
+            "Joseph von Fraunhofer",
+            "Michael Faraday",
+            "Humphry Davy",
+            "Robert Boyle"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

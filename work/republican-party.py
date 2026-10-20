@@ -1,0 +1,175 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def T(p, r):
+    return {"p": p, "r": r}
+
+
+def C(cid, tier, t, k, rabbit=None):
+    c = {"id": cid, "tier": tier, "t": t, "k": k, "n": 0}
+    if rabbit:
+        c["rabbit"] = rabbit
+    return c
+
+
+data = {
+    "id": "republican-party",
+    "name": "Republican Party",
+    "mono": "GOP",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Major U.S. political party · Founded in 1854 to oppose slavery’s spread",
+    "dates": "Founded 1854",
+    "briefing": "In 1854, people who wanted to stop slavery from spreading west met in a schoolhouse in Ripon, Wisconsin, and under a grove of oak trees in Jackson, Michigan, to start a new political party. Just six years later, its candidate, Abraham Lincoln, won the presidency. Nicknamed the “Grand Old Party,” or GOP, it got its elephant symbol from the cartoonist Thomas Nast, and it has been one of America’s two major parties ever since.",
+    "answerHtml": "<b><u>Republican</u></b> Party (accept <u>GOP</u> or <u>Grand Old Party</u>; do not accept “Democratic-Republican Party”)",
+    "accept": [
+        "republican party",
+        "republicans",
+        "republican",
+        "the republican party",
+        "grand old party",
+        "gop",
+        "g o p",
+        "the gop"
+    ],
+    "prompt": [],
+    "reject": [
+        "democratic republican party",
+        "democratic republican",
+        "democratic republicans",
+        "jeffersonian republicans",
+        "jeffersonian republican",
+        "national republican party",
+        "national republicans",
+        "national republican",
+        "liberal republican party",
+        "liberal republicans",
+        "liberal republican",
+        "radical republicans",
+        "radical republican",
+        "republican motherhood",
+        "republicanism",
+        "republic",
+        "republics",
+        "democratic party",
+        "democrats",
+        "democrat",
+        "whig party",
+        "whigs",
+        "whig",
+        "federalist party",
+        "federalists",
+        "free soil party",
+        "free soilers",
+        "know nothing party",
+        "know nothings",
+        "american party",
+        "progressive party",
+        "bull moose party",
+        "bull moose"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Republican_Party_(United_States)",
+    "qb": {
+        "q": "Republican Party",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        T("Alvan Bovay suggested this party’s name at an 1854 meeting in a schoolhouse in Ripon, Wisconsin. That July, a convention of its supporters met outdoors “Under the Oaks” in Jackson, Michigan, because the crowd was too big for the hall.",
+          "Its founders wanted to stop slavery from spreading into the western territories. For 10 points, name this political party of Abraham Lincoln."),
+        T("Thomas Nast’s 1874 cartoon “The Third-Term Panic,” printed in _Harper’s Weekly_, included a large animal labeled as this party’s vote. Nast kept drawing that animal to stand for this party, and it became the party’s best-known symbol.",
+          "That animal is the elephant, while the Democrats use a donkey. For 10 points, name this party of Abraham Lincoln."),
+        T("This party’s first presidential candidate was an explorer nicknamed “the Pathfinder,” who lost the 1856 election to James Buchanan. That candidate, John C. Frémont [“FREE-mont”], still finished well ahead of former president Millard Fillmore, who ran for the Know-Nothings.",
+          "Four years later, this party won the presidency with Abraham Lincoln. For 10 points, name this party founded in 1854."),
+        T("Thaddeus Stevens and Charles Sumner led a “Radical” wing of this party that demanded strong protections for freed people after the Civil War. That wing pushed the Reconstruction Acts through Congress over President Andrew Johnson’s vetoes and led his impeachment in 1868.",
+          "This party’s first president had been Abraham Lincoln. For 10 points, name this party whose symbol is the elephant."),
+        T("In one election, this party’s nominee carried only Utah and Vermont after a former president from this party ran against him for the new “Bull Moose” Party. That split in 1912 let Woodrow Wilson win, even though William Howard Taft was the sitting president.",
+          "That former president was Theodore Roosevelt. For 10 points, name this party whose first president was Abraham Lincoln."),
+        T("In 1872, a breakaway wing of this party nominated newspaper editor Horace Greeley against President Ulysses S. Grant, and the Democrats backed Greeley too. Twelve years later, reformers called Mugwumps left this party to support Democrat Grover Cleveland over its nominee, James G. Blaine.",
+          "Grant himself belonged to this party. For 10 points, name this party of Abraham Lincoln, whose symbol is the elephant."),
+        T("Hiram Revels of Mississippi, the first African American to serve in the U.S. Senate, belonged to this party, as did Blanche K. Bruce, the first Black senator to serve a full term. During Reconstruction, most Black voters in the South supported this party.",
+          "Lawmakers from this party passed the 14th and 15th Amendments. For 10 points, name this party of Abraham Lincoln and Ulysses S. Grant."),
+        T("Jeannette Rankin of Montana became the first woman elected to Congress when she won a House seat in 1916 as a member of this party. Decades later, this party’s Margaret Chase Smith of Maine became the first woman to serve in both the House and the Senate.",
+          "Its first president was Abraham Lincoln. For 10 points, name this political party whose symbol is the elephant."),
+        T("This party’s 1860 platform called for free western land for settlers, a railroad to the Pacific Ocean, and a protective tariff. It also opposed letting slavery spread into the territories, and its candidate won that year without carrying a single slave state.",
+          "That candidate was Abraham Lincoln, this party’s first president. For 10 points, name this political party founded in 1854."),
+        T("Led by Newt Gingrich, this party campaigned on a “Contract with America” in 1994 and won control of the House of Representatives for the first time in 40 years. In 1980, this party’s candidate, Ronald Reagan, defeated President Jimmy Carter.",
+          "Since the 2000 election, TV maps have usually shown the states this party wins in red. For 10 points, name this party of Abraham Lincoln."),
+        T("From 1860 through 1928, this party won all but four presidential elections, losing twice each to Democrats Grover Cleveland and Woodrow Wilson. Its long run of victories ended when Franklin Roosevelt defeated this party’s president, Herbert Hoover, in 1932.",
+          "Dwight Eisenhower won the White House back for this party in 1952. For 10 points, name this party, whose first president was Abraham Lincoln."),
+        T("Roscoe Conkling led this party’s Stalwart faction, which opposed civil service reform, yet a Stalwart president, Chester Arthur, signed the Pendleton Act in 1883. Later, Mark Hanna ran a “front porch” campaign for this party’s 1896 nominee, William McKinley.",
+          "McKinley beat William Jennings Bryan. For 10 points, name this party whose earlier presidents included Abraham Lincoln."),
+        T("Historian Eric Foner’s book _Free Soil, Free Labor, Free Men_ studies the ideas of this party before the Civil War. This party rose as the Whig Party collapsed, drawing in former Whigs, Free Soilers, and Democrats who opposed slavery’s spread.",
+          "It was founded in 1854 to fight the Kansas–Nebraska Act. For 10 points, name this party of Abraham Lincoln."),
+        T("In 1864, this party ran under the name “National Union” to welcome War Democrats, and it replaced Vice President Hannibal Hamlin with Andrew Johnson of Tennessee. That ticket easily defeated Democrat George McClellan in November.",
+          "Its president, Abraham Lincoln, was reelected. For 10 points, name this party whose symbol is the elephant."),
+        T("Torch-carrying marching clubs called the Wide Awakes campaigned for this party’s candidate in 1860. Months earlier, that candidate had beaten the front-runner, William Seward, for this party’s nomination at a Chicago convention hall called the Wigwam.",
+          "That candidate, Abraham Lincoln, became this party’s first president. For 10 points, name this political party."),
+    ],
+    "clues": [
+        C("lincoln", "giveaway", "Abraham Lincoln, elected in 1860, was its first president", ["lincoln", "1860", "first president"], "Abraham Lincoln"),
+        C("elephant", "giveaway", "Its symbol is the elephant; the rival Democrats’ symbol is the donkey", ["elephant", "donkey"]),
+        C("founded-1854", "giveaway", "Founded in 1854 by people who opposed spreading slavery into the western territories", ["1854", "slavery", "territories"]),
+        C("two-parties", "giveaway", "One of the two major U.S. political parties since the 1850s, along with the Democrats", ["two major", "democrats", "1850s"], "Democratic Party"),
+        C("kansas-nebraska", "middle", "Formed to fight the Kansas–Nebraska Act (1854), which let settlers in new territories vote on slavery (popular sovereignty)", ["kansas", "nebraska", "popular sovereignty"], "Kansas–Nebraska Act"),
+        C("fremont", "middle", "First presidential candidate: the explorer John C. Frémont, “the Pathfinder,” who lost to James Buchanan in 1856", ["frémont", "pathfinder", "buchanan", "1856"]),
+        C("whigs", "middle", "Rose as the Whig Party collapsed, drawing in former Whigs, Free Soilers, and antislavery Democrats", ["whig", "free soilers", "antislavery"], "Free Soil Party"),
+        C("radicals", "middle", "Its Radical wing (Thaddeus Stevens, Charles Sumner) led Reconstruction and the 1868 impeachment of Andrew Johnson", ["radical", "thaddeus stevens", "sumner", "impeachment"], "Andrew Johnson"),
+        C("bull-moose", "middle", "Split in 1912 when Theodore Roosevelt ran as the “Bull Moose” Progressive against William Howard Taft; Woodrow Wilson won", ["bull moose", "progressive", "taft", "1912"], "Theodore Roosevelt"),
+        C("national-union", "middle", "Ran as the “National Union” ticket in 1864, pairing Lincoln with Andrew Johnson, a War Democrat", ["national union", "1864", "war democrat"]),
+        C("eisenhower", "middle", "Dwight Eisenhower (“I Like Ike”) won the White House back for it in 1952; Ronald Reagan won for it in 1980 and 1984", ["eisenhower", "i like ike", "1952", "reagan"], "Dwight D. Eisenhower"),
+        C("red-states", "middle", "Since the 2000 election, TV maps have usually shown the states it wins in red", ["2000", "maps", "red"]),
+        C("ripon", "power", "Alvan Bovay suggested its name at an 1854 meeting in Ripon, Wisconsin; a big convention met “Under the Oaks” in Jackson, Michigan", ["ripon", "bovay", "under the oaks", "jackson"]),
+        C("nast", "power", "Thomas Nast’s 1874 _Harper’s Weekly_ cartoon “The Third-Term Panic” helped make the elephant its symbol", ["nast", "third-term panic", "harper’s weekly"]),
+        C("all-but-four", "power", "Won all but four presidential elections from 1860 through 1928, losing twice each to Grover Cleveland and Woodrow Wilson", ["all but four", "cleveland", "1928"]),
+        C("wigwam", "power", "Nominated Lincoln over the front-runner, William Seward, at the Wigwam in Chicago (1860)", ["wigwam", "seward", "chicago"]),
+        C("wide-awakes", "power", "The Wide Awakes, torch-carrying marching clubs, campaigned for Lincoln in 1860", ["wide awakes", "torch"]),
+        C("platform", "power", "1860 platform: free western land for settlers (a homestead law), a Pacific railroad, and a protective tariff", ["homestead", "pacific railroad", "tariff", "platform"]),
+        C("greeley", "power", "In 1872, a breakaway wing nominated editor Horace Greeley against Ulysses S. Grant; the Democrats backed Greeley too", ["greeley", "1872", "breakaway"]),
+        C("mugwumps", "power", "Mugwumps: reformers who left it in 1884 to back Democrat Grover Cleveland over James G. Blaine", ["mugwumps", "blaine", "1884"]),
+        C("stalwarts", "power", "Roscoe Conkling’s Stalwarts opposed civil service reform, but Stalwart president Chester Arthur signed the Pendleton Act (1883)", ["stalwarts", "conkling", "pendleton", "chester arthur"]),
+        C("revels", "power", "Hiram Revels, the first Black U.S. senator (1870), and Blanche K. Bruce, the first to serve a full term, were members", ["hiram revels", "revels", "bruce"]),
+        C("rankin", "power", "Jeannette Rankin of Montana, the first woman elected to Congress (1916), was a member; so was Margaret Chase Smith of Maine", ["jeannette rankin", "rankin", "montana", "margaret chase smith"]),
+        C("mckinley", "power", "William McKinley won in 1896 with a “front porch” campaign run by Mark Hanna, beating William Jennings Bryan", ["mckinley", "front porch", "mark hanna", "bryan"]),
+        C("contract", "power", "1994: Newt Gingrich’s “Contract with America” helped it win the House for the first time in 40 years", ["contract with america", "gingrich", "1994"]),
+        C("foner", "power", "Historian Eric Foner’s book _Free Soil, Free Labor, Free Men_ studies its early ideas", ["foner", "free labor", "free men"]),
+    ],
+    "trap": {
+        "title": "Not Jefferson’s Republicans",
+        "body": "In the 1790s, Thomas Jefferson and James Madison founded the Democratic-Republican Party, which people at the time often called simply the “Republicans.” That party split apart in the 1820s, and Andrew Jackson’s wing became the Democratic Party. Abraham Lincoln’s Republican Party is a different party, founded in 1854, long after Jefferson died, so mixing the two up loses the tossup.",
+        "fix": "Clues from the 1790s to the 1820s (Jefferson, Madison, the election of 1800, the Federalists as rivals) mean the Democratic-Republicans. Clues from 1854 on (the Kansas–Nebraska Act, Frémont, Lincoln, Reconstruction, the elephant) mean the Republican Party. If a question asks for a faction, such as the Radical Republicans or the Stalwarts, name the faction instead of the whole party.",
+        "line": "Real answer line: <b><u>Republican</u></b> Party (accept <u>GOP</u> or <u>Grand Old Party</u>; do not accept “Democratic-Republican Party”)"
+    },
+    "tests": {
+        "right": [
+            "Republican Party",
+            "Republicans",
+            "GOP",
+            "G.O.P.",
+            "Grand Old Party",
+            "the Republican Party",
+            "Repubican Party"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Democratic-Republican Party",
+            "Democratic Party",
+            "Whig Party",
+            "Radical Republicans",
+            "Bull Moose Party",
+            "Free Soil Party",
+            "Republic"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

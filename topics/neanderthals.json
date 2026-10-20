@@ -1,0 +1,423 @@
+{
+  "id": "neanderthals",
+  "name": "Neanderthals",
+  "mono": "NEA",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Extinct Ice Age humans of Europe and Asia · Some of their DNA lives on in us",
+  "dates": "Died out about 40,000 years ago",
+  "briefing": "Neanderthals were close cousins of modern humans who lived in Europe and western Asia during the Ice Ages and died out about 40,000 years ago. They were short and stocky, built for the cold, and they made stone tools, controlled fire, hunted big game, and buried their dead. When early modern humans met them, the two groups sometimes had children together, so most people with ancestors from outside Africa carry a little Neanderthal DNA.",
+  "answerHtml": "<b><u>Neanderthals</u></b> (accept <u>Neandertals</u>, <u>Homo neanderthalensis</u>, or <u>Homo sapiens neanderthalensis</u>; prompt on <u>hominins</u> or <u>archaic humans</u>; do not accept “Denisovans” or “Cro-Magnons”)",
+  "accept": [
+    "neanderthals",
+    "neanderthal",
+    "neandertals",
+    "neandertal",
+    "neanderthal man",
+    "neanderthal people",
+    "homo neanderthalensis",
+    "homo neandertalensis",
+    "h neanderthalensis",
+    "homo sapiens neanderthalensis"
+  ],
+  "prompt": [
+    "hominins",
+    "hominin",
+    "hominids",
+    "hominid",
+    "archaic humans",
+    "archaic human",
+    "early humans",
+    "early human",
+    "homo"
+  ],
+  "reject": [
+    "denisovans",
+    "denisovan",
+    "cro magnons",
+    "cro magnon",
+    "cro magnon man",
+    "modern humans",
+    "homo erectus",
+    "homo habilis",
+    "homo heidelbergensis",
+    "homo floresiensis",
+    "hobbits",
+    "homo naledi",
+    "homo ergaster",
+    "australopithecus",
+    "australopithecines",
+    "lucy"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Neanderthal",
+  "qb": {
+    "q": "Neanderthal",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "These hominins are named for a German valley that honors a 17th-century preacher and hymn writer whose surname is a Greek form of “new man.” Quarry workers dug up the first recognized fossils of this group in that valley’s Feldhofer Cave in 1856.",
+      "r": "They died out about 40,000 years ago. For 10 points, name these extinct, stocky human relatives who lived in Ice Age Europe."
+    },
+    {
+      "p": "In 1864, geologist William King gave these hominins their scientific name, making them the first extinct human group formally named from fossils. Schoolteacher Johann Carl Fuhlrott had recognized that bones found in 1856 were not those of a modern person.",
+      "r": "For 10 points, name these extinct Ice Age humans whose DNA survives in many modern people."
+    },
+    {
+      "p": "A child’s skull found at Engis, Belgium, in 1829 and a skull found at Forbes’ Quarry on Gibraltar in 1848 were the first fossils of these hominins ever found, though no one recognized them as such until later.",
+      "r": "These hominins take their name from a German valley where bones were found in 1856. For 10 points, name these extinct, cold-adapted human relatives."
+    },
+    {
+      "p": "Rudolf Virchow argued that the odd features of the 1856 skeleton of one of these hominins came from disease, such as rickets, rather than from a different kind of human. Thomas Henry Huxley discussed the same skull in his 1863 book _Evidence as to Man’s Place in Nature_.",
+      "r": "For 10 points, name these extinct human relatives who lived in Europe until about 40,000 years ago."
+    },
+    {
+      "p": "Marcellin Boule [“BOOL”] reconstructed an old man’s skeleton from La Chapelle-aux-Saints [“lah shah-PEL oh SAN”], France, to show these hominins as stooped and apelike, an image later blamed partly on that man’s arthritis. That skeleton was found in a grave in 1908.",
+      "r": "They actually walked fully upright and were stocky and strong. For 10 points, name these extinct relatives of modern humans."
+    },
+    {
+      "p": "Svante Pääbo [“SVAHN-teh PAY-boh”] won the 2022 Nobel Prize in Physiology or Medicine for work on ancient DNA that included sequencing the genome of these hominins, first published in draft form in 2010. In 1997, his team read a stretch of their mitochondrial DNA from the original 1856 fossil.",
+      "r": "Their genome showed that they had children with early modern humans. For 10 points, name these extinct human relatives from Ice Age Europe."
+    },
+    {
+      "p": "A bone fragment from a Siberian cave belonged to a girl nicknamed “Denny,” whose mother was one of these hominins and whose father was a Denisovan [“deh-NEE-soh-vun”]. The Denisovans, identified in 2010 from a finger bone found in that same cave, were these hominins’ closest known relatives.",
+      "r": "They died out about 40,000 years ago. For 10 points, name these extinct, stocky hominins who lived in Europe and western Asia."
+    },
+    {
+      "p": "Most people whose ancestors lived outside Africa carry about 1 to 2 percent of their DNA from these hominins, because early modern humans had children with them after leaving Africa. Some of the genes inherited from them affect the immune system and skin.",
+      "r": "For 10 points, name these extinct, cold-adapted human relatives whose fossils were first recognized in Germany in 1856."
+    },
+    {
+      "p": "These hominins made stone tools in the Mousterian [“moo-STEER-ee-un”] style, named for a site in France, often using the Levallois [“luh-val-WAH”] technique of shaping a stone core before striking off a flake. They also heated birch bark to make tar, a glue for attaching stone points to wooden handles.",
+      "r": "They also controlled fire. For 10 points, name these extinct human relatives who lived in Europe and western Asia."
+    },
+    {
+      "p": "In the 1950s, Ralph Solecki [“soh-LEK-ee”] excavated Shanidar [“SHAH-nih-dar”] Cave in Iraq, where one skeleton of these hominins showed that the man had survived serious injuries for years, likely with help from his group. Solecki suggested that another burial there had been covered with flowers, an idea that later scientists questioned.",
+      "r": "For 10 points, name these extinct Ice Age hominins whose first recognized fossils were found in Germany."
+    },
+    {
+      "p": "A hyoid [“HY-oyd”] bone of one of these hominins, found at Kebara Cave in Israel, looks almost exactly like a modern human’s, which suggests they may have been able to speak. They also carried the same version of FOXP2, a gene linked to speech and language, as modern humans.",
+      "r": "They died out about 40,000 years ago. For 10 points, name these extinct, big-brained human relatives who lived in Ice Age Europe."
+    },
+    {
+      "p": "Fossils about 430,000 years old from the Sima de los Huesos [“SEE-mah day lohs WAY-sohs”], or “Pit of Bones,” in Spain’s Atapuerca [“ah-tah-PWAIR-kah”] hills belong to early members of the line that led to these hominins. Many scientists think these hominins descended from a species called _Homo heidelbergensis_.",
+      "r": "For 10 points, name these extinct, stocky human relatives who lived in Europe and western Asia."
+    },
+    {
+      "p": "William Golding’s 1955 novel _The Inheritors_ tells the story of a small band of these people, including Lok and Fa, as a newer kind of human arrives. In Jean M. Auel’s novel _The Clan of the Cave Bear_, a girl named Ayla is raised by a clan of these people.",
+      "r": "Their first recognized fossils were found in Germany in 1856. For 10 points, name these extinct, stocky human relatives of Ice Age Europe."
+    },
+    {
+      "p": "Compared with modern humans, these hominins had a bulge at the back of the skull called an occipital [“ok-SIP-ih-tul”] bun, a large nose, and no true chin. Their brains were, on average, as large as or even larger than those of modern humans.",
+      "r": "Their short, stocky bodies were built to hold in heat during the Ice Ages. For 10 points, name these extinct human relatives."
+    },
+    {
+      "p": "Some of the last of these hominins may have lived in Gorham’s Cave on Gibraltar, where crosshatched lines carved into the rock are thought to be their work. At Krapina, Croatia, they may have worn eagle talons as ornaments.",
+      "r": "They died out about 40,000 years ago, not long after modern humans spread into Europe. For 10 points, name these extinct hominins named for a valley in Germany."
+    }
+  ],
+  "clues": [
+    {
+      "id": "extinct-relatives",
+      "tier": "giveaway",
+      "t": "Extinct close relatives of modern humans who lived in Europe and western Asia during the Ice Ages",
+      "k": [
+        "extinct",
+        "relatives",
+        "ice ages"
+      ],
+      "n": 0,
+      "rabbit": "Human evolution"
+    },
+    {
+      "id": "died-out",
+      "tier": "giveaway",
+      "t": "Died out about 40,000 years ago, not long after modern humans spread into Europe",
+      "k": [
+        "40,000",
+        "died out"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stocky",
+      "tier": "giveaway",
+      "t": "Had short, stocky, cold-adapted bodies and heavy brow ridges",
+      "k": [
+        "stocky",
+        "brow ridges",
+        "cold-adapted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "german-valley",
+      "tier": "giveaway",
+      "t": "Named for a valley in Germany where bones of one were found in 1856",
+      "k": [
+        "germany",
+        "valley",
+        "1856"
+      ],
+      "n": 0
+    },
+    {
+      "id": "interbreeding",
+      "tier": "middle",
+      "t": "Had children with early modern humans, so most people with ancestors from outside Africa carry about 1 to 2 percent of their DNA",
+      "k": [
+        "1 to 2 percent",
+        "outside africa",
+        "dna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tools-fire",
+      "tier": "middle",
+      "t": "Made stone tools, controlled fire, hunted big game, and buried their dead",
+      "k": [
+        "stone tools",
+        "fire",
+        "buried"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mousterian",
+      "tier": "middle",
+      "t": "Their stone tools are called Mousterian, often made with the prepared-core Levallois technique",
+      "k": [
+        "mousterian",
+        "levallois"
+      ],
+      "n": 0
+    },
+    {
+      "id": "big-brains",
+      "tier": "middle",
+      "t": "Their brains were on average as large as or larger than ours; they had an occipital bun, a large nose, and no true chin",
+      "k": [
+        "occipital bun",
+        "chin",
+        "brains"
+      ],
+      "n": 0
+    },
+    {
+      "id": "denisovans",
+      "tier": "middle",
+      "t": "Their closest known relatives, the Denisovans, were identified in 2010 from a finger bone in a Siberian cave",
+      "k": [
+        "denisovans",
+        "siberian",
+        "finger bone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "paabo",
+      "tier": "middle",
+      "t": "Svante Pääbo won the 2022 Nobel Prize for ancient-DNA work, including their genome (draft published in 2010)",
+      "k": [
+        "pääbo",
+        "2022",
+        "genome"
+      ],
+      "n": 0,
+      "rabbit": "DNA sequencing"
+    },
+    {
+      "id": "feldhofer",
+      "tier": "middle",
+      "t": "Quarry workers found the first recognized fossils in the Feldhofer Cave in 1856; schoolteacher Johann Carl Fuhlrott saw their importance",
+      "k": [
+        "feldhofer",
+        "fuhlrott",
+        "quarry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hymn-writer",
+      "tier": "power",
+      "t": "Their German valley honors a 17th-century preacher and hymn writer whose surname is a Greek form of “new man”",
+      "k": [
+        "hymn writer",
+        "new man",
+        "preacher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "william-king",
+      "tier": "power",
+      "t": "Geologist William King named them in 1864, the first extinct human group formally named from fossils",
+      "k": [
+        "william king",
+        "1864"
+      ],
+      "n": 0
+    },
+    {
+      "id": "engis-gibraltar",
+      "tier": "power",
+      "t": "Earlier finds at Engis, Belgium (1829), and Forbes’ Quarry, Gibraltar (1848), were not recognized at first",
+      "k": [
+        "engis",
+        "gibraltar",
+        "forbes’ quarry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "virchow-huxley",
+      "tier": "power",
+      "t": "Rudolf Virchow blamed the 1856 skeleton’s features on disease; Thomas Henry Huxley discussed it in _Evidence as to Man’s Place in Nature_ (1863)",
+      "k": [
+        "virchow",
+        "huxley",
+        "man’s place in nature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boule",
+      "tier": "power",
+      "t": "Marcellin Boule’s stooped, apelike reconstruction of the La Chapelle-aux-Saints skeleton (found in 1908) was partly due to the man’s arthritis",
+      "k": [
+        "boule",
+        "la chapelle-aux-saints",
+        "arthritis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mtdna-1997",
+      "tier": "power",
+      "t": "In 1997, Pääbo’s team read their mitochondrial DNA from the original 1856 fossil",
+      "k": [
+        "mitochondrial dna",
+        "1997"
+      ],
+      "n": 0,
+      "rabbit": "Mitochondria"
+    },
+    {
+      "id": "denny",
+      "tier": "power",
+      "t": "“Denny,” a girl known from a bone found in Denisova Cave, had a mother of their kind and a Denisovan father",
+      "k": [
+        "denny",
+        "denisova cave"
+      ],
+      "n": 0
+    },
+    {
+      "id": "birch-tar",
+      "tier": "power",
+      "t": "They heated birch bark to make tar, a glue for attaching stone points to handles",
+      "k": [
+        "birch",
+        "tar",
+        "glue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shanidar",
+      "tier": "power",
+      "t": "Ralph Solecki excavated Shanidar Cave in Iraq in the 1950s: one man had survived serious injuries for years, and Solecki proposed a “flower burial”",
+      "k": [
+        "solecki",
+        "shanidar",
+        "flower burial"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kebara-foxp2",
+      "tier": "power",
+      "t": "A modern-looking hyoid bone from Kebara Cave, Israel, and the same FOXP2 gene version as ours suggest they may have been able to speak",
+      "k": [
+        "hyoid",
+        "kebara",
+        "foxp2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sima",
+      "tier": "power",
+      "t": "Fossils about 430,000 years old from Spain’s Sima de los Huesos (“Pit of Bones”) belong to their early line; many think they came from _Homo heidelbergensis_",
+      "k": [
+        "sima de los huesos",
+        "pit of bones",
+        "430,000",
+        "heidelbergensis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "literature",
+      "tier": "power",
+      "t": "William Golding’s _The Inheritors_ (1955) and Jean M. Auel’s _The Clan of the Cave Bear_ (whose heroine is Ayla) feature them",
+      "k": [
+        "golding",
+        "the inheritors",
+        "clan of the cave bear",
+        "ayla"
+      ],
+      "n": 0,
+      "rabbit": "William Golding"
+    },
+    {
+      "id": "gorham-krapina",
+      "tier": "power",
+      "t": "Some of the last may have lived in Gorham’s Cave, Gibraltar, where carved crosshatch lines are thought to be theirs; at Krapina, Croatia, they may have worn eagle talons",
+      "k": [
+        "gorham’s cave",
+        "crosshatch",
+        "krapina",
+        "eagle talons"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which ancient humans?",
+    "body": "Several groups of ancient humans show up in the same tossups. Cro-Magnons were early modern humans, our own species, who reached Europe as Neanderthals were disappearing, and Denisovans were Neanderthals’ closest cousins, known mostly from DNA found in a Siberian cave. Players also guess older species like _Homo erectus_ or “Lucy,” an australopithecine who lived more than 3 million years ago.",
+    "fix": "A German valley, 1856, Mousterian tools, Shanidar, La Chapelle-aux-Saints, stocky cold-adapted bodies, or 1 to 2 percent of our DNA mean Neanderthals. A Siberian cave and a finger bone mean Denisovans, and cave paintings in France made by our own species point to Cro-Magnons.",
+    "line": "Real answer line: <b><u>Neanderthals</u></b> (accept <u>Neandertals</u> or <u>Homo neanderthalensis</u>; prompt on <u>hominins</u> or <u>archaic humans</u>; do not accept “Denisovans” or “Cro-Magnons”)"
+  },
+  "tests": {
+    "right": [
+      "Neanderthals",
+      "Neandertal",
+      "Homo neanderthalensis",
+      "Neanderthal man",
+      "Neandrethals",
+      "Homo sapiens neanderthalensis"
+    ],
+    "prompt": [
+      "Hominins",
+      "Archaic humans"
+    ],
+    "wrong": [
+      "Denisovans",
+      "Cro-Magnon",
+      "Homo sapiens",
+      "Homo erectus",
+      "Australopithecus",
+      "Lucy",
+      "Homo floresiensis"
+    ]
+  }
+}

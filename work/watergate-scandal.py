@@ -1,0 +1,341 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "watergate-scandal",
+    "name": "Watergate scandal",
+    "mono": "WG",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1970s political scandal · Led to Richard Nixon’s resignation in 1974",
+    "dates": "1972–1974",
+    "briefing": "On June 17, 1972, a security guard noticed tape holding door latches open in a Washington, D.C., office building, and police caught five burglars inside the Democratic National Committee’s headquarters. Reporters, a Senate committee, and secret White House tape recordings slowly revealed that President Richard Nixon and his aides had tried to cover up links to the crime. Facing likely impeachment, Nixon resigned on August 9, 1974.",
+    "answerHtml": "<b><u>Watergate</u></b> scandal (or <b><u>Watergate</u></b> affair; accept <u>Watergate</u> break-in)",
+    "accept": [
+        "watergate",
+        "watergate scandal",
+        "the watergate scandal",
+        "watergate affair",
+        "watergate break in"
+    ],
+    "prompt": [],
+    "reject": [
+        "richard nixon",
+        "nixon",
+        "teapot dome",
+        "teapot dome scandal",
+        "iran contra",
+        "iran contra affair",
+        "pentagon papers",
+        "whitewater",
+        "credit mobilier",
+        "whiskey ring",
+        "saturday night massacre",
+        "impeachment",
+        "gerald ford",
+        "deep throat",
+        "all the presidents men",
+        "kent state"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Watergate_scandal",
+    "qb": {
+        "q": "Watergate",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In the early morning hours, security guard Frank Wills noticed that someone had taped door latches open in a Washington office building, removed the tape, and then found the doors taped again on his next round. That building complex stands next to the Kennedy Center on the Potomac River.",
+            "r": "Police then caught five burglars in the Democratic National Committee’s offices. For 10 points, name this scandal that led Richard Nixon to resign."
+        },
+        {
+            "p": "In July 1973, presidential aide Alexander Butterfield surprised a Senate committee by revealing that a secret system had been recording conversations in the Oval Office. Investigators then spent a year fighting to get those recordings.",
+            "r": "For 10 points, name this scandal, whose tapes eventually forced President Richard Nixon to resign."
+        },
+        {
+            "p": "In October 1973, Attorney General Elliot Richardson and his deputy, William Ruckelshaus [“RUCK-ulz-howss”], resigned rather than obey an order to fire special prosecutor Archibald Cox. Solicitor General Robert Bork then carried out the firing.",
+            "r": "That night became known as the Saturday Night Massacre. For 10 points, name this scandal that ended Richard Nixon’s presidency."
+        },
+        {
+            "p": "In 2005, Mark Felt, who had been the FBI’s second-ranking official during this scandal, revealed that he was the secret source who had met a reporter late at night in a parking garage to share information about it.",
+            "r": "That source, nicknamed “Deep Throat,” helped Bob Woodward of the _Washington Post_. For 10 points, name this scandal that began with a 1972 break-in."
+        },
+        {
+            "p": "An 18½-minute gap was found on one recording in this scandal, and the president’s secretary, Rose Mary Woods, said she might have erased part of it by accident while transcribing. She showed reporters an awkward stretch she said she had made while answering the phone.",
+            "r": "That tape belonged to President Richard Nixon. For 10 points, name this scandal that led to his resignation."
+        },
+        {
+            "p": "Senator Howard Baker of Tennessee famously asked, “What did the President know, and when did he know it?” during this scandal’s televised hearings. Those 1973 hearings were led by Senator Sam Ervin of North Carolina.",
+            "r": "For 10 points, name this scandal that began with a break-in at Democratic Party offices in 1972."
+        },
+        {
+            "p": "White House counsel John Dean warned his boss that there was “a cancer” close to the presidency, and he later told Senate investigators about efforts to hide the truth in this scandal. Dean had been fired in April 1973.",
+            "r": "In November 1973, Richard Nixon insisted, “I am not a crook.” For 10 points, name this scandal involving a cover-up by Nixon’s aides."
+        },
+        {
+            "p": "A recording from June 23, 1972, released in August 1974, showed the president approving a plan to have the CIA ask the FBI to slow down its investigation in this scandal. That “smoking gun” tape cost the president most of his remaining support in Congress.",
+            "r": "For 10 points, name this scandal that led Richard Nixon to resign just days after that tape was released."
+        },
+        {
+            "p": "In a unanimous 1974 decision written by Chief Justice Warren Burger, the Supreme Court ruled that executive privilege did not let the president keep evidence in this scandal secret. Special prosecutor Leon Jaworski [“juh-WOR-skee”] had asked the court to order the release of that evidence.",
+            "r": "That case, _United States v. Nixon_, forced the release of White House tapes. For 10 points, name this scandal."
+        },
+        {
+            "p": "G. Gordon Liddy and E. Howard Hunt, who helped plan this scandal’s central crime, had earlier worked for the “Plumbers,” a White House unit formed to stop leaks. In 1971, the Plumbers broke into the office of Daniel Ellsberg’s psychiatrist after Ellsberg leaked the Pentagon Papers.",
+            "r": "For 10 points, name this political scandal that began with a 1972 break-in and led to Richard Nixon’s resignation."
+        },
+        {
+            "p": "Judge John Sirica, nicknamed “Maximum John” for his tough sentences, received a letter from defendant James McCord in March 1973 saying that the burglars had been pressured to stay silent. That letter helped break open this scandal.",
+            "r": "Gerald Ford said “our long national nightmare is over” when it ended. For 10 points, name this scandal that forced Richard Nixon to resign in August 1974."
+        },
+        {
+            "p": "Texas congresswoman Barbara Jordan declared that her “faith in the Constitution is whole” as the House Judiciary Committee, chaired by Peter Rodino, debated articles of impeachment during this scandal in July 1974. The committee approved three articles.",
+            "r": "Those articles accused President Richard Nixon of obstruction of justice. For 10 points, name this scandal."
+        },
+        {
+            "p": "In a 1976 film based on a book about this scandal, Robert Redford and Dustin Hoffman played two reporters, and a secret source tells one of them to “follow the money.” Jason Robards won an Oscar for playing their editor, Ben Bradlee.",
+            "r": "That film was _All the President’s Men_. For 10 points, name this scandal uncovered by _Washington Post_ reporters."
+        },
+        {
+            "p": "Former Attorney General John Mitchell, who had led a campaign committee that critics nicknamed “CREEP,” went to prison for his role in this scandal. Top White House aides H. R. Haldeman and John Ehrlichman [“ER-lik-mun”] resigned in April 1973 and were later convicted too.",
+            "r": "For 10 points, name this scandal that led President Richard Nixon to resign in 1974."
+        },
+        {
+            "p": "After this scandal, Congress created the Federal Election Commission to enforce campaign finance rules and later passed the Ethics in Government Act of 1978. The second half of this scandal’s name became a suffix for later scandals, such as “Deflategate.”",
+            "r": "For 10 points, name this scandal that began with a 1972 break-in at a Washington, D.C., office complex."
+        }
+    ],
+    "clues": [
+        {
+            "id": "nixon-resigned",
+            "tier": "giveaway",
+            "t": "Led President Richard Nixon to resign on August 9, 1974, the only presidential resignation in U.S. history",
+            "k": ["resign", "richard nixon", "august 9", "1974"],
+            "n": 0,
+            "rabbit": "Richard Nixon"
+        },
+        {
+            "id": "break-in",
+            "tier": "giveaway",
+            "t": "Began with a June 17, 1972, break-in at the Democratic National Committee’s offices in a Washington, D.C., building complex",
+            "k": ["break-in", "june 17", "democratic national committee"],
+            "n": 0
+        },
+        {
+            "id": "cover-up",
+            "tier": "giveaway",
+            "t": "Nixon and his aides tried to cover up the White House’s links to the burglars, including paying them hush money",
+            "k": ["cover up", "hush money"],
+            "n": 0
+        },
+        {
+            "id": "tapes",
+            "tier": "giveaway",
+            "t": "Secret recordings of Oval Office conversations, the White House tapes, proved the cover-up",
+            "k": ["tapes", "recordings", "oval office"],
+            "n": 0
+        },
+        {
+            "id": "woodward-bernstein",
+            "tier": "middle",
+            "t": "_Washington Post_ reporters Bob Woodward and Carl Bernstein uncovered much of the story",
+            "k": ["woodward", "bernstein", "washington post"],
+            "n": 0
+        },
+        {
+            "id": "deep-throat",
+            "tier": "middle",
+            "t": "Their secret source, “Deep Throat,” turned out to be FBI official Mark Felt (revealed in 2005)",
+            "k": ["deep throat", "mark felt", "2005"],
+            "n": 0
+        },
+        {
+            "id": "all-the-presidents-men",
+            "tier": "middle",
+            "t": "Their book _All the President’s Men_ (1974) became a 1976 film starring Robert Redford and Dustin Hoffman",
+            "k": ["all the president’s men", "redford", "hoffman"],
+            "n": 0
+        },
+        {
+            "id": "us-v-nixon",
+            "tier": "middle",
+            "t": "_United States v. Nixon_ (July 1974): the Supreme Court ruled 8–0 that Nixon had to hand over the tapes",
+            "k": ["united states v. nixon", "supreme court"],
+            "n": 0
+        },
+        {
+            "id": "saturday-night-massacre",
+            "tier": "middle",
+            "t": "“Saturday Night Massacre” (October 1973): special prosecutor Archibald Cox was fired after Elliot Richardson and William Ruckelshaus resigned rather than fire him",
+            "k": ["saturday night massacre", "archibald cox", "elliot richardson"],
+            "n": 0
+        },
+        {
+            "id": "creep",
+            "tier": "middle",
+            "t": "The burglars were linked to the Committee to Re-elect the President, nicknamed “CREEP,” led by John Mitchell",
+            "k": ["committee to re-elect the president", "creep", "john mitchell"],
+            "n": 0
+        },
+        {
+            "id": "ervin-committee",
+            "tier": "middle",
+            "t": "A Senate committee led by Sam Ervin held televised hearings in 1973",
+            "k": ["sam ervin", "ervin", "televised hearings"],
+            "n": 0
+        },
+        {
+            "id": "impeachment",
+            "tier": "middle",
+            "t": "In July 1974, the House Judiciary Committee approved articles of impeachment against Nixon",
+            "k": ["judiciary committee", "articles of impeachment", "impeachment"],
+            "n": 0,
+            "rabbit": "Impeachment"
+        },
+        {
+            "id": "ford-pardon",
+            "tier": "middle",
+            "t": "Gerald Ford became president (“Our long national nightmare is over”) and pardoned Nixon in September 1974",
+            "k": ["gerald ford", "national nightmare", "pardoned"],
+            "n": 0,
+            "rabbit": "Gerald Ford"
+        },
+        {
+            "id": "not-a-crook",
+            "tier": "middle",
+            "t": "Nixon told reporters in November 1973, “I am not a crook”",
+            "k": ["not a crook", "november 1973"],
+            "n": 0
+        },
+        {
+            "id": "frank-wills",
+            "tier": "power",
+            "t": "Security guard Frank Wills found tape holding door latches open and called the police",
+            "k": ["frank wills", "security guard", "tape"],
+            "n": 0
+        },
+        {
+            "id": "butterfield",
+            "tier": "power",
+            "t": "Aide Alexander Butterfield revealed the secret White House taping system to the Senate in July 1973",
+            "k": ["alexander butterfield", "butterfield", "taping system"],
+            "n": 0
+        },
+        {
+            "id": "john-dean",
+            "tier": "power",
+            "t": "White House counsel John Dean warned Nixon of “a cancer” close to the presidency, then testified against him",
+            "k": ["john dean", "cancer", "counsel"],
+            "n": 0
+        },
+        {
+            "id": "howard-baker",
+            "tier": "power",
+            "t": "Senator Howard Baker asked, “What did the President know, and when did he know it?”",
+            "k": ["howard baker", "what did the president know"],
+            "n": 0
+        },
+        {
+            "id": "gap",
+            "tier": "power",
+            "t": "An 18½-minute gap on one tape; secretary Rose Mary Woods said she might have erased part of it by accident",
+            "k": ["rose mary woods", "18½-minute gap", "gap"],
+            "n": 0
+        },
+        {
+            "id": "smoking-gun",
+            "tier": "power",
+            "t": "The “smoking gun” tape (June 23, 1972) showed Nixon approving a plan to have the CIA slow the FBI’s investigation",
+            "k": ["smoking gun", "cia", "june 23"],
+            "n": 0
+        },
+        {
+            "id": "plumbers",
+            "tier": "power",
+            "t": "Planners G. Gordon Liddy and E. Howard Hunt had worked for the “Plumbers,” who broke into the office of Pentagon Papers leaker Daniel Ellsberg’s psychiatrist",
+            "k": ["plumbers", "liddy", "ellsberg", "pentagon papers"],
+            "n": 0
+        },
+        {
+            "id": "sirica",
+            "tier": "power",
+            "t": "Judge John Sirica (“Maximum John”) got a 1973 letter from burglar James McCord saying the defendants had been pressured to stay silent",
+            "k": ["john sirica", "sirica", "mccord", "maximum john"],
+            "n": 0
+        },
+        {
+            "id": "jaworski",
+            "tier": "power",
+            "t": "Leon Jaworski replaced Cox as special prosecutor; Chief Justice Warren Burger wrote the tapes decision",
+            "k": ["leon jaworski", "jaworski", "warren burger"],
+            "n": 0
+        },
+        {
+            "id": "barbara-jordan",
+            "tier": "power",
+            "t": "Texas congresswoman Barbara Jordan said her “faith in the Constitution is whole”; Peter Rodino chaired the House Judiciary Committee",
+            "k": ["barbara jordan", "rodino", "faith in the constitution"],
+            "n": 0
+        },
+        {
+            "id": "haldeman-ehrlichman",
+            "tier": "power",
+            "t": "Top aides H. R. Haldeman and John Ehrlichman resigned in April 1973 and were later convicted, as was John Mitchell",
+            "k": ["haldeman", "ehrlichman"],
+            "n": 0
+        },
+        {
+            "id": "reforms",
+            "tier": "power",
+            "t": "Led to the Federal Election Commission and the Ethics in Government Act (1978), and gave later scandals the suffix “-gate”",
+            "k": ["federal election commission", "ethics in government act", "suffix"],
+            "n": 0
+        },
+        {
+            "id": "kennedy-center",
+            "tier": "power",
+            "t": "The office and hotel complex stands beside the Potomac River, next to the Kennedy Center",
+            "k": ["kennedy center", "potomac"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Scandal, not president",
+        "body": "Tossups about this scandal are packed with clues about Richard Nixon, but answering “Nixon” when the question asks for “this scandal” is wrong. Players also confuse it with other scandals: Teapot Dome (secret oil leases under Warren Harding in the 1920s), the Pentagon Papers (a secret history of the Vietnam War leaked in 1971), and Iran-Contra (secret arms sales under Ronald Reagan in the 1980s).",
+        "fix": "“This scandal” or “this affair” wants Watergate; “this president” wants Nixon. A 1972 break-in, burglars, Deep Throat, the Saturday Night Massacre, or an 18½-minute gap all point to Watergate.",
+        "line": "Real answer line: <b><u>Watergate</u></b> scandal (or <b><u>Watergate</u></b> affair; accept <u>Watergate</u> break-in)"
+    },
+    "tests": {
+        "right": [
+            "Watergate",
+            "Watergate scandal",
+            "the Watergate affair",
+            "Watergate break-in",
+            "Watergate scandle",
+            "Watergat"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Richard Nixon",
+            "Teapot Dome scandal",
+            "Iran-Contra affair",
+            "Pentagon Papers",
+            "Impeachment",
+            "Gerald Ford",
+            "Saturday Night Massacre"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
