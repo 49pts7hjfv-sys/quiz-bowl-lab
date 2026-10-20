@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "The temperature where a liquid turns to gas · For water at sea level, 100 °C",
   "dates": "Fixed point of Celsius’s 1742 scale",
-  "briefing": "A liquid’s boiling point is the temperature where it turns into gas all the way through, sending bubbles of vapor rolling up from inside. For water at sea level that’s 100 °C (212 °F), but on top of Mount Everest the thin air lets water boil at only about 70 °C. Every pure substance has its own boiling point, which is how oil refineries separate crude oil into gasoline, kerosene, and other fuels.",
+  "briefing": "A liquid’s boiling point is the temperature where it turns into gas all the way through, sending bubbles of vapor rolling up from inside. For water at sea level that’s 100 °C (212 °F), but on top of Mount Everest the thin air lets water boil at only about 70 °C. Different substances have different boiling points, which is how oil refineries separate crude oil into gasoline, kerosene, and other fuels.",
   "answerHtml": "<b><u>Boiling point</u></b> (accept <u>boiling temperature</u> or <u>normal boiling point</u>; prompt on <u>boiling</u>; do not accept “vapor pressure”)",
   "accept": [
     "boiling point",
@@ -60,7 +60,7 @@
       "r": "For 10 points, name this temperature at which a liquid turns into a gas throughout, which is 100 degrees Celsius for water at sea level."
     },
     {
-      "p": "Ebullioscopy [“ih-bull-ee-OSS-kuh-pee”] measures how much this temperature rises when a solute dissolves, in order to find the solute’s molar mass. Distillation separates the liquids in a mixture, such as the parts of crude oil, by differences in this temperature.",
+      "p": "Antifreeze in a car’s radiator lowers the coolant’s freezing point and also raises this temperature, so the coolant can get hotter without turning into a gas. Distillation separates the liquids in a mixture, such as the parts of crude oil, by differences in this temperature.",
       "r": "For 10 points, name this temperature at which a liquid’s vapor pressure equals the pressure around it."
     },
     {
@@ -296,12 +296,13 @@
       "rabbit": "Enthalpy"
     },
     {
-      "id": "ebullioscopy",
+      "id": "antifreeze",
       "tier": "power",
-      "t": "Ebullioscopy measures how much it rises when a solute dissolves, to find the solute’s molar mass",
+      "t": "Antifreeze in a car’s radiator lowers the coolant’s freezing point and also raises it, so the coolant can get hotter without turning into gas",
       "k": [
-        "ebullioscopy",
-        "molar mass"
+        "antifreeze",
+        "radiator",
+        "coolant"
       ],
       "n": 0
     },

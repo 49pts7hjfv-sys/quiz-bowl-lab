@@ -80,7 +80,7 @@
       "r": "This metal and tin make bronze, the alloy that named the Bronze Age. For 10 points, name this metal."
     },
     {
-      "p": "Butte [“BYOOT”], Montana, was nicknamed the “Richest Hill on Earth” for its mines of this metal. Arizona produces more of this metal than any other U.S. state, and Chile mines more of it than any other country.",
+      "p": "Butte [“BYOOT”], Montana, was nicknamed the “Richest Hill on Earth” for its mines of this metal. For decades, Arizona has produced more of this metal than any other U.S. state, and Chile has mined more of it than any other country.",
       "r": "For 10 points, name this metal that is mixed with zinc to make brass."
     },
     {
@@ -100,7 +100,7 @@
       "r": "It is also the usual metal in electrical wires. For 10 points, name this reddish-orange element with atomic number 29."
     },
     {
-      "p": "This element’s atomic mass, about 63.5, is the average of its two stable isotopes, whose mass numbers are 63 and 65. Its plus-two ions give many of its compounds a blue or green color, like the blue crystals of its sulfate.",
+      "p": "This element’s atomic mass, about 63.5, is a weighted average of its two stable isotopes, whose mass numbers are 63 and 65. Its plus-two ions give many of its compounds a blue or green color, like the blue crystals of its sulfate.",
       "r": "For 10 points, name this element, which coats U.S. pennies and makes up the skin of the Statue of Liberty."
     },
     {
@@ -263,7 +263,7 @@
     {
       "id": "mining",
       "tier": "middle",
-      "t": "Chile mines more of it than any other country; Arizona leads the U.S.",
+      "t": "For decades, Chile has mined more of it than any other country, and Arizona has led the U.S.",
       "k": [
         "chile",
         "arizona"
@@ -306,7 +306,7 @@
     {
       "id": "isotopes",
       "tier": "power",
-      "t": "Its atomic mass, about 63.5, averages its two stable isotopes, with mass numbers 63 and 65",
+      "t": "Its atomic mass, about 63.5, is a weighted average of its two stable isotopes, with mass numbers 63 and 65",
       "k": [
         "63.5",
         "isotopes",

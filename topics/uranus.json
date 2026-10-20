@@ -14,7 +14,6 @@
   ],
   "prompt": [],
   "reject": [
-    "ouranos",
     "caelus",
     "neptune",
     "saturn",
@@ -64,7 +63,7 @@
       "r": "That spacecraft flew on to Neptune in 1989. For 10 points, name this blue-green ice giant, the seventh planet from the Sun."
     },
     {
-      "p": "Verona Rupes, a cliff on this planet’s moon Miranda, is about 20 kilometers tall, probably the tallest cliff in the solar system. Miranda’s patchwork surface looks as if the moon had been broken apart and stuck back together.",
+      "p": "Verona Rupes, a cliff on this planet’s moon Miranda, is estimated to be about 20 kilometers tall, probably the tallest cliff in the solar system. Miranda’s patchwork surface looks as if the moon had been broken apart and stuck back together.",
       "r": "Miranda was discovered by Gerard Kuiper in 1948. For 10 points, name this planet, whose moons are named for characters from Shakespeare and Alexander Pope."
     },
     {
@@ -229,7 +228,7 @@
     {
       "id": "miranda",
       "tier": "middle",
-      "t": "Its moon Miranda has a patchwork surface and Verona Rupes, a cliff about 20 km tall",
+      "t": "Its moon Miranda has a patchwork surface and Verona Rupes, a cliff estimated to be about 20 km tall",
       "k": [
         "miranda",
         "verona rupes",
@@ -408,7 +407,8 @@
       "uranus",
       "Uranis",
       "Planet Uranus",
-      "the planet Uranus"
+      "the planet Uranus",
+      "Uranos"
     ],
     "prompt": [],
     "wrong": [

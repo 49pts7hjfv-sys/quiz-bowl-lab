@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "The “king of chemicals” · The most-made industrial chemical in the world",
   "dates": "Contact process patented 1831",
-  "briefing": "Sulfuric acid is so important to industry that it is nicknamed the “king of chemicals,” and the world makes more of it than any other chemical, for uses from fertilizer to car batteries. Alchemists called it “oil of vitriol.” It grabs water so fiercely that it turns sugar into a steaming black column of carbon, and mixing it with water releases so much heat that chemists always add the acid to the water, never the reverse.",
+  "briefing": "Sulfuric acid is so important to industry that it is nicknamed the “king of chemicals,” and the world makes more of it than any other industrial chemical, for uses from fertilizer to car batteries. Alchemists called it “oil of vitriol.” It grabs water so fiercely that it turns sugar into a steaming black column of carbon, and mixing it with water releases so much heat that chemists always add the acid to the water, never the reverse.",
   "answerHtml": "<b><u>Sulfuric acid</u></b> (accept <u>sulphuric acid</u>, <u>H<sub>2</sub>SO<sub>4</sub></u>, or <u>oil of vitriol</u>; prompt on <u>vitriol</u>; do not accept “sulfurous acid”)",
   "accept": [
     "sulfuric acid",
@@ -74,7 +74,7 @@
       "r": "For 10 points, name this strong acid whose molecules contain two hydrogen atoms, one sulfur atom, and four oxygen atoms."
     },
     {
-      "p": "Johann Glauber [“GLOW-ber”] made hydrochloric acid by heating table salt with this acid, leaving behind sodium sulfate, later called Glauber’s salt. When this acid loses just one of its two hydrogen ions, it becomes the hydrogen sulfate ion, also called bisulfate.",
+      "p": "Johann Glauber [“GLOU-ber”] made hydrochloric acid by heating table salt with this acid, leaving behind sodium sulfate, later called Glauber’s salt. When this acid loses just one of its two hydrogen ions, it becomes the hydrogen sulfate ion, also called bisulfate.",
       "r": "Its salts are called sulfates. For 10 points, name this strong acid, nicknamed the “king of chemicals.”"
     },
     {
@@ -106,7 +106,7 @@
       "r": "For 10 points, name this acid made from sulfur, which is produced in greater amounts than any other industrial chemical."
     },
     {
-      "p": "Economists once judged a country’s industrial strength by how much of this chemical it produced. In the last step of making this acid, sulfur trioxide is dissolved in concentrated acid to form oleum, because adding it straight to water creates a hard-to-control mist.",
+      "p": "A country’s output of this chemical was once used as a measure of its industrial strength. In the last step of making this acid, sulfur trioxide is dissolved in concentrated acid to form oleum, because adding it straight to water creates a hard-to-control mist.",
       "r": "For 10 points, name this strong acid that makes up the electrolyte in car batteries."
     },
     {
@@ -114,7 +114,7 @@
       "r": "For 10 points, name this strong acid, the most-produced industrial chemical in the world."
     },
     {
-      "p": "Steelmakers often “pickle” steel in this acid to strip away rust and scale before coating it. Chemistry teachers warn students to add this acid to water, never water to the acid, because mixing them gives off so much heat.",
+      "p": "Steel can be “pickled” in this acid to strip away rust and scale before it is coated. Chemistry teachers warn students to add this acid to water, never water to the acid, because mixing them gives off so much heat.",
       "r": "For 10 points, name this strong acid made by the contact process, nicknamed the “king of chemicals.”"
     },
     {
@@ -409,10 +409,10 @@
     {
       "id": "industrial-strength",
       "tier": "power",
-      "t": "Economists once judged a country’s industrial strength by how much of it the country produced",
+      "t": "A country’s output of it was once used as a measure of the country’s industrial strength",
       "k": [
-        "economists",
-        "industrial strength"
+        "industrial strength",
+        "output"
       ],
       "n": 0
     },
@@ -429,9 +429,9 @@
     {
       "id": "pickling",
       "tier": "power",
-      "t": "Steelmakers often “pickle” steel in it to strip away rust and scale",
+      "t": "Steel can be “pickled” in it to strip away rust and scale",
       "k": [
-        "pickle",
+        "pickled",
         "steel",
         "scale"
       ],

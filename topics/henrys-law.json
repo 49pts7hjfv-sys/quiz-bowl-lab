@@ -71,7 +71,7 @@
       "r": "For 10 points, name this law that explains why a bottle of soda fizzes when it is opened."
     },
     {
-      "p": "Sieverts’ law, a variation of this law for gases like hydrogen dissolving into metals, says that their solubility grows with the square root of the pressure instead. This law itself is exact only for very dilute solutions, so it is called a “limiting law.”",
+      "p": "This law is exact only for very dilute solutions, so it is called a “limiting law.” When it is written C equals k P, its constant has units such as moles per liter per atmosphere.",
       "r": "For 10 points, name this gas law, which explains why scuba divers who rise too quickly can get the bends."
     },
     {
@@ -99,7 +99,7 @@
       "r": "For 10 points, name this law which explains why scuba divers who surface too quickly can get the bends."
     },
     {
-      "p": "Gas molecules constantly enter and leave the surface of a liquid, and once they do so at equal rates, this law gives the amount of gas that is dissolved. Champagne and soft drinks are bottled under high carbon dioxide pressure so that extra gas dissolves in them.",
+      "p": "Gas molecules constantly enter and leave the surface of a liquid, and once they do so at equal rates, this law gives the amount of gas that is dissolved. Soft drinks are bottled under high carbon dioxide pressure so that extra gas dissolves in them.",
       "r": "For 10 points, name this law which says that the solubility of a gas is directly proportional to its partial pressure."
     },
     {
@@ -186,11 +186,11 @@
     {
       "id": "bottling",
       "tier": "middle",
-      "t": "Soft drinks and champagne are bottled under high carbon dioxide pressure to pack in extra gas",
+      "t": "Soft drinks are bottled under high carbon dioxide pressure to pack in extra dissolved gas",
       "k": [
-        "champagne",
         "bottled",
-        "soft drinks"
+        "soft drinks",
+        "carbon dioxide pressure"
       ],
       "n": 0
     },
@@ -309,13 +309,12 @@
       "rabbit": "Ammonia"
     },
     {
-      "id": "sieverts",
+      "id": "units",
       "tier": "power",
-      "t": "Sieverts’ law, a variation for gases like hydrogen dissolving in metals, uses the square root of the pressure",
+      "t": "When written C = kP, its constant has units such as moles per liter per atmosphere",
       "k": [
-        "sieverts",
-        "square root",
-        "metals"
+        "units",
+        "moles per liter per atmosphere"
       ],
       "n": 0
     },

@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "Element 7 · The gas that makes up about 78% of the air",
   "dates": "Discovered by Daniel Rutherford, 1772",
-  "briefing": "Nitrogen is the invisible gas that makes up about 78 percent of every breath you take, yet your body can’t use it straight from the air. Its two-atom molecules are held by a powerful triple bond, so only lightning, bacteria in plant roots, and factories using the Haber process can break them apart to make plant food. Every protein and strand of DNA in your body contains nitrogen, and liquid nitrogen is cold enough to freeze a flower solid in seconds.",
+  "briefing": "Nitrogen is the invisible gas that makes up about 78 percent of every breath you take, yet your body can’t use it straight from the air. Its two-atom molecules are held by a powerful triple bond, so it takes lightning, certain bacteria such as those in plant roots, or factories using the Haber process to break them apart and make plant food. Every protein and strand of DNA in your body contains nitrogen, and liquid nitrogen is cold enough to freeze a flower solid in seconds.",
   "answerHtml": "<b><u>Nitrogen</u></b> (accept <u>N</u> or <u>N<sub>2</sub></u>)",
   "accept": [
     "nitrogen",
@@ -71,7 +71,7 @@
       "r": "For 10 points, name this element with atomic number 7, which is found in every amino acid and in the bases of DNA."
     },
     {
-      "p": "Nitrogenase, an enzyme containing iron and molybdenum [“muh-LIB-duh-num”], lets certain bacteria break apart the very stable molecules of this element. Bacteria in the root nodules of legumes such as peas, beans, and clover “fix” this element from the air so that plants can use it.",
+      "p": "An enzyme containing iron and molybdenum [“muh-LIB-duh-num”] lets certain bacteria break apart the very stable molecules of this element. Bacteria in the root nodules of legumes such as peas, beans, and clover “fix” this element from the air so that plants can use it.",
       "r": "Fertilizers are packed with this element. For 10 points, name this gas that makes up most of Earth’s air."
     },
     {
@@ -103,7 +103,7 @@
       "r": "That condition is called the bends. For 10 points, name this element, the main gas in air."
     },
     {
-      "p": "Ice made mostly of this element fills Sputnik Planitia, the left half of the bright heart-shaped region on Pluto, and Voyager 2 saw geysers of this element’s gas on Neptune’s moon Triton. A brown oxide of this element, released by car engines, helps form smog.",
+      "p": "Ice made mostly of this element fills Sputnik Planitia, the western half of the bright heart-shaped region on Pluto, and Voyager 2 saw geysers of this element’s gas on Neptune’s moon Triton. A brown oxide of this element, released by car engines, helps form smog.",
       "r": "Plants get this element from fertilizers. For 10 points, name this element with atomic number 7."
     },
     {
@@ -332,10 +332,11 @@
     {
       "id": "nitrogenase",
       "tier": "power",
-      "t": "Nitrogenase, the enzyme bacteria use to break apart its molecules, contains iron and molybdenum",
+      "t": "The enzyme that bacteria use to break apart its molecules contains iron and molybdenum",
       "k": [
-        "nitrogenase",
-        "molybdenum"
+        "enzyme",
+        "molybdenum",
+        "iron"
       ],
       "n": 0
     },

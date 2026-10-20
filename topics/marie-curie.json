@@ -74,7 +74,7 @@
       "r": "She went on to discover polonium and radium. For 10 points, name this scientist who coined the word “radioactivity.”"
     },
     {
-      "p": "In 1898, this scientist found that thorium also gives off radiation, independently of the German physicist Gerhard Schmidt. She noticed that the uranium ore pitchblende was far more radioactive than its uranium alone could explain.",
+      "p": "In 1898, this scientist found that thorium also gives off radiation, independently of Gerhard Schmidt in Germany. She noticed that the uranium ore pitchblende was far more radioactive than its uranium alone could explain.",
       "r": "That led her to discover polonium and radium. For 10 points, name this first woman to win a Nobel Prize."
     },
     {
@@ -118,7 +118,7 @@
       "r": "For 10 points, name this Polish-born scientist, the first person to win two Nobel Prizes."
     },
     {
-      "p": "In 1902, after processing tons of pitchblende, this scientist finally isolated about a tenth of a gram of radium chloride. That ore was far more radioactive than its uranium could explain, which convinced her that it held new elements.",
+      "p": "In 1902, after years of processing pitchblende, this scientist finally isolated about a tenth of a gram of radium chloride. That ore was far more radioactive than its uranium could explain, which convinced her that it held new elements.",
       "r": "For 10 points, name this scientist who discovered polonium and radium and won Nobel Prizes in physics and chemistry."
     },
     {
@@ -338,7 +338,7 @@
     {
       "id": "thorium",
       "tier": "power",
-      "t": "Found in 1898 that thorium is also radioactive, independently of the German physicist Gerhard Schmidt",
+      "t": "Found in 1898 that thorium is also radioactive, independently of Gerhard Schmidt in Germany",
       "k": [
         "thorium",
         "gerhard schmidt"
@@ -451,7 +451,7 @@
     {
       "id": "radium-chloride",
       "tier": "power",
-      "t": "In 1902, after processing tons of pitchblende, she isolated about a tenth of a gram of radium chloride",
+      "t": "In 1902, after years of processing pitchblende, she isolated about a tenth of a gram of radium chloride",
       "k": [
         "radium chloride",
         "1902",

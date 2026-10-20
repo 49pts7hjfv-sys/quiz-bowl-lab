@@ -22,9 +22,7 @@
   ],
   "reject": [
     "cation",
-    "cations",
     "anion",
-    "anions",
     "electron",
     "electrons",
     "proton",
@@ -444,7 +442,8 @@
       "ion",
       "ION",
       "positive and negative ions",
-      "Cations and anions"
+      "Cations and anions",
+      "Cations and anoins"
     ],
     "prompt": [
       "charged particles"

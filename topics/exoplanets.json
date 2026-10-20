@@ -50,11 +50,11 @@
       "r": "Most of these objects circle ordinary stars instead. For 10 points, name these planets that orbit stars other than the Sun."
     },
     {
-      "p": "Michel Mayor and Didier Queloz [“keh-LOH”] shared the 2019 Nobel Prize in Physics for finding one of these objects in 1995 that circles the star 51 Pegasi every four days. That gas giant, the first of these objects found around a Sun-like star, orbits so close that it is called a hot Jupiter.",
+      "p": "Michel Mayor and Didier Queloz [“kuh-LOH”] shared the 2019 Nobel Prize in Physics for finding one of these objects in 1995 that circles the star 51 Pegasi every four days. That gas giant, the first of these objects found around a Sun-like star, orbits so close that it is called a hot Jupiter.",
       "r": "Mayor and Queloz found it by the wobble it causes in its star. For 10 points, name these planets found beyond our solar system."
     },
     {
-      "p": "When a planet the size of Jupiter crosses in front of a star like the Sun, the star dims by about one percent; an Earth-sized planet dims it by less than one-hundredth of a percent. From 2009 to 2018, a space telescope stared at one patch of sky near the constellations Cygnus and Lyra to catch such dips.",
+      "p": "When a planet the size of Jupiter crosses in front of a star like the Sun, the star dims by about one percent; an Earth-sized planet dims it by less than one-hundredth of a percent. From 2009 to 2013, a space telescope stared at one patch of sky in the constellations Cygnus and Lyra to catch such dips.",
       "r": "That telescope, Kepler, found thousands of these objects using the transit method. For 10 points, name these planets that orbit stars other than the Sun."
     },
     {
@@ -66,7 +66,7 @@
       "r": "Several of them lie in the star’s habitable zone, where liquid water could exist. For 10 points, name these planets that circle stars other than our Sun."
     },
     {
-      "p": "Kepler-186f, announced in 2014, was the first Earth-sized one of these objects found at just the right distance from its star for liquid water to exist on its surface. That object is slightly larger than Earth and orbits a red dwarf star.",
+      "p": "Kepler-186f, announced in 2014, was the first Earth-sized one of these objects found at just the right distance from its star, where liquid water could exist on its surface. That object is slightly larger than Earth and orbits a red dwarf star.",
       "r": "Astronomers call that just-right region the “Goldilocks zone,” or habitable zone. For 10 points, name these planets that orbit stars other than our Sun."
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "p": "Kepler-16b was nicknamed “Tatooine” after Luke Skywalker’s home world, because it circles a pair of stars that also orbit each other. That planet, announced in 2011, is a cold gas giant with about the mass of Saturn.",
-      "r": "NASA’s TESS satellite, launched in 2018, searches most of the sky for more of these objects. For 10 points, name these planets beyond our solar system."
+      "r": "NASA’s TESS satellite was launched in 2018 to search most of the sky for more of these objects. For 10 points, name these planets beyond our solar system."
     },
     {
       "p": "In 1999, HD 209458 b became the first of these objects seen passing in front of its star. The Hubble Space Telescope later detected sodium in that object’s atmosphere, the first atmosphere found on one of these objects.",
@@ -98,7 +98,7 @@
       "r": "That method relies on the bending of light that Albert Einstein predicted. For 10 points, name these planets beyond our solar system."
     },
     {
-      "p": "In 2015, the International Astronomical Union let the public help name some of these objects, and 51 Pegasi b became Dimidium [“dih-MID-ee-um”], Latin for “half,” because its mass is at least half of Jupiter’s. Such objects are labeled with lowercase letters, starting with “b.”",
+      "p": "In 2015, the International Astronomical Union let the public help name some of these objects, and 51 Pegasi b became Dimidium [“dih-MID-ee-um”], Latin for “half,” because its mass is about half of Jupiter’s. Such objects are labeled with lowercase letters, starting with “b.”",
       "r": "Most have only catalog names, like Kepler-16b or TRAPPIST-1e. For 10 points, name these planets that orbit stars other than the Sun."
     },
     {
@@ -241,7 +241,7 @@
     {
       "id": "tess",
       "tier": "middle",
-      "t": "NASA’s TESS satellite (launched 2018) searches most of the sky for transits",
+      "t": "NASA’s TESS satellite was launched in 2018 to search most of the sky for transits",
       "k": [
         "tess",
         "2018"
@@ -274,7 +274,7 @@
     {
       "id": "dimidium",
       "tier": "power",
-      "t": "51 Pegasi b was named Dimidium (Latin for “half”) in 2015, for its mass of at least half of Jupiter’s",
+      "t": "51 Pegasi b was named Dimidium (Latin for “half”) in 2015, for its mass of about half of Jupiter’s",
       "k": [
         "dimidium",
         "half"

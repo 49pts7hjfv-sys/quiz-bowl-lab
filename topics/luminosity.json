@@ -87,7 +87,7 @@
       "r": "Astronomers often give it for other stars in units of the Sun’s value. For 10 points, name this quantity, a star’s total power output."
     },
     {
-      "p": "Many white dwarfs are hotter than the Sun but have far less of this quantity because they are so small, while cool red giants have much more of it because they are so huge. The red supergiant Betelgeuse [“BET-ul-jooz”] has an enormous value of this quantity despite its cool surface.",
+      "p": "Many white dwarfs are hotter than the Sun but have far less of this quantity because they are so small, while cool red giants have much more of it because they are so huge. The red supergiant Betelgeuse [“BEE-tul-jooz”] has an enormous value of this quantity despite its cool surface.",
       "r": "Ejnar Hertzsprung and Henry Norris Russell plotted it against temperature. For 10 points, name this total power output of a star."
     },
     {
@@ -99,15 +99,15 @@
       "r": "For 10 points, name this quantity, a star’s total power output, which is often compared to the Sun’s."
     },
     {
-      "p": "Sirius is the brightest star in our night sky mostly because it is only about 8.6 light-years away; it has only about 25 times the Sun’s value of this quantity. Rigel [“RY-jul”] looks fainter, but it has more than a thousand times as much of this quantity as Sirius.",
+      "p": "Sirius is the brightest star in our night sky mostly because it is only about 8.6 light-years away; it has only about 25 times the Sun’s value of this quantity. Rigel [“RYE-jul”] looks fainter, but it has more than a thousand times as much of this quantity as Sirius.",
       "r": "For 10 points, name this quantity, a star’s true power output, as opposed to how bright it looks from Earth."
     },
     {
-      "p": "The distance from a star to its habitable zone, where a planet could have liquid water, grows with the square root of this quantity. Red dwarfs have so little of it that their habitable zones lie closer in than Mercury’s orbit around the Sun.",
+      "p": "The distance from a star to its habitable zone, where a planet could have liquid water, grows with the square root of this quantity. Most red dwarfs have so little of it that their habitable zones lie closer in than Mercury’s orbit around the Sun.",
       "r": "For 10 points, name this measure of the total energy a star gives off per second."
     },
     {
-      "p": "Quasars, which are powered by gas falling into supermassive black holes, have some of the highest values of this quantity in the universe, often more than all the stars in their home galaxies put together, even though that glow comes from a region about the size of our solar system.",
+      "p": "Quasars, which are powered by gas falling into supermassive black holes, have some of the highest values of this quantity in the universe, often more than all the stars in their home galaxies put together, even though that glow comes from a region only a few light-days across.",
       "r": "For 10 points, name this quantity, the total power an object gives off, often measured in watts."
     }
   ],
@@ -332,7 +332,7 @@
     {
       "id": "habitable-zone",
       "tier": "power",
-      "t": "The distance to a star’s habitable zone grows with the square root of this value; red dwarfs’ habitable zones are closer to them than Mercury is to the Sun",
+      "t": "The distance to a star’s habitable zone grows with the square root of this value; most red dwarfs’ habitable zones are closer to them than Mercury is to the Sun",
       "k": [
         "habitable zone",
         "square root",

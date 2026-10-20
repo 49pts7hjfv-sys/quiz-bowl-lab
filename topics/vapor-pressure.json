@@ -76,7 +76,7 @@
       "r": "For 10 points, name this quantity, which equals one atmosphere at a liquid’s normal boiling point."
     },
     {
-      "p": "An isoteniscope is a lab device built to measure this quantity. At 100 degrees Celsius, water’s value of this quantity reaches 760 millimeters of mercury, or one atmosphere, but at room temperature it is only a small fraction of that.",
+      "p": "A manometer attached to a sealed flask with its air pumped out can measure this quantity for a liquid placed inside. At 100 degrees Celsius, water’s value of this quantity reaches 760 millimeters of mercury, or one atmosphere, but at room temperature it is only a small fraction of that.",
       "r": "For 10 points, name this quantity, the pressure of the gas that escapes from a liquid in a closed container once escaping and returning molecules balance."
     },
     {
@@ -88,7 +88,7 @@
       "r": "Mothballs and dry ice have high values of it. For 10 points, name this quantity, which is high for volatile liquids like acetone."
     },
     {
-      "p": "Gasoline sold in the summer is blended to have a lower “Reid” value of this quantity, so that less of the fuel evaporates and helps form smog. Volatile liquids, like the acetone in nail polish remover, have high values of this quantity.",
+      "p": "Diethyl ether, whose molecules cannot form hydrogen bonds with each other, has a far higher value of this quantity than water at room temperature. Volatile liquids, like the acetone in nail polish remover, have high values of this quantity.",
       "r": "For 10 points, name this quantity that equals atmospheric pressure when a liquid boils."
     },
     {
@@ -305,12 +305,13 @@
       "n": 0
     },
     {
-      "id": "isoteniscope",
+      "id": "manometer",
       "tier": "power",
-      "t": "An isoteniscope is a lab device built to measure it",
+      "t": "A manometer attached to a sealed flask with its air pumped out can measure it for a liquid placed inside",
       "k": [
-        "isoteniscope",
-        "lab device"
+        "manometer",
+        "sealed flask",
+        "air pumped out"
       ],
       "n": 0
     },
@@ -338,13 +339,13 @@
       "rabbit": "Clouds"
     },
     {
-      "id": "reid",
+      "id": "ether",
       "tier": "power",
-      "t": "Summer gasoline is blended for a lower “Reid” value, so less fuel evaporates and helps form smog",
+      "t": "Diethyl ether, whose molecules cannot form hydrogen bonds with each other, has a far higher value than water at room temperature",
       "k": [
-        "reid",
-        "summer",
-        "smog"
+        "diethyl ether",
+        "hydrogen bonds",
+        "room temperature"
       ],
       "n": 0
     },
