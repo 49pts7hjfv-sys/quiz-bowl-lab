@@ -307,8 +307,8 @@ data = {
         {
             "id": "haemophilus",
             "tier": "power",
-            "t": "The 1918 outbreak was long thought bacterial, which is why the bacterium _Haemophilus influenzae_ still has a misleading name",
-            "k": ["haemophilus influenzae", "bacterial"],
+            "t": "The 1918 outbreak was long thought to be bacterial, and one bacterium found in patients’ lungs still carries a misleading name from that era",
+            "k": ["bacterium", "bacterial", "misleading name"],
             "n": 0,
             "rabbit": "Bacteria"
         },
