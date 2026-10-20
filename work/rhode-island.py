@@ -84,7 +84,7 @@ data = {
             "r": "For 10 points, name this New England state where Slater helped start the American Industrial Revolution."
         },
         {
-            "p": "In the 1840s, Thomas Dorr led a rebellion because this state still used its 1663 royal charter as its constitution, and only men who owned land could vote. Supporters of his “People’s Constitution” even elected Dorr governor, so this state briefly had two rival governments.",
+            "p": "In the 1840s, Thomas Dorr led a rebellion because this state kept using its 1663 royal charter as its constitution, and only men who owned land could vote. Supporters of his “People’s Constitution” even elected Dorr governor, so this state briefly had two rival governments.",
             "r": "The rebellion led to a new state constitution in 1843. For 10 points, name this New England state whose capital is Providence."
         },
         {
