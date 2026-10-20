@@ -1,0 +1,412 @@
+{
+  "id": "davy-crockett",
+  "name": "Davy Crockett",
+  "mono": "DCR",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Tennessee frontiersman and congressman · Died defending the Alamo",
+  "dates": "1786–1836",
+  "briefing": "Davy Crockett was a real Tennessee frontiersman who became a legend while he was still alive. He scouted in the Creek War, served three terms in Congress, and broke with President Andrew Jackson by voting against the Indian Removal Act. After losing his seat, he went to Texas and died at the Alamo in 1836. A 1950s Disney TV show called him the “King of the Wild Frontier” and set off a craze for coonskin caps.",
+  "answerHtml": "David “Davy” <b><u>Crockett</u></b>",
+  "accept": [
+    "davy crockett",
+    "david crockett",
+    "crockett",
+    "dave crockett",
+    "david davy crockett"
+  ],
+  "prompt": [
+    "davy",
+    "david",
+    "king of the wild frontier"
+  ],
+  "reject": [
+    "battle of the alamo",
+    "the alamo",
+    "alamo",
+    "jim bowie",
+    "james bowie",
+    "bowie",
+    "william travis",
+    "william b travis",
+    "travis",
+    "sam houston",
+    "houston",
+    "daniel boone",
+    "boone",
+    "kit carson",
+    "fess parker",
+    "santa anna",
+    "antonio lopez de santa anna",
+    "andrew jackson",
+    "adam huntsman",
+    "james bonham",
+    "johnny appleseed",
+    "paul bunyan",
+    "pecos bill"
+  ],
+  "tests": {
+    "right": [
+      "Davy Crockett",
+      "David Crockett",
+      "Crockett",
+      "Davey Crockett"
+    ],
+    "prompt": [
+      "Davy"
+    ],
+    "wrong": [
+      "Daniel Boone",
+      "Jim Bowie",
+      "William Travis",
+      "Sam Houston",
+      "The Alamo"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Davy_Crockett",
+  "qb": {
+    "q": "Crockett",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "James Kirke Paulding’s play _The Lion of the West_ starred Colonel Nimrod Wildfire, a loud, boastful backwoodsman whom audiences took to be a portrait of this congressman. The play helped make this man a national celebrity in the early 1830s.",
+      "r": "A Disney show later called him the “King of the Wild Frontier.” For 10 points, name this Tennessee frontiersman who died at the Alamo."
+    },
+    {
+      "p": "This man lost his 1835 reelection race to Adam Huntsman, a lawyer with a wooden leg who supported President Andrew Jackson. Four years earlier, he had also lost his seat after breaking with Jackson.",
+      "r": "After his 1835 defeat, he left for Texas. For 10 points, name this congressman who died at the Alamo."
+    },
+    {
+      "p": "In the Tennessee legislature and in Congress, this man fought for poor squatters in the western part of his state, hoping to let them buy the land they farmed cheaply. He first won a seat in the state legislature in 1821.",
+      "r": "He later died at the Alamo. For 10 points, name this frontiersman nicknamed the “King of the Wild Frontier.”"
+    },
+    {
+      "p": "In 1834, Whig politicians sponsored this man’s speaking tour of Northern cities such as Philadelphia, New York, and Boston, hoping to use his fame against President Andrew Jackson. That same year, he published an autobiography.",
+      "r": "For 10 points, name this Tennessee congressman and frontiersman who died at the Alamo in 1836."
+    },
+    {
+      "p": "Breaking with President Andrew Jackson, this Tennessee congressman voted against the Indian Removal Act in 1830. Years earlier, he had served as a scout under Jackson’s command in the Creek War.",
+      "r": "A 1950s Disney show later made him a hero to a new generation. For 10 points, name this frontiersman who died defending the Alamo."
+    },
+    {
+      "p": "This hunter claimed in his autobiography to have killed more than a hundred bears in less than a year. He represented western Tennessee in Congress for three terms, though not all in a row.",
+      "r": "A popular song says he “kilt him a b’ar when he was only three.” For 10 points, name this frontiersman who died at the Alamo."
+    },
+    {
+      "p": "This man’s 1834 autobiography, written while he served in Congress, includes his motto, “Be always sure you’re right, then go ahead.” The book tells of his childhood, his hunting trips, and his service in the Creek War.",
+      "r": "For 10 points, name this Tennessee frontiersman who died at the Alamo in 1836."
+    },
+    {
+      "p": "Tall tales in almanacs bearing this man’s name claimed he could grin a raccoon out of a tree and once came home with a piece of sunrise in his pocket. Those almanacs kept appearing for about twenty years after his death.",
+      "r": "For 10 points, name this real frontiersman from Tennessee who died at the Alamo."
+    },
+    {
+      "p": "In a 1950s Disney TV series, Fess Parker played this man and Buddy Ebsen played his friend George Russel. Disney later edited the show’s first three episodes into a 1955 movie.",
+      "r": "The show set off a craze for coonskin caps. For 10 points, name this “King of the Wild Frontier,” who died at the Alamo."
+    },
+    {
+      "p": "John Wayne directed and starred as this man in a 1960 film shot on a replica set near Brackettville, Texas, and Billy Bob Thornton played him in a 2004 film about the same battle.",
+      "r": "He reached that battle’s fort in February 1836. For 10 points, name this frontiersman who died at the Alamo."
+    },
+    {
+      "p": "This man was born in 1786 near the Nolichucky [“nah-lih-CHUH-kee”] River, in what is now Greene County in the eastern part of his state. He later moved west, and voters there sent him to the state legislature and then to Congress.",
+      "r": "He was later called the “King of the Wild Frontier.” For 10 points, name this Tennessee congressman who died at the Alamo."
+    },
+    {
+      "p": "A national forest in East Texas is named for this man, as are counties in both Texas and Tennessee. He had moved to Texas after his political career in Tennessee ended.",
+      "r": "For 10 points, name this frontiersman who died defending the Alamo against Antonio López de Santa Anna’s Mexican army."
+    },
+    {
+      "p": "In a January 1836 letter to his family, this man called Texas “the garden spot of the world.” That same month, he signed an oath of loyalty to the provisional government of Texas.",
+      "r": "For 10 points, name this frontiersman, known as the “King of the Wild Frontier,” who died weeks later at the Alamo."
+    },
+    {
+      "p": "This man married Polly Finley in 1806, and after her death he married Elizabeth Patton, a widow. He moved his family several times, finally settling in western Tennessee, where he hunted bears.",
+      "r": "After leaving Congress, he went to Texas. For 10 points, name this frontiersman who died at the Alamo."
+    },
+    {
+      "p": "Bill Hayes’s recording of a song about this man reached number one on the pop charts in 1955, and Fess Parker, who played him on television, also recorded it. The song was written for a Disney TV show, and several other singers recorded it too.",
+      "r": "That song begins “Born on a mountain top in Tennessee.” For 10 points, name this frontiersman who died at the Alamo."
+    }
+  ],
+  "clues": [
+    {
+      "id": "alamo",
+      "tier": "giveaway",
+      "t": "Died defending the Alamo in San Antonio, Texas, in March 1836",
+      "k": [
+        "alamo",
+        "san antonio",
+        "1836"
+      ],
+      "n": 0,
+      "rabbit": "Battle of the Alamo"
+    },
+    {
+      "id": "frontiersman",
+      "tier": "giveaway",
+      "t": "Frontiersman and congressman from Tennessee",
+      "k": [
+        "frontiersman",
+        "tennessee",
+        "congressman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wild-frontier",
+      "tier": "giveaway",
+      "t": "Called the “King of the Wild Frontier” in a 1950s Disney TV show and its hit theme song",
+      "k": [
+        "king of the wild frontier",
+        "wild frontier",
+        "disney"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coonskin",
+      "tier": "giveaway",
+      "t": "The Disney show set off a craze for coonskin caps, made of raccoon fur",
+      "k": [
+        "coonskin",
+        "raccoon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "removal-vote",
+      "tier": "middle",
+      "t": "Broke with Andrew Jackson by voting against the Indian Removal Act (1830)",
+      "k": [
+        "indian removal act",
+        "andrew jackson",
+        "1830"
+      ],
+      "n": 0,
+      "rabbit": "Trail of Tears"
+    },
+    {
+      "id": "creek-war",
+      "tier": "middle",
+      "t": "Served as a scout under Andrew Jackson’s command in the Creek War (1813–1814)",
+      "k": [
+        "creek war",
+        "scout"
+      ],
+      "n": 0
+    },
+    {
+      "id": "motto",
+      "tier": "middle",
+      "t": "His motto: “Be always sure you’re right, then go ahead”",
+      "k": [
+        "sure you’re right",
+        "go ahead",
+        "motto"
+      ],
+      "n": 0
+    },
+    {
+      "id": "autobiography",
+      "tier": "middle",
+      "t": "Published an autobiography in 1834, while serving his third term in Congress",
+      "k": [
+        "autobiography",
+        "1834",
+        "third term"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lost-seat",
+      "tier": "middle",
+      "t": "Lost his seat in Congress in 1831 and again in 1835, then left for Texas",
+      "k": [
+        "1831",
+        "1835",
+        "texas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tall-tales",
+      "tier": "middle",
+      "t": "Hero of tall tales in comic almanacs (from 1835): he could grin a raccoon out of a tree",
+      "k": [
+        "tall tales",
+        "almanacs",
+        "grin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bowie-travis",
+      "tier": "middle",
+      "t": "Died at the Alamo alongside Jim Bowie and William Travis, fighting Santa Anna’s Mexican army",
+      "k": [
+        "jim bowie",
+        "bowie",
+        "william travis",
+        "travis",
+        "santa anna"
+      ],
+      "n": 0,
+      "rabbit": "Antonio López de Santa Anna"
+    },
+    {
+      "id": "song",
+      "tier": "middle",
+      "t": "The Disney song begins “Born on a mountain top in Tennessee” and says he “kilt him a b’ar when he was only three”",
+      "k": [
+        "mountain top",
+        "kilt him a b’ar",
+        "b’ar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lion-of-the-west",
+      "tier": "power",
+      "t": "James Kirke Paulding’s play _The Lion of the West_ starred Colonel Nimrod Wildfire, a character audiences linked to him",
+      "k": [
+        "lion of the west",
+        "nimrod wildfire",
+        "paulding"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huntsman",
+      "tier": "power",
+      "t": "Lost his 1835 race to Adam Huntsman, a Jackson supporter with a wooden leg",
+      "k": [
+        "adam huntsman",
+        "huntsman",
+        "wooden leg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "squatters",
+      "tier": "power",
+      "t": "Elected to the Tennessee legislature in 1821; fought for poor squatters in western Tennessee to buy the land they farmed",
+      "k": [
+        "squatters",
+        "legislature",
+        "1821"
+      ],
+      "n": 0
+    },
+    {
+      "id": "whig-tour",
+      "tier": "power",
+      "t": "Whig politicians sponsored his 1834 speaking tour of Northern cities like Philadelphia, New York, and Boston",
+      "k": [
+        "whig",
+        "speaking tour",
+        "philadelphia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "disney-cast",
+      "tier": "power",
+      "t": "Fess Parker played him on TV, with Buddy Ebsen as his friend George Russel; the episodes became a 1955 movie",
+      "k": [
+        "fess parker",
+        "buddy ebsen",
+        "george russel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hayes",
+      "tier": "power",
+      "t": "Bill Hayes’s recording of the Disney song about him reached No. 1 in 1955",
+      "k": [
+        "bill hayes",
+        "1955"
+      ],
+      "n": 0
+    },
+    {
+      "id": "films",
+      "tier": "power",
+      "t": "John Wayne directed and starred as him in a 1960 film shot near Brackettville, Texas; Billy Bob Thornton played him in 2004",
+      "k": [
+        "john wayne",
+        "billy bob thornton",
+        "brackettville"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bears",
+      "tier": "power",
+      "t": "Claimed in his autobiography to have killed more than 100 bears in less than a year",
+      "k": [
+        "bears",
+        "100 bears"
+      ],
+      "n": 0
+    },
+    {
+      "id": "birthplace",
+      "tier": "power",
+      "t": "Born in 1786 near the Nolichucky River, in today’s Greene County, Tennessee",
+      "k": [
+        "nolichucky",
+        "greene county",
+        "1786"
+      ],
+      "n": 0
+    },
+    {
+      "id": "garden-spot",
+      "tier": "power",
+      "t": "In January 1836, called Texas “the garden spot of the world” and signed an oath of loyalty to its provisional government",
+      "k": [
+        "garden spot",
+        "january 1836",
+        "oath"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forest",
+      "tier": "power",
+      "t": "A national forest in East Texas and counties in Texas and Tennessee are named for him",
+      "k": [
+        "national forest",
+        "east texas",
+        "counties"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marriages",
+      "tier": "power",
+      "t": "Married Polly Finley in 1806 and later the widow Elizabeth Patton",
+      "k": [
+        "polly finley",
+        "elizabeth patton"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Crockett, Boone, or Bowie?",
+    "body": "Fess Parker played both Davy Crockett and Daniel Boone on TV in a coonskin cap, so the two frontiersmen get mixed up. Boone explored Kentucky through the Cumberland Gap and founded Boonesborough; Crockett was a Tennessee congressman who died at the Alamo. At the Alamo itself, Crockett died alongside Jim Bowie, of the Bowie knife, and William Travis, who commanded the Texan defenders, and some tossups ask for the battle instead of the man.",
+    "fix": "Tennessee, Congress, the vote against the Indian Removal Act, and “King of the Wild Frontier” mean Crockett. Kentucky and the Wilderness Road mean Boone. The famous knife means Bowie, and the “Victory or Death” letter means Travis. If the question says “this battle,” answer the Alamo.",
+    "line": "Real answer line: David “Davy” <b><u>Crockett</u></b>"
+  }
+}

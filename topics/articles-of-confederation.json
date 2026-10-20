@@ -1,0 +1,418 @@
+{
+  "id": "articles-of-confederation",
+  "name": "Articles of Confederation",
+  "mono": "ACF",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "First U.S. plan of government, 1781–1789 · Replaced by the Constitution",
+  "dates": "Drafted 1777; in effect 1781–1789",
+  "briefing": "Before the Constitution, the United States ran on the Articles of Confederation, drafted in 1777 and finally approved by all thirteen states in 1781. Each state kept most of its power and had one vote in a weak Congress that could not collect taxes, regulate trade, or enforce its own laws. After indebted farmers in Massachusetts rose up in Shays’ Rebellion, leaders met in Philadelphia in 1787 to fix the Articles and ended up replacing them with the Constitution.",
+  "answerHtml": "<b><u>Articles of Confederation</u></b> (accept <u>Articles of Confederation and Perpetual Union</u>; prompt on <u>Articles</u>; do not accept “Constitution”)",
+  "accept": [
+    "articles of confederation",
+    "the articles of confederation",
+    "articles of confederation and perpetual union",
+    "the articles of confederation and perpetual union",
+    "articles of the confederation",
+    "articles of confederations"
+  ],
+  "prompt": [
+    "articles",
+    "the articles",
+    "confederation",
+    "articles of confederacy",
+    "the articles of confederacy"
+  ],
+  "reject": [
+    "constitution",
+    "the constitution",
+    "us constitution",
+    "united states constitution",
+    "constitution of the united states",
+    "confederate constitution",
+    "constitution of the confederate states",
+    "confederate states of america",
+    "confederacy",
+    "declaration of independence",
+    "northwest ordinance",
+    "land ordinance",
+    "land ordinance of 1785",
+    "bill of rights",
+    "federalist papers",
+    "the federalist papers",
+    "albany plan",
+    "albany plan of union",
+    "mayflower compact",
+    "olive branch petition",
+    "virginia plan",
+    "new jersey plan",
+    "great compromise",
+    "connecticut compromise",
+    "articles of association",
+    "continental association",
+    "confederation congress",
+    "congress of the confederation",
+    "articles of impeachment",
+    "shays rebellion",
+    "annapolis convention",
+    "constitutional convention"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Articles_of_Confederation",
+  "qb": {
+    "q": "Articles of Confederation",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "One section of this document said the states were entering into “a firm league of friendship with each other” for their common defense. Another section said that each state kept its “sovereignty, freedom, and independence.”",
+      "r": "For 10 points, name this first constitution of the United States, which was replaced in 1789."
+    },
+    {
+      "p": "Under one section of this document, Canada could join the United States automatically, but any other colony needed the approval of nine states. Changing this document required the approval of all thirteen states.",
+      "r": "For 10 points, name this weak first plan of government for the United States, which took effect in 1781."
+    },
+    {
+      "p": "John Dickinson wrote the first draft of this document in 1776, and the Second Continental Congress approved a final version in York, Pennsylvania, in November 1777, after the British had captured Philadelphia.",
+      "r": "This document finally went into effect in 1781. For 10 points, name this first constitution of the United States."
+    },
+    {
+      "p": "Maryland refused to approve this document until Virginia and other states gave up their claims to land in the West, which they then handed over to Congress. Because of that delay, this document did not take effect until March 1781.",
+      "r": "For 10 points, name this plan of government, written during the Revolutionary War, that the U.S. Constitution later replaced."
+    },
+    {
+      "p": "Under this document, each state had one vote in Congress no matter how many people lived there, and the most important laws needed the votes of nine of the thirteen states.",
+      "r": "It created no executive branch and no national court system. For 10 points, name this first U.S. constitution, in effect from 1781 to 1789."
+    },
+    {
+      "p": "Superintendent of Finance Robert Morris struggled to pay the nation’s debts under this document, and in 1781 he helped found the Bank of North America, the first bank chartered by its Congress.",
+      "r": "That Congress could not collect taxes and had to ask the states for money. For 10 points, name this first constitution of the United States."
+    },
+    {
+      "p": "General Benjamin Lincoln’s militia, paid for by Boston merchants, broke up a rebellion of indebted farmers who had tried to seize the federal arsenal at Springfield while this document was in force.",
+      "r": "That uprising, led by Daniel Shays, convinced many leaders that this document was too weak. For 10 points, name this first U.S. constitution."
+    },
+    {
+      "p": "Delegates from only five states attended a 1786 meeting in Annapolis to discuss trade problems under this document, and Alexander Hamilton wrote that meeting’s call for a larger convention the next year.",
+      "r": "That convention, held in Philadelphia in 1787, replaced this document with the Constitution. For 10 points, name this first plan of government for the United States."
+    },
+    {
+      "p": "At a 1785 conference held at George Washington’s home, Virginia and Maryland worked out rules for sharing the Potomac River and the Chesapeake Bay, a meeting that led to calls for fixing this document.",
+      "r": "Shays’ Rebellion also exposed this document’s weaknesses. For 10 points, name this first U.S. constitution, which was replaced in 1789."
+    },
+    {
+      "p": "A law passed under this document said a territory could apply for statehood once it had 60,000 free inhabitants, and that three to five states would be carved out of its region. That same law banned slavery northwest of the Ohio River.",
+      "r": "That law was the Northwest Ordinance of 1787. For 10 points, name this first constitution of the United States."
+    },
+    {
+      "p": "A 1785 law passed under this document divided western land into townships six miles on a side, each with 36 sections, and set aside one section in every township to support public schools.",
+      "r": "For 10 points, name this first plan of national government, which lasted until the Constitution took effect in 1789."
+    },
+    {
+      "p": "In 1783, unpaid soldiers surrounded the building in Philadelphia where the Congress created by this document was meeting, so Congress moved to Princeton, New Jersey. It later met in Annapolis, Trenton, and New York.",
+      "r": "For 10 points, name this document whose weak central government struggled to pay its own army, the first constitution of the United States."
+    },
+    {
+      "p": "In an 1888 book, the historian John Fiske called the years when this document was in force “the critical period” of American history. During those years, several states printed their own money and taxed goods from other states.",
+      "r": "For 10 points, name this first U.S. constitution, which was replaced after the Constitutional Convention of 1787."
+    },
+    {
+      "p": "Southern states were furious when John Jay, the foreign affairs secretary under this document, offered to give up American use of the Mississippi River for trade for many years in talks with Spain’s Diego de Gardoqui [“gar-DOH-kee”].",
+      "r": "That deal never happened, partly because treaties under this document needed the approval of nine states. For 10 points, name this first U.S. plan of government."
+    },
+    {
+      "p": "In _Federalist_ No. 15, Alexander Hamilton complained that under this document the nation had reached “almost the last stage of national humiliation.” James Madison listed its faults in a 1787 essay called “Vices of the Political System of the United States.”",
+      "r": "For 10 points, name this first U.S. constitution, ratified in 1781 and replaced in 1789."
+    }
+  ],
+  "clues": [
+    {
+      "id": "first-constitution",
+      "tier": "giveaway",
+      "t": "The first constitution (plan of government) of the United States",
+      "k": [
+        "first constitution",
+        "plan of government"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dates",
+      "tier": "giveaway",
+      "t": "Drafted in 1777, in effect from 1781, and replaced by the U.S. Constitution in 1789",
+      "k": [
+        "1777",
+        "1781",
+        "1789"
+      ],
+      "n": 0
+    },
+    {
+      "id": "weak",
+      "tier": "giveaway",
+      "t": "Created a weak central government: a one-house Congress that could not collect taxes",
+      "k": [
+        "weak",
+        "one-house",
+        "taxes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shays",
+      "tier": "giveaway",
+      "t": "Shays’ Rebellion (1786–1787) exposed its weaknesses",
+      "k": [
+        "shays",
+        "rebellion"
+      ],
+      "n": 0,
+      "rabbit": "Shays’ Rebellion"
+    },
+    {
+      "id": "one-vote",
+      "tier": "middle",
+      "t": "Each state had one vote in Congress, no matter its population",
+      "k": [
+        "one vote",
+        "population"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nine-thirteen",
+      "tier": "middle",
+      "t": "Major laws and treaties needed nine of the thirteen states; changes to it needed all thirteen",
+      "k": [
+        "nine",
+        "all thirteen",
+        "thirteen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-executive",
+      "tier": "middle",
+      "t": "No executive branch and no national court system",
+      "k": [
+        "executive",
+        "court system"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-trade",
+      "tier": "middle",
+      "t": "Congress could not regulate trade; states printed their own money and taxed each other’s goods",
+      "k": [
+        "regulate trade",
+        "trade",
+        "money"
+      ],
+      "n": 0
+    },
+    {
+      "id": "northwest",
+      "tier": "middle",
+      "t": "Its biggest success: the Northwest Ordinance (1787) banned slavery in the Northwest Territory and set rules for statehood",
+      "k": [
+        "northwest ordinance",
+        "northwest territory",
+        "slavery"
+      ],
+      "n": 0
+    },
+    {
+      "id": "annapolis",
+      "tier": "middle",
+      "t": "Annapolis Convention (1786): only five states came; Hamilton’s report called for a convention in Philadelphia",
+      "k": [
+        "annapolis",
+        "five states",
+        "hamilton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "constitutional-convention",
+      "tier": "middle",
+      "t": "The Constitutional Convention (Philadelphia, 1787) met to revise it but replaced it instead",
+      "k": [
+        "constitutional convention",
+        "philadelphia",
+        "revise"
+      ],
+      "n": 0
+    },
+    {
+      "id": "springfield",
+      "tier": "power",
+      "t": "Daniel Shays’s farmers tried to seize the Springfield arsenal; Benjamin Lincoln’s militia, paid for by Boston merchants, stopped them (1787)",
+      "k": [
+        "springfield",
+        "daniel shays",
+        "benjamin lincoln",
+        "arsenal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "league",
+      "tier": "power",
+      "t": "Called the union “a firm league of friendship”; each state kept its “sovereignty, freedom, and independence”",
+      "k": [
+        "league of friendship",
+        "sovereignty"
+      ],
+      "n": 0
+    },
+    {
+      "id": "canada",
+      "tier": "power",
+      "t": "Canada could join automatically; any other colony needed nine states’ approval",
+      "k": [
+        "canada"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dickinson",
+      "tier": "power",
+      "t": "John Dickinson wrote the first draft (1776); Congress approved it at York, Pennsylvania (November 1777)",
+      "k": [
+        "dickinson",
+        "york"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maryland",
+      "tier": "power",
+      "t": "Maryland approved it last (1781), after Virginia and other states gave up their western land claims",
+      "k": [
+        "maryland",
+        "western land"
+      ],
+      "n": 0
+    },
+    {
+      "id": "land-ordinance",
+      "tier": "power",
+      "t": "Land Ordinance of 1785: townships six miles square with 36 sections; one section supported public schools",
+      "k": [
+        "land ordinance",
+        "townships",
+        "36 sections"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sixty-thousand",
+      "tier": "power",
+      "t": "Northwest Ordinance: 60,000 free inhabitants to apply for statehood; three to five new states",
+      "k": [
+        "60,000",
+        "three to five"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mount-vernon",
+      "tier": "power",
+      "t": "Mount Vernon Conference (1785): Virginia and Maryland settled Potomac River issues at Washington’s home",
+      "k": [
+        "mount vernon",
+        "potomac"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mutiny",
+      "tier": "power",
+      "t": "Pennsylvania Mutiny (1783): unpaid soldiers drove Congress from Philadelphia to Princeton",
+      "k": [
+        "mutiny",
+        "princeton",
+        "unpaid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "critical-period",
+      "tier": "power",
+      "t": "Historian John Fiske called the era “the critical period” of American history (1888)",
+      "k": [
+        "critical period",
+        "fiske"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jay-gardoqui",
+      "tier": "power",
+      "t": "John Jay’s failed deal with Spain’s Diego de Gardoqui over the Mississippi River (1786)",
+      "k": [
+        "gardoqui",
+        "mississippi",
+        "john jay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morris",
+      "tier": "power",
+      "t": "Superintendent of Finance Robert Morris struggled with the nation’s debts and helped found the Bank of North America (1781)",
+      "k": [
+        "robert morris",
+        "bank of north america",
+        "finance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "federalist-15",
+      "tier": "power",
+      "t": "Hamilton in _Federalist_ No. 15: “almost the last stage of national humiliation”; Madison wrote “Vices of the Political System”",
+      "k": [
+        "federalist",
+        "humiliation",
+        "vices"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "First constitution, not the second",
+    "body": "Questions about this document often mention the Constitution, the Constitutional Convention, the Northwest Ordinance, or Shays’ Rebellion, which are all separate answer lines. The Articles were the first plan of government (1781–1789); the U.S. Constitution replaced them in 1789. Don’t confuse the Confederation (the United States of the 1780s) with the Confederacy, the Southern states of the Civil War.",
+    "fix": "Listen for weakness clues: one vote per state, no power to tax, no executive branch, and changes that needed all thirteen states. Those mean the Articles of Confederation. Say the full name, because “Articles” alone only earns a prompt.",
+    "line": "Real answer line: <b><u>Articles of Confederation</u></b> (or <u>Articles of Confederation and Perpetual Union</u>; prompt on <u>Articles</u>)"
+  },
+  "tests": {
+    "right": [
+      "Articles of Confederation",
+      "the Articles of Confederation",
+      "Articles of Confederation and Perpetual Union",
+      "Articles of Confedration",
+      "articles of the confederation"
+    ],
+    "prompt": [
+      "Articles",
+      "Confederation"
+    ],
+    "wrong": [
+      "Constitution",
+      "U.S. Constitution",
+      "Declaration of Independence",
+      "Northwest Ordinance",
+      "Confederate States of America",
+      "Bill of Rights",
+      "Shays' Rebellion"
+    ]
+  }
+}

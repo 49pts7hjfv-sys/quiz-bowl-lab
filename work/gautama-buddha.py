@@ -1,0 +1,378 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "the <b><u>Buddha</u></b> (or <b><u>Siddhartha</u></b> <b><u>Gautama</u></b>, accepting either name; or Gautama <u>Buddha</u>; accept <u>Shakyamuni</u>; do not accept “Buddhism”)"
+
+data = {
+    "id": "gautama-buddha",
+    "name": "Gautama Buddha",
+    "mono": "SG",
+    "category": "Religion",
+    "qbCategory": "Religion",
+    "kicker": "Founder of Buddhism · The prince who became the “Awakened One”",
+    "dates": "Lived c. 500s–400s BCE",
+    "briefing": "Born a prince in Lumbini, in southern Nepal, Siddhartha Gautama grew up surrounded by luxury until four sights (an old man, a sick man, a dead body, and a wandering holy man) sent him searching for the cause of suffering. After six years of hardship, he sat beneath a fig tree at Bodh Gaya and, Buddhists believe, reached enlightenment, becoming the Buddha, or “Awakened One.” He spent the next 45 years teaching across northern India.",
+    "answerHtml": LINE,
+    "accept": [
+        "buddha",
+        "the buddha",
+        "gautama",
+        "gautama buddha",
+        "siddhartha",
+        "siddhartha gautama",
+        "siddhattha gotama",
+        "gotama",
+        "gotama buddha",
+        "shakyamuni",
+        "sakyamuni",
+        "shakyamuni buddha",
+        "sakyamuni buddha",
+        "buddha shakyamuni",
+        "prince siddhartha"
+    ],
+    "prompt": [],
+    "reject": [
+        "buddhism",
+        "buddhist",
+        "buddhists",
+        "zen buddhism",
+        "zen",
+        "nirvana",
+        "bodhidharma",
+        "bodhisattva",
+        "amitabha",
+        "amida",
+        "maitreya",
+        "laughing buddha",
+        "budai",
+        "hotei",
+        "medicine buddha",
+        "vairocana",
+        "emerald buddha",
+        "dalai lama",
+        "mahavira",
+        "vardhamana",
+        "ananda",
+        "rahula",
+        "yasodhara",
+        "suddhodana",
+        "maya",
+        "queen maya",
+        "mahaprajapati",
+        "devadatta",
+        "mara",
+        "sariputta",
+        "kondanna",
+        "ashoka",
+        "asoka",
+        "krishna",
+        "vishnu",
+        "confucius",
+        "laozi",
+        "lao tzu",
+        "guru nanak",
+        "nagarjuna"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Gautama_Buddha",
+    "qb": {"q": "Buddha", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "Before this man’s birth, his mother is said to have dreamed that a white elephant with six tusks entered her side. Because that mother, Queen Maya, died a week after his birth, he was raised by her sister Mahaprajapati [“muh-HAH-pruh-JAH-puh-tee”], who later became the first nun of his religion.",
+            "r": "He was born in the grove of Lumbini. For 10 points, name this prince of the Shakya clan who founded Buddhism."
+        },
+        {
+            "p": "Soon after this man’s birth, the sage Asita [“uh-SEE-tuh”] wept because he knew he would not live to hear the child’s future teachings. Other wise men told this man’s father that his son would become either a great king or a great holy man.",
+            "r": "He later left his palace to become a wandering holy man. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "This man’s father, Suddhodana [“sood-DOH-duh-nuh”], surrounded him with luxury so that he would never see suffering. On trips outside the palace, this man’s charioteer, Channa [“CHUN-nuh”], explained that every person grows old, falls sick, and dies.",
+            "r": "Those Four Sights, which ended with a wandering holy man, led him to leave home. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "This man’s newborn son was named Rahula [“RAH-hoo-luh”], a name often explained as meaning “fetter,” because the prince felt the baby would tie him to the world. Soon afterward, this man slipped away at night on his horse, Kanthaka [“KUN-tuh-kuh”], leaving behind his wife, Yasodhara [“yah-SHOH-duh-ruh”].",
+            "r": "He later reached enlightenment under the Bodhi tree. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "This man’s five fellow ascetics [“uh-SET-iks”] abandoned him in disgust when he gave up years of harsh fasting, during which he had become little more than skin and bones. On the day of his enlightenment, a young woman named Sujata [“soo-JAH-tuh”] gave him a bowl of rice cooked in milk.",
+            "r": "He then taught a Middle Way between luxury and harsh self-denial. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "While this man sat in deep concentration through the night, the demon Mara [“MAH-ruh”] attacked him with armies and sent his daughters to tempt him. When Mara demanded proof of this man’s right to sit there, this man touched the ground and called on the earth as his witness.",
+            "r": "He then reached enlightenment under the Bodhi tree. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "A sacred fig in Anuradhapura [“uh-NOO-ruh-DAH-puh-ruh”], Sri Lanka, is said to have grown from a branch of the tree this man sat beneath, carried there by Emperor Ashoka’s daughter Sanghamitta [“sung-guh-MIT-tuh”]. The Mahabodhi [“muh-hah-BOH-dee”] Temple marks the place where this man sat under the original tree.",
+            "r": "There, at Bodh Gaya, he reached enlightenment. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "In a deer park near Varanasi [“vuh-RAH-nuh-see”], this man gave a sermon called “Setting in Motion the Wheel of the Dharma” to five former companions. One of those listeners, Kondanna [“KOHN-dun-nuh”], was the first to understand it.",
+            "r": "That sermon at Sarnath first laid out the Four Noble Truths. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "This teacher’s cousin and attendant, Ananda [“AH-nun-duh”], was famed for remembering every sermon, and recited them at a great council after this teacher’s death. At Ananda’s urging, this teacher allowed women to become nuns, starting with the aunt who raised him.",
+            "r": "For 10 points, name this teacher who reached enlightenment at Bodh Gaya and founded Buddhism."
+        },
+        {
+            "p": "This teacher’s jealous cousin Devadatta [“DAY-vuh-DUT-tuh”] is said to have tried to kill him by rolling a boulder down a hill and by sending a maddened elephant named Nalagiri [“NAH-luh-GEE-ree”] charging toward him. According to tradition, this teacher calmed the elephant with loving-kindness.",
+            "r": "This teacher had given his first sermon at Sarnath. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "The merchant Anathapindika [“uh-NAH-tuh-PIN-dih-kuh”] is said to have covered the ground of Prince Jeta’s grove with gold coins to buy it as a retreat for this teacher and his monks. This teacher spent many rainy seasons at that grove near the city of Shravasti [“shruh-VAHS-tee”].",
+            "r": "For 10 points, name this teacher whose title means “Awakened One,” the founder of Buddhism."
+        },
+        {
+            "p": "Hundreds of Jataka [“JAH-tuh-kuh”] tales describe this man’s past lives as animals and people, including one as the generous Prince Vessantara [“vay-SAHN-tuh-ruh”], who gave away everything he owned. Some Hindu traditions count this man as an avatar of the god Vishnu.",
+            "r": "In his final life, he was born a prince in Lumbini. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "This teacher’s last words urged his followers to strive on with diligence, because all things that come into being must pass away. He had fallen ill after eating a meal offered by Cunda [“CHOON-duh”] the smith, and he died at about age 80 at Kushinagar [“koo-shee-NUH-gur”], lying between two sal trees.",
+            "r": "Reclining statues show him at that moment of final nirvana. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "In Japan, people celebrate this man’s birthday on April 8 by pouring sweet tea over small statues of him as a baby, pointing one hand up and the other down. An inscription on a pillar set up by Emperor Ashoka marks the grove of Lumbini, in southern Nepal, as his birthplace.",
+            "r": "Many Buddhists also celebrate his birth on the full-moon festival of Vesak. For 10 points, name this founder of Buddhism."
+        },
+        {
+            "p": "Edwin Arnold’s long 1879 poem _The Light of Asia_ retells this man’s life. Statues of this man often show a rounded bump on top of his head, called an ushnisha [“oosh-NEE-shuh”], and long earlobes, said to have been stretched by the heavy earrings he wore as a prince.",
+            "r": "Many statues show him seated cross-legged with his hands in his lap. For 10 points, name this founder of Buddhism."
+        }
+    ],
+    "clues": [
+        {
+            "id": "founder",
+            "tier": "giveaway",
+            "t": "Founder of Buddhism; his title means “Awakened One” or “Enlightened One”",
+            "k": ["founder", "awakened one", "enlightened one"],
+            "n": 0,
+            "rabbit": "Buddhism"
+        },
+        {
+            "id": "bodhi-tree",
+            "tier": "giveaway",
+            "t": "Reached enlightenment sitting under the Bodhi tree, a sacred fig, at Bodh Gaya in India",
+            "k": ["bodhi tree", "bodh gaya", "sacred fig", "enlightenment"],
+            "n": 0
+        },
+        {
+            "id": "four-sights",
+            "tier": "giveaway",
+            "t": "The Four Sights (an old man, a sick man, a dead body, and a wandering holy man) led him to leave his palace",
+            "k": ["four sights", "old man", "sick man", "holy man"],
+            "n": 0
+        },
+        {
+            "id": "prince",
+            "tier": "giveaway",
+            "t": "Born a prince of the Shakya clan in the grove of Lumbini, in southern Nepal",
+            "k": ["prince", "shakya", "lumbini", "nepal"],
+            "n": 0
+        },
+        {
+            "id": "teachings",
+            "tier": "giveaway",
+            "t": "Taught the Four Noble Truths and the Noble Eightfold Path",
+            "k": ["four noble truths", "eightfold path"],
+            "n": 0
+        },
+        {
+            "id": "middle-way",
+            "tier": "middle",
+            "t": "After nearly starving as an ascetic, he took rice cooked in milk from Sujata and chose the Middle Way between luxury and self-denial",
+            "k": ["middle way", "sujata", "ascetic"],
+            "n": 0
+        },
+        {
+            "id": "mara",
+            "tier": "middle",
+            "t": "The demon Mara tempted him; he touched the ground to call the earth as his witness",
+            "k": ["mara", "earth", "witness"],
+            "n": 0
+        },
+        {
+            "id": "sarnath",
+            "tier": "middle",
+            "t": "Gave his first sermon to five former companions in the Deer Park at Sarnath, “Setting in Motion the Wheel of the Dharma”",
+            "k": ["sarnath", "deer park", "first sermon", "wheel"],
+            "n": 0
+        },
+        {
+            "id": "kushinagar",
+            "tier": "middle",
+            "t": "Died at about age 80 at Kushinagar, lying between two sal trees; reclining statues show this final nirvana",
+            "k": ["kushinagar", "sal trees", "reclining"],
+            "n": 0
+        },
+        {
+            "id": "parents",
+            "tier": "middle",
+            "t": "Son of Suddhodana, ruler of the Shakyas, and Queen Maya, who dreamed that a white elephant entered her side",
+            "k": ["suddhodana", "maya", "white elephant"],
+            "n": 0
+        },
+        {
+            "id": "family",
+            "tier": "middle",
+            "t": "Left his wife, Yasodhara, and his son, Rahula (“fetter”), in his Great Departure at age 29",
+            "k": ["yasodhara", "rahula", "great departure"],
+            "n": 0
+        },
+        {
+            "id": "ananda",
+            "tier": "middle",
+            "t": "His cousin Ananda was his attendant and remembered his sermons; at Ananda’s urging, he let women become nuns",
+            "k": ["ananda", "attendant", "nuns"],
+            "n": 0
+        },
+        {
+            "id": "vesak",
+            "tier": "middle",
+            "t": "Vesak, a full-moon festival usually held in May, celebrates his birth, enlightenment, and death",
+            "k": ["vesak", "wesak", "full moon"],
+            "n": 0
+        },
+        {
+            "id": "avatar",
+            "tier": "middle",
+            "t": "Some Hindu traditions count him as an avatar of the god Vishnu",
+            "k": ["avatar", "vishnu", "hindu"],
+            "n": 0
+        },
+        {
+            "id": "asita",
+            "tier": "power",
+            "t": "The sage Asita wept because he would not live to hear the baby teach; wise men foretold a great king or a great holy man",
+            "k": ["asita", "great king", "wept"],
+            "n": 0
+        },
+        {
+            "id": "channa-kanthaka",
+            "tier": "power",
+            "t": "His charioteer Channa explained the sights; he left home at night on his horse Kanthaka",
+            "k": ["channa", "kanthaka", "charioteer", "horse"],
+            "n": 0
+        },
+        {
+            "id": "mahaprajapati",
+            "tier": "power",
+            "t": "His mother died a week after his birth; her sister Mahaprajapati raised him and became the first Buddhist nun",
+            "k": ["mahaprajapati", "first buddhist nun", "aunt"],
+            "n": 0
+        },
+        {
+            "id": "five-ascetics",
+            "tier": "power",
+            "t": "His five fellow ascetics left him when he gave up harsh fasting, during which he had become skin and bones",
+            "k": ["five fellow ascetics", "skin and bones", "fasting"],
+            "n": 0
+        },
+        {
+            "id": "kondanna",
+            "tier": "power",
+            "t": "Kondanna was the first of the five companions to understand his teaching",
+            "k": ["kondanna", "understand"],
+            "n": 0
+        },
+        {
+            "id": "devadatta",
+            "tier": "power",
+            "t": "His jealous cousin Devadatta tried to kill him, once by sending the maddened elephant Nalagiri",
+            "k": ["devadatta", "nalagiri", "elephant"],
+            "n": 0
+        },
+        {
+            "id": "jetavana",
+            "tier": "power",
+            "t": "Anathapindika covered Prince Jeta’s grove with gold coins to buy it for him; he spent many rainy seasons there, near Shravasti",
+            "k": ["anathapindika", "jeta", "gold coins", "shravasti"],
+            "n": 0
+        },
+        {
+            "id": "cunda",
+            "tier": "power",
+            "t": "Fell ill after a meal offered by Cunda the smith; his last words urged followers to strive on with diligence",
+            "k": ["cunda", "diligence", "last words"],
+            "n": 0
+        },
+        {
+            "id": "hana-matsuri",
+            "tier": "power",
+            "t": "Japan’s Hana Matsuri (April 8): people pour sweet tea over baby statues pointing one hand up and one down",
+            "k": ["hana matsuri", "april 8", "sweet tea"],
+            "n": 0
+        },
+        {
+            "id": "ashoka-pillar",
+            "tier": "power",
+            "t": "A pillar inscription of Emperor Ashoka marks Lumbini as his birthplace",
+            "k": ["ashoka", "pillar", "inscription"],
+            "n": 0
+        },
+        {
+            "id": "anuradhapura",
+            "tier": "power",
+            "t": "Ashoka’s daughter Sanghamitta carried a branch of his tree to Anuradhapura, Sri Lanka; the Mahabodhi Temple marks where he sat",
+            "k": ["sanghamitta", "anuradhapura", "mahabodhi"],
+            "n": 0
+        },
+        {
+            "id": "jataka",
+            "tier": "power",
+            "t": "Jataka tales tell of his past lives as animals and people, such as the generous Prince Vessantara",
+            "k": ["jataka", "vessantara", "past lives"],
+            "n": 0
+        },
+        {
+            "id": "statues",
+            "tier": "power",
+            "t": "Statues show an ushnisha (a bump on the head), long earlobes from princely earrings, and hand gestures called mudras",
+            "k": ["ushnisha", "earlobes", "mudras"],
+            "n": 0
+        },
+        {
+            "id": "light-of-asia",
+            "tier": "power",
+            "t": "Edwin Arnold’s 1879 poem _The Light of Asia_ retells his life",
+            "k": ["light of asia", "edwin arnold", "1879"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The man, not the religion",
+        "body": "Tossups about this man are full of clues about Buddhism itself, so it is easy to blurt “Buddhism” when the question asks for “this man” or “this teacher,” and that answer is wrong. Mahavira, Jainism’s 24th Tirthankara, is another trap: he was also a prince who gave up palace life in the same region at about the same time. Other buddhas, like Amitabha of the Pure Land or Maitreya, the buddha of the future, are different answers, and so is Bodhidharma, who brought Zen to China.",
+        "fix": "Listen for the noun: “this man,” “this prince,” or “this teacher” wants the Buddha; “this religion” wants Buddhism. The Buddha, Siddhartha Gautama, Gautama Buddha, and Shakyamuni are all accepted. Clues about Vardhamana, the Tirthankaras, or the Digambara and Svetambara sects point to Mahavira instead.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Buddha",
+            "the Buddha",
+            "Siddhartha Gautama",
+            "Gautama Buddha",
+            "Shakyamuni",
+            "Siddartha Gautama",
+            "Gotama"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Buddhism",
+            "Bodhidharma",
+            "Mahavira",
+            "Amitabha Buddha",
+            "Maitreya",
+            "Ananda",
+            "Dalai Lama"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

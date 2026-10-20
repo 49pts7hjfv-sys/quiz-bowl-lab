@@ -1,0 +1,446 @@
+{
+  "id": "lee-harvey-oswald",
+  "name": "Lee Harvey Oswald",
+  "mono": "LHO",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Accused assassin of John F. Kennedy · Shot by Jack Ruby two days later",
+  "dates": "1939–1963",
+  "briefing": "On November 22, 1963, Lee Harvey Oswald, a former Marine who had once moved to the Soviet Union, was arrested in a Dallas movie theater and charged with assassinating President John F. Kennedy and killing police officer J. D. Tippit. Two days later, nightclub owner Jack Ruby shot Oswald on live television before he could stand trial. In 1964, the Warren Commission concluded that Oswald had acted alone.",
+  "answerHtml": "Lee Harvey <b><u>Oswald</u></b> (do not accept “Jack Ruby” or “John F. Kennedy”)",
+  "accept": [
+    "lee harvey oswald",
+    "oswald",
+    "lee oswald",
+    "harvey oswald",
+    "l h oswald"
+  ],
+  "prompt": [],
+  "reject": [
+    "jack ruby",
+    "jack leon ruby",
+    "ruby",
+    "jacob rubenstein",
+    "jacob leon rubenstein",
+    "rubenstein",
+    "john f kennedy",
+    "john fitzgerald kennedy",
+    "jfk",
+    "kennedy",
+    "assassination",
+    "assassination of john f kennedy",
+    "assassination of jfk",
+    "jfk assassination",
+    "kennedy assassination",
+    "assassination of kennedy",
+    "j d tippit",
+    "jd tippit",
+    "tippit",
+    "john connally",
+    "connally",
+    "earl warren",
+    "warren commission",
+    "warren",
+    "marina oswald",
+    "marina",
+    "marina prusakova",
+    "june oswald",
+    "marguerite oswald",
+    "robert oswald",
+    "lyndon b johnson",
+    "lyndon johnson",
+    "lbj",
+    "john wilkes booth",
+    "booth",
+    "james earl ray",
+    "sirhan sirhan",
+    "charles guiteau",
+    "leon czolgosz",
+    "abraham zapruder",
+    "zapruder",
+    "ruth paine",
+    "edwin walker",
+    "texas school book depository",
+    "book depository",
+    "dealey plaza"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Lee_Harvey_Oswald",
+  "qb": {
+    "q": "Oswald",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "After serving as a radar operator in the U.S. Marines, this man moved to the Soviet Union in 1959 and worked at a radio factory in Minsk. There he married Marina Prusakova [“proo-SAH-kuh-vuh”], and in 1962 he brought her back to Texas.",
+      "r": "For 10 points, name this man who, the Warren Commission concluded, assassinated President John F. Kennedy."
+    },
+    {
+      "p": "In August 1963, this man was arrested in New Orleans after a street scuffle while he was handing out leaflets for the pro-Castro Fair Play for Cuba Committee. Weeks later, he traveled to Mexico City and visited the Cuban consulate and the Soviet embassy.",
+      "r": "For 10 points, name this former Marine who was arrested in a Dallas movie theater on November 22, 1963."
+    },
+    {
+      "p": "The Warren Commission concluded that this man had tried to shoot the retired general Edwin Walker at Walker’s Dallas home in April 1963. That fall, this man took a job at a warehouse that stored schoolbooks, overlooking Dealey Plaza.",
+      "r": "For 10 points, name this man accused of assassinating President John F. Kennedy from that building, the Texas School Book Depository."
+    },
+    {
+      "p": "A shoe store manager named Johnny Brewer saw this man step into his store’s entrance as police cars went by, then slip into the nearby Texas Theatre without buying a ticket. Police arrested this man inside, not long after Dallas officer J. D. Tippit had been shot and killed.",
+      "r": "For 10 points, name this man who was charged with assassinating John F. Kennedy."
+    },
+    {
+      "p": "On November 24, 1963, this man was being moved through the basement of Dallas police headquarters on his way to the county jail when he was shot. He died at Parkland Hospital, the same hospital where the president had died two days earlier.",
+      "r": "His killer, nightclub owner Jack Ruby, shot him on live television. For 10 points, name this man accused of assassinating John F. Kennedy."
+    },
+    {
+      "p": "Chief Justice Earl Warren led a commission that concluded in 1964 that this man had acted alone, and that this man’s own killer had also acted alone. Future president Gerald Ford served on that commission.",
+      "r": "For 10 points, name this man who, the commission found, assassinated President Kennedy from a window of the Texas School Book Depository."
+    },
+    {
+      "p": "This man carried a fake identity card in the name “Alek James Hidell,” and he rented a room in Dallas under the name “O. H. Lee.” In October 1963, Ruth Paine, a friend of his wife’s, helped him get a job at a schoolbook warehouse.",
+      "r": "For 10 points, name this man who, the Warren Commission found, assassinated John F. Kennedy."
+    },
+    {
+      "p": "Don DeLillo [“duh-LIL-oh”] imagined the life of this man, who was born in New Orleans in 1939, in the novel _Libra_. In Stephen King’s novel _11/22/63_, a high school teacher travels back in time hoping to stop this man.",
+      "r": "For 10 points, name this man whom the Warren Commission named as the assassin of John F. Kennedy."
+    },
+    {
+      "p": "The Sixth Floor Museum at Dealey Plaza occupies the floor of a Dallas warehouse where this man worked. The Warren Commission found that he fired at the president’s motorcade from a corner window on that floor.",
+      "r": "For 10 points, name this former Marine accused of assassinating John F. Kennedy in 1963."
+    },
+    {
+      "p": "Soon after arriving in Moscow in 1959, this former Marine went to the American embassy and announced that he wanted to give up his U.S. citizenship. He returned to the United States in 1962 with his Russian wife and their baby daughter, June.",
+      "r": "For 10 points, name this man who was arrested the next year for the assassination of John F. Kennedy."
+    },
+    {
+      "p": "About 45 minutes after shots were fired in Dealey Plaza, Dallas police officer J. D. Tippit stopped this man on a street in the Oak Cliff neighborhood and was shot and killed. The Warren Commission concluded that this man killed Tippit.",
+      "r": "Earlier that day, President John F. Kennedy had been assassinated. For 10 points, name the man charged with both crimes."
+    },
+    {
+      "p": "Former CIA director Allen Dulles and Georgia senator Richard Russell served on a commission that Lyndon Johnson created in November 1963 to investigate a crime this man was accused of. That commission concluded in 1964 that this man had acted alone.",
+      "r": "It was led by Chief Justice Earl Warren. For 10 points, name this man accused of assassinating John F. Kennedy."
+    },
+    {
+      "p": "This man’s killer was born Jacob Rubenstein in Chicago and ran a Dallas nightclub. District Attorney Henry Wade’s office won a murder conviction against that killer in 1964, but the killer died in 1967 while awaiting a new trial.",
+      "r": "That killer was Jack Ruby. For 10 points, name this man whom Ruby shot, the accused assassin of John F. Kennedy."
+    },
+    {
+      "p": "This man joined the U.S. Marines in 1956, just after turning 17, and served at an air base in Japan. He taught himself Russian while still in the Marines, and after leaving the service in 1959 he headed for the Soviet Union.",
+      "r": "For 10 points, name this man who, the Warren Commission concluded, shot President Kennedy from the Texas School Book Depository."
+    },
+    {
+      "p": "Texas governor John Connally was wounded in the 1963 attack that this man was accused of carrying out, while riding in the same open car as the president through Dealey Plaza. Moments earlier, Connally’s wife, Nellie, had said, “Mr. President, you can’t say Dallas doesn’t love you.”",
+      "r": "Two days later, this man was shot by Jack Ruby. For 10 points, name this man charged with assassinating John F. Kennedy."
+    }
+  ],
+  "clues": [
+    {
+      "id": "accused-assassin",
+      "tier": "giveaway",
+      "t": "Accused of assassinating President John F. Kennedy in Dallas on November 22, 1963",
+      "k": [
+        "kennedy",
+        "dallas",
+        "november 22",
+        "assassinating"
+      ],
+      "n": 0,
+      "rabbit": "John F. Kennedy"
+    },
+    {
+      "id": "jack-ruby",
+      "tier": "giveaway",
+      "t": "Shot two days later by nightclub owner Jack Ruby, before he could stand trial",
+      "k": [
+        "jack ruby",
+        "ruby",
+        "nightclub"
+      ],
+      "n": 0
+    },
+    {
+      "id": "depository",
+      "tier": "giveaway",
+      "t": "Worked at the Texas School Book Depository, which overlooks Dealey Plaza",
+      "k": [
+        "texas school book depository",
+        "depository",
+        "dealey plaza"
+      ],
+      "n": 0
+    },
+    {
+      "id": "warren-commission",
+      "tier": "giveaway",
+      "t": "The Warren Commission (1964) concluded that he acted alone",
+      "k": [
+        "warren commission",
+        "acted alone",
+        "1964"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marine-soviet",
+      "tier": "middle",
+      "t": "A former U.S. Marine who moved to the Soviet Union (1959–1962)",
+      "k": [
+        "marine",
+        "soviet union",
+        "1959"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marina",
+      "tier": "middle",
+      "t": "Married Marina Prusakova in Minsk and brought her back to Texas in 1962",
+      "k": [
+        "marina",
+        "minsk",
+        "1962"
+      ],
+      "n": 0
+    },
+    {
+      "id": "texas-theatre",
+      "tier": "middle",
+      "t": "Arrested in the Texas Theatre, a Dallas movie theater",
+      "k": [
+        "texas theatre",
+        "movie theater"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tippit",
+      "tier": "middle",
+      "t": "Charged with killing Dallas police officer J. D. Tippit the same afternoon",
+      "k": [
+        "tippit",
+        "police officer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sixth-floor",
+      "tier": "middle",
+      "t": "The commission found the shots came from a sixth-floor window of the depository, where the Sixth Floor Museum is",
+      "k": [
+        "sixth-floor",
+        "sixth floor museum",
+        "window"
+      ],
+      "n": 0
+    },
+    {
+      "id": "earl-warren",
+      "tier": "middle",
+      "t": "Chief Justice Earl Warren led the commission, which Lyndon Johnson created; future president Gerald Ford was a member",
+      "k": [
+        "earl warren",
+        "gerald ford",
+        "lyndon johnson",
+        "chief justice"
+      ],
+      "n": 0,
+      "rabbit": "Earl Warren"
+    },
+    {
+      "id": "live-tv",
+      "tier": "middle",
+      "t": "Ruby shot him in the Dallas police basement on live television (November 24, 1963)",
+      "k": [
+        "live television",
+        "basement",
+        "november 24"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fair-play",
+      "tier": "power",
+      "t": "Handed out leaflets for the pro-Castro Fair Play for Cuba Committee in New Orleans (1963)",
+      "k": [
+        "fair play for cuba",
+        "leaflets",
+        "new orleans"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mexico-city",
+      "tier": "power",
+      "t": "Visited the Cuban consulate and the Soviet embassy in Mexico City (fall 1963)",
+      "k": [
+        "mexico city",
+        "consulate",
+        "embassy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "walker",
+      "tier": "power",
+      "t": "The commission found he had tried to shoot retired general Edwin Walker in April 1963",
+      "k": [
+        "edwin walker",
+        "walker",
+        "april 1963"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aliases",
+      "tier": "power",
+      "t": "Used the false names “Alek James Hidell” (on a fake ID card) and “O. H. Lee”",
+      "k": [
+        "alek james hidell",
+        "hidell",
+        "false names"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ruth-paine",
+      "tier": "power",
+      "t": "Got the depository job in October 1963 through Ruth Paine, a friend of his wife’s",
+      "k": [
+        "ruth paine",
+        "paine",
+        "october 1963"
+      ],
+      "n": 0
+    },
+    {
+      "id": "early-life",
+      "tier": "power",
+      "t": "Born in New Orleans (1939); joined the Marines at 17 and served at an air base in Japan",
+      "k": [
+        "new orleans",
+        "1939",
+        "japan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "citizenship",
+      "tier": "power",
+      "t": "Told the U.S. embassy in Moscow he wanted to give up his citizenship (1959); worked at a radio factory in Minsk",
+      "k": [
+        "citizenship",
+        "radio factory",
+        "moscow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brewer",
+      "tier": "power",
+      "t": "Shoe store manager Johnny Brewer saw him slip into the theater without buying a ticket",
+      "k": [
+        "johnny brewer",
+        "brewer",
+        "ticket"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rubenstein",
+      "tier": "power",
+      "t": "Jack Ruby, born Jacob Rubenstein, was convicted in 1964 by Henry Wade’s office and died in 1967 awaiting a new trial",
+      "k": [
+        "jacob rubenstein",
+        "rubenstein",
+        "henry wade",
+        "1967"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parkland",
+      "tier": "power",
+      "t": "Died at Parkland Hospital, where Kennedy had died two days earlier",
+      "k": [
+        "parkland",
+        "hospital"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oak-cliff",
+      "tier": "power",
+      "t": "Officer Tippit was killed in Dallas’s Oak Cliff neighborhood about 45 minutes after the shots in Dealey Plaza",
+      "k": [
+        "oak cliff",
+        "45 minutes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dulles-russell",
+      "tier": "power",
+      "t": "Commission members also included former CIA director Allen Dulles and Senator Richard Russell",
+      "k": [
+        "allen dulles",
+        "dulles",
+        "richard russell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "books",
+      "tier": "power",
+      "t": "Don DeLillo’s novel _Libra_ imagines his life; in Stephen King’s _11/22/63_, a time traveler tries to stop him",
+      "k": [
+        "libra",
+        "delillo",
+        "stephen king",
+        "time traveler"
+      ],
+      "n": 0
+    },
+    {
+      "id": "connally",
+      "tier": "power",
+      "t": "Texas governor John Connally was wounded riding in the same car as Kennedy",
+      "k": [
+        "john connally",
+        "connally",
+        "wounded"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Assassin, Killer, or Event?",
+    "body": "The same clues, like Dealey Plaza, the Texas School Book Depository, and the Warren Commission, show up in three answer lines: Lee Harvey Oswald (the accused assassin), Jack Ruby (the nightclub owner who shot Oswald), and the assassination of John F. Kennedy (the event). Answering “Kennedy” to a question about the gunman is wrong, and so is answering “Ruby” to a question about the man Ruby shot.",
+    "fix": "Listen for the noun: “this man” or “this former Marine,” with clues about the Soviet Union, Minsk, or the Texas Theatre, wants Oswald; “this nightclub owner,” or a man born Jacob Rubenstein, wants Jack Ruby; “this event” wants the assassination of John F. Kennedy. Don’t mix him up with John Wilkes Booth, who shot Abraham Lincoln in 1865.",
+    "line": "Real answer line: Lee Harvey <b><u>Oswald</u></b> (do not accept “Jack Ruby” or “John F. Kennedy”)"
+  },
+  "tests": {
+    "right": [
+      "Lee Harvey Oswald",
+      "Oswald",
+      "Lee Oswald",
+      "Lee Harvey Oswold",
+      "Harvey Oswald"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Jack Ruby",
+      "John F. Kennedy",
+      "Assassination of John F. Kennedy",
+      "J. D. Tippit",
+      "Marina Oswald",
+      "John Wilkes Booth",
+      "Earl Warren",
+      "John Connally"
+    ]
+  }
+}

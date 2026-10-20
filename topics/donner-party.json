@@ -1,0 +1,428 @@
+{
+  "id": "donner-party",
+  "name": "Donner Party",
+  "mono": "DP",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Pioneers trapped in the Sierra Nevada snow · The winter of 1846–47",
+  "dates": "1846–1847",
+  "briefing": "In 1846, the families of George and Jacob Donner and James Reed left Springfield, Illinois, for California, and others joined them along the way. They gambled on a “shortcut” that cost them weeks, and early blizzards trapped them in the Sierra Nevada beside a lake now called Donner Lake. Rescue parties struggled through deep snow all winter, but nearly half of the group died before the last survivor was brought out in April 1847.",
+  "answerHtml": "<b><u>Donner Party</u></b> (accept <u>Donner–Reed Party</u>; prompt on <u>Donner</u>)",
+  "accept": [
+    "donner party",
+    "the donner party",
+    "donner reed party",
+    "donner company",
+    "donner wagon train",
+    "donner expedition"
+  ],
+  "prompt": [
+    "donner",
+    "donners",
+    "the donners",
+    "donner family",
+    "reed party"
+  ],
+  "reject": [
+    "donner pass",
+    "donner lake",
+    "donner summit",
+    "donner memorial state park",
+    "oregon trail",
+    "california trail",
+    "mormon trail",
+    "santa fe trail",
+    "california gold rush",
+    "gold rush",
+    "forlorn hope",
+    "hastings cutoff",
+    "lansford hastings",
+    "bidwell bartleson party",
+    "stephens townsend murphy party",
+    "lewis and clark expedition",
+    "mormon pioneers",
+    "sutters fort"
+  ],
+  "tests": {
+    "right": [
+      "Donner Party",
+      "the Donner Party",
+      "Doner Party",
+      "Donner-Reed Party"
+    ],
+    "prompt": [
+      "Donner",
+      "the Donners"
+    ],
+    "wrong": [
+      "Donner Pass",
+      "Oregon Trail",
+      "Forlorn Hope",
+      "Hastings Cutoff",
+      "California Gold Rush"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Donner_Party",
+  "qb": {
+    "q": "Donner Party",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1847, Mormon pioneers led by Brigham Young followed a rough wagon road that this group had spent weeks cutting through the Wasatch [“WAH-satch”] Mountains the year before. Delays like that one left this group far behind schedule.",
+      "r": "For 10 points, name this group of pioneers who were trapped by snow in the Sierra Nevada in the winter of 1846 to 1847."
+    },
+    {
+      "p": "When this group reached Fort Bridger in 1846, they learned that the guide they had counted on had already gone ahead with another wagon train. They decided to follow his route anyway, south of the Great Salt Lake.",
+      "r": "That guide was Lansford Hastings. For 10 points, name this group that took the Hastings Cutoff and became trapped in the Sierra Nevada."
+    },
+    {
+      "p": "At Fort Laramie, the mountain man James Clyman warned one of this group’s leaders, an old friend, not to take a shortcut that had never been tried with wagons. That leader, James Reed, ignored the advice.",
+      "r": "For 10 points, name this group of California-bound emigrants who took the Hastings Cutoff and were trapped by snow in 1846."
+    },
+    {
+      "p": "This group was formed in July 1846 at the Little Sandy River, in what is now Wyoming, when the families who planned to take a new shortcut chose their own captain. Its leading families had started out from Springfield, Illinois, that April.",
+      "r": "For 10 points, name this wagon train, named for its captain, that was trapped in the Sierra Nevada."
+    },
+    {
+      "p": "James Reed’s family had to abandon their two-level wagon, later nicknamed the “Pioneer Palace Car,” after most of their oxen were lost crossing a salt desert that proved about twice as wide as promised.",
+      "r": "For 10 points, name this group of pioneers whose survivors reached California in 1847 after a winter trapped in the Sierra Nevada."
+    },
+    {
+      "p": "Eight-year-old Patty Reed hid a tiny wooden doll in her clothes throughout this group’s ordeal, and it is displayed at Sutter’s Fort in Sacramento. Her father led the second relief party to reach this group.",
+      "r": "For 10 points, name this group of pioneers trapped near a lake in the Sierra Nevada in 1846 and 1847."
+    },
+    {
+      "p": "Tamsen, the wife of this group’s elected captain, refused to leave her dying husband at their camp on Alder Creek, and she sent her young daughters out with rescuers instead. Neither she nor her husband survived.",
+      "r": "For 10 points, name this group of pioneers trapped by snow in the Sierra Nevada on the way to California."
+    },
+    {
+      "p": "Patrick Breen kept a diary through the winter that this group spent in crude cabins beside Truckee Lake. His entries record snowstorms, hunger, and prayers for rescue, and his whole family survived.",
+      "r": "For 10 points, name this group of pioneers whose winter camp was beside a lake later renamed for them."
+    },
+    {
+      "p": "Charles Stanton rode ahead to Sutter’s Fort and returned to this group with mules carrying food in October 1846. Two months later, he died in the mountains while trying to lead a party out on snowshoes.",
+      "r": "That party was the Forlorn Hope. For 10 points, name this group of pioneers trapped in the Sierra Nevada."
+    },
+    {
+      "p": "In April 1847, the fourth and last relief party found Lewis Keseberg alone at this group’s lake camp, the final survivor to be rescued. Months earlier, the Mexican-American War had pulled many men away from California’s settlements, slowing rescue efforts.",
+      "r": "For 10 points, name this group of emigrants trapped in the Sierra Nevada in the winter of 1846 to 1847."
+    },
+    {
+      "p": "In January 1847, William Eddy staggered into Johnson’s Ranch, the first of only seven snowshoers who made it out of the mountains to call for help. His group had left the lake camp a month earlier.",
+      "r": "That group was called the Forlorn Hope. For 10 points, name this group of pioneers trapped by snow in the Sierra Nevada."
+    },
+    {
+      "p": "In a May 1847 letter to her cousin, 13-year-old Virginia Reed wrote that she had not told half of their troubles, and she gave this advice: “Never take no cutoffs and hurry along as fast as you can.”",
+      "r": "For 10 points, name this group of pioneers whose disastrous shortcut left them trapped in the Sierra Nevada."
+    },
+    {
+      "p": "Along the Humboldt River, James Reed killed the teamster John Snyder in a fight, and the rest of this group banished Reed. He rode ahead to California, where he later organized a relief party to rescue his family.",
+      "r": "For 10 points, name this group of pioneers trapped by snow in the Sierra Nevada in 1846."
+    },
+    {
+      "p": "A statue of a pioneer family at a California state park stands on a base 22 feet tall, said to match the depth of the snow that buried this group’s camp. That park sits beside a lake once called Truckee Lake.",
+      "r": "For 10 points, name this group of pioneers trapped in the Sierra Nevada in 1846 and 1847."
+    },
+    {
+      "p": "The Central Pacific Railroad and, later, Interstate 80 crossed the Sierra Nevada near a pass named for this group. In 1844, the Stephens–Townsend–Murphy Party had become the first to bring wagons over that pass.",
+      "r": "For 10 points, name this group of pioneers who failed to cross the Sierra Nevada before winter snows trapped them in 1846."
+    }
+  ],
+  "clues": [
+    {
+      "id": "sierra-snow",
+      "tier": "giveaway",
+      "t": "Pioneers trapped by early snow in the Sierra Nevada in the winter of 1846–1847",
+      "k": [
+        "sierra nevada",
+        "trapped",
+        "1846"
+      ],
+      "n": 0
+    },
+    {
+      "id": "california",
+      "tier": "giveaway",
+      "t": "A wagon train headed for California, led by the brothers George and Jacob and by James Reed",
+      "k": [
+        "california",
+        "wagon train",
+        "james reed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "survival",
+      "tier": "giveaway",
+      "t": "Some of the starving survivors resorted to cannibalism",
+      "k": [
+        "cannibalism",
+        "starving"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nearly-half",
+      "tier": "giveaway",
+      "t": "Nearly half of the group died; the survivors reached California in 1847",
+      "k": [
+        "nearly half",
+        "1847"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hastings-cutoff",
+      "tier": "middle",
+      "t": "Took the Hastings Cutoff, a “shortcut” promoted by Lansford Hastings that cost them weeks",
+      "k": [
+        "hastings cutoff",
+        "lansford hastings",
+        "shortcut"
+      ],
+      "n": 0
+    },
+    {
+      "id": "truckee-lake",
+      "tier": "middle",
+      "t": "Camped in cabins at Truckee Lake, which was later renamed for them, as were a nearby pass and a state park",
+      "k": [
+        "truckee lake",
+        "truckee",
+        "renamed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forlorn-hope",
+      "tier": "middle",
+      "t": "The “Forlorn Hope” left on snowshoes in December 1846 to get help; only seven of the snowshoers made it out",
+      "k": [
+        "forlorn hope",
+        "snowshoes",
+        "december 1846"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reed-banished",
+      "tier": "middle",
+      "t": "Along the Humboldt River, James Reed was banished after killing teamster John Snyder in a fight; he later led a relief party",
+      "k": [
+        "banished",
+        "john snyder",
+        "humboldt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "relief",
+      "tier": "middle",
+      "t": "Four relief parties from Sutter’s Fort and other California settlements reached them between February and April 1847",
+      "k": [
+        "relief parties",
+        "relief",
+        "sutter’s fort"
+      ],
+      "n": 0
+    },
+    {
+      "id": "salt-desert",
+      "tier": "middle",
+      "t": "Lost many oxen crossing the Great Salt Lake Desert, about twice as wide as Hastings had claimed",
+      "k": [
+        "great salt lake desert",
+        "salt",
+        "oxen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "never-cutoffs",
+      "tier": "middle",
+      "t": "Virginia Reed’s 1847 letter: “Never take no cutoffs and hurry along as fast as you can”",
+      "k": [
+        "virginia reed",
+        "never take no cutoffs",
+        "cutoffs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "springfield",
+      "tier": "middle",
+      "t": "Its leading families left Springfield, Illinois, in April 1846",
+      "k": [
+        "springfield",
+        "illinois",
+        "april 1846"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wasatch",
+      "tier": "power",
+      "t": "Spent weeks cutting a wagon road through the Wasatch Mountains; Mormon pioneers used it in 1847",
+      "k": [
+        "wasatch",
+        "mormon",
+        "wagon road"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fort-bridger",
+      "tier": "power",
+      "t": "At Fort Bridger they learned that Hastings had already gone ahead with another wagon train",
+      "k": [
+        "fort bridger",
+        "bridger"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clyman",
+      "tier": "power",
+      "t": "Mountain man James Clyman warned James Reed at Fort Laramie not to take the cutoff",
+      "k": [
+        "james clyman",
+        "clyman",
+        "fort laramie"
+      ],
+      "n": 0
+    },
+    {
+      "id": "little-sandy",
+      "tier": "power",
+      "t": "Formed in July 1846 at the Little Sandy River (in today’s Wyoming), where George was elected captain",
+      "k": [
+        "little sandy",
+        "wyoming",
+        "captain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "palace-car",
+      "tier": "power",
+      "t": "The Reeds abandoned their two-level wagon, nicknamed the “Pioneer Palace Car,” in the salt desert",
+      "k": [
+        "pioneer palace car",
+        "palace car",
+        "two-level"
+      ],
+      "n": 0
+    },
+    {
+      "id": "patty-doll",
+      "tier": "power",
+      "t": "Eight-year-old Patty Reed’s tiny wooden doll survived the journey and is displayed at Sutter’s Fort",
+      "k": [
+        "patty reed",
+        "doll"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tamsen",
+      "tier": "power",
+      "t": "Tamsen, the captain’s wife, stayed with her dying husband at Alder Creek instead of leaving with rescuers",
+      "k": [
+        "tamsen",
+        "alder creek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "breen",
+      "tier": "power",
+      "t": "Patrick Breen kept a diary at the lake camp; his whole family survived",
+      "k": [
+        "patrick breen",
+        "breen",
+        "diary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stanton",
+      "tier": "power",
+      "t": "Charles Stanton brought mules loaded with food from Sutter’s Fort, then died with the Forlorn Hope",
+      "k": [
+        "charles stanton",
+        "stanton",
+        "mules"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eddy",
+      "tier": "power",
+      "t": "William Eddy reached Johnson’s Ranch in January 1847, the first of the Forlorn Hope survivors to get there",
+      "k": [
+        "william eddy",
+        "eddy",
+        "johnson’s ranch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "keseberg",
+      "tier": "power",
+      "t": "Lewis Keseberg was the last survivor rescued, in April 1847; the Mexican-American War had slowed the rescues",
+      "k": [
+        "keseberg",
+        "april 1847",
+        "mexican-american war"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monument",
+      "tier": "power",
+      "t": "A pioneer statue near the lake stands on a 22-foot base, the reported depth of that winter’s snow",
+      "k": [
+        "22-foot",
+        "pioneer",
+        "statue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "railroad",
+      "tier": "power",
+      "t": "The Central Pacific Railroad and Interstate 80 later crossed the Sierra near the pass named for them",
+      "k": [
+        "central pacific",
+        "interstate 80",
+        "pass"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stephens-1844",
+      "tier": "power",
+      "t": "The Stephens–Townsend–Murphy Party had first taken wagons over that pass in 1844",
+      "k": [
+        "stephens–townsend–murphy",
+        "1844",
+        "wagons"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Party, pass, or trail?",
+    "body": "Several places are named for this group, including Donner Lake, Donner Pass, and Donner Memorial State Park, so make sure the question wants the people. Other questions about westward travel want the Oregon Trail or the California Trail, which the Donner Party was following before it took the Hastings Cutoff, and some ask for that “shortcut” itself or for the snowshoe group called the Forlorn Hope.",
+    "fix": "“This group,” “this party,” or “these emigrants” means the Donner Party. “This pass” means Donner Pass, and “this route” or “this shortcut” may mean the Hastings Cutoff. Clues about Oregon’s Willamette Valley or the Whitman Mission point to the Oregon Trail.",
+    "line": "Real answer line: <b><u>Donner Party</u></b> (accept <u>Donner–Reed Party</u>; prompt on <u>Donner</u>)"
+  }
+}

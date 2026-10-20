@@ -91,7 +91,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "NASA official Abe Silverstein named this program in 1960 after a Greek god whom he pictured riding a chariot across the sun. This program’s astronauts rode to space on the Saturn V, the tallest and most powerful rocket of its time.",
+            "p": "NASA official Abe Silverstein named this program in 1960 after a Greek god whom he pictured riding a chariot across the sun. This program’s Moon missions were launched by the Saturn V, the tallest and most powerful rocket of its time.",
             "r": "For 10 points, name this NASA program that landed astronauts on the Moon between 1969 and 1972."
         },
         {
@@ -131,7 +131,7 @@ data = {
             "r": "That president was John F. Kennedy, who had set the goal of a Moon landing “before this decade is out.” For 10 points, name this NASA program."
         },
         {
-            "p": "Wernher von Braun’s team at the Marshall Space Flight Center in Huntsville, Alabama, designed the three-stage rocket used by this program, whose first stage alone had five F-1 engines. That rocket stood about 363 feet tall.",
+            "p": "Wernher von Braun’s team at the Marshall Space Flight Center in Huntsville, Alabama, designed the three-stage rocket that launched this program’s Moon missions, whose first stage alone had five F-1 engines. That rocket stood about 363 feet tall.",
             "r": "That rocket was the Saturn V. For 10 points, name this NASA program that sent astronauts to the Moon."
         },
         {
@@ -191,7 +191,7 @@ data = {
         {
             "id": "saturn-v",
             "tier": "middle",
-            "t": "Launched on the Saturn V rocket, designed by Wernher von Braun’s team",
+            "t": "Its Moon missions launched on the Saturn V rocket, designed by Wernher von Braun’s team",
             "k": ["saturn v", "von braun"],
             "n": 0
         },
