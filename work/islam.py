@@ -140,7 +140,7 @@ data = {
         },
         {
             "p": "In 732 CE, Charles Martel’s Franks defeated an Umayyad [“oo-MY-ad”] army from Spain at the Battle of Tours [“TOOR”], stopping its advance into France. For centuries, rulers who followed this religion held much of Spain, where they built a vast house of worship in Córdoba [“KOR-doh-bah”] famous for its red-and-white striped arches.",
-            "r": "Today, Indonesia has more followers of this religion than any other country. For 10 points, name this religion whose final prophet, its followers believe, was Muhammad."
+            "r": "Indonesia has more followers of this religion than any other country. For 10 points, name this religion whose final prophet, its followers believe, was Muhammad."
         },
         {
             "p": "Most members of one branch of this religion are “Twelvers,” who believe that the twelfth of their imams [“ih-MAHMZ”] went into hiding in the 800s and will one day return as the Mahdi [“MAH-dee”]. Iran is the largest country where most people belong to that branch, which honors Ali as the first imam.",
