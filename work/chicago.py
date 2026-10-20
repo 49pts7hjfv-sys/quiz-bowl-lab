@@ -74,8 +74,8 @@ data = {
             "r": "This city later became the nation’s biggest railroad hub. For 10 points, name this city on Lake Michigan, the largest in Illinois."
         },
         {
-            "p": "The Illinois and Michigan Canal, finished in 1848, linked this city to the Mississippi River system. In 1900, engineers reversed the flow of this city’s river to carry sewage away from the lake that supplies its drinking water.",
-            "r": "That river is dyed green every Saint Patrick’s Day. For 10 points, name this largest city in Illinois."
+            "p": "In 1900, engineers opened the Sanitary and Ship Canal, which reversed the flow of this city’s river to carry sewage away from the lake that supplies its drinking water. That river is dyed green every Saint Patrick’s Day.",
+            "r": "The Illinois and Michigan Canal, finished in 1848, had earlier linked this city to the Mississippi River system. For 10 points, name this largest city in Illinois."
         },
         {
             "p": "Upton Sinclair’s novel _The Jungle_ follows Jurgis Rudkus, a Lithuanian immigrant who works in the meatpacking plants near this city’s Union Stock Yards. A Carl Sandburg poem calls this city the “Hog Butcher for the World” and the “City of the Big Shoulders.”",
