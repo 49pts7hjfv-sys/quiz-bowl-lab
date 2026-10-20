@@ -7,7 +7,7 @@
   "kicker": "The Bay State · Pilgrims, Puritans, and the first shots of the Revolution",
   "dates": "Statehood 1788 (6th state)",
   "briefing": "Massachusetts is where the Pilgrims landed in 1620, where Puritans founded Boston ten years later, and where the first shots of the American Revolution were fired at Lexington and Concord. It officially calls itself a commonwealth, and four presidents were born there, including John Adams and John F. Kennedy. Basketball and volleyball were both invented there, too.",
-  "answerHtml": "<b><u>Massachusetts</u></b> (accept <u>Commonwealth of Massachusetts</u> or <u>Massachusetts Bay</u> Colony)",
+  "answerHtml": "<b><u>Massachusetts</u></b> (accept <u>Commonwealth of Massachusetts</u> or <u>Massachusetts Bay</u> Colony; prompt on <u>Massachusetts Bay Company</u>)",
   "accept": [
     "massachusetts",
     "commonwealth of massachusetts",
@@ -58,7 +58,7 @@
     },
     {
       "p": "Anne Hutchinson was put on trial and banished from this colony after she held meetings to discuss sermons and claimed to receive messages directly from God. In 1636, Roger Williams had fled this colony and founded Providence.",
-      "r": "Both exiles ended up in what became Rhode Island. For 10 points, name this “Bay State,” where Puritans founded a colony around Boston."
+      "r": "Both exiles settled in what became Rhode Island. For 10 points, name this “Bay State,” where Puritans founded a colony around Boston."
     },
     {
       "p": "A 1647 law in this colony, nicknamed the “Old Deluder Satan Act,” required towns with at least 50 families to hire a teacher so children could learn to read the Bible. This colony’s legislature had also founded the oldest college in the United States in 1636.",
@@ -277,7 +277,7 @@
     {
       "id": "exiles",
       "tier": "power",
-      "t": "It banished Roger Williams, who founded Providence (1636), and Anne Hutchinson; both ended up in what became Rhode Island",
+      "t": "It banished Roger Williams, who founded Providence (1636), and Anne Hutchinson; both settled in what became Rhode Island",
       "k": [
         "roger williams",
         "anne hutchinson",

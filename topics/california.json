@@ -7,7 +7,7 @@
   "kicker": "Pacific Coast state, admitted in 1850 · Missions, gold rush, and Hollywood",
   "dates": "Statehood 1850 (31st state)",
   "briefing": "California got its name from a make-believe island in a Spanish adventure story, and its real history is just as dramatic. Spanish priests built a chain of 21 missions along its coast, American settlers raised a grizzly-bear flag in 1846, and the discovery of gold at Sutter’s Mill in 1848 set off a rush that helped it become the 31st state in 1850.",
-  "answerHtml": "<b><u>California</u></b> (accept <u>Alta California</u>; do not accept “Baja California”)",
+  "answerHtml": "<b><u>California</u></b> (accept <u>Alta California</u>; prompt on <u>Bear Flag Republic</u>; do not accept “Baja California”)",
   "accept": [
     "california",
     "state of california",
@@ -63,7 +63,7 @@
       "r": "The cities of San Diego and San Francisco share their names with two of those missions. For 10 points, name this state where gold was found in 1848."
     },
     {
-      "p": "In 1812, the Russian-American Company built Fort Ross on this region’s northern coast, partly to hunt sea otters and to grow food for Russian settlements in Alaska. Russia sold that fort in 1841 to John Sutter, a Swiss settler whose own fort stood where this state’s capital later grew.",
+      "p": "In 1812, the Russian-American Company built Fort Ross on this region’s northern coast, partly to hunt sea otters and to grow food for Russian settlements in Alaska. Russia sold that fort in 1841 to John Sutter, a settler from Switzerland whose own fort stood where this state’s capital later grew.",
       "r": "Gold was found at Sutter’s sawmill in 1848. For 10 points, name this state where the “forty-niners” rushed to find gold."
     },
     {
@@ -91,7 +91,7 @@
       "r": "Earlier, Chinese immigrants had called this land “Gold Mountain.” For 10 points, name this state whose largest city is Los Angeles."
     },
     {
-      "p": "After a 1906 disaster, the banker Amadeo Giannini [“jah-NEE-nee”] saved his bank’s money in a produce wagon and lent it out to help rebuild a city in this state; his Bank of Italy later became Bank of America. That disaster began with an April earthquake along the San Andreas Fault, followed by days of fires.",
+      "p": "After a 1906 disaster, the banker A. P. Giannini [“jah-NEE-nee”] carried his bank’s money to safety in a produce wagon and lent it out to help rebuild a city in this state; his Bank of Italy later became Bank of America. That disaster began with an April earthquake along the San Andreas Fault, followed by days of fires.",
       "r": "More than half of San Francisco’s people lost their homes. For 10 points, name this state, home to Los Angeles and Hollywood."
     },
     {
@@ -99,7 +99,7 @@
       "r": "This state’s Sierra Nevada also includes Mount Whitney, the highest peak in the lower 48 states. For 10 points, name this state, which also contains Death Valley."
     },
     {
-      "p": "During World War II, the U.S. government forced about 10,000 Japanese Americans to live at Manzanar, a camp in this state’s Owens Valley. Fred Korematsu, who was born in this state’s city of Oakland, challenged that forced removal in a famous Supreme Court case.",
+      "p": "During World War II, the U.S. government forced more than 10,000 Japanese Americans to live at Manzanar, a camp in this state’s Owens Valley. Fred Korematsu, who was born in this state’s city of Oakland, challenged that forced removal in a famous Supreme Court case.",
       "r": "That removal followed Executive Order 9066 in 1942. For 10 points, name this West Coast state whose capital is Sacramento."
     },
     {
@@ -374,7 +374,7 @@
     {
       "id": "manzanar",
       "tier": "power",
-      "t": "Manzanar held about 10,000 Japanese Americans after Executive Order 9066 (1942); Oakland-born Fred Korematsu challenged the removal",
+      "t": "Manzanar held more than 10,000 Japanese Americans after Executive Order 9066 (1942); Oakland-born Fred Korematsu challenged the removal",
       "k": [
         "manzanar",
         "korematsu",

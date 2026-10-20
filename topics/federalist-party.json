@@ -24,6 +24,7 @@
     "antifederalist",
     "anti federalist party",
     "federalist papers",
+    "federalist paper",
     "federalist essays",
     "federalist society",
     "federalist no 10",
@@ -99,7 +100,7 @@
       "r": "That president, John Adams, lost to Thomas Jefferson in 1800. For 10 points, name this party that never won the presidency again."
     },
     {
-      "p": "This party made a comeback in New England after Thomas Jefferson’s Embargo Act of 1807 hurt merchants and sailors there. Opponents of the embargo, many of them members of this party, mocked it as “Ograbme” [“oh-GRAB-mee”], which is “embargo” spelled backward.",
+      "p": "This party made a comeback in New England after Thomas Jefferson’s Embargo Act of 1807 hurt merchants and sailors there. Opponents of the embargo, many of them members of this party, mocked it with a cartoon snapping turtle named “Ograbme” [“oh-GRAB-mee”], which is “embargo” spelled backward.",
       "r": "This party had been led by Alexander Hamilton until his death in 1804. For 10 points, name this party of John Adams."
     },
     {
@@ -351,7 +352,7 @@
     {
       "id": "embargo",
       "tier": "power",
-      "t": "Made a comeback in New England after Jefferson’s Embargo Act (1807), mocked as “Ograbme”",
+      "t": "Made a comeback in New England after Jefferson’s Embargo Act (1807), mocked by a cartoon snapping turtle named “Ograbme” (embargo spelled backward)",
       "k": [
         "embargo act",
         "ograbme"
@@ -399,7 +400,8 @@
       "Federalism",
       "The Federalist Papers",
       "Whig Party",
-      "Republican Party"
+      "Republican Party",
+      "Federalist Paper"
     ]
   }
 }

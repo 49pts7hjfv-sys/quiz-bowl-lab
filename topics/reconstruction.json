@@ -28,6 +28,7 @@
   ],
   "reject": [
     "reconstruction finance corporation",
+    "reconstruction finance",
     "civil war",
     "american civil war",
     "redemption",
@@ -78,7 +79,7 @@
     },
     {
       "p": "William T. Sherman’s Special Field Order No. 15 set aside land along the coasts of South Carolina, Georgia, and Florida for freed families, in plots of up to 40 acres. That promise, remembered as “forty acres and a mule,” was mostly undone when President Andrew Johnson returned the land to its former owners.",
-      "r": "For 10 points, name this era after the Civil War, when the nation debated what freedom would mean for nearly four million people."
+      "r": "For 10 points, name this era after the Civil War, when the nation debated what freedom would mean for about four million people."
     },
     {
       "p": "Senator Charles Sumner argued that the Confederate states had committed “state suicide” by leaving the Union, while Congressman Thaddeus Stevens said they should be treated as conquered provinces. Those two men led the Radical Republicans, who wanted a tougher plan for this period than the president did.",
@@ -97,7 +98,7 @@
       "r": "Congress had earlier overridden Johnson’s veto of the Civil Rights Act of 1866. For 10 points, name this era from 1865 to 1877."
     },
     {
-      "p": "In the 1873 Slaughterhouse Cases, the Supreme Court gave a narrow reading to an amendment passed during this period, limiting the federal protection it offered. That amendment, ratified in 1868, made everyone born in the United States a citizen and promised “equal protection of the laws.”",
+      "p": "In the 1873 Slaughterhouse Cases, the Supreme Court gave a narrow reading to an amendment passed during this period, limiting the federal protection it offered. That amendment, ratified in 1868, declared that people born or naturalized in the United States are citizens and promised “equal protection of the laws.”",
       "r": "That was the Fourteenth Amendment, one of three amendments added in this era. For 10 points, name this era, which followed the Civil War."
     },
     {
@@ -226,7 +227,7 @@
     {
       "id": "kkk",
       "tier": "middle",
-      "t": "The Ku Klux Klan used violence and threats against Black Americans; the Enforcement Acts (1870–1871) let Grant fight back",
+      "t": "The Ku Klux Klan used violence and threats against Black Americans; the Enforcement Acts (1870–1871) let Grant send federal troops against it",
       "k": [
         "ku klux klan",
         "klan",
@@ -439,7 +440,8 @@
       "Jim Crow",
       "Freedmen’s Bureau",
       "Compromise of 1877",
-      "Gilded Age"
+      "Gilded Age",
+      "Reconstruction Finance Corp"
     ]
   }
 }
