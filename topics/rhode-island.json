@@ -35,7 +35,6 @@
     "aquidneck",
     "block island",
     "long island",
-    "rhodes",
     "island of rhodes",
     "connecticut",
     "massachusetts",
@@ -83,7 +82,7 @@
       "r": "The rebellion led to a new state constitution in 1843. For 10 points, name this New England state whose capital is Providence."
     },
     {
-      "p": "Anne Hutchinson’s followers founded Portsmouth on Aquidneck [“uh-KWID-nek”] Island, the island this colony was first named for, after Massachusetts banished her. William Coddington and John Clarke later founded Newport at the other end of that island.",
+      "p": "Anne Hutchinson’s followers founded Portsmouth on Aquidneck [“uh-KWID-nek”] Island, the island this colony was named for, after Massachusetts banished her. William Coddington and John Clarke later founded Newport at the other end of that island.",
       "r": "Roger Williams had already founded Providence nearby. For 10 points, name this colony, which became the smallest state."
     },
     {
@@ -320,7 +319,7 @@
     {
       "id": "aquidneck",
       "tier": "power",
-      "t": "Newport and Portsmouth sit on Aquidneck Island, which the colony was originally named for; William Coddington and John Clarke founded Newport (1639)",
+      "t": "Newport and Portsmouth sit on Aquidneck Island, which the colony was named for; William Coddington and John Clarke founded Newport (1639)",
       "k": [
         "aquidneck",
         "coddington",
@@ -456,7 +455,8 @@
       "Rhode Island and Providence Plantations",
       "State of Rhode Island",
       "Rode Island",
-      "Rhode Isand"
+      "Rhode Isand",
+      "Rhodes Island"
     ],
     "prompt": [
       "Providence Plantations"
