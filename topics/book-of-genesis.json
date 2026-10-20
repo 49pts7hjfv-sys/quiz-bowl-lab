@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "First book of the Bible · Creation, Noah, and the patriarchs",
   "dates": "Traditionally credited to Moses",
-  "briefing": "The Bible’s very first words, “In the beginning,” open the Book of Genesis, which runs from the creation of the world to the death of Joseph in Egypt. Along the way come some of the most famous stories ever told: Adam and Eve in the Garden of Eden, Noah’s ark, the Tower of Babel, and the families of Abraham, Isaac, Jacob, and Joseph. Its name comes from a Greek word meaning “origin.”",
+  "briefing": "The Bible’s very first words, “In the beginning,” open the Book of Genesis, which runs from the story of creation to the death of Joseph in Egypt. Along the way come some of the most famous stories ever told: Adam and Eve in the Garden of Eden, Noah’s ark, the Tower of Babel, and the families of Abraham, Isaac, Jacob, and Joseph. Its name comes from a Greek word meaning “origin.”",
   "answerHtml": "<b><u>Genesis</u></b> (or <u>Bereshit</u>; accept <u>First Book of Moses</u>)",
   "accept": [
     "genesis",
@@ -87,11 +87,11 @@
     },
     {
       "p": "In this book, a man sends out a raven that keeps flying back and forth, then a dove that returns the second time with a freshly plucked olive leaf. His vessel had come to rest on the mountains of Ararat [“AIR-uh-rat”].",
-      "r": "God then sets a rainbow in the sky as a sign of His covenant with that man, Noah. For 10 points, name this book."
+      "r": "God then sets a rainbow in the sky as a sign of his covenant with that man, Noah. For 10 points, name this book."
     },
     {
       "p": "In this book, people settle in the land of Shinar [“SHY-nar”], bake bricks, and use tar for mortar to build a city with a tower reaching toward the heavens, until God confuses their language and scatters them across the earth.",
-      "r": "That tower was named Babel. For 10 points, name this book that also tells the story of Noah’s ark."
+      "r": "That tower is known as the Tower of Babel. For 10 points, name this book that also tells the story of Noah’s ark."
     },
     {
       "p": "In this book, a man uses a stone as a pillow and dreams of angels going up and down a stairway to heaven, so he names the place Bethel [“BETH-el”], meaning “house of God.” Years later, after wrestling with a stranger all night, he is renamed Israel.",
@@ -206,7 +206,7 @@
     {
       "id": "rainbow",
       "tier": "middle",
-      "t": "After the Flood, God sets a rainbow in the sky as a sign of His covenant; the ark lands on the mountains of Ararat",
+      "t": "After the Flood, God sets a rainbow in the sky as a sign of his covenant; the ark lands on the mountains of Ararat",
       "k": [
         "rainbow",
         "covenant",

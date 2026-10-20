@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "Native religion of Japan · Kami spirits, shrines, and torii gates",
   "dates": "Ancient · Myths first written down in 712 CE",
-  "briefing": "Walk through an orange-red torii gate in Japan and you enter a Shinto shrine, a place where people honor kami: spirits found in mountains, waterfalls, and ancient trees, in ancestors, and even in great scholars. Shinto has no founder and no single holy book, but its myths, written down in the _Kojiki_ in 712 CE, tell how the sun goddess Amaterasu became the ancestor of Japan’s emperors.",
+  "briefing": "Walk through an orange-red torii gate in Japan and you enter a Shinto shrine, a place where people honor kami: spirits believed to dwell in mountains, waterfalls, and ancient trees, in ancestors, and even in great scholars. Shinto has no founder and no single holy book, but its myths, written down in the _Kojiki_ in 712 CE, tell how the sun goddess Amaterasu became the ancestor of Japan’s emperors.",
   "answerHtml": "<b><u>Shinto</u></b> (or <u>Shintoism</u>; accept <u>kami-no-michi</u>)",
   "accept": [
     "shinto",
@@ -32,7 +32,9 @@
     "tendai",
     "shinran",
     "shinshu",
-    "tenrikyo"
+    "tenrikyo",
+    "hindu",
+    "hinduism"
   ],
   "media": [],
   "mediaPending": true,
@@ -123,7 +125,7 @@
     {
       "id": "kami",
       "tier": "giveaway",
-      "t": "Honors kami: spirits or gods found in nature, places, ancestors, and great people",
+      "t": "Honors kami: spirits or gods believed to be present in nature, places, ancestors, and great people",
       "k": [
         "kami",
         "spirits",
@@ -427,7 +429,8 @@
       "Kami",
       "Amaterasu",
       "Confucianism",
-      "Taoism"
+      "Taoism",
+      "Hindu religion"
     ]
   }
 }
