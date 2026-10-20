@@ -258,8 +258,8 @@ data = {
         {
             "id": "canal-river",
             "tier": "power",
-            "t": "The Illinois and Michigan Canal (1848) linked it to the Mississippi; in 1900 its river’s flow was reversed",
-            "k": ["illinois and michigan canal", "canal", "reversed", "1900"],
+            "t": "The Illinois and Michigan Canal (1848) linked it to the Mississippi; in 1900 the Sanitary and Ship Canal reversed its river’s flow",
+            "k": ["illinois and michigan canal", "sanitary and ship canal", "reversed", "1900"],
             "n": 0
         },
         {

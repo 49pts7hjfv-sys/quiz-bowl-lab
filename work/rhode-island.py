@@ -1,0 +1,362 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "rhode-island",
+    "name": "Rhode Island",
+    "mono": "RI",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Smallest state · Roger Williams’s colony of religious freedom",
+    "dates": "Statehood 1790 (13th state)",
+    "briefing": "Rhode Island is the smallest state, but its history is full of rebels. Roger Williams founded Providence in 1636 after Massachusetts banished him, and the colony became a haven for people of many faiths. Its colonists burned a British ship in the Gaspee Affair, and Samuel Slater built America’s first successful water-powered cotton-spinning mill there, but it was the last of the 13 original states to approve the Constitution.",
+    "answerHtml": "<b><u>Rhode Island</u></b> (accept <u>Rhode Island and Providence Plantations</u>; do not accept “Providence”)",
+    "accept": [
+        "rhode island",
+        "state of rhode island",
+        "rhode island and providence plantations",
+        "colony of rhode island",
+        "colony of rhode island and providence plantations",
+        "state of rhode island and providence plantations",
+        "road island"
+    ],
+    "prompt": [
+        "providence plantations",
+        "little rhody",
+        "ocean state",
+        "the ocean state"
+    ],
+    "reject": [
+        "providence rhode island",
+        "roger williams",
+        "anne hutchinson",
+        "newport",
+        "pawtucket",
+        "narragansett",
+        "narragansett bay",
+        "aquidneck island",
+        "aquidneck",
+        "block island",
+        "long island",
+        "rhodes",
+        "island of rhodes",
+        "connecticut",
+        "massachusetts",
+        "new hampshire",
+        "delaware",
+        "vermont",
+        "maine",
+        "new england"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Rhode_Island",
+    "qb": {
+        "q": "Rhode Island",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "A 1663 royal charter from King Charles II called this colony a “lively experiment” in full religious freedom, and that charter served as its constitution until 1843. John Clarke spent years in London winning that charter for this colony.",
+            "r": "For 10 points, name this colony founded by Roger Williams, which became the smallest U.S. state."
+        },
+        {
+            "p": "This state and Connecticut were the only two states that never ratified the 18th Amendment, which created national Prohibition. The painter Gilbert Stuart, whose portrait of George Washington appears on the one-dollar bill, was born here in 1755.",
+            "r": "For 10 points, name this smallest U.S. state, home to the cities of Providence and Newport."
+        },
+        {
+            "p": "George Washington promised “to bigotry no sanction, to persecution no assistance” in a 1790 letter to the Jewish congregation in this state’s city of Newport. That congregation’s Touro Synagogue is the oldest surviving synagogue building in the United States.",
+            "r": "For 10 points, name this smallest U.S. state, founded as a colony by Roger Williams."
+        },
+        {
+            "p": "In 1772, merchant John Brown led a group of colonists who rowed out and burned the British customs schooner _Gaspee_ after it ran aground while chasing another ship in this colony’s waters. A royal commission later failed to find anyone willing to name the attackers.",
+            "r": "For 10 points, name this New England colony, later the smallest state, whose capital is Providence."
+        },
+        {
+            "p": "Samuel Slater memorized the designs of British textile machines and then, with money from the Quaker merchant Moses Brown, built a water-powered cotton-spinning mill in this state’s village of Pawtucket [“puh-TUCK-it”]. People in Britain called him “Slater the Traitor.”",
+            "r": "For 10 points, name this New England state where Slater helped start the American Industrial Revolution."
+        },
+        {
+            "p": "In the 1840s, Thomas Dorr led a rebellion because this state still used its 1663 royal charter as its constitution, and only men who owned land could vote. Supporters of his “People’s Constitution” even elected Dorr governor, so this state briefly had two rival governments.",
+            "r": "The rebellion led to a new state constitution in 1843. For 10 points, name this New England state whose capital is Providence."
+        },
+        {
+            "p": "Anne Hutchinson’s followers founded Portsmouth on Aquidneck [“uh-KWID-nek”] Island, the island this colony was first named for, after Massachusetts banished her. William Coddington and John Clarke later founded Newport at the other end of that island.",
+            "r": "Roger Williams had already founded Providence nearby. For 10 points, name this colony, which became the smallest state."
+        },
+        {
+            "p": "On May 4, 1776, two months before the Declaration of Independence, this colony’s legislature renounced its loyalty to King George III. Years later, it refused to send delegates to the Constitutional Convention and became the last of the thirteen original states to ratify the Constitution.",
+            "r": "For 10 points, name this state, which finally ratified in 1790 and is the smallest of the fifty states."
+        },
+        {
+            "p": "Oliver Hazard Perry, the hero of the Battle of Lake Erie, and his younger brother Matthew, who opened Japan to American trade, were both born in this state. Earlier, Nathanael Greene of this state became one of George Washington’s most trusted generals.",
+            "r": "Greene and Roger Williams represent it in the National Statuary Hall Collection. For 10 points, name this New England state whose capital is Providence."
+        },
+        {
+            "p": "In 1778, this state’s 1st Regiment, which included many Black and Native American soldiers, held its ground against repeated attacks during a battle on Aquidneck Island. A French fleet had come to help the Americans in that campaign but sailed away before the battle.",
+            "r": "That battle followed a failed attempt to retake Newport from the British. For 10 points, name this New England state, whose capital is Providence."
+        },
+        {
+            "p": "Gilded Age millionaires built enormous summer “cottages” in this state’s city of Newport, including The Breakers, built for Cornelius Vanderbilt II. Newport is also home to the Naval War College and the International Tennis Hall of Fame.",
+            "r": "Its capital is Providence. For 10 points, name this smallest of the fifty states."
+        },
+        {
+            "p": "The Ivy League college in this state was renamed in 1804 for Nicholas Brown Jr., a merchant whose family had long supported it. That college, first founded in 1764, had moved to this state’s capital in 1770.",
+            "r": "For 10 points, name this state, home to Brown University and the capital city of Providence."
+        },
+        {
+            "p": "This state’s town of Bristol claims the oldest continuous Fourth of July celebration in the country, first held in 1785. Coffee milk was named its official state drink in 1993, and its flag shows a golden anchor above the one-word motto “Hope.”",
+            "r": "Its capital is Providence. For 10 points, name this smallest U.S. state, nicknamed the Ocean State."
+        },
+        {
+            "p": "Jewish families settled in this colony’s town of Newport in the 1650s, and Quakers were allowed to worship freely there while other New England colonies punished them. Its founder had been banished from Massachusetts in 1635 for spreading “new and dangerous opinions.”",
+            "r": "Critics called it “Rogues’ Island.” For 10 points, name this colony founded by Roger Williams."
+        },
+        {
+            "p": "Stephen Hopkins and William Ellery signed the Declaration of Independence for this colony, and Hopkins’s brother Esek became the first commander in chief of the Continental Navy. Stephen Hopkins had earlier served several terms as this colony’s governor.",
+            "r": "For 10 points, name this colony founded by Roger Williams, later the smallest state."
+        }
+    ],
+    "clues": [
+        {
+            "id": "smallest",
+            "tier": "giveaway",
+            "t": "Smallest U.S. state by area; nicknamed the Ocean State",
+            "k": ["smallest", "ocean state"],
+            "n": 0
+        },
+        {
+            "id": "roger-williams",
+            "tier": "giveaway",
+            "t": "Founded by Roger Williams, who started Providence in 1636 after Massachusetts banished him",
+            "k": ["roger williams", "williams", "1636", "banished"],
+            "n": 0,
+            "rabbit": "Roger Williams"
+        },
+        {
+            "id": "capital",
+            "tier": "giveaway",
+            "t": "Capital: Providence, at the head of Narragansett Bay; another famous city is Newport",
+            "k": ["providence", "narragansett bay", "newport"],
+            "n": 0
+        },
+        {
+            "id": "religious-freedom",
+            "tier": "giveaway",
+            "t": "A colony of religious freedom that welcomed Baptists, Quakers, and Jews",
+            "k": ["religious freedom", "baptists", "quakers", "jews"],
+            "n": 0
+        },
+        {
+            "id": "last-to-ratify",
+            "tier": "giveaway",
+            "t": "Last of the 13 original states to ratify the Constitution (1790); it sent no delegates to the Constitutional Convention",
+            "k": ["last", "ratify", "1790", "constitutional convention"],
+            "n": 0
+        },
+        {
+            "id": "hutchinson",
+            "tier": "middle",
+            "t": "Anne Hutchinson’s followers founded Portsmouth (1638) after Massachusetts banished her",
+            "k": ["anne hutchinson", "hutchinson", "portsmouth", "1638"],
+            "n": 0
+        },
+        {
+            "id": "gaspee",
+            "tier": "middle",
+            "t": "Gaspee Affair (1772): colonists led by John Brown burned the British customs schooner _Gaspee_ after it ran aground",
+            "k": ["gaspee", "1772", "john brown"],
+            "n": 0
+        },
+        {
+            "id": "slater",
+            "tier": "middle",
+            "t": "Samuel Slater built a water-powered cotton-spinning mill at Pawtucket from British designs he had memorized",
+            "k": ["samuel slater", "slater", "pawtucket", "memorized"],
+            "n": 0,
+            "rabbit": "Cotton"
+        },
+        {
+            "id": "touro",
+            "tier": "middle",
+            "t": "Touro Synagogue in Newport (dedicated 1763) is the oldest surviving synagogue building in the United States",
+            "k": ["touro", "synagogue", "1763"],
+            "n": 0
+        },
+        {
+            "id": "may-4",
+            "tier": "middle",
+            "t": "On May 4, 1776, its legislature renounced loyalty to King George III, two months before the Declaration of Independence",
+            "k": ["may 4", "george iii", "renounced"],
+            "n": 0
+        },
+        {
+            "id": "brown-university",
+            "tier": "middle",
+            "t": "Home of Brown University (chartered 1764), an Ivy League school renamed for Nicholas Brown Jr. in 1804",
+            "k": ["brown university", "ivy league", "nicholas brown", "1764"],
+            "n": 0
+        },
+        {
+            "id": "rogues-island",
+            "tier": "middle",
+            "t": "Critics in Massachusetts called it “Rogues’ Island” because it took in religious outcasts",
+            "k": ["rogues’ island", "rogues", "outcasts"],
+            "n": 0
+        },
+        {
+            "id": "first-baptist",
+            "tier": "middle",
+            "t": "Roger Williams helped start the first Baptist church in America in Providence (1638)",
+            "k": ["first baptist", "baptist", "1638"],
+            "n": 0
+        },
+        {
+            "id": "hope-anchor",
+            "tier": "middle",
+            "t": "Its flag shows a golden anchor and the one-word motto “Hope”",
+            "k": ["anchor", "hope", "flag"],
+            "n": 0
+        },
+        {
+            "id": "charter-1663",
+            "tier": "power",
+            "t": "John Clarke won a 1663 royal charter from Charles II that called the colony a “lively experiment” in religious freedom; it served as the state constitution until 1843",
+            "k": ["lively experiment", "john clarke", "charles ii", "1663", "charter"],
+            "n": 0
+        },
+        {
+            "id": "dorr",
+            "tier": "power",
+            "t": "Dorr Rebellion (1841–1842): Thomas Dorr’s “People’s Constitution” challenged the rule that only landowners could vote; two rival governments claimed power",
+            "k": ["dorr", "thomas dorr", "people’s constitution", "landowners"],
+            "n": 0
+        },
+        {
+            "id": "washington-letter",
+            "tier": "power",
+            "t": "George Washington’s 1790 letter to Newport’s Jewish congregation promised “to bigotry no sanction, to persecution no assistance”",
+            "k": ["bigotry", "persecution", "1790"],
+            "n": 0
+        },
+        {
+            "id": "aquidneck",
+            "tier": "power",
+            "t": "Newport and Portsmouth sit on Aquidneck Island, which the colony was originally named for; William Coddington and John Clarke founded Newport (1639)",
+            "k": ["aquidneck", "coddington", "1639"],
+            "n": 0
+        },
+        {
+            "id": "slater-traitor",
+            "tier": "power",
+            "t": "Quaker merchant Moses Brown paid for Slater’s mill; in Britain, Slater was called “Slater the Traitor”",
+            "k": ["moses brown", "slater the traitor", "traitor"],
+            "n": 0
+        },
+        {
+            "id": "eighteenth-amendment",
+            "tier": "power",
+            "t": "With Connecticut, one of only two states that never ratified the 18th Amendment (Prohibition)",
+            "k": ["18th amendment", "connecticut", "prohibition"],
+            "n": 0,
+            "rabbit": "Prohibition"
+        },
+        {
+            "id": "gilbert-stuart",
+            "tier": "power",
+            "t": "Painter Gilbert Stuart, whose portrait of Washington is on the one-dollar bill, was born there (1755)",
+            "k": ["gilbert stuart", "one-dollar bill", "1755"],
+            "n": 0
+        },
+        {
+            "id": "perry-greene",
+            "tier": "power",
+            "t": "Birthplace of naval officers Oliver Hazard Perry and Matthew Perry and of General Nathanael Greene",
+            "k": ["oliver hazard perry", "matthew perry", "nathanael greene", "perry"],
+            "n": 0,
+            "rabbit": "Oliver Hazard Perry"
+        },
+        {
+            "id": "black-regiment",
+            "tier": "power",
+            "t": "Its 1st Regiment, often called the “Black Regiment,” included many Black and Native American soldiers and fought in a 1778 battle on Aquidneck Island",
+            "k": ["black regiment", "1st regiment", "1778"],
+            "n": 0
+        },
+        {
+            "id": "hopkins",
+            "tier": "power",
+            "t": "Stephen Hopkins and William Ellery signed the Declaration for it; Esek Hopkins was the first commander in chief of the Continental Navy",
+            "k": ["stephen hopkins", "william ellery", "esek hopkins", "continental navy"],
+            "n": 0
+        },
+        {
+            "id": "newport-mansions",
+            "tier": "power",
+            "t": "Gilded Age “cottages” such as the Vanderbilts’ The Breakers stand in Newport, home of the Naval War College",
+            "k": ["the breakers", "naval war college", "cottages"],
+            "n": 0,
+            "rabbit": "Cornelius Vanderbilt"
+        },
+        {
+            "id": "name-origin",
+            "tier": "power",
+            "t": "Its name may come from Giovanni da Verrazzano comparing an island there to the Greek island of Rhodes",
+            "k": ["verrazzano", "rhodes", "greek island"],
+            "n": 0
+        },
+        {
+            "id": "name-2020",
+            "tier": "power",
+            "t": "In 2020, voters approved dropping “and Providence Plantations” from its official state name",
+            "k": ["2020", "providence plantations", "official state name"],
+            "n": 0
+        },
+        {
+            "id": "bristol",
+            "tier": "power",
+            "t": "Bristol claims the nation’s oldest continuous Fourth of July celebration, first held in 1785; coffee milk is the official state drink",
+            "k": ["bristol", "fourth of july", "coffee milk"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Colony, city, or founder?",
+        "body": "Many Rhode Island tossups lean on Roger Williams and Providence, which have their own answer lines: Roger Williams is the man, and Providence is the capital city he founded in 1636. Neighbors cause trouble too: Massachusetts banished both Williams and Anne Hutchinson, and Thomas Hooker led his congregation from Massachusetts to found Hartford, Connecticut.",
+        "fix": "Listen for the noun. “This colony” or “this state” with the Gaspee, Slater’s mill, Touro Synagogue, the Dorr Rebellion, or the last ratification of the Constitution means Rhode Island; “this man” means Roger Williams; “this city” means Providence or Newport. The old official name, “Rhode Island and Providence Plantations,” is also fine, but “Providence” alone names a city.",
+        "line": "Real answer line: <b><u>Rhode Island</u></b> (accept <u>Rhode Island and Providence Plantations</u>)"
+    },
+    "tests": {
+        "right": [
+            "Rhode Island",
+            "Rhode Island and Providence Plantations",
+            "State of Rhode Island",
+            "Rode Island",
+            "Rhode Isand"
+        ],
+        "prompt": [
+            "Providence Plantations"
+        ],
+        "wrong": [
+            "Providence",
+            "Roger Williams",
+            "Connecticut",
+            "Massachusetts",
+            "Newport",
+            "Long Island",
+            "Providence, Rhode Island"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

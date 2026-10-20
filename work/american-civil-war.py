@@ -74,7 +74,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "Wilmer McLean is said to have joked that this war “began in my front yard and ended in my front parlor.” His farmhouse near Manassas was shelled during the war’s first major battle, and he then moved to a Virginia village where the war’s best-known surrender later took place in his home.",
+            "p": "Wilmer McLean is said to have joked that this war “began in my front yard and ended in my front parlor.” His farm near Manassas was caught up in the war’s first major battle, and he then moved to a Virginia village where the war’s best-known surrender later took place in his home.",
             "r": "There, Robert E. Lee surrendered to Ulysses S. Grant at Appomattox Court House. For 10 points, name this war fought from 1861 to 1865."
         },
         {
@@ -87,7 +87,7 @@ data = {
         },
         {
             "p": "During this war, one side passed the first national draft law in American history, and a later law excused one white man from service on any plantation with twenty or more enslaved people. The other side’s draft let a man pay $300 to avoid serving, which helped spark deadly riots in New York City in 1863.",
-            "r": "For 10 points, name this war between the Union and the Confederacy, fought from 1861 to 1865."
+            "r": "Abraham Lincoln led the Union in this war. For 10 points, name this war that began when Confederates fired on Fort Sumter."
         },
         {
             "p": "Ken Burns’s 1990 PBS documentary series about this war used Jay Ungar’s fiddle tune “Ashokan Farewell” as its theme and made the historian Shelby Foote famous. Burns told the story largely through old photographs, many of them taken by Mathew Brady and his team.",
@@ -98,7 +98,7 @@ data = {
             "r": "For 10 points, name this war fought between the Union and the Confederacy from 1861 to 1865."
         },
         {
-            "p": "Harriet Tubman helped guide the Combahee [“KUM-bee”] River Raid during this war, which freed more than 700 enslaved people in South Carolina. Weeks later, the 54th Massachusetts, a Black regiment led by Robert Gould Shaw, attacked Fort Wagner, as shown in the film _Glory_.",
+            "p": "During this war, Harriet Tubman helped guide the Combahee [“KUM-bee”] River Raid, which freed more than 700 enslaved people in South Carolina. Weeks later, the 54th Massachusetts, a Black regiment led by Robert Gould Shaw, attacked Fort Wagner, as shown in the film _Glory_.",
             "r": "About 180,000 Black soldiers served in the Union Army in this war. For 10 points, name this war that began at Fort Sumter in 1861."
         },
         {
@@ -107,14 +107,14 @@ data = {
         },
         {
             "p": "Henry Fleming runs away from his first battle in this war but later carries his regiment’s flag in Stephen Crane’s novel _The Red Badge of Courage_. Julia Ward Howe wrote “The Battle Hymn of the Republic” early in this war, setting it to the tune of “John Brown’s Body.”",
-            "r": "For 10 points, name this war that began with the Confederate attack on Fort Sumter."
+            "r": "Abraham Lincoln was president during this war. For 10 points, name this war that began with the Confederate attack on Fort Sumter."
         },
         {
             "p": "Former Ohio congressman Clement Vallandigham [“vuh-LAN-dih-gum”], a leader of the antiwar Democrats called Copperheads, was arrested and sent across enemy lines during this war. After it ended, the Supreme Court ruled in _Ex parte Milligan_ that civilians could not be tried by military courts where regular courts were open.",
-            "r": "For 10 points, name this war during which Abraham Lincoln led the Union."
+            "r": "Abraham Lincoln also suspended habeas corpus [“HAY-bee-us KOR-pus”] during this war. For 10 points, name this war in which he led the Union against the Confederacy."
         },
         {
-            "p": "The warship CSS _Shenandoah_ did not surrender until November 1865, in Liverpool, England, months after the major armies in this war had stopped fighting. On June 19, 1865, General Gordon Granger announced in Galveston, Texas, that the enslaved people there were free.",
+            "p": "The warship CSS _Shenandoah_ did not surrender until November 1865, in Liverpool, England, months after the major armies in this war had stopped fighting. On June 19, 1865, General Gordon Granger announced in Galveston that the enslaved people of Texas were free.",
             "r": "That day is celebrated as Juneteenth. For 10 points, name this war that ended after Robert E. Lee surrendered at Appomattox Court House."
         },
         {
@@ -122,12 +122,12 @@ data = {
             "r": "For 10 points, name this war in which Robert E. Lee commanded the Confederacy’s Army of Northern Virginia."
         },
         {
-            "p": "Leaders of one side in this war believed that “King Cotton” would force Britain and France to help them, and they even held back cotton shipments in 1861 to prove it. Neither European country ever recognized their government, especially after the Battle of Antietam.",
+            "p": "Leaders of one side in this war believed that “King Cotton” would force Britain and France to help them, and they even held back cotton shipments in 1861 to prove it. The Battle of Antietam discouraged both countries from recognizing their government, and neither ever did.",
             "r": "For 10 points, name this war between the United States and the Confederate States of America, which ended in 1865."
         },
         {
             "p": "To pay for this war, Congress passed the first federal income tax and the Legal Tender Act, which created paper money nicknamed “greenbacks.” With Southern lawmakers gone, Congress also passed the Homestead Act and the Morrill Act, which gave land to the states to start colleges.",
-            "r": "For 10 points, name this war during which Abraham Lincoln issued the Emancipation Proclamation."
+            "r": "All of those laws were signed by Abraham Lincoln. For 10 points, name this war during which Lincoln also issued the Emancipation Proclamation."
         },
         {
             "p": "During this war, the western counties of Virginia broke away to form West Virginia, which became a state in 1863. Four slave states, Kentucky, Maryland, Missouri, and Delaware, stayed loyal to the national government and were called “border states.”",
@@ -252,7 +252,7 @@ data = {
         {
             "id": "mclean",
             "tier": "power",
-            "t": "Wilmer McLean’s house was shelled at First Bull Run, and Lee later surrendered in his parlor (“began in my front yard…”)",
+            "t": "Wilmer McLean’s farm was caught up in First Bull Run, and Lee later surrendered in his parlor (“began in my front yard…”)",
             "k": ["wilmer mclean", "mclean", "front yard", "parlor"],
             "n": 0
         },
