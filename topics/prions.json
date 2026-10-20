@@ -73,7 +73,7 @@
       "r": "They are misfolded proteins, and Stanley Prusiner won a Nobel Prize for discovering them. For 10 points, name these agents that cause mad cow disease."
     },
     {
-      "p": "The human gene for the normal form of the protein in these agents sits on chromosome 20, and inherited changes in that gene can cause fatal familial insomnia. Stanley Prusiner’s “protein-only hypothesis” said that these agents need no genes to spread.",
+      "p": "The human gene for the normal form of the protein in these agents sits on chromosome 20, and inherited changes in that gene can cause fatal familial insomnia. The “protein-only hypothesis,” championed by Stanley Prusiner, said that these agents need no genes to spread.",
       "r": "They spread by forcing normal copies of a protein to misfold. For 10 points, name these infectious agents that cause mad cow disease."
     },
     {
@@ -85,8 +85,8 @@
       "r": "For 10 points, name these infectious misfolded proteins that also cause mad cow disease in cattle."
     },
     {
-      "p": "Some yeast cells carry harmless versions of these agents that pass traits on to their daughter cells without any change to their DNA. One of those yeast versions is formed by a protein called Sup35.",
-      "r": "Like the disease-causing kind, they copy themselves by making normal proteins misfold. For 10 points, name these agents, which cause mad cow disease in cattle."
+      "p": "Some yeast cells carry versions of these agents that pass traits on to their daughter cells without any change to their DNA. Those traits are inherited through the shape of a protein rather than through genes.",
+      "r": "Like the kind found in mammals, they copy themselves by making normal proteins misfold. For 10 points, name these agents, which cause mad cow disease in cattle."
     },
     {
       "p": "In 1982, Stanley Prusiner coined the name of these agents by shortening the phrase “proteinaceous infectious particle,” and in 1997 he won the Nobel Prize in medicine for discovering them. Many scientists at first doubted his claim that these agents spread disease without any genes.",
@@ -209,7 +209,7 @@
     {
       "id": "kuru",
       "tier": "middle",
-      "t": "Cause kuru, a “trembling” disease of the Fore people of Papua New Guinea, spread by funeral customs",
+      "t": "Cause kuru, a “trembling” disease of the Fore people of Papua New Guinea, spread by traditional funeral customs",
       "k": [
         "kuru",
         "fore",
@@ -367,10 +367,9 @@
     {
       "id": "yeast",
       "tier": "power",
-      "t": "Harmless versions in yeast, such as one formed by the protein Sup35, pass traits to daughter cells without changing their DNA",
+      "t": "Versions in yeast pass traits to daughter cells through a protein’s shape, without changing their DNA",
       "k": [
         "yeast",
-        "sup35",
         "daughter cells"
       ],
       "n": 0
@@ -399,7 +398,7 @@
     {
       "id": "feed-ban",
       "tier": "power",
-      "t": "Britain banned feeding cattle meal made from animal remains in 1988; the epidemic peaked in the early 1990s",
+      "t": "Britain banned feeding cattle meal made from the remains of sheep and cattle in 1988; the epidemic peaked in the early 1990s",
       "k": [
         "1988",
         "banned",
