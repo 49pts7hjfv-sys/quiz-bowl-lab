@@ -49,7 +49,6 @@
     "bleeding kansas",
     "confederate states of america",
     "confederacy",
-    "secession",
     "shermans march to the sea",
     "march to the sea",
     "first battle of bull run",
@@ -315,7 +314,7 @@
     {
       "id": "mclean",
       "tier": "power",
-      "t": "Wilmer McLean’s farm was caught up in First Bull Run, and Lee later surrendered in his parlor (“began in my front yard…”)",
+      "t": "Wilmer McLean’s farm was caught up in First Bull Run, and Lee later surrendered in his parlor; he supposedly joked the war “began in my front yard…”",
       "k": [
         "wilmer mclean",
         "mclean",
@@ -350,7 +349,7 @@
     {
       "id": "draft",
       "tier": "power",
-      "t": "The Confederate draft (1862) was the first in U.S. history; the Union’s $300 exemption helped spark the New York City draft riots (1863)",
+      "t": "The Confederate draft (1862) was the first in American history; the Union’s $300 exemption helped spark the New York City draft riots (1863)",
       "k": [
         "draft riots",
         "draft",
@@ -468,7 +467,7 @@
     "title": "Part or whole war?",
     "body": "Many of this war’s stock clues are also answer lines of their own: Fort Sumter, the Battle of Gettysburg, the Emancipation Proclamation, the Anaconda Plan, and Reconstruction, the era that came after it. Naming one of those when the question wants the whole war loses the tossup, and so does naming the whole war when the question wants the battle or the plan. In world history, saying only “Civil War” is not enough for the English or Spanish Civil War.",
     "fix": "Listen for the noun: “this war” or “this conflict” wants the American Civil War, while “this battle,” “this fort,” “this plan,” “this document,” or “this era” wants something more specific. If the question is about Oliver Cromwell or Francisco Franco, add “English” or “Spanish.”",
-    "line": "Real answer line: American <b><u>Civil War</u></b> (or <u>War Between the States</u>; or <u>War of the Rebellion</u>)"
+    "line": "Real answer line: American <b><u>Civil War</u></b> (or <b><u>War Between the States</u></b>; or <b><u>War of the Rebellion</u></b>; or <u>War of Secession</u>; do not accept other civil wars, such as the “English Civil War”)"
   },
   "tests": {
     "right": [
@@ -477,7 +476,8 @@
       "the Civil War",
       "War Between the States",
       "War of the Rebellion",
-      "Civl War"
+      "Civl War",
+      "the War of Secession"
     ],
     "prompt": [],
     "wrong": [
