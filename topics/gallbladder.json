@@ -1,0 +1,436 @@
+{
+  "id": "gallbladder",
+  "name": "Gallbladder",
+  "mono": "GBL",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Small pouch under the liver · Stores bile and squeezes it out to digest fat",
+  "dates": "Holds only a few tablespoons of bile",
+  "briefing": "The gallbladder is a small, pear-shaped pouch tucked under the liver. The liver makes a greenish fluid called bile all day long, and the gallbladder stores and concentrates it until a fatty meal arrives. Then a hormone called CCK makes it squeeze bile into the small intestine, where bile breaks fat into tiny droplets. Sometimes bile hardens into gallstones, and doctors can remove the whole organ, because people can live without it.",
+  "answerHtml": "<b><u>Gallbladder</u></b> (accept <u>gall bladder</u>; prompt on <u>biliary system</u>; do not accept “liver,” “pancreas,” or “bile duct”)",
+  "accept": [
+    "gallbladder",
+    "gall bladder",
+    "gallbladders",
+    "gall bladders"
+  ],
+  "prompt": [
+    "biliary system",
+    "biliary tract",
+    "biliary tree"
+  ],
+  "reject": [
+    "liver",
+    "pancreas",
+    "bile",
+    "bile duct",
+    "bile ducts",
+    "common bile duct",
+    "cystic duct",
+    "hepatic duct",
+    "gallstones",
+    "gallstone",
+    "gall stones",
+    "spleen",
+    "stomach",
+    "duodenum",
+    "small intestine",
+    "appendix",
+    "urinary bladder",
+    "swim bladder",
+    "kidney",
+    "kidneys",
+    "sphincter of oddi"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Gallbladder",
+  "qb": {
+    "q": "gallbladder",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1882, the German surgeon Carl Langenbuch [“LAHNG-en-bookh”] performed the first successful operation to remove this organ, which is now one of the most common surgeries. People can live without this organ, because the liver can still send its fluid straight to the intestine.",
+      "r": "For 10 points, name this small, pear-shaped organ that stores bile made by the liver."
+    },
+    {
+      "p": "The hormone cholecystokinin [“koh-luh-sis-toh-KY-nin”], whose name means “bile sac mover,” is released by the duodenum when fatty food arrives and makes this organ contract. At the same time, the sphincter of Oddi [“ODD-ee”] relaxes so this organ’s contents can flow into the intestine.",
+      "r": "For 10 points, name this organ that stores bile and releases it to help digest fats."
+    },
+    {
+      "p": "Horses, deer, and rats all lack this organ, so bile flows straight from their livers into their intestines. In humans, this organ makes the bile it holds more concentrated by absorbing water from it between meals.",
+      "r": "For 10 points, name this small, pear-shaped organ tucked under the liver, where gallstones can form."
+    },
+    {
+      "p": "A medicine that can slowly dissolve some of the stones that form in this organ is named for bears, because its main chemical was first found in bear bile. Most of those stones are made largely of cholesterol, while others are dark “pigment” stones.",
+      "r": "Those stones are called gallstones. For 10 points, name this organ that stores bile from the liver."
+    },
+    {
+      "p": "King Goujian [“GOH-jyen”] of Yue is said to have tasted the bitter fluid stored in this organ every day to remind himself of a defeat, a story behind a Chinese saying about perseverance. In Chinese, having a “big” one of these organs means being bold or brave.",
+      "r": "The liver makes that fluid, called bile. For 10 points, name this organ beneath the liver that stores bile."
+    },
+    {
+      "p": "This organ is divided into a rounded fundus, a body, and a narrow neck, which leads into the cystic duct. The cystic duct joins the common hepatic duct from the liver to form the common bile duct.",
+      "r": "For 10 points, name this small organ that stores and concentrates bile, where gallstones can form."
+    },
+    {
+      "p": "Doctors check for Murphy’s sign, named for the surgeon John B. Murphy, by pressing below the right ribs as a patient breathes in, to see whether this organ is inflamed. Inflammation of this organ, often caused by a stone blocking its duct, is called cholecystitis [“koh-luh-sis-TY-tis”].",
+      "r": "For 10 points, name this pear-shaped organ, which can be removed if gallstones form in it."
+    },
+    {
+      "p": "Ultrasound scans are usually the first test doctors use to look for stones in this organ, which show up as bright spots that cast dark “shadows” on the screen. Those stones can form when bile holds more cholesterol than it can dissolve.",
+      "r": "Removing this organ is one of the most common surgeries. For 10 points, name this organ that stores bile, where gallstones form."
+    },
+    {
+      "p": "This organ releases a fluid whose salts emulsify fats, breaking large fat globules into tiny droplets that the enzyme lipase can digest more easily. That fluid, which this organ stores but does not make, contains no digestive enzymes of its own.",
+      "r": "The liver makes that fluid. For 10 points, name this organ that stores bile until a fatty meal arrives."
+    },
+    {
+      "p": "A stone that slips out of this organ and blocks the common bile duct can cause jaundice, a yellowing of the skin and eyes from a buildup of bilirubin [“bil-ih-ROO-bin”]. This organ sits in the upper right part of the abdomen.",
+      "r": "For 10 points, name this small, pear-shaped organ that stores bile from the liver."
+    },
+    {
+      "p": "Since the late 1980s, surgeons have usually removed this organ through a few tiny cuts, using a camera on a thin tube, in a “laparoscopic” [“lap-uh-roh-SKOP-ik”] operation. The medical name for that operation is cholecystectomy [“koh-luh-sis-TEK-tuh-mee”].",
+      "r": "For 10 points, name this organ that stores bile and can be removed if stones form in it."
+    },
+    {
+      "p": "The greenish-yellow color of the fluid stored in this organ comes from pigments such as bilirubin, which forms when old red blood cells are broken down. That fluid is made by the liver and reaches this organ through the cystic duct.",
+      "r": "Hardened lumps called gallstones can form inside it. For 10 points, name this pouch under the liver that stores and concentrates bile."
+    },
+    {
+      "p": "Most stones in this organ never cause symptoms, but a stone that blocks its outlet can cause a sudden pain under the right ribs, called biliary colic, often after a fatty meal.",
+      "r": "Those stones are called gallstones. For 10 points, name this organ that stores bile and squeezes it into the small intestine."
+    },
+    {
+      "p": "Fluid from this organ and juice from the pancreas enter the duodenum together through an opening called the ampulla of Vater [“FAH-ter”]. A stone from this organ that gets stuck there can inflame the pancreas.",
+      "r": "For 10 points, name this organ, which stores bile between meals and sits under the liver."
+    },
+    {
+      "p": "Between meals, this organ makes the fluid it stores several times stronger by pulling water and salts out of it, so it needs to hold only a few tablespoons. A fatty meal makes this organ’s muscular walls squeeze.",
+      "r": "For 10 points, name this organ that receives bile from the liver through the cystic duct."
+    }
+  ],
+  "clues": [
+    {
+      "id": "stores-bile",
+      "tier": "giveaway",
+      "t": "Stores bile made by the liver",
+      "k": [
+        "stores bile",
+        "bile",
+        "liver"
+      ],
+      "n": 0,
+      "rabbit": "Liver"
+    },
+    {
+      "id": "pear-shaped",
+      "tier": "giveaway",
+      "t": "A small, pear-shaped pouch tucked under the liver",
+      "k": [
+        "pear-shaped",
+        "pouch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gallstones",
+      "tier": "giveaway",
+      "t": "Hardened lumps called gallstones can form inside it",
+      "k": [
+        "gallstones"
+      ],
+      "n": 0
+    },
+    {
+      "id": "digest-fats",
+      "tier": "giveaway",
+      "t": "Squeezes bile into the small intestine to help digest fats",
+      "k": [
+        "small intestine",
+        "fats"
+      ],
+      "n": 0,
+      "rabbit": "Small intestine"
+    },
+    {
+      "id": "live-without",
+      "tier": "giveaway",
+      "t": "Doctors can remove it, and people can live without it",
+      "k": [
+        "remove",
+        "live without"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cck",
+      "tier": "middle",
+      "t": "The hormone cholecystokinin (CCK), made by the duodenum when fatty food arrives, makes it contract",
+      "k": [
+        "cholecystokinin",
+        "cck",
+        "duodenum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "emulsify",
+      "tier": "middle",
+      "t": "Bile salts emulsify fats, breaking them into tiny droplets that lipase can digest; bile has no enzymes",
+      "k": [
+        "emulsify",
+        "droplets",
+        "lipase"
+      ],
+      "n": 0
+    },
+    {
+      "id": "concentrates",
+      "tier": "middle",
+      "t": "Between meals it concentrates bile by absorbing water, so it holds only a few tablespoons",
+      "k": [
+        "concentrates",
+        "few tablespoons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cholesterol-stones",
+      "tier": "middle",
+      "t": "Most gallstones are made mainly of cholesterol; others are dark pigment stones",
+      "k": [
+        "cholesterol",
+        "pigment stones"
+      ],
+      "n": 0,
+      "rabbit": "Cholesterol"
+    },
+    {
+      "id": "ducts",
+      "tier": "middle",
+      "t": "Its cystic duct joins the common hepatic duct to form the common bile duct",
+      "k": [
+        "cystic duct",
+        "common bile duct"
+      ],
+      "n": 0
+    },
+    {
+      "id": "upper-right",
+      "tier": "middle",
+      "t": "Sits in the upper right part of the abdomen",
+      "k": [
+        "upper right",
+        "abdomen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jaundice",
+      "tier": "middle",
+      "t": "A stone blocking the common bile duct can cause jaundice, a yellowing from a buildup of bilirubin",
+      "k": [
+        "jaundice",
+        "bilirubin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cholecystitis",
+      "tier": "middle",
+      "t": "Inflammation of it, often from a stone blocking its duct, is called cholecystitis",
+      "k": [
+        "cholecystitis",
+        "inflammation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "laparoscopic",
+      "tier": "middle",
+      "t": "Usually removed through a few tiny cuts in a laparoscopic operation called a cholecystectomy",
+      "k": [
+        "laparoscopic",
+        "cholecystectomy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ultrasound",
+      "tier": "middle",
+      "t": "Ultrasound is the usual first test for its stones, which show up as bright spots that cast shadows",
+      "k": [
+        "ultrasound",
+        "shadows"
+      ],
+      "n": 0
+    },
+    {
+      "id": "langenbuch",
+      "tier": "power",
+      "t": "German surgeon Carl Langenbuch first removed one successfully in 1882",
+      "k": [
+        "langenbuch",
+        "1882"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bile-sac-mover",
+      "tier": "power",
+      "t": "The name cholecystokinin means “bile sac mover”",
+      "k": [
+        "bile sac mover"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oddi",
+      "tier": "power",
+      "t": "When it contracts, the sphincter of Oddi relaxes to let bile flow into the duodenum",
+      "k": [
+        "sphincter of oddi",
+        "oddi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "animals-without",
+      "tier": "power",
+      "t": "Horses, deer, and rats don’t have one, so their bile flows straight from the liver",
+      "k": [
+        "horses",
+        "deer",
+        "rats"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bear-bile",
+      "tier": "power",
+      "t": "A drug that can dissolve some cholesterol stones is named for bears, because it was first found in bear bile",
+      "k": [
+        "bear bile",
+        "bears",
+        "dissolve"
+      ],
+      "n": 0
+    },
+    {
+      "id": "goujian",
+      "tier": "power",
+      "t": "King Goujian of Yue tasted gall every day to remember a defeat, the story behind a Chinese saying",
+      "k": [
+        "goujian",
+        "yue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brave",
+      "tier": "power",
+      "t": "In Chinese, having a “big” one means being bold or brave",
+      "k": [
+        "chinese",
+        "brave",
+        "bold"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parts",
+      "tier": "power",
+      "t": "Divided into a rounded fundus, a body, and a narrow neck",
+      "k": [
+        "fundus",
+        "neck"
+      ],
+      "n": 0
+    },
+    {
+      "id": "murphy",
+      "tier": "power",
+      "t": "Murphy’s sign, named for surgeon John B. Murphy, is a test for an inflamed one",
+      "k": [
+        "murphy’s sign",
+        "murphy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "biliary-colic",
+      "tier": "power",
+      "t": "A stone blocking its outlet can cause biliary colic, a sudden pain that often comes after fatty meals",
+      "k": [
+        "biliary colic",
+        "fatty meals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ampulla",
+      "tier": "power",
+      "t": "Bile and pancreatic juice enter the duodenum together at the ampulla of Vater; a stone stuck there can inflame the pancreas",
+      "k": [
+        "ampulla of vater",
+        "pancreas"
+      ],
+      "n": 0,
+      "rabbit": "Pancreas"
+    },
+    {
+      "id": "pigment-color",
+      "tier": "power",
+      "t": "Bile’s greenish-yellow color comes from pigments like bilirubin, made when old red blood cells are broken down",
+      "k": [
+        "greenish-yellow",
+        "red blood cells"
+      ],
+      "n": 0,
+      "rabbit": "Red blood cells"
+    },
+    {
+      "id": "late-1980s",
+      "tier": "power",
+      "t": "Removing it through tiny cuts with a camera became the usual method in the late 1980s",
+      "k": [
+        "late 1980s",
+        "camera"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Liver or gallbladder?",
+    "body": "The liver makes bile, but the gallbladder only stores and concentrates it, so a clue like “produces bile” wants the liver. The pancreas is a third neighbor whose duct meets the bile duct, and all three send juices into the duodenum. Gallstones themselves, or the bile duct a stone can block, are separate answers too.",
+    "fix": "“Makes” or “produces” bile means the liver. “Stores,” “concentrates,” or “squeezes out” bile, CCK making it contract, gallstones forming inside it, or a cholecystectomy means the gallbladder. Insulin or digestive enzymes mean the pancreas.",
+    "line": "Real answer line: <b><u>Gallbladder</u></b> (accept <u>gall bladder</u>; do not accept “liver” or “bile duct”)"
+  },
+  "tests": {
+    "right": [
+      "Gallbladder",
+      "gall bladder",
+      "Gallbladders",
+      "Gallbladdar",
+      "the gallbladder"
+    ],
+    "prompt": [
+      "Biliary system"
+    ],
+    "wrong": [
+      "Liver",
+      "Pancreas",
+      "Gallstones",
+      "Bile duct",
+      "Urinary bladder",
+      "Spleen"
+    ]
+  }
+}

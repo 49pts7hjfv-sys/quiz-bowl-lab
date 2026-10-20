@@ -63,7 +63,7 @@
   },
   "tossups": [
     {
-      "p": "Charles Walcott described Pikaia, a small, ribbon-shaped animal from the Burgess Shale, in 1911, and it was long considered one of the earliest known members of this phylum. Its fossils show V-shaped muscle blocks called myomeres [“MY-oh-meerz”].",
+      "p": "Charles Walcott described Pikaia, a small, ribbon-shaped animal from the Burgess Shale, in 1911, and it was long considered one of the earliest known members of this phylum. Its fossils show segmented muscle blocks called myomeres [“MY-oh-meerz”].",
       "r": "Members of this phylum have a notochord at some point in their lives. For 10 points, name this phylum that includes all vertebrates."
     },
     {
@@ -71,7 +71,7 @@
       "r": "Members of this phylum have pharyngeal slits and a post-anal tail at some stage. For 10 points, name this phylum that includes fish, birds, and humans."
     },
     {
-      "p": "Tunicates in this phylum are among the only animals that make cellulose, which stiffens their tough outer covering, or tunic. Some tunicates, called salps, are barrel-shaped and swim by jet propulsion, pumping water through their bodies.",
+      "p": "Tunicates in this phylum are the only animals known to make cellulose, which stiffens their tough outer covering, or tunic. Some tunicates, called salps, are barrel-shaped and swim by jet propulsion, pumping water through their bodies.",
       "r": "This phylum also includes lancelets and all vertebrates. For 10 points, name this phylum defined by a notochord and a dorsal hollow nerve cord."
     },
     {
@@ -91,7 +91,7 @@
       "r": "This phylum also includes lancelets and tunicates. For 10 points, name this phylum of animals with a notochord, which includes fish, frogs, and humans."
     },
     {
-      "p": "Haikouichthys [“hy-koo-IK-theez”], found among China’s Chengjiang fossils, is one of the earliest known fishlike members of this phylum, from more than 500 million years ago. Hagfish and lampreys are living jawless members of this phylum.",
+      "p": "Haikouichthys [“hy-koo-IK-thiss”], found among China’s Chengjiang fossils, is one of the earliest known fishlike members of this phylum, from more than 500 million years ago. Hagfish and lampreys are living jawless members of this phylum.",
       "r": "For 10 points, name this phylum of animals that have a notochord at some stage of life, including all vertebrates."
     },
     {
@@ -115,7 +115,7 @@
       "r": "This phylum also includes lancelets and vertebrates. For 10 points, name this phylum defined by a notochord, a dorsal hollow nerve cord, and pharyngeal slits."
     },
     {
-      "p": "The tube-shaped heart of a tunicate in this phylum regularly reverses the direction in which it pumps blood. Many tunicates also pack their blood cells with unusually large amounts of the metal vanadium.",
+      "p": "The tube-shaped heart of a tunicate in this phylum regularly reverses the direction in which it pumps blood. Some sea squirts also pack their blood cells with unusually large amounts of the metal vanadium.",
       "r": "In vertebrates, this phylum’s dorsal hollow nerve cord becomes the spinal cord. For 10 points, name this phylum that includes all vertebrates."
     },
     {
@@ -312,7 +312,7 @@
     {
       "id": "cellulose-tunic",
       "tier": "power",
-      "t": "Tunicates stiffen their tough outer tunic with cellulose, which almost no other animals make",
+      "t": "Tunicates stiffen their tough outer tunic with cellulose, which no other animals are known to make",
       "k": [
         "tunic",
         "cellulose"
@@ -356,7 +356,7 @@
     {
       "id": "myomeres",
       "tier": "power",
-      "t": "Segmented, V-shaped muscle blocks called myomeres flex the bodies of lancelets and fish",
+      "t": "Segmented muscle blocks called myomeres, V-shaped in lancelets, flex the bodies of lancelets and fish",
       "k": [
         "myomeres",
         "muscle blocks"
@@ -387,7 +387,7 @@
     {
       "id": "tunicate-oddities",
       "tier": "power",
-      "t": "Tunicate hearts regularly reverse the direction they pump; many tunicates store the metal vanadium in their blood cells",
+      "t": "Tunicate hearts regularly reverse the direction they pump; some sea squirts store the metal vanadium in their blood cells",
       "k": [
         "vanadium",
         "reverse",

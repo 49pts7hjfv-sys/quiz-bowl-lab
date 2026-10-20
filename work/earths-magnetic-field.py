@@ -1,0 +1,412 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "earths-magnetic-field",
+    "name": "Earth’s magnetic field",
+    "mono": "GMF",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Made by molten iron in the outer core · Steers compasses and shields the planet",
+    "dates": "Last full reversal: about 780,000 years ago",
+    "briefing": "Deep below your feet, swirling molten iron in Earth’s outer core works like a giant electric generator, wrapping the planet in a magnetic field. That field is why a compass needle points north, and it shields Earth from the solar wind, steering some of its particles toward the poles to light up the auroras. Every so often the field flips, and the last full reversal came about 780,000 years ago.",
+    "answerHtml": "<b><u>Earth’s magnetic field</u></b> (accept <u>geomagnetic field</u> or <u>geomagnetism</u>; do not accept plain “magnetic field,” “magnetosphere,” or “Van Allen belts”)",
+    "accept": [
+        "earths magnetic field",
+        "earth magnetic field",
+        "the earths magnetic field",
+        "the earth magnetic field",
+        "earths magnetic fields",
+        "earth magnetic fields",
+        "earths magnetic field lines",
+        "magnetic field of earth",
+        "magnetic field of the earth",
+        "the magnetic field of earth",
+        "the magnetic field of the earth",
+        "magnetic field of planet earth",
+        "planet earths magnetic field",
+        "geomagnetic field",
+        "geomagnetic fields",
+        "the geomagnetic field",
+        "geomagnetism",
+        "earths magnetism",
+        "earth magnetism",
+        "terrestrial magnetism",
+        "terrestrial magnetic field"
+    ],
+    "prompt": [
+        "planetary magnetic field"
+    ],
+    "reject": [
+        "magnetic field",
+        "magnetic fields",
+        "b field",
+        "b fields",
+        "magnetic flux density",
+        "magnetosphere",
+        "earths magnetosphere",
+        "van allen belts",
+        "van allen belt",
+        "van allen radiation belts",
+        "aurora",
+        "auroras",
+        "aurora borealis",
+        "aurora australis",
+        "northern lights",
+        "southern lights",
+        "solar wind",
+        "ionosphere",
+        "magnetic north",
+        "magnetic north pole",
+        "north magnetic pole",
+        "magnetic south pole",
+        "south magnetic pole",
+        "magnetic pole",
+        "magnetic poles",
+        "magnetic equator",
+        "compass",
+        "lodestone",
+        "magnetite",
+        "geomagnetic reversal",
+        "geomagnetic reversals",
+        "magnetic reversal",
+        "magnetic reversals",
+        "polarity reversal",
+        "paleomagnetism",
+        "declination",
+        "magnetic declination",
+        "inclination",
+        "magnetic inclination",
+        "dynamo",
+        "geodynamo",
+        "dynamo theory",
+        "outer core",
+        "inner core",
+        "earths core",
+        "core",
+        "electric field",
+        "gravitational field",
+        "gravity",
+        "ferromagnetism",
+        "electromagnetism",
+        "geomagnetic storm",
+        "magnetic storm",
+        "solar storm",
+        "solar flare",
+        "magnetic monopole",
+        "magnetic monopoles"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Earth%27s_magnetic_field",
+    "qb": {
+        "q": "Earth's magnetic field",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In his _Dream Pool Essays_ of 1088, Shen Kuo described a magnetized needle that pointed not due south but slightly east of south, one of the earliest records of the gap between true direction and the direction set by this field. That gap is now called declination.",
+            "r": "For 10 points, name this field, produced in the outer core, that compass needles line up with."
+        },
+        {
+            "p": "In 1701, Edmond Halley published a chart of the Atlantic Ocean with curved lines joining places where compass needles pointed the same amount away from true north, the first map of its kind for this field. Lines where that difference is zero are called agonic lines.",
+            "r": "For 10 points, name this field, made by swirling molten iron in the outer core, that steers compass needles."
+        },
+        {
+            "p": "In the 1830s, Carl Friedrich Gauss and Wilhelm Weber set up a network of observatories to track this field, and Gauss used mathematics to show that it comes almost entirely from inside the planet. An older unit named for Gauss is still used to measure it.",
+            "r": "For 10 points, name this field that makes compass needles point toward the north."
+        },
+        {
+            "p": "In 1581, the English compass maker Robert Norman showed that a balanced, magnetized needle tips downward, pointing into the ground, because of this field. That angle, called inclination or dip, reaches 90 degrees at two places on the surface.",
+            "r": "For 10 points, name this field, created in the outer core, whose effects include the northern lights."
+        },
+        {
+            "p": "In 1831, James Clark Ross reached a spot on the Boothia Peninsula in northern Canada where a dip needle pointed straight down, the first time anyone had found the northern pole of this field. That pole has since wandered across the Arctic Ocean toward Siberia.",
+            "r": "For 10 points, name this field, which compass needles line up with."
+        },
+        {
+            "p": "In 1909, Edgeworth David, Douglas Mawson, and Alistair Mackay hauled sledges across Antarctica to become the first people to reach the southern pole of this field, during Ernest Shackleton’s _Nimrod_ expedition.",
+            "r": "This field funnels charged particles from the Sun toward the poles. For 10 points, name this field that steers compass needles."
+        },
+        {
+            "p": "In 1906, Bernard Brunhes found volcanic rocks in France that were magnetized in the opposite direction from the present field, and in 1929, Motonori Matuyama proposed that this field had flipped many times in the past. The last full flip came about 780,000 years ago.",
+            "r": "For 10 points, name this field, generated by the outer core, that compass needles follow."
+        },
+        {
+            "p": "Geologists divide the last few million years into long stretches called chrons, named Brunhes, Matuyama, Gauss, and Gilbert, according to which way this field pointed. Matching stripes of rock on both sides of the Mid-Atlantic Ridge record those flips.",
+            "r": "For 10 points, name this field, which has reversed many times and which compass needles line up with."
+        },
+        {
+            "p": "During the Laschamp event, about 41,000 years ago, this field weakened sharply and briefly swung far from its usual direction before recovering, an episode called an excursion rather than a full reversal.",
+            "r": "For 10 points, name this field, which protects the planet from the solar wind and makes compass needles point north."
+        },
+        {
+            "p": "Satellites and the International Space Station pass through the South Atlantic Anomaly, a region off South America where this field is weakest, so charged particles dip closer to the planet and can cause computer glitches.",
+            "r": "For 10 points, name this field, which traps charged particles in the Van Allen belts."
+        },
+        {
+            "p": "During the Carrington Event of 1859, a blast of charged particles from the Sun shook this field so hard that telegraph wires sparked and auroras were seen near the tropics. A similar storm in 1989 knocked out electric power across Quebec.",
+            "r": "For 10 points, name this field, created by molten iron in the outer core, that steers compass needles."
+        },
+        {
+            "p": "On the side facing the Sun, the solar wind slows sharply at a bow shock in front of this field, while on the night side the solar wind stretches this field into a long tail. The boundary where this field’s push balances the wind is the magnetopause.",
+            "r": "The region it controls is the magnetosphere. For 10 points, name this field that steers compass needles."
+        },
+        {
+            "p": "In 1995, Gary Glatzmaier and Paul Roberts ran a computer model of churning liquid metal that flipped this field all on its own, supporting the idea that a dynamo in the outer core creates it.",
+            "r": "Sea turtles and many birds sense it to find their way. For 10 points, name this field, which compass needles line up with."
+        },
+        {
+            "p": "William Gilbert’s 1600 book _De Magnete_ argued that the whole planet acts like a giant magnet, which he modeled with a small lodestone sphere called a terrella, or “little Earth.” Gilbert showed that a compass needle dips near the poles of that sphere.",
+            "r": "For 10 points, name this field that compass needles line up with."
+        },
+        {
+            "p": "The northern pole of this field is, in physics terms, a south magnetic pole, which is why it attracts the north end of a compass needle. That pole lies in the Arctic, but it has slowly wandered toward Siberia.",
+            "r": "For 10 points, name this field, made by swirling molten iron in the outer core, that funnels solar particles toward the poles to make auroras."
+        }
+    ],
+    "clues": [
+        {
+            "id": "compass",
+            "tier": "giveaway",
+            "t": "Compass needles line up with it, pointing toward the magnetic north pole",
+            "k": ["compass", "magnetic north pole"],
+            "n": 0
+        },
+        {
+            "id": "outer-core",
+            "tier": "giveaway",
+            "t": "Made by swirling molten iron and nickel in the liquid outer core, an engine called the geodynamo",
+            "k": ["outer core", "molten iron", "geodynamo"],
+            "n": 0,
+            "rabbit": "Earth’s core"
+        },
+        {
+            "id": "bar-magnet",
+            "tier": "giveaway",
+            "t": "Shaped roughly like the field of a giant bar magnet, tilted slightly from the planet’s spin axis",
+            "k": ["bar magnet", "tilted"],
+            "n": 0,
+            "rabbit": "Magnetic fields"
+        },
+        {
+            "id": "auroras",
+            "tier": "giveaway",
+            "t": "Funnels charged particles from the solar wind toward the poles, where they make auroras",
+            "k": ["auroras", "solar wind", "northern lights"],
+            "n": 0
+        },
+        {
+            "id": "magnetosphere",
+            "tier": "giveaway",
+            "t": "Shields the planet from the solar wind; the region of space it controls is the magnetosphere",
+            "k": ["magnetosphere", "shields"],
+            "n": 0
+        },
+        {
+            "id": "reversals",
+            "tier": "middle",
+            "t": "It reverses (flips) every so often; the last full reversal was about 780,000 years ago",
+            "k": ["reverses", "780,000", "flips"],
+            "n": 0
+        },
+        {
+            "id": "stripes",
+            "tier": "middle",
+            "t": "Seafloor rocks record its flips as matching magnetic stripes on both sides of mid-ocean ridges",
+            "k": ["stripes", "mid-ocean ridges"],
+            "n": 0,
+            "rabbit": "Seafloor spreading"
+        },
+        {
+            "id": "paleomagnetism",
+            "tier": "middle",
+            "t": "Magnetite grains lock in its direction as lava cools; reading that record is called paleomagnetism",
+            "k": ["paleomagnetism", "magnetite"],
+            "n": 0,
+            "rabbit": "Pangaea"
+        },
+        {
+            "id": "declination",
+            "tier": "middle",
+            "t": "Declination: the angle between true north and where a compass points; it is zero along agonic lines",
+            "k": ["declination", "agonic", "true north"],
+            "n": 0
+        },
+        {
+            "id": "inclination",
+            "tier": "middle",
+            "t": "Inclination (dip): a needle points straight down at the magnetic poles and lies flat at the magnetic equator",
+            "k": ["inclination", "dip", "magnetic equator"],
+            "n": 0
+        },
+        {
+            "id": "south-pole-physics",
+            "tier": "middle",
+            "t": "Its pole in the Arctic is, in physics terms, a south magnetic pole, so it attracts the north end of a compass needle",
+            "k": ["south magnetic pole", "arctic"],
+            "n": 0
+        },
+        {
+            "id": "van-allen",
+            "tier": "middle",
+            "t": "Traps charged particles in the Van Allen belts, discovered with the Explorer 1 satellite in 1958",
+            "k": ["van allen", "explorer 1", "1958"],
+            "n": 0,
+            "rabbit": "Van Allen radiation belts"
+        },
+        {
+            "id": "animals",
+            "tier": "middle",
+            "t": "Sea turtles, migrating birds, and magnetotactic bacteria sense it to find their way",
+            "k": ["sea turtles", "migrating birds", "magnetotactic"],
+            "n": 0
+        },
+        {
+            "id": "gilbert",
+            "tier": "middle",
+            "t": "William Gilbert’s _De Magnete_ (1600) said the planet is a giant magnet, which he modeled with a lodestone terrella",
+            "k": ["gilbert", "de magnete", "terrella", "1600"],
+            "n": 0
+        },
+        {
+            "id": "shen-kuo",
+            "tier": "power",
+            "t": "Shen Kuo’s _Dream Pool Essays_ (1088) noted a compass needle pointing slightly east of south",
+            "k": ["shen kuo", "dream pool essays", "1088"],
+            "n": 0
+        },
+        {
+            "id": "halley",
+            "tier": "power",
+            "t": "Edmond Halley’s 1701 chart of the Atlantic was the first published map of lines of equal declination",
+            "k": ["halley", "1701"],
+            "n": 0
+        },
+        {
+            "id": "gauss-weber",
+            "tier": "power",
+            "t": "In the 1830s, Carl Friedrich Gauss and Wilhelm Weber built an observatory network, and Gauss showed it comes from inside the planet",
+            "k": ["gauss", "weber", "1830s"],
+            "n": 0,
+            "rabbit": "Carl Friedrich Gauss"
+        },
+        {
+            "id": "norman",
+            "tier": "power",
+            "t": "Robert Norman (1581) showed that a balanced, magnetized needle dips downward",
+            "k": ["robert norman", "1581", "dips"],
+            "n": 0
+        },
+        {
+            "id": "ross",
+            "tier": "power",
+            "t": "James Clark Ross first reached its northern pole, on Canada’s Boothia Peninsula, in 1831",
+            "k": ["james clark ross", "boothia", "1831"],
+            "n": 0
+        },
+        {
+            "id": "mawson-david",
+            "tier": "power",
+            "t": "Edgeworth David, Douglas Mawson, and Alistair Mackay first reached its southern pole in 1909, on Shackleton’s _Nimrod_ expedition",
+            "k": ["mawson", "edgeworth david", "1909", "nimrod"],
+            "n": 0
+        },
+        {
+            "id": "brunhes-matuyama",
+            "tier": "power",
+            "t": "Bernard Brunhes (1906) found reversed volcanic rocks in France; Motonori Matuyama (1929) proposed that it flips",
+            "k": ["brunhes", "matuyama", "1906", "1929"],
+            "n": 0
+        },
+        {
+            "id": "chrons",
+            "tier": "power",
+            "t": "Recent stretches of steady direction, called polarity chrons, are named Brunhes, Matuyama, Gauss, and Gilbert",
+            "k": ["chrons", "polarity"],
+            "n": 0
+        },
+        {
+            "id": "laschamp",
+            "tier": "power",
+            "t": "The Laschamp event, about 41,000 years ago, was a brief excursion, not a full reversal",
+            "k": ["laschamp", "41,000", "excursion"],
+            "n": 0
+        },
+        {
+            "id": "south-atlantic-anomaly",
+            "tier": "power",
+            "t": "Weakest over the South Atlantic Anomaly, where satellites and the space station suffer glitches",
+            "k": ["south atlantic anomaly", "glitches"],
+            "n": 0
+        },
+        {
+            "id": "carrington",
+            "tier": "power",
+            "t": "The Carrington Event (1859) made telegraph wires spark; a 1989 storm blacked out Quebec",
+            "k": ["carrington", "1859", "quebec", "1989"],
+            "n": 0
+        },
+        {
+            "id": "bow-shock",
+            "tier": "power",
+            "t": "The solar wind slows at a bow shock in front of it; its outer edge is the magnetopause, and its night side stretches into a long tail",
+            "k": ["bow shock", "magnetopause"],
+            "n": 0
+        },
+        {
+            "id": "glatzmaier-roberts",
+            "tier": "power",
+            "t": "Gary Glatzmaier and Paul Roberts’s 1995 computer model of churning liquid metal flipped it on its own",
+            "k": ["glatzmaier", "roberts", "1995"],
+            "n": 0
+        },
+        {
+            "id": "wandering-pole",
+            "tier": "power",
+            "t": "Its northern pole has wandered from northern Canada across the Arctic Ocean toward Siberia",
+            "k": ["siberia", "wandered"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Say whose field",
+        "body": "This answer is packed with physics words, so players blurt out plain “magnetic field,” which is a separate, general Physics answer here and is not accepted. Others buzz with one of its parts or effects: the magnetosphere (the region of space it controls), the Van Allen belts (the particles it traps), the auroras, or the outer core that makes it.",
+        "fix": "Say “Earth’s magnetic field” or “geomagnetic field.” Compasses pointing north, reversals, magnetic stripes on the seafloor, declination, and the geodynamo point here. Teslas, solenoids, and right-hand rules with no mention of the planet mean the general magnetic field.",
+        "line": "Real answer line: <b><u>Earth’s magnetic field</u></b> (accept geomagnetic field; do not accept plain “magnetic field” or “magnetosphere”)"
+    },
+    "tests": {
+        "right": [
+            "Earth's magnetic field",
+            "Earth magnetic field",
+            "geomagnetic field",
+            "Geomagnetism",
+            "Earth's magnetic feild",
+            "the magnetic field of the Earth"
+        ],
+        "prompt": [
+            "Planetary magnetic field"
+        ],
+        "wrong": [
+            "Magnetic field",
+            "Magnetic fields",
+            "Magnetosphere",
+            "Van Allen belts",
+            "Outer core",
+            "Northern lights",
+            "Compass"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

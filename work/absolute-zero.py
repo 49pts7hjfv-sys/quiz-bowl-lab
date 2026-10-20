@@ -176,7 +176,7 @@ data = {
         },
         {
             "p": "NASA’s Cold Atom Laboratory, aboard the International Space Station, chills clouds of atoms to within a tiny fraction of a degree of this temperature, and floating in orbit lets scientists study them longer than on Earth. An ideal gas held at constant volume would exert no pressure at this temperature.",
-            "r": "For 10 points, name this coldest possible temperature, 0 on the Kelvin scale."
+            "r": "For 10 points, name this coldest possible temperature, 0 on the Kelvin scale, which can never quite be reached."
         },
         {
             "p": "A perfect Carnot [“kar-NOH”] heat engine could turn all of its heat into work only if its cold side were at this temperature, which is impossible. In the classical picture of gases, molecules would have no kinetic energy at all at this temperature.",

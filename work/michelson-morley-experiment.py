@@ -110,7 +110,7 @@ data = {
             "r": "For 10 points, name this 1887 experiment that found no sign of an aether wind."
         },
         {
-            "p": "In 1886, the two scientists behind this experiment repeated Hippolyte Fizeau’s [“fee-ZOHZ”] test of how fast light travels through flowing water. A year later, they began this more famous experiment in Cleveland, Ohio.",
+            "p": "In 1886, the two scientists behind this experiment repeated Hippolyte Fizeau’s [“fee-ZOHZ”] test of how fast light travels through flowing water, confirming a formula by Augustin-Jean Fresnel [“freh-NEL”]. A year later, they began this more famous experiment in Cleveland, Ohio.",
             "r": "For 10 points, name this experiment that failed to detect Earth’s motion through the luminiferous aether."
         },
         {
@@ -127,7 +127,7 @@ data = {
         },
         {
             "p": "James Bradley’s discovery of the aberration of starlight in the 1720s suggested that Earth plows through a motionless aether, but this experiment found no sign of the “aether wind” that such motion should cause. This experiment checked whether light moved at the same speed along two paths at right angles.",
-            "r": "For 10 points, name this 1887 experiment performed in Cleveland, a famous “null result.”"
+            "r": "For 10 points, name this 1887 experiment performed in Cleveland, Ohio, which produced a famous “null result.”"
         },
         {
             "p": "Albert Einstein’s 1905 rule that light travels at the same speed for every observer fits the result of this experiment, though historians debate how much this experiment influenced him. Its result surprised physicists, who expected light’s speed to depend on the direction Earth was moving.",

@@ -1,0 +1,415 @@
+{
+  "id": "resonance",
+  "name": "Resonance",
+  "mono": "RES",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Big vibrations at a natural frequency · How a well-timed push lifts a swing",
+  "dates": "Studied in sound by Hermann von Helmholtz, 1860s",
+  "briefing": "Every swing, guitar string, wine glass, and bridge has a natural frequency at which it likes to vibrate. Push it again and again at exactly that rhythm, and the vibrations grow bigger and bigger: that’s resonance. It is why a well-timed push sends a swing soaring, why a powerful singer can shatter a wine glass with one loud note, and why engineers add dampers to keep tall buildings and bridges from swaying dangerously.",
+  "answerHtml": "<b><u>Resonance</u></b> (accept word forms like <u>resonant</u> or <u>resonating</u>; prompt on <u>natural frequency</u> or <u>sympathetic vibration</u>)",
+  "accept": [
+    "resonance",
+    "resonances",
+    "resonant",
+    "resonate",
+    "resonates",
+    "resonating",
+    "resonant frequency",
+    "resonance frequency",
+    "mechanical resonance",
+    "acoustic resonance",
+    "sympathetic resonance"
+  ],
+  "prompt": [
+    "natural frequency",
+    "natural frequencies",
+    "sympathetic vibration",
+    "sympathetic vibrations",
+    "forced oscillation",
+    "forced oscillations",
+    "forced vibration",
+    "forced vibrations"
+  ],
+  "reject": [
+    "harmonics",
+    "harmonic",
+    "harmonic motion",
+    "simple harmonic motion",
+    "standing wave",
+    "standing waves",
+    "interference",
+    "constructive interference",
+    "beats",
+    "beat frequency",
+    "doppler effect",
+    "damping",
+    "amplitude",
+    "echo",
+    "reverberation",
+    "flutter",
+    "aeroelastic flutter",
+    "nuclear magnetic resonance",
+    "magnetic resonance imaging",
+    "mri",
+    "nmr",
+    "electron spin resonance",
+    "resonance structure",
+    "resonance structures",
+    "chemical resonance"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Resonance",
+  "qb": {
+    "q": "resonance",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "London’s Millennium Bridge closed two days after it opened in 2000, when walkers’ footsteps fell into step with its sideways sway and made it wobble more and more. Engineers fixed that bridge by adding dampers, devices that soak up the energy of this effect.",
+      "r": "For 10 points, name this effect in which a system vibrates more and more strongly when it is pushed at its natural frequency."
+    },
+    {
+      "p": "The 1940 collapse of the Tacoma Narrows Bridge, nicknamed “Galloping Gertie,” is often blamed on this effect, although engineers say the true cause was a related twisting motion called aeroelastic flutter. That bridge in Washington State twisted wildly in a steady wind just four months after it opened.",
+      "r": "This effect lets a well-timed push send a playground swing higher and higher. For 10 points, name this effect, in which a system is driven at its natural frequency."
+    },
+    {
+      "p": "England’s Broughton Suspension Bridge, near Manchester, collapsed in 1831 while a column of soldiers marched across it in step. Afterward, the British Army began ordering troops to break step when crossing bridges, to avoid this effect.",
+      "r": "For 10 points, name this effect, in which repeated pushes at an object’s natural frequency make its vibrations grow larger and larger."
+    },
+    {
+      "p": "Daniel Kirkwood found gaps in the asteroid belt where an asteroid would circle the Sun, for example, exactly three times for every one orbit of Jupiter, a gravitational case of this effect. Saturn’s moon Mimas [“MY-mus”] helps clear the Cassini Division in Saturn’s rings in the same way.",
+      "r": "For 10 points, name this effect, which also lets a singer shatter a wine glass by singing its natural pitch."
+    },
+    {
+      "p": "Hermann von Helmholtz used hollow spheres with two openings, each built to respond to a single pitch, to pick out the notes hidden inside a sound through this effect. Blowing across the top of an empty bottle makes it hum by the same effect.",
+      "r": "For 10 points, name this effect that lets a powerful singer shatter a wine glass by matching its natural frequency."
+    },
+    {
+      "p": "Turning a radio’s tuning dial adjusts a circuit of an inductor and a capacitor so that this effect happens at the frequency of just one station. In such a circuit, energy sloshes back and forth between the inductor and the capacitor at their natural rate.",
+      "r": "For 10 points, name this effect, in which a system responds strongly to pushes at its own natural frequency."
+    },
+    {
+      "p": "A system’s “Q factor” tells how sharp and long-lasting this effect is, so a high-Q tuning fork rings for a long time after it is struck. Damping, such as friction, lowers and widens the peak on a graph of this effect.",
+      "r": "The letter R in MRI stands for a magnetic form of this effect. For 10 points, name this effect, in which a system vibrates strongly at its natural frequency."
+    },
+    {
+      "p": "Quartz watches keep time with a tiny crystal that vibrates 32,768 times per second, the rate at which this effect makes the crystal ring most strongly when an electric circuit pushes on it. That number is two multiplied by itself fifteen times.",
+      "r": "For 10 points, name this effect, in which pushing an object at its natural frequency makes it vibrate strongly, as when a swing is pushed in rhythm."
+    },
+    {
+      "p": "The “ocean” you hear when you hold a seashell to your ear is really background noise boosted by this effect inside the shell’s hollow space. The hollow body of an acoustic guitar uses this effect to make the strings’ sound louder.",
+      "r": "For 10 points, name this effect, in which an object vibrates strongly when pushed at its natural frequency."
+    },
+    {
+      "p": "In a classic lab, students hold a humming tuning fork over a tube of water and raise or lower the water until the sound suddenly gets loud, showing this effect in the air column. Striking one tuning fork can make an identical fork nearby start humming on its own.",
+      "r": "For 10 points, name this effect, in which a system vibrates especially strongly when pushed at its natural frequency."
+    },
+    {
+      "p": "The Taipei 101 skyscraper hangs a giant steel ball near its top as a tuned mass damper, which sways against the building to fight this effect during typhoons and earthquakes. Tall buildings are designed so that their natural sway does not match the shaking they are likely to face.",
+      "r": "For 10 points, name this effect in which a system shakes harder and harder when pushed at its natural frequency."
+    },
+    {
+      "p": "A sitar has extra strings that the player never plucks; they ring by this effect when the played strings sound their notes. Holding down a piano’s sustain pedal and singing loudly into the piano makes its strings answer back by the same effect.",
+      "r": "For 10 points, name this effect, in which vibrations at an object’s natural frequency make it vibrate strongly."
+    },
+    {
+      "p": "The vowel sounds of human speech come from peaks called formants, which this effect creates in the throat and mouth. Changing the shape of your mouth changes which pitches this effect boosts, which is how you can tell an “ee” from an “oo.”",
+      "r": "For 10 points, name this effect, which lets a singer break a wine glass with the right note."
+    },
+    {
+      "p": "Pluto circles the Sun twice for every three orbits of Neptune, and Jupiter’s moons Io, Europa, and Ganymede are locked in a 1:2:4 pattern; both are orbital examples of this effect. The pattern between Pluto and Neptune keeps the two from ever coming close, even though their orbits seem to cross.",
+      "r": "For 10 points, name this effect, in which a swing goes higher when pushed in rhythm with its natural frequency."
+    },
+    {
+      "p": "Cesium atomic clocks keep time by adjusting microwaves until cesium atoms respond most strongly, at a rate of about 9.19 billion vibrations per second that has defined the second since 1967. Your ear canal boosts sounds near 3,000 hertz by the same effect.",
+      "r": "For 10 points, name this effect, which lets a well-timed push send a child on a swing higher."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "When a system is pushed again and again at its natural frequency, its vibrations grow larger and larger",
+      "k": [
+        "natural frequency",
+        "larger and larger"
+      ],
+      "n": 0
+    },
+    {
+      "id": "swing",
+      "tier": "giveaway",
+      "t": "Pushing a swing in rhythm with its natural frequency sends it higher and higher",
+      "k": [
+        "swing",
+        "rhythm"
+      ],
+      "n": 0,
+      "rabbit": "Pendulums"
+    },
+    {
+      "id": "wine-glass",
+      "tier": "giveaway",
+      "t": "A powerful singer can shatter a wine glass by loudly singing its natural pitch",
+      "k": [
+        "wine glass",
+        "shatter",
+        "singer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tuning-forks",
+      "tier": "giveaway",
+      "t": "Striking one tuning fork can make an identical fork nearby start humming on its own",
+      "k": [
+        "tuning fork",
+        "identical"
+      ],
+      "n": 0
+    },
+    {
+      "id": "broughton",
+      "tier": "middle",
+      "t": "Soldiers break step on bridges, a rule adopted after England’s Broughton Suspension Bridge, near Manchester, collapsed under marching troops in 1831",
+      "k": [
+        "break step",
+        "broughton",
+        "1831"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tacoma",
+      "tier": "middle",
+      "t": "Often blamed for the 1940 Tacoma Narrows Bridge (“Galloping Gertie”) collapse, though aeroelastic flutter was the true cause",
+      "k": [
+        "tacoma narrows",
+        "galloping gertie",
+        "flutter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "millennium-bridge",
+      "tier": "middle",
+      "t": "London’s Millennium Bridge wobbled and closed two days after opening in 2000; dampers fixed it",
+      "k": [
+        "millennium bridge",
+        "dampers",
+        "2000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "radio",
+      "tier": "middle",
+      "t": "Tuning a radio adjusts an inductor–capacitor circuit so it responds to just one station’s frequency",
+      "k": [
+        "radio",
+        "inductor",
+        "capacitor"
+      ],
+      "n": 0,
+      "rabbit": "Capacitors"
+    },
+    {
+      "id": "mri",
+      "tier": "middle",
+      "t": "The R in MRI stands for a magnetic version of it in atomic nuclei",
+      "k": [
+        "mri",
+        "magnetic",
+        "nuclei"
+      ],
+      "n": 0
+    },
+    {
+      "id": "guitar-seashell",
+      "tier": "middle",
+      "t": "A guitar’s hollow body makes the strings louder, and a seashell’s “ocean sound” is background noise boosted inside it",
+      "k": [
+        "guitar",
+        "seashell",
+        "hollow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "air-column",
+      "tier": "middle",
+      "t": "Classic lab: raise or lower the water in a tube under a humming tuning fork until the air column suddenly booms",
+      "k": [
+        "air column",
+        "tube",
+        "booms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "damping",
+      "tier": "middle",
+      "t": "Damping, such as friction, lowers and widens its peak; tuned mass dampers fight it in skyscrapers",
+      "k": [
+        "damping",
+        "peak",
+        "friction"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kirkwood",
+      "tier": "power",
+      "t": "Daniel Kirkwood’s gaps in the asteroid belt come from orbital versions caused by Jupiter, such as three asteroid orbits per Jupiter orbit",
+      "k": [
+        "kirkwood",
+        "asteroid belt",
+        "jupiter"
+      ],
+      "n": 0,
+      "rabbit": "Asteroids"
+    },
+    {
+      "id": "cassini-division",
+      "tier": "power",
+      "t": "Saturn’s moon Mimas helps clear the Cassini Division in Saturn’s rings this way",
+      "k": [
+        "mimas",
+        "cassini division"
+      ],
+      "n": 0,
+      "rabbit": "Saturn"
+    },
+    {
+      "id": "pluto-io",
+      "tier": "power",
+      "t": "Pluto orbits twice for every three Neptune orbits, which keeps them from ever coming close; Io, Europa, and Ganymede are locked in a 1:2:4 pattern",
+      "k": [
+        "pluto",
+        "neptune",
+        "ganymede"
+      ],
+      "n": 0,
+      "rabbit": "Pluto"
+    },
+    {
+      "id": "helmholtz",
+      "tier": "power",
+      "t": "Hermann von Helmholtz used hollow spheres, each tuned to one pitch, to pick out the notes in a sound; blowing across a bottle works the same way",
+      "k": [
+        "helmholtz",
+        "spheres",
+        "bottle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "q-factor",
+      "tier": "power",
+      "t": "The Q factor measures how sharp and long-lasting it is; a high-Q tuning fork rings a long time",
+      "k": [
+        "q factor",
+        "sharp",
+        "long-lasting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quartz",
+      "tier": "power",
+      "t": "Quartz watch crystals vibrate 32,768 times per second (2 multiplied by itself 15 times)",
+      "k": [
+        "quartz",
+        "32,768"
+      ],
+      "n": 0
+    },
+    {
+      "id": "taipei-101",
+      "tier": "power",
+      "t": "Taipei 101 hangs a giant steel ball near its top as a tuned mass damper",
+      "k": [
+        "taipei 101",
+        "tuned mass damper",
+        "steel ball"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sitar-piano",
+      "tier": "power",
+      "t": "A sitar’s unplucked extra strings ring through it, and so do a piano’s strings when you sing into it with the sustain pedal down",
+      "k": [
+        "sitar",
+        "sustain pedal",
+        "unplucked"
+      ],
+      "n": 0
+    },
+    {
+      "id": "formants",
+      "tier": "power",
+      "t": "Vowel sounds come from peaks called formants, made by it in the throat and mouth",
+      "k": [
+        "formants",
+        "vowel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atomic-clock",
+      "tier": "power",
+      "t": "Cesium atomic clocks tune microwaves until the atoms respond most strongly, about 9.19 billion times per second, the rate that has defined the second since 1967",
+      "k": [
+        "cesium",
+        "atomic clocks",
+        "1967"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ear-canal",
+      "tier": "power",
+      "t": "The ear canal boosts sounds near 3,000 hertz this way",
+      "k": [
+        "ear canal",
+        "3,000 hertz"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Effect, not frequency",
+    "body": "Resonance is the effect; the natural (or resonant) frequency is just the special frequency at which it happens, so “natural frequency” earns only a prompt and plain “frequency” is wrong. Clues about strings, organ pipes, and tuning forks can also tempt players into “harmonics” or “standing waves,” and a siren’s changing pitch is the Doppler effect, not this.",
+    "fix": "Vibrations that grow from well-timed pushes, shattered wine glasses, swings, swaying bridges, dampers, and tuned radios mean resonance. The special frequency itself is the natural frequency; patterns of nodes on a string are standing waves; and a moving source’s pitch shift is the Doppler effect.",
+    "line": "Real answer line: <b><u>Resonance</u></b> (accept word forms like <u>resonant</u>; prompt on <u>natural frequency</u>)"
+  },
+  "tests": {
+    "right": [
+      "Resonance",
+      "resonant frequency",
+      "Resonanse",
+      "Reasonance",
+      "Resonating"
+    ],
+    "prompt": [
+      "Natural frequency",
+      "Sympathetic vibration"
+    ],
+    "wrong": [
+      "Frequency",
+      "Harmonics",
+      "Doppler effect",
+      "Interference",
+      "Standing wave",
+      "MRI"
+    ]
+  }
+}

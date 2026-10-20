@@ -1,0 +1,349 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "platelets",
+    "name": "Platelets",
+    "mono": "PTL",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Tiny cell fragments in the blood · Plug leaks and help clots form",
+    "dates": "Each one lasts about 7 to 10 days",
+    "briefing": "Platelets are tiny, colorless pieces of cells, and a single drop of your blood holds millions of them, waiting for a leak. When a blood vessel is cut, they stick to the damaged wall, turn spiky, and clump into a plug, then help the clotting process seal the wound. Each one breaks off from a giant cell in the bone marrow, has no nucleus, and lasts only about 7 to 10 days.",
+    "answerHtml": "<b><u>Platelets</u></b> (accept <u>thrombocytes</u>; prompt on <u>blood cells</u>; do not accept “red blood cells,” “white blood cells,” or “clotting factors”)",
+    "accept": [
+        "platelets",
+        "platelet",
+        "thrombocytes",
+        "thrombocyte",
+        "blood platelets",
+        "blood platelet"
+    ],
+    "prompt": [
+        "blood cells",
+        "blood cell",
+        "formed elements",
+        "cell fragments"
+    ],
+    "reject": [
+        "red blood cells",
+        "red blood cell",
+        "erythrocytes",
+        "erythrocyte",
+        "white blood cells",
+        "white blood cell",
+        "leukocytes",
+        "leukocyte",
+        "lymphocytes",
+        "plasma",
+        "blood plasma",
+        "serum",
+        "fibrin",
+        "fibrinogen",
+        "thrombin",
+        "prothrombin",
+        "clotting factors",
+        "clotting factor",
+        "blood clotting",
+        "blood clot",
+        "clots",
+        "platelet plug",
+        "megakaryocytes",
+        "megakaryocyte",
+        "hemoglobin",
+        "von willebrand factor",
+        "thromboxane",
+        "bone marrow",
+        "stem cells"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Platelet",
+    "qb": {
+        "q": "platelet",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1882, Italian doctor Giulio Bizzozero showed that these structures pile up at damaged blood vessels and help form clots, and he called them “little plates.” When resting, these colorless structures are flat, smooth discs about one-third the width of a red blood cell.",
+            "r": "They have no nucleus and are made in the bone marrow. For 10 points, name these cell fragments that help blood clot."
+        },
+        {
+            "p": "In 1906, James Homer Wright showed that these structures come from megakaryocytes [“meg-uh-KAIR-ee-oh-sites”], giant bone marrow cells whose nuclei hold many copies of their DNA. Each megakaryocyte stretches long arms into blood vessels and sheds thousands of these structures.",
+            "r": "These structures gather at cuts to plug leaks in blood vessels. For 10 points, name these tiny cell fragments that help blood clot."
+        },
+        {
+            "p": "Aspirin makes these structures less sticky for their whole lifespan, because it permanently blocks their cyclooxygenase [“sy-kloh-OK-sih-juh-nayss”] enzyme, and they have no nucleus with which to make more. Without that enzyme, they cannot make thromboxane [“THROM-bok-sayn”], a signal that calls more of them to a wound.",
+            "r": "Each one lasts only about 7 to 10 days. For 10 points, name these blood cell fragments that clump together to stop bleeding."
+        },
+        {
+            "p": "Healthy blood vessel walls release prostacyclin [“pros-tuh-SY-klin”], which keeps these structures from sticking where they are not needed. When these structures are activated, they release ADP and thromboxane, which recruit even more of them in a classic example of positive feedback.",
+            "r": "They then clump together into a plug at a wound. For 10 points, name these cell fragments that help blood clot."
+        },
+        {
+            "p": "A large protein called von Willebrand factor acts like glue that lets these structures stick to collagen exposed in a damaged blood vessel wall. Too little of that protein causes von Willebrand disease, the most common inherited bleeding disorder.",
+            "r": "After sticking, these structures turn spiky and clump together. For 10 points, name these cell fragments that help seal wounds."
+        },
+        {
+            "p": "The liver makes a hormone called thrombopoietin [“throm-boh-POY-ih-tin”], which tells the bone marrow how many of these structures to produce. A count below about 150,000 of these structures per microliter of blood is called thrombocytopenia [“throm-boh-sy-toh-PEE-nee-uh”], which can cause easy bruising.",
+            "r": "These structures have no nucleus. For 10 points, name these cell fragments, made from megakaryocytes, that help blood clot."
+        },
+        {
+            "p": "Unlike donated red blood cells, which are refrigerated, donations of these structures must be kept at room temperature and gently shaken, so they last only about five to seven days. Donors can give them through apheresis [“ay-fuh-REE-sis”], in which a machine collects these structures and returns the rest of the blood.",
+            "r": "These structures gather at wounds to help form clots. For 10 points, name these colorless cell fragments found in blood."
+        },
+        {
+            "p": "These structures carry most of the serotonin in the bloodstream, soaking it up from the plasma and storing it in dense granules along with calcium and ADP. Their alpha granules hold a growth factor named for them that helps wounds heal.",
+            "r": "They form plugs that stop bleeding at wounds. For 10 points, name these cell fragments made in the bone marrow."
+        },
+        {
+            "p": "Birds, reptiles, and fish lack these structures; instead, they use complete cells that still have a nucleus to do the same job in clotting. In mammals, these structures are fragments pinched off from giant cells in the bone marrow.",
+            "r": "They last only about 7 to 10 days in the blood. For 10 points, name these tiny pieces of cells that plug leaks in blood vessels."
+        },
+        {
+            "p": "When these structures are activated, a receptor on their surface called glycoprotein IIb/IIIa [“two-B three-A”] grabs fibrinogen, which links neighboring ones together. Activation also changes them from smooth discs into spiky, spread-out shapes with long, finger-like projections.",
+            "r": "Threads of fibrin then strengthen the plug they form at a wound. For 10 points, name these cell fragments that help blood clot."
+        },
+        {
+            "p": "In primary hemostasis [“hee-moh-STAY-sis”], these structures form a loose plug after a blood vessel narrows in a step called vascular spasm. In secondary hemostasis, a cascade of clotting factors ends when the enzyme thrombin turns fibrinogen into fibrin threads that hold their plug in place.",
+            "r": "They have no nucleus. For 10 points, name these cell fragments that gather at cuts to help stop bleeding."
+        },
+        {
+            "p": "About one-third of these structures are held in reserve in the spleen at any moment. When these structures clump together inside an artery instead of at a wound, the clot they help form can block blood flow and cause a heart attack or a stroke.",
+            "r": "Normally, they help stop bleeding at cuts. For 10 points, name these cell fragments made from megakaryocytes."
+        },
+        {
+            "p": "These structures are the smallest of the three main formed elements of blood, at only about 2 to 3 micrometers across. A normal count of them is about 150,000 to 450,000 per microliter of blood.",
+            "r": "Unlike red and white blood cells, they are only fragments of cells. For 10 points, name these blood components that help form clots."
+        },
+        {
+            "p": "These structures, which develop from the myeloid [“MY-uh-loyd”] line of blood stem cells, have another name that comes from Greek words meaning “clot cell.” Despite that name, they are not true cells, since each one is a small, nucleus-free piece of a much larger cell.",
+            "r": "Their numbers are checked in a complete blood count. For 10 points, name these blood components that clump together to stop bleeding."
+        },
+        {
+            "p": "Using the proteins actin and myosin, these structures pull on fibrin threads to tighten a clot, a process called clot retraction. They bud off from giant bone marrow cells whose name means “big nucleus cells.”",
+            "r": "They have no nucleus of their own. For 10 points, name these cell fragments that help blood clot and plug leaks in blood vessels."
+        }
+    ],
+    "clues": [
+        {
+            "id": "clotting",
+            "tier": "giveaway",
+            "t": "Tiny cell fragments in the blood that clump together to help it clot and stop bleeding",
+            "k": ["cell fragments", "clot", "bleeding"],
+            "n": 0,
+            "rabbit": "Blood clotting"
+        },
+        {
+            "id": "plug",
+            "tier": "giveaway",
+            "t": "At a cut, they stick to the damaged blood vessel wall and form a plug",
+            "k": ["plug", "damaged"],
+            "n": 0
+        },
+        {
+            "id": "bone-marrow",
+            "tier": "giveaway",
+            "t": "Made in the bone marrow",
+            "k": ["bone marrow"],
+            "n": 0
+        },
+        {
+            "id": "no-nucleus",
+            "tier": "giveaway",
+            "t": "Have no nucleus, since each one is only a piece of a cell",
+            "k": ["nucleus", "piece"],
+            "n": 0
+        },
+        {
+            "id": "formed-elements",
+            "tier": "giveaway",
+            "t": "One of the three main solid parts of blood, along with red and white blood cells",
+            "k": ["red and white", "three main"],
+            "n": 0,
+            "rabbit": "Blood"
+        },
+        {
+            "id": "megakaryocytes",
+            "tier": "middle",
+            "t": "Pinched off from giant bone marrow cells called megakaryocytes (“big nucleus cells”); each one sheds thousands",
+            "k": ["megakaryocytes", "big nucleus", "thousands"],
+            "n": 0
+        },
+        {
+            "id": "lifespan",
+            "tier": "middle",
+            "t": "Each one lasts about 7 to 10 days; the spleen removes old ones and holds about a third of them in reserve",
+            "k": ["7 to 10 days", "spleen", "reserve"],
+            "n": 0,
+            "rabbit": "Spleen"
+        },
+        {
+            "id": "count",
+            "tier": "middle",
+            "t": "A normal count is about 150,000 to 450,000 per microliter of blood; too few is called thrombocytopenia",
+            "k": ["150,000", "450,000", "thrombocytopenia"],
+            "n": 0
+        },
+        {
+            "id": "aspirin",
+            "tier": "middle",
+            "t": "Aspirin permanently blocks their cyclooxygenase enzyme, so they make less thromboxane and stay less sticky for their whole lifespan",
+            "k": ["aspirin", "cyclooxygenase", "thromboxane"],
+            "n": 0
+        },
+        {
+            "id": "fibrin",
+            "tier": "middle",
+            "t": "Their plug is strengthened by threads of fibrin, made when the enzyme thrombin acts on fibrinogen",
+            "k": ["fibrin", "thrombin", "fibrinogen"],
+            "n": 0
+        },
+        {
+            "id": "hemostasis",
+            "tier": "middle",
+            "t": "Hemostasis: vascular spasm, then their plug (primary hemostasis), then the clotting cascade (secondary hemostasis)",
+            "k": ["hemostasis", "vascular spasm", "primary"],
+            "n": 0
+        },
+        {
+            "id": "positive-feedback",
+            "tier": "middle",
+            "t": "Activated ones release ADP and thromboxane, which recruit even more of them: a classic positive feedback loop",
+            "k": ["positive feedback", "adp"],
+            "n": 0
+        },
+        {
+            "id": "size",
+            "tier": "middle",
+            "t": "About 2 to 3 micrometers across, the smallest of blood’s formed elements",
+            "k": ["micrometers", "smallest", "formed elements"],
+            "n": 0
+        },
+        {
+            "id": "heart-attack",
+            "tier": "middle",
+            "t": "Clumps of them inside an artery can help form clots that block blood flow and cause heart attacks or strokes",
+            "k": ["artery", "heart attacks", "strokes"],
+            "n": 0
+        },
+        {
+            "id": "bizzozero",
+            "tier": "power",
+            "t": "Giulio Bizzozero showed in 1882 that they help form clots, and he called them “little plates”",
+            "k": ["bizzozero", "1882", "little plates"],
+            "n": 0
+        },
+        {
+            "id": "wright",
+            "tier": "power",
+            "t": "James Homer Wright showed in 1906 that they come from megakaryocytes",
+            "k": ["james homer wright", "1906"],
+            "n": 0
+        },
+        {
+            "id": "thrombopoietin",
+            "tier": "power",
+            "t": "The liver makes thrombopoietin, the hormone that controls how many of them the bone marrow produces",
+            "k": ["thrombopoietin", "liver"],
+            "n": 0
+        },
+        {
+            "id": "von-willebrand",
+            "tier": "power",
+            "t": "Von Willebrand factor glues them to exposed collagen; too little causes von Willebrand disease, the most common inherited bleeding disorder",
+            "k": ["von willebrand", "collagen", "inherited bleeding disorder"],
+            "n": 0
+        },
+        {
+            "id": "prostacyclin",
+            "tier": "power",
+            "t": "Healthy blood vessel walls release prostacyclin to keep them from sticking where they aren’t needed",
+            "k": ["prostacyclin", "vessel walls"],
+            "n": 0
+        },
+        {
+            "id": "storage",
+            "tier": "power",
+            "t": "Donated ones are kept at room temperature and gently shaken, lasting only about 5 to 7 days; apheresis machines collect them",
+            "k": ["room temperature", "apheresis", "5 to 7 days"],
+            "n": 0
+        },
+        {
+            "id": "serotonin-granules",
+            "tier": "power",
+            "t": "They carry most of the blood’s serotonin in dense granules (with calcium and ADP); their alpha granules hold PDGF, a growth factor named for them",
+            "k": ["serotonin", "dense granules", "alpha granules", "pdgf"],
+            "n": 0,
+            "rabbit": "Serotonin"
+        },
+        {
+            "id": "nucleated-cells",
+            "tier": "power",
+            "t": "Birds, reptiles, and fish lack them and use whole cells with a nucleus for clotting instead",
+            "k": ["birds", "reptiles", "whole cells"],
+            "n": 0
+        },
+        {
+            "id": "gpiib-iiia",
+            "tier": "power",
+            "t": "Their receptor glycoprotein IIb/IIIa grabs fibrinogen to link them together; activation turns them from smooth discs into spiky shapes",
+            "k": ["glycoprotein iib/iiia", "spiky", "smooth discs"],
+            "n": 0
+        },
+        {
+            "id": "clot-retraction",
+            "tier": "power",
+            "t": "Their actin and myosin pull fibrin threads tight in clot retraction",
+            "k": ["clot retraction", "actin", "myosin"],
+            "n": 0
+        },
+        {
+            "id": "greek-name",
+            "tier": "power",
+            "t": "Their other name comes from Greek words meaning “clot cell”; they come from the myeloid line of blood stem cells",
+            "k": ["clot cell", "myeloid"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Cells, fragments, or factors?",
+        "body": "Platelets show up in tossups about blood, clotting, and bone marrow, so players often blurt “red blood cells” or “white blood cells” as soon as they hear “made in the bone marrow.” Others answer “fibrin” or “clotting factors,” which are proteins dissolved in the plasma, not the cell pieces themselves. Hemophilia, for example, comes from missing clotting factors, not from missing platelets.",
+        "fix": "Cell fragments with no nucleus, megakaryocytes, a plug at a wound, aspirin, or von Willebrand factor mean platelets (or thrombocytes). Thrombin, fibrin threads, or vitamin K point to clotting proteins; oxygen and hemoglobin mean red blood cells.",
+        "line": "Real answer line: <b><u>Platelets</u></b> (accept <u>thrombocytes</u>; prompt on <u>blood cells</u>; do not accept “red blood cells,” “white blood cells,” or “clotting factors”)"
+    },
+    "tests": {
+        "right": [
+            "Platelets",
+            "platelet",
+            "Thrombocytes",
+            "Platlets",
+            "Blood platelets"
+        ],
+        "prompt": [
+            "Blood cells",
+            "Formed elements"
+        ],
+        "wrong": [
+            "Red blood cells",
+            "White blood cells",
+            "Fibrin",
+            "Megakaryocytes",
+            "Plasma",
+            "Clotting factors",
+            "Platelet plug"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

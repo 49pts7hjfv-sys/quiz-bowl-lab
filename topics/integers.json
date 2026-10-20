@@ -1,0 +1,455 @@
+{
+  "id": "integers",
+  "name": "Integers",
+  "mono": "Z",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Whole numbers, their negatives, and zero · Symbol ℤ, for German _Zahlen_",
+  "dates": "Rules for negatives and zero: Brahmagupta, 628 CE",
+  "briefing": "The integers are the whole numbers together with their negatives: …, −3, −2, −1, 0, 1, 2, 3, …, stretching forever in both directions along the number line. They have no fractions or decimals, so 7 and −12 are integers but ½ is not. Mathematicians write the integers as ℤ, from the German word _Zahlen_, meaning “numbers.” Adding, subtracting, or multiplying two integers always gives another integer, but dividing them often doesn’t.",
+  "answerHtml": "<b><u>integer</u></b>s (accept <u>Z</u>; prompt on <u>whole numbers</u>; do not accept “natural numbers”)",
+  "accept": [
+    "integers",
+    "integer",
+    "z"
+  ],
+  "prompt": [
+    "whole numbers",
+    "whole number"
+  ],
+  "reject": [
+    "natural numbers",
+    "natural number",
+    "counting numbers",
+    "counting number",
+    "positive integers",
+    "positive integer",
+    "negative integers",
+    "negative integer",
+    "nonnegative integers",
+    "non negative integers",
+    "gaussian integers",
+    "gaussian integer",
+    "integer programming",
+    "negative numbers",
+    "negative number",
+    "rational numbers",
+    "rational number",
+    "rationals",
+    "real numbers",
+    "real number",
+    "irrational numbers",
+    "complex numbers",
+    "even numbers",
+    "odd numbers",
+    "prime numbers",
+    "integrals",
+    "integral",
+    "integration",
+    "fractions",
+    "decimals",
+    "digits"
+  ],
+  "tests": {
+    "right": [
+      "integers",
+      "Integer",
+      "the integers",
+      "intgers",
+      "Z"
+    ],
+    "prompt": [
+      "whole numbers"
+    ],
+    "wrong": [
+      "natural numbers",
+      "rational numbers",
+      "integrals",
+      "positive integers",
+      "negative numbers",
+      "real numbers"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Integer",
+  "qb": {
+    "q": "integer",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 2014, YouTube’s view counter for the “Gangnam Style” music video passed 2,147,483,647, the largest value a signed 32-bit computer variable for these numbers can hold, so YouTube switched to 64 bits. Such a variable can store values from negative 2,147,483,648 up to that maximum.",
+      "r": "For 10 points, name these numbers, such as negative 3, 0, and 7, which include the whole numbers and their negatives."
+    },
+    {
+      "p": "Many computers count time as seconds since January 1, 1970, stored as a signed 32-bit number of this type, a count that runs out of room on January 19, 2038. A similar overflow happens whenever a calculation produces one of these numbers too big for the space reserved for it.",
+      "r": "For 10 points, name these numbers, which have no fractional or decimal part and can be positive, negative, or zero."
+    },
+    {
+      "p": "Equations named for Diophantus [“dy-uh-FAN-tus”] of Alexandria ask only for solutions that are these numbers. Hilbert’s tenth problem asked for a method to decide whether any such equation has solutions, and in 1970 Yuri Matiyasevich [“mah-tee-yah-SEH-vich”] completed a proof that no such method exists.",
+      "r": "For 10 points, name these numbers, symbolized by a double-struck capital Z from the German word _Zahlen_, which include negative 5, 0, and 12."
+    },
+    {
+      "p": "In 1994, Andrew Wiles completed his proof that the equation a to the n plus b to the n equals c to the n has no solutions in positive numbers of this kind when n is greater than 2. Pierre de Fermat had claimed a proof of that fact in a book margin around 1637.",
+      "r": "For 10 points, name these numbers that sit evenly spaced along the number line, including zero and the negatives of the counting numbers."
+    },
+    {
+      "p": "Carl Friedrich Gauss studied complex numbers a plus b i in which a and b are both of this type, numbers that are named for him. The Fundamental Theorem of Arithmetic says that each of these numbers greater than 1 factors into primes in exactly one way.",
+      "r": "For 10 points, name these numbers, such as negative 4, which are closed under addition, subtraction, and multiplication but not division."
+    },
+    {
+      "p": "These numbers form a ring rather than a field, because under multiplication only 1 and negative 1 have inverses among them; those two are called the units. Under addition, however, every one of them has an inverse, its opposite, so they form a commutative group.",
+      "r": "For 10 points, name these numbers, such as negative 9, 0, and 4, that are written with a double-struck Z."
+    },
+    {
+      "p": "The division algorithm says that dividing one of these numbers by a positive one always leaves a unique remainder that is at least 0 but smaller than the divisor; for example, 17 divided by 5 gives 3 with remainder 2. Negative 17 divided by 5 gives negative 4 with remainder 3.",
+      "r": "Adding, subtracting, or multiplying two of them always gives another. For 10 points, name these numbers, the whole numbers together with their negatives."
+    },
+    {
+      "p": "Étienne Bézout’s [“bay-ZOOZ”] identity says that the greatest common divisor of two of these numbers can be written as a sum of multiples of them, as when 2, the greatest common divisor of 10 and 6, equals 10 times 2 minus 6 times 3. Euclid’s algorithm finds that divisor by repeated division.",
+      "r": "For 10 points, name these numbers, symbolized by a double-struck Z, which include 0 and the negatives of the counting numbers."
+    },
+    {
+      "p": "Pick’s theorem, published by Georg Pick in 1899, finds the area of a polygon whose corners sit on points whose coordinates are both these numbers: count the grid points inside, add half the grid points on the edges, and subtract 1.",
+      "r": "Such points are called lattice points. For 10 points, name these numbers, which label the evenly spaced marks on a number line in both directions from 0."
+    },
+    {
+      "p": "Srinivasa Ramanujan [“rah-MAH-noo-jun”] studied partitions, the ways to write a positive number of this type as a sum of positive ones, such as 2 plus 2 and 3 plus 1 for 4. He noticed that the numbers of partitions of 4, 9, 14, 19, and so on are always multiples of 5.",
+      "r": "No fractions are allowed among them. For 10 points, name these numbers, which include all the whole numbers and their negatives."
+    },
+    {
+      "p": "The Babylonian clay tablet Plimpton 322, written around 1800 BCE, records numbers from Pythagorean triples, which are positive numbers of this type a, b, and c with a squared plus b squared equal to c squared. The simplest such triple is 3, 4, and 5.",
+      "r": "In 628 CE, Brahmagupta [“brah-muh-GOOP-tuh”] wrote rules for arithmetic with positives, negatives, and zero. For 10 points, name these numbers, which include negative 2, 0, and 5 but not one-half."
+    },
+    {
+      "p": "In his 1801 book _Disquisitiones Arithmeticae_ [“dis-kwih-zih-tee-OH-nays ar-ith-MET-ih-kay”], Carl Friedrich Gauss introduced the triple-bar symbol for congruence, writing that two of these numbers are congruent if they leave the same remainder when divided by some number. That idea is often called clock arithmetic.",
+      "r": "For 10 points, name these numbers, such as negative 8, 0, and 3, which can be positive, negative, or zero."
+    },
+    {
+      "p": "The name of these numbers comes from a Latin word meaning “whole” or “untouched.” Leopold Kronecker [“KROH-neck-er”] reportedly said that God made these numbers and that “all else is the work of man,” and Stephen Hawking edited a 2005 collection of math classics whose title quotes that remark.",
+      "r": "They have no fractional parts. For 10 points, name these numbers, which include zero, the counting numbers, and their negatives."
+    },
+    {
+      "p": "Kenneth Iverson named the floor and ceiling operations in 1962; they round any real number down or up to the nearest of these numbers, so the floor of negative 2.5 is negative 3. Every one of these numbers is either even or odd, and 0 counts as even.",
+      "r": "For 10 points, name these numbers, the whole numbers together with their negatives, which are written with a double-struck Z."
+    },
+    {
+      "p": "There are exactly as many of these numbers as there are counting numbers, since they can be listed 0, 1, negative 1, 2, negative 2, and so on. Ratios of two of these numbers, with a bottom that is not 0, are called rational numbers.",
+      "r": "Every one of them has an opposite, like 7 and negative 7, that adds with it to 0. For 10 points, name these numbers."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The whole numbers and their negatives: …, −2, −1, 0, 1, 2, …, with no fractions or decimals",
+      "k": [
+        "whole numbers",
+        "negatives",
+        "no fractions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "symbol",
+      "tier": "giveaway",
+      "t": "Written with a double-struck ℤ, from the German word _Zahlen_ (“numbers”)",
+      "k": [
+        "zahlen",
+        "german",
+        "double-struck"
+      ],
+      "n": 0
+    },
+    {
+      "id": "number-line",
+      "tier": "giveaway",
+      "t": "The evenly spaced marks on a number line, stretching forever in both directions from 0",
+      "k": [
+        "number line",
+        "both directions",
+        "evenly spaced"
+      ],
+      "n": 0
+    },
+    {
+      "id": "closure",
+      "tier": "giveaway",
+      "t": "Adding, subtracting, or multiplying two of them always gives another one, but dividing often does not",
+      "k": [
+        "adding",
+        "subtracting",
+        "multiplying",
+        "dividing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zero-even",
+      "tier": "middle",
+      "t": "0 is one of them, neither positive nor negative; every one is even or odd, and 0 counts as even",
+      "k": [
+        "neither positive nor negative",
+        "even or odd"
+      ],
+      "n": 0,
+      "rabbit": "Zero"
+    },
+    {
+      "id": "opposites",
+      "tier": "middle",
+      "t": "Every one has an opposite (additive inverse) that adds with it to 0, like 7 and −7",
+      "k": [
+        "opposite",
+        "additive inverse"
+      ],
+      "n": 0,
+      "rabbit": "Negative numbers"
+    },
+    {
+      "id": "rational",
+      "tier": "middle",
+      "t": "Rational numbers are ratios of two of them, with a bottom that is not 0",
+      "k": [
+        "rational numbers",
+        "ratios"
+      ],
+      "n": 0,
+      "rabbit": "Rational numbers"
+    },
+    {
+      "id": "countable",
+      "tier": "middle",
+      "t": "There are exactly as many of them as counting numbers: list them 0, 1, −1, 2, −2, and so on",
+      "k": [
+        "counting numbers",
+        "as many",
+        "list them"
+      ],
+      "n": 0,
+      "rabbit": "Set theory"
+    },
+    {
+      "id": "fundamental-theorem",
+      "tier": "middle",
+      "t": "Fundamental Theorem of Arithmetic: each one greater than 1 factors into primes in exactly one way",
+      "k": [
+        "fundamental theorem of arithmetic",
+        "primes",
+        "exactly one way"
+      ],
+      "n": 0,
+      "rabbit": "Prime numbers"
+    },
+    {
+      "id": "brahmagupta",
+      "tier": "middle",
+      "t": "Brahmagupta (628 CE) wrote rules for arithmetic with positive numbers (“fortunes”), negative numbers (“debts”), and zero",
+      "k": [
+        "brahmagupta",
+        "628",
+        "fortunes",
+        "debts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kronecker",
+      "tier": "middle",
+      "t": "Leopold Kronecker reportedly said God made them and “all else is the work of man”; Stephen Hawking’s 2005 anthology takes its title from it",
+      "k": [
+        "kronecker",
+        "work of man",
+        "hawking"
+      ],
+      "n": 0
+    },
+    {
+      "id": "floor",
+      "tier": "middle",
+      "t": "Floor and ceiling (named by Kenneth Iverson, 1962) round a real number down or up to one of them: the floor of −2.5 is −3",
+      "k": [
+        "floor",
+        "ceiling",
+        "iverson",
+        "1962"
+      ],
+      "n": 0
+    },
+    {
+      "id": "computer-32bit",
+      "tier": "power",
+      "t": "A signed 32-bit one ranges from −2,147,483,648 to 2,147,483,647; in 2014 the “Gangnam Style” view count outgrew it, so YouTube switched to 64 bits",
+      "k": [
+        "32-bit",
+        "gangnam style",
+        "youtube",
+        "2,147,483,647"
+      ],
+      "n": 0
+    },
+    {
+      "id": "year-2038",
+      "tier": "power",
+      "t": "Year 2038 problem: clocks that store seconds since January 1, 1970, as a signed 32-bit one run out of room on January 19, 2038",
+      "k": [
+        "2038",
+        "1970",
+        "run out of room"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diophantine",
+      "tier": "power",
+      "t": "Diophantine equations, named for Diophantus of Alexandria, ask only for solutions of this kind",
+      "k": [
+        "diophantine",
+        "diophantus",
+        "alexandria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hilbert-tenth",
+      "tier": "power",
+      "t": "Hilbert’s tenth problem asked for a method to decide whether such equations have solutions; Yuri Matiyasevich completed the proof that none exists (1970)",
+      "k": [
+        "hilbert’s tenth",
+        "matiyasevich",
+        "1970"
+      ],
+      "n": 0,
+      "rabbit": "David Hilbert"
+    },
+    {
+      "id": "fermat",
+      "tier": "power",
+      "t": "Fermat’s Last Theorem: aⁿ + bⁿ = cⁿ has no positive solutions of this kind for n > 2; claimed c. 1637, proved by Andrew Wiles (1994)",
+      "k": [
+        "fermat’s last theorem",
+        "andrew wiles",
+        "1994",
+        "1637"
+      ],
+      "n": 0,
+      "rabbit": "Fermat’s Last Theorem"
+    },
+    {
+      "id": "gaussian",
+      "tier": "power",
+      "t": "Complex numbers a + bi with a and b both of this kind are named for Carl Friedrich Gauss",
+      "k": [
+        "gauss",
+        "a + bi",
+        "complex numbers"
+      ],
+      "n": 0,
+      "rabbit": "Complex numbers"
+    },
+    {
+      "id": "ring",
+      "tier": "power",
+      "t": "They form a ring, not a field: under multiplication only 1 and −1 (the units) have inverses; under addition they form a commutative group",
+      "k": [
+        "ring",
+        "units",
+        "commutative group"
+      ],
+      "n": 0,
+      "rabbit": "Group theory"
+    },
+    {
+      "id": "division-algorithm",
+      "tier": "power",
+      "t": "Division algorithm: dividing by a positive one leaves a unique remainder from 0 up to the divisor: 17 ÷ 5 is 3 R 2, and −17 ÷ 5 is −4 R 3",
+      "k": [
+        "division algorithm",
+        "remainder",
+        "unique"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bezout",
+      "tier": "power",
+      "t": "Bézout’s identity: the greatest common divisor of two of them is a sum of their multiples, like 2 = 10 × 2 − 6 × 3",
+      "k": [
+        "bézout",
+        "greatest common divisor",
+        "multiples"
+      ],
+      "n": 0,
+      "rabbit": "Greatest common divisor"
+    },
+    {
+      "id": "pick",
+      "tier": "power",
+      "t": "Pick’s theorem (Georg Pick, 1899): a polygon with corners on lattice points has area = inside points + half the edge points − 1",
+      "k": [
+        "pick’s theorem",
+        "lattice points",
+        "1899"
+      ],
+      "n": 0
+    },
+    {
+      "id": "partitions",
+      "tier": "power",
+      "t": "Ramanujan studied partitions (ways to write a number as a sum of positive ones) and saw that those of 4, 9, 14, 19, … always come in multiples of 5",
+      "k": [
+        "ramanujan",
+        "partitions",
+        "multiples of 5"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plimpton",
+      "tier": "power",
+      "t": "The Babylonian tablet Plimpton 322 (c. 1800 BCE) records numbers from Pythagorean triples, like 3, 4, 5",
+      "k": [
+        "plimpton 322",
+        "babylonian",
+        "pythagorean triples"
+      ],
+      "n": 0,
+      "rabbit": "Pythagorean theorem"
+    },
+    {
+      "id": "gauss-congruence",
+      "tier": "power",
+      "t": "Gauss introduced the ≡ sign for congruence (same remainder, “clock arithmetic”) in _Disquisitiones Arithmeticae_ (1801)",
+      "k": [
+        "disquisitiones arithmeticae",
+        "congruence",
+        "1801",
+        "clock arithmetic"
+      ],
+      "n": 0,
+      "rabbit": "Carl Friedrich Gauss"
+    },
+    {
+      "id": "latin",
+      "tier": "power",
+      "t": "Their name comes from a Latin word meaning “whole” or “untouched”",
+      "k": [
+        "latin",
+        "untouched"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Integers or whole numbers?",
+    "body": "In many U.S. classrooms, “whole numbers” means 0, 1, 2, 3, … with no negatives, while the integers also include −1, −2, −3, …. The natural numbers or counting numbers (1, 2, 3, …) are a smaller collection still, and the rational numbers are a bigger one that adds fractions. Saying “whole numbers” only earns a prompt, “natural numbers” is wrong, and so is the calculus sound-alike “integrals.”",
+    "fix": "If the clues mention negatives, zero, opposites, or the symbol ℤ, say “integers.” If they add fractions or ratios, the answer may be rational numbers; if only 1, 2, 3, …, it may be natural numbers. Integrals are areas under curves, a different answer line.",
+    "line": "Real answer line: <b><u>integer</u></b>s (accept <u>Z</u>; prompt on <u>whole numbers</u>; do not accept “natural numbers”)"
+  }
+}

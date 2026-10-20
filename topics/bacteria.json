@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Single-celled prokaryotes · A few cause disease; most are harmless or helpful",
   "dates": "First described by Leeuwenhoek in the 1670s",
-  "briefing": "Bacteria are single-celled living things far too small to see without a microscope, yet they live almost everywhere: in soil, in boiling hot springs, and by the trillions in your own gut. Antonie van Leeuwenhoek first spotted them through his homemade microscopes in the 1670s and called them “animalcules.” A few cause illnesses like strep throat, but most are harmless or helpful, from the ones that turn milk into yogurt to the ones that help bean plants get nitrogen.",
+  "briefing": "Bacteria are single-celled living things, nearly all far too small to see without a microscope, yet they live almost everywhere: in soil, in boiling hot springs, and by the trillions in your own gut. Antonie van Leeuwenhoek first spotted them through his homemade microscopes in the 1670s and called them “animalcules.” A few cause illnesses like strep throat, but most are harmless or helpful, from the ones that turn milk into yogurt to the ones that help bean plants get nitrogen.",
   "answerHtml": "<b><u>Bacteria</u></b> (accept <u>bacterium</u> or <u>eubacteria</u>; prompt on <u>prokaryotes</u>, <u>microbes</u>, or <u>germs</u>; do not accept “archaea” or “viruses”)",
   "accept": [
     "bacteria",
@@ -82,7 +82,7 @@
       "r": "Members of this domain reproduce by binary fission. For 10 points, name these single-celled prokaryotes, some of which cause strep throat and tuberculosis."
     },
     {
-      "p": "In the 1960s, Thomas Brock found a heat-loving species of these organisms in a Yellowstone hot spring, and its heat-resistant enzyme, Taq polymerase, later made it possible to copy DNA quickly using PCR. That species is named Thermus aquaticus [“THER-mus uh-KWAT-ih-kus”].",
+      "p": "In the 1960s, Thomas Brock found a heat-loving species of these organisms in a Yellowstone hot spring, and its heat-resistant enzyme, Taq polymerase, later made it much easier to copy DNA using PCR. That species is named Thermus aquaticus [“THER-mus uh-KWAT-ih-kus”].",
       "r": "These organisms have no nucleus and usually keep their DNA in one circular chromosome. For 10 points, name these prokaryotes that can be killed by antibiotics."
     },
     {
@@ -90,7 +90,7 @@
       "r": "Antibiotics such as penicillin kill these organisms but do not work on viruses. For 10 points, name these single-celled prokaryotes."
     },
     {
-      "p": "Frederick Griffith showed in 1928 that a harmless “rough” strain of one species of these organisms could turn deadly to mice after being mixed with a heat-killed “smooth” strain, a change later called transformation. These organisms can also swap small rings of DNA called plasmids.",
+      "p": "Frederick Griffith showed in 1928 that a harmless “rough” strain of one species of these organisms could turn deadly to mice after being mixed with a heat-killed “smooth” strain, a change called transformation. These organisms can also share small rings of DNA called plasmids.",
       "r": "For 10 points, name these prokaryotes that reproduce by splitting in two, a process called binary fission."
     },
     {
@@ -346,7 +346,7 @@
     {
       "id": "conjugation",
       "tier": "power",
-      "t": "Swap plasmids through a pilus in conjugation; viruses called phages carry genes between them in transduction",
+      "t": "Share plasmids through a pilus in conjugation; viruses called phages carry genes between them in transduction",
       "k": [
         "conjugation",
         "transduction",
@@ -450,7 +450,7 @@
   "trap": {
     "title": "Bacteria, archaea, or viruses?",
     "body": "Bacteria and archaea are both single-celled prokaryotes with no nucleus, and until Carl Woese’s work in 1977 they were lumped together. Viruses are not cells at all and are not killed by antibiotics. Saying “prokaryotes,” “microbes,” or “germs” is too general and earns only a prompt.",
-    "fix": "Peptidoglycan walls, Gram staining, antibiotics, penicillin, E. coli, and diseases like strep throat mean bacteria. Life in extreme places, methane-making, and “the third domain” mean archaea. A protein capsid and needing a host cell to copy itself mean viruses.",
+    "fix": "Peptidoglycan walls, Gram staining, antibiotics, penicillin, E. coli, and diseases like strep throat mean bacteria. Methane-making, walls with no peptidoglycan, and “the third domain” mean archaea; both groups include heat lovers, so a hot spring alone does not decide it. A protein capsid and needing a host cell to copy itself mean viruses.",
     "line": "Real answer line: <b><u>Bacteria</u></b> (accept <u>bacterium</u>; prompt on <u>prokaryotes</u> or <u>microbes</u>; do not accept “archaea” or “viruses”)"
   },
   "tests": {

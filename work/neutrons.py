@@ -87,7 +87,7 @@ data = {
     "tossups": [
         {
             "p": "In 1930, Walther Bothe [“BOH-tuh”] and Herbert Becker found that beryllium struck by alpha particles gave off a penetrating radiation that was really a stream of these particles. Irène Joliot-Curie [“ee-REN zhoh-LYOH kyoo-REE”] and Frédéric Joliot then saw that radiation knock protons out of paraffin wax, but they mistook it for gamma rays.",
-            "r": "For 10 points, name these neutral particles discovered by James Chadwick in 1932."
+            "r": "For 10 points, name these neutral particles in atomic nuclei, discovered by James Chadwick in 1932."
         },
         {
             "p": "In 1920, Ernest Rutherford predicted that atomic nuclei held a neutral particle about as heavy as a proton. Twelve years later, a scientist working under him at the Cavendish Laboratory in Cambridge proved that these particles exist.",
@@ -123,10 +123,10 @@ data = {
         },
         {
             "p": "A few minutes after the Big Bang, about one of these particles remained for every seven protons, and nearly all of them ended up inside helium nuclei. Each helium-4 nucleus contains two of these particles.",
-            "r": "For 10 points, name these neutral particles discovered by James Chadwick in 1932."
+            "r": "For 10 points, name these neutral particles that James Chadwick discovered in 1932, which sit in atomic nuclei."
         },
         {
-            "p": "The common isotope lead-208 holds a “magic” number of these particles, 126, which makes its nucleus especially stable. Heavy stable nuclei like that one contain more of these particles than protons.",
+            "p": "The common isotope lead-208 holds a “magic” number of these particles, 126, along with a magic number of protons, 82, which makes its nucleus especially stable. Heavy stable nuclei like that one contain more of these particles than protons.",
             "r": "For 10 points, name these particles whose number differs among isotopes of the same element."
         },
         {
