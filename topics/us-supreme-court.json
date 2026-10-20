@@ -1,0 +1,475 @@
+{
+  "id": "us-supreme-court",
+  "name": "U.S. Supreme Court",
+  "mono": "SC",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Highest federal court · Created by Article III of the Constitution",
+  "dates": "Created 1789; first met 1790",
+  "briefing": "The Constitution’s Article III created “one supreme Court” but left Congress to decide almost everything else, including how many justices it would have. Congress started with six in 1789 and has kept the number at nine since 1869. In _Marbury v. Madison_ (1803), Chief Justice John Marshall claimed the Court’s greatest power, judicial review: the right to strike down laws that break the Constitution.",
+  "answerHtml": "<b><u>Supreme Court</u></b> of the United States (accept <u>SCOTUS</u>; prompt on <u>judicial branch</u> or “the court”; do not accept “Chief Justice” or a single justice’s name)",
+  "accept": [
+    "supreme court",
+    "the supreme court",
+    "us supreme court",
+    "u s supreme court",
+    "united states supreme court",
+    "supreme court of the united states",
+    "american supreme court",
+    "federal supreme court",
+    "scotus"
+  ],
+  "prompt": [
+    "court",
+    "the court",
+    "high court",
+    "judicial branch",
+    "judiciary",
+    "federal judiciary",
+    "federal court",
+    "federal courts"
+  ],
+  "reject": [
+    "chief justice",
+    "chief justice of the united states",
+    "associate justice",
+    "supreme court justice",
+    "supreme court justices",
+    "justice of the supreme court",
+    "justice",
+    "justices",
+    "state supreme court",
+    "supreme court of canada",
+    "supreme court of the united kingdom",
+    "uk supreme court",
+    "supreme court of india",
+    "supreme soviet",
+    "john marshall",
+    "john jay",
+    "john roberts",
+    "earl warren",
+    "thurgood marshall",
+    "roger taney",
+    "william howard taft",
+    "sandra day oconnor",
+    "ruth bader ginsburg",
+    "oliver wendell holmes",
+    "william rehnquist",
+    "salmon chase",
+    "congress",
+    "senate",
+    "house of representatives",
+    "judicial review",
+    "marbury v madison",
+    "court of appeals",
+    "circuit court",
+    "district court",
+    "federal reserve",
+    "electoral college",
+    "cabinet"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
+  "qb": {
+    "q": "Supreme Court",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Senator Oliver Ellsworth wrote most of the Judiciary Act of 1789, which gave this body six members and created lower federal courts beneath it. This body first met in New York City in February 1790, with John Jay as its first chief justice.",
+      "r": "For 10 points, name this highest court in the United States, created by Article III of the Constitution."
+    },
+    {
+      "p": "In 1866, Congress passed a law to shrink this body as members left, which meant President Andrew Johnson never got to appoint anyone to it. Three years later, the Judiciary Act of 1869 fixed its size at nine, after earlier laws had set it at six, seven, and even ten members.",
+      "r": "Its members are called justices. For 10 points, name this highest federal court in the United States."
+    },
+    {
+      "p": "In a case about an undelivered commission for a justice of the peace, this body’s chief wrote that “it is emphatically the province and duty of the judicial department to say what the law is.” That 1803 ruling struck down part of the Judiciary Act of 1789.",
+      "r": "That case, _Marbury v. Madison_, established this body’s power of judicial review. For 10 points, name this court once led by John Marshall."
+    },
+    {
+      "p": "The Eleventh Amendment was ratified in 1795 to overturn this body’s decision in _Chisholm v. Georgia_, which had let a citizen of another state sue Georgia in federal court. Later amendments overturned this body’s _Dred Scott_ decision, which had ruled that Black Americans could not be citizens.",
+      "r": "For 10 points, name this highest court in the United States, which has had nine justices since 1869."
+    },
+    {
+      "p": "Samuel Chase, who had signed the Declaration of Independence, is the only member of this body ever impeached. The Senate acquitted Chase in 1805, which helped protect federal judges from being removed just for their political views.",
+      "r": "For 10 points, name this nine-member court, whose justices serve “during good Behaviour,” usually for life."
+    },
+    {
+      "p": "Architect Cass Gilbert designed this body’s marble home, which opened in 1935 and ended more than a century of meetings inside the U.S. Capitol. William Howard Taft, the only person to serve as both president and chief justice, pushed for that building but died before it was finished.",
+      "r": "Its front says “Equal Justice Under Law.” For 10 points, name this highest court in the United States."
+    },
+    {
+      "p": "Salmon Chase presided over Andrew Johnson’s impeachment trial in 1868, and William Rehnquist did the same at Bill Clinton’s trial in 1999, because the Constitution gives that job to this body’s leader. Rehnquist also added four gold stripes to each robe sleeve after seeing a Gilbert and Sullivan operetta.",
+      "r": "For 10 points, name this court, whose leader is called the chief justice of the United States."
+    },
+    {
+      "p": "Justice Owen Roberts’s vote in a 1937 minimum-wage case became known as “the switch in time that saved nine,” because it weakened support for a plan to change this body. Franklin Roosevelt had proposed that plan, which would have added up to six new members, after this body struck down several New Deal laws.",
+      "r": "Critics called it a “court-packing” plan. For 10 points, name this nine-member court, the highest in the United States."
+    },
+    {
+      "p": "Louis Brandeis became this body’s first Jewish member in 1916, and Sonia Sotomayor became its first Latina member in 2009. In 1981, Ronald Reagan appointed its first woman, Sandra Day O’Connor, and in 2022 Ketanji Brown Jackson became its first Black woman.",
+      "r": "In 1967, Thurgood Marshall became its first African American justice. For 10 points, name this highest court in the United States."
+    },
+    {
+      "p": "Under an unwritten “rule of four,” this body agrees to hear a case if four of its members vote to grant a writ of certiorari [“sur-shee-uh-RAIR-ee”]. By law, each of its yearly terms begins on the first Monday in October.",
+      "r": "For 10 points, name this nine-member court, the final court of appeal in the United States."
+    },
+    {
+      "p": "Chief Justice Melville Fuller started this body’s tradition of a “conference handshake,” in which each member shakes hands with every other member before they meet to discuss cases. In its oral arguments, each side’s lawyers usually get about 30 minutes.",
+      "r": "For 10 points, name this highest court in the United States, which meets in Washington, D.C."
+    },
+    {
+      "p": "Article III gives this body original jurisdiction, meaning cases can begin there, in disputes involving ambassadors and those in which a state is a party. In nearly all other cases, it hears appeals from lower courts.",
+      "r": "For 10 points, name this court, whose nine members are nominated by the president and confirmed by the Senate."
+    },
+    {
+      "p": "William O. Douglas set a record by serving on this body for more than 36 years after Franklin Roosevelt appointed him in 1939. The Constitution says members of this body hold office “during good Behaviour,” so most serve until they retire or die.",
+      "r": "Its leader is the chief justice. For 10 points, name this nine-member court, the highest in the United States."
+    },
+    {
+      "p": "Writing for this body in _McCulloch v. Maryland_, its leader declared that “the power to tax involves the power to destroy.” That leader, appointed by John Adams in 1801, led this body for 34 years, longer than any other chief justice.",
+      "r": "That chief justice was John Marshall. For 10 points, name this highest court in the United States."
+    },
+    {
+      "p": "Under Chief Justice Earl Warren, this body ruled in _Gideon v. Wainwright_ that states must provide lawyers to people charged with serious crimes who cannot afford one. Under Warren, it also ruled in _Miranda v. Arizona_ that police must warn suspects of their rights.",
+      "r": "Warren also wrote this court’s 1954 decision in _Brown v. Board of Education_. For 10 points, name this nine-member court."
+    }
+  ],
+  "clues": [
+    {
+      "id": "highest-court",
+      "tier": "giveaway",
+      "t": "The highest court in the United States and the head of the federal judicial branch",
+      "k": [
+        "highest",
+        "judicial branch",
+        "federal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "article-iii",
+      "tier": "giveaway",
+      "t": "Created by Article III of the Constitution",
+      "k": [
+        "article iii",
+        "article 3",
+        "constitution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nine-justices",
+      "tier": "giveaway",
+      "t": "Nine justices since 1869: one chief justice and eight associate justices",
+      "k": [
+        "nine justices",
+        "chief justice",
+        "associate justices",
+        "1869"
+      ],
+      "n": 0
+    },
+    {
+      "id": "judicial-review",
+      "tier": "giveaway",
+      "t": "Has the power of judicial review: it can strike down laws that break the Constitution",
+      "k": [
+        "judicial review",
+        "strike down"
+      ],
+      "n": 0
+    },
+    {
+      "id": "appointed",
+      "tier": "giveaway",
+      "t": "Justices are nominated by the president, confirmed by the Senate, and serve for life",
+      "k": [
+        "nominated",
+        "confirmed",
+        "senate",
+        "for life"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marbury",
+      "tier": "middle",
+      "t": "_Marbury v. Madison_ (1803): Chief Justice John Marshall established judicial review",
+      "k": [
+        "marbury v. madison",
+        "marbury",
+        "1803"
+      ],
+      "n": 0,
+      "rabbit": "Marbury v. Madison"
+    },
+    {
+      "id": "john-marshall",
+      "tier": "middle",
+      "t": "John Marshall, appointed by John Adams, was chief justice for 34 years (1801–1835), the longest ever",
+      "k": [
+        "john marshall",
+        "34 years",
+        "1801"
+      ],
+      "n": 0,
+      "rabbit": "John Marshall"
+    },
+    {
+      "id": "good-behaviour",
+      "tier": "middle",
+      "t": "The Constitution says justices serve “during good Behaviour,” which in practice means for life",
+      "k": [
+        "good behaviour",
+        "good behavior"
+      ],
+      "n": 0
+    },
+    {
+      "id": "equal-justice",
+      "tier": "middle",
+      "t": "Its building (opened 1935) bears the words “Equal Justice Under Law”",
+      "k": [
+        "equal justice under law",
+        "1935"
+      ],
+      "n": 0
+    },
+    {
+      "id": "court-packing",
+      "tier": "middle",
+      "t": "Franklin Roosevelt’s 1937 plan to add up to six justices (called “court-packing”) failed",
+      "k": [
+        "packing",
+        "1937",
+        "roosevelt",
+        "six justices"
+      ],
+      "n": 0,
+      "rabbit": "Franklin Delano Roosevelt"
+    },
+    {
+      "id": "thurgood-marshall",
+      "tier": "middle",
+      "t": "Thurgood Marshall became the first African American justice in 1967",
+      "k": [
+        "thurgood marshall",
+        "1967",
+        "african american"
+      ],
+      "n": 0,
+      "rabbit": "Thurgood Marshall"
+    },
+    {
+      "id": "warren",
+      "tier": "middle",
+      "t": "Earl Warren’s court decided _Brown v. Board of Education_ (1954)",
+      "k": [
+        "earl warren",
+        "brown v. board",
+        "1954"
+      ],
+      "n": 0,
+      "rabbit": "Earl Warren"
+    },
+    {
+      "id": "judiciary-act",
+      "tier": "power",
+      "t": "The Judiciary Act of 1789, mostly by Oliver Ellsworth, set six justices; it first met in New York City in 1790 under John Jay",
+      "k": [
+        "judiciary act of 1789",
+        "ellsworth",
+        "john jay",
+        "1790"
+      ],
+      "n": 0
+    },
+    {
+      "id": "size-changes",
+      "tier": "power",
+      "t": "Its size went from 6 to 7 (1807), 9 (1837), and 10 (1863); an 1866 law shrank it, so Andrew Johnson appointed no one",
+      "k": [
+        "1866",
+        "andrew johnson",
+        "1807",
+        "1837"
+      ],
+      "n": 0
+    },
+    {
+      "id": "emphatically",
+      "tier": "power",
+      "t": "Marshall: “It is emphatically the province and duty of the judicial department to say what the law is”",
+      "k": [
+        "emphatically",
+        "province and duty"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chisholm",
+      "tier": "power",
+      "t": "_Chisholm v. Georgia_ (1793) was overturned by the 11th Amendment (1795); the _Dred Scott_ decision was overturned by later amendments",
+      "k": [
+        "chisholm",
+        "11th amendment",
+        "eleventh amendment",
+        "dred scott"
+      ],
+      "n": 0
+    },
+    {
+      "id": "samuel-chase",
+      "tier": "power",
+      "t": "Samuel Chase, a signer of the Declaration, is the only justice ever impeached; the Senate acquitted him (1805)",
+      "k": [
+        "samuel chase",
+        "impeached",
+        "1805"
+      ],
+      "n": 0
+    },
+    {
+      "id": "taft-building",
+      "tier": "power",
+      "t": "Cass Gilbert designed its building; William Howard Taft, the only person to be both president and chief justice, pushed for it",
+      "k": [
+        "cass gilbert",
+        "william howard taft",
+        "taft"
+      ],
+      "n": 0
+    },
+    {
+      "id": "impeachment-trials",
+      "tier": "power",
+      "t": "The chief justice presides over a president’s impeachment trial (Salmon Chase in 1868, William Rehnquist in 1999); Rehnquist put gold stripes on his robe",
+      "k": [
+        "impeachment trial",
+        "salmon chase",
+        "rehnquist",
+        "gold stripes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "switch-in-time",
+      "tier": "power",
+      "t": "Owen Roberts’s 1937 vote was called “the switch in time that saved nine”",
+      "k": [
+        "switch in time",
+        "owen roberts",
+        "saved nine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "firsts",
+      "tier": "power",
+      "t": "Firsts: Louis Brandeis (Jewish, 1916), Sandra Day O’Connor (woman, 1981), Sonia Sotomayor (Latina, 2009), Ketanji Brown Jackson (Black woman, 2022)",
+      "k": [
+        "brandeis",
+        "o’connor",
+        "oconnor",
+        "sotomayor",
+        "ketanji brown jackson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rule-of-four",
+      "tier": "power",
+      "t": "“Rule of four” to grant certiorari; terms begin the first Monday in October; Melville Fuller began the “conference handshake”",
+      "k": [
+        "rule of four",
+        "certiorari",
+        "first monday in october",
+        "conference handshake"
+      ],
+      "n": 0
+    },
+    {
+      "id": "original-jurisdiction",
+      "tier": "power",
+      "t": "Original jurisdiction (cases begin there) over disputes involving ambassadors or states; otherwise it hears appeals",
+      "k": [
+        "original jurisdiction",
+        "ambassadors",
+        "appeals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "douglas",
+      "tier": "power",
+      "t": "William O. Douglas served a record 36-plus years (1939–1975) after Franklin Roosevelt appointed him",
+      "k": [
+        "william o. douglas",
+        "douglas",
+        "record"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mcculloch",
+      "tier": "power",
+      "t": "_McCulloch v. Maryland_ (1819): “the power to tax involves the power to destroy”",
+      "k": [
+        "mcculloch",
+        "power to tax",
+        "power to destroy"
+      ],
+      "n": 0,
+      "rabbit": "McCulloch v. Maryland"
+    },
+    {
+      "id": "gideon-miranda",
+      "tier": "power",
+      "t": "Warren Court: _Gideon v. Wainwright_ (lawyers for defendants who cannot afford one) and _Miranda v. Arizona_ (police must warn suspects of their rights)",
+      "k": [
+        "gideon",
+        "miranda",
+        "wainwright"
+      ],
+      "n": 0,
+      "rabbit": "Miranda v. Arizona"
+    }
+  ],
+  "trap": {
+    "title": "The court, not a justice",
+    "body": "Many clues for this answer name a chief justice (John Marshall, Roger Taney, Earl Warren, William Rehnquist) or one famous justice (Thurgood Marshall, Sandra Day O’Connor). Those people are separate answer lines, and naming one when the question wants the institution loses the tossup. Clues about the Senate (which confirms justices) or Congress (which sets the number of justices) can also tempt you to name the wrong branch.",
+    "fix": "Listen for the noun: “this man,” “this justice,” or “this chief justice” wants a person; “this court,” “this body,” or “this institution” wants the Supreme Court. Saying only “the court” or “the judicial branch” earns a prompt, so say “Supreme Court.”",
+    "line": "Real answer line: <b><u>Supreme Court</u></b> of the United States (accept <u>SCOTUS</u> or U.S. <u>Supreme Court</u>; prompt on <u>judicial branch</u>; do not accept “Chief Justice”)"
+  },
+  "tests": {
+    "right": [
+      "Supreme Court",
+      "U.S. Supreme Court",
+      "Supreme Court of the United States",
+      "SCOTUS",
+      "the Supreme Court",
+      "Suprme Court"
+    ],
+    "prompt": [
+      "judicial branch",
+      "the court"
+    ],
+    "wrong": [
+      "Chief Justice",
+      "John Marshall",
+      "Congress",
+      "Senate",
+      "Earl Warren",
+      "Supreme Court of Canada",
+      "judicial review"
+    ]
+  }
+}
