@@ -5,9 +5,9 @@
   "category": "Physics",
   "qbCategory": "Science · Physics",
   "kicker": "The coldest possible temperature · Zero on the Kelvin scale",
-  "dates": "Estimated by Amontons, c. 1702; Kelvin’s scale, 1848",
+  "dates": "Estimated by Amontons, c. 1702; Kelvin’s absolute scale proposed, 1848",
   "briefing": "Absolute zero is the coldest anything can ever get: 0 kelvins, or about −273 °C (−459.67 °F). There, particles have the least energy they possibly can, though quantum physics says they never sit perfectly still. The third law of thermodynamics says no one can ever quite reach it, but scientists using lasers and magnets have chilled atoms to within a billionth of a degree, close enough to make strange new states of matter.",
-  "answerHtml": "<b><u>absolute zero</u></b> (accept <u>0 kelvins</u> or <u>0 K</u>; accept −273.15 °C or −459.67 °F; prompt on <u>zero</u>; do not accept “0 degrees Celsius”)",
+  "answerHtml": "<b><u>absolute zero</u></b> (accept <u>0 kelvins</u> or <u>0 K</u>; accept −273.15 °C or −459.67 °F; prompt on <u>zero</u>, or on −273 or −459.67 with no unit; do not accept “0 degrees Celsius”)",
   "accept": [
     "absolute zero",
     "absolute 0",
@@ -40,7 +40,8 @@
     "460 f",
     "0 degrees rankine",
     "0 rankine",
-    "zero rankine"
+    "zero rankine",
+    "zero k"
   ],
   "prompt": [
     "zero",
@@ -49,7 +50,13 @@
     "0 degrees",
     "absolute",
     "kelvin",
-    "kelvins"
+    "kelvins",
+    "273",
+    "273 15",
+    "273 degrees",
+    "273 15 degrees",
+    "459 67",
+    "459 67 degrees"
   ],
   "reject": [
     "0 degrees celsius",
@@ -128,7 +135,7 @@
       "r": "For 10 points, name this coldest possible temperature, about 273 degrees below zero on the Celsius scale."
     },
     {
-      "p": "In 1908, Heike Kamerlingh Onnes [“HAY-kuh KAH-mer-ling OH-nus”] became the first person to liquefy helium, and three years later he used that liquid to cool mercury to about 4 kelvins above this temperature, discovering superconductivity. He won the 1913 Nobel Prize in Physics for his work near this temperature.",
+      "p": "In 1908, Heike Kamerlingh Onnes [“HAY-kuh KAH-mer-ling ON-us”] became the first person to liquefy helium, and three years later he used that liquid to cool mercury to about 4 kelvins above this temperature, discovering superconductivity. He won the 1913 Nobel Prize in Physics for his work near this temperature.",
       "r": "For 10 points, name this lowest possible temperature, the zero point of the Kelvin scale."
     },
     {
@@ -148,7 +155,7 @@
       "r": "On the Fahrenheit scale, it is exactly −459.67 degrees. For 10 points, name this lowest possible temperature."
     },
     {
-      "p": "In 1848, William Thomson proposed a temperature scale that does not depend on the properties of any particular substance, with this temperature as its zero point. The Rankine [“RANG-kin”] scale also starts at this temperature but uses degrees the same size as Fahrenheit degrees.",
+      "p": "In 1848, William Thomson proposed a temperature scale that does not depend on any particular substance; the modern scale named for him starts at this temperature. The Rankine [“RANG-kin”] scale also starts at this temperature but uses degrees the same size as Fahrenheit degrees.",
       "r": "Thomson was later called Lord Kelvin. For 10 points, name this lowest possible temperature."
     },
     {
@@ -194,7 +201,7 @@
     {
       "id": "kelvin-zero",
       "tier": "giveaway",
-      "t": "The zero point of the Kelvin scale, which Lord Kelvin proposed in 1848",
+      "t": "The zero point of the Kelvin scale, named for Lord Kelvin, who calculated in 1848 that it lies about 273 degrees below zero on the Celsius scale",
       "k": [
         "kelvin scale",
         "lord kelvin",
@@ -454,7 +461,7 @@
     "title": "Kelvin zero, not Celsius",
     "body": "Zero degrees Celsius is just the freezing point of water, and 0 °F is an ordinary cold winter day; only zero on the Kelvin (or Rankine) scale is absolute zero. Players also blurt “temperature,” “third law of thermodynamics,” or “Bose–Einstein condensate,” which are separate answer lines whose tossups mention this one.",
     "fix": "If the question asks for “this temperature,” the coldest possible, where the Kelvin scale starts, say absolute zero (or 0 K, about −273 °C). If it asks for “this law,” the answer is the third law of thermodynamics; if it asks for “this state of matter,” it is a Bose–Einstein condensate.",
-    "line": "Real answer line: <b><u>absolute zero</u></b> (accept <u>0 kelvins</u> or <u>0 K</u>; accept −273.15 °C or −459.67 °F; prompt on <u>zero</u>; do not accept “0 degrees Celsius”)"
+    "line": "Real answer line: <b><u>absolute zero</u></b> (accept <u>0 kelvins</u> or <u>0 K</u>; accept −273.15 °C or −459.67 °F; prompt on <u>zero</u>, or on −273 or −459.67 with no unit; do not accept “0 degrees Celsius”)"
   },
   "tests": {
     "right": [
@@ -464,11 +471,13 @@
       "0 K",
       "Zero kelvin",
       "-273.15 °C",
-      "-459.67 °F"
+      "-459.67 °F",
+      "Zero K"
     ],
     "prompt": [
       "Zero",
-      "Kelvin"
+      "Kelvin",
+      "-273"
     ],
     "wrong": [
       "0 degrees Celsius",

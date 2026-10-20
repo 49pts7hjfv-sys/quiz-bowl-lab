@@ -7,7 +7,7 @@
   "kicker": "Random jiggling of tiny specks in a fluid · Proof that molecules exist",
   "dates": "Observed by Robert Brown, 1827; explained by Einstein, 1905",
   "briefing": "In 1827, botanist Robert Brown peered through his microscope at tiny particles from pollen grains floating in water and saw them jiggling nonstop, as if alive. That random dance, Brownian motion, happens because invisible water molecules keep slamming into the particles from every side. In 1905 Albert Einstein worked out the math, and Jean Perrin’s experiments that followed helped convince doubters that atoms and molecules are real.",
-  "answerHtml": "<b><u>Brownian</u></b> motion (accept <u>Brownian</u> movement or <u>pedesis</u>; prompt on <u>random walk</u>; do not accept “diffusion”)",
+  "answerHtml": "<b><u>Brownian</u></b> motion (accept <u>Brownian</u> movement, <u>pedesis</u>, or <u>Wiener process</u>; prompt on <u>random walk</u>; do not accept “diffusion”)",
   "accept": [
     "brownian motion",
     "brownian motions",
@@ -29,7 +29,6 @@
     "convection",
     "effusion",
     "robert brown",
-    "brown",
     "browning",
     "robert browning",
     "brownian ratchet",
@@ -47,7 +46,6 @@
     "avogadros number",
     "viscosity",
     "heat",
-    "random",
     "stokes law"
   ],
   "media": [],
@@ -436,7 +434,7 @@
     "title": "The motion, not diffusion",
     "body": "This jiggling of single particles and diffusion, the overall spreading of a substance, are separate answer lines, and diffusion tossups even mention this motion. Robert Brown is the man, not the answer, and the pollen grains themselves are a separate biology answer line. Saying only “random walk” earns a prompt.",
     "fix": "One speck zigzagging under a microscope, Robert Brown in 1827, Einstein’s 1905 paper, Perrin, gamboge, Langevin, or Bachelier means Brownian motion. A substance spreading from high to low concentration, or Fick’s laws, means diffusion. Finish the answer with “motion.”",
-    "line": "Real answer line: <b><u>Brownian</u></b> motion (accept <u>Brownian</u> movement or <u>pedesis</u>; prompt on <u>random walk</u>; do not accept “diffusion”)"
+    "line": "Real answer line: <b><u>Brownian</u></b> motion (accept <u>Brownian</u> movement, <u>pedesis</u>, or <u>Wiener process</u>; prompt on <u>random walk</u>; do not accept “diffusion”)"
   },
   "tests": {
     "right": [
@@ -445,10 +443,12 @@
       "Brownian movement",
       "Brownian",
       "Brownain motion",
-      "Pedesis"
+      "Pedesis",
+      "Wiener process"
     ],
     "prompt": [
-      "Random walk"
+      "Random walk",
+      "Random walks"
     ],
     "wrong": [
       "Diffusion",

@@ -6,7 +6,7 @@
   "qbCategory": "Science · Biology",
   "kicker": "Small pouch under the liver · Stores bile and squeezes it out to digest fat",
   "dates": "Holds only a few tablespoons of bile",
-  "briefing": "The gallbladder is a small, pear-shaped pouch tucked under the liver. The liver makes a greenish fluid called bile all day long, and the gallbladder stores and concentrates it until a fatty meal arrives. Then a hormone called CCK makes it squeeze bile into the small intestine, where bile breaks fat into tiny droplets. Sometimes bile hardens into gallstones, and doctors can remove the whole organ, because people can live without it.",
+  "briefing": "The gallbladder, a small, pear-shaped pouch tucked under the liver, stores and concentrates bile, a greenish fluid the liver makes all day long. When a fatty meal arrives, a hormone called CCK makes it squeeze bile into the small intestine, where bile breaks fat into tiny droplets. Sometimes bile hardens into gallstones, and doctors can remove the whole organ, because people can live without it.",
   "answerHtml": "<b><u>Gallbladder</u></b> (accept <u>gall bladder</u>; prompt on <u>biliary system</u>; do not accept “liver,” “pancreas,” or “bile duct”)",
   "accept": [
     "gallbladder",
@@ -96,7 +96,7 @@
       "r": "For 10 points, name this small, pear-shaped organ that stores bile from the liver."
     },
     {
-      "p": "Since the late 1980s, surgeons have usually removed this organ through a few tiny cuts, using a camera on a thin tube, in a “laparoscopic” [“lap-uh-roh-SKOP-ik”] operation. The medical name for that operation is cholecystectomy [“koh-luh-sis-TEK-tuh-mee”].",
+      "p": "Starting in the late 1980s, surgeons began removing this organ through a few tiny cuts, using a camera on a thin tube, in a “laparoscopic” [“lap-uh-roh-SKOP-ik”] operation that soon became the usual method. The medical name for that operation is cholecystectomy [“koh-luh-sis-TEK-tuh-mee”].",
       "r": "For 10 points, name this organ that stores bile and can be removed if stones form in it."
     },
     {
@@ -112,7 +112,7 @@
       "r": "For 10 points, name this organ, which stores bile between meals and sits under the liver."
     },
     {
-      "p": "Between meals, this organ makes the fluid it stores several times stronger by pulling water and salts out of it, so it needs to hold only a few tablespoons. A fatty meal makes this organ’s muscular walls squeeze.",
+      "p": "Between meals, this organ makes the fluid it stores several times stronger by pulling water out of it, so it needs to hold only a few tablespoons. A fatty meal makes this organ’s muscular walls squeeze.",
       "r": "For 10 points, name this organ that receives bile from the liver through the cystic duct."
     }
   ],
@@ -326,7 +326,7 @@
     {
       "id": "goujian",
       "tier": "power",
-      "t": "King Goujian of Yue tasted gall every day to remember a defeat, the story behind a Chinese saying",
+      "t": "King Goujian of Yue is said to have tasted gall every day to remember a defeat, the story behind a Chinese saying",
       "k": [
         "goujian",
         "yue"
@@ -399,7 +399,7 @@
     {
       "id": "late-1980s",
       "tier": "power",
-      "t": "Removing it through tiny cuts with a camera became the usual method in the late 1980s",
+      "t": "Removing it through tiny cuts with a camera began in the late 1980s and soon became the usual method",
       "k": [
         "late 1980s",
         "camera"

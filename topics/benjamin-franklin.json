@@ -1,0 +1,456 @@
+{
+  "id": "benjamin-franklin",
+  "name": "Benjamin Franklin",
+  "mono": "BF",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Founding Father, printer, and scientist · Showed lightning is electricity",
+  "dates": "1706–1790",
+  "briefing": "Benjamin Franklin left school at 10, ran away from his printing apprenticeship at 17, and grew up to be one of the most famous people in the world. He flew a kite in a thunderstorm to show that lightning is electricity, invented bifocals and the lightning rod, and published _Poor Richard’s Almanack_. He also helped edit the Declaration of Independence, won France’s help in the Revolution, and signed the Constitution at 81.",
+  "answerHtml": "Benjamin <b><u>Franklin</u></b> (accept <u>Ben Franklin</u>; do not accept “Franklin Roosevelt” or “William Franklin”)",
+  "accept": [
+    "benjamin franklin",
+    "ben franklin",
+    "franklin",
+    "b franklin",
+    "dr franklin",
+    "doctor franklin"
+  ],
+  "prompt": [
+    "benjamin",
+    "ben"
+  ],
+  "reject": [
+    "franklin delano roosevelt",
+    "franklin d roosevelt",
+    "franklin roosevelt",
+    "fdr",
+    "franklin pierce",
+    "william franklin",
+    "william temple franklin",
+    "temple franklin",
+    "deborah franklin",
+    "deborah read",
+    "sarah bache",
+    "sally franklin",
+    "james franklin",
+    "josiah franklin",
+    "rosalind franklin",
+    "aretha franklin",
+    "john franklin",
+    "battle of franklin",
+    "state of franklin",
+    "franklin stove",
+    "benjamin rush",
+    "benjamin harrison",
+    "benjamin disraeli",
+    "benjamin britten",
+    "benjamin west",
+    "poor richard",
+    "poor richards almanack",
+    "richard saunders",
+    "silence dogood",
+    "thomas jefferson",
+    "john adams",
+    "john jay"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+  "qb": {
+    "q": "Benjamin Franklin",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "As a teenager, this man slipped letters under the door of his brother James’s print shop, pretending to be a middle-aged widow named Silence Dogood. After quarreling with James, he ran away from Boston to Philadelphia at age 17.",
+      "r": "He later published _Poor Richard’s Almanack_. For 10 points, name this Founding Father who flew a kite in a thunderstorm."
+    },
+    {
+      "p": "This man’s club of tradesmen, the Junto, led him to start the Library Company of Philadelphia, a lending library paid for by its members. He also organized the Union Fire Company, a group of volunteer firefighters in that city.",
+      "r": "He printed the _Pennsylvania Gazette_ and showed that lightning is electricity. For 10 points, name this Founding Father."
+    },
+    {
+      "p": "In 1774, Solicitor General Alexander Wedderburn publicly scolded this man before Britain’s Privy Council for leaking letters written by Massachusetts governor Thomas Hutchinson. Eight years earlier, this colonial agent had testified to the House of Commons against the Stamp Act.",
+      "r": "He later helped negotiate the Treaty of Paris. For 10 points, name this Founding Father who published _Poor Richard’s Almanack_."
+    },
+    {
+      "p": "This printer’s woodcut “Join, or Die” showed a snake cut into eight pieces, each labeled with the initials of a colony or region. He published it in 1754, the same year he proposed a plan of colonial union at the Albany Congress.",
+      "r": "For 10 points, name this Pennsylvania Founding Father and inventor whose face is on the $100 bill."
+    },
+    {
+      "p": "Mozart wrote music for an instrument this man invented, the glass armonica, which is played by touching spinning glass bowls with wet fingers. This inventor never patented any of his creations, believing that people should share inventions freely.",
+      "r": "His inventions included bifocals and the lightning rod. For 10 points, name this Founding Father."
+    },
+    {
+      "p": "As a colonial deputy postmaster, this man and his cousin Timothy Folger, a Nantucket whaling captain, printed a chart of the Gulf Stream to help mail ships cross the Atlantic faster. In 1775, he became the first Postmaster General under the Continental Congress.",
+      "r": "He also published _Poor Richard’s Almanack_. For 10 points, name this Pennsylvania printer and Founding Father."
+    },
+    {
+      "p": "At the end of the Constitutional Convention, this delegate, the oldest there, said he now knew that the half-sun carved on George Washington’s chair was rising, not setting. Asked what kind of government the delegates had made, he reportedly answered, “A republic, if you can keep it.”",
+      "r": "For 10 points, name this 81-year-old Pennsylvania delegate who had earlier helped write the Declaration of Independence."
+    },
+    {
+      "p": "In a 1784 letter to his daughter Sarah, this man complained that the bald eagle was “a bird of bad moral character” and called the turkey a much more respectable bird. He wrote that letter while living in France as an American diplomat.",
+      "r": "For 10 points, name this Founding Father who published _Poor Richard’s Almanack_ and flew a kite in a storm."
+    },
+    {
+      "p": "In a 1789 letter, this man wrote that “in this world nothing can be said to be certain, except death and taxes.” In his last years, he served as president of the Pennsylvania Abolition Society and signed its petition asking Congress to end slavery.",
+      "r": "For 10 points, name this Founding Father, a printer and inventor whose face appears on the $100 bill."
+    },
+    {
+      "p": "This scientist won the Royal Society’s Copley Medal in 1753 for the work described in his book _Experiments and Observations on Electricity_. He called a row of linked Leyden jars a “battery” and named the two kinds of electric charge “positive” and “negative.”",
+      "r": "He also invented the lightning rod and flew a kite in a thunderstorm in 1752. For 10 points, name this American scientist and Founding Father."
+    },
+    {
+      "p": "This author’s unfinished autobiography describes his plan to master 13 virtues, such as temperance, silence, and humility. It also recalls how he first walked into Philadelphia carrying “three great puffy rolls,” while his future wife, Deborah Read, watched from a doorway.",
+      "r": "He later published _Poor Richard’s Almanack_ and signed the Declaration of Independence. For 10 points, name this Founding Father."
+    },
+    {
+      "p": "Wearing a simple fur cap, this American diplomat became a celebrity in Paris, where he lived in the village of Passy [“pah-SEE”]. After the American victory at Saratoga, he signed the 1778 Treaty of Alliance that brought France into the Revolutionary War.",
+      "r": "For 10 points, name this Founding Father who later helped negotiate the Treaty of Paris with John Adams and John Jay."
+    },
+    {
+      "p": "This man’s son William, the last royal governor of New Jersey, sided with Britain in the Revolution and was held prisoner by the Patriots. The two never truly made peace, but this man took William’s son, Temple, to France as his secretary.",
+      "r": "Years earlier, William had helped his father fly a kite in a thunderstorm. For 10 points, name this Founding Father."
+    },
+    {
+      "p": "This man was the only Founder to sign the Declaration of Independence, the Treaty of Alliance with France, the Treaty of Paris, and the Constitution. He also served on the Committee of Five, which chose Thomas Jefferson to write the first draft of the Declaration.",
+      "r": "He also invented bifocals and the lightning rod. For 10 points, name this Pennsylvania printer who published _Poor Richard’s Almanack_."
+    },
+    {
+      "p": "This man helped found an academy that grew into the University of Pennsylvania, and he worked with Dr. Thomas Bond to open the Pennsylvania Hospital. He also started the American Philosophical Society so that colonists could share scientific ideas.",
+      "r": "For 10 points, name this Philadelphia printer who wrote _Poor Richard’s Almanack_ under the name Richard Saunders."
+    }
+  ],
+  "clues": [
+    {
+      "id": "kite",
+      "tier": "giveaway",
+      "t": "Flew a kite in a thunderstorm (1752) to show that lightning is a form of electricity",
+      "k": [
+        "kite",
+        "lightning",
+        "electricity",
+        "1752"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poor-richard",
+      "tier": "giveaway",
+      "t": "Published _Poor Richard’s Almanack_ under the pen name Richard Saunders (“Early to bed and early to rise…”)",
+      "k": [
+        "poor richard",
+        "almanack",
+        "richard saunders",
+        "early to bed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inventions",
+      "tier": "giveaway",
+      "t": "Invented the lightning rod, bifocals, and a wood-burning stove",
+      "k": [
+        "lightning rod",
+        "bifocals",
+        "stove"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hundred",
+      "tier": "giveaway",
+      "t": "His face is on the $100 bill",
+      "k": [
+        "$100",
+        "100 bill"
+      ],
+      "n": 0
+    },
+    {
+      "id": "signer",
+      "tier": "giveaway",
+      "t": "Signed both the Declaration of Independence and the Constitution",
+      "k": [
+        "declaration",
+        "constitution",
+        "signed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "philadelphia",
+      "tier": "middle",
+      "t": "Ran away from his brother’s Boston print shop to Philadelphia at 17; printed the _Pennsylvania Gazette_",
+      "k": [
+        "philadelphia",
+        "pennsylvania gazette",
+        "boston",
+        "print shop"
+      ],
+      "n": 0
+    },
+    {
+      "id": "join-or-die",
+      "tier": "middle",
+      "t": "Published the snake cartoon “Join, or Die” (1754) and proposed the Albany Plan of Union",
+      "k": [
+        "join, or die",
+        "snake",
+        "albany plan",
+        "albany"
+      ],
+      "n": 0
+    },
+    {
+      "id": "france",
+      "tier": "middle",
+      "t": "Minister to France during the Revolution: signed the 1778 Treaty of Alliance and became a celebrity in Paris",
+      "k": [
+        "france",
+        "treaty of alliance",
+        "1778",
+        "paris"
+      ],
+      "n": 0
+    },
+    {
+      "id": "treaty-paris",
+      "tier": "middle",
+      "t": "Negotiated the Treaty of Paris (1783), which ended the Revolution, with John Adams and John Jay",
+      "k": [
+        "treaty of paris",
+        "john jay",
+        "1783"
+      ],
+      "n": 0,
+      "rabbit": "Treaty of Paris"
+    },
+    {
+      "id": "committee-five",
+      "tier": "middle",
+      "t": "On the Committee of Five, which chose Thomas Jefferson to draft the Declaration of Independence",
+      "k": [
+        "committee of five",
+        "jefferson"
+      ],
+      "n": 0,
+      "rabbit": "Thomas Jefferson"
+    },
+    {
+      "id": "rising-sun",
+      "tier": "middle",
+      "t": "Oldest delegate (81) at the Constitutional Convention; said the half-sun on George Washington’s chair was a rising sun",
+      "k": [
+        "rising sun",
+        "oldest delegate",
+        "chair",
+        "81"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stamp-act",
+      "tier": "middle",
+      "t": "Testified to Parliament against the Stamp Act (1766), which was repealed soon after",
+      "k": [
+        "stamp act",
+        "parliament",
+        "1766"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dogood",
+      "tier": "power",
+      "t": "As a teenager, wrote the “Silence Dogood” letters, pretending to be a widow, for his brother James’s newspaper",
+      "k": [
+        "silence dogood",
+        "dogood",
+        "widow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "junto",
+      "tier": "power",
+      "t": "Founded the Junto club, the Library Company of Philadelphia (1731), and the Union Fire Company (1736)",
+      "k": [
+        "junto",
+        "library company",
+        "fire company"
+      ],
+      "n": 0
+    },
+    {
+      "id": "upenn",
+      "tier": "power",
+      "t": "Helped found the University of Pennsylvania, the Pennsylvania Hospital (with Dr. Thomas Bond), and the American Philosophical Society",
+      "k": [
+        "university of pennsylvania",
+        "pennsylvania hospital",
+        "philosophical society",
+        "thomas bond"
+      ],
+      "n": 0
+    },
+    {
+      "id": "armonica",
+      "tier": "power",
+      "t": "Invented the glass armonica, played on spinning glass bowls (Mozart wrote music for it); never patented his inventions",
+      "k": [
+        "armonica",
+        "mozart",
+        "patented"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gulf-stream",
+      "tier": "power",
+      "t": "As a deputy postmaster, charted the Gulf Stream with his cousin Timothy Folger; became the first Postmaster General (1775)",
+      "k": [
+        "gulf stream",
+        "folger",
+        "postmaster general"
+      ],
+      "n": 0
+    },
+    {
+      "id": "electric-words",
+      "tier": "power",
+      "t": "Won the Copley Medal (1753); named a row of Leyden jars a “battery” and called the two charges “positive” and “negative”",
+      "k": [
+        "copley medal",
+        "battery",
+        "positive",
+        "negative"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hutchinson",
+      "tier": "power",
+      "t": "Scolded by Alexander Wedderburn before the Privy Council (1774) for leaking Governor Thomas Hutchinson’s letters",
+      "k": [
+        "hutchinson",
+        "wedderburn",
+        "privy council",
+        "1774"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eagle-turkey",
+      "tier": "power",
+      "t": "1784 letter to his daughter: the bald eagle has “bad moral character,” and the turkey is more respectable",
+      "k": [
+        "turkey",
+        "bald eagle",
+        "bad moral character"
+      ],
+      "n": 0
+    },
+    {
+      "id": "death-taxes",
+      "tier": "power",
+      "t": "1789 letter: “nothing can be said to be certain, except death and taxes”",
+      "k": [
+        "death and taxes",
+        "taxes",
+        "1789"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abolition",
+      "tier": "power",
+      "t": "President of the Pennsylvania Abolition Society; signed its 1790 petition to Congress against slavery, though he had enslaved people earlier in life",
+      "k": [
+        "abolition society",
+        "abolition",
+        "petition",
+        "1790"
+      ],
+      "n": 0
+    },
+    {
+      "id": "william",
+      "tier": "power",
+      "t": "His son William, the last royal governor of New Jersey, stayed loyal to Britain; the two never truly made peace",
+      "k": [
+        "william",
+        "new jersey",
+        "royal governor",
+        "loyal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-documents",
+      "tier": "power",
+      "t": "The only Founder to sign the Declaration, the Treaty of Alliance, the Treaty of Paris, and the Constitution",
+      "k": [
+        "only founder",
+        "treaty of alliance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "republic",
+      "tier": "power",
+      "t": "Reportedly answered “A republic, if you can keep it” when asked what kind of government the Convention had made",
+      "k": [
+        "republic",
+        "if you can keep it"
+      ],
+      "n": 0
+    },
+    {
+      "id": "autobiography",
+      "tier": "power",
+      "t": "His _Autobiography_ lists 13 virtues and tells how he arrived in Philadelphia with “three great puffy rolls”",
+      "k": [
+        "autobiography",
+        "13 virtues",
+        "virtues",
+        "puffy rolls"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Franklin?",
+    "body": "Several famous people have “Franklin” in their names. Franklin Delano Roosevelt was the 32nd president, Franklin Pierce was the 14th, and this man’s own son, William Franklin, was the Loyalist governor of New Jersey. Saying just “Franklin” works on this answer line, but naming the wrong Franklin, or answering with one of his pen names, loses the tossup.",
+    "fix": "The kite, _Poor Richard’s Almanack_, Philadelphia, the Albany Plan, France during the Revolution, and the $100 bill mean Benjamin Franklin. The New Deal and World War II mean FDR. A Loyalist governor who broke with his famous father means William Franklin. Don’t answer with a pen name like “Poor Richard” or “Silence Dogood”; give his real name.",
+    "line": "Real answer line: Benjamin <b><u>Franklin</u></b> (accept <u>Ben Franklin</u>)"
+  },
+  "tests": {
+    "right": [
+      "Benjamin Franklin",
+      "Ben Franklin",
+      "Franklin",
+      "Dr. Franklin",
+      "Benjamin Franklen"
+    ],
+    "prompt": [
+      "Benjamin",
+      "Ben"
+    ],
+    "wrong": [
+      "Franklin Roosevelt",
+      "FDR",
+      "William Franklin",
+      "Franklin Pierce",
+      "Poor Richard",
+      "Thomas Jefferson"
+    ]
+  }
+}
