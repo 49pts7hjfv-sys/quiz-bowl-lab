@@ -7,7 +7,7 @@
   "kicker": "Where an atom’s electrons are likely to be · Labeled s, p, d, and f",
   "dates": "Named by Robert Mulliken, 1932",
   "briefing": "Electrons don’t circle the nucleus like tiny planets. Instead, quantum mechanics says each electron lives in an atomic orbital, a fuzzy cloud-shaped region where it is most likely to be found, and each orbital can hold at most two electrons. Orbitals come in shapes labeled s (a sphere), p (a dumbbell), d (mostly four-leaf clovers), and f, and the order in which they fill gives the periodic table its shape.",
-  "answerHtml": "<b><u>Atomic orbital</u></b>s (accept <u>orbital</u>s or <u>electron orbital</u>s; accept specific types such as <u>s orbital</u>s or <u>p orbital</u>s; prompt on <u>electron cloud</u>s; do not accept “orbits,” “shells,” or “molecular orbitals”)",
+  "answerHtml": "<b><u>Atomic orbital</u></b>s (accept <u>orbital</u>s or <u>electron orbital</u>s; accept specific types such as <u>s orbital</u>s or <u>p orbital</u>s; prompt on <u>electron cloud</u>s or <u>wave function</u>s; do not accept “orbits,” “shells,” or “molecular orbitals”)",
   "accept": [
     "atomic orbital",
     "atomic orbitals",
@@ -462,7 +462,7 @@
     "title": "Not orbits, not shells",
     "body": "Niels Bohr’s older model put electrons on circular orbits, so answering “orbits” for these modern probability regions is wrong. Shells (energy levels, numbered n) and subshells (sets like 2p) are different answers too: a shell holds many of these regions, and each region holds at most two electrons. Molecular orbitals, which spread across a whole molecule, and hybrid orbitals such as sp³ are separate answer lines.",
     "fix": "If the clues say “at most two electrons,” spheres and dumbbells, nodes, or the magnetic quantum number, answer with this term. Circular paths and Bohr mean orbits; numbered energy levels mean shells; regions spread over several bonded atoms mean molecular orbitals.",
-    "line": "Real answer line: <b><u>Atomic orbital</u></b>s (accept <u>orbital</u>s; prompt on <u>electron cloud</u>; do not accept “orbits” or “shells”)"
+    "line": "Real answer line: <b><u>Atomic orbital</u></b>s (accept <u>orbital</u>s or <u>electron orbital</u>s; accept specific types such as <u>s orbital</u>s or <u>p orbital</u>s; prompt on <u>electron cloud</u>s or <u>wave function</u>s; do not accept “orbits,” “shells,” or “molecular orbitals”)"
   },
   "tests": {
     "right": [

@@ -97,7 +97,7 @@
       "r": "Batteries use these reactions to push electrons through a circuit. For 10 points, name these reactions that pair an oxidation with a reduction."
     },
     {
-      "p": "Chemists assign exactly zero volts to the standard hydrogen electrode, the reference point for ranking the half-reactions of these reactions. In that ranking, fluorine gas has the most positive standard electrode potential, while lithium has the most negative.",
+      "p": "Chemists assign exactly zero volts to the standard hydrogen electrode, the reference point for ranking the half-reactions of these reactions. In typical textbook tables of that ranking, fluorine gas has the most positive standard electrode potential, while lithium has the most negative.",
       "r": "In these reactions, the substance that takes electrons is called the oxidizing agent. For 10 points, name these electron-transfer reactions."
     },
     {
@@ -121,7 +121,7 @@
       "r": "Rusting, in which iron gives up electrons to oxygen, is an example of these reactions. For 10 points, name these electron-transfer reactions."
     },
     {
-      "p": "One half of these reactions takes its name from metalworking, where heating an ore with charcoal to free the metal left the ore lighter. The other half originally meant combining with oxygen, as when something burns.",
+      "p": "One half of these reactions takes its name from metalworking, where getting a metal out of its ore was called “reducing” the ore. The other half originally meant combining with oxygen, as when something burns.",
       "r": "Modern chemists define these reactions by the movement of electrons. For 10 points, name these reactions, remembered with the phrase “OIL RIG.”"
     },
     {
@@ -290,11 +290,11 @@
     {
       "id": "old-meanings",
       "tier": "middle",
-      "t": "Oxidation first meant combining with oxygen; reduction meant getting a metal out of its ore, which left the ore lighter",
+      "t": "Oxidation first meant combining with oxygen; reduction first meant getting a metal out of its ore",
       "k": [
         "combining with oxygen",
         "ore",
-        "lighter"
+        "metal"
       ],
       "n": 0
     },
@@ -322,7 +322,7 @@
     {
       "id": "fluorine-lithium",
       "tier": "power",
-      "t": "Fluorine has the most positive standard electrode potential; lithium has the most negative",
+      "t": "In typical textbook tables, fluorine has the most positive standard electrode potential and lithium the most negative",
       "k": [
         "fluorine",
         "lithium",
@@ -457,7 +457,7 @@
     "title": "Whole pair or one half?",
     "body": "These reactions always pair two halves: oxidation, the loss of electrons, and reduction, the gain of electrons. Some tossups ask for just one half, so their answer is “reduction” or “oxidation” alone, not the whole pair. On a tossup about the whole pair, saying only one half earns a prompt, so be ready to say “redox” or “oxidation–reduction.”",
     "fix": "Listen for what the question describes. “These reactions,” the Nernst equation, batteries, or “OIL RIG” mean the whole pair; a process of gaining electrons, happening at the cathode, or lowering an oxidation number means reduction, while losing electrons at the anode means oxidation.",
-    "line": "Real answer line: <b><u>Redox</u></b> reactions (accept <u>oxidation–reduction</u> reactions; prompt on <u>oxidation</u> or <u>reduction</u> alone)"
+    "line": "Real answer line: <b><u>Redox</u></b> reactions (accept <u>oxidation–reduction</u> or <u>reduction–oxidation</u> reactions; prompt on <u>oxidation</u> or <u>reduction</u> alone)"
   },
   "tests": {
     "right": [

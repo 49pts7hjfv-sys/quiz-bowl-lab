@@ -84,7 +84,7 @@
       "r": "It says that a gas’s pressure times its volume stays constant. For 10 points, name this gas law named for an Irish-born chemist of the 1600s."
     },
     {
-      "p": "At a temperature named for this law’s discoverer, a real gas obeys this law over a wide range of pressures, because the effects of its molecules’ attractions and their sizes cancel out. Real gases break this law at very high pressures.",
+      "p": "At a temperature named for this law’s namesake, a real gas obeys this law over a wide range of pressures, because the effects of its molecules’ attractions and their sizes cancel out. Real gases break this law at very high pressures.",
       "r": "This law says that halving a gas’s volume doubles its pressure if the temperature stays fixed. For 10 points, name this law relating pressure and volume."
     },
     {
@@ -96,7 +96,7 @@
       "r": "For 10 points, name this gas law summed up by saying that pressure times volume stays the same."
     },
     {
-      "p": "Robert Hooke built the air pump that this law’s namesake used in his experiments on air, and Hooke later gave his own name to a law about springs. Breathing follows this law: when the diaphragm moves down, the chest cavity gets bigger, so the pressure inside the lungs drops.",
+      "p": "Robert Hooke built the air pump that this law’s namesake used in his experiments on air, and a law about springs is named for Hooke. Breathing follows this law: when the diaphragm moves down, the chest cavity gets bigger, so the pressure inside the lungs drops.",
       "r": "Air then rushes in to fill the lungs. For 10 points, name this law relating a gas’s pressure and volume."
     },
     {
@@ -171,10 +171,10 @@
     {
       "id": "namesake",
       "tier": "giveaway",
-      "t": "Named for an Irish-born chemist of the 1600s, often called a father of modern chemistry",
+      "t": "Named for an Irish-born chemist of the 1600s, often called the first modern chemist",
       "k": [
         "irish-born",
-        "father of modern chemistry",
+        "first modern chemist",
         "1600s"
       ],
       "n": 0
@@ -321,7 +321,7 @@
     {
       "id": "hooke",
       "tier": "power",
-      "t": "Robert Hooke, who later named a law about springs, built the air pump",
+      "t": "Robert Hooke, for whom a law about springs is named, built the air pump",
       "k": [
         "hooke",
         "air pump"
@@ -343,7 +343,7 @@
     {
       "id": "named-temperature",
       "tier": "power",
-      "t": "At a temperature named for its discoverer, a real gas obeys it over a wide range of pressures",
+      "t": "At a temperature named for its namesake, a real gas obeys it over a wide range of pressures",
       "k": [
         "temperature named",
         "real gas"
@@ -417,7 +417,7 @@
     "title": "Pressure and volume only",
     "body": "Gas-law tossups blur together: Charles’s law links volume and temperature, Gay-Lussac’s law links pressure and temperature, and the ideal gas law ties everything together as PV = nRT. This law is the one where the temperature stays fixed while pressure and volume trade off. Hearing “Robert Hooke” in an early clue can also lure a wrong buzz of “Hooke’s law,” which is about springs.",
     "fix": "Ask which quantity is held constant. Constant temperature, with pressure and volume moving in opposite directions, means this law; constant pressure means Charles’s law; constant volume means Gay-Lussac’s law. Saying just “Boyle” earns a prompt, so add “law.”",
-    "line": "Real answer line: <b><u>Boyle’s law</u></b> (accept <u>Boyle–Mariotte law</u> or <u>Mariotte’s law</u>; prompt on <u>Boyle</u>)"
+    "line": "Real answer line: <b><u>Boyle’s law</u></b> (accept <u>Boyle–Mariotte law</u> or <u>Mariotte’s law</u>; prompt on <u>Boyle</u> alone)"
   },
   "tests": {
     "right": [

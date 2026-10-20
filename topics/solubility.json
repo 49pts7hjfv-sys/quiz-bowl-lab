@@ -75,7 +75,7 @@
   },
   "tossups": [
     {
-      "p": "For cerium(III) sulfate, an unusual ionic solid, this property decreases as the water gets warmer, so its curve slopes downward on a graph of this property against temperature. On the same kind of graph, the curve for sodium chloride is nearly flat, while the curve for potassium nitrate rises steeply.",
+      "p": "In the fountain experiment, water sprays into a flask of ammonia gas, because ammonia’s very high value of this property in water lets the gas dissolve and leave a partial vacuum. On graphs of this property against temperature, sodium chloride’s curve is nearly flat, while potassium nitrate’s rises steeply.",
       "r": "This property is often given in grams of solute per 100 grams of water. For 10 points, name this property, the maximum amount of a substance that can dissolve in a solvent."
     },
     {
@@ -91,7 +91,7 @@
       "r": "Substances with high values of this property in water are called hydrophilic, or “water-loving.” For 10 points, name this property, a measure of how well a substance dissolves."
     },
     {
-      "p": "In the “golden rain” demonstration, yellow lead(II) iodide is dissolved in hot water, and glittering golden crystals appear as the water cools, because this property of that compound falls with temperature. That compound first forms as a solid when solutions of lead(II) nitrate and potassium iodide are mixed.",
+      "p": "In the “golden rain” demonstration, yellow lead(II) iodide is dissolved in hot water, and glittering golden crystals appear as the water cools, because this property of that compound is much lower in cold water. That compound first forms as a solid when solutions of lead(II) nitrate and potassium iodide are mixed.",
       "r": "For most solids, this property rises in hotter water. For 10 points, name this property, the most solute that can dissolve in a given amount of solvent."
     },
     {
@@ -103,7 +103,7 @@
       "r": "A solution holding exactly as much solute as this property allows is called saturated. For 10 points, name this property, the maximum amount of solute that a solvent can hold."
     },
     {
-      "p": "Rules for this property in water say that every nitrate, and every compound of sodium, potassium, or ammonium, dissolves easily, while most carbonates and phosphates barely dissolve at all. Chemists use those rules to predict whether mixing two salt solutions will make a cloudy solid.",
+      "p": "Rules for this property in water say that nitrates and compounds of sodium, potassium, or ammonium almost always dissolve easily, while most carbonates and phosphates barely dissolve at all. Chemists use those rules to predict whether mixing two salt solutions will make a cloudy solid.",
       "r": "Such a solid, called a precipitate, forms when a compound can’t stay dissolved. For 10 points, name this property, which describes how much of a substance can dissolve in a solvent."
     },
     {
@@ -319,14 +319,16 @@
       "rabbit": "Chemical equilibrium"
     },
     {
-      "id": "cerium-sulfate",
+      "id": "fountain",
       "tier": "power",
-      "t": "Cerium(III) sulfate is unusual: it dissolves less as water gets warmer",
+      "t": "In the fountain experiment, ammonia gas dissolves in water so readily that it leaves a partial vacuum, and water sprays up into its flask",
       "k": [
-        "cerium",
-        "warmer"
+        "fountain",
+        "ammonia",
+        "partial vacuum"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Ammonia"
     },
     {
       "id": "salt-nitrate-curves",
@@ -362,7 +364,7 @@
     {
       "id": "rules",
       "tier": "power",
-      "t": "Rules: all nitrates and all sodium, potassium, and ammonium compounds dissolve in water; most carbonates and phosphates barely do",
+      "t": "Rules: nitrates and sodium, potassium, and ammonium compounds almost always dissolve in water; most carbonates and phosphates barely do",
       "k": [
         "nitrates",
         "ammonium",
@@ -441,7 +443,7 @@
     "title": "The property, not its laws",
     "body": "Tossups on this property are full of related answer lines: Henry’s law for gases, the solubility product K-sub-s-p for salts that barely dissolve, and saturated or supersaturated solutions. A player who hears “partial pressure” and blurts “Henry’s law,” or hears K-sub-s-p and says “solubility product,” loses the tossup when the question wants the property itself. Also remember that stirring and crushing change how fast something dissolves, not how much.",
     "fix": "Listen for “this property” or “this quantity.” Answer with the property unless the question says “this law” (Henry’s law) or “this constant” (the solubility product).",
-    "line": "Real answer line: <b><u>Solubility</u></b> (accept word forms like <u>soluble</u>; prompt on <u>dissolving</u>; do not accept “solubility product” or “Henry’s law”)"
+    "line": "Real answer line: <b><u>Solubility</u></b> (accept word forms like <u>soluble</u>; prompt on <u>dissolving</u> or <u>miscibility</u>; do not accept “solubility product” or “Henry’s law”)"
   },
   "tests": {
     "right": [

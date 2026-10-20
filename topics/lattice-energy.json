@@ -85,11 +85,11 @@
   },
   "tossups": [
     {
-      "p": "The Kapustinskii [“kah-poo-STIN-skee”] equation estimates this quantity for a salt without knowing its crystal structure, using only the number of ions in its formula, their charges, and their radii. That shortcut is handy because this quantity cannot be measured directly in a laboratory.",
+      "p": "Magnesium oxide and calcium oxide have the same crystal structure as table salt, but this quantity is larger for magnesium oxide, because magnesium ions are smaller than calcium ions. This quantity can’t be measured directly in a laboratory, so chemists work it out from other energies.",
       "r": "The Born–Haber cycle uses Hess’s law to calculate it indirectly. For 10 points, name this energy released when gaseous ions come together to form one mole of an ionic solid."
     },
     {
-      "p": "The Madelung [“MAH-deh-loong”] constant, which is about 1.75 for the sodium chloride crystal structure, appears in the Born–Landé [“lahn-DAY”] equation for this quantity. That equation also includes a Born exponent, which accounts for the repulsion between ions that get too close together.",
+      "p": "Some instant hot packs warm up as calcium chloride dissolves, because the energy released as water surrounds its ions outweighs this quantity for that salt. Calcium chloride has a much larger value of this quantity than sodium chloride, partly because its calcium ions carry a +2 charge.",
       "r": "This quantity is larger for ions with bigger charges and smaller radii. For 10 points, name this measure of how strongly the ions in an ionic crystal are held together."
     },
     {
@@ -101,7 +101,7 @@
       "r": "That cycle, named for Max Born and Fritz Haber, relies on Hess’s law. For 10 points, name this energy released when gaseous ions form an ionic solid."
     },
     {
-      "p": "For silver iodide, the value of this quantity found from experiments is noticeably larger than the value predicted by a purely ionic model, a sign that its bonds have some covalent character. Kasimir Fajans [“FAH-yahns”] wrote rules predicting when ionic bonds take on such covalent character.",
+      "p": "Sodium fluoride and calcium oxide are made of ions of nearly the same sizes, yet this quantity for calcium oxide is almost four times that for sodium fluoride, because the product of its ions’ charges is four times as large. That comparison shows how strongly ionic charge affects this quantity.",
       "r": "This quantity grows as ions get smaller and pack closer together. For 10 points, name this energy that holds an ionic solid together."
     },
     {
@@ -288,34 +288,35 @@
       "n": 0
     },
     {
-      "id": "kapustinskii",
+      "id": "mgo-cao",
       "tier": "power",
-      "t": "The Kapustinskii equation estimates it without knowing the crystal structure",
+      "t": "Magnesium oxide’s value is larger than calcium oxide’s because magnesium ions are smaller; both have table salt’s crystal structure",
       "k": [
-        "kapustinskii",
+        "calcium oxide",
+        "smaller",
         "crystal structure"
       ],
       "n": 0
     },
     {
-      "id": "born-lande",
+      "id": "hot-packs",
       "tier": "power",
-      "t": "The Born–Landé equation calculates it from the ions’ charges, their distance, a Born exponent for repulsion, and the Madelung constant",
+      "t": "Calcium chloride hot packs warm up because the energy released as water surrounds the ions outweighs the energy holding the crystal together",
       "k": [
-        "landé",
-        "born exponent",
-        "repulsion"
+        "calcium chloride",
+        "hot packs",
+        "outweighs"
       ],
       "n": 0
     },
     {
-      "id": "madelung",
+      "id": "naf-cao",
       "tier": "power",
-      "t": "The Madelung constant depends on the crystal’s geometry; it is about 1.75 for the sodium chloride structure",
+      "t": "Sodium fluoride and calcium oxide have ions of nearly equal size, but calcium oxide’s value is almost four times as large because both of its ions carry double charges",
       "k": [
-        "madelung constant",
-        "1.75",
-        "geometry"
+        "sodium fluoride",
+        "four times",
+        "double charges"
       ],
       "n": 0
     },
@@ -348,17 +349,6 @@
       "k": [
         "oxygen",
         "takes energy"
-      ],
-      "n": 0
-    },
-    {
-      "id": "fajans",
-      "tier": "power",
-      "t": "When measured values beat the ionic-model prediction, as in silver iodide, the bonds have covalent character (Fajans’s rules)",
-      "k": [
-        "silver iodide",
-        "covalent character",
-        "fajans"
       ],
       "n": 0
     },
@@ -420,8 +410,8 @@
   "trap": {
     "title": "Which energy is it?",
     "body": "Tossups on this quantity are crowded with other energies: the metal’s ionization energy, the nonmetal’s electron affinity, the bond energy of molecules like Cl₂, and the hydration energy of dissolving ions. Each of those is only one step in the Born–Haber cycle or one side of a comparison, and naming one of them loses the tossup. Saying just “energy” or “enthalpy” earns a prompt.",
-    "fix": "If the clues describe gaseous ions coming together into a crystal, Madelung constants, or the charges and melting points of salts, answer with this quantity. The energy to pull an electron off a single gaseous atom is ionization energy instead.",
-    "line": "Real answer line: <b><u>Lattice energy</u></b> (accept <u>lattice enthalpy</u>; prompt on <u>energy</u> or <u>enthalpy</u>)"
+    "fix": "If the clues describe gaseous ions coming together into a crystal, the Born–Haber cycle, or the charges and melting points of salts, answer with this quantity. The energy to pull an electron off a single gaseous atom is ionization energy instead.",
+    "line": "Real answer line: <b><u>Lattice energy</u></b> (accept <u>lattice enthalpy</u>; prompt on <u>energy</u> or <u>enthalpy</u> alone)"
   },
   "tests": {
     "right": [

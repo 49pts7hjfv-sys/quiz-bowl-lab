@@ -117,7 +117,7 @@
       "r": "Alcohols show a broad peak in this technique because of hydrogen bonding. For 10 points, name this technique that identifies functional groups."
     },
     {
-      "p": "Carboxylic acids show an extremely broad absorption stretching from about 2500 to 3300 reciprocal centimeters in this technique, along with a strong carbonyl peak near 1700. Esters lack that broad band but still show a carbonyl peak, usually near 1735.",
+      "p": "The bending motions detected by this technique have names such as scissoring, rocking, wagging, and twisting. Bends usually absorb at lower wavenumbers than stretches of the same bonds, because bending a bond takes less energy than stretching it.",
       "r": "In this technique, an alcohol’s O–H group gives a broad peak near 3300. For 10 points, name this technique that uses light just past the red end of the visible spectrum."
     },
     {
@@ -133,15 +133,15 @@
       "r": "On Earth, chemists use this technique to find functional groups such as carbonyls. For 10 points, name this technique that uses light just past red."
     },
     {
-      "p": "Liquid samples for this technique are often squeezed between polished plates of sodium chloride, which, unlike glass, let this technique’s light pass through. In this technique, nitriles show a sharp peak near 2250 reciprocal centimeters from their carbon–nitrogen triple bond.",
+      "p": "Liquid samples for this technique are often squeezed between polished plates of sodium chloride, which, unlike glass, let this technique’s light pass through. Water must be kept off those plates, both because it would dissolve them and because water itself absorbs this light strongly.",
       "r": "Below about 1500, its spectra have a complex fingerprint region unique to each compound. For 10 points, name this technique that makes molecular bonds stretch and bend."
     },
     {
-      "p": "Chemists can follow the conversion of an alcohol into a ketone with this technique by watching a broad peak near 3300 reciprocal centimeters disappear while a sharp peak near 1715 appears. Those peaks come from the alcohol’s O–H group and the ketone’s C=O group.",
-      "r": "A strong peak near 1700 in this technique signals a carbonyl. For 10 points, name this technique that identifies functional groups using light just past red."
+      "p": "Chemists can follow the conversion of an alcohol into a ketone with this technique by watching a broad peak near 3300 reciprocal centimeters disappear while a strong, sharp peak near 1700 appears. Those peaks come from the alcohol’s O–H group and the ketone’s C=O group.",
+      "r": "Each functional group absorbs at its own typical wavenumbers in this technique. For 10 points, name this technique that identifies functional groups using light just past red."
     },
     {
-      "p": "In this technique, primary amines show two N–H peaks, from a symmetric and an asymmetric stretch, while secondary amines show only one and tertiary amines show none. Terminal alkynes show a sharp C–H peak near 3300 reciprocal centimeters.",
+      "p": "In this technique, primary amines show two N–H peaks, from a symmetric and an asymmetric stretch, while secondary amines show only one. Tertiary amines show no N–H peak at all, because they have no hydrogen atoms bonded to their nitrogen.",
       "r": "This technique is a quick way to find a molecule’s functional groups. For 10 points, name this technique that makes chemical bonds vibrate."
     },
     {
@@ -242,16 +242,6 @@
       "n": 0
     },
     {
-      "id": "ch-nitrile",
-      "tier": "middle",
-      "t": "C–H stretches appear near 2850 to 3000; nitriles show a sharp C≡N peak near 2250",
-      "k": [
-        "nitriles",
-        "2250"
-      ],
-      "n": 0
-    },
-    {
       "id": "greenhouse",
       "tier": "middle",
       "t": "Greenhouse gases like carbon dioxide, water vapor, and methane absorb this kind of light; nitrogen and oxygen gas barely do",
@@ -262,17 +252,6 @@
       ],
       "n": 0,
       "rabbit": "Carbon dioxide"
-    },
-    {
-      "id": "carboxylic",
-      "tier": "middle",
-      "t": "Carboxylic acids show a very broad O–H band from about 2500 to 3300 plus a carbonyl peak near 1700",
-      "k": [
-        "carboxylic acids",
-        "2500",
-        "very broad"
-      ],
-      "n": 0
     },
     {
       "id": "compare",
@@ -298,10 +277,9 @@
     {
       "id": "monitoring",
       "tier": "middle",
-      "t": "Turning an alcohol into a ketone makes the broad O–H peak vanish and a C=O peak near 1715 appear",
+      "t": "Turning an alcohol into a ketone makes the broad O–H peak vanish and a C=O peak near 1700 appear",
       "k": [
         "ketone",
-        "1715",
         "vanish"
       ],
       "n": 0
@@ -406,7 +384,7 @@
     {
       "id": "amines",
       "tier": "power",
-      "t": "Primary amines show two N–H peaks, secondary amines one, and tertiary amines none",
+      "t": "Primary amines show two N–H peaks, secondary amines one, and tertiary amines, with no N–H bond, none",
       "k": [
         "primary amines",
         "secondary",
@@ -415,12 +393,13 @@
       "n": 0
     },
     {
-      "id": "alkynes",
+      "id": "water-plates",
       "tier": "power",
-      "t": "Terminal alkynes show a sharp C–H peak near 3300",
+      "t": "Water is kept away from salt plates because it dissolves them and strongly absorbs this light itself",
       "k": [
-        "terminal alkynes",
-        "3300"
+        "salt plates",
+        "dissolves",
+        "water"
       ],
       "n": 0
     },
@@ -436,12 +415,13 @@
       "n": 0
     },
     {
-      "id": "esters",
+      "id": "bending-modes",
       "tier": "power",
-      "t": "Esters show a carbonyl peak usually near 1735 but no broad O–H band",
+      "t": "Bending motions have names like scissoring, rocking, wagging, and twisting; bends absorb at lower wavenumbers than stretches",
       "k": [
-        "esters",
-        "1735"
+        "scissoring",
+        "wagging",
+        "lower wavenumbers"
       ],
       "n": 0
     },
@@ -461,7 +441,7 @@
     "title": "Technique, not the light",
     "body": "Physics tossups sometimes ask for infrared radiation itself, the light William Herschel discovered, while chemistry tossups ask for this technique that uses it. Other spectroscopy answer lines are close cousins: NMR maps a molecule’s carbon and hydrogen atoms, mass spectrometry weighs its fragments, and Raman spectroscopy also measures vibrations, but by scattering light instead of absorbing it.",
     "fix": "Wavenumbers, functional groups, bond stretching, and peaks near 1700 or 3300 mean this technique. Chemical shifts and magnetic fields mean NMR; mass-to-charge ratios mean mass spectrometry; scattered light points to Raman.",
-    "line": "Real answer line: <b><u>Infrared</u></b> spectroscopy (accept <u>IR</u> spectroscopy or <u>FTIR</u>; prompt on <u>spectroscopy</u>)"
+    "line": "Real answer line: <b><u>Infrared</u></b> spectroscopy (accept <u>IR</u> spectroscopy or <u>FTIR</u>; prompt on <u>spectroscopy</u> or <u>vibrational</u> spectroscopy)"
   },
   "tests": {
     "right": [

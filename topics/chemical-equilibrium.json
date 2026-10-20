@@ -7,7 +7,7 @@
   "kicker": "Forward and reverse reactions in balance · Le Chatelier predicts how it shifts",
   "dates": "Law of mass action, 1864; Le Chatelier’s principle, 1884",
   "briefing": "Inside a sealed tube of brown nitrogen dioxide gas, molecules keep pairing up into colorless dinitrogen tetroxide and splitting apart again at exactly the same rate, so the color never changes. That balance is chemical equilibrium: the forward and reverse reactions run at equal speeds, so the amounts of reactants and products stay steady even though both reactions keep going. Disturb it by heating, squeezing, or adding chemicals, and it shifts to undo the change, as Le Chatelier’s principle predicts.",
-  "answerHtml": "Chemical <b><u>equilibrium</u></b> (accept <u>dynamic equilibrium</u> or <u>equilibria</u>; do not accept “equilibrium constant” or “Le Chatelier’s principle”)",
+  "answerHtml": "Chemical <b><u>equilibrium</u></b> (accept <u>dynamic equilibrium</u> or <u>equilibria</u>; prompt on <u>equilibrium constant</u> or <u>thermodynamic equilibrium</u>; do not accept “Le Chatelier’s principle”)",
   "accept": [
     "chemical equilibrium",
     "chemical equilibria",
@@ -19,11 +19,13 @@
     "dynamic equilibria"
   ],
   "prompt": [
-    "thermodynamic equilibrium"
-  ],
-  "reject": [
+    "thermodynamic equilibrium",
     "equilibrium constant",
     "equilibrium constants",
+    "the equilibrium constant",
+    "equilibrium constant k"
+  ],
+  "reject": [
     "equilibrium expression",
     "equilibrium concentration",
     "equilibrium concentrations",
@@ -73,7 +75,8 @@
     "activation energy",
     "catalyst",
     "catalysts",
-    "haber process"
+    "haber process",
+    "constant"
   ],
   "media": [],
   "mediaPending": true,
@@ -453,9 +456,9 @@
   ],
   "trap": {
     "title": "State, not its constant",
-    "body": "This answer line has close neighbors: the equilibrium constant K, a number calculated from concentrations; Le Chatelier’s principle, the rule for how this state shifts; and the reaction quotient Q, the same ratio measured at any moment. Tossups on the constant ask for “this constant” or “this quantity.” Answering “equilibrium constant” when the question wants the state is wrong, and answering only “equilibrium” when it wants the constant can lose the tossup too.",
-    "fix": "Listen to the noun. “This state” or “this condition” means the state itself; “this constant,” “this ratio,” or “this quantity symbolized K” means the equilibrium constant; “this principle” about shifting under stress means Le Chatelier’s principle.",
-    "line": "Real answer line: Chemical <b><u>equilibrium</u></b> (accept <u>dynamic equilibrium</u>; do not accept “equilibrium constant”)"
+    "body": "This answer line has close neighbors: the equilibrium constant K, a number calculated from concentrations; Le Chatelier’s principle, the rule for how this state shifts; and the reaction quotient Q, the same ratio measured at any moment. Tossups on the constant ask for “this constant” or “this quantity.” Answering “equilibrium constant” when the question wants the state earns only a prompt, and answering only “equilibrium” when a question wants the constant can lose the tossup.",
+    "fix": "Listen to the noun. “This state” or “this condition” means the state itself; “this constant,” “this ratio,” or “this quantity symbolized K” means the equilibrium constant; “this principle” about shifting under stress means Le Chatelier’s principle. If you are prompted after saying “equilibrium constant,” drop the word “constant.”",
+    "line": "Real answer line: Chemical <b><u>equilibrium</u></b> (accept <u>dynamic equilibrium</u> or <u>equilibria</u>; prompt on <u>equilibrium constant</u> or <u>thermodynamic equilibrium</u>; do not accept “Le Chatelier’s principle”)"
   },
   "tests": {
     "right": [
@@ -466,16 +469,18 @@
       "Equilibria"
     ],
     "prompt": [
-      "Thermodynamic equilibrium"
+      "Thermodynamic equilibrium",
+      "Equilibrium constant",
+      "the equilibrium constant"
     ],
     "wrong": [
-      "Equilibrium constant",
       "Le Chatelier’s principle",
       "Reaction quotient",
       "Thermal equilibrium",
       "Steady state",
       "Reversible reaction",
-      "Catalyst"
+      "Catalyst",
+      "Keq"
     ]
   }
 }
