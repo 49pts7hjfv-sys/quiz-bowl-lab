@@ -1,0 +1,349 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>Abraham</u></b> (or <u>Abram</u>; accept <u>Ibrahim</u> or <u>Avraham</u>)"
+
+data = {
+    "id": "abraham",
+    "name": "Abraham",
+    "mono": "ABR",
+    "category": "Religion",
+    "qbCategory": "Religion",
+    "kicker": "Patriarch of Judaism, Christianity, and Islam · Father of Isaac and Ishmael",
+    "dates": "Story told in Genesis 11–25",
+    "briefing": "In the Book of Genesis, God tells a man named Abram to leave his home for a new land, Canaan, and promises him descendants as countless as the stars. Renamed Abraham, “father of many nations,” he becomes the father of Ishmael and, at age 100, of Isaac. Jews, Christians, and Muslims all honor him as a father of their faith, and in Arabic his name is Ibrahim.",
+    "answerHtml": LINE,
+    "accept": [
+        "abraham",
+        "abram",
+        "ibrahim",
+        "avraham",
+        "avram",
+        "abraham the patriarch"
+    ],
+    "prompt": [],
+    "reject": [
+        "abraham lincoln",
+        "abraham maslow",
+        "lincoln",
+        "maslow",
+        "isaac",
+        "ishmael",
+        "ismail",
+        "jacob",
+        "israel",
+        "lot",
+        "sarah",
+        "sarai",
+        "hagar",
+        "terah",
+        "nahor",
+        "melchizedek",
+        "keturah",
+        "eliezer",
+        "rebekah",
+        "noah",
+        "moses",
+        "adam",
+        "isaiah",
+        "absalom",
+        "abimelech",
+        "abel"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Abraham",
+    "qb": {"q": "Abraham", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "To bury his wife, this man paid Ephron the Hittite 400 shekels of silver for the cave of Machpelah [“mak-PEE-luh”] near Hebron. Years later, this man died at the age of 175 and was buried in the same cave.",
+            "r": "His sons Isaac and Ishmael buried him there. For 10 points, name this patriarch, the husband of Sarah."
+        },
+        {
+            "p": "With 318 trained men from his household, this man rescued his nephew from four invading kings. Afterward, Melchizedek [“mel-KIZ-uh-dek”], the priest-king of Salem, blessed him with bread and wine, and this man gave Melchizedek a tenth of the spoils.",
+            "r": "His nephew was Lot. For 10 points, name this patriarch to whom God promised descendants as many as the stars."
+        },
+        {
+            "p": "Three visitors appeared at this man’s tent by the oaks of Mamre [“MAM-ree”], and he hurried to serve them bread, curds, milk, and a calf. One of the guests promised that within a year this man’s elderly wife would have a son.",
+            "r": "She laughed at the news, and the boy was named Isaac, meaning “he laughs.” For 10 points, name this patriarch, Isaac’s father."
+        },
+        {
+            "p": "This man asked God whether He would spare a wicked city for the sake of fifty good people living there, then bargained the number down to forty-five, forty, thirty, twenty, and finally ten. God agreed to each lower number.",
+            "r": "That city, Sodom, was home to this man’s nephew Lot. For 10 points, name this patriarch, the father of Isaac and Ishmael."
+        },
+        {
+            "p": "In a vision, this man watched a smoking firepot and a flaming torch pass between the halves of animals he had laid out, as God made a covenant with him. Earlier, he had been told that his descendants would be as many as the stars.",
+            "r": "For 10 points, name this patriarch whose wife Sarah gave birth to Isaac in her old age."
+        },
+        {
+            "p": "In the Quran, this prophet smashes his people’s idols but leaves the biggest one standing, then tells the people to ask that idol who broke the others. When his people throw him into a fire, God commands the flames to be cool and safe for him.",
+            "r": "Muslims believe he and Ishmael built the Kaaba. For 10 points, name this prophet honored by Jews, Christians, and Muslims."
+        },
+        {
+            "p": "This man’s father, Terah, took the family toward Canaan but settled in Haran. God told this man, “Go from your country,” promising to make him a great nation and to bless all the families of the earth through him.",
+            "r": "For 10 points, name this patriarch who left Ur for Canaan with his wife Sarah."
+        },
+        {
+            "p": "Early one morning, this man gave a servant woman bread and a skin of water and sent her away with her son. When the water ran out in the wilderness of Beersheba [“beer-SHEE-buh”], an angel called to her, and she saw a well.",
+            "r": "That woman was Hagar, and the boy was Ishmael. For 10 points, name this patriarch, Ishmael’s father."
+        },
+        {
+            "p": "Many synagogues read the story of this man’s test on Mount Moriah, called the Akedah [“ah-kay-DAH”], or “binding,” on Rosh Hashanah. In that story, he offers a ram caught by its horns in a thicket and names the place “The Lord Will Provide.”",
+            "r": "An angel had stopped him from sacrificing his son Isaac just in time. For 10 points, name this patriarch of the Hebrew Bible."
+        },
+        {
+            "p": "Writing as “Johannes de Silentio,” Søren Kierkegaard [“KEER-kuh-gard”] praised this man as a “knight of faith” in _Fear and Trembling_, a book about his journey to a mountain in the land of Moriah. That 1843 book asks whether faith can ever rise above ordinary ethics.",
+            "r": "There, an angel stopped him from sacrificing his son Isaac. For 10 points, name this patriarch whom God renamed “father of many nations.”"
+        },
+        {
+            "p": "In a 1401 contest to design bronze doors for the Florence Baptistery, Lorenzo Ghiberti [“ghee-BAIR-tee”] and Filippo Brunelleschi [“broo-nuh-LESS-kee”] each made a panel showing a scene from this man’s life. Caravaggio and Rembrandt later painted the same dramatic scene.",
+            "r": "In that scene, an angel stops him from sacrificing his son Isaac. For 10 points, name this patriarch, the husband of Sarah."
+        },
+        {
+            "p": "Late in his life, this man took another wife, Keturah [“keh-TOOR-uh”], who had six sons with him, including Midian. Long before, when this man was 99 years old, God had given him a new name meaning “father of many nations.”",
+            "r": "His wife Sarai was renamed Sarah at the same time. For 10 points, name this patriarch, the father of Isaac."
+        },
+        {
+            "p": "This man sent his oldest servant back to his homeland to find a wife for his son, and the servant chose Rebekah after she offered water to him and to all ten of his camels. Rebekah was the granddaughter of this man’s brother Nahor.",
+            "r": "That son was Isaac, who later became the father of Jacob and Esau. For 10 points, name this patriarch, whose wife was Sarah."
+        },
+        {
+            "p": "Pilgrims in Mecca pray near a stone said to bear this man’s footprints, known as his Station, or Maqam [“mah-KAHM”]. The Quran calls this man a hanif [“hah-NEEF”], a pure believer in one God who was “neither a Jew nor a Christian.”",
+            "r": "Muslims remember his willingness to sacrifice his son on the holiday of Eid al-Adha. For 10 points, name this patriarch, called the “Friend of God.”"
+        },
+        {
+            "p": "Paul’s Letter to the Romans quotes the verse saying that this man “believed God, and it was counted to him as righteousness,” and calls him the father of all who believe. In a parable in the Gospel of Luke, the beggar Lazarus is carried by angels to this man’s side.",
+            "r": "For 10 points, name this patriarch whom Jews, Christians, and Muslims all honor as a father of their faith."
+        }
+    ],
+    "clues": [
+        {
+            "id": "patriarch",
+            "tier": "giveaway",
+            "t": "Patriarch honored by Jews, Christians, and Muslims as a father of their faith; God made a covenant with him",
+            "k": ["patriarch", "covenant", "father of their faith"],
+            "n": 0
+        },
+        {
+            "id": "isaac-sarah",
+            "tier": "giveaway",
+            "t": "Father of Isaac with his wife Sarah, who gave birth when he was 100 and she was 90",
+            "k": ["isaac", "sarah", "100"],
+            "n": 0
+        },
+        {
+            "id": "ishmael-hagar",
+            "tier": "giveaway",
+            "t": "Father of Ishmael with Hagar, Sarah’s Egyptian servant",
+            "k": ["ishmael", "hagar"],
+            "n": 0
+        },
+        {
+            "id": "binding",
+            "tier": "giveaway",
+            "t": "God tested him by asking him to sacrifice Isaac; an angel stopped him just in time",
+            "k": ["sacrifice", "binding", "angel", "test"],
+            "n": 0
+        },
+        {
+            "id": "ur-canaan",
+            "tier": "giveaway",
+            "t": "Left Ur of the Chaldees and journeyed to Canaan, the land God promised to his descendants",
+            "k": ["ur", "chaldees", "canaan", "promised land"],
+            "n": 0
+        },
+        {
+            "id": "name-change",
+            "tier": "middle",
+            "t": "At 99, God gave him a new name meaning “father of many nations” and renamed his wife Sarai as Sarah",
+            "k": ["father of many nations", "renamed", "sarai", "99"],
+            "n": 0
+        },
+        {
+            "id": "stars",
+            "tier": "middle",
+            "t": "God promised him descendants as many as the stars in the sky and the sand on the seashore",
+            "k": ["stars", "sand", "descendants"],
+            "n": 0
+        },
+        {
+            "id": "lot-sodom",
+            "tier": "middle",
+            "t": "His nephew Lot settled near Sodom; he bargained with God to spare the city for the sake of ten good people",
+            "k": ["lot", "sodom", "nephew", "bargained"],
+            "n": 0
+        },
+        {
+            "id": "mamre",
+            "tier": "middle",
+            "t": "Fed three visitors at the oaks of Mamre, who promised Sarah a son; she laughed, and Isaac means “he laughs”",
+            "k": ["mamre", "three visitors", "laughed"],
+            "n": 0
+        },
+        {
+            "id": "moriah-ram",
+            "tier": "middle",
+            "t": "On Mount Moriah he offered a ram caught in a thicket instead of Isaac and named the place “The Lord Will Provide”",
+            "k": ["moriah", "ram", "thicket"],
+            "n": 0,
+            "rabbit": "Jerusalem"
+        },
+        {
+            "id": "hagar-wilderness",
+            "tier": "middle",
+            "t": "Sent Hagar and Ishmael away into the wilderness of Beersheba, where an angel called to Hagar and she found a well",
+            "k": ["beersheba", "wilderness", "well"],
+            "n": 0
+        },
+        {
+            "id": "kaaba",
+            "tier": "middle",
+            "t": "Muslims believe he and his son Ishmael built the Kaaba in Mecca",
+            "k": ["kaaba", "mecca"],
+            "n": 0,
+            "rabbit": "Mecca"
+        },
+        {
+            "id": "eid",
+            "tier": "middle",
+            "t": "Muslims remember his willingness to sacrifice his son on Eid al-Adha, during the season of the Hajj",
+            "k": ["eid al-adha", "eid", "hajj"],
+            "n": 0,
+            "rabbit": "Hajj"
+        },
+        {
+            "id": "friend-of-god",
+            "tier": "middle",
+            "t": "Called the “Friend of God” in the Bible and the Quran (Khalil Allah in Arabic)",
+            "k": ["friend of god", "khalil"],
+            "n": 0
+        },
+        {
+            "id": "machpelah",
+            "tier": "power",
+            "t": "Bought the cave of Machpelah in Hebron from Ephron the Hittite for 400 shekels to bury Sarah; buried there himself at 175",
+            "k": ["machpelah", "hebron", "ephron", "400 shekels"],
+            "n": 0
+        },
+        {
+            "id": "melchizedek",
+            "tier": "power",
+            "t": "With 318 men he rescued Lot from four kings; Melchizedek, priest-king of Salem, blessed him, and he gave Melchizedek a tenth of the spoils",
+            "k": ["melchizedek", "salem", "318", "tenth"],
+            "n": 0
+        },
+        {
+            "id": "covenant-pieces",
+            "tier": "power",
+            "t": "Covenant between the pieces: a smoking firepot and a flaming torch passed between the halves of his offering",
+            "k": ["covenant between the pieces", "firepot", "torch"],
+            "n": 0
+        },
+        {
+            "id": "terah-haran",
+            "tier": "power",
+            "t": "His father Terah took the family toward Canaan but settled in Haran; God told him, “Go from your country” (Lech lecha)",
+            "k": ["terah", "haran", "lech lecha", "go from your country"],
+            "n": 0
+        },
+        {
+            "id": "idols-fire",
+            "tier": "power",
+            "t": "In the Quran he smashes idols and is thrown into a fire that God makes cool and safe; a Jewish legend sets the idol-smashing in Terah’s shop",
+            "k": ["idols", "fire", "cool and safe", "terah"],
+            "n": 0
+        },
+        {
+            "id": "hanif",
+            "tier": "power",
+            "t": "The Quran calls him a hanif, a pure believer in one God, “neither a Jew nor a Christian”",
+            "k": ["hanif", "neither a jew"],
+            "n": 0
+        },
+        {
+            "id": "maqam",
+            "tier": "power",
+            "t": "His Station (Maqam), a stone near the Kaaba, is said to bear his footprints",
+            "k": ["maqam", "station", "footprints"],
+            "n": 0
+        },
+        {
+            "id": "rebekah",
+            "tier": "power",
+            "t": "His oldest servant found Rebekah as a wife for Isaac when she watered all ten of the servant’s camels",
+            "k": ["rebekah", "camels", "servant"],
+            "n": 0
+        },
+        {
+            "id": "akedah",
+            "tier": "power",
+            "t": "The Akedah (“binding”) is read on Rosh Hashanah; the shofar, a ram’s horn, recalls the ram he offered",
+            "k": ["akedah", "rosh hashanah", "shofar"],
+            "n": 0
+        },
+        {
+            "id": "kierkegaard",
+            "tier": "power",
+            "t": "Søren Kierkegaard’s _Fear and Trembling_ (1843), written as Johannes de Silentio, calls him a “knight of faith”",
+            "k": ["kierkegaard", "fear and trembling", "knight of faith", "silentio"],
+            "n": 0
+        },
+        {
+            "id": "florence-doors",
+            "tier": "power",
+            "t": "1401 Florence Baptistery contest: Ghiberti and Brunelleschi each sculpted the sacrifice of Isaac; Caravaggio and Rembrandt painted it",
+            "k": ["ghiberti", "brunelleschi", "baptistery", "1401"],
+            "n": 0
+        },
+        {
+            "id": "keturah",
+            "tier": "power",
+            "t": "Late in life he married Keturah, who had six sons with him, including Midian",
+            "k": ["keturah", "midian"],
+            "n": 0
+        },
+        {
+            "id": "romans-luke",
+            "tier": "power",
+            "t": "Paul’s Letter to the Romans calls him “the father of all who believe”; in Luke’s parable, angels carry the beggar Lazarus to his side",
+            "k": ["romans", "lazarus", "father of all who believe"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Father, not son",
+        "body": "Many clues describe his family, and players blurt the wrong name: Isaac is the son who was nearly sacrificed, Ishmael is Hagar’s son, Lot is the nephew who lived near Sodom, and Jacob is the grandson renamed Israel. In questions about Islam, the son who was nearly sacrificed is usually understood to be Ishmael, since the Quran does not name him.",
+        "fix": "Listen for “this man’s son,” “this man’s nephew,” or “this man’s wife.” The one who leaves Ur, receives the covenant, and is renamed “father of many nations” is Abraham. His birth name Abram, the Hebrew Avraham, and the Arabic Ibrahim are all accepted.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Abraham",
+            "Abram",
+            "Ibrahim",
+            "Avraham",
+            "Abraham the patriarch",
+            "Abrahem"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Isaac",
+            "Ishmael",
+            "Abraham Lincoln",
+            "Lot",
+            "Jacob",
+            "Sarah",
+            "Moses"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

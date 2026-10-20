@@ -134,7 +134,7 @@ data = {
             "r": "That image is honored as the Virgin of Guadalupe. For 10 points, name this woman, the mother of Jesus."
         },
         {
-            "p": "In 1858, fourteen-year-old Bernadette Soubirous [“soo-bee-ROO”] said that a lady appeared to her eighteen times in a grotto near a town in southern France. Millions of pilgrims visit that grotto, where many hope to be healed by water from its spring.",
+            "p": "In 1858, fourteen-year-old Bernadette Soubirous [“soo-bee-ROO”] said that a lady appeared to her eighteen times in a grotto near a town in southwestern France. Millions of pilgrims visit that grotto, where many hope to be healed by water from its spring.",
             "r": "Bernadette said the lady told her, “I am the Immaculate Conception.” That town is Lourdes [“LOORD”]. For 10 points, name this mother of Jesus."
         },
         {
@@ -174,8 +174,8 @@ data = {
             "r": "That basilica is named for her Immaculate Conception. For 10 points, name this woman, the wife of Joseph and the mother of Jesus."
         },
         {
-            "p": "In 2002, Pope John Paul II added the Luminous Mysteries to a string of prayer beads used to honor this woman, which already had Joyful, Sorrowful, and Glorious Mysteries. On that string, each group of ten beads, called a decade, is used to count prayers that begin with the angel’s greeting to her.",
-            "r": "That string of beads is called the rosary. For 10 points, name this woman whom Catholics honor as the mother of Jesus."
+            "p": "In 2002, Pope John Paul II added five Luminous Mysteries to a prayer devotion honoring this woman, which already had Joyful, Sorrowful, and Glorious Mysteries. In that devotion, people count prayers on a string of beads in groups of ten called decades, and each of those prayers begins with the angel’s greeting to her.",
+            "r": "That devotion and its beads are called the rosary. For 10 points, name this woman whom Catholics honor as the mother of Jesus."
         }
     ],
     "clues": [

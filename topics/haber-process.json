@@ -38,9 +38,6 @@
     "born haber",
     "haber cycle",
     "carl bosch",
-    "bosch",
-    "bosch process",
-    "bosch reaction",
     "ostwald process",
     "contact process",
     "solvay process",
@@ -61,7 +58,6 @@
     "ammonium nitrate",
     "urea",
     "nitric acid",
-    "nitrogen",
     "hydrogen",
     "nitrogen cycle",
     "biological nitrogen fixation",
@@ -103,7 +99,7 @@
       "r": "For 10 points, name this process that turns nitrogen and hydrogen into ammonia over an iron catalyst."
     },
     {
-      "p": "This process answered an 1898 warning from William Crookes that the world would soon run short of the nitrogen compounds needed to grow enough wheat. Before it, farmers depended on seabird droppings called guano and on sodium nitrate, or saltpeter, mined in the deserts of Chile.",
+      "p": "This process answered an 1898 warning from William Crookes that the world would soon run short of the nitrogen compounds needed to grow enough wheat. Before it, farmers depended on seabird droppings called guano and on sodium nitrate, or Chile saltpeter, mined in Chile’s Atacama Desert.",
       "r": "This process solved that problem by turning nitrogen from the air into ammonia. For 10 points, name this industrial process that uses an iron catalyst."
     },
     {
@@ -400,7 +396,7 @@
     {
       "id": "half-nitrogen",
       "tier": "power",
-      "t": "About half the nitrogen atoms in a typical human body have passed through it; it has been called the most important invention of the 20th century",
+      "t": "Scientists estimate that about half the nitrogen atoms in a typical human body have passed through it; it has been called the most important invention of the 20th century",
       "k": [
         "half",
         "human body",
@@ -454,7 +450,8 @@
       "Haber-Bosch process",
       "Haber–Bosch",
       "Haber's process",
-      "Haber proces"
+      "Haber proces",
+      "the Haber-Bosch process"
     ],
     "prompt": [
       "Haber",

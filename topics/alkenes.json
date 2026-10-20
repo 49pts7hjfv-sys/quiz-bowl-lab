@@ -91,8 +91,8 @@
       "r": "These compounds turn orange bromine water colorless. For 10 points, name these hydrocarbons with at least one carbon–carbon double bond."
     },
     {
-      "p": "In 1933, Morris Kharasch showed that peroxides make hydrogen bromide add to these compounds the “wrong” way, against Markovnikov’s rule, because the reaction then runs through free radicals. Herbert C. Brown’s hydroboration also adds to these compounds in an “anti-Markovnikov” way.",
-      "r": "Hydroboration turns these compounds into alcohols. For 10 points, name these hydrocarbons, such as ethene, that have a carbon–carbon double bond."
+      "p": "Industrial ethanol can be made by adding steam to the simplest of these compounds over a phosphoric acid catalyst. Olive oil and other unsaturated fats stay liquid at room temperature partly because the bonds that define these compounds put kinks in their fatty-acid chains.",
+      "r": "For 10 points, name these hydrocarbons, such as ethene, that have a carbon–carbon double bond."
     },
     {
       "p": "In ozonolysis [“oh-zoh-NOL-ih-sis”], ozone splits one of these molecules into two pieces, and a reagent such as zinc or dimethyl sulfide then turns those pieces into aldehydes or ketones. Identifying those pieces tells chemists where the original molecule was broken.",
@@ -103,7 +103,7 @@
       "r": "Bromine water also detects them by losing its orange color. For 10 points, name these unsaturated hydrocarbons whose names end in “-ene.”"
     },
     {
-      "p": "Zaitsev’s [“ZYE-tsefs”] rule predicts that when a strong base removes HBr from an alkyl bromide, the main product is the more substituted of these compounds, while a bulky base can favor the less substituted one, called the Hofmann product.",
+      "p": "Zaitsev’s [“ZYE-tsefs”] rule predicts that when a strong base removes HBr from an alkyl bromide, the main product is the more substituted of these compounds. Reactions like that one, which remove a small molecule from two neighboring carbon atoms, are called eliminations.",
       "r": "Removing water from alcohols also makes them. For 10 points, name these hydrocarbons with at least one carbon–carbon double bond, such as propene."
     },
     {
@@ -355,34 +355,36 @@
       "n": 0
     },
     {
-      "id": "kharasch",
+      "id": "steam-ethanol",
       "tier": "power",
-      "t": "Kharasch’s peroxide effect (1933): peroxides make HBr add the anti-Markovnikov way, through free radicals",
+      "t": "Industrial ethanol can be made by adding steam to ethene, the simplest one, over a phosphoric acid catalyst",
       "k": [
-        "kharasch",
-        "peroxide",
-        "anti-markovnikov"
+        "ethanol",
+        "steam",
+        "phosphoric acid"
       ],
       "n": 0
     },
     {
-      "id": "hydroboration",
+      "id": "unsaturated-fats",
       "tier": "power",
-      "t": "Herbert C. Brown’s hydroboration turns them into alcohols with the –OH on the less crowded carbon",
+      "t": "Unsaturated fats like olive oil stay liquid partly because their double bonds put kinks in the fatty-acid chains",
       "k": [
-        "hydroboration",
-        "less crowded"
+        "unsaturated fats",
+        "olive oil",
+        "kinks"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Lipids"
     },
     {
       "id": "zaitsev",
       "tier": "power",
-      "t": "Zaitsev’s rule: eliminations usually give the more substituted one; bulky bases give the Hofmann product",
+      "t": "Zaitsev’s rule: eliminations, which remove a small molecule like HBr or water from neighboring carbons, usually give the more substituted one",
       "k": [
         "zaitsev",
         "more substituted",
-        "hofmann"
+        "eliminations"
       ],
       "n": 0
     },
@@ -443,7 +445,7 @@
     }
   ],
   "trap": {
-    "title": "One vowel: a, e, or y",
+    "title": "Watch the vowel",
     "body": "Alkanes (only single bonds), alkenes (a carbon–carbon double bond), and alkynes (a triple bond) differ by a single vowel, so a slip of the tongue gives a wrong answer. Players also blurt “ethylene,” the simplest example, when the question wants the whole class, or “alcohols,” since many clues describe reactions that turn these compounds into alcohols.",
     "fix": "Match the vowel to the bond: a = single (saturated, “-ane”), e = double (“-ene”), y = triple (“-yne”). Bromine water turning colorless, Markovnikov’s rule, cis–trans isomers, and polyethylene all mean double bonds.",
     "line": "Real answer line: <b><u>Alkenes</u></b> (accept <u>alkene</u> or <u>olefin</u>s; prompt on <u>unsaturated hydrocarbon</u>s; do not accept “alkanes” or “alkynes”)"

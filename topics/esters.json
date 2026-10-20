@@ -38,7 +38,6 @@
     "transesterification",
     "esterase",
     "esterases",
-    "carboxylic acid",
     "carboxylic acids",
     "alcohol",
     "alcohols",
@@ -68,7 +67,6 @@
     "soaps",
     "acetate",
     "acetates",
-    "carboxylate",
     "carboxylates",
     "ethyl acetate",
     "isoamyl acetate",
@@ -130,7 +128,7 @@
       "r": "For 10 points, name this class of compounds formed when a carboxylic acid reacts with an alcohol."
     },
     {
-      "p": "In infrared spectra, members of this class show a strong peak near 1,735 inverse centimeters from their carbon–oxygen double bond, but no broad O–H band. One member, ethyl acetate, is used to remove caffeine from coffee beans and in some nail polish removers.",
+      "p": "One member of this class, ethyl acetate, is used to remove caffeine from coffee beans and in some nail polish removers. The reaction that makes these compounds is called a condensation, because the two starting molecules give off a small molecule of water as they join.",
       "r": "For 10 points, name this class of compounds, made from an alcohol and a carboxylic acid."
     },
     {
@@ -138,7 +136,7 @@
       "r": "For 10 points, name this class of compounds, many of which smell fruity, made from carboxylic acids and alcohols."
     },
     {
-      "p": "Lithium aluminum hydride reduces these compounds all the way to two alcohols, but the milder reagent DIBAL [“DYE-bal”] can stop at an aldehyde if the reaction is kept very cold. Water and acid can also break these compounds back into their two starting materials.",
+      "p": "Ethyl butanoate [“byoo-tuh-NOH-ate”], which smells like pineapple, and octyl acetate, which smells like oranges, are two members of this class used in artificial flavors. Water and acid can break these compounds back into their two starting materials.",
       "r": "For 10 points, name this class of compounds, made from a carboxylic acid and an alcohol, many of which smell like fruit."
     },
     {
@@ -350,13 +348,13 @@
       "n": 0
     },
     {
-      "id": "reduction",
+      "id": "pineapple-orange",
       "tier": "power",
-      "t": "Lithium aluminum hydride reduces them to two alcohols; very cold DIBAL can stop at an aldehyde",
+      "t": "Ethyl butanoate smells like pineapple and octyl acetate smells like oranges; both are used in artificial fruit flavors",
       "k": [
-        "lithium aluminum hydride",
-        "dibal",
-        "aldehyde"
+        "ethyl butanoate",
+        "pineapple",
+        "octyl acetate"
       ],
       "n": 0
     },
@@ -416,16 +414,14 @@
       "n": 0
     },
     {
-      "id": "infrared",
+      "id": "condensation",
       "tier": "power",
-      "t": "Infrared spectra show a strong carbonyl peak near 1,735 inverse centimeters but no broad O–H band",
+      "t": "Making them is a condensation reaction: the acid and the alcohol join and give off a small water molecule",
       "k": [
-        "infrared",
-        "carbonyl peak",
-        "1,735"
+        "condensation",
+        "water molecule"
       ],
-      "n": 0,
-      "rabbit": "Infrared spectroscopy"
+      "n": 0
     },
     {
       "id": "pla",

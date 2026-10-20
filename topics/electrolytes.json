@@ -28,11 +28,11 @@
     "ionic solution",
     "ionic solutions",
     "ionic substance",
-    "ionic substances"
+    "ionic substances",
+    "electrolytic"
   ],
   "reject": [
     "electrolysis",
-    "electrolytic",
     "electrolytic cell",
     "electrolytic cells",
     "electrolytic capacitor",
@@ -106,7 +106,7 @@
       "r": "For 10 points, name these substances, such as sodium chloride, that conduct electricity when dissolved because they split into ions."
     },
     {
-      "p": "Friedrich Kohlrausch [“KOHL-rowsh”] found that the molar conductivity of strong examples of these substances drops by an amount proportional to the square root of their concentration. His law of independent migration says that each kind of ion adds its own fixed amount to the conductivity of a very dilute solution.",
+      "p": "A basic blood test checks the levels of several of these substances, including sodium, potassium, and chloride. In a classic lemon battery, the fruit’s acidic juice serves as one of these substances, letting ions carry charge between strips of zinc and copper pushed into the lemon.",
       "r": "For 10 points, name these substances, like table salt, that conduct electricity in water because they release ions."
     },
     {
@@ -306,7 +306,7 @@
     {
       "id": "freezing-point",
       "tier": "middle",
-      "t": "They lower water’s freezing point more than sugar does, which helps road salt melt ice",
+      "t": "They lower water’s freezing point more than the same number of sugar molecules would, which helps road salt melt ice",
       "k": [
         "freezing point",
         "road salt"
@@ -346,13 +346,14 @@
       "n": 0
     },
     {
-      "id": "kohlrausch",
+      "id": "lemon-battery",
       "tier": "power",
-      "t": "Friedrich Kohlrausch: the molar conductivity of strong ones drops by an amount proportional to the square root of concentration",
+      "t": "A lemon battery’s acidic juice is one, letting ions carry charge between zinc and copper; a basic blood test checks sodium, potassium, and chloride",
       "k": [
-        "kohlrausch",
-        "square root",
-        "molar conductivity"
+        "lemon battery",
+        "blood test",
+        "zinc",
+        "copper"
       ],
       "n": 0
     },
