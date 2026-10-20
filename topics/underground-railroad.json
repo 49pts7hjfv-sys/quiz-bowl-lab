@@ -5,7 +5,7 @@
   "category": "American History",
   "qbCategory": "History · American History",
   "kicker": "Secret network that helped enslaved people escape · Routes north to freedom",
-  "dates": "Most active 1830–1865",
+  "dates": "Most active c. 1830–1865",
   "briefing": "The Underground Railroad was not underground and not a railroad: it was a secret network of people who helped enslaved people escape to the free states and Canada before the Civil War. Free Black people, white abolitionists, and many Quakers used railroad code words, calling guides “conductors” and safe houses “stations.” Harriet Tubman became its most famous conductor, and William Still of Philadelphia recorded the stories of hundreds of freedom seekers.",
   "answerHtml": "<b><u>Underground Railroad</u></b> (prompt on <u>Railroad</u>; do not accept “Harriet Tubman”)",
   "accept": [
@@ -140,7 +140,7 @@
     {
       "id": "code-words",
       "tier": "giveaway",
-      "t": "Used railroad code words: guides were “conductors” and safe houses were “stations”",
+      "t": "Used train code words: guides were “conductors” and safe houses were “stations”",
       "k": [
         "conductors",
         "stations",

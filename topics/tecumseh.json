@@ -53,7 +53,7 @@
       "r": "A Union general who marched through Georgia had this man’s name as his middle name. For 10 points, name this Shawnee leader who allied with the British in the War of 1812."
     },
     {
-      "p": "Supporters of Richard Mentor Johnson, who later became Martin Van Buren’s vice president, used a campaign rhyme claiming that Johnson had killed this man. This man died in October 1813 at a battle near Moraviantown, and his body was never identified.",
+      "p": "Supporters of Richard Mentor Johnson, who later became Martin Van Buren’s vice president, used a campaign rhyme claiming that Johnson had killed this man. This man died in October 1813 at a battle near Moraviantown, and his body was never positively identified.",
       "r": "That battle was the Battle of the Thames [“TEMZ”]. For 10 points, name this Shawnee leader who fought for the British in the War of 1812."
     },
     {
@@ -248,10 +248,10 @@
     {
       "id": "moraviantown",
       "tier": "power",
-      "t": "Died near Moraviantown; his body was never identified",
+      "t": "Died near Moraviantown; his body was never positively identified",
       "k": [
         "moraviantown",
-        "never identified"
+        "positively identified"
       ],
       "n": 0
     },
@@ -390,7 +390,7 @@
     "title": "Not Sherman, not the Prophet",
     "body": "Three names collide here. Tecumseh was the Shawnee war leader who built the confederacy and died at the Thames in 1813; his younger brother Tenskwatawa, “the Prophet,” was the religious leader whose followers lost at Tippecanoe in 1811; and William Tecumseh Sherman was a Union general in the Civil War who was named after him. Answering “Tecumseh” on a Sherman question, or “Tenskwatawa” on a Tecumseh question, loses the tossup.",
     "fix": "Visions, the 1806 solar eclipse, or giving up alcohol and American goods point to Tenskwatawa; the confederacy, the British alliance, Isaac Brock, or the Thames point to Tecumseh. Civil War clues like the March to the Sea or the capture of Atlanta mean Sherman.",
-    "line": "Real answer line: <b><u>Tecumseh</u></b> (do not accept “Tenskwatawa” or “William Tecumseh Sherman”)"
+    "line": "Real answer line: <b><u>Tecumseh</u></b> (accept <u>Tecumtha</u>; do not accept “Tenskwatawa” or “William Tecumseh Sherman”)"
   },
   "tests": {
     "right": [

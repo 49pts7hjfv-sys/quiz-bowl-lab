@@ -436,7 +436,7 @@
     "title": "City, state, or president?",
     "body": "Three different answer lines share this name: George Washington, Washington, D.C., and Washington State. Clues about the Potomac River, L’Enfant’s street plan, the Smithsonian, or the 23rd Amendment want the city; Seattle, Mount Rainier, or Olympia mean the state; and clues about the first president’s life mean George Washington. Arlington National Cemetery and the Pentagon are across the river in Virginia, not in the city.",
     "fix": "Listen for “this city,” “this district,” or “this capital.” For the city, “Washington” alone is fine, but if you add anything, make it “D.C.” or “District of Columbia,” never “State.”",
-    "line": "Real answer line: <b><u>Washington</u></b>, D.C. (accept <u>District of Columbia</u>; do not accept “Washington State” or “George Washington”)"
+    "line": "Real answer line: <b><u>Washington</u></b>, D.C. (accept <u>District of Columbia</u> or <u>D.C.</u>; do not accept “Washington State” or “George Washington”)"
   },
   "tests": {
     "right": [
@@ -456,7 +456,8 @@
       "Philadelphia",
       "Arlington",
       "Washington Monument",
-      "Baltimore"
+      "Baltimore",
+      "Washington (state)"
     ]
   }
 }

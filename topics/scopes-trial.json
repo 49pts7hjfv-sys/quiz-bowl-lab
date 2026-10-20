@@ -38,7 +38,6 @@
     "darrow",
     "william jennings bryan",
     "bryan",
-    "evolution",
     "human evolution",
     "charles darwin",
     "darwin",
@@ -66,7 +65,7 @@
       "r": "The court still upheld the Butler Act. For 10 points, name this 1925 trial in Dayton, Tennessee, over the teaching of evolution."
     },
     {
-      "p": "Worried that the crowded courtroom floor might give way in the summer heat, the judge in this case moved the proceedings onto the courthouse lawn. There, the defense called a lawyer for the other side to the witness stand as an expert on the Bible.",
+      "p": "Worried about the summer heat and that the crowded courtroom floor might give way, the judge in this case moved the proceedings onto the courthouse lawn. There, the defense called a lawyer for the other side to the witness stand as an expert on the Bible.",
       "r": "That expert, William Jennings Bryan, was questioned by Clarence Darrow. For 10 points, name this 1925 trial of a Tennessee teacher."
     },
     {
@@ -118,7 +117,7 @@
       "r": "Clarence Darrow led the defense. For 10 points, name this 1925 trial in Dayton, Tennessee, over the teaching of evolution."
     },
     {
-      "p": "One lawyer in this case had earlier defended the labor leader Eugene V. Debs after the Pullman Strike. In this case, that lawyer objected to opening each day’s session with a prayer, and he was cited for contempt of court, though the judge forgave him after he apologized.",
+      "p": "One lawyer in this case had earlier defended the labor leader Eugene V. Debs after the Pullman Strike. In this case, that lawyer objected to opening each day’s session with a prayer, and he was later cited for contempt of court over a sarcastic remark to the judge, who forgave him after he apologized.",
       "r": "That lawyer, Clarence Darrow, defended a Tennessee teacher. For 10 points, name this 1925 trial over the teaching of evolution."
     }
   ],
@@ -303,7 +302,7 @@
     {
       "id": "days-of-creation",
       "tier": "power",
-      "t": "Asked about Joshua making the sun stand still, Bryan said the “days” of creation might have been long periods of time",
+      "t": "Darrow asked Bryan about stories like Joshua making the sun stand still; Bryan said the “days” of creation might have been long periods of time",
       "k": [
         "joshua",
         "long periods",
@@ -392,7 +391,7 @@
     {
       "id": "debs-contempt",
       "tier": "power",
-      "t": "Darrow, who had defended labor leader Eugene V. Debs, objected to opening prayers and was cited for contempt",
+      "t": "Darrow, who had defended labor leader Eugene V. Debs, objected to opening prayers; later cited for contempt over a sarcastic remark, he was forgiven",
       "k": [
         "debs",
         "contempt",
@@ -435,7 +434,8 @@
       "Scopes Monkey Trial",
       "the Monkey Trial",
       "Tennessee v. Scopes",
-      "Scopes Trail"
+      "Scopes Trail",
+      "Scopes evolution trail"
     ],
     "prompt": [
       "Scopes",

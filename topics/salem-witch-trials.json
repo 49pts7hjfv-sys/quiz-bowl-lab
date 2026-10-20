@@ -123,7 +123,7 @@
       "r": "That play, Arthur Miller’s _The Crucible_, used this event to comment on the 1950s hunt for suspected Communists. For 10 points, name these 1692 trials."
     },
     {
-      "p": "Judge Nathaniel Saltonstall quit the court that handled this event soon after its first execution, that of Bridget Bishop in June 1692. Bishop had been accused of witchcraft years earlier, and accusers in this event claimed that her specter had attacked them.",
+      "p": "Judge Nathaniel Saltonstall left the court that handled this event early on, around the time of its first execution, that of Bridget Bishop in June 1692. Bishop had been accused of witchcraft years earlier, and accusers in this event claimed that her specter had attacked them.",
       "r": "That kind of testimony was called spectral evidence. For 10 points, name these 1692 trials in which twenty people were executed."
     }
   ],
@@ -167,11 +167,11 @@
     {
       "id": "puritan-devil",
       "tier": "giveaway",
-      "t": "Happened in the Puritan Massachusetts Bay Colony; the accused were said to serve the Devil",
+      "t": "Happened in Puritan colonial Massachusetts; the accused were said to serve the Devil",
       "k": [
         "puritan",
         "devil",
-        "massachusetts bay"
+        "colonial massachusetts"
       ],
       "n": 0,
       "rabbit": "Puritans"
@@ -291,7 +291,7 @@
     {
       "id": "first-three",
       "tier": "power",
-      "t": "The first three accused were Tituba, Sarah Good, and Sarah Osborne, who died in jail",
+      "t": "The first three accused were Tituba, Sarah Good, and Sarah Osborne (Osborne died in jail)",
       "k": [
         "sarah good",
         "sarah osborne",
@@ -303,7 +303,7 @@
     {
       "id": "bishop",
       "tier": "power",
-      "t": "Bridget Bishop was the first person executed (June 1692); Judge Nathaniel Saltonstall soon quit the court",
+      "t": "Bridget Bishop was the first person executed (June 1692); Judge Nathaniel Saltonstall left the court around that time",
       "k": [
         "bridget bishop",
         "bishop",
@@ -438,7 +438,7 @@
     "title": "The trials or the play?",
     "body": "Salem tossups are full of names that are answers of their own. Arthur Miller’s 1953 play _The Crucible_ retells this event to comment on McCarthyism, the 1950s hunt for suspected Communists, so a question that asks for “this play” wants _The Crucible_, and one about “this senator” wants Joseph McCarthy. People like Tituba, Cotton Mather, and John Proctor can be answers too.",
     "fix": "Listen for the noun: “this event,” “these trials,” or “this panic” wants the Salem witch trials; “this play” wants _The Crucible_; “this woman” or “this minister” wants a person. Saying only “witch trials” or “Salem” will get a prompt, so say the whole thing.",
-    "line": "Real answer line: <b><u>Salem witch trials</u></b> (accept <u>Salem witch hunt</u>; prompt on <u>witch trials</u> or <u>witch hunt</u>)"
+    "line": "Real answer line: <b><u>Salem witch trials</u></b> (accept <u>Salem witch hunt</u> or <u>Salem witchcraft</u> trials; prompt on <u>witch trials</u>, <u>witch hunt</u>, or <u>Salem</u>; do not accept “The Crucible”)"
   },
   "tests": {
     "right": [
