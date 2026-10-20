@@ -1,0 +1,352 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "antonio-lopez-de-santa-anna",
+    "name": "Antonio López de Santa Anna",
+    "mono": "SA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Mexican general and president · Took the Alamo, lost Texas at San Jacinto",
+    "dates": "1794–1876",
+    "briefing": "Antonio López de Santa Anna called himself the “Napoleon of the West” and served as Mexico’s president many times between 1833 and 1855. In 1836, his army stormed the Alamo, but weeks later Sam Houston’s Texans routed him at San Jacinto in about 18 minutes and captured him the next day. He lost his left leg fighting the French in 1838, and he later had it buried with full military honors.",
+    "answerHtml": "Antonio López de <b><u>Santa Anna</u></b> (prompt on <u>López</u>)",
+    "accept": [
+        "santa anna",
+        "antonio lopez de santa anna",
+        "lopez de santa anna",
+        "antonio de santa anna",
+        "antonio santa anna",
+        "general santa anna",
+        "santa ana"
+    ],
+    "prompt": [
+        "lopez",
+        "antonio lopez",
+        "napoleon of the west"
+    ],
+    "reject": [
+        "sam houston",
+        "houston",
+        "stephen f austin",
+        "stephen austin",
+        "austin",
+        "agustin de iturbide",
+        "iturbide",
+        "benito juarez",
+        "juarez",
+        "porfirio diaz",
+        "diaz",
+        "maximilian",
+        "miguel hidalgo",
+        "hidalgo",
+        "pancho villa",
+        "zachary taylor",
+        "winfield scott",
+        "davy crockett",
+        "jim bowie",
+        "william travis",
+        "james gadsden",
+        "gadsden purchase",
+        "battle of san jacinto",
+        "san jacinto",
+        "battle of the alamo",
+        "alamo",
+        "jose de urrea",
+        "urrea",
+        "martin perfecto de cos",
+        "valentin gomez farias",
+        "gomez farias",
+        "anastasio bustamante",
+        "vicente guerrero",
+        "guadalupe victoria",
+        "napoleon",
+        "napoleon bonaparte",
+        "santa fe",
+        "san antonio",
+        "los alamos"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna",
+    "qb": {
+        "q": "Santa Anna",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1842, this man had his amputated leg dug up and reburied in Mexico City with full military honors, but two years later, after he fell from power, an angry crowd pulled it from its tomb and dragged it through the streets. He had lost that leg defending Veracruz against the French in 1838.",
+            "r": "That conflict was the Pastry War. For 10 points, name this Mexican general who won at the Alamo but lost at San Jacinto."
+        },
+        {
+            "p": "Soldiers of the 4th Illinois Infantry captured this man’s artificial leg at the Battle of Cerro Gordo [“SAIR-oh GOR-doh”], and it has long been kept at a military museum in Springfield, Illinois. Two months earlier, he had attacked Zachary Taylor’s army at Buena Vista [“BWAY-nuh VEE-stuh”].",
+            "r": "For 10 points, name this Mexican general who commanded his country’s army in the Mexican-American War."
+        },
+        {
+            "p": "While a prisoner, this man signed the Treaties of Velasco [“veh-LAHS-koh”] with David Burnet, agreeing to pull his troops back beyond the Rio Grande and secretly promising to work for Texas independence. His own government refused to accept those treaties.",
+            "r": "He had been captured after losing the Battle of San Jacinto. For 10 points, name this Mexican general and president."
+        },
+        {
+            "p": "The day after a battle that lasted about 18 minutes, Texian soldiers caught this man hiding in a common soldier’s clothes. Other Mexican prisoners revealed who he was by calling out “El Presidente” when he was brought into camp.",
+            "r": "That battle was San Jacinto. For 10 points, name this Mexican leader whose army had won at the Alamo weeks earlier."
+        },
+        {
+            "p": "This man lost his left leg to cannon fire while fighting French troops at Veracruz in a war that began partly over damage to a French pastry cook’s shop. That wound made him a national hero again after his earlier defeat in Texas.",
+            "r": "That conflict was the Pastry War. For 10 points, name this Mexican general who had besieged the Alamo in 1836."
+        },
+        {
+            "p": "In 1853, this man’s government sold the United States land south of the Gila [“HEE-luh”] River for 10 million dollars, money he badly needed to pay for his army. That deal, negotiated by the American minister James Gadsden, gave the United States a southern route for a railroad.",
+            "r": "For 10 points, name this Mexican leader who called himself “His Most Serene Highness” and had earlier commanded at the Alamo."
+        },
+        {
+            "p": "This man became known as the “Hero of Tampico” after he defeated a Spanish army that landed in Mexico in 1829 hoping to win it back. Years earlier, he had been an officer in the Spanish army before switching sides to support Agustín de Iturbide [“ah-goo-STEEN day ee-toor-BEE-day”].",
+            "r": "For 10 points, name this Mexican general who served as president many times and lost Texas in 1836."
+        },
+        {
+            "p": "After becoming president in 1833, this man turned against the federal Constitution of 1824 and his own liberal vice president, Valentín Gómez Farías [“vah-len-TEEN GOH-mez fah-REE-us”]. In 1835, he crushed a revolt by the state of Zacatecas [“zah-kah-TAY-kus”] against his government.",
+            "r": "Texans also rebelled against him. For 10 points, name this Mexican general who besieged the Alamo in 1836."
+        },
+        {
+            "p": "After his troops captured James Fannin’s men in March 1836, this general ordered that hundreds of those prisoners be executed at Goliad [“GOH-lee-ad”]. Weeks later, Texian soldiers shouted “Remember Goliad!” as they charged his army.",
+            "r": "That charge came at San Jacinto, where he was defeated and captured. For 10 points, name this Mexican general who had won at the Alamo."
+        },
+        {
+            "p": "Before this general’s final attack on an old mission in San Antonio, his army raised a red flag and played the bugle call “Degüello” [“day-GWAY-yoh”] to signal that no mercy would be shown. William Travis, Jim Bowie, and Davy Crockett died in that attack.",
+            "r": "For 10 points, name this Mexican general who won the Battle of the Alamo in 1836."
+        },
+        {
+            "p": "After months in captivity in Texas, this man traveled to Washington, D.C., where he met President Andrew Jackson in January 1837. Back home, Mexico’s government refused to honor the treaties he had signed while he was a prisoner.",
+            "r": "For 10 points, name this Mexican general who had been captured after losing the Battle of San Jacinto in 1836."
+        },
+        {
+            "p": "In 1846, the U.S. Navy let this exiled leader pass through its blockade from Cuba, because President James K. Polk believed he would help make peace. Instead, he took command of his country’s army and fought against the Americans.",
+            "r": "For 10 points, name this Mexican general who had won at the Alamo ten years earlier."
+        },
+        {
+            "p": "Returning to power in 1853, this man ruled as a dictator and insisted on being called “His Most Serene Highness.” The Revolution of Ayutla [“ah-YOOT-lah”], led by Juan Álvarez, drove him from power for the last time in 1855.",
+            "r": "For 10 points, name this Mexican leader who served as president many times and sold land to the United States in the Gadsden Purchase."
+        },
+        {
+            "p": "While living in exile on Staten Island, New York, in the 1860s, this man is credited with introducing the inventor Thomas Adams to chicle, a tree gum that Adams turned into chewing gum. He later returned to Mexico under an amnesty and died poor in Mexico City in 1876.",
+            "r": "For 10 points, name this former Mexican president who lost the Battle of San Jacinto in 1836."
+        },
+        {
+            "p": "This man served as his country’s president many times between 1833 and 1855, often leaving the daily work of governing to others while he stayed at his estate near Veracruz. He liked to call himself the “Napoleon of the West.”",
+            "r": "For 10 points, name this Mexican general who lost Texas at the Battle of San Jacinto in 1836."
+        }
+    ],
+    "clues": [
+        {
+            "id": "alamo",
+            "tier": "giveaway",
+            "t": "His army besieged and stormed the Alamo in San Antonio (February 23–March 6, 1836)",
+            "k": ["alamo", "san antonio", "1836"],
+            "n": 0,
+            "rabbit": "Battle of the Alamo"
+        },
+        {
+            "id": "san-jacinto",
+            "tier": "giveaway",
+            "t": "Lost to Sam Houston at San Jacinto (April 21, 1836) in about 18 minutes and was captured the next day",
+            "k": ["san jacinto", "sam houston", "18 minutes"],
+            "n": 0,
+            "rabbit": "Battle of San Jacinto"
+        },
+        {
+            "id": "president",
+            "tier": "giveaway",
+            "t": "Mexican general who served as Mexico’s president many times between 1833 and 1855",
+            "k": ["president", "many times", "1833", "general"],
+            "n": 0
+        },
+        {
+            "id": "texas-revolution",
+            "tier": "giveaway",
+            "t": "Led Mexico’s army against the Texas Revolution (1835–1836)",
+            "k": ["texas revolution", "texas"],
+            "n": 0,
+            "rabbit": "Republic of Texas"
+        },
+        {
+            "id": "mexican-american-war",
+            "tier": "giveaway",
+            "t": "Commanded Mexico’s army in the Mexican-American War (1846–1848)",
+            "k": ["mexican-american war", "1846"],
+            "n": 0,
+            "rabbit": "Mexican-American War"
+        },
+        {
+            "id": "napoleon-west",
+            "tier": "middle",
+            "t": "Called himself the “Napoleon of the West”",
+            "k": ["napoleon of the west", "napoleon"],
+            "n": 0
+        },
+        {
+            "id": "velasco",
+            "tier": "middle",
+            "t": "As a prisoner, signed the Treaties of Velasco (1836) with David Burnet; Mexico’s government rejected them",
+            "k": ["velasco", "david burnet", "treaties"],
+            "n": 0
+        },
+        {
+            "id": "pastry-war",
+            "tier": "middle",
+            "t": "Lost his left leg defending Veracruz against France in the Pastry War (1838)",
+            "k": ["pastry war", "left leg", "veracruz", "france"],
+            "n": 0
+        },
+        {
+            "id": "buena-vista",
+            "tier": "middle",
+            "t": "Attacked Zachary Taylor’s smaller army at Buena Vista (February 1847) but withdrew",
+            "k": ["buena vista", "zachary taylor", "1847"],
+            "n": 0
+        },
+        {
+            "id": "gadsden",
+            "tier": "middle",
+            "t": "Sold land south of the Gila River to the U.S. in the Gadsden Purchase (1853) for $10 million",
+            "k": ["gadsden purchase", "gila river", "$10 million"],
+            "n": 0,
+            "rabbit": "Gadsden Purchase"
+        },
+        {
+            "id": "goliad",
+            "tier": "middle",
+            "t": "Ordered the execution of hundreds of captured Texians at Goliad (March 1836), which led to the cry “Remember Goliad!”",
+            "k": ["goliad", "remember goliad", "fannin"],
+            "n": 0
+        },
+        {
+            "id": "el-presidente",
+            "tier": "middle",
+            "t": "Caught after San Jacinto in a common soldier’s clothes; other prisoners gave him away by calling out “El Presidente”",
+            "k": ["el presidente", "common soldier"],
+            "n": 0
+        },
+        {
+            "id": "polk-blockade",
+            "tier": "middle",
+            "t": "In 1846, President Polk let him pass through the U.S. blockade from exile in Cuba, hoping he would make peace",
+            "k": ["polk", "cuba", "exile"],
+            "n": 0
+        },
+        {
+            "id": "deguello",
+            "tier": "middle",
+            "t": "At the Alamo, his army raised a red flag and played the “Degüello” bugle call, meaning no mercy",
+            "k": ["degüello", "red flag", "no mercy"],
+            "n": 0
+        },
+        {
+            "id": "leg-burial",
+            "tier": "power",
+            "t": "Had his amputated leg reburied with full military honors (1842); a mob dug it up after his fall from power (1844)",
+            "k": ["military honors", "1842", "mob"],
+            "n": 0
+        },
+        {
+            "id": "artificial-leg",
+            "tier": "power",
+            "t": "The 4th Illinois Infantry captured his artificial leg at Cerro Gordo (1847); it is kept at a military museum in Springfield, Illinois",
+            "k": ["cerro gordo", "artificial leg", "illinois", "springfield"],
+            "n": 0
+        },
+        {
+            "id": "tampico",
+            "tier": "power",
+            "t": "The “Hero of Tampico”: defeated a Spanish attempt to reconquer Mexico (1829)",
+            "k": ["tampico", "1829", "spanish"],
+            "n": 0
+        },
+        {
+            "id": "iturbide",
+            "tier": "power",
+            "t": "Began as an officer in the Spanish army, then switched sides to back Agustín de Iturbide (1821) and later rebelled against him",
+            "k": ["iturbide", "switched sides", "1821"],
+            "n": 0
+        },
+        {
+            "id": "zacatecas",
+            "tier": "power",
+            "t": "Turned against the Constitution of 1824 and his vice president, Valentín Gómez Farías; crushed a revolt in Zacatecas (1835)",
+            "k": ["zacatecas", "gómez farías", "constitution of 1824"],
+            "n": 0
+        },
+        {
+            "id": "jackson",
+            "tier": "power",
+            "t": "After his release, met President Andrew Jackson in Washington, D.C. (January 1837)",
+            "k": ["andrew jackson", "washington", "1837"],
+            "n": 0
+        },
+        {
+            "id": "serene-highness",
+            "tier": "power",
+            "t": "Ruled as a dictator from 1853 as “His Most Serene Highness”; driven out for good by the Revolution of Ayutla (1855)",
+            "k": ["most serene highness", "ayutla", "dictator"],
+            "n": 0
+        },
+        {
+            "id": "chicle",
+            "tier": "power",
+            "t": "In exile on Staten Island, he is credited with introducing Thomas Adams to chicle, the base of early chewing gum",
+            "k": ["chicle", "thomas adams", "chewing gum", "staten island"],
+            "n": 0
+        },
+        {
+            "id": "estate",
+            "tier": "power",
+            "t": "Often left governing to others and stayed at his estate near Veracruz, Manga de Clavo",
+            "k": ["manga de clavo", "estate"],
+            "n": 0
+        },
+        {
+            "id": "died-1876",
+            "tier": "power",
+            "t": "Born in Xalapa, Veracruz (1794); returned to Mexico under an amnesty and died poor in Mexico City (1876)",
+            "k": ["xalapa", "amnesty", "1876"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which side, which war?",
+        "body": "Santa Anna shows up in two wars a decade apart: the Texas Revolution (the Alamo, Goliad, and San Jacinto in 1836) and the Mexican-American War (Buena Vista and Cerro Gordo in 1847). Players who buzz early on “San Jacinto” sometimes blurt out Sam Houston, the Texian general who beat him, and questions about the Alamo or the Gadsden Purchase may want the event rather than the man.",
+        "fix": "Listen for “this man” or “this general,” then ask which side he was on. The Mexican leader who called himself the “Napoleon of the West,” lost a leg in the Pastry War, and served as president many times is Santa Anna. Sam Houston commanded the Texian army and became the first president of the Republic of Texas.",
+        "line": "Real answer line: Antonio López de <b><u>Santa Anna</u></b> (prompt on <u>López</u>)"
+    },
+    "tests": {
+        "right": [
+            "Santa Anna",
+            "Antonio Lopez de Santa Anna",
+            "Santa Ana",
+            "General Santa Anna",
+            "Santa Annna"
+        ],
+        "prompt": [
+            "Lopez",
+            "Napoleon of the West"
+        ],
+        "wrong": [
+            "Sam Houston",
+            "Stephen F. Austin",
+            "Benito Juarez",
+            "Agustin de Iturbide",
+            "Zachary Taylor",
+            "Battle of the Alamo",
+            "Napoleon"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])
