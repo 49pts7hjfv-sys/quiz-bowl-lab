@@ -1,0 +1,347 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "tammany-hall",
+    "name": "Tammany Hall",
+    "mono": "TAM",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "New York City’s Democratic political machine · Home of Boss Tweed",
+    "dates": "Founded 1789; faded by the 1960s",
+    "briefing": "Tammany Hall began in 1789 as a social club in New York City and grew into the most famous political machine in American history. Its Democratic bosses won the loyalty of Irish and other immigrants by handing out jobs, food, and favors in exchange for votes. Its most notorious boss, William “Boss” Tweed, stole millions from the city until Thomas Nast’s cartoons and reporting by _The New York Times_ helped bring him down in the 1870s.",
+    "answerHtml": "<b><u>Tammany</u></b> Hall (accept Society of St. <u>Tammany</u> or <u>Columbian Order</u>; prompt on <u>political machine</u>, <u>Democratic Party</u>, or <u>Tweed Ring</u>)",
+    "accept": [
+        "tammany hall",
+        "tammany",
+        "tammany society",
+        "society of st tammany",
+        "society of saint tammany",
+        "sons of st tammany",
+        "sons of saint tammany",
+        "columbian order"
+    ],
+    "prompt": [
+        "political machine",
+        "machine politics",
+        "democratic machine",
+        "democratic party",
+        "democrats",
+        "new york democratic party",
+        "tweed ring"
+    ],
+    "reject": [
+        "boss tweed",
+        "william tweed",
+        "william m tweed",
+        "william magear tweed",
+        "thomas nast",
+        "nast",
+        "harpers weekly",
+        "george washington plunkitt",
+        "plunkitt",
+        "aaron burr",
+        "samuel tilden",
+        "samuel j tilden",
+        "al smith",
+        "jimmy walker",
+        "fiorello la guardia",
+        "la guardia",
+        "new york city",
+        "whiskey ring",
+        "credit mobilier",
+        "teapot dome",
+        "hall effect",
+        "independence hall",
+        "carnegie hall"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Tammany_Hall",
+    "qb": {
+        "q": "Tammany",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This organization was founded in 1789 and named for Tamanend [“TAM-uh-nend”], a Lenape chief who, according to tradition, made a treaty of friendship with William Penn. Its leaders took the title of “sachem,” and its meeting place was nicknamed “the Wigwam.”",
+            "r": "For 10 points, name this New York City political machine once led by William “Boss” Tweed."
+        },
+        {
+            "p": "In the 1790s, Aaron Burr turned this club into a vote-getting operation that helped his party win New York City’s legislative seats in 1800, which delivered the state’s electoral votes to Thomas Jefferson. That success helped Jefferson and Burr tie in the Electoral College.",
+            "r": "For 10 points, name this New York City organization, later a Democratic machine run by bosses like William Tweed."
+        },
+        {
+            "p": "In 1835, this group’s regular members turned off the gas lights during a heated meeting, so their opponents lit candles using new friction matches called “loco-focos.” Those opponents, nicknamed the Locofocos, went on to form the Equal Rights Party.",
+            "r": "For 10 points, name this New York City Democratic organization, later run by Boss Tweed."
+        },
+        {
+            "p": "A politician from this organization explained the difference between “honest graft” and “dishonest graft,” saying of his own deals, “I seen my opportunities and I took ’em.” Reporter William Riordon wrote down that politician’s talks, which he gave from a shoeshine stand in a courthouse.",
+            "r": "That politician was George Washington Plunkitt. For 10 points, name this New York City political machine."
+        },
+        {
+            "p": "In one cartoon attacking this organization’s leaders, a ring of men each point to the man beside them under the caption “Who stole the people’s money?” The artist of that cartoon also made a snarling tiger famous as this organization’s symbol.",
+            "r": "That artist was Thomas Nast of _Harper’s Weekly_. For 10 points, name this political machine led by William “Boss” Tweed."
+        },
+        {
+            "p": "In 1871, angry insiders leaked secret account books to _The New York Times_, which printed proof that this organization’s leaders had stolen millions of dollars from the city. Reform Democrat Samuel Tilden helped prosecute those leaders, a fight that later helped make Tilden a presidential candidate.",
+            "r": "For 10 points, name this New York City political machine run by William “Boss” Tweed."
+        },
+        {
+            "p": "After escaping from custody in 1875, this organization’s most famous boss fled to Cuba and then to Spain, where officials recognized him from a cartoon. He was sent back to New York and died in the Ludlow Street Jail in 1878.",
+            "r": "That boss was William Tweed. For 10 points, name this Democratic political machine of New York City."
+        },
+        {
+            "p": "Construction of a courthouse in Lower Manhattan dragged on for about 20 years while this organization’s leaders padded the bills, paying contractors enormous sums for simple jobs like plastering. The ring behind that scheme included “Slippery Dick” Connolly, Peter “Brains” Sweeny, and Mayor A. Oakey Hall.",
+            "r": "That courthouse is named for their leader, Boss Tweed. For 10 points, name this New York political machine."
+        },
+        {
+            "p": "This organization’s ward bosses won loyal voters by finding jobs for new immigrants, delivering coal in winter, and helping families whose homes had burned. Many of its supporters were Irish immigrants, and starting in the 1870s it was led by Irish Catholic bosses like “Honest John” Kelly.",
+            "r": "For 10 points, name this Democratic political machine of New York City, once run by William “Boss” Tweed."
+        },
+        {
+            "p": "Richard Croker ran this organization for about 16 years before retiring to Ireland, and Charles F. Murphy led it from 1902 until his death in 1924. Under Murphy, its politicians backed new labor and safety laws after the 1911 Triangle Shirtwaist Factory fire.",
+            "r": "For 10 points, name this New York City political machine that Boss Tweed had run in the 1860s."
+        },
+        {
+            "p": "This organization helped launch the career of Al Smith, a New York governor who in 1928 became the first Catholic nominated for president by a major party. Another of its politicians, Robert F. Wagner, wrote the 1935 law protecting workers’ right to form unions.",
+            "r": "For 10 points, name this New York City Democratic machine, whose symbol was a tiger and whose most famous boss was William Tweed."
+        },
+        {
+            "p": "Mayor Jimmy Walker, a product of this organization, resigned in 1932 during an investigation led by Judge Samuel Seabury. In 1933, voters elected Fiorello La Guardia [“fee-oh-REL-oh luh-GWAR-dee-uh”], a reform mayor who spent years fighting this organization’s power.",
+            "r": "For 10 points, name this New York City political machine, once led by Boss Tweed."
+        },
+        {
+            "p": "At the 1884 Democratic convention, Edward Bragg said that supporters loved Grover Cleveland “for the enemies he has made,” meaning this organization’s leaders. As governor of New York, Cleveland had often clashed with this organization and its boss, John Kelly.",
+            "r": "For 10 points, name this New York City Democratic machine that William Tweed once ran."
+        },
+        {
+            "p": "In 1894, a state committee led by Clarence Lexow exposed widespread bribery in a city police force tied to this organization. The scandal helped elect a reform mayor, who made Theodore Roosevelt president of the city’s police board.",
+            "r": "For 10 points, name this political machine, the most powerful force in New York City Democratic politics for decades."
+        },
+        {
+            "p": "Carmine DeSapio, who led this organization in the 1950s, lost races for district leader in Greenwich Village to reformer Ed Koch in 1963 and 1965. By then, this organization had lost most of the power it held when its bosses ran the city in the 1800s.",
+            "r": "For 10 points, name this New York City Democratic machine, famous for the corruption of Boss Tweed."
+        }
+    ],
+    "clues": [
+        {
+            "id": "machine",
+            "tier": "giveaway",
+            "t": "New York City’s Democratic Party political machine for well over a century",
+            "k": ["political machine", "democratic", "new york city"],
+            "n": 0
+        },
+        {
+            "id": "boss-tweed",
+            "tier": "giveaway",
+            "t": "Run in the 1860s by William “Boss” Tweed and his Tweed Ring",
+            "k": ["boss tweed", "tweed ring", "tweed"],
+            "n": 0
+        },
+        {
+            "id": "nast",
+            "tier": "giveaway",
+            "t": "Cartoonist Thomas Nast attacked its leaders in _Harper’s Weekly_",
+            "k": ["thomas nast", "nast", "harper’s weekly", "harpers weekly"],
+            "n": 0
+        },
+        {
+            "id": "tiger",
+            "tier": "giveaway",
+            "t": "Its symbol was a tiger, made famous by Nast’s cartoons",
+            "k": ["tiger"],
+            "n": 0
+        },
+        {
+            "id": "founded-1789",
+            "tier": "middle",
+            "t": "Founded in 1789 as a patriotic social club and named for a Lenape chief",
+            "k": ["1789", "social club", "lenape"],
+            "n": 0
+        },
+        {
+            "id": "immigrants",
+            "tier": "middle",
+            "t": "Won Irish and other immigrant voters by handing out jobs, coal, and favors",
+            "k": ["immigrant", "irish", "jobs"],
+            "n": 0
+        },
+        {
+            "id": "honest-graft",
+            "tier": "middle",
+            "t": "Its politician George Washington Plunkitt explained “honest graft”",
+            "k": ["plunkitt", "honest graft", "graft"],
+            "n": 0
+        },
+        {
+            "id": "tilden",
+            "tier": "middle",
+            "t": "_The New York Times_ exposed the Tweed Ring (1871); Samuel Tilden helped prosecute it",
+            "k": ["samuel tilden", "tilden", "new york times", "1871"],
+            "n": 0
+        },
+        {
+            "id": "courthouse",
+            "tier": "middle",
+            "t": "The Tweed Courthouse took about 20 years to build while the ring padded the bills",
+            "k": ["tweed courthouse", "courthouse", "padded"],
+            "n": 0
+        },
+        {
+            "id": "al-smith",
+            "tier": "middle",
+            "t": "Launched Al Smith, the first Catholic major-party presidential nominee (1928)",
+            "k": ["al smith", "catholic", "1928"],
+            "n": 0
+        },
+        {
+            "id": "la-guardia",
+            "tier": "middle",
+            "t": "Reform mayor Fiorello La Guardia (elected 1933) fought its power",
+            "k": ["la guardia", "fiorello", "1933"],
+            "n": 0
+        },
+        {
+            "id": "tamanend",
+            "tier": "power",
+            "t": "Named for Tamanend, a Lenape chief linked to William Penn; its leaders were “sachems” and its hall was “the Wigwam”",
+            "k": ["tamanend", "sachems", "wigwam"],
+            "n": 0
+        },
+        {
+            "id": "burr",
+            "tier": "power",
+            "t": "Aaron Burr used it to help his party win New York City in 1800",
+            "k": ["aaron burr", "burr", "1800"],
+            "n": 0,
+            "rabbit": "Aaron Burr"
+        },
+        {
+            "id": "locofocos",
+            "tier": "power",
+            "t": "The Locofocos (1835) lit candles with “loco-foco” matches after the gas lights were shut off; they formed the Equal Rights Party",
+            "k": ["locofocos", "loco-foco", "equal rights party"],
+            "n": 0
+        },
+        {
+            "id": "opportunities",
+            "tier": "power",
+            "t": "Plunkitt: “I seen my opportunities and I took ’em”; William Riordon recorded his talks at a shoeshine stand",
+            "k": ["opportunities", "riordon", "shoeshine"],
+            "n": 0
+        },
+        {
+            "id": "who-stole",
+            "tier": "power",
+            "t": "Nast’s cartoon “Who stole the people’s money?” shows the ring, each man pointing at the next",
+            "k": ["who stole the people’s money", "who stole", "people’s money"],
+            "n": 0
+        },
+        {
+            "id": "spain",
+            "tier": "power",
+            "t": "Tweed escaped (1875), was caught in Spain after being recognized from a cartoon, and died in Ludlow Street Jail (1878)",
+            "k": ["spain", "ludlow street", "1878", "escaped"],
+            "n": 0
+        },
+        {
+            "id": "ring-members",
+            "tier": "power",
+            "t": "Tweed Ring members: “Slippery Dick” Connolly, Peter “Brains” Sweeny, and Mayor A. Oakey Hall",
+            "k": ["slippery dick", "connolly", "sweeny", "oakey"],
+            "n": 0
+        },
+        {
+            "id": "later-bosses",
+            "tier": "power",
+            "t": "Later bosses: “Honest John” Kelly (from the 1870s), Richard Croker, and Charles F. Murphy (1902–1924)",
+            "k": ["honest john", "kelly", "croker", "murphy"],
+            "n": 0
+        },
+        {
+            "id": "triangle-fire",
+            "tier": "power",
+            "t": "After the 1911 Triangle Shirtwaist Factory fire, its politicians backed new labor and safety laws",
+            "k": ["triangle shirtwaist", "1911", "safety laws"],
+            "n": 0
+        },
+        {
+            "id": "wagner",
+            "tier": "power",
+            "t": "Its politician Robert F. Wagner wrote the 1935 law protecting workers’ right to form unions (the Wagner Act)",
+            "k": ["robert f. wagner", "wagner act", "1935", "unions"],
+            "n": 0
+        },
+        {
+            "id": "cleveland",
+            "tier": "power",
+            "t": "Grover Cleveland was loved “for the enemies he has made” (Edward Bragg, 1884), meaning its bosses",
+            "k": ["grover cleveland", "enemies he has made", "bragg"],
+            "n": 0
+        },
+        {
+            "id": "lexow",
+            "tier": "power",
+            "t": "The Lexow Committee (1894) exposed police bribery; Theodore Roosevelt then led the city’s police board",
+            "k": ["lexow", "1894", "police board"],
+            "n": 0
+        },
+        {
+            "id": "seabury",
+            "tier": "power",
+            "t": "Judge Samuel Seabury’s investigation led Mayor Jimmy Walker to resign (1932)",
+            "k": ["seabury", "jimmy walker", "1932"],
+            "n": 0
+        },
+        {
+            "id": "desapio",
+            "tier": "power",
+            "t": "Its 1950s leader Carmine DeSapio lost district leader races to Ed Koch (1963, 1965)",
+            "k": ["desapio", "ed koch", "koch"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Machine or ring?",
+        "body": "Tammany Hall was the whole Democratic political organization in New York City, and it lasted from 1789 into the 1960s. The Tweed Ring was only the small group of officials around William “Boss” Tweed who robbed the city in the 1860s and early 1870s. Saying “Tweed Ring” on a Tammany question earns a prompt at best, and naming “Boss Tweed” himself is wrong.",
+        "fix": "Listen for the noun: “this man” or “this boss” wants Tweed; “this organization,” “this society,” or “this machine” wants Tammany Hall. Clues from long before or after Tweed (Aaron Burr, the Locofocos, Al Smith, Jimmy Walker) can only mean Tammany.",
+        "line": "Real answer line: <b><u>Tammany</u></b> Hall (accept Society of St. <u>Tammany</u> or <u>Columbian Order</u>; prompt on <u>political machine</u> or <u>Tweed Ring</u>)"
+    },
+    "tests": {
+        "right": [
+            "Tammany Hall",
+            "Tammany",
+            "Society of St. Tammany",
+            "Tamany Hall",
+            "Columbian Order",
+            "Tammany Society"
+        ],
+        "prompt": [
+            "political machine",
+            "Tweed Ring",
+            "Democratic Party"
+        ],
+        "wrong": [
+            "Boss Tweed",
+            "Thomas Nast",
+            "Aaron Burr",
+            "Teapot Dome",
+            "Samuel Tilden",
+            "Carnegie Hall"
+        ]
+    }
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", out)

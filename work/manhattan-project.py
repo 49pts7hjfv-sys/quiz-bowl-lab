@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "manhattan-project",
     "name": "Manhattan Project",
-    "mono": "MP",
+    "mono": "MHP",
     "category": "American History",
     "qbCategory": "History · American History",
     "kicker": "Secret U.S. program in World War II · Built the first atomic bombs",

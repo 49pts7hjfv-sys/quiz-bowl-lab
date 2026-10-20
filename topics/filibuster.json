@@ -1,0 +1,404 @@
+{
+  "id": "filibuster",
+  "name": "Filibuster",
+  "mono": "FB",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Senate tactic of endless debate · Stopped by a cloture vote",
+  "dates": "Cloture rule since 1917",
+  "briefing": "In the U.S. Senate, debate on a bill usually has no time limit unless enough senators vote to stop it. A filibuster uses that freedom to delay or block a vote, sometimes with marathon speeches: in 1957, Strom Thurmond talked for 24 hours and 18 minutes. Since 1975, ending debate on most bills has taken three-fifths of the Senate, usually 60 votes, through a process called cloture.",
+  "answerHtml": "<b><u>Filibuster</u></b> (accept word forms like <u>filibustering</u> or <u>filibusterer</u>; prompt on <u>unlimited debate</u>; do not accept “cloture”)",
+  "accept": [
+    "filibuster",
+    "filibusters",
+    "filibustering",
+    "filibusterer",
+    "filibusterers",
+    "filibustero",
+    "filibusteros",
+    "talking filibuster"
+  ],
+  "prompt": [
+    "unlimited debate",
+    "extended debate",
+    "endless debate",
+    "delaying tactic",
+    "stalling"
+  ],
+  "reject": [
+    "cloture",
+    "closure",
+    "cloture vote",
+    "veto",
+    "pocket veto",
+    "line item veto",
+    "nuclear option",
+    "reconciliation",
+    "budget reconciliation",
+    "gerrymander",
+    "gerrymandering",
+    "impeachment",
+    "quorum",
+    "quorum call",
+    "hold",
+    "logrolling",
+    "pork barrel",
+    "rider",
+    "unanimous consent",
+    "previous question",
+    "senatorial courtesy",
+    "pirate",
+    "pirates",
+    "privateer",
+    "privateers",
+    "freebooter",
+    "freebooters",
+    "buccaneer",
+    "buccaneers",
+    "mercenary",
+    "mercenaries"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Filibuster_in_the_United_States_Senate",
+  "qb": {
+    "q": "filibuster",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Aaron Burr suggested that the Senate drop its rarely used “previous question” motion. After the Senate removed that motion in 1806, it had no rule letting a majority cut off debate, which eventually made this tactic possible.",
+      "r": "For 10 points, name this Senate tactic of using long debate to block a bill, which can be ended by a cloture vote."
+    },
+    {
+      "p": "In 1917, Woodrow Wilson denounced “a little group of willful men, representing no opinion but their own,” after Robert La Follette and other senators used this tactic to stop a bill arming merchant ships.",
+      "r": "The Senate then adopted Rule XXII, its first rule for ending debate by a cloture vote. For 10 points, name this delaying tactic."
+    },
+    {
+      "p": "During a speech of more than fifteen hours in 1935, Senator Huey Long of Louisiana read from Shakespeare and explained how to fry oysters and make potlikker [“POT-lik-er”]. Long, a critic of Franklin Roosevelt, often used this tactic in the 1930s.",
+      "r": "For 10 points, name this Senate tactic of delaying a vote by talking, which can be ended by cloture."
+    },
+    {
+      "p": "Years before he switched from the Democratic Party to the Republican Party, a senator from South Carolina used this tactic for 24 hours and 18 minutes, trying to block the Civil Rights Act of 1957. It was the longest speech in Senate history until 2025.",
+      "r": "That senator was Strom Thurmond. For 10 points, name this Senate tactic that can be ended by a cloture vote."
+    },
+    {
+      "p": "Robert Byrd of West Virginia spoke for more than 14 hours in June 1964, near the end of a months-long use of this tactic against the Civil Rights Act of 1964. Southern senators had taken turns speaking since March.",
+      "r": "Soon afterward, the Senate voted to end debate on a civil rights bill for the first time, a vote called cloture. For 10 points, name this Senate delaying tactic."
+    },
+    {
+      "p": "In a 1939 Frank Capra film, Jimmy Stewart plays a new senator who uses this tactic, talking for nearly a full day to clear his name and stop a corrupt dam project, until he collapses on the Senate floor.",
+      "r": "That film is _Mr. Smith Goes to Washington_. For 10 points, name this tactic of talking nonstop to delay a Senate vote."
+    },
+    {
+      "p": "In 2013, Senate Democrats changed the chamber’s rules so that most presidential nominations could no longer be blocked by this tactic, a move nicknamed the “nuclear option.” In 2017, Senate Republicans did the same for Supreme Court nominations during the confirmation of Neil Gorsuch.",
+      "r": "Ending it requires a cloture vote. For 10 points, name this delaying tactic that, for most bills, takes 60 votes to end."
+    },
+    {
+      "p": "In the 1850s, this word described American adventurers like William Walker, who led a private army into Nicaragua and made himself its president in 1856. The word comes from a Spanish term for a pirate or freebooter.",
+      "r": "For 10 points, give this word that, in the U.S. Senate, means a long speech or debate used to delay a vote."
+    },
+    {
+      "p": "Narciso López [“LOH-pez”] launched armed expeditions from the United States to try to take Cuba from Spain in 1850 and 1851, and he was executed in Havana. Men like López and William Walker were known by this term.",
+      "r": "For 10 points, give this term that also names a long Senate speech meant to delay a vote."
+    },
+    {
+      "p": "The first successful vote to end this tactic came in 1919, cutting off debate on the Treaty of Versailles. Two years earlier, a new Senate rule had allowed two-thirds of the senators voting to end it.",
+      "r": "That rule created cloture. For 10 points, name this Senate tactic of delaying a vote through long debate."
+    },
+    {
+      "p": "In 1922, Southern senators used this tactic to stop the Dyer Anti-Lynching Bill, even though it had passed the House of Representatives. For decades afterward, Southern senators used it to block civil rights bills.",
+      "r": "For 10 points, name this tactic of refusing to end debate in the U.S. Senate, which can be stopped by cloture."
+    },
+    {
+      "p": "Budget reconciliation bills cannot be blocked by this tactic, because Senate debate on them is limited to 20 hours. Since the 1970s, a “two-track” system has let the Senate move on to other business while this tactic is under way, so senators rarely have to keep talking.",
+      "r": "It can be ended by a vote called cloture. For 10 points, name this Senate delaying tactic."
+    },
+    {
+      "p": "In 1975, the Senate changed the number of votes needed to end this tactic from two-thirds of the senators voting to three-fifths of all senators. Ending it on a proposal to change the Senate’s own rules still takes a two-thirds vote.",
+      "r": "For 10 points, name this Senate tactic of using endless debate to block a vote, which can be ended by cloture."
+    },
+    {
+      "p": "In 2013, Rand Paul of Kentucky held the Senate floor for nearly 13 hours to delay a vote on John Brennan’s nomination as CIA director, raising questions about drone strikes. Unlike most modern uses of this tactic, his was a “talking” one, in which he had to stay on the floor.",
+      "r": "It can be ended by cloture. For 10 points, name this Senate tactic of talking to block or delay a vote."
+    },
+    {
+      "p": "To end this tactic, at least 16 senators must sign a motion, and the Senate votes on it two days after it is filed. Even after that vote succeeds, senators may still debate most bills for up to 30 more hours.",
+      "r": "That process is called cloture, and it usually needs 60 votes. For 10 points, name this Senate delaying tactic."
+    }
+  ],
+  "clues": [
+    {
+      "id": "senate-tactic",
+      "tier": "giveaway",
+      "t": "A Senate tactic: keep debating, often with very long speeches, to delay or block a vote",
+      "k": [
+        "long speeches",
+        "senate",
+        "delay",
+        "block a vote"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cloture",
+      "tier": "giveaway",
+      "t": "Ended by a vote called cloture",
+      "k": [
+        "cloture",
+        "vote"
+      ],
+      "n": 0
+    },
+    {
+      "id": "unlimited-debate",
+      "tier": "giveaway",
+      "t": "Possible because Senate rules allow unlimited debate; the House strictly limits debate",
+      "k": [
+        "unlimited debate",
+        "house",
+        "limits"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sixty",
+      "tier": "middle",
+      "t": "Since 1975, ending it on most bills takes three-fifths of the Senate, usually 60 votes",
+      "k": [
+        "60 votes",
+        "three-fifths",
+        "1975"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thurmond",
+      "tier": "middle",
+      "t": "Strom Thurmond spoke for 24 hours and 18 minutes against the Civil Rights Act of 1957, the longest Senate speech until 2025",
+      "k": [
+        "strom thurmond",
+        "thurmond",
+        "24 hours"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mr-smith",
+      "tier": "middle",
+      "t": "In Frank Capra’s film _Mr. Smith Goes to Washington_ (1939), Jimmy Stewart’s senator talks until he collapses",
+      "k": [
+        "jimmy stewart",
+        "capra",
+        "goes to washington"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rule-xxii",
+      "tier": "middle",
+      "t": "Rule XXII (1917), the first cloture rule, let two-thirds of the senators voting end debate",
+      "k": [
+        "rule xxii",
+        "1917",
+        "two-thirds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "willful-men",
+      "tier": "middle",
+      "t": "Woodrow Wilson pushed for that rule after “a little group of willful men” blocked his plan to arm merchant ships",
+      "k": [
+        "willful men",
+        "wilson",
+        "merchant ships"
+      ],
+      "n": 0
+    },
+    {
+      "id": "civil-rights-1964",
+      "tier": "middle",
+      "t": "Southern senators held up the Civil Rights Act of 1964 for months; Robert Byrd spoke for over 14 hours before cloture passed",
+      "k": [
+        "civil rights act of 1964",
+        "robert byrd",
+        "byrd"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nuclear-option",
+      "tier": "middle",
+      "t": "“Nuclear option”: by simple majority, Senate Democrats ended it for most nominations (2013) and Senate Republicans for Supreme Court nominees (2017)",
+      "k": [
+        "nuclear option",
+        "2013",
+        "2017",
+        "nominations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "huey-long",
+      "tier": "middle",
+      "t": "Huey Long read Shakespeare and recipes for fried oysters and potlikker during a speech of more than 15 hours (1935)",
+      "k": [
+        "huey long",
+        "potlikker",
+        "oysters",
+        "shakespeare"
+      ],
+      "n": 0
+    },
+    {
+      "id": "william-walker",
+      "tier": "middle",
+      "t": "Older meaning: Americans who led private armies into Latin America, like William Walker, who made himself president of Nicaragua (1856)",
+      "k": [
+        "william walker",
+        "private armies",
+        "nicaragua"
+      ],
+      "n": 0
+    },
+    {
+      "id": "burr-1806",
+      "tier": "power",
+      "t": "Aaron Burr urged the Senate to drop its rarely used “previous question” motion; after 1806, no rule let a majority cut off debate",
+      "k": [
+        "aaron burr",
+        "previous question",
+        "1806"
+      ],
+      "n": 0
+    },
+    {
+      "id": "versailles",
+      "tier": "power",
+      "t": "The Senate first used cloture successfully in 1919, to end debate on the Treaty of Versailles",
+      "k": [
+        "versailles",
+        "1919"
+      ],
+      "n": 0
+    },
+    {
+      "id": "la-follette",
+      "tier": "power",
+      "t": "Robert La Follette led the 1917 group that talked the Armed Ship Bill to death",
+      "k": [
+        "la follette",
+        "armed ship bill"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reconciliation",
+      "tier": "power",
+      "t": "Budget reconciliation bills can’t be blocked this way, because debate on them is limited to 20 hours",
+      "k": [
+        "reconciliation",
+        "20 hours",
+        "budget"
+      ],
+      "n": 0
+    },
+    {
+      "id": "etymology",
+      "tier": "power",
+      "t": "From a Dutch word meaning “freebooter,” which became French and Spanish words for Caribbean pirates",
+      "k": [
+        "freebooter",
+        "dutch",
+        "pirates"
+      ],
+      "n": 0
+    },
+    {
+      "id": "narciso-lopez",
+      "tier": "power",
+      "t": "Narciso López led armed expeditions from the U.S. to try to take Cuba from Spain (1850, 1851)",
+      "k": [
+        "narciso",
+        "cuba",
+        "expeditions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dyer",
+      "tier": "power",
+      "t": "Southern senators used it to block the Dyer Anti-Lynching Bill (1922) after it passed the House",
+      "k": [
+        "dyer",
+        "anti-lynching",
+        "1922"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-track",
+      "tier": "power",
+      "t": "Since the 1970s, a “two-track” system lets the Senate do other business, so senators rarely have to keep talking",
+      "k": [
+        "two-track",
+        "other business"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rand-paul",
+      "tier": "power",
+      "t": "Rand Paul held the floor for nearly 13 hours in 2013 to delay John Brennan’s nomination as CIA director",
+      "k": [
+        "rand paul",
+        "brennan",
+        "13 hours"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cloture-rules",
+      "tier": "power",
+      "t": "A cloture motion needs 16 senators’ signatures; after cloture passes, debate on most bills can last up to 30 more hours",
+      "k": [
+        "16 senators",
+        "30 more hours",
+        "signatures"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The tactic or its cure?",
+    "body": "Many clues about this tactic are really about the vote that ends it. Cloture is the motion to cut off debate, created by Rule XXII in 1917 and usually needing 60 votes, so answering one when the question wants the other is wrong. The word also has an older meaning: 1800s adventurers like William Walker and Narciso López were called filibusters too.",
+    "fix": "Ask whether the clue is about keeping debate going or stopping it. Talking for hours, Strom Thurmond, Huey Long’s recipes, and _Mr. Smith Goes to Washington_ mean the filibuster; Rule XXII, three-fifths, and “invoking” a vote mean cloture. Don’t confuse it with a veto, which only the president can use.",
+    "line": "Real answer line: <b><u>Filibuster</u></b> (accept word forms like <u>filibustering</u> or <u>filibusterer</u>; prompt on <u>unlimited debate</u>; do not accept “cloture”)"
+  },
+  "tests": {
+    "right": [
+      "filibuster",
+      "filibustering",
+      "Filabuster",
+      "talking filibuster",
+      "filibusters"
+    ],
+    "prompt": [
+      "unlimited debate"
+    ],
+    "wrong": [
+      "cloture",
+      "veto",
+      "nuclear option",
+      "pocket veto",
+      "gerrymandering",
+      "impeachment"
+    ]
+  }
+}

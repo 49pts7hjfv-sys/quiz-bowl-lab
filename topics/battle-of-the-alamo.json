@@ -88,8 +88,8 @@
       "r": "That commander was William Travis. For 10 points, name this 1836 battle in which Santa Anna’s army overran a fort in San Antonio."
     },
     {
-      "p": "Before the final attack in this battle, the attacking army raised a red flag and its buglers played the “Degüello” [“day-GWAY-yoh”], signals that the defenders would be shown no mercy. That attack came before dawn on March 6, after a siege of 13 days.",
-      "r": "For 10 points, name this 1836 battle in which General Antonio López de Santa Anna’s Mexican army defeated Texian defenders in San Antonio."
+      "p": "Before the final attack in this battle, the attacking army raised a red flag and its buglers played the “Degüello” [“day-GWAY-yoh”], signals that the defenders would be shown no mercy. Soldiers carrying ladders then rushed the walls in the dark before dawn.",
+      "r": "For 10 points, name this battle that ended on March 6, 1836, when General Antonio López de Santa Anna’s Mexican army overwhelmed the Texian defenders of a San Antonio fort."
     },
     {
       "p": "This battle was fought at a former Spanish mission called San Antonio de Valero, whose church later got its famous curved top from the U.S. Army in 1850. In December 1835, Texians had captured that mission and the town around it from General Martín Perfecto de Cos [“KOHSS”].",
@@ -120,7 +120,7 @@
       "r": "That man was Davy Crockett. For 10 points, name this 1836 battle in San Antonio, Texas, where Crockett died."
     },
     {
-      "p": "The war that included this battle began in October 1835 at Gonzales, where Texians refused to hand over a small cannon and flew a flag reading “Come and Take It.” The defenders in this battle held out from February 23 until March 6, 1836.",
+      "p": "The war that included this battle began in October 1835 at Gonzales, where Texians refused to hand over a small cannon and flew a flag reading “Come and Take It.” Tejano defenders in this battle included Gregorio Esparza, whose young son Enrique survived and later told its story.",
       "r": "For 10 points, name this battle in San Antonio whose name became a battle cry when Texas won its independence at San Jacinto."
     },
     {
@@ -192,7 +192,7 @@
     {
       "id": "dawn-attack",
       "tier": "middle",
-      "t": "About 200 Texian defenders; nearly all were killed when the fort fell before dawn on March 6",
+      "t": "About 200 Texian defenders; nearly all were killed when the fort was stormed before dawn on March 6",
       "k": [
         "texian",
         "march 6",
@@ -271,18 +271,19 @@
     {
       "id": "seguin",
       "tier": "power",
-      "t": "Tejano captain Juan Seguín left as a messenger, survived, and later fought at San Jacinto",
+      "t": "Tejanos: captain Juan Seguín left as a messenger and later fought at San Jacinto; defender Gregorio Esparza’s young son Enrique survived",
       "k": [
         "seguín",
         "seguin",
-        "messenger"
+        "messenger",
+        "esparza"
       ],
       "n": 0
     },
     {
       "id": "deguello",
       "tier": "power",
-      "t": "Before the final attack: a red flag and the bugle call “Degüello,” signals of no mercy",
+      "t": "Before the final attack: a red flag and the bugle call “Degüello,” signals of no mercy; attackers rushed the walls with ladders",
       "k": [
         "degüello",
         "deguello",

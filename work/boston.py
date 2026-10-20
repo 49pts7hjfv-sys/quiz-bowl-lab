@@ -20,7 +20,9 @@ data = {
         "boston ma",
         "city of boston",
         "city of boston massachusetts",
-        "boston massachusetts usa"
+        "boston massachusetts usa",
+        "the city of boston massachusetts",
+        "boston in massachusetts"
     ],
     "prompt": [],
     "reject": [
@@ -36,7 +38,8 @@ data = {
         "cambridge",
         "salem",
         "plymouth",
-        "philadelphia"
+        "philadelphia",
+        "bolton"
     ],
     "mediaPending": True,
     "media": [],
@@ -108,7 +111,7 @@ data = {
             "r": "For 10 points, name this city on the Charles River, home of Faneuil Hall and Fenway Park."
         },
         {
-            "p": "The USS _Constitution_, nicknamed “Old Ironsides,” is docked at the Charlestown Navy Yard in this city as the oldest commissioned warship still afloat. Also in Charlestown, a granite obelisk marks a 1775 battle that was fought mostly on Breed’s Hill.",
+            "p": "The USS _Constitution_, nicknamed “Old Ironsides,” is docked at the Charlestown Navy Yard in this city as the world’s oldest commissioned warship afloat. Also in Charlestown, a granite obelisk marks a 1775 battle that was fought mostly on Breed’s Hill.",
             "r": "That battle is called Bunker Hill. For 10 points, name this capital of Massachusetts, where Paul Revere’s ride began."
         }
     ],

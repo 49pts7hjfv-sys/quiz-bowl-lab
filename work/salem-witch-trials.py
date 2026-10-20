@@ -78,7 +78,7 @@ data = {
             "r": "That governor was William Phips. For 10 points, name these 1692 witchcraft trials held in Massachusetts."
         },
         {
-            "p": "In 1697, Judge Samuel Sewall stood in Boston’s Old South Church while the minister read aloud Sewall’s apology for his part in this event. Sewall later wrote _The Selling of Joseph_, an early pamphlet against slavery.",
+            "p": "One judge in this event later wrote _The Selling of Joseph_, an early pamphlet against slavery. In 1697, that judge, Samuel Sewall, stood in Boston’s Old South Church while the minister read aloud Sewall’s apology for his part in this event.",
             "r": "Arthur Miller’s play _The Crucible_ retells this event. For 10 points, name these 1692 trials in which twenty people were executed for witchcraft."
         },
         {
@@ -86,7 +86,7 @@ data = {
             "r": "The woman who baked it, Tituba, later confessed and claimed the Devil had asked her to sign his book. For 10 points, name this 1692 witchcraft panic in Massachusetts."
         },
         {
-            "p": "A jury first found the elderly church member Rebecca Nurse not guilty in this event, but after her accusers cried out in protest, the judges asked the jurors to reconsider, and they changed their verdict. Her sister Mary Eastey [“EES-tee”] later begged the judges to make sure that no more innocent blood was shed.",
+            "p": "In a petition, Mary Eastey [“EES-tee”] asked the judges of this event not to spare her own life but to make sure that no more innocent blood was shed. Her sister, the elderly church member Rebecca Nurse, was first found not guilty, until the judges asked the jurors to reconsider and they changed their verdict.",
             "r": "For 10 points, name this 1692 panic in which twenty people were executed after being accused of witchcraft."
         },
         {
@@ -98,7 +98,7 @@ data = {
             "r": "The first three accused were Sarah Good, Sarah Osborne, and Tituba. For 10 points, name these 1692 trials in Massachusetts."
         },
         {
-            "p": "In this event, the elderly farmer Giles Corey refused to enter a plea, so he was never tried, yet he was still put to death. His wife, Martha, had been accused after she said she doubted the afflicted girls. She was executed three days after him, in September 1692.",
+            "p": "Martha Corey was accused in this event after she said she doubted the afflicted girls, and she was executed in September 1692. Three days earlier, her elderly husband, Giles, had been put to death after he refused to enter a plea, so he was never even tried.",
             "r": "Arthur Miller later wrote a play about this event. For 10 points, name this witchcraft panic in Massachusetts, in which twenty people were executed."
         },
         {
@@ -110,7 +110,7 @@ data = {
             "r": "Spectral evidence was used to convict many people in this event. For 10 points, name these 1692 witchcraft trials in Massachusetts."
         },
         {
-            "p": "This event began in a farming village that later became the town of Danvers, where nine-year-old Betty Parris and her eleven-year-old cousin Abigail Williams started having fits. A doctor named William Griggs suggested that the girls were under an “evil hand.”",
+            "p": "A doctor named William Griggs suggested that the girls whose fits began this event were under an “evil hand.” Those girls, nine-year-old Betty Parris and her eleven-year-old cousin Abigail Williams, lived in a farming village that later became the town of Danvers.",
             "r": "Betty’s father, Reverend Samuel Parris, was the village minister. For 10 points, name this 1692 panic retold in _The Crucible_."
         },
         {
@@ -118,7 +118,7 @@ data = {
             "r": "For 10 points, name these 1692 trials in which twenty people were executed for witchcraft."
         },
         {
-            "p": "Reverend John Hale, who had supported the prosecutions in this event, later admitted that mistakes had been made in his book _A Modest Enquiry into the Nature of Witchcraft_. A character based on Hale appears in a 1953 play about this event, alongside its hero, John Proctor.",
+            "p": "Reverend John Hale of Beverly, who had supported the prosecutions in this event, later admitted that mistakes had been made in his book _A Modest Enquiry into the Nature of Witchcraft_. In a play about this event, a character based on Hale urges John Proctor to save his life by confessing.",
             "r": "That play, Arthur Miller’s _The Crucible_, used this event to comment on the 1950s hunt for suspected Communists. For 10 points, name these 1692 trials."
         },
         {

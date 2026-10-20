@@ -1,0 +1,340 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "baptism",
+    "name": "Baptism",
+    "mono": "BP",
+    "category": "Religion",
+    "qbCategory": "Religion",
+    "kicker": "Christian rite of initiation with water · Jesus was baptized in the Jordan",
+    "dates": "Practiced since the 1st century CE",
+    "briefing": "According to the Gospels, Jesus waded into the Jordan River to be baptized by John the Baptist, and the Holy Spirit came down on him like a dove. Ever since, Christians have used baptism, a ritual washing with water, to welcome people into the church. Some churches baptize babies by pouring or sprinkling water, while others, like the Baptists, baptize only people old enough to profess their faith, often by dipping them completely under water.",
+    "answerHtml": "<b><u>baptism</u></b> (accept word forms like <u>baptizing</u>; accept <u>christening</u>; prompt on <u>sacrament</u> or <u>immersion</u>; do not accept “Baptists,” “Anabaptists,” or “confirmation”)",
+    "accept": [
+        "baptism",
+        "baptisms",
+        "baptize",
+        "baptizes",
+        "baptized",
+        "baptizing",
+        "baptise",
+        "baptises",
+        "baptised",
+        "baptising",
+        "christening",
+        "christenings"
+    ],
+    "prompt": [
+        "sacrament",
+        "sacraments",
+        "christian sacrament",
+        "initiation",
+        "christian initiation",
+        "sacrament of initiation",
+        "immersion",
+        "full immersion",
+        "submersion",
+        "dunking",
+        "sprinkling",
+        "pouring",
+        "affusion",
+        "aspersion"
+    ],
+    "reject": [
+        "baptist",
+        "baptists",
+        "southern baptists",
+        "anabaptist",
+        "anabaptists",
+        "anabaptism",
+        "john the baptist",
+        "baptistery",
+        "baptistry",
+        "confirmation",
+        "chrismation",
+        "communion",
+        "holy communion",
+        "first communion",
+        "eucharist",
+        "lords supper",
+        "anointing",
+        "anointing of the sick",
+        "last rites",
+        "extreme unction",
+        "holy orders",
+        "confession",
+        "penance",
+        "reconciliation",
+        "circumcision",
+        "bar mitzvah",
+        "bat mitzvah",
+        "mikveh",
+        "mikvah",
+        "ablution",
+        "wudu",
+        "amrit sanchar",
+        "holy water"
+    ],
+    "tests": {
+        "right": [
+            "baptism",
+            "Baptizing",
+            "christening",
+            "infant baptism",
+            "Babtism",
+            "baptisms"
+        ],
+        "prompt": [
+            "sacrament",
+            "immersion"
+        ],
+        "wrong": [
+            "Baptists",
+            "John the Baptist",
+            "confirmation",
+            "communion",
+            "Anabaptists",
+            "chrismation",
+            "Eucharist"
+        ]
+    },
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Baptism",
+    "qb": {
+        "q": "baptism",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "An early Christian guidebook called the _Didache_ [“DID-uh-kay”] says this rite should be done in “living,” or running, water, but allows pouring water on the head three times if none is available. It also says the person about to receive this rite should fast for a day or two beforehand.",
+            "r": "John the Baptist performed this rite on Jesus in the Jordan River. For 10 points, name this Christian sacrament of initiation."
+        },
+        {
+            "p": "Each January, Greek Orthodox teenagers in Tarpon Springs, Florida, dive into a bayou to retrieve a cross thrown into the water during Theophany [“thee-OFF-uh-nee”], a feast that celebrates the day Jesus received this rite. At that moment, according to the Gospels, a voice from heaven said, “This is my beloved Son.”",
+            "r": "John the Baptist performed this rite on Jesus. For 10 points, name this Christian ritual of washing with water."
+        },
+        {
+            "p": "In January 1525, Conrad Grebel performed this rite on George Blaurock [“BLOU-rock”] at a house in Zurich, even though both men had already received it as babies. Members of the movement they started, called the Swiss Brethren, were persecuted by Catholics and Protestants alike.",
+            "r": "Their enemies called them Anabaptists, meaning people who repeat this rite. For 10 points, name this Christian sacrament performed with water."
+        },
+        {
+            "p": "In 1609, the English pastor John Smyth, living in exile in Amsterdam, performed this rite on himself and then on his followers, rejecting the version he had received as an infant. His partner Thomas Helwys [“HEL-wiss”] later founded the first church of their denomination in England, in London.",
+            "r": "That denomination, the Baptists, takes its name from this rite. For 10 points, name this Christian rite performed with water."
+        },
+        {
+            "p": "In 1638, Roger Williams founded the first church in the American colonies to perform this rite only on believers rather than on babies, in Providence. Williams himself left that church within a few months, but the congregation lives on in Rhode Island.",
+            "r": "That congregation was the first Baptist church in America. For 10 points, name this rite, which many Baptists perform by dipping a person fully under water."
+        },
+        {
+            "p": "John Gadsby Chapman’s painting in the U.S. Capitol Rotunda shows Pocahontas receiving this rite, along with the new name Rebecca. In 988, Prince Vladimir of Kiev received it and then ordered the people of his city into the Dnieper [“NEE-per”] River to receive it too.",
+            "r": "The Roman emperor Constantine waited until he was dying to receive it. For 10 points, name this Christian rite of washing with water."
+        },
+        {
+            "p": "Eastern Orthodox priests usually perform this rite by dipping a person in water three times, once for each person of the Trinity. Other churches perform it by affusion [“uh-FYOO-zhun”], or pouring water over the head, or by aspersion [“uh-SPUR-zhun”], or sprinkling.",
+            "r": "Baptists usually perform it by full immersion. For 10 points, name this Christian rite of initiation."
+        },
+        {
+            "p": "Catholics teach that this sacrament washes away original sin, and in an emergency they allow anyone, even a person who is not a Christian, to perform it by using water and the right words. Godparents often make promises on behalf of a baby receiving it.",
+            "r": "Catholics count it as the first of their seven sacraments. For 10 points, name this rite, which many churches give to babies."
+        },
+        {
+            "p": "At the end of the Gospel of Matthew, the risen Jesus tells his followers to make disciples of all nations and to perform this rite “in the name of the Father and of the Son and of the Holy Spirit.” That command is called the Great Commission.",
+            "r": "For 10 points, name this Christian rite, which John the Baptist performed in the Jordan River."
+        },
+        {
+            "p": "In his Letter to the Romans, Paul says that believers who receive this rite are “buried with” Christ so that they can “walk in newness of life.” In the Gospel of John, Jesus tells Nicodemus [“nik-uh-DEE-mus”] that no one can enter the kingdom of God without being “born of water and the Spirit.”",
+            "r": "Many churches teach that it marks a spiritual rebirth. For 10 points, name this Christian sacrament performed with water."
+        },
+        {
+            "p": "In the Book of Acts, about three thousand people receive this rite on the day of Pentecost after Peter tells the crowd to repent. Later in that book, Philip performs it on an Ethiopian official, who asks, “Look, here is water! What can stand in the way?”",
+            "r": "Christians see it as the way a person joins the church. For 10 points, name this rite that John the Baptist performed on Jesus."
+        },
+        {
+            "p": "Lorenzo Ghiberti made bronze doors nicknamed the “Gates of Paradise” for a building in Florence set aside for this rite. Leonardo da Vinci painted one of the angels in his teacher Andrea del Verrocchio’s [“vair-ROH-kee-ohz”] painting of Jesus receiving it.",
+            "r": "In that scene, John the Baptist performs this rite on Jesus as a dove comes down from heaven. For 10 points, name this Christian rite."
+        },
+        {
+            "p": "Members of the small Mandaean [“man-DEE-un”] religion of Iraq and Iran repeat this rite often throughout their lives, always in flowing water. In Judaism, a similar ritual immersion takes place in a pool called a mikveh [“MIK-vuh”], which converts enter as part of joining the faith.",
+            "r": "Mandaeans honor John the Baptist, who performed this rite on Jesus. For 10 points, name this Christian sacrament."
+        },
+        {
+            "p": "The Salvation Army and the Quakers do not perform this water rite, which Quakers understand as an inward, spiritual experience instead. Latter-day Saints perform it on children at age eight and also perform it in their temples on behalf of ancestors who have died.",
+            "r": "Most churches see it as the first step in Christian life. For 10 points, name this rite that John the Baptist performed."
+        },
+        {
+            "p": "Tertullian [“tur-TUL-yun”] wrote the oldest surviving essay devoted to this rite around 200 CE, and the Nicene Creed says Christians acknowledge only one of it “for the forgiveness of sins.” Augustine argued against the Donatists [“DOH-nuh-tists”] that it should not be repeated, even if an unworthy priest had performed it.",
+            "r": "Most churches perform it only once in a person’s life. For 10 points, name this Christian sacrament, which Jesus received from John the Baptist."
+        }
+    ],
+    "clues": [
+        {
+            "id": "jordan",
+            "tier": "giveaway",
+            "t": "John the Baptist performed it on Jesus in the Jordan River, and the Holy Spirit came down like a dove",
+            "k": ["john the baptist", "jordan river", "dove"],
+            "n": 0
+        },
+        {
+            "id": "water-initiation",
+            "tier": "giveaway",
+            "t": "Christian rite of initiation with water, done by immersion, pouring, or sprinkling",
+            "k": ["initiation", "water", "immersion", "sprinkling"],
+            "n": 0
+        },
+        {
+            "id": "infant-believer",
+            "tier": "giveaway",
+            "t": "Infant or believer’s: many churches give it to babies, while Baptists give it only to people who profess their faith",
+            "k": ["infant", "believer", "babies", "profess"],
+            "n": 0
+        },
+        {
+            "id": "sacrament",
+            "tier": "giveaway",
+            "t": "One of the two sacraments most Protestants keep (with communion), and the first of the seven Catholic sacraments",
+            "k": ["sacraments", "communion", "seven"],
+            "n": 0
+        },
+        {
+            "id": "great-commission",
+            "tier": "middle",
+            "t": "The Great Commission (end of Matthew): make disciples of all nations, “in the name of the Father and of the Son and of the Holy Spirit”",
+            "k": ["great commission", "matthew", "all nations"],
+            "n": 0
+        },
+        {
+            "id": "beloved-son",
+            "tier": "middle",
+            "t": "At Jesus’s, a voice from heaven said, “This is my beloved Son”; Eastern churches celebrate it at Theophany (Epiphany)",
+            "k": ["beloved son", "theophany", "epiphany"],
+            "n": 0
+        },
+        {
+            "id": "methods",
+            "tier": "middle",
+            "t": "Three methods: immersion (dipping), affusion (pouring), and aspersion (sprinkling); the Orthodox immerse three times",
+            "k": ["affusion", "aspersion", "three times"],
+            "n": 0
+        },
+        {
+            "id": "anabaptists",
+            "tier": "middle",
+            "t": "Anabaptists (“re-doers” of it) began in Zurich in 1525, when Conrad Grebel performed it on George Blaurock",
+            "k": ["anabaptists", "conrad grebel", "zurich", "1525"],
+            "n": 0
+        },
+        {
+            "id": "baptists",
+            "tier": "middle",
+            "t": "The Baptist denomination began with John Smyth in Amsterdam (1609); Thomas Helwys founded the first Baptist church in England",
+            "k": ["john smyth", "1609", "amsterdam", "helwys"],
+            "n": 0
+        },
+        {
+            "id": "original-sin",
+            "tier": "middle",
+            "t": "Catholics teach it washes away original sin; in an emergency anyone may perform it; godparents make promises for babies",
+            "k": ["original sin", "emergency", "godparents"],
+            "n": 0
+        },
+        {
+            "id": "didache",
+            "tier": "power",
+            "t": "The _Didache_ calls for “living” (running) water, or pouring water on the head three times, after a fast of a day or two",
+            "k": ["didache", "living", "running"],
+            "n": 0
+        },
+        {
+            "id": "tarpon-springs",
+            "tier": "power",
+            "t": "At Tarpon Springs, Florida, Greek Orthodox teens dive for a cross each January on Theophany",
+            "k": ["tarpon springs", "cross", "dive"],
+            "n": 0
+        },
+        {
+            "id": "roger-williams",
+            "tier": "power",
+            "t": "Roger Williams founded the first Baptist church in America, in Providence, Rhode Island (1638)",
+            "k": ["roger williams", "providence", "1638"],
+            "n": 0
+        },
+        {
+            "id": "famous-converts",
+            "tier": "power",
+            "t": "Pocahontas received it and the name Rebecca (Chapman’s painting in the Capitol); Vladimir of Kiev in 988; Constantine on his deathbed",
+            "k": ["pocahontas", "vladimir", "constantine", "988"],
+            "n": 0,
+            "rabbit": "Pocahontas"
+        },
+        {
+            "id": "romans-john",
+            "tier": "power",
+            "t": "Paul says believers are “buried with” Christ in it; Jesus tells Nicodemus one must be “born of water and the Spirit”",
+            "k": ["buried with", "nicodemus", "born of water"],
+            "n": 0
+        },
+        {
+            "id": "acts",
+            "tier": "power",
+            "t": "In Acts, about 3,000 people receive it at Pentecost, and Philip performs it on an Ethiopian official",
+            "k": ["pentecost", "ethiopian", "philip"],
+            "n": 0
+        },
+        {
+            "id": "florence",
+            "tier": "power",
+            "t": "Ghiberti’s “Gates of Paradise” are on Florence’s building for this rite; Leonardo painted an angel in Verrocchio’s painting of Jesus receiving it",
+            "k": ["ghiberti", "gates of paradise", "verrocchio", "leonardo"],
+            "n": 0
+        },
+        {
+            "id": "mandaeans",
+            "tier": "power",
+            "t": "The Mandaeans of Iraq and Iran repeat it often in flowing water; Jewish converts immerse in a pool called a mikveh",
+            "k": ["mandaeans", "mikveh", "flowing water"],
+            "n": 0
+        },
+        {
+            "id": "no-water",
+            "tier": "power",
+            "t": "The Quakers and the Salvation Army do not practice it with water; Latter-day Saints perform it at age 8 and for ancestors",
+            "k": ["quakers", "salvation army", "age 8", "latter-day saints"],
+            "n": 0,
+            "rabbit": "Quakers"
+        },
+        {
+            "id": "tertullian",
+            "tier": "power",
+            "t": "Tertullian wrote the oldest surviving essay on it (c. 200); the Nicene Creed acknowledges just one “for the forgiveness of sins”",
+            "k": ["tertullian", "nicene creed", "forgiveness of sins"],
+            "n": 0
+        },
+        {
+            "id": "donatists",
+            "tier": "power",
+            "t": "Augustine told the Donatists it should not be repeated, even if an unworthy priest had performed it",
+            "k": ["augustine", "donatists", "unworthy priest"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Rite, not the Baptist",
+        "body": "Baptism shares its root with three other answer lines: John the Baptist, the prophet who performed it on Jesus; the Baptists, a Protestant denomination begun by John Smyth in 1609; and the Anabaptists, the 1525 movement whose heirs include the Mennonites and the Amish. Players also confuse it with confirmation, a later sacrament in which a baptized person affirms the faith, and with the Eastern Orthodox chrismation, an anointing with oil.",
+        "fix": "If the question asks for “this rite,” “this sacrament,” or “this ritual,” answer baptism. Say Baptists only for “this denomination” and John the Baptist only for “this prophet” or “this man.” A bishop laying on hands or anointing with oil points to confirmation or chrismation.",
+        "line": "Real answer line: <b><u>baptism</u></b> (accept word forms like <u>baptizing</u>; accept <u>christening</u>; do not accept “Baptists” or “confirmation”)"
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

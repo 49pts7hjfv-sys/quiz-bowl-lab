@@ -1,0 +1,448 @@
+{
+  "id": "louisiana-purchase",
+  "name": "Louisiana Purchase",
+  "mono": "LP",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "1803 land deal with Napoleon’s France · Doubled the size of the U.S.",
+  "dates": "Signed 1803",
+  "briefing": "In 1803, American diplomats in Paris were trying to buy the port city of New Orleans when France offered them the entire Louisiana Territory instead. For $15 million, the United States roughly doubled in size, gaining land that became all or part of 15 states. President Thomas Jefferson worried the Constitution didn’t allow such a purchase, but he made the deal anyway and sent Lewis and Clark to explore it.",
+  "answerHtml": "<b><u>Louisiana Purchase</u></b> (prompt on <u>Louisiana</u> or <u>Louisiana Territory</u>)",
+  "accept": [
+    "louisiana purchase",
+    "the louisiana purchase",
+    "purchase of louisiana",
+    "louisiana purchase treaty",
+    "purchase of the louisiana territory",
+    "louisiana territory purchase"
+  ],
+  "prompt": [
+    "louisiana",
+    "louisiana territory",
+    "territory of louisiana",
+    "purchase"
+  ],
+  "reject": [
+    "louisiana purchase exposition",
+    "gadsden purchase",
+    "alaska purchase",
+    "purchase of alaska",
+    "sewards folly",
+    "mexican cession",
+    "texas annexation",
+    "annexation of texas",
+    "oregon territory",
+    "new orleans",
+    "battle of new orleans",
+    "missouri compromise",
+    "lewis and clark expedition",
+    "lewis and clark",
+    "corps of discovery",
+    "treaty of san ildefonso",
+    "san ildefonso",
+    "adams onis treaty",
+    "transcontinental treaty",
+    "pinckneys treaty",
+    "treaty of paris",
+    "florida purchase",
+    "purchase of florida"
+  ],
+  "tests": {
+    "right": [
+      "Louisiana Purchase",
+      "the Louisiana Purchase",
+      "Purchase of Louisiana",
+      "Lousiana Purchase",
+      "Louisiana Purchase Treaty"
+    ],
+    "prompt": [
+      "Louisiana",
+      "Louisiana Territory"
+    ],
+    "wrong": [
+      "Gadsden Purchase",
+      "Alaska Purchase",
+      "New Orleans",
+      "Mexican Cession",
+      "Missouri Compromise",
+      "Lewis and Clark Expedition",
+      "Louisiana Purchase Exposition"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+  "qb": {
+    "q": "Louisiana Purchase",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Robert Livingston was startled when the French foreign minister, Talleyrand [“TAL-ee-rand”], asked how much the United States would pay for “the whole” of a vast territory instead of just one city. Livingston and James Monroe then signed a treaty with François Barbé-Marbois [“bar-BAY mar-BWAH”].",
+      "r": "For 10 points, name this 1803 land deal that doubled the size of the United States."
+    },
+    {
+      "p": "Thousands of French soldiers under Charles Leclerc [“luh-KLAIR”] died of yellow fever and in battle while trying to retake the colony of Saint-Domingue [“san doh-MANG”], which led the French government to give up its plans for an empire in North America. This deal soon followed.",
+      "r": "For 10 points, name this 1803 land deal in which Napoleon sold a huge territory to the United States."
+    },
+    {
+      "p": "A Spanish official took away the American “right of deposit,” which let farmers store goods at a port near the mouth of the Mississippi River. The president then sent James Monroe to France with orders to buy that port, but the diplomats came home with much more.",
+      "r": "That port was New Orleans. For 10 points, name this 1803 deal that doubled the size of the United States."
+    },
+    {
+      "p": "In an 1802 letter, the president who made this deal warned that “there is on the globe one single spot, the possessor of which is our natural and habitual enemy,” meaning the port of New Orleans.",
+      "r": "A year later, his diplomats bought that port and a huge region around it. For 10 points, name this land deal with Napoleon’s France."
+    },
+    {
+      "p": "Because he believed the federal government had only the powers the Constitution listed, the president who made this deal drafted an amendment to allow it, but he dropped the idea for fear that the seller would change its mind. New England Federalists argued against it in the Senate.",
+      "r": "For 10 points, name this 1803 land deal in which the United States paid France 15 million dollars."
+    },
+    {
+      "p": "The United States paid for this deal with bonds that were bought and resold by Baring Brothers, a British bank, and Hope and Company, a Dutch bank, even though Britain and France were about to go back to war. France used the money to prepare for that war.",
+      "r": "For 10 points, name this 1803 deal in which the United States bought a vast territory west of the Mississippi River."
+    },
+    {
+      "p": "On “Three Flags Day” in March 1804, the flag of Spain was lowered in St. Louis, the French flag flew briefly, and then the American flag was raised to complete this deal. The formal handover in New Orleans had taken place the previous December.",
+      "r": "For 10 points, name this land deal in which Thomas Jefferson bought a vast territory from Napoleon in 1803."
+    },
+    {
+      "p": "The 1904 World’s Fair in St. Louis, where the Summer Olympics were also held, celebrated the 100th anniversary of this event. The Gateway Arch in St. Louis also honors this event and the westward expansion that followed it.",
+      "r": "For 10 points, name this 1803 deal in which the United States bought a huge territory from France."
+    },
+    {
+      "p": "The Missouri Compromise of 1820 banned slavery north of the 36°30′ line in the rest of the land gained in this deal, a ban that the Kansas–Nebraska Act later overturned. Zebulon Pike explored the southwestern part of that land.",
+      "r": "For 10 points, name this deal, explored by Lewis and Clark, that doubled the size of the United States in 1803."
+    },
+    {
+      "p": "In the secret Treaty of San Ildefonso [“san eel-day-FOHN-soh”] in 1800, Spain handed a huge North American territory back to France, which alarmed Americans who shipped their crops down the Mississippi River. Spain had controlled that territory since the end of the French and Indian War.",
+      "r": "Three years later, France sold that territory to the United States. For 10 points, name this deal arranged by Thomas Jefferson’s diplomats."
+    },
+    {
+      "p": "After signing this agreement, Robert Livingston reportedly declared, “We have lived long, but this is the noblest work of our whole lives.” Livingston had been joined in Paris by James Monroe, who was sent as a special envoy.",
+      "r": "For 10 points, name this 1803 deal in which the United States bought a vast territory from Napoleon’s France."
+    },
+    {
+      "p": "Land gained in this deal makes up all or part of fifteen states, including Iowa, Nebraska, Oklahoma, and Montana, and it covered about 828,000 square miles. Its southern part became the Territory of Orleans, which joined the Union as a state in 1812.",
+      "r": "For 10 points, name this 1803 deal that doubled the size of the United States for 15 million dollars."
+    },
+    {
+      "p": "This deal transferred a region that the French explorer La Salle [“luh SAL”] had claimed in 1682 and named in honor of King Louis XIV. It covered most of the land drained by the Mississippi River’s western branches, reaching to the Rocky Mountains.",
+      "r": "For 10 points, name this 1803 deal in which Thomas Jefferson bought that vast territory from France."
+    },
+    {
+      "p": "Because the treaty for this deal described its borders only vaguely, the United States and Spain argued over them until the Transcontinental Treaty of 1819 settled the boundary. The United States also claimed that this deal included West Florida, which Spain denied.",
+      "r": "For 10 points, name this 1803 land deal whose lands were explored by Lewis and Clark."
+    },
+    {
+      "p": "Needing money for a coming war with Britain, the ruler who made this deal with the United States reportedly predicted that it would give Britain a rival at sea that would one day humble its pride. He had once hoped to use this land to feed his sugar colonies in the Caribbean.",
+      "r": "For 10 points, name this 1803 deal in which Napoleon sold a vast territory to the United States."
+    }
+  ],
+  "clues": [
+    {
+      "id": "jefferson",
+      "tier": "giveaway",
+      "t": "Made in 1803 by President Thomas Jefferson",
+      "k": [
+        "thomas jefferson",
+        "jefferson",
+        "1803"
+      ],
+      "n": 0,
+      "rabbit": "Thomas Jefferson"
+    },
+    {
+      "id": "napoleon",
+      "tier": "giveaway",
+      "t": "Bought from Napoleon’s France for $15 million",
+      "k": [
+        "napoleon",
+        "$15 million",
+        "france"
+      ],
+      "n": 0,
+      "rabbit": "Napoleon Bonaparte"
+    },
+    {
+      "id": "doubled",
+      "tier": "giveaway",
+      "t": "Doubled the size of the United States, adding about 828,000 square miles west of the Mississippi River",
+      "k": [
+        "doubled",
+        "mississippi river",
+        "828,000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lewis-clark",
+      "tier": "giveaway",
+      "t": "Explored by Lewis and Clark’s Corps of Discovery (1804–1806)",
+      "k": [
+        "lewis and clark",
+        "corps of discovery"
+      ],
+      "n": 0,
+      "rabbit": "Lewis and Clark Expedition"
+    },
+    {
+      "id": "new-orleans",
+      "tier": "middle",
+      "t": "Included the port of New Orleans, which American diplomats had first been sent to buy by itself",
+      "k": [
+        "new orleans",
+        "port"
+      ],
+      "n": 0
+    },
+    {
+      "id": "livingston-monroe",
+      "tier": "middle",
+      "t": "Negotiated in Paris by Robert Livingston and James Monroe",
+      "k": [
+        "livingston",
+        "james monroe",
+        "monroe"
+      ],
+      "n": 0,
+      "rabbit": "James Monroe"
+    },
+    {
+      "id": "haiti",
+      "tier": "middle",
+      "t": "France gave up on an American empire after its army failed to retake Saint-Domingue (Haiti)",
+      "k": [
+        "saint-domingue",
+        "haiti"
+      ],
+      "n": 0
+    },
+    {
+      "id": "constitution",
+      "tier": "middle",
+      "t": "Jefferson, a strict constructionist, worried the Constitution did not allow buying land and considered an amendment",
+      "k": [
+        "strict constructionist",
+        "constitution",
+        "amendment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fifteen-states",
+      "tier": "middle",
+      "t": "Its land became all or part of 15 states, including Iowa, Nebraska, Oklahoma, and Montana",
+      "k": [
+        "15 states",
+        "iowa",
+        "nebraska"
+      ],
+      "n": 0
+    },
+    {
+      "id": "right-of-deposit",
+      "tier": "middle",
+      "t": "Spain took away the American “right of deposit” at New Orleans in 1802, alarming Western farmers",
+      "k": [
+        "right of deposit",
+        "deposit",
+        "1802"
+      ],
+      "n": 0
+    },
+    {
+      "id": "san-ildefonso",
+      "tier": "middle",
+      "t": "Spain had secretly given the territory back to France in the Treaty of San Ildefonso (1800)",
+      "k": [
+        "san ildefonso",
+        "ildefonso",
+        "1800"
+      ],
+      "n": 0
+    },
+    {
+      "id": "talleyrand",
+      "tier": "middle",
+      "t": "French foreign minister Talleyrand surprised Livingston by asking what the U.S. would pay for “the whole”",
+      "k": [
+        "talleyrand",
+        "the whole"
+      ],
+      "n": 0
+    },
+    {
+      "id": "missouri-compromise",
+      "tier": "middle",
+      "t": "The Missouri Compromise (1820) banned slavery in its land north of 36°30′, until the Kansas–Nebraska Act (1854)",
+      "k": [
+        "missouri compromise",
+        "36°30′",
+        "kansas–nebraska"
+      ],
+      "n": 0,
+      "rabbit": "Missouri Compromise"
+    },
+    {
+      "id": "federalists",
+      "tier": "middle",
+      "t": "Many New England Federalists opposed it, fearing new western states would weaken their region",
+      "k": [
+        "federalists",
+        "new england",
+        "opposed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "barbe-marbois",
+      "tier": "power",
+      "t": "François Barbé-Marbois signed the treaty for France",
+      "k": [
+        "barbé-marbois",
+        "barbe-marbois",
+        "marbois"
+      ],
+      "n": 0
+    },
+    {
+      "id": "baring-hope",
+      "tier": "power",
+      "t": "Paid for with bonds handled by Baring Brothers of Britain and Hope and Company of the Netherlands",
+      "k": [
+        "baring",
+        "hope and company",
+        "bonds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-flags",
+      "tier": "power",
+      "t": "“Three Flags Day” (March 1804): the Spanish, French, and American flags flew in turn over St. Louis",
+      "k": [
+        "three flags",
+        "st. louis",
+        "flags"
+      ],
+      "n": 0
+    },
+    {
+      "id": "worlds-fair",
+      "tier": "power",
+      "t": "The 1904 World’s Fair in St. Louis celebrated its 100th anniversary",
+      "k": [
+        "world’s fair",
+        "1904",
+        "100th anniversary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "habitual-enemy",
+      "tier": "power",
+      "t": "Jefferson wrote (1802) that whoever held New Orleans was “our natural and habitual enemy”",
+      "k": [
+        "natural and habitual enemy",
+        "habitual enemy",
+        "1802"
+      ],
+      "n": 0
+    },
+    {
+      "id": "transcontinental",
+      "tier": "power",
+      "t": "Its unclear borders with Spanish land were settled by the Transcontinental Treaty (1819); the U.S. also claimed West Florida",
+      "k": [
+        "transcontinental",
+        "1819",
+        "west florida"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orleans-territory",
+      "tier": "power",
+      "t": "Its southern part became the Territory of Orleans, which became a state in 1812",
+      "k": [
+        "territory of orleans",
+        "orleans",
+        "1812"
+      ],
+      "n": 0
+    },
+    {
+      "id": "la-salle",
+      "tier": "power",
+      "t": "La Salle claimed the region for France in 1682, naming it for King Louis XIV",
+      "k": [
+        "la salle",
+        "louis xiv",
+        "1682"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gateway-arch",
+      "tier": "power",
+      "t": "The Gateway Arch in St. Louis honors it and the westward expansion that followed",
+      "k": [
+        "gateway arch",
+        "westward expansion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pike",
+      "tier": "power",
+      "t": "Zebulon Pike explored its southwestern part (1806–1807)",
+      "k": [
+        "zebulon pike",
+        "pike"
+      ],
+      "n": 0
+    },
+    {
+      "id": "noblest-work",
+      "tier": "power",
+      "t": "Livingston: “We have lived long, but this is the noblest work of our whole lives”",
+      "k": [
+        "noblest work",
+        "lived long"
+      ],
+      "n": 0
+    },
+    {
+      "id": "napoleon-war",
+      "tier": "power",
+      "t": "Napoleon needed money for a new war with Britain and had once hoped the land would feed his Caribbean sugar colonies",
+      "k": [
+        "war with britain",
+        "sugar",
+        "caribbean"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leclerc",
+      "tier": "power",
+      "t": "Thousands of French soldiers under Charles Leclerc died of yellow fever and in battle in Saint-Domingue",
+      "k": [
+        "leclerc",
+        "yellow fever"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Deal, land, or state?",
+    "body": "The Louisiana Purchase was the 1803 deal; the land itself is often called the Louisiana Territory, and the modern state of Louisiana is only a small corner of it. Saying just “Louisiana” earns a prompt. Players also mix it up with other land deals: the Gadsden Purchase (1853, from Mexico), the Alaska Purchase (1867, from Russia), and the Mexican Cession (1848, after a war).",
+    "fix": "Napoleon, Jefferson, Livingston and Monroe, New Orleans, Saint-Domingue, and Lewis and Clark all mean the Louisiana Purchase. A southern railroad route means Gadsden, and “Seward’s Folly” means Alaska. When you get a prompt, say “Louisiana Purchase.”",
+    "line": "Real answer line: <b><u>Louisiana Purchase</u></b> (prompt on <u>Louisiana</u> or <u>Louisiana Territory</u>)"
+  }
+}

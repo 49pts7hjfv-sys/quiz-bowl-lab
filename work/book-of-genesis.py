@@ -1,0 +1,360 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>Genesis</u></b> (or <u>Bereshit</u>; accept <u>First Book of Moses</u>)"
+
+data = {
+    "id": "book-of-genesis",
+    "name": "Book of Genesis",
+    "mono": "GN",
+    "category": "Religion",
+    "qbCategory": "Religion",
+    "kicker": "First book of the Bible · Creation, Noah, and the patriarchs",
+    "dates": "Traditionally credited to Moses",
+    "briefing": "The Bible’s very first words, “In the beginning,” open the Book of Genesis, which runs from the creation of the world to the death of Joseph in Egypt. Along the way come some of the most famous stories ever told: Adam and Eve in the Garden of Eden, Noah’s ark, the Tower of Babel, and the families of Abraham, Isaac, Jacob, and Joseph. Its name comes from a Greek word meaning “origin.”",
+    "answerHtml": LINE,
+    "accept": [
+        "genesis",
+        "book of genesis",
+        "bereshit",
+        "bereishit",
+        "bereshith",
+        "breishit",
+        "first book of moses"
+    ],
+    "prompt": [],
+    "reject": [
+        "exodus",
+        "book of exodus",
+        "leviticus",
+        "numbers",
+        "deuteronomy",
+        "torah",
+        "pentateuch",
+        "five books of moses",
+        "old testament",
+        "hebrew bible",
+        "tanakh",
+        "revelation",
+        "book of revelation",
+        "jubilees",
+        "book of jubilees",
+        "enoch",
+        "book of enoch",
+        "book of job",
+        "psalms",
+        "creation",
+        "eden",
+        "garden of eden",
+        "paradise lost",
+        "noah",
+        "adam",
+        "joshua",
+        "judges",
+        "genesis rabbah"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Book_of_Genesis",
+    "qb": {"q": "Genesis", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "On Christmas Eve 1968, astronauts Bill Anders, Jim Lovell, and Frank Borman took turns reading the first ten verses of this book on live television while orbiting the Moon aboard Apollo 8, the first crewed spacecraft to orbit the Moon.",
+            "r": "Those verses describe the first days of creation, including God saying “Let there be light.” For 10 points, name this first book of the Bible."
+        },
+        {
+            "p": "John Steinbeck took the title of a 1952 novel from a verse in this book, and characters in that novel debate the meaning of a Hebrew word from it, timshel [“TIM-shel”], which they translate as “thou mayest.”",
+            "r": "That novel, _East of Eden_, retells this book’s story of Cain and Abel. For 10 points, name this first book of the Torah."
+        },
+        {
+            "p": "This book says that a river flowing out of a garden split into four branches: the Pishon [“PEE-shon”], the Gihon [“GEE-hon”], the Tigris, and the Euphrates [“yoo-FRAY-teez”]. Cherubim and a flaming sword later guarded the way to that garden’s tree of life.",
+            "r": "That garden was Eden, home of Adam and Eve. For 10 points, name this first book of the Bible."
+        },
+        {
+            "p": "Scholars who follow the documentary hypothesis say this book weaves together older sources, such as the ones they call J and P, which would explain why it seems to tell one story twice, in its first and second chapters.",
+            "r": "In those chapters, God creates the world in six days, then forms a man from dust. For 10 points, name this first book of the Bible."
+        },
+        {
+            "p": "This book is divided into sections by the repeated phrase “These are the generations of,” and it ends with a man dying in Egypt at age 110 after making his brothers promise to carry his bones to Canaan.",
+            "r": "That man was Joseph, whose brothers had once sold him. For 10 points, name this first book of the Torah, which begins with creation."
+        },
+        {
+            "p": "This book says that Enoch “walked with God” and then was gone, because God took him, and that Enoch’s son Methuselah [“meh-THOO-zuh-luh”] lived 969 years, longer than anyone else in the Bible. This book also briefly mentions mighty beings called the Nephilim [“NEF-ih-lim”].",
+            "r": "Methuselah’s grandson Noah builds an ark in this book. For 10 points, name this first book of the Bible."
+        },
+        {
+            "p": "In this book, a man sends out a raven that keeps flying back and forth, then a dove that returns the second time with a freshly plucked olive leaf. His vessel had come to rest on the mountains of Ararat [“AIR-uh-rat”].",
+            "r": "God then sets a rainbow in the sky as a sign of His covenant with that man, Noah. For 10 points, name this book."
+        },
+        {
+            "p": "In this book, people settle in the land of Shinar [“SHY-nar”], bake bricks, and use tar for mortar to build a city with a tower reaching toward the heavens, until God confuses their language and scatters them across the earth.",
+            "r": "That tower was named Babel. For 10 points, name this book that also tells the story of Noah’s ark."
+        },
+        {
+            "p": "In this book, a man uses a stone as a pillow and dreams of angels going up and down a stairway to heaven, so he names the place Bethel [“BETH-el”], meaning “house of God.” Years later, after wrestling with a stranger all night, he is renamed Israel.",
+            "r": "That man is Jacob, the twin brother of Esau. For 10 points, name this first book of the Bible."
+        },
+        {
+            "p": "On Ash Wednesday, many Christians receive ashes on their foreheads while hearing words that echo this book: “Remember that you are dust, and to dust you shall return.” In this book, God makes garments of animal skins for a couple before sending them out of their home.",
+            "r": "That couple, Adam and Eve, had eaten fruit from the tree of the knowledge of good and evil. For 10 points, name this book."
+        },
+        {
+            "p": "In this book, a prisoner explains that a ruler’s dream of seven thin cows swallowing seven fat cows means seven years of plenty followed by seven years of famine, and the ruler puts him in charge of storing grain.",
+            "r": "That prisoner, Joseph, had been sold into slavery by his brothers. For 10 points, name this book."
+        },
+        {
+            "p": "In this book, a governor of Egypt has his silver cup hidden in the grain sack of his youngest brother, Benjamin, to test whether his other brothers have changed. Those brothers had once sold the governor to traders for twenty pieces of silver.",
+            "r": "That governor, Joseph, is famous for his coat of many colors. For 10 points, name this book."
+        },
+        {
+            "p": "Michelangelo painted nine scenes from this book down the center of the Sistine Chapel ceiling between 1508 and 1512. Those panels begin with _The Separation of Light from Darkness_. Joseph Haydn drew on this book’s opening chapters for a famous oratorio.",
+            "r": "The most famous of Michelangelo’s scenes shows God giving life to Adam. For 10 points, name this first book of the Bible."
+        },
+        {
+            "p": "In this book, two angels urge a man to leave, and he and his family flee to the small town of Zoar [“ZOH-ar”] as burning sulfur rains down on two wicked cities, but his wife looks back and becomes a pillar of salt.",
+            "r": "Those cities were Sodom and Gomorrah. For 10 points, name this book, which also tells of Abraham and Isaac."
+        },
+        {
+            "p": "In this book, a hungry hunter sells his birthright to his twin brother for a bowl of red lentil stew, and that brother later wears goatskins on his hands and neck to trick their nearly blind father into blessing him.",
+            "r": "Those twins were Esau and Jacob, and Jacob later married the sisters Leah and Rachel. For 10 points, name this first book of the Bible."
+        }
+    ],
+    "clues": [
+        {
+            "id": "first-book",
+            "tier": "giveaway",
+            "t": "First book of the Bible, the Torah, and the Old Testament; it has 50 chapters",
+            "k": ["first book", "50 chapters", "torah"],
+            "n": 0,
+            "rabbit": "Torah"
+        },
+        {
+            "id": "creation",
+            "tier": "giveaway",
+            "t": "Opens with God creating the world in six days and resting on the seventh: “In the beginning God created the heavens and the earth”",
+            "k": ["six days", "in the beginning", "creation"],
+            "n": 0
+        },
+        {
+            "id": "adam-eve",
+            "tier": "giveaway",
+            "t": "Adam and Eve eat the forbidden fruit in the Garden of Eden and are sent out",
+            "k": ["adam", "eve", "garden of eden", "forbidden fruit"],
+            "n": 0
+        },
+        {
+            "id": "noah",
+            "tier": "giveaway",
+            "t": "Noah builds an ark to survive the Flood",
+            "k": ["noah", "ark", "flood"],
+            "n": 0
+        },
+        {
+            "id": "patriarchs",
+            "tier": "giveaway",
+            "t": "Tells the stories of the patriarchs Abraham, Isaac, and Jacob, and of Joseph",
+            "k": ["patriarchs", "abraham", "joseph"],
+            "n": 0,
+            "rabbit": "Abraham"
+        },
+        {
+            "id": "cain-abel",
+            "tier": "middle",
+            "t": "Cain kills his brother Abel, then asks God, “Am I my brother’s keeper?”",
+            "k": ["cain", "abel", "brothers keeper"],
+            "n": 0
+        },
+        {
+            "id": "babel",
+            "tier": "middle",
+            "t": "The Tower of Babel: God confuses the builders’ language and scatters them",
+            "k": ["babel", "tower", "language"],
+            "n": 0
+        },
+        {
+            "id": "rainbow",
+            "tier": "middle",
+            "t": "After the Flood, God sets a rainbow in the sky as a sign of His covenant; the ark lands on the mountains of Ararat",
+            "k": ["rainbow", "covenant", "ararat"],
+            "n": 0
+        },
+        {
+            "id": "jacob-esau",
+            "tier": "middle",
+            "t": "Esau sells his birthright to his twin, Jacob, for lentil stew; Jacob tricks their father, Isaac, into blessing him",
+            "k": ["esau", "birthright", "lentil stew"],
+            "n": 0
+        },
+        {
+            "id": "jacob-israel",
+            "tier": "middle",
+            "t": "Jacob dreams of a stairway to heaven at Bethel and is renamed Israel after wrestling all night",
+            "k": ["bethel", "stairway", "ladder", "israel"],
+            "n": 0
+        },
+        {
+            "id": "joseph",
+            "tier": "middle",
+            "t": "Joseph, with his coat of many colors, is sold by his brothers, then rises to power in Egypt",
+            "k": ["joseph", "coat of many colors", "egypt"],
+            "n": 0,
+            "rabbit": "Joseph (son of Jacob)"
+        },
+        {
+            "id": "sodom",
+            "tier": "middle",
+            "t": "Sodom and Gomorrah are destroyed; Lot flees to Zoar, but his wife looks back and becomes a pillar of salt",
+            "k": ["sodom", "pillar of salt", "zoar"],
+            "n": 0
+        },
+        {
+            "id": "binding",
+            "tier": "middle",
+            "t": "God tests Abraham, who nearly sacrifices Isaac before an angel stops him",
+            "k": ["isaac", "sacrifice", "angel"],
+            "n": 0
+        },
+        {
+            "id": "name-meaning",
+            "tier": "middle",
+            "t": "Its Hebrew name is its first word, meaning “in the beginning”; its Greek name means “origin”",
+            "k": ["origin", "first word", "hebrew name"],
+            "n": 0
+        },
+        {
+            "id": "apollo-8",
+            "tier": "power",
+            "t": "Apollo 8’s crew read its first ten verses while orbiting the Moon on Christmas Eve 1968",
+            "k": ["apollo 8", "christmas eve", "1968"],
+            "n": 0
+        },
+        {
+            "id": "east-of-eden",
+            "tier": "power",
+            "t": "John Steinbeck’s _East of Eden_ (1952) retells Cain and Abel and debates the Hebrew word timshel, “thou mayest”",
+            "k": ["steinbeck", "east of eden", "timshel"],
+            "n": 0
+        },
+        {
+            "id": "rivers",
+            "tier": "power",
+            "t": "A river from Eden splits into four: the Pishon, Gihon, Tigris, and Euphrates; cherubim guard the way to the tree of life",
+            "k": ["pishon", "gihon", "cherubim"],
+            "n": 0
+        },
+        {
+            "id": "documentary",
+            "tier": "power",
+            "t": "Documentary hypothesis: scholars see older sources such as J and P woven together, giving two creation stories (chapters 1 and 2)",
+            "k": ["documentary hypothesis", "sources", "two creation stories"],
+            "n": 0
+        },
+        {
+            "id": "toledot",
+            "tier": "power",
+            "t": "Divided into sections by the repeated phrase “These are the generations of”",
+            "k": ["generations", "toledot"],
+            "n": 0
+        },
+        {
+            "id": "methuselah",
+            "tier": "power",
+            "t": "Methuselah lives 969 years; his father, Enoch, “walked with God” and was taken; the Nephilim are mentioned",
+            "k": ["methuselah", "969", "enoch", "nephilim"],
+            "n": 0
+        },
+        {
+            "id": "dove",
+            "tier": "power",
+            "t": "Noah sends out a raven and a dove; the dove returns with a freshly plucked olive leaf",
+            "k": ["dove", "raven", "olive leaf"],
+            "n": 0
+        },
+        {
+            "id": "shinar",
+            "tier": "power",
+            "t": "Babel’s builders in the land of Shinar use bricks and tar",
+            "k": ["shinar", "bricks"],
+            "n": 0
+        },
+        {
+            "id": "laban",
+            "tier": "power",
+            "t": "Laban tricks Jacob into marrying Leah before Rachel; Jacob works seven more years for Rachel",
+            "k": ["laban", "leah", "rachel"],
+            "n": 0
+        },
+        {
+            "id": "pharaoh-dreams",
+            "tier": "power",
+            "t": "Joseph explains Pharaoh’s dream of seven fat and seven thin cows: seven years of plenty, then seven of famine",
+            "k": ["thin cows", "famine", "pharaoh"],
+            "n": 0
+        },
+        {
+            "id": "silver-cup",
+            "tier": "power",
+            "t": "Joseph has a silver cup hidden in Benjamin’s sack; his brothers had sold him for twenty pieces of silver",
+            "k": ["silver cup", "benjamin", "twenty pieces"],
+            "n": 0
+        },
+        {
+            "id": "sistine",
+            "tier": "power",
+            "t": "Michelangelo painted nine of its scenes on the Sistine Chapel ceiling (1508–1512); Haydn drew on it for his oratorio _The Creation_",
+            "k": ["michelangelo", "sistine chapel", "haydn"],
+            "n": 0,
+            "rabbit": "Sistine Chapel"
+        },
+        {
+            "id": "joseph-death",
+            "tier": "power",
+            "t": "Ends with Joseph’s death in Egypt at age 110, after he makes his brothers promise to carry his bones to Canaan",
+            "k": ["bones", "110", "canaan"],
+            "n": 0
+        },
+        {
+            "id": "ash-wednesday",
+            "tier": "power",
+            "t": "God tells Adam, “You are dust, and to dust you shall return,” words echoed on Ash Wednesday; God makes garments of skins for the couple",
+            "k": ["ash wednesday", "dust", "garments"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "First book, not the Torah",
+        "body": "Genesis is only the first of the five books of the Torah, so answering “Torah,” “Pentateuch,” or “Old Testament” names the whole collection, not this book. Clues about Moses, the burning bush, the ten plagues, and the Red Sea belong to the next book, Exodus, and Joseph’s story, which ends with his family settled in Egypt, is the bridge between them.",
+        "fix": "Creation, Eden, Cain and Abel, Noah, Babel, Abraham, Jacob, and Joseph mean Genesis; Moses, Pharaoh’s plagues, and Mount Sinai mean Exodus. Say “Genesis” (its Hebrew name, Bereshit, also works).",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Genesis",
+            "Book of Genesis",
+            "Bereshit",
+            "Genisis",
+            "the Book of Genesis",
+            "First Book of Moses"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Exodus",
+            "Torah",
+            "Pentateuch",
+            "Revelation",
+            "Old Testament",
+            "Leviticus",
+            "Book of Enoch"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

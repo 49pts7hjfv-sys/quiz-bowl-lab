@@ -1,0 +1,461 @@
+{
+  "id": "john-wilkes-booth",
+  "name": "John Wilkes Booth",
+  "mono": "JWB",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Actor and Confederate sympathizer · Assassinated Abraham Lincoln in 1865",
+  "dates": "1838–1865",
+  "briefing": "John Wilkes Booth was one of the most popular actors in America, the son and brother of famous Shakespearean actors, and he strongly supported the Confederacy. On April 14, 1865, five days after Robert E. Lee surrendered, Booth shot President Abraham Lincoln at Ford’s Theatre in Washington, D.C. Union soldiers tracked him to a Virginia farm 12 days later, where he was shot and killed.",
+  "answerHtml": "John Wilkes <b><u>Booth</u></b> (do not accept “Edwin Booth”)",
+  "accept": [
+    "john wilkes booth",
+    "booth",
+    "wilkes booth",
+    "j wilkes booth",
+    "john w booth",
+    "john booth"
+  ],
+  "prompt": [],
+  "reject": [
+    "edwin booth",
+    "edwin thomas booth",
+    "junius brutus booth",
+    "junius booth",
+    "junius brutus booth jr",
+    "asia booth",
+    "asia booth clarke",
+    "william booth",
+    "booth tarkington",
+    "abraham lincoln",
+    "assassination of abraham lincoln",
+    "assassination of lincoln",
+    "lincoln assassination",
+    "lincolns assassination",
+    "lee harvey oswald",
+    "oswald",
+    "charles guiteau",
+    "guiteau",
+    "leon czolgosz",
+    "czolgosz",
+    "james earl ray",
+    "lewis powell",
+    "lewis payne",
+    "david herold",
+    "herold",
+    "george atzerodt",
+    "atzerodt",
+    "mary surratt",
+    "john surratt",
+    "surratt",
+    "samuel mudd",
+    "mudd",
+    "boston corbett",
+    "corbett",
+    "edman spangler",
+    "henry rathbone"
+  ],
+  "tests": {
+    "right": [
+      "John Wilkes Booth",
+      "Booth",
+      "Wilkes Booth",
+      "John Booth",
+      "John Wilks Booth"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Edwin Booth",
+      "Abraham Lincoln",
+      "Assassination of Abraham Lincoln",
+      "Lee Harvey Oswald",
+      "Lewis Powell",
+      "Mary Surratt",
+      "Junius Brutus Booth",
+      "Samuel Mudd"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/John_Wilkes_Booth",
+  "qb": {
+    "q": "John Wilkes Booth",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This man knew the play being performed that night so well that he timed his attack to a big laugh, when a character was called a “sockdologizing old man-trap.” He then leaped from the presidential box to the stage and broke his leg.",
+      "r": "For 10 points, name this actor and Confederate sympathizer who shot Abraham Lincoln at Ford’s Theatre."
+    },
+    {
+      "p": "Twelve days after his most famous act, this man was trapped in a tobacco barn on Richard Garrett’s farm in Virginia, where Sergeant Boston Corbett shot him against orders. His last words were reportedly “Useless, useless.”",
+      "r": "His companion, David Herold, had surrendered. For 10 points, name this man who had assassinated President Abraham Lincoln."
+    },
+    {
+      "p": "After breaking his leg, this man rode to the Maryland home of Dr. Samuel Mudd, who set the leg, and Mudd was later sent to prison for helping him. Earlier that night, he had stopped at a tavern owned by Mary Surratt to pick up supplies.",
+      "r": "For 10 points, name this Confederate sympathizer and actor who shot President Abraham Lincoln in April 1865."
+    },
+    {
+      "p": "This man’s older brother Edwin, the most celebrated Hamlet of his time, once pulled Abraham Lincoln’s son Robert to safety when he slipped beside a moving train. Their father, Junius Brutus, had come to America from England.",
+      "r": "In 1865, this man shot the president at Ford’s Theatre. For 10 points, name this actor, a supporter of the Confederacy."
+    },
+    {
+      "p": "In November 1864, this man played Mark Antony in a one-night benefit performance of _Julius Caesar_ in New York, while his brothers Edwin and Junius Jr. played Brutus and Cassius. The show raised money for a statue of William Shakespeare in Central Park.",
+      "r": "Less than five months later, this actor shot a president. For 10 points, name this man who killed Abraham Lincoln."
+    },
+    {
+      "p": "In 1859, this man joined a Virginia militia company so that he could watch the execution of the abolitionist John Brown in Charles Town. Though he never served as a soldier in the Civil War, he became a passionate supporter of the Confederacy.",
+      "r": "For 10 points, name this actor who shot President Abraham Lincoln at Ford’s Theatre in April 1865."
+    },
+    {
+      "p": "A photograph of Abraham Lincoln’s second inauguration in March 1865 shows this man in the crowd at the Capitol. That same month, his plan to kidnap Lincoln and trade him for Confederate prisoners fell apart when the president changed his plans.",
+      "r": "Weeks later, this man shot Lincoln at Ford’s Theatre. For 10 points, name this assassin."
+    },
+    {
+      "p": "This man assigned George Atzerodt to kill Vice President Andrew Johnson at the Kirkwood House hotel, but Atzerodt lost his nerve and never made the attempt. On the same night, Lewis Powell attacked Secretary of State William Seward at his home.",
+      "r": "Seward survived. For 10 points, name this leader of the plot, who shot Abraham Lincoln at Ford’s Theatre."
+    },
+    {
+      "p": "Plotters met with this man at a Washington boarding house run by Mary Surratt, who became the first woman executed by the federal government. She and seven other people accused of helping him were tried by a military commission.",
+      "r": "For 10 points, name this man who shot Abraham Lincoln at Ford’s Theatre on April 14, 1865."
+    },
+    {
+      "p": "After his crime, this man shouted the Latin words “Sic semper tyrannis” [“sik SEM-per tih-RAN-iss”], Virginia’s state motto, which means “thus always to tyrants.” Major Henry Rathbone, who was sitting nearby with his fiancée, Clara Harris, tried to stop him and was wounded.",
+      "r": "Lincoln had been watching _Our American Cousin_. For 10 points, name this assassin of President Abraham Lincoln."
+    },
+    {
+      "p": "For several days, this man and David Herold hid in a pine thicket in southern Maryland, where Thomas Jones brought them food and newspapers. Jones then gave them a boat so they could cross the Potomac River into Virginia.",
+      "r": "For 10 points, name this man who was hunted by Union soldiers after he shot Abraham Lincoln."
+    },
+    {
+      "p": "Standing in the crowd outside the White House on April 11, 1865, this man heard Abraham Lincoln support voting rights for some Black men, and he reportedly vowed that it would be the last speech Lincoln ever gave. Lewis Powell was with him.",
+      "r": "Three days later, he shot Lincoln at Ford’s Theatre. For 10 points, name this actor."
+    },
+    {
+      "p": "On a Friday morning in April 1865, this man stopped at a theater to pick up his mail and learned that the president planned to attend a play there that night. General Ulysses S. Grant had been invited too, but he and his wife later backed out.",
+      "r": "The Lincolns brought Henry Rathbone and Clara Harris instead. For 10 points, name this actor who shot Abraham Lincoln in that theater."
+    },
+    {
+      "p": "While hiding from soldiers, this man wrote in a pocket diary that he was being hunted for doing what Brutus had been honored for. He also compared himself to William Tell. A War Department poster offered fifty thousand dollars for his capture.",
+      "r": "For 10 points, name this man who was tracked down twelve days after shooting Abraham Lincoln."
+    },
+    {
+      "p": "This man, born near Bel Air, Maryland, is buried in an unmarked grave at Green Mount Cemetery in Baltimore. The government first buried him secretly at an army arsenal in Washington and released his body to his family in 1869.",
+      "r": "Before 1865, he was one of the most popular actors in America. For 10 points, name this man who shot Abraham Lincoln at Ford’s Theatre."
+    }
+  ],
+  "clues": [
+    {
+      "id": "shot-lincoln",
+      "tier": "giveaway",
+      "t": "Shot President Abraham Lincoln on April 14, 1865; Lincoln died the next morning",
+      "k": [
+        "abraham lincoln",
+        "april 14",
+        "lincoln",
+        "1865"
+      ],
+      "n": 0,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "fords-theatre",
+      "tier": "giveaway",
+      "t": "Shot Lincoln at Ford’s Theatre in Washington, D.C.",
+      "k": [
+        "ford’s theatre",
+        "fords theatre",
+        "washington"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lee-surrender",
+      "tier": "giveaway",
+      "t": "Struck just five days after Robert E. Lee surrendered, as the Civil War was ending",
+      "k": [
+        "five days",
+        "robert e. lee",
+        "surrendered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "actor",
+      "tier": "middle",
+      "t": "A famous actor from an acting family: his father, Junius Brutus, and his brother Edwin were stars of the stage",
+      "k": [
+        "actor",
+        "acting family",
+        "edwin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "our-american-cousin",
+      "tier": "middle",
+      "t": "Lincoln was watching the comedy _Our American Cousin_",
+      "k": [
+        "our american cousin",
+        "american cousin",
+        "comedy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sic-semper",
+      "tier": "middle",
+      "t": "Shouted “Sic semper tyrannis” (“Thus always to tyrants”), Virginia’s state motto",
+      "k": [
+        "sic semper tyrannis",
+        "sic semper",
+        "tyrants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leg",
+      "tier": "middle",
+      "t": "Broke his leg jumping from the presidential box to the stage",
+      "k": [
+        "broke his leg",
+        "presidential box",
+        "stage"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mudd",
+      "tier": "middle",
+      "t": "Dr. Samuel Mudd set his broken leg during the escape and was later sent to prison",
+      "k": [
+        "samuel mudd",
+        "mudd"
+      ],
+      "n": 0
+    },
+    {
+      "id": "garrett-farm",
+      "tier": "middle",
+      "t": "Trapped in a tobacco barn on Richard Garrett’s farm in Virginia on April 26, 1865, where he was shot and died",
+      "k": [
+        "garrett",
+        "tobacco barn",
+        "april 26"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plot",
+      "tier": "middle",
+      "t": "Led a plot that also targeted Secretary of State William Seward and Vice President Andrew Johnson",
+      "k": [
+        "william seward",
+        "seward",
+        "andrew johnson",
+        "plot"
+      ],
+      "n": 0,
+      "rabbit": "Andrew Johnson"
+    },
+    {
+      "id": "confederate",
+      "tier": "middle",
+      "t": "A Confederate sympathizer from Maryland who first planned to kidnap Lincoln and trade him for Confederate prisoners",
+      "k": [
+        "confederate",
+        "kidnap",
+        "maryland"
+      ],
+      "n": 0
+    },
+    {
+      "id": "manhunt",
+      "tier": "middle",
+      "t": "A 12-day manhunt followed; a War Department poster offered $50,000 for his capture",
+      "k": [
+        "manhunt",
+        "12-day",
+        "$50,000"
+      ],
+      "n": 0
+    },
+    {
+      "id": "surratt",
+      "tier": "middle",
+      "t": "Mary Surratt, who ran the boarding house where the plotters met, became the first woman executed by the federal government",
+      "k": [
+        "mary surratt",
+        "surratt",
+        "boarding house"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sockdologizing",
+      "tier": "power",
+      "t": "Timed his attack to a big laugh line in the play: “you sockdologizing old man-trap”",
+      "k": [
+        "sockdologizing",
+        "man-trap",
+        "laugh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "useless",
+      "tier": "power",
+      "t": "David Herold surrendered at the barn; Sergeant Boston Corbett shot him against orders; last words reportedly “Useless, useless”",
+      "k": [
+        "boston corbett",
+        "corbett",
+        "herold",
+        "useless"
+      ],
+      "n": 0
+    },
+    {
+      "id": "powell",
+      "tier": "power",
+      "t": "Lewis Powell attacked William Seward at his home that night; Seward survived",
+      "k": [
+        "lewis powell",
+        "powell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "atzerodt",
+      "tier": "power",
+      "t": "George Atzerodt was supposed to kill Andrew Johnson at the Kirkwood House hotel but never made the attempt",
+      "k": [
+        "atzerodt",
+        "kirkwood house",
+        "kirkwood"
+      ],
+      "n": 0
+    },
+    {
+      "id": "john-brown",
+      "tier": "power",
+      "t": "Joined a Virginia militia company in 1859 so he could watch the execution of John Brown",
+      "k": [
+        "john brown",
+        "1859",
+        "militia"
+      ],
+      "n": 0,
+      "rabbit": "John Brown"
+    },
+    {
+      "id": "inauguration",
+      "tier": "power",
+      "t": "Appears in a photograph of the crowd at Lincoln’s second inauguration (March 4, 1865)",
+      "k": [
+        "second inauguration",
+        "photograph",
+        "inauguration"
+      ],
+      "n": 0
+    },
+    {
+      "id": "julius-caesar",
+      "tier": "power",
+      "t": "Played Mark Antony in a one-night _Julius Caesar_ (1864) with his brothers Edwin and Junius Jr., raising money for a Shakespeare statue",
+      "k": [
+        "julius caesar",
+        "mark antony",
+        "shakespeare"
+      ],
+      "n": 0
+    },
+    {
+      "id": "robert-lincoln",
+      "tier": "power",
+      "t": "His brother Edwin once saved Lincoln’s son Robert from falling beside a moving train",
+      "k": [
+        "robert",
+        "train",
+        "saved"
+      ],
+      "n": 0
+    },
+    {
+      "id": "april-11",
+      "tier": "power",
+      "t": "Heard Lincoln’s last public speech (April 11, 1865), which supported voting rights for some Black men",
+      "k": [
+        "april 11",
+        "last public speech",
+        "voting rights"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rathbone",
+      "tier": "power",
+      "t": "Major Henry Rathbone, a guest in the box with his fiancée Clara Harris, tried to stop him and was wounded",
+      "k": [
+        "henry rathbone",
+        "rathbone",
+        "clara harris"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diary",
+      "tier": "power",
+      "t": "In a pocket diary during his escape, compared himself to Brutus and William Tell",
+      "k": [
+        "diary",
+        "brutus",
+        "william tell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thomas-jones",
+      "tier": "power",
+      "t": "Hid in a Maryland pine thicket, where Thomas Jones brought food and newspapers, then crossed the Potomac by boat",
+      "k": [
+        "thomas jones",
+        "pine thicket",
+        "potomac"
+      ],
+      "n": 0
+    },
+    {
+      "id": "green-mount",
+      "tier": "power",
+      "t": "Born near Bel Air, Maryland; first buried secretly at an army arsenal, then in Baltimore’s Green Mount Cemetery (1869)",
+      "k": [
+        "green mount",
+        "bel air",
+        "baltimore"
+      ],
+      "n": 0
+    },
+    {
+      "id": "grant-mail",
+      "tier": "power",
+      "t": "Picking up his mail that morning, learned the Lincolns would attend the play; Ulysses S. Grant had been invited but backed out",
+      "k": [
+        "grant",
+        "mail",
+        "invited"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Assassin, victim, or event?",
+    "body": "The same clues, like Ford’s Theatre, _Our American Cousin_, Mary Surratt, and Dr. Samuel Mudd, show up in three answer lines: John Wilkes Booth (the assassin), Abraham Lincoln (the president he shot), and the assassination of Abraham Lincoln (the event). Answering “Lincoln” to a question about the killer is wrong. Booth’s brother Edwin was a famous actor too, so “Edwin Booth” is a trap.",
+    "fix": "Listen for the noun: “this actor” or “this assassin” wants John Wilkes Booth, “this president” wants Lincoln, and “this event” wants the assassination of Abraham Lincoln. Hamlet and saving Robert Lincoln from a train point to Edwin. Saying “John Wilkes Booth” in full is safest.",
+    "line": "Real answer line: John Wilkes <b><u>Booth</u></b> (do not accept “Edwin Booth”)"
+  }
+}

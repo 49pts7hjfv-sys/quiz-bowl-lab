@@ -1,0 +1,494 @@
+{
+  "id": "american-civil-war",
+  "name": "American Civil War",
+  "mono": "CW",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Union vs. Confederacy, 1861–1865 · Deadliest war in U.S. history",
+  "dates": "Fought 1861–1865",
+  "briefing": "After Abraham Lincoln was elected in 1860, eleven Southern states eventually broke away to protect slavery and formed the Confederate States of America. The war began in April 1861, when Confederates fired on Fort Sumter, and it raged for four years, from Bull Run to Gettysburg to Appomattox, where Robert E. Lee surrendered in 1865. An estimated 620,000 to 750,000 soldiers died, and the Thirteenth Amendment ended slavery.",
+  "answerHtml": "American <b><u>Civil War</u></b> (or <b><u>War Between the States</u></b>; or <b><u>War of the Rebellion</u></b>; or <u>War of Secession</u>; do not accept other civil wars, such as the “English Civil War”)",
+  "accept": [
+    "american civil war",
+    "civil war",
+    "us civil war",
+    "u s civil war",
+    "united states civil war",
+    "war between the states",
+    "war of the rebellion",
+    "war of secession"
+  ],
+  "prompt": [],
+  "reject": [
+    "english civil war",
+    "spanish civil war",
+    "russian civil war",
+    "chinese civil war",
+    "irish civil war",
+    "greek civil war",
+    "roman civil war",
+    "finnish civil war",
+    "nigerian civil war",
+    "syrian civil war",
+    "lebanese civil war",
+    "korean war",
+    "american revolutionary war",
+    "american revolution",
+    "revolutionary war",
+    "war of independence",
+    "fort sumter",
+    "battle of fort sumter",
+    "battle of gettysburg",
+    "gettysburg",
+    "emancipation proclamation",
+    "anaconda plan",
+    "reconstruction",
+    "war of 1812",
+    "mexican american war",
+    "spanish american war",
+    "bleeding kansas",
+    "confederate states of america",
+    "confederacy",
+    "secession",
+    "shermans march to the sea",
+    "march to the sea",
+    "first battle of bull run",
+    "bull run"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/American_Civil_War",
+  "qb": {
+    "q": "Civil War",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Wilmer McLean is said to have joked that this war “began in my front yard and ended in my front parlor.” His farmhouse near Manassas was shelled during the war’s first major battle, and he then moved to a Virginia village where the war’s best-known surrender later took place in his home.",
+      "r": "There, Robert E. Lee surrendered to Ulysses S. Grant at Appomattox Court House. For 10 points, name this war fought from 1861 to 1865."
+    },
+    {
+      "p": "Captain Charles Wilkes of the USS _San Jacinto_ stopped the British mail ship _Trent_ and seized two diplomats, James Mason and John Slidell, during this war. To avoid a second war, this time with Britain, the U.S. government soon set the two men free.",
+      "r": "Mason and Slidell had been sent to Europe by the Confederacy. For 10 points, name this war in which Abraham Lincoln led the Union."
+    },
+    {
+      "p": "Before this war began, Senator John Crittenden of Kentucky proposed constitutional amendments to protect slavery south of the old Missouri Compromise line, but his plan failed. Weeks before the fighting started, Alexander Stephens declared in his “Cornerstone Speech” that his new government rested on slavery.",
+      "r": "Stephens was vice president of the Confederacy. For 10 points, name this war that began in 1861 when Confederates fired on Fort Sumter."
+    },
+    {
+      "p": "During this war, one side passed the first national draft law in American history, and a later law excused one white man from service on any plantation with twenty or more enslaved people. The other side’s draft let a man pay $300 to avoid serving, which helped spark deadly riots in New York City in 1863.",
+      "r": "For 10 points, name this war between the Union and the Confederacy, fought from 1861 to 1865."
+    },
+    {
+      "p": "Ken Burns’s 1990 PBS documentary series about this war used Jay Ungar’s fiddle tune “Ashokan Farewell” as its theme and made the historian Shelby Foote famous. Burns told the story largely through old photographs, many of them taken by Mathew Brady and his team.",
+      "r": "For 10 points, name this war in which Ulysses S. Grant defeated Robert E. Lee."
+    },
+    {
+      "p": "In 1864, during this war, the _H. L. Hunley_ became the first submarine to sink an enemy warship when it sank the USS _Housatonic_ near Charleston. Two years earlier, the ironclads USS _Monitor_ and CSS _Virginia_ had fought the first battle between ironclad warships, at Hampton Roads.",
+      "r": "For 10 points, name this war fought between the Union and the Confederacy from 1861 to 1865."
+    },
+    {
+      "p": "Harriet Tubman helped guide the Combahee [“KUM-bee”] River Raid during this war, which freed more than 700 enslaved people in South Carolina. Weeks later, the 54th Massachusetts, a Black regiment led by Robert Gould Shaw, attacked Fort Wagner, as shown in the film _Glory_.",
+      "r": "About 180,000 Black soldiers served in the Union Army in this war. For 10 points, name this war that began at Fort Sumter in 1861."
+    },
+    {
+      "p": "Dorothea Dix was put in charge of the U.S. Army’s nurses during this war, and Mary Edwards Walker became the only woman ever awarded the Medal of Honor, for her work as a surgeon in it. About two of every three soldiers who died in this war died of disease.",
+      "r": "Clara Barton was called the “Angel of the Battlefield” in this war. For 10 points, name this war fought from 1861 to 1865."
+    },
+    {
+      "p": "Henry Fleming runs away from his first battle in this war but later carries his regiment’s flag in Stephen Crane’s novel _The Red Badge of Courage_. Julia Ward Howe wrote “The Battle Hymn of the Republic” early in this war, setting it to the tune of “John Brown’s Body.”",
+      "r": "For 10 points, name this war that began with the Confederate attack on Fort Sumter."
+    },
+    {
+      "p": "Former Ohio congressman Clement Vallandigham [“vuh-LAN-dih-gum”], a leader of the antiwar Democrats called Copperheads, was arrested and sent across enemy lines during this war. After it ended, the Supreme Court ruled in _Ex parte Milligan_ that civilians could not be tried by military courts where regular courts were open.",
+      "r": "For 10 points, name this war during which Abraham Lincoln led the Union."
+    },
+    {
+      "p": "The warship CSS _Shenandoah_ did not surrender until November 1865, in Liverpool, England, months after the major armies in this war had stopped fighting. On June 19, 1865, General Gordon Granger announced in Galveston, Texas, that the enslaved people there were free.",
+      "r": "That day is celebrated as Juneteenth. For 10 points, name this war that ended after Robert E. Lee surrendered at Appomattox Court House."
+    },
+    {
+      "p": "In this war, Union armies usually named battles after nearby streams, while their enemies named them after nearby towns, so the first major battle is called both Bull Run and Manassas. In that battle, Thomas Jackson earned the nickname “Stonewall.”",
+      "r": "For 10 points, name this war in which Robert E. Lee commanded the Confederacy’s Army of Northern Virginia."
+    },
+    {
+      "p": "Leaders of one side in this war believed that “King Cotton” would force Britain and France to help them, and they even held back cotton shipments in 1861 to prove it. Neither European country ever recognized their government, especially after the Battle of Antietam.",
+      "r": "For 10 points, name this war between the United States and the Confederate States of America, which ended in 1865."
+    },
+    {
+      "p": "To pay for this war, Congress passed the first federal income tax and the Legal Tender Act, which created paper money nicknamed “greenbacks.” With Southern lawmakers gone, Congress also passed the Homestead Act and the Morrill Act, which gave land to the states to start colleges.",
+      "r": "For 10 points, name this war during which Abraham Lincoln issued the Emancipation Proclamation."
+    },
+    {
+      "p": "During this war, the western counties of Virginia broke away to form West Virginia, which became a state in 1863. Four slave states, Kentucky, Maryland, Missouri, and Delaware, stayed loyal to the national government and were called “border states.”",
+      "r": "Late in this war, William Tecumseh Sherman marched from Atlanta to the sea. For 10 points, name this war that ended in 1865."
+    }
+  ],
+  "clues": [
+    {
+      "id": "dates-sides",
+      "tier": "giveaway",
+      "t": "Fought from 1861 to 1865 between the Union (the North) and the Confederate States of America (the South)",
+      "k": [
+        "1861",
+        "union",
+        "confederate",
+        "north"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fort-sumter",
+      "tier": "giveaway",
+      "t": "Began on April 12, 1861, when Confederate cannons fired on Fort Sumter in Charleston Harbor, South Carolina",
+      "k": [
+        "fort sumter",
+        "charleston",
+        "april 12"
+      ],
+      "n": 0,
+      "rabbit": "Fort Sumter"
+    },
+    {
+      "id": "lincoln-davis",
+      "tier": "giveaway",
+      "t": "Abraham Lincoln led the Union; Jefferson Davis was president of the Confederacy",
+      "k": [
+        "abraham lincoln",
+        "lincoln",
+        "jefferson davis",
+        "davis"
+      ],
+      "n": 0,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "appomattox",
+      "tier": "giveaway",
+      "t": "Robert E. Lee surrendered to Ulysses S. Grant at Appomattox Court House, Virginia, on April 9, 1865",
+      "k": [
+        "appomattox",
+        "robert e. lee",
+        "ulysses s. grant",
+        "april 9"
+      ],
+      "n": 0,
+      "rabbit": "Ulysses S. Grant"
+    },
+    {
+      "id": "secession",
+      "tier": "giveaway",
+      "t": "Eleven Southern states seceded, mainly to protect slavery, after Lincoln won the election of 1860",
+      "k": [
+        "seceded",
+        "slavery",
+        "eleven",
+        "1860"
+      ],
+      "n": 0
+    },
+    {
+      "id": "deaths",
+      "tier": "middle",
+      "t": "The deadliest war in U.S. history: an estimated 620,000 to 750,000 soldiers died, about two-thirds of them from disease",
+      "k": [
+        "deadliest",
+        "620,000",
+        "disease"
+      ],
+      "n": 0
+    },
+    {
+      "id": "emancipation",
+      "tier": "middle",
+      "t": "Lincoln’s Emancipation Proclamation took effect January 1, 1863; the Thirteenth Amendment (1865) ended slavery",
+      "k": [
+        "emancipation proclamation",
+        "thirteenth amendment",
+        "january 1"
+      ],
+      "n": 0,
+      "rabbit": "Emancipation Proclamation"
+    },
+    {
+      "id": "turning-point",
+      "tier": "middle",
+      "t": "Turning point, July 1863: the Union won at Gettysburg and captured Vicksburg, Mississippi",
+      "k": [
+        "gettysburg",
+        "vicksburg",
+        "july 1863",
+        "turning point"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Gettysburg"
+    },
+    {
+      "id": "bull-run",
+      "tier": "middle",
+      "t": "First major battle: First Bull Run (Manassas), July 1861, where Thomas Jackson earned the nickname “Stonewall”",
+      "k": [
+        "bull run",
+        "manassas",
+        "stonewall"
+      ],
+      "n": 0,
+      "rabbit": "First Battle of Bull Run"
+    },
+    {
+      "id": "antietam",
+      "tier": "middle",
+      "t": "Antietam (September 17, 1862) was the bloodiest single day in American history",
+      "k": [
+        "antietam",
+        "bloodiest single day",
+        "september 17"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Antietam"
+    },
+    {
+      "id": "anaconda",
+      "tier": "middle",
+      "t": "The Union’s Anaconda Plan: blockade Southern ports and take control of the Mississippi River",
+      "k": [
+        "anaconda plan",
+        "blockade",
+        "mississippi river"
+      ],
+      "n": 0,
+      "rabbit": "Anaconda Plan"
+    },
+    {
+      "id": "sherman",
+      "tier": "middle",
+      "t": "William Tecumseh Sherman captured Atlanta (1864) and marched to the sea at Savannah, waging “total war”",
+      "k": [
+        "sherman",
+        "march",
+        "atlanta",
+        "total war"
+      ],
+      "n": 0,
+      "rabbit": "William Tecumseh Sherman"
+    },
+    {
+      "id": "ironclads",
+      "tier": "middle",
+      "t": "First battle between ironclad warships: USS _Monitor_ vs. CSS _Virginia_ (the rebuilt _Merrimack_) at Hampton Roads (1862)",
+      "k": [
+        "ironclad",
+        "monitor",
+        "merrimack",
+        "hampton roads"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-soldiers",
+      "tier": "middle",
+      "t": "About 180,000 Black soldiers served in the Union Army, including the 54th Massachusetts, which attacked Fort Wagner (the film _Glory_)",
+      "k": [
+        "180,000",
+        "54th massachusetts",
+        "fort wagner",
+        "glory"
+      ],
+      "n": 0
+    },
+    {
+      "id": "border-states",
+      "tier": "middle",
+      "t": "Four slave “border states” stayed in the Union: Kentucky, Maryland, Missouri, and Delaware; West Virginia split from Virginia (1863)",
+      "k": [
+        "border states",
+        "kentucky",
+        "west virginia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mclean",
+      "tier": "power",
+      "t": "Wilmer McLean’s house was shelled at First Bull Run, and Lee later surrendered in his parlor (“began in my front yard…”)",
+      "k": [
+        "wilmer mclean",
+        "mclean",
+        "front yard",
+        "parlor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trent",
+      "tier": "power",
+      "t": "Trent Affair (1861): Charles Wilkes seized Confederate envoys James Mason and John Slidell from a British ship; they were released",
+      "k": [
+        "trent",
+        "slidell",
+        "charles wilkes",
+        "mason"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cornerstone",
+      "tier": "power",
+      "t": "Alexander Stephens’s “Cornerstone Speech” (March 1861) said the Confederacy rested on slavery; the Crittenden Compromise had failed",
+      "k": [
+        "cornerstone",
+        "alexander stephens",
+        "crittenden"
+      ],
+      "n": 0
+    },
+    {
+      "id": "draft",
+      "tier": "power",
+      "t": "The Confederate draft (1862) was the first in U.S. history; the Union’s $300 exemption helped spark the New York City draft riots (1863)",
+      "k": [
+        "draft riots",
+        "draft",
+        "$300",
+        "new york city"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ken-burns",
+      "tier": "power",
+      "t": "Ken Burns’s 1990 PBS documentary series; its theme was Jay Ungar’s “Ashokan Farewell,” and historian Shelby Foote became famous",
+      "k": [
+        "ken burns",
+        "ashokan farewell",
+        "shelby foote"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hunley",
+      "tier": "power",
+      "t": "The _H. L. Hunley_ became the first submarine to sink an enemy warship, the USS _Housatonic_ (1864)",
+      "k": [
+        "hunley",
+        "submarine",
+        "housatonic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "combahee",
+      "tier": "power",
+      "t": "Harriet Tubman helped guide the Combahee River Raid (1863), which freed more than 700 enslaved people",
+      "k": [
+        "harriet tubman",
+        "tubman",
+        "combahee"
+      ],
+      "n": 0,
+      "rabbit": "Harriet Tubman"
+    },
+    {
+      "id": "women",
+      "tier": "power",
+      "t": "Clara Barton (“Angel of the Battlefield”), nurse chief Dorothea Dix, and surgeon Mary Edwards Walker, the only woman awarded the Medal of Honor",
+      "k": [
+        "clara barton",
+        "dorothea dix",
+        "mary edwards walker",
+        "medal of honor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "literature",
+      "tier": "power",
+      "t": "Stephen Crane’s _The Red Badge of Courage_ (Henry Fleming) and Julia Ward Howe’s “The Battle Hymn of the Republic”",
+      "k": [
+        "red badge of courage",
+        "henry fleming",
+        "battle hymn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "copperheads",
+      "tier": "power",
+      "t": "Copperheads were antiwar Northern Democrats; Clement Vallandigham was banished to the South; _Ex parte Milligan_ (1866) limited military trials",
+      "k": [
+        "copperheads",
+        "vallandigham",
+        "milligan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "king-cotton",
+      "tier": "power",
+      "t": "“King Cotton” diplomacy failed: Britain and France never recognized the Confederacy",
+      "k": [
+        "king cotton",
+        "britain",
+        "france",
+        "recognized"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wartime-laws",
+      "tier": "power",
+      "t": "Wartime laws: the first federal income tax, paper “greenbacks” (Legal Tender Act), and the Homestead and Morrill Acts (1862)",
+      "k": [
+        "income tax",
+        "greenbacks",
+        "homestead",
+        "morrill"
+      ],
+      "n": 0
+    },
+    {
+      "id": "juneteenth",
+      "tier": "power",
+      "t": "Juneteenth: on June 19, 1865, General Gordon Granger announced freedom in Galveston, Texas; the CSS _Shenandoah_ surrendered last (November 1865)",
+      "k": [
+        "juneteenth",
+        "galveston",
+        "gordon granger",
+        "shenandoah"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Part or whole war?",
+    "body": "Many of this war’s stock clues are also answer lines of their own: Fort Sumter, the Battle of Gettysburg, the Emancipation Proclamation, the Anaconda Plan, and Reconstruction, the era that came after it. Naming one of those when the question wants the whole war loses the tossup, and so does naming the whole war when the question wants the battle or the plan. In world history, saying only “Civil War” is not enough for the English or Spanish Civil War.",
+    "fix": "Listen for the noun: “this war” or “this conflict” wants the American Civil War, while “this battle,” “this fort,” “this plan,” “this document,” or “this era” wants something more specific. If the question is about Oliver Cromwell or Francisco Franco, add “English” or “Spanish.”",
+    "line": "Real answer line: American <b><u>Civil War</u></b> (or <u>War Between the States</u>; or <u>War of the Rebellion</u>)"
+  },
+  "tests": {
+    "right": [
+      "American Civil War",
+      "Civil War",
+      "the Civil War",
+      "War Between the States",
+      "War of the Rebellion",
+      "Civl War"
+    ],
+    "prompt": [],
+    "wrong": [
+      "English Civil War",
+      "Spanish Civil War",
+      "American Revolutionary War",
+      "Fort Sumter",
+      "Battle of Gettysburg",
+      "Reconstruction",
+      "Anaconda Plan",
+      "Emancipation Proclamation"
+    ]
+  }
+}

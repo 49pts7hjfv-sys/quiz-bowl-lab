@@ -1,0 +1,473 @@
+{
+  "id": "vice-president-of-the-united-states",
+  "name": "Vice President of the United States",
+  "mono": "VPU",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Second-highest office in the U.S. government · First in line for the presidency",
+  "dates": "First held in 1789",
+  "briefing": "The vice president has two jobs written into the Constitution: presiding over the Senate, where the vice president votes only to break a tie, and standing ready to take over the presidency. Nine vice presidents have become president in the middle of a term, starting with John Tyler in 1841. John Adams, the first vice president, called it “the most insignificant office” ever invented, while Kamala Harris, the first woman to hold it (2021–2025), cast a record number of tie-breaking votes.",
+  "answerHtml": "<b><u>Vice President</u></b> of the United States (accept <u>VP</u> or <u>vice presidency</u>; prompt on <u>President of the Senate</u>; do not accept “President”)",
+  "accept": [
+    "vice president",
+    "the vice president",
+    "vice president of the united states",
+    "the vice president of the united states",
+    "vice president of the united states of america",
+    "the vice president of the united states of america",
+    "vice president of the us",
+    "vice president of the usa",
+    "us vice president",
+    "united states vice president",
+    "american vice president",
+    "vice presidency",
+    "the vice presidency",
+    "office of the vice president",
+    "vp",
+    "v p",
+    "vpotus"
+  ],
+  "prompt": [
+    "president of the senate",
+    "the president of the senate"
+  ],
+  "reject": [
+    "president of the united states",
+    "president of the us",
+    "us president",
+    "united states president",
+    "potus",
+    "speaker of the house",
+    "speaker of the house of representatives",
+    "house speaker",
+    "speaker",
+    "secretary of state",
+    "president pro tempore",
+    "president pro tempore of the senate",
+    "president pro tem",
+    "senate majority leader",
+    "majority leader",
+    "chief justice",
+    "first lady",
+    "second lady",
+    "second gentleman",
+    "chief of staff",
+    "cabinet"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Vice_President_of_the_United_States",
+  "qb": {
+    "q": "vice president",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The first person to hold this office complained in a letter to his wife that his country had given him “the most insignificant office that ever the invention of man contrived or his imagination conceived.”",
+      "r": "That man, John Adams, held this office under George Washington. For 10 points, name this office whose holder is first in line for the presidency."
+    },
+    {
+      "p": "Before 1804, this office went to whoever finished second in the Electoral College, which is how Thomas Jefferson came to serve in it under his rival John Adams. After the election of 1800 ended in a tie, the Twelfth Amendment had electors vote for this office separately.",
+      "r": "For 10 points, name this office, whose holder presides over the Senate and takes over if the president dies."
+    },
+    {
+      "p": "In 1837, the Senate chose Richard Mentor Johnson for this office, the only time it has done so, after no candidate won a majority of electoral votes. Johnson served in this office under Martin Van Buren, who had held it under Andrew Jackson.",
+      "r": "For 10 points, name this office whose holder casts tie-breaking votes in the Senate and is first in line for the presidency."
+    },
+    {
+      "p": "Critics called one holder of this office “His Accidency” after he claimed the full title and powers of the presidency in 1841, instead of acting as a temporary caretaker. He took over when William Henry Harrison died just a month into his term.",
+      "r": "That man was John Tyler. For 10 points, name this office, whose holder becomes president when a president dies."
+    },
+    {
+      "p": "Section 2 of the Twenty-fifth Amendment, ratified in 1967, lets the president fill a vacancy in this office if both houses of Congress approve. Nelson Rockefeller became the second person chosen that way, in 1974.",
+      "r": "The first was Gerald Ford, who replaced Spiro Agnew in 1973. For 10 points, name this office, second in rank only to the presidency."
+    },
+    {
+      "p": "John C. Calhoun became the first person to resign from this office when he left it in 1832 to take a seat in the Senate. He and George Clinton are the only people to hold this office under two different presidents.",
+      "r": "Calhoun’s record of 31 tie-breaking votes in this office lasted until Kamala Harris broke it in 2023. For 10 points, name this office."
+    },
+    {
+      "p": "Since the late 1970s, holders of this office have lived at Number One Observatory Circle, a house on the grounds of the U.S. Naval Observatory in Washington, D.C. Congress made that house the official home for this office in 1974, and Walter Mondale was the first to live there.",
+      "r": "For 10 points, name this office, first in the presidential line of succession, ahead of the Speaker of the House."
+    },
+    {
+      "p": "Charles Curtis, a member of the Kaw Nation, became the first person of Native American ancestry to hold this office when Herbert Hoover took office in 1929. Elbridge Gerry, the namesake of gerrymandering, died while holding this office in 1814.",
+      "r": "Kamala Harris became the first woman to hold it in 2021. For 10 points, name this office."
+    },
+    {
+      "p": "Alben Barkley’s grandson came up with the nickname “the Veep” for him while he held this office under Harry Truman. Truman himself had held this office for only 82 days before Franklin Roosevelt died in 1945.",
+      "r": "For 10 points, name this office whose holder takes over if a president dies, resigns, or is removed."
+    },
+    {
+      "p": "In 1988, George H. W. Bush became the first person since Martin Van Buren in 1836 to be elected president while holding this office. Before Van Buren, only John Adams and Thomas Jefferson had done so.",
+      "r": "For 10 points, name this office whose holder casts tie-breaking votes as President of the Senate."
+    },
+    {
+      "p": "While holding this office, Thomas Jefferson wrote a manual of parliamentary practice for the Senate. The House of Representatives later made parts of that manual part of its own rules.",
+      "r": "Article I says this office’s holder “shall have no Vote, unless they be equally divided.” For 10 points, name this office."
+    },
+    {
+      "p": "In 1923, Calvin Coolidge was sworn in as president by his own father, a notary public, by the light of a kerosene lamp at the family farmhouse in Vermont. Coolidge had been in this office when Warren Harding died.",
+      "r": "Nine holders of this office have become president in the middle of a term. For 10 points, name this office."
+    },
+    {
+      "p": "Franklin Roosevelt had three different holders of this office: John Nance Garner, Henry Wallace, and Harry Truman. Truman was never told about the secret atomic bomb project while he held this office, and he learned of it only after becoming president.",
+      "r": "Truman became president when Roosevelt died in 1945. For 10 points, name this office."
+    },
+    {
+      "p": "Under Section 4 of the Twenty-fifth Amendment, the holder of this office and a majority of the Cabinet can declare that the president is unable to serve. Under Section 3 of that amendment, Dick Cheney briefly became acting president twice while George W. Bush had medical procedures.",
+      "r": "For 10 points, name this office, whose holder becomes president if the president dies, resigns, or is removed."
+    },
+    {
+      "p": "While holding this office, Aaron Burr killed Alexander Hamilton in an 1804 duel, and a few months later he presided over the Senate impeachment trial of Supreme Court justice Samuel Chase, who was acquitted.",
+      "r": "Burr held this office under Thomas Jefferson. For 10 points, name this office, which John Adams held first."
+    }
+  ],
+  "clues": [
+    {
+      "id": "succession",
+      "tier": "giveaway",
+      "t": "First in the line of succession: becomes president if the president dies, resigns, or is removed",
+      "k": [
+        "line of succession",
+        "succession",
+        "dies",
+        "resigns"
+      ],
+      "n": 0
+    },
+    {
+      "id": "senate-tie",
+      "tier": "giveaway",
+      "t": "Serves as President of the Senate and can vote only to break a tie",
+      "k": [
+        "president of the senate",
+        "break a tie",
+        "senate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "harris",
+      "tier": "giveaway",
+      "t": "Kamala Harris was the first woman to hold the office (2021–2025)",
+      "k": [
+        "kamala harris",
+        "harris",
+        "first woman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "adams-first",
+      "tier": "giveaway",
+      "t": "John Adams was the first to hold it (1789–1797), under George Washington",
+      "k": [
+        "john adams",
+        "george washington",
+        "first"
+      ],
+      "n": 0,
+      "rabbit": "John Adams"
+    },
+    {
+      "id": "articles-one-two",
+      "tier": "middle",
+      "t": "Created in Article II of the Constitution; Article I makes it President of the Senate, with “no Vote, unless they be equally divided”",
+      "k": [
+        "article ii",
+        "article i",
+        "equally divided",
+        "constitution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twelfth",
+      "tier": "middle",
+      "t": "12th Amendment (1804): electors vote for it separately, after the Jefferson–Burr tie of 1800",
+      "k": [
+        "12th amendment",
+        "twelfth",
+        "1804",
+        "1800"
+      ],
+      "n": 0
+    },
+    {
+      "id": "runner-up",
+      "tier": "middle",
+      "t": "Before 1804, the Electoral College runner-up got the job, so Jefferson served under his rival John Adams",
+      "k": [
+        "runner-up",
+        "electoral college",
+        "rival"
+      ],
+      "n": 0,
+      "rabbit": "Electoral College"
+    },
+    {
+      "id": "twenty-fifth",
+      "tier": "middle",
+      "t": "25th Amendment (1967): the president can fill a vacancy if both houses of Congress approve; it also covers presidential disability",
+      "k": [
+        "25th amendment",
+        "twenty-fifth",
+        "vacancy",
+        "1967"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ford",
+      "tier": "middle",
+      "t": "Gerald Ford was the first chosen under the 25th Amendment (1973), replacing Spiro Agnew; Nelson Rockefeller was the second (1974)",
+      "k": [
+        "gerald ford",
+        "ford",
+        "agnew",
+        "rockefeller",
+        "1973"
+      ],
+      "n": 0,
+      "rabbit": "Gerald Ford"
+    },
+    {
+      "id": "tyler",
+      "tier": "middle",
+      "t": "John Tyler (1841) was the first to take over after a president died (William Henry Harrison); critics called him “His Accidency”",
+      "k": [
+        "john tyler",
+        "tyler",
+        "his accidency",
+        "1841"
+      ],
+      "n": 0,
+      "rabbit": "John Tyler"
+    },
+    {
+      "id": "nine",
+      "tier": "middle",
+      "t": "Nine holders became president in mid-term: eight after a president’s death, and Ford after Nixon resigned",
+      "k": [
+        "nine",
+        "mid-term",
+        "death"
+      ],
+      "n": 0
+    },
+    {
+      "id": "burr",
+      "tier": "middle",
+      "t": "Aaron Burr killed Alexander Hamilton in a duel (1804) while holding the office",
+      "k": [
+        "aaron burr",
+        "burr",
+        "duel"
+      ],
+      "n": 0,
+      "rabbit": "Aaron Burr"
+    },
+    {
+      "id": "truman",
+      "tier": "middle",
+      "t": "Harry Truman held it only 82 days before FDR died (1945) and was never told about the atomic bomb project",
+      "k": [
+        "truman",
+        "82 days",
+        "atomic bomb"
+      ],
+      "n": 0,
+      "rabbit": "Harry S. Truman"
+    },
+    {
+      "id": "calhoun-record",
+      "tier": "middle",
+      "t": "John C. Calhoun’s record of 31 tie-breaking votes lasted until Kamala Harris broke it in 2023",
+      "k": [
+        "record",
+        "31",
+        "2023"
+      ],
+      "n": 0
+    },
+    {
+      "id": "insignificant",
+      "tier": "power",
+      "t": "John Adams called it “the most insignificant office that ever the invention of man contrived”",
+      "k": [
+        "insignificant",
+        "invention of man"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mentor-johnson",
+      "tier": "power",
+      "t": "1837: the Senate chose Richard Mentor Johnson after no candidate won an electoral majority (the only time)",
+      "k": [
+        "richard mentor johnson",
+        "mentor johnson",
+        "1837"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calhoun",
+      "tier": "power",
+      "t": "John C. Calhoun was the first to resign (1832); he and George Clinton each served under two presidents",
+      "k": [
+        "calhoun",
+        "george clinton",
+        "1832"
+      ],
+      "n": 0
+    },
+    {
+      "id": "observatory",
+      "tier": "power",
+      "t": "Official home: Number One Observatory Circle at the U.S. Naval Observatory (since 1974); Walter Mondale was the first to live there",
+      "k": [
+        "observatory",
+        "naval observatory",
+        "mondale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "curtis",
+      "tier": "power",
+      "t": "Charles Curtis (Kaw Nation), who served under Herbert Hoover, was the first of Native American ancestry",
+      "k": [
+        "charles curtis",
+        "curtis",
+        "kaw nation",
+        "hoover"
+      ],
+      "n": 0
+    },
+    {
+      "id": "veep",
+      "tier": "power",
+      "t": "Alben Barkley, who served under Truman, got the nickname “the Veep” from his grandson",
+      "k": [
+        "barkley",
+        "veep",
+        "grandson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bush-1988",
+      "tier": "power",
+      "t": "George H. W. Bush (1988) was the first sitting holder elected president since Martin Van Buren (1836)",
+      "k": [
+        "bush",
+        "van buren",
+        "1988",
+        "1836"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jefferson-manual",
+      "tier": "power",
+      "t": "Thomas Jefferson wrote a manual of parliamentary practice for the Senate while holding it; the House later adopted parts of it",
+      "k": [
+        "manual",
+        "parliamentary practice",
+        "jefferson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coolidge",
+      "tier": "power",
+      "t": "Calvin Coolidge was sworn in by his father, a notary public, by kerosene lamp in Vermont (1923)",
+      "k": [
+        "coolidge",
+        "notary public",
+        "kerosene",
+        "vermont"
+      ],
+      "n": 0
+    },
+    {
+      "id": "acting-president",
+      "tier": "power",
+      "t": "25th Amendment, Section 4: it and most of the Cabinet can declare a president unable to serve; under Section 3, Dick Cheney was briefly acting president",
+      "k": [
+        "section 4",
+        "acting president",
+        "cheney",
+        "cabinet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gerry",
+      "tier": "power",
+      "t": "Elbridge Gerry, namesake of gerrymandering, died in office (1814)",
+      "k": [
+        "elbridge gerry",
+        "gerrymandering",
+        "1814"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fdr-three",
+      "tier": "power",
+      "t": "Franklin Roosevelt had three: John Nance Garner, Henry Wallace, and Harry Truman",
+      "k": [
+        "garner",
+        "henry wallace",
+        "wallace"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chase-trial",
+      "tier": "power",
+      "t": "Burr presided over the Senate impeachment trial of Justice Samuel Chase, who was acquitted (1805)",
+      "k": [
+        "samuel chase",
+        "impeachment trial",
+        "acquitted"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Office, not officeholder",
+    "body": "Questions about this office are full of famous people who held it, such as John Adams, John Tyler, Gerald Ford, and Kamala Harris, so it is tempting to buzz with a name. Players also mix it up with the next people in the line of succession: the Speaker of the House is second, the President pro tempore of the Senate is third, and the Secretary of State is fourth. Saying just “President” is wrong.",
+    "fix": "If the question says “this office” or “this position,” answer “vice president.” Presiding over the Senate and breaking ties means the vice president; leading the House means the Speaker; the President pro tempore runs the Senate when the vice president is away.",
+    "line": "Real answer line: <b><u>Vice President</u></b> of the United States (accept <u>VP</u> or <u>vice presidency</u>; do not accept “President”)"
+  },
+  "tests": {
+    "right": [
+      "Vice President",
+      "vice-president",
+      "VP",
+      "Vice Presidency",
+      "the Vice President of the United States",
+      "Vice Presidnet"
+    ],
+    "prompt": [
+      "President of the Senate"
+    ],
+    "wrong": [
+      "President",
+      "President of the United States",
+      "Speaker of the House",
+      "Secretary of State",
+      "President pro tempore",
+      "First Lady"
+    ]
+  }
+}

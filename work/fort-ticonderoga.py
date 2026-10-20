@@ -1,0 +1,346 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "fort-ticonderoga",
+    "name": "Fort Ticonderoga",
+    "mono": "FT",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Fort on Lake Champlain · Captured by Ethan Allen and the Green Mountain Boys",
+    "dates": "Built 1755–1757 (as Fort Carillon)",
+    "briefing": "Built by the French in the 1750s where Lake George drains into Lake Champlain, Fort Ticonderoga guarded the water highway between Canada and the Hudson River. In 1758, a small French army defended it against a British force several times larger. In May 1775, Ethan Allen, Benedict Arnold, and the Green Mountain Boys seized it in a surprise dawn raid, and that winter Henry Knox hauled its cannons all the way to Boston.",
+    "answerHtml": "Fort <b><u>Ticonderoga</u></b> (accept Fort <u>Carillon</u>)",
+    "accept": [
+        "fort ticonderoga",
+        "ticonderoga",
+        "fort carillon",
+        "fort de carillon",
+        "fort ti"
+    ],
+    "prompt": [
+        "fort",
+        "carillon"
+    ],
+    "reject": [
+        "crown point",
+        "fort crown point",
+        "fort st frederic",
+        "fort saint frederic",
+        "fort william henry",
+        "fort edward",
+        "fort necessity",
+        "fort duquesne",
+        "fort pitt",
+        "fort niagara",
+        "fort oswego",
+        "fort sumter",
+        "fort mchenry",
+        "fort stanwix",
+        "fort washington",
+        "fort lee",
+        "fort griswold",
+        "fort st johns",
+        "fort saint johns",
+        "saratoga",
+        "battle of saratoga",
+        "mount defiance",
+        "mount independence",
+        "lake champlain",
+        "lake george",
+        "valcour island",
+        "battle of valcour island",
+        "dorchester heights",
+        "bunker hill",
+        "battle of bunker hill",
+        "ethan allen",
+        "benedict arnold",
+        "henry knox",
+        "green mountain boys",
+        "uss ticonderoga",
+        "west point"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Fort_Ticonderoga",
+    "qb": {
+        "q": "Ticonderoga",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The French engineer Michel Chartier de Lotbinière [“lot-been-YAIR”] designed this star-shaped fort in the 1750s on a point of land where the outlet of Lake George flows into a much longer lake. The French called it Carillon [“kah-ree-YOHN”].",
+            "r": "In 1775, the Green Mountain Boys captured it. For 10 points, name this fort on Lake Champlain, whose cannons Henry Knox later hauled to Boston."
+        },
+        {
+            "p": "Lord George Howe was killed in a skirmish two days before a British army under James Abercromby attacked this fort in July 1758. The much smaller French force of the Marquis de Montcalm [“mont-KAHM”] won by defending log walls protected by an abatis [“AB-uh-tee”] of sharpened, felled trees.",
+            "r": "The French called it Carillon. For 10 points, name this fort on Lake Champlain, which Ethan Allen captured in 1775."
+        },
+        {
+            "p": "Scottish Highlanders of the Black Watch suffered hundreds of casualties charging this fort’s defenses in 1758, during the French and Indian War. The British finally took it the next year, when Jeffery Amherst’s army arrived and the retreating French blew up part of it.",
+            "r": "For 10 points, name this fort near the southern end of Lake Champlain, captured by Ethan Allen in 1775."
+        },
+        {
+            "p": "This fort was captured at dawn on May 10, 1775, the same day the Second Continental Congress first met in Philadelphia. Its British commander, Captain William Delaplace, surrendered his small garrison after the attackers rushed in by surprise.",
+            "r": "Ethan Allen and Benedict Arnold led that attack. For 10 points, name this fort on Lake Champlain."
+        },
+        {
+            "p": "According to his own later account, a frontiersman demanded that this fort surrender “in the name of the Great Jehovah and the Continental Congress.” He shared command of the attack with an officer who carried a commission from Massachusetts and later became a traitor.",
+            "r": "Those men were Ethan Allen and Benedict Arnold. For 10 points, name this fort captured in 1775."
+        },
+        {
+            "p": "In the winter of 1775 to 1776, a former Boston bookseller used sleds pulled by oxen to haul about 60 tons of cannons from this fort across frozen rivers and the Berkshire Mountains. He called his convoy a “noble train of artillery.”",
+            "r": "That man was Henry Knox. For 10 points, name this fort on Lake Champlain that the Green Mountain Boys had captured."
+        },
+        {
+            "p": "Cannons taken from this fort were secretly placed on Dorchester Heights in March 1776, forcing General William Howe’s British army to leave Boston on March 17. Boston’s county still celebrates that day as Evacuation Day.",
+            "r": "Henry Knox had hauled those cannons from this fort. For 10 points, name this fort that Ethan Allen captured in 1775."
+        },
+        {
+            "p": "In July 1777, John Burgoyne’s army hauled cannons to the top of Mount Defiance, a hill overlooking this fort, so General Arthur St. Clair abandoned the fort. Congress then removed Philip Schuyler [“SKY-ler”] from command, and St. Clair faced a court-martial but was found not guilty.",
+            "r": "Burgoyne surrendered at Saratoga that October. For 10 points, name this fort on Lake Champlain, which Ethan Allen had captured two years earlier."
+        },
+        {
+            "p": "The Pell family bought the ruins of this fort and restored it, opening it to visitors as a museum in 1909. Its name comes from a Mohawk word meaning roughly “at the junction of two waterways.”",
+            "r": "For 10 points, name this fort near the southern end of Lake Champlain, which Ethan Allen captured in 1775."
+        },
+        {
+            "p": "U.S. Navy ships, including a World War II aircraft carrier and a class of guided-missile cruisers, share this fort’s name, as does a well-known brand of yellow pencils. The fort guarded the narrow passage between Lake George and a much longer lake to the north.",
+            "r": "Ethan Allen captured it in 1775. For 10 points, name this fort on Lake Champlain, whose cannons Henry Knox took to Boston."
+        },
+        {
+            "p": "Within days after this fort fell, Seth Warner led men who captured nearby Crown Point, and Benedict Arnold sailed north to raid Fort St. Johns in Canada. Those moves briefly gave the Americans control of the lake route to Canada.",
+            "r": "For 10 points, name this fort that Ethan Allen and the Green Mountain Boys took on May 10, 1775."
+        },
+        {
+            "p": "In 1757, the Marquis de Montcalm [“mont-KAHM”] gathered his army at this French fort before moving south along Lake George to capture Fort William Henry, an event described in _The Last of the Mohicans_. Robert Rogers’s rangers often scouted the woods around this fort.",
+            "r": "The British renamed it after capturing it in 1759. For 10 points, name this fort later captured by Ethan Allen in 1775."
+        },
+        {
+            "p": "This fort guarded the water route that ran from the St. Lawrence River up the Richelieu [“RISH-uh-loo”] River and across a long lake toward the Hudson River, the main invasion path between Canada and New York. British general John Burgoyne retook it in 1777.",
+            "r": "For 10 points, name this fort on Lake Champlain, captured by Ethan Allen and Benedict Arnold in 1775."
+        },
+        {
+            "p": "After defeating Benedict Arnold’s small fleet near Valcour Island in October 1776, the British general Guy Carleton decided it was too late in the year to attack this fort and pulled back to Canada. The fort fell to the British the next summer instead.",
+            "r": "For 10 points, name this fort on Lake Champlain whose cannons Henry Knox had hauled to Boston."
+        },
+        {
+            "p": "The French began building this fort in late 1755, soon after William Johnson’s army of colonists and Mohawk allies defeated Baron Dieskau [“DEES-kow”] at the Battle of Lake George. It was meant to block any British advance from the south toward Canada.",
+            "r": "For 10 points, name this fort on Lake Champlain, captured by the Green Mountain Boys in 1775."
+        }
+    ],
+    "clues": [
+        {
+            "id": "allen-1775",
+            "tier": "giveaway",
+            "t": "Captured in May 1775 by Ethan Allen and the Green Mountain Boys, with Benedict Arnold",
+            "k": ["green mountain boys", "ethan allen", "benedict arnold", "1775"],
+            "n": 0,
+            "rabbit": "Ethan Allen"
+        },
+        {
+            "id": "knox",
+            "tier": "giveaway",
+            "t": "Henry Knox hauled its cannons to Boston in the winter of 1775–1776, his “noble train of artillery”",
+            "k": ["henry knox", "noble train", "cannons"],
+            "n": 0,
+            "rabbit": "Henry Knox"
+        },
+        {
+            "id": "lake-champlain",
+            "tier": "giveaway",
+            "t": "Fort in northern New York near the southern end of Lake Champlain",
+            "k": ["lake champlain", "new york"],
+            "n": 0
+        },
+        {
+            "id": "carillon",
+            "tier": "middle",
+            "t": "Built by the French (1755–1757), who called it Carillon; the British renamed it after taking it in 1759",
+            "k": ["carillon", "french", "1759"],
+            "n": 0
+        },
+        {
+            "id": "lake-george",
+            "tier": "middle",
+            "t": "Stands where the outlet of Lake George flows into Lake Champlain, guarding the route between Canada and the Hudson River",
+            "k": ["lake george", "outlet", "hudson river"],
+            "n": 0
+        },
+        {
+            "id": "montcalm-1758",
+            "tier": "middle",
+            "t": "1758: the Marquis de Montcalm’s small French army beat James Abercromby’s much larger British force there",
+            "k": ["montcalm", "abercromby", "1758"],
+            "n": 0,
+            "rabbit": "French and Indian War"
+        },
+        {
+            "id": "jehovah",
+            "tier": "middle",
+            "t": "Allen said he demanded surrender “in the name of the Great Jehovah and the Continental Congress”",
+            "k": ["great jehovah", "jehovah", "continental congress"],
+            "n": 0
+        },
+        {
+            "id": "same-day",
+            "tier": "middle",
+            "t": "Captured on May 10, 1775, the same day the Second Continental Congress first met",
+            "k": ["second continental congress", "may 10"],
+            "n": 0
+        },
+        {
+            "id": "dorchester",
+            "tier": "middle",
+            "t": "Its cannons went onto Dorchester Heights, and the British left Boston on March 17, 1776 (Evacuation Day)",
+            "k": ["dorchester heights", "evacuation day", "march 17"],
+            "n": 0
+        },
+        {
+            "id": "mount-defiance",
+            "tier": "middle",
+            "t": "1777: John Burgoyne’s army put cannons on Mount Defiance, so Arthur St. Clair abandoned the fort",
+            "k": ["mount defiance", "burgoyne", "clair"],
+            "n": 0
+        },
+        {
+            "id": "massachusetts-commission",
+            "tier": "middle",
+            "t": "Arnold carried a Massachusetts commission and argued with Allen over who should command",
+            "k": ["massachusetts", "commission", "command"],
+            "n": 0
+        },
+        {
+            "id": "lotbiniere",
+            "tier": "power",
+            "t": "Designed by French engineer Michel Chartier de Lotbinière; a star-shaped fort on a point of land",
+            "k": ["lotbinière", "chartier", "star-shaped"],
+            "n": 0
+        },
+        {
+            "id": "howe-abatis",
+            "tier": "power",
+            "t": "Lord George Howe was killed just before the 1758 battle; the French defended log walls behind an abatis of felled trees",
+            "k": ["george howe", "abatis", "felled trees"],
+            "n": 0
+        },
+        {
+            "id": "black-watch",
+            "tier": "power",
+            "t": "The Scottish Black Watch suffered hundreds of casualties there (1758); Jeffery Amherst’s British army took it in 1759",
+            "k": ["black watch", "amherst", "highlanders"],
+            "n": 0
+        },
+        {
+            "id": "name-meaning",
+            "tier": "power",
+            "t": "Its name comes from a Mohawk word meaning roughly “at the junction of two waterways”",
+            "k": ["mohawk", "two waterways", "junction"],
+            "n": 0
+        },
+        {
+            "id": "delaplace",
+            "tier": "power",
+            "t": "British Captain William Delaplace surrendered its small garrison to Allen after a surprise dawn attack",
+            "k": ["delaplace", "garrison", "dawn"],
+            "n": 0
+        },
+        {
+            "id": "warner-st-johns",
+            "tier": "power",
+            "t": "Days later, Seth Warner took Crown Point and Arnold raided Fort St. Johns in Canada",
+            "k": ["seth warner", "crown point", "johns"],
+            "n": 0
+        },
+        {
+            "id": "schuyler",
+            "tier": "power",
+            "t": "After its loss in 1777, Congress removed Philip Schuyler from command; St. Clair was court-martialed but acquitted",
+            "k": ["schuyler", "court-martialed", "acquitted"],
+            "n": 0
+        },
+        {
+            "id": "pell",
+            "tier": "power",
+            "t": "The Pell family restored it and opened it as a museum in 1909",
+            "k": ["pell", "1909", "museum"],
+            "n": 0
+        },
+        {
+            "id": "namesakes",
+            "tier": "power",
+            "t": "Shares its name with U.S. Navy ships (a World War II aircraft carrier and a class of cruisers) and a brand of yellow pencils",
+            "k": ["aircraft carrier", "cruisers", "pencils"],
+            "n": 0
+        },
+        {
+            "id": "montcalm-1757",
+            "tier": "power",
+            "t": "Montcalm gathered his army there in 1757 before capturing Fort William Henry (_The Last of the Mohicans_)",
+            "k": ["fort william henry", "last of the mohicans", "1757"],
+            "n": 0
+        },
+        {
+            "id": "carleton-valcour",
+            "tier": "power",
+            "t": "After beating Arnold’s fleet at Valcour Island (1776), Guy Carleton chose not to attack it and returned to Canada",
+            "k": ["valcour island", "carleton", "1776"],
+            "n": 0
+        },
+        {
+            "id": "lake-george-1755",
+            "tier": "power",
+            "t": "The French began building it after William Johnson defeated Baron Dieskau at the Battle of Lake George (1755)",
+            "k": ["dieskau", "william johnson", "1755"],
+            "n": 0
+        },
+        {
+            "id": "knox-details",
+            "tier": "power",
+            "t": "Knox, a former Boston bookseller, moved about 60 tons of cannons on ox-drawn sleds across frozen rivers and the Berkshires",
+            "k": ["bookseller", "60 tons", "berkshires", "sleds"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which lake fort?",
+        "body": "Several forts and battle sites along Lake Champlain and Lake George turn up in the same tossups. Fort William Henry was Montcalm’s 1757 target in _The Last of the Mohicans_, Crown Point was taken by Seth Warner days after Ticonderoga fell, and Saratoga is where Burgoyne surrendered after capturing Ticonderoga in 1777. Early clues from the French and Indian War may also call this fort Carillon.",
+        "fix": "Ethan Allen and the Green Mountain Boys, Henry Knox’s cannons, Montcalm’s 1758 win over Abercromby, and Mount Defiance all mean Fort Ticonderoga. If you know only the French name, say “Fort Carillon,” which is accepted. Fort Necessity (Washington, 1754) and Fort Duquesne (Pittsburgh) are different forts, far to the south and west.",
+        "line": "Real answer line: Fort <b><u>Ticonderoga</u></b> (accept Fort <u>Carillon</u>)"
+    },
+    "tests": {
+        "right": [
+            "Fort Ticonderoga",
+            "Ticonderoga",
+            "Fort Carillon",
+            "Ticonderago",
+            "Fort Ticonderoga, New York"
+        ],
+        "prompt": [
+            "Carillon"
+        ],
+        "wrong": [
+            "Crown Point",
+            "Fort William Henry",
+            "Saratoga",
+            "Fort Necessity",
+            "Fort Sumter",
+            "Mount Defiance",
+            "Dorchester Heights"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

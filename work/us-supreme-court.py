@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "us-supreme-court",
     "name": "U.S. Supreme Court",
-    "mono": "SC",
+    "mono": "SCO",
     "category": "American History",
     "qbCategory": "History · American History",
     "kicker": "Highest federal court · Created by Article III of the Constitution",
@@ -131,7 +131,7 @@ data = {
             "r": "For 10 points, name this highest court in the United States, which meets in Washington, D.C."
         },
         {
-            "p": "Article III gives this body original jurisdiction, meaning cases can begin there, in disputes involving ambassadors and those in which a state is a party. In nearly all other cases, it hears appeals from lower courts.",
+            "p": "The Constitution gives this body original jurisdiction, meaning cases can begin there, in disputes involving ambassadors and those in which a state is a party. In nearly all other cases, it hears appeals from lower courts.",
             "r": "For 10 points, name this court, whose nine members are nominated by the president and confirmed by the Senate."
         },
         {

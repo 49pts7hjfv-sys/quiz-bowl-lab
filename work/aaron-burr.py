@@ -1,0 +1,358 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "aaron-burr",
+    "name": "Aaron Burr",
+    "mono": "AB",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "3rd U.S. Vice President · Killed Alexander Hamilton in an 1804 duel",
+    "dates": "1756–1836",
+    "briefing": "Aaron Burr tied Thomas Jefferson in the presidential election of 1800 and became the third vice president instead. In 1804, while still vice president, he shot and killed his longtime rival Alexander Hamilton in a duel at Weehawken, New Jersey. Three years later he was tried for treason, accused of plotting to break off part of the West or invade Spanish Mexico, but he was found not guilty at a trial run by Chief Justice John Marshall.",
+    "answerHtml": "Aaron <b><u>Burr</u></b> (do not accept “Alexander Hamilton”)",
+    "accept": [
+        "aaron burr",
+        "burr",
+        "aaron burr jr",
+        "colonel burr",
+        "colonel aaron burr",
+        "vice president burr",
+        "vice president aaron burr"
+    ],
+    "prompt": [],
+    "reject": [
+        "alexander hamilton",
+        "hamilton",
+        "aaron burr sr",
+        "aaron burr senior",
+        "theodosia burr",
+        "theodosia burr alston",
+        "theodosia",
+        "burr hamilton duel",
+        "hamilton burr duel",
+        "burr conspiracy",
+        "thomas jefferson",
+        "jefferson",
+        "john marshall",
+        "james wilkinson",
+        "wilkinson",
+        "harman blennerhassett",
+        "blennerhassett",
+        "george clinton",
+        "jonathan edwards",
+        "benedict arnold",
+        "philip schuyler",
+        "eliza jumel",
+        "john adams",
+        "james madison"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Aaron_Burr",
+    "qb": {
+        "q": "Aaron Burr",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The first “Got Milk?” TV commercial, aired in 1993, showed a history buff who could not win a radio quiz because a mouthful of peanut butter kept him from clearly saying this man’s name. This man sings “Wait for It” in a 2015 Broadway musical.",
+            "r": "That musical is named for the Treasury secretary this man killed in a duel. For 10 points, name this third vice president."
+        },
+        {
+            "p": "This man founded the Manhattan Company, which was chartered to bring clean water to New York City but used a clause in its charter to open a bank that became part of JPMorgan Chase. In 1800, his organizing in New York City, with help from the Society of St. Tammany, won the state for his party.",
+            "r": "The next year, he became Thomas Jefferson’s vice president. For 10 points, name this man who killed Alexander Hamilton in a duel."
+        },
+        {
+            "p": "This man’s grandfather was the preacher Jonathan Edwards, who gave the sermon “Sinners in the Hands of an Angry God,” and his father, who had the same name, was president of the College of New Jersey. This man graduated from that school, later renamed Princeton, at age 16.",
+            "r": "For 10 points, name this man who tied Thomas Jefferson in the election of 1800 and later killed Alexander Hamilton in a duel."
+        },
+        {
+            "p": "During the American Revolution, this young officer marched through the Maine wilderness with Benedict Arnold and served as an aide to General Richard Montgomery, who was killed in the failed attack on Quebec City. This officer later commanded troops at the Battle of Monmouth.",
+            "r": "For 10 points, name this New Yorker who later became Thomas Jefferson’s vice president and killed Alexander Hamilton in a duel."
+        },
+        {
+            "p": "In 1791, this man won a U.S. Senate seat from New York by defeating Philip Schuyler, the father-in-law of a rival lawyer. Six years later, this man helped settle a bitter quarrel between that rival and James Monroe.",
+            "r": "That rival was Alexander Hamilton, whom this man later killed in a duel. For 10 points, name this third vice president."
+        },
+        {
+            "p": "James Bayard, Delaware’s only congressman, helped break a deadlock between this man and his running mate by casting a blank ballot on the House of Representatives’ 36th vote. To prevent another tie like that one, the states ratified the Twelfth Amendment.",
+            "r": "That running mate, Thomas Jefferson, became president. For 10 points, name this man who became vice president instead and later killed Alexander Hamilton."
+        },
+        {
+            "p": "As president of the Senate, this man presided over the 1805 impeachment trial of Supreme Court Justice Samuel Chase, who was acquitted. Soon after, this man gave an emotional farewell speech calling the Senate a “citadel of law, of order, and of liberty.”",
+            "r": "That week, his term as Thomas Jefferson’s vice president ended. For 10 points, name this man, who had killed Alexander Hamilton the year before."
+        },
+        {
+            "p": "After losing the 1804 race for governor of New York to Morgan Lewis, this man read a newspaper letter by Dr. Charles Cooper saying that a rival had expressed a “despicable opinion” of him. This man demanded an explanation, and their angry letters went back and forth for weeks.",
+            "r": "The two men finally met at Weehawken, New Jersey, where this man fatally shot Alexander Hamilton. For 10 points, name this vice president."
+        },
+        {
+            "p": "Some New England Federalists hoped this man would lead New York into a breakaway northern confederacy if he won the 1804 race for governor. Later that year, he was charged with crimes in both New York and New Jersey, including murder, but he never stood trial.",
+            "r": "Those charges came after he shot Alexander Hamilton in a duel. For 10 points, name this vice president under Thomas Jefferson."
+        },
+        {
+            "p": "This man gathered men and boats on Harman Blennerhassett’s [“BLEN-er-HASS-it”] island in the Ohio River, and he exchanged coded letters with General James Wilkinson, who was secretly taking money from Spain. Wilkinson betrayed him by sending one of those letters to President Thomas Jefferson.",
+            "r": "This man was then arrested and tried for treason. For 10 points, name this former vice president who had killed Alexander Hamilton."
+        },
+        {
+            "p": "At this man’s 1807 trial in Richmond, the judge ordered President Thomas Jefferson to turn over a letter, a ruling later cited in arguments about executive privilege. That judge then ruled that treason required two witnesses to an actual act of war, and this man was found not guilty.",
+            "r": "That judge was Chief Justice John Marshall. For 10 points, name this former vice president, who had killed Alexander Hamilton in a duel."
+        },
+        {
+            "p": "This man gave his daughter Theodosia [“thee-uh-DOH-shuh”] an unusually strong education, and he was heartbroken when her ship vanished off the Carolina coast in 1813. Her husband, Joseph Alston, was governor of South Carolina at the time.",
+            "r": "In the musical _Hamilton_, this man sings “Dear Theodosia” to her. For 10 points, name this vice president who killed Alexander Hamilton in a duel."
+        },
+        {
+            "p": "In 1833, this man married the wealthy widow Eliza Jumel in her Manhattan mansion, which had served as George Washington’s headquarters in 1776. She soon filed for divorce, and it was granted on the day he died in 1836.",
+            "r": "Her lawyer was Alexander Hamilton Jr., a son of the man this man had killed in a duel. For 10 points, name this third vice president."
+        },
+        {
+            "p": "Gore Vidal wrote a 1973 historical novel named for this man, who was one of New York’s best-known lawyers. Leslie Odom Jr. won a Tony Award for playing this man in a 2015 musical, where he complains that he was not in “The Room Where It Happens.”",
+            "r": "For 10 points, name this third vice president, who killed Alexander Hamilton in an 1804 duel."
+        },
+        {
+            "p": "In 1807, this man was arrested in what is now Alabama while trying to escape to Spanish Florida, after President Thomas Jefferson had told Congress that his guilt was “beyond question.” After his trial, he spent four years in Europe, seeking support for his schemes.",
+            "r": "For 10 points, name this vice president who was tried for treason three years after he killed Alexander Hamilton."
+        }
+    ],
+    "clues": [
+        {
+            "id": "hamilton-duel",
+            "tier": "giveaway",
+            "t": "Killed Alexander Hamilton in a duel at Weehawken, New Jersey, on July 11, 1804",
+            "k": ["hamilton", "duel", "weehawken", "1804"],
+            "n": 0,
+            "rabbit": "Alexander Hamilton"
+        },
+        {
+            "id": "vice-president",
+            "tier": "giveaway",
+            "t": "Third vice president of the United States (1801–1805), under Thomas Jefferson",
+            "k": ["vice president", "third", "jefferson"],
+            "n": 0
+        },
+        {
+            "id": "election-1800",
+            "tier": "giveaway",
+            "t": "Tied his running mate, Thomas Jefferson, with 73 electoral votes each in the election of 1800",
+            "k": ["tied", "1800", "73", "running mate"],
+            "n": 0,
+            "rabbit": "Thomas Jefferson"
+        },
+        {
+            "id": "treason",
+            "tier": "giveaway",
+            "t": "Tried for treason in 1807 and found not guilty",
+            "k": ["treason", "1807", "not guilty"],
+            "n": 0
+        },
+        {
+            "id": "musical",
+            "tier": "giveaway",
+            "t": "Narrator and rival in the 2015 musical _Hamilton_; sings “Wait for It” and “The Room Where It Happens”",
+            "k": ["wait for it", "room where it happens", "musical"],
+            "n": 0
+        },
+        {
+            "id": "house-36",
+            "tier": "middle",
+            "t": "The House of Representatives broke the 1800 tie on its 36th ballot; the Twelfth Amendment (1804) was passed to prevent such ties",
+            "k": ["36th ballot", "twelfth amendment", "house of representatives"],
+            "n": 0
+        },
+        {
+            "id": "marshall-trial",
+            "tier": "middle",
+            "t": "Chief Justice John Marshall ran his trial in Richmond and ruled that treason needs two witnesses to an actual act of war",
+            "k": ["john marshall", "richmond", "two witnesses", "act of war"],
+            "n": 0,
+            "rabbit": "John Marshall"
+        },
+        {
+            "id": "conspiracy",
+            "tier": "middle",
+            "t": "Accused of plotting to break western lands away from the U.S. or to invade Spanish Mexico, a scheme called his “conspiracy”",
+            "k": ["conspiracy", "western", "mexico"],
+            "n": 0
+        },
+        {
+            "id": "wilkinson",
+            "tier": "middle",
+            "t": "General James Wilkinson, his partner and secretly a paid Spanish agent, betrayed him to President Jefferson",
+            "k": ["james wilkinson", "wilkinson", "spanish agent"],
+            "n": 0
+        },
+        {
+            "id": "blennerhassett",
+            "tier": "middle",
+            "t": "Gathered men and boats on Harman Blennerhassett’s island in the Ohio River (1806)",
+            "k": ["blennerhassett", "ohio river", "island"],
+            "n": 0
+        },
+        {
+            "id": "cooper-letter",
+            "tier": "middle",
+            "t": "Challenged Hamilton after Dr. Charles Cooper’s letter reported Hamilton’s “despicable opinion” of him",
+            "k": ["charles cooper", "despicable", "cooper"],
+            "n": 0
+        },
+        {
+            "id": "governor-1804",
+            "tier": "middle",
+            "t": "Lost the 1804 race for governor of New York to Morgan Lewis while still vice president",
+            "k": ["governor", "morgan lewis", "new york"],
+            "n": 0
+        },
+        {
+            "id": "senate-schuyler",
+            "tier": "middle",
+            "t": "U.S. senator from New York (1791–1797); won the seat by defeating Hamilton’s father-in-law, Philip Schuyler",
+            "k": ["senator", "philip schuyler", "schuyler"],
+            "n": 0
+        },
+        {
+            "id": "subpoena",
+            "tier": "middle",
+            "t": "His trial judge ordered President Jefferson to turn over documents, a ruling later cited in executive privilege cases",
+            "k": ["executive privilege", "documents", "turn over"],
+            "n": 0
+        },
+        {
+            "id": "got-milk",
+            "tier": "power",
+            "t": "The first “Got Milk?” commercial (1993): a mouthful of peanut butter keeps a history buff from saying his name in a radio contest",
+            "k": ["got milk", "peanut butter", "radio contest"],
+            "n": 0
+        },
+        {
+            "id": "manhattan-company",
+            "tier": "power",
+            "t": "Founded the Manhattan Company (1799), a water company that opened a bank; it became part of JPMorgan Chase, which owns the duel pistols",
+            "k": ["manhattan company", "jpmorgan chase", "water", "pistols"],
+            "n": 0
+        },
+        {
+            "id": "tammany",
+            "tier": "power",
+            "t": "Used the Society of St. Tammany to help win New York City, and the state, for the Democratic-Republicans in 1800",
+            "k": ["tammany", "new york city", "democratic-republicans"],
+            "n": 0
+        },
+        {
+            "id": "edwards",
+            "tier": "power",
+            "t": "Grandson of preacher Jonathan Edwards; his father of the same name was president of the College of New Jersey (Princeton)",
+            "k": ["jonathan edwards", "princeton", "college of new jersey"],
+            "n": 0
+        },
+        {
+            "id": "quebec",
+            "tier": "power",
+            "t": "Marched with Benedict Arnold and was an aide to Richard Montgomery in the failed attack on Quebec (1775)",
+            "k": ["quebec", "benedict arnold", "richard montgomery", "montgomery"],
+            "n": 0,
+            "rabbit": "Benedict Arnold"
+        },
+        {
+            "id": "bayard",
+            "tier": "power",
+            "t": "James Bayard, Delaware’s only congressman, helped end the 1801 House deadlock with a blank ballot",
+            "k": ["bayard", "delaware", "blank ballot"],
+            "n": 0
+        },
+        {
+            "id": "chase-trial",
+            "tier": "power",
+            "t": "Presided over the Senate impeachment trial of Justice Samuel Chase (1805); his farewell speech called the Senate a “citadel of law”",
+            "k": ["samuel chase", "impeachment", "citadel of law", "farewell"],
+            "n": 0
+        },
+        {
+            "id": "murder-charges",
+            "tier": "power",
+            "t": "Charged with crimes, including murder, in New York and New Jersey after the duel, but never tried",
+            "k": ["murder", "never tried", "new jersey"],
+            "n": 0
+        },
+        {
+            "id": "northern-confederacy",
+            "tier": "power",
+            "t": "Some New England Federalists, such as Timothy Pickering, hoped he would lead New York into a northern confederacy (1804)",
+            "k": ["pickering", "northern confederacy", "federalists"],
+            "n": 0,
+            "rabbit": "Federalist Party"
+        },
+        {
+            "id": "arrest",
+            "tier": "power",
+            "t": "Arrested in 1807 in present-day Alabama while fleeing toward Spanish Florida; Jefferson had told Congress his guilt was “beyond question”",
+            "k": ["alabama", "spanish florida", "beyond question"],
+            "n": 0
+        },
+        {
+            "id": "theodosia",
+            "tier": "power",
+            "t": "His daughter Theodosia was lost at sea in 1813; her husband, Joseph Alston, was governor of South Carolina",
+            "k": ["theodosia", "lost at sea", "joseph alston"],
+            "n": 0
+        },
+        {
+            "id": "jumel",
+            "tier": "power",
+            "t": "Married wealthy widow Eliza Jumel (1833); the divorce was granted the day he died (1836), and her lawyer was Alexander Hamilton Jr.",
+            "k": ["eliza jumel", "jumel", "divorce", "hamilton jr"],
+            "n": 0
+        },
+        {
+            "id": "europe",
+            "tier": "power",
+            "t": "After his trial, spent four years in Europe (1808–1812) seeking support for his schemes",
+            "k": ["europe", "four years", "1808"],
+            "n": 0
+        },
+        {
+            "id": "vidal-odom",
+            "tier": "power",
+            "t": "Subject of Gore Vidal’s 1973 novel; Leslie Odom Jr. won a Tony Award for playing him",
+            "k": ["gore vidal", "vidal", "leslie odom", "tony"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Shooter or victim?",
+        "body": "The 1804 duel at Weehawken is a stock clue for both Aaron Burr and Alexander Hamilton, so a player who buzzes on “duel” without hearing who died can lose the tossup. Clues like Philip Schuyler and the 1804 New York governor’s race show up in both men’s questions, and the tied election of 1800 is also a stock clue for Thomas Jefferson.",
+        "fix": "Burr fired the fatal shot: he was Jefferson’s vice president and was later tried for treason. Hamilton was the one killed: the first Treasury secretary, the face on the $10 bill, and the main author of _The Federalist Papers_. If a question asks for “this event,” say “the Burr–Hamilton duel.”",
+        "line": "Real answer line: Aaron <b><u>Burr</u></b> (do not accept “Alexander Hamilton”)"
+    },
+    "tests": {
+        "right": [
+            "Aaron Burr",
+            "Burr",
+            "Aron Burr",
+            "Vice President Aaron Burr",
+            "aaron bur"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Alexander Hamilton",
+            "Thomas Jefferson",
+            "Aaron Burr Sr.",
+            "Theodosia Burr",
+            "James Wilkinson",
+            "John Marshall",
+            "Burr-Hamilton duel"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

@@ -1,0 +1,364 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "attack-on-pearl-harbor",
+    "name": "Attack on Pearl Harbor",
+    "mono": "PH",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Japan’s surprise attack on Hawaii · Brought the U.S. into World War II",
+    "dates": "December 7, 1941",
+    "briefing": "Early on Sunday morning, December 7, 1941, more than 350 Japanese planes from six aircraft carriers struck the U.S. Navy base at Pearl Harbor, Hawaii. In less than two hours they sank or damaged eight battleships, and more than 2,400 Americans were killed, including 1,177 crew members of the USS _Arizona_. The next day, President Franklin Roosevelt called it “a date which will live in infamy,” and the United States entered World War II.",
+    "answerHtml": "attack on <b><u>Pearl Harbor</u></b> (accept <u>Hawaii Operation</u> or <u>Operation Z</u>; prompt on <u>Hawaii</u> or <u>Oahu</u>)",
+    "accept": [
+        "attack on pearl harbor",
+        "the attack on pearl harbor",
+        "pearl harbor",
+        "pearl harbor attack",
+        "bombing of pearl harbor",
+        "battle of pearl harbor",
+        "pearl harbour",
+        "attack on pearl harbour",
+        "hawaii operation",
+        "operation hawaii",
+        "operation z"
+    ],
+    "prompt": [
+        "hawaii",
+        "oahu",
+        "honolulu",
+        "attack on hawaii",
+        "bombing of hawaii",
+        "japanese attack",
+        "surprise attack"
+    ],
+    "reject": [
+        "uss arizona",
+        "arizona memorial",
+        "battleship row",
+        "battle of midway",
+        "midway",
+        "doolittle raid",
+        "battle of the coral sea",
+        "coral sea",
+        "wake island",
+        "hickam field",
+        "uss missouri",
+        "hiroshima",
+        "nagasaki",
+        "iwo jima",
+        "okinawa"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor",
+    "qb": {
+        "q": "Pearl Harbor",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "On the morning of this attack, Army privates Joseph Lockard and George Elliott spotted a huge group of incoming planes on radar at Opana Point, but a lieutenant told them not to worry, since he thought the planes were American B-17 bombers expected from California.",
+            "r": "The first attackers arrived less than an hour later. For 10 points, name this surprise attack on a U.S. naval base in Hawaii on December 7, 1941."
+        },
+        {
+            "p": "Before the air raid began, the destroyer USS _Ward_ fired the first American shots of this battle and sank a Japanese midget submarine. Another midget submarine ran aground, and its commander, Kazuo Sakamaki, became the first Japanese prisoner of war captured by the United States.",
+            "r": "Franklin Roosevelt said the date of this attack would “live in infamy.” For 10 points, name this December 7, 1941, Japanese attack on a Hawaiian naval base."
+        },
+        {
+            "p": "Commander Mitsuo Fuchida [“foo-CHEE-dah”] radioed the code words “Tora! Tora! Tora!” to report that this attack had caught its target completely by surprise. Vice Admiral Chuichi Nagumo [“CHOO-ee-chee nah-GOO-moh”] commanded the six aircraft carriers that launched it, and he decided not to send a third wave that might have destroyed the base’s fuel tanks.",
+            "r": "For 10 points, name this attack on December 7, 1941, that brought the United States into World War II."
+        },
+        {
+            "p": "This attack’s strike force sailed from the Kuril Islands in late November and kept radio silence as it crossed the North Pacific. Admiral Isoroku Yamamoto [“ee-soh-ROH-koo yah-mah-MOH-toh”] planned it, hoping to cripple the U.S. Pacific Fleet so Japan could seize oil and other resources in Southeast Asia.",
+            "r": "It came on December 7, 1941. For 10 points, name this surprise attack on a U.S. naval base in Hawaii."
+        },
+        {
+            "p": "Representative Jeannette Rankin of Montana cast the only vote in Congress against declaring war on Japan the day after this attack. Rankin had also voted against entering World War I in 1917. Days later, Germany and Italy declared war on the United States.",
+            "r": "For 10 points, name this December 7, 1941, attack whose date Franklin Roosevelt said would “live in infamy.”"
+        },
+        {
+            "p": "Doris “Dorie” Miller, a cook aboard the battleship USS _West Virginia_, carried wounded sailors to safety and fired an anti-aircraft machine gun he had never been trained to use during this attack. He became the first African American to receive the Navy Cross.",
+            "r": "In 2020, the Navy announced it would name an aircraft carrier for Miller. For 10 points, name this Japanese attack on a Hawaiian naval base on December 7, 1941."
+        },
+        {
+            "p": "After this attack, Admiral Husband Kimmel and General Walter Short, the Navy and Army commanders in Hawaii, were removed from their commands, and the Roberts Commission blamed them for failing to prepare. Congress held its own long investigation of this attack in 1945 and 1946.",
+            "r": "For 10 points, name this surprise attack that brought the United States into World War II."
+        },
+        {
+            "p": "Japanese diplomats Kichisaburo Nomura and Saburo Kurusu handed Secretary of State Cordell Hull a long message breaking off talks after this attack had already begun. American codebreakers in a program called MAGIC had decoded that message before it was delivered.",
+            "r": "For 10 points, name this December 7, 1941, attack on a U.S. naval base in Hawaii."
+        },
+        {
+            "p": "Elvis Presley gave a 1961 benefit concert that helped pay for a white memorial, designed by Alfred Preis, that stretches across the sunken hull of a battleship destroyed in this attack. That memorial was dedicated in 1962.",
+            "r": "The battleship, the USS _Arizona_, lost 1,177 crew members. For 10 points, name this December 7, 1941, attack."
+        },
+        {
+            "p": "This attack missed the Pacific Fleet’s aircraft carriers, which were away from port that morning, and it left the base’s fuel tanks and repair shops largely undamaged. Six months later, at Midway, the U.S. Navy sank four of the six Japanese carriers that had carried out this attack.",
+            "r": "It also sank or damaged eight U.S. battleships. For 10 points, name this Japanese surprise attack on December 7, 1941."
+        },
+        {
+            "p": "The USS _Nevada_ was the only battleship to get underway during this attack before it was run aground on purpose, and the USS _Oklahoma_ capsized. Those ships were moored along Ford Island in an area called Battleship Row.",
+            "r": "It came on December 7, 1941. For 10 points, name this attack in which the USS _Arizona_ was destroyed."
+        },
+        {
+            "p": "The coded message “Climb Mount Niitaka” told the Japanese strike force to go ahead with this attack. Commander Minoru Genda helped plan it, and its torpedoes were fitted with wooden fins so they could run in the shallow water of the harbor.",
+            "r": "More than 2,400 Americans were killed in it. For 10 points, name this December 7, 1941, attack on a Hawaiian naval base."
+        },
+        {
+            "p": "Fear and prejudice after this attack led Franklin Roosevelt to sign Executive Order 9066, which forced about 120,000 Japanese Americans on the West Coast into incarceration camps. The Doolittle Raid on Tokyo in April 1942 was partly meant to strike back after this attack.",
+            "r": "For 10 points, name this attack on December 7, 1941, “a date which will live in infamy.”"
+        },
+        {
+            "p": "In 1887, the Kingdom of Hawaii renewed a trade treaty that gave the United States the exclusive right to use this place as a naval coaling and repair station. In 1940, Franklin Roosevelt kept the Pacific Fleet based here instead of in California, hoping to discourage Japanese expansion.",
+            "r": "For 10 points, name this harbor on Oahu, the target of a Japanese surprise attack on December 7, 1941."
+        },
+        {
+            "p": "During this attack, Japanese planes also struck Hickam and Wheeler airfields, destroying many U.S. planes that had been parked close together to guard against sabotage. Within hours, Japan also attacked the Philippines, Guam, Wake Island, and Hong Kong.",
+            "r": "The next day, Congress declared war on Japan. For 10 points, name this attack on a Hawaiian naval base on December 7, 1941."
+        }
+    ],
+    "clues": [
+        {
+            "id": "date",
+            "tier": "giveaway",
+            "t": "December 7, 1941: Japan’s surprise attack on the U.S. naval base in Hawaii",
+            "k": ["december 7, 1941", "december 7", "surprise", "japan"],
+            "n": 0
+        },
+        {
+            "id": "infamy",
+            "tier": "giveaway",
+            "t": "Franklin Roosevelt called December 7 “a date which will live in infamy” and asked Congress to declare war",
+            "k": ["infamy", "roosevelt", "declare war"],
+            "n": 0,
+            "rabbit": "Franklin Delano Roosevelt"
+        },
+        {
+            "id": "world-war-ii",
+            "tier": "giveaway",
+            "t": "Brought the United States into World War II",
+            "k": ["world war ii", "brought"],
+            "n": 0
+        },
+        {
+            "id": "arizona",
+            "tier": "giveaway",
+            "t": "The battleship USS _Arizona_ exploded and sank; 1,177 of its crew died, and a memorial spans the wreck",
+            "k": ["arizona", "1,177", "memorial"],
+            "n": 0
+        },
+        {
+            "id": "oahu",
+            "tier": "giveaway",
+            "t": "The base is on the island of Oahu, near Honolulu; Hawaii was then a U.S. territory, not a state",
+            "k": ["oahu", "honolulu", "territory"],
+            "n": 0,
+            "rabbit": "Hawaii"
+        },
+        {
+            "id": "yamamoto",
+            "tier": "middle",
+            "t": "Planned by Admiral Isoroku Yamamoto to cripple the U.S. Pacific Fleet",
+            "k": ["isoroku yamamoto", "yamamoto", "pacific fleet"],
+            "n": 0
+        },
+        {
+            "id": "carriers-waves",
+            "tier": "middle",
+            "t": "More than 350 planes from six Japanese aircraft carriers struck in two waves",
+            "k": ["six", "aircraft carriers", "two waves", "350"],
+            "n": 0
+        },
+        {
+            "id": "battleship-row",
+            "tier": "middle",
+            "t": "Eight U.S. battleships were sunk or damaged along Battleship Row, next to Ford Island",
+            "k": ["battleship row", "ford island", "eight"],
+            "n": 0
+        },
+        {
+            "id": "deaths",
+            "tier": "middle",
+            "t": "More than 2,400 Americans were killed",
+            "k": ["2,400", "killed"],
+            "n": 0
+        },
+        {
+            "id": "missed-carriers",
+            "tier": "middle",
+            "t": "U.S. aircraft carriers were away from port, and the base’s fuel tanks and repair shops were left largely undamaged",
+            "k": ["away from port", "fuel tanks", "repair shops"],
+            "n": 0
+        },
+        {
+            "id": "oil",
+            "tier": "middle",
+            "t": "Japan attacked after the U.S. cut off oil sales in 1941 to stop its expansion; it wanted Southeast Asia’s resources",
+            "k": ["oil", "expansion", "southeast asia"],
+            "n": 0
+        },
+        {
+            "id": "rankin",
+            "tier": "middle",
+            "t": "Congress declared war on Japan on December 8 with one “no” vote, Jeannette Rankin’s; Germany and Italy declared war on the U.S. on December 11",
+            "k": ["jeannette rankin", "rankin", "germany", "italy"],
+            "n": 0
+        },
+        {
+            "id": "dorie-miller",
+            "tier": "middle",
+            "t": "Cook Doris “Dorie” Miller became the first African American awarded the Navy Cross",
+            "k": ["dorie miller", "doris", "navy cross"],
+            "n": 0
+        },
+        {
+            "id": "incarceration",
+            "tier": "middle",
+            "t": "Afterward, Executive Order 9066 forced about 120,000 Japanese Americans into incarceration camps",
+            "k": ["executive order 9066", "9066", "japanese americans"],
+            "n": 0,
+            "rabbit": "Japanese American internment"
+        },
+        {
+            "id": "tora",
+            "tier": "power",
+            "t": "Commander Mitsuo Fuchida radioed “Tora! Tora! Tora!” to signal complete surprise",
+            "k": ["tora", "fuchida"],
+            "n": 0
+        },
+        {
+            "id": "nagumo-genda",
+            "tier": "power",
+            "t": "Vice Admiral Chuichi Nagumo led the carrier force and skipped a third wave; Minoru Genda helped plan the attack",
+            "k": ["nagumo", "genda", "third wave"],
+            "n": 0
+        },
+        {
+            "id": "opana",
+            "tier": "power",
+            "t": "Radar operators at Opana Point spotted the planes but were told not to worry (they were thought to be B-17s)",
+            "k": ["opana", "radar", "b-17s"],
+            "n": 0
+        },
+        {
+            "id": "ward",
+            "tier": "power",
+            "t": "The destroyer USS _Ward_ fired the first U.S. shots, sinking a midget submarine",
+            "k": ["ward", "midget submarine", "first"],
+            "n": 0
+        },
+        {
+            "id": "sakamaki",
+            "tier": "power",
+            "t": "Kazuo Sakamaki became the first Japanese prisoner of war captured by the U.S.",
+            "k": ["kazuo sakamaki", "sakamaki", "prisoner of war"],
+            "n": 0
+        },
+        {
+            "id": "kimmel-short",
+            "tier": "power",
+            "t": "Admiral Husband Kimmel and General Walter Short lost their commands; the Roberts Commission blamed them",
+            "k": ["kimmel", "walter short", "roberts commission"],
+            "n": 0
+        },
+        {
+            "id": "magic",
+            "tier": "power",
+            "t": "Diplomats Nomura and Kurusu gave Cordell Hull Japan’s message breaking off talks after the attack began; MAGIC codebreakers had already decoded it",
+            "k": ["cordell hull", "magic", "nomura", "kurusu"],
+            "n": 0
+        },
+        {
+            "id": "niitaka",
+            "tier": "power",
+            "t": "Coded order “Climb Mount Niitaka”; the strike force sailed from the Kuril Islands under radio silence",
+            "k": ["niitaka", "kuril islands", "radio silence"],
+            "n": 0
+        },
+        {
+            "id": "wooden-fins",
+            "tier": "power",
+            "t": "Its torpedoes had wooden fins so they could run in the shallow harbor",
+            "k": ["wooden fins", "torpedoes", "shallow"],
+            "n": 0
+        },
+        {
+            "id": "midway",
+            "tier": "power",
+            "t": "At Midway (June 1942), the U.S. sank four of the six carriers that had attacked",
+            "k": ["midway", "four of the six", "1942"],
+            "n": 0,
+            "rabbit": "Battle of Midway"
+        },
+        {
+            "id": "preis-elvis",
+            "tier": "power",
+            "t": "Alfred Preis designed the USS _Arizona_ Memorial (1962); Elvis Presley gave a benefit concert for it (1961)",
+            "k": ["alfred preis", "elvis presley", "1962"],
+            "n": 0
+        },
+        {
+            "id": "oklahoma-nevada",
+            "tier": "power",
+            "t": "The USS _Oklahoma_ capsized; the USS _Nevada_ was the only battleship to get underway",
+            "k": ["oklahoma", "nevada", "capsized"],
+            "n": 0
+        },
+        {
+            "id": "reciprocity-1887",
+            "tier": "power",
+            "t": "An 1887 treaty with the Kingdom of Hawaii gave the U.S. the harbor; FDR kept the Pacific Fleet there from 1940",
+            "k": ["1887", "kingdom of hawaii", "1940"],
+            "n": 0
+        },
+        {
+            "id": "airfields",
+            "tier": "power",
+            "t": "Hickam and Wheeler airfields were hit; planes parked close together to guard against sabotage were destroyed",
+            "k": ["hickam", "wheeler", "sabotage"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Attack, harbor, or ship?",
+        "body": "Most tossups ask for the attack, and saying “Pearl Harbor” is enough. But some questions want a related answer: the USS _Arizona_ (“this battleship”), Hawaii or Oahu (“this island” or “this territory”), the Battle of Midway (the June 1942 battle where the U.S. sank four of the attacking carriers), or the Doolittle Raid (the April 1942 bombing of Tokyo). Answering “USS Arizona” when the question wants the attack is wrong.",
+        "fix": "Listen for the noun: “this attack,” “this event,” “this harbor,” or “this naval base” means Pearl Harbor; “this ship” or “this battleship” means the USS _Arizona_ (or another ship); “this battle” in June 1942 means Midway. If you say only “Hawaii,” expect a prompt, so be ready to add “Pearl Harbor.”",
+        "line": "Real answer line: attack on <b><u>Pearl Harbor</u></b> (accept <u>Hawaii Operation</u> or <u>Operation Z</u>; prompt on <u>Hawaii</u> or <u>Oahu</u>)"
+    },
+    "tests": {
+        "right": [
+            "Attack on Pearl Harbor",
+            "Pearl Harbor",
+            "the bombing of Pearl Harbor",
+            "Peral Harbor",
+            "Operation Z",
+            "Pearl Harbour"
+        ],
+        "prompt": [
+            "Hawaii",
+            "Oahu"
+        ],
+        "wrong": [
+            "USS Arizona",
+            "Battle of Midway",
+            "Doolittle Raid",
+            "Hiroshima",
+            "Battleship Row",
+            "Coral Sea"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

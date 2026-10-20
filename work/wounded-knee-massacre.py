@@ -1,0 +1,361 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "wounded-knee-massacre",
+    "name": "Wounded Knee massacre",
+    "mono": "WK",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Soldiers kill hundreds of Lakota, 1890 · Last major event of the Indian Wars",
+    "dates": "December 29, 1890",
+    "briefing": "On December 29, 1890, soldiers of the U.S. 7th Cavalry surrounded a band of Lakota people led by Spotted Elk (also called Big Foot) at Wounded Knee Creek in South Dakota. As the soldiers were taking away the Lakota’s weapons, a shot rang out and the soldiers opened fire, killing hundreds of men, women, and children. The massacre followed government fears of the Ghost Dance and the killing of Sitting Bull two weeks earlier.",
+    "answerHtml": "<b><u>Wounded Knee</u></b> Massacre (accept Battle of <u>Wounded Knee</u>; prompt on <u>Ghost Dance War</u> or <u>Pine Ridge Campaign</u>)",
+    "accept": [
+        "wounded knee",
+        "wounded knee massacre",
+        "the wounded knee massacre",
+        "battle of wounded knee",
+        "massacre at wounded knee",
+        "wounded knee creek",
+        "wounded knee creek massacre"
+    ],
+    "prompt": [
+        "ghost dance war",
+        "the ghost dance war",
+        "pine ridge campaign",
+        "the pine ridge campaign",
+        "sioux wars",
+        "the sioux wars"
+    ],
+    "reject": [
+        "ghost dance",
+        "ghost dance movement",
+        "little bighorn",
+        "battle of the little bighorn",
+        "battle of little bighorn",
+        "custers last stand",
+        "sand creek",
+        "sand creek massacre",
+        "sitting bull",
+        "spotted elk",
+        "big foot",
+        "bigfoot",
+        "wovoka",
+        "american indian movement",
+        "pine ridge",
+        "pine ridge reservation",
+        "standing rock",
+        "trail of tears",
+        "bear river massacre",
+        "washita",
+        "battle of the washita",
+        "fetterman fight",
+        "dawes act",
+        "sioux",
+        "lakota",
+        "black hills"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Wounded_Knee_Massacre",
+    "qb": {
+        "q": "Wounded Knee",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The Oglala holy man Black Elk later said that “a people’s dream died there” when he remembered this event in the book _Black Elk Speaks_, which he told to the poet John Neihardt. Black Elk had ridden to the scene as a young man.",
+            "r": "For 10 points, name this 1890 massacre of hundreds of Lakota people by U.S. soldiers in South Dakota."
+        },
+        {
+            "p": "Dee Brown took the title of his 1970 history of the American West, told from Native Americans’ point of view, from a poem by Stephen Vincent Benét [“beh-NAY”] called “American Names,” which mentions the place where this event happened. That book ends with this event.",
+            "r": "For 10 points, name this massacre at a creek on South Dakota’s Pine Ridge Reservation on December 29, 1890."
+        },
+        {
+            "p": "After a vision during a solar eclipse, the Paiute prophet Wovoka [“woh-VOH-kuh”] taught that a sacred dance could bring back the buffalo and reunite the living with their ancestors. Lakota followers of his movement wore special shirts that they believed could stop bullets.",
+            "r": "Fear of that movement, the Ghost Dance, helped lead to this event. For 10 points, name this 1890 massacre of Lakota people in South Dakota."
+        },
+        {
+            "p": "Kicking Bear and Short Bull traveled to Nevada to meet a prophet and brought his teachings home to the Lakota, which alarmed government agents on the reservations. Those agents called in the Army, setting off the events that led to this massacre.",
+            "r": "For 10 points, name this December 1890 massacre at a creek on the Pine Ridge Reservation."
+        },
+        {
+            "p": "Some Hunkpapa [“HUNK-pah-pah”] people fled to join Spotted Elk’s band after Indian agency police killed their leader while trying to arrest him at Standing Rock, two weeks before this event. Spotted Elk’s band then set out for the Pine Ridge Agency.",
+            "r": "That leader was Sitting Bull. For 10 points, name this December 1890 massacre of Lakota people by the 7th Cavalry."
+        },
+        {
+            "p": "The Miniconjou [“min-ee-KON-joo”] chief Spotted Elk, also called Big Foot, was sick with pneumonia when soldiers stopped his band and led it to the camp where this event happened. His band had been traveling to Pine Ridge after Red Cloud invited him to help make peace.",
+            "r": "For 10 points, name this massacre of December 29, 1890, in which U.S. soldiers killed hundreds of Lakota."
+        },
+        {
+            "p": "Major Samuel Whitside’s troops stopped a Lakota band, and Colonel James Forsyth later ordered the Lakota to give up their weapons. A struggle over the rifle of a deaf man named Black Coyote came just before the shooting started in this event.",
+            "r": "For 10 points, name this 1890 massacre of Lakota people carried out by the 7th Cavalry in South Dakota."
+        },
+        {
+            "p": "General Nelson Miles removed Colonel James Forsyth from command after this event and ordered an inquiry, but the War Department soon restored Forsyth to his post. Many of the people killed in this event were women and children.",
+            "r": "For 10 points, name this December 1890 massacre of Lakota people at a South Dakota creek."
+        },
+        {
+            "p": "In 1973, Russell Means and Dennis Banks led a 71-day standoff with federal agents at the South Dakota town where this event had happened 83 years earlier. The protesters seized the town to protest broken treaties and the tribal chairman, Richard Wilson.",
+            "r": "Those protesters belonged to the American Indian Movement. For 10 points, name this 1890 massacre of Lakota people by the 7th Cavalry."
+        },
+        {
+            "p": "In March 1973, Marlon Brando refused an Academy Award and sent Sacheen Littlefeather to speak about Hollywood’s treatment of Native Americans, while protesters were occupying the place where this event had happened.",
+            "r": "That 71-day occupation was led by the American Indian Movement. For 10 points, name this 1890 massacre in South Dakota."
+        },
+        {
+            "p": "This event happened in the same year as the census that led officials to declare that the United States no longer had a frontier line. It took place on the Pine Ridge Reservation, home of the Oglala Lakota.",
+            "r": "It is often called the end of the Indian Wars. For 10 points, name this massacre of Lakota people by the 7th Cavalry."
+        },
+        {
+            "p": "The ethnologist James Mooney visited Wovoka and wrote a long report on the religious movement that came before this massacre. The soldiers in this event belonged to the same regiment that George Armstrong Custer had led to defeat at the Little Bighorn 14 years earlier.",
+            "r": "For 10 points, name this massacre of Lakota people by the 7th Cavalry at a creek in South Dakota in December 1890."
+        },
+        {
+            "p": "Each December, Lakota riders on horseback retrace the route of Spotted Elk’s band to the place where this event happened, finishing on its anniversary. In 1990, on the 100th anniversary of this event, Congress passed a resolution expressing “deep regret” for it.",
+            "r": "For 10 points, name this massacre of hundreds of Lakota people at a South Dakota creek on December 29, 1890."
+        },
+        {
+            "p": "In 1889, the Great Sioux Reservation was broken into smaller reservations, and cuts to food rations the next year added to the hunger and anger that came before this event. Many Lakota then turned to a new religious movement for hope.",
+            "r": "That movement, the Ghost Dance, spread before this event. For 10 points, name this 1890 massacre in South Dakota."
+        },
+        {
+            "p": "The Dakota doctor Charles Eastman treated survivors of this event, many of whom were brought to a church at the Pine Ridge Agency that was still decorated for Christmas. This event happened four days after Christmas, two weeks after Sitting Bull was killed.",
+            "r": "For 10 points, name this 1890 massacre of Lakota people by the 7th Cavalry in South Dakota."
+        }
+    ],
+    "clues": [
+        {
+            "id": "date-place",
+            "tier": "giveaway",
+            "t": "Happened at a creek in South Dakota on December 29, 1890",
+            "k": ["december 29", "1890", "south dakota", "creek"],
+            "n": 0
+        },
+        {
+            "id": "seventh-cavalry",
+            "tier": "giveaway",
+            "t": "Soldiers of the U.S. 7th Cavalry killed hundreds of Lakota people, many of them women and children",
+            "k": ["7th cavalry", "lakota", "hundreds", "women and children"],
+            "n": 0
+        },
+        {
+            "id": "ghost-dance",
+            "tier": "giveaway",
+            "t": "Followed government fears of the Ghost Dance, a religious movement",
+            "k": ["ghost dance", "religious movement"],
+            "n": 0
+        },
+        {
+            "id": "indian-wars",
+            "tier": "giveaway",
+            "t": "Often called the end of the Indian Wars on the Great Plains",
+            "k": ["indian wars", "great plains"],
+            "n": 0
+        },
+        {
+            "id": "pine-ridge",
+            "tier": "middle",
+            "t": "Took place on the Pine Ridge Reservation, home of the Oglala Lakota",
+            "k": ["pine ridge", "oglala", "reservation"],
+            "n": 0
+        },
+        {
+            "id": "spotted-elk",
+            "tier": "middle",
+            "t": "The victims were the Miniconjou band of Spotted Elk (Big Foot), who was sick with pneumonia",
+            "k": ["spotted elk", "big foot", "miniconjou", "pneumonia"],
+            "n": 0
+        },
+        {
+            "id": "sitting-bull",
+            "tier": "middle",
+            "t": "Two weeks earlier (December 15, 1890), Indian agency police killed Sitting Bull while trying to arrest him at Standing Rock",
+            "k": ["sitting bull", "standing rock", "december 15"],
+            "n": 0,
+            "rabbit": "Sitting Bull"
+        },
+        {
+            "id": "wovoka",
+            "tier": "middle",
+            "t": "The Ghost Dance began with the Paiute prophet Wovoka (Jack Wilson) of Nevada, after a vision during a solar eclipse",
+            "k": ["wovoka", "paiute", "jack wilson", "eclipse"],
+            "n": 0
+        },
+        {
+            "id": "ghost-shirts",
+            "tier": "middle",
+            "t": "Lakota dancers wore “ghost shirts” that they believed could stop bullets",
+            "k": ["ghost shirts", "shirts", "bullets"],
+            "n": 0
+        },
+        {
+            "id": "weapons",
+            "tier": "middle",
+            "t": "Soldiers were taking away the Lakota’s weapons when a shot rang out and the soldiers opened fire",
+            "k": ["weapons", "shot rang out"],
+            "n": 0
+        },
+        {
+            "id": "aim-1973",
+            "tier": "middle",
+            "t": "1973: the American Indian Movement (AIM) occupied the town where it happened for 71 days",
+            "k": ["american indian movement", "71 days", "1973"],
+            "n": 0
+        },
+        {
+            "id": "custer-regiment",
+            "tier": "middle",
+            "t": "The 7th Cavalry was Custer’s old regiment, defeated at the Little Bighorn in 1876",
+            "k": ["custer", "little bighorn", "1876"],
+            "n": 0,
+            "rabbit": "Battle of the Little Bighorn"
+        },
+        {
+            "id": "dee-brown",
+            "tier": "middle",
+            "t": "Dee Brown’s 1970 book _Bury My Heart at …_ tells the story of the West from Native Americans’ point of view",
+            "k": ["dee brown", "bury my heart", "1970"],
+            "n": 0
+        },
+        {
+            "id": "black-elk",
+            "tier": "power",
+            "t": "Oglala holy man Black Elk: “a people’s dream died there” (_Black Elk Speaks_, told to John Neihardt)",
+            "k": ["black elk", "neihardt", "dream"],
+            "n": 0
+        },
+        {
+            "id": "benet",
+            "tier": "power",
+            "t": "Dee Brown’s title comes from Stephen Vincent Benét’s poem “American Names”",
+            "k": ["benét", "american names"],
+            "n": 0
+        },
+        {
+            "id": "kicking-bear",
+            "tier": "power",
+            "t": "Kicking Bear and Short Bull visited Wovoka and brought the dance to the Lakota; alarmed agents called in the Army",
+            "k": ["kicking bear", "short bull"],
+            "n": 0
+        },
+        {
+            "id": "red-cloud",
+            "tier": "power",
+            "t": "Spotted Elk’s band was heading to Pine Ridge after Red Cloud invited him to help make peace",
+            "k": ["red cloud", "make peace"],
+            "n": 0
+        },
+        {
+            "id": "whitside-forsyth",
+            "tier": "power",
+            "t": "Major Samuel Whitside stopped the band; Colonel James Forsyth commanded on December 29",
+            "k": ["whitside", "forsyth"],
+            "n": 0
+        },
+        {
+            "id": "black-coyote",
+            "tier": "power",
+            "t": "A struggle over the rifle of a deaf man, Black Coyote, came just before the shooting",
+            "k": ["black coyote", "deaf", "rifle"],
+            "n": 0
+        },
+        {
+            "id": "miles",
+            "tier": "power",
+            "t": "General Nelson Miles removed Forsyth from command, but the War Department restored him",
+            "k": ["nelson miles", "miles"],
+            "n": 0
+        },
+        {
+            "id": "means-banks",
+            "tier": "power",
+            "t": "Russell Means and Dennis Banks led the 1973 standoff with federal agents",
+            "k": ["russell means", "dennis banks", "standoff"],
+            "n": 0
+        },
+        {
+            "id": "brando",
+            "tier": "power",
+            "t": "Marlon Brando refused his Oscar during the 1973 occupation; Sacheen Littlefeather spoke for him",
+            "k": ["brando", "littlefeather", "oscar"],
+            "n": 0
+        },
+        {
+            "id": "remembrance",
+            "tier": "power",
+            "t": "In 1990, Congress expressed “deep regret” on the 100th anniversary; Lakota riders retrace the band’s route every December",
+            "k": ["deep regret", "100th anniversary", "riders"],
+            "n": 0
+        },
+        {
+            "id": "reservation-split",
+            "tier": "power",
+            "t": "In 1889, the Great Sioux Reservation was split into smaller reservations; cuts to food rations followed",
+            "k": ["great sioux reservation", "rations", "1889"],
+            "n": 0
+        },
+        {
+            "id": "mooney",
+            "tier": "power",
+            "t": "Ethnologist James Mooney visited Wovoka and wrote a long report on the Ghost Dance",
+            "k": ["mooney", "ethnologist"],
+            "n": 0
+        },
+        {
+            "id": "census",
+            "tier": "power",
+            "t": "Came in the same year as the census that led officials to declare there was no longer a frontier line",
+            "k": ["census", "frontier line"],
+            "n": 0
+        },
+        {
+            "id": "christmas-church",
+            "tier": "power",
+            "t": "Dakota doctor Charles Eastman treated survivors, many brought to a Pine Ridge church still decorated for Christmas",
+            "k": ["charles eastman", "eastman", "church", "christmas"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not Little Bighorn or Sand Creek",
+        "body": "Several answer lines orbit this event. The Ghost Dance was the religious movement that alarmed officials, and Sitting Bull was killed two weeks earlier. The Battle of the Little Bighorn (1876) was the 7th Cavalry’s famous defeat under Custer, and the Sand Creek Massacre (1864) was a different attack, on Cheyenne and Arapaho people in Colorado.",
+        "fix": "December 1890, Spotted Elk (Big Foot), Pine Ridge, and the 1973 American Indian Movement standoff mean Wounded Knee. Custer’s Last Stand and 1876 mean the Little Bighorn; Colorado, John Chivington, and 1864 mean Sand Creek. If the question asks for “this religious movement,” say the Ghost Dance.",
+        "line": "Real answer line: <b><u>Wounded Knee</u></b> Massacre (accept Battle of <u>Wounded Knee</u>; prompt on <u>Ghost Dance War</u>)"
+    },
+    "tests": {
+        "right": [
+            "Wounded Knee",
+            "Wounded Knee Massacre",
+            "Battle of Wounded Knee",
+            "Massacre at Wounded Knee",
+            "Wounded Nee",
+            "wounded knee creek"
+        ],
+        "prompt": [
+            "Ghost Dance War",
+            "Pine Ridge Campaign"
+        ],
+        "wrong": [
+            "Little Bighorn",
+            "Sand Creek Massacre",
+            "Ghost Dance",
+            "Sitting Bull",
+            "Big Foot",
+            "American Indian Movement",
+            "Custer's Last Stand"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

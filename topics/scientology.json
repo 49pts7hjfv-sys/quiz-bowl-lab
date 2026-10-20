@@ -1,0 +1,383 @@
+{
+  "id": "scientology",
+  "name": "Scientology",
+  "mono": "SC",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Religious movement founded by L. Ron Hubbard · First church opened in 1954",
+  "dates": "Founded in the 1950s",
+  "briefing": "In 1950, the science fiction writer L. Ron Hubbard published _Dianetics: The Modern Science of Mental Health_, which became a bestseller. Hubbard went on to found Scientology, and the first Church of Scientology opened in Los Angeles in 1954. Scientologists believe that each person is a thetan, an immortal spiritual being, and they seek spiritual improvement through one-on-one counseling sessions called auditing.",
+  "answerHtml": "<b><u>Scientology</u></b> (or Church of <u>Scientology</u>; accept word forms like <u>Scientologist</u>s; prompt on <u>Dianetics</u>; do not accept “Christian Science”)",
+  "accept": [
+    "scientology",
+    "church of scientology",
+    "the church of scientology",
+    "scientologist",
+    "scientologists",
+    "scientology religion"
+  ],
+  "prompt": [
+    "dianetics"
+  ],
+  "reject": [
+    "christian science",
+    "christian scientists",
+    "church of christ scientist",
+    "religious science",
+    "science of mind",
+    "unification church",
+    "mormonism",
+    "latter day saints",
+    "jehovahs witnesses",
+    "seventh day adventists",
+    "nation of islam",
+    "eckankar",
+    "theosophy",
+    "rastafarianism",
+    "bahai",
+    "bahai faith",
+    "sea org",
+    "sea organization",
+    "l ron hubbard",
+    "hubbard"
+  ],
+  "tests": {
+    "right": [
+      "Scientology",
+      "Church of Scientology",
+      "Scientologists",
+      "Scientolgy",
+      "Sceintology"
+    ],
+    "prompt": [
+      "Dianetics"
+    ],
+    "wrong": [
+      "Christian Science",
+      "Mormonism",
+      "L. Ron Hubbard",
+      "Unification Church",
+      "Jehovah’s Witnesses",
+      "Sea Org",
+      "Nation of Islam"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Scientology",
+  "qb": {
+    "q": "Scientology",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In May 1950, the magazine _Astounding Science Fiction_, edited by John W. Campbell, published an article introducing a method of mental self-improvement that later grew into this movement. That same month, the article’s author published a bestselling book subtitled _The Modern Science of Mental Health_.",
+      "r": "That book was _Dianetics_, by L. Ron Hubbard. For 10 points, name this religious movement that Hubbard founded."
+    },
+    {
+      "p": "Adherents of this religion believe that each person is a thetan [“THAY-tun”], an immortal spiritual being that is a person’s true self, separate from the body and the mind. They believe a thetan has lived many past lives and can be weighed down by painful experiences from this life and earlier ones.",
+      "r": "Its first church opened in Los Angeles in 1954. For 10 points, name this religion founded by L. Ron Hubbard."
+    },
+    {
+      "p": "In this religion’s central practice, a trained counselor asks a person questions while watching a device called an E-meter, which measures small changes in electrical resistance as the person holds two metal cylinders. That one-on-one counseling is called auditing.",
+      "r": "For 10 points, name this religion founded by L. Ron Hubbard, the author of _Dianetics_."
+    },
+    {
+      "p": "This movement’s founder taught that painful experiences leave mental image pictures called engrams [“EN-gramz”] in a part of the mind he called the reactive mind. Adherents believe that a person who has gotten rid of the reactive mind reaches a state called Clear.",
+      "r": "Those ideas first appeared in the book _Dianetics_. For 10 points, name this religion founded by L. Ron Hubbard."
+    },
+    {
+      "p": "After reaching the state called Clear, members of this religion may move on to higher Operating Thetan, or OT, levels on a chart called the Bridge to Total Freedom. The highest level offered, OT VIII [“eight”], is taught only aboard a ship called the _Freewinds_.",
+      "r": "For 10 points, name this religion founded by the science fiction writer L. Ron Hubbard."
+    },
+    {
+      "p": "This religion’s symbol is a letter S drawn over two triangles. One triangle stands for affinity, reality, and communication, which adherents believe together make up understanding, and the other stands for knowledge, responsibility, and control.",
+      "r": "For 10 points, name this religion whose members believe each person is an immortal spiritual being called a thetan."
+    },
+    {
+      "p": "This religion teaches that life is driven by eight “dynamics,” or urges toward survival, ranging from the urge to survive as oneself to the urge toward infinity, or a Supreme Being. The eight points of its cross stand for those eight dynamics.",
+      "r": "For 10 points, name this religion founded by L. Ron Hubbard, whose members take part in counseling called auditing."
+    },
+    {
+      "p": "From 1959 until the mid-1960s, this movement’s founder lived and taught at Saint Hill Manor, a country house in East Grinstead [“GRIN-sted”], England. This movement’s spiritual headquarters, the Flag Land Base, is in Clearwater, Florida.",
+      "r": "For 10 points, name this religious movement founded by L. Ron Hubbard, the author of _Dianetics_."
+    },
+    {
+      "p": "In 1967, this movement’s founder created a religious order called the Sea Organization and spent several years leading it from ships at sea, including a flagship called the _Apollo_. Members of that order work full-time for this movement’s churches.",
+      "r": "For 10 points, name this religion founded by L. Ron Hubbard, whose followers believe in immortal spiritual beings called thetans."
+    },
+    {
+      "p": "After this religion’s founder died in 1986, David Miscavige [“mih-SKAV-ij”] became its leader, with the title of chairman of the board of its Religious Technology Center. In 1993, the U.S. Internal Revenue Service recognized its churches as tax-exempt religious organizations.",
+      "r": "Its members seek spiritual growth through auditing. For 10 points, name this religion founded by L. Ron Hubbard in the 1950s."
+    },
+    {
+      "p": "This religion runs a Celebrity Centre in Los Angeles for artists and entertainers. In 2000, one of its best-known members starred in a film based on _Battlefield Earth_, a 1982 science fiction novel by this religion’s founder.",
+      "r": "Actors Tom Cruise and John Travolta have been among its best-known members. For 10 points, name this religion founded by L. Ron Hubbard."
+    },
+    {
+      "p": "In 1969, this religion helped found the Citizens Commission on Human Rights together with the psychiatrist Thomas Szasz [“SAHS”], reflecting its strong opposition to psychiatry and psychiatric drugs. That group runs a museum in Los Angeles that criticizes psychiatry.",
+      "r": "Its members take part in counseling called auditing. For 10 points, name this religion founded by L. Ron Hubbard."
+    },
+    {
+      "p": "This movement’s name combines a Latin word meaning “knowing” with a Greek word meaning “study,” and its founder defined it as “knowing how to know.” He also described it as an “applied religious philosophy.”",
+      "r": "For 10 points, name this religion founded by L. Ron Hubbard, whose members seek to reach a state called Clear."
+    },
+    {
+      "p": "This religion’s Volunteer Ministers, known for their bright yellow shirts, offer help at disaster sites. Its founder also wrote _The Way to Happiness_, a 1981 booklet of twenty-one moral rules intended for people of any faith.",
+      "r": "That founder also wrote _Dianetics_. For 10 points, name this religion founded by L. Ron Hubbard."
+    },
+    {
+      "p": "This religion’s founder, who was born in Tilden, Nebraska, in 1911, wrote many westerns, adventure tales, and science fiction stories for pulp magazines before he turned to spiritual subjects. Adherents celebrate his birthday every March 13.",
+      "r": "That founder was L. Ron Hubbard, the author of _Dianetics_. For 10 points, name this religion he founded."
+    }
+  ],
+  "clues": [
+    {
+      "id": "hubbard",
+      "tier": "giveaway",
+      "t": "Founded by the American science fiction writer L. Ron Hubbard (1911–1986)",
+      "k": [
+        "hubbard",
+        "science fiction",
+        "1911"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dianetics",
+      "tier": "giveaway",
+      "t": "Grew out of Hubbard’s 1950 bestseller _Dianetics: The Modern Science of Mental Health_",
+      "k": [
+        "dianetics",
+        "1950",
+        "mental health"
+      ],
+      "n": 0
+    },
+    {
+      "id": "celebrities",
+      "tier": "giveaway",
+      "t": "Actors Tom Cruise and John Travolta have been among its best-known members",
+      "k": [
+        "tom cruise",
+        "john travolta"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-church",
+      "tier": "giveaway",
+      "t": "Its first church opened in Los Angeles in 1954",
+      "k": [
+        "los angeles",
+        "1954",
+        "first church"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thetan",
+      "tier": "middle",
+      "t": "Adherents believe each person is a thetan, an immortal spiritual being that has lived many past lives",
+      "k": [
+        "thetan",
+        "immortal",
+        "past lives"
+      ],
+      "n": 0
+    },
+    {
+      "id": "auditing",
+      "tier": "middle",
+      "t": "Auditing: one-on-one spiritual counseling with an auditor, who often uses a device called an E-meter",
+      "k": [
+        "auditing",
+        "auditor",
+        "e-meter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clear",
+      "tier": "middle",
+      "t": "Clear: the state of a person believed to be free of the reactive mind",
+      "k": [
+        "clear",
+        "reactive mind"
+      ],
+      "n": 0
+    },
+    {
+      "id": "engrams",
+      "tier": "middle",
+      "t": "Hubbard taught that painful experiences leave mental image pictures called engrams in the reactive mind",
+      "k": [
+        "engrams",
+        "painful experiences"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clearwater",
+      "tier": "middle",
+      "t": "Spiritual headquarters: the Flag Land Base in Clearwater, Florida",
+      "k": [
+        "clearwater",
+        "flag land base",
+        "florida"
+      ],
+      "n": 0
+    },
+    {
+      "id": "irs",
+      "tier": "middle",
+      "t": "The U.S. Internal Revenue Service recognized its churches as tax-exempt religious organizations in 1993",
+      "k": [
+        "internal revenue service",
+        "1993",
+        "tax-exempt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "astounding",
+      "tier": "power",
+      "t": "Dianetics was introduced in _Astounding Science Fiction_ (May 1950), edited by John W. Campbell",
+      "k": [
+        "astounding science fiction",
+        "campbell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ot-levels",
+      "tier": "power",
+      "t": "Operating Thetan (OT) levels lie beyond Clear on the Bridge to Total Freedom; OT VIII is taught aboard the ship _Freewinds_",
+      "k": [
+        "operating thetan",
+        "bridge to total freedom",
+        "freewinds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "symbol",
+      "tier": "power",
+      "t": "Symbol: an S over two triangles, for affinity, reality, and communication, and for knowledge, responsibility, and control",
+      "k": [
+        "triangles",
+        "affinity",
+        "communication"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dynamics",
+      "tier": "power",
+      "t": "Eight dynamics (urges toward survival) range from the self to infinity; the eight points of its cross stand for them",
+      "k": [
+        "eight dynamics",
+        "dynamics",
+        "cross"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saint-hill",
+      "tier": "power",
+      "t": "Hubbard lived and taught at Saint Hill Manor in East Grinstead, England, from 1959",
+      "k": [
+        "saint hill",
+        "east grinstead"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sea-org",
+      "tier": "power",
+      "t": "The Sea Organization (1967) is its religious order; Hubbard led it from ships such as the _Apollo_",
+      "k": [
+        "sea organization",
+        "apollo",
+        "1967"
+      ],
+      "n": 0
+    },
+    {
+      "id": "miscavige",
+      "tier": "power",
+      "t": "David Miscavige became its leader after Hubbard’s death in 1986",
+      "k": [
+        "miscavige",
+        "1986"
+      ],
+      "n": 0
+    },
+    {
+      "id": "battlefield-earth",
+      "tier": "power",
+      "t": "Runs a Celebrity Centre in Los Angeles; a 2000 film of Hubbard’s novel _Battlefield Earth_ starred John Travolta",
+      "k": [
+        "celebrity centre",
+        "battlefield earth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "psychiatry",
+      "tier": "power",
+      "t": "Opposes psychiatry; helped found the Citizens Commission on Human Rights (1969) with psychiatrist Thomas Szasz",
+      "k": [
+        "psychiatry",
+        "citizens commission on human rights",
+        "szasz"
+      ],
+      "n": 0
+    },
+    {
+      "id": "name",
+      "tier": "power",
+      "t": "Its name joins Latin for “knowing” and Greek for “study”; Hubbard called it “knowing how to know” and an “applied religious philosophy”",
+      "k": [
+        "knowing how to know",
+        "applied religious philosophy",
+        "latin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "way-to-happiness",
+      "tier": "power",
+      "t": "Hubbard’s _The Way to Happiness_ (1981) lists 21 moral rules; its Volunteer Ministers wear yellow shirts at disaster sites",
+      "k": [
+        "way to happiness",
+        "volunteer ministers",
+        "yellow shirts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tilden",
+      "tier": "power",
+      "t": "Hubbard was born in Tilden, Nebraska, on March 13, 1911, and wrote pulp westerns and science fiction",
+      "k": [
+        "tilden",
+        "nebraska",
+        "march 13",
+        "pulp"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not Christian Science",
+    "body": "Scientology and Christian Science are completely different religions that both have “science” in their names. Christian Science was founded by Mary Baker Eddy in Boston in 1879, publishes the _Christian Science Monitor_, and teaches healing through prayer; Scientology was founded by L. Ron Hubbard in the 1950s. _Dianetics_, Hubbard’s 1950 book and method, came first and is still part of Scientology, so naming it earns only a prompt.",
+    "fix": "Thetans, auditing, the E-meter, engrams, Clear, Operating Thetan levels, the Sea Organization, or Clearwater, Florida, mean Scientology. Mary Baker Eddy, the book _Science and Health_, or the _Christian Science Monitor_ means Christian Science.",
+    "line": "Real answer line: <b><u>Scientology</u></b> (or Church of <u>Scientology</u>; prompt on <u>Dianetics</u>; do not accept “Christian Science”)"
+  }
+}

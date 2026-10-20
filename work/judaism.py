@@ -58,7 +58,7 @@ data = {
     "sample": {"n": 0, "note": "no real tossups checked yet"},
     "tossups": [
         {
-            "p": "In a Talmud story, a man asked the sage Hillel to teach him this religion’s entire law while standing on one foot. Hillel replied, “What is hateful to you, do not do to your neighbor,” and said that everything else was commentary.",
+            "p": "In a Talmud story, a man promised to join this religion if the sage Hillel could teach him its entire law while he stood on one foot. Hillel replied, “What is hateful to you, do not do to your neighbor,” and said that everything else was commentary.",
             "r": "Its followers celebrate Passover and Hanukkah. For 10 points, name this religion whose followers worship in synagogues."
         },
         {
@@ -232,7 +232,7 @@ data = {
         {
             "id": "hillel",
             "tier": "power",
-            "t": "Hillel, asked to teach the whole law on one foot: “What is hateful to you, do not do to your neighbor”; the rest is commentary",
+            "t": "Asked to teach the whole law while the asker stood on one foot, Hillel said, “What is hateful to you, do not do to your neighbor”; the rest is commentary",
             "k": ["hillel", "one foot", "hateful"],
             "n": 0
         },

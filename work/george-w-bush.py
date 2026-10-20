@@ -1,0 +1,382 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "george-w-bush",
+    "name": "George W. Bush",
+    "mono": "GWB",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "43rd U.S. President · Led the nation after the September 11 attacks",
+    "dates": "Born 1946; president 2001–2009",
+    "briefing": "In 2000, the whole presidential election came down to Florida, where George W. Bush finished just 537 votes ahead of Al Gore after weeks of recounts that the Supreme Court halted in _Bush v. Gore_. Bush and his father, George H. W. Bush, became the second father and son to both serve as president, after John and John Quincy Adams. Less than eight months into his first term, the September 11 attacks reshaped his presidency.",
+    "answerHtml": "George <b><u>W</u></b>alker <b><u>Bush</u></b> (or <u>George W. Bush</u>; accept <u>Bush 43</u> or <u>Dubya</u>; prompt on <u>Bush</u> or <u>George Bush</u>; do not accept “George H. W. Bush” or “Jeb Bush”)",
+    "accept": [
+        "george w bush",
+        "george walker bush",
+        "president george w bush",
+        "g w bush",
+        "w bush",
+        "george bush jr",
+        "george bush junior",
+        "bush jr",
+        "bush junior",
+        "bush 43",
+        "george bush 43",
+        "dubya",
+        "gwb"
+    ],
+    "prompt": [
+        "bush",
+        "george bush",
+        "president bush",
+        "george w",
+        "g bush"
+    ],
+    "reject": [
+        "george h w bush",
+        "george hw bush",
+        "george herbert walker bush",
+        "george herbert bush",
+        "george h bush",
+        "h w bush",
+        "hw bush",
+        "bush 41",
+        "george bush 41",
+        "george bush sr",
+        "george bush senior",
+        "bush sr",
+        "bush senior",
+        "jeb bush",
+        "jeb",
+        "john ellis bush",
+        "laura bush",
+        "barbara bush",
+        "prescott bush",
+        "dick cheney",
+        "cheney",
+        "al gore",
+        "gore",
+        "bush v gore",
+        "bill clinton",
+        "barack obama",
+        "john kerry",
+        "george washington"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/George_W._Bush",
+    "qb": {
+        "q": "Bush",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This man lost a 1978 race for Congress in West Texas and spent years in the oil business in Midland. In 1989, he joined a group of investors that bought baseball’s Texas Rangers, and he served as the team’s managing general partner.",
+            "r": "He later defeated Ann Richards to become governor of Texas. For 10 points, name this man who became the 43rd president."
+        },
+        {
+            "p": "This man flew F-102 fighter jets in the Texas Air National Guard after graduating from Yale, and he later became the first U.S. president with a Master of Business Administration degree, which he earned at Harvard in 1975.",
+            "r": "His father was the 41st president. For 10 points, name this Republican who served as the 43rd president."
+        },
+        {
+            "p": "Arguments over Palm Beach County’s “butterfly ballot” and over “hanging chads” on punch-card ballots marked the disputed vote count in Florida, where this candidate was certified the winner by 537 votes. A Supreme Court case named for this man and his opponent ended the recounts in December 2000.",
+            "r": "For 10 points, name this Republican who defeated Al Gore in the 2000 presidential election."
+        },
+        {
+            "p": "This president was reading with second graders at an elementary school in Sarasota, Florida, when his chief of staff, Andrew Card, whispered to him that “America is under attack.” Three days later, he spoke to rescue workers at Ground Zero through a bullhorn.",
+            "r": "For 10 points, name this president who led the country after the September 11 attacks."
+        },
+        {
+            "p": "Former Pennsylvania governor Tom Ridge became the first secretary of a cabinet department created under this president in 2002, which brought together 22 federal agencies, including the Coast Guard and the Secret Service.",
+            "r": "That department was the Department of Homeland Security. For 10 points, name this president who also signed the USA PATRIOT Act."
+        },
+        {
+            "p": "Senator Ted Kennedy worked with this Republican president to pass a 2002 education law that required yearly reading and math tests in grades 3 through 8. Schools that did not make “adequate yearly progress” under that law faced consequences.",
+            "r": "That law was called No Child Left Behind. For 10 points, name this president, whose wife, Laura, had been a school librarian."
+        },
+        {
+            "p": "This president signed a 2003 law that added prescription drug coverage, known as Part D, to Medicare. That same year, he announced PEPFAR, an emergency plan that went on to pay for HIV treatment for millions of people, especially in Africa.",
+            "r": "For 10 points, name this president who sent U.S. troops into Afghanistan after the September 11 attacks."
+        },
+        {
+            "p": "During a financial crisis late in this president’s second term, Treasury Secretary Henry Paulson asked Congress for 700 billion dollars to shore up struggling banks. This president signed the 2008 law that created that rescue fund, the Troubled Asset Relief Program, or TARP.",
+            "r": "His successor was Barack Obama. For 10 points, name this president who had defeated Al Gore in 2000."
+        },
+        {
+            "p": "In May 2003, this president landed in a Navy jet on the aircraft carrier USS _Abraham Lincoln_ and gave a speech beneath a banner reading “Mission Accomplished.” That December, American troops captured Saddam Hussein [“hoo-SAYN”] near his hometown of Tikrit [“tih-KREET”].",
+            "r": "For 10 points, name this president who ordered the 2003 invasion of Iraq."
+        },
+        {
+            "p": "In his 2002 State of the Union address, this president called Iran, Iraq, and North Korea an “axis of evil.” His secretary of state, Colin Powell, later presented the case against Iraq’s weapons programs to the United Nations Security Council.",
+            "r": "In 2003, this president ordered the invasion of Iraq. For 10 points, name this president, whose vice president was Dick Cheney."
+        },
+        {
+            "p": "This president nominated his White House counsel, Harriet Miers, to the Supreme Court, but she withdrew, and he chose Samuel Alito instead. Earlier that year, he had named John Roberts to succeed William Rehnquist [“REN-kwist”] as Chief Justice.",
+            "r": "For 10 points, name this president who won reelection over John Kerry in 2004."
+        },
+        {
+            "p": "FEMA director Michael Brown resigned after this president’s administration was widely criticized for its response to a 2005 disaster. In that disaster, levee failures flooded about 80 percent of New Orleans.",
+            "r": "That disaster was Hurricane Katrina. For 10 points, name this president, who had been governor of Texas before taking office in 2001."
+        },
+        {
+            "p": "This president won reelection in 2004 by carrying Ohio, defeating a Massachusetts senator who had won a Silver Star in Vietnam. Four years earlier, he had lost the national popular vote but won the Electoral College by 271 votes to 266.",
+            "r": "For 10 points, name this Republican who served as president from 2001 to 2009."
+        },
+        {
+            "p": "After leaving office, this man took up painting and published _Portraits of Courage_, a book of his paintings of military veterans. His presidential center opened in 2013 at Southern Methodist University in Dallas.",
+            "r": "His memoir is titled _Decision Points_. For 10 points, name this former governor of Texas who became the 43rd president."
+        },
+        {
+            "p": "During his 2000 campaign, this candidate called his philosophy “compassionate conservatism.” Soon after taking office, he created a White House office to help religious and community charities compete for federal grants, the Office of Faith-Based and Community Initiatives.",
+            "r": "For 10 points, name this 43rd president, whose brother Jeb served as governor of Florida."
+        }
+    ],
+    "clues": [
+        {
+            "id": "43rd-president",
+            "tier": "giveaway",
+            "t": "43rd President (2001–2009), a Republican; came after Bill Clinton and before Barack Obama",
+            "k": ["43rd", "republican", "2001", "clinton", "obama"],
+            "n": 0
+        },
+        {
+            "id": "father-son",
+            "tier": "giveaway",
+            "t": "Son of the 41st president; they were the second father and son presidents, after John Adams and John Quincy Adams",
+            "k": ["41st president", "father", "son", "adams"],
+            "n": 0
+        },
+        {
+            "id": "september-11",
+            "tier": "giveaway",
+            "t": "President during the September 11 attacks (2001)",
+            "k": ["september 11", "9/11", "attacks"],
+            "n": 0,
+            "rabbit": "September 11 attacks"
+        },
+        {
+            "id": "texas-governor",
+            "tier": "giveaway",
+            "t": "Governor of Texas (1995–2000) before becoming president",
+            "k": ["governor of texas", "texas", "governor"],
+            "n": 0
+        },
+        {
+            "id": "gore-2000",
+            "tier": "giveaway",
+            "t": "Defeated Al Gore in the disputed election of 2000",
+            "k": ["al gore", "gore", "2000"],
+            "n": 0,
+            "rabbit": "Election of 2000"
+        },
+        {
+            "id": "florida-recount",
+            "tier": "middle",
+            "t": "Won Florida by 537 votes after a recount; the Supreme Court case named for him and Gore stopped the recount",
+            "k": ["florida", "recount", "537", "supreme court"],
+            "n": 0
+        },
+        {
+            "id": "electoral-college",
+            "tier": "middle",
+            "t": "Lost the national popular vote in 2000 but won the Electoral College, 271 to 266",
+            "k": ["popular vote", "electoral college", "271"],
+            "n": 0,
+            "rabbit": "Electoral College"
+        },
+        {
+            "id": "homeland-security",
+            "tier": "middle",
+            "t": "The Department of Homeland Security was formed under him (2002); Tom Ridge was its first secretary",
+            "k": ["homeland security", "tom ridge", "ridge"],
+            "n": 0,
+            "rabbit": "Department of Homeland Security"
+        },
+        {
+            "id": "nclb",
+            "tier": "middle",
+            "t": "No Child Left Behind (2002) required yearly reading and math tests in grades 3 through 8",
+            "k": ["no child left behind", "reading and math", "tests"],
+            "n": 0
+        },
+        {
+            "id": "afghanistan-iraq",
+            "tier": "middle",
+            "t": "Sent troops into Afghanistan (2001) and ordered the invasion of Iraq (2003), which removed Saddam Hussein from power",
+            "k": ["afghanistan", "iraq", "saddam hussein", "saddam"],
+            "n": 0
+        },
+        {
+            "id": "wmd",
+            "tier": "middle",
+            "t": "His administration said Iraq had weapons of mass destruction; no stockpiles were found after the invasion",
+            "k": ["weapons of mass destruction", "wmd", "stockpiles"],
+            "n": 0
+        },
+        {
+            "id": "katrina",
+            "tier": "middle",
+            "t": "Hurricane Katrina (2005) flooded most of New Orleans; the federal response was widely criticized",
+            "k": ["katrina", "new orleans", "fema"],
+            "n": 0,
+            "rabbit": "Hurricane Katrina"
+        },
+        {
+            "id": "cheney-kerry",
+            "tier": "middle",
+            "t": "Vice president: Dick Cheney; won reelection in 2004 over Massachusetts senator John Kerry",
+            "k": ["dick cheney", "cheney", "john kerry", "kerry", "2004"],
+            "n": 0,
+            "rabbit": "John Kerry"
+        },
+        {
+            "id": "patriot-act",
+            "tier": "middle",
+            "t": "Signed the USA PATRIOT Act (2001), which expanded the government’s surveillance powers",
+            "k": ["patriot act", "patriot", "surveillance"],
+            "n": 0
+        },
+        {
+            "id": "sarasota",
+            "tier": "power",
+            "t": "Was reading with second graders in Sarasota, Florida, when Andrew Card whispered “America is under attack”",
+            "k": ["sarasota", "andrew card", "under attack"],
+            "n": 0
+        },
+        {
+            "id": "bullhorn",
+            "tier": "power",
+            "t": "Spoke to rescue workers at Ground Zero through a bullhorn: “I can hear you!”",
+            "k": ["bullhorn", "ground zero", "i can hear you"],
+            "n": 0
+        },
+        {
+            "id": "axis-of-evil",
+            "tier": "power",
+            "t": "Called Iran, Iraq, and North Korea an “axis of evil” in his 2002 State of the Union address",
+            "k": ["axis of evil", "north korea", "state of the union"],
+            "n": 0
+        },
+        {
+            "id": "mission-accomplished",
+            "tier": "power",
+            "t": "Spoke beneath a “Mission Accomplished” banner on the aircraft carrier USS _Abraham Lincoln_ (May 2003)",
+            "k": ["mission accomplished", "abraham lincoln", "aircraft carrier"],
+            "n": 0
+        },
+        {
+            "id": "medicare-pepfar",
+            "tier": "power",
+            "t": "Signed Medicare Part D for prescription drugs (2003) and launched PEPFAR to fight HIV/AIDS abroad (2003)",
+            "k": ["medicare", "part d", "pepfar", "hiv"],
+            "n": 0,
+            "rabbit": "Medicare"
+        },
+        {
+            "id": "tarp",
+            "tier": "power",
+            "t": "Signed TARP (2008), a $700 billion fund to steady banks during a financial crisis; Henry Paulson was his Treasury Secretary",
+            "k": ["tarp", "700 billion", "paulson", "financial crisis"],
+            "n": 0
+        },
+        {
+            "id": "court-picks",
+            "tier": "power",
+            "t": "Appointed Chief Justice John Roberts and Justice Samuel Alito; his nominee Harriet Miers withdrew",
+            "k": ["john roberts", "roberts", "alito", "miers"],
+            "n": 0,
+            "rabbit": "John Roberts"
+        },
+        {
+            "id": "rangers",
+            "tier": "power",
+            "t": "Managing general partner of baseball’s Texas Rangers (1989–1994); earlier worked in the oil business in Midland",
+            "k": ["texas rangers", "rangers", "midland", "oil"],
+            "n": 0
+        },
+        {
+            "id": "mba-guard",
+            "tier": "power",
+            "t": "First president with an MBA (Harvard, 1975); a Yale graduate who flew F-102 jets in the Texas Air National Guard",
+            "k": ["mba", "harvard", "air national guard", "yale"],
+            "n": 0
+        },
+        {
+            "id": "early-races",
+            "tier": "power",
+            "t": "Lost a 1978 race for Congress; became governor by defeating Ann Richards in 1994",
+            "k": ["1978", "ann richards", "richards", "1994"],
+            "n": 0
+        },
+        {
+            "id": "cabinet",
+            "tier": "power",
+            "t": "Secretaries of State Colin Powell (the first Black secretary of state) and Condoleezza Rice; Defense Secretary Donald Rumsfeld",
+            "k": ["colin powell", "powell", "condoleezza rice", "rumsfeld"],
+            "n": 0
+        },
+        {
+            "id": "compassionate",
+            "tier": "power",
+            "t": "Called his philosophy “compassionate conservatism”; created a White House office for faith-based charities",
+            "k": ["compassionate conservatism", "compassionate", "faith-based"],
+            "n": 0
+        },
+        {
+            "id": "after-office",
+            "tier": "power",
+            "t": "After office, painted veterans for _Portraits of Courage_, wrote the memoir _Decision Points_, and opened his presidential center at SMU in Dallas",
+            "k": ["portraits of courage", "decision points", "smu", "painted"],
+            "n": 0
+        },
+        {
+            "id": "laura-jeb",
+            "tier": "power",
+            "t": "Wife Laura, a former teacher and librarian, started the National Book Festival; brother Jeb was governor of Florida",
+            "k": ["laura", "librarian", "book festival", "jeb"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which George Bush?",
+        "body": "Two presidents named George Bush appear in quiz bowl. George H. W. Bush, the father, was the 41st president (1989–1993) and led the 1991 Gulf War against Iraq; his son George W. Bush was the 43rd president (2001–2009) and ordered the invasion of Iraq in 2003. Real answer lines prompt on just “Bush” and do not accept the wrong George, so an early buzz on an Iraq clue can go wrong. A third Bush, Jeb, was governor of Florida during the 2000 recount.",
+        "fix": "H. W. clues: Ronald Reagan’s vice president, the CIA, “Read my lips: no new taxes,” Operation Desert Storm, and the end of the Cold War. W. clues: Al Gore and the Florida recount, September 11, Dick Cheney, No Child Left Behind, Hurricane Katrina, and the 2003 Iraq War. If you hear “43rd,” “Texas governor,” or “Laura,” say “George W. Bush.”",
+        "line": "Real answer line: George <b><u>W</u></b>alker <b><u>Bush</u></b> (accept <u>Bush 43</u> or <u>Dubya</u>; prompt on <u>Bush</u> or <u>George Bush</u>; do not accept or prompt on “George H. W. Bush”)"
+    },
+    "tests": {
+        "right": [
+            "George W. Bush",
+            "George Walker Bush",
+            "Bush 43",
+            "Dubya",
+            "George W Buhs",
+            "President George W. Bush"
+        ],
+        "prompt": [
+            "Bush",
+            "George Bush"
+        ],
+        "wrong": [
+            "George H. W. Bush",
+            "Jeb Bush",
+            "Bush 41",
+            "George Bush Sr.",
+            "Dick Cheney",
+            "Al Gore",
+            "Laura Bush"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

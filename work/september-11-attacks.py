@@ -99,7 +99,7 @@ data = {
             "r": "For 10 points, name these 2001 terrorist attacks that destroyed the Twin Towers in New York City."
         },
         {
-            "p": "An official report called Khalid Sheikh Mohammed the “principal architect” of this event; he was captured in Pakistan in 2003 and held at the U.S. prison at Guantánamo [“gwahn-TAH-nuh-moh”] Bay, Cuba. His nephew, Ramzi Yousef, had planned a 1993 truck bombing of one of this event’s targets.",
+            "p": "An official report called Khalid Sheikh Mohammed the “principal architect” of this event; he was captured in Pakistan in 2003 and later held at the U.S. prison at Guantánamo [“gwahn-TAH-nuh-moh”] Bay, Cuba. His nephew, Ramzi Yousef, had planned a 1993 truck bombing of one of this event’s targets.",
             "r": "Mohamed Atta led the 19 hijackers in this event. For 10 points, name these al-Qaeda attacks on the World Trade Center and the Pentagon."
         },
         {
@@ -143,7 +143,7 @@ data = {
             "r": "For 10 points, name these 2001 attacks in which hijacked airliners hit the World Trade Center and the Pentagon."
         },
         {
-            "p": "The New York City Fire Department lost 343 firefighters in this event, including its chaplain, Father Mychal Judge, who was officially listed as its first victim. For months afterward, workers searched and cleared the site, which became known as Ground Zero.",
+            "p": "The New York City Fire Department lost 343 of its members in this event, including its chaplain, Father Mychal Judge, who was officially listed as the event’s first recorded victim. For months afterward, workers searched and cleared the site, which became known as Ground Zero.",
             "r": "For 10 points, name these 2001 attacks in which two hijacked planes destroyed the Twin Towers."
         }
     ],
@@ -186,7 +186,7 @@ data = {
         {
             "id": "victims",
             "tier": "middle",
-            "t": "Killed 2,977 people, the deadliest terrorist attack in history; 343 of them were New York City firefighters",
+            "t": "Killed 2,977 people, the deadliest terrorist attack in history; 343 were members of the New York City Fire Department",
             "k": ["2,977", "deadliest", "343", "firefighters"],
             "n": 0
         },
@@ -273,7 +273,7 @@ data = {
         {
             "id": "ksm",
             "tier": "power",
-            "t": "Khalid Sheikh Mohammed, called the plot’s “principal architect,” was captured in Pakistan in 2003 and held at Guantánamo Bay",
+            "t": "Khalid Sheikh Mohammed, called the plot’s “principal architect,” was captured in Pakistan in 2003 and later held at Guantánamo Bay",
             "k": ["khalid sheikh mohammed", "principal architect", "guantánamo"],
             "n": 0
         },

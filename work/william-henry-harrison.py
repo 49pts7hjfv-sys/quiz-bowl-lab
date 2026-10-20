@@ -1,0 +1,346 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "william-henry-harrison",
+    "name": "William Henry Harrison",
+    "mono": "WHH",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "9th U.S. President · Died one month into his term",
+    "dates": "1773–1841",
+    "briefing": "William Henry Harrison became a war hero in 1811 when his army beat warriors of Tecumseh’s confederacy at the Battle of Tippecanoe, and the nickname “Old Tippecanoe” carried him to the White House in 1840 with the slogan “Tippecanoe and Tyler Too.” At 68, he gave the longest inaugural address in U.S. history on a cold, wet day. Exactly one month later, on April 4, 1841, he became the first president to die in office.",
+    "answerHtml": "William Henry <b><u>Harrison</u></b> (prompt on <u>Harrison</u> alone; do not accept “Benjamin Harrison”)",
+    "accept": [
+        "william henry harrison",
+        "william h harrison",
+        "w h harrison",
+        "wh harrison",
+        "william harrison"
+    ],
+    "prompt": [
+        "harrison",
+        "president harrison",
+        "general harrison",
+        "old tippecanoe"
+    ],
+    "reject": [
+        "benjamin harrison",
+        "ben harrison",
+        "john scott harrison",
+        "anna harrison",
+        "tecumseh",
+        "tenskwatawa",
+        "the prophet",
+        "john tyler",
+        "tyler",
+        "martin van buren",
+        "van buren",
+        "anthony wayne",
+        "battle of tippecanoe",
+        "tippecanoe",
+        "battle of the thames",
+        "william henry seward",
+        "zachary taylor",
+        "james garfield",
+        "william mckinley",
+        "henry clay",
+        "daniel webster"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/William_Henry_Harrison",
+    "qb": {
+        "q": "William Henry Harrison",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "As the Northwest Territory’s first delegate to Congress, this man pushed through a land law in 1800 that let settlers buy smaller plots of public land on credit. He then became the first governor of the Indiana Territory, governing from Vincennes [“vin-SENZ”].",
+            "r": "He later won the Battle of Tippecanoe. For 10 points, name this ninth U.S. president, who died after one month in office."
+        },
+        {
+            "p": "As a young aide to General “Mad Anthony” Wayne, this man fought at the Battle of Fallen Timbers in 1794. The next year, he signed the Treaty of Greenville as a witness, and in that treaty several Native nations gave up most of what is now Ohio.",
+            "r": "Decades later, he ran for president with John Tyler. For 10 points, name this Whig who won the election of 1840."
+        },
+        {
+            "p": "This territorial governor built a brick mansion called Grouseland and, in the 1809 Treaty of Fort Wayne, bought nearly three million acres from several Native nations. That treaty angered a Shawnee leader who argued that no single tribe could sell land that belonged to all Native peoples.",
+            "r": "That leader was Tecumseh. For 10 points, name this governor of the Indiana Territory who later became president."
+        },
+        {
+            "p": "In November 1811, this man’s camp was attacked before dawn near Prophetstown by warriors following Tenskwatawa [“ten-SKWAH-tuh-wah”], who was called “the Prophet.” This man’s troops held their ground and then burned the town while Tenskwatawa’s brother was away recruiting allies in the South.",
+            "r": "That 1811 battle gave this man the nickname “Old Tippecanoe.” For 10 points, name this ninth president."
+        },
+        {
+            "p": "After Oliver Hazard Perry’s victory on Lake Erie, this general retook Detroit and chased the retreating British into Canada. In October 1813, his army won the Battle of the Thames [“TEMZ”], where the Shawnee leader Tecumseh was killed.",
+            "r": "For 10 points, name this War of 1812 general who later became the ninth U.S. president."
+        },
+        {
+            "p": "In 1836, this man was one of several regional candidates the new Whig Party ran against Martin Van Buren, along with Hugh Lawson White and Daniel Webster. He won more electoral votes than any other Whig that year, and four years later the Whigs nominated him alone.",
+            "r": "For 10 points, name this man who beat Van Buren in 1840 and died a month after taking office."
+        },
+        {
+            "p": "After a Democratic newspaper sneered that this candidate would be happy in a log cabin with a barrel of hard cider, his supporters made log cabins and cider the symbols of his campaign, though he had been born on a Virginia plantation. They mocked his opponent with the chant “Van, Van, is a used-up man.”",
+            "r": "His running mate was John Tyler. For 10 points, name this Whig who won the 1840 presidential election."
+        },
+        {
+            "p": "Supporters of this candidate rolled huge balls covered with campaign slogans from town to town, which may have helped popularize the phrase “keep the ball rolling.” His campaign was one of the first to win votes with songs, parades, and souvenirs while avoiding clear positions on the issues.",
+            "r": "Its most famous slogan was “Tippecanoe and Tyler Too.” For 10 points, name this winner of the 1840 election."
+        },
+        {
+            "p": "Daniel Webster edited this president’s inaugural address and joked that he had cut out references to Roman officials. Even so, this president, then 68, spoke for nearly two hours outdoors on a cold, wet day without wearing an overcoat or hat.",
+            "r": "It was the longest inaugural address in U.S. history. For 10 points, name this ninth president."
+        },
+        {
+            "p": "This president’s death was long blamed on pneumonia, though some researchers have suggested a different illness, possibly caught from Washington’s polluted water supply, was the real cause. His vice president then insisted on being treated as a full president rather than an acting one.",
+            "r": "That vice president was John Tyler. For 10 points, name this first president to die in office, just one month after his inauguration."
+        },
+        {
+            "p": "This man’s father, Benjamin, signed the Declaration of Independence, and his son John Scott became the only American whose father and son were both presidents. This man was born in 1773 at Berkeley Plantation in Virginia.",
+            "r": "His grandson became the 23rd president. For 10 points, name this ninth president, nicknamed “Old Tippecanoe.”"
+        },
+        {
+            "p": "This man briefly studied medicine in Philadelphia under Benjamin Rush before leaving to join the army in 1791. Born before the Declaration of Independence, he was the last U.S. president born as a British subject.",
+            "r": "For 10 points, name this Whig president who served from March 4 to April 4, 1841."
+        },
+        {
+            "p": "As U.S. minister to Gran Colombia in 1829, this man wrote Simón Bolívar a letter warning him not to become a dictator; John Quincy Adams had given him that post the year before. He had earlier represented Ohio in both houses of Congress.",
+            "r": "For 10 points, name this man, the ninth U.S. president, whose term lasted only one month."
+        },
+        {
+            "p": "This man named Daniel Webster his secretary of state and called Congress into a special session that did not meet until after his death. At 68, he was the oldest man to become president until Ronald Reagan in 1981.",
+            "r": "For 10 points, name this Whig president who died in April 1841 and was followed by John Tyler."
+        },
+        {
+            "p": "Voters angry about the Panic of 1837 helped this candidate win 234 electoral votes to his opponent’s 60. In that election, the Whig Party won the presidency for the first time, and a far larger share of eligible voters turned out than in any earlier presidential race.",
+            "r": "He and running mate John Tyler defeated Martin Van Buren. For 10 points, name this winner of the election of 1840."
+        }
+    ],
+    "clues": [
+        {
+            "id": "ninth-president",
+            "tier": "giveaway",
+            "t": "9th President of the United States (March 4–April 4, 1841), a Whig",
+            "k": ["9th president", "ninth", "whig", "1841"],
+            "n": 0
+        },
+        {
+            "id": "one-month",
+            "tier": "giveaway",
+            "t": "Died one month after taking office (April 4, 1841), the first president to die in office",
+            "k": ["one month", "april 4", "die in office", "first president"],
+            "n": 0
+        },
+        {
+            "id": "tippecanoe-and-tyler",
+            "tier": "giveaway",
+            "t": "Won the election of 1840 with the slogan “Tippecanoe and Tyler Too”",
+            "k": ["tippecanoe and tyler too", "1840", "slogan"],
+            "n": 0
+        },
+        {
+            "id": "old-tippecanoe",
+            "tier": "giveaway",
+            "t": "Nicknamed “Old Tippecanoe” for winning the Battle of Tippecanoe (1811)",
+            "k": ["old tippecanoe", "battle of tippecanoe", "1811"],
+            "n": 0
+        },
+        {
+            "id": "tyler",
+            "tier": "middle",
+            "t": "Vice President John Tyler took over, the first vice president to become president when a president died",
+            "k": ["john tyler", "tyler", "vice president"],
+            "n": 0,
+            "rabbit": "John Tyler"
+        },
+        {
+            "id": "longest-speech",
+            "tier": "middle",
+            "t": "Gave the longest inaugural address in U.S. history (nearly two hours) on a cold, wet day",
+            "k": ["longest inaugural address", "inaugural address", "two hours"],
+            "n": 0
+        },
+        {
+            "id": "thames",
+            "tier": "middle",
+            "t": "Won the Battle of the Thames (1813) in the War of 1812; Tecumseh was killed there",
+            "k": ["battle of the thames", "thames", "tecumseh", "1813"],
+            "n": 0,
+            "rabbit": "Tecumseh"
+        },
+        {
+            "id": "log-cabin",
+            "tier": "middle",
+            "t": "His 1840 “log cabin and hard cider” campaign used songs, parades, and souvenirs",
+            "k": ["log cabin", "hard cider"],
+            "n": 0
+        },
+        {
+            "id": "grandson",
+            "tier": "middle",
+            "t": "His grandson became the 23rd president, the only grandfather–grandson pair of presidents",
+            "k": ["grandson", "23rd president"],
+            "n": 0
+        },
+        {
+            "id": "indiana-territory",
+            "tier": "middle",
+            "t": "First governor of the Indiana Territory (1800–1812), governing from Vincennes",
+            "k": ["indiana territory", "vincennes", "governor"],
+            "n": 0
+        },
+        {
+            "id": "pneumonia",
+            "tier": "middle",
+            "t": "His death was long blamed on pneumonia; some researchers suggest a different illness, possibly from polluted water",
+            "k": ["pneumonia", "polluted water", "illness"],
+            "n": 0
+        },
+        {
+            "id": "van-buren",
+            "tier": "middle",
+            "t": "Defeated Martin Van Buren in 1840 after the Panic of 1837",
+            "k": ["martin van buren", "van buren", "panic of 1837"],
+            "n": 0,
+            "rabbit": "Martin Van Buren"
+        },
+        {
+            "id": "land-act",
+            "tier": "power",
+            "t": "As the Northwest Territory’s first delegate to Congress, pushed the Land Act of 1800, letting settlers buy smaller plots on credit",
+            "k": ["northwest territory", "land act", "credit", "1800"],
+            "n": 0
+        },
+        {
+            "id": "fallen-timbers",
+            "tier": "power",
+            "t": "Aide to “Mad Anthony” Wayne at Fallen Timbers (1794); signed the Treaty of Greenville (1795) as a witness",
+            "k": ["fallen timbers", "greenville", "mad anthony"],
+            "n": 0
+        },
+        {
+            "id": "fort-wayne",
+            "tier": "power",
+            "t": "Treaty of Fort Wayne (1809): bought nearly 3 million acres, angering Tecumseh; built the mansion Grouseland",
+            "k": ["fort wayne", "grouseland", "1809"],
+            "n": 0
+        },
+        {
+            "id": "prophetstown",
+            "tier": "power",
+            "t": "At Tippecanoe, beat warriors following Tenskwatawa (“the Prophet”) and burned Prophetstown",
+            "k": ["prophetstown", "tenskwatawa", "the prophet"],
+            "n": 0
+        },
+        {
+            "id": "detroit",
+            "tier": "power",
+            "t": "Retook Detroit after Oliver Hazard Perry’s victory on Lake Erie (1813)",
+            "k": ["detroit", "perry", "lake erie"],
+            "n": 0
+        },
+        {
+            "id": "whigs-1836",
+            "tier": "power",
+            "t": "One of several regional Whig candidates in 1836, with Hugh Lawson White and Daniel Webster",
+            "k": ["1836", "hugh lawson white", "regional"],
+            "n": 0
+        },
+        {
+            "id": "used-up",
+            "tier": "power",
+            "t": "Whig chant: “Van, Van, is a used-up man”; giant rolling balls helped popularize “keep the ball rolling”",
+            "k": ["used-up man", "keep the ball rolling", "rolling"],
+            "n": 0
+        },
+        {
+            "id": "webster-edit",
+            "tier": "power",
+            "t": "Daniel Webster edited his inaugural address and joked about cutting out Roman officials",
+            "k": ["daniel webster", "webster", "roman"],
+            "n": 0
+        },
+        {
+            "id": "tyler-precedent",
+            "tier": "power",
+            "t": "John Tyler insisted on being a full president, not an acting one (the “Tyler precedent”)",
+            "k": ["tyler precedent", "full president", "acting"],
+            "n": 0
+        },
+        {
+            "id": "berkeley",
+            "tier": "power",
+            "t": "Born at Berkeley Plantation, Virginia (1773); father Benjamin signed the Declaration; son John Scott was the only American whose father and son were presidents",
+            "k": ["berkeley plantation", "berkeley", "john scott", "1773"],
+            "n": 0
+        },
+        {
+            "id": "benjamin-rush",
+            "tier": "power",
+            "t": "Studied medicine under Benjamin Rush; the last president born a British subject",
+            "k": ["benjamin rush", "medicine", "british subject"],
+            "n": 0
+        },
+        {
+            "id": "bolivar",
+            "tier": "power",
+            "t": "As U.S. minister to Gran Colombia (1829), warned Simón Bolívar not to become a dictator",
+            "k": ["simón bolívar", "bolívar", "bolivar", "gran colombia", "dictator"],
+            "n": 0
+        },
+        {
+            "id": "oldest",
+            "tier": "power",
+            "t": "Oldest president at his inauguration (68) until Ronald Reagan; named Daniel Webster secretary of state",
+            "k": ["oldest", "68", "ronald reagan"],
+            "n": 0
+        },
+        {
+            "id": "electoral-votes",
+            "tier": "power",
+            "t": "Won 234 electoral votes to 60, the Whig Party’s first presidential win, with record voter turnout",
+            "k": ["234", "turnout", "whig party"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Harrison?",
+        "body": "Two presidents named Harrison show up in quiz bowl. William Henry Harrison was the 9th president, the hero of Tippecanoe who died one month into his term in 1841. His grandson Benjamin Harrison was the 23rd president (1889–1893), who served between Grover Cleveland’s two terms. Saying only “Harrison” earns a prompt, and naming the wrong one loses the tossup.",
+        "fix": "Tippecanoe, Tecumseh, the War of 1812, log cabins and hard cider, John Tyler, and the record-long inaugural speech all mean William Henry Harrison. The Sherman Antitrust Act, the McKinley Tariff, and the “Billion-Dollar Congress” mean Benjamin. Don’t blurt out “Tecumseh” or “John Tyler” just because a tossup names his enemy or his running mate.",
+        "line": "Real answer line: William Henry <b><u>Harrison</u></b> (prompt on <u>Harrison</u>; do not accept or prompt on “Benjamin Harrison”)"
+    },
+    "tests": {
+        "right": [
+            "William Henry Harrison",
+            "William H. Harrison",
+            "William Harrison",
+            "Wiliam Henry Harrison",
+            "President William Henry Harrison"
+        ],
+        "prompt": [
+            "Harrison",
+            "Old Tippecanoe"
+        ],
+        "wrong": [
+            "Benjamin Harrison",
+            "Tecumseh",
+            "John Tyler",
+            "Martin Van Buren",
+            "William Henry Seward",
+            "Zachary Taylor"
+        ]
+    }
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", out)

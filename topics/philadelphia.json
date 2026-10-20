@@ -1,0 +1,454 @@
+{
+  "id": "philadelphia",
+  "name": "Philadelphia",
+  "mono": "PHI",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "William Penn’s Quaker city · Where the Declaration and Constitution were signed",
+  "dates": "Founded 1682",
+  "briefing": "William Penn, a Quaker, founded Philadelphia in 1682 and gave it a Greek name meaning “brotherly love.” By the 1770s it was the largest city in the colonies, and its State House, later renamed Independence Hall, saw the signing of both the Declaration of Independence and the Constitution. It served as the nation’s capital from 1790 to 1800 and is home to the cracked Liberty Bell.",
+  "answerHtml": "<b><u>Philadelphia</u></b> (do not accept “Pennsylvania”)",
+  "accept": [
+    "philadelphia",
+    "philly",
+    "philadelphia pennsylvania",
+    "philadelphia pa",
+    "city of philadelphia"
+  ],
+  "prompt": [
+    "city of brotherly love",
+    "the city of brotherly love",
+    "brotherly love"
+  ],
+  "reject": [
+    "pennsylvania",
+    "pittsburgh",
+    "harrisburg",
+    "lancaster",
+    "york",
+    "germantown",
+    "valley forge",
+    "brandywine",
+    "chester",
+    "camden",
+    "trenton",
+    "new york city",
+    "new york",
+    "boston",
+    "baltimore",
+    "washington dc",
+    "washington d c",
+    "independence hall",
+    "liberty bell",
+    "constitutional convention",
+    "philadelphia convention",
+    "continental congress",
+    "philadelphia chromosome",
+    "philadelphia phillies",
+    "philadelphia eagles",
+    "new philadelphia"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Philadelphia",
+  "qb": {
+    "q": "Philadelphia",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Surveyor Thomas Holme helped plan this city on a grid of straight streets between the Delaware and Schuylkill [“SKOO-kul”] rivers, with five public squares, one at its center and one in each quarter. Its City Hall was later built on the central square.",
+      "r": "Its Quaker founder, William Penn, gave it a name meaning “brotherly love.” For 10 points, name this largest city in Pennsylvania."
+    },
+    {
+      "p": "In 1796, Ona Judge escaped from slavery at the President’s House in this city, where George Washington lived while he was president. Washington and John Adams both lived in this city because it served as the national capital from 1790 to 1800.",
+      "r": "For 10 points, name this city where the Constitution was written, the largest city in Pennsylvania."
+    },
+    {
+      "p": "On July 8, 1776, Colonel John Nixon read a document that had just been approved by Congress to a crowd in the yard behind this city’s State House. Eleven years later, delegates met inside that State House to write a new plan of government.",
+      "r": "That building is Independence Hall. For 10 points, name this city where the Declaration of Independence was signed."
+    },
+    {
+      "p": "Abolitionist William Still recorded the stories of hundreds of freedom seekers who passed through this city on the Underground Railroad, including groups guided by Harriet Tubman. Earlier, the first antislavery society in America was founded in this city in 1775.",
+      "r": "Its Quaker founder was William Penn. For 10 points, name this Pennsylvania city where the Liberty Bell is displayed."
+    },
+    {
+      "p": "Richard Allen founded Mother Bethel Church in this city, and in 1816 he became the first bishop of the African Methodist Episcopal Church, which was organized there. Years earlier, Allen and Absalom Jones had started the Free African Society in this city.",
+      "r": "For 10 points, name this city where the Second Continental Congress met, the largest city in Pennsylvania."
+    },
+    {
+      "p": "Al Capone was once held at this city’s Eastern State Penitentiary, a prison built in 1829 that kept inmates alone in their cells so they would reflect on their crimes. ENIAC, one of the first electronic computers, was unveiled at a university in this city in 1946.",
+      "r": "This city is also home to the Liberty Bell. For 10 points, name this city where the Declaration of Independence was signed."
+    },
+    {
+      "p": "After the British left this city in 1778, Benedict Arnold became its military commander and married Peggy Shippen, a young woman from a wealthy family there. The British had captured this city in 1777, forcing Congress to flee west to Lancaster and then York.",
+      "r": "While the British held it, Washington’s army camped at nearby Valley Forge. For 10 points, name this city, the U.S. capital during most of the 1790s."
+    },
+    {
+      "p": "During a yellow fever epidemic in 1793, Dr. Benjamin Rush treated patients in this city by bloodletting, and Richard Allen and Absalom Jones organized Black volunteers to nurse the sick. That epidemic killed thousands of people and drove the federal government out of this city for a time.",
+      "r": "It was the U.S. capital at the time. For 10 points, name this Pennsylvania city where Benjamin Franklin lived."
+    },
+    {
+      "p": "Alexander Graham Bell showed off his new telephone at this city’s Centennial Exposition of 1876, where visitors could also see the torch-holding arm of the Statue of Liberty. That world’s fair was held in this city’s huge Fairmount Park.",
+      "r": "It marked 100 years since the Declaration of Independence was signed here. For 10 points, name this Pennsylvania city."
+    },
+    {
+      "p": "This city’s Library Company, founded in 1731, and its Union Fire Company, founded in 1736, were both started by a printer who had arrived there as a 17-year-old runaway from Boston. That printer is buried in this city’s Christ Church Burial Ground.",
+      "r": "That printer was Benjamin Franklin. For 10 points, name this city where Franklin signed both the Declaration of Independence and the Constitution."
+    },
+    {
+      "p": "For most of the 1900s, an unwritten agreement kept every building in this city lower than the hat on the statue of its founder atop City Hall. One Liberty Place finally broke that rule when it was finished in 1987.",
+      "r": "That founder, William Penn, was a Quaker. For 10 points, name this largest city in Pennsylvania."
+    },
+    {
+      "p": "Abolitionists gave a famous object in this city its nickname, inspired by its inscription from the Book of Leviticus: “Proclaim LIBERTY throughout all the Land unto all the Inhabitants thereof.” That bell cracked soon after it arrived, was recast, and later cracked again.",
+      "r": "It is displayed near Independence Hall. For 10 points, name this city, home of the Liberty Bell."
+    },
+    {
+      "p": "Delegates from twelve colonies met at this city’s Carpenters’ Hall in 1774, partly in response to the Intolerable Acts. Years later, the First Bank of the United States, which Alexander Hamilton had proposed, was built nearby.",
+      "r": "For 10 points, name this city where the First Continental Congress met, the U.S. capital from 1790 to 1800."
+    },
+    {
+      "p": "George Washington’s Farewell Address first appeared in 1796 in a newspaper published in this city, where Washington lived as president. In a famous movie scene, the boxer Rocky Balboa trains by running up the steps of this city’s art museum.",
+      "r": "For 10 points, name this Pennsylvania city, home of the Liberty Bell and Independence Hall."
+    },
+    {
+      "p": "David Rittenhouse, an astronomer who became the first director of the U.S. Mint, has one of this city’s original public squares named for him. The Mint opened in this city in 1792, while it was the nation’s capital.",
+      "r": "Legend says Betsy Ross sewed the first American flag here. For 10 points, name this city founded by William Penn."
+    }
+  ],
+  "clues": [
+    {
+      "id": "william-penn",
+      "tier": "giveaway",
+      "t": "Founded in 1682 by the Quaker William Penn as the capital of his colony of Pennsylvania",
+      "k": [
+        "william penn",
+        "quaker",
+        "1682"
+      ],
+      "n": 0,
+      "rabbit": "Pennsylvania"
+    },
+    {
+      "id": "brotherly-love",
+      "tier": "giveaway",
+      "t": "Its name comes from Greek words meaning “brotherly love”",
+      "k": [
+        "brotherly love",
+        "greek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "independence-hall",
+      "tier": "giveaway",
+      "t": "The Declaration of Independence (1776) and the Constitution (1787) were both signed at its Independence Hall",
+      "k": [
+        "independence hall",
+        "declaration of independence",
+        "constitution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "liberty-bell",
+      "tier": "giveaway",
+      "t": "Home of the cracked Liberty Bell",
+      "k": [
+        "liberty bell",
+        "cracked"
+      ],
+      "n": 0
+    },
+    {
+      "id": "capital",
+      "tier": "giveaway",
+      "t": "U.S. capital from 1790 to 1800, before the government moved to Washington, D.C.",
+      "k": [
+        "capital",
+        "1790",
+        "1800"
+      ],
+      "n": 0,
+      "rabbit": "Washington, D.C."
+    },
+    {
+      "id": "continental-congress",
+      "tier": "middle",
+      "t": "The First Continental Congress met at its Carpenters’ Hall (1774); the Second met at its State House",
+      "k": [
+        "carpenters’ hall",
+        "continental congress",
+        "state house"
+      ],
+      "n": 0
+    },
+    {
+      "id": "franklin",
+      "tier": "middle",
+      "t": "Benjamin Franklin’s adopted home: he ran away there from Boston at 17 and is buried there",
+      "k": [
+        "benjamin franklin",
+        "franklin",
+        "boston"
+      ],
+      "n": 0,
+      "rabbit": "Benjamin Franklin"
+    },
+    {
+      "id": "betsy-ross",
+      "tier": "middle",
+      "t": "Legend says Betsy Ross sewed the first American flag in her house there",
+      "k": [
+        "betsy ross",
+        "flag",
+        "legend"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rivers",
+      "tier": "middle",
+      "t": "Lies where the Schuylkill River meets the Delaware River",
+      "k": [
+        "schuylkill",
+        "delaware river"
+      ],
+      "n": 0
+    },
+    {
+      "id": "british-1777",
+      "tier": "middle",
+      "t": "The British captured it in 1777 after the Battle of Brandywine; Washington lost at Germantown and then camped at nearby Valley Forge",
+      "k": [
+        "brandywine",
+        "valley forge",
+        "germantown",
+        "1777"
+      ],
+      "n": 0
+    },
+    {
+      "id": "centennial",
+      "tier": "middle",
+      "t": "Hosted the 1876 Centennial Exposition, where Alexander Graham Bell showed off the telephone",
+      "k": [
+        "centennial exposition",
+        "centennial",
+        "1876",
+        "telephone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yellow-fever",
+      "tier": "middle",
+      "t": "A yellow fever epidemic in 1793 killed thousands and drove the federal government out for a time",
+      "k": [
+        "yellow fever",
+        "1793",
+        "epidemic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rocky",
+      "tier": "middle",
+      "t": "In the movie _Rocky_ (1976), the boxer Rocky Balboa runs up the steps of its art museum",
+      "k": [
+        "rocky balboa",
+        "steps",
+        "art museum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holme",
+      "tier": "power",
+      "t": "Surveyor Thomas Holme helped lay it out on a grid with five public squares; City Hall stands on the central one",
+      "k": [
+        "thomas holme",
+        "holme",
+        "five public squares",
+        "grid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nixon-reading",
+      "tier": "power",
+      "t": "Colonel John Nixon read the Declaration aloud to a crowd in the State House Yard on July 8, 1776",
+      "k": [
+        "john nixon",
+        "july 8",
+        "state house yard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ona-judge",
+      "tier": "power",
+      "t": "Ona Judge escaped from slavery at the President’s House there in 1796, while George Washington lived there",
+      "k": [
+        "ona judge",
+        "president’s house",
+        "1796"
+      ],
+      "n": 0
+    },
+    {
+      "id": "richard-allen",
+      "tier": "power",
+      "t": "Richard Allen founded Mother Bethel Church; the African Methodist Episcopal (AME) Church was organized there in 1816",
+      "k": [
+        "richard allen",
+        "mother bethel",
+        "african methodist episcopal",
+        "1816"
+      ],
+      "n": 0
+    },
+    {
+      "id": "william-still",
+      "tier": "power",
+      "t": "William Still recorded the stories of hundreds of freedom seekers passing through on the Underground Railroad",
+      "k": [
+        "william still",
+        "underground railroad",
+        "freedom seekers"
+      ],
+      "n": 0,
+      "rabbit": "Underground Railroad"
+    },
+    {
+      "id": "abolition-society",
+      "tier": "power",
+      "t": "The first American antislavery society was founded there in 1775; Benjamin Franklin later became its president",
+      "k": [
+        "antislavery society",
+        "1775"
+      ],
+      "n": 0
+    },
+    {
+      "id": "benedict-arnold",
+      "tier": "power",
+      "t": "Benedict Arnold was its military commander in 1778 and married Peggy Shippen there",
+      "k": [
+        "benedict arnold",
+        "peggy shippen",
+        "1778"
+      ],
+      "n": 0,
+      "rabbit": "Benedict Arnold"
+    },
+    {
+      "id": "eastern-state",
+      "tier": "power",
+      "t": "Eastern State Penitentiary (1829) kept prisoners alone in their cells; Al Capone was once held there",
+      "k": [
+        "eastern state",
+        "penitentiary",
+        "al capone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eniac",
+      "tier": "power",
+      "t": "ENIAC, one of the first electronic computers, was unveiled at the University of Pennsylvania there in 1946",
+      "k": [
+        "eniac",
+        "university of pennsylvania",
+        "1946"
+      ],
+      "n": 0
+    },
+    {
+      "id": "library-company",
+      "tier": "power",
+      "t": "Franklin founded its Library Company (1731) and Union Fire Company (1736) and is buried in its Christ Church Burial Ground",
+      "k": [
+        "library company",
+        "union fire company",
+        "christ church"
+      ],
+      "n": 0
+    },
+    {
+      "id": "city-hall",
+      "tier": "power",
+      "t": "By an unwritten agreement, no building rose above the William Penn statue on City Hall until One Liberty Place (1987)",
+      "k": [
+        "city hall",
+        "one liberty place",
+        "statue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leviticus",
+      "tier": "power",
+      "t": "The Liberty Bell’s inscription comes from the Book of Leviticus; abolitionists gave the bell its name",
+      "k": [
+        "leviticus",
+        "abolitionists",
+        "inscription"
+      ],
+      "n": 0
+    },
+    {
+      "id": "farewell-address",
+      "tier": "power",
+      "t": "George Washington’s Farewell Address first appeared in one of its newspapers (1796)",
+      "k": [
+        "farewell address",
+        "newspapers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rittenhouse",
+      "tier": "power",
+      "t": "The U.S. Mint opened there in 1792; its first director, the astronomer David Rittenhouse, is honored by Rittenhouse Square",
+      "k": [
+        "rittenhouse",
+        "mint",
+        "1792"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "City, not state",
+    "body": "Philadelphia and Pennsylvania were both founded by William Penn, so clues about Penn, the Quakers, and the “Holy Experiment” can point to either answer line. If a question asks for “this city,” answering “Pennsylvania” is wrong, and if it asks for “this colony” or “this state,” Philadelphia is wrong. Nearby places such as Valley Forge and Brandywine have their own answers, too.",
+    "fix": "Listen for the noun. “This city” with Independence Hall, the Liberty Bell, the Continental Congress, or the 1790s capital means Philadelphia. “This colony” or “this state” with Harrisburg, Pittsburgh, Gettysburg, or the Walking Purchase means Pennsylvania.",
+    "line": "Real answer line: <b><u>Philadelphia</u></b> (do not accept “Pennsylvania”)"
+  },
+  "tests": {
+    "right": [
+      "Philadelphia",
+      "Philly",
+      "Philadelphia, Pennsylvania",
+      "Philadelpha",
+      "Phildelphia"
+    ],
+    "prompt": [
+      "City of Brotherly Love"
+    ],
+    "wrong": [
+      "Pennsylvania",
+      "Pittsburgh",
+      "Boston",
+      "Valley Forge",
+      "Harrisburg",
+      "New York City"
+    ]
+  }
+}
