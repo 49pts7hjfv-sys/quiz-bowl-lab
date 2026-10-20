@@ -1,0 +1,387 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "apollo-program",
+    "name": "Apollo Program",
+    "mono": "AP",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "NASA’s Moon-landing program, 1961–1972 · Twelve astronauts walked on the Moon",
+    "dates": "1961–1972",
+    "briefing": "In 1961, President John F. Kennedy challenged the United States to land a man on the Moon before the decade was out, and NASA’s Apollo program met that goal on July 20, 1969, when Neil Armstrong and Buzz Aldrin stepped onto the lunar surface. Giant Saturn V rockets sent nine crews to the Moon between 1968 and 1972; six of them landed, and twelve astronauts walked on it. Apollo 13 never landed, but its crew survived an explosion and made it home safely.",
+    "answerHtml": "<b><u>Apollo program</u></b> (or Project <b><u>Apollo</u></b>; accept <u>Apollo missions</u>; prompt on <u>Apollo</u> alone or on a specific mission such as <u>Apollo 11</u>)",
+    "accept": [
+        "apollo program",
+        "the apollo program",
+        "apollo programme",
+        "project apollo",
+        "apollo project",
+        "the apollo project",
+        "apollo missions",
+        "the apollo missions",
+        "apollo moon missions",
+        "apollo moon landings",
+        "apollo space program",
+        "apollo lunar program",
+        "apollo moon program",
+        "nasa apollo program"
+    ],
+    "prompt": [
+        "apollo",
+        "apollo 1",
+        "apollo 7",
+        "apollo 8",
+        "apollo 9",
+        "apollo 10",
+        "apollo 11",
+        "apollo 12",
+        "apollo 13",
+        "apollo 14",
+        "apollo 15",
+        "apollo 16",
+        "apollo 17",
+        "apollo eleven",
+        "apollo thirteen",
+        "apollo mission",
+        "an apollo mission",
+        "nasa",
+        "space race",
+        "moon landing",
+        "moon landings",
+        "the moon landing"
+    ],
+    "reject": [
+        "gemini",
+        "project gemini",
+        "gemini program",
+        "mercury",
+        "project mercury",
+        "mercury program",
+        "artemis",
+        "artemis program",
+        "space shuttle",
+        "skylab",
+        "apollo soyuz",
+        "apollo soyuz test project",
+        "saturn v",
+        "saturn 5",
+        "sputnik",
+        "vostok",
+        "luna",
+        "luna program",
+        "manhattan project",
+        "voyager",
+        "hubble",
+        "international space station"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Apollo_program",
+    "qb": {
+        "q": "Apollo program",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "NASA official Abe Silverstein named this program in 1960 after a Greek god whom he pictured riding a chariot across the sun. This program’s astronauts rode to space on the Saturn V, the tallest and most powerful rocket of its time.",
+            "r": "For 10 points, name this NASA program that landed astronauts on the Moon between 1969 and 1972."
+        },
+        {
+            "p": "Gus Grissom, Ed White, and Roger Chaffee died when a fire broke out inside their spacecraft during a launch-pad test in January 1967, early in this program. Afterward, NASA redesigned the spacecraft so that its hatch could be opened quickly.",
+            "r": "For 10 points, name this program whose astronauts Neil Armstrong and Buzz Aldrin became the first people to walk on the Moon."
+        },
+        {
+            "p": "On Christmas Eve 1968, Frank Borman, Jim Lovell, and Bill Anders read from the Book of Genesis while orbiting the Moon on a mission of this program, the first crewed flight to travel around the Moon.",
+            "r": "Anders took the photo _Earthrise_ on that flight. For 10 points, name this NASA program that later landed astronauts on the Moon."
+        },
+        {
+            "p": "During a dress rehearsal for a Moon landing in May 1969, two astronauts in this program flew a lunar module nicknamed _Snoopy_ to within about nine miles of the Moon’s surface while the command module, _Charlie Brown_, waited above.",
+            "r": "For 10 points, name this NASA program whose next mission landed the first people on the Moon two months later."
+        },
+        {
+            "p": "Margaret Hamilton led a team at MIT that wrote the onboard flight software for this program’s spacecraft. During one landing, that software kept working through a series of “1202” computer alarms.",
+            "r": "That landing was Neil Armstrong and Buzz Aldrin’s in 1969. For 10 points, name this NASA program that put astronauts on the Moon."
+        },
+        {
+            "p": "After an oxygen tank exploded, the crew of one mission in this program used their lunar module, _Aquarius_, as a lifeboat, and they used tape, plastic bags, and cardboard to make square air filters fit a round opening.",
+            "r": "Jack Swigert had reported, “Houston, we’ve had a problem.” For 10 points, name this NASA program whose 13th mission returned safely without landing on the Moon."
+        },
+        {
+            "p": "Alan Shepard hit two golf balls on the Moon during this program, and his crewmate Stuart Roosa carried tree seeds into lunar orbit that were later planted across the United States as “Moon trees.”",
+            "r": "For 10 points, name this NASA program of the Space Race, in which twelve astronauts walked on the Moon."
+        },
+        {
+            "p": "On the first mission of this program to bring a Lunar Roving Vehicle, David Scott dropped a hammer and a falcon feather at the same moment to show that, without air, they would hit the ground together.",
+            "r": "For 10 points, name this NASA program whose missions included the first crewed Moon landing in 1969."
+        },
+        {
+            "p": "Geologist Harrison Schmitt became the only professional scientist to walk on the Moon during this program’s final mission, whose crew also took the famous “Blue Marble” photo of the whole Earth.",
+            "r": "His crewmate Gene Cernan was the last astronaut of this program to leave the Moon, in December 1972. For 10 points, name this NASA program."
+        },
+        {
+            "p": "At Rice University in 1962, a president declared, “We choose to go to the Moon in this decade… not because they are easy, but because they are hard.” In a 1963 speech to the United Nations, that president even suggested a joint Moon mission with the Soviet Union.",
+            "r": "That president was John F. Kennedy, who had set the goal of a Moon landing “before this decade is out.” For 10 points, name this NASA program."
+        },
+        {
+            "p": "Wernher von Braun’s team at the Marshall Space Flight Center in Huntsville, Alabama, designed the three-stage rocket used by this program, whose first stage alone had five F-1 engines. That rocket stood about 363 feet tall.",
+            "r": "That rocket was the Saturn V. For 10 points, name this NASA program that sent astronauts to the Moon."
+        },
+        {
+            "p": "John Houbolt argued that this program should use lunar orbit rendezvous, in which a small lander would leave the main spacecraft in orbit around the Moon and later rejoin it. The company Grumman built that lander.",
+            "r": "For 10 points, name this NASA program, which followed Projects Mercury and Gemini and reached the Moon in 1969."
+        },
+        {
+            "p": "The aircraft carrier USS _Hornet_ picked up one crew of this program after splashdown, and President Richard Nixon greeted the astronauts aboard the ship. They then spent weeks in quarantine in case they had carried germs back from the Moon.",
+            "r": "That crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. For 10 points, name this NASA program."
+        },
+        {
+            "p": "Lightning struck the rocket twice just after the launch of this program’s second Moon-landing mission, whose crew then landed near the robotic probe Surveyor 3 and brought parts of it back to Earth.",
+            "r": "For 10 points, name this NASA program whose first landing, in July 1969, put Neil Armstrong on the Moon."
+        },
+        {
+            "p": "Scientists bounce lasers off mirrors that astronauts of this program left on the Moon in order to measure the distance between Earth and the Moon. Katherine Johnson helped calculate the flight path for this program’s first landing.",
+            "r": "For 10 points, name this NASA program in which Neil Armstrong said, “That’s one small step for man, one giant leap for mankind.”"
+        }
+    ],
+    "clues": [
+        {
+            "id": "moon-landings",
+            "tier": "giveaway",
+            "t": "NASA program that landed astronauts on the Moon six times (1969–1972)",
+            "k": ["nasa", "moon", "six times", "1969"],
+            "n": 0
+        },
+        {
+            "id": "first-landing",
+            "tier": "giveaway",
+            "t": "First landing: Neil Armstrong and Buzz Aldrin walked on the Moon on July 20, 1969",
+            "k": ["neil armstrong", "armstrong", "buzz aldrin", "july 20"],
+            "n": 0
+        },
+        {
+            "id": "kennedy-goal",
+            "tier": "giveaway",
+            "t": "Met John F. Kennedy’s goal (1961) of landing a man on the Moon “before this decade is out”",
+            "k": ["kennedy", "before this decade", "1961"],
+            "n": 0,
+            "rabbit": "John F. Kennedy"
+        },
+        {
+            "id": "small-step",
+            "tier": "giveaway",
+            "t": "Armstrong: “That’s one small step for man, one giant leap for mankind”",
+            "k": ["small step", "giant leap"],
+            "n": 0
+        },
+        {
+            "id": "space-race",
+            "tier": "giveaway",
+            "t": "The American side of the Space Race with the Soviet Union",
+            "k": ["space race", "soviet union"],
+            "n": 0
+        },
+        {
+            "id": "saturn-v",
+            "tier": "middle",
+            "t": "Launched on the Saturn V rocket, designed by Wernher von Braun’s team",
+            "k": ["saturn v", "von braun"],
+            "n": 0
+        },
+        {
+            "id": "mission-13",
+            "tier": "middle",
+            "t": "Mission 13 (1970): an oxygen tank exploded (“Houston, we’ve had a problem”), and the crew returned safely",
+            "k": ["oxygen tank", "houston", "problem", "1970"],
+            "n": 0
+        },
+        {
+            "id": "fire-1967",
+            "tier": "middle",
+            "t": "A 1967 fire during a launch-pad test killed astronauts Gus Grissom, Ed White, and Roger Chaffee",
+            "k": ["fire", "grissom", "1967"],
+            "n": 0
+        },
+        {
+            "id": "mission-8",
+            "tier": "middle",
+            "t": "Mission 8 (December 1968) was the first crewed flight around the Moon; Bill Anders took _Earthrise_",
+            "k": ["earthrise", "bill anders", "1968"],
+            "n": 0
+        },
+        {
+            "id": "eagle-columbia",
+            "tier": "middle",
+            "t": "The lunar module _Eagle_ landed at the Sea of Tranquility; Michael Collins orbited in the command module _Columbia_",
+            "k": ["eagle", "sea of tranquility", "michael collins", "columbia"],
+            "n": 0
+        },
+        {
+            "id": "mission-17",
+            "tier": "middle",
+            "t": "Mission 17 (December 1972) was the last: Gene Cernan and geologist Harrison Schmitt walked on the Moon",
+            "k": ["cernan", "schmitt", "1972"],
+            "n": 0
+        },
+        {
+            "id": "mercury-gemini",
+            "tier": "middle",
+            "t": "Followed Project Mercury and Project Gemini",
+            "k": ["mercury", "gemini"],
+            "n": 0
+        },
+        {
+            "id": "rice",
+            "tier": "middle",
+            "t": "Kennedy at Rice University (1962): “We choose to go to the Moon… because they are hard”; in 1963 he suggested a joint mission with the Soviets",
+            "k": ["rice university", "we choose", "joint mission"],
+            "n": 0
+        },
+        {
+            "id": "twelve",
+            "tier": "middle",
+            "t": "Twelve astronauts walked on the Moon",
+            "k": ["twelve"],
+            "n": 0
+        },
+        {
+            "id": "silverstein",
+            "tier": "power",
+            "t": "Named in 1960 by NASA’s Abe Silverstein for a Greek god he pictured driving a chariot across the sun",
+            "k": ["silverstein", "greek god", "chariot", "1960"],
+            "n": 0
+        },
+        {
+            "id": "hamilton",
+            "tier": "power",
+            "t": "Margaret Hamilton led MIT’s flight-software team; the software handled “1202” alarms during the first landing",
+            "k": ["margaret hamilton", "hamilton", "1202", "software"],
+            "n": 0
+        },
+        {
+            "id": "snoopy",
+            "tier": "power",
+            "t": "Mission 10 was a dress rehearsal, with the lunar module _Snoopy_ and the command module _Charlie Brown_",
+            "k": ["snoopy", "charlie brown", "dress rehearsal"],
+            "n": 0
+        },
+        {
+            "id": "aquarius",
+            "tier": "power",
+            "t": "On mission 13, the lunar module _Aquarius_ served as a lifeboat; the crew made square air filters fit a round opening",
+            "k": ["aquarius", "lifeboat", "filters"],
+            "n": 0
+        },
+        {
+            "id": "golf",
+            "tier": "power",
+            "t": "Alan Shepard hit golf balls on mission 14; Stuart Roosa carried seeds that became “Moon trees”",
+            "k": ["shepard", "golf", "moon trees", "roosa"],
+            "n": 0
+        },
+        {
+            "id": "rover-feather",
+            "tier": "power",
+            "t": "Mission 15 first used the Lunar Roving Vehicle; David Scott dropped a hammer and a feather together",
+            "k": ["lunar roving vehicle", "hammer", "feather", "david scott"],
+            "n": 0
+        },
+        {
+            "id": "blue-marble",
+            "tier": "power",
+            "t": "The final crew took the “Blue Marble” photo; Harrison Schmitt was the only scientist to walk on the Moon",
+            "k": ["blue marble", "scientist"],
+            "n": 0
+        },
+        {
+            "id": "houbolt",
+            "tier": "power",
+            "t": "John Houbolt pushed for lunar orbit rendezvous; Grumman built the lunar module",
+            "k": ["houbolt", "lunar orbit rendezvous", "grumman"],
+            "n": 0
+        },
+        {
+            "id": "marshall",
+            "tier": "power",
+            "t": "The Saturn V was designed at the Marshall Space Flight Center in Huntsville, Alabama; its first stage had five F-1 engines",
+            "k": ["marshall", "huntsville", "f-1"],
+            "n": 0
+        },
+        {
+            "id": "hornet",
+            "tier": "power",
+            "t": "The USS _Hornet_ picked up the first landing crew; Richard Nixon greeted them; they spent weeks in quarantine",
+            "k": ["hornet", "quarantine", "nixon"],
+            "n": 0
+        },
+        {
+            "id": "lightning",
+            "tier": "power",
+            "t": "Lightning struck mission 12 at launch; its crew landed near the probe Surveyor 3",
+            "k": ["lightning", "surveyor"],
+            "n": 0
+        },
+        {
+            "id": "lasers",
+            "tier": "power",
+            "t": "Scientists bounce lasers off mirrors the astronauts left on the Moon to measure its distance",
+            "k": ["lasers", "mirrors"],
+            "n": 0
+        },
+        {
+            "id": "genesis",
+            "tier": "power",
+            "t": "Mission 8’s astronauts read from the Book of Genesis on Christmas Eve 1968",
+            "k": ["genesis", "christmas eve"],
+            "n": 0
+        },
+        {
+            "id": "katherine-johnson",
+            "tier": "power",
+            "t": "Katherine Johnson helped calculate the flight path for the first landing",
+            "k": ["katherine johnson", "flight path"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Program, mission, or god?",
+        "body": "Saying just “Apollo” is risky: this answer line wants the whole program, and Apollo is also a Greek god with his own answer line. Some tossups ask for a single mission instead, such as Apollo 11 (the first landing) or Apollo 13 (the explosion). The program came after Projects Mercury and Gemini, and NASA’s later Moon program is named Artemis, after Apollo’s twin sister.",
+        "fix": "If the question says “this program” or “this project,” say “Apollo program.” If it says “this mission,” give the number: 8 for the first trip around the Moon, 11 for Armstrong and Aldrin, 13 for “Houston, we’ve had a problem,” and 17 for the final landing.",
+        "line": "Real answer line: <b><u>Apollo program</u></b> (or Project <b><u>Apollo</u></b>; prompt on <u>Apollo</u> alone)"
+    },
+    "tests": {
+        "right": [
+            "Apollo program",
+            "Project Apollo",
+            "the Apollo missions",
+            "Apollo programme",
+            "Apolo program"
+        ],
+        "prompt": [
+            "Apollo",
+            "Apollo 11",
+            "NASA",
+            "Space Race"
+        ],
+        "wrong": [
+            "Gemini",
+            "Project Mercury",
+            "Artemis program",
+            "Saturn V",
+            "Apollo-Soyuz",
+            "Space Shuttle",
+            "Sputnik"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])
