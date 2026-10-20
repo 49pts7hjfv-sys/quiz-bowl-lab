@@ -1,0 +1,363 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "colony-of-virginia",
+    "name": "Colony of Virginia",
+    "mono": "VA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Founded at Jamestown in 1607 · England’s first permanent American colony",
+    "dates": "Founded 1607; royal colony from 1624",
+    "briefing": "The Colony of Virginia began in 1607, when the Virginia Company of London planted a settlement at Jamestown. Tobacco soon made it rich, and in 1619 it gained the first elected assembly in English America, the House of Burgesses, the same year the first recorded enslaved Africans arrived at Point Comfort. Virginia became a royal colony in 1624, and its leaders later helped launch the American Revolution.",
+    "answerHtml": "Colony of <b><u>Virginia</u></b> (or <b><u>Virginia</u></b> Colony; do not accept or prompt on “Jamestown”)",
+    "accept": [
+        "colony of virginia",
+        "the colony of virginia",
+        "virginia colony",
+        "virginia",
+        "royal colony of virginia",
+        "colony and dominion of virginia",
+        "dominion of virginia"
+    ],
+    "prompt": [
+        "chesapeake colonies",
+        "chesapeake",
+        "southern colonies",
+        "old dominion",
+        "the old dominion"
+    ],
+    "reject": [
+        "jamestown",
+        "jamestown colony",
+        "plymouth colony",
+        "plymouth",
+        "massachusetts bay colony",
+        "maryland",
+        "province of maryland",
+        "roanoke",
+        "roanoke colony",
+        "north carolina",
+        "province of carolina",
+        "west virginia",
+        "williamsburg",
+        "bacons rebellion",
+        "house of burgesses",
+        "virginia company",
+        "virginia company of london",
+        "virginia company of plymouth",
+        "virginia dare",
+        "virginia woolf",
+        "whos afraid of virginia woolf",
+        "virginia plan",
+        "virginia resolutions",
+        "kentucky and virginia resolutions",
+        "virginia and kentucky resolutions",
+        "virginia declaration of rights",
+        "css virginia",
+        "virginia capes",
+        "battle of the virginia capes",
+        "virginia city",
+        "powhatan",
+        "powhatan confederacy"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Colony_of_Virginia",
+    "qb": {
+        "q": "Virginia",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Governor Alexander Spotswood of this colony sent the naval force that killed the pirate Blackbeard near Ocracoke Island in 1718. Spotswood also led an expedition across the Blue Ridge Mountains whose members were later called the Knights of the Golden Horseshoe.",
+            "r": "For 10 points, name this English colony whose first permanent settlement was Jamestown."
+        },
+        {
+            "p": "This colony’s last royal governor, Lord Dunmore, issued a 1775 proclamation promising freedom to enslaved people who left Patriot owners to fight for the British. A year earlier, Dunmore had led a war against the Shawnee that was named for him.",
+            "r": "For 10 points, name this colony, home of George Washington and Thomas Jefferson, whose first settlement was Jamestown."
+        },
+        {
+            "p": "In the 1580s, Sir Walter Raleigh named the land later claimed by this colony in honor of Elizabeth I, the “Virgin Queen,” long before any lasting settlement was made there. Raleigh’s own failed colony stood on Roanoke Island, in what is now North Carolina.",
+            "r": "For 10 points, name this English colony founded at Jamestown in 1607."
+        },
+        {
+            "p": "On July 30, 1619, Governor George Yeardley opened this colony’s first General Assembly inside a church, making it the first elected lawmaking body in English America. Its elected members were called burgesses.",
+            "r": "That assembly met at Jamestown. For 10 points, name this colony, where the House of Burgesses met."
+        },
+        {
+            "p": "In late August 1619, the privateer ship _White Lion_ landed at Point Comfort in this colony with “20 and odd” Africans who had been taken from a Portuguese slave ship. They were the first recorded Africans brought to English North America.",
+            "r": "For 10 points, name this English colony whose House of Burgesses first met that same year at Jamestown."
+        },
+        {
+            "p": "Nathaniel Bacon led frontier settlers against this colony’s governor, William Berkeley, in a 1676 revolt, partly because Berkeley would not let them attack Native Americans. Bacon’s followers burned the capital, but the revolt fell apart after Bacon died of disease.",
+            "r": "For 10 points, name this colony whose first settlement, Jamestown, was burned in Bacon’s Rebellion."
+        },
+        {
+            "p": "Sir Thomas Dale enforced a harsh code called the “Laws Divine, Moral and Martial” in this colony, where settlers could be whipped for missing church. Earlier, the winter of 1609 to 1610 was so terrible that settlers called it the “Starving Time.”",
+            "r": "For 10 points, name this English colony whose first settlement was Jamestown."
+        },
+        {
+            "p": "The wreck of the _Sea Venture_ on Bermuda in 1609 delayed help for this colony, and in 1610 its new governor, Lord De La Warr, arrived just as hungry settlers were about to give up and sail home. A river, and later a state, were named for that governor.",
+            "r": "For 10 points, name this English colony founded at Jamestown in 1607."
+        },
+        {
+            "p": "After Opechancanough’s [“oh-puh-CHAN-kuh-noh”] 1622 attack killed about a quarter of this colony’s English settlers, King James I took away the London Company’s charter. In 1624, this colony came under the king’s direct control, with governors chosen by the Crown.",
+            "r": "For 10 points, name this colony whose first permanent settlement was Jamestown."
+        },
+        {
+            "p": "The Wren Building at this colony’s College of William & Mary, founded in 1693, is the oldest college building still in use in the United States. In 1699, this colony moved its capital to Middle Plantation, which was renamed Williamsburg.",
+            "r": "Its first capital had been Jamestown. For 10 points, name this English colony."
+        },
+        {
+            "p": "This colony’s headright system gave 50 acres of land for each person whose voyage a settler paid for, so planters brought over thousands of indentured servants. Around 1620, men in this colony used its main crop to pay for the voyages of women who came over as brides.",
+            "r": "That crop was tobacco, first grown for export by John Rolfe, the husband of Pocahontas. For 10 points, name this colony."
+        },
+        {
+            "p": "This colony’s nickname, “the Old Dominion,” supposedly honors its loyalty to the Crown during the English Civil War. George Washington, Thomas Jefferson, and Patrick Henry all served in its legislature.",
+            "r": "For 10 points, name this colony, whose House of Burgesses first met at Jamestown in 1619."
+        },
+        {
+            "p": "King James I’s 1606 charter gave a joint-stock company based in London the right to start this colony, and a second company based in Plymouth, England, the right to settle farther north. The London group sent its first settlers in late 1606.",
+            "r": "Those settlers founded Jamestown the next year. For 10 points, name this English colony."
+        },
+        {
+            "p": "When royal governors shut down this colony’s legislature in 1769 and again in 1774, many of its members met at the Raleigh Tavern in Williamsburg instead. In 1775, Patrick Henry urged this colony to arm itself, declaring, “Give me liberty, or give me death!”",
+            "r": "For 10 points, name this colony, whose House of Burgesses was the first elected assembly in English America."
+        },
+        {
+            "p": "Christopher Newport commanded the three ships that carried this colony’s first settlers: the _Susan Constant_, the _Godspeed_, and the _Discovery_. Those settlers first landed at Cape Henry before choosing a site up a river that they named for their king.",
+            "r": "For 10 points, name this English colony, where John Smith once led the settlement at Jamestown."
+        }
+    ],
+    "clues": [
+        {
+            "id": "jamestown",
+            "tier": "giveaway",
+            "t": "Founded at Jamestown in 1607, the first permanent English settlement in North America",
+            "k": ["jamestown", "1607", "first permanent"],
+            "n": 0,
+            "rabbit": "Jamestown"
+        },
+        {
+            "id": "tobacco",
+            "tier": "giveaway",
+            "t": "John Rolfe made tobacco its money crop (around 1612)",
+            "k": ["tobacco", "john rolfe", "rolfe"],
+            "n": 0,
+            "rabbit": "Tobacco"
+        },
+        {
+            "id": "burgesses",
+            "tier": "giveaway",
+            "t": "Its House of Burgesses (1619) was the first elected assembly in English America",
+            "k": ["house of burgesses", "burgesses", "1619", "elected assembly"],
+            "n": 0
+        },
+        {
+            "id": "smith-pocahontas",
+            "tier": "giveaway",
+            "t": "John Smith led its first settlement for a time; Pocahontas, daughter of Powhatan, married John Rolfe",
+            "k": ["john smith", "pocahontas", "powhatan"],
+            "n": 0,
+            "rabbit": "Pocahontas"
+        },
+        {
+            "id": "london-company",
+            "tier": "middle",
+            "t": "Started by a joint-stock company, the London Company, under King James I’s 1606 charter",
+            "k": ["london company", "joint-stock", "1606", "king james"],
+            "n": 0
+        },
+        {
+            "id": "africans-1619",
+            "tier": "middle",
+            "t": "August 1619: the _White Lion_ brought the first recorded enslaved Africans to Point Comfort",
+            "k": ["point comfort", "white lion", "enslaved africans", "1619"],
+            "n": 0
+        },
+        {
+            "id": "royal-colony",
+            "tier": "middle",
+            "t": "Became a royal colony in 1624, after the London Company lost its charter",
+            "k": ["royal colony", "1624", "charter"],
+            "n": 0
+        },
+        {
+            "id": "bacons-rebellion",
+            "tier": "middle",
+            "t": "Bacon’s Rebellion (1676): Nathaniel Bacon led frontier settlers against Governor William Berkeley and burned Jamestown",
+            "k": ["bacon’s rebellion", "nathaniel bacon", "berkeley", "1676"],
+            "n": 0,
+            "rabbit": "Bacon’s Rebellion"
+        },
+        {
+            "id": "williamsburg",
+            "tier": "middle",
+            "t": "The capital moved from Jamestown to Middle Plantation, renamed Williamsburg, in 1699",
+            "k": ["williamsburg", "middle plantation", "1699", "capital"],
+            "n": 0
+        },
+        {
+            "id": "william-and-mary",
+            "tier": "middle",
+            "t": "The College of William & Mary was founded in 1693, second only to Harvard among colonial colleges",
+            "k": ["william & mary", "william and mary", "1693", "harvard"],
+            "n": 0
+        },
+        {
+            "id": "starving-time",
+            "tier": "middle",
+            "t": "The “Starving Time” (winter of 1609–1610) nearly wiped out its first settlement",
+            "k": ["starving time", "starving", "1609"],
+            "n": 0
+        },
+        {
+            "id": "opechancanough",
+            "tier": "middle",
+            "t": "Opechancanough’s 1622 attack killed about a quarter of the English colonists",
+            "k": ["opechancanough", "1622", "quarter"],
+            "n": 0
+        },
+        {
+            "id": "headright",
+            "tier": "middle",
+            "t": "The headright system gave 50 acres for each person whose passage a settler paid, bringing over many indentured servants",
+            "k": ["headright", "50 acres", "indentured servants"],
+            "n": 0
+        },
+        {
+            "id": "virgin-queen",
+            "tier": "middle",
+            "t": "Named for Queen Elizabeth I, the “Virgin Queen,” by Sir Walter Raleigh in the 1580s",
+            "k": ["virgin queen", "elizabeth i", "walter raleigh"],
+            "n": 0
+        },
+        {
+            "id": "yeardley",
+            "tier": "power",
+            "t": "Governor George Yeardley opened the first General Assembly in Jamestown’s church on July 30, 1619",
+            "k": ["george yeardley", "yeardley", "general assembly", "july 30"],
+            "n": 0
+        },
+        {
+            "id": "newport",
+            "tier": "power",
+            "t": "Christopher Newport commanded the _Susan Constant_, _Godspeed_, and _Discovery_; the settlers first landed at Cape Henry",
+            "k": ["christopher newport", "newport", "susan constant", "cape henry"],
+            "n": 0
+        },
+        {
+            "id": "dale-laws",
+            "tier": "power",
+            "t": "Sir Thomas Dale’s harsh “Laws Divine, Moral and Martial” (settlers could be whipped for missing church)",
+            "k": ["thomas dale", "laws divine", "martial"],
+            "n": 0
+        },
+        {
+            "id": "de-la-warr",
+            "tier": "power",
+            "t": "After the _Sea Venture_ wrecked on Bermuda (1609), Governor Lord De La Warr arrived in 1610 as settlers were leaving; the Delaware River is named for him",
+            "k": ["de la warr", "sea venture", "bermuda", "delaware"],
+            "n": 0
+        },
+        {
+            "id": "bacon-death",
+            "tier": "power",
+            "t": "Berkeley would not let frontier settlers attack Native Americans; the revolt collapsed when Bacon died of disease (1676)",
+            "k": ["frontier", "died of disease", "native americans"],
+            "n": 0
+        },
+        {
+            "id": "tobacco-brides",
+            "tier": "power",
+            "t": "Around 1620, men paid for the voyages of brides from England with tobacco",
+            "k": ["brides", "voyages", "1620"],
+            "n": 0
+        },
+        {
+            "id": "roanoke",
+            "tier": "power",
+            "t": "Raleigh’s earlier colony on Roanoke Island (now North Carolina) failed; it became the “Lost Colony”",
+            "k": ["roanoke", "lost colony", "north carolina"],
+            "n": 0
+        },
+        {
+            "id": "old-dominion",
+            "tier": "power",
+            "t": "Nicknamed the “Old Dominion,” supposedly for its loyalty to the Crown during the English Civil War",
+            "k": ["old dominion", "dominion", "english civil war"],
+            "n": 0
+        },
+        {
+            "id": "spotswood",
+            "tier": "power",
+            "t": "Governor Alexander Spotswood sent the force that killed Blackbeard (1718) and led the Knights of the Golden Horseshoe over the Blue Ridge",
+            "k": ["alexander spotswood", "spotswood", "blackbeard", "golden horseshoe"],
+            "n": 0
+        },
+        {
+            "id": "dunmore",
+            "tier": "power",
+            "t": "Last royal governor Lord Dunmore promised freedom to enslaved people who fought for the British (1775); Dunmore’s War against the Shawnee (1774)",
+            "k": ["dunmore", "lord dunmore", "shawnee", "proclamation"],
+            "n": 0
+        },
+        {
+            "id": "patrick-henry",
+            "tier": "power",
+            "t": "Patrick Henry: “Give me liberty, or give me death!” (1775); legislators met at the Raleigh Tavern when governors dissolved their assembly",
+            "k": ["patrick henry", "give me liberty", "raleigh tavern"],
+            "n": 0,
+            "rabbit": "Patrick Henry"
+        },
+        {
+            "id": "famous-burgesses",
+            "tier": "power",
+            "t": "George Washington, Thomas Jefferson, and Patrick Henry all served in its House of Burgesses",
+            "k": ["george washington", "thomas jefferson", "served"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Colony, not Jamestown",
+        "body": "Jamestown was only the first settlement in the Colony of Virginia. Real answer lines that want the colony say “do not accept or prompt on Jamestown,” so naming the town loses the tossup, even though many clues (John Smith, Pocahontas, the Starving Time, Bacon’s Rebellion) mention it. Don’t be fooled by Virginia Dare, either: the first English child born in the Americas was born in 1587 at Walter Raleigh’s “Lost Colony” of Roanoke, twenty years before Jamestown.",
+        "fix": "Listen for the noun. “This settlement,” “this fort,” or “this town” means Jamestown; “this colony,” with clues stretching across decades (royal governors, Williamsburg, William & Mary, the 1619 assembly, Patrick Henry), means Virginia. Plymouth (1620, the Pilgrims) and Maryland (1634, the Calverts) are different colonies.",
+        "line": "Real answer line: Colony of <b><u>Virginia</u></b> (do not accept or prompt on “Jamestown”)"
+    },
+    "tests": {
+        "right": [
+            "Colony of Virginia",
+            "Virginia",
+            "Virginia Colony",
+            "Virgina",
+            "Royal Colony of Virginia"
+        ],
+        "prompt": [
+            "Chesapeake colonies",
+            "Old Dominion"
+        ],
+        "wrong": [
+            "Jamestown",
+            "Plymouth Colony",
+            "Maryland",
+            "Roanoke",
+            "West Virginia",
+            "Virginia Company",
+            "Virginia Dare",
+            "House of Burgesses"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
