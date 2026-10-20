@@ -167,7 +167,7 @@ data = {
         },
         {
             "p": "When this woman and her husband presented their baby at the Temple in Jerusalem, an old man named Simeon told her that “a sword will pierce your own soul too.” In the Gospel of Matthew, an angel warns her husband in a dream to take the family to Egypt to escape King Herod.",
-            "r": "Her husband was Joseph, a carpenter. For 10 points, name this mother of Jesus."
+            "r": "Her husband was Joseph, a carpenter from Nazareth. For 10 points, name this woman, the mother of Jesus."
         },
         {
             "p": "According to a second-century text called the Protoevangelium [“PROH-toh-ee-van-JEL-ee-um”] of James, this woman’s parents were named Joachim [“JOH-uh-kim”] and Anne. Under the title of her Immaculate Conception, she is honored as the patron saint of the United States, and a huge basilica in Washington, D.C., is dedicated to her.",
