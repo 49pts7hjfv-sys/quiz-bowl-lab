@@ -1,0 +1,338 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "election-of-1992",
+    "name": "Election of 1992",
+    "mono": "E92",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Clinton beats Bush and Perot · “It’s the economy, stupid”",
+    "dates": "Held November 3, 1992",
+    "briefing": "After the 1991 Gulf War, President George H. W. Bush had approval ratings near 90 percent, but a recession and his broken promise of “no new taxes” became major issues by election time. Arkansas governor Bill Clinton, whose campaign’s motto was “It’s the economy, stupid,” won the presidency, while Texas businessman Ross Perot won about 19 percent of the popular vote, the best showing by a candidate outside the two major parties since 1912.",
+    "answerHtml": "Election of <b><u>1992</u></b> (or <b><u>1992</u></b> presidential election; prompt on <u>presidential election</u>; do not accept other years)",
+    "accept": [
+        "1992"
+    ],
+    "prompt": [
+        "election",
+        "the election",
+        "presidential election",
+        "the presidential election",
+        "us presidential election"
+    ],
+    "reject": [
+        "1996",
+        "1988",
+        "2000",
+        "1984",
+        "1980",
+        "1976",
+        "1968",
+        "1960",
+        "1912",
+        "1824",
+        "1876",
+        "1888",
+        "2016",
+        "2008",
+        "1990",
+        "1991",
+        "1993",
+        "1994"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/1992_United_States_presidential_election",
+    "qb": {
+        "q": "1992 presidential election",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The documentary _The War Room_ followed the strategists James Carville and George Stephanopoulos through this campaign. Carville hung a sign in the campaign’s Little Rock headquarters listing three reminders: “Change vs. more of the same,” “Don’t forget health care,” and a third line about the economy.",
+            "r": "That line became famous as “It’s the economy, stupid.” For 10 points, name this election in which Bill Clinton defeated George H. W. Bush."
+        },
+        {
+            "p": "Pat Buchanan challenged the sitting president in the Republican primaries during this campaign, attacking him for breaking his 1988 pledge, “Read my lips: no new taxes.” That president had agreed to a 1990 budget deal that raised some taxes.",
+            "r": "For 10 points, name this election in which George H. W. Bush lost his bid for a second term to Bill Clinton."
+        },
+        {
+            "p": "Former California governor Jerry Brown ran in the Democratic primaries during this campaign, accepting donations of no more than $100. Another candidate in those primaries called himself “the Comeback Kid” after finishing second to Paul Tsongas [“SONG-gus”] in New Hampshire.",
+            "r": "That “Comeback Kid,” Arkansas governor Bill Clinton, won the nomination. For 10 points, name this presidential election."
+        },
+        {
+            "p": "One candidate in this election announced on _Larry King Live_ that he would run if volunteers got his name on the ballot in all 50 states. That candidate dropped out in July, returned in October, and spent millions of his own dollars on half-hour TV programs filled with charts.",
+            "r": "That Texas businessman, Ross Perot, won about 19 percent of the popular vote. For 10 points, name this election."
+        },
+        {
+            "p": "This election featured the first presidential debate held in a “town hall” style, at the University of Richmond, where the sitting president was criticized for glancing at his watch. Its debates were also the first to put three presidential candidates on the same stage.",
+            "r": "For 10 points, name this election in which Bill Clinton, George H. W. Bush, and Ross Perot debated."
+        },
+        {
+            "p": "Wearing sunglasses, one candidate in this election played “Heartbreak Hotel” on the saxophone on _The Arsenio Hall Show_. That candidate’s campaign song was Fleetwood Mac’s “Don’t Stop,” which urged listeners to keep “thinking about tomorrow.”",
+            "r": "For 10 points, name this election won by that saxophone-playing Arkansas governor, Bill Clinton, over George H. W. Bush."
+        },
+        {
+            "p": "Carol Moseley Braun of Illinois became the first Black woman elected to the U.S. Senate in this election, which was nicknamed the “Year of the Woman.” California also elected two women, Dianne Feinstein and Barbara Boxer, to the Senate on the same day.",
+            "r": "At the top of the ticket, Bill Clinton won the presidency. For 10 points, name this election."
+        },
+        {
+            "p": "During this campaign, an independent candidate warned of a “giant sucking sound” of American jobs moving to Mexico if a planned trade deal was approved. That candidate’s running mate was James Stockdale, a retired admiral who had been a prisoner of war in Vietnam.",
+            "r": "That candidate, Ross Perot, won no electoral votes. For 10 points, name this election won by Bill Clinton."
+        },
+        {
+            "p": "After the Gulf War in 1991, the sitting president’s approval rating soared to nearly 90 percent, but it fell sharply during a recession before this election. His opponent’s campaign focused on the weak economy and on health care.",
+            "r": "That president, George H. W. Bush, lost to Bill Clinton. For 10 points, name this election."
+        },
+        {
+            "p": "The winning ticket in this election was the first in which both candidates had been born after World War II, as members of the baby boom generation. Both men were Southerners: one was the governor of Arkansas, and the other was a senator from Tennessee.",
+            "r": "Those men were Bill Clinton and Al Gore, who defeated George H. W. Bush and Dan Quayle. For 10 points, name this election."
+        },
+        {
+            "p": "At their convention in New York City’s Madison Square Garden during this campaign, Democrats showed a short film called _The Man from Hope_, about their nominee’s childhood in a small Arkansas town. Republicans held their convention in Houston’s Astrodome.",
+            "r": "For 10 points, name this election, after which Bill Clinton became the 42nd president."
+        },
+        {
+            "p": "The winner of this election had chaired the Democratic Leadership Council, a group of “New Democrats” who wanted their party to move toward the political center. He became the first Democrat to win the presidency since Jimmy Carter.",
+            "r": "He received 370 electoral votes but only about 43 percent of the popular vote. For 10 points, name this election won by Bill Clinton."
+        },
+        {
+            "p": "One candidate in this election had founded the computer company Electronic Data Systems, and he later started the Reform Party and ran again four years later. In this election, he won the best share of the vote for a candidate outside the two major parties since Theodore Roosevelt in 1912.",
+            "r": "That candidate was Ross Perot. For 10 points, name this election in which Bill Clinton beat George H. W. Bush."
+        },
+        {
+            "p": "In this election, the Democratic ticket carried California for the first time since 1964 and won a total of 32 states plus Washington, D.C. The incumbent’s running mate, Dan Quayle, debated Al Gore and James Stockdale in that year’s vice-presidential debate.",
+            "r": "For 10 points, name this election in which Bill Clinton defeated President George H. W. Bush and independent Ross Perot."
+        },
+        {
+            "p": "Secretary of State James Baker left his post in August to take charge of the sitting president’s reelection effort during this campaign. That president, who had led the country through the Gulf War, won only 168 electoral votes.",
+            "r": "For 10 points, name this election in which George H. W. Bush lost to Bill Clinton."
+        }
+    ],
+    "clues": [
+        {
+            "id": "clinton-beats-bush",
+            "tier": "giveaway",
+            "t": "Democrat Bill Clinton defeated the sitting Republican president, George H. W. Bush",
+            "k": ["bill clinton", "clinton", "george h. w. bush"],
+            "n": 0,
+            "rabbit": "Bill Clinton"
+        },
+        {
+            "id": "perot",
+            "tier": "giveaway",
+            "t": "Independent Ross Perot, a Texas businessman, won about 19 percent of the popular vote but no electoral votes",
+            "k": ["ross perot", "perot", "19 percent"],
+            "n": 0,
+            "rabbit": "Ross Perot"
+        },
+        {
+            "id": "economy-stupid",
+            "tier": "giveaway",
+            "t": "The Clinton campaign’s famous motto: “It’s the economy, stupid”",
+            "k": ["economy, stupid", "economy"],
+            "n": 0
+        },
+        {
+            "id": "running-mates",
+            "tier": "giveaway",
+            "t": "Running mates: Senator Al Gore of Tennessee (with Clinton) and Vice President Dan Quayle (with Bush)",
+            "k": ["al gore", "gore", "dan quayle", "quayle"],
+            "n": 0
+        },
+        {
+            "id": "read-my-lips",
+            "tier": "middle",
+            "t": "Bush had broken his 1988 pledge, “Read my lips: no new taxes,” in a 1990 budget deal",
+            "k": ["read my lips", "no new taxes", "1990"],
+            "n": 0
+        },
+        {
+            "id": "gulf-war-recession",
+            "tier": "middle",
+            "t": "Bush’s approval soared to nearly 90 percent after the Gulf War (1991), then fell during a recession",
+            "k": ["gulf war", "recession", "approval"],
+            "n": 0
+        },
+        {
+            "id": "comeback-kid",
+            "tier": "middle",
+            "t": "Clinton called himself “the Comeback Kid” after finishing second to Paul Tsongas in the New Hampshire primary",
+            "k": ["comeback kid", "tsongas", "new hampshire"],
+            "n": 0
+        },
+        {
+            "id": "larry-king",
+            "tier": "middle",
+            "t": "Perot announced on _Larry King Live_ that he would run if volunteers put him on the ballot in all 50 states; he quit in July and returned in October",
+            "k": ["larry king", "50 states", "july"],
+            "n": 0
+        },
+        {
+            "id": "town-hall",
+            "tier": "middle",
+            "t": "First “town hall” presidential debate (University of Richmond), where Bush glanced at his watch; the first debates with three candidates",
+            "k": ["town hall", "richmond", "watch", "three candidates"],
+            "n": 0
+        },
+        {
+            "id": "saxophone",
+            "tier": "middle",
+            "t": "Clinton played “Heartbreak Hotel” on the saxophone on _The Arsenio Hall Show_",
+            "k": ["saxophone", "arsenio hall", "heartbreak hotel"],
+            "n": 0
+        },
+        {
+            "id": "results",
+            "tier": "middle",
+            "t": "Clinton won 370 electoral votes and 32 states but only about 43 percent of the popular vote; Bush won 168",
+            "k": ["43 percent", "32 states", "370", "168"],
+            "n": 0
+        },
+        {
+            "id": "buchanan",
+            "tier": "middle",
+            "t": "Pat Buchanan challenged Bush in the Republican primaries",
+            "k": ["pat buchanan", "buchanan", "primaries"],
+            "n": 0
+        },
+        {
+            "id": "first-since-carter",
+            "tier": "middle",
+            "t": "Clinton was the first Democrat to win since Jimmy Carter; Bush was the first sitting president to lose reelection since Carter",
+            "k": ["jimmy carter", "carter"],
+            "n": 0
+        },
+        {
+            "id": "war-room",
+            "tier": "power",
+            "t": "James Carville’s sign in the Little Rock “war room” listed change, the economy, and health care; the documentary _The War Room_ followed him and George Stephanopoulos",
+            "k": ["carville", "war room", "little rock", "stephanopoulos"],
+            "n": 0
+        },
+        {
+            "id": "giant-sucking-sound",
+            "tier": "power",
+            "t": "Perot warned of a “giant sucking sound” of jobs moving to Mexico under a planned trade deal (NAFTA)",
+            "k": ["giant sucking sound", "nafta", "mexico"],
+            "n": 0,
+            "rabbit": "NAFTA"
+        },
+        {
+            "id": "stockdale",
+            "tier": "power",
+            "t": "Perot’s running mate was retired admiral James Stockdale, a former prisoner of war in Vietnam",
+            "k": ["james stockdale", "stockdale", "prisoner of war"],
+            "n": 0
+        },
+        {
+            "id": "infomercials",
+            "tier": "power",
+            "t": "Perot, founder of Electronic Data Systems, spent millions of his own dollars on half-hour TV programs full of charts",
+            "k": ["electronic data systems", "charts", "half-hour"],
+            "n": 0
+        },
+        {
+            "id": "reform-party",
+            "tier": "power",
+            "t": "Perot’s share was the best for a candidate outside the two major parties since Theodore Roosevelt (1912); he later founded the Reform Party and ran again in 1996",
+            "k": ["reform party", "theodore roosevelt", "1912"],
+            "n": 0
+        },
+        {
+            "id": "year-of-the-woman",
+            "tier": "power",
+            "t": "“Year of the Woman”: Carol Moseley Braun became the first Black woman elected to the Senate; California elected Dianne Feinstein and Barbara Boxer",
+            "k": ["year of the woman", "carol moseley braun", "feinstein", "boxer"],
+            "n": 0
+        },
+        {
+            "id": "man-from-hope",
+            "tier": "power",
+            "t": "Democrats met at Madison Square Garden and showed the film _The Man from Hope_; Republicans met in Houston’s Astrodome",
+            "k": ["man from hope", "madison square garden", "astrodome", "houston"],
+            "n": 0
+        },
+        {
+            "id": "baby-boomers",
+            "tier": "power",
+            "t": "Clinton and Gore were the first winning ticket of two baby boomers, both Southerners (Arkansas and Tennessee)",
+            "k": ["baby boomers", "southerners", "tennessee"],
+            "n": 0
+        },
+        {
+            "id": "dlc",
+            "tier": "power",
+            "t": "Clinton had chaired the Democratic Leadership Council, a group of centrist “New Democrats”",
+            "k": ["democratic leadership council", "new democrats", "centrist"],
+            "n": 0
+        },
+        {
+            "id": "jerry-brown",
+            "tier": "power",
+            "t": "Former California governor Jerry Brown ran in the Democratic primaries, taking donations of no more than $100",
+            "k": ["jerry brown", "$100"],
+            "n": 0
+        },
+        {
+            "id": "fleetwood-mac",
+            "tier": "power",
+            "t": "Clinton’s campaign song was Fleetwood Mac’s “Don’t Stop” (“thinking about tomorrow”)",
+            "k": ["fleetwood mac", "don’t stop"],
+            "n": 0
+        },
+        {
+            "id": "california-1964",
+            "tier": "power",
+            "t": "Clinton carried California, the first Democrat to win it since 1964",
+            "k": ["california", "1964"],
+            "n": 0
+        },
+        {
+            "id": "james-baker",
+            "tier": "power",
+            "t": "Secretary of State James Baker resigned in August to run Bush’s reelection effort",
+            "k": ["james baker", "baker", "august"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Name the year",
+        "body": "Election tossups describe the candidates but want the year, so you must connect the people to the right race. George H. W. Bush won in 1988 and lost here; Bill Clinton won here and again in 1996, when Ross Perot ran a second time with much less support. Answering “Bill Clinton” or “Ross Perot” is wrong when the question asks for the election.",
+        "fix": "Anchor the year with its clues: “It’s the economy, stupid,” the Comeback Kid, the town-hall debate, Perot’s charts and “giant sucking sound,” and the Year of the Woman all mean 1992. Bob Dole as the Republican nominee means 1996. Say “the election of 1992” or just “1992.”",
+        "line": "Real answer line: United States presidential election of <b><u>1992</u></b> (prompt on <u>presidential election</u>)"
+    },
+    "tests": {
+        "right": [
+            "1992",
+            "Election of 1992",
+            "1992 presidential election",
+            "the 1992 election",
+            "Clinton's 1992 election"
+        ],
+        "prompt": [
+            "election",
+            "presidential election"
+        ],
+        "wrong": [
+            "Election of 1996",
+            "1988",
+            "Election of 2000",
+            "Bill Clinton",
+            "Ross Perot",
+            "1982"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")

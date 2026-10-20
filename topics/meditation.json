@@ -1,0 +1,462 @@
+{
+  "id": "meditation",
+  "name": "Meditation",
+  "mono": "MED",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Training the mind to be calm and focused · Practiced across many faiths",
+  "dates": "Practiced since ancient times",
+  "briefing": "Since ancient times, people of many faiths have sat in silence to calm and focus their minds. Buddhists believe the Buddha reached enlightenment while meditating under a fig tree, and Hindu, Jain, Sufi, and Sikh traditions all teach their own forms of meditation. In 1968 the Beatles traveled to India to learn it, and scientists have since studied whether it can ease stress.",
+  "answerHtml": "<b><u>meditation</u></b> (accept word forms like <u>meditating</u>; accept <u>dhyana</u>; prompt on <u>yoga</u>; do not accept “prayer”)",
+  "accept": [
+    "meditation",
+    "meditations",
+    "meditating",
+    "meditate",
+    "dhyana"
+  ],
+  "prompt": [
+    "yoga"
+  ],
+  "reject": [
+    "prayer",
+    "prayers",
+    "praying",
+    "medication",
+    "medicate",
+    "medicated",
+    "medicare",
+    "mediation",
+    "mediate",
+    "mediated",
+    "dedicate",
+    "dedicated",
+    "levitate",
+    "hesitate",
+    "ghana",
+    "dedication",
+    "levitation",
+    "recitation",
+    "hesitation",
+    "jnana",
+    "dharana",
+    "samadhi",
+    "nirvana",
+    "enlightenment",
+    "satori",
+    "zen",
+    "zen buddhism",
+    "mantra",
+    "dhikr",
+    "trance",
+    "hypnosis"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Meditation",
+  "qb": {
+    "q": "meditation",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In Patanjali’s [“puh-TUN-juh-lee’z”] _Yoga Sutras_, this practice is the seventh of eight limbs, coming after dharana [“DAR-uh-nuh”], or concentration, and before samadhi [“suh-MAH-dee”], or total absorption. Those sutras define yoga as the stilling of the movements of the mind.",
+      "r": "For 10 points, name this practice of calming and focusing the mind, often done sitting cross-legged in silence."
+    },
+    {
+      "p": "The school names Chan [“CHAHN”] in China and Zen in Japan both come from the Sanskrit word for this practice. Dogen [“DOH-gen”] taught a form of it called shikantaza [“shee-KAHN-tah-zah”], or “just sitting,” and Zen students also do it while walking, in a form called kinhin [“KIN-hin”].",
+      "r": "For 10 points, Zen Buddhists practice zazen, a seated form of what mind-calming practice?"
+    },
+    {
+      "p": "S. N. Goenka [“GOYN-kuh”], who learned from a teacher in Burma, led ten-day silent courses in vipassana [“vih-PAH-suh-nuh”], or “insight,” a form of this practice. Buddhists often pair vipassana with samatha [“SUH-muh-tuh”], or “calm,” which steadies the mind on a single object such as the breath.",
+      "r": "For 10 points, name this practice that the Buddha was doing beneath the Bodhi tree when he reached enlightenment."
+    },
+    {
+      "p": "The _Satipatthana Sutta_ [“suh-tee-PAHT-tah-nuh SOOT-tuh”] teaches four foundations for one form of this practice: the body, feelings, the mind, and mental objects. Buddhists also practice metta [“MET-tuh”], a form that wishes loving-kindness to all beings, and anapanasati [“AH-nah-pah-nuh-SUT-ee”], which follows the breath.",
+      "r": "Those four foundations describe mindfulness. For 10 points, name this practice of focused attention, done in Zen as zazen."
+    },
+    {
+      "p": "In 1979, Jon Kabat-Zinn founded a stress-reduction program at the University of Massachusetts Medical School that taught a nonreligious form of this practice. He described its key skill as paying attention, on purpose, to the present moment without judging it.",
+      "r": "That skill is called mindfulness. For 10 points, name this practice of calming and focusing the mind."
+    },
+    {
+      "p": "John Lennon wrote “Dear Prudence” about Prudence Farrow, who did this practice so intensely that she would hardly leave her room. She and the Beatles had come to Rishikesh [“RISH-ih-kesh”], India, in 1968 to learn it from Maharishi Mahesh Yogi.",
+      "r": "The Maharishi’s form of it is called Transcendental. For 10 points, name this mind-calming practice that often uses a repeated mantra."
+    },
+    {
+      "p": "Jains practice a 48-minute form of this activity called samayika [“SAH-mah-yee-kuh”], and a giant Jain statue of Bahubali [“BAH-hoo-bah-lee”] shows him doing it standing, so still that vines wrap around his legs. The Hindu god Shiva burned the love god Kama to ashes for disturbing his practice of it.",
+      "r": "For 10 points, name this practice of stilling the mind, which the Buddha did beneath the Bodhi tree."
+    },
+    {
+      "p": "Sufis practice muraqaba [“moo-RAH-kuh-buh”], or “watchfulness,” a form of this activity, and they gather for dhikr [“ZIK-er”], the rhythmic repetition of God’s names. Members of the Mevlevi [“MEV-leh-vee”] order turn in a spinning ceremony that some describe as this practice in motion.",
+      "r": "Those members are the “whirling dervishes.” For 10 points, name this practice of stilling and focusing the mind."
+    },
+    {
+      "p": "In the _Zhuangzi_ [“JWAHNG-dzuh”], Confucius’s student Yan Hui describes “sitting and forgetting,” in which he lets go of his body and his knowledge until he becomes one with the Way. That early Daoist form of this practice so impressed Confucius that he asked to become Yan Hui’s follower.",
+      "r": "For 10 points, name this practice of quieting the mind, which Hindus, Buddhists, and Jains all teach."
+    },
+    {
+      "p": "Sikhs practice naam simran [“NAHM SIM-run”], a form of this activity in which they repeat the word Waheguru [“wah-hay-GOO-roo”] to keep God’s name in mind. Guru Nanak named remembering God’s name as one of a believer’s three main duties, along with honest work and sharing.",
+      "r": "For 10 points, name this practice of calming the mind, often done with a repeated word or sound called a mantra."
+    },
+    {
+      "p": "Paramahansa Yogananda [“PAH-ruh-mun-sah YOH-guh-NUN-duh”] taught a method of this practice called Kriya [“KREE-yuh”] Yoga in his 1946 book _Autobiography of a Yogi_. The sage Ramana Maharshi [“RAH-muh-nuh mah-HAR-shee”] taught a form of it built around a single question: “Who am I?”",
+      "r": "Hindus often begin it by chanting Om. For 10 points, name this practice of stilling the mind, often done sitting in the lotus position."
+    },
+    {
+      "p": "Tibetan Buddhists may use a mandala, a circular design that often pictures a deity’s palace, as a focus for this practice. Many people do it in padmasana [“pud-MAH-suh-nuh”], a cross-legged pose with each foot resting on the opposite thigh.",
+      "r": "That pose is called the lotus position. For 10 points, name this practice of calming the mind, in which a person may repeat a mantra."
+    },
+    {
+      "p": "In 1975, the Harvard doctor Herbert Benson published _The Relaxation Response_, a book that grew out of his studies of people who practiced a form of this activity. Since then, scientists have studied whether this practice affects stress, attention, and blood pressure.",
+      "r": "For 10 points, name this practice of calming and focusing the mind, often done while paying attention to the breath."
+    },
+    {
+      "p": "Legend says Bodhidharma [“BOH-dee-DAR-muh”] spent nine years doing this practice while facing a cave wall. Centuries later, the Vietnamese monk Thich Nhat Hanh [“tick-nyaht-HAHN”] taught a slow walking form of it at Plum Village, the community he founded in France.",
+      "r": "Both were teachers of Zen, whose name comes from a word for this practice. For 10 points, name this practice of calming the mind."
+    },
+    {
+      "p": "Statues of the Buddha often show his hands resting in his lap, one on top of the other with the thumbs touching, in a gesture named for this practice. Japanese Zen temples built dry rock gardens, like the one at Ryoan-ji [“ryoh-AHN-jee”], as aids to this practice.",
+      "r": "For 10 points, name this practice of stilling and focusing the mind, often done in silence."
+    }
+  ],
+  "clues": [
+    {
+      "id": "calm-mind",
+      "tier": "giveaway",
+      "t": "A practice of calming and focusing the mind, often by sitting quietly and paying attention to the breath",
+      "k": [
+        "focusing",
+        "calming",
+        "breath"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bodhi",
+      "tier": "giveaway",
+      "t": "Buddhists believe the Buddha reached enlightenment doing it under the Bodhi tree",
+      "k": [
+        "bodhi tree",
+        "enlightenment"
+      ],
+      "n": 0,
+      "rabbit": "Gautama Buddha"
+    },
+    {
+      "id": "zazen",
+      "tier": "giveaway",
+      "t": "Zen’s name comes from the Sanskrit word for it; zazen is its seated form in Zen Buddhism",
+      "k": [
+        "zazen",
+        "zen",
+        "seated"
+      ],
+      "n": 0,
+      "rabbit": "Zen Buddhism"
+    },
+    {
+      "id": "lotus",
+      "tier": "giveaway",
+      "t": "Often done sitting cross-legged in the lotus position",
+      "k": [
+        "lotus position",
+        "cross-legged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mantra",
+      "tier": "giveaway",
+      "t": "Some forms repeat a sacred sound, word, or phrase called a mantra, such as Om",
+      "k": [
+        "mantra",
+        "om"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vipassana",
+      "tier": "middle",
+      "t": "Buddhist forms include vipassana (“insight”) and samatha (“calm”)",
+      "k": [
+        "vipassana",
+        "samatha",
+        "insight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mindfulness",
+      "tier": "middle",
+      "t": "Mindfulness: paying attention to the present moment, on purpose and without judging",
+      "k": [
+        "mindfulness",
+        "present moment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "patanjali",
+      "tier": "middle",
+      "t": "Seventh of the eight limbs of yoga in Patanjali’s _Yoga Sutras_, between dharana (concentration) and samadhi (absorption)",
+      "k": [
+        "patanjali",
+        "yoga sutras",
+        "eight limbs",
+        "samadhi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beatles",
+      "tier": "middle",
+      "t": "Maharishi Mahesh Yogi taught a “Transcendental” form; the Beatles studied with him in Rishikesh, India, in 1968",
+      "k": [
+        "maharishi",
+        "transcendental",
+        "beatles",
+        "rishikesh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kabat-zinn",
+      "tier": "middle",
+      "t": "Jon Kabat-Zinn founded a stress-reduction program at the University of Massachusetts Medical School in 1979",
+      "k": [
+        "kabat-zinn",
+        "stress-reduction",
+        "1979"
+      ],
+      "n": 0
+    },
+    {
+      "id": "metta",
+      "tier": "middle",
+      "t": "Metta: a Buddhist practice of loving-kindness that wishes happiness to all beings",
+      "k": [
+        "metta",
+        "loving-kindness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sufi",
+      "tier": "middle",
+      "t": "Sufis practice muraqaba (“watchfulness”) and dhikr, the repetition of God’s names",
+      "k": [
+        "muraqaba",
+        "dhikr",
+        "sufis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sikh",
+      "tier": "middle",
+      "t": "Sikhs practice naam simran, repeating God’s name, Waheguru",
+      "k": [
+        "naam simran",
+        "waheguru"
+      ],
+      "n": 0
+    },
+    {
+      "id": "walking",
+      "tier": "middle",
+      "t": "It can also be done while walking, as in Zen kinhin or Thich Nhat Hanh’s walking practice",
+      "k": [
+        "walking",
+        "kinhin",
+        "thich nhat hanh"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shikantaza",
+      "tier": "power",
+      "t": "Dogen taught shikantaza (“just sitting”), a seated form with no object of focus",
+      "k": [
+        "shikantaza",
+        "just sitting",
+        "dogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "goenka",
+      "tier": "power",
+      "t": "S. N. Goenka, who learned from a teacher in Burma, led ten-day silent vipassana courses",
+      "k": [
+        "goenka",
+        "ten-day",
+        "burma"
+      ],
+      "n": 0
+    },
+    {
+      "id": "satipatthana",
+      "tier": "power",
+      "t": "The _Satipatthana Sutta_ lists four foundations of mindfulness; anapanasati follows the breath",
+      "k": [
+        "satipatthana",
+        "four foundations",
+        "anapanasati"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prudence",
+      "tier": "power",
+      "t": "John Lennon’s “Dear Prudence” is about Prudence Farrow, who practiced so intensely she hardly left her room",
+      "k": [
+        "dear prudence",
+        "prudence farrow",
+        "lennon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "samayika",
+      "tier": "power",
+      "t": "Jains practice samayika, a 48-minute session; Bahubali’s statue shows him practicing standing, wrapped in vines",
+      "k": [
+        "samayika",
+        "48-minute",
+        "bahubali"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shiva",
+      "tier": "power",
+      "t": "The Hindu god Shiva burned the love god Kama to ashes for disturbing his practice",
+      "k": [
+        "shiva",
+        "kama",
+        "ashes"
+      ],
+      "n": 0,
+      "rabbit": "Shiva"
+    },
+    {
+      "id": "mevlevi",
+      "tier": "power",
+      "t": "The Mevlevi order’s “whirling dervishes” turn in a ceremony some describe as this practice in motion",
+      "k": [
+        "mevlevi",
+        "whirling dervishes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zuowang",
+      "tier": "power",
+      "t": "Daoist “sitting and forgetting”: in the _Zhuangzi_, Yan Hui’s practice so impresses Confucius that he asks to follow him",
+      "k": [
+        "sitting and forgetting",
+        "zhuangzi",
+        "yan hui"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yogananda",
+      "tier": "power",
+      "t": "Paramahansa Yogananda taught Kriya Yoga in _Autobiography of a Yogi_ (1946)",
+      "k": [
+        "yogananda",
+        "kriya",
+        "autobiography of a yogi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ramana",
+      "tier": "power",
+      "t": "Ramana Maharshi’s self-inquiry centers on one question: “Who am I?”",
+      "k": [
+        "ramana maharshi",
+        "who am i",
+        "self-inquiry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mandala",
+      "tier": "power",
+      "t": "Tibetan Buddhists may focus on a mandala; padmasana is the lotus pose, with each foot on the opposite thigh",
+      "k": [
+        "mandala",
+        "padmasana"
+      ],
+      "n": 0
+    },
+    {
+      "id": "benson",
+      "tier": "power",
+      "t": "Herbert Benson’s _The Relaxation Response_ (1975); scientists have studied whether it affects stress",
+      "k": [
+        "benson",
+        "relaxation response",
+        "1975"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bodhidharma",
+      "tier": "power",
+      "t": "Legend says Bodhidharma did it while facing a cave wall for nine years",
+      "k": [
+        "bodhidharma",
+        "cave wall",
+        "nine years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mudra",
+      "tier": "power",
+      "t": "Buddha statues rest the hands in the lap, thumbs touching, in a mudra named for it; Ryoan-ji’s rock garden is an aid to it",
+      "k": [
+        "mudra",
+        "thumbs",
+        "ryoan-ji"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not prayer, not yoga",
+    "body": "Meditation, prayer, and yoga often appear together, and quiz bowl answer lines keep them apart. Prayer means speaking to God or another divine being, often in words, while meditation trains calm and attention, often in silence or with a mantra. Yoga is a larger system in which meditation is only one of eight limbs, and Zen is a school of Buddhism, not the practice itself. Marcus Aurelius’s book _Meditations_ is a different answer line, too.",
+    "fix": "Listen for the breath, attention, a mantra, zazen, vipassana, or mindfulness: that is meditation. If the clues describe addressing God, such as salat or the Lord’s Prayer, say prayer. If you say “yoga,” expect a prompt for something more specific.",
+    "line": "Real answer line: <b><u>meditation</u></b> (accept word forms like <u>meditating</u>; accept <u>dhyana</u>; prompt on <u>yoga</u>; do not accept “prayer”)"
+  },
+  "tests": {
+    "right": [
+      "meditation",
+      "Meditation",
+      "meditating",
+      "meditaton",
+      "dhyana"
+    ],
+    "prompt": [
+      "yoga"
+    ],
+    "wrong": [
+      "prayer",
+      "medication",
+      "mediation",
+      "Zen",
+      "nirvana",
+      "dharana",
+      "jnana"
+    ]
+  }
+}

@@ -1,0 +1,322 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "whiskey-rebellion",
+    "name": "Whiskey Rebellion",
+    "mono": "WR",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Frontier revolt against a federal whiskey tax · A test of the new government",
+    "dates": "1791–1794",
+    "briefing": "In 1791, Congress passed Treasury Secretary Alexander Hamilton’s tax on whiskey to help pay the national debt. Frontier farmers in western Pennsylvania, who turned their extra grain into whiskey and even used it as money, refused to pay and attacked tax collectors, and in 1794 thousands of rebels gathered near Pittsburgh. President George Washington called up about 13,000 militiamen, and the rebellion fell apart, showing that the new federal government could enforce its laws.",
+    "answerHtml": "<b><u>Whiskey Rebellion</u></b> (accept <u>Whiskey Insurrection</u>; prompt on <u>Whiskey</u>; do not accept “Shays’ Rebellion” or “Fries’s Rebellion”)",
+    "accept": [
+        "whiskey rebellion",
+        "whisky rebellion",
+        "whiskey insurrection",
+        "whisky insurrection",
+        "whiskey revolt",
+        "whiskey uprising"
+    ],
+    "prompt": [
+        "whiskey",
+        "whisky"
+    ],
+    "reject": [
+        "shays rebellion",
+        "shays",
+        "daniel shays",
+        "fries rebellion",
+        "friess rebellion",
+        "fries",
+        "john fries",
+        "whiskey ring",
+        "bacons rebellion",
+        "dorr rebellion",
+        "boston tea party",
+        "alexander hamilton",
+        "george washington",
+        "excise tax",
+        "stamp act"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Whiskey_Rebellion",
+    "qb": {
+        "q": "Whiskey Rebellion",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In July 1794, a federal marshal, David Lenox, rode with tax inspector John Neville to serve legal papers on farmers who had not paid a tax. The next day, armed men surrounded Neville’s home, Bower Hill, and they later burned it.",
+            "r": "Alexander Hamilton had proposed that tax. For 10 points, name this 1794 uprising in western Pennsylvania against a federal tax on liquor."
+        },
+        {
+            "p": "On August 1, 1794, about seven thousand armed men gathered at Braddock’s Field, the site of a British defeat decades earlier, and talked of attacking the nearby town of Pittsburgh. After town leaders welcomed them, they marched peacefully through Pittsburgh instead.",
+            "r": "President George Washington soon called out the militia. For 10 points, name this revolt by frontier farmers against Alexander Hamilton’s tax on liquor."
+        },
+        {
+            "p": "At a meeting at Parkinson’s Ferry in August 1794, a young Swiss-born politician urged angry farmers to avoid violence. That politician, Albert Gallatin, later served as Treasury Secretary under Thomas Jefferson, whose party repealed the tax that caused this event.",
+            "r": "George Washington sent nearly 13,000 militiamen to end it. For 10 points, name this 1794 revolt in western Pennsylvania against a tax on distilled spirits."
+        },
+        {
+            "p": "Before the president could call out the militia under a 1792 law, Supreme Court Justice James Wilson had to certify that the courts could not enforce the law in the western part of his state. That certification came in August 1794, during this event.",
+            "r": "Nearly 13,000 militiamen then marched west. For 10 points, name this uprising against Alexander Hamilton’s tax on whiskey."
+        },
+        {
+            "p": "Virginia governor Henry “Light-Horse Harry” Lee, the father of Robert E. Lee, commanded the army sent to end this event. The president rode out with that army as far as Bedford, Pennsylvania, before returning to Philadelphia.",
+            "r": "That president, George Washington, was joined by Alexander Hamilton. For 10 points, name this 1794 revolt against a federal tax on liquor."
+        },
+        {
+            "p": "Philip Wigle and John Mitchell were the only two men convicted of treason after this event, and both were sentenced to death, but the president pardoned them in 1795. Most of the other prisoners taken to Philadelphia for trial were never convicted.",
+            "r": "That president was George Washington. For 10 points, name this 1794 uprising against Alexander Hamilton’s excise tax on whiskey."
+        },
+        {
+            "p": "Under the law that sparked this event, large distillers could pay a yearly flat fee, while small producers usually paid by the gallon, which made them pay more per gallon. People charged with breaking that law had to stand trial in federal court in faraway Philadelphia.",
+            "r": "For 10 points, name this frontier revolt in western Pennsylvania against a 1791 tax on whiskey."
+        },
+        {
+            "p": "Rebels in this event signed threatening letters with the made-up name “Tom the Tinker,” and they warned that anyone who obeyed the tax law would have their stills wrecked. Like the protesters of the American Revolution, they also put up liberty poles.",
+            "r": "For 10 points, name this 1794 uprising in western Pennsylvania, put down by militia that George Washington called up."
+        },
+        {
+            "p": "In a speech to Congress in November 1794, the president blamed this event partly on “self-created societies,” meaning the Democratic-Republican clubs that had sprung up across the country. James Madison and other critics objected to that attack on the clubs.",
+            "r": "For 10 points, name this 1794 revolt against a federal tax on liquor, which Washington’s army ended without a battle."
+        },
+        {
+            "p": "The tax behind this event was the first federal tax on a product made inside the United States. Thomas Jefferson’s supporters in Congress repealed it in 1802, along with other internal taxes passed by the Federalists.",
+            "r": "Rebels had gathered at Braddock’s Field near Pittsburgh. For 10 points, name this 1794 revolt against Alexander Hamilton’s tax on distilled spirits."
+        },
+        {
+            "p": "Hugh Henry Brackenridge, a Pittsburgh lawyer and the author of the novel _Modern Chivalry_, tried to steer the rebels in this event away from violence and later wrote a book defending his own role.",
+            "r": "Farmers there turned extra grain into whiskey, which was easier to carry over the mountains and was even used as money. For 10 points, name this 1794 revolt against a federal tax."
+        },
+        {
+            "p": "Peace commissioners offered amnesty to people in this event who signed a promise to obey the law, but too few signed. The president then called up militia from four states: Pennsylvania, New Jersey, Maryland, and Virginia.",
+            "r": "Unlike the earlier Shays’ Rebellion, this revolt ended when a national army marched in. For 10 points, name this 1794 uprising against a federal tax on whiskey."
+        },
+        {
+            "p": "David Bradford, a lawyer who became one of the most radical leaders of this event, fled down the Ohio and Mississippi Rivers to Spanish territory when federal troops approached. John Adams later pardoned him. Bradford had called the rebels to gather at Braddock’s Field.",
+            "r": "For 10 points, name this 1794 revolt in western Pennsylvania against Alexander Hamilton’s liquor tax."
+        },
+        {
+            "p": "Frontier farmers in this event were already angry that Spain had closed the lower Mississippi River to American shipping, so they could not easily sell their crops. Instead, they turned extra grain into a product that was easier to carry over the mountains and even used it as money.",
+            "r": "A tax on that product, whiskey, set off this event. For 10 points, name this 1794 revolt in western Pennsylvania."
+        },
+        {
+            "p": "Five years after this event, John Fries [“FREEZ”] led farmers in eastern Pennsylvania in a revolt against a federal tax on houses and land, and John Adams later pardoned him. This earlier revolt, in the western part of the state, was set off by a 1791 tax.",
+            "r": "For 10 points, name this 1794 uprising against Alexander Hamilton’s tax on whiskey, which George Washington’s militia ended."
+        }
+    ],
+    "clues": [
+        {
+            "id": "liquor-tax",
+            "tier": "giveaway",
+            "t": "A 1794 revolt by western Pennsylvania farmers against a federal tax on distilled liquor",
+            "k": ["1794", "western pennsylvania", "liquor"],
+            "n": 0
+        },
+        {
+            "id": "hamilton",
+            "tier": "giveaway",
+            "t": "The 1791 tax was proposed by Treasury Secretary Alexander Hamilton to help pay the national debt",
+            "k": ["alexander hamilton", "hamilton", "1791", "treasury"],
+            "n": 0,
+            "rabbit": "Alexander Hamilton"
+        },
+        {
+            "id": "washington-militia",
+            "tier": "giveaway",
+            "t": "President George Washington called up about 13,000 militiamen to end it",
+            "k": ["george washington", "13,000", "militiamen"],
+            "n": 0,
+            "rabbit": "George Washington"
+        },
+        {
+            "id": "federal-power",
+            "tier": "giveaway",
+            "t": "Showed that the new federal government under the Constitution could enforce its laws",
+            "k": ["federal government", "enforce", "constitution"],
+            "n": 0
+        },
+        {
+            "id": "frontier-economy",
+            "tier": "middle",
+            "t": "Frontier farmers turned extra grain into liquor, which was easier to haul over the mountains and was even used as money",
+            "k": ["grain", "money", "frontier"],
+            "n": 0
+        },
+        {
+            "id": "braddocks-field",
+            "tier": "middle",
+            "t": "About 7,000 rebels gathered at Braddock’s Field near Pittsburgh (August 1, 1794)",
+            "k": ["braddock’s field", "pittsburgh", "7,000"],
+            "n": 0
+        },
+        {
+            "id": "bower-hill",
+            "tier": "middle",
+            "t": "Rebels burned Bower Hill, the home of tax inspector John Neville (July 1794)",
+            "k": ["bower hill", "john neville", "neville"],
+            "n": 0
+        },
+        {
+            "id": "lee",
+            "tier": "middle",
+            "t": "Henry “Light-Horse Harry” Lee led the army after Washington rode out with it as far as Bedford, Pennsylvania",
+            "k": ["light-horse harry", "bedford", "lee"],
+            "n": 0
+        },
+        {
+            "id": "pardons",
+            "tier": "middle",
+            "t": "Only two men, Philip Wigle and John Mitchell, were convicted of treason, and Washington pardoned both",
+            "k": ["wigle", "treason", "pardoned"],
+            "n": 0
+        },
+        {
+            "id": "shays-contrast",
+            "tier": "middle",
+            "t": "Unlike Shays’ Rebellion under the Articles of Confederation, it was ended by a national army under the Constitution",
+            "k": ["shays", "articles of confederation", "national army"],
+            "n": 0,
+            "rabbit": "Shays’ Rebellion"
+        },
+        {
+            "id": "jefferson-repeal",
+            "tier": "middle",
+            "t": "Thomas Jefferson’s supporters in Congress repealed the tax in 1802",
+            "k": ["jefferson", "repealed", "1802"],
+            "n": 0
+        },
+        {
+            "id": "lenox",
+            "tier": "power",
+            "t": "Federal marshal David Lenox rode with John Neville to serve legal papers on farmers just before Bower Hill was attacked",
+            "k": ["david lenox", "lenox", "marshal"],
+            "n": 0
+        },
+        {
+            "id": "gallatin",
+            "tier": "power",
+            "t": "Albert Gallatin urged farmers to avoid violence at Parkinson’s Ferry (August 1794); he was later Jefferson’s Treasury Secretary",
+            "k": ["albert gallatin", "gallatin", "parkinson’s ferry"],
+            "n": 0
+        },
+        {
+            "id": "wilson",
+            "tier": "power",
+            "t": "Justice James Wilson certified that the courts could not enforce the law, letting the president call out militia under the Militia Act of 1792",
+            "k": ["james wilson", "militia act", "1792"],
+            "n": 0
+        },
+        {
+            "id": "flat-fee",
+            "tier": "power",
+            "t": "Large distillers could pay a flat fee while small producers paid by the gallon; cases were tried in faraway Philadelphia",
+            "k": ["flat fee", "gallon", "philadelphia"],
+            "n": 0
+        },
+        {
+            "id": "tom-the-tinker",
+            "tier": "power",
+            "t": "Rebels signed threatening letters “Tom the Tinker” and put up liberty poles",
+            "k": ["tom the tinker", "tinker", "liberty poles"],
+            "n": 0
+        },
+        {
+            "id": "self-created",
+            "tier": "power",
+            "t": "Washington blamed “self-created societies,” the Democratic-Republican clubs, in a November 1794 speech to Congress",
+            "k": ["self-created societies", "democratic-republican", "november"],
+            "n": 0
+        },
+        {
+            "id": "first-tax",
+            "tier": "power",
+            "t": "It was the first federal tax on a product made inside the United States",
+            "k": ["first federal tax", "product"],
+            "n": 0
+        },
+        {
+            "id": "brackenridge",
+            "tier": "power",
+            "t": "Hugh Henry Brackenridge, author of _Modern Chivalry_, tried to steer the rebels away from violence",
+            "k": ["brackenridge", "modern chivalry"],
+            "n": 0
+        },
+        {
+            "id": "bradford",
+            "tier": "power",
+            "t": "Radical leader David Bradford fled to Spanish territory; John Adams later pardoned him",
+            "k": ["david bradford", "bradford", "spanish"],
+            "n": 0
+        },
+        {
+            "id": "mississippi",
+            "tier": "power",
+            "t": "Spain had closed the lower Mississippi River to American shipping, adding to frontier anger",
+            "k": ["mississippi", "spain", "shipping"],
+            "n": 0
+        },
+        {
+            "id": "amnesty",
+            "tier": "power",
+            "t": "Peace commissioners offered amnesty for a promise to obey the law, but too few signed",
+            "k": ["amnesty", "commissioners"],
+            "n": 0
+        },
+        {
+            "id": "four-states",
+            "tier": "power",
+            "t": "The militia came from four states: Pennsylvania, New Jersey, Maryland, and Virginia",
+            "k": ["four states", "new jersey", "maryland"],
+            "n": 0
+        },
+        {
+            "id": "fries",
+            "tier": "power",
+            "t": "Not to be confused with Fries’s Rebellion (1799), a later revolt in eastern Pennsylvania over a tax on houses and land",
+            "k": ["fries", "1799", "houses and land"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Whiskey, Shays’, or Fries’s?",
+        "body": "Three early tax revolts get mixed up. Shays’ Rebellion (1786–1787) was led by Daniel Shays in Massachusetts under the Articles of Confederation; the Whiskey Rebellion (1791–1794) was in western Pennsylvania against Hamilton’s tax on liquor; and Fries’s Rebellion (1799) was in eastern Pennsylvania against a tax on houses and land, ending with a pardon from John Adams.",
+        "fix": "Massachusetts, Daniel Shays, and the Springfield arsenal mean Shays’; Pittsburgh, Braddock’s Field, stills, and Washington’s militia mean Whiskey; John Fries and John Adams mean Fries’s. The Whiskey Ring was a separate scandal under Ulysses S. Grant.",
+        "line": "Real answer line: <b><u>Whiskey Rebellion</u></b> (accept <u>Whiskey Insurrection</u>; do not accept “Shays’ Rebellion” or “Fries’s Rebellion”)"
+    },
+    "tests": {
+        "right": [
+            "Whiskey Rebellion",
+            "the Whisky Rebellion",
+            "Whiskey Insurrection",
+            "Wiskey Rebellion"
+        ],
+        "prompt": [
+            "Whiskey"
+        ],
+        "wrong": [
+            "Shays' Rebellion",
+            "Fries's Rebellion",
+            "Whiskey Ring",
+            "Bacon's Rebellion",
+            "Alexander Hamilton",
+            "Boston Tea Party"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -26,13 +26,15 @@ data = {
         "tennessee v john t scopes",
         "state of tennessee v john thomas scopes",
         "scopes v state",
-        "scopes v tennessee"
+        "scopes v tennessee",
+        "state v scopes"
     ],
     "prompt": [
         "scopes",
         "john scopes",
         "john t scopes",
-        "john thomas scopes"
+        "john thomas scopes",
+        "scopes monkey"
     ],
     "reject": [
         "butler act",

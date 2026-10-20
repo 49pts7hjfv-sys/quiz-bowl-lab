@@ -78,7 +78,7 @@ data = {
     "tossups": [
         {
             "p": "Governor Alexander Spotswood of this colony sent the naval force that killed the pirate Blackbeard near Ocracoke Island in 1718. Spotswood also led an expedition across the Blue Ridge Mountains whose members were later called the Knights of the Golden Horseshoe.",
-            "r": "For 10 points, name this English colony whose first permanent settlement was Jamestown."
+            "r": "Its capital by then was Williamsburg. For 10 points, name this English colony whose first permanent settlement was Jamestown."
         },
         {
             "p": "This colony’s last royal governor, Lord Dunmore, issued a 1775 proclamation promising freedom to enslaved people who left Patriot owners to fight for the British. A year earlier, Dunmore had led a war against the Shawnee that was named for him.",
@@ -86,10 +86,10 @@ data = {
         },
         {
             "p": "In the 1580s, Sir Walter Raleigh named the land later claimed by this colony in honor of Elizabeth I, the “Virgin Queen,” long before any lasting settlement was made there. Raleigh’s own failed colony stood on Roanoke Island, in what is now North Carolina.",
-            "r": "For 10 points, name this English colony founded at Jamestown in 1607."
+            "r": "John Smith and John Rolfe later lived in this colony. For 10 points, name this English colony founded at Jamestown in 1607."
         },
         {
-            "p": "On July 30, 1619, Governor George Yeardley opened this colony’s first General Assembly inside a church, making it the first elected lawmaking body in English America. Its elected members were called burgesses.",
+            "p": "On July 30, 1619, Governor George Yeardley opened this colony’s first General Assembly inside a church, making it the first elected lawmaking body in English America. Its elected members, two from each of the colony’s settlements, were called burgesses.",
             "r": "That assembly met at Jamestown. For 10 points, name this colony, where the House of Burgesses met."
         },
         {
@@ -102,15 +102,15 @@ data = {
         },
         {
             "p": "Sir Thomas Dale enforced a harsh code called the “Laws Divine, Moral and Martial” in this colony, where settlers could be whipped for missing church. Earlier, the winter of 1609 to 1610 was so terrible that settlers called it the “Starving Time.”",
-            "r": "For 10 points, name this English colony whose first settlement was Jamestown."
+            "r": "Before that, John Smith had warned settlers that those who would not work would not eat. For 10 points, name this English colony whose first settlement was Jamestown."
         },
         {
-            "p": "The wreck of the _Sea Venture_ on Bermuda in 1609 delayed help for this colony, and in 1610 its new governor, Lord De La Warr, arrived just as hungry settlers were about to give up and sail home. A river, and later a state, were named for that governor.",
-            "r": "For 10 points, name this English colony founded at Jamestown in 1607."
+            "p": "The 1609 wreck of the _Sea Venture_ on Bermuda delayed help for this colony. In 1610, its new governor, Lord De La Warr, arrived just as hungry settlers were about to sail home, and a river was later named for him.",
+            "r": "John Rolfe survived that shipwreck. For 10 points, name this English colony founded at Jamestown in 1607."
         },
         {
             "p": "After Opechancanough’s [“oh-puh-CHAN-kuh-noh”] 1622 attack killed about a quarter of this colony’s English settlers, King James I took away the London Company’s charter. In 1624, this colony came under the king’s direct control, with governors chosen by the Crown.",
-            "r": "For 10 points, name this colony whose first permanent settlement was Jamestown."
+            "r": "John Smith had once led this colony’s first settlement. For 10 points, name this colony founded at Jamestown in 1607."
         },
         {
             "p": "The Wren Building at this colony’s College of William & Mary, founded in 1693, is the oldest college building still in use in the United States. In 1699, this colony moved its capital to Middle Plantation, which was renamed Williamsburg.",
@@ -121,7 +121,7 @@ data = {
             "r": "That crop was tobacco, first grown for export by John Rolfe, the husband of Pocahontas. For 10 points, name this colony."
         },
         {
-            "p": "This colony’s nickname, “the Old Dominion,” supposedly honors its loyalty to the Crown during the English Civil War. George Washington, Thomas Jefferson, and Patrick Henry all served in its legislature.",
+            "p": "This colony’s nickname, “the Old Dominion,” supposedly honors its loyalty to the Crown during the English Civil War. George Washington, Thomas Jefferson, and Patrick Henry all served in its legislature, which met at Williamsburg after 1699.",
             "r": "For 10 points, name this colony, whose House of Burgesses first met at Jamestown in 1619."
         },
         {

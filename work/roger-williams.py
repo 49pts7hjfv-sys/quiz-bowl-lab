@@ -18,7 +18,8 @@ data = {
         "williams"
     ],
     "prompt": [
-        "roger"
+        "roger",
+        "william"
     ],
     "reject": [
         "rhode island",
@@ -37,7 +38,9 @@ data = {
         "tennessee williams",
         "william carlos williams",
         "ralph vaughan williams",
-        "roger sherman"
+        "roger sherman",
+        "william i",
+        "william the conqueror"
     ],
     "media": [],
     "mediaPending": True,
@@ -314,7 +317,8 @@ data = {
             "Reverend Roger Williams"
         ],
         "prompt": [
-            "Roger"
+            "Roger",
+            "William"
         ],
         "wrong": [
             "Rhode Island",
@@ -322,7 +326,8 @@ data = {
             "Thomas Hooker",
             "William Penn",
             "Tennessee Williams",
-            "John Winthrop"
+            "John Winthrop",
+            "William I"
         ]
     }
 }

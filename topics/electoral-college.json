@@ -1,0 +1,452 @@
+{
+  "id": "electoral-college",
+  "name": "Electoral College",
+  "mono": "EC",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "How Americans choose a president · 538 electors, 270 votes to win",
+  "dates": "Created 1787 (Article II)",
+  "briefing": "When Americans vote for president, they are really choosing electors, who cast the official votes weeks later. The framers of the Constitution created this system in 1787 as a compromise between letting Congress pick the president and letting the people vote directly. Since 1964, there have been 538 electors, and a candidate needs 270 of their votes to win, so a candidate can win the most votes nationwide and still lose.",
+  "answerHtml": "<b><u>Electoral College</u></b> (prompt on <u>electors</u> or <u>electoral votes</u>; do not accept “popular vote”)",
+  "accept": [
+    "electoral college",
+    "the electoral college",
+    "us electoral college",
+    "united states electoral college",
+    "electoral colleges"
+  ],
+  "prompt": [
+    "electors",
+    "the electors",
+    "presidential electors",
+    "electoral votes",
+    "electoral vote",
+    "electoral"
+  ],
+  "reject": [
+    "popular vote",
+    "national popular vote",
+    "national popular vote interstate compact",
+    "electoral commission",
+    "electoral count act",
+    "electorate",
+    "house of representatives",
+    "the house",
+    "congress",
+    "senate",
+    "us senate",
+    "twelfth amendment",
+    "12th amendment",
+    "twenty third amendment",
+    "23rd amendment",
+    "college of cardinals",
+    "constitutional convention"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/United_States_Electoral_College",
+  "qb": {
+    "q": "Electoral College",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In _Chiafalo v. Washington_, the Supreme Court ruled unanimously in 2020 that states may punish members of this body who break their pledge to vote for their party’s candidate. Seven of its members broke their pledges in 2016.",
+      "r": "Such members are called “faithless electors.” For 10 points, name this body of 538 people that formally elects the president."
+    },
+    {
+      "p": "Under the original Constitution, each member of this body cast two votes for president, and the runner-up became vice president. After Thomas Jefferson and his running mate, Aaron Burr, tied in 1800, the Twelfth Amendment made members vote separately for president and vice president.",
+      "r": "For 10 points, name this group of electors, created by Article II of the Constitution, that chooses the president."
+    },
+    {
+      "p": "Alexander Hamilton defended this institution in _Federalist_ No. 68, arguing that a small group of people chosen for that one task should pick the president. The name most people use for this institution does not appear anywhere in the Constitution.",
+      "r": "A candidate needs 270 of its 538 votes to win. For 10 points, name this body that formally elects the U.S. president."
+    },
+    {
+      "p": "Nebraska first split its votes in this system in 2008, when Barack Obama won the congressional district around Omaha. Nebraska and Maine are the only states that give some of their votes in this system to the winner of each congressional district.",
+      "r": "Every other state gives all of its electors to the statewide winner. For 10 points, name this body that formally chooses the president."
+    },
+    {
+      "p": "The Twenty-third Amendment, ratified in 1961, gave Washington, D.C., members in this body, but no more than the least populous state has. As a result, residents of D.C. first voted for president in 1964.",
+      "r": "Each state gets as many electors as it has senators and representatives combined. For 10 points, name this body that elects the president."
+    },
+    {
+      "p": "In 1837, the Senate picked the vice president for the only time, after no candidate for that office won a majority in this institution. The House of Representatives picks the president in that situation, as it did in 1824, when it chose John Quincy Adams.",
+      "r": "For 10 points, name this institution in which a candidate needs 270 of 538 votes to become president."
+    },
+    {
+      "p": "Samuel Tilden in 1876, Grover Cleveland in 1888, Al Gore in 2000, and Hillary Clinton in 2016 all won the most popular votes but lost the presidency because of this institution. In each case, the winner received a majority of this body’s votes.",
+      "r": "For 10 points, name this group of 538 electors, created by the Constitution, that formally elects the president."
+    },
+    {
+      "p": "In 1820, James Monroe won every vote in this body except one, which William Plumer of New Hampshire cast for John Quincy Adams. The only president ever to win all of its votes did so in both 1789 and 1792.",
+      "r": "That president was George Washington. For 10 points, name this body that formally elects the president."
+    },
+    {
+      "p": "After disputes over 20 votes from Florida, Louisiana, South Carolina, and Oregon in 1876, a fifteen-member commission awarded all of them to Rutherford B. Hayes, who won this body’s vote by one.",
+      "r": "An 1887 law set rules for counting its votes. For 10 points, name this body of electors that formally chooses the president."
+    },
+    {
+      "p": "Members of this body meet in their own states in December to cast their votes. On January 6, the vice president, acting as President of the Senate, opens the certificates of those votes in a joint session of Congress, and the votes are counted.",
+      "r": "A majority of its 538 votes elects the president. For 10 points, name this body."
+    },
+    {
+      "p": "The number of votes each state has in this institution can change after every census, because it equals the state’s number of senators plus its number of representatives. No state has fewer than three.",
+      "r": "California has the most. For 10 points, name this institution, in which a candidate needs 270 votes to win the presidency."
+    },
+    {
+      "p": "George Wallace won 46 votes in this body in 1968, and Strom Thurmond won 39 in 1948, both running outside the two major parties. Ross Perot won almost 19 percent of the popular vote in 1992 but none of this body’s votes.",
+      "r": "A candidate needs 270 of its 538 votes. For 10 points, name this body that formally elects the president."
+    },
+    {
+      "p": "The Constitution lets each state legislature decide how to choose members of this body, and South Carolina’s legislature picked them itself, without a popular vote, through 1860. Members of Congress are not allowed to serve in this body.",
+      "r": "For 10 points, name this body of 538 electors that formally chooses the president and vice president."
+    },
+    {
+      "p": "States that join the National Popular Vote Interstate Compact agree to give all their votes in this body to whichever candidate wins the most votes nationwide. The compact takes effect only once states holding a majority of this body’s votes have joined.",
+      "r": "That majority is 270 of 538. For 10 points, name this body that formally elects the president."
+    },
+    {
+      "p": "In 1984, Ronald Reagan won 525 votes in this body, the most ever, while Walter Mondale carried only his home state of Minnesota and Washington, D.C. Four years earlier, Reagan had won 489 of its votes.",
+      "r": "For 10 points, name this body of 538 electors that formally elects the president and vice president."
+    }
+  ],
+  "clues": [
+    {
+      "id": "elects-president",
+      "tier": "giveaway",
+      "t": "The body of electors that formally elects the U.S. president and vice president",
+      "k": [
+        "electors",
+        "president"
+      ],
+      "n": 0
+    },
+    {
+      "id": "538-270",
+      "tier": "giveaway",
+      "t": "Has 538 electors in all; a candidate needs a majority, 270, to win",
+      "k": [
+        "majority",
+        "538",
+        "270"
+      ],
+      "n": 0
+    },
+    {
+      "id": "senators-representatives",
+      "tier": "giveaway",
+      "t": "Each state gets as many electors as it has senators plus representatives, so every state has at least three; California has the most",
+      "k": [
+        "senators",
+        "representatives",
+        "california"
+      ],
+      "n": 0
+    },
+    {
+      "id": "popular-vote-loss",
+      "tier": "giveaway",
+      "t": "A candidate can win the national popular vote but lose, as Al Gore did in 2000 and Hillary Clinton did in 2016",
+      "k": [
+        "popular vote",
+        "al gore",
+        "hillary clinton"
+      ],
+      "n": 0,
+      "rabbit": "Election of 2000"
+    },
+    {
+      "id": "article-ii",
+      "tier": "middle",
+      "t": "Created by Article II of the Constitution (1787) as a compromise between a vote by Congress and a direct popular vote",
+      "k": [
+        "article ii",
+        "compromise",
+        "1787"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twelfth",
+      "tier": "middle",
+      "t": "The 12th Amendment (1804) made electors vote separately for president and vice president after the Jefferson–Burr tie of 1800",
+      "k": [
+        "12th amendment",
+        "1804",
+        "burr",
+        "tie"
+      ],
+      "n": 0,
+      "rabbit": "Thomas Jefferson"
+    },
+    {
+      "id": "twenty-third",
+      "tier": "middle",
+      "t": "The 23rd Amendment (1961) gave Washington, D.C., three electors, no more than the least populous state",
+      "k": [
+        "23rd amendment",
+        "1961",
+        "least populous"
+      ],
+      "n": 0,
+      "rabbit": "Washington, D.C."
+    },
+    {
+      "id": "winner-take-all",
+      "tier": "middle",
+      "t": "Forty-eight states give all their electors to the statewide winner (“winner-take-all”)",
+      "k": [
+        "winner-take-all",
+        "statewide",
+        "forty-eight"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maine-nebraska",
+      "tier": "middle",
+      "t": "Maine and Nebraska can split their votes, giving some to the winner of each congressional district",
+      "k": [
+        "maine",
+        "nebraska",
+        "congressional district"
+      ],
+      "n": 0
+    },
+    {
+      "id": "house-decides",
+      "tier": "middle",
+      "t": "If no one wins a majority, the House of Representatives picks the president (one vote per state), as in 1824, when it chose John Quincy Adams",
+      "k": [
+        "house of representatives",
+        "1824",
+        "john quincy adams"
+      ],
+      "n": 0,
+      "rabbit": "Election of 1824"
+    },
+    {
+      "id": "faithless",
+      "tier": "middle",
+      "t": "“Faithless electors” vote for someone other than the candidate they pledged to support",
+      "k": [
+        "faithless",
+        "pledged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "washington-unanimous",
+      "tier": "middle",
+      "t": "George Washington is the only president to win all of its votes, in both 1789 and 1792",
+      "k": [
+        "george washington",
+        "1789",
+        "1792"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tilden-cleveland",
+      "tier": "middle",
+      "t": "Samuel Tilden (1876) and Grover Cleveland (1888) also won the most popular votes but lost",
+      "k": [
+        "samuel tilden",
+        "tilden",
+        "grover cleveland",
+        "1888"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chiafalo",
+      "tier": "power",
+      "t": "Seven electors broke their pledges in 2016; in _Chiafalo v. Washington_ (2020), the Supreme Court ruled unanimously that states may punish such electors",
+      "k": [
+        "chiafalo",
+        "unanimously",
+        "2020"
+      ],
+      "n": 0
+    },
+    {
+      "id": "federalist-68",
+      "tier": "power",
+      "t": "Alexander Hamilton defended it in _Federalist_ No. 68",
+      "k": [
+        "federalist",
+        "hamilton",
+        "no. 68"
+      ],
+      "n": 0,
+      "rabbit": "The Federalist Papers"
+    },
+    {
+      "id": "not-in-constitution",
+      "tier": "power",
+      "t": "Its common name never appears in the Constitution, which calls its members simply “electors”",
+      "k": [
+        "common name",
+        "never appears"
+      ],
+      "n": 0
+    },
+    {
+      "id": "runner-up",
+      "tier": "power",
+      "t": "Under the original Constitution, each elector cast two votes for president, and the runner-up became vice president",
+      "k": [
+        "two votes",
+        "runner-up"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nebraska-2008",
+      "tier": "power",
+      "t": "Nebraska first split its votes in 2008, when Barack Obama won the district around Omaha; Maine first split its votes in 2016",
+      "k": [
+        "omaha",
+        "2008",
+        "obama"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monroe-1820",
+      "tier": "power",
+      "t": "In 1820, James Monroe won every vote but one, which William Plumer cast for John Quincy Adams",
+      "k": [
+        "william plumer",
+        "plumer",
+        "monroe",
+        "1820"
+      ],
+      "n": 0,
+      "rabbit": "James Monroe"
+    },
+    {
+      "id": "commission-1876",
+      "tier": "power",
+      "t": "In 1876, a fifteen-member commission gave all 20 disputed votes to Rutherford B. Hayes, who won by one; an 1887 law set rules for counting votes",
+      "k": [
+        "fifteen-member",
+        "hayes",
+        "1887"
+      ],
+      "n": 0,
+      "rabbit": "Rutherford B. Hayes"
+    },
+    {
+      "id": "january-6",
+      "tier": "power",
+      "t": "Electors meet in their states in December; Congress counts their votes in a joint session on January 6, with the vice president presiding",
+      "k": [
+        "january 6",
+        "joint session",
+        "december"
+      ],
+      "n": 0
+    },
+    {
+      "id": "senate-1837",
+      "tier": "power",
+      "t": "In 1837, the Senate chose the vice president, Richard Mentor Johnson, the only time it has done so",
+      "k": [
+        "1837",
+        "richard mentor johnson",
+        "senate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "third-parties",
+      "tier": "power",
+      "t": "Strom Thurmond won 39 of its votes (1948) and George Wallace won 46 (1968) outside the major parties; Ross Perot (1992) won none",
+      "k": [
+        "strom thurmond",
+        "george wallace",
+        "ross perot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "south-carolina",
+      "tier": "power",
+      "t": "State legislatures decide how electors are chosen; South Carolina’s legislature picked them itself, without a popular vote, through 1860",
+      "k": [
+        "south carolina",
+        "legislature",
+        "1860"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-congress",
+      "tier": "power",
+      "t": "Members of Congress and other federal officials may not serve as electors",
+      "k": [
+        "members of congress",
+        "federal officials"
+      ],
+      "n": 0
+    },
+    {
+      "id": "npvic",
+      "tier": "power",
+      "t": "National Popular Vote Interstate Compact: member states would give their votes to the national popular-vote winner once they hold 270 votes",
+      "k": [
+        "interstate compact",
+        "compact",
+        "national popular vote"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reagan-525",
+      "tier": "power",
+      "t": "Ronald Reagan won 525 of its votes in 1984, the most ever; Walter Mondale carried only Minnesota and D.C.",
+      "k": [
+        "reagan",
+        "525",
+        "1984",
+        "mondale"
+      ],
+      "n": 0,
+      "rabbit": "Ronald Reagan"
+    }
+  ],
+  "trap": {
+    "title": "Which body decides?",
+    "body": "Clues for this answer line mention several groups: the House picks the president if no one wins a majority, the Senate picks the vice president in that case, and Congress counts the votes on January 6. Those clues tempt players to answer “House of Representatives” or “Congress.” Clues about popular-vote losers like Al Gore can also tempt an answer of “popular vote” or a specific election.",
+    "fix": "If the question asks for “this body,” “this institution,” or “this system” with 538 members, 270 votes to win, changes made by the 12th and 23rd Amendments, or “faithless” members, say “Electoral College.” Saying only “electors” earns a prompt, so be ready to give the full name.",
+    "line": "Real answer line: <b><u>Electoral College</u></b> (prompt on <u>electors</u>)"
+  },
+  "tests": {
+    "right": [
+      "Electoral College",
+      "the Electoral College",
+      "Electoral Collage",
+      "electorial college",
+      "U.S. Electoral College"
+    ],
+    "prompt": [
+      "electors",
+      "electoral votes"
+    ],
+    "wrong": [
+      "popular vote",
+      "House of Representatives",
+      "Congress",
+      "Electoral Commission",
+      "12th Amendment",
+      "College of Cardinals"
+    ]
+  }
+}

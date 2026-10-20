@@ -77,7 +77,7 @@ data = {
             "r": "That part was a naval blockade of Southern ports. For 10 points, name this Union strategy proposed by Winfield Scott."
         },
         {
-            "p": "The capture of Fort Fisher in January 1865 closed Wilmington, North Carolina, the last major Confederate port still used by ships slipping past one part of this plan. Those low, fast steamers often carried cotton out to Nassau or Bermuda and brought weapons back.",
+            "p": "The capture of Fort Fisher in January 1865 closed Wilmington, North Carolina, the most important port the Confederacy had left for ships slipping past one part of this plan. Those low, fast steamers often carried cotton out to Nassau or Bermuda and brought weapons back.",
             "r": "Those ships were called blockade runners. For 10 points, name this Union strategy of Winfield Scott, named for a snake that squeezes its prey."
         },
         {
@@ -257,7 +257,7 @@ data = {
         {
             "id": "fort-fisher",
             "tier": "power",
-            "t": "Fort Fisher fell in January 1865, closing Wilmington, North Carolina, the last major port for blockade runners",
+            "t": "Fort Fisher fell in January 1865, closing Wilmington, North Carolina, the most important port left for blockade runners",
             "k": ["fort fisher", "wilmington", "january 1865"],
             "n": 0
         },

@@ -22,7 +22,11 @@ data = {
         "salem witch hunt",
         "salem witch hunts",
         "salem witch crisis",
-        "salem trials"
+        "salem trials",
+        "witch trials of salem",
+        "witch trials in salem",
+        "witchcraft trials of salem",
+        "witchcraft trials in salem"
     ],
     "prompt": [
         "witch trials",
@@ -34,7 +38,9 @@ data = {
         "witchcraft",
         "salem",
         "salem village",
-        "salem massachusetts"
+        "salem massachusetts",
+        "salem witch",
+        "salem witches"
     ],
     "reject": [
         "the crucible",

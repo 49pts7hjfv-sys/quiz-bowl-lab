@@ -111,7 +111,7 @@ data = {
             "r": "Years earlier, she had helped found Portsmouth in what became Rhode Island. For 10 points, name this woman who had been banished from Massachusetts Bay after the Antinomian Controversy."
         },
         {
-            "p": "A Puritan governor called this woman the “American Jezebel,” a phrase Eve LaPlante later used as the title of a 2004 biography of her. That governor’s account of her trial was published in 1644 in a book about the “Rise, Reign, and Ruin” of her followers.",
+            "p": "Puritan critics called this woman the “American Jezebel,” a phrase Eve LaPlante later used as the title of a 2004 biography of her. A Puritan governor’s account of her trial was published in 1644 in a book about the “Rise, Reign, and Ruin” of her followers.",
             "r": "That governor was John Winthrop. For 10 points, name this woman banished during the Antinomian Controversy."
         },
         {
@@ -276,7 +276,7 @@ data = {
         {
             "id": "jezebel",
             "tier": "power",
-            "t": "Winthrop called her the “American Jezebel” and described her trial in _A Short Story of the Rise, Reign, and Ruin of the Antinomians_ (1644)",
+            "t": "Puritan critics called her the “American Jezebel”; Winthrop’s account of her trial is in _A Short Story of the Rise, Reign, and Ruin of the Antinomians_ (1644)",
             "k": ["american jezebel", "jezebel", "short story"],
             "n": 0
         },
