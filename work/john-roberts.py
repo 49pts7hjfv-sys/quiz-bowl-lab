@@ -97,7 +97,7 @@ data = {
             "r": "For 10 points, name this man who was confirmed as Chief Justice of the United States in September 2005."
         },
         {
-            "p": "The Senate confirmed this man by a vote of 78 to 22, and at age 50 he became the youngest person to lead his court since John Marshall. He was the 17th person to hold his job.",
+            "p": "The Senate confirmed this man by a vote of 78 to 22, and at age 50 he became the youngest person to lead his court in more than 200 years. He was the 17th person to hold his job.",
             "r": "For 10 points, name this man who succeeded William Rehnquist as Chief Justice of the United States in 2005."
         },
         {
@@ -201,7 +201,7 @@ data = {
         {
             "id": "youngest",
             "tier": "middle",
-            "t": "At 50, the youngest Chief Justice since John Marshall; confirmed 78–22",
+            "t": "At 50, the youngest Chief Justice in more than 200 years (only John Jay and John Marshall started younger); confirmed 78–22",
             "k": ["john marshall", "youngest", "78–22"],
             "n": 0,
             "rabbit": "John Marshall"
@@ -214,17 +214,10 @@ data = {
             "n": 0
         },
         {
-            "id": "harvard",
-            "tier": "power",
-            "t": "Graduated from Harvard College in three years; managing editor of the _Harvard Law Review_",
-            "k": ["harvard law review", "harvard", "three years"],
-            "n": 0
-        },
-        {
             "id": "friendly",
             "tier": "power",
-            "t": "Clerked for Judge Henry Friendly of the Second Circuit before clerking for Rehnquist",
-            "k": ["henry friendly", "friendly", "second circuit"],
+            "t": "Managing editor of the _Harvard Law Review_; clerked for Judge Henry Friendly of the Second Circuit before clerking for Rehnquist",
+            "k": ["henry friendly", "harvard law review", "second circuit"],
             "n": 0
         },
         {
@@ -309,8 +302,8 @@ data = {
         {
             "id": "indiana",
             "tier": "power",
-            "t": "Born in Buffalo, New York (1955); grew up in Long Beach, Indiana; football captain at La Lumiere School",
-            "k": ["buffalo", "long beach", "la lumiere", "indiana"],
+            "t": "Born in Buffalo, New York (1955); grew up in Long Beach, Indiana; football captain at La Lumiere School; finished Harvard College in three years",
+            "k": ["buffalo", "long beach", "la lumiere", "three years"],
             "n": 0
         },
         {
