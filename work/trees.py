@@ -107,7 +107,7 @@ data = {
             "r": "The science he founded is called dendrochronology. For 10 points, name these tall, woody plants whose rings can be counted to find their age."
         },
         {
-            "p": "In 1964, a graduate student studying ice-age glaciers in Nevada cut down a bristlecone pine now known as Prometheus, and counting its rings showed that it was nearly 5,000 years old. In 1957, Edmund Schulman found that another Great Basin bristlecone pine, Methuselah, was more than 4,700 years old.",
+            "p": "In 1964, a graduate student studying glaciers in Nevada cut down a bristlecone pine now known as Prometheus, and counting its rings showed that it was nearly 5,000 years old. In 1957, Edmund Schulman found that another Great Basin bristlecone pine, Methuselah, was more than 4,700 years old.",
             "r": "Most of them add one growth ring each year. For 10 points, name these woody plants, which also include oaks, maples, and redwoods."
         },
         {
@@ -123,7 +123,7 @@ data = {
             "r": "Deciduous ones drop their leaves each fall. For 10 points, name these tall woody plants, such as oaks and pines."
         },
         {
-            "p": "Wangari Maathai won the 2004 Nobel Peace Prize after founding Kenya’s Green Belt Movement in 1977, which planted tens of millions of these plants. J. Sterling Morton of Nebraska created a holiday devoted to planting them, first held in 1872.",
+            "p": "Wangari Maathai won the 2004 Nobel Peace Prize after founding Kenya’s Green Belt Movement, which has planted tens of millions of these plants since 1977. J. Sterling Morton of Nebraska created a holiday devoted to planting them, first held in 1872.",
             "r": "That holiday is Arbor Day. For 10 points, name these woody plants that include oaks and maples."
         },
         {
