@@ -1,0 +1,434 @@
+{
+  "id": "cochlea",
+  "name": "Cochlea",
+  "mono": "CO",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Snail-shaped organ of the inner ear · Turns sound into nerve signals",
+  "dates": "Organ of Corti described in 1851",
+  "briefing": "Coiled up like a snail shell about the size of a pea, the cochlea is the part of your inner ear that actually hears. Sound vibrations make the fluid inside it ripple, and thousands of tiny hair cells bend and turn that motion into electrical signals for your brain. High-pitched sounds are sensed near its base, and low-pitched sounds near its tip.",
+  "answerHtml": "<b><u>Cochlea</u></b> (accept <u>cochleae</u> or <u>cochleas</u>; prompt on <u>inner ear</u>; do not accept “semicircular canals,” “eardrum,” or “ear canal”)",
+  "accept": [
+    "cochlea",
+    "cochleae",
+    "cochleas"
+  ],
+  "prompt": [
+    "inner ear",
+    "inner ears",
+    "internal ear",
+    "labyrinth",
+    "bony labyrinth",
+    "membranous labyrinth"
+  ],
+  "reject": [
+    "semicircular canals",
+    "semicircular canal",
+    "eardrum",
+    "eardrums",
+    "ear drum",
+    "tympanic membrane",
+    "tympanum",
+    "ear canal",
+    "auditory canal",
+    "external auditory canal",
+    "middle ear",
+    "outer ear",
+    "external ear",
+    "pinna",
+    "auricle",
+    "ossicles",
+    "malleus",
+    "incus",
+    "stapes",
+    "hammer",
+    "anvil",
+    "stirrup",
+    "oval window",
+    "round window",
+    "eustachian tube",
+    "vestibule",
+    "vestibular system",
+    "utricle",
+    "saccule",
+    "otoliths",
+    "organ of corti",
+    "basilar membrane",
+    "tectorial membrane",
+    "hair cells",
+    "hair cell",
+    "stereocilia",
+    "cochlear implant",
+    "cochlear implants",
+    "cochlear nerve",
+    "cochlear duct",
+    "auditory nerve",
+    "vestibulocochlear nerve",
+    "retina",
+    "cornea"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Cochlea",
+  "qb": {
+    "q": "cochlea",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Georg von Békésy [“BAY-kay-shee”] won the 1961 Nobel Prize in Physiology or Medicine for showing that sound sends a traveling wave rolling along a membrane inside this organ, peaking at a different spot for each pitch. That membrane, the basilar membrane, supports the organ of Corti.",
+      "r": "For 10 points, name this snail-shaped organ of the inner ear, where hair cells turn sound vibrations into nerve signals."
+    },
+    {
+      "p": "In 1851, the Italian anatomist Alfonso Corti described a strip of sensory cells inside this organ, a structure now named for him. Those hair cells sit on the basilar membrane, beneath a flap of tissue called the tectorial membrane.",
+      "r": "Vibrations reach it through the three tiny bones of the middle ear. For 10 points, name this spiral organ of the inner ear."
+    },
+    {
+      "p": "In the 1860s, Hermann von Helmholtz proposed that different parts of this organ respond to different pitches, much like the strings of a piano. Later research confirmed that each spot along this organ is tuned to its own range of pitches, an arrangement called tonotopy.",
+      "r": "High pitches are sensed near its base. For 10 points, name this snail-shaped part of the inner ear."
+    },
+    {
+      "p": "The basilar membrane inside this organ is narrow and stiff at one end and wide and floppy at the other, so high pitches make the membrane vibrate most near the organ’s base, while low pitches travel all the way to its tip.",
+      "r": "Hair cells in its organ of Corti turn those vibrations into nerve signals. For 10 points, name this spiral organ of hearing."
+    },
+    {
+      "p": "Three rows of outer hair cells in this organ act as an amplifier, stretching and shrinking in time with sound thanks to a motor protein named prestin. A single row of inner hair cells sends most of the sound information to the brain.",
+      "r": "Electronic implants placed inside it can let people with severe hearing loss perceive sound. For 10 points, name this snail-shaped organ."
+    },
+    {
+      "p": "This organ produces faint sounds of its own, called otoacoustic emissions, which a tiny microphone in the ear canal can pick up. Hospitals measure those sounds to screen the hearing of newborn babies. The sounds come from its outer hair cells.",
+      "r": "Its organ of Corti sits on the basilar membrane. For 10 points, name this fluid-filled, spiral part of the inner ear."
+    },
+    {
+      "p": "The middle chamber of this organ, the scala media, is filled with endolymph, an unusual fluid packed with potassium supplied by a strip of tissue called the stria vascularis [“STRY-uh vas-kyoo-LAIR-iss”]. Potassium rushing into hair cells from that fluid helps trigger nerve signals.",
+      "r": "Its hair cells sit in the organ of Corti. For 10 points, name this snail-shaped organ of hearing in the inner ear."
+    },
+    {
+      "p": "Reissner’s [“RICE-nurz”] membrane separates two of the three fluid-filled tubes that coil through this organ: the scala vestibuli [“ves-TIB-yoo-lye”] and the scala media. The third tube, the scala tympani, lies below the basilar membrane.",
+      "r": "Vibrations from the stapes enter it through the oval window. For 10 points, name this spiral organ of the inner ear."
+    },
+    {
+      "p": "At the tip of this organ, an opening called the helicotrema [“hel-ih-koh-TREE-muh”] connects two of its fluid-filled chambers. When vibrations push fluid through this organ, a thin membrane called the round window bulges outward to relieve the pressure.",
+      "r": "Low pitches are sensed near its tip. For 10 points, name this snail-shaped organ that turns sound into nerve signals."
+    },
+    {
+      "p": "Australian surgeon Graeme Clark developed a multichannel electronic implant for this organ that was first placed in a patient in 1978. Such implants thread a row of electrodes into this organ to stimulate the auditory nerve directly, bypassing damaged hair cells.",
+      "r": "Its name comes from an ancient word for “snail shell.” For 10 points, name this spiral organ of the inner ear."
+    },
+    {
+      "p": "Very loud music or machinery can permanently destroy the hair cells in this organ, since in humans and other mammals those cells do not grow back. Birds, however, can regrow the hair cells in their version of this organ.",
+      "r": "Electronic implants can be placed in it. For 10 points, name this snail-shaped organ of the inner ear."
+    },
+    {
+      "p": "When the stiff, actin-filled stereocilia [“steer-ee-oh-SIL-ee-uh”] on top of this organ’s sensory cells bend, tiny filaments called tip links pull open ion channels, letting charged particles rush in. That turns a mechanical push into an electrical signal.",
+      "r": "Those sensory cells are called hair cells. For 10 points, name this spiral, fluid-filled organ of hearing in the inner ear."
+    },
+    {
+      "p": "This organ coils between two and three times around a spongy, bony core called the modiolus [“moh-DY-uh-lus”], which holds the spiral ganglion. Nerve fibers from that ganglion join the eighth cranial nerve, which also carries balance signals from the semicircular canals.",
+      "r": "Its hair cells sit on the basilar membrane. For 10 points, name this snail-shaped organ of hearing."
+    },
+    {
+      "p": "Age-related hearing loss, called presbycusis [“prez-bih-KYOO-sis”], usually strikes the highest pitches first, because hair cells near the base of this organ wear out earliest. Young people can hear pitches up to about 20,000 hertz, but that limit drops with age.",
+      "r": "Its organ of Corti turns vibrations into nerve signals. For 10 points, name this spiral, fluid-filled part of the inner ear."
+    },
+    {
+      "p": "Locked deep inside the temporal bone of the skull, this organ receives vibrations when the stapes [“STAY-peez”], the smallest bone in the body, rocks against a membrane called the oval window. Along with the semicircular canals and the vestibule, this organ makes up the bony labyrinth.",
+      "r": "Unlike those balance organs, it is used for hearing. For 10 points, name this snail-shaped organ of the inner ear."
+    }
+  ],
+  "clues": [
+    {
+      "id": "snail-shaped",
+      "tier": "giveaway",
+      "t": "Snail-shaped, spiral organ of the inner ear",
+      "k": [
+        "snail-shaped",
+        "spiral",
+        "inner ear"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hearing",
+      "tier": "giveaway",
+      "t": "The organ of hearing: it turns sound vibrations into nerve signals for the brain",
+      "k": [
+        "hearing",
+        "vibrations",
+        "nerve signals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fluid-filled",
+      "tier": "giveaway",
+      "t": "Filled with fluid that ripples when vibrations arrive from the middle ear bones",
+      "k": [
+        "fluid",
+        "middle ear",
+        "ripples"
+      ],
+      "n": 0
+    },
+    {
+      "id": "name-origin",
+      "tier": "giveaway",
+      "t": "Its name comes from an ancient word for “snail shell”",
+      "k": [
+        "snail shell",
+        "ancient word"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hair-cells",
+      "tier": "middle",
+      "t": "Hair cells topped with bundles of stereocilia turn vibrations into electrical signals",
+      "k": [
+        "hair cells",
+        "stereocilia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "organ-of-corti",
+      "tier": "middle",
+      "t": "Its organ of Corti, which holds the hair cells, sits on the basilar membrane",
+      "k": [
+        "organ of corti",
+        "basilar membrane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tonotopy",
+      "tier": "middle",
+      "t": "High pitches are sensed near its base, and low pitches near its tip, or apex",
+      "k": [
+        "high pitches",
+        "low pitches",
+        "apex"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oval-window",
+      "tier": "middle",
+      "t": "The stapes, the smallest bone in the body, pushes on its oval window to send vibrations in",
+      "k": [
+        "stapes",
+        "oval window",
+        "smallest bone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "balance-neighbors",
+      "tier": "middle",
+      "t": "Shares the inner ear with the semicircular canals and vestibule, which handle balance instead",
+      "k": [
+        "semicircular canals",
+        "vestibule",
+        "balance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "implants",
+      "tier": "middle",
+      "t": "Electronic implants threaded inside it stimulate the auditory nerve, letting many people with severe hearing loss perceive sound",
+      "k": [
+        "implants",
+        "auditory nerve",
+        "electronic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-regrowth",
+      "tier": "middle",
+      "t": "Loud noise can destroy its hair cells, which do not grow back in mammals, though birds can regrow theirs",
+      "k": [
+        "loud noise",
+        "grow back",
+        "birds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "presbycusis",
+      "tier": "middle",
+      "t": "Age-related hearing loss (presbycusis) usually hits high pitches first, as hair cells near its base wear out",
+      "k": [
+        "presbycusis",
+        "age-related"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bekesy",
+      "tier": "power",
+      "t": "Georg von Békésy won the 1961 Nobel Prize for showing that sound sends a traveling wave along its basilar membrane",
+      "k": [
+        "békésy",
+        "1961",
+        "traveling wave"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corti-1851",
+      "tier": "power",
+      "t": "Italian anatomist Alfonso Corti described its strip of sensory cells, the organ of Corti, in 1851",
+      "k": [
+        "alfonso corti",
+        "1851",
+        "italian"
+      ],
+      "n": 0
+    },
+    {
+      "id": "helmholtz",
+      "tier": "power",
+      "t": "In the 1860s, Hermann von Helmholtz proposed that different parts of it respond to different pitches, like piano strings",
+      "k": [
+        "helmholtz",
+        "piano strings",
+        "1860s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "basilar-stiffness",
+      "tier": "power",
+      "t": "Its basilar membrane is narrow and stiff at the base but wide and floppy at the tip",
+      "k": [
+        "narrow",
+        "stiff",
+        "floppy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prestin",
+      "tier": "power",
+      "t": "One row of inner hair cells sends most signals to the brain; three rows of outer hair cells amplify sound using the motor protein prestin",
+      "k": [
+        "prestin",
+        "outer hair cells",
+        "three rows"
+      ],
+      "n": 0
+    },
+    {
+      "id": "otoacoustic",
+      "tier": "power",
+      "t": "Its outer hair cells give off faint sounds called otoacoustic emissions, which hospitals measure to screen newborns’ hearing",
+      "k": [
+        "otoacoustic emissions",
+        "newborns"
+      ],
+      "n": 0
+    },
+    {
+      "id": "endolymph",
+      "tier": "power",
+      "t": "Its middle chamber, the scala media, holds potassium-rich endolymph supplied by the stria vascularis",
+      "k": [
+        "endolymph",
+        "potassium",
+        "stria vascularis",
+        "scala media"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-chambers",
+      "tier": "power",
+      "t": "Three fluid-filled tubes run through it: scala vestibuli, scala media, and scala tympani; Reissner’s membrane separates the first two",
+      "k": [
+        "scala vestibuli",
+        "scala tympani",
+        "reissner’s membrane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "helicotrema",
+      "tier": "power",
+      "t": "The helicotrema at its tip connects two chambers; the round window bulges outward to release pressure",
+      "k": [
+        "helicotrema",
+        "round window"
+      ],
+      "n": 0
+    },
+    {
+      "id": "graeme-clark",
+      "tier": "power",
+      "t": "Australian surgeon Graeme Clark developed a multichannel implant for it, first placed in a patient in 1978",
+      "k": [
+        "graeme clark",
+        "1978",
+        "multichannel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tip-links",
+      "tier": "power",
+      "t": "Tip links between actin-filled stereocilia pull ion channels open when the bundles bend",
+      "k": [
+        "tip links",
+        "ion channels",
+        "actin-filled"
+      ],
+      "n": 0,
+      "rabbit": "Actin"
+    },
+    {
+      "id": "modiolus",
+      "tier": "power",
+      "t": "Coils two to three times around a bony core, the modiolus, inside the temporal bone; its nerve joins cranial nerve VIII",
+      "k": [
+        "modiolus",
+        "temporal bone",
+        "cranial nerve"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which part of the ear?",
+    "body": "Ear tossups pile up parts with similar names, and only one is the snail-shaped hearing organ. The eardrum and the ear canal belong to the outer and middle ear, the stapes and the oval window pass vibrations along, and the semicircular canals, right next door in the inner ear, sense balance rather than sound. Saying just “inner ear” only earns a prompt, and naming the organ of Corti or the basilar membrane names one part of the answer instead of the whole organ.",
+    "fix": "Snail shape, hair cells, the organ of Corti, Békésy, or high pitches at the base mean cochlea. Balance, spinning, or three loops set at right angles mean semicircular canals. If you are prompted on “inner ear,” say cochlea.",
+    "line": "Real answer line: <b><u>Cochlea</u></b> (accept <u>cochleae</u> or <u>cochleas</u>; prompt on <u>inner ear</u>; do not accept “semicircular canals,” “eardrum,” or “ear canal”)"
+  },
+  "tests": {
+    "right": [
+      "Cochlea",
+      "cochleae",
+      "Cochlear",
+      "Cocklea",
+      "the cochlea"
+    ],
+    "prompt": [
+      "Inner ear",
+      "Labyrinth"
+    ],
+    "wrong": [
+      "Semicircular canals",
+      "Eardrum",
+      "Ear canal",
+      "Organ of Corti",
+      "Cochlear implant",
+      "Stapes",
+      "Retina"
+    ]
+  }
+}

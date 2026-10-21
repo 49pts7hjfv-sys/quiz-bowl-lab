@@ -1,0 +1,335 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "iran-contra-affair",
+    "name": "Iran-Contra affair",
+    "mono": "IC",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1980s Reagan administration scandal · Arms to Iran, money to the Contras",
+    "dates": "1985–1987",
+    "briefing": "In November 1986, Americans learned that officials in Ronald Reagan’s administration had secretly sold missiles to Iran, hoping to win freedom for American hostages held in Lebanon. Weeks later, the attorney general announced that some of the profits had gone to the Contras, rebels fighting Nicaragua’s government, even though Congress had banned that aid. Televised hearings, a presidential commission, and a years-long independent counsel investigation followed.",
+    "answerHtml": "<b><u>Iran-Contra</u></b> affair (or <b><u>Iran-Contra</u></b> scandal; accept <u>Irangate</u> or <u>Contragate</u>; prompt on partial answers; do not accept “Watergate” or “Iran hostage crisis”)",
+    "accept": [
+        "iran contra affair",
+        "iran contra",
+        "the iran contra affair",
+        "iran contra scandal",
+        "iran contra controversy",
+        "irangate",
+        "contragate"
+    ],
+    "prompt": [
+        "iran",
+        "contra",
+        "contras",
+        "contra affair",
+        "contra scandal",
+        "iran affair",
+        "iran scandal",
+        "arms for hostages",
+        "arms for hostages scandal"
+    ],
+    "reject": [
+        "watergate",
+        "watergate scandal",
+        "iran hostage crisis",
+        "hostage crisis",
+        "teapot dome",
+        "teapot dome scandal",
+        "whitewater",
+        "abscam",
+        "pentagon papers",
+        "credit mobilier",
+        "whiskey ring",
+        "boland amendment",
+        "tower commission",
+        "oliver north",
+        "john poindexter",
+        "robert mcfarlane",
+        "caspar weinberger",
+        "lawrence walsh",
+        "ronald reagan",
+        "reagan",
+        "george h w bush",
+        "reagan doctrine",
+        "sandinistas",
+        "sandinista",
+        "nicaraguan revolution",
+        "iran iraq war",
+        "iran nuclear deal",
+        "operation eagle claw",
+        "bay of pigs",
+        "bay of pigs invasion",
+        "xyz affair"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+    "qb": {
+        "q": "Iran-Contra",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "A Lebanese magazine, _Ash-Shiraa_, first exposed this scandal on November 3, 1986, by reporting a secret American visit to Tehran. A month earlier, Eugene Hasenfus, an American cargo handler, had been captured after his supply plane was shot down over Central America.",
+            "r": "For 10 points, name this Reagan administration scandal involving secret arms sales to Iran and aid to Nicaraguan rebels."
+        },
+        {
+            "p": "On November 25, 1986, Attorney General Edwin Meese announced that money from secret weapons sales had been diverted to rebel fighters, and National Security Adviser John Poindexter resigned that day.",
+            "r": "Marine officer Oliver North was fired from the National Security Council staff. For 10 points, name this scandal of Ronald Reagan’s second term."
+        },
+        {
+            "p": "Congressman Edward Boland gave his name to amendments passed in 1982 and 1984 that limited U.S. aid to a group of rebels, and this scandal grew out of secret efforts to keep funding those rebels anyway.",
+            "r": "Those rebels were the Contras in Nicaragua. For 10 points, name this Reagan-era scandal that also involved selling weapons to Iran."
+        },
+        {
+            "p": "A commission led by former Texas senator John Tower, with Edmund Muskie and Brent Scowcroft, issued a 1987 report on this scandal that criticized the president’s hands-off management style. The president had appointed that commission in December 1986.",
+            "r": "For 10 points, name this scandal in which officials sold arms to Iran and secretly sent the profits to Nicaraguan rebels."
+        },
+        {
+            "p": "In a March 1987 speech about this scandal, the president said, “A few months ago I told the American people I did not trade arms for hostages. My heart and my best intentions still tell me that’s true, but the facts and the evidence tell me it is not.”",
+            "r": "For 10 points, name this scandal during Ronald Reagan’s presidency involving Iran and Nicaraguan rebels."
+        },
+        {
+            "p": "Fawn Hall, a secretary on the National Security Council staff, helped her boss shred documents and smuggled other papers out of the office in her boots as investigators closed in on this scandal.",
+            "r": "Her boss, Oliver North, became famous during televised hearings in 1987. For 10 points, name this Reagan-era scandal."
+        },
+        {
+            "p": "In 1989, a jury convicted a Marine lieutenant colonel on three charges connected to this scandal, but an appeals court set aside the verdict because his trial may have been affected by testimony he had given Congress under a grant of immunity.",
+            "r": "That officer, Oliver North, had worked on the National Security Council staff. For 10 points, name this scandal involving arms sales to Iran."
+        },
+        {
+            "p": "Independent counsel Lawrence Walsh, a former federal judge appointed in December 1986, spent more than six years investigating this scandal. He charged 14 people with crimes and won 11 convictions, some of which were later overturned on appeal.",
+            "r": "For 10 points, name this Reagan administration scandal in which money from secret arms sales to Iran was sent to the Contras."
+        },
+        {
+            "p": "On December 24, 1992, President George H. W. Bush pardoned six people connected to this scandal, including former national security adviser Robert McFarlane and former Secretary of Defense Caspar Weinberger, who was about to stand trial.",
+            "r": "For 10 points, name this scandal from Ronald Reagan’s presidency in which officials sold weapons to Iran and aided Nicaraguan rebels."
+        },
+        {
+            "p": "In 1985, Israel shipped American-made TOW anti-tank missiles to Iran as part of this scandal, and soon afterward the Reverend Benjamin Weir, one of the Americans held hostage in Lebanon, was released. Later shipments included HAWK anti-aircraft missiles and parts.",
+            "r": "For 10 points, name this scandal in which the Reagan administration traded arms for hostages and funded the Contras."
+        },
+        {
+            "p": "Senator Daniel Inouye [“ih-NOH-ay”] and Representative Lee Hamilton led joint congressional hearings on this scandal in the summer of 1987, which millions of Americans watched on television. The committees’ majority and minority reports disagreed about how much blame the president deserved.",
+            "r": "For 10 points, name this scandal in which money from secret arms sales to Iran was sent to rebels in Nicaragua."
+        },
+        {
+            "p": "Retired Air Force general Richard Secord and businessman Albert Hakim ran a secret network of companies and Swiss bank accounts, nicknamed “the Enterprise,” that moved money in this scandal. Iranian middleman Manucher Ghorbanifar [“gor-bah-nee-FAR”] helped arrange the weapons deals.",
+            "r": "Some of that money came from selling missiles to Iran, and some went to the Contras. For 10 points, name this Reagan-era scandal."
+        },
+        {
+            "p": "A U.S. president praised the rebels involved in this scandal as “the moral equal of our Founding Fathers,” as part of his policy of backing groups that fought communist-aligned governments. Those rebels fought the Sandinistas [“san-dih-NEE-stuhs”], whose leader Daniel Ortega had been elected president in 1984.",
+            "r": "For 10 points, name this scandal in which officials secretly sold weapons to Iran and used the profits to help the Contras in Nicaragua."
+        },
+        {
+            "p": "Former national security adviser Robert McFarlane secretly flew to Tehran in May 1986 to meet Iranian officials as part of this scandal, but no hostages were freed during that visit. He later pleaded guilty to withholding information from Congress.",
+            "r": "For 10 points, name this scandal in which the Reagan administration sold arms to Iran to free hostages in Lebanon and funded the Contras."
+        },
+        {
+            "p": "In 1990, former national security adviser John Poindexter, a Navy vice admiral, was convicted of lying to Congress about this scandal, but an appeals court reversed his conviction the next year. He had testified in 1987 that he never told the president about the diversion of funds.",
+            "r": "For 10 points, name this scandal in which money from secret weapons sales to Iran was diverted to the Contras."
+        }
+    ],
+    "clues": [
+        {
+            "id": "reagan",
+            "tier": "giveaway",
+            "t": "Scandal of Ronald Reagan’s second term, revealed in November 1986",
+            "k": ["ronald reagan", "reagan", "1986"],
+            "n": 0,
+            "rabbit": "Ronald Reagan"
+        },
+        {
+            "id": "arms-for-hostages",
+            "tier": "giveaway",
+            "t": "Officials secretly sold missiles to Iran, hoping to free American hostages held in Lebanon",
+            "k": ["hostages", "lebanon", "missiles"],
+            "n": 0
+        },
+        {
+            "id": "nicaragua",
+            "tier": "giveaway",
+            "t": "Profits were sent to the Contras, rebels fighting Nicaragua’s Sandinista government, despite a ban by Congress",
+            "k": ["nicaragua", "sandinista", "rebels"],
+            "n": 0
+        },
+        {
+            "id": "oliver-north",
+            "tier": "middle",
+            "t": "Marine Lieutenant Colonel Oliver North of the National Security Council staff ran much of the operation",
+            "k": ["oliver north", "north", "national security council"],
+            "n": 0
+        },
+        {
+            "id": "boland",
+            "tier": "middle",
+            "t": "The Boland Amendments (1982 and 1984) had limited and then banned U.S. aid to the Contras",
+            "k": ["boland", "amendments"],
+            "n": 0
+        },
+        {
+            "id": "poindexter",
+            "tier": "middle",
+            "t": "National Security Adviser John Poindexter resigned and North was fired on November 25, 1986",
+            "k": ["poindexter", "resigned", "fired"],
+            "n": 0
+        },
+        {
+            "id": "tower",
+            "tier": "middle",
+            "t": "The Tower Commission (1987), led by John Tower, criticized the president’s hands-off management style",
+            "k": ["tower commission", "john tower", "management style"],
+            "n": 0
+        },
+        {
+            "id": "hearings",
+            "tier": "middle",
+            "t": "Televised joint congressional hearings in summer 1987, led by Daniel Inouye and Lee Hamilton",
+            "k": ["hearings", "inouye", "lee hamilton"],
+            "n": 0
+        },
+        {
+            "id": "walsh",
+            "tier": "middle",
+            "t": "Independent counsel Lawrence Walsh charged 14 people; 11 were convicted, though some convictions were overturned",
+            "k": ["lawrence walsh", "walsh", "independent counsel"],
+            "n": 0
+        },
+        {
+            "id": "pardons",
+            "tier": "middle",
+            "t": "George H. W. Bush pardoned six people, including Caspar Weinberger and Robert McFarlane, on December 24, 1992",
+            "k": ["pardoned", "weinberger", "1992"],
+            "n": 0
+        },
+        {
+            "id": "facts-and-evidence",
+            "tier": "middle",
+            "t": "Reagan, March 1987: he had said he “did not trade arms for hostages,” but “the facts and the evidence tell me it is not” true",
+            "k": ["arms for hostages", "facts and the evidence"],
+            "n": 0
+        },
+        {
+            "id": "ash-shiraa",
+            "tier": "power",
+            "t": "First exposed by the Lebanese magazine _Ash-Shiraa_ on November 3, 1986",
+            "k": ["ash-shiraa", "lebanese magazine"],
+            "n": 0
+        },
+        {
+            "id": "hasenfus",
+            "tier": "power",
+            "t": "Eugene Hasenfus was captured after his supply plane was shot down over Nicaragua (October 1986)",
+            "k": ["hasenfus", "supply plane"],
+            "n": 0
+        },
+        {
+            "id": "meese",
+            "tier": "power",
+            "t": "Attorney General Edwin Meese announced the diversion of funds on November 25, 1986",
+            "k": ["meese", "diversion"],
+            "n": 0
+        },
+        {
+            "id": "mcfarlane",
+            "tier": "power",
+            "t": "Robert McFarlane secretly flew to Tehran (May 1986); he later pleaded guilty to withholding information from Congress",
+            "k": ["mcfarlane", "tehran"],
+            "n": 0
+        },
+        {
+            "id": "fawn-hall",
+            "tier": "power",
+            "t": "Secretary Fawn Hall helped shred documents and smuggled papers out of the office in her boots",
+            "k": ["fawn hall", "shred", "boots"],
+            "n": 0
+        },
+        {
+            "id": "north-verdict",
+            "tier": "power",
+            "t": "North’s 1989 conviction was set aside because his trial may have been affected by his immunized testimony to Congress",
+            "k": ["immunized", "1989", "set aside"],
+            "n": 0
+        },
+        {
+            "id": "poindexter-verdict",
+            "tier": "power",
+            "t": "Poindexter’s 1990 conviction was reversed in 1991; he testified that he never told the president about the diversion",
+            "k": ["1990", "reversed"],
+            "n": 0
+        },
+        {
+            "id": "tow-hawk",
+            "tier": "power",
+            "t": "TOW anti-tank and HAWK anti-aircraft missiles went to Iran, some first through Israel (1985); hostage Benjamin Weir was released",
+            "k": ["hawk", "israel", "benjamin weir", "anti-tank"],
+            "n": 0
+        },
+        {
+            "id": "enterprise",
+            "tier": "power",
+            "t": "Richard Secord and Albert Hakim ran “the Enterprise,” a secret money network; Manucher Ghorbanifar was a middleman",
+            "k": ["enterprise", "secord", "ghorbanifar"],
+            "n": 0
+        },
+        {
+            "id": "founding-fathers",
+            "tier": "power",
+            "t": "Reagan called the Contras “the moral equal of our Founding Fathers” (1985); they fought Daniel Ortega’s Sandinistas",
+            "k": ["founding fathers", "moral equal", "ortega"],
+            "n": 0
+        },
+        {
+            "id": "reports",
+            "tier": "power",
+            "t": "The congressional committees’ majority and minority reports disagreed about how much blame the president deserved",
+            "k": ["minority", "majority", "reports"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Two different Iran stories",
+        "body": "Two Iran stories collide here. The Iran hostage crisis (1979–1981), when Iranian students held 52 Americans at the U.S. embassy in Tehran, belongs to Jimmy Carter; those hostages were freed minutes after Ronald Reagan took office. Iran-Contra (1985–1987) involved different hostages, held in Lebanon, and secret arms sales to Iran under Reagan. Watergate (1972–1974), Richard Nixon’s scandal, is another answer players blurt out for any political scandal.",
+        "fix": "Lebanon, missiles, Oliver North, the Contras, Nicaragua, the Boland Amendment, and the Tower Commission mean Iran-Contra. The U.S. embassy in Tehran and 444 days mean the hostage crisis. A break-in, secret tapes, and Nixon mean Watergate.",
+        "line": "Real answer line: <b><u>Iran-Contra</u></b> affair (or <b><u>Iran-Contra</u></b> scandal; prompt on partial answers; do not accept “Iran hostage crisis” or “Watergate”)"
+    },
+    "tests": {
+        "right": [
+            "Iran-Contra affair",
+            "Iran-Contra",
+            "Iran Contra scandal",
+            "Irangate",
+            "Iran-Contra Affiar",
+            "the Iran–Contra affair"
+        ],
+        "prompt": [
+            "Contras",
+            "arms for hostages",
+            "Iran"
+        ],
+        "wrong": [
+            "Watergate",
+            "Iran hostage crisis",
+            "Teapot Dome",
+            "Boland Amendment",
+            "Oliver North",
+            "Ronald Reagan",
+            "Bay of Pigs"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

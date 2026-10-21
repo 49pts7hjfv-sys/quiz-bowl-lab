@@ -72,12 +72,12 @@ data = {
             "r": "In 2013, he leaked secret documents about National Security Agency surveillance programs to journalists. For 10 points, name this American."
         },
         {
-            "p": "After the U.S. government canceled his passport, this man spent about forty days in the transit area of Moscow’s Sheremetyevo [“sheh-reh-MYET-yeh-voh”] Airport in 2013, until Russia granted him temporary asylum. He had planned only to change planes there on his way to Latin America.",
-            "r": "For 10 points, name this former contractor who revealed secret National Security Agency surveillance programs."
+            "p": "After the U.S. government canceled his passport, this man spent about forty days in the transit area of Sheremetyevo [“sheh-reh-MYET-yeh-voh”] Airport in 2013. He had planned only to change planes there on his way to Latin America.",
+            "r": "Russia then granted him temporary asylum. For 10 points, name this former contractor who revealed secret National Security Agency surveillance programs."
         },
         {
-            "p": "Sarah Harrison, a journalist working for WikiLeaks, traveled with this man on his June 2013 flight from Hong Kong to Moscow, even though he had given his secret documents to reporters rather than to WikiLeaks.",
-            "r": "Those reporters included Glenn Greenwald and Laura Poitras. For 10 points, name this former National Security Agency contractor."
+            "p": "Sarah Harrison, a journalist working for WikiLeaks, traveled with this man in June 2013 and stayed with him for months afterward, but he had not given his documents to WikiLeaks.",
+            "r": "They had flown from Hong Kong to Moscow together. For 10 points, name this former NSA contractor who gave his files to Glenn Greenwald."
         },
         {
             "p": "In July 2013, several European countries closed their airspace to a plane carrying Bolivian president Evo Morales, forcing it to land in Vienna, because of rumors that this man was secretly on board.",
@@ -112,11 +112,11 @@ data = {
             "r": "He leaked secret National Security Agency documents in 2013. For 10 points, name this man."
         },
         {
-            "p": "On June 9, 2013, _The Guardian_ posted a video interview, filmed in Hong Kong, in which this 29-year-old revealed that he was the source of a series of stories about government surveillance. He had flown there from his home in Hawaii about three weeks earlier.",
+            "p": "On June 9, 2013, _The Guardian_ posted a video interview, filmed in Hong Kong, in which this 29-year-old revealed his identity as the newspaper’s source. He had flown there from his home in Hawaii about three weeks earlier.",
             "r": "For 10 points, name this man who revealed secret National Security Agency programs such as PRISM."
         },
         {
-            "p": "Russia granted this man temporary asylum in 2013, permanent residency in 2020, and citizenship in 2022, while in the United States he faced charges under the Espionage Act of 1917.",
+            "p": "In June 2013, federal prosecutors charged this man with theft of government property and two crimes under the Espionage Act of 1917, the same law used decades earlier against Daniel Ellsberg.",
             "r": "Supporters call him a whistleblower, while U.S. officials say he harmed national security. For 10 points, name this former NSA contractor."
         },
         {
@@ -154,15 +154,22 @@ data = {
         {
             "id": "russia",
             "tier": "giveaway",
-            "t": "Flew from Hong Kong to Moscow in 2013; Russia gave him asylum (2013), permanent residency (2020), and citizenship (2022)",
-            "k": ["hong kong", "moscow", "asylum", "citizenship"],
+            "t": "Stranded in Moscow in 2013; Russia gave him asylum (2013), permanent residency (2020), and citizenship (2022)",
+            "k": ["moscow", "russia", "asylum", "citizenship"],
+            "n": 0
+        },
+        {
+            "id": "hong-kong",
+            "tier": "middle",
+            "t": "Flew to Hong Kong in May 2013 and met journalists there, then flew on to Moscow in June",
+            "k": ["hong kong", "may 2013"],
             "n": 0
         },
         {
             "id": "espionage-act",
             "tier": "middle",
-            "t": "Charged in 2013 with theft of government property and two crimes under the Espionage Act of 1917",
-            "k": ["espionage act", "1917", "theft"],
+            "t": "Charged in 2013 with theft of government property and two crimes under the Espionage Act of 1917 (also used against Daniel Ellsberg)",
+            "k": ["espionage act", "1917", "theft", "ellsberg"],
             "n": 0
         },
         {

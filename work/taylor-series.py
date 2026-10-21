@@ -1,0 +1,361 @@
+import json
+
+data = {
+    "id": "taylor-series",
+    "name": "Taylor series",
+    "mono": "TAY",
+    "category": "Math",
+    "qbCategory": "Science · Other Science (Math)",
+    "kicker": "A function as an infinite sum · Built from its derivatives at one point",
+    "dates": "Published by Brook Taylor, 1715",
+    "briefing": "A Taylor series rewrites a function as an infinite sum of powers of x, built from the function’s derivatives at a single point. For example, eˣ = 1 + x + x²/2! + x³/3! + …, and adding only the first few terms gives a very close estimate. English mathematician Brook Taylor published the idea in 1715, and adding up terms like these is one way computers and calculators can estimate values like sines, cosines, and powers of e.",
+    "answerHtml": "<b><u>Taylor series</u></b> (or <u>Taylor expansion</u>; accept <u>Taylor polynomial</u>s; prompt on <u>power series</u> or <u>Maclaurin series</u>; do not accept “Fourier series”)",
+    "accept": [
+        "taylor series",
+        "taylor expansion",
+        "taylor expansions",
+        "taylor polynomial",
+        "taylor polynomials",
+        "taylors series",
+        "taylor serie",
+        "taylor series expansion",
+        "brook taylor series",
+        "taylor approximation",
+        "taylor approximations",
+        "taylor maclaurin series"
+    ],
+    "prompt": [
+        "power series",
+        "power series expansion",
+        "maclaurin series",
+        "maclaurin expansion",
+        "maclaurin polynomial",
+        "maclaurin polynomials",
+        "taylor",
+        "series",
+        "infinite series",
+        "taylors theorem",
+        "taylor theorem",
+        "polynomial approximation"
+    ],
+    "reject": [
+        "fourier series",
+        "fourier transform",
+        "laurent series",
+        "geometric series",
+        "harmonic series",
+        "binomial series",
+        "dirichlet series",
+        "brook taylor",
+        "colin maclaurin",
+        "derivative",
+        "derivatives",
+        "integral",
+        "integrals",
+        "convergence",
+        "radius of convergence",
+        "newtons method",
+        "eulers method",
+        "lhopitals rule",
+        "l hopitals rule",
+        "mean value theorem",
+        "fundamental theorem of calculus",
+        "fibonacci sequence",
+        "taylor swift"
+    ],
+    "tests": {
+        "right": [
+            "Taylor series",
+            "Taylor expansion",
+            "Taylor polynomial",
+            "Talyor series",
+            "Taylor’s series"
+        ],
+        "prompt": [
+            "power series",
+            "Maclaurin series",
+            "Taylor"
+        ],
+        "wrong": [
+            "Fourier series",
+            "Laurent series",
+            "geometric series",
+            "derivative",
+            "Brook Taylor"
+        ]
+    },
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Taylor_series",
+    "qb": {
+        "q": "Taylor series",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "James Gregory knew how to build these series by 1671, but they are named for the author of the 1715 book _Methodus Incrementorum Directa et Inversa_. Their special case centered at zero is named for Colin Maclaurin.",
+            "r": "For 10 points, name these infinite series that write a function as a sum of powers using its derivatives at one point."
+        },
+        {
+            "p": "Around 1400, Madhava of Sangamagrama and his followers in Kerala, India, found these kinds of series for sine and cosine, centuries before European mathematicians did. The series for sine uses only odd powers of x, with alternating signs.",
+            "r": "For 10 points, name these infinite series, which build a function from its derivatives at a single point."
+        },
+        {
+            "p": "Plugging i times x into one of these infinite sums for e to the x, then sorting the real and imaginary terms, gives cosine x plus i times sine x, a result called Euler’s formula. That works because these sums for cosine and sine use only even and only odd powers.",
+            "r": "For 10 points, name these series, which write a function as an infinite sum built from its derivatives at one point."
+        },
+        {
+            "p": "Joseph-Louis Lagrange [“luh-GRAHNZH”] found a formula for the remainder, the error left when one of these infinite sums is cut off after a few terms. Stopping one after its first two terms gives the tangent line, also called the linear approximation.",
+            "r": "For 10 points, name these infinite series, such as 1 plus x plus x squared over 2 factorial and so on for e to the x."
+        },
+        {
+            "p": "Keeping just two terms of one of these series shows that the sine of 0.1 is about 0.1 minus 0.001 divided by 6, or about 0.09983, extremely close to the true value. Calculators and computers can estimate values this way.",
+            "r": "For 10 points, name these series that rewrite a function, such as sine or e to the x, as an infinite sum of powers."
+        },
+        {
+            "p": "Physicists keep only the first term of one of these series to say that the sine of a small angle is about equal to the angle itself, measured in radians, which makes a pendulum’s swing easy to solve. Keeping more terms makes the estimate more accurate.",
+            "r": "Their special case centered at zero is named for Colin Maclaurin. For 10 points, name these infinite series built from a function’s derivatives at one point."
+        },
+        {
+            "p": "The series for 1 over 1 minus x, which is 1 plus x plus x squared and so on, works only when x is between negative 1 and 1, so its radius of convergence is 1. In contrast, the one for e to the x works for every value of x.",
+            "r": "For 10 points, name these series that write a function as an infinite sum built from its derivatives at a single point."
+        },
+        {
+            "p": "Colin Maclaurin’s 1742 _Treatise of Fluxions_ made heavy use of the special case of these series centered at zero, which is now named for him. In these series, the nth term is divided by n factorial.",
+            "r": "For 10 points, name these infinite series, named for an English mathematician, that approximate functions using derivatives at one point."
+        },
+        {
+            "p": "Expanding Albert Einstein’s formula for a moving object’s total energy as one of these series gives the rest energy, m c squared, plus one-half m v squared, the familiar kinetic energy, plus much smaller terms. Physicists often keep only the first few terms of such series.",
+            "r": "For e to the x, such a series is 1 plus x plus x squared over 2 factorial and so on. For 10 points, name these infinite series built from a function’s derivatives at one point."
+        },
+        {
+            "p": "Isaac Newton’s binomial series, which expands 1 plus x raised to any power, even a fraction, is an example of these series. It shows that the square root of 1 plus x is about 1 plus x over 2 when x is small.",
+            "r": "For 10 points, name these series that write a function as an infinite sum using its derivatives at a single point."
+        },
+        {
+            "p": "Nicholas Mercator published the series x minus x squared over 2 plus x cubed over 3 and so on for the natural log of 1 plus x, an example of these series. Setting x equal to 1 gives the natural log of 2 as 1 minus one-half plus one-third and so on.",
+            "r": "For 10 points, name these infinite series, built from derivatives at one point, whose special case at zero is named for Colin Maclaurin."
+        },
+        {
+            "p": "The series for the arctangent of x, which is x minus x cubed over 3 plus x to the fifth over 5 and so on, gives pi over 4 when x equals 1, a formula named for Madhava and Gottfried Leibniz [“LYBE-nits”].",
+            "r": "Such series often have factorials in their denominators. For 10 points, name these series that write a function as an infinite sum using its derivatives at a single point."
+        },
+        {
+            "p": "Taking the derivative of 1 plus x plus x squared over 2 plus x cubed over 6 and so on, term by term, gives back the very same sum, which shows why e to the x is its own derivative. That sum is one of these series.",
+            "r": "For 10 points, name these infinite sums built from a function’s derivatives at one point, whose special case at zero is a Maclaurin series."
+        },
+        {
+            "p": "A function is called analytic if, near every point, it equals one of these series centered at that point. Polynomials, sine, cosine, and e to the x are all analytic, and their series work for every value of x.",
+            "r": "For 10 points, name these infinite series that approximate a function using its derivatives at one point."
+        },
+        {
+            "p": "In these series centered at a, each term is the nth derivative at a, divided by n factorial, times x minus a to the nth power. Centered at zero, the one for cosine of x is 1 minus x squared over 2 plus x to the fourth over 24 and so on.",
+            "r": "For 10 points, name these series, published by an English mathematician in 1715, that build a function from its derivatives at one point."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "Writes a function as an infinite sum of terms built from its derivatives at a single point",
+            "k": ["infinite sum", "derivatives", "single point"],
+            "n": 0,
+            "rabbit": "Derivatives"
+        },
+        {
+            "id": "e-to-the-x",
+            "tier": "giveaway",
+            "t": "For eˣ it is 1 + x + x²/2! + x³/3! + …, with factorials in the denominators",
+            "k": ["x²/2!", "factorials"],
+            "n": 0,
+            "rabbit": "Factorial"
+        },
+        {
+            "id": "namesake",
+            "tier": "giveaway",
+            "t": "Named for an English mathematician who published the idea in 1715",
+            "k": ["1715", "english mathematician"],
+            "n": 0
+        },
+        {
+            "id": "approximation",
+            "tier": "giveaway",
+            "t": "Adding just the first few terms gives a polynomial that closely matches the function near the center point",
+            "k": ["first few terms", "polynomial", "center point"],
+            "n": 0
+        },
+        {
+            "id": "maclaurin",
+            "tier": "middle",
+            "t": "The special case centered at 0 is named for the Scottish mathematician Colin Maclaurin",
+            "k": ["maclaurin", "centered at 0", "scottish"],
+            "n": 0
+        },
+        {
+            "id": "sine",
+            "tier": "middle",
+            "t": "For sin x: x − x³/3! + x⁵/5! − …, using only odd powers with alternating signs",
+            "k": ["sin x", "odd powers"],
+            "n": 0
+        },
+        {
+            "id": "cosine",
+            "tier": "middle",
+            "t": "For cos x: 1 − x²/2! + x⁴/4! − …, using only even powers",
+            "k": ["cos x", "even powers"],
+            "n": 0
+        },
+        {
+            "id": "general-term",
+            "tier": "middle",
+            "t": "Centered at a, the nth term is the nth derivative at a, divided by n factorial, times (x − a)ⁿ",
+            "k": ["nth derivative", "n factorial"],
+            "n": 0
+        },
+        {
+            "id": "e-value",
+            "tier": "middle",
+            "t": "Setting x = 1 in the series for eˣ gives e = 1 + 1 + 1/2 + 1/6 + 1/24 + … ≈ 2.718",
+            "k": ["2.718", "x = 1"],
+            "n": 0
+        },
+        {
+            "id": "sin-estimate",
+            "tier": "middle",
+            "t": "Two terms give sin 0.1 ≈ 0.1 − 0.001/6 ≈ 0.09983, extremely close to the true value; calculators and computers can estimate this way",
+            "k": ["sin 0.1", "estimate", "calculators"],
+            "n": 0
+        },
+        {
+            "id": "tangent-line",
+            "tier": "middle",
+            "t": "Stopping after the x term gives the tangent line, also called the linear approximation",
+            "k": ["tangent line", "linear approximation"],
+            "n": 0
+        },
+        {
+            "id": "own-derivative",
+            "tier": "middle",
+            "t": "Differentiating 1 + x + x²/2! + … term by term gives the same series back, which is why eˣ is its own derivative",
+            "k": ["term by term", "own derivative"],
+            "n": 0
+        },
+        {
+            "id": "radius",
+            "tier": "middle",
+            "t": "Many work only within a certain distance of the center, the radius of convergence; the one for eˣ works for every x",
+            "k": ["radius of convergence", "every x"],
+            "n": 0,
+            "rabbit": "Convergence (series)"
+        },
+        {
+            "id": "gregory",
+            "tier": "power",
+            "t": "James Gregory knew how to build them by 1671, decades before the 1715 book",
+            "k": ["james gregory", "1671"],
+            "n": 0
+        },
+        {
+            "id": "methodus",
+            "tier": "power",
+            "t": "The 1715 book that introduced them was _Methodus Incrementorum Directa et Inversa_",
+            "k": ["methodus incrementorum", "1715 book"],
+            "n": 0
+        },
+        {
+            "id": "treatise",
+            "tier": "power",
+            "t": "Colin Maclaurin used the special case at 0 heavily in his 1742 _Treatise of Fluxions_",
+            "k": ["treatise of fluxions", "1742"],
+            "n": 0
+        },
+        {
+            "id": "madhava",
+            "tier": "power",
+            "t": "Madhava of Sangamagrama and his followers in Kerala, India, found such series for sine and cosine around 1400",
+            "k": ["madhava", "kerala"],
+            "n": 0
+        },
+        {
+            "id": "euler-formula",
+            "tier": "power",
+            "t": "Putting ix into the series for eˣ and sorting real and imaginary terms gives Euler’s formula, e^(ix) = cos x + i sin x",
+            "k": ["euler’s formula", "e^(ix)"],
+            "n": 0,
+            "rabbit": "Leonhard Euler"
+        },
+        {
+            "id": "lagrange",
+            "tier": "power",
+            "t": "Joseph-Louis Lagrange found a formula for the remainder, the error left after stopping at a certain term",
+            "k": ["lagrange", "remainder"],
+            "n": 0
+        },
+        {
+            "id": "pendulum",
+            "tier": "power",
+            "t": "Keeping one term gives sin x ≈ x for small angles in radians, which makes a pendulum’s swing easy to solve",
+            "k": ["small angles", "pendulum"],
+            "n": 0
+        },
+        {
+            "id": "binomial",
+            "tier": "power",
+            "t": "Isaac Newton’s binomial series for (1 + x) raised to any power is an example; √(1 + x) ≈ 1 + x/2 for small x",
+            "k": ["binomial series", "newton"],
+            "n": 0
+        },
+        {
+            "id": "mercator",
+            "tier": "power",
+            "t": "Nicholas Mercator’s series ln(1 + x) = x − x²/2 + x³/3 − … gives ln 2 = 1 − 1/2 + 1/3 − … when x = 1",
+            "k": ["mercator", "ln 2"],
+            "n": 0
+        },
+        {
+            "id": "arctan",
+            "tier": "power",
+            "t": "arctan x = x − x³/3 + x⁵/5 − … gives π/4 = 1 − 1/3 + 1/5 − … when x = 1",
+            "k": ["arctan", "π/4"],
+            "n": 0,
+            "rabbit": "Pi"
+        },
+        {
+            "id": "analytic",
+            "tier": "power",
+            "t": "A function is analytic if, near every point, it equals one of these centered at that point; sine, cosine, eˣ, and polynomials are analytic",
+            "k": ["analytic", "every point"],
+            "n": 0
+        },
+        {
+            "id": "relativity",
+            "tier": "power",
+            "t": "Expanding Einstein’s total energy for a moving object gives mc² + ½mv² + much smaller terms, so kinetic energy shows up as the second term",
+            "k": ["kinetic energy", "½mv²"],
+            "n": 0
+        },
+        {
+            "id": "geometric",
+            "tier": "power",
+            "t": "1/(1 − x) = 1 + x + x² + x³ + … for x between −1 and 1, a geometric series",
+            "k": ["geometric series", "1/(1 − x)"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Taylor, Maclaurin, or Fourier?",
+        "body": "A Maclaurin series is just a Taylor series centered at zero, so saying “Maclaurin series” earns a prompt for the general name. Both are kinds of power series, so “power series” also earns a prompt. A Fourier series is different: it builds a function from sines and cosines instead of powers of x, so it is wrong here.",
+        "fix": "Listen for derivatives at one point, factorials in the denominators, or eˣ = 1 + x + x²/2! + …: say “Taylor series.” Clues about waves, frequencies, or sums of sines and cosines mean Fourier series.",
+        "line": "Real answer line: <b><u>Taylor series</u></b> (or <u>Taylor expansion</u>; accept <u>Taylor polynomial</u>s; prompt on <u>power series</u> or <u>Maclaurin series</u>; do not accept “Fourier series”)"
+    }
+}
+
+with open("topics/taylor-series.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote topics/taylor-series.json")

@@ -1,0 +1,488 @@
+{
+  "id": "hawaii",
+  "name": "Hawaii",
+  "mono": "HI",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Volcanic island chain in the Pacific · Became the 50th state in 1959",
+  "dates": "Kingdom united 1810; 50th state 1959",
+  "briefing": "Hawaii is a chain of volcanic islands in the middle of the Pacific Ocean, more than 2,000 miles from the U.S. mainland. Kamehameha I united the islands into one kingdom by 1810, but in 1893 American businessmen overthrew Queen Liliʻuokalani, and the United States annexed the islands five years later. Hawaii became the 50th state on August 21, 1959, and its capital, Honolulu, is on the island of Oahu, near Pearl Harbor.",
+  "answerHtml": "<b><u>Hawaii</u></b> (accept <u>Hawaiian Islands</u>, <u>Kingdom of Hawaii</u>, or <u>Sandwich Islands</u>; prompt on <u>Honolulu</u>; do not accept “Pearl Harbor,” “Alaska,” or “Guam”)",
+  "accept": [
+    "hawaii",
+    "hawai i",
+    "state of hawaii",
+    "hawaii state",
+    "hawaiian islands",
+    "the hawaiian islands",
+    "hawaii islands",
+    "kingdom of hawaii",
+    "hawaiian kingdom",
+    "republic of hawaii",
+    "territory of hawaii",
+    "hawaii territory",
+    "sandwich islands",
+    "the sandwich islands"
+  ],
+  "prompt": [
+    "honolulu",
+    "honolulu hawaii",
+    "honolulu hi"
+  ],
+  "reject": [
+    "pearl harbor",
+    "pearl harbour",
+    "attack on pearl harbor",
+    "alaska",
+    "guam",
+    "puerto rico",
+    "american samoa",
+    "samoa",
+    "tahiti",
+    "fiji",
+    "philippines",
+    "midway",
+    "midway atoll",
+    "wake island",
+    "oahu",
+    "maui",
+    "kauai",
+    "molokai",
+    "lanai",
+    "niihau",
+    "kahoolawe",
+    "polynesia",
+    "french polynesia",
+    "new zealand",
+    "south sandwich islands",
+    "kamehameha",
+    "liliuokalani",
+    "lili uokalani",
+    "aloha oe",
+    "kilauea",
+    "mauna kea",
+    "mauna loa",
+    "waikiki"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Hawaii",
+  "qb": {
+    "q": "Hawaii",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1976, the double-hulled voyaging canoe _Hōkūleʻa_ [“hoh-koo-LAY-ah”] sailed from these islands to Tahiti without compasses or charts, guided by a navigator who read the stars, winds, and waves. That voyage showed how Polynesian sailors could have first settled these islands.",
+      "r": "These islands became the 50th U.S. state in 1959. For 10 points, name this Pacific island chain whose capital is Honolulu."
+    },
+    {
+      "p": "A ruler of these islands issued the “Law of the Splintered Paddle,” which protected travelers, elders, and children from attack in wartime, after a fisherman struck him with a paddle during a raid. That ruler won the Battle of Nuʻuanu [“noo-oo-AH-noo”] in 1795.",
+      "r": "That king, Kamehameha I, had united all of these islands by 1810. For 10 points, name this island chain that became the 50th U.S. state."
+    },
+    {
+      "p": "In 1887, a group of mostly American businessmen backed by an armed militia forced a king of these islands to sign the “Bayonet Constitution,” which took away much of his power and kept many Native people from voting. Six years later, some of the same men overthrew his sister.",
+      "r": "That sister was Queen Liliʻuokalani. For 10 points, name this kingdom that the United States annexed in 1898."
+    },
+    {
+      "p": "In 1881, a king of these islands became the first reigning monarch to travel all the way around the world. That king, nicknamed the “Merrie Monarch,” later finished ʻIolani [“ee-oh-LAH-nee”] Palace, which had electric lights before the White House did.",
+      "r": "That king was David Kalākaua. For 10 points, name this island kingdom, which became the 50th U.S. state in 1959."
+    },
+    {
+      "p": "President Grover Cleveland sent James Blount to investigate the 1893 overthrow of this place’s government, and Blount concluded that the U.S. minister, John L. Stevens, had improperly helped it by landing Marines from the USS _Boston_. Cleveland had already pulled a treaty to annex this place from the Senate.",
+      "r": "The United States annexed these islands anyway in 1898, under William McKinley. For 10 points, name this island group."
+    },
+    {
+      "p": "A century after an overthrow in this place, Congress passed and Bill Clinton signed the 1993 Apology Resolution, which apologized for the role of U.S. officials and citizens in that overthrow. That event had ended the rule of this place’s last monarch.",
+      "r": "That monarch was Queen Liliʻuokalani. For 10 points, name this place that became the 50th state in 1959."
+    },
+    {
+      "p": "In 1778, a British explorer became the first known European to reach these islands, which he named for the Earl of Sandwich. On a return visit the next year, he was killed in a fight with islanders at Kealakekua [“kay-ah-lah-kay-KOO-ah”] Bay.",
+      "r": "That explorer was Captain James Cook. For 10 points, name this Pacific island chain, where Pearl Harbor was attacked in 1941."
+    },
+    {
+      "p": "The Belgian priest Father Damien spent the last years of his life caring for people with Hansen’s disease, or leprosy, who had been sent to Kalaupapa [“kah-lah-oo-PAH-pah”], a settlement on one of these islands. He was declared a saint in 2009.",
+      "r": "That island was Molokai. For 10 points, name this island chain, the 50th U.S. state."
+    },
+    {
+      "p": "Duke Kahanamoku [“kah-hah-nah-MOH-koo”], who won Olympic gold in swimming in 1912, helped make surfing popular in Australia and California. Surfing had been practiced for centuries by the Native people of these islands, including chiefs who rode long wooden boards.",
+      "r": "Kahanamoku grew up near Waikiki Beach in Honolulu. For 10 points, name this state where he learned to surf."
+    },
+    {
+      "p": "When this place became a state, Hiram Fong became the first Asian American U.S. senator and Daniel Inouye [“ih-NOH-ay”] became the first Japanese American in Congress. Inouye had lost his right arm fighting in Italy with the mostly Japanese American 442nd Regimental Combat Team.",
+      "r": "This place became the 50th state on August 21, 1959. For 10 points, name this state whose capital is Honolulu."
+    },
+    {
+      "p": "This state’s flag is the only U.S. state flag to include another country’s flag, the British Union Jack, a reminder of the islands’ early friendship with Britain. Its eight stripes stand for its eight main islands.",
+      "r": "Those islands include Oahu, Maui, and Kauai. For 10 points, name this state, the 50th to join the Union."
+    },
+    {
+      "p": "These islands formed as the Pacific Plate slid over a hotspot, so the oldest of them lie to the northwest and the youngest to the southeast. Mauna Kea [“MOW-nuh KAY-uh”], which rises more than 30,000 feet from its base on the ocean floor, is on the largest of them.",
+      "r": "Kilauea [“kee-luh-WAY-uh”], another volcano there, is one of the most active on Earth. For 10 points, name this state whose volcanoes are linked in legend to the goddess Pele."
+    },
+    {
+      "p": "After a failed attempt to restore her to the throne in 1895, a queen of these islands was arrested and held for months in an upstairs room of ʻIolani [“ee-oh-LAH-nee”] Palace. Years earlier, that queen had written the farewell song “Aloha ʻOe” [“ah-LOH-hah OH-ay”].",
+      "r": "That queen, Liliʻuokalani, had been overthrown in 1893. For 10 points, name this kingdom that later became the 50th U.S. state."
+    },
+    {
+      "p": "Protestant missionaries from New England, led by Hiram Bingham I, arrived in these islands in 1820 and helped create a written alphabet for the local language with only 12 letters. They also opened schools and printed the first books in that language.",
+      "r": "Barack Obama was born in this place’s capital in 1961. For 10 points, name this Pacific island chain, the 50th U.S. state."
+    },
+    {
+      "p": "In 1848, King Kamehameha III divided the islands’ lands in the Great Mahele [“mah-HEH-leh”], which let commoners and, soon after, foreigners own land for the first time. Sugar and later pineapple plantations spread, worked by laborers from China, Japan, Portugal, and the Philippines.",
+      "r": "Sanford Dole later led the republic that ruled these islands until the U.S. annexed them in 1898. For 10 points, name this place that became the 50th state."
+    }
+  ],
+  "clues": [
+    {
+      "id": "fiftieth",
+      "tier": "giveaway",
+      "t": "Became the 50th state on August 21, 1959",
+      "k": [
+        "50th state",
+        "august 21",
+        "1959"
+      ],
+      "n": 0
+    },
+    {
+      "id": "honolulu",
+      "tier": "giveaway",
+      "t": "Its capital, Honolulu, is on the island of Oahu",
+      "k": [
+        "honolulu",
+        "oahu",
+        "capital"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pearl-harbor",
+      "tier": "giveaway",
+      "t": "Japan attacked the U.S. naval base at Pearl Harbor, on Oahu, on December 7, 1941",
+      "k": [
+        "pearl harbor",
+        "december 7",
+        "1941"
+      ],
+      "n": 0,
+      "rabbit": "Attack on Pearl Harbor"
+    },
+    {
+      "id": "obama",
+      "tier": "giveaway",
+      "t": "Barack Obama was born in Honolulu in 1961",
+      "k": [
+        "barack obama",
+        "obama",
+        "1961"
+      ],
+      "n": 0,
+      "rabbit": "Barack Obama"
+    },
+    {
+      "id": "volcanoes",
+      "tier": "giveaway",
+      "t": "A chain of volcanic islands in the Pacific; Kilauea and Mauna Loa are on the largest island",
+      "k": [
+        "volcanic",
+        "kilauea",
+        "mauna loa",
+        "pacific"
+      ],
+      "n": 0,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "kamehameha",
+      "tier": "middle",
+      "t": "Kamehameha I united the islands into one kingdom by 1810",
+      "k": [
+        "kamehameha",
+        "1810",
+        "united"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cook",
+      "tier": "middle",
+      "t": "Captain James Cook arrived in 1778, named the islands for the Earl of Sandwich, and was killed at Kealakekua Bay in 1779",
+      "k": [
+        "james cook",
+        "cook",
+        "1778",
+        "earl of sandwich"
+      ],
+      "n": 0
+    },
+    {
+      "id": "liliuokalani",
+      "tier": "middle",
+      "t": "Queen Liliʻuokalani, its last monarch, was overthrown in 1893 by a group of mostly American businessmen",
+      "k": [
+        "liliʻuokalani",
+        "liliuokalani",
+        "1893",
+        "overthrown"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aloha-oe",
+      "tier": "middle",
+      "t": "Liliʻuokalani wrote the farewell song “Aloha ʻOe”",
+      "k": [
+        "aloha ʻoe",
+        "aloha",
+        "farewell song"
+      ],
+      "n": 0
+    },
+    {
+      "id": "annexed",
+      "tier": "middle",
+      "t": "Annexed by the United States in 1898 with the Newlands Resolution, under William McKinley",
+      "k": [
+        "annexed",
+        "1898",
+        "newlands",
+        "mckinley"
+      ],
+      "n": 0,
+      "rabbit": "William McKinley"
+    },
+    {
+      "id": "iolani",
+      "tier": "middle",
+      "t": "ʻIolani Palace in Honolulu is the only royal palace in the United States",
+      "k": [
+        "ʻiolani",
+        "iolani",
+        "royal palace"
+      ],
+      "n": 0
+    },
+    {
+      "id": "apology",
+      "tier": "middle",
+      "t": "The 1993 Apology Resolution, signed by Bill Clinton, apologized for the U.S. role in the overthrow",
+      "k": [
+        "apology resolution",
+        "1993",
+        "bill clinton"
+      ],
+      "n": 0,
+      "rabbit": "Bill Clinton"
+    },
+    {
+      "id": "sanford-dole",
+      "tier": "middle",
+      "t": "Sanford Dole led the republic that ruled the islands from 1894 until annexation in 1898",
+      "k": [
+        "sanford dole",
+        "dole",
+        "republic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "surfing",
+      "tier": "middle",
+      "t": "Surfing developed here; Olympic swimmer Duke Kahanamoku helped make it popular in Australia and California",
+      "k": [
+        "surfing",
+        "duke kahanamoku",
+        "kahanamoku"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hokulea",
+      "tier": "power",
+      "t": "The voyaging canoe _Hōkūleʻa_ sailed to Tahiti in 1976 using only traditional navigation",
+      "k": [
+        "hōkūleʻa",
+        "hokulea",
+        "tahiti",
+        "1976"
+      ],
+      "n": 0
+    },
+    {
+      "id": "splintered-paddle",
+      "tier": "power",
+      "t": "Kamehameha I issued the “Law of the Splintered Paddle” to protect ordinary people in wartime and won the Battle of Nuʻuanu (1795)",
+      "k": [
+        "splintered paddle",
+        "nuʻuanu",
+        "nuuanu",
+        "1795"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bayonet",
+      "tier": "power",
+      "t": "The “Bayonet Constitution” (1887) took power from King Kalākaua and kept many Native people from voting",
+      "k": [
+        "bayonet constitution",
+        "bayonet",
+        "1887",
+        "kalākaua"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kalakaua",
+      "tier": "power",
+      "t": "King Kalākaua, the “Merrie Monarch,” was the first reigning monarch to travel around the world (1881); ʻIolani Palace had electric lights before the White House",
+      "k": [
+        "merrie monarch",
+        "around the world",
+        "1881",
+        "electric lights"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blount",
+      "tier": "power",
+      "t": "Grover Cleveland pulled an annexation treaty and sent James Blount, who said U.S. minister John Stevens had improperly helped the overthrow by landing Marines from the USS _Boston_",
+      "k": [
+        "blount",
+        "grover cleveland",
+        "john stevens",
+        "uss boston"
+      ],
+      "n": 0
+    },
+    {
+      "id": "imprisoned",
+      "tier": "power",
+      "t": "After a failed 1895 attempt to restore her, Liliʻuokalani was held for months in an upstairs room of ʻIolani Palace",
+      "k": [
+        "1895",
+        "upstairs room",
+        "held"
+      ],
+      "n": 0
+    },
+    {
+      "id": "damien",
+      "tier": "power",
+      "t": "Father Damien cared for people with Hansen’s disease (leprosy) at Kalaupapa on Molokai; he was declared a saint in 2009",
+      "k": [
+        "father damien",
+        "damien",
+        "kalaupapa",
+        "molokai"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inouye-fong",
+      "tier": "power",
+      "t": "At statehood, Hiram Fong became the first Asian American senator and Daniel Inouye the first Japanese American in Congress",
+      "k": [
+        "hiram fong",
+        "daniel inouye",
+        "inouye",
+        "fong"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flag",
+      "tier": "power",
+      "t": "Its flag is the only state flag that includes another country’s flag, the British Union Jack; its eight stripes stand for eight main islands",
+      "k": [
+        "union jack",
+        "eight stripes",
+        "flag"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hotspot",
+      "tier": "power",
+      "t": "The islands formed over a hotspot, oldest in the northwest; Mauna Kea rises more than 30,000 feet from the ocean floor",
+      "k": [
+        "hotspot",
+        "mauna kea",
+        "30,000 feet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "missionaries",
+      "tier": "power",
+      "t": "New England missionaries led by Hiram Bingham I arrived in 1820 and helped create a 12-letter written alphabet",
+      "k": [
+        "missionaries",
+        "hiram bingham",
+        "1820",
+        "12-letter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mahele",
+      "tier": "power",
+      "t": "The Great Mahele (1848) under Kamehameha III divided the land and allowed private ownership",
+      "k": [
+        "mahele",
+        "kamehameha iii",
+        "1848"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plantations",
+      "tier": "power",
+      "t": "Sugar and pineapple plantations drew workers from China, Japan, Portugal, and the Philippines",
+      "k": [
+        "sugar",
+        "pineapple",
+        "plantations"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "State, city, or harbor?",
+    "body": "Some real questions ask for Honolulu, the capital on Oahu, and others ask for the attack on Pearl Harbor, so clues about Oahu can point to three different answer lines. When the question wants the whole state, kingdom, or island chain, “Honolulu” earns only a prompt and “Pearl Harbor” is wrong. Alaska also became a state in 1959, and Guam is a U.S. territory in the Pacific, so neither counts.",
+    "fix": "Listen for the noun: “this state,” “this kingdom,” or “these islands” wants Hawaii; “this city” or “this capital” wants Honolulu; “this attack” wants Pearl Harbor. Alaska was the 49th state, admitted in January 1959, and Hawaii was the 50th, admitted that August.",
+    "line": "Real answer line: <b><u>Hawaii</u></b> (accept <u>Kingdom of Hawaii</u>, <u>Hawaiian Islands</u>, or <u>Sandwich Islands</u>; prompt on <u>Honolulu</u>; do not accept “Pearl Harbor”)"
+  },
+  "tests": {
+    "right": [
+      "Hawaii",
+      "Hawaiʻi",
+      "Hawaiian Islands",
+      "Kingdom of Hawaii",
+      "Sandwich Islands",
+      "Hawai"
+    ],
+    "prompt": [
+      "Honolulu",
+      "Honolulu, Hawaii"
+    ],
+    "wrong": [
+      "Pearl Harbor",
+      "Alaska",
+      "Guam",
+      "Oahu",
+      "Maui",
+      "Samoa",
+      "South Sandwich Islands",
+      "Attack on Pearl Harbor",
+      "Tahiti"
+    ]
+  }
+}

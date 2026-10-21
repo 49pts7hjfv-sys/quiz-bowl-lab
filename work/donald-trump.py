@@ -120,12 +120,12 @@ data = {
             "r": "His Fifth Avenue skyscraper, which bears his name, had opened in 1983. For 10 points, name this real-estate developer who became the 45th president."
         },
         {
-            "p": "Because of extreme cold, this man’s January 2025 inauguration was moved indoors to the Capitol Rotunda, the first inauguration held inside since Ronald Reagan’s in 1985. At age 78, he became the oldest person ever sworn in as president.",
-            "r": "That day, he became the 47th president. For 10 points, name this man who, like Grover Cleveland, served two non-consecutive terms."
+            "p": "Because of extreme cold, this man’s second inauguration was moved indoors to the Capitol Rotunda, the first inauguration held inside since Ronald Reagan’s second inauguration in 1985. At age 78, he became the oldest person ever sworn in as president.",
+            "r": "That January 2025 ceremony made him the 47th president. For 10 points, name this man who, like Grover Cleveland, served two non-consecutive terms."
         },
         {
-            "p": "This candidate accepted his party’s 2024 presidential nomination at its national convention in Milwaukee, where delegates also nominated Ohio senator JD Vance as his running mate. That November, he won 312 electoral votes, carrying all seven of the closely watched swing states.",
-            "r": "That July, he had survived an assassination attempt at a rally near Butler, Pennsylvania. For 10 points, name this Republican who defeated Kamala Harris."
+            "p": "This man hosted _Saturday Night Live_ in 2004 and again in 2015. As president, he signed the First Step Act of 2018, a bipartisan law that shortened some federal prison sentences and expanded programs to help prisoners return to society.",
+            "r": "In 2024, he survived an assassination attempt at a rally near Butler, Pennsylvania. For 10 points, name this Republican who defeated Kamala Harris that November."
         },
         {
             "p": "In December 2019, this president signed a law creating the U.S. Space Force, the first new branch of the armed forces since the Air Force in 1947. In 2020, his administration launched Operation Warp Speed to hurry the development of vaccines against COVID-19.",
@@ -140,12 +140,12 @@ data = {
             "r": "For 10 points, name this New York businessman who hosted _The Apprentice_ before becoming president."
         },
         {
-            "p": "This candidate announced his 2016 presidential campaign in June 2015 after riding an escalator down into the lobby of his Fifth Avenue skyscraper. He then beat Ted Cruz, Marco Rubio, and more than a dozen other Republicans in the primaries.",
-            "r": "His slogan was “Make America Great Again.” For 10 points, name this man who won the 2016 election in the Electoral College while losing the popular vote to Hillary Clinton."
+            "p": "This candidate announced his presidential campaign in June 2015 after riding an escalator down into the lobby of his Fifth Avenue skyscraper, and he went on to defeat more than a dozen other candidates for his party’s nomination.",
+            "r": "His slogan was “Make America Great Again.” For 10 points, name this man who won the 2016 election while losing the popular vote to Hillary Clinton."
         },
         {
             "p": "When he took office in 2017, this man became the first U.S. president who had never held a government office or served in the military. He often spent winter weekends at Mar-a-Lago, an estate in Palm Beach, Florida, that he had bought in 1985.",
-            "r": "For 10 points, name this president who returned to the White House for a second, non-consecutive term in 2025."
+            "r": "For 10 points, name this president who returned to the White House for a second, non-consecutive term in 2025, with JD Vance as his vice president."
         }
     ],
     "clues": [
@@ -331,10 +331,10 @@ data = {
             "n": 0
         },
         {
-            "id": "milwaukee",
+            "id": "snl-first-step",
             "tier": "power",
-            "t": "Accepted the 2024 nomination in Milwaukee; won 312 electoral votes, including all seven swing states",
-            "k": ["milwaukee", "swing states", "312"],
+            "t": "Hosted _Saturday Night Live_ (2004 and 2015); signed the First Step Act (2018), which shortened some federal prison sentences",
+            "k": ["saturday night live", "first step act", "prison sentences"],
             "n": 0
         },
         {

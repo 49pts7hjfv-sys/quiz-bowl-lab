@@ -1,0 +1,434 @@
+{
+  "id": "commutative-property",
+  "name": "Commutative property",
+  "mono": "COM",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Order doesn’t matter · a + b = b + a and a × b = b × a",
+  "dates": "Named by François Servois, 1814",
+  "briefing": "The commutative property says that order doesn’t matter: 3 + 5 and 5 + 3 both make 8, and 4 × 6 and 6 × 4 both make 24. Subtraction and division don’t have it, since 5 − 3 = 2 but 3 − 5 = −2. Its name comes from a French word meaning “to switch,” and daily life is full of things that can’t be switched: socks and then shoes is not the same as shoes and then socks!",
+  "answerHtml": "<b><u>commutative</u></b> property (or <u>commutativity</u>; accept <u>commutative</u> law or word forms like <u>commuting</u>; do not accept “associative” or “distributive”)",
+  "accept": [
+    "commutative property",
+    "commutativity",
+    "commutative",
+    "commutative law",
+    "commutative laws",
+    "commutative properties",
+    "commutativeness",
+    "commute",
+    "commutes",
+    "commuting",
+    "commutation",
+    "commutative property of addition",
+    "commutative property of multiplication"
+  ],
+  "prompt": [
+    "turnaround facts",
+    "turnaround fact",
+    "turn around facts",
+    "turn around fact"
+  ],
+  "reject": [
+    "associative property",
+    "associative",
+    "associativity",
+    "associative law",
+    "distributive property",
+    "distributive",
+    "distributivity",
+    "distributive law",
+    "identity property",
+    "identity",
+    "inverse property",
+    "inverse",
+    "closure property",
+    "closure",
+    "zero property",
+    "reflexive property",
+    "symmetric property",
+    "transitive property",
+    "transitivity",
+    "order of operations",
+    "non commutative",
+    "noncommutative",
+    "not commutative",
+    "anticommutative",
+    "anti commutative",
+    "commutator",
+    "communicative property",
+    "communicative",
+    "abelian",
+    "abelian group",
+    "abelian groups",
+    "group theory",
+    "matrix multiplication",
+    "cross product",
+    "dot product"
+  ],
+  "tests": {
+    "right": [
+      "commutative property",
+      "Commutativity",
+      "commutative law",
+      "comutative property",
+      "commutative property of addition",
+      "commuting"
+    ],
+    "prompt": [
+      "turnaround facts"
+    ],
+    "wrong": [
+      "associative property",
+      "distributive property",
+      "identity property",
+      "communicative property",
+      "noncommutative",
+      "abelian group",
+      "order of operations"
+    ]
+  },
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Commutative_property",
+  "qb": {
+    "q": "commutative",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "François Servois [“sair-VWAH”] introduced the name of this property in 1814, in the same memoir where he named the distributive property. Book VII of Euclid’s _Elements_ proves this property for multiplying whole numbers.",
+      "r": "Subtraction does not have this property. For 10 points, name this property which says that a plus b equals b plus a."
+    },
+    {
+      "p": "In 1843, William Rowan Hamilton carved the rules for multiplying quaternions into a Dublin bridge; under those rules, i times j equals k, but j times i equals negative k. So quaternion multiplication lacks this property, unlike multiplication of ordinary numbers.",
+      "r": "For 10 points, name this property, which says that changing the order of two numbers being added or multiplied does not change the result."
+    },
+    {
+      "p": "In quantum mechanics, the operators for position and momentum lack this property, since applying them in one order gives a different result than applying them in the other order. That fact lies behind Werner Heisenberg’s uncertainty principle.",
+      "r": "For 10 points, name this property of ordinary addition and multiplication, under which a times b equals b times a."
+    },
+    {
+      "p": "Groups with this property are called abelian, after the Norwegian mathematician Niels Henrik Abel, who also names a major math prize first awarded in 2003. The integers form an abelian group under addition.",
+      "r": "Subtraction and division lack it. For 10 points, name this property, which says that 3 plus 5 equals 5 plus 3."
+    },
+    {
+      "p": "The six rotations and flips of an equilateral triangle form the smallest group that lacks this property, since doing a flip and then a rotation can give a different result than doing them in the other order.",
+      "r": "For 10 points, name this property, under which the order of the numbers in a sum or product does not matter."
+    },
+    {
+      "p": "Exponents lack this property, since 2 cubed is 8 but 3 squared is 9; in fact, 2 and 4 are the only two different positive whole numbers that give the same answer either way, because 2 to the fourth and 4 squared both equal 16.",
+      "r": "For 10 points, name this property that addition and multiplication have but subtraction and division do not."
+    },
+    {
+      "p": "Composing functions usually lacks this property: if f of x is x plus 1 and g of x is 2x, then f of g of x is 2x plus 1, but g of f of x is 2x plus 2.",
+      "r": "For 10 points, name this property which says that the order in which two numbers are added does not change their sum."
+    },
+    {
+      "p": "This property explains a handy mental-math trick: 8 percent of 50 equals 50 percent of 8, so both are 4. Together with the associative property, it lets you add 7 plus 25 plus 3 by first adding 7 and 3.",
+      "r": "For 10 points, name this property, which says that changing the order of the numbers in a product does not change the answer."
+    },
+    {
+      "p": "The cross product of two vectors lacks this property, since swapping the two vectors flips the result to point the opposite way, though the dot product of two vectors does have this property.",
+      "r": "For 10 points, name this property, under which a times b always equals b times a for ordinary numbers."
+    },
+    {
+      "p": "On a Rubik’s Cube, turning the top face and then the right face usually leaves the cube differently than turning the right face first, so those moves lack this property. Rotating a book a quarter turn forward and then a quarter turn sideways also gives a different result than the reverse order.",
+      "r": "For 10 points, name this property, which says that the order of two numbers being added does not change the sum."
+    },
+    {
+      "p": "Multiplying matrices A and B as A times B often gives a different result than B times A, so matrix multiplication lacks this property, even though matrix addition has it.",
+      "r": "It holds for adding ordinary numbers, since 2 plus 9 equals 9 plus 2. For 10 points, name this property."
+    },
+    {
+      "p": "Joining words lacks this property, since “dog” followed by “house” makes “doghouse,” but “house” followed by “dog” makes “housedog.” In computer science, joining strings of text this way is called concatenation.",
+      "r": "For 10 points, name this property that addition has, since 4 plus 7 equals 7 plus 4."
+    },
+    {
+      "p": "The name of this property comes from a French verb meaning “to exchange,” which shares a Latin root with the English word for traveling back and forth to work each day. Fields, such as the rational numbers, require both their addition and their multiplication to have this property.",
+      "r": "Subtraction lacks this property, since 5 minus 3 is not 3 minus 5. For 10 points, name this property, which says that a times b equals b times a."
+    },
+    {
+      "p": "Putting on your socks and then your shoes gives a very different result from putting on your shoes and then your socks, an everyday example of two actions that lack this property. Younger students learn this property for addition as “turnaround facts.”",
+      "r": "For 10 points, name this property which says that changing the order of numbers being added does not change the sum."
+    },
+    {
+      "p": "In logic, the statement “p and q” is true exactly when “q and p” is true, so the operations “and” and “or” both have this property, as do the union and intersection of sets.",
+      "r": "It does not hold for subtraction. For 10 points, name this property, which says that changing the order of two numbers being multiplied does not change the product."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Changing the order of two numbers doesn’t change the answer: a + b = b + a",
+      "k": [
+        "order",
+        "a + b = b + a"
+      ],
+      "n": 0
+    },
+    {
+      "id": "multiplication",
+      "tier": "giveaway",
+      "t": "Multiplication has it too: 4 × 6 = 6 × 4 = 24",
+      "k": [
+        "multiplication",
+        "4 × 6"
+      ],
+      "n": 0
+    },
+    {
+      "id": "not-subtraction",
+      "tier": "giveaway",
+      "t": "Subtraction and division lack it: 5 − 3 = 2 but 3 − 5 = −2, and 6 ÷ 3 = 2 but 3 ÷ 6 = 1/2",
+      "k": [
+        "subtraction",
+        "division"
+      ],
+      "n": 0
+    },
+    {
+      "id": "associative",
+      "tier": "giveaway",
+      "t": "Not the associative property, which is about grouping: (a + b) + c = a + (b + c)",
+      "k": [
+        "associative",
+        "grouping"
+      ],
+      "n": 0
+    },
+    {
+      "id": "distributive",
+      "tier": "middle",
+      "t": "The distributive property mixes two operations: a × (b + c) = a × b + a × c",
+      "k": [
+        "distributive",
+        "two operations"
+      ],
+      "n": 0
+    },
+    {
+      "id": "turnaround",
+      "tier": "middle",
+      "t": "Younger students learn it for addition as “turnaround facts,” like 3 + 4 = 7 and 4 + 3 = 7",
+      "k": [
+        "turnaround facts",
+        "3 + 4"
+      ],
+      "n": 0
+    },
+    {
+      "id": "socks",
+      "tier": "middle",
+      "t": "An everyday example of lacking it: putting on socks and then shoes is not the same as shoes and then socks",
+      "k": [
+        "socks",
+        "shoes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "matrices",
+      "tier": "middle",
+      "t": "Matrix multiplication lacks it, since AB often does not equal BA, though matrix addition has it",
+      "k": [
+        "matrix multiplication",
+        "matrix addition"
+      ],
+      "n": 0,
+      "rabbit": "Matrices"
+    },
+    {
+      "id": "abelian",
+      "tier": "middle",
+      "t": "Groups with this property are called abelian, after the Norwegian mathematician Niels Henrik Abel",
+      "k": [
+        "abelian",
+        "niels henrik abel",
+        "norwegian"
+      ],
+      "n": 0,
+      "rabbit": "Group theory"
+    },
+    {
+      "id": "name-origin",
+      "tier": "middle",
+      "t": "Its name comes from a French word meaning “to switch” or “to exchange,” from the same Latin root as the word for a daily trip to work",
+      "k": [
+        "french",
+        "switch",
+        "exchange"
+      ],
+      "n": 0
+    },
+    {
+      "id": "percent",
+      "tier": "middle",
+      "t": "It explains why 8% of 50 equals 50% of 8 (both are 4)",
+      "k": [
+        "8% of 50",
+        "50% of 8"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sets-logic",
+      "tier": "middle",
+      "t": "Union and intersection of sets have it (A ∪ B = B ∪ A), and so do “and” and “or” in logic",
+      "k": [
+        "union",
+        "intersection",
+        "logic"
+      ],
+      "n": 0,
+      "rabbit": "Set theory"
+    },
+    {
+      "id": "mental-math",
+      "tier": "middle",
+      "t": "With the associative property, it lets you regroup 7 + 25 + 3 as 7 + 3 + 25 = 35",
+      "k": [
+        "regroup",
+        "7 + 3 + 25"
+      ],
+      "n": 0
+    },
+    {
+      "id": "servois",
+      "tier": "power",
+      "t": "François Servois introduced its name in 1814, in the same memoir where he named the distributive property",
+      "k": [
+        "servois",
+        "1814"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quaternions",
+      "tier": "power",
+      "t": "William Rowan Hamilton’s quaternions (1843) lack it for multiplication: i × j = k, but j × i = −k",
+      "k": [
+        "quaternions",
+        "hamilton",
+        "1843"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heisenberg",
+      "tier": "power",
+      "t": "In quantum mechanics, the operators for position and momentum lack it, which lies behind Werner Heisenberg’s uncertainty principle",
+      "k": [
+        "heisenberg",
+        "uncertainty principle",
+        "momentum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triangle-group",
+      "tier": "power",
+      "t": "The six rotations and flips of an equilateral triangle form the smallest group that lacks it",
+      "k": [
+        "equilateral triangle",
+        "smallest group"
+      ],
+      "n": 0
+    },
+    {
+      "id": "exponents",
+      "tier": "power",
+      "t": "Exponents lack it: 2³ = 8 but 3² = 9; 2 and 4 are the only different positive whole numbers with aᵇ = bᵃ (2⁴ = 4² = 16)",
+      "k": [
+        "exponents",
+        "2⁴ = 4²"
+      ],
+      "n": 0
+    },
+    {
+      "id": "composition",
+      "tier": "power",
+      "t": "Composing functions usually lacks it: with f(x) = x + 1 and g(x) = 2x, f(g(x)) = 2x + 1 but g(f(x)) = 2x + 2",
+      "k": [
+        "composing",
+        "f(g(x))"
+      ],
+      "n": 0,
+      "rabbit": "Functions (math)"
+    },
+    {
+      "id": "euclid",
+      "tier": "power",
+      "t": "Book VII of Euclid’s _Elements_ proves that multiplying two whole numbers in either order gives the same product",
+      "k": [
+        "euclid",
+        "book vii"
+      ],
+      "n": 0,
+      "rabbit": "Euclid"
+    },
+    {
+      "id": "cross-product",
+      "tier": "power",
+      "t": "The cross product of two vectors lacks it (swapping them flips the result’s direction), while the dot product has it",
+      "k": [
+        "cross product",
+        "dot product"
+      ],
+      "n": 0,
+      "rabbit": "Vectors"
+    },
+    {
+      "id": "rubiks-cube",
+      "tier": "power",
+      "t": "Rubik’s Cube moves usually lack it: a top turn then a right turn leaves the cube differently than a right turn then a top turn",
+      "k": [
+        "rubik’s cube",
+        "top turn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abel-prize",
+      "tier": "power",
+      "t": "Niels Henrik Abel, for whom groups with this property are named, also names the Abel Prize, first awarded in 2003",
+      "k": [
+        "abel prize",
+        "2003"
+      ],
+      "n": 0
+    },
+    {
+      "id": "concatenation",
+      "tier": "power",
+      "t": "Joining words (concatenation) lacks it: “dog” + “house” = “doghouse,” but “house” + “dog” = “housedog”",
+      "k": [
+        "concatenation",
+        "doghouse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fields",
+      "tier": "power",
+      "t": "A field, like the rational or real numbers, requires both its addition and its multiplication to have it",
+      "k": [
+        "field",
+        "rational or real"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which property is it?",
+    "body": "Three properties sound alike: commutative means order doesn’t matter (a + b = b + a), associative means grouping doesn’t matter ((a + b) + c = a + (b + c)), and distributive spreads multiplication over addition (a × (b + c) = a × b + a × c). Players also slip and say “communicative property,” which is a different word and is marked wrong here.",
+    "fix": "If the clue swaps the order of two things, say “commutative.” If parentheses move, say “associative”; if one number is multiplied across a sum, say “distributive.” Abelian groups are named for having this property, but “abelian” is not the property’s name.",
+    "line": "Real answer line: <b><u>commutative</u></b> property (or <u>commutativity</u>; accept <u>commutative</u> law or word forms like <u>commuting</u>; do not accept “associative” or “distributive”)"
+  }
+}

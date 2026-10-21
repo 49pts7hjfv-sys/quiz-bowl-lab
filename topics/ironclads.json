@@ -1,0 +1,428 @@
+{
+  "id": "ironclads",
+  "name": "Ironclads",
+  "mono": "ICL",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Steam warships armored with iron · USS _Monitor_ vs. CSS _Virginia_, 1862",
+  "dates": "First built 1859; first battle between them 1862",
+  "briefing": "For centuries, navies fought in wooden sailing ships, until France launched _La Gloire_ in 1859, a steam warship covered in iron armor, and Britain answered with HMS _Warrior_. On March 9, 1862, during the American Civil War, the Union’s USS _Monitor_ fought the Confederacy’s CSS _Virginia_, built on the hull of the old USS _Merrimack_, at Hampton Roads, Virginia. Neither ship could sink the other, and wooden warships soon looked out of date.",
+  "answerHtml": "<b><u>ironclad</u></b>s (or <b><u>ironclad</u></b> warships; prompt on <u>armored warships</u> or <u>battleships</u>; do not accept the name of a single ship, such as “Monitor” or “Merrimack”)",
+  "accept": [
+    "ironclads",
+    "ironclad",
+    "iron clads",
+    "iron clad",
+    "ironclad warships",
+    "ironclad warship",
+    "ironclad ships",
+    "ironclad ship",
+    "ironclad vessels",
+    "ironclad steamships",
+    "ironclad gunboats"
+  ],
+  "prompt": [
+    "armored warships",
+    "armored warship",
+    "armored ships",
+    "armored ship",
+    "armoured warships",
+    "armoured ships",
+    "armored gunboats",
+    "warships",
+    "warship",
+    "battleships",
+    "battleship",
+    "steamships",
+    "steamship",
+    "steam warships",
+    "iron ships",
+    "iron warships",
+    "gunboats",
+    "turret ships"
+  ],
+  "reject": [
+    "battle of the ironclads",
+    "battle of hampton roads",
+    "submarines",
+    "submarine",
+    "h l hunley",
+    "hunley",
+    "css hunley",
+    "turtle ships",
+    "turtle ship",
+    "dreadnoughts",
+    "dreadnought",
+    "frigates",
+    "frigate",
+    "ships of the line",
+    "ship of the line",
+    "old ironsides",
+    "uss constitution",
+    "torpedo boats",
+    "aircraft carriers",
+    "destroyers",
+    "u boats",
+    "clipper ships",
+    "blockade runners",
+    "anaconda plan"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Ironclad_warship",
+  "qb": {
+    "q": "ironclad",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Critics mocked one of these ships as a “cheesebox on a raft” because its low, flat deck carried a single round, rotating turret holding two large guns. Its Swedish-born designer, John Ericsson, had it built in about 100 days in Brooklyn.",
+      "r": "That ship was the USS _Monitor_. For 10 points, name these armored warships, two of which first fought each other in 1862."
+    },
+    {
+      "p": "France launched the first ocean-going one of these warships, _La Gloire_, in 1859, after the designer Henri Dupuy de Lôme [“on-REE dew-PWEE duh LOHM”] covered a wooden hull with iron plates. Britain answered with HMS _Warrior_, which had an all-iron hull.",
+      "r": "Two of these ships fought at Hampton Roads in 1862. For 10 points, name these armored steam warships, such as the USS _Monitor_."
+    },
+    {
+      "p": "On March 8, 1862, one of these ships sank the USS _Cumberland_ and destroyed the USS _Congress_ at Hampton Roads, Virginia. The next day, it fought a newly arrived Union opponent for hours until the battle ended in a draw.",
+      "r": "The Confederate ship was the CSS _Virginia_. For 10 points, name this type of warship, which also included the USS _Monitor_."
+    },
+    {
+      "p": "The Confederates raised the burned hull of a Union frigate at the Gosport Navy Yard near Norfolk and turned it into one of these ships, covering it with iron plates rolled at Richmond’s Tredegar [“TRED-uh-gar”] Iron Works.",
+      "r": "That frigate was the USS _Merrimack_. For 10 points, name these armored warships, which first fought each other at Hampton Roads."
+    },
+    {
+      "p": "One of these ships sank in a storm off Cape Hatteras, North Carolina, on the last day of 1862. In 2002, divers raised its famous turret, which is now preserved at the Mariners’ Museum in Newport News, Virginia.",
+      "r": "That ship was the USS _Monitor_. For 10 points, name these iron-armored warships of the Civil War era."
+    },
+    {
+      "p": "In 1975, the wreck of one of these warships became the first site protected as a U.S. national marine sanctuary. That ship’s commander at Hampton Roads, Lieutenant John Worden, was injured when a shell struck its pilothouse.",
+      "r": "For 10 points, name these armored warships, such as the USS _Monitor_ and CSS _Virginia_."
+    },
+    {
+      "p": "Engineer James Eads built seven of these vessels for the Union’s river fleet, including the USS _Cairo_ [“KAY-roh”], which a mine sank in the Yazoo River in December 1862. The _Cairo_ was raised a century later and put on display at Vicksburg.",
+      "r": "For 10 points, name these armored warships, like the USS _Monitor_, that changed naval warfare in the 1860s."
+    },
+    {
+      "p": "At the Battle of Lissa in 1866, the Austrian admiral Wilhelm von Tegetthoff [“TAY-get-hoff”] rammed and sank the Italian flagship _Re d’Italia_ in the first major fleet battle between these warships. Afterward, many navies built them with ramming bows.",
+      "r": "For 10 points, name these armored steam warships, first built in the 1850s and 1860s."
+    },
+    {
+      "p": "During the Crimean War, French armored floating batteries such as the _Dévastation_ [“day-vah-stah-SYOHN”] withstood Russian cannon fire at the Battle of Kinburn in 1855, which encouraged navies to build these warships.",
+      "r": "France’s _La Gloire_ was the first ocean-going one. For 10 points, name these armored warships, such as the USS _Monitor_."
+    },
+    {
+      "p": "In 1861, Navy Secretary Gideon Welles set up a board that chose three designs for these warships: the USS _Galena_, the USS _New Ironsides_, and a third, more unusual design by John Ericsson. Confederate Navy Secretary Stephen Mallory had pushed hard for his side to build them first.",
+      "r": "Ericsson’s design became the USS _Monitor_. For 10 points, name these armored warships of the Civil War."
+    },
+    {
+      "p": "At the Battle of Mobile Bay in 1864, the Union’s USS _Tecumseh_, one of these ships, struck a mine and sank, and David Farragut’s fleet then forced the surrender of the Confederate ship CSS _Tennessee_, another of them.",
+      "r": "For 10 points, name these armored warships, which first fought each other when the USS _Monitor_ met the CSS _Virginia_."
+    },
+    {
+      "p": "In May 1862, when Union forces captured Norfolk, the crew of one of these ships blew it up rather than let it be captured, because it drew too much water to escape up the James River.",
+      "r": "That ship was the CSS _Virginia_. For 10 points, name these armored warships that fought their first battle at Hampton Roads."
+    },
+    {
+      "p": "In April 1863, Samuel Du Pont led nine of these warships in an attack on Charleston Harbor, but the forts’ guns drove them back, and the badly damaged USS _Keokuk_ [“KEE-uh-kuk”] sank the next morning.",
+      "r": "For 10 points, name these armored steam warships, such as the USS _Monitor_ and the CSS _Virginia_, which dueled in 1862."
+    },
+    {
+      "p": "The Union built dozens of these warships with low decks and revolving turrets, a design so common that such ships were called “monitors.” Confederate ones, like the CSS _Arkansas_ and CSS _Albemarle_ [“AL-buh-marl”], usually had slanted iron walls around their guns.",
+      "r": "For 10 points, name these armored steam warships that made wooden navies obsolete."
+    },
+    {
+      "p": "Thousands of soldiers and civilians watched from the shore as two of these ships fought at close range for hours on March 9, 1862, without either one sinking the other. Shots from the Union ship’s 11-inch guns cracked some of its opponent’s iron plates but never broke through.",
+      "r": "For 10 points, name these armored warships, such as the USS _Monitor_ and CSS _Virginia_."
+    }
+  ],
+  "clues": [
+    {
+      "id": "monitor-virginia",
+      "tier": "giveaway",
+      "t": "The USS _Monitor_ (Union) fought the CSS _Virginia_ (Confederate) at Hampton Roads, Virginia, on March 9, 1862",
+      "k": [
+        "monitor",
+        "hampton roads",
+        "march 9, 1862"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-battle",
+      "tier": "giveaway",
+      "t": "Hampton Roads was the first battle between these armored ships, and it ended in a draw",
+      "k": [
+        "first battle",
+        "draw"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iron-armor",
+      "tier": "giveaway",
+      "t": "Steam-powered warships protected by iron armor plates; they made wooden warships obsolete",
+      "k": [
+        "iron armor",
+        "steam-powered",
+        "wooden"
+      ],
+      "n": 0
+    },
+    {
+      "id": "merrimack",
+      "tier": "giveaway",
+      "t": "The CSS _Virginia_ was rebuilt from the burned hull of the USS _Merrimack_",
+      "k": [
+        "merrimack",
+        "hull"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ericsson",
+      "tier": "middle",
+      "t": "John Ericsson, a Swedish-born engineer, designed the _Monitor_",
+      "k": [
+        "ericsson",
+        "swedish-born"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cheesebox",
+      "tier": "middle",
+      "t": "The _Monitor_ was mocked as a “cheesebox on a raft” for its round, rotating turret",
+      "k": [
+        "cheesebox on a raft",
+        "cheesebox",
+        "turret"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cumberland",
+      "tier": "middle",
+      "t": "On March 8, 1862, the _Virginia_ sank the USS _Cumberland_ and destroyed the USS _Congress_",
+      "k": [
+        "cumberland",
+        "congress",
+        "march 8"
+      ],
+      "n": 0,
+      "rabbit": "Anaconda Plan"
+    },
+    {
+      "id": "gloire",
+      "tier": "middle",
+      "t": "France’s _La Gloire_ (1859) was the first ocean-going one; Britain answered with the iron-hulled HMS _Warrior_ (1860)",
+      "k": [
+        "la gloire",
+        "gloire",
+        "warrior",
+        "1859"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sank-1862",
+      "tier": "middle",
+      "t": "The _Monitor_ sank in a storm off Cape Hatteras on December 31, 1862",
+      "k": [
+        "cape hatteras",
+        "storm",
+        "december 31"
+      ],
+      "n": 0
+    },
+    {
+      "id": "turret-2002",
+      "tier": "middle",
+      "t": "The _Monitor_’s turret was raised in 2002 and is preserved at the Mariners’ Museum in Newport News, Virginia",
+      "k": [
+        "2002",
+        "mariners’ museum",
+        "newport news"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scuttled",
+      "tier": "middle",
+      "t": "The _Virginia_’s crew blew it up in May 1862 when Norfolk fell, because it drew too much water to escape up the James River",
+      "k": [
+        "blew it up",
+        "norfolk",
+        "james river"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tredegar",
+      "tier": "power",
+      "t": "The _Virginia_ was rebuilt at the Gosport Navy Yard with iron plates rolled at Richmond’s Tredegar Iron Works",
+      "k": [
+        "tredegar",
+        "gosport"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eads",
+      "tier": "power",
+      "t": "James Eads built seven river gunboats, including the USS _Cairo_, sunk by a mine in the Yazoo River (1862) and raised in 1964",
+      "k": [
+        "eads",
+        "cairo",
+        "yazoo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "worden",
+      "tier": "power",
+      "t": "Franklin Buchanan commanded the _Virginia_ on March 8; Lieutenant John Worden commanded the _Monitor_ and was injured on March 9",
+      "k": [
+        "worden",
+        "franklin buchanan",
+        "buchanan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sanctuary",
+      "tier": "power",
+      "t": "The _Monitor_’s wreck became the first U.S. national marine sanctuary (1975)",
+      "k": [
+        "national marine sanctuary",
+        "1975"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lissa",
+      "tier": "power",
+      "t": "Battle of Lissa (1866): Austria’s Tegetthoff rammed and sank Italy’s _Re d’Italia_, so many navies added ramming bows",
+      "k": [
+        "lissa",
+        "tegetthoff",
+        "ramming"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kinburn",
+      "tier": "power",
+      "t": "French armored floating batteries withstood Russian fire at Kinburn (1855) in the Crimean War",
+      "k": [
+        "kinburn",
+        "crimean war",
+        "floating batteries"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dupuy",
+      "tier": "power",
+      "t": "_La Gloire_ was designed by Henri Dupuy de Lôme, who covered a wooden hull with iron plates",
+      "k": [
+        "dupuy de lôme",
+        "dupuy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "welles-board",
+      "tier": "power",
+      "t": "Gideon Welles’s 1861 board chose the USS _Galena_, the USS _New Ironsides_, and Ericsson’s design; Stephen Mallory pushed the Confederacy to build them",
+      "k": [
+        "gideon welles",
+        "galena",
+        "new ironsides",
+        "mallory"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mobile-bay",
+      "tier": "power",
+      "t": "At Mobile Bay (1864), the USS _Tecumseh_ hit a mine and sank; the CSS _Tennessee_ surrendered to David Farragut’s fleet",
+      "k": [
+        "mobile bay",
+        "tecumseh",
+        "farragut"
+      ],
+      "n": 0
+    },
+    {
+      "id": "charleston",
+      "tier": "power",
+      "t": "Samuel Du Pont’s attack on Charleston Harbor (April 1863) failed, and the USS _Keokuk_ sank",
+      "k": [
+        "du pont",
+        "charleston",
+        "keokuk"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monitors",
+      "tier": "power",
+      "t": "Low, turreted Union ships were called “monitors”; Confederate ones like the CSS _Arkansas_ and _Albemarle_ had slanted iron walls",
+      "k": [
+        "albemarle",
+        "arkansas",
+        "slanted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hundred-days",
+      "tier": "power",
+      "t": "Ericsson had the _Monitor_ built in about 100 days in Brooklyn, with two 11-inch guns in its turret",
+      "k": [
+        "100 days",
+        "brooklyn",
+        "11-inch"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Type, ship, or battle?",
+    "body": "This answer is a whole type of warship, but many clues name single ships that have their own answer lines: the USS _Monitor_, the CSS _Virginia_ (often still called the _Merrimack_), and the Battle of Hampton Roads where they fought. Naming one ship or the battle when the question asks for “these ships” is wrong. The Confederate _H. L. Hunley_ was a submarine, not one of these, and “Old Ironsides,” the USS _Constitution_, was a wooden sailing frigate.",
+    "fix": "Listen for the plural: “these warships” or “this type of ship” wants “ironclads.” “This ship” wants the _Monitor_ or the _Virginia_; “this battle” wants Hampton Roads; the vessel that sank the USS _Housatonic_ is the _Hunley_. “Armored warships” or “battleships” earns only a prompt.",
+    "line": "Real answer line: <b><u>ironclad</u></b>s (or <b><u>ironclad</u></b> warships; prompt on <u>armored warships</u>; do not accept the name of a single ship, such as “Monitor” or “Merrimack”)"
+  },
+  "tests": {
+    "right": [
+      "ironclads",
+      "ironclad",
+      "ironclad warships",
+      "iron-clad ships",
+      "ironclds",
+      "ironclads like the Monitor"
+    ],
+    "prompt": [
+      "armored warships",
+      "battleships",
+      "warships"
+    ],
+    "wrong": [
+      "Monitor",
+      "Merrimack",
+      "CSS Virginia",
+      "USS Monitor",
+      "submarines",
+      "H. L. Hunley",
+      "Battle of Hampton Roads",
+      "dreadnoughts",
+      "Old Ironsides"
+    ]
+  }
+}

@@ -1,0 +1,375 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+FTP_ALB = "For 10 points, name this series of feldspars that runs from sodium-rich albite to calcium-rich anorthite."
+
+data = {
+    "id": "plagioclase",
+    "name": "Plagioclase",
+    "mono": "PLG",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Feldspar series from sodium to calcium · Striped twins tell it from orthoclase",
+    "dates": "Mohs hardness about 6 to 6.5",
+    "briefing": "Plagioclase is a family of feldspar minerals that blends smoothly from sodium-rich albite to calcium-rich anorthite, like a paint chart fading from one color to the next. Tilt a crystal in the light and you may spot rows of fine parallel lines, a sign of twinned crystals that tells it apart from orthoclase. One member, labradorite, flashes peacock blue and green, and rocks packed with plagioclase make the Moon’s bright highlands.",
+    "answerHtml": "<b><u>Plagioclase</u></b> feldspar (prompt on <u>feldspar</u>; do not accept “orthoclase,” “potassium feldspar,” or a single member such as “albite” or “labradorite”)",
+    "accept": [
+        "plagioclase",
+        "plagioclases",
+        "plagioclase feldspar",
+        "plagioclase feldspars",
+        "plagioclase series",
+        "plagioclase group",
+        "plagioclase mineral",
+        "plagioclase minerals",
+        "soda lime feldspar",
+        "soda lime feldspars",
+        "sodium calcium feldspar",
+        "calcium sodium feldspar"
+    ],
+    "prompt": [
+        "feldspar",
+        "feldspars",
+        "the feldspars",
+        "feldspar group",
+        "feldspar mineral",
+        "feldspar minerals"
+    ],
+    "reject": [
+        "orthoclase",
+        "orthoclase feldspar",
+        "alkali feldspar",
+        "alkali feldspars",
+        "potassium feldspar",
+        "potassium feldspars",
+        "k feldspar",
+        "k spar",
+        "microcline",
+        "sanidine",
+        "albite",
+        "anorthite",
+        "oligoclase",
+        "andesine",
+        "labradorite",
+        "bytownite",
+        "spectrolite",
+        "sunstone",
+        "moonstone",
+        "anorthosite",
+        "andesite",
+        "basalt",
+        "gabbro",
+        "granite",
+        "quartz",
+        "mica",
+        "micas",
+        "muscovite",
+        "biotite",
+        "olivine",
+        "pyroxene",
+        "amphibole",
+        "hornblende",
+        "calcite",
+        "feldspathoid",
+        "feldspathoids",
+        "nepheline",
+        "bowens reaction series"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Plagioclase",
+    "qb": {
+        "q": "plagioclase",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Whenever a calcium ion takes the place of a sodium ion in this mineral, an aluminum ion also replaces a silicon ion to keep the charges balanced, a swap called coupled substitution. That swap can happen in any proportion, making this mineral a continuous solid solution.",
+            "r": FTP_ALB
+        },
+        {
+            "p": "Samuel Goldich found that the calcium-rich members of this mineral series break down faster at Earth’s surface than its sodium-rich members. Crystals of this mineral can be zoned, with calcium-rich centers and sodium-rich rims, when magma cools too quickly for them to keep reacting with the melt.",
+            "r": "It forms the continuous branch of Bowen’s reaction series. For 10 points, name this series of feldspars whose end members are albite and anorthite."
+        },
+        {
+            "p": "This mineral’s name comes from Greek words meaning “oblique break,” because its two directions of cleavage meet at about 86 degrees instead of at a right angle. Its crystals belong to the triclinic system, while those of orthoclase are monoclinic.",
+            "r": "For 10 points, name this series of sodium- and calcium-rich feldspars, which runs from albite to anorthite."
+        },
+        {
+            "p": "Light bouncing between microscopic layers inside one member of this mineral series makes it flash peacock blue, green, and gold, an effect named for a region of northeastern Canada. A Finnish variety of that member, sold as spectrolite, shows especially bright colors.",
+            "r": "That member is labradorite. For 10 points, name this series of feldspars that runs from albite to anorthite."
+        },
+        {
+            "p": "Under a polarizing microscope, crystals of this mineral often look like a barcode of light and dark stripes, caused by many thin twins lined up side by side. On a broken surface, the same twinning shows up as fine parallel lines called striations, which help geologists tell it apart from orthoclase.",
+            "r": "It forms the continuous branch of Bowen’s reaction series. For 10 points, name this series of feldspars with sodium-rich and calcium-rich end members."
+        },
+        {
+            "p": "Apollo 15 astronauts brought back a piece of the Moon’s ancient crust nicknamed the “Genesis Rock,” an anorthosite made almost entirely of the calcium-rich form of this mineral. Rocks rich in this mineral make up the Moon’s bright highlands.",
+            "r": "For 10 points, name this series of feldspars whose calcium-rich end member is anorthite and whose sodium-rich end member is albite."
+        },
+        {
+            "p": "Oregon’s state gem, the sunstone, often gets its glittering sparkle from tiny flakes of copper inside crystals of this mineral. Those crystals belong to labradorite, a member of this mineral series known for flashing with colors.",
+            "r": "For 10 points, name this series of sodium- and calcium-rich feldspars, which forms the continuous branch of Bowen’s reaction series."
+        },
+        {
+            "p": "One member of this mineral series is named for the Andes Mountains, where it is common in a gray volcanic rock that is also named for those mountains. Geologists describe each sample of this series by its “An number,” the percent of the calcium-rich end member it contains.",
+            "r": "It is one of the two main kinds of feldspar. For 10 points, name this series that runs from sodium-rich albite to calcium-rich anorthite."
+        },
+        {
+            "p": "Dark basalt and gabbro are made mostly of pyroxene and calcium-rich crystals of this mineral, while granite tends to hold its sodium-rich members. In granite, this mineral often forms white or gray grains, while the pink grains are often potassium feldspar.",
+            "r": "For 10 points, name this series of sodium- and calcium-rich feldspars, which runs from albite to anorthite."
+        },
+        {
+            "p": "As magma cools, the first crystals of this mineral to form are rich in calcium, and they slowly trade calcium for sodium as the temperature drops, all while keeping the same crystal structure. That steady change is why this mineral’s branch of a famous crystallization sequence is called continuous.",
+            "r": "That sequence is Bowen’s reaction series. For 10 points, name this feldspar series with end members albite and anorthite."
+        },
+        {
+            "p": "One end member of this mineral series is named for the Latin word for “white,” and the other end member’s name comes from Greek words meaning “not straight.” In between lie members such as oligoclase, andesine, and bytownite.",
+            "r": FTP_ALB
+        },
+        {
+            "p": "Bytown, the old name of Canada’s capital, Ottawa, gave its name to one member of this mineral series. Another member, oligoclase, sits close to its sodium-rich end, and a third, labradorite, is famous for its shimmering play of color.",
+            "r": "It belongs to the feldspars, the most abundant minerals in Earth’s crust. For 10 points, name this series whose end members are albite and anorthite."
+        },
+        {
+            "p": "With a hardness of about 6 to 6.5 on the Mohs scale, this mineral can scratch window glass, but quartz can scratch it. It has two good directions of cleavage, and its cleavage faces often show fine, straight parallel lines.",
+            "r": "Unlike orthoclase, it is rich in sodium and calcium instead of potassium. For 10 points, name this series of feldspars that runs from albite to anorthite."
+        },
+        {
+            "p": "Potassium feldspars often show Carlsbad twins, but this mineral is known for repeated “albite twins,” stacks of thin crystal slabs that each face the opposite way from their neighbors. Its name comes from Greek words meaning “oblique break.”",
+            "r": "For 10 points, name this series of feldspars that forms the continuous branch of Bowen’s reaction series."
+        },
+        {
+            "p": "When granite weathers, crystals of this mineral are among the first to crumble into clay, while tough quartz grains survive and wash away as sand. Its calcium-rich members break down especially fast.",
+            "r": "For 10 points, name this group of sodium- and calcium-rich feldspars, whose members include labradorite and range from albite to anorthite."
+        }
+    ],
+    "clues": [
+        {
+            "id": "end-members",
+            "tier": "giveaway",
+            "t": "A series of feldspars running from sodium-rich albite to calcium-rich anorthite",
+            "k": ["albite", "anorthite", "sodium-rich", "calcium-rich"],
+            "n": 0
+        },
+        {
+            "id": "two-kinds",
+            "tier": "giveaway",
+            "t": "One of the two main kinds of feldspar; the other kind, rich in potassium, includes orthoclase",
+            "k": ["orthoclase", "potassium", "two main kinds"],
+            "n": 0,
+            "rabbit": "Feldspar"
+        },
+        {
+            "id": "continuous-branch",
+            "tier": "giveaway",
+            "t": "Forms the continuous branch of Bowen’s reaction series",
+            "k": ["continuous branch", "bowen’s reaction series", "bowen"],
+            "n": 0,
+            "rabbit": "Bowen’s reaction series"
+        },
+        {
+            "id": "abundant-group",
+            "tier": "giveaway",
+            "t": "Feldspars, the family it belongs to, are the most abundant minerals in Earth’s crust",
+            "k": ["most abundant", "feldspars", "crust"],
+            "n": 0
+        },
+        {
+            "id": "oblique-break",
+            "tier": "middle",
+            "t": "Its name is Greek for “oblique break”: its two cleavage directions meet at about 86 degrees, not at a right angle",
+            "k": ["oblique break", "cleavage", "86 degrees"],
+            "n": 0
+        },
+        {
+            "id": "striations",
+            "tier": "middle",
+            "t": "Fine parallel lines called striations, made by repeated twinning, help tell it apart from orthoclase",
+            "k": ["striations", "twinning", "parallel lines"],
+            "n": 0
+        },
+        {
+            "id": "hardness",
+            "tier": "middle",
+            "t": "Mohs hardness of about 6 to 6.5: it scratches window glass, but quartz scratches it",
+            "k": ["mohs", "6 to 6.5", "window glass"],
+            "n": 0,
+            "rabbit": "Mohs hardness scale"
+        },
+        {
+            "id": "labradorite",
+            "tier": "middle",
+            "t": "Labradorite, named for Labrador in Canada, flashes with a play of color called labradorescence",
+            "k": ["labradorite", "labradorescence", "play of color"],
+            "n": 0
+        },
+        {
+            "id": "calcium-first",
+            "tier": "middle",
+            "t": "In cooling magma, calcium-rich crystals form first; later crystals grow richer in sodium while keeping the same structure",
+            "k": ["cooling magma", "form first", "same structure"],
+            "n": 0
+        },
+        {
+            "id": "members",
+            "tier": "middle",
+            "t": "Members from sodium to calcium: albite, oligoclase, andesine, labradorite, bytownite, anorthite",
+            "k": ["oligoclase", "andesine", "bytownite"],
+            "n": 0
+        },
+        {
+            "id": "basalt-granite",
+            "tier": "middle",
+            "t": "Calcium-rich types fill dark basalt and gabbro along with pyroxene; sodium-rich types are common in granite",
+            "k": ["basalt", "gabbro", "granite", "pyroxene"],
+            "n": 0,
+            "rabbit": "Basalt"
+        },
+        {
+            "id": "moon-highlands",
+            "tier": "middle",
+            "t": "Anorthosite, a rock made almost entirely of it, forms the Moon’s bright highlands",
+            "k": ["anorthosite", "highlands", "moon"],
+            "n": 0
+        },
+        {
+            "id": "coupled-substitution",
+            "tier": "power",
+            "t": "Coupled substitution: when calcium replaces sodium, aluminum replaces silicon to balance the charge, so the two can mix in any proportion",
+            "k": ["coupled substitution", "aluminum", "silicon", "any proportion"],
+            "n": 0
+        },
+        {
+            "id": "zoned-crystals",
+            "tier": "power",
+            "t": "Zoned crystals have calcium-rich centers and sodium-rich rims when magma cools too quickly",
+            "k": ["zoned", "rims", "centers"],
+            "n": 0
+        },
+        {
+            "id": "goldich",
+            "tier": "power",
+            "t": "Samuel Goldich found that its calcium-rich types weather faster than its sodium-rich types",
+            "k": ["goldich", "weather faster"],
+            "n": 0
+        },
+        {
+            "id": "triclinic",
+            "tier": "power",
+            "t": "Its crystals are triclinic, while orthoclase crystals are monoclinic",
+            "k": ["triclinic", "monoclinic"],
+            "n": 0
+        },
+        {
+            "id": "barcode",
+            "tier": "power",
+            "t": "Under a polarizing microscope, its twins look like a barcode of light and dark stripes",
+            "k": ["barcode", "polarizing microscope", "stripes"],
+            "n": 0
+        },
+        {
+            "id": "albite-twins",
+            "tier": "power",
+            "t": "Shows repeated “albite twins,” while potassium feldspars often show Carlsbad twins",
+            "k": ["albite twins", "carlsbad"],
+            "n": 0
+        },
+        {
+            "id": "genesis-rock",
+            "tier": "power",
+            "t": "Apollo 15 brought back the “Genesis Rock,” an anorthosite made almost entirely of its calcium-rich form",
+            "k": ["genesis rock", "apollo 15"],
+            "n": 0
+        },
+        {
+            "id": "oregon-sunstone",
+            "tier": "power",
+            "t": "Oregon sunstone, the state gem of Oregon, is a labradorite that often sparkles with tiny copper flakes",
+            "k": ["oregon", "sunstone", "copper"],
+            "n": 0
+        },
+        {
+            "id": "spectrolite",
+            "tier": "power",
+            "t": "Spectrolite, an especially colorful labradorite, comes from Finland",
+            "k": ["spectrolite", "finland"],
+            "n": 0
+        },
+        {
+            "id": "andesine-andes",
+            "tier": "power",
+            "t": "Andesine is named for the Andes, where it is common in the volcanic rock andesite",
+            "k": ["andes", "andesite"],
+            "n": 0
+        },
+        {
+            "id": "an-number",
+            "tier": "power",
+            "t": "Each sample gets an “An number,” the percent of anorthite it contains",
+            "k": ["an number", "percent"],
+            "n": 0
+        },
+        {
+            "id": "name-meanings",
+            "tier": "power",
+            "t": "Albite comes from the Latin albus, “white”; anorthite comes from Greek for “not straight”",
+            "k": ["albus", "white", "not straight"],
+            "n": 0
+        },
+        {
+            "id": "bytownite",
+            "tier": "power",
+            "t": "Bytownite is named for Bytown, the old name of Ottawa, Canada",
+            "k": ["bytown", "ottawa"],
+            "n": 0
+        },
+        {
+            "id": "weathering-clay",
+            "tier": "power",
+            "t": "When granite weathers, it is among the first minerals to crumble into clay, while quartz survives as sand",
+            "k": ["clay", "quartz", "sand"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which feldspar?",
+        "body": "Plagioclase is one of the two main kinds of feldspar, so players often buzz with just “feldspar,” which earns only a prompt, or name the other kind, orthoclase, which is wrong. Others hear member names like albite, labradorite, or anorthite and blurt one of them, but a single member is not the whole series.",
+        "fix": "Sodium and calcium, albite to anorthite, striations, and the continuous branch of Bowen’s reaction series mean plagioclase. Potassium, pink grains in granite, Carlsbad twins, and a hardness of exactly 6 mean orthoclase. If you get a prompt on “feldspar,” say “plagioclase.”",
+        "line": "Real answer line: <b><u>Plagioclase</u></b> feldspar (prompt on <u>feldspar</u>; do not accept “orthoclase,” “alkali feldspar,” or a single member like “labradorite”)"
+    },
+    "tests": {
+        "right": [
+            "Plagioclase",
+            "plagioclase feldspar",
+            "Plagioclace",
+            "Plagioclase feldspars",
+            "soda-lime feldspar"
+        ],
+        "prompt": [
+            "Feldspar",
+            "feldspars"
+        ],
+        "wrong": [
+            "Orthoclase",
+            "Quartz",
+            "Mica",
+            "Albite",
+            "Labradorite",
+            "Potassium feldspar",
+            "Bowen's reaction series",
+            "Anorthosite"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / "plagioclase.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote topics/plagioclase.json")

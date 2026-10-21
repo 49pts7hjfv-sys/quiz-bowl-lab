@@ -1,0 +1,373 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+# Bare "roosevelt" and "eleanor" are prompts and are NOT rejected (both sit inside "eleanor roosevelt").
+# Other Roosevelts and namesakes are rejected by full name only.
+# Consistent with franklin-roosevelt.json and theodore-roosevelt.json (niece of TR, who gave her away in 1905;
+# TR was FDR's fifth cousin), lincoln-memorial.json (Marian Anderson, 1939), amelia-earhart.json (1933 night
+# flight to Baltimore) and john-f-kennedy.json (Commission on the Status of Women).
+
+data = {
+    "id": "eleanor-roosevelt",
+    "name": "Eleanor Roosevelt",
+    "mono": "ER",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "First Lady, 1933–1945 · Helped write the Universal Declaration of Human Rights",
+    "dates": "1884–1962",
+    "briefing": "Eleanor Roosevelt lost both parents as a child and married her distant cousin Franklin. As First Lady from 1933 to 1945, she traveled the country as his “eyes and ears,” wrote a newspaper column called “My Day,” and helped arrange Marian Anderson’s 1939 concert at the Lincoln Memorial. After Franklin died, she led the United Nations commission that wrote the Universal Declaration of Human Rights.",
+    "answerHtml": "<b><u>Eleanor Roosevelt</u></b> (or Anna <b><u>Eleanor Roosevelt</u></b>; prompt on <u>Roosevelt</u> or <u>Eleanor</u> alone; do not accept “Franklin Roosevelt” or “Theodore Roosevelt”)",
+    "accept": [
+        "eleanor roosevelt",
+        "anna eleanor roosevelt",
+        "first lady eleanor roosevelt",
+        "mrs eleanor roosevelt"
+    ],
+    "prompt": [
+        "roosevelt",
+        "eleanor",
+        "mrs roosevelt",
+        "e roosevelt",
+        "first lady roosevelt"
+    ],
+    "reject": [
+        "franklin roosevelt",
+        "franklin d roosevelt",
+        "franklin delano roosevelt",
+        "fdr",
+        "f d r",
+        "f roosevelt",
+        "franklin",
+        "theodore roosevelt",
+        "teddy roosevelt",
+        "theodore",
+        "teddy",
+        "tr",
+        "t r",
+        "t roosevelt",
+        "elliott roosevelt",
+        "edith roosevelt",
+        "alice roosevelt",
+        "alice roosevelt longworth",
+        "sara roosevelt",
+        "sara delano roosevelt",
+        "anna roosevelt",
+        "james roosevelt",
+        "eleanor of aquitaine",
+        "eleanor rigby",
+        "frances perkins",
+        "perkins",
+        "marian anderson",
+        "mary mcleod bethune",
+        "amelia earhart",
+        "lorena hickok",
+        "harold ickes",
+        "edith wilson",
+        "dolley madison",
+        "abigail adams",
+        "lady bird johnson",
+        "jacqueline kennedy",
+        "michelle obama",
+        "hillary clinton",
+        "bess truman",
+        "mamie eisenhower",
+        "harry truman",
+        "united nations",
+        "universal declaration of human rights",
+        "new deal"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Eleanor_Roosevelt",
+    "qb": {
+        "q": "Eleanor Roosevelt",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "As a teenager, this woman studied at Allenswood, a girls’ boarding school near London run by Marie Souvestre [“soo-VEST-ruh”], who encouraged her to think for herself. Both of her parents had died by the time she was ten.",
+            "r": "For 10 points, name this woman who became First Lady in 1933, when her husband, Franklin, took office."
+        },
+        {
+            "p": "With her friends Nancy Cook and Marion Dickerman, this woman started Val-Kill Industries, a small furniture factory near her husband’s family estate at Hyde Park, New York. Her Val-Kill cottage became a National Historic Site in 1977.",
+            "r": "For 10 points, name this First Lady who wrote the long-running newspaper column “My Day.”"
+        },
+        {
+            "p": "In the 1920s, this woman taught history and literature at the Todhunter School for girls in New York City, and she worked with the League of Women Voters and the Women’s Trade Union League.",
+            "r": "After her husband got polio in 1921, she became his “eyes and ears.” For 10 points, name this First Lady from 1933 to 1945."
+        },
+        {
+            "p": "This woman championed Arthurdale, a New Deal community in West Virginia built for out-of-work coal-mining families. A 1933 _New Yorker_ cartoon joked about her constant travels by showing two coal miners surprised to see her arriving deep underground.",
+            "r": "For 10 points, name this First Lady, whose husband, Franklin Roosevelt, launched the New Deal."
+        },
+        {
+            "p": "Starting in March 1933, this woman held her own press conferences that only female reporters could attend, so newspapers needed women on their staffs to cover them, which helped women journalists keep their jobs during the Great Depression.",
+            "r": "She was the first First Lady to hold them. For 10 points, name this wife of Franklin Roosevelt, the longest-serving First Lady."
+        },
+        {
+            "p": "In 1941, this woman took a flight with Black pilot Charles “Chief” Anderson at Tuskegee, Alabama, to show her support for training Black military pilots, who became known as the Tuskegee Airmen.",
+            "r": "Two years earlier, she had helped arrange Marian Anderson’s concert at the Lincoln Memorial. For 10 points, name this First Lady."
+        },
+        {
+            "p": "In a February 1939 newspaper column, this woman announced that she was resigning from an organization, without naming it, because it had refused to let a famous Black singer perform at its concert hall in Washington.",
+            "r": "That group was the Daughters of the American Revolution, and the singer, Marian Anderson, performed at the Lincoln Memorial instead. For 10 points, name this First Lady."
+        },
+        {
+            "p": "In 1940, this woman flew to Chicago and spoke to a national party convention to calm delegates who were unhappy with her husband’s choice of Henry Wallace for vice president, as he sought a third term.",
+            "r": "For 10 points, name this First Lady, who later helped write the Universal Declaration of Human Rights."
+        },
+        {
+            "p": "In 1943, this woman toured the South Pacific in a Red Cross uniform, visiting hospitals and thousands of American troops on islands such as Guadalcanal and in New Zealand and Australia. Admiral William Halsey, who had opposed the trip, later praised her visits.",
+            "r": "For 10 points, name this First Lady, the wife of Franklin Roosevelt, who wrote the newspaper column “My Day.”"
+        },
+        {
+            "p": "In late 1945, Harry Truman named this woman a U.S. delegate to a new world organization. There, she said a document she had helped write “may well become the international Magna Carta for all men everywhere.”",
+            "r": "That document was the Universal Declaration of Human Rights, adopted by the United Nations in 1948. For 10 points, name this former First Lady."
+        },
+        {
+            "p": "This woman led a drafting committee that included the Lebanese diplomat Charles Malik, China’s P. C. Chang, and the French legal scholar René Cassin [“ka-SAN”], and its work was adopted in Paris in December 1948.",
+            "r": "Harry Truman called her the “First Lady of the World.” For 10 points, name this chair of the UN Commission on Human Rights."
+        },
+        {
+            "p": "In 1961, John F. Kennedy chose this woman to chair the Presidential Commission on the Status of Women, but she died in November 1962, before the commission issued its final report.",
+            "r": "For 10 points, name this woman who had been First Lady from 1933 to 1945, throughout Franklin Roosevelt’s presidency."
+        },
+        {
+            "p": "In April 1933, this woman left a White House dinner party, still wearing her evening gown, to fly with Amelia Earhart from Washington, D.C., to Baltimore and back. Earhart had become the first woman to fly solo across the Atlantic the year before.",
+            "r": "For 10 points, name this First Lady, the niece of Theodore Roosevelt and wife of Franklin Roosevelt."
+        },
+        {
+            "p": "This woman’s first name was actually Anna, and her father, Elliott, died when she was nine, less than two years after her mother died. She married on St. Patrick’s Day in 1905, and her uncle gave her away.",
+            "r": "That uncle was President Theodore Roosevelt. For 10 points, name this woman who married her distant cousin Franklin."
+        },
+        {
+            "p": "This woman’s books include the 1937 autobiography _This Is My Story_ and the 1960 advice book _You Learn by Living_. A statue at her husband’s memorial in Washington, D.C., shows her standing in front of the emblem of the United Nations.",
+            "r": "For 10 points, name this First Lady who helped write the Universal Declaration of Human Rights."
+        }
+    ],
+    "clues": [
+        {
+            "id": "first-lady",
+            "tier": "giveaway",
+            "t": "First Lady from 1933 to 1945, the longest-serving First Lady",
+            "k": ["first lady", "longest-serving", "1933"],
+            "n": 0
+        },
+        {
+            "id": "fdr-wife",
+            "tier": "giveaway",
+            "t": "Wife of Franklin Delano Roosevelt, the 32nd president",
+            "k": ["franklin", "32nd president", "wife"],
+            "n": 0,
+            "rabbit": "Franklin Delano Roosevelt"
+        },
+        {
+            "id": "udhr",
+            "tier": "giveaway",
+            "t": "Chaired the UN Commission on Human Rights, which drafted the Universal Declaration of Human Rights (1948)",
+            "k": ["universal declaration of human rights", "human rights", "1948"],
+            "n": 0
+        },
+        {
+            "id": "my-day",
+            "tier": "giveaway",
+            "t": "Wrote the newspaper column “My Day” (1935–1962)",
+            "k": ["my day", "column"],
+            "n": 0
+        },
+        {
+            "id": "tr-niece",
+            "tier": "giveaway",
+            "t": "Niece of Theodore Roosevelt, who gave her away at her 1905 wedding",
+            "k": ["theodore roosevelt", "niece", "1905"],
+            "n": 0,
+            "rabbit": "Theodore Roosevelt"
+        },
+        {
+            "id": "marian-anderson",
+            "tier": "middle",
+            "t": "Helped arrange Marian Anderson’s 1939 concert at the Lincoln Memorial after resigning from the Daughters of the American Revolution",
+            "k": ["marian anderson", "lincoln memorial", "daughters of the american revolution", "1939"],
+            "n": 0,
+            "rabbit": "Lincoln Memorial"
+        },
+        {
+            "id": "first-lady-of-the-world",
+            "tier": "middle",
+            "t": "Harry Truman named her a delegate to the United Nations and called her the “First Lady of the World”",
+            "k": ["first lady of the world", "delegate", "truman"],
+            "n": 0
+        },
+        {
+            "id": "press-conferences",
+            "tier": "middle",
+            "t": "First First Lady to hold a press conference (1933); only female reporters could attend",
+            "k": ["press conference", "female reporters"],
+            "n": 0
+        },
+        {
+            "id": "status-of-women",
+            "tier": "middle",
+            "t": "Chaired John F. Kennedy’s Presidential Commission on the Status of Women (1961)",
+            "k": ["status of women", "kennedy", "1961"],
+            "n": 0,
+            "rabbit": "John F. Kennedy"
+        },
+        {
+            "id": "eyes-and-ears",
+            "tier": "middle",
+            "t": "After Franklin got polio (1921), she traveled widely as his “eyes and ears”",
+            "k": ["eyes and ears", "polio", "1921"],
+            "n": 0
+        },
+        {
+            "id": "tuskegee",
+            "tier": "middle",
+            "t": "Flew with Black pilot Charles “Chief” Anderson at Tuskegee (1941), backing the Tuskegee Airmen",
+            "k": ["tuskegee", "airmen", "1941"],
+            "n": 0
+        },
+        {
+            "id": "magna-carta",
+            "tier": "power",
+            "t": "Said the Universal Declaration “may well become the international Magna Carta for all men everywhere”",
+            "k": ["magna carta", "international"],
+            "n": 0
+        },
+        {
+            "id": "orphaned",
+            "tier": "power",
+            "t": "Both parents died by the time she was ten; her father, Elliott, was Theodore Roosevelt’s younger brother",
+            "k": ["elliott", "parents", "younger brother"],
+            "n": 0
+        },
+        {
+            "id": "allenswood",
+            "tier": "power",
+            "t": "Studied at Allenswood, a girls’ boarding school near London run by Marie Souvestre",
+            "k": ["allenswood", "souvestre", "london"],
+            "n": 0
+        },
+        {
+            "id": "val-kill",
+            "tier": "power",
+            "t": "Started Val-Kill Industries at Hyde Park with Nancy Cook and Marion Dickerman; her Val-Kill cottage became a National Historic Site (1977)",
+            "k": ["val-kill", "hyde park", "dickerman"],
+            "n": 0
+        },
+        {
+            "id": "todhunter",
+            "tier": "power",
+            "t": "Taught at the Todhunter School for girls in New York City; worked with the League of Women Voters",
+            "k": ["todhunter", "league of women voters"],
+            "n": 0
+        },
+        {
+            "id": "arthurdale",
+            "tier": "power",
+            "t": "Championed Arthurdale, a New Deal community for out-of-work coal-mining families in West Virginia",
+            "k": ["arthurdale", "west virginia", "coal-mining"],
+            "n": 0
+        },
+        {
+            "id": "new-yorker",
+            "tier": "power",
+            "t": "A 1933 _New Yorker_ cartoon showed coal miners surprised to see her arriving underground",
+            "k": ["new yorker", "cartoon", "coal miners"],
+            "n": 0
+        },
+        {
+            "id": "dar-column",
+            "tier": "power",
+            "t": "Announced her resignation from the group in her column without naming it (February 1939)",
+            "k": ["resignation", "without naming", "february 1939"],
+            "n": 0
+        },
+        {
+            "id": "convention-1940",
+            "tier": "power",
+            "t": "First First Lady to address a national party convention (Chicago, 1940), backing Henry Wallace for vice president",
+            "k": ["convention", "henry wallace", "1940"],
+            "n": 0
+        },
+        {
+            "id": "south-pacific",
+            "tier": "power",
+            "t": "Toured the South Pacific in a Red Cross uniform (1943), visiting troops on Guadalcanal",
+            "k": ["south pacific", "red cross", "guadalcanal"],
+            "n": 0
+        },
+        {
+            "id": "malik-cassin",
+            "tier": "power",
+            "t": "Worked with Charles Malik, P. C. Chang, and René Cassin on the Declaration, adopted in Paris (December 1948)",
+            "k": ["charles malik", "rené cassin", "cassin", "paris"],
+            "n": 0
+        },
+        {
+            "id": "earhart",
+            "tier": "power",
+            "t": "Flew at night with Amelia Earhart from Washington to Baltimore (1933), still in her evening gown",
+            "k": ["amelia earhart", "earhart", "baltimore"],
+            "n": 0,
+            "rabbit": "Amelia Earhart"
+        },
+        {
+            "id": "anna",
+            "tier": "power",
+            "t": "Her first name was actually Anna; she married Franklin on St. Patrick’s Day, 1905",
+            "k": ["anna", "st. patrick", "first name"],
+            "n": 0
+        },
+        {
+            "id": "books-statue",
+            "tier": "power",
+            "t": "Wrote _This Is My Story_ (1937) and _You Learn by Living_ (1960); her statue at the FDR Memorial stands before the UN emblem",
+            "k": ["this is my story", "you learn by living", "fdr memorial"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Roosevelt?",
+        "body": "Three famous Roosevelts show up in quiz bowl, and their clues overlap. Theodore Roosevelt, the 26th president, was Eleanor’s uncle and gave her away at her wedding; Franklin Roosevelt, the 32nd president and Theodore’s fifth cousin, was her husband. Saying only “Roosevelt” earns a prompt, and naming the wrong one loses the tossup, especially when a clue about the New Deal or polio really describes her husband’s presidency.",
+        "fix": "“This woman” or “this First Lady” means Eleanor. Her clues: “My Day,” Marian Anderson and the DAR, Val-Kill, Arthurdale, the Universal Declaration of Human Rights, and “First Lady of the World.” Say “Eleanor Roosevelt,” not just “Roosevelt.”",
+        "line": "Real answer line: <b><u>Eleanor Roosevelt</u></b> (or Anna <b><u>Eleanor Roosevelt</u></b>; prompt on <u>Roosevelt</u>; do not accept “Franklin Roosevelt” or “Theodore Roosevelt”)"
+    },
+    "tests": {
+        "right": [
+            "Eleanor Roosevelt",
+            "Anna Eleanor Roosevelt",
+            "Elanor Roosevelt",
+            "Eleanor Roosvelt",
+            "First Lady Eleanor Roosevelt",
+            "Mrs. Eleanor Roosevelt"
+        ],
+        "prompt": [
+            "Roosevelt",
+            "Eleanor",
+            "Mrs. Roosevelt"
+        ],
+        "wrong": [
+            "Franklin Roosevelt",
+            "Theodore Roosevelt",
+            "FDR",
+            "Teddy Roosevelt",
+            "Frances Perkins",
+            "Marian Anderson",
+            "Eleanor of Aquitaine",
+            "Edith Roosevelt"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

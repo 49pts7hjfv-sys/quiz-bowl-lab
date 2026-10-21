@@ -1,0 +1,364 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "john-lewis",
+    "name": "John Lewis",
+    "mono": "JL",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "SNCC chairman and Georgia congressman · Beaten on “Bloody Sunday”",
+    "dates": "1940–2020",
+    "briefing": "As a boy on an Alabama farm, John Lewis practiced preaching to his family’s chickens. He grew up to ride on the 1961 Freedom Rides, chair SNCC, and speak at the 1963 March on Washington as its youngest speaker. On “Bloody Sunday” in 1965, state troopers beat him at Selma’s Edmund Pettus Bridge. He then represented Georgia in Congress from 1987 until his death in 2020, urging people to make “good trouble.”",
+    "answerHtml": "<b><u>John Lewis</u></b> (or John Robert <u>Lewis</u>; prompt on <u>Lewis</u>; do not accept “John L. Lewis”)",
+    "accept": [
+        "john lewis",
+        "john robert lewis",
+        "john r lewis",
+        "congressman john lewis",
+        "representative john lewis",
+        "rep john lewis"
+    ],
+    "prompt": [
+        "lewis",
+        "congressman lewis",
+        "representative lewis",
+        "rep lewis"
+    ],
+    "reject": [
+        "john l lewis",
+        "john llewellyn lewis",
+        "martin luther king",
+        "martin luther king jr",
+        "mlk",
+        "hosea williams",
+        "stokely carmichael",
+        "julian bond",
+        "james lawson",
+        "diane nash",
+        "james farmer",
+        "ralph abernathy",
+        "andrew young",
+        "meriwether lewis",
+        "lewis and clark",
+        "sinclair lewis",
+        "c s lewis",
+        "carl lewis",
+        "jerry lewis",
+        "edmund pettus",
+        "edmund pettus bridge"
+    ],
+    "tests": {
+        "right": [
+            "John Lewis",
+            "Jon Lewis",
+            "John Robert Lewis",
+            "Congressman John Lewis",
+            "Rep. John Lewis",
+            "john lewiss"
+        ],
+        "prompt": [
+            "Lewis",
+            "Congressman Lewis"
+        ],
+        "wrong": [
+            "John L. Lewis",
+            "Martin Luther King Jr.",
+            "Hosea Williams",
+            "Stokely Carmichael",
+            "Julian Bond",
+            "Meriwether Lewis",
+            "Lewis and Clark"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/John_Lewis",
+    "qb": {
+        "q": "John Lewis",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "As a boy on his family’s farm in Pike County, Alabama, this man practiced his sermons by preaching to the chickens. After he wrote to Martin Luther King Jr. asking for help, King nicknamed this young man “the boy from Troy.”",
+            "r": "On “Bloody Sunday” in 1965, he was beaten at the Edmund Pettus Bridge. For 10 points, name this civil rights leader who later represented Georgia in Congress."
+        },
+        {
+            "p": "Other organizers persuaded this speaker to tone down a speech whose draft compared the civil rights movement to William Tecumseh Sherman’s march through the South. When he died, he was the last surviving member of the “Big Six” leaders who organized the event where he gave that speech.",
+            "r": "At 23, he was the youngest speaker at the 1963 March on Washington. For 10 points, name this chairman of SNCC who later served in Congress."
+        },
+        {
+            "p": "While testing the Supreme Court’s ruling in _Boynton v. Virginia_ against segregated bus terminals, this man was attacked at a bus station in Rock Hill, South Carolina. Less than two weeks later, a mob beat him again when his bus reached Montgomery, Alabama.",
+            "r": "For 10 points, name this 1961 Freedom Rider who later chaired SNCC and represented Georgia in Congress for more than 30 years."
+        },
+        {
+            "p": "James Lawson’s workshops on nonviolence trained this man, who was arrested in 1960 during sit-ins at segregated lunch counters in Nashville, Tennessee. A year later, he was one of the original thirteen Freedom Riders who left Washington, D.C., on buses heading south.",
+            "r": "From 1963 to 1966, he chaired SNCC. For 10 points, name this activist who was beaten on “Bloody Sunday” in Selma."
+        },
+        {
+            "p": "In 1966, Stokely Carmichael replaced this man as the leader of a student civil rights group that was turning toward “Black Power.” Twenty years later, this man defeated Julian Bond, a former colleague from that group, in a race for the Democratic nomination for Congress.",
+            "r": "For 10 points, name this chairman of SNCC who represented Atlanta in Congress from 1987 to 2020."
+        },
+        {
+            "p": "Nate Powell drew the pictures for this man’s memoir trilogy, which he wrote with his congressional aide Andrew Aydin. The third book of that series became the first graphic novel to win a National Book Award, taking the 2016 prize for Young People’s Literature.",
+            "r": "That trilogy is called _March_. For 10 points, name this civil rights leader and longtime congressman from Georgia."
+        },
+        {
+            "p": "For years, this congressman introduced bills to create the National Museum of African American History and Culture, which finally opened in 2016. This author of the 1998 memoir _Walking with the Wind_ received the Presidential Medal of Freedom from Barack Obama in 2011.",
+            "r": "He had chaired SNCC in the 1960s. For 10 points, name this Georgia congressman who urged people to make “good trouble.”"
+        },
+        {
+            "p": "After a state trooper shot and killed the young protester Jimmie Lee Jackson in Marion, Alabama, this man and Hosea Williams of the Southern Christian Leadership Conference led about 600 people out of Brown Chapel AME Church on a march toward their state’s capital.",
+            "r": "State troopers beat him and many other marchers that day, which became known as “Bloody Sunday.” For 10 points, name this SNCC chairman who led that 1965 march across the Edmund Pettus Bridge."
+        },
+        {
+            "p": "In July 2020, a horse-drawn carriage carried this man’s casket across an Alabama bridge where he had been beaten 55 years earlier. Days later, this longtime congressman lay in state in the Rotunda of the U.S. Capitol.",
+            "r": "For 10 points, name this Georgia Democrat who had chaired SNCC and spoken at the 1963 March on Washington."
+        },
+        {
+            "p": "On the day of this man’s funeral in 2020, _The New York Times_ published his farewell essay, “Together, You Can Redeem the Soul of Our Nation.” Colleagues called this congressman, who had been arrested dozens of times as a young protester, the “Conscience of the Congress.”",
+            "r": "He told people to make “good trouble, necessary trouble.” For 10 points, name this civil rights leader from Georgia."
+        },
+        {
+            "p": "In June 2016, this congressman led a sit-in on the floor of the House of Representatives to demand votes on gun-control bills. More than fifty years earlier, he had joined sit-ins at segregated lunch counters in Nashville, Tennessee.",
+            "r": "For 10 points, name this Georgia Democrat who had been beaten by state troopers on “Bloody Sunday” in 1965."
+        },
+        {
+            "p": "Stephan James played this man in a 2014 film directed by Ava DuVernay [“doo-ver-NAY”] about a campaign for voting rights in Alabama. In that campaign, this man and Hosea Williams led marchers out of town toward the state capital.",
+            "r": "That film is _Selma_. For 10 points, name this SNCC chairman who was beaten at the Edmund Pettus Bridge on “Bloody Sunday.”"
+        },
+        {
+            "p": "In the 1970s, this man directed the Voter Education Project, which helped Black Southerners register to vote, and in 1981 he won a seat on the Atlanta City Council. In 1986, he won a seat in the U.S. House that he held for the rest of his life.",
+            "r": "For 10 points, name this Georgia congressman who was the youngest speaker at the 1963 March on Washington."
+        },
+        {
+            "p": "This man earned degrees from American Baptist Theological Seminary and Fisk University, both in Nashville, where he joined Diane Nash in the city’s student movement. In 1963, he replaced Charles McDew as the chairman of a student-led group founded three years earlier.",
+            "r": "That group was SNCC. For 10 points, name this activist who later represented Atlanta in Congress."
+        },
+        {
+            "p": "ABC interrupted a broadcast of the movie _Judgment at Nuremberg_ to show film of state troopers attacking this man and other voting-rights marchers. Eight days after that attack, President Lyndon Johnson told Congress that “we shall overcome” while calling for a new voting rights law.",
+            "r": "That attack happened on “Bloody Sunday.” For 10 points, name this SNCC chairman who was beaten at the Edmund Pettus Bridge."
+        }
+    ],
+    "clues": [
+        {
+            "id": "bloody-sunday",
+            "tier": "giveaway",
+            "t": "Led marchers across the Edmund Pettus Bridge in Selma on “Bloody Sunday” (March 7, 1965); state troopers beat him and many others",
+            "k": ["bloody sunday", "edmund pettus", "selma", "state troopers"],
+            "n": 0
+        },
+        {
+            "id": "sncc",
+            "tier": "giveaway",
+            "t": "Chairman of SNCC, the Student Nonviolent Coordinating Committee, from 1963 to 1966",
+            "k": ["sncc", "student nonviolent", "chairman"],
+            "n": 0
+        },
+        {
+            "id": "congress",
+            "tier": "giveaway",
+            "t": "U.S. Representative from Georgia, for a district covering much of Atlanta, from 1987 until his death in 2020",
+            "k": ["georgia", "atlanta", "representative", "1987"],
+            "n": 0,
+            "rabbit": "Atlanta"
+        },
+        {
+            "id": "march-on-washington",
+            "tier": "giveaway",
+            "t": "At age 23, the youngest speaker at the 1963 March on Washington",
+            "k": ["youngest speaker", "march on washington", "youngest"],
+            "n": 0,
+            "rabbit": "Martin Luther King Jr."
+        },
+        {
+            "id": "good-trouble",
+            "tier": "giveaway",
+            "t": "Urged people to get into “good trouble, necessary trouble”",
+            "k": ["good trouble", "necessary trouble"],
+            "n": 0
+        },
+        {
+            "id": "freedom-rider",
+            "tier": "middle",
+            "t": "One of the original 13 Freedom Riders (1961); attacked at Rock Hill, South Carolina, and at Montgomery’s Greyhound station",
+            "k": ["freedom riders", "rock hill", "greyhound", "1961"],
+            "n": 0,
+            "rabbit": "Montgomery, Alabama"
+        },
+        {
+            "id": "nashville",
+            "tier": "middle",
+            "t": "Trained in nonviolence by James Lawson; arrested in the 1960 Nashville lunch-counter sit-ins",
+            "k": ["nashville", "sit-ins", "lawson", "lunch-counter"],
+            "n": 0
+        },
+        {
+            "id": "march-trilogy",
+            "tier": "middle",
+            "t": "Wrote the graphic-novel memoir trilogy _March_ with his aide Andrew Aydin; Nate Powell drew it",
+            "k": ["graphic-novel", "aydin", "nate powell", "march"],
+            "n": 0
+        },
+        {
+            "id": "national-book-award",
+            "tier": "middle",
+            "t": "_March: Book Three_ won the 2016 National Book Award for Young People’s Literature, the first graphic novel to win one",
+            "k": ["national book award", "book three", "2016"],
+            "n": 0
+        },
+        {
+            "id": "medal-of-freedom",
+            "tier": "middle",
+            "t": "Received the Presidential Medal of Freedom from Barack Obama in 2011",
+            "k": ["medal of freedom", "2011", "obama"],
+            "n": 0
+        },
+        {
+            "id": "big-six",
+            "tier": "middle",
+            "t": "Youngest of the “Big Six” leaders who organized the March on Washington, and the last of them to die",
+            "k": ["big six"],
+            "n": 0
+        },
+        {
+            "id": "voting-rights-act",
+            "tier": "middle",
+            "t": "Bloody Sunday pushed Congress to pass the Voting Rights Act of 1965",
+            "k": ["voting rights act", "1965"],
+            "n": 0
+        },
+        {
+            "id": "conscience",
+            "tier": "middle",
+            "t": "Colleagues called him the “Conscience of the Congress”",
+            "k": ["conscience"],
+            "n": 0
+        },
+        {
+            "id": "final-crossing",
+            "tier": "middle",
+            "t": "Died in July 2020; his casket crossed the Edmund Pettus Bridge one last time, and he lay in state in the Capitol Rotunda",
+            "k": ["lay in state", "rotunda", "2020", "casket"],
+            "n": 0
+        },
+        {
+            "id": "chickens",
+            "tier": "power",
+            "t": "Son of sharecroppers near Troy, Alabama; as a boy he practiced sermons by preaching to the chickens",
+            "k": ["chickens", "troy", "sharecroppers", "preaching"],
+            "n": 0
+        },
+        {
+            "id": "boy-from-troy",
+            "tier": "power",
+            "t": "Wrote to Martin Luther King Jr. as a teenager; King nicknamed him “the boy from Troy”",
+            "k": ["boy from troy"],
+            "n": 0
+        },
+        {
+            "id": "sherman-draft",
+            "tier": "power",
+            "t": "Other leaders made him tone down his March on Washington speech, whose draft compared the movement to Sherman’s march through the South",
+            "k": ["sherman", "tone down", "draft"],
+            "n": 0
+        },
+        {
+            "id": "boynton",
+            "tier": "power",
+            "t": "The Freedom Rides tested the Supreme Court’s ruling in _Boynton v. Virginia_ (1960) against segregated bus terminals",
+            "k": ["boynton", "bus terminals"],
+            "n": 0
+        },
+        {
+            "id": "carmichael",
+            "tier": "power",
+            "t": "Stokely Carmichael replaced him as SNCC chairman in 1966, as the group turned toward “Black Power”",
+            "k": ["carmichael", "black power"],
+            "n": 0
+        },
+        {
+            "id": "mcdew",
+            "tier": "power",
+            "t": "Succeeded Charles McDew as SNCC chairman in 1963; studied at American Baptist Theological Seminary and Fisk University",
+            "k": ["mcdew", "fisk", "american baptist"],
+            "n": 0
+        },
+        {
+            "id": "julian-bond",
+            "tier": "power",
+            "t": "Beat his former SNCC colleague Julian Bond in the 1986 race for the Democratic nomination for Congress",
+            "k": ["julian bond", "1986"],
+            "n": 0
+        },
+        {
+            "id": "voter-education",
+            "tier": "power",
+            "t": "Directed the Voter Education Project in the 1970s; elected to the Atlanta City Council in 1981",
+            "k": ["voter education", "city council"],
+            "n": 0
+        },
+        {
+            "id": "hosea-williams",
+            "tier": "power",
+            "t": "Hosea Williams of the SCLC co-led the Bloody Sunday march of about 600 people from Brown Chapel AME Church, planned after the killing of Jimmie Lee Jackson",
+            "k": ["hosea williams", "brown chapel", "jimmie lee jackson", "sclc"],
+            "n": 0
+        },
+        {
+            "id": "judgment-at-nuremberg",
+            "tier": "power",
+            "t": "ABC interrupted _Judgment at Nuremberg_ to show the attack; eight days later, Lyndon Johnson told Congress “we shall overcome”",
+            "k": ["judgment at nuremberg", "we shall overcome", "lyndon johnson"],
+            "n": 0
+        },
+        {
+            "id": "walking-with-the-wind",
+            "tier": "power",
+            "t": "Wrote the memoir _Walking with the Wind_ (1998)",
+            "k": ["walking with the wind"],
+            "n": 0
+        },
+        {
+            "id": "museum",
+            "tier": "power",
+            "t": "For years introduced bills to create the National Museum of African American History and Culture, which opened in 2016",
+            "k": ["national museum", "african american history"],
+            "n": 0
+        },
+        {
+            "id": "sit-in-2016",
+            "tier": "power",
+            "t": "Led a June 2016 sit-in on the House floor to demand votes on gun-control bills",
+            "k": ["sit-in", "house floor", "gun-control"],
+            "n": 0
+        },
+        {
+            "id": "farewell-essay",
+            "tier": "power",
+            "t": "_The New York Times_ ran his farewell essay, “Together, You Can Redeem the Soul of Our Nation,” on the day of his funeral; Stephan James played him in _Selma_ (2014)",
+            "k": ["redeem the soul", "funeral", "stephan james"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not the labor leader",
+        "body": "Two famous John Lewises are quiz bowl answers. John L. Lewis (1880–1969) led the United Mine Workers and helped found the CIO; John Lewis (1940–2020) was the civil rights leader and Georgia congressman. Real answer lines for the congressman say “do not accept John L. Lewis.” Clues about Selma and the March on Washington also fill tossups about Martin Luther King Jr., so an early buzz on “King” can go wrong.",
+        "fix": "Coal miners, strikes, the CIO, and the 1930s mean John L. Lewis. SNCC, the Freedom Rides, the Edmund Pettus Bridge, the _March_ books, and Congress mean John Lewis. Say “John Lewis,” with no middle initial; saying only “Lewis” earns a prompt.",
+        "line": "Real answer line: <b><u>John Lewis</u></b> (or John Robert <u>Lewis</u>; prompt on <u>Lewis</u>; do not accept “John L. Lewis”)"
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

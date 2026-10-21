@@ -88,7 +88,7 @@ data = {
             "r": "The fourth pillar is ecological wisdom. For 10 points, name this environmentalist party whose 2000 presidential candidate was Ralph Nader."
         },
         {
-            "p": "Winona LaDuke, an Ojibwe [“oh-JIB-way”] environmental activist from Minnesota, was this party’s vice presidential candidate in both 1996 and 2000. Her running mate in those races had become famous decades earlier for a book attacking the safety of American cars.",
+            "p": "Winona LaDuke, an Ojibwe [“oh-JIB-way”] activist from Minnesota, was this party’s vice presidential candidate in both 1996 and 2000. Her running mate in those races had become famous decades earlier for a book attacking the safety of American cars.",
             "r": "That running mate, Ralph Nader, won almost 3 percent of the vote in 2000. For 10 points, name this environmentalist political party."
         },
         {

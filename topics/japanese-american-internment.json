@@ -1,0 +1,461 @@
+{
+  "id": "japanese-american-internment",
+  "name": "Japanese American internment",
+  "mono": "JAI",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Forced removal of Japanese Americans in World War II · Executive Order 9066",
+  "dates": "1942–1946",
+  "briefing": "In 1942, after Japan’s attack on Pearl Harbor, President Franklin Roosevelt signed Executive Order 9066, and the U.S. government forced about 120,000 people of Japanese ancestry on the West Coast out of their homes. About two-thirds of them were American citizens. Families could bring only what they could carry, and many spent years behind barbed wire in camps such as Manzanar, Tule Lake, and Heart Mountain. In 1988, the government formally apologized and paid $20,000 to each survivor.",
+  "answerHtml": "<b><u>Japanese American internment</u></b> (or <b><u>internment</u></b> or <b><u>incarceration</u></b> of <b><u>Japanese Americans</u></b>; accept equivalents; prompt on partial answers such as <u>internment</u> or <u>Japanese Americans</u>, or on <u>Executive Order 9066</u>)",
+  "accept": [
+    "japanese american internment",
+    "internment of japanese americans",
+    "internment of the japanese americans",
+    "internment of japanese",
+    "internment of the japanese",
+    "internment of japanese people",
+    "japanese internment",
+    "japanese american incarceration",
+    "incarceration of japanese americans",
+    "japanese incarceration",
+    "japanese american relocation",
+    "relocation of japanese americans",
+    "japanese relocation",
+    "removal of japanese americans",
+    "exclusion of japanese americans",
+    "detention of japanese americans",
+    "japanese american detention",
+    "japanese american camps",
+    "relocation of japanese",
+    "relocation of the japanese",
+    "incarceration of japanese",
+    "incarceration of the japanese",
+    "japanese american concentration camps",
+    "concentration camps for japanese americans"
+  ],
+  "prompt": [
+    "internment",
+    "internment camps",
+    "internment camp",
+    "incarceration",
+    "incarceration camps",
+    "relocation",
+    "relocation camps",
+    "relocation centers",
+    "concentration camps",
+    "japanese americans",
+    "japanese american",
+    "japanese",
+    "nisei",
+    "issei",
+    "executive order 9066",
+    "eo 9066",
+    "order 9066",
+    "9066"
+  ],
+  "reject": [
+    "korematsu v united states",
+    "korematsu",
+    "fred korematsu",
+    "ex parte endo",
+    "hirabayashi v united states",
+    "hirabayashi",
+    "attack on pearl harbor",
+    "pearl harbor",
+    "holocaust",
+    "the holocaust",
+    "trail of tears",
+    "german american internment",
+    "italian american internment",
+    "japanese canadian internment",
+    "internment of japanese canadians",
+    "japanese canadians",
+    "civil liberties act",
+    "civil liberties act of 1988",
+    "442nd regimental combat team",
+    "442nd",
+    "world war ii",
+    "world war 2",
+    "manzanar",
+    "tule lake",
+    "heart mountain",
+    "war relocation authority",
+    "chinese exclusion act",
+    "bataan death march",
+    "zoot suit riots"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Internment_of_Japanese_Americans",
+  "qb": {
+    "q": "Japanese-Americans",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "General John DeWitt of the Western Defense Command issued more than 100 Civilian Exclusion Orders to carry out this action, and the posted notices gave families only days to sell or store their belongings. Families could bring only what they could carry.",
+      "r": "This action followed Executive Order 9066, signed in February 1942. For 10 points, name this World War II policy that forced about 120,000 Japanese Americans into camps."
+    },
+    {
+      "p": "Fred Korematsu, who was born in Oakland, California, was arrested in 1942 for refusing to report for removal during this event. In 1944, the Supreme Court ruled 6–3 against him in an opinion by Justice Hugo Black.",
+      "r": "For 10 points, name this World War II policy that forced Japanese Americans from the West Coast into camps."
+    },
+    {
+      "p": "On the same day in December 1944 that it decided _Korematsu v. United States_, the Supreme Court ruled unanimously in _Ex parte Endo_ that the government could not keep holding a citizen whose loyalty it had already confirmed. In January 1945, people were allowed to return to the West Coast.",
+      "r": "For 10 points, name this World War II policy that sent about 120,000 Japanese Americans to camps."
+    },
+    {
+      "p": "University of Washington student Gordon Hirabayashi [“hee-rah-bah-YAH-shee”] was convicted for breaking a curfew and refusing to report for removal during this event, and the Supreme Court upheld his curfew conviction in 1943. His convictions were overturned in the 1980s.",
+      "r": "For 10 points, name this policy under which the U.S. government forced Japanese Americans into camps during World War II."
+    },
+    {
+      "p": "Soldiers of the 442nd Regimental Combat Team, whose motto was “Go for Broke,” fought in Italy and France while many of their families were held in camps during this event. For its size and length of service, the 442nd became the most decorated unit in U.S. military history.",
+      "r": "For 10 points, name this World War II policy that forced about 120,000 Japanese Americans from their homes."
+    },
+    {
+      "p": "Daniel Inouye [“ih-NOH-ay”], a future senator from Hawaii, later received the Medal of Honor for his service in a Nisei [“NEE-say”] combat unit that also rescued a trapped Texas battalion in France. Many of that unit’s soldiers had families confined during this event.",
+      "r": "For 10 points, name this World War II policy that forced Japanese Americans into camps."
+    },
+    {
+      "p": "Jeanne Wakatsuki Houston and her husband, James D. Houston, wrote a memoir about her childhood in a camp in California’s Owens Valley, where her family lived from 1942 to 1945 during this event. Ansel Adams photographed that camp, which held more than 10,000 people.",
+      "r": "That memoir is _Farewell to Manzanar_. For 10 points, name this World War II policy that forced Japanese Americans into camps."
+    },
+    {
+      "p": "A 1943 loyalty questionnaire asked people held during this event whether they would serve in the U.S. military and give up loyalty to Japan’s emperor. Many who answered “no” to both questions were sent to a segregation center at Tule Lake, California, and called “no-no boys.”",
+      "r": "For 10 points, name this World War II policy under which about 120,000 Japanese Americans were held in camps."
+    },
+    {
+      "p": "At the Heart Mountain camp in Wyoming, young men formed the Fair Play Committee to resist being drafted while their families were held there. Norman Mineta [“mih-NET-uh”], who was held at that camp as a boy, met future Wyoming senator Alan Simpson there when Simpson’s Boy Scout troop visited.",
+      "r": "For 10 points, name this World War II policy that confined about 120,000 Japanese Americans in camps."
+    },
+    {
+      "p": "A 1983 report by a federal commission, titled _Personal Justice Denied_, blamed this event on “race prejudice, war hysteria, and a failure of political leadership.” Five years later, Ronald Reagan signed the Civil Liberties Act of 1988, which formally apologized and paid $20,000 to each survivor.",
+      "r": "For 10 points, name this World War II policy that forced Japanese Americans into camps."
+    },
+    {
+      "p": "In 1983, a federal judge in San Francisco overturned Fred Korematsu’s conviction, and in 1998 Bill Clinton gave him the Presidential Medal of Freedom. Earlier, in 1976, Gerald Ford formally ended the executive order that had launched this event.",
+      "r": "For 10 points, name this World War II policy, authorized by Executive Order 9066, that forced Japanese Americans into camps."
+    },
+    {
+      "p": "In the 2018 case _Trump v. Hawaii_, Chief Justice John Roberts wrote that a 1944 Supreme Court decision upholding this policy “was gravely wrong the day it was decided.” Justices Frank Murphy, Robert Jackson, and Owen Roberts had dissented from that 1944 decision.",
+      "r": "That decision was _Korematsu v. United States_. For 10 points, name this World War II policy that confined Japanese Americans in camps."
+    },
+    {
+      "p": "Before reaching permanent camps, many families during this event lived for months in “assembly centers” at racetracks such as Santa Anita and Tanforan, some in converted horse stalls. Artist Miné Okubo [“MEE-nay oh-KOO-boh”] drew her time at Tanforan and the Topaz camp in Utah in her book _Citizen 13660_.",
+      "r": "For 10 points, name this World War II policy that forced about 120,000 Japanese Americans from their homes."
+    },
+    {
+      "p": "Milton Eisenhower, a younger brother of a famous general, briefly led the War Relocation Authority, the civilian agency that ran ten camps during this event, before Dillon Myer replaced him in 1942. Two of those camps, Gila River and Poston, were built on Native American reservations in Arizona.",
+      "r": "Other camps included Manzanar and Heart Mountain. For 10 points, name this World War II policy that confined Japanese Americans."
+    },
+    {
+      "p": "Actor George Takei [“tuh-KAY”], who later played Sulu on _Star Trek_, spent part of his childhood at the Rohwer camp in Arkansas and at Tule Lake in California during this event. He later starred in _Allegiance_, a Broadway musical about it.",
+      "r": "About two-thirds of the roughly 120,000 people held were U.S. citizens. For 10 points, name this World War II policy that forced Japanese Americans into camps."
+    }
+  ],
+  "clues": [
+    {
+      "id": "executive-order",
+      "tier": "giveaway",
+      "t": "Authorized by Executive Order 9066, signed by Franklin Roosevelt on February 19, 1942",
+      "k": [
+        "executive order 9066",
+        "9066",
+        "franklin roosevelt",
+        "february 19"
+      ],
+      "n": 0,
+      "rabbit": "Franklin Delano Roosevelt"
+    },
+    {
+      "id": "how-many",
+      "tier": "giveaway",
+      "t": "About 120,000 people of Japanese ancestry on the West Coast were forced from their homes; about two-thirds were U.S. citizens",
+      "k": [
+        "120,000",
+        "two-thirds",
+        "west coast",
+        "citizens"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pearl-harbor",
+      "tier": "giveaway",
+      "t": "Came after Japan’s attack on Pearl Harbor (December 7, 1941), during World War II",
+      "k": [
+        "pearl harbor",
+        "world war ii"
+      ],
+      "n": 0,
+      "rabbit": "Attack on Pearl Harbor"
+    },
+    {
+      "id": "camps",
+      "tier": "giveaway",
+      "t": "People were held in camps such as Manzanar and Tule Lake (California) and Heart Mountain (Wyoming)",
+      "k": [
+        "manzanar",
+        "tule lake",
+        "heart mountain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "korematsu",
+      "tier": "middle",
+      "t": "_Korematsu v. United States_ (1944): the Supreme Court upheld the forced removal, 6–3, in an opinion by Hugo Black",
+      "k": [
+        "korematsu",
+        "supreme court",
+        "hugo black"
+      ],
+      "n": 0
+    },
+    {
+      "id": "civil-liberties-act",
+      "tier": "middle",
+      "t": "Civil Liberties Act of 1988, signed by Ronald Reagan: a formal apology and $20,000 to each survivor",
+      "k": [
+        "civil liberties act",
+        "20,000",
+        "ronald reagan",
+        "1988"
+      ],
+      "n": 0,
+      "rabbit": "Ronald Reagan"
+    },
+    {
+      "id": "442nd",
+      "tier": "middle",
+      "t": "The 442nd Regimental Combat Team of Nisei soldiers (“Go for Broke”) became the most decorated U.S. unit for its size and length of service",
+      "k": [
+        "442nd",
+        "go for broke",
+        "most decorated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "issei-nisei",
+      "tier": "middle",
+      "t": "Issei were immigrants born in Japan, barred by law from becoming citizens; Nisei were their American-born children",
+      "k": [
+        "issei",
+        "nisei"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wra",
+      "tier": "middle",
+      "t": "The War Relocation Authority ran ten camps, many in remote deserts, mountains, and swamps",
+      "k": [
+        "war relocation authority",
+        "ten camps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "farewell",
+      "tier": "middle",
+      "t": "Jeanne Wakatsuki Houston’s memoir _Farewell to Manzanar_ (1973) tells of her childhood at the camp, which Ansel Adams photographed",
+      "k": [
+        "farewell to manzanar",
+        "wakatsuki",
+        "ansel adams"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dewitt",
+      "tier": "power",
+      "t": "General John DeWitt of the Western Defense Command issued the Civilian Exclusion Orders",
+      "k": [
+        "dewitt",
+        "western defense command",
+        "civilian exclusion orders"
+      ],
+      "n": 0
+    },
+    {
+      "id": "endo",
+      "tier": "power",
+      "t": "_Ex parte Endo_ (December 1944): the Court ruled unanimously that a loyal citizen could not be held; people could return to the West Coast in January 1945",
+      "k": [
+        "ex parte endo",
+        "endo",
+        "unanimously"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hirabayashi",
+      "tier": "power",
+      "t": "Gordon Hirabayashi broke a curfew; the Supreme Court upheld his conviction in 1943, and it was overturned in the 1980s",
+      "k": [
+        "hirabayashi",
+        "curfew"
+      ],
+      "n": 0
+    },
+    {
+      "id": "assembly-centers",
+      "tier": "power",
+      "t": "Families first lived in “assembly centers” at racetracks like Santa Anita and Tanforan, some in converted horse stalls",
+      "k": [
+        "assembly centers",
+        "santa anita",
+        "tanforan",
+        "horse stalls"
+      ],
+      "n": 0
+    },
+    {
+      "id": "loyalty",
+      "tier": "power",
+      "t": "A 1943 loyalty questionnaire; “no-no boys” who answered no to two key questions were sent to Tule Lake",
+      "k": [
+        "loyalty questionnaire",
+        "no-no boys"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fair-play",
+      "tier": "power",
+      "t": "Heart Mountain’s Fair Play Committee resisted the draft; Norman Mineta and Alan Simpson met there as Boy Scouts",
+      "k": [
+        "fair play committee",
+        "mineta",
+        "alan simpson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inouye",
+      "tier": "power",
+      "t": "Daniel Inouye, later a senator from Hawaii, received the Medal of Honor; his unit rescued a trapped Texas battalion in France (1944)",
+      "k": [
+        "inouye",
+        "medal of honor",
+        "texas battalion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "personal-justice",
+      "tier": "power",
+      "t": "The 1983 report _Personal Justice Denied_ blamed “race prejudice, war hysteria, and a failure of political leadership”",
+      "k": [
+        "personal justice denied",
+        "war hysteria"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ford-1976",
+      "tier": "power",
+      "t": "Gerald Ford formally ended Executive Order 9066 in 1976",
+      "k": [
+        "gerald ford",
+        "1976"
+      ],
+      "n": 0
+    },
+    {
+      "id": "korematsu-later",
+      "tier": "power",
+      "t": "Fred Korematsu’s conviction was overturned in 1983; Bill Clinton gave him the Presidential Medal of Freedom (1998)",
+      "k": [
+        "medal of freedom",
+        "1983",
+        "1998"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gravely-wrong",
+      "tier": "power",
+      "t": "In _Trump v. Hawaii_ (2018), Chief Justice John Roberts wrote that _Korematsu_ “was gravely wrong the day it was decided”",
+      "k": [
+        "gravely wrong",
+        "john roberts",
+        "2018"
+      ],
+      "n": 0
+    },
+    {
+      "id": "okubo",
+      "tier": "power",
+      "t": "Miné Okubo drew her time at Tanforan and the Topaz camp in Utah in _Citizen 13660_ (1946)",
+      "k": [
+        "okubo",
+        "citizen 13660",
+        "topaz"
+      ],
+      "n": 0
+    },
+    {
+      "id": "milton-eisenhower",
+      "tier": "power",
+      "t": "Milton Eisenhower, then Dillon Myer, led the War Relocation Authority; Gila River and Poston were built on reservations in Arizona",
+      "k": [
+        "milton eisenhower",
+        "dillon myer",
+        "gila river",
+        "poston"
+      ],
+      "n": 0
+    },
+    {
+      "id": "takei",
+      "tier": "power",
+      "t": "Actor George Takei was held as a child at Rohwer (Arkansas) and Tule Lake; he starred in the musical _Allegiance_",
+      "k": [
+        "takei",
+        "rohwer",
+        "allegiance"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Policy, people, or case?",
+    "body": "Several answer lines grow out of this event. Executive Order 9066 is the order that launched it, and _Korematsu v. United States_ is the 1944 Supreme Court case that upheld it; some quiz bowl questions simply ask for the people, “Japanese Americans.” On this page, “Japanese Americans” alone, “internment” alone, or “Executive Order 9066” earns a prompt. Many historians and the National Park Service prefer “incarceration” to “internment,” because most of the people held were U.S. citizens, so both words are accepted.",
+    "fix": "Listen for the noun. “This policy,” “this event,” or “this action” wants the internment (or incarceration) of Japanese Americans; “this executive order” wants 9066; “this case” wants _Korematsu_; “this ethnic group” or “these people” wants Japanese Americans. If you are prompted, say the whole thing: “internment of Japanese Americans.”",
+    "line": "Real answer line: <b><u>internment</u></b> of <b><u>Japanese Americans</u></b> (or <b><u>Japanese American incarceration</u></b>; accept equivalents; prompt on partial answers or on <u>Executive Order 9066</u>)"
+  },
+  "tests": {
+    "right": [
+      "Japanese American internment",
+      "internment of Japanese Americans",
+      "Japanese internment",
+      "Japanese-American incarceration",
+      "Japanese internment camps",
+      "Japenese internment",
+      "the internment of Japanese-Americans"
+    ],
+    "prompt": [
+      "internment",
+      "Japanese Americans",
+      "Executive Order 9066",
+      "relocation camps"
+    ],
+    "wrong": [
+      "Korematsu v. United States",
+      "Pearl Harbor",
+      "the Holocaust",
+      "Trail of Tears",
+      "German American internment",
+      "Manzanar",
+      "Civil Liberties Act"
+    ]
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "id": "lightning",
+  "name": "Lightning",
+  "mono": "LTG",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Giant electric spark in a storm · Heats the air so fast it booms as thunder",
+  "dates": "Franklin’s kite experiment: 1752",
+  "briefing": "Lightning is a giant electric spark that leaps inside a storm cloud or between a cloud and the ground, heating the air to roughly five times the temperature of the Sun’s surface. That air expands so violently that it booms as thunder. In 1752, Benjamin Franklin flew a kite in a thunderstorm to show that lightning is electricity, and his pointed metal rods still protect buildings today.",
+  "answerHtml": "<b><u>Lightning</u></b> (accept <u>lightning</u> bolts or <u>lightning</u> strikes; prompt on electric discharge or static electricity; do not accept “thunder,” “ball lightning,” or “St. Elmo’s fire”)",
+  "accept": [
+    "lightning",
+    "lightnings",
+    "lightning bolt",
+    "lightning bolts",
+    "lightning strike",
+    "lightning strikes",
+    "lightning flash",
+    "lightning flashes",
+    "bolt of lightning",
+    "bolts of lightning",
+    "cloud to ground lightning",
+    "forked lightning",
+    "sheet lightning"
+  ],
+  "prompt": [
+    "electric discharge",
+    "electrical discharge",
+    "electrostatic discharge",
+    "static discharge",
+    "discharge",
+    "static electricity",
+    "electricity",
+    "spark",
+    "sparks",
+    "electric spark",
+    "electric sparks",
+    "giant electric spark",
+    "thunderbolt",
+    "thunderbolts"
+  ],
+  "reject": [
+    "thunder",
+    "thunderclap",
+    "thunderstorm",
+    "thunderstorms",
+    "ball lightning",
+    "st elmos fire",
+    "saint elmos fire",
+    "elmos fire",
+    "lightning rod",
+    "lightning rods",
+    "lightning bug",
+    "lightning bugs",
+    "fulgurite",
+    "fulgurites",
+    "sprite",
+    "sprites",
+    "red sprites",
+    "blue jet",
+    "blue jets",
+    "aurora",
+    "auroras",
+    "northern lights",
+    "static shock",
+    "corona discharge",
+    "plasma",
+    "electric current",
+    "electric charge",
+    "electric field",
+    "tornado",
+    "tornadoes",
+    "hail",
+    "rain"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Lightning",
+  "qb": {
+    "q": "lightning",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In May 1752, Thomas-François Dalibard [“dah-lee-BAR”] drew sparks from a tall iron rod in a French village during a storm, confirming an idea about this phenomenon that had been proposed in letters from Philadelphia.",
+      "r": "That same summer, Benjamin Franklin famously tested the idea himself with a kite. For 10 points, name these giant electric sparks that flash during thunderstorms."
+    },
+    {
+      "p": "A faint, branching channel called a stepped leader zigzags down from a cloud at the start of this phenomenon, until it meets a positive streamer reaching up from a tree or building. The bright return stroke then races upward along that channel.",
+      "r": "For 10 points, name this flash of electricity in a storm, which heats the air to make thunder."
+    },
+    {
+      "p": "Shenandoah National Park ranger Roy Sullivan survived being hit by this phenomenon seven times between 1942 and 1977, a world record. Tall buildings like the Empire State Building are struck by it many times each year.",
+      "r": "That disproves an old saying that it never strikes the same place twice. For 10 points, name these electric flashes seen during thunderstorms."
+    },
+    {
+      "p": "Storms where the Catatumbo River meets Venezuela’s Lake Maracaibo [“mah-rah-KYE-boh”] produce so much of this phenomenon that sailors once used its glow to steer at night. NASA satellite data show that it flashes more often over that lake than anywhere else on Earth.",
+      "r": "For 10 points, name this electric discharge from storm clouds, which Benjamin Franklin studied with a kite."
+    },
+    {
+      "p": "When this phenomenon strikes sand, its heat can melt the grains into hollow, branching glass tubes called fulgurites [“FUL-gyuh-rites”], whose name comes from the Latin word for it. They are nicknamed “petrified” versions of this phenomenon.",
+      "r": "Benjamin Franklin invented a pointed metal rod to carry it safely into the ground. For 10 points, name this electric discharge that causes thunder."
+    },
+    {
+      "p": "Inside a storm cloud, collisions between tiny ice crystals and soft hail called graupel [“GROW-pul”] separate electric charges, usually leaving the bottom of the cloud negatively charged. When enough charge builds up, it is released as this phenomenon.",
+      "r": "Most of it stays inside clouds, but some strikes the ground. For 10 points, name this discharge, which heats the air to make thunder."
+    },
+    {
+      "p": "Red flashes called sprites and blue jets that shoot upward appear high above some storms that produce this phenomenon. Most of this phenomenon never reaches the ground, flashing instead inside a cloud or between clouds, which can make a whole cloud glow.",
+      "r": "For 10 points, name this electric discharge, which Benjamin Franklin showed is a form of electricity."
+    },
+    {
+      "p": "This phenomenon heats the air along its path to roughly 30,000 kelvins, about five times hotter than the surface of the Sun. That superheated air expands so fast that it sends out a booming shock wave.",
+      "r": "Count the seconds until that boom and divide by five to estimate its distance in miles. For 10 points, name this flash during a thunderstorm."
+    },
+    {
+      "p": "On summer nights, silent “heat” flashes of this phenomenon are really just storms too far away to be heard. Its light arrives almost instantly, while its sound covers only about a mile every five seconds.",
+      "r": "That sound is called thunder. For 10 points, name this flash of electricity in a storm."
+    },
+    {
+      "p": "This phenomenon splits apart nitrogen molecules in the air, letting the nitrogen form nitrates that rain carries into the soil to fertilize plants. It also makes ozone, which gives the air a sharp smell during some storms.",
+      "r": "For 10 points, name this giant electric spark from a thunderstorm cloud, which Benjamin Franklin studied with a kite."
+    },
+    {
+      "p": "Ash particles grinding together inside the plume of an erupting volcano can build up enough electric charge to set off this phenomenon, creating what are sometimes called “dirty thunderstorms.” It can also strike during snowstorms and big wildfires.",
+      "r": "For 10 points, name this electric discharge, which heats the air so fast that it makes thunder."
+    },
+    {
+      "p": "In 1753, the physicist Georg Wilhelm Richmann [“RIKH-mahn”] died in St. Petersburg while using an iron rod to measure the electricity from this phenomenon during a storm. Experiments like his were inspired by an American’s claim that this phenomenon is electrical.",
+      "r": "That American, Benjamin Franklin, flew a kite in a storm in 1752. For 10 points, name these giant sparks that flash during thunderstorms."
+    },
+    {
+      "p": "Positive strokes of this phenomenon, which usually start in the high, anvil-shaped top of a storm, are rarer but often more powerful than the ordinary negative strokes that come from the bottom of a cloud.",
+      "r": "For 10 points, name this electric discharge that causes thunder, which Benjamin Franklin showed is electrical."
+    },
+    {
+      "p": "After the first stroke of this phenomenon, “dart leaders” can race down the same channel and set off more strokes, which is why a single flash of it often seems to flicker.",
+      "r": "The bright part of each stroke is called the return stroke. For 10 points, name this electric discharge during a thunderstorm."
+    },
+    {
+      "p": "Rubber tires do not protect people in cars from this phenomenon; instead, a hard-topped car’s metal body carries the electric charge around the people inside and into the ground.",
+      "r": "The safety saying “When thunder roars, go indoors” warns people about it. For 10 points, name this electric discharge from a thunderstorm."
+    }
+  ],
+  "clues": [
+    {
+      "id": "electric-spark",
+      "tier": "giveaway",
+      "t": "A giant electric spark that flashes inside clouds or between a cloud and the ground",
+      "k": [
+        "electric spark",
+        "spark",
+        "clouds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "causes-thunder",
+      "tier": "giveaway",
+      "t": "Superheated air around it expands explosively, making the boom of thunder",
+      "k": [
+        "thunder",
+        "expands",
+        "boom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thunderstorms",
+      "tier": "giveaway",
+      "t": "Flashes during thunderstorms, from tall cumulonimbus clouds",
+      "k": [
+        "thunderstorms",
+        "cumulonimbus"
+      ],
+      "n": 0,
+      "rabbit": "Clouds"
+    },
+    {
+      "id": "franklin-kite",
+      "tier": "giveaway",
+      "t": "Benjamin Franklin flew a kite in a thunderstorm (1752) to show that it is electricity",
+      "k": [
+        "franklin",
+        "kite",
+        "1752"
+      ],
+      "n": 0,
+      "rabbit": "Benjamin Franklin"
+    },
+    {
+      "id": "franklin-rod",
+      "tier": "giveaway",
+      "t": "Franklin also invented pointed metal rods that carry it safely into the ground",
+      "k": [
+        "metal rods",
+        "rods",
+        "ground"
+      ],
+      "n": 0
+    },
+    {
+      "id": "five-times-sun",
+      "tier": "middle",
+      "t": "Heats the air to roughly 30,000 kelvins, about five times hotter than the surface of the Sun",
+      "k": [
+        "five times",
+        "30,000 kelvins",
+        "surface of the sun"
+      ],
+      "n": 0
+    },
+    {
+      "id": "count-seconds",
+      "tier": "middle",
+      "t": "Count the seconds from the flash to the thunder and divide by 5 to estimate the distance in miles",
+      "k": [
+        "divide by 5",
+        "seconds",
+        "miles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "most-in-clouds",
+      "tier": "middle",
+      "t": "Most flashes stay inside a cloud or between clouds and never reach the ground",
+      "k": [
+        "inside a cloud",
+        "between clouds",
+        "never reach the ground"
+      ],
+      "n": 0
+    },
+    {
+      "id": "charge-separation",
+      "tier": "middle",
+      "t": "Collisions between ice crystals and soft hail (graupel) separate charges; a storm cloud’s bottom usually turns negative",
+      "k": [
+        "graupel",
+        "ice crystals",
+        "negative"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stepped-leader",
+      "tier": "middle",
+      "t": "A faint stepped leader zigzags down from the cloud and meets a positive streamer reaching up from the ground",
+      "k": [
+        "stepped leader",
+        "streamer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "return-stroke",
+      "tier": "middle",
+      "t": "The bright flash people see is the return stroke, racing upward along the channel",
+      "k": [
+        "return stroke",
+        "upward"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fulgurites",
+      "tier": "middle",
+      "t": "Strikes on sand can melt the grains into hollow glass tubes called fulgurites, from the Latin word for it",
+      "k": [
+        "fulgurites",
+        "glass tubes",
+        "sand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heat-flashes",
+      "tier": "middle",
+      "t": "Silent “heat” flashes are just storms too far away for the thunder to be heard",
+      "k": [
+        "heat",
+        "too far away",
+        "silent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "safety-slogan",
+      "tier": "middle",
+      "t": "Safety saying: “When thunder roars, go indoors”",
+      "k": [
+        "thunder roars",
+        "go indoors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dalibard",
+      "tier": "power",
+      "t": "In May 1752, Thomas-François Dalibard drew sparks from a tall iron rod in France, confirming Franklin’s idea",
+      "k": [
+        "dalibard",
+        "iron rod",
+        "may 1752"
+      ],
+      "n": 0
+    },
+    {
+      "id": "richmann",
+      "tier": "power",
+      "t": "Georg Wilhelm Richmann died in 1753 in St. Petersburg while measuring the electricity from a storm",
+      "k": [
+        "richmann",
+        "1753",
+        "st. petersburg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "roy-sullivan",
+      "tier": "power",
+      "t": "Park ranger Roy Sullivan survived being struck seven times between 1942 and 1977",
+      "k": [
+        "roy sullivan",
+        "seven times",
+        "ranger"
+      ],
+      "n": 0
+    },
+    {
+      "id": "empire-state",
+      "tier": "power",
+      "t": "The Empire State Building is struck many times a year, so it does hit the same place twice",
+      "k": [
+        "empire state building",
+        "same place twice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "catatumbo",
+      "tier": "power",
+      "t": "The Catatumbo storms over Venezuela’s Lake Maracaibo flash more often than anywhere else on Earth, according to NASA satellite data",
+      "k": [
+        "catatumbo",
+        "maracaibo",
+        "venezuela"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sprites",
+      "tier": "power",
+      "t": "Red sprites and blue jets flash high above the tops of strong storms",
+      "k": [
+        "sprites",
+        "blue jets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nitrogen",
+      "tier": "power",
+      "t": "Splits nitrogen molecules so the nitrogen can form nitrates that fertilize soil; it also makes ozone",
+      "k": [
+        "nitrogen",
+        "nitrates",
+        "ozone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "volcanic",
+      "tier": "power",
+      "t": "Ash grinding together in volcanic plumes can set it off in “dirty thunderstorms”; it also strikes in snowstorms and wildfires",
+      "k": [
+        "dirty thunderstorms",
+        "volcanic",
+        "ash"
+      ],
+      "n": 0,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "positive-strokes",
+      "tier": "power",
+      "t": "Positive strokes, which usually start in a storm’s high anvil top, are rarer but often more powerful than negative ones",
+      "k": [
+        "positive strokes",
+        "anvil"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dart-leader",
+      "tier": "power",
+      "t": "“Dart leaders” send more strokes down the same channel, making one flash flicker",
+      "k": [
+        "dart leaders",
+        "flicker"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cars",
+      "tier": "power",
+      "t": "A hard-topped car’s metal body, not its rubber tires, protects the people inside",
+      "k": [
+        "rubber tires",
+        "metal body",
+        "car"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Flash, not the boom",
+    "body": "Lightning tossups are full of sound clues, like shock waves, rumbles, and counting the seconds, so players blurt “thunder,” which is the sound lightning makes, not the flash itself. Ball lightning, a rare glowing sphere, and St. Elmo’s fire, a glow on ships’ masts, are different effects. Saying just “static electricity” or “electric discharge” earns only a prompt, because lightning is one specific kind of discharge.",
+    "fix": "If the question asks for “this phenomenon,” “this discharge,” or “these flashes,” answer lightning. Save “thunder” for questions that ask for the sound. If you get a prompt, add the specific word: lightning.",
+    "line": "Real answer line: <b><u>Lightning</u></b> (prompt on electric discharge or static electricity; do not accept “thunder” or “ball lightning”)"
+  },
+  "tests": {
+    "right": [
+      "Lightning",
+      "lightning bolt",
+      "Lightening",
+      "Lightning strikes",
+      "cloud-to-ground lightning"
+    ],
+    "prompt": [
+      "static electricity",
+      "electric discharge"
+    ],
+    "wrong": [
+      "Thunder",
+      "Ball lightning",
+      "Thunderstorm",
+      "St. Elmo's fire",
+      "Lightning rod",
+      "Fulgurite"
+    ]
+  }
+}

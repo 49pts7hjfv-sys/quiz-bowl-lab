@@ -177,7 +177,7 @@ data = {
         },
         {
             "id": "governor",
-            "tier": "giveaway",
+            "tier": "middle",
             "t": "Governor of California (1943–1953), elected three times",
             "k": ["governor", "california", "three times"],
             "n": 0,
