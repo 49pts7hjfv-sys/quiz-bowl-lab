@@ -1,0 +1,335 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "president-pro-tempore-of-the-senate",
+    "name": "President pro tempore of the Senate",
+    "mono": "PPT",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Highest-ranking senator · Third in line for the presidency",
+    "dates": "First chosen in 1789",
+    "briefing": "The Constitution makes the vice president the President of the Senate, but vice presidents are rarely there, so senators choose one of their own members to preside “for the time being,” which is what pro tempore means in Latin. By custom, the job goes to the longest-serving senator of the majority party, and it puts its holder third in line for the presidency. In 2023, Patty Murray of Washington became the first woman to hold it.",
+    "answerHtml": "<b><u>President pro tempore</u></b> of the Senate (or <u>President pro tem</u>; prompt on <u>pro tempore</u>; do not accept “President of the Senate,” “Vice President,” or “Speaker of the House”)",
+    "accept": [
+        "president pro tempore",
+        "president pro tempore of the senate",
+        "president pro tempore of the us senate",
+        "president pro tempore of the united states senate",
+        "senate president pro tempore",
+        "us senate president pro tempore",
+        "president pro tem",
+        "president pro tem of the senate",
+        "senate president pro tem",
+        "presidents pro tempore"
+    ],
+    "prompt": [
+        "pro tempore",
+        "pro tem",
+        "pro tempore of the senate",
+        "pro tem of the senate",
+        "presiding officer",
+        "presiding officer of the senate"
+    ],
+    "reject": [
+        "president of the senate",
+        "the president of the senate",
+        "vice president",
+        "vice president of the united states",
+        "speaker of the house",
+        "speaker of the house of representatives",
+        "house speaker",
+        "speaker",
+        "speaker pro tempore",
+        "speaker pro tem",
+        "senate majority leader",
+        "majority leader",
+        "senate minority leader",
+        "minority leader",
+        "majority whip",
+        "president pro tempore emeritus",
+        "deputy president pro tempore",
+        "secretary of the senate",
+        "chief justice",
+        "secretary of state"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/President_pro_tempore_of_the_United_States_Senate",
+    "qb": {
+        "q": "President pro tempore",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Article I, Section 3 of the Constitution says the Senate shall choose this officer “in the Absence of the Vice President, or when he shall exercise the Office of President of the United States.” Senators elect one of their own members to this post, and by custom they pick the longest-serving member of the majority party.",
+            "r": "Its name includes a Latin phrase meaning “for the time being.” For 10 points, name this Senate office, third in the presidential line of succession."
+        },
+        {
+            "p": "Under the Presidential Succession Act of 1792, the holder of this office came next in line for the presidency after the vice president, even ahead of the Speaker of the House. An 1886 law dropped both of those congressional leaders from the line of succession, but a 1947 law brought them back.",
+            "r": "That law placed this office right after the Speaker. For 10 points, name this Senate office, third in line for the presidency."
+        },
+        {
+            "p": "In 1868, Benjamin Wade of Ohio held this office, so he would have become president if the Senate had removed Andrew Johnson, who had no vice president. Some historians think a few senators voted to acquit Johnson partly because they did not want Wade, a Radical Republican, in the White House.",
+            "r": "For 10 points, name this office, whose holder presides over the Senate when the vice president is absent."
+        },
+        {
+            "p": "A popular legend says that David Rice Atchison of Missouri, who held this office, was president for one day in 1849, because Zachary Taylor would not take the oath of office on a Sunday. Historians reject that story, partly because Atchison never took the presidential oath himself.",
+            "r": "For 10 points, name this office, usually given to the longest-serving senator of the majority party."
+        },
+        {
+            "p": "In April 1789, the Senate chose John Langdon of New Hampshire as the first person to hold this office, so that he could count the electoral votes from the first presidential election before the vice president took office.",
+            "r": "Its holder presides over the Senate whenever the vice president is away. For 10 points, name this office, third in line for the presidency."
+        },
+        {
+            "p": "Daniel Inouye [“in-NOH-ay”] of Hawaii, a World War II Medal of Honor recipient, became the first Asian American to hold this office in 2010. He took over from Robert Byrd of West Virginia, the longest-serving senator in history, who held this post until he died.",
+            "r": "It usually goes to the majority party’s most senior senator. For 10 points, name this Senate office, third in line for the presidency."
+        },
+        {
+            "p": "Because the Chief Justice presides only when a sitting president is on trial, Patrick Leahy of Vermont presided over the 2021 Senate impeachment trial of Donald Trump, who had already left office, while holding this office. Leahy held this post twice, the second time until he retired in 2023.",
+            "r": "For 10 points, name this office, whose holder presides over the Senate when the vice president is absent."
+        },
+        {
+            "p": "In 2001, the Senate created an honorary “emeritus” version of this office for Strom Thurmond of South Carolina, who had held this office for much of the 1980s and 1990s. Thurmond kept serving in the Senate until he was 100 years old.",
+            "r": "For 10 points, name this office, usually held by the most senior senator of the majority party."
+        },
+        {
+            "p": "Arthur Vandenberg of Michigan held this office when he sponsored a 1948 resolution that paved the way for the NATO alliance. A former isolationist, Vandenberg also worked with President Harry Truman to win Senate support for the Marshall Plan.",
+            "r": "For 10 points, name this office, whose holder presides over the Senate when the vice president is absent."
+        },
+        {
+            "p": "In January 2025, Chuck Grassley of Iowa was elected to this office at the age of 91, returning to a post he had held from 2019 to 2021. He took over from Patty Murray of Washington, who in 2023 had become the first woman to hold it.",
+            "r": "This office usually goes to the longest-serving senator of the majority party. For 10 points, name this office, third in line for the presidency."
+        },
+        {
+            "p": "Robert Byrd, who held this office several times, wrote a four-volume history of the Senate and often carried a copy of the Constitution in his pocket. Byrd, a West Virginian who became the longest-serving senator in history, last held this office from 2007 until his death in 2010.",
+            "r": "For 10 points, name this office, whose holder presides over the Senate when the vice president is away."
+        },
+        {
+            "p": "Holders of this office rarely preside over the Senate’s daily sessions in person; instead, junior senators of the majority party take turns holding the gavel. Unlike the vice president, the holder of this office may vote on any bill, not only to break ties.",
+            "r": "This office’s name includes a Latin phrase meaning “for the time being.” For 10 points, name this office, third in line for the presidency."
+        },
+        {
+            "p": "In 1977, the Senate created a “deputy” version of this office for Hubert Humphrey, a former vice president who had failed to win the post of majority leader. Humphrey held that new post until his death in January 1978.",
+            "r": "Under a 1947 law, the holder of the main office comes right after the Speaker in the line of succession. For 10 points, name this Senate office."
+        },
+        {
+            "p": "Thomas Ferry of Michigan held this office when he presided over the count of electoral votes in the disputed election of 1876, because Vice President Henry Wilson had died in office. In March 1877, Ferry announced that Rutherford B. Hayes had won by a single electoral vote.",
+            "r": "For 10 points, name this office, held by the senator who presides over the Senate when the vice president is absent."
+        },
+        {
+            "p": "Orrin Hatch of Utah held this office from 2015 to 2019, between Patrick Leahy and Chuck Grassley. Because the post goes to the most senior senator of whichever party holds a majority, it usually changes hands when control of the Senate flips.",
+            "r": "For 10 points, name this office, third in line for the presidency after the vice president and the Speaker of the House."
+        }
+    ],
+    "clues": [
+        {
+            "id": "third-in-line",
+            "tier": "giveaway",
+            "t": "Third in the presidential line of succession, after the vice president and the Speaker of the House",
+            "k": ["third", "line of succession", "speaker"],
+            "n": 0
+        },
+        {
+            "id": "presides",
+            "tier": "giveaway",
+            "t": "Presides over the Senate when the vice president, the official President of the Senate, is absent",
+            "k": ["presides", "absent", "vice president"],
+            "n": 0,
+            "rabbit": "Vice President of the United States"
+        },
+        {
+            "id": "senior-member",
+            "tier": "giveaway",
+            "t": "By custom, held by the longest-serving senator of the majority party",
+            "k": ["longest-serving", "majority party", "custom"],
+            "n": 0
+        },
+        {
+            "id": "latin",
+            "tier": "middle",
+            "t": "Its name includes a Latin phrase meaning “for the time being”",
+            "k": ["latin", "for the time being", "time being"],
+            "n": 0
+        },
+        {
+            "id": "article-i",
+            "tier": "middle",
+            "t": "Created by Article I, Section 3, which says the Senate chooses it “in the Absence of the Vice President”",
+            "k": ["article i", "section 3", "absence"],
+            "n": 0
+        },
+        {
+            "id": "full-vote",
+            "tier": "middle",
+            "t": "Unlike the vice president, its holder is a senator who can vote on any bill, not only to break ties",
+            "k": ["any bill", "break ties", "vote"],
+            "n": 0
+        },
+        {
+            "id": "gavel",
+            "tier": "middle",
+            "t": "Holders rarely preside in person; junior senators of the majority party take turns holding the gavel",
+            "k": ["gavel", "junior senators"],
+            "n": 0
+        },
+        {
+            "id": "murray",
+            "tier": "middle",
+            "t": "Patty Murray of Washington was the first woman to hold it (2023–2025)",
+            "k": ["patty murray", "murray", "first woman"],
+            "n": 0
+        },
+        {
+            "id": "grassley",
+            "tier": "middle",
+            "t": "Chuck Grassley of Iowa held it from 2019 to 2021 and was elected again in January 2025, at age 91",
+            "k": ["chuck grassley", "grassley", "iowa"],
+            "n": 0
+        },
+        {
+            "id": "byrd",
+            "tier": "middle",
+            "t": "Robert Byrd of West Virginia, the longest-serving senator in history, held it several times, last from 2007 until he died in 2010",
+            "k": ["robert byrd", "byrd", "west virginia"],
+            "n": 0
+        },
+        {
+            "id": "thurmond",
+            "tier": "middle",
+            "t": "Strom Thurmond of South Carolina, who served in the Senate until age 100, held it for much of the 1980s and 1990s",
+            "k": ["strom thurmond", "thurmond", "south carolina"],
+            "n": 0
+        },
+        {
+            "id": "act-1792",
+            "tier": "power",
+            "t": "Presidential Succession Act of 1792: it came right after the vice president, even ahead of the Speaker",
+            "k": ["1792", "succession act"],
+            "n": 0
+        },
+        {
+            "id": "acts-1886-1947",
+            "tier": "power",
+            "t": "An 1886 law took it out of the line of succession; a 1947 law put it back, right behind the Speaker",
+            "k": ["1886", "1947"],
+            "n": 0
+        },
+        {
+            "id": "wade",
+            "tier": "power",
+            "t": "Benjamin Wade held it in 1868, so he would have become president if Andrew Johnson had been removed",
+            "k": ["benjamin wade", "wade", "andrew johnson"],
+            "n": 0,
+            "rabbit": "Andrew Johnson"
+        },
+        {
+            "id": "atchison",
+            "tier": "power",
+            "t": "Legend says David Rice Atchison was “president for one day” in 1849, when Zachary Taylor would not take the oath on a Sunday",
+            "k": ["atchison", "one day", "sunday"],
+            "n": 0
+        },
+        {
+            "id": "langdon",
+            "tier": "power",
+            "t": "John Langdon of New Hampshire was the first (April 1789), chosen so he could count the first electoral votes",
+            "k": ["john langdon", "langdon", "electoral votes"],
+            "n": 0
+        },
+        {
+            "id": "inouye",
+            "tier": "power",
+            "t": "Daniel Inouye of Hawaii, a World War II Medal of Honor recipient, was the first Asian American to hold it (2010–2012)",
+            "k": ["inouye", "asian american", "medal of honor"],
+            "n": 0
+        },
+        {
+            "id": "leahy",
+            "tier": "power",
+            "t": "Patrick Leahy of Vermont held it twice and presided over Donald Trump’s 2021 impeachment trial, held after Trump had left office",
+            "k": ["patrick leahy", "leahy", "vermont"],
+            "n": 0
+        },
+        {
+            "id": "emeritus",
+            "tier": "power",
+            "t": "In 2001, the Senate created an honorary “emeritus” title for Strom Thurmond",
+            "k": ["emeritus", "honorary", "2001"],
+            "n": 0
+        },
+        {
+            "id": "vandenberg",
+            "tier": "power",
+            "t": "Arthur Vandenberg held it (1947–1949) when his 1948 resolution paved the way for NATO; he backed the Marshall Plan",
+            "k": ["vandenberg", "nato", "marshall plan"],
+            "n": 0
+        },
+        {
+            "id": "humphrey",
+            "tier": "power",
+            "t": "A “deputy” version was created in 1977 for former vice president Hubert Humphrey",
+            "k": ["humphrey", "deputy", "1977"],
+            "n": 0
+        },
+        {
+            "id": "ferry",
+            "tier": "power",
+            "t": "Thomas Ferry held it while presiding over the electoral count of the disputed 1876 election, since Vice President Henry Wilson had died",
+            "k": ["thomas ferry", "ferry", "1876"],
+            "n": 0
+        },
+        {
+            "id": "hatch",
+            "tier": "power",
+            "t": "Orrin Hatch of Utah held it from 2015 to 2019, between Patrick Leahy and Chuck Grassley",
+            "k": ["orrin hatch", "hatch", "utah"],
+            "n": 0
+        },
+        {
+            "id": "byrd-books",
+            "tier": "power",
+            "t": "Robert Byrd wrote a four-volume history of the Senate and carried a pocket copy of the Constitution",
+            "k": ["four-volume", "pocket", "constitution"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which presiding officer?",
+        "body": "The Constitution makes the vice president the “President of the Senate,” so that answer is wrong here even though it sounds almost the same. The Senate majority leader, who runs the Senate’s day-to-day business, is a different job, and the Speaker of the House leads the House and comes just ahead of this office in the line of succession. Famous holders like Robert Byrd or Patty Murray can tempt you to buzz with a name when the question wants the office.",
+        "fix": "Listen for “for the time being,” “when the vice president is absent,” or “longest-serving senator of the majority party.” “Third in line” means the President pro tempore; “second in line” means the Speaker; “first in line” or “breaks ties” means the vice president.",
+        "line": "Real answer line: <b><u>President pro tempore</u></b> of the Senate (or <u>President pro tem</u>; do not accept “President of the Senate” or “Vice President”)"
+    },
+    "tests": {
+        "right": [
+            "President pro tempore",
+            "President pro tempore of the Senate",
+            "president pro tem",
+            "Presdent pro tempore",
+            "Senate president pro tempore"
+        ],
+        "prompt": [
+            "pro tempore",
+            "pro tem"
+        ],
+        "wrong": [
+            "President of the Senate",
+            "Vice President",
+            "Speaker of the House",
+            "Senate Majority Leader",
+            "Speaker pro tempore",
+            "President"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

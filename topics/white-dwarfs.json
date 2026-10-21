@@ -1,0 +1,461 @@
+{
+  "id": "white-dwarfs",
+  "name": "White dwarfs",
+  "mono": "WD",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Earth-sized leftover cores of Sun-like stars · Held up by electron pressure",
+  "dates": "Sirius B first seen 1862; named in 1922",
+  "briefing": "When a star like the Sun runs out of fuel, it puffs its outer layers into space and leaves behind its hot, glowing core: a white dwarf. A typical white dwarf squeezes more than half the Sun’s mass into a ball about the size of Earth, so a piece the size of a sugar cube would weigh about a ton. With no fuel left to burn, it slowly cools and fades over billions of years.",
+  "answerHtml": "<b><u>white dwarf</u></b>s (accept <u>degenerate dwarf</u>s; prompt on <u>dwarf</u>s or <u>stellar remnant</u>s; do not accept “red dwarfs,” “brown dwarfs,” “black dwarfs,” or “neutron stars”)",
+  "accept": [
+    "white dwarf",
+    "white dwarfs",
+    "white dwarf star",
+    "white dwarf stars",
+    "degenerate dwarf",
+    "degenerate dwarfs"
+  ],
+  "prompt": [
+    "dwarf",
+    "dwarfs",
+    "dwarf star",
+    "dwarf stars",
+    "stellar remnant",
+    "stellar remnants",
+    "degenerate star",
+    "degenerate stars",
+    "compact star",
+    "compact stars",
+    "dead star",
+    "dead stars"
+  ],
+  "reject": [
+    "red dwarf",
+    "red dwarfs",
+    "brown dwarf",
+    "brown dwarfs",
+    "black dwarf",
+    "black dwarfs",
+    "yellow dwarf",
+    "yellow dwarfs",
+    "dwarf planet",
+    "dwarf planets",
+    "white giant",
+    "white giants",
+    "neutron star",
+    "neutron stars",
+    "black hole",
+    "black holes",
+    "red giant",
+    "red giants",
+    "main sequence",
+    "planetary nebula",
+    "planetary nebulae",
+    "supernova",
+    "supernovae",
+    "nova",
+    "novae",
+    "pulsar",
+    "pulsars",
+    "sirius b",
+    "sirius"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/White_dwarf",
+  "qb": {
+    "q": "white dwarf",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "While sailing from India to England in 1930, a 19-year-old student realized that these objects have a maximum possible mass, now put at about 1.4 times the Sun’s. Arthur Eddington publicly rejected that idea, but its discoverer later shared the 1983 Nobel Prize in Physics.",
+      "r": "That limit is named for Subrahmanyan Chandrasekhar [“chun-druh-SAY-kar”]. For 10 points, name these Earth-sized remnants of Sun-like stars."
+    },
+    {
+      "p": "Friedrich Bessel predicted in 1844 that a bright star had an unseen partner because of a wobble in its path, and Alvan Graham Clark spotted that partner in 1862 while testing a new telescope lens. That partner, nicknamed “the Pup,” is one of these objects.",
+      "r": "It is Sirius B. For 10 points, name these dense, Earth-sized remnants of dead stars."
+    },
+    {
+      "p": "Willem Luyten coined the name of these objects in 1922. Astronomers give these objects spectral types beginning with the letter D, for “degenerate,” such as DA for the ones whose spectra show hydrogen.",
+      "r": "Sirius B is one of these objects. For 10 points, name these hot but dim stellar remnants found at the lower left of the H–R diagram."
+    },
+    {
+      "p": "BPM 37093, one of these objects, was nicknamed “Lucy” after a Beatles song because its carbon core is thought to have crystallized into something like a giant diamond. Most of these objects are made mainly of carbon and oxygen, the ashes of helium fusion.",
+      "r": "For 10 points, name these Earth-sized remnants, held up by electron degeneracy pressure, that the Sun will one day become."
+    },
+    {
+      "p": "Strangely, adding mass to one of these objects makes it shrink, because it must squeeze tighter before its electrons can push back hard enough against its stronger gravity. That push, called electron degeneracy pressure, comes from the Pauli exclusion principle.",
+      "r": "For 10 points, name these dense remnants of Sun-like stars, which cannot weigh more than about 1.4 Suns."
+    },
+    {
+      "p": "When one of these objects pulls enough gas from a partner star to approach its mass limit, it can blow itself apart in a runaway burst of carbon fusion. Those Type Ia supernovae reach nearly the same peak brightness, so astronomers use them as standard candles.",
+      "r": "For 10 points, name these Earth-sized stellar remnants, the leftover cores of stars like the Sun."
+    },
+    {
+      "p": "The recurrent nova RS Ophiuchi has flared up several times since 1898. In a nova, hydrogen that one of these objects has pulled from a partner star piles up on its surface until it ignites in a sudden burst of fusion, and this object survives to do it again.",
+      "r": "For 10 points, name these hot, dim stellar remnants, such as Sirius B."
+    },
+    {
+      "p": "One of these objects sits at the center of the Ring Nebula in Lyra, lighting up the gas that its parent star blew off near the end of its life. Such glowing shells are called planetary nebulae, even though they have nothing to do with planets.",
+      "r": "After its red giant stage, the Sun will become one of these objects. For 10 points, name these Earth-sized stellar remnants."
+    },
+    {
+      "p": "Because these objects no longer make energy by fusion, they slowly cool over billions of years, and in theory they will eventually fade into cold, dark “black dwarfs.” The universe is not yet old enough for any of these objects to have cooled that far.",
+      "r": "For 10 points, name these hot but dim stellar remnants, found at the lower left of the Hertzsprung–Russell diagram."
+    },
+    {
+      "p": "By finding the faintest, coolest of these objects in a star cluster, astronomers can estimate the cluster’s age, since these objects cool at a predictable rate. More than 97 percent of the stars in the Milky Way, including the Sun, are expected to end up as these objects.",
+      "r": "For 10 points, name these dense stellar remnants, which are held up by electron pressure."
+    },
+    {
+      "p": "William Herschel first spotted 40 Eridani B in 1783, and in 1910, Williamina Fleming and her colleagues found that this dim star had the spectrum of a hot white star. Procyon B, the faint partner of the brightest star in Canis Minor, is another of these objects.",
+      "r": "For 10 points, name these tiny, hot stellar remnants, which include Sirius B."
+    },
+    {
+      "p": "In 1915, Walter Adams found that a faint partner of a bright star was hot and white, which meant that it had to be tiny and incredibly dense. A piece of one of these objects the size of a sugar cube would weigh about a ton.",
+      "r": "That partner was Sirius B. For 10 points, name these Earth-sized remnants of Sun-like stars."
+    },
+    {
+      "p": "The strong gravity of these objects stretches the light leaving them to slightly longer wavelengths, an effect called gravitational redshift. Many of these objects are hotter than the Sun but give off far less light, because they are so small.",
+      "r": "They sit at the lower left of the Hertzsprung–Russell diagram. For 10 points, name these stellar remnants about the size of Earth."
+    },
+    {
+      "p": "The atmospheres of many of these objects are “polluted” with metals such as iron and magnesium, which are thought to come from asteroids or planets torn apart by their strong gravity. Such heavy elements should sink out of sight fairly quickly, so the debris must have fallen in recently.",
+      "r": "For 10 points, name these Earth-sized remnants of Sun-like stars, held up by electron degeneracy pressure."
+    },
+    {
+      "p": "The heaviest of these objects may be made of oxygen, neon, and magnesium instead of carbon and oxygen. Stars with less than about eight times the Sun’s mass end their lives as these objects after puffing away their outer layers.",
+      "r": "Sirius B is one. For 10 points, name these small, dense stellar remnants that the Sun will become."
+    }
+  ],
+  "clues": [
+    {
+      "id": "remnant-core",
+      "tier": "giveaway",
+      "t": "The hot, leftover core of a Sun-like star after it puffs off its outer layers",
+      "k": [
+        "leftover core",
+        "outer layers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "earth-sized",
+      "tier": "giveaway",
+      "t": "About the size of Earth, but holding more than half the Sun’s mass",
+      "k": [
+        "size of earth",
+        "half"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sun-fate",
+      "tier": "giveaway",
+      "t": "The Sun will become one after its red giant stage ends",
+      "k": [
+        "red giant",
+        "sun"
+      ],
+      "n": 0,
+      "rabbit": "The Sun"
+    },
+    {
+      "id": "sirius-b",
+      "tier": "giveaway",
+      "t": "Sirius B, the faint partner of the brightest star in the night sky, is the most famous one",
+      "k": [
+        "sirius b",
+        "partner"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lower-left",
+      "tier": "giveaway",
+      "t": "Hot but dim, they sit at the lower left of the Hertzsprung–Russell diagram",
+      "k": [
+        "lower left",
+        "hot but dim"
+      ],
+      "n": 0,
+      "rabbit": "Hertzsprung–Russell diagram"
+    },
+    {
+      "id": "chandrasekhar-limit",
+      "tier": "middle",
+      "t": "Can be no heavier than about 1.4 times the Sun’s mass, a cap called the Chandrasekhar limit",
+      "k": [
+        "chandrasekhar limit",
+        "1.4"
+      ],
+      "n": 0,
+      "rabbit": "Neutron stars"
+    },
+    {
+      "id": "degeneracy",
+      "tier": "middle",
+      "t": "Held up against gravity by electron degeneracy pressure, which comes from the Pauli exclusion principle",
+      "k": [
+        "electron degeneracy",
+        "pauli"
+      ],
+      "n": 0,
+      "rabbit": "Pauli exclusion principle"
+    },
+    {
+      "id": "no-fusion",
+      "tier": "middle",
+      "t": "No fusion happens inside; they shine only from leftover heat and slowly cool",
+      "k": [
+        "leftover heat",
+        "fusion",
+        "cool"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-dwarfs",
+      "tier": "middle",
+      "t": "In theory they cool into cold “black dwarfs,” but the universe is not yet old enough for any to exist",
+      "k": [
+        "black dwarfs",
+        "old enough"
+      ],
+      "n": 0
+    },
+    {
+      "id": "type-ia",
+      "tier": "middle",
+      "t": "One that pulls gas from a partner star until it nears its mass limit can blow up as a Type Ia supernova",
+      "k": [
+        "type ia",
+        "supernova"
+      ],
+      "n": 0,
+      "rabbit": "Supernovae"
+    },
+    {
+      "id": "nova",
+      "tier": "middle",
+      "t": "A nova is a flare-up of fusion on the surface of one that pulls hydrogen from a partner; it survives to flare again",
+      "k": [
+        "nova",
+        "surface"
+      ],
+      "n": 0
+    },
+    {
+      "id": "planetary-nebula",
+      "tier": "middle",
+      "t": "The glowing shell of gas its parent star blew off is a planetary nebula, like the Ring Nebula in Lyra",
+      "k": [
+        "planetary nebula",
+        "ring nebula"
+      ],
+      "n": 0,
+      "rabbit": "Nebulae"
+    },
+    {
+      "id": "carbon-oxygen",
+      "tier": "middle",
+      "t": "Most are made mainly of carbon and oxygen, the ashes of helium fusion",
+      "k": [
+        "carbon",
+        "oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sugar-cube",
+      "tier": "middle",
+      "t": "So dense that a piece the size of a sugar cube would weigh about a ton",
+      "k": [
+        "sugar cube",
+        "ton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chandrasekhar-voyage",
+      "tier": "power",
+      "t": "Subrahmanyan Chandrasekhar worked out their mass limit at age 19 while sailing from India to England in 1930",
+      "k": [
+        "chandrasekhar",
+        "1930",
+        "india"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eddington-nobel",
+      "tier": "power",
+      "t": "Arthur Eddington publicly rejected Chandrasekhar’s limit, but Chandrasekhar shared the 1983 Nobel Prize in Physics",
+      "k": [
+        "eddington",
+        "1983"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bessel-clark",
+      "tier": "power",
+      "t": "Friedrich Bessel predicted Sirius B from a wobble in Sirius’s path (1844); Alvan Graham Clark first saw it in 1862; it is nicknamed “the Pup”",
+      "k": [
+        "bessel",
+        "clark",
+        "1862",
+        "pup"
+      ],
+      "n": 0
+    },
+    {
+      "id": "adams-1915",
+      "tier": "power",
+      "t": "In 1915, Walter Adams found that Sirius B is hot and white, so it had to be tiny and dense",
+      "k": [
+        "walter adams",
+        "1915"
+      ],
+      "n": 0
+    },
+    {
+      "id": "luyten",
+      "tier": "power",
+      "t": "Willem Luyten coined their name in 1922",
+      "k": [
+        "luyten",
+        "1922"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forty-eridani",
+      "tier": "power",
+      "t": "Others: 40 Eridani B (seen by William Herschel in 1783; Williamina Fleming’s team found its hot-star spectrum in 1910) and Procyon B, in Canis Minor",
+      "k": [
+        "40 eridani",
+        "herschel",
+        "fleming",
+        "procyon b"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gravitational-redshift",
+      "tier": "power",
+      "t": "Their strong gravity stretches the light leaving them to longer wavelengths, an effect called gravitational redshift",
+      "k": [
+        "gravitational redshift",
+        "wavelengths"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mass-radius",
+      "tier": "power",
+      "t": "Adding mass makes one smaller, because it must squeeze tighter to hold itself up",
+      "k": [
+        "smaller",
+        "squeeze"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lucy",
+      "tier": "power",
+      "t": "BPM 37093, nicknamed “Lucy” after a Beatles song, is thought to have a crystallized carbon core like a giant diamond",
+      "k": [
+        "lucy",
+        "diamond",
+        "crystallized"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spectral-d",
+      "tier": "power",
+      "t": "Their spectral types begin with D, for “degenerate”; DA ones show hydrogen in their spectra",
+      "k": [
+        "degenerate",
+        "spectral types"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cluster-ages",
+      "tier": "power",
+      "t": "The faintest, coolest ones in a star cluster reveal its age, since they cool at a predictable rate",
+      "k": [
+        "faintest",
+        "coolest",
+        "age"
+      ],
+      "n": 0
+    },
+    {
+      "id": "polluted",
+      "tier": "power",
+      "t": "Many have atmospheres “polluted” with metals like iron, thought to come from shredded asteroids or planets",
+      "k": [
+        "polluted",
+        "asteroids"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eight-suns",
+      "tier": "power",
+      "t": "Stars under about eight times the Sun’s mass end as one; the heaviest ones may be made of oxygen, neon, and magnesium",
+      "k": [
+        "eight times",
+        "neon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ninety-seven",
+      "tier": "power",
+      "t": "More than 97 percent of the Milky Way’s stars are expected to end up as one",
+      "k": [
+        "97 percent",
+        "milky way"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which kind of dwarf?",
+    "body": "Astronomy is full of dwarfs. Red dwarfs are small, cool stars still fusing hydrogen; brown dwarfs are “failed stars” too small to fuse ordinary hydrogen; black dwarfs are what these objects would become after cooling for longer than the universe has existed; and the Sun itself is called a yellow dwarf. Neutron stars, the heavier leftovers of bigger stars, and novae and supernovae, which are explosions rather than objects, are the other common wrong buzzes.",
+    "fix": "Earth-sized, Sirius B, the Chandrasekhar limit, electron degeneracy pressure, or the star at the center of a planetary nebula means white dwarfs. City-sized and spinning, or pulsars, means neutron stars. Saying only “dwarf” earns a prompt, so always say “white.”",
+    "line": "Real answer line: <b><u>white dwarf</u></b>s (prompt on <u>dwarf</u>s; do not accept “red dwarfs,” “brown dwarfs,” or “black dwarfs”)"
+  },
+  "tests": {
+    "right": [
+      "white dwarf",
+      "White Dwarfs",
+      "whit dwarfs",
+      "white dwarf star",
+      "degenerate dwarf"
+    ],
+    "prompt": [
+      "dwarf",
+      "stellar remnant"
+    ],
+    "wrong": [
+      "red dwarf",
+      "brown dwarfs",
+      "black dwarf",
+      "neutron star",
+      "Sirius B",
+      "planetary nebula"
+    ]
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "id": "stephen-a-douglas",
+  "name": "Stephen A. Douglas",
+  "mono": "SD",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "The “Little Giant” of Illinois · Debated Abraham Lincoln in 1858",
+  "dates": "1813–1861",
+  "briefing": "Stephen A. Douglas was a short man, but his booming voice and fierce debating earned him the nickname “the Little Giant.” The Illinois senator wrote the Kansas–Nebraska Act, which let settlers vote on slavery, and in 1858 he kept his Senate seat after seven famous debates with Abraham Lincoln. Two years later, Lincoln beat him for the presidency.",
+  "answerHtml": "Stephen A. <b><u>Douglas</u></b> (or Stephen Arnold <u>Douglas</u>; prompt on “Little Giant”; do not accept “Frederick Douglass”)",
+  "accept": [
+    "stephen a douglas",
+    "stephen douglas",
+    "stephen arnold douglas",
+    "douglas",
+    "senator douglas",
+    "senator stephen douglas",
+    "judge douglas"
+  ],
+  "prompt": [
+    "stephen",
+    "little giant",
+    "the little giant"
+  ],
+  "reject": [
+    "frederick douglass",
+    "frederick douglas",
+    "frederick",
+    "douglass",
+    "fred douglass",
+    "frederick bailey",
+    "douglas macarthur",
+    "macarthur",
+    "william o douglas",
+    "william douglas",
+    "helen gahagan douglas",
+    "kirk douglas",
+    "michael douglas",
+    "abraham lincoln",
+    "lincoln",
+    "lincoln douglas debates",
+    "lincoln douglas",
+    "john c breckinridge",
+    "breckinridge",
+    "john bell",
+    "james buchanan",
+    "franklin pierce",
+    "henry clay",
+    "kansas nebraska act",
+    "freeport doctrine",
+    "popular sovereignty",
+    "stephen f austin",
+    "stephen austin"
+  ],
+  "tests": {
+    "right": [
+      "Stephen A. Douglas",
+      "Stephen Douglas",
+      "Douglas",
+      "Stephen Arnold Douglas",
+      "Stephen Duglas",
+      "Senator Douglas"
+    ],
+    "prompt": [
+      "Stephen",
+      "the Little Giant"
+    ],
+    "wrong": [
+      "Frederick Douglass",
+      "Douglass",
+      "Douglas MacArthur",
+      "Abraham Lincoln",
+      "John C. Breckinridge",
+      "Lincoln-Douglas debates",
+      "Frederick Douglas"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Stephen_A._Douglas",
+  "qb": {
+    "q": "Stephen Douglas",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "One opponent mocked this man’s argument as being as thin as soup made by boiling “the shadow of a pigeon that had starved to death.” At Freeport, this man had claimed that settlers could still keep slavery out of a territory by refusing to pass laws to protect it, despite the _Dred Scott_ decision.",
+      "r": "That opponent was Abraham Lincoln, who debated this man seven times in 1858. For 10 points, name this Illinois senator nicknamed the “Little Giant.”"
+    },
+    {
+      "p": "This senator broke with President James Buchanan in 1857 by opposing the Lecompton [“leh-KOMP-tun”] Constitution for Kansas, saying it had not been fairly approved by the territory’s voters. He insisted that he did not care whether slavery was “voted down or voted up.”",
+      "r": "Years earlier, he wrote the Kansas–Nebraska Act. For 10 points, name this Illinois Democrat who debated Abraham Lincoln in 1858."
+    },
+    {
+      "p": "Hoping that a transcontinental railroad would run west from Chicago, this senator pushed to organize the land west of Iowa and Missouri. His 1854 bill to do that repealed the Missouri Compromise’s ban on slavery north of the 36°30′ line.",
+      "r": "That law, the Kansas–Nebraska Act, let settlers decide on slavery by popular sovereignty. For 10 points, name this “Little Giant” from Illinois."
+    },
+    {
+      "p": "This politician once joked that he could travel from Boston to Chicago by the light of his own burning effigies, after a law he wrote angered many Northerners. Opponents of that law soon founded the Republican Party, and fighting broke out in “Bleeding Kansas.”",
+      "r": "For 10 points, name this author of the Kansas–Nebraska Act, an Illinois senator who debated Abraham Lincoln."
+    },
+    {
+      "p": "After Henry Clay’s “Omnibus Bill” fell apart in the summer of 1850, this senator split it into separate bills and steered each one through Congress. Those laws admitted California as a free state and created a tougher Fugitive Slave Act.",
+      "r": "Four years later, he wrote the Kansas–Nebraska Act. For 10 points, name this Illinois Democrat called the “Little Giant.”"
+    },
+    {
+      "p": "Born in Brandon, Vermont, in 1813, this man moved to Illinois as a young man and served on the Illinois Supreme Court, which is why one rival kept calling him “Judge.” He later served in the U.S. House and then in the Senate from 1847 until his death.",
+      "r": "That rival was Abraham Lincoln. For 10 points, name this “Little Giant” who beat Lincoln in an 1858 Senate race."
+    },
+    {
+      "p": "In one presidential election, this candidate finished second in the popular vote but won the electoral votes of only Missouri and part of New Jersey. Breaking with custom, he gave campaign speeches across the country, even traveling into the South to urge voters to stay loyal to the Union.",
+      "r": "For 10 points, name this Northern Democratic nominee who lost the 1860 election to his old debate opponent, Abraham Lincoln."
+    },
+    {
+      "p": "After his party’s 1860 convention in Charleston, South Carolina, broke apart, this man was nominated at a second convention in Baltimore, with Georgia’s Herschel Johnson as his running mate. Southern Democrats who walked out chose John C. Breckinridge instead.",
+      "r": "For 10 points, name this Northern Democratic candidate in 1860, the “Little Giant” who had debated Abraham Lincoln two years earlier."
+    },
+    {
+      "p": "Weeks before he died of typhoid fever in June 1861, this man declared that “there can be no neutrals in this war, only patriots—or traitors.” He spent his last months urging Northern Democrats to support the Union and the new president who had beaten him.",
+      "r": "For 10 points, name this Illinois senator who lost the 1860 election to Abraham Lincoln, two years after their famous debates."
+    },
+    {
+      "p": "According to a famous story, this man held Abraham Lincoln’s hat while Lincoln gave his first inaugural address in March 1861. After the attack on Fort Sumter, this Democrat urged his party’s members in the North to back the war to save the Union.",
+      "r": "For 10 points, name this Illinois senator, Lincoln’s longtime rival, who was nicknamed the “Little Giant.”"
+    },
+    {
+      "p": "This man’s 1858 campaign included seven three-hour joint appearances with his opponent, beginning at Ottawa and ending at Alton. Because senators were then chosen by state legislatures, the newly elected Illinois legislature decided the race and gave this man another term.",
+      "r": "His opponent in those debates was Abraham Lincoln. For 10 points, name this Illinois senator, the “Little Giant.”"
+    },
+    {
+      "p": "This man lost the Democratic presidential nomination to Franklin Pierce in 1852 and to James Buchanan in 1856. For years he chaired the Senate Committee on Territories, where he wrote bills to organize new lands in the West.",
+      "r": "One of those bills became the Kansas–Nebraska Act. For 10 points, name this Illinois senator who debated Abraham Lincoln in 1858."
+    },
+    {
+      "p": "This man’s second wife, Adele Cutts, was a grandniece of Dolley Madison. In the 1850s, this man championed the idea that the settlers in each new territory should vote on whether to allow slavery there.",
+      "r": "That idea was called popular sovereignty. For 10 points, name this Illinois senator who debated Abraham Lincoln in 1858."
+    },
+    {
+      "p": "In a famous 1858 speech, an opponent suggested that this man had worked with Franklin Pierce, Roger Taney [“TAW-nee”], and James Buchanan to spread slavery, calling the four men by their first names. That speech warned that “a house divided against itself cannot stand.”",
+      "r": "That opponent was Abraham Lincoln. For 10 points, name this Illinois senator, the “Little Giant,” whom Lincoln debated later that year."
+    },
+    {
+      "p": "In an 1854 speech at Peoria, Abraham Lincoln attacked a law written by this man, arguing that slavery should not spread into new territories. That law, which this man pushed through Congress, led to violence between proslavery and antislavery settlers.",
+      "r": "That law was the Kansas–Nebraska Act. For 10 points, name this Illinois senator nicknamed the “Little Giant.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "lincoln-debates",
+      "tier": "giveaway",
+      "t": "Debated Abraham Lincoln seven times in the 1858 Illinois Senate race, and kept his seat",
+      "k": [
+        "abraham lincoln",
+        "lincoln",
+        "debated",
+        "1858"
+      ],
+      "n": 0,
+      "rabbit": "Abraham Lincoln"
+    },
+    {
+      "id": "little-giant",
+      "tier": "giveaway",
+      "t": "Nicknamed the “Little Giant”: a short man with a booming voice",
+      "k": [
+        "little giant",
+        "booming",
+        "short"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kansas-nebraska",
+      "tier": "giveaway",
+      "t": "Wrote the Kansas–Nebraska Act (1854)",
+      "k": [
+        "kansas–nebraska",
+        "1854"
+      ],
+      "n": 0,
+      "rabbit": "Kansas–Nebraska Act"
+    },
+    {
+      "id": "illinois",
+      "tier": "giveaway",
+      "t": "Democratic senator from Illinois (1847–1861)",
+      "k": [
+        "illinois",
+        "democratic",
+        "senator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "election-1860",
+      "tier": "giveaway",
+      "t": "Northern Democratic nominee for president in 1860; lost to Lincoln",
+      "k": [
+        "northern democratic",
+        "1860",
+        "nominee"
+      ],
+      "n": 0
+    },
+    {
+      "id": "popular-sovereignty",
+      "tier": "middle",
+      "t": "Championed popular sovereignty: settlers in each territory should vote on slavery",
+      "k": [
+        "popular sovereignty",
+        "settlers",
+        "vote"
+      ],
+      "n": 0
+    },
+    {
+      "id": "freeport",
+      "tier": "middle",
+      "t": "Freeport Doctrine (1858): territories could keep slavery out by refusing to pass laws to protect it, despite _Dred Scott_",
+      "k": [
+        "freeport",
+        "dred scott"
+      ],
+      "n": 0,
+      "rabbit": "Dred Scott v. Sandford"
+    },
+    {
+      "id": "missouri-compromise",
+      "tier": "middle",
+      "t": "The Kansas–Nebraska Act repealed the Missouri Compromise; anger over it led to the Republican Party and “Bleeding Kansas”",
+      "k": [
+        "missouri compromise",
+        "republican party",
+        "bleeding kansas"
+      ],
+      "n": 0,
+      "rabbit": "Missouri Compromise"
+    },
+    {
+      "id": "compromise-1850",
+      "tier": "middle",
+      "t": "Passed the Compromise of 1850 as separate bills after Henry Clay’s “Omnibus Bill” failed",
+      "k": [
+        "compromise of 1850",
+        "omnibus",
+        "henry clay"
+      ],
+      "n": 0,
+      "rabbit": "Compromise of 1850"
+    },
+    {
+      "id": "breckinridge",
+      "tier": "middle",
+      "t": "In 1860 the Democrats split, and Southern Democrats chose John C. Breckinridge",
+      "k": [
+        "breckinridge",
+        "split",
+        "southern democrats"
+      ],
+      "n": 0
+    },
+    {
+      "id": "house-divided",
+      "tier": "middle",
+      "t": "Lincoln’s “House Divided” speech (1858) accused him, Franklin Pierce, Roger Taney, and James Buchanan of plotting to spread slavery",
+      "k": [
+        "house divided",
+        "plotting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lecompton",
+      "tier": "middle",
+      "t": "Broke with President James Buchanan by opposing Kansas’s proslavery Lecompton Constitution (1857–1858)",
+      "k": [
+        "lecompton",
+        "buchanan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "union-1861",
+      "tier": "middle",
+      "t": "After Fort Sumter, urged Northern Democrats to back Lincoln and the Union; died of typhoid fever in June 1861",
+      "k": [
+        "fort sumter",
+        "typhoid",
+        "1861"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pigeon-soup",
+      "tier": "power",
+      "t": "Lincoln called his argument as thin as soup made by boiling “the shadow of a pigeon that had starved to death”",
+      "k": [
+        "pigeon",
+        "soup",
+        "shadow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "railroad",
+      "tier": "power",
+      "t": "Wanted a transcontinental railroad to run west from Chicago, so he pushed to organize the land west of Iowa and Missouri",
+      "k": [
+        "railroad",
+        "chicago",
+        "transcontinental"
+      ],
+      "n": 0
+    },
+    {
+      "id": "effigies",
+      "tier": "power",
+      "t": "Joked he could travel from Boston to Chicago by the light of his own burning effigies",
+      "k": [
+        "effigies",
+        "boston"
+      ],
+      "n": 0
+    },
+    {
+      "id": "judge",
+      "tier": "power",
+      "t": "Served on the Illinois Supreme Court, so Lincoln called him “Judge”",
+      "k": [
+        "illinois supreme court",
+        "judge"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vermont",
+      "tier": "power",
+      "t": "Born in Brandon, Vermont (1813); moved to Illinois as a young man",
+      "k": [
+        "brandon",
+        "vermont",
+        "1813"
+      ],
+      "n": 0
+    },
+    {
+      "id": "voted-up",
+      "tier": "power",
+      "t": "Said he did not care whether slavery was “voted down or voted up”",
+      "k": [
+        "voted down",
+        "voted up"
+      ],
+      "n": 0
+    },
+    {
+      "id": "debate-sites",
+      "tier": "power",
+      "t": "The seven debates ran from Ottawa to Alton and lasted three hours each; the Illinois legislature then reelected him",
+      "k": [
+        "ottawa",
+        "alton",
+        "three hours",
+        "legislature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "campaign-1860",
+      "tier": "power",
+      "t": "1860: campaigned in person, even in the South; finished second in the popular vote but won only Missouri and part of New Jersey",
+      "k": [
+        "popular vote",
+        "new jersey",
+        "campaigned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "herschel-johnson",
+      "tier": "power",
+      "t": "Nominated at Baltimore after the Charleston convention broke apart; running mate Herschel Johnson of Georgia",
+      "k": [
+        "herschel johnson",
+        "baltimore",
+        "charleston"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-neutrals",
+      "tier": "power",
+      "t": "Said in 1861: “There can be no neutrals in this war, only patriots—or traitors”",
+      "k": [
+        "no neutrals",
+        "patriots",
+        "traitors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lincolns-hat",
+      "tier": "power",
+      "t": "Famous story: he held Lincoln’s hat during Lincoln’s first inaugural address (1861)",
+      "k": [
+        "hat",
+        "inaugural"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nominations",
+      "tier": "power",
+      "t": "Lost the Democratic nomination to Franklin Pierce (1852) and James Buchanan (1856); chaired the Senate Committee on Territories",
+      "k": [
+        "franklin pierce",
+        "committee on territories",
+        "1852"
+      ],
+      "n": 0
+    },
+    {
+      "id": "adele-cutts",
+      "tier": "power",
+      "t": "His second wife, Adele Cutts, was a grandniece of Dolley Madison",
+      "k": [
+        "adele cutts",
+        "dolley madison",
+        "grandniece"
+      ],
+      "n": 0
+    },
+    {
+      "id": "peoria",
+      "tier": "power",
+      "t": "Lincoln’s Peoria speech (1854) attacked his Kansas–Nebraska Act",
+      "k": [
+        "peoria"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "One S or two?",
+    "body": "Stephen A. Douglas and Frederick Douglass have names that sound exactly alike, and both turn up in questions about the 1850s. Douglas (one s) was the Illinois senator who debated Abraham Lincoln; Douglass (two s’s) escaped slavery and became a famous abolitionist speaker, writer, and newspaper editor. Real answer lines say “do not accept Frederick Douglass,” and this site checks the spelling, too.",
+    "fix": "The Senate, the Kansas–Nebraska Act, popular sovereignty, Freeport, and the 1858 debates mean Stephen Douglas. Escaping slavery, his _Narrative_, and _The North Star_ mean Frederick Douglass. Type “Stephen Douglas,” with one s, to be safe.",
+    "line": "Real answer line: Stephen Arnold <b><u>Douglas</u></b> (do not accept “Frederick Douglass”)"
+  }
+}

@@ -1,0 +1,347 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "helen-keller",
+    "name": "Helen Keller",
+    "mono": "HAK",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Deafblind author and activist · Learned language from Anne Sullivan",
+    "dates": "1880–1968",
+    "briefing": "When she was 19 months old, an illness left Helen Keller unable to see or hear. At age 6, her new teacher, Anne Sullivan, began spelling words into her hand, and at a water pump in Tuscumbia, Alabama, Helen suddenly understood that “w-a-t-e-r” meant the cool liquid pouring over her other hand. She went on to graduate from Radcliffe College, write books, and travel the world speaking up for people with disabilities.",
+    "answerHtml": "Helen <b><u>Keller</u></b> (or Helen Adams <b><u>Keller</u></b>; do not accept “Anne Sullivan”)",
+    "accept": [
+        "helen keller",
+        "keller",
+        "helen adams keller",
+        "helen a keller"
+    ],
+    "prompt": [
+        "helen",
+        "helen adams"
+    ],
+    "reject": [
+        "anne sullivan",
+        "annie sullivan",
+        "anne sullivan macy",
+        "anne macy",
+        "sullivan",
+        "laura bridgman",
+        "bridgman",
+        "polly thomson",
+        "the miracle worker",
+        "miracle worker",
+        "louis braille",
+        "braille",
+        "patty duke",
+        "anne bancroft",
+        "alexander graham bell",
+        "helen hunt jackson",
+        "arthur keller",
+        "kate keller",
+        "michael anagnos",
+        "mark twain"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Helen_Keller",
+    "qb": {
+        "q": "Helen Keller",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This person’s mother read about Laura Bridgman’s education at Boston’s Perkins Institution in Charles Dickens’s travel book _American Notes_. A Baltimore eye doctor then sent the family to Alexander Graham Bell, who told them to write to the Perkins school.",
+            "r": "Perkins sent Anne Sullivan to be her teacher. For 10 points, name this deafblind woman from Alabama."
+        },
+        {
+            "p": "In 1890, Sarah Fuller of Boston’s Horace Mann School for the Deaf began teaching this person to speak by letting her feel the position of Fuller’s tongue and lips. This person also learned to understand speech by touching a speaker’s lips and throat.",
+            "r": "Her first teacher, Anne Sullivan, had taught her words by spelling them into her hand. For 10 points, name this deafblind author."
+        },
+        {
+            "p": "Mark Twain persuaded the oil executive Henry H. Rogers and his wife to pay for this person’s college education. In 1904, she graduated with honors from Radcliffe College, where she had written her autobiography, _The Story of My Life_.",
+            "r": "She was the first deafblind person to earn a bachelor’s degree. For 10 points, name this student of Anne Sullivan."
+        },
+        {
+            "p": "Patty Duke won an Academy Award for playing this person, and Anne Bancroft won one for playing her teacher, in a 1962 film based on William Gibson’s play. Both actresses had played the same roles on Broadway.",
+            "r": "In that film’s most famous scene, this girl finally understands the word “water.” For 10 points, name this woman, the subject of _The Miracle Worker_."
+        },
+        {
+            "p": "Michael Anagnos, the director of a Boston school for the blind, chose one of its recent graduates, a young woman with poor eyesight of her own, to travel to Alabama and teach this girl. That teacher arrived on March 3, 1887.",
+            "r": "That teacher, Anne Sullivan, worked with her for nearly 50 years. For 10 points, name this deafblind woman."
+        },
+        {
+            "p": "In 2009, Alabama added a bronze statue of this person as a young girl to the National Statuary Hall Collection in the U.S. Capitol. Six years earlier, Alabama put her on its state quarter, the first U.S. circulating coin with writing in Braille.",
+            "r": "The statue shows her at the water pump where she first understood a word. For 10 points, name this deafblind woman."
+        },
+        {
+            "p": "During a 1937 visit to Japan, this person was given an Akita puppy, often called the first Akita brought to the United States. She had been born in 1880 in Tuscumbia, Alabama.",
+            "r": "An illness at 19 months had left her unable to see or hear. For 10 points, name this author whose teacher was Anne Sullivan."
+        },
+        {
+            "p": "This author dedicated her first book to Alexander Graham Bell, and a Harvard instructor named John Macy helped her edit it while she was still a college student. Macy married her teacher in 1905.",
+            "r": "That 1903 book is _The Story of My Life_. For 10 points, name this woman who lost her sight and hearing as a baby."
+        },
+        {
+            "p": "This person joined the Socialist Party in 1909 and spoke out for women’s right to vote and for workers’ rights. In 1920, she was one of the founders of the American Civil Liberties Union.",
+            "r": "She is best known for learning to communicate after losing her sight and hearing. For 10 points, name this activist from Tuscumbia, Alabama."
+        },
+        {
+            "p": "After this person’s teacher died in 1936, Polly Thomson, a Scottish woman who had worked with them since 1914, became her constant companion. This person died in 1968 at her home in Easton, Connecticut.",
+            "r": "Her ashes were placed in Washington National Cathedral next to those of Anne Sullivan. For 10 points, name this deafblind author."
+        },
+        {
+            "p": "This person worked for the American Foundation for the Blind for more than 40 years, raising money and speaking around the world. In 1964, Lyndon Johnson awarded her the Presidential Medal of Freedom.",
+            "r": "As a child, she understood her first word, “water,” while standing at a pump. For 10 points, name this student of Anne Sullivan."
+        },
+        {
+            "p": "This person played herself in _Deliverance_, a 1919 silent film about her life. In the 1920s, she and her teacher toured the vaudeville stage, where she answered questions from the audience.",
+            "r": "Her teacher, Anne Sullivan, had arrived at her Alabama home in 1887. For 10 points, name this deafblind woman."
+        },
+        {
+            "p": "This author described how she sensed the world through touch and smell in the 1908 book _The World I Live In_. Nearly fifty years later, she published a biography titled simply _Teacher_.",
+            "r": "That book honored Anne Sullivan, who taught her to communicate after she lost her sight and hearing. For 10 points, name this author."
+        },
+        {
+            "p": "Every summer, the town where this person was born holds a festival in her honor, and a play about her childhood is performed outdoors at her birthplace, Ivy Green. Her father, Arthur, had been a captain in the Confederate army.",
+            "r": "That play is _The Miracle Worker_. For 10 points, name this woman from Tuscumbia, Alabama, who lost her sight and hearing as a baby."
+        },
+        {
+            "p": "This author explained her faith in the ideas of the Swedish thinker Emanuel Swedenborg in her 1927 book _My Religion_. She also wrote essays supporting workers and socialism, collected in _Out of the Dark_.",
+            "r": "For 10 points, name this deafblind author who learned to communicate with help from Anne Sullivan."
+        }
+    ],
+    "clues": [
+        {
+            "id": "deafblind",
+            "tier": "giveaway",
+            "t": "An illness at 19 months old left her unable to see or hear",
+            "k": ["19 months", "illness", "see or hear"],
+            "n": 0
+        },
+        {
+            "id": "sullivan",
+            "tier": "giveaway",
+            "t": "Her teacher, Anne Sullivan, taught her words by spelling them into her hand",
+            "k": ["anne sullivan", "sullivan", "spelling"],
+            "n": 0,
+            "rabbit": "Anne Sullivan"
+        },
+        {
+            "id": "water-pump",
+            "tier": "giveaway",
+            "t": "Breakthrough at a water pump (1887): she understood that “w-a-t-e-r” spelled into her hand meant water",
+            "k": ["water pump", "pump", "w-a-t-e-r"],
+            "n": 0
+        },
+        {
+            "id": "miracle-worker",
+            "tier": "giveaway",
+            "t": "Her childhood is the subject of _The Miracle Worker_, a play and a 1962 film",
+            "k": ["miracle worker"],
+            "n": 0
+        },
+        {
+            "id": "tuscumbia",
+            "tier": "middle",
+            "t": "Born in 1880 in Tuscumbia, Alabama",
+            "k": ["tuscumbia", "alabama", "1880"],
+            "n": 0
+        },
+        {
+            "id": "radcliffe",
+            "tier": "middle",
+            "t": "Graduated from Radcliffe College (1904), the first deafblind person to earn a bachelor’s degree",
+            "k": ["radcliffe", "1904", "bachelor’s degree"],
+            "n": 0
+        },
+        {
+            "id": "story-of-my-life",
+            "tier": "middle",
+            "t": "Wrote her autobiography, _The Story of My Life_ (1903), while still in college",
+            "k": ["story of my life", "autobiography", "1903"],
+            "n": 0
+        },
+        {
+            "id": "perkins",
+            "tier": "middle",
+            "t": "Anne Sullivan came from the Perkins Institution for the Blind in Boston",
+            "k": ["perkins", "boston"],
+            "n": 0
+        },
+        {
+            "id": "bell",
+            "tier": "middle",
+            "t": "Alexander Graham Bell advised her family to contact Perkins; she dedicated her first book to him",
+            "k": ["alexander graham bell", "bell", "dedicated"],
+            "n": 0
+        },
+        {
+            "id": "afb",
+            "tier": "middle",
+            "t": "Worked for the American Foundation for the Blind for more than 40 years, raising money around the world",
+            "k": ["american foundation for the blind", "40 years"],
+            "n": 0
+        },
+        {
+            "id": "aclu",
+            "tier": "middle",
+            "t": "One of the founders of the American Civil Liberties Union (1920)",
+            "k": ["american civil liberties union", "founders", "1920"],
+            "n": 0
+        },
+        {
+            "id": "medal",
+            "tier": "middle",
+            "t": "Received the Presidential Medal of Freedom from Lyndon Johnson (1964)",
+            "k": ["medal of freedom", "lyndon johnson", "1964"],
+            "n": 0
+        },
+        {
+            "id": "quarter",
+            "tier": "middle",
+            "t": "Shown on Alabama’s 2003 state quarter, the first U.S. circulating coin with Braille",
+            "k": ["quarter", "braille", "2003"],
+            "n": 0
+        },
+        {
+            "id": "duke-bancroft",
+            "tier": "power",
+            "t": "In the 1962 film of William Gibson’s play, Patty Duke (as her) and Anne Bancroft (as Sullivan) both won Oscars",
+            "k": ["patty duke", "anne bancroft", "william gibson", "oscars"],
+            "n": 0
+        },
+        {
+            "id": "twain-rogers",
+            "tier": "power",
+            "t": "Mark Twain persuaded oil executive Henry H. Rogers to pay for her college education",
+            "k": ["mark twain", "twain", "rogers"],
+            "n": 0
+        },
+        {
+            "id": "dickens-bridgman",
+            "tier": "power",
+            "t": "Her mother read about Laura Bridgman, an earlier deafblind student at Perkins, in Charles Dickens’s _American Notes_",
+            "k": ["dickens", "american notes", "laura bridgman"],
+            "n": 0
+        },
+        {
+            "id": "fuller",
+            "tier": "power",
+            "t": "Sarah Fuller of the Horace Mann School for the Deaf taught her to speak (1890); she understood speech by touching lips and throat",
+            "k": ["sarah fuller", "horace mann", "lips"],
+            "n": 0
+        },
+        {
+            "id": "anagnos",
+            "tier": "power",
+            "t": "Perkins director Michael Anagnos chose Anne Sullivan, who arrived on March 3, 1887",
+            "k": ["anagnos", "march 3"],
+            "n": 0
+        },
+        {
+            "id": "macy",
+            "tier": "power",
+            "t": "John Macy, a Harvard instructor, helped edit _The Story of My Life_ and married Anne Sullivan (1905)",
+            "k": ["john macy", "macy", "1905"],
+            "n": 0
+        },
+        {
+            "id": "socialist",
+            "tier": "power",
+            "t": "Joined the Socialist Party (1909), backed women’s suffrage, and wrote the essays collected in _Out of the Dark_",
+            "k": ["socialist", "1909", "suffrage", "out of the dark"],
+            "n": 0
+        },
+        {
+            "id": "thomson",
+            "tier": "power",
+            "t": "Polly Thomson, a Scottish aide, became her companion after Sullivan died in 1936",
+            "k": ["polly thomson", "thomson", "1936"],
+            "n": 0
+        },
+        {
+            "id": "cathedral",
+            "tier": "power",
+            "t": "Died in 1968 in Easton, Connecticut; her ashes rest in Washington National Cathedral beside Sullivan’s",
+            "k": ["national cathedral", "easton", "1968"],
+            "n": 0
+        },
+        {
+            "id": "statuary-hall",
+            "tier": "power",
+            "t": "Alabama’s statue of her in the U.S. Capitol (2009) shows her as a girl at the water pump",
+            "k": ["statue", "capitol", "2009"],
+            "n": 0
+        },
+        {
+            "id": "akita",
+            "tier": "power",
+            "t": "Was given an Akita puppy in Japan in 1937, often called the first Akita in the United States",
+            "k": ["akita", "japan", "1937"],
+            "n": 0
+        },
+        {
+            "id": "deliverance",
+            "tier": "power",
+            "t": "Played herself in the silent film _Deliverance_ (1919) and toured in vaudeville with Sullivan in the 1920s",
+            "k": ["deliverance", "vaudeville", "1919"],
+            "n": 0
+        },
+        {
+            "id": "books",
+            "tier": "power",
+            "t": "Other books: _The World I Live In_ (1908), _My Religion_ (1927, on Emanuel Swedenborg’s ideas), and _Teacher_ (1955), about Sullivan",
+            "k": ["world i live in", "swedenborg", "my religion", "teacher"],
+            "n": 0
+        },
+        {
+            "id": "ivy-green",
+            "tier": "power",
+            "t": "Her birthplace, Ivy Green, hosts an outdoor performance of _The Miracle Worker_ every summer",
+            "k": ["ivy green", "outdoor", "summer"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Student or teacher?",
+        "body": "Anne Sullivan, the teacher who spelled “water” into Keller’s hand, is an answer line of her own, and many clues (the Perkins school, the water pump, _The Miracle Worker_) show up in tossups about both women. The title _The Miracle Worker_ actually describes Sullivan, not Keller. Laura Bridgman, a deafblind girl educated at Perkins about fifty years earlier, can also be a tempting wrong answer.",
+        "fix": "If the question asks for the person who lost her sight and hearing at 19 months, graduated from Radcliffe, or wrote _The Story of My Life_, say Keller. If it asks for the Perkins graduate who arrived in Alabama in 1887 to teach, say Anne Sullivan.",
+        "line": "Real answer line: Helen <b><u>Keller</u></b> (or Helen Adams <b><u>Keller</u></b>; do not accept “Anne Sullivan”)"
+    },
+    "tests": {
+        "right": [
+            "Helen Keller",
+            "Keller",
+            "Helen Adams Keller",
+            "Hellen Keller",
+            "helen kellar"
+        ],
+        "prompt": [
+            "Helen"
+        ],
+        "wrong": [
+            "Anne Sullivan",
+            "Annie Sullivan",
+            "Laura Bridgman",
+            "The Miracle Worker",
+            "Louis Braille",
+            "Patty Duke"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

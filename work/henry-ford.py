@@ -1,0 +1,353 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "henry-ford",
+    "name": "Henry Ford",
+    "mono": "HF",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Carmaker who built the Model T · Made the moving assembly line famous",
+    "dates": "1863–1947",
+    "briefing": "Henry Ford didn’t invent the car, but he figured out how to make cars cheap enough for ordinary families to buy. His Model T, introduced in 1908, was soon built on a moving assembly line that cut the time to put together a car’s chassis from more than 12 hours to about an hour and a half. In 1914, he shocked the business world by roughly doubling his workers’ pay to $5 a day, and by 1927 his company had built about 15 million Model Ts.",
+    "answerHtml": "<b><u>Henry Ford</u></b> (prompt on <u>Ford</u>; do not accept “Gerald Ford”)",
+    "accept": [
+        "henry ford",
+        "henry ford sr",
+        "henry ford senior",
+        "henry ford i"
+    ],
+    "prompt": [
+        "ford",
+        "henry",
+        "mr ford"
+    ],
+    "reject": [
+        "gerald ford",
+        "gerald r ford",
+        "betty ford",
+        "edsel ford",
+        "edsel",
+        "henry ford ii",
+        "henry ford 2",
+        "henry ford the second",
+        "william clay ford",
+        "harrison ford",
+        "john ford",
+        "ford madox ford",
+        "ford motor company",
+        "ford motor",
+        "ford motors",
+        "ford foundation",
+        "henry ford museum",
+        "fords theatre",
+        "model t",
+        "thomas edison",
+        "edison",
+        "ransom olds",
+        "william durant",
+        "walter chrysler",
+        "john dodge",
+        "horace dodge",
+        "dodge brothers",
+        "harvey firestone",
+        "henry leland",
+        "frederick winslow taylor",
+        "frederick taylor"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Henry_Ford",
+    "qb": {
+        "q": "Henry Ford",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In Aldous Huxley’s novel _Brave New World_, people use this man’s name in place of God’s and count the years from the debut of his most famous product. Huxley’s characters even make the sign of a letter of the alphabet in his honor.",
+            "r": "That letter, T, stands for his most famous car. For 10 points, name this carmaker who introduced the moving assembly line."
+        },
+        {
+            "p": "In 1915, this man chartered the ocean liner _Oscar II_ and sailed to Europe with a group of peace activists, hoping to end World War I by Christmas. Newspapers mocked the trip as the “Peace Ship.”",
+            "r": "For 10 points, name this industrialist whose low-priced Model T put millions of Americans behind the wheel."
+        },
+        {
+            "p": "With Woodrow Wilson’s encouragement, this man ran for the U.S. Senate from Michigan in 1918 as a Democrat and narrowly lost to Truman Newberry. He also bought the _Dearborn Independent_, a weekly newspaper that published antisemitic articles in the early 1920s.",
+            "r": "For 10 points, name this Michigan industrialist who introduced the $5 workday in 1914."
+        },
+        {
+            "p": "After this man quit his second car company in 1902, his backers reorganized it under Henry Leland and renamed it Cadillac. A year earlier, this man had won fame by beating Alexander Winton in a car race at Grosse Pointe, Michigan.",
+            "r": "In 1903, he founded the company that later built the Model T. For 10 points, name this automaker."
+        },
+        {
+            "p": "This man refused to pay for a license under George Selden’s patent on gasoline-powered cars, and in 1911 a federal appeals court ruled in his favor. Racer Barney Oldfield drove this man’s early race car, the “999,” to speed records.",
+            "r": "For 10 points, name this founder of a Detroit car company whose Model T first went on sale in 1908."
+        },
+        {
+            "p": "In a 1916 interview with the _Chicago Tribune_, this man declared that “history is more or less bunk.” Yet he later spent a fortune collecting historic buildings, including Thomas Edison’s laboratory and the Wright brothers’ bicycle shop, for an outdoor museum called Greenfield Village.",
+            "r": "That museum stands in Dearborn, Michigan, near where he was born. For 10 points, name this carmaker who built the Model T."
+        },
+        {
+            "p": "This man said he got an idea from the overhead trolleys that Chicago meatpackers used to move sides of beef past workers. Using that idea, his Highland Park plant cut the time needed to put together a car’s chassis from more than 12 hours to about 90 minutes.",
+            "r": "His factories then turned out Model Ts by the millions. For 10 points, name this industrialist who introduced the moving assembly line in 1913."
+        },
+        {
+            "p": "Inspectors from this man’s “Sociological Department” visited workers’ homes to check whether they lived the way he approved, which decided whether they received his full pay. In 1926, he gave his factory workers a five-day, 40-hour week.",
+            "r": "That full pay was the $5 day he announced in 1914. For 10 points, name this founder of the company that built the Model T."
+        },
+        {
+            "p": "In the 1937 Battle of the Overpass, security men working for this man’s company beat Walter Reuther and other United Auto Workers organizers outside the River Rouge plant. His company did not sign a contract with the union until 1941.",
+            "r": "His company had become famous for its moving assembly line. For 10 points, name this automaker who introduced the $5 workday."
+        },
+        {
+            "p": "In 1928, this man’s company began building a town in the Amazon rainforest of Brazil to grow rubber for tires, but the plantation failed. Closer to home, his River Rouge complex in Dearborn turned iron ore, coal, and other raw materials into finished cars.",
+            "r": "For 10 points, name this American industrialist who introduced the Model T in 1908."
+        },
+        {
+            "p": "On October 21, 1929, the 50th anniversary of Edison’s light bulb, this man hosted Thomas Edison and President Herbert Hoover at the dedication of his museum in Dearborn. Years earlier, Edison had encouraged this man’s car experiments.",
+            "r": "For 10 points, name this carmaker, who built the Model T on a moving assembly line."
+        },
+        {
+            "p": "This man built his first car in a brick shed behind his Detroit home and had to knock out part of the wall to drive it out. That 1896 vehicle, which rolled on four bicycle wheels, was called the Quadricycle.",
+            "r": "Twelve years later, he introduced the low-priced Model T. For 10 points, name this Michigan automaker."
+        },
+        {
+            "p": "The brothers John and Horace Dodge, early investors in this man’s company, sued him in 1919 to force the company to pay larger dividends, and the Michigan Supreme Court ruled in their favor. The Dodges had supplied engines and other parts for his first cars.",
+            "r": "For 10 points, name this founder of the car company that sold the Model T."
+        },
+        {
+            "p": "This man and his son Edsel created a foundation in 1936 that grew into one of the world’s largest charities. After Edsel died in 1943, this man ran his company again until his grandson took over in 1945.",
+            "r": "For 10 points, name this Michigan industrialist whose company built the Model T on a moving assembly line."
+        },
+        {
+            "p": "In 1927, after building about 15 million of one model, this man shut down his factories for months to retool for its replacement, called the Model A. He had long resisted changing the older car.",
+            "r": "For 10 points, name this automaker whose “Tin Lizzie,” or Model T, came in “any color… so long as it is black.”"
+        }
+    ],
+    "clues": [
+        {
+            "id": "model-t",
+            "tier": "giveaway",
+            "t": "Built the Model T (1908), nicknamed the “Tin Lizzie,” a car many ordinary families could buy",
+            "k": ["model t", "tin lizzie", "1908"],
+            "n": 0
+        },
+        {
+            "id": "assembly-line",
+            "tier": "giveaway",
+            "t": "Introduced the moving assembly line (1913) at his Highland Park plant near Detroit",
+            "k": ["moving assembly line", "assembly line", "highland park", "1913"],
+            "n": 0
+        },
+        {
+            "id": "five-dollar-day",
+            "tier": "giveaway",
+            "t": "The $5 day (1914) roughly doubled his factory workers’ pay",
+            "k": ["$5 day", "1914", "doubled"],
+            "n": 0
+        },
+        {
+            "id": "black",
+            "tier": "giveaway",
+            "t": "Wrote that a buyer could have a Model T in “any color… so long as it is black”",
+            "k": ["black", "any color"],
+            "n": 0
+        },
+        {
+            "id": "company-1903",
+            "tier": "giveaway",
+            "t": "Founded his car company in Detroit in 1903; it became one of the “Big Three” automakers",
+            "k": ["1903", "big three", "detroit"],
+            "n": 0
+        },
+        {
+            "id": "quadricycle",
+            "tier": "middle",
+            "t": "Built his first car, the Quadricycle (1896), in a brick shed behind his Detroit home",
+            "k": ["quadricycle", "1896", "shed"],
+            "n": 0
+        },
+        {
+            "id": "edison",
+            "tier": "middle",
+            "t": "Worked as an engineer for the Edison Illuminating Company; Thomas Edison encouraged his car work and became a close friend",
+            "k": ["edison", "illuminating", "engineer"],
+            "n": 0,
+            "rabbit": "Thomas Edison"
+        },
+        {
+            "id": "river-rouge",
+            "tier": "middle",
+            "t": "His River Rouge complex in Dearborn turned raw materials like iron ore and coal into finished cars",
+            "k": ["river rouge", "dearborn", "raw materials"],
+            "n": 0
+        },
+        {
+            "id": "greenfield-village",
+            "tier": "middle",
+            "t": "Created Greenfield Village, an outdoor museum of historic buildings such as Edison’s lab and the Wright brothers’ bicycle shop",
+            "k": ["greenfield village", "wright brothers", "museum"],
+            "n": 0
+        },
+        {
+            "id": "foundation",
+            "tier": "middle",
+            "t": "Created a foundation with his son Edsel in 1936; it grew into one of the world’s largest charities",
+            "k": ["foundation", "edsel", "1936"],
+            "n": 0
+        },
+        {
+            "id": "model-a",
+            "tier": "middle",
+            "t": "Replaced the Model T with the Model A in 1927, after building about 15 million Model Ts",
+            "k": ["model a", "1927", "15 million"],
+            "n": 0
+        },
+        {
+            "id": "dearborn-independent",
+            "tier": "middle",
+            "t": "His newspaper, the _Dearborn Independent_, published antisemitic articles in the early 1920s",
+            "k": ["dearborn independent", "antisemitic", "newspaper"],
+            "n": 0
+        },
+        {
+            "id": "brave-new-world",
+            "tier": "power",
+            "t": "In Aldous Huxley’s _Brave New World_, people use his name in place of God’s and count years from the Model T’s debut",
+            "k": ["brave new world", "huxley"],
+            "n": 0,
+            "rabbit": "Brave New World"
+        },
+        {
+            "id": "peace-ship",
+            "tier": "power",
+            "t": "Sent the “Peace Ship” (_Oscar II_) to Europe in 1915, hoping to end World War I",
+            "k": ["peace ship", "oscar ii", "1915"],
+            "n": 0
+        },
+        {
+            "id": "senate-1918",
+            "tier": "power",
+            "t": "Ran for the U.S. Senate from Michigan as a Democrat in 1918 and narrowly lost to Truman Newberry",
+            "k": ["senate", "1918", "newberry"],
+            "n": 0
+        },
+        {
+            "id": "cadillac",
+            "tier": "power",
+            "t": "His second car company became Cadillac under Henry Leland after he left it (1902)",
+            "k": ["cadillac", "leland", "1902"],
+            "n": 0
+        },
+        {
+            "id": "racing",
+            "tier": "power",
+            "t": "Beat Alexander Winton in a 1901 race at Grosse Pointe; Barney Oldfield drove his “999” race car",
+            "k": ["winton", "999", "barney oldfield", "1901"],
+            "n": 0
+        },
+        {
+            "id": "selden",
+            "tier": "power",
+            "t": "Won a court fight (1911) over George Selden’s patent on gasoline-powered cars",
+            "k": ["selden", "patent", "1911"],
+            "n": 0
+        },
+        {
+            "id": "bunk",
+            "tier": "power",
+            "t": "Told the _Chicago Tribune_ in 1916 that “history is more or less bunk”",
+            "k": ["bunk", "chicago tribune", "1916"],
+            "n": 0
+        },
+        {
+            "id": "meatpackers",
+            "tier": "power",
+            "t": "Credited Chicago meatpackers’ overhead trolleys for the moving line, which cut chassis assembly from 12+ hours to about 90 minutes",
+            "k": ["meatpackers", "trolleys", "chassis", "90 minutes"],
+            "n": 0
+        },
+        {
+            "id": "sociological",
+            "tier": "power",
+            "t": "His “Sociological Department” inspected workers’ homes to decide who earned the full $5 day",
+            "k": ["sociological department", "homes"],
+            "n": 0
+        },
+        {
+            "id": "forty-hour",
+            "tier": "power",
+            "t": "Gave his factory workers a five-day, 40-hour week (1926)",
+            "k": ["40-hour", "five-day", "1926"],
+            "n": 0
+        },
+        {
+            "id": "overpass",
+            "tier": "power",
+            "t": "Battle of the Overpass (1937): his company’s security men beat United Auto Workers organizers, including Walter Reuther",
+            "k": ["overpass", "united auto workers", "reuther", "1937"],
+            "n": 0
+        },
+        {
+            "id": "brazil",
+            "tier": "power",
+            "t": "Built a rubber-plantation town in Brazil’s Amazon rainforest (1928), but it failed",
+            "k": ["brazil", "rubber", "amazon", "1928"],
+            "n": 0
+        },
+        {
+            "id": "jubilee",
+            "tier": "power",
+            "t": "Dedicated his Dearborn museum on October 21, 1929, the light bulb’s 50th anniversary, with Edison and Herbert Hoover",
+            "k": ["hoover", "october 21, 1929", "50th anniversary"],
+            "n": 0
+        },
+        {
+            "id": "dodge",
+            "tier": "power",
+            "t": "John and Horace Dodge supplied parts, invested, and won a 1919 lawsuit forcing bigger dividends",
+            "k": ["dodge", "dividends", "1919"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Ford?",
+        "body": "“Ford” can mean several different answers. Gerald Ford was the 38th president, Ford’s Theatre is where Abraham Lincoln was shot, and Ford Motor Company is the business Henry Ford founded in 1903. His son Edsel and his grandson Henry Ford II also ran the company. Saying just “Ford” earns a prompt here, and naming the company when the question asks for “this man” is wrong.",
+        "fix": "The Model T, the moving assembly line, the $5 day, River Rouge, Greenfield Village, and the Peace Ship mean Henry Ford. Watergate’s aftermath, the pardon of Richard Nixon, and the 1976 election mean Gerald Ford. Always say the full name, “Henry Ford.”",
+        "line": "Real answer line: <b><u>Henry Ford</u></b> (prompt on <u>Ford</u>; do not accept “Gerald Ford”)"
+    },
+    "tests": {
+        "right": [
+            "Henry Ford",
+            "Henry Ford Sr.",
+            "Henery Ford",
+            "Henry Frod"
+        ],
+        "prompt": [
+            "Ford",
+            "Henry"
+        ],
+        "wrong": [
+            "Gerald Ford",
+            "Edsel Ford",
+            "Henry Ford II",
+            "Thomas Edison",
+            "Ford Motor Company",
+            "Harrison Ford"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

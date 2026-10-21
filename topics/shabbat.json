@@ -1,0 +1,472 @@
+{
+  "id": "shabbat",
+  "name": "Shabbat",
+  "mono": "SB",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Jewish day of rest · From Friday sundown to Saturday nightfall",
+  "dates": "Every week, Friday sundown to Saturday nightfall",
+  "briefing": "Every Friday at sundown, many Jewish families light candles, bless wine and two braided loaves of challah, and greet one another with “Shabbat shalom.” Shabbat, the weekly day of rest, recalls the story in Genesis in which God rests on the seventh day of creation, and the commandment to “remember the Sabbath day, to keep it holy.” It lasts until Saturday night, when a short ceremony called Havdalah separates it from the new week.",
+  "answerHtml": "<b><u>Shabbat</u></b> (or <u>Sabbath</u>; accept <u>Shabbos</u> or <u>Shabbes</u>; prompt on <u>Saturday</u> or “day of rest”; do not accept “Sunday”)",
+  "accept": [
+    "shabbat",
+    "sabbath",
+    "shabbos",
+    "shabbes",
+    "shabbath",
+    "the sabbath",
+    "jewish sabbath",
+    "sabbath day",
+    "the sabbath day"
+  ],
+  "prompt": [
+    "saturday",
+    "day of rest",
+    "the day of rest",
+    "weekly day of rest",
+    "jewish day of rest",
+    "rest day",
+    "seventh day",
+    "the seventh day"
+  ],
+  "reject": [
+    "sunday",
+    "lords day",
+    "the lords day",
+    "rosh hashanah",
+    "rosh hashana",
+    "yom kippur",
+    "passover",
+    "pesach",
+    "hanukkah",
+    "chanukah",
+    "sukkot",
+    "shavuot",
+    "purim",
+    "simchat torah",
+    "tisha bav",
+    "rosh chodesh",
+    "havdalah",
+    "kiddush",
+    "challah",
+    "eruv",
+    "cholent",
+    "sabbath of sabbaths",
+    "shabbat shabbaton",
+    "sabbatical",
+    "sabbatical year",
+    "shmita",
+    "shemitah",
+    "jubilee",
+    "black sabbath",
+    "seventh day adventists",
+    "seventh day adventist",
+    "adventists",
+    "jumuah"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Shabbat",
+  "qb": {
+    "q": "Sabbath",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The essayist Ahad Ha’am [“AH-hahd hah-AHM”] wrote that more than the Jewish people have kept this observance, it has kept the Jewish people. The Book of Exodus calls it a sign between God and the Israelites forever, and observant Jews avoid thirty-nine categories of work during it.",
+      "r": "For 10 points, name this weekly Jewish day of rest, which begins at sundown on Friday."
+    },
+    {
+      "p": "To end this period, people smell fragrant spices from a decorated box and hold their fingertips up to a braided candle with several wicks, which is then put out in a little wine. Many people wait until three stars can be seen in the sky before starting that ceremony.",
+      "r": "That ceremony is called Havdalah, meaning “separation.” For 10 points, name this weekly Jewish day of rest that lasts from Friday evening to Saturday night."
+    },
+    {
+      "p": "In the 1500s, Shlomo Alkabetz [“ahl-kah-BETS”] of Safed [“SAH-fed”] wrote a hymn that welcomes this day as a bride, with the refrain “Come, my beloved, to greet the bride.” That hymn, “Lekha Dodi” [“leh-KHAH doh-DEE”], is sung in synagogues on Friday evenings.",
+      "r": "At home, families mark its start by lighting candles and blessing wine and two loaves of challah. For 10 points, name this weekly day of rest in Judaism."
+    },
+    {
+      "p": "In the Book of Exodus, a commandment says to “remember” this day because God made the world in six days, while a version in Deuteronomy says to “observe” it and recalls the Israelites’ slavery in Egypt. The two candles lit to welcome it are often said to stand for those two verbs.",
+      "r": "In Genesis, God rests on the seventh day of creation. For 10 points, name this weekly Jewish day of rest."
+    },
+    {
+      "p": "Some neighborhoods are surrounded by an eruv [“AIR-uv”], a boundary often made of wire strung between poles, so that observant people may carry things such as house keys outdoors during this time. Some elevators in Israel stop at every floor automatically during it, so riders don’t have to press buttons.",
+      "r": "Families welcome it by lighting candles. For 10 points, name this Jewish day of rest that begins on Friday evening."
+    },
+    {
+      "p": "Two loaves of bread are set out for this day’s meals to recall the double portion of manna gathered on the sixth day in the wilderness, since none fell on the seventh. Those braided loaves are covered with a cloth while a blessing over wine called Kiddush [“KID-ish”] is said.",
+      "r": "For 10 points, name this weekly Jewish day of rest, whose arrival is marked by lighting candles."
+    },
+    {
+      "p": "Abraham Joshua Heschel [“HESH-ul”] wrote a 1951 book describing this day as “a palace in time.” The prophet Isaiah urged people to call it “a delight,” and many synagogues hold a reception called an oneg [“OH-neg”], meaning “delight,” after Friday night services.",
+      "r": "For 10 points, name this weekly Jewish day of rest, which many families begin with a festive Friday night dinner."
+    },
+    {
+      "p": "Because cooking is not allowed during this time, many families prepare a stew of beans, barley, potatoes, and meat called cholent [“CHAW-lunt”] beforehand and keep it warm overnight for the next day’s lunch. Some ovens and refrigerators have a special mode named for this day.",
+      "r": "For 10 points, name this weekly day of rest that observant Jews keep from Friday sundown to Saturday nightfall."
+    },
+    {
+      "p": "On Friday nights, many families sing “Shalom Aleichem” [“shah-LOHM ah-LAY-khem”] to welcome the angels who, according to tradition, walk people home from the synagogue on this day. Families may also sing “A Woman of Valor,” a passage from the Book of Proverbs, and bless their children.",
+      "r": "For 10 points, name this Jewish day of rest, whose name people pair with the word “shalom” as a greeting."
+    },
+    {
+      "p": "A section of the Mishnah named for this observance lists thirty-nine main kinds of forbidden work, including plowing, writing two letters, lighting a fire, and carrying an object from a private area into a public one.",
+      "r": "Rabbis linked that list to the work of building the Tabernacle in the wilderness. For 10 points, name this weekly Jewish day of rest."
+    },
+    {
+      "p": "In the Gospel of Mark, after Pharisees criticize his disciples for picking heads of grain on this day, Jesus says that it “was made for man, not man for” it. Seventh-day Adventists also keep this day of rest on Saturday.",
+      "r": "For 10 points, name this weekly day of rest that Jews keep from Friday evening to Saturday night."
+    },
+    {
+      "p": "Many communities light candles eighteen minutes before sunset to begin this period, and the woman of the house traditionally covers her eyes while saying the blessing over them. It ends about twenty-five hours after it begins, once night has fallen on Saturday.",
+      "r": "Families then bless wine and two loaves of challah. For 10 points, name this weekly Jewish day of rest that begins on Friday evening."
+    },
+    {
+      "p": "In the Bible, Nehemiah ordered the gates of Jerusalem shut at dusk before this day began, so that merchants could not come in to sell their goods. Rabbis also limited how far people may walk beyond their town during it to two thousand cubits.",
+      "r": "For 10 points, name this weekly Jewish day of rest, which begins at sundown on Friday."
+    },
+    {
+      "p": "Under the principle of pikuach nefesh [“pih-KOO-akh NEH-fesh”], the rules of this day must be set aside to save a life. During the Maccabean revolt, Mattathias [“mat-uh-THY-us”] and his followers decided that they would fight to defend themselves even on this day.",
+      "r": "For 10 points, name this weekly Jewish day of rest, when observant Jews avoid thirty-nine kinds of work."
+    },
+    {
+      "p": "On the morning of this day, seven people are called up to the Torah as synagogues read the week’s portion, so that in most synagogues the whole scroll is read in a year. Many boys celebrate their bar mitzvah on this day by reading from the Torah before the congregation.",
+      "r": "For 10 points, name this weekly Jewish day of rest that begins at sundown on Friday."
+    }
+  ],
+  "clues": [
+    {
+      "id": "day-of-rest",
+      "tier": "giveaway",
+      "t": "The weekly Jewish day of rest, from Friday sundown to Saturday nightfall",
+      "k": [
+        "day of rest",
+        "friday",
+        "saturday",
+        "sundown"
+      ],
+      "n": 0
+    },
+    {
+      "id": "genesis",
+      "tier": "giveaway",
+      "t": "Recalls Genesis, where God rests on the seventh day of creation",
+      "k": [
+        "seventh day",
+        "genesis",
+        "creation"
+      ],
+      "n": 0,
+      "rabbit": "Book of Genesis"
+    },
+    {
+      "id": "commandment",
+      "tier": "giveaway",
+      "t": "One of the Ten Commandments tells people to remember this day and keep it holy",
+      "k": [
+        "ten commandments",
+        "keep it holy"
+      ],
+      "n": 0,
+      "rabbit": "Moses"
+    },
+    {
+      "id": "candles",
+      "tier": "giveaway",
+      "t": "Begins with lighting candles and blessing wine and two loaves of challah",
+      "k": [
+        "candles",
+        "challah",
+        "wine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greeting",
+      "tier": "giveaway",
+      "t": "People greet each other by adding “shalom” (“peace”) to its name",
+      "k": [
+        "shalom",
+        "greeting",
+        "peace"
+      ],
+      "n": 0
+    },
+    {
+      "id": "havdalah",
+      "tier": "middle",
+      "t": "Havdalah (“separation”) ends it with wine, sweet spices, and a braided candle",
+      "k": [
+        "havdalah",
+        "separation",
+        "spices",
+        "braided candle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thirty-nine",
+      "tier": "middle",
+      "t": "Observant Jews avoid 39 categories of work during it, which rabbis linked to building the Tabernacle",
+      "k": [
+        "39 categories",
+        "tabernacle",
+        "work"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eruv",
+      "tier": "middle",
+      "t": "An eruv boundary lets observant people carry things outdoors during it",
+      "k": [
+        "eruv",
+        "boundary",
+        "carry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "manna",
+      "tier": "middle",
+      "t": "Two loaves recall the double portion of manna gathered on the sixth day in the wilderness",
+      "k": [
+        "manna",
+        "double portion",
+        "two loaves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kiddush",
+      "tier": "middle",
+      "t": "Kiddush, the blessing over wine, is said while the challah loaves are covered with a cloth",
+      "k": [
+        "kiddush",
+        "blessing over wine",
+        "covered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-stars",
+      "tier": "middle",
+      "t": "It ends about 25 hours after it begins, once three stars can be seen on Saturday night",
+      "k": [
+        "three stars",
+        "25 hours"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lekha-dodi",
+      "tier": "middle",
+      "t": "The Friday evening hymn “Lekha Dodi” welcomes it as a bride",
+      "k": [
+        "lekha dodi",
+        "bride",
+        "hymn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "torah-reading",
+      "tier": "middle",
+      "t": "That morning, seven people are called up to read the week’s Torah portion; many bar mitzvahs happen then",
+      "k": [
+        "torah portion",
+        "bar mitzvah",
+        "seven people"
+      ],
+      "n": 0,
+      "rabbit": "Torah"
+    },
+    {
+      "id": "cholent",
+      "tier": "middle",
+      "t": "Cooking is not allowed, so families keep a slow-cooked stew called cholent warm overnight",
+      "k": [
+        "cholent",
+        "stew",
+        "cooking"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ahad-haam",
+      "tier": "power",
+      "t": "Ahad Ha’am: more than the Jewish people have kept it, it has kept the Jewish people",
+      "k": [
+        "ahad",
+        "kept"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sign",
+      "tier": "power",
+      "t": "The Book of Exodus calls it a sign between God and the Israelites forever",
+      "k": [
+        "sign",
+        "forever",
+        "exodus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "remember-observe",
+      "tier": "power",
+      "t": "Exodus says to “remember” it (God made the world in six days); Deuteronomy says to “observe” it (slavery in Egypt); two candles stand for the two verbs",
+      "k": [
+        "remember",
+        "observe",
+        "deuteronomy",
+        "two candles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alkabetz",
+      "tier": "power",
+      "t": "Shlomo Alkabetz of Safed wrote “Lekha Dodi” in the 1500s: “Come, my beloved, to greet the bride”",
+      "k": [
+        "alkabetz",
+        "safed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elevators",
+      "tier": "power",
+      "t": "Some elevators in Israel stop at every floor automatically during it, so riders don’t press buttons",
+      "k": [
+        "elevators",
+        "every floor",
+        "buttons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heschel",
+      "tier": "power",
+      "t": "Abraham Joshua Heschel’s 1951 book calls it “a palace in time”",
+      "k": [
+        "heschel",
+        "palace in time"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oneg",
+      "tier": "power",
+      "t": "Isaiah calls it “a delight”; an oneg (“delight”) is a reception after Friday night services",
+      "k": [
+        "oneg",
+        "delight",
+        "isaiah"
+      ],
+      "n": 0
+    },
+    {
+      "id": "angels",
+      "tier": "power",
+      "t": "The Friday night song “Shalom Aleichem” welcomes angels said to walk people home; families sing “A Woman of Valor” from Proverbs",
+      "k": [
+        "shalom aleichem",
+        "angels",
+        "woman of valor",
+        "proverbs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mishnah",
+      "tier": "power",
+      "t": "A Mishnah section named for it lists the 39 kinds of work, such as plowing, writing two letters, and lighting a fire",
+      "k": [
+        "mishnah",
+        "writing two letters",
+        "plowing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "made-for-man",
+      "tier": "power",
+      "t": "In Mark’s Gospel, Jesus says it “was made for man”; Seventh-day Adventists keep it on Saturday",
+      "k": [
+        "made for man",
+        "seventh-day adventists",
+        "mark"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eighteen-minutes",
+      "tier": "power",
+      "t": "Candles are lit 18 minutes before sunset; the woman of the house covers her eyes for the blessing",
+      "k": [
+        "18 minutes",
+        "covers her eyes",
+        "sunset"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nehemiah",
+      "tier": "power",
+      "t": "Nehemiah shut Jerusalem’s gates before it began to keep merchants out; rabbis set a 2,000-cubit walking limit",
+      "k": [
+        "nehemiah",
+        "gates",
+        "cubit"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pikuach-nefesh",
+      "tier": "power",
+      "t": "Pikuach nefesh: its rules are set aside to save a life; Mattathias decided to fight in self-defense even on it",
+      "k": [
+        "pikuach nefesh",
+        "save a life",
+        "mattathias"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Weekly, not yearly",
+    "body": "This answer is the weekly day of rest, but nearby answer lines are yearly holidays: Rosh Hashanah, the New Year, and Yom Kippur, the Day of Atonement, which Leviticus calls a “Sabbath of Sabbaths.” Its customs, like candles, wine, and challah, show up in holiday questions too. And most Christians hold their main worship on Sunday, which they call the Lord’s Day; “Sunday” is not accepted here.",
+    "fix": "Listen for “weekly,” “every Friday,” Havdalah, the 39 kinds of work, or the eruv: those mean Shabbat (“Sabbath” and “Shabbos” also work). A shofar, apples and honey, or Kol Nidre mean one of the High Holy Days. “Saturday” alone earns only a prompt, so say the day’s name.",
+    "line": "Real answer line: <b><u>Shabbat</u></b> (or <u>Sabbath</u>; accept <u>Shabbos</u> or <u>Shabbes</u>; prompt on <u>Saturday</u> or “day of rest”; do not accept “Sunday”)"
+  },
+  "tests": {
+    "right": [
+      "Shabbat",
+      "Sabbath",
+      "Shabbos",
+      "the Sabbath",
+      "Shabat",
+      "Jewish Sabbath"
+    ],
+    "prompt": [
+      "Saturday",
+      "day of rest"
+    ],
+    "wrong": [
+      "Sunday",
+      "Rosh Hashanah",
+      "Yom Kippur",
+      "Havdalah",
+      "Passover",
+      "Black Sabbath",
+      "Sabbatical",
+      "Seventh-day Adventists"
+    ]
+  }
+}

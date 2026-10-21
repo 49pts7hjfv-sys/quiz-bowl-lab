@@ -1,0 +1,456 @@
+{
+  "id": "subduction",
+  "name": "Subduction",
+  "mono": "SUB",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "One plate diving beneath another into the mantle · Builds trenches and volcanoes",
+  "dates": "Ongoing all around the Pacific Ring of Fire",
+  "briefing": "Subduction happens where two tectonic plates collide and the denser one, usually made of old, cold ocean floor, bends and slides down beneath the other into the mantle. The sinking plate carves a deep trench, like the Mariana Trench, and water squeezed out of it helps melt the rock above, feeding chains of volcanoes. Subduction zones ring the Pacific Ocean and cause the world’s largest earthquakes.",
+  "answerHtml": "<b><u>Subduction</u></b> (accept <u>subduction</u> zones or <u>subducting</u> plates; prompt on convergent boundaries or Benioff zones; do not accept “seafloor spreading,” “obduction,” or “trenches”)",
+  "accept": [
+    "subduction",
+    "subduction zone",
+    "subduction zones",
+    "subducting",
+    "subducted",
+    "subduct",
+    "subducts",
+    "subducting plate",
+    "subducting plates",
+    "subducting slab",
+    "plate subduction",
+    "oceanic subduction",
+    "subduction boundary",
+    "subduction boundaries"
+  ],
+  "prompt": [
+    "convergent boundary",
+    "convergent boundaries",
+    "convergent plate boundary",
+    "convergent plate boundaries",
+    "convergence",
+    "convergent margin",
+    "convergent margins",
+    "destructive boundary",
+    "destructive boundaries",
+    "destructive plate boundary",
+    "benioff zone",
+    "benioff zones",
+    "wadati benioff zone",
+    "wadati benioff zones"
+  ],
+  "reject": [
+    "obduction",
+    "abduction",
+    "seafloor spreading",
+    "sea floor spreading",
+    "plate tectonics",
+    "tectonic plates",
+    "continental drift",
+    "divergent boundary",
+    "divergent boundaries",
+    "transform boundary",
+    "transform boundaries",
+    "rifting",
+    "orogeny",
+    "continental collision",
+    "collision",
+    "accretion",
+    "accretionary wedge",
+    "mid ocean ridge",
+    "trench",
+    "trenches",
+    "ocean trench",
+    "ocean trenches",
+    "mariana trench",
+    "challenger deep",
+    "ring of fire",
+    "island arc",
+    "island arcs",
+    "volcanic arc",
+    "volcano",
+    "volcanoes",
+    "earthquake",
+    "earthquakes",
+    "megathrust",
+    "slab pull",
+    "fault",
+    "faults",
+    "thrust fault",
+    "convection",
+    "mantle convection",
+    "mantle"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Subduction",
+  "qb": {
+    "q": "subduction",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Japanese seismologist Kiyoo Wadati and American Hugo Benioff mapped the tilted zones of earthquakes that follow this process downward into the mantle. The deepest of those earthquakes strike about 700 kilometers down, deeper than earthquakes reach anywhere else.",
+      "r": "This process carves deep ocean trenches along the edges of the Pacific. For 10 points, name this process in which one tectonic plate sinks beneath another."
+    },
+    {
+      "p": "Water squeezed out of a sinking slab lowers the melting point of the hot mantle rock above it, a process called flux melting that feeds the volcanoes above zones of this process. Many of those volcanoes erupt andesite, a rock named for a South American mountain range.",
+      "r": "For 10 points, name this process that builds the volcanoes of the Pacific Ring of Fire as one plate dives beneath another."
+    },
+    {
+      "p": "Mud and sand scraped off the top of a descending plate pile up into an accretionary wedge, or prism, at the edge of the overriding plate during this process. The island of Barbados sits on top of one of these scraped-up piles.",
+      "r": "Where the descending plate bends downward, it forms a deep trench in the ocean floor. For 10 points, name this process in which one plate slides beneath another at a convergent boundary."
+    },
+    {
+      "p": "In 1960, Jacques Piccard and Don Walsh rode the bathyscaphe _Trieste_ down to the Challenger Deep, and in 2012 James Cameron made a solo dive to the same spot. That spot lies where the Pacific plate sinks beneath a smaller plate in this process.",
+      "r": "That spot is in the Mariana Trench, the deepest part of the ocean. For 10 points, name this process in which one plate dives beneath another."
+    },
+    {
+      "p": "The strongest earthquake ever recorded, a magnitude 9.5 quake near Valdivia, Chile, in 1960, struck where the Nazca plate dives beneath South America in this process. Such “megathrust” earthquakes are the largest kind on Earth.",
+      "r": "This process also raised the Andes Mountains. For 10 points, name this process in which an oceanic plate sinks beneath another plate into the mantle."
+    },
+    {
+      "p": "Many geologists think “slab pull,” the tug of a cold, dense plate sinking into the mantle during this process, is the strongest force moving tectonic plates. Because this process destroys old ocean floor, almost none of the seafloor is older than about 200 million years.",
+      "r": "This process happens at convergent boundaries. For 10 points, name this process in which one plate dives beneath another at a deep ocean trench."
+    },
+    {
+      "p": "Most of the ancient Farallon [“FAIR-uh-lon”] plate has disappeared beneath western North America through this process, and the Juan de Fuca and Cocos plates are among its last surviving pieces. The Juan de Fuca plate still sinks beneath the Pacific Northwest, feeding volcanoes like Mount Rainier.",
+      "r": "For 10 points, name this process in which a dense oceanic plate dives beneath another plate into the mantle."
+    },
+    {
+      "p": "Blueschist, a metamorphic rock colored blue by the mineral glaucophane [“GLAW-kuh-fayn”], forms under high pressure but fairly low temperature as rock is dragged deep during this process. Blueschist in California’s Coast Ranges marks where this process happened long ago.",
+      "r": "This process occurs all around the Pacific Ring of Fire. For 10 points, name this process in which one tectonic plate slides beneath another."
+    },
+    {
+      "p": "The 2011 Tohoku [“TOH-hoh-koo”] earthquake and tsunami, which damaged the Fukushima Daiichi nuclear plant, struck where the Pacific plate sinks beneath northern Japan in this process. Japan itself is an island arc, a curving chain of volcanic islands built by this process.",
+      "r": "For 10 points, name this process at convergent boundaries in which one tectonic plate dives beneath another."
+    },
+    {
+      "p": "Japanese records of a mysterious tsunami that arrived in January 1700 without any felt earthquake helped scientists date a giant quake along the Cascadia zone of this process, off the coast of the Pacific Northwest.",
+      "r": "There, the Juan de Fuca plate sinks beneath North America. For 10 points, name this process in which one plate dives beneath another into the mantle."
+    },
+    {
+      "p": "In 1964, the strongest earthquake in U.S. history, a magnitude 9.2 quake centered on Alaska’s Prince William Sound, struck along a zone of this process. Farther west, the same zone has built the Aleutian Islands, a curving island arc.",
+      "r": "For 10 points, name this process in which a dense oceanic plate sinks beneath another plate at a deep trench."
+    },
+    {
+      "p": "Harry Hess reasoned that if new ocean floor is always forming at mid-ocean ridges, old ocean floor must be destroyed somewhere else by this process, or else Earth would have to keep growing larger. Hess called his 1962 paper on the idea “an essay in geopoetry.”",
+      "r": "This process happens where old seafloor sinks at deep ocean trenches. For 10 points, name this process in which one plate dives beneath another into the mantle."
+    },
+    {
+      "p": "This process’s name comes from Latin roots meaning “under” and “to lead.” In a related but much rarer process called obduction, slices of ocean crust are shoved up onto the edge of a continent instead of sinking.",
+      "r": "This process makes deep trenches like the Mariana Trench. For 10 points, name this process in which one plate sinks beneath another into the mantle."
+    },
+    {
+      "p": "The 2004 Indian Ocean earthquake, whose tsunami struck coasts from Indonesia to East Africa, began off the island of Sumatra, along the Sunda megathrust created by this process. The same process built Indonesia’s many volcanoes, including Krakatoa.",
+      "r": "For 10 points, name this process at convergent boundaries in which one tectonic plate dives beneath another into the mantle."
+    },
+    {
+      "p": "The Andes and the Cascades are volcanic mountain chains built by this process, and water released during it lowers the melting point of rock in the mantle. It recycles old, cold seafloor back into Earth’s interior.",
+      "r": "In this process, a dense oceanic plate dives beneath a lighter plate at a convergent boundary. For 10 points, name this process that forms deep ocean trenches like the Mariana Trench."
+    }
+  ],
+  "clues": [
+    {
+      "id": "plate-sinks",
+      "tier": "giveaway",
+      "t": "One tectonic plate sinks beneath another and descends into the mantle",
+      "k": [
+        "sinks",
+        "beneath",
+        "mantle"
+      ],
+      "n": 0
+    },
+    {
+      "id": "denser-oceanic",
+      "tier": "giveaway",
+      "t": "The denser plate, usually old oceanic crust, goes down; lighter continental crust stays on top",
+      "k": [
+        "denser",
+        "oceanic crust",
+        "continental crust"
+      ],
+      "n": 0
+    },
+    {
+      "id": "convergent",
+      "tier": "giveaway",
+      "t": "Happens at convergent boundaries, where plates move toward each other",
+      "k": [
+        "convergent",
+        "toward each other"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trenches",
+      "tier": "giveaway",
+      "t": "Carves deep ocean trenches, like the Mariana Trench, the deepest spot in the ocean",
+      "k": [
+        "trenches",
+        "mariana trench",
+        "deepest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ring-of-fire",
+      "tier": "giveaway",
+      "t": "Builds most of the volcanoes and causes most of the earthquakes around the Pacific Ring of Fire",
+      "k": [
+        "ring of fire",
+        "pacific"
+      ],
+      "n": 0,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "volcanic-arcs",
+      "tier": "middle",
+      "t": "Builds curving island arcs (Japan, the Aleutians) or volcanic mountain chains on continents (the Andes, the Cascades)",
+      "k": [
+        "island arcs",
+        "aleutians",
+        "andes",
+        "cascades"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flux-melting",
+      "tier": "middle",
+      "t": "Water squeezed from the sinking plate lowers the melting point of mantle rock above it: flux melting",
+      "k": [
+        "flux melting",
+        "melting point",
+        "water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "andesite",
+      "tier": "middle",
+      "t": "Its volcanoes often erupt andesite, a rock named for the Andes",
+      "k": [
+        "andesite"
+      ],
+      "n": 0,
+      "rabbit": "Igneous rocks"
+    },
+    {
+      "id": "megathrust",
+      "tier": "middle",
+      "t": "Causes the largest “megathrust” earthquakes, like the magnitude 9.5 Chile quake of 1960",
+      "k": [
+        "megathrust",
+        "chile",
+        "1960"
+      ],
+      "n": 0,
+      "rabbit": "Earthquakes"
+    },
+    {
+      "id": "nazca-andes",
+      "tier": "middle",
+      "t": "The Nazca plate dives beneath South America, raising the Andes",
+      "k": [
+        "nazca",
+        "south america"
+      ],
+      "n": 0
+    },
+    {
+      "id": "juan-de-fuca",
+      "tier": "middle",
+      "t": "The Juan de Fuca plate sinks beneath the Pacific Northwest, feeding Cascade volcanoes like Mount Rainier and Mount St. Helens",
+      "k": [
+        "juan de fuca",
+        "pacific northwest",
+        "mount rainier"
+      ],
+      "n": 0
+    },
+    {
+      "id": "recycling",
+      "tier": "middle",
+      "t": "Destroys old ocean floor, so almost no seafloor is older than about 200 million years",
+      "k": [
+        "old ocean floor",
+        "200 million"
+      ],
+      "n": 0,
+      "rabbit": "Seafloor spreading"
+    },
+    {
+      "id": "slab-pull",
+      "tier": "middle",
+      "t": "“Slab pull,” the tug of the sinking plate, is thought to be the strongest force moving plates",
+      "k": [
+        "slab pull"
+      ],
+      "n": 0,
+      "rabbit": "Plate tectonics"
+    },
+    {
+      "id": "wadati-benioff",
+      "tier": "power",
+      "t": "Kiyoo Wadati and Hugo Benioff mapped the slanting zones of earthquakes along the sinking plate",
+      "k": [
+        "wadati",
+        "benioff"
+      ],
+      "n": 0
+    },
+    {
+      "id": "deep-quakes",
+      "tier": "power",
+      "t": "Its deepest earthquakes strike about 700 km down, deeper than anywhere else",
+      "k": [
+        "deepest earthquakes",
+        "700"
+      ],
+      "n": 0
+    },
+    {
+      "id": "accretionary",
+      "tier": "power",
+      "t": "Sediment scraped off the sinking plate piles up in an accretionary wedge; Barbados sits on one",
+      "k": [
+        "accretionary wedge",
+        "barbados",
+        "scraped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trieste",
+      "tier": "power",
+      "t": "Piccard and Walsh reached the Challenger Deep in the _Trieste_ (1960); James Cameron dove there alone in 2012",
+      "k": [
+        "challenger deep",
+        "trieste",
+        "piccard",
+        "cameron"
+      ],
+      "n": 0
+    },
+    {
+      "id": "farallon",
+      "tier": "power",
+      "t": "Most of the ancient Farallon plate vanished beneath North America; the Juan de Fuca and Cocos plates are leftovers",
+      "k": [
+        "farallon",
+        "cocos"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blueschist",
+      "tier": "power",
+      "t": "Blueschist, colored blue by glaucophane, forms at high pressure but low temperature in its zones",
+      "k": [
+        "blueschist",
+        "glaucophane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tohoku",
+      "tier": "power",
+      "t": "The 2011 Tohoku earthquake and tsunami struck where the Pacific plate sinks beneath Japan",
+      "k": [
+        "tohoku",
+        "2011",
+        "fukushima"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cascadia-1700",
+      "tier": "power",
+      "t": "A Cascadia quake in January 1700 sent a tsunami to Japan that arrived with no felt earthquake",
+      "k": [
+        "cascadia",
+        "1700",
+        "tsunami"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alaska-1964",
+      "tier": "power",
+      "t": "The magnitude 9.2 Alaska earthquake of 1964, the strongest in U.S. history, struck in one of its zones",
+      "k": [
+        "alaska",
+        "1964",
+        "9.2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sumatra-2004",
+      "tier": "power",
+      "t": "The 2004 Indian Ocean earthquake and tsunami began off Sumatra; the same process built Krakatoa",
+      "k": [
+        "sumatra",
+        "2004",
+        "krakatoa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hess",
+      "tier": "power",
+      "t": "Harry Hess said old seafloor must be destroyed at trenches, or Earth would keep growing",
+      "k": [
+        "harry hess",
+        "growing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "latin-obduction",
+      "tier": "power",
+      "t": "Name from Latin roots for “under” and “to lead”; in rarer obduction, ocean crust is pushed up onto land",
+      "k": [
+        "obduction",
+        "latin"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Process, not the trench",
+    "body": "Subduction tossups name its results, like the Mariana Trench, the Ring of Fire, island arcs, and giant earthquakes, so players blurt out one of those, which is wrong. Others answer “convergent boundary,” the kind of boundary where it happens, which earns only a prompt, or “seafloor spreading,” which makes new ocean floor instead of destroying it.",
+    "fix": "Listen for “this process” plus a plate sinking, diving, or descending beneath another: say subduction. If you are prompted after “convergent boundary,” add “subduction zone.” New crust forming at a ridge means seafloor spreading, and the whole theory of moving plates means plate tectonics.",
+    "line": "Real answer line: <b><u>Subduction</u></b> (accept <u>subduction</u> zones; prompt on convergent boundaries; do not accept “seafloor spreading” or “obduction”)"
+  },
+  "tests": {
+    "right": [
+      "Subduction",
+      "Subduction zone",
+      "subduction zones",
+      "Subductoin",
+      "Subducting plate"
+    ],
+    "prompt": [
+      "Convergent boundary",
+      "Benioff zone"
+    ],
+    "wrong": [
+      "Seafloor spreading",
+      "Plate tectonics",
+      "Obduction",
+      "Mariana Trench",
+      "Ring of Fire",
+      "Faults"
+    ]
+  }
+}

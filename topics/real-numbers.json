@@ -1,0 +1,432 @@
+{
+  "id": "real-numbers",
+  "name": "Real numbers",
+  "mono": "R",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Every point on the number line · Rational and irrational numbers together",
+  "dates": "Defined rigorously by Dedekind and Cantor, 1872",
+  "briefing": "The real numbers are all the numbers that sit on the number line: whole numbers, negatives, fractions like ¾, and irrational numbers like √2 and π, whose decimals go on forever without repeating. Together they fill the line with no gaps, and mathematicians write them as ℝ. In 1874, Georg Cantor proved there are so many real numbers that they can never be listed one by one, even though the counting numbers go on forever too.",
+  "answerHtml": "<b><u>real number</u></b>s (accept <u>reals</u>; prompt on <u>R</u> or <u>number line</u>; do not accept “rational numbers” or “complex numbers”)",
+  "accept": [
+    "real numbers",
+    "real number",
+    "reals",
+    "real",
+    "real number system",
+    "real number line",
+    "real line"
+  ],
+  "prompt": [
+    "r",
+    "number line"
+  ],
+  "reject": [
+    "rational numbers",
+    "rational number",
+    "rationals",
+    "rational",
+    "irrational numbers",
+    "irrational number",
+    "irrationals",
+    "irrational",
+    "integers",
+    "integer",
+    "natural numbers",
+    "natural number",
+    "whole numbers",
+    "whole number",
+    "counting numbers",
+    "complex numbers",
+    "complex number",
+    "complex",
+    "imaginary numbers",
+    "imaginary number",
+    "imaginary",
+    "real part",
+    "real parts",
+    "real analysis",
+    "real root",
+    "real roots",
+    "hyperreal numbers",
+    "surreal numbers",
+    "transcendental numbers",
+    "algebraic numbers",
+    "negative numbers",
+    "continuum hypothesis",
+    "continuum",
+    "real estate",
+    "number one",
+    "number five",
+    "number six",
+    "number nine",
+    "number ten",
+    "number pi",
+    "number e",
+    "number i"
+  ],
+  "tests": {
+    "right": [
+      "real numbers",
+      "Real number",
+      "reals",
+      "real",
+      "real numbrs",
+      "the real numbers"
+    ],
+    "prompt": [
+      "R",
+      "number line"
+    ],
+    "wrong": [
+      "rational numbers",
+      "complex numbers",
+      "irrational numbers",
+      "integers",
+      "imaginary numbers",
+      "natural numbers",
+      "real part"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Real_number",
+  "qb": {
+    "q": "real numbers",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1872, Richard Dedekind [“DAY-duh-kint”] defined these numbers as “cuts” that split the rational numbers into a lower set and an upper set. A cut placed at the square root of 2 shows that the fractions leave gaps, which these numbers fill.",
+      "r": "For 10 points, name these numbers, which include every rational and irrational number on the number line."
+    },
+    {
+      "p": "Georg Cantor’s 1874 paper showed that the algebraic numbers can be listed one by one but these numbers cannot, which proved that transcendental numbers exist. Later, his diagonal argument built a new decimal that differs from the first listed number in its first digit, the second in its second digit, and so on.",
+      "r": "For 10 points, name these uncountable numbers, made up of all the rational and irrational numbers, that fill the number line."
+    },
+    {
+      "p": "Kurt Gödel [“GUR-dul”] and Paul Cohen showed that the usual axioms of set theory can neither prove nor disprove that no size of infinity lies between that of the counting numbers and that of these numbers. That claim, the continuum hypothesis, was the first problem on David Hilbert’s famous 1900 list.",
+      "r": "For 10 points, name these numbers, written with a double-struck R, which include both fractions and irrational numbers like pi."
+    },
+    {
+      "p": "Unlike the rational numbers, these numbers have the least upper bound property: every nonempty set of them that has an upper bound has a smallest upper bound. That “completeness” makes these numbers, in effect, the only complete ordered field.",
+      "r": "For 10 points, name these numbers that include all the points on the number line, such as negative 7, two-thirds, and pi."
+    },
+    {
+      "p": "René Descartes [“day-KART”] introduced the name of these numbers in 1637 to tell some roots of equations apart from roots he called “imaginary.” On an Argand diagram, these numbers lie along the horizontal axis, as the complex numbers whose imaginary part is zero.",
+      "r": "For 10 points, name these numbers, which include all the rational and irrational numbers on the number line."
+    },
+    {
+      "p": "Computers usually store approximations of these numbers in a floating-point format that the IEEE standardized in 1985, which is why adding 0.1 and 0.2 on many computers gives 0.30000000000000004. Unlike the complex numbers, these numbers can all be put in order from least to greatest.",
+      "r": "Each one can be written as a decimal that ends, repeats, or goes on forever without repeating. For 10 points, name these numbers that make up the entire number line."
+    },
+    {
+      "p": "These numbers can be put in order from least to greatest in a way that works with addition and multiplication, which the complex numbers cannot. The square of every one of these numbers is zero or positive, so the equation x squared equals negative 1 has no solution among them.",
+      "r": "For 10 points, name these numbers, which include zero, negative 5, one-half, the square root of 2, and pi."
+    },
+    {
+      "p": "By the Archimedean [“ar-kih-MEE-dee-un”] property of these numbers, some counting number is bigger than any one of them. Between any two different numbers of this kind lie both a fraction and an irrational number, so none of them has a “next” number.",
+      "r": "For 10 points, name these numbers, which fill the number line and include both pi and two-thirds."
+    },
+    {
+      "p": "After proving in 1877 that a square contains no more points than a line segment, Georg Cantor wrote to Richard Dedekind, “I see it, but I don’t believe it!” Cantor also defined these numbers using sequences of fractions whose terms get closer and closer together.",
+      "r": "For 10 points, name these numbers, which correspond to all the points on a number line, including pi."
+    },
+    {
+      "p": "Charles Hermite [“air-MEET”] proved in 1873 that e is a transcendental member of this set of numbers, and Ferdinand von Lindemann proved the same for pi in 1882. Most members of this set are irrational, and in fact most are transcendental, since the algebraic ones can be listed.",
+      "r": "For 10 points, name these numbers, symbolized by a double-struck R, that make up the entire number line."
+    },
+    {
+      "p": "Some numbers of this kind have two different decimal forms: for example, 0.999 repeating forever equals exactly 1, and 0.4999 repeating equals one-half. Unlike the integers, these numbers have no “next” number, since between any two of them lie infinitely many more.",
+      "r": "Decimals that end or repeat give the rational ones, and decimals that never end or repeat give the irrational ones. For 10 points, name these numbers, written ℝ."
+    },
+    {
+      "p": "Every polynomial of odd degree whose coefficients are numbers of this kind has at least one root of this kind, as the intermediate value theorem shows. For such polynomials, the roots that are not of this kind come in conjugate pairs, like 3 plus 2i and 3 minus 2i.",
+      "r": "For 10 points, name these numbers, which include every rational and irrational number but not the imaginary number i."
+    },
+    {
+      "p": "When a quadratic’s discriminant, b squared minus 4ac, is negative, its graph never crosses the x-axis, and the quadratic formula gives no solutions of this kind. The square of every number of this kind is zero or positive.",
+      "r": "Every point on the x-axis stands for one of these numbers. For 10 points, name these numbers, which include fractions and irrational numbers like the square root of 2."
+    },
+    {
+      "p": "Eudoxus’s [“yoo-DOK-sus-iz”] theory of proportion, preserved in Book V of Euclid’s _Elements_, is often seen as an ancient forerunner of the modern definition of these numbers. A square with sides of length 1 has a diagonal whose length is one of these numbers but not a fraction.",
+      "r": "For 10 points, name these numbers, which include all the rational and irrational numbers and are written ℝ."
+    },
+    {
+      "p": "Even the tiny interval from 0 to 1 contains uncountably many of these numbers, just as many as there are on the entire line. Georg Cantor’s diagonal argument shows that these numbers can never be written down in one complete list.",
+      "r": "Unlike the integers, they form a continuum with no gaps. For 10 points, name these numbers, which include every fraction and every irrational number, such as pi."
+    }
+  ],
+  "clues": [
+    {
+      "id": "number-line",
+      "tier": "giveaway",
+      "t": "All the numbers on the number line, filling it with no gaps: −3, 0, ¾, √2, and π are all examples",
+      "k": [
+        "number line",
+        "no gaps",
+        "examples"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rational-irrational",
+      "tier": "giveaway",
+      "t": "Made up of the rational numbers (fractions) together with the irrational numbers, like √2 and π",
+      "k": [
+        "rational numbers",
+        "irrational numbers",
+        "fractions"
+      ],
+      "n": 0,
+      "rabbit": "Rational numbers"
+    },
+    {
+      "id": "symbol",
+      "tier": "giveaway",
+      "t": "Written with a double-struck capital R (ℝ)",
+      "k": [
+        "double-struck",
+        "capital r"
+      ],
+      "n": 0
+    },
+    {
+      "id": "decimals",
+      "tier": "giveaway",
+      "t": "Every one can be written as a decimal: decimals that end or repeat are rational, and ones that never end or repeat are irrational",
+      "k": [
+        "decimal",
+        "never end",
+        "repeat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "diagonal-argument",
+      "tier": "middle",
+      "t": "Uncountable: they can never be listed one by one, as Georg Cantor proved in 1874 and again with his diagonal argument (1891)",
+      "k": [
+        "uncountable",
+        "diagonal argument",
+        "cantor",
+        "1891"
+      ],
+      "n": 0,
+      "rabbit": "Georg Cantor"
+    },
+    {
+      "id": "complex-axis",
+      "tier": "middle",
+      "t": "They are the complex numbers a + bi with b = 0, which form the horizontal axis of the complex plane",
+      "k": [
+        "complex numbers",
+        "horizontal axis",
+        "complex plane"
+      ],
+      "n": 0,
+      "rabbit": "Complex numbers"
+    },
+    {
+      "id": "continuum-hypothesis",
+      "tier": "middle",
+      "t": "Continuum hypothesis (Hilbert’s first problem): no size of infinity lies between the counting numbers and these; Gödel (1940) and Cohen (1963) showed the usual axioms can’t settle it",
+      "k": [
+        "continuum hypothesis",
+        "gödel",
+        "cohen"
+      ],
+      "n": 0,
+      "rabbit": "Set theory"
+    },
+    {
+      "id": "ordered",
+      "tier": "middle",
+      "t": "They can be put in order from least to greatest in a way that works with addition and multiplication, unlike the complex numbers",
+      "k": [
+        "in order",
+        "least to greatest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "squares",
+      "tier": "middle",
+      "t": "The square of any one is never negative, so x² = −1 has no solution among them; the quadratic formula gives none when the discriminant is negative",
+      "k": [
+        "never negative",
+        "discriminant",
+        "quadratic formula"
+      ],
+      "n": 0,
+      "rabbit": "Polynomials"
+    },
+    {
+      "id": "dense",
+      "tier": "middle",
+      "t": "Between any two of them lie both a fraction and an irrational number, so none of them has a “next” one",
+      "k": [
+        "between any two",
+        "next"
+      ],
+      "n": 0
+    },
+    {
+      "id": "descartes",
+      "tier": "middle",
+      "t": "René Descartes introduced their name in 1637 to tell such roots of equations apart from “imaginary” ones",
+      "k": [
+        "descartes",
+        "1637",
+        "imaginary"
+      ],
+      "n": 0,
+      "rabbit": "René Descartes"
+    },
+    {
+      "id": "point-nine",
+      "tier": "middle",
+      "t": "Some have two decimal forms: 0.999… repeating equals exactly 1, and 0.4999… equals one-half",
+      "k": [
+        "0.999",
+        "repeating",
+        "decimal forms"
+      ],
+      "n": 0,
+      "rabbit": "The number one"
+    },
+    {
+      "id": "odd-degree",
+      "tier": "middle",
+      "t": "Every odd-degree polynomial with coefficients of this kind has at least one root of this kind; its other roots come in conjugate pairs",
+      "k": [
+        "odd-degree",
+        "conjugate pairs",
+        "polynomial"
+      ],
+      "n": 0
+    },
+    {
+      "id": "transcendental",
+      "tier": "middle",
+      "t": "e (Charles Hermite, 1873) and π (Ferdinand von Lindemann, 1882) are transcendental members; most members are transcendental",
+      "k": [
+        "transcendental",
+        "hermite",
+        "lindemann",
+        "1882"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "dedekind-cuts",
+      "tier": "power",
+      "t": "Richard Dedekind defined them in 1872 as “cuts” that split the rational numbers into a lower set and an upper set",
+      "k": [
+        "dedekind",
+        "cuts",
+        "1872"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eudoxus",
+      "tier": "power",
+      "t": "Eudoxus’s theory of proportion, in Book V of Euclid’s _Elements_, is often seen as an ancient forerunner of Dedekind’s cuts",
+      "k": [
+        "eudoxus",
+        "book v",
+        "proportion"
+      ],
+      "n": 0,
+      "rabbit": "Euclid"
+    },
+    {
+      "id": "cantor-sequences",
+      "tier": "power",
+      "t": "Georg Cantor also built them, in 1872, from sequences of fractions whose terms get closer and closer together",
+      "k": [
+        "sequences",
+        "closer and closer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "completeness",
+      "tier": "power",
+      "t": "Completeness: every nonempty set of them with an upper bound has a least upper bound, which the fractions lack (√2 leaves a gap); this makes them the only complete ordered field",
+      "k": [
+        "completeness",
+        "least upper bound",
+        "complete ordered field"
+      ],
+      "n": 0
+    },
+    {
+      "id": "algebraic-countable",
+      "tier": "power",
+      "t": "Cantor’s 1874 paper showed the algebraic numbers can be listed but these cannot, so transcendental numbers must exist",
+      "k": [
+        "algebraic numbers",
+        "1874",
+        "listed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "square-line",
+      "tier": "power",
+      "t": "Cantor proved (1877) that a square has no more points than a line segment, and wrote to Dedekind, “I see it, but I don’t believe it!”",
+      "k": [
+        "1877",
+        "line segment",
+        "i see it"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archimedean",
+      "tier": "power",
+      "t": "Archimedean property: some counting number is bigger than any one of them",
+      "k": [
+        "archimedean",
+        "counting number"
+      ],
+      "n": 0
+    },
+    {
+      "id": "floating-point",
+      "tier": "power",
+      "t": "Computers store approximations of them in floating-point format (IEEE standard, 1985), so 0.1 + 0.2 often comes out as 0.30000000000000004",
+      "k": [
+        "floating-point",
+        "ieee",
+        "1985"
+      ],
+      "n": 0
+    },
+    {
+      "id": "interval",
+      "tier": "power",
+      "t": "Even the interval from 0 to 1 holds uncountably many of them, as many as the whole line; they form a continuum with no gaps",
+      "k": [
+        "interval",
+        "uncountably",
+        "continuum"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Real, rational, or complex?",
+    "body": "These numbers sit in the middle of a set of nested answer lines: the integers sit inside the rational numbers (fractions), which sit inside the real numbers, which sit inside the complex numbers. Irrational numbers like √2 and π are real but not rational. A tossup about √2 leaving a “gap” among the fractions may want rational numbers or real numbers, depending on what it asks for.",
+    "fix": "If the clues cover the whole number line, both fractions and irrational numbers, the symbol ℝ, Dedekind cuts, or Cantor’s proof that they can’t be listed, say “real numbers.” If every clue is about fractions p/q, say rational numbers; if the clues add i or a + bi, say complex numbers.",
+    "line": "Real answer line: <b><u>real number</u></b>s (accept <u>reals</u>; prompt on <u>R</u> or <u>number line</u>; do not accept “rational numbers” or “complex numbers”)"
+  }
+}
