@@ -95,7 +95,7 @@ data = {
             "r": "Gelatin is rich in it, since every third amino acid in collagen is this one. For 10 points, name this simplest amino acid."
         },
         {
-            "p": "The first step in building heme, the iron-holding part of hemoglobin, joins this amino acid to succinyl-CoA [“SUK-sih-nil koh-AY”] to make a compound called ALA. Every atom of this amino acid also ends up in the rings of the purine bases adenine and guanine.",
+            "p": "The first step in building heme, the iron-holding part of hemoglobin, joins this amino acid to succinyl-CoA [“SUK-sih-nil koh-AY”] to make a compound called ALA. Its carbon and nitrogen atoms are also built into the rings of the purine bases adenine and guanine.",
             "r": "It is the only standard amino acid that has no chiral carbon. For 10 points, name this simplest amino acid."
         },
         {
@@ -244,7 +244,7 @@ data = {
         {
             "id": "heme-purines",
             "tier": "power",
-            "t": "Heme building starts by joining it to succinyl-CoA to make ALA; all of its atoms end up in purine rings",
+            "t": "Heme building starts by joining it to succinyl-CoA to make ALA; its carbons and nitrogen are built into purine rings",
             "k": ["heme", "succinyl-coa", "purine"],
             "n": 0
         },

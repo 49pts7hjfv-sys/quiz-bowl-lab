@@ -89,8 +89,8 @@ data = {
             "r": "For 10 points, name this theory that the universe began about 13.8 billion years ago.",
         },
         {
-            "p": "This theory got a huge boost in 1964, when Arno Penzias and Robert Wilson accidentally detected a faint microwave glow coming from every direction in the sky. That glow, released about 380,000 years after this event, is its leftover afterglow.",
-            "r": "For 10 points, name this event that began the universe, named by Fred Hoyle in 1949.",
+            "p": "Robert Dicke’s team at Princeton was building an instrument to search for radiation left over from this event when they learned that two Bell Labs scientists had already found it by accident. That faint glow was released about 380,000 years after this event.",
+            "r": "Arno Penzias and Robert Wilson discovered it in 1964. For 10 points, name this event that began the universe, named by Fred Hoyle.",
         },
         {
             "p": "Physicists call the first tiny sliver of time after this event, up to about 10 to the minus 43rd seconds, the Planck epoch. For the first several microseconds after this event, the universe was filled with a hot soup of quarks and gluons.",
