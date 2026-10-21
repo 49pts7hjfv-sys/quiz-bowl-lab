@@ -95,7 +95,7 @@
   },
   "tossups": [
     {
-      "p": "A federal appeals court judge, Shirley Hufstedler [“HUFF-sted-ler”], became the first person to lead this executive department in December 1979. She served until early 1981, when Terrel Bell, Ronald Reagan’s choice for the job, took over.",
+      "p": "A federal appeals court judge, Shirley Hufstedler [“HUFF-sted-ler”], became the first person to lead this executive department. She served until early 1981, when Terrel Bell, Ronald Reagan’s choice for the job, took over.",
       "r": "For 10 points, name this Cabinet department, created under Jimmy Carter, that oversees federal school programs and student aid."
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "p": "This department runs grants named for Senator Claiborne Pell of Rhode Island, which help students from low-income families pay for college. To apply for that aid, students fill out a form called the FAFSA, short for Free Application for Federal Student Aid.",
-      "r": "For 10 points, name this Cabinet department created under Jimmy Carter."
+      "r": "For 10 points, name this Cabinet department, created under Jimmy Carter, that oversees federal school programs."
     },
     {
       "p": "This department was carved out of a larger department created in 1953, whose first secretary, Oveta Culp Hobby, was only the second woman ever to serve in a president’s Cabinet. The rest of that older department was renamed Health and Human Services.",
@@ -120,7 +120,7 @@
     },
     {
       "p": "Lauro Cavazos [“kuh-VAH-sohs”], who took charge of this department in 1988, was the first Hispanic American to serve in a president’s Cabinet. In 2001, Rod Paige, a former Houston schools superintendent, became the first African American to lead this department.",
-      "r": "For 10 points, name this Cabinet department, created by Jimmy Carter."
+      "r": "For 10 points, name this Cabinet department, created by Jimmy Carter, that runs federal student aid."
     },
     {
       "p": "In 2002, George W. Bush signed No Child Left Behind, which required states to test students every year in reading and math, and this department enforced it. In 2015, Barack Obama replaced that law with the Every Student Succeeds Act, which gave states more control.",
@@ -132,15 +132,15 @@
     },
     {
       "p": "This department runs Title I, which sends money to schools serving many children from low-income families. That program began with a 1965 law that Lyndon Johnson signed outside the one-room schoolhouse in Texas where he had started school as a boy.",
-      "r": "For 10 points, name this Cabinet department created under Jimmy Carter."
+      "r": "For 10 points, name this Cabinet department, created under Jimmy Carter, that also runs federal student aid."
     },
     {
-      "p": "In 2017, Vice President Mike Pence cast the first tie-breaking vote ever needed to confirm a Cabinet secretary, making Betsy DeVos the head of this department. DeVos held that job until January 2021.",
+      "p": "In 2017, Vice President Mike Pence cast the first tie-breaking vote ever needed to confirm a Cabinet secretary, making Betsy DeVos the head of this department. DeVos, a businesswoman from Michigan, held that job until January 2021.",
       "r": "For 10 points, name this Cabinet department, created in 1979, whose first leader was Shirley Hufstedler."
     },
     {
-      "p": "The nation’s largest teachers’ union endorsed a presidential candidate for the first time in 1976, partly because he promised to create this department. Congress approved the law creating it in 1979 after close votes in the House of Representatives.",
-      "r": "That candidate was Jimmy Carter. For 10 points, name this department, which opened in 1980."
+      "p": "The nation’s largest teachers’ union endorsed a presidential candidate for the first time in 1976, partly because he promised to create this department. The bill creating it later passed the House of Representatives by a narrow margin.",
+      "r": "That candidate, Jimmy Carter, signed the bill in 1979. For 10 points, name this department, which opened in 1980."
     },
     {
       "p": "Arne Duncan, who had run Chicago’s public schools, led this department under Barack Obama. Duncan ran Race to the Top, a contest in which states competed for billions of dollars in grants by promising to change their schools.",
@@ -203,10 +203,10 @@
     {
       "id": "hew",
       "tier": "middle",
-      "t": "Split off from the Department of Health, Education, and Welfare (created 1953); the rest became Health and Human Services",
+      "t": "Split off from an older department called HEW (created 1953); the rest of HEW became Health and Human Services",
       "k": [
         "health and human services",
-        "welfare",
+        "hew",
         "1953"
       ],
       "n": 0
@@ -289,7 +289,7 @@
     {
       "id": "hobby",
       "tier": "power",
-      "t": "Oveta Culp Hobby, the first secretary of Health, Education, and Welfare (1953), was the second woman in a president’s Cabinet",
+      "t": "Oveta Culp Hobby, the first head of HEW (1953), was the second woman in a president’s Cabinet",
       "k": [
         "oveta culp hobby",
         "hobby",

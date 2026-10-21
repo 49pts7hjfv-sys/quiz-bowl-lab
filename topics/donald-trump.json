@@ -1,0 +1,484 @@
+{
+  "id": "donald-trump",
+  "name": "Donald Trump",
+  "mono": "DJT",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "45th and 47th U.S. President · Second to serve non-consecutive terms",
+  "dates": "Born 1946; president 2017–2021 and from 2025",
+  "briefing": "Donald Trump grew up in Queens, New York, joined his father’s real-estate business, and became famous for his Manhattan skyscrapers, his book _The Art of the Deal_, and the TV show _The Apprentice_. In 2016, without ever having held public office, he defeated Hillary Clinton to become the 45th president. He lost to Joe Biden in 2020, beat Kamala Harris in 2024, and in January 2025 became the 47th president, only the second to serve two non-consecutive terms.",
+  "answerHtml": "<b><u>Donald Trump</u></b> (or <b><u>Donald</u></b> John <b><u>Trump</u></b>; prompt on <u>Trump</u> alone; do not accept “Donald Trump Jr.” or “Ivanka Trump”)",
+  "accept": [
+    "donald trump",
+    "donald j trump",
+    "donald john trump",
+    "president trump",
+    "president donald trump",
+    "president donald j trump"
+  ],
+  "prompt": [
+    "trump",
+    "mr trump"
+  ],
+  "reject": [
+    "donald trump jr",
+    "donald trump junior",
+    "donald j trump jr",
+    "donald john trump jr",
+    "donald jr",
+    "don jr",
+    "trump jr",
+    "ivanka trump",
+    "ivanka",
+    "eric trump",
+    "tiffany trump",
+    "barron trump",
+    "melania trump",
+    "melania",
+    "ivana trump",
+    "ivana",
+    "marla maples",
+    "fred trump",
+    "frederick trump",
+    "mary anne macleod",
+    "trump tower",
+    "trump organization",
+    "the apprentice",
+    "mike pence",
+    "pence",
+    "jd vance",
+    "j d vance",
+    "vance",
+    "hillary clinton",
+    "bill clinton",
+    "joe biden",
+    "biden",
+    "kamala harris",
+    "harris",
+    "grover cleveland",
+    "cleveland",
+    "barack obama",
+    "obama",
+    "george w bush",
+    "ronald reagan",
+    "ted cruz",
+    "marco rubio",
+    "kim jong un"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Donald_Trump",
+  "qb": {
+    "q": "Trump",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This man was sent to the New York Military Academy at age 13, and he later transferred from Fordham University to the University of Pennsylvania’s Wharton School, graduating in 1968. He then went to work for his father, Fred, whose company built apartment buildings in Queens and Brooklyn.",
+      "r": "For 10 points, name this businessman who became the 45th and 47th president of the United States."
+    },
+    {
+      "p": "This man makes a brief appearance in the 1992 movie _Home Alone 2: Lost in New York_, telling Kevin McCallister how to find the lobby of the Plaza Hotel, which this man owned at the time.",
+      "r": "From 2004 to 2015, he hosted the TV show _The Apprentice_. For 10 points, name this businessman who won the 2016 presidential election."
+    },
+    {
+      "p": "In September 2020, this president hosted a White House ceremony at which Israel signed the Abraham Accords, agreements to set up normal diplomatic relations with the United Arab Emirates and Bahrain. Two years earlier, his administration moved the U.S. embassy in Israel from Tel Aviv to Jerusalem.",
+      "r": "He lost the 2020 election to Joe Biden. For 10 points, name this president, who returned to the White House in 2025."
+    },
+    {
+      "p": "In June 2018, this president met Kim Jong Un in Singapore, the first meeting between a sitting U.S. president and a leader of North Korea. The next year, at the Korean Demilitarized Zone, he became the first sitting president to step into North Korea.",
+      "r": "For 10 points, name this president whose vice president from 2017 to 2021 was Mike Pence."
+    },
+    {
+      "p": "At a 2018 summit in Buenos Aires, this president signed a trade deal with the leaders of Canada and Mexico that replaced NAFTA in July 2020. A year earlier, he signed the Tax Cuts and Jobs Act, which lowered the corporate income tax rate from 35 percent to 21 percent.",
+      "r": "That trade deal is the USMCA. For 10 points, name this Republican who served as the 45th president."
+    },
+    {
+      "p": "This president filled the Supreme Court seat left open by Antonin Scalia’s death by appointing Neil Gorsuch in 2017. He later appointed Brett Kavanaugh to replace Anthony Kennedy and, shortly before the 2020 election, Amy Coney Barrett to replace Ruth Bader Ginsburg.",
+      "r": "All three joined the Court during his first term. For 10 points, name this 45th and 47th president."
+    },
+    {
+      "p": "Chief Justice John Roberts presided over this president’s first Senate trial, and Senator Patrick Leahy presided over his second, which took place after he had left office. The House had charged him with abuse of power and obstruction of Congress in 2019 and with incitement of insurrection in 2021.",
+      "r": "The Senate acquitted him both times. For 10 points, name this president, the first to be impeached twice."
+    },
+    {
+      "p": "This man wrote the 1987 best seller _The Art of the Deal_ with the journalist Tony Schwartz. The next year, he bought New York’s Plaza Hotel, and in 1989 he bought an East Coast airline shuttle and renamed it after himself.",
+      "r": "His Fifth Avenue skyscraper, which bears his name, had opened in 1983. For 10 points, name this real-estate developer who became the 45th president."
+    },
+    {
+      "p": "Because of extreme cold, this man’s January 2025 inauguration was moved indoors to the Capitol Rotunda, the first inauguration held inside since Ronald Reagan’s in 1985. At age 78, he became the oldest person ever sworn in as president.",
+      "r": "That day, he became the 47th president. For 10 points, name this man who, like Grover Cleveland, served two non-consecutive terms."
+    },
+    {
+      "p": "This candidate accepted his party’s 2024 presidential nomination at its national convention in Milwaukee, where delegates also nominated Ohio senator JD Vance as his running mate. That November, he won 312 electoral votes, carrying all seven of the closely watched swing states.",
+      "r": "That July, he had survived an assassination attempt at a rally near Butler, Pennsylvania. For 10 points, name this Republican who defeated Kamala Harris."
+    },
+    {
+      "p": "In December 2019, this president signed a law creating the U.S. Space Force, the first new branch of the armed forces since the Air Force in 1947. In 2020, his administration launched Operation Warp Speed to hurry the development of vaccines against COVID-19.",
+      "r": "For 10 points, name this president who lost his 2020 reelection race to Joe Biden."
+    },
+    {
+      "p": "A partial government shutdown beginning in December 2018, during a dispute between this president and Congress over money for a wall on the Mexican border, lasted a record 35 days. Earlier, he had announced that the United States would leave the Paris climate agreement and the Iran nuclear deal.",
+      "r": "He had defeated Democrat Hillary Clinton in the 2016 election. For 10 points, name this 45th president."
+    },
+    {
+      "p": "This man’s mother, Mary Anne MacLeod, was born on the Scottish island of Lewis, and his first wife, Ivana, was born in Czechoslovakia. His third wife, Melania, was born in Slovenia and became only the second First Lady born outside the United States.",
+      "r": "For 10 points, name this New York businessman who hosted _The Apprentice_ before becoming president."
+    },
+    {
+      "p": "This candidate announced his 2016 presidential campaign in June 2015 after riding an escalator down into the lobby of his Fifth Avenue skyscraper. He then beat Ted Cruz, Marco Rubio, and more than a dozen other Republicans in the primaries.",
+      "r": "His slogan was “Make America Great Again.” For 10 points, name this man who won the 2016 election in the Electoral College while losing the popular vote to Hillary Clinton."
+    },
+    {
+      "p": "When he took office in 2017, this man became the first U.S. president who had never held a government office or served in the military. He often spent winter weekends at Mar-a-Lago, an estate in Palm Beach, Florida, that he had bought in 1985.",
+      "r": "For 10 points, name this president who returned to the White House for a second, non-consecutive term in 2025."
+    }
+  ],
+  "clues": [
+    {
+      "id": "forty-fifth",
+      "tier": "giveaway",
+      "t": "45th President (2017–2021) and 47th President (inaugurated January 20, 2025)",
+      "k": [
+        "45th president",
+        "47th",
+        "2017",
+        "2025"
+      ],
+      "n": 0
+    },
+    {
+      "id": "non-consecutive",
+      "tier": "giveaway",
+      "t": "Second president to serve two non-consecutive terms, after Grover Cleveland",
+      "k": [
+        "non-consecutive",
+        "grover cleveland",
+        "cleveland"
+      ],
+      "n": 0,
+      "rabbit": "Grover Cleveland"
+    },
+    {
+      "id": "elections",
+      "tier": "giveaway",
+      "t": "Beat Hillary Clinton (2016), lost to Joe Biden (2020), and beat Kamala Harris (2024)",
+      "k": [
+        "hillary clinton",
+        "joe biden",
+        "kamala harris",
+        "2016"
+      ],
+      "n": 0,
+      "rabbit": "Hillary Clinton"
+    },
+    {
+      "id": "apprentice",
+      "tier": "giveaway",
+      "t": "Hosted the NBC reality show _The Apprentice_ (2004–2015), famous for the line “You’re fired!”",
+      "k": [
+        "the apprentice",
+        "apprentice",
+        "you’re fired",
+        "reality show"
+      ],
+      "n": 0
+    },
+    {
+      "id": "electoral-2016",
+      "tier": "middle",
+      "t": "Won the 2016 election in the Electoral College (304–227) while losing the national popular vote",
+      "k": [
+        "electoral college",
+        "popular vote",
+        "304"
+      ],
+      "n": 0,
+      "rabbit": "Electoral College"
+    },
+    {
+      "id": "impeached",
+      "tier": "middle",
+      "t": "Impeached by the House in 2019 and 2021, the first president impeached twice; the Senate acquitted him both times",
+      "k": [
+        "impeached",
+        "acquitted",
+        "twice"
+      ],
+      "n": 0,
+      "rabbit": "Impeachment"
+    },
+    {
+      "id": "justices",
+      "tier": "middle",
+      "t": "Appointed Supreme Court justices Neil Gorsuch (2017), Brett Kavanaugh (2018), and Amy Coney Barrett (2020)",
+      "k": [
+        "gorsuch",
+        "kavanaugh",
+        "barrett"
+      ],
+      "n": 0,
+      "rabbit": "U.S. Supreme Court"
+    },
+    {
+      "id": "real-estate",
+      "tier": "middle",
+      "t": "New York real-estate developer; his skyscraper bearing his name opened on Fifth Avenue in 1983",
+      "k": [
+        "real-estate",
+        "fifth avenue",
+        "skyscraper",
+        "1983"
+      ],
+      "n": 0
+    },
+    {
+      "id": "art-of-the-deal",
+      "tier": "middle",
+      "t": "Wrote the 1987 best seller _The Art of the Deal_ with journalist Tony Schwartz",
+      "k": [
+        "art of the deal",
+        "tony schwartz",
+        "1987"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vice-presidents",
+      "tier": "middle",
+      "t": "Vice presidents: Mike Pence (2017–2021) and JD Vance (from 2025)",
+      "k": [
+        "mike pence",
+        "pence",
+        "vance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "butler",
+      "tier": "middle",
+      "t": "Survived an assassination attempt at a campaign rally near Butler, Pennsylvania (July 13, 2024)",
+      "k": [
+        "butler",
+        "pennsylvania",
+        "july 13"
+      ],
+      "n": 0
+    },
+    {
+      "id": "slogan",
+      "tier": "middle",
+      "t": "Campaign slogan: “Make America Great Again”",
+      "k": [
+        "make america great again",
+        "great again",
+        "slogan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "usmca",
+      "tier": "power",
+      "t": "Signed the USMCA with Canada and Mexico in Buenos Aires (2018); it replaced NAFTA in July 2020",
+      "k": [
+        "usmca",
+        "nafta",
+        "buenos aires"
+      ],
+      "n": 0,
+      "rabbit": "NAFTA"
+    },
+    {
+      "id": "tax-cuts",
+      "tier": "power",
+      "t": "Signed the Tax Cuts and Jobs Act (2017), which cut the corporate tax rate from 35 percent to 21 percent",
+      "k": [
+        "tax cuts and jobs act",
+        "corporate",
+        "21 percent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abraham-accords",
+      "tier": "power",
+      "t": "Abraham Accords (2020): Israel agreed to normal relations with the United Arab Emirates and Bahrain; the U.S. embassy moved to Jerusalem (2018)",
+      "k": [
+        "abraham accords",
+        "jerusalem",
+        "bahrain",
+        "emirates"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kim-jong-un",
+      "tier": "power",
+      "t": "Met Kim Jong Un in Singapore (2018); first sitting president to step into North Korea (2019)",
+      "k": [
+        "kim jong un",
+        "singapore",
+        "north korea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "home-alone",
+      "tier": "power",
+      "t": "Cameo in _Home Alone 2: Lost in New York_ (1992) at the Plaza Hotel, which he owned",
+      "k": [
+        "home alone",
+        "plaza hotel",
+        "plaza"
+      ],
+      "n": 0
+    },
+    {
+      "id": "queens-wharton",
+      "tier": "power",
+      "t": "Born in Queens (1946); went to the New York Military Academy and the Wharton School (1968); joined father Fred’s apartment-building company",
+      "k": [
+        "queens",
+        "wharton",
+        "military academy",
+        "fred"
+      ],
+      "n": 0
+    },
+    {
+      "id": "space-force",
+      "tier": "power",
+      "t": "Signed the law creating the U.S. Space Force (2019); launched Operation Warp Speed to speed up COVID-19 vaccines (2020)",
+      "k": [
+        "space force",
+        "warp speed",
+        "vaccines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shutdown",
+      "tier": "power",
+      "t": "A record 35-day partial government shutdown (December 2018 to January 2019) over money for a border wall",
+      "k": [
+        "shutdown",
+        "35-day",
+        "border wall"
+      ],
+      "n": 0
+    },
+    {
+      "id": "paris-iran",
+      "tier": "power",
+      "t": "Announced the U.S. would leave the Paris climate agreement (2017) and the Iran nuclear deal (2018)",
+      "k": [
+        "paris",
+        "iran",
+        "climate agreement"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trial-presiders",
+      "tier": "power",
+      "t": "Chief Justice John Roberts presided over his first Senate trial (2020); Senator Patrick Leahy presided over the second (2021)",
+      "k": [
+        "john roberts",
+        "patrick leahy",
+        "leahy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rotunda",
+      "tier": "power",
+      "t": "His 2025 inauguration moved indoors to the Capitol Rotunda (the first since 1985); at 78, the oldest president ever sworn in",
+      "k": [
+        "rotunda",
+        "indoors",
+        "oldest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "family",
+      "tier": "power",
+      "t": "Mother Mary Anne MacLeod came from Scotland’s Isle of Lewis; wife Melania, born in Slovenia, was the second foreign-born First Lady",
+      "k": [
+        "macleod",
+        "lewis",
+        "melania",
+        "slovenia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-no-office",
+      "tier": "power",
+      "t": "First president who had never held government office or served in the military; bought Mar-a-Lago in Palm Beach, Florida (1985)",
+      "k": [
+        "government office",
+        "mar-a-lago",
+        "palm beach"
+      ],
+      "n": 0
+    },
+    {
+      "id": "milwaukee",
+      "tier": "power",
+      "t": "Accepted the 2024 nomination in Milwaukee; won 312 electoral votes, including all seven swing states",
+      "k": [
+        "milwaukee",
+        "swing states",
+        "312"
+      ],
+      "n": 0
+    },
+    {
+      "id": "escalator",
+      "tier": "power",
+      "t": "Announced his campaign in June 2015 after riding an escalator into his tower’s lobby; beat Ted Cruz and Marco Rubio in the 2016 primaries",
+      "k": [
+        "escalator",
+        "ted cruz",
+        "marco rubio"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Cleveland or Trump?",
+    "body": "Grover Cleveland was the first president to serve two non-consecutive terms (as the 22nd and 24th president), and in January 2025 Donald Trump became the second, as the 45th and 47th. So “non-consecutive terms” alone no longer points to one man, and an early buzz on it can go wrong. Saying only “Trump” earns a prompt, and family members such as Donald Trump Jr. and Ivanka Trump are not accepted.",
+    "fix": "Cleveland clues: the 1880s and 1890s, Benjamin Harrison, the Pullman Strike, and the Panic of 1893. Trump clues: _The Apprentice_, Hillary Clinton, Joe Biden, Kamala Harris, Mike Pence, and JD Vance. Say the full name, “Donald Trump.”",
+    "line": "Real answer line: <b><u>Donald Trump</u></b> (or <b><u>Donald</u></b> John <b><u>Trump</u></b>; prompt on <u>Trump</u> alone; do not accept “Donald Trump Jr.” or “Ivanka Trump”)"
+  },
+  "tests": {
+    "right": [
+      "Donald Trump",
+      "Donald J. Trump",
+      "Donald John Trump",
+      "President Trump",
+      "Donald Trupm",
+      "President Donald Trump"
+    ],
+    "prompt": [
+      "Trump",
+      "Mr. Trump"
+    ],
+    "wrong": [
+      "Donald Trump Jr.",
+      "Ivanka Trump",
+      "Melania Trump",
+      "Fred Trump",
+      "Mike Pence",
+      "Joe Biden",
+      "Grover Cleveland",
+      "Hillary Clinton"
+    ]
+  }
+}

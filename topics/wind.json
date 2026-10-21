@@ -1,0 +1,500 @@
+{
+  "id": "wind",
+  "name": "Wind",
+  "mono": "WND",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Air moving from high to low pressure · Measured with anemometers",
+  "dates": "Beaufort scale created in 1805",
+  "briefing": "Wind is air on the move, flowing from areas of high pressure toward areas of low pressure, usually because the Sun heats some places more than others. Earth’s spin bends winds sideways through the Coriolis effect, setting up belts like the steady trade winds, while fast jet streams race high overhead. Sailors judged its strength using a 13-step scale created by Francis Beaufort in 1805.",
+  "answerHtml": "<b><u>Wind</u></b> (accept <u>winds</u>, <u>moving air</u>, or <u>air currents</u>; prompt on <u>air</u>, <u>breeze</u>, or <u>gust</u>; do not accept “air pressure,” “jet stream,” “Coriolis effect,” or a single named wind such as the “trade winds”)",
+  "accept": [
+    "wind",
+    "winds",
+    "moving air",
+    "air movement",
+    "air in motion",
+    "air current",
+    "air currents",
+    "airflow",
+    "air flow",
+    "surface wind",
+    "surface winds",
+    "prevailing wind",
+    "prevailing winds",
+    "global winds"
+  ],
+  "prompt": [
+    "air",
+    "movement of air",
+    "motion of air",
+    "breeze",
+    "breezes",
+    "gust",
+    "gusts",
+    "gale",
+    "gales"
+  ],
+  "reject": [
+    "air pressure",
+    "atmospheric pressure",
+    "barometric pressure",
+    "pressure",
+    "high pressure",
+    "low pressure",
+    "pressure gradient",
+    "pressure gradient force",
+    "coriolis",
+    "coriolis effect",
+    "coriolis force",
+    "jet stream",
+    "jet streams",
+    "trade wind",
+    "trade winds",
+    "westerlies",
+    "westerly wind",
+    "westerly winds",
+    "easterlies",
+    "polar easterlies",
+    "monsoon",
+    "monsoons",
+    "sea breeze",
+    "land breeze",
+    "chinook",
+    "santa ana",
+    "mistral",
+    "solar wind",
+    "stellar wind",
+    "wind energy",
+    "wind power",
+    "wind turbine",
+    "wind turbines",
+    "wind farm",
+    "wind farms",
+    "wind shear",
+    "wind chill",
+    "wind instrument",
+    "wind instruments",
+    "ode to the west wind",
+    "gone with the wind",
+    "the wind in the willows",
+    "inherit the wind",
+    "beaufort scale",
+    "anemometer",
+    "weather vane",
+    "convection",
+    "air mass",
+    "air masses",
+    "front",
+    "weather front",
+    "tornado",
+    "tornadoes",
+    "hurricane",
+    "hurricanes",
+    "cyclone",
+    "cyclones",
+    "storm",
+    "storms",
+    "clouds",
+    "humidity",
+    "weather",
+    "climate"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Wind",
+  "qb": {
+    "q": "wind",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Leon Battista Alberti described the first known device for measuring this phenomenon around 1450, and in 1846 Thomas Romney Robinson invented a version that uses spinning cups. Those instruments, called anemometers from a Greek word for this phenomenon, measure its speed.",
+      "r": "Vanes point into it to show which way it blows. For 10 points, name this movement of air from high to low pressure."
+    },
+    {
+      "p": "Robert FitzRoy made one of the first official uses of a 13-level scale for this phenomenon while commanding HMS _Beagle_, and the Royal Navy required it in ship logs from 1838. That scale, created in 1805, originally described its strength by how much sail a warship could carry.",
+      "r": "That scale is named for Francis Beaufort and runs from calm at 0 to hurricane force at 12. For 10 points, name this movement of air."
+    },
+    {
+      "p": "In 1943, a warm, dry chinook [“shih-NOOK”] raised the temperature in Spearfish, South Dakota, by 49 degrees Fahrenheit in just two minutes. Nicknamed “snow eaters,” chinooks are examples of this phenomenon that warm up as they sweep down the eastern slopes of the Rocky Mountains.",
+      "r": "The Santa Ana and the mistral are other local examples. For 10 points, name this movement of air from areas of high pressure to areas of low pressure."
+    },
+    {
+      "p": "Douglas Mawson’s expedition at Antarctica’s Commonwealth Bay faced such fierce examples of this phenomenon that he titled his book about the trip _The Home of the Blizzard_. Those katabatic [“kat-uh-BAT-ik”] flows form when cold, dense air rushes downhill off the ice sheet.",
+      "r": "Its speed is measured with an anemometer. For 10 points, name this movement of air, which flows from high to low pressure."
+    },
+    {
+      "p": "In 1934, observers on New Hampshire’s Mount Washington measured a gust of this phenomenon at 231 miles per hour, a record that stood for more than 60 years. A 1996 gust on Australia’s Barrow Island during Cyclone Olivia later beat that record.",
+      "r": "Its strength is often ranked on the Beaufort scale. For 10 points, name this movement of air caused by differences in air pressure."
+    },
+    {
+      "p": "Buys Ballot’s law says that if you stand with your back to this phenomenon in the Northern Hemisphere, low pressure will be on your left. High above the ground, geostrophic examples of it blow parallel to the isobars on a weather map.",
+      "r": "Closely spaced isobars mean that it is strong. For 10 points, name this movement of air, which the Coriolis effect bends to the right in the Northern Hemisphere."
+    },
+    {
+      "p": "In the 1920s, Japanese scientist Wasaburo Oishi used weather balloons to find a fast, high-altitude river of this phenomenon, publishing his results in Esperanto. Airliners flying east save time and fuel by riding those jet streams near the top of the troposphere.",
+      "r": "The steady trades are examples of it that blow toward the equator. For 10 points, name this movement of air from high to low pressure."
+    },
+    {
+      "p": "Sailors call the latitudes between 40 and 50 degrees south the “Roaring Forties” because this phenomenon blows so strongly there, with almost no land to slow it down. Farther south lie the “Furious Fifties” and “Screaming Sixties.” Those strong westerlies are one of Earth’s global belts of it.",
+      "r": "Its speed is measured by anemometers. For 10 points, name this movement of air, which flows from high pressure to low pressure."
+    },
+    {
+      "p": "In Homer’s _Odyssey_, Aeolus [“EE-oh-lus”] gives Odysseus a bag holding this phenomenon, but his crew opens it, and the escaping blasts drive the ship back out to sea. In Greek myth, Boreas, Zephyrus, Notus, and Eurus personified it from the north, west, south, and east.",
+      "r": "Sand and dust moved by this phenomenon are called aeolian deposits. For 10 points, name this movement of air."
+    },
+    {
+      "p": "Voyager 2 measured examples of this phenomenon on Neptune moving faster than 2,000 kilometers per hour, the fastest in the solar system. A six-sided jet stream of this phenomenon circles Saturn’s north pole, and on Mars it can lift dust into storms that cover the whole planet.",
+      "r": "On Earth, the Coriolis effect bends it to the right in the Northern Hemisphere. For 10 points, name this movement of air from high to low pressure."
+    },
+    {
+      "p": "In an Aesop fable, the Sun beats the north example of this phenomenon in a contest to make a traveler take off his cloak, because blowing only makes the traveler hold on tighter. Its chilling effect on bare skin makes the air feel colder than the thermometer reads.",
+      "r": "Weather vanes point to show where it is coming from. For 10 points, name this movement of air."
+    },
+    {
+      "p": "On sunny afternoons, land heats up faster than the ocean, so cooler air flows in from the water in a form of this phenomenon; at night the flow reverses. A seasonal version of the same effect brings the summer monsoon to South Asia.",
+      "r": "Those daily flows are called sea and land breezes. For 10 points, name this movement of air from high to low pressure."
+    },
+    {
+      "p": "In 1735, George Hadley explained the steady trades with a giant loop of rising and sinking air, and William Ferrel later used Earth’s spin to explain why the trades and the westerlies curve. Sailing ships could be stuck for days in the doldrums near the equator, where this phenomenon is often weak or absent.",
+      "r": "Its strength is ranked from calm to hurricane force on the Beaufort scale. For 10 points, name this movement of air."
+    },
+    {
+      "p": "Over more than two million years, this phenomenon piled up thick layers of fine, yellowish silt called loess [“LUSS”] across China’s Loess Plateau. It also carves rocks into long, streamlined ridges called yardangs, and it makes sand grains hop along the ground in a motion called saltation.",
+      "r": "It is caused by differences in air pressure. For 10 points, name this movement of air, which also builds sand dunes."
+    },
+    {
+      "p": "In 1919, Albert Betz showed that no turbine can capture more than about 59 percent of the kinetic energy carried by this phenomenon. Modern turbines turn that energy into electricity, and offshore farms of them are built at sea, where it blows more steadily.",
+      "r": "Its direction is named for where it comes from, so a westerly one blows from the west. For 10 points, name this movement of air from high to low pressure."
+    }
+  ],
+  "clues": [
+    {
+      "id": "high-to-low",
+      "tier": "giveaway",
+      "t": "Air flowing from areas of high pressure toward areas of low pressure",
+      "k": [
+        "high pressure",
+        "low pressure",
+        "flowing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "uneven-heating",
+      "tier": "giveaway",
+      "t": "Usually set in motion because the Sun heats Earth’s surface unevenly",
+      "k": [
+        "unevenly",
+        "heats",
+        "sun"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anemometer",
+      "tier": "giveaway",
+      "t": "Its speed is measured with an anemometer, and a vane shows which way it blows",
+      "k": [
+        "anemometer",
+        "vane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "named-from",
+      "tier": "giveaway",
+      "t": "Named for the direction it comes from: a westerly one blows from the west",
+      "k": [
+        "direction",
+        "comes from",
+        "westerly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beaufort",
+      "tier": "giveaway",
+      "t": "Its strength is ranked on the Beaufort scale, from 0 (calm) to 12 (hurricane force)",
+      "k": [
+        "beaufort",
+        "calm",
+        "hurricane force"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coriolis",
+      "tier": "middle",
+      "t": "The Coriolis effect bends it to the right in the Northern Hemisphere and to the left in the Southern Hemisphere",
+      "k": [
+        "coriolis",
+        "right",
+        "northern hemisphere"
+      ],
+      "n": 0,
+      "rabbit": "Coriolis effect"
+    },
+    {
+      "id": "global-belts",
+      "tier": "middle",
+      "t": "Global belts include the trade ones (blowing toward the equator), the westerlies, and the polar easterlies",
+      "k": [
+        "trade",
+        "westerlies",
+        "polar easterlies"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jet-streams",
+      "tier": "middle",
+      "t": "Jet streams are fast rivers of it near the top of the troposphere; eastbound airliners ride them to save fuel",
+      "k": [
+        "jet streams",
+        "troposphere",
+        "airliners"
+      ],
+      "n": 0,
+      "rabbit": "Troposphere"
+    },
+    {
+      "id": "sea-breeze",
+      "tier": "middle",
+      "t": "Sea breezes blow in from the water on sunny afternoons because land heats faster; land breezes blow out at night",
+      "k": [
+        "sea breezes",
+        "land breezes",
+        "afternoons"
+      ],
+      "n": 0,
+      "rabbit": "Heat capacity"
+    },
+    {
+      "id": "monsoon",
+      "tier": "middle",
+      "t": "Monsoons are seasonal reversals of it that bring South Asia its summer rains",
+      "k": [
+        "monsoons",
+        "seasonal",
+        "south asia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "local-kinds",
+      "tier": "middle",
+      "t": "Local kinds include the warm chinook (“snow eater”) east of the Rockies, California’s Santa Ana, and France’s mistral",
+      "k": [
+        "chinook",
+        "santa ana",
+        "mistral"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hadley-doldrums",
+      "tier": "middle",
+      "t": "George Hadley (1735) explained the trades with a loop of rising and sinking air; William Ferrel used Earth’s spin to explain why the belts curve; ships stalled in the calm doldrums",
+      "k": [
+        "hadley",
+        "1735",
+        "ferrel",
+        "doldrums"
+      ],
+      "n": 0
+    },
+    {
+      "id": "buys-ballot",
+      "tier": "middle",
+      "t": "Buys Ballot’s law: with your back to it in the Northern Hemisphere, low pressure is on your left; closely spaced isobars mean it is strong",
+      "k": [
+        "buys ballot",
+        "isobars",
+        "closely spaced"
+      ],
+      "n": 0
+    },
+    {
+      "id": "erosion",
+      "tier": "middle",
+      "t": "It carries silt that piles up as loess, shapes sand dunes and yardangs, and bounces sand grains along in saltation",
+      "k": [
+        "loess",
+        "yardangs",
+        "saltation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chill",
+      "tier": "middle",
+      "t": "It makes bare skin lose heat faster, so the air feels colder than the thermometer reads",
+      "k": [
+        "bare skin",
+        "colder",
+        "thermometer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alberti-robinson",
+      "tier": "power",
+      "t": "Leon Battista Alberti described the first known device to measure it (around 1450); Thomas Romney Robinson invented the cup anemometer (1846)",
+      "k": [
+        "alberti",
+        "robinson",
+        "1846",
+        "1450"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beaufort-1805",
+      "tier": "power",
+      "t": "Francis Beaufort created his scale in 1805, based on how much sail a warship could carry; Robert FitzRoy used it on HMS _Beagle_",
+      "k": [
+        "francis beaufort",
+        "1805",
+        "fitzroy",
+        "sail"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spearfish",
+      "tier": "power",
+      "t": "In 1943, a chinook raised the temperature in Spearfish, South Dakota, by 49 °F in two minutes",
+      "k": [
+        "spearfish",
+        "1943",
+        "two minutes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mawson",
+      "tier": "power",
+      "t": "Douglas Mawson’s base at Antarctica’s Commonwealth Bay had such fierce katabatic flows that he called his book _The Home of the Blizzard_",
+      "k": [
+        "mawson",
+        "katabatic",
+        "commonwealth bay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mount-washington",
+      "tier": "power",
+      "t": "Observers on New Hampshire’s Mount Washington measured a 231-mile-per-hour gust in 1934; a 1996 gust on Australia’s Barrow Island beat it",
+      "k": [
+        "mount washington",
+        "231",
+        "barrow island",
+        "1934"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oishi",
+      "tier": "power",
+      "t": "Wasaburo Oishi found the jet stream over Japan with weather balloons in the 1920s and published his results in Esperanto",
+      "k": [
+        "oishi",
+        "esperanto",
+        "1920s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "roaring-forties",
+      "tier": "power",
+      "t": "The “Roaring Forties” (40 to 50 degrees south) have strong westerlies with little land to slow them, followed by the “Furious Fifties”",
+      "k": [
+        "roaring forties",
+        "furious fifties"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aeolus",
+      "tier": "power",
+      "t": "In the _Odyssey_, Aeolus gives Odysseus a bag holding it; Boreas, Zephyrus, Notus, and Eurus personified it in Greek myth",
+      "k": [
+        "aeolus",
+        "boreas",
+        "zephyrus"
+      ],
+      "n": 0,
+      "rabbit": "Odyssey"
+    },
+    {
+      "id": "planets",
+      "tier": "power",
+      "t": "Neptune’s are the fastest in the solar system, over 2,000 km per hour; Saturn has a six-sided jet stream; Mars has planet-wide dust storms",
+      "k": [
+        "neptune",
+        "2,000",
+        "six-sided"
+      ],
+      "n": 0,
+      "rabbit": "Neptune"
+    },
+    {
+      "id": "aesop",
+      "tier": "power",
+      "t": "In an Aesop fable, the Sun beats the north one in a contest to make a traveler take off his cloak",
+      "k": [
+        "aesop",
+        "cloak",
+        "traveler"
+      ],
+      "n": 0
+    },
+    {
+      "id": "betz",
+      "tier": "power",
+      "t": "Albert Betz showed in 1919 that a turbine can capture at most about 59 percent of its kinetic energy",
+      "k": [
+        "betz",
+        "59 percent",
+        "turbine",
+        "1919"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Moving air, not pressure",
+    "body": "Wind tossups mention high and low pressure, isobars, the Coriolis effect, and jet streams, so players blurt out “air pressure,” “Coriolis effect,” or “jet stream.” Those are separate answers: pressure differences cause wind, the Coriolis effect bends it, and a jet stream is one fast band of it. Naming one particular wind, like the trade winds, is wrong when the question wants wind in general.",
+    "fix": "If the giveaway asks for the movement of air itself, measured by anemometers and ranked on the Beaufort scale, say wind. Remember that a wind is named for the direction it comes from, so a north wind blows toward the south.",
+    "line": "Real answer line: <b><u>Wind</u></b> (accept moving air; prompt on air; do not accept “air pressure” or “Coriolis effect”)"
+  },
+  "tests": {
+    "right": [
+      "Wind",
+      "winds",
+      "Moving air",
+      "Air currents",
+      "Windz"
+    ],
+    "prompt": [
+      "Air",
+      "Breeze"
+    ],
+    "wrong": [
+      "Air pressure",
+      "Jet stream",
+      "Coriolis effect",
+      "Solar wind",
+      "Trade winds",
+      "Tornado"
+    ]
+  }
+}

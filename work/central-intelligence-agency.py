@@ -1,0 +1,369 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "central-intelligence-agency",
+    "name": "Central Intelligence Agency",
+    "mono": "CIA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "U.S. foreign intelligence agency · Created by the National Security Act, 1947",
+    "dates": "Created 1947",
+    "briefing": "The Central Intelligence Agency gathers secret information about other countries to help U.S. presidents make decisions, and it sometimes carries out covert operations overseas. It was created in 1947 by the National Security Act, which Harry Truman signed, and grew out of World War II’s Office of Strategic Services. Based in Langley, Virginia, it ran the U-2 spy plane program in the 1950s and planned the failed Bay of Pigs invasion of Cuba in 1961.",
+    "answerHtml": "<b><u>Central Intelligence Agency</u></b> (accept <u>CIA</u>; prompt on <u>Langley</u> or <u>the Company</u>; do not accept “FBI” or “NSA”)",
+    "accept": [
+        "central intelligence agency",
+        "the central intelligence agency",
+        "central intelligence",
+        "cia",
+        "the cia",
+        "c i a",
+        "us central intelligence agency",
+        "united states central intelligence agency"
+    ],
+    "prompt": [
+        "the company",
+        "company",
+        "langley",
+        "langley virginia",
+        "intelligence agency"
+    ],
+    "reject": [
+        "fbi",
+        "the fbi",
+        "federal bureau of investigation",
+        "nsa",
+        "national security agency",
+        "national security council",
+        "nsc",
+        "national security act",
+        "dia",
+        "defense intelligence agency",
+        "oss",
+        "office of strategic services",
+        "central intelligence group",
+        "director of central intelligence",
+        "director of national intelligence",
+        "dni",
+        "office of the director of national intelligence",
+        "nro",
+        "national reconnaissance office",
+        "kgb",
+        "mi6",
+        "mi5",
+        "mossad",
+        "secret service",
+        "us secret service",
+        "department of homeland security",
+        "homeland security",
+        "dhs",
+        "pentagon",
+        "department of defense",
+        "state department",
+        "church committee",
+        "warren commission",
+        "bay of pigs",
+        "bay of pigs invasion",
+        "area 51"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Central_Intelligence_Agency",
+    "qb": {
+        "q": "Central Intelligence Agency",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Rear Admiral Roscoe Hillenkoetter [“HILL-en-ket-er”] served as the first director of this agency from 1947 to 1950. The same 1947 law that created this agency also created the National Security Council and made the Air Force a separate branch of the military.",
+            "r": "That law was the National Security Act, signed by Harry Truman. For 10 points, name this spy agency headquartered in Langley, Virginia."
+        },
+        {
+            "p": "William “Wild Bill” Donovan, who had won the Medal of Honor in World War I, led the World War II spy service from which this agency grew. Harry Truman broke up that wartime service, the Office of Strategic Services, in 1945.",
+            "r": "Two years later, Truman signed the law that created this agency. For 10 points, name this foreign intelligence agency based in Langley, Virginia."
+        },
+        {
+            "p": "Allen Dulles, whose brother John Foster Dulles was Secretary of State, became this agency’s longest-serving director, leading it from 1953 to 1961. John F. Kennedy forced Dulles out after a failed invasion this agency had planned.",
+            "r": "That invasion landed at Cuba’s Bay of Pigs. For 10 points, name this American spy agency."
+        },
+        {
+            "p": "In 1953, Kermit Roosevelt Jr., a grandson of Theodore Roosevelt, led this agency’s operation to help overthrow Iran’s prime minister, Mohammad Mosaddegh [“moh-sah-DEK”]. The next year, this agency backed a coup that drove Guatemala’s president, Jacobo Árbenz [“AR-bens”], from power.",
+            "r": "For 10 points, name this U.S. spy agency created in 1947 and based in Langley, Virginia."
+        },
+        {
+            "p": "Richard Bissell ran this agency’s program to build and fly a high-altitude spy plane, which began test flights in Nevada in 1955. In 1960, one of those planes was shot down over the Soviet Union, and its pilot, Francis Gary Powers, was captured.",
+            "r": "That plane was the U-2. For 10 points, name this American spy agency, which also planned the Bay of Pigs invasion."
+        },
+        {
+            "p": "In 1962, Francis Gary Powers was traded for the Soviet spy Rudolf Abel on Berlin’s Glienicke [“GLEE-nih-kuh”] Bridge, a story told in the Steven Spielberg film _Bridge of Spies_. Powers had been flying a spy plane for this agency when he was shot down.",
+            "r": "That spy plane was the U-2. For 10 points, name this American spy agency headquartered in Langley, Virginia."
+        },
+        {
+            "p": "This agency trained about 1,400 Cuban exiles of Brigade 2506 under a plan drawn up during Dwight Eisenhower’s presidency. In April 1961, those exiles landed at Playa Girón [“hee-ROHN”] and were defeated within days by Fidel Castro’s forces.",
+            "r": "That landing was the Bay of Pigs invasion. For 10 points, name this U.S. spy agency."
+        },
+        {
+            "p": "In 1975, a Senate committee led by Frank Church of Idaho investigated this agency’s secret plots to kill foreign leaders such as Fidel Castro. The next year, Gerald Ford issued an executive order banning political assassinations by U.S. government employees.",
+            "r": "For 10 points, name this spy agency created by the National Security Act of 1947."
+        },
+        {
+            "p": "After Gerald Ford dismissed William Colby as this agency’s director in 1975, Ford chose a future president to lead it in 1976 and 1977. In 1999, this agency’s headquarters was named for that man.",
+            "r": "That man was George H. W. Bush. For 10 points, name this spy agency based in Langley, Virginia."
+        },
+        {
+            "p": "Jim Sanborn’s sculpture _Kryptos_, which holds four coded messages, stands outside this agency’s headquarters, and its last message resisted solvers for decades. Inside, a Bible verse in the lobby reads, “And ye shall know the truth, and the truth shall make you free.”",
+            "r": "Stars on its Memorial Wall honor officers who died in its service. For 10 points, name this spy agency whose headquarters is in Langley, Virginia."
+        },
+        {
+            "p": "A copy of Bela Pratt’s statue of a Revolutionary War spy, whose original stands at Yale, was placed at this agency’s headquarters. A statue of William Donovan, who led this agency’s World War II forerunner, stands in its lobby.",
+            "r": "The Revolutionary War spy was Nathan Hale. For 10 points, name this American spy agency created in 1947."
+        },
+        {
+            "p": "James Jesus Angleton led this agency’s counterintelligence staff for twenty years, searching for Soviet moles inside it. Long after Angleton left, one of this agency’s officers, Aldrich Ames, was arrested in 1994 for spying for the Soviet Union and Russia.",
+            "r": "For 10 points, name this American spy agency based in Langley, Virginia, which ran the U-2 program."
+        },
+        {
+            "p": "In 1980, this agency’s officer Tony Mendez helped six American diplomats escape from Iran by disguising them as a Canadian film crew scouting locations for a fake science-fiction movie. Ben Affleck directed and starred in a 2012 film about that rescue.",
+            "r": "That film was _Argo_. For 10 points, name this American spy agency headquartered in Langley, Virginia."
+        },
+        {
+            "p": "During the Vietnam War, this agency secretly owned an airline called Air America, which flew supplies for a secret war in Laos in which Hmong [“MONG”] fighters battled communist forces. This agency is often nicknamed “the Company.”",
+            "r": "For 10 points, name this American spy agency, which has no police powers inside the United States, unlike the FBI."
+        },
+        {
+            "p": "After the 9/11 attacks, a 2004 law created a Director of National Intelligence, ending this agency’s director’s role as head of the U.S. intelligence community. This agency’s officers later tracked Osama bin Laden to Abbottabad [“AB-uh-tuh-bahd”], Pakistan.",
+            "r": "He was killed there in a 2011 raid by U.S. Navy SEALs. For 10 points, name this American spy agency based in Langley, Virginia."
+        }
+    ],
+    "clues": [
+        {
+            "id": "national-security-act",
+            "tier": "giveaway",
+            "t": "Created by the National Security Act of 1947, which Harry Truman signed",
+            "k": ["national security act", "truman", "1947"],
+            "n": 0,
+            "rabbit": "Harry S. Truman"
+        },
+        {
+            "id": "langley",
+            "tier": "giveaway",
+            "t": "Headquartered in Langley, Virginia",
+            "k": ["langley", "virginia"],
+            "n": 0
+        },
+        {
+            "id": "bay-of-pigs",
+            "tier": "giveaway",
+            "t": "Trained the Cuban exiles who failed in the Bay of Pigs invasion (April 1961)",
+            "k": ["bay of pigs", "cuban exiles", "1961"],
+            "n": 0,
+            "rabbit": "Cuba"
+        },
+        {
+            "id": "foreign-spying",
+            "tier": "giveaway",
+            "t": "U.S. agency that gathers secret information about foreign countries and carries out covert operations abroad",
+            "k": ["covert operations", "secret information", "foreign"],
+            "n": 0
+        },
+        {
+            "id": "oss",
+            "tier": "middle",
+            "t": "Grew out of World War II’s Office of Strategic Services (OSS), led by William “Wild Bill” Donovan",
+            "k": ["office of strategic services", "wild bill", "donovan", "oss"],
+            "n": 0
+        },
+        {
+            "id": "u-2",
+            "tier": "middle",
+            "t": "Ran the U-2 spy plane program; pilot Francis Gary Powers was shot down over the Soviet Union in 1960",
+            "k": ["francis gary powers", "powers", "spy plane", "1960"],
+            "n": 0,
+            "rabbit": "Area 51"
+        },
+        {
+            "id": "dulles",
+            "tier": "middle",
+            "t": "Allen Dulles, its longest-serving director (1953–1961), was forced out after the Bay of Pigs",
+            "k": ["allen dulles", "dulles", "longest-serving"],
+            "n": 0
+        },
+        {
+            "id": "church-committee",
+            "tier": "middle",
+            "t": "The Church Committee (1975), led by Senator Frank Church, investigated its plots to kill foreign leaders such as Fidel Castro",
+            "k": ["church committee", "frank church", "1975"],
+            "n": 0
+        },
+        {
+            "id": "bush",
+            "tier": "middle",
+            "t": "George H. W. Bush was its director (1976–1977); its headquarters was named for him in 1999",
+            "k": ["george h. w. bush", "bush", "1999"],
+            "n": 0
+        },
+        {
+            "id": "iran-guatemala",
+            "tier": "middle",
+            "t": "Helped overthrow Iran’s prime minister Mohammad Mosaddegh (1953) and backed the coup against Guatemala’s Jacobo Árbenz (1954)",
+            "k": ["mosaddegh", "árbenz", "1953", "1954"],
+            "n": 0
+        },
+        {
+            "id": "nathan-hale",
+            "tier": "middle",
+            "t": "A copy of Bela Pratt’s statue of Nathan Hale stands at its headquarters",
+            "k": ["nathan hale", "bela pratt", "statue"],
+            "n": 0,
+            "rabbit": "Nathan Hale"
+        },
+        {
+            "id": "the-company",
+            "tier": "middle",
+            "t": "Nicknamed “the Company”; unlike the FBI, it has no police powers inside the United States",
+            "k": ["the company", "police powers", "fbi"],
+            "n": 0,
+            "rabbit": "Federal Bureau of Investigation"
+        },
+        {
+            "id": "hillenkoetter",
+            "tier": "power",
+            "t": "Rear Admiral Roscoe Hillenkoetter was its first director (1947–1950)",
+            "k": ["hillenkoetter", "first director"],
+            "n": 0
+        },
+        {
+            "id": "kryptos",
+            "tier": "power",
+            "t": "Jim Sanborn’s sculpture _Kryptos_ (1990) at its headquarters holds four coded messages; the last resisted solvers for decades",
+            "k": ["kryptos", "jim sanborn", "coded messages"],
+            "n": 0
+        },
+        {
+            "id": "memorial-wall",
+            "tier": "power",
+            "t": "Its Memorial Wall has a star for each officer who died in its service; a lobby verse reads “the truth shall make you free”",
+            "k": ["memorial wall", "truth shall make you free", "star"],
+            "n": 0
+        },
+        {
+            "id": "abel",
+            "tier": "power",
+            "t": "Powers was traded for Soviet spy Rudolf Abel on the Glienicke Bridge in 1962 (_Bridge of Spies_, 2015)",
+            "k": ["rudolf abel", "glienicke", "bridge of spies", "1962"],
+            "n": 0
+        },
+        {
+            "id": "bissell",
+            "tier": "power",
+            "t": "Richard Bissell ran its U-2 program, first tested in Nevada in 1955, and planned the Bay of Pigs invasion",
+            "k": ["richard bissell", "bissell", "nevada"],
+            "n": 0
+        },
+        {
+            "id": "brigade-2506",
+            "tier": "power",
+            "t": "About 1,400 exiles of Brigade 2506 landed at Playa Girón; the invasion plan was drawn up under Eisenhower",
+            "k": ["brigade 2506", "playa girón", "eisenhower"],
+            "n": 0
+        },
+        {
+            "id": "argo",
+            "tier": "power",
+            "t": "Officer Tony Mendez helped six American diplomats escape Iran in 1980 by posing as a film crew (_Argo_, 2012)",
+            "k": ["tony mendez", "mendez", "argo", "film crew"],
+            "n": 0
+        },
+        {
+            "id": "angleton-ames",
+            "tier": "power",
+            "t": "James Jesus Angleton hunted Soviet moles as counterintelligence chief (1954–1974); officer Aldrich Ames was arrested as a spy in 1994",
+            "k": ["angleton", "aldrich ames", "moles", "1994"],
+            "n": 0
+        },
+        {
+            "id": "colby-ford",
+            "tier": "power",
+            "t": "Gerald Ford replaced director William Colby with Bush (1975) and banned political assassinations by executive order (1976)",
+            "k": ["william colby", "colby", "executive order"],
+            "n": 0
+        },
+        {
+            "id": "kermit-roosevelt",
+            "tier": "power",
+            "t": "Kermit Roosevelt Jr., Theodore Roosevelt’s grandson, led its 1953 operation in Iran",
+            "k": ["kermit roosevelt", "grandson"],
+            "n": 0
+        },
+        {
+            "id": "air-america",
+            "tier": "power",
+            "t": "Secretly owned the airline Air America, which flew supplies for a secret war in Laos",
+            "k": ["air america", "airline", "laos"],
+            "n": 0
+        },
+        {
+            "id": "dni",
+            "tier": "power",
+            "t": "After 9/11, a 2004 law created the Director of National Intelligence to lead the U.S. intelligence community",
+            "k": ["director of national intelligence", "2004", "9/11"],
+            "n": 0
+        },
+        {
+            "id": "bin-laden",
+            "tier": "power",
+            "t": "Its officers tracked Osama bin Laden to Abbottabad, Pakistan, where he was killed in a 2011 Navy SEAL raid",
+            "k": ["abbottabad", "bin laden", "2011"],
+            "n": 0
+        },
+        {
+            "id": "donovan-statue",
+            "tier": "power",
+            "t": "A statue of William Donovan, who won the Medal of Honor in World War I, stands in its lobby",
+            "k": ["medal of honor", "lobby", "statue"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which three letters?",
+        "body": "Several agencies get mixed up. The CIA gathers intelligence abroad and has no police powers at home; the FBI, part of the Justice Department, investigates federal crimes and spies inside the United States; and the NSA intercepts and decodes communications. The CIA’s World War II forerunner was the Office of Strategic Services (OSS), and the Soviet Union’s spy agency was the KGB.",
+        "fix": "Spying abroad, Langley, the OSS, Allen Dulles, the U-2, the Bay of Pigs, and the Church Committee mean the CIA. J. Edgar Hoover, G-men, and the Ten Most Wanted list mean the FBI. If the question asks for “this law,” the answer may be the National Security Act of 1947.",
+        "line": "Real answer line: <b><u>Central Intelligence Agency</u></b> (accept <u>CIA</u>; prompt on <u>Langley</u> or <u>the Company</u>; do not accept “FBI” or “NSA”)"
+    },
+    "tests": {
+        "right": [
+            "Central Intelligence Agency",
+            "CIA",
+            "the CIA",
+            "C.I.A.",
+            "Central Intelligence Agnecy",
+            "Central Intelligence"
+        ],
+        "prompt": [
+            "the Company",
+            "Langley"
+        ],
+        "wrong": [
+            "FBI",
+            "NSA",
+            "Federal Bureau of Investigation",
+            "National Security Agency",
+            "KGB",
+            "Office of Strategic Services",
+            "Secret Service",
+            "Defense Intelligence Agency",
+            "Director of National Intelligence"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

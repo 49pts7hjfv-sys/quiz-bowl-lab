@@ -126,7 +126,7 @@ data = {
             "r": "Those founders were Thomas Jefferson and James Madison. For 10 points, name the political party they created."
         },
         {
-            "p": "In 1816, a president from this party signed a charter for the Second Bank of the United States, even though in 1791 he had argued in Congress that it had no power to create the first national bank. That same year, this party’s Congress passed what is often called the first protective tariff.",
+            "p": "In 1816, a president from this party signed a charter for the Second Bank of the United States, even though in 1791 he had argued in the House that Congress had no power to create the first national bank. That same year, this party’s Congress passed what is often called the first protective tariff.",
             "r": "That president, James Madison, had led the country through the War of 1812. For 10 points, name the party he founded with Thomas Jefferson."
         },
         {

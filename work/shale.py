@@ -93,7 +93,7 @@ data = {
             "r": "This rock forms from mud that settles in quiet water. For 10 points, name this most common sedimentary rock."
         },
         {
-            "p": "In the late 1990s, George Mitchell’s company found a cheaper way to crack Texas’s Barnett formation of this rock with high-pressure water, sand, and chemicals, starting a boom in natural gas. Combining that method with horizontal drilling later opened up Pennsylvania’s Marcellus formation of this rock.",
+            "p": "In the late 1990s, George Mitchell’s company found a cheaper way to crack Texas’s Barnett formation of this rock with high-pressure water, sand, and chemicals, starting a drilling boom. Combining that method with horizontal drilling later opened up Pennsylvania’s Marcellus formation of this rock.",
             "r": "That process, hydraulic fracturing, is nicknamed fracking. For 10 points, name this fine-grained sedimentary rock that holds trapped natural gas."
         },
         {
@@ -105,8 +105,8 @@ data = {
             "r": "It is the most common sedimentary rock on Earth. For 10 points, name this rock made of compacted mud."
         },
         {
-            "p": "Slate made from this rock splits along a new direction called slaty cleavage, which often cuts across this rock’s original layers. With more heat and pressure, this rock can keep changing into phyllite [“FILL-ite”], then schist [“SHIST”], and finally gneiss [“NICE”].",
-            "r": "Before it changes, this rock splits easily along its own thin layers. For 10 points, name this most common sedimentary rock, made of hardened mud."
+            "p": "With rising heat and pressure, this rock changes into a series of metamorphic rocks: after the first one come phyllite [“FILL-ite”], then schist [“SHIST”], and finally gneiss [“NICE”]. In the first rock of that series, a new direction of splitting called cleavage often cuts across this rock’s original layers.",
+            "r": "That first metamorphic rock is slate, once used for roofs and chalkboards. For 10 points, name this sedimentary rock made of hardened mud, which splits into thin layers."
         },
         {
             "p": "This rock is black when it holds lots of carbon from ancient plankton and plants, and red or purple when it holds rusty iron minerals like hematite. Its dark, carbon-rich kinds are the source rocks for much of the world’s oil and natural gas.",
@@ -148,15 +148,15 @@ data = {
         {"id": "most-common", "tier": "giveaway",
          "t": "The most common sedimentary rock on Earth",
          "k": ["most common"], "n": 0, "rabbit": "Sedimentary rocks"},
-        {"id": "fissility", "tier": "giveaway",
-         "t": "Splits easily into thin, flat layers, a property called fissility",
-         "k": ["fissility", "thin", "layers"], "n": 0},
         {"id": "slate", "tier": "giveaway",
          "t": "Heat and pressure metamorphose it into slate",
          "k": ["slate", "metamorphose"], "n": 0},
         {"id": "fracking", "tier": "giveaway",
          "t": "Hydraulic fracturing (fracking) cracks it with high-pressure water and sand to free trapped natural gas and oil",
          "k": ["fracking", "hydraulic fracturing", "natural gas"], "n": 0},
+        {"id": "fissility", "tier": "middle",
+         "t": "Splits easily into thin, flat layers, a property called fissility",
+         "k": ["fissility", "thin", "layers"], "n": 0},
         {"id": "mudstone", "tier": "middle",
          "t": "Unlike mudstone, which breaks into blocky chunks, it splits along its layers",
          "k": ["mudstone", "blocky"], "n": 0},
@@ -221,7 +221,7 @@ data = {
          "t": "A mudrock: its grains are finer than about 1/16 millimeter, the silt–sand boundary on the Wentworth scale",
          "k": ["mudrock", "wentworth", "millimeter"], "n": 0},
         {"id": "slaty-cleavage", "tier": "power",
-         "t": "Slate made from it splits along slaty cleavage, which often cuts across the original layers",
+         "t": "Slate made from it splits along a new direction called slaty cleavage, which often cuts across the original layers",
          "k": ["slaty cleavage", "original layers"], "n": 0}
     ],
     "trap": {

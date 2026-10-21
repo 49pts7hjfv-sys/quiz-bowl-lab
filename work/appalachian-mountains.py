@@ -11,7 +11,7 @@ data = {
     "qbCategory": "History · American History",
     "kicker": "Ancient range of eastern North America · Boone’s frontier and a famous trail",
     "dates": "Began forming over 400 million years ago",
-    "briefing": "The Appalachian Mountains are some of the oldest mountains on Earth, rounded by hundreds of millions of years of erosion, and they stretch from Alabama to Newfoundland. The Proclamation of 1763 banned colonists from settling west of them, but pioneers like Daniel Boone soon pushed through the Cumberland Gap. Today hikers follow the Appalachian Trail from Georgia to Maine, and Mount Mitchell in North Carolina is the highest peak east of the Mississippi River.",
+    "briefing": "The Appalachian Mountains are some of the oldest mountains on Earth, rounded by hundreds of millions of years of erosion, and they stretch from Alabama to Newfoundland. The Proclamation of 1763 banned colonists from settling west of them, but pioneers like Daniel Boone soon pushed through the Cumberland Gap. Hikers can follow the Appalachian Trail all the way from Georgia to Maine, and Mount Mitchell in North Carolina is the highest peak east of the Mississippi River.",
     "answerHtml": "<b><u>Appalachian</u></b> Mountains (or <b><u>Appalachians</u></b>; prompt on <u>Appalachia</u>; do not accept smaller ranges such as the “Blue Ridge” or “Great Smoky Mountains”)",
     "accept": [
         "appalachian mountains",
@@ -78,7 +78,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "Thomas Clingman argued with a University of North Carolina professor over which peak in this range was the tallest. That professor died in a fall on the mountain in 1857 while checking his measurements, and he is buried on the summit of the peak now named for him.",
+            "p": "Thomas Clingman argued with a University of North Carolina professor over which peak in this range was the tallest. That professor died in a fall on the mountain in 1857 while checking his measurements, and he is buried on the summit of the peak later named for him.",
             "r": "That peak, Mount Mitchell, is the highest point east of the Mississippi River. For 10 points, name this mountain range of eastern North America."
         },
         {

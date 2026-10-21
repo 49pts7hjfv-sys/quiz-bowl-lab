@@ -92,7 +92,7 @@ data = {
             "r": "These rocks form from compacted and cemented layers of sediment. For 10 points, name this class of rocks that includes sandstone and shale."
         },
         {
-            "p": "In 1815, William “Strata” Smith published the first geologic map of an entire country, England and Wales, after matching up layers of these rocks across long distances by the fossils they held. His principle of faunal succession says that fossils in these rocks appear in the same order wherever they are found.",
+            "p": "In 1815, William Smith published the first geologic map of an entire country, England and Wales, after matching up layers of these rocks across long distances by the remains of ancient life they held. His principle of faunal succession says that those remains appear in the same order wherever they are found.",
             "r": "Nearly all fossils are found in these rocks. For 10 points, name this rock type that forms when layers of sediment harden."
         },
         {

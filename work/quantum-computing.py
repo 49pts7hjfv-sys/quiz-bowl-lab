@@ -125,7 +125,7 @@ data = {
             "r": "Large versions could break RSA encryption. For 10 points, name this kind of computing that uses qubits instead of ordinary bits."
         },
         {
-            "p": "In 1985, Oxford physicist David Deutsch [“DOYCH”] described a universal version of this kind of machine, and the Deutsch–Jozsa [“YOH-zhuh”] algorithm became one of the first problems it could solve in far fewer steps than an ordinary computer that must be certain of its answer. Yuri Manin [“MAH-neen”] had floated a similar idea in 1980.",
+            "p": "In 1985, Oxford physicist David Deutsch [“DOYCH”] described a universal version of this kind of machine, and the Deutsch–Jozsa [“YOH-zhuh”] algorithm solved one of the first problems that such a machine could handle in far fewer steps than an ordinary computer that must be certain of its answer. Yuri Manin [“MAH-neen”] had floated a similar idea in 1980.",
             "r": "For 10 points, name this kind of computing, which uses qubits that can be in a superposition of 0 and 1."
         },
         {

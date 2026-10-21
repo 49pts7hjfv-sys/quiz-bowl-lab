@@ -1,0 +1,358 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>Molecular orbital</u></b> theory (accept <u>MO theory</u> or <u>Hund–Mulliken</u> theory; accept <u>molecular orbital</u>s; prompt on <u>orbital</u> theory; do not accept “valence bond theory” or “atomic orbitals”)"
+
+data = {
+    "id": "molecular-orbital-theory",
+    "name": "Molecular orbital theory",
+    "mono": "MO",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Electrons spread over whole molecules · Why oxygen sticks to a magnet",
+    "dates": "Developed in the late 1920s",
+    "briefing": "Molecular orbital theory pictures a molecule’s electrons spread out over the whole molecule instead of sitting in bonds between pairs of atoms. Electrons in low-energy bonding orbitals hold the atoms together, while those in high-energy antibonding orbitals weaken the bond. The theory explains something simpler bonding pictures miss: liquid oxygen sticks to a magnet, because each oxygen molecule has two unpaired electrons.",
+    "answerHtml": LINE,
+    "accept": [
+        "molecular orbital theory",
+        "molecular orbital",
+        "molecular orbitals",
+        "mo theory",
+        "mo",
+        "molecular orbital method",
+        "molecular orbital model",
+        "hund mulliken theory",
+        "hund mulliken"
+    ],
+    "prompt": [
+        "orbital theory",
+        "orbitals",
+        "lcao"
+    ],
+    "reject": [
+        "atomic orbital",
+        "atomic orbitals",
+        "atomic orbital theory",
+        "valence bond theory",
+        "valence bond",
+        "vb theory",
+        "vsepr",
+        "vsepr theory",
+        "valence shell electron pair repulsion",
+        "crystal field theory",
+        "ligand field theory",
+        "band theory",
+        "hybridization",
+        "orbital hybridization",
+        "hybrid orbitals",
+        "lewis structure",
+        "lewis structures",
+        "lewis dot structure",
+        "lewis theory",
+        "octet rule",
+        "resonance",
+        "resonance theory",
+        "bohr model",
+        "quantum mechanics",
+        "hunds rule",
+        "aufbau principle",
+        "pauli exclusion principle",
+        "huckels rule",
+        "bond order",
+        "paramagnetism",
+        "diamagnetism",
+        "electron configuration",
+        "highest occupied molecular orbital",
+        "lowest unoccupied molecular orbital",
+        "homo",
+        "lumo",
+        "homo lumo gap",
+        "robert mulliken",
+        "friedrich hund",
+        "linus pauling",
+        "kinetic molecular theory"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Molecular_orbital_theory",
+    "qb": {"q": "molecular orbital", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "Robert Mulliken won the 1966 Nobel Prize in Chemistry for developing this theory, and he also coined the word “orbital” in 1932. The competing valence bond approach was championed by Linus Pauling.",
+            "r": "For 10 points, name this theory in which electrons fill bonding and antibonding orbitals that spread over an entire molecule."
+        },
+        {
+            "p": "In the late 1920s, Friedrich Hund [“HOONT”] and Robert Mulliken developed this theory, which treats each electron as spread over the whole molecule instead of belonging to a single bond. In 1927, Walter Heitler and Fritz London explained the hydrogen molecule with a competing approach, valence bond theory.",
+            "r": "It sorts electrons into bonding and antibonding orbitals. For 10 points, name this theory of bonding that explains why oxygen is attracted to magnets."
+        },
+        {
+            "p": "In 1929, John Lennard-Jones proposed building the orbitals of this theory by adding and subtracting atomic orbitals, a method called the linear combination of atomic orbitals. Adding two atomic orbitals together makes a lower-energy orbital, and subtracting them makes a higher-energy one.",
+            "r": "Those orbitals are called bonding and antibonding. For 10 points, name this theory of chemical bonding."
+        },
+        {
+            "p": "This theory explains why the bond order of oxygen drops from 2 in the oxygen molecule to 1.5 in the superoxide ion and 1 in the peroxide ion: each added electron goes into an antibonding orbital. Removing an electron instead raises the bond order to 2.5.",
+            "r": "This theory also explains why liquid oxygen clings to a strong magnet. For 10 points, name this theory of bonding."
+        },
+        {
+            "p": "In a classic demonstration, liquid nitrogen poured between the poles of a strong magnet flows straight through, because this theory gives nitrogen’s molecule a bond order of 3 with every electron paired. That bond order matches the triple bond in nitrogen’s Lewis structure.",
+            "r": "Liquid oxygen, by contrast, sticks to the magnet. For 10 points, name this theory, which explains that difference with bonding and antibonding orbitals."
+        },
+        {
+            "p": "In this theory, a molecule’s bond order equals half the difference between its number of bonding electrons and its number of antibonding electrons. That formula gives two helium atoms a bond order of zero, explaining why helium atoms do not pair up into ordinary molecules.",
+            "r": "For 10 points, name this theory of bonding that sorts electrons into orbitals spread over a whole molecule."
+        },
+        {
+            "p": "In diagrams for this theory, higher-energy orbitals are marked with an asterisk and have a node, a region with no chance of finding an electron, between the two nuclei. Filling those orbitals weakens a bond.",
+            "r": "Lower-energy orbitals, which pile electrons between the nuclei, are called bonding orbitals. For 10 points, name this theory of chemical bonding."
+        },
+        {
+            "p": "This theory says that combining any number of atomic orbitals always produces the same number of new orbitals, some lower in energy and some higher. Electrons fill the new orbitals from the bottom up, following Hund’s rule and the Pauli exclusion principle.",
+            "r": "For 10 points, name this theory of bonding that explains why oxygen is attracted to magnets."
+        },
+        {
+            "p": "This theory gives nitric oxide, a molecule with an odd number of electrons, a bond order of 2.5 and one unpaired electron, so the gas is weakly attracted to a magnet. Removing that lone electron makes the nitrosonium [“ny-troh-SOH-nee-um”] ion, whose bond order rises to 3.",
+            "r": "For 10 points, name this theory in which electrons occupy bonding and antibonding orbitals spread over a whole molecule."
+        },
+        {
+            "p": "This theory calls a molecule’s highest occupied orbital and lowest unoccupied orbital its frontier orbitals, and the energy gap between them helps decide what color of light the molecule absorbs. Long chains of alternating double bonds, like the one in beta-carotene, have small gaps, so they absorb visible light.",
+            "r": "It sorts electrons into bonding and antibonding orbitals. For 10 points, name this theory of chemical bonding developed by Robert Mulliken."
+        },
+        {
+            "p": "Erich Hückel [“HOO-kul”] used a simplified version of this theory to show that flat rings with 4n + 2 pi electrons, such as benzene, are especially stable. In that version, benzene’s six pi electrons spread around the whole ring instead of sitting in three separate double bonds.",
+            "r": "For 10 points, name this theory of bonding that also explains why oxygen is attracted to magnets."
+        },
+        {
+            "p": "When this theory is applied to a metal, the orbitals of huge numbers of atoms merge into nearly continuous energy bands, and electrons moving through partly filled bands carry current. The size of the gap between bands separates insulators from semiconductors.",
+            "r": "For 10 points, name this theory of chemical bonding, which describes bonding and antibonding orbitals spread over whole molecules."
+        },
+        {
+            "p": "Photoelectron spectroscopy, which measures the energy needed to knock electrons out of a molecule, supports this theory by showing electrons at the separate energy levels it predicts. This theory explains why the hydrogen molecule ion, with just one electron, still holds together with a bond order of one-half.",
+            "r": "It explains why oxygen is attracted to magnets. For 10 points, name this theory of bonding that sorts electrons into bonding and antibonding orbitals."
+        },
+        {
+            "p": "This theory builds sigma orbitals from atomic orbitals that overlap head-on along the line between two nuclei and pi orbitals from p orbitals that overlap side by side. In the oxygen molecule, the two highest-energy electrons sit unpaired in a pair of pi-star orbitals.",
+            "r": "For 10 points, name this theory that explains oxygen’s attraction to magnets with bonding and antibonding orbitals."
+        },
+        {
+            "p": "Kenichi Fukui’s [“foo-KOO-eez”] frontier orbital ideas and the Woodward–Hoffmann rules both use this theory to predict whether ring-forming reactions such as the Diels–Alder reaction can happen. Fukui shared the 1981 Nobel Prize in Chemistry with Roald Hoffmann.",
+            "r": "For 10 points, name this theory of bonding in which electrons spread over a whole molecule in bonding and antibonding orbitals."
+        }
+    ],
+    "clues": [
+        {
+            "id": "bonding-antibonding",
+            "tier": "giveaway",
+            "t": "Electrons fill bonding orbitals (lower energy) and antibonding orbitals (higher energy) that spread over the whole molecule",
+            "k": ["antibonding", "bonding", "whole molecule"],
+            "n": 0
+        },
+        {
+            "id": "oxygen-magnet",
+            "tier": "giveaway",
+            "t": "Explains why oxygen is attracted to magnets: each oxygen molecule has two unpaired electrons",
+            "k": ["oxygen", "magnets", "unpaired"],
+            "n": 0,
+            "rabbit": "Oxygen"
+        },
+        {
+            "id": "lewis-fails",
+            "tier": "giveaway",
+            "t": "Lewis structures show all of oxygen’s electrons paired, so they miss its magnetism; this theory gets it right",
+            "k": ["lewis structures", "paired", "magnetism"],
+            "n": 0
+        },
+        {
+            "id": "mulliken",
+            "tier": "giveaway",
+            "t": "Robert Mulliken won the 1966 Nobel Prize in Chemistry for developing it",
+            "k": ["mulliken", "1966"],
+            "n": 0
+        },
+        {
+            "id": "bond-order",
+            "tier": "middle",
+            "t": "Bond order equals half of the number of bonding electrons minus the number of antibonding electrons",
+            "k": ["bond order", "half"],
+            "n": 0
+        },
+        {
+            "id": "helium",
+            "tier": "middle",
+            "t": "Two helium atoms get a bond order of zero, so helium does not form ordinary two-atom molecules",
+            "k": ["helium", "zero"],
+            "n": 0,
+            "rabbit": "Helium"
+        },
+        {
+            "id": "nitrogen",
+            "tier": "middle",
+            "t": "Nitrogen’s molecule has a bond order of 3 with every electron paired, so liquid nitrogen flows straight past a magnet",
+            "k": ["nitrogen", "bond order of 3", "liquid nitrogen"],
+            "n": 0,
+            "rabbit": "Nitrogen"
+        },
+        {
+            "id": "node-asterisk",
+            "tier": "middle",
+            "t": "Antibonding orbitals are marked with an asterisk and have a node between the nuclei; filling them weakens a bond",
+            "k": ["asterisk", "node"],
+            "n": 0
+        },
+        {
+            "id": "same-number",
+            "tier": "middle",
+            "t": "Combining atomic orbitals always makes the same number of new orbitals, some lower and some higher in energy",
+            "k": ["same number", "atomic orbitals"],
+            "n": 0,
+            "rabbit": "Atomic orbitals"
+        },
+        {
+            "id": "sigma-pi",
+            "tier": "middle",
+            "t": "Sigma orbitals come from head-on overlap; pi orbitals come from p orbitals overlapping side by side",
+            "k": ["sigma", "head-on", "side by side"],
+            "n": 0
+        },
+        {
+            "id": "hund-pauli",
+            "tier": "middle",
+            "t": "Electrons fill its orbitals from the bottom up, following Hund’s rule and the Pauli exclusion principle",
+            "k": ["hund’s rule", "pauli exclusion principle", "bottom up"],
+            "n": 0,
+            "rabbit": "Pauli exclusion principle"
+        },
+        {
+            "id": "valence-bond",
+            "tier": "middle",
+            "t": "Its competitor was valence bond theory, championed by Linus Pauling",
+            "k": ["valence bond", "pauling"],
+            "n": 0,
+            "rabbit": "Linus Pauling"
+        },
+        {
+            "id": "frontier",
+            "tier": "middle",
+            "t": "Frontier orbitals: the highest occupied and lowest unoccupied orbitals; the gap between them affects what color a molecule absorbs",
+            "k": ["frontier orbitals", "highest occupied", "lowest unoccupied"],
+            "n": 0
+        },
+        {
+            "id": "coined-1932",
+            "tier": "power",
+            "t": "Mulliken also coined the word “orbital” in 1932",
+            "k": ["1932", "coined"],
+            "n": 0
+        },
+        {
+            "id": "hund",
+            "tier": "power",
+            "t": "Friedrich Hund and Robert Mulliken developed it in the late 1920s",
+            "k": ["hund", "late 1920s"],
+            "n": 0
+        },
+        {
+            "id": "heitler-london",
+            "tier": "power",
+            "t": "In 1927, Walter Heitler and Fritz London explained the hydrogen molecule with the competing valence bond approach",
+            "k": ["heitler", "london", "1927"],
+            "n": 0
+        },
+        {
+            "id": "lennard-jones",
+            "tier": "power",
+            "t": "In 1929, John Lennard-Jones built its orbitals by adding and subtracting atomic orbitals, a linear combination of atomic orbitals (LCAO)",
+            "k": ["lennard-jones", "1929", "lcao"],
+            "n": 0
+        },
+        {
+            "id": "oxygen-ions",
+            "tier": "power",
+            "t": "Oxygen’s bond order is 2; the superoxide ion’s is 1.5, the peroxide ion’s is 1, and removing an electron gives 2.5",
+            "k": ["superoxide", "peroxide", "1.5"],
+            "n": 0
+        },
+        {
+            "id": "nitric-oxide",
+            "tier": "power",
+            "t": "Nitric oxide, with an odd number of electrons, has a bond order of 2.5 and is weakly magnetic; the nitrosonium ion has a bond order of 3",
+            "k": ["nitric oxide", "nitrosonium", "2.5"],
+            "n": 0
+        },
+        {
+            "id": "carotene",
+            "tier": "power",
+            "t": "Long chains of alternating double bonds, as in beta-carotene, have small gaps and absorb visible light",
+            "k": ["beta-carotene", "visible light", "alternating double bonds"],
+            "n": 0
+        },
+        {
+            "id": "huckel",
+            "tier": "power",
+            "t": "Erich Hückel used a simple version to show that flat rings with 4n + 2 pi electrons, like benzene, are especially stable",
+            "k": ["hückel", "4n + 2", "benzene"],
+            "n": 0,
+            "rabbit": "Benzene"
+        },
+        {
+            "id": "bands",
+            "tier": "power",
+            "t": "Applied to metals, it gives energy bands; the gap between bands separates insulators from semiconductors",
+            "k": ["energy bands", "insulators", "semiconductors"],
+            "n": 0
+        },
+        {
+            "id": "photoelectron",
+            "tier": "power",
+            "t": "Photoelectron spectroscopy confirms its energy levels; the one-electron hydrogen molecule ion has a bond order of one-half",
+            "k": ["photoelectron spectroscopy", "one-half"],
+            "n": 0
+        },
+        {
+            "id": "fukui-woodward",
+            "tier": "power",
+            "t": "Fukui’s frontier orbitals and the Woodward–Hoffmann rules use it to predict ring-forming reactions like the Diels–Alder; Fukui shared the 1981 Nobel",
+            "k": ["fukui", "woodward", "1981"],
+            "n": 0,
+            "rabbit": "Diels–Alder reaction"
+        }
+    ],
+    "trap": {
+        "title": "Molecular, not atomic",
+        "body": "Atomic orbitals belong to one atom, while this theory’s orbitals spread over a whole molecule, so “atomic orbitals” is a different answer. The competing valence bond theory, championed by Linus Pauling, describes bonds as overlapping orbitals on neighboring atoms, and VSEPR theory only predicts shapes. Neither of those explains why oxygen sticks to a magnet.",
+        "fix": "Bonding and antibonding orbitals, bond order, oxygen’s magnetism, Mulliken, and sigma-star or pi-star orbitals mean molecular orbital theory. One atom’s s, p, d, and f regions mean atomic orbitals; hybrid orbitals and resonance mean valence bond theory; electron pairs pushing apart to set a shape mean VSEPR.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Molecular orbital theory",
+            "MO theory",
+            "molecular orbitals",
+            "Molecular orbitl theory",
+            "Hund-Mulliken theory"
+        ],
+        "prompt": [
+            "Orbital theory",
+            "LCAO"
+        ],
+        "wrong": [
+            "Valence bond theory",
+            "Atomic orbitals",
+            "VSEPR theory",
+            "Crystal field theory",
+            "Hybridization",
+            "Lewis structures",
+            "Bond order",
+            "HOMO"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

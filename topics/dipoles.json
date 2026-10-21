@@ -1,0 +1,464 @@
+{
+  "id": "dipoles",
+  "name": "Dipoles",
+  "mono": "DP",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Separated positive and negative charge · Why water molecules stick together",
+  "dates": "Debye won a Nobel for studying them, 1936",
+  "briefing": "A dipole is a pair of equal and opposite charges, or poles, separated by a distance, like a tiny bar magnet made of electric charge. Water molecules are dipoles because their bent shape leaves the oxygen end slightly negative and the hydrogen end slightly positive, which is why water molecules cling together and why a microwave oven can heat food by twisting them back and forth. Chemists measure dipole moments in debyes, named for Peter Debye.",
+  "answerHtml": "<b><u>Dipole</u></b>s (accept <u>dipole moment</u>s; accept electric or magnetic <u>dipole</u>s; prompt on <u>polar</u> molecules or <u>polarity</u>; do not accept “dipole–dipole forces”)",
+  "accept": [
+    "dipole",
+    "dipoles",
+    "dipole moment",
+    "dipole moments",
+    "electric dipole",
+    "electric dipoles",
+    "electric dipole moment",
+    "magnetic dipole",
+    "magnetic dipoles",
+    "magnetic dipole moment",
+    "bond dipole",
+    "bond dipoles",
+    "molecular dipole",
+    "permanent dipole",
+    "permanent dipoles",
+    "induced dipole",
+    "induced dipoles"
+  ],
+  "prompt": [
+    "polar molecule",
+    "polar molecules",
+    "polarity",
+    "polar",
+    "molecular polarity",
+    "polar bond",
+    "polar bonds",
+    "polar covalent bond",
+    "polar covalent bonds",
+    "dipolar"
+  ],
+  "reject": [
+    "dipole dipole",
+    "dipole dipole force",
+    "dipole dipole forces",
+    "dipole dipole interaction",
+    "dipole dipole interactions",
+    "dipole dipole attraction",
+    "dipole dipole attractions",
+    "dipole induced dipole",
+    "ion dipole",
+    "ion dipole force",
+    "ion dipole forces",
+    "keesom forces",
+    "debye forces",
+    "monopole",
+    "monopoles",
+    "magnetic monopole",
+    "magnetic monopoles",
+    "quadrupole",
+    "quadrupoles",
+    "multipole",
+    "multipoles",
+    "diode",
+    "diodes",
+    "dimer",
+    "debye",
+    "debyes",
+    "peter debye",
+    "debye unit",
+    "electronegativity",
+    "nonpolar",
+    "non polar",
+    "nonpolar molecule",
+    "nonpolar molecules",
+    "london dispersion forces",
+    "london dispersion force",
+    "dispersion forces",
+    "london forces",
+    "van der waals forces",
+    "van der waals",
+    "hydrogen bond",
+    "hydrogen bonds",
+    "hydrogen bonding",
+    "ion",
+    "ions",
+    "ionic bond",
+    "electric field",
+    "magnetic field",
+    "charge",
+    "electric charge",
+    "polarizability",
+    "polarization",
+    "polarized light"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Dipole",
+  "qb": {
+    "q": "dipole",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Peter Debye [“duh-BYE”] won the 1936 Nobel Prize in Chemistry partly for measuring the moments of these entities in molecules, and a unit for those moments, equal to about 3.34 times 10 to the minus 30 coulomb-meters, is named for him. A water molecule’s moment is about 1.85 of those units.",
+      "r": "For 10 points, name these pairs of equal and opposite charges separated by a small distance, found in polar molecules."
+    },
+    {
+      "p": "Chemists draw one of these as an arrow with a small plus sign crossing its tail, pointing toward the more electronegative atom, while physicists usually point the arrow the other way, from negative to positive. For a molecule, the moment of one of these is measured in debyes.",
+      "r": "For 10 points, name these separations of positive and negative charge, found in polar molecules like water."
+    },
+    {
+      "p": "In a uniform electric field, one of these feels no net force but does feel a torque that tries to line it up with the field. Its moment equals the size of either charge multiplied by the distance between the two charges.",
+      "r": "For 10 points, name these pairs of equal and opposite charges, which polar molecules such as water have."
+    },
+    {
+      "p": "Far from one of these, its electric field weakens with the cube of the distance, faster than the inverse-square field of a single charge, because the fields of its two opposite charges nearly cancel. Placing two of these back to back makes a quadrupole.",
+      "r": "Polar molecules like water are examples. For 10 points, name these pairs of equal and opposite charges separated by a distance."
+    },
+    {
+      "p": "Heinrich Hertz proved that radio waves exist in the late 1880s, using a spark gap between two metal rods, an antenna design named for these things. Old “rabbit ears” TV antennas used the same design, with two rods pointing in opposite directions.",
+      "r": "For 10 points, name these pairs of opposite charges or poles, which also describe polar molecules like water."
+    },
+    {
+      "p": "A microwave oven heats food because its rapidly flipping electric field, which changes direction billions of times per second, makes water molecules twist back and forth to line up with it. Those molecules respond because each one is one of these.",
+      "r": "For 10 points, name these separations of positive and negative charge, found in polar molecules."
+    },
+    {
+      "p": "Water’s dielectric constant, about 80 at room temperature, is unusually high because its molecules are strong examples of these and turn to partly cancel an outside electric field. That ability helps water pull apart the ions in salts, so salts dissolve well in it.",
+      "r": "For 10 points, name these separations of charge, measured in debyes, that make a molecule polar."
+    },
+    {
+      "p": "The cis isomer of 1,2-dichloroethene [“dye-klor-oh-ETH-een”] has an overall one of these, but the trans isomer does not, because its two carbon–chlorine bonds point in opposite directions and cancel. Each of those polar bonds is a small one of these.",
+      "r": "For 10 points, name these separations of positive and negative charge, whose moments are measured in debyes."
+    },
+    {
+      "p": "Carbon dioxide has none of these overall, because it is a straight, linear molecule and the pulls of its two polar bonds cancel. Carbon tetrachloride also lacks one, because its four bonds point to the corners of a tetrahedron.",
+      "r": "Water has one because its molecule is bent. For 10 points, name these separations of positive and negative charge, which make molecules polar."
+    },
+    {
+      "p": "Ammonia has one of these because its lone pair gives it a trigonal pyramidal shape, but boron trifluoride, a flat triangle, has none. Molecules with lopsided shapes and unequal sharing of electrons usually have one of these.",
+      "r": "Polar molecules like water have them. For 10 points, name these separations of positive and negative charge, measured in debyes."
+    },
+    {
+      "p": "Acetone and butane have almost the same molar mass, but acetone boils at about 56 °C while butane boils near 0 °C, because acetone molecules are examples of these and attract one another more strongly. Butane molecules feel only weak London dispersion forces.",
+      "r": "For 10 points, name these separations of positive and negative charge, found in polar molecules."
+    },
+    {
+      "p": "Willem Keesom [“KAY-sum”] described the attraction between two permanent examples of these, and Peter Debye described the attraction between a permanent one and one that it induces in a neighbor. Fritz London explained the attraction between temporary ones that flicker in electron clouds.",
+      "r": "Water molecules have them. For 10 points, name these pairs of opposite partial charges, found in polar molecules."
+    },
+    {
+      "p": "No one has ever confirmed finding an isolated north or south magnetic pole, called a monopole, so even the smallest magnet is one of these. Earth’s magnetic field is roughly shaped like that of a giant magnetic one of these.",
+      "r": "A bar magnet is one. For 10 points, name these pairs of opposite poles or charges, which also describe polar molecules such as water."
+    },
+    {
+      "p": "When a charged object comes near a nonpolar atom, it can push the atom’s electron cloud to one side, creating a temporary, induced example of one of these. Big atoms with loose electron clouds, like xenon, are especially easy to distort this way, a property called polarizability.",
+      "r": "For 10 points, name these pairs of equal and opposite charges, which permanently exist in polar molecules like water."
+    },
+    {
+      "p": "When two bonded atoms differ in electronegativity, the bond becomes one of these, with partial charges written with the Greek letter delta. Substances made of molecules with these tend to dissolve in one another, a rule summed up as “like dissolves like.”",
+      "r": "For 10 points, name these separations of positive and negative charge, which make molecules like water polar."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "A pair of equal and opposite charges, or poles, separated by a distance",
+      "k": [
+        "equal and opposite",
+        "separated",
+        "poles"
+      ],
+      "n": 0
+    },
+    {
+      "id": "polar-molecules",
+      "tier": "giveaway",
+      "t": "Polar molecules have them; water is the classic example",
+      "k": [
+        "polar molecules",
+        "water"
+      ],
+      "n": 0,
+      "rabbit": "Water"
+    },
+    {
+      "id": "bent-water",
+      "tier": "giveaway",
+      "t": "Water has one because its bent shape (about 104.5°) leaves the oxygen end slightly negative and the hydrogen end slightly positive",
+      "k": [
+        "bent",
+        "104.5",
+        "oxygen end"
+      ],
+      "n": 0
+    },
+    {
+      "id": "debye-unit",
+      "tier": "giveaway",
+      "t": "Their moments are measured in debyes, named for Peter Debye",
+      "k": [
+        "peter debye",
+        "moments"
+      ],
+      "n": 0
+    },
+    {
+      "id": "moment",
+      "tier": "giveaway",
+      "t": "The moment equals charge times the distance between the charges; it is a vector, so bond moments can add up or cancel",
+      "k": [
+        "charge times",
+        "vector",
+        "distance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "electronegativity",
+      "tier": "middle",
+      "t": "A difference in electronegativity gives a bond partial charges (δ+ and δ−), making the bond one",
+      "k": [
+        "electronegativity",
+        "partial charges"
+      ],
+      "n": 0,
+      "rabbit": "Electronegativity"
+    },
+    {
+      "id": "co2-cancel",
+      "tier": "middle",
+      "t": "Linear carbon dioxide has no overall one because its two polar bonds cancel; tetrahedral carbon tetrachloride has none either",
+      "k": [
+        "carbon dioxide",
+        "linear",
+        "carbon tetrachloride"
+      ],
+      "n": 0,
+      "rabbit": "Carbon dioxide"
+    },
+    {
+      "id": "ammonia-bf3",
+      "tier": "middle",
+      "t": "Trigonal pyramidal ammonia has one; flat, triangular boron trifluoride has none",
+      "k": [
+        "ammonia",
+        "boron trifluoride",
+        "trigonal pyramidal"
+      ],
+      "n": 0,
+      "rabbit": "Ammonia"
+    },
+    {
+      "id": "microwave",
+      "tier": "middle",
+      "t": "Microwave ovens heat food by making water molecules twist back and forth in a rapidly flipping electric field",
+      "k": [
+        "microwave",
+        "twist",
+        "electric field"
+      ],
+      "n": 0
+    },
+    {
+      "id": "like-dissolves-like",
+      "tier": "middle",
+      "t": "“Like dissolves like”: substances whose molecules have them tend to dissolve in one another",
+      "k": [
+        "like dissolves like",
+        "dissolve"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boiling-points",
+      "tier": "middle",
+      "t": "Attractions between them raise boiling points: acetone boils at about 56 °C, but butane, of nearly the same mass, boils near 0 °C",
+      "k": [
+        "acetone",
+        "butane",
+        "boiling points"
+      ],
+      "n": 0,
+      "rabbit": "Boiling point"
+    },
+    {
+      "id": "hydrogen-bonds",
+      "tier": "middle",
+      "t": "Hydrogen bonds are an especially strong attraction between them",
+      "k": [
+        "hydrogen bonds",
+        "especially strong"
+      ],
+      "n": 0,
+      "rabbit": "Hydrogen bonds"
+    },
+    {
+      "id": "magnetic",
+      "tier": "middle",
+      "t": "A bar magnet is a magnetic one; no isolated magnetic pole, or monopole, has ever been confirmed",
+      "k": [
+        "bar magnet",
+        "monopole"
+      ],
+      "n": 0,
+      "rabbit": "Magnetic monopoles"
+    },
+    {
+      "id": "torque",
+      "tier": "middle",
+      "t": "In a uniform electric field, one feels no net force but feels a torque that lines it up with the field",
+      "k": [
+        "torque",
+        "uniform electric field",
+        "no net force"
+      ],
+      "n": 0
+    },
+    {
+      "id": "debye-nobel",
+      "tier": "power",
+      "t": "Peter Debye won the 1936 Nobel Prize in Chemistry partly for measuring their moments; one debye is about 3.34 × 10⁻³⁰ coulomb-meters",
+      "k": [
+        "1936",
+        "nobel prize",
+        "coulomb-meters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "water-value",
+      "tier": "power",
+      "t": "A water molecule’s moment is about 1.85 debyes",
+      "k": [
+        "1.85",
+        "water molecule"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arrow",
+      "tier": "power",
+      "t": "Chemists draw them as arrows with a plus sign on the tail, pointing toward the more electronegative atom; physicists point the other way",
+      "k": [
+        "plus sign",
+        "arrow",
+        "physicists"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cube-law",
+      "tier": "power",
+      "t": "Far away, the field of one weakens with the cube of the distance; two placed back to back make a quadrupole",
+      "k": [
+        "cube",
+        "quadrupole"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hertz",
+      "tier": "power",
+      "t": "Heinrich Hertz proved radio waves exist in the late 1880s with an antenna design named for them; “rabbit ears” TV antennas use it",
+      "k": [
+        "hertz",
+        "rabbit ears",
+        "antenna"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dielectric",
+      "tier": "power",
+      "t": "Water’s dielectric constant, about 80, is high because its molecules turn to partly cancel an outside field",
+      "k": [
+        "dielectric constant",
+        "outside field"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cis-trans",
+      "tier": "power",
+      "t": "cis-1,2-Dichloroethene has an overall one, but in the trans isomer the opposite carbon–chlorine bonds cancel",
+      "k": [
+        "dichloroethene",
+        "trans",
+        "isomer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "keesom-debye-london",
+      "tier": "power",
+      "t": "Keesom: attraction between two permanent ones; Debye: a permanent one and an induced one; London: temporary ones in electron clouds",
+      "k": [
+        "keesom",
+        "london",
+        "permanent"
+      ],
+      "n": 0,
+      "rabbit": "Van der Waals forces"
+    },
+    {
+      "id": "induced",
+      "tier": "power",
+      "t": "A nearby charge can push an electron cloud aside, inducing a temporary one; big atoms like xenon are easy to distort (polarizability)",
+      "k": [
+        "polarizability",
+        "xenon",
+        "inducing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "earth-field",
+      "tier": "power",
+      "t": "Earth’s magnetic field is roughly shaped like that of a giant magnetic one",
+      "k": [
+        "earth’s magnetic field",
+        "giant"
+      ],
+      "n": 0,
+      "rabbit": "Earth’s magnetic field"
+    }
+  ],
+  "trap": {
+    "title": "The charges, not the forces",
+    "body": "Dipoles cause several intermolecular forces with their own answer lines: dipole–dipole forces, hydrogen bonds, and London dispersion forces, which act between temporary dipoles. Answering “dipole–dipole forces” when the question wants the charge separation itself is wrong, and so is “electronegativity,” the property that creates polar bonds. Saying only “polar molecule” or “polarity” earns a prompt.",
+    "fix": "If the question asks for “these” pairs of separated positive and negative charge, measured in debyes, say dipoles or dipole moment. “These attractions” or “these forces” between molecules want the force’s name, and “this property” of an atom pulling on shared electrons is electronegativity.",
+    "line": "Real answer line: <b><u>Dipole</u></b>s (accept <u>dipole moment</u>s; accept electric or magnetic <u>dipole</u>s; prompt on <u>polar</u> molecules or <u>polarity</u>; do not accept “dipole–dipole forces”)"
+  },
+  "tests": {
+    "right": [
+      "Dipoles",
+      "dipole",
+      "dipole moment",
+      "Electric dipole",
+      "Dipols"
+    ],
+    "prompt": [
+      "Polar molecules",
+      "Polarity"
+    ],
+    "wrong": [
+      "Dipole-dipole forces",
+      "Monopole",
+      "Quadrupole",
+      "Electronegativity",
+      "Hydrogen bonds",
+      "Debye",
+      "Diode",
+      "London dispersion forces"
+    ]
+  }
+}

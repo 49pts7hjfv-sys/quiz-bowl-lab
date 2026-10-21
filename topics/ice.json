@@ -179,17 +179,6 @@
       "n": 0
     },
     {
-      "id": "six-sided",
-      "tier": "giveaway",
-      "t": "Its crystals are six-sided (hexagonal), which is why snowflakes have six points",
-      "k": [
-        "six-sided",
-        "hexagonal",
-        "snowflakes"
-      ],
-      "n": 0
-    },
-    {
       "id": "glaciers-titanic",
       "tier": "giveaway",
       "t": "Glaciers are made of it, and the _Titanic_ sank in 1912 after hitting a huge floating chunk of it",
@@ -209,6 +198,17 @@
         "salt",
         "melting point",
         "winter roads"
+      ],
+      "n": 0
+    },
+    {
+      "id": "six-sided",
+      "tier": "middle",
+      "t": "Its crystals are six-sided (hexagonal), which is why snowflakes have six points",
+      "k": [
+        "six-sided",
+        "hexagonal",
+        "snowflakes"
       ],
       "n": 0
     },
@@ -256,17 +256,6 @@
       ],
       "n": 0,
       "rabbit": "Melting"
-    },
-    {
-      "id": "specific-heat",
-      "tier": "middle",
-      "t": "Its specific heat is only about half that of liquid water",
-      "k": [
-        "specific heat",
-        "half"
-      ],
-      "n": 0,
-      "rabbit": "Heat capacity"
     },
     {
       "id": "frost-wedging",
@@ -325,6 +314,17 @@
       ],
       "n": 0,
       "rabbit": "Comets"
+    },
+    {
+      "id": "specific-heat",
+      "tier": "power",
+      "t": "Its specific heat is only about half that of liquid water",
+      "k": [
+        "specific heat",
+        "half"
+      ],
+      "n": 0,
+      "rabbit": "Heat capacity"
     },
     {
       "id": "kepler",

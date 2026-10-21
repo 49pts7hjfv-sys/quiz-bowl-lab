@@ -67,7 +67,7 @@ data = {
             "r": "For 10 points, name this Alabama city where Martin Luther King Jr. wrote a famous letter from jail in 1963."
         },
         {
-            "p": "Sloss Furnaces, which made iron from 1882 until 1971, has become a museum in this city. In 1907, U.S. Steel took over the Tennessee Coal, Iron and Railroad Company, the biggest steelmaker in this city.",
+            "p": "Sloss Furnaces, which made iron from 1882 until 1971, has become a museum in this city. In 1907, U.S. Steel took over the Tennessee Coal, Iron and Railroad Company, a giant steel company based in this city.",
             "r": "This city grew up around coal, iron ore, and limestone mined nearby. For 10 points, name this Alabama city nicknamed the “Pittsburgh of the South.”"
         },
         {
@@ -234,7 +234,7 @@ data = {
         {
             "id": "us-steel",
             "tier": "power",
-            "t": "U.S. Steel took over the Tennessee Coal, Iron and Railroad Company, the city’s biggest steelmaker, in 1907",
+            "t": "U.S. Steel took over the Tennessee Coal, Iron and Railroad Company, a giant steel company based in the city, in 1907",
             "k": ["tennessee coal", "u.s. steel", "1907"],
             "n": 0
         },

@@ -1,0 +1,423 @@
+{
+  "id": "reaction-rate",
+  "name": "Reaction rate",
+  "mono": "RR",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "How fast reactants become products · Sped up by heat and catalysts",
+  "dates": "First measured carefully in 1850",
+  "briefing": "A reaction rate tells how fast reactants turn into products, such as how quickly an iron nail rusts or a glow stick fades. Collision theory explains it: molecules must bump into each other hard enough and in the right direction to react. Heating things up, raising concentrations, grinding solids into powder, and adding a catalyst all make reactions go faster.",
+  "answerHtml": "<b><u>Reaction rate</u></b> (accept <u>rate of reaction</u> or <u>speed of reaction</u>; prompt on <u>rate</u> or chemical <u>kinetics</u>; do not accept “rate constant,” “activation energy,” or “catalyst”)",
+  "accept": [
+    "reaction rate",
+    "reaction rates",
+    "rate of reaction",
+    "rates of reaction",
+    "rate of reactions",
+    "rate of a reaction",
+    "rate of the reaction",
+    "rate of chemical reaction",
+    "rate of chemical reactions",
+    "chemical reaction rate",
+    "speed of reaction",
+    "speed of a reaction",
+    "reaction speed",
+    "reaction velocity"
+  ],
+  "prompt": [
+    "rate",
+    "rates",
+    "speed",
+    "kinetics",
+    "chemical kinetics",
+    "reaction kinetics"
+  ],
+  "reject": [
+    "rate constant",
+    "rate constants",
+    "rate law",
+    "rate laws",
+    "rate equation",
+    "rate determining step",
+    "rate limiting step",
+    "reaction order",
+    "order of reaction",
+    "half life",
+    "activation energy",
+    "catalyst",
+    "catalysts",
+    "catalysis",
+    "enzyme",
+    "enzymes",
+    "inhibitor",
+    "collision theory",
+    "collision frequency",
+    "arrhenius equation",
+    "arrhenius",
+    "frequency factor",
+    "temperature",
+    "concentration",
+    "surface area",
+    "pressure",
+    "equilibrium",
+    "chemical equilibrium",
+    "equilibrium constant",
+    "le chateliers principle",
+    "reaction mechanism",
+    "mechanism",
+    "transition state",
+    "activated complex",
+    "reaction quotient",
+    "yield",
+    "percent yield"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Reaction_rate",
+  "qb": {
+    "q": "reaction rate",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Manfred Eigen, Ronald Norrish, and George Porter shared the 1967 Nobel Prize in Chemistry for measuring this quantity for extremely fast reactions, using methods such as flash photolysis. Ahmed Zewail later used laser pulses lasting femtoseconds to watch bonds break during reactions.",
+      "r": "Raising the temperature usually increases it. For 10 points, name this quantity, the speed at which reactants turn into products."
+    },
+    {
+      "p": "Cyril Hinshelwood and Nikolay Semenov shared the 1956 Nobel Prize in Chemistry for studying the steps of chemical reactions, including branching chain reactions in which this quantity climbs so fast that the mixture explodes.",
+      "r": "The branch of chemistry called kinetics studies this quantity. For 10 points, name this measure of how fast a chemical reaction goes."
+    },
+    {
+      "p": "In 1850, Ludwig Wilhelmy [“vil-HEL-mee”] made one of the first careful measurements of this quantity by tracking how acid broke down table sugar, and he found that it was proportional to the amount of sugar left. That made the sugar’s breakdown a first-order process.",
+      "r": "For 10 points, name this quantity, the change in concentration of a reactant or product per unit of time."
+    },
+    {
+      "p": "In the iodine clock reaction, first studied by Hans Landolt in 1886, a clear solution suddenly turns dark blue after a delay, and students time that delay to compare this quantity at different concentrations and temperatures. Starch makes the blue color once enough iodine forms.",
+      "r": "For 10 points, name this quantity, which tells how quickly reactants are used up in a chemical reaction."
+    },
+    {
+      "p": "In the “disappearing cross” experiment, sodium thiosulfate reacts with hydrochloric acid to form cloudy sulfur, and students time how long it takes for an X drawn under the flask to vanish. A shorter time means a larger value of this quantity.",
+      "r": "For 10 points, name this measure of how fast a chemical reaction happens, which increases with higher temperature or concentration."
+    },
+    {
+      "p": "The exponents in the law for this quantity, called orders, must be found by experiment rather than read from a balanced equation. It is often measured in moles per liter per second, and when it is found from a reactant, a minus sign keeps it positive.",
+      "r": "Catalysts increase it. For 10 points, name this quantity, the speed at which reactants turn into products."
+    },
+    {
+      "p": "If this quantity is proportional to the concentration of just one reactant, the reaction is first-order, and its half-life stays the same no matter how much reactant there is. Radioactive decay follows that pattern. If it does not depend on concentration at all, the reaction is zero-order.",
+      "r": "For 10 points, name this quantity, which tells how fast reactants are used up and products form."
+    },
+    {
+      "p": "In a reaction that happens in several steps, the slowest step acts like a bottleneck and sets this quantity for the whole reaction. That step usually has the highest energy barrier, or activation energy. Speeding up any faster step barely changes this quantity.",
+      "r": "For 10 points, name this quantity, how fast reactants become products, which collision theory explains."
+    },
+    {
+      "p": "Flour dust and coal dust can explode, even though a pile of either burns slowly, because grinding a solid into tiny particles gives it far more surface area. Crushing an antacid tablet before dropping it into water has the same effect on this quantity.",
+      "r": "Raising the temperature also increases it. For 10 points, name this quantity, which tells how fast a chemical reaction goes."
+    },
+    {
+      "p": "Food spoils more slowly in a refrigerator, and a glow stick placed in a freezer glows dimmer but lasts longer, because cooling lowers this quantity. A common rule of thumb says that, for many reactions, this quantity roughly doubles for every 10 °C rise in temperature.",
+      "r": "For 10 points, name this quantity, which collision theory explains, the speed at which reactants turn into products."
+    },
+    {
+      "p": "A strip of magnesium ribbon fizzes faster in more concentrated hydrochloric acid, because more acid particles collide with the metal each second. Students often measure this quantity by collecting the hydrogen gas in a syringe and recording its volume every few seconds.",
+      "r": "For 10 points, name this quantity, the change in the amount of a reactant or product over time."
+    },
+    {
+      "p": "The Michaelis–Menten [“mih-KAY-lis MEN-ten”] equation, published by Leonor Michaelis and Maud Menten in 1913, describes how this quantity for an enzyme levels off at a maximum as more substrate is added. Enzymes and other catalysts raise this quantity by lowering the activation energy.",
+      "r": "Collision theory explains it. For 10 points, name this quantity, how fast reactants turn into products."
+    },
+    {
+      "p": "On a graph of a reactant’s concentration against time, this quantity at any moment equals the steepness of a line tangent to the curve. Because the curve flattens as the reactant is used up, this quantity usually decreases as the reaction goes on.",
+      "r": "Catalysts and higher temperatures increase it. For 10 points, name this quantity, which tells how fast a chemical reaction happens."
+    },
+    {
+      "p": "According to collision theory, only a tiny fraction of the collisions between molecules lead to a reaction, because the molecules must hit with enough energy and in the right orientation. Anything that makes useful collisions happen more often raises this quantity.",
+      "r": "For 10 points, name this quantity, the speed at which reactants are turned into products."
+    },
+    {
+      "p": "Cato Guldberg and Peter Waage’s [“VAH-guhz”] law of mass action, from 1864, linked this quantity to the concentrations of the reacting substances. Twenty years later, Jacobus van ’t Hoff [“vahnt HOFF”] wrote _Studies in Chemical Dynamics_, a founding work in the study of this quantity.",
+      "r": "For 10 points, name this quantity, which collision theory explains and which increases with temperature."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "How fast reactants turn into products: the change in concentration over time",
+      "k": [
+        "reactants",
+        "products",
+        "concentration"
+      ],
+      "n": 0
+    },
+    {
+      "id": "factors",
+      "tier": "giveaway",
+      "t": "Raised by higher temperature, higher concentration, more surface area, and catalysts",
+      "k": [
+        "temperature",
+        "surface area",
+        "catalysts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "collision-theory",
+      "tier": "giveaway",
+      "t": "Collision theory explains it: particles must collide with enough energy and in the right orientation",
+      "k": [
+        "collision theory",
+        "orientation",
+        "enough energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "catalysts",
+      "tier": "giveaway",
+      "t": "Catalysts, such as enzymes, increase it by lowering the activation energy",
+      "k": [
+        "catalysts",
+        "enzymes",
+        "activation energy"
+      ],
+      "n": 0,
+      "rabbit": "Catalysts"
+    },
+    {
+      "id": "kinetics",
+      "tier": "giveaway",
+      "t": "Studied in the branch of chemistry called kinetics",
+      "k": [
+        "kinetics",
+        "branch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "units",
+      "tier": "middle",
+      "t": "Often measured in moles per liter per second; a minus sign keeps it positive when it is found from a reactant",
+      "k": [
+        "moles per liter per second",
+        "minus sign"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ten-degrees",
+      "tier": "middle",
+      "t": "Rule of thumb: for many reactions, it roughly doubles with every 10 °C rise in temperature",
+      "k": [
+        "rule of thumb",
+        "doubles"
+      ],
+      "n": 0,
+      "rabbit": "Activation energy"
+    },
+    {
+      "id": "cold",
+      "tier": "middle",
+      "t": "Cooling lowers it: food spoils more slowly in a refrigerator, and a glow stick lasts longer in a freezer",
+      "k": [
+        "refrigerator",
+        "glow stick",
+        "freezer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "surface-area",
+      "tier": "middle",
+      "t": "Powders react faster than lumps: flour and coal dust can explode, and crushed antacid tablets fizz faster",
+      "k": [
+        "powders",
+        "flour",
+        "coal dust",
+        "antacid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "magnesium-acid",
+      "tier": "middle",
+      "t": "Magnesium ribbon fizzes faster in more concentrated hydrochloric acid; the hydrogen can be collected in a syringe",
+      "k": [
+        "magnesium ribbon",
+        "syringe",
+        "hydrochloric acid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orders",
+      "tier": "middle",
+      "t": "In its law, the exponents, called orders, must be found by experiment, not read from the balanced equation",
+      "k": [
+        "orders",
+        "exponents",
+        "experiment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-order",
+      "tier": "middle",
+      "t": "First-order reactions have a constant half-life, as in radioactive decay; zero-order ones don’t depend on concentration at all",
+      "k": [
+        "first-order",
+        "half-life",
+        "radioactive decay",
+        "zero-order"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bottleneck",
+      "tier": "middle",
+      "t": "The slowest step of a multistep reaction is a bottleneck that sets it for the whole reaction",
+      "k": [
+        "slowest step",
+        "bottleneck"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tangent",
+      "tier": "middle",
+      "t": "At any moment, it equals the steepness of a tangent line on a graph of concentration against time",
+      "k": [
+        "tangent",
+        "steepness"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fast-reactions",
+      "tier": "power",
+      "t": "Manfred Eigen, Ronald Norrish, and George Porter shared the 1967 Nobel Prize for studying extremely fast reactions, using flash photolysis",
+      "k": [
+        "eigen",
+        "norrish",
+        "porter",
+        "flash photolysis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zewail",
+      "tier": "power",
+      "t": "Ahmed Zewail (1999 Nobel Prize) used femtosecond laser pulses to watch bonds break during reactions",
+      "k": [
+        "zewail",
+        "femtosecond"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chain-reactions",
+      "tier": "power",
+      "t": "Cyril Hinshelwood and Nikolay Semenov shared the 1956 Nobel Prize, studying chain reactions that can speed up until they explode",
+      "k": [
+        "hinshelwood",
+        "semenov",
+        "chain reactions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wilhelmy",
+      "tier": "power",
+      "t": "Ludwig Wilhelmy measured it in 1850 for acid breaking down table sugar, finding it proportional to the sugar left",
+      "k": [
+        "wilhelmy",
+        "1850",
+        "table sugar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iodine-clock",
+      "tier": "power",
+      "t": "In Hans Landolt’s iodine clock reaction (1886), a clear solution suddenly turns dark blue after a delay that students time",
+      "k": [
+        "iodine clock",
+        "landolt",
+        "dark blue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "disappearing-cross",
+      "tier": "power",
+      "t": "“Disappearing cross”: sodium thiosulfate and hydrochloric acid make cloudy sulfur that hides an X drawn under the flask",
+      "k": [
+        "disappearing cross",
+        "thiosulfate",
+        "sulfur"
+      ],
+      "n": 0
+    },
+    {
+      "id": "michaelis-menten",
+      "tier": "power",
+      "t": "The Michaelis–Menten equation (1913) shows an enzyme’s value leveling off at a maximum as more substrate is added",
+      "k": [
+        "michaelis",
+        "menten",
+        "1913",
+        "substrate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mass-action",
+      "tier": "power",
+      "t": "Guldberg and Waage’s law of mass action (1864) tied it to concentrations; van ’t Hoff wrote _Studies in Chemical Dynamics_ (1884)",
+      "k": [
+        "guldberg",
+        "waage",
+        "mass action",
+        "chemical dynamics"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Quantity, not the factor",
+    "body": "Tossups on this quantity are packed with the things that change it, so players blurt “catalyst,” “temperature,” “activation energy,” or “collision theory,” which are separate answers. The “rate constant,” k, and the “rate law” are also different answers: they are pieces of the math, not the speed itself. Saying just “rate” or “kinetics” earns a prompt.",
+    "fix": "If the question asks for “this quantity,” the speed at which reactants become products, say reaction rate. “These substances” that speed reactions up are catalysts; “this energy barrier” is activation energy; “this theory” about colliding particles is collision theory; “this constant” in an equation is the rate constant.",
+    "line": "Real answer line: <b><u>Reaction rate</u></b> (accept <u>rate of reaction</u> or <u>speed of reaction</u>; prompt on <u>rate</u> or chemical <u>kinetics</u>; do not accept “rate constant,” “activation energy,” or “catalyst”)"
+  },
+  "tests": {
+    "right": [
+      "Reaction rate",
+      "rate of reaction",
+      "reaction rates",
+      "the rate of a reaction",
+      "Reaction rat"
+    ],
+    "prompt": [
+      "Rate",
+      "Kinetics",
+      "Chemical kinetics"
+    ],
+    "wrong": [
+      "Rate constant",
+      "Activation energy",
+      "Catalyst",
+      "Collision theory",
+      "Rate law",
+      "Temperature",
+      "Half-life",
+      "Equilibrium"
+    ]
+  }
+}

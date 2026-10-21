@@ -102,15 +102,15 @@ data = {
     "sample": {"n": 0, "note": "no real tossups checked yet"},
     "tossups": [
         {
-            "p": "The Frenchman Édouard-Alfred Martel, often called the father of modern speleology, explored hundreds of these features starting in the late 1880s and helped turn their study into a science. Mineral deposits that grow inside them are called speleothems, from Greek words for one of these features and for a deposit.",
-            "r": "Stalactites and stalagmites grow inside these features. For 10 points, name these natural underground openings, often dissolved out of limestone."
+            "p": "In 1889, the Frenchman Édouard-Alfred Martel explored the underground river of the Gouffre de Padirac [“GOO-fruh duh pah-dee-RAHK”], and in 1895 he founded a French scientific society devoted to exploring these features. Mineral deposits that grow inside them are called speleothems, from Greek words for one of these features and for a deposit.",
+            "r": "The scientific study of these features is called speleology. For 10 points, name these natural underground openings, where stalactites grow."
         },
         {
-            "p": "In the late 1830s, an enslaved guide named Stephen Bishop began exploring and mapping miles of Kentucky’s Mammoth system of these features, where miners had dug saltpeter for gunpowder during the War of 1812. In 1972, explorers linked that system to the nearby Flint Ridge system, confirming it as the longest known example on Earth.",
-            "r": "These features often form when acidic groundwater dissolves limestone. For 10 points, name these underground openings, where stalactites hang from the ceiling."
+            "p": "In the late 1830s, an enslaved guide named Stephen Bishop began exploring and mapping miles of one of these features in Kentucky, where miners had dug saltpeter for gunpowder during the War of 1812. In 1972, explorers linked that system to the nearby Flint Ridge system, confirming it as the longest known example on Earth.",
+            "r": "That system is Kentucky’s Mammoth one. For 10 points, name these underground openings, where stalactites hang from the ceiling."
         },
         {
-            "p": "A cowboy named Jim White began exploring one of these features near Carlsbad, New Mexico, around 1898, after seeing a huge cloud of bats rising from the ground. Unlike most of these features, that one and nearby Lechuguilla [“leh-chuh-GEE-yuh”] were dissolved mostly by sulfuric acid rather than carbonic acid.",
+            "p": "A cowboy named Jim White began exploring one of these features near Carlsbad, New Mexico, around 1898, after seeing a huge cloud of bats rising from the ground. Unlike most of these features, that one and nearby Lechuguilla [“leh-chuh-GEE-yuh”] were dissolved mostly by sulfuric acid formed from gases rising out of oil deposits.",
             "r": "Its Big Room is a vast chamber decorated with stalactites and stalagmites. For 10 points, name these underground openings, whose study is called speleology."
         },
         {
@@ -138,8 +138,8 @@ data = {
             "r": "Bats often roost in these features, where stalactites hang from the ceiling. For 10 points, name these natural underground hollows."
         },
         {
-            "p": "In 1938, Nathaniel Kleitman and a colleague spent 32 days deep inside Kentucky’s Mammoth system of these features, trying to live on a 28-hour day. Blind fish and white, eyeless shrimp in that system have adapted to its total darkness.",
-            "r": "That system is the longest known on Earth. For 10 points, name these underground openings, often carved out of limestone."
+            "p": "In 1938, Nathaniel Kleitman and a colleague spent 32 days deep inside one of these features in Kentucky, trying to live on a 28-hour day. Blind fish and white, eyeless shrimp in that system have adapted to its total darkness.",
+            "r": "That system, Kentucky’s Mammoth one, is the longest known on Earth. For 10 points, name these underground openings, often carved out of limestone."
         },
         {
             "p": "Thin, hollow tubes called soda straws are young versions of a formation that hangs in these places, while twisting helictites [“HEL-ik-tites”] seem to grow sideways or even upward against gravity. Sheets of calcite called flowstone coat their walls and floors.",
@@ -175,7 +175,7 @@ data = {
         {"id": "mammoth", "tier": "giveaway",
          "t": "Kentucky’s Mammoth system is the longest known on Earth, with more than 400 miles mapped",
          "k": ["mammoth", "kentucky", "400 miles"], "n": 0},
-        {"id": "speleology", "tier": "giveaway",
+        {"id": "speleology", "tier": "middle",
          "t": "Their scientific study is called speleology; exploring them for fun is called spelunking",
          "k": ["speleology", "spelunking"], "n": 0},
         {"id": "karst", "tier": "middle",
@@ -203,7 +203,7 @@ data = {
          "t": "Other kinds include lava tubes, sea-cliff hollows carved by waves, and tunnels melted inside glaciers",
          "k": ["lava tubes", "waves", "glaciers"], "n": 0},
         {"id": "martel", "tier": "power",
-         "t": "Édouard-Alfred Martel of France, the father of modern speleology, began exploring them in the late 1880s",
+         "t": "Édouard-Alfred Martel of France, the father of modern speleology, explored the Gouffre de Padirac in 1889 and founded a French society devoted to studying them (1895)",
          "k": ["martel", "father"], "n": 0},
         {"id": "stephen-bishop", "tier": "power",
          "t": "Stephen Bishop, an enslaved guide, explored and mapped much of Mammoth starting in the late 1830s; saltpeter was mined there for War of 1812 gunpowder",
@@ -215,7 +215,7 @@ data = {
          "t": "Nathaniel Kleitman spent 32 days inside Mammoth in 1938 testing a 28-hour day",
          "k": ["kleitman", "1938", "28-hour"], "n": 0, "rabbit": "Sleep"},
         {"id": "sulfuric-acid", "tier": "power",
-         "t": "Jim White explored Carlsbad’s around 1898; it and Lechuguilla were dissolved mainly by sulfuric acid, not carbonic acid",
+         "t": "Jim White explored Carlsbad’s around 1898; it and Lechuguilla were dissolved mainly by sulfuric acid from gases rising out of oil deposits",
          "k": ["jim white", "lechuguilla", "sulfuric acid"], "n": 0},
         {"id": "altamira", "tier": "power",
          "t": "In 1879, eight-year-old María Sanz de Sautuola spotted bison painted on the ceiling of Spain’s Altamira",

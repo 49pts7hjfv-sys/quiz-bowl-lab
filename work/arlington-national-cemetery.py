@@ -11,7 +11,7 @@ data = {
     "qbCategory": "History · American History",
     "kicker": "Military cemetery on Robert E. Lee’s old estate · Tomb of the Unknown Soldier",
     "dates": "Established 1864",
-    "briefing": "Arlington National Cemetery covers a Virginia hillside that once belonged to Robert E. Lee’s family, across the Potomac River from Washington, D.C. During the Civil War, Union Quartermaster General Montgomery Meigs began burying soldiers there in 1864. Today more than 400,000 people rest there, including President John F. Kennedy beneath an eternal flame, and soldiers of the Old Guard watch over the Tomb of the Unknown Soldier day and night.",
+    "briefing": "Arlington National Cemetery covers a Virginia hillside that once belonged to Robert E. Lee’s family, across the Potomac River from Washington, D.C. During the Civil War, Union Quartermaster General Montgomery Meigs began burying soldiers there in 1864. More than 400,000 people rest there, including President John F. Kennedy beneath an eternal flame, and soldiers of the Old Guard watch over the Tomb of the Unknown Soldier day and night.",
     "answerHtml": "<b><u>Arlington National Cemetery</u></b> (accept <u>Arlington Cemetery</u>; prompt on <u>Arlington</u> or <u>Arlington County</u>; do not accept “Arlington House”)",
     "accept": [
         "arlington national cemetery",

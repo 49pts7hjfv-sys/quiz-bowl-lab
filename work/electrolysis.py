@@ -357,7 +357,7 @@ data = {
     ],
     "trap": {
         "title": "Process, not the parts",
-        "body": "Electrolysis, electrolytes, and electrodes all come from Michael Faraday’s 1834 vocabulary, and clues about batteries, ions, and splitting water fit all three. Electrolysis is the process; electrolytes are the substances whose ions carry the current; electrodes are the conductors where the current goes in and out. Saying “electrolytic cell” names the container, which earns only a prompt.",
+        "body": "Electrolysis, electrolytes, and electrodes all come from Michael Faraday’s 1834 vocabulary, and clues about batteries, ions, and splitting water fit all three. Electrolysis is the process; electrolytes are the substances whose ions carry electric charge; electrodes are the conductors where electricity goes in and out. Saying “electrolytic cell” names the container, which earns only a prompt.",
         "fix": "If the question asks for “this process” or “this method” that uses electricity to split compounds, say electrolysis. “These substances” that conduct when dissolved are electrolytes, and “these conductors,” the anode and cathode, are electrodes. A battery that makes electricity from a spontaneous reaction is a galvanic cell, which does the opposite job.",
         "line": "Real answer line: " + LINE
     },

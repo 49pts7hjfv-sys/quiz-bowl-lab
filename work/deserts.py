@@ -123,7 +123,7 @@ data = {
             "r": "Saguaro cacti grow in the nearby Sonoran, another of these places. For 10 points, name these dry regions that get very little rain."
         },
         {
-            "p": "Prehistoric rock paintings of swimmers in southwestern Egypt and of cattle herds in Algeria’s Tassili n’Ajjer show that a huge region of North Africa was green and wet until about 5,000 years ago. Dust from that region blows across the Atlantic and helps fertilize the Amazon rainforest.",
+            "p": "Prehistoric rock paintings of swimmers in southwestern Egypt and of cattle herds in Algeria’s Tassili n’Ajjer show that the region around them was green and wet until about 5,000 years ago. Dust from that region blows across the Atlantic and helps fertilize the Amazon rainforest.",
             "r": "That region, the Sahara, is the largest hot one of these places. For 10 points, name these regions that get very little rain."
         },
         {
@@ -147,7 +147,7 @@ data = {
             "r": "Cacti and other succulents store water in their thick stems in these places. For 10 points, name these very dry regions."
         },
         {
-            "p": "Antarctica’s McMurdo Dry Valleys, where fierce winds sweep away snow and almost none falls, are so dry that NASA studies them as a model for Mars. Polar examples of these places also cover much of the Arctic.",
+            "p": "The McMurdo Dry Valleys near the Ross Sea, where fierce winds sweep away snow and almost none falls, are so dry that NASA studies them as a model for Mars. Polar examples of these places also cover much of the Arctic.",
             "r": "Because it gets so little precipitation, Antarctica is the largest of these places. For 10 points, name these dry regions, whose largest hot example is the Sahara."
         },
         {
