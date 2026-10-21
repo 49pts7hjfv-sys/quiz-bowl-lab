@@ -44,7 +44,8 @@ data = {
         "diamagnetic",
         "magnet",
         "magnets",
-        "magnetic"
+        "magnetic",
+        "magnetic attraction"
     ],
     "reject": [
         "magnetic field",
@@ -122,7 +123,7 @@ data = {
             "r": "Like poles repel under it. For 10 points, name this force, which makes a compass needle line up north–south."
         },
         {
-            "p": "Liquid oxygen clings between the two poles of a strong horseshoe-shaped device, because its molecules are weakly pulled by this force. Bismuth, by contrast, is weakly pushed away by this force more strongly than any other metal is.",
+            "p": "Liquid oxygen clings between the two poles of a strong horseshoe-shaped device, because its molecules are weakly pulled by this force. Bismuth, by contrast, is pushed away by this force more strongly than any other metal, though still only weakly.",
             "r": "Iron, nickel, and cobalt are strongly pulled by it. For 10 points, name this force associated with north and south poles."
         },
         {
@@ -146,7 +147,7 @@ data = {
             "r": "Earth itself has this property, which compass needles respond to. For 10 points, name this force between north and south poles."
         },
         {
-            "p": "In the 1820s, William Sturgeon wrapped bare wire around a varnished iron horseshoe and found that it could lift several pounds by this force while a current flowed, then let go when the current stopped. Joseph Henry later built far stronger versions of that device using insulated wire wound in many layers.",
+            "p": "In the 1820s, William Sturgeon wrapped bare wire around a varnished iron horseshoe and found that it could lift several pounds by this force while a current flowed, then drop them once the battery was disconnected. Joseph Henry later built far stronger versions of that device using insulated wire wound in many layers.",
             "r": "Scrapyard cranes use such devices to lift cars. For 10 points, name this force that iron feels near lodestone."
         },
         {
@@ -162,7 +163,7 @@ data = {
         C("lodestone", "giveaway", "Lodestone, a natural iron-oxide rock, shows it and was used in the first compasses", ["lodestone", "first compasses"]),
         C("currents", "middle", "Electric currents and other moving charges produce it", ["electric currents", "moving charges"], "Electric current"),
         C("orsted", "middle", "Hans Christian Ørsted (1820) saw an electric current swing a compass needle, linking electricity with this force", ["ørsted", "oersted", "1820"]),
-        C("gilbert", "middle", "William Gilbert’s 1600 book _De Magnete_ said Earth acts like a giant lodestone; he modeled it with a sphere called a terrella", ["gilbert", "1600", "terrella"]),
+        C("gilbert", "middle", "William Gilbert’s 1600 book, written in Latin, said Earth acts like a giant lodestone; he modeled it with a sphere called a terrella", ["gilbert", "1600", "terrella", "de magnete"]),
         C("no-monopoles", "middle", "Breaking a compass needle in half makes two smaller needles, each with both poles; no lone pole (monopole) has been confirmed", ["monopole", "both poles"], "Magnetic monopoles"),
         C("domains", "middle", "Materials like iron contain domains, tiny regions whose atoms all point the same way", ["domains"]),
         C("curie", "middle", "Heating iron above its Curie temperature (about 770 °C) destroys its strong form of this property", ["curie temperature", "770"]),

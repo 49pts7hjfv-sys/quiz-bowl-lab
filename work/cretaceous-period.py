@@ -36,7 +36,9 @@ data = {
         "the age of reptiles",
         "age of dinosaurs",
         "the age of dinosaurs",
-        "age of the dinosaurs"
+        "age of the dinosaurs",
+        "mesozoic period",
+        "mesozoic times"
     ],
     "reject": [
         "jurassic",
@@ -143,7 +145,7 @@ data = {
             "r": "This period’s name comes from the Latin for “chalk.” For 10 points, name this last period of the Mesozoic Era."
         },
         {
-            "p": "During this period, the South Atlantic Ocean opened as South America and Africa pulled apart, and India drifted north toward Asia. Flowering plants spread across the land during this period.",
+            "p": "During this period, the South Atlantic Ocean opened as South America and Africa pulled apart, and India drifted north toward Asia. Flowering plants spread across the land during this period, alongside conifers, cycads, and ginkgoes.",
             "r": "For 10 points, name this period that followed the Jurassic and ended about 66 million years ago."
         },
         {
@@ -364,7 +366,8 @@ data = {
         ],
         "prompt": [
             "Mesozoic",
-            "Age of Dinosaurs"
+            "Age of Dinosaurs",
+            "Mesozoic period"
         ],
         "wrong": [
             "Jurassic",

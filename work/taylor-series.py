@@ -142,8 +142,8 @@ data = {
             "r": "For 10 points, name these infinite series, built from derivatives at one point, whose special case at zero is named for Colin Maclaurin."
         },
         {
-            "p": "The series for the arctangent of x, which is x minus x cubed over 3 plus x to the fifth over 5 and so on, gives pi over 4 when x equals 1, a formula named for Madhava and Gottfried Leibniz [“LYBE-nits”].",
-            "r": "The one for e to the x begins 1 plus x plus x squared over 2. For 10 points, name these series that write a function as an infinite sum using its derivatives at a single point."
+            "p": "The series for the arctangent of x, which is x minus x cubed over 3 plus x to the fifth over 5 and so on, gives pi over 4 when x equals 1, a formula named for Madhava and Gottfried Leibniz [“LYBE-nits”]. James Gregory found that arctangent series in 1671.",
+            "r": "For 10 points, name these series that write a function as an infinite sum using its derivatives at a single point."
         },
         {
             "p": "Taking the derivative of 1 plus x plus x squared over 2 plus x cubed over 6 and so on, term by term, gives back the very same sum, which shows why e to the x is its own derivative. That sum is one of these series.",

@@ -132,7 +132,7 @@ data = {
             "r": "For 10 points, name these clouds of gas and dust in space, whose name is Latin for “mist.”"
         },
         {
-            "p": "The Pleiades star cluster is wrapped in a blue haze of dust that scatters its stars’ light, one example of these objects. Other examples glow pinkish red as ultraviolet light from hot young stars makes their hydrogen shine.",
+            "p": "The blue haze of dust around the Pleiades star cluster, which scatters its stars’ light, is one example of these objects. Other examples glow pinkish red as ultraviolet light from hot young stars makes their hydrogen shine.",
             "r": "Those are the reflection and emission kinds. For 10 points, name these clouds of gas and dust between the stars."
         },
         {

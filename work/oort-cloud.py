@@ -104,7 +104,7 @@ data = {
             "r": "For 10 points, name this distant cloud of icy bodies that sends long-period comets toward the Sun."
         },
         {
-            "p": "Astronomers call comets making their first trip in from this region “dynamically new.” One such comet, ISON, broke apart in 2013 as it swung extremely close to the Sun.",
+            "p": "Astronomers call comets making their first trip in from this region “dynamically new,” and their ice has never been warmed much by the Sun. One such comet, ISON, broke apart in 2013 as it swung extremely close to the Sun.",
             "r": "Such comets have orbits lasting thousands or even millions of years. For 10 points, name this distant reservoir of comets that surrounds the solar system."
         },
         {

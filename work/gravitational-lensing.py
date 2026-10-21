@@ -8,7 +8,7 @@ TIP = "Search QBReader for this answer line (Middle School + Easy High School, p
 data = {
     "id": "gravitational-lensing",
     "name": "Gravitational lensing",
-    "mono": "GL",
+    "mono": "GLN",
     "category": "Astronomy",
     "qbCategory": "Science · Other Science (Astronomy)",
     "kicker": "Gravity bending and magnifying light · Predicted by Einstein’s relativity",
