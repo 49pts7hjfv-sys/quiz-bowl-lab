@@ -22,6 +22,7 @@ data = {
         "gerald r ford jr",
         "jerry ford",
         "president ford",
+        "pres ford",
         "president gerald ford"
     ],
     "prompt": [
@@ -40,10 +41,7 @@ data = {
         "ford motor company",
         "ford motor",
         "john ford",
-        "tom ford",
         "whitey ford",
-        "rob ford",
-        "doug ford",
         "ford madox ford",
         "fords theatre",
         "fords theater",

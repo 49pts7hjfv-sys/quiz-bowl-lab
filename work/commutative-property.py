@@ -120,15 +120,15 @@ data = {
             "r": "Subtraction and division lack it. For 10 points, name this property, which says that 3 plus 5 equals 5 plus 3."
         },
         {
-            "p": "The six rotations and flips of an equilateral triangle form the smallest group that lacks this property, since doing a flip and then a rotation can give a different result than doing them in the other order.",
+            "p": "The six rotations and flips of an equilateral triangle form the smallest group that lacks this property. In that group, doing a flip and then a rotation can give a different result than doing them in the other order.",
             "r": "For 10 points, name this property, under which the order of the numbers in a sum or product does not matter."
         },
         {
-            "p": "Exponents lack this property, since 2 cubed is 8 but 3 squared is 9; in fact, 2 and 4 are the only two different positive whole numbers that give the same answer either way, because 2 to the fourth and 4 squared both equal 16.",
+            "p": "Exponents lack this property, since 2 cubed is 8 but 3 squared is 9. In fact, 2 and 4 are the only two different positive whole numbers that give the same answer either way, because 2 to the fourth and 4 squared both equal 16.",
             "r": "For 10 points, name this property that addition and multiplication have but subtraction and division do not."
         },
         {
-            "p": "Composing functions usually lacks this property: if f of x is x plus 1 and g of x is 2x, then f of g of x is 2x plus 1, but g of f of x is 2x plus 2.",
+            "p": "Composing functions usually lacks this property. If f of x is x plus 1 and g of x is 2x, then f of g of x is 2x plus 1, but g of f of x is 2x plus 2.",
             "r": "For 10 points, name this property which says that the order in which two numbers are added does not change their sum."
         },
         {
@@ -136,7 +136,7 @@ data = {
             "r": "For 10 points, name this property, which says that changing the order of the numbers in a product does not change the answer."
         },
         {
-            "p": "The cross product of two vectors lacks this property, since swapping the two vectors flips the result to point the opposite way, though the dot product of two vectors does have this property.",
+            "p": "The cross product of two vectors lacks this property, since swapping the two vectors flips the result to point the opposite way. The dot product of two vectors, however, does have this property.",
             "r": "For 10 points, name this property, under which a times b always equals b times a for ordinary numbers."
         },
         {
@@ -149,7 +149,7 @@ data = {
         },
         {
             "p": "Joining words lacks this property, since “dog” followed by “house” makes “doghouse,” but “house” followed by “dog” makes “housedog.” In computer science, joining strings of text this way is called concatenation.",
-            "r": "For 10 points, name this property that addition has, since 4 plus 7 equals 7 plus 4."
+            "r": "For 10 points, name this property that addition has, since 4 plus 7 equals 7 plus 4, but subtraction does not."
         },
         {
             "p": "The name of this property comes from a French verb meaning “to exchange,” which shares a Latin root with the English word for traveling back and forth to work each day. Fields, such as the rational numbers, require both their addition and their multiplication to have this property.",
@@ -161,7 +161,7 @@ data = {
         },
         {
             "p": "In logic, the statement “p and q” is true exactly when “q and p” is true, so the operations “and” and “or” both have this property, as do the union and intersection of sets.",
-            "r": "It does not hold for subtraction. For 10 points, name this property, which says that changing the order of two numbers being multiplied does not change the product."
+            "r": "Subtraction lacks it. For 10 points, name this property, under which a times b equals b times a."
         }
     ],
     "clues": [
