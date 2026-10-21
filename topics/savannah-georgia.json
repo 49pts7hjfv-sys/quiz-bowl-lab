@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Georgia’s oldest city, founded 1733 · End of Sherman’s March to the Sea",
   "dates": "Founded 1733",
-  "briefing": "In 1733, James Oglethorpe and a shipload of English colonists climbed a bluff above a river near the Atlantic and laid out Savannah, the first city in Georgia, around a grid of shady public squares that still exist today. Eli Whitney built his cotton gin at a plantation nearby, and in 1864 General William T. Sherman ended his March to the Sea here, offering the city to Abraham Lincoln as a “Christmas gift.” Juliette Gordon Low founded the Girl Scouts here in 1912.",
+  "briefing": "In 1733, James Oglethorpe and a shipload of English colonists climbed a bluff above a river near the Atlantic and laid out Savannah, the first city in Georgia, around a grid of shady public squares, most of which still exist. Eli Whitney built his cotton gin at a plantation nearby, and in 1864 General William T. Sherman ended his March to the Sea here, offering the city to Abraham Lincoln as a “Christmas gift.” Juliette Gordon Low founded the Girl Scouts here in 1912.",
   "answerHtml": "<b><u>Savannah</u></b>, Georgia (do not accept “Georgia” alone)",
   "accept": [
     "savannah",
@@ -386,8 +386,8 @@
     }
   ],
   "trap": {
-    "title": "Start or end of the march?",
-    "body": "Sherman’s March to the Sea started in Atlanta, which his army captured in September 1864, and ended in Savannah in December 1864, so mixing up the two cities loses the tossup. “Georgia” alone is not enough when the question asks for a city. The Savannah River, Fort Pulaski, and Savannah, Tennessee (where Ulysses S. Grant had his headquarters during the Battle of Shiloh), are different answers.",
+    "title": "Which Georgia city?",
+    "body": "Sherman’s March to the Sea started in Atlanta, which his army captured in September 1864, and ended in Savannah in December 1864, so mixing up the two cities loses the tossup. “Georgia” alone is not enough when the question asks for a city. The Savannah River, Fort Pulaski, and Savannah, Tennessee (where Ulysses S. Grant had his headquarters when the Battle of Shiloh began), are different answers.",
     "fix": "John Bell Hood, “Atlanta is ours,” and Sherman’s letter to Mayor Calhoun mean Atlanta; Fort McAllister, Hardee’s retreat, and the “Christmas gift” mean Savannah. Oglethorpe, Tomochichi, the squares, and the Girl Scouts also mean Savannah.",
     "line": "Real answer line: <b><u>Savannah</u></b>, Georgia (do not accept “Georgia” alone)"
   },

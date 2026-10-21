@@ -71,14 +71,14 @@
   "tossups": [
     {
       "p": "During a Sun Dance in June 1876, this holy man had a vision of soldiers falling upside down into his people’s camp like grasshoppers, a sign of a coming victory. Days later, Lakota and Cheyenne warriors led by Crazy Horse fought General George Crook’s army to a standstill at the Rosebud.",
-      "r": "Weeks later, this man’s followers helped defeat George Armstrong Custer at the Little Bighorn. For 10 points, name this Hunkpapa Lakota leader."
+      "r": "Later that month, this man’s followers helped defeat George Armstrong Custer at the Little Bighorn. For 10 points, name this Hunkpapa Lakota leader."
     },
     {
       "p": "In July 1881, this man surrendered at Fort Buford in Dakota Territory, where his young son Crow Foot handed over his father’s rifle. He had returned from four years in Canada after hunger and the disappearance of the buffalo left his followers struggling to survive.",
       "r": "For 10 points, name this Hunkpapa Lakota leader whose people had defeated George Custer at the Little Bighorn."
     },
     {
-      "p": "In 1885, the Montreal photographer William Notman took a portrait of this man standing beside a famous showman, later captioned “Foes in ’76, Friends in ’85.” That summer, this man toured for about four months with the showman’s traveling company.",
+      "p": "In 1885, the Montreal studio of photographer William Notman took a portrait of this man standing beside a famous showman, later captioned “Foes in ’76, Friends in ’85.” That summer, this man toured for about four months with the showman’s traveling company.",
       "r": "That showman was Buffalo Bill Cody. For 10 points, name this Hunkpapa Lakota leader who nicknamed Annie Oakley “Little Sure Shot.”"
     },
     {
@@ -277,7 +277,7 @@
     {
       "id": "notman",
       "tier": "power",
-      "t": "William Notman photographed him with Buffalo Bill in Montreal (1885): “Foes in ’76, Friends in ’85”",
+      "t": "William Notman’s studio in Montreal photographed him with Buffalo Bill (1885): “Foes in ’76, Friends in ’85”",
       "k": [
         "notman",
         "montreal",
@@ -382,7 +382,7 @@
     {
       "id": "black-hills",
       "tier": "power",
-      "t": "After gold was found in the Black Hills, the Army ordered all Lakota bands onto reservations by January 31, 1876",
+      "t": "After gold was found in the Black Hills, the U.S. government ordered all Lakota bands onto reservations by January 31, 1876",
       "k": [
         "black hills",
         "january 31"

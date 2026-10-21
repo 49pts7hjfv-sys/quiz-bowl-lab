@@ -77,7 +77,7 @@
       "r": "For 10 points, name this 1765 law, proposed by George Grenville, that taxed newspapers and legal documents."
     },
     {
-      "p": "People accused of breaking this law could be tried in vice-admiralty courts, which had no juries, and its tax had to be paid in British coins rather than colonial paper money. Prime Minister George Grenville proposed it to help pay for about 10,000 British soldiers kept in North America.",
+      "p": "People accused of breaking this law could be tried in vice-admiralty courts, which had no juries, and its tax had to be paid in British currency rather than colonial paper money. Prime Minister George Grenville proposed it to help pay for about 10,000 British soldiers kept in North America.",
       "r": "Colonists protested it with the slogan “No taxation without representation.” For 10 points, name this 1765 tax on printed paper."
     },
     {
@@ -93,7 +93,7 @@
       "r": "Newspapers and legal documents needed specially marked paper too. For 10 points, name this 1765 law proposed by George Grenville."
     },
     {
-      "p": "Merchants in New York, Philadelphia, and Boston agreed to stop importing British goods until this law was repealed, and British merchants who lost business then lobbied Parliament against it. Almost every official chosen to distribute this law’s specially marked paper resigned before it took effect on November 1, 1765.",
+      "p": "Merchants in New York, Philadelphia, and Boston agreed to stop importing British goods until this law was repealed, and British merchants who lost business then lobbied Parliament against it. Most of the officials chosen to distribute this law’s specially marked paper were pressured into resigning before it took effect on November 1, 1765.",
       "r": "Groups called the Sons of Liberty formed to fight it. For 10 points, name this 1765 British tax on printed paper."
     },
     {
@@ -297,11 +297,11 @@
     {
       "id": "vice-admiralty",
       "tier": "power",
-      "t": "Accused violators faced vice-admiralty courts without juries; the tax had to be paid in British coins",
+      "t": "Accused violators faced vice-admiralty courts without juries; the tax had to be paid in British currency, not colonial paper money",
       "k": [
         "vice-admiralty",
         "juries",
-        "coins"
+        "british currency"
       ],
       "n": 0
     },
@@ -330,9 +330,9 @@
     {
       "id": "distributors",
       "tier": "power",
-      "t": "Almost every chosen tax distributor resigned before it took effect on November 1, 1765",
+      "t": "Under pressure, most of the chosen tax distributors resigned before it took effect on November 1, 1765",
       "k": [
-        "distributor",
+        "distributors",
         "november 1"
       ],
       "n": 0
@@ -404,7 +404,7 @@
     "title": "Which British tax?",
     "body": "Parliament taxed the colonies several times before the Revolution. The Sugar Act (1764) taxed molasses, the Stamp Act (1765) taxed printed paper, the Townshend Acts (1767) taxed glass, lead, paint, paper, and tea brought into the colonies, and the Tea Act (1773) led to the Boston Tea Party. The Stamp Act Congress is its own answer line, so answering with the law when a question asks for “this meeting” or “this congress” is wrong.",
     "fix": "Grenville, 1765, newspapers, playing cards, Andrew Oliver, Patrick Henry’s Virginia Resolves, and repeal alongside the Declaratory Act mean the Stamp Act. Molasses and 1764 mean the Sugar Act; glass, paint, and Charles Townshend mean the Townshend Acts.",
-    "line": "Real answer line: <b><u>Stamp Act</u></b> (do not accept “Sugar Act,” “Townshend Acts,” or “Tea Act”)"
+    "line": "Real answer line: <b><u>Stamp Act</u></b> of 1765 (accept Duties in American Colonies Act; prompt on <u>stamp tax</u>; do not accept “Sugar Act,” “Townshend Acts,” or “Tea Act”)"
   },
   "tests": {
     "right": [

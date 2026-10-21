@@ -7,7 +7,7 @@
   "kicker": "Highest-ranking senator · Third in line for the presidency",
   "dates": "First chosen in 1789",
   "briefing": "The Constitution makes the vice president the President of the Senate, but vice presidents are rarely there, so senators choose one of their own members to preside “for the time being,” which is what pro tempore means in Latin. By custom, the job goes to the longest-serving senator of the majority party, and it puts its holder third in line for the presidency. In 2023, Patty Murray of Washington became the first woman to hold it.",
-  "answerHtml": "<b><u>President pro tempore</u></b> of the Senate (or <u>President pro tem</u>; prompt on <u>pro tempore</u>; do not accept “President of the Senate,” “Vice President,” or “Speaker of the House”)",
+  "answerHtml": "<b><u>President pro tempore</u></b> of the Senate (or <u>President pro tem</u>; prompt on <u>pro tempore</u> or <u>presiding officer</u>; do not accept “President of the Senate,” “Vice President,” or “Speaker of the House”)",
   "accept": [
     "president pro tempore",
     "president pro tempore of the senate",
@@ -314,7 +314,7 @@
     {
       "id": "leahy",
       "tier": "power",
-      "t": "Patrick Leahy of Vermont held it twice and presided over Donald Trump’s 2021 impeachment trial, held after Trump had left office",
+      "t": "Patrick Leahy of Vermont held it twice (2012–2015 and 2021–2023) and presided over Donald Trump’s 2021 impeachment trial, held after Trump had left office",
       "k": [
         "patrick leahy",
         "leahy",
@@ -393,7 +393,7 @@
     "title": "Which presiding officer?",
     "body": "The Constitution makes the vice president the “President of the Senate,” so that answer is wrong here even though it sounds almost the same. The Senate majority leader, who runs the Senate’s day-to-day business, is a different job, and the Speaker of the House leads the House and comes just ahead of this office in the line of succession. Famous holders like Robert Byrd or Patty Murray can tempt you to buzz with a name when the question wants the office.",
     "fix": "Listen for “for the time being,” “when the vice president is absent,” or “longest-serving senator of the majority party.” “Third in line” means the President pro tempore; “second in line” means the Speaker; “first in line” or “breaks ties” means the vice president.",
-    "line": "Real answer line: <b><u>President pro tempore</u></b> of the Senate (or <u>President pro tem</u>; do not accept “President of the Senate” or “Vice President”)"
+    "line": "Real answer line: <b><u>President pro tempore</u></b> of the Senate (or <u>President pro tem</u>; prompt on <u>pro tempore</u> or <u>presiding officer</u>; do not accept “President of the Senate,” “Vice President,” or “Speaker of the House”)"
   },
   "tests": {
     "right": [
@@ -405,7 +405,8 @@
     ],
     "prompt": [
       "pro tempore",
-      "pro tem"
+      "pro tem",
+      "presiding officer"
     ],
     "wrong": [
       "President of the Senate",

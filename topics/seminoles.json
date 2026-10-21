@@ -4,10 +4,10 @@
   "mono": "SEM",
   "category": "American History",
   "qbCategory": "History · American History",
-  "kicker": "Native nation of Florida · Fought three wars against U.S. removal",
+  "kicker": "Native nation of Florida · Fought three wars against the United States",
   "dates": "Wars 1817–1818, 1835–1842, 1855–1858",
   "briefing": "In the 1700s, Creek families and other Native people moved into Spanish Florida and formed a new nation, the Seminoles, who were allied with communities of Black people who had escaped slavery. They fought three wars against the United States, and the longest, in which Osceola was a famous war leader, lasted from 1835 to 1842. Most Seminoles were forced west to Indian Territory, but a few hundred stayed in the Everglades, and their descendants still live in Florida.",
-  "answerHtml": "<b><u>Seminole</u></b>s (or <u>Seminole</u> Nation; accept <u>Seminole Tribe of Florida</u>; prompt on <u>Miccosukee</u> or <u>Five Civilized Tribes</u>; do not accept “Cherokee” or “Creek”)",
+  "answerHtml": "<b><u>Seminole</u></b>s (or <u>Seminole</u> Nation; accept <u>Seminole Tribe of Florida</u>; prompt on <u>Miccosukee</u>, <u>Black Seminoles</u>, or <u>Five Civilized Tribes</u>; do not accept “Cherokee” or “Creek”)",
   "accept": [
     "seminole",
     "seminoles",
@@ -422,7 +422,7 @@
     "title": "Which Southeastern nation?",
     "body": "The Seminole, Cherokee, Creek, Choctaw, and Chickasaw were all called the “Five Civilized Tribes,” and all were forced west in the 1800s, so their clues blur together. The Seminoles grew partly out of the Creek, but answering “Creek” or “Cherokee” is wrong when the clues point to Florida. The three wars are separate answer lines, so naming the people when a question asks for “this war” loses the tossup.",
     "fix": "Florida, the Everglades, Osceola, Dade’s battle, Billy Bowlegs, and Andrew Jackson’s 1818 invasion mean the Seminoles. Sequoyah, John Ross, and New Echota mean the Cherokee; the Red Sticks and Horseshoe Bend mean the Creek. Listen for “this nation” versus “this war.”",
-    "line": "Real answer line: <b><u>Seminole</u></b>s (or <u>Seminole</u> Nation; prompt on <u>Five Civilized Tribes</u>; do not accept “Cherokee” or “Creek”)"
+    "line": "Real answer line: <b><u>Seminole</u></b>s (or <u>Seminole</u> Nation; accept <u>Seminole Tribe of Florida</u>; prompt on <u>Miccosukee</u>, <u>Black Seminoles</u>, or <u>Five Civilized Tribes</u>; do not accept “Cherokee” or “Creek”)"
   },
   "tests": {
     "right": [
@@ -434,7 +434,8 @@
     ],
     "prompt": [
       "Miccosukee",
-      "Five Civilized Tribes"
+      "Five Civilized Tribes",
+      "Black Seminoles"
     ],
     "wrong": [
       "Cherokee",
