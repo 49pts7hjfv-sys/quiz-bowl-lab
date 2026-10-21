@@ -113,7 +113,7 @@ data = {
         },
         {
             "p": "On June 9, 2013, _The Guardian_ posted a video interview, filmed in Hong Kong, in which this 29-year-old revealed that he was the source of a series of stories about government surveillance. He had flown there from his home in Hawaii about three weeks earlier.",
-            "r": "For 10 points, name this man who exposed secret National Security Agency programs such as PRISM."
+            "r": "For 10 points, name this man who revealed secret National Security Agency programs such as PRISM."
         },
         {
             "p": "Russia granted this man temporary asylum in 2013, permanent residency in 2020, and citizenship in 2022, while in the United States he faced charges under the Espionage Act of 1917.",

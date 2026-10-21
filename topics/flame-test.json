@@ -5,7 +5,7 @@
   "category": "Chemistry",
   "qbCategory": "Science · Chemistry",
   "kicker": "Identifying metals by flame color · The chemistry behind colored fireworks",
-  "dates": "Explained by Bunsen and Kirchhoff in 1859",
+  "dates": "Studied with the spectroscope by Bunsen and Kirchhoff from 1859",
   "briefing": "In a flame test, a chemist dips a clean wire loop into a sample and holds it in a hot, nearly invisible blue flame to see what color appears. Many metals give their own colors: sodium glows yellow-orange, potassium lilac, copper green or blue-green, and strontium bright red. Heat bumps electrons up to higher energy levels, and as they fall back, they give off light of particular colors, the same chemistry that colors fireworks.",
   "answerHtml": "<b><u>Flame test</u></b> (prompt on <u>spectroscopy</u>, <u>emission spectroscopy</u>, or <u>flame photometry</u>; do not accept “Bunsen burner”)",
   "accept": [
@@ -407,7 +407,7 @@
     {
       "id": "desaga",
       "tier": "power",
-      "t": "The university mechanic Peter Desaga built the most famous burner for it in 1855",
+      "t": "The university mechanic Peter Desaga built the most famous burner used for it, in 1855",
       "k": [
         "desaga",
         "1855",

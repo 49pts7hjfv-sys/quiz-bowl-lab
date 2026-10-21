@@ -120,7 +120,7 @@
       "r": "For 10 points, name this property of an infinite series whose partial sums approach a finite limit, unlike the harmonic series."
     },
     {
-      "p": "The ratio test checks a series for this property by dividing each term by the term before it; if those ratios approach a number less than 1, the series has this property. If they approach exactly 1, the test gives no answer.",
+      "p": "The ratio test checks a series for this property by dividing the size of each term by the size of the term before it; if those ratios approach a number less than 1, the series has this property. If they approach exactly 1, the test gives no answer.",
       "r": "One-half plus one-fourth plus one-eighth and so on has this property, adding up to 1. For 10 points, name this property of infinite series."
     },
     {
@@ -129,11 +129,11 @@
     },
     {
       "p": "The Indian mathematician Madhava found that 1 minus one-third plus one-fifth minus one-seventh and so on equals pi over 4, though that series approaches its total very slowly. Gottfried Leibniz [“LYBE-nits”] names a test for this property in series whose terms alternate in sign and steadily shrink toward zero.",
-      "r": "For 10 points, name this property of infinite series, the opposite of divergence."
+      "r": "A series with this property has partial sums that approach one finite number. For 10 points, name this property of infinite series, the opposite of divergence."
     },
     {
       "p": "Zeno of Elea argued that Achilles could never catch a tortoise, since Achilles must first reach where the tortoise was, then where it moved next, and so on forever. Modern math answers Zeno by showing that an endless sum of shrinking time intervals can still have this property and total a finite time.",
-      "r": "For 10 points, name this property of an infinite series whose partial sums approach a finite limit."
+      "r": "One-half plus one-fourth plus one-eighth and so on has this property, adding up to 1. For 10 points, name this property of an infinite series whose partial sums approach a finite limit."
     },
     {
       "p": "The repeating decimal 0.999… can be written as nine-tenths plus nine-hundredths plus nine-thousandths and so on, a geometric series with this property whose total is exactly 1. Likewise, 0.333… is a series with this property that adds up to one-third.",
@@ -141,7 +141,7 @@
     },
     {
       "p": "A power series has this property only for values of x within a certain distance, called a radius, from its center, though the series for e to the x has this property for every value of x. At the edge of that radius, a series may or may not have this property.",
-      "r": "For 10 points, name this property of infinite series whose partial sums approach a finite limit."
+      "r": "Its opposite is divergence. For 10 points, name this property of infinite series whose partial sums approach a finite limit."
     },
     {
       "p": "The integral test decides this property for a series of positive, shrinking terms by comparing the series with the area under a curve. The nth-term test says that if a series’s terms do not shrink toward zero, the series cannot have this property.",
@@ -253,7 +253,7 @@
     {
       "id": "ratio-test",
       "tier": "middle",
-      "t": "Ratio test: if each term divided by the one before approaches a number less than 1, the series has it; exactly 1 tells nothing",
+      "t": "Ratio test: if each term’s size divided by the size of the one before approaches a number less than 1, the series has it; exactly 1 tells nothing",
       "k": [
         "ratio test",
         "less than 1"

@@ -90,7 +90,7 @@
       "r": "Congress repealed this policy later that year. For 10 points, name this policy on gay, lesbian, and bisexual service members, adopted in 1993."
     },
     {
-      "p": "In November 2010, a Pentagon study led by Jeh Johnson and General Carter Ham reported on surveys of service members and their families about this policy. The study concluded that ending this policy posed a low risk to the military’s effectiveness.",
+      "p": "In November 2010, a Pentagon study led by Jeh Johnson and General Carter Ham reported on surveys of service members and their families about this policy. The study concluded that ending this policy posed a low risk to the military’s effectiveness, though troops in combat units voiced more concern.",
       "r": "Weeks later, Barack Obama signed a law repealing it. For 10 points, name this 1993 policy on gay service members."
     },
     {
@@ -98,7 +98,7 @@
       "r": "For 10 points, name this policy, adopted under Bill Clinton, that let gay service members serve only if they kept their sexual orientation private."
     },
     {
-      "p": "Senators Joe Lieberman of Connecticut and Susan Collins of Maine led a December 2010 push to end this policy, and the Senate approved its repeal by a vote of 65 to 31. Four days later, the repeal was signed into law.",
+      "p": "Senator Joe Lieberman of Connecticut led a December 2010 push to end this policy, and the Senate approved its repeal by a vote of 65 to 31, with votes from both parties. Four days later, the repeal was signed into law.",
       "r": "Barack Obama signed that repeal. For 10 points, name this policy on gay service members that began under Bill Clinton."
     },
     {
@@ -110,7 +110,7 @@
       "r": "Congress repealed this policy that December. For 10 points, name this 1993 policy on gay, lesbian, and bisexual service members."
     },
     {
-      "p": "During his 1992 campaign, a future president promised to end the military’s ban on gay service members, but after months of fierce debate in 1993, he accepted this policy as a compromise instead.",
+      "p": "During his 1992 campaign, a future president promised to end the military’s ban on gay service members, but after months of debate in 1993, he accepted this policy as a compromise instead.",
       "r": "That president was Bill Clinton. For 10 points, name this policy, under which gay troops could serve only if they did not reveal their sexual orientation."
     },
     {
@@ -126,7 +126,7 @@
       "r": "For 10 points, name this policy on gay, lesbian, and bisexual service members that took effect in 1994."
     },
     {
-      "p": "Senate Majority Leader Harry Reid helped pass the 2010 law ending this policy. That same year, Reid also helped pass the Dodd–Frank law, which set new rules for banks after the 2008 financial crisis.",
+      "p": "In September 2010, an effort to end this policy as part of the yearly defense bill stalled in the Senate. That December, Senate Majority Leader Harry Reid brought a separate repeal bill to a vote, and it passed.",
       "r": "For 10 points, name this policy, adopted in 1993, that let gay service members serve only if they kept their sexual orientation private."
     },
     {
@@ -284,7 +284,7 @@
     {
       "id": "pentagon-study",
       "tier": "power",
-      "t": "A November 2010 Pentagon study led by Jeh Johnson and General Carter Ham found that ending it posed a low risk to the military",
+      "t": "A November 2010 Pentagon study led by Jeh Johnson and General Carter Ham found that ending it posed a low risk, though combat troops voiced more concern",
       "k": [
         "jeh johnson",
         "carter ham",
@@ -306,11 +306,11 @@
     {
       "id": "senate-vote",
       "tier": "power",
-      "t": "Senators Joe Lieberman and Susan Collins led the repeal push; the Senate voted 65 to 31 in December 2010",
+      "t": "Senator Joe Lieberman led the repeal push; the Senate voted 65 to 31 in December 2010, with votes from both parties",
       "k": [
         "lieberman",
-        "susan collins",
-        "65 to 31"
+        "65 to 31",
+        "both parties"
       ],
       "n": 0
     },
@@ -349,11 +349,11 @@
     {
       "id": "reid",
       "tier": "power",
-      "t": "Senate Majority Leader Harry Reid helped pass its repeal, the same year he helped pass the Dodd–Frank law",
+      "t": "Senate Majority Leader Harry Reid brought a separate repeal bill to a vote in December 2010, after a September effort through the defense bill stalled",
       "k": [
         "harry reid",
         "reid",
-        "dodd–frank"
+        "defense bill"
       ],
       "n": 0,
       "rabbit": "Harry Reid"

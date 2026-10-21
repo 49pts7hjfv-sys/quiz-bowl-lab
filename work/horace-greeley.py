@@ -1,0 +1,306 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "horace-greeley",
+    "name": "Horace Greeley",
+    "mono": "HG",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Founder of the _New-York Tribune_ · Ran for president against Grant in 1872",
+    "dates": "1811–1872",
+    "briefing": "Horace Greeley started the _New-York Tribune_ in 1841 and made it one of the most widely read papers in America; its weekly edition reached farm families all across the North. He fought slavery, pushed Abraham Lincoln to free enslaved people, and is famous for the advice “Go West, young man,” though he may not have coined it. In 1872 he ran for president against Ulysses S. Grant, lost, and died before the Electoral College voted.",
+    "answerHtml": "Horace <b><u>Greeley</u></b> (do not accept “Horace Mann” or “William Lloyd Garrison”)",
+    "accept": [
+        "horace greeley",
+        "greeley",
+        "editor greeley",
+        "horace greely"
+    ],
+    "prompt": [],
+    "reject": [
+        "horace mann",
+        "william lloyd garrison",
+        "lloyd garrison",
+        "garrison",
+        "ulysses s grant",
+        "ulysses grant",
+        "grant",
+        "henry raymond",
+        "henry j raymond",
+        "james gordon bennett",
+        "charles dana",
+        "charles a dana",
+        "joseph pulitzer",
+        "william randolph hearst",
+        "thurlow weed",
+        "william seward",
+        "william cullen bryant",
+        "b gratz brown",
+        "gratz brown",
+        "thomas nast",
+        "frederick douglass",
+        "adolphus greely",
+        "greeley colorado",
+        "horace greeley colorado"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Horace_Greeley",
+    "qb": {
+        "q": "Greeley",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "During an 1859 trip across the country, this journalist interviewed the Mormon leader Brigham Young in Salt Lake City, in one of the first published newspaper interviews written in question-and-answer form. He described the trip in _An Overland Journey from New York to San Francisco_.",
+            "r": "He had founded the _New-York Tribune_ in 1841. For 10 points, name this editor often credited with the advice “Go West, young man.”"
+        },
+        {
+            "p": "In August 1862, this editor published an open letter called “The Prayer of Twenty Millions,” urging Abraham Lincoln to act more boldly against slavery. Lincoln replied that “if I could save the Union without freeing any slave I would do it.”",
+            "r": "This editor later ran for president against Ulysses S. Grant. For 10 points, name this founder of the _New-York Tribune_."
+        },
+        {
+            "p": "In 1867, this newspaperman helped sign the bail bond that freed former Confederate president Jefferson Davis from prison at Fort Monroe, angering many Northerners. At the 1860 Republican convention, he had worked against his former ally William Seward, who lost the nomination to Abraham Lincoln.",
+            "r": "For 10 points, name this editor of the _New-York Tribune_ who ran for president in 1872."
+        },
+        {
+            "p": "This editor hired Margaret Fuller as his newspaper’s literary critic and later sent her to Europe as a foreign correspondent. In the 1850s, his paper also published articles by Karl Marx, who wrote to it from London.",
+            "r": "That paper was the _New-York Tribune_, which he founded in 1841. For 10 points, name this editor who ran for president in 1872."
+        },
+        {
+            "p": "In 1870, this man’s agricultural editor, Nathan Meeker, led settlers who founded the Union Colony in Colorado, and the town they built was named for this man. This man often urged poor workers in Eastern cities to move to western farms.",
+            "r": "He is often credited with the advice “Go West, young man,” though he may not have coined it. For 10 points, name this founder of the _New-York Tribune_."
+        },
+        {
+            "p": "Missouri governor B. Gratz Brown was this man’s running mate in a presidential race. During that campaign, Thomas Nast drew cartoons mocking this man in _Harper’s Weekly_, often showing him in his trademark long white coat.",
+            "r": "He was nominated by the Liberal Republicans and the Democrats in 1872 but lost to Ulysses S. Grant. For 10 points, name this newspaper editor."
+        },
+        {
+            "p": "This man’s wife died days before a November 1872 election, and he himself died on November 29, 1872, before the Electoral College voted. Most of the electors pledged to him then cast their votes for other men.",
+            "r": "Weeks earlier, he had lost that presidential election to Ulysses S. Grant. For 10 points, name this editor of the _New-York Tribune_."
+        },
+        {
+            "p": "In 1840, this editor ran _The Log Cabin_, a campaign newspaper that helped elect William Henry Harrison. He worked closely with the New York Whig leaders Thurlow Weed and William Seward until he broke with them in an 1854 letter to Seward.",
+            "r": "In 1841, he founded the _New-York Tribune_. For 10 points, name this editor who ran for president against Ulysses S. Grant in 1872."
+        },
+        {
+            "p": "In 1861, this man’s newspaper repeated the headline “Forward to Richmond!” day after day, rejecting Winfield Scott’s slow Anaconda Plan and pushing Union troops toward the Confederate capital. The march it demanded ended in defeat at the First Battle of Bull Run.",
+            "r": "Years later, he ran for president against Ulysses S. Grant. For 10 points, name this founder of the _New-York Tribune_."
+        },
+        {
+            "p": "In July 1864, this man met Confederate agents at Niagara Falls to discuss possible peace talks. Abraham Lincoln’s secretary John Hay then brought a letter from Lincoln addressed “To Whom It May Concern,” which said any peace offer had to restore the Union and abandon slavery.",
+            "r": "For 10 points, name this _New-York Tribune_ editor who had urged Lincoln to free enslaved people in “The Prayer of Twenty Millions.”"
+        },
+        {
+            "p": "During a three-month term in Congress in 1848 and 1849, this man angered other members by printing a list of the extra travel money they collected for taking long, roundabout routes between their homes and Washington.",
+            "r": "He is better remembered for founding the _New-York Tribune_ in 1841. For 10 points, name this editor who ran for president in 1872."
+        },
+        {
+            "p": "Henry Raymond worked for this man before founding _The New York Times_ in 1851. This man had started his own daily newspaper in 1841, selling it for one cent a copy, and its weekly edition later reached readers all over the rural North.",
+            "r": "This man ran for president against Ulysses S. Grant in 1872. For 10 points, name this founder of the _New-York Tribune_."
+        },
+        {
+            "p": "Starting in 1842, this editor gave Albert Brisbane a regular column to promote the ideas of the French thinker Charles Fourier [“FOOR-ee-ay”], whose followers built cooperative communities called phalanxes. This editor also hired Charles A. Dana, who became his managing editor.",
+            "r": "For 10 points, name this founder of the _New-York Tribune_ who ran for president in 1872."
+        },
+        {
+            "p": "Born to a poor farm family in Amherst, New Hampshire, in 1811, this man trained as a printer’s apprentice in Vermont before moving to New York City. In 1834, he started a literary weekly called _The New-Yorker_, which is not related to the later magazine.",
+            "r": "Seven years later, he founded the _New-York Tribune_. For 10 points, name this editor associated with the advice “Go West, young man.”"
+        },
+        {
+            "p": "This author wrote _The American Conflict_, a two-volume history of the Civil War, and a memoir titled _Recollections of a Busy Life_. Before the war, his newspaper fiercely opposed the Kansas–Nebraska Act and helped build the new Republican Party.",
+            "r": "For 10 points, name this founder of the _New-York Tribune_ who lost the 1872 presidential election to Ulysses S. Grant."
+        }
+    ],
+    "clues": [
+        {
+            "id": "tribune",
+            "tier": "giveaway",
+            "t": "Founded the _New-York Tribune_ in 1841",
+            "k": ["new-york tribune", "tribune", "1841"],
+            "n": 0
+        },
+        {
+            "id": "go-west",
+            "tier": "giveaway",
+            "t": "Often credited with the advice “Go West, young man,” though he may not have coined the phrase",
+            "k": ["go west", "young man"],
+            "n": 0
+        },
+        {
+            "id": "election-1872",
+            "tier": "giveaway",
+            "t": "Ran for president in 1872 as the Liberal Republican and Democratic nominee; lost to Ulysses S. Grant",
+            "k": ["1872", "liberal republican", "ulysses s. grant", "grant"],
+            "n": 0,
+            "rabbit": "Ulysses S. Grant"
+        },
+        {
+            "id": "died-1872",
+            "tier": "middle",
+            "t": "Died on November 29, 1872, weeks after the election and before the Electoral College voted; his wife had died days before the election",
+            "k": ["november 29", "electoral college", "wife"],
+            "n": 0
+        },
+        {
+            "id": "prayer",
+            "tier": "middle",
+            "t": "“The Prayer of Twenty Millions” (1862) urged Lincoln to act against slavery; Lincoln replied, “If I could save the Union without freeing any slave I would do it”",
+            "k": ["prayer of twenty millions", "twenty millions", "save the union"],
+            "n": 0,
+            "rabbit": "Emancipation Proclamation"
+        },
+        {
+            "id": "davis-bail",
+            "tier": "middle",
+            "t": "Helped sign Jefferson Davis’s bail bond in 1867, freeing him from prison at Fort Monroe",
+            "k": ["jefferson davis", "bail bond", "fort monroe"],
+            "n": 0,
+            "rabbit": "Jefferson Davis"
+        },
+        {
+            "id": "antislavery",
+            "tier": "middle",
+            "t": "His paper opposed slavery and the Kansas–Nebraska Act (1854) and helped build the new Republican Party",
+            "k": ["republican party", "slavery", "kansas"],
+            "n": 0
+        },
+        {
+            "id": "forward-richmond",
+            "tier": "middle",
+            "t": "In 1861 his paper demanded “Forward to Richmond!”, rejecting the Anaconda Plan before the First Battle of Bull Run",
+            "k": ["forward to richmond", "bull run", "anaconda plan"],
+            "n": 0,
+            "rabbit": "Anaconda Plan"
+        },
+        {
+            "id": "fuller-marx",
+            "tier": "middle",
+            "t": "Hired Margaret Fuller as critic and foreign correspondent; Karl Marx wrote for his paper from London in the 1850s",
+            "k": ["margaret fuller", "karl marx", "fuller", "marx"],
+            "n": 0
+        },
+        {
+            "id": "penny-paper",
+            "tier": "power",
+            "t": "His paper began in 1841 as a one-cent daily; its weekly edition reached readers across the rural North",
+            "k": ["one-cent", "weekly edition", "rural north"],
+            "n": 0
+        },
+        {
+            "id": "brigham-young",
+            "tier": "power",
+            "t": "Interviewed Brigham Young in Salt Lake City (1859), one of the first question-and-answer newspaper interviews; wrote _An Overland Journey_",
+            "k": ["brigham young", "salt lake city", "overland journey"],
+            "n": 0
+        },
+        {
+            "id": "gratz-brown",
+            "tier": "power",
+            "t": "His 1872 running mate was Missouri governor B. Gratz Brown; Thomas Nast mocked him in _Harper’s Weekly_ cartoons",
+            "k": ["gratz brown", "thomas nast", "nast", "harper"],
+            "n": 0
+        },
+        {
+            "id": "log-cabin",
+            "tier": "power",
+            "t": "Edited _The Log Cabin_ (1840), a campaign paper for William Henry Harrison",
+            "k": ["log cabin", "william henry harrison", "harrison"],
+            "n": 0
+        },
+        {
+            "id": "seward-weed",
+            "tier": "power",
+            "t": "Allied with New York Whigs Thurlow Weed and William Seward, then broke with them (1854); worked against Seward at the 1860 Republican convention",
+            "k": ["thurlow weed", "seward", "weed"],
+            "n": 0
+        },
+        {
+            "id": "niagara",
+            "tier": "power",
+            "t": "Met Confederate agents at Niagara Falls (1864); Lincoln answered with a “To Whom It May Concern” letter",
+            "k": ["niagara falls", "to whom it may concern", "1864"],
+            "n": 0
+        },
+        {
+            "id": "congress",
+            "tier": "power",
+            "t": "Served three months in Congress (1848–1849) and exposed members’ padded travel pay",
+            "k": ["travel pay", "congress", "three months"],
+            "n": 0
+        },
+        {
+            "id": "meeker",
+            "tier": "power",
+            "t": "His agricultural editor, Nathan Meeker, founded the Union Colony (1870), a Colorado town named for him",
+            "k": ["nathan meeker", "union colony", "colorado"],
+            "n": 0
+        },
+        {
+            "id": "raymond",
+            "tier": "power",
+            "t": "Henry Raymond worked for him before founding _The New York Times_ (1851)",
+            "k": ["henry raymond", "raymond", "new york times"],
+            "n": 0
+        },
+        {
+            "id": "fourier",
+            "tier": "power",
+            "t": "Gave Albert Brisbane a column promoting Charles Fourier’s cooperative “phalanxes”; hired Charles A. Dana, his managing editor",
+            "k": ["fourier", "brisbane", "phalanxes", "dana"],
+            "n": 0
+        },
+        {
+            "id": "new-yorker",
+            "tier": "power",
+            "t": "Born in Amherst, New Hampshire (1811); a printer’s apprentice in Vermont; founded the weekly _The New-Yorker_ (1834)",
+            "k": ["amherst", "new hampshire", "printer", "new-yorker"],
+            "n": 0
+        },
+        {
+            "id": "american-conflict",
+            "tier": "power",
+            "t": "Wrote _The American Conflict_, a two-volume Civil War history, and _Recollections of a Busy Life_",
+            "k": ["american conflict", "recollections of a busy life"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Greeley, Garrison, or Mann?",
+        "body": "Several 1800s reformers blur together. Horace Greeley founded the _New-York Tribune_ and ran for president in 1872. William Lloyd Garrison, a fiercer abolitionist, published _The Liberator_ in Boston. Horace Mann, who shares his first name, was the Massachusetts reformer who championed public schools. And the 1872 race has its own trap: the winner was Ulysses S. Grant, so “Grant” is wrong when the question wants his opponent.",
+        "fix": "The _Tribune_, “Go West, young man,” “The Prayer of Twenty Millions,” Jefferson Davis’s bail bond, and the 1872 Liberal Republicans mean Greeley. _The Liberator_ and immediate abolition mean Garrison; public schools and normal schools mean Mann.",
+        "line": "Real answer line: Horace <b><u>Greeley</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Horace Greeley",
+            "Greeley",
+            "Horace Greely",
+            "Greely",
+            "Horace Greeleey"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Horace Mann",
+            "William Lloyd Garrison",
+            "Ulysses S. Grant",
+            "Henry Raymond",
+            "James Gordon Bennett",
+            "Thomas Nast",
+            "Joseph Pulitzer"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

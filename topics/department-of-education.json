@@ -123,11 +123,11 @@
       "r": "For 10 points, name this Cabinet department, created by Jimmy Carter, that runs federal student aid."
     },
     {
-      "p": "In 2002, George W. Bush signed No Child Left Behind, which required states to test students every year in reading and math, and this department enforced it. In 2015, Barack Obama replaced that law with the Every Student Succeeds Act, which gave states more control.",
+      "p": "In 2002, George W. Bush signed No Child Left Behind, which required states to test students every year in reading and math, and this department enforced it. In 2015, Barack Obama signed the Every Student Succeeds Act, which replaced that law and gave states more control.",
       "r": "For 10 points, name this Cabinet department, created in 1979, that oversees federal school programs."
     },
     {
-      "p": "This department’s Office for Civil Rights enforces Title IX, a 1972 law that bans discrimination based on sex in school programs that receive federal money. That law helped bring about a huge increase in girls’ and women’s sports.",
+      "p": "This department’s Office for Civil Rights enforces Title IX, a 1972 law that bans discrimination based on sex in school programs that receive federal money. That law helped bring about a large increase in girls’ and women’s sports.",
       "r": "For 10 points, name this Cabinet department, first led by Shirley Hufstedler in 1979."
     },
     {
@@ -147,7 +147,7 @@
       "r": "For 10 points, name this Cabinet department, first led by Shirley Hufstedler."
     },
     {
-      "p": "In his 1980 campaign, Ronald Reagan promised to abolish this new department, and calls to close it have returned in later decades. Instead, Reagan appointed three men to lead it in turn: Terrel Bell, William Bennett, and Lauro Cavazos.",
+      "p": "In his 1980 campaign, Ronald Reagan promised to abolish this new department, and debates over whether to keep it have returned in later decades. Once in office, Reagan instead appointed three men to lead it in turn: Terrel Bell, William Bennett, and Lauro Cavazos.",
       "r": "For 10 points, name this Cabinet department, created under Jimmy Carter in 1979."
     },
     {
@@ -192,7 +192,7 @@
     {
       "id": "hufstedler",
       "tier": "middle",
-      "t": "First secretary: Shirley Hufstedler, a federal appeals court judge (1979–1981)",
+      "t": "First secretary (1979–1981): Shirley Hufstedler, who had been a federal appeals court judge",
       "k": [
         "shirley hufstedler",
         "hufstedler",
@@ -273,6 +273,17 @@
         "nation at risk",
         "terrel bell",
         "mediocrity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "order-2025",
+      "tier": "middle",
+      "t": "A March 2025 executive order directed steps toward closing it; fully abolishing it would take an act of Congress",
+      "k": [
+        "executive order",
+        "2025",
+        "act of congress"
       ],
       "n": 0
     },
@@ -402,7 +413,7 @@
   ],
   "trap": {
     "title": "Education or Energy?",
-    "body": "Jimmy Carter created two Cabinet departments: the Department of Energy in 1977 and this one in 1979, so the president clue alone won’t tell you which. This department also grew out of an older one, Health, Education, and Welfare (1953), whose leftover parts became Health and Human Services. Some questions instead want the 1867 agency led by Henry Barnard, or a famous case like _Brown v. Board of Education_.",
+    "body": "Jimmy Carter created two Cabinet departments: the Department of Energy in 1977 and this one in 1979, so the president clue alone won’t tell you which. This department also grew out of an older one, Health, Education, and Welfare (1953), whose leftover parts became Health and Human Services. Don’t answer the older U.S. Office of Education, which this department replaced in 1980, or the court case _Brown v. Board of Education_.",
     "fix": "Oil, nuclear power, and the 1970s energy crisis mean Energy, which is usually called “DOE.” Schools, Pell Grants, the FAFSA, Title IX, and Shirley Hufstedler mean this department, whose official abbreviation is “ED.” Say the whole name, because “education” alone may only earn a prompt.",
     "line": "Real answer line: <b><u>Department of Education</u></b> (accept <u>Education Department</u>; prompt on <u>education</u>; do not accept “Department of Energy” or “Department of Health, Education, and Welfare”)"
   }

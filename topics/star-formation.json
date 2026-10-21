@@ -1,0 +1,454 @@
+{
+  "id": "star-formation",
+  "name": "Star formation",
+  "mono": "STF",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Collapsing clouds of gas and dust · How every star, including the Sun, began",
+  "dates": "Pillars of Creation photographed 1995 (Hubble) and 2022 (Webb)",
+  "briefing": "Every star, including the Sun, began inside a cold, dark cloud of gas and dust. When a clump of such a cloud collapses under its own gravity, it heats up into a protostar wrapped in a spinning disk, where planets may later form. Once its core gets hot enough to fuse hydrogen, a true star is born; the Hubble and Webb telescopes have photographed star formation inside the famous Pillars of Creation.",
+  "answerHtml": "<b><u>star formation</u></b> (accept <u>stellar formation</u>, <u>star birth</u>, or descriptions of stars forming; prompt on <u>protostar</u>s or <u>stellar evolution</u>; do not accept “nebulae,” “main sequence,” or “nuclear fusion”)",
+  "accept": [
+    "star formation",
+    "stellar formation",
+    "formation of stars",
+    "formation of a star",
+    "formation of new stars",
+    "star birth",
+    "stellar birth",
+    "birth of stars",
+    "birth of a star",
+    "birth of new stars",
+    "starbirth",
+    "how stars form",
+    "how stars are born",
+    "how stars are formed"
+  ],
+  "prompt": [
+    "protostar",
+    "protostars",
+    "stellar evolution",
+    "star evolution",
+    "evolution of stars",
+    "life cycle of a star",
+    "life cycle of stars",
+    "stellar life cycle",
+    "gravitational collapse",
+    "stellar nursery",
+    "stellar nurseries",
+    "star forming region",
+    "star forming regions"
+  ],
+  "reject": [
+    "nebula",
+    "nebulae",
+    "nebulas",
+    "main sequence",
+    "main sequence star",
+    "main sequence stars",
+    "zero age main sequence",
+    "nuclear fusion",
+    "fusion",
+    "hydrogen fusion",
+    "nucleosynthesis",
+    "stellar nucleosynthesis",
+    "planet formation",
+    "planetary formation",
+    "galaxy formation",
+    "molecular cloud",
+    "molecular clouds",
+    "star cluster",
+    "star clusters",
+    "supernova",
+    "supernovae",
+    "red giant",
+    "red giants",
+    "big bang",
+    "t tauri star",
+    "t tauri stars",
+    "brown dwarf",
+    "brown dwarfs",
+    "pillars of creation",
+    "orion nebula",
+    "eagle nebula"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Star_formation",
+  "qb": {
+    "q": "star formation",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1902, James Jeans worked out that a cloud of gas will collapse under its own gravity once its mass passes a critical value, which is larger for hotter clouds. That is why the coldest, densest clumps inside a cloud collapse most easily.",
+      "r": "Those clumps heat up into protostars. For 10 points, name this process by which clouds of gas and dust give rise to new stars."
+    },
+    {
+      "p": "George Herbig and Guillermo Haro [“AH-roh”] separately studied small, glowing knots of gas that turned out to be places where narrow jets from very young stars slam into the surrounding cloud. Those jets shoot out along the spin axes of disks around the young stars.",
+      "r": "For 10 points, name this process, which happens inside cold clouds of gas and dust and produces protostars."
+    },
+    {
+      "p": "Young stars named for a variable star in Taurus flicker unpredictably, blow strong winds, and are still shrinking, because hydrogen fusion has not yet switched on in their cores. Such stars are usually less than ten million years old.",
+      "r": "Those T Tauri stars are in the late stages of this process. For 10 points, name this process by which collapsing clouds of gas and dust create stars."
+    },
+    {
+      "p": "In 1947, Bart Bok suggested that small, round, dark clouds of dust, later named Bok globules, are places where this process may be happening. Infrared telescopes have since found young stars hidden inside some of them.",
+      "r": "For 10 points, name this process by which cold clouds of gas and dust collapse to make new stars."
+    },
+    {
+      "p": "Small knots of gas nicknamed EGGs, short for “evaporating gaseous globules,” may hold newborn stars at the tips of three columns of gas and dust in the Eagle Nebula. Ultraviolet light from nearby hot, young stars is slowly eating those columns away.",
+      "r": "Hubble photographed those Pillars of Creation in 1995, and Webb photographed them in 2022. For 10 points, name this process that creates new stars."
+    },
+    {
+      "p": "In the 1990s, Hubble images of the glowing cloud in Orion’s sword revealed many “proplyds,” dusty disks around newborn stars where planets may someday form. Four bright young stars called the Trapezium light up that cloud.",
+      "r": "That cloud, the Orion Nebula, is the nearest big stellar nursery. For 10 points, name this process that creates new stars."
+    },
+    {
+      "p": "Chushiro Hayashi [“hah-YAH-shee”] showed that young stars about as heavy as the Sun slide almost straight down the H–R diagram, getting dimmer while their surfaces stay about the same temperature. Heavier young stars finish that trip along Henyey tracks, which run to the left.",
+      "r": "Both kinds of tracks end at the main sequence. For 10 points, name this process that turns collapsing clouds into stars."
+    },
+    {
+      "p": "In 1955, Edwin Salpeter described the initial mass function, which shows that this process makes far more small stars than big ones. The rare, very massive stars it produces burn out within a few million years, while the red dwarfs it produces can shine for trillions of years.",
+      "r": "For 10 points, name this process in which clouds of gas and dust collapse into new stars."
+    },
+    {
+      "p": "Because cold hydrogen molecules give off almost no light, astronomers map the clouds where this process happens by detecting radio waves from carbon monoxide. Those giant molecular clouds can hold enough gas to make many thousands of Suns.",
+      "r": "For 10 points, name this process in which dense pieces of such clouds collapse and become new stars."
+    },
+    {
+      "p": "In 2014, the ALMA telescope array in Chile photographed bright rings and dark gaps in the disk around the young star HL Tauri, possibly carved by forming planets. Such disks form because a collapsing cloud spins faster as it shrinks, flattening out like spinning pizza dough.",
+      "r": "For 10 points, name this process that produces protostars and the spinning disks of gas and dust around them."
+    },
+    {
+      "p": "Shock waves from exploding stars, collisions between gas clouds, and the density waves that shape a galaxy’s spiral arms can all set off this process by squeezing clouds of gas. Spiral arms look blue partly because of the hot, young stars this process has created there.",
+      "r": "For 10 points, name this process that turns collapsing clouds of gas and dust into stars."
+    },
+    {
+      "p": "This process can produce objects with less than about 8 percent of the Sun’s mass, but they never get hot enough inside to keep fusing ordinary hydrogen. Instead of becoming true stars, those objects become brown dwarfs, sometimes called “failed stars.”",
+      "r": "For 10 points, name this process in which clouds of gas and dust collapse into protostars."
+    },
+    {
+      "p": "One of the James Webb Space Telescope’s first images, released in July 2022, showed the “Cosmic Cliffs,” the edge of a cavity in the Carina Nebula where this process is going on. Webb’s infrared cameras see through the dust that hides young stars.",
+      "r": "For 10 points, name this process that creates stars from collapsing clouds of gas and dust."
+    },
+    {
+      "p": "Before nuclear reactions begin, a young object that is still forming shines because the energy released as it shrinks under its own gravity heats it up, a process called Kelvin–Helmholtz contraction. Fusion switches on once its core reaches roughly 10 million kelvins.",
+      "r": "At that point, the protostar becomes a main-sequence star. For 10 points, name this process that creates stars."
+    },
+    {
+      "p": "The Tarantula, a vast glowing cloud in the Large Magellanic Cloud, is the most active known site of this process in the Local Group of galaxies. Starburst galaxies such as M82 undergo this process many times faster than the Milky Way does.",
+      "r": "For 10 points, name this process, in which giant clouds of gas and dust collapse into new stars."
+    }
+  ],
+  "clues": [
+    {
+      "id": "clouds-collapse",
+      "tier": "giveaway",
+      "t": "Begins when a cold cloud of gas and dust collapses under its own gravity",
+      "k": [
+        "cloud of gas and dust",
+        "collapses",
+        "gravity"
+      ],
+      "n": 0
+    },
+    {
+      "id": "protostar",
+      "tier": "giveaway",
+      "t": "The collapsing clump heats up into a protostar",
+      "k": [
+        "protostar",
+        "heats up"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fusion-begins",
+      "tier": "giveaway",
+      "t": "Ends when the core gets hot enough to fuse hydrogen, and a new main-sequence star is born",
+      "k": [
+        "fuse hydrogen",
+        "main-sequence"
+      ],
+      "n": 0,
+      "rabbit": "Main sequence"
+    },
+    {
+      "id": "pillars",
+      "tier": "giveaway",
+      "t": "A famous site is the Pillars of Creation in the Eagle Nebula, photographed by Hubble (1995) and Webb (2022)",
+      "k": [
+        "pillars of creation",
+        "eagle nebula",
+        "1995",
+        "2022"
+      ],
+      "n": 0
+    },
+    {
+      "id": "orion",
+      "tier": "giveaway",
+      "t": "The Orion Nebula, in Orion’s sword, is the nearest big stellar nursery",
+      "k": [
+        "orion nebula",
+        "stellar nursery"
+      ],
+      "n": 0,
+      "rabbit": "Nebulae"
+    },
+    {
+      "id": "molecular-clouds",
+      "tier": "middle",
+      "t": "Happens in giant molecular clouds of cold hydrogen molecules, only about 10 to 20 degrees above absolute zero",
+      "k": [
+        "molecular clouds",
+        "absolute zero"
+      ],
+      "n": 0
+    },
+    {
+      "id": "disk",
+      "tier": "middle",
+      "t": "Leftover material flattens into a spinning protoplanetary disk, where planets can form",
+      "k": [
+        "protoplanetary disk",
+        "planets"
+      ],
+      "n": 0
+    },
+    {
+      "id": "t-tauri",
+      "tier": "middle",
+      "t": "T Tauri stars, named for a variable star in Taurus, are young stars that have not yet started fusing hydrogen",
+      "k": [
+        "t tauri",
+        "variable star"
+      ],
+      "n": 0
+    },
+    {
+      "id": "infrared",
+      "tier": "middle",
+      "t": "Dust hides newborn stars, so astronomers use infrared telescopes like Spitzer and Webb to see them",
+      "k": [
+        "infrared",
+        "spitzer",
+        "webb"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jets",
+      "tier": "middle",
+      "t": "Newborn stars shoot narrow jets out along their spin axes",
+      "k": [
+        "jets",
+        "spin axes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triggers",
+      "tier": "middle",
+      "t": "Shock waves from supernovae, colliding clouds, and spiral-arm density waves can trigger it",
+      "k": [
+        "shock waves",
+        "density waves",
+        "supernovae"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brown-dwarfs",
+      "tier": "middle",
+      "t": "Clumps with less than about 8 percent of the Sun’s mass become brown dwarfs, “failed stars”",
+      "k": [
+        "brown dwarfs",
+        "failed stars",
+        "8 percent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clusters",
+      "tier": "middle",
+      "t": "Stars are usually born in groups, which is why young stars are often found in clusters",
+      "k": [
+        "groups",
+        "clusters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "proplyds",
+      "tier": "middle",
+      "t": "Hubble found “proplyds,” dusty disks around newborn stars, in the Orion Nebula, which is lit by the four Trapezium stars",
+      "k": [
+        "proplyds",
+        "trapezium"
+      ],
+      "n": 0,
+      "rabbit": "Orion"
+    },
+    {
+      "id": "jeans",
+      "tier": "power",
+      "t": "James Jeans (1902): a cloud collapses once its mass passes a critical value, the Jeans mass, which is larger for hotter clouds",
+      "k": [
+        "jeans mass",
+        "james jeans",
+        "1902"
+      ],
+      "n": 0
+    },
+    {
+      "id": "herbig-haro",
+      "tier": "power",
+      "t": "Glowing knots where those jets hit gas are named for George Herbig and Guillermo Haro",
+      "k": [
+        "herbig",
+        "haro"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bok",
+      "tier": "power",
+      "t": "Bart Bok (1947) suggested that small, dark clouds, later named Bok globules, are sites where it happens",
+      "k": [
+        "bok globules",
+        "1947"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eggs",
+      "tier": "power",
+      "t": "EGGs (“evaporating gaseous globules”) at the tips of the Pillars of Creation may hold newborn stars",
+      "k": [
+        "evaporating gaseous globules",
+        "eggs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hayashi",
+      "tier": "power",
+      "t": "Young Sun-like stars slide almost straight down the H–R diagram on Hayashi tracks; heavier ones move left on Henyey tracks",
+      "k": [
+        "hayashi tracks",
+        "henyey"
+      ],
+      "n": 0
+    },
+    {
+      "id": "salpeter",
+      "tier": "power",
+      "t": "Edwin Salpeter’s initial mass function (1955): far more small stars form than big ones",
+      "k": [
+        "salpeter",
+        "initial mass function",
+        "1955"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carbon-monoxide",
+      "tier": "power",
+      "t": "Astronomers map molecular clouds with radio waves from carbon monoxide, since cold hydrogen molecules give off almost no light",
+      "k": [
+        "carbon monoxide",
+        "radio waves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hl-tauri",
+      "tier": "power",
+      "t": "ALMA’s 2014 image of the disk around HL Tauri showed rings and gaps, possibly carved by forming planets",
+      "k": [
+        "alma",
+        "hl tauri",
+        "2014"
+      ],
+      "n": 0
+    },
+    {
+      "id": "angular-momentum",
+      "tier": "power",
+      "t": "Conservation of angular momentum makes a collapsing cloud spin faster and flatten into a disk",
+      "k": [
+        "angular momentum",
+        "spin faster"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cosmic-cliffs",
+      "tier": "power",
+      "t": "Webb’s July 2022 image of the “Cosmic Cliffs” in the Carina Nebula showed a region where it is happening",
+      "k": [
+        "cosmic cliffs",
+        "carina nebula"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kelvin-helmholtz",
+      "tier": "power",
+      "t": "Before fusion starts, a protostar shines from heat released as it shrinks (Kelvin–Helmholtz contraction); fusion starts near 10 million kelvins",
+      "k": [
+        "kelvin–helmholtz",
+        "10 million kelvins",
+        "shrinks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tarantula",
+      "tier": "power",
+      "t": "The Tarantula in the Large Magellanic Cloud is the most active known stellar nursery in the Local Group; starburst galaxies like M82 make stars far faster than the Milky Way",
+      "k": [
+        "tarantula",
+        "starburst",
+        "m82"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Process, place, or stage?",
+    "body": "Star formation tossups describe a process, but they are full of places and objects that are answer lines of their own: the nebulae and molecular clouds where it happens, the protostars and T Tauri stars it makes, and the main sequence that a new star joins once nuclear fusion starts. Players who hear “Orion Nebula” or “Pillars of Creation” often blurt out “nebulae.”",
+    "fix": "“This process” plus collapse, the Jeans mass, protostars, Herbig–Haro objects, or disks means star formation. “These clouds” means nebulae or molecular clouds; “this band on the H–R diagram” means the main sequence; “this reaction” means nuclear fusion. Saying only “protostars” earns a prompt, so name the process.",
+    "line": "Real answer line: <b><u>star formation</u></b> (accept <u>stellar formation</u> or <u>star birth</u>; prompt on <u>protostar</u>s)"
+  },
+  "tests": {
+    "right": [
+      "Star formation",
+      "stellar formation",
+      "Star formaton",
+      "the birth of stars",
+      "formation of stars",
+      "how stars form"
+    ],
+    "prompt": [
+      "Protostars",
+      "stellar evolution"
+    ],
+    "wrong": [
+      "Nebulae",
+      "Main sequence",
+      "Nuclear fusion",
+      "Molecular clouds",
+      "Planet formation",
+      "Supernova",
+      "Stars"
+    ]
+  }
+}

@@ -18,7 +18,9 @@
     "r",
     "gas constant r",
     "constant r",
-    "r constant"
+    "r constant",
+    "gas law constant",
+    "ideal gas law constant"
   ],
   "prompt": [],
   "reject": [
@@ -97,19 +99,19 @@
       "r": "Multiplying this constant by temperature and moles gives pressure times volume for an ideal gas. For 10 points, name this constant."
     },
     {
-      "p": "Jacobus van ’t Hoff [“vahnt HOFF”], winner of the first Nobel Prize in Chemistry, showed that osmotic pressure equals a solution’s molarity times this constant times the absolute temperature, the same form as a law for gases.",
-      "r": "That gas law, first stated by Émile Clapeyron in 1834, also uses this constant. For 10 points, name this constant, about 8.314 joules per mole per kelvin."
+      "p": "Jacobus van ’t Hoff [“vahnt HOFF”], winner of the first Nobel Prize in Chemistry, showed that osmotic pressure equals a solution’s molarity times this constant times the absolute temperature. That formula has the same form as a gas law first stated by Émile Clapeyron in 1834.",
+      "r": "That gas law is the ideal gas law. For 10 points, name this constant, about 8.314 joules per mole per kelvin."
     },
     {
       "p": "The root-mean-square speed of gas molecules is the square root of a fraction: three times this constant times the temperature, divided by the molar mass. That formula shows why light helium atoms move much faster than heavy xenon atoms at the same temperature.",
       "r": "It is about 8.314 joules per mole per kelvin. For 10 points, name this constant, which equals Avogadro’s number times the Boltzmann constant."
     },
     {
-      "p": "Meteorologists divide this constant by the molar mass of dry air to get a “specific” version, about 287 joules per kilogram per kelvin, for that air. Engineers use similar versions for each individual gas, such as helium or carbon dioxide.",
+      "p": "Chemists pick the value of this constant that matches their pressure units. With pressures in torr, or millimeters of mercury, it is about 62.4 liter-torr per mole per kelvin, because one atmosphere equals 760 torr.",
       "r": "For 10 points, name this universal constant, about 8.314 joules per mole per kelvin, from the ideal gas law."
     },
     {
-      "p": "When an ideal gas expands reversibly at constant temperature, the work it does equals the number of moles times this constant times the temperature times the natural log of the ratio of the final volume to the starting volume.",
+      "p": "Because this constant has the same value for every ideal gas, equal volumes of different gases at the same temperature and pressure hold the same number of molecules. Amedeo Avogadro first proposed that rule in 1811.",
       "r": "It equals about 8.314 joules per mole per kelvin. For 10 points, name this constant that appears in the ideal gas law."
     },
     {
@@ -117,7 +119,7 @@
       "r": "For 10 points, name this constant that appears in the ideal gas law, written pressure times volume equals moles times this constant times temperature."
     },
     {
-      "p": "The Clausius–Clapeyron [“KLOW-zee-us kla-pay-ROHN”] equation, which predicts how a liquid’s vapor pressure rises with temperature, divides the heat of vaporization by this constant. A plot of the natural log of vapor pressure against one over temperature has a slope equal to the negative of that ratio.",
+      "p": "The Clausius–Clapeyron [“KLOW-zee-us klah-pay-RAWN”] equation, which predicts how a liquid’s vapor pressure rises with temperature, divides the heat of vaporization by this constant. A plot of the natural log of vapor pressure against one over temperature has a slope equal to the negative of that ratio.",
       "r": "For 10 points, name this constant, about 8.314 joules per mole per kelvin, which also appears in the ideal gas law."
     },
     {
@@ -321,24 +323,24 @@
       "n": 0
     },
     {
-      "id": "specific-air",
+      "id": "torr-value",
       "tier": "power",
-      "t": "Divided by the molar mass of dry air, it gives a “specific” version for air of about 287 joules per kilogram per kelvin",
+      "t": "With pressures in torr, it is about 62.4 liter-torr per mole per kelvin, since one atmosphere equals 760 torr",
       "k": [
-        "specific",
-        "dry air",
-        "287"
+        "62.4",
+        "torr",
+        "760"
       ],
       "n": 0
     },
     {
-      "id": "isothermal-work",
+      "id": "avogadro-law",
       "tier": "power",
-      "t": "When an ideal gas expands reversibly at constant temperature, its work equals moles times it times temperature times the natural log of the volume ratio",
+      "t": "Because it has the same value for every ideal gas, equal volumes of gases at the same temperature and pressure hold equal numbers of molecules (Avogadro, 1811)",
       "k": [
-        "reversibly",
-        "volume ratio",
-        "work"
+        "equal volumes",
+        "1811",
+        "equal numbers"
       ],
       "n": 0
     },
@@ -400,7 +402,8 @@
       "ideal gas constant",
       "universal gas constant",
       "the gas constant R",
-      "Gas constnat"
+      "Gas constnat",
+      "Ideal gas law constant"
     ],
     "prompt": [],
     "wrong": [

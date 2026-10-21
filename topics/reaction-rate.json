@@ -22,7 +22,9 @@
     "speed of reaction",
     "speed of a reaction",
     "reaction speed",
-    "reaction velocity"
+    "reaction velocity",
+    "speed of a chemical reaction",
+    "speed of chemical reactions"
   ],
   "prompt": [
     "rate",
@@ -69,7 +71,13 @@
     "activated complex",
     "reaction quotient",
     "yield",
-    "percent yield"
+    "percent yield",
+    "reaction time",
+    "reaction times",
+    "reaction type",
+    "reaction types",
+    "heat of reaction",
+    "heats of reaction"
   ],
   "media": [],
   "mediaPending": true,
@@ -141,7 +149,7 @@
       "r": "For 10 points, name this quantity, the speed at which reactants are turned into products."
     },
     {
-      "p": "Cato Guldberg and Peter Waage’s [“VAH-guhz”] law of mass action, from 1864, linked this quantity to the concentrations of the reacting substances. Twenty years later, Jacobus van ’t Hoff [“vahnt HOFF”] wrote _Studies in Chemical Dynamics_, a founding work in the study of this quantity.",
+      "p": "Cato Guldberg and Peter Waage’s [“VAW-gehz”] law of mass action, from 1864, linked this quantity to the concentrations of the reacting substances. Twenty years later, Jacobus van ’t Hoff [“vahnt HOFF”] wrote _Studies in Chemical Dynamics_, a founding work in the study of this quantity.",
       "r": "For 10 points, name this quantity, which collision theory explains and which increases with temperature."
     }
   ],
@@ -417,7 +425,9 @@
       "Rate law",
       "Temperature",
       "Half-life",
-      "Equilibrium"
+      "Equilibrium",
+      "Reaction time",
+      "Heat of reaction"
     ]
   }
 }

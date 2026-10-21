@@ -100,7 +100,7 @@
   },
   "tossups": [
     {
-      "p": "In March 1850, Senator James Mason of Virginia read aloud the last major speech of a dying John C. Calhoun, who opposed this plan and warned that the Union could break apart. Calhoun died that same month, about half a year before Congress finally passed this plan.",
+      "p": "Senator James Mason of Virginia read aloud the last major speech of a dying John C. Calhoun, who opposed this plan and warned that the Union could break apart. Calhoun died less than a month later, about half a year before Congress finally passed this plan.",
       "r": "Henry Clay had proposed it. For 10 points, name this group of laws that admitted California to the Union as a free state."
     },
     {
@@ -108,19 +108,19 @@
       "r": "For 10 points, name this group of laws, proposed by Henry Clay, that included a tougher Fugitive Slave Act."
     },
     {
-      "p": "William Seward of New York opposed this plan in a Senate speech claiming that there is “a higher law than the Constitution.” Seward wanted slavery kept out of all the land the United States had won in the war with Mexico.",
+      "p": "William Seward of New York opposed this plan in a Senate speech claiming that there is “a higher law than the Constitution.” Seward argued that slavery should not be allowed to spread into the lands the United States had won in the war with Mexico.",
       "r": "Millard Fillmore signed this plan’s laws after Zachary Taylor’s death. For 10 points, name this set of laws that admitted California as a free state."
     },
     {
-      "p": "A president who had been a hero of the war with Mexico opposed this plan, but he died in July 1850 after falling ill following a Fourth of July celebration. His successor, a New Yorker, supported this plan and signed each of its laws that September.",
+      "p": "A president who had been a hero of the war with Mexico opposed this plan, but he died after falling ill following a Fourth of July celebration. His successor, a New Yorker, supported this plan and signed each of its laws that September.",
       "r": "Those presidents were Zachary Taylor and Millard Fillmore. For 10 points, name this set of laws, proposed by Henry Clay, that admitted California as a free state."
     },
     {
-      "p": "During the Senate debate over this plan in April 1850, Henry Foote of Mississippi pulled a pistol on Thomas Hart Benton of Missouri, though no shot was fired. Months later, this plan passed only after it was broken up into separate bills.",
+      "p": "During the Senate debate over this plan, Henry Foote of Mississippi pulled a pistol on Thomas Hart Benton of Missouri, though no shot was fired. Months later, this plan passed only after it was broken up into separate bills.",
       "r": "For 10 points, name this set of laws, proposed by Henry Clay, that admitted California as a free state and banned the slave trade in Washington, D.C."
     },
     {
-      "p": "A Senate committee of thirteen bundled the parts of this plan into a single “Omnibus Bill,” which opponents picked apart in July 1850. Illinois senator Stephen Douglas then split that bill into separate measures and steered each one through Congress.",
+      "p": "A Senate committee of thirteen bundled the parts of this plan into a single “Omnibus Bill,” which opponents picked apart in July. Illinois senator Stephen Douglas then split that bill into separate measures and steered each one through Congress.",
       "r": "This plan’s author was Henry Clay of Kentucky. For 10 points, name this set of laws that admitted California as a free state."
     },
     {
@@ -144,7 +144,7 @@
       "r": "This plan instead let settlers in Utah and New Mexico decide on slavery. For 10 points, name this group of laws that admitted California as a free state."
     },
     {
-      "p": "In June 1850, delegates from several slave states met at the Nashville Convention to discuss how to defend slavery in the West, and some of them called for leaving the Union. Months later, this plan calmed the crisis, at least for a time.",
+      "p": "While Congress debated this plan, delegates from several slave states met at the Nashville Convention to discuss how to defend slavery in the West, and some of them called for leaving the Union. Months later, this plan calmed the crisis, at least for a time.",
       "r": "Its laws were signed by Millard Fillmore. For 10 points, name this set of laws that admitted California as a free state."
     },
     {
@@ -200,11 +200,11 @@
     {
       "id": "fillmore",
       "tier": "giveaway",
-      "t": "Signed by President Millard Fillmore in September 1850",
+      "t": "Signed by President Millard Fillmore in September, about two months after he took office",
       "k": [
         "millard fillmore",
         "fillmore",
-        "september 1850"
+        "september"
       ],
       "n": 0
     },
@@ -232,7 +232,7 @@
     {
       "id": "douglas",
       "tier": "middle",
-      "t": "Stephen Douglas passed it as separate bills after Clay’s “Omnibus Bill” fell apart in July 1850",
+      "t": "Stephen Douglas passed it as separate bills after Clay’s “Omnibus Bill” fell apart in July",
       "k": [
         "stephen douglas",
         "douglas",
@@ -245,11 +245,11 @@
     {
       "id": "taylor",
       "tier": "middle",
-      "t": "President Zachary Taylor opposed it but died in July 1850; his successor, Millard Fillmore, supported it",
+      "t": "President Zachary Taylor opposed it but died in July; his successor, Millard Fillmore, supported it",
       "k": [
         "zachary taylor",
         "taylor",
-        "july 1850"
+        "july"
       ],
       "n": 0
     },
@@ -268,7 +268,7 @@
     {
       "id": "calhoun",
       "tier": "middle",
-      "t": "A dying John C. Calhoun’s last speech, against it, was read by Senator James Mason of Virginia (March 1850)",
+      "t": "A dying John C. Calhoun’s last major speech, against it, was read aloud in March by Senator James Mason of Virginia",
       "k": [
         "calhoun",
         "james mason",
@@ -324,7 +324,7 @@
     {
       "id": "foote-benton",
       "tier": "power",
-      "t": "During the debate, Henry Foote of Mississippi pulled a pistol on Thomas Hart Benton of Missouri in the Senate (April 1850)",
+      "t": "During the debate, Henry Foote of Mississippi pulled a pistol on Thomas Hart Benton of Missouri on the Senate floor in April",
       "k": [
         "foote",
         "benton",
@@ -335,7 +335,7 @@
     {
       "id": "committee-of-thirteen",
       "tier": "power",
-      "t": "A Senate Committee of Thirteen bundled its parts into one “Omnibus Bill” in 1850",
+      "t": "A Senate Committee of Thirteen, chaired by Clay, bundled its parts into one “Omnibus Bill”",
       "k": [
         "committee of thirteen",
         "thirteen",
@@ -377,7 +377,7 @@
     {
       "id": "nashville",
       "tier": "power",
-      "t": "Delegates from several slave states met at the Nashville Convention (June 1850), and some called for leaving the Union",
+      "t": "While it was debated, delegates from several slave states met at the Nashville Convention, and some called for leaving the Union",
       "k": [
         "nashville convention",
         "nashville"
@@ -456,6 +456,6 @@
     "title": "Which compromise?",
     "body": "Henry Clay helped pass three famous deals: the Missouri Compromise (1820), the Compromise Tariff of 1833, and this one, so an early buzz on Clay clues can go wrong. The Kansas–Nebraska Act of 1854 also used popular sovereignty, and the Compromise of 1877 ended Reconstruction. Some tossups ask only for one of this deal’s five laws, the Fugitive Slave Act, and then “Compromise of 1850” is wrong.",
     "fix": "California, Utah and New Mexico, the slave trade in Washington, D.C., Zachary Taylor’s death, Millard Fillmore, and Webster’s Seventh of March speech mean 1850. Maine, Missouri, and the 36°30′ line mean 1820; Kansas means 1854; Rutherford B. Hayes means 1877. Saying just “compromise” earns a prompt, so give the year.",
-    "line": "Real answer line: <b><u>Compromise of 1850</u></b> (prompt on <u>compromise</u> or <u>Omnibus Bill</u>; do not accept “Missouri Compromise,” “Kansas–Nebraska Act,” or “Fugitive Slave Act”)"
+    "line": "Real answer line: <b><u>Compromise of 1850</u></b> (prompt on <u>compromise</u> alone or <u>Omnibus Bill</u>; do not accept “Missouri Compromise,” “Kansas–Nebraska Act,” “Fugitive Slave Act,” or “Compromise of 1877”)"
   }
 }

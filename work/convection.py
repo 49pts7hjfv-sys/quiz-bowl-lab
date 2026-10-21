@@ -1,0 +1,213 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+
+def C(cid, tier, t, k, rabbit=None):
+    d = {"id": cid, "tier": tier, "t": t, "k": k, "n": 0}
+    if rabbit:
+        d["rabbit"] = rabbit
+    return d
+
+
+LINE = "<b><u>convection</u></b> (accept <u>convection current</u>s or word forms like <u>convective</u> heat transfer; prompt on <u>heat transfer</u>; do not accept “conduction” or “radiation”)"
+
+data = {
+    "id": "convection",
+    "name": "Convection",
+    "mono": "CNV",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Heat carried by a moving fluid · Warm fluid rises, cool fluid sinks",
+    "dates": "Bénard’s heated-fluid cells, 1900; Rayleigh’s theory, 1916",
+    "briefing": "Watch a pot of water heat up on the stove and you can see convection at work: hot water rises, cooler water sinks, and the loop keeps going. This churning carries heat through liquids and gases, powering sea breezes, thunderstorms, and lava lamps. Deep inside Earth, the same process slowly stirs the rock of the mantle and helps move the continents, and on the Sun it makes the glowing surface bubble with cells the size of Texas.",
+    "answerHtml": LINE,
+    "accept": [
+        "convection",
+        "convections",
+        "convection current",
+        "convection currents",
+        "convective",
+        "convective heat transfer",
+        "convective transfer",
+        "convectional",
+        "heat convection",
+        "thermal convection",
+        "natural convection",
+        "free convection",
+        "forced convection",
+        "convection cell",
+        "convection cells",
+        "mantle convection"
+    ],
+    "prompt": [
+        "heat transfer",
+        "transfer of heat",
+        "heat flow",
+        "thermal transfer",
+        "heat transport"
+    ],
+    "reject": [
+        "conduction",
+        "conductions",
+        "thermal conduction",
+        "heat conduction",
+        "conductivity",
+        "thermal conductivity",
+        "radiation",
+        "thermal radiation",
+        "heat radiation",
+        "infrared radiation",
+        "electromagnetic radiation",
+        "convection zone",
+        "convective zone",
+        "sea breeze",
+        "sea breezes",
+        "land breeze",
+        "plate tectonics",
+        "ocean currents",
+        "ocean current",
+        "buoyancy",
+        "insulation",
+        "evaporation",
+        "temperature",
+        "heat capacity",
+        "specific heat"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Convection",
+    "qb": {"q": "convection", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "A dimensionless number named for Lord Rayleigh predicts when a layer of fluid heated from below will start this process. Above a critical value of that number, the fluid organizes into circulating cells, which in a thin layer can form a honeycomb of hexagons named for Henri Bénard [“bay-NAR”].",
+            "r": "For 10 points, name this way of moving heat, in which warm fluid rises and cool fluid sinks."
+        },
+        {
+            "p": "In 2020, the Daniel K. Inouye [“ih-NOH-way”] Solar Telescope released close-ups of the Sun’s surface showing a pattern of cells, each about the size of Texas. In those cells, called granules, hot gas wells up in the bright centers and sinks back down along the darker edges after cooling.",
+            "r": "For 10 points, name this kind of heat transfer, in which hot fluid rises and cooler fluid sinks."
+        },
+        {
+            "p": "In the late 1920s, British geologist Arthur Holmes proposed that heat from radioactive decay drives slow currents of this kind in the mantle, strong enough to drag continents apart. Rising plumes of hot rock carried by this process are thought to feed volcanic hotspots such as the one beneath Hawaii.",
+            "r": "This process in the mantle helps drive plate tectonics. For 10 points, name this transfer of heat by a moving fluid."
+        },
+        {
+            "p": "In 1735, George Hadley explained the trade winds by picturing warm air rising at the equator and flowing toward the poles high in the sky. The giant loops of air named for him, which sink again around 30 degrees latitude, are driven by this process.",
+            "r": "For 10 points, name this way heat moves through fluids, in which warm fluid rises and cooler fluid sinks."
+        },
+        {
+            "p": "On the International Space Station, a candle flame forms a dim, blue sphere instead of a pointed teardrop, because this process stops working in near-weightlessness and the flame’s hot gases do not float upward. Fans must keep the station’s air moving for the same reason.",
+            "r": "For 10 points, name this transfer of heat in which warm, less dense fluid rises and cooler, denser fluid sinks."
+        },
+        {
+            "p": "Despite their name, the hot-water radiators in many older buildings warm a room mostly by this process, not by giving off infrared light. This process is also why heaters are usually placed near the floor, while air-conditioning vents work best near the ceiling.",
+            "r": "For 10 points, name this process, one of the three main ways heat travels, along with conduction and radiation."
+        },
+        {
+            "p": "The Nusselt [“NOO-selt”] number compares the heat carried by this process with the heat that conduction alone would carry across the same layer of fluid. Newton’s law of cooling, often used to describe heat lost this way, says a hot object cools faster when the difference in temperature is larger.",
+            "r": "A fan speeds up this process. For 10 points, name this transfer of heat by moving fluid."
+        },
+        {
+            "p": "Glider pilots and soaring birds such as vultures ride thermals, columns of warm air rising from sun-heated ground in this process. When the rising air is moist, it cools as it climbs, and its water vapor condenses into puffy cumulus clouds that can grow into towering thunderheads.",
+            "r": "Boiling water rolls in a pot because of this process. For 10 points, name this transfer of heat by the circulation of a fluid."
+        },
+        {
+            "p": "Red dwarf stars smaller than about a third of the Sun’s mass are thought to be stirred by this process all the way from the core to the surface. In the Sun, by contrast, energy first crosses an inner radiative zone, and this process carries it only through the outer part of the interior.",
+            "r": "A lava lamp shows this process. For 10 points, name this transfer of heat by moving fluid."
+        },
+        {
+            "p": "Ovens named for this process use a fan to blow hot air around the food, so dishes cook faster and more evenly; engineers call that version “forced,” in contrast to the “natural” version driven only by differences in density. A computer’s cooling fan uses the forced version too.",
+            "r": "For 10 points, name this way of moving heat, in which warm fluid rises and cool fluid sinks."
+        },
+        {
+            "p": "Swirling flows of molten iron in Earth’s liquid outer core, driven largely by this process as the core loses heat to the mantle above it, generate the planet’s magnetic field. Scientists call that self-sustaining engine the geodynamo.",
+            "r": "This process in the mantle helps move tectonic plates. For 10 points, name this transfer of heat by moving fluid."
+        },
+        {
+            "p": "Because water has a much higher specific heat than sand and soil, coastal land warms faster on sunny afternoons, and this process sends cool air flowing inland off the water. After sunset the flow reverses, since the land also cools off faster, producing a land breeze.",
+            "r": "For 10 points, name this transfer of heat by moving fluid, which drives sea breezes."
+        },
+        {
+            "p": "Each autumn, this process makes many lakes “turn over” as surface water cools, becomes denser, and sinks, carrying oxygen down to the bottom. Because water is densest at about 4 degrees Celsius, this process stops once the surface water gets colder than that, so ice can form on top.",
+            "r": "For 10 points, name this transfer of heat by moving fluid, in which warm fluid rises and cool fluid sinks."
+        },
+        {
+            "p": "In a classic classroom demonstration of this process, a purple crystal of potassium permanganate is dropped into a beaker of water heated from one side, and streaks of color rise above the flame, drift across the top, and sink on the opposite side.",
+            "r": "Boiling water rolls in a pot for the same reason. For 10 points, name this transfer of heat by moving fluid."
+        },
+        {
+            "p": "James Dewar’s 1892 vacuum flask keeps drinks hot or cold by placing a vacuum between two glass walls, which blocks both conduction and this process, while silvered surfaces cut down radiation. This process cannot happen in a rigid solid like a metal spoon, because its particles cannot flow from place to place.",
+            "r": "For 10 points, name this transfer of heat by the movement of a liquid or gas."
+        }
+    ],
+    "clues": [
+        C("definition", "giveaway", "Heat carried from place to place by a moving fluid, either a liquid or a gas", ["moving fluid", "liquid", "gas"]),
+        C("currents", "giveaway", "Its currents form because warm fluid rises while cooler, denser fluid sinks", ["warm fluid rises", "denser", "sinks"]),
+        C("three-ways", "giveaway", "One of the three ways heat travels, along with conduction and radiation", ["conduction", "radiation", "three ways"]),
+        C("boiling", "giveaway", "Makes boiling water roll and circulate in a pot heated from below", ["boiling water", "pot"]),
+        C("mantle", "giveaway", "Slow currents of it in Earth’s mantle help move the tectonic plates", ["mantle", "tectonic plates"], "Plate tectonics"),
+        C("sea-breeze", "middle", "Sea breeze: land heats faster than water by day, so cool air flows in off the sea; at night a land breeze blows the other way", ["sea breeze", "land breeze"]),
+        C("buoyancy", "middle", "Heated fluid expands and becomes less dense, so buoyancy pushes it upward; it needs gravity to work", ["less dense", "buoyancy", "gravity"]),
+        C("no-solids", "middle", "Needs a fluid that can flow, so it cannot carry heat through a rigid solid or across empty space", ["rigid solid", "empty space", "flow"]),
+        C("forced", "middle", "Forced versions use a fan or pump, as in ovens named for it; natural versions run on density differences alone", ["forced", "fan", "natural"]),
+        C("sun-zone", "middle", "Carries energy through the outer part of the Sun’s interior; its rising cells show up as granules on the surface", ["granules", "outer part"], "The Sun"),
+        C("radiators", "middle", "Household radiators warm rooms mostly this way, which is why heaters sit low and air-conditioning vents work best up high", ["radiators", "heaters"]),
+        C("thermals", "middle", "Thermals, rising columns of warm air, lift gliders and soaring birds and build cumulus clouds and thunderstorms", ["thermals", "gliders", "cumulus"]),
+        C("lava-lamp", "middle", "A lava lamp shows it: heated wax rises, cools at the top, and sinks again", ["lava lamp", "wax"]),
+        C("permanganate", "middle", "Classroom demo: a potassium permanganate crystal in water heated from one side traces purple loops", ["potassium permanganate", "purple"]),
+        C("rayleigh", "power", "The Rayleigh number predicts when a fluid layer heated from below will start circulating", ["rayleigh number", "heated from below"]),
+        C("benard", "power", "Henri Bénard (1900) saw a thin heated layer of fluid break into a honeycomb of hexagonal cells", ["bénard", "hexagonal", "honeycomb"]),
+        C("inouye", "power", "The Inouye Solar Telescope’s 2020 images showed the Sun’s granules, each about the size of Texas", ["inouye", "texas", "2020"]),
+        C("holmes", "power", "Arthur Holmes (late 1920s) proposed that heat from radioactivity drives mantle currents that drag continents apart", ["arthur holmes", "radioactivity", "continents"], "Mantle"),
+        C("plumes", "power", "Rising plumes of hot rock in the mantle are thought to feed volcanic hotspots like Hawaii", ["plumes", "hotspots", "hawaii"]),
+        C("hadley", "power", "George Hadley (1735) explained the trade winds with air rising at the equator; Hadley cells sink near 30° latitude", ["hadley", "trade winds"], "Coriolis effect"),
+        C("iss-candle", "power", "On the space station, a candle flame is a dim blue sphere, because hot gases do not rise in near-weightlessness", ["candle", "sphere", "space station"]),
+        C("nusselt", "power", "The Nusselt number compares heat carried this way with heat carried by conduction alone", ["nusselt"]),
+        C("newton-cooling", "power", "Newton’s law of cooling (heat loss grows with the temperature difference) is often used for heat lost this way", ["newton’s law of cooling", "temperature difference"]),
+        C("red-dwarfs", "power", "Red dwarfs under about a third of the Sun’s mass are stirred by it all the way through; the Sun has an inner radiative zone", ["red dwarfs", "radiative zone"]),
+        C("lake-turnover", "power", "Lake turnover: autumn surface water cools, sinks, and carries oxygen down; it stops below 4 °C, where water is densest", ["turnover", "oxygen", "densest"]),
+        C("dewar", "power", "James Dewar’s vacuum flask (1892) blocks conduction and this process with a vacuum; silvered walls cut radiation", ["dewar", "vacuum flask", "1892"]),
+        C("outer-core", "power", "Swirling molten iron in Earth’s outer core, stirred largely by it, generates the magnetic field (the geodynamo)", ["outer core", "geodynamo"], "Earth’s magnetic field")
+    ],
+    "trap": {
+        "title": "Which way does heat travel?",
+        "body": "Heat moves in three ways, and tossups on each one borrow clues from the others. Conduction passes heat through direct contact, like a metal spoon warming up in hot soup; radiation carries heat as light, even across empty space; convection carries it in the flow of a liquid or gas. “Conduction” and “convection” even sound alike, so a rushed buzz can say the wrong one.",
+        "fix": "Rising and sinking fluid, currents, breezes, boiling pots, lava lamps, solar granules, and the mantle mean convection. Touching objects, metal spoons, and conductors mean conduction; sunlight crossing space, infrared, and shiny surfaces mean radiation.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Convection",
+            "convection currents",
+            "Convective heat transfer",
+            "Convecton",
+            "Natural convection",
+            "Forced convection",
+            "Mantle convection"
+        ],
+        "prompt": [
+            "Heat transfer",
+            "Transfer of heat"
+        ],
+        "wrong": [
+            "Conduction",
+            "Radiation",
+            "Thermal radiation",
+            "Heat conduction",
+            "Plate tectonics",
+            "Sea breeze",
+            "Convection zone",
+            "Ocean currents",
+            "Mantle"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

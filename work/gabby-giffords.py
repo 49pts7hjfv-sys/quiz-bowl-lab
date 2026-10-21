@@ -55,12 +55,12 @@ data = {
     },
     "tossups": [
         {
-            "p": "Ron Barber, this politician’s former district director, won a June 2012 special election to finish her term in the U.S. House. Months earlier, she had resigned from Congress, saying she needed to focus on her recovery.",
-            "r": "Barber had also been wounded in the January 2011 shooting near Tucson where she was seriously hurt. For 10 points, name this Arizona congresswoman."
+            "p": "Ron Barber, this politician’s former district director, won a June 2012 special election to finish her term in the U.S. House. Barber had been hurt in the same attack that injured her the year before.",
+            "r": "She had resigned in January 2012 to focus on her recovery. For 10 points, name this Arizona congresswoman wounded in a 2011 shooting near Tucson."
         },
         {
             "p": "Daniel Hernández, a 20-year-old intern in this politician’s office, was praised as a hero for staying at her side and helping keep her alive until paramedics arrived. President Barack Obama honored Hernández by name at a memorial service in Tucson days later.",
-            "r": "Six people were killed in that January 2011 shooting. For 10 points, name this Arizona congresswoman who was seriously wounded."
+            "r": "Six people were killed in the January 2011 shooting where she was seriously wounded. For 10 points, name this Arizona congresswoman."
         },
         {
             "p": "At a January 2011 memorial service at the University of Arizona, Barack Obama told the crowd that this politician had opened her eyes for the first time since she was hurt, a few minutes after he had visited her hospital room.",
@@ -87,7 +87,7 @@ data = {
             "r": "She resigned from Congress in 2012 to focus on her recovery after being seriously wounded in a shooting. For 10 points, name this Arizona politician."
         },
         {
-            "p": "This politician’s staff set up a “Congress on Your Corner” event outside a Safeway supermarket north of Tucson, where voters could meet her and ask questions. Federal judge John Roll stopped by that Saturday morning to say hello.",
+            "p": "This politician’s staff set up a “Congress on Your Corner” event outside a Safeway supermarket near Tucson, where voters could meet her and ask questions. Federal judge John Roll stopped by that Saturday morning to say hello.",
             "r": "Roll was among six people killed when a gunman opened fire at that January 2011 event, where she was seriously wounded. For 10 points, name this Arizona congresswoman."
         },
         {

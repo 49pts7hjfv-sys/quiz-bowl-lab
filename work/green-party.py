@@ -1,0 +1,337 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "green-party",
+    "name": "Green Party",
+    "mono": "GP",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Third party founded on environmental values · Ran Ralph Nader in 2000",
+    "dates": "Roots in 1984; national party formed 2001",
+    "briefing": "The Green Party of the United States grew out of a movement to put protecting the environment at the center of politics. Its platform rests on “Four Pillars”: ecology, social justice, grassroots democracy, and nonviolence. In 2000, consumer advocate Ralph Nader ran for president as a Green and won almost 3 percent of the national vote, and physician Jill Stein later ran as its nominee in 2012, 2016, and 2024.",
+    "answerHtml": "<b><u>Green Party</u></b> of the United States (accept <u>Greens</u>; prompt on <u>Green</u>; do not accept “Reform Party,” “Libertarian Party,” or “Progressive Party”)",
+    "accept": [
+        "green party",
+        "the green party",
+        "green party of the united states",
+        "green party of the us",
+        "green party us",
+        "us green party",
+        "green party usa",
+        "american green party",
+        "greens",
+        "the greens"
+    ],
+    "prompt": [
+        "green",
+        "the green",
+        "environmental party",
+        "environmentalist party"
+    ],
+    "reject": [
+        "reform party",
+        "libertarian party",
+        "progressive party",
+        "bull moose party",
+        "socialist party",
+        "socialist party of america",
+        "constitution party",
+        "free soil party",
+        "greenback party",
+        "greenback labor party",
+        "populist party",
+        "peoples party",
+        "american independent party",
+        "natural law party",
+        "peace and freedom party",
+        "working families party",
+        "democratic party",
+        "republican party",
+        "whig party",
+        "green new deal",
+        "greenpeace",
+        "green movement",
+        "green mountain boys",
+        "sierra club",
+        "earth day",
+        "environmental protection agency",
+        "ralph nader",
+        "nader",
+        "jill stein",
+        "winona laduke",
+        "howie hawkins",
+        "cynthia mckinney",
+        "green party of england and wales",
+        "green party of canada",
+        "german greens",
+        "alliance 90 the greens",
+        "die grunen"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Green_Party_of_the_United_States",
+    "qb": {
+        "q": "Green Party",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This party bases its platform on “Four Pillars,” three of which are social justice, grassroots democracy, and nonviolence. Parties with the same name in Germany and many other countries share those pillars.",
+            "r": "The fourth pillar is ecological wisdom. For 10 points, name this environmentalist party whose 2000 presidential candidate was Ralph Nader."
+        },
+        {
+            "p": "Winona LaDuke, an Ojibwe [“oh-JIB-way”] environmental activist from Minnesota, was this party’s vice presidential candidate in both 1996 and 2000. Her running mate in those races had become famous decades earlier for a book attacking the safety of American cars.",
+            "r": "That running mate, Ralph Nader, won almost 3 percent of the vote in 2000. For 10 points, name this environmentalist political party."
+        },
+        {
+            "p": "In 2000, this party’s presidential candidate was kept out of the televised debates by a new rule requiring candidates to reach 15 percent in national polls. That candidate hoped to win 5 percent of the popular vote so that this party could receive federal campaign money in the next election.",
+            "r": "He fell short of that goal, winning almost 3 percent. For 10 points, name this party that nominated Ralph Nader."
+        },
+        {
+            "p": "After this party’s 2000 nominee won more than 97,000 votes in Florida, a state decided by 537 votes, many Democrats argued that he had cost Al Gore the presidency. He and his supporters answered that voters had every right to choose him and that Gore had lost for many other reasons.",
+            "r": "That nominee was consumer advocate Ralph Nader, who won almost 3 percent nationally. For 10 points, name this environmentalist party."
+        },
+        {
+            "p": "Petra Kelly helped found a West German party with this name in 1980, and three years later it won its first seats in the West German parliament, the Bundestag [“BOON-dess-tahk”]. Parties with this name and similar ideals have formed in dozens of countries, including the United States.",
+            "r": "The U.S. version of this party nominated Ralph Nader for president in 2000. For 10 points, name this environmentalist party."
+        },
+        {
+            "p": "In 2004, this party nominated the lawyer David Cobb for president, with Pat LaMarche of Maine as his running mate. The man who had been this party’s nominee four years earlier ran as an independent instead.",
+            "r": "That earlier nominee was Ralph Nader. For 10 points, name this environmentalist party that nominated Nader in 2000."
+        },
+        {
+            "p": "In 2020, this party nominated Howie Hawkins of New York for president, with Angela Walker as his running mate. Hawkins had earlier run three times for governor of New York as this party’s candidate, and in 2014 he won nearly 5 percent of the vote in that race.",
+            "r": "Four years before 2020, this party’s nominee was Jill Stein. For 10 points, name this party whose 2000 nominee was Ralph Nader."
+        },
+        {
+            "p": "After the 2016 election, this party’s nominee raised millions of dollars to request recounts in Wisconsin, Michigan, and Pennsylvania, though none of those efforts changed the outcome. That nominee had won about 1 percent of the national vote.",
+            "r": "That nominee was Jill Stein. For 10 points, name this environmentalist party, whose 2000 nominee was Ralph Nader."
+        },
+        {
+            "p": "One of this party’s nominees ran with anti-poverty activist Cheri Honkala in 2012, with human rights activist Ajamu Baraka [“ah-JAH-moo buh-RAH-kuh”] in 2016, and with historian Butch Ware in 2024. That nominee, a doctor of internal medicine, had graduated from Harvard Medical School.",
+            "r": "That nominee was Jill Stein. For 10 points, name this party that nominated Ralph Nader in 2000."
+        },
+        {
+            "p": "This party grew out of a network formed in 1984 whose name borrowed the phrase “Committees of Correspondence” from the American Revolution. In 2001, a national association of its state parties, formed in 1996, became its official national organization.",
+            "r": "Its four founding values include ecology and nonviolence. For 10 points, name this party that nominated Ralph Nader for president in 2000."
+        },
+        {
+            "p": "This party’s most famous presidential candidate first became well known for _Unsafe at Any Speed_, a 1965 book that criticized the Chevrolet Corvair and the auto industry’s attitude toward safety. Young volunteers who helped him investigate government agencies were nicknamed his “Raiders.”",
+            "r": "That consumer advocate, Ralph Nader, won almost 3 percent of the vote as this party’s nominee in 2000. For 10 points, name this party."
+        },
+        {
+            "p": "In 2012, this party’s presidential nominee campaigned for a plan, named after Franklin Roosevelt’s programs of the 1930s, to create millions of jobs in clean energy and public transportation. Ten years earlier, she had run for governor of Massachusetts against Mitt Romney.",
+            "r": "She was this party’s nominee again in 2016 and 2024. For 10 points, name this party that nominated Jill Stein for president."
+        },
+        {
+            "p": "In the 2000 election, this party’s nominee finished third with nearly 2.9 million votes, far ahead of the Reform Party’s Pat Buchanan. That nominee had first run for president as this party’s candidate four years earlier.",
+            "r": "That nominee was Ralph Nader. For 10 points, name this party, which bases its platform on ecology and three other “pillars.”"
+        },
+        {
+            "p": "This party’s 2008 presidential nominee had been the first African American woman to represent Georgia in Congress, where she served as a Democrat. Her running mate that year was the activist Rosa Clemente.",
+            "r": "That nominee was Cynthia McKinney. For 10 points, name this environmentalist party, whose nominees have also included Ralph Nader and Jill Stein."
+        },
+        {
+            "p": "This party lists “Ten Key Values,” including decentralization, community-based economics, feminism, respect for diversity, personal and global responsibility, and “future focus and sustainability.” Those values grew out of its “Four Pillars,” such as grassroots democracy and nonviolence.",
+            "r": "Its candidates have included Ralph Nader in 2000 and Jill Stein in 2012, 2016, and 2024. For 10 points, name this environmentalist party."
+        }
+    ],
+    "clues": [
+        {
+            "id": "environment",
+            "tier": "giveaway",
+            "t": "A political party built around protecting the environment (ecology)",
+            "k": ["environment", "ecology", "political party"],
+            "n": 0
+        },
+        {
+            "id": "nader-2000",
+            "tier": "giveaway",
+            "t": "Consumer advocate Ralph Nader was its 2000 presidential candidate, winning almost 3 percent nationally and more than 97,000 votes in Florida",
+            "k": ["ralph nader", "nader", "97,000", "almost 3 percent"],
+            "n": 0,
+            "rabbit": "Ralph Nader"
+        },
+        {
+            "id": "stein",
+            "tier": "giveaway",
+            "t": "Physician Jill Stein of Massachusetts was its presidential nominee in 2012, 2016, and 2024",
+            "k": ["jill stein", "stein", "physician"],
+            "n": 0
+        },
+        {
+            "id": "four-pillars",
+            "tier": "giveaway",
+            "t": "Its “Four Pillars”: ecological wisdom, social justice, grassroots democracy, and nonviolence",
+            "k": ["four pillars", "grassroots democracy", "nonviolence", "social justice"],
+            "n": 0
+        },
+        {
+            "id": "laduke",
+            "tier": "middle",
+            "t": "Winona LaDuke, an Ojibwe activist from Minnesota, was Nader’s running mate in 1996 and 2000",
+            "k": ["winona laduke", "laduke", "ojibwe", "1996"],
+            "n": 0
+        },
+        {
+            "id": "five-percent",
+            "tier": "middle",
+            "t": "In 2000, Nader hoped for 5 percent of the vote to win federal campaign money; a 15 percent polling rule kept him out of the debates",
+            "k": ["5 percent", "15 percent", "debates", "campaign money"],
+            "n": 0
+        },
+        {
+            "id": "spoiler",
+            "tier": "middle",
+            "t": "Many Democrats argued that Nader cost Al Gore the 2000 election; Nader and his supporters said voters had every right to choose him",
+            "k": ["al gore", "gore", "right to choose"],
+            "n": 0,
+            "rabbit": "Election of 2000"
+        },
+        {
+            "id": "ten-values",
+            "tier": "middle",
+            "t": "Its “Ten Key Values” add ideas such as decentralization, community-based economics, feminism, and respect for diversity",
+            "k": ["ten key values", "decentralization", "community-based economics", "feminism"],
+            "n": 0
+        },
+        {
+            "id": "founded-2001",
+            "tier": "middle",
+            "t": "Its national party formed in 2001 from an association of state parties (1996); its roots go back to 1984",
+            "k": ["2001", "state parties", "1984", "1996"],
+            "n": 0
+        },
+        {
+            "id": "mckinney",
+            "tier": "middle",
+            "t": "Former Georgia congresswoman Cynthia McKinney was its 2008 nominee",
+            "k": ["cynthia mckinney", "mckinney", "2008", "georgia"],
+            "n": 0
+        },
+        {
+            "id": "hawkins",
+            "tier": "middle",
+            "t": "Howie Hawkins of New York was its 2020 nominee",
+            "k": ["howie hawkins", "hawkins", "2020"],
+            "n": 0
+        },
+        {
+            "id": "recounts",
+            "tier": "middle",
+            "t": "After the 2016 election, Jill Stein raised money for recounts in Wisconsin, Michigan, and Pennsylvania; none changed the outcome",
+            "k": ["recounts", "wisconsin", "2016"],
+            "n": 0
+        },
+        {
+            "id": "petra-kelly",
+            "tier": "power",
+            "t": "Petra Kelly helped found West Germany’s party of the same name (1980), which entered the Bundestag in 1983",
+            "k": ["petra kelly", "bundestag", "west germany", "1983"],
+            "n": 0
+        },
+        {
+            "id": "cobb",
+            "tier": "power",
+            "t": "Lawyer David Cobb was its 2004 nominee, with Pat LaMarche, while Nader ran as an independent",
+            "k": ["david cobb", "cobb", "lamarche", "2004"],
+            "n": 0
+        },
+        {
+            "id": "mckinney-georgia",
+            "tier": "power",
+            "t": "Cynthia McKinney had been the first African American woman to represent Georgia in Congress; Rosa Clemente was her running mate",
+            "k": ["first african american woman", "rosa clemente", "clemente"],
+            "n": 0
+        },
+        {
+            "id": "angela-walker",
+            "tier": "power",
+            "t": "Angela Walker was Howie Hawkins’s running mate in 2020; Hawkins had run three times for governor of New York",
+            "k": ["angela walker", "governor of new york", "three times"],
+            "n": 0
+        },
+        {
+            "id": "stein-running-mates",
+            "tier": "power",
+            "t": "Jill Stein’s running mates: Cheri Honkala (2012), Ajamu Baraka (2016), and Butch Ware (2024)",
+            "k": ["cheri honkala", "honkala", "ajamu baraka", "baraka", "butch ware"],
+            "n": 0
+        },
+        {
+            "id": "stein-massachusetts",
+            "tier": "power",
+            "t": "Stein, a Harvard Medical School graduate, ran for governor of Massachusetts in 2002 against Mitt Romney",
+            "k": ["harvard", "massachusetts", "mitt romney", "2002"],
+            "n": 0
+        },
+        {
+            "id": "jobs-plan",
+            "tier": "power",
+            "t": "Stein’s 2012 campaign called for millions of clean-energy jobs in a plan named after FDR’s New Deal",
+            "k": ["clean-energy", "new deal", "jobs"],
+            "n": 0
+        },
+        {
+            "id": "committees",
+            "tier": "power",
+            "t": "Its roots: a 1984 network that borrowed the name “Committees of Correspondence” from the American Revolution",
+            "k": ["committees of correspondence", "1984", "american revolution"],
+            "n": 0
+        },
+        {
+            "id": "unsafe",
+            "tier": "power",
+            "t": "Nader first became well known for _Unsafe at Any Speed_ (1965), about car safety; his young investigators were “Nader’s Raiders”",
+            "k": ["unsafe at any speed", "raiders", "1965", "car safety"],
+            "n": 0
+        },
+        {
+            "id": "buchanan",
+            "tier": "power",
+            "t": "In 2000, Nader finished third with nearly 2.9 million votes, far ahead of the Reform Party’s Pat Buchanan",
+            "k": ["pat buchanan", "buchanan", "2.9 million", "reform party"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which third party?",
+        "body": "Several third parties show up in the same questions. Pat Buchanan ran for the Reform Party in 2000, the party Ross Perot founded in 1995; the Libertarian Party, founded in 1971, is a separate party; and the Progressive or “Bull Moose” Party was Theodore Roosevelt’s party in 1912. Ralph Nader also ran as an independent in 2004 and 2008, so not every Nader clue points to this party.",
+        "fix": "Nader in 1996 or 2000, Winona LaDuke, Jill Stein, Cynthia McKinney, Howie Hawkins, or the Four Pillars mean this party. Ross Perot or Pat Buchanan mean the Reform Party, and Theodore Roosevelt means the Progressive Party.",
+        "line": "Real answer line: <b><u>Green Party</u></b> of the United States (accept <u>Greens</u>; do not accept “Reform Party,” “Libertarian Party,” or “Progressive Party”)"
+    },
+    "tests": {
+        "right": [
+            "Green Party",
+            "the Green Party",
+            "Greens",
+            "Green Party of the United States",
+            "Gren Party"
+        ],
+        "prompt": [
+            "Green"
+        ],
+        "wrong": [
+            "Reform Party",
+            "Libertarian Party",
+            "Progressive Party",
+            "Bull Moose Party",
+            "Ralph Nader",
+            "Greenback Party",
+            "Green New Deal",
+            "Free Soil Party"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

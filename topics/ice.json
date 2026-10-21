@@ -92,7 +92,7 @@
     },
     {
       "p": "In 1849, James Thomson predicted that squeezing this substance lowers its melting point, and his brother William, later called Lord Kelvin, confirmed the prediction. Because of that effect, a thin wire with weights hung from both ends can slowly slice through a block of this substance, which freezes back together behind the wire.",
-      "r": "This substance melts at 0 degrees Celsius at normal air pressure. For 10 points, name this solid form of water."
+      "r": "That melting and refreezing is called regelation. For 10 points, name this solid form of water, which melts at 0 degrees Celsius."
     },
     {
       "p": "In 1850, Michael Faraday suggested that this substance is coated by a thin, liquid-like layer, and scientists still study that layer to explain why it is so slippery. Researchers now doubt the old idea that the pressure of skate blades alone melts this substance.",
@@ -107,7 +107,7 @@
       "r": "Because liquid water is densest at about 4 degrees Celsius, this substance forms first at the top of a lake. For 10 points, name this solid that floats."
     },
     {
-      "p": "In 1992, Joseph Kirschvink coined the name “Snowball Earth” for times, more than 600 million years ago, when this substance may have covered nearly the entire planet. Milutin Milankovitch linked the growth and shrinking of great sheets of it over the last few million years to slow cycles in Earth’s orbit and tilt.",
+      "p": "In 1992, Joseph Kirschvink coined the name “Snowball Earth” for times, more than 600 million years ago, when this substance may have covered nearly the entire planet. Milutin Milankovitch linked the growth and shrinking of great sheets of it during past glacial periods to slow cycles in Earth’s orbit and tilt.",
       "r": "Glaciers and the polar caps are made of this substance, which floats on liquid water. For 10 points, name this solid form of water."
     },
     {
@@ -351,12 +351,13 @@
     {
       "id": "thomson-wire",
       "tier": "power",
-      "t": "James Thomson (1849) predicted that pressure lowers its melting point and his brother, Lord Kelvin, confirmed it; a weighted wire slices through a block that refreezes behind it",
+      "t": "James Thomson (1849) predicted that pressure lowers its melting point, and his brother Lord Kelvin confirmed it; a weighted wire slicing through a block that refreezes behind it shows regelation",
       "k": [
         "james thomson",
         "kelvin",
         "1849",
-        "wire"
+        "wire",
+        "regelation"
       ],
       "n": 0
     },

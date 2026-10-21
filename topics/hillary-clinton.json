@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "First Lady, senator, and Secretary of State · 2016 Democratic nominee",
   "dates": "Born 1947; Secretary of State 2009–2013",
-  "briefing": "Hillary Rodham Clinton gave the first student commencement speech in Wellesley College’s history and met her future husband, Bill Clinton, at Yale Law School. After eight years as First Lady (1993–2001), she became the first First Lady elected to public office, serving as a U.S. senator from New York (2001–2009) and then as Secretary of State (2009–2013). In 2016 she became the first woman nominated for president by a major party; she won the national popular vote but lost the Electoral College to Donald Trump.",
+  "briefing": "Hillary Rodham Clinton gave the first student commencement speech in Wellesley College’s history and met her future husband, Bill Clinton, at Yale Law School. While serving as First Lady (1993–2001), she won a U.S. Senate seat from New York in 2000, becoming the first First Lady elected to public office, and she later served as Secretary of State (2009–2013). In 2016 she became the first woman nominated for president by a major party; she won the national popular vote but lost the Electoral College to Donald Trump.",
   "answerHtml": "<b><u>Hillary</u></b> Rodham <b><u>Clinton</u></b> (accept <u>Hillary Rodham</u>; prompt on <u>Clinton</u> or <u>Hillary</u> alone; do not accept “Bill Clinton” or “Chelsea Clinton”)",
   "accept": [
     "hillary clinton",
@@ -105,7 +105,7 @@
       "r": "She lost the Democratic nomination to Barack Obama, who then named her Secretary of State. For 10 points, name this senator from New York."
     },
     {
-      "p": "In 2009, this diplomat gave Russia’s foreign minister, Sergey Lavrov, a button meant to say “reset” in Russian, but its label actually read “overload.” She was the first former First Lady to serve in a president’s cabinet.",
+      "p": "In 2009, this diplomat gave Russia’s foreign minister, Sergey Lavrov, a button meant to say “reset” in Russian, but its label actually read “overload.” Weeks earlier, at her confirmation hearing, she had called for a foreign policy built on “smart power.”",
       "r": "For 10 points, name this woman who served as Secretary of State from 2009 to 2013 under Barack Obama."
     },
     {
@@ -121,7 +121,7 @@
       "r": "She was the first woman nominated for president by a major party. For 10 points, name this Democrat who lost the 2016 election to Donald Trump."
     },
     {
-      "p": "This author co-wrote the 2021 thriller _State of Terror_ with the Canadian mystery novelist Louise Penny. Her memoirs include _Living History_ and _What Happened_, which describes losing an election despite winning the national popular vote.",
+      "p": "This author co-wrote the 2021 thriller _State of Terror_ with the Canadian mystery novelist Louise Penny. Her memoirs include _Living History_ (2003), _Hard Choices_ (2014), and _What Happened_ (2017).",
       "r": "For 10 points, name this Democrat who won the popular vote but lost the Electoral College to Donald Trump in 2016."
     },
     {
@@ -324,11 +324,12 @@
     {
       "id": "reset",
       "tier": "power",
-      "t": "Gave Russia’s Sergey Lavrov a “reset” button whose Russian label actually meant “overload” (2009)",
+      "t": "Called for “smart power” at her 2009 confirmation hearing; gave Russia’s Sergey Lavrov a “reset” button whose Russian label actually meant “overload”",
       "k": [
         "reset",
         "lavrov",
-        "overload"
+        "overload",
+        "smart power"
       ],
       "n": 0
     },

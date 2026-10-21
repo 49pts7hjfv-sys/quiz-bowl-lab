@@ -1,0 +1,368 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "federal-reserve-system",
+    "name": "Federal Reserve System",
+    "mono": "FRS",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "The central bank of the United States · Created in 1913 under Woodrow Wilson",
+    "dates": "Created December 23, 1913; opened 1914",
+    "briefing": "During a banking panic in 1907, the financier J. P. Morgan gathered other bankers to stop the crisis, and afterward Congress decided the country needed a central bank. The Federal Reserve Act, signed by Woodrow Wilson in 1913, created a system of 12 regional banks overseen by a board in Washington. The Fed controls the supply of money and raises or lowers interest rates to keep prices steady and help people find jobs.",
+    "answerHtml": "<b><u>Federal Reserve</u></b> System (or the <b><u>Fed</u></b>; accept <u>Federal Reserve</u> Board or <u>Federal Reserve</u> Banks; prompt on <u>central bank</u> or <u>Federal Reserve Act</u>; do not accept “Treasury” or “Bank of the United States”)",
+    "accept": [
+        "federal reserve",
+        "federal reserve system",
+        "fed",
+        "the fed",
+        "federal reserve board",
+        "federal reserve banks",
+        "federal reserve bank",
+        "us federal reserve",
+        "board of governors of the federal reserve"
+    ],
+    "prompt": [
+        "central bank",
+        "us central bank",
+        "american central bank",
+        "united states central bank",
+        "national central bank",
+        "federal reserve act",
+        "the federal reserve act",
+        "federal reserve act of 1913",
+        "glass owen act",
+        "owen glass act",
+        "federal open market committee",
+        "fomc",
+        "open market committee",
+        "board of governors"
+    ],
+    "reject": [
+        "treasury",
+        "us treasury",
+        "department of the treasury",
+        "treasury department",
+        "secretary of the treasury",
+        "bank of the united states",
+        "first bank of the united states",
+        "second bank of the united states",
+        "national bank",
+        "bank of england",
+        "european central bank",
+        "federal deposit insurance corporation",
+        "fdic",
+        "federal bureau of investigation",
+        "fbi",
+        "federal trade commission",
+        "ftc",
+        "securities and exchange commission",
+        "bureau of engraving and printing",
+        "us mint",
+        "united states mint",
+        "federalism",
+        "federalist party",
+        "federalist papers",
+        "federal reserve note",
+        "federal reserve notes",
+        "independent treasury",
+        "jekyll island",
+        "wall street",
+        "new york stock exchange",
+        "international monetary fund",
+        "world bank",
+        "gold standard",
+        "federal government"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Federal_Reserve",
+    "qb": {
+        "q": "Federal Reserve",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In November 1910, Senator Nelson Aldrich met secretly with a Treasury official and several leading bankers at a hunting club on Jekyll Island, Georgia, where they posed as duck hunters while drafting a plan that led to this institution. Their meeting stayed secret for years.",
+            "r": "For 10 points, name this central bank of the United States, created by a 1913 law."
+        },
+        {
+            "p": "Virginia congressman Carter Glass and Oklahoma senator Robert Owen sponsored the law that created this institution, which Woodrow Wilson signed two days before Christmas in 1913. That law set up a system of twelve regional banks.",
+            "r": "Its chairs have included Alan Greenspan and Ben Bernanke. For 10 points, name this central bank of the United States."
+        },
+        {
+            "p": "Missouri is the only state with two of this institution’s regional banks, one in St. Louis and one in Kansas City. Its other regional banks are in cities such as Boston, Atlanta, Minneapolis, Dallas, and San Francisco.",
+            "r": "Its Board of Governors meets in Washington, D.C. For 10 points, name this central bank of the United States."
+        },
+        {
+            "p": "After the Panic of 1907, the Aldrich–Vreeland Act set up a National Monetary Commission to study banking, and that commission’s work eventually led to this institution. During the panic, J. P. Morgan had gathered bankers in his library to stop the spreading crisis.",
+            "r": "Congress created this institution in 1913 to help prevent such panics. For 10 points, name this central bank of the United States."
+        },
+        {
+            "p": "Chairman Paul Volcker led this institution to push short-term interest rates to nearly 20 percent around 1980, causing a sharp recession but breaking the high inflation of the 1970s. Jimmy Carter had appointed him in 1979.",
+            "r": "For 10 points, name this central bank of the United States, later led from 2006 to 2014 by Ben Bernanke."
+        },
+        {
+            "p": "The twelve voting members of this institution’s main policy committee are seven governors, the president of its New York bank, and four other regional bank presidents who take turns. That committee meets eight times a year to set a target for a key short-term interest rate.",
+            "r": "For 10 points, name this central bank of the United States, whose policy committee is the Federal Open Market Committee."
+        },
+        {
+            "p": "The Banking Act of 1935 reorganized this institution and gave more power to its board in Washington, which meets in a building named for its chair at the time, Marriner Eccles. Eccles had been a Utah banker before joining Franklin Roosevelt’s administration.",
+            "r": "For 10 points, name this central bank of the United States, created in 1913 under Woodrow Wilson."
+        },
+        {
+            "p": "In a 1996 speech, this institution’s chairman asked whether “irrational exuberance” had pushed stock prices too high. That chairman, who served from 1987 to 2006, had taken office just two months before the Black Monday stock market crash.",
+            "r": "That chairman was Alan Greenspan. For 10 points, name this central bank of the United States."
+        },
+        {
+            "p": "This institution’s San Francisco bank was led from 2004 to 2010 by an economist who then became its vice chair in 2010 and who later served as secretary of the Treasury from 2021 to 2025.",
+            "r": "That economist, Janet Yellen, became the first woman to chair this institution. For 10 points, name this central bank, which Jerome Powell began leading in 2018."
+        },
+        {
+            "p": "A 1977 law gave this institution its “dual mandate” to aim for both maximum employment and stable prices, and a 1978 law named for Hubert Humphrey and Augustus Hawkins requires its chair to report to Congress twice a year.",
+            "r": "For 10 points, name this central bank that raises interest rates to fight inflation and lowers them during recessions."
+        },
+        {
+            "p": "Eight times a year, this institution publishes the Beige Book, a summary of business conditions gathered by each of its twelve regional banks. Those banks are numbered by district, from the First District in Boston to the Twelfth in San Francisco.",
+            "r": "For 10 points, name this central bank of the United States, whose chair from 2006 to 2014 was Ben Bernanke."
+        },
+        {
+            "p": "In _A Monetary History of the United States_, Milton Friedman and Anna Schwartz blamed this institution for making the Great Depression worse by letting the money supply shrink by about a third. In 2002, Ben Bernanke told them, “We did it. We’re very sorry.”",
+            "r": "Bernanke later chaired this institution from 2006 to 2014. For 10 points, name this central bank of the United States."
+        },
+        {
+            "p": "This institution’s New York bank buys and sells government bonds in “open market operations” to change how much money banks have to lend. It can also lend money directly to banks through its “discount window.”",
+            "r": "Its name appears on every U.S. paper bill. For 10 points, name this central bank of the United States, created in 1913."
+        },
+        {
+            "p": "William McChesney Martin, this institution’s longest-serving chairman, compared its job to a chaperone who orders the punch bowl taken away just as the party is warming up. Martin took charge in 1951, soon after an accord freed this institution from holding down interest rates for the Treasury.",
+            "r": "Later chairs included Paul Volcker and Alan Greenspan. For 10 points, name this central bank of the United States."
+        },
+        {
+            "p": "In December 2008, this institution cut its target for short-term interest rates to nearly zero, and starting in late 2008 it bought huge amounts of bonds in a program called “quantitative easing.” Months earlier, it had made an emergency loan to the insurance company AIG.",
+            "r": "Its chairman at the time was Ben Bernanke. For 10 points, name this central bank of the United States."
+        }
+    ],
+    "clues": [
+        {
+            "id": "central-bank",
+            "tier": "giveaway",
+            "t": "The central bank of the United States",
+            "k": ["central bank", "united states"],
+            "n": 0
+        },
+        {
+            "id": "interest-rates",
+            "tier": "giveaway",
+            "t": "Raises interest rates to fight inflation and lowers them to help the economy grow",
+            "k": ["interest rates", "inflation"],
+            "n": 0,
+            "rabbit": "Inflation"
+        },
+        {
+            "id": "act-1913",
+            "tier": "giveaway",
+            "t": "Created by a 1913 law signed by Woodrow Wilson",
+            "k": ["1913", "woodrow wilson", "wilson"],
+            "n": 0,
+            "rabbit": "Woodrow Wilson"
+        },
+        {
+            "id": "twelve-banks",
+            "tier": "giveaway",
+            "t": "A system of 12 regional banks overseen by a Board of Governors in Washington, D.C.",
+            "k": ["12 regional banks", "board of governors", "washington"],
+            "n": 0
+        },
+        {
+            "id": "chairs",
+            "tier": "giveaway",
+            "t": "Chairs include Alan Greenspan (1987–2006), Ben Bernanke (2006–2014), and Janet Yellen (2014–2018), the first woman",
+            "k": ["greenspan", "bernanke", "yellen", "first woman"],
+            "n": 0,
+            "rabbit": "Ben Bernanke"
+        },
+        {
+            "id": "money-supply",
+            "tier": "middle",
+            "t": "Controls the money supply; its name appears on every U.S. paper bill",
+            "k": ["money supply", "paper bill"],
+            "n": 0,
+            "rabbit": "Money"
+        },
+        {
+            "id": "fomc",
+            "tier": "middle",
+            "t": "The Federal Open Market Committee sets its interest-rate target and meets eight times a year",
+            "k": ["federal open market committee", "fomc", "eight times"],
+            "n": 0
+        },
+        {
+            "id": "volcker",
+            "tier": "middle",
+            "t": "Paul Volcker (chair 1979–1987) pushed interest rates to nearly 20 percent to beat inflation",
+            "k": ["volcker", "paul volcker", "20 percent"],
+            "n": 0
+        },
+        {
+            "id": "governors",
+            "tier": "middle",
+            "t": "Its seven governors are appointed by the president, confirmed by the Senate, and serve 14-year terms",
+            "k": ["seven governors", "14-year", "confirmed"],
+            "n": 0
+        },
+        {
+            "id": "panic-1907",
+            "tier": "middle",
+            "t": "The Panic of 1907, which J. P. Morgan helped stop, convinced Congress that a central bank was needed",
+            "k": ["panic of 1907", "j. p. morgan", "morgan"],
+            "n": 0
+        },
+        {
+            "id": "powell",
+            "tier": "middle",
+            "t": "Jerome Powell became chair in 2018, succeeding Janet Yellen",
+            "k": ["jerome powell", "powell", "2018"],
+            "n": 0
+        },
+        {
+            "id": "dual-mandate",
+            "tier": "middle",
+            "t": "“Dual mandate” from a 1977 law: maximum employment and stable prices",
+            "k": ["dual mandate", "maximum employment", "stable prices"],
+            "n": 0
+        },
+        {
+            "id": "jekyll",
+            "tier": "power",
+            "t": "Planned at a secret 1910 meeting on Jekyll Island, Georgia, by Senator Nelson Aldrich and leading bankers posing as duck hunters",
+            "k": ["jekyll island", "nelson aldrich", "duck hunters"],
+            "n": 0
+        },
+        {
+            "id": "glass-owen",
+            "tier": "power",
+            "t": "The 1913 law was sponsored by Representative Carter Glass and Senator Robert Owen",
+            "k": ["carter glass", "robert owen", "glass"],
+            "n": 0
+        },
+        {
+            "id": "missouri",
+            "tier": "power",
+            "t": "Missouri is the only state with two of its regional banks (St. Louis and Kansas City)",
+            "k": ["missouri", "st. louis", "kansas city"],
+            "n": 0
+        },
+        {
+            "id": "eccles",
+            "tier": "power",
+            "t": "The Banking Act of 1935 strengthened its board; its headquarters is named for chair Marriner Eccles",
+            "k": ["marriner eccles", "eccles", "banking act of 1935"],
+            "n": 0
+        },
+        {
+            "id": "exuberance",
+            "tier": "power",
+            "t": "Alan Greenspan’s 1996 “irrational exuberance” speech; he took office two months before the 1987 Black Monday crash",
+            "k": ["irrational exuberance", "black monday"],
+            "n": 0
+        },
+        {
+            "id": "beige-book",
+            "tier": "power",
+            "t": "Publishes the Beige Book, a summary of conditions in its 12 districts, eight times a year",
+            "k": ["beige book", "districts"],
+            "n": 0
+        },
+        {
+            "id": "friedman",
+            "tier": "power",
+            "t": "Milton Friedman and Anna Schwartz blamed it for letting the money supply shrink during the Great Depression",
+            "k": ["milton friedman", "anna schwartz", "great depression"],
+            "n": 0,
+            "rabbit": "Great Depression"
+        },
+        {
+            "id": "open-market",
+            "tier": "power",
+            "t": "Tools: open market operations (buying and selling government bonds), the discount window, and reserve requirements",
+            "k": ["open market operations", "discount window", "reserve requirements"],
+            "n": 0
+        },
+        {
+            "id": "martin",
+            "tier": "power",
+            "t": "William McChesney Martin (1951–1970), the longest-serving chair, said its job was to take away the punch bowl as the party warms up",
+            "k": ["mcchesney martin", "punch bowl", "longest-serving"],
+            "n": 0
+        },
+        {
+            "id": "accord",
+            "tier": "power",
+            "t": "A 1951 accord with the Treasury Department freed it from holding down interest rates",
+            "k": ["accord", "1951", "treasury"],
+            "n": 0
+        },
+        {
+            "id": "crisis-2008",
+            "tier": "power",
+            "t": "In late 2008 it cut rates to nearly zero and began “quantitative easing” bond purchases; it also made an emergency loan to AIG",
+            "k": ["quantitative easing", "nearly zero", "aig"],
+            "n": 0
+        },
+        {
+            "id": "humphrey-hawkins",
+            "tier": "power",
+            "t": "The Humphrey–Hawkins Act (1978) requires the chair to report to Congress twice a year",
+            "k": ["humphrey", "hawkins", "twice a year"],
+            "n": 0
+        },
+        {
+            "id": "yellen-sf",
+            "tier": "power",
+            "t": "Janet Yellen led its San Francisco bank (2004–2010) and later served as Treasury secretary (2021–2025)",
+            "k": ["san francisco", "treasury secretary"],
+            "n": 0,
+            "rabbit": "Janet Yellen"
+        }
+    ],
+    "trap": {
+        "title": "Fed, Treasury, or Bank?",
+        "body": "Three money institutions get mixed up. The Department of the Treasury collects taxes, borrows money for the government, and makes coins and paper bills; the First and Second Banks of the United States were earlier national banks whose charters ran out in 1811 and 1836; and this central bank, created in 1913, sets interest rates and controls the money supply. Clues about Treasury secretaries or Andrew Jackson’s Bank War can pull you toward the wrong one.",
+        "fix": "If you hear 1913, Jekyll Island, 12 regional banks, the Federal Open Market Committee, or chairs like Volcker, Greenspan, Bernanke, and Yellen, say “Federal Reserve”; “the Fed” is fine too. Alexander Hamilton (1791) or Nicholas Biddle and Andrew Jackson mean a Bank of the United States.",
+        "line": "Real answer line: <b><u>Federal Reserve</u></b> System (or the <b><u>Fed</u></b>; prompt on <u>central bank</u>; do not accept “Treasury”)"
+    },
+    "tests": {
+        "right": [
+            "Federal Reserve",
+            "the Fed",
+            "Federal Reserve System",
+            "Federal Reserve Board",
+            "Federal Reserv"
+        ],
+        "prompt": [
+            "central bank",
+            "Federal Reserve Act"
+        ],
+        "wrong": [
+            "Treasury",
+            "Bank of the United States",
+            "Second Bank of the United States",
+            "Federal Reserve Note",
+            "FDIC",
+            "Department of the Treasury",
+            "Federalism"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")

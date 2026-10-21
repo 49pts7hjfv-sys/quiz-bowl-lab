@@ -4,7 +4,7 @@
   "mono": "CAV",
   "category": "Earth Science",
   "qbCategory": "Science · Other Science (Earth Science)",
-  "kicker": "Natural underground hollows · Most are dissolved out of limestone by acidic water",
+  "kicker": "Natural underground hollows · Most form as acidic water dissolves limestone",
   "dates": "Dissolved out of rock over many thousands of years",
   "briefing": "Most caves form when rainwater, made slightly acidic by carbon dioxide, seeps into cracks in limestone and slowly dissolves the rock away. Inside, dripping water leaves behind stony icicles: stalactites hang from the ceiling and stalagmites rise from the floor. Kentucky’s Mammoth Cave is the longest known cave system on Earth, and France’s Lascaux Cave holds paintings of animals made about 17,000 years ago.",
   "answerHtml": "<b><u>Caves</u></b> (accept <u>cave</u>, <u>caverns</u>, or <u>grottoes</u>; accept kinds like limestone caves or sea caves; prompt on <u>holes</u> or <u>chambers</u>; do not accept “karst,” “sinkholes,” “stalactites,” or a single named cave)",
@@ -106,7 +106,7 @@
       "r": "The scientific study of these features is called speleology. For 10 points, name these natural underground openings, where stalactites grow."
     },
     {
-      "p": "In the late 1830s, an enslaved guide named Stephen Bishop began exploring and mapping miles of one of these features in Kentucky, where miners had dug saltpeter for gunpowder during the War of 1812. In 1972, explorers linked that system to the nearby Flint Ridge system, confirming it as the longest known example on Earth.",
+      "p": "In the late 1830s, an enslaved guide named Stephen Bishop began exploring and mapping miles of one of these features in Kentucky, where miners had dug saltpeter for gunpowder during the War of 1812. In 1972, explorers linked that system to the nearby Flint Ridge system, making the combined network the longest known example on Earth.",
       "r": "That system is Kentucky’s Mammoth one. For 10 points, name these underground openings, where stalactites hang from the ceiling."
     },
     {
@@ -118,7 +118,7 @@
       "r": "Prehistoric people painted on the walls of many of these features. For 10 points, name these natural underground chambers."
     },
     {
-      "p": "In 1879, eight-year-old María Sanz de Sautuola looked up and spotted paintings of bison on the ceiling of Altamira, one of these features in northern Spain. Many experts at first refused to believe that Stone Age people could have made such skillful art.",
+      "p": "In 1879, a young girl named María Sanz de Sautuola looked up and spotted paintings of bison on the ceiling of Altamira, one of these features in northern Spain. Many experts at first refused to believe that Stone Age people could have made such skillful art.",
       "r": "Stalactites hang from the ceilings of these features. For 10 points, name these natural underground openings."
     },
     {
@@ -330,7 +330,7 @@
     {
       "id": "flint-ridge",
       "tier": "power",
-      "t": "In 1972, explorers connected Mammoth to the Flint Ridge system, confirming it as the longest known",
+      "t": "In 1972, explorers connected Mammoth to the Flint Ridge system, making the combined system the longest known",
       "k": [
         "flint ridge",
         "1972"
@@ -363,7 +363,7 @@
     {
       "id": "altamira",
       "tier": "power",
-      "t": "In 1879, eight-year-old María Sanz de Sautuola spotted bison painted on the ceiling of Spain’s Altamira",
+      "t": "In 1879, young María Sanz de Sautuola spotted bison painted on the ceiling of Spain’s Altamira",
       "k": [
         "altamira",
         "bison",

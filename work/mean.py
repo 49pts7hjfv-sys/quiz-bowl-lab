@@ -1,0 +1,342 @@
+import json
+
+data = {
+    "id": "mean",
+    "name": "Mean",
+    "mono": "AVG",
+    "category": "Math",
+    "qbCategory": "Science · Other Science (Math)",
+    "kicker": "The average: add the values, divide by how many · Pulled by outliers",
+    "dates": "Studied since ancient Greece",
+    "briefing": "The mean, or average, of a list of numbers is their sum divided by how many numbers there are: for test scores of 70, 80, and 90, the mean is 240 ÷ 3 = 80. It is one of three common ways to describe the middle of a data set, along with the median (the middle value) and the mode (the most common value). Because every value counts, one very large or very small value, called an outlier, can pull the mean far away from the rest.",
+    "answerHtml": "<b><u>mean</u></b> (or <u>average</u>; accept <u>arithmetic mean</u>; prompt on <u>expected value</u>; do not accept “median” or “mode”)",
+    "accept": [
+        "mean",
+        "means",
+        "average",
+        "averages",
+        "arithmetic mean",
+        "arithmetic means",
+        "arithmetic average",
+        "sample mean",
+        "population mean"
+    ],
+    "prompt": [
+        "mu",
+        "x bar",
+        "expected value",
+        "expectation",
+        "central tendency",
+        "measure of central tendency",
+        "measures of central tendency"
+    ],
+    "reject": [
+        "median",
+        "medians",
+        "mode",
+        "modes",
+        "range",
+        "midrange",
+        "mid range",
+        "standard deviation",
+        "variance",
+        "geometric mean",
+        "geometric means",
+        "harmonic mean",
+        "harmonic means",
+        "quadratic mean",
+        "golden mean",
+        "weighted mean",
+        "weighted average",
+        "weighted arithmetic mean",
+        "batting average",
+        "grade point average",
+        "gpa",
+        "average rate of change",
+        "mean value theorem",
+        "mean absolute deviation",
+        "average deviation",
+        "mean deviation",
+        "root mean square",
+        "standard error of the mean",
+        "regression to the mean",
+        "regression toward the mean",
+        "pythagorean means",
+        "mean free path",
+        "sum",
+        "total",
+        "quartile",
+        "percentile",
+        "interquartile range",
+        "outlier",
+        "outliers",
+        "normal distribution",
+        "bell curve"
+    ],
+    "tests": {
+        "right": [
+            "mean",
+            "average",
+            "arithmetic mean",
+            "averge",
+            "the average",
+            "Arithmetic Average"
+        ],
+        "prompt": [
+            "mu",
+            "expected value"
+        ],
+        "wrong": [
+            "median",
+            "mode",
+            "range",
+            "geometric mean",
+            "standard deviation",
+            "weighted average",
+            "golden mean"
+        ]
+    },
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Arithmetic_mean",
+    "qb": {
+        "q": "mean",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In the 1880s, Francis Galton noticed that the children of very tall parents tend to be closer to ordinary height, an effect he called “regression toward mediocrity” that is now called regression toward this statistic. A weighted version of this statistic is used to find a student’s GPA.",
+            "r": "For 10 points, name this statistic found by adding up a list of values and dividing by how many there are."
+        },
+        {
+            "p": "The AM–GM inequality says that for positive numbers, the arithmetic version of this statistic is never smaller than the geometric version. For 2 and 8, the geometric version is 4, the square root of their product.",
+            "r": "The ordinary version for 2 and 8 is 5. For 10 points, name this statistic, found by adding values and dividing by how many there are."
+        },
+        {
+            "p": "Driving 30 miles per hour to a town and 60 miles per hour back along the same road gives an overall speed of 40, not 45, because trips like that call for this statistic’s harmonic version. That version for two numbers is twice their product divided by their sum.",
+            "r": "For 10 points, name this statistic, which along with the median and mode measures the center of a data set."
+        },
+        {
+            "p": "This statistic is the number that makes the sum of the squared distances to all the data values as small as possible, while the median does the same for the plain distances. The distances of the values above this statistic exactly cancel the distances of the values below it.",
+            "r": "For 10 points, name this measure of center, found by adding values and dividing by how many there are."
+        },
+        {
+            "p": "The central limit theorem says that if you take many large random samples and find this statistic for each one, those results pile up into a bell curve centered on this statistic for the whole population.",
+            "r": "On any bell curve it equals the median and the mode. For 10 points, name this statistic found by adding values and dividing by how many there are."
+        },
+        {
+            "p": "Jacob Bernoulli’s law of large numbers says that as a fair coin is flipped more and more times, this statistic of the results, counting heads as 1 and tails as 0, gets closer and closer to one-half.",
+            "r": "It is pulled toward outliers more than the median is. For 10 points, name this statistic, the sum of a set of values divided by how many there are."
+        },
+        {
+            "p": "The expected value of one roll of a fair six-sided die is 3.5, because that is this statistic of the numbers 1 through 6. In probability, an expected value is this statistic of all possible outcomes, weighted by how likely each one is.",
+            "r": "For 10 points, name this statistic, which along with the median and mode describes the center of a data set."
+        },
+        {
+            "p": "A student who earns an A, worth 4 points, in a 4-credit class and a C, worth 2 points, in a 2-credit class has a GPA of about 3.33. That GPA is a weighted version of this statistic, since each grade is multiplied by its credits before the total is divided by 6.",
+            "r": "For 10 points, name this statistic found by adding up values and dividing by how many there are."
+        },
+        {
+            "p": "Because a small number of households earn enormous incomes, this statistic for household income in the United States is larger than the median income. In data with a long tail stretching to the right, this statistic is usually greater than the median.",
+            "r": "Unlike the median, it is pulled strongly by outliers. For 10 points, name this statistic found by adding values and dividing by their count."
+        },
+        {
+            "p": "The ancient Pythagoreans studied three classic versions of this statistic: arithmetic, geometric, and harmonic. For positive numbers, the harmonic version is never larger than the geometric version, which is never larger than the arithmetic version.",
+            "r": "For 10 points, name this statistic, which for 4, 6, and 11 is their sum, 21, divided by 3, or 7."
+        },
+        {
+            "p": "Stock charts often draw a “moving” version of this statistic, recomputed every day from only the most recent 50 or 200 days of prices, to smooth out daily ups and downs. Bollinger bands are drawn two standard deviations above and below a moving version of this statistic.",
+            "r": "For 10 points, name this statistic found by adding a list of values and dividing by how many there are."
+        },
+        {
+            "p": "Statisticians write this statistic as the Greek letter mu for a whole population and as x with a bar over it for a sample. The standard deviation measures how far the data typically spread out from it.",
+            "r": "For 10 points, name this statistic that, for the numbers 3, 5, and 10, equals 6."
+        },
+        {
+            "p": "For the data set 1, 2, 3, 4, and 100, this statistic is 22, even though the median is just 3, because a single outlier pulls it far upward. That is why reports on home prices often use the median instead of this statistic.",
+            "r": "For 10 points, name this statistic found by adding up values and dividing by how many there are."
+        },
+        {
+            "p": "A student with scores of 80, 85, and 90 on three tests needs a 93 on the fourth test to raise this statistic from 85 to 87, since four tests at 87 total 348. Adding the same number to every value raises this statistic by that same number.",
+            "r": "For 10 points, name this statistic, the sum of the values divided by how many there are."
+        },
+        {
+            "p": "The centroid of a triangle has coordinates found by taking this statistic of the three corners’ coordinates, and the midpoint of the segment from (2, 3) to (8, 7) is (5, 5), found the same way.",
+            "r": "Unlike the median and the mode, it uses every value. For 10 points, name this statistic found by adding values and dividing by how many there are."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "Add up all the values, then divide by how many values there are",
+            "k": ["add up", "divide", "how many"],
+            "n": 0
+        },
+        {
+            "id": "example",
+            "tier": "giveaway",
+            "t": "Example: for test scores of 70, 80, and 90, it is (70 + 80 + 90) ÷ 3 = 240 ÷ 3 = 80",
+            "k": ["240 ÷ 3", "test scores"],
+            "n": 0
+        },
+        {
+            "id": "central-tendency",
+            "tier": "giveaway",
+            "t": "One of the three common measures of central tendency, with the median (middle value) and the mode (most common value)",
+            "k": ["central tendency", "median", "mode"],
+            "n": 0
+        },
+        {
+            "id": "outliers",
+            "tier": "middle",
+            "t": "Pulled strongly by outliers: for 1, 2, 3, 4, and 100 it is 22, while the median is only 3",
+            "k": ["outliers", "median"],
+            "n": 0
+        },
+        {
+            "id": "symbols",
+            "tier": "middle",
+            "t": "Written μ (mu) for a whole population and x̄ (“x-bar”) for a sample",
+            "k": ["x-bar", "population", "sample", "mu"],
+            "n": 0
+        },
+        {
+            "id": "balance",
+            "tier": "middle",
+            "t": "The balance point of the data: the distances of the values above it exactly cancel the distances of the values below it",
+            "k": ["balance point", "cancel"],
+            "n": 0
+        },
+        {
+            "id": "weighted-gpa",
+            "tier": "middle",
+            "t": "A weighted version counts some values more, as in a GPA, where a 4-credit class counts twice as much as a 2-credit class",
+            "k": ["weighted", "gpa", "credit"],
+            "n": 0
+        },
+        {
+            "id": "geometric",
+            "tier": "middle",
+            "t": "The geometric version multiplies the values and takes a root: for 2 and 8 it is √16 = 4, while the ordinary version is 5",
+            "k": ["geometric", "√16"],
+            "n": 0
+        },
+        {
+            "id": "standard-deviation",
+            "tier": "middle",
+            "t": "The standard deviation measures how far the data typically spread out from it",
+            "k": ["standard deviation", "spread"],
+            "n": 0,
+            "rabbit": "Standard deviation"
+        },
+        {
+            "id": "bell-curve",
+            "tier": "middle",
+            "t": "On a bell curve (a normal distribution) it sits at the peak, equal to the median and the mode",
+            "k": ["bell curve", "peak"],
+            "n": 0,
+            "rabbit": "Normal distribution"
+        },
+        {
+            "id": "skew",
+            "tier": "middle",
+            "t": "In right-skewed data, like household incomes, it is usually bigger than the median",
+            "k": ["right-skewed", "incomes"],
+            "n": 0
+        },
+        {
+            "id": "expected-value",
+            "tier": "middle",
+            "t": "The expected value of a fair die roll is 3.5, this statistic of 1 through 6: 21 ÷ 6",
+            "k": ["expected value", "21 ÷ 6"],
+            "n": 0
+        },
+        {
+            "id": "midpoint",
+            "tier": "middle",
+            "t": "Midpoints and centroids use it: the midpoint of (2, 3) and (8, 7) is (5, 5)",
+            "k": ["midpoint", "centroids"],
+            "n": 0
+        },
+        {
+            "id": "harmonic",
+            "tier": "power",
+            "t": "The harmonic version gives the overall speed for equal distances: 30 mph out and 60 mph back gives 40 mph, not 45",
+            "k": ["harmonic", "40 mph"],
+            "n": 0
+        },
+        {
+            "id": "pythagoreans",
+            "tier": "power",
+            "t": "The ancient Pythagoreans studied three classic kinds: arithmetic, geometric, and harmonic; for positive numbers, harmonic ≤ geometric ≤ arithmetic",
+            "k": ["pythagoreans", "three classic kinds"],
+            "n": 0
+        },
+        {
+            "id": "am-gm",
+            "tier": "power",
+            "t": "AM–GM inequality: for positive numbers, the arithmetic version is never smaller than the geometric version",
+            "k": ["am–gm", "inequality"],
+            "n": 0
+        },
+        {
+            "id": "least-squares",
+            "tier": "power",
+            "t": "It makes the sum of squared distances to the data as small as possible; the median does the same for plain distances",
+            "k": ["squared distances", "small as possible"],
+            "n": 0
+        },
+        {
+            "id": "central-limit",
+            "tier": "power",
+            "t": "Central limit theorem: this statistic, found for many large random samples, piles up into a bell curve",
+            "k": ["central limit theorem", "random samples"],
+            "n": 0
+        },
+        {
+            "id": "large-numbers",
+            "tier": "power",
+            "t": "Jacob Bernoulli’s law of large numbers: as a fair coin is flipped more and more, this statistic of the results (heads = 1, tails = 0) nears 1/2",
+            "k": ["law of large numbers", "bernoulli", "coin"],
+            "n": 0
+        },
+        {
+            "id": "galton",
+            "tier": "power",
+            "t": "Francis Galton noticed in the 1880s that children of very tall parents tend to be closer to ordinary height, calling it “regression toward mediocrity”",
+            "k": ["galton", "regression", "mediocrity"],
+            "n": 0
+        },
+        {
+            "id": "moving",
+            "tier": "power",
+            "t": "Stock charts draw a “moving” version over the last 50 or 200 days; Bollinger bands sit two standard deviations above and below one",
+            "k": ["moving", "stock charts", "bollinger"],
+            "n": 0
+        },
+        {
+            "id": "reverse-problem",
+            "tier": "power",
+            "t": "Adding the same number to every value raises it by that number; scores of 80, 85, and 90 need a 93 next to reach 87 (4 × 87 = 348)",
+            "k": ["4 × 87 = 348", "same number"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Mean, median, or mode?",
+        "body": "The mean, median, and mode all describe the center of a data set, and each is its own answer line. The median is the middle value when the data are in order, and the mode is the most common value. The geometric mean, harmonic mean, and weighted mean are different calculations, and the standard deviation measures how spread out the data are around the mean.",
+        "fix": "Listen for “add them up and divide by how many,” “balance point,” “pulled by outliers,” μ, or x̄: say “mean” or “average.” “Middle value” means median; “most frequent” means mode. Saying only “expected value” earns a prompt.",
+        "line": "Real answer line: <b><u>mean</u></b> (or <u>average</u>; accept <u>arithmetic mean</u>; prompt on <u>expected value</u>; do not accept “median” or “mode”)"
+    }
+}
+
+with open("topics/mean.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote topics/mean.json")

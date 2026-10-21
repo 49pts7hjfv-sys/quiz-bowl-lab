@@ -7,7 +7,7 @@
   "kicker": "Electrons spread over whole molecules · Why oxygen sticks to a magnet",
   "dates": "Developed in the late 1920s",
   "briefing": "Molecular orbital theory pictures a molecule’s electrons spread out over the whole molecule instead of sitting in bonds between pairs of atoms. Electrons in low-energy bonding orbitals hold the atoms together, while those in high-energy antibonding orbitals weaken the bond. The theory explains something simpler bonding pictures miss: liquid oxygen sticks to a magnet, because each oxygen molecule has two unpaired electrons.",
-  "answerHtml": "<b><u>Molecular orbital</u></b> theory (accept <u>MO theory</u> or <u>Hund–Mulliken</u> theory; accept <u>molecular orbital</u>s; prompt on <u>orbital</u> theory; do not accept “valence bond theory” or “atomic orbitals”)",
+  "answerHtml": "<b><u>Molecular orbital</u></b> theory (accept <u>MO theory</u> or <u>Hund–Mulliken</u> theory; accept <u>molecular orbital</u>s; prompt on <u>orbital</u> theory or <u>LCAO</u>; do not accept “valence bond theory” or “atomic orbitals”)",
   "accept": [
     "molecular orbital theory",
     "molecular orbital",
@@ -22,7 +22,8 @@
   "prompt": [
     "orbital theory",
     "orbitals",
-    "lcao"
+    "lcao",
+    "linear combination of atomic orbitals"
   ],
   "reject": [
     "atomic orbital",
@@ -81,8 +82,8 @@
   },
   "tossups": [
     {
-      "p": "Robert Mulliken won the 1966 Nobel Prize in Chemistry for developing this theory, and he also coined the word “orbital” in 1932. The competing valence bond approach was championed by Linus Pauling.",
-      "r": "For 10 points, name this theory in which electrons fill bonding and antibonding orbitals that spread over an entire molecule."
+      "p": "While developing this theory, Robert Mulliken coined the word “orbital” in 1932. Its main rival, the valence bond approach championed by Linus Pauling, pictures bonds as overlapping orbitals on neighboring atoms, while this theory lets each electron spread over the whole molecule.",
+      "r": "Mulliken won the 1966 Nobel Prize in Chemistry for it. For 10 points, name this theory that sorts electrons into bonding and antibonding orbitals."
     },
     {
       "p": "In the late 1920s, Friedrich Hund [“HOONT”] and Robert Mulliken developed this theory, which treats each electron as spread over the whole molecule instead of belonging to a single bond. In 1927, Walter Heitler and Fritz London explained the hydrogen molecule with a competing approach, valence bond theory.",
@@ -410,7 +411,7 @@
     "title": "Molecular, not atomic",
     "body": "Atomic orbitals belong to one atom, while this theory’s orbitals spread over a whole molecule, so “atomic orbitals” is a different answer. The competing valence bond theory, championed by Linus Pauling, describes bonds as overlapping orbitals on neighboring atoms, and VSEPR theory only predicts shapes. Neither of those explains why oxygen sticks to a magnet.",
     "fix": "Bonding and antibonding orbitals, bond order, oxygen’s magnetism, Mulliken, and sigma-star or pi-star orbitals mean molecular orbital theory. One atom’s s, p, d, and f regions mean atomic orbitals; hybrid orbitals and resonance mean valence bond theory; electron pairs pushing apart to set a shape mean VSEPR.",
-    "line": "Real answer line: <b><u>Molecular orbital</u></b> theory (accept <u>MO theory</u> or <u>Hund–Mulliken</u> theory; accept <u>molecular orbital</u>s; prompt on <u>orbital</u> theory; do not accept “valence bond theory” or “atomic orbitals”)"
+    "line": "Real answer line: <b><u>Molecular orbital</u></b> theory (accept <u>MO theory</u> or <u>Hund–Mulliken</u> theory; accept <u>molecular orbital</u>s; prompt on <u>orbital</u> theory or <u>LCAO</u>; do not accept “valence bond theory” or “atomic orbitals”)"
   },
   "tests": {
     "right": [
@@ -422,7 +423,8 @@
     ],
     "prompt": [
       "Orbital theory",
-      "LCAO"
+      "LCAO",
+      "Linear combination of atomic orbitals"
     ],
     "wrong": [
       "Valence bond theory",

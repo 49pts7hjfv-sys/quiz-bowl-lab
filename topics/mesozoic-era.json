@@ -82,7 +82,7 @@
       "r": "Dinosaurs ruled the land during this era. For 10 points, name this era that includes the Triassic, Jurassic, and Cretaceous periods."
     },
     {
-      "p": "In 1923, Roy Chapman Andrews’s team found nests of fossil eggs from this era in Mongolia’s Gobi, at a site called the Flaming Cliffs. Scientists later showed that many of those eggs belonged to Oviraptor, whose name means “egg thief,” rather than to Protoceratops.",
+      "p": "In 1923, Roy Chapman Andrews’s team found nests of fossil eggs from this era in Mongolia’s Gobi, at a site called the Flaming Cliffs. Scientists later showed that many of those eggs had been laid by Oviraptor, whose name means “egg thief,” and its close relatives, rather than by Protoceratops.",
       "r": "Non-bird dinosaurs died out at the end of this era. For 10 points, name this era, the “Age of Reptiles,” which followed the Paleozoic."
     },
     {
@@ -102,7 +102,7 @@
       "r": "This era ended 66 million years ago with the extinction of the non-bird dinosaurs. For 10 points, name this era, often called the “Age of Reptiles.”"
     },
     {
-      "p": "A fossil of Repenomamus, a badger-sized mammal from this era found in China, had the bones of a young Psittacosaurus [“sih-TAK-uh-SOR-us”] in its stomach. Most mammals of this era, though, were small, and many probably came out mainly at night. The earliest mammals appeared during this era’s first period.",
+      "p": "A fossil of Repenomamus, a meat-eating mammal from this era found in China, had the bones of a young Psittacosaurus [“sih-TAK-uh-SOR-us”] in its stomach. Most mammals of this era, though, were small, and many probably came out mainly at night. The earliest mammals appeared during this era’s first period.",
       "r": "Dinosaurs dominated the land during this era. For 10 points, name this era of the Triassic, Jurassic, and Cretaceous periods."
     },
     {
@@ -329,7 +329,7 @@
     {
       "id": "andrews-eggs",
       "tier": "power",
-      "t": "Roy Chapman Andrews found fossil egg nests at Mongolia’s Flaming Cliffs (1923); many turned out to belong to Oviraptor",
+      "t": "Roy Chapman Andrews found fossil egg nests at Mongolia’s Flaming Cliffs (1923); many turned out to be eggs of Oviraptor and its relatives, not Protoceratops",
       "k": [
         "roy chapman andrews",
         "flaming cliffs",
@@ -364,11 +364,11 @@
     {
       "id": "repenomamus",
       "tier": "power",
-      "t": "Repenomamus, a badger-sized mammal from China, was found with a young Psittacosaurus in its stomach",
+      "t": "Repenomamus, a meat-eating mammal from China, was found with a young Psittacosaurus in its stomach",
       "k": [
         "repenomamus",
         "psittacosaurus",
-        "badger-sized"
+        "stomach"
       ],
       "n": 0
     },

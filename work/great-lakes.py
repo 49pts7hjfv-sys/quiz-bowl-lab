@@ -89,7 +89,7 @@ data = {
             "r": "Lake Michigan is the only one of them entirely inside the United States. For 10 points, name this group of five lakes that includes Superior and Erie."
         },
         {
-            "p": "Sea lampreys, eel-like fish that feed on other fish, spread into the upper parts of these bodies of water through the Welland Canal, which lets ships climb past a natural barrier in the Canadian province of Ontario. The lampreys nearly wiped out the lake trout in several of them by the 1950s.",
+            "p": "Sea lampreys, eel-like fish that feed on other fish, spread into the upper parts of these bodies of water through the Welland Canal, a canal in the Canadian province of Ontario that lets ships climb past a natural barrier. The lampreys nearly wiped out the lake trout in several of them by the 1950s.",
             "r": "That barrier is Niagara Falls, between Lake Erie and Lake Ontario. For 10 points, name this group of five lakes on the U.S.–Canada border."
         },
         {

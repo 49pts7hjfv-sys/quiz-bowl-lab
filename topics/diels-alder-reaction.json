@@ -4,7 +4,7 @@
   "mono": "DA",
   "category": "Chemistry",
   "qbCategory": "Science · Chemistry",
-  "kicker": "Diene plus dienophile makes a ring · Won the 1950 Nobel Prize in Chemistry",
+  "kicker": "Diene plus dienophile makes a ring · Earned its discoverers a 1950 Nobel Prize",
   "dates": "First described 1928; Nobel Prize 1950",
   "briefing": "The Diels–Alder reaction snaps two molecules together into a six-membered ring in a single step. One partner, the diene, has two double bonds; the other, the dienophile, usually has one. German chemists Otto Diels and his former student Kurt Alder first described it in 1928 and shared the 1950 Nobel Prize in Chemistry, and chemists still use it to build complicated molecules, from medicines to plastics.",
   "answerHtml": "<b><u>Diels–Alder</u></b> reaction (accept <u>Diels–Alder</u> cycloaddition or <u>diene synthesis</u>; prompt on <u>cycloaddition</u>, [4+2] <u>cycloaddition</u>, or <u>pericyclic</u> reaction)",
@@ -110,7 +110,7 @@
       "r": "For 10 points, name this reaction in which a diene and a dienophile combine to make a six-membered ring."
     },
     {
-      "p": "This reaction was first described in 1928 by a chemistry professor at the University of Kiel [“KEEL”] and his former doctoral student. The professor had earlier discovered carbon suboxide, a gas with the formula C₃O₂.",
+      "p": "This reaction was first described in 1928 by a chemistry professor at the University of Kiel [“KEEL”] and his former doctoral student. One of its two partners has a name meaning “diene-loving,” because it readily joins a molecule that has two double bonds.",
       "r": "Those German chemists shared the 1950 Nobel Prize for it. For 10 points, name this reaction between a diene and a dienophile."
     },
     {
@@ -151,7 +151,7 @@
     },
     {
       "p": "The simplest textbook example of this reaction joins two small hydrocarbons, but it is slow and needs high heat and pressure. In its product, the single bond that was in the middle of the four-carbon reactant becomes a double bond.",
-      "r": "That example makes cyclohexene from butadiene and ethylene. For 10 points, name this [4+2] cycloaddition, which won a 1950 Nobel Prize."
+      "r": "That example makes cyclohexene from butadiene and ethylene. For 10 points, name this [4+2] cycloaddition, whose discoverers won a 1950 Nobel Prize."
     }
   ],
   "clues": [
@@ -343,12 +343,12 @@
       "n": 0
     },
     {
-      "id": "carbon-suboxide",
+      "id": "dienophile-name",
       "tier": "power",
-      "t": "The professor who shared in its discovery had earlier discovered carbon suboxide, C₃O₂",
+      "t": "Its two-carbon partner, the dienophile, has a name meaning “diene-loving,” since it readily joins a molecule with two double bonds",
       "k": [
-        "carbon suboxide",
-        "professor"
+        "diene-loving",
+        "dienophile"
       ],
       "n": 0
     },

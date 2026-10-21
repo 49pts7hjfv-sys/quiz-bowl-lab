@@ -130,7 +130,7 @@
       "r": "Its speed is measured with an anemometer. For 10 points, name this movement of air, which flows from high to low pressure."
     },
     {
-      "p": "In 1934, observers on New Hampshire’s Mount Washington measured a gust of this phenomenon at 231 miles per hour, a record that stood for more than 60 years. A 1996 gust on Australia’s Barrow Island during Cyclone Olivia later beat that record.",
+      "p": "In 1934, observers on New Hampshire’s Mount Washington measured a gust of this phenomenon at 231 miles per hour, a world record, not counting tornadoes, that stood for more than 60 years. A 1996 gust on Australia’s Barrow Island during Cyclone Olivia later beat that record.",
       "r": "Its strength is often ranked on the Beaufort scale. For 10 points, name this movement of air caused by differences in air pressure."
     },
     {
@@ -162,7 +162,7 @@
       "r": "Those daily flows are called sea and land breezes. For 10 points, name this movement of air from high to low pressure."
     },
     {
-      "p": "In 1735, George Hadley explained the steady trades with a giant loop of rising and sinking air, and William Ferrel later used Earth’s spin to explain why the trades and the westerlies curve. Sailing ships could be stuck for days in the doldrums near the equator, where this phenomenon is often weak or absent.",
+      "p": "In 1735, George Hadley explained the steady trades with a giant loop of rising and sinking air, and a second loop of air at middle latitudes was later named for William Ferrel. Sailing ships could be stuck for days in the doldrums near the equator, where this phenomenon is often weak or absent.",
       "r": "Its strength is ranked from calm to hurricane force on the Beaufort scale. For 10 points, name this movement of air."
     },
     {
@@ -301,7 +301,7 @@
     {
       "id": "hadley-doldrums",
       "tier": "middle",
-      "t": "George Hadley (1735) explained the trades with a loop of rising and sinking air; William Ferrel used Earth’s spin to explain why the belts curve; ships stalled in the calm doldrums",
+      "t": "George Hadley (1735) explained the trades with a loop of rising and sinking air; a middle-latitude loop is named for William Ferrel; ships stalled in the calm doldrums",
       "k": [
         "hadley",
         "1735",
@@ -392,7 +392,7 @@
     {
       "id": "mount-washington",
       "tier": "power",
-      "t": "Observers on New Hampshire’s Mount Washington measured a 231-mile-per-hour gust in 1934; a 1996 gust on Australia’s Barrow Island beat it",
+      "t": "Observers on New Hampshire’s Mount Washington measured a 231-mile-per-hour gust in 1934, the record (not counting tornadoes) until a 1996 gust on Australia’s Barrow Island",
       "k": [
         "mount washington",
         "231",

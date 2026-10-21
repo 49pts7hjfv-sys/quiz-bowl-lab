@@ -155,7 +155,7 @@
     },
     {
       "p": "A 2015 survey using GPS equipment lowered this mountain’s official height by ten feet, from the figure of 20,320 feet that had been used for decades. Survey teams carried their instruments all the way to its summit.",
-      "r": "Its height is now listed as 20,310 feet. For 10 points, name this mountain, the tallest in North America, first climbed in 1913."
+      "r": "That survey set its official height at 20,310 feet. For 10 points, name this mountain, the tallest in North America, first climbed in 1913."
     }
   ],
   "clues": [
@@ -251,12 +251,12 @@
     {
       "id": "mckinley-name",
       "tier": "middle",
-      "t": "Renamed in 1896 for presidential candidate William McKinley by gold prospector William Dickey",
+      "t": "Gold prospector William Dickey renamed it in 1896 for a presidential candidate who backed the gold standard (the future 25th president)",
       "k": [
-        "william mckinley",
         "dickey",
         "1896",
-        "prospector"
+        "prospector",
+        "gold standard"
       ],
       "n": 0,
       "rabbit": "William McKinley"

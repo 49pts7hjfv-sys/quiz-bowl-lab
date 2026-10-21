@@ -1,0 +1,336 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "peroxisomes",
+    "name": "Peroxisomes",
+    "mono": "PXS",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Single-membrane organelle · Uses catalase to destroy hydrogen peroxide",
+    "dates": "Named by Christian de Duve in the 1960s",
+    "briefing": "Peroxisomes are tiny, bubble-like organelles that handle some of a cell’s most dangerous chemistry. Their enzymes help break down fatty acids and poisons such as alcohol, and along the way they make hydrogen peroxide, the same chemical sold in brown bottles at drugstores. Before it can hurt the cell, an enzyme called catalase splits that peroxide into harmless water and oxygen.",
+    "answerHtml": "<b><u>Peroxisomes</u></b> (accept <u>peroxisome</u>; prompt on <u>microbodies</u>; do not accept “lysosomes,” “mitochondria,” or “glyoxysomes”)",
+    "accept": [
+        "peroxisomes",
+        "peroxisome"
+    ],
+    "prompt": [
+        "microbodies",
+        "microbody"
+    ],
+    "reject": [
+        "lysosomes",
+        "lysosome",
+        "glyoxysomes",
+        "glyoxysome",
+        "glycosomes",
+        "glycosome",
+        "mitochondria",
+        "mitochondrion",
+        "vacuoles",
+        "vacuole",
+        "ribosomes",
+        "ribosome",
+        "liposomes",
+        "liposome",
+        "proteasomes",
+        "proteasome",
+        "endosomes",
+        "endosome",
+        "vesicles",
+        "vesicle",
+        "golgi",
+        "golgi apparatus",
+        "golgi body",
+        "endoplasmic reticulum",
+        "er",
+        "chloroplasts",
+        "chloroplast",
+        "nucleus",
+        "centrosomes",
+        "centrosome",
+        "catalase",
+        "hydrogen peroxide",
+        "peroxide",
+        "peroxidase",
+        "lysozyme",
+        "lysozymes"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Peroxisome",
+    "qb": {
+        "q": "peroxisome",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1954, Johannes Rhodin first spotted this organelle in electron microscope pictures of kidney cells and called it a “microbody.” About a decade later, Christian de Duve gave it its modern name after showing that it holds enzymes that both make and destroy a reactive chemical.",
+            "r": "Its enzyme catalase breaks that chemical down into water and oxygen. For 10 points, name this organelle named for hydrogen peroxide."
+        },
+        {
+            "p": "Christian de Duve [“duh DOOV”] found this organelle by spinning ground-up rat liver cells in a centrifuge and tracking which layers held certain enzymes. De Duve, who had also discovered the lysosome, shared the 1974 Nobel Prize in Physiology or Medicine with Albert Claude and George Palade.",
+            "r": "This organelle uses catalase to destroy hydrogen peroxide. For 10 points, name this organelle that also breaks down fatty acids."
+        },
+        {
+            "p": "Many proteins headed for this organelle end with the three amino acids serine, lysine, and leucine, a shipping tag known by the letters SKL. Because this organelle has no DNA of its own, every one of its enzymes must be imported from the surrounding cytoplasm.",
+            "r": "Its enzyme catalase turns hydrogen peroxide into water and oxygen. For 10 points, name this small organelle that breaks down fatty acids."
+        },
+        {
+            "p": "In Zellweger syndrome, a rare and serious inherited disorder caused by faulty PEX genes, cells cannot build working versions of this organelle, and the brain, liver, and kidneys are affected. In healthy people, liver and kidney cells are packed with this organelle.",
+            "r": "It normally breaks down very long fatty acids. For 10 points, name this organelle that uses catalase to destroy hydrogen peroxide."
+        },
+        {
+            "p": "The 1992 film _Lorenzo’s Oil_ follows a family facing adrenoleukodystrophy [“uh-DREE-noh-loo-koh-DIS-truh-fee”], in which a faulty transport protein in this organelle’s membrane lets very-long-chain fatty acids build up, and the coating of nerve cells breaks down. Like the lysosome, this organelle is wrapped in just one membrane.",
+            "r": "Christian de Duve named it. For 10 points, name this organelle whose enzyme catalase destroys hydrogen peroxide."
+        },
+        {
+            "p": "In sprouting seeds such as castor beans, specialized versions of this organelle called glyoxysomes [“gly-OX-ih-sohmz”] use the glyoxylate cycle to turn stored fats into sugars that feed the growing seedling. Most animals lack that cycle.",
+            "r": "Christian de Duve discovered this organelle. For 10 points, name this organelle named for the hydrogen peroxide it makes and destroys."
+        },
+        {
+            "p": "In plant leaves, this organelle works with chloroplasts and mitochondria to carry out photorespiration, a wasteful process that starts when the enzyme RuBisCo grabs oxygen instead of carbon dioxide. Textbook pictures often show this organelle right next to chloroplasts.",
+            "r": "Its catalase breaks down hydrogen peroxide. For 10 points, name this single-membrane organelle that also breaks down fatty acids."
+        },
+        {
+            "p": "In rats, this organelle often has a dense, crystal-like core made of the enzyme urate oxidase, which breaks down uric acid. Humans and other apes lack a working version of that enzyme, which is one reason people can get gout.",
+            "r": "This organelle uses catalase to break down hydrogen peroxide. For 10 points, name this small organelle that also breaks down fatty acids."
+        },
+        {
+            "p": "Fireflies keep luciferase [“loo-SIF-er-ayss”], the enzyme that makes their light, inside this organelle in the light-making cells of their glowing lanterns. New copies of this organelle can form by growing and splitting in two, or by budding from the endoplasmic reticulum.",
+            "r": "Its catalase splits hydrogen peroxide into water and oxygen. For 10 points, name this small, single-membrane organelle."
+        },
+        {
+            "p": "This organelle carries out the first steps in making plasmalogens [“plaz-MAL-uh-jenz”], fats that are especially plentiful in the myelin that insulates nerve cells. Very-long-chain fatty acids are partly broken down in this organelle before mitochondria finish the job.",
+            "r": "Its enzyme catalase turns a harmful byproduct into water and oxygen. For 10 points, name this organelle named for hydrogen peroxide."
+        },
+        {
+            "p": "In plants and yeast, this organelle is the only place where fatty acids are broken down, two carbons at a time, in a process called beta-oxidation. In animals, this organelle handles the longest fatty acids, while mitochondria break down most of the rest.",
+            "r": "Its enzyme catalase turns hydrogen peroxide into water and oxygen. For 10 points, name this small organelle found in nearly all eukaryotic cells."
+        },
+        {
+            "p": "Liver and kidney cells are packed with this organelle, which helps detoxify alcohol and other harmful compounds by pulling hydrogen atoms off them and handing those atoms to oxygen. That reaction leaves behind a dangerous byproduct.",
+            "r": "The enzyme catalase then breaks that byproduct into water and oxygen. For 10 points, name this organelle named for hydrogen peroxide."
+        },
+        {
+            "p": "Like the lysosome, this organelle is a small sac wrapped in a single membrane and was discovered by Christian de Duve, but instead of acid-loving digestive enzymes, it is filled with oxidase enzymes that strip hydrogen from other molecules.",
+            "r": "Catalase, an enzyme packed into this organelle, makes hydrogen peroxide fizz on a slice of raw potato. For 10 points, name this organelle."
+        },
+        {
+            "p": "When this organelle breaks down fatty acids, the first step passes electrons straight to oxygen, so that step’s energy is lost as heat instead of being used to make ATP, as it would be in a mitochondrion. That step also makes a harmful compound that this organelle must destroy.",
+            "r": "Catalase splits that compound into water and oxygen. For 10 points, name this organelle named for hydrogen peroxide."
+        },
+        {
+            "p": "In the parasites that cause African sleeping sickness, a modified version of this organelle called the glycosome holds most of the enzymes of glycolysis. In animal cells, this organelle helps break down the longest fatty acids.",
+            "r": "Its enzyme catalase destroys hydrogen peroxide. For 10 points, name this single-membrane organelle discovered by Christian de Duve in the 1960s."
+        }
+    ],
+    "clues": [
+        {
+            "id": "named-peroxide",
+            "tier": "giveaway",
+            "t": "Named for hydrogen peroxide, a harmful chemical that its enzymes make and then destroy",
+            "k": ["hydrogen peroxide", "harmful"],
+            "n": 0
+        },
+        {
+            "id": "catalase",
+            "tier": "giveaway",
+            "t": "Its enzyme catalase splits hydrogen peroxide into water and oxygen",
+            "k": ["catalase", "water and oxygen"],
+            "n": 0,
+            "rabbit": "Enzymes"
+        },
+        {
+            "id": "organelle",
+            "tier": "giveaway",
+            "t": "A small organelle wrapped in a single membrane, found in nearly all eukaryotic cells",
+            "k": ["single membrane", "eukaryotic", "small organelle"],
+            "n": 0
+        },
+        {
+            "id": "fatty-acids",
+            "tier": "middle",
+            "t": "Breaks down fatty acids, especially very long ones, which it shortens before mitochondria finish the job",
+            "k": ["fatty acids", "very long", "shortens"],
+            "n": 0
+        },
+        {
+            "id": "de-duve",
+            "tier": "middle",
+            "t": "Christian de Duve, who also discovered lysosomes, found and named it in the 1960s using a centrifuge",
+            "k": ["de duve", "lysosomes", "centrifuge", "1960s"],
+            "n": 0,
+            "rabbit": "Lysosomes"
+        },
+        {
+            "id": "liver-kidney",
+            "tier": "middle",
+            "t": "Packed into liver and kidney cells, where it helps detoxify alcohol and other harmful compounds",
+            "k": ["liver", "kidney", "alcohol", "detoxify"],
+            "n": 0,
+            "rabbit": "Liver"
+        },
+        {
+            "id": "oxidases",
+            "tier": "middle",
+            "t": "Its oxidase enzymes strip hydrogen from other molecules and hand it to oxygen, making hydrogen peroxide",
+            "k": ["oxidase", "strip hydrogen"],
+            "n": 0
+        },
+        {
+            "id": "glyoxysomes",
+            "tier": "middle",
+            "t": "In sprouting seeds, versions called glyoxysomes use the glyoxylate cycle to turn stored fats into sugars",
+            "k": ["glyoxysomes", "glyoxylate cycle", "seeds"],
+            "n": 0
+        },
+        {
+            "id": "no-dna",
+            "tier": "middle",
+            "t": "Unlike mitochondria and chloroplasts, it has no DNA, so it must import all of its enzymes",
+            "k": ["no dna", "import"],
+            "n": 0,
+            "rabbit": "Mitochondria"
+        },
+        {
+            "id": "potato-fizz",
+            "tier": "middle",
+            "t": "Its catalase works so fast that hydrogen peroxide fizzes on a slice of raw potato or liver",
+            "k": ["fizzes", "potato"],
+            "n": 0
+        },
+        {
+            "id": "rhodin",
+            "tier": "power",
+            "t": "Johannes Rhodin first saw it in 1954 in electron microscope pictures of kidney cells and called it a “microbody”",
+            "k": ["rhodin", "microbody", "1954"],
+            "n": 0
+        },
+        {
+            "id": "nobel-1974",
+            "tier": "power",
+            "t": "De Duve shared the 1974 Nobel Prize with Albert Claude and George Palade",
+            "k": ["1974", "albert claude", "palade"],
+            "n": 0
+        },
+        {
+            "id": "zellweger",
+            "tier": "power",
+            "t": "In Zellweger syndrome, a rare, serious inherited disorder caused by faulty PEX genes, cells cannot build working ones",
+            "k": ["zellweger", "pex genes"],
+            "n": 0
+        },
+        {
+            "id": "ald-lorenzo",
+            "tier": "power",
+            "t": "In adrenoleukodystrophy, the disease in the 1992 film _Lorenzo’s Oil_, a faulty transporter in its membrane lets very-long-chain fatty acids build up",
+            "k": ["adrenoleukodystrophy", "lorenzo’s oil", "1992"],
+            "n": 0
+        },
+        {
+            "id": "skl",
+            "tier": "power",
+            "t": "Many proteins bound for it end in serine, lysine, and leucine, a shipping tag known as SKL",
+            "k": ["skl", "serine", "leucine", "shipping tag"],
+            "n": 0
+        },
+        {
+            "id": "photorespiration",
+            "tier": "power",
+            "t": "In leaves, it works with chloroplasts and mitochondria in photorespiration, which starts when RuBisCo grabs oxygen",
+            "k": ["photorespiration", "rubisco"],
+            "n": 0,
+            "rabbit": "Photosynthesis"
+        },
+        {
+            "id": "urate-oxidase",
+            "tier": "power",
+            "t": "In rats, it often has a crystal-like core of urate oxidase, an enzyme that humans and other apes lack",
+            "k": ["urate oxidase", "crystal-like", "apes"],
+            "n": 0
+        },
+        {
+            "id": "luciferase",
+            "tier": "power",
+            "t": "Fireflies store luciferase, their light-making enzyme, inside it",
+            "k": ["fireflies", "luciferase"],
+            "n": 0
+        },
+        {
+            "id": "plasmalogens",
+            "tier": "power",
+            "t": "Starts the making of plasmalogens, fats plentiful in the myelin that insulates nerve cells",
+            "k": ["plasmalogens", "myelin"],
+            "n": 0
+        },
+        {
+            "id": "beta-oxidation",
+            "tier": "power",
+            "t": "In plants and yeast, it is the only place fatty acids are broken down, two carbons at a time, by beta-oxidation",
+            "k": ["beta-oxidation", "two carbons", "yeast"],
+            "n": 0
+        },
+        {
+            "id": "heat-not-atp",
+            "tier": "power",
+            "t": "Its first fatty-acid-breaking step hands electrons straight to oxygen, so that energy is lost as heat instead of making ATP",
+            "k": ["heat", "electrons"],
+            "n": 0
+        },
+        {
+            "id": "glycosome",
+            "tier": "power",
+            "t": "In the parasites behind African sleeping sickness, a modified version called the glycosome holds glycolysis enzymes",
+            "k": ["glycosome", "sleeping sickness", "glycolysis"],
+            "n": 0
+        },
+        {
+            "id": "fission",
+            "tier": "power",
+            "t": "New ones form by growing and splitting in two, or by budding from the endoplasmic reticulum",
+            "k": ["splitting", "budding", "endoplasmic reticulum"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Peroxisome or lysosome?",
+        "body": "Christian de Duve discovered both organelles, and both are small sacs wrapped in a single membrane, so a buzz on “de Duve” alone is a coin flip. Lysosomes digest worn-out parts and germs with acid-loving enzymes, while peroxisomes use oxidase enzymes and catalase to handle hydrogen peroxide and break down fatty acids. Mitochondria also break down fatty acids, but they have two membranes and their own DNA.",
+        "fix": "Wait for the chemistry: hydrogen peroxide, catalase, glyoxysomes, Zellweger syndrome, or very-long-chain fatty acids mean peroxisome. Acid, digestive enzymes, or Tay-Sachs disease mean lysosome. Saying “microbodies” earns a prompt, so be ready to say peroxisome.",
+        "line": "Real answer line: <b><u>Peroxisomes</u></b> (accept <u>peroxisome</u>; prompt on <u>microbodies</u>; do not accept “lysosomes,” “mitochondria,” or “glyoxysomes”)"
+    },
+    "tests": {
+        "right": [
+            "Peroxisomes",
+            "peroxisome",
+            "Peroxysomes",
+            "Peroxisome organelle"
+        ],
+        "prompt": [
+            "Microbodies",
+            "microbody"
+        ],
+        "wrong": [
+            "Lysosomes",
+            "Mitochondria",
+            "Vacuoles",
+            "Glyoxysomes",
+            "Catalase",
+            "Hydrogen peroxide",
+            "Ribosomes"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
