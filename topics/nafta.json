@@ -6,8 +6,8 @@
   "qbCategory": "History · American History",
   "kicker": "Trade pact of the U.S., Canada, and Mexico · In force 1994–2020",
   "dates": "Signed 1992; in force 1994–2020",
-  "briefing": "NAFTA, the North American Free Trade Agreement, removed most tariffs, or taxes on imports, on goods traded among the United States, Canada, and Mexico. Leaders of the three countries signed it in 1992, Congress approved it in 1993, and it took effect on January 1, 1994. Supporters said it would boost trade, while critics such as Ross Perot warned that jobs would move to Mexico. In 2020, a new deal called the USMCA replaced it.",
-  "answerHtml": "<b><u>NAFTA</u></b> (or <b><u>North American Free Trade Agreement</u></b>; do not accept “USMCA”)",
+  "briefing": "NAFTA, the North American Free Trade Agreement, removed most tariffs, or taxes on imports, on goods traded among the United States, Canada, and Mexico. Leaders of the three countries signed it in 1992, Congress approved it in 1993, and it was in force from January 1, 1994, until a new deal called the USMCA replaced it in 2020. Supporters said it would boost trade, while critics such as Ross Perot warned that jobs would move to Mexico.",
+  "answerHtml": "<b><u>NAFTA</u></b> (or <b><u>North American Free Trade Agreement</u></b>; prompt on <u>free trade agreement</u>; do not accept “USMCA”)",
   "accept": [
     "nafta",
     "n a f t a",
@@ -47,7 +47,9 @@
     "european union",
     "mercosur",
     "asean",
-    "apec"
+    "apec",
+    "nafta 2 0",
+    "new nafta"
   ],
   "media": [],
   "mediaPending": true,
@@ -381,9 +383,9 @@
   ],
   "trap": {
     "title": "NAFTA or the USMCA?",
-    "body": "The USMCA (United States–Mexico–Canada Agreement) replaced NAFTA on July 1, 2020, and questions about one can sound like the other. Clues about Donald Trump, Justin Trudeau, the 2018 signing, CUSMA, or T-MEC point to the newer deal. Other trade answers include GATT and the World Trade Organization (worldwide), CAFTA (with Central America and the Dominican Republic), and the Trans-Pacific Partnership, and NATO is a military alliance, not a trade deal.",
+    "body": "The USMCA (United States–Mexico–Canada Agreement) replaced NAFTA on July 1, 2020, and questions about one can sound like the other. Clues about Donald Trump, Justin Trudeau, the 2018 signing, CUSMA, or T-MEC point to the newer deal, unless the question asks for the deal it replaced. Other trade answers include GATT and the World Trade Organization (worldwide), CAFTA (with Central America and the Dominican Republic), and the Trans-Pacific Partnership, and NATO is a military alliance, not a trade deal.",
     "fix": "NAFTA clues: signed in 1992 by Bush, Mulroney, and Salinas; passed under Clinton in 1993; began January 1, 1994; Ross Perot’s “giant sucking sound”; and the Zapatista uprising. Listen for dates: 1992 to 1994 means NAFTA, and 2018 to 2020 means the USMCA.",
-    "line": "Real answer line: <b><u>NAFTA</u></b> (or <b><u>North American Free Trade Agreement</u></b>; do not accept “USMCA”)"
+    "line": "Real answer line: <b><u>NAFTA</u></b> (or <b><u>North American Free Trade Agreement</u></b>; prompt on <u>free trade agreement</u>; do not accept “USMCA”)"
   },
   "tests": {
     "right": [
@@ -405,7 +407,8 @@
       "World Trade Organization",
       "Trans-Pacific Partnership",
       "NAACP",
-      "European Union"
+      "European Union",
+      "NAFTA 2.0"
     ]
   }
 }

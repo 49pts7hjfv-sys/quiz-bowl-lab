@@ -72,7 +72,7 @@
       "r": "For 10 points, name this Republican from Janesville, Wisconsin, who ran for vice president with Mitt Romney in 2012."
     },
     {
-      "p": "In August 2012, this man was introduced to a national audience aboard the retired battleship USS _Wisconsin_ in Norfolk, Virginia, a ship that shared its name with his home state.",
+      "p": "In August 2012, this man was introduced to a national audience in front of the retired battleship USS _Wisconsin_ in Norfolk, Virginia, a ship that shared its name with his home state.",
       "r": "That October, he debated Joe Biden. For 10 points, name this running mate of Mitt Romney who later became Speaker of the House."
     },
     {
@@ -100,7 +100,7 @@
       "r": "For 10 points, name this Wisconsin Republican who was Mitt Romney’s running mate and later Speaker of the House."
     },
     {
-      "p": "From 1999 to 2019, this congressman represented Wisconsin’s 1st District, which includes the cities of Kenosha and Racine as well as his hometown of Janesville. He first won that seat at age 28.",
+      "p": "From 1999 to 2019, this congressman represented Wisconsin’s 1st District, which included the cities of Kenosha and Racine as well as his hometown of Janesville. He first won that seat at age 28.",
       "r": "For 10 points, name this Republican who was Speaker of the House from 2015 to 2019 and Mitt Romney’s running mate in 2012."
     },
     {
@@ -261,7 +261,7 @@
     {
       "id": "uss-wisconsin",
       "tier": "power",
-      "t": "Introduced as the vice-presidential pick aboard the battleship USS _Wisconsin_ in Norfolk, Virginia (August 2012)",
+      "t": "Introduced as the vice-presidential pick in front of the battleship USS _Wisconsin_ in Norfolk, Virginia (August 2012)",
       "k": [
         "uss wisconsin",
         "battleship",
@@ -326,7 +326,7 @@
     {
       "id": "district",
       "tier": "power",
-      "t": "Represented Wisconsin’s 1st District, which includes Kenosha and Racine",
+      "t": "Represented Wisconsin’s 1st District, which included Kenosha and Racine",
       "k": [
         "1st district",
         "kenosha",
@@ -399,7 +399,7 @@
   ],
   "trap": {
     "title": "Which Speaker is it?",
-    "body": "Recent Speakers of the House get mixed up. John Boehner of Ohio was Speaker from 2011 until he resigned in 2015, Paul Ryan of Wisconsin served from 2015 to 2019, and Nancy Pelosi of California, the first woman Speaker, held the job from 2007 to 2011 and again from 2019 to 2023. Kevin McCarthy, Ryan’s fellow _Young Guns_ author, became Speaker in 2023. Other famous Ryans, like the baseball pitcher Nolan Ryan, are different answers.",
+    "body": "Twenty-first-century Speakers of the House get mixed up. John Boehner of Ohio was Speaker from 2011 until he resigned in 2015, Paul Ryan of Wisconsin served from 2015 to 2019, and Nancy Pelosi of California, the first woman Speaker, held the job from 2007 to 2011 and again from 2019 to 2023. Kevin McCarthy, Ryan’s fellow _Young Guns_ author, became Speaker in 2023. Other famous Ryans, like the baseball pitcher Nolan Ryan, are different answers.",
     "fix": "Ryan clues: Janesville, the House Budget Committee, “The Path to Prosperity,” Mitt Romney’s 2012 running mate, the debate with Joe Biden, and the 2017 tax law. Boehner clues: Ohio and resigning in 2015. Pelosi clues: California and being the first woman Speaker. Saying just “Ryan” is enough.",
     "line": "Real answer line: Paul <b><u>Ryan</u></b> (accept Paul Davis <u>Ryan</u>)"
   },

@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "River of the nation’s capital · Divides Maryland from Virginia",
   "dates": "Explored by John Smith in 1608",
-  "briefing": "The Potomac River flows from the mountains of West Virginia to the Chesapeake Bay, forming much of the border between Maryland and Virginia. George Washington was born near it, built his home at Mount Vernon on its banks, and picked a spot along it for the nation’s capital. On the way, it meets the Shenandoah River at Harpers Ferry and tumbles over the rocky Great Falls just upstream from Washington, D.C.",
+  "briefing": "The Potomac River flows from the mountains of West Virginia to the Chesapeake Bay, forming much of the border between Maryland and Virginia. George Washington was born near it, made his home at Mount Vernon on its banks, and picked a spot along it for the nation’s capital. On the way, it meets the Shenandoah River at Harpers Ferry and tumbles over the rocky Great Falls just upstream from Washington, D.C.",
   "answerHtml": "<b><u>Potomac</u></b> River (do not accept “Chesapeake Bay” or “Shenandoah River”)",
   "accept": [
     "potomac",
@@ -176,7 +176,7 @@
     {
       "id": "great-falls",
       "tier": "middle",
-      "t": "Its Great Falls, just upstream from Washington, sit at the fall line, where ships coming upriver had to stop",
+      "t": "Its Great Falls, just upstream from Washington, lie along the fall line; ships coming upriver could go no farther than Georgetown",
       "k": [
         "great falls",
         "fall line"
@@ -395,7 +395,7 @@
   ],
   "trap": {
     "title": "River, bay, or tributary?",
-    "body": "The Potomac flows into the Chesapeake Bay, so bay clues and river clues get mixed up, and its tributaries, like the Shenandoah at Harpers Ferry and the Anacostia in Washington, D.C., are separate answers. The Rappahannock, farther south, runs past Ferry Farm, where George Washington spent much of his boyhood. A popular legend says Washington threw a silver dollar across the Potomac, but the story is usually told about the Rappahannock, near that boyhood home.",
+    "body": "The Potomac flows into the Chesapeake Bay, so bay clues and river clues get mixed up, and its tributaries, like the Shenandoah at Harpers Ferry and the Anacostia in Washington, D.C., are separate answers. The Rappahannock, farther south, runs past Ferry Farm, where George Washington spent much of his boyhood. A popular legend says Washington threw a silver dollar across the Potomac, though some versions place the throw at the Rappahannock, near that boyhood home.",
     "fix": "Potomac clues: Washington, D.C., Mount Vernon, Great Falls, Harpers Ferry, the C&O Canal, and the Maryland–Virginia border. Shenandoah clues: its valley, Stonewall Jackson’s 1862 campaign, and flowing north into another river. Chesapeake Bay clues: an estuary, oysters and blue crabs, and the Chesapeake Bay Bridge.",
     "line": "Real answer line: <b><u>Potomac</u></b> River (do not accept “Chesapeake Bay” or “Shenandoah River”)"
   },

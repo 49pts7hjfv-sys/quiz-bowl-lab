@@ -7,7 +7,7 @@
   "kicker": "The force that resists motion through air or water · Why parachutes work",
   "dates": "Studied in Isaac Newton’s _Principia_, 1687",
   "briefing": "Drag is the force that pushes back on anything moving through air or water, from a cyclist to a swimmer to a jumbo jet. It grows quickly with speed, which is why a falling skydiver eventually stops speeding up at a steady terminal velocity, and why a parachute, with its huge area, slows the fall to a gentle landing. Engineers fight drag by giving cars, planes, and racing bikes smooth, streamlined shapes.",
-  "answerHtml": "<b><u>drag</u></b> (accept <u>drag force</u>, <u>air resistance</u>, or <u>fluid resistance</u>; do not accept “friction” or “lift”)",
+  "answerHtml": "<b><u>drag</u></b> (accept <u>drag force</u>, <u>air resistance</u>, or <u>fluid resistance</u>; prompt on <u>friction</u>; do not accept “lift”)",
   "accept": [
     "drag",
     "drag force",
@@ -25,15 +25,17 @@
     "resistance",
     "resistive force",
     "resistive forces",
-    "retarding force"
+    "retarding force",
+    "friction",
+    "fluid friction",
+    "frictional force",
+    "friction force"
   ],
   "reject": [
-    "friction",
-    "frictional force",
-    "friction force",
     "kinetic friction",
     "static friction",
     "rolling friction",
+    "sliding friction",
     "lift",
     "lift force",
     "thrust",
@@ -336,7 +338,7 @@
     {
       "id": "huygens",
       "tier": "power",
-      "t": "Huygens’s parachutes slowed it through Titan’s thick air for more than two hours in 2005",
+      "t": "The Huygens probe’s parachutes relied on it to slow the probe through Titan’s thick air for more than two hours in 2005",
       "k": [
         "huygens",
         "titan",
@@ -410,10 +412,10 @@
     }
   ],
   "trap": {
-    "title": "Not friction, not lift",
-    "body": "This force is sometimes called “fluid friction,” but quiz bowl treats it as a separate answer from friction between two solid surfaces, and this page does not accept “friction.” On airplanes it is one of four forces, so players blurt “lift,” which pushes a plane up, or “thrust,” which pushes it forward. And “terminal velocity” is a speed, not a force.",
+    "title": "Not lift, not just friction",
+    "body": "This force is sometimes called “fluid friction,” but quiz bowl treats it as a separate answer from friction between two solid surfaces, so saying just “friction” earns only a prompt. On airplanes it is one of four forces, so players blurt “lift,” which pushes a plane up, or “thrust,” which pushes it forward. And “terminal velocity” is a speed, not a force.",
     "fix": "Air or water, parachutes, streamlining, wind tunnels, and speed squared point to this force; sliding surfaces, lubricants, and the coefficient mu times the normal force point to friction. On an airplane, the force that opposes thrust is this one, while lift opposes weight.",
-    "line": "Real answer line: <b><u>drag</u></b> (accept <u>drag force</u>, <u>air resistance</u>, or <u>fluid resistance</u>; do not accept “friction” or “lift”)"
+    "line": "Real answer line: <b><u>drag</u></b> (accept <u>drag force</u>, <u>air resistance</u>, or <u>fluid resistance</u>; prompt on <u>friction</u>; do not accept “lift”)"
   },
   "tests": {
     "right": [
@@ -425,14 +427,15 @@
     ],
     "prompt": [
       "Resistance",
-      "Resistive force"
+      "Resistive force",
+      "Friction"
     ],
     "wrong": [
-      "Friction",
       "Lift",
       "Terminal velocity",
       "Viscosity",
-      "Thrust"
+      "Thrust",
+      "Kinetic friction"
     ]
   }
 }

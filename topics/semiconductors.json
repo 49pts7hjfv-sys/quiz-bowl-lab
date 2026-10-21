@@ -116,7 +116,7 @@
       "r": "California’s Silicon Valley is named for one of these materials. For 10 points, name these materials used to make computer chips."
     },
     {
-      "p": "Jack Kilby built the first integrated circuit in 1958, and Robert Noyce soon built a more practical one, each putting many tiny parts onto a single chip of one of these materials. Kilby won the 2000 Nobel Prize in Physics for that work.",
+      "p": "Jack Kilby built the first integrated circuit in 1958, and Robert Noyce soon built a more practical one, each putting several parts of a circuit onto a single chip of one of these materials. Kilby won the 2000 Nobel Prize in Physics for that work.",
       "r": "Kilby used germanium and Noyce used silicon. For 10 points, name these materials whose conductivity is between that of conductors and insulators."
     },
     {
@@ -124,7 +124,7 @@
       "r": "For 10 points, name these materials, like silicon, used to make diodes, transistors, and solar cells."
     },
     {
-      "p": "Dmitri Mendeleev predicted one element used in these materials in 1871, and Clemens Winkler discovered it in 1886, naming it for his home country. Mendeleev’s predictions of its properties turned out to be remarkably close.",
+      "p": "Dmitri Mendeleev [“men-duh-LAY-ef”] predicted one element used in these materials in 1871, calling it “eka-silicon,” and Clemens Winkler discovered it in 1886, naming it for his home country. Mendeleev’s predictions of its properties turned out to be remarkably close.",
       "r": "That element is germanium. For 10 points, name these materials, such as germanium and silicon, that conduct better than insulators but worse than metals."
     },
     {
@@ -132,7 +132,7 @@
       "r": "For 10 points, name these materials that can be made n-type or p-type by adding tiny amounts of other elements."
     },
     {
-      "p": "Many spacecraft solar panels use gallium arsenide, one of these materials, because it turns sunlight into electricity more efficiently than ordinary solar cells do. In any solar cell, light striking the boundary between two specially treated layers knocks electrons loose and drives them around a circuit.",
+      "p": "Many spacecraft solar panels use gallium arsenide, one of these materials, because it turns sunlight into electricity more efficiently than ordinary solar cells do. In a typical solar cell, light striking the boundary between two specially treated layers knocks electrons loose and drives them around a circuit.",
       "r": "Those layers are p-type and n-type versions of these materials. For 10 points, name these materials, such as silicon and germanium."
     },
     {
@@ -155,7 +155,7 @@
     {
       "id": "silicon-germanium",
       "tier": "giveaway",
-      "t": "Most are made of silicon or germanium, metalloids in group 14",
+      "t": "The best-known examples are silicon and germanium, metalloids in group 14",
       "k": [
         "silicon",
         "germanium",
@@ -365,9 +365,10 @@
     {
       "id": "germanium-prediction",
       "tier": "power",
-      "t": "Mendeleev predicted germanium (1871); Clemens Winkler found it in 1886 and named it for Germany",
+      "t": "Mendeleev predicted germanium as “eka-silicon” (1871); Clemens Winkler found it in 1886 and named it for Germany",
       "k": [
         "mendeleev",
+        "eka-silicon",
         "winkler",
         "1886"
       ],

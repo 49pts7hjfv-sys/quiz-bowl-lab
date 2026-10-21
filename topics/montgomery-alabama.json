@@ -68,7 +68,7 @@
       "r": "Jefferson Davis took his oath of office here. For 10 points, name this Alabama city, the first Confederate capital before Richmond."
     },
     {
-      "p": "On December 5, 1955, thousands of people filled Holt Street Baptist Church in this city to hear a 26-year-old minister speak about a protest that had begun that morning. That minister, the pastor of this city’s Dexter Avenue Baptist Church, was chosen to lead the protest.",
+      "p": "On December 5, 1955, thousands of people packed into and around Holt Street Baptist Church in this city to hear a 26-year-old minister speak about a protest that had begun that morning. That minister, the pastor of this city’s Dexter Avenue Baptist Church, was chosen to lead the protest.",
       "r": "It was a bus boycott sparked by the arrest of Rosa Parks. For 10 points, name this capital of Alabama."
     },
     {
@@ -84,7 +84,7 @@
       "r": "For 10 points, name this Alabama city where Rosa Parks’s arrest started a famous bus boycott."
     },
     {
-      "p": "In his January 1963 inaugural address at the state capitol in this city, Governor George Wallace promised “segregation now, segregation tomorrow, segregation forever.” That capitol stands at the top of Dexter Avenue, a block from the church where Martin Luther King Jr. had been pastor.",
+      "p": "In his January 1963 inaugural address at the state capitol in this city, Governor George Wallace vowed to defend segregation. That capitol stands at the top of Dexter Avenue, a block from the church where Martin Luther King Jr. had been pastor.",
       "r": "In 1965, voting-rights marchers from Selma ended their 54-mile walk at that capitol. For 10 points, name this capital of Alabama."
     },
     {
@@ -237,10 +237,11 @@
     {
       "id": "wallace",
       "tier": "middle",
-      "t": "Governor George Wallace promised “segregation forever” in his 1963 inaugural address at its capitol",
+      "t": "Governor George Wallace vowed to defend segregation in his 1963 inaugural address at its capitol",
       "k": [
         "george wallace",
-        "segregation forever",
+        "inaugural address",
+        "defend segregation",
         "wallace"
       ],
       "n": 0,

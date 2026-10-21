@@ -7,7 +7,7 @@
   "kicker": "2,000-mile wagon route to the Pacific Northwest · Busiest 1840s–1860s",
   "dates": "Main use 1843–1869",
   "briefing": "In the 1840s and 1850s, tens of thousands of pioneers packed covered wagons in towns like Independence, Missouri, and set out on a 2,000-mile trip to Oregon’s Willamette Valley. Pulled mostly by oxen, the wagons followed the Platte River, crossed the Rockies at South Pass, and passed landmarks like Chimney Rock and Independence Rock. The journey took four to six months, and many travelers died of diseases like cholera.",
-  "answerHtml": "<b><u>Oregon Trail</u></b> (prompt on <u>Oregon</u>; do not accept “Santa Fe Trail,” “California Trail,” or “Lewis and Clark”)",
+  "answerHtml": "<b><u>Oregon Trail</u></b> (prompt on <u>Oregon</u> or Oregon-California Trail; do not accept “Santa Fe Trail,” “California Trail,” or “Lewis and Clark”)",
   "accept": [
     "oregon trail",
     "the oregon trail",
@@ -15,7 +15,8 @@
   ],
   "prompt": [
     "oregon",
-    "oregon california trail"
+    "oregon california trail",
+    "oregon and california trail"
   ],
   "reject": [
     "santa fe trail",
@@ -84,7 +85,7 @@
       "r": "That landmark is Independence Rock. For 10 points, name this trail that led wagon trains from Missouri to Oregon."
     },
     {
-      "p": "Wagons on this route crossed the Continental Divide at a broad, gentle gap in Wyoming that fur trader Robert Stuart found in 1812 and mountain man Jedediah Smith’s party crossed again in 1824.",
+      "p": "Wagons on this route crossed the Continental Divide at a broad, gentle gap in Wyoming that fur trader Robert Stuart used in 1812 and mountain man Jedediah Smith’s party crossed again in 1824.",
       "r": "That gap is South Pass. For 10 points, name this trail that ran from Missouri to the Willamette [“wih-LAM-it”] Valley."
     },
     {
@@ -300,7 +301,7 @@
     {
       "id": "stuart-smith",
       "tier": "power",
-      "t": "Fur trader Robert Stuart found South Pass in 1812; Jedediah Smith’s party crossed it again in 1824",
+      "t": "Fur trader Robert Stuart crossed South Pass in 1812; Jedediah Smith’s party crossed it again in 1824",
       "k": [
         "robert stuart",
         "jedediah smith",
@@ -421,7 +422,7 @@
     "title": "Which trail west?",
     "body": "Several westward routes are separate answer lines. The Santa Fe Trail, opened in 1821, was a trade route from Missouri to Santa Fe, New Mexico. The California Trail shared the Oregon Trail’s eastern half, including Chimney Rock, Independence Rock, and South Pass, then split off toward the Sierra Nevada, and the Donner Party was on it. The Mormon Trail ran from Nauvoo, Illinois, to the Great Salt Lake, and the Lewis and Clark Expedition (1804–1806) traveled mostly by river, decades before the wagon trains.",
     "fix": "Oregon Trail clues: the Willamette Valley, Oregon City, The Dalles, the Barlow Road, the Columbia River, the Whitmans, Fort Vancouver, and the 1843 Great Migration. Santa Fe clues: William Becknell, trade goods, and Bent’s Fort. California clues: the Humboldt River, the Sierra Nevada, Sutter’s Fort, and the Donner Party. Brigham Young means the Mormon Trail.",
-    "line": "Real answer line: <b><u>Oregon Trail</u></b> (do not accept “Santa Fe Trail,” “California Trail,” or “Lewis and Clark”)"
+    "line": "Real answer line: <b><u>Oregon Trail</u></b> (prompt on <u>Oregon</u> or Oregon-California Trail; do not accept “Santa Fe Trail,” “California Trail,” or “Lewis and Clark”)"
   },
   "tests": {
     "right": [
@@ -433,7 +434,8 @@
     ],
     "prompt": [
       "Oregon",
-      "Oregon-California Trail"
+      "Oregon-California Trail",
+      "Oregon and California Trail"
     ],
     "wrong": [
       "Santa Fe Trail",

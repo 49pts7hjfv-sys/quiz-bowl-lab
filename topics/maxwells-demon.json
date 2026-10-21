@@ -146,7 +146,7 @@
       "r": "A tiny being opens and closes the hole so that fast molecules gather on one side and slow ones on the other. For 10 points, name this imaginary creature."
     },
     {
-      "p": "A refrigerator can move heat from its cold inside to a warmer kitchen only by using electricity, but this imaginary being would seem to do the same job for free. Its creator, a Scottish physicist, is better known for his equations of electricity and magnetism.",
+      "p": "A refrigerator can move heat from its cold inside to a warmer kitchen only by using energy, usually electricity, but this imaginary being would seem to do the same job for free. Its creator, a Scottish physicist, is better known for his equations of electricity and magnetism.",
       "r": "For 10 points, name this imaginary creature that sorts fast and slow molecules, seeming to break the second law of thermodynamics."
     }
   ],
@@ -393,7 +393,7 @@
     {
       "id": "refrigerator",
       "tier": "power",
-      "t": "Would seem to move heat from cold to hot for free, a job a refrigerator can do only by using electricity",
+      "t": "Would seem to move heat from cold to hot for free, a job a refrigerator can do only by using energy, usually electricity",
       "k": [
         "refrigerator",
         "electricity",
