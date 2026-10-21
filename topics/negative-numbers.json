@@ -21,7 +21,8 @@
   "prompt": [
     "negative integers",
     "negative integer",
-    "negative whole numbers"
+    "negative whole numbers",
+    "negative whole number"
   ],
   "reject": [
     "integers",
@@ -73,7 +74,8 @@
       "negative"
     ],
     "prompt": [
-      "negative integers"
+      "negative integers",
+      "negative whole number"
     ],
     "wrong": [
       "integers",
@@ -346,7 +348,7 @@
     {
       "id": "wallis",
       "tier": "power",
-      "t": "John Wallis’s _Treatise of Algebra_ (1685) explained them with a man who walks forward, then back farther; he is credited with popularizing the number line",
+      "t": "John Wallis’s _Treatise of Algebra_ (1685) explained them with a man who walks forward, then back farther; he is often credited with popularizing the number line",
       "k": [
         "wallis",
         "1685",
