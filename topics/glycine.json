@@ -1,0 +1,422 @@
+{
+  "id": "glycine",
+  "name": "Glycine",
+  "mono": "GLY",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Simplest amino acid · Its side chain is a single hydrogen atom",
+  "dates": "First isolated 1820",
+  "briefing": "Glycine is the simplest of the 20 amino acids that build your proteins: where the others carry a bulky side chain, glycine has just a single hydrogen atom. Its name comes from the Greek word for “sweet,” because it tastes sugary. Every third building block in collagen is glycine, it helps quiet nerve signals in your spinal cord, and NASA scientists even found it in dust brought back from a comet.",
+  "answerHtml": "<b><u>Glycine</u></b> (accept <u>Gly</u> or aminoacetic acid; prompt on <u>amino acid</u>; do not accept other amino acids)",
+  "accept": [
+    "glycine",
+    "gly",
+    "aminoacetic acid",
+    "amino acetic acid",
+    "aminoethanoic acid",
+    "amino ethanoic acid",
+    "glysine"
+  ],
+  "prompt": [
+    "amino acid",
+    "amino acids",
+    "aminoacid",
+    "aminoacids",
+    "amino"
+  ],
+  "reject": [
+    "alanine",
+    "serine",
+    "d serine",
+    "proline",
+    "hydroxyproline",
+    "valine",
+    "leucine",
+    "isoleucine",
+    "cysteine",
+    "glutamine",
+    "glutamate",
+    "glutamic acid",
+    "glutathione",
+    "arginine",
+    "taurine",
+    "creatine",
+    "gaba",
+    "gamma aminobutyric acid",
+    "glucose",
+    "glycogen",
+    "glycerol",
+    "glycerin",
+    "glycerine",
+    "glycolysis",
+    "glycoprotein",
+    "collagen",
+    "gelatin",
+    "protein",
+    "proteins",
+    "peptide",
+    "peptides",
+    "neurotransmitter",
+    "neurotransmitters",
+    "strychnine"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Glycine",
+  "qb": {
+    "q": "glycine",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1820, the French chemist Henri Braconnot [“bra-kaw-NOH”] boiled gelatin with sulfuric acid and isolated sweet-tasting crystals that he called “sugar of gelatin.” Those crystals were this compound, whose name comes from the Greek word for “sweet.”",
+      "r": "Its side chain is just one hydrogen atom, making it the simplest of the 20 standard amino acids. For 10 points, name this amino acid."
+    },
+    {
+      "p": "The poison strychnine [“STRIK-nyne”] causes severe muscle spasms by blocking this compound’s receptors, which are chloride channels on nerve cells in the spinal cord and brainstem. Along with GABA, this compound is one of the body’s main inhibitory neurotransmitters.",
+      "r": "It is the only standard amino acid that is not chiral. For 10 points, name this simplest amino acid, whose side chain is a hydrogen atom."
+    },
+    {
+      "p": "In 2009, NASA scientists reported finding this compound in dust from Comet Wild 2 [“VILT two”] that the Stardust spacecraft had carried back to Earth. It was also found in the Murchison meteorite, which fell in Australia in 1969.",
+      "r": "In collagen, every third amino acid is this one. For 10 points, name this simplest amino acid, whose side chain is just a hydrogen atom."
+    },
+    {
+      "p": "The most common three-unit pattern in collagen’s chains is this amino acid followed by proline and hydroxyproline. This amino acid is the only one small enough to fit in the crowded center of collagen’s triple helix, where the three chains wind together.",
+      "r": "Gelatin is rich in it, since every third amino acid in collagen is this one. For 10 points, name this simplest amino acid."
+    },
+    {
+      "p": "The first step in building heme, the iron-holding part of hemoglobin, joins this amino acid to succinyl-CoA [“SUK-sih-nil koh-AY”] to make a compound called ALA. Every atom of this amino acid also ends up in the rings of the purine bases adenine and guanine.",
+      "r": "It is the only standard amino acid that has no chiral carbon. For 10 points, name this simplest amino acid."
+    },
+    {
+      "p": "Silk fibroin [“FY-broh-in”], the main protein in silkworm silk, is built mostly from repeating units of this amino acid and alanine, which pack into tightly stacked sheets. The proteins in spider silk are also rich in this amino acid.",
+      "r": "Its one-letter code is G. For 10 points, name this simplest amino acid, whose side chain is just a hydrogen atom."
+    },
+    {
+      "p": "In 1901, Emil Fischer and Ernest Fourneau [“foor-NOH”] made the first man-made dipeptide by linking two units of this amino acid with a peptide bond. The chemical formula of this amino acid is C2H5NO2.",
+      "r": "Its side chain is just a hydrogen atom. For 10 points, name this simplest amino acid, which also works as a neurotransmitter."
+    },
+    {
+      "p": "NMDA receptors in the brain cannot open unless glutamate and a partner molecule, either D-serine or this amino acid, are both bound to them. In the spinal cord, this amino acid acts as an inhibitory neurotransmitter, quieting the nerve cells that control muscles.",
+      "r": "It has no L or D form because it is not chiral. For 10 points, name this simplest amino acid."
+    },
+    {
+      "p": "Stanley Miller’s 1953 experiment, which sent electric sparks through methane, ammonia, hydrogen, and water vapor, made large amounts of this amino acid. Chemists describe it as acetic acid, the acid in vinegar, with an amine group added.",
+      "r": "Its side chain is a single hydrogen atom. For 10 points, name this simplest amino acid, which makes up about a third of collagen."
+    },
+    {
+      "p": "On a Ramachandran [“RAH-muh-CHUN-drun”] plot of the angles a protein’s backbone can take, this amino acid covers the widest area, since it has no bulky side chain to bump into its neighbors. That flexibility lets it sit in tight turns, and like proline, it tends to break up alpha helices.",
+      "r": "Its central carbon holds two hydrogen atoms, so it is not chiral. For 10 points, name this simplest amino acid."
+    },
+    {
+      "p": "In the liver, bile acids such as cholic acid are joined to either taurine or this amino acid to make the bile salts that help digest fats. In the kidneys, this amino acid and arginine are the starting materials for creatine, which muscles use to store energy.",
+      "r": "Its name comes from the Greek word for “sweet.” For 10 points, name this simplest amino acid."
+    },
+    {
+      "p": "The antioxidant glutathione [“gloo-tuh-THY-ohn”] is a chain of three amino acids: glutamate, cysteine, and this one. Unlike the other 19 standard amino acids, this one has no mirror-image L and D forms, because it is not chiral.",
+      "r": "In the spinal cord, it works as an inhibitory neurotransmitter. For 10 points, name this simplest amino acid."
+    },
+    {
+      "p": "An enzyme that uses a form of folate turns the amino acid serine into this amino acid by removing one carbon atom. Because the body can make it this way, this amino acid is called nonessential, meaning it does not have to come from food.",
+      "r": "In collagen, every third amino acid is this one. For 10 points, name this simplest amino acid."
+    },
+    {
+      "p": "In the genetic code, the four codons GGU, GGC, GGA, and GGG all stand for this amino acid. Its receptors in the spinal cord and brainstem are chloride channels that make nerve cells less likely to fire.",
+      "r": "It is the only standard amino acid that is not chiral. For 10 points, name this simplest amino acid."
+    },
+    {
+      "p": "In 2016, scientists reported that the European probe Rosetta had detected this compound in the gas streaming off Comet 67P. Rosetta also found phosphorus there, another key ingredient for life.",
+      "r": "This compound is also an inhibitory neurotransmitter. For 10 points, name this simplest amino acid, whose side chain is a single hydrogen atom."
+    }
+  ],
+  "clues": [
+    {
+      "id": "simplest",
+      "tier": "giveaway",
+      "t": "The simplest and smallest of the 20 standard amino acids that build proteins",
+      "k": [
+        "simplest",
+        "20 standard",
+        "smallest"
+      ],
+      "n": 0,
+      "rabbit": "Amino acids"
+    },
+    {
+      "id": "hydrogen-side-chain",
+      "tier": "giveaway",
+      "t": "Its side chain (R group) is just a single hydrogen atom",
+      "k": [
+        "side chain",
+        "hydrogen atom",
+        "r group"
+      ],
+      "n": 0
+    },
+    {
+      "id": "not-chiral",
+      "tier": "giveaway",
+      "t": "The only standard amino acid that is not chiral: its central carbon holds two hydrogen atoms, so it has no L and D forms",
+      "k": [
+        "not chiral",
+        "central carbon",
+        "two hydrogen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "collagen-third",
+      "tier": "giveaway",
+      "t": "Every third amino acid in collagen is this one, so gelatin (made from collagen) is rich in it",
+      "k": [
+        "collagen",
+        "every third",
+        "gelatin"
+      ],
+      "n": 0,
+      "rabbit": "Collagen"
+    },
+    {
+      "id": "neurotransmitter",
+      "tier": "giveaway",
+      "t": "An inhibitory neurotransmitter in the spinal cord and brainstem, along with GABA",
+      "k": [
+        "inhibitory neurotransmitter",
+        "spinal cord",
+        "gaba"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sweet",
+      "tier": "middle",
+      "t": "Its name comes from the Greek word for “sweet,” and it tastes sweet",
+      "k": [
+        "greek",
+        "sweet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "codons",
+      "tier": "middle",
+      "t": "Its four codons all begin with GG (GGU, GGC, GGA, GGG), and its one-letter code is G",
+      "k": [
+        "codons",
+        "one-letter code",
+        "ggu"
+      ],
+      "n": 0
+    },
+    {
+      "id": "strychnine",
+      "tier": "middle",
+      "t": "Its receptors are chloride channels, and the poison strychnine blocks them",
+      "k": [
+        "strychnine",
+        "chloride channels"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nonessential",
+      "tier": "middle",
+      "t": "Nonessential: the body makes it from serine, using a form of folate",
+      "k": [
+        "nonessential",
+        "serine",
+        "folate"
+      ],
+      "n": 0,
+      "rabbit": "B vitamins"
+    },
+    {
+      "id": "flexible",
+      "tier": "middle",
+      "t": "Very flexible, so it is common in tight turns, and like proline it tends to break up alpha helices",
+      "k": [
+        "tight turns",
+        "alpha helices",
+        "proline"
+      ],
+      "n": 0
+    },
+    {
+      "id": "braconnot",
+      "tier": "power",
+      "t": "First isolated in 1820 by Henri Braconnot, who boiled gelatin with acid and called it “sugar of gelatin”",
+      "k": [
+        "braconnot",
+        "1820",
+        "sugar of gelatin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stardust",
+      "tier": "power",
+      "t": "In 2009, NASA reported finding it in comet dust that the Stardust spacecraft brought back from Comet Wild 2",
+      "k": [
+        "stardust",
+        "wild 2",
+        "comet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rosetta",
+      "tier": "power",
+      "t": "In 2016, scientists reported that the probe Rosetta detected it, along with phosphorus, around Comet 67P",
+      "k": [
+        "rosetta",
+        "67p",
+        "phosphorus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "murchison-miller",
+      "tier": "power",
+      "t": "Found in the Murchison meteorite (Australia, 1969); Stanley Miller’s 1953 spark experiment made large amounts of it",
+      "k": [
+        "murchison",
+        "miller",
+        "1953"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heme-purines",
+      "tier": "power",
+      "t": "Heme building starts by joining it to succinyl-CoA to make ALA; all of its atoms end up in purine rings",
+      "k": [
+        "heme",
+        "succinyl-coa",
+        "purine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nmda",
+      "tier": "power",
+      "t": "NMDA receptors cannot open unless glutamate and a partner (it or D-serine) are both bound",
+      "k": [
+        "nmda",
+        "glutamate",
+        "d-serine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "silk",
+      "tier": "power",
+      "t": "Silk fibroin is built mostly from it and alanine; spider silk proteins are also rich in it",
+      "k": [
+        "silk",
+        "fibroin",
+        "alanine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fischer",
+      "tier": "power",
+      "t": "Emil Fischer and Ernest Fourneau linked two units of it into the first man-made dipeptide (1901)",
+      "k": [
+        "fischer",
+        "fourneau",
+        "dipeptide",
+        "1901"
+      ],
+      "n": 0
+    },
+    {
+      "id": "formula",
+      "tier": "power",
+      "t": "Formula C2H5NO2: acetic acid (the acid in vinegar) with an amine group added",
+      "k": [
+        "c2h5no2",
+        "acetic acid",
+        "amine group"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ramachandran",
+      "tier": "power",
+      "t": "Covers the widest area on a Ramachandran plot of the angles a protein’s backbone can take",
+      "k": [
+        "ramachandran",
+        "backbone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triple-helix",
+      "tier": "power",
+      "t": "Collagen’s most common triplet is it, proline, and hydroxyproline; only it fits in the crowded center of the triple helix",
+      "k": [
+        "hydroxyproline",
+        "triple helix",
+        "triplet"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bile-creatine",
+      "tier": "power",
+      "t": "Joined to bile acids to make bile salts; with arginine, it is a starting material for creatine",
+      "k": [
+        "bile salts",
+        "creatine",
+        "arginine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glutathione",
+      "tier": "power",
+      "t": "One of the three amino acids in the antioxidant glutathione, with glutamate and cysteine",
+      "k": [
+        "glutathione",
+        "antioxidant",
+        "cysteine"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not GABA, not proline",
+    "body": "Several glycine clues are shared with other answers. GABA is the other main inhibitory neurotransmitter, but it is not one of the 20 amino acids that build proteins. Proline and hydroxyproline also fill collagen’s chains, and alanine is the next-simplest amino acid. Saying just “amino acid” earns only a prompt.",
+    "fix": "The spinal cord, strychnine, every third spot in collagen, a hydrogen side chain, or “the only one that is not chiral” all mean glycine. GABA works mostly in the brain and is made from glutamate; alanine’s side chain is a methyl group.",
+    "line": "Real answer line: <b><u>Glycine</u></b> (accept <u>Gly</u>; prompt on <u>amino acid</u>; do not accept other amino acids)"
+  },
+  "tests": {
+    "right": [
+      "Glycine",
+      "glycin",
+      "Gly",
+      "aminoacetic acid",
+      "Glysine",
+      "glicine"
+    ],
+    "prompt": [
+      "amino acid",
+      "Amino acids"
+    ],
+    "wrong": [
+      "Alanine",
+      "Serine",
+      "Glycerol",
+      "Glucose",
+      "GABA",
+      "Collagen",
+      "Proline"
+    ]
+  }
+}

@@ -86,8 +86,8 @@ data = {
           "For 10 points, name this peace program that Woodrow Wilson announced to Congress in January 1918."),
         T("The thirteenth item of this program called for an independent Polish state with “free and secure access to the sea.” That demand led the peacemakers at Paris to give Poland a strip of land called the Polish Corridor, which cut East Prussia off from the rest of Germany.",
           "Its last item called for a League of Nations. For 10 points, name this January 1918 peace plan of Woodrow Wilson."),
-        T("This program demanded that Belgium be evacuated and restored, that all French territory be freed, and that “the wrong done to France by Prussia in 1871” over Alsace-Lorraine be righted. The Treaty of Versailles later returned Alsace-Lorraine to France.",
-          "For 10 points, name this list of war aims announced by Woodrow Wilson in January 1918."),
+        T("This program demanded that Belgium be evacuated and restored, that all French territory be freed, and that “the wrong done to France by Prussia in 1871” over Alsace-Lorraine be righted. It also called for Romania, Serbia, and Montenegro to be evacuated.",
+          "The Treaty of Versailles later returned Alsace-Lorraine to France. For 10 points, name this list of war aims announced by Woodrow Wilson in January 1918."),
         T("The first item of this program called for “open covenants of peace, openly arrived at,” so that diplomacy would “proceed always frankly and in the public view.” Its second item called for “absolute freedom of navigation upon the seas.”",
           "For 10 points, name this set of proposals that Woodrow Wilson made for ending World War I."),
         T("Senator Henry Cabot Lodge, who chaired the Foreign Relations Committee, demanded changes called “reservations” before he would accept a treaty that was partly based on this program. The Senate rejected that treaty in 1919 and again in 1920.",
@@ -108,8 +108,8 @@ data = {
           "For 10 points, name this January 1918 speech by Woodrow Wilson that listed his goals for peace."),
         T("This program’s author won the Nobel Peace Prize for 1919, mostly for his work creating the organization proposed in its final item. That item called for “a general association of nations” to protect the independence of “great and small states alike.”",
           "For 10 points, name this plan for peace presented by Woodrow Wilson in January 1918."),
-        T("At the Paris Peace Conference, French premier Georges Clemenceau [“KLEM-un-soh”] demanded harsher terms for Germany than this program had promised. The Treaty of Versailles left out many of its ideas but did create the organization called for in its last item.",
-          "For 10 points, name this peace plan announced by Woodrow Wilson in January 1918.")
+        T("At the Paris Peace Conference, French premier Georges Clemenceau [“KLEM-un-soh”] demanded harsher terms for Germany than this program had promised, including large reparations payments. Clemenceau, Britain’s David Lloyd George, and Italy’s Vittorio Orlando joined this program’s author as the “Big Four.”",
+          "The Treaty of Versailles left out many of this program’s ideas. For 10 points, name this peace plan announced by Woodrow Wilson in January 1918.")
     ],
     "clues": [
         C("wilson-1918", "giveaway", "Woodrow Wilson’s plan for peace after World War I, given to Congress on January 8, 1918", ["woodrow wilson", "january 8, 1918", "congress"], "Woodrow Wilson"),
